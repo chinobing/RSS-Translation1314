@@ -4,111 +4,111 @@
     <title>最新提交：webdev</title>
     <link>https://www.reddit.com/r/webdev/new</link>
     <description>致力于所有 Web 开发的社区：前端和后端。有关更多与设计相关的问题，请尝试 /r/web_design。</description>
-    <lastBuildDate>Wed, 22 Nov 2023 15:14:52 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Nov 2023 21:13:19 GMT</lastBuildDate>
     <item>
-      <title>需要建议：展示后端技能而不需要前端大惊小怪</title>
-      <link>https://www.reddit.com/r/webdev/comments/181b6qn/advice_needed_showcasing_backend_skills_without/</link>
-      <description><![CDATA[开发人员大家好， 我在全栈开发中找到了自己的最佳位置，特别是 MERN 堆栈。虽然我对后端的逻辑复杂性很感兴趣，但我必须承认，调整 CSS 使 div 居中或调整其宽度以适应不同的显示尺寸并不是我的菜，更像是“脱咖啡因”。情况，如果你明白我的意思。 与我的一些喜欢前端舞蹈的朋友不同，我更专注于创建强大且实用的后端解决方案。我很想听听您的创意建议，以有效展示我的后端技能，而无需深入研究前端美学。您推荐哪些平台、项目或策略？如何突出自己在后端开发方面的专业知识？ 欢迎分享您的经验和见解，让我们让后端开发大放异彩！  &amp; #32；由   提交 /u/devZishi   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/181b6qn/advice_needed_showcasing_backend_skills_without/</guid>
-      <pubDate>Wed, 22 Nov 2023 15:06:08 GMT</pubDate>
+      <title>适合需要更简化 Contentful 和 NextJS 系统管理的客户的选项</title>
+      <link>https://www.reddit.com/r/webdev/comments/181jilh/options_for_a_client_that_is_needing_a_more/</link>
+      <description><![CDATA[我正在为具有 Contentful CMS 和 NextJS 前端的客户编写技术评估和推荐报告。他们建立的网站主要针对房地产，每个网站主要是有关建筑物的信息和图像，以及一些联系表格。  他们目前的主要抱怨如下。   很难对网站进行微小的更改，因为他们每次都必须通过开发人员来更新 NextJS 应用程序。 没有简单的方法来查看他们的预览然后只需点击一个按钮即可启动网站。 NextJS 对于他们的用途来说太沉重了。 总体而言，他们的管理流程感觉很复杂  li&gt; 如果“x”是某部分内容在一个地方得到更新，但在其他地方仍然很容易错过它。假设页脚中的电话号码已更新，但嵌套子页面上的电话号码未更新。导致整个网站上的信息不一致。  目前，他们已经进行了一些设置，当信息进入内容丰富的草稿模式时，它将触发构建并将其放在他们的开发人员上供人们审阅的网站。 但是，当事物进入发布模式时，这不会做同样的事情，有人向我解释说，这是因为 nextJS 中的内容可能会丢失应用程序正在寻找，结果出现错误。因此，我对他们当前正在做的事情的理解是手动进入 Contentful，确保发布每条内容，然后手动触发实时构建。这显然会是一个巨大的痛苦。  感觉如果他们能够获得任何程度的可视化构建器功能，即使是非常基本的项目，他们也会很高兴进行这样的升级。  我目前正处于这个问题的最后阶段，有太多的信息需要查看，我什至不知道从哪里开始。感觉 Contentful 拥有他们可能需要的所有东西，这意味着他们不必迁移它，但我不完全确定。 Contentful 提供的环境似乎可以满足他们的需求。解决了他们从开发转向生产时遇到的问题，但由于他们的 NextJS 前端只是硬编码对各个资源的引用，因此将其配置为不手动执行任何类型的发布构建，以避免 CMS 时发生的任何错误和下一个应用程序不同意什么内容应该在某处。合并应用程序似乎是帮助他们的一部分，其文档页面指出“使用合并应用程序，您可以查看非生产环境中的更改，并选择将哪些更改合并到您选择的目标环境中” ”。”这听起来正是他们想要/需要的。  https://www.contentful.com/marketplace/app/shopstory/ Contentfuls Shopstory 应用程序看起来也会为他们提供他们想要的视觉构建器功能。 不过，我不确定 contentful 是否有任何东西可以阻止他们在页面之间产生数据差异。这感觉像是一个管理问题/内容结构问题。  有人有什么建议吗？实际上只是在寻找某种肯定，Contentful 似乎确实适合这个用例，以及某种形式的缩小范围，以防止我的头脑对所有选项感到旋转。  ​   由   提交 /u/TheTakingGiver   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181jilh/options_for_a_client_that_is_needing_a_more/</guid>
+      <pubDate>Wed, 22 Nov 2023 20:58:15 GMT</pubDate>
     </item>
     <item>
-      <title>我应该在前端应用程序中的哪里存储 -api- accessToken？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1818i93/where_should_i_store_api_accesstoken_in_the/</link>
-      <description><![CDATA[我应该在前端应用程序中的哪里存储 -api- accessToken？ - 如 JTW 或 Laravel Sanctum Token 等 - 哪一个比其他更安全？   由   提交 /u/metalocallypse   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1818i93/where_should_i_store_api_accesstoken_in_the/</guid>
-      <pubDate>Wed, 22 Nov 2023 12:56:39 GMT</pubDate>
+      <title>构建 D&D 网站构建器和电子邮件营销平台那么容易吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/181j1tq/is_it_that_easy_to_build_a_dd_website_builder_and/</link>
+      <description><![CDATA[      我一直在研究 CRM 应用程序和销售漏斗/登陆页面应用程序的总体情况，它们都提供了大量的功能，例如拖动和拖动。放弃网站构建器和电子邮件营销工具。 我可以理解提供这些东西的大公司（HubSpot、ClickFunnels、Unbounce 等），但还有一些其他公司也提供相同的复杂工具，甚至是他们自己的工具公司网站似乎直接来自 90 年代，它们看起来更像是一家小型机构，而不是一家科技公司（示例）。 p&gt; https://preview.redd.it /nk3q349tmy1c1.jpg?width=1598&amp;format=pjpg&amp;auto=webp&amp;s=6acb489a3501b4a572546915834682cee07f627e 构建 D&amp;D 网站构建器或电子邮件套件等功能有那么容易吗营销工具？我缺少什么？   由   提交/u/panosflows  [链接] [评论] &lt; /表&gt;]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181j1tq/is_it_that_easy_to_build_a_dd_website_builder_and/</guid>
+      <pubDate>Wed, 22 Nov 2023 20:38:14 GMT</pubDate>
     </item>
     <item>
-      <title>最好的 React 组合，类似于自由职业者使用 Cpanel 和 WordPress</title>
-      <link>https://www.reddit.com/r/webdev/comments/18180p9/best_react_combo_similar_to_using_cpanel_and/</link>
-      <description><![CDATA[所以基本上，我想知道类似于使用 cpanel 的最佳组合，其中包含文件管理器和 CMS，即 WordPress。我知道 CMS 的各种选项，例如 sanity、strapi 等，但我正在寻找一种还提供托管功能的选项，以便您可以将 React js 应用程序（最好是 Next.JS）和 CMS 放在同一个屋檐下，并且它允许文件存储和托管。因此，它非常像 cpanel，您可以使用它来构建将所有内容集中在一处的项目。 我知道 Cpanel 为类似节点提供共享托管，但内容不能像在主目录之外的 WordPress 上那样编辑代码库   由   提交/u/udbasil  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/18180p9/best_react_combo_similar_to_using_cpanel_and/</guid>
-      <pubDate>Wed, 22 Nov 2023 12:29:41 GMT</pubDate>
+      <title>新 Reddit 政策变更后 NSFW Reddit 客户端出现的问题</title>
+      <link>https://www.reddit.com/r/webdev/comments/181ii1h/the_issue_with_nsfw_reddit_clients_since_the_new/</link>
+      <description><![CDATA[我觉得有必要谈谈这个问题。由于 API 政策发生变化，Reddit 上许多流行的 NSFW 客户端都被下架了。我检查了许多已知的：redhotsubs、reddnight、cakeslip、rednudes、reddxxx 等。其中只有两个仍然在线并工作。我个人非常喜欢 Reddit NSFW 客户端，但遗憾的是 Reddit 与众所周知的 SFW 第三方应用程序一起破坏了这种多样性。  这里的问题是，您仍然可以创建一个可用的 NSFW 客户端，尽管存在显着差异。而且我们也不知道这种情况是否会持续很长时间。  致任何参与 NSFW 客户端创建或消费的人：您如何处理这种情况？    由   提交/u/DarkMisanthropia   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181ii1h/the_issue_with_nsfw_reddit_clients_since_the_new/</guid>
+      <pubDate>Wed, 22 Nov 2023 20:14:02 GMT</pubDate>
     </item>
     <item>
-      <title>您认为现在 Web 开发需要的人员减少了吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1817hds/do_you_think_fewer_people_are_required_now_in_web/</link>
-      <description><![CDATA[考虑到大规模解雇和放缓招聘速度，管理层在缩小公司规模的同时仍能舒适地运营，是否做出了正确的选择？如果不是 ChatGPT，您会将其归因于什么？    由   提交 /u/accountforwebdev   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1817hds/do_you_think_fewer_people_are_required_now_in_web/</guid>
-      <pubDate>Wed, 22 Nov 2023 11:57:43 GMT</pubDate>
+      <title>有谁知道这种常见的自动格式化功能叫什么？我想将其实施到我自己的项目中。任何信息、提示、建议等都很感激。谢谢！</title>
+      <link>https://www.reddit.com/r/webdev/comments/181hzff/does_anyone_know_what_this_common_autoformatting/</link>
+      <description><![CDATA[   /u/Looooong_Man  [链接] [评论] &lt; /表&gt;]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181hzff/does_anyone_know_what_this_common_autoformatting/</guid>
+      <pubDate>Wed, 22 Nov 2023 19:51:35 GMT</pubDate>
     </item>
     <item>
-      <title>大家好，您认为“有趣链接”框的边框和背景应该是什么颜色？我正在制作一个 90 年代主题的网站</title>
-      <link>https://www.reddit.com/r/webdev/comments/1816wnt/hello_everyone_what_do_you_think_should_be_the/</link>
-      <description><![CDATA[       由   提交/u/Eleanor_Fox_69   [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1816wnt/hello_everyone_what_do_you_think_should_be_the/</guid>
-      <pubDate>Wed, 22 Nov 2023 11:21:03 GMT</pubDate>
+      <title>开源和支持</title>
+      <link>https://www.reddit.com/r/webdev/comments/181hcyi/open_source_and_support/</link>
+      <description><![CDATA[我知道没有人有义务提供免费支持，但我有时想知道为什么有些开发人员将他们的项目开源，然后却无法回答支持问题？例如，来自 Hugo 主题维护者的此评论。 Hugo 支持论坛中的大多数主题支持问题都是针对主题作者的，但是如果维护者拒绝提供支持，用户如何获得帮助？   由   提交/u/gullydon  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181hcyi/open_source_and_support/</guid>
+      <pubDate>Wed, 22 Nov 2023 19:24:23 GMT</pubDate>
     </item>
     <item>
-      <title>视频播放问题</title>
-      <link>https://www.reddit.com/r/webdev/comments/1816t3u/video_playback_issues/</link>
-      <description><![CDATA[出于某种原因，任何视频内容在桌面浏览器上都可以完美播放，但是在移动设备（iOS）上没有任何内容播放，它只显示海报，我有自动播放，我在以前的网站上解决了这个问题，但我一辈子都不记得我是怎么做到的。 谢谢！ &lt;!-- SC_ON - -&gt;  由   提交/u/conorbutcher22  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1816t3u/video_playback_issues/</guid>
-      <pubDate>Wed, 22 Nov 2023 11:14:59 GMT</pubDate>
+      <title>使用 PyScript 在前端使用 Python</title>
+      <link>https://www.reddit.com/r/webdev/comments/181gong/python_in_the_front_end_using_pyscript/</link>
+      <description><![CDATA[我目前正在重构一个侧重于数据科学/数据分析内容的应用程序。后端主要是Python。我认为我可以通过将一些操作移至前端来使整个应用程序更快，我有两个选择； (1) 使用 JavaScript 进行操作，(2) 使用 PyScript。我倾向于使用 PyScript（前端是 Python），这样就不会大量更改我的代码，同时也使整个过程更快。我很想知道有谁做过这件事或者一般使用过 PyScript。你的经历是什么？我应该继续使用它还是使用普通的旧 JavaScript 来完成这一切？   由   提交 /u/Impossible-Can-3930   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181gong/python_in_the_front_end_using_pyscript/</guid>
+      <pubDate>Wed, 22 Nov 2023 18:55:18 GMT</pubDate>
     </item>
     <item>
-      <title>带有 JSON 图表的静态网站：建议？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1816nrq/static_site_with_charts_fed_with_json_advice/</link>
-      <description><![CDATA[      大家好， https://preview.redd.it/e8erp0dlsv1c1.png?width=1263&amp;format=png &amp; auto=webp&amp;s=b5c418d3e39f0e969ed0b4c1d2c6336c68be2a05 我开发了一个抓取工具来获取一些特定产品的价格，然后将其导出到 JSON 文件中。 现在我期待开发一个前端（公共访问/无需身份验证）基本上可以让最终用户选择产品并在详细图表上查看定价随时间的变化。  我正在寻找主题/模板，一些可以帮助我启动这个前端的基础。我知道有很多选择，但是您个人的建议是什么？  知道我熟悉云计算技术，我希望网站完全静态，以便我将其托管在某些对象存储（可能是 S3）上，绝对不需要动态生成的代码或存储在数据库中的数据。  我也熟悉静态生成器，过去已经使用过 Hugo 以及 GatsbyJS，请参阅我实现的游戏网站示例： https://gaming-francophone.com 。 我使用以下组合：contentful + netlify + gatsby。 请注意，这里的 gatsby 主题是购买了，所以我所做的主要是“配置” （而不是纯粹的开发）和一些小的调整（还添加了搜索算法）。 所以我想知道前端开发（以及培训）是否有任何趋势。我看到了一些有趣的引导“仪表板”模板，我想我可以对其进行微调，但是任何反馈都非常欢迎，谢谢！ ​ &lt;!-- SC_ON - -&gt;  由   提交/u/BlazkoBlast  [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1816nrq/static_site_with_charts_fed_with_json_advice/</guid>
-      <pubDate>Wed, 22 Nov 2023 11:05:17 GMT</pubDate>
+      <title>我的网站需要控制面板吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/181gdog/do_i_need_a_control_panel_for_my_website/</link>
+      <description><![CDATA[我正在重新开始我的网站，最近有一个新的 VPS 可供使用。显然我想把我的网站放在上面，但我想让事情尽可能简单。我知道有多个面板可供选择，但我真的需要它们吗？另外，即使我选择了控制面板，我也不是 100% 有信心应该选择哪一个。  我想我可以让它尽可能简单，但我也想要一些关于如何从这里开始的建议。    由   提交/u/IAskSoMnyQuestions   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181gdog/do_i_need_a_control_panel_for_my_website/</guid>
+      <pubDate>Wed, 22 Nov 2023 18:42:21 GMT</pubDate>
     </item>
     <item>
-      <title>我的销售和营销研讨会应该涵盖哪些内容？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1816kdr/what_should_i_cover_in_my_sales_marketing_workshop/</link>
-      <description><![CDATA[大家好。我正计划开展销售和销售业务。面向小型企业主（包括网络开发人员）的营销研讨会。 我正在寻找有关我应该在其中涵盖的主题的建议。我非常感谢您的意见。   由   提交/u/dchanda03  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1816kdr/what_should_i_cover_in_my_sales_marketing_workshop/</guid>
-      <pubDate>Wed, 22 Nov 2023 10:59:46 GMT</pubDate>
+      <title>Manifest V3 是否真的会杀死广告拦截器，或者只是改变它们的工作方式？</title>
+      <link>https://www.reddit.com/r/webdev/comments/181fn3n/will_manifest_v3_actually_kill_adblockers_or_will/</link>
+      <description><![CDATA[我不断听到人们说 Manifest V3 将杀死广告拦截器。是的，它会阻止我们当前拥有的广告拦截器工作，但是不能构建工作方式略有不同的新广告拦截器，例如在页面加载后使用 CSS 隐藏广告（有点像 AdNauseam）？我知道广告可能会展示一两秒，但这肯定比将它们永久保留在页面上更好吗？   由   提交 /u/KiwiNFLFan   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181fn3n/will_manifest_v3_actually_kill_adblockers_or_will/</guid>
+      <pubDate>Wed, 22 Nov 2023 18:11:11 GMT</pubDate>
     </item>
     <item>
-      <title>需要有关 Apache 反向代理错误的帮助</title>
-      <link>https://www.reddit.com/r/webdev/comments/18163wv/need_help_with_apache_reverse_proxy_error/</link>
-      <description><![CDATA[嗨， 我面临着两个服务器配置下不同错误行为的挑战。在本地主机上运行或没有反向代理时，会出现“504 网关超时”。错误显示在浏览器开发者工具的“网络”选项卡中，这在我的设置中是预期的（其他页面加载没有任何问题）。 但是，当使用反向代理时，用户会直接看到“ “代理错误”浏览器窗口中的消息。 这是我的日志 Docker 日志： 2023-11-17T15:14:19.339905242Z requests.exceptions .ConnectTimeout: HTTPSConnectionPool(host=&#39;[sample-ip-address]&#39;, port=9440): URL 超出最大重试次数：/PrismGateway/services/rest/v1/vms/[unique-id]/stats?metrics=controller_user_bytes&amp; ;intervalInSecs=60&amp;startTimeInUsecs=[start-time]&amp;endTimeInUsecs=[end-time] （由 ConnectTimeoutError(, &#39;连接到 [sample-ip-address] 超时引起。(连接超时=无)&#39;))  Apache 错误日志： [Fri Nov 17 07:11:42.599031 2023] [proxy:error] [ pid 25219:tid 140437838784256] [远程 [sample-ip-address]:53152] AH00898: 从 /users/vm_listing/HVDs 返回的远程服务器读取时出错。  ​ 我正在寻找深入了解为什么在使用和不使用反向代理的情况下会发生这些不同的错误行为，以及如何解决代理错误问题以增强用户体验。我正在使用 Docker、Django 和 Apache 反向代理。 ​ 此外，为了清楚理解，这是我的流程： 没有反向代理：  用户转到仪表板页面。 仪表板页面加载。 “网络”选项卡显示 502 错误（这是预期的）。 此时，当用户单击任何其他页面时，它会毫无问题地加载该页面。  ​ 使用 Apache 反向代理：  用户转到仪表板页面。 仪表板页面加载。 此时，当用户单击任何其他页面时，需要一些时间，然后显示以下错误：“代理错误 - 代理服务器从上游服务器收到无效响应。代理服务器无法处理该请求。原因：从远程服务器读取时出错。”  ​   由   提交/u/Quirky_Bag_4250   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/18163wv/need_help_with_apache_reverse_proxy_error/</guid>
-      <pubDate>Wed, 22 Nov 2023 10:28:31 GMT</pubDate>
+      <title>希望了解如何部署网络应用程序的初学者</title>
+      <link>https://www.reddit.com/r/webdev/comments/181ewir/beginner_looking_to_learn_about_deploying_his_web/</link>
+      <description><![CDATA[我目前是一名软件开发人员。在当前的堆栈中，我觉得现在可以熟练地构建自己的应用程序（Nest.js 后端、用于门户的 Vue 前端、用于移动应用程序的 Flutter 前端）。 但是，什么让我害怕开始自己的项目实际上是部署它们。特别是如果您有需要同时运行的前端和后端。 有 Google Cloud、AWS，可能还有很多其他的。 从哪里开始？你学什么？也许有一些课程可以帮助我入门？ 就上下文而言，我没有开发人员背景，除了 Web 开发训练营（8 周）之外没有接受过适当的教育。我学到的一切都是通过课程和实地工作获得的。   由   提交 /u/iDavy   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181ewir/beginner_looking_to_learn_about_deploying_his_web/</guid>
+      <pubDate>Wed, 22 Nov 2023 17:40:22 GMT</pubDate>
     </item>
     <item>
-      <title>Playwright：如何在测试依赖项之间共享值</title>
-      <link>https://www.reddit.com/r/webdev/comments/18162v7/playwright_how_to_share_values_between_test/</link>
-      <description><![CDATA[嗨， 我正在将 playwright 集成到我的工作流程中。对于我的大多数测试，我需要一些已经存在的东西，例如 SaaS 租户（在本上下文中称为应用程序）。 所以我的想法是使用项目依赖项（效果很好），但我必须将应用程序名称从设置函数传递到实际测试。 我正在摆弄装置，但装置也不共享。我的想法是使用这个： import { test as base } from &#39;./../given-login/_fixture&#39;;从 &#39;../utils&#39; 导入 { getRandomId } ；类型 AppFixture = { appName: string; } 导出 const test = base.extend({ appName: `my-app-${getRandomId()}` });从“@playwright/test”导出{期望}；  我不想在我的系统中有 50 个租户，我认为这也会使调试变得更加困难。  &amp; #32；由   提交/u/sebastianstehle  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/18162v7/playwright_how_to_share_values_between_test/</guid>
-      <pubDate>Wed, 22 Nov 2023 10:26:20 GMT</pubDate>
+      <title>完全新手想要创建一个网页</title>
+      <link>https://www.reddit.com/r/webdev/comments/181eu73/completely_newbie_wants_to_create_a_web_page/</link>
+      <description><![CDATA[我有一个 openmediavault 6 NAS，其中存储了一些文件。我想让其中一些文件可从网页上的直接下载链接下载，该链接只能通过 LAN 访问（通过 tailscale VPN 扩展）。如果有人可以查看这些文件，我并不介意；我只是希望它们易于查找和下载。我已经尝试使用 Apache 2 服务执行此操作，但没有成功。我现在有点迷失了，我基本上对这些东西一无所知。 非常欢迎任何建议   由   提交/u/Loddio  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181eu73/completely_newbie_wants_to_create_a_web_page/</guid>
+      <pubDate>Wed, 22 Nov 2023 17:37:40 GMT</pubDate>
     </item>
     <item>
-      <title>Playwright：如何在测试依赖项之间共享值</title>
-      <link>https://www.reddit.com/r/webdev/comments/18162ur/playwright_how_to_share_values_between_test/</link>
-      <description><![CDATA[嗨， 我正在将 playwright 集成到我的工作流程中。对于我的大多数测试，我需要一些已经存在的东西，例如 SaaS 租户（在本上下文中称为应用程序）。 所以我的想法是使用项目依赖项（效果很好），但我必须将应用程序名称从设置函数传递到实际测试。 我正在摆弄装置，但装置也不共享。我的想法是使用这个： import { test as base } from &#39;./../given-login/_fixture&#39;;从 &#39;../utils&#39; 导入 { getRandomId } ；类型 AppFixture = { appName: string; } 导出 const test = base.extend({ appName: `my-app-${getRandomId()}` });从“@playwright/test”导出{期望}；  我不想在我的系统中有 50 个租户，我认为这也会使调试变得更加困难。  &amp; #32；由   提交/u/sebastianstehle  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/18162ur/playwright_how_to_share_values_between_test/</guid>
-      <pubDate>Wed, 22 Nov 2023 10:26:18 GMT</pubDate>
+      <title>需要 GSOC 准备指南（Google Summer of Code）吗？</title>
+      <link>https://www.reddit.com/r/webdev/comments/181ens2/gsoc_prep_guide_needed_google_summer_of_code/</link>
+      <description><![CDATA[我来自 BCA 背景，目前正在读 3 年中的 2 年。我已经学习了 C 基础知识和一点点数据结构，但我可以说我只知道基础知识，因为我还没有使用过或从中制作过任何东西。在第 2 学期，他们教了我们 Python，这是非常基础的，现在在第 3 学期，他们教了“JAVA”。我不知道 sem 4 及以后会发生什么。 我想为 GSOC 做好准备，甚至为未来的工作机会做准备，阻力较小，我想从事开源、编码工作比赛，建立一些重要的东西，竞争所有这些有趣和疲惫的东西！ 但是我不知道从哪里开始，在哪里停留和练习语言，学习什么，特别关注什么，在这一点我只是很困惑!! 现在我正在学习JAVA并坚持下去，我已经清除了基础知识，我想转向一些DSA的东西，但我不知道它是否是对于未来或面向工作的正确选择，或者对于 GSOC 或市场不需要的更多不必要的复杂性！ 作为一个编码人员，我不是很聪明，但我想要坚持下去，因为我目前不知道任何新的或具有挑战性的东西！ 请指导我完成这个，欢迎您提出所有意见，请随意解释任何相关的不相关的内容！ &lt; p&gt;PS-我来自印度果阿，因此如果各个国家的情况有所不同，请记住它们   由   提交 /u/zerogreyspace   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181ens2/gsoc_prep_guide_needed_google_summer_of_code/</guid>
+      <pubDate>Wed, 22 Nov 2023 17:30:33 GMT</pubDate>
     </item>
     <item>
-      <title>另一个食谱网站的技术堆栈</title>
-      <link>https://www.reddit.com/r/webdev/comments/1815vrh/tech_stack_for_yet_another_recipe_site/</link>
-      <description><![CDATA[嗨！ 我正在制作另一个食谱网站（为了我的烹饪爱好），我目前正在制作为此正在寻找一个好的技术堆栈。我主要是一名具有一些前端经验的后端开发人员。我主要了解 Vue 3 + TS 堆栈和 .Net。 食谱网站要求： - SEO 友好 - 动态食谱，您可以在其中切换成分 - 易于维护 - 将来连接到API（即用户帐户和菜谱注释） - 菜谱可以存储在项目中，即markdown、JSON、简单类等 ​ 当前考虑： ​ - Blazor United (.Net 8) with SSR + SPA + SEO 友好（可能？） + 我最了解的 C# + 未来简单的数据库连接 - 可能还不成熟 - SSR 模式扩展可以是遥远的未来的一个问题  - Vue.js + 将来可以连接到 API + 动态站点可能 + 成熟 - 不适合 SEO ？  - Nuxt.js + SEO 友好 + 简单的 markdown 配方存储 - 连接到 API 可能是一个挑战 - 不成熟 - 并非所有 Vue 东西都会在 Nuxt 工作  你觉得怎么样？我是不是搞错了什么？您会推荐什么？   由   提交/u/Morasiu   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1815vrh/tech_stack_for_yet_another_recipe_site/</guid>
-      <pubDate>Wed, 22 Nov 2023 10:11:30 GMT</pubDate>
+      <title>制作了一个简单的脚本来检查一系列站点是否在线、它们的响应时间以及它们的 SSL 证书何时过期。然后给您发送一封电子邮件 - 认为其他人可能会发现它有帮助</title>
+      <link>https://www.reddit.com/r/webdev/comments/181ekce/made_a_simple_script_that_checks_if_an_array_of/</link>
+      <description><![CDATA[https://github.com/Everything-In-Sync/website-status-checker/blob/main/main.py 我使用 cron 作业运行它 3 次每天。我还有另一个检查损坏链接的工具。一旦我有时间将 html 添加到我的所有网站，我可能会添加一个内容检查器。 编辑：这是检查损坏链接的，您必须安装 Beautiful Soup。它会忽略 cloudflare Turnstyle 验证链接、tel: 和 mailto: ​   由   提交/u/everything_in_sync   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181ekce/made_a_simple_script_that_checks_if_an_array_of/</guid>
+      <pubDate>Wed, 22 Nov 2023 17:26:41 GMT</pubDate>
     </item>
     <item>
-      <title>在我的作品集网站上使用来自 Google 的图像：是否有版权风险？</title>
-      <link>https://www.reddit.com/r/webdev/comments/1815qtw/using_images_from_google_on_my_portfolio_website/</link>
-      <description><![CDATA[嗨！ 我正在开发我的网站，我想在我的关于页面和主页中添加一些图像只是为了让它更加个性化。我正在考虑添加我最喜欢的节目或乐队之类的图片，但我担心版权风险。 对于我从网站上获取的图标，我可以轻松地注明作者，但我我不确定像 DC 漫画这样的大型工作室的版权是如何运作的，哈哈。我如何在我的网站上使用这些图像，或者我应该避免使用它们？谢谢。   由   提交/u/mannaneuraSHYSHYSHY  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1815qtw/using_images_from_google_on_my_portfolio_website/</guid>
-      <pubDate>Wed, 22 Nov 2023 10:01:40 GMT</pubDate>
+      <title>帮忙看下代码，拜托了！我被困住了</title>
+      <link>https://www.reddit.com/r/webdev/comments/181dzj2/help_with_code_please_im_stuck/</link>
+      <description><![CDATA[我正在努力在网站上放置一段代码来搜索文档。它在 Android 或桌面上完美运行。  在 Apple 设备上，如果您输入的文件名不正确并点击搜索，则会显示错误。如果你输入正确，它不会执行任何操作。我不是 100% 确定如何修复它，因为我不熟悉 iPhone / Apple 代码问题。  代码位于 https://www.sepco-solarlighting.com/install-manuals 您可以下载的文件是 23-111（这个没问题）。使用的脚本和代码如下。  &lt;button onclick=“searchOnPage()”&gt;搜索&lt;/button&gt;&lt;/div&gt;   由   提交 /u/Raggindragon   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181dzj2/help_with_code_please_im_stuck/</guid>
+      <pubDate>Wed, 22 Nov 2023 17:01:42 GMT</pubDate>
     </item>
     <item>
-      <title>代码谷</title>
-      <link>https://www.reddit.com/r/webdev/comments/1815o9y/the_valley_of_code/</link>
-      <description><![CDATA[      ▶︎ thevalleyofcode.com&lt; /a&gt; 大家好，我刚刚制作了一个名为代码之谷的新东西，我想有人可能会发现它有用！ 代码之谷 &lt; !-- SC_ON --&gt;  由   提交 /u/flaviocopes   [链接] [评论] &lt; /表&gt;]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/1815o9y/the_valley_of_code/</guid>
-      <pubDate>Wed, 22 Nov 2023 09:57:06 GMT</pubDate>
+      <title>在网络应用程序上寻求建议 - 迷你 IMDb/TV Time Style</title>
+      <link>https://www.reddit.com/r/webdev/comments/181dvkz/asking_for_advice_on_a_web_app_mini_imdbtv_time/</link>
+      <description><![CDATA[大家好， 我正在深入 Web 开发领域，需要您在创建 Web 应用程序方面的专业知识。我的愿景是建立一个迷你 IMDb 或 TV Time 风格的平台，用户可以在其中跟踪电影和节目、发表评论和分享评论。 以下是我当前的困境： &lt;强&gt;1。后端技术：ASP.NET、Node.js 还是其他技术？  我熟悉 C# 并考虑使用 ASP.NET，但我愿意接受建议。对于此类项目，您推荐什么后端技术？  2.前端框架：Svelte 还是替代方案？  我对 Svelte 很感兴趣，但发现它具有挑战性。关于它是否适合相对初学者有什么见解吗？接受有关替代前端框架的建议。  3.数据库困境：MySQL 和 SSMS 的困境  数据库是我当前的痛点。我正在研究 MySQL 和 SSMS，需要一些指导。对于什么最适合这个项目有什么建议吗？  我也在寻找教程、资源、技巧和想法来帮助我完成这个旅程。您的经验和见解将非常有价值！ 请随意分享您的想法、建议或任何想到的事情。预先感谢您提供的任何帮助！    由   提交 /u/ProzulNOCo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181dvkz/asking_for_advice_on_a_web_app_mini_imdbtv_time/</guid>
+      <pubDate>Wed, 22 Nov 2023 16:57:01 GMT</pubDate>
     </item>
     <item>
-      <title>有人努力保持一致吗？</title>
-      <link>https://www.reddit.com/r/webdev/comments/181598p/anyone_struggle_to_stay_consistent/</link>
-      <description><![CDATA[我知道这个 subreddit 不适合这个。在开发和整个学习过程中，我观察到，当我构建项目时，我高度专注且精力充沛，但当到了这个学习时间时，我会挣扎和拖延，发现自己陷入了不必要的事情中。  所以我正在努力养成 q 习惯。并寻找也想养成习惯的人。谁每天都准备好展示。   由   提交 /u/UsedPerformance9925   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/webdev/comments/181598p/anyone_struggle_to_stay_consistent/</guid>
-      <pubDate>Wed, 22 Nov 2023 09:26:36 GMT</pubDate>
+      <title>身份验证和授权：综合指南</title>
+      <link>https://www.reddit.com/r/webdev/comments/181bns5/authentication_and_authorization_a_comprehensive/</link>
+      <description><![CDATA[   &lt; /a&gt;   由   提交/u/karimelghamry  [链接] [评论] &lt; /表&gt;]]></description>
+      <guid>https://www.reddit.com/r/webdev/comments/181bns5/authentication_and_authorization_a_comprehensive/</guid>
+      <pubDate>Wed, 22 Nov 2023 15:27:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
