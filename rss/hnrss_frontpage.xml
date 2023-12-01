@@ -4,14 +4,56 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 01 Dec 2023 03:15:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 Dec 2023 06:19:01 GMT</lastBuildDate>
+    <item>
+      <title>显示 HN：澳大利亚声学天文台搜索</title>
+      <link>https://search.acousticobservatory.org/</link>
+      <description><![CDATA[澳大利亚声学天文台 (https://acousticobservatory.org/) 在整个大陆拥有 360 个麦克风，并且超过 200 万小时的音频。然而，它们都没有被标记：我们想让这个巨大的存储库对研究人员有用。我们发现研究人员经常寻找“硬”信号——特定的叫声类型、可用训练数据很少的鸟类等等。因此，我们构建了一个声学相似性搜索工具，允许研究人员提供他们正在寻找的示例，然后我们将其与 A2O 数据集中的嵌入进行匹配。这里有一些有趣的示例！Laughing Kookaburra：&lt; https://search.acousticobservatory.org/search/index.html?q=h...&gt;太平洋科埃尔：&lt;https://search.acousticobservatory.org/search/index.html?q=h...&gt;楔形鸣叫：&lt;https://search.acousticobservatory.org/search/index.html?q=h...&gt;简而言之，它是如何工作的：
+我们使用音频源分离（&lt;https://blog .research.google/2022/01/separating-birdsong-in-...&gt;）来分离 A2O 数据，然后运行嵌入模型（&lt;https://arxiv.org/abs/2307.06292&gt;) 在分离音频的每个通道上生成声音的“指纹”。所有这些都被放入矢量数据库中，并带有返回原始音频的链接。当有人执行搜索时，我们嵌入他们的音频，然后与矢量数据库中的所有嵌入进行匹配。目前，大约 1% 的 A2O 数据已被索引（每个录音的第一分钟，在整个录音中均匀采样）那天）。我们希望获得初步反馈，然后继续迭代并扩大覆盖范围。（哦，这里有一些进一步阅读：https://blog.google/intl/en-au/company-news/technology/ai-ec... ) 
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=38483650
+积分：4
+# 条评论：0]]></description>
+      <guid>https://search.acousticobservatory.org/</guid>
+      <pubDate>Fri, 01 Dec 2023 05:57:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anduril 宣布推出 Roadrunner，喷气动力 VTOL 无人机</title>
+      <link>https://www.anduril.com/roadrunner/</link>
+      <description><![CDATA[文章网址：https://www.anduril.com/roadrunner/
+评论网址：https://news.ycombinator.com/item?id=38483353
+积分：54
+# 条评论：20]]></description>
+      <guid>https://www.anduril.com/roadrunner/</guid>
+      <pubDate>Fri, 01 Dec 2023 05:04:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>代码的运行次数多于读取次数</title>
+      <link>https://olano.dev/2023-11-30-code-is-run-more-than-read/</link>
+      <description><![CDATA[文章网址：https://olano.dev/2023-11 -30-code-is-run-more-than-read/
+评论网址：https://news.ycombinator.com/item?id=38483181
+积分：16
+# 条评论：2]]></description>
+      <guid>https://olano.dev/2023-11-30-code-is-run-more-than-read/</guid>
+      <pubDate>Fri, 01 Dec 2023 04:37:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何为数据可视化选择更漂亮的颜色（2020）</title>
+      <link>https://blog.datawrapper.de/beautifulcolors/</link>
+      <description><![CDATA[文章网址：https://blog.datawrapper.de/beautifulcolors/
+评论网址：https://news.ycombinator.com/item?id=38482486
+积分：88
+# 条评论：16]]></description>
+      <guid>https://blog.datawrapper.de/beautifulcolors/</guid>
+      <pubDate>Fri, 01 Dec 2023 02:56:14 GMT</pubDate>
+    </item>
     <item>
       <title>苹果计算摄影中的现实扭曲错误</title>
       <link>https://appleinsider.com/articles/23/11/30/a-bride-to-be-discovers-a-reality-bending-mistake-in-apples-computational-photography</link>
       <description><![CDATA[文章网址：https://appleinsider.com/articles/23/11/30/a-bride-to-be-discovers-a-reality-bending-mistake-in-apples-computational-photography&lt; /p&gt;
 评论网址：https://news.ycombinator.com/item?id=38482085
-积分：78
-# 条评论：34]]></description>
+积分：262
+# 条评论：152]]></description>
       <guid>https://appleinsider.com/articles/23/11/30/a-bride-to-be-discovers-a-reality-bending-mistake-in-apples-computational-photography</guid>
       <pubDate>Fri, 01 Dec 2023 02:02:25 GMT</pubDate>
     </item>
@@ -20,8 +62,8 @@
       <link>https://github.com/VikParuchuri/marker</link>
       <description><![CDATA[文章网址：https://github.com/VikParuchuri/marker
 评论网址：https://news.ycombinator.com/item?id=38482007
-积分：29
-# 条评论：3]]></description>
+积分：108
+# 条评论：14]]></description>
       <guid>https://github.com/VikParuchuri/marker</guid>
       <pubDate>Fri, 01 Dec 2023 01:53:45 GMT</pubDate>
     </item>
@@ -30,28 +72,18 @@
       <link>https://arxiv.org/abs/2311.16989</link>
       <description><![CDATA[文章网址：https://arxiv.org/abs/2311.16989
 评论网址：https://news.ycombinator.com/item?id=38481970
-积分：52
-# 条评论：10]]></description>
+积分：127
+# 条评论：56]]></description>
       <guid>https://arxiv.org/abs/2311.16989</guid>
       <pubDate>Fri, 01 Dec 2023 01:49:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Java 8 仍然广泛使用</title>
-      <link>https://www.jetbrains.com/lp/devecosystem-2023/java/</link>
-      <description><![CDATA[文章网址：https://www.jetbrains.com/lp/devecosystem-2023/java/&lt; /a&gt;
-评论网址：https://news.ycombinator.com/item?id=38481859
-积分：33
-# 条评论：22]]></description>
-      <guid>https://www.jetbrains.com/lp/devecosystem-2023/java/</guid>
-      <pubDate>Fri, 01 Dec 2023 01:34:52 GMT</pubDate>
     </item>
     <item>
       <title>音乐地图 – 查找类似音乐</title>
       <link>https://www.music-map.com</link>
       <description><![CDATA[文章网址：https://www.music-map.com
 评论网址：https://news.ycombinator.com/item?id=38481426
-积分：40
-# 条评论：22]]></description>
+积分：83
+# 条评论：47]]></description>
       <guid>https://www.music-map.com</guid>
       <pubDate>Fri, 01 Dec 2023 00:44:21 GMT</pubDate>
     </item>
@@ -60,8 +92,8 @@
       <link>https://rhodesmill.org/skyfield/</link>
       <description><![CDATA[文章网址：https://rhodesmill.org/skyfield/
 评论网址：https://news.ycombinator.com/item?id=38481063
-积分：40
-# 条评论：5]]></description>
+积分：72
+# 条评论：10]]></description>
       <guid>https://rhodesmill.org/skyfield/</guid>
       <pubDate>Fri, 01 Dec 2023 00:03:11 GMT</pubDate>
     </item>
@@ -70,40 +102,10 @@
       <link>https://www.bloomberg.com/news/articles/2023-11-30/broadcom-to-cut-almost-1-300-vmware-jobs-in-california-after-takeover</link>
       <description><![CDATA[文章网址：https://www.bloomberg.com/news/articles/2023-11-30/broadcom-to-cut-almost-1-300-vmware-jobs-in-california-after-takeover&lt; /a&gt;
 评论网址：https://news.ycombinator.com/item?id=38480748
-积分：117
-# 条评论：53]]></description>
+积分：175
+评论数：84]]></description>
       <guid>https://www.bloomberg.com/news/articles/2023-11-30/broadcom-to-cut-almost-1-300-vmware-jobs-in-california-after-takeover</guid>
       <pubDate>Thu, 30 Nov 2023 23:28:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>特斯拉 Cyber​​truck 定价和规格</title>
-      <link>https://www.tesla.com/cybertruck/design</link>
-      <description><![CDATA[文章网址：https://www.tesla.com/cybertruck/design
-评论网址：https://news.ycombinator.com/item?id=38478964
-积分：191
-# 条评论：611]]></description>
-      <guid>https://www.tesla.com/cybertruck/design</guid>
-      <pubDate>Thu, 30 Nov 2023 20:57:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>我是如何制作 Bomb Rush Cyber​​funk 多人游戏的</title>
-      <link>https://notnite.com/blog/slop-crew</link>
-      <description><![CDATA[文章网址：https://notnite.com/blog/slop-crew
-评论网址：https://news.ycombinator.com/item?id=38477940
-积分：55
-# 条评论：4]]></description>
-      <guid>https://notnite.com/blog/slop-crew</guid>
-      <pubDate>Thu, 30 Nov 2023 19:25:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>涡轮帕斯卡 40 岁生日</title>
-      <link>https://blog.marcocantu.com/blog/2023-november-turbopascal40.html</link>
-      <description><![CDATA[文章网址：https://blog.marcocantu.com/blog/2023-november-turbopascal40。 html
-评论网址：https://news.ycombinator.com/item?id=38477688
-积分：187
-# 条评论：113]]></description>
-      <guid>https://blog.marcocantu.com/blog/2023-november-turbopascal40.html</guid>
-      <pubDate>Thu, 30 Nov 2023 19:08:48 GMT</pubDate>
     </item>
     </channel>
 </rss>
