@@ -4,107 +4,118 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 02 Dec 2023 03:14:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 Dec 2023 06:17:40 GMT</lastBuildDate>
     <item>
-      <title>Show HN：面向人工智能的高质量中文网络语言数据集</title>
-      <link>https://news.ycombinator.com/item?id=38495506</link>
-      <description><![CDATA[HN 您好，我们 BAAI 很荣幸地发布中文互联网语料库 (CCI) 数据集 v1.0.0。CCI 的突出特点：- 数据广泛：拥有 104GB 丰富的语言数据，CCI是可用的最全面的中文数据集之一。- 时间范围广泛：从 2001 年到 2023 年，CCI 捕获了广泛的语言演变和趋势。- 可信数据源：所有数据均来自信誉良好的数据源中国互联网平台，确保真实性并减少噪音。- 严格的质量控制：从清洗到重复数据删除，CCI 的处理过程一丝不苟，以保持数据的卓越性。- 道德标准：CCI 遵守严格的道德准则，并仔细过滤敏感内容，确保数据集的安全性和可靠性。- 反作弊措施：我们采取主动措施过滤基准数据集，确保在 CCI 上训练的 AI 模型得到公平、准确的评估。 开始使用 CCI：- BAAI 开放数据存储库：https://data.baai.ac.cn/details/BAAI-CCI- HuggingFace：https://huggingface.co/datasets/ BAAI/CCI-Data我们期待社区的反馈以及 CCI 将促进的人工智能进步。您的参与是该计划成功的关键。
+      <title>为什么我们会受到 Cloudflare 的 DDoSed？</title>
+      <link>https://news.ycombinator.com/item?id=38496357</link>
+      <description><![CDATA[今天早些时候，我们经历了 DDoS HTTP 攻击，OVH 自动缓解了该攻击，因此只造成了最小的破坏。然而，令人担忧的是，它确实发生了，因为所有 ip 都是 Cloudflare ip，例如：162.158.202.23 - - [01/Dec/2023:23:30:02 -0500] &quot;GET / HTTP/1.1&quot; 301 244
+162.158.202.23 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
+172.69.90.116 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
+108.162.221.143 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
+162.158.235.85 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
+162.158.110.143 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
+162.158.110.142 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
+162.158.202.23 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
+162.158.202.22 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
+162.158.202.23 - - [01/Dec/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244（通常每秒收到 1 个请求的网站每秒约有 5800 个请求一天中这个时间或更少，持续了 21.5 分钟）。由于它是 http，我认为它不可能被欺骗。我尝试联系 cloudflare，但除非您是客户，否则无法联系到他们。他们所有的社交媒体聊天都只使用机器人，如果您不是客户，则不可能与人类建立联系。我尝试拨打他们的紧急 DDoS 热线，但对方只是说 cloudflare 不会对我们进行 DDoS（尽管我解释说攻击肯定来自他们的网络，并且有人可能正在使用他们的服务对我们进行 DDoS）。他们只是拒绝将我引向他们公司的其他任何人。该电话号码仅供希望购买 DDoS 防护的人们使用，他们没有任何其他联系方式。那么，有人可以解释一下为什么 Cloudflare 似乎对我们进行 DDoS 攻击，以及到底是如何发生的吗？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=38495506
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=38495506</guid>
-      <pubDate>Sat, 02 Dec 2023 03:07:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>切换到 VoIP 之前要考虑的事项</title>
-      <link>https://www.sandman.com/knowledgebase/voip-research</link>
-      <description><![CDATA[文章网址：https://www.sandman.com/knowledgebase/voip-research
-评论网址：https://news.ycombinator.com/item?id=38495490
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.sandman.com/knowledgebase/voip-research</guid>
-      <pubDate>Sat, 02 Dec 2023 03:03:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenChat Aura 在聊天机器人 UI 中运行</title>
-      <link>https://openchat.team/</link>
-      <description><![CDATA[文章网址：https://openchat.team/
-评论网址：https://news.ycombinator.com/item?id=38495474
-积分：1
-# 条评论：0]]></description>
-      <guid>https://openchat.team/</guid>
-      <pubDate>Sat, 02 Dec 2023 02:59:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>旅行护士的薪酬与长期护士相比如何？</title>
-      <link>https://cepr.net/how-does-travel-nurse-pay-compare-to-permanent-staff-nurses/</link>
-      <description><![CDATA[文章网址：https://cepr.net/how -旅行护士工资与永久员工护士比较/
-评论网址：https://news.ycombinator.com/item?id=38495471
-积分：1
-# 条评论：0]]></description>
-      <guid>https://cepr.net/how-does-travel-nurse-pay-compare-to-permanent-staff-nurses/</guid>
-      <pubDate>Sat, 02 Dec 2023 02:59:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>让蜜蜂适应模仿的气味会增加觅食活动</title>
-      <link>https://link.springer.com/article/10.1007/s13592-023-01019-7</link>
-      <description><![CDATA[文章网址：https://link.springer.com/article/10.1007/s13592- 023-01019-7
-评论网址：https://news.ycombinator.com/item?id=38495458
-积分：1
-# 条评论：0]]></description>
-      <guid>https://link.springer.com/article/10.1007/s13592-023-01019-7</guid>
-      <pubDate>Sat, 02 Dec 2023 02:57:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>并非一切都是谷歌的错（只是很多事情都是谷歌的错）</title>
-      <link>https://blog.railway.app/p/gcp-incidents#background</link>
-      <description><![CDATA[文章网址：​​https://blog.railway.app/p/gcp-incidents#background
-评论网址：https://news.ycombinator.com/item?id=38495438
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blog.railway.app/p/gcp-incidents#background</guid>
-      <pubDate>Sat, 02 Dec 2023 02:52:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>MicroMac Technology 的 Macintosh 升级和加速器主页 (2000)</title>
-      <link>https://www.micromac.com/index.html</link>
-      <description><![CDATA[文章网址：https://www.micromac.com/index.html
-评论网址：https://news.ycombinator.com/item?id=38495397
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.micromac.com/index.html</guid>
-      <pubDate>Sat, 02 Dec 2023 02:46:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>智能本身的进化</title>
-      <link>https://metastable.org/evolution.html</link>
-      <description><![CDATA[文章网址：https://metastable.org/evolution.html
-评论网址：https://news.ycombinator.com/item?id=38495385
+评论网址：https://news.ycombinator.com/item?id=38496357
 积分：2
 # 条评论：0]]></description>
-      <guid>https://metastable.org/evolution.html</guid>
-      <pubDate>Sat, 02 Dec 2023 02:44:33 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=38496357</guid>
+      <pubDate>Sat, 02 Dec 2023 06:06:52 GMT</pubDate>
     </item>
     <item>
-      <title>求职：有时是你认识的人</title>
-      <link>https://www.adatosystems.com/2023/11/27/jobsearch-sometimes-it-is-who-you-know/</link>
-      <description><![CDATA[文章网址：https://www.adatosystems .com/2023/11/27/jobsearch-sometimes-it-is-who-you-know/
-评论网址：https://news.ycombinator.com/item?id=38495349
+      <title>代码降临 2023 第 2 天：立方体难题</title>
+      <link>https://adventofcode.com/2023/day/2</link>
+      <description><![CDATA[文章网址：https://adventofcode.com/2023/day/2
+评论网址：https://news.ycombinator.com/item?id=38496347
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.adatosystems.com/2023/11/27/jobsearch-sometimes-it-is-who-you-know/</guid>
-      <pubDate>Sat, 02 Dec 2023 02:37:57 GMT</pubDate>
+      <guid>https://adventofcode.com/2023/day/2</guid>
+      <pubDate>Sat, 02 Dec 2023 06:05:24 GMT</pubDate>
     </item>
     <item>
-      <title>EKS 上的多区域 Cassandra 与 K8ssandra 和 Kubefed (2022)</title>
-      <link>https://k8ssandra.io/blog/tutorials/how-to/multi-region-cassandra-on-eks-with-k8ssandra-and-kubefed/</link>
-      <description><![CDATA[文章网址：https:/ /k8ssandra.io/blog/tutorials/how-to/multi-region-cassandra-on-eks-with-k8ssandra-and-kubefed/
-评论网址：https://news.ycombinator.com/item?id=38495343
+      <title>询问 HN：哪些无线运营商可以防止 SIM 交换和端口输出攻击？</title>
+      <link>https://news.ycombinator.com/item?id=38496304</link>
+      <description><![CDATA[我已经是 Google Fi 客户很长时间了，优点之一是您需要登录 Google 帐户才能更改服务（而且获得支持很困难，这对于这个上下文）。但是，我正在尝试放弃 Google 服务，并希望在 iOS 上使用 Fastmail，而不是 Android 上的 Gmail，但 Google Fi 需要使用 Google 帐户（例如，对于提供关键功能 IIUC 的 Fi 应用程序）。&lt; p&gt;长话短说，我正在寻找另一家无线运营商，但我担心 SIM 交换攻击（我知道，我不应该使用基于 SMS 的 2FA，但许多服务会回退到并且不允许禁用此功能）。那么，哪些运营商提供某种防止 SIM 交换的保护措施，最好不仅仅是短信发送给您的 4 位 PIN 码（看看您的 Mint）？在我的研究过程中，我发现了 https://www.efani.com/，但这对于一个不知名的人来说似乎有点过分了。我住在美国。提前致谢。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=38496304
 积分：1
 # 条评论：0]]></description>
-      <guid>https://k8ssandra.io/blog/tutorials/how-to/multi-region-cassandra-on-eks-with-k8ssandra-and-kubefed/</guid>
-      <pubDate>Sat, 02 Dec 2023 02:37:04 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=38496304</guid>
+      <pubDate>Sat, 02 Dec 2023 05:56:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>FreeBSD 上的 OpenZFS 数据损坏错误已修复</title>
+      <link>https://www.freebsd.org/security/advisories/FreeBSD-EN-23:16.openzfs.asc</link>
+      <description><![CDATA[文章网址：https://www.freebsd.org/security/咨询/FreeBSD-EN-23:16.openzfs.asc
+评论网址：https://news.ycombinator.com/item?id=38496295
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.freebsd.org/security/advisories/FreeBSD-EN-23:16.openzfs.asc</guid>
+      <pubDate>Sat, 02 Dec 2023 05:55:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>那些使用 ChatGPT 来变得更好的人和其他人之间的世界分裂</title>
+      <link>https://www.businessinsider.com/using-ai-like-chatgpt-will-make-you-more-successful-2023-12</link>
+      <description><![CDATA[文章网址：https://www. businessinsider.com/using-ai-like-chatgpt-will-make-you-more-successful-2023-12
+评论网址：https://news.ycombinator.com/item?id=38496294
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.businessinsider.com/using-ai-like-chatgpt-will-make-you-more-successful-2023-12</guid>
+      <pubDate>Sat, 02 Dec 2023 05:55:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Raspberry Pi 5 秒内零启动</title>
+      <link>https://github.com/IronOxidizer/instant-pi</link>
+      <description><![CDATA[文章网址：https://github.com/IronOxidizer/instant-pi
+评论网址：https://news.ycombinator.com/item?id=38496283
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/IronOxidizer/instant-pi</guid>
+      <pubDate>Sat, 02 Dec 2023 05:52:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>为 Go 编写的易于使用的 OpenID Connect 客户端和服务器库</title>
+      <link>https://github.com/zitadel/oidc</link>
+      <description><![CDATA[文章网址：https://github.com/zitadel/oidc
+评论网址：https://news.ycombinator.com/item?id=38496264
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/zitadel/oidc</guid>
+      <pubDate>Sat, 02 Dec 2023 05:48:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么开源是平台工程的最佳策略</title>
+      <link>https://opensource.net/why-open-source-best-strategy-platform-engineering/</link>
+      <description><![CDATA[文章网址：https://opensource.net/why-open-source-best -策略平台工程/
+评论网址：https://news.ycombinator.com/item?id=38496246
+积分：1
+# 条评论：0]]></description>
+      <guid>https://opensource.net/why-open-source-best-strategy-platform-engineering/</guid>
+      <pubDate>Sat, 02 Dec 2023 05:45:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>给我的狼蛛起名字</title>
+      <link>https://news.ycombinator.com/item?id=38496235</link>
+      <description><![CDATA[我想要一些独特的东西
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=38496235
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=38496235</guid>
+      <pubDate>Sat, 02 Dec 2023 05:43:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>塔尔博特效应</title>
+      <link>https://en.wikipedia.org/wiki/Talbot_effect</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Talbot_effect
+评论网址：https://news.ycombinator.com/item?id=38496223&gt;
+积分：1
+# 条评论：1]]></description>
+      <guid>https://en.wikipedia.org/wiki/Talbot_effect</guid>
+      <pubDate>Sat, 02 Dec 2023 05:41:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
