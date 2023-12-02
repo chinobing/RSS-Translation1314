@@ -4,118 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 02 Dec 2023 06:17:40 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 Dec 2023 09:13:00 GMT</lastBuildDate>
     <item>
-      <title>为什么我们会受到 Cloudflare 的 DDoSed？</title>
-      <link>https://news.ycombinator.com/item?id=38496357</link>
-      <description><![CDATA[今天早些时候，我们经历了 DDoS HTTP 攻击，OVH 自动缓解了该攻击，因此只造成了最小的破坏。然而，令人担忧的是，它确实发生了，因为所有 ip 都是 Cloudflare ip，例如：162.158.202.23 - - [01/Dec/2023:23:30:02 -0500] &quot;GET / HTTP/1.1&quot; 301 244
-162.158.202.23 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
-172.69.90.116 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
-108.162.221.143 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
-162.158.235.85 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
-162.158.110.143 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
-162.158.110.142 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
-162.158.202.23 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
-162.158.202.22 - - [01/12/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244
-162.158.202.23 - - [01/Dec/2023:23:30:02 -0500]“GET / HTTP/1.1”301 244（通常每秒收到 1 个请求的网站每秒约有 5800 个请求一天中这个时间或更少，持续了 21.5 分钟）。由于它是 http，我认为它不可能被欺骗。我尝试联系 cloudflare，但除非您是客户，否则无法联系到他们。他们所有的社交媒体聊天都只使用机器人，如果您不是客户，则不可能与人类建立联系。我尝试拨打他们的紧急 DDoS 热线，但对方只是说 cloudflare 不会对我们进行 DDoS（尽管我解释说攻击肯定来自他们的网络，并且有人可能正在使用他们的服务对我们进行 DDoS）。他们只是拒绝将我引向他们公司的其他任何人。该电话号码仅供希望购买 DDoS 防护的人们使用，他们没有任何其他联系方式。那么，有人可以解释一下为什么 Cloudflare 似乎对我们进行 DDoS 攻击，以及到底是如何发生的吗？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=38496357
+      <title>Show HN：基于浏览器的 AI 图像编辑器</title>
+      <link>https://github.com/smyja/Mirage</link>
+      <description><![CDATA[文章网址：https://github.com/smyja/Mirage
+评论网址：https://news.ycombinator.com/item?id=38497166
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/smyja/Mirage</guid>
+      <pubDate>Sat, 02 Dec 2023 08:57:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过 1 个订阅即可访问一组为您的 SaaS 精心策划的打折工具</title>
+      <link>https://discount-box.lab107.dev/</link>
+      <description><![CDATA[文章网址：https://discount-box.lab107.dev/
+评论网址：https://news.ycombinator.com/item?id=38497149
+积分：1
+# 条评论：0]]></description>
+      <guid>https://discount-box.lab107.dev/</guid>
+      <pubDate>Sat, 02 Dec 2023 08:53:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：代码 CLI 的出现</title>
+      <link>https://github.com/tobias-walle/advent-of-code-cli</link>
+      <description><![CDATA[文章网址：https://github.com/tobias-walle/advent-of-code-命令行
+评论网址：https://news.ycombinator.com/item?id=38497143
 积分：2
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=38496357</guid>
-      <pubDate>Sat, 02 Dec 2023 06:06:52 GMT</pubDate>
+      <guid>https://github.com/tobias-walle/advent-of-code-cli</guid>
+      <pubDate>Sat, 02 Dec 2023 08:52:01 GMT</pubDate>
     </item>
     <item>
-      <title>代码降临 2023 第 2 天：立方体难题</title>
-      <link>https://adventofcode.com/2023/day/2</link>
-      <description><![CDATA[文章网址：https://adventofcode.com/2023/day/2
-评论网址：https://news.ycombinator.com/item?id=38496347
+      <title>缩小 B2B 技术销售的专业知识差距</title>
+      <link>https://www.revgenius.com/mag/bridging-the-expertise-gap-in-b2b-tech-sales/</link>
+      <description><![CDATA[文章网址：https://www.revgenius.com /mag/bridging-the-expertise-gap-in-b2b-tech-sales/
+评论网址：https://news.ycombinator.com/item?id=38497135
 积分：1
 # 条评论：0]]></description>
-      <guid>https://adventofcode.com/2023/day/2</guid>
-      <pubDate>Sat, 02 Dec 2023 06:05:24 GMT</pubDate>
+      <guid>https://www.revgenius.com/mag/bridging-the-expertise-gap-in-b2b-tech-sales/</guid>
+      <pubDate>Sat, 02 Dec 2023 08:50:09 GMT</pubDate>
     </item>
     <item>
-      <title>询问 HN：哪些无线运营商可以防止 SIM 交换和端口输出攻击？</title>
-      <link>https://news.ycombinator.com/item?id=38496304</link>
-      <description><![CDATA[我已经是 Google Fi 客户很长时间了，优点之一是您需要登录 Google 帐户才能更改服务（而且获得支持很困难，这对于这个上下文）。但是，我正在尝试放弃 Google 服务，并希望在 iOS 上使用 Fastmail，而不是 Android 上的 Gmail，但 Google Fi 需要使用 Google 帐户（例如，对于提供关键功能 IIUC 的 Fi 应用程序）。&lt; p&gt;长话短说，我正在寻找另一家无线运营商，但我担心 SIM 交换攻击（我知道，我不应该使用基于 SMS 的 2FA，但许多服务会回退到并且不允许禁用此功能）。那么，哪些运营商提供某种防止 SIM 交换的保护措施，最好不仅仅是短信发送给您的 4 位 PIN 码（看看您的 Mint）？在我的研究过程中，我发现了 https://www.efani.com/，但这对于一个不知名的人来说似乎有点过分了。我住在美国。提前致谢。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=38496304
+      <title>即使对于 Cyber​​truck 超级粉丝来说，Cyber​​truck 也令人失望</title>
+      <link>https://www.vice.com/en/article/4a35ed/the-cybertruck-is-a-disappointment-even-to-cybertruck-superfans</link>
+      <description><![CDATA[文章网址：https:// www.vice.com/en/article/4a35ed/the-cybertruck-is-a-disappointment-even-to-cybertruck-superfans
+评论网址：https://news.ycombinator.com/item?id=38497132
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.vice.com/en/article/4a35ed/the-cybertruck-is-a-disappointment-even-to-cybertruck-superfans</guid>
+      <pubDate>Sat, 02 Dec 2023 08:49:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>各位，我是不是太过分了？ – 使用 Htmx 和 Nginx 的联合应用程序的 POC</title>
+      <link>https://old.reddit.com/r/htmx/comments/188e2ew/guys_have_i_gone_too_far_poc_of_a_federated/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/htmx/comments/188e2ew /guys_have_i_gone_too_far_poc_of_a_federated/
+评论网址：https://news.ycombinator.com/item?id=38497127
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=38496304</guid>
-      <pubDate>Sat, 02 Dec 2023 05:56:40 GMT</pubDate>
+      <guid>https://old.reddit.com/r/htmx/comments/188e2ew/guys_have_i_gone_too_far_poc_of_a_federated/</guid>
+      <pubDate>Sat, 02 Dec 2023 08:48:46 GMT</pubDate>
     </item>
     <item>
-      <title>FreeBSD 上的 OpenZFS 数据损坏错误已修复</title>
-      <link>https://www.freebsd.org/security/advisories/FreeBSD-EN-23:16.openzfs.asc</link>
-      <description><![CDATA[文章网址：https://www.freebsd.org/security/咨询/FreeBSD-EN-23:16.openzfs.asc
-评论网址：https://news.ycombinator.com/item?id=38496295
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.freebsd.org/security/advisories/FreeBSD-EN-23:16.openzfs.asc</guid>
-      <pubDate>Sat, 02 Dec 2023 05:55:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>那些使用 ChatGPT 来变得更好的人和其他人之间的世界分裂</title>
-      <link>https://www.businessinsider.com/using-ai-like-chatgpt-will-make-you-more-successful-2023-12</link>
-      <description><![CDATA[文章网址：https://www. businessinsider.com/using-ai-like-chatgpt-will-make-you-more-successful-2023-12
-评论网址：https://news.ycombinator.com/item?id=38496294
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.businessinsider.com/using-ai-like-chatgpt-will-make-you-more-successful-2023-12</guid>
-      <pubDate>Sat, 02 Dec 2023 05:55:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Raspberry Pi 5 秒内零启动</title>
-      <link>https://github.com/IronOxidizer/instant-pi</link>
-      <description><![CDATA[文章网址：https://github.com/IronOxidizer/instant-pi
-评论网址：https://news.ycombinator.com/item?id=38496283
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/IronOxidizer/instant-pi</guid>
-      <pubDate>Sat, 02 Dec 2023 05:52:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>为 Go 编写的易于使用的 OpenID Connect 客户端和服务器库</title>
-      <link>https://github.com/zitadel/oidc</link>
-      <description><![CDATA[文章网址：https://github.com/zitadel/oidc
-评论网址：https://news.ycombinator.com/item?id=38496264
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/zitadel/oidc</guid>
-      <pubDate>Sat, 02 Dec 2023 05:48:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么开源是平台工程的最佳策略</title>
-      <link>https://opensource.net/why-open-source-best-strategy-platform-engineering/</link>
-      <description><![CDATA[文章网址：https://opensource.net/why-open-source-best -策略平台工程/
-评论网址：https://news.ycombinator.com/item?id=38496246
-积分：1
-# 条评论：0]]></description>
-      <guid>https://opensource.net/why-open-source-best-strategy-platform-engineering/</guid>
-      <pubDate>Sat, 02 Dec 2023 05:45:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>给我的狼蛛起名字</title>
-      <link>https://news.ycombinator.com/item?id=38496235</link>
-      <description><![CDATA[我想要一些独特的东西
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=38496235
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=38496235</guid>
-      <pubDate>Sat, 02 Dec 2023 05:43:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>塔尔博特效应</title>
-      <link>https://en.wikipedia.org/wiki/Talbot_effect</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Talbot_effect
-评论网址：https://news.ycombinator.com/item?id=38496223&gt;
+      <title>通过 2 个反作用轮和磁扭杆控制哈勃太空望远镜</title>
+      <link>https://ntrs.nasa.gov/citations/20080023343</link>
+      <description><![CDATA[文章网址：https://ntrs.nasa.gov/itations/20080023343
+评论网址：https://news.ycombinator.com/item?id=38496996
 积分：1
 # 条评论：1]]></description>
-      <guid>https://en.wikipedia.org/wiki/Talbot_effect</guid>
-      <pubDate>Sat, 02 Dec 2023 05:41:04 GMT</pubDate>
+      <guid>https://ntrs.nasa.gov/citations/20080023343</guid>
+      <pubDate>Sat, 02 Dec 2023 08:26:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 JSON 数据制作的交互式 Web 组件示例</title>
+      <link>https://wobblypaint.com/example</link>
+      <description><![CDATA[文章网址：https://wobblypaint.com/example
+评论网址：https://news.ycombinator.com/item?id=38496987
+积分：1
+# 条评论：1]]></description>
+      <guid>https://wobblypaint.com/example</guid>
+      <pubDate>Sat, 02 Dec 2023 08:24:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>科幻作家在 9 个月内“写”了 97 个人工智能生成的故事</title>
+      <link>https://www.theregister.com/2023/05/22/ai_in_brief/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2023/05/22/ai_in_brief/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=38496968
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theregister.com/2023/05/22/ai_in_brief/</guid>
+      <pubDate>Sat, 02 Dec 2023 08:20:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能可以通过听键盘的声音来判断你正在输入什么</title>
+      <link>https://www.theregister.com/2023/08/07/audio_keystroke_security/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2023/08/07/audio_keyrinkle_security/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=38496967
+积分：1
+# 条评论：2]]></description>
+      <guid>https://www.theregister.com/2023/08/07/audio_keystroke_security/</guid>
+      <pubDate>Sat, 02 Dec 2023 08:20:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
