@@ -26,7 +26,6 @@
  - source022 [https://hnrss.org/newest](https://hnrss.org/newest) -> [hnrss_newest](rss/hnrss_newest.xml)
  - source024 [https://www.reddit.com/.rss](https://www.reddit.com/.rss) -> [reddit_front_page](rss/reddit_front_page.xml)
  - source025 [https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml](https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml) -> [nytimes_HomePage](rss/nytimes_HomePage.xml)
- - source026 [https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml](https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml) -> [WSJcomUSBusiness](rss/WSJcomUSBusiness.xml)
  - source027 [https://feeds.a.dj.com/rss/RSSMarketsMain.xml](https://feeds.a.dj.com/rss/RSSMarketsMain.xml) -> [WSJMarketsMain](rss/WSJMarketsMain.xml)
  - source028 [https://feeds.a.dj.com/rss/RSSWorldNews.xml](https://feeds.a.dj.com/rss/RSSWorldNews.xml) -> [WSJWorldNews](rss/WSJWorldNews.xml)
  - source029 [https://feeds.a.dj.com/rss/RSSWSJD.xml](https://feeds.a.dj.com/rss/RSSWSJD.xml) -> [WSJWSJD](rss/WSJWSJD.xml)
