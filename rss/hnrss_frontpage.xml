@@ -4,14 +4,105 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 07 Dec 2023 03:15:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 Dec 2023 06:18:54 GMT</lastBuildDate>
+    <item>
+      <title>珍宝柜为现代博物馆奠定了基础</title>
+      <link>https://www.smithsonianmag.com/history/how-cabinets-of-curiosities-laid-the-foundation-for-modern-museums-180983265/</link>
+      <description><![CDATA[文章网址：https:/ /www.smithsonianmag.com/history/how-cabinets-of-curiosities-laid-the-foundation-for-modern-museums-180983265/
+评论网址：https://news.ycombinator.com/item?id=38553259
+积分：4
+# 条评论：0]]></description>
+      <guid>https://www.smithsonianmag.com/history/how-cabinets-of-curiosities-laid-the-foundation-for-modern-museums-180983265/</guid>
+      <pubDate>Thu, 07 Dec 2023 05:44:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>告诉 HN：ZFS 静默数据损坏错误修复 – 我的研究结果</title>
+      <link>https://news.ycombinator.com/item?id=38553008</link>
+      <description><![CDATA[嘿 HN，由于我个人受到这个 bug[1] 的影响，这让我不知何故感到害怕，我想我应该发布我的研究结果来讨论细节。我必须说我对 ZFS 失去了一点信任，因为它被作为坚如磐石、牢不可破的文件系统“出售”，现在……ZFS 的绝对复杂性让我认为这不是源代码中存在的唯一未检测到的此类错误然而，沟通清晰且精确，其他文件系统也有类似的问题，我只是喜欢 zfs 的功能集。所以我会再试一次，希望未来的修订是安全的(r)。这是我迄今为止的结论： 1. ZFS 最近讨论了一个无声数据损坏错误霍尼韦尔 [6][7]
+  2. `Silent` 意味着，如果不升级 zfs，你就无法做任何事情（清理、检查等没有帮助）
+  3. 没有工具可以检查您的数据是否已损坏
+  4.只有一次写入且未触及的数据才应该相对安全（例如备份），该bug主要影响读取数据[4]
+  5. 设置 `zfs_dmu_offset_next_sync=0` 会降低受影响的概率，但不能保证[4]
+  6. 该错误影响 2.2.2 和 2.1.14[2] 之前的任何版本，但在 2.1.4 和 2.2.1 之间更有可能发生，因为 coreutils 中的行为发生了变化
+  7. 引起问题的时间已经存在很久了（从 2006 年开始？）——这是一个问号 [4]
+  8.执行`zfs version`来查看版本号
+
+
+因此，确保数据正常的唯一方法是在文件级别对另一个文件系统上的所有文件进行校验和，并在将 zfs 升级到最新版本后比较或重新传输另一个文件系统中的所有数据。如果我错过了，请告诉我来源：[1]：https://www.phoronix.com/news/OpenZFS-Data-Corruption-Battle[2]：https://www.phoronix.com/news/OpenZFS-Data-Corruption-Battle[2]：https://www.phoronix.com/news/OpenZFS-Data-Corruption-Battle phoronix.com/news/OpenZFS-2.2.2-Released[3]：https://www.theregister.com/2023/12/04/two_new_versions_of_openzfs/[4]：https://www .reddit.com/r/zfs/comments/1826lgs/psa_its_not_block_cloning_its_a_data_corruption/[5]：https://news.ycombinator.com/item?id=38519382[6]：https://news. ycombinator.com/item?id=38405731[7]: https://news.ycombinator.com/item?id=38380240
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=38553008
+积分：45
+评论数量：9]]></description>
+      <guid>https://news.ycombinator.com/item?id=38553008</guid>
+      <pubDate>Thu, 07 Dec 2023 04:59:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>新立法提议将华尔街撤出房地产市场</title>
+      <link>https://www.nytimes.com/2023/12/06/realestate/wall-street-housing-market.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/ 2023/12/06/realestate/wall-street-housing-market.html
+评论网址：https://news.ycombinator.com/item?id=38552823
+积分：20
+# 条评论：5]]></description>
+      <guid>https://www.nytimes.com/2023/12/06/realestate/wall-street-housing-market.html</guid>
+      <pubDate>Thu, 07 Dec 2023 04:25:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>为 Messenger 构建端到端安全性 – Meta 的工程</title>
+      <link>https://engineering.fb.com/2023/12/06/security/building-end-to-end-security-for-messenger/</link>
+      <description><![CDATA[文章网址：https://engineering .fb.com/2023/12/06/security/building-end-to-end-security-for-messenger/
+评论网址：https://news.ycombinator.com/item?id=38552789
+积分：34
+# 条评论：15]]></description>
+      <guid>https://engineering.fb.com/2023/12/06/security/building-end-to-end-security-for-messenger/</guid>
+      <pubDate>Thu, 07 Dec 2023 04:21:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>稍长一点的精益 4 证明之旅</title>
+      <link>https://terrytao.wordpress.com/2023/12/05/a-slightly-longer-lean-4-proof-tour/</link>
+      <description><![CDATA[文章网址：https://terrytao.wordpress .com/2023/12/05/a-slightly-longer-lean-4-proof-tour/
+评论网址：https://news.ycombinator.com/item?id=38552628
+积分：12
+# 条评论：1]]></description>
+      <guid>https://terrytao.wordpress.com/2023/12/05/a-slightly-longer-lean-4-proof-tour/</guid>
+      <pubDate>Thu, 07 Dec 2023 03:49:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bungie 开发者在裁员、裁员、担心索尼被收购的背景下营造出“令人心碎”的氛围</title>
+      <link>https://www.ign.com/articles/bungie-devs-say-atmosphere-is-soul-crushing-amid-layoffs-cuts-and-fear-of-total-sony-takeover</link>
+      <description><![CDATA[文章网址：https://www.ign.com/articles/bungie-devs-say-atmosphere-is-soul-crushing-amid-layoffs-cuts-and-fear-of-total-sony-takeover&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=38552434
+积分：58
+# 条评论：54]]></description>
+      <guid>https://www.ign.com/articles/bungie-devs-say-atmosphere-is-soul-crushing-amid-layoffs-cuts-and-fear-of-total-sony-takeover</guid>
+      <pubDate>Thu, 07 Dec 2023 03:17:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>极大的望远镜将改变天文学</title>
+      <link>https://www.economist.com/interactive/science-and-technology/2023/12/06/the-extremely-telescope-will-trasform-astronomy</link>
+      <description><![CDATA[文章网址：https： //www.economist.com/interactive/science-and-technology/2023/12/06/the-extremely-telescope-will-trasform-astronomy
+评论网址：https://news.ycombinator.com/item?id=38552267
+积分：13
+# 条评论：2]]></description>
+      <guid>https://www.economist.com/interactive/science-and-technology/2023/12/06/the-extremely-telescope-will-trasform-astronomy</guid>
+      <pubDate>Thu, 07 Dec 2023 02:55:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>受大脑启发的高效修剪：尖峰神经网络的关键</title>
+      <link>https://arxiv.org/abs/2311.16141</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2311.16141
+评论网址：https://news.ycombinator.com/item?id=38552186
+积分：10
+# 条评论：0]]></description>
+      <guid>https://arxiv.org/abs/2311.16141</guid>
+      <pubDate>Thu, 07 Dec 2023 02:42:38 GMT</pubDate>
+    </item>
     <item>
       <title>Windows 11 在与 3 个 Linux 游戏发行版的游戏性能测试中垫底</title>
       <link>https://www.notebookcheck.net/Windows-11-scores-dead-last-in-gaming-performance-tests-against-3-Linux-gaming-distros.778624.0.html</link>
       <description><![CDATA[文章网址：https://www.notebookcheck.net/Windows-11-scores-dead-last-in-gaming-performance-tests-against-3-Linux-gaming-distros.778624.0.html&lt; /p&gt;
 评论网址：https://news.ycombinator.com/item?id=38552159
-积分：6
-# 条评论：0]]></description>
+积分：80
+# 条评论：44]]></description>
       <guid>https://www.notebookcheck.net/Windows-11-scores-dead-last-in-gaming-performance-tests-against-3-Linux-gaming-distros.778624.0.html</guid>
       <pubDate>Thu, 07 Dec 2023 02:39:32 GMT</pubDate>
     </item>
@@ -20,90 +111,10 @@
       <link>https://stackdiary.com/23andme-updates-tos-to-force-binding-arbitration/</link>
       <description><![CDATA[文章网址：https://stackdiary.com/23andme-updates-tos-to -强制绑定仲裁/
 评论网址：https://news.ycombinator.com/item?id=38551890
-积分：61
-# 条评论：23]]></description>
+积分：166
+评论数：86]]></description>
       <guid>https://stackdiary.com/23andme-updates-tos-to-force-binding-arbitration/</guid>
       <pubDate>Thu, 07 Dec 2023 01:54:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>警方可以监视您的 iOS 和 Android 推送通知</title>
-      <link>https://www.wired.com/story/apple-google-push-notification-surveillance/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/apple-google -推送通知监视/
-评论网址：https://news.ycombinator.com/item?id=38551859
-积分：26
-# 条评论：1]]></description>
-      <guid>https://www.wired.com/story/apple-google-push-notification-surveillance/</guid>
-      <pubDate>Thu, 07 Dec 2023 01:47:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>不会写代码的高级工程师</title>
-      <link>https://josvisser.substack.com/p/senior-engineers-who-dont-code</link>
-      <description><![CDATA[文章网址：https://josvisser.substack.com/p/senior-engineers-谁不编码
-评论网址：https://news.ycombinator.com/item?id=38551249
-积分：11
-# 条评论：4]]></description>
-      <guid>https://josvisser.substack.com/p/senior-engineers-who-dont-code</guid>
-      <pubDate>Thu, 07 Dec 2023 00:13:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>拓扑量子位的故事</title>
-      <link>https://cacm.acm.org/magazines/2023/12/278144-tales-of-topological-qubits/fulltext</link>
-      <description><![CDATA[文章网址：https://cacm.acm.org/杂志/2023/12/278144-tales-of-topological-qubits/全文
-评论网址：https://news.ycombinator.com/item?id=38551085
-积分：8
-# 条评论：0]]></description>
-      <guid>https://cacm.acm.org/magazines/2023/12/278144-tales-of-topological-qubits/fulltext</guid>
-      <pubDate>Wed, 06 Dec 2023 23:51:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究人员发现磁单极子</title>
-      <link>https://www.cam.ac.uk/research/news/diamonds-and-rust-help-unveil-impossible-quasi-particles</link>
-      <description><![CDATA[文章网址：https://www. cam.ac.uk/research/news/diamonds-and-rust-help-unveil-impossible-准粒子
-评论网址：https://news.ycombinator.com/item?id=38550994
-积分：86
-# 条评论：40]]></description>
-      <guid>https://www.cam.ac.uk/research/news/diamonds-and-rust-help-unveil-impossible-quasi-particles</guid>
-      <pubDate>Wed, 06 Dec 2023 23:38:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Merlin Sound ID – 使用手机识别鸟类（工作原理）</title>
-      <link>https://www.macaulaylibrary.org/2021/06/22/behind-the-scenes-of-sound-id-in-merlin/</link>
-      <description><![CDATA[文章网址：https://www .macaulaylibrary.org/2021/06/22/behind-the-scenes-of-sound-id-in-merlin/
-评论网址：https://news.ycombinator.com/item?id=38550737
-积分：56
-# 条评论：7]]></description>
-      <guid>https://www.macaulaylibrary.org/2021/06/22/behind-the-scenes-of-sound-id-in-merlin/</guid>
-      <pubDate>Wed, 06 Dec 2023 23:08:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>克劳德的人性表现在很大程度上取决于提示风格</title>
-      <link>https://www.anthropic.com/index/claude-2-1-prompting</link>
-      <description><![CDATA[文章网址：https://www.anthropic.com/index/claude-2-1-提示
-评论网址：https://news.ycombinator.com/item?id=38550675
-积分：86
-# 条评论：25]]></description>
-      <guid>https://www.anthropic.com/index/claude-2-1-prompting</guid>
-      <pubDate>Wed, 06 Dec 2023 23:00:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>戈登·弗里曼在奥运会上</title>
-      <link>https://moonbase.lgbt/blog/100m-accelerated-backhopping/</link>
-      <description><![CDATA[文章网址：https://moonbase.lgbt/blog/100m-accelerated-backhopping/&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=38550408
-积分：107
-# 条评论：23]]></description>
-      <guid>https://moonbase.lgbt/blog/100m-accelerated-backhopping/</guid>
-      <pubDate>Wed, 06 Dec 2023 22:32:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD MI300 性能 – 比 H100 快，但快多少？</title>
-      <link>https://www.semianalysis.com/p/amd-mi300-performance-faster-than</link>
-      <description><![CDATA[文章网址：https://www.semianalysis.com/p/amd-mi300-性能比 更快
-评论网址：https://news.ycombinator.com/item?id=38550271
-积分：63
-# 条评论：47]]></description>
-      <guid>https://www.semianalysis.com/p/amd-mi300-performance-faster-than</guid>
-      <pubDate>Wed, 06 Dec 2023 22:17:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
