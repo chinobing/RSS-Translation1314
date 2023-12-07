@@ -4,66 +4,64 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 07 Dec 2023 09:14:59 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 Dec 2023 12:27:06 GMT</lastBuildDate>
+    <item>
+      <title>Ploomber (YC W22) 正在纽约招聘软件工程师</title>
+      <link>https://www.ycombinator.com/companies/ploomber/jobs</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/ploomber/jobs
+评论网址：https://news.ycombinator.com/item?id=38555445
+积分：0
+# 条评论：0]]></description>
+      <guid>https://www.ycombinator.com/companies/ploomber/jobs</guid>
+      <pubDate>Thu, 07 Dec 2023 12:01:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>23andme：700 万个账户被黑 DNA 数据</title>
+      <link>https://www.theguardian.com/technology/2023/dec/05/23andme-hack-data-breach</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/technology/ 2023/dec/05/23andme-黑客数据泄露
+评论网址：https://news.ycombinator.com/item?id=38555358
+积分：11
+# 条评论：2]]></description>
+      <guid>https://www.theguardian.com/technology/2023/dec/05/23andme-hack-data-breach</guid>
+      <pubDate>Thu, 07 Dec 2023 11:47:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>卡塔尔门档案</title>
+      <link>https://www.politico.eu/article/european-parliament-qatargate-corruption-scandal-leaked-documents-pier-antonio-panzeri-francesco-giorgi-eva-kaili/</link>
+      <description><![CDATA[文章网址：https://www.politico.eu/article/european-parliament-qatargate-corruption-scandal-leaked-documents-pier-antonio-panzeri-francesco-giorgi-eva-kaili/
+评论网址：https://news.ycombinator.com/item?id=38554768
+积分：23
+# 条评论：1]]></description>
+      <guid>https://www.politico.eu/article/european-parliament-qatargate-corruption-scandal-leaked-documents-pier-antonio-panzeri-francesco-giorgi-eva-kaili/</guid>
+      <pubDate>Thu, 07 Dec 2023 10:08:55 GMT</pubDate>
+    </item>
     <item>
       <title>他向亚马逊揭发了此事。他仍在付出代价</title>
       <link>https://www.ft.com/content/de5fea12-2938-4c20-b394-10ca258a5fa1</link>
       <description><![CDATA[文章网址：https://www.ft.com/content/de5fea12-2938- 4c20-b394-10ca258a5fa1
 评论网址：https://news.ycombinator.com/item?id=38554159
-积分：20
-# 条评论：1]]></description>
+积分：211
+# 条评论：158]]></description>
       <guid>https://www.ft.com/content/de5fea12-2938-4c20-b394-10ca258a5fa1</guid>
       <pubDate>Thu, 07 Dec 2023 08:27:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>萨尔瓦多的比特币赌注得到回报了吗？</title>
-      <link>https://www.bbc.com/news/technology-67637245</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/technology-67637245
-评论网址：https://news.ycombinator.com/item?id=38553934
-积分：12
-# 条评论：1]]></description>
-      <guid>https://www.bbc.com/news/technology-67637245</guid>
-      <pubDate>Thu, 07 Dec 2023 07:48:14 GMT</pubDate>
     </item>
     <item>
       <title>珍宝柜为现代博物馆奠定了基础</title>
       <link>https://www.smithsonianmag.com/history/how-cabinets-of-curiosities-laid-the-foundation-for-modern-museums-180983265/</link>
       <description><![CDATA[文章网址：https:/ /www.smithsonianmag.com/history/how-cabinets-of-curiosities-laid-the-foundation-for-modern-museums-180983265/
 评论网址：https://news.ycombinator.com/item?id=38553259
-积分：20
-# 条评论：3]]></description>
+积分：33
+# 条评论：8]]></description>
       <guid>https://www.smithsonianmag.com/history/how-cabinets-of-curiosities-laid-the-foundation-for-modern-museums-180983265/</guid>
       <pubDate>Thu, 07 Dec 2023 05:44:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>告诉 HN：ZFS 静默数据损坏错误修复 – 我的研究结果</title>
-      <link>https://news.ycombinator.com/item?id=38553008</link>
-      <description><![CDATA[嘿 HN，由于我个人受到这个 bug[1] 的影响，这让我不知何故感到害怕，我想我应该发布我的研究结果来讨论细节。我必须说我对 ZFS 失去了一点信任，因为它被作为坚如磐石、牢不可破的文件系统“出售”，现在……ZFS 的绝对复杂性让我认为这不是源代码中存在的唯一未检测到的此类错误然而，沟通清晰且精确，其他文件系统也有类似的问题，我只是喜欢 zfs 的功能集。所以我会再试一次，希望未来的修订是安全的(r)。这是我迄今为止的结论： 1. ZFS 最近讨论了一个无声数据损坏错误霍尼韦尔 [6][7]
-  2. `Silent` 意味着，如果不升级 zfs，你就无法做任何事情（清理、检查等没有帮助）
-  3. 没有工具可以检查您的数据是否已损坏
-  4.只有一次写入且未触及的数据才应该相对安全（例如备份），该bug主要影响读取数据[4]
-  5. 设置 `zfs_dmu_offset_next_sync=0` 会降低受影响的概率，但不能保证[4]
-  6. 该错误影响 2.2.2 和 2.1.14[2] 之前的任何版本，但在 2.1.4 和 2.2.1 之间更有可能发生，因为 coreutils 中的行为发生了变化
-  7. 引起问题的时间已经存在很久了（从 2006 年开始？）——这是一个问号 [4]
-  8.执行`zfs version`来查看版本号
-  9. 如果你害怕（我害怕），请阅读此评论：https://news.ycombinator.com/item?id=38553342
-
-
-因此，确保数据正常的唯一方法是在文件级别对另一个文件系统上的所有文件进行校验和，并在将 zfs 升级到最新版本后比较或重新传输另一个文件系统中的所有数据。如果我错过了，请告诉我出问题或出了问题。来源：[1]： https://www.phoronix.com/news/OpenZFS-Data-Corruption-Battle[2]：https://www.phoronix.com/news/OpenZFS-2.2.2-发布[3]：https://www.theregister.com/2023/12/04/two_new_versions_of_o... [4]: https://www.reddit.com/r/zfs /comments/1826lgs/psa_its_not_bl...[5]：https://news.ycombinator。 com/item?id=38519382[6]: https://news.ycombinator.com/ item?id=38405731[7]: &lt;​​a href=&quot;https://news.ycombinator.com/item?id=38380240&quot;&gt;https://news.ycombinator.com/item? id=38380240
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=38553008
-积分：66
-# 条评论：35]]></description>
-      <guid>https://news.ycombinator.com/item?id=38553008</guid>
-      <pubDate>Thu, 07 Dec 2023 04:59:49 GMT</pubDate>
     </item>
     <item>
       <title>为 Messenger 构建端到端安全性</title>
       <link>https://engineering.fb.com/2023/12/06/security/building-end-to-end-security-for-messenger/</link>
       <description><![CDATA[文章网址：https://engineering .fb.com/2023/12/06/security/building-end-to-end-security-for-messenger/
 评论网址：https://news.ycombinator.com/item?id=38552789
-积分：104
-# 条评论：172]]></description>
+积分：165
+# 条评论：257]]></description>
       <guid>https://engineering.fb.com/2023/12/06/security/building-end-to-end-security-for-messenger/</guid>
       <pubDate>Thu, 07 Dec 2023 04:21:51 GMT</pubDate>
     </item>
@@ -72,8 +70,8 @@
       <link>https://terrytao.wordpress.com/2023/12/05/a-slightly-longer-lean-4-proof-tour/</link>
       <description><![CDATA[文章网址：https://terrytao.wordpress .com/2023/12/05/a-slightly-longer-lean-4-proof-tour/
 评论网址：https://news.ycombinator.com/item?id=38552628
-积分：32
-# 条评论：3]]></description>
+积分：54
+评论数量：9]]></description>
       <guid>https://terrytao.wordpress.com/2023/12/05/a-slightly-longer-lean-4-proof-tour/</guid>
       <pubDate>Thu, 07 Dec 2023 03:49:56 GMT</pubDate>
     </item>
@@ -82,8 +80,8 @@
       <link>https://www.economist.com/interactive/science-and-technology/2023/12/06/the-extremely-telescope-will-trasform-astronomy</link>
       <description><![CDATA[文章网址：https： //www.economist.com/interactive/science-and-technology/2023/12/06/the-extremely-telescope-will-trasform-astronomy
 评论网址：https://news.ycombinator.com/item?id=38552267
-积分：27
-# 条评论：5]]></description>
+积分：37
+# 条评论：15]]></description>
       <guid>https://www.economist.com/interactive/science-and-technology/2023/12/06/the-extremely-telescope-will-trasform-astronomy</guid>
       <pubDate>Thu, 07 Dec 2023 02:55:40 GMT</pubDate>
     </item>
@@ -92,8 +90,8 @@
       <link>https://arxiv.org/abs/2311.16141</link>
       <description><![CDATA[文章网址：https://arxiv.org/abs/2311.16141
 评论网址：https://news.ycombinator.com/item?id=38552186
-积分：22
-# 条评论：0]]></description>
+积分：33
+# 条评论：1]]></description>
       <guid>https://arxiv.org/abs/2311.16141</guid>
       <pubDate>Thu, 07 Dec 2023 02:42:38 GMT</pubDate>
     </item>
@@ -102,20 +100,10 @@
       <link>https://stackdiary.com/23andme-updates-tos-to-force-binding-arbitration/</link>
       <description><![CDATA[文章网址：https://stackdiary.com/23andme-updates-tos-to -强制绑定仲裁/
 评论网址：https://news.ycombinator.com/item?id=38551890
-积分：218
-# 条评论：114]]></description>
+积分：265
+# 条评论：147]]></description>
       <guid>https://stackdiary.com/23andme-updates-tos-to-force-binding-arbitration/</guid>
       <pubDate>Thu, 07 Dec 2023 01:54:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>五磁盘软盘 RAID：4MB 极速存储 (2009)</title>
-      <link>https://www.wired.com/2009/05/five-disk-floppy-raid-4mb-of-blistering-fast-storage/</link>
-      <description><![CDATA[文章网址：https://www .wired.com/2009/05/ Five-disk-floppy-raid-4mb-of-blistering-fast-storage/
-评论网址：https://news.ycombinator.com/item?id=38551809
-积分：51
-# 条评论：33]]></description>
-      <guid>https://www.wired.com/2009/05/five-disk-floppy-raid-4mb-of-blistering-fast-storage/</guid>
-      <pubDate>Thu, 07 Dec 2023 01:38:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
