@@ -4,86 +4,86 @@
     <title>HN总结</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的顶级黑客新闻故事的自动摘要。</description>
-    <lastBuildDate>Thu, 07 Dec 2023 21:10:39 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 Dec 2023 05:59:00 GMT</lastBuildDate>
     <item>
-      <title>[媒体]本文讨论了围绕电动汽车 (EV) 电池火灾和 arg 的炒作 [...]</title>
-      <link>https://t.me/hn_summary/62809</link>
-      <description><![CDATA[平息电动汽车电池火热炒作
-本文讨论了围绕电动汽车 (EV) 电池起火的炒作，并认为它们并不像人们经常描述的那样常见或危险。作者强调了统计数据，显示汽油动力汽车比电动汽车发生的火灾要多得多。他们还批评媒体对电动汽车火灾的处理方式与汽油车火灾不同，这表明汽油火灾被认为更容易被接受。文章提到了两起事件，电动汽车被错误地归咎于火灾，导致人们对电池驱动汽车的强烈反对。它还讨论了培训消防员如何安全扑灭电动汽车电池火灾的努力。总体而言，本文旨在消除围绕电动汽车电池火灾的恐惧和错误信息，并促进向电动汽车的过渡。]]></description>
-      <guid>https://t.me/hn_summary/62809</guid>
-      <pubDate>Thu, 07 Dec 2023 21:10:39 GMT</pubDate>
+      <title>[媒体]Akamai 安全研究人员发现了一系列利用 Microsoft [...]</title>
+      <link>https://t.me/hn_summary/62859</link>
+      <description><![CDATA[攻击滥用 Microsoft DHCP 来欺骗 DNS 记录并窃取机密
+Akamai 安全研究人员发现了一系列通过欺骗 DNS 记录来利用 Microsoft Active Directory 域的攻击。这些攻击可能会损害 Active Directory 并允许攻击者窃取敏感信息。这些攻击的目标是运行 Microsoft 动态主机配置协议 (DHCP) 服务器默认配置的服务器，并且不需要任何凭据。 Akamai 已向 Microsoft 报告了这些问题，但该公司没有计划解决该问题。 Akamai 估计，大量组织都容易受到这些攻击，因为其监控的网络中有 40% 在易受攻击的配置中运行 Microsoft DHCP。 Akamai 还提供了一个工具来帮助系统管理员检测存在风险的配置。该公司计划将来发布名为 DDSpoof 的代码来实施这些攻击。]]></description>
+      <guid>https://t.me/hn_summary/62859</guid>
+      <pubDate>Fri, 08 Dec 2023 05:59:00 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]在克罗地亚，几个城镇的交通灯只对开车的学生变红[...]</title>
-      <link>https://t.me/hn_summary/62808</link>
-      <description><![CDATA[克罗地亚城镇的红绿灯只对开车的学生变红&lt; /a&gt;
-在克罗地亚，一些城镇的交通灯仅在驾驶学生参加考试时变红。这种独特的系统可以让当地人忽略红灯，因为他们知道这只是为了测试。如果没有这些特殊的交通灯，人们将不得不前往其他城镇进行驾驶考试。这些红绿灯的存在得到了当地人的证实，甚至在媒体报道中也被发现。作者发现这个系统是使克罗地亚成为一个有趣的地方的众多怪癖之一。]]></description>
-      <guid>https://t.me/hn_summary/62808</guid>
-      <pubDate>Thu, 07 Dec 2023 21:10:31 GMT</pubDate>
+      <title>个人数据受到围攻。</title>
+      <link>https://t.me/hn_summary/62858</link>
+      <description><![CDATA[个人数据受到围攻。端到端加密是我们最强大的防御
+本文讨论了云中个人数据日益增长的威胁以及加强安全措施的必要性。它强调了数据泄露的日益频繁以及犯罪分子从被盗数据中获利的各种方式。作者强调了加密作为抵御这些攻击的强大防御措施的重要性。他们解释了端到端加密的概念，其中加密密钥只能由数据的预期接收者访问。文章还提到了实施端到端加密的挑战和局限性，并呼吁组织和政府优先考虑数据安全。 （根据 77% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/62858</guid>
+      <pubDate>Fri, 08 Dec 2023 05:55:51 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]加拿大滑铁卢大学的三名计算机科学家开发了一种“[...]</title>
-      <link>https://t.me/hn_summary/62807</link>
-      <description><![CDATA[研究人员为图像模型设计“通用后门”，导致人工智能产生幻觉&lt; /a&gt;
-加拿大滑铁卢大学的三名计算机科学家开发了一种“通用后门”，用于毒害大型图像分类模型。与之前针对特定数据类别的后门攻击不同，该技术可以为数据集中任何类别的后门生成触发器。科学家们声称，通过利用类之间中毒的可转移性，他们的后门可以高效地针对 ImageNet-1K 数据集中的所有 1,000 个类，同时仅对 0.15% 的训练数据进行中毒。这项研究强调了深度学习从业者在训练和部署图像分类器时需要考虑通用后门。科学家们还警告说，数据中毒攻击可能会被恶意使用，特别是在安全敏感领域。]]></description>
-      <guid>https://t.me/hn_summary/62807</guid>
-      <pubDate>Thu, 07 Dec 2023 21:07:22 GMT</pubDate>
+      <title>[媒体] 网页内容的作者分享了他们复兴已有十年历史的 Macs, inc 的经验 [...]</title>
+      <link>https://t.me/hn_summary/62857</link>
+      <description><![CDATA[使用 antiX 和 MX Linux 复兴十年前的 Mac（2022）&lt; /a&gt;
+该网页内容的作者分享了他们复兴十年前 Mac 的经验，包括 2007 年的 iMac、2008 年的 MacBook 和 2012 年的 MacBook Air。他们解释说，Apple 的 macOS 不再支持这些机器，并探索了这个选项安装轻量级 Linux 发行版。作者尝试使用 antiX Linux，但由于 iMac 是 32 位 EFI，因此遇到了困难。然后，他们切换到带有 Fluxbox 桌面的 MX Linux，该桌面在 iMac 上运行得更好。笔者也在MacBook上成功安装了antiX。内容重点介绍了使用 Linux 复兴旧款 Mac 的挑战和成功。 （根据 49% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/62857</guid>
+      <pubDate>Fri, 08 Dec 2023 05:34:36 GMT</pubDate>
     </item>
     <item>
-      <title>【媒体】当今的数字时代，人工智能（AI）已经成为一种商品。</title>
-      <link>https://t.me/hn_summary/62806</link>
-      <description><![CDATA[人工智能已经是一种商品
-在当今的数字时代，人工智能（AI）已成为一种商品。它不再是一个未来的概念，而是已经融入我们日常生活的现实。从 Siri 和 Alexa 等语音助手到流媒体平台上的个性化推荐，人工智能无处不在。它已经变得如此普遍，以至于我们常常认为这是理所当然的。然而，围绕人工智能的争议也越来越大。随着人工智能的不断发展，对隐私、偏见和工作取代的担忧只是需要解决的几个问题。尽管如此，人工智能变革行业、改善我们生活的潜力是不可否认的。]]></description>
-      <guid>https://t.me/hn_summary/62806</guid>
-      <pubDate>Thu, 07 Dec 2023 21:07:14 GMT</pubDate>
+      <title>[媒体]博通首席执行官 Hock Tan 宣布计划剥离 VMware 的最终用户计算和 CA [...]</title>
+      <link>https://t.me/hn_summary/62856</link>
+      <description><![CDATA[VMware Fusion 将脱离 Broadcom
+Broadcom 首席执行官 Hock Tan 宣布计划剥离 VMware 的最终用户计算和 Carbon Black 部门，转而专注于大型软件包的订阅许可证。 Tan表示，VMware将重新专注于为大型企业创建私有云和混合云环境的核心业务。最终用户计算产品组合和 Carbon Black 安全软件部门将被剥离，Tan 承诺为它们找到合适的归宿。 Tan 希望客户购买 VMware 的 Cloud Foundation，其中包括计算、存储和网络虚拟化，以及多云管理和自动化。首席财务官 Kristen Spears 还透露，VMware 将推动订阅续订，而不是永久许可证。战略转变旨在增加 VMware 收入并与 Broadcom 的目标保持一致。]]></description>
+      <guid>https://t.me/hn_summary/62856</guid>
+      <pubDate>Fri, 08 Dec 2023 04:56:19 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]Linux systemd 项目的最新版本，版本 255，引入了一个新功能 [...]</title>
-      <link>https://t.me/hn_summary/62805</link>
-      <description><![CDATA[Linux 发行版即将获得杀手级 Windows 功能：蓝屏死亡
-Linux systemd 项目的最新版本（版本 255）引入了一项名为 systemd-bsod 的新功能，该功能可以在 Linux 系统崩溃时生成全屏显示错误消息。此功能旨在充当诊断工具，使技术人员能够确定崩溃的原因。 systemd-bsod 组件目前被列为“实验性”组件，它会生成一个 QR 码，以便在手机上轻松查找信息。虽然此功能对某些人来说可能看起来很幽默，但它只是版本 255 中的众多改进之一，包括 TPM 支持、磁盘加密和 btrfs 文件系统休眠。]]></description>
-      <guid>https://t.me/hn_summary/62805</guid>
-      <pubDate>Thu, 07 Dec 2023 20:51:01 GMT</pubDate>
+      <title>[媒体] 无线电架构很重要：射频采样与射频采样回顾</title>
+      <link>https://t.me/hn_summary/62855</link>
+      <description><![CDATA[无线电架构很重要：射频采样与零中频的回顾
+本文讨论了选择正确的无线电架构的重要性，以满足不断增长的无线服务需求并解决共址和干扰的挑战。它比较了两种常见的无线电架构：射频采样和零中频，并检查了每种架构的权衡和工程考虑。 RF采样架构在RF域具有更高的增益，并且在线性RF部分消耗更多的功率，而零中频架构在基带具有增益并且降低RF部分的功耗。本文还讨论了图像和杂散信号的影响，以及每种架构的滤波要求。 （根据故事文本的 73% 进行摘要。）]]></description>
+      <guid>https://t.me/hn_summary/62855</guid>
+      <pubDate>Fri, 08 Dec 2023 04:43:08 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]遥测是一个开源进度跟踪器，它使用魔法来预测 [...]</title>
-      <link>https://t.me/hn_summary/62804</link>
-      <description><![CDATA[显示 HN：遥测 – 预测您何时会实现目标&lt; /a&gt;
-Telemetry 是一个开源进度跟踪器，它使用魔法来预测您何时实现目标。通过遥测，您可以设定目标并跟踪您的进度，让您保持动力并专注于实现目标。这个创新工具会考虑各种因素，例如您当前的速度和表现，以准确预测您何时可以实现目标。遥测是一种独特而巧妙的解决方案，可以帮助个人和团队保持正轨并取得成功。]]></description>
-      <guid>https://t.me/hn_summary/62804</guid>
-      <pubDate>Thu, 07 Dec 2023 20:48:55 GMT</pubDate>
+      <title>[媒体] 埃隆·马斯克 (Elon Musk) 在迪士尼撤资后要求解雇迪士尼首席执行​​官鲍勃·艾格 (Bob Iger) [...]</title>
+      <link>https://t.me/hn_summary/62854</link>
+      <description><![CDATA[在迪士尼撤下广告后，埃隆·马斯克要求“解雇”鲍勃·艾格X
+迪士尼从其社交媒体平台 X 上撤下广告后，埃隆·马斯克要求解雇迪士尼首席执行​​官鲍勃·艾格。马斯克在 Twitter 上批评艾格，表示他应该立即被解雇，华特·迪士尼会对艾格的做法感到失望。对公司做了什么。在马斯克认可反犹太主义阴谋论后，迪士尼和其他大公司停止在 X 上做广告。马斯克因其有争议的帖子而面临强烈反对，并被指控在平台上散布仇恨言论、错误信息和阴谋论。缺乏主要广告合作伙伴对X产生了重大的财务影响，马斯克承认广告抵制可能会导致公司消亡。]]></description>
+      <guid>https://t.me/hn_summary/62854</guid>
+      <pubDate>Fri, 08 Dec 2023 04:38:59 GMT</pubDate>
     </item>
     <item>
-      <title>Gamechanger Audio 的 MOTOR Synth 是世界上第一个机电桌面合成器。</title>
-      <link>https://t.me/hn_summary/62803</link>
-      <description><![CDATA[首款机电桌面合成器
-Gamechanger Audio 的 MOTOR Synth 是世界上第一个机电桌面合成器。它利用安装在每个电机轴上的专门设计的光盘来产生正弦波、锯齿波和方波。每张光盘都有三个代表波形的雕刻“轨道”，并与红外激光和传感器配对，它们创建了“光学波形”。此外，放置在电机线圈旁边的电磁拾音器会产生电磁波动，这些波动可以被放大以产生独特的电机波形。这项创新技术（包括光学波形和电机波形）使 MOTOR Synth 有别于传统合成器。]]></description>
-      <guid>https://t.me/hn_summary/62803</guid>
-      <pubDate>Thu, 07 Dec 2023 20:40:43 GMT</pubDate>
+      <title>[媒体] 在这篇题为“工作场所中的人工智能：新危机或长期挑战”的文章中，[...]</title>
+      <link>https://t.me/hn_summary/62853</link>
+      <description><![CDATA[人工智能在工作场所
+在这篇题为《工作场所中的人工智能：新危机还是长期挑战》的文章中，作者是华盛顿大学语言学教授，讨论了人工智能在我们生活各个方面的使用。作者认为，“人工智能”一词是一个营销术语，用来让自动化听起来更加复杂和神奇，而不是承认它是由人和公司创建和使用的。作者分解了不同类型的自动化，例如自动决策系统、分类系统、推荐系统等等。作者还强调了与这些系统相关的危险和偏见，以及围绕它们的企业利益和炒作。作者敦促监管机构关注真正的问题，不要被“人工智能太奇特而难以监管”的说法所左右。]]></description>
+      <guid>https://t.me/hn_summary/62853</guid>
+      <pubDate>Fri, 08 Dec 2023 04:35:49 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Fairphone 5 在 iF​​ixit 的可修复性方面获得了满分 10 分（满分 10 分）。</title>
-      <link>https://t.me/hn_summary/62802</link>
-      <description><![CDATA[Fairphone 5 在 iF​​ixit 的可修复性方面获得满分 10 分 
-Fairphone 5 在 iF​​ixit 的可修复性方面获得了满分 10 分（满分 10 分）。这家荷兰制造商的最新模块化手机保留了与其前代产品相同的易于维修的设计，机壳背面可轻松拆卸，电池和 USB-C 端口等组件可更换。然而，iFixit 团队确实注意到，与之前的型号相比，主板和子板更加传统。尽管没有最强大的处理器，Fairphone 5 因其软件寿命而脱颖而出，承诺提供五个 Android 版本升级和至少八年的安全更新。 iFixit 首席执行官凯尔·维恩斯 (Kyle Wiens) 赞扬 Fairphone 对可持续发展和长寿的承诺，称其“无与伦比”。]]></description>
-      <guid>https://t.me/hn_summary/62802</guid>
-      <pubDate>Thu, 07 Dec 2023 20:13:28 GMT</pubDate>
+      <title>[媒体] SmashingDocs 是一个网站，提供一系列免费的可编辑模板和原理 [...]</title>
+      <link>https://t.me/hn_summary/62852</link>
+      <description><![CDATA[展示 HN：免费可编辑模板和可打印文件来创建精美文档
+SmashingDocs 是一个网站，提供一系列免费的可编辑模板和打印文件，帮助用户创建精美的文档。只需点击三下即可轻松自定义模板，对于任何想要创建具有专业外观的文档而无需从头开始的麻烦的人来说，它都是一个方便的工具。无论您需要简历、传单、名片还是任何其他类型的文档，SmashingDocs 都有多种模板可供选择。该网站用户友好，提供了一种快速有效的方法来创建具有视觉吸引力的文档。]]></description>
+      <guid>https://t.me/hn_summary/62852</guid>
+      <pubDate>Fri, 08 Dec 2023 04:17:36 GMT</pubDate>
     </item>
     <item>
-      <title>news.ycombinator.com 上这篇文章的作者分享了他们醒来时的经历 [...]</title>
-      <link>https://t.me/hn_summary/62801</link>
-      <description><![CDATA[问 HN：今天有几分钟天空呈橙色和紫色在卡迪夫
-news.ycombinator.com 上这篇文章的作者分享他们在卡迪夫醒来时看到窗外奇怪的橙色。他们迅速打开百叶窗，看到天空变成了紫色。他们对这种现象感到惊讶，于是联系了附近的一位朋友，他证实也经历过同样的事情。几分钟后，天空恢复了正常的样子。这篇文章寻求导致这一异常现象的原因的答案。]]></description>
-      <guid>https://t.me/hn_summary/62801</guid>
-      <pubDate>Thu, 07 Dec 2023 19:54:14 GMT</pubDate>
+      <title>[媒体]在这篇令人大开眼界的文章中，作者分享了他们提交 136 Freedom [...]</title>
+      <link>https://t.me/hn_summary/62851</link>
+      <description><![CDATA[我向警方提交了 136 份 FOIA 请求并了解了我们的系统为何崩溃
+在这篇令人大开眼界的文章中，作者分享了他们向各个警察部门提交 136 信息自由法 (FOIA) 请求的经验。通过这个过程，他们发现了我们执法系统中根深蒂固的缺陷和系统性问题。作者强调了缺乏透明度、过度编辑以及获取关键信息的总体困难。它们揭示了警察部门扣留重要数据（例如使用武力事件和警官不当行为记录）的有争议的做法。这篇文章敲响了警钟，揭示了我们警察部门内部迫切需要改革和问责。]]></description>
+      <guid>https://t.me/hn_summary/62851</guid>
+      <pubDate>Fri, 08 Dec 2023 04:02:25 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] TAST-E机器人是由M.</title>
-      <link>https://t.me/hn_summary/62800</link>
-      <description><![CDATA[TAST-E 是一个具有味觉和嗅觉的电子动画机器人头气味
-TAST-E机器人是M. Bindhammer创造的一个电子动画机器人头，具有味觉和嗅觉。它配备伺服电机，可以移动嘴唇、眼睛和眉毛，并且通过连接到 Arduino Mega 2560 板的文本转语音模块，它甚至可以说话。 TAST-E 的与众不同之处在于它能够通过味觉和嗅觉识别特定的化合物和分子。它使用比色计来检测某些试剂与味道化合物混合时产生的颜色，它还有一个电子鼻来分析空气样本中各种化合物的浓度。虽然 TAST-E 背后的意图尚不清楚，但它既令人印象深刻又令人不寒而栗。]]></description>
-      <guid>https://t.me/hn_summary/62800</guid>
-      <pubDate>Thu, 07 Dec 2023 19:43:04 GMT</pubDate>
+      <title>[媒体]作者瑞克·史蒂夫斯 (Rick Steves) 回顾了他十年前的伊朗之旅，并强调 [...]</title>
+      <link>https://t.me/hn_summary/62850</link>
+      <description><![CDATA[伊朗：如果你要轰炸一个地方，你应该首先了解其人
+作者里克·史蒂夫斯回顾了他十年前的伊朗之行，并强调了在采取军事行动之前了解一个国家人民的重要性。他认为，美国人低估了伊朗的历史及其对伊朗应对挑战的影响。史蒂夫斯强调了伊朗的“包袱”，包括过去西方的入侵和 1979 年的伊朗革命，美国和伊朗对伊朗的看法有所不同。他警告不要低估伊朗的韧性以及鲁莽外交政策的潜在后果。史蒂夫最后强调需要了解和欣赏伊朗的历史和文化。]]></description>
+      <guid>https://t.me/hn_summary/62850</guid>
+      <pubDate>Fri, 08 Dec 2023 03:48:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
