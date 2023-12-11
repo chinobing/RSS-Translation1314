@@ -4,34 +4,75 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 11 Dec 2023 18:18:23 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 Dec 2023 21:13:29 GMT</lastBuildDate>
     <item>
-      <title>对大型烟草公司进行审判的美国律师瞄准了体育博彩</title>
-      <link>https://www.ft.com/content/497fdb45-fe81-4b13-97d0-70abe667b94f</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/497fdb45-fe81- 4b13-97d0-70abe667b94f
-评论网址：https://news.ycombinator.com/item?id=38602786
-积分：9
-# 条评论：2]]></description>
-      <guid>https://www.ft.com/content/497fdb45-fe81-4b13-97d0-70abe667b94f</guid>
-      <pubDate>Mon, 11 Dec 2023 17:46:07 GMT</pubDate>
+      <title>GPT-4 患有季节性抑郁症</title>
+      <link>https://twitter.com/fabianstelzer/status/1734296159873536214</link>
+      <description><![CDATA[文章网址：https://twitter.com/fabianstelzer/status/1734296159873536214
+评论网址：https://news.ycombinator.com/item?id=38604519
+积分：76
+# 条评论：19]]></description>
+      <guid>https://twitter.com/fabianstelzer/status/1734296159873536214</guid>
+      <pubDate>Mon, 11 Dec 2023 19:45:23 GMT</pubDate>
     </item>
     <item>
-      <title>最好的 WebAssembly 运行时可能根本就没有运行时</title>
-      <link>https://00f.net/2023/12/11/webassembly-compilation-to-c/</link>
-      <description><![CDATA[文章网址：https://00f.net/2023/12/11/webassemble -编译到-c/
-评论网址：https://news.ycombinator.com/item?id=38602750
-积分：7
-# 条评论：1]]></description>
-      <guid>https://00f.net/2023/12/11/webassembly-compilation-to-c/</guid>
-      <pubDate>Mon, 11 Dec 2023 17:44:26 GMT</pubDate>
+      <title>Fntastic 在发行《The Day Before》四天后宣布关闭</title>
+      <link>https://www.fntastic.com</link>
+      <description><![CDATA[文章网址：https://www.fntastic.com
+评论网址：https://news.ycombinator.com/item?id=38604470
+积分：43
+# 条评论：32]]></description>
+      <guid>https://www.fntastic.com</guid>
+      <pubDate>Mon, 11 Dec 2023 19:42:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我构建了 Azure OpenAI 服务的 OSS 替代品</title>
+      <link>https://github.com/bricks-cloud/BricksLLM</link>
+      <description><![CDATA[嘿 HN，我很自豪地向大家展示我已经构建了 Azure OpenAI 服务的开源替代方案。Azure OpenAI 服务诞生于需要增强安全性和访问控制以使用不同 GPT 模型的公司。我想构建一个 OSS 版本的 Azure OpenAI 服务，人们可以在自己的基础设施中自行托管。“如何跟踪每个 API 密钥的 LLM 支出？”“我可以创建一个具有有限功能的开发 OpenAI API 密钥吗？ Bob 的访问权限吗？&quot;&quot;我可以按模型和端点查看我的 LLM 支出明细吗？&quot;&quot;我可以创建 100 个 OpenAI API 密钥供我的学生在课堂环境中使用吗？&quot;这些是问题BricksLLM 可以帮助您回答这个问题。BricksLLM 是一个 API 网关，可让您创建具有速率限制、成本控制和 ttl 的 API 密钥，可用于通过开箱即用分析来访问所有 OpenAI 和 Anthropic 端点​​。当我第一次开始使用 OpenAI API 进行构建时，我一直担心 API 密钥会被包含，因为普通的 OpenAI API 密钥会让您无限制地访问他们的所有模型。有报道称，人们损失了数千美元，而且存在被盗 OpenAI API 密钥的黑市。这就是为什么我开始为自己构建一个代理，允许创建具有速率限制和成本控制的 API 密钥。我在 Go 中构建了 BricksLLM，因为这是我用来构建表演性广告交换的语言，在我之前的工作中，该交换可以扩展到每秒数千个请求。 LLM 操作中的许多开发人员工具都是使用 Python 构建的，我认为这在性能和计算资源效率方面可能不是最佳的。构建此平台的挑战之一是获取不同 OpenAI 和 Anthropic 模型的准确令牌计数。 LLM 提供商对于如何计算提示和完成令牌的方式并不完全透明。除了用户输入之外，OpenAI 和 Anthropic pad 还会提示输入以及有助于最终令牌计数的附加指令或短语。例如，Anthropic 的实际完成令牌消耗始终比完成输出的令牌数量多 4。网关的延迟徘徊在 50 毫秒左右。一半的延迟来自标记器。如果我开始使用 Go 例程，也许能够将网关的延迟降低到 30 毫秒。BricksLLM 不是一个可观察性平台，但我们确实提供与 Datadog 的集成，以便您可以更深入地了解网关内部发生的情况代理人。与 LLMOps 领域的其他工具相比，我相信 BricksLLM 在访问控制方面具有最全面的功能。让我知道你们的想法。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=38603853
+积分：42
+# 条评论：17]]></description>
+      <guid>https://github.com/bricks-cloud/BricksLLM</guid>
+      <pubDate>Mon, 11 Dec 2023 18:56:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>GigaGPT：GPT-3 大小的模型，565 行代码</title>
+      <link>https://www.cerebras.net/blog/introducing-gigagpt-gpt-3-sized-models-in-565-lines-of-code</link>
+      <description><![CDATA[文章网址：https:// www.cerebras.net/blog/introducing-gigagpt-gpt-3-sized-models-in-565-lines-of-code
+评论网址：https://news.ycombinator.com/item?id=38603207
+积分：171
+# 条评论：51]]></description>
+      <guid>https://www.cerebras.net/blog/introducing-gigagpt-gpt-3-sized-models-in-565-lines-of-code</guid>
+      <pubDate>Mon, 11 Dec 2023 18:13:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Web 浏览器遥测</title>
+      <link>http://sizeof.cat/post/web-browser-telemetry/</link>
+      <description><![CDATA[文章网址：http://sizeof.cat/post/web-browser-telemetry/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=38603193
+积分：50
+# 条评论：32]]></description>
+      <guid>http://sizeof.cat/post/web-browser-telemetry/</guid>
+      <pubDate>Mon, 11 Dec 2023 18:12:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用扩散模型生成真实感视频</title>
+      <link>https://walt-video-diffusion.github.io/</link>
+      <description><![CDATA[文章网址：https://walt-video-diffusion.github.io/
+评论网址：https://news.ycombinator.com/item?id=38603014
+积分：98
+# 条评论：28]]></description>
+      <guid>https://walt-video-diffusion.github.io/</guid>
+      <pubDate>Mon, 11 Dec 2023 18:00:07 GMT</pubDate>
     </item>
     <item>
       <title>迷你蜂鸣器回来了</title>
       <link>https://blog.beeper.com/p/beeper-mini-is-back</link>
       <description><![CDATA[文章网址：https://blog.beeper.com/p/beeper-mini-is-返回
 评论网址：https://news.ycombinator.com/item?id=38602575
-积分：154
-# 条评论：163]]></description>
+积分：582
+# 条评论：740]]></description>
       <guid>https://blog.beeper.com/p/beeper-mini-is-back</guid>
       <pubDate>Mon, 11 Dec 2023 17:30:14 GMT</pubDate>
     </item>
@@ -50,60 +91,20 @@
       <link>https://www.atlasobscura.com/articles/herds-of-glacier-mice-baffle-scientists</link>
       <description><![CDATA[文章网址：https://www.atlasobscura.com/articles/herds-冰川小鼠困惑科学家
 评论网址：https://news.ycombinator.com/item?id=38602228
-积分：17
-# 条评论：2]]></description>
+积分：54
+# 条评论：12]]></description>
       <guid>https://www.atlasobscura.com/articles/herds-of-glacier-mice-baffle-scientists</guid>
       <pubDate>Mon, 11 Dec 2023 16:53:58 GMT</pubDate>
     </item>
     <item>
-      <title>W4 Games 宣布主机端口定价模型</title>
-      <link>https://w4games.com/2023/12/11/w4-games-announces-pricing-model-for-console-ports/</link>
-      <description><![CDATA[文章网址：https://w4games.com /2023/12/11/w4-games-announces-pricing-model-for-console-ports/
-评论网址：https://news.ycombinator.com/item?id=38602022
-积分：50
-# 条评论：11]]></description>
-      <guid>https://w4games.com/2023/12/11/w4-games-announces-pricing-model-for-console-ports/</guid>
-      <pubDate>Mon, 11 Dec 2023 16:31:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>法庭上糟糕的科学和糟糕的统计数据给无辜者定罪</title>
-      <link>https://www.scientificamerican.com/article/bad-science-and-bad-statistics-in-the-courtroom-convict-innocent-people/</link>
-      <description><![CDATA[文章网址：https:/ /www.scientificamerican.com/article/bad-science-and-bad-statistics-in-the-courtroom-convict-innocent-people/
-评论网址：https://news.ycombinator.com/item?id=38601960
-积分：76
-# 条评论：43]]></description>
-      <guid>https://www.scientificamerican.com/article/bad-science-and-bad-statistics-in-the-courtroom-convict-innocent-people/</guid>
-      <pubDate>Mon, 11 Dec 2023 16:26:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>自我杀死了授权的产品团队</title>
-      <link>https://jeffgothelf.com/blog/ego-killed-the-empowered-product-team/</link>
-      <description><![CDATA[文章网址：https://jeffgothelf.com/blog/ego-killed-the -授权产品团队/
-评论网址：https://news.ycombinator.com/item?id=38601725
-积分：34
-# 条评论：16]]></description>
-      <guid>https://jeffgothelf.com/blog/ego-killed-the-empowered-product-team/</guid>
-      <pubDate>Mon, 11 Dec 2023 16:01:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Marmot：基于 NATS 的多写入器分布式 SQLite</title>
-      <link>https://github.com/maxpert/marmot</link>
-      <description><![CDATA[文章网址：https://github.com/maxpert/marmot
-评论网址：https://news.ycombinator.com/item?id=38600743
-积分：56
-# 条评论：17]]></description>
-      <guid>https://github.com/maxpert/marmot</guid>
-      <pubDate>Mon, 11 Dec 2023 14:09:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>每个程序员都应该知道#1：幂等性</title>
-      <link>https://www.berkansasmaz.com/every-programmer-should-know-idempotency/</link>
-      <description><![CDATA[文章网址：https://www.berkansasmaz.com/every-programmer-should-know -幂等性/
-评论网址：https://news.ycombinator.com/item?id=38600303
-积分：57
-# 条评论：28]]></description>
-      <guid>https://www.berkansasmaz.com/every-programmer-should-know-idempotency/</guid>
-      <pubDate>Mon, 11 Dec 2023 13:06:56 GMT</pubDate>
+      <title>文本编辑器数据结构：重新思考撤消</title>
+      <link>https://cdacamar.github.io/data%20structures/algorithms/benchmarking/text%20editors/c++/rethinking-undo/</link>
+      <description><![CDATA[文章网址：https://cdamar.github.io /data%20structs/algorithms/benchmarking/text%20editors/c++/rethinking-undo/
+评论网址：https://news.ycombinator.com/item?id=38601435
+积分：62
+# 条评论：14]]></description>
+      <guid>https://cdacamar.github.io/data%20structures/algorithms/benchmarking/text%20editors/c++/rethinking-undo/</guid>
+      <pubDate>Mon, 11 Dec 2023 15:27:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
