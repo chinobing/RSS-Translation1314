@@ -4,107 +4,106 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 11 Dec 2023 21:13:29 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 Dec 2023 01:02:00 GMT</lastBuildDate>
     <item>
-      <title>GPT-4 患有季节性抑郁症</title>
-      <link>https://twitter.com/fabianstelzer/status/1734296159873536214</link>
-      <description><![CDATA[文章网址：https://twitter.com/fabianstelzer/status/1734296159873536214
-评论网址：https://news.ycombinator.com/item?id=38604519
-积分：76
+      <title>史诗般的胜利：陪审团裁定谷歌在应用商店之争中非法垄断</title>
+      <link>https://www.theverge.com/23994174/epic-google-trial-jury-verdict-monopoly-google-play</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/ 23994174/epic-google-庭审-陪审团裁决-垄断-google-play
+评论网址：https://news.ycombinator.com/item?id=38607474
+积分：37
+# 条评论：8]]></description>
+      <guid>https://www.theverge.com/23994174/epic-google-trial-jury-verdict-monopoly-google-play</guid>
+      <pubDate>Tue, 12 Dec 2023 00:25:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>Epic vs. Google：Google 输了</title>
+      <link>https://www.theverge.com/23945184/epic-v-google-fortnite-play-store-antitrust-trial-updates</link>
+      <description><![CDATA[文章网址：https://www.theverge。 com/23945184/epic-v-google-fortnite-play-store-antitrust-Trial-updates
+评论网址：https://news.ycombinator.com/item?id=38607424
+积分：67
 # 条评论：19]]></description>
-      <guid>https://twitter.com/fabianstelzer/status/1734296159873536214</guid>
-      <pubDate>Mon, 11 Dec 2023 19:45:23 GMT</pubDate>
+      <guid>https://www.theverge.com/23945184/epic-v-google-fortnite-play-store-antitrust-trial-updates</guid>
+      <pubDate>Tue, 12 Dec 2023 00:21:07 GMT</pubDate>
     </item>
     <item>
-      <title>Fntastic 在发行《The Day Before》四天后宣布关闭</title>
-      <link>https://www.fntastic.com</link>
-      <description><![CDATA[文章网址：https://www.fntastic.com
-评论网址：https://news.ycombinator.com/item?id=38604470
-积分：43
-# 条评论：32]]></description>
-      <guid>https://www.fntastic.com</guid>
-      <pubDate>Mon, 11 Dec 2023 19:42:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我构建了 Azure OpenAI 服务的 OSS 替代品</title>
-      <link>https://github.com/bricks-cloud/BricksLLM</link>
-      <description><![CDATA[嘿 HN，我很自豪地向大家展示我已经构建了 Azure OpenAI 服务的开源替代方案。Azure OpenAI 服务诞生于需要增强安全性和访问控制以使用不同 GPT 模型的公司。我想构建一个 OSS 版本的 Azure OpenAI 服务，人们可以在自己的基础设施中自行托管。“如何跟踪每个 API 密钥的 LLM 支出？”“我可以创建一个具有有限功能的开发 OpenAI API 密钥吗？ Bob 的访问权限吗？&quot;&quot;我可以按模型和端点查看我的 LLM 支出明细吗？&quot;&quot;我可以创建 100 个 OpenAI API 密钥供我的学生在课堂环境中使用吗？&quot;这些是问题BricksLLM 可以帮助您回答这个问题。BricksLLM 是一个 API 网关，可让您创建具有速率限制、成本控制和 ttl 的 API 密钥，可用于通过开箱即用分析来访问所有 OpenAI 和 Anthropic 端点​​。当我第一次开始使用 OpenAI API 进行构建时，我一直担心 API 密钥会被包含，因为普通的 OpenAI API 密钥会让您无限制地访问他们的所有模型。有报道称，人们损失了数千美元，而且存在被盗 OpenAI API 密钥的黑市。这就是为什么我开始为自己构建一个代理，允许创建具有速率限制和成本控制的 API 密钥。我在 Go 中构建了 BricksLLM，因为这是我用来构建表演性广告交换的语言，在我之前的工作中，该交换可以扩展到每秒数千个请求。 LLM 操作中的许多开发人员工具都是使用 Python 构建的，我认为这在性能和计算资源效率方面可能不是最佳的。构建此平台的挑战之一是获取不同 OpenAI 和 Anthropic 模型的准确令牌计数。 LLM 提供商对于如何计算提示和完成令牌的方式并不完全透明。除了用户输入之外，OpenAI 和 Anthropic pad 还会提示输入以及有助于最终令牌计数的附加指令或短语。例如，Anthropic 的实际完成令牌消耗始终比完成输出的令牌数量多 4。网关的延迟徘徊在 50 毫秒左右。一半的延迟来自标记器。如果我开始使用 Go 例程，也许能够将网关的延迟降低到 30 毫秒。BricksLLM 不是一个可观察性平台，但我们确实提供与 Datadog 的集成，以便您可以更深入地了解网关内部发生的情况代理人。与 LLMOps 领域的其他工具相比，我相信 BricksLLM 在访问控制方面具有最全面的功能。让我知道你们的想法。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=38603853
-积分：42
-# 条评论：17]]></description>
-      <guid>https://github.com/bricks-cloud/BricksLLM</guid>
-      <pubDate>Mon, 11 Dec 2023 18:56:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>GigaGPT：GPT-3 大小的模型，565 行代码</title>
-      <link>https://www.cerebras.net/blog/introducing-gigagpt-gpt-3-sized-models-in-565-lines-of-code</link>
-      <description><![CDATA[文章网址：https:// www.cerebras.net/blog/introducing-gigagpt-gpt-3-sized-models-in-565-lines-of-code
-评论网址：https://news.ycombinator.com/item?id=38603207
-积分：171
-# 条评论：51]]></description>
-      <guid>https://www.cerebras.net/blog/introducing-gigagpt-gpt-3-sized-models-in-565-lines-of-code</guid>
-      <pubDate>Mon, 11 Dec 2023 18:13:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Web 浏览器遥测</title>
-      <link>http://sizeof.cat/post/web-browser-telemetry/</link>
-      <description><![CDATA[文章网址：http://sizeof.cat/post/web-browser-telemetry/&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=38603193
-积分：50
-# 条评论：32]]></description>
-      <guid>http://sizeof.cat/post/web-browser-telemetry/</guid>
-      <pubDate>Mon, 11 Dec 2023 18:12:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用扩散模型生成真实感视频</title>
-      <link>https://walt-video-diffusion.github.io/</link>
-      <description><![CDATA[文章网址：https://walt-video-diffusion.github.io/
-评论网址：https://news.ycombinator.com/item?id=38603014
-积分：98
-# 条评论：28]]></description>
-      <guid>https://walt-video-diffusion.github.io/</guid>
-      <pubDate>Mon, 11 Dec 2023 18:00:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>迷你蜂鸣器回来了</title>
-      <link>https://blog.beeper.com/p/beeper-mini-is-back</link>
-      <description><![CDATA[文章网址：https://blog.beeper.com/p/beeper-mini-is-返回
-评论网址：https://news.ycombinator.com/item?id=38602575
-积分：582
-# 条评论：740]]></description>
-      <guid>https://blog.beeper.com/p/beeper-mini-is-back</guid>
-      <pubDate>Mon, 11 Dec 2023 17:30:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>Patterns (YC S21) 正在招聘法学硕士来实现自动化分析</title>
-      <link>https://patterns.app/</link>
-      <description><![CDATA[文章网址：https://patterns.app/
-评论网址：https://news.ycombinator.com/item?id=38602281
-积分：0
+      <title>众议院情报委员会的监视“改革”法案是一场闹剧</title>
+      <link>https://www.eff.org/deeplinks/2023/12/section-702-needs-reform-and-oversight-not-expansion-congress-should-oppose-hpsci</link>
+      <description><![CDATA[文章网址：https://www.eff.org/deeplinks/2023/12/section-702-needs-reform-and-oversight-not-expansion-congress-should-oppose-hpsci
+评论网址：https://news.ycombinator.com/item?id=38607071
+积分：23
 # 条评论：0]]></description>
-      <guid>https://patterns.app/</guid>
-      <pubDate>Mon, 11 Dec 2023 17:00:41 GMT</pubDate>
+      <guid>https://www.eff.org/deeplinks/2023/12/section-702-needs-reform-and-oversight-not-expansion-congress-should-oppose-hpsci</guid>
+      <pubDate>Mon, 11 Dec 2023 23:45:29 GMT</pubDate>
     </item>
     <item>
-      <title>“冰川小鼠”令科学家困惑</title>
-      <link>https://www.atlasobscura.com/articles/herds-of-glacier-mice-baffle-scientists</link>
-      <description><![CDATA[文章网址：https://www.atlasobscura.com/articles/herds-冰川小鼠困惑科学家
-评论网址：https://news.ycombinator.com/item?id=38602228
-积分：54
-# 条评论：12]]></description>
-      <guid>https://www.atlasobscura.com/articles/herds-of-glacier-mice-baffle-scientists</guid>
-      <pubDate>Mon, 11 Dec 2023 16:53:58 GMT</pubDate>
+      <title>行为属于 HTML</title>
+      <link>https://unplannedobsolescence.com/blog/behavior-belongs-in-html/</link>
+      <description><![CDATA[文章网址：https://unplannedobsolescent.com/blog/behavior-belongs-in-html/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=38607038
+积分：25
+# 条评论：2]]></description>
+      <guid>https://unplannedobsolescence.com/blog/behavior-belongs-in-html/</guid>
+      <pubDate>Mon, 11 Dec 2023 23:41:13 GMT</pubDate>
     </item>
     <item>
-      <title>文本编辑器数据结构：重新思考撤消</title>
-      <link>https://cdacamar.github.io/data%20structures/algorithms/benchmarking/text%20editors/c++/rethinking-undo/</link>
-      <description><![CDATA[文章网址：https://cdamar.github.io /data%20structs/algorithms/benchmarking/text%20editors/c++/rethinking-undo/
-评论网址：https://news.ycombinator.com/item?id=38601435
-积分：62
-# 条评论：14]]></description>
-      <guid>https://cdacamar.github.io/data%20structures/algorithms/benchmarking/text%20editors/c++/rethinking-undo/</guid>
-      <pubDate>Mon, 11 Dec 2023 15:27:42 GMT</pubDate>
+      <title>荒野深处，最大的海狸水坝经久不衰</title>
+      <link>https://e360.yale.edu/features/worlds-largest-beaver-dam</link>
+      <description><![CDATA[文章网址：https://e360.yale.edu/features/worlds-largest-beaver-水坝
+评论网址：https://news.ycombinator.com/item?id=38606804
+积分：6
+# 条评论：0]]></description>
+      <guid>https://e360.yale.edu/features/worlds-largest-beaver-dam</guid>
+      <pubDate>Mon, 11 Dec 2023 23:14:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>AdaptNet：基于物理的角色控制的策略适应</title>
+      <link>https://arxiv.org/abs/2310.00239</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2310.00239
+评论网址：https://news.ycombinator.com/item?id=38606667
+积分：14
+# 条评论：1]]></description>
+      <guid>https://arxiv.org/abs/2310.00239</guid>
+      <pubDate>Mon, 11 Dec 2023 22:57:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>曼巴“在我们尝试过的所有地方”都优于变形金刚</title>
+      <link>https://old.reddit.com/r/singularity/comments/18asto2/announcing_mamba_a_new_ssm_arch_that_has/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/singularity/comments/18asto2 /announcing_mamba_a_new_ssm_arch_that_has/
+评论网址：https://news.ycombinator.com/item?id=38606590
+积分：43
+# 条评论：8]]></description>
+      <guid>https://old.reddit.com/r/singularity/comments/18asto2/announcing_mamba_a_new_ssm_arch_that_has/</guid>
+      <pubDate>Mon, 11 Dec 2023 22:51:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>高通利润率背后的秘密？专利</title>
+      <link>https://blog.withedge.com/p/the-secret-behind-qualcomms-margins</link>
+      <description><![CDATA[文章网址：https://blog.withedge.com/p/the-secret-落后高通利润率
+评论网址：https://news.ycombinator.com/item?id=38606488
+积分：65
+# 条评论：35]]></description>
+      <guid>https://blog.withedge.com/p/the-secret-behind-qualcomms-margins</guid>
+      <pubDate>Mon, 11 Dec 2023 22:43:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果 SQL 语句返回数据库怎么办？</title>
+      <link>https://arxiv.org/abs/2312.00638</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2312.00638
+评论网址：https://news.ycombinator.com/item?id=38606146
+积分：111
+# 条评论：66]]></description>
+      <guid>https://arxiv.org/abs/2312.00638</guid>
+      <pubDate>Mon, 11 Dec 2023 22:05:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>为了重振波特兰，官员们寻求禁止公共场所吸毒</title>
+      <link>https://www.nytimes.com/2023/12/11/us/portland-oregon-drug-laws.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/ 2023/12/11/us/portland-oregon-drug-laws.html
+评论网址：https://news.ycombinator.com/item?id=38605643
+积分：82
+评论数：240]]></description>
+      <guid>https://www.nytimes.com/2023/12/11/us/portland-oregon-drug-laws.html</guid>
+      <pubDate>Mon, 11 Dec 2023 21:21:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
