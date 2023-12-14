@@ -4,107 +4,111 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 13 Dec 2023 21:12:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 Dec 2023 01:00:46 GMT</lastBuildDate>
     <item>
-      <title>Prelay (YC W20) 正在招募</title>
-      <link>https://jobs.lever.co/prelay/832af523-bf6c-4fe0-8b9a-29084543a923</link>
-      <description><![CDATA[文章网址：https://jobs.lever.co/prelay/832af523-bf6c- 4fe0-8b9a-29084543a923
-评论网址：https://news.ycombinator.com/item?id=38634068
-积分：0
-# 条评论：0]]></description>
-      <guid>https://jobs.lever.co/prelay/832af523-bf6c-4fe0-8b9a-29084543a923</guid>
-      <pubDate>Wed, 13 Dec 2023 21:00:27 GMT</pubDate>
+      <title>罗伊·克尔：黑洞有奇点吗？</title>
+      <link>https://arxiv.org/abs/2312.00841</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2312.00841
+评论网址：https://news.ycombinator.com/item?id=38636225
+积分：12
+# 条评论：4]]></description>
+      <guid>https://arxiv.org/abs/2312.00841</guid>
+      <pubDate>Thu, 14 Dec 2023 00:26:25 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Go 通道的纯 C89 实现，具有阻塞选择</title>
-      <link>https://github.com/rochus-keller/CspChan</link>
-      <description><![CDATA[文章网址：https://github.com/rochus-keller/CspChan
-评论网址：https://news.ycombinator.com/item?id=38632970
-积分：72
-# 条评论：25]]></description>
-      <guid>https://github.com/rochus-keller/CspChan</guid>
-      <pubDate>Wed, 13 Dec 2023 19:31:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>支票的长影</title>
-      <link>https://www.bitsaboutmoney.com/archive/the-long-shadow-of-checks/</link>
-      <description><![CDATA[文章网址：https://www.bitsaboutmoney.com/archive/the-long -支票阴影/
-评论网址：https://news.ycombinator.com/item?id=38632966
-积分：6
-# 条评论：0]]></description>
-      <guid>https://www.bitsaboutmoney.com/archive/the-long-shadow-of-checks/</guid>
-      <pubDate>Wed, 13 Dec 2023 19:31:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>第二批A16Z开源AI资助</title>
-      <link>https://a16z.com/announcing-our-latest-open-source-ai-grants/</link>
-      <description><![CDATA[文章网址：https://a16z.com/announcing-our-latest-open -source-ai-grants/
-评论网址：https://news.ycombinator.com/item?id=38632827
-积分：8
-# 条评论：1]]></description>
-      <guid>https://a16z.com/announcing-our-latest-open-source-ai-grants/</guid>
-      <pubDate>Wed, 13 Dec 2023 19:24:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>SMERF：可流式内存高效辐射场</title>
-      <link>https://smerf-3d.github.io/</link>
-      <description><![CDATA[我们构建了 SMERF，这是一种在网络浏览器中实时探索 NeRF 的新方法。亲自尝试一下！在过去的几个月里，我和我的合作者整合了一种新的实时方法，使 NeRF 模型可以从智能手机、笔记本电脑和低功耗台式机访问，我们认为我们已经做得非常出色！我们喜欢称之为 SMERF，它将大型、高质量的 NeRF 提炼成实时、流媒体就绪的表示形式，可以通过网络浏览器轻松部署到智能手机等小型设备上。除此之外，我们的模型看起来很棒！与其他实时方法相比，SMERF 具有比以往更高的准确性。在大型多房间场景中，SMERF 渲染与 Zip-NeRF 等最先进的离线模型几乎没有区别，并且比其他方法领先了一大步。最好的部分：您可以自己尝试！请访问我们的项目网站了解演示等内容。如果您有任何问题或反馈，请随时通过电子邮件 (smerf@google.com) 或 Twitter (@duck) 与我们联系。
+      <title>Show HN：我抓取了 2500 万个 Shopify 产品来构建一个搜索引擎</title>
+      <link>https://www.searchagora.com/</link>
+      <description><![CDATA[嗨，HN！我将 Agora 构建为假期前的一个副项目。我想找到一种更简单的方法来找到圣诞礼物，而无需逐家商店。我的妻子要我买一双红鞋作为圣诞节礼物。我很快在 Google 中输入，找到了大型零售商的广告和 1948 年电影《红鞋》的链接。我决定建立 Agora 来解决我自己的问题（并保持幸福的婚姻）。该产品是一个搜索引擎，可以自动抓取数千个 Shopify 商店，并通过搜索界面轻松访问它们。还有一些附加功能可以增强购买体验，包括保存产品、过滤器、评论和热门产品。我已从专门的 Shopify 商店开始，并计划将抓取工具扩展到其他电子商务平台，例如 BigCommerce、WooCommerce、 Wix 等。我发现的技术挑战是随着数据集变大，保持强大的搜索速度和性能。目前 Agora 上约有 2500 万种产品。我会小心地提高这一点，以确保我们不会影响搜索速度和用户体验。我希望得到任何反馈！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=38632492
-积分：149
-# 条评论：24]]></description>
-      <guid>https://smerf-3d.github.io/</guid>
-      <pubDate>Wed, 13 Dec 2023 19:03:13 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=38635695
+积分：87
+# 条评论：58]]></description>
+      <guid>https://www.searchagora.com/</guid>
+      <pubDate>Wed, 13 Dec 2023 23:26:38 GMT</pubDate>
     </item>
     <item>
-      <title>QMoE：万亿参数模型的实用亚 1 位压缩</title>
-      <link>https://arxiv.org/abs/2310.16795</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2310.16795
-评论网址：https://news.ycombinator.com/item?id=38632390
-积分：26
+      <title>对神经临终的新见解</title>
+      <link>https://neurosciencenews.com/death-brain-neuroscience-25356/</link>
+      <description><![CDATA[文章网址：https://neurosciencenews.com/death-brain-neuroscience-25356/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=38635599
+积分：27
+# 条评论：0]]></description>
+      <guid>https://neurosciencenews.com/death-brain-neuroscience-25356/</guid>
+      <pubDate>Wed, 13 Dec 2023 23:17:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>深度学习的局限性 (2017)</title>
+      <link>https://blog.keras.io/the-limitations-of-deep-learning.html</link>
+      <description><![CDATA[文章网址：https://blog.keras.io/the-limitations-of-深度学习.html
+评论网址：https://news.ycombinator.com/item?id=38635452
+积分：12
 # 条评论：5]]></description>
-      <guid>https://arxiv.org/abs/2310.16795</guid>
-      <pubDate>Wed, 13 Dec 2023 18:57:12 GMT</pubDate>
+      <guid>https://blog.keras.io/the-limitations-of-deep-learning.html</guid>
+      <pubDate>Wed, 13 Dec 2023 23:01:46 GMT</pubDate>
     </item>
     <item>
-      <title>低频声音可以表明龙卷风即将来临</title>
-      <link>https://www.bbc.com/future/article/20231212-the-sound-that-warns-a-tornado-is-coming</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/future/article/20231212-the-sound-that-warns-a-tornado-is-coming&quot;&gt; bbc.com/future/article/20231212-警告龙卷风即将来临的声音
-评论网址：https://news.ycombinator.com/item?id=38632250
-积分：14
-# 条评论：6]]></description>
-      <guid>https://www.bbc.com/future/article/20231212-the-sound-that-warns-a-tornado-is-coming</guid>
-      <pubDate>Wed, 13 Dec 2023 18:49:23 GMT</pubDate>
+      <title>记住尚未发生的事情</title>
+      <link>https://bessstillman.substack.com/p/remembering-things-that-havent-happened</link>
+      <description><![CDATA[文章网址：https://bessstillman.substack.com/p/remembering-things-尚未发生的事情
+评论网址：https://news.ycombinator.com/item?id=38635382
+积分：31
+# 条评论：4]]></description>
+      <guid>https://bessstillman.substack.com/p/remembering-things-that-havent-happened</guid>
+      <pubDate>Wed, 13 Dec 2023 22:56:06 GMT</pubDate>
     </item>
     <item>
-      <title>作为一名朝鲜小说家，我的职业生涯注定失败</title>
-      <link>https://www.theguardian.com/news/2023/dec/12/my-doomed-career-as-a-north-korean-novelist</link>
-      <description><![CDATA[文章网址：https:// www.theguardian.com/news/2023/dec/12/my-doomed-career-as-a-north-korean-novelist
-评论网址：https://news.ycombinator.com/item?id=38631647
-积分：35
+      <title>调试失败的热键</title>
+      <link>https://tratt.net/laurie/blog/2023/debugging_a_failing_hotkey.html</link>
+      <description><![CDATA[文章网址：https://trat.net/laurie/blog/2023/debugging_a_failing_hotkey.html
+评论网址：https://news.ycombinator.com/item?id=38635102
+积分：21
+# 条评论：3]]></description>
+      <guid>https://tratt.net/laurie/blog/2023/debugging_a_failing_hotkey.html</guid>
+      <pubDate>Wed, 13 Dec 2023 22:28:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Grap – Kernighan 和 Bentley 的图表排版语言 (1984) [pdf]</title>
+      <link>https://doc.cat-v.org/unix/v8/grap.pdf</link>
+      <description><![CDATA[文章网址：https://doc.cat-v.org/unix/v8/grap。 pdf
+评论网址：https://news.ycombinator.com/item?id=38634667
+积分：19
+# 条评论：4]]></description>
+      <guid>https://doc.cat-v.org/unix/v8/grap.pdf</guid>
+      <pubDate>Wed, 13 Dec 2023 21:51:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Django Ninja CRUD – 重新思考 Django 中的 CRUD 操作</title>
+      <link>https://github.com/hbakri/django-ninja-crud</link>
+      <description><![CDATA[我开发了 Django Ninja CRUD，这是一个利用 Django Ninja 的优势来简化 Django 中 CRUD 操作的工具。它旨在使 CRUD 操作更加直观、模块化和高效，特别是对于大型项目。关键方面：
+- 声明式、直观的 C​​RUD 操作。
+- 组合优于继承的模块化方法。
+- 增强了健壮应用程序的测试功能。该工具旨在转变 Django 开发工作流程，提高效率和可维护性。在此处了解有关开发、功能和路线图的更多信息：https://medium.com/@hbakri/introducing-django-ninja-crud-ee9... GitHub 存储库：https://github.com/hbakri/django-ninja-crud我渴望听到您的反馈，并希望它能为您的 Django 项目增加价值！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=38634562
+积分：53
+# 条评论：13]]></description>
+      <guid>https://github.com/hbakri/django-ninja-crud</guid>
+      <pubDate>Wed, 13 Dec 2023 21:43:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>融合技术的现状</title>
+      <link>https://bramcohen.com/p/the-state-of-merging-technology</link>
+      <description><![CDATA[文章网址：https://bramcohen.com/p/the-state-of-merging-技术
+评论网址：https://news.ycombinator.com/item?id=38634543
+积分：19
 # 条评论：5]]></description>
-      <guid>https://www.theguardian.com/news/2023/dec/12/my-doomed-career-as-a-north-korean-novelist</guid>
-      <pubDate>Wed, 13 Dec 2023 18:16:01 GMT</pubDate>
+      <guid>https://bramcohen.com/p/the-state-of-merging-technology</guid>
+      <pubDate>Wed, 13 Dec 2023 21:41:49 GMT</pubDate>
     </item>
     <item>
-      <title>致癌物质不会产生癌细胞，但会激发它们</title>
-      <link>https://www.newyorker.com/magazine/2023/12/18/all-the-carcinogens-we-cannot-see</link>
-      <description><![CDATA[文章网址：https://www.newyorker。 com/magazine/2023/12/18/all-the-carcinogens-we-cannot-see
-评论网址：https://news.ycombinator.com/item?id=38629859
-积分：69
-# 条评论：21]]></description>
-      <guid>https://www.newyorker.com/magazine/2023/12/18/all-the-carcinogens-we-cannot-see</guid>
-      <pubDate>Wed, 13 Dec 2023 16:38:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>无广告城市</title>
-      <link>https://adfreecities.org.uk/</link>
-      <description><![CDATA[文章网址：https://adfreecities.org.uk/
-评论网址：https://news.ycombinator.com/item?id=38629763
-积分：257
-# 条评论：187]]></description>
-      <guid>https://adfreecities.org.uk/</guid>
-      <pubDate>Wed, 13 Dec 2023 16:31:53 GMT</pubDate>
+      <title>别再隐藏锋利的刀子了：WebAssembly Linux 界面</title>
+      <link>https://arxiv.org/abs/2312.03858</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2312.03858
+评论网址：https://news.ycombinator.com/item?id=38634258
+积分：15
+# 条评论：3]]></description>
+      <guid>https://arxiv.org/abs/2312.03858</guid>
+      <pubDate>Wed, 13 Dec 2023 21:19:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
