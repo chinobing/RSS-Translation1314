@@ -4,67 +4,88 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 22 Dec 2023 15:13:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 Dec 2023 18:17:02 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Heynote – 开发人员专用的便签本</title>
+      <title>问 HN：最好的现代文件传输/同步协议？</title>
+      <link>https://news.ycombinator.com/item?id=38736625</link>
+      <description><![CDATA[嗨 HN，我正在寻找构建一些东西来在网络上的两个设备之间传输文件（一个客户端和一个服务器，两者都在我的控制之下）。显然我可以编写一些定制的东西使用原始 TCP 套接字，但我不是重新发明轮子，而是对人们推荐的现有选项感到好奇。我认为现在有一些比 FTP 更好的技术？理想情况下，某种内置容错功能会很棒，因为我的计划是在电话/连接可能中断的环境中使用它。编辑：只是为了澄清 - 这是我想要构建到我正在编写的应用程序中的东西，最好是跨 iOS、Windows 和 Mac 的支持。谢谢！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=38736625
+积分：9
+# 条评论：7]]></description>
+      <guid>https://news.ycombinator.com/item?id=38736625</guid>
+      <pubDate>Fri, 22 Dec 2023 17:46:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>发现是现代的原罪</title>
+      <link>https://www.strangeloopcanon.com/p/discovery-is-the-original-sin-of</link>
+      <description><![CDATA[文章网址：https://www.strangeloopcanon.com/p/discovery-是原罪
+评论网址：https://news.ycombinator.com/item?id=38736612
+积分：5
+# 条评论：0]]></description>
+      <guid>https://www.strangeloopcanon.com/p/discovery-is-the-original-sin-of</guid>
+      <pubDate>Fri, 22 Dec 2023 17:45:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>像我这样的人就是你不应该经营托管公司的原因</title>
+      <link>https://swizec.com/blog/people-like-me-are-why-you-shouldnt-run-a-hosting-company/</link>
+      <description><![CDATA[文章网址：https://swizec .com/blog/people-like-me-are-why-you-shouldnt-run-a-hosting-company/
+评论网址：https://news.ycombinator.com/item?id=38736374
+积分：11
+# 条评论：4]]></description>
+      <guid>https://swizec.com/blog/people-like-me-are-why-you-shouldnt-run-a-hosting-company/</guid>
+      <pubDate>Fri, 22 Dec 2023 17:25:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>SymbOS – Z80 的疯狂抢占式多任务操作系统</title>
+      <link>http://www.symbos.de/</link>
+      <description><![CDATA[文章网址：http://www.symbos.de/
+评论网址：https://news.ycombinator.com/item?id=38736054
+积分：32
+# 条评论：3]]></description>
+      <guid>http://www.symbos.de/</guid>
+      <pubDate>Fri, 22 Dec 2023 16:57:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>薛定谔方程在数学上源自经典力学 (2012)</title>
+      <link>https://www.researchgate.net/publication/241778960_A_Pseudo-Quantum_Triad_Schrodinger%27s_Equation_the_Uncertainty_Principle_and_the_Heisenberg_Group</link>
+      <description><![CDATA[文章网址：https://www.researchgate.net/publication/241778960_A_Pseudo-Quantum_Triad_Schrodinger%27s _Equation_the_Uncertainty_Principle_and_the_Heisenberg_Group
+评论网址：https://news.ycombinator.com/item?id=38735725
+积分：22
+# 条评论：7]]></description>
+      <guid>https://www.researchgate.net/publication/241778960_A_Pseudo-Quantum_Triad_Schrodinger%27s_Equation_the_Uncertainty_Principle_and_the_Heisenberg_Group</guid>
+      <pubDate>Fri, 22 Dec 2023 16:29:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>从 Nand 到俄罗斯方块：从第一原理构建现代计算机</title>
+      <link>https://www.nand2tetris.org</link>
+      <description><![CDATA[文章网址：https://www.nand2tetris.org
+评论网址：https://news.ycombinator.com/item?id=38735066
+积分：201
+# 条评论：56]]></description>
+      <guid>https://www.nand2tetris.org</guid>
+      <pubDate>Fri, 22 Dec 2023 15:31:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Heynote – 开发者专用便签本</title>
       <link>https://heynote.com/</link>
       <description><![CDATA[嘿！我制作 Heynote 完全是为了我自己的用例。多年来，我总是有一个 Emacs 实例在暂存缓冲区打开的情况下运行，即使在我放弃 Emacs 作为我的编程编辑器转而使用更新的 IDE 很久之后也是如此。仅拥有一个大暂存缓冲区的简单性很吸引人对我来说，但我仍然想以某种方式将我记下的不同内容分开（不使用制表符或类似的东西）。以前，我的解决方案是在音符之间插入一堆空行，但按 C-A 仍然会选择整个缓冲区。这就是为什么我提出了“块”的概念，结果非常适合我的用例。我决定发布 Heynote，认为它可能对其他人有用。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=38733968
-积分：71
-# 条评论：22]]></description>
+积分：381
+评论数：127]]></description>
       <guid>https://heynote.com/</guid>
       <pubDate>Fri, 22 Dec 2023 13:33:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>中途 v6</title>
-      <link>https://mid-journey.ai/midjourney-v6-release/</link>
-      <description><![CDATA[文章网址：https://mid-journey.ai/midjourney-v6-release/&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=38733784
-积分：27
-# 条评论：10]]></description>
-      <guid>https://mid-journey.ai/midjourney-v6-release/</guid>
-      <pubDate>Fri, 22 Dec 2023 13:12:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在不满足 Windows 11 要求的设备上安装 Windows 11</title>
-      <link>https://support.microsoft.com/en-us/windows/ways-to-install-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e</link>
-      <description><![CDATA[文章网址：https： //support.microsoft.com/en-us/windows/ways-to-install-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e
-评论网址：https://news.ycombinator.com/item?id=38733707
-积分：25
-# 条评论：8]]></description>
-      <guid>https://support.microsoft.com/en-us/windows/ways-to-install-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e</guid>
-      <pubDate>Fri, 22 Dec 2023 13:02:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>从长远来看，我们都是爸爸</title>
-      <link>https://www.astralcodexten.com/p/in-the-long-run-were-all-dad</link>
-      <description><![CDATA[文章网址：https://www.astralcodexten.com/p/从长远来看，我们都是爸爸
-评论网址：https://news.ycombinator.com/item?id=38733440
-积分：126
-# 条评论：40]]></description>
-      <guid>https://www.astralcodexten.com/p/in-the-long-run-were-all-dad</guid>
-      <pubDate>Fri, 22 Dec 2023 12:20:19 GMT</pubDate>
     </item>
     <item>
       <title>如何让LLM学得快</title>
       <link>https://vgel.me/posts/faster-inference/</link>
       <description><![CDATA[文章网址：https://vgel.me/posts/faster-inference/
 评论网址：https://news.ycombinator.com/item?id=38733384
-积分：3
-# 条评论：0]]></description>
+积分：81
+# 条评论：13]]></description>
       <guid>https://vgel.me/posts/faster-inference/</guid>
       <pubDate>Fri, 22 Dec 2023 12:09:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>非洲港口因红海改道而不堪重负</title>
-      <link>https://gcaptain.com/african-ports-overwhelmed-by-red-sea-reroutings/</link>
-      <description><![CDATA[文章网址：https://gcaptain.com/african-ports-overwhelmed-by -红海重新路由/
-评论网址：https://news.ycombinator.com/item?id=38733364
-积分：61
-# 条评论：71]]></description>
-      <guid>https://gcaptain.com/african-ports-overwhelmed-by-red-sea-reroutings/</guid>
-      <pubDate>Fri, 22 Dec 2023 12:05:03 GMT</pubDate>
     </item>
     <item>
       <title>视频/音频 AI 云 Sieve (YC W22) 正在招聘 ML 基础设施工程师</title>
@@ -77,34 +98,14 @@
       <pubDate>Fri, 22 Dec 2023 12:00:04 GMT</pubDate>
     </item>
     <item>
-      <title>挑战全球可持续性的人类世陷阱</title>
-      <link>https://royalsocietypublishing.org/doi/10.1098/rstb.2022.0261</link>
-      <description><![CDATA[文章网址：https://royalsocietypublishing.org/doi/10.1098/rstb.2022.0261
-评论网址：https://news.ycombinator.com/item?id=38733307
-积分：34
-# 条评论：12]]></description>
-      <guid>https://royalsocietypublishing.org/doi/10.1098/rstb.2022.0261</guid>
-      <pubDate>Fri, 22 Dec 2023 11:55:17 GMT</pubDate>
-    </item>
-    <item>
       <title>章鱼DNA揭示了南极洲失落的历史</title>
       <link>https://www.science.org/content/article/lost-history-antarctica-revealed-octopus-dna</link>
       <description><![CDATA[文章网址：https://www.science.org/content/文章/南极洲失落的历史揭晓章鱼DNA
 评论网址：https://news.ycombinator.com/item?id=38733241
-积分：4
-# 条评论：0]]></description>
+积分：33
+# 条评论：7]]></description>
       <guid>https://www.science.org/content/article/lost-history-antarctica-revealed-octopus-dna</guid>
       <pubDate>Fri, 22 Dec 2023 11:42:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>可视化混合萌</title>
-      <link>https://mixtral-moe-vis-d726c4a10ef5.herokuapp.com/</link>
-      <description><![CDATA[文章网址：https://mixtral-moe-vis-d726c4a10ef5.herokuapp.com/&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=38733208
-积分：37
-# 条评论：6]]></description>
-      <guid>https://mixtral-moe-vis-d726c4a10ef5.herokuapp.com/</guid>
-      <pubDate>Fri, 22 Dec 2023 11:34:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
