@@ -4,108 +4,113 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 28 Dec 2023 15:14:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 Dec 2023 18:17:26 GMT</lastBuildDate>
     <item>
-      <title>询问 HN：除了独立黑客之外，什么是更好的替代方案？</title>
-      <link>https://news.ycombinator.com/item?id=38794093</link>
-      <description><![CDATA[多年来，indiehackers 一直是一个有价值的网站，但在过去几年中似乎陷入了停滞。如今有哪些更好的选择？
+      <title>Maatphor：针对即时注入攻击的自动变体分析</title>
+      <link>https://arxiv.org/abs/2312.11513</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2312.11513
+评论网址：https://news.ycombinator.com/item?id=38796406
+积分：1
+# 条评论：0]]></description>
+      <guid>https://arxiv.org/abs/2312.11513</guid>
+      <pubDate>Thu, 28 Dec 2023 18:07:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：PR 依赖管理：简化 Pull 请求工作流程的工具</title>
+      <link>https://github.com/depends-on/depends-on-action</link>
+      <description><![CDATA[对于处理复杂的多存储库项目的开发人员来说，您可能会对以下内容感兴趣：PR 依赖管理 GitHub 操作。该工具减轻了跨互连拉取请求 (PR) 管理依赖关系的痛苦，尤其是在具有多个存储库的项目中。## 工作原理：- 语法：添加 `Depends-On : ` 在 PR 描述中链接依赖项。
+- 多平台支持：它适用于 GitHub、Gerrit 和 Gitlab。
+- 语言兼容性：根据项目的编程语言调整“go.mod”、“requirements.txt”或“package.json”等文件。当前支持的语言：Go、Python、Javascript 和 Ansible。欢迎对新语言做出贡献。
+- 容器检测：它识别并适应容器化设置。## 设置：设置涉及创建“.github/workflows”目录和“pull_request.yml”文件在你的存储库中。此设置使您能够将依赖项更改注入到构建和测试中，甚至在允许您合并 PR 之前检查所有依赖项是否已合并。## 除了 GitHub Actions：安装其 Python 包，您还可以使用此工具可在其他 CI 环境中或用于本地测试。PR 依赖管理对于处理复杂 PR 依赖的开发人员来说是一个实用的解决方案。它简化了您的工作流程，确保各个存储库和 PR 之间的更改能够和谐地集成。我希望获得您对该工具的反馈或解决此问题的其他方法（在单一存储库之外；-)）。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=38794093
+评论网址：https://news.ycombinator.com/item?id=38796394
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=38794093</guid>
-      <pubDate>Thu, 28 Dec 2023 15:09:19 GMT</pubDate>
+      <guid>https://github.com/depends-on/depends-on-action</guid>
+      <pubDate>Thu, 28 Dec 2023 18:06:36 GMT</pubDate>
     </item>
     <item>
-      <title>小麦哲伦星云是两个较小的星系</title>
-      <link>https://phys.org/news/2023-12-small-magellanic-cloud-smaller-galaxies.html</link>
-      <description><![CDATA[文章网址：https://phys.org/news/2023- 12-小麦哲伦云-smaller-galaxies.html
-评论网址：https://news.ycombinator.com/item?id=38794072
+      <title>毫不费力的创造力是赋予还是限制？ [视频]</title>
+      <link>https://www.youtube.com/watch?v=WilrzFMnYAo</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=WilrzFMnYAo
+评论网址：https://news.ycombinator.com/item?id=38796392
 积分：1
 # 条评论：0]]></description>
-      <guid>https://phys.org/news/2023-12-small-magellanic-cloud-smaller-galaxies.html</guid>
-      <pubDate>Thu, 28 Dec 2023 15:07:49 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=WilrzFMnYAo</guid>
+      <pubDate>Thu, 28 Dec 2023 18:06:28 GMT</pubDate>
     </item>
     <item>
-      <title>记住为什么美国人讨厌迪克·切尼 (2011)</title>
-      <link>https://www.theatlantic.com/politics/archive/2011/08/remembering-why-americans-loathe-dick-cheney/244306/</link>
-      <description><![CDATA[文章网址：https://www .theatlantic.com/politics/archive/2011/08/remembering-why-americans-loathe-dick-cheney/244306/
-评论网址：https://news.ycombinator.com/item?id=38794069
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.theatlantic.com/politics/archive/2011/08/remembering-why-americans-loathe-dick-cheney/244306/</guid>
-      <pubDate>Thu, 28 Dec 2023 15:07:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>亚马逊收到 FDA 对含有未申报成分的补充剂的警告信</title>
-      <link>https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/amazoncom-inc-662503-12202023</link>
-      <description><![CDATA[文章网址：https:// www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/amazoncom-inc-662503-12202023
-评论网址：https://news.ycombinator.com/item?id=38794068
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/amazoncom-inc-662503-12202023</guid>
-      <pubDate>Thu, 28 Dec 2023 15:07:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>终端平滑滚动</title>
-      <link>https://flak.tedunangst.com/post/terminal-smooth-scrolling</link>
-      <description><![CDATA[文章网址：https://flak.tedunangst.com/post/terminal-smooth-scrolling
-评论网址：https://news.ycombinator.com/item?id=38794055
-积分：1
-# 条评论：0]]></description>
-      <guid>https://flak.tedunangst.com/post/terminal-smooth-scrolling</guid>
-      <pubDate>Thu, 28 Dec 2023 15:06:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>《纽约时报》认为 ChatGPT“抢走了观众的注意力”</title>
-      <link>https://x.com/MatthewBerman/status/1740166953606762832?s=20</link>
-      <description><![CDATA[文章网址：https://x.com/MatthewBerman/status/1740166953606762832?s=20
-评论网址：https://news.ycombinator.com/item?id=38794054
-积分：1
-# 条评论：0]]></description>
-      <guid>https://x.com/MatthewBerman/status/1740166953606762832?s=20</guid>
-      <pubDate>Thu, 28 Dec 2023 15:06:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>深海中发现的超凡脱俗的迷你黄石公园</title>
-      <link>https://arstechnica.com/science/2023/12/otherworldly-mini-yellowstone-found-in-the-deep-sea/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com /science/2023/12/otherworldly-mini-yellowstone-found-in-the-deep-sea/
-评论网址：https://news.ycombinator.com/item?id=38794050
-积分：1
-# 条评论：0]]></description>
-      <guid>https://arstechnica.com/science/2023/12/otherworldly-mini-yellowstone-found-in-the-deep-sea/</guid>
-      <pubDate>Thu, 28 Dec 2023 15:05:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我制作了一张包含 15,000 名独立黑客的图表</title>
-      <link>https://www.vibyapp.com/rankings/1KlX7yEX1yJR0aJRakQw</link>
-      <description><![CDATA[我构建了一款游戏，让独立黑客自己投票。它引导我构建了超过 15,000 名独立黑客及其最初联系的图表。
+      <title>您是否正在放弃软件开发？</title>
+      <link>https://news.ycombinator.com/item?id=38796388</link>
+      <description><![CDATA[您是否正在采取任何措施来摆脱 SD，还是坚持使用它？对我来说 - 我正在转向混合动力。
+作为一名企业家，我将 SD 用于我的业务。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=38794029
+评论网址：https://news.ycombinator.com/item?id=38796388
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.vibyapp.com/rankings/1KlX7yEX1yJR0aJRakQw</guid>
-      <pubDate>Thu, 28 Dec 2023 15:03:46 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=38796388</guid>
+      <pubDate>Thu, 28 Dec 2023 18:06:12 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能终于解开了文艺复兴时期绘画背后的谜团</title>
-      <link>https://www.creativebloq.com/news/ai-raphael-painting</link>
-      <description><![CDATA[文章网址：https://www.creativebloq.com/news/ai-raphael-painting
-评论网址：https://news.ycombinator.com/item?id=38794010
+      <title>在家上学的学生废除了国家监管。现在他们害怕遭到阻力</title>
+      <link>https://www.washingtonpost.com/education/2023/12/28/homeschooling-regulation-esa-school-choice/</link>
+      <description><![CDATA[文章网址：https://www.washingtonpost.com /education/2023/12/28/homeschooling-regulation-esa-school-choice/
+评论网址：https://news.ycombinator.com/item?id=38796374
 积分：1
-# 条评论：1]]></description>
-      <guid>https://www.creativebloq.com/news/ai-raphael-painting</guid>
-      <pubDate>Thu, 28 Dec 2023 15:02:03 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://www.washingtonpost.com/education/2023/12/28/homeschooling-regulation-esa-school-choice/</guid>
+      <pubDate>Thu, 28 Dec 2023 18:05:13 GMT</pubDate>
     </item>
     <item>
-      <title>Google 从 Chrome Web Stor 中删除了 3 个拥有 150 万用户的虚假 VPN 扩展程序</title>
-      <link>https://www.ghacks.net/2023/12/23/google-removes-3-fake-vpn-extensions-with-1-5-million-users-from-chrome-web-store/</link>
-      <description><![CDATA[文章网址：https://www.ghacks.net/2023/12/23/google-removes-3-fake-vpn-extensions-with-1-5-million-users-from-chrome -网上商店/
-评论网址：https://news.ycombinator.com/item?id=38793997
+      <title>问 HN：Google Widevine 的底层是如何工作的？</title>
+      <link>https://news.ycombinator.com/item?id=38796359</link>
+      <description><![CDATA[在尝试通过 Zoom 与朋友一起观看电影时，我发现在屏幕共享时，HBO Max（通过浏览器）会黑掉整个屏幕，以先发制人地打击不良演员利用受版权保护的材料。&lt; p&gt;我做了一些挖掘，发现了这项技术的来源：Google Widevine。我尝试绕过此限制并从 Brave 浏览器访问 HBO Max，但即使在那里，系统也会提示我下载此扩展程序，以免我无法访问能够访问该网站。我是一名 Web 开发人员，所以我想到了几个问题：1) 通过另一个 Mac 应用程序 Zoom 进行屏幕共享，任何浏览器环境到底如何才能对我保密？ ？一些初步研究表明浏览器无法访问 ScreenCaptureKit API，这让我有点困惑。我很想知道当我通过缩放进行屏幕共享时浏览器正在摄取哪些信息。事件监听器是如何初始化的？数据如何传递给他们？浏览器应用程序需要访问哪些特定操作系统权限才能访问我的 Mac 的 sceencapturekit api？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=38796359
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.ghacks.net/2023/12/23/google-removes-3-fake-vpn-extensions-with-1-5-million-users-from-chrome-web-store/</guid>
-      <pubDate>Thu, 28 Dec 2023 15:00:16 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=38796359</guid>
+      <pubDate>Thu, 28 Dec 2023 18:04:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>UForm v1：1.5B 参数中的多模式聊天</title>
+      <link>https://github.com/unum-cloud/uform/releases/tag/v1.0.0</link>
+      <description><![CDATA[文章网址：https://github.com/unum-cloud/uform/releases/标签/v1.0.0
+评论网址：https://news.ycombinator.com/item?id=38796341
+积分：4
+# 条评论：0]]></description>
+      <guid>https://github.com/unum-cloud/uform/releases/tag/v1.0.0</guid>
+      <pubDate>Thu, 28 Dec 2023 18:03:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>锂：价格暴跌确保绿色转型，但引发头痛</title>
+      <link>https://www.forbes.com/sites/arielcohen/2023/12/27/lithium-price-collapse-secures-green-transition-causes-headaches/</link>
+      <description><![CDATA[文章网址：https ://www.forbes.com/sites/arielcohen/2023/12/27/lithium-price-collapse-secures-green-transition-causes-headaches/
+评论网址：https://news.ycombinator.com/item?id=38796338
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.forbes.com/sites/arielcohen/2023/12/27/lithium-price-collapse-secures-green-transition-causes-headaches/</guid>
+      <pubDate>Thu, 28 Dec 2023 18:03:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>最高的木制风力涡轮机开始转动</title>
+      <link>https://www.bbc.com/news/science-environment-67718719</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/science-environment-67718719
+评论网址：https://news.ycombinator.com/item?id=38796327
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.bbc.com/news/science-environment-67718719</guid>
+      <pubDate>Thu, 28 Dec 2023 18:02:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>加州推动电动卡车成为货运的未来</title>
+      <link>https://www.nytimes.com/2023/12/28/business/energy-environment/electric-trucks-port-california.html</link>
+      <description><![CDATA[文章网址：https://www. nytimes.com/2023/12/28/business/energy-environment/electric-trucks-port-california.html
+评论网址：https://news.ycombinator.com/item?id=38796325
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nytimes.com/2023/12/28/business/energy-environment/electric-trucks-port-california.html</guid>
+      <pubDate>Thu, 28 Dec 2023 18:02:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
