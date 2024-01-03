@@ -4,106 +4,109 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 02 Jan 2024 21:12:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jan 2024 01:01:25 GMT</lastBuildDate>
+    <item>
+      <title>Lambdasort：仅使用 lambdas 用 Python 编写的快速排序</title>
+      <link>https://lucasoshiro.github.io/software-en/2020-06-06-lambdasort/</link>
+      <description><![CDATA[文章网址：https://lucasoshiro.github.io/software-en/2020 -06-06-lambdasort/
+评论网址：https://news.ycombinator.com/item?id=38848905
+积分：24
+# 条评论：4]]></description>
+      <guid>https://lucasoshiro.github.io/software-en/2020-06-06-lambdasort/</guid>
+      <pubDate>Wed, 03 Jan 2024 00:00:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>药丸可以预防毒蛇咬伤造成的死亡吗？</title>
+      <link>https://www.latimes.com/environment/story/2023-12-24/can-a-pill-prevent-deaths-from-venomous-snake-bites</link>
+      <description><![CDATA[文章网址： https://www.latimes.com/environment/story/2023-12-24/can-a-pill-prevent-deaths-from-venomous-snake-bites
+评论网址：https://news.ycombinator.com/item?id=38848566
+积分：33
+# 条评论：7]]></description>
+      <guid>https://www.latimes.com/environment/story/2023-12-24/can-a-pill-prevent-deaths-from-venomous-snake-bites</guid>
+      <pubDate>Tue, 02 Jan 2024 23:26:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>2024 年 PostgreSQL 的思考</title>
+      <link>https://jkatz05.com/post/postgres/postgresql-2024/</link>
+      <description><![CDATA[文章网址：https://jkatz05.com/post/postgres/postgresql-2024/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=38848001
+积分：43
+评论数量：9]]></description>
+      <guid>https://jkatz05.com/post/postgres/postgresql-2024/</guid>
+      <pubDate>Tue, 02 Jan 2024 22:34:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>QEMU AioContext 移除以及如何完成</title>
+      <link>http://blog.vmsplice.net/2024/01/qemu-aiocontext-removal-and-how-it-was.html</link>
+      <description><![CDATA[文章网址：http://blog.vmsplice。 net/2024/01/qemu-aiocontext-removal-and-how-it-was.html
+评论网址：https://news.ycombinator.com/item?id=38847732
+积分：9
+# 条评论：0]]></description>
+      <guid>http://blog.vmsplice.net/2024/01/qemu-aiocontext-removal-and-how-it-was.html</guid>
+      <pubDate>Tue, 02 Jan 2024 22:06:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>浏览器是移动双寡头最有可能的颠覆者</title>
+      <link>https://infrequently.org/2024/01/the-web-is-the-app-store/</link>
+      <description><![CDATA[文章网址：https://infrequently.org/2024/01/the -web-is-the-app-store/
+评论网址：https://news.ycombinator.com/item?id=38847719
+积分：56
+评论数：70]]></description>
+      <guid>https://infrequently.org/2024/01/the-web-is-the-app-store/</guid>
+      <pubDate>Tue, 02 Jan 2024 22:05:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：复活 Dillo 浏览器</title>
+      <link>https://dillo-browser.github.io/</link>
+      <description><![CDATA[您好，2022 年中期，主机 dillo.org 过期了 [0]，关闭了用于联系 Dillo 核心开发人员的网站、mercurial 存储库、邮件列表和电子邮件服务器。有人购买了它，现在提供了原始页面的奇怪克隆，其中缺少内容。[0]：https:// news.ycombinator.com/item?id=32448104我感到很难过，因为我不想让它消失，所以我从硬盘上获取了该存储库的副本，将其上传到 GitHub 并决定对代码进行一些维护，至少保持构建正常运行。一段时间后，Atari 论坛的人们决定使用我的存储库将其移植到 Atari 平台，他们成功地做到了 [1]。[1]: https://github.com/dillo-browser/dillo/issues/34这给了我在这个项目上做更多工作的动力防止它死亡。因此，我以“dillo-browser”的名义创建了一个组织，并使用旧网页的备份制作了一个新网页 [2]。[2]: https://dillo-browser.github.io/在能够访问原始服务器的 Andreas Kemnade 的帮助下，我们成功备份了大部分内容我上传到存档的原始网站（包括无法访问的页面）中的内容。同时，我结合了对 OpenSSL（1.1 和 3）和 mbedTLS（2 和 3）的支持以及适当的支持CI 与渲染测试。我们现在为 Ubuntu、FreeBSD 和 macOS 构建 Dillo！我还熟悉了 Dillo 中的插件机制，它允许任何使用标准输入和输出的程序成为注册到给定协议的插件（例如 file:/ /...）。我做了一个简单的（只是一个 bash 脚本）来阅读本地手册页，这可以方便地跟踪其他页面的链接 [3]，但还要检查 Charles E. Lehner 所做的更高级的 [4]。&lt; p&gt;[3]: https://github.com/dillo-browser/dillo-plugin-man
+[4]：https://groups.google.com/g/dillo/c/ WGEMg7AXN4o/截至今天，我无法联系到主要开发人员 Jorge Arellano Cid，他已经很多年没有与邮件列表进行交互了。 Jorge，如果您阅读了本文，请与我联系（您可以在 git commits 中找到我的电子邮件）。关于 Dillo 的未来，我计划（最终）在经过一些测试后发布 3.1 版本，并为如果您想做出贡献，请随时打开 PR 或发送补丁（通过 GitHub 或通过电子邮件，我不在乎） ）。另请检查当前问题和拉取请求，以了解哪些内容正在等待处理或已经在处理中。我可能也会在某个时候设置一个邮件列表。谢谢！
+罗德里戈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=38847613
+积分：194
+# 条评论：55]]></description>
+      <guid>https://dillo-browser.github.io/</guid>
+      <pubDate>Tue, 02 Jan 2024 21:55:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>打开印第安纳州 Illumos Distro</title>
+      <link>https://www.openindiana.org/</link>
+      <description><![CDATA[文章网址：https://www.openindiana.org/
+评论网址：https://news.ycombinator.com/item?id=38847586
+积分：30
+# 条评论：6]]></description>
+      <guid>https://www.openindiana.org/</guid>
+      <pubDate>Tue, 02 Jan 2024 21:51:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple II 仿真评估 (2022)</title>
+      <link>https://juiced.gs/emulators/</link>
+      <description><![CDATA[文章网址：https://juiced.gs/emulators/
+评论网址：https://news.ycombinator.com/item?id=38846955
+积分：41
+# 条评论：7]]></description>
+      <guid>https://juiced.gs/emulators/</guid>
+      <pubDate>Tue, 02 Jan 2024 20:46:24 GMT</pubDate>
+    </item>
     <item>
       <title>1024 色 CGA – 新模式 (2015)</title>
       <link>https://int10h.org/blog/2015/04/cga-in-1024-colors-new-mode-illustrated/</link>
       <description><![CDATA[文章网址：https://int10h.org/blog /2015/04/cga-in-1024-colors-new-mode-illustrated/
 评论网址：https://news.ycombinator.com/item?id=38845951
-积分：13
-# 条评论：5]]></description>
+积分：59
+# 条评论：18]]></description>
       <guid>https://int10h.org/blog/2015/04/cga-in-1024-colors-new-mode-illustrated/</guid>
       <pubDate>Tue, 02 Jan 2024 19:34:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>实时编码性能中的实时注释和可视化 (2018)</title>
-      <link>https://charlieroberts.github.io/annotationsAndVisualizations/</link>
-      <description><![CDATA[文章网址：https://charlieroberts.github.io/annotationsAndVisualizations/
-评论网址：https://news.ycombinator.com/item?id=38845556
-积分：14
-# 条评论：3]]></description>
-      <guid>https://charlieroberts.github.io/annotationsAndVisualizations/</guid>
-      <pubDate>Tue, 02 Jan 2024 19:03:47 GMT</pubDate>
     </item>
     <item>
       <title>1D 吃豆人</title>
       <link>https://abagames.github.io/crisp-game-lib-11-games/?pakupaku</link>
       <description><![CDATA[文章网址：https://abagames.github.io/crisp-game-lib -11-游戏/?pakupaku
 评论网址：https://news.ycombinator.com/item?id=38845510
-积分：371
-# 条评论：57]]></description>
+积分：847
+# 条评论：120]]></description>
       <guid>https://abagames.github.io/crisp-game-lib-11-games/?pakupaku</guid>
       <pubDate>Tue, 02 Jan 2024 19:00:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用大型语言模型改进文本嵌入</title>
-      <link>https://arxiv.org/abs/2401.00368</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2401.00368
-评论网址：https://news.ycombinator.com/item?id=38845508
-积分：18
-# 条评论：1]]></description>
-      <guid>https://arxiv.org/abs/2401.00368</guid>
-      <pubDate>Tue, 02 Jan 2024 18:59:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>先做，然后做对，然后做得更好</title>
-      <link>https://twitter.com/addyosmani/status/1739052802314539371</link>
-      <description><![CDATA[文章网址：https://twitter.com/addyosmani/status/1739052802314539371
-评论网址：https://news.ycombinator.com/item?id=38845461
-积分：99
-# 条评论：46]]></description>
-      <guid>https://twitter.com/addyosmani/status/1739052802314539371</guid>
-      <pubDate>Tue, 02 Jan 2024 18:57:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Chrultrabook 文档</title>
-      <link>https://docs.chrultrabook.com/</link>
-      <description><![CDATA[文章网址：https://docs.chrultrabook.com/
-评论网址：https://news.ycombinator.com/item?id=38845284
-积分：25
-# 条评论：6]]></description>
-      <guid>https://docs.chrultrabook.com/</guid>
-      <pubDate>Tue, 02 Jan 2024 18:46:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>琵鹭 (2016–2013)</title>
-      <link>https://www.applied-cartography.com/spoonbill</link>
-      <description><![CDATA[文章网址：https://www.applied-cartography.com/spoonbill
-评论网址：https://news.ycombinator.com/item?id=38845173
-积分：6
-# 条评论：0]]></description>
-      <guid>https://www.applied-cartography.com/spoonbill</guid>
-      <pubDate>Tue, 02 Jan 2024 18:38:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>比 Pgvector 快 90 倍 – Lantern 的 HNSW 索引创建时间</title>
-      <link>https://lantern.dev/blog/hnsw-index-creation</link>
-      <description><![CDATA[文章网址：https://lantern.dev/blog/hnsw-index-creation
-评论网址：https://news.ycombinator.com/item?id=38844945
-积分：38
-# 条评论：5]]></description>
-      <guid>https://lantern.dev/blog/hnsw-index-creation</guid>
-      <pubDate>Tue, 02 Jan 2024 18:21:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何使用 CLI 或仅使用 Python 在 Mac 上进行 OCR</title>
-      <link>https://blog.greg.technology/2024/01/02/how-do-you-ocr-on-a-mac.html</link>
-      <description><![CDATA[文章网址：https://blog. greg.technology/2024/01/02/how-do-you-ocr-on-a-mac.html
-评论网址：https://news.ycombinator.com/item?id=38844943
-积分：80
-# 条评论：12]]></description>
-      <guid>https://blog.greg.technology/2024/01/02/how-do-you-ocr-on-a-mac.html</guid>
-      <pubDate>Tue, 02 Jan 2024 18:20:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我已经实现了 RSS 阅读器</title>
-      <link>https://play.google.com/store/apps/details?id=com.niviva.rssreader.streamsphere&hl=en_US</link>
-      <description><![CDATA[文章网址：https://play.google。 com/store/apps/details?id=com.niviva.rssreader.streamsphere&amp;hl=en_US
-评论网址：https://news.ycombinator.com/item?id=38844888
-积分：42
-# 条评论：29]]></description>
-      <guid>https://play.google.com/store/apps/details?id=com.niviva.rssreader.streamsphere&hl=en_US</guid>
-      <pubDate>Tue, 02 Jan 2024 18:16:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
