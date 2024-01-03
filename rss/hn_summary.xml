@@ -4,86 +4,86 @@
     <title>HN总结</title>
     <link>https://tg.i-c-a.su</link>
     <description>由大型语言模型编写的顶级黑客新闻故事的自动摘要。</description>
-    <lastBuildDate>Wed, 03 Jan 2024 06:16:19 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jan 2024 11:09:00 GMT</lastBuildDate>
     <item>
-      <title>[媒体] 网页内容讨论了一种名为 SIEVE 的新缓存驱逐算法，该算法的设计 [...]</title>
-      <link>https://t.me/hn_summary/66927</link>
-      <description><![CDATA[Sieve 比 LRU 更简单
-网页内容讨论了一种名为 SIEVE 的新缓存驱逐算法，该算法的设计比 LRU 等其他算法更简单、更高效。本文强调了缓存驱逐算法简单性的重要性，以及更简单的方法如何提高系统吞吐量和可扩展性。 SIEVE 构建在 FIFO 队列上，并使用“手”指针在缓存中导航。它标记已访问的对象并驱逐未访问的对象。文章还提到了 SIEVE 对现实世界的影响，包括与其他算法相比的效率和吞吐量。最后提到了正在进行的使 SIEVE 防扫描的工作，并邀请读者在他们的设置中尝试 SIEVE。 （根据 88% 的故事文本进行总结。）]]></description>
-      <guid>https://t.me/hn_summary/66927</guid>
-      <pubDate>Wed, 03 Jan 2024 06:16:19 GMT</pubDate>
+      <title>[媒体] 比特币是至关重要的气候技术 (BTP Ep.</title>
+      <link>https://t.me/hn_summary/66949</link>
+      <description><![CDATA[比特币是至关重要的气候技术（BTP 第 1 期回顾）
+在“超越价格”的第一集中，气候技术投资者 Daniel Batten 讨论了比特币挖矿的环境效益。 Batten 解释说，尽管人们对其用电量感到担忧，但由可再生能源驱动的比特币挖矿比例已从 2021 年的 38% 上升到如今的 53%，使其比其他行业更具可持续性。比特币挖矿还提供经济激励，并可以在需求不高时使用能源来帮助稳定电网。巴顿的基金专注于位于垃圾填埋场的比特币矿工，利用甲烷排放为矿工提供动力并消除有害的温室气体。过渡到不同的共识机制，例如权益证明，将导致这些环境效益的损失。]]></description>
+      <guid>https://t.me/hn_summary/66949</guid>
+      <pubDate>Wed, 03 Jan 2024 11:09:00 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]这篇文章讨论了 Unix 系统上字体渲染的复杂性，特别是 [...]</title>
-      <link>https://t.me/hn_summary/66926</link>
-      <description><![CDATA[使用 Fontconfig (2020)
-本文讨论了 Unix 系统上字体渲染的复杂性，特别关注 Freetype 和 fontconfig。作者强调了清晰字体渲染的重要性，特别是对于屏幕分辨率较低和较旧笔记本电脑的用户而言。本文探讨了不同的技术，例如抗锯齿、子像素渲染和提示，以改善屏幕上的字体外观。作者还介绍了 Freetype 驱动程序的属性，并提供了如何测试和修改它们的说明。本文包含示例和比较来演示不同渲染选项的效果。总的来说，本文提供了有关字体渲染的宝贵见解，并提供了优化字体外观的实用技巧。 （根据故事文本的 34% 进行摘要。）]]></description>
-      <guid>https://t.me/hn_summary/66926</guid>
-      <pubDate>Wed, 03 Jan 2024 06:02:06 GMT</pubDate>
+      <title>[媒体]Logsnag 是一款革命性工具，可为企业提供实时监控。</title>
+      <link>https://t.me/hn_summary/66948</link>
+      <description><![CDATA[Logsnag – 实时监控您的业务
+Logsnag 是一款革命性工具，可为企业提供实时监控。借助我们创新的过滤引擎，我们彻底改变了查看事件及其关系的方式。无论是跟踪用户旅程、发货、支持票证还是业务的任何其他方面，Logsnag 都可以让您轻松绘制和分析这些旅程。这一独特的功能使我们有别于其他监控工具，并为企业提供了宝贵的见解。]]></description>
+      <guid>https://t.me/hn_summary/66948</guid>
+      <pubDate>Wed, 03 Jan 2024 11:06:51 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] MalbolgeLISP 是用 Malbolge 编写的 Lisp 解释器，被誉为最难的 [...]</title>
-      <link>https://t.me/hn_summary/66925</link>
-      <description><![CDATA[Malbolge 中的 Lisp 解释器，被称为最难的图灵完整语言
-MalbolgeLISP 是用 Malbolge 编写的 Lisp 解释器，Malbolge 被称为最难的图灵完备语言。它是迄今为止创建的最先进、最可用的 Malbolge 程序。该项目旨在支持 Lisp 中常见的所有功能，例如 cond、let、lambda 等。v1.2 版本提高了性能，减少了代码大小，并添加了新功能。 MalbolgeLISP 支持隐式编程、部分应用、de Bruijn 索引和 monad 提升。该项目的与众不同之处在于使用了一种名为 Malbolge Unshackled 的 Malbolge 特殊变体，由于各种限制和要求，该变体的编程更具挑战性。自述文件提供了在 MalbolgeLISP 中编程的 Fibonacci 函数的示例以及如何使用该项目的说明。]]></description>
-      <guid>https://t.me/hn_summary/66925</guid>
-      <pubDate>Wed, 03 Jan 2024 05:48:53 GMT</pubDate>
+      <title>[媒体]英国制定了一些欧洲最严格的监控法律。</title>
+      <link>https://t.me/hn_summary/66947</link>
+      <description><![CDATA[英国拥有一些欧洲最严格的监控法律。现在它想要更多
+英国政府正在寻求通过新立法扩大其监控法，这引起了科技公司的担忧。拟议的调查权力（修正案）法案引起了行业高管和隐私活动人士的批评，他们认为这可能会阻碍保护用户隐私的努力。行业机构 TechUK 已写信给内政大臣詹姆斯·克莱弗利 (James Cleverly)，表达了其担忧，特别是关于一项允许政府阻止科技公司进行可能妨碍与英国情报机构信息共享的技术更新的变化。该法案正在议会匆忙通过，可能会遭到立法者的强烈反对。]]></description>
+      <guid>https://t.me/hn_summary/66947</guid>
+      <pubDate>Wed, 03 Jan 2024 11:06:44 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] 成长日记应用程序是一款专为自学开发者设计的学习效率跟踪器。</title>
-      <link>https://t.me/hn_summary/66924</link>
-      <description><![CDATA[显示 HN：新程序员的学习效率跟踪器 
-成长日记应用程序是一款专为自学开发人员设计的学习效率跟踪器。它旨在通过提供一个反思工具来跟踪和分析学习过程，解决过度思考、在教程之间跳转以及在单个主题上花费过多时间的问题。该应用程序允许用户实时跟踪会话或记录过去的会话，通过排序和过滤选项查看会话历史记录，并通过会话分析获得见解。该项目欢迎初学者和经验丰富的开发人员做出贡献，并提供代码重构、功能增强、测试和文档改进的机会。作者强调每一次贡献的重要性，并鼓励共同成长和学习。]]></description>
-      <guid>https://t.me/hn_summary/66924</guid>
-      <pubDate>Wed, 03 Jan 2024 04:58:29 GMT</pubDate>
+      <title>[媒体]文章讨论了使用“技术债务”一词来描述挑战的问题[...]</title>
+      <link>https://t.me/hn_summary/66946</link>
+      <description><![CDATA[别再说“技术债”
+本文讨论了使用“技术债务”一词来描述软件开发团队面临的挑战和问题的问题。作者认为，该术语模糊且主观，导致误解和无效的解决方案。相反，作者建议关注可测量的因素，例如维护负载，以评估系统的质量。通过解决特定问题并确定维护任务的优先级，团队可以提高开发有影响力的功能的能力。本文强调了代码管理和主动解决问题的重要性，以最大限度地减少维护负载的增长并创建更易于维护的代码库。]]></description>
+      <guid>https://t.me/hn_summary/66946</guid>
+      <pubDate>Wed, 03 Jan 2024 10:53:30 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体]该项目名为 Redact，旨在提供一种与大型语言交互的私密方式 [...]</title>
-      <link>https://t.me/hn_summary/66923</link>
-      <description><![CDATA[显示 HN：我使用以下方式构建了一种与 LLM API 交互的私有方式您的文件
-该项目名为 Redact，旨在提供一种使用 PDF 文件与大型语言模型 (LLM) 交互的私密方式。它允许用户从 PDF 文件中删除敏感信息，将其替换为通用信息，然后通过 API 调用使用 LLM 与文件进行交互。这提供了一种解决方案，可以保护私人信息，同时仍然利用远程法学硕士的力量。该项目使用 Mixtral-8x7B 模型来获得准确的结果。作者还提供了安装说明和实时演示的链接。]]></description>
-      <guid>https://t.me/hn_summary/66923</guid>
-      <pubDate>Wed, 03 Jan 2024 04:58:20 GMT</pubDate>
+      <title>微量移液器是科学研究的重要工具，是由一位德国博士后发明的 [...]</title>
+      <link>https://t.me/hn_summary/66945</link>
+      <description><![CDATA[制作微量移液器
+微量移液器是科学研究中的重要工具，由德国博士后海因里希·施尼特格 (Heinrich Schnitger) 于 1957 年发明。施尼特格对当时常用的口腔移液方法的不准确性和危险性感到沮丧。他从实验室消失了两天，然后带着一个自行设计的移液微升工具回来了。他的设计包括现代微量移液器中仍然存在的功能，例如弹簧加载的活塞和塑料尖端。此后，微量移液器彻底改变了生物学，使科学家能够精确地操纵细胞。其他发明家，包括 Osmo Suovaniemi 和 Warren Gilson，对微量移液器设计进行了进一步改进。微量移液器的发展是一个自适应辐射的故事，来自世界各地的发明者为其发展做出了贡献。 （根据 62% 的故事文本进行总结。）]]></description>
+      <guid>https://t.me/hn_summary/66945</guid>
+      <pubDate>Wed, 03 Jan 2024 10:44:18 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] Havlu 是一个工具，允许开发人员使用 JSON 文件轻松创建自定义 REST API。</title>
-      <link>https://t.me/hn_summary/66922</link>
-      <description><![CDATA[显示 HN：在几秒钟内创建具有类似模式文件格式的restAPI 
-Havlu 是一个工具，允许开发人员使用 JSON 文件轻松创建自定义 REST API。它旨在通过基于提供的 JSON 数据生成 REST API 来简化为前端应用程序设置后端的过程。该项目与 json-server 等类似工具的区别在于提供更快的性能。 Havlu 可以自托管、部署到服务器或用作 Docker 容器。它完全在内存中运行，无需数据库。该工具还支持名为 Hav 的类似模式的文件格式，它使用 Faker 库中的方法定义实体及其虚假数据类型。]]></description>
-      <guid>https://t.me/hn_summary/66922</guid>
-      <pubDate>Wed, 03 Jan 2024 04:58:12 GMT</pubDate>
+      <title>Uptrace 团队很高兴地宣布发布 Uptrace v1.6，这是一个开源替代方案 [...]</title>
+      <link>https://t.me/hn_summary/66944</link>
+      <description><![CDATA[显示 HN：Uptrace v1.6 开源替代 Datadog，新遗物
+Uptrace 团队很高兴地宣布发布 Uptrace v1.6，这是 Datadog 和 NewRelic 的开源替代品。此更新包括多项新功能，例如服务图、Prometheus 远程写入支持、Prometheus 的 Grafana 数据源以及图表注释。服务图提供服务交互和性能指标的可视化表示。 Prometheus远程写入允许Prometheus将收集到的指标数据发送到Uptrace进行长期存储。 Uptrace 还可以用作 Grafana 中的 Prometheus 数据源。图表注释为图表提供附加信息和上下文。该版本还引入了 HTTP 检查接收器，用于针对 HTTP 端点进行综合检查。 Uptrace DSN（数据源名称）已扩展为包含 gRPC 端口。完整的更改和下载列表可在 GitHub 上找到。用户还可以注册一个免费的云帐户，该帐户具有充足的存储空间和时间序列限制。]]></description>
+      <guid>https://t.me/hn_summary/66944</guid>
+      <pubDate>Wed, 03 Jan 2024 10:32:04 GMT</pubDate>
     </item>
     <item>
-      <title>[媒体] iOS 应用程序“简单营养追踪器”的开发者透露，该应用程序 [...]</title>
-      <link>https://t.me/hn_summary/66921</link>
-      <description><![CDATA[展示 HN：适用于 iOS 的简单营养追踪器&lt; br/&gt;
-iOS 应用程序“A Simple Nutrition Tracker”的开发者透露，该应用程序可能会收集数据并将其链接到用户的身份。这包括健康和健身信息、联系信息、标识符和使用数据。该应用程序的隐私惯例可能会根据所使用的功能或用户的年龄而有所不同。如需了解更多详情，用户可以参考开发者的隐私政策。]]></description>
-      <guid>https://t.me/hn_summary/66921</guid>
-      <pubDate>Wed, 03 Jan 2024 04:58:05 GMT</pubDate>
+      <title>[媒体] 博客文章的作者介绍了他们的项目 Maestro，这是一个类 Unix 的操作 [...]</title>
+      <link>https://t.me/hn_summary/66943</link>
+      <description><![CDATA[Maestro：Rust 中的 Linux 兼容内核&lt; br/&gt;
+博文的作者介绍了他们的项目 Maestro，这是一个从头开始构建的类 Unix 操作系统。他们解释说，该项目最初是作为一个用 C 实现的学校项目开始的，但后来因为 Rust 在代码整洁和内存安全方面的优势而转向了 Rust。作者强调了内核开发的挑战以及使用 Rust 等内存安全语言的好处。它们提供有关项目当前状态的详细信息，包括已实现的系统调用数量和代码行数。作者还提到了已经过测试并且正在操作系统上运行的组件和第三方软件。他们警告说，该操作系统仍处于早期开发阶段，并且非常不稳定。作者最后讨论了该项目的未来计划，包括代码库清理、性能优化以及开发功能齐全的包管理器。他们邀请读者在 GitHub 存储库上留下星星并加入他们的 Discord 社区，为该项目做出贡献。]]></description>
+      <guid>https://t.me/hn_summary/66943</guid>
+      <pubDate>Wed, 03 Jan 2024 10:29:52 GMT</pubDate>
     </item>
     <item>
-      <title>Differential 是一项突破性的 TypeScript 服务，彻底改变了服务间通信。</title>
-      <link>https://t.me/hn_summary/66920</link>
-      <description><![CDATA[显示 HN：差异 – 具有本地函数 DX 的 TypeScript 服务&lt; /a&gt;
-Differential 是一项突破性的 TypeScript 服务，彻底改变了服务间通信。凭借其令人愉悦的开发人员体验 (DX)，Differential 使服务调用感觉像本地函数一样无缝。这种创新工具简化了服务之间的通信过程，消除了随之而来的复杂性和麻烦。通过提供流畅直观的体验，Differential 提高了开发人员的生产力和效率。这种独特的 TypeScript 服务方法肯定会给世界各地的开发人员留下深刻的印象并简化他们的生活。]]></description>
-      <guid>https://t.me/hn_summary/66920</guid>
-      <pubDate>Wed, 03 Jan 2024 04:57:59 GMT</pubDate>
+      <title>作者讨论了美国国税局 (IRS) 法规的最新变化，该法规现在要求所有加密货币 tr [...]</title>
+      <link>https://t.me/hn_summary/66942</link>
+      <description><![CDATA[告诉 HN：加密货币交易 &gt; 1 万美元需要提交 IRS 表格 8300&lt; /a&gt;
+作者讨论了 IRS 法规最近的一项变化，即现在要求所有超过 10,000 美元的加密货币交易都必须在 IRS 表格 8300 上报告。这一变化已包含在国会于 2021 年通过的《基础设施投资和就业法案》中。作者举例说明了这一新规定如何监管会影响各种场景，例如工程师以 USDC 支付报酬，律师接受 USDC 作为付款。作者强调了 8300 表格在获取加密货币交易必要信息方面的挑战和局限性。他们还对可能受到严厉处罚以及国税局缺乏明确性和指导表示担忧。作者鼓励读者联系他们的国会议员来解决这些问题。]]></description>
+      <guid>https://t.me/hn_summary/66942</guid>
+      <pubDate>Wed, 03 Jan 2024 10:26:38 GMT</pubDate>
     </item>
     <item>
-      <title>PlotChat 是一款革命性工具，允许用户与数据进行交互式对话 [...]</title>
-      <link>https://t.me/hn_summary/66919</link>
-      <description><![CDATA[显示 HN：与图像中的数据/绘图/图形聊天
-PlotChat 是一款革命性工具，允许用户与图像中的数据、绘图和图表进行交互式对话。只需上传带有视觉数据的图像，用户就可以就所提供的信息提出问题。然后，PlotChat 将从图像中生成数据表，并根据用户的问题提供详细的解释。这个创新平台结合了可视数据的力量和基于聊天的通信的便利性，使分析和理解复杂信息变得比以往更容易。]]></description>
-      <guid>https://t.me/hn_summary/66919</guid>
-      <pubDate>Wed, 03 Jan 2024 04:57:55 GMT</pubDate>
+      <title>[媒体]作者协会进行的一项新研究表明，大多数作者都在努力 [...]</title>
+      <link>https://t.me/hn_summary/66941</link>
+      <description><![CDATA[写书仍然是一种艰难的谋生方式 
+作者协会进行的一项新研究表明，大多数作家都在努力靠写作谋生。这项调查包括 5,000 多名出版作者的回复，发现 2022 年图书销售税前总收入中位数为 2,000 美元，年度总收入中位数（包括其他与写作相关的收入）达到 5,000 美元。尽管全职知名作家的总收入较 2018 年增长了 21%，但他们的收入中位数仍低于贫困线。该研究还强调了自行出版的作者日益取得的成功，从 2018 年到 2022 年，他们的图书收入增加了一倍多。此外，该调查还强调了出版业公平报酬和多样性的必要性。]]></description>
+      <guid>https://t.me/hn_summary/66941</guid>
+      <pubDate>Wed, 03 Jan 2024 10:09:25 GMT</pubDate>
     </item>
     <item>
-      <title>作者介绍了一项互联网草案提案，旨在解决接收电子的问题 [...]</title>
-      <link>https://t.me/hn_summary/66918</link>
-      <description><![CDATA[显示 HN：对“错误收件人”IETF 草案的反馈
-作者提出了一项互联网草案提案，旨在解决接收发给他人的电子邮件的问题。该提案建议允许电子邮件发件人包含带有 URL 端点的标头，使收件人能够表明他们不是预期的收件人。作者分享了草稿的链接并邀请对该提案的反馈。内容似乎不存在争议或包含任何令人惊讶或独特的元素。]]></description>
-      <guid>https://t.me/hn_summary/66918</guid>
-      <pubDate>Wed, 03 Jan 2024 04:57:46 GMT</pubDate>
+      <title>[媒体]乌克兰安全部门（SBU）声称，他们使用了一艘武装无人机船 [...]</title>
+      <link>https://t.me/hn_summary/66940</link>
+      <description><![CDATA[乌克兰无人机船正在向俄罗斯船只发射火箭 
+乌克兰安全部门（SBU）声称，他们使用一艘武装无人机船袭击了塞瓦斯托波尔附近的俄罗斯船只。 SBU发布了一段视频，显示无人驾驶船向俄罗斯船只发射火箭。这个概念的实用性值得怀疑，用例有限。视频没有显示交战的结果或是否造成任何损害。 SBU计划使用具有各种功能的无人机，包括防空无人机和神风特攻队无人机，将大型军舰分解为较小的功能。然而，将这些能力分配到小型无人船只上的有效性值得商榷。目标是阻止俄罗斯从水上攻击乌克兰城市并控制黑海。]]></description>
+      <guid>https://t.me/hn_summary/66940</guid>
+      <pubDate>Wed, 03 Jan 2024 09:43:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
