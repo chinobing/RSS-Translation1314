@@ -4,114 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 13 Jan 2024 21:12:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2024 01:07:02 GMT</lastBuildDate>
     <item>
-      <title>使用 CMake 时编译静态二进制文件</title>
-      <link>https://news.ycombinator.com/item?id=38984554</link>
-      <description><![CDATA[有一个由 cmake 创建的名为 link.txt 的文件，它对我很有帮助，有点像从 cr.yp.to 静态编译程序时的 conf-cc 或 conf-ld 文件。为了找到它，我使用类似  find|grep -E CMakeFiles/.+\.dir/link.txt
-
-在最简单的情况下，要编译静态二进制文件，我需要做的就是 sed -i &#39;s/ / -static/;s/\.so /\.a /g &#39;/path/to/link.txt
-     sh /path/to/link.txt
-
-AFAICT cmake 文档中没有提及 link.txt。注意。这是一个针对不耐烦的类 UNIX 操作系统“最终用户”的解决方法，该“最终用户”从使用 cmake 的项目编译软件，而不是在项目中使用 cmake 的软件作者。来自 cmake 源代码的 link.txt 文件的 AFAICT （“LinkScript”）仅为 UNIX 和 MinGW 创建。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=38984554
+      <title>移动SDK设计：使用Rust和动态配置来最大化效率</title>
+      <link>https://blog.bitdrift.io/post/capture-sdk-arch-overview</link>
+      <description><![CDATA[文章网址：https://blog.bitdrift.io/post/capture-sdk-arch-概述
+评论网址：https://news.ycombinator.com/item?id=38986344
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=38984554</guid>
-      <pubDate>Sat, 13 Jan 2024 21:05:43 GMT</pubDate>
+      <guid>https://blog.bitdrift.io/post/capture-sdk-arch-overview</guid>
+      <pubDate>Sun, 14 Jan 2024 00:55:49 GMT</pubDate>
     </item>
     <item>
-      <title>主题将允许您在年底之前关注 Mastodon 用户</title>
-      <link>https://techcrunch.com/2024/01/12/threads-will-allow-you-to-follow-mastodon-users-by-year-end-according-to-meta-meeting-details/</link>
-      <description><![CDATA[文章网址：https://techcrunch.com/2024/01/12/threads-will-allow-you-to-follow-mastodon-users-by-year-end-according-to-meta -会议详情/
-评论网址：https://news.ycombinator.com/item?id=38984552
+      <title>借助 DMA，谷歌将允许欧盟用户选择哪些服务共享他们的数据</title>
+      <link>https://www.theverge.com/2024/1/12/24036312/google-digital-markets-act-services-user-data-opt-out</link>
+      <description><![CDATA[文章网址：https： //www.theverge.com/2024/1/12/24036312/google-digital-markets-act-services-user-data-opt-out
+评论网址：https://news.ycombinator.com/item?id=38986342
 积分：1
 # 条评论：0]]></description>
-      <guid>https://techcrunch.com/2024/01/12/threads-will-allow-you-to-follow-mastodon-users-by-year-end-according-to-meta-meeting-details/</guid>
-      <pubDate>Sat, 13 Jan 2024 21:05:18 GMT</pubDate>
+      <guid>https://www.theverge.com/2024/1/12/24036312/google-digital-markets-act-services-user-data-opt-out</guid>
+      <pubDate>Sun, 14 Jan 2024 00:55:07 GMT</pubDate>
     </item>
     <item>
-      <title>台湾选民反抗北京选举新总统</title>
-      <link>https://www.wsj.com/world/asia/taiwan-presidential-elections-2024-baa62e17</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/world/asia/台湾总统选举-2024-baa62e17
-评论网址：https://news.ycombinator.com/item?id=38984544
+      <title>外语正在改变大脑</title>
+      <link>https://www.mpg.de/21337367/0108-nepf-learning-a-second-language-is-transforming-the-brain-149575-x</link>
+      <description><![CDATA[文章网址：https： //www.mpg.de/21337367/0108-nepf-learning-a-第二语言-is-transforming-the-brain-149575-x
+评论网址：https://news.ycombinator.com/item?id=38986335
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.wsj.com/world/asia/taiwan-presidential-elections-2024-baa62e17</guid>
-      <pubDate>Sat, 13 Jan 2024 21:04:26 GMT</pubDate>
+      <guid>https://www.mpg.de/21337367/0108-nepf-learning-a-second-language-is-transforming-the-brain-149575-x</guid>
+      <pubDate>Sun, 14 Jan 2024 00:54:26 GMT</pubDate>
     </item>
     <item>
-      <title>具有人工智能生成名称的亚马逊产品，例如“我无法满足此请求”</title>
-      <link>https://futurism.com/amazon-products-ai-generated</link>
-      <description><![CDATA[文章网址：https://futurism.com/amazon-products-ai- generated
-评论网址：https://news.ycombinator.com/item?id=38984542
-积分：2
+      <title>发现狼疮触发因素</title>
+      <link>https://www.mpg.de/21374791/lupus-trigger</link>
+      <description><![CDATA[文章网址：https://www.mpg.de/21374791/lupus-trigger
+评论网址：https://news.ycombinator.com/item?id=38986320
+积分：3
 # 条评论：0]]></description>
-      <guid>https://futurism.com/amazon-products-ai-generated</guid>
-      <pubDate>Sat, 13 Jan 2024 21:03:48 GMT</pubDate>
+      <guid>https://www.mpg.de/21374791/lupus-trigger</guid>
+      <pubDate>Sun, 14 Jan 2024 00:51:38 GMT</pubDate>
     </item>
     <item>
-      <title>埃隆·马斯克 (Elon Musk) 详细分析了星舰 IFT-2 的故障和未来的任务策略 [视频]</title>
-      <link>https://www.youtube.com/watch?v=4MWpqw_4Fiw</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=4MWpqw_4Fiw
-评论网址：https://news.ycombinator.com/item?id=38984525
+      <title>我做的</title>
+      <link>https://hypercritical.co/2024/01/11/i-made-this</link>
+      <description><![CDATA[文章网址：https://hyperritic.co/2024/01/11/i-made-这个
+评论网址：https://news.ycombinator.com/item?id=38986310
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=4MWpqw_4Fiw</guid>
-      <pubDate>Sat, 13 Jan 2024 21:01:57 GMT</pubDate>
+      <guid>https://hypercritical.co/2024/01/11/i-made-this</guid>
+      <pubDate>Sun, 14 Jan 2024 00:49:47 GMT</pubDate>
     </item>
     <item>
-      <title>立读 – 是乔弗</title>
-      <link>https://tachiyomi.org/news/2024-01-13-goodbye</link>
-      <description><![CDATA[文章网址：https://tachiyomi.org/news/2024-01-13-goodbye
-评论网址：https://news.ycombinator.com/item?id=38984506
+      <title>2022 年操作机器人数量将创下世界纪录</title>
+      <link>https://www.therobotreport.com/ifr-world-sets-record-for-operational-robots-in-2022/</link>
+      <description><![CDATA[文章网址：https://www.therobotreport.com /ifr-world-sets-record-for-operational-robots-in-2022/
+评论网址：https://news.ycombinator.com/item?id=38986299
 积分：1
 # 条评论：0]]></description>
-      <guid>https://tachiyomi.org/news/2024-01-13-goodbye</guid>
-      <pubDate>Sat, 13 Jan 2024 21:00:40 GMT</pubDate>
+      <guid>https://www.therobotreport.com/ifr-world-sets-record-for-operational-robots-in-2022/</guid>
+      <pubDate>Sun, 14 Jan 2024 00:47:59 GMT</pubDate>
     </item>
     <item>
-      <title>2023 年我学到的东西</title>
-      <link>https://drobinin.com/posts/things-i-learnt-in-2023/</link>
-      <description><![CDATA[文章网址：https://drobinin.com/posts/things-i-learnt-in -2023/
-评论网址：https://news.ycombinator.com/item?id=38984457
+      <title>让我与比尔·盖茨不再混淆——人工智能和山姆·奥尔特曼 [视频]</title>
+      <link>https://www.youtube.com/watch?v=PkXELH6Y2lM</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=PkXELH6Y2lM
+评论网址：https://news.ycombinator.com/item?id=38986283
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=PkXELH6Y2lM</guid>
+      <pubDate>Sun, 14 Jan 2024 00:46:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>美式足球中2分转换的兴起</title>
+      <link>https://www.nytimes.com/2024/01/13/upshot/nfl-playoffs-2-point-conversion.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes。 com/2024/01/13/upshot/nfl-playoffs-2-point-conversion.html
+评论网址：https://news.ycombinator.com/item?id=38986279
 积分：1
 # 条评论：0]]></description>
-      <guid>https://drobinin.com/posts/things-i-learnt-in-2023/</guid>
-      <pubDate>Sat, 13 Jan 2024 20:55:30 GMT</pubDate>
+      <guid>https://www.nytimes.com/2024/01/13/upshot/nfl-playoffs-2-point-conversion.html</guid>
+      <pubDate>Sun, 14 Jan 2024 00:44:49 GMT</pubDate>
     </item>
     <item>
-      <title>制度作为生活方式</title>
-      <link>https://spacechimplife.com/institutions-as-forms-of-life/</link>
-      <description><![CDATA[文章网址：https://spacechimplife.com/institutions-as-forms-of-life/&lt; /a&gt;
-评论网址：https://news.ycombinator.com/item?id=38984445
-积分：2
+      <title>在curl中添加公共后缀列表支持</title>
+      <link>https://daniel.haxx.se/blog/2024/01/10/psl-in-curl/</link>
+      <description><![CDATA[文章网址：https://daniel.haxx.se/blog/2024 /01/10/psl-in-curl/
+评论网址：https://news.ycombinator.com/item?id=38986266
+积分：3
 # 条评论：0]]></description>
-      <guid>https://spacechimplife.com/institutions-as-forms-of-life/</guid>
-      <pubDate>Sat, 13 Jan 2024 20:53:20 GMT</pubDate>
+      <guid>https://daniel.haxx.se/blog/2024/01/10/psl-in-curl/</guid>
+      <pubDate>Sun, 14 Jan 2024 00:43:41 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：使用 OpenAI 和 Supabase 检测重复问题的 GitHub 机器人</title>
-      <link>https://github.com/guillermoscript/repo-assistant</link>
-      <description><![CDATA[嘿，HN 社区，我最近发现自己陷入了一项令人着迷的挑战，我认为您会觉得很有趣。我是一名喜欢 Node.js 和 SQL 的后端开发人员，我一直在努力解决一个技术上复杂且在开源开发领域非常常见的问题。手头的问题是什么？重复的 GitHub 问题。它们就像花园里的杂草 - 你转过身去一会儿，突然它们就无处不在，阻碍了有价值的讨论并降低了生产力。因此，我开始构建一个机器人。请注意，这不仅仅是任何机器人，而是一个 Probot GitHub 应用程序，它可以在重复项倍增之前智能地检测和标记它们。这是一个让我感到痒痒的问题，我想如果它对我有效，也可能对其他人也有效。这个想法很简单：每当打开新问题时，机器人都会将其与现有问题进行比较使用 OpenAI 的嵌入来测量文本相似性的问题。但这种简单是具有欺骗性的。我需要高效地存储和查询嵌入，这让我陷入了 Supabase 及其向量扩展的困境。我必须学习向量相似性的细微差别，让我告诉你，这个话题可能会像它试图解决的问题一样棘手。当我迭代解决方案时，我发现了我没有预料到的细微差别。例如，元数据（如问题标签、存储库 ID、问题 ID 等）的重要性。需要考虑的事实是，机器人需要能够处理多个存储库，每个存储库都有自己的一系列问题。这样的例子不胜枚举，所以我专注于最简单但仍然有效的解决方案。我想构建一些对社区有用的东西，而不仅仅是技术练习。我为我构建的机器人感到自豪。它解决了高精度检测重复项的任务，并且它是开源的，因此任何人都可以使用它。此外，如果您存在现有问题，同步脚本会将它们同步到数据库，以便您可以立即开始检测重复项。对于那些喜欢细节的人：我利用 TypeScript 的类型安全性，并使用 SQL 函数来处理向量诸如余弦相似度之类的操作、OpenAI 的 API 来生成嵌入以及问题线程中的最终评论，我还使用 GitHub 的 REST API 来获取问题和评论。它并不完美 - 没有机器人如此 - 但它是一个开始。我很想听听您的想法，也很想听听您自己处理重复问题的经历。您遇到过哪些挑战？您尝试过哪些解决方案？您希望在这样的机器人中看到什么？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=38984444
-积分：2
-# 条评论：1]]></description>
-      <guid>https://github.com/guillermoscript/repo-assistant</guid>
-      <pubDate>Sat, 13 Jan 2024 20:53:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：为什么有些提交的内容没有讨论链接？</title>
-      <link>https://news.ycombinator.com/item?id=38984434</link>
-      <description><![CDATA[因为人们会要求提供示例，所以我使用的是第 11 位的提交内容……而且，由于没有讨论链接，我所能做的就是给出标题。我确信 Hacker News 是有原因的，只是好奇原因是什么。“Emerge (YC W21) 正在聘请一位 Android 专家来帮助构建移动的未来。”
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=38984434
+      <title>美国企业与中国专家开展人工智能安全秘密外交</title>
+      <link>https://www.ft.com/content/f87b693f-9ba3-4929-8b95-a296b0278021</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/f87b693f-9ba3- 4929-8b95-a296b0278021
+评论网址：https://news.ycombinator.com/item?id=38986257
 积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=38984434</guid>
-      <pubDate>Sat, 13 Jan 2024 20:52:26 GMT</pubDate>
+# 条评论：2]]></description>
+      <guid>https://www.ft.com/content/f87b693f-9ba3-4929-8b95-a296b0278021</guid>
+      <pubDate>Sun, 14 Jan 2024 00:42:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
