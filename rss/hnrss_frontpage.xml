@@ -4,16 +4,98 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 21 Jan 2024 09:13:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jan 2024 12:24:35 GMT</lastBuildDate>
+    <item>
+      <title>为什么一切都那么丑陋？</title>
+      <link>https://www.nplusonemag.com/issue-44/the-intellectual-situation/why-is-everything-so-ugly/#rf1-34098</link>
+      <description><![CDATA[文章网址：https:/ /www.nplusonemag.com/issue-44/the-intellectual-situation/why-is-everything-so-ugly/#rf1-34098
+评论网址：https://news.ycombinator.com/item?id=39077622
+积分：17
+# 条评论：4]]></description>
+      <guid>https://www.nplusonemag.com/issue-44/the-intellectual-situation/why-is-everything-so-ugly/#rf1-34098</guid>
+      <pubDate>Sun, 21 Jan 2024 11:46:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Pfuzz，一个遵循 Unix 哲学的网络模糊器</title>
+      <link>https://github.com/codesoap/pfuzz</link>
+      <description><![CDATA[我最近开始尝试 bug 赏金活动并寻找 Web 应用程序中的安全漏洞。作为 UNIX shell 的朋友，我正在构建一系列命令行工具来发出和分析 HTTP 请求。幸运的是，已经有许多合适的工具，如curl、jq、不同的模糊器以及 Tom Hudson [1] 的一些用于特定任务的非常好的工具。但是，我不喜欢现有的模糊器是庞然大物，我没有简单的方法来创建自定义行为或分析。它们通常会执行多种操作：使用一个或多个单词列表创建多个请求、发送请求（可能带有速率限制）、显示进度、对收到的响应应用过滤器并存储输出。如果您想要与所提供的功能不同的功能，例如请求之间的自定义延迟或响应的新过滤器，您唯一的选择是深入研究中等大小的代码库并尝试使其适应您的需求。我是UNIX 哲学的粉丝，觉得它可以在这里提供帮助。如果有一种用于通信 HTTP 请求和响应的通用格式，则小型专用工具的生态系统可以使用它来协同工作并完成模糊测试等任务，同时允许用户通过以不同方式组合现有工具或轻松创建自定义行为。向生态系统添加小型、快速编写的工具。这就是我对 httpipe 格式所做的尝试 [2]。它是一种基于行的 JSON 格式，用于交换 HTTP 请求和响应。我还使用这种格式构建了一些第一个工具，即 pfuzz [3] 用于从单词列表创建 HTTP 请求，preq [4] 用于发送 HTTP 请求并接收其响应，hpstat [5] 用于通过 HTTP 状态代码过滤响应。由于它是基于行的格式，因此也可以使用许多 UNIX 工具，并且由于每行都是 JSON，因此 jq 也可用于操作、过滤和显示。[1] https://github.com/tomnomnom[2] https://github .com/codesoap/httpipe[3] https://github.com/codesoap/pfuzz&lt; p&gt;[4] https://github.com/codesoap/preq[5] https://github.com/codesoap/hpstat
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39077536
+积分：11
+# 条评论：0]]></description>
+      <guid>https://github.com/codesoap/pfuzz</guid>
+      <pubDate>Sun, 21 Jan 2024 11:31:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>伯姆垃圾收集器</title>
+      <link>https://hboehm.info/gc/</link>
+      <description><![CDATA[文章网址：https://hboehm.info/gc/
+评论网址：https://news.ycombinator.com/item?id=39077535
+积分：7
+# 条评论：0]]></description>
+      <guid>https://hboehm.info/gc/</guid>
+      <pubDate>Sun, 21 Jan 2024 11:30:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：通过杂货收据了解营养成分</title>
+      <link>https://nutri.adrianstobbe.com/</link>
+      <description><![CDATA[Nutri 仍处于测试阶段，GPT 驱动的结果有时不准确。营养信息的准确性很好，可以概览，但有时仍然存在异常值。我希望通过食品数据库提高准确性。此外，我想添加一些有关组合/准备食物以提高其营养价值的额外技巧。例如，维生素 C 可改善铁的吸收，因此可将鹰嘴豆或绿叶蔬菜与柠檬混合。或者将豆类与大米混合以获得所有氨基酸。在用户体验方面，我想在桌面版本上集成二维码，以便通过手机轻松上传收据。此外，如果能在数周内对营养随着时间的推移而改善进行分析，那就太好了。 Nutri 还可以成为追踪高糖/加工食品的重要责任合作伙伴。您觉得怎么样？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39077428
+积分：19
+# 条评论：6]]></description>
+      <guid>https://nutri.adrianstobbe.com/</guid>
+      <pubDate>Sun, 21 Jan 2024 11:07:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>我相信畅销书作家马克道森是连续抄袭者</title>
+      <link>https://old.reddit.com/r/books/comments/18n30jn/i_believe_bestselling_author_mark_dawson_is_a/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/books/comments/18n30jn /i_ believe_best sell_author_mark_dawson_is_a/
+评论网址：https://news.ycombinator.com/item?id=39077223
+积分：77
+# 条评论：51]]></description>
+      <guid>https://old.reddit.com/r/books/comments/18n30jn/i_believe_bestselling_author_mark_dawson_is_a/</guid>
+      <pubDate>Sun, 21 Jan 2024 10:22:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>科罗拉多州牧师因按照上帝的命令实施加密货币诈骗而被指控</title>
+      <link>https://web3isgoinggreat.com/single/indxcoin</link>
+      <description><![CDATA[文章网址：https://web3isgoinggreat.com/single/indxcoin
+评论网址：https://news.ycombinator.com/item?id=39077151
+积分：24
+# 条评论：7]]></description>
+      <guid>https://web3isgoinggreat.com/single/indxcoin</guid>
+      <pubDate>Sun, 21 Jan 2024 10:04:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>增强 Markdown 语言以实现出色的 Python 图形界面</title>
+      <link>https://www.taipy.io/posts/augmenting-the-markdown-language-for-great-python-graphical-interfaces</link>
+      <description><![CDATA[文章网址：https://www.taipy。 io/posts/augmenting-the-markdown-language-for-great-python-graphical-interfaces
+评论网址：https://news.ycombinator.com/item?id=39076908
+积分：28
+# 条评论：14]]></description>
+      <guid>https://www.taipy.io/posts/augmenting-the-markdown-language-for-great-python-graphical-interfaces</guid>
+      <pubDate>Sun, 21 Jan 2024 09:15:24 GMT</pubDate>
+    </item>
     <item>
       <title>针对痴迷于产品的开发人员的营销</title>
       <link>https://marclou.beehiiv.com/p/marketing-for-product-obsessed-developers</link>
       <description><![CDATA[文章网址：https://marclou.beehiiv.com/p/marketing-for-痴迷于产品的开发人员
 评论网址：https://news.ycombinator.com/item?id=39076700
-积分：7
-# 条评论：0]]></description>
+积分：40
+# 条评论：11]]></description>
       <guid>https://marclou.beehiiv.com/p/marketing-for-product-obsessed-developers</guid>
       <pubDate>Sun, 21 Jan 2024 08:33:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>保留悠久的 shell 历史</title>
+      <link>https://registerspill.thorstenball.com/p/which-command-did-you-run-1731-days</link>
+      <description><![CDATA[文章网址：https://registerspill.thorstenball.com/p/您运行了哪个命令 1731 天
+评论网址：https://news.ycombinator.com/item?id=39076573
+积分：84
+# 条评论：47]]></description>
+      <guid>https://registerspill.thorstenball.com/p/which-command-did-you-run-1731-days</guid>
+      <pubDate>Sun, 21 Jan 2024 08:02:52 GMT</pubDate>
     </item>
     <item>
       <title>Langfuse (YC W23) 正在柏林招聘一名创始工程师（LLM Observability）</title>
@@ -24,86 +106,6 @@
 # 条评论：0]]></description>
       <guid>https://www.workatastartup.com/jobs/62929</guid>
       <pubDate>Sun, 21 Jan 2024 07:02:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>在家工作的不平等现象日益严重</title>
-      <link>https://hbr.org/2023/12/research-the-growing-inequality-of-who-gets-to-work-from-home</link>
-      <description><![CDATA[文章网址：https:// hbr.org/2023/12/research-the-having-inequality-of-who-gets-to-work-from-home
-评论网址：https://news.ycombinator.com/item?id=39076168
-积分：46
-# 条评论：35]]></description>
-      <guid>https://hbr.org/2023/12/research-the-growing-inequality-of-who-gets-to-work-from-home</guid>
-      <pubDate>Sun, 21 Jan 2024 06:30:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>碰撞检测 (2015)</title>
-      <link>https://www.jeffreythompson.org/collision-detection/index.php</link>
-      <description><![CDATA[文章网址：https://www.jeffreythompson.org/collision-detection/index.php
-评论网址：https://news.ycombinator.com/item?id=39075804
-积分：65
-# 条评论：28]]></description>
-      <guid>https://www.jeffreythompson.org/collision-detection/index.php</guid>
-      <pubDate>Sun, 21 Jan 2024 05:17:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>像专业人士一样使用 Midnight Commander (2015)</title>
-      <link>https://klimer.eu/2015/05/01/use-midnight-commander-like-a-pro/</link>
-      <description><![CDATA[文章网址：https://klimer.eu/2015/05 /01/use-midnight-commander-like-a-pro/
-评论网址：https://news.ycombinator.com/item?id=39075316
-积分：39
-# 条评论：15]]></description>
-      <guid>https://klimer.eu/2015/05/01/use-midnight-commander-like-a-pro/</guid>
-      <pubDate>Sun, 21 Jan 2024 03:43:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gemini：使用内存检查点进行分布式训练中的快速故障恢复 [pdf]</title>
-      <link>https://www.cs.rice.edu/~eugeneng/papers/SOSP23.pdf</link>
-      <description><![CDATA[文章网址：https://www.cs.rice.edu/~eugeneng/papers/ SOSP23.pdf
-评论网址：https://news.ycombinator.com/item?id=39074646
-积分：26
-# 条评论：7]]></description>
-      <guid>https://www.cs.rice.edu/~eugeneng/papers/SOSP23.pdf</guid>
-      <pubDate>Sun, 21 Jan 2024 01:48:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>Common Lisp 的阻塞/返回和展开保护</title>
-      <link>http://axisofeval.blogspot.com/2024/01/common-lisps-block-return-from-and.html</link>
-      <description><![CDATA[文章网址：http://axisofeval.blogspot.com/ 2024/01/common-lisps-block-return-from-and.html
-评论网址：https://news.ycombinator.com/item?id=39074568
-积分：49
-# 条评论：10]]></description>
-      <guid>http://axisofeval.blogspot.com/2024/01/common-lisps-block-return-from-and.html</guid>
-      <pubDate>Sun, 21 Jan 2024 01:37:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何建造自己的注塑机（2023）</title>
-      <link>https://www.machinedesign.com/3d-printing-cad/article/21263614/how-to-build-your-own-injection-molding-machine</link>
-      <description><![CDATA[文章网址：https： //www.machinedesign.com/3d-printing-cad/article/21263614/how-to-build-your-own-injection-molding-machine
-评论网址：https://news.ycombinator.com/item?id=39074098
-积分：30
-# 条评论：7]]></description>
-      <guid>https://www.machinedesign.com/3d-printing-cad/article/21263614/how-to-build-your-own-injection-molding-machine</guid>
-      <pubDate>Sun, 21 Jan 2024 00:21:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>不同语言如何在网上大笑</title>
-      <link>https://restofworld.org/2023/how-people-laugh-online/</link>
-      <description><![CDATA[文章网址：https://restofworld.org/2023/how-people-laugh-online/&lt; /a&gt;
-评论网址：https://news.ycombinator.com/item?id=39073810
-积分：91
-# 条评论：32]]></description>
-      <guid>https://restofworld.org/2023/how-people-laugh-online/</guid>
-      <pubDate>Sat, 20 Jan 2024 23:50:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>2015年Underhanded C大赛结果</title>
-      <link>http://www.underhanded-c.org/</link>
-      <description><![CDATA[文章网址：http://www.underhanded-c.org/
-评论网址：https://news.ycombinator.com/item?id=39073618
-积分：45
-# 条评论：18]]></description>
-      <guid>http://www.underhanded-c.org/</guid>
-      <pubDate>Sat, 20 Jan 2024 23:28:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
