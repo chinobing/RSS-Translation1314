@@ -4,120 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 24 Jan 2024 18:17:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jan 2024 21:13:40 GMT</lastBuildDate>
     <item>
-      <title>最小最紧分子三叶结的自组装</title>
-      <link>https://www.nature.com/articles/s41467-023-44302-y</link>
-      <description><![CDATA[文章网址：https://www.nature.com/articles/s41467-023-44302-是的
-评论网址：https://news.ycombinator.com/item?id=39120662
+      <title>小型精选软件和系统链接</title>
+      <link>https://www.roundcrisis.com/2024/01/23/jan-2024-posts/</link>
+      <description><![CDATA[文章网址：https://www.roundcrisis.com/2024/01/23 /jan-2024-posts/
+评论网址：https://news.ycombinator.com/item?id=39122611
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.nature.com/articles/s41467-023-44302-y</guid>
-      <pubDate>Wed, 24 Jan 2024 18:12:58 GMT</pubDate>
+      <guid>https://www.roundcrisis.com/2024/01/23/jan-2024-posts/</guid>
+      <pubDate>Wed, 24 Jan 2024 21:03:01 GMT</pubDate>
     </item>
     <item>
-      <title>有效数据管理者的七个习惯</title>
-      <link>https://seattledataguy.substack.com/p/7-habits-of-effective-data-manager</link>
-      <description><![CDATA[文章网址：https://seattledataguy.substack.com/p/7-有效数据管理者的习惯
-评论网址：https://news.ycombinator.com/item?id=39120658
-积分：1
-# 条评论：0]]></description>
-      <guid>https://seattledataguy.substack.com/p/7-habits-of-effective-data-manager</guid>
-      <pubDate>Wed, 24 Jan 2024 18:12:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>电路更新 – 2024 年 1 月</title>
-      <link>https://transformer-circuits.pub/2024/jan-update/index.html</link>
-      <description><![CDATA[文章网址：https://transformer- Circuits.pub/2024/jan-update/index。 html
-评论网址：https://news.ycombinator.com/item?id=39120657
-积分：1
-# 条评论：0]]></description>
-      <guid>https://transformer-circuits.pub/2024/jan-update/index.html</guid>
-      <pubDate>Wed, 24 Jan 2024 18:12:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>无密码身份验证的安全影响</title>
-      <link>https://fusionauth.io/articles/authentication/passwordless-authentication-security</link>
-      <description><![CDATA[文章网址：https://fusionauth.io/articles/authentication/passwordless-authentication-security
-评论网址：https://news.ycombinator.com/item?id=39120655
-积分：1
-# 条评论：0]]></description>
-      <guid>https://fusionauth.io/articles/authentication/passwordless-authentication-security</guid>
-      <pubDate>Wed, 24 Jan 2024 18:12:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：启动资金模拟器</title>
-      <link>https://www.fundingsimulator.com/</link>
-      <description><![CDATA[您好，HN我们构建了一个工具来帮助创始人了解现代筹款（使用保险箱）的运作方式，以及筹集资金时可以预期的稀释程度。该项目是开源的。现在的代码很混乱，但我保证它会变得更好。您也可以提供帮助。我们构建此项目并不是为了赚钱。我们确实这么做了，因为我们一直在寻找它，但却找不到它。我们实际上正在为一家公司筹集资金，乍一看，这个过程看起来很简单。只需一张Excel表格就可以了！但我们越深入研究它并尝试不同的模拟器，我们就越意识到它比看起来更复杂。我们甚至注册了 Pulley、Carta 和其他公司只是为了运行模拟。但它们有点令人困惑。TL;DR：了解现代创业资金并了解您将面临多少稀释是很困难的。我们构建了一个工具，希望能对此有所帮助。您可以为员工添加后期资金保险箱、定价轮次和发行选项，并且您可以在每一步看到这如何影响您的所有权。您还可以模拟退出场景并查看您将剩下多少钱。---一些复杂内容的示例：
-- 有许多不同类型的保险箱。它们都在第一轮定价时进行转换，但方式不同。有些是通过折扣进行的，有些是无上限的，有些是有固定估值上限的，还有一些是既有折扣又有估值上限的。
-- 所有保险箱（在第一轮定价之前）同时转换。它们不会相互稀释，而这正是其他筹款活动中发生的情况。
-- 投资者经常要求你保留一些选择。这个特别恶心。基本上，如果投资者期望您留出 10% 作为期权，并期望获得 10% 的股权，那么这就是随后的上限表中应该出现的内容。然而，计算期权很困难，而且通常是循环计算（甚至 YC 的 Kirsty Nathoo 也表示这很复杂，并且避免在 Safe 视频“了解 SAFE 和定价股权回合”中展示计算）
-- 保险箱和定价回合可以按比例分配，但不要总是行使它
-- 保险箱的按比例取自已定价的回合货币，因此您预计保险箱持有人的权益在行使时将保持不变。但是……它被新发行的期权稀释了。
-- 保险箱可以有最惠国待遇条款，将估值讨论/计算推迟到定价回合即将结束时。由于折扣、无上限和估值上限的混合，很难知道哪笔交易“更好”。
-- ...假设和限制：
-- 仅限投币后保险箱和定价回合。
-- 没有下一轮。清算优先权和反稀释权有点复杂——我们现在不支持。仅当您模拟“糟糕”情况时才重要。但来吧，这是一个模拟器——要乐观。
-- 无按比例上限。我们可能会很快添加这一点，以完全支持 YC 标准交易。但目前，如果投资者按比例获得份额，他们可以行使全部权益（保留其原始所有权），也可以不行使。
-- 保险箱的按比例在第一轮定价后消失。 （我想这才是正常的情况吧？）
-- 剩余的可用选项在退出时均匀地重新分配。
-- 该轮是投资者。为了简单起见，将“A 轮”视为所有 A 轮投资者的组合，成为一个超级投资者。让我们知道您的想法！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39120647
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.fundingsimulator.com/</guid>
-      <pubDate>Wed, 24 Jan 2024 18:11:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>信息社会：300bps N, 8, 1（终端模式或 Ascii 下载）[视频]</title>
-      <link>https://www.youtube.com/watch?v=siZlN_VCI_0</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=siZlN_VCI_0
-评论网址：https://news.ycombinator.com/item?id=39120616
-积分：1
-# 条评论：2]]></description>
-      <guid>https://www.youtube.com/watch?v=siZlN_VCI_0</guid>
-      <pubDate>Wed, 24 Jan 2024 18:09:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源延迟 - 为早期访问付费？</title>
-      <link>https://blog.sentry.io/nows-the-time-for-delayed-open-source/</link>
-      <description><![CDATA[文章网址：https://blog.sentry.io/nows-the -延迟开源时间/
-评论网址：https://news.ycombinator.com/item?id=39120592
+      <title>Replit 是否已关闭或给其他人带来麻烦？</title>
+      <link>https://replit.com/</link>
+      <description><![CDATA[文章网址：https://replit.com/
+评论网址：https://news.ycombinator.com/item?id=39122610
 积分：1
 # 条评论：1]]></description>
-      <guid>https://blog.sentry.io/nows-the-time-for-delayed-open-source/</guid>
-      <pubDate>Wed, 24 Jan 2024 18:07:35 GMT</pubDate>
+      <guid>https://replit.com/</guid>
+      <pubDate>Wed, 24 Jan 2024 21:02:57 GMT</pubDate>
     </item>
     <item>
-      <title>达明安·赫斯特 (Damien Hirst)、翠西·艾敏 (Tracey Emin) 等艺术家曾被用来训练《中途》</title>
-      <link>https://www.theguardian.com/technology/2024/jan/21/we-need-to-come-together-british-artists-team-up-to-fight-ai-image-generating-software</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/technology/2024/jan/21/we-need-to-come-together-british-artists-team-up-to-fight- ai图像生成软件
-评论网址：https://news.ycombinator.com/item?id=39120582
+      <title>有用的 ISO 646 变体表 [德语维基百科]</title>
+      <link>https://de.wikipedia.org/wiki/ISO_646</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/ISO_646
+评论网址：https://news.ycombinator.com/item?id=39122604&gt;
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theguardian.com/technology/2024/jan/21/we-need-to-come-together-british-artists-team-up-to-fight-ai-image-generating-software</guid>
-      <pubDate>Wed, 24 Jan 2024 18:06:49 GMT</pubDate>
+      <guid>https://de.wikipedia.org/wiki/ISO_646</guid>
+      <pubDate>Wed, 24 Jan 2024 21:02:20 GMT</pubDate>
     </item>
     <item>
-      <title>自行编译 Linux 内核指南</title>
-      <link>https://itsfoss.com/compile-linux-kernel/</link>
-      <description><![CDATA[文章网址：https://itsfoss.com/compile-linux-kernel/
-评论网址：https://news.ycombinator.com/item?id=39120580
+      <title>产品中法学硕士的评估工具，以找出最好使用的工具</title>
+      <link>https://www.algoco.co.uk/</link>
+      <description><![CDATA[文章网址：https://www.algoco.co.uk/
+评论网址：https://news.ycombinator.com/item?id=39122600
 积分：1
-# 条评论：0]]></description>
-      <guid>https://itsfoss.com/compile-linux-kernel/</guid>
-      <pubDate>Wed, 24 Jan 2024 18:06:44 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://www.algoco.co.uk/</guid>
+      <pubDate>Wed, 24 Jan 2024 21:01:53 GMT</pubDate>
     </item>
     <item>
-      <title>具有检索增强生成功能的实时化身</title>
-      <link>https://docs.trypromptly.com/guides/realtime-avatar-with-rag</link>
-      <description><![CDATA[文章网址：https://docs.trypromptly.com/guides/realtime-avatar-with-抹布
-评论网址：https://news.ycombinator.com/item?id=39120577
+      <title>在D.E. Shaw、Larry Summers 每周只工作一天 (2009)</title>
+      <link>https://www.businessinsider.com/at-de-shaw-larry-summers-worked-just-one-day-a-week-2009-4</link>
+      <description><![CDATA[文章网址：https： //www.businessinsider.com/at-de-shaw-larry-summers-worked-just-one-day-a-week-2009-4
+评论网址：https://news.ycombinator.com/item?id=39122589
 积分：1
 # 条评论：0]]></description>
-      <guid>https://docs.trypromptly.com/guides/realtime-avatar-with-rag</guid>
-      <pubDate>Wed, 24 Jan 2024 18:06:35 GMT</pubDate>
+      <guid>https://www.businessinsider.com/at-de-shaw-larry-summers-worked-just-one-day-a-week-2009-4</guid>
+      <pubDate>Wed, 24 Jan 2024 21:00:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>惠普首席执行官表示，由于黑客攻击，他们使用第三方墨水的打印机变砖了</title>
+      <link>https://www.wired.com/story/hp-ceo-ink-cartridge-hackers-dynamic-security/</link>
+      <description><![CDATA[文章网址：https://www.wired.com/story /hp-ceo-ink-cartridge-hackers-dynamic-security/
+评论网址：https://news.ycombinator.com/item?id=39122577
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.wired.com/story/hp-ceo-ink-cartridge-hackers-dynamic-security/</guid>
+      <pubDate>Wed, 24 Jan 2024 20:59:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>认真的 Web 组件</title>
+      <link>https://naildrivin5.com/blog/2024/01/24/web-components-in-earnest.html</link>
+      <description><![CDATA[文章网址：https://naildrivin5.com/blog/2024/ 01/24/web-components-in-earnest.html
+评论网址：https://news.ycombinator.com/item?id=39122568
+积分：1
+# 条评论：0]]></description>
+      <guid>https://naildrivin5.com/blog/2024/01/24/web-components-in-earnest.html</guid>
+      <pubDate>Wed, 24 Jan 2024 20:58:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>UDP-Lite</title>
+      <link>https://en.wikipedia.org/wiki/UDP-Lite</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/UDP-Lite&gt;
+评论网址：https://news.ycombinator.com/item?id=39122552&gt;
+积分：1
+# 条评论：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/UDP-Lite</guid>
+      <pubDate>Wed, 24 Jan 2024 20:58:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源开发人员的去中心化协议将因其工作而获得奖励</title>
+      <link>https://tea.xyz/</link>
+      <description><![CDATA[文章网址：https://tea.xyz/
+评论网址：https://news.ycombinator.com/item?id=39122550
+积分：1
+# 条评论：0]]></description>
+      <guid>https://tea.xyz/</guid>
+      <pubDate>Wed, 24 Jan 2024 20:57:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>现在连老鼠也开始自拍（并且很享受）</title>
+      <link>https://www.nytimes.com/2024/01/23/science/photography-rats-selfies.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2024/ 01/23/science/photography-rats-selfies.html
+评论网址：https://news.ycombinator.com/item?id=39122524
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.nytimes.com/2024/01/23/science/photography-rats-selfies.html</guid>
+      <pubDate>Wed, 24 Jan 2024 20:55:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
