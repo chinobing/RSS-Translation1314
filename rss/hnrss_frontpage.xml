@@ -4,114 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 23 Jan 2024 21:13:36 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jan 2024 01:03:56 GMT</lastBuildDate>
     <item>
-      <title>为什么机器学习“难”？</title>
+      <title>everynoise.com 创始人被 Spotify 解雇</title>
+      <link>https://everynoise.com/#updates</link>
+      <description><![CDATA[文章网址：https://everynoise.com/#updates
+评论网址：https://news.ycombinator.com/item?id=39111730
+积分：21
+# 条评论：2]]></description>
+      <guid>https://everynoise.com/#updates</guid>
+      <pubDate>Tue, 23 Jan 2024 23:59:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>谷歌取消了与一家帮助培训巴德的人工智能数据公司的合同</title>
+      <link>https://www.theverge.com/2024/1/23/24048429/google-appen-cancel-contract-ai-training-bard</link>
+      <description><![CDATA[文章网址：https://www. theverge.com/2024/1/23/24048429/google-appen-cancel-contract-ai-training-bard
+评论网址：https://news.ycombinator.com/item?id=39111667
+积分：15
+# 条评论：6]]></description>
+      <guid>https://www.theverge.com/2024/1/23/24048429/google-appen-cancel-contract-ai-training-bard</guid>
+      <pubDate>Tue, 23 Jan 2024 23:52:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>上诉法院：联邦调查局扣押保管箱违反第四修正案</title>
+      <link>https://reason.com/2024/01/23/appeals-court-fbis-safe-deposit-box-seizures-violated-fourth-amendment/</link>
+      <description><![CDATA[文章网址：https:/ /reason.com/2024/01/23/appeals-court-fbis-safe-deposit-box-seizures-violated-fourth-amendment/
+评论网址：https://news.ycombinator.com/item?id=39111539
+积分：40
+评论数量：9]]></description>
+      <guid>https://reason.com/2024/01/23/appeals-court-fbis-safe-deposit-box-seizures-violated-fourth-amendment/</guid>
+      <pubDate>Tue, 23 Jan 2024 23:36:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>硬件加速的相似性度量和距离函数（快 200 倍）</title>
+      <link>https://github.com/ashvardanian/SimSIMD</link>
+      <description><![CDATA[文章网址：https://github.com/ashvardanian/SimSIMD
+评论网址：https://news.ycombinator.com/item?id=39111114
+积分：5
+# 条评论：0]]></description>
+      <guid>https://github.com/ashvardanian/SimSIMD</guid>
+      <pubDate>Tue, 23 Jan 2024 22:53:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>水路地图</title>
+      <link>https://waterwaymap.org</link>
+      <description><![CDATA[文章网址：https://waterwaymap.org
+评论网址：https://news.ycombinator.com/item?id=39110434
+积分：93
+# 条评论：20]]></description>
+      <guid>https://waterwaymap.org</guid>
+      <pubDate>Tue, 23 Jan 2024 21:51:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Codemodder – 用于 Java 和 Python 的新 codemod 库</title>
+      <link>https://codemodder.io/</link>
+      <description><![CDATA[嗨，HN，我来这里是为了向您展示一个新的 codemod 库。如果您不熟悉术语“codemod”，以下是它最初的定义 AFAICT：&gt; Codemod 是一个工具/库，可帮助您进行大规模代码库重构Codemod 很棒，但我觉得他们还远远没有发挥出自己的潜力，所以我非常自豪地向大家展示我们构建的名为 Codemodder 的 codemod 库的早期版本（https://codemodder.io），我们认为它推动了“领域”的发展。 Codemodder 支持 Python 和 Java（https://github.com/pixee/codemodder-python 和 https://github.com/pixee/codemodder-java）。许可证是AGPL，请不要杀我。Codemodder 的不同之处主要在于我们的设计理念。我们的目标不是尝试编写一个新的库来查找代码和更改代码（这是传统的 codemod 库所做的），而是提供一个易于使用的编排库，帮助连接用于查询源代码的惯用工具和用于变异的惯用工具源代码。因此，如果您喜欢当前的 linter、Semgrep、Sonar、PMD、CodeQL 或其他用于查询源代码的工具，请使用它们！如果您喜欢 JavaParser 或 libCST 来更改源代码 – 使用它们！我们将为您提供所有的粘合剂，使构建、测试、打包和编排变得容易。以下是现有 Codemod 库目前存在的问题，以及 Codemodder 如何解决这些问题。1.他们的表达能力不够。他们倾向于提供用于查询代码的准系统 API。这些库根本无法与专门构建的用于查询代码的静态分析工具竞争，因此我们应该使用它们。2.它们在没有任何背景的情况下产生变化。了解代码更改的原因很重要。如果更改对于接收代码更改的开发人员来说是显而易见的，那么他们可能一开始就不会犯这个错误！讲故事就是一切，因此我们会指导您做出更有可能被合并的更改。3.他们不能很好地处理注入依赖项。我不得不说，我们在这方面还不是很擅长，但我们已经有了一些基础知识，并且会投入更多。4.大多数应用程序都涉及多种语言，但当今所有的 codemod 库都是针对一种语言的，因此很难为单个项目进行编排。我们投入了大量工作来确保这些库与开源 API 合约和格式保持一致 (https://github.com /pixee/codemodder-specs），这样它们就可以通过下游自动化进行类似的编排。这个想法是“不要写另一个 PR 评论说同样的事情，编写一个 codemod 来自动进行更改你每次”。我们希望您喜欢它，并很高兴收到您的任何反馈！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39110110
+积分：15
+# 条评论：1]]></description>
+      <guid>https://codemodder.io/</guid>
+      <pubDate>Tue, 23 Jan 2024 21:27:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Oxxcu，将二氧化碳转化为燃料、化学品和塑料</title>
+      <link>https://www.maddyness.com/uk/2024/01/17/oxccu-converting-co₂-into-fuels-chemicals-and-plastics/</link>
+      <description><![CDATA[文章网址：https：/ /www.maddyness.com/uk/2024/01/17/oxccu-converting-co2-into-fuels-chemicals-and- Plastics/
+评论网址：https://news.ycombinator.com/item?id=39109811
+积分：33
+# 条评论：19]]></description>
+      <guid>https://www.maddyness.com/uk/2024/01/17/oxccu-converting-co₂-into-fuels-chemicals-and-plastics/</guid>
+      <pubDate>Tue, 23 Jan 2024 21:04:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>未来电力系统与当今天气</title>
+      <link>https://model.energy/future/</link>
+      <description><![CDATA[文章网址：https://model.energy/future/
+评论网址：https://news.ycombinator.com/item?id=39109591
+积分：27
+# 条评论：3]]></description>
+      <guid>https://model.energy/future/</guid>
+      <pubDate>Tue, 23 Jan 2024 20:49:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么机器学习“难”？ (2016)</title>
       <link>https://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html</link>
       <description><![CDATA[文章网址：https://ai.stanford.edu/~zayd/为什么-is-machine-learning-hard.html
 评论网址：https://news.ycombinator.com/item?id=39109481
-积分：4
-# 条评论：1]]></description>
+积分：93
+# 条评论：40]]></description>
       <guid>https://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html</guid>
       <pubDate>Tue, 23 Jan 2024 20:43:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么我喜欢 Tailwind CSS</title>
-      <link>https://ben.page/tailwind</link>
-      <description><![CDATA[文章网址：https://ben.page/tailwind
-评论网址：https://news.ycombinator.com/item?id=39109393
-积分：3
-# 条评论：1]]></description>
-      <guid>https://ben.page/tailwind</guid>
-      <pubDate>Tue, 23 Jan 2024 20:36:04 GMT</pubDate>
     </item>
     <item>
       <title>用双筒望远镜寻找法学硕士：机器生成文本的零样本检测</title>
       <link>https://arxiv.org/abs/2401.12070</link>
       <description><![CDATA[文章网址：https://arxiv.org/abs/2401.12070
 评论网址：https://news.ycombinator.com/item?id=39109304
-积分：6
-# 条评论：0]]></description>
+积分：76
+# 条评论：53]]></description>
       <guid>https://arxiv.org/abs/2401.12070</guid>
       <pubDate>Tue, 23 Jan 2024 20:29:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>开放基础设施地图</title>
-      <link>https://openinframap.org</link>
-      <description><![CDATA[文章网址：https://openinframap.org
-评论网址：https://news.ycombinator.com/item?id=39109185
-积分：64
-# 条评论：17]]></description>
-      <guid>https://openinframap.org</guid>
-      <pubDate>Tue, 23 Jan 2024 20:20:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>苹果缩减汽车自动驾驶功能并将发布推迟至 2028 年</title>
-      <link>https://www.bloomberg.com/news/articles/2024-01-23/apple-car-ev-set-to-debut-in-2028-with-limited-autonomous-driving</link>
-      <description><![CDATA[文章网址：https://www.bloomberg.com/news/articles/2024-01-23/apple-car-ev-set-to-debut-in-2028-with-limited-autonomous-driven&lt; /a&gt;
-评论网址：https://news.ycombinator.com/item?id=39107854
-积分：96
-评论数：147]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2024-01-23/apple-car-ev-set-to-debut-in-2028-with-limited-autonomous-driving</guid>
-      <pubDate>Tue, 23 Jan 2024 18:53:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用扩散模型直接生成像素空间百万像素图像</title>
-      <link>https://crowsonkb.github.io/hourglass-diffusion-transformers/</link>
-      <description><![CDATA[文章网址：https://crowsonkb.github.io/hourglass-diffusion-transformers/&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=39107620
-积分：50
-# 条评论：5]]></description>
-      <guid>https://crowsonkb.github.io/hourglass-diffusion-transformers/</guid>
-      <pubDate>Tue, 23 Jan 2024 18:38:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Cosmic 的 Blocks – 用于无头 CMS 的 Web 组件</title>
-      <link>https://news.ycombinator.com/item?id=39107536</link>
-      <description><![CDATA[您好，HN，今天我们发布了 Blocks (https://blocks.cosmicjs.com/)，这是我们新的数据注入组件用于构建 Cosmic (https://www.cosmicjs.com/) (W19) 支持的网站和应用程序。Cosmic 是无头内容管理系统（CMS）。我们提供了一个仪表板来创建内容，并提供了 API 工具来将内容交付到任何网站或应用程序。块是预构建的网站组件，您可以将其放入项目中。从登陆页面、博客、图片库、产品页面等中进行选择。借助 Blocks，您可以比以往更快地使用 Cosmic 构建这些功能。我们的目标是让您的团队能够创建最好的内容驱动的网站和应用程序。块可以被认为是与 Cosmic 无头 CMS 连接的缺失“头”。它是我们自以为是的组件前端，用于构建高度可扩展和高性能的 Web 应用程序，使用我们认为可提供开发体验和性能优势的工具（React Server Components、Next.js 和 Tailwind CSS）构建。React Server Components (RSC) 具有开启了构建数据驱动的 Web 应用程序的新范例。通过将数据获取安全地封装在组件内部，我们可以使用 RSC 作为构建块，以实现更快、更具可扩展性的应用程序开发。我们对 RSC 和区块的潜力感到兴奋。这仅仅是开始。要开始使用，请访问 Blocks 网站 (https://blocks.cosmicjs.com/ ）并按照安装步骤进行操作。查看 Blocks 演示（代理模板）(https://cosmic-agency-template.vercel.app/&lt; /a&gt;) 以查看所有正在运行的块。块的构建是为了让开发人员在以下功能方面取得先机：- 性能优化
-- 草稿预览就绪
-- 移动响应
-- 本地化准备就绪
-- 深色模式就绪
-- 可定制
-- 无障碍
-- 类型安全块不仅提供快速的开发体验，而且默认情况下还针对速度和性能进行了优化，因此您可以更快地交付生产就绪。查看 Blocks 演示（代理模板）(https://cosmic-agency-template.vercel.app/ ）了解使用 Blocks 进行构建如何为您在性能、SEO 和可访问性方面获得全面高分。Blocks 是开源的 (https://github.com/cosmicjs/blocks），使用 React Server Components、Next.js、TypeScript、Tailwind CSS 构建，并由 Cosmic 内容管理系统提供支持。您可以使用 Blocks CLI (https ://www.npmjs.com/package/@cosmicjs/blocks）。在 Blocks 网站上查看（https ://blocks.cosmicjs.com/）并在评论中告诉我们您的想法。托尼
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39107536
-积分：5
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=39107536</guid>
-      <pubDate>Tue, 23 Jan 2024 18:33:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>在浏览器中显示 HN：Atlas – GIS 和交互式地图</title>
-      <link>https://atlas.co</link>
-      <description><![CDATA[文章网址：https://atlas.co
-评论网址：https://news.ycombinator.com/item?id=39107483
-积分：40
-# 条评论：17]]></description>
-      <guid>https://atlas.co</guid>
-      <pubDate>Tue, 23 Jan 2024 18:29:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Deadcode：在 Go 中查找无法访问的函数</title>
-      <link>https://go.dev/blog/deadcode</link>
-      <description><![CDATA[文章网址：https://go.dev/blog/deadcode
-评论网址：https://news.ycombinator.com/item?id=39107084
-积分：86
-# 条评论：50]]></description>
-      <guid>https://go.dev/blog/deadcode</guid>
-      <pubDate>Tue, 23 Jan 2024 18:05:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Chrome 实验性 AI 功能</title>
-      <link>https://blog.google/products/chrome/google-chrome-generative-ai-features-january-2024/</link>
-      <description><![CDATA[文章网址：https://blog.google/products/chrome /google-chrome-generative-ai-features-january-2024/
-评论网址：https://news.ycombinator.com/item?id=39106973
-积分：80
-评论数：84]]></description>
-      <guid>https://blog.google/products/chrome/google-chrome-generative-ai-features-january-2024/</guid>
-      <pubDate>Tue, 23 Jan 2024 17:57:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
