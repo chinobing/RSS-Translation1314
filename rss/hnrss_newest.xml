@@ -4,107 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 26 Jan 2024 09:15:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2024 12:23:49 GMT</lastBuildDate>
     <item>
-      <title>Homa 传输协议的 Linux 内核实现</title>
-      <link>https://www.usenix.org/conference/atc21/presentation/ousterhout</link>
-      <description><![CDATA[文章网址：https://www.usenix.org/conference/atc21/presentation/ousterhout
-评论网址：https://news.ycombinator.com/item?id=39140336
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.usenix.org/conference/atc21/presentation/ousterhout</guid>
-      <pubDate>Fri, 26 Jan 2024 09:04:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>CNC 铣削：速度和进给</title>
-      <link>https://calbryant.uk/blog/cnc-routing-speeds-and-feeds/</link>
-      <description><![CDATA[文章网址：https://calbryant.uk/blog/cnc-routing-speeds-and -feeds/#
-评论网址：https://news.ycombinator.com/item?id=39140327
-积分：1
-# 条评论：0]]></description>
-      <guid>https://calbryant.uk/blog/cnc-routing-speeds-and-feeds/</guid>
-      <pubDate>Fri, 26 Jan 2024 09:02:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：VHDL 中的高效 SRL32（级联移位寄存器）时钟预分频器</title>
-      <link>https://gist.github.com/Thraetaona/ba941e293d36d0f76db6b9f3476b823c</link>
-      <description><![CDATA[刚开始通过尝试编写一个简单的 LED 闪光灯来学习 FPGA 硬件描述语言，我发现互联网上绝大多数的解决方案都是为了减慢快速时钟的速度（为了使 LED 的脉冲对人眼可见）要么使用特定于供应商的专有时钟管理器和 PLL，要么实现一些二十多位宽的计数器来计算数十万个时钟周期并生成 1 Hz 输出。尽管之间存在天壤之别尽管硬件加速设计中的计数器和软件模拟设计中的计数器，我仍然认为仅由计数器产生的菊花链组件的数量远非理想且荒谬；我开始寻找一种更有效的方法。我在 2015 年发现了一篇相当晦涩的博客文章 (http://www.markharvey.info/art/srldiv_04.10.2015/srldiv_04.1...）概述了完全相同的问题，同时还参考了 Xilinx 系统设计师 Ken Chapman 先生的提案：使用 FPGA 的移位寄存器基元（例如 Xilinx 的 SRL32E）来缓解这种情况。但是，其中描述的方法将依赖于用户计算 [2, 32) 之间的目标频率因子，并煞费苦心地连接每个实例SRL32E 相互连接，全部以手动方式进行，更不用说生成的脉冲将具有较低的、一个周期长的占空比。因此，我编写了 srl_prescaler.vhd，这是一个用 VHDL 实现的全自动模板生成器一个高效的基于寄存器的级联时钟分频器，仅基于 SRL32 原语和与门 — 该模块的优点是它非常通用且易于使用：```预分频器：实体工作.srl_prescaler通用映射 (100e6, 1)端口映射 (clk_in_100mhz, ce_out_1hz);````在上面的示例中，输入时钟为 100 MHz（即 `100e6` &amp; `clk_in_100mhz`）被分成 1 Hz 的时钟使能信号（即，`1` 和 `ce_out_1hz`）。在其他改进中，第三个可选参数（即占空比）也可以作为实数（0.00、1.00）提供给通用映射。总体而言，这个小项目使其他利基方法更容易使用通过实际利用 VHDL 必须提供的许多语言功能（例如，使用函数预计算因子结果、通过 for...generate 子句自动创建硬件、使用寄存器和保护信号进行锁存等），很好又实用的学习点。
+      <title>联合创始人退出——Rant</title>
+      <link>https://news.ycombinator.com/item?id=39141822</link>
+      <description><![CDATA[咆哮开始1。在大学时 - 我创办了一家公司，并尝试说服几个非常聪明的朋友作为联合创始人加入。2.他们厌恶风险。他们想要薪水。尽管我身无分文，但我还是答应给他们工资，并让他们加入成为员工。他们同意了。3.我没有钱支付工资，但我进入了疯狂的行动模式，并为我看到人们需要的随机项目获得了几个 B2B 客户（尽管我们作为初创公司的主要产品是 B2C，后来我们关闭了这个 B2B 部分）我们提出）。我做了 B2B 项目，获得了现金流，并开始向他们支付工资，而我拿的是 0 工资，因为我尽可能多地进行再投资。4.这种情况持续了大约6个月。我们终于筹集到了 40 万美元。我说服了一名员工成为联合创始人。他同意。给了他几乎平等的股权，尽管他在我们融资后才加入，而且他已经拿薪水了，而我直到那天才拿薪水。在此期间，我们也大学毕业并开始全职从事这项工作。5。我们建设了 6 个月，意识到我们需要比我们想象的更多的时间和资源，并决定缩小规模并减薪。我采取了最大程度的减薪来维持联合创始人和团队的士气。6.一年过去了，我们仍然是一艘正在下沉的船，我们还没有能够筹集到下一轮融资。由于工资微薄，我也没有积蓄。7.我们都努力推动，我成功从现有投资者那里获得了 220,000 美元的过桥融资8。我们现在正在处理拿到这笔钱的文书工作，终于有了希望，我在很长一段时间后才摆脱了抑郁和头痛。9.我宣布逆转减薪，制定一项关于我们如何开始创收并尽快筹集更多资金的新计划。10.联合创始人突然说他想辞职。说即使我们成功完成新一轮融资，他也不在乎，因为他想立即切换领域并在另一个技术领域工作。他愿意归还大部分股份。11.我认为他仍然有员工心态。创始人不会随意退出；我们对与我们一起度过这一切的投资者和员工负有责任。12.作为联合创始人，他也有权按照他想要的方式引导公司，我很乐意一起讨论和调整。我的建议是，我们看清当前的情况，再用几个月的时间用新的资金来解决投资者投入资金的问题，如果不起作用，就转向。如果有效，仍需进一步提供资金。13。他现在仍然想退出，因为即使我们成功，即使我们稍后转向，他也不想在这个领域工作。14.我措手不及，因为直到今天一切似乎都很棒。直到昨天，我们还在讨论如何在当前/新领域建立最大的公司15。即使在今天，我们也没有吵架，我们之间没有发生任何事情，他只是经历了四分之一人生危机，并相信他的使命就是现在就在上述新领域工作。16。尽管我可以编码并且拥有不错的技术背景并且可以管理简单的技术内容，但他确实是一个非常聪明的技术人员，就像一个神童。失去这样级别的联合创始人是一个很大的打击。很确定我们的投资者现在不会继续融资，如果没有当前的融资，我就没有足够的钱来管理工资或关闭公司如果需要的话。在任何人询问之前 - 他确实有一个通知期。但我现在必须专注于取代他，而不是专注于重要的事情。此外，员工也会感到震惊，可能会离开，因为我们目前是一个非常小的团队，而作为已经陷入困境的公司，失去一位创始人会吓到员工，这是理所当然的。他们有家人要养活。我真的很难过。我想象我们一起征服世界。咆哮结束。感谢您参加我的 RantX 演讲。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39140317
+评论网址：https://news.ycombinator.com/item?id=39141822
 积分：1
 # 条评论：0]]></description>
-      <guid>https://gist.github.com/Thraetaona/ba941e293d36d0f76db6b9f3476b823c</guid>
-      <pubDate>Fri, 26 Jan 2024 09:00:45 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=39141822</guid>
+      <pubDate>Fri, 26 Jan 2024 12:18:00 GMT</pubDate>
     </item>
     <item>
-      <title>泰勒·斯威夫特 (Taylor Swift) 的明显人工智能深度伪造引起了粉丝和立法者的愤怒</title>
-      <link>https://venturebeat.com/ai/explicit-ai-deepfakes-of-taylor-swift-have-fans-and-lawmakers-up-in-arms/</link>
-      <description><![CDATA[文章网址：https ://venturebeat.com/ai/explicit-ai-deepfakes-of-taylor-swift-have-fans-and-lawmakers-up-in-arms/
-评论网址：https://news.ycombinator.com/item?id=39140293
-积分：2
-# 条评论：0]]></description>
-      <guid>https://venturebeat.com/ai/explicit-ai-deepfakes-of-taylor-swift-have-fans-and-lawmakers-up-in-arms/</guid>
-      <pubDate>Fri, 26 Jan 2024 08:58:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么阿拉巴马州要用氮气处决一个人？</title>
-      <link>https://www.bbc.com/news/world-us-canada-68097008</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/world-us-canada- 68097008
-评论网址：https://news.ycombinator.com/item?id=39140280
+      <title>用于切割和雕刻的 CNC 激光器</title>
+      <link>https://jacquesmattheij.com/cnc-lasers/</link>
+      <description><![CDATA[文章网址：https://jacquesmattheij.com/cnc-lasers/
+评论网址：https://news.ycombinator.com/item?id=39141816
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bbc.com/news/world-us-canada-68097008</guid>
-      <pubDate>Fri, 26 Jan 2024 08:55:22 GMT</pubDate>
+      <guid>https://jacquesmattheij.com/cnc-lasers/</guid>
+      <pubDate>Fri, 26 Jan 2024 12:17:00 GMT</pubDate>
     </item>
     <item>
-      <title>产生创新的研究想法 (2013) [pdf]</title>
-      <link>https://online-cig.ase.ro/RePEc/ami/articles/12_2_1.pdf</link>
-      <description><![CDATA[文章网址：https://online-cig.ase.ro/RePEc/ami/文章/12_2_1.pdf
-评论网址：https://news.ycombinator.com/item?id=39140275
+      <title>将任何文件类型转换为 PDF</title>
+      <link>https://oneconvert.com/pdf-converter</link>
+      <description><![CDATA[文章网址：https://oneconvert.com/pdf-converter
+评论网址：https://news.ycombinator.com/item?id=39141778
 积分：1
 # 条评论：1]]></description>
-      <guid>https://online-cig.ase.ro/RePEc/ami/articles/12_2_1.pdf</guid>
-      <pubDate>Fri, 26 Jan 2024 08:54:28 GMT</pubDate>
+      <guid>https://oneconvert.com/pdf-converter</guid>
+      <pubDate>Fri, 26 Jan 2024 12:11:20 GMT</pubDate>
     </item>
     <item>
-      <title>为什么顺风不适合我</title>
-      <link>https://www.spicyweb.dev/why-tailwind-isnt-for-me/</link>
-      <description><![CDATA[文章网址：https://www.spicyweb.dev/why-tailwind-isnt-for -我/
-评论网址：https://news.ycombinator.com/item?id=39140269
+      <title>五角大楼报告预测新冠生物武器和脑芯片战争的新时代</title>
+      <link>https://www.leefang.com/p/pentagon-report-predicts-new-age</link>
+      <description><![CDATA[文章网址：https://www.leefang.com/p/pentagon-report-预测新时代
+评论网址：https://news.ycombinator.com/item?id=39141776
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.leefang.com/p/pentagon-report-predicts-new-age</guid>
+      <pubDate>Fri, 26 Jan 2024 12:10:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国对微软、OpenAI、谷歌和亚马逊的人工智能交易发起调查</title>
+      <link>https://www.theguardian.com/technology/2024/jan/25/ftc-ai-inquiry-microsoft-alphabet-amazon</link>
+      <description><![CDATA[文章网址：https://www.theguardian。 com/technology/2024/jan/25/ftc-ai-inquiry-microsoft-alphabet-amazon
+评论网址：https://news.ycombinator.com/item?id=39141769
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.spicyweb.dev/why-tailwind-isnt-for-me/</guid>
-      <pubDate>Fri, 26 Jan 2024 08:53:48 GMT</pubDate>
+      <guid>https://www.theguardian.com/technology/2024/jan/25/ftc-ai-inquiry-microsoft-alphabet-amazon</guid>
+      <pubDate>Fri, 26 Jan 2024 12:09:41 GMT</pubDate>
     </item>
     <item>
-      <title>Airclap – 将任何文件发送到任何设备</title>
-      <link>https://github.com/Gentleflow/Airclap</link>
-      <description><![CDATA[文章网址：https://github.com/Gentleflow/Airclap
-评论网址：https://news.ycombinator.com/item?id=39140242
+      <title>内源性逆转录病毒塑造小鼠胚胎的多能性</title>
+      <link>https://cosmosmagazine.com/science/biology/dna-from-ancient-virus-essential-for-embryo-development/</link>
+      <description><![CDATA[文章网址：https://cosmosmagazine.com/science /biology/DNA-from-ancient-virus-essential-for-embryo-development/
+评论网址：https://news.ycombinator.com/item?id=39141760
 积分：2
+# 条评论：0]]></description>
+      <guid>https://cosmosmagazine.com/science/biology/dna-from-ancient-virus-essential-for-embryo-development/</guid>
+      <pubDate>Fri, 26 Jan 2024 12:08:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 TS 类型注释进行 JavaScript 引擎优化</title>
+      <link>https://goose.icu/porffor-types/</link>
+      <description><![CDATA[文章网址：https://goose.icu/porffor-types/
+评论网址：https://news.ycombinator.com/item?id=39141752
+积分：1
+# 条评论：0]]></description>
+      <guid>https://goose.icu/porffor-types/</guid>
+      <pubDate>Fri, 26 Jan 2024 12:07:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple iOS：在欧盟使用替代浏览器引擎</title>
+      <link>https://developer.apple.com/support/alternative-browser-engines/</link>
+      <description><![CDATA[文章网址：https://developer.apple.com/support/alternative-browser-engines/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=39141716
+积分：3
 # 条评论：1]]></description>
-      <guid>https://github.com/Gentleflow/Airclap</guid>
-      <pubDate>Fri, 26 Jan 2024 08:48:57 GMT</pubDate>
+      <guid>https://developer.apple.com/support/alternative-browser-engines/</guid>
+      <pubDate>Fri, 26 Jan 2024 12:03:50 GMT</pubDate>
     </item>
     <item>
-      <title>BT 客户在不知情的情况下被收取 Xbox Game Pass 费用</title>
-      <link>https://www.bbc.com/news/technology-68085437</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/technology-68085437
-评论网址：https://news.ycombinator.com/item?id=39140237
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.bbc.com/news/technology-68085437</guid>
-      <pubDate>Fri, 26 Jan 2024 08:48:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>放弃整个细分市场：“独立黑客”</title>
-      <link>https://ooshq.com/abandoning/</link>
-      <description><![CDATA[文章网址：https://ooshq.com/abandoning/
-评论网址：https://news.ycombinator.com/item?id=39140206
+      <title>英国停止与加拿大就牛肉禁令中的激素进行贸易谈判</title>
+      <link>https://www.bbc.co.uk/news/uk-politics-68098177</link>
+      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/uk-politics- 68098177
+评论网址：https://news.ycombinator.com/item?id=39141686
 积分：2
 # 条评论：0]]></description>
-      <guid>https://ooshq.com/abandoning/</guid>
-      <pubDate>Fri, 26 Jan 2024 08:42:34 GMT</pubDate>
+      <guid>https://www.bbc.co.uk/news/uk-politics-68098177</guid>
+      <pubDate>Fri, 26 Jan 2024 12:00:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用已建立的 UI 模式模块化 React 应用程序</title>
+      <link>https://martinfowler.com/articles/modularizing-react-apps.html</link>
+      <description><![CDATA[文章网址：https://martinfowler.com/articles/modularizing-react-apps.html
+评论网址：https://news.ycombinator.com/item?id=39141672
+积分：2
+# 条评论：0]]></description>
+      <guid>https://martinfowler.com/articles/modularizing-react-apps.html</guid>
+      <pubDate>Fri, 26 Jan 2024 11:59:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
