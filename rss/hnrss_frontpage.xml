@@ -4,7 +4,89 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 26 Jan 2024 12:23:44 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2024 15:14:19 GMT</lastBuildDate>
+    <item>
+      <title>特斯拉陷入严重麻烦</title>
+      <link>https://disconnect.blog/teslas-in-serious-trouble/</link>
+      <description><![CDATA[文章网址：https://disconnect.blog/teslas-in-serious-trouble/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=39143310
+积分：4
+# 条评论：1]]></description>
+      <guid>https://disconnect.blog/teslas-in-serious-trouble/</guid>
+      <pubDate>Fri, 26 Jan 2024 14:57:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>WASI 0.2.0 及其重要性</title>
+      <link>https://wasmcloud.com/blog/wasi-preview-2-officially-launches</link>
+      <description><![CDATA[文章网址：https://wasmcloud.com/blog/wasi-preview-2-officially-发射
+评论网址：https://news.ycombinator.com/item?id=39143054
+积分：12
+# 条评论：1]]></description>
+      <guid>https://wasmcloud.com/blog/wasi-preview-2-officially-launches</guid>
+      <pubDate>Fri, 26 Jan 2024 14:35:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Oasis – 一个小型、静态链接的 Linux 系统</title>
+      <link>https://github.com/oasislinux/oasis</link>
+      <description><![CDATA[文章网址：https://github.com/oasislinux/oasis
+评论网址：https://news.ycombinator.com/item?id=39142748
+积分：83
+评论数量：9]]></description>
+      <guid>https://github.com/oasislinux/oasis</guid>
+      <pubDate>Fri, 26 Jan 2024 14:11:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>代谢循序渐进：禁食前 72 小时内的各个阶段</title>
+      <link>https://usetemper.com/learn/metabolic-step-by-step/</link>
+      <description><![CDATA[文章网址：https://usetemper.com/learn/metabolic-step-by-step/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=39142568
+积分：38
+# 条评论：24]]></description>
+      <guid>https://usetemper.com/learn/metabolic-step-by-step/</guid>
+      <pubDate>Fri, 26 Jan 2024 13:52:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>TinySA – 小型频谱分析仪和信号发生器</title>
+      <link>https://www.tinysa.org/wiki/</link>
+      <description><![CDATA[文章网址：https://www.tinysa.org/wiki/
+评论网址：https://news.ycombinator.com/item?id=39142560
+积分：26
+# 条评论：0]]></description>
+      <guid>https://www.tinysa.org/wiki/</guid>
+      <pubDate>Fri, 26 Jan 2024 13:51:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：阿尔茨海默病好友：使用 40Hz 的闪烁灯光和声音</title>
+      <link>https://alzheimersbuddy.com/</link>
+      <description><![CDATA[我最近了解到麻省理工学院进行的一些有趣的研究，这些研究可能利用 40 赫兹的光和声音刺激来治疗阿尔茨海默病。目前还没有任何证据被证明，但它对我来说似乎很有吸引力，特别是考虑到治疗的安全性和简单性（即没有药物，没有电极，只需看光和听声音）。我想自己尝试一下，但令人惊讶的是，找到免费且易于使用的东西来生成此类脉冲是多么困难。这很奇怪，因为我记得我在 90 年代尝试过一些免费软件 DOS 程序，它做了所有这些事情（有人知道我在说什么吗？谷歌让我失败了……）。所以无论如何，我制作了这个工具几个小时，并将其作为一项公共服务，以便老年人现在就可以尝试这种治疗方法，而无需等待数年等待 FDA 试验完成，也无需获得诊断和昂贵的医疗设备。代码可以在这里找到：https://github.com/Dicklesworthstone/anti_alzheimers_flasher顺便说一句，我第一次尝试用 Rust 实现这一点，但在发现处理 wgpu 库及其不断变化和破坏的 API 非常烦人之后放弃了。这是一个惊喜，因为我通常发现在 Rust 中工作是相当愉快的。相比之下，在 JS 中做这件事完全是轻而易举的事情，而且我对现在的 canvas 和 webaudio 的工作效果印象深刻。它还可以轻松地在页面上添加文档、分发文档以及使其自动在手机上运行。 Web 开发非常棒！最好的部分是，因为我将其作为 GitHub 上的单个 html 文件制作，所以我什至无需在某台计算机上设置 Nginx 即可部署它 — 我只使用了 Cloudflare Pages 和整个过程花了几分钟（从 Cloudflare 获取域名使事情变得更加容易，因为它们会使用证书自动处理所有内容）。我意识到，在给定硬件刷新率的情况下，使用计算机屏幕进行精确闪烁存在限制。如果人们有关于如何改进它或使其更高效而不破坏移动设备的想法，我当然欢迎任何 PR。我尝试以一种可以在现代浏览器中轻松硬件加速的方式进行刷新。最困难的部分是在启动和停止低频音频时消除令人不安的爆音伪影，但我通过预先升高和降低音量解决了这个问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39142290
+积分：81
+# 条评论：62]]></description>
+      <guid>https://alzheimersbuddy.com/</guid>
+      <pubDate>Fri, 26 Jan 2024 13:18:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>艺术家训练老鼠自拍以表达社交媒体观点</title>
+      <link>https://www.cbc.ca/radio/asithappens/rat-selfies-1.7093886</link>
+      <description><![CDATA[文章网址：https://www.cbc.ca/radio/asithappens/rat-selfies- 1.7093886
+评论网址：https://news.ycombinator.com/item?id=39142048
+积分：46
+# 条评论：31]]></description>
+      <guid>https://www.cbc.ca/radio/asithappens/rat-selfies-1.7093886</guid>
+      <pubDate>Fri, 26 Jan 2024 12:50:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>联合创始人退出——Rant</title>
+      <link>https://news.ycombinator.com/item?id=39141822</link>
+      <description><![CDATA[咆哮开始1。在大学时 - 我创办了一家公司，并尝试说服几个非常聪明的朋友作为联合创始人加入。2.他们厌恶风险。他们想要薪水。尽管我身无分文，但我还是答应给他们工资，并让他们加入成为员工。他们同意了。3.我没有钱支付工资，但我进入了疯狂的行动模式，并为我看到人们需要的随机项目获得了几个 B2B 客户（尽管我们作为初创公司的主要产品是 B2C，后来我们关闭了这个 B2B 部分）我们提出）。我做了 B2B 项目，获得了现金流，并开始向他们支付工资，而我拿的是 0 工资，因为我尽可能多地进行再投资。4.这种情况持续了大约6个月。我们终于筹集到了 40 万美元。我说服了一名员工成为联合创始人。他同意。给了他几乎平等的股权，尽管他在我们融资后才加入，而且他已经拿薪水了，而我直到那天才拿薪水。在此期间，我们也大学毕业并开始全职从事这项工作。5。我们建设了 6 个月，意识到我们需要比我们想象的更多的时间和资源，并决定缩小规模并减薪。我采取了最大程度的减薪来维持联合创始人和团队的士气。6.一年过去了，我们仍然是一艘正在下沉的船，我们还没有能够筹集到下一轮融资。由于工资微薄，我也没有积蓄。7.我们都努力推动，我成功从现有投资者那里获得了 220,000 美元的过桥融资8。我们现在正在处理拿到这笔钱的文书工作，终于有了希望，我在很长一段时间后才摆脱了抑郁和头痛。9.我宣布逆转减薪，制定一项关于我们如何开始创收并尽快筹集更多资金的新计划。10.联合创始人突然说他想辞职。说即使我们成功完成新一轮融资，他也不在乎，因为他想立即切换领域并在另一个技术领域工作。他愿意归还大部分股份。11.我认为他仍然有员工心态。创始人不会随意退出；我们对与我们一起度过这一切的投资者和员工负有责任。12.作为联合创始人，他也有权按照他想要的方式引导公司，我很乐意一起讨论和调整。我的建议是，我们看清当前的情况，再用几个月的时间用新的资金来解决投资者投入资金的问题，如果不起作用，就转向。如果有效，仍需进一步提供资金。13。他现在仍然想退出，因为即使我们成功，即使我们稍后转向，他也不想在这个领域工作。14.我措手不及，因为直到今天一切似乎都很棒。直到昨天，我们还在讨论如何在当前/新领域建立最大的公司15。即使在今天，我们也没有吵架，我们之间没有发生任何事情，他只是经历了四分之一人生危机，并相信他的使命就是现在就在上述新领域工作。16。尽管我可以编码并且拥有不错的技术背景并且可以管理简单的技术内容，但他确实是一个非常聪明的技术人员，就像一个神童。失去这样级别的联合创始人是一个很大的打击。很确定我们的投资者现在不会继续融资，如果没有当前的融资，我就没有足够的钱来管理工资或关闭公司如果需要的话。在任何人询问之前 - 他确实有一个通知期。但我现在必须专注于取代他，而不是专注于重要的事情。此外，员工也会感到震惊，可能会离开，因为我们目前是一个非常小的团队，而作为已经陷入困境的公司，失去一位创始人会吓到员工，这是理所当然的。他们有家人要养活。我真的很难过。我想象我们一起征服世界。咆哮结束。感谢您参加我的 RantX 演讲。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39141822
+积分：8
+评论数量：9]]></description>
+      <guid>https://news.ycombinator.com/item?id=39141822</guid>
+      <pubDate>Fri, 26 Jan 2024 12:18:00 GMT</pubDate>
+    </item>
     <item>
       <title>Optery (YC W22) 正在招聘一名具有 Node 经验的全栈开发人员（拉丁美洲）</title>
       <link>https://app.dover.io/Optery/careers/41840615-ceb2-4629-93a5-42d49fa8987d</link>
@@ -16,94 +98,14 @@
       <pubDate>Fri, 26 Jan 2024 12:00:07 GMT</pubDate>
     </item>
     <item>
-      <title>《龙与地下城》今天迎来 50 岁生日</title>
-      <link>http://grognardia.blogspot.com/2024/01/fifty-years-ago-today.html</link>
-      <description><![CDATA[文章网址：http://grognardia.blogspot.com/2024/01/五十年前-今天.html
-评论网址：https://news.ycombinator.com/item?id=39141413
-积分：40
-# 条评论：17]]></description>
-      <guid>http://grognardia.blogspot.com/2024/01/fifty-years-ago-today.html</guid>
-      <pubDate>Fri, 26 Jan 2024 11:24:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>不要像聊天机器人一样与人交谈</title>
-      <link>https://www.schneier.com/essays/archives/2024/01/dont-talk-to-people-like-theyre-chatbots.html</link>
-      <description><![CDATA[文章网址：https:// www.schneier.com/essays/archives/2024/01/dont-talk-to-people-like-theyre-chatbots.html
-评论网址：https://news.ycombinator.com/item?id=39141011
-积分：24
-# 条评论：22]]></description>
-      <guid>https://www.schneier.com/essays/archives/2024/01/dont-talk-to-people-like-theyre-chatbots.html</guid>
-      <pubDate>Fri, 26 Jan 2024 10:28:34 GMT</pubDate>
-    </item>
-    <item>
       <title>ArVid：上世纪 90 年代，俄罗斯人将 4 个硬盘压缩到一盘 VHS 磁带中</title>
       <link>https://jacobfilipp.com/arvid-vhs/</link>
       <description><![CDATA[文章网址：https://jacobfilipp.com/arvid-vhs/
 评论网址：https://news.ycombinator.com/item?id=39140849
-积分：33
-# 条评论：13]]></description>
+积分：110
+# 条评论：53]]></description>
       <guid>https://jacobfilipp.com/arvid-vhs/</guid>
       <pubDate>Fri, 26 Jan 2024 10:10:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本的无废物世界哲学</title>
-      <link>https://www.bbc.com/travel/article/20240125-mottainai-in-japan-creativity-is-key-to-a-no-waste-ideal</link>
-      <description><![CDATA[文章网址： https://www.bbc.com/travel/article/20240125-mottainai-in-japan-creativity-is-key-to-a-no-waste-ideal
-评论网址：https://news.ycombinator.com/item?id=39140843
-积分：12
-# 条评论：2]]></description>
-      <guid>https://www.bbc.com/travel/article/20240125-mottainai-in-japan-creativity-is-key-to-a-no-waste-ideal</guid>
-      <pubDate>Fri, 26 Jan 2024 10:10:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>文件显示，邮局解雇 Horizo​​n IT 审核员的计划保密</title>
-      <link>https://www.bbc.co.uk/news/business-68079300</link>
-      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/business-68079300
-评论网址：https://news.ycombinator.com/item?id=39140390
-积分：70
-# 条评论：25]]></description>
-      <guid>https://www.bbc.co.uk/news/business-68079300</guid>
-      <pubDate>Fri, 26 Jan 2024 09:13:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>BrowserEngineKit – Apple 开发者文档</title>
-      <link>https://developer.apple.com/documentation/BrowserEngineKit?changes=latest_minor</link>
-      <description><![CDATA[文章网址：https://developer.apple.com/documentation/BrowserEngineKit?changes=latest_minor
-评论网址：https://news.ycombinator.com/item?id=39140152
-积分：63
-# 条评论：78]]></description>
-      <guid>https://developer.apple.com/documentation/BrowserEngineKit?changes=latest_minor</guid>
-      <pubDate>Fri, 26 Jan 2024 08:33:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>在儿童发展中平衡户外危险游戏和伤害预防</title>
-      <link>https://cps.ca/en/documents/position/outdoor-risky-play</link>
-      <description><![CDATA[文章网址：https://cps.ca/en/documents/position/outdoor-risky-播放
-评论网址：https://news.ycombinator.com/item?id=39139540
-积分：90
-# 条评论：112]]></description>
-      <guid>https://cps.ca/en/documents/position/outdoor-risky-play</guid>
-      <pubDate>Fri, 26 Jan 2024 06:39:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>没人愿意花钱买的东西</title>
-      <link>https://lwn.net/SubscriberLink/959069/c96f34ed67a168e4/</link>
-      <description><![CDATA[文章网址：https://lwn.net/SubscriberLink/959069/c96f34ed67a168e4/
-评论网址：https://news.ycombinator.com/item?id=39138755
-积分：12
-# 条评论：1]]></description>
-      <guid>https://lwn.net/SubscriberLink/959069/c96f34ed67a168e4/</guid>
-      <pubDate>Fri, 26 Jan 2024 03:51:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>便携式 EPUB</title>
-      <link>https://willcrichton.net/notes/portable-epubs/#epub-content%2FEPUB%2Findex.xhtml$</link>
-      <description><![CDATA[文章网址：https://willcrichton.net/notes/portable- epubs/#epub-content%2FEPUB%2Findex.xhtml$
-评论网址：https://news.ycombinator.com/item?id=39138042
-积分：281
-评论数：93]]></description>
-      <guid>https://willcrichton.net/notes/portable-epubs/#epub-content%2FEPUB%2Findex.xhtml$</guid>
-      <pubDate>Fri, 26 Jan 2024 01:53:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
