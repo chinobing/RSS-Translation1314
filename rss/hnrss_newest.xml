@@ -4,106 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 26 Jan 2024 06:18:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2024 09:15:11 GMT</lastBuildDate>
     <item>
-      <title>全球 40 个油田的能源投资回报 (EROI)</title>
-      <link>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144141</link>
-      <description><![CDATA[文章网址：https://journals.plos.org/plosone/article? id=10.1371/journal.pone.0144141
-评论网址：https://news.ycombinator.com/item?id=39139375
+      <title>Homa 传输协议的 Linux 内核实现</title>
+      <link>https://www.usenix.org/conference/atc21/presentation/ousterhout</link>
+      <description><![CDATA[文章网址：https://www.usenix.org/conference/atc21/presentation/ousterhout
+评论网址：https://news.ycombinator.com/item?id=39140336
 积分：1
 # 条评论：0]]></description>
-      <guid>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144141</guid>
-      <pubDate>Fri, 26 Jan 2024 06:03:02 GMT</pubDate>
+      <guid>https://www.usenix.org/conference/atc21/presentation/ousterhout</guid>
+      <pubDate>Fri, 26 Jan 2024 09:04:01 GMT</pubDate>
     </item>
     <item>
-      <title>SRAM还能继续缩小吗？ [视频]</title>
-      <link>https://www.youtube.com/watch?v=2G4_RZo41Zw</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=2G4_RZo41Zw
-评论网址：https://news.ycombinator.com/item?id=39139360
+      <title>CNC 铣削：速度和进给</title>
+      <link>https://calbryant.uk/blog/cnc-routing-speeds-and-feeds/</link>
+      <description><![CDATA[文章网址：https://calbryant.uk/blog/cnc-routing-speeds-and -feeds/#
+评论网址：https://news.ycombinator.com/item?id=39140327
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=2G4_RZo41Zw</guid>
-      <pubDate>Fri, 26 Jan 2024 05:59:33 GMT</pubDate>
+      <guid>https://calbryant.uk/blog/cnc-routing-speeds-and-feeds/</guid>
+      <pubDate>Fri, 26 Jan 2024 09:02:20 GMT</pubDate>
     </item>
     <item>
-      <title>肉类和牛奶公司正在竞相减轻您的气候负罪感</title>
-      <link>https://www.washingtonpost.com/climate-environment/2024/01/22/meat-climate-impact-tyson-hopdoddys/</link>
-      <description><![CDATA[文章网址：https://www.washingtonpost .com/climate-environment/2024/01/22/meat-climate-impact-tyson-hopdoddys/
-评论网址：https://news.ycombinator.com/item?id=39139354
+      <title>显示 HN：VHDL 中的高效 SRL32（级联移位寄存器）时钟预分频器</title>
+      <link>https://gist.github.com/Thraetaona/ba941e293d36d0f76db6b9f3476b823c</link>
+      <description><![CDATA[刚开始通过尝试编写一个简单的 LED 闪光灯来学习 FPGA 硬件描述语言，我发现互联网上绝大多数的解决方案都是为了减慢快速时钟的速度（为了使 LED 的脉冲对人眼可见）要么使用特定于供应商的专有时钟管理器和 PLL，要么实现一些二十多位宽的计数器来计算数十万个时钟周期并生成 1 Hz 输出。尽管之间存在天壤之别尽管硬件加速设计中的计数器和软件模拟设计中的计数器，我仍然认为仅由计数器产生的菊花链组件的数量远非理想且荒谬；我开始寻找一种更有效的方法。我在 2015 年发现了一篇相当晦涩的博客文章 (http://www.markharvey.info/art/srldiv_04.10.2015/srldiv_04.1...）概述了完全相同的问题，同时还参考了 Xilinx 系统设计师 Ken Chapman 先生的提案：使用 FPGA 的移位寄存器基元（例如 Xilinx 的 SRL32E）来缓解这种情况。但是，其中描述的方法将依赖于用户计算 [2, 32) 之间的目标频率因子，并煞费苦心地连接每个实例SRL32E 相互连接，全部以手动方式进行，更不用说生成的脉冲将具有较低的、一个周期长的占空比。因此，我编写了 srl_prescaler.vhd，这是一个用 VHDL 实现的全自动模板生成器一个高效的基于寄存器的级联时钟分频器，仅基于 SRL32 原语和与门 — 该模块的优点是它非常通用且易于使用：```预分频器：实体工作.srl_prescaler通用映射 (100e6, 1)端口映射 (clk_in_100mhz, ce_out_1hz);````在上面的示例中，输入时钟为 100 MHz（即 `100e6` &amp; `clk_in_100mhz`）被分成 1 Hz 的时钟使能信号（即，`1` 和 `ce_out_1hz`）。在其他改进中，第三个可选参数（即占空比）也可以作为实数（0.00、1.00）提供给通用映射。总体而言，这个小项目使其他利基方法更容易使用通过实际利用 VHDL 必须提供的许多语言功能（例如，使用函数预计算因子结果、通过 for...generate 子句自动创建硬件、使用寄存器和保护信号进行锁存等），很好又实用的学习点。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39140317
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.washingtonpost.com/climate-environment/2024/01/22/meat-climate-impact-tyson-hopdoddys/</guid>
-      <pubDate>Fri, 26 Jan 2024 05:59:07 GMT</pubDate>
+      <guid>https://gist.github.com/Thraetaona/ba941e293d36d0f76db6b9f3476b823c</guid>
+      <pubDate>Fri, 26 Jan 2024 09:00:45 GMT</pubDate>
     </item>
     <item>
-      <title>苹果向游戏流媒体服务开放App Store</title>
-      <link>https://www.theverge.com/2024/1/25/24050430/apple-app-store-game-streaming</link>
-      <description><![CDATA[文章网址：https://www.theverge.com/ 2024/1/25/24050430/apple-app-store-game-streaming
-评论网址：https://news.ycombinator.com/item?id=39139344
+      <title>泰勒·斯威夫特 (Taylor Swift) 的明显人工智能深度伪造引起了粉丝和立法者的愤怒</title>
+      <link>https://venturebeat.com/ai/explicit-ai-deepfakes-of-taylor-swift-have-fans-and-lawmakers-up-in-arms/</link>
+      <description><![CDATA[文章网址：https ://venturebeat.com/ai/explicit-ai-deepfakes-of-taylor-swift-have-fans-and-lawmakers-up-in-arms/
+评论网址：https://news.ycombinator.com/item?id=39140293
+积分：2
+# 条评论：0]]></description>
+      <guid>https://venturebeat.com/ai/explicit-ai-deepfakes-of-taylor-swift-have-fans-and-lawmakers-up-in-arms/</guid>
+      <pubDate>Fri, 26 Jan 2024 08:58:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么阿拉巴马州要用氮气处决一个人？</title>
+      <link>https://www.bbc.com/news/world-us-canada-68097008</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/world-us-canada- 68097008
+评论网址：https://news.ycombinator.com/item?id=39140280
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theverge.com/2024/1/25/24050430/apple-app-store-game-streaming</guid>
-      <pubDate>Fri, 26 Jan 2024 05:57:07 GMT</pubDate>
+      <guid>https://www.bbc.com/news/world-us-canada-68097008</guid>
+      <pubDate>Fri, 26 Jan 2024 08:55:22 GMT</pubDate>
     </item>
     <item>
-      <title>连接文本</title>
-      <link>https://johan.hal.se/wrote/2024/01/24/concatenating-text/</link>
-      <description><![CDATA[文章网址：https://johan.hal.se/wrote/2024/01 /24/连接文本/
-评论网址：https://news.ycombinator.com/item?id=39139333
-积分：1
-# 条评论：0]]></description>
-      <guid>https://johan.hal.se/wrote/2024/01/24/concatenating-text/</guid>
-      <pubDate>Fri, 26 Jan 2024 05:55:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们忘记了前端基础知识</title>
-      <link>https://blog.stackademic.com/we-forgot-frontend-basics-2f9a1c4dabaa</link>
-      <description><![CDATA[文章网址：https://blog.stackademic.com/we-forgot-frontend-basics- 2f9a1c4dabaa
-评论网址：https://news.ycombinator.com/item?id=39139327
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blog.stackademic.com/we-forgot-frontend-basics-2f9a1c4dabaa</guid>
-      <pubDate>Fri, 26 Jan 2024 05:54:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bret Taylor 为 Sierra 筹集了 10 亿美元的估值</title>
-      <link>https://www.bloomberg.com/news/articles/2024-01-26/bret-taylor-s-ai-startup-to-get-funding-at-near-1-billion-value</link>
-      <description><![CDATA[文章网址：https://www.bloomberg.com/news/articles/2024-01-26/bret-taylor-s-ai-startup-to-get-funding-at-near-1-价值十亿
-评论网址：https://news.ycombinator.com/item?id=39139325
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2024-01-26/bret-taylor-s-ai-startup-to-get-funding-at-near-1-billion-value</guid>
-      <pubDate>Fri, 26 Jan 2024 05:53:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>1flow.ai – 使用 GPT-4 生成调查</title>
-      <link>https://1flow.ai/</link>
-      <description><![CDATA[文章网址：https://1flow.ai/
-评论网址：https://news.ycombinator.com/item?id=39139286
+      <title>产生创新的研究想法 (2013) [pdf]</title>
+      <link>https://online-cig.ase.ro/RePEc/ami/articles/12_2_1.pdf</link>
+      <description><![CDATA[文章网址：https://online-cig.ase.ro/RePEc/ami/文章/12_2_1.pdf
+评论网址：https://news.ycombinator.com/item?id=39140275
 积分：1
 # 条评论：1]]></description>
-      <guid>https://1flow.ai/</guid>
-      <pubDate>Fri, 26 Jan 2024 05:45:48 GMT</pubDate>
+      <guid>https://online-cig.ase.ro/RePEc/ami/articles/12_2_1.pdf</guid>
+      <pubDate>Fri, 26 Jan 2024 08:54:28 GMT</pubDate>
     </item>
     <item>
-      <title>加州附属住宅单元 (ADU) 改革：回顾</title>
-      <link>https://cayimby.org/reports/california-adu-reform-a-retrospective/</link>
-      <description><![CDATA[文章网址：https://cayimby.org/reports/california-adu-reform-a -回顾/
-评论网址：https://news.ycombinator.com/item?id=39139276
+      <title>为什么顺风不适合我</title>
+      <link>https://www.spicyweb.dev/why-tailwind-isnt-for-me/</link>
+      <description><![CDATA[文章网址：https://www.spicyweb.dev/why-tailwind-isnt-for -我/
+评论网址：https://news.ycombinator.com/item?id=39140269
 积分：1
 # 条评论：0]]></description>
-      <guid>https://cayimby.org/reports/california-adu-reform-a-retrospective/</guid>
-      <pubDate>Fri, 26 Jan 2024 05:42:15 GMT</pubDate>
+      <guid>https://www.spicyweb.dev/why-tailwind-isnt-for-me/</guid>
+      <pubDate>Fri, 26 Jan 2024 08:53:48 GMT</pubDate>
     </item>
     <item>
-      <title>苹果允许欧盟客户在不使用 App Store 的情况下下载应用程序</title>
-      <link>https://www.theguardian.com/technology/2024/jan/25/apple-to-allow-eu-customers-to-download-apps-without-using-app-store</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/technology/2024/jan/25/apple-to-allow-eu-customers-to-download-apps-without-using-app-store&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=39139261
-积分：1
+      <title>Airclap – 将任何文件发送到任何设备</title>
+      <link>https://github.com/Gentleflow/Airclap</link>
+      <description><![CDATA[文章网址：https://github.com/Gentleflow/Airclap
+评论网址：https://news.ycombinator.com/item?id=39140242
+积分：2
 # 条评论：1]]></description>
-      <guid>https://www.theguardian.com/technology/2024/jan/25/apple-to-allow-eu-customers-to-download-apps-without-using-app-store</guid>
-      <pubDate>Fri, 26 Jan 2024 05:36:12 GMT</pubDate>
+      <guid>https://github.com/Gentleflow/Airclap</guid>
+      <pubDate>Fri, 26 Jan 2024 08:48:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>BT 客户在不知情的情况下被收取 Xbox Game Pass 费用</title>
+      <link>https://www.bbc.com/news/technology-68085437</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/technology-68085437
+评论网址：https://news.ycombinator.com/item?id=39140237
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.bbc.com/news/technology-68085437</guid>
+      <pubDate>Fri, 26 Jan 2024 08:48:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>放弃整个细分市场：“独立黑客”</title>
+      <link>https://ooshq.com/abandoning/</link>
+      <description><![CDATA[文章网址：https://ooshq.com/abandoning/
+评论网址：https://news.ycombinator.com/item?id=39140206
+积分：2
+# 条评论：0]]></description>
+      <guid>https://ooshq.com/abandoning/</guid>
+      <pubDate>Fri, 26 Jan 2024 08:42:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
