@@ -4,108 +4,126 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 29 Jan 2024 06:18:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jan 2024 09:14:30 GMT</lastBuildDate>
     <item>
-      <title>Ubuntu 正在考虑将低延迟优化应用于其通用内核</title>
-      <link>https://www.phoronix.com/news/Ubuntu-Low-Lat-Generic-Kernel</link>
-      <description><![CDATA[文章网址：https://www.phoronix.com/news/Ubuntu-Low- Lat 通用内核
-评论网址：https://news.ycombinator.com/item?id=39173229
+      <title>Lisp 之旅</title>
+      <link>https://www.fosskers.ca/en/blog/rounds-of-lisp</link>
+      <description><![CDATA[文章网址：https://www.fosskers.ca/en/blog/rounds-of-口齿不清
+评论网址：https://news.ycombinator.com/item?id=39174286
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.phoronix.com/news/Ubuntu-Low-Lat-Generic-Kernel</guid>
-      <pubDate>Mon, 29 Jan 2024 06:09:54 GMT</pubDate>
+      <guid>https://www.fosskers.ca/en/blog/rounds-of-lisp</guid>
+      <pubDate>Mon, 29 Jan 2024 09:08:38 GMT</pubDate>
     </item>
     <item>
-      <title>受监管的建筑 [215.]</title>
-      <link>https://hardcoresoftware.learningbyshipping.com/p/215-building-under-regulation</link>
-      <description><![CDATA[文章网址：https://hardcoresoftware.learningbyshipping.com/p/215-building-under-监管
-评论网址：https://news.ycombinator.com/item?id=39173219
-积分：1
-# 条评论：0]]></description>
-      <guid>https://hardcoresoftware.learningbyshipping.com/p/215-building-under-regulation</guid>
-      <pubDate>Mon, 29 Jan 2024 06:07:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>渐进阅读（2023）</title>
-      <link>https://www.help.supermemo.org/wiki/Incremental_reading</link>
-      <description><![CDATA[文章网址：https://www.help.supermemo.org/wiki/Incremental_reading
-评论网址：https://news.ycombinator.com/item?id=39173215
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.help.supermemo.org/wiki/Incremental_reading</guid>
-      <pubDate>Mon, 29 Jan 2024 06:06:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenBSD – Theo de Raadt 总结的 pinsyscalls(2) 工作</title>
-      <link>https://www.undeadly.org/cgi?action=article;sid=20240129060150</link>
-      <description><![CDATA[文章网址：https://www.undeadly.org/cgi?action=article;sid= 20240129060150
-评论网址：https://news.ycombinator.com/item?id=39173189
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.undeadly.org/cgi?action=article;sid=20240129060150</guid>
-      <pubDate>Mon, 29 Jan 2024 06:02:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在HN上获得更多业力？</title>
-      <link>https://news.ycombinator.com/item?id=39173185</link>
-      <description><![CDATA[这里有哪些常见且最好的赚取业力的方法？这有助于获得更好的业力？ URL 或文本帖子？
+      <title>问 HN：如何在不重构的情况下编写代码</title>
+      <link>https://news.ycombinator.com/item?id=39174262</link>
+      <description><![CDATA[假设我正在为 http 服务器编写一个处理程序。 function handleRequest(req)
+
+      const url = 新 URL(req.url)
+
+      if (url.pathname === &#39;/foo&#39;) {
+        // 做一件事
+      }
+
+      if (url.pathname === &#39;/bar&#39;) {
+        // 做一件事
+      }
+
+      if (url.pathname == &#39;/routes&#39;) {
+        // 应该打印 /bar 和 /foo
+      }
+
+    }
+
+`/routes` 端点应该打印有关其他路由的信息。我遇到的问题是处理端点的代码是执行我想要的操作的最简单的代码。对于大多数开发人员来说，这是很自然的事情。但是随着需求的变化，比如列出路线，我发现我需要大幅重构所有内容，只是为了添加一个打印路线的附加小功能。对于例如，大多数人会做的显而易见的事情是将所有路线放入一个数组中。也就是说，我的路线现在变成了对象。但是，如果我有一个更复杂的条件来路由匹配，而不仅仅是“url.pathname”，那么事情就会开始变得更加复杂。我在编码时经常发现这种情况，并且我发现它会产生很多不必要的复杂性。&lt; p&gt;有没有更好的编码方式来避免不断重构代码？我目前想到的是代码反射。在这里执行我想要的操作的最简单方法是在代码 AST 中查询此函数中的所有条件，然后将它们打印出来。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39173185
+评论网址：https://news.ycombinator.com/item?id=39174262
 积分：1
-# 条评论：2]]></description>
-      <guid>https://news.ycombinator.com/item?id=39173185</guid>
-      <pubDate>Mon, 29 Jan 2024 06:02:05 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=39174262</guid>
+      <pubDate>Mon, 29 Jan 2024 09:04:29 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：使用稳定扩散和 AnimateDiff 动画梵高的世界 [视频]</title>
-      <link>https://www.youtube.com/watch?v=yntoe0i6QxY</link>
-      <description><![CDATA[我知道我已经很晚了，但我试图用人工智能来实现梵高的作品。工作流程非常简单，利用 AnimateDiff 中的 SD1.5 + Motionv3 通过 Automatic1000 的 Web-UI 生成所有视频样本。在我的 RTX 3080TIM 笔记本电脑上渲染所有内容。我花了 40 分钟进行不同的实验和世代。
+      <title>新 ROM 滑稽动作 – 构建 ZX Spectrum 128</title>
+      <link>https://www.theregister.com/2024/01/15/opinion_column_zxspectrum_128/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2024/01/15/opinion_column_zxspectrum_128/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=39174255
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theregister.com/2024/01/15/opinion_column_zxspectrum_128/</guid>
+      <pubDate>Mon, 29 Jan 2024 09:03:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>FxTwitter / FixupX</title>
+      <link>https://github.com/FixTweet/FxTwitter</link>
+      <description><![CDATA[文章网址：https://github.com/FixTweet/FxTwitter
+评论网址：https://news.ycombinator.com/item?id=39174249
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/FixTweet/FxTwitter</guid>
+      <pubDate>Mon, 29 Jan 2024 09:02:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于对比音频模型的不完整思考</title>
+      <link>https://zelalabs.substack.com/p/incomplete-thoughts-on-contrastive</link>
+      <description><![CDATA[文章网址：https://zelalabs.substack.com/p/incomplete-thoughts-on-对比
+评论网址：https://news.ycombinator.com/item?id=39174229
+积分：1
+# 条评论：0]]></description>
+      <guid>https://zelalabs.substack.com/p/incomplete-thoughts-on-contrastive</guid>
+      <pubDate>Mon, 29 Jan 2024 08:59:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>ToollyAI – 适用于商业、生产力等的最佳人工智能工具和服务</title>
+      <link>https://toollyai.com/</link>
+      <description><![CDATA[文章网址：https://toollyai.com/
+评论网址：https://news.ycombinator.com/item?id=39174218
+积分：1
+# 条评论：0]]></description>
+      <guid>https://toollyai.com/</guid>
+      <pubDate>Mon, 29 Jan 2024 08:57:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：自托管电子邮件服务器？</title>
+      <link>https://news.ycombinator.com/item?id=39174199</link>
+      <description><![CDATA[很明显，HN 社区的人们喜欢自托管的东西，所以也许你们可以在这里帮助我。我希望能够从我的自定义域发送和接收电子邮件，但不想支付 5-49 美元的费用这样做了一个月。我有什么选择？看到了这些替代方案，但我不知道你们推荐什么。- https://www.cloudron.io/index.html- https://cyberpanel.net/- https://www.hmailserver.com/- https://wildduck.email/- (Rasberry PI) RPi 上的 Sendmail 和 dovecot 澄清一下，我不介意 UI 看起来像是 1998 年的网站。我只是希望能够阅读和发送。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39173173
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=yntoe0i6QxY</guid>
-      <pubDate>Mon, 29 Jan 2024 06:00:48 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=39174199
+积分：3
+# 条评论：8]]></description>
+      <guid>https://news.ycombinator.com/item?id=39174199</guid>
+      <pubDate>Mon, 29 Jan 2024 08:52:53 GMT</pubDate>
     </item>
     <item>
-      <title>石墨的整体室温超导性</title>
-      <link>https://onlinelibrary.wiley.com/doi/10.1002/qute.202300230</link>
-      <description><![CDATA[文章网址：https://onlinelibrary.wiley.com/doi/10.1002/qute.202300230
-评论网址：https://news.ycombinator.com/item?id=39173150
-积分：2
-# 条评论：0]]></description>
-      <guid>https://onlinelibrary.wiley.com/doi/10.1002/qute.202300230</guid>
-      <pubDate>Mon, 29 Jan 2024 05:57:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>射击价值 17,000 美元的 Linux 驱动步枪 (2013)</title>
-      <link>https://arstechnica.com/gadgets/2013/03/bullseye-from-1000-yards-shooting-the-17000-linux-powered-rifle/</link>
-      <description><![CDATA[文章网址：https:/ /arstechnica.com/gadgets/2013/03/bullseye-from-1000-yards-shooting-the-17000-linux-powered-rifle/
-评论网址：https://news.ycombinator.com/item?id=39173139
+      <title>2023 年超额死亡率与新冠疫苗接种率呈正相关</title>
+      <link>https://www.igor-chudov.com/p/2023-excess-mortality-positively</link>
+      <description><![CDATA[文章网址：https://www.igor-chudov.com/p/2023-过度死亡率积极
+评论网址：https://news.ycombinator.com/item?id=39174198
 积分：1
 # 条评论：0]]></description>
-      <guid>https://arstechnica.com/gadgets/2013/03/bullseye-from-1000-yards-shooting-the-17000-linux-powered-rifle/</guid>
-      <pubDate>Mon, 29 Jan 2024 05:55:20 GMT</pubDate>
+      <guid>https://www.igor-chudov.com/p/2023-excess-mortality-positively</guid>
+      <pubDate>Mon, 29 Jan 2024 08:52:47 GMT</pubDate>
     </item>
     <item>
-      <title>Ansible Motion – 驾驶员在环模拟器</title>
-      <link>https://www.ansiblemotion.com</link>
-      <description><![CDATA[文章网址：https://www.ansiblemotion.com
-评论网址：https://news.ycombinator.com/item?id=39173135
-积分：1
+      <title>Y Combinator 总裁 Garry Tan 发布了一条威胁推文，然后将其删除</title>
+      <link>https://techcrunch.com/2024/01/28/y-combinator-president-garry-tan-publishes-a-menacing-tweet-before-deleting-it-apologizing-die-slow-motherfckers/</link>
+      <description><![CDATA[文章网址：https://techcrunch.com/2024/01/28/y-combinator-president-garry-tan-publishes-a-menacing-tweet-before-deleting-it-apologizing-die -慢-motherfckers/
+评论网址：https://news.ycombinator.com/item?id=39174191
+积分：3
 # 条评论：0]]></description>
-      <guid>https://www.ansiblemotion.com</guid>
-      <pubDate>Mon, 29 Jan 2024 05:54:52 GMT</pubDate>
+      <guid>https://techcrunch.com/2024/01/28/y-combinator-president-garry-tan-publishes-a-menacing-tweet-before-deleting-it-apologizing-die-slow-motherfckers/</guid>
+      <pubDate>Mon, 29 Jan 2024 08:51:06 GMT</pubDate>
     </item>
     <item>
-      <title>中国恒大欠债超过$300B，被责令清算</title>
-      <link>https://www.washingtonpost.com/world/2024/01/28/china-evergrande-property-developer-liquiidate/</link>
-      <description><![CDATA[文章网址：https://www.washingtonpost.com /world/2024/01/28/china-evergrande-property-developer-liquiidate/
-评论网址：https://news.ycombinator.com/item?id=39173128
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.washingtonpost.com/world/2024/01/28/china-evergrande-property-developer-liquiidate/</guid>
-      <pubDate>Mon, 29 Jan 2024 05:53:50 GMT</pubDate>
+      <title>Transformers 是你不需要的（用于时间序列预测）</title>
+      <link>https://github.com/valeman/Tranformers_Are_What_You_Dont_Need</link>
+      <description><![CDATA[文章网址：https://github.com/valeman/Tranformers_Are_What_You_Dont_Need
+评论网址：https://news.ycombinator.com/item?id=39174160
+积分：4
+# 条评论：0]]></description>
+      <guid>https://github.com/valeman/Tranformers_Are_What_You_Dont_Need</guid>
+      <pubDate>Mon, 29 Jan 2024 08:44:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
