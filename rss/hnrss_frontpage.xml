@@ -4,45 +4,77 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 05 Feb 2024 18:19:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Feb 2024 21:12:27 GMT</lastBuildDate>
     <item>
-      <title>1992-2024 年 glibc 的 qsort() 中的越界读写</title>
+      <title>开源 DNA 测序仪计划公布</title>
+      <link>http://omicsomics.blogspot.com/2024/02/want-to-build-sequencer-454bio-opens-up.html</link>
+      <description><![CDATA[文章网址：http://omicsomics.blogspot。 com/2024/02/want-to-build-sequencer-454bio-opens-up.html
+评论网址：https://news.ycombinator.com/item?id=39266859
+积分：7
+# 条评论：0]]></description>
+      <guid>http://omicsomics.blogspot.com/2024/02/want-to-build-sequencer-454bio-opens-up.html</guid>
+      <pubDate>Mon, 05 Feb 2024 20:41:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>相对论宇宙飞船</title>
+      <link>https://dmytry.github.io/space/</link>
+      <description><![CDATA[文章网址：https://dmytry.github.io/space/
+评论网址：https://news.ycombinator.com/item?id=39266396
+积分：43
+# 条评论：12]]></description>
+      <guid>https://dmytry.github.io/space/</guid>
+      <pubDate>Mon, 05 Feb 2024 20:07:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>盖茨定律：进步如何复合及其重要性 (2018)</title>
+      <link>https://fs.blog/gates-law/</link>
+      <description><![CDATA[文章网址：https://fs.blog/gates-law/
+评论网址：https://news.ycombinator.com/item?id=39266381
+积分：9
+# 条评论：1]]></description>
+      <guid>https://fs.blog/gates-law/</guid>
+      <pubDate>Mon, 05 Feb 2024 20:06:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：HTTP Garden – 解析器漏洞研究工具</title>
+      <link>https://github.com/narfindustries/http-garden</link>
+      <description><![CDATA[我于 2023 年在 Narf Industries 实习期间编写了这个工具。它是一个 REPL，可以快速开发、测试和模糊 HTTP 请求走私攻击负载。我开始实习时从未使用过 Web 服务器，现在已经发现了 100 多个 HTTP 实现错误。我将这主要归因于花园中实验的便利性。面向 REPL 的模糊测试是查找解析错误的一个非常好的接口。能够运行差分模糊器，分类并显示所有发现的差异，然后让人类挑选它们并与模糊目标交互以测试错误是否可利用，这是非常巧妙的。我们发现的一些值得注意的服务器组合新的请求走私攻击包括 Google Cloud &lt;-&gt; Node.js、Akamai &lt;-&gt; Node.js、[几乎任何东西] &lt;-&gt; LiteSpeed 和 OpenBSD Relayd &lt;-&gt; [任何东西]。我们还发现了无限循环Cesanta Mongoose 中的 DoS 会影响所有配置，并且空指针取消引用可能会导致任何使用 FastCGI 的 OpenBSD httpd 服务器崩溃。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39266112
+积分：11
+# 条评论：1]]></description>
+      <guid>https://github.com/narfindustries/http-garden</guid>
+      <pubDate>Mon, 05 Feb 2024 19:48:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：用于生成 PDF 以供离线阅读的 CLI</title>
+      <link>https://github.com/dvcoolarun/web2pdf</link>
+      <description><![CDATA[我一直认为广泛阅读最适合纸质领域。因此，我创建了一个专为我自己使用的命令行界面 (CLI)，并决定将其开源。欢迎您提供任何反馈。[编辑] PDF 示例 :: https:// /drive.google.com/file/d/1n7M1TKOptSsYiibrbvV_Yojx53T...
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39265756
+积分：37
+# 条评论：15]]></description>
+      <guid>https://github.com/dvcoolarun/web2pdf</guid>
+      <pubDate>Mon, 05 Feb 2024 19:24:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>glibc 的 qsort() 中的越界读写</title>
       <link>https://www.openwall.com/lists/oss-security/2024/01/30/7</link>
       <description><![CDATA[文章网址：https://www.openwall.com/lists/oss-安全/2024/01/30/7
 评论网址：https://news.ycombinator.com/item?id=39264396
-积分：3
-# 条评论：0]]></description>
+积分：99
+评论数：70]]></description>
       <guid>https://www.openwall.com/lists/oss-security/2024/01/30/7</guid>
       <pubDate>Mon, 05 Feb 2024 18:04:06 GMT</pubDate>
     </item>
     <item>
-      <title>西澳众议院法案规定警察在审讯期间撒谎属于违法行为</title>
-      <link>https://www.seattletimes.com/seattle-news/politics/wa-house-would-make-it-illegal-for-police-to-lie-during-interrogations/</link>
-      <description><![CDATA[文章网址：https://www.seattletimes.com/seattle-news/politics/wa-house-would-make-it-illegal-for-police-to-lie-during-interrogations/
-评论网址：https://news.ycombinator.com/item?id=39264383
-积分：21
-# 条评论：0]]></description>
-      <guid>https://www.seattletimes.com/seattle-news/politics/wa-house-would-make-it-illegal-for-police-to-lie-during-interrogations/</guid>
-      <pubDate>Mon, 05 Feb 2024 18:03:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>特斯拉司机在高速公路上佩戴新的苹果视觉耳机后靠边停车</title>
-      <link>https://www.the-express.com/tech/tech-news/126783/tesla-Apple-Vision-pro-driver-pulled-over</link>
-      <description><![CDATA[文章网址：https:// www.the-express.com/tech/tech-news/126783/tesla-Apple-Vision-pro-driver-pulled-over
-评论网址：https://news.ycombinator.com/item?id=39264221
-积分：18
-评论数量：9]]></description>
-      <guid>https://www.the-express.com/tech/tech-news/126783/tesla-Apple-Vision-pro-driver-pulled-over</guid>
-      <pubDate>Mon, 05 Feb 2024 17:54:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bootstrap 还是 VC？</title>
-      <link>https://www.ycombinator.com/blog/bootstrap-or-vc/</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/blog/bootstrap-or-vc/&lt; /a&gt;
+      <title>Bootstrap 还是 VC？ [视频]</title>
+      <link>https://www.youtube.com/watch?v=D81y-kh11oI</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=D81y-kh11oI
 评论网址：https://news.ycombinator.com/item?id=39264116
-积分：17
-# 条评论：3]]></description>
-      <guid>https://www.ycombinator.com/blog/bootstrap-or-vc/</guid>
+积分：64
+# 条评论：50]]></description>
+      <guid>https://www.youtube.com/watch?v=D81y-kh11oI</guid>
       <pubDate>Mon, 05 Feb 2024 17:47:52 GMT</pubDate>
     </item>
     <item>
@@ -67,11 +99,11 @@
     led_indicator.resistor.value = 100ohm +/- 10%
 
 
-从那里，编译器会生成一个网表，描述电路如何连接并为您选择果冻豆组件（https://atopile.io/blog/2024/01/31/cloud-components/）。我们的下一个重点将是添加布局重用、值之间的数学关系以及通过特征定义电路（类似于 Rusts 的）。目前，atopile 旨在以低功耗设计所有类型的印刷电路板 (PCB)。中等复杂度。编译器可以处理的电路复杂性将稳步增加，直到适合生产使用。我们经常被问到编译器是否适用于芯片设计而不是 PCB，但事实并非如此。该语言是 PCB 独有的。至少现在......！软件社区如此多产的一个重要原因是开源和开放核心技术。相互共享软件包和有效地将工具链接在一起的能力使软件世界成为开发人员的绝佳之地。作为硬件工程师，我们希望我们的领域也能从中受益。这就是为什么我们将 atopile 的核心开源（Apache 2.0）。我们计划通过销售企业目标功能来创收，类似于 GitLab。我们很乐意了解您对编译器的想法！您在电子行业有什么故事？您希望我们构建什么？
+从那里，编译器会生成一个网表，描述电路如何连接并为您选择果冻豆组件（https://atopile.io/blog/2024/01/31/cloud-components/）。我们的下一个重点将是添加布局重用、值之间的数学关系以及通过特征定义电路（类似于 Rusts）。目前，atopile 旨在以低功耗设计所有类型的印刷电路板 (PCB)。中等复杂度。编译器可以处理的电路复杂性将稳步增加，直到适合生产使用。我们经常被问到编译器是否适用于芯片设计而不是 PCB，但事实并非如此。该语言是 PCB 独有的。至少现在......！软件社区如此多产的一个重要原因是开源和开放核心技术。相互共享软件包和有效地将工具链接在一起的能力使软件世界成为开发人员的绝佳之地。作为硬件工程师，我们希望我们的领域也能从中受益。这就是为什么我们将 atopile 的核心开源（Apache 2.0）。我们计划通过销售企业目标功能来创收，类似于 GitLab。我们很乐意了解您对编译器的想法！您在电子行业有什么故事？您希望我们构建什么？
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=39263854
-积分：30
-# 条评论：11]]></description>
+积分：230
+评论数：108]]></description>
       <guid>https://news.ycombinator.com/item?id=39263854</guid>
       <pubDate>Mon, 05 Feb 2024 17:30:50 GMT</pubDate>
     </item>
@@ -80,51 +112,21 @@
       <link>https://security.googleblog.com/2024/02/improving-interoperability-between-rust-and-c.html</link>
       <description><![CDATA[文章网址：https://security.googleblog.com/ 2024/02/improving-interoperability- Between-rust-and-c.html
 评论网址：https://news.ycombinator.com/item?id=39263736
-积分：59
-# 条评论：18]]></description>
+积分：139
+# 条评论：67]]></description>
       <guid>https://security.googleblog.com/2024/02/improving-interoperability-between-rust-and-c.html</guid>
       <pubDate>Mon, 05 Feb 2024 17:22:05 GMT</pubDate>
     </item>
     <item>
       <title>问 HN：您通过法学硕士建立了什么？</title>
       <link>https://news.ycombinator.com/item?id=39263664</link>
-      <description><![CDATA[很好奇人们用法学硕士做了什么。几周前我开发了一个 Chrome 扩展程序，它可以通过阅读文字记录来跳过 YouTube 视频中的赞助部分。还尝试用法学硕士来解释跨语言的函数调用链（在本例中为 MakeFile、Python、Bash）。我尝试运行一些电报机器人，它们会预先提示执行某些操作，例如帮助您纳税。您正在构建什么？堆栈是什么样的？如何部署它？
+      <description><![CDATA[很好奇人们用法学硕士做了什么。几周前，我开发了一个 chrome 扩展程序，它可以通过阅读文字记录来跳过 YouTube 视频中的赞助部分。还尝试用法学硕士来解释跨语言的函数调用链（在本例中为 MakeFile、Python、Bash）。我尝试过运行一些电报机器人，这些机器人会预先提示执行某些操作，例如帮助您纳税。您正在构建什么？堆栈是什么样的？如何部署它？
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=39263664
-积分：14
-# 条评论：6]]></description>
+积分：87
+评论数：98]]></description>
       <guid>https://news.ycombinator.com/item?id=39263664</guid>
       <pubDate>Mon, 05 Feb 2024 17:16:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ashby (YC W19) 正在美洲招聘一名产品工程经理（远程）</title>
-      <link>https://www.ashbyhq.com/careers?ashby_jid=933570bc-a3d6-4fcc-991d-dc399c53a58a</link>
-      <description><![CDATA[文章网址：https://www.ashbyhq.com/careers?ashby_jid= 933570bc-a3d6-4fcc-991d-dc399c53a58a
-评论网址：https://news.ycombinator.com/item?id=39263453
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ashbyhq.com/careers?ashby_jid=933570bc-a3d6-4fcc-991d-dc399c53a58a</guid>
-      <pubDate>Mon, 05 Feb 2024 17:00:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Weaveworks 即将关闭</title>
-      <link>https://twitter.com/monadic/status/1754530336120140116</link>
-      <description><![CDATA[文章网址：https://twitter.com/monadic/status/1754530336120140116
-评论网址：https://news.ycombinator.com/item?id=39263332
-积分：60
-# 条评论：31]]></description>
-      <guid>https://twitter.com/monadic/status/1754530336120140116</guid>
-      <pubDate>Mon, 05 Feb 2024 16:51:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果没有软件修复权，您的设备就不安全</title>
-      <link>https://sfconservancy.org/blog/2024/feb/03/ccirt-security-and-software-right-to-repair/</link>
-      <description><![CDATA[文章网址：https://sfconservancy.org /blog/2024/feb/03/ccirt-security-and-software-right-to-repair/
-评论网址：https://news.ycombinator.com/item?id=39263142
-积分：45
-# 条评论：12]]></description>
-      <guid>https://sfconservancy.org/blog/2024/feb/03/ccirt-security-and-software-right-to-repair/</guid>
-      <pubDate>Mon, 05 Feb 2024 16:38:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
