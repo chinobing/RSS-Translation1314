@@ -4,107 +4,114 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 13 Feb 2024 03:15:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Feb 2024 06:19:16 GMT</lastBuildDate>
     <item>
-      <title>制作我的网站 (2022)</title>
-      <link>https://haddock.neocities.org/blog/making-my-site/</link>
-      <description><![CDATA[文章网址：https://haddock.neocities.org/blog/making-my-site/&lt; /a&gt;
-评论网址：https://news.ycombinator.com/item?id=39353796
+      <title>树莓派 FOSS 路由器</title>
+      <link>https://justvincredible.com/raspberry-pi-foss-router</link>
+      <description><![CDATA[文章网址：https://justvincredible.com/raspberry-pi-foss-router
+评论网址：https://news.ycombinator.com/item?id=39355000
 积分：1
-# 条评论：0]]></description>
-      <guid>https://haddock.neocities.org/blog/making-my-site/</guid>
-      <pubDate>Tue, 13 Feb 2024 03:03:20 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://justvincredible.com/raspberry-pi-foss-router</guid>
+      <pubDate>Tue, 13 Feb 2024 06:09:26 GMT</pubDate>
     </item>
     <item>
-      <title>Twitter 竞争对手 Spoutible 指控在安全漏洞争议中进行抹黑活动</title>
-      <link>https://techcrunch.com/2024/02/12/twitter-alternative-spoutible-clashes-with-critics-over-security-breach/</link>
-      <description><![CDATA[文章网址：https://techcrunch .com/2024/02/12/twitter-alternative-spoutible-clashes-with-critics-over-security-breach/
-评论网址：https://news.ycombinator.com/item?id=39353790
+      <title>TuDoor：DNS 缓存中毒攻击</title>
+      <link>https://tudoor.net/</link>
+      <description><![CDATA[文章网址：https://tudoor.net/
+评论网址：https://news.ycombinator.com/item?id=39354964
 积分：1
 # 条评论：0]]></description>
-      <guid>https://techcrunch.com/2024/02/12/twitter-alternative-spoutible-clashes-with-critics-over-security-breach/</guid>
-      <pubDate>Tue, 13 Feb 2024 03:02:21 GMT</pubDate>
+      <guid>https://tudoor.net/</guid>
+      <pubDate>Tue, 13 Feb 2024 06:03:33 GMT</pubDate>
     </item>
     <item>
-      <title>二十年 ARM 架构研究</title>
-      <link>https://marcin.juszkiewicz.com.pl/2024/02/12/twenty-years-of-my-work-with-arm-architecture/</link>
-      <description><![CDATA[文章网址：https:/ /marcin.juszkiewicz.com.pl/2024/02/12/20-years-of-my-work-with-arm-architecture/
-评论网址：https://news.ycombinator.com/item?id=39353784
+      <title>wacat 工具在 Web 应用程序正常或安全测试中有用吗？</title>
+      <link>https://news.ycombinator.com/item?id=39354958</link>
+      <description><![CDATA[您好，我开发了一个 wacat 工具，https://github.com/mikesmallhelp/wacat。使用 wacat，您可以使用随机输入等测试您的 Web 应用程序。您觉得怎么样？ wacat 工具在 Web 应用程序正常或安全测试中有用吗？请发表评论！在网络安全领域，有例如 Nessus 工具。你知道在正常的竞争者中还有其他竞争对手吗？
+或者安全网络测试工具？ wacat 在某些方面比竞争对手更好吗？您希望 wacat 具有哪些功能。请在页面 https://github.com/mikesmallhelp/wacat/issues 中评论或添加问题。我还有一些具体的技术问题：1)wacat 使用内部 Playwright 工具。通常 Playwright 测试会等待一些文本等。 wacat 不能等待任何文本，因为
+它是一个通用工具。现在
+wacat 等待页面一段时间（默认为 2000 毫秒）。您有什么建议吗？如何做得更好。我已经尝试过例如
+createNetworkHelper (https://github.com/mikesmallhelp/wacat/blob/wait-for-network-settled/utils/test-utils.ts)，等待
+网络已解决（我从某个讨论组获得了代码）。但没有任何作用。 Playwright 还有page.waitForLoadState({ waitUntil: &quot;domcontentloaded&quot; });等等但它们不适用于我的测试用例。2）我注意到 https://mui.com/ 有下拉菜单，其实现与正常的 html 选项相去甚远。 Mui 使用某种
+特殊的 CSS 实现，一般工具很难从这些下拉菜单中进行选择。如果您有任何处理建议
+那些带有 wacat 的下拉菜单，请评论。最后，如果您有兴趣为开发做出贡献，欢迎所有贡献。如果您使用过 wacat，我也很感兴趣。它对您的用例有用吗？请注意 wacat 仍在建设中。如果您发现错误或需要某些特定功能，请创建一个新问题。BR，Mika
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39354958
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=39354958</guid>
+      <pubDate>Tue, 13 Feb 2024 06:02:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>在美国制裁后，与俄罗斯石油贸易相关的油轮停运</title>
+      <link>https://www.bloomberg.com/news/articles/2024-02-13/tankers-tied-to-the-russian-oil-trade-grind-to-a-halt-following-us-sanctions</link>
+      <description><![CDATA[文章网址：https://www.bloomberg.com/news/articles/2024-02-13/tankers-tied-to-the- Russian-oil-trade-grind-to-a-停止关注美国制裁
+评论网址：https://news.ycombinator.com/item?id=39354954
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.bloomberg.com/news/articles/2024-02-13/tankers-tied-to-the-russian-oil-trade-grind-to-a-halt-following-us-sanctions</guid>
+      <pubDate>Tue, 13 Feb 2024 06:01:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>世界无线电历史档案馆</title>
+      <link>https://www.worldradiohistory.com/index.htm</link>
+      <description><![CDATA[文章网址：https://www.worldradiohistory.com/index.htm
+评论网址：https://news.ycombinator.com/item?id=39354922
 积分：2
 # 条评论：0]]></description>
-      <guid>https://marcin.juszkiewicz.com.pl/2024/02/12/twenty-years-of-my-work-with-arm-architecture/</guid>
-      <pubDate>Tue, 13 Feb 2024 03:01:14 GMT</pubDate>
+      <guid>https://www.worldradiohistory.com/index.htm</guid>
+      <pubDate>Tue, 13 Feb 2024 05:56:21 GMT</pubDate>
     </item>
     <item>
-      <title>VFD 显示器 [视频]</title>
-      <link>https://www.youtube.com/watch?v=PkPSDOjhxwM</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=PkPSDOjhxwM
-评论网址：https://news.ycombinator.com/item?id=39353781
+      <title>加工价值 5000 万美元的零件 [视频]</title>
+      <link>https://www.youtube.com/watch?v=uBEgUuijVcI</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=uBEgUuijVcI
+评论网址：https://news.ycombinator.com/item?id=39354892
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=PkPSDOjhxwM</guid>
-      <pubDate>Tue, 13 Feb 2024 03:01:06 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=uBEgUuijVcI</guid>
+      <pubDate>Tue, 13 Feb 2024 05:49:06 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：为什么下载播客这么难？</title>
-      <link>https://news.ycombinator.com/item?id=39353780</link>
-      <description><![CDATA[我知道这不是消费播客的最受欢迎的选择，但我更喜欢在 Wi-Fi 上下载整季的播客以便稍后收听。为什么有些播客网站的下载如此困难？总是有 100 个链接到 Apple、Stitcher、Spotify 等的选项，而且只有有时才会有下载播客的链接。即使如此，播客通常会在新窗口中自动播放，并且您必须再次单击以右键单击 - &gt;另存为。或者，有时您必须转到 RSS 提要并手动提取实际的声音文件。理想情况下，我希望能够一次性下载播客的每一集，因为磁盘空间不是问题。是否有任何可能的自动化方法可以通过 RSS 提要来执行此操作？顺便说一句，播客是否有真正的原因希望您使用第三方服务来下载他们的节目？广告嵌入在声音文件中，因此您无法避免广告曝光。它主要只是为了跟踪指标以及一旦“订阅”您将观看更多节目的可能性更高吗？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39353780
+      <title>约翰·洛克的煎饼食谱 (2021)</title>
+      <link>https://rarecooking.com/2021/12/14/john-lockes-recipe-for-pancakes/</link>
+      <description><![CDATA[文章网址：https://rarecooking.com/2021/12/14 /约翰洛克斯煎饼食谱/
+评论网址：https://news.ycombinator.com/item?id=39354870
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=39353780</guid>
-      <pubDate>Tue, 13 Feb 2024 03:00:59 GMT</pubDate>
+      <guid>https://rarecooking.com/2021/12/14/john-lockes-recipe-for-pancakes/</guid>
+      <pubDate>Tue, 13 Feb 2024 05:43:29 GMT</pubDate>
     </item>
     <item>
-      <title>造山与爬山</title>
-      <link>https://kk.org/thetechnium/hill-making-vs-hill-climbing/</link>
-      <description><![CDATA[文章网址：https://kk.org/thetechnium/hill-making-vs-hill -攀爬/
-评论网址：https://news.ycombinator.com/item?id=39353751
+      <title>望远镜显示银河系黑洞已准备好发动攻击</title>
+      <link>https://chandra.si.edu/press/24_releases/press_020824.html</link>
+      <description><![CDATA[文章网址：https://chandra.si.edu/press/24_releases/press_020824.html
+评论网址：https://news.ycombinator.com/item?id=39354854
 积分：1
 # 条评论：0]]></description>
-      <guid>https://kk.org/thetechnium/hill-making-vs-hill-climbing/</guid>
-      <pubDate>Tue, 13 Feb 2024 02:55:30 GMT</pubDate>
+      <guid>https://chandra.si.edu/press/24_releases/press_020824.html</guid>
+      <pubDate>Tue, 13 Feb 2024 05:40:53 GMT</pubDate>
     </item>
     <item>
-      <title>诱导需求不是一个有用的概念</title>
-      <link>https://www.bensouthwood.co.uk/p/why-induced-demand-is-fake</link>
-      <description><![CDATA[文章网址：https://www.bensouthwood.co.uk/p/为什么诱导需求是假的
-评论网址：https://news.ycombinator.com/item?id=39353710
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.bensouthwood.co.uk/p/why-induced-demand-is-fake</guid>
-      <pubDate>Tue, 13 Feb 2024 02:47:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Instagram 账户让你蹲在地铁住宅里</title>
-      <link>https://news.yahoo.com/stealing-channel-2-goes-undercover-164049984.html</link>
-      <description><![CDATA[文章网址：https://news.yahoo.com/stealing-channel- 2-goes-undercover-164049984.html
-评论网址：https://news.ycombinator.com/item?id=39353704
-积分：3
-# 条评论：0]]></description>
-      <guid>https://news.yahoo.com/stealing-channel-2-goes-undercover-164049984.html</guid>
-      <pubDate>Tue, 13 Feb 2024 02:46:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD Zen 6 – 下一代小芯片和封装</title>
-      <link>https://www.youtube.com/watch?v=ex_gPeWVAo0</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=ex_gPeWVAo0
-评论网址：https://news.ycombinator.com/item?id=39353699
+      <title>虫子不断飞入人造光并意外死亡的原因</title>
+      <link>https://www.popularmechanics.com/science/a46673248/bugs-dying-in-artificial-light/</link>
+      <description><![CDATA[文章网址：https://www.popularmechanics.com/science/a46673248 /错误在人工光下死去/
+评论网址：https://news.ycombinator.com/item?id=39354852
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=ex_gPeWVAo0</guid>
-      <pubDate>Tue, 13 Feb 2024 02:46:11 GMT</pubDate>
+      <guid>https://www.popularmechanics.com/science/a46673248/bugs-dying-in-artificial-light/</guid>
+      <pubDate>Tue, 13 Feb 2024 05:40:26 GMT</pubDate>
     </item>
     <item>
-      <title>1984 年苹果董事会差点丧命</title>
-      <link>https://www.cnn.com/2024/02/12/business/apple-1984-ad-superbowl-steve-jobs/index.html</link>
-      <description><![CDATA[文章网址：https:// www.cnn.com/2024/02/12/business/apple-1984-ad-superbowl-steve-jobs/index.html
-评论网址：https://news.ycombinator.com/item?id=39353687
+      <title>Banana Pi 推出 BPI-F3 RISC-V 开发板，AI 性能排名第二</title>
+      <link>https://linuxgizmos.com/banana-pi-announces-bpi-f3-risc-v-development-board-with-2-tops-ai-performance/</link>
+      <description><![CDATA[文章网址：https ://linuxgizmos.com/banana-pi-announces-bpi-f3-risc-v-development-board-with-2-tops-ai-performance/
+评论网址：https://news.ycombinator.com/item?id=39354834
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.cnn.com/2024/02/12/business/apple-1984-ad-superbowl-steve-jobs/index.html</guid>
-      <pubDate>Tue, 13 Feb 2024 02:44:24 GMT</pubDate>
+      <guid>https://linuxgizmos.com/banana-pi-announces-bpi-f3-risc-v-development-board-with-2-tops-ai-performance/</guid>
+      <pubDate>Tue, 13 Feb 2024 05:36:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
