@@ -4,138 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 22 Feb 2024 18:17:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2024 21:12:04 GMT</lastBuildDate>
     <item>
-      <title>在 Google Gemini 的强烈反对下，产品负责人的推文出现在网上</title>
-      <link>https://www.msn.com/en-us/news/technology/who-is-jack-krawczyk-product-leads-tweets-surface-online-amid-google-gemini-backlash/ar-BB1iIS8k</link>
-      <description><![CDATA[文章网址：https://www.msn.com/en-us/news/technology/who-is-jack-krawczyk-product-leads-tweets-surface-online-amid-google-双子座反冲/ar-BB1iIS8k
-评论网址：https://news.ycombinator.com/item?id=39470814
+      <title>阿瑟·惠特尼访谈 (2004)</title>
+      <link>https://web.archive.org/web/20150813004101/http://kx.com/arthur-interview.php</link>
+      <description><![CDATA[文章网址：https://web.archive.org/ web/20150813004101/http://kx.com/arthur-interview.php
+评论网址：https://news.ycombinator.com/item?id=39473260
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.msn.com/en-us/news/technology/who-is-jack-krawczyk-product-leads-tweets-surface-online-amid-google-gemini-backlash/ar-BB1iIS8k</guid>
-      <pubDate>Thu, 22 Feb 2024 18:07:42 GMT</pubDate>
+      <guid>https://web.archive.org/web/20150813004101/http://kx.com/arthur-interview.php</guid>
+      <pubDate>Thu, 22 Feb 2024 21:07:55 GMT</pubDate>
     </item>
     <item>
-      <title>谷歌隐藏的人工智能多样性提示引发对不准确图像的强烈抗议</title>
-      <link>https://arstechnica.com/information-technology/2024/02/googles-hidden-ai-diversity-prompts-lead-to-outcry-over-historically-inaccurate-images/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/information-technology/2024/02/googles-hidden-ai-diversity-prompts-lead-to-outcry-over-historically-inaccurate-images/
-评论网址：https://news.ycombinator.com/item?id=39470813
+      <title>英特尔在 IFS Direct Connect 2024 上公布新路线图：全新 14A 节点</title>
+      <link>https://www.tomshardware.com/pc-components/cpus/intel-announces-new-roadmap-at-ifs-direct-connect-2024-new-14a-node-clearwater-forest-taped-in-five-nodes-in-four-years-remains-on-track</link>
+      <description><![CDATA[文章网址：https://www.tomshardware.com/pc-components/cpus/intel-announces-new-roadmap- at-ifs-direct-connect-2024-new-14a-node-clearwater-forest-tapped-5个节点在四年内仍保持在正轨上
+评论网址：https://news.ycombinator.com/item?id=39473255
 积分：1
 # 条评论：0]]></description>
-      <guid>https://arstechnica.com/information-technology/2024/02/googles-hidden-ai-diversity-prompts-lead-to-outcry-over-historically-inaccurate-images/</guid>
-      <pubDate>Thu, 22 Feb 2024 18:07:42 GMT</pubDate>
+      <guid>https://www.tomshardware.com/pc-components/cpus/intel-announces-new-roadmap-at-ifs-direct-connect-2024-new-14a-node-clearwater-forest-taped-in-five-nodes-in-four-years-remains-on-track</guid>
+      <pubDate>Thu, 22 Feb 2024 21:07:30 GMT</pubDate>
     </item>
     <item>
-      <title>FireFunction V1 – GPT-4 级函数调用模型 – 速度提高 4 倍，开放权重</title>
-      <link>https://fireworks.ai/blog/firefunction-v1-gpt-4-level-function-calling</link>
-      <description><![CDATA[文章网址：https://fireworks.ai/blog/firefunction-v1- gpt-4-级别函数调用
-评论网址：https://news.ycombinator.com/item?id=39470801
+      <title>海耶斯计时码表的现代升级</title>
+      <link>https://biosrhythm.com/?p=1546</link>
+      <description><![CDATA[文章网址：https://biosrhythm.com/?p=1546
+评论网址：https://news.ycombinator.com/item?id=39473199
 积分：1
 # 条评论：0]]></description>
-      <guid>https://fireworks.ai/blog/firefunction-v1-gpt-4-level-function-calling</guid>
-      <pubDate>Thu, 22 Feb 2024 18:06:42 GMT</pubDate>
+      <guid>https://biosrhythm.com/?p=1546</guid>
+      <pubDate>Thu, 22 Feb 2024 21:03:10 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：SSH –authorized_keys 注释字段格式（最佳实践）</title>
-      <link>https://news.ycombinator.com/item?id=39470798</link>
-      <description><![CDATA[嗨，我了解 SSH 证书，我们主要使用它们
-但我们仍然有使用在 authorized_keysFrom authorized_keys (5) 中管理的经典公钥的系统 公钥由以下空间组成- 分隔字段：
-
-        选项 keytype base64-encoded-key comment
-   
-    选项字段是可选的
-    注释字段不用于任何用途（但可能方便用户识别密钥）
-
-我经常发现这样的东西 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN5EYh69EeIDiVYxgy6O4fUWoxiT4cRxb8JkLdikE27a user@host
-
-这使得很难找到如何联系该密钥所有者。所以我经常使用这种格式： ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN5EYh69EeIDiVYxgy6O4fUWoxiT4cRxb8JkLdikE27a user@domain.com
-
-目前我正在考虑一种更通用的格式
-包含更多信息，稍后可以通过 Bash、Go 或其他方式解析。类似这样的内容： ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN5EYh69EeIDiVYxgy6O4fUWoxiT4cRxb8JkLdikE27a o:user1@host1|e:user1@domain.com| p:管理虚拟主机|t:2024-02-21
-    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICebzmkN9HFcnTfcugV+8sAC1nI9itIL0uriy8lmTc7L o:user2@host2|p:管理用户
-
-. awk &#39;$NF ~ /^.:/ {print $NF}&#39; ~/.ssh/authorized_keys | tr &#39;|&#39; &#39;\n&#39; | awk -F&#39;:&#39; &#39;/^o:/ {print &quot;origin=&quot;$2}&#39;
-    awk &#39;$NF ~ /^.:/ {print $NF}&#39; ~/.ssh/authorized_keys | tr &#39;|&#39; &#39;\n&#39; | awk -F&#39;:&#39; &#39;/^e:/ {print &quot;email=&quot;$2}&#39;
-    awk &#39;$NF ~ /^.:/ {print $NF}&#39; ~/.ssh/authorized_keys | tr &#39;|&#39; &#39;\n&#39; | awk -F&#39;:&#39; &#39;/^p:/ {print &quot;目的=&quot;$2}&#39;
-    awk &#39;$NF ~ /^.:/ {print $NF}&#39; ~/.ssh/authorized_keys | tr &#39;|&#39; &#39;\n&#39; | awk -F&#39;:&#39; &#39;/^t:/ {print &quot;timestamp=&quot;$2}&#39;
-
-. origin=user1@host1
-    来源=用户2@主机2
-    电子邮件=user1@domain.com
-    目的=管理虚拟主机
-    目的=管理用户
-    时间戳=2024-02-21
-
-- 你用什么？
-- 有什么最佳实践吗？
-- 有什么想法、意见吗？ （双关语）
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39470798
+      <title>将音乐数据编入和编出我的个人网站</title>
+      <link>https://coryd.dev/posts/2024/weaving-music-in-and-out-of-my-personal-site/</link>
+      <description><![CDATA[文章网址：https://coryd.dev /posts/2024/weaving-music-in-and-out-of-my-personal-site/
+评论网址：https://news.ycombinator.com/item?id=39473192
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=39470798</guid>
-      <pubDate>Thu, 22 Feb 2024 18:06:24 GMT</pubDate>
+      <guid>https://coryd.dev/posts/2024/weaving-music-in-and-out-of-my-personal-site/</guid>
+      <pubDate>Thu, 22 Feb 2024 21:02:47 GMT</pubDate>
     </item>
     <item>
-      <title>校服政策与学生锻炼减少有关</title>
-      <link>https://medicalxpress.com/news/2024-02-school-uniform-policies-linked-students.html</link>
-      <description><![CDATA[文章网址：https://medicalxpress.com/news/2024- 02-school-uniform-policies-linked-students.html
-评论网址：https://news.ycombinator.com/item?id=39470793
-积分：1
-# 条评论：0]]></description>
-      <guid>https://medicalxpress.com/news/2024-02-school-uniform-policies-linked-students.html</guid>
-      <pubDate>Thu, 22 Feb 2024 18:05:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>与工程师顾问一起恢复您的求职之路</title>
-      <link>https://www.youtube.com/watch?v=HwAzLRaMgPQ</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=HwAzLRaMgPQ
-评论网址：https://news.ycombinator.com/item?id=39470760
+      <title>Neon env 0.2.1：类型化的 env 解析器</title>
+      <link>https://www.npmjs.com/package/neon-env</link>
+      <description><![CDATA[文章网址：https://www.npmjs.com/package/neon-env
+评论网址：https://news.ycombinator.com/item?id=39473087
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.youtube.com/watch?v=HwAzLRaMgPQ</guid>
-      <pubDate>Thu, 22 Feb 2024 18:03:55 GMT</pubDate>
+      <guid>https://www.npmjs.com/package/neon-env</guid>
+      <pubDate>Thu, 22 Feb 2024 20:54:42 GMT</pubDate>
     </item>
     <item>
-      <title>实时 DSP 的复杂包络</title>
-      <link>https://electroagenda.com/en/complex-envelope-implementation/</link>
-      <description><![CDATA[文章网址：https:// electroagenda.com/en/complex-envelope-implementation/&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=39470757
-积分：1
-# 条评论：0]]></description>
-      <guid>https://electroagenda.com/en/complex-envelope-implementation/</guid>
-      <pubDate>Thu, 22 Feb 2024 18:03:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT 与 Outlook 和 Gmail 集成</title>
-      <link>https://emailwhisperer.ai/</link>
-      <description><![CDATA[文章网址：https://emailwhisperer.ai/
-评论网址：https://news.ycombinator.com/item?id=39470753
-积分：1
-# 条评论：1]]></description>
-      <guid>https://emailwhisperer.ai/</guid>
-      <pubDate>Thu, 22 Feb 2024 18:03:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：3,800 个漂亮的图标 – React、SVG、NPM 但免费</title>
-      <link>https://hugeicons.com/</link>
-      <description><![CDATA[简而言之：1。超过 3,800 个免费图标2.无限制的个人和商业用途3.图标是专业制作的，非常漂亮4。多格式兼容性：SVG、React、CDN、NPM、JSX5。增强美观性和可用性，图标很重要6。所有项目的灵活性7.易于定制8.也非常适合开发人员和 Figma 设计师，因为它提供 Figma 文件和一个 Amazing Figma 插件9。它总共提供了 27,000 多个高级图标10。您已经可以在许多项目中使用免费图标您必须为您的项目使用漂亮的图标。任何改进的反馈都将不胜感激！Hugeicons Pro 提供了一个大而漂亮的多格式图标库对个人和商业项目的支持和灵活性，增强应用程序和网站设计。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39470752
+      <title>新报告详细介绍了热泵的优点</title>
+      <link>https://techxplore.com/news/2024-02-benefits.html</link>
+      <description><![CDATA[文章网址：https://techxplore.com/news/2024-02-benefits.html
+评论网址：https://news.ycombinator.com/item?id=39473061
 积分：2
 # 条评论：0]]></description>
-      <guid>https://hugeicons.com/</guid>
-      <pubDate>Thu, 22 Feb 2024 18:03:21 GMT</pubDate>
+      <guid>https://techxplore.com/news/2024-02-benefits.html</guid>
+      <pubDate>Thu, 22 Feb 2024 20:53:18 GMT</pubDate>
     </item>
     <item>
-      <title>使用 Lazydocker 密切关注容器状态</title>
-      <link>https://spin.atomicobject.com/container-status-lazydocker/</link>
-      <description><![CDATA[文章网址：https://spin.atomicobject.com/container-status-lazydocker/&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=39470708
+      <title>Show HN：通过 Go 达成共识——Raft 实现</title>
+      <link>https://github.com/jmsadair/raft</link>
+      <description><![CDATA[文章网址：https://github.com/jmsadair/raft
+评论网址：https://news.ycombinator.com/item?id=39473053
 积分：1
 # 条评论：0]]></description>
-      <guid>https://spin.atomicobject.com/container-status-lazydocker/</guid>
-      <pubDate>Thu, 22 Feb 2024 17:59:25 GMT</pubDate>
+      <guid>https://github.com/jmsadair/raft</guid>
+      <pubDate>Thu, 22 Feb 2024 20:52:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Rust 优化大脑成像设备的软件堆栈</title>
+      <link>https://medium.com/@biasedbit/a-journey-of-improvements-to-neurositys-brain-operating-system-8ef6f9af11ac</link>
+      <description><![CDATA[文章网址：https://medium.com /@biasedbit/神经质大脑操作系统改进之旅8ef6f9af11ac
+评论网址：https://news.ycombinator.com/item?id=39473045
+积分：4
+# 条评论：0]]></description>
+      <guid>https://medium.com/@biasedbit/a-journey-of-improvements-to-neurositys-brain-operating-system-8ef6f9af11ac</guid>
+      <pubDate>Thu, 22 Feb 2024 20:52:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>尼克劳斯·沃斯去世</title>
+      <link>https://www.nytimes.com/2024/02/22/technology/niklaus-wirth-dead.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2024/ 02/22/technology/niklaus-wirth-dead.html
+评论网址：https://news.ycombinator.com/item?id=39473042
+积分：12
+# 条评论：1]]></description>
+      <guid>https://www.nytimes.com/2024/02/22/technology/niklaus-wirth-dead.html</guid>
+      <pubDate>Thu, 22 Feb 2024 20:51:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么多伦多应该对“不分青红皂白”的公交车站枪击事件“感到愤怒......”</title>
+      <link>https://www.thestar.com/news/gta/why-toronto-should-be-outraged-and-continue-to-be-outraged-over-indiscriminate-bus-stop-shootings/article_c41c94ee-d0e4-11ee-b22e-aba7a65b82d5.html</link>
+      <description><![CDATA[文章网址：https://www.thestar.com/news/gta/why-toronto-should-be-outraged-and-continue-to-be-对不分皂白的公交车站枪击事件感到愤怒/article_c41c94ee-d0e4-11ee-b22e-aba7a65b82d5.html
+评论网址：https://news.ycombinator.com/item?id=39473036
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.thestar.com/news/gta/why-toronto-should-be-outraged-and-continue-to-be-outraged-over-indiscriminate-bus-stop-shootings/article_c41c94ee-d0e4-11ee-b22e-aba7a65b82d5.html</guid>
+      <pubDate>Thu, 22 Feb 2024 20:51:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
