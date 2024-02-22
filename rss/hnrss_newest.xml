@@ -4,106 +4,138 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 22 Feb 2024 15:14:09 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2024 18:17:55 GMT</lastBuildDate>
     <item>
-      <title>美国利用私人机器人航天器接近尝试 50 年来首次登月</title>
-      <link>https://www.reuters.com/technology/space/us-nears-attempt-first-moon-landing-half-century-with-private-robot-spacecraft-2024-02-22/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/technology/space/us-nears-attempt-first-moon-landing-half- century-with-private-robot-spacecraft-2024-02-22 /
-评论网址：https://news.ycombinator.com/item?id=39468115
+      <title>在 Google Gemini 的强烈反对下，产品负责人的推文出现在网上</title>
+      <link>https://www.msn.com/en-us/news/technology/who-is-jack-krawczyk-product-leads-tweets-surface-online-amid-google-gemini-backlash/ar-BB1iIS8k</link>
+      <description><![CDATA[文章网址：https://www.msn.com/en-us/news/technology/who-is-jack-krawczyk-product-leads-tweets-surface-online-amid-google-双子座反冲/ar-BB1iIS8k
+评论网址：https://news.ycombinator.com/item?id=39470814
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.reuters.com/technology/space/us-nears-attempt-first-moon-landing-half-century-with-private-robot-spacecraft-2024-02-22/</guid>
-      <pubDate>Thu, 22 Feb 2024 15:04:21 GMT</pubDate>
+      <guid>https://www.msn.com/en-us/news/technology/who-is-jack-krawczyk-product-leads-tweets-surface-online-amid-google-gemini-backlash/ar-BB1iIS8k</guid>
+      <pubDate>Thu, 22 Feb 2024 18:07:42 GMT</pubDate>
     </item>
     <item>
-      <title>Docker 备忘单 – 现在有视频</title>
-      <link>https://www.youtube.com/watch?v=EUrFVnCnxLE</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=EUrFVnCnxLE
-评论网址：https://news.ycombinator.com/item?id=39468078
-积分：2
+      <title>谷歌隐藏的人工智能多样性提示引发对不准确图像的强烈抗议</title>
+      <link>https://arstechnica.com/information-technology/2024/02/googles-hidden-ai-diversity-prompts-lead-to-outcry-over-historically-inaccurate-images/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/information-technology/2024/02/googles-hidden-ai-diversity-prompts-lead-to-outcry-over-historically-inaccurate-images/
+评论网址：https://news.ycombinator.com/item?id=39470813
+积分：1
+# 条评论：0]]></description>
+      <guid>https://arstechnica.com/information-technology/2024/02/googles-hidden-ai-diversity-prompts-lead-to-outcry-over-historically-inaccurate-images/</guid>
+      <pubDate>Thu, 22 Feb 2024 18:07:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>FireFunction V1 – GPT-4 级函数调用模型 – 速度提高 4 倍，开放权重</title>
+      <link>https://fireworks.ai/blog/firefunction-v1-gpt-4-level-function-calling</link>
+      <description><![CDATA[文章网址：https://fireworks.ai/blog/firefunction-v1- gpt-4-级别函数调用
+评论网址：https://news.ycombinator.com/item?id=39470801
+积分：1
+# 条评论：0]]></description>
+      <guid>https://fireworks.ai/blog/firefunction-v1-gpt-4-level-function-calling</guid>
+      <pubDate>Thu, 22 Feb 2024 18:06:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：SSH –authorized_keys 注释字段格式（最佳实践）</title>
+      <link>https://news.ycombinator.com/item?id=39470798</link>
+      <description><![CDATA[嗨，我了解 SSH 证书，我们主要使用它们
+但我们仍然有使用在 authorized_keysFrom authorized_keys (5) 中管理的经典公钥的系统 公钥由以下空间组成- 分隔字段：
+
+        选项 keytype base64-encoded-key comment
+   
+    选项字段是可选的
+    注释字段不用于任何用途（但可能方便用户识别密钥）
+
+我经常发现这样的东西 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN5EYh69EeIDiVYxgy6O4fUWoxiT4cRxb8JkLdikE27a user@host
+
+这使得很难找到如何联系该密钥所有者。所以我经常使用这种格式： ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN5EYh69EeIDiVYxgy6O4fUWoxiT4cRxb8JkLdikE27a user@domain.com
+
+目前我正在考虑一种更通用的格式
+包含更多信息，稍后可以通过 Bash、Go 或其他方式解析。类似这样的内容： ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN5EYh69EeIDiVYxgy6O4fUWoxiT4cRxb8JkLdikE27a o:user1@host1|e:user1@domain.com| p:管理虚拟主机|t:2024-02-21
+    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICebzmkN9HFcnTfcugV+8sAC1nI9itIL0uriy8lmTc7L o:user2@host2|p:管理用户
+
+. awk &#39;$NF ~ /^.:/ {print $NF}&#39; ~/.ssh/authorized_keys | tr &#39;|&#39; &#39;\n&#39; | awk -F&#39;:&#39; &#39;/^o:/ {print &quot;origin=&quot;$2}&#39;
+    awk &#39;$NF ~ /^.:/ {print $NF}&#39; ~/.ssh/authorized_keys | tr &#39;|&#39; &#39;\n&#39; | awk -F&#39;:&#39; &#39;/^e:/ {print &quot;email=&quot;$2}&#39;
+    awk &#39;$NF ~ /^.:/ {print $NF}&#39; ~/.ssh/authorized_keys | tr &#39;|&#39; &#39;\n&#39; | awk -F&#39;:&#39; &#39;/^p:/ {print &quot;目的=&quot;$2}&#39;
+    awk &#39;$NF ~ /^.:/ {print $NF}&#39; ~/.ssh/authorized_keys | tr &#39;|&#39; &#39;\n&#39; | awk -F&#39;:&#39; &#39;/^t:/ {print &quot;timestamp=&quot;$2}&#39;
+
+. origin=user1@host1
+    来源=用户2@主机2
+    电子邮件=user1@domain.com
+    目的=管理虚拟主机
+    目的=管理用户
+    时间戳=2024-02-21
+
+- 你用什么？
+- 有什么最佳实践吗？
+- 有什么想法、意见吗？ （双关语）
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39470798
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=39470798</guid>
+      <pubDate>Thu, 22 Feb 2024 18:06:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>校服政策与学生锻炼减少有关</title>
+      <link>https://medicalxpress.com/news/2024-02-school-uniform-policies-linked-students.html</link>
+      <description><![CDATA[文章网址：https://medicalxpress.com/news/2024- 02-school-uniform-policies-linked-students.html
+评论网址：https://news.ycombinator.com/item?id=39470793
+积分：1
+# 条评论：0]]></description>
+      <guid>https://medicalxpress.com/news/2024-02-school-uniform-policies-linked-students.html</guid>
+      <pubDate>Thu, 22 Feb 2024 18:05:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>与工程师顾问一起恢复您的求职之路</title>
+      <link>https://www.youtube.com/watch?v=HwAzLRaMgPQ</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=HwAzLRaMgPQ
+评论网址：https://news.ycombinator.com/item?id=39470760
+积分：1
 # 条评论：1]]></description>
-      <guid>https://www.youtube.com/watch?v=EUrFVnCnxLE</guid>
-      <pubDate>Thu, 22 Feb 2024 15:01:43 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=HwAzLRaMgPQ</guid>
+      <pubDate>Thu, 22 Feb 2024 18:03:55 GMT</pubDate>
     </item>
     <item>
-      <title>网络欺凌走向全球：Fediverse 垃圾邮件和 Beleaguer 行动</title>
-      <link>https://blog.fyralabs.com/cyberbullying-gone-global-regarding-the-fediverse-spam-and-operation-beleaguer/</link>
-      <description><![CDATA[文章网址：https://blog.fyralabs .com/cyberbullying-gone-global-regarding-the-fediverse-spam-and-operation-beleaguer/
-评论网址：https://news.ycombinator.com/item?id=39468076
-积分：3
-# 条评论：0]]></description>
-      <guid>https://blog.fyralabs.com/cyberbullying-gone-global-regarding-the-fediverse-spam-and-operation-beleaguer/</guid>
-      <pubDate>Thu, 22 Feb 2024 15:01:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>城里有一个快速的新代码编辑器 [视频]</title>
-      <link>https://www.youtube.com/watch?v=JGz7Ou0Nwo8</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=JGz7Ou0Nwo8
-评论网址：https://news.ycombinator.com/item?id=39468069
+      <title>实时 DSP 的复杂包络</title>
+      <link>https://electroagenda.com/en/complex-envelope-implementation/</link>
+      <description><![CDATA[文章网址：https:// electroagenda.com/en/complex-envelope-implementation/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=39470757
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=JGz7Ou0Nwo8</guid>
-      <pubDate>Thu, 22 Feb 2024 15:01:06 GMT</pubDate>
+      <guid>https://electroagenda.com/en/complex-envelope-implementation/</guid>
+      <pubDate>Thu, 22 Feb 2024 18:03:43 GMT</pubDate>
     </item>
     <item>
-      <title>“事情已经失控”：美国建筑业工资克扣现象猖獗</title>
-      <link>https://www.theguardian.com/us-news/2024/feb/14/construction-worker-unions-wage-theft</link>
-      <description><![CDATA[文章网址：https://www.theguardian。 com/us-news/2024/feb/14/construction-worker-unions-wage-theft
-评论网址：https://news.ycombinator.com/item?id=39468057
+      <title>ChatGPT 与 Outlook 和 Gmail 集成</title>
+      <link>https://emailwhisperer.ai/</link>
+      <description><![CDATA[文章网址：https://emailwhisperer.ai/
+评论网址：https://news.ycombinator.com/item?id=39470753
+积分：1
+# 条评论：1]]></description>
+      <guid>https://emailwhisperer.ai/</guid>
+      <pubDate>Thu, 22 Feb 2024 18:03:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：3,800 个漂亮的图标 – React、SVG、NPM 但免费</title>
+      <link>https://hugeicons.com/</link>
+      <description><![CDATA[简而言之：1。超过 3,800 个免费图标2.无限制的个人和商业用途3.图标是专业制作的，非常漂亮4。多格式兼容性：SVG、React、CDN、NPM、JSX5。增强美观性和可用性，图标很重要6。所有项目的灵活性7.易于定制8.也非常适合开发人员和 Figma 设计师，因为它提供 Figma 文件和一个 Amazing Figma 插件9。它总共提供了 27,000 多个高级图标10。您已经可以在许多项目中使用免费图标您必须为您的项目使用漂亮的图标。任何改进的反馈都将不胜感激！Hugeicons Pro 提供了一个大而漂亮的多格式图标库对个人和商业项目的支持和灵活性，增强应用程序和网站设计。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39470752
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.theguardian.com/us-news/2024/feb/14/construction-worker-unions-wage-theft</guid>
-      <pubDate>Thu, 22 Feb 2024 14:59:55 GMT</pubDate>
+      <guid>https://hugeicons.com/</guid>
+      <pubDate>Thu, 22 Feb 2024 18:03:21 GMT</pubDate>
     </item>
     <item>
-      <title>降低大流行风险的直接方法：别打扰蝙蝠</title>
-      <link>https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(23)00077-3/fulltext</link>
-      <description><![CDATA[文章网址：https://www.thelancet.com/期刊/lanplh/article/PIIS2542-5196(23)00077-3/fulltext
-评论网址：https://news.ycombinator.com/item?id=39468052
+      <title>使用 Lazydocker 密切关注容器状态</title>
+      <link>https://spin.atomicobject.com/container-status-lazydocker/</link>
+      <description><![CDATA[文章网址：https://spin.atomicobject.com/container-status-lazydocker/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=39470708
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(23)00077-3/fulltext</guid>
-      <pubDate>Thu, 22 Feb 2024 14:59:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adobe Acrobat 添加生成人工智能以“轻松与文档聊天”</title>
-      <link>https://www.theverge.com/2024/2/20/24077217/adobe-acrobat-generative-ai-assistant-chatbot-pdf-document</link>
-      <description><![CDATA[文章网址：https:// www.theverge.com/2024/2/20/24077217/adobe-acrobat-generative-ai-assistant-chatbot-pdf-document
-评论网址：https://news.ycombinator.com/item?id=39468045
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.theverge.com/2024/2/20/24077217/adobe-acrobat-generative-ai-assistant-chatbot-pdf-document</guid>
-      <pubDate>Thu, 22 Feb 2024 14:59:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>操纵高超音速飞机的挑战</title>
-      <link>https://www.economist.com/science-and-technology/2024/02/21/the-challenges-of-steering-a-hypersonic-plane</link>
-      <description><![CDATA[文章网址：https： //www.economist.com/science-and-technology/2024/02/21/the-challenges-of-steering-a-hypersonic-plane
-评论网址：https://news.ycombinator.com/item?id=39468042
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.economist.com/science-and-technology/2024/02/21/the-challenges-of-steering-a-hypersonic-plane</guid>
-      <pubDate>Thu, 22 Feb 2024 14:59:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Botright，网络抓取的瑞士刀</title>
-      <link>https://github.com/Vinyzu/Botright</link>
-      <description><![CDATA[文章网址：https://github.com/Vinyzu/Botright
-评论网址：https://news.ycombinator.com/item?id=39468020
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/Vinyzu/Botright</guid>
-      <pubDate>Thu, 22 Feb 2024 14:57:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>K 编程语言浅析 (2002)</title>
-      <link>https://web.archive.org/web/20131006150020/http://www.kuro5hin.org/story/2002/11/14/22741/791</link>
-      <description><![CDATA[文章网址：https： //web.archive.org/web/20131006150020/http://www.kuro5hin.org/story/2002/11/14/22741/791
-评论网址：https://news.ycombinator.com/item?id=39467992
-积分：1
-# 条评论：0]]></description>
-      <guid>https://web.archive.org/web/20131006150020/http://www.kuro5hin.org/story/2002/11/14/22741/791</guid>
-      <pubDate>Thu, 22 Feb 2024 14:56:13 GMT</pubDate>
+      <guid>https://spin.atomicobject.com/container-status-lazydocker/</guid>
+      <pubDate>Thu, 22 Feb 2024 17:59:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
