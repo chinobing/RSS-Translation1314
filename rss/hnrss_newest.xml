@@ -4,106 +4,111 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 29 Feb 2024 12:24:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Feb 2024 15:14:01 GMT</lastBuildDate>
     <item>
-      <title>将我的博客文章作为 Linux 手册页提供</title>
-      <link>https://jamesg.blog/2024/02/29/linux-manual-pages/</link>
-      <description><![CDATA[文章网址：https://jamesg.blog/2024/02/29/linux-manual -页面/
-评论网址：https://news.ycombinator.com/item?id=39548410
+      <title>思想革命？ – 伊恩·麦吉尔克里斯特博士 [视频]</title>
+      <link>https://www.youtube.com/watch?v=AuQ4Hi7YdgU</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=AuQ4Hi7YdgU
+评论网址：https://news.ycombinator.com/item?id=39550362
 积分：1
-# 条评论：0]]></description>
-      <guid>https://jamesg.blog/2024/02/29/linux-manual-pages/</guid>
-      <pubDate>Thu, 29 Feb 2024 12:18:20 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://www.youtube.com/watch?v=AuQ4Hi7YdgU</guid>
+      <pubDate>Thu, 29 Feb 2024 15:11:09 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft Copilot 因无法不使用表情符号而崩溃</title>
-      <link>https://copilot.microsoft.com/?shareId=40731b46-b479-4bd7-a8fb-21540315c72c</link>
-      <description><![CDATA[文章网址：https://copilot.microsoft.com/?shareId=40731b46- b479-4bd7-a8fb-21540315c72c
-评论网址：https://news.ycombinator.com/item?id=39548405
+      <title>显示 HN：握手 – 适用于 200 个 API 的 Next.js OAuth 处理程序</title>
+      <link>https://github.com/fiberinc/handshake</link>
+      <description><![CDATA[嗨，HN！我是 Felipe，Fiber (https://fibre.dev) 的创始人。本周我们将开源一个名为 Handshake 的项目。它是一个 Next.js 应用程序，可通过 200 多个 API 处理 OAuth 流。Handshake 可帮助您进行_集成_而不是身份验证。考虑“连接您的 Github 存储库”按钮，而不是“使用 Github 登录”按钮。其工作原理如下：1.克隆存储库
+2.修改`app/options.ts`来配置您要使用的API
+3. 部署到像“handshake.yourdomain.com”这样的子域（或任何地方）
+4.然后，获得例如。来自用户的 Github 令牌，将它们发送到 `HANDSHAKE/auth/github/redirect`。
+5. 应用程序将处理授权和令牌交换，然后将用户发送回给您。为什么要构建这个？我们在 Fiber 内部为客户举办握手活动已有一年多了，反馈非常好。但帮助开发人员使用 OAuth 并不是我们产品的核心，因此当公司要求使用它时，我们总是不得不拒绝他们。因此，我们决定开源 Handshake，以便他们可以免费使用它。这个项目的北极星是易用性。我们构建它是为了适应我们内部使用的堆栈：Typescript、Next.js、部署到 Vercel（很快还有其他 PaaS）等。我们在构建 Handshake 之前考虑的其他解决方案需要更长的时间来设置（Docker、二进制文件、Kubernetes 等），或者试图做太多事情（例如，为了赚钱而开放核心，需要数据库等）。当然，Handshake 也不会适合每个人，但这没关系。 :)查看 https://handshake.cool 了解我们的演示和支持的 API 列表。期待您关于如何改进这一点的想法和反馈！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39550361
 积分：1
 # 条评论：0]]></description>
-      <guid>https://copilot.microsoft.com/?shareId=40731b46-b479-4bd7-a8fb-21540315c72c</guid>
-      <pubDate>Thu, 29 Feb 2024 12:17:58 GMT</pubDate>
+      <guid>https://github.com/fiberinc/handshake</guid>
+      <pubDate>Thu, 29 Feb 2024 15:11:05 GMT</pubDate>
     </item>
     <item>
-      <title>蝴蝶的救赎</title>
-      <link>https://hakaimagazine.com/features/the-butterfly-redemption/</link>
-      <description><![CDATA[文章网址：https://hakaimagazine.com/features/the-butterfly-redemption/&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=39548403
+      <title>谷歌的 Gemini 聊天机器人是偶然醒来的，还是设计好的？</title>
+      <link>https://www.economist.com/united-states/2024/02/28/is-googles-gemini-chatbot-woke-by-accident-or-design</link>
+      <description><![CDATA[文章网址： https://www.economist.com/united-states/2024/02/28/is-googles-gemini-chatbot-woke-by-accident-or-design
+评论网址：https://news.ycombinator.com/item?id=39550359
 积分：1
 # 条评论：0]]></description>
-      <guid>https://hakaimagazine.com/features/the-butterfly-redemption/</guid>
-      <pubDate>Thu, 29 Feb 2024 12:17:34 GMT</pubDate>
+      <guid>https://www.economist.com/united-states/2024/02/28/is-googles-gemini-chatbot-woke-by-accident-or-design</guid>
+      <pubDate>Thu, 29 Feb 2024 15:11:00 GMT</pubDate>
     </item>
     <item>
-      <title>高级加密标准 (AES) 简笔画指南</title>
-      <link>http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html</link>
-      <description><![CDATA[文章网址：http://www.moserware.com/2009/ 09/stick-figure-guide-to-advanced.html
-评论网址：https://news.ycombinator.com/item?id=39548388
+      <title>Couchbase 为 AI 支持的自适应应用程序带来了新的数据库向量</title>
+      <link>https://venturebeat.com/data-infrastructure/couchbase-brings-new-database-vectors-to-ai-powered-adaptive-applications/</link>
+      <description><![CDATA[文章网址：https://venturebeat .com/data-infrastruct/couchbase-brings-new-database-vectors-to-ai-powered-adaptive-applications/
+评论网址：https://news.ycombinator.com/item?id=39550311
 积分：1
 # 条评论：0]]></description>
-      <guid>http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html</guid>
-      <pubDate>Thu, 29 Feb 2024 12:15:15 GMT</pubDate>
+      <guid>https://venturebeat.com/data-infrastructure/couchbase-brings-new-database-vectors-to-ai-powered-adaptive-applications/</guid>
+      <pubDate>Thu, 29 Feb 2024 15:08:19 GMT</pubDate>
     </item>
     <item>
-      <title>谷歌手机将通过声音反应和效果让谈话变得更有趣</title>
-      <link>https://thespandroid.blogspot.com/2024/02/Google-Dialer-Sound-Reactions-Audiomojis.html</link>
-      <description><![CDATA[文章网址：https://thespandroid.blogspot.com/2024/ 02/Google-Dialer-Sound-Reactions-Audiomojis.html
-评论网址：https://news.ycombinator.com/item?id=39548385
+      <title>潜水员试图弄清楚人类可以潜到多深</title>
+      <link>https://www.technologyreview.com/2024/02/21/1088013/divers-hydrogen-deep-water-diving-underwater-pressure/</link>
+      <description><![CDATA[文章网址：https://www .technologyreview.com/2024/02/21/1088013/divers-Hydrogen-deep-water-diving-underwater-Pressure/
+评论网址：https://news.ycombinator.com/item?id=39550294
 积分：1
 # 条评论：0]]></description>
-      <guid>https://thespandroid.blogspot.com/2024/02/Google-Dialer-Sound-Reactions-Audiomojis.html</guid>
-      <pubDate>Thu, 29 Feb 2024 12:15:04 GMT</pubDate>
+      <guid>https://www.technologyreview.com/2024/02/21/1088013/divers-hydrogen-deep-water-diving-underwater-pressure/</guid>
+      <pubDate>Thu, 29 Feb 2024 15:07:20 GMT</pubDate>
     </item>
     <item>
-      <title>KDE：将 Plasma Wayland 设置为默认值</title>
-      <link>https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/2188</link>
-      <description><![CDATA[文章网址：https://invent.kde.org/plasma/plasma-workspace/ -/merge_requests/2188
-评论网址：https://news.ycombinator.com/item?id=39548370
+      <title>如果没有FDA，手术效果好吗？</title>
+      <link>https://atelfo.substack.com/p/but-does-surgery-really-work-well</link>
+      <description><![CDATA[文章网址：https://atelfo.substack.com/p/but-手术真的有效
+评论网址：https://news.ycombinator.com/item?id=39550280
 积分：1
 # 条评论：0]]></description>
-      <guid>https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/2188</guid>
-      <pubDate>Thu, 29 Feb 2024 12:13:11 GMT</pubDate>
+      <guid>https://atelfo.substack.com/p/but-does-surgery-really-work-well</guid>
+      <pubDate>Thu, 29 Feb 2024 15:06:39 GMT</pubDate>
     </item>
     <item>
-      <title>KDE Plasma 桌面，以原子方式</title>
-      <link>https://fedoraproject.org/atomic-desktops/kinoite/</link>
-      <description><![CDATA[文章网址：https://fedoraproject.org/atomic-desktops/kinoite/
-评论网址：https://news.ycombinator.com/item?id=39548366
-积分：1
+      <title>谁来纠正人工智能的错误？</title>
+      <link>http://charleshughsmith.blogspot.com/2024/02/who-error-corrects-ai.html</link>
+      <description><![CDATA[文章网址：http://charleshughsmith.blogspot.com/2024/02/ who-error- Corrects-ai.html
+评论网址：https://news.ycombinator.com/item?id=39550247
+积分：2
 # 条评论：0]]></description>
-      <guid>https://fedoraproject.org/atomic-desktops/kinoite/</guid>
-      <pubDate>Thu, 29 Feb 2024 12:12:47 GMT</pubDate>
+      <guid>http://charleshughsmith.blogspot.com/2024/02/who-error-corrects-ai.html</guid>
+      <pubDate>Thu, 29 Feb 2024 15:04:48 GMT</pubDate>
     </item>
     <item>
-      <title>KDE 框架</title>
-      <link>https://develop.kde.org/products/frameworks/</link>
-      <description><![CDATA[文章网址：https://develop.kde.org/products/frameworks/
-评论网址：https://news.ycombinator.com/item?id=39548360
+      <title>单一供应商开源是新的专有技术</title>
+      <link>https://opensource.net/why-single-vendor-is-the-new-proprietary/</link>
+      <description><![CDATA[文章网址：https://opensource.net/why-single-vendor-is -新专有/
+评论网址：https://news.ycombinator.com/item?id=39550220
 积分：1
 # 条评论：0]]></description>
-      <guid>https://develop.kde.org/products/frameworks/</guid>
-      <pubDate>Thu, 29 Feb 2024 12:12:18 GMT</pubDate>
+      <guid>https://opensource.net/why-single-vendor-is-the-new-proprietary/</guid>
+      <pubDate>Thu, 29 Feb 2024 15:03:05 GMT</pubDate>
     </item>
     <item>
-      <title>我们能比 Fediverse 更加去中心化吗？</title>
-      <link>https://gist.github.com/loreanvictor/bddd8824c744024d338e935bd7e96707</link>
-      <description><![CDATA[文章网址：https://gist.github.com/loreanvictor/bddd8824c744024d338e935bd7e96707
-评论网址：https://news.ycombinator.com/item?id=39548343
-积分：1
+      <title>Lethal Company 界面的背后是什么</title>
+      <link>https://indieklem.substack.com/p/11-whats-behind-the-interface-of</link>
+      <description><![CDATA[文章网址：https://indieklem.substack.com/p/11-界面背后是什么
+评论网址：https://news.ycombinator.com/item?id=39550212
+积分：2
 # 条评论：0]]></description>
-      <guid>https://gist.github.com/loreanvictor/bddd8824c744024d338e935bd7e96707</guid>
-      <pubDate>Thu, 29 Feb 2024 12:09:11 GMT</pubDate>
+      <guid>https://indieklem.substack.com/p/11-whats-behind-the-interface-of</guid>
+      <pubDate>Thu, 29 Feb 2024 15:02:34 GMT</pubDate>
     </item>
     <item>
-      <title>天文学家揭示了水与行星形成之间的新联系</title>
-      <link>https://www.eso.org/public/news/eso2404/</link>
-      <description><![CDATA[文章网址：https://www.eso.org/public/news/eso2404/&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=39548326
+      <title>发掘地球上最古老的森林</title>
+      <link>https://worldsensorium.com/unearthing-the-oldest-forest-on-earth-two-hours-from-new-york-city-you-can-travel-back-nearly-400-million-years/</link>
+      <description><![CDATA[文章网址：https://worldsensorium.com/unearthing-the-oldest-forest-on-earth-two-hours-from-new-york-city-you-can-travel-back -近4亿年/
+评论网址：https://news.ycombinator.com/item?id=39550202
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.eso.org/public/news/eso2404/</guid>
-      <pubDate>Thu, 29 Feb 2024 12:06:45 GMT</pubDate>
+      <guid>https://worldsensorium.com/unearthing-the-oldest-forest-on-earth-two-hours-from-new-york-city-you-can-travel-back-nearly-400-million-years/</guid>
+      <pubDate>Thu, 29 Feb 2024 15:01:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
