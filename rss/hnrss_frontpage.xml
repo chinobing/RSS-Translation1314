@@ -4,7 +4,69 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 06 Mar 2024 21:12:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 Mar 2024 00:48:34 GMT</lastBuildDate>
+    <item>
+      <title>高收入者买不起房的“牛仔滑雪小镇”面临住房战</title>
+      <link>https://www.nbcnews.com/politics/economics/cowboy-ski-town-high-earners-cant-afford-home-faces-housing-battle-rcna140429</link>
+      <description><![CDATA[文章网址： https://www.nbcnews.com/politics/economics/cowboy-ski-town-high-earners-cant-afford-home-faces-housing-battle-rcna140429
+评论网址：https://news.ycombinator.com/item?id=39623602
+积分：9
+# 条评论：0]]></description>
+      <guid>https://www.nbcnews.com/politics/economics/cowboy-ski-town-high-earners-cant-afford-home-faces-housing-battle-rcna140429</guid>
+      <pubDate>Thu, 07 Mar 2024 00:26:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>NTSB 表示波音公司隐瞒了有关阿拉斯加 737 MAX 9 门塞的关键细节</title>
+      <link>https://www.npr.org/2024/03/06/1236277058/boeing-737-max-9-alaska-airlines-door-plug-removed-ntsb-commerce-cantwell-cruz</link>
+      <description><![CDATA[文章网址：https://www.npr.org/2024/03/06/1236277058/boeing-737-max-9-alaska-airlines-door-plug-removed-ntsb-commerce-cantwell-cruz&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=39622787
+积分：155
+# 条评论：66]]></description>
+      <guid>https://www.npr.org/2024/03/06/1236277058/boeing-737-max-9-alaska-airlines-door-plug-removed-ntsb-commerce-cantwell-cruz</guid>
+      <pubDate>Wed, 06 Mar 2024 22:50:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：已知 – 半智能工厂标签</title>
+      <link>https://www.knownplants.com/</link>
+      <description><![CDATA[不久前，我发布了一个小实验，我们在花园里将植物连接到网络。我们收到了很多关于这个想法的积极反馈，并决定推出 https://www.knownplants.com 。它是一款网络应用程序，配有相当便宜的半智能 NFC 标签，可以帮助园丁跟上他们的植物的步伐。您觉得怎么样？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39622778
+积分：8
+# 条评论：8]]></description>
+      <guid>https://www.knownplants.com/</guid>
+      <pubDate>Wed, 06 Mar 2024 22:49:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>安德鲁·约翰逊醉酒后发表副总统就职演说</title>
+      <link>https://en.wikipedia.org/wiki/Andrew_Johnson%27s_drunk_vice-presidential_inaugural_address</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Andrew_Johnson%27s_drunk_vice-presidential_inaugural_address
+评论网址：https://news.ycombinator.com/item?id=39622624
+积分：22
+# 条评论：8]]></description>
+      <guid>https://en.wikipedia.org/wiki/Andrew_Johnson%27s_drunk_vice-presidential_inaugural_address</guid>
+      <pubDate>Wed, 06 Mar 2024 22:32:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>漫画刻字的艺术与历史</title>
+      <link>https://kleinletters.com/Blog/the-art-and-history-of-lettering-comics/</link>
+      <description><![CDATA[文章网址：https://kleinletters.com/Blog/the-art -和字母漫画的历史/
+评论网址：https://news.ycombinator.com/item?id=39622130
+积分：12
+# 条评论：1]]></description>
+      <guid>https://kleinletters.com/Blog/the-art-and-history-of-lettering-comics/</guid>
+      <pubDate>Wed, 06 Mar 2024 21:52:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Elodin – 更好的物理模拟框架</title>
+      <link>https://github.com/elodin-sys/elodin</link>
+      <description><![CDATA[嘿，HN！我们是 Elodin (https://elodin.systems/) 的联合创始人，这是一个代码优先的物理模拟框架。我们刚刚在 Github 上开源了我们的核心库：https://github.com/elodin-sys/elodin您有没有想过当卫星首次进入轨道时会发生什么？事实证明，他们常常在与稳定的神奇斗争中失控、翻来覆去。在这里查看我们尝试纠正此问题的控制系统的演示：https://app.elodin.systems/sandbox/ hn/cube-sat航天器不喜欢翻滚：部署太阳能电池板和天线可能不起作用，做任何有价值的事情都是不可能的。那么你该怎么办呢？您将为卫星配备反作用轮（或磁力矩器），但现在您遇到了第二个问题。您向反应轮发送什么命令？我们创建了 Elodin 来帮助解决此类问题。这些问题完全属于 GNC（制导、导航和控制）工程师的范畴；传统上，它们是通过 MatLab / Simulink、一堆 Python 脚本和/或 Gazebo 或 Basilisk 等工具来解决的。在为深空任务构建飞行软件时，我尝试了所有这些工具，但并不喜欢它们。特别是，我发现在云中运行蒙特卡罗模拟非常痛苦。因此我们着手构建一个更好的物理模拟框架。您可以将其称为“物理张量流”。这个名称之所以合适有两个原因：我们使用 XLA 来加速您的数学计算，并且我们构建了一个可扩展框架来创建新的物理引擎。大多数物理引擎都是固定功能的。例如，类似 MuJoCo (https://mujoco.readthedocs.io/en/stable/ overview.html）非常适合传统机器人，但 GMAT（https:// gmat.atlassian.net/wiki/spaces/GW/overview）对于轨道分析要好得多。没有一个物理引擎可以解决所有问题，并且很难集成多个引擎。我们的框架可让您轻松编写不同的物理算法。太空已经够难的了——我们不要让软件让它变得比实际需要的更难！我们仍处于构建堆栈的早期阶段，因此我们很高兴听到您的任何反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39622006
+积分：60
+# 条评论：21]]></description>
+      <guid>https://github.com/elodin-sys/elodin</guid>
+      <pubDate>Wed, 06 Mar 2024 21:44:40 GMT</pubDate>
+    </item>
     <item>
       <title>Eqtble (YC W21) 正在招聘一名创始客户经理</title>
       <link>https://app.dover.io/apply/8dad4c3d-075e-4164-9a75-6e8f4f9f9902/8d97d6d2-d770-478b-93f3-113431385411/?rs=15190316</link>
@@ -16,95 +78,35 @@
       <pubDate>Wed, 06 Mar 2024 21:01:09 GMT</pubDate>
     </item>
     <item>
+      <title>在命令行上显示 HN：技术职位</title>
+      <link>https://github.com/nicobrenner/commandjobs</link>
+      <description><![CDATA[嗨，HN！我是尼科，最近我一直在努力寻找工作。我特别沮丧的是，我不得不花几个小时阅读列表才能找到合适的匹配项。因此，我构建了一些东西来解决自己的问题：Command Jobs，一个基于终端的工作查找器和应用程序跟踪器，专为我（也许还有软件工程师）设计该应用程序抓取网络列表，保存它们，并使用GPT[1]，然后根据您的简历和工作偏好，它为您提供最佳匹配这是我的第一个开源项目，也是我使用 LLM 的第一个公共项目我真的很高兴分享这个与 HN 社区合作，并希望听到您的反馈、建议以及您希望在未来看到的任何功能。请查看并告诉我您的想法！https://github.com/nicobrenner/commandjobs我目前正在努力添加更多职位列表来源、通过 cronjobs 定期抓取以及新匹配提醒期待您的问题、反馈和请求。谢谢[1]：自带 (OpenAPI) 密钥
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39621373
+积分：8
+# 条评论：6]]></description>
+      <guid>https://github.com/nicobrenner/commandjobs</guid>
+      <pubDate>Wed, 06 Mar 2024 20:59:59 GMT</pubDate>
+    </item>
+    <item>
       <title>我们入侵了 Google A.I.</title>
       <link>https://www.landh.tech/blog/20240304-google-hack-50000/</link>
       <description><![CDATA[文章网址：https://www.landh.tech/blog/20240304-google-hack -50000/
 评论网址：https://news.ycombinator.com/item?id=39620608
-积分：54
-# 条评论：4]]></description>
+积分：178
+# 条评论：26]]></description>
       <guid>https://www.landh.tech/blog/20240304-google-hack-50000/</guid>
       <pubDate>Wed, 06 Mar 2024 20:00:11 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN: dockerc – Docker 镜像到静态可执行文件“编译器”</title>
+      <title>Show HN: dockerc – Docker 镜像到静态可执行文件“编译器”</title>
       <link>https://github.com/NilsIrl/dockerc</link>
       <description><![CDATA[文章网址：https://github.com/NilsIrl/dockerc
 评论网址：https://news.ycombinator.com/item?id=39620540
-积分：13
-# 条评论：1]]></description>
+积分：135
+# 条评论：35]]></description>
       <guid>https://github.com/NilsIrl/dockerc</guid>
       <pubDate>Wed, 06 Mar 2024 19:55:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>抽象泄漏法则 (2002)</title>
-      <link>https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/</link>
-      <description><![CDATA[文章网址：https://www.joelonsoftware.com/2002 /11/11/泄漏抽象法则/
-评论网址：https://news.ycombinator.com/item?id=39620422
-积分：36
-# 条评论：11]]></description>
-      <guid>https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/</guid>
-      <pubDate>Wed, 06 Mar 2024 19:47:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>检测您安装的 Chrome 扩展程序何时更改了所有者</title>
-      <link>https://github.com/classvsoftware/under-new-management</link>
-      <description><![CDATA[文章网址：https://github.com/classvsoftware/under-new-management
-评论网址：https://news.ycombinator.com/item?id=39620060
-积分：121
-# 条评论：63]]></description>
-      <guid>https://github.com/classvsoftware/under-new-management</guid>
-      <pubDate>Wed, 06 Mar 2024 19:21:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>您不需要专用的缓存服务 – PostgreSQL 作为缓存 (2023)</title>
-      <link>https://martinheinz.dev/blog/105</link>
-      <description><![CDATA[文章网址：https://martinheinz.dev/blog/105
-评论网址：https://news.ycombinator.com/item?id=39619204
-积分：52
-# 条评论：40]]></description>
-      <guid>https://martinheinz.dev/blog/105</guid>
-      <pubDate>Wed, 06 Mar 2024 18:27:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ultra Librarian 加入 Flux 解决硬件难题</title>
-      <link>https://www.flux.ai/blog/ultra-librarian-joins-flux-to-take-the-hard-out-of-hardware</link>
-      <description><![CDATA[文章网址：https:// www.flux.ai/blog/ultra-librarian-joins-flux-to-take-the-hard-out-of-hardware
-评论网址：https://news.ycombinator.com/item?id=39619196
-积分：35
-# 条评论：14]]></description>
-      <guid>https://www.flux.ai/blog/ultra-librarian-joins-flux-to-take-the-hard-out-of-hardware</guid>
-      <pubDate>Wed, 06 Mar 2024 18:27:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：果糖，LLM 调用为强类型函数</title>
-      <link>https://github.com/bananaml/fructose</link>
-      <description><![CDATA[嗨，HN！来自 Banana（以前的无服务器 GPU 平台）的 Erik 很高兴向您展示我们接下来的工作：FructoseFructose 是一个 Python 包，用于将 LLM 作为强类型函数调用。它使用函数类型签名来指导生成并保证正确键入的输出，无论请求的是什么基本/复杂的 python 数据类型。通过保证输出结构，我们相信这将能够构建更复杂的应用程序，将代码与 LLM 交织在一起代码。目前，我们已经将 Fructose 作为仅客户端库提供，只需使用 json 模式调用 gpt-4（默认情况下），非常简单，与 marvin 和 coach 等其他包没有什么不同，但我们也在开发自己的轻量级库我们将托管和/或分发给客户端的格式化模型，以帮助减少代币消耗并提高准确性。我们认为，现在就是向大家展示我们正在努力的事情的时候了！欢迎提问、赞美和批评。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39619053
-积分：93
-# 条评论：55]]></description>
-      <guid>https://github.com/bananaml/fructose</guid>
-      <pubDate>Wed, 06 Mar 2024 18:17:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Airplane.dev 的终结</title>
-      <link>https://yolken.net/blog/end-of-airplanedev</link>
-      <description><![CDATA[文章网址：https://yolken.net/blog/end-of-airplanedev
-评论网址：https://news.ycombinator.com/item?id=39619041
-积分：224
-# 条评论：52]]></description>
-      <guid>https://yolken.net/blog/end-of-airplanedev</guid>
-      <pubDate>Wed, 06 Mar 2024 18:16:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>FDA 批准首个非处方连续血糖监测仪</title>
-      <link>https://www.fda.gov/news-events/press-announcements/fda-clears-first-over-counter-continuous-glucose-monitor</link>
-      <description><![CDATA[文章网址：https:// www.fda.gov/news-events/press-announcements/fda-clears-first-over-counter-continuous-glucose-monitor
-评论网址：https://news.ycombinator.com/item?id=39618822
-积分：255
-# 条评论：145]]></description>
-      <guid>https://www.fda.gov/news-events/press-announcements/fda-clears-first-over-counter-continuous-glucose-monitor</guid>
-      <pubDate>Wed, 06 Mar 2024 18:03:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
