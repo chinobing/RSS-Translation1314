@@ -4,14 +4,95 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 08 Mar 2024 15:14:23 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2024 18:18:04 GMT</lastBuildDate>
+    <item>
+      <title>Airbnb 对加拿大住房业的毁灭性影响</title>
+      <link>https://thewalrus.ca/airbnbs-canadian-housing/</link>
+      <description><![CDATA[文章网址：https://thewalrus.ca/airbnbs-canadian-housing/
+评论网址：https://news.ycombinator.com/item?id=39643447
+积分：62
+评论数：94]]></description>
+      <guid>https://thewalrus.ca/airbnbs-canadian-housing/</guid>
+      <pubDate>Fri, 08 Mar 2024 17:33:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>勒德分子可以教给我们什么关于抵制自动化的未来</title>
+      <link>https://www.technologyreview.com/2024/02/28/1088262/luddites-resisting-automated-future-technology/</link>
+      <description><![CDATA[文章网址：https://www.technologyreview.com /2024/02/28/1088262/勒德分子抵制自动化未来技术/
+评论网址：https://news.ycombinator.com/item?id=39643168
+积分：7
+# 条评论：2]]></description>
+      <guid>https://www.technologyreview.com/2024/02/28/1088262/luddites-resisting-automated-future-technology/</guid>
+      <pubDate>Fri, 08 Mar 2024 17:10:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: Hatchet – 开源分布式任务队列</title>
+      <link>https://github.com/hatchet-dev/hatchet</link>
+      <description><![CDATA[您好，HN，我们是来自 Hatchet (https://hatchet.run) 的 Gabe 和 Alexander，我们正在开发一个开放的-源，分布式任务队列。它是 Python 版 Celery 和 Node.js 版 BullMQ 等工具的替代品，主要关注可靠性和可观察性。它使用 Postgres 作为底层队列。为什么要构建另一个托管队列？我们希望构建具有完整事务排队优势的东西 - 特别是对于依赖的 DAG 式执行 - 并且强烈认为 Postgres 比大多数替代方案更好地解决了 99.9% 的排队用例（Celery 使用 Redis 或 RabbitMQ 作为代理， BullMQ 使用 Redis）。自从引入 SKIP LOCKED 以及最近 PG 版本的里程碑（例如主动-主动复制）以来，跨多个区域水平扩展 Postgres 以及垂直扩展至 10k TPS 或更高变得更加可行。许多队列（如 BullMQ）都是基于 Redis 构建的，如果不小心的话，在发生 OOM 时可能会发生数据丢失，而使用 PG 有助于避免一整类问题。我们还想要一些更易于使用的东西，并且为应用程序开发人员进行调试。很多时候，构建任务可观察性的负担落在基础设施/平台团队身上（例如，要求基础设施团队根据导出的舞会指标为其任务构建 Grafana 视图）。我们将这种类型的可观察性直接构建到 Hatchet 中。“分布式”是什么意思？您可以跨多个虚拟机、集群和区域运行工作线程（运行任务的实例）——它们通过与 Hatchet 队列的长期 gRPC 连接来远程调用。我们尝试优化延迟，将任务启动时间缩短至 25-50 毫秒，并且路线图上还有更多优化。我们还支持您期望的许多额外功能，例如重试、超时、 cron 计划、相关任务。我们目前正在做的一些事情 - 我们使用 RabbitMQ（令人困惑，是的）在引擎组件之间进行发布/订阅，并且更愿意只使用 Postgres，但不想在交换逻辑上花费额外的时间，直到我们构建了一个稳定的底层队列。我们还在考虑使用 NATS 进行引擎-引擎和引擎-工作人员连接。我们非常感谢您提供的任何反馈，并希望您有机会尝试 Hatchet。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39643136
+积分：28
+# 条评论：15]]></description>
+      <guid>https://github.com/hatchet-dev/hatchet</guid>
+      <pubDate>Fri, 08 Mar 2024 17:07:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>VS Code：LLM 的提示编辑器（GPT4、Llama、Mistral 等）</title>
+      <link>https://marketplace.visualstudio.com/items?itemName=lastmile-ai.vscode-aiconfig</link>
+      <description><![CDATA[文章网址：https://marketplace.visualstudio.com/items?itemName=lastmile- ai.vscode-aiconfig
+评论网址：https://news.ycombinator.com/item?id=39643057
+积分：30
+# 条评论：7]]></description>
+      <guid>https://marketplace.visualstudio.com/items?itemName=lastmile-ai.vscode-aiconfig</guid>
+      <pubDate>Fri, 08 Mar 2024 17:00:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>神秘的社交媒体帐户教育大会如何开展工作</title>
+      <link>https://www.politico.com/news/magazine/2024/03/08/the-uk-college-student-explaining-congressional-procedure-to-washington-00145314</link>
+      <description><![CDATA[文章网址：https://www.politico.com/news/magazine/2024/03/08/the-uk-college-student-explaining-congressional-procedure-to-washington-00145314
+评论网址：https://news.ycombinator.com/item?id=39642920
+积分：29
+# 条评论：0]]></description>
+      <guid>https://www.politico.com/news/magazine/2024/03/08/the-uk-college-student-explaining-congressional-procedure-to-washington-00145314</guid>
+      <pubDate>Fri, 08 Mar 2024 16:49:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>越来越多的医生通过收取费用来回复患者的信息</title>
+      <link>https://www.wsj.com/health/wellness/doctor-medical-bills-email-37005e32</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/health/wellness/医生-医疗账单-电子邮件-37005e32
+评论网址：https://news.ycombinator.com/item?id=39642851
+积分：39
+# 条评论：72]]></description>
+      <guid>https://www.wsj.com/health/wellness/doctor-medical-bills-email-37005e32</guid>
+      <pubDate>Fri, 08 Mar 2024 16:44:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国宇航局公布了前往木星卫星欧罗巴的消息设计</title>
+      <link>https://www.jpl.nasa.gov/news/nasa-unveils-design-for-message-heading-to-jupiters-moon-europa</link>
+      <description><![CDATA[文章网址：https:// www.jpl.nasa.gov/news/nasa-unveils-design-for-message-heading-to-jupiters-moon-europa
+评论网址：https://news.ycombinator.com/item?id=39642671
+积分：20
+# 条评论：8]]></description>
+      <guid>https://www.jpl.nasa.gov/news/nasa-unveils-design-for-message-heading-to-jupiters-moon-europa</guid>
+      <pubDate>Fri, 08 Mar 2024 16:28:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>超导丑闻：物理实验室欺骗的内幕</title>
+      <link>https://www.nature.com/articles/d41586-024-00716-2</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-024-00716- 2
+评论网址：https://news.ycombinator.com/item?id=39642135
+积分：39
+# 条评论：21]]></description>
+      <guid>https://www.nature.com/articles/d41586-024-00716-2</guid>
+      <pubDate>Fri, 08 Mar 2024 15:46:34 GMT</pubDate>
+    </item>
     <item>
       <title>治理 Cloudflare 办公室的混乱</title>
       <link>https://blog.cloudflare.com/harnessing-office-chaos</link>
       <description><![CDATA[文章网址：https://blog.cloudflare.com/harnessing-office-chaos
 评论网址：https://news.ycombinator.com/item?id=39641475
-积分：4
-# 条评论：0]]></description>
+积分：77
+# 条评论：29]]></description>
       <guid>https://blog.cloudflare.com/harnessing-office-chaos</guid>
       <pubDate>Fri, 08 Mar 2024 14:43:34 GMT</pubDate>
     </item>
@@ -20,91 +101,10 @@
       <link>https://blog.izissise.net/posts/initramfs/</link>
       <description><![CDATA[文章网址：https://blog.izissise.net/posts/initramfs/
 评论网址：https://news.ycombinator.com/item?id=39641322
-积分：11
-# 条评论：4]]></description>
+积分：61
+# 条评论：19]]></description>
       <guid>https://blog.izissise.net/posts/initramfs/</guid>
       <pubDate>Fri, 08 Mar 2024 14:28:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>石油和肉类捕捞导致深海鲨鱼和鳐鱼灭绝</title>
-      <link>https://www.science.org/doi/10.1126/science.ade9121</link>
-      <description><![CDATA[文章网址：https://www.science.org/doi/10.1126/science.ade9121
-评论网址：https://news.ycombinator.com/item?id=39641113
-积分：5
-# 条评论：0]]></description>
-      <guid>https://www.science.org/doi/10.1126/science.ade9121</guid>
-      <pubDate>Fri, 08 Mar 2024 14:01:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>启动 HN：Relari (YC W24) – 找出 LLM 应用程序中问题的根本原因</title>
-      <link>https://news.ycombinator.com/item?id=39641105</link>
-      <description><![CDATA[您好，HN，我们是 Relari 的创始人，该公司是 Continuous-eval 背后的公司 (https://github.com/ relari-ai/continuous-eval），一个评估框架，可让您在组件级别测试 GenAI 系统，查明问题的根源。当我们为银行家。当我们添加组件时，我们的 RAG 管道变得更加复杂：查询分类器（用于分类用户意图）、多个检索器（用于从不同来源获取信息）、过滤 LLM（用于重新排序/压缩上下文）、计算器代理（用于调用财务函数），最后合成器 LLM 给出了答案。对于我们添加的每一项，确保可靠性都变得更加困难。当我们的答案评估器检测到不良响应时，我们必须回溯多个步骤以了解哪个组件犯了错误。但这很快就变得无法扩展到几个样本之外。我完成了博士学位。在自动驾驶汽车的故障检测方面，我发现自动驾驶软件的复杂性与当今的法学硕士管道之间有很强的相似之处。在自动驾驶系统中，传感器、感知、预测、规划和控制模块都链接在一起。为了确保系统级安全，我们使用细粒度指标来单独衡量每个模块的性能。当车辆做出意外决定时，我们使用这些指标将问题查明到特定组件。只有这样，我们才能有针对性地进行改进，系统性地进行改进。基于这样的思考，我们为自己开发了Continuation-Eval的第一个版本。从那时起，我们使其更加灵活，以适应各种类型的 GenAI 管道。 Continuous-eval 允许您（以编程方式）描述管道和模块，并为每个模块选择指标。我们开发了 30 多个指标，涵盖检索、文本生成、代码生成、分类、代理工具使用等。现在有许多公司使用我们来测试复杂的管道，如财务副驾驶、企业搜索、编码代理等。举个例子，一位客户试图了解为什么他们的 RAG 系统在趋势分析查询方面表现不佳。通过连续评估，他们意识到“检索器”组件检索了 80% 以上的所有相关块，但过滤掉“不相关”上下文的“重新排序器”组件将其降至 50% 以下。这使他们能够解决问题，在他们的例子中，通过跳过某些查询的重新排名器。我们还构建了集成指标，这些指标在预测用户反馈方面做得非常好。用户通常通过对答案的好坏程度给予“向上/向下”的评价来评价法学硕士生成的答案。我们根据这些用户数据训练自定义指标，然后使用这些指标来生成对未来法学硕士答案的赞成/反对评级。结果与用户所说的相符 90%。这为开发人员提供了从生产数据到离线测试和开发的反馈循环。一些客户发现这是我们最独特的优势。最后，为了充分利用评估，您应该使用多样化的数据集 - 最好带有真实标签，以进行全面且一致的评估。由于手动管理地面实况标签既昂贵又耗时，因此我们还拥有一个合成数据生成管道，可让您快速入门。在这里尝试一下 (https://www.relari.ai/#synthetic_data_demo)您有测试和迭代 LLM 应用程序的经验吗？请告诉我们您对我们的方法（模块化框架、利用用户反馈、使用合成数据进行测试）的想法和反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39641105
-积分：6
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=39641105</guid>
-      <pubDate>Fri, 08 Mar 2024 14:00:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>家庭实验室初学者指南</title>
-      <link>https://linuxblog.io/home-lab-beginners-guide-hardware/</link>
-      <description><![CDATA[文章网址：https://linuxblog.io/home-lab-beginners-guide-hardware/&lt; /a&gt;
-评论网址：https://news.ycombinator.com/item?id=39640992
-积分：90
-# 条评论：27]]></description>
-      <guid>https://linuxblog.io/home-lab-beginners-guide-hardware/</guid>
-      <pubDate>Fri, 08 Mar 2024 13:47:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>空客电动空中出租车首次亮相</title>
-      <link>https://www.airbus.com/en/newsroom/press-releases/2024-03-cityairbus-nextgen-makes-its-debut</link>
-      <description><![CDATA[文章网址：https://www. airbus.com/en/newsroom/press-releases/2024-03-cityairbus-nextgen-makes-its-debut
-评论网址：https://news.ycombinator.com/item?id=39640857
-积分：4
-# 条评论：0]]></description>
-      <guid>https://www.airbus.com/en/newsroom/press-releases/2024-03-cityairbus-nextgen-makes-its-debut</guid>
-      <pubDate>Fri, 08 Mar 2024 13:32:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>公司继续从欧盟向较贫穷国家出口毒死蜱</title>
-      <link>https://unearthed.greenpeace.org/2023/03/28/eu-banned-pesticide-global-south/</link>
-      <description><![CDATA[文章网址：https://unearthed.greenpeace.org/2023 /03/28/eu-banned-pesticide-global-south/
-评论网址：https://news.ycombinator.com/item?id=39640422
-积分：49
-# 条评论：21]]></description>
-      <guid>https://unearthed.greenpeace.org/2023/03/28/eu-banned-pesticide-global-south/</guid>
-      <pubDate>Fri, 08 Mar 2024 12:25:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>二战：失败的小说家成为德国间谍，组建了一个假间谍网络</title>
-      <link>https://en.wikipedia.org/wiki/Juan_Pujol_Garc%C3%ADa</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Juan_Pujol_Garc%C3%ADa
-评论网址：https://news.ycombinator.com/item?id=39640303&gt;
-积分：53
-# 条评论：24]]></description>
-      <guid>https://en.wikipedia.org/wiki/Juan_Pujol_Garc%C3%ADa</guid>
-      <pubDate>Fri, 08 Mar 2024 12:05:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ribbon Health (YC S17) 正在招聘一名网页抓取技术主管</title>
-      <link>https://www.ribbonhealth.com/open-roles?gh_jid=5118848004</link>
-      <description><![CDATA[文章网址：https://www.ribbonhealth.com/open-roles?gh_jid=5118848004
-评论网址：https://news.ycombinator.com/item?id=39640274
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ribbonhealth.com/open-roles?gh_jid=5118848004</guid>
-      <pubDate>Fri, 08 Mar 2024 12:00:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>大英图书馆网络事件回顾 [pdf]</title>
-      <link>https://www.bl.uk/home/british-library-cyber-incident-review-8-march-2024.pdf</link>
-      <description><![CDATA[文章网址：https://www.bl。 uk/home/british-library-cyber-incident-review-8-march-2024.pdf
-评论网址：https://news.ycombinator.com/item?id=39640190
-积分：68
-# 条评论：38]]></description>
-      <guid>https://www.bl.uk/home/british-library-cyber-incident-review-8-march-2024.pdf</guid>
-      <pubDate>Fri, 08 Mar 2024 11:45:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
