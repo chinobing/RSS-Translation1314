@@ -4,108 +4,106 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 08 Mar 2024 00:57:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2024 03:14:59 GMT</lastBuildDate>
     <item>
-      <title>Inflection-2.5：遇见最好的个人AI</title>
-      <link>https://inflection.ai/inflection-2-5</link>
-      <description><![CDATA[文章网址：https://inflection.ai/inflection-2-5
-评论网址：https://news.ycombinator.com/item?id=39635950
-积分：16
-# 条评论：3]]></description>
-      <guid>https://inflection.ai/inflection-2-5</guid>
-      <pubDate>Thu, 07 Mar 2024 23:33:50 GMT</pubDate>
+      <title>模仿禁食饮食会产生表明年龄和疾病风险降低的标记</title>
+      <link>https://www.nature.com/articles/s41467-024-45260-9</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41467-024-45260- 9
+评论网址：https://news.ycombinator.com/item?id=39637216
+积分：5
+# 条评论：0]]></description>
+      <guid>https://www.nature.com/articles/s41467-024-45260-9</guid>
+      <pubDate>Fri, 08 Mar 2024 02:37:15 GMT</pubDate>
     </item>
     <item>
-      <title>Grats：构建 TypeScript GraphQL 服务器的更愉快的方式</title>
-      <link>https://jordaneldredge.com/blog/grats/</link>
-      <description><![CDATA[文章网址：https://jordaneldredge.com/blog/grats/
-评论网址：https://news.ycombinator.com/item?id=39635014
-积分：45
-# 条评论：23]]></description>
-      <guid>https://jordaneldredge.com/blog/grats/</guid>
-      <pubDate>Thu, 07 Mar 2024 21:54:18 GMT</pubDate>
+      <title>国际空间站电池重返地球大气层</title>
+      <link>https://www.esa.int/Space_Safety/Space_Debris/Reentry_of_International_Space_Station_ISS_batteries_into_Earth_s_atmosphere</link>
+      <description><![CDATA[文章网址：https://www.esa.int/Space_Safety/Space_Debris/Reentry_of_International_Space_Station_ISS_batteries_into_Earth_s_atmosphere
+评论网址：https://news.ycombinator.com/item?id=39636991
+积分：40
+# 条评论：12]]></description>
+      <guid>https://www.esa.int/Space_Safety/Space_Debris/Reentry_of_International_Space_Station_ISS_batteries_into_Earth_s_atmosphere</guid>
+      <pubDate>Fri, 08 Mar 2024 02:01:10 GMT</pubDate>
     </item>
     <item>
-      <title>新编程模型的诞生</title>
-      <link>https://stealthrocket.tech/blog/genesis-of-a-new-programming-model/</link>
-      <description><![CDATA[文章网址：https://stealthrocket.tech/blog/genesis-of-a -新编程模型/
-评论网址：https://news.ycombinator.com/item?id=39634756
-积分：27
-# 条评论：11]]></description>
-      <guid>https://stealthrocket.tech/blog/genesis-of-a-new-programming-model/</guid>
-      <pubDate>Thu, 07 Mar 2024 21:25:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Continue (YC S23) 正在旧金山招聘一名创始工程师</title>
-      <link>https://www.ycombinator.com/companies/continue/jobs/smcxRnM-founding-engineer</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/continue/jobs/ smcxRnM-创始工程师
-评论网址：https://news.ycombinator.com/item?id=39634519
+      <title>Imbue（以前称为 General Intelligence）（YC S17）正在招聘一名系统工程师</title>
+      <link>https://news.ycombinator.com/item?id=39636569</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=39636569
 积分：0
 # 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/continue/jobs/smcxRnM-founding-engineer</guid>
-      <pubDate>Thu, 07 Mar 2024 21:00:39 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=39636569</guid>
+      <pubDate>Fri, 08 Mar 2024 01:03:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Manta – FPGA 调试和快速原型设计工具</title>
+      <link>https://fischermoseley.github.io/manta/</link>
+      <description><![CDATA[嗨，HN！我是 Fischer，我很高兴能分享一个我已经工作了一年多的项目：Manta，一个开源、跨平台、独立于供应商的工具，用于调试和快速原型设计FPGA。这最初是我在麻省理工学院的硕士论文，我为 FPGA 设计课程开发了它。我们需要供应商调试工具的替代方案，该工具仅支持运行 Windows 或 Linux 的 x86 计算机。我们能够通过虚拟机修补 macOS 支持，但随着越来越多的学生带来基于 ARM 的设备，我们需要一个新工具。所以我开发了这个工具。它叫做 Manta，我刚刚发布了 v1.0.0。它是使用 Amaranth HDL 用 Python 编写的，这使得它几乎可以在任何机器上运行，并导出与供应商无关的 Verilog-2001。它允许您读取和写入 FPGA 上的任意寄存器和内存，并提供集成逻辑分析仪。它是模块化的，因此只要您有 UART 或以太网连接到 FPGA，您就可以以任意组合使用任意数量的这些功能。下一步是添加对更高级接口（如 Wishbone）的支持， AXI、AHB 和 Avalon。甚至可能添加一个 Web UI，以便使用浏览器中的逻辑分析仪进行调试。或者偷看和戳各个寄存器。或者发出任意 AHB3 交易。我非常想听听您对该工具的想法！如果您想尝试一下，请成为我的客人:)
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39636469
+积分：16
+# 条评论：1]]></description>
+      <guid>https://fischermoseley.github.io/manta/</guid>
+      <pubDate>Fri, 08 Mar 2024 00:49:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>地铁站和换乘</title>
+      <link>http://stations.albertguillaumes.cat/</link>
+      <description><![CDATA[文章网址：http://stations.albertguillaumes.cat/
+评论网址：https://news.ycombinator.com/item?id=39636259
+积分：20
+# 条评论：2]]></description>
+      <guid>http://stations.albertguillaumes.cat/</guid>
+      <pubDate>Fri, 08 Mar 2024 00:20:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何成为一名盗版档案管理员 (2022)</title>
+      <link>https://annas-blog.org/blog-how-to-become-a-pirate-archivist.html</link>
+      <description><![CDATA[文章网址：https://annas-blog.org/blog-如何成为海盗档案管理员.html
+评论网址：https://news.ycombinator.com/item?id=39635743
+积分：30
+# 条评论：8]]></description>
+      <guid>https://annas-blog.org/blog-how-to-become-a-pirate-archivist.html</guid>
+      <pubDate>Thu, 07 Mar 2024 23:06:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>双子座和克劳德斯要杀死RAG？</title>
+      <link>https://zilliz.com/blog/will-retrieval-augmented-generation-RAG-be-killed-by-long-context-LLMs</link>
+      <description><![CDATA[文章网址：https://zilliz。 com/blog/will-retrieval-augmented- Generation-RAG-be-killed-by-long-context-LLM
+评论网址：https://news.ycombinator.com/item?id=39635202
+积分：22
+# 条评论：14]]></description>
+      <guid>https://zilliz.com/blog/will-retrieval-augmented-generation-RAG-be-killed-by-long-context-LLMs</guid>
+      <pubDate>Thu, 07 Mar 2024 22:13:33 GMT</pubDate>
     </item>
     <item>
       <title>灯泡钟的生与死</title>
       <link>https://ironicsans.beehiiv.com/p/life-death-bulbdial-clock</link>
       <description><![CDATA[文章网址：https://ironicsans.beehiiv.com/p/life-death-bulbdial-时钟
 评论网址：https://news.ycombinator.com/item?id=39634195
-积分：12
-# 条评论：1]]></description>
+积分：39
+# 条评论：3]]></description>
       <guid>https://ironicsans.beehiiv.com/p/life-death-bulbdial-clock</guid>
       <pubDate>Thu, 07 Mar 2024 20:26:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>WhatsApp 消息互操作性</title>
-      <link>https://developers.facebook.com/m/messaging-interoperability/</link>
-      <description><![CDATA[文章网址：https://developers.facebook.com/m/messaging-interoperability/&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=39633936
-积分：123
-评论数：84]]></description>
-      <guid>https://developers.facebook.com/m/messaging-interoperability/</guid>
-      <pubDate>Thu, 07 Mar 2024 20:02:42 GMT</pubDate>
     </item>
     <item>
       <title>社交学习：利用大型语言模型进行协作学习</title>
       <link>https://blog.research.google/2024/03/social-learning-collaborative-learning.html?m=1</link>
       <description><![CDATA[文章网址：https://blog.research.google/ 2024/03/social-learning-collaborative-learning.html?m=1
 评论网址：https://news.ycombinator.com/item?id=39633580
-积分：34
+积分：41
 # 条评论：5]]></description>
       <guid>https://blog.research.google/2024/03/social-learning-collaborative-learning.html?m=1</guid>
       <pubDate>Thu, 07 Mar 2024 19:30:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>玛丽亚·西比拉·梅里安 (Maria Sibylla Merian) 的《苏里南昆虫的变形》(1705)</title>
-      <link>https://publicdomainreview.org/collection/merian-metamorphosis/</link>
-      <description><![CDATA[文章网址：https://publicdomainreview.org/collection/merian-metamorphosis/
-评论网址：https://news.ycombinator.com/item?id=39633311
-积分：21
-# 条评论：1]]></description>
-      <guid>https://publicdomainreview.org/collection/merian-metamorphosis/</guid>
-      <pubDate>Thu, 07 Mar 2024 19:11:33 GMT</pubDate>
     </item>
     <item>
       <title>计算机如何计算正弦？</title>
       <link>https://androidcalculator.com/how-do-calculators-compute-sine/</link>
       <description><![CDATA[文章网址：https://androidcalculator.com/how-do-calculators-compute-sine/&lt; /a&gt;
 评论网址：https://news.ycombinator.com/item?id=39633172
-积分：91
-评论数量：95]]></description>
+积分：118
+# 条评论：112]]></description>
       <guid>https://androidcalculator.com/how-do-calculators-compute-sine/</guid>
       <pubDate>Thu, 07 Mar 2024 18:59:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>推出 HN：SiLogy (YC W24) – 云端芯片设计和验证</title>
-      <link>https://news.ycombinator.com/item?id=39632872</link>
-      <description><![CDATA[大家好！我们是 SiLogy (https://silogy.io/) 的联合创始人。我们正在构建芯片设计和验证工具，以加快半导体开发周期。这是一个演示：https://www.youtube.com/watch?v=u0wAegt79EA 由于人工智能的需求和摩尔定律的预测衰退，人们对设计新芯片的兴趣正在增长。所有这些芯片都需要进行模拟测试。由于可能的状态数量随着芯片的复杂性呈指数增长，因此验证的需求呈爆炸式增长。芯片开发人员已经花费了 70% 的时间进行测试。 （请观看有关“验证差距”的视频：https://www.youtube.com/watch? v=rtaaOdGuMCc)。工具没有跟上。协作调试的最先进技术是走到同事的办公桌前指出日志文件或波形文件中的错误。每家芯片公司都会推出自己的工具和基础设施来解决这个问题——这是凯（我们的联合创始人之一）在他最后一份工作中的全部工作。但他们想在芯片上工作，而不是开发工具！他们提出的解决方案往往是不充分且令人沮丧的。这就是我们启动 SiLogy 的原因。SiLogy 是一款用于管理整个数字验证工作流程的网络应用程序。 （“数字验证”是指测试设计的逻辑，包括芯片物理设计之前的所有内容。这是验证中最耗时的阶段。）我们结合了三种功能：测试编排并运行：我们产品的核心是一个 CI 工具，它在 Docker 容器中运行 Verilator（一种流行的开源模拟器）。当您推送到存储库或在 UI 中手动触发作业时，我们会安装您的依赖项并将二进制文件编译到 Docker 映像中，然后运行您的测试。您还可以使用 UI 使用自定义参数重新运行单个测试。测试结果和统计信息：我们在网络应用中显示每个测试的日志。我们也在致力于在应用程序中显示波形文件。我们还跟踪每个测试套件中通过和失败的测试，并且我们正在致力于测试趋势的巧妙可视化，以使管理人员感到满意。 :)协作：很快您就可以向日志或波形文件中的特定位置发送链接并留下评论，就像在 Google 文档中一样。与通用 CI 工具，我们专注于与验证工作流程的紧密集成。当断言失败时，我们会向您显示发生断言的源代码。我们正在努力研究波形查看 - 很快您就可以通过单击按钮从失败的测试中生成波形。我们的路线图包括对主要商业模拟器的支持：VCS、Xcelium 和 Questa 。我们还在开发一个基于 Buck2 的测试生成框架，以静态声明提交后运行的测试，或以编程方式生成数千个用于夜间回归的测试。我们计划出售席位，为个人、初创公司提供折扣，和研究实验室（我们正在研究定价）。目前，我们正在开放访客注册，以便 HN 能够体验我们希望的设计验证的未来。我们所知道的很多东西都归功于这个社区，如果有任何反馈，我们将不胜感激。 &lt;3
-您可以在这里注册，如果您不想放弃您的电子邮件，只需按“使用访客电子邮件地址”即可：https://dash .silogy.io/signup/
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39632872
-积分：66
-# 条评论：27]]></description>
-      <guid>https://news.ycombinator.com/item?id=39632872</guid>
-      <pubDate>Thu, 07 Mar 2024 18:38:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
