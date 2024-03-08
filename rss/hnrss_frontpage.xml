@@ -4,7 +4,88 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 08 Mar 2024 12:24:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2024 15:14:23 GMT</lastBuildDate>
+    <item>
+      <title>治理 Cloudflare 办公室的混乱</title>
+      <link>https://blog.cloudflare.com/harnessing-office-chaos</link>
+      <description><![CDATA[文章网址：https://blog.cloudflare.com/harnessing-office-chaos
+评论网址：https://news.ycombinator.com/item?id=39641475
+积分：4
+# 条评论：0]]></description>
+      <guid>https://blog.cloudflare.com/harnessing-office-chaos</guid>
+      <pubDate>Fri, 08 Mar 2024 14:43:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>无根构建 Initramfs</title>
+      <link>https://blog.izissise.net/posts/initramfs/</link>
+      <description><![CDATA[文章网址：https://blog.izissise.net/posts/initramfs/
+评论网址：https://news.ycombinator.com/item?id=39641322
+积分：11
+# 条评论：4]]></description>
+      <guid>https://blog.izissise.net/posts/initramfs/</guid>
+      <pubDate>Fri, 08 Mar 2024 14:28:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>石油和肉类捕捞导致深海鲨鱼和鳐鱼灭绝</title>
+      <link>https://www.science.org/doi/10.1126/science.ade9121</link>
+      <description><![CDATA[文章网址：https://www.science.org/doi/10.1126/science.ade9121
+评论网址：https://news.ycombinator.com/item?id=39641113
+积分：5
+# 条评论：0]]></description>
+      <guid>https://www.science.org/doi/10.1126/science.ade9121</guid>
+      <pubDate>Fri, 08 Mar 2024 14:01:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动 HN：Relari (YC W24) – 找出 LLM 应用程序中问题的根本原因</title>
+      <link>https://news.ycombinator.com/item?id=39641105</link>
+      <description><![CDATA[您好，HN，我们是 Relari 的创始人，该公司是 Continuous-eval 背后的公司 (https://github.com/ relari-ai/continuous-eval），一个评估框架，可让您在组件级别测试 GenAI 系统，查明问题的根源。当我们为银行家。当我们添加组件时，我们的 RAG 管道变得更加复杂：查询分类器（用于分类用户意图）、多个检索器（用于从不同来源获取信息）、过滤 LLM（用于重新排序/压缩上下文）、计算器代理（用于调用财务函数），最后合成器 LLM 给出了答案。对于我们添加的每一项，确保可靠性都变得更加困难。当我们的答案评估器检测到不良响应时，我们必须回溯多个步骤以了解哪个组件犯了错误。但这很快就变得无法扩展到几个样本之外。我完成了博士学位。在自动驾驶汽车的故障检测方面，我发现自动驾驶软件的复杂性与当今的法学硕士管道之间有很强的相似之处。在自动驾驶系统中，传感器、感知、预测、规划和控制模块都链接在一起。为了确保系统级安全，我们使用细粒度指标来单独衡量每个模块的性能。当车辆做出意外决定时，我们使用这些指标将问题查明到特定组件。只有这样，我们才能有针对性地进行改进，系统性地进行改进。基于这样的思考，我们为自己开发了Continuation-Eval的第一个版本。从那时起，我们使其更加灵活，以适应各种类型的 GenAI 管道。 Continuous-eval 允许您（以编程方式）描述管道和模块，并为每个模块选择指标。我们开发了 30 多个指标，涵盖检索、文本生成、代码生成、分类、代理工具使用等。现在有许多公司使用我们来测试复杂的管道，如财务副驾驶、企业搜索、编码代理等。举个例子，一位客户试图了解为什么他们的 RAG 系统在趋势分析查询方面表现不佳。通过连续评估，他们意识到“检索器”组件检索了 80% 以上的所有相关块，但过滤掉“不相关”上下文的“重新排序器”组件将其降至 50% 以下。这使他们能够解决问题，在他们的例子中，通过跳过某些查询的重新排名器。我们还构建了集成指标，这些指标在预测用户反馈方面做得非常好。用户通常通过对答案的好坏程度给予“向上/向下”的评价来评价法学硕士生成的答案。我们根据这些用户数据训练自定义指标，然后使用这些指标来生成对未来法学硕士答案的赞成/反对评级。结果与用户所说的相符 90%。这为开发人员提供了从生产数据到离线测试和开发的反馈循环。一些客户发现这是我们最独特的优势。最后，为了充分利用评估，您应该使用多样化的数据集 - 最好带有真实标签，以进行全面且一致的评估。由于手动管理地面实况标签既昂贵又耗时，因此我们还拥有一个合成数据生成管道，可让您快速入门。在这里尝试一下 (https://www.relari.ai/#synthetic_data_demo)您有测试和迭代 LLM 应用程序的经验吗？请告诉我们您对我们的方法（模块化框架、利用用户反馈、使用合成数据进行测试）的想法和反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39641105
+积分：6
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=39641105</guid>
+      <pubDate>Fri, 08 Mar 2024 14:00:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>家庭实验室初学者指南</title>
+      <link>https://linuxblog.io/home-lab-beginners-guide-hardware/</link>
+      <description><![CDATA[文章网址：https://linuxblog.io/home-lab-beginners-guide-hardware/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=39640992
+积分：90
+# 条评论：27]]></description>
+      <guid>https://linuxblog.io/home-lab-beginners-guide-hardware/</guid>
+      <pubDate>Fri, 08 Mar 2024 13:47:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>空客电动空中出租车首次亮相</title>
+      <link>https://www.airbus.com/en/newsroom/press-releases/2024-03-cityairbus-nextgen-makes-its-debut</link>
+      <description><![CDATA[文章网址：https://www. airbus.com/en/newsroom/press-releases/2024-03-cityairbus-nextgen-makes-its-debut
+评论网址：https://news.ycombinator.com/item?id=39640857
+积分：4
+# 条评论：0]]></description>
+      <guid>https://www.airbus.com/en/newsroom/press-releases/2024-03-cityairbus-nextgen-makes-its-debut</guid>
+      <pubDate>Fri, 08 Mar 2024 13:32:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>公司继续从欧盟向较贫穷国家出口毒死蜱</title>
+      <link>https://unearthed.greenpeace.org/2023/03/28/eu-banned-pesticide-global-south/</link>
+      <description><![CDATA[文章网址：https://unearthed.greenpeace.org/2023 /03/28/eu-banned-pesticide-global-south/
+评论网址：https://news.ycombinator.com/item?id=39640422
+积分：49
+# 条评论：21]]></description>
+      <guid>https://unearthed.greenpeace.org/2023/03/28/eu-banned-pesticide-global-south/</guid>
+      <pubDate>Fri, 08 Mar 2024 12:25:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>二战：失败的小说家成为德国间谍，组建了一个假间谍网络</title>
+      <link>https://en.wikipedia.org/wiki/Juan_Pujol_Garc%C3%ADa</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Juan_Pujol_Garc%C3%ADa
+评论网址：https://news.ycombinator.com/item?id=39640303&gt;
+积分：53
+# 条评论：24]]></description>
+      <guid>https://en.wikipedia.org/wiki/Juan_Pujol_Garc%C3%ADa</guid>
+      <pubDate>Fri, 08 Mar 2024 12:05:14 GMT</pubDate>
+    </item>
     <item>
       <title>Ribbon Health (YC S17) 正在招聘一名网页抓取技术主管</title>
       <link>https://www.ribbonhealth.com/open-roles?gh_jid=5118848004</link>
@@ -16,96 +97,14 @@
       <pubDate>Fri, 08 Mar 2024 12:00:31 GMT</pubDate>
     </item>
     <item>
-      <title>从网络攻击中吸取教训：大英图书馆网络事件回顾 [pdf]</title>
+      <title>大英图书馆网络事件回顾 [pdf]</title>
       <link>https://www.bl.uk/home/british-library-cyber-incident-review-8-march-2024.pdf</link>
       <description><![CDATA[文章网址：https://www.bl。 uk/home/british-library-cyber-incident-review-8-march-2024.pdf
 评论网址：https://news.ycombinator.com/item?id=39640190
-积分：4
-# 条评论：0]]></description>
+积分：68
+# 条评论：38]]></description>
       <guid>https://www.bl.uk/home/british-library-cyber-incident-review-8-march-2024.pdf</guid>
       <pubDate>Fri, 08 Mar 2024 11:45:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>孟买的废墟——星号</title>
-      <link>https://asteriskmag.com/issues/05/the-ruin-of-mumbai</link>
-      <description><![CDATA[文章网址：https://asteriskmag.com/issues/05/the-ruin-of-孟买
-评论网址：https://news.ycombinator.com/item?id=39639903
-积分：16
-# 条评论：1]]></description>
-      <guid>https://asteriskmag.com/issues/05/the-ruin-of-mumbai</guid>
-      <pubDate>Fri, 08 Mar 2024 10:56:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rolldown：用 Rust 编写的 Rollup 兼容捆绑器</title>
-      <link>https://rolldown.rs/</link>
-      <description><![CDATA[文章网址：https://rolldown.rs/
-评论网址：https://news.ycombinator.com/item?id=39639689
-积分：3
-# 条评论：0]]></description>
-      <guid>https://rolldown.rs/</guid>
-      <pubDate>Fri, 08 Mar 2024 10:19:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>ComflowySpace：更好的 ComfyUI 的开源版本</title>
-      <link>https://github.com/6174/comflowyspace</link>
-      <description><![CDATA[文章网址：https://github.com/6174/comflowyspace
-评论网址：https://news.ycombinator.com/item?id=39639418
-积分：3
-# 条评论：1]]></description>
-      <guid>https://github.com/6174/comflowyspace</guid>
-      <pubDate>Fri, 08 Mar 2024 09:27:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：专有软件的开源替代品目录</title>
-      <link>https://openalternative.co</link>
-      <description><![CDATA[嗨，这里是 Piotr我收集优秀的开源公司已经有一段时间了。主要是为了获得一些灵感并从他们的代码中学习。上周，我认为学习每个人都在谈论的 Astro 事情会很有趣。所以我认为用这个集合构建一个目录网站是一个很好的主意。经过 2 天的构建，OpenAlternative 诞生了。这是社区驱动的专有软件和应用程序的开源替代品列表。享受并感谢您的支持！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39639386
-积分：73
-# 条评论：26]]></description>
-      <guid>https://openalternative.co</guid>
-      <pubDate>Fri, 08 Mar 2024 09:21:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>蒂埃里·布雷顿 (Thierry Breton)：在 DMA 下，看门人没有威胁的余地</title>
-      <link>https://twitter.com/ThierryBreton/status/1765793776692326891</link>
-      <description><![CDATA[文章网址：https://twitter.com/ThierryBreton/status/1765793776692326891
-评论网址：https://news.ycombinator.com/item?id=39639253
-积分：73
-# 条评论：32]]></description>
-      <guid>https://twitter.com/ThierryBreton/status/1765793776692326891</guid>
-      <pubDate>Fri, 08 Mar 2024 08:58:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>61号座位上的男人</title>
-      <link>https://www.seat61.com</link>
-      <description><![CDATA[文章网址：https://www.seat61.com
-评论网址：https://news.ycombinator.com/item?id=39639125
-积分：55
-# 条评论：15]]></description>
-      <guid>https://www.seat61.com</guid>
-      <pubDate>Fri, 08 Mar 2024 08:39:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>毒死蜱：与儿童脑损伤有关的杀虫剂</title>
-      <link>https://usrtk.org/pesticides/chlorpyrifos/</link>
-      <description><![CDATA[文章网址：https://usrtk.org/pesticides/Chlorpyrifos/
-评论网址：https://news.ycombinator.com/item?id=39638836
-积分：30
-# 条评论：11]]></description>
-      <guid>https://usrtk.org/pesticides/chlorpyrifos/</guid>
-      <pubDate>Fri, 08 Mar 2024 07:49:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Cylinder HN – 查看趋势黑客新闻并搜索所有内容</title>
-      <link>https://cylinder.doforce.xyz</link>
-      <description><![CDATA[这是一个具有漂亮用户界面的网站，您可以在其中查看和搜索所有黑客新闻故事。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39638676
-积分：14
-# 条评论：6]]></description>
-      <guid>https://cylinder.doforce.xyz</guid>
-      <pubDate>Fri, 08 Mar 2024 07:24:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
