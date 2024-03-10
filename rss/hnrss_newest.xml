@@ -4,114 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 10 Mar 2024 09:14:41 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2024 12:21:58 GMT</lastBuildDate>
     <item>
-      <title>数据女巫的笔记 – Julia 的基础</title>
-      <link>https://blog.djnavarro.net/posts/2024-03-01_julia-foundation/</link>
-      <description><![CDATA[文章网址：https://blog.djnavarro.net/posts/2024-03-01_julia -基础/
-评论网址：https://news.ycombinator.com/item?id=39657744
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blog.djnavarro.net/posts/2024-03-01_julia-foundation/</guid>
-      <pubDate>Sun, 10 Mar 2024 09:07:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>评估机器学习在预测抑郁和焦虑方面的稳定性</title>
-      <link>https://www.mdpi.com/2227-9032/12/6/625</link>
-      <description><![CDATA[文章网址：https://www.mdpi.com/2227-9032/12/6/ 625
-评论网址：https://news.ycombinator.com/item?id=39657736
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.mdpi.com/2227-9032/12/6/625</guid>
-      <pubDate>Sun, 10 Mar 2024 09:05:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：使用 stackblitz webcontainer API 和 vitejs 制作的 React 沙箱</title>
-      <link>https://github.com/chetvishal/webengine</link>
-      <description><![CDATA[文章网址：https://github.com/chetvishal/webengine
-评论网址：https://news.ycombinator.com/item?id=39657734
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/chetvishal/webengine</guid>
-      <pubDate>Sun, 10 Mar 2024 09:05:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple Sidecar 不支持 iPad 触摸屏</title>
-      <link>https://discussions.apple.com/thread/251387399</link>
-      <description><![CDATA[文章网址：https://discussions.apple.com/thread/251387399
-评论网址：https://news.ycombinator.com/item?id=39657727
-积分：1
-# 条评论：0]]></description>
-      <guid>https://discussions.apple.com/thread/251387399</guid>
-      <pubDate>Sun, 10 Mar 2024 09:03:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>实施 CHIPS：NEPA 许可挑战</title>
-      <link>https://www.csis.org/analysis/implementing-chips-nepa-permitting-challenge</link>
-      <description><![CDATA[文章网址：https://www.csis.org/analysis/implementing-chips- nepa 许可挑战
-评论网址：https://news.ycombinator.com/item?id=39657718
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.csis.org/analysis/implementing-chips-nepa-permitting-challenge</guid>
-      <pubDate>Sun, 10 Mar 2024 08:59:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tether、FTX 和 Deltec 银行：Money Time</title>
-      <link>https://amycastor.com/2024/03/09/tether-ftx-and-deltec-bank-money-time/</link>
-      <description><![CDATA[文章网址：https://amycastor.com/2024 /03/09/tether-ftx-and-deltec-bank-money-time/
-评论网址：https://news.ycombinator.com/item?id=39657714
-积分：1
-# 条评论：0]]></description>
-      <guid>https://amycastor.com/2024/03/09/tether-ftx-and-deltec-bank-money-time/</guid>
-      <pubDate>Sun, 10 Mar 2024 08:57:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：使用此脚本简化基于 CMake 的项目的 CI</title>
-      <link>https://github.com/xrootd/xrootd/blob/master/test.cmake</link>
-      <description><![CDATA[这不完全是一个项目，但我认为这足够有用，可以发布在这里。
-这是一个简单的 CMake 脚本，您可以将其放置在您自己的基于 CMake 的项目的顶层，以执行配置/构建/测试周期中繁琐的部分。
-不幸的是，当通过 CTest 运行时，CMake 不会为您设置合理的默认值（其中最烦人的是 CMake 生成器），因此该脚本用于检测所述默认值。
-该脚本也可用作 CDash 仪表板提交程序。它支持以简单的方式启用 clang-tidy、memcheck、覆盖、自定义等。
-如果您想尝试一下，只需将脚本放在项目的顶层，根据需要创建 CTestConfig.cmake 和 .ci/config.cmake （可选），确保在顶层 CMakeLists 中包含（CTest） .txt，然后调用ctest -VV -S test.cmake如果你没有CMake项目来尝试，只需使用XRootD本身。
-有关如何使用此脚本的文档位于：
-https://github.com/xrootd/xrootd/blob/master/docs/TESTING.md&lt; /a&gt;您还可以在此处查看使用此脚本时 GitHub Actions 工作流程的外观：
-https://github.com/xrootd/xrootd/blob/master/.github/工作流程...希望您喜欢！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39657703
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/xrootd/xrootd/blob/master/test.cmake</guid>
-      <pubDate>Sun, 10 Mar 2024 08:55:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>确保欧洲用户与第三方的消息互操作性安全</title>
-      <link>https://engineering.fb.com/2024/03/06/security/whatsapp-messenger-messaging-interoperability-eu/</link>
-      <description><![CDATA[文章网址：https://engineering.fb.com /2024/03/06/security/whatsapp-messenger-messaging-interoperability-eu/
-评论网址：https://news.ycombinator.com/item?id=39657702
-积分：1
-# 条评论：0]]></description>
-      <guid>https://engineering.fb.com/2024/03/06/security/whatsapp-messenger-messaging-interoperability-eu/</guid>
-      <pubDate>Sun, 10 Mar 2024 08:55:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>物理学家发明了评估文本分类信任度的新方法</title>
-      <link>https://journals.aps.org/prper/abstract/10.1103/PhysRevPhysEducRes.20.010113</link>
-      <description><![CDATA[文章网址：https://journals.aps.org/prper/abstract/10.1103/PhysRevPhysEducRes。 20.010113
-评论网址：https://news.ycombinator.com/item?id=39657690
+      <title>日本男性面临身份危机</title>
+      <link>https://www.economist.com/asia/2024/02/22/japanese-men-have-an-identity-crisis</link>
+      <description><![CDATA[文章网址：https://www.economist。 com/asia/2024/02/22/japanese-men-have-an-identity-crisis
+评论网址：https://news.ycombinator.com/item?id=39658453
 积分：2
 # 条评论：0]]></description>
-      <guid>https://journals.aps.org/prper/abstract/10.1103/PhysRevPhysEducRes.20.010113</guid>
-      <pubDate>Sun, 10 Mar 2024 08:52:52 GMT</pubDate>
+      <guid>https://www.economist.com/asia/2024/02/22/japanese-men-have-an-identity-crisis</guid>
+      <pubDate>Sun, 10 Mar 2024 11:56:54 GMT</pubDate>
     </item>
     <item>
-      <title>每个程序员都应该知道的数字</title>
-      <link>https://samwho.dev/numbers/?fo</link>
-      <description><![CDATA[文章网址：https://samwho.dev/numbers/?fo
-评论网址：https://news.ycombinator.com/item?id=39657675
-积分：3
+      <title>许多关于人工智能 x 风险的论点都是错误的</title>
+      <link>https://www.lesswrong.com/posts/yQSmcfN4kA7rATHGK/many-arguments-for-ai-x-risk-are-wrong</link>
+      <description><![CDATA[文章网址：https://www.lesswrong。 com/posts/yQSmcfN4kA7rATHGK/many-arguments-for-ai-x-risk-are-wrong
+评论网址：https://news.ycombinator.com/item?id=39658450
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.lesswrong.com/posts/yQSmcfN4kA7rATHGK/many-arguments-for-ai-x-risk-are-wrong</guid>
+      <pubDate>Sun, 10 Mar 2024 11:56:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>印度最大IPO Paytm的兴衰史</title>
+      <link>https://fortune.com/asia/2024/03/09/paytm-payments-bank-crackdown-rbi-vijay-shekhar-sharma-elections-political-risk/</link>
+      <description><![CDATA[文章网址：https://fortune.com/asia/2024/03/09/paytm- payments-bank-crackdown-rbi-vijay-shekhar-sharma-elections-political-risk/
+评论网址：https://news.ycombinator.com/item?id=39658446
+积分：1
+# 条评论：0]]></description>
+      <guid>https://fortune.com/asia/2024/03/09/paytm-payments-bank-crackdown-rbi-vijay-shekhar-sharma-elections-political-risk/</guid>
+      <pubDate>Sun, 10 Mar 2024 11:56:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>“飞越”山丘或与小狗“玩耍”</title>
+      <link>https://apnews.com/article/virtual-reality-seniors-florida-dementia-c2989fcfb5dca58639fbc0f8060d1eff</link>
+      <description><![CDATA[文章网址：https://apnews.com/article/virtual-reality-seniors-佛罗里达-痴呆-c2989fcfb5dca58639fbc0f8060d1eff
+评论网址：https://news.ycombinator.com/item?id=39658445
+积分：1
+# 条评论：0]]></description>
+      <guid>https://apnews.com/article/virtual-reality-seniors-florida-dementia-c2989fcfb5dca58639fbc0f8060d1eff</guid>
+      <pubDate>Sun, 10 Mar 2024 11:56:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>旧书的必要性</title>
+      <link>https://www.millersbookreview.com/p/vital-necessity-of-very-old-books</link>
+      <description><![CDATA[文章网址：https://www.millersbookreview.com/p/vital-非常古老的书籍的必需品
+评论网址：https://news.ycombinator.com/item?id=39658444
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.millersbookreview.com/p/vital-necessity-of-very-old-books</guid>
+      <pubDate>Sun, 10 Mar 2024 11:55:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过终端实时监控回显您的 MySQL 健康状况</title>
+      <link>https://github.com/charles-001/dolphie</link>
+      <description><![CDATA[文章网址：https://github.com/charles-001/dolphie
+评论网址：https://news.ycombinator.com/item?id=39658441
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/charles-001/dolphie</guid>
+      <pubDate>Sun, 10 Mar 2024 11:55:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>六十四是一个美丽的系统设计玩具，揭示了一些相当黑暗的东西</title>
+      <link>https://arstechnica.com/gaming/2024/03/sixty-four-is-an-idle-clicker-a-factory-sim-and-a-dark-extractive-journey/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/gaming/2024/03/sixty-four-is-an-idle-clicker-a-factory-sim-and-a-dark-extractive-journey/
+评论网址：https://news.ycombinator.com/item?id=39658435
+积分：1
+# 条评论：0]]></description>
+      <guid>https://arstechnica.com/gaming/2024/03/sixty-four-is-an-idle-clicker-a-factory-sim-and-a-dark-extractive-journey/</guid>
+      <pubDate>Sun, 10 Mar 2024 11:54:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：摄影作品集最好的静态网站生成器是什么？</title>
+      <link>https://news.ycombinator.com/item?id=39658431</link>
+      <description><![CDATA[我使用 Squarespace 来支持我的个人网站已经有一段时间了，该网站主要是一个摄影作品集。由于这几乎就是它的全部功能，因此向 Squarespace 支付如此高的费用来为其提供动力是很痛苦的。同时，我整个工作生涯都在与计算机争论如何让它们做事，所以我没有对更多涉及的编码副项目有很大兴趣。有人对非常适合摄影作品集的静态网站生成器有想法或建议吗？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39658431
+积分：2
 # 条评论：1]]></description>
-      <guid>https://samwho.dev/numbers/?fo</guid>
-      <pubDate>Sun, 10 Mar 2024 08:48:45 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=39658431</guid>
+      <pubDate>Sun, 10 Mar 2024 11:54:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Go 切片、删除项和内存使用情况</title>
+      <link>https://medium.com/google-cloud/go-slices-deleting-items-and-memory-usage-81419317db3d</link>
+      <description><![CDATA[文章网址：https://medium.com/google- cloud/go-slices-deleting-items-and-memory-usage-81419317db3d
+评论网址：https://news.ycombinator.com/item?id=39658419
+积分：1
+# 条评论：0]]></description>
+      <guid>https://medium.com/google-cloud/go-slices-deleting-items-and-memory-usage-81419317db3d</guid>
+      <pubDate>Sun, 10 Mar 2024 11:52:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>重新审视确定性密码管理器</title>
+      <link>https://samuellucas.com/2024/02/25/deterministic-password-managers-revisited.html</link>
+      <description><![CDATA[文章网址：https://samuellucas.com/2024/02/25/确定性密码管理器-revisited.html
+评论网址：https://news.ycombinator.com/item?id=39658415
+积分：1
+# 条评论：0]]></description>
+      <guid>https://samuellucas.com/2024/02/25/deterministic-password-managers-revisited.html</guid>
+      <pubDate>Sun, 10 Mar 2024 11:51:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
