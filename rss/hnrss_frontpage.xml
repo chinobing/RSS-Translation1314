@@ -4,7 +4,68 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 11 Mar 2024 12:25:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2024 15:14:35 GMT</lastBuildDate>
+    <item>
+      <title>推出 HN：Onedoc (YC W24) – 创建 PDF 的更好方法</title>
+      <link>https://news.ycombinator.com/item?id=39668962</link>
+      <description><![CDATA[嘿 HN，我们是 Onedoc (https://www.onedoclabs.com/ ) 的联合创始人，并且开源库react-print-pdf的原始贡献者（https://github.com/OnedocLabs/react-print -pdf ），它可以让开发人员自动设计和生成 PDF 文档。以下是演示视频：https://www.youtube.com/watch?v= MgfCyOyckQU&amp;t=3s每天都会生成数十亿个 PDF：发票、合同、收据、报告，应有尽有。由于没有足够好的工具来设计和生成 PDF，开发人员的时间被浪费在生成这些基本文档上。我们以前在大型公司工作过，文档（尤其是 PDF）是大多数工作流程的核心。我们被要求为客户的交易对手生成自动交易确认。除了过时的库之外，我们找不到任何工具对布局和生成过程提供较差的控制。最后，我们创建了自己的——基本上将网络技术引入 PDF。这就是 Onedoc 的起源。PDF 创建分为两个阶段：设计（指定内容和布局）和生成（生成实际的 PDF 文件）。 Onedoc 让您可以简单、自动地完成这两项工作。设计：我们有一个名为“react-print-pdf”的开源库 (https://github.com/OnedocLabs/react-print-pdf ）允许您像设计网站一样设计文档。它支持 Tailwind CSS 组件、Chakra UI 组件，最近还构建了 LaTeX 和 Markdown 组件。后者允许您直接在 React 组件中以 Markdown 风格编写文本，并使用 LaTeX 语法包含公式。生成：我们有一个 API (https://docs.onedoclabs.com/api-reference/introduction ）和 Node.js SDK (https://docs.onedoclabs.com/quickstart/nodejs）将您的设计渲染为 PDF。渲染器的选择会显着影响生成的 PDF 的准确性。例如，将网页导出为 PDF 通常会导致布局与原始网页不同。我们确保您设计的就是您得到的，因此您可以 100% 控制文档的整个布局，包括边距、样式等。我们可以做到这一点，因为我们构建了react-print-pdf 库来匹配 HTML我们拥有 /CSS 到 PDF 渲染工具。生成文档后，您可以将其存储在本地系统上，或者根据需要使用我们的平台 (https://app.onedoclabs.com/ ）在线托管您的文档。如果您使用我们，您还可以对您的文档进行分析。我们的主要产品是 API，但您可以直接在我们的网站上试用 (https://www.onedoclabs.com/）使用我们的游乐场，无需任何安装或注册。我们的定价基于使用情况：每个生成的文档。定价是递减的：您生成的文档越多，每个文档支付的费用就越少。如果您不想为 PDF 生成付费，您仍然可以生成任意数量的文档，但边缘会带有水印。看到我们的用户使用我们的开源库构建的内容非常有趣（组件、模板等）和我们的 API。我们有一个专门介绍开源库的网站 (https://react-print.onedoclabs.com/)发布社区提交的模板。一些早期的高级用户构建了简单的 Web 应用程序（简历/简历生成器、NDA 和发票生成器）。我们很高兴向 HN 社区展示我们的产品，并期待您的反馈！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39668962
+积分：4
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=39668962</guid>
+      <pubDate>Mon, 11 Mar 2024 14:52:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用几乎标准的 SQL 执行存储在数据库字段中的公式</title>
+      <link>https://www.colbert.nl/formulas-in-fields/</link>
+      <description><![CDATA[文章网址：https://www.colbert.nl/formulas-in-fields/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=39668941
+积分：7
+# 条评论：8]]></description>
+      <guid>https://www.colbert.nl/formulas-in-fields/</guid>
+      <pubDate>Mon, 11 Mar 2024 14:51:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>XY 显示器的秘密生活</title>
+      <link>https://www.jmargolin.com/xy/xymon.htm</link>
+      <description><![CDATA[文章网址：https://www.jmargolin.com/xy/xymon.htm
+评论网址：https://news.ycombinator.com/item?id=39668847
+积分：4
+# 条评论：1]]></description>
+      <guid>https://www.jmargolin.com/xy/xymon.htm</guid>
+      <pubDate>Mon, 11 Mar 2024 14:42:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Extropic 正在构建什么</title>
+      <link>https://www.extropic.ai/future</link>
+      <description><![CDATA[文章网址：https://www.extropic.ai/future
+评论网址：https://news.ycombinator.com/item?id=39668430
+积分：23
+# 条评论：12]]></description>
+      <guid>https://www.extropic.ai/future</guid>
+      <pubDate>Mon, 11 Mar 2024 14:09:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>GrapheneOS 通过 ARM MTE 发现蓝牙内存损坏</title>
+      <link>https://grapheneos.social/@GrapheneOS/112066872276203917</link>
+      <description><![CDATA[文章网址：https://grapheneos.social/@GrapheneOS/112066872276203917
+评论网址：https://news.ycombinator.com/item?id=39668053
+积分：54
+# 条评论：6]]></description>
+      <guid>https://grapheneos.social/@GrapheneOS/112066872276203917</guid>
+      <pubDate>Mon, 11 Mar 2024 13:36:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国的电动汽车充电站终于赚钱了</title>
+      <link>https://oilprice.com/Latest-Energy-News/World-News/EV-Charging-Points-in-America-Are-Finally-Making-Money.html</link>
+      <description><![CDATA[文章网址： https://oilprice.com/Latest-Energy-News/World-News/EV-Charging-Points-in-America-Are-Finally-Making-Money.html
+评论网址：https://news.ycombinator.com/item?id=39668044
+积分：43
+# 条评论：54]]></description>
+      <guid>https://oilprice.com/Latest-Energy-News/World-News/EV-Charging-Points-in-America-Are-Finally-Making-Money.html</guid>
+      <pubDate>Mon, 11 Mar 2024 13:35:14 GMT</pubDate>
+    </item>
     <item>
       <title>Fern (YC W23) 正在纽约市招聘一名部署工程师</title>
       <link>https://www.ycombinator.com/companies/fern/jobs/6J4HE6G-deployed-engineer</link>
@@ -16,94 +77,40 @@
       <pubDate>Mon, 11 Mar 2024 12:01:10 GMT</pubDate>
     </item>
     <item>
-      <title>汽车制造商正在与保险公司分享消费者的驾驶行为</title>
-      <link>https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/ 2024/03/11/technology/carmakers-driver-tracking-insurance.html
-评论网址：https://news.ycombinator.com/item?id=39666976
-积分：14
-# 条评论：0]]></description>
-      <guid>https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html</guid>
-      <pubDate>Mon, 11 Mar 2024 11:55:08 GMT</pubDate>
+      <title>构建开源去中心化电子书搜索引擎</title>
+      <link>https://github.com/j2qk3b/ebook-demo/blob/main/tutorial.md</link>
+      <description><![CDATA[文章网址：https://github.com/j2qk3b/ebook-demo/blob/ main/tutorial.md
+评论网址：https://news.ycombinator.com/item?id=39666993
+积分：91
+# 条评论：10]]></description>
+      <guid>https://github.com/j2qk3b/ebook-demo/blob/main/tutorial.md</guid>
+      <pubDate>Mon, 11 Mar 2024 11:56:45 GMT</pubDate>
     </item>
     <item>
       <title>献给阿尔吉侬的鲜花 (1965) [pdf]</title>
       <link>https://www.sdfo.org/gj/stories/flowersforalgernon.pdf</link>
       <description><![CDATA[文章网址：https://www.sdfo.org/gj/stories/flowersforalgernon.pdf
 评论网址：https://news.ycombinator.com/item?id=39666956
-积分：7
-# 条评论：3]]></description>
+积分：181
+# 条评论：111]]></description>
       <guid>https://www.sdfo.org/gj/stories/flowersforalgernon.pdf</guid>
       <pubDate>Mon, 11 Mar 2024 11:53:03 GMT</pubDate>
     </item>
     <item>
-      <title>SQLPage – 仅使用 SQL 查询构建完整的 Web 应用程序 [视频]</title>
-      <link>https://www.youtube.com/watch?v=mXdgmSdaXkg</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=mXdgmSdaXkg
-评论网址：https://news.ycombinator.com/item?id=39666930
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=mXdgmSdaXkg</guid>
-      <pubDate>Mon, 11 Mar 2024 11:50:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>你不需要数据库、队列、分布式系统：Go 就足够了</title>
-      <link>https://simonedutto.github.io/2024-03-09/binary-duel</link>
-      <description><![CDATA[文章网址：https://simonedutto.github.io/2024-03-09/binary-决斗
-评论网址：https://news.ycombinator.com/item?id=39666792
-积分：27
-# 条评论：16]]></description>
-      <guid>https://simonedutto.github.io/2024-03-09/binary-duel</guid>
-      <pubDate>Mon, 11 Mar 2024 11:34:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>欧盟委员会使用 Microsoft 365 违反了欧盟数据保护法</title>
-      <link>https://www.edps.europa.eu/press-publications/press-news/press-releases/2024/european-commissions-use-microsoft-365-infringes-data-protection-law-eu-institutions-and-bodies_en</link>
-      <description><![CDATA[文章网址：https://www.edps.europa.eu/press-publications/press-news/press-releases/2024/european-commissions-use-microsoft-365-侵犯数据保护法欧盟机构和机构_en
-评论网址：https://news.ycombinator.com/item?id=39666582
-积分：63
-# 条评论：18]]></description>
-      <guid>https://www.edps.europa.eu/press-publications/press-news/press-releases/2024/european-commissions-use-microsoft-365-infringes-data-protection-law-eu-institutions-and-bodies_en</guid>
-      <pubDate>Mon, 11 Mar 2024 11:02:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>EDP​​S：欧盟委员会使用 Microsoft 365 违反了数据保护法 [pdf]</title>
-      <link>https://www.edps.europa.eu/system/files/2024-03/EDPS-2024-05-European-Commission_s-use-of-M365-infringes-data-protection-rules-for-EU-institutions-and-bodies_EN.pdf</link>
-      <description><![CDATA[文章网址：https://www.edps.europa.eu/system/files/2024-03/EDPS-2024-05-European-Commission_s-use- of-M365-infringes-data-protection-rules-for-EU-institutions-and-bodies_EN.pdf
-评论网址：https://news.ycombinator.com/item?id=39666561
-积分：29
-# 条评论：5]]></description>
-      <guid>https://www.edps.europa.eu/system/files/2024-03/EDPS-2024-05-European-Commission_s-use-of-M365-infringes-data-protection-rules-for-EU-institutions-and-bodies_EN.pdf</guid>
-      <pubDate>Mon, 11 Mar 2024 10:57:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>拉美航空：12 人因空中“技术”问题在新西兰接受治疗</title>
-      <link>https://www.bbc.com/news/world-asia-68488418</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/world-asia-68488418
-评论网址：https://news.ycombinator.com/item?id=39666532
-积分：13
-# 条评论：3]]></description>
-      <guid>https://www.bbc.com/news/world-asia-68488418</guid>
-      <pubDate>Mon, 11 Mar 2024 10:54:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>受 Magit 启发的 TUI Git 客户端</title>
-      <link>https://github.com/altsem/gitu</link>
-      <description><![CDATA[文章网址：https://github.com/altsem/gitu
-评论网址：https://news.ycombinator.com/item?id=39666520
-积分：42
-# 条评论：10]]></description>
-      <guid>https://github.com/altsem/gitu</guid>
-      <pubDate>Mon, 11 Mar 2024 10:52:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>也许函数</title>
-      <link>https://blog.benwinding.com/maybe-functions/</link>
-      <description><![CDATA[文章网址：https://blog.benwinding.com/maybe-functions/
-评论网址：https://news.ycombinator.com/item?id=39666393
-积分：49
-# 条评论：51]]></description>
-      <guid>https://blog.benwinding.com/maybe-functions/</guid>
-      <pubDate>Mon, 11 Mar 2024 10:22:55 GMT</pubDate>
+      <title>Show HN：Teable – Postgres 和 Airtable 的开源无代码数据库融合</title>
+      <link>https://github.com/teableio/teable</link>
+      <description><![CDATA[功能类似电子表格的界面
+你想要的都在这里
+ • 单元格编辑：直接单击并编辑单元格内的内容。• 公式支持：输入数学和逻辑公式，自动计算值。• 数据排序和过滤：根据一列或多列对数据进行排序；使用过滤器查看特定行的数据。• 聚合功能：自动汇总每列的统计数据，提供总和、平均值、计数、最大值和最小值等即时计算，以简化数据分析。• 数据格式化：格式化数字、日期等。• 分组：根据列值将行组织为可折叠组，以便于数据分析和导航。• 导入/导出功能：从其他格式导入和导出数据，例如 .csv、 .xlsx.多个视图以最适合其特定任务的各种方式可视化数据并与数据交互。• 网格视图：表格的默认视图，以类似电子表格的格式显示数据。 • 表单视图：以表单格式输入数据，这对于收集数据很有用。• 即将推出：看板视图、日历视图、图库视图、甘特图视图、时间线视图。超快
+惊人的响应速度和数据容量• 百万级数据轻松处理，过滤排序无压力• 自动数据库索引，速度最快• 支持批量数据一次性操作全功能的 SQL 支持
+与您熟悉的软件无缝集成• Metabase PowerBi 等 BI 工具...• Appsmith 等无代码工具...• 使用本机 SQL 直接检索数据隐私优先• 自带数据库（即将推出）实时协作
+ • 无需刷新页面，数据实时更新
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39666865
+积分：55
+# 条评论：17]]></description>
+      <guid>https://github.com/teableio/teable</guid>
+      <pubDate>Mon, 11 Mar 2024 11:42:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
