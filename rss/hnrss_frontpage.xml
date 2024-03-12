@@ -4,108 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 12 Mar 2024 15:13:59 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2024 18:17:04 GMT</lastBuildDate>
     <item>
-      <title>询问 HN：API 调用收费多少？</title>
-      <link>https://news.ycombinator.com/item?id=39679574</link>
-      <description><![CDATA[我有一个 SaaS Web 应用程序，用于存储客户和用户数据。我的应用程序用户希望使用应用程序 API（与我内部使用的相同）提取/编辑其客户的数据。我想知道我可以向那些寻找 API 密钥的人收取多少费用。
-也许每次通话 5 美元 + 0.001 美元？我正在寻找一个对于那些想要拨打几个电话以及那些希望在不花费太多费用的情况下拨打数千个电话的人来说负担得起的号码。谢谢
+      <title>足球多少 (2009)</title>
+      <link>https://www.gregegan.net/BORDER/Soccer/Soccer.html</link>
+      <description><![CDATA[文章网址：https://www.gregegan.net/BORDER/Soccer/Soccer.html
+评论网址：https://news.ycombinator.com/item?id=39682492
+积分：6
+# 条评论：0]]></description>
+      <guid>https://www.gregegan.net/BORDER/Soccer/Soccer.html</guid>
+      <pubDate>Tue, 12 Mar 2024 17:44:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>LineageOS 21 评测：智能手机的可持续发展从软件开始 [视频]</title>
+      <link>https://9to5google.com/2024/03/12/lineageos-21-review/</link>
+      <description><![CDATA[文章网址：https://9to5google.com/2024/03/12/lineageos-21 -评论/
+评论网址：https://news.ycombinator.com/item?id=39682250
+积分：8
+# 条评论：0]]></description>
+      <guid>https://9to5google.com/2024/03/12/lineageos-21-review/</guid>
+      <pubDate>Tue, 12 Mar 2024 17:26:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>推出 HN：Glide (YC W24) – AI 辅助技术设计文档</title>
+      <link>https://news.ycombinator.com/item?id=39682183</link>
+      <description><![CDATA[大家好！我们正在构建一个支持 AI 的编辑器 (https://glide.agenticlabs.com)，帮助开发人员更快地编写技术设计文档。它就像带有 Copilot 的 IDE，但它不是直接编辑代码，而是帮助您在实施更改之前制定可靠的计划。这里有一个基本演示 (https://youtu.be/5uEapdT6nYE)，我们还录制了一个会话我们的早期用户正在执行一项不寻常的任务（从 Go 调用 Fortran 算法，https://youtu.be/ppluB0Z1OIA)为什么要使用设计文档？主要是因为在复杂的软件项目中，如果没有仔细的策​​略，几行代码可能会导致整个代码库产生连锁反应。您正在开发一个小的新功能，突然间，您的 PR 涉及了几个目录中的数十个不同文件，您可能会质疑它是否仍然有意义。在技术设计中展示您的方法文档有助于避免这些情况，因此科技公司经常将这种做法嵌入到他们的工程文化中。不幸的是，生成这些文章是一个手动且耗时的过程，让您在 Confluence 中输入、在 GitHub 上搜索和在白板上绘图之间切换。例如，我们的一位早期用户正在构建一个 RAG（ Rust 中的检索增强生成）系统，需要重写用 Python 创建的原始分块算法。类似的更改不仅涉及移植分块逻辑，还涉及定义新的结构、选择用于文本解析的 Rust 库、与 Rust 服务器重新集成以及更改前端的端点。像这样听起来简单的改变最终可能会导致开发人员必须解决许多“触角”。我们的产品可以帮助喜欢此规范的团队更快地制定方法。当我们开发使用 LLM 将门票转化为 PR 的产品时，我们就遇到了这种需求。您可以将票分配给 GPT-4 并查看 PR，对吧？事实证明，大多数人（包括我们）不会在第一次写出非常完整或具体的票证，而当他们这样做时，最终会比自己完成整个事情付出更多的努力。缺少的是快速迭代代码的目标、要求和实施计划，然后可以帮助开发人员（无论是否有人工智能辅助）充满信心地实施。我们的编辑器 Glide 将此过程分为以下几个阶段，让您在每个阶段花费尽可能多或尽可能少的时间。(1) 我们使用 Tree-Sitter 为您的项目代码建立索引并使其可搜索，因此您可以将代码库的相关部分添加到任务上下文中。(2) AI 根据给定的代码和目标编写高级解决方案大纲的第一遍。它将尝试指出到目前为止任务中缺失的细节或含糊之处。(3) 作为开发人员，您可以轻松编辑生成的内容 - 进行诸如“更改步骤 3”或“删除有关缓存的部分”之类的调整。不需要额外的来回对话。(4) 下一阶段是分步计划——关于如何完成更改的伪代码级指南。 AI 会生成此内容，您也可以根据需要进行在线调整。(5) 有一种聊天模式，可以对内容进行更深入的讨论 - 只需突出显示任何文本并单击聊天即可。这对于探索替代方案、在特定点上获得更具体的信息或理解人工智能为何编写它所做的事情非常有效。(6) 一旦计划看起来不错，您就可以让人工智能为每个步骤生成代码编辑。您可以在此处随意进行其他更改，或者只需通过扩展在本地 VSCode 中打开包含代码编辑的 Markdown 文档，以便您在实现时将其作为参考。这看起来很像协作思想链，为开发人员和法学硕士明确写出推理过程中的每个步骤。以这种方式使用 AI 分解高级任务可以很好地就变革的预期最终状态达成共识。我们计划按每个席位向公司收费，但今天，随着我们获得更多反馈，它可以免费供个人使用在产品上。我们兴奋的未来领域之一是多人游戏模式，一些开发人员可以在共享工作区中共享、编辑生成的文档并留下评论。如果您对这种体验有任何想法，我们很乐意听到。我们希望您能够在 https://glide.agenticlabs.com/&quot;&gt;https://glide.agenticlabs.com/&quot;&gt;https://glide.agenticlabs.com/ 尝试一下。 /glide.agenticlabs.com/ 并告诉我们您的想法！我们很高兴与您讨论这个问题并提出您的任何意见！P.S.我们仅在您使用索引代码时将其保留在内存缓存中。我们不会存储您的代码或将其用作训练数据！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39679574
-积分：16
-# 条评论：35]]></description>
-      <guid>https://news.ycombinator.com/item?id=39679574</guid>
-      <pubDate>Tue, 12 Mar 2024 13:57:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：逗号分隔值 (CSV) 到 Unicode 分隔值 (USV)</title>
-      <link>https://crates.io/crates/csv-to-usv</link>
-      <description><![CDATA[文章网址：https://crates.io/crates/csv-to-usv
-评论网址：https://news.ycombinator.com/item?id=39679378
-积分：77
-# 条评论：74]]></description>
-      <guid>https://crates.io/crates/csv-to-usv</guid>
-      <pubDate>Tue, 12 Mar 2024 13:43:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kickstarter 使用区块链的 1 亿美元交易</title>
-      <link>https://fortune.com/crypto/2024/03/11/kickstarter-blockchain-a16z-crypto-secret-investment-chris-dixon/</link>
-      <description><![CDATA[文章网址：https://fortune .com/crypto/2024/03/11/kickstarter-blockchain-a16z-crypto-secret-investment-chris-dixon/
-评论网址：https://news.ycombinator.com/item?id=39679181
-积分：34
-# 条评论：30]]></description>
-      <guid>https://fortune.com/crypto/2024/03/11/kickstarter-blockchain-a16z-crypto-secret-investment-chris-dixon/</guid>
-      <pubDate>Tue, 12 Mar 2024 13:24:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>在欧盟分发的应用程序有更多选项</title>
-      <link>https://developer.apple.com/news/?id=8c1m8hqt</link>
-      <description><![CDATA[文章网址：https://developer.apple.com/news/?id=8c1m8hqt&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=39678555
-积分：113
-评论数量：104]]></description>
-      <guid>https://developer.apple.com/news/?id=8c1m8hqt</guid>
-      <pubDate>Tue, 12 Mar 2024 12:11:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>去年 DMCA 通知下架了 20,517 个 GitHub 项目</title>
-      <link>https://torrentfreak.com/dmca-notices-took-down-20517-github-projects-last-year-240308/</link>
-      <description><![CDATA[文章网址：https://torrentfreak.com/dmca -notices-took-down-20517-github-projects-last-year-240308/
-评论网址：https://news.ycombinator.com/item?id=39678312
-积分：47
-# 条评论：33]]></description>
-      <guid>https://torrentfreak.com/dmca-notices-took-down-20517-github-projects-last-year-240308/</guid>
-      <pubDate>Tue, 12 Mar 2024 11:33:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>试用 Microsoft 的预发行版 OS/2 2.0</title>
-      <link>https://www.theregister.com/2024/03/11/trying_ms_prerelease_os2_2/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2024/03/11/trying_ms_prerelease_os2_2/&lt; /a&gt;
-评论网址：https://news.ycombinator.com/item?id=39678062
-积分：40
-# 条评论：17]]></description>
-      <guid>https://www.theregister.com/2024/03/11/trying_ms_prerelease_os2_2/</guid>
-      <pubDate>Tue, 12 Mar 2024 10:50:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ultratec 技术时间表</title>
-      <link>https://www.ultratec.com/about/timeline/</link>
-      <description><![CDATA[文章网址：https://www.ultratec.com/about/timeline/
-评论网址：https://news.ycombinator.com/item?id=39677845
-积分：13
+评论网址：https://news.ycombinator.com/item?id=39682183
+积分：24
 # 条评论：3]]></description>
-      <guid>https://www.ultratec.com/about/timeline/</guid>
-      <pubDate>Tue, 12 Mar 2024 10:14:06 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=39682183</guid>
+      <pubDate>Tue, 12 Mar 2024 17:21:06 GMT</pubDate>
     </item>
     <item>
-      <title>屏蔽：新想法可能使主动屏蔽变得可行</title>
-      <link>https://arstechnica.com/science/2024/03/shields-up-new-ideas-might-make-active-shielding-viable/</link>
-      <description><![CDATA[文章网址：https://arstechnica .com/science/2024/03/shields-up-new-ideas-might-make-active-shielding-viable/
-评论网址：https://news.ycombinator.com/item?id=39677530
-积分：110
-# 条评论：54]]></description>
-      <guid>https://arstechnica.com/science/2024/03/shields-up-new-ideas-might-make-active-shielding-viable/</guid>
-      <pubDate>Tue, 12 Mar 2024 09:10:11 GMT</pubDate>
+      <title>纽约警察局向一名警察观察者的 X 账户发出无证传票</title>
+      <link>https://hellgatenyc.com/nypd-warrantless-subpoena-copwatcher-social-media</link>
+      <description><![CDATA[文章网址：https://hellgatenyc.com/nypd-warrantless-subpoena-copwatcher-social-媒体
+评论网址：https://news.ycombinator.com/item?id=39681920
+积分：47
+# 条评论：24]]></description>
+      <guid>https://hellgatenyc.com/nypd-warrantless-subpoena-copwatcher-social-media</guid>
+      <pubDate>Tue, 12 Mar 2024 17:00:27 GMT</pubDate>
     </item>
     <item>
-      <title>贝维基金会</title>
-      <link>https://bevyengine.org/news/bevy-foundation/</link>
-      <description><![CDATA[文章网址：https://bevyengine.org/news/bevy-foundation/
-评论网址：https://news.ycombinator.com/item?id=39677009
-积分：152
-# 条评论：33]]></description>
-      <guid>https://bevyengine.org/news/bevy-foundation/</guid>
-      <pubDate>Tue, 12 Mar 2024 07:31:06 GMT</pubDate>
+      <title>Infisical (YC W23) 正在招聘构建开源秘密管理平台</title>
+      <link>https://www.ycombinator.com/companies/infisical/jobs/MteMdIQ-full-stack-engineer</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/infisical/职位/MteMdIQ-全栈工程师
+评论网址：https://news.ycombinator.com/item?id=39681919
+积分：0
+# 条评论：0]]></description>
+      <guid>https://www.ycombinator.com/companies/infisical/jobs/MteMdIQ-full-stack-engineer</guid>
+      <pubDate>Tue, 12 Mar 2024 17:00:26 GMT</pubDate>
     </item>
     <item>
-      <title>通过 NVMe TCP 克隆笔记本电脑</title>
-      <link>https://copyninja.in/blog/clone_laptop_nvmet.html</link>
-      <description><![CDATA[文章网址：https://copyninja.in/blog/clone_laptop_nvmet.html
-评论网址：https://news.ycombinator.com/item?id=39676767
-积分：285
-评论数：108]]></description>
-      <guid>https://copyninja.in/blog/clone_laptop_nvmet.html</guid>
-      <pubDate>Tue, 12 Mar 2024 06:37:23 GMT</pubDate>
+      <title>使用 GPU 实例化进行 Vulkan 树叶渲染</title>
+      <link>https://www.thegeeko.me/blog/foliage-rendering</link>
+      <description><![CDATA[文章网址：https://www.thegeeko.me/blog/foliage-rendering
+评论网址：https://news.ycombinator.com/item?id=39681812
+积分：29
+# 条评论：3]]></description>
+      <guid>https://www.thegeeko.me/blog/foliage-rendering</guid>
+      <pubDate>Tue, 12 Mar 2024 16:54:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>4 月下旬更新虚幻引擎定价</title>
+      <link>https://www.unrealengine.com/en-US/blog/we-are-updating-unreal-engine-twinmotion-and-realitycapture-pricing-in-late-april</link>
+      <description><![CDATA[文章网址：https://www.unrealengine.com/en-US/blog/we-are-updating-unreal-engine-twinmotion-and-realitycapture-pricing-in-late-april
+评论网址：https://news.ycombinator.com/item?id=39681493
+积分：19
+# 条评论：5]]></description>
+      <guid>https://www.unrealengine.com/en-US/blog/we-are-updating-unreal-engine-twinmotion-and-realitycapture-pricing-in-late-april</guid>
+      <pubDate>Tue, 12 Mar 2024 16:34:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>差异存储：基于 DuckDB 的数据仓库的关键构建块</title>
+      <link>https://motherduck.com/blog/differential-storage-building-block-for-data-warehouse/</link>
+      <description><![CDATA[文章网址：https://motherduck.com/blog/ Differential-storage -数据仓库构建块/
+评论网址：https://news.ycombinator.com/item?id=39681265
+积分：56
+评论数量：9]]></description>
+      <guid>https://motherduck.com/blog/differential-storage-building-block-for-data-warehouse/</guid>
+      <pubDate>Tue, 12 Mar 2024 16:15:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>波音航班飞行员称仪器故障后失去控制</title>
+      <link>https://www.cnn.com/2024/03/12/australia/latam-airlines-flight-injuries-new-zealand-tuesday-intl-hnk/index.html</link>
+      <description><![CDATA[文章网址：https://www.cnn.com/2024/03/12/australia/latam-airlines-flight-injuries-new-zealand-tuesday-intl-hnk/index.html
+评论网址：https://news.ycombinator.com/item?id=39681102
+积分：73
+评论数：70]]></description>
+      <guid>https://www.cnn.com/2024/03/12/australia/latam-airlines-flight-injuries-new-zealand-tuesday-intl-hnk/index.html</guid>
+      <pubDate>Tue, 12 Mar 2024 16:01:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>对于多语言者来说，他们的母语有一些特别之处</title>
+      <link>https://news.mit.edu/2024/mit-study-polyglots-brain-processing-native-language-0310</link>
+      <description><![CDATA[文章网址：https://news.mit.edu/ 2024/mit-study-polyglots-brain-processing-native-language-0310
+评论网址：https://news.ycombinator.com/item?id=39681063
+积分：25
+# 条评论：10]]></description>
+      <guid>https://news.mit.edu/2024/mit-study-polyglots-brain-processing-native-language-0310</guid>
+      <pubDate>Tue, 12 Mar 2024 15:58:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
