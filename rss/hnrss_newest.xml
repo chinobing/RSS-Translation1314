@@ -4,108 +4,140 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 14 Mar 2024 06:17:37 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 Mar 2024 09:13:53 GMT</lastBuildDate>
     <item>
-      <title>IT行业的黄金时代已经结束了吗？ 2024 年更多科技公司裁员</title>
-      <link>https://www.1000.software/post/is-golden-age-of-it-sector-has-come-to-an-end-more-tech-layoffs-2024</link>
-      <description><![CDATA[文章网址：https://www.1000.software/post/is-golden-age-of-it-sector-has-come-to-an-end-more-tech-layoffs-2024&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=39700979
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.1000.software/post/is-golden-age-of-it-sector-has-come-to-an-end-more-tech-layoffs-2024</guid>
-      <pubDate>Thu, 14 Mar 2024 06:07:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：面向中小型企业的初创企业可行吗？</title>
-      <link>https://news.ycombinator.com/item?id=39700970</link>
-      <description><![CDATA[我有一个帮助中小型企业使用某种工具的想法，我的目标不是大公司和企业，因为这些公司和企业可能有自己的团队来部署类似的东西。我专门针对中小企业，因为他们通常没有足够的资金来使用该工具，但我担心初创种子基金小组不会喜欢这个想法，因为 1. 这对他们来说有点无聊，因为它并不新颖而且具有创新性，该堆栈全部基于著名的 CNCF 项目（但应该是实用的），2. 一开始也是资本密集型的​​（我为此使用超融合基础设施），3. 我故意避免人工智能，因为我认为它是一个泡沫，对中小企业来说意义不大，尽管人工智能相关的东西会在后期添加，因为我的想法是富有成效的，而且在人工智能摆脱了炒作周期的顶峰之后。我担心专注于中小企业会赢但这并不能给我带来积极的未来财务前景，这也可能是一个祸根。
+      <title>告诉 HN：由于未打补丁的 Dropbear，Ubiquiti AP 可能容易受到 Terrapin 的攻击</title>
+      <link>https://news.ycombinator.com/item?id=39701775</link>
+      <description><![CDATA[{{HOSTNAME}} = U6-Enterprise 运行固件 v6.6.65 $ Terrapin_Scanner_MacOS_arm64_darwin -connect {{HOSTNAME}}
+  
+ 
+    =================================================== ================================
+    ====================================== 报告============ =======================
+    =================================================== ================================
+
+    远程横幅：SSH-2.0-dropbear_2020.81
+
+    ChaCha20-Poly1305 支持：true
+    CBC-EtM 支持： false
+
+    严格的密钥交换支持： false
+
+    扫描到的对等点容易受到 Terrapin 的攻击。
+
+    注意：该工具按原样提供，不提供任何保证。它决定了
+          通过检查支持的算法来确定对等点的漏洞
+          支持严格的密钥交换。它可能会错误地声称某个同伴是
+          如果供应商支持严格密钥以外的对策，则容易受到攻击
+          交换。
+
+    欲了解更多详情，请访问我们的网站 https://terrapin-attack.com
+
+
+    $ ssh {{主机名}}
+    {{HOSTNAME}}-BZ.6.6.65# dropbear --help
+    无效选项——
+    Dropbear 服务器 v2020.81 https://matt.ucc.asn.au/dropbear/dropbear.html
+    用法：dropbear [选项]
+
+
+
+Dropbear 自 2022 年以来就没有发布过版本，而 Terrapin 从 2023 年 12 月 31 日开始的修复就一直搁置在那里。https://github.com/mkj/dropbear/releaseshttps://github.com/ mkj/dropbear/issues/270https://community.ui.com/questions/UbiOS-Dropbear-upgrade/b66ca71f-adef-4a3f-b6c6-2d26f9d3bc67
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39700970
+评论网址：https://news.ycombinator.com/item?id=39701775
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=39700970</guid>
-      <pubDate>Thu, 14 Mar 2024 06:05:23 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=39701775</guid>
+      <pubDate>Thu, 14 Mar 2024 09:12:35 GMT</pubDate>
     </item>
     <item>
-      <title>全球设计系统的下一步是什么</title>
-      <link>https://bradfrost.com/blog/post/whats-next-for-a-global-design-system/</link>
-      <description><![CDATA[文章网址：https://bradfrost.com/blog/post /全球设计系统的下一个目标/
-评论网址：https://news.ycombinator.com/item?id=39700969
+      <title>苹果更改欧盟默认浏览器后 Firefox 用户增加</title>
+      <link>https://www.theverge.com/2024/3/13/24100066/firefox-saw-an-increase-in-users-following-apples-default-browser-changes-in-the-eu</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/2024/3/13/24100066/firefox-saw-an-increase-in-users-following-apples-default-browser-changes-in-欧盟
+评论网址：https://news.ycombinator.com/item?id=39701771
 积分：1
 # 条评论：0]]></description>
-      <guid>https://bradfrost.com/blog/post/whats-next-for-a-global-design-system/</guid>
-      <pubDate>Thu, 14 Mar 2024 06:05:22 GMT</pubDate>
+      <guid>https://www.theverge.com/2024/3/13/24100066/firefox-saw-an-increase-in-users-following-apples-default-browser-changes-in-the-eu</guid>
+      <pubDate>Thu, 14 Mar 2024 09:11:13 GMT</pubDate>
     </item>
     <item>
-      <title>深度学习的基本组成部分（范畴论）[pdf]</title>
-      <link>https://www.brunogavranovic.com/assets/FundamentalComponentsOfDeepLearning.pdf</link>
-      <description><![CDATA[文章网址：https://www.brunogavranovic.com/assets/FundamentalComponentsOfDeepLearning.pdf
-评论网址：https://news.ycombinator.com/item?id=39700960
+      <title>真心话大冒险 AI – 基于用户独特上下文的生成器</title>
+      <link>https://www.truthordareai.com/</link>
+      <description><![CDATA[文章网址：https://www.truthordareai.com/
+评论网址：https://news.ycombinator.com/item?id=39701760
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.brunogavranovic.com/assets/FundamentalComponentsOfDeepLearning.pdf</guid>
-      <pubDate>Thu, 14 Mar 2024 06:03:11 GMT</pubDate>
+      <guid>https://www.truthordareai.com/</guid>
+      <pubDate>Thu, 14 Mar 2024 09:09:42 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能在 Trackmania 中打破多项记录</title>
-      <link>https://www.youtube.com/watch?v=kojH8a7BW04</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=kojH8a7BW04
-评论网址：https://news.ycombinator.com/item?id=39700944
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=kojH8a7BW04</guid>
-      <pubDate>Thu, 14 Mar 2024 05:58:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>通勤谈话：我为什么开始构建浏览器？ – 安德烈亚斯·克林 (2019) [视频]</title>
-      <link>https://www.youtube.com/watch?v=TOF62vOhBQ8</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=TOF62vOhBQ8
-评论网址：https://news.ycombinator.com/item?id=39700941
+      <title>适用于 macOS 的替代鼠标驱动程序</title>
+      <link>https://macmousefix.com/</link>
+      <description><![CDATA[文章网址：https://macmousefix.com/
+评论网址：https://news.ycombinator.com/item?id=39701756
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=TOF62vOhBQ8</guid>
-      <pubDate>Thu, 14 Mar 2024 05:57:49 GMT</pubDate>
+      <guid>https://macmousefix.com/</guid>
+      <pubDate>Thu, 14 Mar 2024 09:09:21 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Apple Vision Pro 沉浸式艺术展览</title>
-      <link>https://apps.apple.com/in/app/mahou-immersive-art-exhibits/id6478237200</link>
-      <description><![CDATA[Mahou (maa-ho) 是一个在 Vision Pro 上体验原创、沉浸式艺术展览的平台。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39700924
+      <title>使用 _silgen_name 调用私有 Swift 代码并缩短构建时间</title>
+      <link>https://swiftrocks.com/using-silgenname-to-call-private-swift-code</link>
+      <description><![CDATA[文章网址：https://swiftrocks.com/using-silgenname-to-call-私人 swift 代码
+评论网址：https://news.ycombinator.com/item?id=39701730
 积分：1
 # 条评论：0]]></description>
-      <guid>https://apps.apple.com/in/app/mahou-immersive-art-exhibits/id6478237200</guid>
-      <pubDate>Thu, 14 Mar 2024 05:52:55 GMT</pubDate>
+      <guid>https://swiftrocks.com/using-silgenname-to-call-private-swift-code</guid>
+      <pubDate>Thu, 14 Mar 2024 09:04:17 GMT</pubDate>
     </item>
     <item>
-      <title>认知曲线：对人类的警告[视频]</title>
-      <link>https://www.youtube.com/watch?v=1gx9OEv45sM</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=1gx9OEv45sM
-评论网址：https://news.ycombinator.com/item?id=39700915
+      <title>温迪应该引入峰时定价吗？</title>
+      <link>https://www.economicforces.xyz/p/should-wendys-introduce-surge-pricing</link>
+      <description><![CDATA[文章网址：https://www.economicforces.xyz/p/should-wendys-引入激增定价
+评论网址：https://news.ycombinator.com/item?id=39701724
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=1gx9OEv45sM</guid>
-      <pubDate>Thu, 14 Mar 2024 05:51:22 GMT</pubDate>
+      <guid>https://www.economicforces.xyz/p/should-wendys-introduce-surge-pricing</guid>
+      <pubDate>Thu, 14 Mar 2024 09:02:18 GMT</pubDate>
     </item>
     <item>
-      <title>Cognition 悄然崛起，推出 AI 软件工程师 Devin</title>
-      <link>https://venturebeat.com/ai/cognition-emerges-from-stealth-to-launch-ai-software-engineer-devin/</link>
-      <description><![CDATA[文章网址：https://venturebeat.com /ai/认知-emerges-from-stealth-to-launch-ai-software-engineer-devin/
-评论网址：https://news.ycombinator.com/item?id=39700907
+      <title>设计的未来？按需高端图形和运动设计</title>
+      <link>https://www.designplusmotion.com/</link>
+      <description><![CDATA[文章网址：https://www.designplusmotion.com/
+评论网址：https://news.ycombinator.com/item?id=39701711
 积分：1
 # 条评论：0]]></description>
-      <guid>https://venturebeat.com/ai/cognition-emerges-from-stealth-to-launch-ai-software-engineer-devin/</guid>
-      <pubDate>Thu, 14 Mar 2024 05:48:25 GMT</pubDate>
+      <guid>https://www.designplusmotion.com/</guid>
+      <pubDate>Thu, 14 Mar 2024 09:00:09 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI 首席技术官不知道使用哪些数据来训练 Sora [视频]</title>
-      <link>https://www.youtube.com/watch?v=mAUpxN-EIgU</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=mAUpxN-EIgU
-评论网址：https://news.ycombinator.com/item?id=39700885
-积分：15
-# 条评论：10]]></description>
-      <guid>https://www.youtube.com/watch?v=mAUpxN-EIgU</guid>
-      <pubDate>Thu, 14 Mar 2024 05:43:38 GMT</pubDate>
+      <title>有效的人工智能行程生成器</title>
+      <link>https://travel007.com</link>
+      <description><![CDATA[文章网址：https://travel007.com
+评论网址：https://news.ycombinator.com/item?id=39701689
+积分：2
+# 条评论：0]]></description>
+      <guid>https://travel007.com</guid>
+      <pubDate>Thu, 14 Mar 2024 08:55:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>一个世纪以来最大的手算——2024 年圆周率日</title>
+      <link>https://www.youtube.com/watch?v=LIg-6glbLkU</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=LIg-6glbLkU
+评论网址：https://news.ycombinator.com/item?id=39701684
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=LIg-6glbLkU</guid>
+      <pubDate>Thu, 14 Mar 2024 08:54:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 GitHub Copilot 的帮助下从 Minitest 迁移到 RSpec 的注意事项</title>
+      <link>https://everydayrails.com/2024/03/13/migrate-minitest-to-rspec-copilot</link>
+      <description><![CDATA[文章网址：https://everydayrails.com/2024/03/13/迁移 minitest 到 rspec-copilot
+评论网址：https://news.ycombinator.com/item?id=39701677
+积分：1
+# 条评论：0]]></description>
+      <guid>https://everydayrails.com/2024/03/13/migrate-minitest-to-rspec-copilot</guid>
+      <pubDate>Thu, 14 Mar 2024 08:53:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
