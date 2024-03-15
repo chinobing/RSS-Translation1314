@@ -4,14 +4,95 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 15 Mar 2024 15:14:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2024 18:18:31 GMT</lastBuildDate>
+    <item>
+      <title>沃尔玛首次开始销售 Mac：M1 MacBook Air 售价 699 美元</title>
+      <link>https://9to5mac.com/2024/03/15/walmart-m1-macbook-air-launch/</link>
+      <description><![CDATA[文章网址：https://9to5mac.com/2024/03/15 /walmart-m1-macbook-air-launch/
+评论网址：https://news.ycombinator.com/item?id=39718716
+积分：4
+# 条评论：0]]></description>
+      <guid>https://9to5mac.com/2024/03/15/walmart-m1-macbook-air-launch/</guid>
+      <pubDate>Fri, 15 Mar 2024 17:58:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>致命的羊肚菌爆发凸显了真菌知识的巨大差距</title>
+      <link>https://arstechnica.com/science/2024/03/deadly-morel-mushroom-outbreak-highlights-big-gaps-in-fungi-knowledge/</link>
+      <description><![CDATA[文章网址：https:// /arstechnica.com/science/2024/03/deadly-morel-mushroom-outbreak-highlights-big-gaps-in-fungi-knowledge/
+评论网址：https://news.ycombinator.com/item?id=39718230
+积分：20
+# 条评论：10]]></description>
+      <guid>https://arstechnica.com/science/2024/03/deadly-morel-mushroom-outbreak-highlights-big-gaps-in-fungi-knowledge/</guid>
+      <pubDate>Fri, 15 Mar 2024 17:20:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机科学领域的行之有效的方法：1999 年与 2015 年 (2015)</title>
+      <link>http://danluu.com/butler-lampson-1999/</link>
+      <description><![CDATA[文章网址：http://danluu.com/butler-lampson-1999/
+评论网址：https://news.ycombinator.com/item?id=39717838
+积分：41
+# 条评论：25]]></description>
+      <guid>http://danluu.com/butler-lampson-1999/</guid>
+      <pubDate>Fri, 15 Mar 2024 16:53:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>基于微小位域的文本渲染器 (2022)</title>
+      <link>https://www.onirom.fr/wiki/blog/25-09-2022_tiny_bitfield_based_text_renderer/</link>
+      <description><![CDATA[文章网址：https://www.onirom.fr/wiki/blog/25-09 -2022_tiny_bitfield_based_text_renderer/
+评论网址：https://news.ycombinator.com/item?id=39717815
+积分：19
+# 条评论：4]]></description>
+      <guid>https://www.onirom.fr/wiki/blog/25-09-2022_tiny_bitfield_based_text_renderer/</guid>
+      <pubDate>Fri, 15 Mar 2024 16:51:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>压缩国际象棋的走法以获取乐趣和利润</title>
+      <link>https://mbuffett.com/posts/compressing-chess-moves/</link>
+      <description><![CDATA[文章网址：https://mbuffett.com/posts/compressing-chess-moves/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=39717615
+积分：68
+# 条评论：36]]></description>
+      <guid>https://mbuffett.com/posts/compressing-chess-moves/</guid>
+      <pubDate>Fri, 15 Mar 2024 16:35:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>FTC 和 DOJ 希望将麦当劳冰淇淋机从 DMCA 维修规则中解放出来</title>
+      <link>https://arstechnica.com/tech-policy/2024/03/ftc-and-doj-want-to-free-mcdonalds-ice-cream-machines-from-dmca-repair-rules/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/tech-policy/2024/03/ftc-and-doj-want-to-free-mcdonalds-ice-cream-machines-from-dmca-repair-rules /
+评论网址：https://news.ycombinator.com/item?id=39717558
+积分：91
+# 条评论：49]]></description>
+      <guid>https://arstechnica.com/tech-policy/2024/03/ftc-and-doj-want-to-free-mcdonalds-ice-cream-machines-from-dmca-repair-rules/</guid>
+      <pubDate>Fri, 15 Mar 2024 16:30:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：使用 DuckDB-WASM 和 PRQL 进行开源、浏览器本地数据探索</title>
+      <link>https://github.com/pretzelai/pretzelai</link>
+      <description><![CDATA[嘿，HN！我们构建了 Pretzel，这是一种开源数据探索和可视化工具，可以完全在浏览器中运行，并且可以处理大型文件（在我的 8GB MacBook Air 上处理 200 MB CSV 很快）。它也是反应性的 - 例如，如果您更改过滤器，所有数据转换块都会在它自动重新评估后进行。您可以在这里尝试：https://pretzelai.github.io/（静态托管网页）或查看演示视频位于：https://www.youtube.com/watch?v=73wNEun_L7w 您可以使用预加载的演示 CSV（文本编辑器相邻项目的 GitHub 数据）或上传您自己的 CSV/XLSX 文件。该工具完全在浏览器中运行 - 网站加载后，您可以断开与互联网的连接 - 因此，如果您愿意，可以随意使用敏感数据。其工作原理如下：您上传 CSV 文件，然后按如下方式浏览您的数据一系列连续的数据转换和绘图。例如，您可以： (1) 删除一些列； (2) 应用一些过滤器（删除空值、删除异常值、限制时间范围等）； (3) 进行枢轴（即，更高级的分组）； (4)绘制图表； (5) 下载图表和转换后的数据。看截图：https://imgur.com/a/qO4yURI在UI中，每个变换步骤显示为“块”。您始终可以在右侧的表格中看到完整转换的结果。变换块是可编辑的 - 例如在上面的示例中，您可以转到步骤 2，更改一些过滤器，反应性将负责重新计算后面的所有单元格，包括图表。我们希望 Pretzel 能够在浏览器本地运行并且对大文件具有极高的性能。因此，我们使用最快的 CSV 解析器（uDSV：https://github.com/leoniya/uDSV）解析 CSV，并使用 DuckDB -Wasm (https://github.com/duckdb/duckdb-wasm) 完成处理的所有繁重工作数据。我们还希望允许链式数据转换，其中每个新块都对前一个块的结果进行操作。为此，我们使用 PRQL (https://prql-lang.org/)，因为它映射 1 -1 使用链式数据转换块 - 每个块映射到 PRQL 块，当组合时，描述完整的数据转换链。 （PRQL 不支持 DuckDB 的 Pivot 语句，因此我们必须进行一些基于 CTE 的黑客攻击）。还有一个 AI 块：这是唯一需要互联网连接的（可选）功能，但我们正在努力添加通过 Ollama 提供本地模型支持。现在，您可以使用您自己的 OpenAI API 密钥或使用我们提供的 AI 服务器（GPT4 代理；它加载了一些积分），用简单的英语指定转换并获取您可以编辑的转换的 SQL。&lt; p&gt;我们的路线图包括允许 API 调用创建新列；支持具有良好自动完成功能的 SQL 块，以及对数据转换结果的 Python 块（使用 Pyodide 在浏览器中运行 Python），就像 jupyter 笔记本一样。我们有两个人，我们只花了大约一周的时间进行编码并修复主要错误，因此仍有一些错误需要解决。我们希望您尝试一下并获得反馈！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39717268
+积分：30
+# 条评论：8]]></description>
+      <guid>https://github.com/pretzelai/pretzelai</guid>
+      <pubDate>Fri, 15 Mar 2024 16:02:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>朱莉小姐</title>
+      <link>https://aeon.co/essays/the-woman-behind-strindbergs-miss-julie-and-her-male-alter-ego</link>
+      <description><![CDATA[文章网址：https://aeon. co/essays/斯特林堡背后的女人朱莉小姐和她的男性另一个自我
+评论网址：https://news.ycombinator.com/item?id=39715497
+积分：29
+# 条评论：12]]></description>
+      <guid>https://aeon.co/essays/the-woman-behind-strindbergs-miss-julie-and-her-male-alter-ego</guid>
+      <pubDate>Fri, 15 Mar 2024 13:54:22 GMT</pubDate>
+    </item>
     <item>
       <title>蒙特利尔问题：为什么编程语言需要风格沙皇</title>
       <link>https://earthly.dev/blog/language-style-czar/</link>
       <description><![CDATA[文章网址：https://earthly.dev/blog/language-style-czar/&lt; /p&gt;
 评论网址：https://news.ycombinator.com/item?id=39715223
-积分：15
-# 条评论：15]]></description>
+积分：44
+评论数：70]]></description>
       <guid>https://earthly.dev/blog/language-style-czar/</guid>
       <pubDate>Fri, 15 Mar 2024 13:27:20 GMT</pubDate>
     </item>
@@ -20,90 +101,10 @@
       <link>https://github.com/trevorpogue/algebraic-nnhw</link>
       <description><![CDATA[文章网址：https://github.com/trevorpogue/algebraic-nnhw
 评论网址：https://news.ycombinator.com/item?id=39714053
-积分：97
-# 条评论：23]]></description>
+积分：145
+# 条评论：45]]></description>
       <guid>https://github.com/trevorpogue/algebraic-nnhw</guid>
       <pubDate>Fri, 15 Mar 2024 10:36:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>英国装饰艺术密集化的十年</title>
-      <link>https://www.worksinprogress.news/p/britains-interwar-apartment-boom</link>
-      <description><![CDATA[文章网址：https://www.worksinprogress.news/p/britains-interwar-apartment-繁荣
-评论网址：https://news.ycombinator.com/item?id=39713891
-积分：25
-# 条评论：7]]></description>
-      <guid>https://www.worksinprogress.news/p/britains-interwar-apartment-boom</guid>
-      <pubDate>Fri, 15 Mar 2024 10:06:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Photoroom (YC S20) 正在巴黎招聘一名前端状态架构师（Mobx、React）</title>
-      <link>https://jobs.lever.co/photoroom/fb70ca3c-632f-4b1b-b6e2-004f0240011d?lever-origin=applied&lever-source%5B%5D=yc</link>
-      <description><![CDATA[文章网址： https://jobs.lever.co/photoroom/fb70ca3c-632f-4b1b-b6e2-004f0240011d?lever-origin=applied&amp;lever-source%5B%5D=yc
-评论网址：https://news.ycombinator.com/item?id=39713790
-积分：0
-# 条评论：0]]></description>
-      <guid>https://jobs.lever.co/photoroom/fb70ca3c-632f-4b1b-b6e2-004f0240011d?lever-origin=applied&lever-source%5B%5D=yc</guid>
-      <pubDate>Fri, 15 Mar 2024 09:50:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Quiet-STAR：语言模型可以在说话之前自学思考</title>
-      <link>https://arxiv.org/abs/2403.09629</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2403.09629
-评论网址：https://news.ycombinator.com/item?id=39713634
-积分：162
-评论数：110]]></description>
-      <guid>https://arxiv.org/abs/2403.09629</guid>
-      <pubDate>Fri, 15 Mar 2024 09:24:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sunlight，证书透明度日志实现</title>
-      <link>https://letsencrypt.org/2024/03/14/introducing-sunlight.html</link>
-      <description><![CDATA[文章网址：https://letsencrypt.org/2024/03/14/introducing-sunlight。 html
-评论网址：https://news.ycombinator.com/item?id=39713370
-积分：54
-评论数量：9]]></description>
-      <guid>https://letsencrypt.org/2024/03/14/introducing-sunlight.html</guid>
-      <pubDate>Fri, 15 Mar 2024 08:37:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>柏林科技场景被列入联合国教科文组织非物质文化遗产名录</title>
-      <link>https://www.theguardian.com/world/2024/mar/15/berlins-techno-scene-added-to-unesco-intangible-cultural-heritage-list</link>
-      <description><![CDATA[文章网址： https://www.theguardian.com/world/2024/mar/15/berlins-techno-scene-added-to-unesco-intangible-culture-heritage-list
-评论网址：https://news.ycombinator.com/item?id=39713323
-积分：175
-评论数量：134]]></description>
-      <guid>https://www.theguardian.com/world/2024/mar/15/berlins-techno-scene-added-to-unesco-intangible-cultural-heritage-list</guid>
-      <pubDate>Fri, 15 Mar 2024 08:29:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>哈佛大学得出结论，一名不诚实专家犯有不当行为</title>
-      <link>https://www.chronicle.com/article/heres-the-unsealed-report-showing-how-harvard-concluded-that-a-dishonesty-expert-committed-misconduct</link>
-      <description><![CDATA[文章网址：https://www.chronicle.com/article/heres-the-unsealed-report-showing-how-harvard-conclusion-that-a-dishonesty-expert-commited-misconduct
-评论网址：https://news.ycombinator.com/item?id=39712173
-积分：117
-# 条评论：78]]></description>
-      <guid>https://www.chronicle.com/article/heres-the-unsealed-report-showing-how-harvard-concluded-that-a-dishonesty-expert-committed-misconduct</guid>
-      <pubDate>Fri, 15 Mar 2024 04:53:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Vision Pro：我们在 Oculus 犯下的错误，苹果却做对了</title>
-      <link>https://hugo.blog/2024/03/11/vision-pro/</link>
-      <description><![CDATA[文章网址：https://hugo.blog/2024/03/11/vision-pro/&lt; /a&gt;
-评论网址：https://news.ycombinator.com/item?id=39711725
-积分：129
-评论数：98]]></description>
-      <guid>https://hugo.blog/2024/03/11/vision-pro/</guid>
-      <pubDate>Fri, 15 Mar 2024 03:15:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>TextSnatcher：从图像中复制文本，适用于 Linux 桌面</title>
-      <link>https://github.com/RajSolai/TextSnatcher</link>
-      <description><![CDATA[文章网址：https://github.com/RajSolai/TextSnatcher
-评论网址：https://news.ycombinator.com/item?id=39711621
-积分：252
-评论数：70]]></description>
-      <guid>https://github.com/RajSolai/TextSnatcher</guid>
-      <pubDate>Fri, 15 Mar 2024 02:57:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
