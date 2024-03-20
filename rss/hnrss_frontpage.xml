@@ -4,16 +4,84 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 20 Mar 2024 18:16:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 Mar 2024 21:14:16 GMT</lastBuildDate>
     <item>
-      <title>犯罪团伙偷窃从钱包到电动工具的所有物品</title>
-      <link>https://www.newyorker.com/magazine/2024/03/25/the-crime-rings-stealing-everything-from-purses-to-power-tools</link>
-      <description><![CDATA[文章网址： https://www.newyorker.com/magazine/2024/03/25/the-crime-rings-stealing-everything-from-purses-to-power-tools
-评论网址：https://news.ycombinator.com/item?id=39769785
-积分：3
+      <title>苹果可能因安全警告以及核心技术费而陷入麻烦</title>
+      <link>https://9to5mac.com/2024/03/20/core-technology-fee-and-security-warnings/</link>
+      <description><![CDATA[文章网址：https://9to5mac.com/2024/03 /20/核心技术费用和安全警告/
+评论网址：https://news.ycombinator.com/item?id=39771822
+积分：11
+# 条评论：3]]></description>
+      <guid>https://9to5mac.com/2024/03/20/core-technology-fee-and-security-warnings/</guid>
+      <pubDate>Wed, 20 Mar 2024 20:47:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>包含 AI 为 uBlock Origin 和 uBlacklist 生成的内容的黑名单</title>
+      <link>https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist</link>
+      <description><![CDATA[文章网址：https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist
+评论网址：https://news.ycombinator.com/item?id=39771742
+积分：26
+# 条评论：10]]></description>
+      <guid>https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist</guid>
+      <pubDate>Wed, 20 Mar 2024 20:38:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>星舰还是独木舟：我们未来的适应将在哪里？</title>
+      <link>https://alumni.berkeley.edu/california-magazine/summer-2017-adaptation/starship-or-canoe-where-will-our-future-adaptations-be/</link>
+      <description><![CDATA[文章网址：https://alumni.berkeley.edu/california-magazine/summer-2017-adaptation/starship-or-canoe-where-will-our-future-adaptations-be/
+评论网址：https://news.ycombinator.com/item?id=39771446
+积分：4
+# 条评论：0]]></description>
+      <guid>https://alumni.berkeley.edu/california-magazine/summer-2017-adaptation/starship-or-canoe-where-will-our-future-adaptations-be/</guid>
+      <pubDate>Wed, 20 Mar 2024 20:11:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：GritQL，用于重写源代码的 Rust CLI</title>
+      <link>https://github.com/getgrit/gritql</link>
+      <description><![CDATA[大家好！我很高兴能够开源 GritQL，这是一个用于搜索和转换源代码的 Rust CLI。GritQL 来自我进行大规模重构和迁移的经验。通常，我将开始使用 grep 探索代码库。这很容易开始，但大多数迁移最终都会积累额外的要求，例如确保导入正确的包并排除没有可行迁移路径的情况。最终，为了构建复杂的迁移，我通常会以必须使用 jscodeshift 这样的工具编写完整的 codemod 程序。这也有其自身的问题：- 当您弄清楚如何将原始正则表达式搜索表示为 AST 时，大部分探索性工作都必须放弃。
+- 读/写 codemod 需要在心里将 AST 名称翻译回源代码实际的样子。
+- 性能通常是事后才考虑的，因此迭代大型代码模型可能会非常缓慢。
+- Codemod 框架是特定于语言的，因此，如果您在多种语言之间切换，或者尝试迁移共享 API，则必须学习不同的工具。GritQL 是开发强大中间立场的尝试：
+- 探索性分析很简单：只需将代码片段放在反引号中并使用 $metavariables 作为占位符。
+- 通过引入带有 where 子句的附加条件来逐渐增加复杂性。
+- 重用命名模式以避免重建查询，并使用我们标准库中的共享模式来执行常见任务，例如确保导入模块。
+- 快速迭代大型代码库：我们使用 Rust 来实现最大性能GritQL 已在数千个存储库中用于复杂迁移[1]，但我们很高兴能与开源社区进行更多合作。[1 ] 前任。 https://github.com/openai/openai-python/discussions/742
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39770908
+积分：37
+# 条评论：7]]></description>
+      <guid>https://github.com/getgrit/gritql</guid>
+      <pubDate>Wed, 20 Mar 2024 19:23:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>声明：AI 数据集中包含私有 GitHub 存储库</title>
+      <link>https://post.lurk.org/@emenel/112111014479288871</link>
+      <description><![CDATA[文章网址：https://post.lurk.org/@emenel/112111014479288871
+评论网址：https://news.ycombinator.com/item?id=39770712
+积分：141
+评论数量：104]]></description>
+      <guid>https://post.lurk.org/@emenel/112111014479288871</guid>
+      <pubDate>Wed, 20 Mar 2024 19:07:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>5GSimWaveform：5G 物理层开源通用波形模拟器</title>
+      <link>https://www.qamcom.com/look-into-qamcoms-research-on-5g/</link>
+      <description><![CDATA[文章网址：https://www.qamcom.com/look-into-qamcoms -研究-5G/
+评论网址：https://news.ycombinator.com/item?id=39770249
+积分：17
 # 条评论：1]]></description>
-      <guid>https://www.newyorker.com/magazine/2024/03/25/the-crime-rings-stealing-everything-from-purses-to-power-tools</guid>
-      <pubDate>Wed, 20 Mar 2024 17:41:21 GMT</pubDate>
+      <guid>https://www.qamcom.com/look-into-qamcoms-research-on-5g/</guid>
+      <pubDate>Wed, 20 Mar 2024 18:24:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI 的聊天机器人商店充斥着垃圾邮件</title>
+      <link>https://techcrunch.com/2024/03/20/openais-chatbot-store-is-filling-up-with-spam/</link>
+      <description><![CDATA[文章网址：https://techcrunch.com /2024/03/20/openais-chatbot-store-is-filling-up-with-spam/
+评论网址：https://news.ycombinator.com/item?id=39769708
+积分：91
+# 条评论：51]]></description>
+      <guid>https://techcrunch.com/2024/03/20/openais-chatbot-store-is-filling-up-with-spam/</guid>
+      <pubDate>Wed, 20 Mar 2024 17:34:58 GMT</pubDate>
     </item>
     <item>
       <title>推出 HN：CamelQA (YC W24) – 测试移动应用程序的人工智能</title>
@@ -21,8 +89,8 @@
       <description><![CDATA[嘿，HN！我们是camelQA (https://camelqa.com/)。我们正在构建一个人工智能代理，可以使用计算机视觉实现移动设备的自动化。我们的第一个用例是移动应用程序质量检查。我们将自然语言测试用例转换为在我们的设备场中的真实 iOS 和 Android 设备上运行的测试。不稳定的 UI 测试很糟糕。我们希望创建一个解决方案，让工程师不必浪费时间维护脆弱的脚本。camelQA 将可访问性元素数据与内部自定义纯视觉 RCNN 对象检测模型结合使用，并与 Google Siglip 配合进行 UI 元素分类（请参阅此处的示例输出 - https://camelqa.com/blog/sole-ui-element-detector .png）。这样，即使元素没有关联的辅助功能，我们也能够检测到它们。在幕后，代理正在使用 Appium 与设备进行交互。我们使用 GPT-4V 进行高级推理，使用 GPT-3.5 执行高级操作。在这里查看我们游乐场的 gif (https://camelqa.com/blog/sole-signup.gif )由于我们是基于视觉的，因此我们不需要访问您的源代码，并且我们可以跨所有应用程序类型工作 - SwiftUI 和 UIKit、React Native、Flutter。我们为 HN 构建了一个演示，您可以在其中使用我们的模型在模拟 iPhone 上控制维基百科。在这里查看（https://demo.camelqa.com/）。尝试给它一个任务，例如“为 Ilya Sutskever 的 wiki 页面添加书签”或“在“地点”选项卡中查找旧金山”。我们只运行 5 个模拟器，因此可能需要等待。输入第一个命令后，您将有 5 分钟的时间。如果您想看看我们的前端是什么样子，我们创建了一个帐户并进行了一些测试运行。使用此登录名（用户名：hackerNews 密码：1337hackerNews！）查看我们的沙盒 HN 帐户（https://dash.camelqa.com/login).去年，我们辞去了公司工作，投身人工智能领域。感觉就像我们无休止地测试我们的应用程序，即使是小的更新，我们仍然发布了一个错误，导致我们的一个应用程序在订阅时崩溃（有问题的应用程序 - https://apps.apple.com/us/app/tldr-ai-summarizer/id644930471...）。这是camelQA 的催化剂。我们很高兴听到你们的想法！
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=39769412
-积分：22
-# 条评论：7]]></description>
+积分：59
+# 条评论：19]]></description>
       <guid>https://news.ycombinator.com/item?id=39769412</guid>
       <pubDate>Wed, 20 Mar 2024 17:13:07 GMT</pubDate>
     </item>
@@ -37,74 +105,14 @@
       <pubDate>Wed, 20 Mar 2024 17:01:18 GMT</pubDate>
     </item>
     <item>
-      <title>介绍 GNOME 46，“加德满都”</title>
-      <link>https://release.gnome.org/46/</link>
-      <description><![CDATA[文章网址：https://release.gnome.org/46/
-评论网址：https://news.ycombinator.com/item?id=39769225
-积分：45
-# 条评论：22]]></description>
-      <guid>https://release.gnome.org/46/</guid>
-      <pubDate>Wed, 20 Mar 2024 16:58:18 GMT</pubDate>
-    </item>
-    <item>
       <title>可疑的不连续性 (2020)</title>
       <link>https://danluu.com/discontinuities/</link>
       <description><![CDATA[文章网址：https://danluu.com/discontinuities/
 评论网址：https://news.ycombinator.com/item?id=39768860
-积分：95
-# 条评论：55]]></description>
+积分：212
+# 条评论：112]]></description>
       <guid>https://danluu.com/discontinuities/</guid>
       <pubDate>Wed, 20 Mar 2024 16:31:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌学术 PDF 阅读器</title>
-      <link>https://scholar.googleblog.com/2024/03/supercharge-your-pdf-reading-follow.html</link>
-      <description><![CDATA[文章网址：https://scholar.googleblog.com/2024/ 03/supercharge-your-pdf-reading-follow.html
-评论网址：https://news.ycombinator.com/item?id=39768438
-积分：16
-# 条评论：4]]></description>
-      <guid>https://scholar.googleblog.com/2024/03/supercharge-your-pdf-reading-follow.html</guid>
-      <pubDate>Wed, 20 Mar 2024 16:03:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Flightradar24 的新 GPS 干扰地图</title>
-      <link>https://www.flightradar24.com/blog/gps-jamming-map/</link>
-      <description><![CDATA[文章网址：https://www.flightradar24.com/blog/gps-jamming-map/&lt; /a&gt;
-评论网址：https://news.ycombinator.com/item?id=39768434
-积分：246
-评论数：93]]></description>
-      <guid>https://www.flightradar24.com/blog/gps-jamming-map/</guid>
-      <pubDate>Wed, 20 Mar 2024 16:03:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>由于公司陷入困境，稳定扩散的关键研究人员离开了稳定人工智能</title>
-      <link>https://www.forbes.com/sites/iainmartin/2024/03/20/key-stable-diffusion-researchers-leave-stability-ai-as-company-flounders</link>
-      <description><![CDATA[文章网址：https://www.forbes.com/sites/iainmartin/2024/03/20/key-stable-diffusion-researchers-leave-stability-ai-as-company-flounders
-评论网址：https://news.ycombinator.com/item?id=39768402
-积分：70
-# 条评论：72]]></description>
-      <guid>https://www.forbes.com/sites/iainmartin/2024/03/20/key-stable-diffusion-researchers-leave-stability-ai-as-company-flounders</guid>
-      <pubDate>Wed, 20 Mar 2024 16:00:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>首席执行官表示，多名稳定性人工智能研究人员即将离职</title>
-      <link>https://twitter.com/kenrickcai/status/1770474370278035775</link>
-      <description><![CDATA[文章网址：https://twitter.com/kenrickcai/status/1770474370278035775
-评论网址：https://news.ycombinator.com/item?id=39768361
-积分：68
-# 条评论：30]]></description>
-      <guid>https://twitter.com/kenrickcai/status/1770474370278035775</guid>
-      <pubDate>Wed, 20 Mar 2024 15:58:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>强烈气旋过后，太平洋岛屿森林显着恢复</title>
-      <link>https://phys.org/news/2024-03-powerful-cyclone-remarkable-recovery-pacific.html</link>
-      <description><![CDATA[文章网址：https://phys.org/news/2024- 03-powerful-cyclone-remarkable-recovery-pacific.html
-评论网址：https://news.ycombinator.com/item?id=39767533
-积分：18
-# 条评论：3]]></description>
-      <guid>https://phys.org/news/2024-03-powerful-cyclone-remarkable-recovery-pacific.html</guid>
-      <pubDate>Wed, 20 Mar 2024 14:56:40 GMT</pubDate>
     </item>
     </channel>
 </rss>
