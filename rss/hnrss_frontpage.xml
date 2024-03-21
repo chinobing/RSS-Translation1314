@@ -4,54 +4,95 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 21 Mar 2024 15:15:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2024 18:17:26 GMT</lastBuildDate>
     <item>
-      <title>汽车、科技行业错误地声称“修复权”威胁国家安全</title>
-      <link>https://www.techdirt.com/2024/03/21/auto-tech-industries-falsely-claim-right-to-repair-reforms-are-a-threat-to-national-security/</link>
-      <description><![CDATA[文章网址：https://www.techdirt.com/2024/03/21/auto-tech-industries-falsely-claim-right-to-repair-reforms-are-a-threat-to -国家安全/
-评论网址：https://news.ycombinator.com/item?id=39779351
-积分：6
+      <title>显示 HN：DaLMatian – 有效的 Text2sql</title>
+      <link>https://www.dalmatian.ai/download</link>
+      <description><![CDATA[嘿 HN，我们构建了 DaLMatian，这是一款 text2sql 产品，可以满足数据分析师处理企业数据的需求。我们构建这个应用程序是因为作为一家企业的数据分析师，我找不到一个 text2sql 产品（1）对我的日常工作实际有用并且（2）易于在我的计算机上设置。现有产品要么在粗糙的企业数据/查询上进行测试时崩溃，要么需要经历我无法推动的销售/集成流程 - 我只是想要一些可以快速设置的东西，以帮助使我的工作更轻松。我们的目标是让任何有同样感受的数据分析师都能实现这一目标。有许多限制因素使得这一现实难以实现。该产品需要扩展到具有数百万列的数据库，并从非常复杂的查询中提取业务逻辑。它还需要足够快，至少比分析师编写查询的速度要快。最重要的是，从安全角度来看，需要允许分析师使用它。我们的应用程序满足企业数据分析师的所有关键要求，同时也足够轻量级，可以在典型笔记本电脑上本地运行。以下是它的工作原理。首先，您只需在我们的 IDE 中打开过去查询的文件（在此处尝试：https://www.dalmatian.ai/下载）并添加包含数据库架构的文件（此处的说明：https://www.dalmatian.ai/docs#配置）。还有一个选项可以连接数据库以自动提取您的架构（LLM 看不到实际数据）。我们看不到您输入的任何内容，因为该应用程序是本地的，唯一的外部连接是与 OpenAI 的连接。这就像向 ChatGPT 寻求查询帮助一样，但是以一种简化的方式。如果您下载我们的免费 IDE 并尝试破解它，我们很想听听您的想法！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39781418
+积分：8
+# 条评论：2]]></description>
+      <guid>https://www.dalmatian.ai/download</guid>
+      <pubDate>Thu, 21 Mar 2024 17:11:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>一起（YC S19）采访能解决这个算法问题的工程师</title>
+      <link>https://news.ycombinator.com/item?id=39781248</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=39781248
+积分：0
 # 条评论：0]]></description>
-      <guid>https://www.techdirt.com/2024/03/21/auto-tech-industries-falsely-claim-right-to-repair-reforms-are-a-threat-to-national-security/</guid>
-      <pubDate>Thu, 21 Mar 2024 15:01:45 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=39781248</guid>
+      <pubDate>Thu, 21 Mar 2024 17:00:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>维特新闻1.0</title>
+      <link>https://blog.vuejs.org/posts/vitepress-1.0</link>
+      <description><![CDATA[文章网址：https://blog.vuejs.org/posts/vitepress-1.0
+评论网址：https://news.ycombinator.com/item?id=39780284
+积分：75
+# 条评论：41]]></description>
+      <guid>https://blog.vuejs.org/posts/vitepress-1.0</guid>
+      <pubDate>Thu, 21 Mar 2024 15:58:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Ragas – 用于评估 RAG 管道的开源库</title>
+      <link>https://github.com/explodinggradients/ragas</link>
+      <description><![CDATA[Ragas 是一个开源库，用于评估和测试 RAG 和其他 LLM 应用程序。 Github：https://docs.ragas.io/en/stable/，文档：https://docs.ragas.io/。Ragas 为您提供不同的指标和方法集（例如综合测试数据生成）来帮助您评估 RAG应用程序。 Ragas 去年开始评估我们的 RAG 聊天机器人。Ragas 可以解决的问题- 如何为 RAG 选择最佳组件，例如检索器、 reranker 和 LLM？- 如何在不花费大量金钱和时间的情况下制定测试数据集？我们认为需要有一个开源标准来评估和测试 LLM 应用程序，我们的愿景是为社区构建它。我们正在通过从 LLM 应用程序的传统 ML 生命周期中发展思想来应对这一挑战。针对 LLM 应用程序发展的 ML 测试我们根据指标驱动开发和目标的原则构建 Ragas开发和创新受最先进研究启发的技术，以解决评估和测试 LLM 应用程序的问题。我们不认为评估和测试应用程序的问题可以通过构建花哨的跟踪来解决工具;相反，我们想从堆栈下面的一层来解决问题。为此，我们引入了自动综合测试数据管理、指标和反馈利用等方法，这些方法的灵感来自于我们作为 ML 工程师在职业生涯中部署随机模型的经验教训。虽然目前专注于 RAG 管道，但我们的目标是扩展 Ragas 以测试各种复合系统，包括基于 RAG、代理工作流程和各种转换的系统。在此处尝试 Ragas https://colab.research.google.com/github/shahules786/openai -... 在 Google Colab 中。请阅读我们的文档 - https://docs.ragas.io/ 了解更多信息我们很乐意听到 HN 的反馈社区:)
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39780114
+积分：14
+# 条评论：1]]></description>
+      <guid>https://github.com/explodinggradients/ragas</guid>
+      <pubDate>Thu, 21 Mar 2024 15:48:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>黑客找到了一种方法，可以在几秒钟内打开任何 3M 酒店钥匙卡锁</title>
+      <link>https://www.wired.com/story/saflok-hotel-lock-unsaflok-hack-technique/</link>
+      <description><![CDATA[文章网址：https://www.wired.com/story/saflok -hotel-lock-unsaflok-hack-technique/
+评论网址：https://news.ycombinator.com/item?id=39779291
+积分：96
+# 条评论：54]]></description>
+      <guid>https://www.wired.com/story/saflok-hotel-lock-unsaflok-hack-technique/</guid>
+      <pubDate>Thu, 21 Mar 2024 14:57:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>GoFetch：使用数据内存相关预取器的新侧通道攻击</title>
+      <link>https://gofetch.fail</link>
+      <description><![CDATA[文章网址：https://gofetch.fail
+评论网址：https://news.ycombinator.com/item?id=39779195
+积分：64
+# 条评论：19]]></description>
+      <guid>https://gofetch.fail</guid>
+      <pubDate>Thu, 21 Mar 2024 14:51:18 GMT</pubDate>
     </item>
     <item>
       <title>pgzx 简介：使用 Zig 创建 PostgreSQL 扩展</title>
       <link>https://xata.io/blog/introducing-pgzx</link>
       <description><![CDATA[文章网址：https://xata.io/blog/introducing-pgzx
 评论网址：https://news.ycombinator.com/item?id=39779024
-积分：12
-# 条评论：0]]></description>
+积分：76
+# 条评论：23]]></description>
       <guid>https://xata.io/blog/introducing-pgzx</guid>
       <pubDate>Thu, 21 Mar 2024 14:39:24 GMT</pubDate>
     </item>
     <item>
-      <title>美国起诉苹果公司，指控其维持 iPhone 垄断</title>
+      <title>美国起诉苹果公司，指控其维持 iPhone 垄断地位</title>
       <link>https://www.nytimes.com/2024/03/21/technology/apple-doj-lawsuit-antitrust.html</link>
       <description><![CDATA[文章网址：https://www.nytimes.com/ 2024/03/21/technology/apple-doj-lawsuit-antitrust.html
 评论网址：https://news.ycombinator.com/item?id=39778999
-积分：115
-评论数量：82]]></description>
+积分：930
+评论数：898]]></description>
       <guid>https://www.nytimes.com/2024/03/21/technology/apple-doj-lawsuit-antitrust.html</guid>
       <pubDate>Thu, 21 Mar 2024 14:37:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPS干扰每日地图</title>
-      <link>https://gpsjam.org/</link>
-      <description><![CDATA[文章网址：https://gpsjam.org/
-评论网址：https://news.ycombinator.com/item?id=39778751
-积分：10
-# 条评论：0]]></description>
-      <guid>https://gpsjam.org/</guid>
-      <pubDate>Thu, 21 Mar 2024 14:14:41 GMT</pubDate>
     </item>
     <item>
       <title>红迪网</title>
       <link>https://www.ycombinator.com/blog/the-reddits</link>
       <description><![CDATA[文章网址：https://www.ycombinator.com/blog/the-reddits
 评论网址：https://news.ycombinator.com/item?id=39778590
-积分：48
-# 条评论：63]]></description>
+积分：177
+# 条评论：333]]></description>
       <guid>https://www.ycombinator.com/blog/the-reddits</guid>
       <pubDate>Thu, 21 Mar 2024 14:00:04 GMT</pubDate>
     </item>
@@ -61,50 +102,10 @@
       <description><![CDATA[在过去的 5 年里，我一直致力于开发一个针对 CSS2 和一些更现代属性的布局引擎。现场演示：https://chearon.github.io/dropflow/它在所有情况下都匹配浏览器，我可以找到它们同意的地方，而且速度很快。它支持“position”、“inline-block”、“z-index”以及“float”和“vertical-align”等复杂属性。它还不支持像 Flexbox 或网格这样的高级布局，但是您可以获取内部函数来轻松地自己划分空间并绘制多个布局树。它具有出色的文本布局实现，并且支持非拉丁脚本是重中之重。早在 2013 年我就希望它存在，并且这个愿望不断出现：寻找一种获取详细内在函数的方法，用于画布和 SVG 的高质量富文本布局，以及服务器端富文本。目前，我们在 CellEngine 中将其用于新的基于画布的电子表格库，以在数十万个单元格中布局文本，并且很快将使用它在几秒钟内渲染数千页的 PDF。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=39778570
-积分：66
-# 条评论：8]]></description>
+积分：177
+# 条评论：58]]></description>
       <guid>https://github.com/chearon/dropflow</guid>
       <pubDate>Thu, 21 Mar 2024 13:58:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>什么是杀猪骗局？ (2023)</title>
-      <link>https://www.wired.com/story/what-is-pig-butchering-scam/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/what-is -猪屠宰骗局/
-评论网址：https://news.ycombinator.com/item?id=39778486
-积分：27
-# 条评论：31]]></description>
-      <guid>https://www.wired.com/story/what-is-pig-butchering-scam/</guid>
-      <pubDate>Thu, 21 Mar 2024 13:50:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>外科医生将猪肾移植到患者体内</title>
-      <link>https://www.nytimes.com/2024/03/21/health/pig-kidney-organ-transplant.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/ 2024/03/21/health/pig-kidney-organ-transplant.html
-评论网址：https://news.ycombinator.com/item?id=39778415
-积分：23
-# 条评论：19]]></description>
-      <guid>https://www.nytimes.com/2024/03/21/health/pig-kidney-organ-transplant.html</guid>
-      <pubDate>Thu, 21 Mar 2024 13:42:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>Difftastic，一种理解语法的结构差异工具</title>
-      <link>https://difftastic.wilfred.me.uk/</link>
-      <description><![CDATA[文章网址：https://difftastic.wilfred.me.uk/
-评论网址：https://news.ycombinator.com/item?id=39778412
-积分：96
-# 条评论：16]]></description>
-      <guid>https://difftastic.wilfred.me.uk/</guid>
-      <pubDate>Thu, 21 Mar 2024 13:42:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>联合健康集团 (UnitedHealth Group) 在网络攻击后已向提供商支付了超过 20 亿美元的费用</title>
-      <link>https://www.aol.com/news/unitedhealth-group-paid-more-2-125226015.html</link>
-      <description><![CDATA[文章网址：https://www.aol.com/news/ Unitedhealth-group-paid-more-2-125226015.html
-评论网址：https://news.ycombinator.com/item?id=39778372
-积分：24
-# 条评论：15]]></description>
-      <guid>https://www.aol.com/news/unitedhealth-group-paid-more-2-125226015.html</guid>
-      <pubDate>Thu, 21 Mar 2024 13:37:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
