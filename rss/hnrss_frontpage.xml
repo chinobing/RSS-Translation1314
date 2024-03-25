@@ -4,17 +4,99 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 25 Mar 2024 15:15:40 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2024 18:18:19 GMT</lastBuildDate>
+    <item>
+      <title>Livebook：Elixir 的瑞士军刀</title>
+      <link>https://www.thestackcanary.com/elixirs-secret-weapon/</link>
+      <description><![CDATA[文章网址：https://www.thestackcanary.com/elixirs-secret-weapon/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=39819157
+积分：12
+# 条评论：0]]></description>
+      <guid>https://www.thestackcanary.com/elixirs-secret-weapon/</guid>
+      <pubDate>Mon, 25 Mar 2024 17:36:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>用数学解决船员战斗策略</title>
+      <link>https://www.alexirpan.com/2024/03/23/crew-battle.html</link>
+      <description><![CDATA[文章网址：https://www.alexirpan.com/2024/03/23/船员战斗.html
+评论网址：https://news.ycombinator.com/item?id=39818825
+积分：7
+# 条评论：0]]></description>
+      <guid>https://www.alexirpan.com/2024/03/23/crew-battle.html</guid>
+      <pubDate>Mon, 25 Mar 2024 17:12:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Patterns (YC S21) 正在招聘法学硕士来自动化数据报告</title>
+      <link>https://patterns.app/</link>
+      <description><![CDATA[文章网址：https://patterns.app/
+评论网址：https://news.ycombinator.com/item?id=39818667
+积分：0
+# 条评论：0]]></description>
+      <guid>https://patterns.app/</guid>
+      <pubDate>Mon, 25 Mar 2024 17:00:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：AWS 无服务器上的多功能电子邮件基础设施</title>
+      <link>https://github.com/harryzcy/mailbox</link>
+      <description><![CDATA[这是一个自托管邮箱，用于发送到您自己的域的所有电子邮件，包括 Web 界面和 CLI。注释：- 只要正确设置您的 DNS，所有电子邮件都共享同一个收件箱- 通过自托管 Docker 或 Cloudflare 页面的 Web 客户端- 需要额外的访问控制，可以在 Cloudflare 部署中使用基本身份验证或转发身份验证
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39818284
+积分：16
+# 条评论：0]]></description>
+      <guid>https://github.com/harryzcy/mailbox</guid>
+      <pubDate>Mon, 25 Mar 2024 16:28:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>半导体行业取决于北卡罗来纳州的一家石英工厂</title>
+      <link>https://www.tomshardware.com/tech-industry/semiconductors/the-worlds-semiconductor-industry-hinges-on-a-quartz-factory-in-north-carolina</link>
+      <description><![CDATA[文章网址：https://www.tomshardware.com/tech-industry/semiconductors/the-worlds-semiconductor-industry-hinges-on-a-quartz-factory-in-north-carolina
+评论网址：https://news.ycombinator.com/item?id=39818248
+积分：54
+# 条评论：39]]></description>
+      <guid>https://www.tomshardware.com/tech-industry/semiconductors/the-worlds-semiconductor-industry-hinges-on-a-quartz-factory-in-north-carolina</guid>
+      <pubDate>Mon, 25 Mar 2024 16:24:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>胡迪尼与逃脱的艺术 (2020)</title>
+      <link>https://www.newyorker.com/magazine/2020/03/30/harry-houdini-and-the-art-of-escape</link>
+      <description><![CDATA[文章网址：https://www. newyorker.com/magazine/2020/03/30/harry-houdini-and-the-art-of-escape
+评论网址：https://news.ycombinator.com/item?id=39818231
+积分：7
+# 条评论：1]]></description>
+      <guid>https://www.newyorker.com/magazine/2020/03/30/harry-houdini-and-the-art-of-escape</guid>
+      <pubDate>Mon, 25 Mar 2024 16:22:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：通过监听 localhost 自动生成 OpenAPI 规范</title>
+      <link>https://github.com/Adawg4/openapi-autospec</link>
+      <description><![CDATA[嘿，HN！我们开发了 OpenAPI AutoSpec，这是一个从本地主机网络流量自动生成 OpenAPI 规范的工具。它旨在通过仅使用您的网站或服务来简化 API 文档的创建，在您时间紧迫时尤其有用。一一记录端点很糟糕。这个项目源于我们过去在构建第 3 方集成时需要它。它充当本地服务器代理，侦听应用程序的 HTTP 流量并自动将其转换为 OpenAPI 3.0 规范，记录端点、请求和毫不费力地响应。使用 NPM 进行安装非常简单，启动服务器只需要几个命令行参数来指定您希望文档生成的方式和位置。 npx autospec --portTo PORT --portFrom PORT --filePath openapi.json它旨在与任何本地网站或应用程序设置配合使用，无需进行大量设置或干扰现有代码，使其能够灵活地适应不同的框架。我们尝试在 Chrome 扩展程序上捕获网络流量，但这并不能帮助我们全面了解后端和前端交互。我们的目标是在未来的更新中引入 HTTPS 和 OpenAPI 3.1 规范支持等功能。了解更多详细信息要开始使用，请访问我们的 GitHub 页面 (https://github.com/Adawg4/openapi-autospec)。我们还有一个 Discord 社区 (https://discord.com/invite/CRnxg7uduH) 提供支持和讨论围绕有效使用 OpenAPI AutoSpec。我们很高兴听到大家的想法！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39817850
+积分：5
+# 条评论：0]]></description>
+      <guid>https://github.com/Adawg4/openapi-autospec</guid>
+      <pubDate>Mon, 25 Mar 2024 15:49:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>从全栈开发到系统编程</title>
+      <link>https://ochagavia.nl/blog/from-full-stack-development-to-systems-programming/</link>
+      <description><![CDATA[文章网址：https://ochagavia.nl/blog/from-full -堆栈开发到系统编程/
+评论网址：https://news.ycombinator.com/item?id=39817026
+积分：12
+# 条评论：3]]></description>
+      <guid>https://ochagavia.nl/blog/from-full-stack-development-to-systems-programming/</guid>
+      <pubDate>Mon, 25 Mar 2024 14:50:21 GMT</pubDate>
+    </item>
     <item>
       <title>Show HN：Jampack – 优化静态网站作为后处理步骤</title>
       <link>https://github.com/divriots/jampack</link>
-      <description><![CDATA[嗨！Jampack 是一种后处理工具，它获取静态站点生成器（又名 SSG）的输出并对其进行优化，以获得最佳用户体验和最佳 Core Web Vitals 分数。截至今天，它可以:- 优化本地图像、CDN 图像或外部图像- 优化首屏与非首屏- 限制图像最大宽度- 内联关键CSS- 预取滚动链接- 提高浏览器兼容性- 自动修复 HTML 问题- 针对 HTML 可访问性问题发出警告- 最后压缩所有资源它直接处理静态输出，因此兼容与任何 SSG 或框架。例如，我们大量使用它作为 Astro 网站的后处理步骤。通过 Jampack，我们最终会更多地关注我们的代码的简单性、可读性和可维护性，抛出任何大小的图像，并让它优化以获得最大性能。我们希望这对很多人有帮助！
+      <description><![CDATA[嗨！Jampack 是一种后处理工具，它获取静态站点生成器（又名 SSG）的输出并对其进行优化，以获得最佳用户体验和最佳 Core Web Vitals 分数。截至今天，它可以:- 优化本地图像、CDN 图像或外部图像- 优化首屏与非首屏- 限制图像最大宽度- 内联关键 CSS- 预取滚动链接- 提高浏览器兼容性- 自动修复 HTML 问题- 针对 HTML 可访问性问题发出警告- 最后压缩所有资源它直接处理静态输出，因此兼容与任何 SSG 或框架。例如，我们大量使用它作为 Astro 网站的后处理步骤。通过 Jampack，我们最终更多地关注我们的代码的简单性、可读性和可维护性，抛出任何大小的图像，并让它优化以获得最大性能。我们希望这对很多人有帮助！
 干杯，
 乔治和RIOTS团队！
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=39816836
-积分：10
-# 条评论：0]]></description>
+积分：142
+# 条评论：25]]></description>
       <guid>https://github.com/divriots/jampack</guid>
       <pubDate>Mon, 25 Mar 2024 14:32:46 GMT</pubDate>
     </item>
@@ -23,96 +105,10 @@
       <link>https://github.com/Mechazawa/103-early-anti-adblock</link>
       <description><![CDATA[文章网址：https://github.com/Mechazawa/103-early-anti-adblock
 评论网址：https://news.ycombinator.com/item?id=39816835
-积分：13
-# 条评论：6]]></description>
+积分：63
+# 条评论：73]]></description>
       <guid>https://github.com/Mechazawa/103-early-anti-adblock</guid>
       <pubDate>Mon, 25 Mar 2024 14:32:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的 400 美元人工智能购物收获：人工智能如何改变我们的购物方式</title>
-      <link>https://www.theverge.com/24087909/ai-shopping-tools-fashion-tech-finesse-pebblely-ecommerce</link>
-      <description><![CDATA[文章网址：https://www.theverge.com/ 24087909/ai-shopping-tools-fashion-tech-finesse-pebblely-ecommerce
-评论网址：https://news.ycombinator.com/item?id=39816834
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.theverge.com/24087909/ai-shopping-tools-fashion-tech-finesse-pebblely-ecommerce</guid>
-      <pubDate>Mon, 25 Mar 2024 14:32:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Flatito，用于 YAML 和 JSON 文件的 grep</title>
-      <link>https://github.com/ceritium/flatito</link>
-      <description><![CDATA[它是一种针对 YAML 和 JSON 文件的 grep。它允许您搜索键并获取值和它所在的行号。我创建这个工具是因为我有时很难在典型的 i18n Rails yaml 中找到特定的键。在视图中，您并不总是拥有完整的密钥，但它是从上下文中推断出来的。我确信还有其他用例；我希望您觉得它有用。干杯！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39816808
-积分：3
-# 条评论：0]]></description>
-      <guid>https://github.com/ceritium/flatito</guid>
-      <pubDate>Mon, 25 Mar 2024 14:30:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：开始使用我自己的服务器的提示</title>
-      <link>https://news.ycombinator.com/item?id=39816789</link>
-      <description><![CDATA[我想做的事：获得托管和维护 Linux 服务器的经验（性能、秒等）。我喜欢所提供的抽象云服务，它使我能够构建东西而无需了解细节 - 但我认为这些知识会有所帮助。
-如果可能的话，以大约 10 美元/月的价格在云上租用一台服务器，使用驻留在服务器上的所有内容构建一个供个人使用的应用程序。没什么重要的。-----原因：我一直想这么做。这周我读了一些 HN 的帖子，这些帖子激励我最终实现了这一飞跃。例如， - 我读了这篇文章，意识到我不知道这些命令是什么（我一直使用 Windows），是时候开始了。
-https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html- SingleFile 帖子。我已经用我现在使用的 Supabase 构建了一个，但我想用 CLI、我自己的数据库等构建一个。-----我现在的情况：我有相当多的经验为应用程序构建 FE 和 BE，主要利用云服务（无服务器、托管数据库等）。我还在本地托管了一些供个人使用但未向互联网开放的应用程序，例如 Postgres 和 Nginx（所有 Windows）。一些 DevOps 经验。
-认真对待安全性，但没有网络方面的实践经验，我想真正了解并减少攻击面等，而不仅仅是翻转开关。-----我要求的内容：任何建议如何去做、资源、链接、建议——也请随时分享您的经验。谢谢！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39816789
-积分：27
-# 条评论：29]]></description>
-      <guid>https://news.ycombinator.com/item?id=39816789</guid>
-      <pubDate>Mon, 25 Mar 2024 14:28:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>直播平台上的性文化：Twitch.tv 的内容分析</title>
-      <link>https://www.nature.com/articles/s41599-024-02724-z</link>
-      <description><![CDATA[文章网址：https://www.nature.com/articles/s41599-024-02724- z
-评论网址：https://news.ycombinator.com/item?id=39816558
-积分：29
-# 条评论：6]]></description>
-      <guid>https://www.nature.com/articles/s41599-024-02724-z</guid>
-      <pubDate>Mon, 25 Mar 2024 14:11:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>为了获得绚丽的色彩：包装第一张 LSD 吸墨纸</title>
-      <link>https://thereader.mitpress.mit.edu/for-brilliant-color-packaging-the-first-lsd-blotter/</link>
-      <description><![CDATA[文章网址：https://thereader.mitpress.mit .edu/for-brilliant-color-packaging-the-first-lsd-blotter/
-评论网址：https://news.ycombinator.com/item?id=39816423
-积分：42
-# 条评论：12]]></description>
-      <guid>https://thereader.mitpress.mit.edu/for-brilliant-color-packaging-the-first-lsd-blotter/</guid>
-      <pubDate>Mon, 25 Mar 2024 14:01:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Nano-web，一种低延迟的单二进制 Web 服务器，专为 SPA 服务而设计</title>
-      <link>https://github.com/radiosilence/nano-web</link>
-      <description><![CDATA[我发现虽然网络服务器有很多不错的选择，但我一直在寻找一种可与容器或 unikernel 一起使用的单一可部署二进制文件，并解决其他设置遇到的一些问题，例如nginx。它使用单个编译的二进制文件，由于在运行时将所有文件缓存在内存中，因此延迟极低，而且还有有趣的功能，非常有用，这对于 SPA（例如 Vite）或 Astro 之类的东西很有用是您可以在运行时将配置变量注入其中并从前端代码中访问它们，因此您不必在 CI 中为不同环境重建任何映像。虽然我确信这个问题存在一次又一次地被解决，我永远无法找到一个完全正确的解决方案。此外，从 S3 提供像 Astro 这样的东西会变得很棘手，因为 CloudFront 不支持子目录中的索引页，因此路由会中断。这解决了这个问题。无论使用还是不使用，我认为这是一个很酷的小项目，自从我工作并发布一些东西以来已经有一段时间了:)
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39815976
-积分：37
-# 条评论：4]]></description>
-      <guid>https://github.com/radiosilence/nano-web</guid>
-      <pubDate>Mon, 25 Mar 2024 13:23:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>巴塞罗那圣家堂将于2026年竣工</title>
-      <link>https://www.cnn.com/2024/03/25/travel/sagrada-familia-barcelona-completion-scli-intl/index.html</link>
-      <description><![CDATA[文章网址：https:// www.cnn.com/2024/03/25/travel/sagrada-familia-barcelona-completion-scli-intl/index.html
-评论网址：https://news.ycombinator.com/item?id=39815805
-积分：180
-# 条评论：129]]></description>
-      <guid>https://www.cnn.com/2024/03/25/travel/sagrada-familia-barcelona-completion-scli-intl/index.html</guid>
-      <pubDate>Mon, 25 Mar 2024 13:06:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>德国太阳能电池板行业曾经的领导者正受到挤压</title>
-      <link>https://www.nytimes.com/2024/03/25/business/germany-solar-panels-china-protectionism.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes。 com/2024/03/25/business/germany-solar-panels-china-protectionism.html
-评论网址：https://news.ycombinator.com/item?id=39815458
-积分：63
-评论数：80]]></description>
-      <guid>https://www.nytimes.com/2024/03/25/business/germany-solar-panels-china-protectionism.html</guid>
-      <pubDate>Mon, 25 Mar 2024 12:27:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
