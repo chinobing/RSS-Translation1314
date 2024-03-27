@@ -4,109 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 27 Mar 2024 12:25:54 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 Mar 2024 15:15:13 GMT</lastBuildDate>
     <item>
-      <title>欧盟国家相对于 2030 年目标在可持续发展目标 7 方面取得的进展</title>
-      <link>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0297856#pone.0297856.ref083</link>
-      <description><![CDATA[文章网址：https://journals.plos。 org/plosone/article?id=10.1371/journal.pone.0297856#pone.0297856.ref083
-评论网址：https://news.ycombinator.com/item?id=39838017
+      <title>两个 DNSSEC 缺陷的真实严重性引发争论</title>
+      <link>https://www.theregister.com/2024/03/26/software_risk_scores/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2024/03/26/software_risk_scores/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=39840242
 积分：1
 # 条评论：0]]></description>
-      <guid>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0297856#pone.0297856.ref083</guid>
-      <pubDate>Wed, 27 Mar 2024 12:13:13 GMT</pubDate>
+      <guid>https://www.theregister.com/2024/03/26/software_risk_scores/</guid>
+      <pubDate>Wed, 27 Mar 2024 15:06:06 GMT</pubDate>
     </item>
     <item>
-      <title>木材三维打印</title>
-      <link>https://www.science.org/doi/10.1126/sciadv.adk3250</link>
-      <description><![CDATA[文章网址：https://www.science.org/doi/10.1126/sciadv.adk3250
-评论网址：https://news.ycombinator.com/item?id=39838003
+      <title>哪个先出现：超大质量黑洞还是星系？来自 JWST 的见解</title>
+      <link>https://iopscience.iop.org/article/10.3847/2041-8213/ad1bf0</link>
+      <description><![CDATA[文章网址：https://iopscience.iop.org/article/10.3847/2041-8213/ ad1bf0
+评论网址：https://news.ycombinator.com/item?id=39840237
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.science.org/doi/10.1126/sciadv.adk3250</guid>
-      <pubDate>Wed, 27 Mar 2024 12:11:12 GMT</pubDate>
+      <guid>https://iopscience.iop.org/article/10.3847/2041-8213/ad1bf0</guid>
+      <pubDate>Wed, 27 Mar 2024 15:05:26 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Impulse XDR、实时威胁检测和完整性监控</title>
-      <link>https://github.com/bgenev/impulse-xdr</link>
-      <description><![CDATA[HN 您好！将下一代安全遥测技术部署到生产中非常困难，因此我正在构建 Impulse，这是一个完全自动化的 XDR 平台，它利用 Osquery 和 eBPF 等工具来提供实时威胁检测和服务器和工作站的完整性监控。它通过行为模式而不是签名来检测恶意软件，并比传统工具提供更深入的可见性。 Impulse 代理可以部署在任何运行 Linux 的设备或虚拟机上，例如 VPC 网络中的云虚拟机、VPS 服务器或个人工作站和物联网。在架构方面，它是围绕自托管的管理器-传感器模型进行组织的，该模型提供传统的 SIEM 功能，如集中式日志存储、索引和标准化，还通过 2 个开源 EDR 传感器（一个称为“轻型”传感器，用于主机入侵检测，另一个称为“重型”传感器，具有网络 IDS）进行自动日志关联和实时威胁检测功能）。它的设计目标是快速且易于使用，因此只需 5 分钟即可在 1.5 GB RAM、1 核虚拟机上安装。存储库：https://github.com/bgenev/impulse-xdr
-网页：https://impulse-xdr.com/主要功能包括：- 安全性分析：从监控传感器组中获取遥测数据，并提供安全分析和见解。- 对环境的各个方面进行完整性监控 - 文件、进程、连接、端口、用户、身份验证、已安装的软件包、内核模块等. 每个可能成为危害指标的变量都会被跟踪并存储在“IOC 历史记录”表中。- 网络可视性和 IDS：监控网络流量、检测入侵尝试并通过主动响应自动阻止违规者。- 安全性策略：监控系统配置设置，以确保符合预设的核心安全策略并提供 CIS 基准报告。- 主动响应：阻止可疑 IP、停止进程、关闭端口并隔离文件。- 队列防火墙：nftables-基于舰队防火墙阻止整个舰队中的犯罪者。- 威胁英特尔：与高质量威胁情报提供商集成，以丰富您的上下文数据。- 漏洞扫描：发现已安装的软件包和关联的 CVE。- 自检托管和开放核心：数据永远不会离开您的服务器。请随时分享任何进一步开发的请求，这将是一个社区驱动的项目。路线图：下一个主要迭代将具有自定义安全配置包，以便用户可以创建特定于其基础设施的检查。
+      <title>将 podman 与 Parallels 结合使用来开发 Elixir 项目</title>
+      <link>https://nobilisdata.com/blog/podman_using_parallels_and_shared_folders_for_elixir_development/index.html</link>
+      <description><![CDATA[文章网址：https://nobilisdata.com/blog/podman_using_parallels_and_shared_folders_for_elixir_development/index.html
+评论网址：https://news.ycombinator.com/item?id=39840224
+积分：1
+# 条评论：0]]></description>
+      <guid>https://nobilisdata.com/blog/podman_using_parallels_and_shared_folders_for_elixir_development/index.html</guid>
+      <pubDate>Wed, 27 Mar 2024 15:04:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>特斯拉转向中国拯救了马斯克。这也将他与北京联系在一起</title>
+      <link>https://www.nytimes.com/2024/03/27/world/asia/elon-musk-tesla-china.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes。 com/2024/03/27/world/asia/elon-musk-tesla-china.html
+评论网址：https://news.ycombinator.com/item?id=39840210
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nytimes.com/2024/03/27/world/asia/elon-musk-tesla-china.html</guid>
+      <pubDate>Wed, 27 Mar 2024 15:03:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>最强大的开源AI模型DBRX的创建</title>
+      <link>https://www.wired.com/story/dbrx-inside-the-creation-of-the-worlds-most-powerful-open-source-ai-model/</link>
+      <description><![CDATA[文章网址：https://www.wired.com/story/dbrx-inside-the-creation-of-the-worlds-most-powerful-open-source-ai-model/
+评论网址：https://news.ycombinator.com/item?id=39840206
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.wired.com/story/dbrx-inside-the-creation-of-the-worlds-most-powerful-open-source-ai-model/</guid>
+      <pubDate>Wed, 27 Mar 2024 15:03:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>告诉 HN：滥用 YC HN 招聘后 Upduo 垃圾邮件</title>
+      <link>https://news.ycombinator.com/item?id=39840196</link>
+      <description><![CDATA[Upduo 团队滥用了 YC HN 招聘页面，并用它来收集电子邮件地址以发送邮件列表垃圾邮件。Upduo 团队，您为什么滥用 YC HN 招聘页面？您获得的电子邮件地址只能用于获得工作机会的目的。我们没有订阅您的邮件列表垃圾邮件。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39837994
+评论网址：https://news.ycombinator.com/item?id=39840196
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/bgenev/impulse-xdr</guid>
-      <pubDate>Wed, 27 Mar 2024 12:09:48 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=39840196</guid>
+      <pubDate>Wed, 27 Mar 2024 15:02:39 GMT</pubDate>
     </item>
     <item>
-      <title>IRS 第 174 条不太可能在 2024 年得到解决</title>
-      <link>https://www.resourcefulfinancepro.com/news/irs-section-174-tax-breaks-off-the-table-till-2025/</link>
-      <description><![CDATA[文章网址：https://www .resourcefulfinancepro.com/news/irs-section-174-tax-breaks-off-the-table-till-2025/
-评论网址：https://news.ycombinator.com/item?id=39837992
+      <title>通过创造新世界来探索计算的研究人员</title>
+      <link>https://www.quantamagazine.org/the-researcher-who-explores-computation-by-conjuring-new-worlds-20240327/</link>
+      <description><![CDATA[文章网址：https://www.quantamagazine .org/the-researcher-who-explores-computation-by-conjuring-new-worlds-20240327/
+评论网址：https://news.ycombinator.com/item?id=39840155
 积分：2
+# 条评论：0]]></description>
+      <guid>https://www.quantamagazine.org/the-researcher-who-explores-computation-by-conjuring-new-worlds-20240327/</guid>
+      <pubDate>Wed, 27 Mar 2024 14:59:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>泰晤士潮道隧道超级下水道竣工</title>
+      <link>https://www.bbc.com/news/science-environment-68464798</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/science-environment-68464798
+评论网址：https://news.ycombinator.com/item?id=39840150
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.bbc.com/news/science-environment-68464798</guid>
+      <pubDate>Wed, 27 Mar 2024 14:59:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>真理没有算法——汤姆·斯科特</title>
+      <link>https://www.youtube.com/watch?v=leX541Dr2rU</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=leX541Dr2rU
+评论网址：https://news.ycombinator.com/item?id=39840120
+积分：1
 # 条评论：1]]></description>
-      <guid>https://www.resourcefulfinancepro.com/news/irs-section-174-tax-breaks-off-the-table-till-2025/</guid>
-      <pubDate>Wed, 27 Mar 2024 12:09:34 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=leX541Dr2rU</guid>
+      <pubDate>Wed, 27 Mar 2024 14:57:30 GMT</pubDate>
     </item>
     <item>
-      <title>Oxide Computer Company 的 Nathanael Huffman 在 Microarch Club 播客上</title>
-      <link>https://microarch.club/episodes/100/</link>
-      <description><![CDATA[文章网址：https://microarch.club/episodes/100/
-评论网址：https://news.ycombinator.com/item?id=39837991
+      <title>通过 DNS 旋转发现恶意基础设施</title>
+      <link>https://embee-research.ghost.io/infrastructure-analysis-with-dns-pivoting/</link>
+      <description><![CDATA[文章网址：https://embee-research.ghost.io/infrastruct-analysis -with-dns-pivoting/
+评论网址：https://news.ycombinator.com/item?id=39840098
 积分：1
 # 条评论：0]]></description>
-      <guid>https://microarch.club/episodes/100/</guid>
-      <pubDate>Wed, 27 Mar 2024 12:09:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>新数据显示，寻求博士后职位的美国科学家越来越少</title>
-      <link>https://www.science.org/content/article/fewer-u-s-scientists-are-pursuing-postdoc-positions-new-data-show</link>
-      <description><![CDATA[文章网址：https:// www.science.org/content/article/fewer-u-s-scientists-are-pursuing-postdoc-positions-new-data-show
-评论网址：https://news.ycombinator.com/item?id=39837977
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.science.org/content/article/fewer-u-s-scientists-are-pursuing-postdoc-positions-new-data-show</guid>
-      <pubDate>Wed, 27 Mar 2024 12:07:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>DBRX：135B MoE LLM 由 Databricks 培训并开源</title>
-      <link>https://www.databricks.com/blog/announcing-dbrx-new-standard-efficient-open-source-customizable-llms</link>
-      <description><![CDATA[文章网址：https://www.databricks。 com/blog/announcing-dbrx-new-standard-efficient-open-source-customized-llms
-评论网址：https://news.ycombinator.com/item?id=39837966
-积分：2
-# 条评论：1]]></description>
-      <guid>https://www.databricks.com/blog/announcing-dbrx-new-standard-efficient-open-source-customizable-llms</guid>
-      <pubDate>Wed, 27 Mar 2024 12:05:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：当可以购买点赞时，产品搜寻发布仍然重要吗？</title>
-      <link>https://news.ycombinator.com/item?id=39837948</link>
-      <description><![CDATA[我们今天在 Product Hunt 上推出了开源开发环境管理器 Daytona。虽然我们的点赞数和排名（目前徘徊在 #3-#4 左右）保持稳定，但我们注意到其他产品出现了一些奇怪的活动。使用 Hunted.space 仪表板，我们可以看到点赞数和排名在以下时间段内波动：某些产品看起来不有机。看起来 Product Hunt 可能正在打击投票操纵策略并纠正夸大的数字。从点赞图表的下降中可以明显看出这一点。这让我们怀疑，购买点赞服务和夸大排名的付费策略是否在 Product Hunt 上失控了。HN 中还有其他人吗？社区也注意到了这一点？ Product Hunt 似乎正在积极识别和纠正使用不正当方法来欺骗其系统的产品。但也许还不够难？很高兴看到 Product Hunt 采取措施来保持真实性。然而，希盟现在是否已经过时了？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39837948
-积分：2
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=39837948</guid>
-      <pubDate>Wed, 27 Mar 2024 12:02:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>我制作了显示时间而不是空间的地图 [视频]</title>
-      <link>https://www.youtube.com/watch?v=rC2VQ-oyDG0</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=rC2VQ-oyDG0
-评论网址：https://news.ycombinator.com/item?id=39837946
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=rC2VQ-oyDG0</guid>
-      <pubDate>Wed, 27 Mar 2024 12:02:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Visa、Mastercard 就信用卡费用达成 30B 美元和解</title>
-      <link>https://www.reuters.com/business/finance/mastercard-visa-reach-30-bln-settlement-over-credit-card-fees-2024-03-26/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/business/finance/mastercard-visa-reach-30-bln-settlement-over-credit-card-fees-2024-03-26/
-评论网址：https://news.ycombinator.com/item?id=39837925
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.reuters.com/business/finance/mastercard-visa-reach-30-bln-settlement-over-credit-card-fees-2024-03-26/</guid>
-      <pubDate>Wed, 27 Mar 2024 12:00:29 GMT</pubDate>
+      <guid>https://embee-research.ghost.io/infrastructure-analysis-with-dns-pivoting/</guid>
+      <pubDate>Wed, 27 Mar 2024 14:56:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
