@@ -4,122 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 27 Mar 2024 09:15:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 Mar 2024 12:25:54 GMT</lastBuildDate>
     <item>
-      <title>一艘船是如何摧毁巴尔的摩的钥匙桥的？ [视频]</title>
-      <link>https://www.youtube.com/watch?v=TlIhoxIxM30</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=TlIhoxIxM30
-评论网址：https://news.ycombinator.com/item?id=39836949
+      <title>欧盟国家相对于 2030 年目标在可持续发展目标 7 方面取得的进展</title>
+      <link>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0297856#pone.0297856.ref083</link>
+      <description><![CDATA[文章网址：https://journals.plos。 org/plosone/article?id=10.1371/journal.pone.0297856#pone.0297856.ref083
+评论网址：https://news.ycombinator.com/item?id=39838017
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=TlIhoxIxM30</guid>
-      <pubDate>Wed, 27 Mar 2024 09:14:05 GMT</pubDate>
+      <guid>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0297856#pone.0297856.ref083</guid>
+      <pubDate>Wed, 27 Mar 2024 12:13:13 GMT</pubDate>
     </item>
     <item>
-      <title>提取见解的数据分析指南</title>
-      <link>https://news.ycombinator.com/item?id=39836942</link>
-      <description><![CDATA[在当今数据驱动的世界中，大量数据让企业不堪重负。然而，利用这些数据的力量需要有效的分析技术。每天产生约 3.28 亿 TB 的数据，了解收集和分析数据集的正确步骤至关重要。
-在本综合指南中，我们将探讨数据集的含义并提供分析数据集的分步方法。
-什么是数据集？
-数据集是相关数据元素的结构化集合，组织并存储在一起。这些数据集有各种形式和大小，包括数字、分类和基于文本的数据集。
-您如何分析数据？
-数据分析涉及收集和分析数据，以获得对决策有意义的见解。以下是有效分析数据集的六个步骤：
-1. 清理数据：通过纠正不一致、消除重复和整合数据来确保数据准确性。
-2. 提出正确的问题：定义您希望分析回答的具体问题。
-3. 将数据细分：将数据细分为具有共同属性的更小的组，以便进行详细分析。
-4. 数据可视化：利用数据可视化技术快速识别模式和趋势。
-5. 使用数据回答您的问题：解释分析的数据以解决您预先定义的问题。
-6. 补充定性数据：利用定性信息加强定量分析，以获得更深入的见解。
-分析数据集的顶级技术
-数据可视化、统计分析、文本挖掘和机器学习等多种技术可以增强数据集分析。每种技术都具有发现见解和做出明智决策的独特优势。您还可以使用 MarkovML 等无代码平台来快速分析数据集并做出明智的决策。
-数据分析对于想要在当今以数据为中心的环境中蓬勃发展的企业至关重要。通过遵循本指南中概述的步骤并利用先进的分析技术，企业可以释放其数据集的全部潜力。
-阅读完整文章，了解如何从数据集中提取见解：https://www.markovml.com/blog/analyze-datasets#Analytics #Datasets #DataAnalysis #stepbystep #DataScience #howto #datavisibility #MachineLearning #BusinessGrowthTips #GrowthIdeas #BigData #DataInsights #AnalyticsGuide #DataVisualization #MachineLearning #BusinessIntelligence #DataDrivenDecisions #DataAnalytics #MarkovML
+      <title>木材三维打印</title>
+      <link>https://www.science.org/doi/10.1126/sciadv.adk3250</link>
+      <description><![CDATA[文章网址：https://www.science.org/doi/10.1126/sciadv.adk3250
+评论网址：https://news.ycombinator.com/item?id=39838003
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.science.org/doi/10.1126/sciadv.adk3250</guid>
+      <pubDate>Wed, 27 Mar 2024 12:11:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Impulse XDR、实时威胁检测和完整性监控</title>
+      <link>https://github.com/bgenev/impulse-xdr</link>
+      <description><![CDATA[HN 您好！将下一代安全遥测技术部署到生产中非常困难，因此我正在构建 Impulse，这是一个完全自动化的 XDR 平台，它利用 Osquery 和 eBPF 等工具来提供实时威胁检测和服务器和工作站的完整性监控。它通过行为模式而不是签名来检测恶意软件，并比传统工具提供更深入的可见性。 Impulse 代理可以部署在任何运行 Linux 的设备或虚拟机上，例如 VPC 网络中的云虚拟机、VPS 服务器或个人工作站和物联网。在架构方面，它是围绕自托管的管理器-传感器模型进行组织的，该模型提供传统的 SIEM 功能，如集中式日志存储、索引和标准化，还通过 2 个开源 EDR 传感器（一个称为“轻型”传感器，用于主机入侵检测，另一个称为“重型”传感器，具有网络 IDS）进行自动日志关联和实时威胁检测功能）。它的设计目标是快速且易于使用，因此只需 5 分钟即可在 1.5 GB RAM、1 核虚拟机上安装。存储库：https://github.com/bgenev/impulse-xdr
+网页：https://impulse-xdr.com/主要功能包括：- 安全性分析：从监控传感器组中获取遥测数据，并提供安全分析和见解。- 对环境的各个方面进行完整性监控 - 文件、进程、连接、端口、用户、身份验证、已安装的软件包、内核模块等. 每个可能成为危害指标的变量都会被跟踪并存储在“IOC 历史记录”表中。- 网络可视性和 IDS：监控网络流量、检测入侵尝试并通过主动响应自动阻止违规者。- 安全性策略：监控系统配置设置，以确保符合预设的核心安全策略并提供 CIS 基准报告。- 主动响应：阻止可疑 IP、停止进程、关闭端口并隔离文件。- 队列防火墙：nftables-基于舰队防火墙阻止整个舰队中的犯罪者。- 威胁英特尔：与高质量威胁情报提供商集成，以丰富您的上下文数据。- 漏洞扫描：发现已安装的软件包和关联的 CVE。- 自检托管和开放核心：数据永远不会离开您的服务器。请随时分享任何进一步开发的请求，这将是一个社区驱动的项目。路线图：下一个主要迭代将具有自定义安全配置包，以便用户可以创建特定于其基础设施的检查。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39836942
+评论网址：https://news.ycombinator.com/item?id=39837994
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=39836942</guid>
-      <pubDate>Wed, 27 Mar 2024 09:12:42 GMT</pubDate>
+      <guid>https://github.com/bgenev/impulse-xdr</guid>
+      <pubDate>Wed, 27 Mar 2024 12:09:48 GMT</pubDate>
     </item>
     <item>
-      <title>AI 一步生成高质量图像的速度提高了 30 倍</title>
-      <link>https://news.mit.edu/2024/ai-generates-high-quality-images-30-times-faster-single-step-0321</link>
-      <description><![CDATA[文章网址：https:// news.mit.edu/2024/ai-generates-high-quality-images-30-times-faster-single-step-0321
-评论网址：https://news.ycombinator.com/item?id=39836935
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.mit.edu/2024/ai-generates-high-quality-images-30-times-faster-single-step-0321</guid>
-      <pubDate>Wed, 27 Mar 2024 09:11:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：3KB 现代响应式主页，支持系统深色/浅色主题</title>
-      <link>https://mathilde.eu.org</link>
-      <description><![CDATA[文章网址：https://mathilde.eu.org
-评论网址：https://news.ycombinator.com/item?id=39836889
-积分：1
-# 条评论：1]]></description>
-      <guid>https://mathilde.eu.org</guid>
-      <pubDate>Wed, 27 Mar 2024 09:03:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>容器的内容、原因和方式</title>
-      <link>https://www.annwan.me/computers/what-why-how-containers/</link>
-      <description><![CDATA[文章网址：https://www.annwan.me/computers/what-why-how -容器/
-评论网址：https://news.ycombinator.com/item?id=39836879
+      <title>IRS 第 174 条不太可能在 2024 年得到解决</title>
+      <link>https://www.resourcefulfinancepro.com/news/irs-section-174-tax-breaks-off-the-table-till-2025/</link>
+      <description><![CDATA[文章网址：https://www .resourcefulfinancepro.com/news/irs-section-174-tax-breaks-off-the-table-till-2025/
+评论网址：https://news.ycombinator.com/item?id=39837992
 积分：2
-# 条评论：0]]></description>
-      <guid>https://www.annwan.me/computers/what-why-how-containers/</guid>
-      <pubDate>Wed, 27 Mar 2024 09:00:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Python 调试 FPGA</title>
-      <link>https://www.adiuvoengineering.com/post/microzed-chronicles-debugging-with-analog-discovery-python</link>
-      <description><![CDATA[文章网址：https://www.adiuvoengineering.com/post/ microzed-chronicles-debugging-with-analog-discovery-python
-评论网址：https://news.ycombinator.com/item?id=39836872
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.adiuvoengineering.com/post/microzed-chronicles-debugging-with-analog-discovery-python</guid>
-      <pubDate>Wed, 27 Mar 2024 08:59:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何减小虚幻引擎游戏构建的包大小</title>
-      <link>https://www.notion.so/disabled-javascript.html</link>
-      <description><![CDATA[文章网址：https://www.notion.so/disabled-javascript.html
-评论网址：https://news.ycombinator.com/item?id=39836866
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.notion.so/disabled-javascript.html</guid>
-      <pubDate>Wed, 27 Mar 2024 08:58:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>玛丽莎·梅耶尔 (Marissa Mayer) 的初创公司刚刚推出照片共享和活动策划应用程序</title>
-      <link>https://techcrunch.com/2024/03/27/marissa-mayers-startup-just-rolled-out-apps-for-group-photo-sharing-and-event-planning-and-the-internet-isnt-sure-what-to-think/</link>
-      <description><![CDATA[文章网址：https://techcrunch.com/2024/03/27/marissa-mayers-startup-just-rolled-out-apps-for -集体照片共享和活动规划和互联网不是确定的想法/
-评论网址：https://news.ycombinator.com/item?id=39836865
-积分：1
 # 条评论：1]]></description>
-      <guid>https://techcrunch.com/2024/03/27/marissa-mayers-startup-just-rolled-out-apps-for-group-photo-sharing-and-event-planning-and-the-internet-isnt-sure-what-to-think/</guid>
-      <pubDate>Wed, 27 Mar 2024 08:57:51 GMT</pubDate>
+      <guid>https://www.resourcefulfinancepro.com/news/irs-section-174-tax-breaks-off-the-table-till-2025/</guid>
+      <pubDate>Wed, 27 Mar 2024 12:09:34 GMT</pubDate>
     </item>
     <item>
-      <title>为什么选择 Elixir (2014)</title>
-      <link>https://www.theerlangelist.com/article/why_elixir</link>
-      <description><![CDATA[文章网址：https://www.theerlangelist.com/article/why_elixir
-评论网址：https://news.ycombinator.com/item?id=39836852
+      <title>Oxide Computer Company 的 Nathanael Huffman 在 Microarch Club 播客上</title>
+      <link>https://microarch.club/episodes/100/</link>
+      <description><![CDATA[文章网址：https://microarch.club/episodes/100/
+评论网址：https://news.ycombinator.com/item?id=39837991
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theerlangelist.com/article/why_elixir</guid>
-      <pubDate>Wed, 27 Mar 2024 08:55:38 GMT</pubDate>
+      <guid>https://microarch.club/episodes/100/</guid>
+      <pubDate>Wed, 27 Mar 2024 12:09:29 GMT</pubDate>
     </item>
     <item>
-      <title>Backblaze 网络统计数据：来自 Backblaze US-Wes 的真实测量</title>
-      <link>https://backblazeprod.wpenginepowered.com/blog/backblaze-network-stats-real-world-measurements-from-the-backblaze-us-west-region/</link>
-      <description><![CDATA[文章网址：https ://backblazeprod.wpenginepowered.com/blog/backblaze-network-stats-real-world-measurements-from-the-backblaze-us-west-region/
-评论网址：https://news.ycombinator.com/item?id=39836845
+      <title>新数据显示，寻求博士后职位的美国科学家越来越少</title>
+      <link>https://www.science.org/content/article/fewer-u-s-scientists-are-pursuing-postdoc-positions-new-data-show</link>
+      <description><![CDATA[文章网址：https:// www.science.org/content/article/fewer-u-s-scientists-are-pursuing-postdoc-positions-new-data-show
+评论网址：https://news.ycombinator.com/item?id=39837977
 积分：1
 # 条评论：0]]></description>
-      <guid>https://backblazeprod.wpenginepowered.com/blog/backblaze-network-stats-real-world-measurements-from-the-backblaze-us-west-region/</guid>
-      <pubDate>Wed, 27 Mar 2024 08:54:35 GMT</pubDate>
+      <guid>https://www.science.org/content/article/fewer-u-s-scientists-are-pursuing-postdoc-positions-new-data-show</guid>
+      <pubDate>Wed, 27 Mar 2024 12:07:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>DBRX：135B MoE LLM 由 Databricks 培训并开源</title>
+      <link>https://www.databricks.com/blog/announcing-dbrx-new-standard-efficient-open-source-customizable-llms</link>
+      <description><![CDATA[文章网址：https://www.databricks。 com/blog/announcing-dbrx-new-standard-efficient-open-source-customized-llms
+评论网址：https://news.ycombinator.com/item?id=39837966
+积分：2
+# 条评论：1]]></description>
+      <guid>https://www.databricks.com/blog/announcing-dbrx-new-standard-efficient-open-source-customizable-llms</guid>
+      <pubDate>Wed, 27 Mar 2024 12:05:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：当可以购买点赞时，产品搜寻发布仍然重要吗？</title>
+      <link>https://news.ycombinator.com/item?id=39837948</link>
+      <description><![CDATA[我们今天在 Product Hunt 上推出了开源开发环境管理器 Daytona。虽然我们的点赞数和排名（目前徘徊在 #3-#4 左右）保持稳定，但我们注意到其他产品出现了一些奇怪的活动。使用 Hunted.space 仪表板，我们可以看到点赞数和排名在以下时间段内波动：某些产品看起来不有机。看起来 Product Hunt 可能正在打击投票操纵策略并纠正夸大的数字。从点赞图表的下降中可以明显看出这一点。这让我们怀疑，购买点赞服务和夸大排名的付费策略是否在 Product Hunt 上失控了。HN 中还有其他人吗？社区也注意到了这一点？ Product Hunt 似乎正在积极识别和纠正使用不正当方法来欺骗其系统的产品。但也许还不够难？很高兴看到 Product Hunt 采取措施来保持真实性。然而，希盟现在是否已经过时了？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39837948
+积分：2
+# 条评论：1]]></description>
+      <guid>https://news.ycombinator.com/item?id=39837948</guid>
+      <pubDate>Wed, 27 Mar 2024 12:02:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>我制作了显示时间而不是空间的地图 [视频]</title>
+      <link>https://www.youtube.com/watch?v=rC2VQ-oyDG0</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=rC2VQ-oyDG0
+评论网址：https://news.ycombinator.com/item?id=39837946
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=rC2VQ-oyDG0</guid>
+      <pubDate>Wed, 27 Mar 2024 12:02:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Visa、Mastercard 就信用卡费用达成 30B 美元和解</title>
+      <link>https://www.reuters.com/business/finance/mastercard-visa-reach-30-bln-settlement-over-credit-card-fees-2024-03-26/</link>
+      <description><![CDATA[文章网址：https://www.reuters.com/business/finance/mastercard-visa-reach-30-bln-settlement-over-credit-card-fees-2024-03-26/
+评论网址：https://news.ycombinator.com/item?id=39837925
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.reuters.com/business/finance/mastercard-visa-reach-30-bln-settlement-over-credit-card-fees-2024-03-26/</guid>
+      <pubDate>Wed, 27 Mar 2024 12:00:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
