@@ -4,128 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 01 Apr 2024 15:14:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Apr 2024 18:17:09 GMT</lastBuildDate>
     <item>
-      <title>喵相机</title>
-      <link>https://meow.camera</link>
-      <description><![CDATA[文章网址：https://meow.camera
-评论网址：https://news.ycombinator.com/item?id=39894858
+      <title>对戈夫和成本病的思考</title>
+      <link>https://www.betonit.ai/p/reflections-on-goff-and-the-cost</link>
+      <description><![CDATA[文章网址：https://www.betonit.ai/p/reflections-持续和成本
+评论网址：https://news.ycombinator.com/item?id=39897213
 积分：1
 # 条评论：0]]></description>
-      <guid>https://meow.camera</guid>
-      <pubDate>Mon, 01 Apr 2024 15:02:50 GMT</pubDate>
+      <guid>https://www.betonit.ai/p/reflections-on-goff-and-the-cost</guid>
+      <pubDate>Mon, 01 Apr 2024 18:12:25 GMT</pubDate>
     </item>
     <item>
-      <title>使用古老的 XML 绕过 DOMPurify</title>
-      <link>https://flatt.tech/research/posts/bypassing-dompurify-with-good-old-xml/</link>
-      <description><![CDATA[文章网址：https://flatt.tech/research/posts/bypassing -dompurify-with-good-old-xml/
-评论网址：https://news.ycombinator.com/item?id=39894856
+      <title>只要 Flock 控制输入和方法，Flock 的 ALPR 就能减少犯罪</title>
+      <link>https://www.techdirt.com/2024/04/01/studies-show-flocks-alprs-reduce-crime-so-long-as-flock-controls-the-inputs-and-the-methodology/</link>
+      <description><![CDATA[文章网址：https://www.techdirt.com/2024/04/01/studies-show-flocks-alprs-reduce-crime-so-long-as-flock-controls-the -输入和方法/
+评论网址：https://news.ycombinator.com/item?id=39897211
 积分：1
 # 条评论：0]]></description>
-      <guid>https://flatt.tech/research/posts/bypassing-dompurify-with-good-old-xml/</guid>
-      <pubDate>Mon, 01 Apr 2024 15:02:37 GMT</pubDate>
+      <guid>https://www.techdirt.com/2024/04/01/studies-show-flocks-alprs-reduce-crime-so-long-as-flock-controls-the-inputs-and-the-methodology/</guid>
+      <pubDate>Mon, 01 Apr 2024 18:12:17 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Floro – 静态资源和 i18n 字符串的可视化版本控制</title>
-      <link>https://news.ycombinator.com/item?id=39894823</link>
-      <description><![CDATA[演示视频：https://www.youtube.com/watch?v=5fjixBNKUbM网站：https://floro.io嗨，HN，我们正在构建 floro (floro.io)，开源、离线优先的可视化版本控制系统，允许您合并和区分图形内容。我们是一家 YC W21 初创公司 (Cheqout)，最初致力于餐厅技术。由于我们在 Cheqout 工作时遇到了很多问题，我们最终在大流行后进行了调整，并决定构建 floro。我们在字符串内容和黑暗模式方面遇到了很多困难，尤其是在静态资产方面。我们是一个跨平台产品，所以一切都是 SVG。我们想要的是让我们的设计师（不能使用命令行）能够将静态资源签入我们的代码库并能够管理我们的颜色主题，而无需我们自己手动编辑资源。我们还面临很多国际化和保持翻译更新的问题。这两个问题感觉有点相似，它们本质上都是关键值解决方案，需要非软件工程师的人来编辑它们。这引导我们寻找一种将 Dropbox 之类的东西合并到 git 中的方法。我们不需要内容管理系统，我们想要的是可以区分和合并静态资产的东西，而不需要用户知道如何修复纯文本或二进制中的冲突。我们想要一种方法来引用静态资产的 tar 快照之类的东西，这样我们就可以幂等地重建我们的应用程序并为我们的资产添加类型安全。最终，我们找到了一个技巧来区分和合并某种类型的树结构，非常适合这些问题。经过更多的实验后，我们弄清楚了如何编写一个界面来制作可以差异化并显示合并冲突的 UI。为了展示可视化版本控制可以应用于什么，我们决定构建四个插件（应用程序）可以在 floro 中进行区分和合并）。1. Text - 这个插件基本上是 i18n 字符串的替代品。它支持富文本、类型化变量插值、条件逻辑（用于复数化等）、链接、ML 翻译以及大量其他功能。它也是一种供翻译人员和文案编辑人员使用的 IDE/TMS。2.图标 - 该插件允许您对 SVG 资源重新着色，以便所有颜色都与您的调色板一致。您可以通过将主题应用到资产来自动生成资产的暗模式（和任何其他主题）版本，以及随状态（例如悬停等）而变化的资产版本。3.主题 - 该插件允许您从调色板创建主题。4.调色板 - 此插件允许您定义可由其他插件使用或在代码中用于管理应用程序颜色的颜色和色调。由于 floro 是离线优先的桌面应用程序，我们意识到我们可以允许用户测试通过构建浏览器扩展程序来摆脱本地内容，该扩展程序允许他们使用 floro 的本地内容覆盖其生产网站和应用程序的状态。 Floro 本质上是在生产应用程序中创建一个本地主机环境，允许非技术用户像工程师管理代码一样处理内容。演示视频（如上所示）很好地展示了其工作原理。我们还有一个演示，展示了它如何适用于移动应用程序 (https://www.youtube.com/watch?v=Om-k08GDoZ4)。
-我们是完全开源的（麻省理工学院许可）。我们打算通过咨询和私人托管来获利。非常欢迎用户自行托管并构建自己的桌面应用程序发行版以及我们创建的所有插件。这实际上是我们的发布（预计会出现一些错误，但不是什么严重的问题，重新启动应用程序即可解决）大多数事情）。我们现在已经使用 floro 构建了四个应用程序（包括我们的网站），并确信它已准备就绪。我们花了 18 个月才到达这里，希望你们中的一些人喜欢它！谢谢！
-杰米和杰奎琳
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39894823
+      <title>NIST 成立新联盟来运营其国家漏洞数据库</title>
+      <link>https://www.infosecurity-magazine.com/news/nist-unveils-new-nvd-consortium/</link>
+      <description><![CDATA[文章网址：https://www.infosecurity-magazine.com/news /nist-unveils-new-nvd-consortium/
+评论网址：https://news.ycombinator.com/item?id=39897203
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=39894823</guid>
-      <pubDate>Mon, 01 Apr 2024 15:01:04 GMT</pubDate>
+      <guid>https://www.infosecurity-magazine.com/news/nist-unveils-new-nvd-consortium/</guid>
+      <pubDate>Mon, 01 Apr 2024 18:11:34 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：谁在招聘？ （2024 年 4 月）</title>
-      <link>https://news.ycombinator.com/item?id=39894820</link>
-      <description><![CDATA[请注明地点并包括远程、实习生和/或签证
-当这种候选人受到欢迎时。当远程工作不是一种选择时，
-包括现场。仅当您个人是招聘公司的成员时才请发帖 - 否
-招聘公司或招聘委员会。每个公司一个职位。如果不是家喻户晓的名字
-解释一下你的公司是做什么的。评论者：请不要回复招聘帖子来抱怨
-某物。这里是题外话。读者：如果您个人对这份工作感兴趣，请仅发送电子邮件。搜索者：尝试 https ://www.remotenbs.com，https://hnjobs.u-turn.dev，https://hnresumetojobs.com，
-https://hnhired.fly.dev，https://kennytilton.github.io/whoishiring/, https:/ /hnjobs.emilburzo.com。不要错过这些其他细线：谁想被雇用？ https://news.ycombinator.com/item?id=39894818自由职业者？寻找自由职业者？ https://news.ycombinator.com/item?id=39894819
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39894820
-积分：1
-# 条评论：6]]></description>
-      <guid>https://news.ycombinator.com/item?id=39894820</guid>
-      <pubDate>Mon, 01 Apr 2024 15:00:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：自由职业者？寻找自由职业者？ （2024 年 4 月）</title>
-      <link>https://news.ycombinator.com/item?id=39894819</link>
-      <description><![CDATA[请以“寻求工作”或“寻求自由职业者”开头，
-您的位置，以及是否可以进行远程工作。仅当您个人希望雇用自由职业者或作为自由职业者工作时，才请发帖。
-代理机构、招聘人员、招聘委员会等等都不是这里的主题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39894819
-积分：1
-# 条评论：6]]></description>
-      <guid>https://news.ycombinator.com/item?id=39894819</guid>
-      <pubDate>Mon, 01 Apr 2024 15:00:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：谁想被雇用？ （2024 年 4 月）</title>
-      <link>https://news.ycombinator.com/item?id=39894818</link>
-      <description><![CDATA[如果您正在找工作，请分享您的信息。请使用以下格式： 位置：
-  偏僻的：
-  愿意移居：
-  技术：
-  简历：
-  电子邮件：
-
-仅当您个人正在寻找工作时才请发帖。代理机构、招聘人员、招聘委员会、
-等等，这里都是题外话。读者：请仅向这些地址发送电子邮件以讨论工作机会。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39894818
-积分：1
-# 条评论：5]]></description>
-      <guid>https://news.ycombinator.com/item?id=39894818</guid>
-      <pubDate>Mon, 01 Apr 2024 15:00:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌承诺销毁浏览数据以和解“隐身”诉讼</title>
-      <link>https://www.wsj.com/tech/google-pledges-to-destroy-browsing-data-to-settle-incognito-lawsuit-1febfde5</link>
-      <description><![CDATA[文章网址：https:// www.wsj.com/tech/google-pledges-to-destroy-browsing-data-to-settle-incognito-lawsuit-1febfde5
-评论网址：https://news.ycombinator.com/item?id=39894777
+      <title>Linux 因未经同意的后门攻击而遭到破坏 [视频]</title>
+      <link>https://www.youtube.com/watch?v=bS9em7Bg0iU</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=bS9em7Bg0iU
+评论网址：https://news.ycombinator.com/item?id=39897199
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.wsj.com/tech/google-pledges-to-destroy-browsing-data-to-settle-incognito-lawsuit-1febfde5</guid>
-      <pubDate>Mon, 01 Apr 2024 14:55:40 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=bS9em7Bg0iU</guid>
+      <pubDate>Mon, 01 Apr 2024 18:11:21 GMT</pubDate>
     </item>
     <item>
-      <title>Sam Altman 不再拥有 OpenAI 启动基金</title>
-      <link>https://www.axios.com/2024/04/01/sam-altman-openai-startup-fund</link>
-      <description><![CDATA[文章网址：​​https://www.axios.com/2024/ 04/01/sam-altman-openai-startup-fund
-评论网址：https://news.ycombinator.com/item?id=39894772
+      <title>使用 Semgrep 保护 CodeQL 查询</title>
+      <link>https://semgrep.dev/blog/2024/securing-codeql-with-semgrep/</link>
+      <description><![CDATA[文章网址：https://semgrep.dev/blog/2024/securing-codeql-with -semgrep/
+评论网址：https://news.ycombinator.com/item?id=39897188
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.axios.com/2024/04/01/sam-altman-openai-startup-fund</guid>
-      <pubDate>Mon, 01 Apr 2024 14:55:17 GMT</pubDate>
+      <guid>https://semgrep.dev/blog/2024/securing-codeql-with-semgrep/</guid>
+      <pubDate>Mon, 01 Apr 2024 18:10:30 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我让 14 名法学硕士在 314 场《街头霸王 III》比赛中互相对战</title>
-      <link>https://community.aws/content/2dbNlQiqKvUtTBV15mHBqivckmo/14-llms-fought-314-street-fighter-matches-here-s-who-won</link>
-      <description><![CDATA[文章网址：https:// Community.aws/content/2dbNlQiqKvUtTBV15mHBqivckmo/14-llms-fought-314-street-fighter-matches-here-s-who-won
-评论网址：https://news.ycombinator.com/item?id=39894769
-积分：1
+      <title>为什么 Meta Graph API 获得批准如此之难</title>
+      <link>https://graphapi.substack.com/p/why-it-is-so-damn-hard-to-get-approved</link>
+      <description><![CDATA[文章网址：https://graphapi.substack。 com/p/为什么这么难获得批准
+评论网址：https://news.ycombinator.com/item?id=39897164
+积分：4
 # 条评论：1]]></description>
-      <guid>https://community.aws/content/2dbNlQiqKvUtTBV15mHBqivckmo/14-llms-fought-314-street-fighter-matches-here-s-who-won</guid>
-      <pubDate>Mon, 01 Apr 2024 14:54:56 GMT</pubDate>
+      <guid>https://graphapi.substack.com/p/why-it-is-so-damn-hard-to-get-approved</guid>
+      <pubDate>Mon, 01 Apr 2024 18:07:58 GMT</pubDate>
     </item>
     <item>
-      <title>Retro.rsvp：Google 日历会议的一键评分</title>
-      <link>https://retro.rsvp/</link>
-      <description><![CDATA[文章网址：https://retro.rsvp/
-评论网址：https://news.ycombinator.com/item?id=39894768
+      <title>如何设置电子邮件自动化：分步指南</title>
+      <link>https://jakenoel.medium.com/how-to-set-up-email-automation-a-step-by-step-guide-10c1d47f9e17</link>
+      <description><![CDATA[文章网址：https:// jakenoel.medium.com/how-to-set-up-email-automation-a-step-by-step-guide-10c1d47f9e17
+评论网址：https://news.ycombinator.com/item?id=39897162
 积分：1
 # 条评论：0]]></description>
-      <guid>https://retro.rsvp/</guid>
-      <pubDate>Mon, 01 Apr 2024 14:54:54 GMT</pubDate>
+      <guid>https://jakenoel.medium.com/how-to-set-up-email-automation-a-step-by-step-guide-10c1d47f9e17</guid>
+      <pubDate>Mon, 01 Apr 2024 18:07:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的 36 英寸 King Dick 残骸锁 [视频]</title>
+      <link>https://www.youtube.com/watch?v=7X2PuE6ELmg</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=7X2PuE6ELmg
+评论网址：https://news.ycombinator.com/item?id=39897124
+积分：2
+# 条评论：1]]></description>
+      <guid>https://www.youtube.com/watch?v=7X2PuE6ELmg</guid>
+      <pubDate>Mon, 01 Apr 2024 18:05:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Linux Xz 后门的危害可能比担心的还要严重</title>
+      <link>https://thenewstack.io/linux-xz-backdoor-damage-could-be-greater-than-feared/</link>
+      <description><![CDATA[文章网址：https://thenewstack.io/linux-xz -后门损害可能比恐惧更大/
+评论网址：https://news.ycombinator.com/item?id=39897114
+积分：1
+# 条评论：0]]></description>
+      <guid>https://thenewstack.io/linux-xz-backdoor-damage-could-be-greater-than-feared/</guid>
+      <pubDate>Mon, 01 Apr 2024 18:04:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pgvector 中带有时间过滤器的矢量搜索查询</title>
+      <link>https://www.timescale.com/blog/refining-vector-search-queries-with-time-filters-in-pgvector-a-tutorial/</link>
+      <description><![CDATA[文章网址：https:/ /www.timescale.com/blog/refining-vector-search-queries-with-time-filters-in-pgvector-a-tutorial/
+评论网址：https://news.ycombinator.com/item?id=39897113
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.timescale.com/blog/refining-vector-search-queries-with-time-filters-in-pgvector-a-tutorial/</guid>
+      <pubDate>Mon, 01 Apr 2024 18:04:44 GMT</pubDate>
     </item>
     </channel>
 </rss>
