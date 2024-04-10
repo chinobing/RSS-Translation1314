@@ -4,107 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 10 Apr 2024 18:19:21 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2024 21:13:41 GMT</lastBuildDate>
     <item>
-      <title>Compiler Explorer 的创建者 Matt Godbolt 在 Microarch Club 播客上的发言</title>
-      <link>https://www.youtube.com/watch?v=rd8pGMIYU2Q</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=rd8pGMIYU2Q
-评论网址：https://news.ycombinator.com/item?id=39993938
+      <title>埃隆·马斯克：明年年底人工智能将比任何人类都聪明</title>
+      <link>https://arstechnica.com/information-technology/2024/04/elon-musk-ai-will-be-smarter-than-any-human-around-the-end-of-next-year/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/information-technology/2024/04/elon-musk-ai-will-be-smarter-than-any- human-around-the-end-of -明年/
+评论网址：https://news.ycombinator.com/item?id=39995665
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=rd8pGMIYU2Q</guid>
-      <pubDate>Wed, 10 Apr 2024 18:11:26 GMT</pubDate>
+      <guid>https://arstechnica.com/information-technology/2024/04/elon-musk-ai-will-be-smarter-than-any-human-around-the-end-of-next-year/</guid>
+      <pubDate>Wed, 10 Apr 2024 21:00:32 GMT</pubDate>
     </item>
     <item>
-      <title>Udio：通过文本提示生成您喜欢的风格的音乐</title>
-      <link>https://twitter.com/udiomusic/status/1778045322654003448</link>
-      <description><![CDATA[文章网址：https://twitter.com/udiomusic/status/1778045322654003448
-评论网址：https://news.ycombinator.com/item?id=39993930
-积分：1
-# 条评论：0]]></description>
-      <guid>https://twitter.com/udiomusic/status/1778045322654003448</guid>
-      <pubDate>Wed, 10 Apr 2024 18:10:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>我讨厌swe，还有什么职业呢？</title>
-      <link>https://news.ycombinator.com/item?id=39993907</link>
-      <description><![CDATA[嗨，我喜欢编码，总的来说我喜欢技术。但目前我在一家企业担任顾问，我很讨厌它，压力很大，工作时间很多，而且我也不是很好，需要大量分析生产问题，软件有数百万行，以及我的 Techlead 是个混蛋——很难离开这份工作，因为它远程且薪资丰厚，但我讨厌 CS，而且我没有空闲时间。因此，在我第一份工作一年后，我正在尝试寻找另一份与科技相关的职业。我能做什么？
+      <title>Show HN：我们在电子表格之上构建了一个无代码工具（生命游戏示例）</title>
+      <link>https://sheets.lido.app/sheet?lidoFileId=ba827448-8381-477c-b022-cb4a8eff335f&display=split&dashboard=view</link>
+      <description><![CDATA[大家好！我想分享我们正在构建的电子表格工具。主要思想是能够为电子表格内的无代码工具指定逻辑。我们有自动化、数据集成、行动公式、仪表板。链接示例：我们使用 UPDATECELL 公式在人生游戏棋盘中迈出一步。我们还可以使用CHAIN让它无限期地运行。这些操作在仪表板中显示为按钮。我们的自动化工作原理是在服务器上加载电子表格并运行电子表格中指定的操作。因此，逻辑可能是，从谷歌表格中提取数据，向我们尚未通过电子邮件发送的每一行发送个性化电子邮件，将这些行标记为完整。按 5 分钟计划运行此自动化，添加您需要的任何其他自定义逻辑（例如，测试电子邮件的送达率），您就拥有了一个自动电子邮件工具。我们正在倾向于自动化，以将自己与该领域的其他产品区分开来。 技术难题：- 由于我们的自动化会对电子表格进行更改，因此我们需要一个强大的多人游戏系统。我们实施了 CRDT 系统。这是一篇较长的博客文章的主题，但一个有趣的挑战是为行/列实现 CRDT，它允许高效地添加/删除/重新排序，同时在离线编辑的情况下保留大多数用户意图。
+- 我们的一些公式本质上是异步的；例如那些从外部数据源获取数据的数据。这在编写电子表格引擎时增加了一个额外的问题；例如拓扑排序然后按顺序评估可能会导致您陷入长时间运行的评估。
+- 我们的前提之一是我们不存储您的数据；当电子表格评估时它会被拉出。这意味着当您打开电子表格时，所有内容都会在浏览器中重新评估。让它变得高效（我们还有很长的路要走）是一个挑战。目前，一切都在一个工作人员中运行。让我知道你们的想法。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=39993907
+评论网址：https://news.ycombinator.com/item?id=39995654
 积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=39993907</guid>
-      <pubDate>Wed, 10 Apr 2024 18:08:43 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://sheets.lido.app/sheet?lidoFileId=ba827448-8381-477c-b022-cb4a8eff335f&display=split&dashboard=view</guid>
+      <pubDate>Wed, 10 Apr 2024 20:59:23 GMT</pubDate>
     </item>
     <item>
-      <title>本地测试云部署</title>
-      <link>https://noop.dev/blog/test-cloud-deployments-locally/</link>
-      <description><![CDATA[文章网址：https://noop.dev/blog/test-cloud-deployments-locally/&lt; /a&gt;
-评论网址：https://news.ycombinator.com/item?id=39993898
+      <title>Gentoo Linux 成为 SPI 关联项目</title>
+      <link>https://www.gentoo.org/news/2024/04/10/SPI-associated-project.html</link>
+      <description><![CDATA[文章网址：https://www.gentoo.org/news/ 2024/04/10/SPI-关联-project.html
+评论网址：https://news.ycombinator.com/item?id=39995628
 积分：1
 # 条评论：0]]></description>
-      <guid>https://noop.dev/blog/test-cloud-deployments-locally/</guid>
-      <pubDate>Wed, 10 Apr 2024 18:08:01 GMT</pubDate>
+      <guid>https://www.gentoo.org/news/2024/04/10/SPI-associated-project.html</guid>
+      <pubDate>Wed, 10 Apr 2024 20:56:51 GMT</pubDate>
     </item>
     <item>
-      <title>春丽雕像在卡普空创始人家乡揭幕</title>
-      <link>https://www.animenewsnetwork.com/interest/2024-04-04/chun-li-statue-unveiled-in-capcom-founder-hometown/.208572</link>
-      <description><![CDATA[文章网址：https ://www.animenewsnetwork.com/interest/2024-04-04/chun-li-statue-unveiled-in-capcom-Founder-hometown/.208572
-评论网址：https://news.ycombinator.com/item?id=39993875
+      <title>PyPI 恶意软件分发和域滥用</title>
+      <link>https://blog.pypi.org/posts/2024-04-10-domain-abuse/</link>
+      <description><![CDATA[文章网址：https://blog.pypi.org/posts/2024-04 -10-域名滥用/
+评论网址：https://news.ycombinator.com/item?id=39995615
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.animenewsnetwork.com/interest/2024-04-04/chun-li-statue-unveiled-in-capcom-founder-hometown/.208572</guid>
-      <pubDate>Wed, 10 Apr 2024 18:05:59 GMT</pubDate>
+      <guid>https://blog.pypi.org/posts/2024-04-10-domain-abuse/</guid>
+      <pubDate>Wed, 10 Apr 2024 20:56:08 GMT</pubDate>
     </item>
     <item>
-      <title>NASA要求为月球创建时区</title>
-      <link>https://www.npr.org/2024/04/09/1243405460/space-news-moon-nasa-time-zone-white-house</link>
-      <description><![CDATA[文章网址：https:// www.npr.org/2024/04/09/1243405460/space-news-moon-nasa-time-zone-white-house
-评论网址：https://news.ycombinator.com/item?id=39993869
+      <title>气候：电影（冷酷的真相）[视频]</title>
+      <link>https://www.youtube.com/watch?v=zmfRG8-RHEI</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=zmfRG8-RHEI
+评论网址：https://news.ycombinator.com/item?id=39995595
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.npr.org/2024/04/09/1243405460/space-news-moon-nasa-time-zone-white-house</guid>
-      <pubDate>Wed, 10 Apr 2024 18:05:09 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=zmfRG8-RHEI</guid>
+      <pubDate>Wed, 10 Apr 2024 20:53:34 GMT</pubDate>
     </item>
     <item>
-      <title>机器狗可以接替人形机器人的工作任务</title>
-      <link>https://www.axios.com/2024/04/10/humanoid-robot-dog-workplace-job-tasks</link>
-      <description><![CDATA[文章网址：https://www.axios.com/ 2024/04/10/人形机器人狗工作场所工作任务
-评论网址：https://news.ycombinator.com/item?id=39993856
-积分：1
+      <title>UpGoer 5 文本编辑器</title>
+      <link>https://splasho.com/upgoer5/latest.php</link>
+      <description><![CDATA[文章网址：https://splasho.com/upgoer5/latest.php
+评论网址：https://news.ycombinator.com/item?id=39995593
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.axios.com/2024/04/10/humanoid-robot-dog-workplace-job-tasks</guid>
-      <pubDate>Wed, 10 Apr 2024 18:04:07 GMT</pubDate>
+      <guid>https://splasho.com/upgoer5/latest.php</guid>
+      <pubDate>Wed, 10 Apr 2024 20:53:26 GMT</pubDate>
     </item>
     <item>
-      <title>您可能不需要复杂的任务管理系统</title>
-      <link>https://tommcfarlin.com/elaborate-task-management-system/</link>
-      <description><![CDATA[文章网址：https://tommcfarlin.com/elaborate-task-management-system/&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=39993849
-积分：1
+      <title>Meta推出新一代AI芯片</title>
+      <link>https://www.reuters.com/technology/meta-debuts-new-generation-ai-chip-2024-04-10/</link>
+      <description><![CDATA[文章网址：https://www.reuters .com/technology/meta-debuts-new- Generation-ai-chip-2024-04-10/
+评论网址：https://news.ycombinator.com/item?id=39995592
+积分：2
 # 条评论：0]]></description>
-      <guid>https://tommcfarlin.com/elaborate-task-management-system/</guid>
-      <pubDate>Wed, 10 Apr 2024 18:03:26 GMT</pubDate>
+      <guid>https://www.reuters.com/technology/meta-debuts-new-generation-ai-chip-2024-04-10/</guid>
+      <pubDate>Wed, 10 Apr 2024 20:53:26 GMT</pubDate>
     </item>
     <item>
-      <title>活动人士在树上抗议，提起诉讼以阻止 BLM 土地上的老树砍伐</title>
-      <link>https://oregoncapitalchronicle.com/2024/04/04/activists-protest-in-trees-file-complaint-to-block-old-growth-logging-on-blm-land-in-court/</link>
-      <description><![CDATA[文章网址：https://oregoncapitalchronicle.com/2024/04/04/activists-protest-in-trees-file-complaint-to-block-old-growth-logging-on-blm-land -法庭上/
-评论网址：https://news.ycombinator.com/item?id=39993845
+      <title>杀戮尖塔2</title>
+      <link>https://store.steampowered.com/app/2868840/Slay_the_Spire_2/</link>
+      <description><![CDATA[文章网址：https://store.steampowered.com/app/2868840/Slay_the_Spire_2/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=39995581
 积分：1
 # 条评论：0]]></description>
-      <guid>https://oregoncapitalchronicle.com/2024/04/04/activists-protest-in-trees-file-complaint-to-block-old-growth-logging-on-blm-land-in-court/</guid>
-      <pubDate>Wed, 10 Apr 2024 18:03:08 GMT</pubDate>
+      <guid>https://store.steampowered.com/app/2868840/Slay_the_Spire_2/</guid>
+      <pubDate>Wed, 10 Apr 2024 20:52:04 GMT</pubDate>
     </item>
     <item>
-      <title>Python 库：坚韧</title>
-      <link>https://new.pythonforengineers.com/blog/awesome-python-library-tenacity/</link>
-      <description><![CDATA[文章网址：https://new.pythonforengineers.com/blog/awesome-python-library -坚韧/
-评论网址：https://news.ycombinator.com/item?id=39993840
+      <title>Swift 中的运行时多态性</title>
+      <link>https://belkadan.com/blog/2024/04/Run-time-Polymorphism-in-Swift/</link>
+      <description><![CDATA[文章网址：https://belkadan.com/blog/2024/04 /Swift 中的运行时多态性/
+评论网址：https://news.ycombinator.com/item?id=39995569
 积分：1
 # 条评论：0]]></description>
-      <guid>https://new.pythonforengineers.com/blog/awesome-python-library-tenacity/</guid>
-      <pubDate>Wed, 10 Apr 2024 18:02:33 GMT</pubDate>
+      <guid>https://belkadan.com/blog/2024/04/Run-time-Polymorphism-in-Swift/</guid>
+      <pubDate>Wed, 10 Apr 2024 20:50:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>VC：所以我们采用的是学徒模式</title>
+      <link>https://twitter.com/patio11/status/1778070686470181067</link>
+      <description><![CDATA[文章网址：https://twitter.com/patio11/status/1778070686470181067
+评论网址：https://news.ycombinator.com/item?id=39995568
+积分：1
+# 条评论：0]]></description>
+      <guid>https://twitter.com/patio11/status/1778070686470181067</guid>
+      <pubDate>Wed, 10 Apr 2024 20:50:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
