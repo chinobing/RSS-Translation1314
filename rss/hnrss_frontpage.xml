@@ -4,14 +4,34 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 11 Apr 2024 03:14:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Apr 2024 06:18:20 GMT</lastBuildDate>
+    <item>
+      <title>没有实时时钟的原地打转</title>
+      <link>https://rachelbythebay.com/w/2024/04/10/rtc/</link>
+      <description><![CDATA[文章网址：https://rachelbythebay.com/w/2024/04/10/rtc/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=39998346
+积分：11
+# 条评论：4]]></description>
+      <guid>https://rachelbythebay.com/w/2024/04/10/rtc/</guid>
+      <pubDate>Thu, 11 Apr 2024 04:22:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>奈史密斯法则</title>
+      <link>https://en.wikipedia.org/wiki/Naismith%27s_rule</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Naismith%27s_rule
+评论网址：https://news.ycombinator.com/item?id=39997955
+积分：24
+# 条评论：7]]></description>
+      <guid>https://en.wikipedia.org/wiki/Naismith%27s_rule</guid>
+      <pubDate>Thu, 11 Apr 2024 02:51:04 GMT</pubDate>
+    </item>
     <item>
       <title>美国陪审团称亚马逊在云存储专利诉讼中欠下 5.25 亿美元</title>
       <link>https://www.reuters.com/legal/amazon-owes-525-mln-cloud-storage-patent-fight-us-jury-says-2024-04-11/</link>
       <description><![CDATA[文章网址：https://www.reuters.com/legal/amazon-owes-525-mln-cloud-storage-patent-fight-us-jury-says-2024-04-11/
 评论网址：https://news.ycombinator.com/item?id=39997556
-积分：14
-# 条评论：5]]></description>
+积分：56
+# 条评论：26]]></description>
       <guid>https://www.reuters.com/legal/amazon-owes-525-mln-cloud-storage-patent-fight-us-jury-says-2024-04-11/</guid>
       <pubDate>Thu, 11 Apr 2024 01:33:22 GMT</pubDate>
     </item>
@@ -29,8 +49,8 @@
       <link>https://cleantechnica.com/2024/04/10/replacing-wires-could-double-how-much-electricity-the-us-grid-can-handle/</link>
       <description><![CDATA[文章网址：https://cleantechnica.com/2024/04/10/replacing-wires-could-double-how-much-electricity-the-us-grid-can-handle/
 评论网址：https://news.ycombinator.com/item?id=39997189
-积分：24
-# 条评论：18]]></description>
+积分：56
+# 条评论：25]]></description>
       <guid>https://cleantechnica.com/2024/04/10/replacing-wires-could-double-how-much-electricity-the-us-grid-can-handle/</guid>
       <pubDate>Thu, 11 Apr 2024 00:27:36 GMT</pubDate>
     </item>
@@ -39,8 +59,8 @@
       <link>https://rednafi.com/misc/etag_and_http_caching/</link>
       <description><![CDATA[文章网址：https://rednafi.com/misc/etag_and_http_caching/
 评论网址：https://news.ycombinator.com/item?id=39996521
-积分：36
-# 条评论：15]]></description>
+积分：59
+# 条评论：24]]></description>
       <guid>https://rednafi.com/misc/etag_and_http_caching/</guid>
       <pubDate>Wed, 10 Apr 2024 22:51:47 GMT</pubDate>
     </item>
@@ -49,8 +69,8 @@
       <link>https://academia.stackexchange.com/questions/209300/when-teaching-computer-architecture-why-are-universities-using-obscure-or-even</link>
       <description><![CDATA[文章网址：https： //academia.stackexchange.com/questions/209300/when-teaching-computer-architecture-why-are-universities-using-obscure-or-even
 评论网址：https://news.ycombinator.com/item?id=39996475
-积分：19
-# 条评论：14]]></description>
+积分：50
+# 条评论：62]]></description>
       <guid>https://academia.stackexchange.com/questions/209300/when-teaching-computer-architecture-why-are-universities-using-obscure-or-even</guid>
       <pubDate>Wed, 10 Apr 2024 22:45:33 GMT</pubDate>
     </item>
@@ -59,50 +79,47 @@
       <link>https://matduggan.com/why-cant-my-mom-email-me/</link>
       <description><![CDATA[文章网址：https://matduggan.com/why-cant-my-mom-email -我/
 评论网址：https://news.ycombinator.com/item?id=39996314
-积分：67
-# 条评论：17]]></description>
+积分：133
+# 条评论：67]]></description>
       <guid>https://matduggan.com/why-cant-my-mom-email-me/</guid>
       <pubDate>Wed, 10 Apr 2024 22:21:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：JavaScript 中的下一个令牌预测 – 从头开始​​构建快速 LLM</title>
+      <link>https://github.com/bennyschmidt/next-token-prediction</link>
+      <description><![CDATA[今天这个项目的灵感来源是观看 3Blue1Brown 制作的这段令人惊叹的视频，名为“但是什么是 GPT？”在 YouTube 上 (https://www.youtube.com/watch?v=wjZofJX0v4M -我强烈建议观看）。我将其添加到存储库中以供参考。当我想到“了解事实”几乎与预测一个单词（或一系列单词）同义时，我想对其进行测试，因为它似乎很简单。我选择 JavaScript 是因为我可以利用它构造对象的方式来帮助语言建模。例如：“我想去海滩”，
+“我稍后会做”，
+“我想知道答案”，
+...变为： {
+    我： {
+      想： {
+        到： {
+          是： { ... }，
+          知道： { ... }
+        }
+      },
+      将要： { ... }
+    },
+    ...
+  }
+
+在 JavaScript 中。您可以利用该语言的快速对象查找速度以这种方式查找已知句子，而不是递归搜索文本 - 这是惯例，考虑到默认情况下加载了几本完整的书籍（并且它可以支持更多）。伴随的研究了解了“令牌”和“嵌入”是什么、“训练”的含义以及其余大部分内容 - 尽管我仍在学习术语。我编写了一个脚本来迭代每本书的每个单词，以对给定光标的情况下该单词出现的可能性进行排名，并将其扩展为对整个短语进行排名。基本解码器开始了我所说的“与令牌无关” - 不关心你是否正在寻找下一个字母......单词......像素......这是相同的逻辑。但实际上并非如此，它很快就演变成文本（语言）模型。但我计划使用它来进行下一步图像生成（下一个像素预测）。总体而言，概念相似，但主要在提取和格式化方面存在差异。该项目的目标：- 为人们揭开 LLM 的神秘面纱，表明它只是执行正常操作的常规代码- 实际上制作一个JavaScript 方面的法学硕士相当不错，其版本至少能够在浏览器选项卡中运行
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=39995908
+积分：48
+# 条评论：5]]></description>
+      <guid>https://github.com/bennyschmidt/next-token-prediction</guid>
+      <pubDate>Wed, 10 Apr 2024 21:27:07 GMT</pubDate>
     </item>
     <item>
       <title>盗墓贼掠夺战场吗？</title>
       <link>https://www.science.org/content/article/now-we-know-where-dead-went-did-grave-robbers-plunder-battlefields</link>
       <description><![CDATA[文章网址：https： //www.science.org/content/article/now-we-know-where-dead-went-did-grave-robbers-plunder-battlefields
 评论网址：https://news.ycombinator.com/item?id=39995782
-积分：16
-# 条评论：5]]></description>
+积分：37
+# 条评论：23]]></description>
       <guid>https://www.science.org/content/article/now-we-know-where-dead-went-did-grave-robbers-plunder-battlefields</guid>
       <pubDate>Wed, 10 Apr 2024 21:13:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Aider：在您的终端中进行 AI 配对编程</title>
-      <link>https://github.com/paul-gauthier/aider</link>
-      <description><![CDATA[文章网址：https://github.com/paul-gauthier/aider
-评论网址：https://news.ycombinator.com/item?id=39995725
-积分：165
-# 条评论：57]]></description>
-      <guid>https://github.com/paul-gauthier/aider</guid>
-      <pubDate>Wed, 10 Apr 2024 21:06:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nimble：Meta 的新柱状文件格式 [视频]</title>
-      <link>https://www.youtube.com/watch?v=bISBNVtXZ6M</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=bISBNVtXZ6M
-评论网址：https://news.ycombinator.com/item?id=39995112
-积分：72
-# 条评论：20]]></description>
-      <guid>https://www.youtube.com/watch?v=bISBNVtXZ6M</guid>
-      <pubDate>Wed, 10 Apr 2024 20:00:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Libgourou：在 ePub/PDF 文件上免费实施 Adob​​e Adept DRM</title>
-      <link>https://forge.soutade.fr/soutade/libgourou</link>
-      <description><![CDATA[文章网址：https://forge.soutade.fr/soutade/libgourou
-评论网址：https://news.ycombinator.com/item?id=39994339
-积分：126
-# 条评论：41]]></description>
-      <guid>https://forge.soutade.fr/soutade/libgourou</guid>
-      <pubDate>Wed, 10 Apr 2024 18:49:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
