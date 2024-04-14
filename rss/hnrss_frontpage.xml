@@ -4,24 +4,34 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 14 Apr 2024 03:52:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Apr 2024 07:55:28 GMT</lastBuildDate>
     <item>
-      <title>让真相社会化并遵守 AGPL</title>
-      <link>https://boehs.org/node/truth-social</link>
-      <description><![CDATA[文章网址：https://boehs.org/node/truth-social
-评论网址：https://news.ycombinator.com/item?id=40028338
-积分：42
-# 条评论：0]]></description>
-      <guid>https://boehs.org/node/truth-social</guid>
-      <pubDate>Sun, 14 Apr 2024 03:10:40 GMT</pubDate>
+      <title>销售开发者工具的问题在于开发者没有购买权</title>
+      <link>https://twitter.com/d_feldman/status/1779203622351339955</link>
+      <description><![CDATA[文章网址：https://twitter.com/d_feldman/status/1779203622351339955
+评论网址：https://news.ycombinator.com/item?id=40029283
+积分：32
+# 条评论：17]]></description>
+      <guid>https://twitter.com/d_feldman/status/1779203622351339955</guid>
+      <pubDate>Sun, 14 Apr 2024 07:13:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>平静生活的讣告</title>
+      <link>https://bittersoutherner.com/feature/2023/obituary-for-a-quiet-life</link>
+      <description><![CDATA[文章网址：https://bittersoutherner.com/feature/2023/obituary-for-平静的生活
+评论网址：https://news.ycombinator.com/item?id=40028643
+积分：194
+# 条评论：24]]></description>
+      <guid>https://bittersoutherner.com/feature/2023/obituary-for-a-quiet-life</guid>
+      <pubDate>Sun, 14 Apr 2024 04:24:38 GMT</pubDate>
     </item>
     <item>
       <title>停车场发现1800年前的罗马雕像</title>
       <link>https://www.cnn.com/2024/03/19/style/roman-statue-parking-lot-intl-scn-scli/index.html</link>
       <description><![CDATA[文章网址：https： //www.cnn.com/2024/03/19/style/roman-statue-parking-lot-intl-scn-scli/index.html
 评论网址：https://news.ycombinator.com/item?id=40028308
-积分：5
-# 条评论：0]]></description>
+积分：34
+# 条评论：13]]></description>
       <guid>https://www.cnn.com/2024/03/19/style/roman-statue-parking-lot-intl-scn-scli/index.html</guid>
       <pubDate>Sun, 14 Apr 2024 03:01:24 GMT</pubDate>
     </item>
@@ -31,59 +41,59 @@
       <description><![CDATA[如果您使用 C++ 工作，并且希望 2 个以上的程序彼此共享数据结构（和/或本机 I/O 句柄，又称 FD），那么 Flow-IPC- 很有可能使与典型方法相比，它对代码的干扰要小得多； - 可能会大大减少所涉及的延迟。那些共享 Cap&#39;n Proto 编码数据的人可能会特别感兴趣。 Cap&#39;n Proto (https://capnproto.org) 在其核心任务上表现出色 - 零位就地序列化 -复制 - 我们希望使涉及 capnp 序列化消息的 IPC（进程间通信）成为零复制、端到端。也就是说，我们同样关注其他多种有效载荷；它不限于 capnp 编码的消息。例如，可以轻松（&lt;--我希望！）兼容 STL 的本机 C++ 数据结构的任意组合进行零拷贝传输。为了帮助确定 Flow-IPC 是否与您相关，我们撰写了一篇介绍性博客文章。它通过一个示例进行工作，总结了可用的功能，并得出了一些性能结果。 https://www.linode.com /blog/open-source/flow-ipc-introductio...当然，直接访问 GitHub 链接并进入 README 和文档并没有什么问题。目前 Flow-IPC 是对于Linux。 （macOS/ARM64 和 Windows 支持可能很快就会推出，具体取决于需求/贡献。）
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=40028118
-积分：13
-# 条评论：22]]></description>
+积分：43
+# 条评论：28]]></description>
       <guid>https://github.com/Flow-IPC</guid>
       <pubDate>Sun, 14 Apr 2024 02:15:15 GMT</pubDate>
     </item>
     <item>
-      <title>Dano 是 FFmpeg 的包装器，用于对内部文件流进行校验和</title>
-      <link>https://github.com/kimono-koans/dano</link>
-      <description><![CDATA[文章网址：https://github.com/kimono-koans/dano
-评论网址：https://news.ycombinator.com/item?id=40027287
-积分：34
-# 条评论：0]]></description>
-      <guid>https://github.com/kimono-koans/dano</guid>
-      <pubDate>Sat, 13 Apr 2024 23:48:23 GMT</pubDate>
+      <title>显示 HN：PostgreSQL 索引顾问</title>
+      <link>https://github.com/supabase/index_advisor</link>
+      <description><![CDATA[这是一个 Postgres 扩展，可以确定查询是否应该有索引。例如，对于此表： create table book(
+      id int 主键，
+      标题文本不为空
+    ）；
+
+您可以运行“index_advisor()”来查看 select 语句上是否应该有索引： select *
+    from index_advisor(&#39;从书名中选择 book.id，其中 title = $1&#39;);
+
+它将返回（摘要）： {&quot;CREATE INDEX ON public.book USING btree (title)&quot;}
+
+它与 pg_stat_statements[0] 配合得特别好，pg_stat_statements[0] 跟踪在 Postgres 数据库上执行的所有 SQL 语句的执行统计信息。它很大程度上依赖于 HypoPG[1]，这是一个出色的扩展，可以确定 PostgreSQL 是否将使用给定的索引而不花费资源创建它们。[0] pg_stat_statements: https://www.postgresql.org /docs/current/pgstatstatements.htm...[1] https://github.com/HypoPG/hypopg 
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40028111
+积分：106
+# 条评论：28]]></description>
+      <guid>https://github.com/supabase/index_advisor</guid>
+      <pubDate>Sun, 14 Apr 2024 02:14:36 GMT</pubDate>
     </item>
     <item>
-      <title>《超级马里奥 64》的隐形墙解释[视频]</title>
-      <link>https://www.youtube.com/watch?v=YsXCVsDFiXA</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=YsXCVsDFiXA
-评论网址：https://news.ycombinator.com/item?id=40027249
-积分：87
-# 条评论：23]]></description>
-      <guid>https://www.youtube.com/watch?v=YsXCVsDFiXA</guid>
-      <pubDate>Sat, 13 Apr 2024 23:42:28 GMT</pubDate>
+      <title>使用 GUI 在本地计算机上进行快速、安全的翻译</title>
+      <link>https://github.com/XapaJIaMnu/translateLocally</link>
+      <description><![CDATA[文章网址：https://github.com/XapaJIaMnu/translateLocally
+评论网址：https://news.ycombinator.com/item?id=40027866
+积分：36
+# 条评论：4]]></description>
+      <guid>https://github.com/XapaJIaMnu/translateLocally</guid>
+      <pubDate>Sun, 14 Apr 2024 01:22:49 GMT</pubDate>
     </item>
     <item>
       <title>福特野马 Mach-E 在事故发生时使用 BlueCruise：NTSB</title>
       <link>https://fordauthority.com/2024/04/ford-mustang-mach-e-using-bluecruise-at-time-of-crash-ntsb/</link>
       <description><![CDATA[文章网址：https:/ /fordauthority.com/2024/04/ford-mustang-mach-e-using-bluecruise-at-time-of-crash-ntsb/
 评论网址：https://news.ycombinator.com/item?id=40026732
-积分：66
-# 条评论：181]]></description>
+积分：108
+# 条评论：243]]></description>
       <guid>https://fordauthority.com/2024/04/ford-mustang-mach-e-using-bluecruise-at-time-of-crash-ntsb/</guid>
       <pubDate>Sat, 13 Apr 2024 22:26:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：ZSV（Zip 分隔值）柱状数据格式</title>
-      <link>https://github.com/Hafthor/zsvutil</link>
-      <description><![CDATA[使用简单、成熟的技术构建的列式数据格式。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40025531
-积分：69
-# 条评论：52]]></description>
-      <guid>https://github.com/Hafthor/zsvutil</guid>
-      <pubDate>Sat, 13 Apr 2024 19:52:15 GMT</pubDate>
     </item>
     <item>
       <title>Stacks 项目：代数几何维基百科 (2022)</title>
       <link>https://news.columbia.edu/news/stacks-project-johan-dejong</link>
       <description><![CDATA[文章网址：https://news.columbia.edu/news/stacks-project-johan-德宗
 评论网址：https://news.ycombinator.com/item?id=40025362
-积分：45
-# 条评论：5]]></description>
+积分：65
+# 条评论：12]]></description>
       <guid>https://news.columbia.edu/news/stacks-project-johan-dejong</guid>
       <pubDate>Sat, 13 Apr 2024 19:29:09 GMT</pubDate>
     </item>
@@ -92,8 +102,8 @@
       <link>https://www.forbes.com/sites/theapothecary/2024/03/23/summers-inflation-reached-18-in-2022-using-the-governments-previous-formula/</link>
       <description><![CDATA[文章网址：https://www.forbes.com/sites/theapothecary/2024/03/23/summers-inflation-reached-18-in-2022-using-the-governments-previous-formula/
 评论网址：https://news.ycombinator.com/item?id=40025339
-积分：164
-# 条评论：155]]></description>
+积分：242
+评论数：247]]></description>
       <guid>https://www.forbes.com/sites/theapothecary/2024/03/23/summers-inflation-reached-18-in-2022-using-the-governments-previous-formula/</guid>
       <pubDate>Sat, 13 Apr 2024 19:24:42 GMT</pubDate>
     </item>
@@ -102,8 +112,8 @@
       <link>https://drericlevi.substack.com/p/the-darker-side-of-being-a-doctor</link>
       <description><![CDATA[文章网址：https://drericevi.substack.com/p/成为一名医生的阴暗面
 评论网址：https://news.ycombinator.com/item?id=40025261
-积分：359
-# 条评论：252]]></description>
+积分：453
+# 条评论：313]]></description>
       <guid>https://drericlevi.substack.com/p/the-darker-side-of-being-a-doctor</guid>
       <pubDate>Sat, 13 Apr 2024 19:10:39 GMT</pubDate>
     </item>
