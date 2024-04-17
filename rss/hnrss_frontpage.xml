@@ -4,106 +4,106 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 17 Apr 2024 15:17:22 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Apr 2024 18:18:06 GMT</lastBuildDate>
     <item>
-      <title>Stable Diffusion 3 API 现已推出</title>
-      <link>https://stability.ai/news/stable-diffusion-3-api</link>
-      <description><![CDATA[文章网址：https://stability.ai/news/stable-diffusion-3-api
-评论网址：https://news.ycombinator.com/item?id=40065114
-积分：34
-评论数量：9]]></description>
-      <guid>https://stability.ai/news/stable-diffusion-3-api</guid>
-      <pubDate>Wed, 17 Apr 2024 14:26:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>Formlabs Form 4 3D 打印机在速度和质量上击败注塑机 [视频]</title>
-      <link>https://www.youtube.com/watch?v=zdv6MlFlOrA</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=zdv6MlFlOrA
-评论网址：https://news.ycombinator.com/item?id=40064744
-积分：11
+      <title>自训练语言模型的崩溃</title>
+      <link>https://arxiv.org/abs/2404.02305</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2404.02305
+评论网址：https://news.ycombinator.com/item?id=40068170
+积分：4
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=zdv6MlFlOrA</guid>
-      <pubDate>Wed, 17 Apr 2024 14:01:26 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2404.02305</guid>
+      <pubDate>Wed, 17 Apr 2024 18:05:59 GMT</pubDate>
     </item>
     <item>
-      <title>混合 8x22B</title>
-      <link>https://mistral.ai/news/mixtral-8x22b/</link>
-      <description><![CDATA[文章网址：https://mistral.ai/news/mixtral-8x22b/
-评论网址：https://news.ycombinator.com/item?id=40064736
-积分：141
-# 条评论：50]]></description>
-      <guid>https://mistral.ai/news/mixtral-8x22b/</guid>
-      <pubDate>Wed, 17 Apr 2024 14:00:37 GMT</pubDate>
+      <title>Show HN：将 LLM 推理速度加快 2 倍（可能）</title>
+      <link>https://asciinema.org/a/piP22yYwcaohu5cA2gyuv1W61</link>
+      <description><![CDATA[这是我过去几个月一直在研究的一个项目。这是一种新的（我认为）算法，可以平滑地实时调整您想要执行的计算次数在 LLM 模型的推理过程中。似乎可以只进行 20-25% 的权重乘法，而不是全部，并且仍然可以获得良好的推理结果。我将其实现为在 M1/M2 上运行/M3 GPU。 mmul 近似本身可以在输出质量崩溃之前以 2 倍的速度运行。推理速度仅比 Llama.cpp 快一点，因为其余的实现可能会更好，但我认为需要更好的开发除了量化之外，它可以是一种加速推理的新方法。您可以将其称为临时模型蒸馏:)您可以实时随意更改模型的速度/准确性。 哦，还有一个副作用，数据格式还允许选择要加载到内存中的模型量。您可以决定跳过最不重要权重的 10-20-40%。它是为 Mistral 实现的，还在 Mixtral 和 Llama 上进行了轻微测试。目前适用于 FP16，但 Q8 正在开发中。此处描述了算法，并且实现是开源的。https://kolinko.github.io/effort/我知道这些都是大胆的主张，但我希望它们能够经受住审查:)
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40067677
+积分：3
+# 条评论：1]]></description>
+      <guid>https://asciinema.org/a/piP22yYwcaohu5cA2gyuv1W61</guid>
+      <pubDate>Wed, 17 Apr 2024 17:26:09 GMT</pubDate>
     </item>
     <item>
-      <title>Atlas 的电动新时代</title>
-      <link>https://bostondynamics.com/blog/electric-new-era-for-atlas/</link>
-      <description><![CDATA[文章网址：https://bostondynamics.com/blog/electric-new-era-for -图集/
-评论网址：https://news.ycombinator.com/item?id=40064105
-积分：89
-# 条评论：58]]></description>
-      <guid>https://bostondynamics.com/blog/electric-new-era-for-atlas/</guid>
-      <pubDate>Wed, 17 Apr 2024 13:12:14 GMT</pubDate>
+      <title>雀巢如何让低收入国家的儿童迷上糖</title>
+      <link>https://stories.publiceye.ch/nestle-babies/</link>
+      <description><![CDATA[文章网址：https://stories.publiceye.ch/nestle-babies/
+评论网址：https://news.ycombinator.com/item?id=40067575
+积分：79
+# 条评论：13]]></description>
+      <guid>https://stories.publiceye.ch/nestle-babies/</guid>
+      <pubDate>Wed, 17 Apr 2024 17:18:07 GMT</pubDate>
     </item>
     <item>
-      <title>解决无向图的最小割问题</title>
-      <link>https://research.google/blog/solving-the-minimum-cut-problem-for-undirected-graphs/</link>
-      <description><![CDATA[文章网址：https://research.google/blog/solving -无向图的最小割问题/
-评论网址：https://news.ycombinator.com/item?id=40064027
-积分：7
-# 条评论：0]]></description>
-      <guid>https://research.google/blog/solving-the-minimum-cut-problem-for-undirected-graphs/</guid>
-      <pubDate>Wed, 17 Apr 2024 13:05:14 GMT</pubDate>
+      <title>AltStore PAL，iPhone 上的第一个替代应用程序市场，现已推出</title>
+      <link>https://mastodon.social/@stroughtonsmith/112287515017810339</link>
+      <description><![CDATA[文章网址：https://mastodon.social/@stroughtonsmith/112287515017810339
+评论网址：https://news.ycombinator.com/item?id=40067556
+积分：35
+# 条评论：28]]></description>
+      <guid>https://mastodon.social/@stroughtonsmith/112287515017810339</guid>
+      <pubDate>Wed, 17 Apr 2024 17:16:13 GMT</pubDate>
     </item>
     <item>
-      <title>LXQt 2.0.0</title>
-      <link>https://lxqt-project.org/release/2024/04/15/release-lxqt-2-0-0/</link>
-      <description><![CDATA[文章网址：https://lxqt-project.org /release/2024/04/15/release-lxqt-2-0-0/
-评论网址：https://news.ycombinator.com/item?id=40063908
-积分：54
-# 条评论：6]]></description>
-      <guid>https://lxqt-project.org/release/2024/04/15/release-lxqt-2-0-0/</guid>
-      <pubDate>Wed, 17 Apr 2024 12:52:06 GMT</pubDate>
+      <title>Effort——LLM推理的一种可能的新算法</title>
+      <link>https://kolinko.github.io/effort/</link>
+      <description><![CDATA[文章网址：https://kolinko.github.io/effort/
+评论网址：https://news.ycombinator.com/item?id=40067489
+积分：55
+# 条评论：7]]></description>
+      <guid>https://kolinko.github.io/effort/</guid>
+      <pubDate>Wed, 17 Apr 2024 17:09:17 GMT</pubDate>
     </item>
     <item>
-      <title>量子力学是其他物理理论运行的操作系统</title>
-      <link>https://www.scottaaronson.com/democritus/lec9.html</link>
-      <description><![CDATA[文章网址：https://www.scottaaronson.com/democritus/lec9.html
-评论网址：https://news.ycombinator.com/item?id=40063795
-积分：56
-# 条评论：26]]></description>
-      <guid>https://www.scottaaronson.com/democritus/lec9.html</guid>
-      <pubDate>Wed, 17 Apr 2024 12:38:40 GMT</pubDate>
+      <title>对于人工智能好奇的应用程序开发人员来说，嵌入是一个很好的起点</title>
+      <link>https://bawolf.substack.com/p/embeddings-are-a-good-starting-point</link>
+      <description><![CDATA[文章网址：https://bawolf.substack.com/p/embeddings-是一个好的起点
+评论网址：https://news.ycombinator.com/item?id=40067486
+积分：38
+# 条评论：10]]></description>
+      <guid>https://bawolf.substack.com/p/embeddings-are-a-good-starting-point</guid>
+      <pubDate>Wed, 17 Apr 2024 17:09:14 GMT</pubDate>
     </item>
     <item>
-      <title>作为创始人的 VC 严峻考验（2017）</title>
-      <link>https://www.stimmel-law.com/en/articles/story-2-acid-test-clause</link>
-      <description><![CDATA[文章网址：https://www.stimmel-law.com/ en/articles/story-2-acid-test-clause
-评论网址：https://news.ycombinator.com/item?id=40063607
-积分：75
-# 条评论：15]]></description>
-      <guid>https://www.stimmel-law.com/en/articles/story-2-acid-test-clause</guid>
-      <pubDate>Wed, 17 Apr 2024 12:21:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>有多少间浴室的瓷砖里有尼安德特人？</title>
-      <link>https://johnhawks.net/weblog/how-many-bathrooms-have-neandertals-in-the-tile/</link>
-      <description><![CDATA[文章网址：https://johnhawks.net/weblog/how -许多浴室里都有尼安德特人/
-评论网址：https://news.ycombinator.com/item?id=40063367
-积分：155
-# 条评论：56]]></description>
-      <guid>https://johnhawks.net/weblog/how-many-bathrooms-have-neandertals-in-the-tile/</guid>
-      <pubDate>Wed, 17 Apr 2024 12:00:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Finley (YC W21) 正在招聘资本市场创新者（美国远程）</title>
-      <link>https://www.finleycms.com/careers/</link>
-      <description><![CDATA[文章网址：https://www.finleycms.com/careers/
-评论网址：https://news.ycombinator.com/item?id=40063366
+      <title>Y Combinator 正在招聘全栈工程师 - 了解大量有关初创公司的信息</title>
+      <link>https://news.ycombinator.com/item?id=40067372</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=40067372
 积分：0
 # 条评论：0]]></description>
-      <guid>https://www.finleycms.com/careers/</guid>
-      <pubDate>Wed, 17 Apr 2024 12:00:25 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=40067372</guid>
+      <pubDate>Wed, 17 Apr 2024 17:00:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>被遗忘的传呼机战争</title>
+      <link>https://newsletter.pessimistsarchive.org/p/the-forgotten-war-on-beepers</link>
+      <description><![CDATA[文章网址：https://newsletter.pessimistsarchive.org/p/the-forgotten-战争蜂鸣器
+评论网址：https://news.ycombinator.com/item?id=40067206
+积分：38
+# 条评论：26]]></description>
+      <guid>https://newsletter.pessimistsarchive.org/p/the-forgotten-war-on-beepers</guid>
+      <pubDate>Wed, 17 Apr 2024 16:47:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>姜戈·莱因哈特的制作过程</title>
+      <link>https://www.messynessychic.com/2024/04/12/djangos-journey-the-making-of-the-nomadic-king-of-french-swing/</link>
+      <description><![CDATA[文章网址：https://www.messynessychic.com/2024/04/12/djangos-journey-the-making-of-the-nomadic-king-of-french-swing/
+评论网址：https://news.ycombinator.com/item?id=40066975
+积分：12
+# 条评论：4]]></description>
+      <guid>https://www.messynessychic.com/2024/04/12/djangos-journey-the-making-of-the-nomadic-king-of-french-swing/</guid>
+      <pubDate>Wed, 17 Apr 2024 16:30:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>近地轨道的伟大商业接管</title>
+      <link>https://www.technologyreview.com/2024/04/17/1090856/international-space-station-axiom-low-earth-orbit/</link>
+      <description><![CDATA[文章网址：https://www .technologyreview.com/2024/04/17/1090856/international-space-station-axiom-low-earth-orbit/
+评论网址：https://news.ycombinator.com/item?id=40066921
+积分：23
+# 条评论：4]]></description>
+      <guid>https://www.technologyreview.com/2024/04/17/1090856/international-space-station-axiom-low-earth-orbit/</guid>
+      <pubDate>Wed, 17 Apr 2024 16:26:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
