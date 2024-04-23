@@ -4,109 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 23 Apr 2024 15:14:50 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 18:17:36 GMT</lastBuildDate>
     <item>
-      <title>乌克兰这个没有海军的国家摧毁了超过25艘俄罗斯军舰</title>
-      <link>https://backtosifar.substack.com/p/how-ukraine-a-country-without-a-navy</link>
-      <description><![CDATA[文章网址：https://backtosifar.substack.com/p/乌克兰如何成为一个没有海军的国家
-评论网址：https://news.ycombinator.com/item?id=40132672
-积分：3
-# 条评论：0]]></description>
-      <guid>https://backtosifar.substack.com/p/how-ukraine-a-country-without-a-navy</guid>
-      <pubDate>Tue, 23 Apr 2024 14:53:42 GMT</pubDate>
+      <title>诉讼指控通用汽车未经同意与保险公司共享驾驶员数据</title>
+      <link>https://www.theregister.com/2024/04/23/gm_insurance_class_action/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2024/04/23/gm_insurance_class_action/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=40134739
+积分：8
+# 条评论：3]]></description>
+      <guid>https://www.theregister.com/2024/04/23/gm_insurance_class_action/</guid>
+      <pubDate>Tue, 23 Apr 2024 17:40:18 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Getada：Ada 工具链/包管理器的类似 rustup 的安装程序</title>
-      <link>https://getada.dev</link>
-      <description><![CDATA[我对 Ada 的目标之一是为人们提供一个简单的复制粘贴终端命令来安装 Ada，这样他们就可以在几分钟内开始编码。经过广泛的测试，我觉得它已经准备好全面发布[1]。Getada 受到 Rustup[2] 的启发，除了初始化脚本完全用 Ada 编写之外。它是完全开源的，您可以查看github 上的自述文件和代码[3]。目前它支持 Alire 官方发布的所有非 Windows 平台，目前包括 Linux (glibc) 和 MacOS。如果您尝试在不受支持的平台上运行它，它会尝试为您指明正确的方向。例如，您可以使用现有的安装程序在 Windows 上安装 Alire。它将针对您的平台以 zip 文件的形式下载最新版本的 Alire[4]（Ada 的工具链和包管理器，类似于 Cargo）到临时文件夹中。目录，然后将其解压到二进制目录。默认情况下，临时目录（使用“-t /directory”或“--tmp=/directory”配置）默认为$TMPDIR 或/tmp。配置目录是 ~/.getada （通过“-c /directory”、“--cfg=/directory”或 $GETADA_CFG 进行更改），alr 和 getada 二进制文件位于 ~/.getada/bin （使用“配置” “-b /directory”、“--bin=/directory”或 $GETADA_BIN）它还会尝试通过将“env.sh”文件放入 ~/.profile/ 来将文件添加到您的路径（使用 - 禁用）。 p 或 --no-path)。如果您不允许临时目录或主目录中存在可执行文件，您可以通过环境变量或传递参数来更改所有这些。您可以通过运行以下命令将其全部删除：getada --uninstall现在您可以使用以下命令创建一个全新的 Ada 项目：alr init --bin my_project（如何使用 Alire[5] 了解更多详细信息）因为对 Ada 最大的抱怨之一是获取工具链[6]，我希望这可以为该语言的新手解决很多问题。[1] https:// www.getada.dev[2] https://rustup.rs/ [3] https://github.com/aj-ianozi/getada[4] https://alire.ada.dev/[5] https://www.getada.dev/how-to-use-alire.html[6] https://programming.dev/comment/9438211
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40132373
-积分：4
-# 条评论：0]]></description>
-      <guid>https://getada.dev</guid>
-      <pubDate>Tue, 23 Apr 2024 14:26:26 GMT</pubDate>
+      <title>由于需求下降“严重超出预期”，苹果削减了 Vision Pro 出货量</title>
+      <link>https://www.macrumors.com/2024/04/23/apple-cuts-vision-pro-shipments/</link>
+      <description><![CDATA[文章网址：https://www.macrumors.com/2024 /04/23/apple-cuts-vision-pro-shipments/
+评论网址：https://news.ycombinator.com/item?id=40134716
+积分：48
+# 条评论：35]]></description>
+      <guid>https://www.macrumors.com/2024/04/23/apple-cuts-vision-pro-shipments/</guid>
+      <pubDate>Tue, 23 Apr 2024 17:37:36 GMT</pubDate>
     </item>
     <item>
-      <title>一名男子从世贸中心顶部逃出[视频]</title>
-      <link>https://www.youtube.com/watch?v=W7ZaX65nR4k</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=W7ZaX65nR4k
-评论网址：https://news.ycombinator.com/item?id=40132331
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=W7ZaX65nR4k</guid>
-      <pubDate>Tue, 23 Apr 2024 14:22:02 GMT</pubDate>
+      <title>苹果削减 Vision Pro 出货量，现在正在“审查和调整”耳机策略</title>
+      <link>https://9to5mac.com/2024/04/23/kuo-vision-pro-shipping-delays/</link>
+      <description><![CDATA[文章网址：https://9to5mac.com/2024/04/23 /kuo-vision-pro-shipping-delays/
+评论网址：https://news.ycombinator.com/item?id=40134491
+积分：17
+# 条评论：6]]></description>
+      <guid>https://9to5mac.com/2024/04/23/kuo-vision-pro-shipping-delays/</guid>
+      <pubDate>Tue, 23 Apr 2024 17:21:07 GMT</pubDate>
     </item>
     <item>
-      <title>在 MongoDB 中使用对偶</title>
-      <link>https://antithesis.com/blog/mongo_bug/</link>
-      <description><![CDATA[文章网址：https://antithesis.com/blog/mongo_bug/
-评论网址：https://news.ycombinator.com/item?id=40131900
-积分：18
-# 条评论：0]]></description>
-      <guid>https://antithesis.com/blog/mongo_bug/</guid>
-      <pubDate>Tue, 23 Apr 2024 13:45:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMA：我是戴夫·格林，康威生命游戏的意外专家</title>
-      <link>https://news.ycombinator.com/item?id=40131597</link>
-      <description><![CDATA[2001 年，我因幸运地发现了一种名为“boojum 反射器”的东西而获得了一笔小额现金奖励，从而加入了康威生命研究社区。从那时起，我的参与逐渐如滚雪球般增加。我时不时地帮助维护各种与生活相关的邮件列表和博客、Life Lexicon，以及最近的 conwaylife.com 论坛和 LifeWiki。我偶然发现的另一件事是帮助 Nathaniel Johnson 完成一份令人难以置信的彻底 480-页康威的生活教科书，有章末练习和一切。这本书可以用来教授该主题的大学课程。 https://conwaylife.com/book/ 有这本书的免费 PDF 下载。所以……我绝对不是最聪明的生命爱好者，但对于一个关于生命游戏的随机问题，我我们比世界上至少 99.9999% 的人更有可能了解它。有什么问题就问我吧！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40131597
-积分：115
-# 条评论：44]]></description>
-      <guid>https://news.ycombinator.com/item?id=40131597</guid>
-      <pubDate>Tue, 23 Apr 2024 13:14:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>新的基础是一致的——使用精益证明了一个困难的数学证明</title>
-      <link>https://leanprover-community.github.io/con-nf//</link>
-      <description><![CDATA[文章网址：https://leanprover-community.github.io/con-nf//
-评论网址：https://news.ycombinator.com/item?id=40130924
-积分：36
-# 条评论：5]]></description>
-      <guid>https://leanprover-community.github.io/con-nf//</guid>
-      <pubDate>Tue, 23 Apr 2024 12:01:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>1build (YC W20) 正在招聘营销主管</title>
-      <link>https://www.ycombinator.com/companies/1build/jobs/oW1x2mB-marketing-lead</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/1build/jobs/ ow1x2mB-营销主管
-评论网址：https://news.ycombinator.com/item?id=40130922
+      <title>Taiki (YC W24) 正在招聘一名软件工程师实习生</title>
+      <link>https://www.ycombinator.com/companies/taiki/jobs/kOLspG5-software-engineer-intern</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/taiki/职位/kOLspG5-软件工程师-实习生
+评论网址：https://news.ycombinator.com/item?id=40134210
 积分：0
 # 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/1build/jobs/oW1x2mB-marketing-lead</guid>
-      <pubDate>Tue, 23 Apr 2024 12:00:40 GMT</pubDate>
+      <guid>https://www.ycombinator.com/companies/taiki/jobs/kOLspG5-software-engineer-intern</guid>
+      <pubDate>Tue, 23 Apr 2024 17:01:00 GMT</pubDate>
     </item>
     <item>
-      <title>Akaunting 是适用于小型企业的免费开源在线会计软件</title>
-      <link>https://akaunting.com</link>
-      <description><![CDATA[文章网址：https://akaunting.com
-评论网址：https://news.ycombinator.com/item?id=40130542
-积分：64
-# 条评论：41]]></description>
-      <guid>https://akaunting.com</guid>
-      <pubDate>Tue, 23 Apr 2024 11:16:04 GMT</pubDate>
+      <title>Fallout1-ce：现代操作系统的辐射</title>
+      <link>https://github.com/alexbatalov/fallout1-ce</link>
+      <description><![CDATA[文章网址：https://github.com/alexbatalov/fallout1-ce
+评论网址：https://news.ycombinator.com/item?id=40134200
+积分：3
+# 条评论：0]]></description>
+      <guid>https://github.com/alexbatalov/fallout1-ce</guid>
+      <pubDate>Tue, 23 Apr 2024 17:00:15 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：移动浏览器的 10 关平衡游戏，难度不断增加</title>
-      <link>https://www.balanc3dgame.com/</link>
-      <description><![CDATA[我制作了这个 10 级游戏。人们很高兴尝试它。 ：）保持平衡：）
+      <title>杀死谷歌搜索的人</title>
+      <link>https://www.wheresyoured.at/the-men-who-killed-google/</link>
+      <description><![CDATA[文章网址：https://www.wheresyoured.at/the-men-who-killed -谷歌/
+评论网址：https://news.ycombinator.com/item?id=40133976
+积分：116
+# 条评论：59]]></description>
+      <guid>https://www.wheresyoured.at/the-men-who-killed-google/</guid>
+      <pubDate>Tue, 23 Apr 2024 16:43:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>生成式人工智能进入 CRISPR 基因编辑世界</title>
+      <link>https://www.nytimes.com/2024/04/22/technology/generative-ai-gene-editing-crispr.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes。 com/2024/04/22/technology/generative-ai-gene-editing-crispr.html
+评论网址：https://news.ycombinator.com/item?id=40133782
+积分：31
+# 条评论：14]]></description>
+      <guid>https://www.nytimes.com/2024/04/22/technology/generative-ai-gene-editing-crispr.html</guid>
+      <pubDate>Tue, 23 Apr 2024 16:25:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>对软件破解进行逆向工程</title>
+      <link>https://twitter.com/gf_256/status/1782656618015904103</link>
+      <description><![CDATA[文章网址：https://twitter.com/gf_256/status/1782656618015904103
+评论网址：https://news.ycombinator.com/item?id=40132719
+积分：27
+评论数量：9]]></description>
+      <guid>https://twitter.com/gf_256/status/1782656618015904103</guid>
+      <pubDate>Tue, 23 Apr 2024 14:58:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>40 年历史的电缆调制解调器（NABU 网络调制解调器拆解）[视频]</title>
+      <link>https://www.youtube.com/watch?v=8IflOWH8fzY</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=8IflOWH8fzY
+评论网址：https://news.ycombinator.com/item?id=40132566
+积分：20
+# 条评论：2]]></description>
+      <guid>https://www.youtube.com/watch?v=8IflOWH8fzY</guid>
+      <pubDate>Tue, 23 Apr 2024 14:45:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Hashquery，一个用于定义可重用分析的 Python 库</title>
+      <link>https://hashquery.dev/</link>
+      <description><![CDATA[大家好，我们最近开源了 Hashquery 的第一个版本，这是一个 Python 库，可让您建模分析、干燥常见逻辑，并针对数据库或仓库执行它。我们最初直接为所有对象渲染 SQL我们的查询，但随着更复杂的分析，问题逐渐失控；需要针对每种新的数据库方言（BigQuery、Redshift、Aethena、Postgres 等）偶尔更改 SQL，并且 SQL 片段的重用非常具有挑战性（因此片段被复制粘贴到各处）。~~ ~我们认为它比手动编写 SQL 具有的优势：- 查询是完全可组合的，因此任何分析都可以链接到进一步的分析中，而无需重构。- 所有分析都在数据仓库本身内执行，使得它们对于大数据来说速度非常快。- 它只是 Python，因此您可以使用简单的 def 函数扩展或参数化查询逻辑。- 您可以在任何地方运行它，例如在单元测试、ETL 节点或 Jupyter 内部笔记本。- 开发人员体验非常好，因为编辑人员已经知道如何自动完成 Python。 ChatGPT 也已经了解 Python :)- 该库处理数据库方言之间的规范化。编写一次即可在任何数据库中使用。- Hashquery 内容是完全可序列化的，这使其非常适合为消费者公开灵活的 API，以有效查询数据集市或内部分析。我们使用它作为无头 BI 的端点，而不必定义和教授 DSL 或 GraphQL 规范。~~~我们在 Hashquery 之上构建了本机漏斗分析，并且对此感到非常兴奋到目前为止，我们认为其他人可能也想使用它。现在还为时过早，所以我们仍在尝试解释它，文档并不完全清楚，但开发网站上的示例是可编辑的，您可以下载 pip 包来使用它！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40130304
-积分：117
-# 条评论：53]]></description>
-      <guid>https://www.balanc3dgame.com/</guid>
-      <pubDate>Tue, 23 Apr 2024 10:22:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮助我们发明 CSS Grid Level 3，又名“Masonry”布局</title>
-      <link>https://webkit.org/blog/15269/help-us-invent-masonry-layouts-for-css-grid-level-3/</link>
-      <description><![CDATA[文章网址：https://webkit .org/blog/15269/help-us-invent-masonry-layouts-for-css-grid-level-3/
-评论网址：https://news.ycombinator.com/item?id=40130148
-积分：242
-# 条评论：186]]></description>
-      <guid>https://webkit.org/blog/15269/help-us-invent-masonry-layouts-for-css-grid-level-3/</guid>
-      <pubDate>Tue, 23 Apr 2024 09:32:30 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=40132424
+积分：20
+# 条评论：7]]></description>
+      <guid>https://hashquery.dev/</guid>
+      <pubDate>Tue, 23 Apr 2024 14:31:12 GMT</pubDate>
     </item>
     </channel>
 </rss>
