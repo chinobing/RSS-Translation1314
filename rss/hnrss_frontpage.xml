@@ -4,16 +4,68 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 23 Apr 2024 12:26:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 15:14:50 GMT</lastBuildDate>
     <item>
-      <title>乌克兰称大规模使用制导炸弹推动俄罗斯进步</title>
-      <link>https://www.theguardian.com/world/2024/apr/11/mass-use-of-guided-bombs-driving-russian-advances-says-ukraine</link>
-      <description><![CDATA[文章网址： https://www.theguardian.com/world/2024/apr/11/mass-use-of-guided-bombs-driven- Russian-advances-says-ukraine
-评论网址：https://news.ycombinator.com/item?id=40130930
-积分：8
-# 条评论：1]]></description>
-      <guid>https://www.theguardian.com/world/2024/apr/11/mass-use-of-guided-bombs-driving-russian-advances-says-ukraine</guid>
-      <pubDate>Tue, 23 Apr 2024 12:01:40 GMT</pubDate>
+      <title>乌克兰这个没有海军的国家摧毁了超过25艘俄罗斯军舰</title>
+      <link>https://backtosifar.substack.com/p/how-ukraine-a-country-without-a-navy</link>
+      <description><![CDATA[文章网址：https://backtosifar.substack.com/p/乌克兰如何成为一个没有海军的国家
+评论网址：https://news.ycombinator.com/item?id=40132672
+积分：3
+# 条评论：0]]></description>
+      <guid>https://backtosifar.substack.com/p/how-ukraine-a-country-without-a-navy</guid>
+      <pubDate>Tue, 23 Apr 2024 14:53:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Getada：Ada 工具链/包管理器的类似 rustup 的安装程序</title>
+      <link>https://getada.dev</link>
+      <description><![CDATA[我对 Ada 的目标之一是为人们提供一个简单的复制粘贴终端命令来安装 Ada，这样他们就可以在几分钟内开始编码。经过广泛的测试，我觉得它已经准备好全面发布[1]。Getada 受到 Rustup[2] 的启发，除了初始化脚本完全用 Ada 编写之外。它是完全开源的，您可以查看github 上的自述文件和代码[3]。目前它支持 Alire 官方发布的所有非 Windows 平台，目前包括 Linux (glibc) 和 MacOS。如果您尝试在不受支持的平台上运行它，它会尝试为您指明正确的方向。例如，您可以使用现有的安装程序在 Windows 上安装 Alire。它将针对您的平台以 zip 文件的形式下载最新版本的 Alire[4]（Ada 的工具链和包管理器，类似于 Cargo）到临时文件夹中。目录，然后将其解压到二进制目录。默认情况下，临时目录（使用“-t /directory”或“--tmp=/directory”配置）默认为$TMPDIR 或/tmp。配置目录是 ~/.getada （通过“-c /directory”、“--cfg=/directory”或 $GETADA_CFG 进行更改），alr 和 getada 二进制文件位于 ~/.getada/bin （使用“配置” “-b /directory”、“--bin=/directory”或 $GETADA_BIN）它还会尝试通过将“env.sh”文件放入 ~/.profile/ 来将文件添加到您的路径（使用 - 禁用）。 p 或 --no-path)。如果您不允许临时目录或主目录中存在可执行文件，您可以通过环境变量或传递参数来更改所有这些。您可以通过运行以下命令将其全部删除：getada --uninstall现在您可以使用以下命令创建一个全新的 Ada 项目：alr init --bin my_project（如何使用 Alire[5] 了解更多详细信息）因为对 Ada 最大的抱怨之一是获取工具链[6]，我希望这可以为该语言的新手解决很多问题。[1] https:// www.getada.dev[2] https://rustup.rs/ [3] https://github.com/aj-ianozi/getada[4] https://alire.ada.dev/[5] https://www.getada.dev/how-to-use-alire.html[6] https://programming.dev/comment/9438211
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40132373
+积分：4
+# 条评论：0]]></description>
+      <guid>https://getada.dev</guid>
+      <pubDate>Tue, 23 Apr 2024 14:26:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>一名男子从世贸中心顶部逃出[视频]</title>
+      <link>https://www.youtube.com/watch?v=W7ZaX65nR4k</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=W7ZaX65nR4k
+评论网址：https://news.ycombinator.com/item?id=40132331
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=W7ZaX65nR4k</guid>
+      <pubDate>Tue, 23 Apr 2024 14:22:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 MongoDB 中使用对偶</title>
+      <link>https://antithesis.com/blog/mongo_bug/</link>
+      <description><![CDATA[文章网址：https://antithesis.com/blog/mongo_bug/
+评论网址：https://news.ycombinator.com/item?id=40131900
+积分：18
+# 条评论：0]]></description>
+      <guid>https://antithesis.com/blog/mongo_bug/</guid>
+      <pubDate>Tue, 23 Apr 2024 13:45:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMA：我是戴夫·格林，康威生命游戏的意外专家</title>
+      <link>https://news.ycombinator.com/item?id=40131597</link>
+      <description><![CDATA[2001 年，我因幸运地发现了一种名为“boojum 反射器”的东西而获得了一笔小额现金奖励，从而加入了康威生命研究社区。从那时起，我的参与逐渐如滚雪球般增加。我时不时地帮助维护各种与生活相关的邮件列表和博客、Life Lexicon，以及最近的 conwaylife.com 论坛和 LifeWiki。我偶然发现的另一件事是帮助 Nathaniel Johnson 完成一份令人难以置信的彻底 480-页康威的生活教科书，有章末练习和一切。这本书可以用来教授该主题的大学课程。 https://conwaylife.com/book/ 有这本书的免费 PDF 下载。所以……我绝对不是最聪明的生命爱好者，但对于一个关于生命游戏的随机问题，我我们比世界上至少 99.9999% 的人更有可能了解它。有什么问题就问我吧！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40131597
+积分：115
+# 条评论：44]]></description>
+      <guid>https://news.ycombinator.com/item?id=40131597</guid>
+      <pubDate>Tue, 23 Apr 2024 13:14:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>新的基础是一致的——使用精益证明了一个困难的数学证明</title>
+      <link>https://leanprover-community.github.io/con-nf//</link>
+      <description><![CDATA[文章网址：https://leanprover-community.github.io/con-nf//
+评论网址：https://news.ycombinator.com/item?id=40130924
+积分：36
+# 条评论：5]]></description>
+      <guid>https://leanprover-community.github.io/con-nf//</guid>
+      <pubDate>Tue, 23 Apr 2024 12:01:03 GMT</pubDate>
     </item>
     <item>
       <title>1build (YC W20) 正在招聘营销主管</title>
@@ -26,44 +78,14 @@
       <pubDate>Tue, 23 Apr 2024 12:00:40 GMT</pubDate>
     </item>
     <item>
-      <title>克劳德 3 击败谷歌翻译</title>
-      <link>https://arxiv.org/abs/2404.13813</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2404.13813
-评论网址：https://news.ycombinator.com/item?id=40130768
-积分：11
-# 条评论：1]]></description>
-      <guid>https://arxiv.org/abs/2404.13813</guid>
-      <pubDate>Tue, 23 Apr 2024 11:44:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>Llama3 在 iPhone 15 Pro 上本地运行</title>
-      <link>https://imgur.com/a/FRiBYSE</link>
-      <description><![CDATA[文章网址：https://imgur.com/a/FRiBYSE
-评论网址：https://news.ycombinator.com/item?id=40130665
-积分：11
-# 条评论：7]]></description>
-      <guid>https://imgur.com/a/FRiBYSE</guid>
-      <pubDate>Tue, 23 Apr 2024 11:31:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>西格尔定律</title>
-      <link>https://en.wikipedia.org/wiki/Segal%27s_law</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Segal%27s_law
-评论网址：https://news.ycombinator.com/item?id=40130570
-积分：17
-评论数：7]]></description>
-      <guid>https://en.wikipedia.org/wiki/Segal%27s_law</guid>
-      <pubDate>Tue, 23 Apr 2024 11:20:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Zig 中的内存映射 IO 寄存器。 (2021)</title>
-      <link>https://www.scattered-thoughts.net/writing/mmio-in-zig/</link>
-      <description><![CDATA[文章网址：https://www.scattered-thoughts.net/writing/mmio-in -zig/
-评论网址：https://news.ycombinator.com/item?id=40130371
-积分：21
-# 条评论：3]]></description>
-      <guid>https://www.scattered-thoughts.net/writing/mmio-in-zig/</guid>
-      <pubDate>Tue, 23 Apr 2024 10:42:04 GMT</pubDate>
+      <title>Akaunting 是适用于小型企业的免费开源在线会计软件</title>
+      <link>https://akaunting.com</link>
+      <description><![CDATA[文章网址：https://akaunting.com
+评论网址：https://news.ycombinator.com/item?id=40130542
+积分：64
+# 条评论：41]]></description>
+      <guid>https://akaunting.com</guid>
+      <pubDate>Tue, 23 Apr 2024 11:16:04 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：移动浏览器的 10 关平衡游戏，难度不断增加</title>
@@ -71,40 +93,20 @@
       <description><![CDATA[我制作了这个 10 级游戏。人们很高兴尝试它。 ：）保持平衡：）
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=40130304
-积分：31
-# 条评论：23]]></description>
+积分：117
+# 条评论：53]]></description>
       <guid>https://www.balanc3dgame.com/</guid>
       <pubDate>Tue, 23 Apr 2024 10:22:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的 JavaScript 类型检查器的最后几天</title>
-      <link>https://jsmonk.github.io/2024-01-29-last-days-of-hegel/</link>
-      <description><![CDATA[文章网址：https://jsmonk.github.io/2024-01 -29-黑格尔的最后日子/
-评论网址：https://news.ycombinator.com/item?id=40130302
-积分：39
-# 条评论：14]]></description>
-      <guid>https://jsmonk.github.io/2024-01-29-last-days-of-hegel/</guid>
-      <pubDate>Tue, 23 Apr 2024 10:22:09 GMT</pubDate>
     </item>
     <item>
       <title>帮助我们发明 CSS Grid Level 3，又名“Masonry”布局</title>
       <link>https://webkit.org/blog/15269/help-us-invent-masonry-layouts-for-css-grid-level-3/</link>
       <description><![CDATA[文章网址：https://webkit .org/blog/15269/help-us-invent-masonry-layouts-for-css-grid-level-3/
 评论网址：https://news.ycombinator.com/item?id=40130148
-积分：134
-评论数量：96]]></description>
+积分：242
+# 条评论：186]]></description>
       <guid>https://webkit.org/blog/15269/help-us-invent-masonry-layouts-for-css-grid-level-3/</guid>
       <pubDate>Tue, 23 Apr 2024 09:32:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源社区联合起来构建符合欧盟 CRA 标准的网络安全流程</title>
-      <link>https://news.apache.org/foundation/entry/open-source-community-unites-to-build-cra-compliant-cybersecurity-processes</link>
-      <description><![CDATA[文章网址：https:// news.apache.org/foundation/entry/open-source-community-unites-to-build-cra-company-cybersecurity-processes
-评论网址：https://news.ycombinator.com/item?id=40129297
-积分：57
-# 条评论：54]]></description>
-      <guid>https://news.apache.org/foundation/entry/open-source-community-unites-to-build-cra-compliant-cybersecurity-processes</guid>
-      <pubDate>Tue, 23 Apr 2024 07:00:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
