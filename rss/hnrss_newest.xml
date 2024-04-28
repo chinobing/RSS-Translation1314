@@ -4,109 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 28 Apr 2024 03:16:18 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2024 06:18:57 GMT</lastBuildDate>
     <item>
-      <title>Twitter 的消亡：“乌托邦愿景”如何变成“有毒烂摊子”</title>
-      <link>https://www.theguardian.com/technology/2024/apr/28/the-demise-of-twitter-how-a-utopian-vision-for-social-media-became-a-toxic-mess</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/technology/2024/apr/28/the-demise-of-twitter-how-a-utopian-vision-for-social-media-变成一团有毒的烂摊子
-评论网址：https://news.ycombinator.com/item?id=40185688
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.theguardian.com/technology/2024/apr/28/the-demise-of-twitter-how-a-utopian-vision-for-social-media-became-a-toxic-mess</guid>
-      <pubDate>Sun, 28 Apr 2024 03:08:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>全球灾难性风险</title>
-      <link>https://en.wikipedia.org/wiki/Global_catastrophic_risk</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Global_catastropic_risk
-评论网址：https://news.ycombinator.com/item?id=40185682
-积分：1
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Global_catastrophic_risk</guid>
-      <pubDate>Sun, 28 Apr 2024 03:07:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>波恩-奥伯卡塞尔狗</title>
-      <link>https://en.wikipedia.org/wiki/Bonn%E2%80%93Oberkassel_dog</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Bonn%E2%80% 9 93Garden_dog
-评论网址：https://news.ycombinator.com/item?id=40185667&gt;
-积分：2
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Bonn%E2%80%93Oberkassel_dog</guid>
-      <pubDate>Sun, 28 Apr 2024 03:03:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>更好地与您的朋友分享 Google 地图</title>
-      <link>https://localeyes.cc</link>
-      <description><![CDATA[文章网址：https://localeyes.cc
-评论网址：https://news.ycombinator.com/item?id=40185665
-积分：2
-# 条评论：1]]></description>
-      <guid>https://localeyes.cc</guid>
-      <pubDate>Sun, 28 Apr 2024 03:03:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：无需登录即可在线免费创建高品质着色表</title>
-      <link>https://colorifyai.art/</link>
-      <description><![CDATA[当我有空闲的时候，我需要在家和我的孩子们一起玩，尤其是当我的孩子们让我给他画一只恐龙时。我很尴尬，因为我糟糕的绘画能力让我不知所措，所以我的最初想法诞生了。我希望快速生成孩子们可以着色的黑白图像，这不仅可以解放他们的双手，还可以让孩子们快速提高他们的绘画和着色能力，增强他们的成就感（因为他们会觉得自己是自己画的）。因此，我推出了一个可以生成高质量着色材料的AI工具，它叫ColorifyAI
-，目前完全免费，无需登录即可在线使用。其主要功能如下：● 1.完全免费，无任何限制，打开后即可在线使用。● 2. Vincentian图片：输入提示词，生成清晰的黑白艺术图片。● 3.免费下载，一键下载，打印出来给孩子涂色。● 4.动画生成，快速一键生成各种动画人物。● 5、响应速度非常快，立即得到想要的图像。所有这些都是免费提供的，欢迎您体验。这也许不是一个好主意，但不应该因此而被埋没。希望看到这个想法的人能给我更多的反馈，我会根据这个决定是否继续。更新迭代。祝您一切顺利！
+      <title>Show HN：我制作了一个用于微调嵌入模型的数据集</title>
+      <link>https://huggingface.co/datasets/Mihaiii/qa-assistant</link>
+      <description><![CDATA[我制作了一个 STSB 替代品，但带有对话/助手示例。我在网上找不到任何类似的东西（！），所以我构建了它。我这样做的原因是因为我需要一个非常小型模型，可以很好地与我的 React 组件配合使用，并且现有的 17M 模型都无法充分执行。我使用此数据集创建的模型可以。嵌入模型与其他类型的模型一样，可以是特定于任务的，而且我没有任何官方认可的任务来满足我的需求。最接近的是“句子相似度”任务，但最受认可的基准之一是 STSB，我发现 STSB 很奇怪。这是来自 STSB 的 5 分示例（满分 5 分）：“一个人切洋葱。”和“一个人正在切洋葱。”这是 STSB 的 5 分制示例：“一个男人正在吹长笛”和“一个男人正在弹吉他”。STSB 不是我的“现实世界”任务需要什么。我需要的是一种找到最佳段落的方法，这些段落是用户提出的问题的答案。这就是我制作该数据集的原因，也是我微调嵌入模型的原因。这是一次有趣的体验，而且模型效果非常好！ :)
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40185636
-积分：2
-# 条评论：3]]></description>
-      <guid>https://colorifyai.art/</guid>
-      <pubDate>Sun, 28 Apr 2024 02:56:05 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=40186387
+积分：1
+# 条评论：0]]></description>
+      <guid>https://huggingface.co/datasets/Mihaiii/qa-assistant</guid>
+      <pubDate>Sun, 28 Apr 2024 06:09:29 GMT</pubDate>
     </item>
     <item>
-      <title>谷歌市值突破 2T 美元</title>
-      <link>https://qz.com/dow-jones-nasdaq-alphabet-google-stock-market-cap-ai-1851439404</link>
-      <description><![CDATA[文章网址：https://qz.com/dow-琼斯-纳斯达克-alphabet-google-stock-market-cap-ai-1851439404
-评论网址：https://news.ycombinator.com/item?id=40185633
-积分：2
+      <title>电脑有眼睛吗？一个 10 岁的孩子教给我的关于计算机的知识</title>
+      <link>https://ebaad.notion.site/Does-a-computer-have-eyes-What-a-10-year-old-taught-me-about-computers-83cccba622c24eb3bbe12c04ec9c901b</link>
+      <description><![CDATA[文章网址：https://ebaad.notion.site/Does-a-computer-have-eyes-What-a-10-year-old-taught-me-about-computers-83cccba622c24eb3bbe12c04ec9c901b
+评论网址：https://news.ycombinator.com/item?id=40186385
+积分：1
+# 条评论：0]]></description>
+      <guid>https://ebaad.notion.site/Does-a-computer-have-eyes-What-a-10-year-old-taught-me-about-computers-83cccba622c24eb3bbe12c04ec9c901b</guid>
+      <pubDate>Sun, 28 Apr 2024 06:09:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>北德克萨斯州居民受到比特币挖矿声音的影响[视频]</title>
+      <link>https://www.youtube.com/watch?v=hcIW3t2CJII</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=hcIW3t2CJII
+评论网址：https://news.ycombinator.com/item?id=40186384
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=hcIW3t2CJII</guid>
+      <pubDate>Sun, 28 Apr 2024 06:08:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>求助 我的鼠标爬上了墙，现在无法正常工作</title>
+      <link>https://www.theregister.com/2024/04/26/on_call/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2024/04/26/on_call/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=40186374
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theregister.com/2024/04/26/on_call/</guid>
+      <pubDate>Sun, 28 Apr 2024 06:05:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>免费线性代数教科书</title>
+      <link>https://hefferon.net/linearalgebra/</link>
+      <description><![CDATA[文章网址：https://hefferon.net/linearalgebra/
+评论网址：https://news.ycombinator.com/item?id=40186370
+积分：1
+# 条评论：0]]></description>
+      <guid>https://hefferon.net/linearalgebra/</guid>
+      <pubDate>Sun, 28 Apr 2024 06:04:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>内核黑客指南</title>
+      <link>https://www.kernel.org/doc/html/latest/kernel-hacking/index.html</link>
+      <description><![CDATA[文章网址：https://www.kernel.org/doc/html/最新/kernel-hacking/index.html
+评论网址：https://news.ycombinator.com/item?id=40186367
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.kernel.org/doc/html/latest/kernel-hacking/index.html</guid>
+      <pubDate>Sun, 28 Apr 2024 06:04:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能如何改变一切和世界</title>
+      <link>https://levelupeduc.wordpress.com/2024/04/28/how-ai-is-changing-everything-the-world/</link>
+      <description><![CDATA[文章网址：https://levelupeduc.wordpress .com/2024/04/28/how-ai-is-changing-everything-the-world/
+评论网址：https://news.ycombinator.com/item?id=40186347
+积分：6
 # 条评论：1]]></description>
-      <guid>https://qz.com/dow-jones-nasdaq-alphabet-google-stock-market-cap-ai-1851439404</guid>
-      <pubDate>Sun, 28 Apr 2024 02:55:57 GMT</pubDate>
+      <guid>https://levelupeduc.wordpress.com/2024/04/28/how-ai-is-changing-everything-the-world/</guid>
+      <pubDate>Sun, 28 Apr 2024 05:57:30 GMT</pubDate>
     </item>
     <item>
-      <title>在没有医疗许可的情况下，公司如何提供咨询服务？</title>
-      <link>https://news.ycombinator.com/item?id=40185598</link>
-      <description><![CDATA[正如标题所述，有谁知道公司如何提供严格由人力资源机器人支持的咨询服务，因为个人必须是医疗专业人员才能进行咨询？以 soniahealth.com 为例。他们是如何做到的？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40185598
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=40185598</guid>
-      <pubDate>Sun, 28 Apr 2024 02:48:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>塞拉俱乐部的崩溃</title>
-      <link>https://newrepublic.com/article/180435/sierra-club-layoffs-union-leadership</link>
-      <description><![CDATA[文章网址：https://newrepublic.com/article/180435/sierra-club-裁员工会领导层
-评论网址：https://news.ycombinator.com/item?id=40185580
+      <title>微软发布 DOS 4.0 源代码，但未编译 Lunduke [视频]</title>
+      <link>https://www.youtube.com/watch?v=pzhGAt3wYTI</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=pzhGAt3wYTI
+评论网址：https://news.ycombinator.com/item?id=40186321
 积分：2
 # 条评论：0]]></description>
-      <guid>https://newrepublic.com/article/180435/sierra-club-layoffs-union-leadership</guid>
-      <pubDate>Sun, 28 Apr 2024 02:45:54 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=pzhGAt3wYTI</guid>
+      <pubDate>Sun, 28 Apr 2024 05:49:39 GMT</pubDate>
     </item>
     <item>
-      <title>测试</title>
-      <link>https://www.peoplefinders.com/name/yamina-conover/nj/union</link>
-      <description><![CDATA[文章网址：https://www.peoplefinders.com/name/yamina-conover/nj/工会
-评论网址：https://news.ycombinator.com/item?id=40185575
+      <title>航空公司不会使用更好的登机方法</title>
+      <link>https://www.youtube.com/watch?v=oAHbLRjF0vo</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=oAHbLRjF0vo
+评论网址：https://news.ycombinator.com/item?id=40186299
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.peoplefinders.com/name/yamina-conover/nj/union</guid>
-      <pubDate>Sun, 28 Apr 2024 02:45:04 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=oAHbLRjF0vo</guid>
+      <pubDate>Sun, 28 Apr 2024 05:44:50 GMT</pubDate>
     </item>
     <item>
-      <title>Claude 3 Opus 令人工智能研究人员震惊</title>
-      <link>https://www.msn.com/en-us/news/technology/claude-3-opus-has-stunned-ai-researchers-with-its-intellect-and-self-awareness-does-this-mean-it-can-think-for-itself/ar-AA1nA5fO</link>
-      <description><![CDATA[文章网址：https://www.msn.com/en-us/news/technology/claude-3-opus-震惊了人工智能研究人员及其智力和自我意识，这是否意味着它可以自行思考/ar-AA1nA5fO
-评论网址：https://news.ycombinator.com/item?id=40185567
-积分：4
+      <title>世界上最大的 3D 打印机即将投入使用</title>
+      <link>https://www.bbc.com/news/articles/cx7d34nl5vwo</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cx7d34nl5vwo
+评论网址：https://news.ycombinator.com/item?id=40186293
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.msn.com/en-us/news/technology/claude-3-opus-has-stunned-ai-researchers-with-its-intellect-and-self-awareness-does-this-mean-it-can-think-for-itself/ar-AA1nA5fO</guid>
-      <pubDate>Sun, 28 Apr 2024 02:43:16 GMT</pubDate>
+      <guid>https://www.bbc.com/news/articles/cx7d34nl5vwo</guid>
+      <pubDate>Sun, 28 Apr 2024 05:43:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
