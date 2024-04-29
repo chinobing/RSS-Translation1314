@@ -4,130 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 29 Apr 2024 09:16:24 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Apr 2024 12:26:57 GMT</lastBuildDate>
     <item>
-      <title>Personal Paint 7.4 更新 A600GS 的 ARM 本机加速 [pdf]</title>
-      <link>http://www.a-eon.com/news/News_Release_A600GS_PPaint.pdf</link>
-      <description><![CDATA[文章网址：http://www.a-eon.com/news/News_Release_A600GS_PPaint.pdf
-评论网址：https://news.ycombinator.com/item?id=40196137
-积分：1
-# 条评论：0]]></description>
-      <guid>http://www.a-eon.com/news/News_Release_A600GS_PPaint.pdf</guid>
-      <pubDate>Mon, 29 Apr 2024 09:00:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>一名黑客因一张“空”车牌而陷入门票地狱（2019）</title>
-      <link>https://www.wired.com/story/null-license-plate-landed-one-hacker-ticket-hell/</link>
-      <description><![CDATA[文章网址：https://www.wired.com /story/null-license-plate-landed-one-hacker-ticket-hell/
-评论网址：https://news.ycombinator.com/item?id=40196135
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.wired.com/story/null-license-plate-landed-one-hacker-ticket-hell/</guid>
-      <pubDate>Mon, 29 Apr 2024 08:59:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>命令式服装中的功能语义（理查德·费尔德曼）</title>
-      <link>https://rtfeldman.com/imperative-clothing</link>
-      <description><![CDATA[文章网址：https://rtfeldman.com/imperative-clothing
-评论网址：https://news.ycombinator.com/item?id=40196115
+      <title>与《金融时报》的内容合作</title>
+      <link>https://openai.com/blog/content-partnership-with-financial-times</link>
+      <description><![CDATA[文章网址：https://openai.com/blog/content-partnership-with-financial-次
+评论网址：https://news.ycombinator.com/item?id=40197303
 积分：2
 # 条评论：0]]></description>
-      <guid>https://rtfeldman.com/imperative-clothing</guid>
-      <pubDate>Mon, 29 Apr 2024 08:56:17 GMT</pubDate>
+      <guid>https://openai.com/blog/content-partnership-with-financial-times</guid>
+      <pubDate>Mon, 29 Apr 2024 12:13:53 GMT</pubDate>
     </item>
     <item>
-      <title>通过实际示例探索 Solidity 的内存管理</title>
-      <link>https://news.ycombinator.com/item?id=40196092</link>
-      <description><![CDATA[大家好，HN 社区，我一直在深入研究 Solidity 的内存管理，并发现了一些与可用内存指针 (0x40) 相关的有趣行为。Solidity 使用此指针来跟踪在合约执行期间应分配新内存的位置。以下是一段代码，说明了 Solidity 如何处理动态数组的内存分配：```solidity
-pragma solidity ^0.8.0;contract FreeMemoryPointerExample {
-function allocateMemory() public pure returns (uint initialPointer, uint afterArray) {
-assembly {
-// 最初读取可用内存指针
-initialPointer := mload(0x40)
-}
-// 直接在函数中初始化变量以避免外部输入
-uint[] memory myArray = new uint[](3); // 3 个 uint 的动态数组
-myArray[0] = 1; // 分配值以演示用法
-myArray[1] = 2;
-myArray[2] = 3; assembly {
-// 手动调整空闲内存指针，就像为数组分配内存一样
-mstore(0x40, add(mload(0x40), 0x60)) 
-afterArray := mload(0x40)
-}
-
-}
-```
-以下是函数调用的结果：
-0:
-uint256: initialPointer 128
-1:
-uint256: afterArray 352在此示例中，内存指针从 128 开始，这是新合约调用中动态分配内存的初始位置。在分配三个 uint 元素的动态数组（每个元素需要 32 个字节）后，我们手动将空闲内存指针调整 96 个字节（十六进制为 0x60）。因此，指针移动到 352。这说明了每个元素的内存空间以及任何潜在开销（例如数组长度或填充）如何影响内存分配。从 128 到 352 的大幅跳跃还包括用于存储数组长度本身的空间，这是仅从元素大小来看不会立即显现的额外 32 个字节。这突出了 Solidity 中动态内存分配所涉及的开销。很想听听您对此的看法，特别是如果您对优化智能合约中的内存管理有见解，或者分享您的经验！附注：这是我在 HN 上分享的第一次深入研究 Solidity 的内存管理。我渴望学习和进步，因此，如果您对文章有任何反馈，包括解释的清晰度，或者代码如何改进，我将不胜感激！
-
-评论网址：https://news.ycombinator.com/item?id=40196092
+      <title>通过人工智能制作跨平台应用程序</title>
+      <link>https://www.alexandriaredmon.com/blog/the-app-that-ai-made</link>
+      <description><![CDATA[文章网址：https://www.alexandriaredmon.com/blog/the-app-那-ai-制作
+评论网址：https://news.ycombinator.com/item?id=40197298
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.alexandriaredmon.com/blog/the-app-that-ai-made</guid>
+      <pubDate>Mon, 29 Apr 2024 12:13:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>无论你如何解释数据，暗能量仍然存在</title>
+      <link>https://bigthink.com/starts-with-a-bang/interpret-data-dark-energy/</link>
+      <description><![CDATA[文章网址：https://bigthink.com/starts-with-a -bang/解释数据暗能量/
+评论网址：https://news.ycombinator.com/item?id=40197285
+积分：1
+# 条评论：0]]></description>
+      <guid>https://bigthink.com/starts-with-a-bang/interpret-data-dark-energy/</guid>
+      <pubDate>Mon, 29 Apr 2024 12:11:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机视觉自动图像拼贴</title>
+      <link>https://jamesg.blog/2024/04/29/collage/</link>
+      <description><![CDATA[文章网址：https://jamesg.blog/2024/04/29/collage/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=40197283
+积分：1
+# 条评论：0]]></description>
+      <guid>https://jamesg.blog/2024/04/29/collage/</guid>
+      <pubDate>Mon, 29 Apr 2024 12:11:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Android TV 可以访问您的整个帐户</title>
+      <link>https://arstechnica.com/gadgets/2024/04/google-says-its-fixing-a-nasty-android-tv-account-security-loophole/</link>
+      <description><![CDATA[文章网址：https ://arstechnica.com/gadgets/2024/04/google-says-its-fixing-a-nasty-android-tv-account-security-loophole/
+评论网址：https://news.ycombinator.com/item?id=40197281
+积分：1
+# 条评论：0]]></description>
+      <guid>https://arstechnica.com/gadgets/2024/04/google-says-its-fixing-a-nasty-android-tv-account-security-loophole/</guid>
+      <pubDate>Mon, 29 Apr 2024 12:11:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>忘记人工智能的厄运和炒作，让我们让计算机变得有用</title>
+      <link>https://www.theregister.com/2024/04/25/ai_usefulness/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2024/04/25/ai_useativity/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=40197278
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theregister.com/2024/04/25/ai_usefulness/</guid>
+      <pubDate>Mon, 29 Apr 2024 12:10:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>夏安超级计算机拍卖</title>
+      <link>https://gsaauctions.gov/auctions/preview/282996</link>
+      <description><![CDATA[文章网址：https://gsaauctions.gov/auctions/preview/282996
+评论网址：https://news.ycombinator.com/item?id=40197277
+积分：2
+# 条评论：0]]></description>
+      <guid>https://gsaauctions.gov/auctions/preview/282996</guid>
+      <pubDate>Mon, 29 Apr 2024 12:10:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我制作了一个Python包来检测任何句子中的英语习语</title>
+      <link>https://github.com/zaghloul404/englishidioms</link>
+      <description><![CDATA[HN 你好，我很高兴分享我的第一个开源 Python 包 englishidioms。该软件包利用“McGraw-Hill 美国习语和短语动词词典”来识别给定句子中的英语表达。凭借包含 22,209 个词典条目的数据库，englishidioms 可以准确检测输入句子和惯用表达之间的匹配。我很想听听您的反馈、建议和用例。请随意探索该软件包并分享您的想法！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40197267
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/zaghloul404/englishidioms</guid>
+      <pubDate>Mon, 29 Apr 2024 12:09:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>有效的抽象是有意见的 (2022)</title>
+      <link>https://8thlight.com/insights/how-effective-abstractions-are-opinionated</link>
+      <description><![CDATA[文章网址：https://8thlight.com/insights/how-effective-abstractions-are-opinionated
+评论网址：https://news.ycombinator.com/item?id=40197245
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=40196092</guid>
-      <pubDate>Mon, 29 Apr 2024 08:52:56 GMT</pubDate>
+      <guid>https://8thlight.com/insights/how-effective-abstractions-are-opinionated</guid>
+      <pubDate>Mon, 29 Apr 2024 12:06:21 GMT</pubDate>
     </item>
     <item>
-      <title>FTC 规定健康应用程序从现在起必须报告数据泄露</title>
-      <link>https://www.ftc.gov/news-events/news/press-releases/2024/04/ftc-finalizes-changes-health-breach-notification-rule</link>
-      <description><![CDATA[文章网址： https://www.ftc.gov/news-events/news/press-releases/2024/04/ftc-finalizes-changes-health-breach-notification-rule
-评论网址：https://news.ycombinator.com/item?id=40196081
+      <title>嘎嘎新闻</title>
+      <link>http://quackernews.com/</link>
+      <description><![CDATA[文章网址：http://quackernews.com/
+评论网址：https://news.ycombinator.com/item?id=40197235
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.ftc.gov/news-events/news/press-releases/2024/04/ftc-finalizes-changes-health-breach-notification-rule</guid>
-      <pubDate>Mon, 29 Apr 2024 08:51:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>尼克斯：转折点</title>
-      <link>https://kilo.bytesize.xyz/nix-the-breaking-point</link>
-      <description><![CDATA[文章网址：https://kilo.bytesize.xyz/nix-the-writing-point
-评论网址：https://news.ycombinator.com/item?id=40196068
-积分：2
-# 条评论：0]]></description>
-      <guid>https://kilo.bytesize.xyz/nix-the-breaking-point</guid>
-      <pubDate>Mon, 29 Apr 2024 08:48:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>三星计划推出“Video AI”技术</title>
-      <link>https://www.ibtimes.co.uk/samsung-galaxy-ai-roadmap-video-ai-potential-google-collaboration-horizon-1724439</link>
-      <description><![CDATA[文章网址：https:// www.ibtimes.co.uk/samsung-galaxy-ai-roadmap-video-ai-pottial-google-collaboration-horizo​​n-1724439
-评论网址：https://news.ycombinator.com/item?id=40196059
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.ibtimes.co.uk/samsung-galaxy-ai-roadmap-video-ai-potential-google-collaboration-horizon-1724439</guid>
-      <pubDate>Mon, 29 Apr 2024 08:46:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>SteamOS 对 Linux 生态系统的贡献 (2023)</title>
-      <link>https://lwn.net/Articles/946188/</link>
-      <description><![CDATA[文章网址：https://lwn.net/Articles/946188/
-评论网址：https://news.ycombinator.com/item?id=40196002
-积分：1
-# 条评论：0]]></description>
-      <guid>https://lwn.net/Articles/946188/</guid>
-      <pubDate>Mon, 29 Apr 2024 08:39:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>科学家利用盐和水的混合物创造了一种功能性脑细胞</title>
-      <link>https://www.sciencealert.com/scientists-have-created-a-functional-brain-cell-based-on-a-mix-of-salt-and-water</link>
-      <description><![CDATA[文章网址：https://www.sciencealert.com/scientists-have-created-a-function-brain-cell-based-on-a-mix-of-salt-and-water
-评论网址：https://news.ycombinator.com/item?id=40195999
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.sciencealert.com/scientists-have-created-a-functional-brain-cell-based-on-a-mix-of-salt-and-water</guid>
-      <pubDate>Mon, 29 Apr 2024 08:39:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>1000 所学校现在有监控孩子们在浴室里待了多久的工具</title>
-      <link>https://www.vice.com/en/article/dy73n7/ehallpass-1000-thousand-schools-monitor-bathroom</link>
-      <description><![CDATA[文章网址：https://www.vice.com/ en/article/dy73n7/ehallpass-1000-thousand-schools-monitor-bathroom
-评论网址：https://news.ycombinator.com/item?id=40195996
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.vice.com/en/article/dy73n7/ehallpass-1000-thousand-schools-monitor-bathroom</guid>
-      <pubDate>Mon, 29 Apr 2024 08:38:35 GMT</pubDate>
+      <guid>http://quackernews.com/</guid>
+      <pubDate>Mon, 29 Apr 2024 12:03:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
