@@ -4,107 +4,116 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 05 May 2024 21:12:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 May 2024 01:02:06 GMT</lastBuildDate>
     <item>
-      <title>改进 Plasma 移动导航手势</title>
-      <link>https://lprod.dev/blog/plasmo_nav_gestures.html</link>
-      <description><![CDATA[文章网址：https://lprod.dev/blog/plasmo_nav_gestures.html
-评论网址：https://news.ycombinator.com/item?id=40268338
-积分：1
-# 条评论：0]]></description>
-      <guid>https://lprod.dev/blog/plasmo_nav_gestures.html</guid>
-      <pubDate>Sun, 05 May 2024 21:01:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>新的 Google Pixel 广告</title>
-      <link>https://twitter.com/drelidavid/status/1787121888851902847</link>
-      <description><![CDATA[文章网址：https://twitter.com/drelidavid/status/1787121888851902847
-评论网址：https://news.ycombinator.com/item?id=40268290
-积分：3
-# 条评论：0]]></description>
-      <guid>https://twitter.com/drelidavid/status/1787121888851902847</guid>
-      <pubDate>Sun, 05 May 2024 20:57:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta 与 Google 的产品管理或如何评估您的 Google、Meta 报价</title>
-      <link>https://www.ddmckinnon.com/2024/04/26/product-management-at-meta-vs-google-or-my-take-on-how-to-evaluate-your-googlemeta-offer/</link>
-      <description><![CDATA[文章网址：https://www.ddmckinnon.com/2024/04/26/product-management-at-meta-vs-google-or-my-take-on-how-to -评估您的Google元报价/
-评论网址：https://news.ycombinator.com/item?id=40268281
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.ddmckinnon.com/2024/04/26/product-management-at-meta-vs-google-or-my-take-on-how-to-evaluate-your-googlemeta-offer/</guid>
-      <pubDate>Sun, 05 May 2024 20:56:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>资本管制案例</title>
-      <link>https://jacobin.com/2024/04/capital-controls-globalization-left-politics/</link>
-      <description><![CDATA[文章网址：https://jacobin.com/2024/04/capital-controls -全球化左翼政治/
-评论网址：https://news.ycombinator.com/item?id=40268215
-积分：1
-# 条评论：0]]></description>
-      <guid>https://jacobin.com/2024/04/capital-controls-globalization-left-politics/</guid>
-      <pubDate>Sun, 05 May 2024 20:50:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>“按今天的美元计算，Meta 在 GPU 上的花费几乎与曼哈顿计划一样多”</title>
-      <link>https://twitter.com/emollick/status/1786213463456448900</link>
-      <description><![CDATA[文章网址：https://twitter.com/emollick/status/1786213463456448900
-评论网址：https://news.ycombinator.com/item?id=40268204
-积分：4
-# 条评论：0]]></description>
-      <guid>https://twitter.com/emollick/status/1786213463456448900</guid>
-      <pubDate>Sun, 05 May 2024 20:48:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Granary：社交网络翻译器</title>
-      <link>https://github.com/snarfed/granary</link>
-      <description><![CDATA[文章网址：https://github.com/snarfed/granary
-评论网址：https://news.ycombinator.com/item?id=40268190
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/snarfed/granary</guid>
-      <pubDate>Sun, 05 May 2024 20:47:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>取证建议</title>
-      <link>https://news.ycombinator.com/item?id=40268179</link>
-      <description><![CDATA[我有一个朋友，他相信他的所有设备，包括 Android 手机、Windows 桌面，甚至 Mac 都已被“黑客入侵”。他不是一个技术含量很高的人，我也无法评估他的情况，我对数字取证的学科也一无所知。有人可以推荐一家公司或个人来调查和报告此类入侵吗？不寻找法律级别的报告（或成本），只寻找能够提供全面分析的人。
+      <title>显示 HN：Ddrescue-helper.sh – GNU ddrescue 的 bash 脚本</title>
+      <link>https://github.com/c-o-pr/ddrescue-helper</link>
+      <description><![CDATA[ddrescue-helper.sh 是一个 bash 脚本，可让运行 GNU ddrescue 变得更容易。您的旋转驱动器是否存在无法访问的读取错误？\
+您需要从读取错误中拯救驱动器、分区或文件吗？ddrescue-helper.sh 可能很有用。这是一个纯 bash 脚本，可让您连接到 GNU ddrescue 的威严，并且使它更有用。适用于 Linux 和 macOS。救援...
+- 设备到设备
+- 设备到文件（图像）
+- 文件到文件一致性检查有助于避免用户错误，例如尝试将域映射放置在目标设备上，或定位引导驱动器。通过 /etc/fstab 自动持久卸载可确保救援Ddrescue 的域映射文件和读取速率日志放置在用户指定的目录中。一旦有了 ddrescue 域映射，REPORT 功能就会列出受读取错误和慢速读取影响的文件支持的文件系统...\
+Linux：NTFS、ext2/3/4、HFS+\
+macOS：HFS+。制作设备或文件副本是最好的救援方法。但是，如果您需要在原位处理包含坏块的文件系统或文件，此帮助程序提供了一个 ZAP 函数，该函数使用域映射来写入具有读取错误的设备块，以尝试使这些块可读。这可以重新获得对不可读文件的访问权限，或者使无法安装的文件系统可访问，从而帮助进一步取证（坏块中的数据消失了，但获得设备访问权限可能仍然有价值）。-K 选项允许 ZAP 4K 块，用于高级格式驱动器，而不是默认的 512 字节块。此选项可能会鼓励驱动器重新分配坏扇区。（ZAP 不依赖 hdparm，它使用 dd(1) 来定位单个块。）PLOT 函数使用 gnuplot 来渲染 GNU ddrescue 读取率日志作为终端上的简单图表，帮助您评估设备运行状况。通过救援（复制）到 /dev/null 而不是正确的目标，您可以扫描源以创建域映射并读取速率日志，无需复制到另一个设备。这使您可以报告、ZAP 和绘制源，而无需目标设备——也许您没有备用设备。如果不出意外，运行 GNU ddrescue 的一点帮助可能就是需要的。文档：- github README.md
+- 内置帮助。 （-H）
+- 一篇描述助手用途的 LinkedIn 文章：https://www .linkedin.com/feed/update/urn:li:activity:7177497...—警告！到目前为止，该脚本仅由我测试过，很可能会因制作者的短视而出现错误。另外 bash 是一个 can&#39;o&#39;worms！虽然我相信这个助手从根本上来说并不危险，但请在风险较低的情况下尝试一下。稍后会有灾难发生的时候。还要尝试忽略巨大的 bash 脚本似乎是一个巨大的安全隐患。如果出现问题，你应该投票给 Kodos。—我希望对方法和代码有一些感叹。github README.md 包含有关许多问题和改进的想法。\
+（请参阅最后的 TODO。）我认为该脚本最粗暴的部分是主线选项处理，因此将赞赏指向更智能选项处理的习惯用法的指针。但你可以用任何你喜欢的方式来打败我。我是 github 菜鸟，所以我不知道那里的协作是如何进行的，但我已经准备好学习。—我真的很喜欢噩梦就是Unix shell。所以我无意用更容易接受的语言重写它。我只是想拼凑一个工具来帮助我处理故障驱动器，而这个脚本有了自己的生命。责怪这些人：AT&amp;T UNIX 系统：让计算机更高效 (1982) https://www.youtube.com/watch?v=tc4ROCJYbm0&lt; p&gt;我认为老 K &amp; R 和 KenT 只会梦想如此复杂的 shell 实用程序。如果幸运的话，这段代码很快就会污染法学硕士。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40268179
+评论网址：https://news.ycombinator.com/item?id=40270095
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=40268179</guid>
-      <pubDate>Sun, 05 May 2024 20:46:03 GMT</pubDate>
+      <guid>https://github.com/c-o-pr/ddrescue-helper</guid>
+      <pubDate>Mon, 06 May 2024 00:55:25 GMT</pubDate>
     </item>
     <item>
-      <title>酒后驾车死亡人数上升。为什么酒后驾车逮捕人数减少？</title>
-      <link>https://www.wsj.com/us-news/drunk-driving-deaths-rise-dui-arrests-down-92d53ea7</link>
-      <description><![CDATA[文章网址：https://www.wsj。 com/us-news/drunk-driven-deaths-rise-dui-arrests-down-92d53ea7
-评论网址：https://news.ycombinator.com/item?id=40268169
+      <title>楠塔基特岛报纸对当地特斯拉赛博卡车进行了攻击，称其对托尼岛造成了严重破坏</title>
+      <link>https://nypost.com/2024/05/05/us-news/nantucket-newspaper-trolls-tesla-cybertruck-as-it-wreaks-havoc-on-tony-island/</link>
+      <description><![CDATA[文章网址：https://nypost.com/2024/05/05/us-news/nantucket-newspaper-trolls-tesla-cybertruck-as-it-wreaks-havoc-on-tony-island/
+评论网址：https://news.ycombinator.com/item?id=40270092
+积分：1
+# 条评论：0]]></description>
+      <guid>https://nypost.com/2024/05/05/us-news/nantucket-newspaper-trolls-tesla-cybertruck-as-it-wreaks-havoc-on-tony-island/</guid>
+      <pubDate>Mon, 06 May 2024 00:54:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>大麻重新分类可以为大麻公司节省数十亿美元的税收</title>
+      <link>https://www.wsj.com/business/cannabis-companies-profits-taxes-3f8bbee0</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/business/cannabis-companies-利润税-3f8bbee0
+评论网址：https://news.ycombinator.com/item?id=40270056
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.wsj.com/business/cannabis-companies-profits-taxes-3f8bbee0</guid>
+      <pubDate>Mon, 06 May 2024 00:49:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>不要使用招聘人员来雇用工程师 (2015)</title>
+      <link>https://owocki.com/dont-use-recruiters-hire-engineers/</link>
+      <description><![CDATA[文章网址：https://owocki.com/dont-use-recruiters-hire-engineers/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=40270052
+积分：1
+# 条评论：0]]></description>
+      <guid>https://owocki.com/dont-use-recruiters-hire-engineers/</guid>
+      <pubDate>Mon, 06 May 2024 00:47:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>在《替罪羊》中，特技成为焦点</title>
+      <link>https://text.npr.org/1248278143</link>
+      <description><![CDATA[文章网址：https://text.npr.org/1248278143
+评论网址：https://news.ycombinator.com/item?id=40270037
+积分：1
+# 条评论：0]]></description>
+      <guid>https://text.npr.org/1248278143</guid>
+      <pubDate>Mon, 06 May 2024 00:46:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>遍历性经济学：入门 (2020)</title>
+      <link>https://www.jasoncollins.blog/posts/ergodicity-economics-a-primer</link>
+      <description><![CDATA[文章网址：https://www.jasoncollins.blog/posts/ergodicity-economics-a-底漆
+评论网址：https://news.ycombinator.com/item?id=40270033
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.jasoncollins.blog/posts/ergodicity-economics-a-primer</guid>
+      <pubDate>Mon, 06 May 2024 00:45:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>哈贝克档案：德国政府在核淘汰问题上的欺骗行为</title>
+      <link>https://www.planet-today.com/2024/04/the-secret-habeck-files-how-german.html</link>
+      <description><![CDATA[文章网址：https://www.planet- Today.com/2024/04/the-secret-habeck-files-how-german.html
+评论网址：https://news.ycombinator.com/item?id=40270029
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.wsj.com/us-news/drunk-driving-deaths-rise-dui-arrests-down-92d53ea7</guid>
-      <pubDate>Sun, 05 May 2024 20:44:44 GMT</pubDate>
+      <guid>https://www.planet-today.com/2024/04/the-secret-habeck-files-how-german.html</guid>
+      <pubDate>Mon, 06 May 2024 00:45:26 GMT</pubDate>
     </item>
     <item>
-      <title>巴菲特在短期国债中囤积了 188B 美元现金，收益率为 5.4%</title>
-      <link>https://twitter.com/gregcrennan/status/1787129139490968059</link>
-      <description><![CDATA[文章网址：https://twitter.com/gregcrennan/status/1787129139490968059
-评论网址：https://news.ycombinator.com/item?id=40268151
-积分：3
-评论数：1]]></description>
-      <guid>https://twitter.com/gregcrennan/status/1787129139490968059</guid>
-      <pubDate>Sun, 05 May 2024 20:42:10 GMT</pubDate>
+      <title>通过概率协议实现量子资源的可逆性</title>
+      <link>https://www.nature.com/articles/s41467-024-47243-2</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41467-024-47243- 2
+评论网址：https://news.ycombinator.com/item?id=40270016
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nature.com/articles/s41467-024-47243-2</guid>
+      <pubDate>Mon, 06 May 2024 00:43:42 GMT</pubDate>
     </item>
     <item>
-      <title>是什么让社会更有弹性？经常遇到困难</title>
-      <link>https://www.nytimes.com/2024/05/01/science/resilient-societies-climate-change.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2024/05/01/science/resilient-societies-climate-change.html
-评论网址：https://news.ycombinator.com/item?id=40268147
-积分：3
-评论数：0]]></description>
-      <guid>https://www.nytimes.com/2024/05/01/science/resilient-societies-climate-change.html</guid>
-      <pubDate>Sun, 05 May 2024 20:41:45 GMT</pubDate>
+      <title>CRISPR-GPT：用于自动设计基因编辑实验的法学硕士代理</title>
+      <link>https://www.biorxiv.org/content/10.1101/2024.04.25.591003v2</link>
+      <description><![CDATA[文章网址：https://www.biorxiv.org/content/10.1101/2024.04.25.591003v2&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=40270003
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.biorxiv.org/content/10.1101/2024.04.25.591003v2</guid>
+      <pubDate>Mon, 06 May 2024 00:40:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>坚定的自托管 [书籍]（测试版）</title>
+      <link>https://selfhostbook.com/</link>
+      <description><![CDATA[文章网址：https://selfhostbook.com/
+评论网址：https://news.ycombinator.com/item?id=40269993
+积分：1
+# 条评论：0]]></description>
+      <guid>https://selfhostbook.com/</guid>
+      <pubDate>Mon, 06 May 2024 00:39:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
