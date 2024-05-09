@@ -4,7 +4,98 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 09 May 2024 09:15:36 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2024 12:25:59 GMT</lastBuildDate>
+    <item>
+      <title>C99 的代数数据类型</title>
+      <link>https://github.com/Hirrolot/datatype99</link>
+      <description><![CDATA[文章网址：https://github.com/Hirrolot/datatype99
+评论网址：https://news.ycombinator.com/item?id=40307098
+积分：13
+# 条评论：1]]></description>
+      <guid>https://github.com/Hirrolot/datatype99</guid>
+      <pubDate>Thu, 09 May 2024 11:31:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：基于浏览器的针织（花样）软件</title>
+      <link>https://github.com/alefore/knit</link>
+      <description><![CDATA[我编写了一些简单的基于网络的开源应用程序，用于 (1) 动态计算针织图案（基于输入参数，例如所需的确切尺寸），以及 (2) 显示这些图案并帮助我跟踪哪一行我正在（当我开始编织时），类似于其他编织者使用的极简主义“行计数器”。它还可以让您简单地直观地了解所编织的形状。您可以在 https://alefore.github.io/knit/ 查看它的实际效果（并阅读关于它https://github.com/alefore/knit）。现在我只实现了简单的模式：苏菲的围巾。在编织了一条有点……不对称的针织后，我决定编写一些软件来帮助我（1）轻松调整围巾的长度/宽度（使用贝塞尔曲线），以及（2）跟踪我在哪一行上（这样我就可以确保在正确的位置应用增加/减少）。将来，我希望将其扩展为其他类型物品的许多其他编织图案。该应用程序 100% 基于浏览器（JavaScript，仅在 Linux/Android 中的 Chrome 中进行测试）（无服务器端组件） ：所有状态都保存在 URL 哈希中。我用它编织了两条围巾，包括 https://github.com/alefore/knit /blob/main/images/000.jpg.针织图案的当前状态远非可选，还停留在计算机出现之前的时代。也许编织者并不是最有技术头脑的群体。大多数编织者只是将图案下载为 PDF 文件。这些文件将显示多个数字，您应该根据您编织的尺寸从中选择一个数字，例如“Purl 24 (32 38 42 50 64) times”（您应该根据尺寸选择正确的数字）你正在编织）。他们会说“重复第 4 行到第 6 行十六次”。我认为软件可以更好地显示图案（包括不限于一些预先选择的尺寸，而是让您选择您想要的_精确_尺寸，并相应地调整一切），并更轻松地跟踪您的进度。例如，对于我的围巾，用户输入所需的行数（基于所需的长度，这使得图案与针的尺寸无关），然后软件计算在何处应用增加/减少。我有很多其他改进想法（例如，跟踪我在每一行花费了多少时间，显示时钟），但我想我应该尽早分享并寻求反馈。希望HN还有其他编织者。 :-) 看看并让我知道你的想法！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40307089
+积分：5
+# 条评论：6]]></description>
+      <guid>https://github.com/alefore/knit</guid>
+      <pubDate>Thu, 09 May 2024 11:29:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>波音737在塞内加尔起飞时坠毁</title>
+      <link>https://www.bbc.co.uk/news/articles/ce5ljpnggp4o</link>
+      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/ce5ljpnggp4o
+评论网址：https://news.ycombinator.com/item?id=40307084
+积分：48
+# 条评论：18]]></description>
+      <guid>https://www.bbc.co.uk/news/articles/ce5ljpnggp4o</guid>
+      <pubDate>Thu, 09 May 2024 11:28:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>戴尔通过 VPN、徽章跟踪应对返回办公室的阻力</title>
+      <link>https://arstechnica.com/information-technology/2024/05/dell-to-monitor-worker-vpn-use-badge-swipes-to-enforce-office-policy/</link>
+      <description><![CDATA[文章 URL：https://arstechnica.com/information-technology/2024/05/dell-to-monitor-worker-vpn-use-badge-swipes-to-enforce-office-policy/
+评论网址：https://news.ycombinator.com/item?id=40306941
+积分：21
+# 条评论：15]]></description>
+      <guid>https://arstechnica.com/information-technology/2024/05/dell-to-monitor-worker-vpn-use-badge-swipes-to-enforce-office-policy/</guid>
+      <pubDate>Thu, 09 May 2024 11:04:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>在软件架构中，您必须认识到何时添加火箭级</title>
+      <link>https://toot.cat/@plexus/112403882840794498</link>
+      <description><![CDATA[文章网址：https://toot.cat/@plexus/112403882840794498
+评论网址：https://news.ycombinator.com/item?id=40306490
+积分：37
+# 条评论：13]]></description>
+      <guid>https://toot.cat/@plexus/112403882840794498</guid>
+      <pubDate>Thu, 09 May 2024 09:15:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Xilinx HBM2 内部结构</title>
+      <link>https://lovehindpa.ws/posts/xilinx-hbm2/</link>
+      <description><![CDATA[文章网址：https://lovehindpa.ws/posts/xilinx-hbm2/
+评论网址：https://news.ycombinator.com/item?id=40306463
+积分：17
+# 条评论：0]]></description>
+      <guid>https://lovehindpa.ws/posts/xilinx-hbm2/</guid>
+      <pubDate>Thu, 09 May 2024 09:08:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>图书馆</title>
+      <link>https://libyear.com/</link>
+      <description><![CDATA[文章网址：https://libyear.com/
+评论网址：https://news.ycombinator.com/item?id=40306449
+积分：183
+# 条评论：69]]></description>
+      <guid>https://libyear.com/</guid>
+      <pubDate>Thu, 09 May 2024 09:05:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>UTC、Tai 和 Unix 时间 (2001)</title>
+      <link>https://cr.yp.to/proto/utctai.html</link>
+      <description><![CDATA[文章网址：https://cr.yp.to/proto/utctai.html
+评论网址：https://news.ycombinator.com/item?id=40306352
+积分：45
+# 条评论：54]]></description>
+      <guid>https://cr.yp.to/proto/utctai.html</guid>
+      <pubDate>Thu, 09 May 2024 08:40:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>追踪从亚马逊到您的汉堡的非法巴西牛肉</title>
+      <link>https://e360.yale.edu/features/marcel-gomes-interview</link>
+      <description><![CDATA[文章网址：https://e360.yale.edu/features/marcel-gomes-interview
+评论网址：https://news.ycombinator.com/item?id=40306249
+积分：83
+# 条评论：39]]></description>
+      <guid>https://e360.yale.edu/features/marcel-gomes-interview</guid>
+      <pubDate>Thu, 09 May 2024 08:09:54 GMT</pubDate>
+    </item>
     <item>
       <title>CodeStory (YC S23) 正在招聘一名创始工程师来构建 AI-Native IDE</title>
       <link>https://www.workatastartup.com/companies/codestory</link>
@@ -14,100 +105,6 @@
 # 条评论：0]]></description>
       <guid>https://www.workatastartup.com/companies/codestory</guid>
       <pubDate>Thu, 09 May 2024 07:00:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>我对 CTO 撒谎并挽救了局面的那次</title>
-      <link>https://GrumpyOldDev.com/post/the-one-where-i-lie-to-the-cto/</link>
-      <description><![CDATA[文章网址：https://GrumpyOldDev.com/post/the -one-where-i-lie-to-cto/
-评论网址：https://news.ycombinator.com/item?id=40304453
-积分：272
-# 条评论：191]]></description>
-      <guid>https://GrumpyOldDev.com/post/the-one-where-i-lie-to-the-cto/</guid>
-      <pubDate>Thu, 09 May 2024 01:39:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>用套接字、徒手和 200 行 C 语言在 Linux 中打开 Windows</title>
-      <link>https://hereket.com/posts/from-scratch-x11-windowing/</link>
-      <description><![CDATA[文章网址：https://hereket.com/posts/from-scratch-x11-windowing/&lt; /a&gt;
-评论网址：https://news.ycombinator.com/item?id=40303661
-积分：115
-# 条评论：37]]></description>
-      <guid>https://hereket.com/posts/from-scratch-x11-windowing/</guid>
-      <pubDate>Wed, 08 May 2024 23:14:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个竞相告诉世界珠穆朗玛峰已经被攀登的人</title>
-      <link>https://www.outsideonline.com/outdoor-adventure/everest/everest-hillary-norgay-1953-news/</link>
-      <description><![CDATA[文章网址：https://www.outsideonline.com/outdoor-adventure/everest/everest-hillary-norgay-1953-news/
-评论网址：https://news.ycombinator.com/item?id=40303425
-积分：18
-评论数：0]]></description>
-      <guid>https://www.outsideonline.com/outdoor-adventure/everest/everest-hillary-norgay-1953-news/</guid>
-      <pubDate>Wed, 08 May 2024 22:36:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Gittuf 保护 Git 存储库</title>
-      <link>https://lwn.net/SubscriberLink/972467/595a68b99f57a87d/</link>
-      <description><![CDATA[文章网址：https://lwn.net/SubscriberLink/972467/595a68b99f57a87d/
-评论网址：https://news.ycombinator.com/item?id=40303338
-积分：42
-# 条评论：8]]></description>
-      <guid>https://lwn.net/SubscriberLink/972467/595a68b99f57a87d/</guid>
-      <pubDate>Wed, 08 May 2024 22:22:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：SimBricks – 硬件-软件系统的模块化全系统仿真</title>
-      <link>https://simbricks.github.io/</link>
-      <description><![CDATA[您好，HN，我们正在构建 SimBricks，这是一个针对异构系统（尤其是定制硬件）的开源模拟框架。 SimBricks 以模块化方式组合了现有的机器、网络和硬件模拟器，使您能够在虚拟环境中构建、测试和评估复杂的完整系统。前往 SimBricks 网站（https://simbricks.github.io/，还有一个快速演示视频） 了解更多。我们有预先构建的 Docker 映像，您甚至可以立即在代码空间上使用。具体用例：
-- 评估硬件加速器，从使用简单行为模型的早期设计，到模拟完整的 Verilog 实现，无论是作为具有许多加速器实例的完整系统的一部分，还是运行完整操作系统和实际应用程序的机器（我们使用 SimBricks 开设了这方面的大学课程） 。
-- 测试潜在大型系统中真实工作负载的网络协议、拓扑和通信堆栈（到目前为止，我们运行了多达 1000 个主机）。
-- FPGA 的快速 RTL 原型设计，无需等待综合或最初摆弄时序（我们使用未经修改的 PCIe 驱动程序模拟 Corundum 开源 NIC 的完整未经修改的 RTL）。SimBricks 最初是作为内部研究工具，帮助我们建立和评估我们关于网络协议卸载的研究想法，但后来发展成为一个单独的开源项目。如果您尝试一下并让我们知道您的想法，那就太好了！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40303336
-积分：44
-# 条评论：2]]></description>
-      <guid>https://simbricks.github.io/</guid>
-      <pubDate>Wed, 08 May 2024 22:22:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>一致性 LLM：将 LLM 转换为并行解码器可将推理速度提高 3.5 倍</title>
-      <link>https://hao-ai-lab.github.io/blogs/cllm/</link>
-      <description><![CDATA[文章网址：https://hao-ai-lab.github.io/blogs/cllm/
-评论网址：https://news.ycombinator.com/item?id=40302201
-积分：350
-评论数：69]]></description>
-      <guid>https://hao-ai-lab.github.io/blogs/cllm/</guid>
-      <pubDate>Wed, 08 May 2024 19:55:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>呼吸支持意识状态改变的出现</title>
-      <link>https://www.researchsquare.com/article/rs-3976380/v1</link>
-      <description><![CDATA[文章网址：https://www.researchsquare.com/article/rs-3976380/v1
-评论网址：https://news.ycombinator.com/item?id=40302200
-积分：121
-# 条评论：38]]></description>
-      <guid>https://www.researchsquare.com/article/rs-3976380/v1</guid>
-      <pubDate>Wed, 08 May 2024 19:54:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI：模型规格</title>
-      <link>https://openai.com/index/introducing-the-model-spec</link>
-      <description><![CDATA[文章网址：https://openai.com/index/introducing-the-model-spec
-评论网址：https://news.ycombinator.com/item?id=40300482
-积分：94
-# 条评论：147]]></description>
-      <guid>https://openai.com/index/introducing-the-model-spec</guid>
-      <pubDate>Wed, 08 May 2024 17:11:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>xkcd 的“Machine”开发笔记</title>
-      <link>https://chromakode.com/post/xkcd-machine/</link>
-      <description><![CDATA[文章网址：https://chromakode.com/post/xkcd-machine/
-评论网址：https://news.ycombinator.com/item?id=40300454
-积分：536
-评论数：69]]></description>
-      <guid>https://chromakode.com/post/xkcd-machine/</guid>
-      <pubDate>Wed, 08 May 2024 17:09:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
