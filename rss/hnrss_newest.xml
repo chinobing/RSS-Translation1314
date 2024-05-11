@@ -4,109 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 11 May 2024 18:17:54 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2024 21:13:40 GMT</lastBuildDate>
     <item>
-      <title>提案：标准化 AI 服务的 TCP 端口 41 – 原因如下</title>
-      <link>https://news.ycombinator.com/item?id=40329638</link>
-      <description><![CDATA[本着 leet talk 的俏皮精神，其中“41”代表“AI”，我建议我们考虑将 TCP 端口 41 标准化为互联网上 AI 服务的默认端口。当我开始在这个端口上部署我的聊天机器人时，这个想法开始是一个有趣的实验，但它引发了一些关于更广泛的适用性和好处的想法。为什么选择端口 41 用于人工智能？记忆性和象征意义：就像端口 80 一样以 HTTP 闻名，将端口 41 与 AI 关联可以创建一个令人难忘的链接，使开发人员和用户更容易记住和采用。标准化的好处：随着 AI 服务的激增，拥有指定端口可以简化网络配置、防火墙规则和安全协议，使人工智能应用程序的部署和管理更加容易一致。技术和实际考虑：需要考虑为此类特定用途保留低编号端口的技术可行性。这包括与可能已使用端口 41 的现有系统发生潜在冲突。安全影响：标准化 AI 服务端口可能会使其成为恶意活动的目标。分析和实施增强的安全措施来保护在该端口上运行的服务至关重要，但这可以简化浏览器扩展等工具的创建，这些工具直接与“站点”的人工智能进行交互（故意对某个位置的定义模糊）互联网）采用和支持：要使这样的标准有效，需要技术社区和标准组织的广泛支持。这将涉及讨论、协议以及可能向 IANA 等机构提出的正式提案。我想听听社群对此提案的想法。您认为这是一个可行的标准化吗？这会给未来的人工智能服务部署带来哪些挑战和机遇？
+      <title>为什么程序员选择便利而不是性能？</title>
+      <link>https://news.ycombinator.com/item?id=40330624</link>
+      <description><![CDATA[许多工具都需要大量资源，这使得小型企业难以承担服务器成本。例如，Zod 比常规 typeof 检查慢 150。我为那些感兴趣的人写了一篇小文章https://www.drakos.me/article/Zod-is-150-times-slower。问题不在于 Zod，而在于缺乏编写高效代码能力的程序员。当我写这篇文章时，我的 VSCode 使用 4.37GB RAM，我的终端 Warp（内置 Rust）使用 976MB RAM 和 Spotify 1.28GB。这些数字对于一个年老的高级程序员来说是令人震惊的。我们不要忘记，美国宇航局仅用 64kb RAM 就成功地将火箭发射到月球。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40329638
+评论网址：https://news.ycombinator.com/item?id=40330624
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=40329638</guid>
-      <pubDate>Sat, 11 May 2024 18:00:01 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=40330624</guid>
+      <pubDate>Sat, 11 May 2024 21:04:49 GMT</pubDate>
     </item>
     <item>
-      <title>印第安纳州法案将 pi 的值设置为 3 (1897)</title>
-      <link>https://cs.uwaterloo.ca/~alopez-o/math-faq/mathtext/node18.html</link>
-      <description><![CDATA[文章网址：https://cs.uwaterloo.ca/~alopez- o/math-faq/mathtext/node18.html
-评论网址：https://news.ycombinator.com/item?id=40329626&gt;
+      <title>Jackson CI 的级联依赖关系重建</title>
+      <link>https://cowtowncoder.medium.com/cascading-dependency-rebuilds-for-jackson-ci-5113d0b71631</link>
+      <description><![CDATA[文章网址：https://cowtowncoder.medium.com/cascading-dependency-重建杰克逊-ci-5113d0b71631
+评论网址：https://news.ycombinator.com/item?id=40330611
 积分：1
 # 条评论：0]]></description>
-      <guid>https://cs.uwaterloo.ca/~alopez-o/math-faq/mathtext/node18.html</guid>
-      <pubDate>Sat, 11 May 2024 17:58:36 GMT</pubDate>
+      <guid>https://cowtowncoder.medium.com/cascading-dependency-rebuilds-for-jackson-ci-5113d0b71631</guid>
+      <pubDate>Sat, 11 May 2024 21:01:25 GMT</pubDate>
     </item>
     <item>
-      <title>如何避免一只C++脚枪</title>
-      <link>https://pboyd.io/posts/one-c++-footgun/</link>
-      <description><![CDATA[文章网址：https://pboyd.io/posts/one-c++-footgun/&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=40329614
+      <title>据称校园抗议镇压与反犹太主义有关：右翼计划的一部分</title>
+      <link>https://www.theguardian.com/us-news/article/2024/may/11/us-university-protests-antisemitism-free-speech</link>
+      <description><![CDATA[文章网址：https:// www.theguardian.com/us-news/article/2024/may/11/us-university-protests-antisemitism-free-speech
+评论网址：https://news.ycombinator.com/item?id=40330606
 积分：1
 # 条评论：0]]></description>
-      <guid>https://pboyd.io/posts/one-c++-footgun/</guid>
-      <pubDate>Sat, 11 May 2024 17:57:06 GMT</pubDate>
+      <guid>https://www.theguardian.com/us-news/article/2024/may/11/us-university-protests-antisemitism-free-speech</guid>
+      <pubDate>Sat, 11 May 2024 21:00:23 GMT</pubDate>
     </item>
     <item>
-      <title>机器人将促进食品系统转型（2022）</title>
-      <link>https://medium.com/@tortugaagtech/how-robots-will-catalyze-a-food-system-transformation-36ae14b28222</link>
-      <description><![CDATA[文章网址：https://medium.com/@ tortugaagtech/机器人如何催化食品系统转化-36ae14b28222
-评论网址：https://news.ycombinator.com/item?id=40329590
-积分：1
-# 条评论：0]]></description>
-      <guid>https://medium.com/@tortugaagtech/how-robots-will-catalyze-a-food-system-transformation-36ae14b28222</guid>
-      <pubDate>Sat, 11 May 2024 17:51:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我们解决了自己的问题，并转向使用 Google API 的解决方案</title>
-      <link>https://www.leadsnappr.com/</link>
-      <description><![CDATA[嘿 HN，2 个月前，我接到电话，提出了一个创业想法。问题是我每天要花 2 个小时手动整理要致电的企业列表。我认为必须有更好的方法。因此，我和我的联合创始人开始开发一个应用程序，该应用程序呈现地图以供我们选择位置、用于更改所选区域半径的滑块、用于我们输入关键字和单击按钮即可从 Google Places API 中提取结果列表。我们点击了按钮。结果加载。不到一分钟后，我们就获得了与我之前花费 2 个小时整理的数据量相同的数据。我们每周节省​​了 10 多个小时。然后我们意识到这个软件对其他人也很有价值，因此我们对其进行了完善并将其打包到 LeadSnappr 中。这是一个超级有趣的项目。结果真的很高兴。不幸的是，API 积分每次搜索都要花钱，所以我不能让您免费试用，但如果您或您认识的任何人花时间手动将列表放在一起，为他们的初创公司进行冷电话推销，请让他们了解 LeadSnappr。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40329583
+      <title>SM64打不开的门已经打开了[视频]</title>
+      <link>https://www.youtube.com/watch?v=EmqFoojMeD8</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=EmqFoojMeD8
+评论网址：https://news.ycombinator.com/item?id=40330599
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.leadsnappr.com/</guid>
-      <pubDate>Sat, 11 May 2024 17:50:36 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=EmqFoojMeD8</guid>
+      <pubDate>Sat, 11 May 2024 20:59:28 GMT</pubDate>
     </item>
     <item>
-      <title>柏林特斯拉活动人士称公民不服从是唯一选择</title>
-      <link>https://www.dw.com/en/berlin-tesla-activists-say-civil-disobedience-is-only-option/a-69054007</link>
-      <description><![CDATA[文章网址：https:// www.dw.com/en/berlin-tesla-activists-say-civil-disobedience-is-only-option/a-69054007
-评论网址：https://news.ycombinator.com/item?id=40329577
+      <title>苏格兰突然蚊子多了</title>
+      <link>https://www.popsci.com/science/mosquitoes-scotland/</link>
+      <description><![CDATA[文章网址：https://www.popsci.com/science/mosquitoes-scotland/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=40330570
+积分：5
+# 条评论：0]]></description>
+      <guid>https://www.popsci.com/science/mosquitoes-scotland/</guid>
+      <pubDate>Sat, 11 May 2024 20:52:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：尝试在256字节中带来电影般的体验（WASM）</title>
+      <link>https://github.com/ilmenit/sizecoding/blob/main/Encounter/Encounter.md</link>
+      <description><![CDATA[文章网址：https://github.com/ilmenit/sizecoding/blob/main/遭遇/Encounter.md
+评论网址：https://news.ycombinator.com/item?id=40330555
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/ilmenit/sizecoding/blob/main/Encounter/Encounter.md</guid>
+      <pubDate>Sat, 11 May 2024 20:48:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>“黄油板”背后：乳制品行业如何接管您的饲料</title>
+      <link>https://grist.org/food/butter-board-viral-dairy-lobby/</link>
+      <description><![CDATA[文章网址：https://grist.org/food/butter-board-viral-dairy -大厅/
+评论网址：https://news.ycombinator.com/item?id=40330532
+积分：1
+# 条评论：0]]></description>
+      <guid>https://grist.org/food/butter-board-viral-dairy-lobby/</guid>
+      <pubDate>Sat, 11 May 2024 20:43:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>一名女子被发现在密歇根州杂货店的标牌上生活了几个月</title>
+      <link>https://www.nbcnews.com/news/us-news/woman-found-living-michigan-grocery-store-sign-complete-computer-keuri-rcna151750</link>
+      <description><![CDATA[文章网址： https://www.nbcnews.com/news/us-news/woman-found-living-michigan-grocery-store-sign-complete-computer-keuri-rcna151750
+评论网址：https://news.ycombinator.com/item?id=40330531
+积分：18
+# 条评论：11]]></description>
+      <guid>https://www.nbcnews.com/news/us-news/woman-found-living-michigan-grocery-store-sign-complete-computer-keuri-rcna151750</guid>
+      <pubDate>Sat, 11 May 2024 20:43:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究表明，走得快的人“更聪明”</title>
+      <link>https://maltadaily.mt/people-who-walk-really-fast-are-smarter-study-suggests/</link>
+      <description><![CDATA[文章网址：https://maltdaily.mt/people-who -走-真的-快-更聪明-学习-建议/
+评论网址：https://news.ycombinator.com/item?id=40330528
 积分：2
-# 条评论：1]]></description>
-      <guid>https://www.dw.com/en/berlin-tesla-activists-say-civil-disobedience-is-only-option/a-69054007</guid>
-      <pubDate>Sat, 11 May 2024 17:50:01 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://maltadaily.mt/people-who-walk-really-fast-are-smarter-study-suggests/</guid>
+      <pubDate>Sat, 11 May 2024 20:43:37 GMT</pubDate>
     </item>
     <item>
-      <title>阿奇霉素有望缓解哮喘</title>
-      <link>https://medicalxpress.com/news/2024-05-azithromycin-asthma-remission.html</link>
-      <description><![CDATA[文章网址：https://medicalxpress.com/news/2024-05-azithromycin-哮喘缓解.html
-评论网址：https://news.ycombinator.com/item?id=40329557
+      <title>为什么我们总是犯这样的错误？论教育的因果效应</title>
+      <link>https://www.cremieux.xyz/p/why-do-we-keep-getting-this-wrong</link>
+      <description><![CDATA[文章网址：https://www.cremieux.xyz/p/为什么我们总是犯这个错误
+评论网址：https://news.ycombinator.com/item?id=40330521
 积分：1
 # 条评论：0]]></description>
-      <guid>https://medicalxpress.com/news/2024-05-azithromycin-asthma-remission.html</guid>
-      <pubDate>Sat, 11 May 2024 17:47:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>Yazi：用 Rust 编写的终端文件管理器</title>
-      <link>https://yazi-rs.github.io/features/</link>
-      <description><![CDATA[文章网址：https://yazi-rs.github.io/features/
-评论网址：https://news.ycombinator.com/item?id=40329547
-积分：1
-# 条评论：0]]></description>
-      <guid>https://yazi-rs.github.io/features/</guid>
-      <pubDate>Sat, 11 May 2024 17:45:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>卢森堡针对杰夫·迪施伯格的版权案</title>
-      <link>https://www.zhangjingna.com/blog/luxembourg-copyright-case-win-against-jeff-dieschburg</link>
-      <description><![CDATA[文章网址：https://www.zhangjinna.com/blog/卢森堡版权案胜杰夫迪施堡
-评论网址：https://news.ycombinator.com/item?id=40329538
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.zhangjingna.com/blog/luxembourg-copyright-case-win-against-jeff-dieschburg</guid>
-      <pubDate>Sat, 11 May 2024 17:43:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：按热情和平台浏览 10,000 名创作者的数据库</title>
-      <link>https://fanzine.world/</link>
-      <description><![CDATA[这是一项正在进行中的工作 - 桌面优先，一些错误，用户体验有明显的问题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40329534
-积分：1
-# 条评论：0]]></description>
-      <guid>https://fanzine.world/</guid>
-      <pubDate>Sat, 11 May 2024 17:42:06 GMT</pubDate>
+      <guid>https://www.cremieux.xyz/p/why-do-we-keep-getting-this-wrong</guid>
+      <pubDate>Sat, 11 May 2024 20:42:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
