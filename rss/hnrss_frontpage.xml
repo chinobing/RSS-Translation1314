@@ -4,106 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 15 May 2024 15:14:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 May 2024 18:18:20 GMT</lastBuildDate>
     <item>
-      <title>Jan Leike 从 OpenAI 辞职</title>
-      <link>https://twitter.com/janleike/status/1790603862132596961</link>
-      <description><![CDATA[文章网址：https://twitter.com/janleike/status/1790603862132596961
-评论网址：https://news.ycombinator.com/item?id=40367160
-积分：118
-# 条评论：59]]></description>
-      <guid>https://twitter.com/janleike/status/1790603862132596961</guid>
-      <pubDate>Wed, 15 May 2024 14:08:05 GMT</pubDate>
+      <title>LDAPjs 因恶意电子邮件而被维护者停用</title>
+      <link>https://github.com/ldapjs/node-ldapjs</link>
+      <description><![CDATA[文章网址：https://github.com/ldapjs/node-ldapjs
+评论网址：https://news.ycombinator.com/item?id=40370190
+积分：62
+# 条评论：24]]></description>
+      <guid>https://github.com/ldapjs/node-ldapjs</guid>
+      <pubDate>Wed, 15 May 2024 17:53:02 GMT</pubDate>
     </item>
     <item>
-      <title>全世界最糟糕的网站</title>
-      <link>https://matduggan.com/the-worst-website-in-the-entire-world/</link>
-      <description><![CDATA[文章网址：https://matduggan.com/the-worst-website-in -整个世界/
-评论网址：https://news.ycombinator.com/item?id=40366962
-积分：184
-评论数：82]]></description>
-      <guid>https://matduggan.com/the-worst-website-in-the-entire-world/</guid>
-      <pubDate>Wed, 15 May 2024 13:52:19 GMT</pubDate>
+      <title>iPhone 用户称最新的 iOS 更新正在重新显示已删除的裸照</title>
+      <link>https://www.theverge.com/2024/5/15/24157284/apple-iphone-ios-17-5-update-deleted-photos-voicemails</link>
+      <description><![CDATA[文章网址：https： //www.theverge.com/2024/5/15/24157284/apple-iphone-ios-17-5-update-deleted-photos-voicemails
+评论网址：https://news.ycombinator.com/item?id=40370078
+积分：31
+# 条评论：15]]></description>
+      <guid>https://www.theverge.com/2024/5/15/24157284/apple-iphone-ios-17-5-update-deleted-photos-voicemails</guid>
+      <pubDate>Wed, 15 May 2024 17:43:40 GMT</pubDate>
     </item>
     <item>
-      <title>UniSuper 和 Google Cloud 出了什么问题？</title>
-      <link>https://danielcompton.net/google-cloud-unisuper</link>
-      <description><![CDATA[文章网址：https://danielcompton.net/google-cloud-unisuper
-评论网址：https://news.ycombinator.com/item?id=40366867
-积分：55
-# 条评论：5]]></description>
-      <guid>https://danielcompton.net/google-cloud-unisuper</guid>
-      <pubDate>Wed, 15 May 2024 13:43:36 GMT</pubDate>
+      <title>Ashby (YC W19) 正在招聘热爱辅导的技术 EM</title>
+      <link>https://www.ashbyhq.com/careers?utm_source=hn&ashby_jid=933570bc-a3d6-4fcc-991d-dc399c53a58a</link>
+      <description><![CDATA[文章网址：https://www.ashbyhq.com/ utm_source=hn&amp;ashby_jid=933570bc-a3d6-4fcc-991d-dc399c53a58a
+评论网址：https://news.ycombinator.com/item?id=40369524
+积分：0
+# 条评论：0]]></description>
+      <guid>https://www.ashbyhq.com/careers?utm_source=hn&ashby_jid=933570bc-a3d6-4fcc-991d-dc399c53a58a</guid>
+      <pubDate>Wed, 15 May 2024 17:00:50 GMT</pubDate>
     </item>
     <item>
-      <title>沃尔沃 VNL，一款专为北美道路设计的重型卡车</title>
-      <link>https://arstechnica.com/cars/2024/05/heres-how-volvo-is-making-its-long-haul-trucks-safer-more-efficient/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/cars/2024/05/heres-how-volvo-is-making-its-long-haul-trucks-safer-more-efficient/
-评论网址：https://news.ycombinator.com/item?id=40366474
-积分：34
-# 条评论：23]]></description>
-      <guid>https://arstechnica.com/cars/2024/05/heres-how-volvo-is-making-its-long-haul-trucks-safer-more-efficient/</guid>
-      <pubDate>Wed, 15 May 2024 13:13:23 GMT</pubDate>
+      <title>Show HN：Tarsier – 击败 GPT-4o 的纯文本 LLM 网络代理愿景</title>
+      <link>https://github.com/reworkd/tarsier</link>
+      <description><![CDATA[嘿，HN！我构建了一个工具，使法学硕士能够理解网页的视觉结构，即使他们不接受图像输入。我们发现单模态 GPT-4 + Tarsier 的文本网页表示始终比多模态 GPT-4V/4o + 网页屏幕截图高 10-20%，这可能是因为多模态 LLM 的性能仍然不如其宣传的那么好。&lt; p&gt;在为 Web 代理试验修剪 HTML、可访问性树和其他感知系统的过程中，我们迭代了 Tarsier 的组件，以最大限度地提高下游代理/代码生成性能。简而言之，这是 Tarsier 管道：1.使用 ID 标记可交互元素，供 LLM 采取行动并抓取全尺寸的网页屏幕截图2.对于纯文本法学硕士，在屏幕截图上运行 OCR 并将其转换为空白结构文本（在我看来，这是最酷的部分）3。通过 ID 到 XPath 字典将 LLM 意图映射回浏览器中元素的操作人类通过可视化呈现的页面与网络进行交互，代理也应该这样做。我们每天在 Reworkd (https://reworkd.ai) 上为数千个 Web 数据提取代理运行 Tarsier。顺便说一下，我们正在招聘具有计算密集型分布式系统经验的后端/基础设施工程师！reworkd.ai/careers
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40369319
+积分：39
+# 条评论：11]]></description>
+      <guid>https://github.com/reworkd/tarsier</guid>
+      <pubDate>Wed, 15 May 2024 16:46:15 GMT</pubDate>
     </item>
     <item>
-      <title>血液中的蛋白质可以提供“七年多”的早期癌症预警</title>
-      <link>https://www.theguardian.com/society/article/2024/may/15/proteins-blood-cancer-warning-seven-years-study</link>
-      <description><![CDATA[文章网址：https:// www.theguardian.com/society/article/2024/may/15/ Proteins-blood-cancer-warning-seven-years-study
-评论网址：https://news.ycombinator.com/item?id=40366443
-积分：89
-# 条评论：39]]></description>
-      <guid>https://www.theguardian.com/society/article/2024/may/15/proteins-blood-cancer-warning-seven-years-study</guid>
-      <pubDate>Wed, 15 May 2024 13:11:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>我编写了一些愚蠢的代码，但我为此感到自豪</title>
-      <link>https://plbrault.com/blog-posts/i-coded-something-dumb-and-im-proud-of-it-en/</link>
-      <description><![CDATA[文章网址：https://plbrault .com/blog-posts/i-coded-something-dumb-and-im-proud-of-it-en/
-评论网址：https://news.ycombinator.com/item?id=40366323
+      <title>谷歌向所有人开放其智能家居并将打造谷歌电视家庭中心</title>
+      <link>https://www.theverge.com/2024/5/15/24157154/google-home-api-matter-smart-home-chromecast-google-tv</link>
+      <description><![CDATA[文章网址：https： //www.theverge.com/2024/5/15/24157154/google-home-api-matter-smart-home-chromecast-google-tv
+评论网址：https://news.ycombinator.com/item?id=40369258
 积分：24
-# 条评论：7]]></description>
-      <guid>https://plbrault.com/blog-posts/i-coded-something-dumb-and-im-proud-of-it-en/</guid>
-      <pubDate>Wed, 15 May 2024 12:58:46 GMT</pubDate>
+# 条评论：17]]></description>
+      <guid>https://www.theverge.com/2024/5/15/24157154/google-home-api-matter-smart-home-chromecast-google-tv</guid>
+      <pubDate>Wed, 15 May 2024 16:42:49 GMT</pubDate>
     </item>
     <item>
-      <title>几乎所有 Nintendo 64 游戏现在都可以重新编译到本机 PC 端口</title>
-      <link>https://www.tomshardware.com/video-games/nearly-all-nintendo-64-games-can-now-be-recompiled-into-native-pc-ports-to-add-proper-ray-tracing-ultrawide-high-fps-and-more</link>
-      <description><![CDATA[文章网址：https://www.tomshardware.com/video-games/nearly-all-nintendo-64-games-can-now-重新编译为原生 PC 端口，以添加适当的光线追踪超宽高帧率等
-评论网址：https://news.ycombinator.com/item?id=40366204
-积分：81
-# 条评论：31]]></description>
-      <guid>https://www.tomshardware.com/video-games/nearly-all-nintendo-64-games-can-now-be-recompiled-into-native-pc-ports-to-add-proper-ray-tracing-ultrawide-high-fps-and-more</guid>
-      <pubDate>Wed, 15 May 2024 12:48:19 GMT</pubDate>
+      <title>不服用 Lumina 防蛀益生菌的原因</title>
+      <link>https://trevorklee.substack.com/p/please-dont-take-luminas-anticavity</link>
+      <description><![CDATA[文章网址：https://trevorklee.substack.com/p/please-dont- take-luminas-anticavity
+评论网址：https://news.ycombinator.com/item?id=40369084
+积分：105
+# 条评论：67]]></description>
+      <guid>https://trevorklee.substack.com/p/please-dont-take-luminas-anticavity</guid>
+      <pubDate>Wed, 15 May 2024 16:29:47 GMT</pubDate>
     </item>
     <item>
-      <title>如何让七年级学生吸烟</title>
-      <link>https://www.experimental-history.com/p/how-to-get-7th-graders-to-smoke</link>
-      <description><![CDATA[文章网址：https://www.experimental-history。 com/p/如何让七年级学生吸烟
-评论网址：https://news.ycombinator.com/item?id=40366137
-积分：120
-评论数：84]]></description>
-      <guid>https://www.experimental-history.com/p/how-to-get-7th-graders-to-smoke</guid>
-      <pubDate>Wed, 15 May 2024 12:41:24 GMT</pubDate>
+      <title>Dragonfly：由一系列现成的佳能镜头构建的光学望远镜</title>
+      <link>https://www.dunlap.utoronto.ca/instrumentation/dragonfly/</link>
+      <description><![CDATA[文章网址：https://www.dunlap.utoronto.ca/instrumentation/dragonfly/&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=40369021
+积分：21
+# 条评论：6]]></description>
+      <guid>https://www.dunlap.utoronto.ca/instrumentation/dragonfly/</guid>
+      <pubDate>Wed, 15 May 2024 16:24:03 GMT</pubDate>
     </item>
     <item>
-      <title>Raspberry Pi Ltd 正在考虑 IPO</title>
-      <link>https://www.londonstockexchange.com/news-article/market-news/expected-intention-to-float/16470316</link>
-      <description><![CDATA[文章网址：https://www.londonstockexchange.com/新闻文章/市场新闻/预期意图浮动/16470316
-评论网址：https://news.ycombinator.com/item?id=40366062
-积分：153
-评论数量：91]]></description>
-      <guid>https://www.londonstockexchange.com/news-article/market-news/expected-intention-to-float/16470316</guid>
-      <pubDate>Wed, 15 May 2024 12:32:14 GMT</pubDate>
+      <title>Viking 7B：在 AMD GPU 上训练的北欧语言开放法学硕士</title>
+      <link>https://www.silo.ai//blog/viking-7b-the-first-open-llm-for-the-nordic-languages</link>
+      <description><![CDATA[文章网址：https://www .silo.ai//blog/viking-7b-the-first-open-llm-for-the-nordic-linguals
+评论网址：https://news.ycombinator.com/item?id=40368760
+积分：61
+# 条评论：29]]></description>
+      <guid>https://www.silo.ai//blog/viking-7b-the-first-open-llm-for-the-nordic-languages</guid>
+      <pubDate>Wed, 15 May 2024 16:05:02 GMT</pubDate>
     </item>
     <item>
-      <title>过去 5 万年中自然二氧化碳上升速度最快</title>
-      <link>https://today.oregonstate.edu/news/researchers-identify-fastest-rate-natural-carbon-dioxide-rise-over-last-50000-years</link>
-      <description><![CDATA[文章网址：https： //today.oregonstate.edu/news/researchers-identify-fastest-rate-natural-carbon-diamide-rise-over-last-50000-years
-评论网址：https://news.ycombinator.com/item?id=40365882
-积分：185
-# 条评论：237]]></description>
-      <guid>https://today.oregonstate.edu/news/researchers-identify-fastest-rate-natural-carbon-dioxide-rise-over-last-50000-years</guid>
-      <pubDate>Wed, 15 May 2024 12:13:58 GMT</pubDate>
+      <title>瑞士与美国育儿方式：一位美国妈妈的看法有何不同</title>
+      <link>https://www.businessinsider.com/swiss-vs-american-parenting-differences-independence-freedom-culture-shock-2024-5</link>
+      <description><![CDATA[文章网址：https://www. Businessinsider.com/swiss-vs-american-parenting-differences-independence-freedom-culture-shock-2024-5
+评论网址：https://news.ycombinator.com/item?id=40368710
+积分：35
+# 条评论：74]]></description>
+      <guid>https://www.businessinsider.com/swiss-vs-american-parenting-differences-independence-freedom-culture-shock-2024-5</guid>
+      <pubDate>Wed, 15 May 2024 16:02:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Adobe Photoshop 源代码 (2013)</title>
+      <link>https://computerhistory.org/blog/adobe-photoshop-source-code/</link>
+      <description><![CDATA[文章网址：https://computerhistory.org/blog/adobe-photoshop-source-code/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=40368016
+积分：211
+# 条评论：78]]></description>
+      <guid>https://computerhistory.org/blog/adobe-photoshop-source-code/</guid>
+      <pubDate>Wed, 15 May 2024 15:12:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
