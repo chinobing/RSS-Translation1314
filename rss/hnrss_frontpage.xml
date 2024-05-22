@@ -4,108 +4,108 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 22 May 2024 15:16:17 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 18:19:54 GMT</lastBuildDate>
     <item>
-      <title>为什么物理学家现在质疑宇宙的命运</title>
-      <link>https://bigthink.com/starts-with-a-bang/physicists-question-fate-universe/</link>
-      <description><![CDATA[文章网址：https://bigthink.com/starts-with-a -bang/物理学家问题命运宇宙/
-评论网址：https://news.ycombinator.com/item?id=40441115
-积分：17
+      <title>AlphaFold3 – 为什么《自然》杂志在没有代码的情况下发布了它？</title>
+      <link>https://www.nature.com/articles/d41586-024-01463-0</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-024-01463- 0
+评论网址：https://news.ycombinator.com/item?id=40444168
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.nature.com/articles/d41586-024-01463-0</guid>
+      <pubDate>Wed, 22 May 2024 18:15:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>尝试 Clojure</title>
+      <link>https://tryclojure.org/</link>
+      <description><![CDATA[文章网址：https://tryclojure.org/
+评论网址：https://news.ycombinator.com/item?id=40444121
+积分：6
+# 条评论：0]]></description>
+      <guid>https://tryclojure.org/</guid>
+      <pubDate>Wed, 22 May 2024 18:11:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Neosync – Postgres 和 MySQL 的开源数据匿名化</title>
+      <link>https://github.com/nucleuscloud/neosync</link>
+      <description><![CDATA[嘿 HN，我们是 Evis 和 Nick，我们很高兴推出 Neosync (https://www.github.com/neosync)。 com/nucleuscloud/neosync）。 Neosync 是一个开源平台，可帮助开发人员匿名化生产数据、生成合成数据并在其环境中同步数据，以实现更好的测试、调试和开发人员体验。大多数开发人员和团队都有某种版本的数据库种子脚本，可以创建一些模拟本地和阶段数据库的数据。问题在于生产数据很混乱，并且很难用模拟数据复制它。这给开发人员带来了两个大问题。第一个问题是功能似乎在本地/阶段工作，但在生产中存在错误和边缘情况，因为您用于开发的种子数据不能代表生产数据。我们看到的第二个问题是调试生产错误需要很长时间并且经常会重新出现。当我们在生产中看到错误时，我们想做的第一件事就是在本地重现它，但如果我们无法在本地重现数据的状态，那么我们就有点盲目了。直接与生产合作数据可以解决这两个问题，但大多数团队无法解决，因为：（1）隐私/安全问题和（2）规模。因此，我们开始使用 Neosync 来解决这两个问题。我们使用匿名化和合成数据来解决隐私和安全问题。我们有 40 多个预构建的转换器（或者您可以在代码中编写自己的转换器），可以对 PII 或敏感数据进行匿名化，以便在本地安全使用。此外，您可以从头开始生成适合数据库中现有架构的合成数据。第二个问题是规模。某些生产数据库太大，无法在本地安装，或者数据多于您的需要。此外，在某些情况下，您可能想要调试某个客户的数据，而您只需要他们的数据。我们通过子集化来解决这个问题。您可以传入 SQL 查询来过滤表，Neosync 将处理所有繁重的工作，包括引用完整性。Neosync 的核心做了三件事：(1) 它将数据从一个源流式传输到一个源或多个目标数据库。我们从不存储您的敏感数据。 (2) 当数据被传输时，我们对其进行转换。您可以定义要同步的架构和表，并在列级别选择一个转换器来定义如何对数据进行匿名化或生成合成数据。 (3) 我们根据您的过滤器对您的数据进行子集化。我们在处理引用完整性的同时执行所有这些操作。无论您有主键、外键、唯一约束、循环依赖关系（表内和表间）、序列等，Neosync 都会保留这些引用。我们还附带 API、Terraform 提供程序、CLI 和 Github 操作您可以使用它来构建 CI 数据库。Neosync 是一个用 Go 和 Typescript 编写的开源项目，可以通过 Helm 在 Docker Compose、Bare Metal 或 Kubernetes 上运行。您还可以使用我们的托管平台或托管平台，将其部署在您的 VPC 中。我们还有一个提供慷慨免费套餐的托管平台 - https://neosync.dev这里有一个简短的 loom 演示：https://www.loom.com/share/ac21378d01cd4d848cf723e4960e 8338？... 我们希望收到您的任何反馈！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40443927
+积分：13
+# 条评论：0]]></description>
+      <guid>https://github.com/nucleuscloud/neosync</guid>
+      <pubDate>Wed, 22 May 2024 17:53:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：B-field，一种新颖的概率键值数据结构（`rust-bfield`）</title>
+      <link>https://github.com/onecodex/rust-bfield</link>
+      <description><![CDATA[`rust-bfield` 是我们新颖的“B-field”数据结构的 Rust 实现，其功能类似于用于键值查找的 Bloom 过滤器，而不是设置成员资格查询。B-field 允许您每个键值对仅使用几个字节来紧凑地存储数据。我们已经成功地在基因组学中利用它，将数十亿个“k-mers”与分类标识符相关联，同时保持高效的内存占用。但该数据结构在计算生物学之外也很有用，特别是在您拥有大型独特关键域和受限值范围的情况下。可在 Apache 2 许可证下使用。我们希望它有用，并且我们很乐意回答任何问题！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40443920
+积分：6
+# 条评论：0]]></description>
+      <guid>https://github.com/onecodex/rust-bfield</guid>
+      <pubDate>Wed, 22 May 2024 17:53:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>三分之一的亚马逊仓库工人依靠食品券或医疗补助</title>
+      <link>https://twitter.com/DanPriceSeattle/status/1791299631558823954</link>
+      <description><![CDATA[文章网址：https://twitter.com/DanPriceSeattle/status/1791299631558823954
+评论网址：https://news.ycombinator.com/item?id=40443907
+积分：6
+# 条评论：0]]></description>
+      <guid>https://twitter.com/DanPriceSeattle/status/1791299631558823954</guid>
+      <pubDate>Wed, 22 May 2024 17:52:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>特斯拉欧洲销量跌至 15 个月低点</title>
+      <link>https://finance.yahoo.com/news/tesla-sales-europe-fall-15-083601211.html</link>
+      <description><![CDATA[文章网址：https://finance.yahoo.com/news/特斯拉-sales-europe-fall-15-083601211.html
+评论网址：https://news.ycombinator.com/item?id=40443693
+积分：33
+# 条评论：19]]></description>
+      <guid>https://finance.yahoo.com/news/tesla-sales-europe-fall-15-083601211.html</guid>
+      <pubDate>Wed, 22 May 2024 17:34:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>花旗错过了一个胖手指</title>
+      <link>https://www.bloomberg.com/opinion/articles/2024-05-22/citi-missed-a-fat-finger</link>
+      <description><![CDATA[文章网址：https://www.bloomberg。 com/opinion/articles/2024-05-22/citi-missed-a-fat-finger
+评论网址：https://news.ycombinator.com/item?id=40443302
+积分：28
 # 条评论：7]]></description>
-      <guid>https://bigthink.com/starts-with-a-bang/physicists-question-fate-universe/</guid>
-      <pubDate>Wed, 22 May 2024 14:01:11 GMT</pubDate>
+      <guid>https://www.bloomberg.com/opinion/articles/2024-05-22/citi-missed-a-fat-finger</guid>
+      <pubDate>Wed, 22 May 2024 17:01:40 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：PBT – Ruby 的基于属性的测试库</title>
-      <link>https://github.com/ohbarye/pbt</link>
-      <description><![CDATA[HN，您好，我介绍一款基于属性的 Ruby 测试工具。
-Ruby 的测试编写简单性和丰富的生态系统广受好评。然而，基于属性的测试并不像 Haskell 或 Elixir 等其他语言那样广泛使用，我认为这是因为没有事实上的测试工具。这款 gem 目前不仅具有无状态基于属性的测试的基本功能，还具有以下特点：- 支持详细模式，可让您查看其缩减过程和算法。- 支持每个测试的多个并发/并行执行。截至目前，Ractor/Thread/Process 均可用。 （默认为顺序，考虑基准测试结果和实际使用情况）祝您黑客愉快！
-
-评论网址：https://news.ycombinator.com/item?id=40441093
-积分：15
-评论数：0]]></description>
-      <guid>https://github.com/ohbarye/pbt</guid>
-      <pubDate>Wed, 22 May 2024 13:58:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>萨尔·汗再次引领教育创新</title>
-      <link>https://www.gatesnotes.com/Brave-New-Words</link>
-      <description><![CDATA[文章网址：https://www.gatesnotes.com/Brave-New-Words
-评论网址：https://news.ycombinator.com/item?id=40440854
-积分：61
-# 条评论：66]]></description>
-      <guid>https://www.gatesnotes.com/Brave-New-Words</guid>
-      <pubDate>Wed, 22 May 2024 13:39:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>火星探测器任务将使用先进核动力源</title>
-      <link>https://www.nature.com/articles/d41586-024-01487-6</link>
-      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-024-01487-6
-评论网址：https://news.ycombinator.com/item?id=40440662
-积分：9
-评论数：1]]></description>
-      <guid>https://www.nature.com/articles/d41586-024-01487-6</guid>
-      <pubDate>Wed, 22 May 2024 13:24:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>“漫游权”运动致力于将公地归还给公众</title>
-      <link>https://news.mongabay.com/2024/05/right-to-roam-movement-fights-to-give-the-commons-back-to-the-commoners/</link>
-      <description><![CDATA[文章网址：https://news.mongabay.com/2024/05/right-to-roam-movement-fights-to-give-the-commons-back-to-the-commoners/
-评论网址：https://news.ycombinator.com/item?id=40440283
-积分：74
-# 条评论：45]]></description>
-      <guid>https://news.mongabay.com/2024/05/right-to-roam-movement-fights-to-give-the-commons-back-to-the-commoners/</guid>
-      <pubDate>Wed, 22 May 2024 12:48:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Plane (YC W17) 正在招聘产品工程师（Rails/远程/美洲）</title>
-      <link>https://www.ycombinator.com/companies/plane/jobs/6NKkoGo-senior-staff-product-engineer-americas</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/公司/飞机/工作/6NKkoGo-高级员工-产品工程师-美洲
-评论网址：https://news.ycombinator.com/item?id=40439913
+      <title>Trieve (YC W24) 正在招聘一名销售工程师</title>
+      <link>https://www.ycombinator.com/companies/trieve/jobs/LN9ucK7-sales-engineer-at-trieve-w24</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/公司/trieve/jobs/LN9ucK7-sales-engineer-at-trieve-w24
+评论网址：https://news.ycombinator.com/item?id=40443276
 积分：0
 # 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/plane/jobs/6NKkoGo-senior-staff-product-engineer-americas</guid>
-      <pubDate>Wed, 22 May 2024 12:01:01 GMT</pubDate>
+      <guid>https://www.ycombinator.com/companies/trieve/jobs/LN9ucK7-sales-engineer-at-trieve-w24</guid>
+      <pubDate>Wed, 22 May 2024 17:00:03 GMT</pubDate>
     </item>
     <item>
-      <title>人类基因组中的病毒 DNA 与主要精神疾病有关</title>
-      <link>https://medicalxpress.com/news/2024-05-ancient-viral-dna-human-genome.html</link>
-      <description><![CDATA[文章网址：https://medicalxpress.com/news/2024-05-ancient-viral-dna-human-genome.html
-评论网址：https://news.ycombinator.com/item?id=40439379
-积分：71
-评论数：32]]></description>
-      <guid>https://medicalxpress.com/news/2024-05-ancient-viral-dna-human-genome.html</guid>
-      <pubDate>Wed, 22 May 2024 10:33:15 GMT</pubDate>
+      <title>可拨弦</title>
+      <link>https://string.spiel.com/</link>
+      <description><![CDATA[文章网址：https://string.spiel.com/
+评论网址：https://news.ycombinator.com/item?id=40442595
+积分：165
+# 条评论：38]]></description>
+      <guid>https://string.spiel.com/</guid>
+      <pubDate>Wed, 22 May 2024 16:05:06 GMT</pubDate>
     </item>
     <item>
-      <title>Cover Agent：开源回归测试生成工具</title>
-      <link>https://github.com/Codium-ai/cover-agent</link>
-      <description><![CDATA[文章网址：https://github.com/Codium-ai/cover-agent
-评论网址：https://news.ycombinator.com/item?id=40438664
-积分：12
-# 条评论：2]]></description>
-      <guid>https://github.com/Codium-ai/cover-agent</guid>
-      <pubDate>Wed, 22 May 2024 08:27:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Psion 5mx 模拟器</title>
-      <link>https://wuffs.org/WindEmu/index.html</link>
-      <description><![CDATA[文章网址：https://wuffs.org/WindEmu/index.html
-评论网址：https://news.ycombinator.com/item?id=40438434
-积分：97
-# 条评论：27]]></description>
-      <guid>https://wuffs.org/WindEmu/index.html</guid>
-      <pubDate>Wed, 22 May 2024 07:56:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>当柯达和宝丽莱开战时</title>
-      <link>https://steveblank.com/2024/05/16/secret-history-when-kodak-went-to-war-with-polaroid/</link>
-      <description><![CDATA[文章网址：https://steveblank.com/2024/05/16/secret-history-when-kodak-went-to-war-with-polaroid/
-评论网址：https://news.ycombinator.com/item?id=40436796
-积分：40
-评论数：2]]></description>
-      <guid>https://steveblank.com/2024/05/16/secret-history-when-kodak-went-to-war-with-polaroid/</guid>
-      <pubDate>Wed, 22 May 2024 02:36:11 GMT</pubDate>
+      <title>《狂暴之路》的实用外汇神话</title>
+      <link>https://textualvariations.substack.com/p/fury-fx-furiosa</link>
+      <description><![CDATA[文章网址：https://textualvariations.substack.com/p/fury-fx-furiosa
+评论网址：https://news.ycombinator.com/item?id=40442587
+积分：25
+# 条评论：16]]></description>
+      <guid>https://textualvariations.substack.com/p/fury-fx-furiosa</guid>
+      <pubDate>Wed, 22 May 2024 16:04:37 GMT</pubDate>
     </item>
     </channel>
 </rss>

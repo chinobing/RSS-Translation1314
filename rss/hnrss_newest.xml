@@ -4,108 +4,121 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 22 May 2024 15:16:22 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 18:20:00 GMT</lastBuildDate>
     <item>
-      <title>添加磁性材料产生巨大横向热电效应</title>
-      <link>https://phys.org/news/2024-05-exceptionally-large-transverse-thermoelectric-effect.html</link>
-      <description><![CDATA[文章网址：https://phys.org/news/2024- 05-异常大-横向-热电效应.html
-评论网址：https://news.ycombinator.com/item?id=40441965
+      <title>对脊髓进行非侵入性电击可以治疗瘫痪——但没人知道为什么</title>
+      <link>https://arstechnica.com/science/2024/05/non-invasive-zaps-to-the-spinal-cord-can-treat-paralysis-but-no-one-knows-why/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/science/2024/05/non-guarantee-zaps-to-the-spinal-cord-can-treat-parathesis-but-no-one-knows-why /
+评论网址：https://news.ycombinator.com/item?id=40444076
 积分：1
 # 条评论：0]]></description>
-      <guid>https://phys.org/news/2024-05-exceptionally-large-transverse-thermoelectric-effect.html</guid>
-      <pubDate>Wed, 22 May 2024 15:09:06 GMT</pubDate>
+      <guid>https://arstechnica.com/science/2024/05/non-invasive-zaps-to-the-spinal-cord-can-treat-paralysis-but-no-one-knows-why/</guid>
+      <pubDate>Wed, 22 May 2024 18:07:29 GMT</pubDate>
     </item>
     <item>
-      <title>“他们又壮大起来了”：俄罗斯如何令西方感到惊讶并重建其军事力量</title>
-      <link>https://www.defensenews.com/global/europe/2024/05/21/theyve-grown-back-how-russia-surprised-the-west-and-rebuilt-its-force/</link>
-      <description><![CDATA[文章网址：https://www.defensenews.com/global/europe/2024/05/21/theyve-grown-back-how-Russia-surprized-the-west-and-rebuilt-its-force /
-评论网址：https://news.ycombinator.com/item?id=40441954
+      <title>Java 22 及更高版本 – Brian Goetz [视频]</title>
+      <link>https://www.youtube.com/watch?v=YBGVK5JuSJ8</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=YBGVK5JuSJ8
+评论网址：https://news.ycombinator.com/item?id=40444060
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.defensenews.com/global/europe/2024/05/21/theyve-grown-back-how-russia-surprised-the-west-and-rebuilt-its-force/</guid>
-      <pubDate>Wed, 22 May 2024 15:08:09 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=YBGVK5JuSJ8</guid>
+      <pubDate>Wed, 22 May 2024 18:06:47 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：将您的提示发送给最好的 LLM</title>
-      <link>https://unify.ai/chat?default=true</link>
-      <description><![CDATA[嘿，HN，我们刚刚完成了为 LLM 构建的动态路由器，它接受每个提示并将其发送给最合适的模型和提供商。我们很想知道您的想法！这是一个快速的屏幕记录，解释了它的工作原理：https ://youtu.be/ZpY6SIkBosE根据您自己的提示数据训练自定义路由器时的最佳结果：https ://youtu.be/9JYqNbIEac0路由器平衡了用户对质量、速度和成本的偏好。最终结果是以更低的成本实现更高的质量和更快的 LLM 响应。使用神经评分函数提前预测每个候选 LLM 的质量，该函数是一种类似 BERT 的架构，以提示和潜在表示为条件LLM 正在评分。跨批次维度查询不同的 LLM，神经评分架构将 LLM 的单个潜在表示作为每个前向传递的输入。这使得评分函数非常模块化，可以查询不同的 LLM 组合。它在几个开放的 LLM 数据集上以监督方式进行训练，使用 GPT4 作为判断。成本和速度数据取自我们的实时基准，在各大洲每隔几个小时更新一次。最终的“损失函数”是质量、成本、令牌间延迟和首次令牌时间的线性组合，用户可以有效地缩放此线性组合的权重因子。较小的 LLM 通常很好对于简单的提示来说已经足够了，但是确切地知道它们如何以及何时可能会崩溃是很困难的。措辞的简单干扰可能会导致较小的法学硕士灾难性地失败，使他们难以依赖。例如，Gemma-7B 将数字转换为字符串，并在请求集合中的“最大”数字时返回“最大”字符串，但在请求“最高”或“最大值”时工作正常。路由器是能够学习这些奇怪的分布，并确保只有在高度确信他们会得到正确答案时才使用更小、更便宜和更快的 LLM。在定价方面，我们收取与我们的后端提供商相同的费率路由到，不占用任何边距。我们还为所有新注册者提供 50 美元的免费积分。路由器可以现成使用，也可以直接根据您自己的数据进行训练以提高性能。人们怎么看？这有用吗？欢迎各种反馈！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40441945
+      <title>开发者不关心LLM代码助手中的中毒攻击</title>
+      <link>https://www.computer.org/csdl/proceedings-article/sp/2024/313000a178/1V28Z2MBROU</link>
+      <description><![CDATA[文章网址：https://www.computer.org/csdl/proceedings-文章/sp/2024/313000a178/1V28Z2MBROU
+评论网址：https://news.ycombinator.com/item?id=40444048
 积分：1
 # 条评论：0]]></description>
-      <guid>https://unify.ai/chat?default=true</guid>
-      <pubDate>Wed, 22 May 2024 15:07:20 GMT</pubDate>
+      <guid>https://www.computer.org/csdl/proceedings-article/sp/2024/313000a178/1V28Z2MBROU</guid>
+      <pubDate>Wed, 22 May 2024 18:05:58 GMT</pubDate>
     </item>
     <item>
-      <title>2024 年在 TRS-80 上开发 Game of Life</title>
-      <link>https://system31.simone.computer/blog/game-of-life-trs80</link>
-      <description><![CDATA[文章网址：https://system31.simone.computer/blog/game-of-life- 80 元
-评论网址：https://news.ycombinator.com/item?id=40441944
+      <title>易于使用的性能建模</title>
+      <link>https://fizzbee.io/tutorials/performance-modeling/</link>
+      <description><![CDATA[文章网址：https://fizzbee.io/tutorials/performance-modeling/
+评论网址：https://news.ycombinator.com/item?id=40444034
 积分：1
 # 条评论：0]]></description>
-      <guid>https://system31.simone.computer/blog/game-of-life-trs80</guid>
-      <pubDate>Wed, 22 May 2024 15:07:19 GMT</pubDate>
+      <guid>https://fizzbee.io/tutorials/performance-modeling/</guid>
+      <pubDate>Wed, 22 May 2024 18:04:45 GMT</pubDate>
     </item>
     <item>
-      <title>在 Emacs Lisp 中构建和训练神经网络</title>
-      <link>https://www.scss.tcd.ie/~sulimanm/posts/nn-introduction.html</link>
-      <description><![CDATA[文章网址：https://www.scss.tcd.ie/~sulimanm/ posts/nn-introduction.html
-评论网址：https://news.ycombinator.com/item?id=40441942
+      <title>Harmonious – 详尽的和弦和音阶应用程序</title>
+      <link>https://harmoniousapp.net/</link>
+      <description><![CDATA[文章网址：https://harmoniousapp.net/
+评论网址：https://news.ycombinator.com/item?id=40443998
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.scss.tcd.ie/~sulimanm/posts/nn-introduction.html</guid>
-      <pubDate>Wed, 22 May 2024 15:06:54 GMT</pubDate>
+      <guid>https://harmoniousapp.net/</guid>
+      <pubDate>Wed, 22 May 2024 18:01:12 GMT</pubDate>
     </item>
     <item>
-      <title>一般般</title>
-      <link>https://news.ycombinator.com/item?id=40441940</link>
-      <description><![CDATA[我很高兴
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40441940
+      <title>Show HN：黑客新闻阅读器应用程序</title>
+      <link>https://www.hn-reader.com/</link>
+      <description><![CDATA[大家好
+我是 HN 的忠实粉丝……我非常喜欢它，所以一直想要在移动设备（和桌面）上拥有更好的 UI。
+由于现有的应用程序都不符合我的口味，所以我决定做唯一合理的事情：自己编写一个应用程序。它由 Flutter + serverpod（所以都是 Dart）制作而成，因此有 iOS、Android、Web（未来还有 Linux、Mac、Windows）版本是的，它有所有无聊的部分：
+列出提要、阅读和评论文章……更多令人兴奋的部分：
+- 滑动列表项以加快操作（收藏、点赞）
+- 自定义提要（纯列表、预览图像、报纸风格）
+- 自定义点击操作（打开 URL、打开评论）
+- 突出显示 OP 评论。
+- 可折叠的评论线程。所有令人兴奋的事情：
+- 离线缓存。
+- 有关有趣项目的通知。
+和 
+- AI 摘要！想在下载之前试用该应用程序（作为 PWA）
+==&gt; https://app.hn-reader.com所有其他信息都在这里：
+www.hn-reader.com是的，我会在评论中回答问题
+
+评论网址：https://news.ycombinator.com/item?id=40443995
+积分：1
+评论数：0]]></description>
+      <guid>https://www.hn-reader.com/</guid>
+      <pubDate>Wed, 22 May 2024 18:00:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>实时特征工程</title>
+      <link>https://www.feldera.com/blog/feature-engineering-part2/</link>
+      <description><![CDATA[文章网址：https://www.feldera.com/blog/feature-engineering-part2/&lt; /a&gt;
+评论网址：https://news.ycombinator.com/item?id=40443980
+积分：4
+# 条评论：0]]></description>
+      <guid>https://www.feldera.com/blog/feature-engineering-part2/</guid>
+      <pubDate>Wed, 22 May 2024 17:58:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mistral 发布了 7B LLM v0.3</title>
+      <link>https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3</link>
+      <description><![CDATA[文章网址：https://huggingface.co/mistralai/Mistral-7B-Instruct-v0。 3
+评论网址：https://news.ycombinator.com/item?id=40443968
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=40441940</guid>
-      <pubDate>Wed, 22 May 2024 15:06:45 GMT</pubDate>
+      <guid>https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3</guid>
+      <pubDate>Wed, 22 May 2024 17:57:27 GMT</pubDate>
     </item>
     <item>
-      <title>当你是一名点击工作者时，没有人知道你老了</title>
-      <link>https://restofworld.org/2024/venezuela-online-gig-work/</link>
-      <description><![CDATA[文章网址：https://restofworld.org/2024/venezuela-online-gig-work/&lt; /a&gt;
-评论网址：https://news.ycombinator.com/item?id=40441923
+      <title>彩虹帽之谜</title>
+      <link>https://taoa.io/posts/The-Rainbow-Hats-Puzzle/</link>
+      <description><![CDATA[文章网址：https://taoa.io/posts/The-Rainbow-Hats-Puzzle/
+评论网址：https://news.ycombinator.com/item?id=40443943
 积分：1
-# 条评论：0]]></description>
-      <guid>https://restofworld.org/2024/venezuela-online-gig-work/</guid>
-      <pubDate>Wed, 22 May 2024 15:05:26 GMT</pubDate>
+评论数：0]]></description>
+      <guid>https://taoa.io/posts/The-Rainbow-Hats-Puzzle/</guid>
+      <pubDate>Wed, 22 May 2024 17:55:10 GMT</pubDate>
     </item>
     <item>
-      <title>Tempus AI（原名 Tempus Labs）S-1</title>
-      <link>https://www.sec.gov/Archives/edgar/data/1717115/000119312524142956/d221145ds1.htm</link>
-      <description><![CDATA[文章网址：https://www.sec.gov/Archives/edgar/数据/1717115/000119312524142956/d221145ds1.htm
-评论网址：https://news.ycombinator.com/item?id=40441921
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.sec.gov/Archives/edgar/data/1717115/000119312524142956/d221145ds1.htm</guid>
-      <pubDate>Wed, 22 May 2024 15:05:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>LavinMQ：理解代码以获得最佳性能</title>
-      <link>https://crystal-lang.org/2024/05/22/lavinmq-understanding-code/</link>
-      <description><![CDATA[文章网址：https://crystal-lang.org/2024/05/22 /lavinmq-understanding-code/
-评论网址：https://news.ycombinator.com/item?id=40441908
+      <title>我正在构建的应用程序将节省开源BETA测试人员的需求</title>
+      <link>https://openpledge.io?source=hn3</link>
+      <description><![CDATA[文章网址：https://openpledge.io?source=hn3
+评论网址：https://news.ycombinator.com/item?id=40443939
 积分：1
 # 条评论：1]]></description>
-      <guid>https://crystal-lang.org/2024/05/22/lavinmq-understanding-code/</guid>
-      <pubDate>Wed, 22 May 2024 15:03:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找最佳爱情</title>
-      <link>https://mat.tepper.cmu.edu/blog/index.php/2011/02/27/finding-love-optimally/</link>
-      <description><![CDATA[文章网址：https://mat.tepper .cmu.edu/blog/index.php/2011/02/27/finding-love-optimally/
-评论网址：https://news.ycombinator.com/item?id=40441901
-积分：1
-# 条评论：0]]></description>
-      <guid>https://mat.tepper.cmu.edu/blog/index.php/2011/02/27/finding-love-optimally/</guid>
-      <pubDate>Wed, 22 May 2024 15:03:15 GMT</pubDate>
+      <guid>https://openpledge.io?source=hn3</guid>
+      <pubDate>Wed, 22 May 2024 17:54:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
