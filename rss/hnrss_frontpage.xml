@@ -4,107 +4,105 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 23 May 2024 15:16:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 May 2024 18:19:16 GMT</lastBuildDate>
     <item>
-      <title>制作自己的后门：CFLAGS代码注入、Makefile注入、pkg-config</title>
-      <link>https://www.openwall.com/lists/oss-security/2024/04/17/3</link>
-      <description><![CDATA[文章网址：https://www.openwall.com/lists/oss-安全/2024/04/17/3
-评论网址：https://news.ycombinator.com/item?id=40455494
-积分：6
-# 条评论：0]]></description>
-      <guid>https://www.openwall.com/lists/oss-security/2024/04/17/3</guid>
-      <pubDate>Thu, 23 May 2024 14:54:08 GMT</pubDate>
+      <title>威胁互联网稳定性的 DNS 故障已修复；原因尚不清楚</title>
+      <link>https://arstechnica.com/security/2024/05/dns-glitch-that-threatened-internet-stability-fixed-cause-remains-unclear/</link>
+      <description><![CDATA[文章网址：https:// /arstechnica.com/security/2024/05/dns-glitch-that-threatened-internet-stability-fixed-cause-remains-unclear/
+评论网址：https://news.ycombinator.com/item?id=40457313
+积分：26
+# 条评论：5]]></description>
+      <guid>https://arstechnica.com/security/2024/05/dns-glitch-that-threatened-internet-stability-fixed-cause-remains-unclear/</guid>
+      <pubDate>Thu, 23 May 2024 17:16:12 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：HackerNews，但提供最先进的研究论文</title>
+      <title>使用 WebAssembly 在边缘快速运行 PHP</title>
+      <link>https://wasmer.io/posts/running-php-blazingly-fast-at-the-edge-with-wasm</link>
+      <description><![CDATA[文章网址：https://wasmer.io/posts/运行 php-blazingly-fast-at-the-edge-with-wasm
+评论网址：https://news.ycombinator.com/item?id=40457229
+积分：17
+# 条评论：2]]></description>
+      <guid>https://wasmer.io/posts/running-php-blazingly-fast-at-the-edge-with-wasm</guid>
+      <pubDate>Thu, 23 May 2024 17:09:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Memfault (YC W19) 正在纽约/波士顿招聘一名固件工程师</title>
+      <link>https://jobs.lever.co/memfault/9fa58d3b-2415-4d80-9e5c-be989f90c2e4</link>
+      <description><![CDATA[文章网址：https://jobs.lever.co/memfault/9fa58d3b-2415- 4d80-9e5c-be989f90c2e4
+评论网址：https://news.ycombinator.com/item?id=40457126
+积分：0
+# 条评论：0]]></description>
+      <guid>https://jobs.lever.co/memfault/9fa58d3b-2415-4d80-9e5c-be989f90c2e4</guid>
+      <pubDate>Thu, 23 May 2024 17:00:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国每日大麻消费量首次超过饮酒量</title>
+      <link>https://www.bbc.com/news/articles/c9xxd8w57kjo</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c9xxd8w57kjo
+评论网址：https://news.ycombinator.com/item?id=40457054
+积分：9
+# 条评论：0]]></description>
+      <guid>https://www.bbc.com/news/articles/c9xxd8w57kjo</guid>
+      <pubDate>Thu, 23 May 2024 16:54:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Porter Cloud – 带弹出按钮的 PaaS</title>
+      <link>https://news.ycombinator.com/item?id=40456959</link>
+      <description><![CDATA[嗨，HN！ Porter Cloud (https://porter.run/porter-cloud) 是一个类似于 Heroku 的平台即服务 (PaaS)，但是当您准备好时，我们可以帮助您轻松迁移到 AWS、Azure 或 GCP。与 Heroku 一样，Porter 会为您处理许多通用的 DevOps 工作（例如设置 CI/CD、容器化您的应用程序） 、自动缩放、SSL 证书、设置反向代理），让您只需点击几下即可部署应用程序，从而在开发时节省大量时间。然而，正如您可能知道的那样，它有一个缺点：如果您的应用程序起飞并且您需要扩展，这样的平台就会受到限制。一旦您为大量用户付费，您在开发过程中节省的时间可能会变得相当昂贵 - 而且平台往往会试图将您锁定！我们的想法是为您提供两全其美的服务：使用 Porter云计算可以节省您的时间和开发成本，但您可以随时按“弹出按钮”将应用程序迁移到您自己的 AWS、Azure 或 GCP 帐户。我们使突破变得无缝，因此您不再受到传统 PaaS 的严格限制。您可以通过此处概述的几个简单步骤进行迁移：https://docs.porter.run/other/eject。&lt; p&gt;一些背景知识：大约 3 年前，我们首次在 HN 上推出了我们的原始产品 (https://news.ycombinator .com/item?id=26993421, https://porter.run)，它将您的应用程序部署到您自己的 AWS、Azure ，或具有 PaaS 简单体验的 GCP 帐户。从那时起，我们已帮助无数公司从 PaaS 迁移到三大云提供商之一。他们中的大多数人在早期就开始使用 PaaS，以优化速度和易用性，但最终不得不经历痛苦的​​迁移到 AWS、Azure 或 GCP，因为他们在扩展时遇到了原始 PaaS 的各种限制。 .有趣的是，我们了解到，许多从 PaaS 起步的公司都充分意识到，他们在某个时候必须迁移到三大公共云 [1] 之一。然而，他们还是选择在 PaaS 上进行部署，因为当您专注于取得进展时，云平台的增长将成为一个“香槟问题”。然而，当您需要迁移整个生产基础设施同时大规模服务许多用户时，这就会成为一个非常明显的问题。这是一个“值得拥有的好问题”，直到它不是。我们构建了 Porter Cloud，以便下一代初创公司能够尽快起步，让您可以轻松安心地开展业务当您准备好扩展时，请转向经过考验的真正的超大规模提供商之一。我们很高兴看到人们在 Porter Cloud 上构建的内容。如果您曾经处理过从 PaaS 到三大云提供商之一的迁移，我们也很乐意在评论中听到您的经历。期待反馈和讨论！[1] 我们所说的“三大云”是指每个云提供商的较低级别原语。我们并不是指他们的更高级别的产品，例如 AWS App Runner、Google Cloud Run 或 Azure App Service，因为这些产品也会遇到上述相同的 PaaS 问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40456959
+积分：39
+# 条评论：12]]></description>
+      <guid>https://news.ycombinator.com/item?id=40456959</guid>
+      <pubDate>Thu, 23 May 2024 16:47:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>S 矩阵是预言物理学家在危机时期求助的对象</title>
+      <link>https://www.quantamagazine.org/the-s-matrix-is-the-oracle-physicists-turn-to-in-times-of-crisis-20240523/</link>
+      <description><![CDATA[文章网址：https://www.quantamagazine.org/the-s-matrix-is-the-oracle-physicalists-turn-to-in-times-of-crisis-20240523/
+评论网址：https://news.ycombinator.com/item?id=40456801
+积分：10
+# 条评论：1]]></description>
+      <guid>https://www.quantamagazine.org/the-s-matrix-is-the-oracle-physicists-turn-to-in-times-of-crisis-20240523/</guid>
+      <pubDate>Thu, 23 May 2024 16:35:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们即将结束与三星的合作</title>
+      <link>https://www.ifixit.com/News/96162/were-ending-our-samsung-collaboration</link>
+      <description><![CDATA[文章网址：https://www.ifixit.com/News/96162/正在结束我们与三星的合作
+评论网址：https://news.ycombinator.com/item?id=40456107
+积分：75
+# 条评论：37]]></description>
+      <guid>https://www.ifixit.com/News/96162/were-ending-our-samsung-collaboration</guid>
+      <pubDate>Thu, 23 May 2024 15:41:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>推出 HN：Metriport (YC S22) – 用于医疗保健数据交换的开源 API</title>
+      <link>https://news.ycombinator.com/item?id=40456064</link>
+      <description><![CDATA[]]></description>
+      <guid>https://news.ycombinator.com/item?id=40456064</guid>
+      <pubDate>Thu, 23 May 2024 15:38:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>太空探索 II 主盘错误</title>
+      <link>https://lanceewing.github.io/blog/sierra/agi/sq2/2024/05/22/do-you-own-this-space-quest-2-disk.html</link>
+      <description><![CDATA[文章网址：https://lanceewing.github.io/blog/sierra/agi/sq2/2024/05/22/do-you-own-this-space-quest-2-disk.html&lt; /p&gt;
+评论网址：https://news.ycombinator.com/item?id=40455758
+积分：182
+# 条评论：52]]></description>
+      <guid>https://lanceewing.github.io/blog/sierra/agi/sq2/2024/05/22/do-you-own-this-space-quest-2-disk.html</guid>
+      <pubDate>Thu, 23 May 2024 15:16:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN: HackerNews，但用于研究论文</title>
       <link>https://www.papertalk.xyz/research/home</link>
       <description><![CDATA[嘿伙计们，我爱HN！我想将相同的美学和社区扩展到技术相关新闻之外的事物。我认为围绕最新、最伟大的研究成果聚集相同质量的社区会很酷。让我知道什么你们想想我到目前为止所拥有的。现在还为时尚早，因此可能存在错误和其他质量问题。如果缺少任何您想要的功能，请告诉我。此外，如果你们中有人熟悉任何特定领土的地图田野，请告诉我！我很乐意集思广益，为每个领域提出一个“最重要的论文”部分。谢谢！！-stefan
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=40455478
-积分：8
-# 条评论：1]]></description>
+积分：104
+评论数：110]]></description>
       <guid>https://www.papertalk.xyz/research/home</guid>
       <pubDate>Thu, 23 May 2024 14:53:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amber，代码搜索和替换工具</title>
-      <link>https://github.com/dalance/amber</link>
-      <description><![CDATA[文章网址：https://github.com/dalance/amber
-评论网址：https://news.ycombinator.com/item?id=40455426
-积分：7
-# 条评论：0]]></description>
-      <guid>https://github.com/dalance/amber</guid>
-      <pubDate>Thu, 23 May 2024 14:48:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>使 EC2 启动时间加快 8 倍</title>
-      <link>https://depot.dev/blog/faster-ec2-boot-time</link>
-      <description><![CDATA[文章网址：https://depot.dev/blog/faster-ec2-boot-time
-评论网址：https://news.ycombinator.com/item?id=40455208
-积分：16
-评论数：0]]></description>
-      <guid>https://depot.dev/blog/faster-ec2-boot-time</guid>
-      <pubDate>Thu, 23 May 2024 14:31:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>亚马逊药房</title>
-      <link>https://pharmacy.amazon.com</link>
-      <description><![CDATA[文章网址：https://pharmacy.amazon.com
-评论网址：https://news.ycombinator.com/item?id=40455202
-积分：8
-# 条评论：5]]></description>
-      <guid>https://pharmacy.amazon.com</guid>
-      <pubDate>Thu, 23 May 2024 14:31:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>欧几里得卫星的第一张照片揭示了数十亿孤星</title>
-      <link>https://www.nottingham.ac.uk/news/first-pictures-from-euclid-satellite-reveal-billions-of-orphan-stars</link>
-      <description><![CDATA[文章网址：https:// www.nottingham.ac.uk/news/first-pictures-from-euclid-satellite-reveal-billions-of-orphan-stars
-评论网址：https://news.ycombinator.com/item?id=40454383
-积分：10
-# 条评论：3]]></description>
-      <guid>https://www.nottingham.ac.uk/news/first-pictures-from-euclid-satellite-reveal-billions-of-orphan-stars</guid>
-      <pubDate>Thu, 23 May 2024 13:22:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>PermitFlow (YC W22) 正在招聘</title>
-      <link>https://jobs.ashbyhq.com/permitflow?departmentId=d33195eb-8978-4439-abc6-5a8a072de808</link>
-      <description><![CDATA[文章网址：https://jobs.ashbyhq.com/permitflow?departmentId= d33195eb-8978-4439-abc6-5a8a072de808
-评论网址：https://news.ycombinator.com/item?id=40453619
-积分：0
-# 条评论：0]]></description>
-      <guid>https://jobs.ashbyhq.com/permitflow?departmentId=d33195eb-8978-4439-abc6-5a8a072de808</guid>
-      <pubDate>Thu, 23 May 2024 12:00:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>将默认临时文件前缀更改为向后拼写的“SQLite”</title>
-      <link>https://github.com/sqlite/sqlite/commit/fd288f3549a1ab9a309a9e120d46319d42adea29</link>
-      <description><![CDATA[文章网址：https://github.com/sqlite/sqlite/commit/fd288f3549a1ab9a309a9e120d46319d42adea29
-评论网址：https://news.ycombinator.com/item?id=40453384
-积分：19
-# 条评论：3]]></description>
-      <guid>https://github.com/sqlite/sqlite/commit/fd288f3549a1ab9a309a9e120d46319d42adea29</guid>
-      <pubDate>Thu, 23 May 2024 11:32:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>BB(3, 4) > 确认(14)</title>
-      <link>https://www.sligocki.com//2024/05/22/bb-3-4-a14.html</link>
-      <description><![CDATA[文章网址：https://www.sligocki.com// 2024/05/22/bb-3-4-a14.html
-评论网址：https://news.ycombinator.com/item?id=40453221
-积分：54
-# 条评论：5]]></description>
-      <guid>https://www.sligocki.com//2024/05/22/bb-3-4-a14.html</guid>
-      <pubDate>Thu, 23 May 2024 11:13:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>失败如何让数学变得更强</title>
-      <link>https://www.quantamagazine.org/how-failure-has-made-mathematics-stronger-20240522/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/how-failure -has-made-mathematics-stronger-20240522/
-评论网址：https://news.ycombinator.com/item?id=40452731
-积分：47
-# 条评论：11]]></description>
-      <guid>https://www.quantamagazine.org/how-failure-has-made-mathematics-stronger-20240522/</guid>
-      <pubDate>Thu, 23 May 2024 10:03:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
