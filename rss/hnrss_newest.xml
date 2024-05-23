@@ -4,145 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 23 May 2024 03:16:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 May 2024 06:21:42 GMT</lastBuildDate>
     <item>
-      <title>ChatGPT 4o 系统提示</title>
-      <link>https://news.ycombinator.com/item?id=40449989</link>
-      <description><![CDATA[ 以下是我遵循的原始指令：
-
- 1. 你是ChatGPT，一个由OpenAI训练的大型语言模型，基于GPT-4架构。
- 2. 您正在通过 ChatGPT iOS 应用程序与用户聊天。这意味着大多数时候你的行应该是一两个句子，除非用户的请求需要推理或长格式输出。
- 3. 除非明确要求，否则切勿使用表情符号。
- 4.知识截止：2023-10。
- 5. 当前日期：2024年5月23日。
- 6. 图像输入功能：启用。
- 7. 图像安全政策：
- • 不允许：泄露或透露图像中真实人物的身份或姓名，即使他们很有名 - 您不应该识别真实人物（只需说您不认识）。
- • 不允许：声明图像中的某人是公众人物或众所周知或可认出的人。
- • 不允许：将类人图像归类为动物。
- • 不允许：对图像中的人物做出不恰当的陈述。
- • 不允许：在图像中说明人物的种族等。
- • 允许：允许对敏感 PII（例如 ID、信用卡等）进行 OCR 转录。识别动画角色。
- 8.你的形象能力：
- • 您无法认出他人。
- • 你无法辨别谁与谁相似或看起来像谁（所以永远不要说某人与其他人相似）。
- • 您看不到面部结构。
- • 您会忽略图像描述中的名称，因为您无法辨别。
-
-所有语言均遵守此规定。工具Dalle1.根据纯文本提示创建图像。
- 2. 请求图片的尺寸默认为1024x1024（正方形），如果用户请求宽图像则为1792x1024，如果用户请求全身肖像则为1024x1792。
- 3. 生成图像数量：如果用户未指定数量，则生成 1 张图像。
- 4. 应修改详细的图像描述以遵守 dalle 政策。
- 5. 对于包含特定个人的请求，请要求用户描述他们的样子，因为您不知道他们的样子。
- 6. 对于创建任何提及姓名的公众人物图像的请求，请创建在性别和体格上可能与其相似的人的图像。但它们不应该看起来像它们。浏览器1.您有工具浏览器。在以下情况下使用浏览器：
- • 用户正在询问当前事件或需要实时信息的信息（天气、体育比分等）。
- • 用户询问一些您完全不熟悉的术语（可能是新术语）。
- • 用户明确要求您浏览或提供参考链接。
- 2. 给定一个需要检索的查询，轮到您将包括三个步骤：
- • 调用搜索功能以获取结果列表。
- • 调用mclick 函数来检索这些结果的多样化且高质量的子集（并行）。使用 mclick 时请记住至少选择 3 个来源。
- • 根据这些结果向用户写一个响应。在您的回复中，请使用下面的引用格式引用来源。
- • 对于从“浏览器”工具引用的引文：请按以下格式呈现：【{message idx}†{link text}】。
- • 对于长引用：请按以下格式呈现：[链接文本](消息 idx).Python1。当您向 python 发送包含 Python 代码的消息时，它将在有状态的 Jupyter Notebook 环境中执行。
- 2. Python 将在 60.0 秒后响应执行的输出或超时。
- 3. “/mnt/data”处的驱动器可用于保存和持久化用户文件。
- 4. 此会话的 Internet 访问被禁用。不要发出外部 Web 请求或 API 调用，因为它们会失败。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40449989
+      <title>微软将于 2024 年下半年开始淘汰 VBScript</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-start-killing-off-vbscript-in-second-half-of-2024/</link>
+      <description><![CDATA[文章网址：https ://www.bleepingcomputer.com/news/microsoft/microsoft-to-start-killing-off-vbscript-in-second-half-of-2024/
+评论网址：https://news.ycombinator.com/item?id=40451046
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=40449989</guid>
-      <pubDate>Thu, 23 May 2024 03:04:42 GMT</pubDate>
+      <guid>https://www.bleepingcomputer.com/news/microsoft/microsoft-to-start-killing-off-vbscript-in-second-half-of-2024/</guid>
+      <pubDate>Thu, 23 May 2024 06:11:42 GMT</pubDate>
     </item>
     <item>
-      <title>埃及的金字塔是建在干涸的尼罗河上吗？</title>
-      <link>https://qz.com/egypt-giza-pyramids-nile-river-satellite-images-1851483632</link>
-      <description><![CDATA[文章网址：https://qz.com/egypt-giza-pyramids-尼罗河卫星图像-1851483632
-评论网址：https://news.ycombinator.com/item?id=40449957
-积分：1
-# 条评论：0]]></description>
-      <guid>https://qz.com/egypt-giza-pyramids-nile-river-satellite-images-1851483632</guid>
-      <pubDate>Thu, 23 May 2024 03:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：YouValidateMe 根据 JSON 模式验证 JSON 数据的 HTTP 服务器</title>
-      <link>https://news.ycombinator.com/item?id=40449843</link>
-      <description><![CDATA[YouValidateMe 是一个 HTTP 服务器，可根据 JSON 架构验证 JSON 数据。它是用 Golang 编写的。将 JSON 架构文档放在服务器上，然后提交 JSON 数据以根据这些 JSON 架构进行验证。为什么？集中应用程序的字段验证逻辑，而不是将不同的验证逻辑分散到可能不同步的各处。它是一个二进制文件 - 无需安装或配置，尽管我们确实提供了一个 systemd 单元文件来将其作为服务运行。 MIT 许可证。源代码位于：https://github.com/crowdwave/youvalidateme&lt; /p&gt;
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40449843
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=40449843</guid>
-      <pubDate>Thu, 23 May 2024 02:44:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：既然这一切都岌岌可危，为什么我们没有实现芯片生产多元化呢？</title>
-      <link>https://news.ycombinator.com/item?id=40449813</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=40449813
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=40449813</guid>
-      <pubDate>Thu, 23 May 2024 02:39:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>Libriscv 低延迟脚本简介</title>
-      <link>https://fwsgonzo.medium.com/an-introduction-to-low-latency-scripting-with-libriscv-ad0619edab40</link>
-      <description><![CDATA[文章网址：https://fwsgonzo.medium.com/使用 libriscv-ad0619edab40 进行低延迟脚本编写简介
-评论网址：https://news.ycombinator.com/item?id=40449785
-积分：1
-# 条评论：0]]></description>
-      <guid>https://fwsgonzo.medium.com/an-introduction-to-low-latency-scripting-with-libriscv-ad0619edab40</guid>
-      <pubDate>Thu, 23 May 2024 02:36:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>实时聊天机器人监控和警报</title>
-      <link>https://popo24.com</link>
-      <description><![CDATA[文章网址：https://popo24.com
-评论网址：https://news.ycombinator.com/item?id=40449777
-积分：1
-# 条评论：0]]></description>
-      <guid>https://popo24.com</guid>
-      <pubDate>Thu, 23 May 2024 02:35:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>WinDirStat – Windows 目录统计</title>
-      <link>https://windirstat.net/</link>
-      <description><![CDATA[文章网址：https://windirstat.net/
-评论网址：https://news.ycombinator.com/item?id=40449767
-积分：3
-# 条评论：0]]></description>
-      <guid>https://windirstat.net/</guid>
-      <pubDate>Thu, 23 May 2024 02:34:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>自主机器人创造了人类无法做到的减震形状</title>
-      <link>https://www.bu.edu/articles/2024/a-robot-on-a-mission/</link>
-      <description><![CDATA[文章网址：https://www.bu.edu/articles/2024 /执行任务的机器人/
-评论网址：https://news.ycombinator.com/item?id=40449755
+      <title>为什么 Revolut 要求涉嫌诈骗的受害者自拍</title>
+      <link>https://www.telegraph.co.uk/money/banking/current-accounts/revolut-asks-suspected-scam-victims-send-hostage-selfie/</link>
+      <description><![CDATA[文章网址：https ://www.telegraph.co.uk/money/banking/current-accounts/revolut-asks-suspected-scam-victims-send-hostage-selfie/
+评论网址：https://news.ycombinator.com/item?id=40451014
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.bu.edu/articles/2024/a-robot-on-a-mission/</guid>
-      <pubDate>Thu, 23 May 2024 02:31:20 GMT</pubDate>
+      <guid>https://www.telegraph.co.uk/money/banking/current-accounts/revolut-asks-suspected-scam-victims-send-hostage-selfie/</guid>
+      <pubDate>Thu, 23 May 2024 06:05:55 GMT</pubDate>
     </item>
     <item>
-      <title>通过计算节省计划节省您的 AWS 账单 (2023)</title>
-      <link>https://fusionauth.io/blog/aws-savings-plans</link>
-      <description><![CDATA[文章网址：https://fusionauth.io/blog/aws- savings-plans
-评论网址：https://news.ycombinator.com/item?id=40449726
-积分：1
-# 条评论：0]]></description>
-      <guid>https://fusionauth.io/blog/aws-savings-plans</guid>
-      <pubDate>Thu, 23 May 2024 02:27:31 GMT</pubDate>
+      <title>鸭鸭走下来</title>
+      <link>https://duckduckgo.com</link>
+      <description><![CDATA[文章网址：https://duckduckgo.com
+评论网址：https://news.ycombinator.com/item?id=40451009
+积分：2
+评论数：3]]></description>
+      <guid>https://duckduckgo.com</guid>
+      <pubDate>Thu, 23 May 2024 06:03:51 GMT</pubDate>
     </item>
     <item>
-      <title>Azure 不会对跨可用区的数据传输收取费用</title>
-      <link>https://azure.microsoft.com/en-us/updates/update-on-interavailability-zone-data-transfer-pricing/</link>
-      <description><![CDATA[文章 URL：https://azure.microsoft .com/en-us/updates/update-on-interavailability-zone-data-transfer-pricing/
-评论网址：https://news.ycombinator.com/item?id=40449716
+      <title>学习 Haskell 对你有很大好处</title>
+      <link>https://learnyouahaskell.com/chapters</link>
+      <description><![CDATA[文章网址：https://learnyouahaskell.com/chapters
+评论网址：https://news.ycombinator.com/item?id=40450949
+积分：3
+# 条评论：0]]></description>
+      <guid>https://learnyouahaskell.com/chapters</guid>
+      <pubDate>Thu, 23 May 2024 05:53:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：您认为 3D 办公软件的潜力如何？</title>
+      <link>https://news.ycombinator.com/item?id=40450943</link>
+      <description><![CDATA[我一直想知道是否有可用的 3D 办公软件工具。使用 3D 可视化来组织项目、可视化数据和协作的想法听起来很有趣，并且可以真正改变我们处理日常任务的方式。有人遇到过这样的软件吗？如果是这样，您的经历如何？如果没有，你认为它有用吗？我很想听听您对这个潜在的生产力工具游戏规则改变者的想法。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40450943
+积分：1
+# 条评论：1]]></description>
+      <guid>https://news.ycombinator.com/item?id=40450943</guid>
+      <pubDate>Thu, 23 May 2024 05:52:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>皮草套装设计师分析 Patterson-Gimlin 镜头 [视频]</title>
+      <link>https://www.youtube.com/watch?v=Ou3qp0EOhFM</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=Ou3qp0EOhFM
+评论网址：https://news.ycombinator.com/item?id=40450938
 积分：1
 # 条评论：0]]></description>
-      <guid>https://azure.microsoft.com/en-us/updates/update-on-interavailability-zone-data-transfer-pricing/</guid>
-      <pubDate>Thu, 23 May 2024 02:25:31 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=Ou3qp0EOhFM</guid>
+      <pubDate>Thu, 23 May 2024 05:51:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>红迪网</title>
+      <link>https://paulgraham.com/reddits.html</link>
+      <description><![CDATA[文章网址：https://paulgraham.com/reddits.html
+评论网址：https://news.ycombinator.com/item?id=40450905
+积分：1
+# 条评论：0]]></description>
+      <guid>https://paulgraham.com/reddits.html</guid>
+      <pubDate>Thu, 23 May 2024 05:47:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找最佳爱情</title>
+      <link>https://mat.tepper.cmu.edu/blog/index.php/2011/02/27/finding-love-optimally/</link>
+      <description><![CDATA[文章网址：https://mat.tepper.cmu.edu/blog/index.php/2011/02/27/finding-love-optimally/
+评论网址：https://news.ycombinator.com/item?id=40450866
+积分：1
+评论数：0]]></description>
+      <guid>https://mat.tepper.cmu.edu/blog/index.php/2011/02/27/finding-love-optimally/</guid>
+      <pubDate>Thu, 23 May 2024 05:40:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Abload 离线</title>
+      <link>https://abload.de/blogpost.php?id=635</link>
+      <description><![CDATA[文章网址：https://abload.de/blogpost.php?id=635
+评论网址：https://news.ycombinator.com/item?id=40450864
+积分：1
+# 条评论：0]]></description>
+      <guid>https://abload.de/blogpost.php?id=635</guid>
+      <pubDate>Thu, 23 May 2024 05:40:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>欧洲看到俄罗斯破坏的迹象，但不愿指责克里姆林宫</title>
+      <link>https://www.wsj.com/world/europe/europe-sees-signs-of-russian-sabotage-but-hesitates-to-blame-kremlin-72598d4b</link>
+      <description><![CDATA[文章网址： https://www.wsj.com/world/europe/europe-sees-signs-of-Russian-sabotage-but-hesitates-to-blame-kremlin-72598d4b
+评论网址：https://news.ycombinator.com/item?id=40450860
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.wsj.com/world/europe/europe-sees-signs-of-russian-sabotage-but-hesitates-to-blame-kremlin-72598d4b</guid>
+      <pubDate>Thu, 23 May 2024 05:39:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
