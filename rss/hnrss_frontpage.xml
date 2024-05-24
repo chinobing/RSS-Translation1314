@@ -4,9 +4,39 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 23 May 2024 21:14:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 May 2024 01:02:57 GMT</lastBuildDate>
     <item>
-      <title>Checkr (YC S14) 正在为其新业务 Checkr Pay 招聘一名软件工程师</title>
+      <title>谷歌人工智能生成的搜索结果不断引用洋葱新闻</title>
+      <link>https://www.readtpa.com/p/googles-ai-generated-search-results-9e1</link>
+      <description><![CDATA[文章网址：https://www.readtpa.com/p/googles- ai-生成-搜索-结果-9e1
+评论网址：https://news.ycombinator.com/item?id=40461580
+积分：60
+# 条评论：20]]></description>
+      <guid>https://www.readtpa.com/p/googles-ai-generated-search-results-9e1</guid>
+      <pubDate>Fri, 24 May 2024 00:30:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>预报员警告称，大西洋飓风季节将“非同寻常”</title>
+      <link>https://www.npr.org/2024/05/23/1251003581/2024-atlantic-hurricane-season-noaa-forecast</link>
+      <description><![CDATA[文章网址：https://www.npr。 org/2024/05/23/1251003581/2024-atlantic-hurricane-season-noaa-forecast
+评论网址：https://news.ycombinator.com/item?id=40461489
+积分：10
+# 条评论：1]]></description>
+      <guid>https://www.npr.org/2024/05/23/1251003581/2024-atlantic-hurricane-season-noaa-forecast</guid>
+      <pubDate>Fri, 24 May 2024 00:14:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>脱水与成人注意力任务表现较差有关</title>
+      <link>https://onlinelibrary.wiley.com/doi/10.1002/ajhb.24051</link>
+      <description><![CDATA[文章网址：https://onlinelibrary.wiley.com/doi/10.1002/ajhb.24051
+评论网址：https://news.ycombinator.com/item?id=40461096
+积分：47
+# 条评论：10]]></description>
+      <guid>https://onlinelibrary.wiley.com/doi/10.1002/ajhb.24051</guid>
+      <pubDate>Thu, 23 May 2024 23:23:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Checkr (YC S14) 正在为 Checkr Pay 招聘一名软件工程师</title>
       <link>https://www.ycombinator.com/companies/checkr/jobs/ixzdle1-staff-software-engineer-checkr-pay</link>
       <description><![CDATA[文章网址：https://www.ycombinator.com/公司/checkr/jobs/ixzdle1-staff-software-engineer-checkr-pay
 评论网址：https://news.ycombinator.com/item?id=40459848
@@ -20,26 +50,26 @@
       <link>https://restructuring.ra.kroll.com/FTX/Home-DownloadPDF?id1=MzExMDk4OQ==&id2=-1</link>
       <description><![CDATA[文章网址：https://restructuring.ra。 kroll.com/FTX/Home-DownloadPDF?id1=MzExMDk4OQ==&amp;id2=-1
 评论网址：https://news.ycombinator.com/item?id=40458964
-积分：11
-# 条评论：0]]></description>
+积分：101
+# 条评论：78]]></description>
       <guid>https://restructuring.ra.kroll.com/FTX/Home-DownloadPDF?id1=MzExMDk4OQ==&id2=-1</guid>
       <pubDate>Thu, 23 May 2024 19:38:10 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：LLM 应用程序的开源实时数据框架</title>
+      <title>Show HN：适用于 LLM 应用程序的开源实时数据框架</title>
       <link>https://getindexify.ai</link>
-      <description><![CDATA[嘿 HN，我是 Tensorlake 的创始人。制作 LLM 应用程序原型变得更加容易，但在生产环境中构建不断更新数据的决策 LLM 应用程序仍然非常具有挑战性。我们见过人们面临的系统工程问题是 -1。如果应用程序对信息的新鲜度敏感，则可以实时可靠地处理摄取的内容。 
+      <description><![CDATA[嘿 HN，我是 Tensorlake 的创始人。制作 LLM 应用程序原型变得更加容易，但在生产环境中构建不断更新数据的决策 LLM 应用程序仍然非常具有挑战性。我们看到人们面临的系统工程问题是 -1。如果应用程序对信息的新鲜度敏感，则可以实时可靠地处理摄取的内容。 
 2. 能够引入任何类型的模型，并在 GPU 和 CPU 上运行管道的不同部分。
 3. 对摄取峰值、计算基础设施故障的容错。
-4. 随着数据量的增长扩展计算、读取和写入。我们构建并开源了 Indexify(https://github.com/ tensorlakeai/indexify），为 LLM 应用程序提供计算引擎和数据框架，这些应用程序在数据频繁更新或不断创建新数据的动态环境中工作。开发人员描述了一个声明性提取图，其中包含阶段提取或转换非结构化数据。数据从一个阶段传递到另一阶段，最终到达矢量数据库、Blob 存储或 Postgres 等结构化数据存储等接收器。示例 -
-1. 视频理解的图可以是：摄取 -&gt; 音频提取 -&gt; 转录 -&gt; NER 和嵌入。另一条路径，摄取 -&gt; 关键帧提取 -&gt; 对象和场景描述 (https ://github.com/tensorlakeai/indexify/blob/main/docs/docs...） 
-2. PDF 提取 -&gt; PDF -&gt; Markdown -&gt; 分块 -&gt; 嵌入、NER (https://github.com/tensorlakeai/indexify/blob/main/docs/docs...)应用层 - Indexify 在 LLM 应用程序堆栈中充当检索器，因此您可以使用它很容易与您现有的应用程序一起使用。通过 HTTP 调用检索器 API 以从 Indexify 获取提取的数据，这几乎是搜索或检索数据所需的所有集成。您可以使用可组合提取器并将它们链接在一起以构建可与任何非结构化数据。由于这是 HN，我可以自由地谈论一些技术细节:)它是如何实时的？
-我们使用 Raft 构建了一个复制状态机，每秒处理 10 个或 1000 个摄取事件。存储和网络层经过优化，可让调度程序在 2 毫秒内创建任务。调度器的架构与Google的Borg和Hashicorp的Nomad非常相似。我们拥有的架构可以扩展到多台机器上的并行调度，并拥有像 Nomad 这样的集中式排序器。存储系统：由于我们的重点是非结构化数据，因此我们希望能够支持从大文件中存储和提取，并能够随着数据量的增长而水平扩展。 Indexify 在底层使用 blob 存储来存储非结构化数据。如果图形创建嵌入，它们会自动存储在向量存储中，结构化数据存储在 Postgres 等结构化存储中。在引擎盖下，我们在摄取服务器和数据存储之间具有 Rust 特征，因此我们可以轻松实现对其他向量存储的支持。同步向量和结构化存储 - 如果 Indexify 检测到结构化数据的存在，它还会将结构化数据与向量存储同步两者都在图表中。这允许使用预过滤功能来缩小搜索空间以获得更好的结果。API - Indexify 公开矢量存储上的语义搜索 API，以及半结构化数据上的读取 SQL 查询。我们可以自动找出结构化数据的模式并在顶部公开一个 SQL 接口。在幕后，我们解析 SQL，并有一个扫描和读取数据库以对行进行切片和切块的层。因此，BI 工具应该可以开箱即用地处理提取的数据。
+4. 随着数据量的增长扩展计算、读取和写入。我们构建并开源了 Indexify(https://github.com/ tensorlakeai/indexify），为 LLM 应用程序提供计算引擎和数据框架，这些应用程序在数据频繁更新或不断创建新数据的动态环境中工作。开发人员描述了一个声明性提取图，其中包含阶段提取或转换非结构化数据。数据从一个阶段传递到另一阶段，最终到达向量数据库、Blob 存储或 Postgres 等结构化数据存储等接收器。示例 -
+1. 进行视频理解的图可以是：摄取 -&gt; 音频提取 -&gt; 转录 -&gt; NER 和嵌入。另一条路径，摄取 -&gt; 关键帧提取 -&gt; 对象和场景描述 (https ://github.com/tensorlakeai/indexify/blob/main/docs/docs...） 
+2. PDF 上的结构化提取和搜索：PDF -&gt; Markdown -&gt; 分块 -&gt; 嵌入、NER (https://github.com/tensorlakeai/indexify/blob/main/docs/docs...)应用程序层 - Indexify 在 LLM 应用程序堆栈中充当检索器，因此您可以很容易地将它与您现有的应用程序一起使用。通过 HTTP 调用检索器 API 以从 Indexify 获取提取的数据，这几乎是搜索或检索数据所需的所有集成。您可以使用可组合提取器并将它们链接在一起以构建可与任何非结构化数据。由于这是 HN，我可以自由地谈论一些技术细节:)它如何实时？
+我们使用 Raft 构建了一个复制状态机，每秒处理 10 个或 1000 个摄取事件。存储和网络层经过优化，可让调度程序在 2 毫秒内创建任务。调度器的架构与Google的Borg和Hashicorp的Nomad非常相似。我们拥有的架构可以扩展到多台机器上的并行调度，并拥有像 Nomad 这样的集中式排序器。存储系统：由于重点是非结构化数据，我们希望能够支持大文件的存储和提取，并且能够随着数据量的增长水平扩展。 Indexify 在底层使用 blob 存储来存储非结构化数据。如果图形创建嵌入，它们会自动存储在向量存储中，结构化数据存储在 Postgres 等结构化存储中。在引擎盖下，我们在摄取服务器和数据存储之间具有 Rust 特征，因此我们可以轻松实现对其他向量存储的支持。同步向量和结构化存储 - 如果 Indexify 检测到结构化数据的存在，它还会将结构化数据与向量存储同步两者都在图表中。这允许使用预过滤功能来缩小搜索空间以获得更好的结果。API - Indexify 公开矢量存储上的语义搜索 API，以及半结构化数据上的读取 SQL 查询。我们可以自动找出结构化数据的模式并在顶部公开一个 SQL 接口。在幕后，我们解析 SQL，并有一个扫描和读取数据库以对行进行切片和切块的层。因此，BI 工具应该可以开箱即用地处理提取的数据。
 我们拥有 Python 和 Typescript 库，使人们可以轻松构建新应用程序或集成到现有应用程序中。有什么想法吗？如果您认为这对您正在构建的内容有用，我很乐意听到！
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=40458923
-积分：7
-# 条评论：0]]></description>
+积分：41
+# 条评论：2]]></description>
       <guid>https://getindexify.ai</guid>
       <pubDate>Thu, 23 May 2024 19:33:30 GMT</pubDate>
     </item>
@@ -48,18 +78,18 @@
       <link>https://bigthink.com/starts-with-a-bang/northern-lights-hubble/</link>
       <description><![CDATA[文章网址：https://bigthink.com/starts-with-a-bang /北极光-哈勃/
 评论网址：https://news.ycombinator.com/item?id=40458846
-积分：12
-# 条评论：1]]></description>
+积分：28
+# 条评论：7]]></description>
       <guid>https://bigthink.com/starts-with-a-bang/northern-lights-hubble/</guid>
       <pubDate>Thu, 23 May 2024 19:25:02 GMT</pubDate>
     </item>
     <item>
-      <title>美国陆军在圣路易斯研究放射性对健康的影响 1945-1970 (2011)</title>
+      <title>美国陆军研究了 1945 年至 1970 年间圣路易斯放射性物质对健康的影响 (2011)</title>
       <link>https://mospace.umsystem.edu/xmlui/handle/10355/13170</link>
       <description><![CDATA[文章网址：https://mospace.umsystem.edu/xmlui/handle/10355/13170
 评论网址：https://news.ycombinator.com/item?id=40458686
-积分：38
-# 条评论：16]]></description>
+积分：75
+# 条评论：45]]></description>
       <guid>https://mospace.umsystem.edu/xmlui/handle/10355/13170</guid>
       <pubDate>Thu, 23 May 2024 19:09:42 GMT</pubDate>
     </item>
@@ -68,51 +98,20 @@
       <link>https://twitter.com/ID_AA_Carmack/status/1787850053912064005</link>
       <description><![CDATA[文章网址：https://twitter.com/ID_AA_Carmack/status/1787850053912064005
 评论网址：https://news.ycombinator.com/item?id=40458655
-积分：40
-评论数：32]]></description>
+积分：95
+# 条评论：83]]></description>
       <guid>https://twitter.com/ID_AA_Carmack/status/1787850053912064005</guid>
       <pubDate>Thu, 23 May 2024 19:07:53 GMT</pubDate>
     </item>
     <item>
-      <title>25 年前化石燃料可能就被淘汰了</title>
-      <link>https://timharford.com/2024/05/fossil-fuels-could-have-been-left-in-the-dust-25-years-ago/</link>
-      <description><![CDATA[文章网址：https://timharford.com/2024/05/fossil-fuels-could-have-been-left-in-the-dust-25-years-ago/
-评论网址：https://news.ycombinator.com/item?id=40458617
-积分：75
-评论数：35]]></description>
-      <guid>https://timharford.com/2024/05/fossil-fuels-could-have-been-left-in-the-dust-25-years-ago/</guid>
-      <pubDate>Thu, 23 May 2024 19:05:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>乌鸦“数”自己发声的次数</title>
-      <link>https://www.science.org/doi/10.1126/science.adl0984</link>
-      <description><![CDATA[文章网址：https://www.science.org/doi/10.1126/science.adl0984
-评论网址：https://news.ycombinator.com/item?id=40458114
-积分：45
-# 条评论：40]]></description>
-      <guid>https://www.science.org/doi/10.1126/science.adl0984</guid>
-      <pubDate>Thu, 23 May 2024 18:28:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>水泥回收方法或可帮助解决重大气候挑战之一</title>
+      <title>水泥回收方法可以帮助解决重大气候挑战之一</title>
       <link>https://www.cam.ac.uk/stories/cement-recycling</link>
       <description><![CDATA[文章网址：https://www.cam.ac.uk/stories/cement-recycling
 评论网址：https://news.ycombinator.com/item?id=40457856
-积分：87
-# 条评论：30]]></description>
+积分：147
+# 条评论：59]]></description>
       <guid>https://www.cam.ac.uk/stories/cement-recycling</guid>
       <pubDate>Thu, 23 May 2024 18:03:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Excel 到 Python 编译器</title>
-      <link>https://pyoneer.ai?source=hn&utm_campaign=shn1</link>
-      <description><![CDATA[我们（我和 @aarondia）构建了一个工具来帮助您将伪软件 Excel 文件转换为真正的软件 Python。理想情况下，Pyoneer 可帮助您自动化手动 Excel 流程。您今天可以在此处尝试：https://pyoneer.ai。工作原理：1. 您上传 Excel 文件2. 我们静态解析 Excel 文件并构建所有单元格、表格、公式和数据透视表的依赖关系图。3. 我们进行图遍历，并在遇到节点时对其进行转换。我们使用 OpenAI API 来转换公式。这里有很多额外的工作——因为即使像我这样的人可以做到最好的快速工程，OpenAI 在转换公式方面也很糟糕（主要是因为它不知道它处理的数据类型）。我们通过从范围到变量名称和类型的映射来增强此翻译，根据我们的经验，这可以将正确翻译公式的百分比提高约 5 倍。4. 我们还为翻译生成测试用例，以确保 Python 流程与您的 Excel 流程相匹配。5. 我们会将包含我们生成的代码的 Jupyter 笔记本返还给您。如果 Excel 中有我们无法成功翻译的部分（复杂公式或当前的数据透视表），我们会将它们保留为代码中的 TODO。这让您可以轻松跳进去继续完成脚本。这适用于谁：主要面向了解 Python 的开发人员！如果符合以下条件，Pyoneer 可能会很有用：1. 您有一个想要移动到 Python 的 Excel 文件（通常是出于速度、大小或维护原因）。2. 笔记本中包含足够多的逻辑，因此从头开始重写它会很麻烦。3.或者您不太了解 Excel 工作簿中的逻辑，因为您一开始就没有编写它 :)翻译后，即使 Pyoneer 没有完美地完成它或翻译所有公式，您也可以进入笔记本并继续清理 TODO/完成编写公式。Alpha 发布支持的内容：提前发布！目前我们专注于支持：1. 任意数量的工作表，它们之间有任何引用结构。2. 直接转换为变量的单元格。我们会将公式转换为具有相同结果的 Python 代码，否则我们将生成一个 TODO，让您知道我们无法翻译此单元格。3. 转换为 Pandas 数据框的表。我们最多支持每张工作表一个表，但表必须是连续的。如果某一列中的公式一致，那么我们将尝试将其转换为单个 Pandas 语句。我们不支持：数据透视表或复杂公式。当我们无法翻译这些内容时，我们会生成 TODO 语句。我们也不支持图表或宏 - 目前您根本不会在输出中看到这些内容。我们为何构建它：我们完成了 YCS20 并构建了一个名为 Mito 的开源工具（https://trymito.io）。从那时起，这是一个美好的旅程 - 我们扩大了收入，并获得了超过 2000 个 Github 星（https://github.com/mito-ds/mito）。但从根本上说，Mito 是一款对想要更有效地开始编写 Python 代码的 Excel 用户有用的工具。我们希望再次尝试解决 Excel -&gt; Python 的痛点，更加注重开发人员 - 帮助必须将 Excel 文件转换为 Python 的开发人员更快地完成此操作。因此，Pyoneer！如果您有反馈、批评、问题或评论，我今天会在评论中。
-
-评论网址：https://news.ycombinator.com/item?id=40457631
-积分：38
-评论数：21]]></description>
-      <guid>https://pyoneer.ai?source=hn&utm_campaign=shn1</guid>
-      <pubDate>Thu, 23 May 2024 17:40:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
