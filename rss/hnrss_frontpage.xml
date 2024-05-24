@@ -4,94 +4,95 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 24 May 2024 18:19:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 May 2024 21:14:44 GMT</lastBuildDate>
     <item>
-      <title>GitHub加速器评选的开源AI项目</title>
-      <link>https://github.blog/2024-05-23-2024-github-accelerator-meet-the-11-projects-shaping-open-source-ai/#giskard-the-testing-platform-for-ai-models-bringing-transparency-and-accountability</link>
-      <description><![CDATA[文章网址：https://github.blog/2024-05-23-2024-github-accelerator-meet-the-11-projects-shaping -open-source-ai/#giskard-the-testing-platform-for-ai-models-bringing-transparency-and-accountability
-评论网址：https://news.ycombinator.com/item?id=40468739
-积分：6
-# 条评论：0]]></description>
-      <guid>https://github.blog/2024-05-23-2024-github-accelerator-meet-the-11-projects-shaping-open-source-ai/#giskard-the-testing-platform-for-ai-models-bringing-transparency-and-accountability</guid>
-      <pubDate>Fri, 24 May 2024 17:58:58 GMT</pubDate>
+      <title>Freshpaint (YC S19) 正在招聘软件工程师以保护患者隐私</title>
+      <link>https://jobs.ashbyhq.com/freshpaint/bfe56523-bff4-4ca3-936b-0ba15fb4e572?utm_source=hn</link>
+      <description><![CDATA[文章网址：https://jobs.ashbyhq.com/freshpaint/bfe56523-bff4-4ca3-936b-0ba15fb4e572?utm_source=hn
+评论网址：https://news.ycombinator.com/item?id=40470454
+积分：0
+评论数：0]]></description>
+      <guid>https://jobs.ashbyhq.com/freshpaint/bfe56523-bff4-4ca3-936b-0ba15fb4e572?utm_source=hn</guid>
+      <pubDate>Fri, 24 May 2024 21:00:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Spot – 用于 Go 的简单、跨平台、反应式桌面 GUI 工具包</title>
+      <link>https://github.com/roblillack/spot</link>
+      <description><![CDATA[嗨，HN，我很高兴与大家分享 Spot，一个简单的、跨平台的、类似 React 的 Go GUI 库。它刚刚发布几天，有很多缺失的功能，但我对迄今为止的结果感到满意，并正在寻找一些设计反馈。Spot 的设计易于使用，并在不同平台上提供一致的 API （主要是 Mac 和 Linux）。它受到 React 的启发，但用 Go 编写，旨在结合两全其美：Go 的简单工具和性能与现代的反应式 UI 开发方法。主要功能：- 跨平台：利用 FLTK[1] 和 Cocoa[2]，Spot 可在 Mac、Linux 和 BSD 上运行，并计划在未来支持本机 Windows。- 反应式 UI：采用类似 React 的模型来构建 UI，使其成为对于那些熟悉反应式框架的人来说很直观。- 传统的本机小部件集：利用可用的本机小部件来提供更传统的外观和感觉。我构建它的原因：我正在寻找一种跨Go 平台 GUI 工具包具有更传统的外观，并且现有选项都不能完全满足我的需求。然后我开始使用 Gocoa 和 go-fltk，突然我做了一个实验，看看在 Go 中构建像 React 这样的东西会有多大的挑战性，它有点演变成 Spot。 ́\_(ツ)_/̿到 2024 年，经典桌面 GUI 仍然有其一席之地吗——即使是现代的版本？我很想听听您的想法、反馈和任何改进建议。另外，非常欢迎贡献。感谢您查看！[1] https://github.com /pwiecz/go-fltk[2] https://github.com/roblillack/gocoa&lt; /p&gt;
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40469592
+积分：39
+评论数量：9]]></description>
+      <guid>https://github.com/roblillack/spot</guid>
+      <pubDate>Fri, 24 May 2024 19:19:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mp3tag – 通用标签编辑器</title>
+      <link>https://www.mp3tag.de/en/</link>
+      <description><![CDATA[文章网址：https://www.mp3tag.de/en/
+评论网址：https://news.ycombinator.com/item?id=40468933
+积分：127
+# 条评论：40]]></description>
+      <guid>https://www.mp3tag.de/en/</guid>
+      <pubDate>Fri, 24 May 2024 18:15:58 GMT</pubDate>
     </item>
     <item>
       <title>使用大型语言模型进行财务报表分析</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835311</link>
       <description><![CDATA[文章网址：https://papers.ssrn.com/sol3/papers.cfm?abstract_id= 4835311
 评论网址：https://news.ycombinator.com/item?id=40468518
-积分：31
-评论数量：9]]></description>
+积分：181
+评论数：87]]></description>
       <guid>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835311</guid>
       <pubDate>Fri, 24 May 2024 17:39:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>五十次击键即可使用 Emacs</title>
-      <link>https://enzuru.medium.com/emacs-in-a-few-dozen-keystrokes-and-why-some-of-you-should-just-use-vim-14b9af30be70</link>
-      <description><![CDATA[文章网址：https://enzuru.medium.com/emacs-in-a-few-dozen-keytrips-and-why-some-of-you-should-just-use-vim-14b9af30be70&lt; /p&gt;
-评论网址：https://news.ycombinator.com/item?id=40468408
-积分：13
-# 条评论：0]]></description>
-      <guid>https://enzuru.medium.com/emacs-in-a-few-dozen-keystrokes-and-why-some-of-you-should-just-use-vim-14b9af30be70</guid>
-      <pubDate>Fri, 24 May 2024 17:30:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>Flexport (YC W14) 正在聘请 OR/ML 专家来优化全球贸易路线</title>
-      <link>https://boards.greenhouse.io/flexport/jobs/5806177?gh_jid=5806177</link>
-      <description><![CDATA[文章网址：https://boards.greenhouse.io/flexport/jobs/5806177?gh_jid= 5806177
-评论网址：https://news.ycombinator.com/item?id=40468113
-积分：0
-# 条评论：0]]></description>
-      <guid>https://boards.greenhouse.io/flexport/jobs/5806177?gh_jid=5806177</guid>
-      <pubDate>Fri, 24 May 2024 17:00:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>自托管可让您的私人数据远离人工智能模型</title>
-      <link>https://blog.zulip.com/2024/05/23/self-hosting-keeps-your-private-data-out-of-ai-models/</link>
-      <description><![CDATA[文章网址：https ://blog.zulip.com/2024/05/23/self-hosting-keeps-your-private-data-out-of-ai-models/
-评论网址：https://news.ycombinator.com/item?id=40467934
-积分：48
-# 条评论：23]]></description>
-      <guid>https://blog.zulip.com/2024/05/23/self-hosting-keeps-your-private-data-out-of-ai-models/</guid>
-      <pubDate>Fri, 24 May 2024 16:44:00 GMT</pubDate>
     </item>
     <item>
       <title>禁用 Windows Defender 的一种稍微有趣的方法（通过 WSC API）</title>
       <link>https://github.com/es3n1n/no-defender</link>
       <description><![CDATA[文章网址：https://github.com/es3n1n/no-defender
 评论网址：https://news.ycombinator.com/item?id=40467741
-积分：11
-评论数：3]]></description>
+积分：39
+# 条评论：18]]></description>
       <guid>https://github.com/es3n1n/no-defender</guid>
       <pubDate>Fri, 24 May 2024 16:27:40 GMT</pubDate>
     </item>
     <item>
-      <title>ICQ 将于 6 月 26 日起停止服务</title>
+      <title>ICQ将于6月26日起停止服务</title>
       <link>https://icq.com/desktop/en#windows</link>
       <description><![CDATA[文章网址：https://icq.com/desktop/en#windows
 评论网址：https://news.ycombinator.com/item?id=40467625
-积分：380
-# 条评论：261]]></description>
+积分：593
+# 条评论：389]]></description>
       <guid>https://icq.com/desktop/en#windows</guid>
       <pubDate>Fri, 24 May 2024 16:16:37 GMT</pubDate>
     </item>
     <item>
+      <title>LANL 在中子输运方程中实现 Yottabyte 级数据压缩</title>
+      <link>https://www.hpcwire.com/off-the-wire/los-alamos-achieves-yottabyte-scale-data-compression-in-neutron-transport-equations/</link>
+      <description><![CDATA[文章网址：https://www.hpcwire.com/off-the-wire/los-alamos-achieves-yottabyte-scale-data-compression-in-neutron-transport-equations/
+评论网址：https://news.ycombinator.com/item?id=40467426
+积分：18
+# 条评论：0]]></description>
+      <guid>https://www.hpcwire.com/off-the-wire/los-alamos-achieves-yottabyte-scale-data-compression-in-neutron-transport-equations/</guid>
+      <pubDate>Fri, 24 May 2024 15:55:38 GMT</pubDate>
+    </item>
+    <item>
       <title>用大约一个月的时间编写一个 Unix 克隆</title>
       <link>https://drewdevault.com/2024/05/24/2024-05-24-Bunnix.html</link>
-      <description><![CDATA[文章网址：https://drewdevault.com/2024/05/24/2024-05-24-Bunnix.html
+      <description><![CDATA[文章网址：https://drewdevault.com/2024/05/24/ 2024-05-24-Bunnix.html
 评论网址：https://news.ycombinator.com/item?id=40467297
-积分：135
-评论数：41]]></description>
+积分：208
+评论数：70]]></description>
       <guid>https://drewdevault.com/2024/05/24/2024-05-24-Bunnix.html</guid>
       <pubDate>Fri, 24 May 2024 15:41:22 GMT</pubDate>
     </item>
     <item>
       <title>三星WB850F固件逆向工程</title>
       <link>https://op-co.de/blog/posts/samsung_wb850f_firmware/</link>
-      <description><![CDATA[文章网址：https://op-co.de/blog/posts/samsung_wb850f_firmware/&lt; /p&gt;
+      <description><![CDATA[文章网址：https://op-co.de/blog/posts/samsung_wb850f_firmware/
 评论网址：https://news.ycombinator.com/item?id=40467232
-积分：62
-评论数量：9]]></description>
+积分：99
+评论数：22]]></description>
       <guid>https://op-co.de/blog/posts/samsung_wb850f_firmware/</guid>
       <pubDate>Fri, 24 May 2024 15:35:04 GMT</pubDate>
     </item>
@@ -100,8 +101,8 @@
       <link>https://arxiv.org/abs/2405.13817</link>
       <description><![CDATA[文章网址：https://arxiv.org/abs/2405.13817
 评论网址：https://news.ycombinator.com/item?id=40466826
-积分：60
-# 条评论：13]]></description>
+积分：103
+# 条评论：22]]></description>
       <guid>https://arxiv.org/abs/2405.13817</guid>
       <pubDate>Fri, 24 May 2024 14:50:07 GMT</pubDate>
     </item>
