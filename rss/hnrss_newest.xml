@@ -4,108 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 26 May 2024 12:25:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2024 15:15:42 GMT</lastBuildDate>
     <item>
-      <title>Rimmel.js – 用于可观察流的功能反应式 UI 库</title>
-      <link>https://github.com/hellomenu/rimmel</link>
-      <description><![CDATA[文章网址：https://github.com/hellomenu/rimmel
-评论网址：https://news.ycombinator.com/item?id=40481597
+      <title>卡塔尔航空从多哈飞往都柏林的航班遭遇湍流 12人受伤</title>
+      <link>https://www.theguardian.com/world/article/2024/may/26/turbulence-on-qatar-airways-flight-from-doha-to-dublin</link>
+      <description><![CDATA[文章网址： https://www.theguardian.com/world/article/2024/may/26/turbulence-on-qatar-airways-flight-from-doha-to-dublin
+评论网址：https://news.ycombinator.com/item?id=40482755
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theguardian.com/world/article/2024/may/26/turbulence-on-qatar-airways-flight-from-doha-to-dublin</guid>
+      <pubDate>Sun, 26 May 2024 15:11:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>船舶和集装箱都短缺</title>
+      <link>https://theloadstar.com/mounting-container-shortages-creating-total-havoc/</link>
+      <description><![CDATA[文章网址：https://theloadstar.com/mounting-container-shortages-creating-total -浩劫/
+评论网址：https://news.ycombinator.com/item?id=40482749
+积分：1
+# 条评论：0]]></description>
+      <guid>https://theloadstar.com/mounting-container-shortages-creating-total-havoc/</guid>
+      <pubDate>Sun, 26 May 2024 15:09:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>适用于 MV-HEVC 的空间视频工具</title>
+      <link>https://blog.mikeswanson.com/spatial/</link>
+      <description><![CDATA[文章网址：https://blog.mikeswanson.com/spatial/
+评论网址：https://news.ycombinator.com/item?id=40482741
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.mikeswanson.com/spatial/</guid>
+      <pubDate>Sun, 26 May 2024 15:08:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gleam 并发指南 [视频]</title>
+      <link>https://www.youtube.com/watch?v=8rCgnKHUUVA</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=8rCgnKHUUVA
+评论网址：https://news.ycombinator.com/item?id=40482740
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=8rCgnKHUUVA</guid>
+      <pubDate>Sun, 26 May 2024 15:08:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国航班数据：最佳航空公司、最差机场、延误最多的航班</title>
+      <link>https://twitter.com/advaypal/status/1794746092791427225</link>
+      <description><![CDATA[文章网址：https://twitter.com/advaypal/status/1794746092791427225
+评论网址：https://news.ycombinator.com/item?id=40482738
+积分：1
+# 条评论：0]]></description>
+      <guid>https://twitter.com/advaypal/status/1794746092791427225</guid>
+      <pubDate>Sun, 26 May 2024 15:08:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>据 The Information 报道，埃隆·马斯克计划 xAI 超级计算机</title>
+      <link>https://www.cnbc.com/2024/05/25/elon-musk-plans-xai-supercomputer-the-information-reports.html</link>
+      <description><![CDATA[文章网址：https://www.cnbc.com/2024/05/25/elon-musk-plans-xai-supercomputer-the-information-reports.html
+评论网址：https://news.ycombinator.com/item?id=40482730
 积分：1
 评论数：0]]></description>
-      <guid>https://github.com/hellomenu/rimmel</guid>
-      <pubDate>Sun, 26 May 2024 12:17:40 GMT</pubDate>
+      <guid>https://www.cnbc.com/2024/05/25/elon-musk-plans-xai-supercomputer-the-information-reports.html</guid>
+      <pubDate>Sun, 26 May 2024 15:07:09 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：使用 DiscoGrad 大胆探索梯度下降从未去过的地方</title>
-      <link>https://github.com/DiscoGrad/DiscoGrad</link>
-      <description><![CDATA[尝试使用自动微分对分支程序进行梯度下降？或者将它们与神经网络结合起来进行端到端训练？那么您可能会对此感兴趣。我们开发了 DiscoGrad，这是一种通过 C++ 程序自动微分的工具，涉及依赖于输入的控制流（例如，“if (f(x) &lt; c) { ... }”，微分关于 x) 和随机性。我们最初的动机是在模拟中使用梯度下降，这通常严重依赖于这种离散分支。后者使得普通的自动差异几乎毫无用处，因为它只能说明程序所采用的单个路径。我们的工具提供了几个处理这种情况的后端，通过考虑替代分支来提供有用的下降方向以进行优化。除了模拟之外，这个问题还出现在许多其他地方，例如在深度学习中，当尝试将命令式程序与神经网络结合起来时。简而言之，DiscoGrad 将（基于 LLVM）源到源转换应用于您的 C++程序，添加一些对我们的头库的调用，然后处理梯度计算。它与类似工具/估计器的区别在于它是全自动的（不需要提出可微的问题公式/重新参数化），并且分支条件可以是程序输入的任何函数（不需要预先知道程序的分布是什么）条件如下）。我们目前是一个由两人组成的团队，作为研究项目的一部分致力于 DiscoGrad，因此不要期望看到生产级的代码质量，但我们确实希望它不仅仅是一次性的研究原型。我们已成功测试的用例包括通过梯度下降校准流行病或疏散场景的模拟模型，以及以端到端可训练的方式将模拟与神经网络相结合。我们希望您发现这有趣且有用，我们很高兴回答问题！
+      <title>虚无之中：虚拟现实和网络空间的先驱 (1990)</title>
+      <link>https://w2.eff.org/Misc/Publications/John_Perry_Barlow/HTML/being_in_nothingness.html</link>
+      <description><![CDATA[文章网址：https://w2.eff.org/Misc/Publications/John_Perry_Barlow/ HTML/being_in_nothingness.html
+评论网址：https://news.ycombinator.com/item?id=40482707
+积分：1
+# 条评论：0]]></description>
+      <guid>https://w2.eff.org/Misc/Publications/John_Perry_Barlow/HTML/being_in_nothingness.html</guid>
+      <pubDate>Sun, 26 May 2024 15:05:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>在阵亡将士纪念日，您会感谢某人的服务吗？</title>
+      <link>https://news.ycombinator.com/item?id=40482694</link>
+      <description><![CDATA[我一直对军队和兵役有些愤世嫉俗，但我总是真诚地说“谢谢你的服务”。我尊重其他人做出的牺牲。即使我批评军事工业联合体，即使我将其视为一种现代帝国主义，所有这些在个人层面上并不重要。现在，大多数人普遍看不起军人，这是煤矿里的金丝雀。我们不再尊重那些为了更大的利益而牺牲的人。即使我们知道军队有问题，我们仍然尊重人们为这一理想做出的牺牲，即使不完美，即使我们知道他们的牺牲有时可能弊大于利。我认为现在的问题不在于我们尊重军事较少，或者对军事帝国主义更加批评。我认为作为一个社会，西方、美国、整个发展中国家——我们不再相信有更大的利益。要么生活不可能变得更好，要么我们不相信任何理想主义的事情都是可能的。 （“我们曾经建造过东西”……还记得吗？）因此，我们不是寻求更大的社会，为自己谋取更大的利益，而是寻求尽可能多地伤害我们的敌人。我们在意识形态上都成为了恐怖分子。恐怖分子不会感谢任何人的服务，他们说“荣耀属于我们的烈士。”
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40481578
+评论网址：https://news.ycombinator.com/item?id=40482694
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/DiscoGrad/DiscoGrad</guid>
-      <pubDate>Sun, 26 May 2024 12:14:19 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=40482694</guid>
+      <pubDate>Sun, 26 May 2024 15:03:04 GMT</pubDate>
     </item>
     <item>
-      <title>你死后，你的 Steam 游戏将陷入法律困境</title>
-      <link>https://arstechnica.com/gaming/2024/05/after-you-die-your-steam-games-will-be-stuck-in-legal-limbo/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/gaming/2024/05/after-you-die-your-steam-games-will-be-stuck-in-legal-limbo/
-评论网址：https://news.ycombinator.com/item?id=40481569
+      <title>Ws-low-level：基于 Promise 的 WebSocket 库</title>
+      <link>https://www.npmjs.com/package/ws-low-level</link>
+      <description><![CDATA[文章网址：https://www.npmjs.com/package/ws-low-level
+评论网址：https://news.ycombinator.com/item?id=40482675
 积分：1
 # 条评论：0]]></description>
-      <guid>https://arstechnica.com/gaming/2024/05/after-you-die-your-steam-games-will-be-stuck-in-legal-limbo/</guid>
-      <pubDate>Sun, 26 May 2024 12:12:36 GMT</pubDate>
+      <guid>https://www.npmjs.com/package/ws-low-level</guid>
+      <pubDate>Sun, 26 May 2024 14:59:59 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Hmpl – 轻松使用服务器端 HTML</title>
-      <link>https://hmpljs.github.io/</link>
-      <description><![CDATA[文章网址：https://hmpljs.github.io/
-评论网址：https://news.ycombinator.com/item?id=40481567
+      <title>随着加密货币涌入华盛顿，国会寻求更温和的监管</title>
+      <link>https://www.washingtonpost.com/business/2024/05/25/crypto-lobbying-politics-washington/</link>
+      <description><![CDATA[文章网址：https://www.washingtonpost.com/business /2024/05/25/加密货币游说政治华盛顿/
+评论网址：https://news.ycombinator.com/item?id=40482671
 积分：1
 # 条评论：0]]></description>
-      <guid>https://hmpljs.github.io/</guid>
-      <pubDate>Sun, 26 May 2024 12:12:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Platypush 1.0 – 通用、事件驱动的自动化代码平台</title>
-      <link>https://git.platypush.tech/platypush/platypush</link>
-      <description><![CDATA[文章网址：https://git.platypush.tech/platypush/platypush
-评论网址：https://news.ycombinator.com/item?id=40481563
-积分：1
-# 条评论：0]]></description>
-      <guid>https://git.platypush.tech/platypush/platypush</guid>
-      <pubDate>Sun, 26 May 2024 12:11:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：为什么有些 VC 会让他们觉得推销这么困难？</title>
-      <link>https://news.ycombinator.com/item?id=40481559</link>
-      <description><![CDATA[有些风险投资公司不提供任何联系他们进行推介的方式。例如，BlueYard [1]，其网站上有精心设计的动画，但除了 legal@... 电子邮件地址之外无法联系他们。我不想特意点名，这只是这种现象的一个例子，还有很多其他的例子。这是因为他们的资金已经耗尽，无论如何也无法投资新的初创公司吗？或者他们希望您在 Linkedin 上找到他们的普通合伙人并直接向他们推销？[1] https://www.blueyard.com/
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40481559
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=40481559</guid>
-      <pubDate>Sun, 26 May 2024 12:10:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>推动 DOS 怀旧的创造力（2018）</title>
-      <link>https://tedium.co/2018/07/17/dos-nostalgia-squirrel-monkey-interview/</link>
-      <description><![CDATA[文章网址：https://tedium.co/2018/07/17 /dos-怀旧-松鼠猴子-访谈/
-评论网址：https://news.ycombinator.com/item?id=40481546
-积分：1
-# 条评论：0]]></description>
-      <guid>https://tedium.co/2018/07/17/dos-nostalgia-squirrel-monkey-interview/</guid>
-      <pubDate>Sun, 26 May 2024 12:08:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>可让你禁用 Defender 的 Windows API</title>
-      <link>https://infosec.exchange/@bontchev/112494759440985111</link>
-      <description><![CDATA[文章网址：https://infosec.exchange/@bontchev/112494759440985111
-评论网址：https://news.ycombinator.com/item?id=40481543
-积分：1
-# 条评论：0]]></description>
-      <guid>https://infosec.exchange/@bontchev/112494759440985111</guid>
-      <pubDate>Sun, 26 May 2024 12:08:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>一分钟内为笔记本电脑充满电，10 分钟内为电动汽车充满电？超级电容器可以帮到你</title>
-      <link>https://www.colorado.edu/chbe/2024/05/23/charge-your-laptop-minute-or-your-ev-10-supercapacitors-can-help-new-research-offers</link>
-      <description><![CDATA[文章网址：https://www.colorado.edu/chbe/2024/05/23/charge-your-laptop-minute-or-your-ev-10-supercapacitors-can-help-new-研究提议
-评论网址：https://news.ycombinator.com/item?id=40481539
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.colorado.edu/chbe/2024/05/23/charge-your-laptop-minute-or-your-ev-10-supercapacitors-can-help-new-research-offers</guid>
-      <pubDate>Sun, 26 May 2024 12:07:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>对于大脑来说，阅读计算机代码与阅读语言不同</title>
-      <link>https://news.mit.edu/2020/brain-reading-computer-code-1215</link>
-      <description><![CDATA[文章网址：https://news.mit.edu/2020/brain-reading-计算机代码-1215
-评论网址：https://news.ycombinator.com/item?id=40481536
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.mit.edu/2020/brain-reading-computer-code-1215</guid>
-      <pubDate>Sun, 26 May 2024 12:07:04 GMT</pubDate>
+      <guid>https://www.washingtonpost.com/business/2024/05/25/crypto-lobbying-politics-washington/</guid>
+      <pubDate>Sun, 26 May 2024 14:59:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
