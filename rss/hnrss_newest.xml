@@ -4,107 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 26 May 2024 09:16:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2024 12:25:28 GMT</lastBuildDate>
     <item>
-      <title>Sat问题变成了数学悖论，每个人都答错了</title>
-      <link>https://academichelp.net/blog/exam-preparation-tips/sat-question-becomes-a-mathematical-paradox-and-everyone-gets-it-wrong.html</link>
-      <description><![CDATA[文章网址：https://academichelp.net/blog/exam-preparation-tips/sat-question-becomes-a-mathematical-paradox-and-everyone-gets-it-wrong.html
-评论网址：https://news.ycombinator.com/item?id=40480703
+      <title>Rimmel.js – 用于可观察流的功能反应式 UI 库</title>
+      <link>https://github.com/hellomenu/rimmel</link>
+      <description><![CDATA[文章网址：https://github.com/hellomenu/rimmel
+评论网址：https://news.ycombinator.com/item?id=40481597
 积分：1
-# 条评论：0]]></description>
-      <guid>https://academichelp.net/blog/exam-preparation-tips/sat-question-becomes-a-mathematical-paradox-and-everyone-gets-it-wrong.html</guid>
-      <pubDate>Sun, 26 May 2024 09:08:29 GMT</pubDate>
+评论数：0]]></description>
+      <guid>https://github.com/hellomenu/rimmel</guid>
+      <pubDate>Sun, 26 May 2024 12:17:40 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：科技初创公司纽约生态系统夏季派对</title>
-      <link>https://news.ycombinator.com/item?id=40480669</link>
-      <description><![CDATA[多年来，我为纽约市科技初创企业生态系统中活跃的每个人举办了每月一次的聚会。去年我暂停了聚会，但现在我要在 6 月 22 日重新开始聚会。如果您有兴趣，请与我联系：Lawrence Krubner手机：434 825 7694电子邮件：lawrence@krubner.com此处有一些照片和详细信息：https://x.com/krubner/status/1788453935407071382
+      <title>Show HN：使用 DiscoGrad 大胆探索梯度下降从未去过的地方</title>
+      <link>https://github.com/DiscoGrad/DiscoGrad</link>
+      <description><![CDATA[尝试使用自动微分对分支程序进行梯度下降？或者将它们与神经网络结合起来进行端到端训练？那么您可能会对此感兴趣。我们开发了 DiscoGrad，这是一种通过 C++ 程序自动微分的工具，涉及依赖于输入的控制流（例如，“if (f(x) &lt; c) { ... }”，微分关于 x) 和随机性。我们最初的动机是在模拟中使用梯度下降，这通常严重依赖于这种离散分支。后者使得普通的自动差异几乎毫无用处，因为它只能说明程序所采用的单个路径。我们的工具提供了几个处理这种情况的后端，通过考虑替代分支来提供有用的下降方向以进行优化。除了模拟之外，这个问题还出现在许多其他地方，例如在深度学习中，当尝试将命令式程序与神经网络结合起来时。简而言之，DiscoGrad 将（基于 LLVM）源到源转换应用于您的 C++程序，添加一些对我们的头库的调用，然后处理梯度计算。它与类似工具/估计器的区别在于它是全自动的（不需要提出可微的问题公式/重新参数化），并且分支条件可以是程序输入的任何函数（不需要预先知道程序的分布是什么）条件如下）。我们目前是一个由两人组成的团队，作为研究项目的一部分致力于 DiscoGrad，因此不要期望看到生产级的代码质量，但我们确实希望它不仅仅是一次性的研究原型。我们已成功测试的用例包括通过梯度下降校准流行病或疏散场景的模拟模型，以及以端到端可训练的方式将模拟与神经网络相结合。我们希望您发现这有趣且有用，我们很高兴回答问题！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=40480669
+评论网址：https://news.ycombinator.com/item?id=40481578
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=40480669</guid>
-      <pubDate>Sun, 26 May 2024 08:57:52 GMT</pubDate>
+      <guid>https://github.com/DiscoGrad/DiscoGrad</guid>
+      <pubDate>Sun, 26 May 2024 12:14:19 GMT</pubDate>
     </item>
     <item>
-      <title>谷歌首席执行官表示，对于人工智能提供错误信息没有解决方案</title>
-      <link>https://futurism.com/the-byte/ceo-google-ai-hallucinations</link>
-      <description><![CDATA[文章网址：https://futurism.com/the-byte/ceo-google-ai-hallucinations
-评论网址：https://news.ycombinator.com/item?id=40480663
-积分：1
-评论数：1]]></description>
-      <guid>https://futurism.com/the-byte/ceo-google-ai-hallucinations</guid>
-      <pubDate>Sun, 26 May 2024 08:56:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>CRT 损坏和更换 – Wyse WY-520 终端 [视频]</title>
-      <link>https://www.youtube.com/watch?v=l_fI04oYr5Q</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=l_fI04oYr5Q
-评论网址：https://news.ycombinator.com/item?id=40480662
+      <title>你死后，你的 Steam 游戏将陷入法律困境</title>
+      <link>https://arstechnica.com/gaming/2024/05/after-you-die-your-steam-games-will-be-stuck-in-legal-limbo/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/gaming/2024/05/after-you-die-your-steam-games-will-be-stuck-in-legal-limbo/
+评论网址：https://news.ycombinator.com/item?id=40481569
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=l_fI04oYr5Q</guid>
-      <pubDate>Sun, 26 May 2024 08:55:55 GMT</pubDate>
+      <guid>https://arstechnica.com/gaming/2024/05/after-you-die-your-steam-games-will-be-stuck-in-legal-limbo/</guid>
+      <pubDate>Sun, 26 May 2024 12:12:36 GMT</pubDate>
     </item>
     <item>
-      <title>D'Agents（前身为 Agent Tcl）</title>
-      <link>https://katahdin.dartmouth.edu/~kotz/research//project/dagents/software/agent2.1/</link>
-      <description><![CDATA[文章网址：https://katahdin.dartmouth.edu/~科茨/研究//项目/dagents/software/agent2.1/
-评论网址：https://news.ycombinator.com/item?id=40480659
+      <title>Show HN：Hmpl – 轻松使用服务器端 HTML</title>
+      <link>https://hmpljs.github.io/</link>
+      <description><![CDATA[文章网址：https://hmpljs.github.io/
+评论网址：https://news.ycombinator.com/item?id=40481567
 积分：1
 # 条评论：0]]></description>
-      <guid>https://katahdin.dartmouth.edu/~kotz/research//project/dagents/software/agent2.1/</guid>
-      <pubDate>Sun, 26 May 2024 08:54:37 GMT</pubDate>
+      <guid>https://hmpljs.github.io/</guid>
+      <pubDate>Sun, 26 May 2024 12:12:02 GMT</pubDate>
     </item>
     <item>
-      <title>用户界面的意外暴政</title>
-      <link>https://uxdesign.cc/the-accidental-tyranny-of-user-interfaces-eef15dc555a0?gi=49947f93d38a</link>
-      <description><![CDATA[文章网址：https://uxdesign.cc/the-accidental-用户界面暴政-eef15dc555a0?gi=49947f93d38a
-评论网址：https://news.ycombinator.com/item?id=40480625
-积分：2
-# 条评论：0]]></description>
-      <guid>https://uxdesign.cc/the-accidental-tyranny-of-user-interfaces-eef15dc555a0?gi=49947f93d38a</guid>
-      <pubDate>Sun, 26 May 2024 08:47:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Studiogigs.co-音乐创作者市场</title>
-      <link>https://www.studiogigs.co</link>
-      <description><![CDATA[文章网址：https://www.studiogigs.co
-评论网址：https://news.ycombinator.com/item?id=40480597
+      <title>Platypush 1.0 – 通用、事件驱动的自动化代码平台</title>
+      <link>https://git.platypush.tech/platypush/platypush</link>
+      <description><![CDATA[文章网址：https://git.platypush.tech/platypush/platypush
+评论网址：https://news.ycombinator.com/item?id=40481563
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.studiogigs.co</guid>
-      <pubDate>Sun, 26 May 2024 08:39:43 GMT</pubDate>
+      <guid>https://git.platypush.tech/platypush/platypush</guid>
+      <pubDate>Sun, 26 May 2024 12:11:28 GMT</pubDate>
     </item>
     <item>
-      <title>2024 年程序员最严重的问题 [视频]</title>
-      <link>https://www.youtube.com/watch?v=hKqqU1J-WXk</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=hKqqU1J-WXk
-评论网址：https://news.ycombinator.com/item?id=40480580
+      <title>问 HN：为什么有些 VC 会让他们觉得推销这么困难？</title>
+      <link>https://news.ycombinator.com/item?id=40481559</link>
+      <description><![CDATA[有些风险投资公司不提供任何联系他们进行推介的方式。例如，BlueYard [1]，其网站上有精心设计的动画，但除了 legal@... 电子邮件地址之外无法联系他们。我不想特意点名，这只是这种现象的一个例子，还有很多其他的例子。这是因为他们的资金已经耗尽，无论如何也无法投资新的初创公司吗？或者他们希望您在 Linkedin 上找到他们的普通合伙人并直接向他们推销？[1] https://www.blueyard.com/
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=40481559
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=hKqqU1J-WXk</guid>
-      <pubDate>Sun, 26 May 2024 08:35:02 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=40481559</guid>
+      <pubDate>Sun, 26 May 2024 12:10:40 GMT</pubDate>
     </item>
     <item>
-      <title>Apify 遇见 AI：使用 Apify 打造 AI，实现强大的 NL 网页抓取</title>
-      <link>https://medium.com/@stefanopochet/ai-meets-web-scraping-how-webtap-leverages-apifys-infrastructure-to-accelerate-its-go-to-market-3d8551bdbf35</link>
-      <description><![CDATA[文章网址：https://medium.com/@stefanopochet/ai-meets-web-scraping-how-webtap-leverages-apifys-infrastruct-to-accelerate-its-go-to-market-3d8551bdbf35
-评论网址：https://news.ycombinator.com/item?id=40480564
+      <title>推动 DOS 怀旧的创造力（2018）</title>
+      <link>https://tedium.co/2018/07/17/dos-nostalgia-squirrel-monkey-interview/</link>
+      <description><![CDATA[文章网址：https://tedium.co/2018/07/17 /dos-怀旧-松鼠猴子-访谈/
+评论网址：https://news.ycombinator.com/item?id=40481546
 积分：1
 # 条评论：0]]></description>
-      <guid>https://medium.com/@stefanopochet/ai-meets-web-scraping-how-webtap-leverages-apifys-infrastructure-to-accelerate-its-go-to-market-3d8551bdbf35</guid>
-      <pubDate>Sun, 26 May 2024 08:32:44 GMT</pubDate>
+      <guid>https://tedium.co/2018/07/17/dos-nostalgia-squirrel-monkey-interview/</guid>
+      <pubDate>Sun, 26 May 2024 12:08:38 GMT</pubDate>
     </item>
     <item>
-      <title>英国通过法律，从 2026 年起允许自动驾驶汽车</title>
-      <link>https://www.gov.uk/government/news/self-driving-vehicles-set-to-be-on-roads-by-2026-as-automated-vehicles-act-becomes-law</link>
-      <description><![CDATA[文章网址：https://www.gov.uk/government/news/self-driven-vehicles-set-to-be-on-roads-by-2026-as-automated-vehicles-act-成为法律
-评论网址：https://news.ycombinator.com/item?id=40480556
-积分：3
+      <title>可让你禁用 Defender 的 Windows API</title>
+      <link>https://infosec.exchange/@bontchev/112494759440985111</link>
+      <description><![CDATA[文章网址：https://infosec.exchange/@bontchev/112494759440985111
+评论网址：https://news.ycombinator.com/item?id=40481543
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.gov.uk/government/news/self-driving-vehicles-set-to-be-on-roads-by-2026-as-automated-vehicles-act-becomes-law</guid>
-      <pubDate>Sun, 26 May 2024 08:30:59 GMT</pubDate>
+      <guid>https://infosec.exchange/@bontchev/112494759440985111</guid>
+      <pubDate>Sun, 26 May 2024 12:08:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>一分钟内为笔记本电脑充满电，10 分钟内为电动汽车充满电？超级电容器可以帮到你</title>
+      <link>https://www.colorado.edu/chbe/2024/05/23/charge-your-laptop-minute-or-your-ev-10-supercapacitors-can-help-new-research-offers</link>
+      <description><![CDATA[文章网址：https://www.colorado.edu/chbe/2024/05/23/charge-your-laptop-minute-or-your-ev-10-supercapacitors-can-help-new-研究提议
+评论网址：https://news.ycombinator.com/item?id=40481539
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.colorado.edu/chbe/2024/05/23/charge-your-laptop-minute-or-your-ev-10-supercapacitors-can-help-new-research-offers</guid>
+      <pubDate>Sun, 26 May 2024 12:07:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>对于大脑来说，阅读计算机代码与阅读语言不同</title>
+      <link>https://news.mit.edu/2020/brain-reading-computer-code-1215</link>
+      <description><![CDATA[文章网址：https://news.mit.edu/2020/brain-reading-计算机代码-1215
+评论网址：https://news.ycombinator.com/item?id=40481536
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.mit.edu/2020/brain-reading-computer-code-1215</guid>
+      <pubDate>Sun, 26 May 2024 12:07:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
