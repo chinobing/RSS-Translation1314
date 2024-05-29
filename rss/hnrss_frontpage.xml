@@ -4,24 +4,64 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 29 May 2024 03:17:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2024 06:21:15 GMT</lastBuildDate>
     <item>
-      <title>科学家遭遇骚扰的现象激增——机构不知道该如何提供帮助</title>
-      <link>https://www.nature.com/articles/d41586-024-01468-9</link>
-      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-024-01468-9
-评论网址：https://news.ycombinator.com/item?id=40507478
-积分：21
-评论数：20]]></description>
-      <guid>https://www.nature.com/articles/d41586-024-01468-9</guid>
-      <pubDate>Wed, 29 May 2024 01:47:49 GMT</pubDate>
+      <title>我们从一年的法学硕士建设经历中学到了什么</title>
+      <link>https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/</link>
+      <description><![CDATA[文章网址：https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/
+评论网址：https://news.ycombinator.com/item?id=40508390
+积分：50
+评论数：15]]></description>
+      <guid>https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/</guid>
+      <pubDate>Wed, 29 May 2024 04:14:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能耳机让你通过看人群来聆听一个人的声音</title>
+      <link>https://www.washington.edu/news/2024/05/23/ai-headphones-noise-cancelling-target-speech-hearing/</link>
+      <description><![CDATA[文章网址：https://www.washington.edu/news/2024/05/23/ai-headphones-noise-cancelling-target-speech-hearing/
+评论网址：https://news.ycombinator.com/item?id=40508278
+积分：153
+评论数：48]]></description>
+      <guid>https://www.washington.edu/news/2024/05/23/ai-headphones-noise-cancelling-target-speech-hearing/</guid>
+      <pubDate>Wed, 29 May 2024 03:52:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>西澳大利亚土著人设计的应用程序保留了语言和文化</title>
+      <link>https://www.abc.net.au/news/2024-05-27/wa-indigenous-app-linking-science-and-culture/103869762</link>
+      <description><![CDATA[文章网址：https://www.abc.net.au/news/2024-05-27/wa-indigenous-app-linking-science-and-culture/103869762
+评论网址：https://news.ycombinator.com/item?id=40508241
+积分：15
+评论数：7]]></description>
+      <guid>https://www.abc.net.au/news/2024-05-27/wa-indigenous-app-linking-science-and-culture/103869762</guid>
+      <pubDate>Wed, 29 May 2024 03:45:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在 (Apache) NuttX 中使用 I2C 设备：添加对 I2C 设备的支持</title>
+      <link>https://www.EmbeddedRelated.com/showarticle/1668.php</link>
+      <description><![CDATA[文章网址：https://www.EmbeddedRelated.com/showarticle/1668.php
+评论网址：https://news.ycombinator.com/item?id=40507391
+积分：11
+评论数：0]]></description>
+      <guid>https://www.EmbeddedRelated.com/showarticle/1668.php</guid>
+      <pubDate>Wed, 29 May 2024 01:36:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Termux、QEMU、Alpine Linux 在未 root 的智能手机上将 USB 磁盘作为 /dev/sda</title>
+      <link>https://gist.github.com/NoteAfterNote/7a197233de3d60ff1e23ca90ed2f595a</link>
+      <description><![CDATA[文章网址：https://gist.github.com/NoteAfterNote/7a197233de3d60ff1e23ca90ed2f595a
+评论网址：https://news.ycombinator.com/item?id=40507319
+积分：27
+评论数：4]]></description>
+      <guid>https://gist.github.com/NoteAfterNote/7a197233de3d60ff1e23ca90ed2f595a</guid>
+      <pubDate>Wed, 29 May 2024 01:27:09 GMT</pubDate>
     </item>
     <item>
       <title>ChatTTS-最佳开源TTS模型</title>
       <link>https://github.com/2noise/ChatTTS</link>
       <description><![CDATA[文章网址：https://github.com/2noise/ChatTTS
 评论网址：https://news.ycombinator.com/item?id=40507039
-积分：4
-评论数：5]]></description>
+积分：64
+评论数：19]]></description>
       <guid>https://github.com/2noise/ChatTTS</guid>
       <pubDate>Wed, 29 May 2024 00:37:58 GMT</pubDate>
     </item>
@@ -31,8 +71,8 @@
       <description><![CDATA[Savvy 的 CLI 允许您从终端创建、共享和运行运行手册。Savvy(getsavvy.so) 与现代 LLM 原生集成，将创建出色运行手册的时间从几分钟和几小时缩短到几秒钟。Savvy 支持完全使用 AI（savvy ask）或人工参与（savvy record）创建运行手册。Savvy Ask：使用自然语言生成整个运行手册或单个命令。Savvy Record：这会创建一个新的子 shell，该子 shell 会在本地记录命令之前自动扩展所有别名。然后，这些命令将发送到 LLM，后者会生成运行手册的第一个版本。Savvy Record History：此命令允许您返回并从最近的 shell 历史记录中选择命令。无需重复已经完成的工作。运行手册默认是私有的，但您可以使用链接与您的团队共享（目前）或将其导出到 markdown。Savvy Explain：Savvy explain 会在您说 RTFM 之前为任何命令或错误消息生成简单易懂的解释！Savvy Run：使用 `savvy run` 直接从您的终端搜索和运行运行手册。选择运行手册后，Savvy 会自动填写要执行的下一个命令。只需按 Enter 即可运行它。Savvy 的 README 包含我刚才提到的所有内容的更多详细信息和演示。Savvy 是免费的，任何人都可以立即试用。通过运行安装 Savvy：curl -fsSL https://install.getsavvy.so | sh如果您尝试 Savvy，我很乐意听取您对产品的反馈。
 
 评论网址：https://news.ycombinator.com/item?id=40506913
-积分：39
-评论数：14]]></description>
+积分：61
+评论数：23]]></description>
       <guid>https://github.com/getsavvyinc/savvy-cli</guid>
       <pubDate>Wed, 29 May 2024 00:15:58 GMT</pubDate>
     </item>
@@ -41,8 +81,8 @@
       <link>https://www.businessinsider.com/openai-board-member-details-sam-altman-lied-allegation-ousted-2024-5</link>
       <description><![CDATA[文章网址：https://www.businessinsider.com/openai-board-member-details-sam-altman-lied-allegation-ousted-2024-5
 评论网址：https://news.ycombinator.com/item?id=40506582
-积分：343
-评论数：217]]></description>
+积分：521
+评论数：383]]></description>
       <guid>https://www.businessinsider.com/openai-board-member-details-sam-altman-lied-allegation-ousted-2024-5</guid>
       <pubDate>Tue, 28 May 2024 23:13:33 GMT</pubDate>
     </item>
@@ -51,60 +91,20 @@
       <link>https://mail.openjdk.org/pipermail/jdk-dev/2024-May/009028.html</link>
       <description><![CDATA[文章网址：https://mail.openjdk.org/pipermail/jdk-dev/2024-May/009028.html
 评论网址：https://news.ycombinator.com/item?id=40506340
-积分：28
-评论数：8]]></description>
+积分：50
+评论数：14]]></description>
       <guid>https://mail.openjdk.org/pipermail/jdk-dev/2024-May/009028.html</guid>
       <pubDate>Tue, 28 May 2024 22:36:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>电磁波和天线（2016）</title>
-      <link>https://www.ece.rutgers.edu/~orfanidi/ewa/</link>
-      <description><![CDATA[文章网址：https://www.ece.rutgers.edu/~orfanidi/ewa/
-评论网址：https://news.ycombinator.com/item?id=40505586
-积分：67
-评论数：6]]></description>
-      <guid>https://www.ece.rutgers.edu/~orfanidi/ewa/</guid>
-      <pubDate>Tue, 28 May 2024 21:02:50 GMT</pubDate>
     </item>
     <item>
       <title>Shadama：适合所有人的粒子模拟编程环境</title>
       <link>https://tinlizzie.org/~ohshima/shadama2/live2017/</link>
       <description><![CDATA[文章网址：https://tinlizzie.org/~ohshima/shadama2/live2017/
 评论网址：https://news.ycombinator.com/item?id=40505213
-积分：75
-评论数：7]]></description>
+积分：98
+评论数：9]]></description>
       <guid>https://tinlizzie.org/~ohshima/shadama2/live2017/</guid>
       <pubDate>Tue, 28 May 2024 20:25:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>消除 N+1：Go 中的两阶段数据加载和渲染模式</title>
-      <link>https://brandur.org/two-phase-render</link>
-      <description><![CDATA[文章网址：https://brandur.org/two-phase-render
-评论网址：https://news.ycombinator.com/item?id=40505197
-积分：49
-评论数：29]]></description>
-      <guid>https://brandur.org/two-phase-render</guid>
-      <pubDate>Tue, 28 May 2024 20:23:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>用 Rust 编写 NVMe 驱动程序 [pdf]</title>
-      <link>https://db.in.tum.de/~ellmann/theses/finished/24/pirhonen_writing_an_nvme_driver_in_rust.pdf</link>
-      <description><![CDATA[文章网址：https://db.in.tum.de/~ellmann/theses/finished/24/pirhonen_writing_an_nvme_driver_in_rust.pdf
-评论网址：https://news.ycombinator.com/item?id=40505167
-积分：44
-评论数：2]]></description>
-      <guid>https://db.in.tum.de/~ellmann/theses/finished/24/pirhonen_writing_an_nvme_driver_in_rust.pdf</guid>
-      <pubDate>Tue, 28 May 2024 20:21:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Llama 3-V：与 GPT4-V 匹配，但尺寸小 100 倍，售价 500 美元</title>
-      <link>https://aksh-garg.medium.com/llama-3v-building-an-open-source-gpt-4v-competitor-in-under-500-7dd8f1f6c9ee</link>
-      <description><![CDATA[文章网址：https://aksh-garg.medium.com/llama-3v-building-an-open-source-gpt-4v-competitor-in-under-500-7dd8f1f6c9ee
-评论网址：https://news.ycombinator.com/item?id=40505099
-积分：233
-评论数：40]]></description>
-      <guid>https://aksh-garg.medium.com/llama-3v-building-an-open-source-gpt-4v-competitor-in-under-500-7dd8f1f6c9ee</guid>
-      <pubDate>Tue, 28 May 2024 20:16:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
