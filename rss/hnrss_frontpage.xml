@@ -4,56 +4,54 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 30 May 2024 06:20:42 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2024 09:16:54 GMT</lastBuildDate>
+    <item>
+      <title>有意义的废话：我如何生成句子</title>
+      <link>https://www.amygoodchild.com/blog/meaningful-nonsense-sentences</link>
+      <description><![CDATA[文章网址：https://www.amygoodchild.com/blog/meaningful-nonsense-sentences
+评论网址：https://news.ycombinator.com/item?id=40521076
+积分：34
+评论数：13]]></description>
+      <guid>https://www.amygoodchild.com/blog/meaningful-nonsense-sentences</guid>
+      <pubDate>Thu, 30 May 2024 07:26:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>演员如何记住台词</title>
+      <link>https://thereader.mitpress.mit.edu/how-actors-remember-their-lines/</link>
+      <description><![CDATA[文章网址：https://thereader.mitpress.mit.edu/how-actors-remember-their-lines/
+评论网址：https://news.ycombinator.com/item?id=40520334
+积分：110
+评论数：25]]></description>
+      <guid>https://thereader.mitpress.mit.edu/how-actors-remember-their-lines/</guid>
+      <pubDate>Thu, 30 May 2024 05:21:46 GMT</pubDate>
+    </item>
     <item>
       <title>SVG Gobbler – 查找、优化、编辑和导出 SVG</title>
       <link>https://github.com/rossmoody/svg-gobbler</link>
       <description><![CDATA[文章网址：https://github.com/rossmoody/svg-gobbler
 评论网址：https://news.ycombinator.com/item?id=40520277
-积分：4
-评论数：0]]></description>
+积分：58
+评论数：6]]></description>
       <guid>https://github.com/rossmoody/svg-gobbler</guid>
       <pubDate>Thu, 30 May 2024 05:09:35 GMT</pubDate>
     </item>
     <item>
-      <title>Ticketmaster 遭黑客攻击：5 亿用户数据遭勒索</title>
-      <link>https://www.ticketnews.com/2024/05/ticketmaster-hack-data-of-half-a-billion-users-up-for-ransom/</link>
-      <description><![CDATA[文章网址：https://www.ticketnews.com/2024/05/ticketmaster-hack-data-of-half-a-billion-users-up-for-ransom/
-评论网址：https://news.ycombinator.com/item?id=40520113
-积分：24
-评论数：2]]></description>
-      <guid>https://www.ticketnews.com/2024/05/ticketmaster-hack-data-of-half-a-billion-users-up-for-ransom/</guid>
-      <pubDate>Thu, 30 May 2024 04:36:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google Console 封闭测试要求太糟糕了</title>
-      <link>https://news.ycombinator.com/item?id=40520051</link>
-      <description><![CDATA[我已经编码了 2-3 年，并决定制作我的第一个移动应用程序，只是一些小而简单的应用程序，以便体验一下。我想将其发布到 Play 商店，获得曝光并分享我的作品。我支付了 25 美元的费用，提交了我的护照和银行对账单进行身份验证，并开始了发布我的应用的流程。嗯，这真是一次糟糕的体验。它根本不方便用户使用，并且要求 20 名测试人员选择参加 14 天的封闭测试几乎没有意义。我花了几天时间给人们发消息，进行测试交换，总的来说是在浪费我的时间。在搜索可以招募测试人员的地方时，我看到了许多“服务”，您只需付费即可“测试”您的应用。整个事情真的很令人反感，这有什么意义呢？接下来我想制作一个 Flutter 应用程序，更详细、更复杂的东西。但是我害怕不得不经历这个“封闭测试”的过程，因为我花了几个月的时间制作一个项目，基本上是向测试人员发送论坛和聊天组垃圾邮件。我为访问商店付费，我提交了我的身份证件，这种任意的障碍是如此令人沮丧，而且再次让我真的不想制作移动应用程序。我知道我在这里是向虚空大喊大叫，我想我只是想发泄一下。
-
-评论网址：https://news.ycombinator.com/item?id=40520051
-积分：32
-评论数：27]]></description>
-      <guid>https://news.ycombinator.com/item?id=40520051</guid>
-      <pubDate>Thu, 30 May 2024 04:24:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：资源索引 – FOSS Git 存储库和 NPM 包索引</title>
-      <link>https://res-index.hkit.cc/</link>
-      <description><![CDATA[资源索引（res-index）是可搜索的开发资源索引，包括 github repo 和 npm 包。为什么还要另一个索引？简而言之，google 和 github 上的搜索功能不令人满意。该项目旨在构建一个更好的替代方案，并潜在地改善谷歌的搜索结果。我面临的实际问题是什么？有时我想搜索一个 npm 包，但即使我添加了“npm”、“github”，甚至是确切的作者用户名和包名称的组合，谷歌也无法返回该结果。同样，如果您无法记住作者的用户名，有时在 github 上按名称搜索不流行的包也是毫无希望的。有时谷歌无法显示相应的 npm 页面，而是显示在“socket.dev”或“snyk.io”上。在后续搜索中粘贴精确的 npm url 似乎无法有效地提示谷歌索引页面。该项目旨在积极索引一些 github 存储库和 npm 包，以实现更具包容性的搜索。此外，该项目尝试进行 SEO 友好。希望它能随着时间的推移改善谷歌的搜索结果。源代码：https://github.com/beenotung/res-index
-
-评论网址：https://news.ycombinator.com/item?id=40519749
-积分：7
-评论数：1]]></description>
-      <guid>https://res-index.hkit.cc/</guid>
-      <pubDate>Thu, 30 May 2024 03:18:40 GMT</pubDate>
+      <title>一名七年级学生找到了泰勒斯定理的完美证明</title>
+      <link>https://www.cut-the-knot.org/pythagoras/ThalesTheorem.shtml</link>
+      <description><![CDATA[文章网址：https://www.cut-the-knot.org/pythagoras/ThalesTheorem.shtml
+评论网址：https://news.ycombinator.com/item?id=40520275
+积分：33
+评论数：17]]></description>
+      <guid>https://www.cut-the-knot.org/pythagoras/ThalesTheorem.shtml</guid>
+      <pubDate>Thu, 30 May 2024 05:09:04 GMT</pubDate>
     </item>
     <item>
       <title>FrankenPHP：现代 PHP 应用服务器</title>
       <link>https://frankenphp.dev/</link>
       <description><![CDATA[文章网址：https://frankenphp.dev/
 评论网址：https://news.ycombinator.com/item?id=40519722
-积分：109
-评论数：41]]></description>
+积分：205
+评论数：118]]></description>
       <guid>https://frankenphp.dev/</guid>
       <pubDate>Thu, 30 May 2024 03:10:32 GMT</pubDate>
     </item>
@@ -63,28 +61,18 @@
       <description><![CDATA[我最近发布了 Add to Sheets Chrome 扩展程序的初始版本。使用该扩展程序，您可以预定义要保存内容的目标工作表和列，然后右键单击即可从任何网页保存/添加内容。几乎就像 GSheets 的 Pinterest - 无需复制/粘贴，您可以右键单击/保存。
 
 评论网址：https://news.ycombinator.com/item?id=40519433
-积分：8
-评论数：2]]></description>
+积分：16
+评论数：4]]></description>
       <guid>https://www.addtosheets.com/</guid>
       <pubDate>Thu, 30 May 2024 02:11:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>“自行车就是我的一切”</title>
-      <link>https://kottke.org/24/05/my-bike-is-everything-to-me</link>
-      <description><![CDATA[文章网址：https://kottke.org/24/05/my-bike-is-everything-to-me
-评论网址：https://news.ycombinator.com/item?id=40518849
-积分：132
-评论数：62]]></description>
-      <guid>https://kottke.org/24/05/my-bike-is-everything-to-me</guid>
-      <pubDate>Thu, 30 May 2024 00:39:19 GMT</pubDate>
     </item>
     <item>
       <title>Kaplay – 一个可帮助您快速制作有趣游戏的 JavaScript 库</title>
       <link>https://kaplayjs.com/kaplayjs.com</link>
       <description><![CDATA[文章网址：https://kaplayjs.com/kaplayjs.com
 评论网址：https://news.ycombinator.com/item?id=40518203
-积分：43
-评论数：7]]></description>
+积分：60
+评论数：8]]></description>
       <guid>https://kaplayjs.com/kaplayjs.com</guid>
       <pubDate>Wed, 29 May 2024 23:10:24 GMT</pubDate>
     </item>
@@ -93,20 +81,30 @@
       <link>http://angg.twu.net/miniforth-article.html</link>
       <description><![CDATA[文章网址：http://angg.twu.net/miniforth-article.html
 评论网址：https://news.ycombinator.com/item?id=40517204
-积分：62
-评论数：13]]></description>
+积分：72
+评论数：17]]></description>
       <guid>http://angg.twu.net/miniforth-article.html</guid>
       <pubDate>Wed, 29 May 2024 21:25:48 GMT</pubDate>
     </item>
     <item>
-      <title>加尔各答的钢笔医院将为您修复损坏的钢笔</title>
+      <title>加尔各答的钢笔医院将为你修复损坏的钢笔</title>
       <link>https://www.vogue.in/content/pen-hospital-in-kolkata-will-nurse-your-broken-fountain-pen-back-to-health</link>
       <description><![CDATA[文章网址：https://www.vogue.in/content/pen-hospital-in-kolkata-will-nurse-your-broken-fountain-pen-back-to-health
 评论网址：https://news.ycombinator.com/item?id=40516983
-积分：104
-评论数：20]]></description>
+积分：128
+评论数：30]]></description>
       <guid>https://www.vogue.in/content/pen-hospital-in-kolkata-will-nurse-your-broken-fountain-pen-back-to-health</guid>
       <pubDate>Wed, 29 May 2024 21:01:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tesorio (YC S15) 正在招聘 – 100% 远程</title>
+      <link>https://www.tesorio.com/careers#job-openings</link>
+      <description><![CDATA[文章网址：https://www.tesorio.com/careers#job-openings
+评论网址：https://news.ycombinator.com/item?id=40516963
+积分：0
+评论数：0]]></description>
+      <guid>https://www.tesorio.com/careers#job-openings</guid>
+      <pubDate>Wed, 29 May 2024 21:00:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
