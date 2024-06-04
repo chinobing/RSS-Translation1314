@@ -4,29 +4,92 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 04 Jun 2024 15:16:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jun 2024 18:20:06 GMT</lastBuildDate>
+    <item>
+      <title>Charge Robotics (YC S21) 正在招聘 SWE 来制造太阳能建筑机器人</title>
+      <link>https://www.workatastartup.com/jobs/51266</link>
+      <description><![CDATA[文章网址：https://www.workatastartup.com/jobs/51266
+评论网址：https://news.ycombinator.com/item?id=40577315
+积分：0
+评论数：0]]></description>
+      <guid>https://www.workatastartup.com/jobs/51266</guid>
+      <pubDate>Tue, 04 Jun 2024 18:10:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>不懂物理？没问题。人工智能天气预报已取得长足进步</title>
+      <link>https://arstechnica.com/ai/2024/06/as-a-potentially-historic-hurricane-season-looms-can-ai-forecast-models-help/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/ai/2024/06/as-a-potentially-historic-hurricane-season-looms-can-ai-forecast-models-help/
+评论网址：https://news.ycombinator.com/item?id=40576804
+积分：23
+评论数：6]]></description>
+      <guid>https://arstechnica.com/ai/2024/06/as-a-potentially-historic-hurricane-season-looms-can-ai-forecast-models-help/</guid>
+      <pubDate>Tue, 04 Jun 2024 17:15:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>电子元件为何会有如此奇怪的值？（2021）</title>
+      <link>https://digilent.com/blog/why-do-electronic-components-have-such-odd-values/</link>
+      <description><![CDATA[文章网址：https://digilent.com/blog/why-do-electronic-components-have-such-odd-values/
+评论网址：https://news.ycombinator.com/item?id=40576132
+积分：61
+评论数：18]]></description>
+      <guid>https://digilent.com/blog/why-do-electronic-components-have-such-odd-values/</guid>
+      <pubDate>Tue, 04 Jun 2024 16:20:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Databricks 收购数据管理初创公司 Tabular</title>
+      <link>https://www.wsj.com/articles/databricks-to-buy-data-management-startup-tabular-in-bid-for-ai-clients-829e5bcf</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/articles/databricks-to-buy-data-management-startup-tabular-in-bid-for-ai-clients-829e5bcf
+评论网址：https://news.ycombinator.com/item?id=40576030
+积分：47
+评论数：3]]></description>
+      <guid>https://www.wsj.com/articles/databricks-to-buy-data-management-startup-tabular-in-bid-for-ai-clients-829e5bcf</guid>
+      <pubDate>Tue, 04 Jun 2024 16:09:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Shortbread App – 面向女性的人工智能浪漫漫画</title>
+      <link>https://www.shortbreadapp.com/</link>
+      <description><![CDATA[嗨，HN！我是 Fengjiao 和 Evan。我们正在开发 Shortbread App，这是网络漫画的 Netflix。我们以漫画的形式发布罪恶快感浪漫系列（比如《五十度灰》）。喜欢成熟版的 Webtoon。您可以在 https://create.shortbread.ai/viewer/3d25370c-a4eb-4df4-af8e-... https://create.shortbread.ai/viewer/866c2873-9962-4ebe-8f0c-... 上看到两集漫画，并通过 https://www.shortbreadapp.com/。应用中的所有漫画均由艺术家使用 Shortbread AI Comics Studio (https://shortbread.ai) 制作。这是一款功能强大的 Photoshop 类编辑器，借助 AI，漫画创作速度可提高 10 倍。该编辑器提供一致性和精细的艺术控制。详情见下文。6 个月前，我们首次在 HN 上发布文章，当时我们构建了一个漫画创作 AI (https://news.ycombinator.com/item?id=37792444)。我们很快就放弃了这个功能 - 这是一个有趣的实验，但它不能满足漫画艺术家的真正需求。 Shortbread Studio 现在通过增强创作者自然的工作方式（而不是取代他们）来改变这一现状。技术：一次性角色 LoRA：艺术家上传一张他们角色的照片。我们的后端使用即时工程和 ControlNet 管道从这张照片生成合成数据集。该数据集以各种角度、姿势和面部表情展示了角色，艺术家可以从中挑选出最好的。然后将其发送到我们的 LoRA 训练服务以创建 LoRA 模型。这大约需要 7 分钟。控制 -&gt; 重绘 -&gt; 优化工作流程：在现实生活中的绘画中，你画了，擦了，又画了。人类的创作过程是迭代的。
+在 Shortbread Studio 中，艺术家可以从文本提示、草图、网络图像或姿势参考开始，作为基础，创建一个初始面板并快速修改和重新生成，直到得到他们想要的。如果你花 5 秒钟，你就会得到一个不错的面板。只要花 10 分钟，您就可以突破极限并获得专业结果。内置后期处理：编辑器的功能包括液化、高级化、移除背景和外画以扩展图像。这允许艺术家在像素级别移除、添加或修改图像的某些部分，而无需手工绘制。我们将其与 Segment Anything (https://github.com/facebookresearch/segment-anything) 等分割模型相结合，以支持智能选择和编辑图像的某个部分。类似 Google 文档的协作：Studio 在浏览器中运行并支持评论和协作。LLM 支持的副本编辑器：漫画需要文本。人工智能代理会校对对话框、修正字体并识别语法错误。阅读我们的漫画：https://shortbreadapp.com/（免费下载 + 阅读，iOS + Android）以上所有内容均由包括我在内的 3 名工程师组成的团队制作。我会在本帖中回答任何问题！
+
+评论网址：https://news.ycombinator.com/item?id=40575538
+积分：10
+评论数：5]]></description>
+      <guid>https://www.shortbreadapp.com/</guid>
+      <pubDate>Tue, 04 Jun 2024 15:22:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>二氧化碳帮助病毒在空气中存活更长时间</title>
+      <link>https://www.statnews.com/2024/06/04/co2-ventilation-research-virus-airborne-life-haddrell-celebs/</link>
+      <description><![CDATA[文章网址：https://www.statnews.com/2024/06/04/co2-ventilation-research-virus-airborne-life-haddrell-celebs/
+评论网址：https://news.ycombinator.com/item?id=40575081
+积分：64
+评论数：43]]></description>
+      <guid>https://www.statnews.com/2024/06/04/co2-ventilation-research-virus-airborne-life-haddrell-celebs/</guid>
+      <pubDate>Tue, 04 Jun 2024 14:36:49 GMT</pubDate>
+    </item>
     <item>
       <title>3D 图形中的反向 Z（以及它为何如此出色）</title>
       <link>https://tomhultonharrop.com/mathematics/graphics/2023/08/06/reverse-z.html</link>
       <description><![CDATA[文章网址：https://tomhultonharrop.com/mathematics/graphics/2023/08/06/reverse-z.html
 评论网址：https://news.ycombinator.com/item?id=40574562
-积分：13
-评论数：7]]></description>
+积分：45
+评论数：26]]></description>
       <guid>https://tomhultonharrop.com/mathematics/graphics/2023/08/06/reverse-z.html</guid>
       <pubDate>Tue, 04 Jun 2024 13:42:03 GMT</pubDate>
     </item>
     <item>
-      <title>选举威尼斯总督：对 13 世纪议定书的分析 [pdf] (2007)</title>
-      <link>https://rangevoting.org/HPL-2007-28R1.pdf</link>
-      <description><![CDATA[文章网址：https://rangevoting.org/HPL-2007-28R1.pdf
-评论网址：https://news.ycombinator.com/item?id=40573814
-积分：31
-评论数：9]]></description>
-      <guid>https://rangevoting.org/HPL-2007-28R1.pdf</guid>
-      <pubDate>Tue, 04 Jun 2024 12:31:31 GMT</pubDate>
+      <title>显示 HN：PlayBooks – Jupyter Notebooks 风格的值班调查文档</title>
+      <link>https://github.com/DrDroidLab/PlayBooks</link>
+      <description><![CDATA[大家好，我是 Dipesh 和 Siddarth。我们正在构建 PlayBooks (https://github.com/DrDroidLab/playbooks)，这是一个开源工具，用于编写可执行笔记本以进行值班调查/补救，而不是使用 Google Docs 或 Wiki。这里有一个演示视频：https://www.youtube.com/watch?v=_e-wOtIm1gk，我们的文档在这里：https://docs.drdroid.io/docs/playbooks我们曾是 YC 的 W23 批次的一员，致力于开发支持动态日志架构的数据湖。最终，我们意识到这是一款正在寻找市场的产品，并决定停止开发它。在转型时，我们决定开发最初设计原型（甚至在 YC 之前）但未执行的产品。在我们之前的工作中，我们在印度的一家食品配送初创公司工作，后端和 DevOps 工程师以及一支小型技术团队的日常值班工作非常繁忙。通常，影响业务的问题（例如，过去 15 分钟内订单下降了 5% 以上）会上报给 Dipesh，因为他是首席开发人员，已经工作了一段时间，他总是有 4-5 种可能失败的假设。为了避免成为瓶颈，他过去常常在高峰流量期间每 5 分钟编写一次脚本来获取自定义指标和订单相关的应用程序日志。因此，如果报告了问题，工程师会先用所有常见的嫌疑人检查这些脚本的输出，然后再进行一般性探索。这就是开始使用 PlayBooks 的灵感。我们组建了一个平台，可以帮助任何开发人员灵活地创建脚本，而无需编写太多代码。我们的目标是：(1) 可以自动运行并发送更新；(2) 可以轻松与其他团队成员共享调查进度，以便每个人都了解正确的背景信息；(3) 所有操作都可以在没有值班或使用笔记本电脑的情况下完成。使用 PlayBooks，用户可以将步骤配置为其可观察性堆栈中的数据查询或操作。以下是我们目前支持的集成：- 在远程服务器上运行 bash 命令；- 从 AWS Cloudwatch 和 Azure Log Analytics 获取日志；- 从任何 PromQL 兼容数据库、AWS Cloudwatch、Datadog 和 New Relic 获取指标；- 查询 PostgreSQL、ClickHouse 或任何其他 JDBC 兼容数据库；- 编写自定义 API 调用；- 从 EKS/GKE 查询事件；- 添加 iFrame该平台不仅专注于运行任务，还以有意义的形式显示信息，并在笔记本格式的步骤旁边显示相关的图表/日志/文本输出。根据我们的一些用户的反馈，使用 PlayBooks 可以减少值班决策负担，因为来自多个工具的相关数据可以预先显示在一页中。以下是一些关键功能，我们相信这些功能将进一步为希望改善值班工程师开发体验的用户增加价值：- 自动根据警报显示 PlayBooks 并使用上述数据丰富警报；- AI 支持的解释层 - 连接 LLM 或 ML 模型以自动分析剧本中的数据；- 历史执行日志，以减轻创建事后分析/时间表和/或与同行共享信息的努力。如果这看起来对您的值班有用或将在您当前的工作区中，欢迎您试用我们的沙盒：https://sandbox.drdroid.io/。我们添加了一个默认剧本。只需单击剧本中的一个步骤，然后单击“运行”按钮即可查看剧本的实际操作。我们很高兴听到您对剧本的喜爱之处以及您认为可以改善团队值班开发人员体验的想法。请在此处发表您的评论 - 我们会热切地阅读并回复！
+
+评论网址：https://news.ycombinator.com/item?id=40573790
+积分：29
+评论数：4]]></description>
+      <guid>https://github.com/DrDroidLab/PlayBooks</guid>
+      <pubDate>Tue, 04 Jun 2024 12:29:16 GMT</pubDate>
     </item>
     <item>
-      <title>Langfuse (YC W23)：招聘产品工程师（现场、开源）</title>
+      <title>Langfuse (YC W23) 正在柏林招聘一名产品工程师（开源）</title>
       <link>https://github.com/langfuse/langfuse/blob/main/careers</link>
       <description><![CDATA[文章网址：https://github.com/langfuse/langfuse/blob/main/careers
 评论网址：https://news.ycombinator.com/item?id=40573535
@@ -40,70 +103,10 @@
       <link>https://scottarc.blog/2024/06/02/encryption-at-rest-whose-threat-model-is-it-anyway/</link>
       <description><![CDATA[文章网址：https://scottarc.blog/2024/06/02/encryption-at-rest-whose-threat-model-is-it-anyway/
 评论网址：https://news.ycombinator.com/item?id=40573211
-积分：121
-评论数：88]]></description>
+积分：166
+评论数：121]]></description>
       <guid>https://scottarc.blog/2024/06/02/encryption-at-rest-whose-threat-model-is-it-anyway/</guid>
       <pubDate>Tue, 04 Jun 2024 11:25:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>黎曼猜想的突破</title>
-      <link>https://mathstodon.xyz/@tao/112557248794707738</link>
-      <description><![CDATA[文章网址：https://mathstodon.xyz/@tao/112557248794707738
-评论网址：https://news.ycombinator.com/item?id=40571995
-积分：168
-评论数：30]]></description>
-      <guid>https://mathstodon.xyz/@tao/112557248794707738</guid>
-      <pubDate>Tue, 04 Jun 2024 08:25:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>不要害怕《微暗的火》</title>
-      <link>https://unherd.com/2024/05/dont-be-terrified-of-pale-fire/</link>
-      <description><![CDATA[文章网址：https://unherd.com/2024/05/dont-be-terrified-of-pale-fire/
-评论网址：https://news.ycombinator.com/item?id=40571402
-积分：19
-评论数：3]]></description>
-      <guid>https://unherd.com/2024/05/dont-be-terrified-of-pale-fire/</guid>
-      <pubDate>Tue, 04 Jun 2024 06:48:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>从命令行创建 Safari webarchive</title>
-      <link>https://alexwlchan.net/2024/creating-a-safari-webarchive/</link>
-      <description><![CDATA[文章网址：https://alexwlchan.net/2024/creating-a-safari-webarchive/
-评论网址：https://news.ycombinator.com/item?id=40571270
-积分：14
-评论数：0]]></description>
-      <guid>https://alexwlchan.net/2024/creating-a-safari-webarchive/</guid>
-      <pubDate>Tue, 04 Jun 2024 06:24:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Koheesio：Nike 基于 Python 的框架，用于构建高级数据管道</title>
-      <link>https://github.com/Nike-Inc/koheesio</link>
-      <description><![CDATA[文章网址：https://github.com/Nike-Inc/koheesio
-评论网址：https://news.ycombinator.com/item?id=40570892
-积分：139
-评论数：37]]></description>
-      <guid>https://github.com/Nike-Inc/koheesio</guid>
-      <pubDate>Tue, 04 Jun 2024 05:07:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>入侵数百万调制解调器并调查谁入侵了我的调制解调器</title>
-      <link>https://samcurry.net/hacking-millions-of-modems</link>
-      <description><![CDATA[文章网址：https://samcurry.net/hacking-millions-of-modems
-评论网址：https://news.ycombinator.com/item?id=40570781
-积分：661
-评论数：124]]></description>
-      <guid>https://samcurry.net/hacking-millions-of-modems</guid>
-      <pubDate>Tue, 04 Jun 2024 04:46:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>英特尔 Lion Cove 架构预览</title>
-      <link>https://chipsandcheese.com/2024/06/03/intels-lion-cove-architecture-preview/</link>
-      <description><![CDATA[文章网址：https://chipsandcheese.com/2024/06/03/intels-lion-cove-architecture-preview/
-评论网址：https://news.ycombinator.com/item?id=40570326
-积分：121
-评论数：55]]></description>
-      <guid>https://chipsandcheese.com/2024/06/03/intels-lion-cove-architecture-preview/</guid>
-      <pubDate>Tue, 04 Jun 2024 03:11:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
