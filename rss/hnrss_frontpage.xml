@@ -4,107 +4,111 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 06 Jun 2024 15:16:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2024 18:19:50 GMT</lastBuildDate>
     <item>
-      <title>WiFi诞生以来“最激动人心的时刻”：芯片制造商欢呼AI PC的到来</title>
-      <link>https://www.ft.com/content/6a546ad6-ae03-4c2d-92f5-c8efdd4bba3b</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/6a546ad6-ae03-4c2d-92f5-c8efdd4bba3b
-评论网址：https://news.ycombinator.com/item?id=40598059
-积分：5
-评论数：4]]></description>
-      <guid>https://www.ft.com/content/6a546ad6-ae03-4c2d-92f5-c8efdd4bba3b</guid>
-      <pubDate>Thu, 06 Jun 2024 14:48:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>为何加拿大人对他们最大的超市感到愤怒</title>
-      <link>https://www.bbc.com/news/articles/cd11ywyg6p0o</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cd11ywyg6p0o
-评论网址：https://news.ycombinator.com/item?id=40597929
-积分：17
-评论数：23]]></description>
-      <guid>https://www.bbc.com/news/articles/cd11ywyg6p0o</guid>
-      <pubDate>Thu, 06 Jun 2024 14:37:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hacker News 社区趋势分析</title>
-      <link>https://dupeless.com/yc-analysis</link>
-      <description><![CDATA[文章网址：https://dupeless.com/yc-analysis
-评论网址：https://news.ycombinator.com/item?id=40597833
-积分：18
-评论数：6]]></description>
-      <guid>https://dupeless.com/yc-analysis</guid>
-      <pubDate>Thu, 06 Jun 2024 14:28:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>针对 RAG 应用程序的意外快速注入</title>
-      <link>https://simonwillison.net/2024/Jun/6/accidental-prompt-injection/</link>
-      <description><![CDATA[文章网址：https://simonwillison.net/2024/Jun/6/accidental-prompt-injection/
-评论网址：https://news.ycombinator.com/item?id=40597587
+      <title>市值超过 3 万亿美元 美国对 Nvidia 展开反垄断调查</title>
+      <link>https://www.semafor.com/article/06/06/2024/us-government-doj-antitrust-nvidia-semiconductor-chips-artificial-intelligence</link>
+      <description><![CDATA[文章网址：https://www.semafor.com/article/06/06/2024/us-government-doj-antitrust-nvidia-semiconductor-chips-artificial-intelligence
+评论网址：https://news.ycombinator.com/item?id=40600343
 积分：4
 评论数：0]]></description>
-      <guid>https://simonwillison.net/2024/Jun/6/accidental-prompt-injection/</guid>
-      <pubDate>Thu, 06 Jun 2024 14:09:02 GMT</pubDate>
+      <guid>https://www.semafor.com/article/06/06/2024/us-government-doj-antitrust-nvidia-semiconductor-chips-artificial-intelligence</guid>
+      <pubDate>Thu, 06 Jun 2024 17:52:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Yarn (YC W24) 正在纽约招聘创始工程师</title>
+      <link>https://www.workatastartup.com/jobs/66928</link>
+      <description><![CDATA[文章网址：https://www.workatastartup.com/jobs/66928
+评论网址：https://news.ycombinator.com/item?id=40600083
+积分：0
+评论数：0]]></description>
+      <guid>https://www.workatastartup.com/jobs/66928</guid>
+      <pubDate>Thu, 06 Jun 2024 17:27:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>惠特尼分层和交叉同源性 (2023) [pdf]</title>
+      <link>https://n.ethz.ch/~ssetlur/download/whitney-stratifications-intersection-hom.pdf</link>
+      <description><![CDATA[文章网址：https://n.ethz.ch/~ssetlur/download/whitney-stratifications-intersection-hom.pdf
+评论网址：https://news.ycombinator.com/item?id=40599868
+积分：6
+评论数：0]]></description>
+      <guid>https://n.ethz.ch/~ssetlur/download/whitney-stratifications-intersection-hom.pdf</guid>
+      <pubDate>Thu, 06 Jun 2024 17:11:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>展示 HN：XPipe，一种全新类型的远程文件浏览器和 Shell 连接中心</title>
+      <link>https://xpipe.io</link>
+      <description><![CDATA[嗨 HN，我去年构建了这个，因为我一直想轻松地通过文件和终端访问我的所有服务器，包括通常无法使用现有解决方案连接的容器和集群。乍一看它可能看起来并不新颖，但如果你深入研究一下，你会发现它与远程系统通信的整个基础与任何其他解决方案完全不同。后台发生的事情基本上可以这样解释：它启动一个本地 shell 进程，如 cmd、sh 等，并在其中执行打开远程 shell 连接的命令，如 ssh user@host。然后所有通信都通过该进程的 stdin/stdout/stderr 完成。从那里，它会检测您登录的服务器和环境类型，例如 shell 类型、操作系统等，并调整它与远程系统的通信方式。然后，通过使用文件系统相关命令（例如 ls、rm、touch 等）及其等效命令，它可以实现一个功能性文件管理器，该管理器基本上可以在每个系统上运行，而无需任何协议要求。对于其他类型的连接，它只需执行诸如 docker exec -i 之类的操作即可打开容器中的 shell，并以相同的方式工作。目前，它支持：
+- 通过运行本地安装的 SSH CLI 客户端使用 SSH
+- Docker、Podman、LXD 和 Kubernetes 容器
+- Windows 上的 WSL、MSYS2 和 Cygwin 环境
+- 各种其他东西，例如 VMware 和 Proxmox 的一些 VM，但工作仍在进行中这种将所有事情委托给已安装工具的方法也用于其他任务。这意味着我可以节省大量的开发时间，同时您可以愉​​快地将您熟悉的工具与 XPipe 结合使用。事实上，XPipe 根本没有附带任何用于远程 shell 连接、协议处理或终端集成的库或工具。它只是将所有内容委托给您自己的文本编辑器、终端仿真器、RDP 客户端等。由于其性质，XPipe 必须处理大量敏感信息，如密码、密钥等。为了解决安全和隐私问题，我强调了安全设置，并在文档中创建了一个专用的安全页面，希望其中包含所有相关信息。还有一个密码管理器集成，因此如果您使用兼容的密码管理器，则不必在 XPipe 本身中存储任何敏感信息。由于同步多个系统（例如家中的台式机和旅行用的笔记本电脑）之间的连接信息是一种常见用例，因此还有一个 git 集成，允许您让 XPipe 自动将所有连接信息与您选择的远程 git 存储库同步。它支持任何 git 远程存储库、高级身份验证措施（如 SSH 身份验证、GPG 签名等）。如果您在团队中工作，您也可以使用它进行协作。早期开发非常具有挑战性，因为这种新方法需要全新的实现，但我相信它现在已经准备就绪。我非常感谢您提供的任何反馈，以便从现在开始为我指明正确的发展方向。祝您玩得开心！
+
+评论网址：https://news.ycombinator.com/item?id=40599419
+积分：8
+评论数：2]]></description>
+      <guid>https://xpipe.io</guid>
+      <pubDate>Thu, 06 Jun 2024 16:34:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qwen2 LLM 发布</title>
+      <link>https://qwenlm.github.io/blog/qwen2/</link>
+      <description><![CDATA[文章网址：https://qwenlm.github.io/blog/qwen2/
+评论网址：https://news.ycombinator.com/item?id=40599018
+积分：83
+评论数：44]]></description>
+      <guid>https://qwenlm.github.io/blog/qwen2/</guid>
+      <pubDate>Thu, 06 Jun 2024 16:01:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 structlog 和 DuckDB 实现 LLM 应用程序的可观察性</title>
+      <link>https://ploomber.io/blog/json-monitor-llm/</link>
+      <description><![CDATA[文章网址：https://ploomber.io/blog/json-monitor-llm/
+评论网址：https://news.ycombinator.com/item?id=40598979
+积分：13
+评论数：6]]></description>
+      <guid>https://ploomber.io/blog/json-monitor-llm/</guid>
+      <pubDate>Thu, 06 Jun 2024 15:58:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>lsix：类似“ls”，但用于图像</title>
+      <link>https://github.com/hackerb9/lsix</link>
+      <description><![CDATA[文章网址：https://github.com/hackerb9/lsix
+评论网址：https://news.ycombinator.com/item?id=40598629
+积分：34
+评论数：11]]></description>
+      <guid>https://github.com/hackerb9/lsix</guid>
+      <pubDate>Thu, 06 Jun 2024 15:29:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>秘密的诺曼底登陆科学家和工程师</title>
+      <link>https://www.bbc.com/news/articles/c3gg580p3kjo</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c3gg580p3kjo
+评论网址：https://news.ycombinator.com/item?id=40598353
+积分：21
+评论数：3]]></description>
+      <guid>https://www.bbc.com/news/articles/c3gg580p3kjo</guid>
+      <pubDate>Thu, 06 Jun 2024 15:10:12 GMT</pubDate>
     </item>
     <item>
       <title>不接受基于公开数据的人工智能分析的权利</title>
       <link>https://link.springer.com/article/10.1007/s13347-023-00616-9</link>
       <description><![CDATA[文章网址：https://link.springer.com/article/10.1007/s13347-023-00616-9
 评论网址：https://news.ycombinator.com/item?id=40597503
-积分：58
-评论数：13]]></description>
+积分：148
+评论数：94]]></description>
       <guid>https://link.springer.com/article/10.1007/s13347-023-00616-9</guid>
       <pubDate>Thu, 06 Jun 2024 14:03:17 GMT</pubDate>
     </item>
     <item>
-      <title>图形和游戏开发的 3D 数学入门</title>
+      <title>图形和游戏开发的 3D 数学入门 (2011)</title>
       <link>https://gamemath.com/</link>
       <description><![CDATA[文章网址：https://gamemath.com/
 评论网址：https://news.ycombinator.com/item?id=40597402
-积分：3
-评论数：0]]></description>
+积分：74
+评论数：18]]></description>
       <guid>https://gamemath.com/</guid>
       <pubDate>Thu, 06 Jun 2024 13:54:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>玛莎·盖尔霍恩——唯一一位从地面报道诺曼底登陆的女性</title>
-      <link>https://www.smithsonianmag.com/history/martha-gellhorn-was-the-only-woman-to-report-on-the-d-day-landings-from-the-ground-180984456/</link>
-      <description><![CDATA[文章网址：https://www.smithsonianmag.com/history/martha-gellhorn-was-the-only-woman-to-report-on-the-d-day-landings-from-the-ground-180984456/
-评论网址：https://news.ycombinator.com/item?id=40597249
-积分：19
-评论数：1]]></description>
-      <guid>https://www.smithsonianmag.com/history/martha-gellhorn-was-the-only-woman-to-report-on-the-d-day-landings-from-the-ground-180984456/</guid>
-      <pubDate>Thu, 06 Jun 2024 13:35:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>以现代地铁地图风格呈现古罗马道路</title>
-      <link>https://www.openculture.com/2024/06/the-roads-of-ancient-rome-visualized-in-modern-subway-maps.html</link>
-      <description><![CDATA[文章网址：https://www.openculture.com/2024/06/the-roads-of-ancient-rome-visualized-in-modern-subway-maps.html
-评论网址：https://news.ycombinator.com/item?id=40597216
-积分：74
-评论数：19]]></description>
-      <guid>https://www.openculture.com/2024/06/the-roads-of-ancient-rome-visualized-in-modern-subway-maps.html</guid>
-      <pubDate>Thu, 06 Jun 2024 13:32:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 AIKit 对开放 LLM 进行微调并将其部署为容器 - 第 1 部分</title>
-      <link>https://huggingface.co/blog/sozercan/finetune-deploy-aikit-part1</link>
-      <description><![CDATA[文章网址：https://huggingface.co/blog/sozercan/finetune-deploy-aikit-part1
-评论网址：https://news.ycombinator.com/item?id=40596946
-积分：16
-评论数：0]]></description>
-      <guid>https://huggingface.co/blog/sozercan/finetune-deploy-aikit-part1</guid>
-      <pubDate>Thu, 06 Jun 2024 13:08:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：合成用于科学图形和草图的 TikZ 图形程序</title>
-      <link>https://github.com/potamides/DeTikZify</link>
-      <description><![CDATA[创建高质量的科学图形可能既耗时又具有挑战性，尽管在纸上勾勒想法相对容易。此外，重新创建未以保留语义信息的格式存储的现有图形同样复杂。为了解决这个问题，我们引入了 DeTikZify，这是一种新颖的多模态语言模型，它基于草图和现有图形自动将科学图形合成为保留语义的 TikZ 图形程序。我们还引入了一种基于蒙特卡洛树搜索的推理算法，使 DeTikZify 能够迭代地完善其输出，而无需额外训练。
-
-评论网址：https://news.ycombinator.com/item?id=40596711
-积分：6
-评论数：1]]></description>
-      <guid>https://github.com/potamides/DeTikZify</guid>
-      <pubDate>Thu, 06 Jun 2024 12:42:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
