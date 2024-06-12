@@ -4,108 +4,106 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 12 Jun 2024 15:14:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2024 18:20:32 GMT</lastBuildDate>
+    <item>
+      <title>偏远的亚马逊部落没有沉迷于色情</title>
+      <link>https://www.nytimes.com/2024/06/11/world/americas/no-a-remote-amazon-tribe-did-not-get-addicted-to-porn.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2024/06/11/world/americas/no-a-remote-amazon-tribe-did-not-get-addicted-to-porn.html
+评论网址：https://news.ycombinator.com/item?id=40660942
+积分：6
+评论数：1]]></description>
+      <guid>https://www.nytimes.com/2024/06/11/world/americas/no-a-remote-amazon-tribe-did-not-get-addicted-to-porn.html</guid>
+      <pubDate>Wed, 12 Jun 2024 17:52:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>安全至上的 Rust 联盟</title>
+      <link>https://foundation.rust-lang.org/news/announcing-the-safety-critical-rust-consortium/</link>
+      <description><![CDATA[文章网址：https://foundation.rust-lang.org/news/announcing-the-safety-critical-rust-consortium/
+评论网址：https://news.ycombinator.com/item?id=40660528
+积分：7
+评论数：0]]></description>
+      <guid>https://foundation.rust-lang.org/news/announcing-the-safety-critical-rust-consortium/</guid>
+      <pubDate>Wed, 12 Jun 2024 17:13:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Streak (YC W22) 正在招聘一名远程网页设计师（高级）</title>
+      <link>https://www.streak.com/careers/designer-web-and-marketing</link>
+      <description><![CDATA[文章网址：https://www.streak.com/careers/designer-web-and-marketing
+评论网址：https://news.ycombinator.com/item?id=40660338
+积分：0
+评论数：0]]></description>
+      <guid>https://www.streak.com/careers/designer-web-and-marketing</guid>
+      <pubDate>Wed, 12 Jun 2024 17:00:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Calm Company Fund 正在休息</title>
+      <link>https://calmfund.com/writing/pause</link>
+      <description><![CDATA[文章网址：https://calmfund.com/writing/pause
+评论网址：https://news.ycombinator.com/item?id=40659606
+积分：20
+评论数：2]]></description>
+      <guid>https://calmfund.com/writing/pause</guid>
+      <pubDate>Wed, 12 Jun 2024 16:01:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Alexa 如何未能成为顶尖对话系统</title>
+      <link>https://www.mihaileric.com/posts/how-alexa-dropped-the-ball-conversational-ai/</link>
+      <description><![CDATA[文章网址：https://www.mihaileric.com/posts/how-alexa-dropped-the-ball-conversational-ai/
+评论网址：https://news.ycombinator.com/item?id=40659281
+积分：76
+评论数：71]]></description>
+      <guid>https://www.mihaileric.com/posts/how-alexa-dropped-the-ball-conversational-ai/</guid>
+      <pubDate>Wed, 12 Jun 2024 15:35:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动 HN：守望先锋 (YC S22)：针对网络和欺诈风险的 OSINT 平台</title>
+      <link>https://news.ycombinator.com/item?id=40659236</link>
+      <description><![CDATA[]]></description>
+      <guid>https://news.ycombinator.com/item?id=40659236</guid>
+      <pubDate>Wed, 12 Jun 2024 15:32:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：重述 – 使用 Rust 实现 JavaScript/Java 的低延迟持久工作流</title>
+      <link>https://restate.dev/</link>
+      <description><![CDATA[我们很乐意与您分享我们的工作：Restate，一个工作流即代码（持久执行）系统。使用 JS/Java/Kotlin 中的 SDK 和用 Rust/Tokio 构建的轻量级运行时。https://github.com/restatedev/
+https://restate.dev/它是免费且开放的，SDK 是 MIT 许可的，运行时允许 BSL（基本上只是最低限度的 Amazon 防御）。
+我们为此工作了一年多。我认为有几点值得一提：- Restate 的运行时是一个单一的二进制文件，自包含，除了持久磁盘之外没有任何依赖项。它基本上包含持久日志、工作流状态机、状态存储等的轻量级集成版本。这使得它非常紧凑，并且易于在笔记本电脑和服务器上运行。- Restate 不仅为工作流实现持久执行，而且核心构建块是持久 RPC 处理程序（或事件处理程序）。它在持久执行之上添加了一些概念，例如虚拟对象（将 RPC 处理程序转变为虚拟参与者）、持久通信和持久承诺。以下是更多详细信息：https://restate.dev/programming-model- API 的核心设计目标是保持熟悉的风格。应用程序开发人员应该看看 Restate 示例并说“嘿，这看起来很熟悉”。您可以让我们知道这是否可行。- 基本上每个操作（处理程序调用、步骤等）都会经过共识层，以实现高度的弹性和一致性。- 轻量级日志中心架构为 Restate 提供了良好的延迟：例如，对于 3 步持久工作流处理程序（在 EBS 上对每个步骤进行 fsync 的 Restate），往返（调用到结果）大约为 50ms。我们很想听听您的想法！
+
+评论 URL：https://news.ycombinator.com/item?id=40659160
+积分：91
+评论数：75]]></description>
+      <guid>https://restate.dev/</guid>
+      <pubDate>Wed, 12 Jun 2024 15:25:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Python wheel 文件名没有规范形式</title>
+      <link>https://blog.yossarian.net/2024/06/12/Python-wheel-filenames-have-no-canonical-form</link>
+      <description><![CDATA[文章网址：https://blog.yossarian.net/2024/06/12/Python-wheel-filenames-have-no-canonical-form
+评论网址：https://news.ycombinator.com/item?id=40658928
+积分：47
+评论数：51]]></description>
+      <guid>https://blog.yossarian.net/2024/06/12/Python-wheel-filenames-have-no-canonical-form</guid>
+      <pubDate>Wed, 12 Jun 2024 15:01:30 GMT</pubDate>
+    </item>
     <item>
       <title>英特尔正用卡车将重达 916,000 磅的“超级货物”运送到俄亥俄州的新工厂</title>
       <link>https://www.tomshardware.com/pc-components/cpus/intel-is-trucking-a-916000-pound-super-load-across-ohio-to-its-new-fab-spawning-road-closures-over-nine-days</link>
       <description><![CDATA[文章网址：https://www.tomshardware.com/pc-components/cpus/intel-is-trucking-a-916000-pound-super-load-across-ohio-to-its-new-fab-spawning-road-closures-over-nine-days
 评论网址：https://news.ycombinator.com/item?id=40658095
-积分：89
-评论数： 50]]></description>
+积分：184
+评论数： 164]]></description>
       <guid>https://www.tomshardware.com/pc-components/cpus/intel-is-trucking-a-916000-pound-super-load-across-ohio-to-its-new-fab-spawning-road-closures-over-nine-days</guid>
       <pubDate>Wed, 12 Jun 2024 13:45:46 GMT</pubDate>
     </item>
     <item>
-      <title>Google 数据集搜索引擎</title>
-      <link>https://datasetsearch.research.google.com/</link>
-      <description><![CDATA[文章网址：https://datasetsearch.research.google.com/
-评论网址：https://news.ycombinator.com/item?id=40657937
-积分：85
-评论数：20]]></description>
-      <guid>https://datasetsearch.research.google.com/</guid>
-      <pubDate>Wed, 12 Jun 2024 13:28:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Fini (YC S22) 正在招聘前端工程师</title>
-      <link>https://news.ycombinator.com/item?id=40657088</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=40657088
-积分：0
-评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=40657088</guid>
-      <pubDate>Wed, 12 Jun 2024 12:01:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>硅谷最不为人知的秘密：创始人流动性</title>
-      <link>https://www.stefantheard.com/silicon-valleys-best-kept-secret-founder-liquidity/</link>
-      <description><![CDATA[文章网址：https://www.stefantheard.com/silicon-valleys-best-kept-secret-founder-liquidity/
-评论网址：https://news.ycombinator.com/item?id=40654190
-积分：1053
-评论数：419]]></description>
-      <guid>https://www.stefantheard.com/silicon-valleys-best-kept-secret-founder-liquidity/</guid>
-      <pubDate>Wed, 12 Jun 2024 03:32:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>AES-GCM 和在随机数重用上破解它</title>
-      <link>https://frereit.de/aes_gcm/</link>
-      <description><![CDATA[文章网址：https://frereit.de/aes_gcm/
-评论网址：https://news.ycombinator.com/item?id=40653125
-积分：115
-评论数：39]]></description>
-      <guid>https://frereit.de/aes_gcm/</guid>
-      <pubDate>Wed, 12 Jun 2024 00:09:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>爱德华·C·斯通，1936-2024</title>
-      <link>https://www.caltech.edu/about/news/edward-stone-1936-2024</link>
-      <description><![CDATA[文章网址：https://www.caltech.edu/about/news/edward-stone-1936-2024
-评论网址：https://news.ycombinator.com/item?id=40652731
-积分：91
-评论数：5]]></description>
-      <guid>https://www.caltech.edu/about/news/edward-stone-1936-2024</guid>
-      <pubDate>Tue, 11 Jun 2024 23:11:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>Flameshot – 开源截图软件</title>
-      <link>https://flameshot.org/</link>
-      <description><![CDATA[文章网址：https://flameshot.org/
-评论网址：https://news.ycombinator.com/item?id=40650844
-积分：310
-评论数：111]]></description>
-      <guid>https://flameshot.org/</guid>
-      <pubDate>Tue, 11 Jun 2024 20:03:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能新闻媒体 BNN Breaking 的兴衰</title>
-      <link>https://www.nytimes.com/2024/06/06/technology/bnn-breaking-ai-generated-news.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2024/06/06/technology/bnn-breaking-ai-generated-news.html
-评论网址：https://news.ycombinator.com/item?id=40650173
-积分：106
-评论数：56]]></description>
-      <guid>https://www.nytimes.com/2024/06/06/technology/bnn-breaking-ai-generated-news.html</guid>
-      <pubDate>Tue, 11 Jun 2024 19:06:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>ARC 奖——一项价值 100 万美元以上的竞赛，旨在推动开放式 AGI 的发展</title>
-      <link>https://arcprize.org/blog/launch</link>
-      <description><![CDATA[大家好！我是 Mike。Francois Chollet 和我正在发起 ARC Prize，这是一项公开竞赛，旨在击败并开源 ARC-AGI 评估解决方案。ARC-AGI 是（据我们所知）唯一衡量 AGI 的评估：一个可以有效获得新技能并解决新颖的开放式问题的系统。大多数 AI 评估直接衡量技能，而不是新技能的获得。Francois 于 2019 年创建了评估，SOTA 在开始时为 20%，今天的 SOTA 只有 34%。人类得分为 85-100%。去年有 300 个团队尝试了 ARC-AGI，还有几个更大的实验室也尝试了它。虽然大多数其他基于技能的评估已经迅速达到人类水平，但 ARC-AGI 旨在抵抗“记忆”技术（例如 LLM）解决 ARC-AGI 任务对于人类（甚至是儿童）来说相当容易，但对于现代 AI 来说是不可能的。您可以在此处亲自尝试 ARC-AGI 任务：https://arcprize.org/playARC-AGI 包括 400 个公共训练任务、400 个公共测试任务和 100 个秘密测试任务。每个任务都是新颖的。SOTA 是根据秘密测试集进行测量的，这增加了评估的稳健性。解决 ARC-AGI 任务不需要世界知识，也不需要理解语言。相反，每个谜题都需要一小组“核心知识先验”（目标导向性、对象性、对称性、旋转等）。至少，ARC-AGI 的解决方案开辟了一个全新的编程范式，其中程序可以从任意一组先验中完美而可靠地概括出来。最多，解锁通往 AGI 的技术树。我们参加这次比赛的目标是：1. 增加从事前沿 AGI 研究的研究人员数量（而不是修补 LLM）。我们需要新的想法，解决方案很可能来自局外人！
-2. 建立一个流行的、客观的 AGI 进展衡量标准，公众可以使用它来了解我们距离 AGI 有多近（或不近）。每个新的 SOTA 分数都将在此处发布：https://x.com/arcprize
-3. 击败 ARC-AGI 并学习一些关于智能本质的新知识。很高兴回答问题！
-
-评论网址：https://news.ycombinator.com/item?id=40648960
-积分：517
-评论数：255]]></description>
-      <guid>https://arcprize.org/blog/launch</guid>
-      <pubDate>Tue, 11 Jun 2024 17:19:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>林恩·康威 (Lynn Conway) 去世</title>
-      <link>https://en.wikipedia.org/wiki/Lynn_Conway</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Lynn_Conway
-评论网址：https://news.ycombinator.com/item?id=40648470&gt;
-积分：1602
-# 条评论：310]]></description>
-      <guid>https://en.wikipedia.org/wiki/Lynn_Conway</guid>
-      <pubDate>Tue, 11 Jun 2024 16:44:11 GMT</pubDate>
+      <title>来自月球背面的传真 (2018)</title>
+      <link>https://www.damninteresting.com/faxes-from-the-far-side/</link>
+      <description><![CDATA[文章网址：https://www.damninteresting.com/faxes-from-the-far-side/
+评论网址：https://news.ycombinator.com/item?id=40656780
+积分：29
+评论数：4]]></description>
+      <guid>https://www.damninteresting.com/faxes-from-the-far-side/</guid>
+      <pubDate>Wed, 12 Jun 2024 11:20:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
