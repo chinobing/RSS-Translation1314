@@ -4,16 +4,66 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 19 Jun 2024 01:05:30 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 03:17:06 GMT</lastBuildDate>
     <item>
-      <title>Lilygo T-玻璃</title>
-      <link>https://www.lilygo.cc/products/t-glass</link>
-      <description><![CDATA[文章网址：https://www.lilygo.cc/products/t-glass
-评论网址：https://news.ycombinator.com/item?id=40723306
-积分：21
+      <title>美国参议院通过法案支持先进核能部署</title>
+      <link>https://www.reuters.com/business/energy/us-senate-passes-bill-support-advanced-nuclear-energy-deployment-2024-06-19/</link>
+      <description><![CDATA[文章网址：https://www.reuters.com/business/energy/us-senate-passes-bill-support-advanced-nuclear-energy-deployment-2024-06-19/
+评论网址：https://news.ycombinator.com/item?id=40724201
+积分：17
+评论数：6]]></description>
+      <guid>https://www.reuters.com/business/energy/us-senate-passes-bill-support-advanced-nuclear-energy-deployment-2024-06-19/</guid>
+      <pubDate>Wed, 19 Jun 2024 02:35:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>旧金山巨人队传奇人物、美国职业棒球大联盟史上最伟大球员威利·梅斯去世</title>
+      <link>https://www.sfchronicle.com/sports/giants/article/willie-mays-dead-obituary-17815215.php</link>
+      <description><![CDATA[文章网址：https://www.sfchronicle.com/sports/giants/article/willie-mays-dead-obituary-17815215.php
+评论网址：https://news.ycombinator.com/item?id=40723758
+积分：45
+评论数：14]]></description>
+      <guid>https://www.sfchronicle.com/sports/giants/article/willie-mays-dead-obituary-17815215.php</guid>
+      <pubDate>Wed, 19 Jun 2024 01:11:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>加州将修改法律，允许工人起诉雇主</title>
+      <link>https://www.nytimes.com/2024/06/18/business/economy/california-newsom-labor.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2024/06/18/business/economy/california-newsom-labor.html
+评论网址：https://news.ycombinator.com/item?id=40723465
+积分：26
+评论数：15]]></description>
+      <guid>https://www.nytimes.com/2024/06/18/business/economy/california-newsom-labor.html</guid>
+      <pubDate>Wed, 19 Jun 2024 00:23:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>四分之一的美国家庭可能超过新的土壤铅指导水平</title>
+      <link>https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GH001045</link>
+      <description><![CDATA[文章网址：https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GH001045
+评论网址：https://news.ycombinator.com/item?id=40723411
+积分：8
 评论数：0]]></description>
-      <guid>https://www.lilygo.cc/products/t-glass</guid>
-      <pubDate>Tue, 18 Jun 2024 23:51:11 GMT</pubDate>
+      <guid>https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GH001045</guid>
+      <pubDate>Wed, 19 Jun 2024 00:12:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源 Python ETL</title>
+      <link>https://amphi.ai/</link>
+      <description><![CDATA[文章网址：https://amphi.ai/
+评论网址：https://news.ycombinator.com/item?id=40723356
+积分：33
+评论数：10]]></description>
+      <guid>https://amphi.ai/</guid>
+      <pubDate>Wed, 19 Jun 2024 00:02:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>面向程序员的 Reed–Solomon 代码</title>
+      <link>https://en.wikiversity.org/wiki/Reed%E2%80%93Solomon_codes_for_coders</link>
+      <description><![CDATA[文章网址：https://en.wikiversity.org/wiki/Reed%E2%80%93Solomon_codes_for_coders
+评论网址：https://news.ycombinator.com/item?id=40723335
+积分：7
+评论数：1]]></description>
+      <guid>https://en.wikiversity.org/wiki/Reed%E2%80%93Solomon_codes_for_coders</guid>
+      <pubDate>Tue, 18 Jun 2024 23:57:39 GMT</pubDate>
     </item>
     <item>
       <title>问 HN：为什么基于消息队列的架构现在似乎不那么流行了？</title>
@@ -21,90 +71,40 @@
       <description><![CDATA[在 2000 年代后期和 2010 年代初期，我记得看到过很多关于使用消息队列构建分布式系统的炒作（例如 Amazon SQS、RabbitMQ、ZeroMQ 等）。许多公司都发布了博客文章，强调他们使用消息队列在节点之间进行异步通信，如果我没记错的话，当时的官方 AWS 设计建议大力推广 SQS。现在，我几乎从未见过工程博客文章或 HN 帖子强调使用消息队列。我偶尔会看到与 Kafka 相关的内容，但与消息队列过去的炒作相比，没有什么变化。发生了什么变化？我知道的可能理论：* Redis 解决了大多数用例以及缓存问题，因此不再有必要支付运行单独消息代理的运营成本。 Kafka 选择了真正大规模的应用程序。* 数据库（广义的）在处理大规模方面已经做得更好了，因此系统设计人员将更多的“瞬时”应用程序状态移到了主数据存储中。* 我们共同意识到基于消息队列的架构并不像我们希望的那样好用，所以我们现在以其他方式构建大多数东西。* 这项技术已经足够成熟，虽然写起来并不令人兴奋，但它仍然被广泛使用。如果有人有基于消息队列设计或实现绿地系统的经验，我会很想听听。我还想了解人们在生产系统中使用消息队列时遇到的任何战争故事或痛点。
 
 评论网址：https://news.ycombinator.com/item?id=40723302
-积分：30
-评论数：8]]></description>
+积分：77
+评论数：54]]></description>
       <guid>https://news.ycombinator.com/item?id=40723302</guid>
       <pubDate>Tue, 18 Jun 2024 23:50:39 GMT</pubDate>
     </item>
     <item>
-      <title>报道称：苹果将暂停推出下一代高端 Vision 产品，转而推出更便宜的产品</title>
-      <link>https://arstechnica.com/gadgets/2024/06/apple-is-reportedly-shifting-its-next-vision-headset-to-a-cheaper-model/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/gadgets/2024/06/apple-is-reportedly-shifting-its-next-vision-headset-to-a-cheaper-model/
-评论网址：https://news.ycombinator.com/item?id=40723174
-积分：34
-评论数：30]]></description>
-      <guid>https://arstechnica.com/gadgets/2024/06/apple-is-reportedly-shifting-its-next-vision-headset-to-a-cheaper-model/</guid>
-      <pubDate>Tue, 18 Jun 2024 23:30:33 GMT</pubDate>
+      <title>大型语言模型数据管道和 Common Crawl</title>
+      <link>https://blog.christianperone.com/2023/06/appreciating-llms-data-pipelines/</link>
+      <description><![CDATA[文章网址：https://blog.christianperone.com/2023/06/appreciating-llms-data-pipelines/
+评论网址：https://news.ycombinator.com/item?id=40723251
+积分：11
+评论数：0]]></description>
+      <guid>https://blog.christianperone.com/2023/06/appreciating-llms-data-pipelines/</guid>
+      <pubDate>Tue, 18 Jun 2024 23:42:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>儿童图片</title>
+      <link>https://kidpix.app</link>
+      <description><![CDATA[文章网址：https://kidpix.app
+评论网址：https://news.ycombinator.com/item?id=40723220
+积分：212
+评论数：40]]></description>
+      <guid>https://kidpix.app</guid>
+      <pubDate>Tue, 18 Jun 2024 23:38:40 GMT</pubDate>
     </item>
     <item>
       <title>启用 NAT 的 Wi-Fi 网络中的路径外 TCP 劫持</title>
       <link>https://blog.apnic.net/2024/06/18/off-path-tcp-hijacking-in-nat-enabled-wi-fi-networks/</link>
       <description><![CDATA[文章网址：https://blog.apnic.net/2024/06/18/off-path-tcp-hijacking-in-nat-enabled-wi-fi-networks/
 评论网址：https://news.ycombinator.com/item?id=40723150
-积分：3
-评论数：0]]></description>
+积分：45
+评论数：21]]></description>
       <guid>https://blog.apnic.net/2024/06/18/off-path-tcp-hijacking-in-nat-enabled-wi-fi-networks/</guid>
       <pubDate>Tue, 18 Jun 2024 23:27:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>捐赠衣物加剧非洲“mitumba”问题</title>
-      <link>https://www.washingtonpost.com/opinions/2024/05/22/clothes-donations-africa-kenya-waste/</link>
-      <description><![CDATA[文章网址：https://www.washingtonpost.com/opinions/2024/05/22/clothes-donations-africa-kenya-waste/
-评论网址：https://news.ycombinator.com/item?id=40722983
-积分：16
-评论数：15]]></description>
-      <guid>https://www.washingtonpost.com/opinions/2024/05/22/clothes-donations-africa-kenya-waste/</guid>
-      <pubDate>Tue, 18 Jun 2024 22:59:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rust 中的 IPC – 乒乓比较</title>
-      <link>https://3tilley.github.io/posts/simple-ipc-ping-pong/</link>
-      <description><![CDATA[文章网址：https://3tilley.github.io/posts/simple-ipc-ping-pong/
-评论网址：https://news.ycombinator.com/item?id=40722850
-积分：26
-评论数：3]]></description>
-      <guid>https://3tilley.github.io/posts/simple-ipc-ping-pong/</guid>
-      <pubDate>Tue, 18 Jun 2024 22:40:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>高级 Shell 脚本技术：使用 Bash 自动执行复杂任务</title>
-      <link>https://omid.dev/2024/06/19/advanced-shell-scripting-techniques-automating-complex-tasks-with-bash/</link>
-      <description><![CDATA[文章网址：https://omid.dev/2024/06/19/advanced-shell-scripting-techniques-automating-complex-tasks-with-bash/
-评论网址：https://news.ycombinator.com/item?id=40722745
-积分：14
-评论数：3]]></description>
-      <guid>https://omid.dev/2024/06/19/advanced-shell-scripting-techniques-automating-complex-tasks-with-bash/</guid>
-      <pubDate>Tue, 18 Jun 2024 22:27:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hadrius (YC W23) 正在招聘希望成长为未来创始人的工程师</title>
-      <link>https://www.ycombinator.com/companies/hadrius/jobs/1z3APsX-founding-engineer</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/hadrius/jobs/1z3APsX-founding-engineer
-评论网址：https://news.ycombinator.com/item?id=40722164
-积分：0
-评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/hadrius/jobs/1z3APsX-founding-engineer</guid>
-      <pubDate>Tue, 18 Jun 2024 21:00:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>亚马逊因违反加州劳动法被罚款 590 万美元</title>
-      <link>https://www.washingtonpost.com/technology/2024/06/18/amazon-fine-labor-law-california/</link>
-      <description><![CDATA[文章网址：https://www.washingtonpost.com/technology/2024/06/18/amazon-fine-labor-law-california/
-评论网址：https://news.ycombinator.com/item?id=40722155
-积分：167
-评论数：143]]></description>
-      <guid>https://www.washingtonpost.com/technology/2024/06/18/amazon-fine-labor-law-california/</guid>
-      <pubDate>Tue, 18 Jun 2024 20:59:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>叛逆的感觉——叶夫根尼·莫罗佐夫的播客系列</title>
-      <link>https://www.sense-of-rebellion.com/</link>
-      <description><![CDATA[文章网址：https://www.sense-of-rebellion.com/
-评论网址：https://news.ycombinator.com/item?id=40721829
-积分：8
-评论数：0]]></description>
-      <guid>https://www.sense-of-rebellion.com/</guid>
-      <pubDate>Tue, 18 Jun 2024 20:21:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
