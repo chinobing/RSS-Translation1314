@@ -4,16 +4,66 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 19 Jun 2024 18:19:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 21:15:45 GMT</lastBuildDate>
     <item>
-      <title>论证阶段 (2000)</title>
-      <link>http://legacy.earlham.edu/~peters/courses/argstages.htm</link>
-      <description><![CDATA[文章网址：http://legacy.earlham.edu/~peters/courses/argstages.htm
-评论网址：https://news.ycombinator.com/item?id=40730494
-积分：6
+      <title>Zep AI (YC W24) 正在招聘后端工程师来构建 LLM 长期记忆</title>
+      <link>https://www.ycombinator.com/companies/zep-ai/jobs/J5TD9KW-backend-engineer</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/zep-ai/jobs/J5TD9KW-backend-engineer
+评论网址：https://news.ycombinator.com/item?id=40732320
+积分：0
 评论数：0]]></description>
-      <guid>http://legacy.earlham.edu/~peters/courses/argstages.htm</guid>
-      <pubDate>Wed, 19 Jun 2024 17:35:48 GMT</pubDate>
+      <guid>https://www.ycombinator.com/companies/zep-ai/jobs/J5TD9KW-backend-engineer</guid>
+      <pubDate>Wed, 19 Jun 2024 21:00:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>语义饱和——反复接触会导致词语失去意义</title>
+      <link>https://www.tandfonline.com/doi/full/10.1080/09658211.2020.1727519</link>
+      <description><![CDATA[文章网址：https://www.tandfonline.com/doi/full/10.1080/09658211.2020.1727519
+评论网址：https://news.ycombinator.com/item?id=40732161
+积分：10
+评论数：5]]></description>
+      <guid>https://www.tandfonline.com/doi/full/10.1080/09658211.2020.1727519</guid>
+      <pubDate>Wed, 19 Jun 2024 20:39:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>“如果你再提起人工智能，我就要揍你了”</title>
+      <link>https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/</link>
+      <description><![CDATA[文章网址：https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/
+评论网址：https://news.ycombinator.com/item?id=40732086
+积分：18
+评论数：4]]></description>
+      <guid>https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/</guid>
+      <pubDate>Wed, 19 Jun 2024 20:28:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>X 出道40周年（1984年）</title>
+      <link>https://www.talisman.org/x-debut.shtml</link>
+      <description><![CDATA[文章网址：https://www.talisman.org/x-debut.shtml
+评论网址：https://news.ycombinator.com/item?id=40731922
+积分：47
+评论数：14]]></description>
+      <guid>https://www.talisman.org/x-debut.shtml</guid>
+      <pubDate>Wed, 19 Jun 2024 20:09:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>BB代码</title>
+      <link>https://en.wikipedia.org/wiki/BBCode</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/BBCode
+评论网址：https://news.ycombinator.com/item?id=40731859
+积分：17
+评论数：1]]></description>
+      <guid>https://en.wikipedia.org/wiki/BBCode</guid>
+      <pubDate>Wed, 19 Jun 2024 20:01:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>EasyOS：一个实验性的 Linux 发行版</title>
+      <link>https://easyos.org/</link>
+      <description><![CDATA[文章网址：https://easyos.org/
+评论网址：https://news.ycombinator.com/item?id=40731360
+积分：43
+评论数：11]]></description>
+      <guid>https://easyos.org/</guid>
+      <pubDate>Wed, 19 Jun 2024 18:59:40 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：模块化 Pi Cam</title>
@@ -21,8 +71,8 @@
       <description><![CDATA[这是我围绕树莓派零件/生态系统设计/制作的第三台相机。该仓库包含所有 STL 文件、零件清单和大多数接线图。第一台是定制的 Pi Zero HQ 相机，曾在 Hackaday 文章/播客中介绍过。模块化版本（除了能够更换相机外）大多拥有最新的软件。最近，我添加了在后台处理视频的功能（ffmpeg 将 wav/mp4 文件合并在一起）。相机使用裁剪-缩放-平移功能来拨入手动镜头拍摄。菜单是通过使用 PIL 分层图像/文本创建的。实时预览有点慢，因为它是基于 SPI 的。如果有人是 Python 专家，我将不胜感激对更好代码的见解。我主要只是遵循基于上下文的文件夹布局来确定所有内容的位置。我还没有添加自定义/手动设置，它大部分时间都使用自动设置，除非您使用 V3 相机模块（具有电子光圈），然后它使用 d-pad 设置焦点/屈光度值。我有另一台相机在考虑/未来的构建，虽然它更适合视频。我拍摄的一些示例视频。https://www.youtube.com/watch?v=JkjXkQD0j9w组装视频https://www.youtube.com/watch?v=dXG-MoIw93Q在某个时候，我会重写代码从我所学到的知识来看，这是一个新的通用 DIY 相机软件，这将是一项艰巨的任务。
 
 评论网址：https://news.ycombinator.com/item?id=40730245
-积分：4
-评论数：0]]></description>
+积分：32
+评论数：14]]></description>
       <guid>https://github.com/jdc-cunningham/modular-pi-cam/tree/master/cameras/pi-zero/large-display</guid>
       <pubDate>Wed, 19 Jun 2024 17:16:18 GMT</pubDate>
     </item>
@@ -31,80 +81,30 @@
       <link>http://www.nsl.com/k/f/f.htm</link>
       <description><![CDATA[文章网址：http://www.nsl.com/k/f/f.htm
 评论网址：https://news.ycombinator.com/item?id=40730228
-积分：84
-评论数：5]]></description>
+积分：117
+评论数：12]]></description>
       <guid>http://www.nsl.com/k/f/f.htm</guid>
       <pubDate>Wed, 19 Jun 2024 17:14:13 GMT</pubDate>
     </item>
     <item>
-      <title>Ilya Sutskever 创办 Safe Superintelligence Inc</title>
+      <title>安全超级智能公司</title>
       <link>https://ssi.inc</link>
       <description><![CDATA[文章网址：https://ssi.inc
 评论网址：https://news.ycombinator.com/item?id=40730156
-积分：322
-评论数：157]]></description>
+积分：690
+评论数：506]]></description>
       <guid>https://ssi.inc</guid>
       <pubDate>Wed, 19 Jun 2024 17:06:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>Blacksmith（YC W24）正在招聘前端工程师来改进 GitHub Actions</title>
-      <link>https://www.ycombinator.com/companies/blacksmith/jobs/SgZiNoi-founding-engineer-frontend</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/blacksmith/jobs/SgZiNoi-founding-engineer-frontend
-评论网址：https://news.ycombinator.com/item?id=40730117
-积分：0
-评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/blacksmith/jobs/SgZiNoi-founding-engineer-frontend</guid>
-      <pubDate>Wed, 19 Jun 2024 17:01:12 GMT</pubDate>
     </item>
     <item>
       <title>1/25 比例 Cray C90 腕表</title>
       <link>http://www.chrisfenton.com/1-25-scale-cray-c90-wristwatch/</link>
       <description><![CDATA[文章网址：http://www.chrisfenton.com/1-25-scale-cray-c90-wristwatch/
 评论网址：https://news.ycombinator.com/item?id=40729906
-积分：27
-评论数：4]]></description>
+积分：169
+评论数：26]]></description>
       <guid>http://www.chrisfenton.com/1-25-scale-cray-c90-wristwatch/</guid>
       <pubDate>Wed, 19 Jun 2024 16:40:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>气动管道的回归</title>
-      <link>https://www.technologyreview.com/2024/06/19/1093446/pneumatic-tubes-hospitals/</link>
-      <description><![CDATA[文章网址：https://www.technologyreview.com/2024/06/19/1093446/pneumatic-tubes-hospitals/
-评论网址：https://news.ycombinator.com/item?id=40729809
-积分：16
-评论数：18]]></description>
-      <guid>https://www.technologyreview.com/2024/06/19/1093446/pneumatic-tubes-hospitals/</guid>
-      <pubDate>Wed, 19 Jun 2024 16:30:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>轻度动态网站的消亡（2022 年）</title>
-      <link>https://www.devever.net/~hl/mildlydynamic</link>
-      <description><![CDATA[文章网址：https://www.devever.net/~hl/mildlydynamic
-评论网址：https://news.ycombinator.com/item?id=40729671
-积分：32
-评论数：18]]></description>
-      <guid>https://www.devever.net/~hl/mildlydynamic</guid>
-      <pubDate>Wed, 19 Jun 2024 16:17:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lambda School 的快速犯罪</title>
-      <link>https://www.sandofsky.com/lambda-school/</link>
-      <description><![CDATA[文章网址：https://www.sandofsky.com/lambda-school/
-评论网址：https://news.ycombinator.com/item?id=40729501
-积分：147
-评论数：95]]></description>
-      <guid>https://www.sandofsky.com/lambda-school/</guid>
-      <pubDate>Wed, 19 Jun 2024 15:57:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Arvind 去世</title>
-      <link>https://news.mit.edu/2024/computer-science-professor-arvind-dies-0618</link>
-      <description><![CDATA[文章网址：https://news.mit.edu/2024/computer-science-professor-arvind-dies-0618
-评论网址：https://news.ycombinator.com/item?id=40728814
-积分：91
-评论数：24]]></description>
-      <guid>https://news.mit.edu/2024/computer-science-professor-arvind-dies-0618</guid>
-      <pubDate>Wed, 19 Jun 2024 14:44:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
