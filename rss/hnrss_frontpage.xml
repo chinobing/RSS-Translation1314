@@ -4,7 +4,78 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 18 Jun 2024 21:14:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2024 01:05:30 GMT</lastBuildDate>
+    <item>
+      <title>Lilygo T-玻璃</title>
+      <link>https://www.lilygo.cc/products/t-glass</link>
+      <description><![CDATA[文章网址：https://www.lilygo.cc/products/t-glass
+评论网址：https://news.ycombinator.com/item?id=40723306
+积分：21
+评论数：0]]></description>
+      <guid>https://www.lilygo.cc/products/t-glass</guid>
+      <pubDate>Tue, 18 Jun 2024 23:51:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：为什么基于消息队列的架构现在似乎不那么流行了？</title>
+      <link>https://news.ycombinator.com/item?id=40723302</link>
+      <description><![CDATA[在 2000 年代后期和 2010 年代初期，我记得看到过很多关于使用消息队列构建分布式系统的炒作（例如 Amazon SQS、RabbitMQ、ZeroMQ 等）。许多公司都发布了博客文章，强调他们使用消息队列在节点之间进行异步通信，如果我没记错的话，当时的官方 AWS 设计建议大力推广 SQS。现在，我几乎从未见过工程博客文章或 HN 帖子强调使用消息队列。我偶尔会看到与 Kafka 相关的内容，但与消息队列过去的炒作相比，没有什么变化。发生了什么变化？我知道的可能理论：* Redis 解决了大多数用例以及缓存问题，因此不再有必要支付运行单独消息代理的运营成本。 Kafka 选择了真正大规模的应用程序。* 数据库（广义的）在处理大规模方面已经做得更好了，因此系统设计人员将更多的“瞬时”应用程序状态移到了主数据存储中。* 我们共同意识到基于消息队列的架构并不像我们希望的那样好用，所以我们现在以其他方式构建大多数东西。* 这项技术已经足够成熟，虽然写起来并不令人兴奋，但它仍然被广泛使用。如果有人有基于消息队列设计或实现绿地系统的经验，我会很想听听。我还想了解人们在生产系统中使用消息队列时遇到的任何战争故事或痛点。
+
+评论网址：https://news.ycombinator.com/item?id=40723302
+积分：30
+评论数：8]]></description>
+      <guid>https://news.ycombinator.com/item?id=40723302</guid>
+      <pubDate>Tue, 18 Jun 2024 23:50:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>报道称：苹果将暂停推出下一代高端 Vision 产品，转而推出更便宜的产品</title>
+      <link>https://arstechnica.com/gadgets/2024/06/apple-is-reportedly-shifting-its-next-vision-headset-to-a-cheaper-model/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/gadgets/2024/06/apple-is-reportedly-shifting-its-next-vision-headset-to-a-cheaper-model/
+评论网址：https://news.ycombinator.com/item?id=40723174
+积分：34
+评论数：30]]></description>
+      <guid>https://arstechnica.com/gadgets/2024/06/apple-is-reportedly-shifting-its-next-vision-headset-to-a-cheaper-model/</guid>
+      <pubDate>Tue, 18 Jun 2024 23:30:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>启用 NAT 的 Wi-Fi 网络中的路径外 TCP 劫持</title>
+      <link>https://blog.apnic.net/2024/06/18/off-path-tcp-hijacking-in-nat-enabled-wi-fi-networks/</link>
+      <description><![CDATA[文章网址：https://blog.apnic.net/2024/06/18/off-path-tcp-hijacking-in-nat-enabled-wi-fi-networks/
+评论网址：https://news.ycombinator.com/item?id=40723150
+积分：3
+评论数：0]]></description>
+      <guid>https://blog.apnic.net/2024/06/18/off-path-tcp-hijacking-in-nat-enabled-wi-fi-networks/</guid>
+      <pubDate>Tue, 18 Jun 2024 23:27:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>捐赠衣物加剧非洲“mitumba”问题</title>
+      <link>https://www.washingtonpost.com/opinions/2024/05/22/clothes-donations-africa-kenya-waste/</link>
+      <description><![CDATA[文章网址：https://www.washingtonpost.com/opinions/2024/05/22/clothes-donations-africa-kenya-waste/
+评论网址：https://news.ycombinator.com/item?id=40722983
+积分：16
+评论数：15]]></description>
+      <guid>https://www.washingtonpost.com/opinions/2024/05/22/clothes-donations-africa-kenya-waste/</guid>
+      <pubDate>Tue, 18 Jun 2024 22:59:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rust 中的 IPC – 乒乓比较</title>
+      <link>https://3tilley.github.io/posts/simple-ipc-ping-pong/</link>
+      <description><![CDATA[文章网址：https://3tilley.github.io/posts/simple-ipc-ping-pong/
+评论网址：https://news.ycombinator.com/item?id=40722850
+积分：26
+评论数：3]]></description>
+      <guid>https://3tilley.github.io/posts/simple-ipc-ping-pong/</guid>
+      <pubDate>Tue, 18 Jun 2024 22:40:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>高级 Shell 脚本技术：使用 Bash 自动执行复杂任务</title>
+      <link>https://omid.dev/2024/06/19/advanced-shell-scripting-techniques-automating-complex-tasks-with-bash/</link>
+      <description><![CDATA[文章网址：https://omid.dev/2024/06/19/advanced-shell-scripting-techniques-automating-complex-tasks-with-bash/
+评论网址：https://news.ycombinator.com/item?id=40722745
+积分：14
+评论数：3]]></description>
+      <guid>https://omid.dev/2024/06/19/advanced-shell-scripting-techniques-automating-complex-tasks-with-bash/</guid>
+      <pubDate>Tue, 18 Jun 2024 22:27:45 GMT</pubDate>
+    </item>
     <item>
       <title>Hadrius (YC W23) 正在招聘希望成长为未来创始人的工程师</title>
       <link>https://www.ycombinator.com/companies/hadrius/jobs/1z3APsX-founding-engineer</link>
@@ -16,96 +87,24 @@
       <pubDate>Tue, 18 Jun 2024 21:00:51 GMT</pubDate>
     </item>
     <item>
-      <title>使用 Git 对 FreeCAD 文件进行版本控制</title>
-      <link>https://blog.lambda.cx/posts/freecad-and-git/</link>
-      <description><![CDATA[文章网址：https://blog.lambda.cx/posts/freecad-and-git/
-评论网址：https://news.ycombinator.com/item?id=40721623
-积分：15
-评论数：3]]></description>
-      <guid>https://blog.lambda.cx/posts/freecad-and-git/</guid>
-      <pubDate>Tue, 18 Jun 2024 19:59:31 GMT</pubDate>
+      <title>亚马逊因违反加州劳动法被罚款 590 万美元</title>
+      <link>https://www.washingtonpost.com/technology/2024/06/18/amazon-fine-labor-law-california/</link>
+      <description><![CDATA[文章网址：https://www.washingtonpost.com/technology/2024/06/18/amazon-fine-labor-law-california/
+评论网址：https://news.ycombinator.com/item?id=40722155
+积分：167
+评论数：143]]></description>
+      <guid>https://www.washingtonpost.com/technology/2024/06/18/amazon-fine-labor-law-california/</guid>
+      <pubDate>Tue, 18 Jun 2024 20:59:37 GMT</pubDate>
     </item>
     <item>
-      <title>《自然》杂志撤回声称成体干细胞可以变成任何类型细胞的论文</title>
-      <link>https://retractionwatch.com/2024/06/18/nature-retracts-highly-cited-2002-paper-that-claimed-adult-stem-cells-could-become-any-type-of-cell/</link>
-      <description><![CDATA[文章网址：https://retractionwatch.com/2024/06/18/nature-retracts-highly-cited-2002-paper-that-c​​laimed-adult-stem-cells-could-become-any-type-of-cell/
-评论网址：https://news.ycombinator.com/item?id=40720629
-积分：99
-评论数：46]]></description>
-      <guid>https://retractionwatch.com/2024/06/18/nature-retracts-highly-cited-2002-paper-that-claimed-adult-stem-cells-could-become-any-type-of-cell/</guid>
-      <pubDate>Tue, 18 Jun 2024 18:23:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>3D 高斯溅射作为马尔可夫链蒙特卡洛</title>
-      <link>https://ubc-vision.github.io/3dgs-mcmc/</link>
-      <description><![CDATA[文章网址：https://ubc-vision.github.io/3dgs-mcmc/
-评论网址：https://news.ycombinator.com/item?id=40719975
-积分：117
-评论数：17]]></description>
-      <guid>https://ubc-vision.github.io/3dgs-mcmc/</guid>
-      <pubDate>Tue, 18 Jun 2024 17:08:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>分享 Meta FAIR 的新研究、模型和数据集</title>
-      <link>https://ai.meta.com/blog/meta-fair-research-new-releases/</link>
-      <description><![CDATA[文章网址：https://ai.meta.com/blog/meta-fair-research-new-releases/
-评论网址：https://news.ycombinator.com/item?id=40719921
-积分：151
-评论数：32]]></description>
-      <guid>https://ai.meta.com/blog/meta-fair-research-new-releases/</guid>
-      <pubDate>Tue, 18 Jun 2024 17:01:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>“发光”植物可帮助科学家预测突发干旱</title>
-      <link>https://www.jpl.nasa.gov/news/ow-glowing-plants-could-help-scientists-predict-flash-drought</link>
-      <description><![CDATA[文章网址：https://www.jpl.nasa.gov/news/ow-glowing-plants-could-help-scientists-predict-flash-drought
-评论网址：https://news.ycombinator.com/item?id=40719905
-积分：22
-评论数：4]]></description>
-      <guid>https://www.jpl.nasa.gov/news/ow-glowing-plants-could-help-scientists-predict-flash-drought</guid>
-      <pubDate>Tue, 18 Jun 2024 17:00:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：台球 – 通过 2D 空间中的球碰撞生成音乐</title>
-      <link>https://billard.medusis.com/</link>
-      <description><![CDATA[你好，HN！这是 Billard。它将音乐和物理结合成一个独特的创意工具，我探索了各种非常规的音乐生成方法。大多数传统的音乐创作工具都围绕着可重复模式的理念。Billard 是一个永不重复的 Web 应用程序。它根据 2D 空间中球的碰撞自动生成音乐。碰撞会触发给定键中的音符（或和弦）。可以添加球或移动它们（y 位置是音高）；应用程序会在重新加载之间记住其状态；或者可以使用左上角的“init”按钮重置。重力可以实时调整以改变球的行为。它的灵感很大程度上来自 Brian Eno 和 Erik Satie（musique d&#39;ameublement 或“家具音乐”的发明者）。有些人可能认为缺乏模式使得它不够有音乐感——但这让人们可以听一会儿——和看一会儿——而不会感到无聊。该 Web 应用程序使用纯 JavaScript 制作。（所有 SVG 图标都是“手工”制作的。）它仅使用 Tone.js 来触发钢琴样本。除了钢琴之外，它还支持 MIDI，并且在慢速下也能很好地播放令人难以忘怀的黑暗合成器声音。希望你喜欢它！
-
-评论网址：https://news.ycombinator.com/item?id=40719782
-积分：103
-评论数：31]]></description>
-      <guid>https://billard.medusis.com/</guid>
-      <pubDate>Tue, 18 Jun 2024 16:45:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>DeepComputing 推出全新 RISC-V 主板</title>
-      <link>https://frame.work/blog/introducing-a-new-risc-v-mainboard-from-deepcomputing</link>
-      <description><![CDATA[文章网址：https://frame.work/blog/introducing-a-new-risc-v-mainboard-from-deepcomputing
-评论网址：https://news.ycombinator.com/item?id=40718124
-积分：384
-评论数：89]]></description>
-      <guid>https://frame.work/blog/introducing-a-new-risc-v-mainboard-from-deepcomputing</guid>
-      <pubDate>Tue, 18 Jun 2024 14:15:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>微小之美：我是如何在显微镜后面创造科学艺术的</title>
-      <link>https://www.nature.com/immersive/d41586-024-02011-6/index.html</link>
-      <description><![CDATA[文章网址：https://www.nature.com/immersive/d41586-024-02011-6/index.html
-评论网址：https://news.ycombinator.com/item?id=40717804
-积分：48
-评论数：8]]></description>
-      <guid>https://www.nature.com/immersive/d41586-024-02011-6/index.html</guid>
-      <pubDate>Tue, 18 Jun 2024 13:45:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过自动视域分析彻底改变太阳能发电厂的勘探</title>
-      <link>https://www.go-inicio.com/blog/a-new-look-revolutionizing-solar-plant-prospection-with-automated-viewshed-analysis</link>
-      <description><![CDATA[嗨，HN！这是我的第一篇博客文章，讨论我在 Inicio 工作时遇到的一个挑战。我们公司正在使用算法和地理空间数据勘探适合太阳能发电厂的土地。本文将指导您完成我最近完成的工作，找到符合可见性约束的最佳位置。我希望您觉得我们的解决方案很有见地！
-
-评论网址：https://news.ycombinator.com/item?id=40717721
-积分：46
-评论数：16]]></description>
-      <guid>https://www.go-inicio.com/blog/a-new-look-revolutionizing-solar-plant-prospection-with-automated-viewshed-analysis</guid>
-      <pubDate>Tue, 18 Jun 2024 13:37:04 GMT</pubDate>
+      <title>叛逆的感觉——叶夫根尼·莫罗佐夫的播客系列</title>
+      <link>https://www.sense-of-rebellion.com/</link>
+      <description><![CDATA[文章网址：https://www.sense-of-rebellion.com/
+评论网址：https://news.ycombinator.com/item?id=40721829
+积分：8
+评论数：0]]></description>
+      <guid>https://www.sense-of-rebellion.com/</guid>
+      <pubDate>Tue, 18 Jun 2024 20:21:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
