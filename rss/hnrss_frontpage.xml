@@ -4,107 +4,114 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 20 Jun 2024 15:17:12 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 18:21:20 GMT</lastBuildDate>
+    <item>
+      <title>问 HN：React 和 Node 存储库架构良好吗？</title>
+      <link>https://news.ycombinator.com/item?id=40741304</link>
+      <description><![CDATA[有人能举出你认为结构良好的 React / Node 应用的例子吗？或者只是你真正喜欢的个别模式？我正在考虑以下事情：
+- 文件夹结构和命名
+- 组件分解和组成
+- 路由模式（前端和后端）
+- 错误处理
+- 自定义钩子抽象
+- 受保护的路由 / 身份验证执行背景：我们一直在 React / Vite / Fastify / tRPC 堆栈上构建大量 SPA 应用，虽然我喜欢灵活性和 devEx，但我发现它会导致一定程度的 bikeshedding 和临时架构模式的形成，尤其是当我们并行构建类似功能时，所以我很好奇其他人是如何提升他们的架构敏感性的？
+
+评论 URL：https://news.ycombinator.com/item?id=40741304
+积分：10
+评论数：2]]></description>
+      <guid>https://news.ycombinator.com/item?id=40741304</guid>
+      <pubDate>Thu, 20 Jun 2024 17:50:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>小额索赔法庭成为 Meta 的客户服务热线</title>
+      <link>https://www.engadget.com/how-small-claims-court-became-metas-customer-service-hotline-160224479.html</link>
+      <description><![CDATA[文章网址：https://www.engadget.com/how-small-claims-court-became-metas-customer-service-hotline-160224479.html
+评论网址：https://news.ycombinator.com/item?id=40741197
+积分：36
+评论数：4]]></description>
+      <guid>https://www.engadget.com/how-small-claims-court-became-metas-customer-service-hotline-160224479.html</guid>
+      <pubDate>Thu, 20 Jun 2024 17:37:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>测试显示 Instagram 向 13 岁青少年推荐色情视频</title>
+      <link>https://www.wsj.com/tech/instagram-recommends-sexual-videos-to-accounts-for-13-year-olds-tests-show-b6123c65</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/tech/instagram-recommends-sexual-videos-to-accounts-for-13-year-olds-tests-show-b6123c65
+评论网址：https://news.ycombinator.com/item?id=40741160
+积分：23
+评论数：9]]></description>
+      <guid>https://www.wsj.com/tech/instagram-recommends-sexual-videos-to-accounts-for-13-year-olds-tests-show-b6123c65</guid>
+      <pubDate>Thu, 20 Jun 2024 17:33:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>塔吉克斯坦笔记</title>
+      <link>https://mattlakeman.org/2024/06/20/notes-on-tajikistan/</link>
+      <description><![CDATA[文章网址：https://mattlakeman.org/2024/06/20/notes-on-tajikistan/
+评论网址：https://news.ycombinator.com/item?id=40741068
+积分：3
+评论数：0]]></description>
+      <guid>https://mattlakeman.org/2024/06/20/notes-on-tajikistan/</guid>
+      <pubDate>Thu, 20 Jun 2024 17:24:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Artisan (YC W24) 正在招聘优秀的全栈工程师</title>
+      <link>https://www.ycombinator.com/companies/artisan/jobs/HGhUCbv-full-stack-engineer</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/artisan/jobs/HGhUCbv-full-stack-engineer
+评论网址：https://news.ycombinator.com/item?id=40740843
+积分：0
+评论数：0]]></description>
+      <guid>https://www.ycombinator.com/companies/artisan/jobs/HGhUCbv-full-stack-engineer</guid>
+      <pubDate>Thu, 20 Jun 2024 17:00:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>向 HN 展示：我制作了一款益智游戏，巧妙地介绍了我最喜欢的数学谜题</title>
+      <link>https://www.rahulilango.com/coloring/</link>
+      <description><![CDATA[这是我正在制作的一款小游戏的第一次迭代，该游戏试图以交互方式解释我最喜欢的一些数学问题/想法。我的目标主要是让玩家好奇，而不一定解释所有事情。构建这个游戏有很多有趣的技术部分：- 出于实施原因，如果所有线条都有整数交叉点，则容易得多。为此，当添加一条新线时，我会“作弊”，将交叉点四舍五入为整数，然后将交叉点处的旧线拆分为通过圆点的新线（可能具有不同的斜率）- 我必须仅使用线段在 HTML 画布上绘制实际地点（英国、南美、美国西海岸）的半精确地图。我尝试了几种不同的解决方案，包括使用 SVG 数据。我最终使用了 topojson 库来为 GeoJSON 地图提供良好的线条近似值- 我使用简单的回溯算法来处理图形的实时着色- 我使用 turf.js 的多边形函数来处理从线段查找多边形（很高兴我不必自己实现这个！）- 我希望让游戏尽可能适合移动设备（我认为我还没有完全做到这一点）我也做了一些权衡：- 我希望在游戏早期就提供链接让玩家了解更多信息，但我决定等到最后以保持游戏的流畅性- 为了让游戏更适合移动设备，我通常坚持使用区域数量较少的地图（至少对于人们必须与之交互的地图）。因此，游戏中的大部分实例都是“简单”的
+
+评论网址：https://news.ycombinator.com/item?id=40740021
+积分：134
+评论数：37]]></description>
+      <guid>https://www.rahulilango.com/coloring/</guid>
+      <pubDate>Thu, 20 Jun 2024 15:45:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>阿特金森犹豫</title>
+      <link>https://beyondloom.com/blog/dither.html</link>
+      <description><![CDATA[文章网址：https://beyondloom.com/blog/dither.html
+评论网址：https://news.ycombinator.com/item?id=40739710
+积分：101
+评论数：45]]></description>
+      <guid>https://beyondloom.com/blog/dither.html</guid>
+      <pubDate>Thu, 20 Jun 2024 15:18:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>帝国的计算：1500 年以来的科技与权力谱系</title>
+      <link>https://calculatingempires.net/</link>
+      <description><![CDATA[文章网址：https://calculatingempires.net/
+评论网址：https://news.ycombinator.com/item?id=40739384
+积分：22
+评论数：4]]></description>
+      <guid>https://calculatingempires.net/</guid>
+      <pubDate>Thu, 20 Jun 2024 14:50:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>优化 Character.ai 的 AI 推理</title>
+      <link>https://research.character.ai/optimizing-inference/</link>
+      <description><![CDATA[文章网址：https://research.character.ai/optimizing-inference/
+评论网址：https://news.ycombinator.com/item?id=40739225
+积分：46
+评论数：3]]></description>
+      <guid>https://research.character.ai/optimizing-inference/</guid>
+      <pubDate>Thu, 20 Jun 2024 14:35:35 GMT</pubDate>
+    </item>
     <item>
       <title>克劳德 3.5 十四行诗</title>
       <link>https://www.anthropic.com/news/claude-3-5-sonnet</link>
       <description><![CDATA[文章网址：https://www.anthropic.com/news/claude-3-5-sonnet
 评论网址：https://news.ycombinator.com/item?id=40738916
-积分：134
-评论数：29]]></description>
+积分：385
+评论数：146]]></description>
       <guid>https://www.anthropic.com/news/claude-3-5-sonnet</guid>
       <pubDate>Thu, 20 Jun 2024 14:03:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>Wc2：研究优化 Unix 字数统计程序“wc”</title>
-      <link>https://github.com/robertdavidgraham/wc2</link>
-      <description><![CDATA[文章网址：https://github.com/robertdavidgraham/wc2
-评论网址：https://news.ycombinator.com/item?id=40738833
-积分：38
-评论数：13]]></description>
-      <guid>https://github.com/robertdavidgraham/wc2</guid>
-      <pubDate>Thu, 20 Jun 2024 13:54:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>阿多尼斯</title>
-      <link>https://adonisjs.com/</link>
-      <description><![CDATA[文章网址：https://adonisjs.com/
-评论网址：https://news.ycombinator.com/item?id=40738088
-积分：3
-评论数：0]]></description>
-      <guid>https://adonisjs.com/</guid>
-      <pubDate>Thu, 20 Jun 2024 12:42:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>展示 HN：Midday – 让你的企业更智能地运营（开源）</title>
-      <link>https://midday.ai</link>
-      <description><![CDATA[我和我最好的朋友正在为小型企业、自由职业者和承包商构建一个开源平台，以便他们更有效地管理运营。我们的平台提供财务洞察、时间跟踪、发票等工具。它是完全开源的，我们采用具有公共指标的开放式创业方法。我们很乐意听到您的想法！
-
-评论网址：https://news.ycombinator.com/item?id=40737901
-积分：40
-评论数：16]]></description>
-      <guid>https://midday.ai</guid>
-      <pubDate>Thu, 20 Jun 2024 12:25:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>BuildZoom（建造定制住宅的更好方式）正在招聘增长助理</title>
-      <link>https://jobs.lever.co/buildzoom</link>
-      <description><![CDATA[文章网址：https://jobs.lever.co/buildzoom
-评论网址：https://news.ycombinator.com/item?id=40737674
-积分：0
-评论数：0]]></description>
-      <guid>https://jobs.lever.co/buildzoom</guid>
-      <pubDate>Thu, 20 Jun 2024 12:00:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>NPM 和 NodeJS 应该做更多工作来让 ES 模块更易于使用</title>
-      <link>https://borischerny.com/javascript,/typescript/2024/06/19/ES-Modules-Are-A-Mess.html</link>
-      <description><![CDATA[文章网址：https://borischerny.com/javascript,/typescript/2024/06/19/ES-Modules-Are-A-Mess.html
-评论网址：https://news.ycombinator.com/item?id=40737508
-积分：86
-评论数：72]]></description>
-      <guid>https://borischerny.com/javascript,/typescript/2024/06/19/ES-Modules-Are-A-Mess.html</guid>
-      <pubDate>Thu, 20 Jun 2024 11:40:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>先进塑料回收的迷思</title>
-      <link>https://www.propublica.org/article/delusion-advanced-chemical-plastic-recycling-pyrolysis</link>
-      <description><![CDATA[文章网址：https://www.propublica.org/article/delusion-advanced-chemical-plastic-recycling-pyrolysis
-评论网址：https://news.ycombinator.com/item?id=40737308
-积分：72
-评论数：36]]></description>
-      <guid>https://www.propublica.org/article/delusion-advanced-chemical-plastic-recycling-pyrolysis</guid>
-      <pubDate>Thu, 20 Jun 2024 11:12:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>俄罗斯方块字体</title>
-      <link>https://erikdemaine.org/fonts/tetris/</link>
-      <description><![CDATA[文章网址：https://erikdemaine.org/fonts/tetris/
-评论网址：https://news.ycombinator.com/item?id=40737294
-积分：277
-评论数：38]]></description>
-      <guid>https://erikdemaine.org/fonts/tetris/</guid>
-      <pubDate>Thu, 20 Jun 2024 11:11:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>自转曲线：百万光年后依然平坦</title>
-      <link>https://tritonstation.com/2024/06/18/rotation-curves-still-flat-after-a-million-light-years/</link>
-      <description><![CDATA[文章网址：https://tritonstation.com/2024/06/18/rotation-curves-still-flat-after-a-million-light-years/
-评论网址：https://news.ycombinator.com/item?id=40737249
-积分：52
-评论数：18]]></description>
-      <guid>https://tritonstation.com/2024/06/18/rotation-curves-still-flat-after-a-million-light-years/</guid>
-      <pubDate>Thu, 20 Jun 2024 11:04:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>欧盟理事会撤回了对聊天控制的投票</title>
-      <link>https://stackdiary.com/eu-council-has-withdrawn-the-vote-on-chat-control/</link>
-      <description><![CDATA[文章网址：https://stackdiary.com/eu-council-has-withdrawn-the-vote-on-chat-c​​ontrol/
-评论网址：https://news.ycombinator.com/item?id=40736771
-积分：537
-评论数：248]]></description>
-      <guid>https://stackdiary.com/eu-council-has-withdrawn-the-vote-on-chat-control/</guid>
-      <pubDate>Thu, 20 Jun 2024 09:45:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
