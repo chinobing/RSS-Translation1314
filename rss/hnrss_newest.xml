@@ -4,107 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 21 Jun 2024 01:04:41 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 03:17:45 GMT</lastBuildDate>
     <item>
-      <title>洛杉矶市中心新建高层建筑 60 万美元为无家可归者提供住房</title>
-      <link>https://abc7news.com/post/new-high-rise-building-house-skid-row-homeless/14976180/</link>
-      <description><![CDATA[文章网址：https://abc7news.com/post/new-high-rise-building-house-skid-row-homeless/14976180/
-评论网址：https://news.ycombinator.com/item?id=40745141
+      <title>Solid Silicon 加入 OpenPOWER 基金会</title>
+      <link>https://openpowerfoundation.org/blog/solidsilicon-joins-openpower-foundation/</link>
+      <description><![CDATA[文章网址：https://openpowerfoundation.org/blog/solidsilicon-joins-openpower-foundation/
+评论网址：https://news.ycombinator.com/item?id=40745735
 积分：1
 评论数：0]]></description>
-      <guid>https://abc7news.com/post/new-high-rise-building-house-skid-row-homeless/14976180/</guid>
-      <pubDate>Fri, 21 Jun 2024 00:59:51 GMT</pubDate>
+      <guid>https://openpowerfoundation.org/blog/solidsilicon-joins-openpower-foundation/</guid>
+      <pubDate>Fri, 21 Jun 2024 03:08:04 GMT</pubDate>
     </item>
     <item>
-      <title>今晚与印象派画家</title>
-      <link>https://mssv.net/2024/06/18/tonight-with-the-impressionists/</link>
-      <description><![CDATA[文章网址：https://mssv.net/2024/06/18/tonight-with-the-impressionists/
-评论网址：https://news.ycombinator.com/item?id=40745133
+      <title>黑猩猩利用药用植物进行“自我治疗”</title>
+      <link>https://www.bbc.com/news/articles/ce994dv9q4eo</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/ce994dv9q4eo
+评论网址：https://news.ycombinator.com/item?id=40745718
 积分：1
 评论数：0]]></description>
-      <guid>https://mssv.net/2024/06/18/tonight-with-the-impressionists/</guid>
-      <pubDate>Fri, 21 Jun 2024 00:58:40 GMT</pubDate>
+      <guid>https://www.bbc.com/news/articles/ce994dv9q4eo</guid>
+      <pubDate>Fri, 21 Jun 2024 03:05:17 GMT</pubDate>
     </item>
     <item>
-      <title>向 HN 展示：Chattysun.com 是向您的网站添加聊天机器人的最简单方法</title>
-      <link>https://chattysun.com</link>
-      <description><![CDATA[登录后，您可以向 LLM 提供任何您想要的说明，并将我们提供的代码复制到您的 HTML 中感谢您在 Solstice 上看到快乐
+      <title>微软最近有进行搬迁项目吗？</title>
+      <link>https://www.theregister.com/2024/05/17/microsoft_china_staff_relocate/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2024/05/17/microsoft_china_staff_relocate/
+评论网址：https://news.ycombinator.com/item?id=40745714
+积分：1
+评论数：0]]></description>
+      <guid>https://www.theregister.com/2024/05/17/microsoft_china_staff_relocate/</guid>
+      <pubDate>Fri, 21 Jun 2024 03:02:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claude 3.5 Sonnet 在 Aider LLM 排行榜上名列前茅</title>
+      <link>https://aider.chat/docs/leaderboards/#claude-35-sonnet-takes-the-top-spot</link>
+      <description><![CDATA[文章网址：https://aider.chat/docs/leaderboards/#claude-35-sonnet-takes-the-top-spot
+评论网址：https://news.ycombinator.com/item?id=40745710
+积分：1
+评论数：0]]></description>
+      <guid>https://aider.chat/docs/leaderboards/#claude-35-sonnet-takes-the-top-spot</guid>
+      <pubDate>Fri, 21 Jun 2024 03:00:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Continuum – 结识来自世界各地的人...然后杀死他们</title>
+      <link>https://www.getcontinuum.com/</link>
+      <description><![CDATA[文章网址：https://www.getcontinuum.com/
+评论网址：https://news.ycombinator.com/item?id=40745703
+积分：1
+评论数：0]]></description>
+      <guid>https://www.getcontinuum.com/</guid>
+      <pubDate>Fri, 21 Jun 2024 02:59:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：用于即时“洗牌” ML 数据的 Python 库</title>
+      <link>https://github.com/RuneBlaze/smallperm</link>
+      <description><![CDATA[在大规模 ML 训练中，对包含超过 10 亿个数据点的数据集（例如 LAION-5B）进行混洗是很常见的。典型的方法，如对索引数组执行 `np.random.shuffle`、对整个数据集执行 `df.sample(frac=1)` 或使用在线 Fisher-Yates，都有明显的缺点：1. 当您拥有 &gt; 1B 数据时，np.random.shuffle 实际上有点慢。它会占用您宝贵的时间来考虑“我是否可以进入我的训练循环来查看一切是否有效”。
+2. 它们占用 O(n) 额外的内存我想展示一个很酷的技巧，这个技巧应该在大规模 ML 从业者中更受欢迎 - 使用廉价的对称密码（“伪随机排列”）动态生成 [0, 1, 2, ..., n - 1] 的排列。这种方法允许您使用 O(1) 空间和时间（无需存储数组的额外混洗版本）获得 [0..n] 的排列，并使用您选择的种子。您可以在 O(1) 时间内随机索引，并且可以立即为任何数据规模生成排列，有效地像 np.random.shuffle 一样运行，但可以立即生成。唯一的权衡是混洗质量略有下降，但这通常与 ML 训练目的无关。使用 Feistel 密码进行快速混洗并不是一个新概念，可以用各种语言实现。此 Show HN 提交“smallperm”值得注意，因为1. 它是一个 Python 库，而 Python 是 ML 的实际语言2. 它由 Rust 支持，并且经过高效设计（遍历排列比遍历“np.arange”慢 2 到 3 倍，也就是说比纯 Python 实现快几个数量级）3.在测试过程中，这个库在统计测试中比其他一些基于密码的库具有更高的 shuffle 质量最后，我还要大声说一句，对于十亿级的数据，并不总是需要 np.random.shuffle ;)。也许每次启动三分钟的 `np.random.shuffle` 并不算长，但我们通常可以在 0 秒内完成 shuffle。
 
-评论网址：https://news.ycombinator.com/item?id=40745107
+评论网址：https://news.ycombinator.com/item?id=40745692
 积分：1
 评论数：0]]></description>
-      <guid>https://chattysun.com</guid>
-      <pubDate>Fri, 21 Jun 2024 00:52:49 GMT</pubDate>
+      <guid>https://github.com/RuneBlaze/smallperm</guid>
+      <pubDate>Fri, 21 Jun 2024 02:57:01 GMT</pubDate>
     </item>
     <item>
-      <title>壳牌在陆地和海上开设首个兆瓦级电动汽车充电站</title>
-      <link>https://electrek.co/2024/06/19/shell-opens-first-megawatt-ev-charging-station-for-land-and-sea/</link>
-      <description><![CDATA[文章网址：https://electrek.co/2024/06/19/shell-opens-first-megawatt-ev-charging-station-for-land-and-sea/
-评论网址：https://news.ycombinator.com/item?id=40745086
+      <title>使用具有合理否认能力的加密是否安全？</title>
+      <link>https://www.blunix.com/blog/plausible-encryption-deniability-on-linux-with-cryptsetup-luks.html</link>
+      <description><![CDATA[文章网址：https://www.blunix.com/blog/plausible-encryption-deniability-on-linux-with-cryptsetup-luks.html
+评论网址：https://news.ycombinator.com/item?id=40745690
 积分：1
 评论数：0]]></description>
-      <guid>https://electrek.co/2024/06/19/shell-opens-first-megawatt-ev-charging-station-for-land-and-sea/</guid>
-      <pubDate>Fri, 21 Jun 2024 00:49:55 GMT</pubDate>
+      <guid>https://www.blunix.com/blog/plausible-encryption-deniability-on-linux-with-cryptsetup-luks.html</guid>
+      <pubDate>Fri, 21 Jun 2024 02:56:52 GMT</pubDate>
     </item>
     <item>
-      <title>三聚氰胺海绵在擦洗时会脱落微塑料</title>
-      <link>https://pubs.acs.org/doi/10.1021/acs.est.4c00846</link>
-      <description><![CDATA[文章网址：https://pubs.acs.org/doi/10.1021/acs.est.4c00846
-评论网址：https://news.ycombinator.com/item?id=40745085
+      <title>特朗普称从美国大学毕业的外国人应该获得绿卡</title>
+      <link>https://www.reuters.com/world/us/trump-says-foreign-college-graduates-should-automatically-get-green-cards-2024-06-20/</link>
+      <description><![CDATA[文章网址：https://www.reuters.com/world/us/trump-says-foreign-college-graduates-should-automatically-get-green-cards-2024-06-20/
+评论网址：https://news.ycombinator.com/item?id=40745678
 积分：2
 评论数：0]]></description>
-      <guid>https://pubs.acs.org/doi/10.1021/acs.est.4c00846</guid>
-      <pubDate>Fri, 21 Jun 2024 00:49:32 GMT</pubDate>
+      <guid>https://www.reuters.com/world/us/trump-says-foreign-college-graduates-should-automatically-get-green-cards-2024-06-20/</guid>
+      <pubDate>Fri, 21 Jun 2024 02:54:32 GMT</pubDate>
     </item>
     <item>
-      <title>记录软件架构</title>
-      <link>https://newsletter.techworld-with-milan.com/p/documenting-software-architectures</link>
-      <description><![CDATA[文章网址：https://newsletter.techworld-with-milan.com/p/documenting-software-architectures
-评论网址：https://news.ycombinator.com/item?id=40745066
+      <title>TypeScript 特性的制作：推断类型谓词</title>
+      <link>https://effectivetypescript.com/2024/04/16/inferring-a-type-predicate/</link>
+      <description><![CDATA[文章网址：https://effectivetypescript.com/2024/04/16/inferring-a-type-predicate/
+评论网址：https://news.ycombinator.com/item?id=40745670
 积分：1
 评论数：0]]></description>
-      <guid>https://newsletter.techworld-with-milan.com/p/documenting-software-architectures</guid>
-      <pubDate>Fri, 21 Jun 2024 00:46:36 GMT</pubDate>
+      <guid>https://effectivetypescript.com/2024/04/16/inferring-a-type-predicate/</guid>
+      <pubDate>Fri, 21 Jun 2024 02:53:45 GMT</pubDate>
     </item>
     <item>
-      <title>Tor 浏览器 13.5 已发布</title>
-      <link>https://blog.torproject.org/new-release-tor-browser-135/</link>
-      <description><![CDATA[文章网址：https://blog.torproject.org/new-release-tor-browser-135/
-评论网址：https://news.ycombinator.com/item?id=40745043
-积分：3
-评论数：0]]></description>
-      <guid>https://blog.torproject.org/new-release-tor-browser-135/</guid>
-      <pubDate>Fri, 21 Jun 2024 00:42:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>探索缓存的工作原理</title>
-      <link>https://pikuma.com/blog/understanding-computer-cache</link>
-      <description><![CDATA[文章网址：https://pikuma.com/blog/understanding-computer-cache
-评论网址：https://news.ycombinator.com/item?id=40745041
+      <title>展示 HN：使用设备上的计算功能编写和阅读儿童故事</title>
+      <link>https://picolibrary.netlify.app</link>
+      <description><![CDATA[我对小型语言模型的潜力感到非常兴奋。语言模型的进步，加上功能越来越强大的移动设备，使得我们可以在口袋里携带包含数十亿个参数的语言模型。在我休陪产假期间，我开始建立 Pico Library，让讲故事的时间对我和我的孩子都更有吸引力。作为一个新手爸爸，我深刻地意识到给孩子读书的重要性。Pico Library 使用语言模型来编写故事，它可以利用 Apple 的设备上个人语音功能大声朗读故事。一切都由设备上的计算提供支持，这意味着不需要互联网连接。我很乐意聊聊 Pico Library 中的技术——让我兴奋的和让我感到惊讶的。我也很好奇其他人会用类似的技术构建什么。
+
+评论网址：https://news.ycombinator.com/item?id=40745664
 积分：1
 评论数：0]]></description>
-      <guid>https://pikuma.com/blog/understanding-computer-cache</guid>
-      <pubDate>Fri, 21 Jun 2024 00:41:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>FAIR 的 Chameleon 早期融合代码</title>
-      <link>https://github.com/facebookresearch/chameleon</link>
-      <description><![CDATA[文章网址：https://github.com/facebookresearch/chameleon
-评论网址：https://news.ycombinator.com/item?id=40745022
-积分：1
-评论数：1]]></description>
-      <guid>https://github.com/facebookresearch/chameleon</guid>
-      <pubDate>Fri, 21 Jun 2024 00:39:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>LSL3 年龄测验</title>
-      <link>https://allowe.com/games/larry/tips-manuals/lsl3-age-quiz.html</link>
-      <description><![CDATA[文章网址：https://allowe.com/games/larry/tips-manuals/lsl3-age-quiz.html
-评论网址：https://news.ycombinator.com/item?id=40744999
-积分：1
-评论数：0]]></description>
-      <guid>https://allowe.com/games/larry/tips-manuals/lsl3-age-quiz.html</guid>
-      <pubDate>Fri, 21 Jun 2024 00:35:50 GMT</pubDate>
+      <guid>https://picolibrary.netlify.app</guid>
+      <pubDate>Fri, 21 Jun 2024 02:52:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
