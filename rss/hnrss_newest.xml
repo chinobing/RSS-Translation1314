@@ -4,109 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 21 Jun 2024 03:17:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2024 06:21:41 GMT</lastBuildDate>
     <item>
-      <title>Solid Silicon 加入 OpenPOWER 基金会</title>
-      <link>https://openpowerfoundation.org/blog/solidsilicon-joins-openpower-foundation/</link>
-      <description><![CDATA[文章网址：https://openpowerfoundation.org/blog/solidsilicon-joins-openpower-foundation/
-评论网址：https://news.ycombinator.com/item?id=40745735
+      <title>金熊陷阱</title>
+      <link>https://www.sandofsky.com/golden-bear-traps/</link>
+      <description><![CDATA[文章网址：https://www.sandofsky.com/golden-bear-traps/
+评论网址：https://news.ycombinator.com/item?id=40746671
 积分：1
 评论数：0]]></description>
-      <guid>https://openpowerfoundation.org/blog/solidsilicon-joins-openpower-foundation/</guid>
-      <pubDate>Fri, 21 Jun 2024 03:08:04 GMT</pubDate>
+      <guid>https://www.sandofsky.com/golden-bear-traps/</guid>
+      <pubDate>Fri, 21 Jun 2024 06:10:19 GMT</pubDate>
     </item>
     <item>
-      <title>黑猩猩利用药用植物进行“自我治疗”</title>
-      <link>https://www.bbc.com/news/articles/ce994dv9q4eo</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/ce994dv9q4eo
-评论网址：https://news.ycombinator.com/item?id=40745718
-积分：1
-评论数：0]]></description>
-      <guid>https://www.bbc.com/news/articles/ce994dv9q4eo</guid>
-      <pubDate>Fri, 21 Jun 2024 03:05:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软最近有进行搬迁项目吗？</title>
-      <link>https://www.theregister.com/2024/05/17/microsoft_china_staff_relocate/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2024/05/17/microsoft_china_staff_relocate/
-评论网址：https://news.ycombinator.com/item?id=40745714
-积分：1
-评论数：0]]></description>
-      <guid>https://www.theregister.com/2024/05/17/microsoft_china_staff_relocate/</guid>
-      <pubDate>Fri, 21 Jun 2024 03:02:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude 3.5 Sonnet 在 Aider LLM 排行榜上名列前茅</title>
-      <link>https://aider.chat/docs/leaderboards/#claude-35-sonnet-takes-the-top-spot</link>
-      <description><![CDATA[文章网址：https://aider.chat/docs/leaderboards/#claude-35-sonnet-takes-the-top-spot
-评论网址：https://news.ycombinator.com/item?id=40745710
-积分：1
-评论数：0]]></description>
-      <guid>https://aider.chat/docs/leaderboards/#claude-35-sonnet-takes-the-top-spot</guid>
-      <pubDate>Fri, 21 Jun 2024 03:00:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Continuum – 结识来自世界各地的人...然后杀死他们</title>
-      <link>https://www.getcontinuum.com/</link>
-      <description><![CDATA[文章网址：https://www.getcontinuum.com/
-评论网址：https://news.ycombinator.com/item?id=40745703
-积分：1
-评论数：0]]></description>
-      <guid>https://www.getcontinuum.com/</guid>
-      <pubDate>Fri, 21 Jun 2024 02:59:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：用于即时“洗牌” ML 数据的 Python 库</title>
-      <link>https://github.com/RuneBlaze/smallperm</link>
-      <description><![CDATA[在大规模 ML 训练中，对包含超过 10 亿个数据点的数据集（例如 LAION-5B）进行混洗是很常见的。典型的方法，如对索引数组执行 `np.random.shuffle`、对整个数据集执行 `df.sample(frac=1)` 或使用在线 Fisher-Yates，都有明显的缺点：1. 当您拥有 &gt; 1B 数据时，np.random.shuffle 实际上有点慢。它会占用您宝贵的时间来考虑“我是否可以进入我的训练循环来查看一切是否有效”。
-2. 它们占用 O(n) 额外的内存我想展示一个很酷的技巧，这个技巧应该在大规模 ML 从业者中更受欢迎 - 使用廉价的对称密码（“伪随机排列”）动态生成 [0, 1, 2, ..., n - 1] 的排列。这种方法允许您使用 O(1) 空间和时间（无需存储数组的额外混洗版本）获得 [0..n] 的排列，并使用您选择的种子。您可以在 O(1) 时间内随机索引，并且可以立即为任何数据规模生成排列，有效地像 np.random.shuffle 一样运行，但可以立即生成。唯一的权衡是混洗质量略有下降，但这通常与 ML 训练目的无关。使用 Feistel 密码进行快速混洗并不是一个新概念，可以用各种语言实现。此 Show HN 提交“smallperm”值得注意，因为1. 它是一个 Python 库，而 Python 是 ML 的实际语言2. 它由 Rust 支持，并且经过高效设计（遍历排列比遍历“np.arange”慢 2 到 3 倍，也就是说比纯 Python 实现快几个数量级）3.在测试过程中，这个库在统计测试中比其他一些基于密码的库具有更高的 shuffle 质量最后，我还要大声说一句，对于十亿级的数据，并不总是需要 np.random.shuffle ;)。也许每次启动三分钟的 `np.random.shuffle` 并不算长，但我们通常可以在 0 秒内完成 shuffle。
+      <title>Hired.com 已经不存在了，现在怎么办？</title>
+      <link>https://news.ycombinator.com/item?id=40746657</link>
+      <description><![CDATA[hired.com 已被收购。有什么网站可以帮我找工作？
 
-评论网址：https://news.ycombinator.com/item?id=40745692
+评论网址：https://news.ycombinator.com/item?id=40746657
 积分：1
 评论数：0]]></description>
-      <guid>https://github.com/RuneBlaze/smallperm</guid>
-      <pubDate>Fri, 21 Jun 2024 02:57:01 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=40746657</guid>
+      <pubDate>Fri, 21 Jun 2024 06:05:31 GMT</pubDate>
     </item>
     <item>
-      <title>使用具有合理否认能力的加密是否安全？</title>
-      <link>https://www.blunix.com/blog/plausible-encryption-deniability-on-linux-with-cryptsetup-luks.html</link>
-      <description><![CDATA[文章网址：https://www.blunix.com/blog/plausible-encryption-deniability-on-linux-with-cryptsetup-luks.html
-评论网址：https://news.ycombinator.com/item?id=40745690
+      <title>菲菲菲菲菲菲菲菲</title>
+      <link>https://data.norfolk.gov/nominate/414778</link>
+      <description><![CDATA[文章网址：https://data.norfolk.gov/nominate/414778
+评论网址：https://news.ycombinator.com/item?id=40746645
 积分：1
 评论数：0]]></description>
-      <guid>https://www.blunix.com/blog/plausible-encryption-deniability-on-linux-with-cryptsetup-luks.html</guid>
-      <pubDate>Fri, 21 Jun 2024 02:56:52 GMT</pubDate>
+      <guid>https://data.norfolk.gov/nominate/414778</guid>
+      <pubDate>Fri, 21 Jun 2024 06:03:07 GMT</pubDate>
     </item>
     <item>
-      <title>特朗普称从美国大学毕业的外国人应该获得绿卡</title>
-      <link>https://www.reuters.com/world/us/trump-says-foreign-college-graduates-should-automatically-get-green-cards-2024-06-20/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/world/us/trump-says-foreign-college-graduates-should-automatically-get-green-cards-2024-06-20/
-评论网址：https://news.ycombinator.com/item?id=40745678
+      <title>询问 HN：GrapheneOS——如何克服注重隐私的日常使用的障碍？</title>
+      <link>https://news.ycombinator.com/item?id=40746643</link>
+      <description><![CDATA[我对 GrapheneOS 强大的安全模型和隐私功能印象深刻。对于那些将其作为日常驱动程序的人来说，您如何适应没有 Google 服务的生活？我特别感兴趣的是常见任务的解决方法、电池寿命的改善以及您发现的任何意想不到的好处。增强的隐私和安全性是否从根本上改变了您使用手机的方式？对于那些长期更换手机的人，您会给新用户什么建议，以最大限度地提高 GrapheneOS 体验，同时最大限度地减少不便？
+
+评论网址：https://news.ycombinator.com/item?id=40746643
+积分：1
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=40746643</guid>
+      <pubDate>Fri, 21 Jun 2024 06:02:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>向 HN 展示：我写了一篇 2000 字的文章，介绍如何处理退款</title>
+      <link>https://operational.co/articles/complete-guide-on-chargebacks-for-saas-businesses</link>
+      <description><![CDATA[文章网址：https://operational.co/articles/complete-guide-on-chargebacks-for-saas-businesses
+评论网址：https://news.ycombinator.com/item?id=40746620
+积分：1
+评论数：0]]></description>
+      <guid>https://operational.co/articles/complete-guide-on-chargebacks-for-saas-businesses</guid>
+      <pubDate>Fri, 21 Jun 2024 05:57:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>太阳能的迅猛增长将改变世界</title>
+      <link>https://www.economist.com/leaders/2024/06/20/the-exponential-growth-of-solar-power-will-change-the-world</link>
+      <description><![CDATA[文章网址：https://www.economist.com/leaders/2024/06/20/the-exponential-growth-of-solar-power-will-change-the-world
+评论网址：https://news.ycombinator.com/item?id=40746617
+积分：1
+评论数：0]]></description>
+      <guid>https://www.economist.com/leaders/2024/06/20/the-exponential-growth-of-solar-power-will-change-the-world</guid>
+      <pubDate>Fri, 21 Jun 2024 05:56:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：有多少 AGI 研究人员正在认真研究哲学？</title>
+      <link>https://news.ycombinator.com/item?id=40746560</link>
+      <description><![CDATA[只是问问。哲学本身似乎是在创造理解人工智能的道路上需要研究和研究的重要内容。而“深度学习”、“自由能量原理”……这些都是在具有哲学洞察力的理论的帮助下系统地产生的吗？
+
+评论网址：https://news.ycombinator.com/item?id=40746560
+积分：1
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=40746560</guid>
+      <pubDate>Fri, 21 Jun 2024 05:46:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何阻止困惑并保护网络免受恶意人工智能的侵害</title>
+      <link>https://www.platformer.news/how-to-stop-perplexity-oreilly-ai-publishing/</link>
+      <description><![CDATA[文章网址：https://www.platformer.news/how-to-stop-perplexity-oreilly-ai-publishing/
+评论网址：https://news.ycombinator.com/item?id=40746550
+积分：1
+评论数：0]]></description>
+      <guid>https://www.platformer.news/how-to-stop-perplexity-oreilly-ai-publishing/</guid>
+      <pubDate>Fri, 21 Jun 2024 05:45:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国禁止使用卡巴斯基软件</title>
+      <link>https://www.wired.com/story/us-bans-kaspersky-software/</link>
+      <description><![CDATA[文章网址：https://www.wired.com/story/us-bans-kaspersky-software/
+评论网址：https://news.ycombinator.com/item?id=40746524
+积分：1
+评论数：0]]></description>
+      <guid>https://www.wired.com/story/us-bans-kaspersky-software/</guid>
+      <pubDate>Fri, 21 Jun 2024 05:42:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zepto 是 YC 投资的印度 10 分钟配送应用，融资 6.65 亿美元，估值 36 亿美元</title>
+      <link>https://techcrunch.com/2024/06/20/zepto-a-10-minute-delivery-app-raises-665-million-at-3-6-billion-valuation/</link>
+      <description><![CDATA[文章网址：https://techcrunch.com/2024/06/20/zepto-a-10-minute-delivery-app-raises-665-million-at-3-6-billion-valuation/
+评论网址：https://news.ycombinator.com/item?id=40746518
 积分：2
 评论数：0]]></description>
-      <guid>https://www.reuters.com/world/us/trump-says-foreign-college-graduates-should-automatically-get-green-cards-2024-06-20/</guid>
-      <pubDate>Fri, 21 Jun 2024 02:54:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>TypeScript 特性的制作：推断类型谓词</title>
-      <link>https://effectivetypescript.com/2024/04/16/inferring-a-type-predicate/</link>
-      <description><![CDATA[文章网址：https://effectivetypescript.com/2024/04/16/inferring-a-type-predicate/
-评论网址：https://news.ycombinator.com/item?id=40745670
-积分：1
-评论数：0]]></description>
-      <guid>https://effectivetypescript.com/2024/04/16/inferring-a-type-predicate/</guid>
-      <pubDate>Fri, 21 Jun 2024 02:53:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>展示 HN：使用设备上的计算功能编写和阅读儿童故事</title>
-      <link>https://picolibrary.netlify.app</link>
-      <description><![CDATA[我对小型语言模型的潜力感到非常兴奋。语言模型的进步，加上功能越来越强大的移动设备，使得我们可以在口袋里携带包含数十亿个参数的语言模型。在我休陪产假期间，我开始建立 Pico Library，让讲故事的时间对我和我的孩子都更有吸引力。作为一个新手爸爸，我深刻地意识到给孩子读书的重要性。Pico Library 使用语言模型来编写故事，它可以利用 Apple 的设备上个人语音功能大声朗读故事。一切都由设备上的计算提供支持，这意味着不需要互联网连接。我很乐意聊聊 Pico Library 中的技术——让我兴奋的和让我感到惊讶的。我也很好奇其他人会用类似的技术构建什么。
-
-评论网址：https://news.ycombinator.com/item?id=40745664
-积分：1
-评论数：0]]></description>
-      <guid>https://picolibrary.netlify.app</guid>
-      <pubDate>Fri, 21 Jun 2024 02:52:20 GMT</pubDate>
+      <guid>https://techcrunch.com/2024/06/20/zepto-a-10-minute-delivery-app-raises-665-million-at-3-6-billion-valuation/</guid>
+      <pubDate>Fri, 21 Jun 2024 05:41:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
