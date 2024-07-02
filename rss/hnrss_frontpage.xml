@@ -4,7 +4,68 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 02 Jul 2024 12:27:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2024 15:16:02 GMT</lastBuildDate>
+    <item>
+      <title>魔方 50 年</title>
+      <link>https://www.rubiks.com/history#timeline</link>
+      <description><![CDATA[文章网址：https://www.rubiks.com/history#timeline
+评论网址：https://news.ycombinator.com/item?id=40857236
+积分：5
+评论数：0]]></description>
+      <guid>https://www.rubiks.com/history#timeline</guid>
+      <pubDate>Tue, 02 Jul 2024 14:48:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>8cc.vim：纯 Vim 脚本 C 编译器</title>
+      <link>https://github.com/rhysd/8cc.vim</link>
+      <description><![CDATA[文章网址：https://github.com/rhysd/8cc.vim
+评论网址：https://news.ycombinator.com/item?id=40857120
+积分：4
+评论数：0]]></description>
+      <guid>https://github.com/rhysd/8cc.vim</guid>
+      <pubDate>Tue, 02 Jul 2024 14:36:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Alt+数字序列的历史</title>
+      <link>https://devblogs.microsoft.com/oldnewthing/20240702-00/?p=109951</link>
+      <description><![CDATA[文章网址：https://devblogs.microsoft.com/oldnewthing/20240702-00/?p=109951
+评论网址：https://news.ycombinator.com/item?id=40857092
+积分：11
+评论数：1]]></description>
+      <guid>https://devblogs.microsoft.com/oldnewthing/20240702-00/?p=109951</guid>
+      <pubDate>Tue, 02 Jul 2024 14:33:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：将 Mistral Codestral 和 GPT-4o 添加到 Jupyter Notebooks</title>
+      <link>https://github.com/pretzelai/pretzelai/blob/main/README.md</link>
+      <description><![CDATA[嘿 HN！我们分叉了 Jupyter Lab，并添加了 AI 代码生成功能，这些功能感觉很原生，并且具有有关笔记本的所有上下文。您可以在此处观看演示视频（2 分钟）：https://www.tella.tv/video/clxt7ei4v00rr09i5gt1laop6/view在此处试用托管版本：https://pretzelai.appJupyter 是迄今为止使用最多的数据科学工具。尽管它很受欢迎，但它仍然缺乏良好的代码生成扩展。与现代 AI 代码生成和理解工具（如 https://www.continue.dev 和 https://www.cursor.com）相比，旗舰 AI 扩展 jupyter-ai 在功能和用户体验方面远远落后。此外，GitHub Copilot 在推出两年多后仍然不受 Jupyter 支持。我们正在使用 Pretzel 解决这个问题。Pretzel 是 Jupyter 的一个免费开源分支。您可以使用“pip install pretzelai”在本地安装它，并使用“pretzel lab”启动它。如果您已经安装了 jupyter lab，我们建议您创建一个新的 python 环境。我们的 GitHub README 包含更多信息：https://github.com/pretzelai/pretzelai对于我们的第一次迭代，我们提供了 3 个功能：1. 内联 Tab 自动完成：其工作方式与 GitHub Copilot 类似。您可以在设置中选择 Mistral Codestral 或 GPT-4o2. 单元格级别代码生成：单击 Ask AI 或按 Cmd+K / Ctrl+K 指示 AI 在活动的 Jupyter 单元格中生成代码。我们使用 RAG 将当前笔记本中的相关上下文提供给 LLM。您可以使用 @variable 语法引用笔记本中的现有变量（对于数据框，它会将列名传递给 LLM）3. 侧边栏聊天：单击右侧边栏上的蓝色 Pretzel 图标可打开此聊天（Ctrl+Cmd+B / Ctrl+Alt+B）。此聊天始终包含您当前单元格或任何选定文本的上下文。在这里，我们也使用 RAG 将任何相关上下文从当前笔记本发送到 LLM所有这些功能都通过我们的“AI 服务器”开箱即用，但您可以选择使用自己的 OpenAI API 密钥。这可以在设置中进行配置（菜单栏 &gt; 设置 &gt; 设置编辑器 &gt; 搜索 Pretzel）。如果您使用自己的 OpenAI API 密钥但没有 Mistral API 密钥，请务必在设置中选择 OpenAI 作为内联代码完成模型。这些功能只是一个开始。我们正在构建 Jupyter 的现代版本。我们的路线图包括顺畅的实时协作（例如结对编程、评论、版本历史记录）、全面的 SQL 支持（在代码单元中以及作为独立的 SQL IDE）、可视化分析构建器、由 Monaco 提供支持的类似 VSCode 的编码体验，以及直接从笔记本中一键创建和共享仪表板。我们希望您尝试 Pretzel 并向我们发送任何反馈，无论多么微不足道（请参阅我的个人简介以获取联系信息，或在此处提交 GitHub 问题：https://github.com/pretzelai/pretzelai/issues)
+
+评论 URL：https://news.ycombinator.com/item?id=40857009
+积分：18
+评论数：1]]></description>
+      <guid>https://github.com/pretzelai/pretzelai/blob/main/README.md</guid>
+      <pubDate>Tue, 02 Jul 2024 14:23:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>ruff 创建者的 Python 打包场景</title>
+      <link>https://github.com/astral-sh/packse</link>
+      <description><![CDATA[文章网址：https://github.com/astral-sh/packse
+评论网址：https://news.ycombinator.com/item?id=40857001
+积分：5
+评论数：1]]></description>
+      <guid>https://github.com/astral-sh/packse</guid>
+      <pubDate>Tue, 02 Jul 2024 14:22:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>智利为何这么长？</title>
+      <link>https://unchartedterritories.tomaspueyo.com/p/why-is-chile-so-long</link>
+      <description><![CDATA[文章网址：https://unchartedterritories.tomaspueyo.com/p/why-is-chile-so-long
+评论网址：https://news.ycombinator.com/item?id=40856030
+积分：231
+评论数：70]]></description>
+      <guid>https://unchartedterritories.tomaspueyo.com/p/why-is-chile-so-long</guid>
+      <pubDate>Tue, 02 Jul 2024 12:36:58 GMT</pubDate>
+    </item>
     <item>
       <title>Lago – 基于开源使用情况的计费正在招聘数据科学家（欧盟）</title>
       <link>https://www.ycombinator.com/companies/lago/jobs/O7dCOie-data-scientist</link>
@@ -16,82 +77,22 @@
       <pubDate>Tue, 02 Jul 2024 12:00:54 GMT</pubDate>
     </item>
     <item>
-      <title>关于自行出版科技书籍的一些注意事项</title>
-      <link>https://andrewpwheeler.com/2024/07/02/some-notes-on-self-publishing-a-tech-book/</link>
-      <description><![CDATA[文章网址：https://andrewpwheeler.com/2024/07/02/some-notes-on-self-publishing-a-tech-book/
-评论网址：https://news.ycombinator.com/item?id=40855724
-积分：3
-评论数：0]]></description>
-      <guid>https://andrewpwheeler.com/2024/07/02/some-notes-on-self-publishing-a-tech-book/</guid>
-      <pubDate>Tue, 02 Jul 2024 11:52:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>Figma AI 是一个抄袭引擎</title>
-      <link>https://daringfireball.net/linked/2024/07/01/figma-ai-ripoff-engine</link>
-      <description><![CDATA[文章网址：https://daringfireball.net/linked/2024/07/01/figma-ai-ripoff-engine
-评论网址：https://news.ycombinator.com/item?id=40855461
-积分：8
-评论数：2]]></description>
-      <guid>https://daringfireball.net/linked/2024/07/01/figma-ai-ripoff-engine</guid>
-      <pubDate>Tue, 02 Jul 2024 11:12:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Htmx 与内容安全策略配合不佳</title>
-      <link>https://www.sjoerdlangkemper.nl/2024/06/26/htmx-content-security-policy/</link>
-      <description><![CDATA[文章网址：https://www.sjoerdlangkemper.nl/2024/06/26/htmx-content-security-policy/
-评论网址：https://news.ycombinator.com/item?id=40855122
-积分：71
-评论数：29]]></description>
-      <guid>https://www.sjoerdlangkemper.nl/2024/06/26/htmx-content-security-policy/</guid>
-      <pubDate>Tue, 02 Jul 2024 10:14:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>科技从免费恋爱变成了按点击付费</title>
-      <link>https://www.theregister.com/2024/07/02/foss_ai_blockchain/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2024/07/02/foss_ai_blockchain/
-评论网址：https://news.ycombinator.com/item?id=40854976
-积分：35
-评论数：5]]></description>
-      <guid>https://www.theregister.com/2024/07/02/foss_ai_blockchain/</guid>
-      <pubDate>Tue, 02 Jul 2024 09:45:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>欢迎使用 Ladybird，一款真正独立的网络浏览器</title>
-      <link>https://ladybird.org/index.html</link>
-      <description><![CDATA[文章网址：https://ladybird.org/index.html
-评论网址：https://news.ycombinator.com/item?id=40854836
-积分：420
-评论数：205]]></description>
-      <guid>https://ladybird.org/index.html</guid>
-      <pubDate>Tue, 02 Jul 2024 09:14:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软更新了 Phi-3</title>
-      <link>https://twitter.com/reach_vb/status/1808056108319179012</link>
-      <description><![CDATA[文章网址：https://twitter.com/reach_vb/status/1808056108319179012
-评论网址：https://news.ycombinator.com/item?id=40854721
-积分：26
-评论数：12]]></description>
-      <guid>https://twitter.com/reach_vb/status/1808056108319179012</guid>
-      <pubDate>Tue, 02 Jul 2024 08:45:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>DETR 在实时物体检测方面击败 YOLO</title>
-      <link>https://zhao-yian.github.io/RTDETR/</link>
-      <description><![CDATA[文章网址：https://zhao-yian.github.io/RTDETR/
-评论网址：https://news.ycombinator.com/item?id=40854623
-积分：31
-评论数：6]]></description>
-      <guid>https://zhao-yian.github.io/RTDETR/</guid>
-      <pubDate>Tue, 02 Jul 2024 08:26:48 GMT</pubDate>
+      <title>在实践中尝试 Kolmogorov-Arnold 网络</title>
+      <link>https://cprimozic.net/blog/trying-out-kans/</link>
+      <description><![CDATA[文章网址：https://cprimozic.net/blog/trying-out-kans/
+评论网址：https://news.ycombinator.com/item?id=40855028
+积分：42
+评论数：3]]></description>
+      <guid>https://cprimozic.net/blog/trying-out-kans/</guid>
+      <pubDate>Tue, 02 Jul 2024 09:54:19 GMT</pubDate>
     </item>
     <item>
       <title>Diff-pdf：直观比较两个 PDF 的工具</title>
       <link>https://github.com/vslavik/diff-pdf</link>
       <description><![CDATA[文章网址：https://github.com/vslavik/diff-pdf
 评论网址：https://news.ycombinator.com/item?id=40854319
-积分：127
-评论数：10]]></description>
+积分：262
+评论数：45]]></description>
       <guid>https://github.com/vslavik/diff-pdf</guid>
       <pubDate>Tue, 02 Jul 2024 07:26:08 GMT</pubDate>
     </item>
@@ -100,8 +101,8 @@
       <link>https://makojs.dev/blog/mako-open-sourced</link>
       <description><![CDATA[文章网址：https://makojs.dev/blog/mako-open-sourced
 评论网址：https://news.ycombinator.com/item?id=40853845
-积分：138
-评论数：87]]></description>
+积分：181
+评论数：120]]></description>
       <guid>https://makojs.dev/blog/mako-open-sourced</guid>
       <pubDate>Tue, 02 Jul 2024 05:41:25 GMT</pubDate>
     </item>
