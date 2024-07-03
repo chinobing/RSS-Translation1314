@@ -4,36 +4,67 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 03 Jul 2024 12:28:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jul 2024 15:16:22 GMT</lastBuildDate>
     <item>
-      <title>Dolphin Emulator 更改为滚动发布模式</title>
-      <link>https://dolphin-emu.org/blog/2024/07/02/dolphin-releases-announcement/</link>
-      <description><![CDATA[文章网址：https://dolphin-emu.org/blog/2024/07/02/dolphin-releases-announcement/
-评论网址：https://news.ycombinator.com/item?id=40864728
-积分：64
-评论数：4]]></description>
-      <guid>https://dolphin-emu.org/blog/2024/07/02/dolphin-releases-announcement/</guid>
-      <pubDate>Wed, 03 Jul 2024 10:55:13 GMT</pubDate>
+      <title>不要嘲弄快乐有趣的分支预测器</title>
+      <link>https://www.mattkeeter.com/blog/2023-01-25-branch/</link>
+      <description><![CDATA[文章网址：https://www.mattkeeter.com/blog/2023-01-25-branch/
+评论网址：https://news.ycombinator.com/item?id=40866374
+积分：24
+评论数：1]]></description>
+      <guid>https://www.mattkeeter.com/blog/2023-01-25-branch/</guid>
+      <pubDate>Wed, 03 Jul 2024 14:42:02 GMT</pubDate>
     </item>
     <item>
-      <title>飓风贝丽尔过后“几乎全岛无家可归”</title>
-      <link>https://www.bbc.com/news/articles/c724x1rjlpno</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c724x1rjlpno
-评论网址：https://news.ycombinator.com/item?id=40864657
-积分：17
+      <title>活在清醒梦中</title>
+      <link>https://www.noemamag.com/living-in-a-lucid-dream/</link>
+      <description><![CDATA[文章网址：https://www.noemamag.com/living-in-a-lucid-dream/
+评论网址：https://news.ycombinator.com/item?id=40866155
+积分：15
 评论数：2]]></description>
-      <guid>https://www.bbc.com/news/articles/c724x1rjlpno</guid>
-      <pubDate>Wed, 03 Jul 2024 10:37:52 GMT</pubDate>
+      <guid>https://www.noemamag.com/living-in-a-lucid-dream/</guid>
+      <pubDate>Wed, 03 Jul 2024 14:18:56 GMT</pubDate>
     </item>
     <item>
-      <title>在容器内进行开发</title>
-      <link>https://code.visualstudio.com/docs/devcontainers/containers</link>
-      <description><![CDATA[文章网址：https://code.visualstudio.com/docs/devcontainers/containers
-评论网址：https://news.ycombinator.com/item?id=40864489
-积分：60
-评论数：28]]></description>
-      <guid>https://code.visualstudio.com/docs/devcontainers/containers</guid>
-      <pubDate>Wed, 03 Jul 2024 10:09:05 GMT</pubDate>
+      <title>什么才算“战略性”？</title>
+      <link>https://capitalgains.thediff.co/p/strategy</link>
+      <description><![CDATA[文章网址：https://capitalgains.thediff.co/p/strategy
+评论网址：https://news.ycombinator.com/item?id=40866153
+积分：10
+评论数：12]]></description>
+      <guid>https://capitalgains.thediff.co/p/strategy</guid>
+      <pubDate>Wed, 03 Jul 2024 14:18:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Proton 推出自己的 Google Docs 版本</title>
+      <link>https://www.engadget.com/proton-launches-its-own-version-of-google-docs-100044471.html</link>
+      <description><![CDATA[文章网址：https://www.engadget.com/proton-launches-its-own-version-of-google-docs-100044471.html
+评论网址：https://news.ycombinator.com/item?id=40864914
+积分：172
+评论数：107]]></description>
+      <guid>https://www.engadget.com/proton-launches-its-own-version-of-google-docs-100044471.html</guid>
+      <pubDate>Wed, 03 Jul 2024 11:25:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Jb / json.bash – 创建 JSON 的命令行工具（和 bash 库）</title>
+      <link>https://github.com/h4l/json.bash</link>
+      <description><![CDATA[jb 是一个 UNIX 工具，用于创建 JSON，供 shell 脚本或交互使用。它的“一件事”是将 shell 原生数据（环境变量、文件、程序输出）传输到其他地方，使用 JSON 对其进行稳健封装。我写这个是因为我想要一种稳健且符合人体工程学的方式来从命令行和脚本创建临时 JSON 数据。我希望错误不会默默传递，不会强制数据类型，不会将机密放入 argv。我想利用 shell 功能/模式，如进程替换、环境变量、从文件读取/流式传输和以空值结尾的数据。如果您知道 jo 程序，jb 与之类似，但默认情况下是类型安全的，而且更灵活。jo 强制类型，使用 -n 等标志强制为特定类型（-n 的数字），如果输入无效，则不会失败。 jb 默认将值编码为字符串，需要类型注释才能将值解析和编码为特定类型（如果值无效，则失败）。如果您了解 jq，jb 是互补的，因为 jq 擅长转换已经是 JSON 格式的数据，但将非 JSON 数据导入 jq 很麻烦。相比之下，jb 擅长将参数、环境变量和文件中的非结构化数据转换为 JSON（以便 jq 可以使用它），但 jb 不能进行任何数据转换，只能解析和编码为 JSON 类型。我为用 bash 编写此代码感到很内疚。这有点像煮青蛙的故事。我一开始只是想从 shell 脚本编码 JSON 字符串，没有依赖项，目的是将它们导入 jq。经过几次尝试，我能够在 bash 中编码 JSON 字符串，性能令人惊讶，使用数组操作一次编码多个字符串。从那以后，它成长为一个完整的工具。如果我现在从头开始，我肯定不会选择 bash...
+
+评论网址：https://news.ycombinator.com/item?id=40864541
+积分：26
+评论数：8]]></description>
+      <guid>https://github.com/h4l/json.bash</guid>
+      <pubDate>Wed, 03 Jul 2024 10:18:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>J. C. R. Licklider 的《人机共生》（1960 年）</title>
+      <link>https://groups.csail.mit.edu/medg/people/psz/Licklider.html</link>
+      <description><![CDATA[文章网址：https://groups.csail.mit.edu/medg/people/psz/Licklider.html
+评论网址：https://news.ycombinator.com/item?id=40864249
+积分：6
+评论数：0]]></description>
+      <guid>https://groups.csail.mit.edu/medg/people/psz/Licklider.html</guid>
+      <pubDate>Wed, 03 Jul 2024 09:26:14 GMT</pubDate>
     </item>
     <item>
       <title>Converge (YC S23) 正在招聘创始客户经理</title>
@@ -46,32 +77,22 @@
       <pubDate>Wed, 03 Jul 2024 07:01:05 GMT</pubDate>
     </item>
     <item>
-      <title>我收到了一封 AI 电子邮件</title>
-      <link>https://timharek.no/blog/i-received-an-ai-email</link>
-      <description><![CDATA[文章网址：https://timharek.no/blog/i-received-an-ai-email
-评论网址：https://news.ycombinator.com/item?id=40862865
-积分：576
-评论数：442]]></description>
-      <guid>https://timharek.no/blog/i-received-an-ai-email</guid>
-      <pubDate>Wed, 03 Jul 2024 05:05:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>傅里叶变换：它有什么问题？</title>
-      <link>https://blog.endaq.com/the-fourier-transform-whats-wrong-with-it</link>
-      <description><![CDATA[文章网址：https://blog.endaq.com/the-fourier-transform-whats-wrong-with-it
-评论网址：https://news.ycombinator.com/item?id=40862835
+      <title>不使用稀土永磁体的电动汽车电机</title>
+      <link>https://spectrum.ieee.org/ev-motor</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/ev-motor
+评论网址：https://news.ycombinator.com/item?id=40862897
 积分：21
-评论数：9]]></description>
-      <guid>https://blog.endaq.com/the-fourier-transform-whats-wrong-with-it</guid>
-      <pubDate>Wed, 03 Jul 2024 04:55:13 GMT</pubDate>
+评论数：11]]></description>
+      <guid>https://spectrum.ieee.org/ev-motor</guid>
+      <pubDate>Wed, 03 Jul 2024 05:13:17 GMT</pubDate>
     </item>
     <item>
       <title>为何 AI 基础设施初创企业如此难以建立</title>
       <link>https://nextword.substack.com/p/why-ai-infrastructure-startups-are</link>
       <description><![CDATA[文章网址：https://nextword.substack.com/p/why-ai-infrastructure-startups-are
 评论网址：https://news.ycombinator.com/item?id=40862436
-积分：129
-评论数：101]]></description>
+积分：164
+评论数：141]]></description>
       <guid>https://nextword.substack.com/p/why-ai-infrastructure-startups-are</guid>
       <pubDate>Wed, 03 Jul 2024 03:15:58 GMT</pubDate>
     </item>
@@ -80,31 +101,10 @@
       <link>https://celebratio.org/Robinson_JB/article/964/</link>
       <description><![CDATA[文章网址：https://celebratio.org/Robinson_JB/article/964/
 评论网址：https://news.ycombinator.com/item?id=40862136
-积分：52
-评论数：3]]></description>
+积分：64
+评论数：4]]></description>
       <guid>https://celebratio.org/Robinson_JB/article/964/</guid>
       <pubDate>Wed, 03 Jul 2024 01:55:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：通过最大化迭代开发来提高 LLM 性能</title>
-      <link>https://github.com/palico-ai/palico-ai</link>
-      <description><![CDATA[我已经在 AI 领域工作了一段时间，首先是在 FAANG 从事机器学习工作，从 2021 年开始，然后是 LLM，从 2023 年初开始在初创公司从事 LLM 工作。我认为 LLM 应用程序开发是极其迭代的，比任何其他类型的开发都更具迭代性。这是因为要提高 LLM 应用程序的性能（准确性、幻觉、延迟、成本），您需要尝试 LLM 模型、提示模板（例如，小样本、思维链）、具有不同 RAG 架构的提示上下文、不同的代理架构等的各种组合。有成千上万种可能的组合，您需要一个可以快速测试和评估这些不同组合的流程。我有机会与许多从事 AI 产品的公司交谈。我看到的最大错误是缺乏标准流程，使他们能够快速迭代以实现其性能目标。利用我的学习成果，我正在开发一个开源框架，该框架可以构建您的应用程序开发以实现快速迭代，以便您可以轻松地测试 LLM 应用程序组件的不同组合，并快速迭代以实现您的准确性目标。您可以在 https://github.com/palico-ai/palico-ai 查看该项目。您可以使用单个命令在本地设置完整的 LLM 聊天应用程序。我们总是会给您点赞！非常欢迎您就 LLM 开发提出任何反馈或想法。
-
-评论网址：https://news.ycombinator.com/item?id=40862113
-积分：77
-评论数：14]]></description>
-      <guid>https://github.com/palico-ai/palico-ai</guid>
-      <pubDate>Wed, 03 Jul 2024 01:52:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>桥梁为何不会沉没</title>
-      <link>https://practical.engineering/blog/2024/7/2/why-bridges-dont-sink</link>
-      <description><![CDATA[文章网址：https://practical.engineering/blog/2024/7/2/why-bridges-dont-sink
-评论网址：https://news.ycombinator.com/item?id=40861520
-积分：83
-评论数：12]]></description>
-      <guid>https://practical.engineering/blog/2024/7/2/why-bridges-dont-sink</guid>
-      <pubDate>Tue, 02 Jul 2024 23:43:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
