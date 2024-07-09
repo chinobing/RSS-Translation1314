@@ -4,64 +4,94 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 09 Jul 2024 15:16:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2024 18:20:20 GMT</lastBuildDate>
     <item>
-      <title>CVE-2024-6409：OpenSSH：privsep child 中可能存在远程代码执行</title>
+      <title>不要使用 7 段显示器 [pdf]</title>
+      <link>https://harold.thimbleby.net/cv/files/seven-segment.pdf</link>
+      <description><![CDATA[文章网址：https://harold.thimbleby.net/cv/files/seven-segment.pdf
+评论网址：https://news.ycombinator.com/item?id=40918829
+积分：21
+评论数：3]]></description>
+      <guid>https://harold.thimbleby.net/cv/files/seven-segment.pdf</guid>
+      <pubDate>Tue, 09 Jul 2024 17:42:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>WebGPU 中的虚幻引擎 5</title>
+      <link>https://twitter.com/AlexStLouis10/status/1810514325632659742</link>
+      <description><![CDATA[文章网址：https://twitter.com/AlexStLouis10/status/1810514325632659742
+评论网址：https://news.ycombinator.com/item?id=40918790
+积分：28
+评论数：4]]></description>
+      <guid>https://twitter.com/AlexStLouis10/status/1810514325632659742</guid>
+      <pubDate>Tue, 09 Jul 2024 17:38:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meticulous (YC S21) 正在招聘人员以消除 E2E 测试</title>
+      <link>https://news.ycombinator.com/item?id=40918300</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=40918300
+积分：0
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=40918300</guid>
+      <pubDate>Tue, 09 Jul 2024 17:00:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>阿丽亚娜 6 号火箭首飞（官方直播）[视频]</title>
+      <link>https://www.youtube.com/watch?v=B0oFpOJaIYc</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=B0oFpOJaIYc
+评论网址：https://news.ycombinator.com/item?id=40918284
+积分：31
+评论数：16]]></description>
+      <guid>https://www.youtube.com/watch?v=B0oFpOJaIYc</guid>
+      <pubDate>Tue, 09 Jul 2024 16:58:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：浏览器如何将内部音频与麦克风输入隔离？</title>
+      <link>https://news.ycombinator.com/item?id=40918152</link>
+      <description><![CDATA[我注意到 Chrome 和 Chromium 中有一个有趣的功能：它们似乎将内部音频与麦克风输入隔离开来。例如，当我在一个标签页中进行 Google Meet 通话并在另一个标签页中以最大音量播放 YouTube 视频时，Google Meet 不会拾取该视频的音频。如果我为每个任务使用不同的浏览器（例如，Chrome 上的 Google Meet 和 Chromium 上的 YouTube），则不会发生这种隔离。有人知道 Chrome 和 Chromium 如何实现这种音频隔离吗？鉴于 Chromium 是开源的，如果有人能指出处理此问题的代码库的具体部分，那将很有帮助。任何见解或技术细节都将不胜感激！
+
+评论网址：https://news.ycombinator.com/item?id=40918152
+积分：44
+评论数：24]]></description>
+      <guid>https://news.ycombinator.com/item?id=40918152</guid>
+      <pubDate>Tue, 09 Jul 2024 16:45:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google Chrome 有一个特殊的隐藏 API，只能从 *.google.com 访问</title>
+      <link>https://twitter.com/lcasdev/status/1810696257137959018</link>
+      <description><![CDATA[文章网址：https://twitter.com/lcasdev/status/1810696257137959018
+评论网址：https://news.ycombinator.com/item?id=40918052
+积分：325
+评论数：135]]></description>
+      <guid>https://twitter.com/lcasdev/status/1810696257137959018</guid>
+      <pubDate>Tue, 09 Jul 2024 16:35:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Linksys Velop 路由器将 Wi-Fi 密码以明文形式发送到美国服务器</title>
+      <link>https://stackdiary.com/linksys-velop-routers-send-wi-fi-passwords-in-plaintext-to-us-servers/</link>
+      <description><![CDATA[文章网址：https://stackdiary.com/linksys-velop-routers-send-wi-fi-passwords-in-plaintext-to-us-servers/
+评论网址：https://news.ycombinator.com/item?id=40917312
+积分：202
+评论数：82]]></description>
+      <guid>https://stackdiary.com/linksys-velop-routers-send-wi-fi-passwords-in-plaintext-to-us-servers/</guid>
+      <pubDate>Tue, 09 Jul 2024 15:33:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>CVE-2024-6409：OpenSSH：可能在 privsep child 中执行远程代码</title>
       <link>https://www.openwall.com/lists/oss-security/2024/07/08/2</link>
       <description><![CDATA[文章网址：https://www.openwall.com/lists/oss-security/2024/07/08/2
 评论网址：https://news.ycombinator.com/item?id=40916820
-积分：18
-评论数：4]]></description>
+积分：111
+评论数：34]]></description>
       <guid>https://www.openwall.com/lists/oss-security/2024/07/08/2</guid>
       <pubDate>Tue, 09 Jul 2024 14:51:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>勒索软件团伙泄露佛罗里达州卫生部涉嫌窃取的数据</title>
-      <link>https://www.securityweek.com/ransomware-gang-leaks-data-allegedly-stolen-from-florida-department-of-health/</link>
-      <description><![CDATA[文章网址：https://www.securityweek.com/ransomware-gang-leaks-data-allegedly-stolen-from-florida-department-of-health/
-评论网址：https://news.ycombinator.com/item?id=40916733
-积分：7
-评论数：1]]></description>
-      <guid>https://www.securityweek.com/ransomware-gang-leaks-data-allegedly-stolen-from-florida-department-of-health/</guid>
-      <pubDate>Tue, 09 Jul 2024 14:44:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>科学家创造出一种可阻止恶性生长的细胞</title>
-      <link>https://phys.org/news/2024-07-scientists-cell-precludes-malignant-growth.html</link>
-      <description><![CDATA[文章网址：https://phys.org/news/2024-07-scientists-cell-precludes-malignant-growth.html
-评论网址：https://news.ycombinator.com/item?id=40916486
-积分：6
-评论数：0]]></description>
-      <guid>https://phys.org/news/2024-07-scientists-cell-precludes-malignant-growth.html</guid>
-      <pubDate>Tue, 09 Jul 2024 14:20:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>让我们“双击”一下最新的令人尴尬的企业流行语</title>
-      <link>https://www.wsj.com/lifestyle/workplace/double-click-corporate-buzzword-cringe-421e8cce</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/lifestyle/workplace/double-click-corporate-buzzword-cringe-421e8cce
-评论网址：https://news.ycombinator.com/item?id=40916481
-积分：3
-评论数：2]]></description>
-      <guid>https://www.wsj.com/lifestyle/workplace/double-click-corporate-buzzword-cringe-421e8cce</guid>
-      <pubDate>Tue, 09 Jul 2024 14:19:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软的天气应用现在显示更多广告</title>
-      <link>https://www.ghacks.net/2024/07/01/microsofts-weather-app-now-displays-more-ads/</link>
-      <description><![CDATA[文章网址：https://www.ghacks.net/2024/07/01/microsofts-weather-app-now-displays-more-ads/
-评论网址：https://news.ycombinator.com/item?id=40916411
-积分：8
-评论数：1]]></description>
-      <guid>https://www.ghacks.net/2024/07/01/microsofts-weather-app-now-displays-more-ads/</guid>
-      <pubDate>Tue, 09 Jul 2024 14:13:04 GMT</pubDate>
     </item>
     <item>
       <title>Evolve Bank and Trust 确认 LockBit 窃取了 760 万人的数据</title>
       <link>https://www.theregister.com/2024/07/09/evolve_lockbit_attack/</link>
       <description><![CDATA[文章网址：https://www.theregister.com/2024/07/09/evolve_lockbit_attack/
 评论网址：https://news.ycombinator.com/item?id=40916260
-积分：10
-评论数：1]]></description>
+积分：88
+评论数：32]]></description>
       <guid>https://www.theregister.com/2024/07/09/evolve_lockbit_attack/</guid>
       <pubDate>Tue, 09 Jul 2024 14:01:20 GMT</pubDate>
     </item>
@@ -70,40 +100,10 @@
       <link>https://www.orionreed.com/posts/scoped-propagators</link>
       <description><![CDATA[文章网址：https://www.orionreed.com/posts/scoped-propagators
 评论网址：https://news.ycombinator.com/item?id=40916193
-积分：14
-评论数：0]]></description>
+积分：53
+评论数：12]]></description>
       <guid>https://www.orionreed.com/posts/scoped-propagators</guid>
       <pubDate>Tue, 09 Jul 2024 13:54:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>PySkyWiFi：长途航班上的免费 Wi-Fi</title>
-      <link>https://robertheaton.com/pyskywifi/</link>
-      <description><![CDATA[文章网址：https://robertheaton.com/pyskywifi/
-评论网址：https://news.ycombinator.com/item?id=40915082
-积分：200
-评论数：108]]></description>
-      <guid>https://robertheaton.com/pyskywifi/</guid>
-      <pubDate>Tue, 09 Jul 2024 12:01:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>MobileLLM：优化十亿分之一参数语言模型以供设备使用</title>
-      <link>https://github.com/facebookresearch/MobileLLM</link>
-      <description><![CDATA[文章网址：https://github.com/facebookresearch/MobileLLM
-评论网址：https://news.ycombinator.com/item?id=40915005
-积分：71
-评论数：6]]></description>
-      <guid>https://github.com/facebookresearch/MobileLLM</guid>
-      <pubDate>Tue, 09 Jul 2024 11:48:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Circos – 圆形可视化</title>
-      <link>https://circos.ca/</link>
-      <description><![CDATA[文章网址：https://circos.ca/
-评论网址：https://news.ycombinator.com/item?id=40914958
-积分：6
-评论数：1]]></description>
-      <guid>https://circos.ca/</guid>
-      <pubDate>Tue, 09 Jul 2024 11:44:40 GMT</pubDate>
     </item>
     </channel>
 </rss>
