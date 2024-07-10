@@ -4,64 +4,81 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 09 Jul 2024 21:16:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 01:07:30 GMT</lastBuildDate>
     <item>
-      <title>金属窃贼正在掠夺美国城市</title>
-      <link>https://www.nytimes.com/2024/07/09/us/copper-theft-heavy-metal.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2024/07/09/us/copper-theft-heavy-metal.html
-评论网址：https://news.ycombinator.com/item?id=40920980
+      <title>使用 React 18 提升纽约时报的网页性能</title>
+      <link>https://open.nytimes.com/enhancing-the-new-york-times-web-performance-with-react-18-d6f91a7c5af8</link>
+      <description><![CDATA[文章网址：https://open.nytimes.com/enhancing-the-new-york-times-web-performance-with-react-18-d6f91a7c5af8
+评论网址：https://news.ycombinator.com/item?id=40922548
 积分：12
-评论数：5]]></description>
-      <guid>https://www.nytimes.com/2024/07/09/us/copper-theft-heavy-metal.html</guid>
-      <pubDate>Tue, 09 Jul 2024 20:54:11 GMT</pubDate>
+评论数：0]]></description>
+      <guid>https://open.nytimes.com/enhancing-the-new-york-times-web-performance-with-react-18-d6f91a7c5af8</guid>
+      <pubDate>Tue, 09 Jul 2024 23:59:06 GMT</pubDate>
     </item>
     <item>
-      <title>阿罗不可能定理 [视频]</title>
-      <link>https://www.youtube.com/watch?v=AhVR7gFMKNg</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=AhVR7gFMKNg
-评论网址：https://news.ycombinator.com/item?id=40920261
-积分：10
+      <title>Framework Laptop 13 深度解析：搭载智能手机技术的笔记本电脑网络摄像头</title>
+      <link>https://frame.work/blog/framework-laptop-13-deep-dive---a-laptop-webcam-with-smartphone-technology</link>
+      <description><![CDATA[文章网址：https://frame.work/blog/framework-laptop-13-deep-dive---a-laptop-webcam-with-smartphone-technology
+评论网址：https://news.ycombinator.com/item?id=40921336
+积分：66
+评论数：14]]></description>
+      <guid>https://frame.work/blog/framework-laptop-13-deep-dive---a-laptop-webcam-with-smartphone-technology</guid>
+      <pubDate>Tue, 09 Jul 2024 21:24:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：并行 DOM – 将 DOM 升级为多线程</title>
+      <link>https://www.pdom.dev/</link>
+      <description><![CDATA[文章网址：https://www.pdom.dev/
+评论网址：https://news.ycombinator.com/item?id=40920812
+积分：66
+评论数：55]]></description>
+      <guid>https://www.pdom.dev/</guid>
+      <pubDate>Tue, 09 Jul 2024 20:36:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Maelstrom – 适用于 Python 和 Rust 的密封、集群测试运行器</title>
+      <link>https://github.com/maelstrom-software/maelstrom</link>
+      <description><![CDATA[大家好，Maelstrom 是一套工具，用于在您的机器上本地运行密封微容器中的测试，或分布在任意大型集群中。Maelstrom 目前有 Rust 和 Python 的测试运行器，还有更多测试运行器正在开发中。您可以使用 Maelstrom 来运行测试，因为： * 它很简单。Maelstrom 可以作为 Cargo Test 和 Pytest 的替代品。在大多数情况下，它只需最低限度的配置即可与您现有的测试配合使用。
+* 它很可靠。Maelstrom 在其自己的轻量级容器中密封地运行每个测试，从而消除了由测试间或隐式测试环境依赖性引起的令人困惑的错误。
+* 它具有可扩展性。Maelstrom 可以作为集群运行。您可以添加更多工作机器以线性增加测试吞吐量。
+* 它很干净。Maelstrom 从头开始​​使用 Rust 构建了一个无根容器实现（不依赖于 Docker 或 RunC），经过优化，开销低且启动速度快。
+* 它很快。在大多数情况下，即使不使用集群，Maelstrom 也比 Cargo Test 更快。Maelstrom 的每进程测试模型本质上比 pytest 的共享进程模型慢，但 Maelstrom 以较低的性能成本提供测试隔离。
+
+虽然到目前为止我们的重点是运行测试，但 Maelstrom 的底层作业执行系统是通用的。我们提供了一个命令行实用程序来运行任意命令，以及一个基于 gRPC 的 API 和 Rust 绑定，用于编程访问和控制。欢迎反馈和提问！感谢您的尝试。
+
+评论网址：https://news.ycombinator.com/item?id=40920681
+积分：9
 评论数：1]]></description>
-      <guid>https://www.youtube.com/watch?v=AhVR7gFMKNg</guid>
-      <pubDate>Tue, 09 Jul 2024 19:49:11 GMT</pubDate>
+      <guid>https://github.com/maelstrom-software/maelstrom</guid>
+      <pubDate>Tue, 09 Jul 2024 20:23:12 GMT</pubDate>
     </item>
     <item>
-      <title>普利策获奖记者因保护资金丑闻消息来源而面临牢狱之灾</title>
-      <link>https://www.nbcnews.com/investigations/anna-wolfe-pulitzer-mississippi-welfare-scandal-phil-bryant-rcna159936</link>
-      <description><![CDATA[文章网址：https://www.nbcnews.com/investigations/anna-wolfe-pulitzer-mississippi-welfare-scandal-phil-bryant-rcna159936
-评论网址：https://news.ycombinator.com/item?id=40920256
-积分：62
+      <title>如何使用开发板和 SD 卡验证市场</title>
+      <link>https://flyingcarcomputer.com/posts/how-to-validate-market-with-development-board/</link>
+      <description><![CDATA[文章网址：https://flyingcarcomputer.com/posts/how-to-validate-market-with-development-board/
+评论网址：https://news.ycombinator.com/item?id=40920246
+积分：32
 评论数：12]]></description>
-      <guid>https://www.nbcnews.com/investigations/anna-wolfe-pulitzer-mississippi-welfare-scandal-phil-bryant-rcna159936</guid>
-      <pubDate>Tue, 09 Jul 2024 19:48:39 GMT</pubDate>
+      <guid>https://flyingcarcomputer.com/posts/how-to-validate-market-with-development-board/</guid>
+      <pubDate>Tue, 09 Jul 2024 19:47:32 GMT</pubDate>
     </item>
     <item>
-      <title>让我们像对待代码一样对待文档</title>
-      <link>https://www.docslikecode.com/</link>
-      <description><![CDATA[文章网址：https://www.docslikecode.com/
-评论网址：https://news.ycombinator.com/item?id=40920125
-积分：26
-评论数：7]]></description>
-      <guid>https://www.docslikecode.com/</guid>
-      <pubDate>Tue, 09 Jul 2024 19:38:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>发现衰老和发育的主要控制者</title>
-      <link>https://longevity.technology/news/master-controller-of-aging-and-development-uncovered/</link>
-      <description><![CDATA[文章网址：https://longevity.technology/news/master-controller-of-aging-and-development-uncovered/
-评论网址：https://news.ycombinator.com/item?id=40919707
-积分：103
-评论数：47]]></description>
-      <guid>https://longevity.technology/news/master-controller-of-aging-and-development-uncovered/</guid>
-      <pubDate>Tue, 09 Jul 2024 19:09:55 GMT</pubDate>
+      <title>CD Pregaps 如何获得其隐藏曲目超能力</title>
+      <link>https://tedium.co/2024/07/06/compact-disc-pregap-history/</link>
+      <description><![CDATA[文章网址：https://tedium.co/2024/07/06/compact-disc-pregap-history/
+评论网址：https://news.ycombinator.com/item?id=40920122
+积分：56
+评论数：27]]></description>
+      <guid>https://tedium.co/2024/07/06/compact-disc-pregap-history/</guid>
+      <pubDate>Tue, 09 Jul 2024 19:38:36 GMT</pubDate>
     </item>
     <item>
       <title>东京最古老的火车线路——图片</title>
       <link>https://www.theguardian.com/artanddesign/gallery/2024/jul/08/tokyos-oldest-train-line-jr-yamanote-in-pictures</link>
       <description><![CDATA[文章网址：https://www.theguardian.com/artanddesign/gallery/2024/jul/08/tokyos-oldest-train-line-jr-yamanote-in-pictures
 评论网址：https://news.ycombinator.com/item?id=40919505
-积分：29
-评论数：2]]></description>
+积分：83
+评论数：36]]></description>
       <guid>https://www.theguardian.com/artanddesign/gallery/2024/jul/08/tokyos-oldest-train-line-jr-yamanote-in-pictures</guid>
       <pubDate>Tue, 09 Jul 2024 18:51:28 GMT</pubDate>
     </item>
@@ -70,30 +87,10 @@
       <link>https://www.theregister.com/2024/07/08/github_copilot_dmca/</link>
       <description><![CDATA[文章网址：https://www.theregister.com/2024/07/08/github_copilot_dmca/
 评论网址：https://news.ycombinator.com/item?id=40919253
-积分：39
-评论数：61]]></description>
+积分：129
+评论数：180]]></description>
       <guid>https://www.theregister.com/2024/07/08/github_copilot_dmca/</guid>
       <pubDate>Tue, 09 Jul 2024 18:25:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>不要使用 7 段显示器 (2011) [pdf]</title>
-      <link>https://harold.thimbleby.net/cv/files/seven-segment.pdf</link>
-      <description><![CDATA[文章网址：https://harold.thimbleby.net/cv/files/seven-segment.pdf
-评论网址：https://news.ycombinator.com/item?id=40918829
-积分：97
-评论数：88]]></description>
-      <guid>https://harold.thimbleby.net/cv/files/seven-segment.pdf</guid>
-      <pubDate>Tue, 09 Jul 2024 17:42:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>向 HN 展示：我使用 WebAssembly 和 tinygo 构建了一个 WASM 控制台</title>
-      <link>https://github.com/rajatjindal/wasm-console</link>
-      <description><![CDATA[文章网址：https://github.com/rajatjindal/wasm-console
-评论网址：https://news.ycombinator.com/item?id=40918794
-积分：13
-评论数：2]]></description>
-      <guid>https://github.com/rajatjindal/wasm-console</guid>
-      <pubDate>Tue, 09 Jul 2024 17:39:07 GMT</pubDate>
     </item>
     <item>
       <title>Meticulous (YC S21) 正在招聘人员以消除 E2E 测试</title>
@@ -103,6 +100,17 @@
 评论数：0]]></description>
       <guid>https://news.ycombinator.com/item?id=40918300</guid>
       <pubDate>Tue, 09 Jul 2024 17:00:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：浏览器如何将内部音频与麦克风输入隔离？</title>
+      <link>https://news.ycombinator.com/item?id=40918152</link>
+      <description><![CDATA[我注意到 Chrome 和 Chromium 中有一个有趣的功能：它们似乎将内部音频与麦克风输入隔离开来。例如，当我在一个标签页中进行 Google Meet 通话并在另一个标签页中以最大音量播放 YouTube 视频时，Google Meet 不会拾取该视频的音频。如果我为每个任务使用不同的浏览器（例如，Chrome 上的 Google Meet 和 Chromium 上的 YouTube），则不会发生这种隔离。有人知道 Chrome 和 Chromium 如何实现这种音频隔离吗？鉴于 Chromium 是开源的，如果有人能指出处理此问题的代码库的具体部分，那将很有帮助。任何见解或技术细节都将不胜感激！
+
+评论网址：https://news.ycombinator.com/item?id=40918152
+积分：136
+评论数：68]]></description>
+      <guid>https://news.ycombinator.com/item?id=40918152</guid>
+      <pubDate>Tue, 09 Jul 2024 16:45:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
