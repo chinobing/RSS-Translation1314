@@ -4,15 +4,35 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 11 Jul 2024 01:07:23 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2024 03:19:20 GMT</lastBuildDate>
+    <item>
+      <title>Lix 2.90“香草冰淇淋”</title>
+      <link>https://lix.systems/blog/2024-07-10-lix-2.90-release/</link>
+      <description><![CDATA[文章网址：https://lix.systems/blog/2024-07-10-lix-2.90-release/
+评论网址：https://news.ycombinator.com/item?id=40932996
+积分：10
+评论数：3]]></description>
+      <guid>https://lix.systems/blog/2024-07-10-lix-2.90-release/</guid>
+      <pubDate>Thu, 11 Jul 2024 01:21:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Great Question (YC W21) 正在澳大利亚招聘高级 Rails 工程师</title>
+      <link>https://www.ycombinator.com/companies/great-question/jobs/WIk0wNz-product-engineer-rails-react-australia</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/great-question/jobs/WIk0wNz-product-engineer-rails-react-australia
+评论网址：https://news.ycombinator.com/item?id=40932914
+积分：0
+评论数：0]]></description>
+      <guid>https://www.ycombinator.com/companies/great-question/jobs/WIk0wNz-product-engineer-rails-react-australia</guid>
+      <pubDate>Thu, 11 Jul 2024 01:00:25 GMT</pubDate>
+    </item>
     <item>
       <title>显示 HN：Dut，一个快速的 Linux 磁盘使用情况计算器</title>
       <link>https://codeberg.org/201984/dut</link>
-      <description><![CDATA[“dut” 是我几个月前用 C 语言编写的磁盘使用计算器。它是多线程的，是此类程序中速度最快的程序之一。它在所有情况下都胜过普通的“du”，并且在 Linux 缓存较热时（因此，第一次运行时不会）胜过所有其他类似程序。我编写“dut”是为了挑战我经常使用的类似程序，即 pdu[1] 和 dust[2]。“dut”显示当前目录下最大内容的树，还显示每个目录下硬链接的大小。硬链接计数的灵感来自 ncdu[3]，但我不喜欢读数不直观。有人有更好的格式吗？README 中有安装说明。 dut 是一个源文件，因此您只需下载它并复制粘贴编译器命令，然后将其复制到您的路径上的某个位置，例如 /usr/local/bin。我尝试了几种不同的方法来编写它，您可以在 git 历史记录中看到其中的大多数方法。程序的核心是一个数据结构，它保存仍需遍历的目录，以及用于保存已统计的文件和目录的二进制堆。我最初使用带有互斥锁的 C++ std::queues，但性能非常糟糕，所以我将其视为一个学习机会，并从头开始编写了所有数据结构。这是程序中最难的部分。这些是我用来提高性能的其他技术：* 使用带有父目录 fd 的 fstatat(2)，而不是带有绝对路径的 lstat(2)。（性能提升 10-15%）* 使用 statx(2)，而不是 fstatat。 （perf 显示 fstatat 在内核中运行 statx 代码）。（性能提升 10%）* 使用 getdents(2) 来获取目录内容，而不是 opendir/readdir/closedir。（也提升了 10% 左右）* 限制线程间通信。我最初将 fs-traversal 结果累积在共享二进制堆中，但为每个线程提供一个二进制堆，然后在最后将它们全部合并，这样速度更快。我在网上找不到任何关于 fstatat 和 statx 明显比普通的旧 stat 快的信息，所以也许这些信息将来会对某些人有所帮助。[1]：https://github.com/KSXGitHub/parallel-disk-usage[2]：https://github.com/bootandy/dust[3]：https://dev.yorhel.nl/doc/ncdu2，请参阅“共享链接”
+      <description><![CDATA[“dut” 是我几个月前用 C 语言编写的磁盘使用计算器。它是多线程的，是此类程序中速度最快的程序之一。它在所有情况下都胜过普通的“du”，并且在 Linux 缓存较热时（因此，第一次运行时不会）胜过所有其他类似程序。我编写“dut”是为了挑战我经常使用的类似程序，即 pdu[1] 和 dust[2]。“dut”显示当前目录下最大内容的树，还显示每个目录下硬链接的大小。硬链接计数的灵感来自 ncdu[3]，但我不喜欢读数不直观。有人有更好的格式吗？README 中有安装说明。 dut 是一个源文件，因此您只需下载它并复制粘贴编译器命令，然后将其复制到您的路径上的某个位置，例如 /usr/local/bin。我尝试了几种不同的方法来编写它，您可以在 git 历史记录中看到其中的大多数方法。程序的核心是一个数据结构，它保存仍需遍历的目录，以及用于保存已统计的文件和目录的二进制堆。我最初使用带有互斥锁的 C++ std::queues，但性能非常糟糕，所以我将其视为一个学习机会，并从头开始编写了所有数据结构。这是程序中最难的部分。这些是我用来提高性能的其他技术：* 使用带有父目录 fd 的 fstatat(2)，而不是带有绝对路径的 lstat(2)。（性能提升 10-15%）* 使用 statx(2)，而不是 fstatat。 （perf 显示 fstatat 在内核中运行 statx 代码）。（性能提升 10%）* 使用 getdents(2) 来获取目录内容，而不是 opendir/readdir/closedir。（也提升了 10% 左右）* 限制线程间通信。我最初将 fs-traversal 结果累积在共享二进制堆中，但为每个线程提供一个二进制堆，然后在最后将它们全部合并会更快。我在网上找不到任何关于 fstatat 和 statx 比普通的旧 stat 快得多的信息，所以也许这些信息将来会对某些人有所帮助。[1]：https://github.com/KSXGitHub/parallel-disk-usage[2]：https://github.com/bootandy/dust[3]：https://dev.yorhel.nl/doc/ncdu2，请参阅“共享链接”
 
 评论网址：https://news.ycombinator.com/item?id=40932492
-积分：9
-评论数：0]]></description>
+积分：70
+评论数：23]]></description>
       <guid>https://codeberg.org/201984/dut</guid>
       <pubDate>Wed, 10 Jul 2024 23:29:56 GMT</pubDate>
     </item>
@@ -21,18 +41,18 @@
       <link>https://news.feinberg.northwestern.edu/2024/07/10/scientists-discover-a-cause-of-lupus-and-a-possible-way-to-reverse-it/</link>
       <description><![CDATA[文章网址：https://news.feinberg.northwestern.edu/2024/07/10/scientists-discover-a-cause-of-lupus-and-a-possible-way-to-reverse-it/
 评论网址：https://news.ycombinator.com/item?id=40931636
-积分：207
-评论数：30]]></description>
+积分：312
+评论数：48]]></description>
       <guid>https://news.feinberg.northwestern.edu/2024/07/10/scientists-discover-a-cause-of-lupus-and-a-possible-way-to-reverse-it/</guid>
       <pubDate>Wed, 10 Jul 2024 21:24:49 GMT</pubDate>
     </item>
     <item>
-      <title>《纽约时报》书评是书评不应该有的一切</title>
+      <title>《纽约时报》的书评完全不符合书评的风格</title>
       <link>https://www.currentaffairs.org/news/new-york-times-book-review</link>
       <description><![CDATA[文章网址：https://www.currentaffairs.org/news/new-york-times-book-review
 评论网址：https://news.ycombinator.com/item?id=40930983
-积分：30
-评论数：11]]></description>
+积分：54
+评论数：27]]></description>
       <guid>https://www.currentaffairs.org/news/new-york-times-book-review</guid>
       <pubDate>Wed, 10 Jul 2024 20:08:06 GMT</pubDate>
     </item>
@@ -41,8 +61,8 @@
       <link>http://laputan.org/mud/</link>
       <description><![CDATA[文章网址：http://laputan.org/mud/
 评论网址：https://news.ycombinator.com/item?id=40930549
-积分：77
-评论数：68]]></description>
+积分：90
+评论数：75]]></description>
       <guid>http://laputan.org/mud/</guid>
       <pubDate>Wed, 10 Jul 2024 19:29:32 GMT</pubDate>
     </item>
@@ -51,28 +71,18 @@
       <link>https://www.wsj.com/science/space-astronomy/ed-stone-scientist-voyager-mission-dies-at-88-44c65bc4</link>
       <description><![CDATA[文章网址：https://www.wsj.com/science/space-astronomy/ed-stone-scientist-voyager-mission-dies-at-88-44c65bc4
 评论网址：https://news.ycombinator.com/item?id=40929104
-积分：107
-评论数：20]]></description>
+积分：118
+评论数：24]]></description>
       <guid>https://www.wsj.com/science/space-astronomy/ed-stone-scientist-voyager-mission-dies-at-88-44c65bc4</guid>
       <pubDate>Wed, 10 Jul 2024 17:17:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Motion（YC W20）正在招聘高级前端工程师</title>
-      <link>https://jobs.ashbyhq.com/motion/4f5f6a29-3af0-4d79-99a4-988ff7c5ba05?utm_source=hn</link>
-      <description><![CDATA[文章网址：https://jobs.ashbyhq.com/motion/4f5f6a29-3af0-4d79-99a4-988ff7c5ba05?utm_source=hn
-评论网址：https://news.ycombinator.com/item?id=40928948
-积分：0
-评论数：0]]></description>
-      <guid>https://jobs.ashbyhq.com/motion/4f5f6a29-3af0-4d79-99a4-988ff7c5ba05?utm_source=hn</guid>
-      <pubDate>Wed, 10 Jul 2024 17:01:32 GMT</pubDate>
     </item>
     <item>
       <title>Linux 上的 Zed 现已发布</title>
       <link>https://zed.dev/linux</link>
       <description><![CDATA[文章网址：https://zed.dev/linux
 评论网址：https://news.ycombinator.com/item?id=40928893
-积分：453
-评论数：383]]></description>
+积分：506
+评论数：409]]></description>
       <guid>https://zed.dev/linux</guid>
       <pubDate>Wed, 10 Jul 2024 16:56:02 GMT</pubDate>
     </item>
@@ -81,8 +91,8 @@
       <link>https://phys.org/news/2024-07-scientific-fraud-uncovering.html</link>
       <description><![CDATA[文章网址：https://phys.org/news/2024-07-scientific-fraud-uncovering.html
 评论网址：https://news.ycombinator.com/item?id=40928756
-积分：81
-评论数：30]]></description>
+积分：98
+评论数：37]]></description>
       <guid>https://phys.org/news/2024-07-scientific-fraud-uncovering.html</guid>
       <pubDate>Wed, 10 Jul 2024 16:41:44 GMT</pubDate>
     </item>
@@ -92,19 +102,9 @@
       <description><![CDATA[文章网址：https://arxiv.org/abs/2309.03883
 评论网址：https://news.ycombinator.com/item?id=40928145
 积分：48
-评论数：5]]></description>
+评论数：6]]></description>
       <guid>https://arxiv.org/abs/2309.03883</guid>
       <pubDate>Wed, 10 Jul 2024 15:39:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Brian Kernighan 谈“编程实践” [视频]</title>
-      <link>https://www.youtube.com/watch?v=_QQ7k5sn2-o</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=_QQ7k5sn2-o
-评论网址：https://news.ycombinator.com/item?id=40927481
-积分：162
-评论数：27]]></description>
-      <guid>https://www.youtube.com/watch?v=_QQ7k5sn2-o</guid>
-      <pubDate>Wed, 10 Jul 2024 14:45:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
