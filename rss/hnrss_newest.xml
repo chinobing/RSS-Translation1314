@@ -4,107 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 15 Jul 2024 18:20:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 21:15:33 GMT</lastBuildDate>
     <item>
-      <title>AMD Ryzen AI 300 系列发布 – ServeTheHome</title>
-      <link>https://www.servethehome.com/amd-ryzen-ai-300-series-launched/</link>
-      <description><![CDATA[文章网址：https://www.servethehome.com/amd-ryzen-ai-300-series-launched/
-评论网址：https://news.ycombinator.com/item?id=40970095
+      <title>已解锁：RetroAchievements 登陆 Dolphin</title>
+      <link>https://dolphin-emu.org/blog/2024/07/15/unlocked-retroachievements-come-dolphin/</link>
+      <description><![CDATA[文章网址：https://dolphin-emu.org/blog/2024/07/15/unlocked-retroachievements-come-dolphin/
+评论网址：https://news.ycombinator.com/item?id=40971504
 积分：1
 评论数：0]]></description>
-      <guid>https://www.servethehome.com/amd-ryzen-ai-300-series-launched/</guid>
-      <pubDate>Mon, 15 Jul 2024 18:07:45 GMT</pubDate>
+      <guid>https://dolphin-emu.org/blog/2024/07/15/unlocked-retroachievements-come-dolphin/</guid>
+      <pubDate>Mon, 15 Jul 2024 21:12:39 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：使用一个 TypeScript SDK 集成 60 个 LLM</title>
-      <link>https://docs.tokenjs.ai/</link>
-      <description><![CDATA[我很高兴介绍 Token.js，这是一个免费的开源 TypeScript SDK，允许您使用 OpenAI 的格式与 60 多个 LLM 集成，而无需代理服务器。特点：- 使用 OpenAI 的格式从 9 个提供商（Anthropic、AWS Bedrock、Cohere、Gemini、Mistral 等）调用 60 多个 LLM。- 支持函数调用、JSON 输出、图像输入、流式传输等。- 完全在客户端运行。无需代理服务器。- 根据 MIT 许可免费开源。我们构建了 Token.js，因为我们想要一个简单的抽象来尝试许多不同的 LLM，而无需重写代码、不必要地通过代理服务器路由 API 调用或将自己锁定在单个 LLM 提供商中。查看我们的文档并让我们知道您的想法！https://docs.tokenjs.ai/
+      <title>詹姆斯韦伯太空望远镜是否正在“突破”宇宙学？</title>
+      <link>https://www.space.com/is-jwst-breaking-cosmology</link>
+      <description><![CDATA[文章网址：https://www.space.com/is-jwst-breaking-cosmology
+评论网址：https://news.ycombinator.com/item?id=40971497
+积分：1
+评论数：0]]></description>
+      <guid>https://www.space.com/is-jwst-breaking-cosmology</guid>
+      <pubDate>Mon, 15 Jul 2024 21:11:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>一种被严重低估的编程技巧是一厢情愿的力量</title>
+      <link>https://github.com/dabeaz/blog/blob/main/2021/todo-abc.md</link>
+      <description><![CDATA[文章网址：https://github.com/dabeaz/blog/blob/main/2021/todo-abc.md
+评论网址：https://news.ycombinator.com/item?id=40971492
+积分：1
+评论数：0]]></description>
+      <guid>https://github.com/dabeaz/blog/blob/main/2021/todo-abc.md</guid>
+      <pubDate>Mon, 15 Jul 2024 21:10:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>计算机速度很快</title>
+      <link>https://thundergolfer.com/computers-are-fast</link>
+      <description><![CDATA[文章网址：https://thundergolfer.com/computers-are-fast
+评论网址：https://news.ycombinator.com/item?id=40971480
+积分：1
+评论数：0]]></description>
+      <guid>https://thundergolfer.com/computers-are-fast</guid>
+      <pubDate>Mon, 15 Jul 2024 21:09:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>展示 HN：Claude.vim – 对 AI 结对编程的不同看法</title>
+      <link>https://github.com/pasky/claude.vim</link>
+      <description><![CDATA[我探索了如何在编写软件时使用 AI，而不仅仅是代码完成，但我不喜欢我看到的任何用户体验（也许除了 Cursor）。好吧，我所有的工作都是在 vim 中完成的。Claude 知道如何使用 vim！而且...你可以用 vim 做任何事情（！）。事实证明，将 Claude 嵌入 vim 意味着你可以在不到 1000 LoC 的时间内获得一个完全代理的 AI 配对程序员。（请参阅 GitHub README 以了解“完全代理”的含义。）如果你设置了一些语义 vim 工具（jedi.vim、eclim 等），Claude 可以根据指示使用它们。与 CLI 不同，你可以查看 Claude 的更改并保留聊天记录。因此，编辑器界面是实际工作的杀手级功能。Sonnet 3.5 暂时不会取代你的程序员工作。但是它可以让你的速度更快，即使你打字速度非常快（尤其是它的一次性能力令人惊叹）。诀窍是不要放弃思考并保持掌控。让它做繁重的工作就行了。P.S. 在 claude.vim 之前，我从未用 vimscript 写过任何东西。谢天谢地，Claude 为我完成了 95% 的代码繁重工作，大多数时候已经自行托管。P.P.S. Claude 在 AWS Bedrock 上，即使在禁止向随机第三方 SaaS 发送代码的环境中，您也有可能使用它。
 
-评论 URL：https://news.ycombinator.com/item?id=40970091
+评论网址：https://news.ycombinator.com/item?id=40971476
+积分：1
+评论数：0]]></description>
+      <guid>https://github.com/pasky/claude.vim</guid>
+      <pubDate>Mon, 15 Jul 2024 21:09:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>英国与欧盟关系解冻对金融服务意味着什么？</title>
+      <link>https://www.euronews.com/business/2024/07/15/what-would-a-uk-eu-thaw-mean-for-financial-services</link>
+      <description><![CDATA[文章网址：https://www.euronews.com/business/2024/07/15/what-would-a-uk-eu-thaw-mean-for-financial-services
+评论网址：https://news.ycombinator.com/item?id=40971460
+积分：1
+评论数：0]]></description>
+      <guid>https://www.euronews.com/business/2024/07/15/what-would-a-uk-eu-thaw-mean-for-financial-services</guid>
+      <pubDate>Mon, 15 Jul 2024 21:05:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>弗里斯顿自由能原理解析</title>
+      <link>https://jaredtumiel.github.io/blog/2020/08/08/free-energy1.html</link>
+      <description><![CDATA[文章网址：https://jaredtumiel.github.io/blog/2020/08/08/free-energy1.html
+评论网址：https://news.ycombinator.com/item?id=40971433
+积分：1
+评论数：0]]></description>
+      <guid>https://jaredtumiel.github.io/blog/2020/08/08/free-energy1.html</guid>
+      <pubDate>Mon, 15 Jul 2024 21:01:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>FTC 调查 IBM 以 64 亿美元收购 HashiCorp 案</title>
+      <link>https://www.theregister.com/2024/07/15/ftc_ibms_hashicorp/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2024/07/15/ftc_ibms_hashicorp/
+评论网址：https://news.ycombinator.com/item?id=40971432
 积分：2
 评论数：0]]></description>
-      <guid>https://docs.tokenjs.ai/</guid>
-      <pubDate>Mon, 15 Jul 2024 18:07:15 GMT</pubDate>
+      <guid>https://www.theregister.com/2024/07/15/ftc_ibms_hashicorp/</guid>
+      <pubDate>Mon, 15 Jul 2024 21:01:11 GMT</pubDate>
     </item>
     <item>
-      <title>AMD 深入研究 Zen 5 架构 – Ryzen 9000 和 AI 300 基准测试、RDNA 3.5</title>
-      <link>https://www.tomshardware.com/pc-components/cpus/amd-deep-dives-zen-5-ryzen-9000-and-strix-point-cpu-rdna-35-gpu-and-xdna-2-architectures</link>
-      <description><![CDATA[文章网址：https://www.tomshardware.com/pc-components/cpus/amd-deep-dives-zen-5-ryzen-9000-and-strix-point-cpu-rdna-35-gpu-and-xdna-2-architectures
-评论网址：https://news.ycombinator.com/item?id=40970080
-积分：1
-评论数： 1]]></description>
-      <guid>https://www.tomshardware.com/pc-components/cpus/amd-deep-dives-zen-5-ryzen-9000-and-strix-point-cpu-rdna-35-gpu-and-xdna-2-architectures</guid>
-      <pubDate>Mon, 15 Jul 2024 18:05:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>密码 Facebook</title>
-      <link>https://www.facebook.com/vincentalbiso.vincentalbiso</link>
-      <description><![CDATA[文章网址：https://www.facebook.com/vincentalbiso.vincentalbiso
-评论网址：https://news.ycombinator.com/item?id=40970079
+      <title>记忆：洪水与流动</title>
+      <link>https://oceanflynn.wordpress.com/2009/12/09/memory-floods-and-flows/</link>
+      <description><![CDATA[文章网址：https://oceanflynn.wordpress.com/2009/12/09/memory-floods-and-flows/
+评论网址：https://news.ycombinator.com/item?id=40971421
 积分：1
 评论数：0]]></description>
-      <guid>https://www.facebook.com/vincentalbiso.vincentalbiso</guid>
-      <pubDate>Mon, 15 Jul 2024 18:05:11 GMT</pubDate>
+      <guid>https://oceanflynn.wordpress.com/2009/12/09/memory-floods-and-flows/</guid>
+      <pubDate>Mon, 15 Jul 2024 21:00:04 GMT</pubDate>
     </item>
     <item>
-      <title>Tesla FSD 仅针对特定路线进行优化</title>
-      <link>https://electrek.co/2024/07/09/tesla-insiders-say-elon-optimized-full-self-driving-routes-for-himself-influencers/</link>
-      <description><![CDATA[文章网址：https://electrek.co/2024/07/09/tesla-insiders-say-elon-optimized-full-self-driving-routes-for-himself-influencers/
-评论网址：https://news.ycombinator.com/item?id=40970074
-积分：1
-评论数：0]]></description>
-      <guid>https://electrek.co/2024/07/09/tesla-insiders-say-elon-optimized-full-self-driving-routes-for-himself-influencers/</guid>
-      <pubDate>Mon, 15 Jul 2024 18:04:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>100 秒了解社交 [视频]</title>
-      <link>https://www.youtube.com/watch?v=pu78XwY25O4</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=pu78XwY25O4
-评论网址：https://news.ycombinator.com/item?id=40970057
-积分：1
-评论数：0]]></description>
-      <guid>https://www.youtube.com/watch?v=pu78XwY25O4</guid>
-      <pubDate>Mon, 15 Jul 2024 18:02:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>正在进行的传奇：AI芯片将花多少钱？</title>
-      <link>https://www.nextplatform.com/2024/07/15/ongoing-saga-how-much-money-will-be-spent-on-ai-chips/</link>
-      <description><![CDATA[文章网址：https://www.nextplatform.com/2024/07/15/ongoing-saga-how-much-money-will-be-spent-on-ai-chips/
-评论网址：https://news.ycombinator.com/item?id=40970056
-积分：1
-评论数：0]]></description>
-      <guid>https://www.nextplatform.com/2024/07/15/ongoing-saga-how-much-money-will-be-spent-on-ai-chips/</guid>
-      <pubDate>Mon, 15 Jul 2024 18:02:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>重新想象技术面试：经验比考试技巧更重要</title>
-      <link>https://danielabaron.me/blog/reimagining-technical-interviews/</link>
-      <description><![CDATA[文章网址：https://danielabaron.me/blog/reimagining-technical-interviews/
-评论网址：https://news.ycombinator.com/item?id=40970048
-积分：1
-评论数：0]]></description>
-      <guid>https://danielabaron.me/blog/reimagining-technical-interviews/</guid>
-      <pubDate>Mon, 15 Jul 2024 18:01:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>从头开始创建统一内核映像</title>
-      <link>https://blog.izissise.net/posts/uki/</link>
-      <description><![CDATA[文章网址：https://blog.izissise.net/posts/uki/
-评论网址：https://news.ycombinator.com/item?id=40970032
-积分：1
-评论数：0]]></description>
-      <guid>https://blog.izissise.net/posts/uki/</guid>
-      <pubDate>Mon, 15 Jul 2024 17:59:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>代码属性图威胁检测</title>
-      <link>https://github.com/ShiftLeftSecurity/codepropertygraph</link>
-      <description><![CDATA[文章网址：https://github.com/ShiftLeftSecurity/codepropertygraph
-评论网址：https://news.ycombinator.com/item?id=40970024
-积分：1
-评论数：0]]></description>
-      <guid>https://github.com/ShiftLeftSecurity/codepropertygraph</guid>
-      <pubDate>Mon, 15 Jul 2024 17:58:03 GMT</pubDate>
+      <title>FBI 获准获取特朗普枪击案嫌疑人的密码保护手机</title>
+      <link>https://gizmodo.com/fbi-gains-access-to-trump-shooters-password-protected-phone-2000473620</link>
+      <description><![CDATA[文章网址：https://gizmodo.com/fbi-gains-access-to-trump-shooters-password-protected-phone-2000473620
+评论网址：https://news.ycombinator.com/item?id=40971374
+积分：7
+评论数：2]]></description>
+      <guid>https://gizmodo.com/fbi-gains-access-to-trump-shooters-password-protected-phone-2000473620</guid>
+      <pubDate>Mon, 15 Jul 2024 20:53:48 GMT</pubDate>
     </item>
     </channel>
 </rss>
