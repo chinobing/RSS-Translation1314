@@ -4,110 +4,105 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 17 Jul 2024 15:18:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2024 18:20:22 GMT</lastBuildDate>
     <item>
-      <title>不丹第一家人工智能初创公司是由宿舍里的七名大学生创办的</title>
-      <link>https://restofworld.org/2024/bhutan-first-ai-startup/</link>
-      <description><![CDATA[文章网址：https://restofworld.org/2024/bhutan-first-ai-startup/
-评论网址：https://news.ycombinator.com/item?id=40986261
-积分：19
-评论数：2]]></description>
-      <guid>https://restofworld.org/2024/bhutan-first-ai-startup/</guid>
-      <pubDate>Wed, 17 Jul 2024 14:21:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>波多黎各向化石燃料公司提起 10 亿美元诉讼</title>
-      <link>https://www.theverge.com/2024/7/16/24199686/puerto-rico-fossil-fuel-industry-lawsuit-climate-change</link>
-      <description><![CDATA[文章网址：https://www.theverge.com/2024/7/16/24199686/puerto-rico-fossil-fuel-industry-lawsuit-climate-change
-评论网址：https://news.ycombinator.com/item?id=40986213
-积分：35
-评论数：1]]></description>
-      <guid>https://www.theverge.com/2024/7/16/24199686/puerto-rico-fossil-fuel-industry-lawsuit-climate-change</guid>
-      <pubDate>Wed, 17 Jul 2024 14:16:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>汤姆·莱勒和圣克鲁斯：美国著名讽刺作家之一的足迹</title>
-      <link>https://lookout.co/tom-lehrer-and-santa-cruz-sleuthing-the-trail-of-one-of-americas-premier-satirists/</link>
-      <description><![CDATA[文章网址：https://lookout.co/tom-lehrer-and-santa-cruz-sleuthing-the-trail-of-one-of-americas-premier-satirists/
-评论网址：https://news.ycombinator.com/item?id=40986181
-积分：8
-评论数：1]]></description>
-      <guid>https://lookout.co/tom-lehrer-and-santa-cruz-sleuthing-the-trail-of-one-of-americas-premier-satirists/</guid>
-      <pubDate>Wed, 17 Jul 2024 14:13:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>启动 HN：Traceloop (YC W23) – 使用 OpenTelemetry 检测 LLM 幻觉</title>
-      <link>https://news.ycombinator.com/item?id=40985609</link>
-      <description><![CDATA[大家好，我们是来自 Traceloop (https://www.traceloop.com) 的 Nir ​​和 Gal。我们帮助团队了解他们的 LLM 应用程序何时出现故障或大规模出现幻觉。观看演示：https://www.traceloop.com/video 或在 https://www.traceloop.com/docs/demo 上亲自尝试。将 LLM 应用程序投入生产时，大规模的规模使得工程师和数据科学家都更难了解他们的 LLM 何时出现幻觉或返回格式错误的响应。当您每月收到数百万次对 OpenAI 的调用时，“LLM 作为法官”之类的方法无法以合理的成本或延迟发挥作用。因此，我们交谈过的大多数人通常会手动对某些代数进行采样，也许是针对某些特定的重要客户，然后手动查找错误或幻觉。Traceloop 是一个监控平台，可检测您的 LLM 应用程序何时出现故障。在底层，我们构建了已知指标的实时版本，例如忠实度、相关性、冗余度等。这些指标大致基于一些众所周知的 NLP 指标，这些指标对 LLM 生成的文本非常有效。我们将它们与我们在您的系统中检测到的变化（例如对提示或您正在使用的模型的更新）相关联，以自动检测回归。以下是我们在客户身上看到的一些很酷的例子 -1. 将我们的 QA 相关性指标应用于实体提取任务，我们设法发现了模型未提取正确实体（例如地址而不是人名）的问题；或者返回随机答案，例如“我在这里！我今天可以为您做些什么？”。2.我们的软忠诚度指标能够检测到摘要任务中模型完全编造了原始文本中从未出现的内容的情况。我们面临的挑战之一是弄清楚如何从客户的 LLM 应用中收集我们需要的数据。这就是 OpenTelemetry 派上用场的地方。我们构建了 OpenLLMetry (https://github.com/traceloop/openllmetry)，并在近一年前在这里宣布了它。它标准化了使用 OpenTelemetry 观察 LLM 应用的使用。我们意识到使用 OpenTelemetry 标准化的跟踪、跨度、指标和日志的概念可以轻松扩展到 gen AI。我们与 20 多个可观察性平台合作，以确保 OpenLLMetry 成为 GenAI 可观察性的标准，并且我们收集的数据也可以发送到其他平台。我们计划扩展我们提供的指标，以支持使用工具、视觉模型和我们快速发展的行业中其他惊人发展的代理。我们邀请您试用 Traceloop，并渴望得到您的反馈！您如何跟踪和调试幻觉？这对您来说有多大的问题？你遇到过哪些类型的幻觉？
-
-评论网址：https://news.ycombinator.com/item?id=40985609
+      <title>MAGA 计划终止免费天气报告</title>
+      <link>https://www.theatlantic.com/science/archive/2024/07/noaa-project-2025-weather/678987/</link>
+      <description><![CDATA[文章网址：https://www.theatlantic.com/science/archive/2024/07/noaa-project-2025-weather/678987/
+评论网址：https://news.ycombinator.com/item?id=40988752
 积分：4
-评论数：2]]></description>
-      <guid>https://news.ycombinator.com/item?id=40985609</guid>
-      <pubDate>Wed, 17 Jul 2024 13:19:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>新技术可以减少空调的能耗</title>
-      <link>https://www.wired.com/story/cutting-edge-technology-could-massively-reduce-the-amount-of-energy-used-for-air-conditioning/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/cutting-edge-technology-could-massively-reduce-the-amount-of-energy-used-for-air-conditioning/
-评论网址：https://news.ycombinator.com/item?id=40985436
-积分：38
-评论数：31]]></description>
-      <guid>https://www.wired.com/story/cutting-edge-technology-could-massively-reduce-the-amount-of-energy-used-for-air-conditioning/</guid>
-      <pubDate>Wed, 17 Jul 2024 13:02:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>英国法院下令置顶推文 – Craig Wright 不是中本聪</title>
-      <link>https://twitter.com/Dr_CSWright/status/1813547003676164132</link>
-      <description><![CDATA[文章网址：https://twitter.com/Dr_CSWright/status/1813547003676164132
-评论网址：https://news.ycombinator.com/item?id=40985285
-积分：16
 评论数：0]]></description>
-      <guid>https://twitter.com/Dr_CSWright/status/1813547003676164132</guid>
-      <pubDate>Wed, 17 Jul 2024 12:47:49 GMT</pubDate>
+      <guid>https://www.theatlantic.com/science/archive/2024/07/noaa-project-2025-weather/678987/</guid>
+      <pubDate>Wed, 17 Jul 2024 18:18:09 GMT</pubDate>
     </item>
     <item>
-      <title>最棒的教育生活秘诀：提前学习数学</title>
-      <link>https://www.justinmath.com/the-greatest-educational-life-hack-learning-math-ahead-of-time/</link>
-      <description><![CDATA[文章网址：https://www.justinmath.com/the-greatest-educational-life-hack-learning-math-ahead-of-time/
-评论网址：https://news.ycombinator.com/item?id=40983734
-积分：81
-评论数：55]]></description>
-      <guid>https://www.justinmath.com/the-greatest-educational-life-hack-learning-math-ahead-of-time/</guid>
-      <pubDate>Wed, 17 Jul 2024 08:46:55 GMT</pubDate>
+      <title>博士论文致谢中的诗意</title>
+      <link>https://science.anu.edu.au/news-events/news/unexpected-poetry-phd-acknowledgements</link>
+      <description><![CDATA[文章网址：https://science.anu.edu.au/news-events/news/unexpected-poetry-phd-acknowledgements
+评论网址：https://news.ycombinator.com/item?id=40988395
+积分：4
+评论数：1]]></description>
+      <guid>https://science.anu.edu.au/news-events/news/unexpected-poetry-phd-acknowledgements</guid>
+      <pubDate>Wed, 17 Jul 2024 17:44:38 GMT</pubDate>
     </item>
     <item>
-      <title>Libera IRC 频道按用户数量排序</title>
-      <link>https://netsplit.de/channels/?net=Libera.Chat</link>
-      <description><![CDATA[文章网址：https://netsplit.de/channels/?net=Libera.Chat
-评论网址：https://news.ycombinator.com/item?id=40983500
-积分：73
-评论数：59]]></description>
-      <guid>https://netsplit.de/channels/?net=Libera.Chat</guid>
-      <pubDate>Wed, 17 Jul 2024 07:59:41 GMT</pubDate>
+      <title>证明者-验证者游戏提高了语言模型输出的可读性</title>
+      <link>https://openai.com/index/prover-verifier-games-improve-legibility/</link>
+      <description><![CDATA[文章网址：https://openai.com/index/prover-verifier-games-improve-legibility/
+评论网址：https://news.ycombinator.com/item?id=40988076
+积分：23
+评论数：4]]></description>
+      <guid>https://openai.com/index/prover-verifier-games-improve-legibility/</guid>
+      <pubDate>Wed, 17 Jul 2024 17:15:37 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Pippy – GitHub Actions 的管道</title>
-      <link>https://pippy.dev/</link>
-      <description><![CDATA[我很高兴分享 pippy，它允许用户使用 Github Actions 创建可配置的管道。如果您使用过 Azure Pipelines，那么总而言之，这就是 Azure Pipelines 与 Github Actions 的结合。云版本：https://app.pippy.dev/login（封闭测试版）
-
-我还开源了命令行版本：https://github.com/nixmade/pippy。主要功能：- 自动回滚- Datadog 监控- 暂停/恢复该产品使用开源 Orchestrator 构建。Orchestrator：https://github.com/nixmade/orchestratorOrchestrator 允许您协调部署到特定目标集，并提供监控功能以可选地回滚。希望提供云 API，以便平台可以使用框架协调更新。技术栈：数据库：Postgres后端：Golang前端：React + Shadcn UI云：Azure 容器应用请在评论中留下您的反馈。希望您可以尝试命令行版本，并注册云版本的 Beta 版。
-
-评论 URL：https://news.ycombinator.com/item?id=40983328
-积分：18
-评论数：2]]></description>
-      <guid>https://pippy.dev/</guid>
-      <pubDate>Wed, 17 Jul 2024 07:17:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>最后一位先锋派</title>
-      <link>https://lareviewofbooks.org/article/the-last-avant-garde/</link>
-      <description><![CDATA[文章网址：https://lareviewofbooks.org/article/the-last-avant-garde/
-评论网址：https://news.ycombinator.com/item?id=40982712
-积分：7
+      <title>反对根据谁是“支持加密货币”来选择你的政治盟友</title>
+      <link>https://vitalik.eth.limo/general/2024/07/17/procrypto.html</link>
+      <description><![CDATA[文章网址：https://vitalik.eth.limo/general/2024/07/17/procrypto.html
+评论网址：https://news.ycombinator.com/item?id=40988052
+积分：22
 评论数：3]]></description>
-      <guid>https://lareviewofbooks.org/article/the-last-avant-garde/</guid>
-      <pubDate>Wed, 17 Jul 2024 05:00:16 GMT</pubDate>
+      <guid>https://vitalik.eth.limo/general/2024/07/17/procrypto.html</guid>
+      <pubDate>Wed, 17 Jul 2024 17:13:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>GoGoGrandparent (YC S16) 正在招聘高级后端工程师</title>
+      <link>https://news.ycombinator.com/item?id=40987913</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=40987913
+积分：0
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=40987913</guid>
+      <pubDate>Wed, 17 Jul 2024 17:00:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>越狱 RabbitOS：揭露秘密日志和 GPL 违规行为</title>
+      <link>https://www.da.vidbuchanan.co.uk/blog/r1-jailbreak.html</link>
+      <description><![CDATA[文章网址：https://www.da.vidbuchanan.co.uk/blog/r1-jailbreak.html
+评论网址：https://news.ycombinator.com/item?id=40987730
+积分：266
+评论数：64]]></description>
+      <guid>https://www.da.vidbuchanan.co.uk/blog/r1-jailbreak.html</guid>
+      <pubDate>Wed, 17 Jul 2024 16:41:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>裸盖菇素使人类大脑失去同步</title>
+      <link>https://www.nature.com/articles/s41586-024-07624-5</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41586-024-07624-5
+评论网址：https://news.ycombinator.com/item?id=40987427
+积分：53
+评论数：23]]></description>
+      <guid>https://www.nature.com/articles/s41586-024-07624-5</guid>
+      <pubDate>Wed, 17 Jul 2024 16:10:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>TinyPod – 带滚轮的 Apple Watch 表壳</title>
+      <link>https://thetinypod.com/</link>
+      <description><![CDATA[文章网址：https://thetinypod.com/
+评论网址：https://news.ycombinator.com/item?id=40987402
+积分：112
+评论数：58]]></description>
+      <guid>https://thetinypod.com/</guid>
+      <pubDate>Wed, 17 Jul 2024 16:08:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>阻断促炎蛋白后，小鼠寿命更长</title>
+      <link>https://www.nature.com/articles/d41586-024-02298-5</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-024-02298-5
+评论网址：https://news.ycombinator.com/item?id=40987224
+积分：56
+评论数：48]]></description>
+      <guid>https://www.nature.com/articles/d41586-024-02298-5</guid>
+      <pubDate>Wed, 17 Jul 2024 15:52:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>就业市场恐慌</title>
+      <link>https://matt.sh/panic-at-the-job-market</link>
+      <description><![CDATA[文章网址：https://matt.sh/panic-at-the-job-market
+评论网址：https://news.ycombinator.com/item?id=40986894
+积分：375
+评论数：284]]></description>
+      <guid>https://matt.sh/panic-at-the-job-market</guid>
+      <pubDate>Wed, 17 Jul 2024 15:25:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
