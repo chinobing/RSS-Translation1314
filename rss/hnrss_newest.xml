@@ -4,123 +4,115 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 19 Jul 2024 06:21:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2024 09:16:36 GMT</lastBuildDate>
     <item>
-      <title>Crowdstrike 更新引发混乱</title>
-      <link>https://www.theguardian.com/australia-news/live/2024/jul/19/australia-news-live-offshore-detainees-energy-ministers-meet-renewables-transition-heath-housing-cost-of-living</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/australia-news/live/2024/jul/19/australia-news-live-offshore-detainees-energy-ministers-meet-renewables-transition-heath-housing-cost-of-living
-评论网址：https://news.ycombinator.com/item?id=41002408
-要点： 2
-# 评论：1]]></description>
-      <guid>https://www.theguardian.com/australia-news/live/2024/jul/19/australia-news-live-offshore-detainees-energy-ministers-meet-renewables-transition-heath-housing-cost-of-living</guid>
-      <pubDate>Fri, 19 Jul 2024 06:18:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>KOReader 是一款主要针对电子墨水阅读器的文档查看器</title>
-      <link>https://github.com/koreader/koreader</link>
-      <description><![CDATA[文章网址：https://github.com/koreader/koreader
-评论网址：https://news.ycombinator.com/item?id=41002407
+      <title>GPT 价格昂贵吗？ 内含全球 LLM 价格表</title>
+      <link>https://isgptexpensive.com/#pricing</link>
+      <description><![CDATA[文章网址：https://isgptexpensive.com/#pricing
+评论网址：https://news.ycombinator.com/item?id=41003918
 积分：1
 评论数：0]]></description>
-      <guid>https://github.com/koreader/koreader</guid>
-      <pubDate>Fri, 19 Jul 2024 06:18:26 GMT</pubDate>
+      <guid>https://isgptexpensive.com/#pricing</guid>
+      <pubDate>Fri, 19 Jul 2024 09:09:13 GMT</pubDate>
     </item>
     <item>
-      <title>Crowdstrike 最新更新导致 Microsoft Windows 出现蓝屏死机</title>
-      <link>https://www.timesnownews.com/technology-science/latest-crowdstrike-update-causes-blue-screen-of-death-on-microsoft-windows-multiple-users-affected-article-111854018</link>
-      <description><![CDATA[文章网址：https://www.timesnownews.com/technology-science/latest-crowdstrike-update-causes-blue-screen-of-death-on-microsoft-windows-multiple-users-affected-article-111854018
-评论网址：https://news.ycombinator.com/item?id=41002403
-积分：2
-评论数：0]]></description>
-      <guid>https://www.timesnownews.com/technology-science/latest-crowdstrike-update-causes-blue-screen-of-death-on-microsoft-windows-multiple-users-affected-article-111854018</guid>
-      <pubDate>Fri, 19 Jul 2024 06:18:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Phi-3-MLX – Apple Silicon 的语言和视觉模型</title>
-      <link>https://github.com/JosefAlbers/Phi-3-Vision-MLX</link>
-      <description><![CDATA[Phi-3-MLX 是一个开源框架，它使用 MLX 框架将最新的 Phi-3 模型引入 Apple Silicon。它同时支持 Phi-3-Mini-128K 语言模型（2024 年 7 月 2 日更新）和 Phi-3-Vision 多模态模型，从而支持广泛的 AI 应用。主要特点：1. Apple Silicon 优化：利用 MLX 在 Apple 硬件上高效执行。2. 灵活的模型使用：
-- Phi-3-Mini-128K 用于语言任务
-- Phi-3-Vision 用于多模态功能
-- 在纯语言和多模态任务之间无缝切换3. 高级生成技术：
-- 多个提示的批量生成
-- 结构化输出的约束（波束搜索）解码4. 自定义选项：
-- 用于资源优化的模型和缓存量化
-- (Q)LoRA 微调用于特定于任务的适应5.多功能代理系统：
-- 多轮对话
-- 代码生成和执行
-- 外部 API 集成（例如，图像生成、文本转语音）6. 可扩展工具链：
-- 上下文学习
-- 检索增强生成 (RAG)
-- 多代理交互该框架的灵活性为 Apple Silicon 上的 AI 开发释放了新的潜力。一些独特的方面包括：- 轻松在纯语言和多模式任务之间切换
-- 为专门的工作流程定制工具链
-- 与外部 API 集成以扩展功能Phi-3-MLX 旨在为各种 AI 任务提供用户友好的界面，从文本生成到视觉问答等等。GitHub：https://github.com/JosefAlbers/Phi-3-Vision-MLX
-文档：https://josefalbers.github.io/Phi-3-Vision-MLX/我很乐意听到您对该框架的潜在应用的想法以及有关其他功能或集成的任何建议。
+      <title>由 LLM 提供支持的库，用于使用自然语言查询结构化数据</title>
+      <link>https://news.ycombinator.com/item?id=41003880</link>
+      <description><![CDATA[嗨，开发人员，
+我和我的研发团队想向您介绍 db-ally，这是一个由 LLM 提供支持的开源库，用于使用自然语言查询结构化数据。我们为什么要构建它
+在 deepsense.ai（我们是该组织的一部分）处理各种项目时，我们经常需要一种使用自然语言查询从数据库中获取数据的方法。传统的文本到 SQL 方法功能强大，但无法理解特定领域的查询，并且通常会产生不一致的结果。因此，我们构建了 db-ally 来简化此过程并简化使用自然语言查询的数据检索。通过定义特定用例，db-ally 使查询变得高效、可预测且易于管理。征求反馈
+由于这是一个研发项目，我们渴望听到您的想法和反馈。尝试一下 db-ally，让我们知道它对您有何帮助。您目前如何处理对数据库的自然语言查询？您面临哪些挑战？您可以在 GitHub 上找到文档和存储库：https://github.com/deepsense-ai/db-ally我们期待您的见解，以便我们进一步开发它以满足您的需求，了解对您最有用的内容。期待您的反馈。
 
-评论网址： https://news.ycombinator.com/item?id=41002393
+评论网址：https://news.ycombinator.com/item?id=41003880
 积分：1
 评论数：0]]></description>
-      <guid>https://github.com/JosefAlbers/Phi-3-Vision-MLX</guid>
-      <pubDate>Fri, 19 Jul 2024 06:17:07 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=41003880</guid>
+      <pubDate>Fri, 19 Jul 2024 09:05:39 GMT</pubDate>
     </item>
     <item>
-      <title>MikroORM：基于数据映射器的 Node.js TypeScript ORM</title>
-      <link>https://mikro-orm.io/</link>
-      <description><![CDATA[文章网址：https://mikro-orm.io/
-评论网址：https://news.ycombinator.com/item?id=41002387
+      <title>OpenAI 正在发布一款更便宜、更智能的模型。ChatGPT 4o mini 今日发布</title>
+      <link>https://www.theverge.com/2024/7/18/24200714/openai-new-cheaper-smarter-model-gpt-4o-mini</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/2024/7/18/24200714/openai-new-cheaper-smarter-model-gpt-4o-mini
+评论网址：https://news.ycombinator.com/item?id=41003825
+积分：1
+评论数：1]]></description>
+      <guid>https://www.theverge.com/2024/7/18/24200714/openai-new-cheaper-smarter-model-gpt-4o-mini</guid>
+      <pubDate>Fri, 19 Jul 2024 09:00:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>无需 IDE 的 STM32 开发</title>
+      <link>https://www.axemsolutions.io/blog/stm32-development-without-an-ide.html</link>
+      <description><![CDATA[文章网址：https://www.axemsolutions.io/blog/stm32-development-without-an-ide.html
+评论网址：https://news.ycombinator.com/item?id=41003823
 积分：1
 评论数：0]]></description>
-      <guid>https://mikro-orm.io/</guid>
-      <pubDate>Fri, 19 Jul 2024 06:16:24 GMT</pubDate>
+      <guid>https://www.axemsolutions.io/blog/stm32-development-without-an-ide.html</guid>
+      <pubDate>Fri, 19 Jul 2024 09:00:07 GMT</pubDate>
     </item>
     <item>
-      <title>最新消息：Windows BSoD 导致全球各地机场和电视瘫痪</title>
-      <link>https://twitter.com/troyhunt/status/1814174010202345761</link>
-      <description><![CDATA[文章网址：https://twitter.com/troyhunt/status/1814174010202345761
-评论网址：https://news.ycombinator.com/item?id=41002380
+      <title>询问 HN：灵活模式（Airtable 克隆）</title>
+      <link>https://news.ycombinator.com/item?id=41003818</link>
+      <description><![CDATA[并不是说我正在构建另一个 Airtable 克隆，但我想了解让最终用户能够添加新字段的最佳方法是什么。要求是使用关系数据库。
+到目前为止，我已经看到了两种方法。
+1. 使用 Json 列，不太喜欢这种方法，因为很难进行报告和搜索；
+2. 创建专门的数据抽象层，允许添加、显示字段而无需对数据库架构进行结构更改。
+还有其他想法吗？
+
+评论 URL：https://news.ycombinator.com/item?id=41003818
+积分：1
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=41003818</guid>
+      <pubDate>Fri, 19 Jul 2024 08:59:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们从 1995 年的网络中学到了什么技术知识（2013 年）</title>
+      <link>https://www.wired.com/2013/04/the-net-movie-technology/</link>
+      <description><![CDATA[文章网址：https://www.wired.com/2013/04/the-net-movie-technology/
+评论网址：https://news.ycombinator.com/item?id=41003802
+积分：1
+评论数：0]]></description>
+      <guid>https://www.wired.com/2013/04/the-net-movie-technology/</guid>
+      <pubDate>Fri, 19 Jul 2024 08:58:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>微软/Crowdstrike 中断导致飞机、银行和伦敦证券交易所停运</title>
+      <link>https://fortune.com/2024/07/19/microsoft-crowdstrike-disruptions-ground-planes-mcdonalds-london-stock-exchange/</link>
+      <description><![CDATA[文章网址：https://fortune.com/2024/07/19/microsoft-crowdstrike-disruptions-ground-planes-mcdonalds-london-stock-exchange/
+评论网址：https://news.ycombinator.com/item?id=41003784
 积分：2
-评论数：2]]></description>
-      <guid>https://twitter.com/troyhunt/status/1814174010202345761</guid>
-      <pubDate>Fri, 19 Jul 2024 06:15:24 GMT</pubDate>
+评论数：1]]></description>
+      <guid>https://fortune.com/2024/07/19/microsoft-crowdstrike-disruptions-ground-planes-mcdonalds-london-stock-exchange/</guid>
+      <pubDate>Fri, 19 Jul 2024 08:56:48 GMT</pubDate>
     </item>
     <item>
-      <title>我想再次享受 Minecraft</title>
-      <link>https://corneliuswastaken.bearblog.dev/i-want-to-enjoy-minecraft-again/</link>
-      <description><![CDATA[文章网址：https://corneliuswastaken.bearblog.dev/i-want-to-enjoy-minecraft-again/
-评论网址：https://news.ycombinator.com/item?id=41002362
-积分：1
-评论数：0]]></description>
-      <guid>https://corneliuswastaken.bearblog.dev/i-want-to-enjoy-minecraft-again/</guid>
-      <pubDate>Fri, 19 Jul 2024 06:12:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Crowdstrike BSOD 循环</title>
-      <link>https://old.reddit.com/r/crowdstrike/s/u1VkYGTFBv</link>
-      <description><![CDATA[文章网址：https://old.reddit.com/r/crowdstrike/s/u1VkYGTFBv
-评论网址：https://news.ycombinator.com/item?id=41002358
-积分：1
-评论数：2]]></description>
-      <guid>https://old.reddit.com/r/crowdstrike/s/u1VkYGTFBv</guid>
-      <pubDate>Fri, 19 Jul 2024 06:11:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软发生重大中断，影响全球用户</title>
-      <link>https://www.wsj.com/tech/microsoft-reports-major-service-outage-affecting-users-worldwide-328a2f40</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/tech/microsoft-reports-major-service-outage-affecting-users-worldwide-328a2f40
-评论网址：https://news.ycombinator.com/item?id=41002354
+      <title>由于 CrowdStrike 问题，全球 Windows PC 崩溃</title>
+      <link>https://mashable.com/article/windows-bsod-crash-crowdstrike-update-worldwide-outage</link>
+      <description><![CDATA[文章网址：https://mashable.com/article/windows-bsod-crash-crowdstrike-update-worldwide-outage
+评论网址：https://news.ycombinator.com/item?id=41003713
 积分：2
-评论数：0]]></description>
-      <guid>https://www.wsj.com/tech/microsoft-reports-major-service-outage-affecting-users-worldwide-328a2f40</guid>
-      <pubDate>Fri, 19 Jul 2024 06:10:59 GMT</pubDate>
+评论数：1]]></description>
+      <guid>https://mashable.com/article/windows-bsod-crash-crowdstrike-update-worldwide-outage</guid>
+      <pubDate>Fri, 19 Jul 2024 08:49:28 GMT</pubDate>
     </item>
     <item>
-      <title>“业余无线电俱乐部改变了我的生活”</title>
-      <link>https://www.bbc.com/news/articles/cd17nj8wpl8o</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cd17nj8wpl8o
-评论网址：https://news.ycombinator.com/item?id=41002351
+      <title>显示 HN：Easycomment.ai – Instagram 评论导出器和 AI 评论摘要</title>
+      <link>https://easycomment.ai/en/instagram-comment-exporter</link>
+      <description><![CDATA[文章网址：https://easycomment.ai/en/instagram-comment-exporter
+评论网址：https://news.ycombinator.com/item?id=41003711
 积分：1
 评论数：0]]></description>
-      <guid>https://www.bbc.com/news/articles/cd17nj8wpl8o</guid>
-      <pubDate>Fri, 19 Jul 2024 06:10:01 GMT</pubDate>
+      <guid>https://easycomment.ai/en/instagram-comment-exporter</guid>
+      <pubDate>Fri, 19 Jul 2024 08:49:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用自己的产品是一种超能力</title>
+      <link>https://newsletter.posthog.com/p/using-your-own-product-is-a-superpower</link>
+      <description><![CDATA[文章网址：https://newsletter.posthog.com/p/using-your-own-product-is-a-superpower
+评论网址：https://news.ycombinator.com/item?id=41003692
+积分：1
+评论数：0]]></description>
+      <guid>https://newsletter.posthog.com/p/using-your-own-product-is-a-superpower</guid>
+      <pubDate>Fri, 19 Jul 2024 08:46:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
