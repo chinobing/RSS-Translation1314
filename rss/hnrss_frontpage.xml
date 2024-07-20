@@ -4,56 +4,97 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 20 Jul 2024 15:18:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jul 2024 18:21:00 GMT</lastBuildDate>
     <item>
-      <title>如何使用检查元素来攻陷一家价值十亿美元的风投公司</title>
+      <title>CrowdStrike 几个月前就破坏了 Debian 和 Rocky Linux，但没有人注意到</title>
+      <link>https://www.neowin.net/news/crowdstrike-broke-debian-and-rocky-linux-months-ago-but-no-one-noticed/</link>
+      <description><![CDATA[文章网址：https://www.neowin.net/news/crowdstrike-broke-debian-and-rocky-linux-months-ago-but-no-one-noticed/
+评论网址：https://news.ycombinator.com/item?id=41018029
+积分：30
+评论数：1]]></description>
+      <guid>https://www.neowin.net/news/crowdstrike-broke-debian-and-rocky-linux-months-ago-but-no-one-noticed/</guid>
+      <pubDate>Sat, 20 Jul 2024 17:21:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>对 Tcl 创始人 John Osterhout 的简短采访（2023 年）</title>
+      <link>https://pldb.io/blog/JohnOusterhout.html</link>
+      <description><![CDATA[文章网址：https://pldb.io/blog/JohnOusterhout.html
+评论网址：https://news.ycombinator.com/item?id=41017367
+积分：55
+评论数：9]]></description>
+      <guid>https://pldb.io/blog/JohnOusterhout.html</guid>
+      <pubDate>Sat, 20 Jul 2024 15:56:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>罗马世界的人体寄生虫：征服帝国带来的健康后果</title>
+      <link>https://www.cambridge.org/core/journals/parasitology/article/human-parasites-in-the-roman-world-health-consequences-of-conquering-an-empire/6464BDBB5D4B8EC0B08C503B6ECD1B7B</link>
+      <description><![CDATA[文章网址：https://www.cambridge.org/core/journals/parasitology/article/human-parasites-in-the-roman-world-health-consequences-of-conquering-an-empire/6464BDBB5D4B8EC0B08C503B6ECD1B7B
+评论网址：https://news.ycombinator.com/item?id=41017286
+积分：25
+评论数：7]]></description>
+      <guid>https://www.cambridge.org/core/journals/parasitology/article/human-parasites-in-the-roman-world-health-consequences-of-conquering-an-empire/6464BDBB5D4B8EC0B08C503B6ECD1B7B</guid>
+      <pubDate>Sat, 20 Jul 2024 15:46:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：基于 DOM 的服务器端 HTML 模板？</title>
+      <link>https://news.ycombinator.com/item?id=41017188</link>
+      <description><![CDATA[对于业余项目，我使用 Python 中的 BeautifulSoup 将 HTML 文档分解为 DOM，在 DOM 级别对其进行操作，然后将其提供给浏览器。例如，网站的“主模板”可能是一个 HTML 页面，其中包含一个 ，它是内容的占位符。内容本身是一个 HTML 页面，内容的  被插入到  中，元数据也被合并以便通过。例如，您可以编写 First Name: 
+
+，系统会将 firstName 插入该 span。我使用 Java 中的 jsoup 和 HTMLUnit 等工具做过同样的事情。该系统可以重写链接并在客户 HTML 上进行其他有趣的转换。我承认的一件事是，与其他替代方案相比，这很慢。在粗略测试中，像这样的系统，如果没有经过优化，可能每秒可以在一个核心上转换 10-50 页，而使用基于字符串的模板很容易获得 3000+ 页。我没见过其他人这样做，你知道基于 DOM 的模板的例子吗？有什么想法吗？
+
+评论网址：https://news.ycombinator.com/item?id=41017188
+积分：9
+评论数：18]]></description>
+      <guid>https://news.ycombinator.com/item?id=41017188</guid>
+      <pubDate>Sat, 20 Jul 2024 15:35:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>CrowdStrike 惨败揭示了美国在对手面前的脆弱性</title>
+      <link>https://www.nytimes.com/2024/07/19/us/politics/crowdstrike-outage.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2024/07/19/us/politics/crowdstrike-outage.html
+评论网址：https://news.ycombinator.com/item?id=41017077
+积分：93
+评论数：139]]></description>
+      <guid>https://www.nytimes.com/2024/07/19/us/politics/crowdstrike-outage.html</guid>
+      <pubDate>Sat, 20 Jul 2024 15:18:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>走进 XDP：功能齐全的 DNS 服务增强（2022 年）</title>
+      <link>https://blog.apnic.net/2022/02/15/journeying-into-xdp-fully-fledged-dns-service-augmentation/</link>
+      <description><![CDATA[文章网址：https://blog.apnic.net/2022/02/15/journeying-into-xdp-fully-fledged-dns-service-augmentation/
+评论网址：https://news.ycombinator.com/item?id=41016814
+积分：10
+评论数：0]]></description>
+      <guid>https://blog.apnic.net/2022/02/15/journeying-into-xdp-fully-fledged-dns-service-augmentation/</guid>
+      <pubDate>Sat, 20 Jul 2024 14:42:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究人员发现 a16z 网站存在漏洞，导致部分公司数据泄露</title>
       <link>https://www.kibty.town/blog/a16z/</link>
       <description><![CDATA[文章网址：https://www.kibty.town/blog/a16z/
 评论网址：https://news.ycombinator.com/item?id=41016768
-积分：106
-评论数：15]]></description>
+积分：434
+评论数：178]]></description>
       <guid>https://www.kibty.town/blog/a16z/</guid>
       <pubDate>Sat, 20 Jul 2024 14:33:18 GMT</pubDate>
     </item>
     <item>
-      <title>递归的物理实例，来自 1936 年</title>
-      <link>https://en.wikipedia.org/wiki/Bourton-on-the-Water_model_village</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Bourton-on-the-Water_model_village
-评论网址：https://news.ycombinator.com/item?id=41016762
-积分：5
-评论数：2]]></description>
-      <guid>https://en.wikipedia.org/wiki/Bourton-on-the-Water_model_village</guid>
-      <pubDate>Sat, 20 Jul 2024 14:32:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何选择一本最适合自己教学方式的教科书？</title>
+      <title>如何选择一本最适合自己的教科书？</title>
       <link>https://matheducators.stackexchange.com/questions/27964/how-to-choose-a-textbook-that-is-pedagogically-optimal-for-oneself</link>
       <description><![CDATA[文章网址：https://matheducators.stackexchange.com/questions/27964/how-to-choose-a-textbook-that-is-pedagogically-optimal-for-oneself
 评论网址：https://news.ycombinator.com/item?id=41016650
-积分：10
-评论数：0]]></description>
+积分：88
+评论数：31]]></description>
       <guid>https://matheducators.stackexchange.com/questions/27964/how-to-choose-a-textbook-that-is-pedagogically-optimal-for-oneself</guid>
       <pubDate>Sat, 20 Jul 2024 14:13:33 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：Crowdstrike 的任何人可以解释一下背后的故事吗？</title>
-      <link>https://news.ycombinator.com/item?id=41016373</link>
-      <description><![CDATA[crowdstrike 的任何人或知道导致此事件的原因、它如何通过 QA 等的人能否分享？
-另一个包含超过 3000 条消息的帖子可能有也可能没有此信息，很难阅读...
-
-评论 URL：https://news.ycombinator.com/item?id=41016373
-积分：34
-评论数：14]]></description>
-      <guid>https://news.ycombinator.com/item?id=41016373</guid>
-      <pubDate>Sat, 20 Jul 2024 13:32:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>无正常运行时间托管 – 保证服务器停机</title>
+      <title>无正常运行时间托管（2006 年）</title>
       <link>https://nouptime.com/</link>
       <description><![CDATA[文章网址：https://nouptime.com/
 评论网址：https://news.ycombinator.com/item?id=41016290
-积分：129
-评论数：51]]></description>
+积分：203
+评论数：63]]></description>
       <guid>https://nouptime.com/</guid>
       <pubDate>Sat, 20 Jul 2024 13:21:00 GMT</pubDate>
     </item>
@@ -62,50 +103,10 @@
       <link>http://www.os2museum.com/wp/1989-networking-netware-386/</link>
       <description><![CDATA[文章网址：http://www.os2museum.com/wp/1989-networking-netware-386/
 评论网址：https://news.ycombinator.com/item?id=41016104
-积分：30
-评论数：7]]></description>
+积分：63
+评论数：25]]></description>
       <guid>http://www.os2museum.com/wp/1989-networking-netware-386/</guid>
       <pubDate>Sat, 20 Jul 2024 12:51:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>机器狗用脚踏吸尘器清理海滩</title>
-      <link>https://spectrum.ieee.org/robot-dog-vacuum</link>
-      <description><![CDATA[文章网址：https://spectrum.ieee.org/robot-dog-vacuum
-评论网址：https://news.ycombinator.com/item?id=41015945
-积分：31
-评论数：11]]></description>
-      <guid>https://spectrum.ieee.org/robot-dog-vacuum</guid>
-      <pubDate>Sat, 20 Jul 2024 12:18:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hadrius (YC W23) 正在招聘希望成长为未来创始人的工程师</title>
-      <link>https://www.ycombinator.com/companies/hadrius/jobs/1z3APsX-founding-engineer</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/hadrius/jobs/1z3APsX-founding-engineer
-评论网址：https://news.ycombinator.com/item?id=41015855
-积分：0
-评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/hadrius/jobs/1z3APsX-founding-engineer</guid>
-      <pubDate>Sat, 20 Jul 2024 12:01:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>利用磁场控制大脑的新纳米技术</title>
-      <link>https://www.ibs.re.kr/cop/bbs/BBSMSTR_000000000738/selectBoardArticle.do?nttId=24921</link>
-      <description><![CDATA[文章网址：https://www.ibs.re.kr/cop/bbs/BBSMSTR_000000000738/selectBoardArticle.do?nttId=24921
-评论网址：https://news.ycombinator.com/item?id=41015025
-积分：21
-评论数：3]]></description>
-      <guid>https://www.ibs.re.kr/cop/bbs/BBSMSTR_000000000738/selectBoardArticle.do?nttId=24921</guid>
-      <pubDate>Sat, 20 Jul 2024 08:32:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Typst：一种易于学习的 LaTex 替代品</title>
-      <link>https://github.com/typst/typst</link>
-      <description><![CDATA[文章网址：https://github.com/typst/typst
-评论网址：https://news.ycombinator.com/item?id=41014941
-积分：157
-评论数：32]]></description>
-      <guid>https://github.com/typst/typst</guid>
-      <pubDate>Sat, 20 Jul 2024 08:14:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
