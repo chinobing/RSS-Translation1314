@@ -4,107 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 21 Jul 2024 01:12:18 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jul 2024 03:18:24 GMT</lastBuildDate>
     <item>
-      <title>Hyperadobe 土袋：优点、缺点和成本节省</title>
-      <link>https://www.youtube.com/watch?v=CoTlFLG_clY</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=CoTlFLG_clY
-评论网址：https://news.ycombinator.com/item?id=41021574
+      <title>脑雾的地缘政治影响</title>
+      <link>https://cbuck.substack.com/p/now-can-we-talk-about-the-geopolitical</link>
+      <description><![CDATA[文章网址：https://cbuck.substack.com/p/now-can-we-talk-about-the-geopolitical
+评论网址：https://news.ycombinator.com/item?id=41022064
 积分：1
 评论数：0]]></description>
-      <guid>https://www.youtube.com/watch?v=CoTlFLG_clY</guid>
-      <pubDate>Sun, 21 Jul 2024 01:05:13 GMT</pubDate>
+      <guid>https://cbuck.substack.com/p/now-can-we-talk-about-the-geopolitical</guid>
+      <pubDate>Sun, 21 Jul 2024 03:05:27 GMT</pubDate>
     </item>
     <item>
-      <title>Jump Trading 加密货币业务的兴衰</title>
-      <link>https://fortune.com/2024/07/11/jump-trading-kanav-kariya-crypto-terra-do-kwon-disaster/</link>
-      <description><![CDATA[文章网址：https://fortune.com/2024/07/11/jump-trading-kanav-kariya-crypto-terra-do-kwon-disaster/
-评论网址：https://news.ycombinator.com/item?id=41021571
+      <title>Arc Swap 技巧 (2019)</title>
+      <link>https://vorner.github.io/2019/04/06/tricks-in-arc-swap.html</link>
+      <description><![CDATA[文章网址：https://vorner.github.io/2019/04/06/tricks-in-arc-swap.html
+评论网址：https://news.ycombinator.com/item?id=41022030
 积分：1
 评论数：0]]></description>
-      <guid>https://fortune.com/2024/07/11/jump-trading-kanav-kariya-crypto-terra-do-kwon-disaster/</guid>
-      <pubDate>Sun, 21 Jul 2024 01:04:28 GMT</pubDate>
+      <guid>https://vorner.github.io/2019/04/06/tricks-in-arc-swap.html</guid>
+      <pubDate>Sun, 21 Jul 2024 02:53:59 GMT</pubDate>
     </item>
     <item>
-      <title>考察“软件的麦克斯韦方程组”</title>
-      <link>https://www.righto.com/2008/07/maxwells-equations-of-software-examined.html</link>
-      <description><![CDATA[文章网址：https://www.righto.com/2008/07/maxwells-equations-of-software-examined.html
-评论网址：https://news.ycombinator.com/item?id=41021569
+      <title>Merlinn – 开源 AI 值班开发人员</title>
+      <link>https://github.com/merlinn-co/merlinn</link>
+      <description><![CDATA[文章网址：https://github.com/merlinn-co/merlinn
+评论网址：https://news.ycombinator.com/item?id=41022023
 积分：1
 评论数：0]]></description>
-      <guid>https://www.righto.com/2008/07/maxwells-equations-of-software-examined.html</guid>
-      <pubDate>Sun, 21 Jul 2024 01:04:02 GMT</pubDate>
+      <guid>https://github.com/merlinn-co/merlinn</guid>
+      <pubDate>Sun, 21 Jul 2024 02:51:19 GMT</pubDate>
     </item>
     <item>
-      <title>询问 HN：什么工具适合这项工作？</title>
-      <link>https://news.ycombinator.com/item?id=41021560</link>
-      <description><![CDATA[我支持一组医学成像研究人员，我有以下用例：研究人员需要对几十个主题运行数据管道，每个主题有大约 5GB 的数据。当我说管道时，我的意思是数据将首先通过一个可执行文件，然后是另一个，然后可能是第三个。基本上有一个 DAG 用于处理，但这不是重要的部分。显然我不能一次运行它们，它们会占用 RAM 并破坏一切。我可以使用 Python 多进程来做一些事情，启动 5-10 个工作者并让它们慢慢地处理工作负载，但现在我们进入了第二个用例：第二个研究人员来了，想要对另一组几十个主题运行不同的数据管道！我想将他们的任务添加到队列中。我看过 SLURM，但它看起来设置起来非常复杂。我们可以将所有这些设置为在具有大量 RAM 的大型工作站上运行，即单个大型节点足以满足我们预期收到的大量请求，我只是不确定如何管理所有作业。我很想编写自己的代码来保留 RAM 和 CPU 核心，并让所有作业都处于休眠状态，直到检查通过，但我觉得一定有某种东西可以填补这个空白，而我不必从头开始编写所有内容。我也研究过 snakemake，我们可能会将它用于 DAG 部分，它可以“保留”资源，但只能用于一次运行。当第二位研究人员带着她的数据集进来时，没有办法告诉 snakemake 这件事。我希望这是一个适合提出这个问题的论坛，我感谢你们这些好心人提供的任何见解。
-
-评论网址：https://news.ycombinator.com/item?id=41021560
+      <title>向 HN 展示：我没写一行代码就开发了这个文字游戏</title>
+      <link>https://www.wordladdergame.com</link>
+      <description><![CDATA[文章网址：https://www.wordladdergame.com
+评论网址：https://news.ycombinator.com/item?id=41022007
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41021560</guid>
-      <pubDate>Sun, 21 Jul 2024 01:02:43 GMT</pubDate>
+      <guid>https://www.wordladdergame.com</guid>
+      <pubDate>Sun, 21 Jul 2024 02:45:36 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：识别色情明星的人工智能</title>
-      <link>https://actdetect.com/?token=captAIn</link>
-      <description><![CDATA[文章网址：https://actdetect.com/?token=captAIn
-评论网址：https://news.ycombinator.com/item?id=41021531
+      <title>收入分配的分形理论</title>
+      <link>https://osf.io/preprints/socarxiv/9gj6d</link>
+      <description><![CDATA[文章网址：https://osf.io/preprints/socarxiv/9gj6d
+评论网址：https://news.ycombinator.com/item?id=41022005
+积分：1
+评论数：0]]></description>
+      <guid>https://osf.io/preprints/socarxiv/9gj6d</guid>
+      <pubDate>Sun, 21 Jul 2024 02:45:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>法学硕士可以解决难题</title>
+      <link>https://ultracrepidarian.phfactor.net/2024/07/20/llms-can-solve-hard-problem/</link>
+      <description><![CDATA[文章网址：https://ultracrepidarian.phfactor.net/2024/07/20/llms-can-solve-hard-problem/
+评论网址：https://news.ycombinator.com/item?id=41021967
+积分：1
+评论数：0]]></description>
+      <guid>https://ultracrepidarian.phfactor.net/2024/07/20/llms-can-solve-hard-problem/</guid>
+      <pubDate>Sun, 21 Jul 2024 02:37:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>您最具争议的编程观点是什么？</title>
+      <link>https://stackoverflow.com/questions/406760/whats-your-most-controversial-programming-opinion</link>
+      <description><![CDATA[文章网址：https://stackoverflow.com/questions/406760/whats-your-most-controversial-programming-opinion
+评论网址：https://news.ycombinator.com/item?id=41021961
+积分：1
+评论数：1]]></description>
+      <guid>https://stackoverflow.com/questions/406760/whats-your-most-controversial-programming-opinion</guid>
+      <pubDate>Sun, 21 Jul 2024 02:35:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>我推动香港的新闻自由。《华尔街日报》解雇了我。</title>
+      <link>https://www.cjr.org/first_person/selina-cheng-wall-street-journal-gershkovich-evan-china-hong-kong-apple.php</link>
+      <description><![CDATA[文章网址：https://www.cjr.org/first_person/selina-cheng-wall-street-journal-gershkovich-evan-china-hong-kong-apple.php
+评论网址：https://news.ycombinator.com/item?id=41021946
+积分：5
+评论数：0]]></description>
+      <guid>https://www.cjr.org/first_person/selina-cheng-wall-street-journal-gershkovich-evan-china-hong-kong-apple.php</guid>
+      <pubDate>Sun, 21 Jul 2024 02:32:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>伊隆·马斯克分享“特朗普谋杀拜登”的人工智能视频，特勤局对此予以标记</title>
+      <link>https://www.rawstory.com/secret-service-elon-musk-trump-ai-biden/</link>
+      <description><![CDATA[文章网址：https://www.rawstory.com/secret-service-elon-musk-trump-ai-biden/
+评论网址：https://news.ycombinator.com/item?id=41021940
 积分：2
 评论数：0]]></description>
-      <guid>https://actdetect.com/?token=captAIn</guid>
-      <pubDate>Sun, 21 Jul 2024 00:53:09 GMT</pubDate>
+      <guid>https://www.rawstory.com/secret-service-elon-musk-trump-ai-biden/</guid>
+      <pubDate>Sun, 21 Jul 2024 02:31:03 GMT</pubDate>
     </item>
     <item>
-      <title>大量虚假 Mac App Store 评论</title>
-      <link>https://lapcatsoftware.com/articles/2024/7/1.html</link>
-      <description><![CDATA[文章网址：https://lapcatsoftware.com/articles/2024/7/1.html
-评论网址：https://news.ycombinator.com/item?id=41021472
-积分：3
+      <title>AMD称其新款笔记本电脑芯片可击败苹果</title>
+      <link>https://www.theverge.com/2024/7/19/24198605/amd-ryzen-ai-strix-point-vs-apple-intel-qualcomm-event</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/2024/7/19/24198605/amd-ryzen-ai-strix-point-vs-apple-intel-qualcomm-event
+评论网址：https://news.ycombinator.com/item?id=41021887
+积分：5
 评论数：0]]></description>
-      <guid>https://lapcatsoftware.com/articles/2024/7/1.html</guid>
-      <pubDate>Sun, 21 Jul 2024 00:38:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>Netflix 终止最便宜的无广告订阅服务</title>
-      <link>https://www.npr.org/2024/07/19/nx-s1-5046733/netflix-ends-its-cheapest-ad-free-subscription</link>
-      <description><![CDATA[文章网址：https://www.npr.org/2024/07/19/nx-s1-5046733/netflix-ends-its-cheapest-ad-free-subscription
-评论网址：https://news.ycombinator.com/item?id=41021462
-积分：2
-评论数：0]]></description>
-      <guid>https://www.npr.org/2024/07/19/nx-s1-5046733/netflix-ends-its-cheapest-ad-free-subscription</guid>
-      <pubDate>Sun, 21 Jul 2024 00:37:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>据报道，埃隆·马斯克的 X 正在抵制爱泼斯坦相关法律案件的传票</title>
-      <link>https://gizmodo.com/elon-musks-x-is-reportedly-resisting-a-subpoena-in-jeffrey-epstein-related-legal-case-2000476538</link>
-      <description><![CDATA[文章网址：https://gizmodo.com/elon-musks-x-is-reportedly-resisting-a-subpoena-in-jeffrey-epstein-related-legal-case-2000476538
-评论网址：https://news.ycombinator.com/item?id=41021455
-积分：14
-评论数：0]]></description>
-      <guid>https://gizmodo.com/elon-musks-x-is-reportedly-resisting-a-subpoena-in-jeffrey-epstein-related-legal-case-2000476538</guid>
-      <pubDate>Sun, 21 Jul 2024 00:34:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：JSON 威胁保护 Rust 高性能板条箱</title>
-      <link>https://github.com/ADD-SP/json-threat-protection.rs</link>
-      <description><![CDATA[文章网址：https://github.com/ADD-SP/json-threat-protection.rs
-评论网址：https://news.ycombinator.com/item?id=41021436
-积分：2
-评论数：0]]></description>
-      <guid>https://github.com/ADD-SP/json-threat-protection.rs</guid>
-      <pubDate>Sun, 21 Jul 2024 00:31:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>我从头开始打造我梦想的键盘 [视频]</title>
-      <link>https://www.youtube.com/watch?v=7UXsD7nSfDY</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=7UXsD7nSfDY
-评论网址：https://news.ycombinator.com/item?id=41021421
-积分：1
-评论数：0]]></description>
-      <guid>https://www.youtube.com/watch?v=7UXsD7nSfDY</guid>
-      <pubDate>Sun, 21 Jul 2024 00:27:38 GMT</pubDate>
+      <guid>https://www.theverge.com/2024/7/19/24198605/amd-ryzen-ai-strix-point-vs-apple-intel-qualcomm-event</guid>
+      <pubDate>Sun, 21 Jul 2024 02:18:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
