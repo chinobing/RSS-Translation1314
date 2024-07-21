@@ -4,109 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 20 Jul 2024 21:14:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jul 2024 01:12:18 GMT</lastBuildDate>
     <item>
-      <title>问 HN：Commodore 是否可以将 AmigaOS 移植到 Linux 上运行？</title>
-      <link>https://news.ycombinator.com/item?id=41019926</link>
-      <description><![CDATA[也许他们甚至可以聘请 Linus 来领导这个项目？
+      <title>Hyperadobe 土袋：优点、缺点和成本节省</title>
+      <link>https://www.youtube.com/watch?v=CoTlFLG_clY</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=CoTlFLG_clY
+评论网址：https://news.ycombinator.com/item?id=41021574
+积分：1
+评论数：0]]></description>
+      <guid>https://www.youtube.com/watch?v=CoTlFLG_clY</guid>
+      <pubDate>Sun, 21 Jul 2024 01:05:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jump Trading 加密货币业务的兴衰</title>
+      <link>https://fortune.com/2024/07/11/jump-trading-kanav-kariya-crypto-terra-do-kwon-disaster/</link>
+      <description><![CDATA[文章网址：https://fortune.com/2024/07/11/jump-trading-kanav-kariya-crypto-terra-do-kwon-disaster/
+评论网址：https://news.ycombinator.com/item?id=41021571
+积分：1
+评论数：0]]></description>
+      <guid>https://fortune.com/2024/07/11/jump-trading-kanav-kariya-crypto-terra-do-kwon-disaster/</guid>
+      <pubDate>Sun, 21 Jul 2024 01:04:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>考察“软件的麦克斯韦方程组”</title>
+      <link>https://www.righto.com/2008/07/maxwells-equations-of-software-examined.html</link>
+      <description><![CDATA[文章网址：https://www.righto.com/2008/07/maxwells-equations-of-software-examined.html
+评论网址：https://news.ycombinator.com/item?id=41021569
+积分：1
+评论数：0]]></description>
+      <guid>https://www.righto.com/2008/07/maxwells-equations-of-software-examined.html</guid>
+      <pubDate>Sun, 21 Jul 2024 01:04:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：什么工具适合这项工作？</title>
+      <link>https://news.ycombinator.com/item?id=41021560</link>
+      <description><![CDATA[我支持一组医学成像研究人员，我有以下用例：研究人员需要对几十个主题运行数据管道，每个主题有大约 5GB 的数据。当我说管道时，我的意思是数据将首先通过一个可执行文件，然后是另一个，然后可能是第三个。基本上有一个 DAG 用于处理，但这不是重要的部分。显然我不能一次运行它们，它们会占用 RAM 并破坏一切。我可以使用 Python 多进程来做一些事情，启动 5-10 个工作者并让它们慢慢地处理工作负载，但现在我们进入了第二个用例：第二个研究人员来了，想要对另一组几十个主题运行不同的数据管道！我想将他们的任务添加到队列中。我看过 SLURM，但它看起来设置起来非常复杂。我们可以将所有这些设置为在具有大量 RAM 的大型工作站上运行，即单个大型节点足以满足我们预期收到的大量请求，我只是不确定如何管理所有作业。我很想编写自己的代码来保留 RAM 和 CPU 核心，并让所有作业都处于休眠状态，直到检查通过，但我觉得一定有某种东西可以填补这个空白，而我不必从头开始编写所有内容。我也研究过 snakemake，我们可能会将它用于 DAG 部分，它可以“保留”资源，但只能用于一次运行。当第二位研究人员带着她的数据集进来时，没有办法告诉 snakemake 这件事。我希望这是一个适合提出这个问题的论坛，我感谢你们这些好心人提供的任何见解。
 
-评论网址：https://news.ycombinator.com/item?id=41019926
+评论网址：https://news.ycombinator.com/item?id=41021560
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41019926</guid>
-      <pubDate>Sat, 20 Jul 2024 21:07:25 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=41021560</guid>
+      <pubDate>Sun, 21 Jul 2024 01:02:43 GMT</pubDate>
     </item>
     <item>
-      <title>邪恶的眼睛</title>
-      <link>https://en.wikipedia.org/wiki/Evil_eye</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Evil_eye
-评论网址：https://news.ycombinator.com/item?id=41019887
-积分：1
-评论数：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Evil_eye</guid>
-      <pubDate>Sat, 20 Jul 2024 21:03:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 ResEdit 中管理经典 Mac OS 资源</title>
-      <link>https://eclecticlight.co/2024/07/20/managing-classic-mac-os-resources-in-resedit/</link>
-      <description><![CDATA[文章网址：https://eclecticlight.co/2024/07/20/managing-classic-mac-os-resources-in-resedit/
-评论网址：https://news.ycombinator.com/item?id=41019829
-积分：1
-评论数：0]]></description>
-      <guid>https://eclecticlight.co/2024/07/20/managing-classic-mac-os-resources-in-resedit/</guid>
-      <pubDate>Sat, 20 Jul 2024 20:58:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>新的 Linux 补丁启用骁龙 X1 Elite 联想 ThinkPad T14s Gen 6</title>
-      <link>https://www.phoronix.com/news/Linux-X1E-ThinkPad-T14s-Gen-6</link>
-      <description><![CDATA[文章网址：https://www.phoronix.com/news/Linux-X1E-ThinkPad-T14s-Gen-6
-评论网址：https://news.ycombinator.com/item?id=41019790
-积分：1
-评论数：0]]></description>
-      <guid>https://www.phoronix.com/news/Linux-X1E-ThinkPad-T14s-Gen-6</guid>
-      <pubDate>Sat, 20 Jul 2024 20:54:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google 分布式云隔离设备</title>
-      <link>https://cloud.google.com/blog/topics/hybrid-cloud/google-distributed-cloud-air-gapped-appliance-is-ga</link>
-      <description><![CDATA[文章网址：https://cloud.google.com/blog/topics/hybrid-cloud/google-distributed-cloud-air-gapped-appliance-is-ga
-评论网址：https://news.ycombinator.com/item?id=41019777
-积分：10
-评论数：7]]></description>
-      <guid>https://cloud.google.com/blog/topics/hybrid-cloud/google-distributed-cloud-air-gapped-appliance-is-ga</guid>
-      <pubDate>Sat, 20 Jul 2024 20:52:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>美联储高层官员称他们“更接近”降息</title>
-      <link>https://www.reuters.com/markets/rates-bonds/feds-williams-suggests-rate-cut-could-be-warranted-coming-months-wsj-reports-2024-07-17/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/markets/rates-bonds/feds-williams-suggests-rate-cut-could-be-warranted-coming-months-wsj-reports-2024-07-17/
-评论网址：https://news.ycombinator.com/item?id=41019763
-积分：2
-评论数： 0]]></description>
-      <guid>https://www.reuters.com/markets/rates-bonds/feds-williams-suggests-rate-cut-could-be-warranted-coming-months-wsj-reports-2024-07-17/</guid>
-      <pubDate>Sat, 20 Jul 2024 20:51:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>在家备份珍贵照片和文件的案例</title>
-      <link>https://www.wsj.com/tech/personal-tech/a-case-for-backing-up-your-precious-photos-and-files-at-home-b3304a72</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/tech/personal-tech/a-case-for-backing-up-your-precious-photos-and-files-at-home-b3304a72
-评论网址：https://news.ycombinator.com/item?id=41019758
+      <title>Show HN：识别色情明星的人工智能</title>
+      <link>https://actdetect.com/?token=captAIn</link>
+      <description><![CDATA[文章网址：https://actdetect.com/?token=captAIn
+评论网址：https://news.ycombinator.com/item?id=41021531
 积分：2
 评论数：0]]></description>
-      <guid>https://www.wsj.com/tech/personal-tech/a-case-for-backing-up-your-precious-photos-and-files-at-home-b3304a72</guid>
-      <pubDate>Sat, 20 Jul 2024 20:50:46 GMT</pubDate>
+      <guid>https://actdetect.com/?token=captAIn</guid>
+      <pubDate>Sun, 21 Jul 2024 00:53:09 GMT</pubDate>
     </item>
     <item>
-      <title>向 HN 展示：AI 可自动剪辑你的 YouTube 视频并发布 Shorts</title>
-      <link>https://useshorts.app/</link>
-      <description><![CDATA[嗨，HN，在创建 YouTube 视频一段时间后，我发现剪辑视频和安排剪辑需要很长时间。所以我创建了 UseShorts，您只需连接一次 YouTube 频道，然后它就会在后台自动从您的频道生成剪辑，并每天上传两个。它使用 LLM 来查找视频的最佳部分，并使用人工智能模型来找出将视频裁剪到的位置，因此它在移动设备上看起来很棒。-Andreas
-
-评论网址：https://news.ycombinator.com/item?id=41019751
-积分：1
-评论数：1]]></description>
-      <guid>https://useshorts.app/</guid>
-      <pubDate>Sat, 20 Jul 2024 20:50:09 GMT</pubDate>
+      <title>大量虚假 Mac App Store 评论</title>
+      <link>https://lapcatsoftware.com/articles/2024/7/1.html</link>
+      <description><![CDATA[文章网址：https://lapcatsoftware.com/articles/2024/7/1.html
+评论网址：https://news.ycombinator.com/item?id=41021472
+积分：3
+评论数：0]]></description>
+      <guid>https://lapcatsoftware.com/articles/2024/7/1.html</guid>
+      <pubDate>Sun, 21 Jul 2024 00:38:31 GMT</pubDate>
     </item>
     <item>
-      <title>让保障收入成为现实是硅谷的职责吗？</title>
-      <link>https://www.nytimes.com/2024/07/16/technology/ubi-openai-silicon-valley.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2024/07/16/technology/ubi-openai-silicon-valley.html
-评论网址：https://news.ycombinator.com/item?id=41019750
-积分：1
-评论数：1]]></description>
-      <guid>https://www.nytimes.com/2024/07/16/technology/ubi-openai-silicon-valley.html</guid>
-      <pubDate>Sat, 20 Jul 2024 20:50:05 GMT</pubDate>
+      <title>Netflix 终止最便宜的无广告订阅服务</title>
+      <link>https://www.npr.org/2024/07/19/nx-s1-5046733/netflix-ends-its-cheapest-ad-free-subscription</link>
+      <description><![CDATA[文章网址：https://www.npr.org/2024/07/19/nx-s1-5046733/netflix-ends-its-cheapest-ad-free-subscription
+评论网址：https://news.ycombinator.com/item?id=41021462
+积分：2
+评论数：0]]></description>
+      <guid>https://www.npr.org/2024/07/19/nx-s1-5046733/netflix-ends-its-cheapest-ad-free-subscription</guid>
+      <pubDate>Sun, 21 Jul 2024 00:37:10 GMT</pubDate>
     </item>
     <item>
-      <title>询问 HN：对于 LLM 提示的“单元”测试的共识是什么？</title>
-      <link>https://news.ycombinator.com/item?id=41019748</link>
-      <description><![CDATA[众所周知，LLM 是非确定性的，这让我们这些开发人员很难相信它们可以作为后端的工具，而我们通常期望后端具有确定性。我现在的情况是从技术角度使用 LLM 是合理的，但我想知道除了手动测试之外，是否还有其他好的测试实践：- 我想确保我的提示 100％ 的时间都能按照我的要求进行- 我想确保在我的提示不断发展、更新我使用的 LLM 版本，或者即使我切换到另一个 LLM 时，也不会出现回归我想到的是：- 强制 LLM 返回具有严格定义的 JSON- 使用我的提示定期运行一组固定的测试并检查我是否获得了预期的结果我应该注意 LLM 提示测试的特殊性吗？是否出现了一些好的做法？
-
-评论网址：https://news.ycombinator.com/item?id=41019748
+      <title>据报道，埃隆·马斯克的 X 正在抵制爱泼斯坦相关法律案件的传票</title>
+      <link>https://gizmodo.com/elon-musks-x-is-reportedly-resisting-a-subpoena-in-jeffrey-epstein-related-legal-case-2000476538</link>
+      <description><![CDATA[文章网址：https://gizmodo.com/elon-musks-x-is-reportedly-resisting-a-subpoena-in-jeffrey-epstein-related-legal-case-2000476538
+评论网址：https://news.ycombinator.com/item?id=41021455
+积分：14
+评论数：0]]></description>
+      <guid>https://gizmodo.com/elon-musks-x-is-reportedly-resisting-a-subpoena-in-jeffrey-epstein-related-legal-case-2000476538</guid>
+      <pubDate>Sun, 21 Jul 2024 00:34:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：JSON 威胁保护 Rust 高性能板条箱</title>
+      <link>https://github.com/ADD-SP/json-threat-protection.rs</link>
+      <description><![CDATA[文章网址：https://github.com/ADD-SP/json-threat-protection.rs
+评论网址：https://news.ycombinator.com/item?id=41021436
+积分：2
+评论数：0]]></description>
+      <guid>https://github.com/ADD-SP/json-threat-protection.rs</guid>
+      <pubDate>Sun, 21 Jul 2024 00:31:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>我从头开始打造我梦想的键盘 [视频]</title>
+      <link>https://www.youtube.com/watch?v=7UXsD7nSfDY</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=7UXsD7nSfDY
+评论网址：https://news.ycombinator.com/item?id=41021421
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41019748</guid>
-      <pubDate>Sat, 20 Jul 2024 20:49:53 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=7UXsD7nSfDY</guid>
+      <pubDate>Sun, 21 Jul 2024 00:27:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
