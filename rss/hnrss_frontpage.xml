@@ -4,107 +4,106 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 22 Jul 2024 18:20:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2024 21:15:36 GMT</lastBuildDate>
     <item>
-      <title>微软：Linux 是目前 Azure 上最流行的操作系统</title>
-      <link>https://thenewstack.io/microsoft-linux-is-the-top-operating-system-on-azure-today/</link>
-      <description><![CDATA[文章网址：https://thenewstack.io/microsoft-linux-is-the-top-operating-system-on-azure-today/
-评论网址：https://news.ycombinator.com/item?id=41037380
-积分：6
+      <title>格拉斯哥 2024 年雨果奖声明 – 2024 年 7 月 22 日</title>
+      <link>https://glasgow2024.org/hugo-awards/statement-22-july-2024/</link>
+      <description><![CDATA[文章网址：https://glasgow2024.org/hugo-awards/statement-22-july-2024/
+评论网址：https://news.ycombinator.com/item?id=41039644
+积分：5
 评论数：0]]></description>
-      <guid>https://thenewstack.io/microsoft-linux-is-the-top-operating-system-on-azure-today/</guid>
-      <pubDate>Mon, 22 Jul 2024 17:58:13 GMT</pubDate>
+      <guid>https://glasgow2024.org/hugo-awards/statement-22-july-2024/</guid>
+      <pubDate>Mon, 22 Jul 2024 20:47:44 GMT</pubDate>
     </item>
     <item>
-      <title>山姆·奥特曼的基本收入研究已经出炉。以下是研究结果</title>
-      <link>https://www.businessinsider.com/sam-altman-basic-income-study-results-2024-7</link>
-      <description><![CDATA[文章网址：https://www.businessinsider.com/sam-altman-basic-income-study-results-2024-7
-评论网址：https://news.ycombinator.com/item?id=41037226
-积分：31
-评论数：19]]></description>
-      <guid>https://www.businessinsider.com/sam-altman-basic-income-study-results-2024-7</guid>
-      <pubDate>Mon, 22 Jul 2024 17:46:44 GMT</pubDate>
+      <title>普朗克恒星、白洞、残余物和普朗克质量准粒子</title>
+      <link>https://arxiv.org/abs/2407.09584</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2407.09584
+评论网址：https://news.ycombinator.com/item?id=41039213
+积分：13
+评论数：3]]></description>
+      <guid>https://arxiv.org/abs/2407.09584</guid>
+      <pubDate>Mon, 22 Jul 2024 20:05:42 GMT</pubDate>
     </item>
     <item>
-      <title>展示HN：OpenDataCapture是一个用于数据收集的电子数据捕获平台</title>
-      <link>https://github.com/DouglasNeuroInformatics/OpenDataCapture</link>
-      <description><![CDATA[嗨，HN，我们是 Douglas 神经信息学平台[1]，我们一直在研究 Open Data Capture，这是一个基于网络的电子数据采集 (EDC) 平台，用于持续收集临床和研究数据。您可以使用它来亲自或远程管理工具（如表格和交互式任务）。该平台基于一个基本的纵向数据模型。与其他以具有严格时间点的研究概念为中心的 EDC 平台不同，Open Data Capture 专为持续数据采集而设计。数据与给定会话相关联，其中包括日期、时间和模式（即亲自或远程）等元数据。我们围绕核心限制设计了该系统，即许多医院机构要求数据保留在现场，而临床研究人员通常希望评估机构外有研究问题的客户。这导致了我们创新的网关概念，其中分配的远程评估被推送到互联网可访问的服务上，并且响应使用 HPKE[2] 进行就地加密，直到后端将它们拉入后端数据库。只要您可以在全球可访问的某个地方启动最小的 VPS 或 VM 主机，就可以使部署对防火墙友好。我们也非常热衷于让部署变得简单，因此我们提供了一个 docker-compose 堆栈，它可以轻松启动一个演示实例以在本地运行。该平台是免费的、开源的，用 TypeScript 编写，底层有一个 NoSQL 数据库。用户可以使用类型安全的声明式表单系统（内置本机 i18n 支持）在 TypeScript 中编写工具，或者包装和集成用 JavaScript 编写的完全任意的交互式任务（可选支持 TypeScript 和 JSX）。在底层，这是基于动态导入和本机 ESM。有一个基于浏览器的 IDE（仪器游乐场），具有实时重新加载和完整的 Intellisense 功能，您可以在其中尝试创建自己的仪器。我们在我们的机构中​​有一个本地部署，我们在这里部署的适当许可的（免费）仪器将直接集成到代码库中。我们未来的计划包括扩展我们的仪器类型，以允许使用类似 s3 的后端进行二进制数据存储，并使用数据类型的抽象，如活动记录仪和 MRI。在 GitHub[3] 上查看，尝试仪器游乐场[4]，或查看现场演示[5]。很想听听大家的想法！链接：[1] https://github.com/DouglasNeuroInformatics/@gdevenyi @joshunrau[2] https://datatracker.ietf.org/doc/rfc9180/[3] https://github.com/DouglasNeuroInformatics/OpenDataCapture[4] https://playground.opendatacapture.org[5] https://demo.opendatacapture.org
-
-评论 URL：https://news.ycombinator.com/item?id=41037177
-积分：7
-评论数：1]]></description>
-      <guid>https://github.com/DouglasNeuroInformatics/OpenDataCapture</guid>
-      <pubDate>Mon, 22 Jul 2024 17:43:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>波音公司旗下的 Wisk 预计将在“本世纪末”开始运载乘客</title>
-      <link>https://www.reuters.com/business/aerospace-defense/boeing-owned-wisk-expects-begin-carrying-passengers-later-decade-2024-07-22/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/business/aerospace-defense/boeing-owned-wisk-expects-begin-carrying-passengers-later-decade-2024-07-22/
-评论网址：https://news.ycombinator.com/item?id=41037168
-积分：8
+      <title>关于有更多有趣的想法</title>
+      <link>https://www.henrikkarlsson.xyz/p/interesting-ideas</link>
+      <description><![CDATA[文章网址：https://www.henrikkarlsson.xyz/p/interesting-ideas
+评论网址：https://news.ycombinator.com/item?id=41038703
+积分：11
 评论数：0]]></description>
-      <guid>https://www.reuters.com/business/aerospace-defense/boeing-owned-wisk-expects-begin-carrying-passengers-later-decade-2024-07-22/</guid>
-      <pubDate>Mon, 22 Jul 2024 17:42:17 GMT</pubDate>
+      <guid>https://www.henrikkarlsson.xyz/p/interesting-ideas</guid>
+      <pubDate>Mon, 22 Jul 2024 19:22:54 GMT</pubDate>
     </item>
     <item>
-      <title>工人们表示：他们待在家里</title>
-      <link>https://www.computerworld.com/article/2520794/the-workers-have-spoken-theyre-staying-home.html</link>
-      <description><![CDATA[文章网址：https://www.computerworld.com/article/2520794/the-workers-have-spoken-theyre-staying-home.html
-评论网址：https://news.ycombinator.com/item?id=41037097
-积分：90
-评论数：52]]></description>
-      <guid>https://www.computerworld.com/article/2520794/the-workers-have-spoken-theyre-staying-home.html</guid>
-      <pubDate>Mon, 22 Jul 2024 17:36:35 GMT</pubDate>
+      <title>网络上的隐私沙盒的新路径</title>
+      <link>https://privacysandbox.com/news/privacy-sandbox-update/</link>
+      <description><![CDATA[文章网址：https://privacysandbox.com/news/privacy-sandbox-update/
+评论网址：https://news.ycombinator.com/item?id=41038586
+积分：38
+评论数：15]]></description>
+      <guid>https://privacysandbox.com/news/privacy-sandbox-update/</guid>
+      <pubDate>Mon, 22 Jul 2024 19:14:53 GMT</pubDate>
     </item>
     <item>
-      <title>Apple TV+ 支出已超过 200 亿美元，难以为继</title>
-      <link>https://wccftech.com/apple-tv-expenditure-crossed-20-billion/</link>
-      <description><![CDATA[文章网址：https://wccftech.com/apple-tv-expenditure-crossed-20-billion/
-评论网址：https://news.ycombinator.com/item?id=41037010
-积分：35
-评论数：38]]></description>
-      <guid>https://wccftech.com/apple-tv-expenditure-crossed-20-billion/</guid>
-      <pubDate>Mon, 22 Jul 2024 17:29:48 GMT</pubDate>
+      <title>Kawaii——钥匙扣大小的任天堂 Wii</title>
+      <link>https://bitbuilt.net/forums/index.php?threads/kawaii.6474/</link>
+      <description><![CDATA[文章网址：https://bitbuilt.net/forums/index.php?threads/kawaii.6474/
+评论网址：https://news.ycombinator.com/item?id=41038552
+积分：186
+评论数：56]]></description>
+      <guid>https://bitbuilt.net/forums/index.php?threads/kawaii.6474/</guid>
+      <pubDate>Mon, 22 Jul 2024 19:12:22 GMT</pubDate>
     </item>
     <item>
-      <title>我们能为那些明显愚蠢的初创企业筹集多少钱？</title>
-      <link>https://www.smbc-comics.com/comic/investment-2</link>
-      <description><![CDATA[文章网址：https://www.smbc-comics.com/comic/investment-2
-评论网址：https://news.ycombinator.com/item?id=41036844
-积分：104
-评论数：41]]></description>
-      <guid>https://www.smbc-comics.com/comic/investment-2</guid>
-      <pubDate>Mon, 22 Jul 2024 17:15:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Roame (YC S23) 正在招聘</title>
-      <link>https://www.ycombinator.com/companies/roame/jobs/tu786nh-founding-growth-operations</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/roame/jobs/tu786nh-founding-growth-operations
-评论网址：https://news.ycombinator.com/item?id=41036633
-积分：0
+      <title>阿兰·图灵和克里斯托弗·斯特雷奇发明的情书生成器</title>
+      <link>https://bigthink.com/the-past/love-letter-generator-turing-strachey-ai/</link>
+      <description><![CDATA[文章网址：https://bigthink.com/the-past/love-letter-generator-turing-strachey-ai/
+评论网址：https://news.ycombinator.com/item?id=41038406
+积分：5
 评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/roame/jobs/tu786nh-founding-growth-operations</guid>
-      <pubDate>Mon, 22 Jul 2024 17:00:37 GMT</pubDate>
+      <guid>https://bigthink.com/the-past/love-letter-generator-turing-strachey-ai/</guid>
+      <pubDate>Mon, 22 Jul 2024 19:01:45 GMT</pubDate>
     </item>
     <item>
-      <title>氧气的发现挑战了人们对深海的认识</title>
-      <link>https://www.bbc.co.uk/news/articles/c728ven2v9eo</link>
-      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/c728ven2v9eo
-评论网址：https://news.ycombinator.com/item?id=41036526
-积分：35
-评论数：5]]></description>
-      <guid>https://www.bbc.co.uk/news/articles/c728ven2v9eo</guid>
-      <pubDate>Mon, 22 Jul 2024 16:48:44 GMT</pubDate>
+      <title>复制是设计的工作方式</title>
+      <link>https://matthewstrom.com/writing/copying/</link>
+      <description><![CDATA[文章网址：https://matthewstrom.com/writing/copying/
+评论网址：https://news.ycombinator.com/item?id=41038372
+积分：103
+评论数：34]]></description>
+      <guid>https://matthewstrom.com/writing/copying/</guid>
+      <pubDate>Mon, 22 Jul 2024 18:59:38 GMT</pubDate>
     </item>
     <item>
-      <title>科学家发现一种能强健骨骼的新激素</title>
-      <link>https://www.ucsf.edu/news/2024/07/428011/scientists-discover-new-hormone-can-build-strong-bones</link>
-      <description><![CDATA[文章网址：https://www.ucsf.edu/news/2024/07/428011/scientists-discover-new-hormone-can-build-strong-bones
-评论网址：https://news.ycombinator.com/item?id=41036462
-积分：90
-评论数：35]]></description>
-      <guid>https://www.ucsf.edu/news/2024/07/428011/scientists-discover-new-hormone-can-build-strong-bones</guid>
-      <pubDate>Mon, 22 Jul 2024 16:42:22 GMT</pubDate>
+      <title>兼职打牌过程中对运气和技巧的思考</title>
+      <link>https://thehobbyist.substack.com/p/800-85k-in-72-hours-reflections-on</link>
+      <description><![CDATA[文章网址：https://thehobbyist.substack.com/p/800-85k-in-72-hours-reflections-on
+评论网址：https://news.ycombinator.com/item?id=41038188
+积分：18
+评论数：3]]></description>
+      <guid>https://thehobbyist.substack.com/p/800-85k-in-72-hours-reflections-on</guid>
+      <pubDate>Mon, 22 Jul 2024 18:47:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>思维太快的人</title>
+      <link>https://www.newyorker.com/magazine/2020/05/04/the-man-who-thought-too-fast</link>
+      <description><![CDATA[文章网址：https://www.newyorker.com/magazine/2020/05/04/the-man-who-thought-too-fast
+评论网址：https://news.ycombinator.com/item?id=41038055
+积分：26
+评论数：3]]></description>
+      <guid>https://www.newyorker.com/magazine/2020/05/04/the-man-who-thought-too-fast</guid>
+      <pubDate>Mon, 22 Jul 2024 18:38:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>什么是熵？</title>
+      <link>https://johncarlosbaez.wordpress.com/2024/07/20/what-is-entropy/</link>
+      <description><![CDATA[文章网址：https://johncarlosbaez.wordpress.com/2024/07/20/what-is-entropy/
+评论网址：https://news.ycombinator.com/item?id=41037981
+积分：56
+评论数：31]]></description>
+      <guid>https://johncarlosbaez.wordpress.com/2024/07/20/what-is-entropy/</guid>
+      <pubDate>Mon, 22 Jul 2024 18:33:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
