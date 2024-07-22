@@ -4,106 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 22 Jul 2024 15:17:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2024 18:20:25 GMT</lastBuildDate>
     <item>
-      <title>370 英里氢电水上飞机将清理跳岛活动</title>
-      <link>https://newatlas.com/aircraft/jekta-zeroavia-hydrogen-electric-seaplane/</link>
-      <description><![CDATA[文章网址：https://newatlas.com/aircraft/jekta-zeroavia-hydrogen-electric-seaplane/
-评论网址：https://news.ycombinator.com/item?id=41034766
-积分：5
+      <title>微软：Linux 是目前 Azure 上最流行的操作系统</title>
+      <link>https://thenewstack.io/microsoft-linux-is-the-top-operating-system-on-azure-today/</link>
+      <description><![CDATA[文章网址：https://thenewstack.io/microsoft-linux-is-the-top-operating-system-on-azure-today/
+评论网址：https://news.ycombinator.com/item?id=41037380
+积分：6
 评论数：0]]></description>
-      <guid>https://newatlas.com/aircraft/jekta-zeroavia-hydrogen-electric-seaplane/</guid>
-      <pubDate>Mon, 22 Jul 2024 14:23:50 GMT</pubDate>
+      <guid>https://thenewstack.io/microsoft-linux-is-the-top-operating-system-on-azure-today/</guid>
+      <pubDate>Mon, 22 Jul 2024 17:58:13 GMT</pubDate>
     </item>
     <item>
-      <title>人类跑100米的速度能有多快？</title>
-      <link>https://bigthink.com/starts-with-a-bang/fast-human-run-100-meters/</link>
-      <description><![CDATA[文章网址：https://bigthink.com/starts-with-a-bang/fast-human-run-100-meters/
-评论网址：https://news.ycombinator.com/item?id=41034738
-积分：15
-评论数：31]]></description>
-      <guid>https://bigthink.com/starts-with-a-bang/fast-human-run-100-meters/</guid>
-      <pubDate>Mon, 22 Jul 2024 14:21:20 GMT</pubDate>
+      <title>山姆·奥特曼的基本收入研究已经出炉。以下是研究结果</title>
+      <link>https://www.businessinsider.com/sam-altman-basic-income-study-results-2024-7</link>
+      <description><![CDATA[文章网址：https://www.businessinsider.com/sam-altman-basic-income-study-results-2024-7
+评论网址：https://news.ycombinator.com/item?id=41037226
+积分：31
+评论数：19]]></description>
+      <guid>https://www.businessinsider.com/sam-altman-basic-income-study-results-2024-7</guid>
+      <pubDate>Mon, 22 Jul 2024 17:46:44 GMT</pubDate>
     </item>
     <item>
-      <title>我使用黑曜石</title>
-      <link>https://jasonheppler.org/2024/07/15/how-i-use-obsidian/</link>
-      <description><![CDATA[文章网址：https://jasonheppler.org/2024/07/15/how-i-use-obsidian/
-评论网址：https://news.ycombinator.com/item?id=41034567
-积分：20
-评论数：10]]></description>
-      <guid>https://jasonheppler.org/2024/07/15/how-i-use-obsidian/</guid>
-      <pubDate>Mon, 22 Jul 2024 14:08:41 GMT</pubDate>
+      <title>展示HN：OpenDataCapture是一个用于数据收集的电子数据捕获平台</title>
+      <link>https://github.com/DouglasNeuroInformatics/OpenDataCapture</link>
+      <description><![CDATA[嗨，HN，我们是 Douglas 神经信息学平台[1]，我们一直在研究 Open Data Capture，这是一个基于网络的电子数据采集 (EDC) 平台，用于持续收集临床和研究数据。您可以使用它来亲自或远程管理工具（如表格和交互式任务）。该平台基于一个基本的纵向数据模型。与其他以具有严格时间点的研究概念为中心的 EDC 平台不同，Open Data Capture 专为持续数据采集而设计。数据与给定会话相关联，其中包括日期、时间和模式（即亲自或远程）等元数据。我们围绕核心限制设计了该系统，即许多医院机构要求数据保留在现场，而临床研究人员通常希望评估机构外有研究问题的客户。这导致了我们创新的网关概念，其中分配的远程评估被推送到互联网可访问的服务上，并且响应使用 HPKE[2] 进行就地加密，直到后端将它们拉入后端数据库。只要您可以在全球可访问的某个地方启动最小的 VPS 或 VM 主机，就可以使部署对防火墙友好。我们也非常热衷于让部署变得简单，因此我们提供了一个 docker-compose 堆栈，它可以轻松启动一个演示实例以在本地运行。该平台是免费的、开源的，用 TypeScript 编写，底层有一个 NoSQL 数据库。用户可以使用类型安全的声明式表单系统（内置本机 i18n 支持）在 TypeScript 中编写工具，或者包装和集成用 JavaScript 编写的完全任意的交互式任务（可选支持 TypeScript 和 JSX）。在底层，这是基于动态导入和本机 ESM。有一个基于浏览器的 IDE（仪器游乐场），具有实时重新加载和完整的 Intellisense 功能，您可以在其中尝试创建自己的仪器。我们在我们的机构中​​有一个本地部署，我们在这里部署的适当许可的（免费）仪器将直接集成到代码库中。我们未来的计划包括扩展我们的仪器类型，以允许使用类似 s3 的后端进行二进制数据存储，并使用数据类型的抽象，如活动记录仪和 MRI。在 GitHub[3] 上查看，尝试仪器游乐场[4]，或查看现场演示[5]。很想听听大家的想法！链接：[1] https://github.com/DouglasNeuroInformatics/@gdevenyi @joshunrau[2] https://datatracker.ietf.org/doc/rfc9180/[3] https://github.com/DouglasNeuroInformatics/OpenDataCapture[4] https://playground.opendatacapture.org[5] https://demo.opendatacapture.org
+
+评论 URL：https://news.ycombinator.com/item?id=41037177
+积分：7
+评论数：1]]></description>
+      <guid>https://github.com/DouglasNeuroInformatics/OpenDataCapture</guid>
+      <pubDate>Mon, 22 Jul 2024 17:43:10 GMT</pubDate>
     </item>
     <item>
-      <title>不再有忧郁星期五</title>
-      <link>https://www.brendangregg.com/blog/2024-07-22/no-more-blue-fridays.html</link>
-      <description><![CDATA[文章网址：https://www.brendangregg.com/blog/2024-07-22/no-more-blue-fridays.html
-评论网址：https://news.ycombinator.com/item?id=41033579
-积分：141
-评论数：118]]></description>
-      <guid>https://www.brendangregg.com/blog/2024-07-22/no-more-blue-fridays.html</guid>
-      <pubDate>Mon, 22 Jul 2024 12:21:06 GMT</pubDate>
+      <title>波音公司旗下的 Wisk 预计将在“本世纪末”开始运载乘客</title>
+      <link>https://www.reuters.com/business/aerospace-defense/boeing-owned-wisk-expects-begin-carrying-passengers-later-decade-2024-07-22/</link>
+      <description><![CDATA[文章网址：https://www.reuters.com/business/aerospace-defense/boeing-owned-wisk-expects-begin-carrying-passengers-later-decade-2024-07-22/
+评论网址：https://news.ycombinator.com/item?id=41037168
+积分：8
+评论数：0]]></description>
+      <guid>https://www.reuters.com/business/aerospace-defense/boeing-owned-wisk-expects-begin-carrying-passengers-later-decade-2024-07-22/</guid>
+      <pubDate>Mon, 22 Jul 2024 17:42:17 GMT</pubDate>
     </item>
     <item>
-      <title>UpCodes (YC S17) 正在美洲各地招聘软件工程师</title>
-      <link>https://up.codes/careers?utm_source=HN</link>
-      <description><![CDATA[文章网址：https://up.codes/careers?utm_source=HN
-评论网址：https://news.ycombinator.com/item?id=41033442
+      <title>工人们表示：他们待在家里</title>
+      <link>https://www.computerworld.com/article/2520794/the-workers-have-spoken-theyre-staying-home.html</link>
+      <description><![CDATA[文章网址：https://www.computerworld.com/article/2520794/the-workers-have-spoken-theyre-staying-home.html
+评论网址：https://news.ycombinator.com/item?id=41037097
+积分：90
+评论数：52]]></description>
+      <guid>https://www.computerworld.com/article/2520794/the-workers-have-spoken-theyre-staying-home.html</guid>
+      <pubDate>Mon, 22 Jul 2024 17:36:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple TV+ 支出已超过 200 亿美元，难以为继</title>
+      <link>https://wccftech.com/apple-tv-expenditure-crossed-20-billion/</link>
+      <description><![CDATA[文章网址：https://wccftech.com/apple-tv-expenditure-crossed-20-billion/
+评论网址：https://news.ycombinator.com/item?id=41037010
+积分：35
+评论数：38]]></description>
+      <guid>https://wccftech.com/apple-tv-expenditure-crossed-20-billion/</guid>
+      <pubDate>Mon, 22 Jul 2024 17:29:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们能为那些明显愚蠢的初创企业筹集多少钱？</title>
+      <link>https://www.smbc-comics.com/comic/investment-2</link>
+      <description><![CDATA[文章网址：https://www.smbc-comics.com/comic/investment-2
+评论网址：https://news.ycombinator.com/item?id=41036844
+积分：104
+评论数：41]]></description>
+      <guid>https://www.smbc-comics.com/comic/investment-2</guid>
+      <pubDate>Mon, 22 Jul 2024 17:15:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Roame (YC S23) 正在招聘</title>
+      <link>https://www.ycombinator.com/companies/roame/jobs/tu786nh-founding-growth-operations</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/roame/jobs/tu786nh-founding-growth-operations
+评论网址：https://news.ycombinator.com/item?id=41036633
 积分：0
 评论数：0]]></description>
-      <guid>https://up.codes/careers?utm_source=HN</guid>
-      <pubDate>Mon, 22 Jul 2024 12:01:14 GMT</pubDate>
+      <guid>https://www.ycombinator.com/companies/roame/jobs/tu786nh-founding-growth-operations</guid>
+      <pubDate>Mon, 22 Jul 2024 17:00:37 GMT</pubDate>
     </item>
     <item>
-      <title>98 岁物理学家在突破性发现 75 年后荣获博士学位</title>
-      <link>https://www.theguardian.com/science/article/2024/jul/22/physicist-rosemary-fowler-honoured-doctorate-75-years-after-discovery</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/science/article/2024/jul/22/physicist-rosemary-fowler-honoured-doctorate-75-years-after-discovery
-评论网址：https://news.ycombinator.com/item?id=41033209
-积分：45
-评论数：22]]></description>
-      <guid>https://www.theguardian.com/science/article/2024/jul/22/physicist-rosemary-fowler-honoured-doctorate-75-years-after-discovery</guid>
-      <pubDate>Mon, 22 Jul 2024 11:29:45 GMT</pubDate>
+      <title>氧气的发现挑战了人们对深海的认识</title>
+      <link>https://www.bbc.co.uk/news/articles/c728ven2v9eo</link>
+      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/c728ven2v9eo
+评论网址：https://news.ycombinator.com/item?id=41036526
+积分：35
+评论数：5]]></description>
+      <guid>https://www.bbc.co.uk/news/articles/c728ven2v9eo</guid>
+      <pubDate>Mon, 22 Jul 2024 16:48:44 GMT</pubDate>
     </item>
     <item>
-      <title>展示 HN：我花了 18 个月时间建立的可用计费系统</title>
-      <link>https://billabear.com/</link>
-      <description><![CDATA[文章网址：https://billabear.com/
-评论网址：https://news.ycombinator.com/item?id=41031975
-积分：92
-评论数：46]]></description>
-      <guid>https://billabear.com/</guid>
-      <pubDate>Mon, 22 Jul 2024 08:22:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>瑞安航空在美国法院判决中赢得对 Booking.com 的屏幕抓取诉讼</title>
-      <link>https://www.rte.ie/news/business/2024/0719/1460807-ryanair-wins-us-court-case-against-bookingcom/</link>
-      <description><![CDATA[文章网址：https://www.rte.ie/news/business/2024/0719/1460807-ryanair-wins-us-court-case-against-bookingcom/
-评论网址：https://news.ycombinator.com/item?id=41031960
-积分：143
-评论数：130]]></description>
-      <guid>https://www.rte.ie/news/business/2024/0719/1460807-ryanair-wins-us-court-case-against-bookingcom/</guid>
-      <pubDate>Mon, 22 Jul 2024 08:20:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Eza：ls 的现代、维护替代品</title>
-      <link>https://github.com/eza-community/eza</link>
-      <description><![CDATA[文章网址：https://github.com/eza-community/eza
-评论网址：https://news.ycombinator.com/item?id=41031112
-积分：103
-评论数：84]]></description>
-      <guid>https://github.com/eza-community/eza</guid>
-      <pubDate>Mon, 22 Jul 2024 05:17:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jiff：一个全新的 Rust 日期时间库，来自 ripgrep 的作者</title>
-      <link>https://github.com/BurntSushi/jiff</link>
-      <description><![CDATA[文章网址：https://github.com/BurntSushi/jiff
-评论网址：https://news.ycombinator.com/item?id=41031037
-积分：342
-评论数：139]]></description>
-      <guid>https://github.com/BurntSushi/jiff</guid>
-      <pubDate>Mon, 22 Jul 2024 04:57:46 GMT</pubDate>
+      <title>科学家发现一种能强健骨骼的新激素</title>
+      <link>https://www.ucsf.edu/news/2024/07/428011/scientists-discover-new-hormone-can-build-strong-bones</link>
+      <description><![CDATA[文章网址：https://www.ucsf.edu/news/2024/07/428011/scientists-discover-new-hormone-can-build-strong-bones
+评论网址：https://news.ycombinator.com/item?id=41036462
+积分：90
+评论数：35]]></description>
+      <guid>https://www.ucsf.edu/news/2024/07/428011/scientists-discover-new-hormone-can-build-strong-bones</guid>
+      <pubDate>Mon, 22 Jul 2024 16:42:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
