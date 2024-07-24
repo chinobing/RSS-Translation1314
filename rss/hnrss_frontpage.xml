@@ -4,34 +4,85 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 24 Jul 2024 01:07:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 03:18:26 GMT</lastBuildDate>
+    <item>
+      <title>展示 HN：我们制作了 glhf.chat – 运行几乎所有开源 LLM，包括 405B</title>
+      <link>https://glhf.chat/landing/home</link>
+      <description><![CDATA[试试吧！https://glhf.chat/嗨，HN！过去几个月，我们一直在开发一个网站，让您可以轻松在自动扩展的 GPU 集群上运行（几乎）任何开源 LLM。目前，我们正在研究如何定价，它是免费的，但我们预计它会比大多数 GPU 产品更便宜，因为我们可以运行多租户模型。与 Together AI、Fireworks 等不同，我们将运行开源 vLLM 项目支持的任何模型：我们没有硬编码列表。如果您想要特定模型或微调，则无需向我们索取：只需粘贴 Hugging Face 链接即可（只要 vLLM 支持基本模型架构，我们就会运行高达 ~640GB VRAM 的任何内容，或多或少会有一些开销缓冲区）。大型模型需要几分钟才能启动，但如果一群人试图使用相同的模型，它可能已经加载，根本不需要启动时间。Llama-3-70b 微调特别好，因为它们基本上是 8b 微调的增强版，很多人喜欢在本地运行，但没有 VRAM。我们预计 Llama-3.1 的微调在开始发布后也会非常出色。目前有一些注意事项 - 例如，虽然我们支持 Deepseek V2 架构，但由于一些底层 NVLink 限制（尽管我们正在努力），我们实际上只能运行其较小的“精简版”模型。但在大多数情况下，如果 vLLM 支持它，我们也应该支持它！我们认为 Llama-3.1-405B 发布日也是我们自己发布的好日子 - 如果您希望我们支持任何内容，或者您​​遇到任何问题，请在评论中告诉我们。我知道这不是“本地” Llama，但是，嗯，那是很多 GPU……
+
+评论 URL：https://news.ycombinator.com/item?id=41052934
+积分：34
+评论数：11]]></description>
+      <guid>https://glhf.chat/landing/home</guid>
+      <pubDate>Wed, 24 Jul 2024 01:52:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>通用汽车无限期停止 Cruise 部门的无人驾驶汽车研发工作</title>
+      <link>https://www.ft.com/content/85bfbfd0-1036-44c7-89bb-72d1cd8f8ea2</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/85bfbfd0-1036-44c7-89bb-72d1cd8f8ea2
+评论网址：https://news.ycombinator.com/item?id=41052903
+积分：27
+评论数：3]]></description>
+      <guid>https://www.ft.com/content/85bfbfd0-1036-44c7-89bb-72d1cd8f8ea2</guid>
+      <pubDate>Wed, 24 Jul 2024 01:47:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>1976 年 Emacs 的起源</title>
+      <link>https://onlisp.co.uk/On-the-Origin-of-Emacs-in-1976.html</link>
+      <description><![CDATA[文章网址：https://onlisp.co.uk/On-the-Origin-of-Emacs-in-1976.html
+评论网址：https://news.ycombinator.com/item?id=41052593
+积分：18
+评论数：2]]></description>
+      <guid>https://onlisp.co.uk/On-the-Origin-of-Emacs-in-1976.html</guid>
+      <pubDate>Wed, 24 Jul 2024 00:49:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pnut：值得信赖的 C 到 POSIX Shell 编译器</title>
+      <link>https://pnut.sh</link>
+      <description><![CDATA[文章网址：https://pnut.sh
+评论网址：https://news.ycombinator.com/item?id=41052446
+积分：42
+评论数：11]]></description>
+      <guid>https://pnut.sh</guid>
+      <pubDate>Wed, 24 Jul 2024 00:22:04 GMT</pubDate>
+    </item>
     <item>
       <title>Scrapscript：一种函数式、内容可寻址的编程语言</title>
       <link>https://github.com/tekknolagi/scrapscript</link>
       <description><![CDATA[文章网址：https://github.com/tekknolagi/scrapscript
 评论网址：https://news.ycombinator.com/item?id=41052371
-积分：4
-评论数：0]]></description>
+积分：51
+评论数：5]]></description>
       <guid>https://github.com/tekknolagi/scrapscript</guid>
       <pubDate>Wed, 24 Jul 2024 00:08:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>自己掌控糖尿病治疗（2024）</title>
+      <link>https://martin.janiczek.cz/2024/07/23/taking-my-diabetes-treatment-into-my-own-hands.html</link>
+      <description><![CDATA[文章网址：https://martin.janiczek.cz/2024/07/23/taking-my-diabetes-treatment-into-my-own-hands.html
+评论网址：https://news.ycombinator.com/item?id=41052365
+积分：9
+评论数：0]]></description>
+      <guid>https://martin.janiczek.cz/2024/07/23/taking-my-diabetes-treatment-into-my-own-hands.html</guid>
+      <pubDate>Wed, 24 Jul 2024 00:06:59 GMT</pubDate>
     </item>
     <item>
       <title>你可以选择不接受机场面部扫描</title>
       <link>https://www.vox.com/future-perfect/360952/summer-travel-airport-facial-recognition-scan</link>
       <description><![CDATA[文章网址：https://www.vox.com/future-perfect/360952/summer-travel-airport-facial-recognition-scan
 评论网址：https://news.ycombinator.com/item?id=41051327
-积分：89
-评论数：62]]></description>
+积分：149
+评论数：106]]></description>
       <guid>https://www.vox.com/future-perfect/360952/summer-travel-airport-facial-recognition-scan</guid>
       <pubDate>Tue, 23 Jul 2024 21:50:09 GMT</pubDate>
     </item>
     <item>
-      <title>欧空局报告显示轨道垃圾数量已达到难以承受的程度</title>
+      <title>欧空局报告显示轨道垃圾数量已达不可持续水平</title>
       <link>https://payloadspace.com/esa-report-shows-unsustainable-levels-of-orbital-debris/</link>
       <description><![CDATA[文章网址：https://payloadspace.com/esa-report-shows-unsustainable-levels-of-orbital-debris/
 评论网址：https://news.ycombinator.com/item?id=41051257
-积分：60
-评论数：39]]></description>
+积分：79
+评论数：47]]></description>
       <guid>https://payloadspace.com/esa-report-shows-unsustainable-levels-of-orbital-debris/</guid>
       <pubDate>Tue, 23 Jul 2024 21:41:25 GMT</pubDate>
     </item>
@@ -40,8 +91,8 @@
       <link>https://www.jhnewsandguide.com/the_hole_scroll/video-biscuit-basin-geyser-explodes-sending-yellowstone-tourists-packing/article_6862fda2-4923-11ef-b5c4-abdc9bc8cd83.html</link>
       <description><![CDATA[文章网址：https://www.jhnewsandguide.com/the_hole_scroll/video-biscuit-basin-geyser-explodes-sending-yellowstone-tourists-packing/article_6862fda2-4923-11ef-b5c4-abdc9bc8cd83.html
 评论网址：https://news.ycombinator.com/item?id=41050055
-积分：254
-评论数：121]]></description>
+积分：316
+评论数：155]]></description>
       <guid>https://www.jhnewsandguide.com/the_hole_scroll/video-biscuit-basin-geyser-explodes-sending-yellowstone-tourists-packing/article_6862fda2-4923-11ef-b5c4-abdc9bc8cd83.html</guid>
       <pubDate>Tue, 23 Jul 2024 19:49:44 GMT</pubDate>
     </item>
@@ -50,60 +101,10 @@
       <link>https://lifeandletters.substack.com/p/how-many-children-had-lady-macbeth</link>
       <description><![CDATA[文章网址：https://lifeandletters.substack.com/p/how-many-children-had-lady-macbeth
 评论网址：https://news.ycombinator.com/item?id=41049955
-积分：25
-评论数：17]]></description>
+积分：31
+评论数：21]]></description>
       <guid>https://lifeandletters.substack.com/p/how-many-children-had-lady-macbeth</guid>
       <pubDate>Tue, 23 Jul 2024 19:40:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国的交通例外主义</title>
-      <link>https://benjaminschneider.substack.com/p/americas-transit-exceptionalism</link>
-      <description><![CDATA[文章网址：https://benjaminschneider.substack.com/p/americas-transit-exceptionalism
-评论网址：https://news.ycombinator.com/item?id=41049857
-积分：69
-评论数：125]]></description>
-      <guid>https://benjaminschneider.substack.com/p/americas-transit-exceptionalism</guid>
-      <pubDate>Tue, 23 Jul 2024 19:33:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Dtui – 用于检查系统/会话 dbus 状态的 TUI</title>
-      <link>https://github.com/Troels51/dtui</link>
-      <description><![CDATA[文章网址：https://github.com/Troels51/dtui
-评论网址：https://news.ycombinator.com/item?id=41049587
-积分：44
-评论数：3]]></description>
-      <guid>https://github.com/Troels51/dtui</guid>
-      <pubDate>Tue, 23 Jul 2024 19:02:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>奥运会官员如何打击“机动车兴奋剂”</title>
-      <link>https://spectrum.ieee.org/motor-doping-cycling</link>
-      <description><![CDATA[文章网址：https://spectrum.ieee.org/motor-doping-cycling
-评论网址：https://news.ycombinator.com/item?id=41049399
-积分：106
-评论数：218]]></description>
-      <guid>https://spectrum.ieee.org/motor-doping-cycling</guid>
-      <pubDate>Tue, 23 Jul 2024 18:43:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么在 LinkedIn 上分享链接如此困难？</title>
-      <link>https://tedium.co/2024/07/23/linkedin-complex-linking-schemes/</link>
-      <description><![CDATA[文章网址：https://tedium.co/2024/07/23/linkedin-complex-linking-schemes/
-评论网址：https://news.ycombinator.com/item?id=41049016
-积分：109
-评论数：103]]></description>
-      <guid>https://tedium.co/2024/07/23/linkedin-complex-linking-schemes/</guid>
-      <pubDate>Tue, 23 Jul 2024 18:08:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>图灵的拓扑证明：所有书面字母都是有限的（2010）</title>
-      <link>https://divisbyzero.com/2010/05/27/turings-topological-proof-that-every-written-alphabet-is-finite/</link>
-      <description><![CDATA[文章网址：https://divisbyzero.com/2010/05/27/turings-topological-proof-that-every-written-alphabet-is-finite/
-评论网址：https://news.ycombinator.com/item?id=41048777
-积分：71
-评论数：62]]></description>
-      <guid>https://divisbyzero.com/2010/05/27/turings-topological-proof-that-every-written-alphabet-is-finite/</guid>
-      <pubDate>Tue, 23 Jul 2024 17:43:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
