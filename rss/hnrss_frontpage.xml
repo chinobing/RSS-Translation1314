@@ -4,35 +4,85 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 24 Jul 2024 03:18:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 06:22:10 GMT</lastBuildDate>
+    <item>
+      <title>Solaris 中的“门”：使用文件描述符的轻量级 RPC（1996 年）</title>
+      <link>http://www.kohala.com/start/papers.others/doors.html</link>
+      <description><![CDATA[文章网址：http://www.kohala.com/start/papers.others/doors.html
+评论网址：https://news.ycombinator.com/item?id=41053761
+积分：16
+评论数：0]]></description>
+      <guid>http://www.kohala.com/start/papers.others/doors.html</guid>
+      <pubDate>Wed, 24 Jul 2024 05:02:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>北德克萨斯州社区称加密货币挖矿设施带来无休止的噪音</title>
+      <link>https://www.cbsnews.com/texas/news/north-texas-community-says-crypto-mining-facility-never-ending-noise-declining-health/</link>
+      <description><![CDATA[文章网址：https://www.cbsnews.com/texas/news/north-texas-community-says-crypto-mining-facility-never-ending-noise-declining-health/
+评论网址：https://news.ycombinator.com/item?id=41053571
+积分：22
+评论数：17]]></description>
+      <guid>https://www.cbsnews.com/texas/news/north-texas-community-says-crypto-mining-facility-never-ending-noise-declining-health/</guid>
+      <pubDate>Wed, 24 Jul 2024 04:20:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>MPPP – 首起“设计药物”灾难（2023 年）</title>
+      <link>https://www.chm.bris.ac.uk/motm/mppp/mppph.htm</link>
+      <description><![CDATA[文章网址：https://www.chm.bris.ac.uk/motm/mppp/mppph.htm
+评论网址：https://news.ycombinator.com/item?id=41053383
+积分：72
+评论数：40]]></description>
+      <guid>https://www.chm.bris.ac.uk/motm/mppp/mppph.htm</guid>
+      <pubDate>Wed, 24 Jul 2024 03:32:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>所有笔记</title>
+      <link>https://leancrew.com/all-this/2024/07/tot-notes/</link>
+      <description><![CDATA[文章网址：https://leancrew.com/all-this/2024/07/tot-notes/
+评论网址：https://news.ycombinator.com/item?id=41053364
+积分：13
+评论数：5]]></description>
+      <guid>https://leancrew.com/all-this/2024/07/tot-notes/</guid>
+      <pubDate>Wed, 24 Jul 2024 03:28:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国缉毒局和运输安全局的“同意”是什么样的</title>
+      <link>https://papersplease.org/wp/2024/07/23/what-consent-really-looks-like-for-the-dea-and-tsa/</link>
+      <description><![CDATA[文章网址：https://papersplease.org/wp/2024/07/23/what-c​​onsent-really-looks-like-for-the-dea-and-tsa/
+评论网址：https://news.ycombinator.com/item?id=41053329
+积分：142
+评论数：58]]></description>
+      <guid>https://papersplease.org/wp/2024/07/23/what-consent-really-looks-like-for-the-dea-and-tsa/</guid>
+      <pubDate>Wed, 24 Jul 2024 03:16:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>用 C 语言编写的 Llama 3.1</title>
+      <link>https://github.com/trholding/llama2.c/blob/master/runq.c</link>
+      <description><![CDATA[文章网址：https://github.com/trholding/llama2.c/blob/master/runq.c
+评论网址：https://news.ycombinator.com/item?id=41053201
+积分：63
+评论数：3]]></description>
+      <guid>https://github.com/trholding/llama2.c/blob/master/runq.c</guid>
+      <pubDate>Wed, 24 Jul 2024 02:49:44 GMT</pubDate>
+    </item>
     <item>
       <title>展示 HN：我们制作了 glhf.chat – 运行几乎所有开源 LLM，包括 405B</title>
       <link>https://glhf.chat/landing/home</link>
       <description><![CDATA[试试吧！https://glhf.chat/嗨，HN！过去几个月，我们一直在开发一个网站，让您可以轻松在自动扩展的 GPU 集群上运行（几乎）任何开源 LLM。目前，我们正在研究如何定价，它是免费的，但我们预计它会比大多数 GPU 产品更便宜，因为我们可以运行多租户模型。与 Together AI、Fireworks 等不同，我们将运行开源 vLLM 项目支持的任何模型：我们没有硬编码列表。如果您想要特定模型或微调，则无需向我们索取：只需粘贴 Hugging Face 链接即可（只要 vLLM 支持基本模型架构，我们就会运行高达 ~640GB VRAM 的任何内容，或多或少会有一些开销缓冲区）。大型模型需要几分钟才能启动，但如果一群人试图使用相同的模型，它可能已经加载，根本不需要启动时间。Llama-3-70b 微调特别好，因为它们基本上是 8b 微调的增强版，很多人喜欢在本地运行，但没有 VRAM。我们预计 Llama-3.1 的微调在开始发布后也会非常出色。目前有一些注意事项 - 例如，虽然我们支持 Deepseek V2 架构，但由于一些底层 NVLink 限制（尽管我们正在努力），我们实际上只能运行其较小的“精简版”模型。但在大多数情况下，如果 vLLM 支持它，我们也应该支持它！我们认为 Llama-3.1-405B 发布日也是我们自己发布的好日子 - 如果您希望我们支持任何内容，或者您​​遇到任何问题，请在评论中告诉我们。我知道这不是“本地” Llama，但是，嗯，那是很多 GPU……
 
 评论 URL：https://news.ycombinator.com/item?id=41052934
-积分：34
-评论数：11]]></description>
+积分：85
+评论数：34]]></description>
       <guid>https://glhf.chat/landing/home</guid>
       <pubDate>Wed, 24 Jul 2024 01:52:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>通用汽车无限期停止 Cruise 部门的无人驾驶汽车研发工作</title>
-      <link>https://www.ft.com/content/85bfbfd0-1036-44c7-89bb-72d1cd8f8ea2</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/85bfbfd0-1036-44c7-89bb-72d1cd8f8ea2
-评论网址：https://news.ycombinator.com/item?id=41052903
-积分：27
-评论数：3]]></description>
-      <guid>https://www.ft.com/content/85bfbfd0-1036-44c7-89bb-72d1cd8f8ea2</guid>
-      <pubDate>Wed, 24 Jul 2024 01:47:52 GMT</pubDate>
     </item>
     <item>
       <title>1976 年 Emacs 的起源</title>
       <link>https://onlisp.co.uk/On-the-Origin-of-Emacs-in-1976.html</link>
       <description><![CDATA[文章网址：https://onlisp.co.uk/On-the-Origin-of-Emacs-in-1976.html
 评论网址：https://news.ycombinator.com/item?id=41052593
-积分：18
-评论数：2]]></description>
+积分：74
+评论数：16]]></description>
       <guid>https://onlisp.co.uk/On-the-Origin-of-Emacs-in-1976.html</guid>
       <pubDate>Wed, 24 Jul 2024 00:49:26 GMT</pubDate>
     </item>
@@ -41,8 +91,8 @@
       <link>https://pnut.sh</link>
       <description><![CDATA[文章网址：https://pnut.sh
 评论网址：https://news.ycombinator.com/item?id=41052446
-积分：42
-评论数：11]]></description>
+积分：69
+评论数：28]]></description>
       <guid>https://pnut.sh</guid>
       <pubDate>Wed, 24 Jul 2024 00:22:04 GMT</pubDate>
     </item>
@@ -51,60 +101,10 @@
       <link>https://github.com/tekknolagi/scrapscript</link>
       <description><![CDATA[文章网址：https://github.com/tekknolagi/scrapscript
 评论网址：https://news.ycombinator.com/item?id=41052371
-积分：51
-评论数：5]]></description>
+积分：85
+评论数：7]]></description>
       <guid>https://github.com/tekknolagi/scrapscript</guid>
       <pubDate>Wed, 24 Jul 2024 00:08:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>自己掌控糖尿病治疗（2024）</title>
-      <link>https://martin.janiczek.cz/2024/07/23/taking-my-diabetes-treatment-into-my-own-hands.html</link>
-      <description><![CDATA[文章网址：https://martin.janiczek.cz/2024/07/23/taking-my-diabetes-treatment-into-my-own-hands.html
-评论网址：https://news.ycombinator.com/item?id=41052365
-积分：9
-评论数：0]]></description>
-      <guid>https://martin.janiczek.cz/2024/07/23/taking-my-diabetes-treatment-into-my-own-hands.html</guid>
-      <pubDate>Wed, 24 Jul 2024 00:06:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>你可以选择不接受机场面部扫描</title>
-      <link>https://www.vox.com/future-perfect/360952/summer-travel-airport-facial-recognition-scan</link>
-      <description><![CDATA[文章网址：https://www.vox.com/future-perfect/360952/summer-travel-airport-facial-recognition-scan
-评论网址：https://news.ycombinator.com/item?id=41051327
-积分：149
-评论数：106]]></description>
-      <guid>https://www.vox.com/future-perfect/360952/summer-travel-airport-facial-recognition-scan</guid>
-      <pubDate>Tue, 23 Jul 2024 21:50:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>欧空局报告显示轨道垃圾数量已达不可持续水平</title>
-      <link>https://payloadspace.com/esa-report-shows-unsustainable-levels-of-orbital-debris/</link>
-      <description><![CDATA[文章网址：https://payloadspace.com/esa-report-shows-unsustainable-levels-of-orbital-debris/
-评论网址：https://news.ycombinator.com/item?id=41051257
-积分：79
-评论数：47]]></description>
-      <guid>https://payloadspace.com/esa-report-shows-unsustainable-levels-of-orbital-debris/</guid>
-      <pubDate>Tue, 23 Jul 2024 21:41:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>黄石国家公园热液爆发</title>
-      <link>https://www.jhnewsandguide.com/the_hole_scroll/video-biscuit-basin-geyser-explodes-sending-yellowstone-tourists-packing/article_6862fda2-4923-11ef-b5c4-abdc9bc8cd83.html</link>
-      <description><![CDATA[文章网址：https://www.jhnewsandguide.com/the_hole_scroll/video-biscuit-basin-geyser-explodes-sending-yellowstone-tourists-packing/article_6862fda2-4923-11ef-b5c4-abdc9bc8cd83.html
-评论网址：https://news.ycombinator.com/item?id=41050055
-积分：316
-评论数：155]]></description>
-      <guid>https://www.jhnewsandguide.com/the_hole_scroll/video-biscuit-basin-geyser-explodes-sending-yellowstone-tourists-packing/article_6862fda2-4923-11ef-b5c4-abdc9bc8cd83.html</guid>
-      <pubDate>Tue, 23 Jul 2024 19:49:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>麦克白夫人有几个孩子？</title>
-      <link>https://lifeandletters.substack.com/p/how-many-children-had-lady-macbeth</link>
-      <description><![CDATA[文章网址：https://lifeandletters.substack.com/p/how-many-children-had-lady-macbeth
-评论网址：https://news.ycombinator.com/item?id=41049955
-积分：31
-评论数：21]]></description>
-      <guid>https://lifeandletters.substack.com/p/how-many-children-had-lady-macbeth</guid>
-      <pubDate>Tue, 23 Jul 2024 19:40:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
