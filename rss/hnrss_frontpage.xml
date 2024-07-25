@@ -4,86 +4,78 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 24 Jul 2024 21:15:37 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2024 01:07:16 GMT</lastBuildDate>
     <item>
-      <title>AMD“出于谨慎考虑”将 Ryzen 9000 的发布推迟到 8 月</title>
-      <link>https://arstechnica.com/gadgets/2024/07/quality-issue-pushes-amds-ryzen-9000-cpu-launch-from-july-to-august/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/gadgets/2024/07/quality-issue-pushes-amds-ryzen-9000-cpu-launch-from-july-to-august/
-评论网址：https://news.ycombinator.com/item?id=41061688
-积分：8
-评论数：2]]></description>
-      <guid>https://arstechnica.com/gadgets/2024/07/quality-issue-pushes-amds-ryzen-9000-cpu-launch-from-july-to-august/</guid>
-      <pubDate>Wed, 24 Jul 2024 20:30:04 GMT</pubDate>
+      <title>展示 HN：胡珀 – 人工智能驱动的篮球比赛数据和精彩片段</title>
+      <link>https://www.hooper.gg</link>
+      <description><![CDATA[大家好，我是 OP。想分享一些关于 Hooper 的信息——六个月前，我和一个好朋友开始开发它。我们经常一起打篮球，并且争论谁的跳投更好，最后我们一起开发了一个应用程序来解决这个问题Hooper 的工作方式是你可以使用应用程序和三脚架（可选）来录制自己。该应用程序将跟踪每个人，无论是单独练习、3v3 还是 5v5。我们认为有很多用于篮球训练的东西，但我们真正希望 Hooper 用于实际比赛。这意味着，它可以执行诸如跟踪多名球员、同步两个半场记录以及区分 2 分球和 3 分球等操作。录制完成后，它会进行一段时间的处理，然后要求你标记自己（也可以标记其他球员）。然后它会返回一些内容：你可以观看完整的镜头以及仅包含有趣比赛的剪辑版本；您可以看到每位球员的精彩集锦和进攻统计数据。注册后，您将获得一个 Hooper 个人资料，该个人资料可跟踪您在各个赛程中的总体统计数据。您还可以做一些事情，比如从精彩集锦中为 insta 制作混音带。您可以在 Hooper 上与其他玩家成为好友，查看他们的个人资料并评论他们的比赛（还可以添加我们“grub”和“kangexpress”！）我们已经进行了大约 3 个月的封闭测试，修复了错误并让一些早期采用者能够正常工作。我们现在开始公开测试！如果这里有人想尝试一下，你可以直接从 https://www.hooper.gg/?utm_campaign=h1 下载该应用程序。我们的旅程才刚刚开始，未来几个月还有很多改进要做，但我们非常希望收到您的反馈和想法！
+
+评论网址：https://news.ycombinator.com/item?id=41062451
+积分：9
+评论数：0]]></description>
+      <guid>https://www.hooper.gg</guid>
+      <pubDate>Wed, 24 Jul 2024 21:39:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：是我疯了还是 Android 开发很糟糕？</title>
+      <link>https://news.ycombinator.com/item?id=41062292</link>
+      <description><![CDATA[TL;DR - 我在桌面 Python 应用程序（Windows 或 Linux，均可正常工作）上 10 分钟内可以做的事情，对于 Android 应用程序来说似乎几乎是不可能的。我有一个简单的应用程序原型：使用有线 USB 网络摄像头，将其显示在计算机设备（理想情况下是小型设备/屏幕）的屏幕上，并在其上绘制一些 GUI 元素。使用 Python 脚本和 OpenCV，我在 10 分钟内就为 Linux 和 Windows 编写了一个可交叉兼容的脚本。然后我意识到我很喜欢在 Android 手机上运行它。我的设备带有 USB OTG 和用于网络摄像头的 USB-C 集线器。我使用其他人的闭源应用程序确认了硬件设置可以正常工作。但是开发过程非常糟糕。Android Studio 要开发一个“Hello World”，需要做很多工作，尝试集成各种 USB 网络摄像头库是不可能的，即使有 AI 助手和 Google 指导我。与 Gradle 版本或 Kotlin 版本有关的事情，这些版本在库和我的 Android Studio 之间是错误的；我的项目无法通过依赖项或 toml 文件等包含外部存储库。沮丧之下，我尝试了一些 python-to-android 解决方案，这些解决方案承诺采用 python 脚本并制作 APK。我尝试过：Kivy + python for android，然后是 Beeswax 或 Briefcase（可能名称略有错误）。如果没有极其深奥的错误，无论是我还是 GPT 都没有机会修复它们。好吧，看起来现代手机并不是黑客的好游乐场，是吧？我想我会选择一个 Raspberry Pi 等效产品。事实上，我已经在 RPi 上测试了我的脚本，它很好。但是，当智能手机已经在一个时尚的包装中很好地设置了所有 3 个组件时，需要使用新的计算机模块、屏幕显示器和电池，这真是太浪费了。无论如何，这是我的咆哮，想了解一下最近其他人对 Android（或一般智能手机）开发的看法，甚至一些项目建议，以防有人做过类似的事情，将有线网络摄像头连接到智能手机。
+
+评论网址：https://news.ycombinator.com/item?id=41062292
+积分：71
+评论数：42]]></description>
+      <guid>https://news.ycombinator.com/item?id=41062292</guid>
+      <pubDate>Wed, 24 Jul 2024 21:22:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>《龙与地下城》教会了我如何编写替代文本</title>
+      <link>https://ericwbailey.website/published/dungeons-and-dragons-taught-me-how-to-write-alt-text/</link>
+      <description><![CDATA[文章网址：https://ericwbailey.website/published/dungeons-and-dragons-taught-me-how-to-write-alt-text/
+评论网址：https://news.ycombinator.com/item?id=41061755
+积分：93
+评论数：26]]></description>
+      <guid>https://ericwbailey.website/published/dungeons-and-dragons-taught-me-how-to-write-alt-text/</guid>
+      <pubDate>Wed, 24 Jul 2024 20:35:49 GMT</pubDate>
     </item>
     <item>
       <title>包含一万亿个标记的多模态数据集</title>
       <link>https://github.com/mlfoundations/MINT-1T</link>
       <description><![CDATA[文章网址：https://github.com/mlfoundations/MINT-1T
 评论网址：https://news.ycombinator.com/item?id=41061390
-积分：28
-评论数：4]]></description>
+积分：102
+评论数：17]]></description>
       <guid>https://github.com/mlfoundations/MINT-1T</guid>
       <pubDate>Wed, 24 Jul 2024 20:04:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>CrowdStrike 时间线之谜</title>
-      <link>https://www.bitsight.com/blog/crowdstrike-timeline-mystery</link>
-      <description><![CDATA[文章网址：https://www.bitsight.com/blog/crowdstrike-timeline-mystery
-评论网址：https://news.ycombinator.com/item?id=41060985
-积分：83
-评论数：26]]></description>
-      <guid>https://www.bitsight.com/blog/crowdstrike-timeline-mystery</guid>
-      <pubDate>Wed, 24 Jul 2024 19:34:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>Figma 是否会成为一个尴尬的中间立场？</title>
-      <link>https://www.dive.club/ideas/will-figma-become-an-awkward-middle-ground</link>
-      <description><![CDATA[文章网址：​​https://www.dive.club/ideas/will-figma-become-an-awkward-middle-ground
-评论网址：https://news.ycombinator.com/item?id=41060834
-积分：70
-评论数：48]]></description>
-      <guid>https://www.dive.club/ideas/will-figma-become-an-awkward-middle-ground</guid>
-      <pubDate>Wed, 24 Jul 2024 19:22:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>X 将水枪表情重新设计为枪支</title>
-      <link>https://blog.emojipedia.org/x-redesigns-water-pistol-emoji-back-to-a-firearm/</link>
-      <description><![CDATA[文章网址：https://blog.emojipedia.org/x-redesigns-water-pistol-emoji-back-to-a-firearm/
-评论网址：https://news.ycombinator.com/item?id=41060813
-积分：123
-评论数：184]]></description>
-      <guid>https://blog.emojipedia.org/x-redesigns-water-pistol-emoji-back-to-a-firearm/</guid>
-      <pubDate>Wed, 24 Jul 2024 19:20:42 GMT</pubDate>
     </item>
     <item>
       <title>任何人都可以访问 GitHub 上已删除和私有的存储库数据</title>
       <link>https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github</link>
       <description><![CDATA[文章网址：https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github
 评论网址：https://news.ycombinator.com/item?id=41060102
-积分：439
-评论数：74]]></description>
+积分：929
+评论数：183]]></description>
       <guid>https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github</guid>
       <pubDate>Wed, 24 Jul 2024 18:24:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：NoteTech – 通过写笔记创建个人自动化</title>
+      <link>https://www.simpltech.ai</link>
+      <description><![CDATA[文章网址：https://www.simpltech.ai
+评论网址：https://news.ycombinator.com/item?id=41059821
+积分：22
+评论数：5]]></description>
+      <guid>https://www.simpltech.ai</guid>
+      <pubDate>Wed, 24 Jul 2024 18:00:17 GMT</pubDate>
     </item>
     <item>
       <title>空间填充曲线，建设性</title>
       <link>https://math.andrej.com/2024/01/30/space-filling-curves-constructively/</link>
       <description><![CDATA[文章网址：https://math.andrej.com/2024/01/30/space-filling-curves-constructively/
 评论网址：https://news.ycombinator.com/item?id=41059412
-积分：17
-评论数：1]]></description>
+积分：46
+评论数：14]]></description>
       <guid>https://math.andrej.com/2024/01/30/space-filling-curves-constructively/</guid>
       <pubDate>Wed, 24 Jul 2024 17:20:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>大型科技公司希望让人工智能变得免费</title>
-      <link>https://dublog.net/blog/commoditize-complement/</link>
-      <description><![CDATA[文章网址：https://dublog.net/blog/commoditize-complement/
-评论网址：https://news.ycombinator.com/item?id=41059342
-积分：60
-评论数：34]]></description>
-      <guid>https://dublog.net/blog/commoditize-complement/</guid>
-      <pubDate>Wed, 24 Jul 2024 17:15:46 GMT</pubDate>
     </item>
     <item>
       <title>参加 8 月 13 日在我们新的旧金山总部举办的 YC Ruby 聚会</title>
@@ -95,14 +87,24 @@
       <pubDate>Wed, 24 Jul 2024 17:00:07 GMT</pubDate>
     </item>
     <item>
-      <title>英特尔确认第 13 代和第 14 代 CPU 存在氧化和电压过高问题 [视频]</title>
-      <link>https://www.youtube.com/watch?v=OVdmK1UGzGs</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=OVdmK1UGzGs
-评论网址：https://news.ycombinator.com/item?id=41058791
-积分：169
-评论数：86]]></description>
-      <guid>https://www.youtube.com/watch?v=OVdmK1UGzGs</guid>
-      <pubDate>Wed, 24 Jul 2024 16:33:53 GMT</pubDate>
+      <title>生物电路设计</title>
+      <link>https://biocircuits.github.io/index.html</link>
+      <description><![CDATA[文章网址：https://biocircuits.github.io/index.html
+评论网址：https://news.ycombinator.com/item?id=41058671
+积分：70
+评论数：21]]></description>
+      <guid>https://biocircuits.github.io/index.html</guid>
+      <pubDate>Wed, 24 Jul 2024 16:22:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>钓鱼倾向域名注册商“.top”被警告</title>
+      <link>https://krebsonsecurity.com/2024/07/phish-friendly-domain-registry-top-put-on-notice/</link>
+      <description><![CDATA[文章网址：https://krebsonsecurity.com/2024/07/phish-friendly-domain-registry-top-put-on-notice/
+评论网址：https://news.ycombinator.com/item?id=41058424
+积分：134
+评论数：91]]></description>
+      <guid>https://krebsonsecurity.com/2024/07/phish-friendly-domain-registry-top-put-on-notice/</guid>
+      <pubDate>Wed, 24 Jul 2024 16:03:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
