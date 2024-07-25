@@ -4,106 +4,110 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 25 Jul 2024 15:16:14 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2024 18:20:18 GMT</lastBuildDate>
+    <item>
+      <title>Motion (YC W20) 正在招聘高级前端工程师（美国+加拿大）</title>
+      <link>https://jobs.ashbyhq.com/motion/4f5f6a29-3af0-4d79-99a4-988ff7c5ba05?utm_source=hn</link>
+      <description><![CDATA[文章网址：https://jobs.ashbyhq.com/motion/4f5f6a29-3af0-4d79-99a4-988ff7c5ba05?utm_source=hn
+评论网址：https://news.ycombinator.com/item?id=41070876
+积分：0
+评论数：0]]></description>
+      <guid>https://jobs.ashbyhq.com/motion/4f5f6a29-3af0-4d79-99a4-988ff7c5ba05?utm_source=hn</guid>
+      <pubDate>Thu, 25 Jul 2024 17:00:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>过时的安全性：我们为何使用隔离虚拟机</title>
+      <link>https://blog.thinkst.com/2024/07/unfashionably-secure-why-we-use-isolated-vms.html</link>
+      <description><![CDATA[文章网址：https://blog.thinkst.com/2024/07/unfashionably-secure-why-we-use-isolated-vms.html
+评论网址：https://news.ycombinator.com/item?id=41070870
+积分：43
+评论数：22]]></description>
+      <guid>https://blog.thinkst.com/2024/07/unfashionably-secure-why-we-use-isolated-vms.html</guid>
+      <pubDate>Thu, 25 Jul 2024 17:00:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：与 10 岁的孩子一起学习机器人技术的最佳方法是什么？</title>
+      <link>https://news.ycombinator.com/item?id=41070703</link>
+      <description><![CDATA[大家好，在发现 NHRL[1] 的伟大之后，我和儿子很想尝试建造一个小型战斗机器人，但我对电气工程或机器人技术一无所知。我更喜欢学习一切的工作原理并构建定制的东西，而不是仅仅购买预制套件并按照说明进行操作。我想知道是否有任何资源或书籍可以让我们一起学习电气工程和/或机器人技术的基础知识。谢谢！[1] https://www.youtube.com/watch?v=1GzzckUcnfE
+
+评论网址：https://news.ycombinator.com/item?id=41070703
+积分：5
+评论数：6]]></description>
+      <guid>https://news.ycombinator.com/item?id=41070703</guid>
+      <pubDate>Thu, 25 Jul 2024 16:44:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Wat – 深度检查 Python 对象</title>
+      <link>https://github.com/igrek51/wat</link>
+      <description><![CDATA[文章网址：https://github.com/igrek51/wat
+评论网址：https://news.ycombinator.com/item?id=41070428
+积分：24
+评论数：2]]></description>
+      <guid>https://github.com/igrek51/wat</guid>
+      <pubDate>Thu, 25 Jul 2024 16:18:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动 HN：Undermind (YC S24) – 用于发现科学论文的 AI 代理</title>
+      <link>https://news.ycombinator.com/item?id=41069909</link>
+      <description><![CDATA[嗨，HN！我们是 Undermind (https://www.undermind.ai/) 的 Josh 和 Tom。我们正在为复杂的科学研究构建一个搜索引擎。 https://www.loom.com/share/10067c49e4424b949a4b8c9fd8f3b12c?... 上有一个演示视频，我们的首页上也有示例搜索结果。我们都是物理学家，在读研究生期间，我们最大的挫折之一就是寻找研究成果 — 很多时候，我们不得不坐下来为一个项目寻找新想法，并迅速成为一名深度专家，或者我们必须找到解决真正复杂的技术问题的方法，但唯一的方法是手动翻阅 Google Scholar 上的论文小时。这非常乏味，以至于我们经常会跳过仔细的研究，希望得到最好的结果。有时几个月后你会感到筋疲力尽，因为有人已经解决了你认为新颖而重要的问题，或者你会浪费时间发明/构建已经存在的解决方案。问题是没有简单的方法可以弄清楚其他人在研究中做了什么，并将其加载到你的大脑中。这是进行真正优秀、重要的研究的最大瓶颈之一。我们想解决这个问题。法学硕士显然有帮助，但大多局限于一般知识。相反，我们需要一些可以引入研究论文的东西，并为你提供你需要知道的确切信息，即使对于非常复杂的想法和主题也是如此。我们意识到要做到这一点，就要模仿我们已经知道有效的研究策略，因为我们自己也在做，所以我们建立了一个类似代理的法学硕士管道，以模仿人类研究策略的方式仔细搜索。我们的搜索系统与普通搜索引擎略有不同。首先，我们会让您与法学硕士 (LLM) 反复交流，以确保我们真正了解您非常复杂的研究目标，就像您在与同事交谈一样。然后系统会仔细搜索您约 3 分钟。从高层次上讲，它执行的操作类似于树搜索，遵循引用兔子洞并根据发现的内容进行调整，以在多次迭代中寻找更多内容（就像您决定花几个小时一样）。3 分钟的延迟很烦人，但我们现在正在优化结果的质量而不是延迟。最后有一份报告。我们试图通过这种谨慎、系统的代理式发现过程实现两件事：1. 我们希望非常准确，并且仅在您要求特定主题时才推荐非常具体的结果。为此，我们会仔细阅读和评估拥有最高质量法学硕士的论文的内容（我们目前只阅读摘要和引文，因为它们更容易获得 - 但也在努力添加全文）。2.我们希望找到与您的搜索相关的所有内容，因为在研究中，知道某事物是否存在至关重要。实现详尽无遗的关键是我们开发的自适应算法（跟踪引用、根据发现的内容改变策略等）。但是，自动化管道的一个很酷的功能是，我们可以在搜索过程中跟踪发现过程。一开始，我们会发现很多好的结果，后来这些结果变得越来越稀疏，直到所有好的线索都用尽，我们再也找不到任何有用的东西。我们可以从统计上模拟这个过程，并找出我们何时找到了所有的东西（它实际上有一个有趣的指数饱和行为，你可以在我们为之前的原型编写的白皮书（https://www.undermind.ai/static/Undermind_whitepaper.pdf）中阅读更多相关内容。）你可以在这里尝试自己搜索：
+https://www.undermind.ai/query_app/promotion/。这是一个特殊的 HN 链接，今天，我们取消了你前几次搜索的注册门槛。通常我们需要登录，这样你才能保存搜索。我们很高兴与你分享这一点！我们很乐意听到你的搜索经历、哪些内容清晰哪些内容不清楚，以及任何反馈。我们将在这里回答任何问题或评论。
+
+评论网址：https://news.ycombinator.com/item?id=41069909
+积分：53
+评论数：14]]></description>
+      <guid>https://news.ycombinator.com/item?id=41069909</guid>
+      <pubDate>Thu, 25 Jul 2024 15:36:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta 发布无需微调的 Dreambooth 技术</title>
+      <link>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/452604312_1010783860585222_5768506504946476980_n.pdf?_nc_cat=102&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=YAv_wnbaeV4Q7kNvgFYk-3h&_nc_ht=scontent-sjc3-1.xx&oh=00_AYA8prM7RdSnA8iWL_UPB6qpQKjkeBOtp8zxoco6qb1Chw&oe=66A84FAB</link>
+      <description><![CDATA[文章网址： https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/452604312_1010783860585222_5768506504946476980_n.pdf?_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=3c67a6&amp;_nc_ohc=YAv_wnbaeV4Q7kNvgFYk-3h&amp;_nc_ht=scontent-sjc3-1。 xx&amp;oh=00_AYA8prM7RdSnA8iWL_UPB6qpQKjkeBOtp8zxoco6qb1Chw&amp;oe=66A84FAB
+评论网址：https://news.ycombinator.com/item?id=41069886
+积分：42
+# 评论：26]]></description>
+      <guid>https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/452604312_1010783860585222_5768506504946476980_n.pdf?_nc_cat=102&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=YAv_wnbaeV4Q7kNvgFYk-3h&_nc_ht=scontent-sjc3-1.xx&oh=00_AYA8prM7RdSnA8iWL_UPB6qpQKjkeBOtp8zxoco6qb1Chw&oe=66A84FAB</guid>
+      <pubDate>Thu, 25 Jul 2024 15:34:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能解答国际数学奥林匹克竞赛银牌级题目</title>
+      <link>https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/</link>
+      <description><![CDATA[文章网址：https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/
+评论网址：https://news.ycombinator.com/item?id=41069829
+积分：316
+评论数：164]]></description>
+      <guid>https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/</guid>
+      <pubDate>Thu, 25 Jul 2024 15:29:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN: Tiny Moon – 用于计算月相的 Swift 库</title>
+      <link>https://github.com/mannylopez/TinyMoon</link>
+      <description><![CDATA[Tiny Moon 是一个小型 Swift 库，用于计算任何给定日期的月相，运行速度超快，并且完全离线工作。这一切始于我意识到一年中只有 12 次，有时是 13 次满月。这似乎并不多。我着手构建一个 MacOS 应用程序来提醒我何时出现满月，以便我可以花点时间走出去欣赏它。我最终创建的 MacOS 应用程序可以在 https://apps.apple.com/us/app/tiny-moon/id6502374344 找到，以及源代码 [0]，全部由 Tiny Moon 库提供支持。我知道我希望应用程序能够离线工作，因此处理网络请求是不可能的。受到 SunCalc [1] 和 Moontool for Windows [2] 的启发，我决定创建自己的库，并将 Tiny Moon 编写为 Swift 包来支持我的应用程序。该应用程序尝试尽可能精简，执行速度非常快，并且完全离线工作。[0] https://github.com/mannylopez/TinyMoonApp[1] https://github.com/mourner/suncalc[2] https://www.fourmilab.ch/moontoolw/
+
+评论 URL：https://news.ycombinator.com/item?id=41069681
+积分：37
+评论数：4]]></description>
+      <guid>https://github.com/mannylopez/TinyMoon</guid>
+      <pubDate>Thu, 25 Jul 2024 15:17:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>让我们把 CAP 归类为奇闻异事</title>
+      <link>https://brooker.co.za/blog/2024/07/25/cap-again.html</link>
+      <description><![CDATA[文章网址：https://brooker.co.za/blog/2024/07/25/cap-again.html
+评论网址：https://news.ycombinator.com/item?id=41069403
+积分：88
+评论数：81]]></description>
+      <guid>https://brooker.co.za/blog/2024/07/25/cap-again.html</guid>
+      <pubDate>Thu, 25 Jul 2024 14:52:38 GMT</pubDate>
+    </item>
     <item>
       <title>面向所有人的逆向工程</title>
       <link>https://0xinfection.github.io/reversing/</link>
       <description><![CDATA[文章网址：https://0xinfection.github.io/reversing/
 评论网址：https://news.ycombinator.com/item?id=41069256
-积分：5
-评论数：0]]></description>
+积分：164
+评论数：13]]></description>
       <guid>https://0xinfection.github.io/reversing/</guid>
       <pubDate>Thu, 25 Jul 2024 14:41:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>PostgREST – 从任何 Postgres 数据库提供 RESTful API</title>
-      <link>https://github.com/PostgREST/postgrest</link>
-      <description><![CDATA[文章网址：https://github.com/PostgREST/postgrest
-评论网址：https://news.ycombinator.com/item?id=41068451
-积分：7
-评论数：0]]></description>
-      <guid>https://github.com/PostgREST/postgrest</guid>
-      <pubDate>Thu, 25 Jul 2024 13:27:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>化学家解释脱咖啡因咖啡背后的化学原理</title>
-      <link>https://theconversation.com/retaining-flavor-while-removing-caffeine-a-chemist-explains-the-chemistry-behind-decaf-coffee-233196</link>
-      <description><![CDATA[文章网址：https://theconversation.com/retaining-flavor-while-removing-caffeine-a-chemist-explains-the-chemistry-behind-decaf-coffee-233196
-评论网址：https://news.ycombinator.com/item?id=41067616
-积分：25
-评论数：5]]></description>
-      <guid>https://theconversation.com/retaining-flavor-while-removing-caffeine-a-chemist-explains-the-chemistry-behind-decaf-coffee-233196</guid>
-      <pubDate>Thu, 25 Jul 2024 12:04:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Supabase (YC S20) 正在招聘 Auth 工程师（完全远程）</title>
-      <link>https://boards.greenhouse.io/supabase/jobs/5225004004</link>
-      <description><![CDATA[文章网址：https://boards.greenhouse.io/supabase/jobs/5225004004
-评论网址：https://news.ycombinator.com/item?id=41067578
-积分：0
-评论数：0]]></description>
-      <guid>https://boards.greenhouse.io/supabase/jobs/5225004004</guid>
-      <pubDate>Thu, 25 Jul 2024 12:00:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么莱维顿没能彻底改变住宅建筑业</title>
-      <link>https://www.construction-physics.com/p/why-levittown-didnt-revolutionize</link>
-      <description><![CDATA[文章网址：https://www.construction-physics.com/p/why-levittown-didnt-revolutionize
-评论网址：https://news.ycombinator.com/item?id=41067079
-积分：27
-评论数：29]]></description>
-      <guid>https://www.construction-physics.com/p/why-levittown-didnt-revolutionize</guid>
-      <pubDate>Thu, 25 Jul 2024 10:54:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>捍卫 Lisp 宏</title>
-      <link>https://mihaiolteanu.me/defense-of-lisp-macros</link>
-      <description><![CDATA[文章网址：https://mihaiolteanu.me/defense-of-lisp-macros
-评论网址：https://news.ycombinator.com/item?id=41066544
-积分：60
-评论数：39]]></description>
-      <guid>https://mihaiolteanu.me/defense-of-lisp-macros</guid>
-      <pubDate>Thu, 25 Jul 2024 09:18:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>我最喜欢的算法：线性时间中值查找（2018）</title>
-      <link>https://rcoh.me/posts/linear-time-median-finding/</link>
-      <description><![CDATA[文章网址：https://rcoh.me/posts/linear-time-median-finding/
-评论网址：https://news.ycombinator.com/item?id=41066536
-积分：116
-评论数：72]]></description>
-      <guid>https://rcoh.me/posts/linear-time-median-finding/</guid>
-      <pubDate>Thu, 25 Jul 2024 09:16:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 PostgreSQL 实现版本化有限状态机 (2019)</title>
-      <link>https://raphael.medaer.me/2019/06/12/pgfsm.html</link>
-      <description><![CDATA[文章网址：https://raphael.medaer.me/2019/06/12/pgfsm.html
-评论网址：https://news.ycombinator.com/item?id=41066303
-积分：48
-评论数：10]]></description>
-      <guid>https://raphael.medaer.me/2019/06/12/pgfsm.html</guid>
-      <pubDate>Thu, 25 Jul 2024 08:40:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>苹果地图网页版推出测试版</title>
-      <link>https://www.apple.com/newsroom/2024/07/apple-maps-on-the-web-launches-in-beta/</link>
-      <description><![CDATA[文章网址：https://www.apple.com/newsroom/2024/07/apple-maps-on-the-web-launches-in-beta/
-评论网址：https://news.ycombinator.com/item?id=41065326
-积分：233
-评论数：272]]></description>
-      <guid>https://www.apple.com/newsroom/2024/07/apple-maps-on-the-web-launches-in-beta/</guid>
-      <pubDate>Thu, 25 Jul 2024 06:26:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>每家公司都应该由员工所有</title>
-      <link>https://www.elysian.press/p/employee-ownership</link>
-      <description><![CDATA[文章网址：https://www.elysian.press/p/employee-ownership
-评论网址：https://news.ycombinator.com/item?id=41065227
-积分：467
-评论数：556]]></description>
-      <guid>https://www.elysian.press/p/employee-ownership</guid>
-      <pubDate>Thu, 25 Jul 2024 06:10:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
