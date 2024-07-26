@@ -4,24 +4,95 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 26 Jul 2024 18:20:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2024 21:14:45 GMT</lastBuildDate>
+    <item>
+      <title>Tesorio (YC S15) 正在招聘高级 GenAI/LLM 工程师（100% 远程）</title>
+      <link>https://www.tesorio.com/careers#job-openings</link>
+      <description><![CDATA[文章网址：https://www.tesorio.com/careers#job-openings
+评论网址：https://news.ycombinator.com/item?id=41082230
+积分：0
+评论数：0]]></description>
+      <guid>https://www.tesorio.com/careers#job-openings</guid>
+      <pubDate>Fri, 26 Jul 2024 21:00:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Patchwork – 用于自动化开发繁重工作的开源框架</title>
+      <link>https://github.com/patched-codes/patchwork</link>
+      <description><![CDATA[嗨，HN！我们是 Asankhaya 和 Rohan，我们正在构建 Patchwork。Patchwork 通过使用 LLM 和模块化代码管理步骤的可定制、代码优先的“patchflows”来解决开发繁琐的工作（例如审查、文档、代码检查和安全修复），所有这些都用 Python 编写。这是一个快速概览视频：https://youtu.be/MLyn6B3bFMU从我们构建 DevSecOps 工具的时间来看，我们亲身体验了用户在构建复杂交付管道时遇到的挫折。开发人员几乎三分之一的时间都花在了代码管理任务上[1]，但积压工作仍然存在。Patchwork 可让您将定义明确的提示与有效的工作流程编排相结合，使用 LLM[2] 自动执行多达 80% 的繁琐任务。例如，AutoFix patchflow 可以使用 gpt-4 解决 82% 的 semgrep 标记问题（使用 llama-3.1-8B 可解决 68% 的问题），无需进行微调或提供专门的上下文 [3]。基于文本的 patchflow（如 PR 审核和生成文档字符串）的成功率较高，但对于依赖项升级等更复杂的任务，成功率较低。我们不是编码助手或黑盒 GitHub 机器人。我们的自动化工作流程通过 CLI 或 CI 脚本在您的 IDE 之外运行，无需您的主动参与。我们也不是“AI 代理”框架。根据我们的经验，LLM 代理在规划方面很吃力，很少能确定正确的执行路径。相反，Patchwork 需要明确定义的工作流程，以提供更大的成功率和完全的控制权。Patchwork 是开源的，因此您可以构建自己的补丁流，集成您首选的 LLM 端点，并完全自我托管，确保大型团队的隐私和合规性。作为开发人员，我们更喜欢构建自己的“支持 AI 的自动化”，因为使用 LLM API 非常容易。如果你愿意，可以通过简单的“pip install patchwork-cli”尝试 patchwork，或者在 Github 上找到我们[4]。来源：[1] https://blog.tidelift.com/developers-spend-30-of-their-time-...[2] https://www.patched.codes/blog/patched-rtc-evaluating-llms-f...[3] https://www.patched.codes/blog/how-good-are-llms[4] https://github.com/patched-codes/patchwork[示例 PR] https://github.com/patched-demo/sample-injection/pulls
+
+评论 URL： https://news.ycombinator.com/item?id=41082041
+积分：11
+评论数：1]]></description>
+      <guid>https://github.com/patched-codes/patchwork</guid>
+      <pubDate>Fri, 26 Jul 2024 20:34:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>欧洲面临因监管而失去其科技市场的危险</title>
+      <link>https://foreignpolicy.com/2024/07/26/europe-tech-regulation-apple-meta-google-competition/</link>
+      <description><![CDATA[文章网址：https://foreignpolicy.com/2024/07/26/europe-tech-regulation-apple-meta-google-competition/
+评论网址：https://news.ycombinator.com/item?id=41081238
+积分：41
+评论数：55]]></description>
+      <guid>https://foreignpolicy.com/2024/07/26/europe-tech-regulation-apple-meta-google-competition/</guid>
+      <pubDate>Fri, 26 Jul 2024 18:55:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>超越整洁代码</title>
+      <link>https://tobeva.com/articles/beyond/</link>
+      <description><![CDATA[文章网址：https://tobeva.com/articles/beyond/
+评论网址：https://news.ycombinator.com/item?id=41081237
+积分：15
+评论数：2]]></description>
+      <guid>https://tobeva.com/articles/beyond/</guid>
+      <pubDate>Fri, 26 Jul 2024 18:55:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zen 5 的 2-Ahead 分支预测器：30 年前的想法如何实现新花样</title>
+      <link>https://chipsandcheese.com/2024/07/26/zen-5s-2-ahead-branch-predictor-unit-how-30-year-old-idea-allows-for-new-tricks/</link>
+      <description><![CDATA[文章网址：https://chipsandcheese.com/2024/07/26/zen-5s-2-ahead-branch-predictor-unit-how-30-year-old-idea-allows-for-new-tricks/
+评论网址：https://news.ycombinator.com/item?id=41081021
+积分：32
+评论数：3]]></description>
+      <guid>https://chipsandcheese.com/2024/07/26/zen-5s-2-ahead-branch-predictor-unit-how-30-year-old-idea-allows-for-new-tricks/</guid>
+      <pubDate>Fri, 26 Jul 2024 18:32:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么色度图是那样的？</title>
+      <link>https://jlongster.com/why-chromaticity-shape</link>
+      <description><![CDATA[文章网址：https://jlong​​ster.com/why-chromaticity-shape
+评论网址：https://news.ycombinator.com/item?id=41080904
+积分：61
+评论数：12]]></description>
+      <guid>https://jlongster.com/why-chromaticity-shape</guid>
+      <pubDate>Fri, 26 Jul 2024 18:19:11 GMT</pubDate>
+    </item>
     <item>
       <title>可视化编程该走向何方？</title>
       <link>https://tonsky.me/blog/diagrams/</link>
       <description><![CDATA[文章网址：https://tonsky.me/blog/diagrams/
 评论网址：https://news.ycombinator.com/item?id=41080644
-积分：5
-评论数：15]]></description>
+积分：48
+评论数：51]]></description>
       <guid>https://tonsky.me/blog/diagrams/</guid>
       <pubDate>Fri, 26 Jul 2024 17:50:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>排斥性外壳 [视频]</title>
+      <link>https://www.youtube.com/watch?v=qDM6bCt1Gic</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=qDM6bCt1Gic
+评论网址：https://news.ycombinator.com/item?id=41080642
+积分：57
+评论数：12]]></description>
+      <guid>https://www.youtube.com/watch?v=qDM6bCt1Gic</guid>
+      <pubDate>Fri, 26 Jul 2024 17:50:30 GMT</pubDate>
     </item>
     <item>
       <title>打电话给编译器，传真你的代码 [视频]</title>
       <link>https://www.youtube.com/watch?v=pJ-25-pRhpY</link>
       <description><![CDATA[文章网址：https://www.youtube.com/watch?v=pJ-25-pRhpY
 评论网址：https://news.ycombinator.com/item?id=41080599
-积分：7
-评论数：0]]></description>
+积分：87
+评论数：19]]></description>
       <guid>https://www.youtube.com/watch?v=pJ-25-pRhpY</guid>
       <pubDate>Fri, 26 Jul 2024 17:45:08 GMT</pubDate>
     </item>
@@ -30,79 +101,10 @@
       <link>https://www.youtube.com/watch?v=qlfh_rv6khY</link>
       <description><![CDATA[文章网址：https://www.youtube.com/watch?v=qlfh_rv6khY
 评论网址：https://news.ycombinator.com/item?id=41080570
-积分：9
-评论数：0]]></description>
+积分：63
+评论数：6]]></description>
       <guid>https://www.youtube.com/watch?v=qlfh_rv6khY</guid>
       <pubDate>Fri, 26 Jul 2024 17:40:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找可解决 LeetCode 问题的随机种子（2023）</title>
-      <link>https://mcognetta.github.io/posts/leetcode-random-seed/</link>
-      <description><![CDATA[文章网址：https://mcognetta.github.io/posts/leetcode-random-seed/
-评论网址：https://news.ycombinator.com/item?id=41080485
-积分：21
-评论数：4]]></description>
-      <guid>https://mcognetta.github.io/posts/leetcode-random-seed/</guid>
-      <pubDate>Fri, 26 Jul 2024 17:31:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>CT 扫描显示汽车点烟器的工作原理</title>
-      <link>https://www.lumafield.com/article/how-does-a-car-cigarette-lighter-work</link>
-      <description><![CDATA[文章网址：https://www.lumafield.com/article/how-does-a-car-cigarette-lighter-work
-评论网址：https://news.ycombinator.com/item?id=41080442
-积分：15
-评论数：9]]></description>
-      <guid>https://www.lumafield.com/article/how-does-a-car-cigarette-lighter-work</guid>
-      <pubDate>Fri, 26 Jul 2024 17:25:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌利用数字“原始汤”创造出可自我复制的生命</title>
-      <link>https://www.newscientist.com/article/2438117-google-creates-self-replicating-life-from-digital-primordial-soup/</link>
-      <description><![CDATA[文章网址：https://www.newscientist.com/article/2438117-google-creates-self-replicating-life-from-digital-primordial-soup/
-评论网址：https://news.ycombinator.com/item?id=41080435
-积分：24
-评论数：14]]></description>
-      <guid>https://www.newscientist.com/article/2438117-google-creates-self-replicating-life-from-digital-primordial-soup/</guid>
-      <pubDate>Fri, 26 Jul 2024 17:24:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>贝叶斯统计：三种文化</title>
-      <link>https://statmodeling.stat.columbia.edu/2024/07/10/three-cultures-bayes-subjective-objective-pragmatic/</link>
-      <description><![CDATA[文章网址：https://statmodeling.stat.columbia.edu/2024/07/10/three-cultures-bayes-subjective-objective-pragmatic/
-评论网址：https://news.ycombinator.com/item?id=41080373
-积分：45
-评论数：2]]></description>
-      <guid>https://statmodeling.stat.columbia.edu/2024/07/10/three-cultures-bayes-subjective-objective-pragmatic/</guid>
-      <pubDate>Fri, 26 Jul 2024 17:15:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>雌雄同体外围附着系统</title>
-      <link>https://en.wikipedia.org/wiki/Androgynous_Peripheral_Attach_System</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Androgynous_Peripheral_Attach_System
-评论网址：https://news.ycombinator.com/item?id=41080367
-积分：11
-评论数：1]]></description>
-      <guid>https://en.wikipedia.org/wiki/Androgynous_Peripheral_Attach_System</guid>
-      <pubDate>Fri, 26 Jul 2024 17:14:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>里程碑式证明解决几何朗兰兹猜想</title>
-      <link>https://www.quantamagazine.org/monumental-proof-settles-geometric-langlands-conjecture-20240719/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/monumental-proof-settles-geometric-langlands-conjecture-20240719/
-评论网址：https://news.ycombinator.com/item?id=41080366
-积分：12
-评论数：2]]></description>
-      <guid>https://www.quantamagazine.org/monumental-proof-settles-geometric-langlands-conjecture-20240719/</guid>
-      <pubDate>Fri, 26 Jul 2024 17:14:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>样本 (YC W24) 正在招聘</title>
-      <link>https://news.ycombinator.com/item?id=41080222</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=41080222
-积分：0
-评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41080222</guid>
-      <pubDate>Fri, 26 Jul 2024 17:00:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
