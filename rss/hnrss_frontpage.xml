@@ -4,7 +4,40 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 29 Jul 2024 12:29:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 15:17:17 GMT</lastBuildDate>
+    <item>
+      <title>新版无梯度优化器包含两种新的进化算法</title>
+      <link>https://github.com/SimonBlanke/Gradient-Free-Optimizers</link>
+      <description><![CDATA[文章网址：https://github.com/SimonBlanke/Gradient-Free-Optimizers
+评论网址：https://news.ycombinator.com/item?id=41100170
+积分：19
+评论数：4]]></description>
+      <guid>https://github.com/SimonBlanke/Gradient-Free-Optimizers</guid>
+      <pubDate>Mon, 29 Jul 2024 13:08:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>推出 HN：Roame (YC S23) – 利用信用卡积分的航班搜索引擎</title>
+      <link>https://news.ycombinator.com/item?id=41100094</link>
+      <description><![CDATA[嗨，HN！我们是来自 Roame (https://roame.travel) 的 Tim 和 Zi。Roame 是一个航班搜索引擎，可让您使用积分和里程（而不是巨额现金）查找和兑换商务舱航班。这是一个演示视频：https://www.youtube.com/watch?v=fixXuyhofgo
+多年来，我们一直使用积分乘坐头等舱和商务舱环游世界——Tim 已经十多年了，Zi 最近才开始使用。一年多前，我们试图使用积分找到往返亚洲的头等舱或商务舱廉价往返机票。我们在 Chase、American Express 和 Citi 拥有大量积分，但找到好的兑换方式总是很麻烦。我们在积分货币、目的地和日期方面具有灵活性。我们唯一的要求是确保在同一航班上兑换两次头等舱或商务舱的往返机票。这种灵活性是有代价的：我们花了两周时间，花了 30 多个小时，在 10-20 家航空公司的网站上手动搜索日期和航线。最终，我们找到了两张日本航空头等舱机票，从洛杉矶飞往东京，每张机票需 70,000 积分，返回纽约，每张机票需 80,000 积分。这些航班的往返现金费用通常在 20,000 至 30,000 美元之间，但使用积分，我们实际上只支付了约 2,000 美元。头等舱的体验令人难忘，但我们不想重复繁琐的搜索过程。因此，我们决定构建一个工具，以便将来节省时间。我知道关于积分的这些听起来有点像魔术，但使用积分预订廉价的商务舱机票对于普通人来说是可以实现的。工作原理如下：
+信用卡注册优惠从 50,000 到 150,000 点不等。这些积分要么与信用卡货币（Chase Ultimate Rewards、American Express Membership Rewards）挂钩，要么与特定航空公司（Delta Skymiles、United MileagePlus）挂钩。最有价值和用途最广泛的积分与信用卡货币挂钩，因为它们可以转移到各种旅行合作伙伴。这种灵活性使您可以在转移积分之前选择最佳价值。如果您只有一家航空公司的积分，则只能兑换这些积分。虽然大多数人通过 Chase 或 American Express 旅行门户以每积分约 1-1.5 美分的价格兑换信用卡积分，但转移到航空公司合作伙伴可以为商务舱每积分带来 3-8 美分，或为头等舱每积分带来 12-20 美分。积分的最佳价值通常来自非美国航空公司，如加拿大航空、法国航空/荷兰皇家航空、哥伦比亚航空和英国航空。例如，您可以用 50,000 积分兑换一张从旧金山飞往巴黎的法航商务舱机票，否则机票价格约为 4,000 美元。每积分价值 8 美分，比使用信用卡旅行门户网站要高得多。但是，挑战在于：1) 大多数人不知道他们的信用卡积分可以转移到航空公司合作伙伴，2) 他们不考虑非美国航空公司，3) 手动搜索每个航空公司网站非常耗时。我们的工具简化了此过程：输入您的出发机场、目的地机场、日期、票价等级和旅客人数。单击搜索后，我们的工具会实时搜索多达 16 个不同的航空公司忠诚度计划并显示结果，包括航班信息、积分成本和兑换说明。实时搜索是免费的，并提供 60 天的 SkyView 访问权限，SkyView 是一个缓存数据库，包含两个月内按地区（州、国家、大陆）分类的 6,500 条最受欢迎航线。付费版本可延长对完整 365 日历的访问，并允许一次搜索长达两个月的内容，并通过电子邮件提醒。SkyView 非常适合向您展示当前可用或以前可以满足您所有奖励兑换需求的内容。我们不断添加更多功能，并希望听到您的想法、经验和反馈！提前谢谢您！
+
+评论网址：https://news.ycombinator.com/item?id=41100094
+积分：24
+评论数：12]]></description>
+      <guid>https://news.ycombinator.com/item?id=41100094</guid>
+      <pubDate>Mon, 29 Jul 2024 12:56:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>可移动树 CRDT 和 Loro 的实现</title>
+      <link>https://loro.dev/blog/movable-tree</link>
+      <description><![CDATA[文章网址：https://loro.dev/blog/movable-tree
+评论网址：https://news.ycombinator.com/item?id=41099901
+积分：70
+评论数：13]]></description>
+      <guid>https://loro.dev/blog/movable-tree</guid>
+      <pubDate>Mon, 29 Jul 2024 12:24:59 GMT</pubDate>
+    </item>
     <item>
       <title>Confido (YC S21) 正在招聘</title>
       <link>https://news.ycombinator.com/item?id=41099743</link>
@@ -15,95 +48,65 @@
       <pubDate>Mon, 29 Jul 2024 12:00:55 GMT</pubDate>
     </item>
     <item>
-      <title>2014 年，亚马逊斥资近 10 亿美元收购 Twitch。但目前该公司仍在亏损</title>
-      <link>https://www.wsj.com/tech/twitch-amazon-video-games-investment-9020db87</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/tech/twitch-amazon-video-games-investment-9020db87
-评论网址：https://news.ycombinator.com/item?id=41099610
-积分：5
-评论数：1]]></description>
-      <guid>https://www.wsj.com/tech/twitch-amazon-video-games-investment-9020db87</guid>
-      <pubDate>Mon, 29 Jul 2024 11:36:22 GMT</pubDate>
+      <title>DNS LOC 记录的奇妙世界</title>
+      <link>https://blog.cloudflare.com/the-weird-and-wonderful-world-of-dns-loc-records</link>
+      <description><![CDATA[文章网址：https://blog.cloudflare.com/the-weird-and-wonderful-world-of-dns-loc-records
+评论网址：https://news.ycombinator.com/item?id=41099567
+积分：39
+评论数：17]]></description>
+      <guid>https://blog.cloudflare.com/the-weird-and-wonderful-world-of-dns-loc-records</guid>
+      <pubDate>Mon, 29 Jul 2024 11:26:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>并非秘密：KakaoTalk 聊天 E2EE 功能分析</title>
+      <link>https://stulle123.github.io/posts/kakaotalk/secret-chat/</link>
+      <description><![CDATA[文章网址：https://stulle123.github.io/posts/kakaotalk/secret-chat/
+评论网址：https://news.ycombinator.com/item?id=41099262
+积分：3
+评论数：0]]></description>
+      <guid>https://stulle123.github.io/posts/kakaotalk/secret-chat/</guid>
+      <pubDate>Mon, 29 Jul 2024 10:01:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Tea-tasting，用于 A/B 测试统计分析的 Python 包</title>
+      <link>https://e10v.me/tea-tasting-analysis-of-experiments/</link>
+      <description><![CDATA[我很高兴介绍 tea-tasting，一个用于 A/B 测试统计分析的 Python 包它具有学生 t 检验、Bootstrap、使用 CUPED 减少方差、功效分析和其他统计方法。tea-tasting 支持广泛的数据后端，包括 BigQuery、ClickHouse、PostgreSQL、Snowflake、Spark 等，这一切都要归功于 Ibis。我认为它已准备好完成重要任务，并在工作中用它来分析 switchback 实验。
+
+评论网址：https://news.ycombinator.com/item?id=41099028
+积分：42
+评论数：5]]></description>
+      <guid>https://e10v.me/tea-tasting-analysis-of-experiments/</guid>
+      <pubDate>Mon, 29 Jul 2024 09:10:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>雕刻超级任天堂视频系统</title>
+      <link>https://fabiensanglard.net/snes_video/index.html</link>
+      <description><![CDATA[文章网址：https://fabiensanglard.net/snes_video/index.html
+评论网址：https://news.ycombinator.com/item?id=41098141
+积分：70
+评论数：23]]></description>
+      <guid>https://fabiensanglard.net/snes_video/index.html</guid>
+      <pubDate>Mon, 29 Jul 2024 05:36:38 GMT</pubDate>
     </item>
     <item>
       <title>Pallene：Lua 的静态编译配套语言</title>
       <link>https://github.com/pallene-lang/pallene/blob/master/doc/manual.md</link>
       <description><![CDATA[文章网址：https://github.com/pallene-lang/pallene/blob/master/doc/manual.md
 评论网址：https://news.ycombinator.com/item?id=41097842
-积分：12
-评论数：1]]></description>
+积分：38
+评论数：27]]></description>
       <guid>https://github.com/pallene-lang/pallene/blob/master/doc/manual.md</guid>
       <pubDate>Mon, 29 Jul 2024 04:12:52 GMT</pubDate>
     </item>
     <item>
-      <title>ps aux 在 bash 中编写，无需分叉</title>
+      <title>ps aux 在 bash 中编写，无需 fork</title>
       <link>https://github.com/izabera/ps</link>
       <description><![CDATA[文章网址：https://github.com/izabera/ps
 评论网址：https://news.ycombinator.com/item?id=41097241
-积分：135
-评论数：35]]></description>
+积分：178
+评论数：59]]></description>
       <guid>https://github.com/izabera/ps</guid>
       <pubDate>Mon, 29 Jul 2024 01:10:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>行星毁灭技术：ChronoCam（2013）</title>
-      <link>https://www.forrestthewoods.com/blog/tech_of_planetary_annihilation_chrono_cam/</link>
-      <description><![CDATA[文章网址：https://www.forrestthewoods.com/blog/tech_of_planetary_annihilation_chrono_cam/
-评论网址：https://news.ycombinator.com/item?id=41097228
-积分：57
-评论数：15]]></description>
-      <guid>https://www.forrestthewoods.com/blog/tech_of_planetary_annihilation_chrono_cam/</guid>
-      <pubDate>Mon, 29 Jul 2024 01:07:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>LeanDojo：使用法学硕士 (LLM) 进行精益定理证明</title>
-      <link>https://leandojo.org/</link>
-      <description><![CDATA[文章网址：https://leandojo.org/
-评论网址：https://news.ycombinator.com/item?id=41096486
-积分：130
-评论数：31]]></description>
-      <guid>https://leandojo.org/</guid>
-      <pubDate>Sun, 28 Jul 2024 22:34:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>OCaml 中的高阶有界多态性（2021）</title>
-      <link>https://okmij.org/ftp/ML/higher-kind-poly.html</link>
-      <description><![CDATA[文章网址：https://okmij.org/ftp/ML/higher-kind-poly.html
-评论网址：https://news.ycombinator.com/item?id=41096187
-积分：110
-评论数：4]]></description>
-      <guid>https://okmij.org/ftp/ML/higher-kind-poly.html</guid>
-      <pubDate>Sun, 28 Jul 2024 21:40:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：使用 Three.js 制作的足球传球可视化工具</title>
-      <link>https://statsbomb-3d-viz.vercel.app/</link>
-      <description><![CDATA[过去一周我一直在研究足球传球可视化工具。它使用来自 StatsBomb 的开放数据来分析和可视化传球模式，让用户可以按传球距离、球队和球员探索和过滤数据。
-
-评论网址：https://news.ycombinator.com/item?id=41095839
-积分：142
-评论数：26]]></description>
-      <guid>https://statsbomb-3d-viz.vercel.app/</guid>
-      <pubDate>Sun, 28 Jul 2024 20:45:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>不要盲目地偏爱“emplace_back”而不是“push_back”</title>
-      <link>https://quuxplusone.github.io/blog/2021/03/03/push-back-emplace-back/</link>
-      <description><![CDATA[文章网址：https://quuxplusone.github.io/blog/2021/03/03/push-back-emplace-back/
-评论网址：https://news.ycombinator.com/item?id=41095814
-积分：126
-评论数：87]]></description>
-      <guid>https://quuxplusone.github.io/blog/2021/03/03/push-back-emplace-back/</guid>
-      <pubDate>Sun, 28 Jul 2024 20:42:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 AVX-512 的 tolower()</title>
-      <link>https://dotat.at/@/2024-07-28-tolower-avx512.html</link>
-      <description><![CDATA[文章网址：https://dotat.at/@/2024-07-28-tolower-avx512.html
-评论网址：https://news.ycombinator.com/item?id=41095790
-积分：188
-评论数：85]]></description>
-      <guid>https://dotat.at/@/2024-07-28-tolower-avx512.html</guid>
-      <pubDate>Sun, 28 Jul 2024 20:38:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
