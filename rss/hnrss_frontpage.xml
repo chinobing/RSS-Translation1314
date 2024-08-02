@@ -4,111 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 02 Aug 2024 12:29:05 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2024 15:16:27 GMT</lastBuildDate>
     <item>
-      <title>食用加工红肉会增加患痴呆症的风险</title>
-      <link>https://www.nytimes.com/2024/07/31/well/eat/ultraprocessed-foods-brain-health.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2024/07/31/well/eat/ultraprocessed-foods-brain-health.html
-评论网址：https://news.ycombinator.com/item?id=41138119
-积分：5
-评论数：1]]></description>
-      <guid>https://www.nytimes.com/2024/07/31/well/eat/ultraprocessed-foods-brain-health.html</guid>
-      <pubDate>Fri, 02 Aug 2024 12:00:47 GMT</pubDate>
+      <title>美国为何错过了电池革命？</title>
+      <link>https://www.noahpinion.blog/p/why-did-the-us-miss-the-battery-revolution</link>
+      <description><![CDATA[文章网址：https://www.noahpinion.blog/p/why-did-the-us-miss-the-battery-revolution
+评论网址：https://news.ycombinator.com/item?id=41139235
+积分：7
+评论数：0]]></description>
+      <guid>https://www.noahpinion.blog/p/why-did-the-us-miss-the-battery-revolution</guid>
+      <pubDate>Fri, 02 Aug 2024 14:51:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>埃利奥特称英伟达正处于“泡沫”之中，而人工智能被“过度炒作”</title>
+      <link>https://www.ft.com/content/24a12be1-a973-4efe-ab4f-b981aee0cd0b</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/24a12be1-a973-4efe-ab4f-b981aee0cd0b
+评论网址：https://news.ycombinator.com/item?id=41139216
+积分：24
+评论数：18]]></description>
+      <guid>https://www.ft.com/content/24a12be1-a973-4efe-ab4f-b981aee0cd0b</guid>
+      <pubDate>Fri, 02 Aug 2024 14:48:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>西方设计为何在发展中国家遭遇失败 [视频]</title>
+      <link>https://www.youtube.com/watch?v=CGRtyxEpoGg</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=CGRtyxEpoGg
+评论网址：https://news.ycombinator.com/item?id=41138819
+积分：32
+评论数：14]]></description>
+      <guid>https://www.youtube.com/watch?v=CGRtyxEpoGg</guid>
+      <pubDate>Fri, 02 Aug 2024 13:53:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hackberry-Pi_Zero – 使用 Raspberry Pi Zero 2W 的手持式 Linux 终端</title>
+      <link>https://github.com/ZitaoTech/Hackberry-Pi_Zero</link>
+      <description><![CDATA[文章网址：https://github.com/ZitaoTech/Hackberry-Pi_Zero
+评论网址：https://news.ycombinator.com/item?id=41138701
+积分：121
+评论数：24]]></description>
+      <guid>https://github.com/ZitaoTech/Hackberry-Pi_Zero</guid>
+      <pubDate>Fri, 02 Aug 2024 13:34:37 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：Ell – 用 Bash 编写的 LLM 命令行界面</title>
       <link>https://github.com/simonmysun/ell</link>
-      <description><![CDATA[嗨，HN！我创建了一个名为“ell”的 CLI 工具，它允许您直接从终端与 LLM 交互。ell 的设计秉承了 Unix 哲学，简单、模块化且可扩展。您可以轻松地通过管道传输输入和输出以与其他工具集成。它的模板和基于钩子的插件使您能够自定义和扩展其功能以满足任何需求。查看 README 以获取使用说明和示例。我开发此工具是因为现有解决方案通常感觉太重，具有许多依赖项，或者它们不适合管道和自定义。相反，我几乎用纯 Bash 编写，依赖项最少。此外，我发现缺少可以读取过去终端输出作为上下文的工具。想象一下，在您的终端中遇到问题，并且能够使用简单的命令直接向 LLM 寻求帮助 - 现在可以使用 ell 实现这一点（参见演示视频）。已知限制：- 为了保持简单性和效率，jq 用于 JSON 解析。
-- 无法避免 curl 发送 HTTPS 请求。如果 `/dev/tcp/` 中有 SSL / TLS 支持就好了！
-- Perl 用于处理终端转义序列，因为 Bash 中的正则表达式不支持四处查找。
-- 由于需要流式输出，Markdown 语法高亮并不完美。它依赖于简单的状态机而不是完整的解析器，这可能会产生错误的结果。
-- Github Issues 中列出了其他已知问题。请帮助添加更多！我欢迎任何批评和建议，无论是关于想法还是代码！
+      <description><![CDATA[嗨，HN！我创建了一个名为“ell”的 CLI 工具，它允许您直接从终端与 LLM 交互。ell 的设计秉承了 Unix 哲学，简单、模块化且可扩展。您可以轻松地通过管道传输输入和输出以与其他工具集成。它的模板和基于钩子的插件使您能够自定义和扩展其功能以满足任何需求。查看 README 以获取使用说明和示例。我开发此工具是因为现有解决方案通常感觉太重，具有许多依赖项，或者它们对管道和自定义不友好。相反，我几乎用纯 Bash 编写，依赖项最少。此外，我发现缺少可以将过去的终端输出读取为上下文的工具。想象一下，您在终端中遇到问题，并且能够使用简单的命令直接向 LLM 寻求帮助 — 现在使用 ell 即可实现这一点（参见演示视频）。已知限制：- 为了保持简单性和效率，jq 用于 JSON 解析。- 无法避免 curl 发送 HTTPS 请求。如果 `/dev/tcp/` 中有 SSL / TLS 支持就好了！- Perl 用于处理终端转义序列，因为 Bash 中的正则表达式不支持四处查找。- 由于需要流式输出，Markdown 语法突出显示并不完美。它依赖于简单的状态机而不是完整的解析器，这可能会产生错误的结果。- Github 问题中列出了其他已知问题。请帮忙添加更多！我欢迎任何批评和建议，无论是关于想法还是代码！
 
 评论网址：https://news.ycombinator.com/item?id=41138085
-积分：14
-评论数：1]]></description>
+积分：68
+评论数：24]]></description>
       <guid>https://github.com/simonmysun/ell</guid>
       <pubDate>Fri, 02 Aug 2024 11:55:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>夸克星</title>
+      <link>https://johncarlosbaez.wordpress.com/2024/08/02/quark-stars/</link>
+      <description><![CDATA[文章网址：https://johncarlosbaez.wordpress.com/2024/08/02/quark-stars/
+评论网址：https://news.ycombinator.com/item?id=41137899
+积分：44
+评论数：12]]></description>
+      <guid>https://johncarlosbaez.wordpress.com/2024/08/02/quark-stars/</guid>
+      <pubDate>Fri, 02 Aug 2024 11:25:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用光对 CH32v003 进行编程</title>
+      <link>https://mitxela.com/projects/lightcomm</link>
+      <description><![CDATA[文章网址：https://mitxela.com/projects/lightcomm
+评论网址：https://news.ycombinator.com/item?id=41137768
+积分：37
+评论数：4]]></description>
+      <guid>https://mitxela.com/projects/lightcomm</guid>
+      <pubDate>Fri, 02 Aug 2024 11:00:42 GMT</pubDate>
     </item>
     <item>
       <title>重写溃疡科学的病理学家罗宾·沃伦去世，享年 87 岁</title>
       <link>https://www.washingtonpost.com/obituaries/2024/07/31/robin-warren-nobel-ulcers-dies/</link>
       <description><![CDATA[文章网址：https://www.washingtonpost.com/obituaries/2024/07/31/robin-warren-nobel-ulcers-dies/
 评论网址：https://news.ycombinator.com/item?id=41137694
-积分：28
-评论数：4]]></description>
+积分：70
+评论数：23]]></description>
       <guid>https://www.washingtonpost.com/obituaries/2024/07/31/robin-warren-nobel-ulcers-dies/</guid>
       <pubDate>Fri, 02 Aug 2024 10:47:58 GMT</pubDate>
     </item>
     <item>
-      <title>JVM/Java：空限制类型和可空类型</title>
+      <title>可在任何地方运行的 SQLite 矢量搜索扩展</title>
+      <link>https://github.com/asg017/sqlite-vec</link>
+      <description><![CDATA[文章网址：https://github.com/asg017/sqlite-vec
+评论网址：https://news.ycombinator.com/item?id=41137658
+积分：11
+评论数：0]]></description>
+      <guid>https://github.com/asg017/sqlite-vec</guid>
+      <pubDate>Fri, 02 Aug 2024 10:41:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>限制为空的类型和可空类型</title>
       <link>https://bugs.openjdk.org/browse/JDK-8303099</link>
       <description><![CDATA[文章网址：https://bugs.openjdk.org/browse/JDK-8303099
 评论网址：https://news.ycombinator.com/item?id=41136974
-积分：102
-评论数：93]]></description>
+积分：145
+评论数：156]]></description>
       <guid>https://bugs.openjdk.org/browse/JDK-8303099</guid>
       <pubDate>Fri, 02 Aug 2024 08:02:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>机器学习中伪科学的复活</title>
-      <link>https://www.cell.com/patterns/fulltext/S2666-3899(24)00160-0#secsectitle0025</link>
-      <description><![CDATA[文章网址：https://www.cell.com/patterns/fulltext/S2666-3899(24)00160-0#secsectitle0025
-评论网址：https://news.ycombinator.com/item?id=41136871
-积分：38
-评论数：33]]></description>
-      <guid>https://www.cell.com/patterns/fulltext/S2666-3899(24)00160-0#secsectitle0025</guid>
-      <pubDate>Fri, 02 Aug 2024 07:37:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kapa.ai (YC S23) 正在招聘应用 AI 研究工程师（欧洲时区）</title>
-      <link>https://www.ycombinator.com/companies/kapa-ai/jobs/hrFWJfn-research-engineer-applied-ai</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/kapa-ai/jobs/hrFWJfn-research-engineer-applied-ai
-评论网址：https://news.ycombinator.com/item?id=41136719
-积分：0
-评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/kapa-ai/jobs/hrFWJfn-research-engineer-applied-ai</guid>
-      <pubDate>Fri, 02 Aug 2024 07:01:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Peerfetch – 基于 WebRTC 的点对点 HTTP</title>
-      <link>https://github.com/ambianic/peerfetch</link>
-      <description><![CDATA[文章网址：https://github.com/ambianic/peerfetch
-评论网址：https://news.ycombinator.com/item?id=41135671
-积分：143
-评论数：49]]></description>
-      <guid>https://github.com/ambianic/peerfetch</guid>
-      <pubDate>Fri, 02 Aug 2024 02:44:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>YC 与谷歌达成协议，为 AI 初创公司提供专用计算集群</title>
-      <link>https://techcrunch.com/2024/08/01/google-cloud-now-has-a-dedicated-cluster-of-nvidia-gpus-for-y-combinator-startups/</link>
-      <description><![CDATA[文章网址：https://techcrunch.com/2024/08/01/google-cloud-now-has-a-dedicated-cluster-of-nvidia-gpus-for-y-combinator-startups/
-评论网址：https://news.ycombinator.com/item?id=41135363
-积分：159
-评论数：66]]></description>
-      <guid>https://techcrunch.com/2024/08/01/google-cloud-now-has-a-dedicated-cluster-of-nvidia-gpus-for-y-combinator-startups/</guid>
-      <pubDate>Fri, 02 Aug 2024 01:33:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Oscar，一个开源贡献者代理架构</title>
-      <link>https://go.googlesource.com/oscar/+/refs/heads/master/README.md</link>
-      <description><![CDATA[文章网址：https://go.googlesource.com/oscar/+/refs/heads/master/README.md
-评论网址：https://news.ycombinator.com/item?id=41135240
-积分：85
-评论数：11]]></description>
-      <guid>https://go.googlesource.com/oscar/+/refs/heads/master/README.md</guid>
-      <pubDate>Fri, 02 Aug 2024 01:09:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用极简 CSS 框架 Neat 快速构建高效网站</title>
-      <link>https://neat.joeldare.com/</link>
-      <description><![CDATA[文章网址：https://neat.joeldare.com/
-评论网址：https://news.ycombinator.com/item?id=41134536
-积分：45
-评论数：12]]></description>
-      <guid>https://neat.joeldare.com/</guid>
-      <pubDate>Thu, 01 Aug 2024 23:00:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
