@@ -4,14 +4,49 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 02 Aug 2024 09:17:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2024 12:29:05 GMT</lastBuildDate>
+    <item>
+      <title>食用加工红肉会增加患痴呆症的风险</title>
+      <link>https://www.nytimes.com/2024/07/31/well/eat/ultraprocessed-foods-brain-health.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2024/07/31/well/eat/ultraprocessed-foods-brain-health.html
+评论网址：https://news.ycombinator.com/item?id=41138119
+积分：5
+评论数：1]]></description>
+      <guid>https://www.nytimes.com/2024/07/31/well/eat/ultraprocessed-foods-brain-health.html</guid>
+      <pubDate>Fri, 02 Aug 2024 12:00:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Ell – 用 Bash 编写的 LLM 命令行界面</title>
+      <link>https://github.com/simonmysun/ell</link>
+      <description><![CDATA[嗨，HN！我创建了一个名为“ell”的 CLI 工具，它允许您直接从终端与 LLM 交互。ell 的设计秉承了 Unix 哲学，简单、模块化且可扩展。您可以轻松地通过管道传输输入和输出以与其他工具集成。它的模板和基于钩子的插件使您能够自定义和扩展其功能以满足任何需求。查看 README 以获取使用说明和示例。我开发此工具是因为现有解决方案通常感觉太重，具有许多依赖项，或者它们不适合管道和自定义。相反，我几乎用纯 Bash 编写，依赖项最少。此外，我发现缺少可以读取过去终端输出作为上下文的工具。想象一下，在您的终端中遇到问题，并且能够使用简单的命令直接向 LLM 寻求帮助 - 现在可以使用 ell 实现这一点（参见演示视频）。已知限制：- 为了保持简单性和效率，jq 用于 JSON 解析。
+- 无法避免 curl 发送 HTTPS 请求。如果 `/dev/tcp/` 中有 SSL / TLS 支持就好了！
+- Perl 用于处理终端转义序列，因为 Bash 中的正则表达式不支持四处查找。
+- 由于需要流式输出，Markdown 语法高亮并不完美。它依赖于简单的状态机而不是完整的解析器，这可能会产生错误的结果。
+- Github Issues 中列出了其他已知问题。请帮助添加更多！我欢迎任何批评和建议，无论是关于想法还是代码！
+
+评论网址：https://news.ycombinator.com/item?id=41138085
+积分：14
+评论数：1]]></description>
+      <guid>https://github.com/simonmysun/ell</guid>
+      <pubDate>Fri, 02 Aug 2024 11:55:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>重写溃疡科学的病理学家罗宾·沃伦去世，享年 87 岁</title>
+      <link>https://www.washingtonpost.com/obituaries/2024/07/31/robin-warren-nobel-ulcers-dies/</link>
+      <description><![CDATA[文章网址：https://www.washingtonpost.com/obituaries/2024/07/31/robin-warren-nobel-ulcers-dies/
+评论网址：https://news.ycombinator.com/item?id=41137694
+积分：28
+评论数：4]]></description>
+      <guid>https://www.washingtonpost.com/obituaries/2024/07/31/robin-warren-nobel-ulcers-dies/</guid>
+      <pubDate>Fri, 02 Aug 2024 10:47:58 GMT</pubDate>
+    </item>
     <item>
       <title>JVM/Java：空限制类型和可空类型</title>
       <link>https://bugs.openjdk.org/browse/JDK-8303099</link>
       <description><![CDATA[文章网址：https://bugs.openjdk.org/browse/JDK-8303099
 评论网址：https://news.ycombinator.com/item?id=41136974
-积分：6
-评论数：1]]></description>
+积分：102
+评论数：93]]></description>
       <guid>https://bugs.openjdk.org/browse/JDK-8303099</guid>
       <pubDate>Fri, 02 Aug 2024 08:02:52 GMT</pubDate>
     </item>
@@ -20,20 +55,10 @@
       <link>https://www.cell.com/patterns/fulltext/S2666-3899(24)00160-0#secsectitle0025</link>
       <description><![CDATA[文章网址：https://www.cell.com/patterns/fulltext/S2666-3899(24)00160-0#secsectitle0025
 评论网址：https://news.ycombinator.com/item?id=41136871
-积分：20
-评论数：3]]></description>
+积分：38
+评论数：33]]></description>
       <guid>https://www.cell.com/patterns/fulltext/S2666-3899(24)00160-0#secsectitle0025</guid>
       <pubDate>Fri, 02 Aug 2024 07:37:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT 在亚美尼亚内容工厂中引用《纽约时报》文章的抄袭版本</title>
-      <link>https://futurism.com/chatgpt-plagiarized-nyt-articles</link>
-      <description><![CDATA[文章网址：https://futurism.com/chatgpt-plagiarized-nyt-articles
-评论网址：https://news.ycombinator.com/item?id=41136745
-积分：11
-评论数：1]]></description>
-      <guid>https://futurism.com/chatgpt-plagiarized-nyt-articles</guid>
-      <pubDate>Fri, 02 Aug 2024 07:05:33 GMT</pubDate>
     </item>
     <item>
       <title>Kapa.ai (YC S23) 正在招聘应用 AI 研究工程师（欧洲时区）</title>
@@ -50,8 +75,8 @@
       <link>https://github.com/ambianic/peerfetch</link>
       <description><![CDATA[文章网址：https://github.com/ambianic/peerfetch
 评论网址：https://news.ycombinator.com/item?id=41135671
-积分：93
-评论数：34]]></description>
+积分：143
+评论数：49]]></description>
       <guid>https://github.com/ambianic/peerfetch</guid>
       <pubDate>Fri, 02 Aug 2024 02:44:44 GMT</pubDate>
     </item>
@@ -60,8 +85,8 @@
       <link>https://techcrunch.com/2024/08/01/google-cloud-now-has-a-dedicated-cluster-of-nvidia-gpus-for-y-combinator-startups/</link>
       <description><![CDATA[文章网址：https://techcrunch.com/2024/08/01/google-cloud-now-has-a-dedicated-cluster-of-nvidia-gpus-for-y-combinator-startups/
 评论网址：https://news.ycombinator.com/item?id=41135363
-积分：138
-评论数：60]]></description>
+积分：159
+评论数：66]]></description>
       <guid>https://techcrunch.com/2024/08/01/google-cloud-now-has-a-dedicated-cluster-of-nvidia-gpus-for-y-combinator-startups/</guid>
       <pubDate>Fri, 02 Aug 2024 01:33:06 GMT</pubDate>
     </item>
@@ -70,8 +95,8 @@
       <link>https://go.googlesource.com/oscar/+/refs/heads/master/README.md</link>
       <description><![CDATA[文章网址：https://go.googlesource.com/oscar/+/refs/heads/master/README.md
 评论网址：https://news.ycombinator.com/item?id=41135240
-积分：65
-评论数：9]]></description>
+积分：85
+评论数：11]]></description>
       <guid>https://go.googlesource.com/oscar/+/refs/heads/master/README.md</guid>
       <pubDate>Fri, 02 Aug 2024 01:09:37 GMT</pubDate>
     </item>
@@ -80,30 +105,10 @@
       <link>https://neat.joeldare.com/</link>
       <description><![CDATA[文章网址：https://neat.joeldare.com/
 评论网址：https://news.ycombinator.com/item?id=41134536
-积分：28
-评论数：4]]></description>
+积分：45
+评论数：12]]></description>
       <guid>https://neat.joeldare.com/</guid>
       <pubDate>Thu, 01 Aug 2024 23:00:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>xdg-override：在 Linux 上临时更改默认应用程序</title>
-      <link>https://github.com/koiuo/xdg-override</link>
-      <description><![CDATA[文章网址：https://github.com/koiuo/xdg-override
-评论网址：https://news.ycombinator.com/item?id=41133876
-积分：77
-评论数：11]]></description>
-      <guid>https://github.com/koiuo/xdg-override</guid>
-      <pubDate>Thu, 01 Aug 2024 21:32:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Scenefx：wlroots 场景 API 的直接替代品</title>
-      <link>https://github.com/wlrfx/scenefx</link>
-      <description><![CDATA[文章网址：https://github.com/wlrfx/scenefx
-评论网址：https://news.ycombinator.com/item?id=41133544
-积分：21
-评论数：1]]></description>
-      <guid>https://github.com/wlrfx/scenefx</guid>
-      <pubDate>Thu, 01 Aug 2024 20:58:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
