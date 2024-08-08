@@ -4,14 +4,85 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 08 Aug 2024 15:17:12 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2024 18:21:40 GMT</lastBuildDate>
+    <item>
+      <title>LibreCUDA – 无需专有 CUDA 运行时即可在 Nvidia GPU 上启动 CUDA 代码</title>
+      <link>https://github.com/mikex86/LibreCuda</link>
+      <description><![CDATA[文章网址：https://github.com/mikex86/LibreCuda
+评论网址：https://news.ycombinator.com/item?id=41194024
+积分：14
+评论数：2]]></description>
+      <guid>https://github.com/mikex86/LibreCuda</guid>
+      <pubDate>Thu, 08 Aug 2024 17:24:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>雇主利用返工政策迫使员工辞职</title>
+      <link>https://thehill.com/opinion/technology/4800828-office-mandates-cause-attrition/</link>
+      <description><![CDATA[文章网址：https://thehill.com/opinion/technology/4800828-office-mandates-cause-attrition/
+评论网址：https://news.ycombinator.com/item?id=41193968
+积分：73
+评论数：25]]></description>
+      <guid>https://thehill.com/opinion/technology/4800828-office-mandates-cause-attrition/</guid>
+      <pubDate>Thu, 08 Aug 2024 17:21:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare 推出自动 SSL/TLS</title>
+      <link>https://blog.cloudflare.com/introducing-automatic-ssl-tls-securing-and-simplifying-origin-connectivity</link>
+      <description><![CDATA[文章网址：https://blog.cloudflare.com/introducing-automatic-ssl-tls-securing-and-simplifying-origin-connectivity
+评论网址：https://news.ycombinator.com/item?id=41193512
+积分：24
+评论数：4]]></description>
+      <guid>https://blog.cloudflare.com/introducing-automatic-ssl-tls-securing-and-simplifying-origin-connectivity</guid>
+      <pubDate>Thu, 08 Aug 2024 16:44:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：RoundtableJS – 开源程序化调查库</title>
+      <link>https://github.com/roundtableAI/roundtable-js</link>
+      <description><![CDATA[嗨，HN，我们是 Roundtable 的 Matt 和 Mayank。我们即将推出 RoundtableJS，这是一个开源库 (https://github.com/roundtableAI/roundtable-js)，用于大规模编程研究调查。学术和市场研究人员想要一个 DIY 平台来进行调查研究。大多数现有工具都是无代码的，这些研究人员想要能够处理高级分支逻辑和自定义的编程软件。我们之所以知道这一点，是因为我们花了五年时间使用开源调查软件进行学术工作。RoundtableJS 的一个关键见解是利用 JavaScript 的 async/await 功能来管理调查逻辑。在其他库中，调查逻辑是通过提交页面时触发的回调来确定的（即，如果用户对 Q2 回答“是”，则显示第 3 页），这很快就会成为管理和调试的噩梦。我们的库允许开发人员在异步函数中构建时间线，这意味着逻辑从上到下直观地流动。但是，这种完全可编程的逻辑对于非开发人员来说是无法访问的，因此我们的云产品（surveys.roundtable.ai）允许用户通过将库存储到 LLM 的上下文中来使用自然语言编写调查问卷（充当特定于库的副驾驶，演示链接在这里：https://www.loom.com/share/7e7f30aa96244542a62d6c6ed125f2d5?...）。我们认为开源将使我们在将 LLM 集成到我们的平台方面具有优势。我们在设计 RoundtableJS 时就考虑到了 LLM 的使用，即使其完全可定制且通用。替代方案——构建一个焦点更受限制的库——对于无人协助的程序员来说会更直观，但人工智能的帮助使得定制调查的任何部分变得非常容易。我们已经认为这种方法比无代码替代方案更容易、更快捷。我们去年离开了学术界，从那时起就一直在调查领域构建产品。我们的第一个产品是一个人工智能驱动的调查模拟器（https://news.ycombinator.com/item?id=36865625）。人们喜欢玩它，但它很难盈利（正如许多 HN 评论所预测的那样）。我们放弃了这一做法，与客户进行了交流，发现数据质量是市场研究中的一个大问题（例如 https://www.kantar.com/company-news/kantar-partners-with-rea...）。我们发布了一个 API，用于分析开放式响应中是否存在低质量和欺诈性输入行为。这可以帮助公司节省清理数据的时间，但这是一个有限的市场。我们计划通过我们的云产品实现盈利，该产品目前提供即时链接部署、交互式代码编辑器和欺诈检测套件。我们计划在分析、设计和生产力领域引入更多功能。调查无处不在，但它们往往平淡无奇、千篇一律。通过允许人们完全自定义以适应当今的分销渠道，我们希望能够轻松设计出更好、更具吸引力的调查问卷。我们刚刚推出。我们可以在哪些方面改进？
+
+评论网址：https://news.ycombinator.com/item?id=41193112
+积分：14
+评论数：1]]></description>
+      <guid>https://github.com/roundtableAI/roundtable-js</guid>
+      <pubDate>Thu, 08 Aug 2024 16:13:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们如何在不到 12 个月的时间内迁移到 K8s</title>
+      <link>https://www.figma.com/blog/migrating-onto-kubernetes/</link>
+      <description><![CDATA[文章网址：https://www.figma.com/blog/migrating-onto-kubernetes/
+评论网址：https://news.ycombinator.com/item?id=41193045
+积分：28
+评论数：13]]></description>
+      <guid>https://www.figma.com/blog/migrating-onto-kubernetes/</guid>
+      <pubDate>Thu, 08 Aug 2024 16:07:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Duperemove – 文件系统重复数据删除工具</title>
+      <link>https://github.com/markfasheh/duperemove</link>
+      <description><![CDATA[文章网址：https://github.com/markfasheh/duperemove
+评论网址：https://news.ycombinator.com/item?id=41192698
+积分：9
+评论数：0]]></description>
+      <guid>https://github.com/markfasheh/duperemove</guid>
+      <pubDate>Thu, 08 Aug 2024 15:38:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>设计第一款 Fitbit：内幕故事</title>
+      <link>https://spectrum.ieee.org/fitbit</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/fitbit
+评论网址：https://news.ycombinator.com/item?id=41192643
+积分：6
+评论数：0]]></description>
+      <guid>https://spectrum.ieee.org/fitbit</guid>
+      <pubDate>Thu, 08 Aug 2024 15:34:28 GMT</pubDate>
+    </item>
     <item>
       <title>Qwen2-数学</title>
       <link>https://qwenlm.github.io/blog/qwen2-math/</link>
       <description><![CDATA[文章网址：https://qwenlm.github.io/blog/qwen2-math/
 评论网址：https://news.ycombinator.com/item?id=41192247
-积分：3
-评论数：0]]></description>
+积分：96
+评论数：21]]></description>
       <guid>https://qwenlm.github.io/blog/qwen2-math/</guid>
       <pubDate>Thu, 08 Aug 2024 15:00:18 GMT</pubDate>
     </item>
@@ -26,84 +97,14 @@
       <pubDate>Thu, 08 Aug 2024 14:49:27 GMT</pubDate>
     </item>
     <item>
-      <title>Firefox 侧边栏和垂直标签：在 Nightly Firefox Labs 131 中试用</title>
+      <title>Firefox 侧边栏和垂直标签：试用一下</title>
       <link>https://blog.nightly.mozilla.org/2024/08/07/firefox-sidebar-and-vertical-tabs-try-them-out-in-nightly-firefox-labs-131/</link>
       <description><![CDATA[文章网址：https://blog.nightly.mozilla.org/2024/08/07/firefox-sidebar-and-vertical-tabs-try-them-out-in-nightly-firefox-labs-131/
 评论网址：https://news.ycombinator.com/item?id=41192118
-积分：38
-评论数：15]]></description>
+积分：273
+评论数：180]]></description>
       <guid>https://blog.nightly.mozilla.org/2024/08/07/firefox-sidebar-and-vertical-tabs-try-them-out-in-nightly-firefox-labs-131/</guid>
       <pubDate>Thu, 08 Aug 2024 14:46:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>杰普森：Jetcd 0.8.2</title>
-      <link>https://jepsen.io/analyses/jetcd-0.8.2</link>
-      <description><![CDATA[文章网址：https://jepsen.io/analyses/jetcd-0.8.2
-评论网址：https://news.ycombinator.com/item?id=41191720
-积分：36
-评论数：2]]></description>
-      <guid>https://jepsen.io/analyses/jetcd-0.8.2</guid>
-      <pubDate>Thu, 08 Aug 2024 14:09:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>RP2350 简介</title>
-      <link>https://dmitry.gr/?r=06.%20Thoughts&proj=11.%20RP2350</link>
-      <description><![CDATA[文章网址：https://dmitry.gr/?r=06.%20Thoughts&amp;proj=11.%20RP2350
-评论网址：https://news.ycombinator.com/item?id=41191069
-积分：40
-评论数：18]]></description>
-      <guid>https://dmitry.gr/?r=06.%20Thoughts&proj=11.%20RP2350</guid>
-      <pubDate>Thu, 08 Aug 2024 13:03:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们如何发现并修复 eBPF Linux 内核漏洞</title>
-      <link>https://bughunters.google.com/blog/6303226026131456/a-deep-dive-into-cve-2023-2163-how-we-found-and-fixed-an-ebpf-linux-kernel-vulnerability</link>
-      <description><![CDATA[文章网址：https://bughunters.google.com/blog/6303226026131456/a-deep-dive-into-cve-2023-2163-how-we-found-and-fixed-an-ebpf-linux-kernel-vulnerability
-评论网址：https://news.ycombinator.com/item?id=41189971
-积分：132
-评论数：16]]></description>
-      <guid>https://bughunters.google.com/blog/6303226026131456/a-deep-dive-into-cve-2023-2163-how-we-found-and-fixed-an-ebpf-linux-kernel-vulnerability</guid>
-      <pubDate>Thu, 08 Aug 2024 10:39:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>越来越多的德国列车不准进入瑞士</title>
-      <link>https://www.bluewin.ch/en/news/switzerland/more-and-more-german-trains-are-not-allowed-to-enter-switzerland-2304207.html</link>
-      <description><![CDATA[文章网址：https://www.bluewin.ch/en/news/switzerland/more-and-more-german-trains-are-not-allowed-to-enter-switzerland-2304207.html
-评论网址：https://news.ycombinator.com/item?id=41189834
-积分：82
-评论数：112]]></description>
-      <guid>https://www.bluewin.ch/en/news/switzerland/more-and-more-german-trains-are-not-allowed-to-enter-switzerland-2304207.html</guid>
-      <pubDate>Thu, 08 Aug 2024 10:10:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Orbit – CSS 径向 UI 编辑器框架</title>
-      <link>https://zumerlab.github.io/orbit-docs/</link>
-      <description><![CDATA[文章网址：https://zumerlab.github.io/orbit-docs/
-评论网址：https://news.ycombinator.com/item?id=41189637
-积分：37
-评论数：13]]></description>
-      <guid>https://zumerlab.github.io/orbit-docs/</guid>
-      <pubDate>Thu, 08 Aug 2024 09:35:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>FlexAttention：PyTorch 的灵活性与 FlashAttention 的性能</title>
-      <link>https://pytorch.org/blog/flexattention/</link>
-      <description><![CDATA[文章网址：https://pytorch.org/blog/flexattention/
-评论网址：https://news.ycombinator.com/item?id=41188966
-积分：132
-评论数：7]]></description>
-      <guid>https://pytorch.org/blog/flexattention/</guid>
-      <pubDate>Thu, 08 Aug 2024 07:24:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>RLHF 只是勉强 RL</title>
-      <link>https://twitter.com/karpathy/status/1821277264996352246</link>
-      <description><![CDATA[文章网址：https://twitter.com/karpathy/status/1821277264996352246
-评论网址：https://news.ycombinator.com/item?id=41188647
-积分：295
-评论数：175]]></description>
-      <guid>https://twitter.com/karpathy/status/1821277264996352246</guid>
-      <pubDate>Thu, 08 Aug 2024 06:22:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
