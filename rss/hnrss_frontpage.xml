@@ -4,34 +4,44 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 11 Aug 2024 09:16:30 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2024 12:28:19 GMT</lastBuildDate>
+    <item>
+      <title>为什么你的数据堆栈不会持久——以及如何构建持久的数据基础设施</title>
+      <link>https://seattledataguy.substack.com/p/why-your-data-stack-wont-last-and</link>
+      <description><![CDATA[文章网址：https://seattledataguy.substack.com/p/why-your-data-stack-wont-last-and
+评论网址：https://news.ycombinator.com/item?id=41215201
+积分：28
+评论数：9]]></description>
+      <guid>https://seattledataguy.substack.com/p/why-your-data-stack-wont-last-and</guid>
+      <pubDate>Sun, 11 Aug 2024 10:24:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>最大冰山脱离束缚后仍继续旋转</title>
+      <link>https://www.nytimes.com/2024/08/07/science/a23a-iceberg-antarctica-spinning.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2024/08/07/science/a23a-iceberg-antarctica-spinning.html
+评论网址：https://news.ycombinator.com/item?id=41215154
+积分：7
+评论数：0]]></description>
+      <guid>https://www.nytimes.com/2024/08/07/science/a23a-iceberg-antarctica-spinning.html</guid>
+      <pubDate>Sun, 11 Aug 2024 10:11:35 GMT</pubDate>
+    </item>
     <item>
       <title>Firefox 浏览器移植到 HaikuOS</title>
       <link>https://discuss.haiku-os.org/t/progress-on-porting-firefox/13493?page=7</link>
       <description><![CDATA[文章网址：https://discuss.haiku-os.org/t/progress-on-porting-firefox/13493?page=7
 评论网址：https://news.ycombinator.com/item?id=41214762
-积分：18
-评论数：1]]></description>
+积分：145
+评论数：41]]></description>
       <guid>https://discuss.haiku-os.org/t/progress-on-porting-firefox/13493?page=7</guid>
       <pubDate>Sun, 11 Aug 2024 08:23:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bevy 游戏引擎诞生四周年</title>
-      <link>https://bevyengine.org/news/bevys-fourth-birthday/</link>
-      <description><![CDATA[文章网址：https://bevyengine.org/news/bevys-fourth-birthday/
-评论网址：https://news.ycombinator.com/item?id=41214369
-积分：20
-评论数：17]]></description>
-      <guid>https://bevyengine.org/news/bevys-fourth-birthday/</guid>
-      <pubDate>Sun, 11 Aug 2024 06:38:27 GMT</pubDate>
     </item>
     <item>
       <title>Wren6991/Hazard3：带调试功能的 3 级 RV32IMACZb* 处理器</title>
       <link>https://github.com/Wren6991/Hazard3</link>
       <description><![CDATA[文章网址：https://github.com/Wren6991/Hazard3
 评论网址：https://news.ycombinator.com/item?id=41214307
-积分：7
-评论数：2]]></description>
+积分：22
+评论数：10]]></description>
       <guid>https://github.com/Wren6991/Hazard3</guid>
       <pubDate>Sun, 11 Aug 2024 06:12:02 GMT</pubDate>
     </item>
@@ -40,18 +50,18 @@
       <link>https://stevecoast.substack.com/p/the-days-are-long-but-the-years-are</link>
       <description><![CDATA[文章网址：https://stevecoast.substack.com/p/the-days-are-long-but-the-years-are
 评论网址：https://news.ycombinator.com/item?id=41214259
-积分：122
-评论数：17]]></description>
+积分：212
+评论数：52]]></description>
       <guid>https://stevecoast.substack.com/p/the-days-are-long-but-the-years-are</guid>
       <pubDate>Sun, 11 Aug 2024 06:00:17 GMT</pubDate>
     </item>
     <item>
-      <title>热尔韦原则，或根据《办公室》所言的办公室 (2009)</title>
+      <title>热尔韦原则，或《办公室》中的办公室 (2009)</title>
       <link>https://www.ribbonfarm.com/2009/10/07/the-gervais-principle-or-the-office-according-to-the-office/</link>
       <description><![CDATA[文章网址：https://www.ribbonfarm.com/2009/10/07/the-gervais-principle-or-the-office-according-to-the-office/
 评论网址：https://news.ycombinator.com/item?id=41214180
-积分：73
-评论数：13]]></description>
+积分：123
+评论数：48]]></description>
       <guid>https://www.ribbonfarm.com/2009/10/07/the-gervais-principle-or-the-office-according-to-the-office/</guid>
       <pubDate>Sun, 11 Aug 2024 05:35:12 GMT</pubDate>
     </item>
@@ -61,8 +71,8 @@
       <description><![CDATA[嗨，我在 Flutter 和 Rust 之间搭建了一座桥梁 (https://github.com/fzyzcjy/flutter_rust_bridge v2.0.0)，它可以自动转换任意类型、&amp;mut、async、traits、results、closure（回调）、生命周期等语法。目标是在两者之间搭建一座桥梁，就像使用一种语言一样无缝地工作。然后，作为示例，我展示了如何利用 Flutter 编写带有 GUI 的 Rust 应用程序。链接中详细讨论了这一点。要使用它，请访问 GitHub repo，或参考文章末尾的详细文件夹和命令。当我几年前首次发布 1.0.0 时，与今天相比，它只包含很少的功能。这是我和贡献者辛勤工作的成果，非常感谢所有贡献者！
 
 评论网址：https://news.ycombinator.com/item?id=41213711
-积分：124
-评论数：30]]></description>
+积分：167
+评论数：42]]></description>
       <guid>https://cjycode.com/posts/rust-ui-flutter/</guid>
       <pubDate>Sun, 11 Aug 2024 02:55:20 GMT</pubDate>
     </item>
@@ -71,38 +81,28 @@
       <link>https://github.com/mojyack/shortwire</link>
       <description><![CDATA[文章网址：https://github.com/mojyack/shortwire
 评论网址：https://news.ycombinator.com/item?id=41213582
-积分：26
-评论数：17]]></description>
+积分：37
+评论数：22]]></description>
       <guid>https://github.com/mojyack/shortwire</guid>
       <pubDate>Sun, 11 Aug 2024 02:18:33 GMT</pubDate>
     </item>
     <item>
-      <title>押注 DSPy 攻读法学硕士体系</title>
+      <title>押注 DSPy 获得法学硕士体系学位</title>
       <link>https://blog.isaacmiller.dev/posts/dspy</link>
       <description><![CDATA[文章网址：https://blog.isaacmiller.dev/posts/dspy
 评论网址：https://news.ycombinator.com/item?id=41213561
-积分：22
-评论数：5]]></description>
+积分：37
+评论数：8]]></description>
       <guid>https://blog.isaacmiller.dev/posts/dspy</guid>
       <pubDate>Sun, 11 Aug 2024 02:11:47 GMT</pubDate>
     </item>
     <item>
-      <title>ANTSDR：Ettus Research 和 Lime Microsystems 的低成本 SDR 替代品</title>
-      <link>https://github.com/MicroPhase/antsdr-fw-patch</link>
-      <description><![CDATA[文章网址：https://github.com/MicroPhase/antsdr-fw-patch
-评论网址：https://news.ycombinator.com/item?id=41213514
-积分：39
-评论数：9]]></description>
-      <guid>https://github.com/MicroPhase/antsdr-fw-patch</guid>
-      <pubDate>Sun, 11 Aug 2024 01:59:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>RFC 9180：混合公钥加密</title>
+      <title>RFC 9180：混合公钥加密（2022）</title>
       <link>https://www.rfc-editor.org/rfc/rfc9180.html</link>
       <description><![CDATA[文章网址：https://www.rfc-editor.org/rfc/rfc9180.html
 评论网址：https://news.ycombinator.com/item?id=41213442
-积分：57
-评论数：13]]></description>
+积分：67
+评论数：19]]></description>
       <guid>https://www.rfc-editor.org/rfc/rfc9180.html</guid>
       <pubDate>Sun, 11 Aug 2024 01:41:18 GMT</pubDate>
     </item>
