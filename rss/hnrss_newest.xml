@@ -4,109 +4,111 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 11 Aug 2024 18:21:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2024 21:16:51 GMT</lastBuildDate>
     <item>
-      <title>美国环保署首部联邦 PFAS 法规对永久限制化学品的影响</title>
-      <link>https://hls.harvard.edu/today/the-impact-of-the-epas-first-ever-federal-pfas-rule-limiting-toxic-forever-chemicals-in-drinking-water/</link>
-      <description><![CDATA[文章网址：https://hls.harvard.edu/today/the-impact-of-the-epas-first-ever-federal-pfas-rule-limiting-toxic-forever-chemicals-in-drinking-water/
-评论网址：https://news.ycombinator.com/item?id=41218238
-积分：1
+      <title>英国警察局长威胁引渡并监禁网上帖子的美国公民</title>
+      <link>https://www.foxnews.com/media/uk-police-commissioner-threatens-extradite-jail-us-citizens-over-social-media-posts-we-come-afte</link>
+      <description><![CDATA[文章网址：https://www.foxnews.com/media/uk-police-commissioner-threatens-extradite-jail-us-citizens-over-social-media-posts-we-come-afte
+评论网址：https://news.ycombinator.com/item?id=41219325
+积分：3
 评论数：0]]></description>
-      <guid>https://hls.harvard.edu/today/the-impact-of-the-epas-first-ever-federal-pfas-rule-limiting-toxic-forever-chemicals-in-drinking-water/</guid>
-      <pubDate>Sun, 11 Aug 2024 18:18:56 GMT</pubDate>
+      <guid>https://www.foxnews.com/media/uk-police-commissioner-threatens-extradite-jail-us-citizens-over-social-media-posts-we-come-afte</guid>
+      <pubDate>Sun, 11 Aug 2024 21:08:35 GMT</pubDate>
     </item>
     <item>
-      <title>Firefly III：一款用于预算及其他用途的开源个人财务管理软件</title>
-      <link>https://github.com/firefly-iii/firefly-iii</link>
-      <description><![CDATA[文章网址：https://github.com/firefly-iii/firefly-iii
-评论网址：https://news.ycombinator.com/item?id=41218206
-积分：1
-评论数：0]]></description>
-      <guid>https://github.com/firefly-iii/firefly-iii</guid>
-      <pubDate>Sun, 11 Aug 2024 18:14:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：最适合编写代码的 AI/LLM 吗？</title>
-      <link>https://news.ycombinator.com/item?id=41218203</link>
-      <description><![CDATA[有人测试过多个代码模型并找出哪个模型能产生最佳结果吗？GPT4o 相当不错，但有时对于非常简单的脚本仍然需要多次尝试。我想知道是否还有更好的替代方案。
-
-评论网址：https://news.ycombinator.com/item?id=41218203
-积分：1
-评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41218203</guid>
-      <pubDate>Sun, 11 Aug 2024 18:14:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>黄金角度</title>
-      <link>https://simple.wikipedia.org/wiki/Golden_angle</link>
-      <description><![CDATA[文章网址：https://simple.wikipedia.org/wiki/Golden_angle
-评论网址：https://news.ycombinator.com/item?id=41218178
-积分：1
-评论数：0]]></description>
-      <guid>https://simple.wikipedia.org/wiki/Golden_angle</guid>
-      <pubDate>Sun, 11 Aug 2024 18:11:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Spring PetClinic：面向开发人员的动手 Spring 框架演示</title>
-      <link>https://github.com/spring-projects/spring-petclinic</link>
-      <description><![CDATA[文章网址：https://github.com/spring-projects/spring-petclinic
-评论网址：https://news.ycombinator.com/item?id=41218166
-积分：1
-评论数：0]]></description>
-      <guid>https://github.com/spring-projects/spring-petclinic</guid>
-      <pubDate>Sun, 11 Aug 2024 18:10:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Multilspy – 用于开发语言服务器客户端的跨平台框架</title>
-      <link>https://github.com/microsoft/multilspy</link>
-      <description><![CDATA[multilspy 是一个跨平台库，旨在简化创建语言服务器客户端的过程，以便从通过语言服务器协议进行通信的各种语言服务器查询和获取各种静态分析的结果。它可以轻松扩展以支持任何具有语言服务器的语言，目前支持 Java、Rust、C# 和 Python。我们的目标是不断增加对更多语言服务器和语言的支持。
-语言服务器是一种工具，它对代码存储库执行各种静态分析，并通过语言服务器协议 (LSP) 提供有用的信息，例如类型导向的代码完成建议、符号定义位置、符号引用等。由于 LSP 与语言无关，因此 multilspy 可以通过通用接口提供不同语言代码的静态分析结果。multilspy 旨在通过处理使用语言服务器的各个步骤来简化使用语言服务器的过程：* 自动处理平台特定服务器二进制文件的下载，以及语言服务器的设置/拆卸* 处理客户端和服务器之间基于 JSON-RPC 的通信* 维护和传递手动调整的服务器和语言特定配置参数* 向用户提供简单的 API，同时执行服务器特定协议步骤的所有步骤以执行查询/请求。multilspy 可以提供的一些分析结果包括：* 查找函数或类的定义（textDocument/definition）* 查找函数的调用者或类的实例（textDocument/references）* 提供基于类型的取消引用完成（textDocument/completion）* 获取以下信息将鼠标悬停在符号上，例如方法签名 (textDocument/hover)* 获取给定文件中定义的所有符号的列表/树，以及符号类型，如类、方法等。(textDocument/documentSymbol)在 AI4Code 场景（如监视器引导解码）中使用 multilspymultilspy 提供了 language-server-protocol 为 VSCode 等 IDE 提供的所有功能。它对于开发可以与大型语言模型 (LLM) 等 AI 系统交互的工具集很有用。一个这样的用例是监视器引导解码，其中 multilspy 用于查找静态分析（如类型导向完成）的结果，以指导使用 LLM 逐个标记地生成代码，确保所有生成的标识符/方法名称在存储库上下文中有效，从而显着提高生成代码的可编译性。 MGD 还演示了如何使用 multilspy 创建监视器，以确保 LLM 生成的代码中的所有函数调用都接收正确数量的参数，并且对象的函数按照协议以正确的顺序调用（例如，在文件对象上“open”之前不要调用“read”）。
-
-评论 URL：https://news.ycombinator.com/item?id=41218165
-积分：1
-评论数：0]]></description>
-      <guid>https://github.com/microsoft/multilspy</guid>
-      <pubDate>Sun, 11 Aug 2024 18:10:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>TK 提醒</title>
-      <link>https://ghost.org/changelog/tk-reminders/</link>
-      <description><![CDATA[文章网址：https://ghost.org/changelog/tk-reminders/
-评论网址：https://news.ycombinator.com/item?id=41218164
-积分：1
-评论数：0]]></description>
-      <guid>https://ghost.org/changelog/tk-reminders/</guid>
-      <pubDate>Sun, 11 Aug 2024 18:10:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 SQLite Cloud 进行嵌入式文档搜索</title>
-      <link>https://blog.sqlitecloud.io/drop-in-docs-search-with-sqlite-cloud</link>
-      <description><![CDATA[文章网址：https://blog.sqlitecloud.io/drop-in-docs-search-with-sqlite-cloud
-评论网址：https://news.ycombinator.com/item?id=41218156
-积分：1
-评论数：0]]></description>
-      <guid>https://blog.sqlitecloud.io/drop-in-docs-search-with-sqlite-cloud</guid>
-      <pubDate>Sun, 11 Aug 2024 18:09:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>微服务：危险的旅程</title>
-      <link>https://www.microbus.io/post/microservices-a-perilous-journey</link>
-      <description><![CDATA[文章网址：https://www.microbus.io/post/microservices-a-perilous-journey
-评论网址：https://news.ycombinator.com/item?id=41218140
+      <title>评估检索的分块策略</title>
+      <link>https://research.trychroma.com/evaluating-chunking</link>
+      <description><![CDATA[文章网址：https://research.trychroma.com/evaluating-chunking
+评论网址：https://news.ycombinator.com/item?id=41219313
 积分：2
 评论数：0]]></description>
-      <guid>https://www.microbus.io/post/microservices-a-perilous-journey</guid>
-      <pubDate>Sun, 11 Aug 2024 18:07:16 GMT</pubDate>
+      <guid>https://research.trychroma.com/evaluating-chunking</guid>
+      <pubDate>Sun, 11 Aug 2024 21:06:02 GMT</pubDate>
     </item>
     <item>
-      <title>AT&T 因不存在卫星电话呼叫的误导性广告受到谴责</title>
-      <link>https://arstechnica.com/tech-policy/2024/08/att-rebuked-over-misleading-ad-for-nonexistent-satellite-phone-calling/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/tech-policy/2024/08/att-rebuked-over-misleading-ad-for-nonexistent-satellite-phone-calling/
-评论网址：https://news.ycombinator.com/item?id=41218101
+      <title>询问 HN：可视化软件架构/概念</title>
+      <link>https://news.ycombinator.com/item?id=41219304</link>
+      <description><![CDATA[所以我的日常工作是在一个有几十个团队、数百名员工的软件项目中工作。除了一些不属于我们流程的分包商之外，几乎每个人都对软件一无所知。所以在每次会议中，我都需要解释一些简单的概念，比如我设计的服务的 API 在整个软件环境中的作用，目前这是通过在 draw.io 上摆弄手脚来完成的。你们中有人可以推荐我一些工具或格式，以温和的家长风格向非技术人员解释软件架构吗？提前谢谢 :)
+
+评论网址：https://news.ycombinator.com/item?id=41219304
+积分：1
+#评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=41219304</guid>
+      <pubDate>Sun, 11 Aug 2024 21:04:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：构建一个基于网络的全尺寸温室气体排放计算器？</title>
+      <link>https://news.ycombinator.com/item?id=41219289</link>
+      <description><![CDATA[我正在为古典音乐领域的气候友好型企业建立一个非营利组织，因为古典音乐领域远远落后于其他文化参与者，但仍然产生大量的二氧化碳当量排放量，因为它仍然严重依赖航空旅行（即交响乐团巡演）。
+当前的项目是根据温室气体协议建立一个温室气体排放计算器，以便从长远来看，为最环保的乐团颁发标签，并可能每年颁发奖项。我希望为他们创造一种激励机制，以促进真正的变革，并反过来激励他们的观众。
+我在学校只学了一年基本的 Java Script，而且只是一名音乐家。所以我可能不是开发这种计算器的人。
+你有什么关于如何接触到合适的、有动力的人的建议吗？如果有机会以志愿者的身份去做呢？或者只是关于如何开始的其他提示？
+
+评论网址：https://news.ycombinator.com/item?id=41219289
 积分：2
 评论数：0]]></description>
-      <guid>https://arstechnica.com/tech-policy/2024/08/att-rebuked-over-misleading-ad-for-nonexistent-satellite-phone-calling/</guid>
-      <pubDate>Sun, 11 Aug 2024 18:02:48 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=41219289</guid>
+      <pubDate>Sun, 11 Aug 2024 21:00:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>数学家们已经展示了迄今为止最有效的解圆方法</title>
+      <link>https://twitter.com/QuantaMagazine/status/1491065395704647683</link>
+      <description><![CDATA[文章网址：https://twitter.com/QuantaMagazine/status/1491065395704647683
+评论网址：https://news.ycombinator.com/item?id=41219287
+积分：1
+评论数：0]]></description>
+      <guid>https://twitter.com/QuantaMagazine/status/1491065395704647683</guid>
+      <pubDate>Sun, 11 Aug 2024 21:00:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Intel Raptor Lake 0x129 CPU 微码对 Linux 的性能影响</title>
+      <link>https://www.phoronix.com/review/intel-raptor-lake-0x129</link>
+      <description><![CDATA[文章网址：https://www.phoronix.com/review/intel-raptor-lake-0x129
+评论网址：https://news.ycombinator.com/item?id=41219284
+积分：4
+评论数：0]]></description>
+      <guid>https://www.phoronix.com/review/intel-raptor-lake-0x129</guid>
+      <pubDate>Sun, 11 Aug 2024 21:00:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>植物的固定寿命及其约束（2019）</title>
+      <link>https://www.encyclopedie-environnement.org/en/life/fixed-life-of-plants-and-its-constraints/</link>
+      <description><![CDATA[文章网址：https://www.encyclopedie-environnement.org/en/life/fixed-life-of-plants-and-its-constraints/
+评论网址：https://news.ycombinator.com/item?id=41219247
+积分：3
+评论数：0]]></description>
+      <guid>https://www.encyclopedie-environnement.org/en/life/fixed-life-of-plants-and-its-constraints/</guid>
+      <pubDate>Sun, 11 Aug 2024 20:53:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能对话中的 Contex Windows</title>
+      <link>https://www.civilsdaily.com/news/context-windows-in-ai-conversations/</link>
+      <description><![CDATA[文章网址：https://www.civilsdaily.com/news/context-windows-in-ai-conversations/
+评论网址：https://news.ycombinator.com/item?id=41219240
+积分：3
+评论数：0]]></description>
+      <guid>https://www.civilsdaily.com/news/context-windows-in-ai-conversations/</guid>
+      <pubDate>Sun, 11 Aug 2024 20:51:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>C++ 应该是 C++</title>
+      <link>https://www.youtube.com/watch?v=qTw0q3WfdNs</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=qTw0q3WfdNs
+评论网址：https://news.ycombinator.com/item?id=41219228
+积分：2
+评论数：0]]></description>
+      <guid>https://www.youtube.com/watch?v=qTw0q3WfdNs</guid>
+      <pubDate>Sun, 11 Aug 2024 20:49:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>老鼠搬家挑战（2017）</title>
+      <link>http://jobjo.github.io//2017/01/15/moving-mice.html</link>
+      <description><![CDATA[文章网址：http://jobjo.github.io//2017/01/15/moving-mice.html
+评论网址：https://news.ycombinator.com/item?id=41219222
+积分：2
+评论数：0]]></description>
+      <guid>http://jobjo.github.io//2017/01/15/moving-mice.html</guid>
+      <pubDate>Sun, 11 Aug 2024 20:47:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
