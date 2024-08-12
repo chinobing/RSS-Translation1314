@@ -4,109 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 12 Aug 2024 12:32:18 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2024 15:18:09 GMT</lastBuildDate>
     <item>
-      <title>显示 HN：Boom – 开放图书馆图书的功能嵌入</title>
-      <link>https://github.com/BobMcDear/boom</link>
-      <description><![CDATA[boom 是一个用于处理开放图书馆 (OL) 图书特征嵌入的工具箱，由三个组件组成：* 预处理实用程序，可从 OL 转储中提取干净信息，包括标题、作者姓名和描述。* 具有相似性搜索功能的图书最小嵌入数据库。* 用于在数据库上执行最近邻居或语义搜索的 Web 应用程序。boom 不是一个可高度配置和超优化的平台，可以利用各种后端并可以扩展到数十亿个数据点，而是一个小型项目，几乎没有依赖项，但仍然可以及时完成工作。例如，无需依赖 Chroma 或 Faiss 等庞大的库，就可以从头开始实现一个基本数据库，并使用普通的 PyTorch 完成最近邻居。因此，boom 可以在大多数设置上轻松运行，同时实现可接受的性能。除了代码库之外，该存储库还附带了超过 200,000 本书籍的预处理 OL 数据以及预构建的数据库，因此用户可以跳过预处理和/或数据库构建阶段。欢迎在评论部分提出问题和反馈。
+      <title>Grimdoomer/XboxImageGrabber</title>
+      <link>https://github.com/grimdoomer/XboxImageGrabber</link>
+      <description><![CDATA[文章网址：https://github.com/grimdoomer/XboxImageGrabber
+评论网址：https://news.ycombinator.com/item?id=41225329
+积分：1
+评论数：0]]></description>
+      <guid>https://github.com/grimdoomer/XboxImageGrabber</guid>
+      <pubDate>Mon, 12 Aug 2024 15:09:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rust 项目 2024 年目标</title>
+      <link>https://blog.rust-lang.org/2024/08/12/Project-goals.html</link>
+      <description><![CDATA[文章网址：https://blog.rust-lang.org/2024/08/12/Project-goals.html
+评论网址：https://news.ycombinator.com/item?id=41225327
+积分：1
+评论数：0]]></description>
+      <guid>https://blog.rust-lang.org/2024/08/12/Project-goals.html</guid>
+      <pubDate>Mon, 12 Aug 2024 15:08:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：如何通过 URL 模式指定浏览器配置文件（窗口）？</title>
+      <link>https://news.ycombinator.com/item?id=41225324</link>
+      <description><![CDATA[这个问题困扰了我很久。我有多个 Chrome 配置文件，每个配置文件都打开一个浏览器窗口。不可避免的是，我点击了不同应用中的链接，它会尝试在错误的浏览器窗口中打开链接。默认窗口似乎是最后使用的窗口。有没有解决方案可以让我在“正确的”浏览器窗口中打开链接？这包括允许我定义 URL 模式并将它们映射到正确的浏览器配置文件（窗口）。
 
-评论网址：https://news.ycombinator.com/item?id=41223631
+评论 URL：https://news.ycombinator.com/item?id=41225324
 积分：1
 评论数：0]]></description>
-      <guid>https://github.com/BobMcDear/boom</guid>
-      <pubDate>Mon, 12 Aug 2024 12:29:20 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=41225324</guid>
+      <pubDate>Mon, 12 Aug 2024 15:08:41 GMT</pubDate>
     </item>
     <item>
-      <title>背包问题</title>
-      <link>https://abuseofnotation.github.io/x-notes/permanent-confusion/00-knapsack/</link>
-      <description><![CDATA[文章网址：https://abuseofnotation.github.io/x-notes/permanent-confusion/00-knapsack/
-评论网址：https://news.ycombinator.com/item?id=41223626
+      <title>马</title>
+      <link>https://en.wikipedia.org/wiki/Ma_(negative_space)</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Ma_(negative_space)
+评论网址：https://news.ycombinator.com/item?id=41225301
 积分：1
 评论数：0]]></description>
-      <guid>https://abuseofnotation.github.io/x-notes/permanent-confusion/00-knapsack/</guid>
-      <pubDate>Mon, 12 Aug 2024 12:28:52 GMT</pubDate>
+      <guid>https://en.wikipedia.org/wiki/Ma_(negative_space)</guid>
+      <pubDate>Mon, 12 Aug 2024 15:07:39 GMT</pubDate>
     </item>
     <item>
-      <title>咖啡引发革命和革命性思想</title>
-      <link>https://www.history.com/news/coffee-houses-revolutions</link>
-      <description><![CDATA[文章网址：https://www.history.com/news/coffee-houses-revolutions
-评论网址：https://news.ycombinator.com/item?id=41223625
+      <title>显示 HN：Vox – 使用静态网站和 OpenAI TTS API 收听文章</title>
+      <link>https://usevox.netlify.app/</link>
+      <description><![CDATA[嗨，HN，我创建了 Vox，这是一个使用 OpenAI 的文本转语音 API 收听文章的静态网站。对于一篇约 2000 字的文章，它将花费您大约 15-25 美分。它使用 IndexedDB 提供您过去转换的所有文章的可搜索历史记录以及音频和成绩单。还有一个选项可以通过 archive.ph 获取文章文本。您还可以将网站作为 PWA 安装（在 iOS 上，单击共享按钮 &gt;“添加到主屏幕”）到您的主屏幕。代码是开源的：https://github.com/prasoon2211/vox不过要提醒一下 - 我并不是一个真正的网络开发者，所以这几乎都是使用 Claude 和 Cursor 开发的。我做这个是因为我喜欢在散步时听播客。问题是，我消费的大多数内容都是长篇文章。iOS 上的 Safari 浏览器确实提供了基本的 TTS，但由于 Apple 的 TTS 质量较差，因此聆听体验并不好。这款应用终于可以让我像收听播客一样使用接近人类质量的 TTS 来收听文章。OpenAI API 是我发现的最易于使用的 TTS 提供商，尽管它可能不是最便宜或质量最好的。我会考虑添加更便宜的提供商。我也尝试在浏览器中通过 WASM 运行 TTS 模型，但音频质量不够好！潜在问题：Vox 使用各种免费的 CORS 代理来绕过 CORS 限制，但缺点是，如果来自同一 IP 的请求太多，这些代理有时会拒绝工作。如果发生这种情况，请随时在本地运行应用程序或在 netlify 上部署 dist 文件夹。我希望解决这个限制并接受建议。
+
+评论网址：https://news.ycombinator.com/item?id=41225295
+积分：1
+评论数：0]]></description>
+      <guid>https://usevox.netlify.app/</guid>
+      <pubDate>Mon, 12 Aug 2024 15:06:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>为何通胀仍令人担忧</title>
+      <link>https://www.wsj.com/economy/consumers/inflation-costs-housing-utilities-purchases-8b6f18d8</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/economy/consumers/inflation-costs-housing-utilities-purchases-8b6f18d8
+评论网址：https://news.ycombinator.com/item?id=41225283
 积分：1
 评论数：1]]></description>
-      <guid>https://www.history.com/news/coffee-houses-revolutions</guid>
-      <pubDate>Mon, 12 Aug 2024 12:28:51 GMT</pubDate>
+      <guid>https://www.wsj.com/economy/consumers/inflation-costs-housing-utilities-purchases-8b6f18d8</guid>
+      <pubDate>Mon, 12 Aug 2024 15:06:18 GMT</pubDate>
     </item>
     <item>
-      <title>马斯克拥抱特朗普，蔑视补贴。但特斯拉仍在游说争取福利</title>
-      <link>https://www.reuters.com/world/us/musk-embraces-trump-scorns-subsidies-tesla-still-lobbies-us-benefits-2024-08-12/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/world/us/musk-embraces-trump-scorns-subsidies-tesla-still-lobbies-us-benefits-2024-08-12/
-评论网址：https://news.ycombinator.com/item?id=41223595
+      <title>使用 Hugo 根据数据构建页面</title>
+      <link>https://gohugo.io/content-management/content-adapters/</link>
+      <description><![CDATA[文章网址：https://gohugo.io/content-management/content-adapters/
+评论网址：https://news.ycombinator.com/item?id=41225262
 积分：1
 评论数：0]]></description>
-      <guid>https://www.reuters.com/world/us/musk-embraces-trump-scorns-subsidies-tesla-still-lobbies-us-benefits-2024-08-12/</guid>
-      <pubDate>Mon, 12 Aug 2024 12:23:05 GMT</pubDate>
+      <guid>https://gohugo.io/content-management/content-adapters/</guid>
+      <pubDate>Mon, 12 Aug 2024 15:04:38 GMT</pubDate>
     </item>
     <item>
-      <title>展示 HN：我为 Python 用户制作了一个 Python Flask SaaS 样板</title>
-      <link>https://www.pyship.co/landing</link>
-      <description><![CDATA[大家好，Hacker News！我是 Zacharie，来自美国的一名高中生，喜欢构建微型软件即服务 (microsaas) 项目。在过去一年构建多个项目的过程中，我意识到这个过程是重复的。为了解决这个问题，我决定去寻找一个 Python Flask 样板，但一无所获。所以我构建了 pyShip。pyShip 不仅为重复任务节省了时间，还为熟悉 Python 的 SaaS/microsaas 初学者创建了一个从未有过的基础。我希望 pyShip 能够帮助许多人并发展社区。我随时欢迎您的反馈。Zach
-
-评论网址：https://news.ycombinator.com/item?id=41223580
-积分：1
-评论数：0]]></description>
-      <guid>https://www.pyship.co/landing</guid>
-      <pubDate>Mon, 12 Aug 2024 12:20:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>他们鼓励我们给房子做隔热处理。现在房子已经不能抵押了</title>
-      <link>https://www.theguardian.com/money/article/2024/aug/12/they-encouraged-us-to-insulate-our-home-now-its-unmortgageable</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/money/article/2024/aug/12/they-encouraged-us-to-insulate-our-home-now-its-unmortgageable
-评论网址：https://news.ycombinator.com/item?id=41223554
-积分：3
-评论数：0]]></description>
-      <guid>https://www.theguardian.com/money/article/2024/aug/12/they-encouraged-us-to-insulate-our-home-now-its-unmortgageable</guid>
-      <pubDate>Mon, 12 Aug 2024 12:16:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>ToolSandbox：LLM 的状态化、对话式、交互式评估基准</title>
-      <link>https://arxiv.org/abs/2408.04682</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2408.04682
-评论网址：https://news.ycombinator.com/item?id=41223540
-积分：2
-评论数：0]]></description>
-      <guid>https://arxiv.org/abs/2408.04682</guid>
-      <pubDate>Mon, 12 Aug 2024 12:14:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：LLMEasyTools – LLM 代理工具（Python 库）</title>
-      <link>https://github.com/zby/LLMEasyTools</link>
-      <description><![CDATA[一年前，我开始研究 Agentic RAG 的想法 [1]。我很快就决定我不喜欢现有的框架，并开始从头开始编写一切。Agentic RAG 尚未准备好 - 但我提取了处理函数调用的代码并发布了它。它是一个小型库，用于从函数签名生成模式并使用 LLM 构造的参数调用这些函数。其中的代码不多 - 但当您尝试涵盖所有可能的情况时，它并不像看起来那么简单。我认为它现在已经经过了很好的测试并且很有用。1 - https://zzbbyy.substack.com/p/ai-applications-for-question-a...
-
-评论 URL：https://news.ycombinator.com/item?id=41223539
-积分：1
-# 评论： 0]]></description>
-      <guid>https://github.com/zby/LLMEasyTools</guid>
-      <pubDate>Mon, 12 Aug 2024 12:14:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>车间自制木工夹具</title>
-      <link>https://www.thesprucecrafts.com/shop-built-woodworking-jigs-3536886</link>
-      <description><![CDATA[文章网址：https://www.thesprucecrafts.c​​om/shop-built-woodworking-jigs-3536886
-评论网址：https://news.ycombinator.com/item?id=41223535
-积分：1
-评论数：0]]></description>
-      <guid>https://www.thesprucecrafts.com/shop-built-woodworking-jigs-3536886</guid>
-      <pubDate>Mon, 12 Aug 2024 12:12:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能想要计算你的卡路里</title>
-      <link>https://www.wsj.com/tech/ai/ai-count-calories-weight-loss-6acc7019</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/tech/ai/ai-count-calories-weight-loss-6acc7019
-评论网址：https://news.ycombinator.com/item?id=41223531
-积分：1
+      <title>伊朗成为对美国大选最具侵略性的外国威胁</title>
+      <link>https://www.wsj.com/politics/national-security/iran-emerges-as-the-most-aggressive-foreign-threat-to-u-s-election-b61161ad</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/politics/national-security/iran-emerges-as-the-most-aggressive-foreign-threat-to-u-s-election-b61161ad
+评论网址：https://news.ycombinator.com/item?id=41225238
+积分：4
 评论数：1]]></description>
-      <guid>https://www.wsj.com/tech/ai/ai-count-calories-weight-loss-6acc7019</guid>
-      <pubDate>Mon, 12 Aug 2024 12:11:53 GMT</pubDate>
+      <guid>https://www.wsj.com/politics/national-security/iran-emerges-as-the-most-aggressive-foreign-threat-to-u-s-election-b61161ad</guid>
+      <pubDate>Mon, 12 Aug 2024 15:03:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>气候紧急宣言</title>
+      <link>https://m.facebook.com/login.php?next=https%3A%2F%2Fm.facebook.com%2Fgroups%2Fclimateemergencydeclaration%2F&refsrc=deprecated&_rdr</link>
+      <description><![CDATA[文章网址：https://m.facebook.com/login.php?next=https%3A%2F%2Fm.facebook.com%2Fgroups%2Fclimateemergencydeclaration%2F&amp;refsrc=deprecated&amp;_rdr
+评论网址：https://news.ycombinator.com/item?id=41225237
+积分：1
+评论数：0]]></description>
+      <guid>https://m.facebook.com/login.php?next=https%3A%2F%2Fm.facebook.com%2Fgroups%2Fclimateemergencydeclaration%2F&refsrc=deprecated&_rdr</guid>
+      <pubDate>Mon, 12 Aug 2024 15:03:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jolt Physics 5.1.0 带来软体并改进角色控制器</title>
+      <link>https://github.com/jrouwe/JoltPhysics/releases/tag/v5.1.0</link>
+      <description><![CDATA[文章网址：https://github.com/jrouwe/JoltPhysics/releases/tag/v5.1.0
+评论网址：https://news.ycombinator.com/item?id=41225234
+积分：1
+评论数：0]]></description>
+      <guid>https://github.com/jrouwe/JoltPhysics/releases/tag/v5.1.0</guid>
+      <pubDate>Mon, 12 Aug 2024 15:02:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
