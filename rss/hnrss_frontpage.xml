@@ -4,108 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 12 Aug 2024 15:18:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2024 18:21:58 GMT</lastBuildDate>
     <item>
-      <title>伊朗成为对美国大选最具侵略性的外国威胁</title>
-      <link>https://www.wsj.com/politics/national-security/iran-emerges-as-the-most-aggressive-foreign-threat-to-u-s-election-b61161ad</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/politics/national-security/iran-emerges-as-the-most-aggressive-foreign-threat-to-u-s-election-b61161ad
-评论网址：https://news.ycombinator.com/item?id=41225238
-积分：8
-评论数：1]]></description>
-      <guid>https://www.wsj.com/politics/national-security/iran-emerges-as-the-most-aggressive-foreign-threat-to-u-s-election-b61161ad</guid>
-      <pubDate>Mon, 12 Aug 2024 15:03:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>保守秘密 (2014)</title>
-      <link>https://stanfordmag.org/contents/keeping-secrets</link>
-      <description><![CDATA[文章网址：https://stanfordmag.org/contents/keeping-secrets
-评论网址：https://news.ycombinator.com/item?id=41224780
-积分：3
-评论数：1]]></description>
-      <guid>https://stanfordmag.org/contents/keeping-secrets</guid>
-      <pubDate>Mon, 12 Aug 2024 14:27:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于卡霍基亚土丘文明消失原因的新研究</title>
-      <link>https://scitechdaily.com/900-years-ago-one-of-the-largest-civilizations-in-the-world-was-abandoned-archaeologists-have-now-discovered-new-clues/</link>
-      <description><![CDATA[文章网址：https://scitechdaily.com/900-years-ago-one-of-the-largest-civilizations-in-the-world-was-abandoned-archaeologists-have-now-discovered-new-clues/
-评论网址：https://news.ycombinator.com/item?id=41224741
-积分：10
-评论数：2]]></description>
-      <guid>https://scitechdaily.com/900-years-ago-one-of-the-largest-civilizations-in-the-world-was-abandoned-archaeologists-have-now-discovered-new-clues/</guid>
-      <pubDate>Mon, 12 Aug 2024 14:24:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：PGlite – 带有 pgvector 和实时同步的浏览器内 WASM Postgres</title>
-      <link>https://pglite.dev/</link>
-      <description><![CDATA[大家好，我是 Sam 和 ElectricSQL 团队。PGlite 是一个打包到 TypeScript/JavaScript 客户端库中的 WASM Postgres 版本，它使您可以在浏览器、Node.js 和 Bun 中运行 Postgres，而无需安装任何其他依赖项。它的 Gzip 大小为 3mb，现在支持许多 Postgres 扩展，包括 pgvector，并且它有一个反应式“实时查询”API。它的速度也很快，CRUD 样式查询在 0.3 毫秒内执行，更大的多行选择查询在单个帧的一小部分内发生。PGlite 最初是我们在 X 上分享的一个实验项目，对它的反响令人难以置信，这鼓励我们看看我们能走多远。从那时起，我们一直在努力让它达到人们可以用它来构建真实事物的程度。今天我们非常兴奋，随着 v0.2 的发布，Supabase 团队发布了基于其构建的令人惊叹的 http://postgres.new 网站。与他们合作提供 PGlite 和 postgres.new 是一件乐事。- https://pglite.dev - PGlite 网站- https://github.com/electric-sql/pglite - GitHub repo- https://pglite.dev/docs - 有关如何使用 PGlite 的文档- https://pglite.dev/extensions - 扩展目录- https://pglite.dev/benchmarks - 早期微基准测试- https://pglite.dev/repl - 一个在线 REPL，您可以在浏览器中尝试它我们希望您尝试一下，我们会随时回答您的任何问题。
+      <title>推出 HN：Synnax (YC S24) – 统一硬件控制和传感器数据流</title>
+      <link>https://www.synnaxlabs.com/</link>
+      <description><![CDATA[大家好，Hacker News！我们是 Synnax (https://www.synnaxlabs.com) 的联合创始人 Emiliano、Elham 和 Patrick。借助 Synnax，工程师可以连接到传感器和执行器、传输遥测数据以进行控制和后处理，并查询历史数据进行分析。硬件团队在从发射火箭发动机到运营生产线的各个领域使用我们的平台。以下是视频：https://youtu.be/OJtVBfRwooA。硬件团队的软件开发人员通常没有基础架构来构建他们的自定义软件。他们必须使用数十种数据采集设备才能将数据导入单个数据库。通常，他们必须使用几种不同的解决方案来与不同的设备通信：LabVIEW 用于 National Instruments 硬件，ROS 用于机器人，SCADA 软件用于 PLC。没有好的“粘合剂”可以将所有这些设备协调在一起。开发人员最终使用 Apache Kafka 等工具进行流式传输和 InfluxDB 用于存储，但这些工具很难与硬件配合使用，而且每当发送命令来控制硬件时，配置这些工具以记录和流式传输数据也很麻烦。这迫使开发人员反复构建适配器以从硬件设备中获取数据，并管理用于实时流式传输、数据存储和硬件控制的单独系统。我 (Emiliano) 在一家航空航天公司担任测试工程师时发现了这个问题。我们使用旧的控制软件，它会将数据吐出到 10 GB 的海量 CSV 或 TDMS 文件中。经过一天又一天的漫长测试，没人愿意再去检查数据。有一天，我正在操作系统，一个非常昂贵的组件出现故障，导致价值数百万美元的测试台爆炸。经过多日的数据检查，我们发现一个小异常，表明组件存在缺陷。然后我对这个问题产生了浓厚的兴趣，并转而担任软件工程师，以改进他们的数据管道。离开这份工作回到学校后，我大部分时间都在逃课，以建立 Synnax，最终遇到了 Patrick 和 Elham。Synnax 有几个主要部分。我们有一个自定义的时间序列数据库，旨在实现水平可扩展和容错。该数据库可以部署在操作系统或容器中。每个传感器和执行器都可以放入一个“通道”，可以使用我们的 C++、Python 和 TypeScript 客户端库进行写入。在写入通道时，服务器既会将其持久保存到数据库，又会对其进行流式传输，以供任何类型的服务（例如 GUI、自动后处理工具和监督控制序列）实时使用。最后，我们构建了一个 React 组件库，它简化了制作 GUI、可视化和控制桌面应用程序以及通过 OPC UA 为 National Instruments 硬件和 PLC 预构建设备集成的过程。我们认为 Synnax 的独特之处在于它在现有解决方案（如 ROS、LabVIEW 和 SCADA 软件）与通用工具（如 Apache Kafka 或 InfluxDB）之间架起了一座桥梁。Synnax 可在 BSL 1.1 许可证上获得源代码（GitHub：https://github.com/synnaxlabs/synnax，文档：https://docs.synnaxlabs.com）。最多 50 个频道可免费使用该软件。我们尚不确定要确定什么样的定价 - 我们讨论过仅进行基于使用量的实施或同时增加实施成本。如果您对此感兴趣，请查看我们！您可以按照我们的文档网站 (https://docs.synnaxlabs.com) 的步骤部署数据库并下载桌面可视化仪表板。我们非常乐意听到您的反馈，并期待所有评论！
 
-评论网址：https://news.ycombinator.com/item?id=41224689
-积分：38
-评论数：9]]></description>
-      <guid>https://pglite.dev/</guid>
-      <pubDate>Mon, 12 Aug 2024 14:20:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>巴黎协定门槛已跨过</title>
-      <link>https://arctic-news.blogspot.com/2024/08/paris-agreement-thresholds-crossed.html</link>
-      <description><![CDATA[文章网址：https://arctic-news.blogspot.com/2024/08/paris-agreement-thresholds-crossed.html
-评论网址：https://news.ycombinator.com/item?id=41224686
-积分：24
-评论数：9]]></description>
-      <guid>https://arctic-news.blogspot.com/2024/08/paris-agreement-thresholds-crossed.html</guid>
-      <pubDate>Mon, 12 Aug 2024 14:19:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>创建世界上最大的蛋白质-蛋白质相互作用数据集</title>
-      <link>https://www.owlposting.com/p/creating-the-largest-protein-protein</link>
-      <description><![CDATA[文章网址：https://www.owlposting.com/p/creating-the-largest-protein-protein
-评论网址：https://news.ycombinator.com/item?id=41224557
+评论网址：https://news.ycombinator.com/item?id=41227369
 积分：5
 评论数：0]]></description>
-      <guid>https://www.owlposting.com/p/creating-the-largest-protein-protein</guid>
-      <pubDate>Mon, 12 Aug 2024 14:10:21 GMT</pubDate>
+      <guid>https://www.synnaxlabs.com/</guid>
+      <pubDate>Mon, 12 Aug 2024 17:55:07 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：哪些代码编辑器或 IDE 易于编写脚本？</title>
-      <link>https://news.ycombinator.com/item?id=41224472</link>
-      <description><![CDATA[我想与专为扩展或脚本化而设计的编辑器或 IDE 建立更深层次的关系。我更喜欢使用我日常使用的语言进行脚本编写，这排除了 Vimscript、Lua 或 Lisp。我对 Ruby、Python、Go 或 Rust 中的任何一种都最满意。有什么想法吗？
-
-评论 URL：https://news.ycombinator.com/item?id=41224472
-积分：19
-评论数：21]]></description>
-      <guid>https://news.ycombinator.com/item?id=41224472</guid>
-      <pubDate>Mon, 12 Aug 2024 14:02:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>用户体验设计师走进特斯拉酒吧——斯科特·詹森</title>
-      <link>https://jenson.org/tesla/</link>
-      <description><![CDATA[文章网址：https://jenson.org/tesla/
-评论网址：https://news.ycombinator.com/item?id=41224260
+      <title>向 HN 展示：我为电子书制作了一个动画 3D 书架</title>
+      <link>https://github.com/mawise/bookshelf</link>
+      <description><![CDATA[文章网址：https://github.com/mawise/bookshelf
+评论网址：https://news.ycombinator.com/item?id=41227350
 积分：10
-评论数：4]]></description>
-      <guid>https://jenson.org/tesla/</guid>
-      <pubDate>Mon, 12 Aug 2024 13:40:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>AMD 服务器市场份额创数十年新高</title>
-      <link>https://www.tomshardware.com/pc-components/cpus/amd-records-its-highest-server-market-share-in-decades-but-intel-fights-back-in-client-pcs</link>
-      <description><![CDATA[文章网址：https://www.tomshardware.com/pc-components/cpus/amd-records-its-highest-server-market-share-in-decades-but-intel-fights-back-in-client-pcs
-评论网址：https://news.ycombinator.com/item?id=41224253
-积分：27
 评论数：1]]></description>
-      <guid>https://www.tomshardware.com/pc-components/cpus/amd-records-its-highest-server-market-share-in-decades-but-intel-fights-back-in-client-pcs</guid>
-      <pubDate>Mon, 12 Aug 2024 13:40:21 GMT</pubDate>
+      <guid>https://github.com/mawise/bookshelf</guid>
+      <pubDate>Mon, 12 Aug 2024 17:53:36 GMT</pubDate>
     </item>
     <item>
-      <title>不存在逆模因分部 (2018)</title>
-      <link>https://qntm.org/scp</link>
-      <description><![CDATA[文章网址：https://qntm.org/scp
-评论网址：https://news.ycombinator.com/item?id=41224225
-积分：101
-评论数：25]]></description>
-      <guid>https://qntm.org/scp</guid>
-      <pubDate>Mon, 12 Aug 2024 13:37:42 GMT</pubDate>
+      <title>英国将使用“人工智能”回复纳税人的信件</title>
+      <link>https://www.telegraph.co.uk/money/consumer-affairs/treasury-sparks-row-use-ai-deal-taxpayer-complaints/</link>
+      <description><![CDATA[文章网址：https://www.telegraph.co.uk/money/consumer-affairs/treasury-sparks-row-use-ai-deal-taxpayer-complaints/
+评论网址：https://news.ycombinator.com/item?id=41227072
+积分：7
+评论数：3]]></description>
+      <guid>https://www.telegraph.co.uk/money/consumer-affairs/treasury-sparks-row-use-ai-deal-taxpayer-complaints/</guid>
+      <pubDate>Mon, 12 Aug 2024 17:30:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>FCC 就 NextNav 提出的制定较低 900MHz ISM 频段规则的请愿书征求意见</title>
+      <link>https://docs.fcc.gov/public/attachments/DA-24-776A1.txt</link>
+      <description><![CDATA[文章网址：https://docs.fcc.gov/public/attachments/DA-24-776A1.txt
+评论网址：https://news.ycombinator.com/item?id=41226802
+积分：18
+评论数：9]]></description>
+      <guid>https://docs.fcc.gov/public/attachments/DA-24-776A1.txt</guid>
+      <pubDate>Mon, 12 Aug 2024 17:08:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tim Sweeney：“现在苹果要求从所有 Patreon 捐款中抽取 30% 的提成</title>
+      <link>https://twitter.com/TimSweeneyEpic/status/1823027135784558842</link>
+      <description><![CDATA[文章网址：https://twitter.com/TimSweeneyEpic/status/1823027135784558842
+评论网址：https://news.ycombinator.com/item?id=41226754
+积分：71
+评论数：14]]></description>
+      <guid>https://twitter.com/TimSweeneyEpic/status/1823027135784558842</guid>
+      <pubDate>Mon, 12 Aug 2024 17:04:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>ProhostAI (YC S24) 正在招聘</title>
+      <link>https://www.ycombinator.com/companies/prohostai/jobs/E50Yl4C-founding-engineer</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/prohostai/jobs/E50Yl4C-founding-engineer
+评论网址：https://news.ycombinator.com/item?id=41226700
+积分：0
+评论数：0]]></description>
+      <guid>https://www.ycombinator.com/companies/prohostai/jobs/E50Yl4C-founding-engineer</guid>
+      <pubDate>Mon, 12 Aug 2024 17:01:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>修复与保留：如何完成缓慢、艰难、良好的保留工作</title>
+      <link>https://comment.org/repair-and-remain/</link>
+      <description><![CDATA[文章网址：https://comment.org/repair-and-remain/
+评论网址：https://news.ycombinator.com/item?id=41226039
+积分：135
+评论数：41]]></description>
+      <guid>https://comment.org/repair-and-remain/</guid>
+      <pubDate>Mon, 12 Aug 2024 16:06:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国银行如何无视自己的规则来防止危险工作负载</title>
+      <link>https://www.wsj.com/finance/banking/bank-of-america-worker-death-policies-89eff5f6</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/finance/banking/bank-of-america-worker-death-policies-89eff5f6
+评论网址：https://news.ycombinator.com/item?id=41225816
+积分：17
+评论数：8]]></description>
+      <guid>https://www.wsj.com/finance/banking/bank-of-america-worker-death-policies-89eff5f6</guid>
+      <pubDate>Mon, 12 Aug 2024 15:49:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>解决爱因斯坦相对论问题的几何工具</title>
+      <link>https://www.quantamagazine.org/the-geometric-tool-that-solved-einsteins-relativity-problem-20240812/</link>
+      <description><![CDATA[文章网址：https://www.quantamagazine.org/the-geometric-tool-that-solved-einsteins-relativity-problem-20240812/
+评论网址：https://news.ycombinator.com/item?id=41225357
+积分：34
+评论数：21]]></description>
+      <guid>https://www.quantamagazine.org/the-geometric-tool-that-solved-einsteins-relativity-problem-20240812/</guid>
+      <pubDate>Mon, 12 Aug 2024 15:11:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple 的要求即将影响 Patreon 上的创作者和粉丝</title>
+      <link>https://news.patreon.com/articles/understanding-apple-requirements-for-patreon</link>
+      <description><![CDATA[文章网址：https://news.patreon.com/articles/understanding-apple-requirements-for-patreon
+评论网址：https://news.ycombinator.com/item?id=41224853
+积分：273
+评论数：231]]></description>
+      <guid>https://news.patreon.com/articles/understanding-apple-requirements-for-patreon</guid>
+      <pubDate>Mon, 12 Aug 2024 14:34:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
