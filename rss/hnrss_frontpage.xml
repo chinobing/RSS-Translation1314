@@ -4,14 +4,64 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 13 Aug 2024 15:16:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Aug 2024 18:21:26 GMT</lastBuildDate>
+    <item>
+      <title>Google Pixel 9 Pro</title>
+      <link>https://store.google.com/us/product/pixel_9_pro?hl=en-US</link>
+      <description><![CDATA[文章网址：https://store.google.com/us/product/pixel_9_pro?hl=en-US
+评论网址：https://news.ycombinator.com/item?id=41237275
+积分：47
+评论数：75]]></description>
+      <guid>https://store.google.com/us/product/pixel_9_pro?hl=en-US</guid>
+      <pubDate>Tue, 13 Aug 2024 17:08:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Retell AI (YC W24) 正在招聘一名全栈工程师和一名支持工程师</title>
+      <link>https://news.ycombinator.com/item?id=41237200</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=41237200
+积分：0
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=41237200</guid>
+      <pubDate>Tue, 13 Aug 2024 17:00:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chrome 渲染器中的对象转换到 RCE</title>
+      <link>https://github.blog/security/vulnerability-research/from-object-transition-to-rce-in-the-chrome-renderer/</link>
+      <description><![CDATA[文章网址：https://github.blog/security/vulnerability-research/from-object-transition-to-rce-in-the-chrome-renderer/
+评论网址：https://news.ycombinator.com/item?id=41236430
+积分：66
+评论数：1]]></description>
+      <guid>https://github.blog/security/vulnerability-research/from-object-transition-to-rce-in-the-chrome-renderer/</guid>
+      <pubDate>Tue, 13 Aug 2024 15:31:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>你必须把你的近视藏起来：约翰·列侬的隐形眼镜</title>
+      <link>https://onlinelibrary.wiley.com/doi/10.1111/opo.13351</link>
+      <description><![CDATA[文章网址：https://onlinelibrary.wiley.com/doi/10.1111/opo.13351
+评论网址：https://news.ycombinator.com/item?id=41236275
+积分：58
+评论数：53]]></description>
+      <guid>https://onlinelibrary.wiley.com/doi/10.1111/opo.13351</guid>
+      <pubDate>Tue, 13 Aug 2024 15:14:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动 HN：Trellis (YC W24) – 针对非结构化数据的人工智能工作流</title>
+      <link>https://news.ycombinator.com/item?id=41236273</link>
+      <description><![CDATA[嗨，HN — 我们是来自 Trellis (https://runtrellis.com/) 的 Jacky 和 ​​Mac。我们正在为非结构化数据构建由 AI 驱动的 ETL。Trellis 可以根据您用自然语言定义的任何架构将电话呼叫、PDF 和聊天转换为结构化 SQL 格式。这有助于数据和运营团队实现手动数据输入自动化并对混乱数据运行 SQL 查询。https://www.youtube.com/watch?v=ib3mRh2tnSo 有一个演示视频，https://demo.runtrellis.com/ 有一个沙盒可供试用（无需登录！）。我们认为，在非结构化数据的一个有趣历史档案上运行 Trellis 会很有趣，这些档案是安然公司的旧电子邮件，众所周知，这些邮件需要几个月的时间才能审核完毕。我们在这里创建了一个展示演示：https://demo.runtrellis.com/showcase/enron-email-analysis，其中有一些文档：https://docs.runtrellis.com/docs/example-email-analytics。我们为什么要构建这个：在我们相遇的斯坦福 AI 实验室，我们与许多 F500 数据团队（包括亚马逊、Meta 和渣打银行）合作，并反复看到同样的问题：80% 的企业数据是非结构化的，传统平台无法处理。例如，我合作的一家大型商业银行无法改进信用风险模型，因为关键数据滞留在 PDF 和电子邮件中。我们意识到，我们在 AI 实验室的研究可以转化为一个解决方案，该解决方案具有一个抽象层，既适用于金融承保，也适用于呼叫中心记录分析：一个由 AI 驱动的 ETL，可以接收任何非结构化数据源并将其转换为示意图正确的表格。在此过程中，我们必须应对一些有趣的技术挑战：(1) 支持开箱即用的复杂文档：我们使用基于 LLM 的 map-reduce 来处理长文档，并使用视觉模型进行表格和布局提取。(2) 模型路由：我们为每次转换选择最佳模型，以优化成本和速度。例如，在数据提取任务中，我们可以利用更简单的微调模型，这些模型专门用于返回财务表的结构化 JSON。 (3) 数据验证和架构保证：我们通过参考链接和异常检测确保准确性。推出 Trellis 后，我们看到了各种用例，尤其是在将 PDF 视为 API 的传统行业中。例如，金融服务公司需要将债券和信用评级等复杂文档处理为结构化格式，并需要加快承保速度并实现直通贷款处理。客户支持和后台运营需要通过在不同的架构和 ERP 系统之间映射文档来加速入职，并确保支持代理遵循 SOP（安全问题、合规性披露等）。如今，许多公司都希望在 ETL 管道中进行数据预处理并为 RAG 进行数据提取。我们很乐意听取您的反馈！请访问 https://demo.runtrellis.com/ 进行试用。要保存和跟踪您的大数据转换，您可以访问我们的仪表板并在 https://dashboard.runtrellis.com/ 上创建一个帐户。如果您有兴趣与我们的 API 集成，我们的快速入门文档位于此处：https://docs.runtrellis.com/docs/getting-started。如果您有任何特定的用例，我们很乐意进行自定义集成和入门 - 任何 HN 所需的一切。 :)很高兴听到您过去处理非结构化数据的经验、您想要自动化的工作流程以及您希望看到的数据集成。
+
+评论网址：https://news.ycombinator.com/item?id=41236273
+积分：92
+评论数：63]]></description>
+      <guid>https://news.ycombinator.com/item?id=41236273</guid>
+      <pubDate>Tue, 13 Aug 2024 15:14:47 GMT</pubDate>
+    </item>
     <item>
       <title>开源液流电池套件</title>
       <link>https://dualpower.supply/posts/rfb-kit-workshop/</link>
       <description><![CDATA[文章网址：https://dualpower.supply/posts/rfb-kit-workshop/
 评论网址：https://news.ycombinator.com/item?id=41235789
-积分：11
-评论数：1]]></description>
+积分：62
+评论数：20]]></description>
       <guid>https://dualpower.supply/posts/rfb-kit-workshop/</guid>
       <pubDate>Tue, 13 Aug 2024 14:25:19 GMT</pubDate>
     </item>
@@ -21,91 +71,40 @@
       <description><![CDATA[嗨，HN！我是 Shaped (https://www.shaped.ai/) 的 Tullie 和 Dan。我们正在为市场和内容公司构建一个语义推荐和搜索平台。在 https://play.shaped.ai/dashboard/home 有一个沙盒，您可以使用它来探索演示模型并以交互方式评估结果。我们在 https://www.youtube.com/watch?v=toCsUYQnJ_g 有一个演示视频。在个人和生成工具的推动下，在线内容呈爆炸式增长，这使得用户比以往任何时候都更难筛选出与他们相关的内容。 Netflix、TikTok 和 Meta 等平台设定了很高的标准，证明个性化体验是消除混乱和有效吸引用户的关键。尽管人工智能和向量存储等语义基础设施取得了进步，但构建真正相关的推荐或搜索系统仍然极其困难。这不仅仅是部署最新的 LLM，困难在于创建无缝协调组件的基础设施。考虑一下使用新数据不断微调模型的挑战，同时为数百万用户提供实时个性化推荐。它需要在速度、规模和复杂性之间取得微妙的平衡。我们的目标是让任何技术团队都能构建最先进的推荐和搜索系统，无论他们的数据基础设施如何。以下是我们消除摩擦的方法：解决数据挑战：我们直接与您的数据源集成 - Segment、Amplitude、Rudderstack 等。我们处理实时流式传输、ETL 和数据质量稳健性的复杂性，因此您可以在几分钟内开始使用。利用尖端模型 - 我们利用最先进的大规模语言、图像和表格编码模型。这不仅可以从您的数据中提取最大价值，还可以简化流程，即使是非结构化数据也是如此。实时优化：与视觉或 NLP 任务不同，推荐系统性能取决于实时功能 - 训练、特征工程和服务。我们以此为核心构建了我们的平台。我们已经帮助许多公司为其用户构建相关的推荐和搜索。例如，Outdoorsy 使用我们来支持其 RV 租赁市场。电子商务企业（如 DribbleUp）和初创公司（如 Overlap）在集成 Shaped 后，转化率和参与度都提高了 40%。关于我们：Tullie 之前是 FAIR 的 AI 研究员，在 Meta 从事多模式排名工作。他发布了 PyTorchVideo，这是一个广泛使用的视频理解库，其中包含为 IG Reels 等系统提供支持的视频理解模型。Dan 领导了 Afterpay 和 Uber 的产品研究，研究内容是行为心理学如何影响用户体验。我们已经埋头开发 Shaped 很长时间了，所以这次发布感觉像是一个重要的里程碑。我们很乐意听到您的反馈 - 技术深入研究、功能请求，应有尽有。让我们知道您的想法！
 
 评论网址：https://news.ycombinator.com/item?id=41235733
-积分：18
-评论数：2]]></description>
+积分：65
+评论数：19]]></description>
       <guid>https://news.ycombinator.com/item?id=41235733</guid>
       <pubDate>Tue, 13 Aug 2024 14:19:21 GMT</pubDate>
     </item>
     <item>
-      <title>沙特阿拉伯将于九月进行第六次 Halo 太空试飞</title>
-      <link>https://techmgzn.com/saudi-arabia-to-host-sixth-halo-space-test-flight-in-september/</link>
-      <description><![CDATA[文章网址：https://techmgzn.com/saudi-arabia-to-host-sixth-halo-space-test-flight-in-september/
-评论网址：https://news.ycombinator.com/item?id=41235614
-积分：5
-评论数：0]]></description>
-      <guid>https://techmgzn.com/saudi-arabia-to-host-sixth-halo-space-test-flight-in-september/</guid>
-      <pubDate>Tue, 13 Aug 2024 14:06:22 GMT</pubDate>
+      <title>通过编写一门新的编程语言你可以学到什么</title>
+      <link>https://ntietz.com/blog/you-should-make-a-new-terrible-programming-language/</link>
+      <description><![CDATA[文章网址：https://ntietz.com/blog/you-should-make-a-new-terrible-programming-language/
+评论网址：https://news.ycombinator.com/item?id=41235677
+积分：116
+评论数：64]]></description>
+      <guid>https://ntietz.com/blog/you-should-make-a-new-terrible-programming-language/</guid>
+      <pubDate>Tue, 13 Aug 2024 14:12:54 GMT</pubDate>
     </item>
     <item>
-      <title>用于音频和音乐分析的 C/C++ 库</title>
+      <title>AudioFlux：用于音频和音乐分析的 C/C++ 库</title>
       <link>https://github.com/libAudioFlux/audioFlux</link>
       <description><![CDATA[文章网址：https://github.com/libAudioFlux/audioFlux
 评论网址：https://news.ycombinator.com/item?id=41235462
-积分：45
-评论数：10]]></description>
+积分：122
+评论数：32]]></description>
       <guid>https://github.com/libAudioFlux/audioFlux</guid>
       <pubDate>Tue, 13 Aug 2024 13:51:27 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：在编写代码时查看对云成本的影响</title>
-      <link>https://news.ycombinator.com/item?id=41235038</link>
-      <description><![CDATA[大家好，我叫欧文，最近开始在一家初创公司 (https://infracost.io/) 工作，该公司向工程师展示在部署（在 GitHub 或 GitLab 等 CI/CD 中）之前，他们的代码更改将在云端花费多少。之前，我是 tfsec 的创始人之一（该公司扫描代码以查找安全问题）。我学到的一件事是，如果我们能尽早发现问题，即在工程师输入代码时，我们就能节省大量时间。我在想……好吧，为什么不将云成本纳入代码编辑器中呢？在工程师编写代码时显示代码对云成本的影响。所以我花了几个周末的时间，在 JetBrains 中构建了一个 - 完全免费 - 请记住它是新的，可能有错误，所以如果您发现问题，请告诉我。检查一下：https://plugins.jetbrains.com/plugin/24761-infracost我也录制了视频，如果你只是想看看它的作用：https://www.youtube.com/watch?v=kgfkdmUNzEo我很想得到你对此的反馈。我想知道它是否有用，我们还可以添加哪些其他很酷的功能，以及如何使其变得更好？最后说明 - 该扩展调用我们的云定价 API，该 API 包含来自 AWS、Azure 和 GCP 的 400 万个价格，因此完全不会触及任何秘密、凭证等。如果您想在 CI/CD 中获得相同的 Infracost 优点，请查看 https://www.infracost.io/cicd
-
-评论 URL：https://news.ycombinator.com/item?id=41235038
-积分：69
-评论数：29]]></description>
-      <guid>https://news.ycombinator.com/item?id=41235038</guid>
-      <pubDate>Tue, 13 Aug 2024 13:00:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>韦伯望远镜进一步加深了宇宙学的最大争议</title>
-      <link>https://www.quantamagazine.org/the-webb-telescope-further-deepens-the-biggest-controversy-in-cosmology-20240813/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/the-webb-telescope-further-deepens-the-biggest-controversy-in-cosmology-20240813/
-评论网址：https://news.ycombinator.com/item?id=41234964
-积分：54
-评论数：13]]></description>
-      <guid>https://www.quantamagazine.org/the-webb-telescope-further-deepens-the-biggest-controversy-in-cosmology-20240813/</guid>
-      <pubDate>Tue, 13 Aug 2024 12:50:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>面向 Printf 的消息协议</title>
-      <link>https://github.com/Parrot-Developers/libpomp</link>
-      <description><![CDATA[文章网址：https://github.com/Parrot-Developers/libpomp
-评论网址：https://news.ycombinator.com/item?id=41234877
-积分：24
-评论数：7]]></description>
-      <guid>https://github.com/Parrot-Developers/libpomp</guid>
-      <pubDate>Tue, 13 Aug 2024 12:41:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源工具利用人工智能将视频翻译并配音成其他语言</title>
-      <link>https://github.com/jianchang512/pyvideotrans</link>
-      <description><![CDATA[文章网址：https://github.com/jianchang512/pyvideotrans
-评论网址：https://news.ycombinator.com/item?id=41234713
-积分：11
-评论数：4]]></description>
-      <guid>https://github.com/jianchang512/pyvideotrans</guid>
-      <pubDate>Tue, 13 Aug 2024 12:15:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Emacs：Casual Calc 中的上下文界面</title>
-      <link>http://yummymelon.com/devnull/contextual-interfaces-in-casual-calc.html</link>
-      <description><![CDATA[文章网址：http://yummymelon.com/devnull/contextual-interfaces-in-casual-calc.html
-评论网址：https://news.ycombinator.com/item?id=41234636
-积分：7
-评论数：0]]></description>
-      <guid>http://yummymelon.com/devnull/contextual-interfaces-in-casual-calc.html</guid>
-      <pubDate>Tue, 13 Aug 2024 12:05:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们生活在信息决定论时代吗？</title>
-      <link>https://www.newyorker.com/culture/open-questions/are-we-living-in-the-age-of-info-determinism</link>
-      <description><![CDATA[文章网址：https://www.newyorker.com/culture/open-questions/are-we-living-in-the-age-of-info-determinism
-评论网址：https://news.ycombinator.com/item?id=41234174
-积分：31
-评论数：34]]></description>
-      <guid>https://www.newyorker.com/culture/open-questions/are-we-living-in-the-age-of-info-determinism</guid>
-      <pubDate>Tue, 13 Aug 2024 10:47:57 GMT</pubDate>
+      <title>显示 HN：Stipple Effect – 可编写脚本的像素艺术编辑器，可加快游戏艺术制作速度</title>
+      <link>https://github.com/jbunke/stipple-effect</link>
+      <description><![CDATA[文章网址：https://github.com/jbunke/stipple-effect
+评论网址：https://news.ycombinator.com/item?id=41235259
+积分：47
+评论数：3]]></description>
+      <guid>https://github.com/jbunke/stipple-effect</guid>
+      <pubDate>Tue, 13 Aug 2024 13:29:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
