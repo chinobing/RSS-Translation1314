@@ -4,37 +4,36 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 14 Aug 2024 21:15:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 01:05:41 GMT</lastBuildDate>
     <item>
-      <title>告诉 HN：Google Search Console 中的服务器错误 (5xx) 可能根本不是 5xx</title>
-      <link>https://news.ycombinator.com/item?id=41248542</link>
-      <description><![CDATA[我运行https://next-episode.net，最近（几个月前）我注意到它开始获取由于 Google Search Console (GSC) 中的“服务器错误 (5xx)”而未被索引的页面：https://next-episode.net/img/upload/5xx.png在网站上，一切看起来都很好，所有报告的链接都正常工作。我尝试在 GSC 上验证这些错误是否已修复，但它总是报告问题仍然存在，新的链接会不断弹出并出现 5xx 错误（如屏幕截图所示）。这令人担忧，因为这表明存在某种我不知道的问题，可能不仅影响 Google 的抓取工具，还影响我的用户好吧。我做了每个人都会做的事情 - 检查了我的服务器、Cloudflare 和分析日志中是否有任何可疑内容，并放置了一些额外的日志记录以尝试捕获正在发生的事情。结果什么也没有 - 据我所知 - 没有请求返回任何 5xx 错误，所以我认为这只是谷歌的一个奇怪的怪癖，并忽略了它一段时间。然而随着时间的推移，谷歌不断报告这些问题，5xx URL 的数量只增不减，所以我再次（大约 2 周前）开始调查发生了什么。这一次，我尝试将 GSC 报告的 URL 与 Cloudflare 和 bingo 提供的分析进行匹配 - 我发现所有这些请求都有“429 请求过多”的边缘状态代码（和来源状态代码）。现在这是进展。我的服务中只有一件事会返回此状态代码，那就是我的自定义速率限制，如果您在不到 10 秒的时间内发出超过 30 个请求，它将被触发。是什么变化让谷歌突然决定抓取如此积极地达到该限制（这是以前从未发生过的事情，Next Episode 已经上线 19 年多了！），为什么在我的服务器明确返回 429 时，它在 GSC 中报告为 5xx - 我不知道。我确实知道的是，谷歌将 429 服务器状态错误地报告为 5xx。为了解决这个问题（至少目前作为快速修复） - 我在我的速率限制器中将所有 Google 爬虫的 IP 列入白名单（我在这里找到的：https://www.infidigit.com/blog/google-update-googlebots-ip-a... ） - 在 Google 提供的 JSON 中列出：https://developers.google.com/search/apis/ipranges/googlebot...以防万一，我还在请求标头中传递了 ASN（通过 Cloudflare 转换规则），并将整个 Google ASN（15169）列入白名单。之后 - 我监控了 GSC 中弹出的新 5xx 错误以及来自 Google ASN 的 Cloudflare 中记录的新 429 状态，到目前为止（超过 2 周） - 一切都很好。
-
-评论网址：https://news.ycombinator.com/item?id=41248542
-积分：47
-评论数：2]]></description>
-      <guid>https://news.ycombinator.com/item?id=41248542</guid>
-      <pubDate>Wed, 14 Aug 2024 17:36:47 GMT</pubDate>
+      <title>国际研究检测无反应患者的意识</title>
+      <link>https://www.massgeneralbrigham.org/en/about/newsroom/articles/consciousness-unresponsive-patients</link>
+      <description><![CDATA[文章网址：https://www.massgeneralbrigham.org/en/about/newsroom/articles/consciousness-unresponsive-patients
+评论网址：https://news.ycombinator.com/item?id=41250830
+积分：57
+评论数：15]]></description>
+      <guid>https://www.massgeneralbrigham.org/en/about/newsroom/articles/consciousness-unresponsive-patients</guid>
+      <pubDate>Wed, 14 Aug 2024 21:45:39 GMT</pubDate>
     </item>
     <item>
       <title>从符号模式匹配的角度看算法</title>
       <link>https://symbolica.io/posts/pattern_matching/</link>
       <description><![CDATA[文章网址：https://symbolica.io/posts/pattern_matching/
 评论网址：https://news.ycombinator.com/item?id=41248460
-积分：4
-评论数：0]]></description>
+积分：26
+评论数：4]]></description>
       <guid>https://symbolica.io/posts/pattern_matching/</guid>
       <pubDate>Wed, 14 Aug 2024 17:29:30 GMT</pubDate>
     </item>
     <item>
-      <title>白酒遇上二进制：茅台为何投资半导体</title>
-      <link>https://www.chinatalk.media/p/why-moutai-is-investing-in-semiconductors</link>
-      <description><![CDATA[文章网址：https://www.chinatalk.media/p/why-moutai-is-investing-in-semiconductors
-评论网址：https://news.ycombinator.com/item?id=41248438
-积分：15
-评论数：12]]></description>
-      <guid>https://www.chinatalk.media/p/why-moutai-is-investing-in-semiconductors</guid>
-      <pubDate>Wed, 14 Aug 2024 17:27:04 GMT</pubDate>
+      <title>巨石阵祭坛石的苏格兰起源</title>
+      <link>https://www.nature.com/articles/s41586-024-07652-1</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41586-024-07652-1
+评论网址：https://news.ycombinator.com/item?id=41248214
+积分：10
+评论数：0]]></description>
+      <guid>https://www.nature.com/articles/s41586-024-07652-1</guid>
+      <pubDate>Wed, 14 Aug 2024 17:01:45 GMT</pubDate>
     </item>
     <item>
       <title>CoinTracker（YC W18）正在招聘消费者产品主管</title>
@@ -51,28 +50,18 @@
       <link>https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/</link>
       <description><![CDATA[文章网址：https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/
 评论网址：https://news.ycombinator.com/item?id=41248104
-积分：196
-评论数：98]]></description>
+积分：310
+评论数：189]]></description>
       <guid>https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/</guid>
       <pubDate>Wed, 14 Aug 2024 16:50:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>开发人员很快就能利用安全元件提供应用内 NFC 交易</title>
-      <link>https://www.apple.com/newsroom/2024/08/developers-can-soon-offer-in-app-nfc-transactions-using-the-secure-element/</link>
-      <description><![CDATA[文章网址：https://www.apple.com/newsroom/2024/08/developers-can-soon-offer-in-app-nfc-transactions-using-the-secure-element/
-评论网址：https://news.ycombinator.com/item?id=41248015
-积分：9
-评论数：1]]></description>
-      <guid>https://www.apple.com/newsroom/2024/08/developers-can-soon-offer-in-app-nfc-transactions-using-the-secure-element/</guid>
-      <pubDate>Wed, 14 Aug 2024 16:39:53 GMT</pubDate>
     </item>
     <item>
       <title>我如何利用 JavaScript、AI 和一罐 WD-40 赢得 2,750 美元</title>
       <link>https://davekiss.com/blog/how-i-won-2750-using-javascript-ai-and-a-can-of-wd-40</link>
       <description><![CDATA[文章网址：https://davekiss.com/blog/how-i-won-2750-using-javascript-ai-and-a-can-of-wd-40
 评论网址：https://news.ycombinator.com/item?id=41247982
-积分：180
-评论数：84]]></description>
+积分：296
+评论数：121]]></description>
       <guid>https://davekiss.com/blog/how-i-won-2750-using-javascript-ai-and-a-can-of-wd-40</guid>
       <pubDate>Wed, 14 Aug 2024 16:35:52 GMT</pubDate>
     </item>
@@ -81,30 +70,41 @@
       <link>https://epmonthly.com/article/not-heroes-wear-capes-one-las-vegas-ed-saved-hundreds-lives-worst-mass-shooting-u-s-history/</link>
       <description><![CDATA[文章网址：https://epmonthly.com/article/not-heroes-wear-capes-one-las-vegas-ed-saved-hundreds-lives-worst-mass-shooting-u-s-history/
 评论网址：https://news.ycombinator.com/item?id=41247841
-积分：111
-评论数：50]]></description>
+积分：163
+评论数：65]]></description>
       <guid>https://epmonthly.com/article/not-heroes-wear-capes-one-las-vegas-ed-saved-hundreds-lives-worst-mass-shooting-u-s-history/</guid>
       <pubDate>Wed, 14 Aug 2024 16:22:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Windows TCP/IP 远程代码执行漏洞</title>
-      <link>https://www.cve.org/CVERecord?id=CVE-2024-38063</link>
-      <description><![CDATA[文章网址：https://www.cve.org/CVERecord?id=CVE-2024-38063
-评论网址：https://news.ycombinator.com/item?id=41247727
-积分：8
-评论数：2]]></description>
-      <guid>https://www.cve.org/CVERecord?id=CVE-2024-38063</guid>
-      <pubDate>Wed, 14 Aug 2024 16:13:58 GMT</pubDate>
     </item>
     <item>
       <title>不同类型的键盘（2021）</title>
       <link>https://ianthehenry.com/posts/peggi/</link>
       <description><![CDATA[文章网址：https://ianthehenry.com/posts/peggi/
 评论网址：https://news.ycombinator.com/item?id=41247238
-积分：92
-评论数：27]]></description>
+积分：109
+评论数：32]]></description>
       <guid>https://ianthehenry.com/posts/peggi/</guid>
       <pubDate>Wed, 14 Aug 2024 15:30:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>推出 HN：Promi (YC S24) – 人工智能电子商务折扣</title>
+      <link>https://news.ycombinator.com/item?id=41247211</link>
+      <description><![CDATA[我们是 Peter 和 Jiaxin，我们正在创建 Promi (https://www.usepromi.com)。Promi 使用 AI 来优化产品和客户的零售电子商务折扣（例如新客户折扣、清仓销售、假日销售等）。以下是简短的视频概述：https://www.youtube.com/watch?v=SHTw9VH8bCw折扣传统上是定价的“狂野西部”。即使是最大的商家的优化技术也需要大量手动操作。产品级折扣决策由运营或类别经理决定，而全店折扣通常由营销人员设定。通常，他们依靠订单历史记录、查看竞争对手的折扣或查找之前的折扣表现来为决策提供参考。但是，选择折扣背后并没有太多的科学依据，而且团队没有时间或手段在细粒度上对其进行优化 - 即按产品或客户群体进行优化。我们相信，AI 可以通过设置最合适的折扣值、在产品之间改变折扣以及在用户之间个性化折扣来实现各种目标，从而更好地解决此问题。AI 模型可以利用更多数据（例如商品转化率、利润率、客户推荐 URL、设备类型）并且比实际手动操作更频繁地更新。我们的方法还将使我们能够为相对较小的商家提供折扣。我们使用模型（分层传统 NLP 模型和自定义 LLM）构建大规模知识图谱，以收集商家之间的类似产品，以便围绕不同的产品集群构建配置文件。这些配置文件帮助我们构建解决方案，以满足传统上没有最佳定价策略的次级商店的需求。我们的第一个 AI 产品专注于清算库存，并使用商店的历史交易和销售数据来快速开始训练我们的模型并生成折扣。我们的模型可以预测在所需时间内将转化率提高到适当水平以清算库存所需的折扣。然后，我们会监控转化率，并（如果具有统计意义）根据需要频繁进行调整。我们制定了新模型方法的完整路线图，包括个性化和新的目标函数（例如利润而不是清算），以适应更多折扣用例。我们是如何走到今天的：嘉欣和我都来自 Uber，我曾领导 Eats and Rides 的折扣团队的产品。我们在 Uber 推出了几项类似的 AI 功能，并看到了它们对构建折扣的影响。例如，我们在部署机器学习模型以在较小的市场中自动提供折扣时遇到了问题，因为训练这些模型所需的数据量很大。我们转向使用跨国家/地区的数据的“全球模型”，以显着减少任何一个国家/地区所需的数据量。该模型的表现甚至比特定国家/地区的模型更好，这表明在提高折扣绩效方面存在非常可复制的趋势。如果您经营或认识经营 Shopify 商店的人，您可以在此处下载并使用我们的应用程序：https://apps.shopify.com/promi-discounts我们很乐意听取反馈、对折扣 + AI 其他用例的想法、问题等。期待听到社区的声音！
+
+评论网址：https://news.ycombinator.com/item?id=41247211
+积分：25
+评论数：20]]></description>
+      <guid>https://news.ycombinator.com/item?id=41247211</guid>
+      <pubDate>Wed, 14 Aug 2024 15:28:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于 OpenSSH 9.8 的 PerSourcePenalties 功能的一些想法</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OpenSSHPerSourcePenaltiesThings</link>
+      <description><![CDATA[文章网址：https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OpenSSHPerSourcePenaltiesThings
+评论网址：https://news.ycombinator.com/item?id=41247193
+积分：53
+评论数：50]]></description>
+      <guid>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OpenSSHPerSourcePenaltiesThings</guid>
+      <pubDate>Wed, 14 Aug 2024 15:27:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
