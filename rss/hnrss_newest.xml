@@ -4,107 +4,123 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 18 Aug 2024 21:14:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2024 01:10:14 GMT</lastBuildDate>
     <item>
-      <title>智能摇篮公司收取摇动婴儿床费用 家长对 Snoo 表示愤怒</title>
-      <link>https://www.independent.co.uk/news/world/americas/snoo-bassinet-baby-sleeping-subscription-b2597869.html</link>
-      <description><![CDATA[文章网址：https://www.independent.co.uk/news/world/americas/snoo-bassinet-baby-sleeping-subscription-b2597869.html
-评论网址：https://news.ycombinator.com/item?id=41285484
+      <title>WISC 用户手册 (1960) [pdf]</title>
+      <link>http://www.bitsavers.org/pdf/univOfWiscMadison/wisc/WISC_UsersManual_1960.pdf</link>
+      <description><![CDATA[文章网址：http://www.bitsavers.org/pdf/univOfWiscMadison/wisc/WISC_UsersManual_1960.pdf
+评论网址：https://news.ycombinator.com/item?id=41286913
+积分：1
+评论数：0]]></description>
+      <guid>http://www.bitsavers.org/pdf/univOfWiscMadison/wisc/WISC_UsersManual_1960.pdf</guid>
+      <pubDate>Mon, 19 Aug 2024 01:03:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>咨询 HN：RFS：现代 SQL/db 编辑器</title>
+      <link>https://news.ycombinator.com/item?id=41286912</link>
+      <description><![CDATA[tldr：请有人构建一个现代 SQL 编辑器。我愿意为一个好的编辑器支付 20 美元/席位/月。强烈怀疑很多人也会这么做。-- 问题/抱怨我对现代基本数据库管理的故事变得如此陈旧感到越来越沮丧。近年来，开发人员体验的许多方面都得到了显着改善，但感觉数据库工具是一个巨大的垂直领域，并没有得到太多相同的 TLC。人们不经常使用 SQL 编辑器吗？我发现自己经常在开发过程中或解决生产问题时使用 cmd-tab 切换到 Postico 来检查/修改某些行。但是当我需要一个更高级/关系过滤器时，要么需要进行大量痛苦的点击，要么根本无法通过表格 UI 完成，现在我必须从头开始编写查询。如果这是一项常见的重复任务，您可以保存查询，但现在我有数百个这样的已保存查询，它们的名称都略有不同，以至于编写一个新查询然后查找并稍微修改旧查询就没那么费力了。不存在协作。我被迫通过 slack 共享这些查询或提交到我们存储库中的 `misc/*.sql` 文件夹，这感觉很尴尬。我尝试过的工具包括 Postico、DBeaver、TablePlus、Beekeeper Studio、PopSQL 和各种 VSCode 扩展。我不需要围绕 DB Ops 的功能，我使用 Neon/Supabase/etc，只是希望我永远不必考虑 DB ops。我几乎也不关心 SDL 任务，我主要通过我的 ORM（s/o Drizzle）来完成它-- 我的请求下面是我经常需要的功能的汇总。我会为一个可以实现其中一项功能的工具付费，但我认为所有功能都是非常有可能的，并且对我来说，编辑器的价值是其 100 倍：- 表格视图 - 直观的过滤 UI。您知道我的 `id` 列是文本，为什么默认过滤操作是 `&gt;`。我几乎从来不想让字符串列实现这一点。让我在时间戳过滤器中输入“昨天下午 3 点”。让我模糊搜索我的整个数据库（显然这对于​​大型数据库来说很难）
+
+- 关系过滤器。我应该能够按关系上的属性进行过滤。在解决生产问题时，我通常只获得用户名，现在在其他表中查找他们的记录变成了一个两步过程，首先找到用户的 ID，然后在我关心的表的过滤器中使用该 ID
+
+- 嵌入和格式化列。我有各种报告作为自定义查询/视图，我每周将其导出为 CSV 以提供给队友。我希望我可以将此视图作为 iframe 嵌入到我们的内部仪表板中。如果您愿意，请允许我像 Airtable 一样格式化列，甚至根据视图制作图表。这本身就很容易成为一项庞大的业务。
+
+-- SQL 编辑器 - SQL 语言服务器/智能感知（h/t https://github.com/supabase-community/postgres_lsp）。我需要多说吗？
+
+- AI 自动完成和生成（a la Cursor）。我当前的工作流程是使用 cmd+tab 转到我的 ORM 定义文件，让光标为 Y 问题的 X 表提出 PSQL 查询，然后使用 cmd+tab 返回 Postico 运行它。
+
+- 笔记本。我想创建剧本与我的团队分享。事后分析，“这是我调试 XYZ 生产问题的方法”，等等。
+
+- 全方位搜索。让我使用 CMD+K 和模糊/语义搜索保存的查询、表格等。
+
+说实话，我已经考虑这个想法一年多了，并多次尝试自己构建它但都失败了（技能问题）。提出这个想法是希望更有经验的工程师有兴趣尝试一下。我会立即支付每月 20 美元以上，哪怕是部分解决方案，甚至可能为一些与团队相关的功能支付更多费用。如果您有兴趣接受此服务并希望进一步聊天，请在个人简介中发送电子邮件
+
+评论网址：https://news.ycombinator.com/item?id=41286912
+积分：1
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=41286912</guid>
+      <pubDate>Mon, 19 Aug 2024 01:03:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Mini_KV – 极简内存键值存储</title>
+      <link>https://github.com/martinlevesque/mini_kv</link>
+      <description><![CDATA[这是一个基于 TCP 的键值服务器，支持一组最少的操作。主要是为了开始学习 golang - 这里没有什么太严肃的 :-)。如果您有改进代码、结构、样式或其他任何内容的建议，请随时发表评论。
+
+评论网址：https://news.ycombinator.com/item?id=41286905
+积分：1
+评论数：0]]></description>
+      <guid>https://github.com/martinlevesque/mini_kv</guid>
+      <pubDate>Mon, 19 Aug 2024 01:02:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>圣何塞的一次（真实）私刑：1933 年 11 月</title>
+      <link>https://albertcory50.substack.com/p/a-real-lynching-in-san-jose</link>
+      <description><![CDATA[文章网址：https://albertcory50.substack.com/p/a-real-lynching-in-san-jose
+评论网址：https://news.ycombinator.com/item?id=41286899
+积分：1
+评论数：0]]></description>
+      <guid>https://albertcory50.substack.com/p/a-real-lynching-in-san-jose</guid>
+      <pubDate>Mon, 19 Aug 2024 01:01:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：Next.js 项目的最佳身份验证提供商和数据库？</title>
+      <link>https://news.ycombinator.com/item?id=41286881</link>
+      <description><![CDATA[Next.js 项目的最佳身份验证提供商？如果有帮助，Repo 在这里：https://github.com/playfantasydraw/ably-nextjs-starter-kit该项目还使用 Ably 并部署在 Vercel 上。我有大量 Azure 积分，所以如果有好的 Azure 解决方案，那就太好了。使用数据库，每个登录用户都应该能够在比赛中拥有多个唯一条目。
+
+评论网址：https://news.ycombinator.com/item?id=41286881
+积分：1
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=41286881</guid>
+      <pubDate>Mon, 19 Aug 2024 00:58:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们来到地球上就是为了四处闲逛，不要让任何人告诉你不同</title>
+      <link>https://twitter.com/Kurt_Vonnegut/status/1656194118534545409</link>
+      <description><![CDATA[文章网址：https://twitter.com/Kurt_Vonnegut/status/1656194118534545409
+评论网址：https://news.ycombinator.com/item?id=41286871
+积分：1
+评论数：1]]></description>
+      <guid>https://twitter.com/Kurt_Vonnegut/status/1656194118534545409</guid>
+      <pubDate>Mon, 19 Aug 2024 00:54:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>短信营销 – 使用 Netcapz 向客户发送短信</title>
+      <link>https://netcapz.cloud/</link>
+      <description><![CDATA[文章网址：https://netcapz.cloud/
+评论网址：https://news.ycombinator.com/item?id=41286866
+积分：1
+评论数：1]]></description>
+      <guid>https://netcapz.cloud/</guid>
+      <pubDate>Mon, 19 Aug 2024 00:54:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 TCC 和 Bash 编写 C 脚本</title>
+      <link>https://alurm.github.io/blog/c-scripting-with-tcc-and-bash.html</link>
+      <description><![CDATA[文章网址：https://alurm.github.io/blog/c-scripting-with-tcc-and-bash.html
+评论网址：https://news.ycombinator.com/item?id=41286817
 积分：3
 评论数：0]]></description>
-      <guid>https://www.independent.co.uk/news/world/americas/snoo-bassinet-baby-sleeping-subscription-b2597869.html</guid>
-      <pubDate>Sun, 18 Aug 2024 21:02:37 GMT</pubDate>
+      <guid>https://alurm.github.io/blog/c-scripting-with-tcc-and-bash.html</guid>
+      <pubDate>Mon, 19 Aug 2024 00:44:26 GMT</pubDate>
     </item>
     <item>
-      <title>前往美国国家公园的徒步旅行者越来越多——保障他们的安全也面临挑战</title>
-      <link>https://www.theguardian.com/environment/article/2024/aug/18/national-park-hiker-safety-yosemite-half-dome</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/environment/article/2024/aug/18/national-park-hiker-safety-yosemite-half-dome
-评论网址：https://news.ycombinator.com/item?id=41285456
-积分：1
-评论数：0]]></description>
-      <guid>https://www.theguardian.com/environment/article/2024/aug/18/national-park-hiker-safety-yosemite-half-dome</guid>
-      <pubDate>Sun, 18 Aug 2024 20:59:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>新的数据集确定了哪些作物会毁坏亚马逊森林，以及在哪里</title>
-      <link>https://news.mongabay.com/2024/08/new-datasets-identify-which-crops-deforest-the-amazon-and-where/</link>
-      <description><![CDATA[文章网址：https://news.mongabay.com/2024/08/new-datasets-identify-which-crops-deforest-the-amazon-and-where/
-评论网址：https://news.ycombinator.com/item?id=41285454
-积分：1
-评论数：0]]></description>
-      <guid>https://news.mongabay.com/2024/08/new-datasets-identify-which-crops-deforest-the-amazon-and-where/</guid>
-      <pubDate>Sun, 18 Aug 2024 20:59:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>玩枪（和手机）热爱和理解一项强大的技术意味着什么</title>
-      <link>https://arenamag.com/2024/07/31/playing-with-guns-and-phones/</link>
-      <description><![CDATA[文章网址：https://arenamag.com/2024/07/31/playing-with-guns-and-phones/
-评论网址：https://news.ycombinator.com/item?id=41285439
-积分：1
-评论数：0]]></description>
-      <guid>https://arenamag.com/2024/07/31/playing-with-guns-and-phones/</guid>
-      <pubDate>Sun, 18 Aug 2024 20:56:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>生物分子转变发生在我们四六十岁时</title>
-      <link>https://med.stanford.edu/news/all-news/2024/08/massive-biomolecular-shifts-occur-in-our-40s-and-60s--stanford-m.html</link>
-      <description><![CDATA[文章网址：https://med.stanford.edu/news/all-news/2024/08/massive-biomolecular-shifts-occur-in-our-40s-and-60s--stanford-m.html
-评论网址：https://news.ycombinator.com/item?id=41285437
-积分：1
-评论数：0]]></description>
-      <guid>https://med.stanford.edu/news/all-news/2024/08/massive-biomolecular-shifts-occur-in-our-40s-and-60s--stanford-m.html</guid>
-      <pubDate>Sun, 18 Aug 2024 20:55:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>展示 HN：我训练了一个 2D 游戏动画生成模型（完全开源）</title>
-      <link>https://github.com/lyogavin/godmodeanimation</link>
-      <description><![CDATA[我尝试训练文本到视频和图像到视频模型来生成 2D 游戏动画。我使用公共游戏动画数据和 3D mixamo 模型渲染的动画来训练动画生成模型。我正在开源模型、训练数据、训练代码和数据生成代码。更多技术细节可以在我的博客中找到（https://www.gavinliblog.com/posts/godmodeanimation）。
-
-评论网址：https://news.ycombinator.com/item?id=41285417
+      <title>德克萨斯州地下物流运输规划设计</title>
+      <link>https://www.mdpi.com/2412-3811/9/8/130</link>
+      <description><![CDATA[文章网址：https://www.mdpi.com/2412-3811/9/8/130
+评论网址：https://news.ycombinator.com/item?id=41286787
 积分：2
 评论数：0]]></description>
-      <guid>https://github.com/lyogavin/godmodeanimation</guid>
-      <pubDate>Sun, 18 Aug 2024 20:53:22 GMT</pubDate>
+      <guid>https://www.mdpi.com/2412-3811/9/8/130</guid>
+      <pubDate>Mon, 19 Aug 2024 00:38:27 GMT</pubDate>
     </item>
     <item>
-      <title>Radxa X4 SBC 结合了英特尔 N100 和 Raspberry Pi RP2040</title>
-      <link>https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040</link>
-      <description><![CDATA[文章网址：https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040
-评论网址：https://news.ycombinator.com/item?id=41285414
+      <title>最适合问候的颜文字 – 用日语表情符号问好</title>
+      <link>https://www.cute-kaomoji.com/en/greetings</link>
+      <description><![CDATA[文章网址：https://www.cute-kaomoji.com/en/greetings
+评论网址：https://news.ycombinator.com/item?id=41286770
 积分：1
 评论数：0]]></description>
-      <guid>https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040</guid>
-      <pubDate>Sun, 18 Aug 2024 20:53:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>短篇小说集</title>
-      <link>https://writingatlas.com/collection/</link>
-      <description><![CDATA[文章网址：https://writingatlas.com/collection/
-评论网址：https://news.ycombinator.com/item?id=41285398
-积分：1
-评论数：0]]></description>
-      <guid>https://writingatlas.com/collection/</guid>
-      <pubDate>Sun, 18 Aug 2024 20:51:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Terraform 和 Hetzner 自动创建支持 kamal 的 VPS</title>
-      <link>https://dylancastillo.co/posts/create-a-kamal-ready-vps-on-hetzner-using-terraform.html</link>
-      <description><![CDATA[文章网址：https://dylancastillo.co/posts/create-a-kamal-ready-vps-on-hetzner-using-terraform.html
-评论网址：https://news.ycombinator.com/item?id=41285390
-积分：1
-评论数：0]]></description>
-      <guid>https://dylancastillo.co/posts/create-a-kamal-ready-vps-on-hetzner-using-terraform.html</guid>
-      <pubDate>Sun, 18 Aug 2024 20:49:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>反对工作与生活平衡的案例（Shyam Sankar）</title>
-      <link>https://www.shyamsankar.com/p/the-case-against-work-life-balance</link>
-      <description><![CDATA[文章网址：https://www.shyamsankar.com/p/the-case-against-work-life-balance
-评论网址：https://news.ycombinator.com/item?id=41285380
-积分：1
-评论数：0]]></description>
-      <guid>https://www.shyamsankar.com/p/the-case-against-work-life-balance</guid>
-      <pubDate>Sun, 18 Aug 2024 20:48:23 GMT</pubDate>
+      <guid>https://www.cute-kaomoji.com/en/greetings</guid>
+      <pubDate>Mon, 19 Aug 2024 00:35:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
