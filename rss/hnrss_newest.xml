@@ -4,112 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 19 Aug 2024 09:17:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2024 12:30:26 GMT</lastBuildDate>
     <item>
-      <title>使用人工智能将我们的网站和应用程序翻译成 40 种语言</title>
-      <link>https://pont.is/p/translating-luma</link>
-      <description><![CDATA[文章网址：https://pont.is/p/translating-luma
-评论网址：https://news.ycombinator.com/item?id=41289256
+      <title>对互联网上的所有 PDF 进行分类</title>
+      <link>https://snats.xyz/pages/articles/classifying_a_bunch_of_pdfs.html</link>
+      <description><![CDATA[文章网址：https://snats.xyz/pages/articles/classifying_a_bunch_of_pdfs.html
+评论网址：https://news.ycombinator.com/item?id=41290409
 积分：1
 评论数：0]]></description>
-      <guid>https://pont.is/p/translating-luma</guid>
-      <pubDate>Mon, 19 Aug 2024 09:08:20 GMT</pubDate>
+      <guid>https://snats.xyz/pages/articles/classifying_a_bunch_of_pdfs.html</guid>
+      <pubDate>Mon, 19 Aug 2024 12:23:09 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：我已经创建了一个扩展，用于在 VSCode 上运行 ALife 模拟</title>
-      <link>https://github.com/hirodesu85/vscode-alife</link>
-      <description><![CDATA[文章网址：https://github.com/hirodesu85/vscode-alife
-评论网址：https://news.ycombinator.com/item?id=41289251
+      <title>煎饼 SQL 模式：将多个 SQL 合并为一个，性能提升 50 倍</title>
+      <link>https://www.quesma.com/blog-detail/pancake-sql-pattern</link>
+      <description><![CDATA[文章网址：https://www.quesma.com/blog-detail/pancake-sql-pattern
+评论网址：https://news.ycombinator.com/item?id=41290402
 积分：1
 评论数：0]]></description>
-      <guid>https://github.com/hirodesu85/vscode-alife</guid>
-      <pubDate>Mon, 19 Aug 2024 09:07:53 GMT</pubDate>
+      <guid>https://www.quesma.com/blog-detail/pancake-sql-pattern</guid>
+      <pubDate>Mon, 19 Aug 2024 12:22:14 GMT</pubDate>
     </item>
     <item>
-      <title>虚假 MRR 作为一种营销策略</title>
-      <link>https://news.ycombinator.com/item?id=41289248</link>
-      <description><![CDATA[我不再相信 MRR。最近似乎有越来越多的人使用这种肮脏的策略来吸引受众购买他们的产品。它的工作原理如下：1. 哇，他在 PH 上一次发布就赚了 2,000 美元。
-2. 如果这么多人购买，该产品一定是优质产品。
-3. 我会尝试一下。此外，MRR 的屏幕截图在 Twitter 上产生了网络效应。这个角色的推文会自动变得更有价值，因为他赚了，他赢了。我认为这在过去一两年里已经开始获得势头。您觉得如何？
-
-评论网址：https://news.ycombinator.com/item?id=41289248
+      <title>渗透极右翼</title>
+      <link>https://www.newyorker.com/magazine/2024/08/26/infiltrating-the-far-right</link>
+      <description><![CDATA[文章网址：https://www.newyorker.com/magazine/2024/08/26/infiltrating-the-far-right
+评论网址：https://news.ycombinator.com/item?id=41290394
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41289248</guid>
-      <pubDate>Mon, 19 Aug 2024 09:07:08 GMT</pubDate>
+      <guid>https://www.newyorker.com/magazine/2024/08/26/infiltrating-the-far-right</guid>
+      <pubDate>Mon, 19 Aug 2024 12:20:42 GMT</pubDate>
     </item>
     <item>
-      <title>支持 WebRTC 视频通话的老式聊天室</title>
-      <link>https://news.ycombinator.com/item?id=41289235</link>
-      <description><![CDATA[此聊天室采用不同的方法 - 没有预定义或公共房间列表。您可以创建自己的房间，然后与朋友分享群组名称和密码或链接以加入。群组名称和密码可以随意选择。如果您没有人可以立即聊天，您可以打开新的浏览器选项卡或使用其他设备加入您刚刚创建的房间。我可以向您保证，服务器永远不会访问任何聊天内容。前端代码很轻量，如果您有工具或想用AI分析它：聊天内容的加密密钥来自组名和密码，添加了盐并应用了特殊过程。聊天室ID通过对组名和密码进行哈希处理来确定。类似这样：key = keygen(funcA(hashA(group_name, group_pass, salt_A)));
-RoomId = hashB(group_name, group_pass, salt_B));服务器只知道RoomId。客户端知道 RoomId 和密钥，但无法从 RoomId 推导出密钥。这确保服务器或任何网络运营商都无法访问您的聊天内容。如果聊天室中只有两个人，您可以通过点击电话图标开始视频通话。如果有两个以上的人，您需要先选择一个人，然后才能发起通话。玩得开心！https://cnt2.cf/groups/login.html
-
-评论网址：https://news.ycombinator.com/item?id=41289235
+      <title>匿名私人聊天室</title>
+      <link>https://cnt2.cf/groups/login.html</link>
+      <description><![CDATA[文章网址：https://cnt2.cf/groups/login.html
+评论网址：https://news.ycombinator.com/item?id=41290384
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41289235</guid>
-      <pubDate>Mon, 19 Aug 2024 09:04:27 GMT</pubDate>
+      <guid>https://cnt2.cf/groups/login.html</guid>
+      <pubDate>Mon, 19 Aug 2024 12:19:25 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：DatePrefixCopy，文件名以 yymmdd_ 为前缀</title>
-      <link>https://code.rosaelefanten.org/dateprefixcopy/dir?q=tip&ci=trunk</link>
-      <description><![CDATA[仅适用于 Windows，用 Lisp 编写。理由：有些公司这样做是为了“版本控制”。他们都使用 Windows。这是一个零点击解​​决方案。
-
-评论 URL：https://news.ycombinator.com/item?id=41289232
+      <title>男子闯入 Code for America 创始人的家 – 警察花了两天时间才赶到</title>
+      <link>https://sfstandard.com/2024/08/10/home-invasion-oakland/</link>
+      <description><![CDATA[文章网址：https://sfstandard.com/2024/08/10/home-invasion-oakland/
+评论网址：https://news.ycombinator.com/item?id=41290378
 积分：1
 评论数：0]]></description>
-      <guid>https://code.rosaelefanten.org/dateprefixcopy/dir?q=tip&ci=trunk</guid>
-      <pubDate>Mon, 19 Aug 2024 09:03:48 GMT</pubDate>
+      <guid>https://sfstandard.com/2024/08/10/home-invasion-oakland/</guid>
+      <pubDate>Mon, 19 Aug 2024 12:18:22 GMT</pubDate>
     </item>
     <item>
-      <title>面向初学者的简单 Slurm 指南</title>
-      <link>https://blog.ronin.cloud/slurm-intro/</link>
-      <description><![CDATA[文章网址：https://blog.ronin.cloud/slurm-intro/
-评论网址：https://news.ycombinator.com/item?id=41289230
+      <title>利用数据对于芯片行业回流至关重要</title>
+      <link>https://www.eetimes.com/harnessing-data-is-paramount-to-reshoring-the-chip-industry/</link>
+      <description><![CDATA[文章网址：https://www.eetimes.com/harnessing-data-is-paramount-to-reshoring-the-chip-industry/
+评论网址：https://news.ycombinator.com/item?id=41290359
 积分：1
 评论数：0]]></description>
-      <guid>https://blog.ronin.cloud/slurm-intro/</guid>
-      <pubDate>Mon, 19 Aug 2024 09:03:18 GMT</pubDate>
+      <guid>https://www.eetimes.com/harnessing-data-is-paramount-to-reshoring-the-chip-industry/</guid>
+      <pubDate>Mon, 19 Aug 2024 12:15:32 GMT</pubDate>
     </item>
     <item>
-      <title>管理雨果奖的感受</title>
-      <link>https://fromtheheartofeurope.eu/the-administrators-tale-third-time-around-part-one/</link>
-      <description><![CDATA[文章网址：https://fromtheheartofeurope.eu/the-administrators-tale-third-time-around-part-one/
-评论网址：https://news.ycombinator.com/item?id=41289199
-积分：1
-评论数：0]]></description>
-      <guid>https://fromtheheartofeurope.eu/the-administrators-tale-third-time-around-part-one/</guid>
-      <pubDate>Mon, 19 Aug 2024 08:57:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>你拿手机的方式不对</title>
-      <link>https://www.washingtonpost.com/technology/2024/07/11/holding-smartphone-wrong/</link>
-      <description><![CDATA[文章网址：https://www.washingtonpost.com/technology/2024/07/11/holding-smartphone-wrong/
-评论网址：https://news.ycombinator.com/item?id=41289195
-积分：1
-评论数：0]]></description>
-      <guid>https://www.washingtonpost.com/technology/2024/07/11/holding-smartphone-wrong/</guid>
-      <pubDate>Mon, 19 Aug 2024 08:56:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>GraphRAG 是一种结构化的层次化检索增强生成方法</title>
-      <link>https://microsoft.github.io/graphrag/</link>
-      <description><![CDATA[文章网址：https://microsoft.github.io/graphrag/
-评论网址：https://news.ycombinator.com/item?id=41289184
-积分：1
-评论数：0]]></description>
-      <guid>https://microsoft.github.io/graphrag/</guid>
-      <pubDate>Mon, 19 Aug 2024 08:53:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>亚马逊的送货无人机噪音非常大，就像一个“巨大的蜂巢”</title>
-      <link>https://www.businessinsider.com/amazon-prime-air-delivery-drones-too-loud-texas-2024-8</link>
-      <description><![CDATA[文章网址：https://www.businessinsider.com/amazon-prime-air-delivery-drones-too-loud-texas-2024-8
-评论网址：https://news.ycombinator.com/item?id=41289177
+      <title>边缘的 OpenVMS x86_64</title>
+      <link>http://jamespreciado.a2hosted.com/</link>
+      <description><![CDATA[文章网址：http://jamespreciado.a2hosted.com/
+评论网址：https://news.ycombinator.com/item?id=41290351
 积分：2
 评论数：0]]></description>
-      <guid>https://www.businessinsider.com/amazon-prime-air-delivery-drones-too-loud-texas-2024-8</guid>
-      <pubDate>Mon, 19 Aug 2024 08:52:37 GMT</pubDate>
+      <guid>http://jamespreciado.a2hosted.com/</guid>
+      <pubDate>Mon, 19 Aug 2024 12:13:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rspamd：开源垃圾邮件过滤系统</title>
+      <link>https://rspamd.com/</link>
+      <description><![CDATA[文章网址：https://rspamd.com/
+评论网址：https://news.ycombinator.com/item?id=41290350
+积分：2
+评论数：0]]></description>
+      <guid>https://rspamd.com/</guid>
+      <pubDate>Mon, 19 Aug 2024 12:13:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>从第一原理解释互联网</title>
+      <link>https://explained-from-first-principles.com/internet/</link>
+      <description><![CDATA[文章网址：https://explained-from-first-principles.com/internet/
+评论网址：https://news.ycombinator.com/item?id=41290297
+积分：1
+评论数：0]]></description>
+      <guid>https://explained-from-first-principles.com/internet/</guid>
+      <pubDate>Mon, 19 Aug 2024 12:06:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>首尔和釜山创下连续热带夜晚纪录</title>
+      <link>https://www.koreatimes.co.kr/www/nation/2024/08/113_380729.html</link>
+      <description><![CDATA[文章网址：https://www.koreatimes.co.kr/www/nation/2024/08/113_380729.html
+评论网址：https://news.ycombinator.com/item?id=41290286
+积分：1
+评论数：0]]></description>
+      <guid>https://www.koreatimes.co.kr/www/nation/2024/08/113_380729.html</guid>
+      <pubDate>Mon, 19 Aug 2024 12:04:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
