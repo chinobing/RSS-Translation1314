@@ -4,123 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 19 Aug 2024 01:10:14 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2024 03:18:03 GMT</lastBuildDate>
     <item>
-      <title>WISC 用户手册 (1960) [pdf]</title>
-      <link>http://www.bitsavers.org/pdf/univOfWiscMadison/wisc/WISC_UsersManual_1960.pdf</link>
-      <description><![CDATA[文章网址：http://www.bitsavers.org/pdf/univOfWiscMadison/wisc/WISC_UsersManual_1960.pdf
-评论网址：https://news.ycombinator.com/item?id=41286913
+      <title>问 HN：如果其他人不能编辑，“个人 wiki” 还是 wiki 吗？</title>
+      <link>https://news.ycombinator.com/item?id=41287440</link>
+      <description><![CDATA[根据定义，“wiki 是互联网上一种超文本出版物，由其受众通过网络浏览器直接协作编辑和管理。”(https://en.wikipedia.org/wiki/Wiki)强调“协作编辑”——如果只有一个人可以编辑内容，那么从定义上讲它就不是 wiki，对吗？互联网上有许多“个人 wiki”，每个 wiki 都只有其所有者可以编辑。我觉得这是对这个词的滥用。如果您同意我的观点，您认为这类系统更好的名字是什么？我自己倾向于“数字花园”，但我想听听您的想法。
+
+评论网址：https://news.ycombinator.com/item?id=41287440
 积分：1
 评论数：0]]></description>
-      <guid>http://www.bitsavers.org/pdf/univOfWiscMadison/wisc/WISC_UsersManual_1960.pdf</guid>
-      <pubDate>Mon, 19 Aug 2024 01:03:55 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=41287440</guid>
+      <pubDate>Mon, 19 Aug 2024 03:06:56 GMT</pubDate>
     </item>
     <item>
-      <title>咨询 HN：RFS：现代 SQL/db 编辑器</title>
-      <link>https://news.ycombinator.com/item?id=41286912</link>
-      <description><![CDATA[tldr：请有人构建一个现代 SQL 编辑器。我愿意为一个好的编辑器支付 20 美元/席位/月。强烈怀疑很多人也会这么做。-- 问题/抱怨我对现代基本数据库管理的故事变得如此陈旧感到越来越沮丧。近年来，开发人员体验的许多方面都得到了显着改善，但感觉数据库工具是一个巨大的垂直领域，并没有得到太多相同的 TLC。人们不经常使用 SQL 编辑器吗？我发现自己经常在开发过程中或解决生产问题时使用 cmd-tab 切换到 Postico 来检查/修改某些行。但是当我需要一个更高级/关系过滤器时，要么需要进行大量痛苦的点击，要么根本无法通过表格 UI 完成，现在我必须从头开始编写查询。如果这是一项常见的重复任务，您可以保存查询，但现在我有数百个这样的已保存查询，它们的名称都略有不同，以至于编写一个新查询然后查找并稍微修改旧查询就没那么费力了。不存在协作。我被迫通过 slack 共享这些查询或提交到我们存储库中的 `misc/*.sql` 文件夹，这感觉很尴尬。我尝试过的工具包括 Postico、DBeaver、TablePlus、Beekeeper Studio、PopSQL 和各种 VSCode 扩展。我不需要围绕 DB Ops 的功能，我使用 Neon/Supabase/etc，只是希望我永远不必考虑 DB ops。我几乎也不关心 SDL 任务，我主要通过我的 ORM（s/o Drizzle）来完成它-- 我的请求下面是我经常需要的功能的汇总。我会为一个可以实现其中一项功能的工具付费，但我认为所有功能都是非常有可能的，并且对我来说，编辑器的价值是其 100 倍：- 表格视图 - 直观的过滤 UI。您知道我的 `id` 列是文本，为什么默认过滤操作是 `&gt;`。我几乎从来不想让字符串列实现这一点。让我在时间戳过滤器中输入“昨天下午 3 点”。让我模糊搜索我的整个数据库（显然这对于​​大型数据库来说很难）
-
-- 关系过滤器。我应该能够按关系上的属性进行过滤。在解决生产问题时，我通常只获得用户名，现在在其他表中查找他们的记录变成了一个两步过程，首先找到用户的 ID，然后在我关心的表的过滤器中使用该 ID
-
-- 嵌入和格式化列。我有各种报告作为自定义查询/视图，我每周将其导出为 CSV 以提供给队友。我希望我可以将此视图作为 iframe 嵌入到我们的内部仪表板中。如果您愿意，请允许我像 Airtable 一样格式化列，甚至根据视图制作图表。这本身就很容易成为一项庞大的业务。
-
--- SQL 编辑器 - SQL 语言服务器/智能感知（h/t https://github.com/supabase-community/postgres_lsp）。我需要多说吗？
-
-- AI 自动完成和生成（a la Cursor）。我当前的工作流程是使用 cmd+tab 转到我的 ORM 定义文件，让光标为 Y 问题的 X 表提出 PSQL 查询，然后使用 cmd+tab 返回 Postico 运行它。
-
-- 笔记本。我想创建剧本与我的团队分享。事后分析，“这是我调试 XYZ 生产问题的方法”，等等。
-
-- 全方位搜索。让我使用 CMD+K 和模糊/语义搜索保存的查询、表格等。
-
-说实话，我已经考虑这个想法一年多了，并多次尝试自己构建它但都失败了（技能问题）。提出这个想法是希望更有经验的工程师有兴趣尝试一下。我会立即支付每月 20 美元以上，哪怕是部分解决方案，甚至可能为一些与团队相关的功能支付更多费用。如果您有兴趣接受此服务并希望进一步聊天，请在个人简介中发送电子邮件
-
-评论网址：https://news.ycombinator.com/item?id=41286912
+      <title>利用剪纸（日本剪纸）减少塑料运输废物</title>
+      <link>https://www.youtube.com/watch?v=BxVGLdMR_8A</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=BxVGLdMR_8A
+评论网址：https://news.ycombinator.com/item?id=41287426
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41286912</guid>
-      <pubDate>Mon, 19 Aug 2024 01:03:51 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=BxVGLdMR_8A</guid>
+      <pubDate>Mon, 19 Aug 2024 03:03:00 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Mini_KV – 极简内存键值存储</title>
-      <link>https://github.com/martinlevesque/mini_kv</link>
-      <description><![CDATA[这是一个基于 TCP 的键值服务器，支持一组最少的操作。主要是为了开始学习 golang - 这里没有什么太严肃的 :-)。如果您有改进代码、结构、样式或其他任何内容的建议，请随时发表评论。
-
-评论网址：https://news.ycombinator.com/item?id=41286905
+      <title>归档“著名的电脑咖啡馆”</title>
+      <link>https://blog.archive.org/2024/08/19/archiving-the-famous-computer-cafe/</link>
+      <description><![CDATA[文章网址：https://blog.archive.org/2024/08/19/archiving-the-famous-computer-cafe/
+评论网址：https://news.ycombinator.com/item?id=41287425
 积分：1
 评论数：0]]></description>
-      <guid>https://github.com/martinlevesque/mini_kv</guid>
-      <pubDate>Mon, 19 Aug 2024 01:02:05 GMT</pubDate>
+      <guid>https://blog.archive.org/2024/08/19/archiving-the-famous-computer-cafe/</guid>
+      <pubDate>Mon, 19 Aug 2024 03:02:52 GMT</pubDate>
     </item>
     <item>
-      <title>圣何塞的一次（真实）私刑：1933 年 11 月</title>
-      <link>https://albertcory50.substack.com/p/a-real-lynching-in-san-jose</link>
-      <description><![CDATA[文章网址：https://albertcory50.substack.com/p/a-real-lynching-in-san-jose
-评论网址：https://news.ycombinator.com/item?id=41286899
-积分：1
-评论数：0]]></description>
-      <guid>https://albertcory50.substack.com/p/a-real-lynching-in-san-jose</guid>
-      <pubDate>Mon, 19 Aug 2024 01:01:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：Next.js 项目的最佳身份验证提供商和数据库？</title>
-      <link>https://news.ycombinator.com/item?id=41286881</link>
-      <description><![CDATA[Next.js 项目的最佳身份验证提供商？如果有帮助，Repo 在这里：https://github.com/playfantasydraw/ably-nextjs-starter-kit该项目还使用 Ably 并部署在 Vercel 上。我有大量 Azure 积分，所以如果有好的 Azure 解决方案，那就太好了。使用数据库，每个登录用户都应该能够在比赛中拥有多个唯一条目。
-
-评论网址：https://news.ycombinator.com/item?id=41286881
-积分：1
-评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41286881</guid>
-      <pubDate>Mon, 19 Aug 2024 00:58:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们来到地球上就是为了四处闲逛，不要让任何人告诉你不同</title>
-      <link>https://twitter.com/Kurt_Vonnegut/status/1656194118534545409</link>
-      <description><![CDATA[文章网址：https://twitter.com/Kurt_Vonnegut/status/1656194118534545409
-评论网址：https://news.ycombinator.com/item?id=41286871
+      <title>财富 500 强企业警告称，人工智能对其业务的风险越来越大</title>
+      <link>https://www.ft.com/content/5ee96d38-f55b-4e8a-b5c1-e58ce3d4111f</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/5ee96d38-f55b-4e8a-b5c1-e58ce3d4111f
+评论网址：https://news.ycombinator.com/item?id=41287374
 积分：1
 评论数：1]]></description>
-      <guid>https://twitter.com/Kurt_Vonnegut/status/1656194118534545409</guid>
-      <pubDate>Mon, 19 Aug 2024 00:54:47 GMT</pubDate>
+      <guid>https://www.ft.com/content/5ee96d38-f55b-4e8a-b5c1-e58ce3d4111f</guid>
+      <pubDate>Mon, 19 Aug 2024 02:51:14 GMT</pubDate>
     </item>
     <item>
-      <title>短信营销 – 使用 Netcapz 向客户发送短信</title>
-      <link>https://netcapz.cloud/</link>
-      <description><![CDATA[文章网址：https://netcapz.cloud/
-评论网址：https://news.ycombinator.com/item?id=41286866
-积分：1
-评论数：1]]></description>
-      <guid>https://netcapz.cloud/</guid>
-      <pubDate>Mon, 19 Aug 2024 00:54:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 TCC 和 Bash 编写 C 脚本</title>
-      <link>https://alurm.github.io/blog/c-scripting-with-tcc-and-bash.html</link>
-      <description><![CDATA[文章网址：https://alurm.github.io/blog/c-scripting-with-tcc-and-bash.html
-评论网址：https://news.ycombinator.com/item?id=41286817
-积分：3
-评论数：0]]></description>
-      <guid>https://alurm.github.io/blog/c-scripting-with-tcc-and-bash.html</guid>
-      <pubDate>Mon, 19 Aug 2024 00:44:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>德克萨斯州地下物流运输规划设计</title>
-      <link>https://www.mdpi.com/2412-3811/9/8/130</link>
-      <description><![CDATA[文章网址：https://www.mdpi.com/2412-3811/9/8/130
-评论网址：https://news.ycombinator.com/item?id=41286787
-积分：2
-评论数：0]]></description>
-      <guid>https://www.mdpi.com/2412-3811/9/8/130</guid>
-      <pubDate>Mon, 19 Aug 2024 00:38:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>最适合问候的颜文字 – 用日语表情符号问好</title>
-      <link>https://www.cute-kaomoji.com/en/greetings</link>
-      <description><![CDATA[文章网址：https://www.cute-kaomoji.com/en/greetings
-评论网址：https://news.ycombinator.com/item?id=41286770
+      <title>剖析编程语言学习</title>
+      <link>https://arxiv.org/abs/2401.01257</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2401.01257
+评论网址：https://news.ycombinator.com/item?id=41287367
 积分：1
 评论数：0]]></description>
-      <guid>https://www.cute-kaomoji.com/en/greetings</guid>
-      <pubDate>Mon, 19 Aug 2024 00:35:28 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2401.01257</guid>
+      <pubDate>Mon, 19 Aug 2024 02:49:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>恐怖管理理论</title>
+      <link>https://en.wikipedia.org/wiki/Terror_management_theory</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Terror_management_theory
+评论网址：https://news.ycombinator.com/item?id=41287357
+积分：1
+评论数：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/Terror_management_theory</guid>
+      <pubDate>Mon, 19 Aug 2024 02:46:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>卫生与公众服务部要求提高员工工资，以加强“开端计划”</title>
+      <link>https://www.hhs.gov/about/news/2024/08/16/hhs-strengthens-head-start-requiring-higher-wages-staff.html</link>
+      <description><![CDATA[文章网址：https://www.hhs.gov/about/news/2024/08/16/hhs-strengthens-head-start-requiring-higher-wages-staff.html
+评论网址：https://news.ycombinator.com/item?id=41287345
+积分：1
+评论数：0]]></description>
+      <guid>https://www.hhs.gov/about/news/2024/08/16/hhs-strengthens-head-start-requiring-higher-wages-staff.html</guid>
+      <pubDate>Mon, 19 Aug 2024 02:43:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Geekbench 现在有一个 AI 基准</title>
+      <link>https://www.theverge.com/2024/8/15/24221382/geekbench-ai-benchmark-software</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/2024/8/15/24221382/geekbench-ai-benchmark-software
+评论网址：https://news.ycombinator.com/item?id=41287340
+积分：1
+评论数：0]]></description>
+      <guid>https://www.theverge.com/2024/8/15/24221382/geekbench-ai-benchmark-software</guid>
+      <pubDate>Mon, 19 Aug 2024 02:42:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>李·麦克斯韦尔迷人、古怪、幸福的一生</title>
+      <link>https://www.5280.com/the-charming-eccentric-blessed-life-of-lee-maxwell/</link>
+      <description><![CDATA[文章网址：https://www.5280.com/the-charming-eccentric-blessed-life-of-lee-maxwell/
+评论网址：https://news.ycombinator.com/item?id=41287326
+积分：1
+评论数：0]]></description>
+      <guid>https://www.5280.com/the-charming-eccentric-blessed-life-of-lee-maxwell/</guid>
+      <pubDate>Mon, 19 Aug 2024 02:40:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究：火星耶泽罗陨石坑的岩石可能早于地球生命</title>
+      <link>https://news.mit.edu/2024/study-mars-jezero-crater-rocks-contain-signs-of-water-0814</link>
+      <description><![CDATA[文章网址：https://news.mit.edu/2024/study-mars-jezero-crater-rocks-contain-signs-of-water-0814
+评论网址：https://news.ycombinator.com/item?id=41287323
+积分：1
+评论数：0]]></description>
+      <guid>https://news.mit.edu/2024/study-mars-jezero-crater-rocks-contain-signs-of-water-0814</guid>
+      <pubDate>Mon, 19 Aug 2024 02:40:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
