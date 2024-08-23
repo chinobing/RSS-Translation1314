@@ -4,24 +4,44 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 22 Aug 2024 21:16:44 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2024 01:08:57 GMT</lastBuildDate>
+    <item>
+      <title>苹果将​​更新欧盟浏览器选项，使更多应用程序可删除</title>
+      <link>https://www.reuters.com/technology/apple-update-eu-browser-options-make-more-apps-deletable-2024-08-22/</link>
+      <description><![CDATA[文章网址：https://www.reuters.com/technology/apple-update-eu-browser-options-make-more-apps-deletable-2024-08-22/
+评论网址：https://news.ycombinator.com/item?id=41325184
+积分：12
+评论数：15]]></description>
+      <guid>https://www.reuters.com/technology/apple-update-eu-browser-options-make-more-apps-deletable-2024-08-22/</guid>
+      <pubDate>Thu, 22 Aug 2024 23:41:06 GMT</pubDate>
+    </item>
     <item>
       <title>编程语言到底意味着什么？（2021）[pdf]</title>
       <link>https://dl.acm.org/doi/pdf/10.1145/3480947</link>
       <description><![CDATA[文章网址：https://dl.acm.org/doi/pdf/10.1145/3480947
 评论网址：https://news.ycombinator.com/item?id=41323923
-积分：17
-评论数：1]]></description>
+积分：40
+评论数：0]]></description>
       <guid>https://dl.acm.org/doi/pdf/10.1145/3480947</guid>
       <pubDate>Thu, 22 Aug 2024 20:03:24 GMT</pubDate>
     </item>
     <item>
-      <title>Python 的预处理器 – Pydong</title>
+      <title>实现大幅减排的气候政策</title>
+      <link>https://www.science.org/doi/10.1126/science.adl6547</link>
+      <description><![CDATA[文章网址：https://www.science.org/doi/10.1126/science.adl6547
+评论网址：https://news.ycombinator.com/item?id=41322955
+积分：31
+评论数：9]]></description>
+      <guid>https://www.science.org/doi/10.1126/science.adl6547</guid>
+      <pubDate>Thu, 22 Aug 2024 18:13:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Python 的预处理器</title>
       <link>https://pydong.org/posts/PythonsPreprocessor/</link>
       <description><![CDATA[文章网址：https://pydong.org/posts/PythonsPreprocessor/
 评论网址：https://news.ycombinator.com/item?id=41322758
-积分：99
-评论数：29]]></description>
+积分：168
+评论数：44]]></description>
       <guid>https://pydong.org/posts/PythonsPreprocessor/</guid>
       <pubDate>Thu, 22 Aug 2024 17:54:25 GMT</pubDate>
     </item>
@@ -33,11 +53,11 @@
       <pubDate>Thu, 22 Aug 2024 17:51:01 GMT</pubDate>
     </item>
     <item>
-      <title>更快的逆 BWT</title>
+      <title>更快的逆 BWT（2021）</title>
       <link>http://cbloomrants.blogspot.com/2021/03/faster-inverse-bwt.html</link>
       <description><![CDATA[文章网址：http://cbloomrants.blogspot.com/2021/03/faster-inverse-bwt.html
 评论网址：https://news.ycombinator.com/item?id=41322655
-积分：15
+积分：37
 评论数：1]]></description>
       <guid>http://cbloomrants.blogspot.com/2021/03/faster-inverse-bwt.html</guid>
       <pubDate>Thu, 22 Aug 2024 17:42:02 GMT</pubDate>
@@ -47,7 +67,7 @@
       <link>https://garrettdimon.com/journal/posts/data-modeling-saas-entitlements-and-pricing</link>
       <description><![CDATA[文章网址：https://garrettdimon.com/journal/posts/data-modeling-saas-entitlements-and-pricing
 评论网址：https://news.ycombinator.com/item?id=41322603
-积分：12
+积分：30
 评论数：0]]></description>
       <guid>https://garrettdimon.com/journal/posts/data-modeling-saas-entitlements-and-pricing</guid>
       <pubDate>Thu, 22 Aug 2024 17:37:31 GMT</pubDate>
@@ -73,8 +93,8 @@ return
 Instant 为您提供了一个可以在浏览器中直接订阅的数据库。您可以按照所需数据的形式编写关系查询，我们会处理所有数据提取、权限检查和离线缓存。当您编写事务时，乐观更新和回滚也会为您处理。在后台，我们将数据以三元组的形式保存到 postgres，并编写了一个用于提取数据的数据日志引擎 [3]。我们不希望您编写数据日志查询，因此我们编写了一种不需要任何构建步骤的类似 graphql 的查询语言。从 Asana 的 WorldStore 和 Figma 的 LiveGraph 中汲取灵感，我们跟踪 postgres 的 WAL 以检测新颖性并使用 last-write-win 语义来处理冲突 [4][5]。我们还处理 websocket 连接并将数据持久保存到 Web 上的 IndexDB 和用于 React Native 的 AsyncStorage，为您提供免费的多人游戏和离线模式。这是 Linear 用来支持其同步并更快地构建更好功能的那种基础设施 [6]。 Instant 为您提供了此基础架构，因此您可以专注于重要的事情：为您的用户构建出色的用户体验，并快速完成。我们提供身份验证、权限和仪表板，其中包含一套工具，供您浏览和管理数据。我们还支持短暂功能，如状态（例如共享光标）和广播（例如实时反应）[7][8]。我们有一个免费的托管解决方案，我们不会暂停项目，我们不限制活动应用程序的数量，并且我们对商业用途没有任何限制。我们可以做到这一点，因为我们的架构不需要为每个应用程序启动单独的服务器。当您准备好发展时，我们有可与您一起扩展的付费计划。当然，您可以自行托管后端和仪表板工具。立即在 https://instantdb.com/tutorial 上试用，并在 https://github.com/instantdb/instant 上查看我们的代码&gt;我们喜欢反馈:)[1] https://www.instantdb.com/essays/db_browser[2] https://www.instantdb.com/essays/next_firebase[3] https://www.instantdb.com/essays/datalogjs[4] https://asana.com/inside-asana/worldstore-distributed-cachin...[5] https://www.figma.com/blog/how-figmas-multiplayer-technology...[6] https://www.youtube.com/live/WxK11RsLqp4?t=2175s[7] https://www.joewords.com/posts/cursors[8] https://www.instantdb.com/examples?#5-reactions
 
 评论网址：https://news.ycombinator.com/item?id=41322281
-积分：249
-评论数： 74]]></description>
+积分：429
+评论数： 111]]></description>
       <guid>https://github.com/instantdb/instant</guid>
       <pubDate>Thu, 22 Aug 2024 17:08:50 GMT</pubDate>
     </item>
@@ -93,31 +113,10 @@ Instant 为您提供了一个可以在浏览器中直接订阅的数据库。您
       <link>https://www.youtube.com/watch?v=drwJBzDM1jI</link>
       <description><![CDATA[文章网址：https://www.youtube.com/watch?v=drwJBzDM1jI
 评论网址：https://news.ycombinator.com/item?id=41321998
-积分：48
-评论数：13]]></description>
+积分：67
+评论数：16]]></description>
       <guid>https://www.youtube.com/watch?v=drwJBzDM1jI</guid>
       <pubDate>Thu, 22 Aug 2024 16:36:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Aerc：精心设计的电子邮件 TUI</title>
-      <link>https://blog.sergeantbiggs.net/posts/aerc-a-well-crafted-tui-for-email/</link>
-      <description><![CDATA[文章网址：https://blog.sergeantbiggs.net/posts/aerc-a-well-crafted-tui-for-email/
-评论网址：https://news.ycombinator.com/item?id=41321981
-积分：137
-评论数：78]]></description>
-      <guid>https://blog.sergeantbiggs.net/posts/aerc-a-well-crafted-tui-for-email/</guid>
-      <pubDate>Thu, 22 Aug 2024 16:34:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>启动 HN：Arva AI (YC S24) – 用于即时全球 KYB 入职的 AI 代理</title>
-      <link>https://news.ycombinator.com/item?id=41321936</link>
-      <description><![CDATA[嗨，HN！我们是 Rhim 和 Oli，我们正在构建 Arva AI (https://arva-ai.com)。Arva 使用 AI 代理来自动执行每家银行/金融科技公司在获得新商业客户时都会进行的手动验证。这被称为“了解您的业务”合规性（简称 KYB），这非常麻烦。这里有一个演示视频：https://www.arva-ai.com/loom，如果你想亲自尝试一下，你可以加入“Arva Bank”，看看当你上传一些虚假文件时会发生什么：https://platform.arva-ai.com/demo（但请不要上传任何敏感文件！）这是关于什么的？当企业加入银行或金融科技公司时（即申请成为客户），人工分析师必须经常进行大量的手动验证。这会导致入职时间过长，而且维护合规团队和纠正错误的成本也很高——因为人工分析师经常偏离程序。我 (Rhim) 以前领导过 Revolut Business 的 FinCrime 产品团队。每天有数百名 (!) KYB 分析师进行数万次人工审核！事实证明，这几乎适用于全球所有司法管辖区的所有金融科技公司，而这个问题现在可以通过结合 AI、数据和业务逻辑来解决。大多数人工验证工作分为三类：文档验证（例如公司章程）；弄清业务活动（例如，企业是否做了允许的事情）；与客户沟通（以确保他们提供正确的信息）。为客户处理所有这些工作非常耗时。拥有一支人工团队会导致巨大的合规开销，这通常也会使扩展变得非常困难。与客户通过电子邮件来回沟通数天会带来糟糕的体验，导致客户流失，从而造成收入损失。事实上，在美国，缓慢的客户入职每年导致金融科技公司损失 100 亿美元收入 (https://resources.fenergo.com/newsroom/poor-customer-experie...)!有趣的是，这个领域结构化和形式化程度如此之高，以至于它与当前一代的 AI 工具非常匹配。进入 Arva AI。我们构建了一个高度合规的 AI 代理，可在客户入职时即时处理所有低/中等风险的手动 KYB 工作，将审核时间缩短至几秒钟，并将运营成本降低 80%。Arva AI 的代理可以在全球范围内运行，既可以用作独立的 KYB 代理，也可以分层到已实施的合规堆栈中。我们专注于实时审查文档、网站和社交资料，然后与客户沟通，以便他们在入职流程中纠正错误信息。查看（https://www.arva-ai.com/loom）了解概述，并亲自尝试，网址为https://platform.arva-ai.com/demo。我们很乐意听取您的反馈，特别是如果您与金融科技领域有联系，我们期待大家的评论！
-
-评论网址：https://news.ycombinator.com/item?id=41321936
-要点： 48
-# 评论数：29]]></description>
-      <guid>https://news.ycombinator.com/item?id=41321936</guid>
-      <pubDate>Thu, 22 Aug 2024 16:28:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
