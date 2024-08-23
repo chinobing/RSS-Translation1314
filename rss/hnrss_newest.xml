@@ -4,107 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 23 Aug 2024 15:19:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2024 18:20:57 GMT</lastBuildDate>
     <item>
-      <title>中国机器人制造商追赶特斯拉，为人类提供机器人工人</title>
-      <link>https://www.reuters.com/technology/chinas-robot-makers-chase-tesla-deliver-humanoid-workers-2024-08-23/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/technology/chinas-robot-makers-chase-tesla-deliver-humanoid-workers-2024-08-23/
-评论网址：https://news.ycombinator.com/item?id=41329693
-积分：1
-评论数：0]]></description>
-      <guid>https://www.reuters.com/technology/chinas-robot-makers-chase-tesla-deliver-humanoid-workers-2024-08-23/</guid>
-      <pubDate>Fri, 23 Aug 2024 15:12:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>输入咖啡，输出代码：人工智能如何将资本转化为劳动力</title>
-      <link>https://a16z.com/ai-turns-capital-to-labor/</link>
-      <description><![CDATA[文章网址：https://a16z.com/ai-turns-capital-to-labor/
-评论网址：https://news.ycombinator.com/item?id=41329688
-积分：1
-评论数：0]]></description>
-      <guid>https://a16z.com/ai-turns-capital-to-labor/</guid>
-      <pubDate>Fri, 23 Aug 2024 15:12:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>塔尼娅·史密斯窃取 4000 万美元，躲避联邦调查局追捕并越狱</title>
-      <link>https://www.theguardian.com/books/article/2024/aug/22/tanya-smith-stole-40m-evaded-fbi-broke-out-prison</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/books/article/2024/aug/22/tanya-smith-stole-40m-evaded-fbi-broke-out-prison
-评论网址：https://news.ycombinator.com/item?id=41329685
-积分：1
-评论数：0]]></description>
-      <guid>https://www.theguardian.com/books/article/2024/aug/22/tanya-smith-stole-40m-evaded-fbi-broke-out-prison</guid>
-      <pubDate>Fri, 23 Aug 2024 15:11:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Erlang、OCaml，同一件事 [视频]</title>
-      <link>https://media.ccc.de/v/bob11-2024-erlang-ocaml-same-thing-ostera</link>
-      <description><![CDATA[文章网址：https://media.ccc.de/v/bob11-2024-erlang-ocaml-same-thing-ostera
-评论网址：https://news.ycombinator.com/item?id=41329684
-积分：1
-评论数：0]]></description>
-      <guid>https://media.ccc.de/v/bob11-2024-erlang-ocaml-same-thing-ostera</guid>
-      <pubDate>Fri, 23 Aug 2024 15:11:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：前雇主、健康保险公司是否存在安全疏忽？</title>
-      <link>https://news.ycombinator.com/item?id=41329682</link>
-      <description><![CDATA[我认为我以前的雇主可能在数据安全方面存在刑事疏忽，我正在寻求有关如何处理或是否可以采取任何措施的建议。InsCo 在 2023 年遭受了勒索软件攻击，影响了大约 900 万客户，其中大部分是医疗补助计划的接受者。被泄露的数据包括常见的 PII：SSN、DL 号码、地址、DOB 等。他们的 IT 基础设施由 Ruby on Rails 和 .NET 应用程序组合而成。入侵后，构建 Rails 应用程序的机构被解雇。2024 年 5 月，我被任命领导负责升级 Rails 应用程序的团队。我们所有人都是承包商。以下是我了解到的他们所采用的流程以及 Rails 应用程序本身。截至 2024 年 8 月：1. 该应用程序在 Ruby 1.9.3 上运行，该版本于 2013 年达到 EOL。2.它使用了 Ruby on Rails 3.1，该版本于 2016 年达到 EOL。3. 操作系统是 CentOS7，该版本于 2024 年 7 月达到 EOL。4. 没有对应用程序进行容器化；开发和生产都在定制的 AWS 沙箱上进行。当我们设法让应用程序在 Docker 中运行时，Docker Scout 报告了大约 650 个漏洞。5. 没有围绕安全编码实践的流程，无论是自动的还是手动的。6. 不鼓励进行单元测试，而且不稳定。我要求对所有 PR 进行单元测试，但 Director X 推翻了这个决定，说“测试是可以接受的，但不鼓励。”现有测试不可靠，因为共享测试数据库会导致数据完整性问题。7. 不鼓励进行代码审查。团队开始使用 PR，但 Director X 禁止使用它们，称这会使审计更加困难。他更喜欢使用附加到 Jira 问题的文本文件，当我请求模板时，他很生气。8.管理层很少记录请求/命令，并忽略了明确的书面反馈请求。悬而未决的问题经常得不到回答。9. 所有代码更改都必须经过管理层批准才能合并到主版本，并且所有合并到主版本的操作都由管理层完成。10. 库更改（无论是小版本升级还是对不同库的更改）也需要管理层批准。11. 没有 DataDog 或 New Relic 等生产监控。12. 医疗补助数据是从 CriticallyImportantToTheElection 州以未加密的 XML 数据 zip 格式接收的，并使用 FTP 上传。甚至不是 SFTP，只是原始 FTP。13. 整个升级团队于 2024 年 8 月初被解雇，没有任何解释。我们正开始取得良好进展，然后......砰。我们的 GitHub 访问权限被撤销，我们不再有权访问 Jira 或 Teams。没有就原因进行任何沟通。14.从 CentOS7 升级到 RHEL9 的尝试也失败了；当我离开时，他们仍在使用过时的 CentOS7。这种情况似乎反映了严重的疏忽，如果不是故意忽视的话。HN 对此事有什么建议？有没有执法或监管机构可能感兴趣？数百万人的个人数据仍然暴露在外，这些数据对于州和联邦保护工作至关重要。至少，这似乎是无能的结果，如果不是恶意的。如果可能的话，我希望采取行动。
+      <title>询问 HN：2016 年和 2020 年选举投票的时间序列</title>
+      <link>https://news.ycombinator.com/item?id=41331497</link>
+      <description><![CDATA[有人知道选举当天县投票时间序列的良好来源吗？我确实找到了一些很好的纽约时报 API，但它们不包含县投票的时间序列，只有州https://static01.nyt.com/elections-assets/2020/data/api/2020-11-03/national-map-page/national/president.json
 
-评论网址：https://news.ycombinator.com/item?id=41329682
+评论网址：https://news.ycombinator.com/item?id=41331497
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41329682</guid>
-      <pubDate>Fri, 23 Aug 2024 15:11:46 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=41331497</guid>
+      <pubDate>Fri, 23 Aug 2024 18:13:35 GMT</pubDate>
     </item>
     <item>
-      <title>专家称阿尔茨海默病可能不是脑部疾病</title>
-      <link>https://www.sciencealert.com/alzheimers-may-not-actually-be-a-brain-disease-expert-reveals</link>
-      <description><![CDATA[文章网址：https://www.sciencealert.com/alzheimers-may-not-actually-be-a-brain-disease-expert-reveals
-评论网址：https://news.ycombinator.com/item?id=41329672
+      <title>具有增强功率密度的柔性纳米发电机可与太阳能电池板媲美</title>
+      <link>https://techxplore.com/news/2024-08-flexible-nanogenerator-power-density-day.html</link>
+      <description><![CDATA[文章网址：https://techxplore.com/news/2024-08-flexible-nanogenerator-power-density-day.html
+评论网址：https://news.ycombinator.com/item?id=41331470
 积分：1
 评论数：0]]></description>
-      <guid>https://www.sciencealert.com/alzheimers-may-not-actually-be-a-brain-disease-expert-reveals</guid>
-      <pubDate>Fri, 23 Aug 2024 15:11:00 GMT</pubDate>
+      <guid>https://techxplore.com/news/2024-08-flexible-nanogenerator-power-density-day.html</guid>
+      <pubDate>Fri, 23 Aug 2024 18:10:57 GMT</pubDate>
     </item>
     <item>
-      <title>“龙卷风水龙卷”可能使一位亿万富翁的游艇在西西里岛附近沉没</title>
-      <link>https://www.smithsonianmag.com/smart-news/a-tornadic-waterspout-likely-sank-a-billionaires-yacht-near-sicily-heres-what-that-means-180984957/</link>
-      <description><![CDATA[文章网址：https://www.smithsonianmag.com/smart-news/a-tornadic-waterspout-likely-sank-a-billionaires-yacht-near-sicily-heres-what-that-means-180984957/
-评论网址：https://news.ycombinator.com/item?id=41329670
-积分：1
-评论数： 0]]></description>
-      <guid>https://www.smithsonianmag.com/smart-news/a-tornadic-waterspout-likely-sank-a-billionaires-yacht-near-sicily-heres-what-that-means-180984957/</guid>
-      <pubDate>Fri, 23 Aug 2024 15:10:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Rails 中生成酷炫 ID</title>
-      <link>https://schpet.com/note/cool-id</link>
-      <description><![CDATA[文章网址：https://schpet.com/note/cool-id
-评论网址：https://news.ycombinator.com/item?id=41329669
+      <title>在 Apple IIe 上聆听音乐并观看复古浪潮幻灯片 – Byte Cellar</title>
+      <link>https://bytecellar.com/2024/08/22/vibing-with-some-tunes-and-a-retro-wave-slideshow-on-the-apple-iie/</link>
+      <description><![CDATA[文章网址：https://bytecellar.com/2024/08/22/vibing-with-some-tunes-and-a-retro-wave-slideshow-on-the-apple-iie/
+评论网址：https://news.ycombinator.com/item?id=41331458
 积分：1
 评论数：0]]></description>
-      <guid>https://schpet.com/note/cool-id</guid>
-      <pubDate>Fri, 23 Aug 2024 15:10:51 GMT</pubDate>
+      <guid>https://bytecellar.com/2024/08/22/vibing-with-some-tunes-and-a-retro-wave-slideshow-on-the-apple-iie/</guid>
+      <pubDate>Fri, 23 Aug 2024 18:09:26 GMT</pubDate>
     </item>
     <item>
-      <title>一场迫在眉睫的流行病可能就隐藏在我们的食物中</title>
-      <link>https://studyfinds.org/looming-pandemic-hiding-food/</link>
-      <description><![CDATA[文章网址：https://studyfinds.org/looming-pandemic-hiding-food/
-评论网址：https://news.ycombinator.com/item?id=41329668
+      <title>人工智能安全保障路线图 [pdf]</title>
+      <link>https://www.faa.gov/media/82891</link>
+      <description><![CDATA[文章网址：https://www.faa.gov/media/82891
+评论网址：https://news.ycombinator.com/item?id=41331443
+积分：1
+评论数：1]]></description>
+      <guid>https://www.faa.gov/media/82891</guid>
+      <pubDate>Fri, 23 Aug 2024 18:08:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>蒂姆·斯崔克的《阿兹塔拉克：最终章》 (2017)</title>
+      <link>https://arcadeblogger.com/2017/12/08/tim-strykers-aztarac-the-final-chapter/</link>
+      <description><![CDATA[文章网址：https://arcadeblogger.com/2017/12/08/tim-strykers-aztarac-the-final-chapter/
+评论网址：https://news.ycombinator.com/item?id=41331442
 积分：1
 评论数：0]]></description>
-      <guid>https://studyfinds.org/looming-pandemic-hiding-food/</guid>
-      <pubDate>Fri, 23 Aug 2024 15:10:44 GMT</pubDate>
+      <guid>https://arcadeblogger.com/2017/12/08/tim-strykers-aztarac-the-final-chapter/</guid>
+      <pubDate>Fri, 23 Aug 2024 18:08:21 GMT</pubDate>
     </item>
     <item>
-      <title>到 2070 年，人类将侵占超过 50% 陆地上的野生动物栖息地</title>
-      <link>https://www.theguardian.com/environment/article/2024/aug/21/humans-to-push-further-into-wildlife-habitats-across-more-than-50-of-land-by-2070-study-aoe</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/environment/article/2024/aug/21/humans-to-push-further-into-wildlife-habitats-across-more-than-50-of-land-by-2070-study-aoe
-评论网址：https://news.ycombinator.com/item?id=41329667
-要点： 1
-# 评论：0]]></description>
-      <guid>https://www.theguardian.com/environment/article/2024/aug/21/humans-to-push-further-into-wildlife-habitats-across-more-than-50-of-land-by-2070-study-aoe</guid>
-      <pubDate>Fri, 23 Aug 2024 15:10:35 GMT</pubDate>
+      <title>美国起诉 GA Tech 涉嫌作为五角大楼承包商存在网络安全漏洞</title>
+      <link>https://www.theregister.com/2024/08/23/us_georgia_tech_lawsuit/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2024/08/23/us_georgia_tech_lawsuit/
+评论网址：https://news.ycombinator.com/item?id=41331409
+积分：2
+评论数：0]]></description>
+      <guid>https://www.theregister.com/2024/08/23/us_georgia_tech_lawsuit/</guid>
+      <pubDate>Fri, 23 Aug 2024 18:03:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>一项历史悠久的策略让你的退休面临财务危机</title>
+      <link>https://www.wsj.com/finance/investing/60-40-portfolio-retirement-61716c4d</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/finance/investing/60-40-portfolio-retirement-61716c4d
+评论网址：https://news.ycombinator.com/item?id=41331403
+积分：2
+评论数：0]]></description>
+      <guid>https://www.wsj.com/finance/investing/60-40-portfolio-retirement-61716c4d</guid>
+      <pubDate>Fri, 23 Aug 2024 18:03:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Perplexity AI 计划于第四季度开始投放广告</title>
+      <link>https://www.cnbc.com/2024/08/22/perplexity-ai-plans-to-start-running-search-ads-in-fourth-quarter.html</link>
+      <description><![CDATA[文章网址：https://www.cnbc.com/2024/08/22/perplexity-ai-plans-to-start-running-search-ads-in-fourth-quarter.html
+评论网址：https://news.ycombinator.com/item?id=41331383
+积分：3
+评论数：0]]></description>
+      <guid>https://www.cnbc.com/2024/08/22/perplexity-ai-plans-to-start-running-search-ads-in-fourth-quarter.html</guid>
+      <pubDate>Fri, 23 Aug 2024 18:01:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chick-Fil-A 计划推出流媒体服务</title>
+      <link>https://deadline.com/2024/08/chick-fil-a-hatches-streaming-service-1236044196/</link>
+      <description><![CDATA[文章网址：https://deadline.com/2024/08/chick-fil-a-hatches-streaming-service-1236044196/
+评论网址：https://news.ycombinator.com/item?id=41331372
+积分：2
+评论数：0]]></description>
+      <guid>https://deadline.com/2024/08/chick-fil-a-hatches-streaming-service-1236044196/</guid>
+      <pubDate>Fri, 23 Aug 2024 18:00:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple Vision Pro 遭遇困境后，Meta 取消了高端混合现实耳机</title>
+      <link>https://www.macrumors.com/2024/08/23/meta-cancels-high-end-headset/</link>
+      <description><![CDATA[文章网址：https://www.macrumors.com/2024/08/23/meta-cancels-high-end-headset/
+评论网址：https://news.ycombinator.com/item?id=41331369
+积分：4
+评论数：1]]></description>
+      <guid>https://www.macrumors.com/2024/08/23/meta-cancels-high-end-headset/</guid>
+      <pubDate>Fri, 23 Aug 2024 18:00:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
