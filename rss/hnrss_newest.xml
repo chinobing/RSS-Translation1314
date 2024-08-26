@@ -4,107 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 25 Aug 2024 21:14:28 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2024 01:09:45 GMT</lastBuildDate>
     <item>
-      <title>用于调试 ActivityPub 和 Fediverse 的浏览器</title>
-      <link>https://browser.pub/</link>
-      <description><![CDATA[文章网址：https://browser.pub/
-评论网址：https://news.ycombinator.com/item?id=41351408
-积分：2
-评论数：0]]></description>
-      <guid>https://browser.pub/</guid>
-      <pubDate>Sun, 25 Aug 2024 21:04:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pi Pico 2 Extreme 拆解</title>
-      <link>http://electronupdate.blogspot.com/2024/08/pi-pico-2-extreme-teardown.html</link>
-      <description><![CDATA[文章网址：http://electronupdate.blogspot.com/2024/08/pi-pico-2-extreme-teardown.html
-评论网址：https://news.ycombinator.com/item?id=41351380
-积分：1
-评论数：1]]></description>
-      <guid>http://electronupdate.blogspot.com/2024/08/pi-pico-2-extreme-teardown.html</guid>
-      <pubDate>Sun, 25 Aug 2024 21:01:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Restyle – React 的零配置 CSS</title>
-      <link>https://www.restyle.dev/</link>
-      <description><![CDATA[文章网址：https://www.restyle.dev/
-评论网址：https://news.ycombinator.com/item?id=41351377
+      <title>考虑到编码员和程序员之间的历史区别</title>
+      <link>https://cacm.acm.org/opinion/the-myth-of-the-coder/</link>
+      <description><![CDATA[文章网址：https://cacm.acm.org/opinion/the-myth-of-the-coder/
+评论网址：https://news.ycombinator.com/item?id=41352999
 积分：1
 评论数：0]]></description>
-      <guid>https://www.restyle.dev/</guid>
-      <pubDate>Sun, 25 Aug 2024 21:00:41 GMT</pubDate>
+      <guid>https://cacm.acm.org/opinion/the-myth-of-the-coder/</guid>
+      <pubDate>Mon, 26 Aug 2024 01:05:53 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Isoflow.io – 文本转图表 v1</title>
-      <link>https://news.ycombinator.com/item?id=41351356</link>
-      <description><![CDATA[我一直想尝试的一个想法是从文本生成图表，这个周末我设法整理了一个演示并将其发布到 Isoflow.io（您可以在 https://isoflow.io/app 免费试用，只需单击带有 AI 图标的按钮即可开始生成）。这个想法很简单，但结果却出奇地好。尽管我最初构建 isoflow 是为了可视化网络架构，但没有什么可以阻止您超越网络并生成任何您感兴趣的东西（只要它可以在图表上可视化）。例如，尝试写下提示“向我展示美国政治体系的组织结构”，您就会明白我的意思。作为一名视觉学习者，我已经发现此功能对于深入了解不同类型的组织结构非常有用（我一直在问从亚马逊的组织方式到锡那罗亚集团的结构的问题）。输出还不完美，但作为第一次迭代，它已经感觉非常有用，而且我相信在优化我使用的提示方面还有很多改进空间。现在谈谈技术方面。文本转图表在后台使用 OpenAI 的 GPT API（这并不奇怪！）。正如我所提到的，我已经考虑这个实验有一段时间了，但是在我最近阅读有关新的“结构化输出”功能后，它再次浮出水面，该功能允许您将 JSON 模式传递给 GPT，以便可以将响应格式化为该模式。这非常有用，并且使 GPT 使用与 Isoflow 相同的语言变得轻而易举。有了这个，我构建了一个可以接受提示的简单界面。没什么复杂的，主要只是一个文本框，但在生成几个图表后，我发现 ChatGPT 并不擅长在图表上定位节点。很多时候，节点彼此太近或太远，使得关系难以看出（并且这使得输出几乎无用）。因此，下一步，我开始尝试自动布局算法，主要是力导向图绘制。力导向算法本质上将节点视为物理对象，将连接器视为橡皮筋，并通过物理模型运行您的图表。最终，连接的节点开始拉得更近，结果是一个更整洁的布局，其中一切都更加合乎逻辑地分开。所以现在我使用 GPT 来生成内容，布局算法处理让事物看起来漂亮。我感兴趣的是其他人是否觉得这个功能有用，尤其是像我这样的视觉学习者，我也感兴趣的是人们用它来可视化什么。只要成本不会失控，我就会尽量保持这个功能免费。请在评论中告诉我你的想法。
+      <title>Uber 新西兰上诉失败，法院裁定司机是雇员而非承包商</title>
+      <link>https://www.nzherald.co.nz/business/uber-loses-landmark-appeal-court-rules-drivers-are-employees-not-contractors/JDXF52QBBBHPJIQJNFNGYC4JOE/</link>
+      <description><![CDATA[文章网址：https://www.nzherald.co.nz/business/uber-loses-landmark-appeal-court-rules-drivers-are-employees-not-contractors/JDXF52QBBBHPJIQJNFNGYC4JOE/
+评论网址：https://news.ycombinator.com/item?id=41352997
+积分：1
+评论数：0]]></description>
+      <guid>https://www.nzherald.co.nz/business/uber-loses-landmark-appeal-court-rules-drivers-are-employees-not-contractors/JDXF52QBBBHPJIQJNFNGYC4JOE/</guid>
+      <pubDate>Mon, 26 Aug 2024 01:05:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：YC 2024 秋季班</title>
+      <link>https://news.ycombinator.com/item?id=41352991</link>
+      <description><![CDATA[还有人注意到 YC 正在大力推广他们的秋季班吗？他们的 YouTube 视频中有一些不寻常的介绍广告，似乎不符合 YC 和 YouTube 的风格。感觉他们比平时更努力地推广这一批。有什么变化吗？
 
-评论网址：https://news.ycombinator.com/item?id=41351356
+评论网址：https://news.ycombinator.com/item?id=41352991
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41351356</guid>
-      <pubDate>Sun, 25 Aug 2024 20:57:53 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=41352991</guid>
+      <pubDate>Mon, 26 Aug 2024 01:05:22 GMT</pubDate>
     </item>
     <item>
-      <title>使用 SIMD 进行快速不区分大小写的搜索</title>
-      <link>https://bold-edit.com/blog/fast-case-insensitive-search.html</link>
-      <description><![CDATA[文章网址：https://bold-edit.com/blog/fast-case-insensitive-search.html
-评论网址：https://news.ycombinator.com/item?id=41351341
+      <title>如何 3D 打印玻璃？</title>
+      <link>https://spectrum.ieee.org/glass-3d-printing</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/glass-3d-printing
+评论网址：https://news.ycombinator.com/item?id=41352987
 积分：1
 评论数：0]]></description>
-      <guid>https://bold-edit.com/blog/fast-case-insensitive-search.html</guid>
-      <pubDate>Sun, 25 Aug 2024 20:55:54 GMT</pubDate>
+      <guid>https://spectrum.ieee.org/glass-3d-printing</guid>
+      <pubDate>Mon, 26 Aug 2024 01:04:39 GMT</pubDate>
     </item>
     <item>
-      <title>节目 HN：RealityPong</title>
-      <link>https://realitypong.com/</link>
-      <description><![CDATA[文章网址：https://realitypong.com/
-评论网址：https://news.ycombinator.com/item?id=41351292
+      <title>CL-32 是一款 DIY 袖珍电脑，配有拇指键盘、电子墨水屏和 ESP32-S3</title>
+      <link>https://liliputing.com/cl-32-is-a-diy-pocket-computer-with-a-thumb-keyboard-e-ink-screen-and-esp32-s3-chip/</link>
+      <description><![CDATA[文章网址：https://liliputing.com/cl-32-is-a-diy-pocket-computer-with-a-thumb-keyboard-e-ink-screen-and-esp32-s3-chip/
+评论网址：https://news.ycombinator.com/item?id=41352984
 积分：1
 评论数：0]]></description>
-      <guid>https://realitypong.com/</guid>
-      <pubDate>Sun, 25 Aug 2024 20:50:22 GMT</pubDate>
+      <guid>https://liliputing.com/cl-32-is-a-diy-pocket-computer-with-a-thumb-keyboard-e-ink-screen-and-esp32-s3-chip/</guid>
+      <pubDate>Mon, 26 Aug 2024 01:03:56 GMT</pubDate>
     </item>
     <item>
-      <title>数据库“分片”源自《网络创世纪》？</title>
-      <link>https://www.raphkoster.com/2009/01/08/database-sharding-came-from-uo/</link>
-      <description><![CDATA[文章网址：https://www.raphkoster.com/2009/01/08/database-sharding-came-from-uo/
-评论网址：https://news.ycombinator.com/item?id=41351219
-积分：4
+      <title>展示 HN：我正在创建下一个大型社交媒体平台 – 评分</title>
+      <link>https://www.rated.fun/Welcome</link>
+      <description><![CDATA[大家好，我一直在努力完成我的副业，现在将尝试将其转变为我的主要项目。Rated 是一个针对媒体、地点和产品的社交评级平台。通过将所有内容集中在一个地方，可以更轻松地添加好友、关注和比较评级。它有一些很酷的数据功能，例如每个用户之间的相似度得分和每个项目的预测评级。主要目的是帮助人们以有趣和社交的方式发现最佳内容。我已经创建了一个网站（还不是很漂亮）并在应用商店上线，但还有很长的路要走。仍未正确验证该想法，需要获得一些用户。我很乐意听取关于该想法、登录页面的反馈，如果您有兴趣尝试，请对应用程序本身提供反馈。
+
+评论网址：https://news.ycombinator.com/item?id=41352968
+积分：1
 评论数：0]]></description>
-      <guid>https://www.raphkoster.com/2009/01/08/database-sharding-came-from-uo/</guid>
-      <pubDate>Sun, 25 Aug 2024 20:42:02 GMT</pubDate>
+      <guid>https://www.rated.fun/Welcome</guid>
+      <pubDate>Mon, 26 Aug 2024 01:01:48 GMT</pubDate>
     </item>
     <item>
-      <title>Amtrak 2023 年主办铁路成绩单和常见问题解答 [pdf]</title>
-      <link>https://www.amtrak.com/content/dam/projects/dotcom/english/public/documents/corporate/HostRailroadReports/Amtrak-2023-Host-Railroad-Report-Card.pdf</link>
-      <description><![CDATA[文章网址：https://www.amtrak.com/content/dam/projects/dotcom/english/public/documents/corporate/HostRailroadReports/Amtrak-2023-Host-Railroad-Report-Card.pdf
-评论网址：https://news.ycombinator.com/item?id=41351212
-积分：3
+      <title>性能分析和调优挑战#6：wordcount</title>
+      <link>https://easyperf.net/blog/2022/05/28/Performance-analysis-and-tuning-contest-6</link>
+      <description><![CDATA[文章网址：https://easyperf.net/blog/2022/05/28/Performance-analysis-and-tuning-contest-6
+评论网址：https://news.ycombinator.com/item?id=41352954
+积分：1
+评论数：0]]></description>
+      <guid>https://easyperf.net/blog/2022/05/28/Performance-analysis-and-tuning-contest-6</guid>
+      <pubDate>Mon, 26 Aug 2024 00:58:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cauzin 软带</title>
+      <link>https://en.wikipedia.org/wiki/Cauzin_Softstrip</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Cauzin_Softstrip
+评论网址：https://news.ycombinator.com/item?id=41352943
+积分：1
+评论数：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/Cauzin_Softstrip</guid>
+      <pubDate>Mon, 26 Aug 2024 00:56:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>接收过去发送的程序</title>
+      <link>https://www.youtube.com/watch?v=MezkfYTN6EQ</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=MezkfYTN6EQ
+评论网址：https://news.ycombinator.com/item?id=41352934
+积分：1
 评论数：1]]></description>
-      <guid>https://www.amtrak.com/content/dam/projects/dotcom/english/public/documents/corporate/HostRailroadReports/Amtrak-2023-Host-Railroad-Report-Card.pdf</guid>
-      <pubDate>Sun, 25 Aug 2024 20:41:27 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=MezkfYTN6EQ</guid>
+      <pubDate>Mon, 26 Aug 2024 00:54:13 GMT</pubDate>
     </item>
     <item>
-      <title>小猫游戏</title>
-      <link>https://kittensgame.com/web/</link>
-      <description><![CDATA[文章网址：https://kittensgame.com/web/
-评论网址：https://news.ycombinator.com/item?id=41351210
-积分：1
+      <title>所以我为TTY做了一个TikTok客户端</title>
+      <link>https://github.com/tragdate/ttytok</link>
+      <description><![CDATA[文章网址：https://github.com/tragdate/ttytok
+评论网址：https://news.ycombinator.com/item?id=41352862
+积分：3
 评论数：0]]></description>
-      <guid>https://kittensgame.com/web/</guid>
-      <pubDate>Sun, 25 Aug 2024 20:41:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>2024 年 Juliacon：休闲回顾</title>
-      <link>https://cameron.pfiffer.org/blog/juliacon-2024/</link>
-      <description><![CDATA[文章网址：https://cameron.pfiffer.org/blog/juliacon-2024/
-评论网址：https://news.ycombinator.com/item?id=41351194
-积分：1
-评论数：0]]></description>
-      <guid>https://cameron.pfiffer.org/blog/juliacon-2024/</guid>
-      <pubDate>Sun, 25 Aug 2024 20:39:54 GMT</pubDate>
+      <guid>https://github.com/tragdate/ttytok</guid>
+      <pubDate>Mon, 26 Aug 2024 00:42:58 GMT</pubDate>
     </item>
     </channel>
 </rss>
