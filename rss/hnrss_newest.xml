@@ -4,109 +4,121 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 28 Aug 2024 09:17:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 12:31:42 GMT</lastBuildDate>
     <item>
-      <title>开源的商业动态</title>
-      <link>https://twitter.com/adamhjk/status/1828150343332700223</link>
-      <description><![CDATA[文章网址：https://twitter.com/adamhjk/status/1828150343332700223
-评论网址：https://news.ycombinator.com/item?id=41377576
-积分：1
-评论数：0]]></description>
-      <guid>https://twitter.com/adamhjk/status/1828150343332700223</guid>
-      <pubDate>Wed, 28 Aug 2024 09:14:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>复杂性的商人</title>
-      <link>https://world.hey.com/dhh/merchants-of-complexity-4851301b</link>
-      <description><![CDATA[文章网址：https://world.hey.com/dhh/merchants-of-complexity-4851301b
-评论网址：https://news.ycombinator.com/item?id=41377564
-积分：1
-评论数：0]]></description>
-      <guid>https://world.hey.com/dhh/merchants-of-complexity-4851301b</guid>
-      <pubDate>Wed, 28 Aug 2024 09:12:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>面向未来的多云策略：为 GoogleCloud 工作负载提供安全的 AWS 访问</title>
-      <link>https://medium.com/lightricks-tech-blog/future-proof-your-multi-cloud-strategy-secure-aws-access-for-google-cloud-workloads-1b27fcfaa333</link>
-      <description><![CDATA[文章网址：https://medium.com/lightricks-tech-blog/future-proof-your-multi-cloud-strategy-secure-aws-access-for-google-cloud-workloads-1b27fcfaa333
-评论网址：https://news.ycombinator.com/item?id=41377554
-积分：1
-评论数：0]]></description>
-      <guid>https://medium.com/lightricks-tech-blog/future-proof-your-multi-cloud-strategy-secure-aws-access-for-google-cloud-workloads-1b27fcfaa333</guid>
-      <pubDate>Wed, 28 Aug 2024 09:11:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>智人：人类视觉模型的基础</title>
-      <link>https://arxiv.org/abs/2408.12569</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2408.12569
-评论网址：https://news.ycombinator.com/item?id=41377540
-积分：2
-评论数：0]]></description>
-      <guid>https://arxiv.org/abs/2408.12569</guid>
-      <pubDate>Wed, 28 Aug 2024 09:09:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>我又制作了另一个 ChatPDF</title>
-      <link>https://news.ycombinator.com/item?id=41377535</link>
-      <description><![CDATA[我又创建了一个 ChatPDF，这是一个旨在帮助小型企业有效管理文档的工具。您可以对文档进行分类，例如税务、法律、财产等。它还适用于 CE 标志、产品标准、BSI、RICS Redbook 标准等 - 这些文档非常庞大，但对某些行业至关重要，因此可以更快地在其中找到信息。该产品名为 Airdoc.Pro — 欢迎随时查看。作为一家自力更生的公司，您的反馈对于我们改进并希望实现一些销售至关重要。我们现在正在努力“缩小范围”
-Cheers
-Paul
+      <title>显示 HN：Graphiti – 用于代理应用程序的时间知识图</title>
+      <link>https://news.ycombinator.com/item?id=41378691</link>
+      <description><![CDATA[嗨，HN -我是 Zep 的 Paul、Preston 和 Daniel。我们很高兴向您展示 graphiti，这是一个用于构建和搜索动态、时间感知知识图谱的库。https://git.new/graphiti使用 graphiti，您可以对实体之间随时间变化的复杂关系进行建模。graphiti 会提取非结构化和结构化数据，然后可以使用时间、全文、语义和图形算法方法的融合来查询生成的图形。使用 graphiti，您可以构建 LLM 应用程序，例如：- 从用户交互中学习的助手，将个人知识与来自 CRM 和计费平台等业务系统的动态数据融合在一起。- 自主执行复杂任务的代理，根据来自多个动态源（如交通状况或流式语音转录）的状态变化进行推理。graphiti 与 GraphRAG 和其他图形库不同。它专为动态数据和代理使用而构建：- 智能图形更新：根据当前图形自动评估新实体，并修改两者以反映最新上下文。- 丰富的边缘语义：在图形构建期间为边缘生成人性化、语义化和全文可搜索的表示，从而实现搜索并增强可解释性。- 时间感知：从输入数据中提取和更新基于时间的边缘元数据，从而实现对不断变化的关系的推理。- 混合搜索：提供语义、BM25 和基于图形的搜索，并能够融合结果。- 快速：搜索结果在 &lt;100 毫秒内，延迟主要由第三方嵌入 API 调用决定。- 模式一致性：通过重用现有模式来维护连贯的图形结构，防止节点和边缘类型的不必要扩散。我们构建了 graphiti 来支持 Zep Memory，这是一个用于构建个性化和准确的 LLM 应用程序的长期记忆层。我们相信 graphiti 的潜力不仅限于内存应用，并且已将其开源以支持和发展这些用例。github：https://git.new/graphiti文档：https://help.getzep.com/graphiti我们很感谢您的反馈、贡献，或者只是听听您使用 graphiti 构建的精彩项目！- Paul、Preston 和 Daniel
 
-评论 URL：https://news.ycombinator.com/item?id=41377535
+评论 URL：https://news.ycombinator.com/item?id=41378691
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41377535</guid>
-      <pubDate>Wed, 28 Aug 2024 09:08:20 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=41378691</guid>
+      <pubDate>Wed, 28 Aug 2024 12:25:35 GMT</pubDate>
     </item>
     <item>
-      <title>俄罗斯拉脱维亚破坏小组内部情况</title>
-      <link>https://theins.ru/en/politics/272989</link>
-      <description><![CDATA[文章网址：https://theins.ru/en/politics/272989
-评论网址：https://news.ycombinator.com/item?id=41377492
-积分：1
-评论数：0]]></description>
-      <guid>https://theins.ru/en/politics/272989</guid>
-      <pubDate>Wed, 28 Aug 2024 09:00:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>俄罗斯可能夺走西方互联网，没有好的后备计划</title>
-      <link>https://www.businessinsider.com/russia-could-take-out-west-internet-gps-back-up-plan-2024-8</link>
-      <description><![CDATA[文章网址：https://www.businessinsider.com/russia-could-take-out-west-internet-gps-back-up-plan-2024-8
-评论网址：https://news.ycombinator.com/item?id=41377489
+      <title>您最喜欢的 RSS 阅读器是什么？</title>
+      <link>https://news.ycombinator.com/item?id=41378686</link>
+      <description><![CDATA[我最近一直在使用一款质量不佳的工具，随着时间的推移，它的错误越来越多。我很好奇还有哪些其他选择。
+
+评论网址：https://news.ycombinator.com/item?id=41378686
 积分：2
 评论数：0]]></description>
-      <guid>https://www.businessinsider.com/russia-could-take-out-west-internet-gps-back-up-plan-2024-8</guid>
-      <pubDate>Wed, 28 Aug 2024 09:00:03 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=41378686</guid>
+      <pubDate>Wed, 28 Aug 2024 12:24:41 GMT</pubDate>
     </item>
     <item>
-      <title>学会在 50°C 的高温下生存</title>
-      <link>https://www.ft.com/content/d5a5bc1f-e225-4397-b99f-56c62b00366d</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/d5a5bc1f-e225-4397-b99f-56c62b00366d
-评论网址：https://news.ycombinator.com/item?id=41377480
+      <title>熔毁攻击</title>
+      <link>https://meltdownattack.com/</link>
+      <description><![CDATA[文章网址：https://meltdownattack.com/
+评论网址：https://news.ycombinator.com/item?id=41378682
+积分：1
+评论数：1]]></description>
+      <guid>https://meltdownattack.com/</guid>
+      <pubDate>Wed, 28 Aug 2024 12:24:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sag-Aftra 赢得加州限制人工智能复制品法案通过</title>
+      <link>https://variety.com/2024/politics/news/sag-aftra-limit-ai-digital-replica-california-bill-1236120379/</link>
+      <description><![CDATA[文章网址：https://variety.com/2024/politics/news/sag-aftra-limit-ai-digital-replica-california-bill-1236120379/
+评论网址：https://news.ycombinator.com/item?id=41378680
+积分：1
+评论数：0]]></description>
+      <guid>https://variety.com/2024/politics/news/sag-aftra-limit-ai-digital-replica-california-bill-1236120379/</guid>
+      <pubDate>Wed, 28 Aug 2024 12:23:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>蝗虫和蜜獾 – 负载测试中的封闭式与开放式工作负载模型</title>
+      <link>https://medium.com/locust-cloud/locusts-and-honey-badgers-closed-vs-open-workload-models-in-load-testing-9f59abfc6d9f</link>
+      <description><![CDATA[文章网址：https://medium.com/locust-cloud/locusts-and-honey-badgers-closed-vs-open-workload-models-in-load-testing-9f59abfc6d9f
+评论网址：https://news.ycombinator.com/item?id=41378673
+积分：1
+评论数：0]]></description>
+      <guid>https://medium.com/locust-cloud/locusts-and-honey-badgers-closed-vs-open-workload-models-in-load-testing-9f59abfc6d9f</guid>
+      <pubDate>Wed, 28 Aug 2024 12:23:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>WebJars – 打包成 JAR 文件的客户端 Web 库</title>
+      <link>https://www.webjars.org</link>
+      <description><![CDATA[文章网址：https://www.webjars.org
+评论网址：https://news.ycombinator.com/item?id=41378671
+积分：1
+评论数：1]]></description>
+      <guid>https://www.webjars.org</guid>
+      <pubDate>Wed, 28 Aug 2024 12:23:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：AppTimer-GUI – 限制应用程序使用量的 Linux 开源工具</title>
+      <link>https://github.com/Varrow1/AppTimer-Gui</link>
+      <description><![CDATA[嗨，HN，我刚刚发布了 AppTimer-GUI，这是一款旨在帮助您更有效地管理屏幕时间的生产力工具。无论您是想减少干扰、限制应用程序使用还是保持更好的工作与生活平衡，AppTimer-GUI 都提供了一种简单直观的方式来控制应用程序在系统上的运行时间。主要功能： 图形界面：使用 Fyne 工具包构建的用户友好型 GUI。
+灵活的时间单位：为计时器选择秒、分钟或小时。
+暂停和取消暂停：暂时停止计时器并在准备好时恢复。
+停止和终止：随时立即停止计时器并关闭应用程序。
+
+用例： 增强专注力：限制在工作或学习时访问分散注意力的应用程序。
+控制屏幕时间：对娱乐应用程序设置严格的使用限制，以避免过度使用。
+工作与生活的平衡：管理与工作相关的应用程序使用情况，确保您不会过度劳累。
+
+参与：我很乐意听到您的反馈、建议或改进想法。也欢迎您做出贡献！您可以在 GitHub 上查看该项目。背景：此工具是我之前创建的基于 CLI 的版本的演变，您也可以在 GitHub 上找到它：https://github.com/Varrow1/AppTimer
+
+评论 URL：https://news.ycombinator.com/item?id=41378670
+积分：1
+评论数：0]]></description>
+      <guid>https://github.com/Varrow1/AppTimer-Gui</guid>
+      <pubDate>Wed, 28 Aug 2024 12:23:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：HyperZig – Zig 中的超图实现</title>
+      <link>https://github.com/yamafaktory/hyperzig</link>
+      <description><![CDATA[文章网址：https://github.com/yamafaktory/hyperzig
+评论网址：https://news.ycombinator.com/item?id=41378667
+积分：1
+评论数：0]]></description>
+      <guid>https://github.com/yamafaktory/hyperzig</guid>
+      <pubDate>Wed, 28 Aug 2024 12:22:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：语言链接游戏（连接英语、西班牙语、法语、德语中的单词）</title>
+      <link>https://languagelinks.robdrury.dev</link>
+      <description><![CDATA[我构建了一个小型、静态导出的 Next.js 网站，托管在具有自定义子域的 Github Pages 上。用英语、西班牙语、法语和德语连接同一个单词以完成一行。受到纽约时报的 Connections 的启发。
+
+评论网址：https://news.ycombinator.com/item?id=41378664
+积分：1
+评论数：0]]></description>
+      <guid>https://languagelinks.robdrury.dev</guid>
+      <pubDate>Wed, 28 Aug 2024 12:21:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>人们如何处理这些照片？（现代生活、媒体和备份）</title>
+      <link>https://news.ycombinator.com/item?id=41378654</link>
+      <description><![CDATA[与岳母聊天时，我突然想到，无论您使用的是 Android 还是 iOS 手机，您仍可能会被迫购买更多同步存储空间以备份照片/视频，或者只是给自己更多空间...多年来（作为 iOS 和 Mac 用户），我一直使用 Image Capture 下载并释放手机中的照片，并将它们备份到 RAID 硬盘上...我可能不是这里的常态...
+那么人们如何保存媒体、释放空间并使其变得简单（想想老一代）...最好不要为特权付费？
+
+评论网址：https://news.ycombinator.com/item?id=41378654
 积分：2
-评论数：0]]></description>
-      <guid>https://www.ft.com/content/d5a5bc1f-e225-4397-b99f-56c62b00366d</guid>
-      <pubDate>Wed, 28 Aug 2024 08:58:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>数据是否表明波音不安全？</title>
-      <link>https://weekly.visualapproach.io/p/does-data-show-boeing-is-unsafe</link>
-      <description><![CDATA[文章网址：https://weekly.visualapproach.io/p/does-data-show-boeing-is-unsafe
-评论网址：https://news.ycombinator.com/item?id=41377443
-积分：1
-评论数：0]]></description>
-      <guid>https://weekly.visualapproach.io/p/does-data-show-boeing-is-unsafe</guid>
-      <pubDate>Wed, 28 Aug 2024 08:51:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>我将在 12 个月内创办 12 家初创公司（2014 年）</title>
-      <link>https://levels.io/12-startups-12-months/</link>
-      <description><![CDATA[文章网址：https://levels.io/12-startups-12-months/
-评论网址：https://news.ycombinator.com/item?id=41377441
-积分：1
-评论数：0]]></description>
-      <guid>https://levels.io/12-startups-12-months/</guid>
-      <pubDate>Wed, 28 Aug 2024 08:51:00 GMT</pubDate>
+# 评论： 0]]></description>
+      <guid>https://news.ycombinator.com/item?id=41378654</guid>
+      <pubDate>Wed, 28 Aug 2024 12:20:02 GMT</pubDate>
     </item>
     </channel>
 </rss>
