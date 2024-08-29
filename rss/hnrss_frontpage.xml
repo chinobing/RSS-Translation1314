@@ -4,7 +4,37 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 28 Aug 2024 21:16:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 01:11:23 GMT</lastBuildDate>
+    <item>
+      <title>法官驳回 GitHub Copilot 的大多数版权主张</title>
+      <link>https://lwn.net/Articles/987524/</link>
+      <description><![CDATA[文章网址：https://lwn.net/Articles/987524/
+评论网址：https://news.ycombinator.com/item?id=41385637
+积分：78
+评论数：59]]></description>
+      <guid>https://lwn.net/Articles/987524/</guid>
+      <pubDate>Wed, 28 Aug 2024 23:44:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Guido van Rossum 的帖子因违反 Python 社区准则而被删除</title>
+      <link>https://discuss.python.org/t/should-we-consider-ranked-choice-voting-for-sc-elections/61880</link>
+      <description><![CDATA[文章网址：https://discuss.python.org/t/should-we-consider-ranked-choice-voting-for-sc-elections/61880
+评论网址：https://news.ycombinator.com/item?id=41385546
+积分：98
+评论数：57]]></description>
+      <guid>https://discuss.python.org/t/should-we-consider-ranked-choice-voting-for-sc-elections/61880</guid>
+      <pubDate>Wed, 28 Aug 2024 23:32:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Telegram 老板因刑事调查被禁止离开法国</title>
+      <link>https://www.bbc.com/news/articles/c985ppy0znyo</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c985ppy0znyo
+评论网址：https://news.ycombinator.com/item?id=41385418
+积分：14
+评论数：5]]></description>
+      <guid>https://www.bbc.com/news/articles/c985ppy0znyo</guid>
+      <pubDate>Wed, 28 Aug 2024 23:10:55 GMT</pubDate>
+    </item>
     <item>
       <title>Charge Robotics (YC S21) 正在招聘 MechE 来制造用于建设太阳能发电场的机器人</title>
       <link>https://www.ycombinator.com/companies/charge-robotics/jobs/ml4f9l4-senior-mechanical-engineer</link>
@@ -16,95 +46,66 @@
       <pubDate>Wed, 28 Aug 2024 21:00:17 GMT</pubDate>
     </item>
     <item>
-      <title>Valgrind 二十年</title>
+      <title>显示 HN：跳过 – 从单个 Swift 代码库构建原生 iOS 和 Android 应用程序</title>
+      <link>https://skip.tools/</link>
+      <description><![CDATA[您好，Hacker News。我是 Marc，是 skip.tools 团队的一员。Skip 是一款将您的 SwiftUI iOS 应用转换为 Kotlin Jetpack Compose 应用的工具，可让您使用单一语言创建覆盖整个移动市场的完整应用。它是什么：Skip 与 Flutter、React Native 和 Xamarin 等其他跨平台开发工具不同，它支持为两个主流移动平台创建真正的原生应用。它不会在您的应用中嵌入单独的引擎或运行时，而是允许您使用纯 Swift 和 SwiftUI 创建应用的 iOS 端（根据 Apple 推荐的创建 iOS 应用的最佳实践），并将其转换为 Android 端的纯 Kotlin 和 Jetpack Compose 应用（这是 Google 推荐的构建 Android 应用的方法）。因此，您的应用将使用平台原生控件，并自动拥有平台供应商提供的所有功能：动画、可访问性、面向未来的演进以及操作系统更新。工作原理：您使用与创建标准 iOS 应用相同的工具构建 Skip 应用：Xcode、Swift 和 SwiftUI。Skip 使用名为“skipstone”的 Swift 包管理器插件增强了此工作流程，该插件会在您每次构建应用时将您的 Swift 转译为 Kotlin，并在您每次运行应用时同时启动 Android 应用和 iOS 应用。转译不仅适用于您的主要应用模块，还可以传递处理所有依赖的 SwiftPM 模块，因此您可以将复杂的项目分解为包含业务逻辑或 UI 代码的可单独测试的子模块。事实上，这就是我们自己的标准框架适配器模块的结构：SkipFoundation 适应 Foundation 框架，SkipUI 适应 SwiftUI 框架，因此在构建应用时可以使用相同的熟悉 API。此外，GitHub 上还有一个开源模块生态系统，支持各种流行框架，包括 SQLite、Firebase、Lottie 和许多其他现代应用的常见构建块。在过去的一年里，Skip 已经发展成为一个功能齐全的解决方案，可用于为 iOS 和 Android 创建一流的应用。今天，我们很高兴地宣布发布 1.0 版，这意味着它已准备好投入生产使用。我们在 https://skip.tools 上提供了大量视频和文档，我会随时回答你们可能遇到的任何问题。提前感谢您的关注！主页：https://skip.tools常见问题：https://skip.tools/docs/faq/GitHub：https://github.com/skiptools/
+
+评论网址：https://news.ycombinator.com/item?id=41384144
+积分：106
+评论数：33]]></description>
+      <guid>https://skip.tools/</guid>
+      <pubDate>Wed, 28 Aug 2024 20:44:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Valgrind 二十周年（2022 年）</title>
       <link>https://nnethercote.github.io/2022/07/27/twenty-years-of-valgrind.html</link>
       <description><![CDATA[文章网址：https://nnethercote.github.io/2022/07/27/twenty-years-of-valgrind.html
 评论网址：https://news.ycombinator.com/item?id=41384118
-积分：44
-评论数：1]]></description>
+积分：148
+评论数：25]]></description>
       <guid>https://nnethercote.github.io/2022/07/27/twenty-years-of-valgrind.html</guid>
       <pubDate>Wed, 28 Aug 2024 20:42:03 GMT</pubDate>
     </item>
     <item>
-      <title>Purism 域名 Puri.sm 被暂停了吗？</title>
-      <link>https://whois.marcaria.com/en/result?SearchDomain=puri.sm</link>
-      <description><![CDATA[文章网址：https://whois.marcaria.com/en/result?SearchDomain=puri.sm
-评论网址：https://news.ycombinator.com/item?id=41384053
-积分：20
-评论数：9]]></description>
-      <guid>https://whois.marcaria.com/en/result?SearchDomain=puri.sm</guid>
-      <pubDate>Wed, 28 Aug 2024 20:35:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nvidia 宣布 2025 财年第二季度财务业绩</title>
-      <link>https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2025</link>
-      <description><![CDATA[文章网址：https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2025
-评论网址：https://news.ycombinator.com/item?id=41383914
-积分：48
-评论数：27]]></description>
-      <guid>https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2025</guid>
-      <pubDate>Wed, 28 Aug 2024 20:25:15 GMT</pubDate>
+      <title>什么是后量子密码学？ – NIST</title>
+      <link>https://www.nist.gov/cybersecurity/what-post-quantum-cryptography</link>
+      <description><![CDATA[文章网址：https://www.nist.gov/cybersecurity/what-post-quantum-cryptography
+评论网址：https://news.ycombinator.com/item?id=41383843
+积分：22
+评论数：16]]></description>
+      <guid>https://www.nist.gov/cybersecurity/what-post-quantum-cryptography</guid>
+      <pubDate>Wed, 28 Aug 2024 20:20:04 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：Repo2vec – 一个用于与任何代码库聊天的开源库</title>
       <link>https://github.com/Storia-AI/repo2vec</link>
-      <description><![CDATA[嗨，HN，我们很高兴与大家分享 repo2vec：一个易于使用的模块化库，可让您与任何公共或私有代码库进行交流。它就像 Github Copilot，但拥有关于您的存储库的最新信息。我们之所以这样做，是因为有时您只想了解代码库的工作原理以及如何集成它，而不必花费数小时来筛选代码本身。我们试图让它变得非常简单易用。使用两个脚本，您可以索引并获得存储库的功能界面。每个生成的响应都显示了代码中答案的上下文来自哪里。我们还使其即插即用，从嵌入到向量存储再到 LLM，每个组件都是完全可定制的。如果您想查看带有其功能的聊天界面的托管版本，请访问以下链接：https://www.youtube.com/watch?v=CNVzmqRXUCA我们很乐意听取您的反馈！- Mihail 和 Julia
+      <description><![CDATA[嗨，HN，我们很高兴与大家分享 repo2vec：一个易于使用的模块化库，可让您与任何公共或私有代码库进行交流。它就像 Github Copilot，但拥有关于您的存储库的最新信息。我们之所以这样做，是因为有时您只想了解代码库的工作原理以及如何集成它，而不必花费数小时来筛选代码本身。我们试图让它变得非常简单易用。使用两个脚本，您可以索引并获得存储库的功能界面。每个生成的响应都显示了代码中答案的上下文来自哪里。我们还使其即插即用，从嵌入到向量存储再到 LLM 的每个组件都是完全可定制的。如果您想查看带有其功能的聊天界面的托管版本，请访问以下链接：https://www.youtube.com/watch?v=CNVzmqRXUCA我们很乐意听取您的反馈！- Mihail 和 Julia
 
 评论网址：https://news.ycombinator.com/item?id=41383592
-积分：9
-#评论：1]]></description>
+积分：46
+#评论：29]]></description>
       <guid>https://github.com/Storia-AI/repo2vec</guid>
       <pubDate>Wed, 28 Aug 2024 19:59:10 GMT</pubDate>
     </item>
     <item>
-      <title>我讨厌“现代”这个词</title>
-      <link>https://www.paritybit.ca/blog/why-i-hate-the-term-modern/</link>
-      <description><![CDATA[文章网址：https://www.paritybit.ca/blog/why-i-hate-the-term-modern/
-评论网址：https://news.ycombinator.com/item?id=41383244
-积分：7
-评论数：2]]></description>
-      <guid>https://www.paritybit.ca/blog/why-i-hate-the-term-modern/</guid>
-      <pubDate>Wed, 28 Aug 2024 19:26:08 GMT</pubDate>
+      <title>公司游说反对赋予军方维修权</title>
+      <link>https://www.404media.co/appliance-and-tractor-companies-lobby-against-giving-the-military-the-right-to-repair/</link>
+      <description><![CDATA[文章网址：https://www.404media.co/appliance-and-tractor-companies-lobby-against-giving-the-military-the-right-to-repair/
+评论网址：https://news.ycombinator.com/item?id=41383126
+积分：94
+评论数：55]]></description>
+      <guid>https://www.404media.co/appliance-and-tractor-companies-lobby-against-giving-the-military-the-right-to-repair/</guid>
+      <pubDate>Wed, 28 Aug 2024 19:13:51 GMT</pubDate>
     </item>
     <item>
       <title>TLA+ 的未来 [pdf]</title>
       <link>https://lamport.azurewebsites.net/tla/future.pdf</link>
       <description><![CDATA[文章网址：https://lamport.azurewebsites.net/tla/future.pdf
 评论网址：https://news.ycombinator.com/item?id=41382828
-积分：98
-评论数：23]]></description>
+积分：126
+评论数：43]]></description>
       <guid>https://lamport.azurewebsites.net/tla/future.pdf</guid>
       <pubDate>Wed, 28 Aug 2024 18:46:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>4-chan Go 程序员</title>
-      <link>https://www.dolthub.com/blog/2024-08-23-the-4-chan-go-programmer/</link>
-      <description><![CDATA[文章网址：https://www.dolthub.com/blog/2024-08-23-the-4-chan-go-programmer/
-评论网址：https://news.ycombinator.com/item?id=41382699
-积分：132
-评论数：53]]></description>
-      <guid>https://www.dolthub.com/blog/2024-08-23-the-4-chan-go-programmer/</guid>
-      <pubDate>Wed, 28 Aug 2024 18:35:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>向 Microsoft 用户扩展 Rails 和 Postgres：经验教训和收获</title>
-      <link>https://stepchange.work/blog/scaling-rails-postgres-to-millions-of-users-at-microsoft-lessons-takeaways</link>
-      <description><![CDATA[文章网址：https://stepchange.work/blog/scaling-rails-postgres-to-millions-of-users-at-microsoft-lessons-takeaways
-评论网址：https://news.ycombinator.com/item?id=41382687
-积分：44
-评论数：4]]></description>
-      <guid>https://stepchange.work/blog/scaling-rails-postgres-to-millions-of-users-at-microsoft-lessons-takeaways</guid>
-      <pubDate>Wed, 28 Aug 2024 18:34:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kotlin 用于数据分析</title>
-      <link>https://kotlinlang.org/docs/data-analysis-overview.html</link>
-      <description><![CDATA[文章网址：https://kotlinlang.org/docs/data-analysis-overview.html
-评论网址：https://news.ycombinator.com/item?id=41382578
-积分：48
-评论数：11]]></description>
-      <guid>https://kotlinlang.org/docs/data-analysis-overview.html</guid>
-      <pubDate>Wed, 28 Aug 2024 18:24:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
