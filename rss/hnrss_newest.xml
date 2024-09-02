@@ -4,107 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 02 Sep 2024 03:18:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Sep 2024 06:23:44 GMT</lastBuildDate>
     <item>
-      <title>肥尾效应的统计后果 [pdf]</title>
-      <link>https://arxiv.org/abs/2001.10488</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2001.10488
-评论网址：https://news.ycombinator.com/item?id=41422295
-积分：1
-评论数：0]]></description>
-      <guid>https://arxiv.org/abs/2001.10488</guid>
-      <pubDate>Mon, 02 Sep 2024 03:08:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>史蒂夫·乔布斯秘密会议议程（2010 年）</title>
-      <link>https://www.alexanderjarvis.com/memo-steve-jobs-agenda-for-a-secret-meeting/</link>
-      <description><![CDATA[文章网址：https://www.alexanderjarvis.com/memo-steve-jobs-agenda-for-a-secret-meeting/
-评论网址：https://news.ycombinator.com/item?id=41422289
-积分：1
-评论数：0]]></description>
-      <guid>https://www.alexanderjarvis.com/memo-steve-jobs-agenda-for-a-secret-meeting/</guid>
-      <pubDate>Mon, 02 Sep 2024 03:06:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>解析 Awk 很棘手</title>
-      <link>https://www.raygard.net/awkdoc/pages/awk_parsing_is_tricky.html</link>
-      <description><![CDATA[文章网址：https://www.raygard.net/awkdoc/pages/awk_parsing_is_tricky.html
-评论网址：https://news.ycombinator.com/item?id=41422283
-积分：1
-评论数：0]]></description>
-      <guid>https://www.raygard.net/awkdoc/pages/awk_parsing_is_tricky.html</guid>
-      <pubDate>Mon, 02 Sep 2024 03:04:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sub.club 旨在帮助 Fediverse 赚钱</title>
-      <link>https://www.theverge.com/2024/9/1/24232298/sub-club-fediverse-make-money</link>
-      <description><![CDATA[文章网址：https://www.theverge.com/2024/9/1/24232298/sub-club-fediverse-make-money
-评论网址：https://news.ycombinator.com/item?id=41422272
-积分：1
-评论数：0]]></description>
-      <guid>https://www.theverge.com/2024/9/1/24232298/sub-club-fediverse-make-money</guid>
-      <pubDate>Mon, 02 Sep 2024 03:02:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>波音公司的星际客机昨天开始发出重复的“脉冲”声音</title>
-      <link>https://www.theverge.com/2024/9/1/24233669/boeing-starliner-strange-noise-nasa-iss-sonar-ping</link>
-      <description><![CDATA[文章网址：https://www.theverge.com/2024/9/1/24233669/boeing-starliner-strange-noise-nasa-iss-sonar-ping
-评论网址：https://news.ycombinator.com/item?id=41422261
-积分：1
-评论数：0]]></description>
-      <guid>https://www.theverge.com/2024/9/1/24233669/boeing-starliner-strange-noise-nasa-iss-sonar-ping</guid>
-      <pubDate>Mon, 02 Sep 2024 02:59:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：前端的持续部署？</title>
-      <link>https://news.ycombinator.com/item?id=41422259</link>
-      <description><![CDATA[我四处搜索，没有找到很多有关前端持续交付的最新资源。我很好奇其他人是如何持续部署和监控网络应用的。您多久部署一次应用？每次提交？还是一天几次？您如何衡量这些部署以确保它们稳定/无中断？当出现问题时，您如何收到警报？您是否会逐步部署，还是一次性部署到 100% 的用户？您如何解决测量低流量的问题，在这种情况下，很难判断转化率是否下降？我很想知道您的体验，以及您可能提出的任何建议。
+      <title>显示 HN：免费的 Chrome 扩展程序，用于保护由 ChatGPT 和 Claude 生成的代码</title>
+      <link>https://chromewebstore.google.com/detail/secure-ai-generated-code/bengiidgkchpliicfplbejjnoennfkmo</link>
+      <description><![CDATA[*TL;DR;*演示：https://youtu.be/wEC9qVaB4_Y我创建了一个免费的 Chrome 扩展程序，它可以扫描 ChatGPT 生成的代码，Claude.ai 可以检测安全问题并帮助您修复它们。请向我们提供有关该扩展程序的反馈，我们希望改进它！（并告诉我们您是否也有兴趣使用 VS Code 扩展程序）*为什么？*LLM 是在人类编写的代码（来自 GitHub 的公共代码）上进行训练的，其中包含许多漏洞。如果您将不安全的代码作为训练数据提供给 LLM，LLM 将生成不安全的代码作为输出。Cursor、Copilot 和任何其他 GPT 包装器等工具都很棒（我也使用它们），但它们会生成非常不安全的代码。 （相信我，我是一个安全专家）&gt; 是的，我的管道中有一些大牌安全扫描程序，它会帮我检测问题……甚至不要让我开始这样做。这里 https://blog.vidocsecurity.com/blog/state-of-security-automa... 是我对经典漏洞扫描程序的抱怨以及它们在实践中有多糟糕。我们对 VS Code 扩展的愿景是创建“Grammarly 但用于代码安全”（我们的目标是类似的用户体验）。+ 我们正在训练 LLM 来检测代码中的问题。在此处注册 VS Code 扩展等候名单：https://4qiq71rttej.typeform.com/to/xDrkrcH5
 
-评论网址：https://news.ycombinator.com/item?id=41422259
+评论网址：https://news.ycombinator.com/item?id=41423063
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41422259</guid>
-      <pubDate>Mon, 02 Sep 2024 02:58:45 GMT</pubDate>
+      <guid>https://chromewebstore.google.com/detail/secure-ai-generated-code/bengiidgkchpliicfplbejjnoennfkmo</guid>
+      <pubDate>Mon, 02 Sep 2024 06:22:01 GMT</pubDate>
     </item>
     <item>
-      <title>拖车团伙威胁北美最安全的城市之一多伦多</title>
-      <link>https://www.wsj.com/world/americas/toronto-tow-truck-gangs-shootings-a0a30d63</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/world/americas/toronto-tow-truck-gangs-shootings-a0a30d63
-评论网址：https://news.ycombinator.com/item?id=41422254
+      <title>我不升级到 iPhone 16 Pro 的原因</title>
+      <link>https://www.zdnet.com/article/4-reasons-im-not-upgrading-to-an-iphone-16-pro-from-my-iphone-14/</link>
+      <description><![CDATA[文章网址：https://www.zdnet.com/article/4-reasons-im-not-upgrading-to-an-iphone-16-pro-from-my-iphone-14/
+评论网址：https://news.ycombinator.com/item?id=41423060
+积分：1
+评论数：0]]></description>
+      <guid>https://www.zdnet.com/article/4-reasons-im-not-upgrading-to-an-iphone-16-pro-from-my-iphone-14/</guid>
+      <pubDate>Mon, 02 Sep 2024 06:21:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的 iCloud 一直提醒我已满</title>
+      <link>https://apps.apple.com/us/app/cleaner-ai-clean-up-storage/id6477199316</link>
+      <description><![CDATA[文章网址：https://apps.apple.com/us/app/cleaner-ai-clean-up-storage/id6477199316
+评论网址：https://news.ycombinator.com/item?id=41423051
 积分：1
 评论数：1]]></description>
-      <guid>https://www.wsj.com/world/americas/toronto-tow-truck-gangs-shootings-a0a30d63</guid>
-      <pubDate>Mon, 02 Sep 2024 02:57:32 GMT</pubDate>
+      <guid>https://apps.apple.com/us/app/cleaner-ai-clean-up-storage/id6477199316</guid>
+      <pubDate>Mon, 02 Sep 2024 06:20:03 GMT</pubDate>
     </item>
     <item>
-      <title>如何在不购买高端健身追踪器的情况下享受其优势</title>
-      <link>https://danfrank.ca/how-to-get-the-benefit-of-a-high-end-fitness-tracker-without-actually-buying-one/</link>
-      <description><![CDATA[文章网址：https://danfrank.ca/how-to-get-the-benefit-of-a-high-end-fitness-tracker-without-actually-buying-one/
-评论网址：https://news.ycombinator.com/item?id=41422235
-积分：2
-评论数：0]]></description>
-      <guid>https://danfrank.ca/how-to-get-the-benefit-of-a-high-end-fitness-tracker-without-actually-buying-one/</guid>
-      <pubDate>Mon, 02 Sep 2024 02:50:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Canva 涨价：一场冒险的赌注，可能会疏远其核心用户</title>
-      <link>https://www.feedme.design/canvas-price-hike-a-risky-bet-that-could-alienate-its-core-users/</link>
-      <description><![CDATA[文章网址：https://www.feedme.design/canvas-price-hike-a-risky-bet-that-c​​ould-alienate-its-core-users/
-评论网址：https://news.ycombinator.com/item?id=41422214
+      <title>丹麦考虑禁止加密消息应用程序以打击犯罪</title>
+      <link>https://countylocalnews.com/bnt/2024/09/01/denmark-considers-banning-encrypted-messaging-apps-to-combat-crime/</link>
+      <description><![CDATA[文章网址：https://countylocalnews.com/bnt/2024/09/01/denmark-considers-banning-encrypted-messaging-apps-to-combat-crime/
+评论网址：https://news.ycombinator.com/item?id=41423041
 积分：1
 评论数：0]]></description>
-      <guid>https://www.feedme.design/canvas-price-hike-a-risky-bet-that-could-alienate-its-core-users/</guid>
-      <pubDate>Mon, 02 Sep 2024 02:44:11 GMT</pubDate>
+      <guid>https://countylocalnews.com/bnt/2024/09/01/denmark-considers-banning-encrypted-messaging-apps-to-combat-crime/</guid>
+      <pubDate>Mon, 02 Sep 2024 06:17:29 GMT</pubDate>
     </item>
     <item>
-      <title>走进 Epic Systems 神秘而庞大的园区</title>
-      <link>https://www.cnbc.com/2024/09/01/inside-epic-systems-mythical-campus-a-world-away-from-wall-street-.html</link>
-      <description><![CDATA[文章网址：https://www.cnbc.com/2024/09/01/inside-epic-systems-mythical-campus-a-world-away-from-wall-street-.html
-评论网址：https://news.ycombinator.com/item?id=41422209
+      <title>国内地址变更</title>
+      <link>https://en.wikipedia.org/wiki/National_Change_of_Address</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/National_Change_of_Address
+评论网址：https://news.ycombinator.com/item?id=41423033
+积分：1
+评论数：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/National_Change_of_Address</guid>
+      <pubDate>Mon, 02 Sep 2024 06:15:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>言论自由并不保证永远存在</title>
+      <link>https://world.hey.com/dhh/free-speech-isn-t-guaranteed-to-be-forever-e7654685</link>
+      <description><![CDATA[文章网址：https://world.hey.com/dhh/free-speech-isn-t-guaranteed-to-be-forever-e7654685
+评论网址：https://news.ycombinator.com/item?id=41423024
+积分：1
+评论数：0]]></description>
+      <guid>https://world.hey.com/dhh/free-speech-isn-t-guaranteed-to-be-forever-e7654685</guid>
+      <pubDate>Mon, 02 Sep 2024 06:14:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>空的波音星际客机将于下周返回，机组人员将继续留在太空</title>
+      <link>https://www.npr.org/2024/08/30/nx-s1-5095776/boeing-starliner-return-home-crew-butch-suni-remain</link>
+      <description><![CDATA[文章网址：https://www.npr.org/2024/08/30/nx-s1-5095776/boeing-starliner-return-home-crew-butch-suni-remain
+评论网址：https://news.ycombinator.com/item?id=41423010
+积分：1
+评论数：0]]></description>
+      <guid>https://www.npr.org/2024/08/30/nx-s1-5095776/boeing-starliner-return-home-crew-butch-suni-remain</guid>
+      <pubDate>Mon, 02 Sep 2024 06:11:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>专门的 UI 多模式模型</title>
+      <link>https://motiff.com/blog/mllm-by-motiff</link>
+      <description><![CDATA[文章网址：https://motiff.com/blog/mllm-by-motiff
+评论网址：https://news.ycombinator.com/item?id=41423009
+积分：1
+评论数：1]]></description>
+      <guid>https://motiff.com/blog/mllm-by-motiff</guid>
+      <pubDate>Mon, 02 Sep 2024 06:10:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>考古学家在伊斯坦布尔一座有 1500 年历史的教堂下发现秘密房间</title>
+      <link>https://www.good.is/archaeologists-stunned-after-finding-secret-rooms-under-1-500-year-old-church-in-istanbul-ex2</link>
+      <description><![CDATA[文章网址：https://www.good.is/archaeologists-stunned-after-finding-secret-rooms-under-1-500-year-old-church-in-istanbul-ex2
+评论网址：https://news.ycombinator.com/item?id=41422989
+积分：2
+评论数：1]]></description>
+      <guid>https://www.good.is/archaeologists-stunned-after-finding-secret-rooms-under-1-500-year-old-church-in-istanbul-ex2</guid>
+      <pubDate>Mon, 02 Sep 2024 06:05:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么有些人愿意花钱独自留在荒岛上</title>
+      <link>https://www.afar.com/magazine/docastaway-sends-travelers-to-deserted-islands-on-purpose</link>
+      <description><![CDATA[文章网址：https://www.afar.com/magazine/docastaway-sends-travelers-to-deserted-islands-on-purpose
+评论网址：https://news.ycombinator.com/item?id=41422975
 积分：2
 评论数：0]]></description>
-      <guid>https://www.cnbc.com/2024/09/01/inside-epic-systems-mythical-campus-a-world-away-from-wall-street-.html</guid>
-      <pubDate>Mon, 02 Sep 2024 02:42:18 GMT</pubDate>
+      <guid>https://www.afar.com/magazine/docastaway-sends-travelers-to-deserted-islands-on-purpose</guid>
+      <pubDate>Mon, 02 Sep 2024 06:02:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
