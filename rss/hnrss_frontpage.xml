@@ -4,16 +4,99 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 02 Sep 2024 15:17:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Sep 2024 18:21:32 GMT</lastBuildDate>
     <item>
-      <title>波音公司的星际客机昨天开始发出重复的“脉冲”声音</title>
-      <link>https://www.theverge.com/2024/9/1/24233669/boeing-starliner-strange-noise-nasa-iss-sonar-ping</link>
-      <description><![CDATA[文章网址：https://www.theverge.com/2024/9/1/24233669/boeing-starliner-strange-noise-nasa-iss-sonar-ping
-评论网址：https://news.ycombinator.com/item?id=41425893
-积分：4
+      <title>伦敦交通局网络安全事件</title>
+      <link>https://tfl.gov.uk/campaign/cyber-security-incident</link>
+      <description><![CDATA[文章网址：https://tfl.gov.uk/campaign/cyber-security-incident
+评论网址：https://news.ycombinator.com/item?id=41427342
+积分：10
+评论数：3]]></description>
+      <guid>https://tfl.gov.uk/campaign/cyber-security-incident</guid>
+      <pubDate>Mon, 02 Sep 2024 17:41:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>大麻现在太强了</title>
+      <link>https://www.theatlantic.com/ideas/archive/2024/08/high-potency-marijuana-regulation/679639/</link>
+      <description><![CDATA[文章网址：https://www.theatlantic.com/ideas/archive/2024/08/high-potency-marijuana-regulation/679639/
+评论网址：https://news.ycombinator.com/item?id=41427319
+积分：12
+评论数：17]]></description>
+      <guid>https://www.theatlantic.com/ideas/archive/2024/08/high-potency-marijuana-regulation/679639/</guid>
+      <pubDate>Mon, 02 Sep 2024 17:37:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>GoGoGrandparent (YC S16) 正在招聘后端和全栈工程师</title>
+      <link>https://news.ycombinator.com/item?id=41427027</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=41427027
+积分：0
 评论数：0]]></description>
-      <guid>https://www.theverge.com/2024/9/1/24233669/boeing-starliner-strange-noise-nasa-iss-sonar-ping</guid>
-      <pubDate>Mon, 02 Sep 2024 14:59:11 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=41427027</guid>
+      <pubDate>Mon, 02 Sep 2024 17:02:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动 HN：Fortress (YC S24) – 多租户 SaaS 数据库平台</title>
+      <link>https://news.ycombinator.com/item?id=41426998</link>
+      <description><![CDATA[嗨，HN！我们是来自 Fortress (https://fortress.build) 的 Will、John 和 David。我们正在为多租户 SaaS 应用构建自带云 (BYOC) 后端服务，以简化共享和专用数据库实例之间的租户数据隔离。这里有一个演示：https://www.loom.com/share/761cac3090ba4db8b2ce9d713873333a?...，以及我们的 Python SDK 的演示：https://www.loom.com/share/c4b3f95235e24d99a7ea571c4564602bYC 最初资助我们进行 AI 网络抓取，但在早期阶段，我们意识到我们想要转向数据隐私方面的某个领域——在某些方面与网络抓取相反……通过与 SaaS 开发人员交谈，我们了解到租户隔离（确保一个客户的数据不会显示给另一个客户）通常在开发中被考虑，但很少成为核心竞争力。许多开发人员很难在 Postgres 上正确设置行级安全性 (RLS)，一些开发人员在数据库级别完全没有执行任何访问控制的情况下强制执行应用程序级访问控制，许多人不知道从哪种多租户数据库架构开始，只是决定稍后再处理它。然而，随着数据敏感性和合规性要求的提高，他们发现客户对更严格的数据要求越来越高，包括对专用数据库实例甚至部署在客户私有云上的数据库的需求。我们还了解到，SaaS 开发人员更喜欢在自己的云上拥有数据库，许多从第三方 DBaaS 开始的人最终将基础设施转移到自己的云上。在自己的云上拥有东西可以让 SaaS 更轻松地提供本地/完全孤立的部署并满足大型客户的合规性要求。因此，我们转向成为 BYOC 平台，并使 Fortress 可与云原生数据库集成。我们对 Fortress 的目标是让 SaaS 开发人员能够轻松使用托管 DBaaS、为租户提供原生隔离，以及以编程方式配置和访问任何云上的数据库实例的能力。Fortress 为 SaaS 开发人员提供了租户级别的抽象，使他们能够通过函数强制执行租户隔离，而无需自己设置 RLS 或在每个查询中使用 WHERE 语句。目前，在 Fortress 平台上，这很简单，因为共享数据库中的每个租户在 Postgres 集群中都有一个逻辑数据库，我们负责处理路由（我们目前正在研究一种解决方案，为存储在共享表中的租户提供本机租户隔离）。通过我们的 SDK，开发人员只需处理与 Fortress 客户端的一个连接，我们将路由请求并处理连接缓存，以确保对正确租户数据的延迟最小。我们正在努力创建更多 SDK 并简化现有的 SDK。我们目前通过 AWS Aurora 支持 Postgres，并计划通过 Kubernetes 支持其他云原生数据库和开源数据库。如果您想尝试一下，我们已经开放了自助服务，以便在您的 AWS 云上启动新数据库。您需要创建一个 Fortress 帐户 (https://fortress.build/auth/sign-up) 以将其连接到您自己的 AWS 帐户 - 这就是 BYOC（自带云）的含义！但如果您不愿意授予我们 IAM 权限，我们将在托管 Fortress 云上提供免费数据库，供您测试我们的 SDK（只需取消“集成”页面，在“数据库”页面上创建一个数据库，然后选择“托管”作为选项，您的限制为 1）。注意：AWS 需要一段时间才能启动新集群，向现有集群添加租户应该是相当即时的。为了为您提供一些基本的东西，我们创建了一个简单的 python flask 应用程序，您可以在其中轻松测试我们的 python SDK (https://github.com/fortress-build/python-example)。我们制作了一个视频，演示了 Fortress 的示例 (https://www.loom.com/share/0245bec78d9d4dbeba8836c4112aa5da?...)我们希望您能试用一下！我们希望在 HN 上发布，以便听取该领域的诚实批评、想法和痛点。我们处于非常早期的数据库产品阶段，并且认识到我们有很大改进空间。期待您的意见！
+
+评论网址：https://news.ycombinator.com/item?id=41426998
+积分：24
+评论数：14]]></description>
+      <guid>https://news.ycombinator.com/item?id=41426998</guid>
+      <pubDate>Mon, 02 Sep 2024 16:58:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>一次性密码盗窃服务所有者认罪</title>
+      <link>https://krebsonsecurity.com/2024/09/owners-of-1-time-passcode-theft-service-plead-guilty/</link>
+      <description><![CDATA[文章网址：https://krebsonsecurity.com/2024/09/owners-of-1-time-passcode-theft-service-plead-guilty/
+评论网址：https://news.ycombinator.com/item?id=41426982
+积分：15
+评论数：3]]></description>
+      <guid>https://krebsonsecurity.com/2024/09/owners-of-1-time-passcode-theft-service-plead-guilty/</guid>
+      <pubDate>Mon, 02 Sep 2024 16:56:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国最古老的棋盘游戏教授 19 世纪地理知识</title>
+      <link>https://mymodernmet.com/americas-oldest-board-game/</link>
+      <description><![CDATA[文章网址：https://mymodernmet.com/americas-oldest-board-game/
+评论网址：https://news.ycombinator.com/item?id=41426926
+积分：12
+评论数：1]]></description>
+      <guid>https://mymodernmet.com/americas-oldest-board-game/</guid>
+      <pubDate>Mon, 02 Sep 2024 16:49:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>一开始就有计算</title>
+      <link>https://nautil.us/in-the-beginning-there-was-computation-787023/</link>
+      <description><![CDATA[文章网址：https://nautil.us/in-the-beginning-there-was-computation-787023/
+评论网址：https://news.ycombinator.com/item?id=41426714
+积分：16
+评论数：10]]></description>
+      <guid>https://nautil.us/in-the-beginning-there-was-computation-787023/</guid>
+      <pubDate>Mon, 02 Sep 2024 16:23:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>作家对西班牙战争持不同立场：一份档案 (2014)</title>
+      <link>https://open.bu.edu/handle/2144/15314</link>
+      <description><![CDATA[文章网址：https://open.bu.edu/handle/2144/15314
+评论网址：https://news.ycombinator.com/item?id=41426607
+积分：6
+评论数：1]]></description>
+      <guid>https://open.bu.edu/handle/2144/15314</guid>
+      <pubDate>Mon, 02 Sep 2024 16:09:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：谁在招聘？（2024 年 9 月）</title>
+      <link>https://news.ycombinator.com/item?id=41425910</link>
+      <description><![CDATA[请说明位置，如果远程工作，请注明 REMOTE，如果所在国家/地区受限制，请注明 REMOTE (US)
+或类似信息，如果远程工作不是选项，请注明 ONSITE。请仅当您本人是招聘公司的一员时才发帖 — 不适用于招聘公司或求职板。每家公司发帖一次。如果不是家喻户晓的名字，请解释​​贵公司是做什么的。评论者：请不要回复招聘帖子来抱怨某事。这里与主题无关。读者：请仅在您个人对该工作感兴趣时发送电子邮件。搜索者：尝试http://nchelluri.github.io/hnjobs/，https://hnresumetojobs.com，
+https://hnhired.fly.dev，https://kennytilton.github.io/whoishiring/，https://hnjobs.emilburzo.com。不要错过这些其他精彩帖子：谁想被雇用？ https://news.ycombinator.com/item?id=41425908自由职业者？寻找自由职业者？ https://news.ycombinator.com/item?id=41425909
+
+评论网址：https://news.ycombinator.com/item?id=41425910
+积分：60
+评论数：47]]></description>
+      <guid>https://news.ycombinator.com/item?id=41425910</guid>
+      <pubDate>Mon, 02 Sep 2024 15:00:06 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：用于设计射频 3D 打印龙勃透镜的开源软件</title>
@@ -21,91 +104,10 @@
       <description><![CDATA[大家好，HN 社区，我很高兴与大家分享我的项目 LuneForge，这是一个目前正在开发的开源工具，旨在简化专门用于射频 (RF) 应用的 Luneburg 透镜的设计。Luneburg 透镜是一种独特的梯度折射率透镜，可以有效聚焦射频信号，这使其在军事和汽车行业的各种射频和天线系统中非常有用。主要特点：可定制的设计：轻松调整参数以根据特定的射频需求定制透镜设计。用户友好界面：专为射频专业人士和业余爱好者设计。3D 打印优化：模型针对 SLA 3D 打印进行了优化，确保镜头精确且高质量。社区驱动：我们正在建立一个由射频爱好者和专业人士组成的社区，以贡献、分享知识并突破射频镜头设计的界限。我很乐意听到您对新功能的反馈、建议或想法。欢迎随时查看存储库 [ https://github.com/jboirazian/LuneForge ]
 
 评论网址：https://news.ycombinator.com/item?id=41425675
-积分：3
-评论数：0]]></description>
+积分：30
+评论数：12]]></description>
       <guid>https://github.com/jboirazian/LuneForge</guid>
       <pubDate>Mon, 02 Sep 2024 14:35:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>睡一觉：大脑如何处理许多经历——即使在“离线”时</title>
-      <link>https://news.yale.edu/2024/08/14/sleep-it-how-brain-processes-many-experiences-even-when-offline</link>
-      <description><![CDATA[文章网址：https://news.yale.edu/2024/08/14/sleep-it-how-brain-processes-many-experiences-even-when-offline
-评论网址：https://news.ycombinator.com/item?id=41425563
-积分：9
-评论数：0]]></description>
-      <guid>https://news.yale.edu/2024/08/14/sleep-it-how-brain-processes-many-experiences-even-when-offline</guid>
-      <pubDate>Mon, 02 Sep 2024 14:17:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>问HN：微软为什么禁止员工个人开源项目？</title>
-      <link>https://news.ycombinator.com/item?id=41425525</link>
-      <description><![CDATA[如果开源个人项目不与微软商业产品直接竞争，那问题是什么？
-
-评论网址：https://news.ycombinator.com/item?id=41425525
-积分：16
-评论数：12]]></description>
-      <guid>https://news.ycombinator.com/item?id=41425525</guid>
-      <pubDate>Mon, 02 Sep 2024 14:11:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何使用 OpenTofu 和 GitHub Actions 将 Node.js 部署到 AWS Lambda</title>
-      <link>https://developer-friendly.blog/blog/2024/09/02/how-to-deploy-nodejs-to-aws-lambda-with-opentofu--github-actions/</link>
-      <description><![CDATA[文章网址：https://developer-friendly.blog/blog/2024/09/02/how-to-deploy-nodejs-to-aws-lambda-with-opentofu--github-actions/
-评论网址：https://news.ycombinator.com/item?id=41425478
-积分：4
-评论数：0]]></description>
-      <guid>https://developer-friendly.blog/blog/2024/09/02/how-to-deploy-nodejs-to-aws-lambda-with-opentofu--github-actions/</guid>
-      <pubDate>Mon, 02 Sep 2024 14:05:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>学习意味着什么？</title>
-      <link>https://www.newyorker.com/culture/open-questions/what-does-it-really-mean-to-learn</link>
-      <description><![CDATA[文章网址：https://www.newyorker.com/culture/open-questions/what-does-it-really-mean-to-learn
-评论网址：https://news.ycombinator.com/item?id=41425446
-积分：4
-评论数：0]]></description>
-      <guid>https://www.newyorker.com/culture/open-questions/what-does-it-really-mean-to-learn</guid>
-      <pubDate>Mon, 02 Sep 2024 14:00:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国每周工作 30 小时？差点成为法律</title>
-      <link>https://www.washingtonpost.com/history/2024/09/02/30-hour-workweek-fdr-labor-day/</link>
-      <description><![CDATA[文章网址：https://www.washingtonpost.com/history/2024/09/02/30-hour-workweek-fdr-labor-day/
-评论网址：https://news.ycombinator.com/item?id=41425438
-积分：20
-评论数：26]]></description>
-      <guid>https://www.washingtonpost.com/history/2024/09/02/30-hour-workweek-fdr-labor-day/</guid>
-      <pubDate>Mon, 02 Sep 2024 13:59:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>DOjS – 带声音的 DOS JavaScript 画布</title>
-      <link>https://github.com/SuperIlu/DOjS</link>
-      <description><![CDATA[文章网址：https://github.com/SuperIlu/DOjS
-评论网址：https://news.ycombinator.com/item?id=41425259
-积分：56
-评论数：3]]></description>
-      <guid>https://github.com/SuperIlu/DOjS</guid>
-      <pubDate>Mon, 02 Sep 2024 13:33:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>任何博客的全文、完整存档 RSS 源</title>
-      <link>https://www.dogesec.com/blog/full_text_rss_atom_blog_feeds/</link>
-      <description><![CDATA[文章网址：https://www.dogesec.com/blog/full_text_rss_atom_blog_feeds/
-评论网址：https://news.ycombinator.com/item?id=41425085
-积分：32
-评论数：5]]></description>
-      <guid>https://www.dogesec.com/blog/full_text_rss_atom_blog_feeds/</guid>
-      <pubDate>Mon, 02 Sep 2024 13:06:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bitmovin (YC S15) 正在奥地利招聘各种职位</title>
-      <link>https://bitmovin.com/careers/</link>
-      <description><![CDATA[文章网址：https://bitmovin.com/careers/
-评论网址：https://news.ycombinator.com/item?id=41424719
-积分：0
-评论数：0]]></description>
-      <guid>https://bitmovin.com/careers/</guid>
-      <pubDate>Mon, 02 Sep 2024 12:01:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
