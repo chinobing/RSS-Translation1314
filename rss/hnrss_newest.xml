@@ -4,110 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 03 Sep 2024 18:22:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Sep 2024 21:15:25 GMT</lastBuildDate>
     <item>
-      <title>大规模 SwiftUI 应用程序</title>
-      <link>https://jacobbartlett.substack.com/p/swiftui-apps-at-scale</link>
-      <description><![CDATA[文章网址：https://jacobbartlett.substack.com/p/swiftui-apps-at-scale
-评论网址：https://news.ycombinator.com/item?id=41437505
+      <title>Landlock：从安全机制理念到广泛可用的实现 [pdf]</title>
+      <link>https://landlock.io/talks/2024-06-06_landlock-article.pdf</link>
+      <description><![CDATA[文章网址：https://landlock.io/talks/2024-06-06_landlock-article.pdf
+评论网址：https://news.ycombinator.com/item?id=41439263
 积分：1
 评论数：0]]></description>
-      <guid>https://jacobbartlett.substack.com/p/swiftui-apps-at-scale</guid>
-      <pubDate>Tue, 03 Sep 2024 18:11:38 GMT</pubDate>
+      <guid>https://landlock.io/talks/2024-06-06_landlock-article.pdf</guid>
+      <pubDate>Tue, 03 Sep 2024 21:12:03 GMT</pubDate>
     </item>
     <item>
-      <title>硅谷是贵族文化</title>
-      <link>https://www.programmablemutter.com/p/silicon-valley-is-an-aristocratic</link>
-      <description><![CDATA[文章网址：https://www.programmablemutter.com/p/silicon-valley-is-an-aristocratic
-评论网址：https://news.ycombinator.com/item?id=41437497
-积分：1
-评论数：0]]></description>
-      <guid>https://www.programmablemutter.com/p/silicon-valley-is-an-aristocratic</guid>
-      <pubDate>Tue, 03 Sep 2024 18:11:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>嵌入式 Rust：Cortex-M 快速入门模板</title>
-      <link>https://www.embedded.com/embedded-rust-the-cortex-m-quickstart-template/</link>
-      <description><![CDATA[文章网址：https://www.embedded.com/embedded-rust-the-cortex-m-quickstart-template/
-评论网址：https://news.ycombinator.com/item?id=41437491
-积分：1
-评论数：0]]></description>
-      <guid>https://www.embedded.com/embedded-rust-the-cortex-m-quickstart-template/</guid>
-      <pubDate>Tue, 03 Sep 2024 18:10:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Little Snitch Mac 版</title>
-      <link>https://www.obdev.at/products/littlesnitch/index.html</link>
-      <description><![CDATA[文章网址：https://www.obdev.at/products/littlesnitch/index.html
-评论网址：https://news.ycombinator.com/item?id=41437481
-积分：1
-评论数：0]]></description>
-      <guid>https://www.obdev.at/products/littlesnitch/index.html</guid>
-      <pubDate>Tue, 03 Sep 2024 18:08:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：为中小型企业构建开源套件——值得付出努力吗？</title>
-      <link>https://news.ycombinator.com/item?id=41437476</link>
-      <description><![CDATA[大家好，我计划为中小型企业创建一套开源工具，比如项目管理、任务跟踪器、ERP、CRM、社交媒体调度程序等等……我尝试过 Odoo 和 Zoho，但它们并不是我所需要的。（它有太多错误，用户体验很差。）我已经有了这些工具应该是什么样子的设计和想法。你觉得自己构建工具而不是使用现成的工具怎么样？1. 你真正想要这些工具的哪些功能？
-2. 你以前构建或使用过自托管工具吗？你的经验是什么？
-3. 构建自己的工具时应该注意哪些事项？任何建议或建议都会非常有用！非常感谢！
+      <title>帮助查找法学硕士 (LLM) 和基于证明的重构参考</title>
+      <link>https://news.ycombinator.com/item?id=41439259</link>
+      <description><![CDATA[最近在 HN 上，我偶然发现了一篇 LLM 论文，该论文在 SWE-bench 重构任务上取得了令人印象深刻的成果。除了生成重构之外，它还在一种特殊的 DSL 中创建了等价性的正式证明。现在我似乎找不到这篇论文了！到目前为止，我已经清理了过去 9 个月的 HN SWE-bench 文章，并尝试使用 Google 学术搜索基于 LLM 的重构（带有证明或 DSL）。我相信他们在摘要中提到了 SWE-bench，但 HN 公告中似乎没有提到。我不记得它是一种自定义 DSL，还是他们使用了一种众所周知的验证语言。他们可能没有称它为 DSL。迄今为止最接近的匹配：1. https://arxiv.org/pdf/2305.17485。为简单的类 prolog 语言生成带有证明的重构，但不能推广到 SWE-bench 任务2. https://arxiv.org/abs/2407.21787. 筛选数百个 DeepSeek-V2-Coder-Instruct 解决方案以在 SWE-bench Lite 上获得 56%，但不使用等价证明3. https://arxiv.org/pdf/2402.08699. 使用带有神经等价启发式的往返误差，但不生成等价证明4.从 TSL 中的 Temporal Logic 规范生成控制器和谓词代码，但不生成 TSL 规范或让我们重构代码。我很感激任何帮助！
 
-评论网址：https://news.ycombinator.com/item?id=41437476
+评论网址：https://news.ycombinator.com/item?id=41439259
+积分：1
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=41439259</guid>
+      <pubDate>Tue, 03 Sep 2024 21:11:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>即将发生的重大变化：默认情况下将排除隐藏文件</title>
+      <link>https://github.com/actions/upload-artifact/issues/602</link>
+      <description><![CDATA[文章网址：https://github.com/actions/upload-artifact/issues/602
+评论网址：https://news.ycombinator.com/item?id=41439249
 积分：1
 评论数：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=41437476</guid>
-      <pubDate>Tue, 03 Sep 2024 18:08:09 GMT</pubDate>
+      <guid>https://github.com/actions/upload-artifact/issues/602</guid>
+      <pubDate>Tue, 03 Sep 2024 21:10:57 GMT</pubDate>
     </item>
     <item>
-      <title>美国研究人员发现俄罗斯核动力导弹的可能发射地点</title>
-      <link>https://www.japantimes.co.jp/news/2024/09/03/world/us-launch-site-russia-nuclear-missile/</link>
-      <description><![CDATA[文章网址：https://www.japantimes.co.jp/news/2024/09/03/world/us-launch-site-russia-nuclear-missile/
-评论网址：https://news.ycombinator.com/item?id=41437466
-积分：3
-评论数：0]]></description>
-      <guid>https://www.japantimes.co.jp/news/2024/09/03/world/us-launch-site-russia-nuclear-missile/</guid>
-      <pubDate>Tue, 03 Sep 2024 18:07:20 GMT</pubDate>
+      <title>革命性的图像升级：深入了解 Adima AI 的 64K 分辨率</title>
+      <link>https://news.ycombinator.com/item?id=41439218</link>
+      <description><![CDATA[您好，Hacker News，我想分享一些有关 Adima AI Image Upscaler 的详细信息，这是一种旨在解决高分辨率图像处理挑战的工具。此工具利用先进的 AI 技术来提高图像质量，同时扩大分辨率。技术亮点：可扩展性：Adima AI 可以将图像从 4K 分辨率放大到 64K。此功能通过复杂的算法实现，这些算法可在高放大倍数下保持图像完整性。降噪和处理：该工具包括降噪和批处理功能。它应用各种过滤器来优化放大图像的质量，这对于涉及大型数据集或多个图像的任务特别有用。AI 模型：底层 AI 模型已在各种图像数据集上进行训练，使其能够处理各种图像类型和内容。这种方法旨在保留细节并最大限度地减少传统放大方法中常见的伪影。实施：该软件的构建注重性能和可用性。它集成了用户友好的界面和强大的后端处理功能。我对社区的任何反馈或见解都很感兴趣，尤其是关于此工具的技术方面和潜在应用。如果您参与图像处理或有类似技术的经验，您的观点将非常有价值。祝好，Juek
+
+评论网址：https://news.ycombinator.com/item?id=41439218
+积分：1
+评论数：1]]></description>
+      <guid>https://news.ycombinator.com/item?id=41439218</guid>
+      <pubDate>Tue, 03 Sep 2024 21:08:05 GMT</pubDate>
     </item>
     <item>
-      <title>为什么现代游戏很烂——他们不停地牵着我的手 [视频]</title>
-      <link>https://www.youtube.com/watch?v=1IOA_b4k2lQ</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=1IOA_b4k2lQ
-评论网址：https://news.ycombinator.com/item?id=41437464
+      <title>怀俄明州大型碳捕集项目因缺乏清洁能源而被迫停止</title>
+      <link>https://cowboystatedaily.com/2024/09/03/giant-wyoming-carbon-capture-project-pulls-plug-for-lack-of-clean-power/</link>
+      <description><![CDATA[文章网址：https://cowboystatedai​​ly.com/2024/09/03/giant-wyoming-carbon-capture-project-pulls-plug-for-lack-of-clean-power/
+评论网址：https://news.ycombinator.com/item?id=41439169
 积分：2
 评论数：0]]></description>
-      <guid>https://www.youtube.com/watch?v=1IOA_b4k2lQ</guid>
-      <pubDate>Tue, 03 Sep 2024 18:07:15 GMT</pubDate>
+      <guid>https://cowboystatedaily.com/2024/09/03/giant-wyoming-carbon-capture-project-pulls-plug-for-lack-of-clean-power/</guid>
+      <pubDate>Tue, 03 Sep 2024 21:02:36 GMT</pubDate>
     </item>
     <item>
-      <title>真实的社交 API？</title>
-      <link>https://news.ycombinator.com/item?id=41437447</link>
-      <description><![CDATA[是否有真相社交 API？是否有可靠的电子邮件可以联系在那里工作的人？我给他们的支持发送电子邮件时没有收到任何回复。
-
-评论网址：https://news.ycombinator.com/item?id=41437447
+      <title>奥克兰警方正在拖走特斯拉汽车，用于拍摄犯罪现场录像</title>
+      <link>https://www.carscoops.com/2024/09/california-police-might-use-your-teslas-sentry-video-to-solve-nearby-crimes/</link>
+      <description><![CDATA[文章网址：https://www.carscoops.com/2024/09/california-police-might-use-your-teslas-sentry-video-to-solve-nearby-crimes/
+评论网址：https://news.ycombinator.com/item?id=41439168
+积分：6
+评论数：4]]></description>
+      <guid>https://www.carscoops.com/2024/09/california-police-might-use-your-teslas-sentry-video-to-solve-nearby-crimes/</guid>
+      <pubDate>Tue, 03 Sep 2024 21:02:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>该计划旨在推动加州各地野生动物通道建设</title>
+      <link>https://www.latimes.com/environment/story/2024-08-23/initiative-aims-to-boost-wildlife-crossings-across-california</link>
+      <description><![CDATA[文章网址：https://www.latimes.com/environment/story/2024-08-23/initiative-aims-to-boost-wildlife-crossings-across-california
+评论网址：https://news.ycombinator.com/item?id=41439157
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41437447</guid>
-      <pubDate>Tue, 03 Sep 2024 18:05:28 GMT</pubDate>
+      <guid>https://www.latimes.com/environment/story/2024-08-23/initiative-aims-to-boost-wildlife-crossings-across-california</guid>
+      <pubDate>Tue, 03 Sep 2024 21:00:44 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：音量计数器！使用音量按钮在 iOS 中计数</title>
-      <link>https://apps.apple.com/au/app/volume-counter/id6656023433</link>
-      <description><![CDATA[文章网址：https://apps.apple.com/au/app/volume-counter/id6656023433
-评论网址：https://news.ycombinator.com/item?id=41437432
+      <title>创始人模式——Brian Chesky</title>
+      <link>https://twitter.com/yanatweets/status/1830728471380902048</link>
+      <description><![CDATA[文章网址：https://twitter.com/yanatweets/status/1830728471380902048
+评论网址：https://news.ycombinator.com/item?id=41439156
 积分：1
+评论数：0]]></description>
+      <guid>https://twitter.com/yanatweets/status/1830728471380902048</guid>
+      <pubDate>Tue, 03 Sep 2024 21:00:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hack Club 的 Replith Lifeboat</title>
+      <link>https://hackclub.com/replit/</link>
+      <description><![CDATA[文章网址：https://hackclub.com/replit/
+评论网址：https://news.ycombinator.com/item?id=41439151
+积分：2
 评论数：1]]></description>
-      <guid>https://apps.apple.com/au/app/volume-counter/id6656023433</guid>
-      <pubDate>Tue, 03 Sep 2024 18:03:38 GMT</pubDate>
+      <guid>https://hackclub.com/replit/</guid>
+      <pubDate>Tue, 03 Sep 2024 21:00:14 GMT</pubDate>
     </item>
     <item>
-      <title>选择和使用 USB Wi-Fi 适配器（Raspberry Pi）</title>
-      <link>https://raspberrytips.com/raspberry-pi-usb-wi-fi/</link>
-      <description><![CDATA[文章网址：https://raspberrytips.com/raspberry-pi-usb-wi-fi/
-评论网址：https://news.ycombinator.com/item?id=41437415
-积分：1
+      <title>青少年 3D 打印出可工作的音箱“声波”变压器 [视频]</title>
+      <link>https://www.youtube.com/watch?v=pDgAjCh9lrs</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=pDgAjCh9lrs
+评论网址：https://news.ycombinator.com/item?id=41439144
+积分：2
 评论数：0]]></description>
-      <guid>https://raspberrytips.com/raspberry-pi-usb-wi-fi/</guid>
-      <pubDate>Tue, 03 Sep 2024 18:01:59 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=pDgAjCh9lrs</guid>
+      <pubDate>Tue, 03 Sep 2024 20:59:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
