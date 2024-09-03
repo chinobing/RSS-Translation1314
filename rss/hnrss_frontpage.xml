@@ -4,107 +4,112 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 03 Sep 2024 15:17:39 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Sep 2024 18:21:57 GMT</lastBuildDate>
+    <item>
+      <title>傅里叶不确定性原理 [pdf]</title>
+      <link>https://math.uchicago.edu/~may/REU2021/REUPapers/Dubey.pdf</link>
+      <description><![CDATA[文章网址：https://math.uchicago.edu/~may/REU2021/REUPapers/Dubey.pdf
+评论网址：https://news.ycombinator.com/item?id=41437095
+积分：3
+评论数：0]]></description>
+      <guid>https://math.uchicago.edu/~may/REU2021/REUPapers/Dubey.pdf</guid>
+      <pubDate>Tue, 03 Sep 2024 17:23:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Formance (YC S21) 正在招聘一名技术作家</title>
+      <link>https://www.ycombinator.com/companies/formance/jobs/cz7CHvV-technical-writer</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/formance/jobs/cz7CHvV-technical-writer
+评论网址：https://news.ycombinator.com/item?id=41436843
+积分：0
+评论数：0]]></description>
+      <guid>https://www.ycombinator.com/companies/formance/jobs/cz7CHvV-technical-writer</guid>
+      <pubDate>Tue, 03 Sep 2024 17:00:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>垃圾填埋场工程</title>
+      <link>https://practical.engineering/blog/2024/9/3/the-hidden-engineering-of-landfills</link>
+      <description><![CDATA[文章网址：https://practical.engineering/blog/2024/9/3/the-hidden-engineering-of-landfills
+评论网址：https://news.ycombinator.com/item?id=41436642
+积分：62
+评论数：23]]></description>
+      <guid>https://practical.engineering/blog/2024/9/3/the-hidden-engineering-of-landfills</guid>
+      <pubDate>Tue, 03 Sep 2024 16:40:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>希格斯场如何（实际上）赋予基本粒子质量</title>
+      <link>https://www.quantamagazine.org/how-the-higgs-field-actually-gives-mass-to-elementary-particles-20240903/</link>
+      <description><![CDATA[文章网址：https://www.quantamagazine.org/how-the-higgs-field-actually-gives-mass-to-elementary-particles-20240903/
+评论网址：https://news.ycombinator.com/item?id=41436372
+积分：61
+评论数：27]]></description>
+      <guid>https://www.quantamagazine.org/how-the-higgs-field-actually-gives-mass-to-elementary-particles-20240903/</guid>
+      <pubDate>Tue, 03 Sep 2024 16:11:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Repaint – 基于 WebGL 的网站构建器</title>
+      <link>https://repaint.com</link>
+      <description><![CDATA[嗨，HN！我们是 Repaint (YC S23) 的创始人 Ben 和 Izak。Repaint 类似于 Figma，但用于创建真正的网站。它具有平移、缩放和拖动元素的功能。设置与 html/css 密切相关。我们认为开放画布比其他网站构建器有很大改进。一切都更容易：样式、一致性、响应性……但让它发挥作用很难！我们认为 HN 会欣赏它背后的技术：
+- 自定义 WebGL 渲染引擎（带文本、阴影、模糊、渐变和不透明度组）
+- css 规范的部分实现
+- 自定义文本编辑器和文本整形器
+- 将设计转换为可发布的 html/css 的转换器Repaint 是 html/css 的设计工具。但在内部，它实际上并不使用 html/css 本身。所有设计都集中在一个  元素中。我们希望用户能够在一个屏幕上看到所有内容。我们的目标是 +60fps，因此帧只有 16ms 的渲染时间。由于屏幕上有数千个节点，浏览器的布局引擎无法处理缩放等简单操作。为了解决这个问题，我们在 WebGL 中编写了一个渲染引擎。由于我们使用自定义渲染，因此我们必须自己创建大量内置浏览器行为。用户在我们的编辑器中修改大型 dom 类数据结构。文档中的每个节点都有一组 css 类样式。我们创建了一个布局引擎，将此文档转换为位置和大小列表。我们将这些值输入到渲染引擎中。我们的布局引擎让我们无需使用浏览器的布局引擎即可显示正确的 html 布局。我们支持弹性和块布局。我们已经支持多种布局单位和属性（px、%，最小值、最大值等）。我们也无法使用浏览器的内置文本编辑器，因此我们自己制作了一个。我们实现了有关选择和内容编辑的所有常见文本编辑器功能（单击、选择、热键、内联样式等）。状态由内容和选择组成。输入包括按键、单击和样式更改。更新后的状态用于呈现文本、选择框和光标。当您发布网站时，我们会将内部文档转换为 html 文档。我们有意将文档结构化为类似于 dom 树。每个节点与 html 元素都有 1:1 映射。节点有一个代表媒体查询的断点列表。我们通过将它们转换为选择器来应用样式。所有 html 页面都保存并存储在我们的文件服务器上以供托管。我们为 HN 制作了一个游乐场，您可以自己尝试一下。现在技术已经发挥作用，我们非常希望收到反馈和改进产品体验的想法。我们也希望结识更多对该领域感兴趣的建造者。如果您也感兴趣，欢迎在评论中与我们打招呼！或者您可以通过他的网站联系 Ben。游乐场：​​https://app.repaint.com/playground演示视频：https://www.loom.com/share/03ee81317c224189bfa202d3eacfa3c3?...主网站：https://repaint.com/联系方式：https://benshumaker.xyz/
+
+评论网址：https://news.ycombinator.com/item?id=41436338
+积分：46
+评论数：27]]></description>
+      <guid>https://repaint.com</guid>
+      <pubDate>Tue, 03 Sep 2024 16:08:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chromatone – 视觉音乐语言</title>
+      <link>https://chromatone.center/</link>
+      <description><![CDATA[文章网址：https://chromatone.center/
+评论网址：https://news.ycombinator.com/item?id=41436158
+积分：93
+评论数：13]]></description>
+      <guid>https://chromatone.center/</guid>
+      <pubDate>Tue, 03 Sep 2024 15:54:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>一位摄影师捕捉了美国最后一片原始森林中的生命</title>
+      <link>https://www.npr.org/sections/the-picture-show/2024/09/03/g-s1-5057/photographer-captures-life-in-old-growth-forests</link>
+      <description><![CDATA[文章网址：https://www.npr.org/sections/the-picture-show/2024/09/03/g-s1-5057/photographer-captures-life-in-old-growth-forests
+评论网址：https://news.ycombinator.com/item?id=41435676
+积分：76
+评论数：22]]></description>
+      <guid>https://www.npr.org/sections/the-picture-show/2024/09/03/g-s1-5057/photographer-captures-life-in-old-growth-forests</guid>
+      <pubDate>Tue, 03 Sep 2024 15:06:36 GMT</pubDate>
+    </item>
     <item>
       <title>显示 HN：PlasCAD：开源质粒编辑器</title>
       <link>https://github.com/David-OConnor/plascad</link>
       <description><![CDATA[嘿！这是一个开源质粒和载体（短的、通常是圆形的 DNA 片段）编辑器，具有与引物质量检查、PCR 克隆和蛋白质分析相关的功能。我计划在不久的将来添加更多基于限制酶的功能。它有一些额外的功能，如溶液混合助手、自动功能注释。从技术角度来看，这是一个使用 rust 中的 EGUI 库编写的独立二进制文件。项目目标是提高性能，减少内存占用，并减小应用程序和文件大小。这是一项持续进行的工作，我愿意接受任何反馈、批评和功能请求。
 
 评论网址：https://news.ycombinator.com/item?id=41435409
-积分：9
-评论数：1]]></description>
+积分：60
+评论数：18]]></description>
       <guid>https://github.com/David-OConnor/plascad</guid>
       <pubDate>Tue, 03 Sep 2024 14:38:01 GMT</pubDate>
     </item>
     <item>
-      <title>迄今为止最大规模的研究发现，手机与脑癌无关</title>
-      <link>https://www.theguardian.com/science/article/2024/sep/04/mobile-phones-not-linked-to-brain-cancer-biggest-study-to-date-finds</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/science/article/2024/sep/04/mobile-phones-not-linked-to-brain-cancer-biggest-study-to-date-finds
-评论网址：https://news.ycombinator.com/item?id=41435398
-积分：20
-评论数：1]]></description>
-      <guid>https://www.theguardian.com/science/article/2024/sep/04/mobile-phones-not-linked-to-brain-cancer-biggest-study-to-date-finds</guid>
-      <pubDate>Tue, 03 Sep 2024 14:37:01 GMT</pubDate>
+      <title>微软 Windows 11 上的召回功能最终无法删除</title>
+      <link>https://digitalmarketreports.com/news/25091/microsoft-recall-feature-on-windows-11-not-removable-after-all/</link>
+      <description><![CDATA[文章网址：https://digitalmarketreports.com/news/25091/microsoft-recall-feature-on-windows-11-not-removable-after-all/
+评论网址：https://news.ycombinator.com/item?id=41434986
+积分：17
+评论数：2]]></description>
+      <guid>https://digitalmarketreports.com/news/25091/microsoft-recall-feature-on-windows-11-not-removable-after-all/</guid>
+      <pubDate>Tue, 03 Sep 2024 13:55:51 GMT</pubDate>
     </item>
     <item>
       <title>通过约束优化使乒乓球与音乐同步</title>
       <link>https://victortao.substack.com/p/song-pong</link>
       <description><![CDATA[文章网址：https://victortao.substack.com/p/song-pong
 评论网址：https://news.ycombinator.com/item?id=41434679
-积分：49
-评论数：5]]></description>
+积分：138
+评论数：17]]></description>
       <guid>https://victortao.substack.com/p/song-pong</guid>
       <pubDate>Tue, 03 Sep 2024 13:19:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>史蒂夫鲍尔默的错误二分搜索面试问题</title>
-      <link>https://blog.jgc.org/2024/09/steve-ballmers-binary-search-interview.html</link>
-      <description><![CDATA[文章网址：https://blog.jgc.org/2024/09/steve-ballmers-binary-search-interview.html
-评论网址：https://news.ycombinator.com/item?id=41434637
-积分：74
-评论数：65]]></description>
-      <guid>https://blog.jgc.org/2024/09/steve-ballmers-binary-search-interview.html</guid>
-      <pubDate>Tue, 03 Sep 2024 13:12:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>IBM 305 RAMAC 和 1960 年冬季奥运会</title>
-      <link>https://pncnmnp.github.io/blogs/ibm-ramac-and-1960-winter-olympics.html</link>
-      <description><![CDATA[文章网址：https://pncnmnp.github.io/blogs/ibm-ramac-and-1960-winter-olympics.html
-评论网址：https://news.ycombinator.com/item?id=41434509
-积分：36
-评论数：0]]></description>
-      <guid>https://pncnmnp.github.io/blogs/ibm-ramac-and-1960-winter-olympics.html</guid>
-      <pubDate>Tue, 03 Sep 2024 12:57:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么要费心使用 argv[0]？</title>
-      <link>https://www.wietzebeukema.nl/blog/why-bother-with-argv0</link>
-      <description><![CDATA[文章网址：https://www.wietzebeukema.nl/blog/why-bother-with-argv0
-评论网址：https://news.ycombinator.com/item?id=41434315
-积分：53
-评论数：48]]></description>
-      <guid>https://www.wietzebeukema.nl/blog/why-bother-with-argv0</guid>
-      <pubDate>Tue, 03 Sep 2024 12:30:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>新型钢材可用于制造更坚固、更轻便的汽车</title>
-      <link>https://knowablemagazine.org/content/article/technology/2024/new-steel-for-stronger-lighter-cars</link>
-      <description><![CDATA[文章网址：https://knowablemagazine.org/content/article/technology/2024/new-steel-for-stronger-lighter-cars
-评论网址：https://news.ycombinator.com/item?id=41434252
-积分：28
-评论数：39]]></description>
-      <guid>https://knowablemagazine.org/content/article/technology/2024/new-steel-for-stronger-lighter-cars</guid>
-      <pubDate>Tue, 03 Sep 2024 12:23:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mineflow (YC S24) 正在招聘机器学习工程师</title>
-      <link>https://www.ycombinator.com/companies/mineflow/jobs/sJbXTyi-founding-machine-learning-engineer</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/mineflow/jobs/sJbXTyi-founding-machine-learning-engineer
-评论网址：https://news.ycombinator.com/item?id=41434072
-积分：0
-评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/mineflow/jobs/sJbXTyi-founding-machine-learning-engineer</guid>
-      <pubDate>Tue, 03 Sep 2024 12:00:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>图形语言模型</title>
-      <link>https://aclanthology.org/2024.acl-long.245/</link>
-      <description><![CDATA[文章网址：https://aclanthology.org/2024.acl-long.245/
-评论网址：https://news.ycombinator.com/item?id=41432013
-积分：56
-评论数：6]]></description>
-      <guid>https://aclanthology.org/2024.acl-long.245/</guid>
-      <pubDate>Tue, 03 Sep 2024 06:49:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>更小、更弱但更好：通过计算最优采样训练 LLM 推理机</title>
-      <link>https://arxiv.org/abs/2408.16737</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2408.16737
-评论网址：https://news.ycombinator.com/item?id=41431560
-积分：21
-评论数：3]]></description>
-      <guid>https://arxiv.org/abs/2408.16737</guid>
-      <pubDate>Tue, 03 Sep 2024 05:26:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
