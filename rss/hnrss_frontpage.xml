@@ -4,57 +4,67 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 05 Sep 2024 01:12:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2024 03:17:50 GMT</lastBuildDate>
     <item>
-      <title>SEC 因未保存电子记录对 6 家主要信用评级机构处以罚款</title>
-      <link>https://www.cnn.com/2024/09/03/business/sec-fines-credit-rating-agencies-over-failure-electronic-records/index.html</link>
-      <description><![CDATA[文章网址：https://www.cnn.com/2024/09/03/business/sec-fines-credit-rating-agencies-over-failure-electronic-records/index.html
-评论网址：https://news.ycombinator.com/item?id=41451707
-积分：56
-评论数：8]]></description>
-      <guid>https://www.cnn.com/2024/09/03/business/sec-fines-credit-rating-agencies-over-failure-electronic-records/index.html</guid>
-      <pubDate>Wed, 04 Sep 2024 22:53:15 GMT</pubDate>
+      <title>加拿大大型房东利用人工智能“定价方案”提高租金</title>
+      <link>https://breachmedia.ca/canadian-mega-landlord-ai-pricing-scheme-hikes-rents/</link>
+      <description><![CDATA[文章网址：https://breachmedia.ca/canadian-mega-landlord-ai-pricing-scheme-hikes-rents/
+评论网址：https://news.ycombinator.com/item?id=41452781
+积分：35
+评论数：14]]></description>
+      <guid>https://breachmedia.ca/canadian-mega-landlord-ai-pricing-scheme-hikes-rents/</guid>
+      <pubDate>Thu, 05 Sep 2024 01:59:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tinystatus：由 Python 脚本生成的微型状态页面</title>
+      <link>https://github.com/harsxv/tinystatus</link>
+      <description><![CDATA[文章网址：https://github.com/harsxv/tinystatus
+评论网址：https://news.ycombinator.com/item?id=41452339
+积分：18
+评论数：4]]></description>
+      <guid>https://github.com/harsxv/tinystatus</guid>
+      <pubDate>Thu, 05 Sep 2024 00:40:25 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：Laminar – 用于 LLM 应用程序的开源 DataDog + PostHog，基于 Rust 构建</title>
       <link>https://github.com/lmnr-ai/lmnr</link>
-      <description><![CDATA[嗨，HN，我们是来自 Laminar (https://www.lmnr.ai) 的 Robert、Din 和 Temirlan，这是一个用于复杂 LLM 应用的开源可观察性和分析平台。它旨在快速、可靠且可扩展。堆栈包括用于消息队列的 RabbitMQ、用于存储的 Postgres、用于分析的 Clickhouse、用于语义搜索的 Qdrant - 全部由 Rust 提供支持。Laminar 与其他“LLM 可观察性”平台有何不同？在可观察性部分，我们专注于处理完整的执行跟踪，而不仅仅是 LLM 调用。我们为 OpenTelemetry (Otel) 跨度构建了一个 Rust 摄取器，并采用了 GenAI 语义约定。随着 LLM 应用变得越来越复杂（想想具有数百个 LLM 和函数调用的代理，或复杂的 RAG 管道），完整跟踪至关重要。借助 Otel 跨度，我们可以：1. 覆盖整个执行跟踪。 2. 确保平台面向未来 3. 利用出色的 OpenLLMetry (https://github.com/traceloop/openllmetry)，这是一个用于跨度生产的开源软件包。关键区别在于我们将文本分析直接绑定到执行跟踪。富文本数据使 LLM 跟踪独一无二，因此我们让您跟踪“语义指标”（例如您的 AI 代理实际说了什么）并将这些指标连接到它们在跟踪中发生的位置。如果您想知道您的 AI 直通代理是否进行了追加销售，您可以在我们的构建器中设计一个 LLM 提取管道（稍后会详细介绍），将其托管在 Laminar 上，并处理从事件请求到输出日志记录的所有内容。处理请求只是作为 Otel 跨度中的事件出现。我们认为将核心应用逻辑与 LLM 事件处理分开是一种胜利。大多数开发人员不想管理 LLM 分析处理的后台队列，但仍希望了解其代理或 RAG 的工作方式。我们的管道构建器使用图形 UI，其中节点是 LLM 和实用函数，边缘显示数据流。我们构建了一个自定义任务执行引擎，支持并行分支执行、循环和分支（对于简单的管道来说，这有点过头了，但它非常酷，我们花了很多时间来设计一个强大的引擎）。您还可以直接将管道作为 API 端点调用。我们发现它们对于迭代和分离 LLM 逻辑非常有用。Laminar 还直接跟踪管道，从而消除了通过网络发送大量输出的开销。目前所有 LLM 可观察性平台都缺少一项功能，那就是对跟踪进行充分的搜索。我们正在通过在向量数据库中索引每个跨度并在查询时执行混合搜索来解决这个问题。此功能仍处于测试阶段，但我们认为它将成为我们平台未来的关键部分。我们还支持评估。我们喜欢 Braintrust 和 Weights &amp; Biases 的“在本地运行一切，将结果发送到服务器”方法，所以我们也这样做了：一个简单的 SDK 和漂亮的仪表板来跟踪一切。评估还处于早期阶段，但我们正在努力推动它们。我们的目标是让 Laminar 成为 LLMOps 的 Supabase - 适用于所有 LLM / GenAI 的首选开源综合平台。就目前的情况而言，Laminar 才刚刚成立几周，发展迅速，我们很乐意收到任何反馈，或者希望您在 LLM 项目中尝试一下 Laminar！
+      <description><![CDATA[嗨，HN，我们是来自 Laminar (https://www.lmnr.ai) 的 Robert、Din 和 Temirlan，这是一个用于复杂 LLM 应用的开源可观察性和分析平台。它旨在快速、可靠且可扩展。堆栈包括用于消息队列的 RabbitMQ、用于存储的 Postgres、用于分析的 Clickhouse、用于语义搜索的 Qdrant - 全部由 Rust 提供支持。Laminar 与其他“LLM 可观察性”平台有何不同？在可观察性部分，我们专注于处理完整的执行跟踪，而不仅仅是 LLM 调用。我们为 OpenTelemetry (Otel) 跨度构建了一个 Rust 摄取器，并采用了 GenAI 语义约定。随着 LLM 应用变得越来越复杂（想想具有数百个 LLM 和函数调用的代理，或复杂的 RAG 管道），完整跟踪至关重要。借助 Otel 跨度，我们可以：1. 覆盖整个执行跟踪。 2. 确保平台面向未来 3. 利用出色的 OpenLLMetry (https://github.com/traceloop/openllmetry)，这是一个用于跨度生产的开源软件包。关键区别在于我们将文本分析直接绑定到执行跟踪。富文本数据使 LLM 跟踪独一无二，因此我们让您跟踪“语义指标”（例如您的 AI 代理实际说了什么）并将这些指标连接到它们在跟踪中发生的位置。如果您想知道您的 AI 直通代理是否进行了追加销售，您可以在我们的构建器中设计一个 LLM 提取管道（稍后会详细介绍），将其托管在 Laminar 上，并处理从事件请求到输出日志记录的所有内容。处理请求只是作为 Otel 跨度中的事件出现。我们认为将核心应用逻辑与 LLM 事件处理分开是一种胜利。大多数开发人员不想管理 LLM 分析处理的后台队列，但仍希望了解其代理或 RAG 的工作方式。我们的管道构建器使用图形 UI，其中节点是 LLM 和实用函数，边缘显示数据流。我们构建了一个自定义任务执行引擎，支持并行分支执行、循环和分支（对于简单的管道来说，这有点过头了，但它非常酷，我们花了很多时间来设计一个强大的引擎）。您还可以直接将管道作为 API 端点调用。我们发现它们对于迭代和分离 LLM 逻辑非常有用。Laminar 还直接跟踪管道，从而消除了通过网络发送大量输出的开销。目前所有 LLM 可观察性平台都缺少一项功能，那就是对跟踪进行充分的搜索。我们正在通过在向量数据库中索引每个跨度并在查询时执行混合搜索来解决这个问题。此功能仍处于测试阶段，但我们认为它将成为我们平台未来的关键部分。我们还支持评估。我们喜欢 Braintrust 和 Weights &amp; Biases 的“在本地运行一切，将结果发送到服务器”方法，所以我们也这样做了：一个简单的 SDK 和漂亮的仪表板来跟踪一切。评估还处于早期阶段，但我们正在努力推动它们。我们的目标是让 Laminar 成为 LLMOps 的 Supabase - 适用于所有 LLM / GenAI 的首选开源综合平台。目前，Laminar 才刚刚成立几周，发展迅速，我们很乐意收到任何反馈，或者希望您在 LLM 项目中尝试一下 Laminar！
 
 评论网址：https://news.ycombinator.com/item?id=41451698
-积分：16
-评论数：1]]></description>
+积分：52
+评论数：9]]></description>
       <guid>https://github.com/lmnr-ai/lmnr</guid>
       <pubDate>Wed, 04 Sep 2024 22:52:19 GMT</pubDate>
     </item>
     <item>
-      <title>代码审查焦虑工作簿</title>
-      <link>https://developer-success-lab.gitbook.io/code-review-anxiety-workbook-1</link>
-      <description><![CDATA[文章网址：https://developer-success-lab.gitbook.io/code-review-anxiety-workbook-1
-评论网址：https://news.ycombinator.com/item?id=41451168
-积分：25
-评论数：5]]></description>
-      <guid>https://developer-success-lab.gitbook.io/code-review-anxiety-workbook-1</guid>
-      <pubDate>Wed, 04 Sep 2024 21:40:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>什么是原子钟？（2019）</title>
-      <link>https://www.nasa.gov/missions/tech-demonstration/deep-space-atomic-clock/what-is-an-atomic-clock/</link>
-      <description><![CDATA[文章网址：https://www.nasa.gov/missions/tech-demonstration/deep-space-atomic-clock/what-is-an-atomic-clock/
-评论网址：https://news.ycombinator.com/item?id=41451143
-积分：12
-评论数：0]]></description>
-      <guid>https://www.nasa.gov/missions/tech-demonstration/deep-space-atomic-clock/what-is-an-atomic-clock/</guid>
-      <pubDate>Wed, 04 Sep 2024 21:37:33 GMT</pubDate>
+      <title>受折纸启发的相控阵正在重塑天线的未来</title>
+      <link>https://www.viksnewsletter.com/p/origami-inspired-phased-arrays</link>
+      <description><![CDATA[文章网址：https://www.viksnewsletter.com/p/origami-inspired-phased-arrays
+评论网址：https://news.ycombinator.com/item?id=41451431
+积分：8
+评论数：1]]></description>
+      <guid>https://www.viksnewsletter.com/p/origami-inspired-phased-arrays</guid>
+      <pubDate>Wed, 04 Sep 2024 22:13:40 GMT</pubDate>
     </item>
     <item>
       <title>可快照存储</title>
       <link>https://dl.acm.org/doi/10.1145/3674637</link>
       <description><![CDATA[文章网址：https://dl.acm.org/doi/10.1145/3674637
 评论网址：https://news.ycombinator.com/item?id=41450948
-积分：14
-评论数：2]]></description>
+积分：22
+评论数：3]]></description>
       <guid>https://dl.acm.org/doi/10.1145/3674637</guid>
       <pubDate>Wed, 04 Sep 2024 21:18:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Python 标准库中鲜为人知的部分 – Trickster Dev</title>
+      <link>https://www.trickster.dev/post/lesser-known-parts-of-python-standard-library/</link>
+      <description><![CDATA[文章网址：https://www.trickster.dev/post/lesser-known-parts-of-python-standard-library/
+评论网址：https://news.ycombinator.com/item?id=41450824
+积分：10
+评论数：2]]></description>
+      <guid>https://www.trickster.dev/post/lesser-known-parts-of-python-standard-library/</guid>
+      <pubDate>Wed, 04 Sep 2024 21:07:05 GMT</pubDate>
     </item>
     <item>
       <title>Meticulous (YC S21) 正在招聘以消除 E2E UI 测试</title>
@@ -66,32 +76,22 @@
       <pubDate>Wed, 04 Sep 2024 21:02:36 GMT</pubDate>
     </item>
     <item>
-      <title>奥克兰的新校车减少了污染并兼作巨型电池</title>
-      <link>https://grist.org/transportation/oakland-electric-school-buses-battery-storage/</link>
-      <description><![CDATA[文章网址：https://grist.org/transportation/oakland-electric-school-buses-battery-storage/
-评论网址：https://news.ycombinator.com/item?id=41450729
-积分：64
-评论数：52]]></description>
-      <guid>https://grist.org/transportation/oakland-electric-school-buses-battery-storage/</guid>
-      <pubDate>Wed, 04 Sep 2024 20:58:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>加州公司制定了自己的零工法。现在没有人执行它</title>
-      <link>https://apnews.com/us-news/california-labor-lyft-inc-general-news-906ecb4d94b5e946eab703c562a6bdf0</link>
-      <description><![CDATA[文章网址：https://apnews.com/us-news/california-labor-lyft-inc-general-news-906ecb4d94b5e946eab703c562a6bdf0
-评论网址：https://news.ycombinator.com/item?id=41449984
-积分：48
-评论数：19]]></description>
-      <guid>https://apnews.com/us-news/california-labor-lyft-inc-general-news-906ecb4d94b5e946eab703c562a6bdf0</guid>
-      <pubDate>Wed, 04 Sep 2024 19:54:24 GMT</pubDate>
+      <title>摘要调试器：使用静态分析结果探索程序行为 [pdf]</title>
+      <link>https://patricklam.ca/papers/24.onward.abs-debug.pdf</link>
+      <description><![CDATA[文章网址：https://patricklam.ca/papers/24.onward.abs-debug.pdf
+评论网址：https://news.ycombinator.com/item?id=41449748
+积分：16
+评论数：0]]></description>
+      <guid>https://patricklam.ca/papers/24.onward.abs-debug.pdf</guid>
+      <pubDate>Wed, 04 Sep 2024 19:33:53 GMT</pubDate>
     </item>
     <item>
       <title>卡吉助理</title>
       <link>https://blog.kagi.com/announcing-assistant</link>
       <description><![CDATA[文章网址：https://blog.kagi.com/announcing-assistant
 评论网址：https://news.ycombinator.com/item?id=41448985
-积分：292
-评论数：133]]></description>
+积分：328
+评论数：153]]></description>
       <guid>https://blog.kagi.com/announcing-assistant</guid>
       <pubDate>Wed, 04 Sep 2024 18:35:53 GMT</pubDate>
     </item>
@@ -100,8 +100,8 @@
       <link>https://ryanmulligan.dev/blog/css-property-new-style/</link>
       <description><![CDATA[文章网址：https://ryanmulligan.dev/blog/css-property-new-style/
 评论网址：https://news.ycombinator.com/item?id=41448740
-积分：276
-评论数：88]]></description>
+积分：323
+评论数：109]]></description>
       <guid>https://ryanmulligan.dev/blog/css-property-new-style/</guid>
       <pubDate>Wed, 04 Sep 2024 18:13:51 GMT</pubDate>
     </item>
