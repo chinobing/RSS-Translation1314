@@ -4,48 +4,89 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 06 Sep 2024 18:22:22 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 21:16:31 GMT</lastBuildDate>
     <item>
-      <title>Nango（YC W23，产品集成平台）正在招聘产品工程师</title>
-      <link>https://www.nango.dev/jobs</link>
-      <description><![CDATA[文章网址：https://www.nango.dev/jobs
-评论网址：https://news.ycombinator.com/item?id=41467816
+      <title>Tesorio 正在招聘高级 GenAI 工程师和 Django 工程师（100％ 远程）</title>
+      <link>https://www.tesorio.com/careers#job-openings</link>
+      <description><![CDATA[文章网址：https://www.tesorio.com/careers#job-openings
+评论网址：https://news.ycombinator.com/item?id=41469704
 积分：0
 评论数：0]]></description>
-      <guid>https://www.nango.dev/jobs</guid>
-      <pubDate>Fri, 06 Sep 2024 17:00:20 GMT</pubDate>
+      <guid>https://www.tesorio.com/careers#job-openings</guid>
+      <pubDate>Fri, 06 Sep 2024 21:02:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>PHP 是新的 JavaScript？</title>
+      <link>https://www.mux.com/blog/php-is-the-new-javascript</link>
+      <description><![CDATA[文章网址：https://www.mux.com/blog/php-is-the-new-javascript
+评论网址：https://news.ycombinator.com/item?id=41469040
+积分：37
+评论数：32]]></description>
+      <guid>https://www.mux.com/blog/php-is-the-new-javascript</guid>
+      <pubDate>Fri, 06 Sep 2024 19:33:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Godot 创始人曾迫切希望 Unity 不会“崩溃”</title>
+      <link>https://www.gamedeveloper.com/programming/godot-founders-had-desperately-hoped-unity-wouldn-t-blow-up-</link>
+      <description><![CDATA[文章网址：https://www.gamedeveloper.com/programming/godot-founders-had-desperately-hoped-unity-wouldn-t-blow-up-
+评论网址：https://news.ycombinator.com/item?id=41468667
+积分：83
+评论数：43]]></description>
+      <guid>https://www.gamedeveloper.com/programming/godot-founders-had-desperately-hoped-unity-wouldn-t-blow-up-</guid>
+      <pubDate>Fri, 06 Sep 2024 18:41:06 GMT</pubDate>
     </item>
     <item>
       <title>展示 HN：Infinity – 能够说话的逼真 AI 角色</title>
       <link>https://news.ycombinator.com/item?id=41467704</link>
-      <description><![CDATA[嗨，HN，我是 Infinity AI (https://infinity.ai/) 的 Lina。我和我的联合创始人训练了我们自己的以人为本的基础视频模型。据我们所知，这是第一次有人训练由音频输入驱动的视频扩散变压器。这很酷，因为它可以制作出富有表现力、看起来逼真、真正会说话的角色。这是一个包含大量示例的博客：https://toinfinityai.github.io/v2-launch-page/如果您想尝试一下，您可以 (1) 前往 https://studio.infinity.ai/try-inf2，或 (2) 在此主题中发布描述角色的评论，我们将为您生成视频并通过链接回复。例如： 
+      <description><![CDATA[嗨，HN，我是 Infinity AI (https://infinity.ai/) 的 Lina、Andrew 和 Sidney。我们已经训练了我们自己的以人为本的基础视频模型。据我们所知，这是第一次有人训练由音频输入驱动的视频扩散变压器。这很酷，因为它可以制作出富有表现力、看起来逼真、真正会说话的角色。这是一个包含大量示例的博客：https://toinfinityai.github.io/v2-launch-page/如果您想尝试一下，您可以 (1) 前往 https://studio.infinity.ai/try-inf2，或 (2) 在此主题中发布描述角色的评论，我们将为您生成视频并通过链接回复。例如： 
 “蒙娜丽莎说‘你到底在笑什么？’”：https://bit.ly/3z8l1TM 
 “一个 3D 皮克斯风格的侏儒，戴着一顶尖尖的红帽子，朗诵《独立宣言》”：https://bit.ly/3XzpTdS 
 “埃隆·马斯克演唱西纳特拉的《带我飞向月球》”：https://bit.ly/47jyC7CInfinity 的工具允许创作者输入脚本，写出他们希望角色说的话（以及最终他们希望角色做什么），然后制作视频。到目前为止，我们已经训练了大约 11 年的 GPU（约 50 万美元），我们的模型最近开始取得良好的效果，所以我们想在这里分享它。我们仍在积极训练。我们在使用现有 AI 工具创建良好角色的视频时遇到了麻烦。生成式 AI 视频模型（如 Runway 和 Luma）不允许角色说话。而会说话的虚拟形象公司（如 HeyGen 和 Synthesia）只是在之前录制的视频上进行口型同步。这意味着您经常会看到与音频不符的面部表情和手势，从而导致您无法准确理解“怪异”的外观。请参阅博客。当我们启动 Infinity 时，我们的 V1 模型采用了口型同步方法。除了手势不匹配之外，这种方法还有许多局限性，包括演员库有限（我们必须使用现有视频片段为每个演员微调模型）以及无法为虚构角色制作动画。为了解决 V2 中的这些局限性，我们决定训练一个端到端视频扩散变换器模型，该模型接收单个图像、音频和其他调节信号并输出​​视频。我们相信这种端到端方法是捕捉人类动作和情感的全部复杂性和细微差别的最佳方式。我们的方法的一个缺点是，尽管使用了整流（速度提高了 2-4 倍）和 3D VAE 嵌入层（速度提高了 2-5 倍），但模型仍然很慢。以下是该模型表现出色的几个方面：(1) 它可以处理多种语言，(2) 它已经学习了一些物理知识（例如，它可以生成正确悬挂的耳环并推断出另一只耳朵上的一对匹配的耳环），(3) 它可以为各种类型的图像（绘画、雕塑等）制作动画，尽管没有接受过这些图像的训练，(4) 它可以处理唱歌。请参阅博客。以下是该模型的一些失败模式：(1) 它无法处理动物（只能处理人形图像），(2) 它经常将手插入框架（非常烦人和分散注意力），(3) 它在卡通方面不够稳健，(4) 它会扭曲人们的身份（在知名人物身上很明显）。查看博客。在此处尝试该模型：https://studio.infinity.ai/try-inf2我们很想听听您的想法！
 
 评论网址：https://news.ycombinator.com/item?id=41467704
-积分：41
-评论数：45]]></description>
+积分：142
+评论数：126]]></description>
       <guid>https://news.ycombinator.com/item?id=41467704</guid>
       <pubDate>Fri, 06 Sep 2024 16:47:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>咳嗽还是打喷嚏？大脑如何知道该做什么</title>
+      <link>https://www.nature.com/articles/d41586-024-02858-9</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-024-02858-9
+评论网址：https://news.ycombinator.com/item?id=41467522
+积分：14
+评论数：5]]></description>
+      <guid>https://www.nature.com/articles/d41586-024-02858-9</guid>
+      <pubDate>Fri, 06 Sep 2024 16:23:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nginx 已移至 GitHub</title>
+      <link>https://mailman.nginx.org/pipermail/nginx-announce/2024/ITL3AOQSAJANFJXMM3VOVOIGOUADWFFK.html</link>
+      <description><![CDATA[文章网址：https://mailman.nginx.org/pipermail/nginx-announce/2024/ITL3AOQSAJANFJXMM3VOVOIGOUADWFFK.html
+评论网址：https://news.ycombinator.com/item?id=41466963
+积分：148
+评论数：99]]></description>
+      <guid>https://mailman.nginx.org/pipermail/nginx-announce/2024/ITL3AOQSAJANFJXMM3VOVOIGOUADWFFK.html</guid>
+      <pubDate>Fri, 06 Sep 2024 15:17:02 GMT</pubDate>
     </item>
     <item>
       <title>Inertia.js – 使用服务器端路由构建 React、Vue 或 Svelte 应用程序</title>
       <link>https://inertiajs.com/</link>
       <description><![CDATA[文章网址：https://inertiajs.com/
 评论网址：https://news.ycombinator.com/item?id=41465900
-积分：9
-评论数：2]]></description>
+积分：46
+评论数：5]]></description>
       <guid>https://inertiajs.com/</guid>
       <pubDate>Fri, 06 Sep 2024 13:15:35 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：Wealthfolio：私人开源投资追踪器</title>
       <link>https://wealthfolio.app</link>
-      <description><![CDATA[文章网址：https://wealthfolio.app
+      <description><![CDATA[感谢您的评论，仅提供一些背景信息：- 该应用程序是一个简单的桌面应用程序，可在 macOS、Windows 和 Ubuntu 上运行。- 我根据自己的需求开发了此应用程序。厌倦了 SaaS 应用程序订阅和隐私问题。- 目前，活动是手动记录或从 CSV 文件导入的。没有与 Plaid 或其他平台集成。- 目前没有计划货币化（如果您使用并欣赏该应用程序，只会“给我买杯咖啡”）。
+
 评论网址：https://news.ycombinator.com/item?id=41465735
-积分：354
-评论数：118]]></description>
+积分：501
+评论数：169]]></description>
       <guid>https://wealthfolio.app</guid>
       <pubDate>Fri, 06 Sep 2024 12:56:15 GMT</pubDate>
     </item>
@@ -54,58 +95,18 @@
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566</link>
       <description><![CDATA[文章网址：https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566
 评论网址：https://news.ycombinator.com/item?id=41465081
-积分：67
-评论数：97]]></description>
+积分：100
+评论数：167]]></description>
       <guid>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566</guid>
       <pubDate>Fri, 06 Sep 2024 11:21:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN: 使用 PHP、Swoole 构建的高性能位置跟踪服务器</title>
-      <link>https://github.com/LAGGOUNE-Walid/geopulse</link>
-      <description><![CDATA[文章网址：https://github.com/LAGGOUNE-Walid/geopulse
-评论网址：https://news.ycombinator.com/item?id=41464913
-积分：5
-评论数：3]]></description>
-      <guid>https://github.com/LAGGOUNE-Walid/geopulse</guid>
-      <pubDate>Fri, 06 Sep 2024 10:54:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>SAMA – 开源聊天服务器</title>
-      <link>https://github.com/SAMA-Communications</link>
-      <description><![CDATA[文章网址：https://github.com/SAMA-Communications
-评论网址：https://news.ycombinator.com/item?id=41464705
-积分：62
-评论数：37]]></description>
-      <guid>https://github.com/SAMA-Communications</guid>
-      <pubDate>Fri, 06 Sep 2024 10:20:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>RGCosm – OpenStreetMap 的反向地理编码</title>
-      <link>https://github.com/punnerud/rgcosm</link>
-      <description><![CDATA[文章网址：https://github.com/punnerud/rgcosm
-评论网址：https://news.ycombinator.com/item?id=41464585
-积分：26
-评论数：3]]></description>
-      <guid>https://github.com/punnerud/rgcosm</guid>
-      <pubDate>Fri, 06 Sep 2024 09:58:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究：玩 D&D 有助于自闭症玩家进行社交互动</title>
-      <link>https://arstechnica.com/science/2024/09/study-playing-dungeons-dragons-helps-autistic-players-in-social-interactions/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/science/2024/09/study-playing-dungeons-dragons-helps-autistic-players-in-social-interactions/
-评论网址：https://news.ycombinator.com/item?id=41464347
-积分：122
-评论数：67]]></description>
-      <guid>https://arstechnica.com/science/2024/09/study-playing-dungeons-dragons-helps-autistic-players-in-social-interactions/</guid>
-      <pubDate>Fri, 06 Sep 2024 09:05:50 GMT</pubDate>
     </item>
     <item>
       <title>桑迪亚国家实验室是否在产品标识中使用了热核次生物质？</title>
       <link>https://blog.nuclearsecrecy.com/2024/09/04/did-sandia-use-a-thermonuclear-secondary-in-a-product-logo/</link>
       <description><![CDATA[文章网址：https://blog.nuclearsecrecy.com/2024/09/04/did-sandia-use-a-thermonuclear-secondary-in-a-product-logo/
 评论网址：https://news.ycombinator.com/item?id=41463809
-积分：460
-评论数：150]]></description>
+积分：522
+评论数：174]]></description>
       <guid>https://blog.nuclearsecrecy.com/2024/09/04/did-sandia-use-a-thermonuclear-secondary-in-a-product-logo/</guid>
       <pubDate>Fri, 06 Sep 2024 07:27:06 GMT</pubDate>
     </item>
