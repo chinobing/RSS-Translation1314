@@ -4,44 +4,44 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 07 Sep 2024 01:10:47 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Sep 2024 03:18:02 GMT</lastBuildDate>
     <item>
       <title>QtCS2024 一次编译，随处运行</title>
       <link>https://wiki.qt.io/QtCS2024_Compile_once._Run_everywhere</link>
       <description><![CDATA[文章网址：https://wiki.qt.io/QtCS2024_Compile_once._Run_everywhere
 评论网址：https://news.ycombinator.com/item?id=41470571
-积分：20
-评论数：5]]></description>
+积分：51
+评论数：10]]></description>
       <guid>https://wiki.qt.io/QtCS2024_Compile_once._Run_everywhere</guid>
       <pubDate>Fri, 06 Sep 2024 23:55:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Ubuntu Multipass 增强你的开发环境</title>
+      <link>https://letsdebug.it/post/21-ubuntu-multipass/</link>
+      <description><![CDATA[文章网址：https://letsdebug.it/post/21-ubuntu-multipass/
+评论网址：https://news.ycombinator.com/item?id=41470491
+积分：12
+评论数：6]]></description>
+      <guid>https://letsdebug.it/post/21-ubuntu-multipass/</guid>
+      <pubDate>Fri, 06 Sep 2024 23:37:19 GMT</pubDate>
     </item>
     <item>
       <title>受困宇航员的太空舱独自返回</title>
       <link>https://www.bbc.co.uk/news/articles/cx29wzk4r19o</link>
       <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/cx29wzk4r19o
 评论网址：https://news.ycombinator.com/item?id=41470139
-积分：27
-评论数：8]]></description>
+积分：45
+评论数：33]]></description>
       <guid>https://www.bbc.co.uk/news/articles/cx29wzk4r19o</guid>
       <pubDate>Fri, 06 Sep 2024 22:22:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>泄露的 Disney+ 财务数据或能解释近期涨价的原因</title>
-      <link>https://arstechnica.com/gadgets/2024/09/disney-made-2-4-billion-in-revenue-in-3-months-leak-claims/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/gadgets/2024/09/disney-made-2-4-billion-in-revenue-in-3-months-leak-claims/
-评论网址：https://news.ycombinator.com/item?id=41470123
-积分：33
-评论数：22]]></description>
-      <guid>https://arstechnica.com/gadgets/2024/09/disney-made-2-4-billion-in-revenue-in-3-months-leak-claims/</guid>
-      <pubDate>Fri, 06 Sep 2024 22:18:06 GMT</pubDate>
     </item>
     <item>
       <title>操纵大型语言模型来提高产品可见性</title>
       <link>https://arxiv.org/abs/2404.07981</link>
       <description><![CDATA[文章网址：https://arxiv.org/abs/2404.07981
 评论网址：https://news.ycombinator.com/item?id=41470099
-积分：9
-评论数：0]]></description>
+积分：23
+评论数：2]]></description>
       <guid>https://arxiv.org/abs/2404.07981</guid>
       <pubDate>Fri, 06 Sep 2024 22:13:47 GMT</pubDate>
     </item>
@@ -50,8 +50,8 @@
       <link>https://arxiv.org/abs/2409.03384</link>
       <description><![CDATA[文章网址：https://arxiv.org/abs/2409.03384
 评论网址：https://news.ycombinator.com/item?id=41470074
-积分：70
-评论数：8]]></description>
+积分：109
+评论数：14]]></description>
       <guid>https://arxiv.org/abs/2409.03384</guid>
       <pubDate>Fri, 06 Sep 2024 22:09:14 GMT</pubDate>
     </item>
@@ -74,41 +74,41 @@
 “埃隆·马斯克演唱西纳特拉的《带我飞向月球》”：https://bit.ly/47jyC7CInfinity 的工具允许创作者输入脚本，写出他们希望角色说的话（以及最终他们希望角色做什么），然后制作视频。到目前为止，我们已经训练了大约 11 年的 GPU（约 50 万美元），我们的模型最近开始取得良好的效果，所以我们想在这里分享它。我们仍在积极训练。我们在使用现有 AI 工具创建良好角色的视频时遇到了麻烦。生成式 AI 视频模型（如 Runway 和 Luma）不允许角色说话。而会说话的虚拟形象公司（如 HeyGen 和 Synthesia）只是在之前录制的视频上进行口型同步。这意味着您经常会看到与音频不符的面部表情和手势，从而导致您无法准确理解“怪异”的外观。请参阅博客。当我们启动 Infinity 时，我们的 V1 模型采用了口型同步方法。除了手势不匹配之外，这种方法还有许多局限性，包括演员库有限（我们必须使用现有视频片段为每个演员微调模型）以及无法为虚构角色制作动画。为了解决 V2 中的这些局限性，我们决定训练一个端到端视频扩散变换器模型，该模型接收单个图像、音频和其他调节信号并输出​​视频。我们相信这种端到端方法是捕捉人类动作和情感的全部复杂性和细微差别的最佳方式。我们的方法的一个缺点是，尽管使用了整流（速度提高了 2-4 倍）和 3D VAE 嵌入层（速度提高了 2-5 倍），但模型仍然很慢。以下是该模型表现出色的几个方面：(1) 它可以处理多种语言，(2) 它已经学习了一些物理知识（例如，它可以生成正确悬挂的耳环并推断出另一只耳朵上的一对匹配的耳环），(3) 它可以为各种类型的图像（绘画、雕塑等）制作动画，尽管没有接受过这些图像的训练，(4) 它可以处理唱歌。请参阅博客。以下是该模型的一些失败模式：(1) 它无法处理动物（只能处理人形图像），(2) 它经常将手插入框架（非常烦人和分散注意力），(3) 它在卡通方面不够稳健，(4) 它会扭曲人们的身份（在知名人物身上很明显）。查看博客。在此处尝试该模型：https://studio.infinity.ai/try-inf2我们很想听听您的想法！
 
 评论网址：https://news.ycombinator.com/item?id=41467704
-积分：231
-评论数：170]]></description>
+积分：266
+评论数：201]]></description>
       <guid>https://news.ycombinator.com/item?id=41467704</guid>
       <pubDate>Fri, 06 Sep 2024 16:47:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>咳嗽还是打喷嚏？大脑如何知道该做什么</title>
-      <link>https://www.nature.com/articles/d41586-024-02858-9</link>
-      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-024-02858-9
-评论网址：https://news.ycombinator.com/item?id=41467522
-积分：22
-评论数：16]]></description>
-      <guid>https://www.nature.com/articles/d41586-024-02858-9</guid>
-      <pubDate>Fri, 06 Sep 2024 16:23:18 GMT</pubDate>
     </item>
     <item>
       <title>Inertia.js – 使用服务器端路由构建 React、Vue 或 Svelte 应用程序</title>
       <link>https://inertiajs.com/</link>
       <description><![CDATA[文章网址：https://inertiajs.com/
 评论网址：https://news.ycombinator.com/item?id=41465900
-积分：74
-评论数：15]]></description>
+积分：82
+评论数：21]]></description>
       <guid>https://inertiajs.com/</guid>
       <pubDate>Fri, 06 Sep 2024 13:15:35 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：Wealthfolio：私人开源投资追踪器</title>
       <link>https://wealthfolio.app</link>
-      <description><![CDATA[感谢您的评论，仅提供一些背景信息：- 该应用程序是一个简单的桌面应用程序，可在 macOS、Windows 和 Ubuntu 上运行。- 我根据自己的需要开发了此应用程序。厌倦了 SaaS 应用程序订阅和隐私问题。- 目前，活动是手动记录或从 CSV 文件导入的。没有与 Plaid 或其他平台集成。- 目前没有计划货币化（如果您使用并欣赏该应用程序，只会“给我买杯咖啡”）。
+      <description><![CDATA[感谢您的评论，仅提供一些背景信息：- 该应用程序是一个简单的桌面应用程序，可在 macOS、Windows 和 Ubuntu 上运行。- 我根据自己的需求开发了此应用程序。厌倦了 SaaS 应用程序订阅和隐私问题。- 目前，活动是手动记录或从 CSV 文件导入的。没有与 Plaid 或其他平台集成。- 目前没有计划货币化（如果您使用并欣赏该应用程序，只会“给我买杯咖啡”）。
 
 评论网址：https://news.ycombinator.com/item?id=41465735
-积分：615
-评论数：181]]></description>
+积分：651
+评论数：192]]></description>
       <guid>https://wealthfolio.app</guid>
       <pubDate>Fri, 06 Sep 2024 12:56:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能对高技能工作的影响：对软件开发人员的实验</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566</link>
+      <description><![CDATA[文章网址：https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566
+评论网址：https://news.ycombinator.com/item?id=41465081
+积分：157
+评论数：266]]></description>
+      <guid>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566</guid>
+      <pubDate>Fri, 06 Sep 2024 11:21:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
