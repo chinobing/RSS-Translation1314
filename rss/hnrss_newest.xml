@@ -4,110 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 07 Sep 2024 09:16:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Sep 2024 12:28:40 GMT</lastBuildDate>
     <item>
-      <title>开源反射 Lama 70B 在基准测试中击败了 Claude 3.5 和 GPT-4</title>
-      <link>https://reflectionllama.com/</link>
-      <description><![CDATA[文章网址：https://reflectionllama.com/
-评论网址：https://news.ycombinator.com/item?id=41472622
+      <title>关闭工厂不足以拯救大众汽车</title>
+      <link>https://www.economist.com/business/2024/09/05/repairing-vw-requires-huge-upheavals</link>
+      <description><![CDATA[文章网址：https://www.economist.com/business/2024/09/05/repairing-vw-requires-huge-upheavals
+评论网址：https://news.ycombinator.com/item?id=41473520
 积分：1
-评论数：0]]></description>
-      <guid>https://reflectionllama.com/</guid>
-      <pubDate>Sat, 07 Sep 2024 09:09:09 GMT</pubDate>
+评论数：1]]></description>
+      <guid>https://www.economist.com/business/2024/09/05/repairing-vw-requires-huge-upheavals</guid>
+      <pubDate>Sat, 07 Sep 2024 12:23:42 GMT</pubDate>
     </item>
     <item>
-      <title>Discord 活动：社交游戏和开发者机会的新时代</title>
-      <link>https://checka.ai/tubes/Insightful-content-from-VC-for-entrepreneurship-78</link>
-      <description><![CDATA[文章网址：https://checka.ai/tubes/Insightful-content-from-VC-for-entrepreneurship-78
-评论网址：https://news.ycombinator.com/item?id=41472591
-积分：1
-评论数：0]]></description>
-      <guid>https://checka.ai/tubes/Insightful-content-from-VC-for-entrepreneurship-78</guid>
-      <pubDate>Sat, 07 Sep 2024 09:02:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitHub Actions 攻击图</title>
-      <link>https://github.com/jstawinski/GitHub-Actions-Attack-Diagram</link>
-      <description><![CDATA[文章网址：https://github.com/jstawinski/GitHub-Actions-Attack-Diagram
-评论网址：https://news.ycombinator.com/item?id=41472584
-积分：4
-评论数：0]]></description>
-      <guid>https://github.com/jstawinski/GitHub-Actions-Attack-Diagram</guid>
-      <pubDate>Sat, 07 Sep 2024 09:00:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：针对害羞人士的 AI 无脸视频生成器目录</title>
-      <link>https://aifacelessvideogenerator.com/</link>
-      <description><![CDATA[大家好，我想制作视频，但又不好意思上镜。如果你也有同样的感觉，这个目录可能对你有用。
+      <title>向 HN 展示：我用 GPT-4o 绘制了 HN 最喜欢的书籍</title>
+      <link>https://hnbooks.pieterma.es</link>
+      <description><![CDATA[嘿，HN！我喜欢在这里找到新书来阅读。我想收集被提及最多的书籍，重现实体浏览的偶然性。我从与阅读相关的 HN 帖子中抓取了 20,000 条评论，使用 GPT-4o mini 提取了参考文献和意见，并将它们嵌入可视化为地图。- OpenAI 的嵌入使用 UMAP 和 HDBSCAN 进行处理。文本嵌入的直接 2D 投影并没有产生视觉上有趣的结果。相反，HDBSCAN 首先应用于高维投影。这些集群往往对应于不同的流派。然后使用第二轮 UMAP（使用 Hellinger 距离）嵌入流派成员资格，从而产生令人愉悦的密集结构。- 书籍的描述基于从评论和 GPT 的一般知识中提取的内容。质量水平各不相同，这导致了一些奇怪的具体观点，但我还没有发现任何完全错误的观点。- 有多本同名的书。目前，只有最受欢迎的一本能出现在地图上。- 获得高质量的图书封面图像出乎意料地困难。我尝试了 Google Books 和一堆开放 API，但它们都存在问题。最后，我从 GoodReads 获得了封面，通过一个结合了自动完成搜索和 GPT 进行数据链接的黑客程序。有人知道可靠的来源吗？
 
-评论网址：https://news.ycombinator.com/item?id=41472539
-积分：2
-评论数：0]]></description>
-      <guid>https://aifacelessvideogenerator.com/</guid>
-      <pubDate>Sat, 07 Sep 2024 08:51:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：如何警示 AI 初创公司存在招聘骗局？</title>
-      <link>https://news.ycombinator.com/item?id=41472521</link>
-      <description><![CDATA[嗨，亲爱的 HN 社区，我最近申请了一家 AI/ML 初创公司（2023 年 12 月开业，种子期约 1000 万），在进行了 3 次技术上不错的面试后，我接受了创始人的面试，面试 5 分钟后，创始人告诉我，我已经“准备好”加入该公司（原文如此）。
-没有“你好”，没有“再见”。经过 20-30 分钟的讨论，以及这家初创公司收到大量申请但“只雇用了 3 人”的事实，收到了我从未知道的有关工作的问题，我现在确信这家公司正在进行虚假招聘面试。几个小时后，我收到了拒绝邮件，没有任何回复。
-我发了一封电子邮件询问更多信息，也说了我对面试感到困惑，但还没有回复（目前）。有没有网站或其他东西可以阻止人们在那里申请，或者只是向公司反馈，初创公司应该真正进行“以人为本”的面试？ （特别是如果你是一家 AI/ML 初创公司。）提前致谢。
-
-评论网址：https://news.ycombinator.com/item?id=41472521
+评论网址：https://news.ycombinator.com/item?id=41473518
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41472521</guid>
-      <pubDate>Sat, 07 Sep 2024 08:46:45 GMT</pubDate>
+      <guid>https://hnbooks.pieterma.es</guid>
+      <pubDate>Sat, 07 Sep 2024 12:23:31 GMT</pubDate>
     </item>
     <item>
-      <title>使用 JavaScript 可以做的烦人的事情</title>
-      <link>https://notjoemartinez.com/blog/annoying_things_you_can_do_with_javascript/</link>
-      <description><![CDATA[文章网址：https://notjoemartinez.com/blog/annoying_things_you_can_do_with_javascript/
-评论网址：https://news.ycombinator.com/item?id=41472513
+      <title>元音大推移 [视频]</title>
+      <link>https://www.youtube.com/watch?v=xim4EVFNh08</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=xim4EVFNh08
+评论网址：https://news.ycombinator.com/item?id=41473517
 积分：1
 评论数：0]]></description>
-      <guid>https://notjoemartinez.com/blog/annoying_things_you_can_do_with_javascript/</guid>
-      <pubDate>Sat, 07 Sep 2024 08:44:54 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=xim4EVFNh08</guid>
+      <pubDate>Sat, 07 Sep 2024 12:23:30 GMT</pubDate>
     </item>
     <item>
-      <title>由于气候变化，急流可能开始转变</title>
-      <link>https://www.newscientist.com/article/2446877-the-jet-stream-may-be-starting-to-shift-in-response-to-climate-change/</link>
-      <description><![CDATA[文章网址：https://www.newscientist.com/article/2446877-the-jet-stream-may-be-starting-to-shift-in-response-to-climate-change/
-评论网址：https://news.ycombinator.com/item?id=41472505
-积分：3
-评论数：0]]></description>
-      <guid>https://www.newscientist.com/article/2446877-the-jet-stream-may-be-starting-to-shift-in-response-to-climate-change/</guid>
-      <pubDate>Sat, 07 Sep 2024 08:43:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>分布式系统中的精确时钟</title>
-      <link>https://brooker.co.za/blog/2023/11/27/about-time.html</link>
-      <description><![CDATA[文章网址：https://brooker.co.za/blog/2023/11/27/about-time.html
-评论网址：https://news.ycombinator.com/item?id=41472497
+      <title>OSCP 已不再一样</title>
+      <link>https://infosecwriteups.com/oscp-is-not-the-same-anymore-82b93a7aca58</link>
+      <description><![CDATA[文章网址：https://infosecwriteups.com/oscp-is-not-the-same-anymore-82b93a7aca58
+评论网址：https://news.ycombinator.com/item?id=41473515
 积分：1
 评论数：0]]></description>
-      <guid>https://brooker.co.za/blog/2023/11/27/about-time.html</guid>
-      <pubDate>Sat, 07 Sep 2024 08:42:03 GMT</pubDate>
+      <guid>https://infosecwriteups.com/oscp-is-not-the-same-anymore-82b93a7aca58</guid>
+      <pubDate>Sat, 07 Sep 2024 12:23:18 GMT</pubDate>
     </item>
     <item>
-      <title>DNS 无法传播（2021）</title>
-      <link>https://jvns.ca/blog/2021/12/06/dns-doesn-t-propagate/</link>
-      <description><![CDATA[文章网址：https://jvns.ca/blog/2021/12/06/dns-doesn-t-propagate/
-评论网址：https://news.ycombinator.com/item?id=41472491
-积分：20
-评论数：10]]></description>
-      <guid>https://jvns.ca/blog/2021/12/06/dns-doesn-t-propagate/</guid>
-      <pubDate>Sat, 07 Sep 2024 08:40:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>欧洲的种子正在被专利私有化</title>
-      <link>https://www.euronews.com/green/2024/08/18/europes-seeds-are-being-privatised-by-patents-and-it-could-threaten-food-security</link>
-      <description><![CDATA[文章网址：https://www.euronews.com/green/2024/08/18/europes-seeds-are-being-privatised-by-patents-and-it-could-threaten-food-security
-评论网址：https://news.ycombinator.com/item?id=41472479
+      <title>柠檬市场 (2023)</title>
+      <link>https://infrequently.org/2023/02/the-market-for-lemons/</link>
+      <description><![CDATA[文章网址：https://infrequently.org/2023/02/the-market-for-lemons/
+评论网址：https://news.ycombinator.com/item?id=41473512
 积分：1
 评论数：0]]></description>
-      <guid>https://www.euronews.com/green/2024/08/18/europes-seeds-are-being-privatised-by-patents-and-it-could-threaten-food-security</guid>
-      <pubDate>Sat, 07 Sep 2024 08:37:16 GMT</pubDate>
+      <guid>https://infrequently.org/2023/02/the-market-for-lemons/</guid>
+      <pubDate>Sat, 07 Sep 2024 12:22:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>蒙特利尔男子将狗拴在停车收费表上被罚款 664 美元</title>
+      <link>https://montreal.ctvnews.ca/montreal-man-given-664-fine-for-tying-dog-to-parking-meter-while-grabbing-a-croissant-1.7028276</link>
+      <description><![CDATA[文章网址：https://montreal.ctvnews.ca/montreal-man-given-664-fine-for-tying-dog-to-parking-meter-while-grabbing-a-croissant-1.7028276
+评论网址：https://news.ycombinator.com/item?id=41473508
+积分：1
+评论数：0]]></description>
+      <guid>https://montreal.ctvnews.ca/montreal-man-given-664-fine-for-tying-dog-to-parking-meter-while-grabbing-a-croissant-1.7028276</guid>
+      <pubDate>Sat, 07 Sep 2024 12:21:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI 批量完成的 Webhook</title>
+      <link>https://github.com/simonorzel26/openai-batch-awaiter</link>
+      <description><![CDATA[文章网址：https://github.com/simonorzel26/openai-batch-awaiter
+评论网址：https://news.ycombinator.com/item?id=41473506
+积分：1
+评论数：1]]></description>
+      <guid>https://github.com/simonorzel26/openai-batch-awaiter</guid>
+      <pubDate>Sat, 07 Sep 2024 12:21:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dominion 称弗吉尼亚州数据中心需要等待七年才能接通电源</title>
+      <link>https://www.bloomberg.com/news/articles/2024-08-29/data-centers-face-seven-year-wait-for-power-hookups-in-virginia</link>
+      <description><![CDATA[文章网址：https://www.bloomberg.com/news/articles/2024-08-29/data-centers-face-seven-year-wait-for-power-hookups-in-virginia
+评论网址：https://news.ycombinator.com/item?id=41473494
+积分：1
+评论数：0]]></description>
+      <guid>https://www.bloomberg.com/news/articles/2024-08-29/data-centers-face-seven-year-wait-for-power-hookups-in-virginia</guid>
+      <pubDate>Sat, 07 Sep 2024 12:17:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>清算</title>
+      <link>https://infrequently.org/series/reckoning/</link>
+      <description><![CDATA[文章网址：https://infrequently.org/series/reckoning/
+评论网址：https://news.ycombinator.com/item?id=41473488
+积分：1
+评论数：0]]></description>
+      <guid>https://infrequently.org/series/reckoning/</guid>
+      <pubDate>Sat, 07 Sep 2024 12:16:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>女性因自动化面临更大的失业风险——《计算机周刊》</title>
+      <link>https://www.computerweekly.com/news/366609373/Women-face-greater-risk-of-job-displacement-from-automation</link>
+      <description><![CDATA[文章网址：https://www.computerweekly.com/news/366609373/Women-face-greater-risk-of-job-displacement-from-automation
+评论网址：https://news.ycombinator.com/item?id=41473487
+积分：1
+评论数：0]]></description>
+      <guid>https://www.computerweekly.com/news/366609373/Women-face-greater-risk-of-job-displacement-from-automation</guid>
+      <pubDate>Sat, 07 Sep 2024 12:16:40 GMT</pubDate>
     </item>
     </channel>
 </rss>
