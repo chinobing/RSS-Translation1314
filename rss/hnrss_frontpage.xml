@@ -4,14 +4,89 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 08 Sep 2024 15:17:36 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2024 18:21:21 GMT</lastBuildDate>
+    <item>
+      <title>“取消剥离”二进制文件：使用 Pwndbg 恢复 GDB 中的调试信息</title>
+      <link>https://blog.trailofbits.com/2024/09/06/unstripping-binaries-restoring-debugging-information-in-gdb-with-pwndbg/</link>
+      <description><![CDATA[文章网址：https://blog.trailofbits.com/2024/09/06/unstripping-binaries-restoring-debugging-information-in-gdb-with-pwndbg/
+评论网址：https://news.ycombinator.com/item?id=41481682
+积分：4
+评论数：0]]></description>
+      <guid>https://blog.trailofbits.com/2024/09/06/unstripping-binaries-restoring-debugging-information-in-gdb-with-pwndbg/</guid>
+      <pubDate>Sun, 08 Sep 2024 17:23:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>Infisical (YC W23) 正在招聘热爱写作的开发人员</title>
+      <link>https://www.ycombinator.com/companies/infisical/jobs/snlbWtr-technical-content-marketer</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/infisical/jobs/snlbWtr-technical-content-marketer
+评论网址：https://news.ycombinator.com/item?id=41481501
+积分：0
+评论数：0]]></description>
+      <guid>https://www.ycombinator.com/companies/infisical/jobs/snlbWtr-technical-content-marketer</guid>
+      <pubDate>Sun, 08 Sep 2024 17:00:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：如何与团队共享和同步 .env 文件和机密</title>
+      <link>https://news.ycombinator.com/item?id=41481482</link>
+      <description><![CDATA[我正在尝试弄清楚如何安全地与我的团队共享和同步 .env 文件和机密。是否有“有效”的 saas/oss 解决方案，或者没有办法使用 hashicorp vault/GCP Secrets/etc。带有自定义脚本？
+
+评论 URL：https://news.ycombinator.com/item?id=41481482
+积分：4
+评论数：6]]></description>
+      <guid>https://news.ycombinator.com/item?id=41481482</guid>
+      <pubDate>Sun, 08 Sep 2024 16:57:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>婴儿潮一代的图形技巧</title>
+      <link>https://arnaud-carre.github.io/2024-09-08-4ktribute/</link>
+      <description><![CDATA[文章网址：https://arnaud-carre.github.io/2024-09-08-4ktribute/
+评论网址：https://news.ycombinator.com/item?id=41481323
+积分：13
+评论数：0]]></description>
+      <guid>https://arnaud-carre.github.io/2024-09-08-4ktribute/</guid>
+      <pubDate>Sun, 08 Sep 2024 16:31:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>公司需要初级开发人员</title>
+      <link>https://softwaredoug.com/blog/2024/09/07/your-team-needs-juniors</link>
+      <description><![CDATA[文章网址：https://softwaredoug.com/blog/2024/09/07/your-team-needs-juniors
+评论网址：https://news.ycombinator.com/item?id=41481279
+积分：84
+评论数：67]]></description>
+      <guid>https://softwaredoug.com/blog/2024/09/07/your-team-needs-juniors</guid>
+      <pubDate>Sun, 08 Sep 2024 16:22:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>htmx 网络安全基础知识</title>
+      <link>https://htmx.org/essays/web-security-basics-with-htmx/</link>
+      <description><![CDATA[文章网址：https://htmx.org/essays/web-security-basics-with-htmx/
+评论网址：https://news.ycombinator.com/item?id=41480675
+积分：47
+评论数：12]]></description>
+      <guid>https://htmx.org/essays/web-security-basics-with-htmx/</guid>
+      <pubDate>Sun, 08 Sep 2024 14:40:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：我的学校如何阻止 DoH？</title>
+      <link>https://news.ycombinator.com/item?id=41480034</link>
+      <description><![CDATA[我的学校有自带设备的 wifi，这显然需要屏蔽某些类别的网站。以前我曾经能够使用 DoH 绕过他们的 DNS 阻止，但现在这不再起作用了。相反，当我尝试访问被阻止的网站时，我得到了一个错误/不安全的证书警告，然后当我单击继续时，会出现 Fortinet/Fortiguard 阻止页面。经过检查，我可以看到证书是由 Fortinet 颁发的，这解释了警告。在未被阻止的网站上，我没有收到警告，证书看起来是正确的。这是如何工作的？这是对我的某种中间人攻击吗（我不记得必须安装任何特殊证书，但我不知道如何检查这一点）？有没有方便的方法可以绕过这个问题（即不是 Tor 等）？我尊重 IT 公司为保护学校网络所做的努力（整个学校都讨厌这家 IT 公司 - 他们屏蔽教师想要使用的网站、有时用于上课的 YouTube 视频、通过 McAfee 和其他臃肿软件使学校计算机变慢，并通过在防火墙中阻止学校 PC 到学校 PC 的连接来阻止我们在课堂上学习计算机网络。哦，他们最近还收回了学校发放的所有 I-Pad 进行更新，结果删除了其中的所有个人文件；幸运的是，出于原则我不会使用这些，尽管我相信每个人都设法从云备份中恢复了文件），但我想了解他们对网络做了什么。
+此外，我担心他们所做之事的合法性（德国法律），以及他们是否能够读取通过网络流动的我的私人数据（网络仅供个人登录，这会使情况变得更糟）。
+此外，我感到不安的是，我的学校屏蔽了 hrw.org（即人权观察），我认为这传达了一个错误的信息。如果我可以/需要进行任何测试以进行进一步分析，我将不胜感激。
+谢谢！这实际上是我作为长期潜水员在 HN 上的第一篇帖子。
+
+评论网址：https://news.ycombinator.com/item?id=41480034
+积分：11
+评论数：8]]></description>
+      <guid>https://news.ycombinator.com/item?id=41480034</guid>
+      <pubDate>Sun, 08 Sep 2024 12:35:48 GMT</pubDate>
+    </item>
     <item>
       <title>“爱好”应用程序已成为新的社交网络吗？</title>
       <link>https://www.theguardian.com/technology/article/2024/sep/08/goodbye-tinder-hello-strava-have-hobby-apps-become-the-new-social-networks</link>
       <description><![CDATA[文章网址：https://www.theguardian.com/technology/article/2024/sep/08/goodbye-tinder-hello-strava-have-hobby-apps-become-the-new-social-networks
 评论网址：https://news.ycombinator.com/item?id=41479785
-积分：84
-评论数：67]]></description>
+积分：142
+评论数：158]]></description>
       <guid>https://www.theguardian.com/technology/article/2024/sep/08/goodbye-tinder-hello-strava-have-hobby-apps-become-the-new-social-networks</guid>
       <pubDate>Sun, 08 Sep 2024 11:32:52 GMT</pubDate>
     </item>
@@ -20,90 +95,20 @@
       <link>https://github.com/LuaJIT/LuaJIT/pull/1267</link>
       <description><![CDATA[文章网址：https://github.com/LuaJIT/LuaJIT/pull/1267
 评论网址：https://news.ycombinator.com/item?id=41479637
-积分：47
-评论数：9]]></description>
+积分：71
+评论数：16]]></description>
       <guid>https://github.com/LuaJIT/LuaJIT/pull/1267</guid>
       <pubDate>Sun, 08 Sep 2024 10:57:55 GMT</pubDate>
     </item>
     <item>
-      <title>具体点击诱饵：下次分享斯波曼尼克照片时，想想它意味着什么（2016）</title>
-      <link>https://www.new-east-archive.org/articles/show/7269/spomenik-yugoslav-monument-owen-hatherley</link>
-      <description><![CDATA[文章网址：https://www.new-east-archive.org/articles/show/7269/spomenik-yugoslav-monument-owen-hatherley
-评论网址：https://news.ycombinator.com/item?id=41479266
-积分：55
-评论数：25]]></description>
-      <guid>https://www.new-east-archive.org/articles/show/7269/spomenik-yugoslav-monument-owen-hatherley</guid>
-      <pubDate>Sun, 08 Sep 2024 09:34:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Raspberry Pi RP2350 E9 错误情况恶化</title>
-      <link>https://hackaday.com/2024/09/04/the-worsening-raspberry-pi-rp2350-e9-erratum-situation/</link>
-      <description><![CDATA[文章网址：https://hackaday.com/2024/09/04/the-worsening-raspberry-pi-rp2350-e9-erratum-situation/
-评论网址：https://news.ycombinator.com/item?id=41479261
-积分：73
-评论数：12]]></description>
-      <guid>https://hackaday.com/2024/09/04/the-worsening-raspberry-pi-rp2350-e9-erratum-situation/</guid>
-      <pubDate>Sun, 08 Sep 2024 09:33:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>邮轮被砍成两半是印钞许可证</title>
-      <link>https://newatlas.com/marine/how-to-stretch-cruise-ship/</link>
-      <description><![CDATA[文章网址：https://newatlas.com/marine/how-to-stretch-cruise-ship/
-评论网址：https://news.ycombinator.com/item?id=41479035
-积分：175
-评论数：130]]></description>
-      <guid>https://newatlas.com/marine/how-to-stretch-cruise-ship/</guid>
-      <pubDate>Sun, 08 Sep 2024 08:35:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>ArXiv 论文的开放讨论论坛</title>
-      <link>https://www.alphaxiv.org/</link>
-      <description><![CDATA[文章网址：https://www.alphaxiv.org/
-评论网址：https://news.ycombinator.com/item?id=41478690
-积分：239
-评论数：74]]></description>
-      <guid>https://www.alphaxiv.org/</guid>
-      <pubDate>Sun, 08 Sep 2024 06:57:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>诱骗机器人</title>
-      <link>https://conspirator0.substack.com/p/baiting-the-bot</link>
-      <description><![CDATA[文章网址：https://conspirator0.substack.com/p/baiting-the-bot
-评论网址：https://news.ycombinator.com/item?id=41478138
-积分：90
-评论数：42]]></description>
-      <guid>https://conspirator0.substack.com/p/baiting-the-bot</guid>
-      <pubDate>Sun, 08 Sep 2024 04:05:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google Scholar 上 GPT 伪造的科学论文</title>
-      <link>https://misinforeview.hks.harvard.edu/article/gpt-fabricated-scientific-papers-on-google-scholar-key-features-spread-and-implications-for-preempting-evidence-manipulation/</link>
-      <description><![CDATA[文章网址：https://misinforeview.hks.harvard.edu/article/gpt-fabricated-scientific-papers-on-google-scholar-key-features-spread-and-implications-for-preempting-evidence-manipulation/
-评论网址：https://news.ycombinator.com/item?id=41477516
-积分：172
-评论数： 89]]></description>
-      <guid>https://misinforeview.hks.harvard.edu/article/gpt-fabricated-scientific-papers-on-google-scholar-key-features-spread-and-implications-for-preempting-evidence-manipulation/</guid>
-      <pubDate>Sun, 08 Sep 2024 01:15:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microui+window=小GUI</title>
-      <link>https://bernsteinbear.com/blog/fenster-microui/</link>
-      <description><![CDATA[文章网址：https://bernsteinbear.com/blog/fenster-microui/
-评论网址：https://news.ycombinator.com/item?id=41477446
-积分：132
-评论数：16]]></description>
-      <guid>https://bernsteinbear.com/blog/fenster-microui/</guid>
-      <pubDate>Sun, 08 Sep 2024 00:55:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>阿巴拉契亚山道徒步旅行者照片档案</title>
-      <link>https://athikerpictures.org/</link>
-      <description><![CDATA[文章网址：https://athikerpictures.org/
-评论网址：https://news.ycombinator.com/item?id=41476823
-积分：125
-评论数：24]]></description>
-      <guid>https://athikerpictures.org/</guid>
-      <pubDate>Sat, 07 Sep 2024 22:23:16 GMT</pubDate>
+      <title>走向无建</title>
+      <link>https://mxb.dev/blog/buildless/</link>
+      <description><![CDATA[文章网址：https://mxb.dev/blog/buildless/
+评论网址：https://news.ycombinator.com/item?id=41479365
+积分：31
+评论数：14]]></description>
+      <guid>https://mxb.dev/blog/buildless/</guid>
+      <pubDate>Sun, 08 Sep 2024 09:53:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
