@@ -4,107 +4,108 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 10 Sep 2024 15:17:39 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2024 18:22:14 GMT</lastBuildDate>
     <item>
-      <title>我们如何让 Jupyter Notebook 的加载速度提高 10 倍</title>
-      <link>https://www.singlestore.com/blog/how-we-made-notebooks-load-10-times-faster/</link>
-      <description><![CDATA[文章网址：https://www.singlestore.com/blog/how-we-made-notebooks-load-10-times-faster/
-评论网址：https://news.ycombinator.com/item?id=41500522
-积分：18
-评论数：0]]></description>
-      <guid>https://www.singlestore.com/blog/how-we-made-notebooks-load-10-times-faster/</guid>
-      <pubDate>Tue, 10 Sep 2024 13:19:29 GMT</pubDate>
+      <title>VR 游戏为何尚未流行起来</title>
+      <link>https://spectrum.ieee.org/vr-games</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/vr-games
+评论网址：https://news.ycombinator.com/item?id=41503444
+积分：15
+评论数：32]]></description>
+      <guid>https://spectrum.ieee.org/vr-games</guid>
+      <pubDate>Tue, 10 Sep 2024 17:41:26 GMT</pubDate>
     </item>
     <item>
-      <title>多光谱成像和伏尼契手稿</title>
-      <link>https://manuscriptroadtrip.wordpress.com/2024/09/08/multispectral-imaging-and-the-voynich-manuscript/</link>
-      <description><![CDATA[文章网址：https://manuscriptroadtrip.wordpress.com/2024/09/08/multispectral-imaging-and-the-voynich-manuscript/
-评论网址：https://news.ycombinator.com/item?id=41500406
-积分：18
-评论数：0]]></description>
-      <guid>https://manuscriptroadtrip.wordpress.com/2024/09/08/multispectral-imaging-and-the-voynich-manuscript/</guid>
-      <pubDate>Tue, 10 Sep 2024 13:05:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>在多元宇宙中调试</title>
-      <link>https://antithesis.com/blog/multiverse_debugging/</link>
-      <description><![CDATA[文章网址：https://antithesis.com/blog/multiverse_debugging/
-评论网址：https://news.ycombinator.com/item?id=41500405
-积分：66
-评论数：13]]></description>
-      <guid>https://antithesis.com/blog/multiverse_debugging/</guid>
-      <pubDate>Tue, 10 Sep 2024 13:05:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>结果（不能）说明一切：记录案例</title>
-      <link>https://www.population.fyi/p/results-dont-speak-for-themselves</link>
-      <description><![CDATA[文章网址：https://www.population.fyi/p/results-dont-speak-for-themselves
-评论网址：https://news.ycombinator.com/item?id=41500162
-积分：10
-评论数：0]]></description>
-      <guid>https://www.population.fyi/p/results-dont-speak-for-themselves</guid>
-      <pubDate>Tue, 10 Sep 2024 12:41:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：免费工具来查找 RSS 源，即使页面上没有链接</title>
-      <link>https://news.ycombinator.com/item?id=41499905</link>
-      <description><![CDATA[我开发了一个小工具来查找网站的 RSS 源。您可以在此处试用：https://lighthouseapp.io/tools/feed-finder在 90% 以上的情况下，检查元标记的标准方法足以找到源。但我对这个工具的目标是，无论源是否链接到某处，它都能找到源。如果此 feed 查找器未找到 feed，则表示不存在 feed。这是一个很大的目标，而且不可否认目前还没有实现，但它确实朝这个方向迈出了一步。* 检查父页面的元标记（有时文章本身没有元标记，但主博客页面有）* 检查常见后缀，如 /rss、/index.xml 等（有时 feed 存在但未链接）* 检查站点地图* 检查页面上的所有链接* 检查第三方 feed（目前是 OpenRSS，当我找到更多这样的存储库时，我也会添加它们）我还有一些其他想法，例如检查搜索引擎和抓取整个域（效率极低，但可行）。如果您可以尝试，我将非常高兴，如果您发布无法使用此功能的网站，我将更加高兴。
+      <title>显示 HN：Visual DB – 数据库的 Web 前端</title>
+      <link>https://visualdb.com/</link>
+      <description><![CDATA[如果您拥有云托管数据库，请继续阅读：Visual DB 专为您而设计。Visual DB 是创建数据库数据输入表单的最快方法：从 Excel 电子表格开始，您可以将数据导入数据库并在 10 分钟内创建一个外观精美的表单。观看此视频：https://youtu.be/6rVD5rmrjN8Visual DB 是数据库的综合 SaaS 前端。除了数据输入表单外，Visual DB 还具有类似电子表格的界面，用于在数据库中插入和更新数据。您还可以使用 Visual DB 构建交互式报告。最后，虽然 Visual DB 并非旨在替代数据库的管理工具，但它可以浏览架构、创建表格、设置关系以及导入和导出数据。Visual DB 最初是数据库的拖放式表单构建器。使用 Visual DB 创建的表单与使用 React 手动编码的表单几乎没有区别。您可以添加客户端验证、设置可用值（显示在下拉列表中）、定义默认值，甚至添加逻辑以动态隐藏或禁用字段 - 所有这些都无需编写一行代码！使用 Visual DB Forms，您再也不必编写另一个 CRUD 应用程序了。如果您一直在使用 Excel 来管理数据，并且由于数据量增长而达到其极限，那么 Visual DB Sheets 可能会让您感兴趣。凭借其类似电子表格的界面，Visual DB Sheets 允许用户像在 Excel 中一样与数据交互，同时将数据安全地存储在强大的关系数据库中。电子表格-数据库混合体已经存在了一段时间，但我们相信我们拥有最好的实现之一，具有高级分组、对外键和查找表的支持、查询参数、全文输入过滤等功能。Visual DB 的最新功能是交互式报告。传统的报告工具提供有限的交互性。例如，虽然大多数报告工具都支持时间序列图，但它们不允许用户沿时间轴缩放或平移。相比之下，Visual DB 凭借其创新方法支持此功能：它将数据集下载到客户端，并直接在浏览器中处理和可视化数据。这使它能够处理用户交互而无需服务器往返。Visual DB 对查询参数具有出色的支持，这允许您仅将感兴趣的数据子集（最多 100K 行）带到客户端。Visual DB 支持 PostgreSQL（包括 Neon）、MySQL、SQL Server 和 Oracle。尝试一下，我们期待收到您的反馈：https://visualdb.com
 
-评论URL：https://news.ycombinator.com/item?id=41499905
-积分：17
-评论数：6]]></description>
-      <guid>https://news.ycombinator.com/item?id=41499905</guid>
-      <pubDate>Tue, 10 Sep 2024 12:05:01 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=41503251
+积分：7
+评论数：4]]></description>
+      <guid>https://visualdb.com/</guid>
+      <pubDate>Tue, 10 Sep 2024 17:25:00 GMT</pubDate>
     </item>
     <item>
-      <title>Roame (YC S23) 正在招聘一名参谋长</title>
-      <link>https://www.ycombinator.com/companies/roame/jobs/dd4pOgQ-chief-of-staff</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/roame/jobs/dd4pOgQ-chief-of-staff
-评论网址：https://news.ycombinator.com/item?id=41499883
-积分：0
-评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/roame/jobs/dd4pOgQ-chief-of-staff</guid>
-      <pubDate>Tue, 10 Sep 2024 12:00:23 GMT</pubDate>
+      <title>近 40 个州支持卫生局长的社交媒体警告标签</title>
+      <link>https://www.theverge.com/2024/9/10/24240920/state-ags-back-surgeon-general-social-media-warning-labels</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/2024/9/10/24240920/state-ags-back-surgeon-general-social-media-warning-labels
+评论网址：https://news.ycombinator.com/item?id=41502986
+积分：39
+评论数：35]]></description>
+      <guid>https://www.theverge.com/2024/9/10/24240920/state-ags-back-surgeon-general-social-media-warning-labels</guid>
+      <pubDate>Tue, 10 Sep 2024 17:01:24 GMT</pubDate>
     </item>
     <item>
-      <title>我们的 RNG Git Hash Bug</title>
-      <link>https://tmendez.dev/posts/rng-git-hash-bug/</link>
-      <description><![CDATA[文章网址：https://tmendez.dev/posts/rng-git-hash-bug/
-评论网址：https://news.ycombinator.com/item?id=41498264
-积分：32
-评论数：11]]></description>
-      <guid>https://tmendez.dev/posts/rng-git-hash-bug/</guid>
-      <pubDate>Tue, 10 Sep 2024 07:51:35 GMT</pubDate>
+      <title>谷歌在欧盟法庭败诉，被罚款24亿欧元</title>
+      <link>https://www.politico.eu/article/google-loses-court-battle-over-first-eu-antitrust-fine/</link>
+      <description><![CDATA[文章网址：https://www.politico.eu/article/google-loses-court-battle-over-first-eu-antitrust-fine/
+评论网址：https://news.ycombinator.com/item?id=41502822
+积分：66
+评论数：37]]></description>
+      <guid>https://www.politico.eu/article/google-loses-court-battle-over-first-eu-antitrust-fine/</guid>
+      <pubDate>Tue, 10 Sep 2024 16:46:08 GMT</pubDate>
     </item>
     <item>
-      <title>放射学专用基础模型</title>
-      <link>https://harrison.ai/harrison-rad-1/</link>
-      <description><![CDATA[文章网址：https://harrison.ai/harrison-rad-1/
-评论网址：https://news.ycombinator.com/item?id=41496699
-积分：166
-评论数：98]]></description>
-      <guid>https://harrison.ai/harrison-rad-1/</guid>
-      <pubDate>Tue, 10 Sep 2024 02:46:13 GMT</pubDate>
+      <title>高品质字体能为您带来什么</title>
+      <link>https://sinja.io/blog/get-maximum-out-of-your-font</link>
+      <description><![CDATA[文章网址：https://sinja.io/blog/get-maximum-out-of-your-font
+评论网址：https://news.ycombinator.com/item?id=41502721
+积分：73
+评论数：25]]></description>
+      <guid>https://sinja.io/blog/get-maximum-out-of-your-font</guid>
+      <pubDate>Tue, 10 Sep 2024 16:38:50 GMT</pubDate>
     </item>
     <item>
-      <title>Sail – 更快、更便宜的 PySpark 兼容计算框架</title>
-      <link>https://github.com/lakehq/sail</link>
-      <description><![CDATA[文章网址：https://github.com/lakehq/sail
-评论网址：https://news.ycombinator.com/item?id=41496033
+      <title>Google Illuminate：将书籍和论文转化为音频内容</title>
+      <link>https://illuminate.google.com/home</link>
+      <description><![CDATA[文章网址：https://illuminate.google.com/home
+评论网址：https://news.ycombinator.com/item?id=41502510
+积分：84
+评论数：49]]></description>
+      <guid>https://illuminate.google.com/home</guid>
+      <pubDate>Tue, 10 Sep 2024 16:22:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>当布隆过滤器无法发挥作用时（2020 年）</title>
+      <link>https://blog.cloudflare.com/when-bloom-filters-dont-bloom/</link>
+      <description><![CDATA[文章网址：https://blog.cloudflare.com/when-bloom-filters-dont-bloom/
+评论网址：https://news.ycombinator.com/item?id=41502462
+积分：23
+评论数：2]]></description>
+      <guid>https://blog.cloudflare.com/when-bloom-filters-dont-bloom/</guid>
+      <pubDate>Tue, 10 Sep 2024 16:18:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Kubernetes 的 GitOps 模板</title>
+      <link>https://github.com/glasskube/gitops-template/</link>
+      <description><![CDATA[您好，HN，我们是 Glasskube (https://github.com/glasskube/glasskube) 的 Philip Louis。我们正在开发一个适用于 Kubernetes 的软件包管理器，以简化具有多个依赖项的复杂应用程序的打包，确保它们在多个 Kubernetes 集群中安装并保持最新状态。如今，最佳做法是使用 Git 作为 Kubernetes 配置的修订控制系统。更新自动化工作流程（如 Renovate 或 Dependabot）可以为新版本的 Docker 映像和 Helm 图表创建拉取请求，但确保这些新软件包版本正常运行仍然是一项手动任务。通过使用中央（或私有）Glasskube 存储库 (https://github.com/glasskube/packages) 以及我们的 Renovate 集成 (https://docs.renovatebot.com/modules/manager/glasskube/)，您可以确保新软件包版本在发布之前将通过我们基于 Minikube 的 CI 工作流程 - 类似于 Homebrew 核心 tap 的工作方式。我们刚刚引入了基于清单的部署的就绪检查，并利用 flux-helm-controller 等待 Helm 发布成功。依赖项由我们的软件包控制器解析。这些依赖项可以是集群范围的（安装在推荐的命名空间中，例如，operators wird CRD），也可以是包的命名空间范围的组件（例如，数据库或 Redis 缓存）。在这种情况下，我们将在资源前加上依赖包名称，以确保多个包可以使用相同的依赖项而不会发生命名冲突（为此，我们在虚拟文件系统上使用 Kustomize）。Glasskube 包目前可以是 Helm 图表（来自 OCI 或 Helm 存储库）或清单，它们大多使用 Kustomize 的覆盖方法构建。由于覆盖方法（使用 Kustomize）和 Helm 有限的模板功能都无法帮助我们和其他 Kubernetes 用户扩展到更复杂的包，因此我们正在考虑创建一种更程序化的包创建方法，类似于 Timoni。目前，KCL 是我们的领跑者（https://github.com/glasskube/glasskube/discussions/1018），因为它已经与 Kubernetes 生态系统很好地集成。如果您尝试我们的 GitOps 模板，我们将不胜感激。如果只是想将 GitOps 用于某些应用程序，它也适用于现有的 Kubernetes 集群。只需确保 argocd 和 glasskube-system 命名空间尚未使用。参见：https://github.com/glasskube/gitops-template/
+
+评论网址：https://news.ycombinator.com/item?id=41502453
+积分：28
+评论数：4]]></description>
+      <guid>https://github.com/glasskube/gitops-template/</guid>
+      <pubDate>Tue, 10 Sep 2024 16:18:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPT 和幻觉</title>
+      <link>https://queue.acm.org/detail.cfm?id=3688007</link>
+      <description><![CDATA[文章网址：https://queue.acm.org/detail.cfm?id=3688007
+评论网址：https://news.ycombinator.com/item?id=41501818
 积分：63
-评论数：12]]></description>
-      <guid>https://github.com/lakehq/sail</guid>
-      <pubDate>Tue, 10 Sep 2024 00:52:12 GMT</pubDate>
+评论数：123]]></description>
+      <guid>https://queue.acm.org/detail.cfm?id=3688007</guid>
+      <pubDate>Tue, 10 Sep 2024 15:33:56 GMT</pubDate>
     </item>
     <item>
-      <title>Sigrok – 便携式、跨平台、FOSS 信号分析软件套件</title>
-      <link>https://sigrok.org/wiki/Main_Page</link>
-      <description><![CDATA[文章网址：https://sigrok.org/wiki/Main_Page
-评论网址：https://news.ycombinator.com/item?id=41494786
-积分：133
-评论数：22]]></description>
-      <guid>https://sigrok.org/wiki/Main_Page</guid>
-      <pubDate>Mon, 09 Sep 2024 22:22:15 GMT</pubDate>
+      <title>努力尝试的好日子：每次节省 1% 的计算量</title>
+      <link>https://blog.cloudflare.com/pingora-saving-compute-1-percent-at-a-time/</link>
+      <description><![CDATA[文章网址：https://blog.cloudflare.com/pingora-saving-compute-1-percent-at-a-time/
+评论网址：https://news.ycombinator.com/item?id=41501496
+积分：206
+评论数：71]]></description>
+      <guid>https://blog.cloudflare.com/pingora-saving-compute-1-percent-at-a-time/</guid>
+      <pubDate>Tue, 10 Sep 2024 15:03:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
