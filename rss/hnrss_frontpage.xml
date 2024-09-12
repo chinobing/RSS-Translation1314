@@ -4,106 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 12 Sep 2024 12:31:46 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2024 15:17:23 GMT</lastBuildDate>
     <item>
-      <title>无视纽约警察局“礼遇卡”的警官获赔 17.5 万美元</title>
-      <link>https://apnews.com/article/nypd-courtesy-card-police-misconduct-d5dfdbdad12b01a2cda864f69aa3d1aa</link>
-      <description><![CDATA[文章网址：https://apnews.com/article/nypd-courtesy-card-police-misconduct-d5dfdbdad12b01a2cda864f69aa3d1aa
-评论网址：https://news.ycombinator.com/item?id=41519736
-积分：36
-评论数：19]]></description>
-      <guid>https://apnews.com/article/nypd-courtesy-card-police-misconduct-d5dfdbdad12b01a2cda864f69aa3d1aa</guid>
-      <pubDate>Thu, 12 Sep 2024 11:47:21 GMT</pubDate>
+      <title>显示 HN：Repogather – 将相关文件复制到剪贴板以进行 LLM 编码工作流程</title>
+      <link>https://github.com/gr-b/repogather</link>
+      <description><![CDATA[嗨，HN，我想分享一个我制作的简单命令行工具，它加速并简化了我的 LLM 辅助编码工作流程。只要有可能，我就会尝试在实现新功能/更改时首先使用 Claude。但我发现，根据我所做的更改类型，我花了很多心思来查找和决定哪些源文件应该包含在提示中。需要单独复制/粘贴每个文件也变得有点烦人。首先，我实现了 `repogather --all`，它会不智能地将存储库中的 所有 源文件复制到剪贴板（由它们的相对文件路径分隔）。令我惊讶的是，对于不太复杂的存储库，仅此一项对于 Claude 来说通常完全可行 - 比粘贴您要更新的几个文件要好得多。但如果我必须单独复制/粘贴所有内容，我永远不会这样做。 200k 是相当多的 token！但是，一旦存储库增长到一定的复杂程度（即使它在输入 token 限制以下），我发现 Claude 可能会对代码中不同的不相关部分/概念感到困惑。如果您尝试排除与当前更改无关的逻辑，它的性能会好得多。所以我实现了 `repogather &quot;&quot;` ，例如 `repogather &quot;only files related to authentication&quot;` 。它使用带有结构化输出的 gpt-4o-mini 为每个源文件提供相关性分数（使用 `--exclude` 自动排除 .gitignore 模式、测试、配置和其他手动排除）。gpt-4o-mini 非常便宜和快速，对于我的 ~8 dev 初创公司的存储库，它只需不到 5 秒的时间，成本为 3-4 美分（使用适当的排除）。此外，您还可以在等待时观察输出流，这总是很有趣。第一次检索并不总是完美的 - 但速度很快，这允许您查看它返回的文件，并快速迭代您的命令。我发现这比我使用过的基于嵌入搜索的解决方案更令人满意，后者似乎以相当不透明的方式失败。https://github.com/gr-b/repogather如果它对您有用，请告诉我！总是喜欢谈论如何更好地将 LLM 集成到编码工作流程中。
+
+评论网址：https://news.ycombinator.com/item?id=41521121
+积分：11
+评论数：1]]></description>
+      <guid>https://github.com/gr-b/repogather</guid>
+      <pubDate>Thu, 12 Sep 2024 14:03:59 GMT</pubDate>
     </item>
     <item>
-      <title>富人的个人碳足迹被大大低估</title>
-      <link>https://www.cam.ac.uk/research/news/personal-carbon-footprint-of-the-rich-is-vastly-underestimated-by-rich-and-poor-alike-study-finds</link>
-      <description><![CDATA[文章网址：https://www.cam.ac.uk/research/news/personal-carbon-footprint-of-the-rich-is-vastly-underestimated-by-rich-and-poor-alike-study-finds
-评论网址：https://news.ycombinator.com/item?id=41519708
-积分：30
-评论数：10]]></description>
-      <guid>https://www.cam.ac.uk/research/news/personal-carbon-footprint-of-the-rich-is-vastly-underestimated-by-rich-and-poor-alike-study-finds</guid>
-      <pubDate>Thu, 12 Sep 2024 11:43:11 GMT</pubDate>
+      <title>如果我能解剖蜥脚类动物</title>
+      <link>https://svpow.com/2024/09/12/if-i-could-dissect-a-sauropod/</link>
+      <description><![CDATA[文章网址：https://svpow.com/2024/09/12/if-i-could-dissect-a-sauropod/
+评论网址：https://news.ycombinator.com/item?id=41521002
+积分：31
+评论数：1]]></description>
+      <guid>https://svpow.com/2024/09/12/if-i-could-dissect-a-sauropod/</guid>
+      <pubDate>Thu, 12 Sep 2024 13:54:04 GMT</pubDate>
     </item>
     <item>
-      <title>关闭工厂不足以拯救大众汽车</title>
-      <link>https://www.economist.com/business/2024/09/05/repairing-vw-requires-huge-upheavals</link>
-      <description><![CDATA[文章网址：https://www.economist.com/business/2024/09/05/repairing-vw-requires-huge-upheavals
-评论网址：https://news.ycombinator.com/item?id=41519686
-积分：18
-评论数：25]]></description>
-      <guid>https://www.economist.com/business/2024/09/05/repairing-vw-requires-huge-upheavals</guid>
-      <pubDate>Thu, 12 Sep 2024 11:40:57 GMT</pubDate>
+      <title>GAZEploit：通过 VR/MR 设备中的凝视估计进行远程按键推理攻击</title>
+      <link>https://www.wired.com/story/apple-vision-pro-persona-eye-tracking-spy-typing/</link>
+      <description><![CDATA[文章网址：https://www.wired.com/story/apple-vision-pro-persona-eye-tracking-spy-typing/
+评论网址：https://news.ycombinator.com/item?id=41520516
+积分：75
+评论数：43]]></description>
+      <guid>https://www.wired.com/story/apple-vision-pro-persona-eye-tracking-spy-typing/</guid>
+      <pubDate>Thu, 12 Sep 2024 13:11:25 GMT</pubDate>
     </item>
     <item>
-      <title>Steam 家庭版现已推出</title>
-      <link>https://store.steampowered.com/news/app/593110/view/4605582245626919823</link>
-      <description><![CDATA[文章网址：https://store.steampowered.com/news/app/593110/view/4605582245626919823
-评论网址：https://news.ycombinator.com/item?id=41519680
-积分：32
-评论数：10]]></description>
-      <guid>https://store.steampowered.com/news/app/593110/view/4605582245626919823</guid>
-      <pubDate>Thu, 12 Sep 2024 11:40:24 GMT</pubDate>
+      <title>复活节岛旧基因组没有显示出人口崩溃的迹象</title>
+      <link>https://arstechnica.com/science/2024/09/old-easter-island-genomes-show-no-sign-of-a-population-collapse/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/science/2024/09/old-easter-island-genomes-show-no-sign-of-a-population-collapse/
+评论网址：https://news.ycombinator.com/item?id=41520465
+积分：38
+评论数：5]]></description>
+      <guid>https://arstechnica.com/science/2024/09/old-easter-island-genomes-show-no-sign-of-a-population-collapse/</guid>
+      <pubDate>Thu, 12 Sep 2024 13:05:40 GMT</pubDate>
     </item>
     <item>
-      <title>现场观看 SpaceX 机组人员进行首次商业太空行走</title>
-      <link>https://news.sky.com/story/spacex-polaris-dawn-spacewalk-live-first-ever-private-spacewalk-to-take-place-shortly-in-riskiest-mission-launched-by-company-13213196</link>
-      <description><![CDATA[文章网址：https://news.sky.com/story/spacex-polaris-dawn-spacewalk-live-first-ever-private-spacewalk-to-take-place-shortly-in-riskiest-mission-launched-by-company-13213196
-评论网址：https://news.ycombinator.com/item?id=41519677
-要点： 31
-# 评论数：15]]></description>
-      <guid>https://news.sky.com/story/spacex-polaris-dawn-spacewalk-live-first-ever-private-spacewalk-to-take-place-shortly-in-riskiest-mission-launched-by-company-13213196</guid>
-      <pubDate>Thu, 12 Sep 2024 11:40:03 GMT</pubDate>
+      <title>Java – 默认完整性（JVMLS 2024）</title>
+      <link>https://www.youtube.com/watch?v=wNQKRBLbKIs</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=wNQKRBLbKIs
+评论网址：https://news.ycombinator.com/item?id=41520246
+积分：37
+评论数：0]]></description>
+      <guid>https://www.youtube.com/watch?v=wNQKRBLbKIs</guid>
+      <pubDate>Thu, 12 Sep 2024 12:46:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>量子比特晶体管达到纠错基准</title>
+      <link>https://spectrum.ieee.org/qubit-transistor</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/qubit-transistor
+评论网址：https://news.ycombinator.com/item?id=41519867
+积分：21
+评论数：4]]></description>
+      <guid>https://spectrum.ieee.org/qubit-transistor</guid>
+      <pubDate>Thu, 12 Sep 2024 12:07:44 GMT</pubDate>
     </item>
     <item>
       <title>SpaceX 宇航员开始太空行走，测试新宇航服</title>
       <link>https://www.wsj.com/science/space-astronomy/spacex-launch-polaris-dawn-space-walk-bfed7f84</link>
       <description><![CDATA[文章网址：https://www.wsj.com/science/space-astronomy/spacex-launch-polaris-dawn-space-walk-bfed7f84
 评论网址：https://news.ycombinator.com/item?id=41519623
-积分：14
-评论数：3]]></description>
+积分：150
+评论数：131]]></description>
       <guid>https://www.wsj.com/science/space-astronomy/spacex-launch-polaris-dawn-space-walk-bfed7f84</guid>
       <pubDate>Thu, 12 Sep 2024 11:30:17 GMT</pubDate>
     </item>
     <item>
-      <title>GitHub 教会我进行微观管理</title>
-      <link>https://matthewrocklin.com/feedback.html</link>
-      <description><![CDATA[文章网址：https://matthewrocklin.com/feedback.html
-评论网址：https://news.ycombinator.com/item?id=41519495
-积分：31
-评论数：19]]></description>
-      <guid>https://matthewrocklin.com/feedback.html</guid>
-      <pubDate>Thu, 12 Sep 2024 11:10:03 GMT</pubDate>
+      <title>Ergo：受 Erlang 启发的 Go 语言事件驱动参与者框架</title>
+      <link>https://github.com/ergo-services/ergo</link>
+      <description><![CDATA[文章网址：https://github.com/ergo-services/ergo
+评论网址：https://news.ycombinator.com/item?id=41519471
+积分：37
+评论数：17]]></description>
+      <guid>https://github.com/ergo-services/ergo</guid>
+      <pubDate>Thu, 12 Sep 2024 11:06:51 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能取代了他们的工作。现在他们靠让声音听起来像人类而获得报酬。</title>
-      <link>https://www.bbc.com/future/article/20240612-the-people-making-ai-sound-more-human</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/future/article/20240612-the-people-making-ai-sound-more-human
-评论网址：https://news.ycombinator.com/item?id=41519283
-积分：41
-评论数：30]]></description>
-      <guid>https://www.bbc.com/future/article/20240612-the-people-making-ai-sound-more-human</guid>
-      <pubDate>Thu, 12 Sep 2024 10:22:09 GMT</pubDate>
+      <title>显示 HN：在 Docker 中构建你的 WSL 发行版</title>
+      <link>https://github.com/K0IN/docker-to-wsl</link>
+      <description><![CDATA[文章网址：https://github.com/K0IN/docker-to-wsl
+评论网址：https://news.ycombinator.com/item?id=41519466
+积分：17
+评论数：3]]></description>
+      <guid>https://github.com/K0IN/docker-to-wsl</guid>
+      <pubDate>Thu, 12 Sep 2024 11:05:52 GMT</pubDate>
     </item>
     <item>
       <title>柯尔莫哥洛夫-阿诺德网络或使神经网络更易于理解</title>
       <link>https://www.quantamagazine.org/novel-architecture-makes-neural-networks-more-understandable-20240911/</link>
       <description><![CDATA[文章网址：https://www.quantamagazine.org/novel-architecture-makes-neural-networks-more-understandable-20240911/
 评论网址：https://news.ycombinator.com/item?id=41519240
-积分：36
-评论数：4]]></description>
+积分：136
+评论数：36]]></description>
       <guid>https://www.quantamagazine.org/novel-architecture-makes-neural-networks-more-understandable-20240911/</guid>
       <pubDate>Thu, 12 Sep 2024 10:14:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>线性、对称、自选择 14 位分子忆阻器</title>
-      <link>https://www.researchgate.net/publication/377744243_Linear_symmetric_self-selecting_14-bit_molecular_memristors</link>
-      <description><![CDATA[文章网址：https://www.researchgate.net/publication/377744243_Linear_symmetric_self-selecting_14-bit_molecular_memristors
-评论网址：https://news.ycombinator.com/item?id=41518606
-积分：62
-评论数：24]]></description>
-      <guid>https://www.researchgate.net/publication/377744243_Linear_symmetric_self-selecting_14-bit_molecular_memristors</guid>
-      <pubDate>Thu, 12 Sep 2024 08:07:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
