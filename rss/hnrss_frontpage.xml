@@ -4,34 +4,65 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 15 Sep 2024 01:20:17 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2024 03:22:50 GMT</lastBuildDate>
     <item>
-      <title>地球将迎来持续两个月的新迷你月亮</title>
-      <link>https://phys.org/news/2024-09-earth-mini-moon-months.html</link>
-      <description><![CDATA[文章网址：https://phys.org/news/2024-09-earth-mini-moon-months.html
-评论网址：https://news.ycombinator.com/item?id=41544202
-积分：3
+      <title>CSCI 181G PO：游戏引擎编程</title>
+      <link>https://cs.pomona.edu/classes/cs181g/</link>
+      <description><![CDATA[文章网址：https://cs.pomona.edu/classes/cs181g/
+评论网址：https://news.ycombinator.com/item?id=41544386
+积分：9
 评论数：0]]></description>
-      <guid>https://phys.org/news/2024-09-earth-mini-moon-months.html</guid>
-      <pubDate>Sun, 15 Sep 2024 00:36:40 GMT</pubDate>
+      <guid>https://cs.pomona.edu/classes/cs181g/</guid>
+      <pubDate>Sun, 15 Sep 2024 01:14:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lazarus Group 将 25 次加密货币黑客攻击中的 2 亿美元洗钱为法定货币</title>
+      <link>https://zachxbt.mirror.xyz/B0-UJtxN41cJhpPtKv0v2LZ8u-0PwZ4ecMPEdX4l8vE</link>
+      <description><![CDATA[文章网址：https://zachxbt.mirror.xyz/B0-UJtxN41cJhpPtKv0v2LZ8u-0PwZ4ecMPEdX4l8vE
+评论网址：https://news.ycombinator.com/item?id=41544364
+积分：51
+评论数：17]]></description>
+      <guid>https://zachxbt.mirror.xyz/B0-UJtxN41cJhpPtKv0v2LZ8u-0PwZ4ecMPEdX4l8vE</guid>
+      <pubDate>Sun, 15 Sep 2024 01:09:25 GMT</pubDate>
     </item>
     <item>
       <title>12 人因暴力入室抢劫窃取加密货币被判刑</title>
       <link>https://www.justice.gov/opa/pr/twelve-defendants-sentenced-violent-home-invasion-robberies-steal-cryptocurrency</link>
       <description><![CDATA[文章网址：https://www.justice.gov/opa/pr/twelve-defendants-sentenced-violent-home-invasion-robberies-steal-cryptocurrency
 评论网址：https://news.ycombinator.com/item?id=41544059
-积分：34
-评论数：17]]></description>
+积分：66
+评论数：44]]></description>
       <guid>https://www.justice.gov/opa/pr/twelve-defendants-sentenced-violent-home-invasion-robberies-steal-cryptocurrency</guid>
       <pubDate>Sun, 15 Sep 2024 00:03:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么 Scrum 让你压力山大</title>
+      <link>https://rethinkingsoftware.substack.com/p/why-scrum-is-stressing-you-out</link>
+      <description><![CDATA[文章网址：https://rethinkingsoftware.substack.com/p/why-scrum-is-stressing-you-out
+评论网址：https://news.ycombinator.com/item?id=41543805
+积分：35
+评论数：21]]></description>
+      <guid>https://rethinkingsoftware.substack.com/p/why-scrum-is-stressing-you-out</guid>
+      <pubDate>Sat, 14 Sep 2024 23:11:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>向 HN 展示：我制作了一个数字电路绘图和模拟游戏</title>
+      <link>https://github.com/lets-all-be-stupid-forever/circuit-artist</link>
+      <description><![CDATA[受到 Turing Complete/Virtual Circuit Board/Logic World 等游戏的启发，我尝试将 aseprite 和 wiredworld/wired-logic 混合在一起，其想法是用户可以使用“全栈”像素艺术创作工作流程构建数字电路。电路只是一张图像。基元是 (i) 连接的电线，在模拟过程中具有未定义的 0 或 1 状态（根据状态显示更亮或更暗）和 (ii) NAND，它们是小像素三角形。在模拟过程中，用户可以通过单击任何电线来与其交互，切换其状态，这对于在学习时摆弄它来说很酷。模拟使用单位延迟事件驱动算法。然后，最重要的是，图像左侧有一些小的线接口与外部系统通信。这个外部系统在 lua 中定义，并与主电路一起模拟（它们交替直到收敛）。默认情况下，有一个带有时钟和上电复位信号的沙盒模式。用户可以选择其他“级别”，其中 API 会发生变化，并且有一些问题需要解决，从确定数字是否是 3 的倍数到解决汉诺塔，再到确定数字是否是素数。这个想法是，如果用户想要学习但不确定该怎么做，他们可以尝试解决这些难题，或者他们可以更改 lua 脚本以添加自己的内容/界面以用于自定义项目。我还提供了一个小型 wiki（circuitopedia），其中包含一些基本的数字概念，以指导那些新手或有点生疏的人。它不是非常详细，但我想它至少可以呈现概念，以便用户可以在需要时进一步挖掘更严肃的材料。我用 raylib 用 C 开发了游戏，用 lua/luajit 编写脚本。我已将游戏放在 steam（适用于 Windows）上，并在 GPLv3 下在 github 上发布了源代码。 itch.io 上还有一个网页演示版本，尽管它有点滞后：https://lets-all-be-stupid-foreva.itch.io/circuit-artist-dem... 。欢迎提供反馈！
+
+评论网址：https://news.ycombinator.com/item?id=41543642
+积分：6
+评论数：0]]></description>
+      <guid>https://github.com/lets-all-be-stupid-forever/circuit-artist</guid>
+      <pubDate>Sat, 14 Sep 2024 22:43:51 GMT</pubDate>
     </item>
     <item>
       <title>OpenSCAD：程序员的实体 3D CAD 建模器</title>
       <link>https://openscad.org/</link>
       <description><![CDATA[文章网址：https://openscad.org/
 评论网址：https://news.ycombinator.com/item?id=41543386
-积分：122
-评论数：50]]></description>
+积分：160
+评论数：75]]></description>
       <guid>https://openscad.org/</guid>
       <pubDate>Sat, 14 Sep 2024 22:02:14 GMT</pubDate>
     </item>
@@ -40,8 +71,8 @@
       <link>https://emilygorcenski.com/post/to-forget-is-an-ethical-act/</link>
       <description><![CDATA[文章网址：https://emilygorcenski.com/post/to-forget-is-an-ethical-act/
 评论网址：https://news.ycombinator.com/item?id=41543139
-积分：46
-评论数：17]]></description>
+积分：70
+评论数：23]]></description>
       <guid>https://emilygorcenski.com/post/to-forget-is-an-ethical-act/</guid>
       <pubDate>Sat, 14 Sep 2024 21:29:21 GMT</pubDate>
     </item>
@@ -50,8 +81,8 @@
       <link>https://github.com/brsloan/warewoolf</link>
       <description><![CDATA[文章网址：https://github.com/brsloan/warewoolf
 评论网址：https://news.ycombinator.com/item?id=41543109
-积分：12
-评论数：1]]></description>
+积分：25
+评论数：4]]></description>
       <guid>https://github.com/brsloan/warewoolf</guid>
       <pubDate>Sat, 14 Sep 2024 21:25:29 GMT</pubDate>
     </item>
@@ -70,41 +101,10 @@
       <link>http://www.antipope.org/charlie/blog-static/2024/09/zen-and-the-art-of-writer-deck.html</link>
       <description><![CDATA[文章网址：http://www.antipope.org/charlie/blog-static/2024/09/zen-and-the-art-of-writer-deck.html
 评论网址：https://news.ycombinator.com/item?id=41542788
-积分：20
-评论数：5]]></description>
+积分：25
+评论数：6]]></description>
       <guid>http://www.antipope.org/charlie/blog-static/2024/09/zen-and-the-art-of-writer-deck.html</guid>
       <pubDate>Sat, 14 Sep 2024 20:52:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>在线观看 HN：银河系漫游指南</title>
-      <link>https://www.the42.life/</link>
-      <description><![CDATA[我想做一个有趣的网站，使用经过微调的模型，就像道格拉斯·亚当斯小说中的向导一样。这样，当你处于困境时（比如当你需要搭车去半人马座或其他地方时），你就能找到正确的答案。
-
-评论网址：https://news.ycombinator.com/item?id=41541975
-积分：24
-评论数：2]]></description>
-      <guid>https://www.the42.life/</guid>
-      <pubDate>Sat, 14 Sep 2024 18:54:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>程序员对 TCP 的误解</title>
-      <link>https://lwn.net/Articles/990281/</link>
-      <description><![CDATA[文章网址：https://lwn.net/Articles/990281/
-评论网址：https://news.ycombinator.com/item?id=41541770
-积分：175
-评论数：121]]></description>
-      <guid>https://lwn.net/Articles/990281/</guid>
-      <pubDate>Sat, 14 Sep 2024 18:26:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>来自地狱的混蛋操作员 (1999)</title>
-      <link>https://bofh.bjash.com/</link>
-      <description><![CDATA[文章网址：https://bofh.bjash.com/
-评论网址：https://news.ycombinator.com/item?id=41541459
-积分：108
-评论数：36]]></description>
-      <guid>https://bofh.bjash.com/</guid>
-      <pubDate>Sat, 14 Sep 2024 17:46:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
