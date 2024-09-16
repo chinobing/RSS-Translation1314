@@ -4,26 +4,38 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 16 Sep 2024 12:33:53 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2024 15:18:49 GMT</lastBuildDate>
     <item>
-      <title>日期-fns 4.0</title>
-      <link>https://blog.date-fns.org/v40-with-time-zone-support/</link>
-      <description><![CDATA[文章网址：https://blog.date-fns.org/v40-with-time-zone-support/
-评论网址：https://news.ycombinator.com/item?id=41554692
-积分：4
-评论数：0]]></description>
-      <guid>https://blog.date-fns.org/v40-with-time-zone-support/</guid>
-      <pubDate>Mon, 16 Sep 2024 10:39:34 GMT</pubDate>
+      <title>启动 HN: Silurian (YC S24) – 模拟地球</title>
+      <link>https://news.ycombinator.com/item?id=41556519</link>
+      <description><![CDATA[嗨，HN！我们是 Jayesh、Cris 和 Nikhil，Silurian (https://silurian.ai) 背后的团队。Silurian 构建基础模型来模拟地球，从天气开始。我们最近的一些飓风预报可以在 https://hurricanes2024.silurian.ai/ 上查看。提前 1 天了解天气预报有什么价值？这不是一个假设性问题，传统预报系统一直在以每十年 1 天的速度提高其技能。换句话说，今天的 6 天预报与十年前的 5 天预报一样准确。没有人期望这种改进速度保持稳定，它最终必须放慢下来，对吧？过去几年，GPU 和现代深度学习实际上加快了这一进程。自 2022 年以来，NVIDIA、Google DeepMind、华为和微软等公司（其中一些由我本人创建）纷纷开展天气深度学习系统研究。这些模型几乎没有内置物理原理，仅从数据中学习预测。令人惊讶的是，如果正确实施，这种方法产生的预报效果会比传统的大气物理模拟更好。Jayesh 和 Cris 在分别领导微软的 [ClimaX](https://arxiv.org/abs/2301.10343) 和 [Aurora](https://arxiv.org/abs/2405.13063) 项目时亲眼目睹了这项技术的潜力。他们构建的基础模型改进了 ECMWF 的预报，被认为是天气预报的黄金标准，同时仅使用了可用训练数据的一小部分。 Silurian 的使命是将这些模型充分发挥其潜力，并将它们推向物理可预测性的极限。最终，我们的目标是模拟所有受天气影响的基础设施，包括电网、农业、物流和国防。因此：模拟地球。在做所有这些之前，今年夏天我们建立了自己的基础模型 GFT（生成预测转换器），这是一个 1.5B 参数前沿模型，可以以大约 11 公里的分辨率模拟未来 14 天的全球天气（https://www.ycombinator.com/launches/Lcz-silurian-simulate-t...）。尽管历史记录中极端天气数据稀少，但我们已经看到 GFT 在预测 2024 年飓风轨迹方面表现非常出色（https://silurian.ai/posts/001/hurricane_tracks）。您可以在 https://hurricanes2024.silurian.ai 上试用我们的飓风预报。我们使用 [cambecc/earth] (https://github.com/cambecc/earth) 对这些进行可视化，这是我们最喜欢的开源天气可视化工具之一。我们很高兴能在 HN 上推出，并希望听到您的想法！
+
+评论网址：https://news.ycombinator.com/item?id=41556519
+积分：38
+评论数：9]]></description>
+      <guid>https://news.ycombinator.com/item?id=41556519</guid>
+      <pubDate>Mon, 16 Sep 2024 14:32:38 GMT</pubDate>
     </item>
     <item>
-      <title>Protocol Buffer 设计：协作开发的原则与实践</title>
-      <link>https://eng.lyft.com/protocol-buffer-design-principles-and-practices-for-collaborative-development-8f5aa7e6ed85</link>
-      <description><![CDATA[文章网址：https://eng.lyft.com/protocol-buffer-design-principles-and-practices-for-collaborative-development-8f5aa7e6ed85
-评论网址：https://news.ycombinator.com/item?id=41554583
-积分：13
-评论数：2]]></description>
-      <guid>https://eng.lyft.com/protocol-buffer-design-principles-and-practices-for-collaborative-development-8f5aa7e6ed85</guid>
-      <pubDate>Mon, 16 Sep 2024 10:21:56 GMT</pubDate>
+      <title>地球可能在 4.66 亿年前就有一个环系统</title>
+      <link>https://www.monash.edu/science/news-events/news/current/earth-may-have-had-a-ring-system-466-million-years-ago</link>
+      <description><![CDATA[文章网址：https://www.monash.edu/science/news-events/news/current/earth-may-have-had-a-ring-system-466-million-years-ago
+评论网址：https://news.ycombinator.com/item?id=41555349
+积分：8
+评论数：0]]></description>
+      <guid>https://www.monash.edu/science/news-events/news/current/earth-may-have-had-a-ring-system-466-million-years-ago</guid>
+      <pubDate>Mon, 16 Sep 2024 12:24:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Sisi – 语义图像搜索 CLI 工具，本地无需第三方 API</title>
+      <link>https://github.com/frost-beta/sisi</link>
+      <description><![CDATA[我编写此工具是为了熟悉 CLIP 模型，我知道之前很多人已经使用 CLIP 编写了类似的工具，但我对机器学习还不熟悉，编写一个经典的工具有助于我的学习。我的版本不同寻常之处在于，它是纯 Node.js 编写的，具有 Node.js 机器学习框架 node-mlx 的强大功能。链接中的 repo 主要是关于实现索引和 CLI，模型实现的代码以 Node.js 模块的形式存在：https://github.com/frost-beta/clip 。希望这对其他学习者有所帮助！
+
+评论网址：https://news.ycombinator.com/item?id=41554791
+要点： 35
+# 评论数：12]]></description>
+      <guid>https://github.com/frost-beta/sisi</guid>
+      <pubDate>Mon, 16 Sep 2024 10:59:13 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：JAQT – JavaScript 查询和转换</title>
@@ -31,38 +43,38 @@
       <description><![CDATA[大家好，我创建了一个 JavaScript 库来简化对象数组中的搜索/排序/过滤。它的灵感来自 GraphQL 和 SQL，但使用 JavaScript 代理实现。它不是创建新语言，而是全部都是 JavaScript。我将其作为实验数据库的一部分，该数据库使用 JavaScript 作为查询引擎。对于初级开发人员来说，普通的 JavaScript map/reduce/sort 函数很难掌握。 JAQT 更容易解释，并且仍然可以与任何现有的数组函数结合使用。请让我知道您对 API 及其易用性的看法！
 
 评论网址：https://news.ycombinator.com/item?id=41554177
-积分：15
-评论数：2]]></description>
+积分：42
+评论数：14]]></description>
       <guid>https://github.com/muze-nl/jaqt</guid>
       <pubDate>Mon, 16 Sep 2024 09:08:25 GMT</pubDate>
     </item>
     <item>
-      <title>Chainalysis 如何进入流行的 Monero 钱包</title>
-      <link>https://www.digilol.net/blog/chainanalysis-malicious-xmr.html</link>
-      <description><![CDATA[文章网址：https://www.digilol.net/blog/chainanalysis-malicious-xmr.html
-评论网址：https://news.ycombinator.com/item?id=41554066
-积分：79
-评论数：33]]></description>
-      <guid>https://www.digilol.net/blog/chainanalysis-malicious-xmr.html</guid>
-      <pubDate>Mon, 16 Sep 2024 08:49:11 GMT</pubDate>
+      <title>攻击 PowerShell Clixml 反序列化</title>
+      <link>https://www.truesec.com/hub/blog/attacking-powershell-clixml-deserialization</link>
+      <description><![CDATA[文章网址：https://www.truesec.com/hub/blog/attacking-powershell-clixml-deserialization
+评论网址：https://news.ycombinator.com/item?id=41554157
+积分：27
+评论数：3]]></description>
+      <guid>https://www.truesec.com/hub/blog/attacking-powershell-clixml-deserialization</guid>
+      <pubDate>Mon, 16 Sep 2024 09:04:59 GMT</pubDate>
     </item>
     <item>
-      <title>出了点问题</title>
-      <link>https://molily.de/something-went-wrong/</link>
-      <description><![CDATA[文章网址：https://molily.de/something-went-wrong/
-评论网址：https://news.ycombinator.com/item?id=41551145
-积分：22
-评论数：0]]></description>
-      <guid>https://molily.de/something-went-wrong/</guid>
-      <pubDate>Sun, 15 Sep 2024 22:48:40 GMT</pubDate>
+      <title>HTTP 查询方法</title>
+      <link>https://www.ietf.org/archive/id/draft-ietf-httpbis-safe-method-w-body-05.html</link>
+      <description><![CDATA[文章网址：https://www.ietf.org/archive/id/draft-ietf-httpbis-safe-method-w-body-05.html
+评论网址：https://news.ycombinator.com/item?id=41552804
+积分：33
+评论数：11]]></description>
+      <guid>https://www.ietf.org/archive/id/draft-ietf-httpbis-safe-method-w-body-05.html</guid>
+      <pubDate>Mon, 16 Sep 2024 04:36:09 GMT</pubDate>
     </item>
     <item>
       <title>什么也不做：什么也不做</title>
       <link>https://usenothing.com/</link>
       <description><![CDATA[文章网址：https://usenothing.com/
 评论网址：https://news.ycombinator.com/item?id=41551084
-积分：160
-评论数：72]]></description>
+积分：232
+评论数：103]]></description>
       <guid>https://usenothing.com/</guid>
       <pubDate>Sun, 15 Sep 2024 22:40:03 GMT</pubDate>
     </item>
@@ -72,8 +84,8 @@
       <description><![CDATA[我很遗憾地宣布，长期为 HN 撰稿的 DanBC 上个月因长期患病而去世。愿他的遗产继续激励人心，愿他对这里和更广阔世界的贡献被铭记。安息吧，丹。https://www.gloucestershire.gov.uk/media/53jhyy44/neurodiver...“令人难过的是，心理健康和福祉伙伴关系委员会的杰出联合主席丹·比尔·科克斯 (Dan Beale Cocks) 因长期患病于 2024 年 8 月 21 日去世。多年来，丹为改善格洛斯特郡的心理健康和联合制作做出了巨大贡献，我们将非常想念他。在丹去世之前，我们询问是否可以计划一年一度的丹·比尔·科克斯 (Dan Beale Cocks) 联合制作最佳实践庆祝活动，他对这个想法很高兴。我们打算与其他伙伴关系委员会合作推进这一活动。”https://news.ycombinator.com/user?id=DanBChttps://medium.com/@dan.bealecockshttps://twitter.com/DanBealeCockshttps://www.youtube.com/watch?v=xjiMvSJDa2g
 
 评论网址：https://news.ycombinator.com/item?id=41550822
-积分：365
-评论数：54]]></description>
+积分：410
+评论数：65]]></description>
       <guid>https://news.ycombinator.com/item?id=41550822</guid>
       <pubDate>Sun, 15 Sep 2024 22:03:01 GMT</pubDate>
     </item>
@@ -82,8 +94,8 @@
       <link>https://plaintextaccounting.org/</link>
       <description><![CDATA[文章网址：https://plaintextaccounting.org/
 评论网址：https://news.ycombinator.com/item?id=41550603
-积分：201
-评论数：60]]></description>
+积分：231
+评论数：79]]></description>
       <guid>https://plaintextaccounting.org/</guid>
       <pubDate>Sun, 15 Sep 2024 21:30:57 GMT</pubDate>
     </item>
@@ -92,20 +104,10 @@
       <link>https://www.nytimes.com/2024/09/14/world/americas/paraguay-mickey-mouse-disney.html</link>
       <description><![CDATA[文章网址：https://www.nytimes.com/2024/09/14/world/americas/paraguay-mickey-mouse-disney.html
 评论网址：https://news.ycombinator.com/item?id=41550417
-积分：115
-评论数：56]]></description>
+积分：139
+评论数：67]]></description>
       <guid>https://www.nytimes.com/2024/09/14/world/americas/paraguay-mickey-mouse-disney.html</guid>
       <pubDate>Sun, 15 Sep 2024 21:09:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>g1：在 Groq 上使用 Llama-3.1 70B 创建类似 o1 的推理链</title>
-      <link>https://github.com/bklieger-groq/g1</link>
-      <description><![CDATA[文章网址：https://github.com/bklieger-groq/g1
-评论网址：https://news.ycombinator.com/item?id=41550364
-积分：221
-评论数：81]]></description>
-      <guid>https://github.com/bklieger-groq/g1</guid>
-      <pubDate>Sun, 15 Sep 2024 21:02:44 GMT</pubDate>
     </item>
     </channel>
 </rss>
