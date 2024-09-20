@@ -4,34 +4,91 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 20 Sep 2024 18:22:23 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 21:15:46 GMT</lastBuildDate>
+    <item>
+      <title>UpCodes (YC S17) 正在招聘营销主管</title>
+      <link>https://up.codes/careers?utm_source=HN</link>
+      <description><![CDATA[文章网址：https://up.codes/careers?utm_source=HN
+评论网址：https://news.ycombinator.com/item?id=41605471
+积分：0
+评论数：0]]></description>
+      <guid>https://up.codes/careers?utm_source=HN</guid>
+      <pubDate>Fri, 20 Sep 2024 21:00:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>无法使用 macOS 15 Sequoia 更改安全策略或禁用 SIP</title>
+      <link>https://lapcatsoftware.com/articles/2024/8/9.html</link>
+      <description><![CDATA[文章网址：https://lapcatsoftware.com/articles/2024/8/9.html
+评论网址：https://news.ycombinator.com/item?id=41605460
+积分：7
+评论数：0]]></description>
+      <guid>https://lapcatsoftware.com/articles/2024/8/9.html</guid>
+      <pubDate>Fri, 20 Sep 2024 20:58:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：开源文本分类 CLI – 训练没有标记数据的模型</title>
+      <link>https://github.com/taylorai/aiq</link>
+      <description><![CDATA[aiq 让您可以使用单个 CLI 命令通过语言模型 API 自动标记文本数据并在标签上训练高效的分类器。训练和推理速度超快（均在 CPU 上运行）。
+
+评论网址：https://news.ycombinator.com/item?id=41604840
+积分：8
+评论数：0]]></description>
+      <guid>https://github.com/taylorai/aiq</guid>
+      <pubDate>Fri, 20 Sep 2024 19:22:11 GMT</pubDate>
+    </item>
     <item>
       <title>Discord 将 WebSocket 流量减少了 40%</title>
       <link>https://discord.com/blog/how-discord-reduced-websocket-traffic-by-40-percent</link>
       <description><![CDATA[文章网址：https://discord.com/blog/how-discord-reduced-websocket-traffic-by-40-percent
 评论网址：https://news.ycombinator.com/item?id=41604267
-积分：5
-评论数：0]]></description>
+积分：111
+评论数：72]]></description>
       <guid>https://discord.com/blog/how-discord-reduced-websocket-traffic-by-40-percent</guid>
       <pubDate>Fri, 20 Sep 2024 18:09:15 GMT</pubDate>
     </item>
     <item>
-      <title>乘客在餐食中发现老鼠，航班被迫改道</title>
-      <link>https://www.bbc.com/news/articles/ckgmy2d09x2o</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/ckgmy2d09x2o
-评论网址：https://news.ycombinator.com/item?id=41604156
-积分：5
-评论数：1]]></description>
-      <guid>https://www.bbc.com/news/articles/ckgmy2d09x2o</guid>
-      <pubDate>Fri, 20 Sep 2024 17:50:18 GMT</pubDate>
+      <title>Docker 桌面替代品</title>
+      <link>https://container-desktop.com/</link>
+      <description><![CDATA[文章网址：https://container-desktop.com/
+评论网址：https://news.ycombinator.com/item?id=41604262
+积分：107
+评论数：60]]></description>
+      <guid>https://container-desktop.com/</guid>
+      <pubDate>Fri, 20 Sep 2024 18:08:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>展示 HN：Inngest 1.0 – 适用于所有平台的开源持久工作流程</title>
+      <link>https://www.inngest.com/</link>
+      <description><![CDATA[嗨，HN！我是 Tony，Inngest 的联合创始人之一（https://inngest.com/）Inngest 是一个开源持久工作流平台，可在任何云上运行。持久工作流是用代码编写的有状态、长时间运行的步骤函数，在失败时自动重试。它为您抽象了有关队列、事件流和状态的所有内容，让您专注于代码。一些使用示例：管理有状态的 AI 链式步骤函数；管理搜索/rag 索引和数据管道；集成和 webhook；计费和付款流程。技术细节：与其他解决方案不同，我们投入了大量精力来设计 SDK 的 step.run API，使其非常易于使用 — 开发人员体验对我们来说是最重要的。我们必须设计和构建自己的排队系统以处理多租户、批处理和去抖动，并且在迁移到 FoundationDB 时我们正在对此进行迭代。后端基本上都是 Go，代表我们进行了大量缓存、clickhouse、事件流和协调。工作器不共享任何内容，并根据队列和执行状态运行。去年，我们在迭代 TS SDK 时发表了一篇文章。从那时起，产品发生了很大变化，我们希望在达到 1.0 时向社区展示发生了哪些变化： * 具有跨语言函数调用的 Golang、Java 和 Python SDK（跨云）
+
+* 多租户感知流控制（并发、节流、去抖动）
+
+* 批处理，将许多事件分组到单个函数调用中
+
+* 改进了很多的仪表板，内置了跟踪和指标
+
+* 高级恢复工具，如函数重放、临时暂停、批量取消（带有可选表达式）。不再有死信队列！
+
+* 内置分支部署，开箱即用地支持暂存环境
+
+* 具有生产奇偶校验的完整本地测试
+
+
+路线图上有很多内容，下周将推出更多内容。我们也在招聘系统和基础设施工程师——这是一份充满挑战的有趣工作！想感谢 HN 社区迄今为止的反馈！星期五快乐 :)
+
+评论网址：https://news.ycombinator.com/item?id=41604042
+积分：62
+评论数：18]]></description>
+      <guid>https://www.inngest.com/</guid>
+      <pubDate>Fri, 20 Sep 2024 17:33:15 GMT</pubDate>
     </item>
     <item>
       <title>格雷-斯科特模型中的有丝分裂：编写基于着色器的化学模拟</title>
       <link>https://pierre-couy.dev/simulations/2024/09/gray-scott-shader.html</link>
       <description><![CDATA[文章网址：https://pierre-couy.dev/simulations/2024/09/gray-scott-shader.html
 评论网址：https://news.ycombinator.com/item?id=41603955
-积分：13
-评论数：1]]></description>
+积分：38
+评论数：2]]></description>
       <guid>https://pierre-couy.dev/simulations/2024/09/gray-scott-shader.html</guid>
       <pubDate>Fri, 20 Sep 2024 17:22:06 GMT</pubDate>
     </item>
@@ -41,70 +98,30 @@
       <description><![CDATA[我们刚刚发布了一款非常令人兴奋的触摸传感器，它最终简化了机器人的触摸感应。我们最激动人心的成果：学习了插入 USB 和刷信用卡等精确任务的视觉触觉策略，当您更换外壳时，这些策略可以立即使用！据我们所知，任何现有的触觉传感器都从未展示过这一点。为什么这很重要？现在，您首次可以在一个传感器上收集数据和训练模型，并期望它们能够推广到传感器的新副本 - 为彻底改变视觉和语言推理的大型基础模型打开了大门。希望听到社区的问题、想法和评论！
 
 评论网址：https://news.ycombinator.com/item?id=41603865
-积分：57
-评论数：6]]></description>
+积分：148
+评论数：23]]></description>
       <guid>https://any-skin.github.io</guid>
       <pubDate>Fri, 20 Sep 2024 17:11:48 GMT</pubDate>
     </item>
     <item>
-      <title>Trellis (YC W24) 正在招聘工程师来为非结构化数据构建 AI 工作流程</title>
-      <link>https://www.ycombinator.com/companies/trellis/jobs/1ypWafM-founding-engineer-full-time-backend-ml-infra</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/trellis/jobs/1ypWafM-founding-engineer-full-time-backend-ml-infra
-评论网址：https://news.ycombinator.com/item?id=41603774
-积分：0
-评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/trellis/jobs/1ypWafM-founding-engineer-full-time-backend-ml-infra</guid>
-      <pubDate>Fri, 20 Sep 2024 17:00:58 GMT</pubDate>
+      <title>联邦民权监督机构对联邦政府使用面部识别发出警告</title>
+      <link>https://therecord.media/federal-civil-rights-watchdog-facial-recognition-technology-report</link>
+      <description><![CDATA[文章网址：https://therecord.media/federal-civil-rights-watchdog-facial-recognition-technology-report
+评论网址：https://news.ycombinator.com/item?id=41603698
+积分：28
+评论数：7]]></description>
+      <guid>https://therecord.media/federal-civil-rights-watchdog-facial-recognition-technology-report</guid>
+      <pubDate>Fri, 20 Sep 2024 16:51:24 GMT</pubDate>
     </item>
     <item>
       <title>通过景观图像可视化天气预报</title>
       <link>https://github.com/lds133/weather_landscape</link>
       <description><![CDATA[文章网址：https://github.com/lds133/weather_landscape
 评论网址：https://news.ycombinator.com/item?id=41603546
-积分：85
-评论数：19]]></description>
+积分：204
+评论数：30]]></description>
       <guid>https://github.com/lds133/weather_landscape</guid>
       <pubDate>Fri, 20 Sep 2024 16:31:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MemoRAG – 通过基于记忆的知识发现增强 RAG 的长上下文能力</title>
-      <link>https://github.com/qhjqhj00/MemoRAG</link>
-      <description><![CDATA[文章网址：https://github.com/qhjqhj00/MemoRAG
-评论网址：https://news.ycombinator.com/item?id=41602474
-积分：67
-评论数：12]]></description>
-      <guid>https://github.com/qhjqhj00/MemoRAG</guid>
-      <pubDate>Fri, 20 Sep 2024 14:41:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>反应关系代数</title>
-      <link>https://taylor.town/reactive-relational-algebra</link>
-      <description><![CDATA[文章网址：https://taylor.town/reactive-relational-algebra
-评论网址：https://news.ycombinator.com/item?id=41602056
-积分：58
-评论数：10]]></description>
-      <guid>https://taylor.town/reactive-relational-algebra</guid>
-      <pubDate>Fri, 20 Sep 2024 13:54:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>CuPy：用于 GPU 的 NumPy 和 SciPy</title>
-      <link>https://github.com/cupy/cupy</link>
-      <description><![CDATA[文章网址：https://github.com/cupy/cupy
-评论网址：https://news.ycombinator.com/item?id=41601730
-积分：172
-评论数：59]]></description>
-      <guid>https://github.com/cupy/cupy</guid>
-      <pubDate>Fri, 20 Sep 2024 13:18:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tō Reo – A Māori Spellchecker</title>
-      <link>https://xn--treo-l3a.nz/</link>
-      <description><![CDATA[文章网址：https://xn--treo-l3a.nz/
-评论网址：https://news.ycombinator.com/item?id=41601347
-积分：69
-评论数：10]]></description>
-      <guid>https://xn--treo-l3a.nz/</guid>
-      <pubDate>Fri, 20 Sep 2024 12:30:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
