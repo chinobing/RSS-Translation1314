@@ -4,106 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 21 Sep 2024 03:18:04 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2024 06:22:04 GMT</lastBuildDate>
     <item>
-      <title>壮游</title>
-      <link>https://en.wikipedia.org/wiki/Grand_Tour_(data_visualisation)</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Grand_Tour_(data_visualisation)
-评论网址：https://news.ycombinator.com/item?id=41607167
+      <title>最佳的多语言全文搜索搜索引擎？</title>
+      <link>https://news.ycombinator.com/item?id=41607852</link>
+      <description><![CDATA[正如标题所述，我正在寻找一些全文搜索选项，我想要一些支持多种语言（主要是英语、繁体中文和简体中文）的功能（比如词干提取、词干分析）。就上下文而言，我目前已经将所有可搜索内容存储在 postgres DB 中，它为部分应用程序提供支持，但我想为其带来全文搜索。我了解 PG 有 FTS，但是存在许多限制，并且在处理大量数据集时性能可能不太好。postgres FTS 是否也存在准确性问题？我不清楚他们是如何选择索引的，但它是否有可能在 x% 的时间内错过包含给定搜索词的文档？准确性也很重要。我愿意添加专用的搜索实例并处理 DB 和搜索之间的复制，其中一致性要求实际上非常宽松（插入 DB 后，内容不需要立即通过 FTS 搜索）。主要用例是使用 FTS 查找包含单词的文档，检索文档 ID，然后使用这些 ID 查询 Postgres DB，其中包含文档之间的关系。无论如何，我读过一些关于 elasticsearch、algolio、meilisearch 等的文章。但对每种方法的优缺点不是很清楚。如果能提供任何关于此用例的好选择的见解，我将不胜感激。谢谢 :)
+
+评论 URL：https://news.ycombinator.com/item?id=41607852
 积分：1
 评论数：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Grand_Tour_(data_visualisation)</guid>
-      <pubDate>Sat, 21 Sep 2024 03:05:44 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=41607852</guid>
+      <pubDate>Sat, 21 Sep 2024 06:05:16 GMT</pubDate>
     </item>
     <item>
-      <title>安娜普尔纳互动公司 (Annapurna Interactive) 大规模罢工事件</title>
-      <link>https://www.ign.com/articles/what-the-heck-has-been-going-on-at-annapurna-interactive-an-investigation</link>
-      <description><![CDATA[文章网址：https://www.ign.com/articles/what-the-heck-has-been-going-on-at-annapurna-interactive-an-investigation
-评论网址：https://news.ycombinator.com/item?id=41607166
-积分：2
-评论数：0]]></description>
-      <guid>https://www.ign.com/articles/what-the-heck-has-been-going-on-at-annapurna-interactive-an-investigation</guid>
-      <pubDate>Sat, 21 Sep 2024 03:05:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>法学硕士法官资格的调整</title>
-      <link>https://forestfriends.tech/aligning-llms-as-a-judge/</link>
-      <description><![CDATA[文章网址：https://forestfriends.tech/aligning-llms-as-a-judge/
-评论网址：https://news.ycombinator.com/item?id=41607147
+      <title>MetaWare 高级 C 编译器丢失的语言扩展</title>
+      <link>https://duriansoftware.com/joe/the-lost-language-extensions-of-metaware%27s-high-c-compiler</link>
+      <description><![CDATA[文章网址：https://duriansoftware.com/joe/the-lost-language-extensions-of-metaware%27s-high-c-compiler
+评论网址：https://news.ycombinator.com/item?id=41607849
 积分：1
 评论数：0]]></description>
-      <guid>https://forestfriends.tech/aligning-llms-as-a-judge/</guid>
-      <pubDate>Sat, 21 Sep 2024 03:02:10 GMT</pubDate>
+      <guid>https://duriansoftware.com/joe/the-lost-language-extensions-of-metaware%27s-high-c-compiler</guid>
+      <pubDate>Sat, 21 Sep 2024 06:04:52 GMT</pubDate>
     </item>
     <item>
-      <title>免费在线获取 Flux - 不到 10 秒即可获得您的 AI 图像</title>
-      <link>https://8pixlabs.com/pulid-for-flux/</link>
-      <description><![CDATA[文章网址：https://8pixlabs.com/pulid-for-flux/
-评论网址：https://news.ycombinator.com/item?id=41607118
+      <title>为什么编程教程如此难理解（2020）</title>
+      <link>https://web.archive.org/web/20201129210032/https://fromtoschool.com/why-most-programming-tutorials-are-so-hard-to-understand-and-a-solution-to-this-problem/</link>
+      <description><![CDATA[文章网址：https://web.archive.org/web/20201129210032/https://fromtoschool.com/why-most-programming-tutorials-are-so-hard-to-understand-and-a-solution-to-this-problem/
+评论网址：https://news.ycombinator.com/item?id=41607840
 积分：1
-评论数：1]]></description>
-      <guid>https://8pixlabs.com/pulid-for-flux/</guid>
-      <pubDate>Sat, 21 Sep 2024 02:53:55 GMT</pubDate>
+评论数： 0]]></description>
+      <guid>https://web.archive.org/web/20201129210032/https://fromtoschool.com/why-most-programming-tutorials-are-so-hard-to-understand-and-a-solution-to-this-problem/</guid>
+      <pubDate>Sat, 21 Sep 2024 06:03:02 GMT</pubDate>
     </item>
     <item>
-      <title>此前保密的 TikTok 简报揭露禁令错误</title>
-      <link>https://www.eff.org/deeplinks/2024/09/square-peg-meet-round-hole-previously-classified-tiktok-briefing-shows-error-ban</link>
-      <description><![CDATA[文章网址：https://www.eff.org/deeplinks/2024/09/square-peg-meet-round-hole-previously-classified-tiktok-briefing-shows-error-ban
-评论网址：https://news.ycombinator.com/item?id=41607112
-积分：1
-评论数：0]]></description>
-      <guid>https://www.eff.org/deeplinks/2024/09/square-peg-meet-round-hole-previously-classified-tiktok-briefing-shows-error-ban</guid>
-      <pubDate>Sat, 21 Sep 2024 02:52:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>岛屿企业浏览器首次亮相联邦</title>
-      <link>https://www.island.io/press/island-enterprise-browser-makes-federal-debut-at-billington-cybersecurity-summit</link>
-      <description><![CDATA[文章网址：https://www.island.io/press/island-enterprise-browser-makes-federal-debut-at-billington-cybersecurity-summit
-评论网址：https://news.ycombinator.com/item?id=41607089
+      <title>使用 Jax 探索并行策略</title>
+      <link>https://astralord.github.io/posts/exploring-parallel-strategies-with-jax/</link>
+      <description><![CDATA[文章网址：https://astralord.github.io/posts/exploring-parallel-strategies-with-jax/
+评论网址：https://news.ycombinator.com/item?id=41607796
 积分：1
 评论数：0]]></description>
-      <guid>https://www.island.io/press/island-enterprise-browser-makes-federal-debut-at-billington-cybersecurity-summit</guid>
-      <pubDate>Sat, 21 Sep 2024 02:44:48 GMT</pubDate>
+      <guid>https://astralord.github.io/posts/exploring-parallel-strategies-with-jax/</guid>
+      <pubDate>Sat, 21 Sep 2024 05:49:47 GMT</pubDate>
     </item>
     <item>
-      <title>死刑</title>
-      <link>https://news.gallup.com/poll/1606/death-penalty.aspx</link>
-      <description><![CDATA[文章网址：https://news.gallup.com/poll/1606/death-penalty.aspx
-评论网址：https://news.ycombinator.com/item?id=41607080
+      <title>《危险边缘！》的未来将会如何？</title>
+      <link>https://slate.com/culture/2024/09/jeopardy-champions-episodes-yogesh-raut.html</link>
+      <description><![CDATA[文章网址：https://slate.com/culture/2024/09/jeopardy-champions-episodes-yogesh-raut.html
+评论网址：https://news.ycombinator.com/item?id=41607789
+积分：1
+评论数：0]]></description>
+      <guid>https://slate.com/culture/2024/09/jeopardy-champions-episodes-yogesh-raut.html</guid>
+      <pubDate>Sat, 21 Sep 2024 05:48:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>专利律师分析：任天堂起诉Palworld的专利是什么？</title>
+      <link>https://automaton-media.com/en/news/whats-the-killer-patent-nintendo-is-suing-palworld-for-japanese-patent-attorney-offers-in-depth-analysis/</link>
+      <description><![CDATA[文章网址：https://automaton-media.com/en/news/whats-the-killer-patent-nintendo-is-suing-palworld-for-japanese-patent-attorney-offers-in-depth-analysis/
+评论网址：https://news.ycombinator.com/item?id=41607782
 积分：2
 评论数：1]]></description>
-      <guid>https://news.gallup.com/poll/1606/death-penalty.aspx</guid>
-      <pubDate>Sat, 21 Sep 2024 02:42:05 GMT</pubDate>
+      <guid>https://automaton-media.com/en/news/whats-the-killer-patent-nintendo-is-suing-palworld-for-japanese-patent-attorney-offers-in-depth-analysis/</guid>
+      <pubDate>Sat, 21 Sep 2024 05:46:33 GMT</pubDate>
     </item>
     <item>
-      <title>我喜欢 Makefile</title>
-      <link>https://switowski.com/blog/i-like-makefiles/</link>
-      <description><![CDATA[文章网址：https://switowski.com/blog/i-like-makefiles/
-评论网址：https://news.ycombinator.com/item?id=41607059
-积分：1
-评论数：2]]></description>
-      <guid>https://switowski.com/blog/i-like-makefiles/</guid>
-      <pubDate>Sat, 21 Sep 2024 02:37:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>新研究表明大脑网络损伤与宗教原教旨主义增强有关</title>
-      <link>https://www.psypost.org/new-study-links-brain-network-damage-to-increased-religious-fundamentalism/</link>
-      <description><![CDATA[文章网址：https://www.psypost.org/new-study-links-brain-network-damage-to-increased-religious-fundamentalism/
-评论网址：https://news.ycombinator.com/item?id=41607052
-积分：1
-评论数：0]]></description>
-      <guid>https://www.psypost.org/new-study-links-brain-network-damage-to-increased-religious-fundamentalism/</guid>
-      <pubDate>Sat, 21 Sep 2024 02:37:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>“这太没男子气概了”：车臣军阀声称伊隆·马斯克弄坏了他的 Cyber​​truck</title>
-      <link>https://www.politico.eu/article/chechnyas-strongman-leader-accuses-elon-musk-disabling-bricking-his-tesla/</link>
-      <description><![CDATA[文章网址：https://www.politico.eu/article/chechnyas-strongman-leader-accuses-elon-musk-disabling-bricking-his-tesla/
-评论网址：https://news.ycombinator.com/item?id=41607041
+      <title>重力热灾难</title>
+      <link>https://johncarlosbaez.wordpress.com/2024/09/20/the-gravo-thermal-catastrophe/</link>
+      <description><![CDATA[文章网址：https://johncarlosbaez.wordpress.com/2024/09/20/the-gravo-thermal-catastrophe/
+评论网址：https://news.ycombinator.com/item?id=41607781
 积分：2
 评论数：0]]></description>
-      <guid>https://www.politico.eu/article/chechnyas-strongman-leader-accuses-elon-musk-disabling-bricking-his-tesla/</guid>
-      <pubDate>Sat, 21 Sep 2024 02:34:28 GMT</pubDate>
+      <guid>https://johncarlosbaez.wordpress.com/2024/09/20/the-gravo-thermal-catastrophe/</guid>
+      <pubDate>Sat, 21 Sep 2024 05:45:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Execsnoop：实时监控并记录系统上的所有执行调用</title>
+      <link>https://yeet.cx/@yeet/execsnoop</link>
+      <description><![CDATA[文章网址：https://yeet.cx/@yeet/execsnoop
+评论网址：https://news.ycombinator.com/item?id=41607763
+积分：1
+评论数：0]]></description>
+      <guid>https://yeet.cx/@yeet/execsnoop</guid>
+      <pubDate>Sat, 21 Sep 2024 05:42:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>自动化日常事务</title>
+      <link>https://www.fliptool.tech</link>
+      <description><![CDATA[文章网址：https://www.fliptool.tech
+评论网址：https://news.ycombinator.com/item?id=41607755
+积分：1
+评论数：1]]></description>
+      <guid>https://www.fliptool.tech</guid>
+      <pubDate>Sat, 21 Sep 2024 05:38:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：将嵌入向量可视化并进行比较</title>
+      <link>https://tanelpoder.com/posts/visualizing-embedding-vectors-as-heatmaps/</link>
+      <description><![CDATA[文章网址：https://tanelpoder.com/posts/visualizing-embedding-vectors-as-heatmaps/
+评论网址：https://news.ycombinator.com/item?id=41607753
+积分：2
+评论数：0]]></description>
+      <guid>https://tanelpoder.com/posts/visualizing-embedding-vectors-as-heatmaps/</guid>
+      <pubDate>Sat, 21 Sep 2024 05:38:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
