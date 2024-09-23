@@ -4,24 +4,80 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 23 Sep 2024 15:18:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2024 18:22:57 GMT</lastBuildDate>
     <item>
-      <title>临时 ID：一种新的欺诈检测工具</title>
-      <link>https://blog.cloudflare.com/turnstile-ephemeral-ids-for-fraud-detection/</link>
-      <description><![CDATA[文章网址：https://blog.cloudflare.com/turnstile-ephemeral-ids-for-fraud-detection/
-评论网址：https://news.ycombinator.com/item?id=41626067
-积分：5
+      <title>是时候让 iPod 回归了</title>
+      <link>https://www.nightwater.email/ipod/</link>
+      <description><![CDATA[文章网址：https://www.nightwater.email/ipod/
+评论网址：https://news.ycombinator.com/item?id=41628481
+积分：14
+评论数：23]]></description>
+      <guid>https://www.nightwater.email/ipod/</guid>
+      <pubDate>Mon, 23 Sep 2024 17:30:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>智能时代</title>
+      <link>https://ia.samaltman.com/</link>
+      <description><![CDATA[文章网址：https://ia.samaltman.com/
+评论网址：https://news.ycombinator.com/item?id=41628167
+积分：71
+评论数：63]]></description>
+      <guid>https://ia.samaltman.com/</guid>
+      <pubDate>Mon, 23 Sep 2024 17:01:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动 HN：Panora (YC S24) – LLM 数据集成 API</title>
+      <link>https://github.com/panoratech/Panora</link>
+      <description><![CDATA[嗨，HN！我们是 Nael 和 Rachid，我们正在构建 Panora (https://github.com/panoratech/Panora)，这是一个开源 API，可将各种数据源连接到 LLM，从第三方集成到嵌入和分块生成。这是一个演示：https://www.youtube.com/watch?v=45QaN8mzAfg，您可以在此处查看我们的文档：https://docs.panora.dev/quick-start我们的 GitHub 存储库位于 https://github.com/panoratech/Panora。手动构建集成非常繁琐且耗时。您必须适应 API 文档怪癖，管理请求重试、OAuth/API 密钥授权、刷新令牌、速率限制和数据同步新鲜度。此外，您还必须跟上嵌入模型和分块功能的不断崛起。另一方面，随着人工智能应用的兴起，您必须处理所有非结构化数据的嵌入和分块。该领域的主导者是 Merge.dev，但它有几个缺点：1. 对于大多数开发人员来说，它是一个黑匣子，缺乏数据处理的透明度。
+2. 强大的供应商锁定：一旦最终用户连接他们的软件，如果您想在离开 Merge 后代表他们执行请求，访问授权令牌将具有挑战性。
+3. 集成的长尾部署时间长，导致在集成成为基于 LLM 的应用程序的支柱时错失机会。
+4. 每次连接的价格不切实际（一个最终用户连接其工具的行为）。
+5. 无法为需要 RAG 就绪数据来支持其用例的基于 LLM 的产品提供服务。这就是 Panora 诞生的原因。我们着手构建一个解决方案来正面解决这些痛点，创造既对开发人员友好又开源的东西。我们的目标是简化 LLM 的复杂集成和数据准备世界，让开发人员专注于构建出色的产品，而不是努力解决集成问题。Panora 在 Apache 2.0 许可下 100% 开源，您可以使用我们的云版本或自行托管产品。我们为您的最终用户提供两种无缝连接其软件的方式。1.前端 SDK (React)，您可以在其中将集成目录嵌入到您的应用中。2. 一个魔术链接，您可以与任何人共享，允许他们连接他们的软件。您可以使用自己的 OAuth 客户端或我们管理的客户端。您会收到每个用户和每个连接提供商的连接令牌，您必须使用该令牌才能使用我们的通用 API 检索/插入数据。我们有不同类别的软件，例如 CRM 或文件存储。每个类别都按照标准数据模型分为实体（例如：文件存储有文件、文件夹、驱动器、组和用户）。您甚至可以访问每个响应中的远程数据（来自提供商的未转换数据），因此您可以在自己的终端构建自定义和复杂的集成。如果远程数据超出标准数据模型，您可以通过 API 或我们的仪表板创建自定义字段，以将您的远程字段映射到我们的模型。我们不仅仅是集成 - 我们为您的 RAG 应用程序提供现成的数据，并自动生成所有同步文档的嵌入和块。您可以选择在仪表板中选择自己的矢量数据库和嵌入模型。然后，我们同步您的文档并将块/嵌入存储到指定的矢量数据库。我们确保维护通过 webhook 发送的最新数据，您可以根据您的使用情况设置自定义同步频率（1 小时、每天一次等）。开发人员使用我们的 API 访问各种软件（例如文件存储系统（Google Drive、OneDrive、SharePoint））中的碎片数据，并使用单个 API 检索其文档的嵌入。我们的后端 SDK 适用于 Python、TypeScript、Ruby 和 Go。您的诚实反馈、建议和愿望将非常有帮助。我们很乐意听到您的集成故事、您在 LLM 数据集成方面面临的挑战以及对我们方法的任何想法。谢谢，HN！
+
+评论 URL：https://news.ycombinator.com/item?id=41627966
+积分：4
 评论数：0]]></description>
-      <guid>https://blog.cloudflare.com/turnstile-ephemeral-ids-for-fraud-detection/</guid>
-      <pubDate>Mon, 23 Sep 2024 13:50:00 GMT</pubDate>
+      <guid>https://github.com/panoratech/Panora</guid>
+      <pubDate>Mon, 23 Sep 2024 16:43:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>什么，我担心？《疯狂杂志》的艺术和幽默</title>
+      <link>https://www.nrm.org/2024/08/mad/</link>
+      <description><![CDATA[文章网址：https://www.nrm.org/2024/08/mad/
+评论网址：https://news.ycombinator.com/item?id=41627787
+积分：53
+评论数：22]]></description>
+      <guid>https://www.nrm.org/2024/08/mad/</guid>
+      <pubDate>Mon, 23 Sep 2024 16:25:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用可微分 Voronoi 图进行自由形式平面图设计</title>
+      <link>https://github.com/nobuyuki83/floor_plan</link>
+      <description><![CDATA[文章网址：https://github.com/nobuyuki83/floor_plan
+评论网址：https://news.ycombinator.com/item?id=41627549
+积分：55
+评论数：4]]></description>
+      <guid>https://github.com/nobuyuki83/floor_plan</guid>
+      <pubDate>Mon, 23 Sep 2024 16:06:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>看看HN：日本便利店“地盘之争”的互动地图</title>
+      <link>https://conbini.kikkia.dev</link>
+      <description><![CDATA[使用的技术：Leaflet（前端）Turf（Geojson 生成和 Voronoi 生成）我注意到我家附近全是 Lawson，所以我找到了所有 Conbinis 的位置，并进行了一些基本分析，看看这些品牌领地是否常见。我之前没有使用过太多 Web 前端，因此欢迎提供反馈。我还有一些想法可以扩展，例如根据街道和其他地理特征（而不仅仅是直线距离）计算领地。该网站尚未在移动设备上进行太多测试，但应该没问题。目前，可以在公共存储库中找到前端代码和 geojson 文件：https://github.com/kikkia/ConbiniWars。我正在清理和重新整理后端代码，稍后会上传。
+
+评论网址：https://news.ycombinator.com/item?id=41626063
+积分：60
+评论数：25]]></description>
+      <guid>https://conbini.kikkia.dev</guid>
+      <pubDate>Mon, 23 Sep 2024 13:49:31 GMT</pubDate>
     </item>
     <item>
       <title>Cloudflare 的新市场允许网站向 AI 机器人收取抓取费用</title>
       <link>https://techcrunch.com/2024/09/23/cloudflares-new-marketplace-lets-websites-charge-ai-bots-for-scraping/</link>
       <description><![CDATA[文章网址：https://techcrunch.com/2024/09/23/cloudflares-new-marketplace-lets-websites-charge-ai-bots-for-scraping/
 评论网址：https://news.ycombinator.com/item?id=41625903
-积分：73
-评论数：52]]></description>
+积分：206
+评论数：150]]></description>
       <guid>https://techcrunch.com/2024/09/23/cloudflares-new-marketplace-lets-websites-charge-ai-bots-for-scraping/</guid>
       <pubDate>Mon, 23 Sep 2024 13:31:40 GMT</pubDate>
     </item>
@@ -31,10 +87,20 @@
       <description><![CDATA[各位黑客，Media Hoarder 今天正在庆祝其 2 岁生日，它终于通过刚刚发布的 v1.4.0 支持电视剧了。这是一个展示新功能的视频：https://www.youtube.com/watch/3qfb5UWJrdQ在开发方面，我得到了一位名叫 kolbdog323 的个人的加入，他在几个月内提供了大量反馈和请求，对此我深表感谢，因为 Media Hoarder 仍然是一位两个孩子的父亲在有限的业余时间开发的绝对副项目 :D请随时讨论功能、开发和副项目相关的事情，我真的很好奇！Media Hoarder 网站：https://media.hoarder.software博客文章“2 岁生日 - 电视剧支持”：https://media.hoarder.software/blog/2nd-birthday-tv-series-s...GitHub 项目：https://github.com/theMK2k/Media-Hoarder干杯-- MK2k
 
 评论 URL：https://news.ycombinator.com/item?id=41625714
-积分：41
-评论数：12]]></description>
+积分：69
+评论数：31]]></description>
       <guid>https://github.com/theMK2k/Media-Hoarder/releases/tag/v1.4.0</guid>
       <pubDate>Mon, 23 Sep 2024 13:13:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>NeRF监督的特征点检测与描述</title>
+      <link>https://arxiv.org/abs/2403.08156</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2403.08156
+评论网址：https://news.ycombinator.com/item?id=41625456
+积分：16
+评论数：0]]></description>
+      <guid>https://arxiv.org/abs/2403.08156</guid>
+      <pubDate>Mon, 23 Sep 2024 12:46:15 GMT</pubDate>
     </item>
     <item>
       <title>Dot (YC S21) 正在招聘工程师来实现自动化分析（远程）</title>
@@ -45,66 +111,6 @@
 评论数：0]]></description>
       <guid>https://www.ycombinator.com/companies/dot/jobs/VdiEzXq-founding-engineer-ai-analytics-remote</guid>
       <pubDate>Mon, 23 Sep 2024 12:00:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>专制与停滞：科举如何决定中国的命运</title>
-      <link>https://www.chinatalk.media/p/autocracy-and-stagnation-how-imperial</link>
-      <description><![CDATA[文章网址：https://www.chinatalk.media/p/autocracy-and-stagnation-how-imperial
-评论网址：https://news.ycombinator.com/item?id=41624827
-积分：46
-评论数：13]]></description>
-      <guid>https://www.chinatalk.media/p/autocracy-and-stagnation-how-imperial</guid>
-      <pubDate>Mon, 23 Sep 2024 11:19:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>跨架构可移植性问题概述</title>
-      <link>https://blogs.gentoo.org/mgorny/2024/09/23/overview-of-cross-architecture-portability-problems/</link>
-      <description><![CDATA[文章网址：https://blogs.gentoo.org/mgorny/2024/09/23/overview-of-cross-architecture-portability-problems/
-评论网址：https://news.ycombinator.com/item?id=41624510
-积分：3
-评论数：0]]></description>
-      <guid>https://blogs.gentoo.org/mgorny/2024/09/23/overview-of-cross-architecture-portability-problems/</guid>
-      <pubDate>Mon, 23 Sep 2024 10:34:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>我设计了一款受 Dieter Rams 启发的 iPhone 底座</title>
-      <link>https://arslan.io/2024/09/23/dieter-rams-inspired-iphone-dock/</link>
-      <description><![CDATA[文章网址：https://arslan.io/2024/09/23/dieter-rams-inspired-iphone-dock/
-评论网址：https://news.ycombinator.com/item?id=41623467
-积分：164
-评论数：54]]></description>
-      <guid>https://arslan.io/2024/09/23/dieter-rams-inspired-iphone-dock/</guid>
-      <pubDate>Mon, 23 Sep 2024 07:51:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>iPhone 16 的电动释放粘合剂的工作原理</title>
-      <link>https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16</link>
-      <description><![CDATA[文章网址：https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16
-评论网址：https://news.ycombinator.com/item?id=41623251
-积分：352
-评论数：144]]></description>
-      <guid>https://www.ifixit.com/News/100352/we-hot-wired-the-iphone-16</guid>
-      <pubDate>Mon, 23 Sep 2024 07:18:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rust 的底层恐慌，以及在 .NET 中的实现</title>
-      <link>https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_2_1.html</link>
-      <description><![CDATA[文章网址：https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_2_1.html
-评论网址：https://news.ycombinator.com/item?id=41622601
-积分：30
-评论数：0]]></description>
-      <guid>https://fractalfir.github.io/generated_html/rustc_codegen_clr_v0_2_1.html</guid>
-      <pubDate>Mon, 23 Sep 2024 05:26:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>阿兰·图灵于 1950 年编写的 Mark I 电子计算机手册 [pdf]</title>
-      <link>https://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-4-pdf/k-4-u2780-Manchester-Mark-I-manual.pdf</link>
-      <description><![CDATA[文章网址：https://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-4-pdf/k-4-u2780-Manchester-Mark-I-manual.pdf
-评论网址：https://news.ycombinator.com/item?id=41622419
-积分：30
-评论数：0]]></description>
-      <guid>https://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-4-pdf/k-4-u2780-Manchester-Mark-I-manual.pdf</guid>
-      <pubDate>Mon, 23 Sep 2024 04:36:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
