@@ -4,107 +4,110 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 24 Sep 2024 12:38:47 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2024 15:19:10 GMT</lastBuildDate>
+    <item>
+      <title>Winamp Legacy 播放器源代码现已开放</title>
+      <link>https://github.com/WinampDesktop/winamp</link>
+      <description><![CDATA[文章网址：https://github.com/WinampDesktop/winamp
+评论网址：https://news.ycombinator.com/item?id=41636804
+积分：130
+评论数：48]]></description>
+      <guid>https://github.com/WinampDesktop/winamp</guid>
+      <pubDate>Tue, 24 Sep 2024 14:27:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Evan Prodromou 成立社交网络基金会</title>
+      <link>https://wedistribute.org/2024/09/social-web-foundation-launch/</link>
+      <description><![CDATA[文章网址：https://wedistribute.org/2024/09/social-web-foundation-launch/
+评论网址：https://news.ycombinator.com/item?id=41636491
+积分：37
+评论数：4]]></description>
+      <guid>https://wedistribute.org/2024/09/social-web-foundation-launch/</guid>
+      <pubDate>Tue, 24 Sep 2024 13:55:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>蓝色起源已启动轨道火箭级</title>
+      <link>https://arstechnica.com/space/2024/09/blue-origin-completes-second-stage-hot-fire-test-of-large-new-rocket/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/space/2024/09/blue-origin-completes-second-stage-hot-fire-test-of-large-new-rocket/
+评论网址：https://news.ycombinator.com/item?id=41636226
+积分：11
+评论数：1]]></description>
+      <guid>https://arstechnica.com/space/2024/09/blue-origin-completes-second-stage-hot-fire-test-of-large-new-rocket/</guid>
+      <pubDate>Tue, 24 Sep 2024 13:27:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenBSD 现在强制在 shell 脚本中不使用无效的 NUL 字符</title>
+      <link>https://www.undeadly.org/cgi?action=article;sid=20240924105732</link>
+      <description><![CDATA[文章网址：https://www.undeadly.org/cgi?action=article;sid=20240924105732
+评论网址：https://news.ycombinator.com/item?id=41636070
+积分：64
+评论数：53]]></description>
+      <guid>https://www.undeadly.org/cgi?action=article;sid=20240924105732</guid>
+      <pubDate>Tue, 24 Sep 2024 13:06:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>瑞士拘留数人，原因是他们死于“自杀胶囊”</title>
+      <link>https://apnews.com/article/switzerland-suicide-capsule-people-detained-06d38d708d8b8b4b771bb2df047adfd0</link>
+      <description><![CDATA[文章网址：https://apnews.com/article/switzerland-suicide-capsule-people-detained-06d38d708d8b8b4b771bb2df047adfd0
+评论网址：https://news.ycombinator.com/item?id=41635991
+积分：34
+评论数：21]]></description>
+      <guid>https://apnews.com/article/switzerland-suicide-capsule-people-detained-06d38d708d8b8b4b771bb2df047adfd0</guid>
+      <pubDate>Tue, 24 Sep 2024 12:55:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>为 T 细胞提供额外的电池，增强其对抗癌症的能力</title>
+      <link>https://newatlas.com/cancer/cancer-immunotherapy-t-cells-extra-batteries-supercharges/</link>
+      <description><![CDATA[文章网址：https://newatlas.com/cancer/cancer-immunotherapy-t-cells-extra-batteries-supercharges/
+评论网址：https://news.ycombinator.com/item?id=41635962
+积分：58
+评论数：17]]></description>
+      <guid>https://newatlas.com/cancer/cancer-immunotherapy-t-cells-extra-batteries-supercharges/</guid>
+      <pubDate>Tue, 24 Sep 2024 12:51:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Oodle – 无服务器、完全托管、Prometheus 的替代品</title>
+      <link>https://blog.oodle.ai/building-a-high-performance-low-cost-metrics-observability-system/</link>
+      <description><![CDATA[你好，HN！我的联合创始人 Vijay 和我很高兴向大家开放 Oodle。我们曾经是 Rubrik 的可观察性极客。我们的指标账单在 4 年内增长了 20 倍。我们试图通过提高可见性来控制支出，阻止高基数标签，如 pod_id、cluster_id 和 customer_id。但这使调试问题变得复杂。应用工程师讨厌阻止指标，而阻止其他人的代码审查对平台工程师来说也不是一件有趣的事情！迁移（和锁定）非常痛苦，第一次从 Influx 迁移到 Signalfx 花了 6 个多月，第二次从 Splunk 迁移花了一年多的时间。Oodle 正在采用一种新方法来构建一个经济高效的无服务器指标可观察性平台。它在大规模下提供快速的性能。我们利用 S3 上的自定义存储格式，针对指标数据进行了调整。查询是无服务器的。困难的部分在于如何在优化成本（每个 CPU 周期、存储/内存字节都很重要！）的同时实现快速的性能。我们在博客上更详细地介绍了该架构：https://blog.oodle.ai/building-a-high-performance-low-cost-m...试用我们的游乐场，每小时有 1300 多万个活跃时间序列，每天有 130 多亿个样本：https://play.oodle.ai通过快速注册探索实时数据的所有功能：https://us1.oodle.ai/signup
+- 即时探索（&lt;5 分钟）：运行一个命令即可将合成指标传输到您的帐户
+- 轻松集成（&lt;15 分钟）：使用现有 Prometheus 或 OTel 设置中的数据进行探索。我们希望您反馈！干杯
+
+评论网址：https://news.ycombinator.com/item?id=41635871
+积分：38
+评论数：26]]></description>
+      <guid>https://blog.oodle.ai/building-a-high-performance-low-cost-metrics-observability-system/</guid>
+      <pubDate>Tue, 24 Sep 2024 12:39:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：OpenFreeMap – 开源地图托管</title>
+      <link>https://openfreemap.org/</link>
+      <description><![CDATA[嗨，HN，在为 MapHub (https://news.ycombinator.com/item?id=11389989) 运行自己的 OpenStreetMap 瓦片服务器基础设施 9 年后，我将其开源并推出了 OpenFreeMap。您可以自行托管或使用我们的公共实例。一切都是开源的，包括完整的生产设置 — 这里没有“开放核心”模型。查看 repo (https://github.com/hyperknot/openfreemap)。地图数据来自 OpenStreetMap。我还提供每周完整的星球下载，格式包括 Btrfs 和 MBTiles。我计划通过捐款来支付公共实例的运行成本。期待您的反馈。
+
+评论网址：https://news.ycombinator.com/item?id=41635592
+积分：207
+评论数：54]]></description>
+      <guid>https://openfreemap.org/</guid>
+      <pubDate>Tue, 24 Sep 2024 11:59:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>快速行动并放弃一些东西</title>
+      <link>https://engineersneedart.com/blog/movefast/movefast.html</link>
+      <description><![CDATA[文章网址：https://engineersneedart.com/blog/movefast/movefast.html
+评论网址：https://news.ycombinator.com/item?id=41635583
+积分：101
+评论数：21]]></description>
+      <guid>https://engineersneedart.com/blog/movefast/movefast.html</guid>
+      <pubDate>Tue, 24 Sep 2024 11:58:02 GMT</pubDate>
+    </item>
     <item>
       <title>Jetstream：将 AT 协议 Firehose 缩小 99% 以上</title>
       <link>https://jazco.dev/2024/09/24/jetstream/</link>
       <description><![CDATA[文章网址：https://jazco.dev/2024/09/24/jetstream/
 评论网址：https://news.ycombinator.com/item?id=41635176
-积分：6
-评论数：0]]></description>
+积分：66
+评论数：22]]></description>
       <guid>https://jazco.dev/2024/09/24/jetstream/</guid>
       <pubDate>Tue, 24 Sep 2024 10:50:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Acorn Archimedes 上的 Lander 的完整源代码文档</title>
-      <link>https://lander.bbcelite.com/</link>
-      <description><![CDATA[文章网址：https://lander.bbcelite.com/
-评论网址：https://news.ycombinator.com/item?id=41635166
-积分：47
-评论数：7]]></description>
-      <guid>https://lander.bbcelite.com/</guid>
-      <pubDate>Tue, 24 Sep 2024 10:47:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN: 支持多种类型的表达式解析器</title>
-      <link>https://github.com/torrentg/expr</link>
-      <description><![CDATA[此 C 库是主项目的一部分，旨在提供反应式键值 (KV) 数据库。数据是类型化的（数字、字符串、日期或布尔值），可以包含引用其他条目的公式。连接到此数据库的客户端会收到实时数据流，其中包含订阅键的更新，从而使它们能够对更改及其依赖项做出反应。本质上，这就像构建分布式 Excel，其中数据和公式会在整个系统中动态更新。我找不到任何提供评估表达式所需的全套功能的库，因此我决定创建自己的库。此子项目是开源的，可在 GitHub 上找到。欢迎反馈！
-
-评论网址：https://news.ycombinator.com/item?id=41635088
-积分：3
-评论数：0]]></description>
-      <guid>https://github.com/torrentg/expr</guid>
-      <pubDate>Tue, 24 Sep 2024 10:30:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>放射性胶带分配器（1970 年代）</title>
-      <link>https://www.orau.org/health-physics-museum/collection/consumer/miscellaneous/tape-dispenser.html</link>
-      <description><![CDATA[文章网址：https://www.orau.org/health-physics-museum/collection/consumer/miscellaneous/tape-dispenser.html
-评论网址：https://news.ycombinator.com/item?id=41634268
-积分：31
-评论数：11]]></description>
-      <guid>https://www.orau.org/health-physics-museum/collection/consumer/miscellaneous/tape-dispenser.html</guid>
-      <pubDate>Tue, 24 Sep 2024 08:05:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Excel 电子表格导致网络设备物理故障</title>
-      <link>https://twitter.com/lauriewired/status/1838256923428438345</link>
-      <description><![CDATA[文章网址：https://twitter.com/lauriewired/status/1838256923428438345
-评论网址：https://news.ycombinator.com/item?id=41634119
-积分：19
-评论数：12]]></description>
-      <guid>https://twitter.com/lauriewired/status/1838256923428438345</guid>
-      <pubDate>Tue, 24 Sep 2024 07:42:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>3D 堆叠 CMOS 将摩尔定律推向新高度</title>
-      <link>https://spectrum.ieee.org/3d-cmos</link>
-      <description><![CDATA[文章网址：https://spectrum.ieee.org/3d-cmos
-评论网址：https://news.ycombinator.com/item?id=41633882
-积分：111
-评论数：20]]></description>
-      <guid>https://spectrum.ieee.org/3d-cmos</guid>
-      <pubDate>Tue, 24 Sep 2024 07:10:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>Maker Pipe – 适合 DIY 建筑商的结构管道配件</title>
-      <link>https://makerpipe.com/</link>
-      <description><![CDATA[文章网址：https://makerpipe.com/
-评论网址：https://news.ycombinator.com/item?id=41633155
-积分：78
-评论数：26]]></description>
-      <guid>https://makerpipe.com/</guid>
-      <pubDate>Tue, 24 Sep 2024 04:43:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>EzAudio：利用高效扩散变换器增强文本转音频生成</title>
-      <link>https://haidog-yaqub.github.io/EzAudio-Page/</link>
-      <description><![CDATA[文章网址：https://haidog-yaqub.github.io/EzAudio-Page/
-评论网址：https://news.ycombinator.com/item?id=41632823
-积分：47
-评论数：5]]></description>
-      <guid>https://haidog-yaqub.github.io/EzAudio-Page/</guid>
-      <pubDate>Tue, 24 Sep 2024 03:16:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tracy：实时、纳秒分辨率帧分析器</title>
-      <link>https://github.com/wolfpld/tracy</link>
-      <description><![CDATA[文章网址：https://github.com/wolfpld/tracy
-评论网址：https://news.ycombinator.com/item?id=41632719
-积分：76
-评论数：13]]></description>
-      <guid>https://github.com/wolfpld/tracy</guid>
-      <pubDate>Tue, 24 Sep 2024 02:57:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于球齿轮啮合的三自由度主动球铰机构</title>
-      <link>https://ieeexplore.ieee.org/document/9415699</link>
-      <description><![CDATA[文章网址：https://ieeexplore.ieee.org/document/9415699
-评论网址：https://news.ycombinator.com/item?id=41632469
-积分：18
-评论数：8]]></description>
-      <guid>https://ieeexplore.ieee.org/document/9415699</guid>
-      <pubDate>Tue, 24 Sep 2024 02:07:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
