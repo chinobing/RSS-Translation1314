@@ -4,108 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 28 Sep 2024 03:21:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Sep 2024 06:22:17 GMT</lastBuildDate>
     <item>
-      <title>询问 HN：WebAssembly 的不当使用</title>
-      <link>https://news.ycombinator.com/item?id=41677581</link>
-      <description><![CDATA[背景：7 月，我尝试通过公用事业公司的网络门户支付每月电费。登录后，我看到一个空白页。这是在 CrowdStrike 事件发生后不久，每个人都会偶尔停机，所以我没想太多。在看到几天空白页后，我打电话给他们的客户服务部门。他们否认有任何已知的停机，而且没有技术支持部门，我选择通过电话支付账单。然后我开始深入研究问题，发现他们正在使用 webassembly 来引导他们的网站代码……出于安全考虑（？），因为我想不出任何其他理由将这种抽象添加到由文本和表单组成的网站。本月，我注意到我的一家银行也在做同样的事情。虽然我不知道 webassembly，但很容易看出这两个 JS 文件实际上是相同的，这表明它们有一个共同的来源。我很好奇这种做法有多普遍。就我的问题而言，“不适当”是指远远超出原始用例的实现：游戏、CAD、声音编辑、视频编辑、仿真等。我在美国，如果这有区别的话，并且已经关闭 webassembly 浏览了很长时间。我也想知道是否有“创建我的网站的 webassembly bootstrap 版本”脚本？网址如下。
-
-评论网址：https://news.ycombinator.com/item?id=41677581
-积分：1
-评论数：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=41677581</guid>
-      <pubDate>Sat, 28 Sep 2024 03:15:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 今年预计亏损约 50 亿美元，营收 37 亿美元</title>
-      <link>https://www.cnbc.com/2024/09/27/openai-sees-5-billion-loss-this-year-on-3point7-billion-in-revenue.html</link>
-      <description><![CDATA[文章网址：https://www.cnbc.com/2024/09/27/openai-sees-5-billion-loss-this-year-on-3point7-billion-in-revenue.html
-评论网址：https://news.ycombinator.com/item?id=41677579
-积分：3
-评论数：0]]></description>
-      <guid>https://www.cnbc.com/2024/09/27/openai-sees-5-billion-loss-this-year-on-3point7-billion-in-revenue.html</guid>
-      <pubDate>Sat, 28 Sep 2024 03:14:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何寻找可以发言的会议</title>
-      <link>https://www.seckington.com/how-to-discover-conferences-to-speak-at/</link>
-      <description><![CDATA[文章网址：https://www.seckington.com/how-to-discover-conferences-to-speak-at/
-评论网址：https://news.ycombinator.com/item?id=41677573
+      <title>大英百科全书词典 Python 包</title>
+      <link>https://code.esube.com.et/britannica-dictionary</link>
+      <description><![CDATA[文章网址：https://code.esube.com.et/britannica-dictionary
+评论网址：https://news.ycombinator.com/item?id=41678290
 积分：1
 评论数：0]]></description>
-      <guid>https://www.seckington.com/how-to-discover-conferences-to-speak-at/</guid>
-      <pubDate>Sat, 28 Sep 2024 03:13:45 GMT</pubDate>
+      <guid>https://code.esube.com.et/britannica-dictionary</guid>
+      <pubDate>Sat, 28 Sep 2024 06:19:33 GMT</pubDate>
     </item>
     <item>
-      <title>DRAMHiT：为 DRAM 速度而设计的哈希表 (2023)</title>
-      <link>https://dl.acm.org/doi/pdf/10.1145/3552326.3587457</link>
-      <description><![CDATA[文章网址：https://dl.acm.org/doi/pdf/10.1145/3552326.3587457
-评论网址：https://news.ycombinator.com/item?id=41677558
+      <title>我把自己锁在公寓里四年来建造这个人形机器人</title>
+      <link>https://twitter.com/lethic1/status/1839909404973642137</link>
+      <description><![CDATA[文章网址：https://twitter.com/lethic1/status/1839909404973642137
+评论网址：https://news.ycombinator.com/item?id=41678259
 积分：1
 评论数：0]]></description>
-      <guid>https://dl.acm.org/doi/pdf/10.1145/3552326.3587457</guid>
-      <pubDate>Sat, 28 Sep 2024 03:07:20 GMT</pubDate>
+      <guid>https://twitter.com/lethic1/status/1839909404973642137</guid>
+      <pubDate>Sat, 28 Sep 2024 06:12:37 GMT</pubDate>
     </item>
     <item>
-      <title>伊隆·马斯克将于周一在法庭上通过 Anti-SLAPP 试图让我破产并保持沉默</title>
-      <link>https://news.ycombinator.com/item?id=41677553</link>
-      <description><![CDATA[我在 2020 年起诉了 Elon Musk，并在一个月前根据特斯拉的内部文件更新了诉讼。他不希望任何人阅读这些文件。所以请阅读。您可以在此处找到第一份修订后的投诉：https://www.plainsite.org/dockets/download.html?id=332879335&amp;z=06846ebe这里有更多文件：https://www.plainsite.org/dockets/download.html?id=307378100&amp;z=ee2d510c以及此处：https://www.plainsite.org/articles/index.html周一是 Elon 和公司的回应截止日期。上一次他们回应了三项反 SLAPP 动议，要求败诉方赔偿胜诉方的律师费和费用。我完全有理由相信他们会再次尝试这样做，而且这一次一定会成功。所以，请根据特斯拉自己的文件，看看他到底在做什么。
-
-评论网址：https://news.ycombinator.com/item?id=41677553
-积分：4
+      <title>文本编辑器的设计</title>
+      <link>https://arxiv.org/abs/2008.06030</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2008.06030
+评论网址：https://news.ycombinator.com/item?id=41678248
+积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=41677553</guid>
-      <pubDate>Sat, 28 Sep 2024 03:06:25 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2008.06030</guid>
+      <pubDate>Sat, 28 Sep 2024 06:08:31 GMT</pubDate>
     </item>
     <item>
-      <title>鲍里斯·约翰逊：我们考虑对荷兰进行“水上突袭”以夺取新冠疫苗</title>
-      <link>https://www.theguardian.com/world/2024/sep/27/boris-johnson-considered-raid-dutch-warehouse-seize-covid-vaccine</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/world/2024/sep/27/boris-johnson-considered-raid-dutch-warehouse-seize-covid-vaccine
-评论网址：https://news.ycombinator.com/item?id=41677526
+      <title>世界是什么样的：谁知道——以及为什么（1983）</title>
+      <link>https://chomsky.info/reader02/</link>
+      <description><![CDATA[文章网址：https://chomsky.info/reader02/
+评论网址：https://news.ycombinator.com/item?id=41678235
 积分：2
 评论数：0]]></description>
-      <guid>https://www.theguardian.com/world/2024/sep/27/boris-johnson-considered-raid-dutch-warehouse-seize-covid-vaccine</guid>
-      <pubDate>Sat, 28 Sep 2024 02:56:31 GMT</pubDate>
+      <guid>https://chomsky.info/reader02/</guid>
+      <pubDate>Sat, 28 Sep 2024 06:03:12 GMT</pubDate>
     </item>
     <item>
-      <title>Pdf2audio：将 PDF 转换为音频播客、讲座、摘要等</title>
-      <link>https://pdf2audio.me/</link>
-      <description><![CDATA[文章网址：https://pdf2audio.me/
-评论网址：https://news.ycombinator.com/item?id=41677518
-积分：1
-评论数：1]]></description>
-      <guid>https://pdf2audio.me/</guid>
-      <pubDate>Sat, 28 Sep 2024 02:55:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌在线合作副总裁声称他从未听说过“广告网络”</title>
-      <link>https://www.journalismliberty.org/publications/google-defense-spaghetti-football</link>
-      <description><![CDATA[文章网址：https://www.journalismliberty.org/publications/google-defense-spaghetti-football
-评论网址：https://news.ycombinator.com/item?id=41677503
+      <title>LMDB 的最新 Rust 绑定</title>
+      <link>https://crates.io/crates/liblmdb</link>
+      <description><![CDATA[文章网址：https://crates.io/crates/liblmdb
+评论网址：https://news.ycombinator.com/item?id=41678228
 积分：2
-评论数：0]]></description>
-      <guid>https://www.journalismliberty.org/publications/google-defense-spaghetti-football</guid>
-      <pubDate>Sat, 28 Sep 2024 02:47:52 GMT</pubDate>
+评论数：2]]></description>
+      <guid>https://crates.io/crates/liblmdb</guid>
+      <pubDate>Sat, 28 Sep 2024 06:01:25 GMT</pubDate>
     </item>
     <item>
-      <title>xAI 位于孟菲斯的 10 万 GPU 数据中心已投入运行</title>
-      <link>https://www.semafor.com/article/09/27/2024/elon-musks-new-memphis-data-center-hits-an-ai-milestone-with-nvidia-chips</link>
-      <description><![CDATA[文章网址：https://www.semafor.com/article/09/27/2024/elon-musks-new-memphis-data-center-hits-an-ai-milestone-with-nvidia-chips
-评论网址：https://news.ycombinator.com/item?id=41677481
-积分：1
-评论数：0]]></description>
-      <guid>https://www.semafor.com/article/09/27/2024/elon-musks-new-memphis-data-center-hits-an-ai-milestone-with-nvidia-chips</guid>
-      <pubDate>Sat, 28 Sep 2024 02:44:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta 因以明文形式存储密码而付出了代价</title>
-      <link>https://arstechnica.com/security/2024/09/meta-slapped-with-101-million-fine-for-storing-passwords-in-plaintext/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/security/2024/09/meta-slapped-with-101-million-fine-for-storing-passwords-in-plaintext/
-评论网址：https://news.ycombinator.com/item?id=41677465
+      <title>娱乐至死</title>
+      <link>https://otpok.com/2014/01/03/amusing-ourselves-to-death/</link>
+      <description><![CDATA[文章网址：https://otpok.com/2014/01/03/amusing-ourselves-to-death/
+评论网址：https://news.ycombinator.com/item?id=41678208
 积分：3
 评论数：0]]></description>
-      <guid>https://arstechnica.com/security/2024/09/meta-slapped-with-101-million-fine-for-storing-passwords-in-plaintext/</guid>
-      <pubDate>Sat, 28 Sep 2024 02:38:59 GMT</pubDate>
+      <guid>https://otpok.com/2014/01/03/amusing-ourselves-to-death/</guid>
+      <pubDate>Sat, 28 Sep 2024 05:56:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>英国 Plus 用户现在可以通过 ChatGPT 应用使用 Advanced Voice</title>
+      <link>https://twitter.com/OpenAI/status/1839896474571723164</link>
+      <description><![CDATA[文章网址：https://twitter.com/OpenAI/status/1839896474571723164
+评论网址：https://news.ycombinator.com/item?id=41678207
+积分：1
+评论数：0]]></description>
+      <guid>https://twitter.com/OpenAI/status/1839896474571723164</guid>
+      <pubDate>Sat, 28 Sep 2024 05:56:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>展示 HN：利用 AI 制作短视频</title>
+      <link>https://aivideo.to/</link>
+      <description><![CDATA[文章网址：https://aivideo.to/
+评论网址：https://news.ycombinator.com/item?id=41678202
+积分：1
+评论数：0]]></description>
+      <guid>https://aivideo.to/</guid>
+      <pubDate>Sat, 28 Sep 2024 05:55:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>PyTorch 原生架构优化：Torchao</title>
+      <link>https://pytorch.org/blog/pytorch-native-architecture-optimization/</link>
+      <description><![CDATA[文章网址：https://pytorch.org/blog/pytorch-native-architecture-optimization/
+评论网址：https://news.ycombinator.com/item?id=41678188
+积分：1
+评论数：0]]></description>
+      <guid>https://pytorch.org/blog/pytorch-native-architecture-optimization/</guid>
+      <pubDate>Sat, 28 Sep 2024 05:51:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：为什么我的上一篇帖子被标记了</title>
+      <link>https://news.ycombinator.com/item?id=41678166</link>
+      <description><![CDATA[我发布了一个 AI 安全志愿者机会的链接，并提到我是在有效利他主义网站上找到的（即包含类似机会的列表，似乎值得一提）。我收到一条评论，说“有效利他主义是一种邪教”（没有进一步解释），并且该帖子被标记。我觉得这有点奇怪，我希望得到更多信息。我从上周开始参加当地的 EA​​ 讨论组，到目前为止，这似乎很合理。（据我所知，AI 安全也不是邪教，但显然至少在其中一个问题上意见分歧很大！）所以如果有人能给我一些实际信息，而不是这次只是标记帖子，我会很高兴的。提前致谢
+
+评论网址：https://news.ycombinator.com/item?id=41678166
+积分：2
+评论数：2]]></description>
+      <guid>https://news.ycombinator.com/item?id=41678166</guid>
+      <pubDate>Sat, 28 Sep 2024 05:41:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
