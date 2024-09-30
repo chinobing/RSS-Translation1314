@@ -4,24 +4,96 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 30 Sep 2024 12:35:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 15:19:04 GMT</lastBuildDate>
     <item>
-      <title>正在消失的文化：保存烹饪书</title>
+      <title>启动 HN：Inkeep (YC W23) – 支持 Copilot（类似 Cursor 的服务台应用）</title>
+      <link>https://news.ycombinator.com/item?id=41697137</link>
+      <description><![CDATA[嗨，HN，我们是 Inkeep (https://inkeep.com) 的创始人 Nick 和 Robert。我们帮助公司将其内容转变为 AI 支持副驾驶。
+到目前为止，我们专注于面向客户的体验（例如，在 Anthropic 和 Pinecone 等公司的文档中，您可以通过“询问 AI”按钮找到我们）。今天，我们很高兴与大家分享我们专为支持代理设计的新副驾驶 Keep。这是一个对话式侧边栏，您可以将其用作 Zendesk 的应用程序或任何支持平台的 Chrome 扩展程序。vid.inkeep.com/cx-copilot 上有一个演示视频，或者您可以在 try.inkeep.com/cx-copilot 上试用带有示例工单的实时沙盒。为什么？当今大多数 AI 支持工具都专注于尝试让 AI 在客户问题到达支持团队之前就回答这些问题（“转移”）。我们也专注于这一点。然而，我们从许多客户那里听说，虽然他们关心偏转，但他们更关心在用户需要时提供高质量、快速的人工支持。有些团队甚至根本不想要面向客户的人工智能，只希望人工智能工具能帮助他们的团队提高效率。我们在创建 Keep 时考虑到了这些情况。Keep 做了一些我们在其他地方没有见过的巧妙的事情：1. 提供智能建议：如果 Keep 有信心，它会创建一个草稿答案并告诉您它使用的来源。如果工单很长，它会总结到目前为止的对话并概述剩余的待办事项。所有这些都是自动的，并且与工单相关。2. 完全对话式：要求澄清，修改草稿答案，并根据需要进行迭代。3. 使用“生成式 UI”：建议呈现为一目了然的交互式 UI 组件。例如，草稿答案有“缩短”和“简洁”等按钮，可提示 AI 修改答案。 UI 组件交织在普通文本中。4. 将工单转换为常见问题解答：可以从已关闭的工单生成常见问题解答，并允许您对其进行迭代并在完成后保存。5. 利用多种内容类型：使用您的文档、帮助中心、以前的支持工单、Slack 线程等。我们受到了 Cursor、Claude Artifacts 和 v0 等工具的启发。这些体验超越了纯文本对话，将交互式代码块或 UI 预览交织到他们的答案中。这使得答案易于理解和直观（并且有趣）以进行迭代。对于那些感兴趣的人，一些技术细节：我们使用 Vercel AI SDK 通过使用我们的聊天 API 乐观地流式传输 React 组件，这些 API 由 Claude Sonnet 3.5 和我们的 RAG 服务提供支持。我们的 API 遵循 OpenAI 聊天完成格式，因此通常与任何 LLM 工具兼容。我们的 `inkeep-qa` API 可生成草稿答案，而 `inkeep-context` API 可生成结构化输出和工具调用（文档：go.inkeep.com/ai-api）。有关如何使用这些 API 的示例，请查看我们的智能支持表单示例（演示：try.inkeep.com/ai-form，存储库：quickstart.inkeep.com/ai-form）。如果您想在产品内容上试用 Inkeep，只需填写我们登录页面中的表单即可。您将在收件箱中收到由您的公开内容提供支持的演示 - 无需“致电我们”、“预订演示”或“安排会议”。注意：我们会检查您的电子邮件域名是否与您的内容匹配，以防止垃圾邮件。很想听听您在处理客户/支持问题时的经历，以及关于副驾驶在这些情况下的其他用途的任何想法。
+
+评论网址：https://news.ycombinator.com/item?id=41697137
+积分：7
+评论数：2]]></description>
+      <guid>https://news.ycombinator.com/item?id=41697137</guid>
+      <pubDate>Mon, 30 Sep 2024 13:57:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Typewise (YC S22) 正在招聘高级 AI 后端工程师（Python，欧洲）</title>
+      <link>https://www.ycombinator.com/companies/typewise/jobs/NH0WiMZ-senior-backend-engineer-f-m-x</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/typewise/jobs/NH0WiMZ-senior-backend-engineer-f-m-x
+评论网址：https://news.ycombinator.com/item?id=41697064
+积分：0
+评论数：0]]></description>
+      <guid>https://www.ycombinator.com/companies/typewise/jobs/NH0WiMZ-senior-backend-engineer-f-m-x</guid>
+      <pubDate>Mon, 30 Sep 2024 13:50:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Y Combinator 放弃声望，追求增长</title>
+      <link>https://unfashionable.blog/p/yc/</link>
+      <description><![CDATA[文章网址：https://unfashionable.blog/p/yc/
+评论网址：https://news.ycombinator.com/item?id=41697032
+积分：214
+评论数：86]]></description>
+      <guid>https://unfashionable.blog/p/yc/</guid>
+      <pubDate>Mon, 30 Sep 2024 13:48:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>麻醉和微管的新研究为意识提供了新线索</title>
+      <link>https://www.sciencedaily.com/releases/2024/09/240905120923.htm</link>
+      <description><![CDATA[文章网址：https://www.sciencedaily.com/releases/2024/09/240905120923.htm
+评论网址：https://news.ycombinator.com/item?id=41696434
+积分：68
+评论数：64]]></description>
+      <guid>https://www.sciencedaily.com/releases/2024/09/240905120923.htm</guid>
+      <pubDate>Mon, 30 Sep 2024 12:34:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>消失的文化：保存烹饪书</title>
       <link>https://blog.archive.org/2024/09/30/vanishing-culture-preserving-cookbooks/</link>
       <description><![CDATA[文章网址：https://blog.archive.org/2024/09/30/vanishing-culture-preserving-cookbooks/
 评论网址：https://news.ycombinator.com/item?id=41696236
-积分：5
-评论数：0]]></description>
+积分：40
+评论数：11]]></description>
       <guid>https://blog.archive.org/2024/09/30/vanishing-culture-preserving-cookbooks/</guid>
       <pubDate>Mon, 30 Sep 2024 12:06:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>旁注搜索中的短语匹配</title>
+      <link>https://www.marginalia.nu/log/a_111_phrase_matching/</link>
+      <description><![CDATA[文章网址：https://www.marginalia.nu/log/a_111_phrase_matching/
+评论网址：https://news.ycombinator.com/item?id=41696046
+积分：48
+评论数：4]]></description>
+      <guid>https://www.marginalia.nu/log/a_111_phrase_matching/</guid>
+      <pubDate>Mon, 30 Sep 2024 11:42:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Screenpipe：24/7 本地 AI 屏幕和麦克风录制</title>
+      <link>https://github.com/mediar-ai/screenpipe</link>
+      <description><![CDATA[文章网址：https://github.com/mediar-ai/screenpipe
+评论网址：https://news.ycombinator.com/item?id=41695840
+积分：67
+评论数：35]]></description>
+      <guid>https://github.com/mediar-ai/screenpipe</guid>
+      <pubDate>Mon, 30 Sep 2024 11:15:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>中世纪武器的真实重量——事实与虚构</title>
+      <link>https://warfantasy.wordpress.com/2024/09/29/the-true-weight-of-medieval-weapons-fact-and-fiction/</link>
+      <description><![CDATA[文章网址：https://warfantasy.wordpress.com/2024/09/29/the-true-weight-of-medieval-weapons-fact-and-fiction/
+评论网址：https://news.ycombinator.com/item?id=41695076
+积分：53
+评论数：25]]></description>
+      <guid>https://warfantasy.wordpress.com/2024/09/29/the-true-weight-of-medieval-weapons-fact-and-fiction/</guid>
+      <pubDate>Mon, 30 Sep 2024 09:11:26 GMT</pubDate>
     </item>
     <item>
       <title>跟踪：3D 卫星工具包</title>
       <link>https://app.keeptrack.space</link>
       <description><![CDATA[文章网址：https://app.keeptrack.space
 评论网址：https://news.ycombinator.com/item?id=41694712
-积分：24
-评论数：1]]></description>
+积分：62
+评论数：10]]></description>
       <guid>https://app.keeptrack.space</guid>
       <pubDate>Mon, 30 Sep 2024 08:10:12 GMT</pubDate>
     </item>
@@ -30,80 +102,10 @@
       <link>https://ngrok.com/blog-post/how-we-built-ngroks-data-platform</link>
       <description><![CDATA[文章网址：https://ngrok.com/blog-post/how-we-built-ngroks-data-platform
 评论网址：https://news.ycombinator.com/item?id=41694504
-积分：45
-评论数：10]]></description>
+积分：72
+评论数：24]]></description>
       <guid>https://ngrok.com/blog-post/how-we-built-ngroks-data-platform</guid>
       <pubDate>Mon, 30 Sep 2024 07:35:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>波普观察员</title>
-      <link>https://walzr.com/bop-spotter</link>
-      <description><![CDATA[文章网址：https://walzr.com/bop-spotter
-评论网址：https://news.ycombinator.com/item?id=41694044
-积分：175
-评论数：44]]></description>
-      <guid>https://walzr.com/bop-spotter</guid>
-      <pubDate>Mon, 30 Sep 2024 06:09:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>大卫·布林——《他者教条》（1986）</title>
-      <link>https://www.davidbrin.com/nonfiction/dogmaofotherness.html</link>
-      <description><![CDATA[文章网址：https://www.davidbrin.com/nonfiction/dogmaofotherness.html
-评论网址：https://news.ycombinator.com/item?id=41694025
-积分：77
-评论数：37]]></description>
-      <guid>https://www.davidbrin.com/nonfiction/dogmaofotherness.html</guid>
-      <pubDate>Mon, 30 Sep 2024 06:06:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建和部署机器人的技巧</title>
-      <link>https://rodneybrooks.com/tips-for-building-and-deploying-robots/</link>
-      <description><![CDATA[文章网址：https://rodneybrooks.com/tips-for-building-and-deploying-robots/
-评论网址：https://news.ycombinator.com/item?id=41693979
-积分：42
-评论数：4]]></description>
-      <guid>https://rodneybrooks.com/tips-for-building-and-deploying-robots/</guid>
-      <pubDate>Mon, 30 Sep 2024 05:55:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找美国被遗忘的水果</title>
-      <link>https://www.atlasobscura.com/articles/how-to-forage-for-pawpaw-recipes</link>
-      <description><![CDATA[文章网址：https://www.atlasobscura.com/articles/how-to-forage-for-pawpaw-recipes
-评论网址：https://news.ycombinator.com/item?id=41693513
-积分：15
-评论数：3]]></description>
-      <guid>https://www.atlasobscura.com/articles/how-to-forage-for-pawpaw-recipes</guid>
-      <pubDate>Mon, 30 Sep 2024 04:16:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>NotebookLM 自动生成的播客效果出奇地好</title>
-      <link>https://simonwillison.net/2024/Sep/29/notebooklm-audio-overview/</link>
-      <description><![CDATA[文章网址：https://simonwillison.net/2024/Sep/29/notebooklm-audio-overview/
-评论网址：https://news.ycombinator.com/item?id=41693087
-积分：496
-评论数：226]]></description>
-      <guid>https://simonwillison.net/2024/Sep/29/notebooklm-audio-overview/</guid>
-      <pubDate>Mon, 30 Sep 2024 02:58:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Visual Studio Code 的设计初衷是打破传统 (2022)</title>
-      <link>https://ghuntley.com/fracture/</link>
-      <description><![CDATA[文章网址：https://ghuntley.com/fracture/
-评论网址：https://news.ycombinator.com/item?id=41691577
-积分：311
-评论数：205]]></description>
-      <guid>https://ghuntley.com/fracture/</guid>
-      <pubDate>Sun, 29 Sep 2024 22:55:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>克里斯·克里斯托佛森去世</title>
-      <link>https://www.rollingstone.com/music/music-country/kris-kristofferson-dead-1107074/</link>
-      <description><![CDATA[文章网址：https://www.rollingstone.com/music/music-country/kris-kristofferson-dead-1107074/
-评论网址：https://news.ycombinator.com/item?id=41691530
-积分：151
-评论数：24]]></description>
-      <guid>https://www.rollingstone.com/music/music-country/kris-kristofferson-dead-1107074/</guid>
-      <pubDate>Sun, 29 Sep 2024 22:49:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
