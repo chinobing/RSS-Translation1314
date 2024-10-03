@@ -4,14 +4,24 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 03 Oct 2024 01:16:15 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2024 03:22:41 GMT</lastBuildDate>
+    <item>
+      <title>谁为艺术买单？</title>
+      <link>https://www.esquire.com/entertainment/books/a62394281/who-pays-for-the-arts/</link>
+      <description><![CDATA[文章网址：https://www.esquire.com/entertainment/books/a62394281/who-pays-for-the-arts/
+评论网址：https://news.ycombinator.com/item?id=41726452
+积分：8
+评论数：1]]></description>
+      <guid>https://www.esquire.com/entertainment/books/a62394281/who-pays-for-the-arts/</guid>
+      <pubDate>Thu, 03 Oct 2024 01:21:36 GMT</pubDate>
+    </item>
     <item>
       <title>提起：WP Engine Inc. 诉 Automattic Inc. 及 Matthew Charles Mullenweg [pdf]</title>
       <link>https://wpengine.com/wp-content/uploads/2024/10/Complaint-WP-Engine-v-Automattic-et-al-with-Exhibit.pdf</link>
       <description><![CDATA[文章网址：https://wpengine.com/wp-content/uploads/2024/10/Complaint-WP-Engine-v-Automattic-et-al-with-Exhibit.pdf
 评论网址：https://news.ycombinator.com/item?id=41726197
-积分：39
-评论数：6]]></description>
+积分：162
+评论数：170]]></description>
       <guid>https://wpengine.com/wp-content/uploads/2024/10/Complaint-WP-Engine-v-Automattic-et-al-with-Exhibit.pdf</guid>
       <pubDate>Thu, 03 Oct 2024 00:29:05 GMT</pubDate>
     </item>
@@ -25,11 +35,21 @@
       <pubDate>Wed, 02 Oct 2024 21:03:15 GMT</pubDate>
     </item>
     <item>
+      <title>互联网争论的剖析</title>
+      <link>https://defenderofthebasic.substack.com/p/anatomy-of-an-internet-argument</link>
+      <description><![CDATA[文章网址：https://defenderofthebasic.substack.com/p/anatomy-of-an-internet-argument
+评论网址：https://news.ycombinator.com/item?id=41724881
+积分：11
+评论数：4]]></description>
+      <guid>https://defenderofthebasic.substack.com/p/anatomy-of-an-internet-argument</guid>
+      <pubDate>Wed, 02 Oct 2024 20:53:47 GMT</pubDate>
+    </item>
+    <item>
       <title>威廉·考珀与地球的年龄 [pdf] (2019)</title>
       <link>https://www.charlespetzold.com/essays/WilliamCowperAndTheAgeOfTheEarth.pdf</link>
       <description><![CDATA[文章网址：https://www.charlespetzold.com/essays/WilliamCowperAndTheAgeOfTheEarth.pdf
 评论网址：https://news.ycombinator.com/item?id=41724849
-积分：13
+积分：14
 评论数：6]]></description>
       <guid>https://www.charlespetzold.com/essays/WilliamCowperAndTheAgeOfTheEarth.pdf</guid>
       <pubDate>Wed, 02 Oct 2024 20:50:06 GMT</pubDate>
@@ -39,20 +59,10 @@
       <link>https://www.smithsonianmag.com/travel/divers-in-mexicos-underwater-caves-get-a-glimpse-of-rarely-seen-artifacts-fossils-and-human-remains-180985159/</link>
       <description><![CDATA[文章网址：https://www.smithsonianmag.com/travel/divers-in-mexicos-underwater-caves-get-a-glimpse-of-rarely-seen-artifacts-fossils-and-human-remains-180985159/
 评论网址：https://news.ycombinator.com/item?id=41724747
-要点： 67
-# 评论数：20]]></description>
+要点： 89
+# 评论数：30]]></description>
       <guid>https://www.smithsonianmag.com/travel/divers-in-mexicos-underwater-caves-get-a-glimpse-of-rarely-seen-artifacts-fossils-and-human-remains-180985159/</guid>
       <pubDate>Wed, 02 Oct 2024 20:36:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>TinyJS – 使用 $ 和 $$ 缩短 JavaScript QuerySelect</title>
-      <link>https://github.com/victorqribeiro/TinyJS</link>
-      <description><![CDATA[文章网址：https://github.com/victorqribeiro/TinyJS
-评论网址：https://news.ycombinator.com/item?id=41723830
-积分：59
-评论数：76]]></description>
-      <guid>https://github.com/victorqribeiro/TinyJS</guid>
-      <pubDate>Wed, 02 Oct 2024 18:49:06 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：Kameo – 基于 Tokio 构建的容错异步参与者</title>
@@ -60,17 +70,17 @@
       <description><![CDATA[嗨，HN，我很高兴与大家分享 Kameo，这是一个轻量级的 Rust 库，可帮助您构建容错、分布式和异步的 Actor。如果您正在开发分布式系统、微服务或实时应用程序，Kameo 提供了一个简单但功能强大的 API，用于处理节点之间的并发、紧急恢复和远程消息传递。主要功能：- 异步 Rust：每个 Actor 都作为单独的 Tokio 任务运行，使并发管理变得简单。- 远程消息传递：无缝地向不同节点上的 Actor 发送消息。- 监督和容错：使用 Actor 层次结构创建自我修复系统。- 背压支持：支持有界和无界的 mpsc 消息传递。我构建 Kameo 是因为我想要一个更直观、可扩展的分布式 Rust 应用程序解决方案。我很乐意听取 HN 社区的反馈以及任何对 Rust 和基于参与者的系统感兴趣的人的贡献。在 GitHub 上查看该项目：https://github.com/tqwewe/kameo期待听到您的想法！
 
 评论网址：https://news.ycombinator.com/item?id=41723569
-积分：67
-评论数：18]]></description>
+积分：76
+评论数：27]]></description>
       <guid>https://github.com/tqwewe/kameo</guid>
       <pubDate>Wed, 02 Oct 2024 18:22:10 GMT</pubDate>
     </item>
     <item>
-      <title>WALDO：确定低空可探测物体的行踪</title>
+      <title>WALDO：低空可探测物体的行踪探查</title>
       <link>https://github.com/stephansturges/WALDO</link>
       <description><![CDATA[文章网址：https://github.com/stephansturges/WALDO
 评论网址：https://news.ycombinator.com/item?id=41723311
-积分：61
+积分：70
 评论数：24]]></description>
       <guid>https://github.com/stephansturges/WALDO</guid>
       <pubDate>Wed, 02 Oct 2024 17:56:42 GMT</pubDate>
@@ -80,30 +90,20 @@
       <link>https://royalsocietypublishing.org/doi/10.1098/rsnr.2018.0018</link>
       <description><![CDATA[文章网址：https://royalsocietypublishing.org/doi/10.1098/rsnr.2018.0018
 评论网址：https://news.ycombinator.com/item?id=41723288
-积分：46
-评论数：21]]></description>
+积分：52
+评论数：24]]></description>
       <guid>https://royalsocietypublishing.org/doi/10.1098/rsnr.2018.0018</guid>
       <pubDate>Wed, 02 Oct 2024 17:54:58 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI 完成交易，公司估值达 1570 亿美元</title>
-      <link>https://www.nytimes.com/2024/10/02/technology/openai-valuation-150-billion.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2024/10/02/technology/openai-valuation-150-billion.html
-评论网址：https://news.ycombinator.com/item?id=41722742
-积分：169
-评论数：268]]></description>
-      <guid>https://www.nytimes.com/2024/10/02/technology/openai-valuation-150-billion.html</guid>
-      <pubDate>Wed, 02 Oct 2024 17:04:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>成年果蝇的大脑已被绘制成图</title>
-      <link>https://www.economist.com/science-and-technology/2024/10/02/an-adult-fruit-fly-brain-has-been-mapped-human-brains-could-follow</link>
-      <description><![CDATA[文章网址：https://www.economist.com/science-and-technology/2024/10/02/an-adult-fruit-fly-brain-has-been-mapped-human-brains-could-follow
-评论网址：https://news.ycombinator.com/item?id=41722159
-积分：287
-评论数：101]]></description>
-      <guid>https://www.economist.com/science-and-technology/2024/10/02/an-adult-fruit-fly-brain-has-been-mapped-human-brains-could-follow</guid>
-      <pubDate>Wed, 02 Oct 2024 16:16:03 GMT</pubDate>
+      <title>iPhone 联系人共享权限的细微变化</title>
+      <link>https://www.nytimes.com/2024/10/02/technology/apple-social-apps-contacts-change.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2024/10/02/technology/apple-social-apps-contacts-change.html
+评论网址：https://news.ycombinator.com/item?id=41722341
+积分：28
+评论数：45]]></description>
+      <guid>https://www.nytimes.com/2024/10/02/technology/apple-social-apps-contacts-change.html</guid>
+      <pubDate>Wed, 02 Oct 2024 16:29:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
