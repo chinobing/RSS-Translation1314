@@ -4,14 +4,64 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 08 Oct 2024 18:23:11 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2024 21:17:37 GMT</lastBuildDate>
+    <item>
+      <title>Instant（YC S22）正在招聘创始工程师来帮助构建现代 Firebase</title>
+      <link>https://news.ycombinator.com/item?id=41781768</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=41781768
+积分：0
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=41781768</guid>
+      <pubDate>Tue, 08 Oct 2024 21:00:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>汽车品牌正在收集并与第三方共享您的数据</title>
+      <link>https://www.abc.net.au/news/science/2024-10-09/car-brands-are-tracking-and-sharing-your-data-with-third-parties/104440742</link>
+      <description><![CDATA[文章网址：https://www.abc.net.au/news/science/2024-10-09/car-brands-are-tracking-and-sharing-your-data-with-third-parties/104440742
+评论网址：https://news.ycombinator.com/item?id=41781081
+积分：11
+评论数：2]]></description>
+      <guid>https://www.abc.net.au/news/science/2024-10-09/car-brands-are-tracking-and-sharing-your-data-with-third-parties/104440742</guid>
+      <pubDate>Tue, 08 Oct 2024 19:45:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Transmit 中的 Google Drive 之路走到尽头</title>
+      <link>https://blog.panic.com/end-of-the-road-for-google-drive-and-transmit/</link>
+      <description><![CDATA[文章网址：https://blog.panic.com/end-of-the-road-for-google-drive-and-transmit/
+评论网址：https://news.ycombinator.com/item?id=41780395
+积分：211
+评论数：101]]></description>
+      <guid>https://blog.panic.com/end-of-the-road-for-google-drive-and-transmit/</guid>
+      <pubDate>Tue, 08 Oct 2024 18:38:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在公司动荡时期删除你的 23andMe 数据</title>
+      <link>https://lifehacker.com/health/how-to-delete-23andme-data</link>
+      <description><![CDATA[文章网址：https://lifehacker.com/health/how-to-delete-23andme-data
+评论网址：https://news.ycombinator.com/item?id=41780387
+积分：96
+评论数：86]]></description>
+      <guid>https://lifehacker.com/health/how-to-delete-23andme-data</guid>
+      <pubDate>Tue, 08 Oct 2024 18:37:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Winamp 和其他媒体播放器，使用 Web Components 为网络重建</title>
+      <link>https://player.style</link>
+      <description><![CDATA[大家好，我是 Video.js 的创建者，也是 Mux &amp; Zencoder 的联合创始人。我和我的团队创建了这个主题。希望您喜欢我们迄今为止构建的主题，甚至可能受到启发来构建自己的主题。我知道 Web 组件现在处于一个有点戏剧性的周期。我很高兴看到它们真的受到关注。自从 2013 年左右我开始使用它们以来，我一直对它们非常看好，至少在视频播放器等小部件的背景下。我甚至就它们进行过许多相关演讲，比如这个 (https://www.youtube.com/watch?v=N6Mh84SRoDg)。我永远不会将它们用于大型应用程序或完全替代 React，但它们在制作兼容多种环境的视频播放器方面表现得非常出色，而当您进入嵌入主题的步骤时，Player.style 就是一个清晰的证明。Web 组件在构建可在项目之间共享的 UI 方面确实很出色。它们也是避免长期 JS 框架混乱的最佳方式，这对任何在 Web 上工作时间足够长的开发人员来说都是一个挑战。我为 Video.js 做出的最佳决定之一是不使用 jQuery 构建它。 Video.js 已经有 15 年的历史了，但仍然在使用，而所有的 jQuery 播放器都不再使用了。为了补充一些关于这个项目的背景信息，当我在 2010 年构建 Video.js 时，我花了很多心思考虑其他开发人员如何自定义播放器控件。我很高兴使用 Web 技术（而不是 Flash）来构建播放器，我知道其他 Web 开发人员也会如此。快进 14 年——Video.js 已用于数百万个网站，包括 Twitter、Instagram、Amazon、Dropbox、Linkedin，甚至用于联合航空的头枕。在 99.99% 的情况下，默认的 Video.js 控件几乎没有任何自定义。所以……采用取得了巨大的成功，但在激发创造力方面却彻底失败了。回想起来，要求人们学习新的 UI 框架只是为了设计他们的播放器太过分了。Media Chrome 和 Player.style 就是我解决这一问题的方法。- Media Chrome - 一套 Web 组件和 React 组件，可让您使用熟悉的组件轻松地从头开始构建媒体播放器 UI。- Player.stye - 使用 Media Chrome 构建的主题，展示了 Media Chrome 的跨播放器和跨框架灵活性Media Chrome 已在 TED.com、Syntax.fm 等网站上使用，以及使用 Mux Player 的任何地方。我们花了几个月的时间为 Player.style 构建了一些很棒的主题。我可能最开心的是使用 SVG 和 CSS 从头开始​​重新创建 Youtube 图标动画。（无论是谁制作的原版，都做得很好！）它都是免费和开源的，所以如果您对该项目感兴趣，请不要犹豫加入。当然，我很乐意回答任何问题。
+
+评论网址：https://news.ycombinator.com/item?id=41780297
+积分：72
+评论数：23]]></description>
+      <guid>https://player.style</guid>
+      <pubDate>Tue, 08 Oct 2024 18:27:46 GMT</pubDate>
+    </item>
     <item>
       <title>兔子洞：偶然发现两张葡萄牙语打孔卡</title>
       <link>https://blog.jgc.org/2024/10/rabbit-hole-stumbling-across-two.html</link>
       <description><![CDATA[文章网址：https://blog.jgc.org/2024/10/rabbit-hole-stumbling-across-two.html
 评论网址：https://news.ycombinator.com/item?id=41779576
-积分：17
-评论数：1]]></description>
+积分：70
+评论数：20]]></description>
       <guid>https://blog.jgc.org/2024/10/rabbit-hole-stumbling-across-two.html</guid>
       <pubDate>Tue, 08 Oct 2024 17:19:18 GMT</pubDate>
     </item>
@@ -20,8 +70,8 @@
       <link>https://nullonerror.org/2024/10/08/my-first-game-with-carimbo/</link>
       <description><![CDATA[文章网址：https://nullonerror.org/2024/10/08/my-first-game-with-carimbo/
 评论网址：https://news.ycombinator.com/item?id=41779519
-积分：44
-评论数：22]]></description>
+积分：120
+评论数：62]]></description>
       <guid>https://nullonerror.org/2024/10/08/my-first-game-with-carimbo/</guid>
       <pubDate>Tue, 08 Oct 2024 17:13:16 GMT</pubDate>
     </item>
@@ -36,32 +86,12 @@
       <pubDate>Tue, 08 Oct 2024 17:00:26 GMT</pubDate>
     </item>
     <item>
-      <title>改进 Hugging Face Hub 上的 Parquet 重复数据删除</title>
-      <link>https://huggingface.co/blog/improve_parquet_dedupe</link>
-      <description><![CDATA[文章网址：https://huggingface.co/blog/improve_parquet_dedupe
-评论网址：https://news.ycombinator.com/item?id=41779144
-积分：30
-评论数：12]]></description>
-      <guid>https://huggingface.co/blog/improve_parquet_dedupe</guid>
-      <pubDate>Tue, 08 Oct 2024 16:33:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>工作场所使用 iPhone 镜像可能会泄露员工的个人信息</title>
-      <link>https://www.sevcosecurity.com/iphone-mirroring-expose-employee-personal-information/</link>
-      <description><![CDATA[文章网址：https://www.sevcosecurity.com/iphone-mirroring-expose-employee-personal-information/
-评论网址：https://news.ycombinator.com/item?id=41776988
-积分：50
-评论数：58]]></description>
-      <guid>https://www.sevcosecurity.com/iphone-mirroring-expose-employee-personal-information/</guid>
-      <pubDate>Tue, 08 Oct 2024 13:11:50 GMT</pubDate>
-    </item>
-    <item>
       <title>Kotlin 货币</title>
       <link>https://blog.eriksen.com.br/en/introducing-kotlin-money</link>
       <description><![CDATA[文章网址：https://blog.eriksen.com.br/en/introducing-kotlin-money
 评论网址：https://news.ycombinator.com/item?id=41776878
-积分：233
-评论数：128]]></description>
+积分：299
+评论数：174]]></description>
       <guid>https://blog.eriksen.com.br/en/introducing-kotlin-money</guid>
       <pubDate>Tue, 08 Oct 2024 12:59:52 GMT</pubDate>
     </item>
@@ -70,40 +100,10 @@
       <link>https://www.construction-physics.com/p/do-us-ports-need-more-automation</link>
       <description><![CDATA[文章网址：https://www.construction-physics.com/p/do-us-ports-need-more-automation
 评论网址：https://news.ycombinator.com/item?id=41776861
-积分：74
-评论数：114]]></description>
+积分：133
+评论数：190]]></description>
       <guid>https://www.construction-physics.com/p/do-us-ports-need-more-automation</guid>
       <pubDate>Tue, 08 Oct 2024 12:57:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>差动变压器</title>
-      <link>https://arxiv.org/abs/2410.05258</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2410.05258
-评论网址：https://news.ycombinator.com/item?id=41776324
-积分：318
-评论数：120]]></description>
-      <guid>https://arxiv.org/abs/2410.05258</guid>
-      <pubDate>Tue, 08 Oct 2024 11:54:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>诺贝尔物理学奖授予约翰·霍普菲尔德和杰弗里·辛顿 [pdf]</title>
-      <link>https://www.nobelprize.org/uploads/2024/09/advanced-physicsprize2024.pdf</link>
-      <description><![CDATA[文章网址：https://www.nobelprize.org/uploads/2024/09/advanced-physicsprize2024.pdf
-评论网址：https://news.ycombinator.com/item?id=41775463
-积分：606
-评论数：572]]></description>
-      <guid>https://www.nobelprize.org/uploads/2024/09/advanced-physicsprize2024.pdf</guid>
-      <pubDate>Tue, 08 Oct 2024 09:52:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>静态站点悖论</title>
-      <link>https://kristoff.it/blog/static-site-paradox/</link>
-      <description><![CDATA[文章网址：https://kristoff.it/blog/static-site-paradox/
-评论网址：https://news.ycombinator.com/item?id=41775238
-积分：60
-评论数：64]]></description>
-      <guid>https://kristoff.it/blog/static-site-paradox/</guid>
-      <pubDate>Tue, 08 Oct 2024 09:08:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
