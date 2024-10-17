@@ -4,24 +4,23 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 17 Oct 2024 01:16:14 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Oct 2024 03:22:42 GMT</lastBuildDate>
     <item>
-      <title>展示 HN：清洁新闻 - 更清洁地整理世界新闻事件</title>
-      <link>https://cleannews.fyi</link>
-      <description><![CDATA[你好 HN，这是我几个月前建立的一个小项目，我发现自己经常使用它来保持最新状态，所以我想我应该分享一下。它每隔几个小时更新一次。欢迎反馈。https://cleannews.fyi
-
-评论网址：https://news.ycombinator.com/item?id=41864947
-积分：10
-评论数：12]]></description>
-      <guid>https://cleannews.fyi</guid>
-      <pubDate>Wed, 16 Oct 2024 23:31:32 GMT</pubDate>
+      <title>以太坊协议的未来发展（第二部分）：激增</title>
+      <link>https://vitalik.eth.limo/general/2024/10/17/futures2.html</link>
+      <description><![CDATA[文章网址：https://vitalik.eth.limo/general/2024/10/17/futures2.html
+评论网址：https://news.ycombinator.com/item?id=41865511
+积分：12
+评论数：0]]></description>
+      <guid>https://vitalik.eth.limo/general/2024/10/17/futures2.html</guid>
+      <pubDate>Thu, 17 Oct 2024 01:15:46 GMT</pubDate>
     </item>
     <item>
       <title>Lotus：基于扩散的高质量密集预测可视化基础模型</title>
       <link>https://lotus3d.github.io/</link>
       <description><![CDATA[文章网址：https://lotus3d.github.io/
 评论网址：https://news.ycombinator.com/item?id=41864515
-积分：7
+积分：20
 评论数：0]]></description>
       <guid>https://lotus3d.github.io/</guid>
       <pubDate>Wed, 16 Oct 2024 22:31:58 GMT</pubDate>
@@ -42,8 +41,8 @@
       <description><![CDATA[嗨！我叫 Vadim，是 Greenmask (https://github.com/GreenmaskIO/greenmask) 的开发者。如今，Greenmask 已经快 1 年了，最近我们发布了一个最重要的版本，其中包含新功能：https://github.com/GreenmaskIO/greenmask/releases/tag/v0.2.0，以及一个新网站：https://greenmask.io。在描述 Greenmask 的功能之前，我想分享一下我如何以及为何开始实现它的故事。每个人都力求让他们的暂存环境尽可能地与生产环境相似，因为它在确保质量和改进交付时间等指标方面起着关键作用。为了实现这一目标，许多团队已经开始将数据库和数据从生产环境迁移到暂存环境。显然，这需要对数据进行匿名化处理，为此人们使用自定义脚本或现有的匿名化软件。作为一名数据库工程师已经工作了 8 年，我经常为设置开发环境等常规任务而苦恼 — 这是一个常见的要求。最初，我使用自定义脚本来处理这个问题，但随着服务数量的增长，尤其是随着微服务架构的兴起，事情变得越来越复杂。当我开始探索解决此问题的工具时，我列出了对此类软件的主要期望：文档；类型安全（该工具应验证对数据的任何更改）；流式传输（我希望能够在应用转换时流式传输数据）；一致性（转换必须保持约束、功能依赖性等）；可靠性；可定制性；交互性和可用性；简单性。我找到了一些选项，但没有一个完全满足我的期望。我发现了两个有趣的工具，即 pganonymizer 和 replibyte。我喜欢 Replibyte 的架构，但当我尝试它时，由于架构限制而失败了。考虑到这些想法，我于 2023 年中期开始开发 Greenmask。我的目标是根据我制定的设计原则创建一个满足所有这些要求的工具。以下是一些关键亮点：* 它是一个单一实用程序 - Greenmask 将架构转储委托给供应商实用程序，并仅负责数据转储和转换。* 数据库子集（https://docs.greenmask.io/latest/database_subset） - 指定子集条件并缩小大小。我们对图算法进行了深入研究，现在我们可以对几乎任何复杂度的数据库进行子集化。* 数据库类型安全 - 它使用 DBMS 驱动程序将数据解码并编码为流中的实数类型（例如 int、float 等）。这保证了一致性，并且几乎消除了转储损坏的可能性。* 确定性引擎（https://docs.greenmask.io/latest/built_in_transformers/trans...） - 使用哈希引擎生成数据，该引擎为相同输入产生一致的输出。* 变压器的动态参数（https://docs.greenmask.io/latest/built_in_transformers/dynam...） - 想象一下具有功能依赖性的 created_at 和 updated_at 日期。动态参数可确保正确生成这些日期。我们正在积极维护当前项目并不断改进它 - 我们的公共路线图位于 https://github.com/orgs/GreenmaskIO/projects/6。很快，我们将发布一个 Python 库以及转换集合，以帮助用户开发自己的复杂转换并将其与任何服务集成。我们计划支持更多数据库引擎，下一个是 MySQL，我们正在开发可以与您的 CI/CD 系统无缝集成的工具。首先，我们为您准备了一个可以使用 Docker Compose 轻松设置的游乐场：https://docs.greenmask.io/latest/playground/我很乐意听到您的任何问题或反馈！
 
 评论网址：https://news.ycombinator.com/item?id=41863600
-积分：31
-评论数：3]]></description>
+积分：41
+评论数：4]]></description>
       <guid>https://github.com/GreenmaskIO/greenmask</guid>
       <pubDate>Wed, 16 Oct 2024 20:37:46 GMT</pubDate>
     </item>
@@ -53,8 +52,8 @@
       <description><![CDATA[这个小项目的出现是因为我一直遇到同样的问题：在进行分析之前清晰地区分传感器数据。有很多方法可以解决这个问题，我个人一直喜欢使用卡尔曼滤波器来完成这项工作，因为它很容易获得双重打击，即重新采样/上采样到固定的一致速率，以及平滑/异常值拒绝。我最近编写了一个小型的numpy 专用贝叶斯过滤/平滑库（https://github.com/hugohadfield/bayesfilter/），所以这感觉像是一个有趣且非常有用的第一个尝试！如果人们发现 kalmangrad 有用，我会非常乐意添加更多功能等。如果人们发送他们发现的任何错误，我将不胜感激。谢谢！
 
 评论网址：https://news.ycombinator.com/item?id=41863398
-积分：53
-评论数：12]]></description>
+积分：72
+评论数：13]]></description>
       <guid>https://github.com/hugohadfield/kalmangrad</guid>
       <pubDate>Wed, 16 Oct 2024 20:17:46 GMT</pubDate>
     </item>
@@ -63,8 +62,8 @@
       <link>https://citizenlab.ca/2024/10/should-we-chat-too-security-analysis-of-wechats-mmtls-encryption-protocol/</link>
       <description><![CDATA[文章网址：https://citizenlab.ca/2024/10/should-we-chat-too-security-analysis-of-wechats-mmtls-encryption-protocol/
 评论网址：https://news.ycombinator.com/item?id=41863278
-积分：90
-评论数：40]]></description>
+积分：100
+评论数：49]]></description>
       <guid>https://citizenlab.ca/2024/10/should-we-chat-too-security-analysis-of-wechats-mmtls-encryption-protocol/</guid>
       <pubDate>Wed, 16 Oct 2024 20:06:58 GMT</pubDate>
     </item>
@@ -73,41 +72,40 @@
       <link>https://github.com/usefulsensors/qc_npu_benchmark</link>
       <description><![CDATA[文章网址：https://github.com/usefulsensors/qc_npu_benchmark
 评论网址：https://news.ycombinator.com/item?id=41863061
-积分：220
-评论数：118]]></description>
+积分：277
+评论数：153]]></description>
       <guid>https://github.com/usefulsensors/qc_npu_benchmark</guid>
       <pubDate>Wed, 16 Oct 2024 19:44:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Citizen – 面向经典应用服务器爱好者的 Node.js Web 应用框架</title>
-      <link>https://github.com/jaysylvester/citizen</link>
-      <description><![CDATA[Citizen 是我多年前刚开始学习 Node 时开始构建的一个 Web 应用程序框架。我不断添加功能并提高稳定性/性能，最终决定它值得升级到 1.0 版本。我认为它可能会吸引像我这样的开发人员（老家伙），他们使用过 ColdFusion、.NET、PHP 等应用服务器，并且更喜欢让服务器完成繁重的工作。它不会对您的前端做出任何规定，而是尽可能灵活地提供客户端可能需要的任何输出，无论是单个完全呈现的 HTML 视图、部分、JSON 还是纯文本。只有 2 个直接依赖项，用于终端命令（commander）和文件监视（chokidar）。内置功能包括零配置服务器端路由、会话管理、键/值存储（缓存呈现的视图、控制器操作、对象和静态文件）、用于管理 cookie、会话、重定向和缓存的简单指令等。它已在至少一个每月接收数十万页面浏览量的网站上持续使用，一次运行数月而进程没有崩溃。相当稳定。感谢任何评论/反馈/贡献。
-
-评论网址：https://news.ycombinator.com/item?id=41862410
-积分：48
-评论数：15]]></description>
-      <guid>https://github.com/jaysylvester/citizen</guid>
-      <pubDate>Wed, 16 Oct 2024 18:48:54 GMT</pubDate>
     </item>
     <item>
       <title>我们利用 IdentityLogger 智胜 CSGO 作弊者</title>
       <link>https://mobeigi.com/blog/gaming/how-we-outsmarted-csgo-cheaters-with-identitylogger/</link>
       <description><![CDATA[文章网址：https://mobeigi.com/blog/gaming/how-we-outsmarted-csgo-cheaters-with-identitylogger/
 评论网址：https://news.ycombinator.com/item?id=41862028
-积分：132
-评论数：156]]></description>
+积分：157
+评论数：174]]></description>
       <guid>https://mobeigi.com/blog/gaming/how-we-outsmarted-csgo-cheaters-with-identitylogger/</guid>
       <pubDate>Wed, 16 Oct 2024 18:18:07 GMT</pubDate>
     </item>
     <item>
-      <title>爱尔兰学校的重大秘密：一年的课外活动如何改变青少年的生活</title>
-      <link>https://www.theguardian.com/lifeandstyle/2024/oct/16/ireland-school-secret-transition-year-off-curriculum</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/lifeandstyle/2024/oct/16/ireland-school-secret-transition-year-off-curriculum
-评论网址：https://news.ycombinator.com/item?id=41861628
-积分：139
-评论数：88]]></description>
-      <guid>https://www.theguardian.com/lifeandstyle/2024/oct/16/ireland-school-secret-transition-year-off-curriculum</guid>
-      <pubDate>Wed, 16 Oct 2024 17:36:00 GMT</pubDate>
+      <title>优化 Ion 编译器后端</title>
+      <link>https://spidermonkey.dev/blog/2024/10/16/75x-faster-optimizing-the-ion-compiler-backend.html</link>
+      <description><![CDATA[文章网址：https://spidermonkey.dev/blog/2024/10/16/75x-faster-optimizing-the-ion-compiler-backend.html
+评论网址：https://news.ycombinator.com/item?id=41861442
+积分：108
+评论数：25]]></description>
+      <guid>https://spidermonkey.dev/blog/2024/10/16/75x-faster-optimizing-the-ion-compiler-backend.html</guid>
+      <pubDate>Wed, 16 Oct 2024 17:15:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>几周后，Winamp 删除了整个 GitHub 源代码库</title>
+      <link>https://arstechnica.com/gadgets/2024/10/winamp-really-whips-open-source-coders-into-frenzy-with-its-source-release/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/gadgets/2024/10/winamp-really-whips-open-source-coders-into-frenzy-with-its-source-release/
+评论网址：https://news.ycombinator.com/item?id=41861056
+积分：325
+评论数：242]]></description>
+      <guid>https://arstechnica.com/gadgets/2024/10/winamp-really-whips-open-source-coders-into-frenzy-with-its-source-release/</guid>
+      <pubDate>Wed, 16 Oct 2024 16:34:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
