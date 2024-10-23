@@ -4,106 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 23 Oct 2024 06:24:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2024 09:18:39 GMT</lastBuildDate>
     <item>
-      <title>Tor 浏览器 14.0 发布</title>
-      <link>https://blog.torproject.org/new-release-tor-browser-140/</link>
-      <description><![CDATA[文章网址：https://blog.torproject.org/new-release-tor-browser-140/
-评论网址：https://news.ycombinator.com/item?id=41922313
+      <title>Llama-3.1-Nemotron-70B-Instruct 模型</title>
+      <link>https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct</link>
+      <description><![CDATA[文章网址：https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct
+评论网址：https://news.ycombinator.com/item?id=41923251
 积分：1
 评论数：0]]></description>
-      <guid>https://blog.torproject.org/new-release-tor-browser-140/</guid>
-      <pubDate>Wed, 23 Oct 2024 06:16:01 GMT</pubDate>
+      <guid>https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct</guid>
+      <pubDate>Wed, 23 Oct 2024 09:10:20 GMT</pubDate>
     </item>
     <item>
-      <title>我们的优化器需要重新思考</title>
-      <link>https://typesanitizer.com/blog/rethink-optimizers.html</link>
-      <description><![CDATA[文章网址：https://typesanitizer.com/blog/rethink-optimizers.html
-评论网址：https://news.ycombinator.com/item?id=41922295
+      <title>最佳 WordPress 插件 – 2024 – 一键</title>
+      <link>https://cozythemes.com/best-wordpress-addons/</link>
+      <description><![CDATA[文章网址：https://cozythemes.com/best-wordpress-addons/
+评论网址：https://news.ycombinator.com/item?id=41923244
 积分：1
 评论数：0]]></description>
-      <guid>https://typesanitizer.com/blog/rethink-optimizers.html</guid>
-      <pubDate>Wed, 23 Oct 2024 06:10:49 GMT</pubDate>
+      <guid>https://cozythemes.com/best-wordpress-addons/</guid>
+      <pubDate>Wed, 23 Oct 2024 09:09:15 GMT</pubDate>
     </item>
     <item>
-      <title>糟糕的一天</title>
-      <link>https://aerospaceamerica.aiaa.org/features/one-very-bad-day/</link>
-      <description><![CDATA[文章网址：https://aerospaceamerica.aiaa.org/features/one-very-bad-day/
-评论网址：https://news.ycombinator.com/item?id=41922288
+      <title>欧洲建造 3DS 的方式</title>
+      <link>https://news.alvaroduran.com/p/the-european-way-of-building-3ds</link>
+      <description><![CDATA[文章网址：https://news.alvaroduran.com/p/the-european-way-of-building-3ds
+评论网址：https://news.ycombinator.com/item?id=41923208
 积分：1
 评论数：0]]></description>
-      <guid>https://aerospaceamerica.aiaa.org/features/one-very-bad-day/</guid>
-      <pubDate>Wed, 23 Oct 2024 06:09:01 GMT</pubDate>
+      <guid>https://news.alvaroduran.com/p/the-european-way-of-building-3ds</guid>
+      <pubDate>Wed, 23 Oct 2024 09:03:36 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：使用 InstantKnow 进行人工智能驱动的 Web 变化检测和洞察</title>
-      <link>https://www.instantknow.ai/</link>
-      <description><![CDATA[文章网址：https://www.instantknow.ai/
-评论网址：https://news.ycombinator.com/item?id=41922271
+      <title>展示 HN：使用 JavaScript 的比较和设置来制作其他同步原语</title>
+      <link>https://github.com/omranjamal/synchronization-atom</link>
+      <description><![CDATA[我最近养成了一个坏习惯，就是像写 Go 一样写 JS。因此，我最终在脑海中想象异步调用只是 goroutine，有时我需要在它们之间进行消息传递或同步。最终，JS 生态系统的线程同步库有点不稳定，有点不完整，这让我有点难过。实现锁的“惯用”javascript 库不太适合 Python 或 Java 生态系统中的所有其他花哨的同步原语。所以我创建了同步原子，即 JavaScript 世界的“比较和设置”。它可以 1：匹配条件并将更新应用于条件作为一个原子操作，或者 2：让“线程”等待条件匹配后再解除阻塞（通过异步等待）。我必须同时实现 Promise API 和回调 API，因为 Promises 会在下一个滴答声中有效解决，从而留下一些竞争条件。回调 API 不会受到相同的 next-tick 问题的影响，并且是同步的。README 中有一些实现常见同步原语的示例，很快会记录更多内容（例如通道或可重入锁）。
+
+评论 URL：https://news.ycombinator.com/item?id=41923199
 积分：1
 评论数：0]]></description>
-      <guid>https://www.instantknow.ai/</guid>
-      <pubDate>Wed, 23 Oct 2024 06:07:01 GMT</pubDate>
+      <guid>https://github.com/omranjamal/synchronization-atom</guid>
+      <pubDate>Wed, 23 Oct 2024 09:02:06 GMT</pubDate>
     </item>
     <item>
-      <title>Nitric 增加了 Deno 2 支持</title>
-      <link>https://nitric.io/blog/deno-support</link>
-      <description><![CDATA[文章网址：https://nitric.io/blog/deno-support
-评论网址：https://news.ycombinator.com/item?id=41922266
-积分：1
-评论数：0]]></description>
-      <guid>https://nitric.io/blog/deno-support</guid>
-      <pubDate>Wed, 23 Oct 2024 06:06:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>代表剑桥大学人工智能/机器学习博士的代理人寻找英国工作，年薪 35,000 英镑</title>
-      <link>https://twitter.com/ATaylorFPGA/status/1848714171560403068</link>
-      <description><![CDATA[文章网址：https://twitter.com/ATaylorFPGA/status/1848714171560403068
-评论网址：https://news.ycombinator.com/item?id=41922240
+      <title>特朗普光顾的麦当劳餐厅仅获得一星评价，Yelp 随即关闭评论功能</title>
+      <link>https://www.cnbc.com/2024/10/22/yelp-disables-comments-on-the-mcdonalds-trump-visited.html</link>
+      <description><![CDATA[文章网址：https://www.cnbc.com/2024/10/22/yelp-disables-comments-on-the-mcdonalds-trump-visited.html
+评论网址：https://news.ycombinator.com/item?id=41923184
 积分：2
 评论数：0]]></description>
-      <guid>https://twitter.com/ATaylorFPGA/status/1848714171560403068</guid>
-      <pubDate>Wed, 23 Oct 2024 06:00:58 GMT</pubDate>
+      <guid>https://www.cnbc.com/2024/10/22/yelp-disables-comments-on-the-mcdonalds-trump-visited.html</guid>
+      <pubDate>Wed, 23 Oct 2024 08:59:18 GMT</pubDate>
     </item>
     <item>
-      <title>长 Doge 挑战</title>
-      <link>https://longdogechallenge.com</link>
-      <description><![CDATA[文章网址：https://longdogechallenge.com
-评论网址：https://news.ycombinator.com/item?id=41922233
-积分：1
-评论数：0]]></description>
-      <guid>https://longdogechallenge.com</guid>
-      <pubDate>Wed, 23 Oct 2024 05:59:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>作家承销作家</title>
-      <link>https://localnewsinitiative.northwestern.edu/posts/2024/10/22/blair-kamin-funds-chicago-tribune-architecture-writer/</link>
-      <description><![CDATA[文章网址：https://localnewsinitiative.northwestern.edu/posts/2024/10/22/blair-kamin-funds-chicago-tribune-architecture-writer/
-评论网址：https://news.ycombinator.com/item?id=41922216
-积分：1
-评论数：1]]></description>
-      <guid>https://localnewsinitiative.northwestern.edu/posts/2024/10/22/blair-kamin-funds-chicago-tribune-architecture-writer/</guid>
-      <pubDate>Wed, 23 Oct 2024 05:56:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Facebook.com SSL 证书将在几天后过期</title>
-      <link>https://www.ssllabs.com/analyze.html?d=facebook.com&latest</link>
-      <description><![CDATA[文章网址：https://www.ssllabs.com/analyze.html?d=facebook.com&amp;latest
-评论网址：https://news.ycombinator.com/item?id=41922211
-积分：1
-评论数：0]]></description>
-      <guid>https://www.ssllabs.com/analyze.html?d=facebook.com&latest</guid>
-      <pubDate>Wed, 23 Oct 2024 05:54:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>私人市场只为富人保留。测试能让你进入吗？</title>
-      <link>https://www.wsj.com/finance/investing/private-markets-are-reserved-for-the-rich-should-a-test-let-you-in-66c6021c</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/finance/investing/private-markets-are-reserved-for-the-rich-should-a-test-let-you-in-66c6021c
-评论网址：https://news.ycombinator.com/item?id=41922179
+      <title>VSCode 是阅读、探索和教授代码的最佳平台</title>
+      <link>https://codemic.io/</link>
+      <description><![CDATA[文章网址：https://codemic.io/
+评论网址：https://news.ycombinator.com/item?id=41923170
 积分：2
 评论数：1]]></description>
-      <guid>https://www.wsj.com/finance/investing/private-markets-are-reserved-for-the-rich-should-a-test-let-you-in-66c6021c</guid>
-      <pubDate>Wed, 23 Oct 2024 05:48:33 GMT</pubDate>
+      <guid>https://codemic.io/</guid>
+      <pubDate>Wed, 23 Oct 2024 08:56:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>《洋葱报》首席作家严肃对待讽刺作品：“我们的使命就是搞笑”</title>
+      <link>https://reutersinstitute.politics.ox.ac.uk/news/onions-head-writer-takes-satire-very-seriously-our-mandate-just-be-funny</link>
+      <description><![CDATA[文章网址：https://reutersinstitute.politics.ox.ac.uk/news/onions-head-writer-takes-satire-very-seriously-our-mandate-just-be-funny
+评论网址：https://news.ycombinator.com/item?id=41923164
+积分：3
+评论数：1]]></description>
+      <guid>https://reutersinstitute.politics.ox.ac.uk/news/onions-head-writer-takes-satire-very-seriously-our-mandate-just-be-funny</guid>
+      <pubDate>Wed, 23 Oct 2024 08:55:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: Go-taskflow，类似 taskflow 的 Golang DAG 任务执行</title>
+      <link>https://github.com/noneback/go-taskflow</link>
+      <description><![CDATA[文章网址：https://github.com/noneback/go-taskflow
+评论网址：https://news.ycombinator.com/item?id=41923156
+积分：1
+评论数：0]]></description>
+      <guid>https://github.com/noneback/go-taskflow</guid>
+      <pubDate>Wed, 23 Oct 2024 08:53:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>最佳开源无代码项目管理工具</title>
+      <link>https://www.nocobase.com/en/blog/project-management-tools</link>
+      <description><![CDATA[文章网址：https://www.nocobase.com/en/blog/project-management-tools
+评论网址：https://news.ycombinator.com/item?id=41923155
+积分：2
+评论数：0]]></description>
+      <guid>https://www.nocobase.com/en/blog/project-management-tools</guid>
+      <pubDate>Wed, 23 Oct 2024 08:53:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>在技​​术会议上发言——如何开始</title>
+      <link>https://neciudan.dev/speaking-at-tech-confrences</link>
+      <description><![CDATA[文章网址：https://neciudan.dev/speaking-at-tech-confrences
+评论网址：https://news.ycombinator.com/item?id=41923140
+积分：1
+评论数：0]]></description>
+      <guid>https://neciudan.dev/speaking-at-tech-confrences</guid>
+      <pubDate>Wed, 23 Oct 2024 08:50:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
