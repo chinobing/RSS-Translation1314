@@ -4,106 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 30 Oct 2024 12:33:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 15:18:56 GMT</lastBuildDate>
     <item>
-      <title>数学和拼图爱好者在马丁·加德纳的遗产中发现魔法</title>
-      <link>https://www.scientificamerican.com/article/math-and-puzzle-fans-find-magic-in-martin-gardners-legacy/</link>
-      <description><![CDATA[文章网址：https://www.scientificamerican.com/article/math-and-puzzle-fans-find-magic-in-martin-gardners-legacy/
-评论网址：https://news.ycombinator.com/item?id=41993303
-积分：13
-评论数：2]]></description>
-      <guid>https://www.scientificamerican.com/article/math-and-puzzle-fans-find-magic-in-martin-gardners-legacy/</guid>
-      <pubDate>Wed, 30 Oct 2024 09:51:41 GMT</pubDate>
+      <title>M4 MacBook Pro</title>
+      <link>https://www.apple.com/newsroom/2024/10/new-macbook-pro-features-m4-family-of-chips-and-apple-intelligence/</link>
+      <description><![CDATA[文章网址：https://www.apple.com/newsroom/2024/10/new-macbook-pro-features-m4-family-of-chips-and-apple-intelligence/
+评论网址：https://news.ycombinator.com/item?id=41995701
+积分：70
+评论数：32]]></description>
+      <guid>https://www.apple.com/newsroom/2024/10/new-macbook-pro-features-m4-family-of-chips-and-apple-intelligence/</guid>
+      <pubDate>Wed, 30 Oct 2024 15:00:20 GMT</pubDate>
     </item>
     <item>
-      <title>经典 3D 视频游戏阴影技术</title>
-      <link>https://30fps.net/pages/videogame-shadows/</link>
-      <description><![CDATA[文章网址：https://30fps.net/pages/videogame-shadows/
-评论网址：https://news.ycombinator.com/item?id=41993012
-积分：96
+      <title>LLM 的内部表征编码了有关真实性的信息</title>
+      <link>https://arxiv.org/abs/2410.02707</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2410.02707
+评论网址：https://news.ycombinator.com/item?id=41995201
+积分：31
+评论数：1]]></description>
+      <guid>https://arxiv.org/abs/2410.02707</guid>
+      <pubDate>Wed, 30 Oct 2024 14:22:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fedora KDE 41 中的新功能</title>
+      <link>https://fedoramagazine.org/whats-new-in-fedora-kde-41/</link>
+      <description><![CDATA[文章网址：https://fedoramagazine.org/whats-new-in-fedora-kde-41/
+评论网址：https://news.ycombinator.com/item?id=41995051
+积分：22
+评论数：0]]></description>
+      <guid>https://fedoramagazine.org/whats-new-in-fedora-kde-41/</guid>
+      <pubDate>Wed, 30 Oct 2024 14:12:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动 HN：FlyCode (YC S22) – 不再因付款失败而损失收入</title>
+      <link>https://news.ycombinator.com/item?id=41994658</link>
+      <description><![CDATA[大家好，HN 社区成员，我们是 FlyCode (https://www.flycode.com) 的联合创始人 Jake、Tzachi 和 Etai。FlyCode 可帮助订阅型公司轻松挽回因付款失败和非自愿客户流失而造成的收入损失 - 这是 B2B 和 B2C SaaS 商家以及 DTC 订阅品牌的主要隐形收入杀手。在之前的职位中，我们领导过企业和初创公司的支付团队，在那里我们建立了支付恢复流程并优化了计费系统。我们亲身体验了有效恢复失败付款的难度。我们采访过的许多团队都将付款失败视为无法解决的黑匣子 - 是开展业务的成本。但是，当付款失败时，它不仅会立即造成收入损失；它还会严重影响客户的生命周期价值 (LTV) 和客户体验。团队正尝试通过以下方式处理此问题：(1) 依赖其支付提供商的基本恢复（如 Stripe 基本智能恢复）； (2) 暴力破解或固定间隔重试策略，这种传统方法最终会降低重试成功率并增加客户流失 (3) 向客户发送过多或过少的电子邮件（联系您的银行...）。最大的挑战之一是支付提供商、发卡银行和信用卡网络将错误分为不同的类别并有自己的风险规则，这增加了复杂性并导致许多错误被归为一类，例如“不兑现”。为了解决这个问题，我们建立了决策模型，该模型考虑了 100 个数据点，例如客户和支付元数据以及错误代码和消息的内部分类器。这些模型确定使用当前或备用支付方式重试付款的最佳时间以及何时与客户沟通。我们的通信产品协调交易电子邮件/短信与重试，确保在理想的当地时间以当地语言发送。使用 FlyCode，您可以收回更多付款，并且 (1) 减少付款重试次数 (2) 缩短平均恢复天数 (3) 减少客户沟通次数 (4) 遵守卡网络规则 [我们与 Visa 合作] (5) 并自动为每位客户协调重试沟通。除此之外，卡帐户更新程序 (CAU) 和网络令牌等解决方案有助于在激活新卡或更换过期卡时自动更新卡详细信息。我们拥有 60 多家客户，从中型企业到大型企业不等。我们在 Stripe 和 Shopify https://marketplace.stripe.com/apps/flycode-payments（在 Stripe 的市场中推荐）中构建了应用程序。如果您有更多问题或反馈，请告诉我。我们会尽力回答！
+
+评论网址：https://news.ycombinator.com/item?id=41994658
+积分：11
+评论数：4]]></description>
+      <guid>https://news.ycombinator.com/item?id=41994658</guid>
+      <pubDate>Wed, 30 Oct 2024 13:45:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dropbox 宣布全球裁员 20%</title>
+      <link>https://blog.dropbox.com/topics/company/an-update-from-drew</link>
+      <description><![CDATA[文章网址：https://blog.dropbox.com/topics/company/an-update-from-drew
+评论网址：https://news.ycombinator.com/item?id=41994640
+积分：167
+评论数：287]]></description>
+      <guid>https://blog.dropbox.com/topics/company/an-update-from-drew</guid>
+      <pubDate>Wed, 30 Oct 2024 13:42:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>苹果营销大全</title>
+      <link>https://jonathanbuys.com/Gross_Apple_Marketing/</link>
+      <description><![CDATA[文章网址：https://jonathanbuys.com/Gross_Apple_Marketing/
+评论网址：https://news.ycombinator.com/item?id=41994567
+积分：157
+评论数：146]]></description>
+      <guid>https://jonathanbuys.com/Gross_Apple_Marketing/</guid>
+      <pubDate>Wed, 30 Oct 2024 13:33:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>EPA 取消了对未出生婴儿有害的农药</title>
+      <link>https://www.thenewlede.org/2024/10/epa-cancels-pesticide-shown-to-be-harmful-to-unborn-babies/</link>
+      <description><![CDATA[文章网址：https://www.thenewlede.org/2024/10/epa-cancels-pesticide-shown-to-be-harmful-to-unborn-babies/
+评论网址：https://news.ycombinator.com/item?id=41993832
+积分：66
+评论数：34]]></description>
+      <guid>https://www.thenewlede.org/2024/10/epa-cancels-pesticide-shown-to-be-harmful-to-unborn-babies/</guid>
+      <pubDate>Wed, 30 Oct 2024 11:41:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>现代计算的秘密之父 (2023)</title>
+      <link>https://every.to/the-crazy-ones/the-secret-father-of-modern-computing</link>
+      <description><![CDATA[文章网址：https://every.to/the-crazy-ones/the-secret-father-of-modern-computing
+评论网址：https://news.ycombinator.com/item?id=41993773
+积分：32
 评论数：13]]></description>
-      <guid>https://30fps.net/pages/videogame-shadows/</guid>
-      <pubDate>Wed, 30 Oct 2024 08:49:54 GMT</pubDate>
+      <guid>https://every.to/the-crazy-ones/the-secret-father-of-modern-computing</guid>
+      <pubDate>Wed, 30 Oct 2024 11:33:25 GMT</pubDate>
     </item>
     <item>
-      <title>使用 io_uring 时异步 Rust 并不安全</title>
-      <link>https://tonbo.io/blog/async-rust-is-not-safe-with-io-uring</link>
-      <description><![CDATA[文章网址：https://tonbo.io/blog/async-rust-is-not-safe-with-io-uring
-评论网址：https://news.ycombinator.com/item?id=41992975
-积分：99
-评论数：29]]></description>
-      <guid>https://tonbo.io/blog/async-rust-is-not-safe-with-io-uring</guid>
-      <pubDate>Wed, 30 Oct 2024 08:42:24 GMT</pubDate>
+      <title>AMD 2024 年第三季度财务状况</title>
+      <link>https://morethanmoore.substack.com/p/amd-q32024-financials</link>
+      <description><![CDATA[文章网址：https://morethanmoore.substack.com/p/amd-q32024-financials
+评论网址：https://news.ycombinator.com/item?id=41993771
+积分：31
+评论数：22]]></description>
+      <guid>https://morethanmoore.substack.com/p/amd-q32024-financials</guid>
+      <pubDate>Wed, 30 Oct 2024 11:32:58 GMT</pubDate>
     </item>
     <item>
-      <title>ABI 十八年的稳定性</title>
-      <link>https://daniel.haxx.se/blog/2024/10/30/eighteen-years-of-abi-stability/</link>
-      <description><![CDATA[文章网址：https://daniel.haxx.se/blog/2024/10/30/eighteen-years-of-abi-stability/
-评论网址：https://news.ycombinator.com/item?id=41992899
-积分：77
-评论数：23]]></description>
-      <guid>https://daniel.haxx.se/blog/2024/10/30/eighteen-years-of-abi-stability/</guid>
-      <pubDate>Wed, 30 Oct 2024 08:25:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>INNER JOIN ON 与 WHERE 子句</title>
-      <link>https://stackoverflow.com/questions/1018822/inner-join-on-vs-where-clause</link>
-      <description><![CDATA[文章网址：https://stackoverflow.com/questions/1018822/inner-join-on-vs-where-clause
-评论网址：https://news.ycombinator.com/item?id=41992870
-积分：46
-评论数：24]]></description>
-      <guid>https://stackoverflow.com/questions/1018822/inner-join-on-vs-where-clause</guid>
-      <pubDate>Wed, 30 Oct 2024 08:19:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>植物利用细胞间的缝隙寻找光</title>
-      <link>https://www.quantamagazine.org/plants-find-light-using-gaps-between-their-cells-20240131/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/plants-find-light-using-gaps-between-their-cells-20240131/
-评论网址：https://news.ycombinator.com/item?id=41992467
-积分：6
-评论数：0]]></description>
-      <guid>https://www.quantamagazine.org/plants-find-light-using-gaps-between-their-cells-20240131/</guid>
-      <pubDate>Wed, 30 Oct 2024 07:06:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tiptap (YC S23) 正在招聘高级全栈工程师（柏林或欧盟远程）</title>
-      <link>https://www.ycombinator.com/companies/tiptap/jobs/ZJhpyYA-senior-full-stack-engineer</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/tiptap/jobs/ZJhpyYA-senior-full-stack-engineer
-评论网址：https://news.ycombinator.com/item?id=41992441
-积分：0
-评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/tiptap/jobs/ZJhpyYA-senior-full-stack-engineer</guid>
-      <pubDate>Wed, 30 Oct 2024 07:00:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI 火焰图</title>
-      <link>https://www.brendangregg.com/blog//2024-10-29/ai-flame-graphs.html</link>
-      <description><![CDATA[文章网址：https://www.brendangregg.com/blog//2024-10-29/ai-flame-graphs.html
-评论网址：https://news.ycombinator.com/item?id=41992419
-积分：40
-评论数：10]]></description>
-      <guid>https://www.brendangregg.com/blog//2024-10-29/ai-flame-graphs.html</guid>
-      <pubDate>Wed, 30 Oct 2024 06:54:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>150 亿英里之外，NASA 的旅行者 1 号打破沉默</title>
-      <link>https://scitechdaily.com/15-billion-miles-away-nasas-voyager-1-breaks-its-silence/</link>
-      <description><![CDATA[文章网址：https://scitechdaily.com/15-billion-miles-away-nasas-voyager-1-breaks-its-silence/
-评论网址：https://news.ycombinator.com/item?id=41992394
-积分：80
-评论数：44]]></description>
-      <guid>https://scitechdaily.com/15-billion-miles-away-nasas-voyager-1-breaks-its-silence/</guid>
-      <pubDate>Wed, 30 Oct 2024 06:48:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>澳大利亚/Lord_Howe 是最奇怪的时区</title>
-      <link>https://ssoready.com/blog/engineering/truths-programmers-timezones/</link>
-      <description><![CDATA[文章网址：https://ssoready.com/blog/engineering/truths-programmers-timezones/
-评论网址：https://news.ycombinator.com/item?id=41992314
-积分：406
-评论数：130]]></description>
-      <guid>https://ssoready.com/blog/engineering/truths-programmers-timezones/</guid>
-      <pubDate>Wed, 30 Oct 2024 06:21:05 GMT</pubDate>
+      <title>Astral：下一代 Python 工具</title>
+      <link>https://astral.sh/</link>
+      <description><![CDATA[文章网址：https://astral.sh/
+评论网址：https://news.ycombinator.com/item?id=41993662
+积分：63
+评论数：33]]></description>
+      <guid>https://astral.sh/</guid>
+      <pubDate>Wed, 30 Oct 2024 11:12:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
