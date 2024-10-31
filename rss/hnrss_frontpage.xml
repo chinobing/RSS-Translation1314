@@ -4,106 +4,111 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 31 Oct 2024 15:19:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2024 18:23:19 GMT</lastBuildDate>
     <item>
-      <title>流行的条形码软件中的模糊测试</title>
-      <link>https://blog.trailofbits.com/2024/10/31/fuzzing-between-the-lines-in-popular-barcode-software/</link>
-      <description><![CDATA[文章网址：https://blog.trailofbits.com/2024/10/31/fuzzing-between-the-lines-in-popular-barcode-software/
-评论网址：https://news.ycombinator.com/item?id=42006698
-积分：38
-评论数：9]]></description>
-      <guid>https://blog.trailofbits.com/2024/10/31/fuzzing-between-the-lines-in-popular-barcode-software/</guid>
-      <pubDate>Thu, 31 Oct 2024 13:28:31 GMT</pubDate>
+      <title>我们的 AI 爬虫流量近 90% 来自 TikTok/字节跳动</title>
+      <link>https://www.haproxy.com/blog/nearly-90-of-our-ai-crawler-traffic-is-from-tiktok-parent-bytedance-lessons-learned</link>
+      <description><![CDATA[文章网址：https://www.haproxy.com/blog/nearly-90-of-our-ai-crawler-traffic-is-from-tiktok-parent-bytedance-lessons-learned
+评论网址：https://news.ycombinator.com/item?id=42009636
+积分：12
+评论数：0]]></description>
+      <guid>https://www.haproxy.com/blog/nearly-90-of-our-ai-crawler-traffic-is-from-tiktok-parent-bytedance-lessons-learned</guid>
+      <pubDate>Thu, 31 Oct 2024 18:09:18 GMT</pubDate>
     </item>
     <item>
-      <title>抱歉，天然气公司——戏仿不算侵权（即使它让你毛骨悚然）</title>
-      <link>https://www.eff.org/deeplinks/2024/10/sorry-gas-companies-parody-isnt-infringement-even-if-it-creeps-you-out</link>
-      <description><![CDATA[文章网址：https://www.eff.org/deeplinks/2024/10/sorry-gas-companies-parody-isnt-infringement-even-if-it-creeps-you-out
-评论网址：https://news.ycombinator.com/item?id=42006265
-积分：93
-评论数：23]]></description>
-      <guid>https://www.eff.org/deeplinks/2024/10/sorry-gas-companies-parody-isnt-infringement-even-if-it-creeps-you-out</guid>
-      <pubDate>Thu, 31 Oct 2024 12:37:52 GMT</pubDate>
+      <title>问 HN：如果 Google 和 YouTube 分道扬镳，您认为会发生什么？</title>
+      <link>https://news.ycombinator.com/item?id=42009310</link>
+      <description><![CDATA[从技术角度来说，哪些东西会受到影响？
+目前，我认为有两项服务会受到影响：
+∙ Google TV/YouTube 影视库
+∙ YouTube 音乐目录抱歉，我不太了解两者的工作原理，这只是我在 https://news.ycombinator.com/item?id=41946885 中询问的内容
+
+评论网址：https://news.ycombinator.com/item?id=42009310
+积分：15
+评论数：19]]></description>
+      <guid>https://news.ycombinator.com/item?id=42009310</guid>
+      <pubDate>Thu, 31 Oct 2024 17:42:23 GMT</pubDate>
     </item>
     <item>
-      <title>迈向超越“p < 0.05”的世界（2019）</title>
-      <link>https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1583913</link>
-      <description><![CDATA[文章网址：https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1583913
-评论网址：https://news.ycombinator.com/item?id=42005635
-积分：99
-评论数：60]]></description>
-      <guid>https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1583913</guid>
-      <pubDate>Thu, 31 Oct 2024 11:16:44 GMT</pubDate>
+      <title>启动 HN：Patched (YC S24) – 后编码任务的 AI 工作流程</title>
+      <link>https://news.ycombinator.com/item?id=42009089</link>
+      <description><![CDATA[嗨，HN，我们是 Asankhaya 和 Rohan，是 Patched (https://patched.codes) 的创始人。我们通过可自定义、可自行托管的工作流程帮助开发团队加速代码审查、文档和补丁等任务。这是一个简短的视频演示：https://youtu.be/5hvWGB5avVo代码生成和开发内循环引起了很多兴奋。但是，由于之前创建过 DevSecOps 初创公司，我们知道开发人员面临的瓶颈通常发生在“外循环”中，尤其是在编写代码之后。借助 Patched，我们希望帮助代码在生成后尽快交付。Patched 有两个核心组件。首先是工作流程构建器，可在无代码和全代码之间无缝切换。第二个是基于聊天的代码、日志和问题跟踪器的查询界面。当一起使用时，它们可以帮助协调和自动化软件开发生命周期中最痛苦的部分。这是一个由 patchflow 创建的示例 PR，它使用复杂的类型信息自动生成 SDK：https://github.com/stack-auth/stack/pull/300。在底层，Patched 由我们的 patchwork 库（https://github.com/patched-codes/patchwork）和 LLM 优化代理（https://github.com/codelion/optillm）提供支持 - 这两个我们都已开源。您可以在 CI/CD 管道中或从命令行运行这些工作流程，完全独立于我们的平台。这让您可以完全控制而不被锁定，同时允许我们围绕它构建可货币化的产品。虽然有一些很好的单点解决方案可以解决单个任务，但我们相信真正的解决方案在于开放、整体的方法——团队可以调整、扩展或自行托管的方法。您可以在https://app.patched.codes/signin尝试 Patched - 我们很乐意听到您对我们的方法和用户体验的反馈。
+
+评论网址：https://news.ycombinator.com/item?id=42009089
+积分：12
+评论数：2]]></description>
+      <guid>https://news.ycombinator.com/item?id=42009089</guid>
+      <pubDate>Thu, 31 Oct 2024 17:27:41 GMT</pubDate>
     </item>
     <item>
-      <title>概率生成函数</title>
-      <link>https://entropicthoughts.com/probability-generating-functions</link>
-      <description><![CDATA[文章网址：https://entropicthoughts.com/probability-generating-functions
-评论网址：https://news.ycombinator.com/item?id=42004976
-积分：81
-评论数：23]]></description>
-      <guid>https://entropicthoughts.com/probability-generating-functions</guid>
-      <pubDate>Thu, 31 Oct 2024 09:36:18 GMT</pubDate>
+      <title>API 中的模型提炼</title>
+      <link>https://openai.com/index/api-model-distillation/</link>
+      <description><![CDATA[文章网址：https://openai.com/index/api-model-distillation/
+评论网址：https://news.ycombinator.com/item?id=42009039
+积分：21
+评论数：4]]></description>
+      <guid>https://openai.com/index/api-model-distillation/</guid>
+      <pubDate>Thu, 31 Oct 2024 17:23:08 GMT</pubDate>
     </item>
     <item>
-      <title>Clipboard Health (YC W17) 正在招聘工程师来扩大医疗保健规模（远程）</title>
-      <link>https://www.clipboardhealth.com/engineering</link>
-      <description><![CDATA[文章网址：https://www.clipboardhealth.com/engineering
-评论网址：https://news.ycombinator.com/item?id=42004147
+      <title>将设计与工程分离</title>
+      <link>https://buttondown.com/defragmenter/archive/decoupling-design-from-engineering/</link>
+      <description><![CDATA[文章网址：https://buttondown.com/defragmenter/archive/decoupling-design-from-engineering/
+评论网址：https://news.ycombinator.com/item?id=42008772
+积分：14
+评论数：7]]></description>
+      <guid>https://buttondown.com/defragmenter/archive/decoupling-design-from-engineering/</guid>
+      <pubDate>Thu, 31 Oct 2024 17:01:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Activeloop (YC S18) 寻求 Python 后端工程师来构建 AI 数据库</title>
+      <link>https://www.ycombinator.com/companies/activeloop/jobs/kCU6ZNq-python-backend-engineer</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/activeloop/jobs/kCU6ZNq-python-backend-engineer
+评论网址：https://news.ycombinator.com/item?id=42008768
 积分：0
 评论数：0]]></description>
-      <guid>https://www.clipboardhealth.com/engineering</guid>
-      <pubDate>Thu, 31 Oct 2024 07:01:11 GMT</pubDate>
+      <guid>https://www.ycombinator.com/companies/activeloop/jobs/kCU6ZNq-python-backend-engineer</guid>
+      <pubDate>Thu, 31 Oct 2024 17:01:30 GMT</pubDate>
     </item>
     <item>
-      <title>有限猴子定理的数值评估</title>
-      <link>https://www.sciencedirect.com/science/article/pii/S2773186324001014</link>
-      <description><![CDATA[文章网址：https://www.sciencedirect.com/science/article/pii/S2773186324001014
-评论网址：https://news.ycombinator.com/item?id=42004052
-积分：21
-评论数：5]]></description>
-      <guid>https://www.sciencedirect.com/science/article/pii/S2773186324001014</guid>
-      <pubDate>Thu, 31 Oct 2024 06:36:17 GMT</pubDate>
+      <title>1374 天——我的抗疫历程</title>
+      <link>http://giorgialupi.com/1374-days-nyt-visual-oped</link>
+      <description><![CDATA[文章网址：http://giorgialupi.com/1374-days-nyt-visual-oped
+评论网址：https://news.ycombinator.com/item?id=42008723
+积分：54
+评论数：35]]></description>
+      <guid>http://giorgialupi.com/1374-days-nyt-visual-oped</guid>
+      <pubDate>Thu, 31 Oct 2024 16:58:11 GMT</pubDate>
     </item>
     <item>
-      <title>Wonder Animation – 视频转 3D 动画</title>
-      <link>https://adsknews.autodesk.com/en/news/autodesk-launches-wonder-animation-video-to-3d-scene-technology/</link>
-      <description><![CDATA[文章网址：https://adsknews.autodesk.com/en/news/autodesk-launches-wonder-animation-video-to-3d-scene-technology/
-评论网址：https://news.ycombinator.com/item?id=42001852
-积分：125
-评论数：12]]></description>
-      <guid>https://adsknews.autodesk.com/en/news/autodesk-launches-wonder-animation-video-to-3d-scene-technology/</guid>
-      <pubDate>Wed, 30 Oct 2024 23:44:25 GMT</pubDate>
+      <title>ChatGPT 搜索简介</title>
+      <link>https://openai.com/index/introducing-chatgpt-search/</link>
+      <description><![CDATA[文章网址：https://openai.com/index/introducing-chatgpt-search/
+评论网址：https://news.ycombinator.com/item?id=42008569
+积分：225
+评论数：227]]></description>
+      <guid>https://openai.com/index/introducing-chatgpt-search/</guid>
+      <pubDate>Thu, 31 Oct 2024 16:41:22 GMT</pubDate>
     </item>
     <item>
-      <title>也许最终能够探测到引力子</title>
-      <link>https://www.quantamagazine.org/it-might-be-possible-to-detect-gravitons-after-all-20241030/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/it-might-be-possible-to-detect-gravitons-after-all-20241030/
-评论网址：https://news.ycombinator.com/item?id=42001642
-积分：216
-评论数：113]]></description>
-      <guid>https://www.quantamagazine.org/it-might-be-possible-to-detect-gravitons-after-all-20241030/</guid>
-      <pubDate>Wed, 30 Oct 2024 23:19:19 GMT</pubDate>
+      <title>突破限制：在 DOSBox-X 中安装 Windows XP</title>
+      <link>https://fabulous.systems/posts/2023/07/installing-windows-xp-in-dosbox-x/</link>
+      <description><![CDATA[文章网址：https://fabulous.systems/posts/2023/07/installing-windows-xp-in-dosbox-x/
+评论网址：https://news.ycombinator.com/item?id=42008499
+积分：85
+评论数：50]]></description>
+      <guid>https://fabulous.systems/posts/2023/07/installing-windows-xp-in-dosbox-x/</guid>
+      <pubDate>Thu, 31 Oct 2024 16:32:31 GMT</pubDate>
     </item>
     <item>
-      <title>OpenZFS 重复数据删除现在很好，你不应该使用它</title>
-      <link>https://despairlabs.com/blog/posts/2024-10-27-openzfs-dedup-is-good-dont-use-it/</link>
-      <description><![CDATA[文章网址：https://despairlabs.com/blog/posts/2024-10-27-openzfs-dedup-is-good-dont-use-it/
-评论网址：https://news.ycombinator.com/item?id=42000784
-积分：383
-评论数：176]]></description>
-      <guid>https://despairlabs.com/blog/posts/2024-10-27-openzfs-dedup-is-good-dont-use-it/</guid>
-      <pubDate>Wed, 30 Oct 2024 21:48:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>思维链可能会损害人们在思考使人类变得更糟糕的任务中的表现</title>
-      <link>https://arxiv.org/abs/2410.21333</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2410.21333
-评论网址：https://news.ycombinator.com/item?id=41999340
-积分：312
-评论数：179]]></description>
-      <guid>https://arxiv.org/abs/2410.21333</guid>
-      <pubDate>Wed, 30 Oct 2024 19:42:41 GMT</pubDate>
+      <title>我从人工智能建设中学到的东西</title>
+      <link>https://halcyon.eco/blog/building-with-ai</link>
+      <description><![CDATA[文章网址：https://halcyon.eco/blog/building-with-ai
+评论网址：https://news.ycombinator.com/item?id=42008005
+积分：17
+评论数：1]]></description>
+      <guid>https://halcyon.eco/blog/building-with-ai</guid>
+      <pubDate>Thu, 31 Oct 2024 15:43:02 GMT</pubDate>
     </item>
     </channel>
 </rss>
