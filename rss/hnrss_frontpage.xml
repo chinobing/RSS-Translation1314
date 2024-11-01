@@ -4,7 +4,87 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 01 Nov 2024 15:18:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2024 18:23:00 GMT</lastBuildDate>
+    <item>
+      <title>Notepad++ 21 岁了</title>
+      <link>https://learnhub.top/celebrating-21-years-of-notepad-the-legendary-journey-of-our-favorite-text-editor/</link>
+      <description><![CDATA[文章网址：https://learnhub.top/celebrating-21-years-of-notepad-the-legendary-journey-of-our-favorite-text-editor/
+评论网址：https://news.ycombinator.com/item?id=42019586
+积分：17
+评论数：5]]></description>
+      <guid>https://learnhub.top/celebrating-21-years-of-notepad-the-legendary-journey-of-our-favorite-text-editor/</guid>
+      <pubDate>Fri, 01 Nov 2024 17:47:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>300 人申请租用旧金山市中心每月 700 美元的睡眠舱</title>
+      <link>https://www.theguardian.com/society/2024/oct/31/san-francisco-sleeping-pods-affordable-housing-crisis</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/society/2024/oct/31/san-francisco-sleeping-pods-affordable-housing-crisis
+评论网址：https://news.ycombinator.com/item?id=42019488
+积分：33
+评论数：32]]></description>
+      <guid>https://www.theguardian.com/society/2024/oct/31/san-francisco-sleeping-pods-affordable-housing-crisis</guid>
+      <pubDate>Fri, 01 Nov 2024 17:38:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>小时候爱吃甜食的人成年后患糖尿病的风险会飙升</title>
+      <link>https://www.nature.com/articles/d41586-024-03535-7</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-024-03535-7
+评论网址：https://news.ycombinator.com/item?id=42019398
+积分：22
+评论数：11]]></description>
+      <guid>https://www.nature.com/articles/d41586-024-03535-7</guid>
+      <pubDate>Fri, 01 Nov 2024 17:29:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Broadwell 的 EDRAM：VCache 流行之前的 VCache</title>
+      <link>https://chipsandcheese.com/p/broadwells-edram-vcache-before-vcache</link>
+      <description><![CDATA[文章网址：https://chipsandcheese.com/p/broadwells-edram-vcache-before-vcache
+评论网址：https://news.ycombinator.com/item?id=42019083
+积分：10
+评论数：0]]></description>
+      <guid>https://chipsandcheese.com/p/broadwells-edram-vcache-before-vcache</guid>
+      <pubDate>Fri, 01 Nov 2024 17:02:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国与 19 世纪的美国有何相似之处</title>
+      <link>https://www.construction-physics.com/p/how-china-is-like-the-19th-century</link>
+      <description><![CDATA[文章网址：https://www.construction-physics.com/p/how-china-is-like-the-19th-century
+评论网址：https://news.ycombinator.com/item?id=42018096
+积分：21
+评论数：1]]></description>
+      <guid>https://www.construction-physics.com/p/how-china-is-like-the-19th-century</guid>
+      <pubDate>Fri, 01 Nov 2024 15:42:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>苹果收购 Pixelmator</title>
+      <link>https://www.pixelmator.com/blog/2024/11/01/a-new-home-for-pixelmator/</link>
+      <description><![CDATA[文章网址：https://www.pixelmator.com/blog/2024/11/01/a-new-home-for-pixelmator/
+评论网址：https://news.ycombinator.com/item?id=42018013
+积分：387
+评论数：213]]></description>
+      <guid>https://www.pixelmator.com/blog/2024/11/01/a-new-home-for-pixelmator/</guid>
+      <pubDate>Fri, 01 Nov 2024 15:36:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Ratarmount 1.0.0 – 通过 FUSE 文件系统快速访问大型档案</title>
+      <link>https://github.com/mxmlnkn/ratarmount</link>
+      <description><![CDATA[嗨，HN，自从我第一次发布 ratarmount [0] 的介绍以来，已经过去了 2 年，并且添加了许多功能。总而言之，ratarmount 可以处理作为文件系统公开的存档内容，而无需将数据提取到磁盘： pip install ratarmount
+ratarmount archive.tar mounted
+ls -la mounted
+
+
+我开始这个项目是因为注意到 archivemount 处理大型 TAR 文件的速度很慢，并且想知道这是怎么回事，因为文件内容存在于存档文件中的某个偏移量，读取这些数据应该不难。
+
+事实证明，这部分并不难，但是很好地打包所有内容、添加测试以及添加更多格式和功能（例如联合挂载和递归挂载）是让我一直忙于这个项目直到今天的事情。
+自上一次 Show HN 以来，已添加了 libarchive、SquashFS、fsspec 和许多其他后端，因此现在它应该能够读取 archivemount 可以读取的所有格式以及更多格式，甚至可以远程读取它们。
+但是，除了 bzip2/gzip 压缩的 TAR 之外，任何用例的性能可能会有所不同，尽管我已尽了最大努力。就我个人而言，我使用它来查看包含许多不再更改的小文件的打包文件夹。我打包这些文件夹是因为否则复制到其他硬盘驱动器需要更长的时间。当我想避免使用命令行时，我也使用它。我已将 ratarmount 添加为 Caja 用户脚本，以便通过右键单击进行安装。这样，我可以安装档案，然后将内容复制到另一个驱动器，从而有效地一步完成提取和复制。最初，我还用它来直接在 ImageNet TAR 档案上进行训练。我可能几年前就应该发布 1.0.0 了，因为我已经尽可能地保持了命令行界面甚至索引文件格式在几个 0.x 版本之间的兼容性。我的愿望清单上的一些更大的未来功能包括：- 一个新的 indexed_lz4 后端。这应该可以在我的 indexed_bzip2 [1] / rapidgzip [2] 后端库中实现。- 由 rapidgzip 和 indexed_bzip2 加速的自定义 ZIP 和 SquashFS 读取器，以便在这些档案中的大文件中更快地进行搜索。- 我热切地期待 Linux 内核 FUSE BPF 支持 [3]，这可能会进一步减少非常小的文件/非常小的读取的用例的延迟，至少在处理未压​​缩的档案的情况下是这样。我对此类档案（100k 张图像，100 KiB）进行了比较，发现通过 Python 库 ratarmountcore 直接访问比通过 ratarmount 和 FUSE 访问快大约两倍。也许我甚至会找时间尝试一下现有的未合并的 FUSE BPF 补丁集。[0] https://news.ycombinator.com/item?id=30631387[1] https://news.ycombinator.com/item?id=31875318[2] https://news.ycombinator.com/item?id=37378411[3] https://lwn.net/Articles/937433/
+
+评论网址：https://news.ycombinator.com/item?id=42017833
+积分：37
+评论数：4]]></description>
+      <guid>https://github.com/mxmlnkn/ratarmount</guid>
+      <pubDate>Fri, 01 Nov 2024 15:25:03 GMT</pubDate>
+    </item>
     <item>
       <title>询问 HN：谁在招聘？（2024 年 11 月）</title>
       <link>https://news.ycombinator.com/item?id=42017580</link>
@@ -14,100 +94,30 @@
 https://hnhired.fly.dev，https://kennytilton.github.io/whoishiring/，https://hnjobs.emilburzo.com。不要错过这些其他精彩帖子：谁想被雇用？ https://news.ycombinator.com/item?id=42017578自由职业者？寻找自由职业者？ https://news.ycombinator.com/item?id=42017579
 
 评论网址：https://news.ycombinator.com/item?id=42017580
-积分：6
-评论数：6]]></description>
+积分：137
+评论数：136]]></description>
       <guid>https://news.ycombinator.com/item?id=42017580</guid>
       <pubDate>Fri, 01 Nov 2024 15:01:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Throbac：THrifty 罗马数字 倒退的计算机</title>
+      <link>https://mitmuseum.mit.edu/collections/object/2007.030.011</link>
+      <description><![CDATA[文章网址：https://mitmuseum.mit.edu/collections/object/2007.030.011
+评论网址：https://news.ycombinator.com/item?id=42017504
+积分：8
+评论数：6]]></description>
+      <guid>https://mitmuseum.mit.edu/collections/object/2007.030.011</guid>
+      <pubDate>Fri, 01 Nov 2024 14:54:08 GMT</pubDate>
     </item>
     <item>
       <title>著名枪支制造商向政治人物提供敏感客户信息</title>
       <link>https://www.propublica.org/article/gunmakers-owners-sensitive-personal-information-glock-remington-nssf</link>
       <description><![CDATA[文章网址：https://www.propublica.org/article/gunmakers-owners-sensitive-personal-information-glock-remington-nssf
 评论网址：https://news.ycombinator.com/item?id=42017453
-积分：10
-评论数：0]]></description>
+积分：48
+评论数：24]]></description>
       <guid>https://www.propublica.org/article/gunmakers-owners-sensitive-personal-information-glock-remington-nssf</guid>
       <pubDate>Fri, 01 Nov 2024 14:49:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>分析 Go 构建时间（2023 年）</title>
-      <link>https://blog.howardjohn.info/posts/go-build-times/</link>
-      <description><![CDATA[文章网址：https://blog.howardjohn.info/posts/go-build-times/
-评论网址：https://news.ycombinator.com/item?id=42017163
-积分：3
-评论数：0]]></description>
-      <guid>https://blog.howardjohn.info/posts/go-build-times/</guid>
-      <pubDate>Fri, 01 Nov 2024 14:22:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>TokenFormer：使用标记化模型参数重新思考 Transformer 的扩展</title>
-      <link>https://arxiv.org/abs/2410.23168</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2410.23168
-评论网址：https://news.ycombinator.com/item?id=42017048
-积分：19
-评论数：1]]></description>
-      <guid>https://arxiv.org/abs/2410.23168</guid>
-      <pubDate>Fri, 01 Nov 2024 14:10:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌员工在全体会议上向高管施压，要求明确削减成本的措施</title>
-      <link>https://www.cnbc.com/2024/11/01/google-employees-pressure-execs-at-all-hands-for-clarity-on-cost-cuts.html</link>
-      <description><![CDATA[文章网址：https://www.cnbc.com/2024/11/01/google-employees-pressure-execs-at-all-hands-for-clarity-on-cost-cuts.html
-评论网址：https://news.ycombinator.com/item?id=42016718
-积分：24
-评论数：4]]></description>
-      <guid>https://www.cnbc.com/2024/11/01/google-employees-pressure-execs-at-all-hands-for-clarity-on-cost-cuts.html</guid>
-      <pubDate>Fri, 01 Nov 2024 13:24:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>维尔吉纳皇家陵墓中发现亚历山大大帝的束腰外衣</title>
-      <link>https://www.tandfonline.com/doi/full/10.1080/00934690.2024.2409503#abstract</link>
-      <description><![CDATA[文章网址：https://www.tandfonline.com/doi/full/10.1080/00934690.2024.2409503#abstract
-评论网址：https://news.ycombinator.com/item?id=42016478
-积分：119
-评论数：58]]></description>
-      <guid>https://www.tandfonline.com/doi/full/10.1080/00934690.2024.2409503#abstract</guid>
-      <pubDate>Fri, 01 Nov 2024 12:54:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>将 Strangler Fig 与移动应用程序结合使用</title>
-      <link>https://martinfowler.com/articles/strangler-fig-mobile-apps.html</link>
-      <description><![CDATA[文章网址：https://martinfowler.com/articles/strangler-fig-mobile-apps.html
-评论网址：https://news.ycombinator.com/item?id=42015284
-积分：28
-评论数：7]]></description>
-      <guid>https://martinfowler.com/articles/strangler-fig-mobile-apps.html</guid>
-      <pubDate>Fri, 01 Nov 2024 09:30:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究发现，在猴子用键盘写出莎士比亚作品之前宇宙就会消亡</title>
-      <link>https://www.theguardian.com/science/2024/nov/01/infinite-monkey-theorem-keyboard-tyepwriter-shakespeare-study</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/science/2024/nov/01/infinite-monkey-theorem-keyboard-tyepwriter-shakespeare-study
-评论网址：https://news.ycombinator.com/item?id=42015005
-积分：31
-评论数：52]]></description>
-      <guid>https://www.theguardian.com/science/2024/nov/01/infinite-monkey-theorem-keyboard-tyepwriter-shakespeare-study</guid>
-      <pubDate>Fri, 01 Nov 2024 08:25:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>绿洲：变形金刚里的宇宙</title>
-      <link>https://oasis-model.github.io/</link>
-      <description><![CDATA[文章网址：https://oasis-model.github.io/
-评论网址：https://news.ycombinator.com/item?id=42014650
-积分：79
-评论数：32]]></description>
-      <guid>https://oasis-model.github.io/</guid>
-      <pubDate>Fri, 01 Nov 2024 07:02:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>毕达哥拉斯（GPT 飞行员）（YC W24）正在招聘</title>
-      <link>https://www.ycombinator.com/companies/pythagora-gpt-pilot/jobs/CNr5q8B-ux-designer-wanted-to-design-a-new-user-experience-for-developers-in-the-ai-world</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/pythagora-gpt-pilot/jobs/CNr5q8B-ux-designer-wanted-to-design-a-new-user-experience-for-developers-in-the-ai-world
-评论网址：https://news.ycombinator.com/item?id=42014642
-积分：0
-评论数： 0]]></description>
-      <guid>https://www.ycombinator.com/companies/pythagora-gpt-pilot/jobs/CNr5q8B-ux-designer-wanted-to-design-a-new-user-experience-for-developers-in-the-ai-world</guid>
-      <pubDate>Fri, 01 Nov 2024 07:01:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
