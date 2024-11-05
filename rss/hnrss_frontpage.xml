@@ -4,109 +4,109 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 05 Nov 2024 15:18:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2024 18:22:34 GMT</lastBuildDate>
+    <item>
+      <title>Dstack：用于 AI/ML 任务的 K8 替代品</title>
+      <link>https://github.com/dstackai/dstack</link>
+      <description><![CDATA[文章网址：https://github.com/dstackai/dstack
+评论网址：https://news.ycombinator.com/item?id=42053180
+积分：12
+评论数：3]]></description>
+      <guid>https://github.com/dstackai/dstack</guid>
+      <pubDate>Tue, 05 Nov 2024 16:56:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>棒球摩擦泥的软物质力学</title>
+      <link>https://www.pnas.org/doi/10.1073/pnas.2413514121</link>
+      <description><![CDATA[文章网址：https://www.pnas.org/doi/10.1073/pnas.2413514121
+评论网址：https://news.ycombinator.com/item?id=42053043
+积分：26
+评论数：0]]></description>
+      <guid>https://www.pnas.org/doi/10.1073/pnas.2413514121</guid>
+      <pubDate>Tue, 05 Nov 2024 16:46:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么软件只会向前发展</title>
+      <link>https://swizec.com/blog/why-software-only-moves-forward/</link>
+      <description><![CDATA[文章网址：https://swizec.com/blog/why-software-only-moves-forward/
+评论网址：https://news.ycombinator.com/item?id=42052793
+积分：29
+评论数：12]]></description>
+      <guid>https://swizec.com/blog/why-software-only-moves-forward/</guid>
+      <pubDate>Tue, 05 Nov 2024 16:23:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：我为任何 LLM 编写了一个用于计算机使用的开源浏览器替代品</title>
+      <link>https://github.com/gregpr07/browser-use</link>
+      <description><![CDATA[嗨，HN，我制作了 Browser-Use，这是一个开源工具，它允许（所有 Langchain 支持的）LLM 仅通过函数调用直接在浏览器中执行任务。它允许您构建使用自然语言提示与 Web 元素交互的代理。我们创建了一个层，通过提取 xPath 和按钮和输入字段等交互元素（以及其他花哨的东西）来简化 LLM 的网站交互。这使您能够设计自定义 Web 自动化和抓取功能，而无需通过 DevTools 进行手动检查。这不是已经做过很多次了吗？
+好问题，作为通用的 SaaS 工具是的，但我认为很多人会尝试从头开始制作自己的 Web 自动化代理，因此我们的想法是为困难的部分提供基础/库，以便不必每个人都重复这些步骤：- 以 LLM 友好的方式解析 html（可点击项目 + 屏幕截图）- 为浏览器中的所有内容提供一个很好的函数调用- 创建可重用的代理类这不是什么？一个无所不知的人工智能代理，可以解决您的所有问题。愿景：只需提示您的代理即可在网络上创建可重复的任务，而无需关心如何操作。为了更好地展示文本提取的强大功能，我们做了一些演示，例如：- 申请旧金山的多个软件工程职位- 打开新标签页以搜索阿尔伯特·爱因斯坦、奥普拉·温弗瑞和史蒂夫·乔布斯的图像- 查找 12 月 25 日从伦敦飞往吉尔吉斯斯坦的最便宜单程航班我很想听听您关于此工具如何融入您的自动化工作流程的反馈。尝试一下，然后告诉我它在您的终端上的表现如何。我们是 Gregor &amp; Magnus，我们在 5 天内就构建了它。
+
+评论 URL：https://news.ycombinator.com/item?id=42052432
+积分：27
+评论数：17]]></description>
+      <guid>https://github.com/gregpr07/browser-use</guid>
+      <pubDate>Tue, 05 Nov 2024 15:51:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Varse – 简单的远程应用程序配置</title>
+      <link>https://github.com/varse-io/varse</link>
+      <description><![CDATA[嗨，HN，我们想要一种简单的方法来更新应用程序配置，而无需重新部署。我们想要远程设置变量，并在我们的应用程序中读取它们。我们创建了 Varse 来实现这一点。Varse 有一个用于创建键值对的仪表板和一个用于读取它们的 SDK。它没有偏见，允许存储字符串、布尔值甚至 json 对象。我们有自己运行它的说明。我们还有一个托管版本，您可以在其中创建帐户并管理变量。这是我们第一次构建开源项目。我们很乐意听取关于如何正确执行此操作的反馈。Github：https://github.com/varse-io/varse托管版本：https://app.varse.io/signup网站：https://www.varse.io/联系方式：izak@varse.io
+
+评论网址：https://news.ycombinator.com/item?id=42052207
+积分：19
+# 评论： 17]]></description>
+      <guid>https://github.com/varse-io/varse</guid>
+      <pubDate>Tue, 05 Nov 2024 15:27:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>PiML：Python可解释机器学习工具箱</title>
+      <link>https://github.com/SelfExplainML/PiML-Toolbox</link>
+      <description><![CDATA[文章网址：https://github.com/SelfExplainML/PiML-Toolbox
+评论网址：https://news.ycombinator.com/item?id=42052194
+积分：29
+评论数：8]]></description>
+      <guid>https://github.com/SelfExplainML/PiML-Toolbox</guid>
+      <pubDate>Tue, 05 Nov 2024 15:25:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>入侵 7 亿电子艺界账户</title>
+      <link>https://battleda.sh/blog/ea-account-takeover</link>
+      <description><![CDATA[文章网址：https://battleda.sh/blog/ea-account-takeover
+评论网址：https://news.ycombinator.com/item?id=42052143
+积分：228
+评论数：47]]></description>
+      <guid>https://battleda.sh/blog/ea-account-takeover</guid>
+      <pubDate>Tue, 05 Nov 2024 15:18:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>黑客工厂</title>
+      <link>https://docs.hackerfab.org/hacker-fab-space</link>
+      <description><![CDATA[文章网址：https://docs.hackerfab.org/hacker-fab-space
+评论网址：https://news.ycombinator.com/item?id=42051968
+积分：112
+评论数：20]]></description>
+      <guid>https://docs.hackerfab.org/hacker-fab-space</guid>
+      <pubDate>Tue, 05 Nov 2024 14:59:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>月球上能生长植物吗？</title>
+      <link>https://worldsensorium.com/will-plants-grow-on-the-moon/</link>
+      <description><![CDATA[文章网址：https://worldsensorium.com/will-plants-grow-on-the-moon/
+评论网址：https://news.ycombinator.com/item?id=42051857
+积分：38
+评论数：15]]></description>
+      <guid>https://worldsensorium.com/will-plants-grow-on-the-moon/</guid>
+      <pubDate>Tue, 05 Nov 2024 14:49:41 GMT</pubDate>
+    </item>
     <item>
       <title>世界首颗木制卫星进入火星探测试验</title>
       <link>https://news.sky.com/story/worlds-first-wooden-satellite-heads-to-space-in-mars-exploration-test-13248719</link>
       <description><![CDATA[文章网址：https://news.sky.com/story/worlds-first-wooden-satellite-heads-to-space-in-mars-exploration-test-13248719
 评论网址：https://news.ycombinator.com/item?id=42051687
-积分：5
-评论数：0]]></description>
+积分：44
+评论数：44]]></description>
       <guid>https://news.sky.com/story/worlds-first-wooden-satellite-heads-to-space-in-mars-exploration-test-13248719</guid>
       <pubDate>Tue, 05 Nov 2024 14:26:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Netflix 欧洲办事处因税务欺诈调查遭到突击搜查</title>
-      <link>https://www.bbc.co.uk/news/articles/cwy1vze09wwo</link>
-      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/cwy1vze09wwo
-评论网址：https://news.ycombinator.com/item?id=42051643
-积分：59
-评论数：23]]></description>
-      <guid>https://www.bbc.co.uk/news/articles/cwy1vze09wwo</guid>
-      <pubDate>Tue, 05 Nov 2024 14:20:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们将在黄油战场上战斗——牛津之战 1939–1945</title>
-      <link>https://literaryreview.co.uk/we-shall-fight-in-the-buttery</link>
-      <description><![CDATA[文章网址：https://literaryreview.co.uk/we-shall-fight-in-the-buttery
-评论网址：https://news.ycombinator.com/item?id=42051452
-积分：16
-评论数：0]]></description>
-      <guid>https://literaryreview.co.uk/we-shall-fight-in-the-buttery</guid>
-      <pubDate>Tue, 05 Nov 2024 13:52:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>阿雷西博305米望远镜倒塌事故分析</title>
-      <link>https://nap.nationalacademies.org/read/26982/chapter/1</link>
-      <description><![CDATA[文章网址：https://nap.nationalacademies.org/read/26982/chapter/1
-评论网址：https://news.ycombinator.com/item?id=42051368
-积分：56
-评论数：10]]></description>
-      <guid>https://nap.nationalacademies.org/read/26982/chapter/1</guid>
-      <pubDate>Tue, 05 Nov 2024 13:37:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果他们都错了怎么办？（2020）</title>
-      <link>https://igorpak.wordpress.com/2020/12/10/what-if-they-are-all-wrong/</link>
-      <description><![CDATA[文章网址：https://igorpak.wordpress.com/2020/12/10/what-if-they-are-all-wrong/
-评论网址：https://news.ycombinator.com/item?id=42051231
-积分：25
-评论数：5]]></description>
-      <guid>https://igorpak.wordpress.com/2020/12/10/what-if-they-are-all-wrong/</guid>
-      <pubDate>Tue, 05 Nov 2024 13:13:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Python 3.13 性能状态：自由线程</title>
-      <link>https://codspeed.io/blog/state-of-python-3-13-performance-free-threading</link>
-      <description><![CDATA[文章网址：https://codspeed.io/blog/state-of-python-3-13-performance-free-threading
-评论网址：https://news.ycombinator.com/item?id=42051197
-积分：40
-评论数：20]]></description>
-      <guid>https://codspeed.io/blog/state-of-python-3-13-performance-free-threading</guid>
-      <pubDate>Tue, 05 Nov 2024 13:06:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：rallyup – 轻量级局域网唤醒调度程序</title>
-      <link>https://github.com/darwindarak/rallyup</link>
-      <description><![CDATA[嗨，HN，我一直想要一个简单的解决方案来处理我的家庭和工作实验室的 LAN 唤醒序列，以便以正确的顺序启动服务器。我已经涉足 Rust，并认为这将是一个有趣的项目，值得深入研究，看看它是否适合这种网络工具。结果是 rallyup。rallyup 允许您在 YAML 文件中设置服务器依赖项，因此每个服务（例如防火墙、存储、VM 主机）都以正确的顺序上线。它会在移动到下一个服务器之前验证每个服务器的状态。功能：- 基于依赖关系的 WOL，支持 VLAN
-- 内置健康检查（HTTP、开放端口、shell 命令）
-- 足够轻量，可以在 Raspberry Pi 或类似设备上运行欢迎任何反馈。感谢您的关注！
-
-评论网址：https://news.ycombinator.com/item?id=42050862
-积分：46
-评论数：14]]></description>
-      <guid>https://github.com/darwindarak/rallyup</guid>
-      <pubDate>Tue, 05 Nov 2024 12:04:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>网络新闻：起源故事 [pdf]</title>
-      <link>https://www.cs.columbia.edu/~smb/papers/netnews-hist.pdf</link>
-      <description><![CDATA[文章网址：https://www.cs.columbia.edu/~smb/papers/netnews-hist.pdf
-评论网址：https://news.ycombinator.com/item?id=42048021
-积分：31
-评论数：1]]></description>
-      <guid>https://www.cs.columbia.edu/~smb/papers/netnews-hist.pdf</guid>
-      <pubDate>Tue, 05 Nov 2024 02:09:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>分页寡妇，或者，为什么我对我的电子书感到尴尬（2023）</title>
-      <link>https://clagnut.com/blog/2426</link>
-      <description><![CDATA[文章网址：https://clagnut.com/blog/2426
-评论网址：https://news.ycombinator.com/item?id=42047677
-积分：190
-评论数：105]]></description>
-      <guid>https://clagnut.com/blog/2426</guid>
-      <pubDate>Tue, 05 Nov 2024 00:58:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Ruby 中的进化算法生成低多边形图像（2023）</title>
-      <link>https://thomascountz.com/2023/07/30/low-poly-image-generation</link>
-      <description><![CDATA[文章网址：https://thomascountz.com/2023/07/30/low-poly-image-generation
-评论网址：https://news.ycombinator.com/item?id=42047320
-积分：80
-评论数：28]]></description>
-      <guid>https://thomascountz.com/2023/07/30/low-poly-image-generation</guid>
-      <pubDate>Mon, 04 Nov 2024 23:50:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
