@@ -4,14 +4,76 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 06 Nov 2024 15:18:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2024 18:22:47 GMT</lastBuildDate>
+    <item>
+      <title>十分钟学会不相信 All-In 播客</title>
+      <link>https://passingtime.substack.com/p/learning-not-to-trust-the-all-in</link>
+      <description><![CDATA[文章网址：https://passingtime.substack.com/p/learning-not-to-trust-the-all-in
+评论网址：https://news.ycombinator.com/item?id=42065538
+积分：29
+评论数：1]]></description>
+      <guid>https://passingtime.substack.com/p/learning-not-to-trust-the-all-in</guid>
+      <pubDate>Wed, 06 Nov 2024 17:14:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>将 HN：Hacker News 首页显示为可个性化的印刷报纸</title>
+      <link>https://yourhackernews.com/</link>
+      <description><![CDATA[文章网址：https://yourhackernews.com/
+评论网址：https://news.ycombinator.com/item?id=42063709
+积分：79
+评论数：30]]></description>
+      <guid>https://yourhackernews.com/</guid>
+      <pubDate>Wed, 06 Nov 2024 15:23:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Aide，一款开源 AI 原生 IDE</title>
+      <link>https://aide.dev/</link>
+      <description><![CDATA[嗨，HN，我们是 Aide 的创建者 Sandeep 和 Naresh。我们很高兴开源并邀请社区试用 Aide，这是一个集成了 LLM 的 VSCode 分支。为了讨论这些功能，我们设计了以下内容：- 主动代理代理迭代 linter 错误（由语言服务器提供支持）并通过执行转到定义、转到引用等来提取相关上下文，并提出修复建议或要求提供上下文中可能缺少的更多文件。- 开发人员控制我们鼓励您在编码会话的基础上进行编辑。为了实现这一点，我们构建了一个 VSCode 原生回滚功能，如果有错误，只需单击一下即可删除代理所做的所有编辑，而不会弄乱您之前的更改。- 聊天+编辑组合流程，可用于集思广益和编辑您可以通过在聊天中@文件来集思广益，然后进行编辑（可以跨多个文件进行），或者从一组较小的编辑开始，讨论它的副作用- 内联编辑小部件我们从 macos 聚光灯小部件中汲取灵感，在编辑器中创建了一个类似的小部件，您可以突出显示部分代码，执行 Cmd+K 并自由给出您的说明- 本地运行的 AI 大脑我们发布了一个名为 sidecar 的二进制文件，它负责与 LLM 提供者交谈、准备提示和使用 LLM 编辑器。所有这些都是本地的，您可以完全控制提示/响应，而不会泄露给我们（除非您选择使用订阅并与我们共享数据）我们花了 15 个月的时间学习 VSCode 的内部结构（它是一个不平凡的代码库），同时也为我们的 AI 游戏提供动力，该框架在 swebench-lite 中也名列前茅，得分为 43%。
+除此之外，由于整个 AI 方面的逻辑都在您的机器上本地运行，您可以完全控制数据，从提示到响应，您也可以使用自己的 API 密钥（可以是任何 LLM 提供商）并直接与他们交谈。还有很多东西要构建，我们已经完成了 1%。现在，编辑器感觉很强大，不会破坏我们想要解决的任何流程。如果您还希望我们构建其他内容，请告诉我们。我们也希望赋能可扩展性，与社区一起构建下一组功能，树立AI原生编辑器的新里程碑。
+
+评论网址：https://news.ycombinator.com/item?id=42063346
+积分：76
+评论数：66]]></description>
+      <guid>https://aide.dev/</guid>
+      <pubDate>Wed, 06 Nov 2024 15:01:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Term-Lisp – 基于模式匹配和术语重写的 Lisp</title>
+      <link>https://github.com/abuseofnotation/termlisp</link>
+      <description><![CDATA[文章网址：https://github.com/abuseofnotation/termlisp
+评论网址：https://news.ycombinator.com/item?id=42063210
+积分：13
+评论数：1]]></description>
+      <guid>https://github.com/abuseofnotation/termlisp</guid>
+      <pubDate>Wed, 06 Nov 2024 14:53:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD Ryzen 7 9800X3D Linux 性能：配备 3D V-Cache 的 Zen 5</title>
+      <link>https://www.phoronix.com/review/amd-ryzen-7-9800x3d-linux</link>
+      <description><![CDATA[文章网址：https://www.phoronix.com/review/amd-ryzen-7-9800x3d-linux
+评论网址：https://news.ycombinator.com/item?id=42062934
+积分：81
+评论数：42]]></description>
+      <guid>https://www.phoronix.com/review/amd-ryzen-7-9800x3d-linux</guid>
+      <pubDate>Wed, 06 Nov 2024 14:38:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>任天堂确认 Switch 2 将向后兼容 Switch</title>
+      <link>https://www.videogameschronicle.com/news/nintendo-switchs-successor-will-be-backwards-compatible-with-switch-nintendo-confirms/</link>
+      <description><![CDATA[文章网址：https://www.videogameschronicle.com/news/nintendo-switchs-successor-will-be-backwards-compatible-with-switch-nintendo-confirms/
+评论网址：https://news.ycombinator.com/item?id=42062841
+积分：135
+评论数：88]]></description>
+      <guid>https://www.videogameschronicle.com/news/nintendo-switchs-successor-will-be-backwards-compatible-with-switch-nintendo-confirms/</guid>
+      <pubDate>Wed, 06 Nov 2024 14:32:32 GMT</pubDate>
+    </item>
     <item>
       <title>研究：南佛罗里达州正在下 PFAS 雨</title>
       <link>https://www.sciencedirect.com/science/article/abs/pii/S1309104224002678</link>
       <description><![CDATA[文章网址：https://www.sciencedirect.com/science/article/abs/pii/S1309104224002678
 评论网址：https://news.ycombinator.com/item?id=42062294
-积分：10
-评论数：2]]></description>
+积分：54
+评论数：19]]></description>
       <guid>https://www.sciencedirect.com/science/article/abs/pii/S1309104224002678</guid>
       <pubDate>Wed, 06 Nov 2024 13:54:04 GMT</pubDate>
     </item>
@@ -20,28 +82,18 @@
       <link>https://security.apple.com/documentation/private-cloud-compute/</link>
       <description><![CDATA[文章网址：https://security.apple.com/documentation/private-cloud-compute/
 评论网址：https://news.ycombinator.com/item?id=42062230
-积分：38
-评论数：7]]></description>
+积分：153
+评论数：62]]></description>
       <guid>https://security.apple.com/documentation/private-cloud-compute/</guid>
       <pubDate>Wed, 06 Nov 2024 13:48:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>比特币价格创下新高</title>
-      <link>https://www.coinbase.com/price/bitcoin</link>
-      <description><![CDATA[文章网址：https://www.coinbase.com/price/bitcoin
-评论网址：https://news.ycombinator.com/item?id=42062211
-积分：95
-评论数：96]]></description>
-      <guid>https://www.coinbase.com/price/bitcoin</guid>
-      <pubDate>Wed, 06 Nov 2024 13:47:43 GMT</pubDate>
     </item>
     <item>
       <title>欧盟对康宁公司的反竞争行为展开反垄断调查</title>
       <link>https://ec.europa.eu/commission/presscorner/detail/en/ip_24_5681</link>
       <description><![CDATA[文章网址：https://ec.europa.eu/commission/presscorner/detail/en/ip_24_5681
 评论网址：https://news.ycombinator.com/item?id=42061599
-积分：37
-评论数：4]]></description>
+积分：72
+评论数：14]]></description>
       <guid>https://ec.europa.eu/commission/presscorner/detail/en/ip_24_5681</guid>
       <pubDate>Wed, 06 Nov 2024 13:00:12 GMT</pubDate>
     </item>
@@ -50,60 +102,10 @@
       <link>https://devblogs.microsoft.com/oldnewthing/20241031-00/?p=110443</link>
       <description><![CDATA[文章网址：https://devblogs.microsoft.com/oldnewthing/20241031-00/?p=110443
 评论网址：https://news.ycombinator.com/item?id=42061313
-积分：62
-评论数：10]]></description>
+积分：119
+评论数：48]]></description>
       <guid>https://devblogs.microsoft.com/oldnewthing/20241031-00/?p=110443</guid>
       <pubDate>Wed, 06 Nov 2024 12:39:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：SuperSplat – 开源 3D 高斯 Splat 编辑器</title>
-      <link>https://playcanvas.com/supersplat/editor?load=https://raw.githubusercontent.com/willeastcott/assets/main/toy-cat.ply&camera.overlay=false&show.bound=false</link>
-      <description><![CDATA[文章网址：https://playcanvas.com/supersplat/editor?load=https://raw.githubusercontent.com/willeastcott/assets/main/toy-cat.ply&amp;camera.overlay=false&amp;show.bound=false
-评论网址：https://news.ycombinator.com/item?id=42060856
-积分：74
-评论数：16]]></description>
-      <guid>https://playcanvas.com/supersplat/editor?load=https://raw.githubusercontent.com/willeastcott/assets/main/toy-cat.ply&camera.overlay=false&show.bound=false</guid>
-      <pubDate>Wed, 06 Nov 2024 12:07:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>为火星基地供电</title>
-      <link>https://caseyhandmer.wordpress.com/2024/11/05/powering-the-mars-base/</link>
-      <description><![CDATA[文章网址：https://caseyhandmer.wordpress.com/2024/11/05/powering-the-mars-base/
-评论网址：https://news.ycombinator.com/item?id=42060286
-积分：41
-评论数：18]]></description>
-      <guid>https://caseyhandmer.wordpress.com/2024/11/05/powering-the-mars-base/</guid>
-      <pubDate>Wed, 06 Nov 2024 11:26:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>3D 旋转设计</title>
-      <link>https://www.mattkeeter.com/projects/rotation/</link>
-      <description><![CDATA[文章网址：https://www.mattkeeter.com/projects/rotation/
-评论网址：https://news.ycombinator.com/item?id=42058355
-积分：24
-评论数：9]]></description>
-      <guid>https://www.mattkeeter.com/projects/rotation/</guid>
-      <pubDate>Wed, 06 Nov 2024 09:07:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>DNSSEC 根信任锚即将发生的变化</title>
-      <link>https://lists.dns-oarc.net/pipermail/dns-operations/2024-November/022711.html</link>
-      <description><![CDATA[文章网址：https://lists.dns-oarc.net/pipermail/dns-operations/2024-November/022711.html
-评论网址：https://news.ycombinator.com/item?id=42058302
-积分：56
-评论数：6]]></description>
-      <guid>https://lists.dns-oarc.net/pipermail/dns-operations/2024-November/022711.html</guid>
-      <pubDate>Wed, 06 Nov 2024 09:02:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>木星的新图像</title>
-      <link>https://www.missionjuno.swri.edu/junocam/processing?source=all&ob_from=2024-10-01&ob_to=2024-11-01&phases%5B%5D=PERIJOVE+66&perpage=16</link>
-      <description><![CDATA[文章网址：https://www.missionjuno.swri.edu/junocam/processing?source=all&amp;ob_from=2024-10-01&amp;ob_to=2024-11-01&amp;phases%5B%5D=PERIJOVE+66&amp;perpage=16
-评论网址：https://news.ycombinator.com/item?id=42057851
-积分：225
-评论数：38]]></description>
-      <guid>https://www.missionjuno.swri.edu/junocam/processing?source=all&ob_from=2024-10-01&ob_to=2024-11-01&phases%5B%5D=PERIJOVE+66&perpage=16</guid>
-      <pubDate>Wed, 06 Nov 2024 07:30:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
