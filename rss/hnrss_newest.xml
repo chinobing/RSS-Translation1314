@@ -4,106 +4,117 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 10 Nov 2024 12:29:57 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2024 15:16:11 GMT</lastBuildDate>
     <item>
-      <title>摩洛哥限制宣扬引发圣战的战争言论</title>
-      <link>https://apnews.com/article/morocco-imam-war-israel-palestinians-preaching-jihad-ccf6f7867859a5180583c00a8137265b</link>
-      <description><![CDATA[文章网址：https://apnews.com/article/morocco-imam-war-israel-palestinians-preaching-jihad-ccf6f7867859a5180583c00a8137265b
-评论网址：https://news.ycombinator.com/item?id=42099788
+      <title>阿兰图灵的人工智能艺术作品以 100 万美元的价格售出</title>
+      <link>https://www.bbc.com/news/articles/cpqdvz4w45wo</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cpqdvz4w45wo
+评论网址：https://news.ycombinator.com/item?id=42100613
 积分：1
 评论数：0]]></description>
-      <guid>https://apnews.com/article/morocco-imam-war-israel-palestinians-preaching-jihad-ccf6f7867859a5180583c00a8137265b</guid>
-      <pubDate>Sun, 10 Nov 2024 12:14:28 GMT</pubDate>
+      <guid>https://www.bbc.com/news/articles/cpqdvz4w45wo</guid>
+      <pubDate>Sun, 10 Nov 2024 15:08:23 GMT</pubDate>
     </item>
     <item>
-      <title>PanCake – 基于文本的任务管理器</title>
-      <link>https://github.com/TRWither/pancake</link>
-      <description><![CDATA[文章网址：https://github.com/TRWither/pancake
-评论网址：https://news.ycombinator.com/item?id=42099782
+      <title>台积电将于周一停止为中国生产先进人工智能芯片</title>
+      <link>https://www.ft.com/content/a736beeb-b38a-484e-bbe9-98e92ecb66d9</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/a736beeb-b38a-484e-bbe9-98e92ecb66d9
+评论网址：https://news.ycombinator.com/item?id=42100607
 积分：1
 评论数：0]]></description>
-      <guid>https://github.com/TRWither/pancake</guid>
-      <pubDate>Sun, 10 Nov 2024 12:12:47 GMT</pubDate>
+      <guid>https://www.ft.com/content/a736beeb-b38a-484e-bbe9-98e92ecb66d9</guid>
+      <pubDate>Sun, 10 Nov 2024 15:06:27 GMT</pubDate>
     </item>
     <item>
-      <title>哈里森先生计时员的原理</title>
-      <link>https://incoherency.co.uk/blog/stories/principles-harrison-timekeeper.html</link>
-      <description><![CDATA[文章网址：https://incoherency.co.uk/blog/stories/principles-harrison-timekeeper.html
-评论网址：https://news.ycombinator.com/item?id=42099778
+      <title>显示 HN：Httpclock。一个无用的时钟，除非时间是有效的状态代码</title>
+      <link>https://httpclock.com</link>
+      <description><![CDATA[几个月前，我做了一个有趣的小项目，但它绝对没有任何实用性。tldr：如果当前时间可以映射到有效的 HTTP 状态代码（例如，下午 4:04 -&gt; 404 未找到），则服务器将向客户端返回该状态代码。注意：由于项目的性质，在任何给定时间您很有可能在浏览器中看到空白页。如果您在发布后不久查看此内容，请尝试 cet 子域（更多信息见下文）。示例：https://x.com/scottinallcaps/status/1827211120194486597——httpclock.com 域根据 IP 地址重定向到客户端相应的时区子域（例如 pt.httpclock.com）。否则它会恢复为 utc。注意：我在欧洲中部时间下午 4 点之后提交此信息，因为 4xx 系列具有最多的状态代码 - https://cet.httpclock.com浏览器将显示空白页或状态代码和文本。我建议像这样使用 curl： curl -i https://cet.httpclock.com
+
+
+——如果当前时间无效（即未映射到有效状态代码），则服务器将返回 999，没有内容： s@s ~&gt; curl -I https://cet.httpclock.com
+HTTP/1.1 999 未知
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=31536000; 
+...
+
+无论如何，希望你喜欢这个非常无用的时钟。我计划很快在 GitHub 上发布代码，因为我也可能这样做。谢谢！
+
+评论网址：https://news.ycombinator.com/item?id=42100606
+积分：1
+评论数：0]]></description>
+      <guid>https://httpclock.com</guid>
+      <pubDate>Sun, 10 Nov 2024 15:05:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>兼职数据录入工作 – Workpt.com</title>
+      <link>https://workpt.com/data-entry-jobs</link>
+      <description><![CDATA[文章网址：https://workpt.com/data-entry-jobs
+评论网址：https://news.ycombinator.com/item?id=42100603
+积分：1
+评论数：0]]></description>
+      <guid>https://workpt.com/data-entry-jobs</guid>
+      <pubDate>Sun, 10 Nov 2024 15:05:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>ReiserFS 和艺术与艺术家问题</title>
+      <link>https://corecursive.com/reiserfs/</link>
+      <description><![CDATA[文章网址：https://corecursive.com/reiserfs/
+评论网址：https://news.ycombinator.com/item?id=42100594
 积分：2
 评论数：0]]></description>
-      <guid>https://incoherency.co.uk/blog/stories/principles-harrison-timekeeper.html</guid>
-      <pubDate>Sun, 10 Nov 2024 12:11:31 GMT</pubDate>
+      <guid>https://corecursive.com/reiserfs/</guid>
+      <pubDate>Sun, 10 Nov 2024 15:03:07 GMT</pubDate>
     </item>
     <item>
-      <title>M4 和 M4 Pro Mac mini 可能是 Apple 最好的 Mac mini</title>
-      <link>https://arstechnica.com/apple/2024/11/review-m4-and-m4-pro-mac-minis-are-probably-apples-best-mac-minis-ever/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/apple/2024/11/review-m4-and-m4-pro-mac-minis-are-probably-apples-best-mac-minis-ever/
-评论网址：https://news.ycombinator.com/item?id=42099769
+      <title>科学家通过令人惊讶的 ecDNA 癌症发现推翻了孟德尔定律</title>
+      <link>https://scitechdaily.com/stanford-scientists-overturn-mendels-law-with-shocking-cancer-discovery/</link>
+      <description><![CDATA[文章网址：https://scitechdaily.com/stanford-scientists-overturn-mendels-law-with-shocking-cancer-discovery/
+评论网址：https://news.ycombinator.com/item?id=42100591
 积分：1
 评论数：0]]></description>
-      <guid>https://arstechnica.com/apple/2024/11/review-m4-and-m4-pro-mac-minis-are-probably-apples-best-mac-minis-ever/</guid>
-      <pubDate>Sun, 10 Nov 2024 12:09:27 GMT</pubDate>
+      <guid>https://scitechdaily.com/stanford-scientists-overturn-mendels-law-with-shocking-cancer-discovery/</guid>
+      <pubDate>Sun, 10 Nov 2024 15:02:41 GMT</pubDate>
     </item>
     <item>
-      <title>重启三哩岛核电站的大胆计划</title>
-      <link>https://www.wsj.com/business/energy-oil/three-mile-island-nuclear-plant-reopen-7accde1f</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/business/energy-oil/three-mile-island-nuclear-plant-reopen-7accde1f
-评论网址：https://news.ycombinator.com/item?id=42099764
+      <title>项目治理工具包 – Agile、Git Flow 和设计</title>
+      <link>https://karmanivero.us/toolkits/project-governance/intro/</link>
+      <description><![CDATA[文章网址：https://karmanivero.us/toolkits/project-governance/intro/
+评论网址：https://news.ycombinator.com/item?id=42100588
 积分：1
 评论数：0]]></description>
-      <guid>https://www.wsj.com/business/energy-oil/three-mile-island-nuclear-plant-reopen-7accde1f</guid>
-      <pubDate>Sun, 10 Nov 2024 12:07:07 GMT</pubDate>
+      <guid>https://karmanivero.us/toolkits/project-governance/intro/</guid>
+      <pubDate>Sun, 10 Nov 2024 15:01:49 GMT</pubDate>
     </item>
     <item>
-      <title>M4 Pro Mac 的高功率模式</title>
-      <link>https://mjtsai.com/blog/2024/11/08/high-power-mode-for-m4-pro-macs/</link>
-      <description><![CDATA[文章网址：https://mjtsai.com/blog/2024/11/08/high-power-mode-for-m4-pro-macs/
-评论网址：https://news.ycombinator.com/item?id=42099761
+      <title>艺术是为了探索，而不是进步：对 SBF 的回应</title>
+      <link>https://danfrank.ca/why-i-dont-identify-with-the-progress-studies-community/</link>
+      <description><![CDATA[文章网址：https://danfrank.ca/why-i-dont-identify-with-the-progress-studies-community/
+评论网址：https://news.ycombinator.com/item?id=42100580
 积分：1
 评论数：0]]></description>
-      <guid>https://mjtsai.com/blog/2024/11/08/high-power-mode-for-m4-pro-macs/</guid>
-      <pubDate>Sun, 10 Nov 2024 12:06:04 GMT</pubDate>
+      <guid>https://danfrank.ca/why-i-dont-identify-with-the-progress-studies-community/</guid>
+      <pubDate>Sun, 10 Nov 2024 15:00:36 GMT</pubDate>
     </item>
     <item>
-      <title>EtchDroid：在 Android 上将操作系统映像写入 USB 驱动器，无需 root 权限</title>
-      <link>https://github.com/etchdroid/etchdroid</link>
-      <description><![CDATA[文章网址：https://github.com/etchdroid/etchdroid
-评论网址：https://news.ycombinator.com/item?id=42099760
+      <title>美国在线之声“电子邮箱”节目主持人去世，享年 74 岁</title>
+      <link>https://arstechnica.com/gadgets/2024/11/the-voice-of-america-onlines-youve-got-mail-has-died-at-age-74/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/gadgets/2024/11/the-voice-of-america-onlines-youve-got-mail-has-died-at-age-74/
+评论网址：https://news.ycombinator.com/item?id=42100578
 积分：1
 评论数：0]]></description>
-      <guid>https://github.com/etchdroid/etchdroid</guid>
-      <pubDate>Sun, 10 Nov 2024 12:05:55 GMT</pubDate>
+      <guid>https://arstechnica.com/gadgets/2024/11/the-voice-of-america-onlines-youve-got-mail-has-died-at-age-74/</guid>
+      <pubDate>Sun, 10 Nov 2024 15:00:05 GMT</pubDate>
     </item>
     <item>
-      <title>虚拟帆船赛，面向所有人的旺代环球帆船赛</title>
-      <link>https://www.sail-world.com/news/281231/Virtual-Regatta-the-Vendee-Globe-for-everyone</link>
-      <description><![CDATA[文章网址：https://www.sail-world.com/news/281231/Virtual-Regatta-the-Vendee-Globe-for-everyone
-评论网址：https://news.ycombinator.com/item?id=42099757
-积分：1
-评论数：0]]></description>
-      <guid>https://www.sail-world.com/news/281231/Virtual-Regatta-the-Vendee-Globe-for-everyone</guid>
-      <pubDate>Sun, 10 Nov 2024 12:04:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>首幅人形机器人绘制的艺术品在拍卖会上售出 100 万美元</title>
-      <link>https://www.theguardian.com/artanddesign/2024/nov/08/alan-turing-portrait-ai-da-robot-painting-sale-price-auction</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/artanddesign/2024/nov/08/alan-turing-portrait-ai-da-robot-painting-sale-price-auction
-评论网址：https://news.ycombinator.com/item?id=42099751
-积分：1
+      <title>显示 HN：PageGen-使用 Claude AI、React 和 Shadcn UI 以更快的速度生成 10 倍的页面</title>
+      <link>https://pagegen.ai</link>
+      <description><![CDATA[使用 PageGen AI 以 10 倍更快的速度生成页面，只需单击一下即可从文本、屏幕截图、图像、文件和 URL 生成精美、可立即投入生产的网页
+
+评论 URL：https://news.ycombinator.com/item?id=42100575
+积分：2
 评论数：1]]></description>
-      <guid>https://www.theguardian.com/artanddesign/2024/nov/08/alan-turing-portrait-ai-da-robot-painting-sale-price-auction</guid>
-      <pubDate>Sun, 10 Nov 2024 12:02:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Wayland 支持 565 版本系列</title>
-      <link>https://forums.developer.nvidia.com/t/wayland-support-for-the-565-release-series/312688</link>
-      <description><![CDATA[文章网址：https://forums.developer.nvidia.com/t/wayland-support-for-the-565-release-series/312688
-评论网址：https://news.ycombinator.com/item?id=42099750
-积分：1
-评论数：0]]></description>
-      <guid>https://forums.developer.nvidia.com/t/wayland-support-for-the-565-release-series/312688</guid>
-      <pubDate>Sun, 10 Nov 2024 12:02:08 GMT</pubDate>
+      <guid>https://pagegen.ai</guid>
+      <pubDate>Sun, 10 Nov 2024 14:58:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
