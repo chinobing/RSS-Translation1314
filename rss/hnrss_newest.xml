@@ -4,117 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 10 Nov 2024 15:16:11 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2024 18:20:30 GMT</lastBuildDate>
     <item>
-      <title>阿兰图灵的人工智能艺术作品以 100 万美元的价格售出</title>
-      <link>https://www.bbc.com/news/articles/cpqdvz4w45wo</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cpqdvz4w45wo
-评论网址：https://news.ycombinator.com/item?id=42100613
+      <title>Sunrun 第三季度太阳能和储能安装量实现两位数增长</title>
+      <link>https://www.pv-tech.org/sunrun-grows-installed-solar-and-storage-capacity-by-double-digits-in-q3/</link>
+      <description><![CDATA[文章网址：https://www.pv-tech.org/sunrun-grows-installed-solar-and-storage-capacity-by-double-digits-in-q3/
+评论网址：https://news.ycombinator.com/item?id=42101577
 积分：1
 评论数：0]]></description>
-      <guid>https://www.bbc.com/news/articles/cpqdvz4w45wo</guid>
-      <pubDate>Sun, 10 Nov 2024 15:08:23 GMT</pubDate>
+      <guid>https://www.pv-tech.org/sunrun-grows-installed-solar-and-storage-capacity-by-double-digits-in-q3/</guid>
+      <pubDate>Sun, 10 Nov 2024 18:13:56 GMT</pubDate>
     </item>
     <item>
-      <title>台积电将于周一停止为中国生产先进人工智能芯片</title>
-      <link>https://www.ft.com/content/a736beeb-b38a-484e-bbe9-98e92ecb66d9</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/a736beeb-b38a-484e-bbe9-98e92ecb66d9
-评论网址：https://news.ycombinator.com/item?id=42100607
+      <title>世嘉关闭唯一合法 ROM 来源之一，删除 60 款经典游戏</title>
+      <link>https://www.gamesradar.com/platforms/pc-gaming/out-of-nowhere-after-14-years-segas-killing-off-one-of-the-only-sources-of-legal-roms-on-the-entire-internet-as-it-delists-60-classic-games/</link>
+      <description><![CDATA[文章网址：https://www.gamesradar.com/platforms/pc-gaming/out-of-nowhere-after-14-years-segas-killing-off-one-of-the-only-sources-of-legal-roms-on-the-entire-internet-as-it-delists-60-classic-games/
+评论网址：https://news.ycombinator.com/item?id=42101575
 积分：1
 评论数：0]]></description>
-      <guid>https://www.ft.com/content/a736beeb-b38a-484e-bbe9-98e92ecb66d9</guid>
-      <pubDate>Sun, 10 Nov 2024 15:06:27 GMT</pubDate>
+      <guid>https://www.gamesradar.com/platforms/pc-gaming/out-of-nowhere-after-14-years-segas-killing-off-one-of-the-only-sources-of-legal-roms-on-the-entire-internet-as-it-delists-60-classic-games/</guid>
+      <pubDate>Sun, 10 Nov 2024 18:12:40 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Httpclock。一个无用的时钟，除非时间是有效的状态代码</title>
-      <link>https://httpclock.com</link>
-      <description><![CDATA[几个月前，我做了一个有趣的小项目，但它绝对没有任何实用性。tldr：如果当前时间可以映射到有效的 HTTP 状态代码（例如，下午 4:04 -&gt; 404 未找到），则服务器将向客户端返回该状态代码。注意：由于项目的性质，在任何给定时间您很有可能在浏览器中看到空白页。如果您在发布后不久查看此内容，请尝试 cet 子域（更多信息见下文）。示例：https://x.com/scottinallcaps/status/1827211120194486597——httpclock.com 域根据 IP 地址重定向到客户端相应的时区子域（例如 pt.httpclock.com）。否则它会恢复为 utc。注意：我在欧洲中部时间下午 4 点之后提交此信息，因为 4xx 系列具有最多的状态代码 - https://cet.httpclock.com浏览器将显示空白页或状态代码和文本。我建议像这样使用 curl： curl -i https://cet.httpclock.com
+      <title>显示 HN：为后端操作自动生成的表单 UI</title>
+      <link>https://utils.demo.clace.io/dict</link>
+      <description><![CDATA[https://github.com/claceio/clace 是我一直在构建的一个项目，旨在帮助团队轻松部署内部工具。作为该项目的一部分，我添加了为后端操作创建简单的自动生成 UI 的功能。目标是构建一种部署自动化的简单方法，而不是使用 Rundeck 或 Jenkins 来运行脚本。Clace 是用 Go 实现的。Starlark（python 方言）用于配置支持的操作。您可以定义参数以及应运行的操作（例如运行 shell 脚本、运行 HTTP API 或数据库调用）。Clace 将显示自动生成的 UI。UI 使用 HTMX 进行交互，使用 OOB 交换。结果以文本、表格、JSON 树甚至自定义 HTML 报告的形式显示。https://utils.demo.clace.io/dict 是演示词典应用程序（应用程序源代码位于 https://github.com/claceio/apps/blob/main/misc/dictionary/ap...）。
 
-
-——如果当前时间无效（即未映射到有效状态代码），则服务器将返回 999，没有内容： s@s ~&gt; curl -I https://cet.httpclock.com
-HTTP/1.1 999 未知
-Referrer-Policy: no-referrer
-Strict-Transport-Security: max-age=31536000; 
-...
-
-无论如何，希望你喜欢这个非常无用的时钟。我计划很快在 GitHub 上发布代码，因为我也可能这样做。谢谢！
-
-评论网址：https://news.ycombinator.com/item?id=42100606
+评论网址：https://news.ycombinator.com/item?id=42101571
 积分：1
-评论数：0]]></description>
-      <guid>https://httpclock.com</guid>
-      <pubDate>Sun, 10 Nov 2024 15:05:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>兼职数据录入工作 – Workpt.com</title>
-      <link>https://workpt.com/data-entry-jobs</link>
-      <description><![CDATA[文章网址：https://workpt.com/data-entry-jobs
-评论网址：https://news.ycombinator.com/item?id=42100603
-积分：1
-评论数：0]]></description>
-      <guid>https://workpt.com/data-entry-jobs</guid>
-      <pubDate>Sun, 10 Nov 2024 15:05:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>ReiserFS 和艺术与艺术家问题</title>
-      <link>https://corecursive.com/reiserfs/</link>
-      <description><![CDATA[文章网址：https://corecursive.com/reiserfs/
-评论网址：https://news.ycombinator.com/item?id=42100594
-积分：2
-评论数：0]]></description>
-      <guid>https://corecursive.com/reiserfs/</guid>
-      <pubDate>Sun, 10 Nov 2024 15:03:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>科学家通过令人惊讶的 ecDNA 癌症发现推翻了孟德尔定律</title>
-      <link>https://scitechdaily.com/stanford-scientists-overturn-mendels-law-with-shocking-cancer-discovery/</link>
-      <description><![CDATA[文章网址：https://scitechdaily.com/stanford-scientists-overturn-mendels-law-with-shocking-cancer-discovery/
-评论网址：https://news.ycombinator.com/item?id=42100591
-积分：1
-评论数：0]]></description>
-      <guid>https://scitechdaily.com/stanford-scientists-overturn-mendels-law-with-shocking-cancer-discovery/</guid>
-      <pubDate>Sun, 10 Nov 2024 15:02:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>项目治理工具包 – Agile、Git Flow 和设计</title>
-      <link>https://karmanivero.us/toolkits/project-governance/intro/</link>
-      <description><![CDATA[文章网址：https://karmanivero.us/toolkits/project-governance/intro/
-评论网址：https://news.ycombinator.com/item?id=42100588
-积分：1
-评论数：0]]></description>
-      <guid>https://karmanivero.us/toolkits/project-governance/intro/</guid>
-      <pubDate>Sun, 10 Nov 2024 15:01:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>艺术是为了探索，而不是进步：对 SBF 的回应</title>
-      <link>https://danfrank.ca/why-i-dont-identify-with-the-progress-studies-community/</link>
-      <description><![CDATA[文章网址：https://danfrank.ca/why-i-dont-identify-with-the-progress-studies-community/
-评论网址：https://news.ycombinator.com/item?id=42100580
-积分：1
-评论数：0]]></description>
-      <guid>https://danfrank.ca/why-i-dont-identify-with-the-progress-studies-community/</guid>
-      <pubDate>Sun, 10 Nov 2024 15:00:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国在线之声“电子邮箱”节目主持人去世，享年 74 岁</title>
-      <link>https://arstechnica.com/gadgets/2024/11/the-voice-of-america-onlines-youve-got-mail-has-died-at-age-74/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/gadgets/2024/11/the-voice-of-america-onlines-youve-got-mail-has-died-at-age-74/
-评论网址：https://news.ycombinator.com/item?id=42100578
-积分：1
-评论数：0]]></description>
-      <guid>https://arstechnica.com/gadgets/2024/11/the-voice-of-america-onlines-youve-got-mail-has-died-at-age-74/</guid>
-      <pubDate>Sun, 10 Nov 2024 15:00:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：PageGen-使用 Claude AI、React 和 Shadcn UI 以更快的速度生成 10 倍的页面</title>
-      <link>https://pagegen.ai</link>
-      <description><![CDATA[使用 PageGen AI 以 10 倍更快的速度生成页面，只需单击一下即可从文本、屏幕截图、图像、文件和 URL 生成精美、可立即投入生产的网页
-
-评论 URL：https://news.ycombinator.com/item?id=42100575
-积分：2
 评论数：1]]></description>
-      <guid>https://pagegen.ai</guid>
-      <pubDate>Sun, 10 Nov 2024 14:58:38 GMT</pubDate>
+      <guid>https://utils.demo.clace.io/dict</guid>
+      <pubDate>Sun, 10 Nov 2024 18:11:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palworld 开发商详述任天堂诉讼中的专利侵权指控</title>
+      <link>https://www.nintendolife.com/news/2024/11/palworld-developer-details-patent-infringement-claims-from-nintendos-lawsuit</link>
+      <description><![CDATA[文章网址：https://www.nintendolife.com/news/2024/11/palworld-developer-details-patent-infringement-claims-from-nintendos-lawsuit
+评论网址：https://news.ycombinator.com/item?id=42101562
+积分：2
+评论数：0]]></description>
+      <guid>https://www.nintendolife.com/news/2024/11/palworld-developer-details-patent-infringement-claims-from-nintendos-lawsuit</guid>
+      <pubDate>Sun, 10 Nov 2024 18:10:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Framonial – 为 Framer 用户提供的一体化推荐工具</title>
+      <link>https://framonial.com/</link>
+      <description><![CDATA[文章网址：https://framonial.com/
+评论网址：https://news.ycombinator.com/item?id=42101551
+积分：1
+评论数：1]]></description>
+      <guid>https://framonial.com/</guid>
+      <pubDate>Sun, 10 Nov 2024 18:09:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rust 商标政策更新</title>
+      <link>https://foundation.rust-lang.org/news/rust-trademark-policy-updates/</link>
+      <description><![CDATA[文章网址：https://foundation.rust-lang.org/news/rust-trademark-policy-updates/
+评论网址：https://news.ycombinator.com/item?id=42101536
+积分：5
+评论数：0]]></description>
+      <guid>https://foundation.rust-lang.org/news/rust-trademark-policy-updates/</guid>
+      <pubDate>Sun, 10 Nov 2024 18:05:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么我们只记得购物清单上的第一件东西？</title>
+      <link>https://thedecisionlab.com/biases/primacy-effect</link>
+      <description><![CDATA[文章网址：https://thedecisionlab.com/biases/primacy-effect
+评论网址：https://news.ycombinator.com/item?id=42101533
+积分：1
+评论数：0]]></description>
+      <guid>https://thedecisionlab.com/biases/primacy-effect</guid>
+      <pubDate>Sun, 10 Nov 2024 18:05:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能团体争相重新设计模型测试并创建新的基准</title>
+      <link>https://www.ft.com/content/866ad6e9-f8fe-451f-9b00-cb9f638c7c59</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/866ad6e9-f8fe-451f-9b00-cb9f638c7c59
+评论网址：https://news.ycombinator.com/item?id=42101518
+积分：1
+评论数：0]]></description>
+      <guid>https://www.ft.com/content/866ad6e9-f8fe-451f-9b00-cb9f638c7c59</guid>
+      <pubDate>Sun, 10 Nov 2024 18:01:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>科罗拉多州莱克伍德市议会承认，在获得批准之前，开放空间法是非法的</title>
+      <link>https://www.westword.com/news/lakewood-council-passes-likely-illegal-open-space-law-22455739</link>
+      <description><![CDATA[文章网址：https://www.westword.com/news/lakewood-council-passes-likely-illegal-open-space-law-22455739
+评论网址：https://news.ycombinator.com/item?id=42101516
+积分：1
+评论数：0]]></description>
+      <guid>https://www.westword.com/news/lakewood-council-passes-likely-illegal-open-space-law-22455739</guid>
+      <pubDate>Sun, 10 Nov 2024 18:00:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>特朗普承诺废除拜登的人工智能行政命令——接下来会发生什么</title>
+      <link>https://www.nextgov.com/artificial-intelligence/2024/11/trump-promised-repeal-bidens-ai-executive-order-heres-what-expect-next/400934/</link>
+      <description><![CDATA[文章网址：https://www.nextgov.com/artificial-intelligence/2024/11/trump-promised-repeal-bidens-ai-executive-order-heres-what-expect-next/400934/
+评论网址：https://news.ycombinator.com/item?id=42101500
+积分：1
+评论数： 0]]></description>
+      <guid>https://www.nextgov.com/artificial-intelligence/2024/11/trump-promised-repeal-bidens-ai-executive-order-heres-what-expect-next/400934/</guid>
+      <pubDate>Sun, 10 Nov 2024 17:58:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
