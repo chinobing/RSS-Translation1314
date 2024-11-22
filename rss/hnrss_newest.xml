@@ -4,108 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 21 Nov 2024 21:16:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2024 01:20:31 GMT</lastBuildDate>
     <item>
-      <title>近一半的 Gen AI 采用者希望其开源——原因如下</title>
-      <link>https://www.zdnet.com/article/nearly-half-of-gen-ai-adopters-want-it-open-source-heres-why/</link>
-      <description><![CDATA[文章网址：https://www.zdnet.com/article/nearly-half-of-gen-ai-adopters-want-it-open-source-heres-why/
-评论网址：https://news.ycombinator.com/item?id=42208670
-积分：1
-评论数：0]]></description>
-      <guid>https://www.zdnet.com/article/nearly-half-of-gen-ai-adopters-want-it-open-source-heres-why/</guid>
-      <pubDate>Thu, 21 Nov 2024 21:08:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：为初创企业提供真实的人类身份/唯一性验证？</title>
-      <link>https://news.ycombinator.com/item?id=42208656</link>
-      <description><![CDATA[对于一个独立创业想法，为了减少我预料到的一些不寻常的滥用，我需要一种方法，让滥用者一旦被禁止就很难再创建另一个帐户。执行此操作的过程不应毫无必要地令人毛骨悚然或具有侵入性。但是，如果人们认为“这有点不同……”，以一种非消极的方式促使他们不要只是适应默认的社交媒体模式，那就没问题。如果最初只适用于美国人民，那就没问题。最初，直到业务起飞，它必须是免费的，或者以可预测的固定费率接近免费的。几个想法：* 信用卡 - 一些信用卡验证服务，即使我们最初不收费，或者大多数用户都使用免费套餐。也许支付服务会免费告诉我们用户提交了有效的信用卡，以及卡上的名字是什么。或者，不太理想的是，我们可以向卡中收取 1 美元或 5 美分的注册费，仅用于支付验证费用（尽管“哇，这不是完全免费的吗？！”的反应可能会让我们损失太多注册费用）。* 电话号码 - 使用 SMS/MMS 进行电话号码验证。以及某种方式来了解它是否是蜂窝计划，而不是像 Google Voice 这样的计划，最好是获取全名。了解信用卡或电话帐户上的真实姓名可能有助于检测滥用者。或者，也许它可以告诉我们何时处理账户上没有名字的一次性手机，我们至少可以看到它们是如何运作的，或者我们是否必须以不同的方式处理一次性手机。我不希望人们必须上镜，也不希望他们必须发送自己的身份证照片。如果这很重要，那么该网站/应用程序本来应该非常尊重隐私，包括不收集或保留超出运营服务所需数据，并且除了这种验证和付款之外不与第三方共享/出售数据（法律要求的情况除外）。因此，也许对此的一些保证有助于推销我们必须进行一次性验证，以使这里更安全。有什么想法吗？
+      <title>询问 HN：较低的图形和较低的计算能力 AI 或模拟渲染</title>
+      <link>https://news.ycombinator.com/item?id=42210245</link>
+      <description><![CDATA[对于所有 HN 来说，这是一个完全假设且鼓舞人心的问题。如果我/你决定，无论你对机器人技术、太空旅行、科幻小说有什么想法，都可以在足够低的抽象度下更好地呈现（无论是视觉上还是硬件方面）（例如《异形》、《银翼杀手》、《西部世界》中的图形，无论你最喜欢什么）。它会比今天的标准更快或更优化吗？例如：想象一下用哈尔的声音而不是他们给它的任何人类模仿的声音来聊天）
 
-评论网址：https://news.ycombinator.com/item?id=42208656
+评论网址：https://news.ycombinator.com/item?id=42210245
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42208656</guid>
-      <pubDate>Thu, 21 Nov 2024 21:06:38 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=42210245</guid>
+      <pubDate>Fri, 22 Nov 2024 01:02:05 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：PDF2MD – Rust+Redis+ClickHouse+VLLM PDF 转换管道</title>
-      <link>https://github.com/devflowinc/trieve/tree/main/pdf2md</link>
-      <description><![CDATA[如果您只是想使用它，请尝试这里 - https://pdf2md.trieve.ai 。我认为 LLM 在转换复杂的 powerpoint 样式信息图表方面非常出色。我通常不会认为 HN 上的人们会对此感兴趣，因为一般概念已经在过去几个月中发布过了。我们深受 Zerox[1] 的启发。然而，我们使用的堆栈很有趣，而且经过了过度设计，更有可能引发有趣的讨论。我们在 Trieve（我们的主要产品）中使用所有相同的工具，但想看看它们是否适合需要在更紧迫的时间内构建的东西，我们认为它们确实如此！我们花了 2 周的时间才完成这个端到端的设置，而且它绝不是完整的（请参阅链接的 README 中的路线图）。然而，很酷的是，可以如此快速地使用纯开源依赖项和非标准 Rust 工具创建这种相对千篇一律的 Web 服务。 Rust 不会杀死你的创业公司！- 用于 UI 的 Minijinja 模板[2]- 用于在浏览器中显示文档的 PDFObject[3]- actix/actix-web HTTP 服务器框架[4]- 用于工作器异步处理的 Redis 队列宏[5]- 用于任务存储的 Clickhouse[6]- 用于处理 Clickhouse 迁移的 chm CLI[7]- 用于对象存储的 MinIO S3[8][1]: https://news.ycombinator.com/item?id=41048194[2]: https://github.com/mitsuhiko/minijinja[3]: https://github.com/pipwerks/pdfobject[4]: https://github.com/actix/actix-web[5]: https://github.com/devflowinc/trieve/blob/main/pdf2md/server...[6]: https://github.com/ClickHouse/ClickHouse[7]: &lt;​​a href=&quot;https://docs.rs/chm/latest/chm/index.html&quot; rel=&quot;nofollow&quot;&gt;https://docs.rs/chm/latest/chm/index.html[8]: https://github.com/minio/minio
-
-评论网址: https://news.ycombinator.com/item?id=42208648
-积分: 1
-评论数: 0]]></description>
-      <guid>https://github.com/devflowinc/trieve/tree/main/pdf2md</guid>
-      <pubDate>Thu, 21 Nov 2024 21:05:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>TextSynth 服务器</title>
-      <link>https://bellard.org/ts_server/</link>
-      <description><![CDATA[文章网址：https://bellard.org/ts_server/
-评论网址：https://news.ycombinator.com/item?id=42208638
-积分：1
-评论数：0]]></description>
-      <guid>https://bellard.org/ts_server/</guid>
-      <pubDate>Thu, 21 Nov 2024 21:04:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能让美国先进隐形战斗机变得更加强大</title>
-      <link>https://gizmodo.com/ai-has-enshittified-americas-advanced-stealth-fighter-2000527934</link>
-      <description><![CDATA[文章网址：https://gizmodo.com/ai-has-enshittified-americas-advanced-stealth-fighter-2000527934
-评论网址：https://news.ycombinator.com/item?id=42208627
-积分：1
-评论数：0]]></description>
-      <guid>https://gizmodo.com/ai-has-enshittified-americas-advanced-stealth-fighter-2000527934</guid>
-      <pubDate>Thu, 21 Nov 2024 21:03:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究人员声称确定了 Elon X 开始增强的确切日期</title>
-      <link>https://gizmodo.com/researchers-claim-to-pinpoint-exact-date-when-elons-x-started-boosting-the-right-2000527141</link>
-      <description><![CDATA[文章网址：https://gizmodo.com/researchers-claim-to-pinpoint-exact-date-when-elons-x-started-boosting-the-right-2000527141
-评论网址：https://news.ycombinator.com/item?id=42208607
-积分：1
-评论数：1]]></description>
-      <guid>https://gizmodo.com/researchers-claim-to-pinpoint-exact-date-when-elons-x-started-boosting-the-right-2000527141</guid>
-      <pubDate>Thu, 21 Nov 2024 21:01:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>赫兹“无限”里程租赁：驾驶里程过多会被罚款 1 万美元？</title>
-      <link>https://onemileatatime.com/news/hertz-unlimited-miles-rental/</link>
-      <description><![CDATA[文章网址：https://onemileatatime.com/news/hertz-unlimited-miles-rental/
-评论网址：https://news.ycombinator.com/item?id=42208600
-积分：3
-评论数：0]]></description>
-      <guid>https://onemileatatime.com/news/hertz-unlimited-miles-rental/</guid>
-      <pubDate>Thu, 21 Nov 2024 21:00:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>安全研究人员发现针对 Linux 的新恶意软件</title>
-      <link>https://www.welivesecurity.com/en/eset-research/unveiling-wolfsbane-gelsemiums-linux-counterpart-to-gelsevirine/</link>
-      <description><![CDATA[文章网址：https://www.welivesecurity.com/en/eset-research/unveiling-wolfsbane-gelsemiums-linux-counterpart-to-gelsevirine/
-评论网址：https://news.ycombinator.com/item?id=42208580
+      <title>使用基于日期的 CSS 使旧网页看起来旧</title>
+      <link>https://shkspr.mobi/blog/2023/12/using-date-based-css-to-make-old-web-pages-look-old/</link>
+      <description><![CDATA[文章网址：https://shkspr.mobi/blog/2023/12/using-date-based-css-to-make-old-web-pages-look-old/
+评论网址：https://news.ycombinator.com/item?id=42210242
 积分：2
 评论数：0]]></description>
-      <guid>https://www.welivesecurity.com/en/eset-research/unveiling-wolfsbane-gelsemiums-linux-counterpart-to-gelsevirine/</guid>
-      <pubDate>Thu, 21 Nov 2024 20:57:30 GMT</pubDate>
+      <guid>https://shkspr.mobi/blog/2023/12/using-date-based-css-to-make-old-web-pages-look-old/</guid>
+      <pubDate>Fri, 22 Nov 2024 01:01:29 GMT</pubDate>
     </item>
     <item>
-      <title>Cryptgeon：安全的开源笔记/文件共享服务</title>
-      <link>https://cryptgeon.org/</link>
-      <description><![CDATA[文章网址：https://cryptgeon.org/
-评论网址：https://news.ycombinator.com/item?id=42208573
+      <title>反讽过程理论</title>
+      <link>https://en.wikipedia.org/wiki/Ironic_process_theory</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Ironic_process_theory
+评论网址：https://news.ycombinator.com/item?id=42210217
 积分：1
 评论数：0]]></description>
-      <guid>https://cryptgeon.org/</guid>
-      <pubDate>Thu, 21 Nov 2024 20:56:32 GMT</pubDate>
+      <guid>https://en.wikipedia.org/wiki/Ironic_process_theory</guid>
+      <pubDate>Fri, 22 Nov 2024 00:56:15 GMT</pubDate>
     </item>
     <item>
-      <title>奥列什尼克（导弹）</title>
-      <link>https://en.wikipedia.org/wiki/Oreshnik_(missile)</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Oreshnik_(missile)
-评论网址：https://news.ycombinator.com/item?id=42208572
+      <title>LMSys 终止了模型版本控制</title>
+      <link>https://buttondown.com/ainews/archive/ainews-lmsys-killed-model-versioning-gpt-4o-1120/</link>
+      <description><![CDATA[文章网址：https://buttondown.com/ainews/archive/ainews-lmsys-killed-model-versioning-gpt-4o-1120/
+评论网址：https://news.ycombinator.com/item?id=42210214
 积分：1
 评论数：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Oreshnik_(missile)</guid>
-      <pubDate>Thu, 21 Nov 2024 20:56:15 GMT</pubDate>
+      <guid>https://buttondown.com/ainews/archive/ainews-lmsys-killed-model-versioning-gpt-4o-1120/</guid>
+      <pubDate>Fri, 22 Nov 2024 00:55:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>西方选民拒绝排序投票</title>
+      <link>https://www.hcn.org/articles/western-voters-reject-ranked-choice-voting/</link>
+      <description><![CDATA[文章网址：https://www.hcn.org/articles/western-voters-reject-ranked-choice-voting/
+评论网址：https://news.ycombinator.com/item?id=42210212
+积分：1
+评论数：0]]></description>
+      <guid>https://www.hcn.org/articles/western-voters-reject-ranked-choice-voting/</guid>
+      <pubDate>Fri, 22 Nov 2024 00:55:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>告诉 HN：使用 Anthropic 有风险。他们未经警告就封杀了我们公司。</title>
+      <link>https://news.ycombinator.com/item?id=42210199</link>
+      <description><![CDATA[这已经是老生常谈了。我们被这些大规模行动封禁，我们别无选择，只能在 HN 上呼救。Anthropic 在没有警告的情况下封禁了我的公司[1]，让数千名用户陷入困境。联系他们的唯一方法是填写 Google 表单。有人遇到过这种情况吗？任何帮助我都会很感激。[1] https://x.com/NariBuildsStuff/status/1859759476133491051
+
+评论网址：https://news.ycombinator.com/item?id=42210199
+积分：1
+评论数：2]]></description>
+      <guid>https://news.ycombinator.com/item?id=42210199</guid>
+      <pubDate>Fri, 22 Nov 2024 00:52:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>展示 HN：我们为顶级销售代表提供了一支 AI 大军。销售渠道在 90 天内增长了 2 倍</title>
+      <link>https://twitter.com/rox__ai/status/1858873189486784666</link>
+      <description><![CDATA[听着，我将跳过通常的创始人废话。以下是实际发生的情况：我们为 35 个企业销售团队（包括 Ramp 的 AE）提供了一支 AI 代理大军。不是可爱的聊天机器人，而是那种负责执行管道执行重任，而您的顶级员工则专注于成交的机器人。结果：- 测试版中的订单增长了 30%- 每个企业 AE 团队每周节省了 225 多个小时- 管道执行活动翻了一番为什么这很重要：企业领导者正在将 2025 年的收入目标翻一番。但他们并没有将员工人数翻一番（令人震惊）。大多数人都忽略了这一点——90% 的收入来自前 15% 的销售代表。因此，我们不再试图“修复”表现不佳的人，而是构建一些东西来将您的成交者变成超级战士。工作原理：- 一群 AI 代理充当您的个人分析师大军- 他们计划、研究、参与和跟踪您的帐户- 不再有“单个聊天机器人试图做所有事情”的废话- 与您的内部数据集成（是的，包括您讨厌的遗留系统）这是有争议的部分：大多数 AI 公司都在试图取代繁重的工作。这很可爱。我们反而在放大您最好的人。因为说实话——您的顶级表演者不需要帮助写电子邮件。他们需要帮助同时出现在 10 个地方。我们公开发布。没有看门人。无需“与上个月刚毕业的 SDR 通话”。只需访问 rox.com 并尝试即可。
+
+评论网址：https://news.ycombinator.com/item?id=42210196
+积分：2
+评论数：0]]></description>
+      <guid>https://twitter.com/rox__ai/status/1858873189486784666</guid>
+      <pubDate>Fri, 22 Nov 2024 00:51:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Unity 中的 AI 代码执行 [视频]</title>
+      <link>https://www.youtube.com/watch?v=0xCR4fiyugA</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=0xCR4fiyugA
+评论网址：https://news.ycombinator.com/item?id=42210156
+积分：1
+评论数：0]]></description>
+      <guid>https://www.youtube.com/watch?v=0xCR4fiyugA</guid>
+      <pubDate>Fri, 22 Nov 2024 00:39:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于坏建议 (2021)</title>
+      <link>https://www.scattered-thoughts.net/writing/on-bad-advice/</link>
+      <description><![CDATA[文章网址：https://www.scattered-thoughts.net/writing/on-bad-advice/
+评论网址：https://news.ycombinator.com/item?id=42210151
+积分：1
+评论数：0]]></description>
+      <guid>https://www.scattered-thoughts.net/writing/on-bad-advice/</guid>
+      <pubDate>Fri, 22 Nov 2024 00:37:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究人员开发出一种新的化学工艺：三氮烯分解</title>
+      <link>https://www.technion.ac.il/en/2024/11/technion-researchers-have-developed-a-new-chemical-process-triazenolysis/</link>
+      <description><![CDATA[文章网址：https://www.technion.ac.il/en/2024/11/technion-researchers-have-developed-a-new-chemical-process-triazenolysis/
+评论网址：https://news.ycombinator.com/item?id=42210146
+积分：1
+评论数：0]]></description>
+      <guid>https://www.technion.ac.il/en/2024/11/technion-researchers-have-developed-a-new-chemical-process-triazenolysis/</guid>
+      <pubDate>Fri, 22 Nov 2024 00:36:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
