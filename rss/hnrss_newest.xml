@@ -4,133 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 24 Nov 2024 09:16:56 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 12:31:47 GMT</lastBuildDate>
     <item>
-      <title>赢得互联网自由：谷歌必须出售其 Chrome 浏览器</title>
-      <link>https://tuta.com/blog/google-must-sell-chrome-in-antitrust-case</link>
-      <description><![CDATA[文章网址：https://tuta.com/blog/google-must-sell-chrome-in-antitrust-case
-评论网址：https://news.ycombinator.com/item?id=42226860
+      <title>永远。在。写博客</title>
+      <link>https://www.natesilver.net/p/always-be-blogging</link>
+      <description><![CDATA[文章网址：https://www.natesilver.net/p/always-be-blogging
+评论网址：https://news.ycombinator.com/item?id=42227564
 积分：1
 评论数：0]]></description>
-      <guid>https://tuta.com/blog/google-must-sell-chrome-in-antitrust-case</guid>
-      <pubDate>Sun, 24 Nov 2024 09:07:31 GMT</pubDate>
+      <guid>https://www.natesilver.net/p/always-be-blogging</guid>
+      <pubDate>Sun, 24 Nov 2024 12:20:20 GMT</pubDate>
     </item>
     <item>
-      <title>密歇根州就沃特史密斯 PFAS 清理工作与空军发生新争端</title>
-      <link>https://www.mlive.com/environment/2024/10/michigan-invokes-new-dispute-with-air-force-over-wurtsmith-cleanup.html</link>
-      <description><![CDATA[文章网址：https://www.mlive.com/environment/2024/10/michigan-invokes-new-dispute-with-air-force-over-wurtsmith-cleanup.html
-评论网址：https://news.ycombinator.com/item?id=42226859
+      <title>显示 HN：高级威胁情报服务</title>
+      <link>https://github.com/ScanThe-Net</link>
+      <description><![CDATA[文章网址：https://github.com/ScanThe-Net
+评论网址：https://news.ycombinator.com/item?id=42227547
 积分：1
 评论数：0]]></description>
-      <guid>https://www.mlive.com/environment/2024/10/michigan-invokes-new-dispute-with-air-force-over-wurtsmith-cleanup.html</guid>
-      <pubDate>Sun, 24 Nov 2024 09:07:23 GMT</pubDate>
+      <guid>https://github.com/ScanThe-Net</guid>
+      <pubDate>Sun, 24 Nov 2024 12:15:22 GMT</pubDate>
     </item>
     <item>
-      <title>来自第三季的角色将在结局中安全</title>
-      <link>https://dramacool4u.vip/series/from/</link>
-      <description><![CDATA[文章网址：https://dramacool4u.vip/series/from/
-评论网址：https://news.ycombinator.com/item?id=42226847
+      <title>发布过程很糟糕</title>
+      <link>https://www.hezmatt.org/~mpalmer/blog/2024/11/23/your-release-process-sucks.html</link>
+      <description><![CDATA[文章网址：https://www.hezmatt.org/~mpalmer/blog/2024/11/23/your-release-process-sucks.html
+评论网址：https://news.ycombinator.com/item?id=42227544
 积分：1
 评论数：0]]></description>
-      <guid>https://dramacool4u.vip/series/from/</guid>
-      <pubDate>Sun, 24 Nov 2024 09:04:10 GMT</pubDate>
+      <guid>https://www.hezmatt.org/~mpalmer/blog/2024/11/23/your-release-process-sucks.html</guid>
+      <pubDate>Sun, 24 Nov 2024 12:13:50 GMT</pubDate>
     </item>
     <item>
-      <title>忘记像素艺术：尝试子像素</title>
-      <link>https://hackaday.com/2024/11/23/forget-pixel-art-try-subpixels/</link>
-      <description><![CDATA[文章网址：https://hackaday.com/2024/11/23/forget-pixel-art-try-subpixels/
-评论网址：https://news.ycombinator.com/item?id=42226844
-积分：1
-评论数：0]]></description>
-      <guid>https://hackaday.com/2024/11/23/forget-pixel-art-try-subpixels/</guid>
-      <pubDate>Sun, 24 Nov 2024 09:03:32 GMT</pubDate>
+      <title>令人费解的测量时间的新科学</title>
+      <link>https://www.ft.com/content/625d2043-a5a4-4d6d-bbe9-42e524a211dd</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/625d2043-a5a4-4d6d-bbe9-42e524a211dd
+评论网址：https://news.ycombinator.com/item?id=42227517
+积分：2
+评论数：1]]></description>
+      <guid>https://www.ft.com/content/625d2043-a5a4-4d6d-bbe9-42e524a211dd</guid>
+      <pubDate>Sun, 24 Nov 2024 12:08:20 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：您的新计算机/VM 引导方法是什么？</title>
-      <link>https://news.ycombinator.com/item?id=42226843</link>
-      <description><![CDATA[我终于觉得我已经经历了足够多次新电脑的设置过程，我已经准备好设置一个 repo 来托管一些安装脚本，我只需将其 curl 到 bash 中即可。到目前为止，我有一些想法：- 目标是拥有类似 `curl https://somesiteorgithub.com/myscript | bash` 的东西，它将使给定的计算机与我对设置所做的最新更改保持同步
-- 脚本应该可以重新运行而不会引起问题，并且可以在机器 x 上安装我在机器 y 上添加的任何新内容
-- 点文件也应该更新
-- 可能会让脚本签出我将用于存储所有内容的安装 repo，然后如果 repo 已经存在，则让脚本拉取
-- 将从安装 repo 中符号链接点文件
-- 以某种方式共享 shell 历史记录可能会很好.. 但还没有研究过如何做到这一点对于那些已经完成此过程的人，有什么建议吗？有什么意想不到的障碍阻碍了某些东西的工作？有没有关于此类内容的公开共享参考资料？编辑：
-Claude 在回答类似问题时提供了以下内容：
-```
-是的！这些通常被称为“点文件”、“引导脚本”或“系统初始化脚本”。一些著名的开发人员和组织维护着公共版本。以下是一些流行的例子：流行的个人点文件：
-Mathias Bynens 的点文件 - 最受欢迎的点文件存储库之一
-Paul Irish 的点文件 - 以前端为中心的设置
-Thoughtbot 的笔记本电脑 - 专业开发公司的设置
-holman/dotfiles - 按主题组织，结构非常好
-公司的设置脚本：
-Github 的代码空间点文件
-Thoughtbot 的点文件
-工具/框架：
-mac-dev-playbook - 基于 Ansible 的设置
-Homebrew Bundle - Brewfile 方法
-mackup - 保持应用程序设置同步
-点文件管理器：
-dotbot
-chezmoi
-yadm
-更多资源：dotfiles.github.io - GitHub 的点文件指南
-awesome-dotfiles - 精选的点文件资源列表
-```我会查看参考资料稍后。好奇是否有人对上述内容有经验，值得分享。
-
-评论网址：https://news.ycombinator.com/item?id=42226843
+      <title>研究人员称马斯基根湖泡沫中高浓度 PFAS 的来源未知</title>
+      <link>https://www.michiganpublic.org/environment-climate-change/2024-09-23/source-of-high-pfas-levels-in-muskegon-lake-foam-unknown-researchers-say</link>
+      <description><![CDATA[文章网址：https://www.michiganpublic.org/environment-climate-change/2024-09-23/source-of-high-pfas-levels-in-muskegon-lake-foam-unknown-researchers-say
+评论网址：https://news.ycombinator.com/item?id=42227514
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42226843</guid>
-      <pubDate>Sun, 24 Nov 2024 09:01:58 GMT</pubDate>
+      <guid>https://www.michiganpublic.org/environment-climate-change/2024-09-23/source-of-high-pfas-levels-in-muskegon-lake-foam-unknown-researchers-say</guid>
+      <pubDate>Sun, 24 Nov 2024 12:07:50 GMT</pubDate>
     </item>
     <item>
-      <title>火灾、急救和枪支：芬兰女性接受与俄罗斯作战的训练</title>
-      <link>https://www.theguardian.com/world/2024/nov/23/fires-first-aid-and-guns-meet-the-finnish-women-training-for-war-with-russia</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/world/2024/nov/23/fires-first-aid-and-guns-meet-the-finnish-women-training-for-war-with-russia
-评论网址：https://news.ycombinator.com/item?id=42226833
+      <title>亚马逊 Kindle Colorsoft 黄色条纹缺陷现在找到了罪魁祸首</title>
+      <link>https://www.tomsguide.com/tablets/e-readers/amazon-kindle-colorsoft-yellow-stripe-defect-now-has-a-culprit</link>
+      <description><![CDATA[文章网址：https://www.tomsguide.com/tablets/e-readers/amazon-kindle-colorsoft-yellow-stripe-defect-now-has-a-culprit
+评论网址：https://news.ycombinator.com/item?id=42227509
 积分：1
 评论数：0]]></description>
-      <guid>https://www.theguardian.com/world/2024/nov/23/fires-first-aid-and-guns-meet-the-finnish-women-training-for-war-with-russia</guid>
-      <pubDate>Sun, 24 Nov 2024 08:56:46 GMT</pubDate>
+      <guid>https://www.tomsguide.com/tablets/e-readers/amazon-kindle-colorsoft-yellow-stripe-defect-now-has-a-culprit</guid>
+      <pubDate>Sun, 24 Nov 2024 12:07:02 GMT</pubDate>
     </item>
     <item>
-      <title>FreeBSD 14.2-RC1 带来安装映像改进</title>
-      <link>https://www.phoronix.com/news/FreeBSD-14.2-RC1</link>
-      <description><![CDATA[文章网址：https://www.phoronix.com/news/FreeBSD-14.2-RC1
-评论网址：https://news.ycombinator.com/item?id=42226807
+      <title>神经科学家发现了药物引起认知缺陷的机制</title>
+      <link>https://www.psypost.org/neuroscientists-identify-a-reversible-biological-mechanism-behind-drug-induced-cognitive-deficits/</link>
+      <description><![CDATA[文章网址：https://www.psypost.org/neuroscientists-identify-a-reversible-biological-mechanism-behind-drug-induced-cognitive-deficits/
+评论网址：https://news.ycombinator.com/item?id=42227495
 积分：1
 评论数：0]]></description>
-      <guid>https://www.phoronix.com/news/FreeBSD-14.2-RC1</guid>
-      <pubDate>Sun, 24 Nov 2024 08:50:52 GMT</pubDate>
+      <guid>https://www.psypost.org/neuroscientists-identify-a-reversible-biological-mechanism-behind-drug-induced-cognitive-deficits/</guid>
+      <pubDate>Sun, 24 Nov 2024 12:02:09 GMT</pubDate>
     </item>
     <item>
-      <title>安川武士道项目 – 工业机器人与剑术大师 (2015) [视频]</title>
-      <link>https://www.youtube.com/watch?v=O3XyDLbaUmU</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=O3XyDLbaUmU
-评论网址：https://news.ycombinator.com/item?id=42226804
+      <title>Verisign 是垄断企业吗？这重要吗？</title>
+      <link>https://jl.ly/ICANN/vermonop.html?seemore=y</link>
+      <description><![CDATA[文章网址：https://jl.ly/ICANN/vermonop.html?seemore=y
+评论网址：https://news.ycombinator.com/item?id=42227494
 积分：1
 评论数：0]]></description>
-      <guid>https://www.youtube.com/watch?v=O3XyDLbaUmU</guid>
-      <pubDate>Sun, 24 Nov 2024 08:50:30 GMT</pubDate>
+      <guid>https://jl.ly/ICANN/vermonop.html?seemore=y</guid>
+      <pubDate>Sun, 24 Nov 2024 12:02:02 GMT</pubDate>
     </item>
     <item>
-      <title>植物组织培养</title>
-      <link>https://en.wikipedia.org/wiki/Plant_tissue_culture</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Plant_tissue_culture
-评论网址：https://news.ycombinator.com/item?id=42226802
+      <title>合成孔径雷达的历史</title>
+      <link>https://en.wikipedia.org/wiki/History_of_synthetic-aperture_radar</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/History_of_synthetic-aperture_radar
+评论网址：https://news.ycombinator.com/item?id=42227482
 积分：1
 评论数：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Plant_tissue_culture</guid>
-      <pubDate>Sun, 24 Nov 2024 08:50:27 GMT</pubDate>
+      <guid>https://en.wikipedia.org/wiki/History_of_synthetic-aperture_radar</guid>
+      <pubDate>Sun, 24 Nov 2024 12:00:36 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：自动生成代码的 Linear 副驾驶</title>
-      <link>https://www.ishoo.co</link>
-      <description><![CDATA[文章网址：https://www.ishoo.co
-评论网址：https://news.ycombinator.com/item?id=42226796
+      <title>乌克兰导弹危机：普京对西方的暗中战争被揭露</title>
+      <link>https://www.theguardian.com/world/2024/nov/23/the-ukraine-missile-crisis-putins-shadow-war-against-the-west-finally-breaks-cover</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/world/2024/nov/23/the-ukraine-missile-crisis-putins-shadow-war-against-the-west-finally-breaks-cover
+评论网址：https://news.ycombinator.com/item?id=42227479
 积分：1
 评论数：0]]></description>
-      <guid>https://www.ishoo.co</guid>
-      <pubDate>Sun, 24 Nov 2024 08:49:00 GMT</pubDate>
+      <guid>https://www.theguardian.com/world/2024/nov/23/the-ukraine-missile-crisis-putins-shadow-war-against-the-west-finally-breaks-cover</guid>
+      <pubDate>Sun, 24 Nov 2024 12:00:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
