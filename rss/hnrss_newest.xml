@@ -4,106 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 25 Nov 2024 06:26:22 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 09:20:27 GMT</lastBuildDate>
     <item>
-      <title>Craigslist 创始人捐赠 3 亿美元资助美国关键基础设施网络安全</title>
-      <link>https://finance.yahoo.com/news/craigslist-founder-is-giving-away-200-million-to-prevent-cybercrimes-against-the-us-141308596.html</link>
-      <description><![CDATA[文章网址：https://finance.yahoo.com/news/craigslist-founder-is-giving-away-200-million-to-prevent-cybercrimes-against-the-us-141308596.html
-评论网址：https://news.ycombinator.com/item?id=42233706
+      <title>询问 HN：在大量功能分析文档上训练 ChatGPT</title>
+      <link>https://news.ycombinator.com/item?id=42234509</link>
+      <description><![CDATA[我在一家大型公司担任遗留（约 30 年历史）应用程序的分析师。文档的质量正是我从我的第一句话中可以期望的。我们没有太多实际的技术文档，因为，嘿，你随时可以在编辑器中打开源代码并尝试了解到底发生了什么。然而，我们确实有几千字的文档，分析师用它们与业务用户讨论功能，并尝试使其足够明确以传递给开发人员。这里的质量也不是那么好，但我只是想知道是否有人遇到过类似的情况。我希望能够向 ChatGPT（或任何其他 LLM 系统，我在这里仅将 ChatGPT 作为简写）询问以下问题：- 您能告诉我有关功能 X 的什么信息？有一个硬编码限制 3 X，我需要了解如果我们删除它或将其设为用户设置参数会产生什么影响。- 表 WZ 上的字段 XY 的用途是什么？它似乎在过去 5 年中一直被设置为空。- 配置参数 X 对我来说有点晦涩难懂。它是用来做什么的？- 函数 X 使用悲观锁定。我们应该进行哪些更改以使其改用乐观锁定？- 由于新法律管辖该部分流程，我们需要修改功能 Y。具体来说，我们现在需要在 FOO 状态变为 BAR 时发送一封描述更改的电子邮件。
+您能否根据过去已经实现的类似功能，建议如何进行？作为一种奖励问题，我想我们还可以提供功能分析中描述的所有功能的源代码（在源代码中总是有注释定义添加/删除/修改了哪些代码行，并使用请求它的分析文档的 id），但除非绝对必要，否则我更愿意先从挖掘人类可读的文档开始。[我正在尝试为这个领域的试点项目创建一个商业案例，所以我想知道是否有人已经尝试过，或者是否不值得尝试]。
+
+评论网址：https://news.ycombinator.com/item?id=42234509
 积分：1
-评论数：0]]></description>
-      <guid>https://finance.yahoo.com/news/craigslist-founder-is-giving-away-200-million-to-prevent-cybercrimes-against-the-us-141308596.html</guid>
-      <pubDate>Mon, 25 Nov 2024 06:12:56 GMT</pubDate>
+# 评论： 0]]></description>
+      <guid>https://news.ycombinator.com/item?id=42234509</guid>
+      <pubDate>Mon, 25 Nov 2024 09:06:44 GMT</pubDate>
     </item>
     <item>
-      <title>如何有效地审查代码</title>
-      <link>https://github.blog/developer-skills/github/how-to-review-code-effectively-a-github-staff-engineers-philosophy/</link>
-      <description><![CDATA[文章网址：https://github.blog/developer-skills/github/how-to-review-code-effectively-a-github-staff-engineers-philosophy/
-评论网址：https://news.ycombinator.com/item?id=42233691
-积分：1
-评论数：0]]></description>
-      <guid>https://github.blog/developer-skills/github/how-to-review-code-effectively-a-github-staff-engineers-philosophy/</guid>
-      <pubDate>Mon, 25 Nov 2024 06:09:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>常春藤联盟如何摧毁美国</title>
-      <link>https://www.theatlantic.com/magazine/archive/2024/12/meritocracy-college-admissions-social-economic-segregation/680392/</link>
-      <description><![CDATA[文章网址：https://www.theatlantic.com/magazine/archive/2024/12/meritocracy-college-admissions-social-economic-segregation/680392/
-评论网址：https://news.ycombinator.com/item?id=42233651
-积分：2
-评论数：0]]></description>
-      <guid>https://www.theatlantic.com/magazine/archive/2024/12/meritocracy-college-admissions-social-economic-segregation/680392/</guid>
-      <pubDate>Mon, 25 Nov 2024 06:02:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>类似 AES 哈希算法的选择前缀冲突</title>
-      <link>https://eprint.iacr.org/2024/1888</link>
-      <description><![CDATA[文章网址：https://eprint.iacr.org/2024/1888
-评论网址：https://news.ycombinator.com/item?id=42233648
-积分：1
-评论数：0]]></description>
-      <guid>https://eprint.iacr.org/2024/1888</guid>
-      <pubDate>Mon, 25 Nov 2024 06:01:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>（重新）确认未来 C++ 发展的设计原则 [pdf]</title>
-      <link>https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3466r0.pdf</link>
-      <description><![CDATA[文章网址：https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3466r0.pdf
-评论网址：https://news.ycombinator.com/item?id=42233632
-积分：1
-评论数：0]]></description>
-      <guid>https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2024/p3466r0.pdf</guid>
-      <pubDate>Mon, 25 Nov 2024 05:56:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>里海为何萎缩</title>
-      <link>https://news.sky.com/story/the-caspian-sea-used-to-lie-beneath-these-swings-now-its-shrunk-13257281</link>
-      <description><![CDATA[文章网址：https://news.sky.com/story/the-caspian-sea-used-to-lie-beneath-these-swings-now-its-shrunk-13257281
-评论网址：https://news.ycombinator.com/item?id=42233626
-积分：1
-评论数：0]]></description>
-      <guid>https://news.sky.com/story/the-caspian-sea-used-to-lie-beneath-these-swings-now-its-shrunk-13257281</guid>
-      <pubDate>Mon, 25 Nov 2024 05:55:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>在量子处理器上实现拓扑有序时间晶体</title>
-      <link>https://phys.org/news/2024-11-topologically-crystals-quantum-processors.html</link>
-      <description><![CDATA[文章网址：https://phys.org/news/2024-11-topologically-crystals-quantum-processors.html
-评论网址：https://news.ycombinator.com/item?id=42233610
+      <title>为什么笔记本电脑的 RAM 这么小？（2015）</title>
+      <link>https://philip.greenspun.com/blog/2015/02/01/why-do-laptops-have-so-little-ram/</link>
+      <description><![CDATA[文章网址：https://philip.greenspun.com/blog/2015/02/01/why-do-laptops-have-so-little-ram/
+评论网址：https://news.ycombinator.com/item?id=42234501
 积分：1
 评论数：1]]></description>
-      <guid>https://phys.org/news/2024-11-topologically-crystals-quantum-processors.html</guid>
-      <pubDate>Mon, 25 Nov 2024 05:52:03 GMT</pubDate>
+      <guid>https://philip.greenspun.com/blog/2015/02/01/why-do-laptops-have-so-little-ram/</guid>
+      <pubDate>Mon, 25 Nov 2024 09:04:26 GMT</pubDate>
     </item>
     <item>
-      <title>沙地俄罗斯方块 (Sandtrix)：以沙子力学为基础的经典俄罗斯方块的独特演绎</title>
-      <link>https://sandtetris.net</link>
-      <description><![CDATA[文章网址：https://sandtetris.net
-评论网址：https://news.ycombinator.com/item?id=42233607
-积分：2
-评论数：1]]></description>
-      <guid>https://sandtetris.net</guid>
-      <pubDate>Mon, 25 Nov 2024 05:51:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>从标量到矢量会计单位</title>
-      <link>https://medium.com/@williamruddick/from-scalar-to-vector-units-of-account-2f11e6ea79ec</link>
-      <description><![CDATA[文章网址：https://medium.com/@williamruddick/from-scalar-to-vector-units-of-account-2f11e6ea79ec
-评论网址：https://news.ycombinator.com/item?id=42233570
+      <title>删除了 3 个月的工作 (2017)</title>
+      <link>https://github.com/microsoft/vscode/issues/32405</link>
+      <description><![CDATA[文章网址：https://github.com/microsoft/vscode/issues/32405
+评论网址：https://news.ycombinator.com/item?id=42234500
 积分：1
 评论数：0]]></description>
-      <guid>https://medium.com/@williamruddick/from-scalar-to-vector-units-of-account-2f11e6ea79ec</guid>
-      <pubDate>Mon, 25 Nov 2024 05:42:24 GMT</pubDate>
+      <guid>https://github.com/microsoft/vscode/issues/32405</guid>
+      <pubDate>Mon, 25 Nov 2024 09:04:14 GMT</pubDate>
     </item>
     <item>
-      <title>日常生活：全球 BGP 表</title>
-      <link>https://articles.foletta.org/post/2024-01-08-a-day-in-the-life-the-bgp-table/</link>
-      <description><![CDATA[文章网址：https://articles.foletta.org/post/2024-01-08-a-day-in-the-life-the-bgp-table/
-评论网址：https://news.ycombinator.com/item?id=42233565
-积分：4
+      <title>Bluesky：开放网络的好处</title>
+      <link>https://emilyliu.me/blog/open-network</link>
+      <description><![CDATA[文章网址：https://emilyliu.me/blog/open-network
+评论网址：https://news.ycombinator.com/item?id=42234499
+积分：2
 评论数：0]]></description>
-      <guid>https://articles.foletta.org/post/2024-01-08-a-day-in-the-life-the-bgp-table/</guid>
-      <pubDate>Mon, 25 Nov 2024 05:41:45 GMT</pubDate>
+      <guid>https://emilyliu.me/blog/open-network</guid>
+      <pubDate>Mon, 25 Nov 2024 09:04:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>我为何辞去皇家学会会士职务</title>
+      <link>http://deevybee.blogspot.com/2024/11/why-i-have-resigned-from-royal-society.html</link>
+      <description><![CDATA[文章网址：http://deevybee.blogspot.com/2024/11/why-i-have-resigned-from-royal-society.html
+评论网址：https://news.ycombinator.com/item?id=42234497
+积分：2
+评论数：0]]></description>
+      <guid>http://deevybee.blogspot.com/2024/11/why-i-have-resigned-from-royal-society.html</guid>
+      <pubDate>Mon, 25 Nov 2024 09:03:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Outlook 中断</title>
+      <link>https://downdetector.com/status/microsoft-365/</link>
+      <description><![CDATA[文章网址：https://downdetector.com/status/microsoft-365/
+评论网址：https://news.ycombinator.com/item?id=42234470
+积分：1
+评论数：2]]></description>
+      <guid>https://downdetector.com/status/microsoft-365/</guid>
+      <pubDate>Mon, 25 Nov 2024 08:58:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>锈蚀：不适合工作</title>
+      <link>https://oida.dev/unsafe-for-work/</link>
+      <description><![CDATA[文章网址：https://oida.dev/unsafe-for-work/
+评论网址：https://news.ycombinator.com/item?id=42234437
+积分：3
+评论数：0]]></description>
+      <guid>https://oida.dev/unsafe-for-work/</guid>
+      <pubDate>Mon, 25 Nov 2024 08:52:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>1997 年 5 月 27 日德克萨斯州中部龙卷风爆发</title>
+      <link>https://storymaps.arcgis.com/stories/05696a8e01bc4e91a0a941290a62e86d</link>
+      <description><![CDATA[文章网址：https://storymaps.arcgis.com/stories/05696a8e01bc4e91a0a941290a62e86d
+评论网址：https://news.ycombinator.com/item?id=42234436
+积分：1
+评论数：0]]></description>
+      <guid>https://storymaps.arcgis.com/stories/05696a8e01bc4e91a0a941290a62e86d</guid>
+      <pubDate>Mon, 25 Nov 2024 08:52:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>目录可以帮助您找到客户</title>
+      <link>https://www.dynamite-ai.com/blog/how-directories-can-help-you-find-customers</link>
+      <description><![CDATA[文章网址：https://www.dynamite-ai.com/blog/how-directories-can-help-you-find-customers
+评论网址：https://news.ycombinator.com/item?id=42234433
+积分：1
+评论数：0]]></description>
+      <guid>https://www.dynamite-ai.com/blog/how-directories-can-help-you-find-customers</guid>
+      <pubDate>Mon, 25 Nov 2024 08:51:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>贡布格</title>
+      <link>https://news.ycombinator.com/item?id=42234426</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=42234426
+积分：1
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=42234426</guid>
+      <pubDate>Mon, 25 Nov 2024 08:50:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
