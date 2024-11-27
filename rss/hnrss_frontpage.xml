@@ -4,14 +4,55 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 27 Nov 2024 15:18:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2024 18:24:16 GMT</lastBuildDate>
+    <item>
+      <title>您可以将 C-Reduce 用于任何语言</title>
+      <link>https://bernsteinbear.com/blog/creduce/</link>
+      <description><![CDATA[文章网址：https://bernsteinbear.com/blog/creduce/
+评论网址：https://news.ycombinator.com/item?id=42258103
+积分：15
+评论数：1]]></description>
+      <guid>https://bernsteinbear.com/blog/creduce/</guid>
+      <pubDate>Wed, 27 Nov 2024 17:56:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>麦卡锡主义前奏：黑名单的形成 (2006)</title>
+      <link>https://www.archives.gov/publications/prologue/2006/fall/agloso.html</link>
+      <description><![CDATA[文章网址：https://www.archives.gov/publications/prologue/2006/fall/agloso.html
+评论网址：https://news.ycombinator.com/item?id=42257519
+积分：3
+评论数：0]]></description>
+      <guid>https://www.archives.gov/publications/prologue/2006/fall/agloso.html</guid>
+      <pubDate>Wed, 27 Nov 2024 16:52:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动 HN：Keep (YC W23) – 开源 AIOps 和警报管理</title>
+      <link>https://github.com/keephq/keep</link>
+      <description><![CDATA[大家好，我是 Keep (keephq.dev) 的 HN、Matvey、Shahar 和 Tal。Keep 让您可以轻松地集中来自任何监控工具的警报，并进行关联（手动或基于 AI）、丰富、重复数据删除、过滤，然后运行自动化（例如自动恢复或票务同步）。例如，如果您有 Sentry 来处理异常、Prometheus 来处理指标、您的云提供商来处理日志，您可以轻松地将所有警报发送到 Keep，并获得一个运行工作流的出色界面。只需在 https://playground.keephq.dev 上亲自查看，或者只需查看我们的存储库 https://github.com/keephq/keep无论有没有 OpenTelemtry，我们在监控、可观察性和警报方面总是遇到麻烦。虽然尝试了几乎所有的工具，但我们总是缺少一些东西，最终发现自己正在构建符合我们需求的互补工具。Keep 就像是警报的瑞士军刀 - 从收集、丰富、关联到自动化，无所不能。我们拥有超过 90 个集成：从警报、拓扑 (CMDB)、票务、数据库等，到用于监控堆栈的类似 GitHub-Action 的界面（我们在这里为其做了一个 Show HN：https://news.ycombinator.com/item?id=37381268）手动触发、cron、警报或基于事件的触发、智能关联层，我们使用 LLM 或预配置规则将警报关联到事件（想象一下“数据库已关闭”以及来自其他服务的大量 5XX）、自以为是或自定义的重复数据删除规则以仅查看重要的警报、提取和映射功能以提取/添加警报中缺失的信息、单一窗格可在一处查看和管理所有内容以及包含电池的 LLM：与您的可观察性数据聊天BigPanda、Moogsoft、Splunk 等工具ITSI 或 Datadog Event Management 将 AIOps 视为一项附带任务——尝试锁定供应商或仅为大型企业部署 AIOps，同时我们构建一个可以为任何规模的组织提供服务的工具。我们完全开源（MIT 许可证），我们通过 SaaS 管理版本和企业功能获利：SSO、RBAC、审计、全天候支持、更长的保留时间和私人部署。我们很高兴分享我们过去一年的工作成果，并希望听到您的反馈和意见！托管演示：https://playground.keephq.dev开源：https://github.com/keephq/keep登陆页面：https://keephq.dev
+
+评论网址：https://news.ycombinator.com/item?id=42257060
+积分：44
+评论数：6]]></description>
+      <guid>https://github.com/keephq/keep</guid>
+      <pubDate>Wed, 27 Nov 2024 15:58:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>16 世纪的切比雪夫多项式 (2022)</title>
+      <link>https://arxiv.org/abs/2203.10955</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2203.10955
+评论网址：https://news.ycombinator.com/item?id=42256589
+积分：43
+评论数：15]]></description>
+      <guid>https://arxiv.org/abs/2203.10955</guid>
+      <pubDate>Wed, 27 Nov 2024 14:58:25 GMT</pubDate>
+    </item>
     <item>
       <title>Emacs 任意代码执行及其避免方法</title>
       <link>https://eshelyaron.com/posts/2024-11-27-emacs-aritrary-code-execution-and-how-to-avoid-it.html</link>
       <description><![CDATA[文章网址：https://eshelyaron.com/posts/2024-11-27-emacs-aritrary-code-execution-and-how-to-avoid-it.html
 评论网址：https://news.ycombinator.com/item?id=42256409
-积分：20
-评论数：1]]></description>
+积分：85
+评论数：64]]></description>
       <guid>https://eshelyaron.com/posts/2024-11-27-emacs-aritrary-code-execution-and-how-to-avoid-it.html</guid>
       <pubDate>Wed, 27 Nov 2024 14:36:06 GMT</pubDate>
     </item>
@@ -20,91 +61,56 @@
       <link>https://www.oranlooney.com/post/genji-ko/</link>
       <description><![CDATA[文章网址：https://www.oranlooney.com/post/genji-ko/
 评论网址：https://news.ycombinator.com/item?id=42256394
-积分：8
-评论数：0]]></description>
+积分：59
+评论数：3]]></description>
       <guid>https://www.oranlooney.com/post/genji-ko/</guid>
       <pubDate>Wed, 27 Nov 2024 14:33:31 GMT</pubDate>
     </item>
     <item>
-      <title>OpenWrt 社区提问：您希望在 OpenWrt 中看到什么？</title>
-      <link>https://forum.openwrt.org/t/community-question-what-do-you-want-to-see-in-openwrt/216706</link>
-      <description><![CDATA[文章网址：https://forum.openwrt.org/t/community-question-what-do-you-want-to-see-in-openwrt/216706
-评论网址：https://news.ycombinator.com/item?id=42256307
-积分：5
-评论数：0]]></description>
-      <guid>https://forum.openwrt.org/t/community-question-what-do-you-want-to-see-in-openwrt/216706</guid>
-      <pubDate>Wed, 27 Nov 2024 14:22:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：对希望了解最新 AI 技术的 SWE 的建议</title>
-      <link>https://news.ycombinator.com/item?id=42256093</link>
-      <description><![CDATA[我希望了解人工智能领域的最新动态，我几乎每天都使用 ChatGPT，去年我最后一次使用开放的 AI API 是 3.5。我正在寻找像 HN 这样的技术博客来了解人工智能的最新动态，我偶然发现了 https://simonwillison.net/，但它似乎支离破碎
+      <title>显示 HN：AutoPiP – 用于自动画中画模式的 Safari 扩展</title>
+      <link>https://github.com/vordenken/AutoPiP</link>
+      <description><![CDATA[AutoPiP 是一款 Safari 扩展程序，可在切换标签时自动启用画中画模式，并在返回视频标签时禁用该模式。无需点击 - 观看视频时无缝进行多任务处理。主要功能：
+• 切换标签时自动激活画中画
+• 仅对活动视频进行智能检测
+• 返回标签时无缝禁用
+• 无需配置GitHub：https://github.com/vordenken/AutoPiP
 
-评论网址：https://news.ycombinator.com/item?id=42256093
-积分：41
-评论数：18]]></description>
-      <guid>https://news.ycombinator.com/item?id=42256093</guid>
-      <pubDate>Wed, 27 Nov 2024 13:55:20 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=42254870
+积分：7
+评论数：1]]></description>
+      <guid>https://github.com/vordenken/AutoPiP</guid>
+      <pubDate>Wed, 27 Nov 2024 10:36:00 GMT</pubDate>
     </item>
     <item>
-      <title>古代苏美尔人创造了第一个书写系统</title>
-      <link>https://lithub.com/how-the-ancient-sumerians-created-the-worlds-first-writing-system/</link>
-      <description><![CDATA[文章网址：https://lithub.com/how-the-ancient-sumerians-created-the-worlds-first-writing-system/
-评论网址：https://news.ycombinator.com/item?id=42255829
-积分：33
-评论数：24]]></description>
-      <guid>https://lithub.com/how-the-ancient-sumerians-created-the-worlds-first-writing-system/</guid>
-      <pubDate>Wed, 27 Nov 2024 13:15:57 GMT</pubDate>
+      <title>显示 HN：ColoringsAI – 来自 Ideas 的自定义着色页（我女儿的想法）</title>
+      <link>https://www.coloringsai.com/en</link>
+      <description><![CDATA[我为 4 岁的女儿创建了 ColoringsAI，她喜欢涂色，但有时会对相同的旧设计感到厌倦。使用此应用，您可以输入任何想法（例如“魔法森林中的独角兽”或“在太空中飞行的火箭”），并立即将其变成可打印的着色页。它在我们家很受欢迎，现在我要与大家分享！在 ColoringsAI 上查看并告诉我您的想法。我很想听到您的反馈或您想出的任何有趣想法！
+
+评论 URL：https://news.ycombinator.com/item?id=42254434
+积分：25
+评论数：13]]></description>
+      <guid>https://www.coloringsai.com/en</guid>
+      <pubDate>Wed, 27 Nov 2024 09:23:46 GMT</pubDate>
     </item>
     <item>
       <title>展示 HN：每次解锁手机时都会询问“为什么？”的应用程序</title>
       <link>https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US</link>
       <description><![CDATA[文章网址：https://play.google.com/store/apps/details?id=com.actureunlock&amp;hl=en_US
 评论网址：https://news.ycombinator.com/item?id=42254156
-积分：320
-评论数：179]]></description>
+积分：483
+评论数：258]]></description>
       <guid>https://play.google.com/store/apps/details?id=com.actureunlock&hl=en_US</guid>
       <pubDate>Wed, 27 Nov 2024 08:34:35 GMT</pubDate>
     </item>
     <item>
-      <title>凡人的珍妮特 (2023)</title>
-      <link>https://ianthehenry.com/posts/janet-for-mortals/</link>
-      <description><![CDATA[文章网址：https://ianthehenry.com/posts/janet-for-mortals/
-评论网址：https://news.ycombinator.com/item?id=42253241
-积分：163
-评论数：34]]></description>
-      <guid>https://ianthehenry.com/posts/janet-for-mortals/</guid>
-      <pubDate>Wed, 27 Nov 2024 05:34:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>黑暗时代的灯塔 (2019)</title>
-      <link>https://archaeology.org/issues/january-february-2019/features/a-dark-age-beacon/</link>
-      <description><![CDATA[文章网址：https://archaeology.org/issues/january-february-2019/features/a-dark-age-beacon/
-评论网址：https://news.ycombinator.com/item?id=42253211
-积分：14
-评论数：1]]></description>
-      <guid>https://archaeology.org/issues/january-february-2019/features/a-dark-age-beacon/</guid>
-      <pubDate>Wed, 27 Nov 2024 05:27:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>苹果在工厂错误焊接的电容器</title>
-      <link>https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/</link>
-      <description><![CDATA[文章网址：https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/
-评论网址：https://news.ycombinator.com/item?id=42253119
-积分：296
-评论数：105]]></description>
-      <guid>https://www.downtowndougbrown.com/2024/11/the-capacitor-that-apple-soldered-incorrectly-at-the-factory/</guid>
-      <pubDate>Wed, 27 Nov 2024 05:10:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>SSH 艺术品</title>
-      <link>https://github.com/villasv/ssh-artwork</link>
-      <description><![CDATA[文章网址：https://github.com/villasv/ssh-artwork
-评论网址：https://news.ycombinator.com/item?id=42251958
-积分：64
-评论数：10]]></description>
-      <guid>https://github.com/villasv/ssh-artwork</guid>
-      <pubDate>Wed, 27 Nov 2024 01:16:55 GMT</pubDate>
+      <title>21点游戏规则 (2007)</title>
+      <link>https://www.blackjackincolor.com/</link>
+      <description><![CDATA[文章网址：https://www.blackjackincolor.com/
+评论网址：https://news.ycombinator.com/item?id=42253654
+积分：4
+评论数：0]]></description>
+      <guid>https://www.blackjackincolor.com/</guid>
+      <pubDate>Wed, 27 Nov 2024 07:01:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
