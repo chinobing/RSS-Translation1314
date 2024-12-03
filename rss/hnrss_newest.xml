@@ -4,116 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 03 Dec 2024 06:27:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Dec 2024 09:19:26 GMT</lastBuildDate>
     <item>
-      <title>Go 中好的联合类型可能需要没有零值的类型</title>
-      <link>https://utcc.utoronto.ca/~cks/space/blog/programming/GoUnionTypesAndZeroValues</link>
-      <description><![CDATA[文章网址：https://utcc.utoronto.ca/~cks/space/blog/programming/GoUnionTypesAndZeroValues
-评论网址：https://news.ycombinator.com/item?id=42303449
+      <title>Linux 内核驱动程序接口</title>
+      <link>https://www.kernel.org/doc/Documentation/process/stable-api-nonsense.rst</link>
+      <description><![CDATA[文章网址：https://www.kernel.org/doc/Documentation/process/stable-api-nonsense.rst
+评论网址：https://news.ycombinator.com/item?id=42304312
 积分：1
 评论数：0]]></description>
-      <guid>https://utcc.utoronto.ca/~cks/space/blog/programming/GoUnionTypesAndZeroValues</guid>
-      <pubDate>Tue, 03 Dec 2024 06:21:39 GMT</pubDate>
+      <guid>https://www.kernel.org/doc/Documentation/process/stable-api-nonsense.rst</guid>
+      <pubDate>Tue, 03 Dec 2024 09:10:28 GMT</pubDate>
     </item>
     <item>
-      <title>完整的 LangGraph 蓝图 – 构建 50 个 AI 代理，助力企业成功</title>
-      <link>https://news.ycombinator.com/item?id=42303448</link>
-      <description><![CDATA[嗨，HN，我很高兴地宣布推出我的新书《完整的 LangGraph 蓝图：构建 50 多个 AI 代理以实现业务成功》。LangGraph 是一个开源框架，旨在使 AI 代理工作流更具动态性、适应性更强、功能更强大。与传统的基于链的工作流不同，LangGraph 利用图形轻松处理复杂的决策、分支和并发。本书是一本循序渐进的指南，可带您从初学者到高级，帮助您为金融、医疗保健、客户服务等行业构建和部署 50 多个现实世界的 AI 代理。里面有什么？
-LangGraph 的核心原则：节点、边、状态和图形。
-如何通过内存、多代理架构和人机交互功能增强 AI 代理。
-与 API 和高级用例的实际集成。
-每个概念的完整代码示例和图表。为什么选择 LangGraph？
-如果您使用过 LangChain，您一定会爱上 LangGraph！它超越了静态链，引入了动态路由、自适应工作流和智能决策工具选择。该框架是开源的，本书旨在帮助开发人员、初创公司和企业释放其潜力。适合谁？
-希望提升 AI 代理框架技能的开发人员。
-利用 AI 实现工作流自动化的企业家。
-对 LangGraph 等下一代工具感兴趣的 AI 爱好者。获取书籍：https://www.amazon.com/dp/B0DP69QV7K我很乐意听取您的想法、反馈和问题！
+      <title>初创公司 CTO：他们的工作不是创建</title>
+      <link>https://www.chrismdp.com/the-job-is-not-to-build/</link>
+      <description><![CDATA[文章网址：https://www.chrismdp.com/the-job-is-not-to-build/
+评论网址：https://news.ycombinator.com/item?id=42304311
+积分：1
+评论数：0]]></description>
+      <guid>https://www.chrismdp.com/the-job-is-not-to-build/</guid>
+      <pubDate>Tue, 03 Dec 2024 09:09:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>CNCF概况</title>
+      <link>https://landscape.cncf.io/</link>
+      <description><![CDATA[文章网址：https://landscape.cncf.io/
+评论网址：https://news.ycombinator.com/item?id=42304303
+积分：2
+评论数：0]]></description>
+      <guid>https://landscape.cncf.io/</guid>
+      <pubDate>Tue, 03 Dec 2024 09:08:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：当你编程时你会听什么歌曲？</title>
+      <link>https://news.ycombinator.com/item?id=42304291</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=42304291
+积分：1
+评论数：1]]></description>
+      <guid>https://news.ycombinator.com/item?id=42304291</guid>
+      <pubDate>Tue, 03 Dec 2024 09:06:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>炽热伤口 (2018)</title>
+      <link>https://www.utmb.edu/mdnews/podcast/episode/glowing-wounds</link>
+      <description><![CDATA[文章网址：https://www.utmb.edu/mdnews/podcast/episode/glowing-wounds
+评论网址：https://news.ycombinator.com/item?id=42304278
+积分：1
+评论数：0]]></description>
+      <guid>https://www.utmb.edu/mdnews/podcast/episode/glowing-wounds</guid>
+      <pubDate>Tue, 03 Dec 2024 09:03:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：如果类型是好的，为什么每个变量不应该是自定义类型？</title>
+      <link>https://news.ycombinator.com/item?id=42304261</link>
+      <description><![CDATA[我们使用类型在编译时查找错误，以防止运行时错误。当我们在应该使用 f64 的地方使用 i32 时，我们的 linter 可以立即引发错误，我们可以立即修复它。类型数量有限：最多可能只有几十种，但实际上我们经常反复使用相同的泛型类型。有时我们会命名结构，这是使用其他类型的一个很好的例子（但这通常是为了将相关数据保存在一个地方，而不是通常拥有唯一的类型）。那么如果类型很好，为什么没有更多人将自定义类型也用于原始类型？我不记得在我使用过的库中看到过这种情况。这增加了可能的类型数量，这应该可以帮助我们捕获更多错误。它还可以帮助开发人员了解每个变量是什么、它应该做什么以及它来自哪里。对于我的例子，我正在考虑一个金融程序，我们正在跟踪价格或账户价值。因此，我们可能有几十种不同“类型”的浮动资金，围绕着我们的程序浮动（双关语不是故意的，但我会接受）。我们可能有一个股票价格和许多期权价格，或者一个人可能有一个包含大量历史价值或交易的银行账户。那么为什么没有更多的程序这样做，你这样做还是一些公司这样做？
 
-评论网址：https://news.ycombinator.com/item?id=42303448
+评论网址：https://news.ycombinator.com/item?id=42304261
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42303448</guid>
-      <pubDate>Tue, 03 Dec 2024 06:21:36 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=42304261</guid>
+      <pubDate>Tue, 03 Dec 2024 08:59:20 GMT</pubDate>
     </item>
     <item>
-      <title>四轴 3D 打印机 [视频]</title>
-      <link>https://www.youtube.com/watch?v=VEgwnhLHy3g</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=VEgwnhLHy3g
-评论网址：https://news.ycombinator.com/item?id=42303446
+      <title>Airflow 插件教程 – 我们如何构建 EDW Grants 插件</title>
+      <link>https://newsletter.hipposys.ai/p/airflow-plugin-tutorial-building</link>
+      <description><![CDATA[文章网址：https://newsletter.hipposys.ai/p/airflow-plugin-tutorial-building
+评论网址：https://news.ycombinator.com/item?id=42304255
 积分：1
 评论数：0]]></description>
-      <guid>https://www.youtube.com/watch?v=VEgwnhLHy3g</guid>
-      <pubDate>Tue, 03 Dec 2024 06:21:20 GMT</pubDate>
+      <guid>https://newsletter.hipposys.ai/p/airflow-plugin-tutorial-building</guid>
+      <pubDate>Tue, 03 Dec 2024 08:58:35 GMT</pubDate>
     </item>
     <item>
-      <title>家得宝网站正在发生中断</title>
-      <link>https://www.homedepot.com/</link>
-      <description><![CDATA[文章网址：https://www.homedepot.com/
-评论网址：https://news.ycombinator.com/item?id=42303442
+      <title>Stripe 替代方案比较器</title>
+      <link>https://stripealternatives.com/</link>
+      <description><![CDATA[文章网址：https://stripealternatives.com/
+评论网址：https://news.ycombinator.com/item?id=42304227
 积分：1
 评论数：0]]></description>
-      <guid>https://www.homedepot.com/</guid>
-      <pubDate>Tue, 03 Dec 2024 06:20:21 GMT</pubDate>
+      <guid>https://stripealternatives.com/</guid>
+      <pubDate>Tue, 03 Dec 2024 08:54:34 GMT</pubDate>
     </item>
     <item>
-      <title>索尼 PlayStation Vita 的兴衰</title>
-      <link>https://obsoletesony.substack.com/p/the-rise-and-fall-of-the-sony-playstation</link>
-      <description><![CDATA[文章网址：https://obsoletesony.substack.com/p/the-rise-and-fall-of-the-sony-playstation
-评论网址：https://news.ycombinator.com/item?id=42303420
+      <title>切尔诺贝利的伽马防护镜可以看到辐射[视频]</title>
+      <link>https://www.youtube.com/watch?v=V40OQoca7bs</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=V40OQoca7bs
+评论网址：https://news.ycombinator.com/item?id=42304216
+积分：3
+评论数：0]]></description>
+      <guid>https://www.youtube.com/watch?v=V40OQoca7bs</guid>
+      <pubDate>Tue, 03 Dec 2024 08:51:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>墨西哥贩毒集团引诱化学专业学生制造芬太尼</title>
+      <link>https://www.nytimes.com/2024/12/01/world/americas/mexico-fentanyl-chemistry-students.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2024/12/01/world/americas/mexico-fentanyl-chemistry-students.html
+评论网址：https://news.ycombinator.com/item?id=42304200
 积分：1
 评论数：0]]></description>
-      <guid>https://obsoletesony.substack.com/p/the-rise-and-fall-of-the-sony-playstation</guid>
-      <pubDate>Tue, 03 Dec 2024 06:11:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>工人们宁愿“超级通勤”超过 4 小时，也不愿继续过疫情期间的郊区生活</title>
-      <link>https://finance.yahoo.com/news/professionals-rather-super-commute-over-131100204.html</link>
-      <description><![CDATA[文章网址：https://finance.yahoo.com/news/professionals-rather-super-commute-over-131100204.html
-评论网址：https://news.ycombinator.com/item?id=42303414
-积分：1
-评论数：1]]></description>
-      <guid>https://finance.yahoo.com/news/professionals-rather-super-commute-over-131100204.html</guid>
-      <pubDate>Tue, 03 Dec 2024 06:09:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>展示 HN：Circled.me 可自行托管您的照片及更多内容</title>
-      <link>https://github.com/circled-me/server</link>
-      <description><![CDATA[文章网址：https://github.com/circled-me/server
-评论网址：https://news.ycombinator.com/item?id=42303396
-积分：1
-评论数：0]]></description>
-      <guid>https://github.com/circled-me/server</guid>
-      <pubDate>Tue, 03 Dec 2024 06:05:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>NCSI 探测需要消失</title>
-      <link>https://github.com/stryngs/edgedressing/tree/main/payloads/duster</link>
-      <description><![CDATA[文章网址：https://github.com/stryngs/edgedressing/tree/main/payloads/duster
-评论网址：https://news.ycombinator.com/item?id=42303385
-积分：2
-评论数：1]]></description>
-      <guid>https://github.com/stryngs/edgedressing/tree/main/payloads/duster</guid>
-      <pubDate>Tue, 03 Dec 2024 06:03:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>再见 Make 和 Shell，你好 Python？</title>
-      <link>https://trstringer.com/python-build-tooling/</link>
-      <description><![CDATA[文章网址：https://trstringer.com/python-build-tooling/
-评论网址：https://news.ycombinator.com/item?id=42303384
-积分：2
-评论数：0]]></description>
-      <guid>https://trstringer.com/python-build-tooling/</guid>
-      <pubDate>Tue, 03 Dec 2024 06:03:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>展示 HN：Habox-高效的文件协作和共享</title>
-      <link>https://www.habox.com/</link>
-      <description><![CDATA[Habox 是一个协作平台，擅长文件发送、请求和安全团队合作。Habox 具有可自定义“框”中的实时协作、高级权限控制以及通过链接轻松发送/请求文件等功能，为现代文件管理提供了简化且独特的解决方案。如有任何反馈或建议，请随时与我们联系。
-
-评论网址：https://news.ycombinator.com/item?id=42303382
-积分：2
-评论数：1]]></description>
-      <guid>https://www.habox.com/</guid>
-      <pubDate>Tue, 03 Dec 2024 06:03:19 GMT</pubDate>
+      <guid>https://www.nytimes.com/2024/12/01/world/americas/mexico-fentanyl-chemistry-students.html</guid>
+      <pubDate>Tue, 03 Dec 2024 08:49:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
