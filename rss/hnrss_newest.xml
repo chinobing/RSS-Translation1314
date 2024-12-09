@@ -4,108 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 09 Dec 2024 09:21:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Dec 2024 12:37:50 GMT</lastBuildDate>
     <item>
-      <title>布鲁斯·佩伦斯访谈：他希望“开放后”开发者如何获得报酬</title>
-      <link>https://news.slashdot.org/story/24/12/09/0344229/slashdots-interview-with-bruce-perens-how-he-hopes-to-help-post-open-developers-get-paid</link>
-      <description><![CDATA[文章网址：https://news.slashdot.org/story/24/12/09/0344229/slashdots-interview-with-bruce-perens-how-he-hopes-to-help-post-open-developers-get-paid
-评论网址：https://news.ycombinator.com/item?id=42364296
-积分：1
-评论数：0]]></description>
-      <guid>https://news.slashdot.org/story/24/12/09/0344229/slashdots-interview-with-bruce-perens-how-he-hopes-to-help-post-open-developers-get-paid</guid>
-      <pubDate>Mon, 09 Dec 2024 09:04:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>高效闪速炼铁在中国走向商业化</title>
-      <link>https://www.scmp.com/news/china/science/article/3289441/chinas-explosive-ironmaking-breakthrough-achieves-3600-fold-productivity-boost</link>
-      <description><![CDATA[文章网址：https://www.scmp.com/news/china/science/article/3289441/chinas-explosive-ironmaking-breakthrough-achieves-3600-fold-productivity-boost
-评论网址：https://news.ycombinator.com/item?id=42364286
-积分：1
-评论数：0]]></description>
-      <guid>https://www.scmp.com/news/china/science/article/3289441/chinas-explosive-ironmaking-breakthrough-achieves-3600-fold-productivity-boost</guid>
-      <pubDate>Mon, 09 Dec 2024 09:01:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在没有附加框架的情况下处理 Terraform 下游依赖关系</title>
-      <link>https://news.ycombinator.com/item?id=42364276</link>
-      <description><![CDATA[大家好，我是 Anyshift 的创始人。我们已经构建了一个解决方案，用于处理 Terraform 下游依赖关系问题，而无需额外的框架（mono 或 multirepos），我们想解释一下我们是如何做到的。1.首先，我们想要解决的关键问题：处理硬编码值处理远程状态依赖关系处理复杂模块（公共 + 私有）我们知道，通过查看 Terraform 状态文件，无需添加额外的框架就可以做到这一点。2.关键假设：您的基础设施是一个图表。为了准确地对基础设施进行建模，我们使用 Neo4j 来捕获资源、状态和模块之间的关系。您需要的所有信息都在您的云和代码中：通过解析这两者，我们可以重新创建依赖关系和洞察链，而无需额外的开销。我们的目标是构建基础设施的数字孪生。涵盖代码、状态和云信息，以尽早发现和预防问题。3. 我们的解决方案：为了处理下游依赖关系，我们：创建基础设施的数字孪生，其中包含 IaC 代码和云之间的所有依赖关系对于每个 PR，使用 Cypher（Neo4J 查询语言）查询此图以检索这些依赖关系-&gt; 构建最新的云到代码图i - 了解 Terraform Stat 文件Terraform 状态文件在信息方面非常丰富，远不止文件本身。它们保存已部署资源的确切状态，包括：资源类型唯一标识符模块与其资源之间的关系通过解析这些状态文件，我们可以统一跨多个存储库和环境的见解。它们充当了代码定义的意图和云部署的现实之间的桥梁。通过解析这些状态文件，我们可以统一跨多个存储库和环境的见解。它们充当了代码定义的意图和云部署现实之间的桥梁。ii- 使用 Neo4J 构建此图Neo4j 使我们能够本地建模复杂的关系。与关系数据库不同，图形数据库更适合互连数据（如基础设施资源）。我们将基础设施建模为节点（例如 EC2 实例、VPC）和关系（例如“CONNECTED_TO”、“IN_REGION”）。例如：节点：表示资源，如 EC2 实例或安全组。关系：定义资源如何交互，例如 EC2 实例附加到安全组。iii- 提取和协调数据我们开发了服务来解析来自多个存储库的状态文件，提取相关数据（如资源定义、唯一 ID 和关系）。提取后，我们协调：代码中的资源与云中的资源。跨存储库的依赖关系，解决命名冲突和重叠。我们还标记了节点以区分来源（例如，TF_CODE、TF_STATE），以清晰地了解基础设施意图与现实。-&gt; 查询此图以检索更改前的依赖关系构建图表后，我们使用 Neo4j 的查询语言 Cypher 来回答有关基础设施下游依赖关系的问题。步骤 1：进行更改我们对资源或模块进行更改。例如，扩展 VPC CIDR 中的 IP 范围。步骤 2：Cypher 查询我们将通过不同的 cypher 查询来查询依赖关系图，以查看哪些下游依赖关系会受到此更改的影响，可能在其他 IaC 存储库中。例如，此更改可能会影响 2 个 ECS 和 1 个安全组。步骤 3：在 PR 中返回信息4. 当前限制：为了处理所有用例，我们受到定义的 Cypher 查询的限制。我们希望使其尽可能通用。它仅适用于 Terraform，而不适用于其他 IaC 框架（但可以与 Pulumi 一起使用）
+      <title>学习移动应用程序或混合应用程序开发</title>
+      <link>https://news.ycombinator.com/item?id=42365659</link>
+      <description><![CDATA[嗨，我是一个具有软件背景的初创公司创始人，由于开发人员费用昂贵，我正在考虑为我的平台构建自己的移动/混合应用程序。但我只懂 C/C++/Python，并且一直是后端开发人员。对移动应用程序或混合应用程序一无所知。我从哪里开始？其他人怎么做的？我正在考虑使用 React Native 或带有 Flask 后端的 React，但不确定。从头开始学习。我知道 Flask 和一些 python django/nginx 的东西。
 
-评论 URL：https://news.ycombinator.com/item?id=42364276
+评论网址：https://news.ycombinator.com/item?id=42365659
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42364276</guid>
-      <pubDate>Mon, 09 Dec 2024 09:00:38 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=42365659</guid>
+      <pubDate>Mon, 09 Dec 2024 12:31:05 GMT</pubDate>
     </item>
     <item>
-      <title>Nanowar of Steel 的 HelloWorld</title>
-      <link>https://www.youtube.com/watch?v=yup8gIXxWDU</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=yup8gIXxWDU
-评论网址：https://news.ycombinator.com/item?id=42364264
+      <title>因此，MS 将切换到新 Outlook</title>
+      <link>https://old.reddit.com/r/sysadmin/comments/1h7x78x/and_so_it_begins_ms_will_toggle_to_new_outlook/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/sysadmin/comments/1h7x78x/and_so_it_begins_ms_will_toggle_to_new_outlook/
+评论网址：https://news.ycombinator.com/item?id=42365652
+积分：1
+评论数：0]]></description>
+      <guid>https://old.reddit.com/r/sysadmin/comments/1h7x78x/and_so_it_begins_ms_will_toggle_to_new_outlook/</guid>
+      <pubDate>Mon, 09 Dec 2024 12:30:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>CFPB 针对 Climb Credit 采取行动，因其欺骗借款人参加编程训练营</title>
+      <link>https://www.consumerfinance.gov/about-us/newsroom/cfpb-takes-action-against-climb-credit-and-investment-firm-1-0-for-deceiving-borrowers-about-coding-bootcamps-and-vocational-programs/</link>
+      <description><![CDATA[文章网址：https://www.consumerfinance.gov/about-us/newsroom/cfpb-takes-action-against-climb-credit-and-investment-firm-1-0-for-deceiving-borrowers-about-coding-bootcamps-and-vocational-programs/
+评论网址：https://news.ycombinator.com/item?id=42365619
+要点： 1
+# 评论：0]]></description>
+      <guid>https://www.consumerfinance.gov/about-us/newsroom/cfpb-takes-action-against-climb-credit-and-investment-firm-1-0-for-deceiving-borrowers-about-coding-bootcamps-and-vocational-programs/</guid>
+      <pubDate>Mon, 09 Dec 2024 12:27:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>全栈量子计算，从硬件到编译器和算法 [视频]</title>
+      <link>https://www.youtube.com/watch?v=xgmGK0_KyKc</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=xgmGK0_KyKc
+评论网址：https://news.ycombinator.com/item?id=42365591
 积分：1
 评论数：1]]></description>
-      <guid>https://www.youtube.com/watch?v=yup8gIXxWDU</guid>
-      <pubDate>Mon, 09 Dec 2024 08:58:23 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=xgmGK0_KyKc</guid>
+      <pubDate>Mon, 09 Dec 2024 12:24:22 GMT</pubDate>
     </item>
     <item>
-      <title>向 HN 展示：我创建了一个协作式交互式产品演示应用程序</title>
-      <link>https://productdemo.app/</link>
-      <description><![CDATA[文章网址：https://productdemo.app/
-评论网址：https://news.ycombinator.com/item?id=42364261
-积分：1
-评论数：0]]></description>
-      <guid>https://productdemo.app/</guid>
-      <pubDate>Mon, 09 Dec 2024 08:58:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>您每月使用多少分钟？</title>
-      <link>https://old.reddit.com/r/devops/comments/1ha5it4/how_many_minutes_do_you_use_each_month/</link>
-      <description><![CDATA[文章网址：https://old.reddit.com/r/devops/comments/1ha5it4/how_many_minutes_do_you_use_each_month/
-评论网址：https://news.ycombinator.com/item?id=42364249
+      <title>迷你编译器 Rust</title>
+      <link>https://github.com/ktfth/minicomp</link>
+      <description><![CDATA[文章网址：https://github.com/ktfth/minicomp
+评论网址：https://news.ycombinator.com/item?id=42365586
 积分：1
 评论数：1]]></description>
-      <guid>https://old.reddit.com/r/devops/comments/1ha5it4/how_many_minutes_do_you_use_each_month/</guid>
-      <pubDate>Mon, 09 Dec 2024 08:56:27 GMT</pubDate>
+      <guid>https://github.com/ktfth/minicomp</guid>
+      <pubDate>Mon, 09 Dec 2024 12:24:09 GMT</pubDate>
     </item>
     <item>
-      <title>Raspberry Pi 500 评测：键盘再次成为计算机</title>
-      <link>https://www.tomshardware.com/raspberry-pi/raspberry-pi-500-review</link>
-      <description><![CDATA[文章网址：https://www.tomshardware.com/raspberry-pi/raspberry-pi-500-review
-评论网址：https://news.ycombinator.com/item?id=42364241
-积分：2
+      <title>客户端复杂性最小原则</title>
+      <link>https://rubenerd.com/the-rule-of-least-client-side-complexity/</link>
+      <description><![CDATA[文章网址：https://rubenerd.com/the-rule-of-least-client-side-complexity/
+评论网址：https://news.ycombinator.com/item?id=42365565
+积分：1
 评论数：0]]></description>
-      <guid>https://www.tomshardware.com/raspberry-pi/raspberry-pi-500-review</guid>
-      <pubDate>Mon, 09 Dec 2024 08:54:52 GMT</pubDate>
+      <guid>https://rubenerd.com/the-rule-of-least-client-side-complexity/</guid>
+      <pubDate>Mon, 09 Dec 2024 12:22:25 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：下一次星际飞船发射什么时候进行？</title>
-      <link>https://news.ycombinator.com/item?id=42364230</link>
-      <description><![CDATA[我希望在我变老之前观看下一次星际飞船发射（我今年 68 岁，住在法国）。然而，在异国他乡规划一次未经通知的飞行很难。我看到它可能会在 2025 年 1 月 11 日 [0]。关于发射日期还有什么最新消息吗？[0] https://tlpnetwork.com/news/america/spacex-targets-jan-11-2025-for-starship-flight-test-7-nasa-high-tech-gulfstream-to-capture-re-entry
+      <title>问 HN：银行应用程序为何关心你的手机操作系统</title>
+      <link>https://news.ycombinator.com/item?id=42365564</link>
+      <description><![CDATA[许多银行应用程序需要非 root 手机和最新的操作系统，但即使是这些手机也可以运行浏览器，从而可以访问银行网站，并且通常比应用程序具有更多功能。
 
-评论网址：https://news.ycombinator.com/item?id=42364230
+评论网址：https://news.ycombinator.com/item?id=42365564
 积分：1
-评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42364230</guid>
-      <pubDate>Mon, 09 Dec 2024 08:52:14 GMT</pubDate>
+评论数：1]]></description>
+      <guid>https://news.ycombinator.com/item?id=42365564</guid>
+      <pubDate>Mon, 09 Dec 2024 12:22:17 GMT</pubDate>
     </item>
     <item>
-      <title>桌面端 Flutter 多窗口支持</title>
-      <link>https://medium.com/@alexsinelnikov/multi-window-support-with-flutter-desktop-21f5f9281c7b</link>
-      <description><![CDATA[文章网址：https://medium.com/@alexsinelnikov/multi-window-support-with-flutter-desktop-21f5f9281c7b
-评论网址：https://news.ycombinator.com/item?id=42364226
-积分：2
-评论数：0]]></description>
-      <guid>https://medium.com/@alexsinelnikov/multi-window-support-with-flutter-desktop-21f5f9281c7b</guid>
-      <pubDate>Mon, 09 Dec 2024 08:51:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究发现 DEI 做法会导致“敌对归因偏见” [视频]</title>
-      <link>https://www.youtube.com/watch?v=kcLs7YMGYlA</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=kcLs7YMGYlA
-评论网址：https://news.ycombinator.com/item?id=42364218
+      <title>CFPB 将向 430 万因信用修复骗局而受损的美国人返还 18 亿美元垃圾费</title>
+      <link>https://www.consumerfinance.gov/about-us/newsroom/cfpb-announces-return-of-1-8-billion-in-illegal-junk-fees-to-4-3-million-americans-harmed-in-massive-credit-repair-scheme/</link>
+      <description><![CDATA[文章网址：https://www.consumerfinance.gov/about-us/newsroom/cfpb-announces-return-of-1-8-billion-in-illegal-junk-fees-to-4-3-million-americans-harmed-in-massive-credit-repair-scheme/
+评论网址：https://news.ycombinator.com/item?id=42365559
 积分：1
 评论数：0]]></description>
-      <guid>https://www.youtube.com/watch?v=kcLs7YMGYlA</guid>
-      <pubDate>Mon, 09 Dec 2024 08:50:57 GMT</pubDate>
+      <guid>https://www.consumerfinance.gov/about-us/newsroom/cfpb-announces-return-of-1-8-billion-in-illegal-junk-fees-to-4-3-million-americans-harmed-in-massive-credit-repair-scheme/</guid>
+      <pubDate>Mon, 09 Dec 2024 12:21:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么每个初创公司的网站都这么没用？</title>
+      <link>https://jessitron.com/2024/12/08/why-is-every-startups-website-so-darn-useless/</link>
+      <description><![CDATA[文章网址：https://jessitron.com/2024/12/08/why-is-every-startups-website-so-darn-useless/
+评论网址：https://news.ycombinator.com/item?id=42365517
+积分：1
+评论数：0]]></description>
+      <guid>https://jessitron.com/2024/12/08/why-is-every-startups-website-so-darn-useless/</guid>
+      <pubDate>Mon, 09 Dec 2024 12:17:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>辞职创业：12 个月后我几乎破产了</title>
+      <link>https://www.tropianhs.com/diary/2024/12/03/november-report.html</link>
+      <description><![CDATA[文章网址：https://www.tropianhs.com/diary/2024/12/03/november-report.html
+评论网址：https://news.ycombinator.com/item?id=42365513
+积分：1
+评论数：0]]></description>
+      <guid>https://www.tropianhs.com/diary/2024/12/03/november-report.html</guid>
+      <pubDate>Mon, 09 Dec 2024 12:17:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
