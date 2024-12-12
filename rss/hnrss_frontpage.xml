@@ -4,44 +4,90 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 12 Dec 2024 15:19:54 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2024 18:25:36 GMT</lastBuildDate>
+    <item>
+      <title>ChatGPT 的高级语音模式添加了圣诞老人模式、实时视频、屏幕共享</title>
+      <link>https://openai.com/12-days/?day=6</link>
+      <description><![CDATA[文章网址：https://openai.com/12-days/?day=6
+评论网址：https://news.ycombinator.com/item?id=42401603
+积分：8
+评论数：0]]></description>
+      <guid>https://openai.com/12-days/?day=6</guid>
+      <pubDate>Thu, 12 Dec 2024 18:04:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>好问题（YC W21）是招聘人员运营经理</title>
+      <link>https://www.ycombinator.com/companies/great-question/jobs/QnZ7Jyj-great-question-w21-is-hiring-people-operations-manager-to-democratize-ux-research-at-scale</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/great-question/jobs/QnZ7Jyj-great-question-w21-is-hiring-people-operations-manager-to-democratize-ux-research-at-scale
+评论网址：https://news.ycombinator.com/item?id=42400931
+积分：0
+#评论数：0]]></description>
+      <guid>https://www.ycombinator.com/companies/great-question/jobs/QnZ7Jyj-great-question-w21-is-hiring-people-operations-manager-to-democratize-ux-research-at-scale</guid>
+      <pubDate>Thu, 12 Dec 2024 17:00:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：有关德国公司的信用报告</title>
+      <link>https://bonscore.org/</link>
+      <description><![CDATA[您好，除了学习计算机科学，我还在从事一个副业。我从 Unternehmensregister 获取数据，这是一份要求每家德国有限公司发布其财务报表的登记册。这些报表以 HTML 文件的形式发布，完全是非结构化的。虽然财务报表通常看起来相似，但公司不需要遵循特定的结构，这通常会导致报表格式不一致。Unternehmensregister 的使用完全免费，因此您可以查看一些示例。我编写了代码，使用 ChatGPT API 将非结构化财务报表转换为结构化数据。这很有效。当然，有些问题尚未解决，但数据提取对大多数公司来说都很有效。然后，我编写了一个随机森林算法，根据 Unternehmensregister 中的财务报表估计公司的违约概率。我建立了一个网站来展示结构化数据以及分数。本质上，我为公司创建信用报告。目前，德国有四家公司也创建信用报告（Schufa、Creditreform、Crif 和 Creditsafe）。其他公司转售这四家提供商的数据。我提供与这些公司相同的服务，但不包括董事或投资者等个人信息。这项服务的市场相当大；例如，Creditreform 在 2020 年销售了超过 2600 万份有关公司的信用报告。我的违约概率预测表现相当不错，在我的测试数据上获得了 0.87 的 AUC 分数。0.87 的 AUC 意味着模型将一家随机选择的违约公司排名高于一家随机选择的不违约公司的可能性为 87%。此外，还有更多的公司需要我的数据库抓取。目前，我专注于需要发布损益表的公司。出于测试目的，我的网站上目前有 2,000 家公司。目前，该网站仅提供德语版本，但您可以使用 Google 翻译，它对我的​​网站来说没问题。非常感谢您的反馈！
+
+评论网址：https://news.ycombinator.com/item?id=42400588
+积分：4
+评论数：0]]></description>
+      <guid>https://bonscore.org/</guid>
+      <pubDate>Thu, 12 Dec 2024 16:29:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Android XR</title>
+      <link>https://blog.google/products/android/android-xr/</link>
+      <description><![CDATA[文章网址：https://blog.google/products/android/android-xr/
+评论网址：https://news.ycombinator.com/item?id=42400556
+积分：93
+评论数：81]]></description>
+      <guid>https://blog.google/products/android/android-xr/</guid>
+      <pubDate>Thu, 12 Dec 2024 16:26:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Kubernetes Spec Explorer</title>
+      <link>https://kubespec.dev/</link>
+      <description><![CDATA[我为 Kubernetes 资源规范构建了一个交互式资源管理器其中包括以下几项：- 包含所有本机资源的架构、类型和描述的树状视图
+- 自版本 X 以来的历史更改（添加/删除/修改的属性）
+- 一些资源的示例，您可以轻松复制这些资源作为起点
+- 支持自 X 以来的所有版本，包括新发布的 1.32
+- 我还想添加对流行 CRD 的支持，但我还不确定如何做到这一点，我愿意接受建议！所有内容都是根据 OpenAPI 规范自动生成的，并带有一些示例和外部链接的手动输入。希望你喜欢它，如果你认为它还有其他有用的东西，请告诉我。
+
+评论网址：https://news.ycombinator.com/item?id=42399701
+积分：51
+评论数：9]]></description>
+      <guid>https://kubespec.dev/</guid>
+      <pubDate>Thu, 12 Dec 2024 15:02:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>FDA 尚未对这家因同一缺陷被召回 7 次的药厂进行检查</title>
+      <link>https://www.propublica.org/article/glenmark-pharmaceuticals-recalls-fda-oversight</link>
+      <description><![CDATA[文章网址：https://www.propublica.org/article/glenmark-pharmaceuticals-recalls-fda-oversight
+评论网址：https://news.ycombinator.com/item?id=42399530
+积分：64
+评论数：21]]></description>
+      <guid>https://www.propublica.org/article/glenmark-pharmaceuticals-recalls-fda-oversight</guid>
+      <pubDate>Thu, 12 Dec 2024 14:45:36 GMT</pubDate>
+    </item>
     <item>
       <title>费马最后定理——进展如何</title>
       <link>https://xenaproject.wordpress.com/2024/12/11/fermats-last-theorem-how-its-going/</link>
       <description><![CDATA[文章网址：https://xenaproject.wordpress.com/2024/12/11/fermats-last-theorem-how-its-going/
 评论网址：https://news.ycombinator.com/item?id=42399397
-积分：28
-评论数：3]]></description>
+积分：124
+评论数：63]]></description>
       <guid>https://xenaproject.wordpress.com/2024/12/11/fermats-last-theorem-how-its-going/</guid>
       <pubDate>Thu, 12 Dec 2024 14:30:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Oasis 安全研究团队发现 Microsoft Azure MFA 绕过漏洞</title>
-      <link>https://www.oasis.security/resources/blog/oasis-security-research-team-discovers-microsoft-azure-mfa-bypass</link>
-      <description><![CDATA[文章网址：https://www.oasis.security/resources/blog/oasis-security-research-team-discovers-microsoft-azure-mfa-bypass
-评论网址：https://news.ycombinator.com/item?id=42399112
-积分：12
-评论数：10]]></description>
-      <guid>https://www.oasis.security/resources/blog/oasis-security-research-team-discovers-microsoft-azure-mfa-bypass</guid>
-      <pubDate>Thu, 12 Dec 2024 13:51:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>法国盗版禁令影响全球，DNS 服务商 Quad9 誓言打击盗版</title>
-      <link>https://torrentfreak.com/french-piracy-blocking-order-goes-global-dns-service-quad9-vows-to-fight-241212/</link>
-      <description><![CDATA[文章网址：https://torrentfreak.com/french-piracy-blocking-order-goes-global-dns-service-quad9-vows-to-fight-241212/
-评论网址：https://news.ycombinator.com/item?id=42398989
-积分：17
-评论数：10]]></description>
-      <guid>https://torrentfreak.com/french-piracy-blocking-order-goes-global-dns-service-quad9-vows-to-fight-241212/</guid>
-      <pubDate>Thu, 12 Dec 2024 13:33:29 GMT</pubDate>
     </item>
     <item>
       <title>古克什成为历史上最年轻的国际象棋世界冠军</title>
       <link>https://lichess.org/@/Lichess/blog/wcc-2024-round-14-gukesh-becomes-the-youngest-world-champion-in-history/cDggdNZw</link>
       <description><![CDATA[文章网址：https://lichess.org/@/Lichess/blog/wcc-2024-round-14-gukesh-becomes-the-youngest-world-champion-in-history/cDggdNZw
 评论网址：https://news.ycombinator.com/item?id=42398952
-积分：187
-评论数：81]]></description>
+积分：471
+评论数：198]]></description>
       <guid>https://lichess.org/@/Lichess/blog/wcc-2024-round-14-gukesh-becomes-the-youngest-world-champion-in-history/cDggdNZw</guid>
       <pubDate>Thu, 12 Dec 2024 13:29:23 GMT</pubDate>
     </item>
@@ -50,8 +96,8 @@
       <link>https://www.blendergpt.org/</link>
       <description><![CDATA[文章网址：https://www.blendergpt.org/
 评论网址：https://news.ycombinator.com/item?id=42398913
-积分：27
-评论数：10]]></description>
+积分：186
+评论数：106]]></description>
       <guid>https://www.blendergpt.org/</guid>
       <pubDate>Thu, 12 Dec 2024 13:23:21 GMT</pubDate>
     </item>
@@ -61,50 +107,10 @@
       <description><![CDATA[大家好，我想分享 Quantus，这是我出于对传统资源的不满而构建的一个金融学习和实践平台。作为一名在对冲基金开始职业生涯的工程和金融双学位学生，我发现使用现有工具培养动手金融建模技能是一项挑战。Coursera、Udemy、Corporate Finance Institute (CFI) 和 Wall Street Prep (WSP) 等平台主要依靠基于视频的教程。虽然这些格式信息丰富，但往往缺乏建立真正专业知识所必需的动态、交互式和重复练习。例如，学习过程通常涉及：- 多次重播视频以掌握关键概念。- 不断在教程和 Excel 文件之间切换。- 处理教程数字和提供的 Excel 材料之间偶尔出现的差异。为了解决这些问题，我创建了 Quantus - 一个交互式平台，用户可以通过在类似 Excel 的环境中尝试公式或直接构建财务模型来学习金融。受 LeetCode 的启发，内容分为三个级别 - 简单、中等和困难 - 让初学者可以轻松上手，同时对高级用户来说仍然具有挑战性。我们不断增长的示例库包括：- 三语句财务模型- 折现现金流 (DCF) 分析- 杠杆收购 (LBO)- 合并和收购 (M&amp;A)这是一个演示视频，展示了该平台的实际运行。https://www.youtube.com/watch?v=bDRNHgBERLQ我很想听到您的想法和反馈！请告诉我您认为还有哪些其他功能或示例有用。
 
 评论网址：https://news.ycombinator.com/item?id=42398471
-积分：35
-评论数：5]]></description>
+积分：124
+评论数：29]]></description>
       <guid>https://quantus.finance/</guid>
       <pubDate>Thu, 12 Dec 2024 12:04:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Infracost (YC W21) 正在招聘创始解决方案工程师（远程）</title>
-      <link>https://www.infracost.io/join-the-team</link>
-      <description><![CDATA[文章网址：https://www.infracost.io/join-the-team
-评论网址：https://news.ycombinator.com/item?id=42398449
-积分：0
-评论数：0]]></description>
-      <guid>https://www.infracost.io/join-the-team</guid>
-      <pubDate>Thu, 12 Dec 2024 12:00:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>从 Hanami/dry-rb/ROM-rb 核心团队退休</title>
-      <link>https://solnic.dev/retiring-from-the-core-teams</link>
-      <description><![CDATA[文章网址：https://solnic.dev/retiring-from-the-core-teams
-评论网址：https://news.ycombinator.com/item?id=42398314
-积分：6
-评论数：0]]></description>
-      <guid>https://solnic.dev/retiring-from-the-core-teams</guid>
-      <pubDate>Thu, 12 Dec 2024 11:36:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Timemap.org – 交互式历史地图</title>
-      <link>https://www.oldmapsonline.org/en/history/regions</link>
-      <description><![CDATA[文章网址：https://www.oldmapsonline.org/en/history/regions
-评论网址：https://news.ycombinator.com/item?id=42397550
-积分：321
-评论数：69]]></description>
-      <guid>https://www.oldmapsonline.org/en/history/regions</guid>
-      <pubDate>Thu, 12 Dec 2024 09:12:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>几何剪辑图：具有细节层次的简单地形渲染（2017）</title>
-      <link>https://mikejsavage.co.uk/geometry-clipmaps/</link>
-      <description><![CDATA[文章网址：https://mikejsavage.co.uk/geometry-clipmaps/
-评论网址：https://news.ycombinator.com/item?id=42396477
-积分：27
-评论数：1]]></description>
-      <guid>https://mikejsavage.co.uk/geometry-clipmaps/</guid>
-      <pubDate>Thu, 12 Dec 2024 05:26:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
