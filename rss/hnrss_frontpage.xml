@@ -4,29 +4,85 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 13 Dec 2024 18:25:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Dec 2024 21:16:39 GMT</lastBuildDate>
+    <item>
+      <title>SCCS 蟑螂汽车旅馆</title>
+      <link>https://www.tuhs.org/pipermail/tuhs/2024-December/031188.html</link>
+      <description><![CDATA[文章网址：https://www.tuhs.org/pipermail/tuhs/2024-December/031188.html
+评论网址：https://news.ycombinator.com/item?id=42411868
+积分：7
+评论数：0]]></description>
+      <guid>https://www.tuhs.org/pipermail/tuhs/2024-December/031188.html</guid>
+      <pubDate>Fri, 13 Dec 2024 20:07:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：@smoores/epub，一个用于处理 EPUB 出版物的 JavaScript 库</title>
+      <link>https://www.npmjs.com/package/@smoores/epub</link>
+      <description><![CDATA[大家好！我刚刚写了一篇关于此内容的博客文章，我想在这里分享一下：https://smoores.dev/post/announcing_smoores_epub/。在开发 Storyteller[1] 的过程中，我一直在开发一个用于处理 EPUB 文件的库，因为这是 Storyteller 所做的大量工作。在一位朋友询问有关在 Node.js 中创建 EPUB 书籍的建议后，我决定将 Storyteller 的 EPUB 库发布为独立的 NPM 包。我真的很喜欢 EPUB 规范，我认为 Node.js 开发者社区应该有一个积极维护的库来使用它！[1]: https://smoores.gitlab.io/storyteller
+
+评论网址：https://news.ycombinator.com/item?id=42411727
+积分：23
+评论数：8]]></description>
+      <guid>https://www.npmjs.com/package/@smoores/epub</guid>
+      <pubDate>Fri, 13 Dec 2024 19:52:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>伊隆·马斯克希望 OpenAI 能够盈利</title>
+      <link>https://openai.com/index/elon-musk-wanted-an-openai-for-profit/</link>
+      <description><![CDATA[文章网址：https://openai.com/index/elon-musk-wanted-an-openai-for-profit/
+评论网址：https://news.ycombinator.com/item?id=42411608
+积分：115
+评论数：103]]></description>
+      <guid>https://openai.com/index/elon-musk-wanted-an-openai-for-profit/</guid>
+      <pubDate>Fri, 13 Dec 2024 19:36:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>MarkItDown：将文件和办公文档转换为Markdown的Python工具</title>
+      <link>https://github.com/microsoft/markitdown</link>
+      <description><![CDATA[文章网址：https://github.com/microsoft/markitdown
+评论网址：https://news.ycombinator.com/item?id=42410803
+积分：147
+评论数：36]]></description>
+      <guid>https://github.com/microsoft/markitdown</guid>
+      <pubDate>Fri, 13 Dec 2024 18:02:03 GMT</pubDate>
+    </item>
     <item>
       <title>Rust 通过并发循环收集来收集智能指针垃圾</title>
       <link>https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html</link>
       <description><![CDATA[文章网址：https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html
 评论网址：https://news.ycombinator.com/item?id=42410663
-积分：21
-评论数：1]]></description>
+积分：80
+评论数：40]]></description>
       <guid>https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html</guid>
       <pubDate>Fri, 13 Dec 2024 17:48:41 GMT</pubDate>
     </item>
     <item>
-      <title>善于读书的人有不同的大脑</title>
+      <title>询问 HN：我应该如何处理 meet.hn？</title>
+      <link>https://news.ycombinator.com/item?id=42410582</link>
+      <description><![CDATA[嘿 HN！几周前，meet.hn 发布了：（显示 HN：Meet.hn – 与你所在城市的 Hacker News 社区见面 - https://news.ycombinator.com/item?id=41539125）现在，我们大约有 1700 名黑客愿意在全球近 700 个地点见面。从那时起，我们实现了一些所要求的功能和错误修复：- 位置现在可以搜索，而不限于简单的城市-国家对- 位置可以使用变音符号和多种语言- 新的社交方式：个人网站、电子邮件、Mastodon、Discord、GitLab、Google Scholar、YouTube 等。- 根据用户要求，我现在可以在你的位置列表中展示你的本地聚会，就像对老多伦多所做的那样：[1]关于实际会议，到目前为止，我知道有大约十几个，但我认为还有更多。我为什么要写这篇文章？大约 1700 个注册用户中有 80% 是在发布后的前 36 小时内注册的。
+正如预期的那样，注册人数下降得非常快，现在每隔一天就会增加一个新用户。我认为 HN 用户之间的会面可以产生大量的全球价值（和当地的欢乐）。
+这就是我写这篇文章的原因。回答这个问题：我们如何才能结识更多人？以及 meet.hn 如何提供帮助？我的想法：1. 为每个位置实施 RSS：仅对 RSS 用户有用，如果没有新注册，则用处不大。2. 电子邮件通知系统：受众广泛，但要求用户提供电子邮件。3. 将 meet.hn 变成某种 atproto [3] 项目，或者至少以某种方式利用它。可能更以 Bluesky 为中心（例如，如果我们使用标签），但可能不是？4. 一个书签，一旦在 HN 帖子上单击，就会在所有评论并在 meet.hn 上注册的用户的用户名旁边插入一个 meet.hn 徽标5. 一个 HN“代理网站”，它会以各种方式复制 HN，但会像第 4 点描述的书签一样添加 meet.hn 徽标，但会随处自动添加。6. 为每个位置创建 Telegram（或等效）频道但所有这些想法都是不理想的解决方案。HN 上每个人之间的最小公分母是 HN。
+因此，直接从 HN 开会是最好的。对此的 MVP 可以是具有布尔值的“愿意见面”属性（如“showdead”或“noprocrast”属性）。
+启用后，线程中的用户名旁边会显示一个图标。我和 dang 谈过了，即使在 HN 上实现某些东西的想法并非不可能，但它还没有列入路线图上。让我们在评论中讨论所有这些。期待听到您的想法。[1] https://meet.hn/city/43.6534817,-79.3839347/Old-Toronto[2] https://meet.hn/city/43.6044622,1.4442469/Toulouse[3] https://atproto.com/
+
+评论网址： https://news.ycombinator.com/item?id=42410582
+积分：81
+评论数：61]]></description>
+      <guid>https://news.ycombinator.com/item?id=42410582</guid>
+      <pubDate>Fri, 13 Dec 2024 17:38:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>善于阅读的人大脑与众不同：研究</title>
       <link>https://theconversation.com/people-who-are-good-at-reading-have-different-brains-244786</link>
       <description><![CDATA[文章网址：https://theconversation.com/people-who-are-good-at-reading-have-different-brains-244786
 评论网址：https://news.ycombinator.com/item?id=42410508
-积分：17
-评论数：0]]></description>
+积分：79
+评论数：65]]></description>
       <guid>https://theconversation.com/people-who-are-good-at-reading-have-different-brains-244786</guid>
       <pubDate>Fri, 13 Dec 2024 17:32:00 GMT</pubDate>
     </item>
     <item>
-      <title>HyperDX (YC S22) 正在招聘工程师来构建开源可观察性</title>
+      <title>HyperDX（YC S22）正在招聘工程师来构建开源可观察性</title>
       <link>https://www.ycombinator.com/companies/hyperdx/jobs</link>
       <description><![CDATA[文章网址：https://www.ycombinator.com/companies/hyperdx/jobs
 评论网址：https://news.ycombinator.com/item?id=42410233
@@ -36,12 +92,12 @@
       <pubDate>Fri, 13 Dec 2024 17:00:43 GMT</pubDate>
     </item>
     <item>
-      <title>冒名顶替者攻击 – 使用 ESP32 和 MicroPython 制作的《我们之中》主题红外游戏</title>
+      <title>展示 HN：冒名顶替者攻击 – 使用 ESP32 制作的《我们之中》主题红外游戏</title>
       <link>https://blog.langworth.com/imposter-attack</link>
       <description><![CDATA[文章网址：https://blog.langworth.com/imposter-attack
 评论网址：https://news.ycombinator.com/item?id=42410229
-积分：42
-评论数：9]]></description>
+积分：107
+评论数：20]]></description>
       <guid>https://blog.langworth.com/imposter-attack</guid>
       <pubDate>Fri, 13 Dec 2024 17:00:19 GMT</pubDate>
     </item>
@@ -50,61 +106,10 @@
       <link>https://github.com/DOSAYGO-Research/rain</link>
       <description><![CDATA[文章网址：https://github.com/DOSAYGO-Research/rain
 评论网址：https://news.ycombinator.com/item?id=42409577
-积分：49
-评论数：10]]></description>
+积分：61
+评论数：18]]></description>
       <guid>https://github.com/DOSAYGO-Research/rain</guid>
       <pubDate>Fri, 13 Dec 2024 15:46:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>向 HN 展示：我做了最慢、最昂贵的 GPT</title>
-      <link>https://ithy.com</link>
-      <description><![CDATA[这是我的另一个自动化生活项目——我经常向不同的人工智能提出同样的问题，因为总希望在其他地方得到更好的答案。也许 ChatGPT 的答案太短了，所以我问了 Perplexity。但我意识到那是幻觉，所以我尝试了 Gemini。那个答案听起来是对的，但我交叉引用了 Claude 以确保万无一失。这并不适用于数学/编码（o1 或 Gemini 可能可以一次性给出出色的答案），但更多地适用于在线搜索，其中信息更加流动，并且每次都没有“正确的”搜索引擎 + 文本重组 + 模型组合。甚至 o1 也没有在线搜索，所以这显然是一个很难解决的问题。一个例子是“美国最好的滑雪胜地”，每个 GPT 都会给出不同的响应，但它们的大多数排名都不会反映实际滑雪者的共识 - 比如在 Reddit 上https://www.reddit.com/r/skiing/comments/sew297/updated_us_s... - 因为有太多的意见在流传，一次性的 RAG 搜索 + LLM 不足以提供足够的背景信息来找到每个人的想法。显然，如果度假村关闭，o1 和 Sonnet/Haiku 等离线 GPT 将不会有最新更新。因此，我花了几个月的时间试验一个新项目，这基本上是我运行过的最昂贵的 GPT。它通过 ChatGPT、Claude、Grok、Perplexity、Gemini 等运行搜索查询，然后汇总响应。更糟糕的是，在此期间，它还使用多个嵌入模型并通过不同的搜索引擎执行迭代 RAG 搜索。这一切就像一个巨大的 AI 大脑一样运作。所以我先为每次搜索付费，然后是每次嵌入，然后是每个中间 LLM 输入/输出，然后是最终的 LLM 输入/输出。平均每次搜索的费用约为 10 到 30 美分。它也非常慢。https://ithy.com我知道这听起来有点荒谬，但这就是重点。目标是获得尽可能准确和全面的答案，因为它已经经过了许多不同的人工智能的审查，每个人工智能都来自不同的网站。今天的上下文限制足够大，以至于这种类型的搜索和跨模型迭代是可能的，我们可以确定一组不同文本之间的“重叠”以确定某种共识。我们的想法是获得任何单个人工智能都无法获得的在线答案。如果您最终决定尝试一下，我建议您将 Ithy 的输出与其他 GPT 进行比较，以查看差异。运行这个项目将花费我一大笔钱（我可能会让它在线运行一两个月），但我认为它是对当今模型 API 可能性的探索，而不是立即实用的东西。可以将其视为在线 o1（没有 200 美元/月的价格标签，但我提供 29 美元/月的专业计划来帮助补贴）。不管怎么说，这是一个有趣（且昂贵）的思想实验。
-
-评论网址：https://news.ycombinator.com/item?id=42409056
-积分：17
-评论数：9]]></description>
-      <guid>https://ithy.com</guid>
-      <pubDate>Fri, 13 Dec 2024 15:05:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Web Origami，用于制作网站，让你了解它们是如何制作的</title>
-      <link>https://weborigami.org</link>
-      <description><![CDATA[文章网址：https://weborigami.org
-评论网址：https://news.ycombinator.com/item?id=42408819
-积分：91
-评论数：23]]></description>
-      <guid>https://weborigami.org</guid>
-      <pubDate>Fri, 13 Dec 2024 14:43:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>非侵入性成像方法可以更深入地渗透到活体组织中</title>
-      <link>https://news.mit.edu/2024/noninvasive-imaging-method-can-penetrate-deeper-living-tissue-1211</link>
-      <description><![CDATA[文章网址：https://news.mit.edu/2024/nonvascular-imaging-method-can-penetrate-deeper-living-tissue-1211
-评论网址：https://news.ycombinator.com/item?id=42408271
-积分：100
-评论数：11]]></description>
-      <guid>https://news.mit.edu/2024/noninvasive-imaging-method-can-penetrate-deeper-living-tissue-1211</guid>
-      <pubDate>Fri, 13 Dec 2024 13:34:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>唐纳德·比泽尔去世</title>
-      <link>https://computerhistory.org/blog/in-memoriam-donald-bitzer-1934-2024/</link>
-      <description><![CDATA[文章网址：https://computerhistory.org/blog/in-memoriam-donald-bitzer-1934-2024/
-评论网址：https://news.ycombinator.com/item?id=42406158
-积分：87
-评论数：9]]></description>
-      <guid>https://computerhistory.org/blog/in-memoriam-donald-bitzer-1934-2024/</guid>
-      <pubDate>Fri, 13 Dec 2024 05:32:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>平均年龄（2023年）</title>
-      <link>https://www.alexmurrell.co.uk/articles/the-age-of-average</link>
-      <description><![CDATA[文章网址：https://www.alexmurrell.co.uk/articles/the-age-of-average
-评论网址：https://news.ycombinator.com/item?id=42405999
-积分：213
-评论数：135]]></description>
-      <guid>https://www.alexmurrell.co.uk/articles/the-age-of-average</guid>
-      <pubDate>Fri, 13 Dec 2024 04:50:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
