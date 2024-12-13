@@ -4,107 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 13 Dec 2024 15:19:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Dec 2024 18:25:11 GMT</lastBuildDate>
     <item>
-      <title>联邦政府帮助健康保险公司隐藏其肮脏的秘密：拒绝率上升</title>
-      <link>https://nypost.com/2024/12/12/opinion/feds-help-health-insurers-hide-dirty-secret-rising-denials/</link>
-      <description><![CDATA[文章网址：https://nypost.com/2024/12/12/opinion/feds-help-health-insurers-hide-dirty-secret-rising-denials/
-评论网址：https://news.ycombinator.com/item?id=42408925
-积分：18
+      <title>Rust 通过并发循环收集来收集智能指针垃圾</title>
+      <link>https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html</link>
+      <description><![CDATA[文章网址：https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html
+评论网址：https://news.ycombinator.com/item?id=42410663
+积分：21
+评论数：1]]></description>
+      <guid>https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html</guid>
+      <pubDate>Fri, 13 Dec 2024 17:48:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>善于读书的人有不同的大脑</title>
+      <link>https://theconversation.com/people-who-are-good-at-reading-have-different-brains-244786</link>
+      <description><![CDATA[文章网址：https://theconversation.com/people-who-are-good-at-reading-have-different-brains-244786
+评论网址：https://news.ycombinator.com/item?id=42410508
+积分：17
 评论数：0]]></description>
-      <guid>https://nypost.com/2024/12/12/opinion/feds-help-health-insurers-hide-dirty-secret-rising-denials/</guid>
-      <pubDate>Fri, 13 Dec 2024 14:51:49 GMT</pubDate>
+      <guid>https://theconversation.com/people-who-are-good-at-reading-have-different-brains-244786</guid>
+      <pubDate>Fri, 13 Dec 2024 17:32:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HyperDX (YC S22) 正在招聘工程师来构建开源可观察性</title>
+      <link>https://www.ycombinator.com/companies/hyperdx/jobs</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/hyperdx/jobs
+评论网址：https://news.ycombinator.com/item?id=42410233
+积分：0
+评论数：0]]></description>
+      <guid>https://www.ycombinator.com/companies/hyperdx/jobs</guid>
+      <pubDate>Fri, 13 Dec 2024 17:00:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>冒名顶替者攻击 – 使用 ESP32 和 MicroPython 制作的《我们之中》主题红外游戏</title>
+      <link>https://blog.langworth.com/imposter-attack</link>
+      <description><![CDATA[文章网址：https://blog.langworth.com/imposter-attack
+评论网址：https://news.ycombinator.com/item?id=42410229
+积分：42
+评论数：9]]></description>
+      <guid>https://blog.langworth.com/imposter-attack</guid>
+      <pubDate>Fri, 13 Dec 2024 17:00:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：雨哈希 – 精心设计、简单且快速的可变大小哈希</title>
+      <link>https://github.com/DOSAYGO-Research/rain</link>
+      <description><![CDATA[文章网址：https://github.com/DOSAYGO-Research/rain
+评论网址：https://news.ycombinator.com/item?id=42409577
+积分：49
+评论数：10]]></description>
+      <guid>https://github.com/DOSAYGO-Research/rain</guid>
+      <pubDate>Fri, 13 Dec 2024 15:46:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>向 HN 展示：我做了最慢、最昂贵的 GPT</title>
+      <link>https://ithy.com</link>
+      <description><![CDATA[这是我的另一个自动化生活项目——我经常向不同的人工智能提出同样的问题，因为总希望在其他地方得到更好的答案。也许 ChatGPT 的答案太短了，所以我问了 Perplexity。但我意识到那是幻觉，所以我尝试了 Gemini。那个答案听起来是对的，但我交叉引用了 Claude 以确保万无一失。这并不适用于数学/编码（o1 或 Gemini 可能可以一次性给出出色的答案），但更多地适用于在线搜索，其中信息更加流动，并且每次都没有“正确的”搜索引擎 + 文本重组 + 模型组合。甚至 o1 也没有在线搜索，所以这显然是一个很难解决的问题。一个例子是“美国最好的滑雪胜地”，每个 GPT 都会给出不同的响应，但它们的大多数排名都不会反映实际滑雪者的共识 - 比如在 Reddit 上https://www.reddit.com/r/skiing/comments/sew297/updated_us_s... - 因为有太多的意见在流传，一次性的 RAG 搜索 + LLM 不足以提供足够的背景信息来找到每个人的想法。显然，如果度假村关闭，o1 和 Sonnet/Haiku 等离线 GPT 将不会有最新更新。因此，我花了几个月的时间试验一个新项目，这基本上是我运行过的最昂贵的 GPT。它通过 ChatGPT、Claude、Grok、Perplexity、Gemini 等运行搜索查询，然后汇总响应。更糟糕的是，在此期间，它还使用多个嵌入模型并通过不同的搜索引擎执行迭代 RAG 搜索。这一切就像一个巨大的 AI 大脑一样运作。所以我先为每次搜索付费，然后是每次嵌入，然后是每个中间 LLM 输入/输出，然后是最终的 LLM 输入/输出。平均每次搜索的费用约为 10 到 30 美分。它也非常慢。https://ithy.com我知道这听起来有点荒谬，但这就是重点。目标是获得尽可能准确和全面的答案，因为它已经经过了许多不同的人工智能的审查，每个人工智能都来自不同的网站。今天的上下文限制足够大，以至于这种类型的搜索和跨模型迭代是可能的，我们可以确定一组不同文本之间的“重叠”以确定某种共识。我们的想法是获得任何单个人工智能都无法获得的在线答案。如果您最终决定尝试一下，我建议您将 Ithy 的输出与其他 GPT 进行比较，以查看差异。运行这个项目将花费我一大笔钱（我可能会让它在线运行一两个月），但我认为它是对当今模型 API 可能性的探索，而不是立即实用的东西。可以将其视为在线 o1（没有 200 美元/月的价格标签，但我提供 29 美元/月的专业计划来帮助补贴）。不管怎么说，这是一个有趣（且昂贵）的思想实验。
+
+评论网址：https://news.ycombinator.com/item?id=42409056
+积分：17
+评论数：9]]></description>
+      <guid>https://ithy.com</guid>
+      <pubDate>Fri, 13 Dec 2024 15:05:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Web Origami，用于制作网站，让你了解它们是如何制作的</title>
+      <link>https://weborigami.org</link>
+      <description><![CDATA[文章网址：https://weborigami.org
+评论网址：https://news.ycombinator.com/item?id=42408819
+积分：91
+评论数：23]]></description>
+      <guid>https://weborigami.org</guid>
+      <pubDate>Fri, 13 Dec 2024 14:43:05 GMT</pubDate>
     </item>
     <item>
       <title>非侵入性成像方法可以更深入地渗透到活体组织中</title>
       <link>https://news.mit.edu/2024/noninvasive-imaging-method-can-penetrate-deeper-living-tissue-1211</link>
       <description><![CDATA[文章网址：https://news.mit.edu/2024/nonvascular-imaging-method-can-penetrate-deeper-living-tissue-1211
 评论网址：https://news.ycombinator.com/item?id=42408271
-积分：46
-评论数：5]]></description>
+积分：100
+评论数：11]]></description>
       <guid>https://news.mit.edu/2024/noninvasive-imaging-method-can-penetrate-deeper-living-tissue-1211</guid>
       <pubDate>Fri, 13 Dec 2024 13:34:34 GMT</pubDate>
     </item>
     <item>
-      <title>Dart/Flutter 弱 PRNG 带​​来的三个错误</title>
-      <link>https://www.zellic.io/blog/proton-dart-flutter-csprng-prng/</link>
-      <description><![CDATA[文章网址：https://www.zellic.io/blog/proton-dart-flutter-csprng-prng/
-评论网址：https://news.ycombinator.com/item?id=42406773
-积分：5
-评论数：0]]></description>
-      <guid>https://www.zellic.io/blog/proton-dart-flutter-csprng-prng/</guid>
-      <pubDate>Fri, 13 Dec 2024 08:05:27 GMT</pubDate>
+      <title>唐纳德·比泽尔去世</title>
+      <link>https://computerhistory.org/blog/in-memoriam-donald-bitzer-1934-2024/</link>
+      <description><![CDATA[文章网址：https://computerhistory.org/blog/in-memoriam-donald-bitzer-1934-2024/
+评论网址：https://news.ycombinator.com/item?id=42406158
+积分：87
+评论数：9]]></description>
+      <guid>https://computerhistory.org/blog/in-memoriam-donald-bitzer-1934-2024/</guid>
+      <pubDate>Fri, 13 Dec 2024 05:32:42 GMT</pubDate>
     </item>
     <item>
       <title>平均年龄（2023年）</title>
       <link>https://www.alexmurrell.co.uk/articles/the-age-of-average</link>
       <description><![CDATA[文章网址：https://www.alexmurrell.co.uk/articles/the-age-of-average
 评论网址：https://news.ycombinator.com/item?id=42405999
-积分：181
-评论数：115]]></description>
+积分：213
+评论数：135]]></description>
       <guid>https://www.alexmurrell.co.uk/articles/the-age-of-average</guid>
       <pubDate>Fri, 13 Dec 2024 04:50:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>削减基础研究经费，新西兰取消对社会科学的所有支持</title>
-      <link>https://www.science.org/content/article/amid-cuts-basic-research-new-zealand-scraps-all-support-social-sciences</link>
-      <description><![CDATA[文章网址：https://www.science.org/content/article/amid-cuts-basic-research-new-zealand-scraps-all-support-social-sciences
-评论网址：https://news.ycombinator.com/item?id=42405956
-积分：107
-评论数：157]]></description>
-      <guid>https://www.science.org/content/article/amid-cuts-basic-research-new-zealand-scraps-all-support-social-sciences</guid>
-      <pubDate>Fri, 13 Dec 2024 04:38:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>变压器供应危机阻碍能源项目</title>
-      <link>https://spectrum.ieee.org/transformer-shortage</link>
-      <description><![CDATA[文章网址：https://spectrum.ieee.org/transformer-shortage
-评论网址：https://news.ycombinator.com/item?id=42405795
-积分：86
-评论数：78]]></description>
-      <guid>https://spectrum.ieee.org/transformer-shortage</guid>
-      <pubDate>Fri, 13 Dec 2024 03:53:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>数学家发现了一种计算素数的新方法</title>
-      <link>https://www.quantamagazine.org/mathematicians-uncover-a-new-way-to-count-prime-numbers-20241211/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/mathematicians-uncover-a-new-way-to-count-prime-numbers-20241211/
-评论网址：https://news.ycombinator.com/item?id=42405733
-积分：115
-评论数：61]]></description>
-      <guid>https://www.quantamagazine.org/mathematicians-uncover-a-new-way-to-count-prime-numbers-20241211/</guid>
-      <pubDate>Fri, 13 Dec 2024 03:38:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>一段新视频记录了 1968 年 IBM 行政终端的演示</title>
-      <link>https://spectrum.ieee.org/ibm-demo</link>
-      <description><![CDATA[文章网址：https://spectrum.ieee.org/ibm-demo
-评论网址：https://news.ycombinator.com/item?id=42405462
-积分：243
-评论数：59]]></description>
-      <guid>https://spectrum.ieee.org/ibm-demo</guid>
-      <pubDate>Fri, 13 Dec 2024 02:30:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>展示 HN：我设计了一台浓缩咖啡机和咖啡研磨机</title>
-      <link>https://velofuso.com</link>
-      <description><![CDATA[作为一个个人项目，工作量很大，但我希望你们觉得很酷。当我在网站上说“我们”时，这只是最尊贵的意思。我还拍摄了所有的照片/视频。我一开始设计了一台供个人使用的机器，但就像许多事情一样，从那时起，它就变得有点失控了。我觉得浓缩咖啡机变得非常大、塑料化和应用程序集成，而没有真正改进使它们工作的底层技术。特别是嘈杂的振动泵是 1977 年的，从那时起就没有真正改变过。所以我想专注于制造最先进的内部结构，让其他一切都尽可能简约。据我所知，这款泵在功率密度和价格方面完全独一无二。如果不花几千美元，很难找到一台带齿轮泵的机器，可调压力也同样昂贵，但这台机器有这些东西，而且购买价格正常。您还可以将压力调低并制作滤泡咖啡。我还看到很多人（包括我自己）在制作浓缩咖啡时使用秤，甚至在冲煮头下方放置一个杯子来接住滴水，完全不需要滴水盘，所以我的设计基本上就是为了这个！这台机器的轮廓看起来更轻盈，不会像我的旧浓缩咖啡机那样隐约出现在角落里。对于研磨机，基本上市场上的所有产品都使用锥形和扁平毛刺，这些毛刺源自香料研磨机，以及相同的几种标准尺寸。有时较大的公司会设计自己的毛刺，但仅限于现有的形状。人们急于将越来越大的毛刺放入咖啡研磨机，这是有道理的，但是使用圆柱形毛刺，您可以相对于研磨机的尺寸更多地增加切割面。当研磨机太大时，保持对齐在机械上会变得很麻烦，但圆柱形毛刺可以从内部得到很好的支撑，并且还有一个额外的好处，那就是将整个电机隐藏在毛刺内。 最终的研磨效果比我用过的所有其他研磨机都要好，但显然这只是个人品味和个人偏见的问题。这款研磨机最大的缺点是它不适用于星巴克风格的油性烘焙咖啡，因为咖啡在穿过毛刺时会膨胀太多，有时会堵塞齿。 它不会损坏研磨机，但需要清洁（无需工具！）。这两款机器的另一个缺点是它们使用直流电，因此最好在厨房里有一个地方可以收起电源块。我还制作了一个套件，使齿轮泵成为其他浓缩咖啡机的直接升级，以减少噪音并增加可调节压力。https://velofuso.com/store/p/gear-pump-upgrade-kit这个过程中最艰难的部分是开发过程中它们完全不工作的时刻。当研磨机立即卡住，或者连续第四家工厂告诉你你正在制造的部件不可能，或者泵交替将水从侧面喷到你的脸上，根本不抽水。而默认的想​​法是“当然它不起作用，如果这能起作用，其他人早就把它做成了这样”。您所走的路线从根本上来说完全不同，以至于没有现成的解决方案可以借鉴。您基本上是在黑暗中摸索了好几个月，烧钱，然后有一天，每一个小小的累积变化突然加起来就变成了一杯美味的浓缩咖啡。虽然它还不完美，但您至少可以看到前方的道路。无论如何，这比我预期的要多得多，感谢您的阅读！如果您有任何问题请告诉我
-
-评论网址：https://news.ycombinator.com/item?id=42405046
-积分：497
-评论数：237]]></description>
-      <guid>https://velofuso.com</guid>
-      <pubDate>Fri, 13 Dec 2024 01:03:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>Clio：一个保护隐私、洞察现实世界人工智能使用的系统</title>
-      <link>https://www.anthropic.com/research/clio</link>
-      <description><![CDATA[文章网址：https://www.anthropic.com/research/clio
-评论网址：https://news.ycombinator.com/item?id=42404447
-积分：89
-评论数：28]]></description>
-      <guid>https://www.anthropic.com/research/clio</guid>
-      <pubDate>Thu, 12 Dec 2024 23:22:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
