@@ -4,110 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 13 Dec 2024 12:35:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Dec 2024 15:19:16 GMT</lastBuildDate>
     <item>
-      <title>叙利亚 Capagon 行业</title>
-      <link>https://en.wikipedia.org/wiki/Syrian_Captagon_industry</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Syrian_Captagon_industry
-评论网址：https://news.ycombinator.com/item?id=42407906
+      <title>使用虚假的最后期限而不会让你的工程师抓狂</title>
+      <link>https://zaidesanton.substack.com/p/using-fake-deadlines-without-driving</link>
+      <description><![CDATA[文章网址：https://zaidesanton.substack.com/p/using-fake-deadlines-without-driving
+评论网址：https://news.ycombinator.com/item?id=42409076
 积分：1
 评论数：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Syrian_Captagon_industry</guid>
-      <pubDate>Fri, 13 Dec 2024 12:24:38 GMT</pubDate>
+      <guid>https://zaidesanton.substack.com/p/using-fake-deadlines-without-driving</guid>
+      <pubDate>Fri, 13 Dec 2024 15:08:20 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：SaasZeal – 您的终极 SaaS 解决方案查找器</title>
-      <link>https://saaszeal.com/</link>
-      <description><![CDATA[人工智能会取代行业内容撰写者的工作吗？
+      <title>14 名朝鲜人因 IT 员工欺诈和敲诈勒索被起诉</title>
+      <link>https://www.justice.gov/opa/pr/fourteen-north-korean-nationals-indicted-carrying-out-multi-year-fraudulent-information</link>
+      <description><![CDATA[文章网址：https://www.justice.gov/opa/pr/fourteen-north-korean-nationals-indicted-carrying-out-multi-year-fraudulent-information
+评论网址：https://news.ycombinator.com/item?id=42409059
+积分：1
+评论数：0]]></description>
+      <guid>https://www.justice.gov/opa/pr/fourteen-north-korean-nationals-indicted-carrying-out-multi-year-fraudulent-information</guid>
+      <pubDate>Fri, 13 Dec 2024 15:05:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>向 HN 展示：我做了最慢、最昂贵的 GPT</title>
+      <link>https://ithy.com</link>
+      <description><![CDATA[这是我的另一个自动化生活项目——我经常向不同的人工智能提出同样的问题，因为总希望在其他地方得到更好的答案。也许 ChatGPT 的答案太短了，所以我问了 Perplexity。但我意识到那是幻觉，所以我尝试了 Gemini。那个答案听起来是对的，但我交叉引用了 Claude 以确保万无一失。这并不适用于数学/编码（o1 或 Gemini 可能可以一次性给出出色的答案），但更多地适用于在线搜索，其中信息更加流动，并且每次都没有“正确的”搜索引擎 + 文本重组 + 模型组合。甚至 o1 也没有在线搜索，所以这显然是一个很难解决的问题。一个例子是“美国最好的滑雪胜地”，每个 GPT 都会给出不同的响应，但它们的大多数排名都不会反映实际滑雪者的共识 - 比如在 Reddit 上https://www.reddit.com/r/skiing/comments/sew297/updated_us_s... - 因为有太多的意见在流传，一次性的 RAG 搜索 + LLM 不足以提供足够的背景信息来找到每个人的想法。显然，如果度假村关闭，o1 和 Sonnet/Haiku 等离线 GPT 将不会有最新更新。因此，我花了几个月的时间试验一个新项目，这基本上是我运行过的最昂贵的 GPT。它通过 ChatGPT、Claude、Grok、Perplexity、Gemini 等运行搜索查询，然后汇总响应。更糟糕的是，在此期间，它还使用多个嵌入模型并通过不同的搜索引擎执行迭代 RAG 搜索。这一切就像一个巨大的 AI 大脑一样运作。所以我先为每次搜索付费，然后是每次嵌入，然后是每个中间 LLM 输入/输出，然后是最终的 LLM 输入/输出。平均每次搜索的费用约为 10 到 30 美分。它也非常慢。https://ithy.com我知道这听起来有点荒谬，但这就是重点。目标是获得尽可能准确和全面的答案，因为它已经经过了许多不同的人工智能的审查，每个人工智能都来自不同的网站。今天的上下文限制足够大，以至于这种类型的搜索和跨模型迭代是可能的，我们可以确定一组不同文本之间的“重叠”以确定某种共识。我们的想法是获得任何单个人工智能都无法获得的在线答案。如果您最终尝试了此方法，我建议您将 Ithy 的输出与其他 GPT 进行比较，以查看差异。运行这个项目将花费我一大笔钱（我可能会让它在线运行一两个月），但我认为它是对当今模型 API 可能性的探索，而不是立即实用的东西。可以将其视为在线 o1（没有 200 美元/月的价格标签，但我提供 29 美元/月的专业计划来帮助补贴）。如果没有别的，这是一个有趣（且昂贵）的思想实验。
 
-评论网址：https://news.ycombinator.com/item?id=42407894
+评论 URL：https://news.ycombinator.com/item?id=42409056
 积分：1
-评论数：0]]></description>
-      <guid>https://saaszeal.com/</guid>
-      <pubDate>Fri, 13 Dec 2024 12:22:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>向 HN 展示：MSP 可以向其客户提供的免费礼券</title>
-      <link>https://news.ycombinator.com/item?id=42407877</link>
-      <description><![CDATA[每天，公司都会因数据管理不善而遭受数据泄露。我们的目标是提高人们的意识并促进更安全的数据处理。这就是我们创建 39 欧元 Hypervault 代金券的原因，您可以自由地将其分发给您的客户。39 欧元是我们一份许可证的年度订阅价格（不含税）。本质上，我们提供为期一年的免费许可，以提高知名度。您可以在此处申请优惠券：
-https://hypervault.com/gift-voucher/
-
-评论网址：https://news.ycombinator.com/item?id=42407877
-积分：1
-评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42407877</guid>
-      <pubDate>Fri, 13 Dec 2024 12:16:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能北极星剧本</title>
-      <link>https://playbook.stealthx.co/</link>
-      <description><![CDATA[文章网址：https://playbook.stealthx.co/
-评论网址：https://news.ycombinator.com/item?id=42407848
-积分：1
-评论数：0]]></description>
-      <guid>https://playbook.stealthx.co/</guid>
-      <pubDate>Fri, 13 Dec 2024 12:10:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：mcp-golang – 为 LLM 构建自定义工具</title>
-      <link>https://github.com/metoro-io/mcp-golang</link>
-      <description><![CDATA[Anthropic 几周前发布了模型上下文协议 - https://www.anthropic.com/news/model-context-protocol。他们有针对 python 和 typescript 的官方 sdk，但没有针对 go 的，所以我写了一个！主要目标是提供一个低样板 sdk 来编写 MCP 服务器，您可以启动一个服务器，让 LLM 访问天气预报，如下所示：https://github.com/metoro-io/mcp-golang/blob/main/examples/g... 。在这里使用它：https://youtu.be/xaMkMl_R-0A该库通过自省结构体的类型 + 处理程序的注释来处理模型的所有 MCP 端点和输入模式的生成。我目前正在努力填写协议中其余的可选服务器功能，并希望很快转向客户端实现。如果有人觉得这很有趣，我们总是很感激他们的帮助！
-
-评论网址：https://news.ycombinator.com/item?id=42407827
-积分：2
-评论数：0]]></description>
-      <guid>https://github.com/metoro-io/mcp-golang</guid>
-      <pubDate>Fri, 13 Dec 2024 12:04:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国青少年的极度网络生活</title>
-      <link>https://www.theverge.com/2024/12/12/24319692/half-of-us-teens-almost-constantly-online-pew-research-poll</link>
-      <description><![CDATA[文章网址：https://www.theverge.com/2024/12/12/24319692/half-of-us-teens-almost-constantly-online-pew-research-poll
-评论网址：https://news.ycombinator.com/item?id=42407820
-积分：1
-评论数：0]]></description>
-      <guid>https://www.theverge.com/2024/12/12/24319692/half-of-us-teens-almost-constantly-online-pew-research-poll</guid>
-      <pubDate>Fri, 13 Dec 2024 12:02:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>软件工程中的非技术问题（1991）</title>
-      <link>https://dl.acm.org/doi/pdf/10.5555/256664.256728</link>
-      <description><![CDATA[文章网址：https://dl.acm.org/doi/pdf/10.5555/256664.256728
-评论网址：https://news.ycombinator.com/item?id=42407813
-积分：1
-评论数：0]]></description>
-      <guid>https://dl.acm.org/doi/pdf/10.5555/256664.256728</guid>
-      <pubDate>Fri, 13 Dec 2024 12:01:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>维珍银河签署协议，研究从意大利进行的亚轨道太空飞行</title>
-      <link>https://spacenews.com/virgin-galactic-signs-agreement-to-study-suborbital-spaceflights-from-italian-spaceport/</link>
-      <description><![CDATA[文章网址：https://spacenews.com/virgin-galactic-signs-agreement-to-study-suborbital-spaceflights-from-italian-spaceport/
-评论网址：https://news.ycombinator.com/item?id=42407809
-积分：1
-评论数：0]]></description>
-      <guid>https://spacenews.com/virgin-galactic-signs-agreement-to-study-suborbital-spaceflights-from-italian-spaceport/</guid>
-      <pubDate>Fri, 13 Dec 2024 12:00:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能就是《黑镜》</title>
-      <link>https://nautil.us/ai-is-the-black-mirror-1169121/</link>
-      <description><![CDATA[文章网址：https://nautil.us/ai-is-the-black-mirror-1169121/
-评论网址：https://news.ycombinator.com/item?id=42407803
-积分：2
-评论数：0]]></description>
-      <guid>https://nautil.us/ai-is-the-black-mirror-1169121/</guid>
-      <pubDate>Fri, 13 Dec 2024 11:58:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>乡村身份是导致美国反智主义的一个因素</title>
-      <link>https://link.springer.com/article/10.1007/s11109-022-09770-w</link>
-      <description><![CDATA[文章网址：https://link.springer.com/article/10.1007/s11109-022-09770-w
-评论网址：https://news.ycombinator.com/item?id=42407799
-积分：3
 评论数：1]]></description>
-      <guid>https://link.springer.com/article/10.1007/s11109-022-09770-w</guid>
-      <pubDate>Fri, 13 Dec 2024 11:58:06 GMT</pubDate>
+      <guid>https://ithy.com</guid>
+      <pubDate>Fri, 13 Dec 2024 15:05:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>开发者调查显示哪些 AI 助手最受欢迎</title>
+      <link>https://devclass.com/2024/12/13/huge-developer-survey-shows-which-ai-assistants-are-most-adopted-and-trend-towards-coding-with-vr-headsets/</link>
+      <description><![CDATA[文章网址：https://devclass.com/2024/12/13/huge-developer-survey-shows-which-ai-assistants-are-most-adopted-and-trend-towards-coding-with-vr-headsets/
+评论网址：https://news.ycombinator.com/item?id=42409042
+积分：1
+评论数：0]]></description>
+      <guid>https://devclass.com/2024/12/13/huge-developer-survey-shows-which-ai-assistants-are-most-adopted-and-trend-towards-coding-with-vr-headsets/</guid>
+      <pubDate>Fri, 13 Dec 2024 15:02:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Sign My Rocket 签署乌克兰 Shell 或 Rocket</title>
+      <link>https://signmyrocket.com/</link>
+      <description><![CDATA[文章网址：https://signmyrocket.com/
+评论网址：https://news.ycombinator.com/item?id=42409038
+积分：1
+评论数：0]]></description>
+      <guid>https://signmyrocket.com/</guid>
+      <pubDate>Fri, 13 Dec 2024 15:02:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>经合组织国家成人识字率和算术率下降或停滞</title>
+      <link>https://www.oecd.org/en/about/news/press-releases/2024/12/adult-skills-in-literacy-and-numeracy-declining-or-stagnating-in-most-oecd-countries.html</link>
+      <description><![CDATA[文章网址：https://www.oecd.org/en/about/news/press-releases/2024/12/adult-skills-in-literacy-and-numeracy-declining-or-stagnating-in-most-oecd-countries.html
+评论网址：https://news.ycombinator.com/item?id=42409030
+积分：1
+评论数：0]]></description>
+      <guid>https://www.oecd.org/en/about/news/press-releases/2024/12/adult-skills-in-literacy-and-numeracy-declining-or-stagnating-in-most-oecd-countries.html</guid>
+      <pubDate>Fri, 13 Dec 2024 15:01:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rydox 网络犯罪市场被关闭，三名管理员被捕</title>
+      <link>https://www.justice.gov/opa/pr/rydox-cybercrime-marketplace-shut-down-and-three-administrators-arrested</link>
+      <description><![CDATA[文章网址：https://www.justice.gov/opa/pr/rydox-cybercrime-marketplace-shut-down-and-three-administrators-arrested
+评论网址：https://news.ycombinator.com/item?id=42409021
+积分：1
+评论数：0]]></description>
+      <guid>https://www.justice.gov/opa/pr/rydox-cybercrime-marketplace-shut-down-and-three-administrators-arrested</guid>
+      <pubDate>Fri, 13 Dec 2024 14:59:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>FCC 要求电信公司提高安全性</title>
+      <link>https://www.lawfaremedia.org/article/fcc-to-demand-telcos-improve-security</link>
+      <description><![CDATA[文章网址：https://www.lawfaremedia.org/article/fcc-to-demand-telcos-improve-security
+评论网址：https://news.ycombinator.com/item?id=42409010
+积分：1
+评论数：0]]></description>
+      <guid>https://www.lawfaremedia.org/article/fcc-to-demand-telcos-improve-security</guid>
+      <pubDate>Fri, 13 Dec 2024 14:58:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>咨询公司麦肯锡将支付 6.5 亿美元解决美国阿片类药物调查</title>
+      <link>https://www.reuters.com/legal/consulting-firm-mckinsey-pay-650-mln-resolve-us-opioid-probe-2024-12-13/</link>
+      <description><![CDATA[文章网址：https://www.reuters.com/legal/consulting-firm-mckinsey-pay-650-mln-resolve-us-opioid-probe-2024-12-13/
+评论网址：https://news.ycombinator.com/item?id=42409009
+积分：1
+评论数：0]]></description>
+      <guid>https://www.reuters.com/legal/consulting-firm-mckinsey-pay-650-mln-resolve-us-opioid-probe-2024-12-13/</guid>
+      <pubDate>Fri, 13 Dec 2024 14:58:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>自然语音编程助手</title>
+      <link>https://docs.voqal.dev/introduction</link>
+      <description><![CDATA[文章网址：https://docs.voqal.dev/introduction
+评论网址：https://news.ycombinator.com/item?id=42409005
+积分：1
+评论数：0]]></description>
+      <guid>https://docs.voqal.dev/introduction</guid>
+      <pubDate>Fri, 13 Dec 2024 14:58:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
