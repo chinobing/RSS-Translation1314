@@ -4,14 +4,65 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 13 Dec 2024 21:16:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2024 01:20:16 GMT</lastBuildDate>
+    <item>
+      <title>macOS 15.2 破坏了将操作系统复制到另一个驱动器的功能</title>
+      <link>https://www.shirtpocket.com/blog/index.php/shadedgrey/youre_a_mean_one/</link>
+      <description><![CDATA[文章网址：https://www.shirtpocket.com/blog/index.php/shadedgrey/youre_a_mean_one/
+评论网址：https://news.ycombinator.com/item?id=42413757
+积分：3
+评论数：0]]></description>
+      <guid>https://www.shirtpocket.com/blog/index.php/shadedgrey/youre_a_mean_one/</guid>
+      <pubDate>Sat, 14 Dec 2024 01:04:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Rust 中的高性能洲内公共交通路线</title>
+      <link>https://github.com/ellenhp/farebox</link>
+      <description><![CDATA[我制作了一个公共交通路线规划程序，可以规划穿越欧洲或北美的旅程！据我所知，只有另一个 FOSS 项目（MOTIS/Transitous）可以进行这种规模的交通路线规划，而且在我进行的测试中，我的程序速度大约快 50 倍。我已经在这个项目上花了几个星期了，现在我可以展示它了，但是 API 响应在用于任何下游应用程序之前还需要做大量的工作。示例查询（柏林到巴塞罗那）：https://farebox.airmail.rs/plan/52.5176122,13.4180261/41.380...仍然存在一些错误。值得注意的是，它无法规划这条路线的回程，也无法规划我在博文中给出的从西雅图到纽约的反向行程。博文：https://blog.ellenhp.me/performant-intracontinental-transit-...回购：https://github.com/ellenhp/farebox附注：过去有些人批评我的写作风格，有时有点伤人，但如果您对博文有建设性的反馈，我将不胜感激。我正在努力提高写作水平。 :)
+
+评论网址：https://news.ycombinator.com/item?id=42413464
+积分：3
+评论数：0]]></description>
+      <guid>https://github.com/ellenhp/farebox</guid>
+      <pubDate>Sat, 14 Dec 2024 00:00:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Luon 编程语言结合了 Oberon 和 Lua 的概念</title>
+      <link>https://github.com/rochus-keller/Luon/blob/master/Readme.md</link>
+      <description><![CDATA[文章网址：https://github.com/rochus-keller/Luon/blob/master/Readme.md
+评论网址：https://news.ycombinator.com/item?id=42413343
+积分：41
+评论数：6]]></description>
+      <guid>https://github.com/rochus-keller/Luon/blob/master/Readme.md</guid>
+      <pubDate>Fri, 13 Dec 2024 23:37:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>麦肯锡公司因在阿片类药物危机中扮演的角色支付 6.5 亿美元</title>
+      <link>https://www.npr.org/2024/12/13/nx-s1-5155962/mckinsey-purdue-opioid-prosecution-doj</link>
+      <description><![CDATA[文章网址：https://www.npr.org/2024/12/13/nx-s1-5155962/mckinsey-purdue-opioid-prosecution-doj
+评论网址：https://news.ycombinator.com/item?id=42413086
+积分：43
+评论数：9]]></description>
+      <guid>https://www.npr.org/2024/12/13/nx-s1-5155962/mckinsey-purdue-opioid-prosecution-doj</guid>
+      <pubDate>Fri, 13 Dec 2024 22:57:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>分享 Meta FAIR 的新研究、模型和数据集</title>
+      <link>https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/?_fb_noscript=1</link>
+      <description><![CDATA[文章网址：https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/?_fb_noscript=1
+评论网址：https://news.ycombinator.com/item?id=42412360
+积分：131
+评论数：20]]></description>
+      <guid>https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/?_fb_noscript=1</guid>
+      <pubDate>Fri, 13 Dec 2024 21:07:08 GMT</pubDate>
+    </item>
     <item>
       <title>SCCS 蟑螂汽车旅馆</title>
       <link>https://www.tuhs.org/pipermail/tuhs/2024-December/031188.html</link>
       <description><![CDATA[文章网址：https://www.tuhs.org/pipermail/tuhs/2024-December/031188.html
 评论网址：https://news.ycombinator.com/item?id=42411868
-积分：7
-评论数：0]]></description>
+积分：34
+评论数：11]]></description>
       <guid>https://www.tuhs.org/pipermail/tuhs/2024-December/031188.html</guid>
       <pubDate>Fri, 13 Dec 2024 20:07:30 GMT</pubDate>
     </item>
@@ -21,8 +72,8 @@
       <description><![CDATA[大家好！我刚刚写了一篇关于此内容的博客文章，我想在这里分享一下：https://smoores.dev/post/announcing_smoores_epub/。在开发 Storyteller[1] 的过程中，我一直在开发一个用于处理 EPUB 文件的库，因为这是 Storyteller 所做的大量工作。在一位朋友询问有关在 Node.js 中创建 EPUB 书籍的建议后，我决定将 Storyteller 的 EPUB 库发布为独立的 NPM 包。我真的很喜欢 EPUB 规范，我认为 Node.js 开发者社区应该有一个积极维护的库来使用它！[1]: https://smoores.gitlab.io/storyteller
 
 评论网址：https://news.ycombinator.com/item?id=42411727
-积分：23
-评论数：8]]></description>
+积分：83
+评论数：30]]></description>
       <guid>https://www.npmjs.com/package/@smoores/epub</guid>
       <pubDate>Fri, 13 Dec 2024 19:52:26 GMT</pubDate>
     </item>
@@ -31,8 +82,8 @@
       <link>https://openai.com/index/elon-musk-wanted-an-openai-for-profit/</link>
       <description><![CDATA[文章网址：https://openai.com/index/elon-musk-wanted-an-openai-for-profit/
 评论网址：https://news.ycombinator.com/item?id=42411608
-积分：115
-评论数：103]]></description>
+积分：352
+评论数：372]]></description>
       <guid>https://openai.com/index/elon-musk-wanted-an-openai-for-profit/</guid>
       <pubDate>Fri, 13 Dec 2024 19:36:41 GMT</pubDate>
     </item>
@@ -41,20 +92,10 @@
       <link>https://github.com/microsoft/markitdown</link>
       <description><![CDATA[文章网址：https://github.com/microsoft/markitdown
 评论网址：https://news.ycombinator.com/item?id=42410803
-积分：147
-评论数：36]]></description>
+积分：202
+评论数：55]]></description>
       <guid>https://github.com/microsoft/markitdown</guid>
       <pubDate>Fri, 13 Dec 2024 18:02:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rust 通过并发循环收集来收集智能指针垃圾</title>
-      <link>https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html</link>
-      <description><![CDATA[文章网址：https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html
-评论网址：https://news.ycombinator.com/item?id=42410663
-积分：80
-评论数：40]]></description>
-      <guid>https://maplant.com/2024-12-13-Scheme-to-the-Spec-Part-I:-Concurrent-Cycle-Collection.html</guid>
-      <pubDate>Fri, 13 Dec 2024 17:48:41 GMT</pubDate>
     </item>
     <item>
       <title>询问 HN：我应该如何处理 meet.hn？</title>
@@ -66,50 +107,10 @@
 启用后，线程中的用户名旁边会显示一个图标。我和 dang 谈过了，即使在 HN 上实现某些东西的想法并非不可能，但它还没有列入路线图上。让我们在评论中讨论所有这些。期待听到您的想法。[1] https://meet.hn/city/43.6534817,-79.3839347/Old-Toronto[2] https://meet.hn/city/43.6044622,1.4442469/Toulouse[3] https://atproto.com/
 
 评论网址： https://news.ycombinator.com/item?id=42410582
-积分：81
-评论数：61]]></description>
+积分：143
+评论数：96]]></description>
       <guid>https://news.ycombinator.com/item?id=42410582</guid>
       <pubDate>Fri, 13 Dec 2024 17:38:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>善于阅读的人大脑与众不同：研究</title>
-      <link>https://theconversation.com/people-who-are-good-at-reading-have-different-brains-244786</link>
-      <description><![CDATA[文章网址：https://theconversation.com/people-who-are-good-at-reading-have-different-brains-244786
-评论网址：https://news.ycombinator.com/item?id=42410508
-积分：79
-评论数：65]]></description>
-      <guid>https://theconversation.com/people-who-are-good-at-reading-have-different-brains-244786</guid>
-      <pubDate>Fri, 13 Dec 2024 17:32:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>HyperDX（YC S22）正在招聘工程师来构建开源可观察性</title>
-      <link>https://www.ycombinator.com/companies/hyperdx/jobs</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/hyperdx/jobs
-评论网址：https://news.ycombinator.com/item?id=42410233
-积分：0
-评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/hyperdx/jobs</guid>
-      <pubDate>Fri, 13 Dec 2024 17:00:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>展示 HN：冒名顶替者攻击 – 使用 ESP32 制作的《我们之中》主题红外游戏</title>
-      <link>https://blog.langworth.com/imposter-attack</link>
-      <description><![CDATA[文章网址：https://blog.langworth.com/imposter-attack
-评论网址：https://news.ycombinator.com/item?id=42410229
-积分：107
-评论数：20]]></description>
-      <guid>https://blog.langworth.com/imposter-attack</guid>
-      <pubDate>Fri, 13 Dec 2024 17:00:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：雨哈希 – 精心设计、简单且快速的可变大小哈希</title>
-      <link>https://github.com/DOSAYGO-Research/rain</link>
-      <description><![CDATA[文章网址：https://github.com/DOSAYGO-Research/rain
-评论网址：https://news.ycombinator.com/item?id=42409577
-积分：61
-评论数：18]]></description>
-      <guid>https://github.com/DOSAYGO-Research/rain</guid>
-      <pubDate>Fri, 13 Dec 2024 15:46:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
