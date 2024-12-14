@@ -4,24 +4,34 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 14 Dec 2024 06:24:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2024 09:17:45 GMT</lastBuildDate>
     <item>
-      <title>Ilya Sutskever 时间考验演讲“我们所熟知的预训练将会结束”</title>
-      <link>https://twitter.com/i/status/1867719020444889118</link>
-      <description><![CDATA[文章网址：https://twitter.com/i/status/1867719020444889118
-评论网址：https://news.ycombinator.com/item?id=42414912
-积分：12
+      <title>熵是什么？衡量我们所知甚少的指标</title>
+      <link>https://www.quantamagazine.org/what-is-entropy-a-measure-of-just-how-little-we-really-know-20241213/</link>
+      <description><![CDATA[文章网址：https://www.quantamagazine.org/what-is-entropy-a-measure-of-just-how-little-we-really-know-20241213/
+评论网址：https://news.ycombinator.com/item?id=42415386
+积分：11
 评论数：0]]></description>
-      <guid>https://twitter.com/i/status/1867719020444889118</guid>
-      <pubDate>Sat, 14 Dec 2024 05:38:58 GMT</pubDate>
+      <guid>https://www.quantamagazine.org/what-is-entropy-a-measure-of-just-how-little-we-really-know-20241213/</guid>
+      <pubDate>Sat, 14 Dec 2024 07:49:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Byte Latent Transformer：补丁比令牌更具可扩展性</title>
+      <link>https://ai.meta.com/research/publications/byte-latent-transformer-patches-scale-better-than-tokens/?_fb_noscript=1</link>
+      <description><![CDATA[文章网址：https://ai.meta.com/research/publications/byte-latent-transformer-patches-scale-better-than-tokens/?_fb_noscript=1
+评论网址：https://news.ycombinator.com/item?id=42415122
+积分：24
+评论数：2]]></description>
+      <guid>https://ai.meta.com/research/publications/byte-latent-transformer-patches-scale-better-than-tokens/?_fb_noscript=1</guid>
+      <pubDate>Sat, 14 Dec 2024 06:36:35 GMT</pubDate>
     </item>
     <item>
       <title>Htmx 2.0.4 发布</title>
       <link>https://github.com/bigskysoftware/htmx/blob/v2.0.4/CHANGELOG.md</link>
       <description><![CDATA[文章网址：https://github.com/bigskysoftware/htmx/blob/v2.0.4/CHANGELOG.md
 评论网址：https://news.ycombinator.com/item?id=42413845
-积分：104
-评论数：46]]></description>
+积分：151
+评论数：64]]></description>
       <guid>https://github.com/bigskysoftware/htmx/blob/v2.0.4/CHANGELOG.md</guid>
       <pubDate>Sat, 14 Dec 2024 01:23:14 GMT</pubDate>
     </item>
@@ -30,10 +40,20 @@
       <link>https://www.shirtpocket.com/blog/index.php/shadedgrey/youre_a_mean_one/</link>
       <description><![CDATA[文章网址：https://www.shirtpocket.com/blog/index.php/shadedgrey/youre_a_mean_one/
 评论网址：https://news.ycombinator.com/item?id=42413757
-积分：219
-评论数：104]]></description>
+积分：300
+评论数：188]]></description>
       <guid>https://www.shirtpocket.com/blog/index.php/shadedgrey/youre_a_mean_one/</guid>
       <pubDate>Sat, 14 Dec 2024 01:04:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>利用神经网络进行序列到序列学习：这十年进展如何 [视频]</title>
+      <link>https://www.youtube.com/watch?v=YD-9NG1Ke5Y</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=YD-9NG1Ke5Y
+评论网址：https://news.ycombinator.com/item?id=42413677
+积分：42
+评论数：17]]></description>
+      <guid>https://www.youtube.com/watch?v=YD-9NG1Ke5Y</guid>
+      <pubDate>Sat, 14 Dec 2024 00:49:17 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：Rust 中的高性能洲内公共交通路线</title>
@@ -41,8 +61,8 @@
       <description><![CDATA[我制作了一个公共交通路线规划程序，可以规划穿越欧洲或北美的旅程！据我所知，只有另一个 FOSS 项目（MOTIS/Transitous）可以进行这种规模的交通路线规划，而且在我进行的测试中，我的程序速度大约快 50 倍。我已经在这个项目上花了几个星期了，现在我可以展示它了，但是 API 响应在用于任何下游应用程序之前还需要做大量的工作。示例查询（柏林到巴塞罗那）：https://farebox.airmail.rs/plan/52.5176122,13.4180261/41.380...仍然存在一些错误。值得注意的是，它无法规划这条路线的回程，也无法规划我在博文中给出的从西雅图到纽约的反向行程。博文：https://blog.ellenhp.me/performant-intracontinental-transit-...回购：https://github.com/ellenhp/farebox附注：过去有些人批评我的写作风格，有时有点伤人，但如果您对博文有建设性的反馈，我将不胜感激。我正在努力提高写作水平。 :)
 
 评论网址：https://news.ycombinator.com/item?id=42413464
-积分：46
-评论数：4]]></description>
+积分：70
+评论数：12]]></description>
       <guid>https://github.com/ellenhp/farebox</guid>
       <pubDate>Sat, 14 Dec 2024 00:00:28 GMT</pubDate>
     </item>
@@ -51,8 +71,8 @@
       <link>https://github.com/rochus-keller/Luon/blob/master/Readme.md</link>
       <description><![CDATA[文章网址：https://github.com/rochus-keller/Luon/blob/master/Readme.md
 评论网址：https://news.ycombinator.com/item?id=42413343
-积分：103
-评论数：36]]></description>
+积分：124
+评论数：45]]></description>
       <guid>https://github.com/rochus-keller/Luon/blob/master/Readme.md</guid>
       <pubDate>Fri, 13 Dec 2024 23:37:45 GMT</pubDate>
     </item>
@@ -61,8 +81,8 @@
       <link>https://www.npr.org/2024/12/13/nx-s1-5155962/mckinsey-purdue-opioid-prosecution-doj</link>
       <description><![CDATA[文章网址：https://www.npr.org/2024/12/13/nx-s1-5155962/mckinsey-purdue-opioid-prosecution-doj
 评论网址：https://news.ycombinator.com/item?id=42413086
-积分：205
-评论数：105]]></description>
+积分：271
+评论数：146]]></description>
       <guid>https://www.npr.org/2024/12/13/nx-s1-5155962/mckinsey-purdue-opioid-prosecution-doj</guid>
       <pubDate>Fri, 13 Dec 2024 22:57:04 GMT</pubDate>
     </item>
@@ -71,8 +91,8 @@
       <link>https://www.mercurynews.com/2024/12/13/openai-whistleblower-found-dead-in-san-francisco-apartment/</link>
       <description><![CDATA[文章网址：https://www.mercurynews.com/2024/12/13/openai-whistleblower-found-dead-in-san-francisco-apartment/
 评论网址：https://news.ycombinator.com/item?id=42412718
-积分：493
-评论数：175]]></description>
+积分：595
+评论数：221]]></description>
       <guid>https://www.mercurynews.com/2024/12/13/openai-whistleblower-found-dead-in-san-francisco-apartment/</guid>
       <pubDate>Fri, 13 Dec 2024 21:56:29 GMT</pubDate>
     </item>
@@ -81,31 +101,10 @@
       <link>https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/?_fb_noscript=1</link>
       <description><![CDATA[文章网址：https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/?_fb_noscript=1
 评论网址：https://news.ycombinator.com/item?id=42412360
-积分：205
-评论数：30]]></description>
+积分：235
+评论数：41]]></description>
       <guid>https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/?_fb_noscript=1</guid>
       <pubDate>Fri, 13 Dec 2024 21:07:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：@smoores/epub，一个用于处理 EPUB 出版物的 JavaScript 库</title>
-      <link>https://www.npmjs.com/package/@smoores/epub</link>
-      <description><![CDATA[大家好！我刚刚写了一篇关于此内容的博客文章，我想在这里分享一下：https://smoores.dev/post/announcing_smoores_epub/。在开发 Storyteller[1] 的过程中，我一直在开发一个用于处理 EPUB 文件的库，因为这是 Storyteller 所做的大量工作。在一位朋友询问有关在 Node.js 中创建 EPUB 书籍的建议后，我决定将 Storyteller 的 EPUB 库发布为独立的 NPM 包。我真的很喜欢 EPUB 规范，我认为 Node.js 开发者社区应该有一个积极维护的库来使用它！[1]: https://smoores.gitlab.io/storyteller
-
-评论网址：https://news.ycombinator.com/item?id=42411727
-积分：111
-评论数：39]]></description>
-      <guid>https://www.npmjs.com/package/@smoores/epub</guid>
-      <pubDate>Fri, 13 Dec 2024 19:52:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>伊隆·马斯克希望 OpenAI 能够盈利</title>
-      <link>https://openai.com/index/elon-musk-wanted-an-openai-for-profit/</link>
-      <description><![CDATA[文章网址：https://openai.com/index/elon-musk-wanted-an-openai-for-profit/
-评论网址：https://news.ycombinator.com/item?id=42411608
-积分：450
-评论数：466]]></description>
-      <guid>https://openai.com/index/elon-musk-wanted-an-openai-for-profit/</guid>
-      <pubDate>Fri, 13 Dec 2024 19:36:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
