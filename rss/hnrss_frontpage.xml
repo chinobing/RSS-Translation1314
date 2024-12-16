@@ -4,14 +4,51 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 16 Dec 2024 18:25:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2024 21:16:58 GMT</lastBuildDate>
+    <item>
+      <title>Go Protobuf：新的不透明 API</title>
+      <link>https://go.dev/blog/protobuf-opaque</link>
+      <description><![CDATA[文章网址：https://go.dev/blog/protobuf-opaque
+评论网址：https://news.ycombinator.com/item?id=42434947
+积分：27
+评论数：9]]></description>
+      <guid>https://go.dev/blog/protobuf-opaque</guid>
+      <pubDate>Mon, 16 Dec 2024 20:18:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>向 HN 展示：自主 AI 代理为您监控股票市场</title>
+      <link>https://decodeinvesting.com/chat?agents=lima</link>
+      <description><![CDATA[我们创建了自主 AI 代理，可以在您忙碌的一天中为您监控股票市场。工作原理：
+告诉我们的 AI 助手您想要监控什么，它会为我们的自主 AI 代理团队创建一个项目。当检测到符合您条件的重大事件时，您会收到通知（电子邮件 + 应用程序）。对于短期项目，当您的分析准备就绪时，您会收到通知。幕后：
+当您向 AI 助手发出监控实体（如股票或股票组）的请求时，AI 项目经理会规划项目并将项目分解为可管理的任务。这些任务异步运行 - 一些是重复的（每小时/每天/每周/每月/每季度/每年），其他是一次性的。您可以尝试的示例提示：
+长期监控：
+- “监控苹果股票并通知我任何重要事件和危险信号”
+- “监控苹果、谷歌、微软和 Meta 股票。如果其中任何一家开始趋于被低估，请通知我”短期分析：
+- “创建一个项目来分析特斯拉最近 30 次财报电话会议，发现趋势以及业务如何随时间演变”当 AI 代理在后台工作时，您可以跟踪所有任务的进度。在此处尝试：https://decodeinvesting.com/chat这仍然是一个早期版本 - 我们正在根据反馈积极改进它。很想听听您的想法以及您接下来想看到的功能！之前分享了我们的人工智能股票市场研究分析师：https://news.ycombinator.com/item?id=41156478
+
+评论网址：https://news.ycombinator.com/item?id=42433734
+积分：11
+评论数：5]]></description>
+      <guid>https://decodeinvesting.com/chat?agents=lima</guid>
+      <pubDate>Mon, 16 Dec 2024 18:23:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>骑自行车的鹈鹕</title>
+      <link>https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/</link>
+      <description><![CDATA[文章网址：https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/
+评论网址：https://news.ycombinator.com/item?id=42433609
+积分：49
+评论数：38]]></description>
+      <guid>https://simonwillison.net/2024/Oct/25/pelicans-on-a-bicycle/</guid>
+      <pubDate>Mon, 16 Dec 2024 18:10:51 GMT</pubDate>
+    </item>
     <item>
       <title>超大质量黑洞 M87 的伽马射线耀斑图像</title>
       <link>https://newsroom.ucla.edu/releases/astrophysicists-capture-huge-gamma-ray-flare-supermassive-black-hole-m87</link>
       <description><![CDATA[文章网址：https://newsroom.ucla.edu/releases/astrophysicists-capture-huge-gamma-ray-flare-supermassive-black-hole-m87
 评论网址：https://news.ycombinator.com/item?id=42433404
-积分：3
-评论数：0]]></description>
+积分：26
+评论数：2]]></description>
       <guid>https://newsroom.ucla.edu/releases/astrophysicists-capture-huge-gamma-ray-flare-supermassive-black-hole-m87</guid>
       <pubDate>Mon, 16 Dec 2024 17:53:35 GMT</pubDate>
     </item>
@@ -20,33 +57,44 @@
       <link>https://solmaz.io/our-muscles-will-atrophy</link>
       <description><![CDATA[文章网址：https://solmaz.io/our-muscles-will-atrophy
 评论网址：https://news.ycombinator.com/item?id=42433205
-积分：17
-评论数：7]]></description>
+积分：51
+评论数：67]]></description>
       <guid>https://solmaz.io/our-muscles-will-atrophy</guid>
       <pubDate>Mon, 16 Dec 2024 17:34:37 GMT</pubDate>
     </item>
     <item>
       <title>Lfgss 将于 2025 年 3 月 16 日关闭（网络安全法实施前一天）</title>
       <link>https://www.lfgss.com/conversations/401475/</link>
-      <description><![CDATA[文章网址：https://www.lfgss.com/conversations/401475/
+      <description><![CDATA[觉得这可能很有趣...我运营着 300 多个论坛，每月有 275,000 名活跃用户。其中大部分是在 Linode 实例和 Hetzner 实例上，几个较大的论坛通过 Cloudflare 运行，但其余的只是访问服务器。并且全部被关闭。英国在线安全法案造成了巨大的责任，虽然乍一看风险似乎很低，但现实是，审核人员通常会引起这些人的愤怒，如果因为我们因为他们对社区构成威胁而必须审核他们，那么他们通常是那种会生气的人。在运营论坛的 28 年里，由于审核，我遇到过有人试图撤销域名、伪造版权声明、死亡威胁、跟踪者（现实生活和线上）...作为论坛版主，你是众所周知的，你是一个目标，而在线安全法案创造了一种可以用来对付你的武器。风险不再是假设的，所以即使我让律师参与进来以遵守规定，我仍然有责任和风险。在过去的 28 年里，我总共运营了近 500 个论坛，它们改变了很多人的生活。我创建它们是为了为那些没有家庭的人提供一种建立家庭的方式，捕捉流浪儿童，并试图抑制孤独、抑郁以及孤立和自杀的风险……它奏效了，现在仍然有效。但在 2025 年 3 月 17 日，它将变得太多，不再站得住脚，个人责任和风险太大。我想我只是第一个说出日期的人，现在我们将看到许多小社区慢慢关闭。《网络安全法案》本应追究大型科技公司的责任，但事实上，他们是唯一能够遵守的人……它在那些平台上更加巩固。
+
 评论网址：https://news.ycombinator.com/item?id=42433044
-积分：53
-评论数：13]]></description>
+积分：194
+评论数：119]]></description>
       <guid>https://www.lfgss.com/conversations/401475/</guid>
       <pubDate>Mon, 16 Dec 2024 17:18:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>向后不兼容的 GRUB2 更改导致 BIOS 设置引导循环</title>
+      <link>https://op-co.de/blog/posts/grub2_bios_bootloop/</link>
+      <description><![CDATA[文章网址：https://op-co.de/blog/posts/grub2_bios_bootloop/
+评论网址：https://news.ycombinator.com/item?id=42432979
+积分：32
+评论数：5]]></description>
+      <guid>https://op-co.de/blog/posts/grub2_bios_bootloop/</guid>
+      <pubDate>Mon, 16 Dec 2024 17:11:19 GMT</pubDate>
     </item>
     <item>
       <title>Veo 2：我们的视频生成模型</title>
       <link>https://deepmind.google/technologies/veo/veo-2/</link>
       <description><![CDATA[文章网址：https://deepmind.google/technologies/veo/veo-2/
 评论网址：https://news.ycombinator.com/item?id=42432914
-积分：74
-评论数：24]]></description>
+积分：199
+评论数：107]]></description>
       <guid>https://deepmind.google/technologies/veo/veo-2/</guid>
       <pubDate>Mon, 16 Dec 2024 17:04:14 GMT</pubDate>
     </item>
     <item>
-      <title>Converge (YC S23) 正在招聘创始工程师 #2，年收益超过 100 万美元</title>
+      <title>Converge (YC S23) 正在招聘第二位创始工程师</title>
       <link>https://www.ycombinator.com/companies/converge/jobs/GQWZ40Z-founding-engineer-2-at-1m-arr</link>
       <description><![CDATA[文章网址：https://www.ycombinator.com/companies/converge/jobs/GQWZ40Z-founding-engineer-2-at-1m-arr
 评论网址：https://news.ycombinator.com/item?id=42432876
@@ -56,55 +104,14 @@
       <pubDate>Mon, 16 Dec 2024 17:00:14 GMT</pubDate>
     </item>
     <item>
-      <title>艾达·洛夫莱斯的程序到底做了什么？（2018）</title>
+      <title>Ada Lovelace 的程序到底做了什么？（2018）</title>
       <link>https://twobithistory.org/2018/08/18/ada-lovelace-note-g.html</link>
       <description><![CDATA[文章网址：https://twobithistory.org/2018/08/18/ada-lovelace-note-g.html
 评论网址：https://news.ycombinator.com/item?id=42432867
-积分：62
-评论数：13]]></description>
+积分：134
+评论数：44]]></description>
       <guid>https://twobithistory.org/2018/08/18/ada-lovelace-note-g.html</guid>
       <pubDate>Mon, 16 Dec 2024 16:58:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：动漫女孩手捧编程书籍的含义是什么</title>
-      <link>https://news.ycombinator.com/item?id=42432774</link>
-      <description><![CDATA[在 github 上找到：https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books
-
-评论网址：https://news.ycombinator.com/item?id=42432774
-积分：10
-评论数：4]]></description>
-      <guid>https://news.ycombinator.com/item?id=42432774</guid>
-      <pubDate>Mon, 16 Dec 2024 16:50:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找更快的 SQLite</title>
-      <link>https://avi.im/blag/2024/faster-sqlite/</link>
-      <description><![CDATA[文章网址：https://avi.im/blag/2024/faster-sqlite/
-评论网址：https://news.ycombinator.com/item?id=42432730
-积分：62
-评论数：14]]></description>
-      <guid>https://avi.im/blag/2024/faster-sqlite/</guid>
-      <pubDate>Mon, 16 Dec 2024 16:46:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>小米已正式支持 Home Assistant</title>
-      <link>https://github.com/XiaoMi/ha_xiaomi_home</link>
-      <description><![CDATA[文章网址：https://github.com/XiaoMi/ha_xiaomi_home
-评论网址：https://news.ycombinator.com/item?id=42432151
-积分：216
-评论数：91]]></description>
-      <guid>https://github.com/XiaoMi/ha_xiaomi_home</guid>
-      <pubDate>Mon, 16 Dec 2024 15:52:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Emacs 中使用 Guile</title>
-      <link>https://lwn.net/SubscriberLink/1001645/b1e4453a8c6c16d7/</link>
-      <description><![CDATA[文章网址：https://lwn.net/SubscriberLink/1001645/b1e4453a8c6c16d7/
-评论网址：https://news.ycombinator.com/item?id=42432004
-积分：42
-评论数：10]]></description>
-      <guid>https://lwn.net/SubscriberLink/1001645/b1e4453a8c6c16d7/</guid>
-      <pubDate>Mon, 16 Dec 2024 15:37:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
