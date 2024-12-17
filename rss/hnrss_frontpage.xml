@@ -4,14 +4,54 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 17 Dec 2024 18:25:38 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2024 21:15:32 GMT</lastBuildDate>
     <item>
-      <title>对抗车头灯亮度的战争</title>
+      <title>媚俗的持久力量</title>
+      <link>https://www.bbc.com/news/magazine-30439633</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/magazine-30439633
+评论网址：https://news.ycombinator.com/item?id=42444830
+积分：17
+评论数：5]]></description>
+      <guid>https://www.bbc.com/news/magazine-30439633</guid>
+      <pubDate>Tue, 17 Dec 2024 20:13:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>五分之一英里</title>
+      <link>https://wwiiafterwwii.wordpress.com/2024/07/25/wwii-the-autobahn-ike-the-interstates-and-one-mile-in-five/</link>
+      <description><![CDATA[文章网址：https://wwiiafterwwii.wordpress.com/2024/07/25/wwii-the-autobahn-ike-the-interstates-and-one-mile-in-five/
+评论网址：https://news.ycombinator.com/item?id=42444820
+积分：11
+评论数：1]]></description>
+      <guid>https://wwiiafterwwii.wordpress.com/2024/07/25/wwii-the-autobahn-ike-the-interstates-and-one-mile-in-five/</guid>
+      <pubDate>Tue, 17 Dec 2024 20:12:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Webhook 测试器/调试器</title>
+      <link>https://www.hooklistener.com/</link>
+      <description><![CDATA[文章网址：https://www.hooklistener.com/
+评论网址：https://news.ycombinator.com/item?id=42444083
+积分：15
+评论数：2]]></description>
+      <guid>https://www.hooklistener.com/</guid>
+      <pubDate>Tue, 17 Dec 2024 18:50:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>北爱尔兰警方非法监视记者</title>
+      <link>https://www.reuters.com/world/uk/northern-ireland-police-unlawfully-put-reporters-under-surveillance-tribunal-2024-12-17/</link>
+      <description><![CDATA[文章网址：https://www.reuters.com/world/uk/northern-ireland-police-unlawfully-put-reporters-under-surveillance-tribunal-2024-12-17/
+评论网址：https://news.ycombinator.com/item?id=42443870
+积分：67
+评论数：21]]></description>
+      <guid>https://www.reuters.com/world/uk/northern-ireland-police-unlawfully-put-reporters-under-surveillance-tribunal-2024-12-17/</guid>
+      <pubDate>Tue, 17 Dec 2024 18:30:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>车灯亮度之争</title>
       <link>https://www.theringer.com/2024/12/03/tech/headlight-brightness-cars-accidents</link>
       <description><![CDATA[文章网址：https://www.theringer.com/2024/12/03/tech/headlight-brightness-cars-accidents
 评论网址：https://news.ycombinator.com/item?id=42443406
-积分：17
-评论数：3]]></description>
+积分：130
+评论数：138]]></description>
       <guid>https://www.theringer.com/2024/12/03/tech/headlight-brightness-cars-accidents</guid>
       <pubDate>Tue, 17 Dec 2024 17:43:05 GMT</pubDate>
     </item>
@@ -20,18 +60,40 @@
       <link>https://ciechanow.ski/moon/</link>
       <description><![CDATA[文章网址：https://ciechanow.ski/moon/
 评论网址：https://news.ycombinator.com/item?id=42443229
-积分：227
-评论数：29]]></description>
+积分：955
+评论数：98]]></description>
       <guid>https://ciechanow.ski/moon/</guid>
       <pubDate>Tue, 17 Dec 2024 17:26:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>展示 HN：OCR 历险记</title>
+      <link>https://blog.medusis.com/38_Adventures+in+OCR.html</link>
+      <description><![CDATA[你好，HN！在最近的“问 HN：你在做什么？”主题中，我提到我正在对一本大书进行 OCR 处理：https://news.ycombinator.com/item?id=41971614这篇帖子引起了一些兴趣，所以我想让 HN 了解最新情况。这本书是《圣西门回忆录》——一本关于路易十四统治下法国宫廷的宝贵历史记载，充满智慧、敏锐的观察力，具有令人难以置信的文学价值。我正在对 1879 年至 1930 年之间制作的参考版本进行 OCR，其​​中包含大量评论和脚注：45 卷，约 27,000 页。以下是博客文章的链接，其中描述了迄今为止使用的技术（该项目仍在进行中）：https://blog.medusis.com/38_Adventures+in+OCR.html但您也可以直接在此处访问结果：https://divers.medusis.net/boislisle/pub这个 Web 应用程序（抱歉，未针对移动设备进行优化）解决了有效预加载图像的棘手问题。简而言之：预加载下一张图片是不够的，因为如果移动或缩放图片，浏览器将重新绘制。或者，如果visibility被隐藏或opacity为零，浏览器根本不会绘制，只有当这些值发生变化时才会绘制。在一台平均速度较慢的机器上，这需要可见的时间。但如果图片只是在另一个元素后面，它将被绘制，而移除覆盖元素或更改z-index不会触发重新绘制。（预加载很重要，因为它可以让人们快速查看结果；如果人们必须在两张图片之间等待150-200毫秒，那就太令人沮丧了）。希望听到反馈；很高兴回答任何问题！
+
+评论网址：https://news.ycombinator.com/item?id=42443022
+积分：26
+评论数：7]]></description>
+      <guid>https://blog.medusis.com/38_Adventures+in+OCR.html</guid>
+      <pubDate>Tue, 17 Dec 2024 17:00:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>展示 HN：我用 Go 构建了一个开源数据管道工具</title>
+      <link>https://github.com/bruin-data/bruin</link>
+      <description><![CDATA[我必须处理的每个数据管道作业都需要设置相当多的组件：- 一个用于提取数据的工具- 另一个用于转换数据的工具- 如果要运行 Python，请设置一个编排器- 如果您需要检查数据，请设置一个数据质量工具更不用说这很难设置并且需要时间，而且维护成本也相当高。我不得不做很多基础工作，虽然这对我来说是可计费的时间，但我一点也不喜欢这项工作。对于其中的某些部分，有像 dbt 这样的好解决方案，但最终对于端到端的工作流程，它不起作用。这就是为什么我决定构建一个可以处理数据提取、转换和 Python 内容的端到端解决方案。最初，它只是供我们自己使用，但最终我们认为这对每个人来说都是一个有用的工具。Bruin 的核心是一个数据框架，由用 Golang 编写的 CLI 应用程序和通过本地 UI 支持它的 VS Code 扩展组成。Bruin 支持很多东西：- 使用 ingestr 进行数据提取（https://github.com/bruin-data/ingestr）- 使用 SQL 和 Python 进行数据转换，类似于 dbt- 使用 uv 进行 Python 环境管理- 内置数据质量检查- 机密管理- 查询验证和 SQL 解析- 用于常见场景的内置模板，例如 Shopify、Notion、Gorgias、BigQuery 等这意味着您可以在同一框架内编写端到端管道并使用单个命令运行它。您可以在自己的计算机、GitHub Actions 或某个 EC2 实例上运行它。使用模板，您还可以在几秒钟内为数据仓库准备好带有建模数据的管道。它还包括一个开源 VS Code 扩展，允许以更直观的方式在本地使用数据管道。最终的更改全部以代码形式呈现，这意味着无论如何一切都是版本控制的，它只是增加了一个不错的层。Bruin 可以运行 SQL、Python 和数据提取工作流以及质量检查。对于 Python 的东西，我们在后台使用很棒的（它真的很棒！）uv，在隔离的环境中安装依赖项，并在本地安装和管理 Python 版本，所有这些都以跨平台的方式进行。然后，为了管理数据上传到数据仓库，它在后台使用 dlt 将数据上传到目的地。它还使用 Arrow 的内存映射文件在将数据上传到目的地之前轻松访问进程之间的数据。我们选择了 Golang，因为它的速度和强大的并发原语，但更重要的是，我比其他可用的语言更了解 Go，而且我喜欢编写 Go，所以还有这一点。我们有一个小型的 beta 测试人员池，已经有一段时间了，我很高兴向世界其他地方推出 Bruin CLI 并从大家那里得到反馈。我知道用 Go 构建数据工具并不常见，但我相信我们在功能、速度和稳定性方面处于一个很好的位置。https://github.com/bruin-data/bruin我很乐意听到您的反馈，并了解更多关于如何使数据管道更容易、更好地使用的信息，期待您的想法！祝好，Burak
+
+评论网址：https://news.ycombinator.com/item?id=42442812
+积分：76
+评论数：16]]></description>
+      <guid>https://github.com/bruin-data/bruin</guid>
+      <pubDate>Tue, 17 Dec 2024 16:40:31 GMT</pubDate>
     </item>
     <item>
       <title>仅靠一名女性开发团队获得 200 万用户 [视频]</title>
       <link>https://brightonruby.com/2024/getting-to-2-million-users-as-a-one-woman-dev-team/</link>
       <description><![CDATA[文章网址：https://brightonruby.com/2024/getting-to-2-million-users-as-a-one-woman-dev-team/
 评论网址：https://news.ycombinator.com/item?id=42441333
-积分：431
-评论数：172]]></description>
+积分：530
+评论数：208]]></description>
       <guid>https://brightonruby.com/2024/getting-to-2-million-users-as-a-one-woman-dev-team/</guid>
       <pubDate>Tue, 17 Dec 2024 13:53:42 GMT</pubDate>
     </item>
@@ -41,66 +103,6 @@
       <description><![CDATA[]]></description>
       <guid>https://github.com/langfuse/langfuse</guid>
       <pubDate>Tue, 17 Dec 2024 13:43:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Crunch – 具有最小运行时间的 Scheme 编译器</title>
-      <link>https://www.more-magic.net/posts/crunch.html</link>
-      <description><![CDATA[文章网址：https://www.more-magic.net/posts/crunch.html
-评论网址：https://news.ycombinator.com/item?id=42440767
-积分：111
-评论数：35]]></description>
-      <guid>https://www.more-magic.net/posts/crunch.html</guid>
-      <pubDate>Tue, 17 Dec 2024 12:18:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Zaymo (YC W24) 正在招聘创始工程师（亲自到场 - 犹他州）</title>
-      <link>https://www.ycombinator.com/companies/zaymo/jobs/xGeVSF8-founding-engineer</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/zaymo/jobs/xGeVSF8-founding-engineer
-评论网址：https://news.ycombinator.com/item?id=42440669
-积分：0
-评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/zaymo/jobs/xGeVSF8-founding-engineer</guid>
-      <pubDate>Tue, 17 Dec 2024 12:01:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>SpiceNice – 一个开源 Spice 数据库</title>
-      <link>https://tderflinger.com/en/spicenice-open-source-culinary-spice-database</link>
-      <description><![CDATA[文章网址：https://tderflinger.com/en/spicenice-open-source-culinary-spice-database
-评论网址：https://news.ycombinator.com/item?id=42440185
-积分：30
-评论数：5]]></description>
-      <guid>https://tderflinger.com/en/spicenice-open-source-culinary-spice-database</guid>
-      <pubDate>Tue, 17 Dec 2024 10:38:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>自然数游戏：从零开始构建自然数的基本理论</title>
-      <link>https://adam.math.hhu.de/#/g/leanprover-community/NNG4</link>
-      <description><![CDATA[文章网址：https://adam.math.hhu.de/#/g/leanprover-community/NNG4
-评论网址：https://news.ycombinator.com/item?id=42440016
-积分：84
-评论数：9]]></description>
-      <guid>https://adam.math.hhu.de/#/g/leanprover-community/NNG4</guid>
-      <pubDate>Tue, 17 Dec 2024 10:06:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们什么时候应该要求固件免费？</title>
-      <link>https://mjg59.dreamwidth.org/70895.html</link>
-      <description><![CDATA[文章网址：https://mjg59.dreamwidth.org/70895.html
-评论网址：https://news.ycombinator.com/item?id=42439921
-积分：69
-评论数：50]]></description>
-      <guid>https://mjg59.dreamwidth.org/70895.html</guid>
-      <pubDate>Tue, 17 Dec 2024 09:49:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Multilspy：构建一个针对所有语言服务器手动调整的通用 LSP 客户端</title>
-      <link>https://github.com/microsoft/multilspy</link>
-      <description><![CDATA[文章网址：https://github.com/microsoft/multilspy
-评论网址：https://news.ycombinator.com/item?id=42438918
-积分：74
-评论数：9]]></description>
-      <guid>https://github.com/microsoft/multilspy</guid>
-      <pubDate>Tue, 17 Dec 2024 06:43:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
