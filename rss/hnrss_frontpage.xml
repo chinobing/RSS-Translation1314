@@ -4,7 +4,7 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 20 Dec 2024 12:33:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 15:17:11 GMT</lastBuildDate>
     <item>
       <title>Gauntlet AI (YC S17) 正在奥斯汀培训 AI 工程师并招聘他们（年薪 20 万美元）</title>
       <link>https://gauntletai.com</link>
@@ -16,32 +16,43 @@
       <pubDate>Fri, 20 Dec 2024 12:00:59 GMT</pubDate>
     </item>
     <item>
-      <title>英特尔酷睿 Ultra 9 285K“Arrow Lake”Windows 11 与 Ubuntu Linux 性能对比</title>
-      <link>https://www.phoronix.com/review/intel-arrowlake-windows-linux</link>
-      <description><![CDATA[文章网址：https://www.phoronix.com/review/intel-arrowlake-windows-linux
-评论网址：https://news.ycombinator.com/item?id=42470291
+      <title>使用 D3-force 的 Rust 端口在 Rerun 中显示 HN：交互式图表</title>
+      <link>https://rerun.io/blog/graphs</link>
+      <description><![CDATA[Rerun 0.21 附带一个用 Rust 编写的新图形查看器，并通过 wasm 在浏览器中运行。它由一个新的基于力的布局引擎提供支持，该引擎是 d3-force 大部分功能到 Rust 的移植版。（此版本还包含一些其他很酷的功能，例如在时间序列数据库之上实现的撤消/重做。）我们在构建它时考虑了机器人和空间计算中的应用，但也很想听听人们的反馈，他们认为这在其他领域也很有用。
+
+评论 URL：https://news.ycombinator.com/item?id=42469560
 积分：14
-评论数：22]]></description>
-      <guid>https://www.phoronix.com/review/intel-arrowlake-windows-linux</guid>
-      <pubDate>Fri, 20 Dec 2024 11:40:38 GMT</pubDate>
+评论数：2]]></description>
+      <guid>https://rerun.io/blog/graphs</guid>
+      <pubDate>Fri, 20 Dec 2024 09:42:47 GMT</pubDate>
     </item>
     <item>
       <title>绘图计算机</title>
       <link>https://computer.tldraw.com</link>
       <description><![CDATA[文章网址：https://computer.tldraw.com
 评论网址：https://news.ycombinator.com/item?id=42469074
-积分：112
-评论数：27]]></description>
+积分：212
+评论数：43]]></description>
       <guid>https://computer.tldraw.com</guid>
       <pubDate>Fri, 20 Dec 2024 07:42:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>字节跳动的推荐系统</title>
+      <link>https://github.com/bytedance/monolith</link>
+      <description><![CDATA[文章网址：https://github.com/bytedance/monolith
+评论网址：https://news.ycombinator.com/item?id=42468362
+积分：50
+评论数：34]]></description>
+      <guid>https://github.com/bytedance/monolith</guid>
+      <pubDate>Fri, 20 Dec 2024 04:46:53 GMT</pubDate>
     </item>
     <item>
       <title>我最喜欢的颜色是查克·诺里斯红</title>
       <link>https://htmhell.dev/adventcalendar/2024/20/</link>
       <description><![CDATA[文章网址：https://htmhell.dev/adventcalendar/2024/20/
 评论网址：https://news.ycombinator.com/item?id=42468318
-积分：322
-评论数：68]]></description>
+积分：474
+评论数：93]]></description>
       <guid>https://htmhell.dev/adventcalendar/2024/20/</guid>
       <pubDate>Fri, 20 Dec 2024 04:35:49 GMT</pubDate>
     </item>
@@ -50,33 +61,18 @@
       <link>https://distill.pub/2021/gnn-intro/</link>
       <description><![CDATA[文章网址：https://distill.pub/2021/gnn-intro/
 评论网址：https://news.ycombinator.com/item?id=42468214
-积分：109
-评论数：12]]></description>
+积分：164
+评论数：21]]></description>
       <guid>https://distill.pub/2021/gnn-intro/</guid>
       <pubDate>Fri, 20 Dec 2024 04:10:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN: Gribstream.com – 历史天气预报 API</title>
-      <link>https://gribstream.com</link>
-      <description><![CDATA[你好！我想分享关于我的副项目 https://gribstream.com这是一个 API，用于从国家混合模型 (NBM) https://vlab.noaa.gov/web/mdl/nbm 和全球预报系统 (GFS) https://www.ncei.noaa.gov/products/weather-climate-models/gl... 中提取天气预报数据。数据可从 AWS S3 以 grib2 格式免费获取，这种格式很棒，但处理起来也非常困难（且耗费资源），特别是当您想要根据几个坐标提取长时间的时间序列时。仅通过一个 http 请求就能从数 TB 的数据中查询并提取您想要的内容，这真的很棒。这个数据集的妙处在于，它包含每小时数据和完整的预测历史记录，因此您可以使用该数据集来训练和预测其他参数，并进行适当的回溯测试，因为您可以看到过去某个时间点的天气情况。它有一个免费套餐，因此您可以试用。我打算实现一系列即将推出的功能，我非常感谢您对当前可用功能以及您最感兴趣的功能的反馈。比如……我不确定是支持其他一些数据集更好还是专注于支持聚合更好。功能包括：- 免费套餐，帮助您入门
-- 完整的天气预报历史记录
-- 一次提取数月的数千个坐标的时间序列，以每小时为单位，只需几秒钟即可通过单个 http 请求完成。
-- 支持截至/时间旅行，对于衍生模型的正确回测必不可少
-- 使用下一个最佳（最新）预测自动填补任何缺失数据的空白。请尝试一下，让我知道你的想法：）
-
-评论网址：https://news.ycombinator.com/item?id=42467449
-积分：48
-评论数：11]]></description>
-      <guid>https://gribstream.com</guid>
-      <pubDate>Fri, 20 Dec 2024 01:27:42 GMT</pubDate>
     </item>
     <item>
       <title>开放语音助手的时代</title>
       <link>https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/</link>
       <description><![CDATA[文章网址：https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/
 评论网址：https://news.ycombinator.com/item?id=42467194
-积分：346
-评论数：102]]></description>
+积分：440
+评论数：150]]></description>
       <guid>https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/</guid>
       <pubDate>Fri, 20 Dec 2024 00:29:57 GMT</pubDate>
     </item>
@@ -85,8 +81,8 @@
       <link>https://win-vector.com/2024/12/19/kelly-cant-fail/</link>
       <description><![CDATA[文章网址：https://win-vector.com/2024/12/19/kelly-cant-fail/
 评论网址：https://news.ycombinator.com/item?id=42466676
-积分：274
-评论数：70]]></description>
+积分：298
+评论数：79]]></description>
       <guid>https://win-vector.com/2024/12/19/kelly-cant-fail/</guid>
       <pubDate>Thu, 19 Dec 2024 23:07:15 GMT</pubDate>
     </item>
@@ -95,8 +91,8 @@
       <link>https://research.google/blog/satellite-powered-estimation-of-global-solar-potential/</link>
       <description><![CDATA[文章网址：https://research.google/blog/satellite-powered-estimation-of-global-solar-potential/
 评论网址：https://news.ycombinator.com/item?id=42465535
-积分：233
-评论数：157]]></description>
+积分：242
+评论数：168]]></description>
       <guid>https://research.google/blog/satellite-powered-estimation-of-global-solar-potential/</guid>
       <pubDate>Thu, 19 Dec 2024 20:44:46 GMT</pubDate>
     </item>
@@ -105,8 +101,8 @@
       <link>https://github.com/kooscode/srgh-matrix-trinity/blob/main/README.md</link>
       <description><![CDATA[文章网址：https://github.com/kooscode/srgh-matrix-trinity/blob/main/README.md
 评论网址：https://news.ycombinator.com/item?id=42465378
-积分：163
-评论数：74]]></description>
+积分：173
+评论数：77]]></description>
       <guid>https://github.com/kooscode/srgh-matrix-trinity/blob/main/README.md</guid>
       <pubDate>Thu, 19 Dec 2024 20:26:33 GMT</pubDate>
     </item>
