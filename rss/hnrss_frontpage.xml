@@ -4,14 +4,29 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 20 Dec 2024 01:16:53 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 03:22:12 GMT</lastBuildDate>
+    <item>
+      <title>显示 HN: Gribstream.com – 历史天气预报 API</title>
+      <link>https://gribstream.com</link>
+      <description><![CDATA[你好！我想分享关于我的副项目 https://gribstream.com这是一个 API，用于从国家混合模型 (NBM) https://vlab.noaa.gov/web/mdl/nbm 和全球预报系统 (GFS) https://www.ncei.noaa.gov/products/weather-climate-models/gl... 中提取天气预报数据。数据可从 AWS S3 以 grib2 格式免费获取，这种格式很棒，但处理起来也非常困难（且耗费资源），特别是当您想要根据几个坐标提取长时间的时间序列时。仅通过一个 http 请求就能从数 TB 的数据中查询并提取您想要的内容，这真的很棒。这个数据集的妙处在于，它包含每小时数据和完整的预测历史记录，因此您可以使用该数据集来训练和预测其他参数，并进行适当的回溯测试，因为您可以看到过去某个时间点的天气情况。它有一个免费套餐，因此您可以试用。我打算实现一系列即将推出的功能，我非常感谢您对当前可用功能以及您最感兴趣的功能的反馈。比如……我不确定是支持其他一些数据集更好还是专注于支持聚合更好。功能包括：- 免费套餐，帮助您入门
+- 完整的天气预报历史记录
+- 一次提取数月的数千个坐标的时间序列，以每小时为单位，只需几秒钟即可通过单个 http 请求完成。
+- 支持截至/时间旅行，对于衍生模型的正确回测必不可少
+- 使用下一个最佳（最新）预测自动填补任何缺失数据的空白。请尝试一下，让我知道你的想法：）
+
+评论网址：https://news.ycombinator.com/item?id=42467449
+积分：10
+评论数：2]]></description>
+      <guid>https://gribstream.com</guid>
+      <pubDate>Fri, 20 Dec 2024 01:27:42 GMT</pubDate>
+    </item>
     <item>
       <title>蝙蝠粪便被用来给大麻施肥，导致两人死亡</title>
       <link>https://www.nytimes.com/2024/12/18/nyregion/bat-poop-cannabis-deaths-ny.html</link>
       <description><![CDATA[文章网址：https://www.nytimes.com/2024/12/18/nyregion/bat-poop-cannabis-deaths-ny.html
 评论网址：https://news.ycombinator.com/item?id=42467236
-积分：5
-评论数：0]]></description>
+积分：35
+评论数：24]]></description>
       <guid>https://www.nytimes.com/2024/12/18/nyregion/bat-poop-cannabis-deaths-ny.html</guid>
       <pubDate>Fri, 20 Dec 2024 00:39:14 GMT</pubDate>
     </item>
@@ -20,8 +35,8 @@
       <link>https://win-vector.com/2024/12/19/kelly-cant-fail/</link>
       <description><![CDATA[文章网址：https://win-vector.com/2024/12/19/kelly-cant-fail/
 评论网址：https://news.ycombinator.com/item?id=42466676
-积分：87
-评论数：12]]></description>
+积分：154
+评论数：27]]></description>
       <guid>https://win-vector.com/2024/12/19/kelly-cant-fail/</guid>
       <pubDate>Thu, 19 Dec 2024 23:07:15 GMT</pubDate>
     </item>
@@ -40,8 +55,8 @@
       <link>https://research.google/blog/satellite-powered-estimation-of-global-solar-potential/</link>
       <description><![CDATA[文章网址：https://research.google/blog/satellite-powered-estimation-of-global-solar-potential/
 评论网址：https://news.ycombinator.com/item?id=42465535
-积分：153
-评论数：77]]></description>
+积分：180
+评论数：88]]></description>
       <guid>https://research.google/blog/satellite-powered-estimation-of-global-solar-potential/</guid>
       <pubDate>Thu, 19 Dec 2024 20:44:46 GMT</pubDate>
     </item>
@@ -50,8 +65,8 @@
       <link>https://github.com/kooscode/srgh-matrix-trinity/blob/main/README.md</link>
       <description><![CDATA[文章网址：https://github.com/kooscode/srgh-matrix-trinity/blob/main/README.md
 评论网址：https://news.ycombinator.com/item?id=42465378
-积分：96
-评论数：41]]></description>
+积分：113
+评论数：59]]></description>
       <guid>https://github.com/kooscode/srgh-matrix-trinity/blob/main/README.md</guid>
       <pubDate>Thu, 19 Dec 2024 20:26:33 GMT</pubDate>
     </item>
@@ -60,8 +75,8 @@
       <link>http://weavesilk.com/</link>
       <description><![CDATA[文章网址：http://weavesilk.com/
 评论网址：https://news.ycombinator.com/item?id=42465109
-积分：43
-评论数：15]]></description>
+积分：52
+评论数：16]]></description>
       <guid>http://weavesilk.com/</guid>
       <pubDate>Thu, 19 Dec 2024 19:55:48 GMT</pubDate>
     </item>
@@ -70,8 +85,8 @@
       <link>https://mayhul.com/posts/type-driven-design/</link>
       <description><![CDATA[文章网址：https://mayhul.com/posts/type-driven-design/
 评论网址：https://news.ycombinator.com/item?id=42464966
-积分：73
-评论数：82]]></description>
+积分：99
+评论数：101]]></description>
       <guid>https://mayhul.com/posts/type-driven-design/</guid>
       <pubDate>Thu, 19 Dec 2024 19:38:00 GMT</pubDate>
     </item>
@@ -80,8 +95,8 @@
       <link>https://roelsworld.eu/blog-music/music-geometry-intervals-scales/</link>
       <description><![CDATA[文章网址：https://roelsworld.eu/blog-music/music-geometry-intervals-scales/
 评论网址：https://news.ycombinator.com/item?id=42464557
-积分：97
-评论数：20]]></description>
+积分：111
+评论数：23]]></description>
       <guid>https://roelsworld.eu/blog-music/music-geometry-intervals-scales/</guid>
       <pubDate>Thu, 19 Dec 2024 18:52:43 GMT</pubDate>
     </item>
@@ -103,21 +118,10 @@ GitHub：https://github.com/lowlighter/mizu## 动机 ##如今，仅仅为了创�
 好吧，它是 mizu.js 的绝佳伴侣。有了它们，您可以超快速地为您的项目创建 MVP！
 
 评论网址：https://news.ycombinator.com/item?id=42464310
-积分：126
-评论数：47]]></description>
+积分：144
+评论数：48]]></description>
       <guid>https://mizu.sh</guid>
       <pubDate>Thu, 19 Dec 2024 18:25:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN: WebGPU 技术演示</title>
-      <link>https://gnikoloff.github.io/webgpu-sponza-demo/</link>
-      <description><![CDATA[在现代浏览器中运行的 WebGPU 技术演示展示了各种渲染技术，例如具有 400 多个动态光源的延迟渲染、Hi-Z 屏幕空间反射和级联阴影映射。
-
-评论网址：https://news.ycombinator.com/item?id=42463525
-积分：109
-评论数：59]]></description>
-      <guid>https://gnikoloff.github.io/webgpu-sponza-demo/</guid>
-      <pubDate>Thu, 19 Dec 2024 17:14:02 GMT</pubDate>
     </item>
     </channel>
 </rss>
