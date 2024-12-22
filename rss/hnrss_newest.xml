@@ -4,116 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 22 Dec 2024 12:30:29 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2024 15:15:20 GMT</lastBuildDate>
     <item>
-      <title>显示 HN：具有类似 Medium 的鼓掌功能的现代评论系统</title>
-      <link>https://glintflow.com</link>
-      <description><![CDATA[刚刚发布了一个演示版本，可以根据要求回复评论。希望您喜欢这个演示版本，并希望得到您的反馈！
+      <title>磁热热泵可能是一种可持续的冷却和加热技术</title>
+      <link>https://techxplore.com/news/2024-12-magnetocaloric-paves-sustainable-cooling-technology.html</link>
+      <description><![CDATA[文章网址：https://techxplore.com/news/2024-12-magnetocaloric-paves-sustainable-cooling-technology.html
+评论网址：https://news.ycombinator.com/item?id=42486811
+积分：1
+评论数：0]]></description>
+      <guid>https://techxplore.com/news/2024-12-magnetocaloric-paves-sustainable-cooling-technology.html</guid>
+      <pubDate>Sun, 22 Dec 2024 15:11:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：通过 SSH 从 tmux/nvim 复制到剪贴板</title>
+      <link>https://mil.ad/blog/2024/remote-clipboard.html</link>
+      <description><![CDATA[文章网址：https://mil.ad/blog/2024/remote-clipboard.html
+评论网址：https://news.ycombinator.com/item?id=42486785
+积分：1
+评论数：0]]></description>
+      <guid>https://mil.ad/blog/2024/remote-clipboard.html</guid>
+      <pubDate>Sun, 22 Dec 2024 15:08:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何单独维护遗留代码库？</title>
+      <link>https://news.ycombinator.com/item?id=42486768</link>
+      <description><![CDATA[嘿朋友们，我希望你们都过得很好。
+所以，我一直在研究最近的裁员情况。仅供参考年度数据，看来大洗牌已经放缓了。几个月前我被一家小公司录用了。我怀疑这里的每个人都在我被录用之前就被解雇了，因为通过查看提交日志的名称，我可以看到这些人都不在公司。我已经对这个作为独立开发 ai/ml 全栈软件工程师的新职位感到厌倦了。让我分享一下我的想法：在维护现有代码时，我主要从事非编码活动很难提供估计。
+工作是通过为现实世界的业务需求理论化逻辑上有意义的序列来完成的，通常是在不可预测的非线性痛苦中以舒适的速度完成的。抽象和功能具有更深的设计理论，因此，在理论化和编写用户故事时必须理解它。我们必须评估前任开发人员的选择以及选择当前开发人员的原因。隐性知识 - 我们在脑海中创建一个价值评估设计选择列表，以及它们对序列中下一个项目的理论贡献。最终，引领他们对现实世界商业模式的整体贡献。即，如果业务需要编写这行代码，则涉及价值指标，在更改代码之前必须仔细评估。给定一个舒适阈值，我们才有可能更改代码。推断和隔离根本原因，最后重现错误。您如何处理遗留代码？您如何向新老板解释这一点？这种完全无范围的全栈 360 非常令人不知所措；我在找工作时已经精疲力竭。我为他们提供了估算值，但误差很大。我不想回到就业市场。
 
-评论网址：https://news.ycombinator.com/item?id=42485892
+评论网址：https://news.ycombinator.com/item?id=42486768
 积分：1
 评论数：0]]></description>
-      <guid>https://glintflow.com</guid>
-      <pubDate>Sun, 22 Dec 2024 12:15:49 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=42486768</guid>
+      <pubDate>Sun, 22 Dec 2024 15:06:48 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Claude.ai 的语音（Chrome 扩展程序）</title>
-      <link>https://github.com/softcery/claude-voice</link>
-      <description><![CDATA[为 Claude.ai 添加语音输入和输出的 chrome 扩展程序。
-
-评论网址：https://news.ycombinator.com/item?id=42485881
+      <title>Rust 中不必要的优化：汉明距离、SIMD 和自动矢量化</title>
+      <link>https://emschwartz.me/unnecessary-optimization-in-rust-hamming-distances-simd-and-auto-vectorization/</link>
+      <description><![CDATA[文章网址：https://emschwartz.me/unnecessary-optimization-in-rust-hamming-distances-simd-and-auto-vectorization/
+评论网址：https://news.ycombinator.com/item?id=42486766
 积分：1
 评论数：0]]></description>
-      <guid>https://github.com/softcery/claude-voice</guid>
-      <pubDate>Sun, 22 Dec 2024 12:11:24 GMT</pubDate>
+      <guid>https://emschwartz.me/unnecessary-optimization-in-rust-hamming-distances-simd-and-auto-vectorization/</guid>
+      <pubDate>Sun, 22 Dec 2024 15:06:44 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：使用 GraphQL 和 AI Chainer 调用多个 LLM</title>
-      <link>https://lq.1nb.ai</link>
-      <description><![CDATA[通过将单个提示转换为多个子提示，可以将 LLM 的许多问题解决为链式提示。由于 LLM 定价和模型大小差异很大，如果我们可以将链中的一些子提示卸载到较小的模型中，也会有所帮助。LQ 提供了一个 GraphQL 端点，允许您以树的形式调用多个 LLM，即 gemini、claude、openai、mistral。您可以从响应中提取结构化 xml 标签，并在链/树下方的提示中填充占位符。使用条件，您还可以提供基于条件的分支。此外，我们还提供了一个内置的 AI Chainer，可以为您创建链。作为额外的好处，它还具有请求历史记录，您可以在将一些占位符更改为变量的同时重复查询。我们是一个由 2 人组成的团队，在许多项目中都使用过 LLM。对于每个 LLM 操作，我们最终都会进行几次 LLM 调用，并且必须编写自己的工具来优化查询。即使在开发过程中，评估多个 LLM、提示调整、基于条件的调用等也很麻烦。我们正试图将 LQ 作为一个中间层，以减轻其中的一些麻烦，并允许用户在请求本身内表达数据流。我们的下一个目标包括支持本地 LLM 以及使用订阅的更长时间运行的查询。大型链/树也将在服务器上的上下文中得到支持。
-
-评论 URL：https://news.ycombinator.com/item?id=42485878
-积分：1
-评论数：0]]></description>
-      <guid>https://lq.1nb.ai</guid>
-      <pubDate>Sun, 22 Dec 2024 12:10:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过记忆延续自我</title>
-      <link>https://medium.com/luminasticity/the-continuation-of-self-through-memory-9dadb8e738d1</link>
-      <description><![CDATA[文章网址：https://medium.com/luminasticity/the-continuation-of-self-through-memory-9dadb8e738d1
-评论网址：https://news.ycombinator.com/item?id=42485856
-积分：1
-评论数：0]]></description>
-      <guid>https://medium.com/luminasticity/the-continuation-of-self-through-memory-9dadb8e738d1</guid>
-      <pubDate>Sun, 22 Dec 2024 12:02:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>公民阿尔法 4.0</title>
-      <link>https://robertsspaceindustries.com/comm-link/transmission/20371-Letter-From-The-Chairman</link>
-      <description><![CDATA[文章网址：https://robertsspaceindustries.com/comm-link/transmission/20371-Letter-From-The-Chairman
-评论网址：https://news.ycombinator.com/item?id=42485841
-积分：1
-评论数：0]]></description>
-      <guid>https://robertsspaceindustries.com/comm-link/transmission/20371-Letter-From-The-Chairman</guid>
-      <pubDate>Sun, 22 Dec 2024 11:58:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>展示 HN：Neurofit – 数据驱动的开发人员倦怠预防（5 分钟/天）</title>
-      <link>https://neurofit.app</link>
-      <description><![CDATA[嗨，HN！我是 Andrew，前 Snapchat 工程师和 3x 创始人，在与技术领域的职业倦怠和复杂性创伤后应激障碍作斗争后创立了 NEUROFIT。在 Snapchat 和 Headspace 等公司工作期间，我发现大多数职业倦怠解决方案都侧重于心态和大量内容库，而真正的关键是神经系统。职业倦怠是一种由慢性压力引起的生理问题 [1]，我们 80% 的神经系统将信息从身体传递到大脑，而不是相反。NEUROFIT 通过测量和调节您的神经系统来帮助您预防职业倦怠，帮助您在压力时期保持弹性、创造力和灵活性 [2]。您每天签到以进行快速的主观和客观测量，然后进行 3-5 分钟的快速躯体锻炼、AI 辅导课程以及个性化指导 + 见解，旨在帮助您在编码会话或会议之间保持头脑清醒和专注。为什么这很有趣：
-- 通过手机摄像头进行实时生物特征测量（HRV、心率、呼吸频率）[3]- 根据您当前状态提供由 ML 提供支持的锻炼建议- 平均活跃用户在一周后压力水平降低 54%- 超过 90% 的用户在仅进行 5 分钟的躯体锻炼后缓解了急性压力- 专为需要真正适合他们日程安排的循证解决方案的繁忙开发人员打造- 无需瑜伽/冥想专业知识 - 纯粹基于身体的方法，与您的神经系统配合使用我们的技术堆栈：
-- 用于跨平台移动的 React x CapacitorJS- Golang + Python 后端- 托管在 AWS 上，带有 Redis + RDS 持久性该应用程序特别有助于开发人员处理以下问题：
-- 高压编码冲刺- 值班轮换和事件响应- 远程工作隔离- 延长调试会话- 持续的高认知负荷期到目前为止，我们已经用我们的神经系统方法培训了数百名健康专业人士（医生、治疗师和健康教练），直接雇主协会和 Black Girls Code 的团队也使用了我们的方法。希望 HN 社区对技术和产品体验提供反馈。您可以在这里尝试一下：iOS：https://apps.apple.com/us/app/neurofit-nervous-system-reset/...Android：https://play.google.com/store/apps/details?id=com.neurofit.a...很高兴回答有关技术、预防倦怠背后的科学 [4] 或我从处理倦怠 / C-PTSD 到构建此解决方案的历程的任何问题。干杯，
-Andrew - NEUROFIT 联合创始人[1]：慢性压力积累 - https://neurofit.app/learn/en/allostatic_load/[2]: 容忍窗口 - https://neurofit.app/learn/en/window-of-tolerance/[3]: 基于 PPG 的 HRV 测量 - https://neurofit.app/learn/en/measuring_balance_hrv/[4]: 慢性压力、失调和倦怠 
-- https://neurofit.app/learn/en/connection_stress_dysregulatio...
-
-评论网址：https://news.ycombinator.com/item?id=42485829
-积分：1
-评论数：0]]></description>
-      <guid>https://neurofit.app</guid>
-      <pubDate>Sun, 22 Dec 2024 11:56:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>摘要：Shane Parrish 的清晰思考</title>
-      <link>https://www.chestergrant.com/summary-clear-thinking-by-shane-parrish</link>
-      <description><![CDATA[文章网址：https://www.chestergrant.com/summary-clear-thinking-by-shane-parrish
-评论网址：https://news.ycombinator.com/item?id=42485827
-积分：1
-评论数：0]]></description>
-      <guid>https://www.chestergrant.com/summary-clear-thinking-by-shane-parrish</guid>
-      <pubDate>Sun, 22 Dec 2024 11:55:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 举报人去世，被视为该公司的证人</title>
-      <link>https://www.theguardian.com/technology/2024/dec/21/openai-whistleblower-dead-aged-26</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/technology/2024/dec/21/openai-whistleblower-dead-aged-26
-评论网址：https://news.ycombinator.com/item?id=42485825
+      <title>Kdenlive 24.12 发布</title>
+      <link>https://kdenlive.org/en/2024/12/kdenlive-24-12-0-released/</link>
+      <description><![CDATA[文章网址：https://kdenlive.org/en/2024/12/kdenlive-24-12-0-released/
+评论网址：https://news.ycombinator.com/item?id=42486750
 积分：2
-评论数：0]]></description>
-      <guid>https://www.theguardian.com/technology/2024/dec/21/openai-whistleblower-dead-aged-26</guid>
-      <pubDate>Sun, 22 Dec 2024 11:54:44 GMT</pubDate>
+评论数：1]]></description>
+      <guid>https://kdenlive.org/en/2024/12/kdenlive-24-12-0-released/</guid>
+      <pubDate>Sun, 22 Dec 2024 15:04:30 GMT</pubDate>
     </item>
     <item>
-      <title>UMatrix：“由于未遵循最佳实践，因此不再可用”</title>
-      <link>https://news.ycombinator.com/item?id=42485821</link>
-      <description><![CDATA[Chrome 刚刚删除了 uMatrix 和其他一些扩展程序。除了停止使用 Chrome 之外，还有其他好的替代方案吗？
-
-评论网址：https://news.ycombinator.com/item?id=42485821
-积分：3
-评论数：3]]></description>
-      <guid>https://news.ycombinator.com/item?id=42485821</guid>
-      <pubDate>Sun, 22 Dec 2024 11:53:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过光纤网络传输不可伪造的量子代币</title>
-      <link>https://spectrum.ieee.org/quantum-tokens</link>
-      <description><![CDATA[文章网址：https://spectrum.ieee.org/quantum-tokens
-评论网址：https://news.ycombinator.com/item?id=42485818
+      <title>新数据显示气候变化引发的保险危机正在蔓延</title>
+      <link>https://www.budget.senate.gov/chairman/newsroom/press/new-data-reveal-climate-change-driven-insurance-crisis-is-spreading</link>
+      <description><![CDATA[文章网址：https://www.budget.senate.gov/chairman/newsroom/press/new-data-reveal-climate-change-driven-insurance-crisis-is-spreading
+评论网址：https://news.ycombinator.com/item?id=42486730
 积分：1
 评论数：0]]></description>
-      <guid>https://spectrum.ieee.org/quantum-tokens</guid>
-      <pubDate>Sun, 22 Dec 2024 11:53:36 GMT</pubDate>
+      <guid>https://www.budget.senate.gov/chairman/newsroom/press/new-data-reveal-climate-change-driven-insurance-crisis-is-spreading</guid>
+      <pubDate>Sun, 22 Dec 2024 15:02:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>最常见的密码</title>
+      <link>https://nordpass.com/most-common-passwords-list/</link>
+      <description><![CDATA[文章网址：https://nordpass.com/most-common-passwords-list/
+评论网址：https://news.ycombinator.com/item?id=42486720
+积分：1
+评论数：0]]></description>
+      <guid>https://nordpass.com/most-common-passwords-list/</guid>
+      <pubDate>Sun, 22 Dec 2024 15:01:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>心脏组织可以再生——冷战核试验如何带来重大发现</title>
+      <link>https://studyfinds.org/heart-muscle-regeneration-cold-war-tests/</link>
+      <description><![CDATA[文章网址：https://studyfinds.org/heart-muscle-regeneration-cold-war-tests/
+评论网址：https://news.ycombinator.com/item?id=42486701
+积分：1
+评论数：0]]></description>
+      <guid>https://studyfinds.org/heart-muscle-regeneration-cold-war-tests/</guid>
+      <pubDate>Sun, 22 Dec 2024 14:58:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>据报道，OpenAI 的 GPT-5 未达到预期</title>
+      <link>https://techcrunch.com/2024/12/21/openais-gpt-5-reportedly-falling-short-of-expectations/</link>
+      <description><![CDATA[文章网址：https://techcrunch.com/2024/12/21/openais-gpt-5-reportedly-falling-short-of-expectations/
+评论网址：https://news.ycombinator.com/item?id=42486682
+积分：3
+评论数：1]]></description>
+      <guid>https://techcrunch.com/2024/12/21/openais-gpt-5-reportedly-falling-short-of-expectations/</guid>
+      <pubDate>Sun, 22 Dec 2024 14:56:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>“越来越个人化”——Apple 关于欧盟 DMA 互操作性的白皮书 [pdf]</title>
+      <link>https://developer.apple.com/support/downloads/DMA-Interoperability-Dec-2024.pdf</link>
+      <description><![CDATA[文章网址：https://developer.apple.com/support/downloads/DMA-Interoperability-Dec-2024.pdf
+评论网址：https://news.ycombinator.com/item?id=42486669
+积分：1
+评论数：0]]></description>
+      <guid>https://developer.apple.com/support/downloads/DMA-Interoperability-Dec-2024.pdf</guid>
+      <pubDate>Sun, 22 Dec 2024 14:54:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
