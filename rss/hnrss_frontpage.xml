@@ -4,14 +4,14 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 25 Dec 2024 09:17:14 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2024 12:31:56 GMT</lastBuildDate>
     <item>
       <title>Ruby 3.4.0</title>
       <link>https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/</link>
       <description><![CDATA[文章网址：https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/
 评论网址：https://news.ycombinator.com/item?id=42507312
-积分：94
-评论数：24]]></description>
+积分：183
+评论数：79]]></description>
       <guid>https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/</guid>
       <pubDate>Wed, 25 Dec 2024 06:40:07 GMT</pubDate>
     </item>
@@ -20,20 +20,25 @@
       <link>https://www.youtube.com/watch?v=IQqtsm-bBRU</link>
       <description><![CDATA[文章网址：https://www.youtube.com/watch?v=IQqtsm-bBRU
 评论网址：https://news.ycombinator.com/item?id=42507185
-积分：29
-评论数：0]]></description>
+积分：119
+评论数：8]]></description>
       <guid>https://www.youtube.com/watch?v=IQqtsm-bBRU</guid>
       <pubDate>Wed, 25 Dec 2024 06:08:45 GMT</pubDate>
     </item>
     <item>
-      <title>Ruby 3.4.0 新闻</title>
-      <link>https://docs.ruby-lang.org/en/master/NEWS_md.html</link>
-      <description><![CDATA[文章网址：https://docs.ruby-lang.org/en/master/NEWS_md.html
-评论网址：https://news.ycombinator.com/item?id=42507134
-积分：23
-评论数：1]]></description>
-      <guid>https://docs.ruby-lang.org/en/master/NEWS_md.html</guid>
-      <pubDate>Wed, 25 Dec 2024 05:49:24 GMT</pubDate>
+      <title>向 HN 展示：我创建了一个网站来对 ArXiv 论文进行语义搜索</title>
+      <link>https://papermatch.mitanshu.tech/</link>
+      <description><![CDATA[作为一名研究生（也是一名注意力缺陷多动障碍患者），我很难系统地进行文献综述。为了解决这个问题，我创建了一个网站，可以根据我所寻找内容的含义来查找类似的论文。我使用 MixedBread 的 [^1] 嵌入模型从摘要中生成向量。我使用 Milvus [^2] 存储和搜索类似的向量，最后使用 Gradio [^3] 来服务前端。我每周都会从 Kaggle [^4] 中提取元数据数据集来更新向量数据库。为了加快我的免费 Oracle 实例上的搜索过程，我对嵌入进行了二值化并使用汉明距离作为度量。我很乐意听到您对网站的反馈 :)
+节日快乐！[1]：https://www.mixedbread.ai/docs/embeddings/mxbai-embed-large-...
+[2]：https://milvus.io/
+[3]：https://www.gradio.app/
+[4]：https://www.kaggle.com/datasets/Cornell-University/arxiv
+
+评论网址：https://news.ycombinator.com/item?id=42507116
+积分：44
+评论数：4]]></description>
+      <guid>https://papermatch.mitanshu.tech/</guid>
+      <pubDate>Wed, 25 Dec 2024 05:44:12 GMT</pubDate>
     </item>
     <item>
       <title>圣诞快乐</title>
@@ -41,8 +46,8 @@
       <description><![CDATA[圣诞节你最美好的回忆是什么？在这里分享它们 :)- Josh :)
 
 评论网址：https://news.ycombinator.com/item?id=42506577
-积分：445
-评论数：145]]></description>
+积分：701
+评论数：199]]></description>
       <guid>https://news.ycombinator.com/item?id=42506577</guid>
       <pubDate>Wed, 25 Dec 2024 03:10:07 GMT</pubDate>
     </item>
@@ -52,28 +57,18 @@
       <description><![CDATA[您好，我正在开发一款专注于真正轻量级且专为隐私而设计的 Web 浏览器。在某个时候，我意识到 Web 浏览器的大部分复杂性和资源需求都来自 JavaScript。这是因为每个部分都需要动态且针对速度进行优化。因此，几年前，我开始开发一款故意不实现 JavaScript 的 Web 浏览器，而是包含一组更新的脚本，用于修复和改进各种网站。几年来，我一直使用这种方法（使用代理服务器）作为我的主要 Web 浏览方式，效果很好。它使用白名单方法，默认情况下不会从不同域加载任何资源（修复脚本可以覆盖它以从 CDN 等加载图像）。默认情况下，这会避免任何跟踪器。您可以在项目主页上找到更多详细信息：https://www.fixbrowser.org/我目前正在进行筹款活动，以使其真正开始。所有基础模块都已准备就绪，只需要再做一些工作。欢迎任何支持。
 
 评论网址：https://news.ycombinator.com/item?id=42506569
-积分：79
-评论数：17]]></description>
+积分：122
+评论数：40]]></description>
       <guid>https://www.fixbrowser.org/</guid>
       <pubDate>Wed, 25 Dec 2024 03:08:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>录制《抑制热情》拯救了一名无辜男子免于死刑（2017）</title>
-      <link>https://innocenceproject.org/how-curb-your-enthusiasm-saved-an-innocent-man-from-death-row/</link>
-      <description><![CDATA[文章网址：https://innocenceproject.org/how-curb-your-enthusiasm-saved-an-innocent-man-from-death-row/
-评论网址：https://news.ycombinator.com/item?id=42506289
-积分：58
-评论数：48]]></description>
-      <guid>https://innocenceproject.org/how-curb-your-enthusiasm-saved-an-innocent-man-from-death-row/</guid>
-      <pubDate>Wed, 25 Dec 2024 01:49:07 GMT</pubDate>
     </item>
     <item>
       <title>GPU 着色器中的 CRT 模拟，看起来比黑框插入更好</title>
       <link>https://blurbusters.com/crt-simulation-in-a-gpu-shader-looks-better-than-bfi/</link>
       <description><![CDATA[文章网址：https://blurbusters.com/crt-simulation-in-a-gpu-shader-looks-better-than-bfi/
 评论网址：https://news.ycombinator.com/item?id=42506211
-积分：71
-评论数：13]]></description>
+积分：89
+评论数：22]]></description>
       <guid>https://blurbusters.com/crt-simulation-in-a-gpu-shader-looks-better-than-bfi/</guid>
       <pubDate>Wed, 25 Dec 2024 01:26:29 GMT</pubDate>
     </item>
@@ -82,8 +77,8 @@
       <link>https://community.wolfram.com/c/portal/getImageAttachment?filename=tree.gif&userId=93201</link>
       <description><![CDATA[文章网址：https://community.wolfram.com/c/portal/getImageAttachment?filename=tree.gif&amp;userId=93201
 评论网址：https://news.ycombinator.com/item?id=42506145
-积分：197
-评论数：15]]></description>
+积分：269
+评论数：28]]></description>
       <guid>https://community.wolfram.com/c/portal/getImageAttachment?filename=tree.gif&userId=93201</guid>
       <pubDate>Wed, 25 Dec 2024 01:07:22 GMT</pubDate>
     </item>
@@ -92,8 +87,8 @@
       <link>https://www.cnn.com/2024/12/21/travel/united-pilot-reunites-bone-marrow-donor/index.html</link>
       <description><![CDATA[文章网址：https://www.cnn.com/2024/12/21/travel/united-pilot-reunites-bone-marrow-donor/index.html
 评论网址：https://news.ycombinator.com/item?id=42506041
-积分：60
-评论数：3]]></description>
+积分：91
+评论数：8]]></description>
       <guid>https://www.cnn.com/2024/12/21/travel/united-pilot-reunites-bone-marrow-donor/index.html</guid>
       <pubDate>Wed, 25 Dec 2024 00:41:36 GMT</pubDate>
     </item>
@@ -102,10 +97,20 @@
       <link>https://www.pcworld.com/article/2564783/gordon-mah-ung-remembered.html</link>
       <description><![CDATA[文章网址：https://www.pcworld.com/article/2564783/gordon-mah-ung-remembered.html
 评论网址：https://news.ycombinator.com/item?id=42505542
-积分：110
+积分：121
 评论数：17]]></description>
       <guid>https://www.pcworld.com/article/2564783/gordon-mah-ung-remembered.html</guid>
       <pubDate>Tue, 24 Dec 2024 22:55:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jujutsu Megamerges 和 jj Absorb</title>
+      <link>https://v5.chriskrycho.com/journal/jujutsu-megamerges-and-jj-absorb/</link>
+      <description><![CDATA[文章网址：https://v5.chriskrycho.com/journal/jujutsu-megamerges-and-jj-absorb/
+评论网址：https://news.ycombinator.com/item?id=42505475
+积分：55
+评论数：26]]></description>
+      <guid>https://v5.chriskrycho.com/journal/jujutsu-megamerges-and-jj-absorb/</guid>
+      <pubDate>Tue, 24 Dec 2024 22:42:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
