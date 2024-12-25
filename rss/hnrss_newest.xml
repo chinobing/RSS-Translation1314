@@ -4,174 +4,115 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 25 Dec 2024 12:32:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2024 15:16:48 GMT</lastBuildDate>
     <item>
-      <title>ThinkPad 笔记本电脑 Linux 指南</title>
-      <link>https://linuxblog.io/thinkpad-laptops-linux-guide/</link>
-      <description><![CDATA[文章网址：https://linuxblog.io/thinkpad-laptops-linux-guide/
-评论网址：https://news.ycombinator.com/item?id=42508462
+      <title>2025 年后端趋势：每个开发人员都应该关注（或忽略）什么</title>
+      <link>https://medium.com/@all.technology.stories/backend-trends-for-2025-what-every-dev-should-watch-or-ignore-d68d81bc546e</link>
+      <description><![CDATA[文章网址：https://medium.com/@all.technology.stories/backend-trends-for-2025-what-every-dev-should-watch-or-ignore-d68d81bc546e
+评论网址：https://news.ycombinator.com/item?id=42509089
 积分：1
 评论数：0]]></description>
-      <guid>https://linuxblog.io/thinkpad-laptops-linux-guide/</guid>
-      <pubDate>Wed, 25 Dec 2024 12:22:03 GMT</pubDate>
+      <guid>https://medium.com/@all.technology.stories/backend-trends-for-2025-what-every-dev-should-watch-or-ignore-d68d81bc546e</guid>
+      <pubDate>Wed, 25 Dec 2024 15:02:25 GMT</pubDate>
     </item>
     <item>
-      <title>黑客帝国 2024 年节日特辑</title>
-      <link>https://matrix.org/blog/2024/12/25/the-matrix-holiday-special-2024/</link>
-      <description><![CDATA[文章网址：https://matrix.org/blog/2024/12/25/the-matrix-holiday-special-2024/
-评论网址：https://news.ycombinator.com/item?id=42508456
+      <title>伪调试 II：竞争条件的反击</title>
+      <link>https://ankush.dev/p/race-condition-strikes-back</link>
+      <description><![CDATA[文章网址：https://ankush.dev/p/race-condition-strikes-back
+评论网址：https://news.ycombinator.com/item?id=42509088
 积分：1
 评论数：0]]></description>
-      <guid>https://matrix.org/blog/2024/12/25/the-matrix-holiday-special-2024/</guid>
-      <pubDate>Wed, 25 Dec 2024 12:19:44 GMT</pubDate>
+      <guid>https://ankush.dev/p/race-condition-strikes-back</guid>
+      <pubDate>Wed, 25 Dec 2024 15:02:23 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：你在 2024 年学到的最好的事情是什么？</title>
-      <link>https://news.ycombinator.com/item?id=42508453</link>
-      <description><![CDATA[今年我学会了如何做父亲，你们呢？
-
-评论网址：https://news.ycombinator.com/item?id=42508453
+      <title>ASML 首席执行官称中国芯片制造能力落后 10 至 15 年</title>
+      <link>https://www.tomshardware.com/tech-industry/asml-ceo-says-china-is-10-to-15-years-behind-in-chipmaking-capabilities</link>
+      <description><![CDATA[文章网址：https://www.tomshardware.com/tech-industry/asml-ceo-says-china-is-10-to-15-years-behind-in-chipmaking-capabilities
+评论网址：https://news.ycombinator.com/item?id=42509078
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42508453</guid>
-      <pubDate>Wed, 25 Dec 2024 12:19:15 GMT</pubDate>
+      <guid>https://www.tomshardware.com/tech-industry/asml-ceo-says-china-is-10-to-15-years-behind-in-chipmaking-capabilities</guid>
+      <pubDate>Wed, 25 Dec 2024 15:00:45 GMT</pubDate>
     </item>
     <item>
-      <title>在 JavaScript 中，函数参数中的对象解构速度很慢</title>
-      <link>https://news.ycombinator.com/item?id=42508451</link>
-      <description><![CDATA[我喜欢在函数参数中使用对象解构，因为当您更改函数的参数（或其必需/可选状态）时，您不必搜索整个代码库来查找函数的用法。但是，我担心解构对象可能会产生一些成本，因此我创建了一个简单的基准。___我们有一个非常愚蠢的函数，其中包含所有可选参数。它只获取变量，将它们转换为小写，然后将它们作为对象返回。第一个函数是没有对象解构的默认方法：greetOne: (
-name?: string,
-lastName?: string,
-professional?: string,
-age?: number
-) =&gt; {
-return {
-name: name?.toLowerCase() || &quot;John&quot;,
-lastName: lastName?.toLowerCase() || &quot;Doe&quot;,
-age: age?.toString().toLowerCase() || &quot;30&quot;,
-professional: professional?.toLowerCase() || &quot;Developer&quot;
-};
-}
-
-第二个函数利用了对象解构：greetTwo: ({
-name,
-lastName,
-age,
-professional
-}: {
-name?: string;
-lastName?: string;
-age?: number;
-professional?: string;
-}) =&gt; {
-return {
-name: name?.toLowerCase() || &quot;John&quot;,
-lastName: lastName?.toLowerCase() || &quot;Doe&quot;,
-age: age?.toString().toLowerCase() || &quot;30&quot;,
-professional: professional?.toLowerCase() || &quot;Developer&quot;
-};
-}
-
-第三个也使用了对象解构，但它更花哨一些，因为当你不想传递任何参数时，functionName() 比 functionName({}) 更简单（而且这有更少的 Typescript 混乱）：greetThree: (props?: {
-name?: string;
-lastName?: string;
-age?: number;
-professional?: string;
-}) =&gt; {
-const { name, lastName, age, professional } = props || {};
-return {
-name: name?.toLowerCase() || &quot;John&quot;,
-lastName: lastName?.toLowerCase() || &quot;Doe&quot;,
-age: age?.toString().toLowerCase() || &quot;30&quot;,
-professional: professional?.toLowerCase() || &quot;Developer&quot;
-};
-}
-
-___测试用例很简单，我们调用函数时，所有参数都已填入，缺少一个可选参数，并且没有参数，如下所示：greetOne(&quot;John&quot;, &quot;Doe&quot;, &quot;Developer&quot;, 30);
-
-greetOne(&quot;John&quot;, &quot;Doe&quot;, &quot;Developer&quot;);
-
-greetOne();
-
-___结果表明，第二种和第三种方法在性能方面非常相似，但第一种方法比这两种方法都高出 4 倍。GREET ONE Ops/s：196,568,269
-
-平均运行时间：0.0000051 毫秒
-
-GREET TWO Ops/s：45,502,358
-
-平均运行时间：0.000022 毫秒
-
-GREET THREE Ops/s：45,354,398
-
-平均运行时间：0.000022 毫秒
-
-您可以通过 https://tinyurl.com/3d43kp4t 在浏览器中进行测试___注意：这只是一个简单的基准测试我花了 5 分钟编写。我可能计算错误了一些东西。注释 2：基准测试在 3 秒内重复运行该函数数十万次。在实际应用中，您可能不会调用函数这么多次。当您调用该函数一次或两次时，0.000022ms 和 0.0000051ms 之间的差异是不存在的。但是如果您确实在循环中调用函数这么多次，您可能不想在参数中使用对象解构。注释 3：我使用的函数示例非常简单，执行内部代码不需要太多时间。如果您的应用程序使用获取或任何至少需要 1 毫秒的操作，则差异仍然可以忽略不计。
-
-评论网址：https://news.ycombinator.com/item?id=42508451
+      <title>我在 2 个月内进行了 60 次采访——以下是我学到的东西</title>
+      <link>https://thoughtspile.github.io/2024/01/06/60-interview-lessons/</link>
+      <description><![CDATA[文章网址：https://thoughtspile.github.io/2024/01/06/60-interview-lessons/
+评论网址：https://news.ycombinator.com/item?id=42509073
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42508451</guid>
-      <pubDate>Wed, 25 Dec 2024 12:19:08 GMT</pubDate>
+      <guid>https://thoughtspile.github.io/2024/01/06/60-interview-lessons/</guid>
+      <pubDate>Wed, 25 Dec 2024 14:59:16 GMT</pubDate>
     </item>
     <item>
-      <title>由大脑控制的仿生腿</title>
-      <link>https://www.newyorker.com/magazine/2024/12/16/a-bionic-leg-controlled-by-the-brain</link>
-      <description><![CDATA[文章网址：https://www.newyorker.com/magazine/2024/12/16/a-bionic-leg-controlled-by-the-brain
-评论网址：https://news.ycombinator.com/item?id=42508450
+      <title>Mega：让欧洲再次伟大，这一次是真的</title>
+      <link>https://defragzone.substack.com/p/mega-make-europe-great-again-for</link>
+      <description><![CDATA[文章网址：https://defragzone.substack.com/p/mega-make-europe-great-again-for
+评论网址：https://news.ycombinator.com/item?id=42509070
 积分：1
 评论数：0]]></description>
-      <guid>https://www.newyorker.com/magazine/2024/12/16/a-bionic-leg-controlled-by-the-brain</guid>
-      <pubDate>Wed, 25 Dec 2024 12:18:48 GMT</pubDate>
+      <guid>https://defragzone.substack.com/p/mega-make-europe-great-again-for</guid>
+      <pubDate>Wed, 25 Dec 2024 14:58:09 GMT</pubDate>
     </item>
     <item>
-      <title>酸葡萄</title>
-      <link>https://slate.com/life/2024/12/grapes-red-green-sour-concord-welchs-juice-jelly.html</link>
-      <description><![CDATA[文章网址：https://slate.com/life/2024/12/grapes-red-green-sour-concord-welchs-juice-jelly.html
-评论网址：https://news.ycombinator.com/item?id=42508449
+      <title>双陆棋超级大师的 12 条人生经验</title>
+      <link>https://wbgf.info/2024/12/18/12-life-lessons-from-a-backgammon-super-grandmaster/</link>
+      <description><![CDATA[文章网址：https://wbgf.info/2024/12/18/12-life-lessons-from-a-backgammon-super-grandmaster/
+评论网址：https://news.ycombinator.com/item?id=42509061
 积分：1
 评论数：0]]></description>
-      <guid>https://slate.com/life/2024/12/grapes-red-green-sour-concord-welchs-juice-jelly.html</guid>
-      <pubDate>Wed, 25 Dec 2024 12:18:41 GMT</pubDate>
+      <guid>https://wbgf.info/2024/12/18/12-life-lessons-from-a-backgammon-super-grandmaster/</guid>
+      <pubDate>Wed, 25 Dec 2024 14:55:44 GMT</pubDate>
     </item>
     <item>
-      <title>暗能量是对膨胀动能变化的错误认识</title>
-      <link>https://www.sci.news/astronomy/dark-energy-13531.html</link>
-      <description><![CDATA[文章网址：https://www.sci.news/astronomy/dark-energy-13531.html
-评论网址：https://news.ycombinator.com/item?id=42508445
-积分：1
+      <title>如今，车头灯似乎更亮了，因为它们</title>
+      <link>https://www.cbc.ca/news/canada/british-columbia/headlights-led-driving-safety-night-1.7409099</link>
+      <description><![CDATA[文章网址：https://www.cbc.ca/news/canada/british-columbia/headlights-led-driving-safety-night-1.7409099
+评论网址：https://news.ycombinator.com/item?id=42509030
+积分：2
 评论数：0]]></description>
-      <guid>https://www.sci.news/astronomy/dark-energy-13531.html</guid>
-      <pubDate>Wed, 25 Dec 2024 12:17:20 GMT</pubDate>
+      <guid>https://www.cbc.ca/news/canada/british-columbia/headlights-led-driving-safety-night-1.7409099</guid>
+      <pubDate>Wed, 25 Dec 2024 14:48:07 GMT</pubDate>
     </item>
     <item>
-      <title>伊隆·马斯克瞄准维基百科</title>
-      <link>https://www.newsweek.com/elon-musk-takes-aim-wikipedia-fund-raising-editing-political-woke-2005742</link>
-      <description><![CDATA[文章网址：https://www.newsweek.com/elon-musk-takes-aim-wikipedia-fund-raising-editing-political-woke-2005742
-评论网址：https://news.ycombinator.com/item?id=42508433
+      <title>显示 HN：副项目的每日例会</title>
+      <link>https://publicstandups.com</link>
+      <description><![CDATA[HN，大家好，圣诞快乐！两个月前，在一次收购之后，我被解雇了。在休假期间，我决定利用这段时间开发一些东西来跟踪我的业余项目。在我之前的公司，我们使用 Geekbot 在 Slack 上进行异步每日站立会议，这有助于我每天保持专注和积极性。受此启发，我创建了 PublicStandups — 一个通过公开跟踪每日进度来保持自己对业余项目积极性的工具。目前您可以： - 创建多个项目并发布每日更新。
+- 公开分享您的更新以建立责任制。
+- 跟踪每日连续性并使用专用页面展示您的项目进度。
+- 突出显示项目的技术堆栈以供其他人查看。
+- 获取其他用户对您项目的反馈。
+
+这是一个示例项目页面：
+https://publicstandups.com/u/muhammet/p/publicstandups/目前，这是一个没有任何魔力的基本 CRUD 应用程序——但我的目标是将其发展为一个强大的创作者激励工具。虽然它还处于早期阶段（某些按钮可能不起作用，某些文本可能需要调整），但它已经可以使用了！ps;
+对于在此早期阶段注册的任何人，都会自动获得“创始人”标志。如果项目最终包含高级功能，被标记的用户将获得终身高级访问权限。希望您提供反馈、建议或想法来改进它。让我知道你的想法 -
+
+评论网址：https://news.ycombinator.com/item?id=42508982
 积分：1
 评论数：0]]></description>
-      <guid>https://www.newsweek.com/elon-musk-takes-aim-wikipedia-fund-raising-editing-political-woke-2005742</guid>
-      <pubDate>Wed, 25 Dec 2024 12:13:57 GMT</pubDate>
+      <guid>https://publicstandups.com</guid>
+      <pubDate>Wed, 25 Dec 2024 14:40:11 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能辅助抗感染导管的几何设计</title>
-      <link>https://www.science.org/doi/full/10.1126/sciadv.adj1741</link>
-      <description><![CDATA[文章网址：https://www.science.org/doi/full/10.1126/sciadv.adj1741
-评论网址：https://news.ycombinator.com/item?id=42508412
+      <title>穿越时空：老式摩托车照片（1920 年代 - 1950 年代）</title>
+      <link>https://rarehistoricalphotos.com/people-with-motorcycles-vintage-photos/</link>
+      <description><![CDATA[文章网址：https://rarehistoricalphotos.com/people-with-motorcycles-vintage-photos/
+评论网址：https://news.ycombinator.com/item?id=42508977
 积分：1
 评论数：0]]></description>
-      <guid>https://www.science.org/doi/full/10.1126/sciadv.adj1741</guid>
-      <pubDate>Wed, 25 Dec 2024 12:08:13 GMT</pubDate>
+      <guid>https://rarehistoricalphotos.com/people-with-motorcycles-vintage-photos/</guid>
+      <pubDate>Wed, 25 Dec 2024 14:39:42 GMT</pubDate>
     </item>
     <item>
-      <title>Phi-4 技术报告</title>
-      <link>https://arxiv.org/abs/2412.08905</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2412.08905
-评论网址：https://news.ycombinator.com/item?id=42508407
-积分：1
+      <title>Squish – 基于浏览器的开源批量图像压缩</title>
+      <link>https://github.com/addyosmani/squish</link>
+      <description><![CDATA[文章网址：https://github.com/addyosmani/squish
+评论网址：https://news.ycombinator.com/item?id=42508973
+积分：2
 评论数：0]]></description>
-      <guid>https://arxiv.org/abs/2412.08905</guid>
-      <pubDate>Wed, 25 Dec 2024 12:07:19 GMT</pubDate>
+      <guid>https://github.com/addyosmani/squish</guid>
+      <pubDate>Wed, 25 Dec 2024 14:39:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
