@@ -4,14 +4,44 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 26 Dec 2024 03:21:37 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2024 06:24:44 GMT</lastBuildDate>
+    <item>
+      <title>Blackcandy：自托管音乐流媒体服务器</title>
+      <link>https://github.com/blackcandy-org/blackcandy</link>
+      <description><![CDATA[文章网址：https://github.com/blackcandy-org/blackcandy
+评论网址：https://news.ycombinator.com/item?id=42512896
+积分：126
+评论数：37]]></description>
+      <guid>https://github.com/blackcandy-org/blackcandy</guid>
+      <pubDate>Thu, 26 Dec 2024 03:17:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>禽流感导致华盛顿州一处保护区一半以上的大型猫科动物死亡</title>
+      <link>https://www.cnn.com/2024/12/25/us/bird-flu-washington-cats-cases/index.html</link>
+      <description><![CDATA[文章网址：https://www.cnn.com/2024/12/25/us/bird-flu-washington-cats-cases/index.html
+评论网址：https://news.ycombinator.com/item?id=42512772
+积分：90
+评论数：14]]></description>
+      <guid>https://www.cnn.com/2024/12/25/us/bird-flu-washington-cats-cases/index.html</guid>
+      <pubDate>Thu, 26 Dec 2024 02:39:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Siyuan：隐私优先、自托管的个人知识管理软件</title>
+      <link>https://github.com/siyuan-note/siyuan</link>
+      <description><![CDATA[文章网址：https://github.com/siyuan-note/siyuan
+评论网址：https://news.ycombinator.com/item?id=42512713
+积分：35
+评论数：8]]></description>
+      <guid>https://github.com/siyuan-note/siyuan</guid>
+      <pubDate>Thu, 26 Dec 2024 02:26:39 GMT</pubDate>
+    </item>
     <item>
       <title>Egui – 用 Rust 编写的立即模式 GUI</title>
       <link>https://www.egui.rs/</link>
       <description><![CDATA[文章网址：https://www.egui.rs/
 评论网址：https://news.ycombinator.com/item?id=42512636
-积分：5
-评论数：0]]></description>
+积分：104
+评论数：15]]></description>
       <guid>https://www.egui.rs/</guid>
       <pubDate>Thu, 26 Dec 2024 02:06:10 GMT</pubDate>
     </item>
@@ -20,91 +50,61 @@
       <link>https://aphyr.com/posts/378-seconds-since-the-epoch</link>
       <description><![CDATA[文章网址：https://aphyr.com/posts/378-seconds-since-the-epoch
 评论网址：https://news.ycombinator.com/item?id=42512371
-积分：15
-评论数：3]]></description>
+积分：62
+评论数：44]]></description>
       <guid>https://aphyr.com/posts/378-seconds-since-the-epoch</guid>
       <pubDate>Thu, 26 Dec 2024 00:59:27 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：YC 创业公司地图</title>
+      <title>在不受支持的路由器上安装 OpenWRT</title>
+      <link>https://radiosocial.de/@hennichodernich/113714518196988714</link>
+      <description><![CDATA[文章网址：https://radiosocial.de/@hennichodernich/113714518196988714
+评论网址：https://news.ycombinator.com/item?id=42512050
+积分：26
+# 条评论：0]]></description>
+      <guid>https://radiosocial.de/@hennichodernich/113714518196988714</guid>
+      <pubDate>Wed, 25 Dec 2024 23:52:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>从纸莎草纸到预印本</title>
+      <link>https://joinreboot.org/p/from-papyrus-to-preprints</link>
+      <description><![CDATA[文章网址：https://joinreboot.org/p/from-papyrus-to-preprints
+评论网址：https://news.ycombinator.com/item?id=42511978
+积分：4
+评论数：0]]></description>
+      <guid>https://joinreboot.org/p/from-papyrus-to-preprints</guid>
+      <pubDate>Wed, 25 Dec 2024 23:37:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>圣诞节有效率吗？（2013）</title>
+      <link>http://marginalrevolution.com/marginalrevolution/2013/12/are-seasonal-business-cycles-inefficient.html</link>
+      <description><![CDATA[文章网址：http://marginalrevolution.com/marginalrevolution/2013/12/are-seasonal-business-cycles-inefficient.html
+评论网址：https://news.ycombinator.com/item?id=42511976
+积分：24
+评论数：3]]></description>
+      <guid>http://marginalrevolution.com/marginalrevolution/2013/12/are-seasonal-business-cycles-inefficient.html</guid>
+      <pubDate>Wed, 25 Dec 2024 23:36:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：YC 初创企业地图</title>
       <link>https://yc-map.vercel.app/</link>
       <description><![CDATA[大家好！希望你圣诞快乐今天我和 Claude 玩得很开心。首先抓取 YC 的创业公司列表，然后通过 OpenAI 的嵌入服务运行它们，然后对嵌入进行 UMAP 以将维度减少到只有两个坐标，然后迫使 Claude 编写可以编译以将其可视化的 React。我玩得很开心，我觉得这很有趣，所以看看吧！另请注意，您将无法在移动设备上缩放（发现这个 Plotly 限制为时已晚）。如果有兴趣，我明天可以通过更改绘图库来解决这个问题:)圣诞快乐
 
 评论网址：https://news.ycombinator.com/item?id=42511663
-积分：21
-评论数：8]]></description>
+积分：36
+评论数：13]]></description>
       <guid>https://yc-map.vercel.app/</guid>
       <pubDate>Wed, 25 Dec 2024 22:37:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>我从垃圾中拯救了一台电子显微镜[视频]</title>
-      <link>https://www.youtube.com/watch?v=Kqx9blbYDB0</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=Kqx9blbYDB0
-评论网址：https://news.ycombinator.com/item?id=42511426
-积分：52
-评论数：13]]></description>
-      <guid>https://www.youtube.com/watch?v=Kqx9blbYDB0</guid>
-      <pubDate>Wed, 25 Dec 2024 21:54:14 GMT</pubDate>
     </item>
     <item>
       <title>服务器发送事件（SSE）被低估了</title>
       <link>https://igorstechnoclub.com/server-sent-events-sse-are-underrated/</link>
       <description><![CDATA[文章网址：https://igorstechnoclub.com/server-sent-events-sse-are-underrated/
 评论网址：https://news.ycombinator.com/item?id=42511318
-积分：155
-评论数：70]]></description>
+积分：188
+评论数：82]]></description>
       <guid>https://igorstechnoclub.com/server-sent-events-sse-are-underrated/</guid>
       <pubDate>Wed, 25 Dec 2024 21:35:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>空袭可能是阿塞拜疆 E190 航班失事原因</title>
-      <link>https://www.euronews.com/2024/12/25/azerbaijani-passenger-plane-crashes-near-kazakh-city-of-aktau</link>
-      <description><![CDATA[文章网址：https://www.euronews.com/2024/12/25/azerbaijani-passenger-plane-crashes-near-kazakh-city-of-aktau
-评论网址：https://news.ycombinator.com/item?id=42511267
-积分：167
-评论数：107]]></description>
-      <guid>https://www.euronews.com/2024/12/25/azerbaijani-passenger-plane-crashes-near-kazakh-city-of-aktau</guid>
-      <pubDate>Wed, 25 Dec 2024 21:25:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>我以为我发现了一个错误</title>
-      <link>https://www.os2museum.com/wp/i-thought-i-found-a-bug/</link>
-      <description><![CDATA[文章网址：https://www.os2museum.com/wp/i-thought-i-found-a-bug/
-评论网址：https://news.ycombinator.com/item?id=42510776
-积分：49
-评论数：6]]></description>
-      <guid>https://www.os2museum.com/wp/i-thought-i-found-a-bug/</guid>
-      <pubDate>Wed, 25 Dec 2024 19:55:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>进入 CPS，永不回头</title>
-      <link>https://bernsteinbear.com/blog/cps/</link>
-      <description><![CDATA[文章网址：https://bernsteinbear.com/blog/cps/
-评论网址：https://news.ycombinator.com/item?id=42510696
-积分：68
-评论数：22]]></description>
-      <guid>https://bernsteinbear.com/blog/cps/</guid>
-      <pubDate>Wed, 25 Dec 2024 19:43:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Portspoof：在所有 65535 个 TCP 端口上模拟有效服务</title>
-      <link>https://github.com/drk1wi/portspoof</link>
-      <description><![CDATA[文章网址：https://github.com/drk1wi/portspoof
-评论网址：https://news.ycombinator.com/item?id=42509953
-积分：192
-评论数：66]]></description>
-      <guid>https://github.com/drk1wi/portspoof</guid>
-      <pubDate>Wed, 25 Dec 2024 17:44:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sherlock：通过用户名在 400 个社交网络中追踪社交媒体账户</title>
-      <link>https://sherlockproject.xyz/</link>
-      <description><![CDATA[文章网址：https://sherlockproject.xyz/
-评论网址：https://news.ycombinator.com/item?id=42509809
-积分：192
-评论数：112]]></description>
-      <guid>https://sherlockproject.xyz/</guid>
-      <pubDate>Wed, 25 Dec 2024 17:14:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
