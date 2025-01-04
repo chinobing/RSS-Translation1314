@@ -4,14 +4,55 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 04 Jan 2025 18:21:26 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jan 2025 21:14:58 GMT</lastBuildDate>
+    <item>
+      <title>ANT+ 无线的末日即将来临</title>
+      <link>https://www.dcrainmaker.com/2025/01/the-begining-of-the-end-for-ant-wireless.html</link>
+      <description><![CDATA[文章网址：https://www.dcrainmaker.com/2025/01/the-begining-of-the-end-for-ant-wireless.html
+评论网址：https://news.ycombinator.com/item?id=42597395
+积分：12
+评论数：3]]></description>
+      <guid>https://www.dcrainmaker.com/2025/01/the-begining-of-the-end-for-ant-wireless.html</guid>
+      <pubDate>Sat, 04 Jan 2025 20:19:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>ELKS：适用于 16 位 Intel 处理器的 Linux</title>
+      <link>https://github.com/ghaerr/elks</link>
+      <description><![CDATA[文章网址：https://github.com/ghaerr/elks
+评论网址：https://news.ycombinator.com/item?id=42596983
+积分：4
+评论数：0]]></description>
+      <guid>https://github.com/ghaerr/elks</guid>
+      <pubDate>Sat, 04 Jan 2025 19:23:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>午夜刺杀奥逊·威尔斯 (2011)</title>
+      <link>https://www.nybooks.com/articles/2011/04/28/killing-orson-welles-midnight/</link>
+      <description><![CDATA[文章网址：https://www.nybooks.com/articles/2011/04/28/killing-orson-welles-midnight/
+评论网址：https://news.ycombinator.com/item?id=42596843
+积分：8
+评论数：2]]></description>
+      <guid>https://www.nybooks.com/articles/2011/04/28/killing-orson-welles-midnight/</guid>
+      <pubDate>Sat, 04 Jan 2025 19:01:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：打开倒带 – POC 用于将音频和屏幕以及视频流传输到 S3</title>
+      <link>https://github.com/janwilmake/efficient-recorder</link>
+      <description><![CDATA[今天陷入了困境。POC 使用“npx efficient-recorder”工作。这对任何人都有用吗？
+
+评论网址：https://news.ycombinator.com/item?id=42596607
+积分：23
+评论数：4]]></description>
+      <guid>https://github.com/janwilmake/efficient-recorder</guid>
+      <pubDate>Sat, 04 Jan 2025 18:25:39 GMT</pubDate>
+    </item>
     <item>
       <title>重返博学 (2015) [pdf]</title>
       <link>https://paulrcohen.github.io/papers/Polymathy.pdf</link>
       <description><![CDATA[文章网址：https://paulrcohen.github.io/papers/Polymathy.pdf
 评论网址：https://news.ycombinator.com/item?id=42596450
-积分：6
-评论数：0]]></description>
+积分：57
+评论数：12]]></description>
       <guid>https://paulrcohen.github.io/papers/Polymathy.pdf</guid>
       <pubDate>Sat, 04 Jan 2025 18:01:39 GMT</pubDate>
     </item>
@@ -26,33 +67,32 @@
       <pubDate>Sat, 04 Jan 2025 17:01:24 GMT</pubDate>
     </item>
     <item>
+      <title>美国报纸删除旧的犯罪报道，为报道对象提供“清白记录”</title>
+      <link>https://www.theguardian.com/us-news/2025/jan/04/newspaper-crime-stories</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/us-news/2025/jan/04/newspaper-crime-stories
+评论网址：https://news.ycombinator.com/item?id=42595307
+积分：103
+评论数：182]]></description>
+      <guid>https://www.theguardian.com/us-news/2025/jan/04/newspaper-crime-stories</guid>
+      <pubDate>Sat, 04 Jan 2025 15:33:37 GMT</pubDate>
+    </item>
+    <item>
       <title>结合 15 秒间隔的全天空相机照片，形成跨越 4 年的大气动态图</title>
       <link>https://astrodon.social/@cgbassa/113770318993975063</link>
       <description><![CDATA[文章网址：https://astrodon.social/@cgbassa/113770318993975063
 评论网址：https://news.ycombinator.com/item?id=42595190
-积分：124
-评论数：28]]></description>
+积分：240
+评论数：45]]></description>
       <guid>https://astrodon.social/@cgbassa/113770318993975063</guid>
       <pubDate>Sat, 04 Jan 2025 15:18:13 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：使用 Prettier 漂亮地打印你的棋局</title>
-      <link>https://github.com/gmasclet/prettier-plugin-pgn</link>
-      <description><![CDATA[嗨，作为一名国际象棋爱好者，我喜欢将我的比赛和开局曲目作为一组存储在 Git 存储库中的 PGN 文件进行管理（PGN 是一种用于记录国际象棋比赛的文本文件格式）。因此，我想要一种使用 CLI 漂亮地打印 PGN 文件并将其集成到我的编辑器中的方法。如今，大多数人似乎都在使用基于 GUI 的软件。因此，我决定创建一个格式化 PGN 文件的 Prettier 插件。Prettier 是 Node.js 生态系统中一个著名的漂亮打印机，用于确保软件项目中源代码格式的一致性。将此 PGN 格式化程序实现为 Prettier 插件的一个好处是，它可以从编辑器集成中受益。即使项目仍处于早期阶段，该插件目前也已接近完成。它是可用的，即使可能存在一些错误。希望您觉得这很有用。欢迎发表评论和想法。祝你周末愉快。
-
-评论网址：https://news.ycombinator.com/item?id=42594896
-积分：52
-评论数：5]]></description>
-      <guid>https://github.com/gmasclet/prettier-plugin-pgn</guid>
-      <pubDate>Sat, 04 Jan 2025 14:37:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>一名间谍渗透进美国民兵最高层</title>
+      <title>一名间谍渗透到了美国民兵组织的最高层</title>
       <link>https://www.propublica.org/article/ap3-oath-keepers-militia-mole</link>
       <description><![CDATA[文章网址：https://www.propublica.org/article/ap3-oath-keepers-militia-mole
 评论网址：https://news.ycombinator.com/item?id=42594766
-积分：160
-评论数：66]]></description>
+积分：271
+评论数：154]]></description>
       <guid>https://www.propublica.org/article/ap3-oath-keepers-militia-mole</guid>
       <pubDate>Sat, 04 Jan 2025 14:13:16 GMT</pubDate>
     </item>
@@ -61,50 +101,10 @@
       <link>https://blog.vigoo.dev/posts/moonbit-with-golem/</link>
       <description><![CDATA[文章网址：https://blog.vigoo.dev/posts/moonbit-with-golem/
 评论网址：https://news.ycombinator.com/item?id=42594750
-积分：4
-评论数：0]]></description>
+积分：17
+评论数：5]]></description>
       <guid>https://blog.vigoo.dev/posts/moonbit-with-golem/</guid>
       <pubDate>Sat, 04 Jan 2025 14:10:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Unisys 图标：一位加拿大千禧一代对安大略省鲜为人知的计算机的回忆</title>
-      <link>https://postgamecontent.com/post/771726085147803648/the-unisys-icon-one-canadian-xennials-memories</link>
-      <description><![CDATA[文章网址：https://postgamecontent.com/post/771726085147803648/the-unisys-icon-one-canadian-xennials-memories
-评论网址：https://news.ycombinator.com/item?id=42594387
-积分：32
-评论数：9]]></description>
-      <guid>https://postgamecontent.com/post/771726085147803648/the-unisys-icon-one-canadian-xennials-memories</guid>
-      <pubDate>Sat, 04 Jan 2025 12:45:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>利用法学硕士和 Cursor 完成业余项目</title>
-      <link>https://zohaib.me/using-llms-and-cursor-for-finishing-projects-productivity/</link>
-      <description><![CDATA[文章网址：https://zohaib.me/using-llms-and-cursor-for-finishing-projects-productivity/
-评论网址：https://news.ycombinator.com/item?id=42594256
-积分：79
-评论数：26]]></description>
-      <guid>https://zohaib.me/using-llms-and-cursor-for-finishing-projects-productivity/</guid>
-      <pubDate>Sat, 04 Jan 2025 12:09:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>一只狗与 Windows 3.1 图形堆栈</title>
-      <link>https://wuffs.org/blog/windows-3x-graphics</link>
-      <description><![CDATA[文章网址：https://wuffs.org/blog/windows-3x-graphics
-评论网址：https://news.ycombinator.com/item?id=42594024
-积分：75
-评论数：17]]></description>
-      <guid>https://wuffs.org/blog/windows-3x-graphics</guid>
-      <pubDate>Sat, 04 Jan 2025 11:10:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在视频游戏中绘制轮廓</title>
-      <link>https://ameye.dev/notes/rendering-outlines/</link>
-      <description><![CDATA[文章网址：https://ameye.dev/notes/rendering-outlines/
-评论网址：https://news.ycombinator.com/item?id=42593614
-积分：270
-评论数：29]]></description>
-      <guid>https://ameye.dev/notes/rendering-outlines/</guid>
-      <pubDate>Sat, 04 Jan 2025 09:14:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
