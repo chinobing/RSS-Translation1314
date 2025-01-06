@@ -4,34 +4,85 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 06 Jan 2025 01:19:46 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2025 03:26:05 GMT</lastBuildDate>
+    <item>
+      <title>反思</title>
+      <link>https://blog.samaltman.com/reflections</link>
+      <description><![CDATA[文章网址：https://blog.samaltman.com/reflections
+评论网址：https://news.ycombinator.com/item?id=42606700
+积分：49
+评论数：63]]></description>
+      <guid>https://blog.samaltman.com/reflections</guid>
+      <pubDate>Mon, 06 Jan 2025 01:41:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>这不是你的最后一份工作</title>
+      <link>https://v5.chriskrycho.com/journal/this-is-not-your-last-job/</link>
+      <description><![CDATA[文章网址：https://v5.chriskrycho.com/journal/this-is-not-your-last-job/
+评论网址：https://news.ycombinator.com/item?id=42606639
+积分：36
+评论数：22]]></description>
+      <guid>https://v5.chriskrycho.com/journal/this-is-not-your-last-job/</guid>
+      <pubDate>Mon, 06 Jan 2025 01:28:06 GMT</pubDate>
+    </item>
     <item>
       <title>支持 6 GHz Wi-Fi 的全球法规</title>
       <link>https://www.wi-fi.org/regulations-enabling-6-ghz-wi-fi</link>
       <description><![CDATA[文章网址：https://www.wi-fi.org/regulations-enabling-6-ghz-wi-fi
 评论网址：https://news.ycombinator.com/item?id=42606484
-积分：4
-评论数：0]]></description>
+积分：65
+评论数：15]]></description>
       <guid>https://www.wi-fi.org/regulations-enabling-6-ghz-wi-fi</guid>
       <pubDate>Mon, 06 Jan 2025 00:57:28 GMT</pubDate>
     </item>
     <item>
-      <title>Windows 365 Link：将用户囚禁在微软云中的新设备</title>
-      <link>https://cheapskatesguide.org/articles/windows-365-link.html</link>
-      <description><![CDATA[文章网址：https://cheapskatesguide.org/articles/windows-365-link.html
-评论网址：https://news.ycombinator.com/item?id=42606039
-积分：16
-评论数：11]]></description>
-      <guid>https://cheapskatesguide.org/articles/windows-365-link.html</guid>
-      <pubDate>Sun, 05 Jan 2025 23:40:19 GMT</pubDate>
+      <title>美国为何陷入电梯危机</title>
+      <link>https://www.axios.com/2025/01/05/elevators-escalators-regulations-buildings-construction</link>
+      <description><![CDATA[文章网址：https://www.axios.com/2025/01/05/elevators-escalators-regulations-buildings-construction
+评论网址：https://news.ycombinator.com/item?id=42606482
+积分：24
+评论数：39]]></description>
+      <guid>https://www.axios.com/2025/01/05/elevators-escalators-regulations-buildings-construction</guid>
+      <pubDate>Mon, 06 Jan 2025 00:57:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：LogLayer – 将日志路由到各种日志库的统一记录器</title>
+      <link>https://loglayer.dev/</link>
+      <description><![CDATA[作为一名长期从事 TypeScript/Node.js 开发的开发人员，我经常面临日志记录方面的挑战 — 为各种项目选择、使用和维护合适的日志记录器。虽然大多数日志记录器都提供“info”、“warn”和“error”等常用方法，但它们在处理结构化元数据或 Error 对象方面存在很大差异。这可能会导致临时解决方案，例如序列化错误或编写自定义管道，只是为了正确格式化日志。我构建了 LogLayer 来解决这些痛点，通过引入流畅、富有表现力的 API。借助“withMetadata”和“withError”等方法，LogLayer 将对象注入与日志消息本身分开，使您的日志记录代码更干净、更易于维护。日志通过 LogLayer Transport 处理，它充当您首选日志记录库的适配器。这种设计提供了几个关键优势：- 多传输支持：同时将日志发送到多个目的地（例如 DataDog 和 New Relic）。我个人曾使用此功能将日志直接发送到 DataDog，而无需依赖他们的 APM 包或 sidecar。- 轻松交换记录器：如果您曾经将 Pino 与 Next.js 一起使用过，那么您可能会遇到这样的问题：在没有 webpack 黑客的生产构建之后，它无法开箱即用。使用 LogLayer，您可以更换更适合的库而无需触及日志记录代码。我断断续续花了好几个月的时间，并利用我的寒假推出了 LogLayer 的第 5 版，还使用 ​​Vitepress 创建了文档。LogLayer 已在 Airtop (https://airtop.ai) 的生产中经过实战测试，多年来它一直是我们系统不可或缺的一部分（我们以 Switchboard 的形式运行了近四年，并于去年年底进行了转型）。（免责声明：我在 Airtop 工作，但 LogLayer 并未得到他们的赞助或附属。）
+
+评论 URL：https://news.ycombinator.com/item?id=42606454
+积分：20
+评论数：7]]></description>
+      <guid>https://loglayer.dev/</guid>
+      <pubDate>Mon, 06 Jan 2025 00:52:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>被 LLM 干掉</title>
+      <link>https://r0bk.github.io/killedbyllm/</link>
+      <description><![CDATA[文章网址：https://r0bk.github.io/killedbyllm/
+评论网址：https://news.ycombinator.com/item?id=42606231
+积分：69
+评论数：21]]></description>
+      <guid>https://r0bk.github.io/killedbyllm/</guid>
+      <pubDate>Mon, 06 Jan 2025 00:14:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025年，人们将尝试在这种水下栖息地生活</title>
+      <link>https://spectrum.ieee.org/ocean-engineering</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/ocean-engineering
+评论网址：https://news.ycombinator.com/item?id=42606226
+积分：25
+评论数：16]]></description>
+      <guid>https://spectrum.ieee.org/ocean-engineering</guid>
+      <pubDate>Mon, 06 Jan 2025 00:14:00 GMT</pubDate>
     </item>
     <item>
       <title>Duolicious – 开源约会应用程序</title>
       <link>https://github.com/duolicious</link>
       <description><![CDATA[文章网址：https://github.com/duolicious
 评论网址：https://news.ycombinator.com/item?id=42605740
-积分：50
-评论数：43]]></description>
+积分：68
+评论数：58]]></description>
       <guid>https://github.com/duolicious</guid>
       <pubDate>Sun, 05 Jan 2025 22:49:03 GMT</pubDate>
     </item>
@@ -40,8 +91,8 @@
       <link>https://www.bingeclock.com/blog/post/republishing-my-simpsons-fan-site-twenty-years-later</link>
       <description><![CDATA[文章网址：https://www.bingeclock.com/blog/post/republishing-my-simpsons-fan-site-twenty-years-later
 评论网址：https://news.ycombinator.com/item?id=42605707
-积分：42
-评论数：13]]></description>
+积分：73
+评论数：18]]></description>
       <guid>https://www.bingeclock.com/blog/post/republishing-my-simpsons-fan-site-twenty-years-later</guid>
       <pubDate>Sun, 05 Jan 2025 22:44:08 GMT</pubDate>
     </item>
@@ -50,60 +101,10 @@
       <link>https://github.com/srsran</link>
       <description><![CDATA[文章网址：https://github.com/srsran
 评论网址：https://news.ycombinator.com/item?id=42605201
-积分：51
-评论数：10]]></description>
+积分：70
+评论数：16]]></description>
       <guid>https://github.com/srsran</guid>
       <pubDate>Sun, 05 Jan 2025 21:27:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Corvus Robotics (YC S18) 正在招聘软件主管来帮助盘点无人机</title>
-      <link>https://news.ycombinator.com/item?id=42605143</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=42605143
-积分：0
-评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42605143</guid>
-      <pubDate>Sun, 05 Jan 2025 21:20:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：2024 年最喜欢的博客？</title>
-      <link>https://news.ycombinator.com/item?id=42604529</link>
-      <description><![CDATA[你发现了哪些引人注目的新博客？
-
-评论网址：https://news.ycombinator.com/item?id=42604529
-积分：73
-评论数：26]]></description>
-      <guid>https://news.ycombinator.com/item?id=42604529</guid>
-      <pubDate>Sun, 05 Jan 2025 19:58:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>对 Pentium FPU 中的常量进行逆向工程</title>
-      <link>http://www.righto.com/2025/01/pentium-floating-point-ROM.html</link>
-      <description><![CDATA[文章网址：http://www.righto.com/2025/01/pentium-floating-point-ROM.html
-评论网址：https://news.ycombinator.com/item?id=42604350
-积分：58
-评论数：4]]></description>
-      <guid>http://www.righto.com/2025/01/pentium-floating-point-ROM.html</guid>
-      <pubDate>Sun, 05 Jan 2025 19:34:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Akamai 将关闭其在中国的 CDN 业务</title>
-      <link>https://content.akamai.com/index.php/email/emailWebview?email=NjQyLVNLTi00NDkAAAGWBQgHSPFMp0ow2aF67IAbDOB0c1pNppYjWH8ZCkGxrVi4pDs7pT_120NiLvARghhVOBbaIJqps_3Ii2OZlixo3IPjhpR79JsTe-0&trk=comments_comments-list_comment-text</link>
-      <description><![CDATA[文章网址：https： //content.akamai.com/index.php/email/emailWebview?email=NjQyLVNLTi00NDkAAAGWBQgHSPFMp0ow2aF67IAbDOB0c1pNppYjWH8ZCkGxrVi4pDs7pT_120NiLvARghhVOBbaIJqps_3Ii2OZlixo3IPjhpR79JsTe-0&amp;trk=comments_comments-list_comment-text
-评论网址：https://news.ycombinator.com/item?id=42603585
-积分：259
-评论数：116]]></description>
-      <guid>https://content.akamai.com/index.php/email/emailWebview?email=NjQyLVNLTi00NDkAAAGWBQgHSPFMp0ow2aF67IAbDOB0c1pNppYjWH8ZCkGxrVi4pDs7pT_120NiLvARghhVOBbaIJqps_3Ii2OZlixo3IPjhpR79JsTe-0&trk=comments_comments-list_comment-text</guid>
-      <pubDate>Sun, 05 Jan 2025 18:02:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>可靠的系统调用拦截</title>
-      <link>https://blog.mggross.com/intercepting-syscalls/</link>
-      <description><![CDATA[文章网址：https://blog.mggross.com/intercepting-syscalls/
-评论网址：https://news.ycombinator.com/item?id=42602603
-积分：50
-评论数：1]]></description>
-      <guid>https://blog.mggross.com/intercepting-syscalls/</guid>
-      <pubDate>Sun, 05 Jan 2025 15:58:05 GMT</pubDate>
     </item>
     </channel>
 </rss>

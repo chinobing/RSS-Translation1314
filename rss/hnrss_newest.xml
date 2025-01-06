@@ -4,108 +4,113 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 06 Jan 2025 01:19:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2025 03:26:12 GMT</lastBuildDate>
     <item>
-      <title>问 HN：为什么您使用/不使用 C？</title>
-      <link>https://news.ycombinator.com/item?id=42606542</link>
-      <description><![CDATA[最近，我很喜欢用 C 编写项目（模拟器、光线投射器），并将其广泛用于我正在制作的游戏引擎。但我总是听到人们说“只使用 Rust 或 Zig”——但 C 实际上很棒，我很高兴反对者没有让我失望。那么，你使用还是不使用 C？如果是：为什么，为什么？如果不是：为什么不，你用什么来代替？
+      <title>未选配对</title>
+      <link>https://computer.rip/2025-01-05-pairs-not-taken.html</link>
+      <description><![CDATA[文章网址：https://computer.rip/2025-01-05-pairs-not-taken.html
+评论网址：https://news.ycombinator.com/item?id=42607261
+积分：1
+评论数：0]]></description>
+      <guid>https://computer.rip/2025-01-05-pairs-not-taken.html</guid>
+      <pubDate>Mon, 06 Jan 2025 03:14:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>故事、统计数据和记忆</title>
+      <link>https://academic.oup.com/qje/article/139/4/2181/7691253</link>
+      <description><![CDATA[文章网址：https://academic.oup.com/qje/article/139/4/2181/7691253
+评论网址：https://news.ycombinator.com/item?id=42607219
+积分：1
+评论数：0]]></description>
+      <guid>https://academic.oup.com/qje/article/139/4/2181/7691253</guid>
+      <pubDate>Mon, 06 Jan 2025 03:08:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>私人借贷持续下降带动全球债务下降</title>
+      <link>https://www.imf.org/en/Blogs/Articles/2024/12/02/persistent-fall-in-private-borrowing-brings-global-debt-down</link>
+      <description><![CDATA[文章网址：https://www.imf.org/en/Blogs/Articles/2024/12/02/persistent-fall-in-private-borrowing-brings-global-debt-down
+评论网址：https://news.ycombinator.com/item?id=42607186
+积分：1
+评论数：0]]></description>
+      <guid>https://www.imf.org/en/Blogs/Articles/2024/12/02/persistent-fall-in-private-borrowing-brings-global-debt-down</guid>
+      <pubDate>Mon, 06 Jan 2025 03:01:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>有时我会缓存：实现无锁概率缓存</title>
+      <link>https://blog.cloudflare.com/sometimes-i-cache/</link>
+      <description><![CDATA[文章网址：https://blog.cloudflare.com/sometimes-i-cache/
+评论网址：https://news.ycombinator.com/item?id=42607180
+积分：1
+评论数：0]]></description>
+      <guid>https://blog.cloudflare.com/sometimes-i-cache/</guid>
+      <pubDate>Mon, 06 Jan 2025 03:00:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>虚拟眼睛</title>
+      <link>https://surfingcomplexity.blog/2024/12/07/your-lying-virtual-eyes/</link>
+      <description><![CDATA[文章网址：https://surfingcomplexity.blog/2024/12/07/your-lying-virtual-eyes/
+评论网址：https://news.ycombinator.com/item?id=42607173
+积分：1
+评论数：0]]></description>
+      <guid>https://surfingcomplexity.blog/2024/12/07/your-lying-virtual-eyes/</guid>
+      <pubDate>Mon, 06 Jan 2025 02:58:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：您使用什么数据模型进行 RAG 原型设计？</title>
+      <link>https://news.ycombinator.com/item?id=42607157</link>
+      <description><![CDATA[您如何为 RAG 应用程序组织数据？我到处搜索，找到了大量有关技术堆栈如何工作的教程，但关于数据如何实际存储的教程却很少。我不想只创建一个可以给出答案的应用程序，我想要一些可以用来评估我在改进提示和检索时进度的东西。我认为需要存储以下东西：
+- 提示模板（即对我的提示进行版本控制）
+- LLM 提供商的最终输入和输出（以及相关元数据）
+- RAG 中使用的所有文档的块
+- 针对给定提示检索的块，以便我可以评估检索步骤的性能
+- 当可能针对给定“问题”向 LLM 发送多个请求时，对话（或链？）
+- 实验。这是为了评估的目的。它会将实验 ID 与一系列输入/输出关联起来，用于评估一组问题。我不是第一个遇到这个问题的人。我从一个包含少量表格的简单 SQLite 数据库开始，现在我要将 RAG 合并到应用程序中（可能很快还会合并到代理内容中），我真的想利用别人的学习成果，这样我就不会重新发现所有相同的错误。
 
-评论网址：https://news.ycombinator.com/item?id=42606542
+评论 URL：https://news.ycombinator.com/item?id=42607157
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42606542</guid>
-      <pubDate>Mon, 06 Jan 2025 01:06:50 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=42607157</guid>
+      <pubDate>Mon, 06 Jan 2025 02:56:27 GMT</pubDate>
     </item>
     <item>
-      <title>最后一个表达式作为返回值</title>
-      <link>https://forums.swift.org/t/pitch-last-expression-as-return-value/76958</link>
-      <description><![CDATA[文章网址：https://forums.swift.org/t/pitch-last-expression-as-return-value/76958
-评论网址：https://news.ycombinator.com/item?id=42606538
+      <title>苹果浪费了圣杯</title>
+      <link>https://xeiaso.net/blog/2025/squandered-holy-grail/</link>
+      <description><![CDATA[文章网址：https://xeiaso.net/blog/2025/squandered-holy-grail/
+评论网址：https://news.ycombinator.com/item?id=42607151
+积分：2
+评论数：0]]></description>
+      <guid>https://xeiaso.net/blog/2025/squandered-holy-grail/</guid>
+      <pubDate>Mon, 06 Jan 2025 02:55:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>理解 Doge 作为采购捕获</title>
+      <link>https://www.anildash.com//2025/01/04/DOGE-procurement-capture/</link>
+      <description><![CDATA[文章网址：https://www.anildash.com//2025/01/04/DOGE-procurement-capture/
+评论网址：https://news.ycombinator.com/item?id=42607135
+积分：2
+评论数：1]]></description>
+      <guid>https://www.anildash.com//2025/01/04/DOGE-procurement-capture/</guid>
+      <pubDate>Mon, 06 Jan 2025 02:52:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>掌握 Next.js 中的服务器端渲染</title>
+      <link>https://medium.com/digital-minds/mastering-server-side-rendering-in-next-js-an-advanced-guide-2b63d9f4f3cf</link>
+      <description><![CDATA[文章网址：https://medium.com/digital-minds/mastering-server-side-rendering-in-next-js-an-advanced-guide-2b63d9f4f3cf
+评论网址：https://news.ycombinator.com/item?id=42607101
 积分：1
 评论数：0]]></description>
-      <guid>https://forums.swift.org/t/pitch-last-expression-as-return-value/76958</guid>
-      <pubDate>Mon, 06 Jan 2025 01:06:25 GMT</pubDate>
+      <guid>https://medium.com/digital-minds/mastering-server-side-rendering-in-next-js-an-advanced-guide-2b63d9f4f3cf</guid>
+      <pubDate>Mon, 06 Jan 2025 02:45:14 GMT</pubDate>
     </item>
     <item>
-      <title>突破性的 mRNA 疫苗彻底改变了胰腺癌的治疗</title>
-      <link>https://www.thebrighterside.news/post/groundbreaking-mrna-vaccine-revolutionizes-pancreatic-cancer-treatment/</link>
-      <description><![CDATA[文章网址：https://www.thebrighterside.news/post/groundbreaking-mrna-vaccine-revolutionizes-pancreatic-cancer-treatment/
-评论网址：https://news.ycombinator.com/item?id=42606536
+      <title>Google 代理白皮书</title>
+      <link>https://www.kaggle.com/whitepaper-agents</link>
+      <description><![CDATA[文章网址：https://www.kaggle.com/whitepaper-agents
+评论网址：https://news.ycombinator.com/item?id=42607089
 积分：1
 评论数：0]]></description>
-      <guid>https://www.thebrighterside.news/post/groundbreaking-mrna-vaccine-revolutionizes-pancreatic-cancer-treatment/</guid>
-      <pubDate>Mon, 06 Jan 2025 01:05:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>随着 X 世代临近退休，许多人担心自己负担不起退休金</title>
-      <link>https://www.bloomberg.com/news/features/2024-12-13/can-i-afford-to-retire-gen-x-trails-baby-boomers-millennials-in-401-k-savings</link>
-      <description><![CDATA[文章网址：https://www.bloomberg.com/news/features/2024-12-13/can-i-afford-to-retire-gen-x-trails-baby-boomers-millennials-in-401-k-savings
-评论网址：https://news.ycombinator.com/item?id=42606525
-积分：1
-评论数： 1]]></description>
-      <guid>https://www.bloomberg.com/news/features/2024-12-13/can-i-afford-to-retire-gen-x-trails-baby-boomers-millennials-in-401-k-savings</guid>
-      <pubDate>Mon, 06 Jan 2025 01:04:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>我过着四分之一世纪的生活</title>
-      <link>https://tla.systems/blog/2025/01/04/i-live-my-life-a-quarter-century-at-a-time/</link>
-      <description><![CDATA[文章网址：https://tla.systems/blog/2025/01/04/i-live-my-life-a-quarter-century-at-a-time/
-评论网址：https://news.ycombinator.com/item?id=42606524
-积分：1
-评论数：0]]></description>
-      <guid>https://tla.systems/blog/2025/01/04/i-live-my-life-a-quarter-century-at-a-time/</guid>
-      <pubDate>Mon, 06 Jan 2025 01:04:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Busybox 常见问题解答</title>
-      <link>https://www.busybox.net/FAQ.html</link>
-      <description><![CDATA[文章网址：https://www.busybox.net/FAQ.html
-评论网址：https://news.ycombinator.com/item?id=42606495
-积分：1
-评论数：0]]></description>
-      <guid>https://www.busybox.net/FAQ.html</guid>
-      <pubDate>Mon, 06 Jan 2025 00:59:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>支持 6 GHz Wi-Fi 的全球法规</title>
-      <link>https://www.wi-fi.org/regulations-enabling-6-ghz-wi-fi</link>
-      <description><![CDATA[文章网址：https://www.wi-fi.org/regulations-enabling-6-ghz-wi-fi
-评论网址：https://news.ycombinator.com/item?id=42606484
-积分：6
-评论数：0]]></description>
-      <guid>https://www.wi-fi.org/regulations-enabling-6-ghz-wi-fi</guid>
-      <pubDate>Mon, 06 Jan 2025 00:57:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国为何陷入电梯危机</title>
-      <link>https://www.axios.com/2025/01/05/elevators-escalators-regulations-buildings-construction</link>
-      <description><![CDATA[文章网址：https://www.axios.com/2025/01/05/elevators-escalators-regulations-buildings-construction
-评论网址：https://news.ycombinator.com/item?id=42606482
-积分：3
-评论数：0]]></description>
-      <guid>https://www.axios.com/2025/01/05/elevators-escalators-regulations-buildings-construction</guid>
-      <pubDate>Mon, 06 Jan 2025 00:57:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>乳胶咖啡渍 [pdf]</title>
-      <link>https://ctan.math.illinois.edu/graphics/pgf/contrib/coffeestains/coffeestains-en.pdf</link>
-      <description><![CDATA[文章网址：https://ctan.math.illinois.edu/graphics/pgf/contrib/coffeestains/coffeestains-en.pdf
-评论网址：https://news.ycombinator.com/item?id=42606481
-积分：1
-评论数：0]]></description>
-      <guid>https://ctan.math.illinois.edu/graphics/pgf/contrib/coffeestains/coffeestains-en.pdf</guid>
-      <pubDate>Mon, 06 Jan 2025 00:57:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：LogLayer – JavaScript 统一日志记录（MIT 许可）</title>
-      <link>https://loglayer.dev/</link>
-      <description><![CDATA[作为一名长期从事 TypeScript/Node.js 开发的开发人员，我经常面临日志记录方面的挑战 — 为各种项目选择、使用和维护合适的日志记录器。虽然大多数日志记录器都提供“info”、“warn”和“error”等常用方法，但它们在处理结构化元数据或 Error 对象方面存在很大差异。这可能会导致临时解决方案，例如序列化错误或编写自定义管道，只是为了正确格式化日志。我构建了 LogLayer 来解决这些痛点，通过引入流畅、富有表现力的 API。借助“withMetadata”和“withError”等方法，LogLayer 将对象注入与日志消息本身分开，使您的日志记录代码更干净、更易于维护。日志通过 LogLayer Transport 处理，它充当您首选日志记录库的适配器。这种设计提供了几个关键优势：- 多传输支持：同时将日志发送到多个目的地（例如 DataDog 和 New Relic）。我个人曾使用此功能将日志直接发送到 DataDog，而无需依赖他们的 APM 包或 sidecar。- 轻松交换记录器：如果您曾经将 Pino 与 Next.js 一起使用过，那么您可能会遇到这样的问题：在没有 webpack 黑客的生产构建之后，它无法开箱即用。使用 LogLayer，您可以更换更适合的库而无需触及日志记录代码。我断断续续花了好几个月的时间，并利用我的寒假推出了 LogLayer 的第 5 版，还使用 ​​Vitepress 创建了文档。LogLayer 已在 Airtop (https://airtop.ai) 的生产中经过实战测试，多年来它一直是我们系统不可或缺的一部分（我们以 Switchboard 的形式运行了近四年，并于去年年底进行了转型）。（免责声明：我在 Airtop 工作，但 LogLayer 并未得到他们的赞助或附属。）
-
-评论 URL：https://news.ycombinator.com/item?id=42606454
-积分：3
-评论数：0]]></description>
-      <guid>https://loglayer.dev/</guid>
-      <pubDate>Mon, 06 Jan 2025 00:52:24 GMT</pubDate>
+      <guid>https://www.kaggle.com/whitepaper-agents</guid>
+      <pubDate>Mon, 06 Jan 2025 02:43:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
