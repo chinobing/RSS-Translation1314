@@ -4,16 +4,46 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 08 Jan 2025 18:23:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2025 21:16:16 GMT</lastBuildDate>
+    <item>
+      <title>乘法无穷小</title>
+      <link>https://github.com/Ericson2314/baccumulation/blob/main/math/multiplicative-infinitesimals.md</link>
+      <description><![CDATA[文章网址：https://github.com/Ericson2314/baccumulation/blob/main/math/multiplicative-infinitesimals.md
+评论网址：https://news.ycombinator.com/item?id=42637853
+积分：20
+评论数：1]]></description>
+      <guid>https://github.com/Ericson2314/baccumulation/blob/main/math/multiplicative-infinitesimals.md</guid>
+      <pubDate>Wed, 08 Jan 2025 19:58:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>一些编程语言的想法</title>
+      <link>https://jerf.org/iri/post/2025/programming_language_ideas/</link>
+      <description><![CDATA[文章网址：https://jerf.org/iri/post/2025/programming_language_ideas/
+评论网址：https://news.ycombinator.com/item?id=42637304
+积分：77
+评论数：45]]></description>
+      <guid>https://jerf.org/iri/post/2025/programming_language_ideas/</guid>
+      <pubDate>Wed, 08 Jan 2025 18:58:58 GMT</pubDate>
+    </item>
     <item>
       <title>NeuralSVG：文本到矢量生成的隐式表示</title>
       <link>https://sagipolaczek.github.io/NeuralSVG/</link>
       <description><![CDATA[文章网址：https://sagipolaczek.github.io/NeuralSVG/
 评论网址：https://news.ycombinator.com/item?id=42636873
-积分：4
-评论数：0]]></description>
+积分：176
+评论数：25]]></description>
       <guid>https://sagipolaczek.github.io/NeuralSVG/</guid>
       <pubDate>Wed, 08 Jan 2025 18:16:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>白宫推出针对消费设备的网络信任标志计划</title>
+      <link>https://www.nextgov.com/cybersecurity/2025/01/white-house-unveils-cyber-trust-mark-program-consumer-devices/401991/</link>
+      <description><![CDATA[文章网址：https://www.nextgov.com/cybersecurity/2025/01/white-house-unveils-cyber-trust-mark-program-consumer-devices/401991/
+评论网址：https://news.ycombinator.com/item?id=42636675
+积分：29
+评论数：22]]></description>
+      <guid>https://www.nextgov.com/cybersecurity/2025/01/white-house-unveils-cyber-trust-mark-program-consumer-devices/401991/</guid>
+      <pubDate>Wed, 08 Jan 2025 17:53:51 GMT</pubDate>
     </item>
     <item>
       <title>Two Dots（YC S22）正在招聘机器学习和后端工程师</title>
@@ -26,12 +56,12 @@
       <pubDate>Wed, 08 Jan 2025 17:00:22 GMT</pubDate>
     </item>
     <item>
-      <title>通过一次一个驱动程序将 SerenityOS 引入到真实硬件中</title>
+      <title>将 SerenityOS 引入真实硬件，每次只用一个驱动程序</title>
       <link>https://sdomi.pl/weblog/23-serenityos-realhw/</link>
       <description><![CDATA[文章网址：https://sdomi.pl/weblog/23-serenityos-realhw/
 评论网址：https://news.ycombinator.com/item?id=42636086
-积分：29
-评论数：3]]></description>
+积分：117
+评论数：36]]></description>
       <guid>https://sdomi.pl/weblog/23-serenityos-realhw/</guid>
       <pubDate>Wed, 08 Jan 2025 16:54:39 GMT</pubDate>
     </item>
@@ -43,8 +73,8 @@
 说明：https://cardstock.denta.co/kb/instructions概述：我构建 Cardstock 是因为我手头有一些可以执行此操作的脚本，并且想探索新的 Rails 8 魔力。 Kamal 2 (kamal-deploy.org/) 改变了游戏规则，SQLite 在生产环境中表现良好，数据库支持的 solid 系列 gem 运行良好。计算：我在位于弗吉尼亚州的 https://hetzner.com 上租用了一个盒子，每月 15 美元。这个盒子有 8 GB 的 RAM 和 2 个 vCPU。与 https://render.com 上的计算价格相比，这真是一笔划算的交易。Kamal 2：这东西太棒了。Kamal 为我提供了我想要的一切（轻松的控制台访问、轻松的 shell 访问、一种管理机密的方法、一种查看我的日志的方法以及 letsencrypt 对 DNS 的支持），所有这些都无需支付 PaaS 税。最好的部分是配件功能：https://kamal-deploy.org/docs/commands/accessory/。我使用两个配件运行我的主要应用程序：Meilisearch(https://meilisearch.com) 和 OpenObserve (https://openobserve.ai)。我没有向 Algolia 支付费用来托管搜索基础设施，也没有向 sentry 支付费用来托管监控基础设施，而是悄无声息地托管我自己的 OSS。升级：为了升级交易卡（这是此版本的强制性部分，扫描的 DPI 永远不够高）。我正在使用这个 (https://replicate.com/nightmareai/real-esrgan) 模型。为了升级每张卡，我使用了不到一百美元的计算费用。这个模型是一时兴起选择的，但效果很好，所以我没有比较其他模型。SQLite：我将 SQLite 与 Litestream (litestream.io) 结合使用作为我的数据库。虽然我考虑过 Postgres，但由于不确定如何在自托管基础设施上处理备份，我犹豫了。这是我第一次在生产中使用 SQLite，它功能齐全，但有一些小麻烦。以下是我遇到的情况：1. 没有默认的 UUID 主键类型我必须将主键设置为字符串并从应用程序记录中手动分配 ID。这是一个烦人的解决方法，但可以管理。 2. 没有原生数组列 因为 SQLite 不支持数组列，所以我必须使用其原生 JSON 列类型，这让人感觉很不舒服。如果我正在使用类似嵌入之类的东西，这会特别烦人，因为您无法强制所有记录具有相同数量的维度。 3. 神秘错误 有一次，迁移悄无声息地失败了，在 schema.rb 中留下了一个神秘错误。通过回滚迁移并重新执行解决了这个问题，但这再次令人烦恼。 4. Litestream 默认值 Litestream 默认在 24 小时后删除快照，这太短了。当我尝试恢复某些数据时，我发现它已被删除。调整这些默认值解决了问题。Solid Queue/Cache/Cable：solid 系列的 gem 都由数据库支持，使用起来很愉快。目标是避免需要使用 redis，这样您就不用担心了。最终，延迟会稍微增加一些，但这是一个完全合理的权衡。结论：我们正在进入一个后平台即服务的世界。您无需购买定制的 render.com 或 heroku，只需购买商品计算并使用 Kamal 进行管理即可。基本上，一切都在那里，很高兴看到这个领域如何成熟。
 
 评论 URL：https://news.ycombinator.com/item?id=42635049
-积分：3
-评论数：0]]></description>
+积分：25
+评论数：25]]></description>
       <guid>https://cardstock.denta.co</guid>
       <pubDate>Wed, 08 Jan 2025 15:11:41 GMT</pubDate>
     </item>
@@ -54,8 +84,8 @@
       <description><![CDATA[你好，HN！分享我最近的一个业余项目，太空地图集，我为探索太阳系而建。作为一个长期的太空迷，我最近意识到我对我们周围天体的规模、速度和相对方向没有很好的直觉。所以在休息期间，我建立了一个空间维基百科，可以点击并了解行星、卫星、小行星和其他围绕太阳运行的天体。所有物理都是使用简单的牛顿力学在浏览器中模拟的。从现在开始还有很多事情要做，包括对非开普勒轨道上的物体进行建模以及重演不同的航天器任务。希望您玩得开心，并好奇地想知道我下一步应该改进什么！
 
 评论网址：https://news.ycombinator.com/item?id=42634787
-积分：132
-评论数：35]]></description>
+积分：245
+评论数：60]]></description>
       <guid>https://atlasof.space/</guid>
       <pubDate>Wed, 08 Jan 2025 14:47:34 GMT</pubDate>
     </item>
@@ -64,8 +94,8 @@
       <link>https://www.mattkeeter.com/projects/fidget/</link>
       <description><![CDATA[文章网址：https://www.mattkeeter.com/projects/fidget/
 评论网址：https://news.ycombinator.com/item?id=42634624
-积分：217
-评论数：23]]></description>
+积分：300
+评论数：29]]></description>
       <guid>https://www.mattkeeter.com/projects/fidget/</guid>
       <pubDate>Wed, 08 Jan 2025 14:30:58 GMT</pubDate>
     </item>
@@ -74,40 +104,10 @@
       <link>https://robotics.umich.edu/academics/courses/course-offerings/rob101-fall-2020/</link>
       <description><![CDATA[文章网址：https://robotics.umich.edu/academics/courses/course-offerings/rob101-fall-2020/
 评论网址：https://news.ycombinator.com/item?id=42633805
-积分：108
-评论数：26]]></description>
+积分：149
+评论数：35]]></description>
       <guid>https://robotics.umich.edu/academics/courses/course-offerings/rob101-fall-2020/</guid>
       <pubDate>Wed, 08 Jan 2025 13:11:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>在云端破解 512 位 DKIM 密钥只需不到 8 美元</title>
-      <link>https://dmarcchecker.app/articles/crack-512-bit-dkim-rsa-key</link>
-      <description><![CDATA[文章网址：https://dmarcchecker.app/articles/crack-512-bit-dkim-rsa-key
-评论网址：https://news.ycombinator.com/item?id=42633501
-积分：400
-评论数：188]]></description>
-      <guid>https://dmarcchecker.app/articles/crack-512-bit-dkim-rsa-key</guid>
-      <pubDate>Wed, 08 Jan 2025 12:32:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：伯沙撒钟，夜光漆夜钟</title>
-      <link>https://blog.karliner.net/projects/belshazzars-clock/</link>
-      <description><![CDATA[文章网址：https://blog.karliner.net/projects/belshazzars-clock/
-评论网址：https://news.ycombinator.com/item?id=42633035
-积分：32
-评论数：8]]></description>
-      <guid>https://blog.karliner.net/projects/belshazzars-clock/</guid>
-      <pubDate>Wed, 08 Jan 2025 11:14:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>衰老的程序员</title>
-      <link>https://www.youtube.com/watch?v=mVWQQeSOD0M</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=mVWQQeSOD0M
-评论网址：https://news.ycombinator.com/item?id=42632772
-积分：149
-评论数：56]]></description>
-      <guid>https://www.youtube.com/watch?v=mVWQQeSOD0M</guid>
-      <pubDate>Wed, 08 Jan 2025 10:22:21 GMT</pubDate>
     </item>
     </channel>
 </rss>
