@@ -4,7 +4,37 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 09 Jan 2025 18:23:35 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2025 21:16:04 GMT</lastBuildDate>
+    <item>
+      <title>世界最大抽水蓄能电站在华全面投入运营</title>
+      <link>https://www.ess-news.com/2025/01/09/worlds-largest-pumped-storage-power-plant-fully-operational-in-china/</link>
+      <description><![CDATA[文章网址：https://www.ess-news.com/2025/01/09/worlds-largest-pumped-storage-power-plant-fully-operational-in-china/
+评论网址：https://news.ycombinator.com/item?id=42649517
+积分：26
+评论数：9]]></description>
+      <guid>https://www.ess-news.com/2025/01/09/worlds-largest-pumped-storage-power-plant-fully-operational-in-china/</guid>
+      <pubDate>Thu, 09 Jan 2025 20:24:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>英国如何获得首个互联网连接（2018 年）</title>
+      <link>https://theconversation.com/how-britain-got-its-first-internet-connection-by-the-late-pioneer-who-created-the-first-password-on-the-internet-45404</link>
+      <description><![CDATA[文章网址：https://theconversation.com/how-britain-got-its-first-internet-connection-by-the-late-pioneer-who-created-the-first-password-on-the-internet-45404
+评论网址：https://news.ycombinator.com/item?id=42649340
+积分：17
+评论数：12]]></description>
+      <guid>https://theconversation.com/how-britain-got-its-first-internet-connection-by-the-late-pioneer-who-created-the-first-password-on-the-internet-45404</guid>
+      <pubDate>Thu, 09 Jan 2025 20:02:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>永恒运动：弗朗西斯·毕卡比亚的 391 条评论（1917-1924）</title>
+      <link>https://publicdomainreview.org/collection/francis-picabia-391-review/</link>
+      <description><![CDATA[文章网址：https://publicdomainreview.org/collection/francis-picabia-391-review/
+评论网址：https://news.ycombinator.com/item?id=42649027
+积分：8
+评论数：0]]></description>
+      <guid>https://publicdomainreview.org/collection/francis-picabia-391-review/</guid>
+      <pubDate>Thu, 09 Jan 2025 19:28:56 GMT</pubDate>
+    </item>
     <item>
       <title>MixRank (YC S11) 正在全球招聘软件工程师</title>
       <link>https://news.ycombinator.com/item?id=42647695</link>
@@ -19,18 +49,29 @@
       <link>https://davidallengreen.com/2024/12/twelfth-night-till-candlemas-the-story-of-a-forty-year-book-quest-and-of-its-remarkable-ending/</link>
       <description><![CDATA[文章网址：https://davidallengreen.com/2024/12/twelfth-night-till-candlemas-the-story-of-a-forty-year-book-quest-and-of-its-remarkable-ending/
 评论网址：https://news.ycombinator.com/item?id=42647633
-积分：20
-评论数：3]]></description>
+积分：79
+评论数：20]]></description>
       <guid>https://davidallengreen.com/2024/12/twelfth-night-till-candlemas-the-story-of-a-forty-year-book-quest-and-of-its-remarkable-ending/</guid>
       <pubDate>Thu, 09 Jan 2025 17:07:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：TabPFN v2 – 小型表格数据的 SOTA 基础模型</title>
+      <link>https://www.nature.com/articles/s41586-024-08328-6/link</link>
+      <description><![CDATA[我很高兴地宣布 TabPFN v2 的发布，这是一个表格基础模型，与需要调整 4 小时的强大基线相比，它仅用 2.8 秒就可在小型数据集上提供一流的分类预测，4.8 秒即可提供回归预测。该模型已在《自然》杂志上发表，在包含多达 10,000 个样本和 500 个特征的数据集上的表现优于传统方法。该模型采用开放许可：Apache 2 许可的衍生产品，经过了一次修改，增加了受 Llama 3 许可启发的增强型归因要求：https://github.com/PriorLabs/tabpfn。您也可以通过 API 尝试：https://github.com/PriorLabs/tabpfn-clientTabPFN v2 在 1.3 亿个合成表格预测数据集上进行训练，以执行上下文学习并输出测试数据点的预测分布。每个数据集都充当一个元数据点，使用 SGD 训练 TabPFN 权重。作为基础模型，TabPFN 允许进行微调、密度估计和数据生成。与 TabPFN v1 相比，v2 现在原生支持分类特征和缺失值。TabPFN v2 在有或没有这些的数据集上的表现同样出色。它还可以自然地处理异常值和无信息特征，这些问题通常会使标准神经网络无法解决。TabPFN v2 在一半数据下的表现与在全部数据下表现最佳的基线 (CatBoost) 一样好。我们还将 TabPFN 与 SOTA AutoML 系统 AutoGluon 1.0 进行了比较。标准 TabPFN 在分类上的表现已经优于 AutoGluon，在回归上的表现也相当，但在 TabPFN v2 (PHE) 中集成多个 TabPFN 甚至更好。有一些限制：TabPFN v2 训练速度非常快，不需要超参数调整，但推理速度很慢。该模型也仅适用于最多 10k 个数据点和 500 个特征的数据集。虽然它可能在较大的数据集上表现良好，但这并不是我们的重点。我们正在积极努力消除这些限制，并打算发布新版本的 TabPFN，可以处理更大的数据集，具有更快的推理速度并在时间序列和推荐系统等其他预测设置中执行。我们希望您试用 TabPFN v2 并给我们您的反馈！
+
+评论网址：https://news.ycombinator.com/item?id=42647343
+积分：21
+评论数：2]]></description>
+      <guid>https://www.nature.com/articles/s41586-024-08328-6/link</guid>
+      <pubDate>Thu, 09 Jan 2025 16:38:26 GMT</pubDate>
     </item>
     <item>
       <title>WorstFit：揭开 Windows ANSI 中隐藏的变换器的面纱</title>
       <link>https://blog.orange.tw/posts/2025-01-worstfit-unveiling-hidden-transformers-in-windows-ansi/</link>
       <description><![CDATA[文章网址：https://blog.orange.tw/posts/2025-01-worstfit-unveiling-hidden-transformers-in-windows-ansi/
 评论网址：https://news.ycombinator.com/item?id=42647101
-积分：65
-评论数：11]]></description>
+积分：144
+评论数：37]]></description>
       <guid>https://blog.orange.tw/posts/2025-01-worstfit-unveiling-hidden-transformers-in-windows-ansi/</guid>
       <pubDate>Thu, 09 Jan 2025 16:19:34 GMT</pubDate>
     </item>
@@ -39,30 +80,19 @@
       <link>https://blog.jgc.org/2024/12/the-complete-text-of-all-watched-over.html</link>
       <description><![CDATA[文章网址：https://blog.jgc.org/2024/12/the-complete-text-of-all-watched-over.html
 评论网址：https://news.ycombinator.com/item?id=42646932
-积分：13
-评论数：6]]></description>
+积分：50
+评论数：24]]></description>
       <guid>https://blog.jgc.org/2024/12/the-complete-text-of-all-watched-over.html</guid>
       <pubDate>Thu, 09 Jan 2025 16:04:55 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：凯特的应用程序</title>
-      <link>https://katesapp.org/hn</link>
-      <description><![CDATA[护理是一种自然的、人类的同情和关怀行为，我们大多数人在某个时候都会依赖某人来帮助我们进行医疗保健（&gt; 70%）或负责帮助他人（&gt; 10%）。Kate 的应用程序是一种工具，用于协调医生的联系信息、处方、药房、预约、笔记和其他信息，并与家人和护理人员进行安全、私密的协作。这不是诊所门户，也不与任何保险或医疗服务提供商相关联。该应用程序已完成 95%，完全可用（对于任何感兴趣的测试版用户）。我打算清理其余部分，并在几周内正式发布。与此同时，我很乐意回答任何问题或听取有用的批评。顺便说一句，Show HN 是最好的。
-
-评论网址：https://news.ycombinator.com/item?id=42646922
-积分：21
-评论数：14]]></description>
-      <guid>https://katesapp.org/hn</guid>
-      <pubDate>Thu, 09 Jan 2025 16:03:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：PDF 中的可玩俄罗斯方块游戏</title>
+      <title>在 PDF 中显示 HN：俄罗斯方块</title>
       <link>https://th0mas.nl/downloads/pdftris.pdf</link>
       <description><![CDATA[我意识到现代桌面浏览器（PDFium 和 PDF.js）的 PDF 引擎支持 JavaScript，并且具有足够的 I/O 原语来制作像俄罗斯方块这样基本的游戏。找到在两个引擎中都适用的功能组合有点棘手，但最终发现，显示/隐藏注释“字段”可以很好地制作单色像素，并且可以通过在文本输入框中键入来实现键盘输入。总而言之，它相当不稳定，但却很好地提醒了我们 PDF 脚本的通用性。链接的 PDF 全部为 ASCII，因此您可以直接在文本编辑器中打开它，或者查看此处的源代码：https://github.com/ThomasRinsma/pdftris/blob/main/gengrid.py
 
 评论 URL：https://news.ycombinator.com/item?id=42645218
-积分：272
-评论数：46]]></description>
+积分：512
+评论数：101]]></description>
       <guid>https://th0mas.nl/downloads/pdftris.pdf</guid>
       <pubDate>Thu, 09 Jan 2025 13:31:33 GMT</pubDate>
     </item>
@@ -71,40 +101,10 @@
       <link>https://passo.uno/seven-action-model/</link>
       <description><![CDATA[文章网址：https://passo.uno/seven-action-model/
 评论网址：https://news.ycombinator.com/item?id=42645075
-积分：23
-评论数：2]]></description>
+积分：52
+评论数：6]]></description>
       <guid>https://passo.uno/seven-action-model/</guid>
       <pubDate>Thu, 09 Jan 2025 13:18:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>理性与否？这个基本数学问题花了几十年才得到解答</title>
-      <link>https://www.quantamagazine.org/rational-or-not-this-basic-math-question-took-decades-to-answer-20250108/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/rational-or-not-this-basic-math-question-took-decades-to-answer-20250108/
-评论网址：https://news.ycombinator.com/item?id=42644896
-积分：48
-评论数：23]]></description>
-      <guid>https://www.quantamagazine.org/rational-or-not-this-basic-math-question-took-decades-to-answer-20250108/</guid>
-      <pubDate>Thu, 09 Jan 2025 13:01:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>科学家揭示大脑在睡眠期间如何自我清洗</title>
-      <link>https://www.science.org/content/article/scientists-uncover-how-brain-washes-itself-during-sleep</link>
-      <description><![CDATA[文章网址：https://www.science.org/content/article/scientists-uncover-how-brain-washes-itself-during-sleep
-评论网址：https://news.ycombinator.com/item?id=42644204
-积分：161
-评论数：113]]></description>
-      <guid>https://www.science.org/content/article/scientists-uncover-how-brain-washes-itself-during-sleep</guid>
-      <pubDate>Thu, 09 Jan 2025 11:29:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Factorio 蓝图可视化工具</title>
-      <link>https://github.com/piebro/factorio-blueprint-visualizer</link>
-      <description><![CDATA[文章网址：https://github.com/piebro/factorio-blueprint-visualizer
-评论网址：https://news.ycombinator.com/item?id=42644168
-积分：229
-评论数：50]]></description>
-      <guid>https://github.com/piebro/factorio-blueprint-visualizer</guid>
-      <pubDate>Thu, 09 Jan 2025 11:23:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
