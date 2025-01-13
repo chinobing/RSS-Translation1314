@@ -4,16 +4,67 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 13 Jan 2025 01:20:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 03:26:33 GMT</lastBuildDate>
     <item>
-      <title>关于哈瓦那综合症的共识正在瓦解</title>
+      <title>十五年的动荡：谷歌消息应用的历史（2021 年）</title>
+      <link>https://arstechnica.com/gadgets/2021/08/a-decade-and-a-half-of-instability-the-history-of-google-messaging-apps/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/gadgets/2021/08/a-decade-and-a-half-of-instability-the-history-of-google-messaging-apps/
+评论网址：https://news.ycombinator.com/item?id=42679045
+积分：16
+评论数：7]]></description>
+      <guid>https://arstechnica.com/gadgets/2021/08/a-decade-and-a-half-of-instability-the-history-of-google-messaging-apps/</guid>
+      <pubDate>Mon, 13 Jan 2025 01:30:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 PDF 中显示 HN: Doom (1993)</title>
+      <link>https://doompdf.pages.dev/doom.pdf</link>
+      <description><![CDATA[我制作了一个在 PDF 文件中运行的 Doom 源端口。我受到最近 HN 帖子关于 PDF 中的俄罗斯方块 (https://news.ycombinator.com/item?id=42645218) 的启发，我想知道我是否可以使用类似的方法运行 Doom。事实证明，旧版本的 Emscripten 可以将 C 编译为 asm.js 代码，这些代码可以在 PDF 引擎有限的 JS 运行时内顺利运行。我使用了原始 Doom 源的 doomgeneric (https://github.com/ozkl/doomgeneric) 分支，因为这使得编写 IO 变得相当容易。我所要做的就是实现一个帧缓冲区和键盘输入。与以前的交互式 PDF 演示不同，DoomPDF 的输出是通过为屏幕上的每一行像素创建一个文本字段，然后将其内容设置为各种 ASCII 字符来实现的。这给了我一个 6 色单色显示屏，可以相当快地更新（每帧 80 毫秒）。源代码可在以下位置获得：https://github.com/ading2210/doompdf请注意，此 PDF 只能在使用 PDFium 引擎的基于 Chromium 的浏览器中运行。
+
+评论 URL：https://news.ycombinator.com/item?id=42678754
+积分：67
+评论数：10]]></description>
+      <guid>https://doompdf.pages.dev/doom.pdf</guid>
+      <pubDate>Mon, 13 Jan 2025 00:50:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>选择类游戏中的标准模式 (2015)</title>
+      <link>https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/</link>
+      <description><![CDATA[文章网址：https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/
+评论网址：https://news.ycombinator.com/item?id=42678647
+积分：59
+评论数：7]]></description>
+      <guid>https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/</guid>
+      <pubDate>Mon, 13 Jan 2025 00:35:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>免费电影：逐帧手绘再现《蜜蜂总动员》</title>
+      <link>https://thefreemovie.buzz/</link>
+      <description><![CDATA[文章网址：https://thefreemovie.buzz/
+评论网址：https://news.ycombinator.com/item?id=42678584
+积分：11
+评论数：0]]></description>
+      <guid>https://thefreemovie.buzz/</guid>
+      <pubDate>Mon, 13 Jan 2025 00:27:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于哈瓦那综合症的共识正在破裂</title>
       <link>https://www.theatlantic.com/international/archive/2025/01/havana-syndrome-russia-intelligence/681282/</link>
       <description><![CDATA[文章网址：https://www.theatlantic.com/international/archive/2025/01/havana-syndrome-russia-intelligence/681282/
 评论网址：https://news.ycombinator.com/item?id=42677913
-积分：51
-评论数：24]]></description>
+积分：79
+评论数：92]]></description>
       <guid>https://www.theatlantic.com/international/archive/2025/01/havana-syndrome-russia-intelligence/681282/</guid>
       <pubDate>Sun, 12 Jan 2025 23:04:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>根访问权限</title>
+      <link>https://medhir.com/blog/right-to-root-access</link>
+      <description><![CDATA[文章网址：https://medhir.com/blog/right-to-root-access
+评论网址：https://news.ycombinator.com/item?id=42677835
+积分：45
+评论数：70]]></description>
+      <guid>https://medhir.com/blog/right-to-root-access</guid>
+      <pubDate>Sun, 12 Jan 2025 22:53:16 GMT</pubDate>
     </item>
     <item>
       <title>FurtherAI (YC W24) 正在招聘研究、工程和设计领域的人才</title>
@@ -26,12 +77,12 @@
       <pubDate>Sun, 12 Jan 2025 22:34:49 GMT</pubDate>
     </item>
     <item>
-      <title>Qubes OS：模板</title>
+      <title>Qubes OS: 模板</title>
       <link>https://www.qubes-os.org/doc/templates/</link>
       <description><![CDATA[文章网址：https://www.qubes-os.org/doc/templates/
 评论网址：https://news.ycombinator.com/item?id=42677647
-积分：5
-评论数：1]]></description>
+积分：19
+评论数：2]]></description>
       <guid>https://www.qubes-os.org/doc/templates/</guid>
       <pubDate>Sun, 12 Jan 2025 22:32:44 GMT</pubDate>
     </item>
@@ -40,8 +91,8 @@
       <link>https://www.whonix.org/wiki/Homepage</link>
       <description><![CDATA[文章网址：https://www.whonix.org/wiki/Homepage
 评论网址：https://news.ycombinator.com/item?id=42677631
-积分：15
-评论数：5]]></description>
+积分：28
+评论数：8]]></description>
       <guid>https://www.whonix.org/wiki/Homepage</guid>
       <pubDate>Sun, 12 Jan 2025 22:30:58 GMT</pubDate>
     </item>
@@ -50,60 +101,10 @@
       <link>https://www.qubes-os.org/</link>
       <description><![CDATA[文章网址：https://www.qubes-os.org/
 评论网址：https://news.ycombinator.com/item?id=42677608
-积分：84
-评论数：32]]></description>
+积分：104
+评论数：49]]></description>
       <guid>https://www.qubes-os.org/</guid>
       <pubDate>Sun, 12 Jan 2025 22:28:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软鲍勃：微软 20 世纪 90 年代最大的失败</title>
-      <link>https://dfarq.homeip.net/microsoft-bob-microsofts-biggest-flop-of-the-199</link>
-      <description><![CDATA[文章网址：https://dfarq.homeip.net/microsoft-bob-microsofts-biggest-flop-of-the-199
-评论网址：https://news.ycombinator.com/item?id=42676928
-积分：41
-评论数：60]]></description>
-      <guid>https://dfarq.homeip.net/microsoft-bob-microsofts-biggest-flop-of-the-199</guid>
-      <pubDate>Sun, 12 Jan 2025 21:04:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Canva 中断：又一个关于饱和和弹性的故事</title>
-      <link>https://surfingcomplexity.blog/2024/12/21/the-canva-outage-another-tale-of-saturation-and-resilience/</link>
-      <description><![CDATA[文章网址：https://surfingcomplexity.blog/2024/12/21/the-canva-outage-another-tale-of-saturation-and-resilience/
-评论网址：https://news.ycombinator.com/item?id=42676529
-积分：42
-评论数：5]]></description>
-      <guid>https://surfingcomplexity.blog/2024/12/21/the-canva-outage-another-tale-of-saturation-and-resilience/</guid>
-      <pubDate>Sun, 12 Jan 2025 20:18:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Uv 的杀手级功能让临时环境变得简单</title>
-      <link>https://valatka.dev/2025/01/12/on-killer-uv-feature.html</link>
-      <description><![CDATA[文章网址：https://valatka.dev/2025/01/12/on-killer-uv-feature.html
-评论网址：https://news.ycombinator.com/item?id=42676432
-积分：253
-评论数：182]]></description>
-      <guid>https://valatka.dev/2025/01/12/on-killer-uv-feature.html</guid>
-      <pubDate>Sun, 12 Jan 2025 20:06:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025 年最佳钢笔</title>
-      <link>https://www.jetpens.com/blog/The-46-Best-Pens-for-2025-Gel-Ballpoint-Rollerball-and-Fountain-Pens/pt/974</link>
-      <description><![CDATA[文章网址：https://www.jetpens.com/blog/The-46-Best-Pens-for-2025-Gel-Ballpoint-Rollerball-and-Fountain-Pens/pt/974
-评论网址：https://news.ycombinator.com/item?id=42676274
-积分：125
-评论数：58]]></description>
-      <guid>https://www.jetpens.com/blog/The-46-Best-Pens-for-2025-Gel-Ballpoint-Rollerball-and-Fountain-Pens/pt/974</guid>
-      <pubDate>Sun, 12 Jan 2025 19:46:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>James Shore：世界上最好的产品工程组织</title>
-      <link>https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world</link>
-      <description><![CDATA[文章网址：https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world
-评论网址：https://news.ycombinator.com/item?id=42676123
-积分：79
-评论数：30]]></description>
-      <guid>https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world</guid>
-      <pubDate>Sun, 12 Jan 2025 19:27:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
