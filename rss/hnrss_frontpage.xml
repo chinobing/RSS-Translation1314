@@ -4,54 +4,96 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 15 Jan 2025 01:14:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2025 03:18:29 GMT</lastBuildDate>
     <item>
-      <title>使用纯 HTML 重写我的博客</title>
+      <title>据当地媒体报道，韩国被弹劾总统尹锡烈被捕</title>
+      <link>https://www.cnbc.com/2025/01/15/south-korean-president-yoon-suk-yeol-detained-local-media-reports-.html</link>
+      <description><![CDATA[文章网址：https://www.cnbc.com/2025/01/15/south-korean-president-yoon-suk-yeol-detained-local-media-reports-.html
+评论网址：https://news.ycombinator.com/item?id=42706455
+积分：24
+评论数：6]]></description>
+      <guid>https://www.cnbc.com/2025/01/15/south-korean-president-yoon-suk-yeol-detained-local-media-reports-.html</guid>
+      <pubDate>Wed, 15 Jan 2025 01:58:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>登山者使用氙气攀登珠穆朗玛峰</title>
+      <link>https://gripped.com/profiles/climbers-using-xenon-gas-which-is-banned-in-sports-to-climb-everest/</link>
+      <description><![CDATA[文章网址：https://gripped.com/profiles/climbers-using-xenon-gas-which-is-banned-in-sports-to-climb-everest/
+评论网址：https://news.ycombinator.com/item?id=42705180
+积分：60
+评论数：82]]></description>
+      <guid>https://gripped.com/profiles/climbers-using-xenon-gas-which-is-banned-in-sports-to-climb-everest/</guid>
+      <pubDate>Tue, 14 Jan 2025 23:08:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>用纯 HTML 和 CSS 重写我的网站</title>
       <link>https://www.vijayp.dev/blog/rewrite-plain-html/</link>
       <description><![CDATA[文章网址：https://www.vijayp.dev/blog/rewrite-plain-html/
 评论网址：https://news.ycombinator.com/item?id=42705077
-积分：51
-评论数：43]]></description>
+积分：83
+评论数：67]]></description>
       <guid>https://www.vijayp.dev/blog/rewrite-plain-html/</guid>
       <pubDate>Tue, 14 Jan 2025 22:57:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>具有计划任务的 GPT-4o（Jawbone）现已推出测试版</title>
+      <link>https://chatgpt.com/?model=gpt-4o-jawbone</link>
+      <description><![CDATA[文章网址：https://chatgpt.com/?model=gpt-4o-jawbone
+评论网址：https://news.ycombinator.com/item?id=42704795
+积分：73
+评论数：90]]></description>
+      <guid>https://chatgpt.com/?model=gpt-4o-jawbone</guid>
+      <pubDate>Tue, 14 Jan 2025 22:25:54 GMT</pubDate>
     </item>
     <item>
       <title>如果你看到这个限速标志，你很可能就会死</title>
       <link>https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/</link>
       <description><![CDATA[文章网址：https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/
 评论网址：https://news.ycombinator.com/item?id=42704491
-积分：117
-评论数：57]]></description>
+积分：171
+评论数：103]]></description>
       <guid>https://www.theautopian.com/if-you-ever-see-this-speed-sign-youre-probably-going-to-die/</guid>
       <pubDate>Tue, 14 Jan 2025 21:59:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Simplex：使用代码和自然语言自动化浏览器工作流程</title>
+      <link>https://www.simplex.sh/playground</link>
+      <description><![CDATA[Simplex 是一个 SDK，它提供了一些低级函数，您可以使用它们通过代码和自然语言创建可靠的 Web 自动化。这里有一个简短的视频向您展示它是如何工作的：https://www.loom.com/share/8d27d0f9e0f34c77a81b0ac770151c12几周前，我们需要一种方法来自动从互联网上为我们的一个工作合同找到 3D 资产。我们不需要人工智能来自主选择所有步骤——我们大致知道查找项目的流程应该是什么样的，只需要一些智能来处理不同的网页格式。Playwright 无法轻松地推广到我们想要搜索的不同网站，而 Claude 计算机使用起来很难——它很慢、很贵、很难点击正确的网页元素，而且如果它在我们工作流程的第 20 步失败了，就没有办法纠正它的操作。因此，我们使用位于 Playwright 之上的视觉语言模型构建了一个基于视觉的解决方案。在我们的 SDK 中，构建一个可以通用搜索网站的函数非常简单： from simplex import Simplex
+simplex = Simplex(api_key=&quot;api_key&quot;)
+
+def search(website, search_query):
+simplex.goto(website)
+simplex.click(&quot;the search bar&quot;)
+simplex.type(search_query)
+simplex.press_enter()
+
+search(&quot;mit.edu&quot;, &quot;alyssa p hacker&quot;)
+
+您可以试用我们构建的函数，并在 ​​https://simplex.sh/playground 上查看更多示例。我们很乐意收到反馈！
+
+评论 URL：https://news.ycombinator.com/item?id=42704160
+积分：28
+评论数：4]]></description>
+      <guid>https://www.simplex.sh/playground</guid>
+      <pubDate>Tue, 14 Jan 2025 21:30:14 GMT</pubDate>
     </item>
     <item>
       <title>不要随意使用余弦相似度</title>
       <link>https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/</link>
       <description><![CDATA[文章网址：https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/
 评论网址：https://news.ycombinator.com/item?id=42704078
-积分：73
-评论数：12]]></description>
+积分：127
+评论数：21]]></description>
       <guid>https://p.migdal.pl/blog/2025/01/dont-use-cosine-similarity/</guid>
       <pubDate>Tue, 14 Jan 2025 21:23:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>网上投票地点证明</title>
-      <link>https://ip-vote.com/geolocation_via_latency.html</link>
-      <description><![CDATA[文章网址：https://ip-vote.com/geolocation_via_latency.html
-评论网址：https://news.ycombinator.com/item?id=42703422
-积分：82
-评论数：60]]></description>
-      <guid>https://ip-vote.com/geolocation_via_latency.html</guid>
-      <pubDate>Tue, 14 Jan 2025 20:31:19 GMT</pubDate>
     </item>
     <item>
       <title>如何测试 rqlite</title>
       <link>https://philipotoole.com/how-is-rqlite-tested/</link>
       <description><![CDATA[文章网址：https://philipotoole.com/how-is-rqlite-tested/
 评论网址：https://news.ycombinator.com/item?id=42703282
-积分：106
-评论数：18]]></description>
+积分：131
+评论数：25]]></description>
       <guid>https://philipotoole.com/how-is-rqlite-tested/</guid>
       <pubDate>Tue, 14 Jan 2025 20:21:47 GMT</pubDate>
     </item>
@@ -60,8 +102,8 @@
       <link>https://docs.google.com/spreadsheets/d/1TPeJzW5pa-BiJZjuEa1yGSFs7ZJetbnxf2gjMvv4tkc/htmlview#gid=1160377357</link>
       <description><![CDATA[文章网址：https://docs.google.com/spreadsheets/d/1TPeJzW5pa-BiJZjuEa1yGSFs7ZJetbnxf2gjMvv4tkc/htmlview#gid=1160377357
 评论网址：https://news.ycombinator.com/item?id=42700997
-要点： 115
-# 评论数：14]]></description>
+要点： 167
+# 评论数：23]]></description>
       <guid>https://docs.google.com/spreadsheets/d/1TPeJzW5pa-BiJZjuEa1yGSFs7ZJetbnxf2gjMvv4tkc/htmlview#gid=1160377357</guid>
       <pubDate>Tue, 14 Jan 2025 17:54:51 GMT</pubDate>
     </item>
@@ -73,40 +115,10 @@ print(f.read())# 或import pandas as pd
 pd.read_csv(&quot;./data/cars.csv&quot;)```在后台，您会向 https://raw.githubusercontent.com///main/data/car... 发出请求 [4]。文档：https://docs.marimo.io/guides/publishing/playground/#open-no...[1] https://github.com/marimo-team/marimo[2] https://news.ycombinator.com/item?id=39552882[3] https://blog.jetbrains.com/datalore/2020/12/17/we-downloaded...[4] 我们在技术上通过游乐场 https://marimo.app 对其进行代理，以修复 CORS 问题和 GitHub 速率限制。
 
 评论网址：https://news.ycombinator.com/item?id=42700852
-积分：120
+积分：136
 评论数：21]]></description>
       <guid>https://docs.marimo.io/guides/publishing/playground/#open-notebooks-hosted-on-github</guid>
       <pubDate>Tue, 14 Jan 2025 17:46:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google 的 OAuth 登录无法防止购买失败的初创域名</title>
-      <link>https://trufflesecurity.com/blog/millions-at-risk-due-to-google-s-oauth-flaw</link>
-      <description><![CDATA[文章网址：https://trufflesecurity.com/blog/millions-at-risk-due-to-google-s-oauth-flaw
-评论网址：https://news.ycombinator.com/item?id=42699099
-积分：398
-评论数：215]]></description>
-      <guid>https://trufflesecurity.com/blog/millions-at-risk-due-to-google-s-oauth-flaw</guid>
-      <pubDate>Tue, 14 Jan 2025 16:14:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>牧羊人 1.0.0 发布</title>
-      <link>https://guix.gnu.org/en/blog/2024/the-shepherd-1.0.0-released/</link>
-      <description><![CDATA[文章网址：https://guix.gnu.org/en/blog/2024/the-shepherd-1.0.0-released/
-评论网址：https://news.ycombinator.com/item?id=42698981
-积分：147
-评论数：38]]></description>
-      <guid>https://guix.gnu.org/en/blog/2024/the-shepherd-1.0.0-released/</guid>
-      <pubDate>Tue, 14 Jan 2025 16:07:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：OpenAI 结构化输出的价值可能性</title>
-      <link>https://arena-ai.github.io/structured-logprobs/</link>
-      <description><![CDATA[文章网址：https://arena-ai.github.io/structured-logprobs/
-评论网址：https://news.ycombinator.com/item?id=42698753
-积分：63
-评论数：23]]></description>
-      <guid>https://arena-ai.github.io/structured-logprobs/</guid>
-      <pubDate>Tue, 14 Jan 2025 15:52:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
