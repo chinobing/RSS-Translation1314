@@ -4,111 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 19 Jan 2025 09:16:16 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2025 12:29:03 GMT</lastBuildDate>
     <item>
-      <title>真人秀节目《叛徒》提供了有用的经济学课程</title>
-      <link>https://www.economist.com/finance-and-economics/2025/01/16/the-traitors-a-reality-tv-show-offers-a-useful-economics-lesson</link>
-      <description><![CDATA[文章网址：https://www.economist.com/finance-and-economics/2025/01/16/the-traitors-a-reality-tv-show-offers-a-useful-economics-lesson
-评论网址：https://news.ycombinator.com/item?id=42755251
+      <title>游戏工作室：亚马逊和游戏能否使其成为下一个漫威？</title>
+      <link>https://www.bbc.co.uk/news/articles/cr5369029dzo</link>
+      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/cr5369029dzo
+评论网址：https://news.ycombinator.com/item?id=42756374
+积分：1
+评论数：0]]></description>
+      <guid>https://www.bbc.co.uk/news/articles/cr5369029dzo</guid>
+      <pubDate>Sun, 19 Jan 2025 12:15:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Homebrew 和 Wine 为 Windows exe 文件创建包装器</title>
+      <link>https://flaky.build/creating-wrappers-for-windows-exe-files-using-homebrew-and-wine</link>
+      <description><![CDATA[文章网址：https://flaky.build/creating-wrappers-for-windows-exe-files-using-homebrew-and-wine
+评论网址：https://news.ycombinator.com/item?id=42756368
+积分：1
+评论数：0]]></description>
+      <guid>https://flaky.build/creating-wrappers-for-windows-exe-files-using-homebrew-and-wine</guid>
+      <pubDate>Sun, 19 Jan 2025 12:13:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于Linux网络（Socket）编程综合指南</title>
+      <link>https://github.com/nguyenchiemminhvu/LinuxNetworkProgramming</link>
+      <description><![CDATA[文章网址：https://github.com/nguyenchiemminhvu/L​​inuxNetworkProgramming
+评论网址：https://news.ycombinator.com/item?id=42756365
 积分：2
 评论数：1]]></description>
-      <guid>https://www.economist.com/finance-and-economics/2025/01/16/the-traitors-a-reality-tv-show-offers-a-useful-economics-lesson</guid>
-      <pubDate>Sun, 19 Jan 2025 08:56:35 GMT</pubDate>
+      <guid>https://github.com/nguyenchiemminhvu/LinuxNetworkProgramming</guid>
+      <pubDate>Sun, 19 Jan 2025 12:13:46 GMT</pubDate>
     </item>
     <item>
-      <title>维基百科最高法院即将禁止 8 名编辑发表主题言论</title>
-      <link>https://jewishjournal.com/news/worldwide/378546/wikipedias-supreme-court-on-the-verge-of-topic-banning-8-editors-from-israel-palestine-area/</link>
-      <description><![CDATA[文章网址：https://jewishjournal.com/news/worldwide/378546/wikipedias-supreme-court-on-the-verge-of-topic-banning-8-editors-from-israel-palestine-area/
-评论网址：https://news.ycombinator.com/item?id=42755244
+      <title>由于 TikTok 禁令，MarvelSnap 游戏也陷入停摆并从 AppStore 下架</title>
+      <link>https://variety.com/2025/digital/news/marvel-snap-shut-down-tiktok-ban-bytedance-1236278280/</link>
+      <description><![CDATA[文章网址：https://variety.com/2025/digital/news/marvel-snap-shut-down-tiktok-ban-bytedance-1236278280/
+评论网址：https://news.ycombinator.com/item?id=42756350
 积分：1
-评论数： 0]]></description>
-      <guid>https://jewishjournal.com/news/worldwide/378546/wikipedias-supreme-court-on-the-verge-of-topic-banning-8-editors-from-israel-palestine-area/</guid>
-      <pubDate>Sun, 19 Jan 2025 08:55:43 GMT</pubDate>
+评论数：0]]></description>
+      <guid>https://variety.com/2025/digital/news/marvel-snap-shut-down-tiktok-ban-bytedance-1236278280/</guid>
+      <pubDate>Sun, 19 Jan 2025 12:11:36 GMT</pubDate>
     </item>
     <item>
-      <title>展示 HN：TikTok 到 RedNote，由 AI 代理完成</title>
-      <link>https://www.opencord.ai/app</link>
-      <description><![CDATA[步骤：
-1. 您的 TikTok 帐户，其中包含现有内容
-2. Rednote 帐户
-3. Opencord AI 帐户 + 浏览器扩展（目前仅限于桌面）试试看！！
+      <title>问 HN：像 ChatGPT 这样的 AI 应用程序如何实现如此高的速度？</title>
+      <link>https://news.ycombinator.com/item?id=42756348</link>
+      <description><![CDATA[我一直在尝试使用具有 80GB 内存的 NVIDIA H100 GPU 构建自己的检索增强生成 (RAG) 应用程序，利用 Serper 等网络搜索 API，并在 OpenAI、Azure 等平台上部署各种 GPT 模型，以及在 Ollama 上部署量化模型。虽然较小的模型执行速度相当快，但超过 70 亿参数范围的任何模型往往都会非常慢。相比之下，ChatGPT 和 Perplexity 等 AI 应用程序在实时搜索、网页抓取、内容生成和推理方面表现出令人印象深刻的速度。他们如此迅速地提供结果的能力，即使是使用大型模型，也相当了不起。我很想了解这些公司为实现如此高性能而使用的工程策略和优化。是否有任何有见地的工程博客或技术资源可以解释他们如何优化基础设施、并行化工作负载或有效管理延迟？任何关于其后端架构、缓存机制或推理优化技术的见解都将不胜感激。
 
-评论网址：https://news.ycombinator.com/item?id=42755234
+评论网址：https://news.ycombinator.com/item?id=42756348
 积分：1
 评论数：0]]></description>
-      <guid>https://www.opencord.ai/app</guid>
-      <pubDate>Sun, 19 Jan 2025 08:53:32 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=42756348</guid>
+      <pubDate>Sun, 19 Jan 2025 12:11:34 GMT</pubDate>
     </item>
     <item>
-      <title>FrontierMath 由 OpenAI 资助</title>
-      <link>https://www.lesswrong.com/posts/cu2E8wgmbdZbqeWqb/meemi-s-shortform</link>
-      <description><![CDATA[文章网址：https://www.lesswrong.com/posts/cu2E8wgmbdZbqeWqb/meemi-s-shortform
-评论网址：https://news.ycombinator.com/item?id=42755217
+      <title>关于 CPU、语言和开发方法 [pdf]</title>
+      <link>https://www.ignorantus.com/books/real/Real_Programming_ch02.pdf</link>
+      <description><![CDATA[文章网址：https://www.ignorantus.com/books/real/Real_Programming_ch02.pdf
+评论网址：https://news.ycombinator.com/item?id=42756336
 积分：1
 评论数：0]]></description>
-      <guid>https://www.lesswrong.com/posts/cu2E8wgmbdZbqeWqb/meemi-s-shortform</guid>
-      <pubDate>Sun, 19 Jan 2025 08:50:44 GMT</pubDate>
+      <guid>https://www.ignorantus.com/books/real/Real_Programming_ch02.pdf</guid>
+      <pubDate>Sun, 19 Jan 2025 12:09:11 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：轻松创建酷炫的短信故事</title>
-      <link>https://www.shortsgenerator.com/texting-story</link>
-      <description><![CDATA[我记得几年前这些短信故事应用风靡一时，我觉得这是一种讲故事的有趣方式。所以我在 Shorts Generator 中添加了一个有趣的小工具，您可以在其中创建它们！这些工具比其他工具酷多了，具有更好的用户界面、消息声音和滚动动画。而且预览是免费的！
-
-评论网址：https://news.ycombinator.com/item?id=42755204
+      <title>苹果称其从 App Store 下架 TikTok 是遵守法律</title>
+      <link>https://www.theverge.com/2025/1/19/24347077/tiktok-ban-apple-app-store-bytedance</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/2025/1/19/24347077/tiktok-ban-apple-app-store-bytedance
+评论网址：https://news.ycombinator.com/item?id=42756328
 积分：1
 评论数：0]]></description>
-      <guid>https://www.shortsgenerator.com/texting-story</guid>
-      <pubDate>Sun, 19 Jan 2025 08:48:35 GMT</pubDate>
+      <guid>https://www.theverge.com/2025/1/19/24347077/tiktok-ban-apple-app-store-bytedance</guid>
+      <pubDate>Sun, 19 Jan 2025 12:07:19 GMT</pubDate>
     </item>
     <item>
-      <title>关于Red Note的信息</title>
-      <link>https://littlerednote.org</link>
-      <description><![CDATA[文章网址：https://littlerednote.org
-评论网址：https://news.ycombinator.com/item?id=42755190
+      <title>幽默是了解生成式人工智能偏见的一扇窗户</title>
+      <link>https://www.nature.com/articles/s41598-024-83384-6</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41598-024-83384-6
+评论网址：https://news.ycombinator.com/item?id=42756327
 积分：1
 评论数：0]]></description>
-      <guid>https://littlerednote.org</guid>
-      <pubDate>Sun, 19 Jan 2025 08:46:16 GMT</pubDate>
+      <guid>https://www.nature.com/articles/s41598-024-83384-6</guid>
+      <pubDate>Sun, 19 Jan 2025 12:06:59 GMT</pubDate>
     </item>
     <item>
-      <title>IsMyXFeedFcked – 分析你的 X Feed 对你的影响</title>
-      <link>https://www.ismyxfeedfucked.com/</link>
-      <description><![CDATA[文章网址：https://www.ismyxfeedfucked.com/
-评论网址：https://news.ycombinator.com/item?id=42755173
-积分：1
-评论数：1]]></description>
-      <guid>https://www.ismyxfeedfucked.com/</guid>
-      <pubDate>Sun, 19 Jan 2025 08:43:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>采用数据驱动的方法来提高你的有机 Reddit 帖子表现</title>
-      <link>https://www.uneed.best/tool/freddi</link>
-      <description><![CDATA[文章网址：https://www.uneed.best/tool/freddi
-评论网址：https://news.ycombinator.com/item?id=42755154
+      <title>一些 Hulu 用户必须回答有关向他们展示的广告的问题才能继续</title>
+      <link>https://old.reddit.com/r/mildlyinfuriating/comments/1i4ozrf/i_had_to_answer_a_fucking_question_to_keep/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/mildlyinfuriating/comments/1i4ozrf/i_had_to_answer_a_fucking_question_to_keep/
+评论网址：https://news.ycombinator.com/item?id=42756325
 积分：1
 评论数：0]]></description>
-      <guid>https://www.uneed.best/tool/freddi</guid>
-      <pubDate>Sun, 19 Jan 2025 08:39:42 GMT</pubDate>
+      <guid>https://old.reddit.com/r/mildlyinfuriating/comments/1i4ozrf/i_had_to_answer_a_fucking_question_to_keep/</guid>
+      <pubDate>Sun, 19 Jan 2025 12:06:41 GMT</pubDate>
     </item>
     <item>
-      <title>物理学家确定温室效应的量子起源</title>
-      <link>https://www.quantamagazine.org/physicists-pinpoint-the-quantum-origin-of-the-greenhouse-effect-20240807/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/physicists-pinpoint-the-quantum-origin-of-the-greenhouse-effect-20240807/
-评论网址：https://news.ycombinator.com/item?id=42755150
-积分：2
-评论数：0]]></description>
-      <guid>https://www.quantamagazine.org/physicists-pinpoint-the-quantum-origin-of-the-greenhouse-effect-20240807/</guid>
-      <pubDate>Sun, 19 Jan 2025 08:39:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>高温破坏一切秩序。除了这个特殊情况</title>
-      <link>https://www.quantamagazine.org/heat-destroys-all-order-except-for-in-this-one-special-case-20250116/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/heat-destroys-all-order-except-for-in-this-one-special-case-20250116/
-评论网址：https://news.ycombinator.com/item?id=42755146
+      <title>猎犬、大妈妈、猫王和挪用</title>
+      <link>https://medium.com/luminasticity/hound-dog-big-mama-elvis-and-appropriation-03f901afc2b7</link>
+      <description><![CDATA[文章网址：https://medium.com/luminasticity/hound-dog-big-mama-elvis-and-appropriation-03f901afc2b7
+评论网址：https://news.ycombinator.com/item?id=42756305
 积分：1
 评论数：0]]></description>
-      <guid>https://www.quantamagazine.org/heat-destroys-all-order-except-for-in-this-one-special-case-20250116/</guid>
-      <pubDate>Sun, 19 Jan 2025 08:38:55 GMT</pubDate>
+      <guid>https://medium.com/luminasticity/hound-dog-big-mama-elvis-and-appropriation-03f901afc2b7</guid>
+      <pubDate>Sun, 19 Jan 2025 12:01:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
