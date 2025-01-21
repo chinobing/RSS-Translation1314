@@ -4,112 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 21 Jan 2025 01:15:01 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jan 2025 03:18:27 GMT</lastBuildDate>
     <item>
-      <title>REST 是新的 SOAP。一场时尚地狱之旅</title>
-      <link>https://medium.com/free-code-camp/rest-is-the-new-soap-97ff6c09896d</link>
-      <description><![CDATA[文章网址：https://medium.com/free-code-camp/rest-is-the-new-soap-97ff6c09896d
-评论网址：https://news.ycombinator.com/item?id=42775158
-积分：1
-评论数：0]]></description>
-      <guid>https://medium.com/free-code-camp/rest-is-the-new-soap-97ff6c09896d</guid>
-      <pubDate>Tue, 21 Jan 2025 01:07:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>特朗普撤销拜登监管人工智能安全的行政命令</title>
-      <link>https://www.yahoo.com/news/trump-revokes-biden-executive-order-000812986.html</link>
-      <description><![CDATA[文章网址：https://www.yahoo.com/news/trump-revokes-biden-executive-order-000812986.html
-评论网址：https://news.ycombinator.com/item?id=42775151
-积分：1
-评论数：0]]></description>
-      <guid>https://www.yahoo.com/news/trump-revokes-biden-executive-order-000812986.html</guid>
-      <pubDate>Tue, 21 Jan 2025 01:05:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：如何预授权 Chrome 扩展程序的运行时权限</title>
-      <link>https://news.ycombinator.com/item?id=42775147</link>
-      <description><![CDATA[我有一个简单的 `selenium` 脚本，它不持久化用户数据，即每次启动时都会生成一个新的 `--user-data-dir`。它会打开一些标签页，并使用 Fireshot API 进行截图。但是启用 Fireshot API 需要向扩展授予运行时权限 `tabs`，并且只能在 GUI 环境中操作。我希望在运行脚本时预先授权扩展所需的运行时权限。以下所有尝试均失败：- 使用 `options.add_experimental_option(&#39;prefs&#39;, prefs)` 将 `f&quot;extensions.settings.{EXT_ID}.runtime_granted_permissions&quot;` 属性注入 `Preferences` 文件
-- 备份和恢复 `userDataDir/Preferences` 和/或 `userDataDir/Secure Preferences`
-- 使用 `initial_preferences` 加载扩展
-- 使用 Chrome 组策略，此外，它的作用域是整个系统或当前用户，我只想使用命令行参数加载策略，以便它适用于当前示例
-- 生成新的用户数据目录，授权运行时权限，备份一次并在每次运行脚本时恢复除了上述方法之外，还有其他方法吗？我甚至可以接受修改 User Data 文件夹或 Profile 文件夹下的不透明 sqlite 文件
+      <title>为流行软件植入后门</title>
+      <link>https://news.ycombinator.com/item?id=42776058</link>
+      <description><![CDATA[假设有一款软件目前在大多数计算机平台上运行，例如手机、笔记本电脑、塔式机、服务器等。进一步假设您没有源代码。现在假设在某一天，后门/病毒/恶意软件被推送到所有这些设备，意图破坏它们。突然间，互联网断了（服务器），电网断了，电话网络断了。运行此软件的一切都死了。在 24 小时内，几乎所有基于计算的东西都停止了。拆卸、逆向工程、查找恶意软件和开发修复程序可能需要数周时间。在没有通信（互联网、电话）的情况下完成这项工作，需要有人在一台孤立的、基于发电机的、非联网的机器上拥有大量技能，并且拥有支持该任务所需的所有软件。希望损坏的机器可以重新启动并恢复，但手动分发修复将需要数月时间。或者假设你想知道政府和企业中每项资产的位置和运动。每部手机都开始报告每个位置和每个运动。如果战争爆发，知道每项资产的位置和实力有什么用处？或者假设你想从运行此软件的每台设备发起分布式拒绝服务攻击。或者甚至诸如抓取每部手机上的每本电话簿以构建谁呼叫谁的呼叫图之类的无害任务。当然，这不可能发生。它一路都是小猫。
+可能出现什么问题？
 
-评论网址：https://news.ycombinator.com/item?id=42775147
+评论网址：https://news.ycombinator.com/item?id=42776058
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42775147</guid>
-      <pubDate>Tue, 21 Jan 2025 01:05:06 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=42776058</guid>
+      <pubDate>Tue, 21 Jan 2025 03:10:55 GMT</pubDate>
     </item>
     <item>
-      <title>REST 是新的肥皂</title>
-      <link>https://www.freecodecamp.org/news/rest-is-the-new-soap-97ff6c09896d/</link>
-      <description><![CDATA[文章网址：https://www.freecodecamp.org/news/rest-is-the-new-soap-97ff6c09896d/
-评论网址：https://news.ycombinator.com/item?id=42775146
+      <title>人们对自己的身材有多热存在错觉（统计调查结果）</title>
+      <link>https://aella.substack.com/p/people-are-delusional-about-how-hot</link>
+      <description><![CDATA[文章网址：https://aella.substack.com/p/people-are-delusional-about-how-hot
+评论网址：https://news.ycombinator.com/item?id=42776037
 积分：1
 评论数：0]]></description>
-      <guid>https://www.freecodecamp.org/news/rest-is-the-new-soap-97ff6c09896d/</guid>
-      <pubDate>Tue, 21 Jan 2025 01:05:04 GMT</pubDate>
+      <guid>https://aella.substack.com/p/people-are-delusional-about-how-hot</guid>
+      <pubDate>Tue, 21 Jan 2025 03:08:14 GMT</pubDate>
     </item>
     <item>
-      <title>2025 年日地表气温不容乐观</title>
-      <link>https://climatereanalyzer.org/clim/t2_daily/?dm_id=world</link>
-      <description><![CDATA[文章网址：https://climatereanalyzer.org/clim/t2_daily/?dm_id=world
-评论网址：https://news.ycombinator.com/item?id=42775099
-积分：11
+      <title>Magenta.nvim – Neovim 的 AI 编码助手插件，专注于工具使用</title>
+      <link>https://github.com/dlants/magenta.nvim</link>
+      <description><![CDATA[文章网址：https://github.com/dlants/magenta.nvim
+评论网址：https://news.ycombinator.com/item?id=42776029
+积分：1
+评论数：1]]></description>
+      <guid>https://github.com/dlants/magenta.nvim</guid>
+      <pubDate>Tue, 21 Jan 2025 03:07:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找为跨性别者提供签证担保的友好雇主</title>
+      <link>https://werd.io/2025/seeking-trans-friendly-employers-who-sponsor-visas</link>
+      <description><![CDATA[文章网址：https://werd.io/2025/seeking-trans-friendly-employers-who-sponsor-visas
+评论网址：https://news.ycombinator.com/item?id=42776011
+积分：3
 评论数：0]]></description>
-      <guid>https://climatereanalyzer.org/clim/t2_daily/?dm_id=world</guid>
-      <pubDate>Tue, 21 Jan 2025 00:58:22 GMT</pubDate>
+      <guid>https://werd.io/2025/seeking-trans-friendly-employers-who-sponsor-visas</guid>
+      <pubDate>Tue, 21 Jan 2025 03:04:06 GMT</pubDate>
     </item>
     <item>
-      <title>气候友好型水车再次出现</title>
-      <link>https://www.theguardian.com/environment/2025/jan/17/how-climate-friendly-waterwheels-are-coming-around-again</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/environment/2025/jan/17/how-climate-friendly-waterwheels-are-coming-around-again
-评论网址：https://news.ycombinator.com/item?id=42775093
+      <title>兆</title>
+      <link>https://world.hey.com/dhh/mega-a0f62cd4</link>
+      <description><![CDATA[文章网址：https://world.hey.com/dhh/mega-a0f62cd4
+评论网址：https://news.ycombinator.com/item?id=42775996
+积分：3
+评论数：0]]></description>
+      <guid>https://world.hey.com/dhh/mega-a0f62cd4</guid>
+      <pubDate>Tue, 21 Jan 2025 03:01:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>特朗普总统采取的总统行动</title>
+      <link>https://www.whitehouse.gov/presidential-actions/</link>
+      <description><![CDATA[文章网址：https://www.whitehouse.gov/presidential-actions/
+评论网址：https://news.ycombinator.com/item?id=42775945
+积分：8
+评论数：0]]></description>
+      <guid>https://www.whitehouse.gov/presidential-actions/</guid>
+      <pubDate>Tue, 21 Jan 2025 02:55:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>删除视频背景</title>
+      <link>https://removevideobackground.org</link>
+      <description><![CDATA[文章网址：https://removevideobackground.org
+评论网址：https://news.ycombinator.com/item?id=42775906
 积分：1
 评论数：0]]></description>
-      <guid>https://www.theguardian.com/environment/2025/jan/17/how-climate-friendly-waterwheels-are-coming-around-again</guid>
-      <pubDate>Tue, 21 Jan 2025 00:57:49 GMT</pubDate>
+      <guid>https://removevideobackground.org</guid>
+      <pubDate>Tue, 21 Jan 2025 02:49:46 GMT</pubDate>
     </item>
     <item>
-      <title>新型冷却泵使温度降低 16 度</title>
-      <link>https://samueli.ucla.edu/new-cooling-pump-drops-temperatures-by-16-degrees-more-at-source-of-heat/</link>
-      <description><![CDATA[文章网址：https://samueli.ucla.edu/new-cooling-pump-drops-temperatures-by-16-degrees-more-at-source-of-heat/
-评论网址：https://news.ycombinator.com/item?id=42775091
-积分：2
-评论数：0]]></description>
-      <guid>https://samueli.ucla.edu/new-cooling-pump-drops-temperatures-by-16-degrees-more-at-source-of-heat/</guid>
-      <pubDate>Tue, 21 Jan 2025 00:57:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：2 分钟内自定义网站，免费托管，您拥有代码</title>
-      <link>https://www.gitpage.site/</link>
-      <description><![CDATA[厌倦了在那些让你不得不支付持续费用的平台上建立网站。当你停止付费时，你会失去你的网站和所有的工作。构建 gitpage 来构建自定义网站，无需订阅，免费托管，免费 URL，你拥有代码，免费添加自定义域名，无需品牌推广。你可能需要一点 html 知识，但使用免费的 copilot 这也很容易。
-
-评论 URL：https://news.ycombinator.com/item?id=42775042
+      <title>能源存储惨败——多久会被抛弃？</title>
+      <link>https://www.manhattancontrarian.com/blog/2025-1-17-the-energy-storage-fiasco-how-soon-will-it-be-abandoned-h5w94</link>
+      <description><![CDATA[文章网址：https://www.manhattancontrarian.com/blog/2025-1-17-the-energy-storage-fiasco-how-soon-will-it-be-abandoned-h5w94
+评论网址：https://news.ycombinator.com/item?id=42775895
 积分：1
-评论数：0]]></description>
-      <guid>https://www.gitpage.site/</guid>
-      <pubDate>Tue, 21 Jan 2025 00:50:53 GMT</pubDate>
+评论数：1]]></description>
+      <guid>https://www.manhattancontrarian.com/blog/2025-1-17-the-energy-storage-fiasco-how-soon-will-it-be-abandoned-h5w94</guid>
+      <pubDate>Tue, 21 Jan 2025 02:48:29 GMT</pubDate>
     </item>
     <item>
-      <title>中国对美国可能出售 TikTok 的立场略有软化</title>
-      <link>https://www.theregister.com/2025/01/21/president_trump_tech_actions_tiktok/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2025/01/21/president_trump_tech_actions_tiktok/
-评论网址：https://news.ycombinator.com/item?id=42775031
+      <title>总统签署命令，75 天内拒绝执行 TikTok 禁令</title>
+      <link>https://www.theverge.com/2025/1/20/24348213/trump-tiktok-ban-executive-order-sale-delay-china</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/2025/1/20/24348213/trump-tiktok-ban-executive-order-sale-delay-china
+评论网址：https://news.ycombinator.com/item?id=42775848
+积分：20
+评论数：4]]></description>
+      <guid>https://www.theverge.com/2025/1/20/24348213/trump-tiktok-ban-executive-order-sale-delay-china</guid>
+      <pubDate>Tue, 21 Jan 2025 02:44:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>你的树画说明了什么？应用 Koch's Baum 测试</title>
+      <link>https://marincomics.com/psychological-tree.html</link>
+      <description><![CDATA[文章网址：https://marincomics.com/psychological-tree.html
+评论网址：https://news.ycombinator.com/item?id=42775828
 积分：1
-评论数：0]]></description>
-      <guid>https://www.theregister.com/2025/01/21/president_trump_tech_actions_tiktok/</guid>
-      <pubDate>Tue, 21 Jan 2025 00:49:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ruff：用 Rust 编写的 Python linter 和代码格式化程序</title>
-      <link>https://github.com/astral-sh/ruff</link>
-      <description><![CDATA[文章网址：https://github.com/astral-sh/ruff
-评论网址：https://news.ycombinator.com/item?id=42775029
-积分：4
-评论数：0]]></description>
-      <guid>https://github.com/astral-sh/ruff</guid>
-      <pubDate>Tue, 21 Jan 2025 00:49:41 GMT</pubDate>
+评论数：1]]></description>
+      <guid>https://marincomics.com/psychological-tree.html</guid>
+      <pubDate>Tue, 21 Jan 2025 02:41:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
