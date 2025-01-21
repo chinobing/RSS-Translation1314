@@ -4,108 +4,112 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 20 Jan 2025 21:15:01 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jan 2025 01:15:01 GMT</lastBuildDate>
     <item>
-      <title>您在什么上构建您的 Web 应用程序 – B2B SaaS</title>
-      <link>https://news.ycombinator.com/item?id=42773013</link>
-      <description><![CDATA[我很好奇 YC 公司使用什么工具来构建他们的 Web 应用。他们是从 Material UI 提供的模板开始的吗？有哪些常见的模板？
-
-评论网址：https://news.ycombinator.com/item?id=42773013
+      <title>REST 是新的 SOAP。一场时尚地狱之旅</title>
+      <link>https://medium.com/free-code-camp/rest-is-the-new-soap-97ff6c09896d</link>
+      <description><![CDATA[文章网址：https://medium.com/free-code-camp/rest-is-the-new-soap-97ff6c09896d
+评论网址：https://news.ycombinator.com/item?id=42775158
 积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42773013</guid>
-      <pubDate>Mon, 20 Jan 2025 21:04:04 GMT</pubDate>
+      <guid>https://medium.com/free-code-camp/rest-is-the-new-soap-97ff6c09896d</guid>
+      <pubDate>Tue, 21 Jan 2025 01:07:11 GMT</pubDate>
     </item>
     <item>
-      <title>文化冰山 [pdf]</title>
-      <link>https://bccie.bc.ca/wp-content/uploads/2020/09/cultural-iceberg.pdf</link>
-      <description><![CDATA[文章网址：https://bccie.bc.ca/wp-content/uploads/2020/09/cultural-iceberg.pdf
-评论网址：https://news.ycombinator.com/item?id=42772997
+      <title>特朗普撤销拜登监管人工智能安全的行政命令</title>
+      <link>https://www.yahoo.com/news/trump-revokes-biden-executive-order-000812986.html</link>
+      <description><![CDATA[文章网址：https://www.yahoo.com/news/trump-revokes-biden-executive-order-000812986.html
+评论网址：https://news.ycombinator.com/item?id=42775151
 积分：1
-评论数：1]]></description>
-      <guid>https://bccie.bc.ca/wp-content/uploads/2020/09/cultural-iceberg.pdf</guid>
-      <pubDate>Mon, 20 Jan 2025 21:02:21 GMT</pubDate>
+评论数：0]]></description>
+      <guid>https://www.yahoo.com/news/trump-revokes-biden-executive-order-000812986.html</guid>
+      <pubDate>Tue, 21 Jan 2025 01:05:50 GMT</pubDate>
     </item>
     <item>
-      <title>埃隆·马斯克是否出现在特朗普就职典礼上致以胜利者的祝福？</title>
-      <link>https://www.jpost.com/international/article-838444</link>
-      <description><![CDATA[文章网址：https://www.jpost.com/international/article-838444
-评论网址：https://news.ycombinator.com/item?id=42772995
+      <title>询问 HN：如何预授权 Chrome 扩展程序的运行时权限</title>
+      <link>https://news.ycombinator.com/item?id=42775147</link>
+      <description><![CDATA[我有一个简单的 `selenium` 脚本，它不持久化用户数据，即每次启动时都会生成一个新的 `--user-data-dir`。它会打开一些标签页，并使用 Fireshot API 进行截图。但是启用 Fireshot API 需要向扩展授予运行时权限 `tabs`，并且只能在 GUI 环境中操作。我希望在运行脚本时预先授权扩展所需的运行时权限。以下所有尝试均失败：- 使用 `options.add_experimental_option(&#39;prefs&#39;, prefs)` 将 `f&quot;extensions.settings.{EXT_ID}.runtime_granted_permissions&quot;` 属性注入 `Preferences` 文件
+- 备份和恢复 `userDataDir/Preferences` 和/或 `userDataDir/Secure Preferences`
+- 使用 `initial_preferences` 加载扩展
+- 使用 Chrome 组策略，此外，它的作用域是整个系统或当前用户，我只想使用命令行参数加载策略，以便它适用于当前示例
+- 生成新的用户数据目录，授权运行时权限，备份一次并在每次运行脚本时恢复除了上述方法之外，还有其他方法吗？我甚至可以接受修改 User Data 文件夹或 Profile 文件夹下的不透明 sqlite 文件
+
+评论网址：https://news.ycombinator.com/item?id=42775147
+积分：1
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=42775147</guid>
+      <pubDate>Tue, 21 Jan 2025 01:05:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>REST 是新的肥皂</title>
+      <link>https://www.freecodecamp.org/news/rest-is-the-new-soap-97ff6c09896d/</link>
+      <description><![CDATA[文章网址：https://www.freecodecamp.org/news/rest-is-the-new-soap-97ff6c09896d/
+评论网址：https://news.ycombinator.com/item?id=42775146
+积分：1
+评论数：0]]></description>
+      <guid>https://www.freecodecamp.org/news/rest-is-the-new-soap-97ff6c09896d/</guid>
+      <pubDate>Tue, 21 Jan 2025 01:05:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025 年日地表气温不容乐观</title>
+      <link>https://climatereanalyzer.org/clim/t2_daily/?dm_id=world</link>
+      <description><![CDATA[文章网址：https://climatereanalyzer.org/clim/t2_daily/?dm_id=world
+评论网址：https://news.ycombinator.com/item?id=42775099
 积分：11
-评论数：1]]></description>
-      <guid>https://www.jpost.com/international/article-838444</guid>
-      <pubDate>Mon, 20 Jan 2025 21:02:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>伊隆·马斯克在特朗普就职典礼上模仿纳粹敬礼[视频]</title>
-      <link>https://www.youtube.com/watch?v=joV-9FFoA3Q</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=joV-9FFoA3Q
-评论网址：https://news.ycombinator.com/item?id=42772991
-积分：10
 评论数：0]]></description>
-      <guid>https://www.youtube.com/watch?v=joV-9FFoA3Q</guid>
-      <pubDate>Mon, 20 Jan 2025 21:01:52 GMT</pubDate>
+      <guid>https://climatereanalyzer.org/clim/t2_daily/?dm_id=world</guid>
+      <pubDate>Tue, 21 Jan 2025 00:58:22 GMT</pubDate>
     </item>
     <item>
-      <title>DeepSeek R1 官方版现已登陆 Ollama</title>
-      <link>https://ollama.com/library/deepseek-r1</link>
-      <description><![CDATA[文章网址：https://ollama.com/library/deepseek-r1
-评论网址：https://news.ycombinator.com/item?id=42772983
+      <title>气候友好型水车再次出现</title>
+      <link>https://www.theguardian.com/environment/2025/jan/17/how-climate-friendly-waterwheels-are-coming-around-again</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/environment/2025/jan/17/how-climate-friendly-waterwheels-are-coming-around-again
+评论网址：https://news.ycombinator.com/item?id=42775093
 积分：1
 评论数：0]]></description>
-      <guid>https://ollama.com/library/deepseek-r1</guid>
-      <pubDate>Mon, 20 Jan 2025 21:00:24 GMT</pubDate>
+      <guid>https://www.theguardian.com/environment/2025/jan/17/how-climate-friendly-waterwheels-are-coming-around-again</guid>
+      <pubDate>Tue, 21 Jan 2025 00:57:49 GMT</pubDate>
     </item>
     <item>
-      <title>仅需睡眠五小时的人</title>
-      <link>https://www.telegraph.co.uk/health-fitness/wellbeing/sleep/the-people-who-only-need-five-hours-sleep/</link>
-      <description><![CDATA[文章网址：https://www.telegraph.co.uk/health-fitness/wellbeing/sleep/the-people-who-only-need-five-hours-sleep/
-评论网址：https://news.ycombinator.com/item?id=42772981
-积分：1
+      <title>新型冷却泵使温度降低 16 度</title>
+      <link>https://samueli.ucla.edu/new-cooling-pump-drops-temperatures-by-16-degrees-more-at-source-of-heat/</link>
+      <description><![CDATA[文章网址：https://samueli.ucla.edu/new-cooling-pump-drops-temperatures-by-16-degrees-more-at-source-of-heat/
+评论网址：https://news.ycombinator.com/item?id=42775091
+积分：2
 评论数：0]]></description>
-      <guid>https://www.telegraph.co.uk/health-fitness/wellbeing/sleep/the-people-who-only-need-five-hours-sleep/</guid>
-      <pubDate>Mon, 20 Jan 2025 21:00:08 GMT</pubDate>
+      <guid>https://samueli.ucla.edu/new-cooling-pump-drops-temperatures-by-16-degrees-more-at-source-of-heat/</guid>
+      <pubDate>Tue, 21 Jan 2025 00:57:30 GMT</pubDate>
     </item>
     <item>
-      <title>我们永远听不到的总统演讲 (2014)</title>
-      <link>https://www.savannahnow.com/story/lifestyle/columns/2014/05/25/george-will-presidential-speech-well-never-hear/13630820007/</link>
-      <description><![CDATA[文章网址：https://www.savannahnow.com/story/lifestyle/columns/2014/05/25/george-will-presidential-speech-well-never-hear/13630820007/
-评论网址：https://news.ycombinator.com/item?id=42772967
-积分：1
-评论数：0]]></description>
-      <guid>https://www.savannahnow.com/story/lifestyle/columns/2014/05/25/george-will-presidential-speech-well-never-hear/13630820007/</guid>
-      <pubDate>Mon, 20 Jan 2025 20:59:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nvidia Project Digits 详解：紧凑封装中的 AI 能力</title>
-      <link>https://www.storagereview.com/news/nvidia-project-digits-explained-ai-power-in-a-compact-package</link>
-      <description><![CDATA[文章网址：https://www.storagereview.com/news/nvidia-project-digits-explained-ai-power-in-a-compact-package
-评论网址：https://news.ycombinator.com/item?id=42772933
-积分：1
-评论数：1]]></description>
-      <guid>https://www.storagereview.com/news/nvidia-project-digits-explained-ai-power-in-a-compact-package</guid>
-      <pubDate>Mon, 20 Jan 2025 20:54:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>有没有 Next.js 开发人员愿意分享他们在付款方面遇到的麻烦？</title>
-      <link>https://news.ycombinator.com/item?id=42772916</link>
-      <description><![CDATA[我们正处于构建新事物的早期阶段。我们的研究使我们得出了以下价值主张：为 Next.js 开发人员提供无摩擦支付：不再有账单同步疯狂或对帐废话。我们想知道，这是否引起了您的共鸣？为什么或为什么不？我们也很乐意听听您的付款难题。如果您有一根魔杖，您今天会对您的付款集成进行哪些更改？如果您与我们通话，将我们视为您的治疗师，您将获得额外积分（请在评论中告诉我）。作为交换 - 我将对您想要的任何内容提供设计评论（YC 校友/RISD/Imgur 创始设计师）。
+      <title>显示 HN：2 分钟内自定义网站，免费托管，您拥有代码</title>
+      <link>https://www.gitpage.site/</link>
+      <description><![CDATA[厌倦了在那些让你不得不支付持续费用的平台上建立网站。当你停止付费时，你会失去你的网站和所有的工作。构建 gitpage 来构建自定义网站，无需订阅，免费托管，免费 URL，你拥有代码，免费添加自定义域名，无需品牌推广。你可能需要一点 html 知识，但使用免费的 copilot 这也很容易。
 
-评论网址：https://news.ycombinator.com/item?id=42772916
-积分：2
+评论 URL：https://news.ycombinator.com/item?id=42775042
+积分：1
 评论数：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=42772916</guid>
-      <pubDate>Mon, 20 Jan 2025 20:52:10 GMT</pubDate>
+      <guid>https://www.gitpage.site/</guid>
+      <pubDate>Tue, 21 Jan 2025 00:50:53 GMT</pubDate>
     </item>
     <item>
-      <title>带乌龟的国旗画</title>
-      <link>https://jtanx.github.io/2018/12/28/turtle-flag-drawing/</link>
-      <description><![CDATA[文章网址：https://jtanx.github.io/2018/12/28/turtle-flag-drawing/
-评论网址：https://news.ycombinator.com/item?id=42772911
-积分：2
+      <title>中国对美国可能出售 TikTok 的立场略有软化</title>
+      <link>https://www.theregister.com/2025/01/21/president_trump_tech_actions_tiktok/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2025/01/21/president_trump_tech_actions_tiktok/
+评论网址：https://news.ycombinator.com/item?id=42775031
+积分：1
 评论数：0]]></description>
-      <guid>https://jtanx.github.io/2018/12/28/turtle-flag-drawing/</guid>
-      <pubDate>Mon, 20 Jan 2025 20:51:46 GMT</pubDate>
+      <guid>https://www.theregister.com/2025/01/21/president_trump_tech_actions_tiktok/</guid>
+      <pubDate>Tue, 21 Jan 2025 00:49:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ruff：用 Rust 编写的 Python linter 和代码格式化程序</title>
+      <link>https://github.com/astral-sh/ruff</link>
+      <description><![CDATA[文章网址：https://github.com/astral-sh/ruff
+评论网址：https://news.ycombinator.com/item?id=42775029
+积分：4
+评论数：0]]></description>
+      <guid>https://github.com/astral-sh/ruff</guid>
+      <pubDate>Tue, 21 Jan 2025 00:49:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
