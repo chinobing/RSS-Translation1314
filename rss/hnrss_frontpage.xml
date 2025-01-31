@@ -4,24 +4,14 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 31 Jan 2025 01:15:03 GMT</lastBuildDate>
-    <item>
-      <title>FDA 批准一种不具有阿片类药物作用的止痛药</title>
-      <link>https://www.nytimes.com/2025/01/30/health/fda-journavx-suzetrigine-vertex-opioids.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2025/01/30/health/fda-journavx-suzetrigine-vertex-opioids.html
-评论网址：https://news.ycombinator.com/item?id=42883734
-积分：3
-评论数：0]]></description>
-      <guid>https://www.nytimes.com/2025/01/30/health/fda-journavx-suzetrigine-vertex-opioids.html</guid>
-      <pubDate>Fri, 31 Jan 2025 00:47:09 GMT</pubDate>
-    </item>
+    <lastBuildDate>Fri, 31 Jan 2025 03:17:43 GMT</lastBuildDate>
     <item>
       <title>显示 HN：Ahey – 一个基于 Web 推送的简单发布-订阅服务</title>
       <link>https://ahey.io</link>
       <description><![CDATA[文章网址：https://ahey.io
 评论网址：https://news.ycombinator.com/item?id=42883363
-积分：11
-评论数：1]]></description>
+积分：26
+评论数：4]]></description>
       <guid>https://ahey.io</guid>
       <pubDate>Thu, 30 Jan 2025 23:39:29 GMT</pubDate>
     </item>
@@ -40,7 +30,7 @@
       <link>https://www.noemamag.com/signs-of-life-in-a-desert-of-death/</link>
       <description><![CDATA[文章网址：https://www.noemamag.com/signs-of-life-in-a-desert-of-death/
 评论网址：https://news.ycombinator.com/item?id=42881858
-积分：14
+积分：17
 评论数：1]]></description>
       <guid>https://www.noemamag.com/signs-of-life-in-a-desert-of-death/</guid>
       <pubDate>Thu, 30 Jan 2025 20:30:09 GMT</pubDate>
@@ -50,8 +40,8 @@
       <link>https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/</link>
       <description><![CDATA[文章网址：https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/
 评论网址：https://news.ycombinator.com/item?id=42881724
-积分：66
-评论数：26]]></description>
+积分：109
+评论数：51]]></description>
       <guid>https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/</guid>
       <pubDate>Thu, 30 Jan 2025 20:14:47 GMT</pubDate>
     </item>
@@ -60,8 +50,8 @@
       <link>https://www.nist.gov/topics/physics/optical-frequency-combs</link>
       <description><![CDATA[文章网址：https://www.nist.gov/topics/physics/optical-frequency-combs
 评论网址：https://news.ycombinator.com/item?id=42881408
-积分：62
-评论数：7]]></description>
+积分：71
+评论数：14]]></description>
       <guid>https://www.nist.gov/topics/physics/optical-frequency-combs</guid>
       <pubDate>Thu, 30 Jan 2025 19:44:02 GMT</pubDate>
     </item>
@@ -70,18 +60,41 @@
       <link>https://github.com/exelban/stats</link>
       <description><![CDATA[文章网址：https://github.com/exelban/stats
 评论网址：https://news.ycombinator.com/item?id=42881342
-积分：168
-评论数：70]]></description>
+积分：202
+评论数：99]]></description>
       <guid>https://github.com/exelban/stats</guid>
       <pubDate>Thu, 30 Jan 2025 19:37:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Python 的反应信号 – 灵感来自 Angular 的反应模型</title>
+      <link>https://github.com/buiapp/reaktiv</link>
+      <description><![CDATA[大家好，我创建了 reaktiv，这是一个小型的 Python 反应信号库，灵感来自 Angular 的反应模型。它允许您定义信号、计算值和效果，以自动跟踪依赖项并高效更新。主要重点是异步优先反应，无需外部依赖。以下是示例代码：```
+import asyncio
+from reaktiv import Signal, ComputeSignal, Effectasync def main():
+count = Signal(0)
+doubled = ComputeSignal(lambda: count.get() * 2) async def log_count():
+print(f&quot;Count: {count.get()}, Doubled: {doubled.get()}&quot;)
+
+Effect(log_count).schedule()
+count.set(5) # Triggers: &quot;Count: 5, Doubled: 10&quot;
+await asyncio.sleep(0) # Allow effects to process
+
+asyncio.run(main())
+```
+
+评论 URL：https://news.ycombinator.com/item?id=42880873
+积分：18
+评论数：7]]></description>
+      <guid>https://github.com/buiapp/reaktiv</guid>
+      <pubDate>Thu, 30 Jan 2025 18:56:42 GMT</pubDate>
     </item>
     <item>
       <title>2023 年，加州执法部门滥用州数据库超过 7000 次</title>
       <link>https://www.eff.org/deeplinks/2025/01/california-police-misused-state-databases-more-7000-times-2023</link>
       <description><![CDATA[文章网址：https://www.eff.org/deeplinks/2025/01/california-police-misused-state-databases-more-7000-times-2023
 评论网址：https://news.ycombinator.com/item?id=42880807
-积分：318
-评论数：133]]></description>
+积分：360
+评论数：160]]></description>
       <guid>https://www.eff.org/deeplinks/2025/01/california-police-misused-state-databases-more-7000-times-2023</guid>
       <pubDate>Thu, 30 Jan 2025 18:48:30 GMT</pubDate>
     </item>
@@ -90,8 +103,8 @@
       <link>https://www.elitefourum.com/t/many-of-the-pokemon-playtest-cards-were-likely-printed-in-2024/52421</link>
       <description><![CDATA[文章网址：https://www.elitefourum.com/t/many-of-the-pokemon-playtest-cards-were-likely-printed-in-2024/52421
 评论网址：https://news.ycombinator.com/item?id=42880704
-积分：421
-评论数：269]]></description>
+积分：448
+评论数：289]]></description>
       <guid>https://www.elitefourum.com/t/many-of-the-pokemon-playtest-cards-were-likely-printed-in-2024/52421</guid>
       <pubDate>Thu, 30 Jan 2025 18:38:12 GMT</pubDate>
     </item>
@@ -103,7 +116,7 @@
 3. 显示我正在寻找的参数## 架构之旅该项目在命令执行方面有几个有趣的约束：### 1. 令牌效率挑战我想尽可能地限制令牌。我不想将长时间运行的命令的整个输出发送给模型，但没有很好的方法可以知道输出的哪些部分对模型正在做的事情很重要。这里可以使用抽样，但目前还没有得到很好的支持。*解决方案：*我找到了一个基于拉的解决方案。来自模型的命令被发送到终端，并且模型知道生成了多少行输出。模型可以选择检索它认为相关的缓冲区的尽可能多的行。### 2. 长时间运行的进程支持我想支持长时间运行的进程。事实证明，当您运行“brew install ffmpeg”时，它需要一段时间，而且并不总是清楚任务何时完成。在早期的概念验证中，模型会假设命令已成功完成，并在第一个命令完成之前开始向终端发送其他命令。*解决方案：*iTerm 提供了一种询问终端是否正在等待用户输入的方法，但我发现它在某些情况下往往会显示误报。例如，长时间运行的命令会导致 iTerm 报告终端正在等待输入，而实际上命令仍在运行。我发现检查与终端相关的进程，并等到这些进程中最有趣的进程稳定在较低的资源使用率，可以很好地表明长时间运行的命令已准备好输入。## 要求* iTerm2 必须正在运行* Node 版本 18 或更高版本## 安全注意事项* 用户负责安全使用该工具。* 没有内置限制：iterm-mcp 不会尝试评估所执行命令的安全性。* 模型可能会以意想不到的方式运行。用户应该监视活动并在适当的时候中止。* 对于多步骤任务，如果模型偏离轨道，则可能需要中断模型。从较小、集中的任务开始，直到您熟悉模型的行为方式。
 
 评论网址：https://news.ycombinator.com/item?id=42880449
-积分：32
+积分：34
 评论数：17]]></description>
       <guid>https://github.com/ferrislucas/iterm-mcp</guid>
       <pubDate>Thu, 30 Jan 2025 18:14:46 GMT</pubDate>
