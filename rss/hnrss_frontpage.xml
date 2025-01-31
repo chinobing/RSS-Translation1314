@@ -4,7 +4,27 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 30 Jan 2025 21:15:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2025 01:15:03 GMT</lastBuildDate>
+    <item>
+      <title>FDA 批准一种不具有阿片类药物作用的止痛药</title>
+      <link>https://www.nytimes.com/2025/01/30/health/fda-journavx-suzetrigine-vertex-opioids.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2025/01/30/health/fda-journavx-suzetrigine-vertex-opioids.html
+评论网址：https://news.ycombinator.com/item?id=42883734
+积分：3
+评论数：0]]></description>
+      <guid>https://www.nytimes.com/2025/01/30/health/fda-journavx-suzetrigine-vertex-opioids.html</guid>
+      <pubDate>Fri, 31 Jan 2025 00:47:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Ahey – 一个基于 Web 推送的简单发布-订阅服务</title>
+      <link>https://ahey.io</link>
+      <description><![CDATA[文章网址：https://ahey.io
+评论网址：https://news.ycombinator.com/item?id=42883363
+积分：11
+评论数：1]]></description>
+      <guid>https://ahey.io</guid>
+      <pubDate>Thu, 30 Jan 2025 23:39:29 GMT</pubDate>
+    </item>
     <item>
       <title>Svix (YC W21) 正在招聘开发营销人员（美国远程）</title>
       <link>https://www.svix.com/careers/</link>
@@ -16,45 +36,52 @@
       <pubDate>Thu, 30 Jan 2025 21:00:10 GMT</pubDate>
     </item>
     <item>
+      <title>沙漠中的生命迹象</title>
+      <link>https://www.noemamag.com/signs-of-life-in-a-desert-of-death/</link>
+      <description><![CDATA[文章网址：https://www.noemamag.com/signs-of-life-in-a-desert-of-death/
+评论网址：https://news.ycombinator.com/item?id=42881858
+积分：14
+评论数：1]]></description>
+      <guid>https://www.noemamag.com/signs-of-life-in-a-desert-of-death/</guid>
+      <pubDate>Thu, 30 Jan 2025 20:30:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jane Street 如何意外地为 OCaml 构建了更好的构建系统</title>
+      <link>https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/</link>
+      <description><![CDATA[文章网址：https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/
+评论网址：https://news.ycombinator.com/item?id=42881724
+积分：66
+评论数：26]]></description>
+      <guid>https://blog.janestreet.com/how-we-accidentally-built-a-better-build-system-for-ocaml-index/</guid>
+      <pubDate>Thu, 30 Jan 2025 20:14:47 GMT</pubDate>
+    </item>
+    <item>
       <title>光频率梳</title>
       <link>https://www.nist.gov/topics/physics/optical-frequency-combs</link>
       <description><![CDATA[文章网址：https://www.nist.gov/topics/physics/optical-frequency-combs
 评论网址：https://news.ycombinator.com/item?id=42881408
-积分：20
-评论数：4]]></description>
+积分：62
+评论数：7]]></description>
       <guid>https://www.nist.gov/topics/physics/optical-frequency-combs</guid>
       <pubDate>Thu, 30 Jan 2025 19:44:02 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Python 的反应信号 – 受 Angular 反应模型的启发</title>
-      <link>https://github.com/buiapp/reaktiv</link>
-      <description><![CDATA[大家好，我创建了 reaktiv，这是一个小型的 Python 反应信号库，灵感来自 Angular 的反应模型。它允许您定义信号、计算值和效果，以自动跟踪依赖项并高效更新。主要重点是异步优先反应，无需外部依赖。以下是示例代码：```
-import asyncio
-from reaktiv import Signal, ComputeSignal, Effectasync def main():
-count = Signal(0)
-doubled = ComputeSignal(lambda: count.get() * 2) async def log_count():
-print(f&quot;Count: {count.get()}, Doubled: {doubled.get()}&quot;)
-
-Effect(log_count).schedule()
-count.set(5) # Triggers: &quot;Count: 5, Doubled: 10&quot;
-await asyncio.sleep(0) # Allow effects to process
-
-asyncio.run(main())
-```
-
-评论 URL：https://news.ycombinator.com/item?id=42880873
-积分：11
-评论数：3]]></description>
-      <guid>https://github.com/buiapp/reaktiv</guid>
-      <pubDate>Thu, 30 Jan 2025 18:56:42 GMT</pubDate>
+      <title>统计信息 – 菜单栏中的 macOS 系统监视器</title>
+      <link>https://github.com/exelban/stats</link>
+      <description><![CDATA[文章网址：https://github.com/exelban/stats
+评论网址：https://news.ycombinator.com/item?id=42881342
+积分：168
+评论数：70]]></description>
+      <guid>https://github.com/exelban/stats</guid>
+      <pubDate>Thu, 30 Jan 2025 19:37:42 GMT</pubDate>
     </item>
     <item>
       <title>2023 年，加州执法部门滥用州数据库超过 7000 次</title>
       <link>https://www.eff.org/deeplinks/2025/01/california-police-misused-state-databases-more-7000-times-2023</link>
       <description><![CDATA[文章网址：https://www.eff.org/deeplinks/2025/01/california-police-misused-state-databases-more-7000-times-2023
 评论网址：https://news.ycombinator.com/item?id=42880807
-积分：145
-评论数：54]]></description>
+积分：318
+评论数：133]]></description>
       <guid>https://www.eff.org/deeplinks/2025/01/california-police-misused-state-databases-more-7000-times-2023</guid>
       <pubDate>Thu, 30 Jan 2025 18:48:30 GMT</pubDate>
     </item>
@@ -63,8 +90,8 @@ asyncio.run(main())
       <link>https://www.elitefourum.com/t/many-of-the-pokemon-playtest-cards-were-likely-printed-in-2024/52421</link>
       <description><![CDATA[文章网址：https://www.elitefourum.com/t/many-of-the-pokemon-playtest-cards-were-likely-printed-in-2024/52421
 评论网址：https://news.ycombinator.com/item?id=42880704
-积分：250
-评论数：147]]></description>
+积分：421
+评论数：269]]></description>
       <guid>https://www.elitefourum.com/t/many-of-the-pokemon-playtest-cards-were-likely-printed-in-2024/52421</guid>
       <pubDate>Thu, 30 Jan 2025 18:38:12 GMT</pubDate>
     </item>
@@ -73,58 +100,13 @@ asyncio.run(main())
       <link>https://github.com/ferrislucas/iterm-mcp</link>
       <description><![CDATA[嗨，HN！您是否希望只需将您的 AI 助手指向您的终端并说“这个输出有什么问题？” 这就是我构建 iterm-mcp 的原因。它允许 Claude Desktop 等 MCP 客户端直接与您的 iTerm2 终端交互 - 读取日志、运行命令、使用 REPL 以及帮助调试问题。想要探索数据或使用 REPL 进行调试？ AI 可以启动 REPL，运行命令并帮助解释结果。这是一个 MCP 服务器，可与 Claude Desktop、LibreChat 和其他兼容模型上下文协议的客户端集成。https://github.com/ferrislucas/iterm-mcp注意：独立项目，与 iTerm2 无官方关联## 功能*高效令牌使用：*iterm-mcp 使模型能够仅检查模型感兴趣的输出。即使对于长时间运行的命令，模型通常也只想查看最后几行输出。*自然集成：*您与模型共享 iTerm。您可以询问屏幕上的内容，或将任务委托给模型并观察它执行每个步骤。*完全终端控制和 REPL 支持：*该模型可以启动并与 REPL 交互，以及发送控制字符，如 ctrl-c、ctrl-z 等。*依赖关系简单：*iterm-mcp 以最少的依赖关系构建，可通过 npx 运行。它旨在易于添加到 Claude Desktop 和其他 MCP 客户端。它应该可以正常工作。## 真实示例：调试 Sidekiq 作业我需要调试具有复杂参数的 Sidekiq 作业。这些参数在日志中被部分混淆了。我问 Claude：“打开 rails 控制台，向我显示最新 XYZ 作业的参数”。模型：1.启动 Rails 控制台
 2. 检索作业详细信息
-3. 显示我正在寻找的参数## 架构之旅该项目在命令执行方面有几个有趣的约束：### 1. 令牌效率挑战我想尽可能地限制令牌。我不想将长时间运行的命令的整个输出发送给模型，但没有很好的方法可以知道输出的哪些部分对模型正在做的事情很重要。这里可以使用抽样，但目前还没有得到很好的支持。*解决方案：*我找到了一个基于拉的解决方案。来自模型的命令被发送到终端，并且模型知道生成了多少行输出。模型可以选择检索它认为相关的缓冲区的尽可能多的行。### 2. 长时间运行的进程支持我想支持长时间运行的进程。事实证明，当您运行“brew install ffmpeg”时，它需要一段时间，而且并不总是清楚任务何时完成。在早期的概念验证中，模型会假设命令已成功完成，并在第一个命令完成之前开始向终端发送其他命令。*解决方案：*iTerm 提供了一种询问终端是否正在等待用户输入的方法，但我发现它在某些情况下往往会显示误报。例如，长时间运行的命令会导致 iTerm 报告终端正在等待输入，而实际上命令仍在运行。我发现，检查与终端相关的进程，并等到其中最有趣的进程稳定在较低的资源使用率，可以很好地表明长时间运行的命令已准备好输入。## 要求* iTerm2 必须正在运行* Node 版本 18 或更高版本## 安全注意事项* 用户负责安全使用该工具。* 没有内置限制：iterm-mcp 不会尝试评估所执行命令的安全性。* 模型可能会以意想不到的方式运行。用户应该监视活动并在适当的时候中止。* 对于多步骤任务，如果模型偏离轨道，则可能需要中断模型。从较小、集中的任务开始，直到您熟悉模型的行为方式。
+3. 显示我正在寻找的参数## 架构之旅该项目在命令执行方面有几个有趣的约束：### 1. 令牌效率挑战我想尽可能地限制令牌。我不想将长时间运行的命令的整个输出发送给模型，但没有很好的方法可以知道输出的哪些部分对模型正在做的事情很重要。这里可以使用抽样，但目前还没有得到很好的支持。*解决方案：*我找到了一个基于拉的解决方案。来自模型的命令被发送到终端，并且模型知道生成了多少行输出。模型可以选择检索它认为相关的缓冲区的尽可能多的行。### 2. 长时间运行的进程支持我想支持长时间运行的进程。事实证明，当您运行“brew install ffmpeg”时，它需要一段时间，而且并不总是清楚任务何时完成。在早期的概念验证中，模型会假设命令已成功完成，并在第一个命令完成之前开始向终端发送其他命令。*解决方案：*iTerm 提供了一种询问终端是否正在等待用户输入的方法，但我发现它在某些情况下往往会显示误报。例如，长时间运行的命令会导致 iTerm 报告终端正在等待输入，而实际上命令仍在运行。我发现检查与终端相关的进程，并等到这些进程中最有趣的进程稳定在较低的资源使用率，可以很好地表明长时间运行的命令已准备好输入。## 要求* iTerm2 必须正在运行* Node 版本 18 或更高版本## 安全注意事项* 用户负责安全使用该工具。* 没有内置限制：iterm-mcp 不会尝试评估所执行命令的安全性。* 模型可能会以意想不到的方式运行。用户应该监视活动并在适当的时候中止。* 对于多步骤任务，如果模型偏离轨道，则可能需要中断模型。从较小、集中的任务开始，直到您熟悉模型的行为方式。
 
 评论网址：https://news.ycombinator.com/item?id=42880449
-积分：20
-评论数：9]]></description>
+积分：32
+评论数：17]]></description>
       <guid>https://github.com/ferrislucas/iterm-mcp</guid>
       <pubDate>Thu, 30 Jan 2025 18:14:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>四元数和球面三角学</title>
-      <link>https://terrytao.wordpress.com/2024/12/19/quaternions-and-spherical-trigonometry/</link>
-      <description><![CDATA[文章网址：https://terrytao.wordpress.com/2024/12/19/quaternions-and-spherical-trigonometry/
-评论网址：https://news.ycombinator.com/item?id=42880242
-积分：51
-评论数：14]]></description>
-      <guid>https://terrytao.wordpress.com/2024/12/19/quaternions-and-spherical-trigonometry/</guid>
-      <pubDate>Thu, 30 Jan 2025 17:57:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Workflow86 - 一名 AI 业务分析师和自动化工程师</title>
-      <link>https://www.workflow86.com/</link>
-      <description><![CDATA[嗨，HN，我们构建了 Workflow86，以帮助团队使用拖放组件（如表单、任务、表格和节点）构建和自动化其内部业务流程和工作流，以实现业务逻辑、API 请求、运行自定义代码等。它可以作为独立的流程/工作流自动化工具，也可以作为现有应用程序和系统（如 HRIS、CRM 和 ERP）之上的工作流自定义层。我们从用户那里听到的一个常见问题是，无代码仍然具有很大的学习曲线，并且可能需要一些时间才能理解如何正确构建某些东西。用户还需要帮助了解首先要构建什么，或者流程可能或应该是什么样子。为了解决这个问题，我们集成了一个充当业务分析师/顾问和工作流自动化工程师的人工智能。该 AI 由大型语言模型和我们在此过程中开发的大量提示工程、RAG 和提示链技术组合提供支持。请在此处查看其实际操作演示：https://www.loom.com/share/fdbd5ad64c8f4071a062ecaa6a6d01f1?...在业务分析师/顾问模式下，AI 可帮助用户集思广益，识别和发现流程并起草流程应有的样子。就像业务分析师/顾问一样，AI 的工作是通过提出正确的问题来从用户那里获取和提取信息和详细信息，而不是仅仅依靠用户的指示。一旦收集到所需的信息，AI 就会进入工程师模式：它将通过选择正确的节点、将它们连接在一起，然后单独完全配置每个节点来规划并构建整个工作流程。这包括在需要时使用存储的凭据编写自定义代码和 API 请求。一旦工作流程构建完成，就可以手动进行编辑，也可以随时要求 AI 调整工作流程（例如，“在最终批准之前添加薪酬范围检查”）。 AI 具有工作流程当前状态的完整上下文，因此它可以“修补”任何更改，例如添加新节点、重写现有节点等。我们从客户那里看到的一些用例包括构建：
-- 针对新 CRM 潜在客户的自动合规性检查
-- 在 HRIS 之上自定义国际承包商入职工作流程
-- 在 ERP 更新之前自动进行供应商风险评估试用一下，让我们知道 AI 的表现以及您的任何其他反馈！完整文档可在 https://docs.workflow86.com 找到
-
-评论 URL：https://news.ycombinator.com/item?id=42879713
-积分：10
-# 评论： 3]]></description>
-      <guid>https://www.workflow86.com/</guid>
-      <pubDate>Thu, 30 Jan 2025 17:05:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>推出 HN：Karsa (YC W25) – 在国际上购买和保存稳定币</title>
-      <link>https://news.ycombinator.com/item?id=42879661</link>
-      <description><![CDATA[大家好，HN，我们是 Shahryar 和 Dale，Karsa (https://gokarsa.com) 的联合创始人。Karsa 让新兴市场的任何人都可以轻松购买和储蓄稳定币，以防范货币不稳定和通货膨胀。这是一个简短的演示：https://www.youtube.com/watch?v=C160H4yB08w#t=11。超过十亿人生活在通货膨胀严重的国家，由于严格的资本管制，他们无法保护自己的财富。这些国家中的大多数银行系统都旨在阻止人们获取美元等资产——希望你能开立外币账户。在加密货币行业工作时，我们花了很多时间思考它如何为现实世界中的人们解决问题。最终，我们看到一个真正的草根用例出现——一个完全在美国之外的用例：发展中国家的人们开始使用像币安这样的加密货币交易所来持有以美元计价的稳定币，这可以保护他们的财富免受通货膨胀的影响。然而，这些交易所主要迎合交易者，对于普通用户来说仍然过于复杂（并且以加密货币为中心），阻碍了大众市场的采用。在与家人和朋友交谈后，我们知道这是我们想要解决的一个问题：当 Shahryar 试图向他在巴基斯坦的叔叔解释加密货币时，他全是行话，直到他解释了稳定币，这立刻就明白了。对于 (1) 以逐年通胀 20-30% 的货币赚钱的人、(2) 在结构上无法使用美元的人、(3) 定期在国外付款的人来说，这会产生巨大的不同。对于普通用户来说，Karsa 看起来和感觉就像一家银行/货币交易所——他们选择一个金额并以市场价格购买以美元计价的稳定币。但在底层，我们从经过验证的点对点稳定币交易者网络路由供应，买家向这些交易者支付押金。(1) 卖家设定价格并将资金存入托管智能合约（可编程的基于规则的代码，只能在卖家和买家之间退还或释放资金）。(2) 买家在设定标准后与该订单匹配，并必须向卖家的本地账户发送法定付款（例如银行转账、支付应用程序等）+上传照片进行验证。(3) 我们直接与卖家验证法定付款，处理任何争议等，然后将托管的稳定币发布到我们为买家创建的数字钱包中。这有什么不同？将其构建为点对点使我们从第一天起就可以真正实现全球化并规避政府干预 - 在大多数这些市场中，中心化产品（即需要在相关国家/地区开设银行账户）经常被关闭。这意味着在我们运营的许多地区，我们是任何人合理获取稳定币的唯一途径。但是，我们已经抽象出了“P2P 部分”。在其他交易所，买家和卖家在每笔交易时都会进行聊天（以确认详细信息等）。这对卖家来说很繁重，对新买家来说也很令人反感。相反，我们坐在中间，直接与卖家匹配价格订单并管理验证、申诉等——这对卖家来说工作量要少得多，对买家来说流程也很简单。我们还尽可能地抽象了有关加密货币的内容——不需要加密知识、钱包/密钥管理等。用户资金存放在自我托管的加密钱包中，这意味着您的资金始终属于您——与中心化交易所（例如 FTX）不同，我们无法访问、冻结或丢失您的资金。我们目前收取 1% 的交易费，但我们最终打算根据区域外汇汇率按比例调整。随着时间的推移，我们希望支持更多普通人的财务堆栈，并正在探索备受期待的功能，包括自由职业者付款、通过卡消费、美国国债收益率等。您可以在https://gokarsa.com查看我们。我们很乐意听到任何反馈、问题或想法。如果您知道新兴市场中有人对此感兴趣（当然，我们并不是真正专注于为美国用户服务），请随时通过shahryar@gokarsa.com与我们联系！
-
-评论网址：https://news.ycombinator.com/item?id=42879661
-积分：43
-评论数：63]]></description>
-      <guid>https://news.ycombinator.com/item?id=42879661</guid>
-      <pubDate>Thu, 30 Jan 2025 16:59:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>评论：《Superbloom：连接技术如何将我们分开》</title>
-      <link>https://lareviewofbooks.org/article/the-case-for-kicking-the-stone/</link>
-      <description><![CDATA[文章网址：https://lareviewofbooks.org/article/the-case-for-kicking-the-stone/
-评论网址：https://news.ycombinator.com/item?id=42878598
-积分：60
-评论数：46]]></description>
-      <guid>https://lareviewofbooks.org/article/the-case-for-kicking-the-stone/</guid>
-      <pubDate>Thu, 30 Jan 2025 15:24:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
