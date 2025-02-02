@@ -4,45 +4,51 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 02 Feb 2025 12:28:45 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2025 15:17:00 GMT</lastBuildDate>
     <item>
-      <title>显示 HN：Lume – 适用于 Apple Silicon 上的 macOS/Linux VM 的 OS 轻量级 CLI/API</title>
+      <title>显示 HN：Lume – 适用于 Apple Silicon 上的 MacOS 和 Linux VM 的 OS 轻量级 CLI。</title>
       <link>https://github.com/trycua/lume</link>
-      <description><![CDATA[我们刚刚开源了 Lume，这是我们在 Apple Silicon 上现有的虚拟化选项遇到障碍后构建的工具。没有 GUI，没有复杂的堆栈 - 只有一个二进制文件，可让您通过 CLI 或 REST API 启动 macOS/Linux VM。我们为何重建轮子：- 使用 1 个命令运行完整的 macOS VM：`lume run macos-sequoia-vanilla:latest`
-- 在 [ghcr.io/trycua](https://ghcr.io/trycua) 上自动 SSH 登录的预构建映像（vanilla macOS、Xcode-ready、Ubuntu Desktop ARM）
-- 原生 GPU 加速 + 100ms Linux VM 冷启动
-- API 服务器以编程方式管理 VM (*`POST /lume/v1/vms`*)仅需 1 个步骤即可运行预构建的 macOS 映像lume run macos-sequoia-vanilla:latest安装
-brew tap trycua/lume
-brew install lume您也可以从 https://github.com/trycua/lume/releases 下载 `lume.pkg.tar.gz` 档案，解压并手动安装该软件包。本地 API 服务器：`lume` 公开一个本地 HTTP API 服务器，该服务器侦听 `http://localhost:3000/lume`，从而实现虚拟机的自动管理。lume serve有关详细的 API 文档，请参阅 [API 参考] https://github.com/trycua/lume/blob/main/docs/API-Reference....不同之处：- 没有背景进程 - VM 像常规 CLI 应用一样运行
-- 直接硬件访问（GPU 直通、USB 设备）
-- 不需要管理员权限的文件系统挂载
-- 为长期运行的 VM 生成系统服务我们现在发布此功能是因为我们认为下一波“计算机使用代理”（讨厌该术语）将比以往任何时候都更需要轻量级、可编写脚本的 VM 主机。HN 开发人员 - 希望得到有关 API 设计的原始反馈，以及这是否解决了您的 Apple Silicon VM 痛点。什么会让您用这个替换 UTM/Multipass/Docker Desktop？Repo：https://github.com/trycua/lume
-Discord 反馈：https://discord.gg/8p56E2KJ
+      <description><![CDATA[我们刚刚开源了 Lume，这是我们在 Apple Silicon 上现有的虚拟化选项遇到障碍后构建的工具。没有 GUI，没有复杂的堆栈 - 只有一个二进制文件，可让您通过 CLI 或 API 启动 macOS 或 Linux VM。我们构建 Lume 的原因：
+- 使用 Apple Virtualization，在 1 个命令中运行本机 macOS VM。框架：`lume run macos-sequoia-vanilla:latest`- 在 https://ghcr.io/trycua 上预构建的映像（macOS、ARM 上的 Ubuntu）- 用于以编程方式管理 VM 的 API 服务器`POST /lume/vms`- github.com/trycua/pylume 上的 python SDK只需 1 个步骤即可运行预构建的 macOS 映像：
+lume run macos-sequoia-vanilla:latest如何安装：brew tap trycua/lumebrew install lume您还可以下载从最新版本 https://github.com/trycua/lume/releases 下载 `lume.pkg.tar.gz` 存档，提取它，然后手动安装包。本地 API 服务器：
+`lume` 公开一个本地 HTTP API 服务器，该服务器侦听 `http://localhost:3000/lume`，从而实现虚拟机的自动管理。lume serve有关详细的 API 文档，请参阅 API 参考(https://github.com/trycua/lume/blob/main/docs/API-Reference....)。HN 开发人员 - 希望得到有关 API 设计的原始反馈，以及这是否能解决您的 Apple Silicon VM 痛点。什么会让您用它替换 UTM/Multipass/Docker Desktop？Repo：https://github.com/trycua/lume
+Python SDK：github.com/trycua/pylume
+Discord 直接反馈：https://discord.gg/8p56E2KJ
 
 评论 URL：https://news.ycombinator.com/item?id=42908061
-积分：22
-评论数：0]]></description>
+积分：91
+评论数：16]]></description>
       <guid>https://github.com/trycua/lume</guid>
       <pubDate>Sun, 02 Feb 2025 11:46:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>间隔重复可以实现无限回忆（2022）</title>
+      <link>https://www.efavdb.com/memory%20recall</link>
+      <description><![CDATA[文章网址：https://www.efavdb.com/memory%20recall
+评论网址：https://news.ycombinator.com/item?id=42908041
+积分：42
+评论数：32]]></description>
+      <guid>https://www.efavdb.com/memory%20recall</guid>
+      <pubDate>Sun, 02 Feb 2025 11:42:06 GMT</pubDate>
     </item>
     <item>
       <title>SanDisk High Endurance microSDXC 卡的逆向工程与分析（2020 年）</title>
       <link>https://ripitapart.com/2020/07/16/reverse-engineering-and-analysis-of-sandisk-high-endurance-microsdxc-card/</link>
       <description><![CDATA[文章网址：https://ripitapart.com/2020/07/16/reverse-engineering-and-analysis-of-sandisk-high-endurance-microsdxc-card/
 评论网址：https://news.ycombinator.com/item?id=42907766
-积分：38
-评论数：1]]></description>
+积分：112
+评论数：28]]></description>
       <guid>https://ripitapart.com/2020/07/16/reverse-engineering-and-analysis-of-sandisk-high-endurance-microsdxc-card/</guid>
       <pubDate>Sun, 02 Feb 2025 10:32:40 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：Modest – Lua 的音乐和声库</title>
       <link>https://github.com/esbudylin/modest</link>
-      <description><![CDATA[这是我过去几个月利用业余时间开发的一个项目。它是一个提供处理音乐和声（音程、音符、和弦）方法的库。例如，它可以解析几乎任何和弦符号（Fmaj7、CminMaj9 等）并将其转换为音符，或者它可以从给定的一组音符中识别和弦。我开始这个项目时的想法是使用形式语法来解析和弦符号。我想使用它而不是手写解析器，这是类似库中的常见方法。Lua 引起了我的注意，因为 Lpeg 是一个解析表达式语法库，既快速又易于使用。使用 Lua 的另一个动机是缺乏类似的库，尽管该语言通常用于音频编程。然而，尽管它是一个 Lua 库，但该项目本身是用 Fennel 编写的——一种可转换为 Lua 的“lispy”语言。 Fennel 具有使为 Lua 平台编写代码变得更加愉快的功能：简洁的语法、宏和解构——Lua 非常缺乏的功能！在此过程中，我确实学到了很多关于音乐理论的知识，尽管我的新知识相当片面。通过研究这个库，我对和弦的类型和结构有所了解，但我对它们的组成和变换几乎没有学到。也许这些将是我在项目中下一步探索的方向。
+      <description><![CDATA[这是我过去几个月利用业余时间开发的一个项目。它是一个提供处理音乐和声（音程、音符、和弦）方法的库。例如，它可以解析几乎任何和弦符号（Fmaj7、CminMaj9 等）并将其转换为音符，或者它可以从给定的一组音符中识别和弦。我开始这个项目时的想法是使用形式语法来解析和弦符号。我想使用它而不是手写解析器，这是类似库中的常见方法。Lua 引起了我的注意，因为 Lpeg 是一个解析表达式语法库，既快速又易于使用。使用 Lua 的另一个动机是缺乏类似的库，尽管该语言通常用于音频编程。然而，尽管它是一个 Lua 库，但该项目本身是用 Fennel 编写的——一种可转换为 Lua 的“lispy”语言。 Fennel 具有使为 Lua 平台编写代码变得更加愉快的功能：简洁的语法、宏和解构——Lua 非常缺乏的功能！在此过程中，我确实学到了很多关于音乐理论的知识，尽管我的新知识相当片面。通过研究这个库，我对和弦的类型和结构有所了解，但我几乎没有学到关于和弦的组成和变换的知识。也许这些将是我在项目中下一步探索的方向。
 
 评论网址：https://news.ycombinator.com/item?id=42907765
-积分：13
-评论数：2]]></description>
+积分：28
+评论数：4]]></description>
       <guid>https://github.com/esbudylin/modest</guid>
       <pubDate>Sun, 02 Feb 2025 10:32:30 GMT</pubDate>
     </item>
@@ -51,8 +57,8 @@ Discord 反馈：https://discord.gg/8p56E2KJ
       <link>https://adriacabeza.github.io/2024/07/12/caffeine-cache.html</link>
       <description><![CDATA[文章网址：https://adriacabeza.github.io/2024/07/12/caffeine-cache.html
 评论网址：https://news.ycombinator.com/item?id=42907488
-积分：47
-评论数：5]]></description>
+积分：87
+评论数：8]]></description>
       <guid>https://adriacabeza.github.io/2024/07/12/caffeine-cache.html</guid>
       <pubDate>Sun, 02 Feb 2025 09:37:05 GMT</pubDate>
     </item>
@@ -61,8 +67,8 @@ Discord 反馈：https://discord.gg/8p56E2KJ
       <link>https://lareviewofbooks.org/article/life-is-more-than-an-engineering-problem/</link>
       <description><![CDATA[文章网址：https://lareviewofbooks.org/article/life-is-more-than-an-engineering-problem/
 评论网址：https://news.ycombinator.com/item?id=42907268
-积分：66
-评论数：5]]></description>
+积分：127
+评论数：40]]></description>
       <guid>https://lareviewofbooks.org/article/life-is-more-than-an-engineering-problem/</guid>
       <pubDate>Sun, 02 Feb 2025 08:53:58 GMT</pubDate>
     </item>
@@ -71,7 +77,7 @@ Discord 反馈：https://discord.gg/8p56E2KJ
       <link>https://brightprogrammer.in/posts/fixing-recursions-in-grammar/</link>
       <description><![CDATA[文章网址：https://brightprogrammer.in/posts/fixing-recursions-in-grammar/
 评论网址：https://news.ycombinator.com/item?id=42907139
-积分：47
+积分：61
 评论数：13]]></description>
       <guid>https://brightprogrammer.in/posts/fixing-recursions-in-grammar/</guid>
       <pubDate>Sun, 02 Feb 2025 08:31:12 GMT</pubDate>
@@ -81,28 +87,18 @@ Discord 反馈：https://discord.gg/8p56E2KJ
       <link>https://ilyasergey.net/assets/pdf/papers/doppler-usenix25.pdf</link>
       <description><![CDATA[文章网址：https://ilyasergey.net/assets/pdf/papers/doppler-usenix25.pdf
 评论网址：https://news.ycombinator.com/item?id=42907060
-积分：7
+积分：11
 评论数：0]]></description>
       <guid>https://ilyasergey.net/assets/pdf/papers/doppler-usenix25.pdf</guid>
       <pubDate>Sun, 02 Feb 2025 08:13:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>展示 HN：我通过将多个模型合并为一个模型构建了一个完整的多模态 LLM</title>
-      <link>https://github.com/JigsawStack/omiai</link>
-      <description><![CDATA[文章网址：https://github.com/JigsawStack/omiai
-评论网址：https://news.ycombinator.com/item?id=42906756
-积分：13
-评论数：0]]></description>
-      <guid>https://github.com/JigsawStack/omiai</guid>
-      <pubDate>Sun, 02 Feb 2025 07:14:43 GMT</pubDate>
     </item>
     <item>
       <title>CDC 要求大规模撤回并修改已提交的研究</title>
       <link>https://insidemedicine.substack.com/p/breaking-news-cdc-orders-mass-retraction</link>
       <description><![CDATA[文章网址：https://insidemedicine.substack.com/p/breaking-news-cdc-orders-mass-retraction
 评论网址：https://news.ycombinator.com/item?id=42905937
-积分：571
-评论数：338]]></description>
+积分：669
+评论数：414]]></description>
       <guid>https://insidemedicine.substack.com/p/breaking-news-cdc-orders-mass-retraction</guid>
       <pubDate>Sun, 02 Feb 2025 04:52:28 GMT</pubDate>
     </item>
@@ -111,8 +107,8 @@ Discord 反馈：https://discord.gg/8p56E2KJ
       <link>https://www.lrb.co.uk/the-paper/v47/n01/raymond-n.-mackenzie/i-m-ready-for-you</link>
       <description><![CDATA[文章网址：https://www.lrb.co.uk/the-paper/v47/n01/raymond-n.-mackenzie/i-m-ready-for-you
 评论网址：https://news.ycombinator.com/item?id=42905737
-积分：15
-评论数：0]]></description>
+积分：25
+评论数：3]]></description>
       <guid>https://www.lrb.co.uk/the-paper/v47/n01/raymond-n.-mackenzie/i-m-ready-for-you</guid>
       <pubDate>Sun, 02 Feb 2025 04:09:45 GMT</pubDate>
     </item>
