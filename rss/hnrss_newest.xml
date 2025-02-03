@@ -4,106 +4,115 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 03 Feb 2025 18:23:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 21:15:41 GMT</lastBuildDate>
     <item>
-      <title>与深度研究博士共处</title>
-      <link>https://gist.github.com/intellectronica/22dbc4a757af9435d2d2b6986b8d3d5d</link>
-      <description><![CDATA[文章网址：https://gist.github.com/intellectronica/22dbc4a757af9435d2d2b6986b8d3d5d
-评论网址：https://news.ycombinator.com/item?id=42921092
+      <title>Sense 和 Versa 3 电池性能计划</title>
+      <link>https://support.google.com/fitbit/answer/15763108?hl=en</link>
+      <description><![CDATA[文章网址：https://support.google.com/fitbit/answer/15763108?hl=en
+评论网址：https://news.ycombinator.com/item?id=42923200
 积分：1
 评论数：0]]></description>
-      <guid>https://gist.github.com/intellectronica/22dbc4a757af9435d2d2b6986b8d3d5d</guid>
-      <pubDate>Mon, 03 Feb 2025 18:15:35 GMT</pubDate>
+      <guid>https://support.google.com/fitbit/answer/15763108?hl=en</guid>
+      <pubDate>Mon, 03 Feb 2025 21:11:41 GMT</pubDate>
     </item>
     <item>
-      <title>立法将美国人工智能发展与共产主义中国脱钩</title>
-      <link>https://www.hawley.senate.gov/hawley-introduces-legislation-to-decouple-american-ai-development-from-communist-china/</link>
-      <description><![CDATA[文章网址：https://www.hawley.senate.gov/hawley-introduces-legislation-to-decouple-american-ai-development-from-communist-china/
-评论网址：https://news.ycombinator.com/item?id=42921070
+      <title>过去 12 天内标题中包含“马斯克”且被标记的提交内容的当前百分比</title>
+      <link>https://news.ycombinator.com/item?id=42923154</link>
+      <description><![CDATA[问：在过去 482 篇（12 天）的提交中，标题中包含“马斯克”的内容占多少百分比？答： 0.6182572614107884方法使用一个简单的脚本将过去 12 天的所有 HN 页面保存到单个 HTML 文件：“yc.htm”。然后 grep Musk yc.htm -B1|sed &#39;/\[flagged\]/d;/^--/d&#39; &gt; 1.htm
+grep Musk yc.htm -B1|sed &#39;/\[flagged\]/!d&#39; &gt;&gt; 1.htm
+total=$(links -dump 1.htm|wc -l)
+flagged=$(links -dump 1.htm|grep -c \[flagged\])
+unflagged=$(links -dump 1.htm|grep -vc \[flagged\])
+echo Q. 在过去的 $total 次提交中\(12 天\) 标题中包含 \“Musk\” 的百分比是多少？
+printf A.\\40
+echo $flagged%$total|k
+
+评论 URL：https://news.ycombinator.com/item?id=42923154
+积分：4
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=42923154</guid>
+      <pubDate>Mon, 03 Feb 2025 21:08:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>南卡罗来纳州向 Scout 提供了 13 亿美元，但纳税人却无法在南卡罗来纳州购买其电动汽车</title>
+      <link>https://www.carscoops.com/2025/01/south-carolina-gave-scout-1-3b-yet-taxpayers-cant-buy-its-evs/</link>
+      <description><![CDATA[文章网址：https://www.carscoops.com/2025/01/south-carolina-gave-scout-1-3b-yet-taxpayers-cant-buy-its-evs/
+评论网址：https://news.ycombinator.com/item?id=42923149
 积分：1
 评论数：0]]></description>
-      <guid>https://www.hawley.senate.gov/hawley-introduces-legislation-to-decouple-american-ai-development-from-communist-china/</guid>
-      <pubDate>Mon, 03 Feb 2025 18:13:57 GMT</pubDate>
+      <guid>https://www.carscoops.com/2025/01/south-carolina-gave-scout-1-3b-yet-taxpayers-cant-buy-its-evs/</guid>
+      <pubDate>Mon, 03 Feb 2025 21:08:01 GMT</pubDate>
     </item>
     <item>
-      <title>威权主义：当你看到它时如何认识它</title>
-      <link>https://commonslibrary.org/authoritarianism-how-you-know-it-when-you-see-it/</link>
-      <description><![CDATA[文章网址：https://commonslibrary.org/authoritarianism-how-you-know-it-when-you-see-it/
-评论网址：https://news.ycombinator.com/item?id=42921065
+      <title>调谐量子点阵列的运动：QDarts 模拟器</title>
+      <link>https://www.quantum-machines.co/blog/the-sport-of-tuning-quantum-dot-arrays-how-the-qdarts-simulator-is-changing-the-game/</link>
+      <description><![CDATA[文章网址：https://www.quantum-machines.co/blog/the-sport-of-tuning-quantum-dot-arrays-how-the-qdarts-simulator-is-changing-the-game/
+评论网址：https://news.ycombinator.com/item?id=42923145
 积分：1
 评论数：0]]></description>
-      <guid>https://commonslibrary.org/authoritarianism-how-you-know-it-when-you-see-it/</guid>
-      <pubDate>Mon, 03 Feb 2025 18:13:33 GMT</pubDate>
+      <guid>https://www.quantum-machines.co/blog/the-sport-of-tuning-quantum-dot-arrays-how-the-qdarts-simulator-is-changing-the-game/</guid>
+      <pubDate>Mon, 03 Feb 2025 21:07:30 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：AI 文本编辑器，并在差异视图中提供建议的编辑</title>
-      <link>https://www.potext.com</link>
-      <description><![CDATA[文章网址：https://www.potext.com
-评论网址：https://news.ycombinator.com/item?id=42921050
-积分：2
+      <title>群体感应</title>
+      <link>https://en.wikipedia.org/wiki/Quorum_sensing</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Quorum_sensing
+评论网址：https://news.ycombinator.com/item?id=42923121
+积分：1
+评论数：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/Quorum_sensing</guid>
+      <pubDate>Mon, 03 Feb 2025 21:05:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：您是否使用较小规模的 LLM 来做什么？</title>
+      <link>https://news.ycombinator.com/item?id=42923120</link>
+      <description><![CDATA[您是否曾使用较小的模型（&lt;= 3B 参数）成功过？每次我尝试使用它们时，它们似乎都愚蠢到无法遵循我尝试提供的说明。好奇其他人是否更幸运，如果有，哪种模型以及用于什么用例。
+
+评论 URL：https://news.ycombinator.com/item?id=42923120
+积分：1
+评论数：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=42923120</guid>
+      <pubDate>Mon, 03 Feb 2025 21:05:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>特朗普签署行政命令设立主权财富基金 助力收购 TikTok</title>
+      <link>https://deadline.com/2025/02/trump-tiktok-sovereign-wealth-fund-1236276916/</link>
+      <description><![CDATA[文章网址：https://deadline.com/2025/02/trump-tiktok-sovereign-wealth-fund-1236276916/
+评论网址：https://news.ycombinator.com/item?id=42923118
+积分：1
+评论数：0]]></description>
+      <guid>https://deadline.com/2025/02/trump-tiktok-sovereign-wealth-fund-1236276916/</guid>
+      <pubDate>Mon, 03 Feb 2025 21:05:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>我索引了 1000 万个 Shopify 产品来构建 API</title>
+      <link>https://developer.searchagora.com/</link>
+      <description><![CDATA[文章网址：https://developer.searchagora.com/
+评论网址：https://news.ycombinator.com/item?id=42923112
+积分：1
 评论数：1]]></description>
-      <guid>https://www.potext.com</guid>
-      <pubDate>Mon, 03 Feb 2025 18:11:18 GMT</pubDate>
+      <guid>https://developer.searchagora.com/</guid>
+      <pubDate>Mon, 03 Feb 2025 21:05:20 GMT</pubDate>
     </item>
     <item>
-      <title>Lee Marshall Nadler 医学博士：对话 (2007)</title>
-      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC2014809/</link>
-      <description><![CDATA[文章网址：https://pmc.ncbi.nlm.nih.gov/articles/PMC2014809/
-评论网址：https://news.ycombinator.com/item?id=42921038
+      <title>在挫折中学习（2020）</title>
+      <link>https://dougbelshaw.com/blog/2020/10/07/learning-through-frustration/</link>
+      <description><![CDATA[文章网址：https://dougbelshaw.com/blog/2020/10/07/learning-through-frustration/
+评论网址：https://news.ycombinator.com/item?id=42923105
 积分：1
 评论数：0]]></description>
-      <guid>https://pmc.ncbi.nlm.nih.gov/articles/PMC2014809/</guid>
-      <pubDate>Mon, 03 Feb 2025 18:10:18 GMT</pubDate>
+      <guid>https://dougbelshaw.com/blog/2020/10/07/learning-through-frustration/</guid>
+      <pubDate>Mon, 03 Feb 2025 21:04:50 GMT</pubDate>
     </item>
     <item>
-      <title>台积电创始人张忠谋访谈[视频]</title>
-      <link>https://www.youtube.com/watch?v=FZItbr4ZJnc</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=FZItbr4ZJnc
-评论网址：https://news.ycombinator.com/item?id=42921035
+      <title>自治与凝聚力</title>
+      <link>https://www.strategicstructures.com/?p=2745</link>
+      <description><![CDATA[文章网址：https://www.strategicstructures.com/?p=2745
+评论网址：https://news.ycombinator.com/item?id=42923098
 积分：1
 评论数：0]]></description>
-      <guid>https://www.youtube.com/watch?v=FZItbr4ZJnc</guid>
-      <pubDate>Mon, 03 Feb 2025 18:10:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ange Albertini 的《可怕的文件格式》（YouTube）[视频]</title>
-      <link>https://www.youtube.com/watch?v=keO3I2XBrD8</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=keO3I2XBrD8
-评论网址：https://news.ycombinator.com/item?id=42921006
-积分：1
-评论数：0]]></description>
-      <guid>https://www.youtube.com/watch?v=keO3I2XBrD8</guid>
-      <pubDate>Mon, 03 Feb 2025 18:06:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>《漫威对手》游戏中存在远程代码执行漏洞</title>
-      <link>https://shalzuth.com/Blog/IFoundAGameExploit</link>
-      <description><![CDATA[文章网址：https://shalzuth.com/Blog/IFoundAGameExploit
-评论网址：https://news.ycombinator.com/item?id=42920962
-积分：2
-评论数：0]]></description>
-      <guid>https://shalzuth.com/Blog/IFoundAGameExploit</guid>
-      <pubDate>Mon, 03 Feb 2025 18:02:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>日产仍在世界部分地区销售已有 28 年历史的 Y61 Patrol</title>
-      <link>https://www.thedrive.com/news/nissan-still-sells-the-28-year-old-y61-patrol-in-some-parts-of-the-world</link>
-      <description><![CDATA[文章网址：https://www.thedrive.com/news/nissan-still-sells-the-28-year-old-y61-patrol-in-some-parts-of-the-world
-评论网址：https://news.ycombinator.com/item?id=42920960
-积分：1
-评论数：0]]></description>
-      <guid>https://www.thedrive.com/news/nissan-still-sells-the-28-year-old-y61-patrol-in-some-parts-of-the-world</guid>
-      <pubDate>Mon, 03 Feb 2025 18:02:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>敏捷不是什么：或者至少它本来就不是什么</title>
-      <link>https://rethinkingsoftware.substack.com/p/what-agile-is-not</link>
-      <description><![CDATA[文章网址：https://rethinkingsoftware.substack.com/p/what-agile-is-not
-评论网址：https://news.ycombinator.com/item?id=42920946
-积分：3
-评论数：0]]></description>
-      <guid>https://rethinkingsoftware.substack.com/p/what-agile-is-not</guid>
-      <pubDate>Mon, 03 Feb 2025 18:01:42 GMT</pubDate>
+      <guid>https://www.strategicstructures.com/?p=2745</guid>
+      <pubDate>Mon, 03 Feb 2025 21:04:12 GMT</pubDate>
     </item>
     </channel>
 </rss>
