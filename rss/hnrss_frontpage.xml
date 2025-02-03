@@ -4,54 +4,93 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 03 Feb 2025 12:32:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 15:17:56 GMT</lastBuildDate>
     <item>
-      <title>YouTube 因“原因”关闭了 15 年历史的音频开发者的频道</title>
-      <link>https://bsky.app/profile/sinevibes.bsky.social/post/3lhazuyn5as2t</link>
-      <description><![CDATA[文章网址：https://bsky.app/profile/sinevibes.bsky.social/post/3lhazuyn5as2t
-评论网址：https://news.ycombinator.com/item?id=42917454
-积分：16
-评论数：1]]></description>
-      <guid>https://bsky.app/profile/sinevibes.bsky.social/post/3lhazuyn5as2t</guid>
-      <pubDate>Mon, 03 Feb 2025 12:21:52 GMT</pubDate>
+      <title>装饰器 JIT：Python 作为 DSL</title>
+      <link>https://eli.thegreenplace.net/2025/decorator-jits-python-as-a-dsl/</link>
+      <description><![CDATA[文章网址：https://eli.thegreenplace.net/2025/decorator-jits-python-as-a-dsl/
+评论网址：https://news.ycombinator.com/item?id=42918846
+积分：7
+评论数：0]]></description>
+      <guid>https://eli.thegreenplace.net/2025/decorator-jits-python-as-a-dsl/</guid>
+      <pubDate>Mon, 03 Feb 2025 15:03:36 GMT</pubDate>
     </item>
     <item>
-      <title>Bluesky 现拥有 3000 万用户</title>
-      <link>https://bsky.app/profile/bsky.app/post/3lgu4lg6j2k2v</link>
-      <description><![CDATA[文章网址：https://bsky.app/profile/bsky.app/post/3lgu4lg6j2k2v
-评论网址：https://news.ycombinator.com/item?id=42916770
-积分：62
-评论数：38]]></description>
-      <guid>https://bsky.app/profile/bsky.app/post/3lgu4lg6j2k2v</guid>
-      <pubDate>Mon, 03 Feb 2025 10:17:41 GMT</pubDate>
+      <title>我用 C 编写了一个 WebAssembly VM</title>
+      <link>https://irreducible.io/blog/my-wasm-interpreter/</link>
+      <description><![CDATA[文章网址：https://irreducible.io/blog/my-wasm-interpreter/
+评论网址：https://news.ycombinator.com/item?id=42918524
+积分：48
+评论数：2]]></description>
+      <guid>https://irreducible.io/blog/my-wasm-interpreter/</guid>
+      <pubDate>Mon, 03 Feb 2025 14:30:11 GMT</pubDate>
     </item>
     <item>
-      <title>贝叶斯认识论</title>
+      <title>纽约在“永久灭鼠战争”中取得小胜利</title>
+      <link>https://www.thetimes.com/us/news-today/article/new-york-finally-claims-a-small-victory-in-forever-war-on-rats-m7x230sg8</link>
+      <description><![CDATA[文章网址：https://www.thetimes.com/us/news-today/article/new-york-finally-claims-a-small-victory-in-forever-war-on-rats-m7x230sg8
+评论网址：https://news.ycombinator.com/item?id=42918425
+积分：4
+评论数：3]]></description>
+      <guid>https://www.thetimes.com/us/news-today/article/new-york-finally-claims-a-small-victory-in-forever-war-on-rats-m7x230sg8</guid>
+      <pubDate>Mon, 03 Feb 2025 14:18:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Klarity – 用于分析 LLM 输出中的不确定性/熵的开源工具</title>
+      <link>https://github.com/klara-research/klarity</link>
+      <description><![CDATA[我们已经开源了 Klarity——一种用于分析 LLM 代币生成中的不确定性和决策的工具。它提供了有关模型如何选择 token 以及它们在何处表现出不确定性的结构化见解。Klarity 的功能：- 生成过程中模型不确定性的实时分析
+- 结合日志概率和语义理解的双重分析
+- 具有可操作见解的结构化 JSON 输出
+- 完全可自行托管，具有可自定义的分析模型该工具通过分析文本生成的每个步骤来工作并返回结构化的 JSON：- 不确定性点：{step、熵、选项[]、类型} 的数组
+- 高置信度：{step、概率、token、上下文} 的数组
+- 风险区域：{type、steps[]、动机} 的数组
+- 建议：{issue、改进} 的数组目前支持 hugging face 转换器（更多框架即将推出），我们对 Qwen2.5（0.5B-7B）模型进行了广泛测试，但应该适用于大多数 HF LLM。安装很简单：
+`pip install git+https://github.com/klara-research/klarity.git`我们正在构建 OS 可解释性/可解释性工具来可视化和分析注意力图、显著性图等，我们希望了解您在 LLM 行为方面的痛点。哪些见解实际上可以帮助您调试这些黑盒系统？链接：- 存储库：https://github.com/klara-research/klarity
+- 我们的网站：[https://klaralabs.com](https://klaralabs.com/)
+
+评论 URL：https://news.ycombinator.com/item?id=42918237
+积分：32
+评论数：2]]></description>
+      <guid>https://github.com/klara-research/klarity</guid>
+      <pubDate>Mon, 03 Feb 2025 13:53:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>“任何威胁亚文化的东西在能够行走之前就会被商品化”（2014）</title>
+      <link>https://www.dezeen.com/2014/12/18/william-gibson-subculture-commodification-london-justin-mcguirk-opinion/</link>
+      <description><![CDATA[文章网址：https://www.dezeen.com/2014/12/18/william-gibson-subculture-commodification-london-justin-mcguirk-opinion/
+评论网址：https://news.ycombinator.com/item?id=42917680
+积分：80
+评论数：47]]></description>
+      <guid>https://www.dezeen.com/2014/12/18/william-gibson-subculture-commodification-london-justin-mcguirk-opinion/</guid>
+      <pubDate>Mon, 03 Feb 2025 12:50:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>贝叶斯认识论（2022）</title>
       <link>https://plato.stanford.edu/entries/epistemology-bayesian/</link>
       <description><![CDATA[文章网址：https://plato.stanford.edu/entries/epistemology-bayesian/
 评论网址：https://news.ycombinator.com/item?id=42916219
-积分：39
-评论数：8]]></description>
+积分：74
+评论数：30]]></description>
       <guid>https://plato.stanford.edu/entries/epistemology-bayesian/</guid>
       <pubDate>Mon, 03 Feb 2025 08:46:27 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic：“申请人不应使用人工智能助手”</title>
-      <link>https://simonwillison.net/2025/Feb/2/anthropic/</link>
-      <description><![CDATA[文章网址：https://simonwillison.net/2025/Feb/2/anthropic/
-评论网址：https://news.ycombinator.com/item?id=42915905
-积分：344
-评论数：258]]></description>
-      <guid>https://simonwillison.net/2025/Feb/2/anthropic/</guid>
-      <pubDate>Mon, 03 Feb 2025 07:46:37 GMT</pubDate>
+      <title>Ruby“线程争用”其实就是 GVL 队列</title>
+      <link>https://island94.org/2025/01/ruby-thread-contention-simply-gvl-queuing</link>
+      <description><![CDATA[文章网址：https://island94.org/2025/01/ruby-thread-contention-simply-gvl-queuing
+评论网址：https://news.ycombinator.com/item?id=42916203
+积分：23
+评论数：3]]></description>
+      <guid>https://island94.org/2025/01/ruby-thread-contention-simply-gvl-queuing</guid>
+      <pubDate>Mon, 03 Feb 2025 08:43:13 GMT</pubDate>
     </item>
     <item>
-      <title>伦敦街景（1840年）</title>
+      <title>伦敦街景（1840）</title>
       <link>https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~323099~90092214:Composite--London-Street-Views-No--</link>
       <description><![CDATA[文章网址：https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~323099~90092214:Composite--London-Street-Views-No--
 评论网址：https://news.ycombinator.com/item?id=42915231
-积分：96
-评论数：14]]></description>
+积分：114
+评论数：15]]></description>
       <guid>https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~323099~90092214:Composite--London-Street-Views-No--</guid>
       <pubDate>Mon, 03 Feb 2025 05:19:52 GMT</pubDate>
     </item>
@@ -60,8 +99,8 @@
       <link>https://www.awa.asn.au/resources/latest-news/technology/innovation/polish-city-using-mussels-monitor-water-quality</link>
       <description><![CDATA[文章网址：https://www.awa.asn.au/resources/latest-news/technology/innovation/polish-city-using-mussels-monitor-water-quality
 评论网址：https://news.ycombinator.com/item?id=42915113
-积分：97
-评论数：24]]></description>
+积分：138
+评论数：33]]></description>
       <guid>https://www.awa.asn.au/resources/latest-news/technology/innovation/polish-city-using-mussels-monitor-water-quality</guid>
       <pubDate>Mon, 03 Feb 2025 04:53:11 GMT</pubDate>
     </item>
@@ -70,40 +109,10 @@
       <link>https://github.com/amanvirparhar/chaplin</link>
       <description><![CDATA[文章网址：https://github.com/amanvirparhar/chaplin
 评论网址：https://news.ycombinator.com/item?id=42914431
-积分：29
+积分：42
 评论数：5]]></description>
       <guid>https://github.com/amanvirparhar/chaplin</guid>
       <pubDate>Mon, 03 Feb 2025 02:59:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>个人网站模式 (2003)</title>
-      <link>http://www.rdrop.com/~half/Creations/Writings/Web.patterns/index.html</link>
-      <description><![CDATA[文章网址：http://www.rdrop.com/~half/Creations/Writings/Web.patterns/index.html
-评论网址：https://news.ycombinator.com/item?id=42913831
-积分：80
-评论数：12]]></description>
-      <guid>http://www.rdrop.com/~half/Creations/Writings/Web.patterns/index.html</guid>
-      <pubDate>Mon, 03 Feb 2025 01:18:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>引入深入研究</title>
-      <link>https://openai.com/index/introducing-deep-research/</link>
-      <description><![CDATA[文章网址：https://openai.com/index/introducing-deep-research/
-评论网址：https://news.ycombinator.com/item?id=42913251
-积分：422
-评论数：303]]></description>
-      <guid>https://openai.com/index/introducing-deep-research/</guid>
-      <pubDate>Mon, 03 Feb 2025 00:06:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>网页抖动和复古阴影的艺术 (2024)</title>
-      <link>https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/</link>
-      <description><![CDATA[文章网址：https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/
-评论网址：https://news.ycombinator.com/item?id=42913180
-积分：86
-评论数：10]]></description>
-      <guid>https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/</guid>
-      <pubDate>Sun, 02 Feb 2025 23:58:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
