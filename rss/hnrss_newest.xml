@@ -4,105 +4,110 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 04 Feb 2025 06:23:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 09:17:55 GMT</lastBuildDate>
     <item>
-      <title>零长度发射</title>
-      <link>https://en.wikipedia.org/wiki/Zero-length_launch</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Zero-length_launch
-评论网址：https://news.ycombinator.com/item?id=42928731
-积分：1
-评论数：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Zero-length_launch</guid>
-      <pubDate>Tue, 04 Feb 2025 06:18:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tik-Tok 赢得社交媒体推荐系统之战（2020 年）</title>
-      <link>https://leehanchung.github.io/blogs/2020/02/18/Tik-Tok-Algorithm/</link>
-      <description><![CDATA[文章网址：https://leehanchung.github.io/blogs/2020/02/18/Tik-Tok-Algorithm/
-评论网址：https://news.ycombinator.com/item?id=42928649
-积分：1
-评论数：0]]></description>
-      <guid>https://leehanchung.github.io/blogs/2020/02/18/Tik-Tok-Algorithm/</guid>
-      <pubDate>Tue, 04 Feb 2025 06:07:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>OWASP 非人类身份 顶部</title>
-      <link>https://owasp.org/www-project-non-human-identities-top-10/</link>
-      <description><![CDATA[文章网址：https://owasp.org/www-project-non-human-identities-top-10/
-评论网址：https://news.ycombinator.com/item?id=42928645
+      <title>科学与统计学 George Box (1976) [pdf]</title>
+      <link>http://jupiter.chem.uoa.gr/thanost/papers/papers8/JAmStatAssoc_71(1976)791.pdf</link>
+      <description><![CDATA[文章网址：http://jupiter.chem.uoa.gr/thanost/papers/papers8/JAmStatAssoc_71(1976)791.pdf
+评论网址：https://news.ycombinator.com/item?id=42930043
 积分：2
 评论数：0]]></description>
-      <guid>https://owasp.org/www-project-non-human-identities-top-10/</guid>
-      <pubDate>Tue, 04 Feb 2025 06:07:02 GMT</pubDate>
+      <guid>http://jupiter.chem.uoa.gr/thanost/papers/papers8/JAmStatAssoc_71(1976)791.pdf</guid>
+      <pubDate>Tue, 04 Feb 2025 09:08:29 GMT</pubDate>
     </item>
     <item>
-      <title>在 JavaScript 中有很多方法可以分解长任务</title>
-      <link>https://macarthur.me/posts/long-tasks/</link>
-      <description><![CDATA[文章网址：https://macarthur.me/posts/long-tasks/
-评论网址：https://news.ycombinator.com/item?id=42928607
+      <title>显示 HN：基于开源架构的 Postgres 变更数据捕获实用程序</title>
+      <link>https://github.com/Tggl/pg-capture</link>
+      <description><![CDATA[我目前正在开发一个 Node.js 实用程序，用于 Postgres 的 CDC 上的基于架构的方法。
+这是一个轻量级实用程序，您可以将其插入现有 WAL 事件服务（例如 Debezium、WAL-listener...）之上，并允许您定义要监听的架构。您无需监听原始的单个表级事件，而是可以自动将这些事件聚合到高级架构事件中。从概念上讲，这就像拥有 WAL 事件，但在 SQL 视图上，对视图所基于的表的任何修改都会触发视图本身的高级事件。这有许多实际应用，包括：
+- 将您的单一事实来源（Postrges）同步到另一个存储（例如 Elastic / Algolia...）
+- 拥有可靠的事件驱动架构，您可以在其中更改底层数据模型，同时保持合同相同我深受 pgsync 的启发，但想构建一个轻量级的通用版本，不与 Postgres 之外的任何特定技术绑定。我正在寻找关于这个想法的早期反馈，以了解牵引力和我应该给予项目的方向。
+
+评论网址：https://news.ycombinator.com/item?id=42930027
 积分：1
 评论数：0]]></description>
-      <guid>https://macarthur.me/posts/long-tasks/</guid>
-      <pubDate>Tue, 04 Feb 2025 06:01:21 GMT</pubDate>
+      <guid>https://github.com/Tggl/pg-capture</guid>
+      <pubDate>Tue, 04 Feb 2025 09:06:29 GMT</pubDate>
     </item>
     <item>
-      <title>Meta 的超大规模基础设施：概述和见解 [pdf]</title>
-      <link>https://tangchq74.github.io/Meta-infra.pdf</link>
-      <description><![CDATA[文章网址：https://tangchq74.github.io/Meta-infra.pdf
-评论网址：https://news.ycombinator.com/item?id=42928528
-积分：1
-评论数：0]]></description>
-      <guid>https://tangchq74.github.io/Meta-infra.pdf</guid>
-      <pubDate>Tue, 04 Feb 2025 05:48:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Asl HN：您梦想拥有什么软件，但没有时间自己编写代码？</title>
-      <link>https://news.ycombinator.com/item?id=42928485</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=42928485
-积分：1
-评论数：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=42928485</guid>
-      <pubDate>Tue, 04 Feb 2025 05:41:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>万事达卡计划取消信用卡号码</title>
-      <link>https://www.abc.net.au/news/2025-02-04/mastercard-credit-card-numbers-biometric/104895038</link>
-      <description><![CDATA[文章网址：https://www.abc.net.au/news/2025-02-04/mastercard-credit-card-numbers-biometric/104895038
-评论网址：https://news.ycombinator.com/item?id=42928483
+      <title>用户界面的短暂性</title>
+      <link>https://borretti.me/article/ephemerality-in-user-interfaces</link>
+      <description><![CDATA[文章网址：https://borretti.me/article/ephemerality-in-user-interfaces
+评论网址：https://news.ycombinator.com/item?id=42930025
 积分：2
 评论数：0]]></description>
-      <guid>https://www.abc.net.au/news/2025-02-04/mastercard-credit-card-numbers-biometric/104895038</guid>
-      <pubDate>Tue, 04 Feb 2025 05:41:23 GMT</pubDate>
+      <guid>https://borretti.me/article/ephemerality-in-user-interfaces</guid>
+      <pubDate>Tue, 04 Feb 2025 09:06:26 GMT</pubDate>
     </item>
     <item>
-      <title>阿里巴巴/平头哥的玄铁C910</title>
-      <link>https://chipsandcheese.com/p/alibabat-heads-xuantie-c910</link>
-      <description><![CDATA[文章网址：https://chipsandcheese.com/p/alibabat-heads-xuantie-c910
-评论网址：https://news.ycombinator.com/item?id=42928482
-积分：8
-评论数：0]]></description>
-      <guid>https://chipsandcheese.com/p/alibabat-heads-xuantie-c910</guid>
-      <pubDate>Tue, 04 Feb 2025 05:40:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>LANL 与 OpenAI 合作将模型安装到最新的超级计算机上</title>
-      <link>https://www.santafenewmexican.com/news/local_news/lanl-partners-with-openai-to-install-models-onto-newest-supercomputer/article_7b69da92-e248-11ef-af6c-d792a538b733.html</link>
-      <description><![CDATA[文章网址：https://www.santafenewmexican.com/news/local_news/lanl-partners-with-openai-to-install-models-onto-newest-supercomputer/article_7b69da92-e248-11ef-af6c-d792a538b733.html
-评论网址：https://news.ycombinator.com/item?id=42928478
-积分：2
-评论数：1]]></description>
-      <guid>https://www.santafenewmexican.com/news/local_news/lanl-partners-with-openai-to-install-models-onto-newest-supercomputer/article_7b69da92-e248-11ef-af6c-d792a538b733.html</guid>
-      <pubDate>Tue, 04 Feb 2025 05:40:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>s1 的要点：简单的测试时间缩放</title>
-      <link>https://xeiaso.net/notes/2025/s1-simple-test-time-scaling/</link>
-      <description><![CDATA[文章网址：https://xeiaso.net/notes/2025/s1-simple-test-time-scaling/
-评论网址：https://news.ycombinator.com/item?id=42928475
+      <title>我们推出了第一款数字产品——作为独立开发者的惨痛教训</title>
+      <link>https://alt-generator.ai/</link>
+      <description><![CDATA[文章网址：https://alt-generator.ai/
+评论网址：https://news.ycombinator.com/item?id=42930023
 积分：1
 评论数：1]]></description>
-      <guid>https://xeiaso.net/notes/2025/s1-simple-test-time-scaling/</guid>
-      <pubDate>Tue, 04 Feb 2025 05:39:47 GMT</pubDate>
+      <guid>https://alt-generator.ai/</guid>
+      <pubDate>Tue, 04 Feb 2025 09:06:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>迈向医学基础的计算形式化</title>
+      <link>https://writings.stephenwolfram.com/2025/02/towards-a-computational-formalization-for-foundations-of-medicine/</link>
+      <description><![CDATA[文章网址：https://writings.stephenwolfram.com/2025/02/towards-a-computational-formalization-for-foundations-of-medicine/
+评论网址：https://news.ycombinator.com/item?id=42930011
+积分：2
+评论数：0]]></description>
+      <guid>https://writings.stephenwolfram.com/2025/02/towards-a-computational-formalization-for-foundations-of-medicine/</guid>
+      <pubDate>Tue, 04 Feb 2025 09:05:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>深度研究、深度胡说八道以及科学的潜在（模型）崩溃</title>
+      <link>https://garymarcus.substack.com/p/deep-research-deep-bullshit-and-the</link>
+      <description><![CDATA[文章网址：https://garymarcus.substack.com/p/deep-research-deep-bullshit-and-the
+评论网址：https://news.ycombinator.com/item?id=42929987
+积分：3
+评论数：0]]></description>
+      <guid>https://garymarcus.substack.com/p/deep-research-deep-bullshit-and-the</guid>
+      <pubDate>Tue, 04 Feb 2025 09:03:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>亿万富翁的蓝图：摧毁民主、建立数字国家</title>
+      <link>https://old.reddit.com/r/Futurology/comments/1ihafo1/the_billionaire_blueprint_to_dismantle_democracy/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/Futurology/comments/1ihafo1/the_billionaire_blueprint_to_dismantle_democracy/
+评论网址：https://news.ycombinator.com/item?id=42929965
+积分：1
+评论数：0]]></description>
+      <guid>https://old.reddit.com/r/Futurology/comments/1ihafo1/the_billionaire_blueprint_to_dismantle_democracy/</guid>
+      <pubDate>Tue, 04 Feb 2025 09:00:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>RTX 5060Ti/5060 2025/03</title>
+      <link>https://twitter.com/wxnod/status/1885735393871667212</link>
+      <description><![CDATA[文章网址：https://twitter.com/wxnod/status/1885735393871667212
+评论网址：https://news.ycombinator.com/item?id=42929947
+积分：1
+评论数：0]]></description>
+      <guid>https://twitter.com/wxnod/status/1885735393871667212</guid>
+      <pubDate>Tue, 04 Feb 2025 08:58:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>远程：借助 Elixir 从零成长为独角兽</title>
+      <link>https://elixir-lang.org/blog/2025/01/21/remote-elixir-case/</link>
+      <description><![CDATA[文章网址：https://elixir-lang.org/blog/2025/01/21/remote-elixir-case/
+评论网址：https://news.ycombinator.com/item?id=42929934
+积分：1
+评论数：0]]></description>
+      <guid>https://elixir-lang.org/blog/2025/01/21/remote-elixir-case/</guid>
+      <pubDate>Tue, 04 Feb 2025 08:57:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>“零警告”：资深 YouTuber 痛斥频道被无故删除</title>
+      <link>https://arstechnica.com/tech-policy/2025/02/youtube-briefly-banned-15-year-old-channel-with-no-strikes-and-wont-say-why/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/tech-policy/2025/02/youtube-briefly-banned-15-year-old-channel-with-no-strikes-and-wont-say-why/
+评论网址：https://news.ycombinator.com/item?id=42929905
+积分：3
+评论数：0]]></description>
+      <guid>https://arstechnica.com/tech-policy/2025/02/youtube-briefly-banned-15-year-old-channel-with-no-strikes-and-wont-say-why/</guid>
+      <pubDate>Tue, 04 Feb 2025 08:54:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
