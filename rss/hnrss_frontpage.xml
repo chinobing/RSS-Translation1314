@@ -1,109 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>黑客新闻：头版</title>
+    <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 11 Feb 2025 15:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2025 18:22:13 GMT</lastBuildDate>
     <item>
-      <title>2024 年 Backblaze Drive 统计数据</title>
-      <link>https://www.backblaze.com/blog/backblaze-drive-stats-for-2024/</link>
-      <description><![CDATA[文章网址：https://www.backblaze.com/blog/backblaze-drive-stats-for-2024/
-评论网址：https://news.ycombinator.com/item?id=43013431
-积分：7
+      <title>联合健康集团聘请了一家诽谤律师事务所来追究社交媒体帖子的批评</title>
+      <link>https://fortune.com/2025/02/10/unitedhealth-defamation-law-firm-social-media/</link>
+      <description><![CDATA[文章网址：https://fortune.com/2025/02/10/unitedhealth-defamation-law-firm-social-media/
+评论网址：https://news.ycombinator.com/item?id=43015713
+积分：37
+评论数：6]]></description>
+      <guid>https://fortune.com/2025/02/10/unitedhealth-defamation-law-firm-social-media/</guid>
+      <pubDate>Tue, 11 Feb 2025 17:44:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能冲击科技行业，IT 失业率升至 5.7%</title>
+      <link>https://www.wsj.com/articles/it-unemployment-rises-to-5-7-as-ai-hits-tech-jobs-7726bb1b</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/articles/it-unemployment-rises-to-5-7-as-ai-hits-tech-jobs-7726bb1b
+评论网址：https://news.ycombinator.com/item?id=43015397
+积分：12
+评论数：7]]></description>
+      <guid>https://www.wsj.com/articles/it-unemployment-rises-to-5-7-as-ai-hits-tech-jobs-7726bb1b</guid>
+      <pubDate>Tue, 11 Feb 2025 17:18:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>JetBrains Fleet 不再支持 Kotlin Multiplatform</title>
+      <link>https://blog.jetbrains.com/kotlin/2025/02/kotlin-multiplatform-tooling-shifting-gears/</link>
+      <description><![CDATA[文章URL： https://blog.jetbrains.com/kotbrains.com/kotbrains.com/kotlin /2025/02/kotlin-multiplatform-tooling-tooling-hifting-gears/ 
+注释URL： https://news.ycombinator.com/item?id=43015387  &gt;
+点：13 
+＃评论：3 ]]></description>
+      <guid>https://blog.jetbrains.com/kotlin/2025/02/kotlin-multiplatform-tooling-shifting-gears/</guid>
+      <pubDate>Tue, 11 Feb 2025 17:17:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动 HN：A0.dev (YC W25) – React Native 应用生成器</title>
+      <link>https://news.ycombinator.com/item?id=43015267</link>
+      <description><![CDATA[嗨，HN — 我们是 Seth 和 Ayo，我们正在构建 a0.dev (https://a0.dev)。a0.dev 是一个旨在将 React Native 开发时间从几周缩短到几个小时的平台。我们一起开发移动应用程序已有七年了，并取得了一些成功。但有一件事一直困扰着我们，那就是构建移动应用程序比构建网站要困难得多。如果您之前使用 React Native 构建过应用程序，那么您一定很熟悉使用 Xcode 和 Android Studio 的痛苦，在开始制作应用程序之前，您需要编写大量样板文件，设置状态管理，当然还要经历可怕的应用程序审核。我们决定构建一个可以加快应用程序开发过程的平台。我们已经看到了像 v0 这样的新代码生成平台的成功，并希望 React Native 能够走得更远。我们构建了一个 AI 应用生成器，它接受用户的提示并创建具有即时实时预览的自定义 React Native 应用。这是一个 5 分钟的演示，我们重新创建了 Hacker News UI：https://youtu.be/f3lzBRBUousa0.dev 非常适合在 React Native 中快速原型化组件和屏幕，用户可以将代码从我们的生成器复制到他们喜欢的开发环境中。我们的登录页面有几个示例提示，但我们鼓励您在尝试时发挥创造力。我们不仅成功生成了 Instagram Feed 等功能性屏幕，还成功生成了 Minesweeper 或 Flappy Bird 等 2D 游戏。我们的聊天有“UI 专家”和“高级逻辑”模型，用户可以根据手头的任务在它们之间切换。用户可以通过点击页面右上角的“需要完整应用”按钮，从在单个屏幕上工作升级到创建完整应用。这将范围从具有单个文件的独立聊天更改为可以包含多个聊天和文件的完整项目。我们推出了一款 IOS 应用，用户可以下载该应用，以便在物理设备上预览应用。我们发现许多应用在物理设备上看起来和感觉都更好，所以我们建议尝试一下。我们的目标是继续改进应用生成器，同时添加更多功能，帮助开发人员将他们的应用发布到应用商店并从这些应用中赚钱。我们目前路线图上的主要功能是 Supabase 集成和“一键提交”按钮，让开发人员将他们的应用发布到应用商店。有几个限制需要注意。我们正在努力发布我们的 Android 应用，但 Android 用户应该能够使用 Expo Go 应用预览他们的应用。该应用在浏览器中运行 React Native Web，因此任何不支持 Web 的依赖项都无法与 Web 预览一起使用，但应该可以在手机上使用。还有一些依赖项我们的系统无法处理，因为它们需要的本机模块目前尚未打包到我们的应用中。我们希望你们能查看并尝试使用 a0.dev 制作应用。我们全天候在 Discord 上提供帮助，帮助开发人员解决他们可能遇到的任何问题，并希望指导人们在 App Store 上真正发布他们的应用。请告诉我们您希望看到哪些功能以及您在构建应用程序时遇到的任何问题，我们很乐意听到您的体验。这是再次查看的链接：（https://a0.dev）我们不再需要注册第一条消息，因此您可以直接进入并尝试一下。期待您的想法！
+
+评论网址：https://news.ycombinator.com/item?id=43015267
+积分：23
+评论数：9]]></description>
+      <guid>https://news.ycombinator.com/item?id=43015267</guid>
+      <pubDate>Tue, 11 Feb 2025 17:08:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Legion Health（YC S21，人工智能驱动的精神病学）招聘创始后端工程师</title>
+      <link>https://www.ycombinator.com/companies/legion-health/jobs/3pA8uX7-senior-backend-engineer-event-driven-architecture-ai-enabled-systems</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/legion-health/jobs/3pA8uX7-senior-backend-engineer-event-driven-architecture-ai-enabled-systems
+评论网址：https://news.ycombinator.com/item?id=43015169
+积分：0
 评论数：0]]></description>
-      <guid>https://www.backblaze.com/blog/backblaze-drive-stats-for-2024/</guid>
-      <pubDate>Tue, 11 Feb 2025 14:55:45 GMT</pubDate>
+      <guid>https://www.ycombinator.com/companies/legion-health/jobs/3pA8uX7-senior-backend-engineer-event-driven-architecture-ai-enabled-systems</guid>
+      <pubDate>Tue, 11 Feb 2025 17:00:30 GMT</pubDate>
     </item>
     <item>
-      <title>Canonical 宣布推出 12 年 Kubernetes LTS</title>
-      <link>https://canonical.com/blog/12-year-lts-for-kubernetes</link>
-      <description><![CDATA[文章网址：https://canonical.com/blog/12-year-lts-for-kubernetes
-评论网址：https://news.ycombinator.com/item?id=43013033
-积分：7
+      <title>法学硕士可以自学如何更好地预测未来</title>
+      <link>https://arxiv.org/abs/2502.05253</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2502.05253
+评论网址：https://news.ycombinator.com/item?id=43014918
+积分：9
 评论数：0]]></description>
-      <guid>https://canonical.com/blog/12-year-lts-for-kubernetes</guid>
-      <pubDate>Tue, 11 Feb 2025 14:27:00 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2502.05253</guid>
+      <pubDate>Tue, 11 Feb 2025 16:40:20 GMT</pubDate>
     </item>
     <item>
-      <title>为什么人工智能聊天机器人很难承认“我不知道”？</title>
-      <link>https://www.wsj.com/tech/ai/ai-halluciation-answers-i-dont-know-738bde07</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/tech/ai/ai-halluciation-answers-i-dont-know-738bde07
-评论网址：https://news.ycombinator.com/item?id=43013028
-积分：33
-评论数：39]]></description>
-      <guid>https://www.wsj.com/tech/ai/ai-halluciation-answers-i-dont-know-738bde07</guid>
-      <pubDate>Tue, 11 Feb 2025 14:26:32 GMT</pubDate>
+      <title>是时候对高效个性化文本生成的风险采取行动了</title>
+      <link>https://arxiv.org/abs/2502.06560</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2502.06560
+评论网址：https://news.ycombinator.com/item?id=43014573
+积分：15
+评论数：5]]></description>
+      <guid>https://arxiv.org/abs/2502.06560</guid>
+      <pubDate>Tue, 11 Feb 2025 16:14:03 GMT</pubDate>
     </item>
     <item>
-      <title>Google 日历不再包含黑人历史月和骄傲月的开始</title>
-      <link>https://www.cnbc.com/2025/02/10/google-calendar-removes-start-of-black-history-womens-history-months.html</link>
-      <description><![CDATA[文章网址：https://www.cnbc.com/2025/02/10/google-calendar-removes-start-of-black-history-womens-history-months.html
-评论网址：https://news.ycombinator.com/item?id=43012901
-积分：10
-评论数：0]]></description>
-      <guid>https://www.cnbc.com/2025/02/10/google-calendar-removes-start-of-black-history-womens-history-months.html</guid>
-      <pubDate>Tue, 11 Feb 2025 14:12:36 GMT</pubDate>
+      <title>欧盟的Altstore获得了第一个本地iOS色情应用程序</title>
+      <link>https://www.macrumors.com/2025/02/03/eu-altstore-porn-app/</link>
+      <description><![CDATA[文章URL： https://wwwww.macrumors.com/2025/02 /03/eu-altstore-porn-app/ 
+注释URL： https://news.ycombinator.com/item？id=43014542  &gt;
+点：47 
+＃评论：32 ]]></description>
+      <guid>https://www.macrumors.com/2025/02/03/eu-altstore-porn-app/</guid>
+      <pubDate>Tue, 11 Feb 2025 16:11:47 GMT</pubDate>
     </item>
     <item>
-      <title>通过电视观看 YouTube 的用户比通过移动设备观看的用户更多</title>
-      <link>https://www.engadget.com/entertainment/youtube/more-users-are-watching-youtube-on-tv-than-mobile-140035151.html</link>
-      <description><![CDATA[文章网址：https://www.engadget.com/entertainment/youtube/more-users-are-watching-youtube-on-tv-than-mobile-140035151.html
-评论网址：https://news.ycombinator.com/item?id=43012880
-积分：18
-评论数：15]]></description>
-      <guid>https://www.engadget.com/entertainment/youtube/more-users-are-watching-youtube-on-tv-than-mobile-140035151.html</guid>
-      <pubDate>Tue, 11 Feb 2025 14:10:47 GMT</pubDate>
+      <title>E Ink 彩色电子纸技术升级，适用于户外显示屏</title>
+      <link>https://newatlas.com/technology/e-ink-kaleido-outdoor-3-75-inch-displays/</link>
+      <description><![CDATA[文章网址：https://newatlas.com/technology/e-ink-kaleido-outdoor-3-75-inch-displays/
+评论网址：https://news.ycombinator.com/item?id=43014418
+积分：46
+评论数：22]]></description>
+      <guid>https://newatlas.com/technology/e-ink-kaleido-outdoor-3-75-inch-displays/</guid>
+      <pubDate>Tue, 11 Feb 2025 16:01:19 GMT</pubDate>
     </item>
     <item>
-      <title>无趣的技术已经成熟，但并不过时</title>
-      <link>https://rubenerd.com/boring-tech-is-mature-not-old/</link>
-      <description><![CDATA[文章网址：https://rubenerd.com/boring-tech-is-mature-not-old/
-评论网址：https://news.ycombinator.com/item?id=43012862
-积分：78
-评论数：38]]></description>
-      <guid>https://rubenerd.com/boring-tech-is-mature-not-old/</guid>
-      <pubDate>Tue, 11 Feb 2025 14:08:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>FLAC 1.5 提供多线程编码</title>
-      <link>https://www.phoronix.com/news/FLAC-1.5-Released</link>
-      <description><![CDATA[文章网址：https://www.phoronix.com/news/FLAC-1.5-Released
-评论网址：https://news.ycombinator.com/item?id=43012751
-积分：61
-评论数：11]]></description>
-      <guid>https://www.phoronix.com/news/FLAC-1.5-Released</guid>
-      <pubDate>Tue, 11 Feb 2025 13:58:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软开源 PostgreSQL 扩展以进军 NoSQL</title>
-      <link>https://www.theregister.com/2025/02/11/microsoft_postgresql_extensions/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2025/02/11/microsoft_postgresql_extensions/
-评论网址：https://news.ycombinator.com/item?id=43012294
-积分：42
-评论数：17]]></description>
-      <guid>https://www.theregister.com/2025/02/11/microsoft_postgresql_extensions/</guid>
-      <pubDate>Tue, 11 Feb 2025 13:05:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>工作的神话 (2018)</title>
-      <link>https://crimethinc.com/2018/09/03/the-mythology-of-work-eight-myths-that-keep-your-eyes-on-the-clock-and-your-nose-to-the-grindstone</link>
-      <description><![CDATA[文章网址：https://crimethinc.com/2018/09/03/the-mythology-of-work-eight-myths-that-keep-your-eyes-on-the-clock-and-your-nose-to-the-grindstone
-评论网址：https://news.ycombinator.com/item?id=43012078
-积分：44
-评论数：45]]></description>
-      <guid>https://crimethinc.com/2018/09/03/the-mythology-of-work-eight-myths-that-keep-your-eyes-on-the-clock-and-your-nose-to-the-grindstone</guid>
-      <pubDate>Tue, 11 Feb 2025 12:37:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>解雇人工智能程序员将毁掉一切</title>
-      <link>https://defragzone.substack.com/p/techs-dumbest-mistake-why-firing</link>
-      <description><![CDATA[文章网址：https://defragzone.substack.com/p/techs-dumbest-mistake-why-firing
-评论网址：https://news.ycombinator.com/item?id=43010814
-积分：104
-评论数：165]]></description>
-      <guid>https://defragzone.substack.com/p/techs-dumbest-mistake-why-firing</guid>
-      <pubDate>Tue, 11 Feb 2025 09:42:42 GMT</pubDate>
+      <title>英特尔的 Battlemage 架构</title>
+      <link>https://chipsandcheese.com/p/intels-battlemage-architecture</link>
+      <description><![CDATA[文章网址：https://chipsandcheese.com/p/intels-battlemage-architecture
+评论网址：https://news.ycombinator.com/item?id=43014408
+积分：58
+评论数：21]]></description>
+      <guid>https://chipsandcheese.com/p/intels-battlemage-architecture</guid>
+      <pubDate>Tue, 11 Feb 2025 16:00:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
