@@ -3,36 +3,36 @@
   <channel>
     <title>帖子 IndieHackers</title>
     <link>https://feed.indiehackers.world</link>
-    <description>这是indiehackers.com的非官方提要</description>
-    <lastBuildDate>Tue, 11 Feb 2025 18:21:56 GMT</lastBuildDate>
+    <description>这是 indiehackers.com 的非官方信息</description>
+    <lastBuildDate>Tue, 11 Feb 2025 21:15:50 GMT</lastBuildDate>
     <item>
-      <title>使数据科学家免于重型编码：自动化的新时代</title>
+      <title>将数据科学家从繁重的编码中解放出来：自动化的新时代</title>
       <link>https://feed.indiehackers.world/post/2c2bbe9280</link>
-      <description><![CDATA[ 来自（
-    选择代码，dt，sum（updown_flag）（按代码订购，dt）为no_up_days
-    从 （
-        选择代码，DT， 
-            cl＆gt时的情况lag（cl）覆盖（通过代码划分的代码顺序，DT）然后0
-            else 1结尾为updown_flag
-        从库存
-    ）
-）
-组成的组，no_up_days
- 
-）
-组代码
- 并在电子商务行业中对用户行为数据进行常见的漏斗分析：
- 
-用e1 as（
-    选择UID，1作为step1，min（etime）作为T1
-    来自活动
-    etime＆gt; = end_date-14和etime 
-    discord indiehackers chat    ads 在这里 ]]></description>
+      <description><![CDATA[FROM (
+SELECT CODE, DT, SUM(updown_flag) OVER (PARTITION BY CODE ORDER BY CODE, DT) AS no_up_days
+FROM (
+SELECT CODE, DT, 
+CASE WHEN CL &gt; LAG(CL) OVER (PARTITION BY CODE ORDER BY CODE, DT) THEN 0
+ELSE 1 END AS updown_flag
+FROM stock
+)
+)
+GROUP BY CODE, no_up_days
+
+)
+GROUP BY CODE
+然后进行电商行业常见的用户行为数据漏斗分析：
+
+WITH e1 AS (
+SELECT uid,1 AS step1, MIN(etime) AS t1
+FROM events
+WHERE etime&gt;=end_date-14 AND etime
+Discord Indiehackers Chat广告这里]]></description>
       <guid>https://feed.indiehackers.world/post/2c2bbe9280</guid>
       <pubDate>Mon, 10 Feb 2025 03:53:51 GMT</pubDate>
     </item>
     <item>
-      <title>🚀建立了一个工具，可以帮助您在压力下说话 - 想要回馈！</title>
+      <title>🚀 构建了一个工具来帮助您在压力下讲话——需要反馈！</title>
       <link>https://feed.indiehackers.world/post/12e9422c44</link>
       <description><![CDATA[
 并非为应对现实压力而设计——它回答了问题，给出了可靠的建议，但它并非为这种小众用例而设计的。
@@ -138,7 +138,7 @@ Discord Indiehackers Chat广告这里]]></description>
       <title>我开发了一款可以提高博客参与度的应用程序，现在我需要测试人员和反馈</title>
       <link>https://feed.indiehackers.world/post/3f6214dd12</link>
       <description><![CDATA[如果您感兴趣，请发表评论或发送电子邮件至neven@boostbuddy.io，我会与您分享该应用程序。
-附注：作为次要目标，我对推荐很感兴趣新闻、博客甚至电子商务网站都对 AI 生成的摘要感兴趣，我可以联系他们。
+附注：作为次要目标，我感兴趣在新闻、博客甚至电子商务网站的推荐中，他们可能会对 AI 生成的摘要感兴趣，以便我可以联系他们。
 非常感谢！
 Discord Indiehackers Chat广告这里]]></description>
       <guid>https://feed.indiehackers.world/post/3f6214dd12</guid>
@@ -161,14 +161,17 @@ Discord Indiehackers Chat广告这里]]></description>
       <title>2025 年面向开发人员的最佳人工智能编码工具</title>
       <link>https://feed.indiehackers.world/post/e07fed3106</link>
       <description><![CDATA[
- 降低错误：您可能会在使用自动错误识别，AI辅助评论和测试自动化平台（例如测试案例生成。
+减少错误：您可以使用自动错误识别、AI 辅助审查和测试自动化平台（如 Keploy）尽早发现代码中的缺陷和低效之处，从而确保可靠的 API 和集成测试。
+更快的学习曲线：使编码更容易并提供有用建议的工具，例如 GitHub Copilot、Tabnine 和 Keploy 的测试用例生成，通过减少手动脚本编写的需求，对初学者非常有帮助。
+顺畅的协作：通过与云设置集成，Amazon CodeWhisperer 等工具可以改善团队合作并提供集中管理。
+增强的创造力：AI 工具允许开发人员通过管理重复性活动（如代码完成、调试和测试用例生成。
 
-    discord indiehackers chat    ads 在这里 ]]></description>
+Discord Indiehackers Chat广告此处]]></description>
       <guid>https://feed.indiehackers.world/post/e07fed3106</guid>
       <pubDate>Thu, 30 Jan 2025 07:01:33 GMT</pubDate>
     </item>
     <item>
-      <title>首次发布产品狩猎：概述加速了云基础架构的开发！</title>
+      <title>首次在 Product Hunt 上发布：ArchFormation 加速云基础设施开发！</title>
       <link>https://feed.indiehackers.world/post/48a6139cfb</link>
       <description><![CDATA[我们在 Product Hunt 上直播了！ArchFormation 加速了云基础设施的开发，为您节省了时间、金钱和精力，因此您可以专注于构建出色的产品。如果这引起了您的共鸣，我们将非常希望您能支持我们！点赞并分享您的想法！谢谢！
 Discord Indiehackers Chat广告这里]]></description>
@@ -178,25 +181,25 @@ Discord Indiehackers Chat广告这里]]></description>
     <item>
       <title>Apex - 现代 WordPress 替代品 - 寻求战略合作伙伴/买家</title>
       <link>https://feed.indiehackers.world/post/9897812220</link>
-      <description><![CDATA[我目前正在CICERO投资 https://cicero.sh/ ，但很高兴能保持待遇，以确保包括培训，包括培训，包括，监督开发，设计管道等。
-向前移动
-如果您或您认识的任何人有兴趣，请随时通过DM或电子邮件＆＃109;＆＃x61;＆＃116;＆＃x74;＆＃x2e;＆＃x2e;＆＃100;＆＃105;＆＃105;＆＃105;＆＃122;＆＃122;＆＃x61;＆＃x61; ＆＃x40;＆＃103;＆＃x6d;＆＃97;＆＃105;＆＃105;＆＃x6c;＆＃x2e;＆＃x2e;＆＃99;＆＃111;＆＃111;＆＃109; 。
+      <description><![CDATA[我目前全职在 Cicero 工作，地址是 https://cicero.sh/，但很高兴留下来确保顺利运营，包括培训、监督开发、设计管道等。
+前进
+如果您或您认识的任何人感兴趣，请随时通过 DM 或电子邮件联系我们，地址是 matt.dizak@gmail.com.
 感谢您的时间。
-    discord indiehackers chat    ads 在这里 ]]></description>
+Discord Indiehackers Chat广告这里]]></description>
       <guid>https://feed.indiehackers.world/post/9897812220</guid>
       <pubDate>Mon, 27 Jan 2025 21:34:04 GMT</pubDate>
     </item>
     <item>
       <title>一兆字节（TB）的数据有多少？</title>
       <link>https://feed.indiehackers.world/post/35ca9f81dc</link>
-      <description><![CDATA[一个结核数据是用于数据分析和计算的数据库的巨大量。 Teradata这个名字即使在今天也没有过时。如果工具可以平稳地处理TB级数据，例如通过将处理时间从几个小时减少到几分钟来改善用户体验；或者，如果它可以简化一个小规模的分布式环境并将其转换为一台机器，以便可以大大降低操作和维护成本。好吧，Esproc Spl就是这样的工具。
-对于大多数用户场景，追求PB级数据的能力既不必要且不可行。
-    discord indiehackers chat    ads 在这里 ]]></description>
+      <description><![CDATA[对于数据分析计算的数据库来说，1TB的数据量是巨大的，Teradata这个名字至今都还不过时。如果一个工具能够流畅地处理TB级的数据，比如将处理时间从几个小时压缩到几分钟，提升用户体验；或者将一个小型分布式环境简化为单机，大大降低运维成本，那么将意义非凡。而esProc SPL就是这样一个工具。
+对于大多数用户场景来说，追求PB级数据处理能力既没有必要，也不切实际。
+Discord Indiehackers Chat广告这里]]></description>
       <guid>https://feed.indiehackers.world/post/35ca9f81dc</guid>
       <pubDate>Mon, 27 Jan 2025 03:44:56 GMT</pubDate>
     </item>
     <item>
-      <title>使用ESPROC在文件上运行SQL非常方便，与DuckDB相当</title>
+      <title>使用 esProc 对文件执行 SQL 非常方便，与 duckDB 相当</title>
       <link>https://feed.indiehackers.world/post/eaf6a8e857</link>
       <description><![CDATA[$select * from {json(httpfile(&quot;http://127.0.0.1:6868/api/getData&quot;).read())}
 where Amount&gt;=100

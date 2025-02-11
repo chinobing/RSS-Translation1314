@@ -1,110 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>黑客新闻：首页</title>
+    <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 11 Feb 2025 18:22:13 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2025 21:16:05 GMT</lastBuildDate>
     <item>
-      <title>联合健康集团聘请了一家诽谤律师事务所来追究社交媒体帖子的批评</title>
-      <link>https://fortune.com/2025/02/10/unitedhealth-defamation-law-firm-social-media/</link>
-      <description><![CDATA[文章网址：https://fortune.com/2025/02/10/unitedhealth-defamation-law-firm-social-media/
-评论网址：https://news.ycombinator.com/item?id=43015713
-积分：37
-评论数：6]]></description>
-      <guid>https://fortune.com/2025/02/10/unitedhealth-defamation-law-firm-social-media/</guid>
-      <pubDate>Tue, 11 Feb 2025 17:44:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能冲击科技行业，IT 失业率升至 5.7%</title>
-      <link>https://www.wsj.com/articles/it-unemployment-rises-to-5-7-as-ai-hits-tech-jobs-7726bb1b</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/articles/it-unemployment-rises-to-5-7-as-ai-hits-tech-jobs-7726bb1b
-评论网址：https://news.ycombinator.com/item?id=43015397
-积分：12
-评论数：7]]></description>
-      <guid>https://www.wsj.com/articles/it-unemployment-rises-to-5-7-as-ai-hits-tech-jobs-7726bb1b</guid>
-      <pubDate>Tue, 11 Feb 2025 17:18:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>JetBrains Fleet 不再支持 Kotlin Multiplatform</title>
-      <link>https://blog.jetbrains.com/kotlin/2025/02/kotlin-multiplatform-tooling-shifting-gears/</link>
-      <description><![CDATA[文章URL： https://blog.jetbrains.com/kotbrains.com/kotbrains.com/kotlin /2025/02/kotlin-multiplatform-tooling-tooling-hifting-gears/ 
-注释URL： https://news.ycombinator.com/item?id=43015387  &gt;
-点：13 
-＃评论：3 ]]></description>
-      <guid>https://blog.jetbrains.com/kotlin/2025/02/kotlin-multiplatform-tooling-shifting-gears/</guid>
-      <pubDate>Tue, 11 Feb 2025 17:17:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>启动 HN：A0.dev (YC W25) – React Native 应用生成器</title>
-      <link>https://news.ycombinator.com/item?id=43015267</link>
-      <description><![CDATA[嗨，HN — 我们是 Seth 和 Ayo，我们正在构建 a0.dev (https://a0.dev)。a0.dev 是一个旨在将 React Native 开发时间从几周缩短到几个小时的平台。我们一起开发移动应用程序已有七年了，并取得了一些成功。但有一件事一直困扰着我们，那就是构建移动应用程序比构建网站要困难得多。如果您之前使用 React Native 构建过应用程序，那么您一定很熟悉使用 Xcode 和 Android Studio 的痛苦，在开始制作应用程序之前，您需要编写大量样板文件，设置状态管理，当然还要经历可怕的应用程序审核。我们决定构建一个可以加快应用程序开发过程的平台。我们已经看到了像 v0 这样的新代码生成平台的成功，并希望 React Native 能够走得更远。我们构建了一个 AI 应用生成器，它接受用户的提示并创建具有即时实时预览的自定义 React Native 应用。这是一个 5 分钟的演示，我们重新创建了 Hacker News UI：https://youtu.be/f3lzBRBUousa0.dev 非常适合在 React Native 中快速原型化组件和屏幕，用户可以将代码从我们的生成器复制到他们喜欢的开发环境中。我们的登录页面有几个示例提示，但我们鼓励您在尝试时发挥创造力。我们不仅成功生成了 Instagram Feed 等功能性屏幕，还成功生成了 Minesweeper 或 Flappy Bird 等 2D 游戏。我们的聊天有“UI 专家”和“高级逻辑”模型，用户可以根据手头的任务在它们之间切换。用户可以通过点击页面右上角的“需要完整应用”按钮，从在单个屏幕上工作升级到创建完整应用。这将范围从具有单个文件的独立聊天更改为可以包含多个聊天和文件的完整项目。我们推出了一款 IOS 应用，用户可以下载该应用，以便在物理设备上预览应用。我们发现许多应用在物理设备上看起来和感觉都更好，所以我们建议尝试一下。我们的目标是继续改进应用生成器，同时添加更多功能，帮助开发人员将他们的应用发布到应用商店并从这些应用中赚钱。我们目前路线图上的主要功能是 Supabase 集成和“一键提交”按钮，让开发人员将他们的应用发布到应用商店。有几个限制需要注意。我们正在努力发布我们的 Android 应用，但 Android 用户应该能够使用 Expo Go 应用预览他们的应用。该应用在浏览器中运行 React Native Web，因此任何不支持 Web 的依赖项都无法与 Web 预览一起使用，但应该可以在手机上使用。还有一些依赖项我们的系统无法处理，因为它们需要的本机模块目前尚未打包到我们的应用中。我们希望你们能查看并尝试使用 a0.dev 制作应用。我们全天候在 Discord 上提供帮助，帮助开发人员解决他们可能遇到的任何问题，并希望指导人们在 App Store 上真正发布他们的应用。请告诉我们您希望看到哪些功能以及您在构建应用程序时遇到的任何问题，我们很乐意听到您的体验。这是再次查看的链接：（https://a0.dev）我们不再需要注册第一条消息，因此您可以直接进入并尝试一下。期待您的想法！
-
-评论网址：https://news.ycombinator.com/item?id=43015267
-积分：23
-评论数：9]]></description>
-      <guid>https://news.ycombinator.com/item?id=43015267</guid>
-      <pubDate>Tue, 11 Feb 2025 17:08:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Legion Health（YC S21，人工智能驱动的精神病学）招聘创始后端工程师</title>
-      <link>https://www.ycombinator.com/companies/legion-health/jobs/3pA8uX7-senior-backend-engineer-event-driven-architecture-ai-enabled-systems</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/legion-health/jobs/3pA8uX7-senior-backend-engineer-event-driven-architecture-ai-enabled-systems
-评论网址：https://news.ycombinator.com/item?id=43015169
+      <title>Empirical Health（YC S23）正在纽约招聘设计工程师</title>
+      <link>https://www.ycombinator.com/companies/empirical-health/jobs/nZFQWLW-design-engineer</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/empirical-health/jobs/nZFQWLW-design-engineer
+评论网址：https://news.ycombinator.com/item?id=43018293
 积分：0
 评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/legion-health/jobs/3pA8uX7-senior-backend-engineer-event-driven-architecture-ai-enabled-systems</guid>
-      <pubDate>Tue, 11 Feb 2025 17:00:30 GMT</pubDate>
+      <guid>https://www.ycombinator.com/companies/empirical-health/jobs/nZFQWLW-design-engineer</guid>
+      <pubDate>Tue, 11 Feb 2025 21:00:32 GMT</pubDate>
     </item>
     <item>
-      <title>法学硕士可以自学如何更好地预测未来</title>
-      <link>https://arxiv.org/abs/2502.05253</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2502.05253
-评论网址：https://news.ycombinator.com/item?id=43014918
-积分：9
+      <title>汤森路透赢得人工智能版权案，拒绝合理使用</title>
+      <link>https://www.wired.com/story/thomson-reuters-ai-copyright-lawsuit/</link>
+      <description><![CDATA[文章网址：https://www.wired.com/story/thomson-reuters-ai-copyright-lawsuit/
+评论网址：https://news.ycombinator.com/item?id=43018251
+积分：20
+评论数：4]]></description>
+      <guid>https://www.wired.com/story/thomson-reuters-ai-copyright-lawsuit/</guid>
+      <pubDate>Tue, 11 Feb 2025 20:56:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>DeepScaleR：通过扩展 RL，以 1.5B 模型超越 O1-Preview</title>
+      <link>https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2</link>
+      <description><![CDATA[文章网址：https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2
+评论网址：https://news.ycombinator.com/item?id=43017599
+积分：56
+评论数：10]]></description>
+      <guid>https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2</guid>
+      <pubDate>Tue, 11 Feb 2025 19:59:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>大众市场非小说类图书的激励机制不佳</title>
+      <link>https://borretti.me/article/non-fiction-has-bad-incentives</link>
+      <description><![CDATA[文章网址：https://borretti.me/article/non-fiction-has-bad-incentives
+评论网址：https://news.ycombinator.com/item?id=43017487
+积分：18
+评论数：18]]></description>
+      <guid>https://borretti.me/article/non-fiction-has-bad-incentives</guid>
+      <pubDate>Tue, 11 Feb 2025 19:50:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>汽车物理控制装置设计的精妙艺术</title>
+      <link>https://www.theturnsignalblog.com/the-subtle-art-of-designing-physical-control-for-cars/</link>
+      <description><![CDATA[文章网址：https://www.theturnsignalblog.com/the-subtle-art-of-designing-physical-control-for-cars/
+评论网址：https://news.ycombinator.com/item?id=43017010
+积分：62
+评论数：25]]></description>
+      <guid>https://www.theturnsignalblog.com/the-subtle-art-of-designing-physical-control-for-cars/</guid>
+      <pubDate>Tue, 11 Feb 2025 19:15:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>增量编译立即重建 Zig 编译器</title>
+      <link>https://www.youtube.com/clip/Ugkxjn7L0hEfN1XLfH1soaUdCksG3FvJkXIS</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/clip/Ugkxjn7L0hEfN1XLfH1soaUdCksG3FvJkXIS
+评论网址：https://news.ycombinator.com/item?id=43016944
+积分：37
+评论数：4]]></description>
+      <guid>https://www.youtube.com/clip/Ugkxjn7L0hEfN1XLfH1soaUdCksG3FvJkXIS</guid>
+      <pubDate>Tue, 11 Feb 2025 19:10:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>公用事业工程：分析和控制人工智能中的新兴价值系统</title>
+      <link>https://www.emergent-values.ai/</link>
+      <description><![CDATA[文章网址：https://www.emergent-values.ai/
+评论网址：https://news.ycombinator.com/item?id=43016905
+积分：6
 评论数：0]]></description>
-      <guid>https://arxiv.org/abs/2502.05253</guid>
-      <pubDate>Tue, 11 Feb 2025 16:40:20 GMT</pubDate>
+      <guid>https://www.emergent-values.ai/</guid>
+      <pubDate>Tue, 11 Feb 2025 19:08:04 GMT</pubDate>
     </item>
     <item>
-      <title>是时候对高效个性化文本生成的风险采取行动了</title>
-      <link>https://arxiv.org/abs/2502.06560</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2502.06560
-评论网址：https://news.ycombinator.com/item?id=43014573
-积分：15
-评论数：5]]></description>
-      <guid>https://arxiv.org/abs/2502.06560</guid>
-      <pubDate>Tue, 11 Feb 2025 16:14:03 GMT</pubDate>
+      <title>750 家为残疾人建造房屋的公司的数据库</title>
+      <link>https://data.perkins.org/</link>
+      <description><![CDATA[文章网址：https://data.perkins.org/
+评论网址：https://news.ycombinator.com/item?id=43016802
+积分：62
+评论数：8]]></description>
+      <guid>https://data.perkins.org/</guid>
+      <pubDate>Tue, 11 Feb 2025 19:01:46 GMT</pubDate>
     </item>
     <item>
-      <title>欧盟的Altstore获得了第一个本地iOS色情应用程序</title>
-      <link>https://www.macrumors.com/2025/02/03/eu-altstore-porn-app/</link>
-      <description><![CDATA[文章URL： https://wwwww.macrumors.com/2025/02 /03/eu-altstore-porn-app/ 
-注释URL： https://news.ycombinator.com/item？id=43014542  &gt;
-点：47 
-＃评论：32 ]]></description>
-      <guid>https://www.macrumors.com/2025/02/03/eu-altstore-porn-app/</guid>
-      <pubDate>Tue, 11 Feb 2025 16:11:47 GMT</pubDate>
+      <title>信任、双方中继和 QUIC</title>
+      <link>https://obscura.net/blog/bootstrapping-trust/</link>
+      <description><![CDATA[文章网址：https://obscura.net/blog/bootstrapping-trust/
+评论网址：https://news.ycombinator.com/item?id=43016574
+积分：29
+评论数：19]]></description>
+      <guid>https://obscura.net/blog/bootstrapping-trust/</guid>
+      <pubDate>Tue, 11 Feb 2025 18:44:48 GMT</pubDate>
     </item>
     <item>
-      <title>E Ink 彩色电子纸技术升级，适用于户外显示屏</title>
-      <link>https://newatlas.com/technology/e-ink-kaleido-outdoor-3-75-inch-displays/</link>
-      <description><![CDATA[文章网址：https://newatlas.com/technology/e-ink-kaleido-outdoor-3-75-inch-displays/
-评论网址：https://news.ycombinator.com/item?id=43014418
-积分：46
-评论数：22]]></description>
-      <guid>https://newatlas.com/technology/e-ink-kaleido-outdoor-3-75-inch-displays/</guid>
-      <pubDate>Tue, 11 Feb 2025 16:01:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>英特尔的 Battlemage 架构</title>
-      <link>https://chipsandcheese.com/p/intels-battlemage-architecture</link>
-      <description><![CDATA[文章网址：https://chipsandcheese.com/p/intels-battlemage-architecture
-评论网址：https://news.ycombinator.com/item?id=43014408
-积分：58
-评论数：21]]></description>
-      <guid>https://chipsandcheese.com/p/intels-battlemage-architecture</guid>
-      <pubDate>Tue, 11 Feb 2025 16:00:59 GMT</pubDate>
+      <title>如果重新考虑资金问题，日本可以再次成为科学强国</title>
+      <link>https://www.nature.com/articles/d41586-025-00394-8</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-025-00394-8
+评论网址：https://news.ycombinator.com/item?id=43016353
+积分：59
+评论数：13]]></description>
+      <guid>https://www.nature.com/articles/d41586-025-00394-8</guid>
+      <pubDate>Tue, 11 Feb 2025 18:30:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
