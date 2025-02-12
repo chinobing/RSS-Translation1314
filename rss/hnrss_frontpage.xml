@@ -4,14 +4,14 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 12 Feb 2025 12:33:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2025 15:19:00 GMT</lastBuildDate>
     <item>
       <title>消失的文化：打孔卡编织</title>
       <link>https://blog.archive.org/2025/02/12/vanishing-culture-punch-card-knitting/</link>
       <description><![CDATA[文章网址：https://blog.archive.org/2025/02/12/vanishing-culture-punch-card-knitting/
 评论网址：https://news.ycombinator.com/item?id=43024540
-积分：3
-评论数：0]]></description>
+积分：42
+评论数：3]]></description>
       <guid>https://blog.archive.org/2025/02/12/vanishing-culture-punch-card-knitting/</guid>
       <pubDate>Wed, 12 Feb 2025 12:11:33 GMT</pubDate>
     </item>
@@ -26,32 +26,75 @@
       <pubDate>Wed, 12 Feb 2025 12:00:59 GMT</pubDate>
     </item>
     <item>
-      <title>欧盟将调动2000亿欧元投资人工智能</title>
-      <link>https://www.euronews.com/next/2025/02/11/eu-to-mobilise-200-billion-for-ai-investment</link>
-      <description><![CDATA[文章网址：https://www.euronews.com/next/2025/02/11/eu-to-mobilise-200-billion-for-ai-investment
-评论网址：https://news.ycombinator.com/item?id=43024299
-积分：22
-评论数：11]]></description>
-      <guid>https://www.euronews.com/next/2025/02/11/eu-to-mobilise-200-billion-for-ai-investment</guid>
-      <pubDate>Wed, 12 Feb 2025 11:32:18 GMT</pubDate>
-    </item>
-    <item>
       <title>泄露任何 YouTube 用户的电子邮件可获 10,000 美元</title>
       <link>https://brutecat.com/articles/leaking-youtube-emails</link>
       <description><![CDATA[文章网址：https://brutecat.com/articles/leaking-youtube-emails
 评论网址：https://news.ycombinator.com/item?id=43024221
-积分：97
-评论数：28]]></description>
+积分：479
+评论数：160]]></description>
       <guid>https://brutecat.com/articles/leaking-youtube-emails</guid>
       <pubDate>Wed, 12 Feb 2025 11:19:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>为乐趣而艰难而乏味地抓取英雄联盟数据</title>
+      <link>https://maknee.github.io/blog/2025/League-Data-Scraping/</link>
+      <description><![CDATA[文章网址：https://maknee.github.io/blog/2025/League-Data-Scraping/
+评论网址：https://news.ycombinator.com/item?id=43024173
+积分：44
+评论数：10]]></description>
+      <guid>https://maknee.github.io/blog/2025/League-Data-Scraping/</guid>
+      <pubDate>Wed, 12 Feb 2025 11:11:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过表情符号走私任意数据</title>
+      <link>https://paulbutler.org/2025/smuggling-arbitrary-data-through-an-emoji/</link>
+      <description><![CDATA[文章网址：https://paulbutler.org/2025/smuggling-arbitrary-data-through-an-emoji/
+评论网址：https://news.ycombinator.com/item?id=43023508
+积分：73
+评论数：29]]></description>
+      <guid>https://paulbutler.org/2025/smuggling-arbitrary-data-through-an-emoji/</guid>
+      <pubDate>Wed, 12 Feb 2025 09:24:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Mikey – Windows 版无机器人会议笔记记录器</title>
+      <link>https://github.com/hotrod462/Mikey</link>
+      <description><![CDATA[文章网址：https://github.com/hotrod462/Mikey
+评论网址：https://news.ycombinator.com/item?id=43023464
+积分：20
+评论数：11]]></description>
+      <guid>https://github.com/hotrod462/Mikey</guid>
+      <pubDate>Wed, 12 Feb 2025 09:17:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>内涵式喜悦（内部结构的连接性描述）</title>
+      <link>https://pithlessly.github.io/intensionaljoy.html</link>
+      <description><![CDATA[文章网址：https://pithlessly.github.io/intensionaljoy.html
+评论网址：https://news.ycombinator.com/item?id=43023101
+积分：10
+评论数：0]]></description>
+      <guid>https://pithlessly.github.io/intensionaljoy.html</guid>
+      <pubDate>Wed, 12 Feb 2025 08:22:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>展示 HN：发布 skies-adsb 2.0 – RTL-SDR ADS-B 3D 飞机跟踪应用程序</title>
+      <link>https://github.com/llopisdon/skies-adsb</link>
+      <description><![CDATA[大家好，我想分享一个我开发的 3D 飞机跟踪 Web 应用：skies-adsb。我住在 KMIA（一个非常繁忙的机场）附近，花了很多时间观察飞机，我认为以 3D 方式跟踪飞机会很酷。2021 年 10 月，我使用 p5.js 构建了一个名为 skies-adsb 的原型 3D ADS-B 航班跟踪器。2022 年 4 月，我发布了 skies-adsb 1.0 版，用 Three.js 重写。但是，此版本仍然依赖于手动编辑 GeoJSON 图层。到 2024 年底，我已经对 GIS 和 GeoPandas 有了足够的了解，可以使用自定义 GeoJSON 图层自动创建地图。在圣诞节假期期间，我开发了一个脚本，使用 GeoPandas 从 Natural Earth、FAA 和 OpenStreetMap 数据生成这些图层，然后重构 skies-adsb 以渲染多个 GeoJSON 图层。今天，skies-adsb 2.0 版已经发布！此版本简化了安装，自动创建 GeoJSON 地图，并配备了新的渲染引擎。skies-adsb 与所有支持 WebGL 的主流移动和桌面浏览器兼容。要运行 skies-adsb，您需要一个 RTL-SDR 接收器和一个 Linux 工作站或 Raspberry Pi，或者您可以连接到现有的 RTL-SDR ADS-B 安装。开发这个应用程序给我带来了很多快乐，在此过程中，我还学到了很多关于航空、天气、GIS 和 Three.js 的知识。我每天都会使用它，通常让它在后台运行，就像一个数字水族馆一样。希望您也喜欢它。请按照以下链接查看 skies-adsb：源代码：
+https://github.com/llopisdon/skies-adsbskies-adsb 视频：
+https://youtu.be/HnY1vFUBXS0
+
+评论 URL：https://news.ycombinator.com/item?id=43022603
+积分：22
+评论数：5]]></description>
+      <guid>https://github.com/llopisdon/skies-adsb</guid>
+      <pubDate>Wed, 12 Feb 2025 06:54:48 GMT</pubDate>
     </item>
     <item>
       <title>ElevenLabs 的 ElevenReader</title>
       <link>https://elevenreader.io</link>
       <description><![CDATA[文章网址：https://elevenreader.io
 评论网址：https://news.ycombinator.com/item?id=43022398
-积分：132
-评论数：98]]></description>
+积分：177
+评论数：113]]></description>
       <guid>https://elevenreader.io</guid>
       <pubDate>Wed, 12 Feb 2025 06:10:25 GMT</pubDate>
     </item>
@@ -60,50 +103,10 @@
       <link>https://localfirstweb.dev/blog/2023-05-29-i-wrote-a-static-web-page</link>
       <description><![CDATA[文章网址：https://localfirstweb.dev/blog/2023-05-29-i-wrote-a-static-web-page
 评论网址：https://news.ycombinator.com/item?id=43021677
-积分：66
-评论数：30]]></description>
+积分：124
+评论数：58]]></description>
       <guid>https://localfirstweb.dev/blog/2023-05-29-i-wrote-a-static-web-page</guid>
       <pubDate>Wed, 12 Feb 2025 03:51:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>我没能活下来的那一年</title>
-      <link>https://bessstillman.substack.com/p/the-year-i-didnt-survive</link>
-      <description><![CDATA[文章网址：https://bessstillman.substack.com/p/the-year-i-didnt-survive
-评论网址：https://news.ycombinator.com/item?id=43020983
-积分：544
-评论数：136]]></description>
-      <guid>https://bessstillman.substack.com/p/the-year-i-didnt-survive</guid>
-      <pubDate>Wed, 12 Feb 2025 02:07:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>心灵感应的一年</title>
-      <link>https://neuralink.com/blog/a-year-of-telepathy/</link>
-      <description><![CDATA[文章网址：https://neuralink.com/blog/a-year-of-telepathy/
-评论网址：https://news.ycombinator.com/item?id=43019352
-积分：101
-评论数：150]]></description>
-      <guid>https://neuralink.com/blog/a-year-of-telepathy/</guid>
-      <pubDate>Tue, 11 Feb 2025 22:46:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>汤森路透赢得美国首起重大人工智能版权案</title>
-      <link>https://www.wired.com/story/thomson-reuters-ai-copyright-lawsuit/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/thomson-reuters-ai-copyright-lawsuit/
-评论网址：https://news.ycombinator.com/item?id=43018251
-积分：327
-评论数：139]]></description>
-      <guid>https://www.wired.com/story/thomson-reuters-ai-copyright-lawsuit/</guid>
-      <pubDate>Tue, 11 Feb 2025 20:56:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Zeroperl：使用 WebAssembly 对 Perl 进行沙盒处理</title>
-      <link>https://andrews.substack.com/p/zeroperl-sandboxed-perl-with-webassembly</link>
-      <description><![CDATA[文章网址：https://andrews.substack.com/p/zeroperl-sandboxed-perl-with-webassembly
-评论网址：https://news.ycombinator.com/item?id=43017739
-积分：49
-评论数：30]]></description>
-      <guid>https://andrews.substack.com/p/zeroperl-sandboxed-perl-with-webassembly</guid>
-      <pubDate>Tue, 11 Feb 2025 20:11:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
