@@ -1,19 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>黑客新闻：首页</title>
+    <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
-    <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 12 Feb 2025 18:23:23 GMT</lastBuildDate>
+    <description>黑客新闻 RSS</description>
+    <lastBuildDate>Wed, 12 Feb 2025 21:16:23 GMT</lastBuildDate>
     <item>
-      <title>垂死心灵的幻觉思维</title>
-      <link>https://nautil.us/the-hallucinatory-thoughts-of-the-dying-mind-1189807/</link>
-      <description><![CDATA[文章网址：https://nautil.us/the-hallucinatory-thoughts-of-the-dying-mind-1189807/
-评论网址：https://news.ycombinator.com/item?id=43027579
-积分：4
+      <title>显示 HN：yknotify – 当 YubiKey 在 macOS 上需要触摸时通知</title>
+      <link>https://github.com/noperator/yknotify</link>
+      <description><![CDATA[文章网址：https://github.com/noperator/yknotify
+评论网址：https://news.ycombinator.com/item?id=43029385
+积分：8
+评论数：3]]></description>
+      <guid>https://github.com/noperator/yknotify</guid>
+      <pubDate>Wed, 12 Feb 2025 20:24:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>叙利亚刚刚举办了 50 年来首届国际科技会议</title>
+      <link>https://restofworld.org/2025/syria-international-tech-conference-sync-25/</link>
+      <description><![CDATA[文章网址：https://restofworld.org/2025/syria-international-tech-conference-sync-25/
+评论网址：https://news.ycombinator.com/item?id=43029277
+积分：23
 评论数：0]]></description>
-      <guid>https://nautil.us/the-hallucinatory-thoughts-of-the-dying-mind-1189807/</guid>
-      <pubDate>Wed, 12 Feb 2025 17:33:07 GMT</pubDate>
+      <guid>https://restofworld.org/2025/syria-international-tech-conference-sync-25/</guid>
+      <pubDate>Wed, 12 Feb 2025 20:13:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：无需构建的全栈 SSR TypeScript Web 框架</title>
+      <link>https://jsr.io/@fullsoak/fullsoak</link>
+      <description><![CDATA[嗨，HN 家族！我很想就采用不同方法的全栈 Web 框架征求您的意见：无需构建。这不是一个新概念。Preact 的人们提到了它：https://preactjs.com/guide/v10/no-build-workflows/然而，在 Web 框架市场中，我还没有找到很多同时支持“无需构建”和“SSR”的框架。总是存在某种“客户端挂载”和“服务器挂载”，并且必须（或两者都必须）经过构建（捆绑）过程。随着构建过程的进行，需要额外的维护工作和认知负荷。我无数次地与 tsconfig、webpack 配置、各种预设和插件搏斗……当一切正常时，它们就正常工作，但当我们需要一些自定义或非常规的东西时，我们几乎总是会遇到困难。（或者只是我）并不是说我反对任何现有的构建工作流程。事实上，我过去从 webpack 中受益匪浅，我对 Parcel 2、Turbopack、rspack 等现代打包器非常满意。我只是觉得为“无构建”路线保留一些位置是公平的 :)为此，我花了上个月的时间开发 TypeScript 全栈 SSR Web 框架的原型。它与 Deno 和 Bun 运行时兼容。我很乐意让它与 Node.js 兼容（在某些时候）。框架注册页面（https://jsr.io/@fullsoak/fullsoak）总结了迄今为止表达的动机。示例部署可在以下位置获得：https://fullsoak.onrender.com/app上述部署背后的代码：https://github.com/fullsoak/bun-examplesPS：您可能会看到 Preact 到处被使用和提及，但我确信 React 也 100% 受支持（只需插入和使用）。我只是恰好选择了 Preact 来亲自体验它。我期待您的想法 :) 并了解这是否可能（或可能不是）一个可行的大规模想法。也许，您会看到它（或类似的东西）未来的发展方向。非常感谢您的任何见解！
+
+评论网址：https://news.ycombinator.com/item?id=43029089
+积分：32
+评论数：24]]></description>
+      <guid>https://jsr.io/@fullsoak/fullsoak</guid>
+      <pubDate>Wed, 12 Feb 2025 19:54:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>同步</title>
+      <link>https://imapsync.lamiral.info/</link>
+      <description><![CDATA[文章网址：https://imapsync.lamiral.info/
+评论网址：https://news.ycombinator.com/item?id=43028468
+积分：16
+评论数：3]]></description>
+      <guid>https://imapsync.lamiral.info/</guid>
+      <pubDate>Wed, 12 Feb 2025 18:54:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>效率和水平可扩展性是否存在矛盾？</title>
+      <link>https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/</link>
+      <description><![CDATA[文章网址：https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizo​​ntal-scalability-at-odds/
+评论网址：https://news.ycombinator.com/item?id=43028200
+积分：21
+评论数：18]]></description>
+      <guid>https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/</guid>
+      <pubDate>Wed, 12 Feb 2025 18:27:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过基础模型自我探索实现自动化能力发现</title>
+      <link>https://arxiv.org/abs/2502.07577</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2502.07577
+评论网址：https://news.ycombinator.com/item?id=43028057
+积分：20
+评论数：5]]></description>
+      <guid>https://arxiv.org/abs/2502.07577</guid>
+      <pubDate>Wed, 12 Feb 2025 18:14:34 GMT</pubDate>
     </item>
     <item>
       <title>HN 秀：Game Bub – 开源 FPGA 复古仿真手持设备</title>
@@ -21,18 +72,18 @@
       <description><![CDATA[嗨，HN，在过去的约 1.5 年里，我制作了一款开源 FPGA 复古模拟手持设备，可以播放 Game Boy、Game Boy Color 和 Game Boy Advance 卡带。据我所知，目前还没有一款开源 FPGA 模拟器可以像这样播放物理卡带。我的主要目标之一是自己完成所有工作，并能够理解其中的每个组件，因此我设计了自己的 PCB，编写了固件，为 FPGA 编写了 Game Boy 和 Game Boy Advance 模拟器（使用 Chisel HDL），并设计了一个 3D 打印外壳。我在链接的帖子中详细介绍了设计和开发过程。很长，但是有很多图片和视频。GitHub 上提供的代码和设计文件：https://github.com/elipsitz/gamebub，以及架构概述：https://github.com/elipsitz/gamebub/blob/handheld/docs/archi...
 
 评论 URL：https://news.ycombinator.com/item?id=43027335
-积分：30
-评论数：3]]></description>
+积分：111
+评论数：37]]></description>
       <guid>https://eli.lipsitz.net/posts/introducing-gamebub/</guid>
       <pubDate>Wed, 12 Feb 2025 17:11:25 GMT</pubDate>
     </item>
     <item>
-      <title>是时候重新考虑6G</title>
+      <title>移动数据增长放缓，5G 网络满足消费者需求</title>
       <link>https://spectrum.ieee.org/5g-bandwidth</link>
       <description><![CDATA[文章网址：https://spectrum.ieee.org/5g-bandwidth
 评论网址：https://news.ycombinator.com/item?id=43027266
-积分：32
-评论数：27]]></description>
+积分：85
+评论数：134]]></description>
       <guid>https://spectrum.ieee.org/5g-bandwidth</guid>
       <pubDate>Wed, 12 Feb 2025 17:04:22 GMT</pubDate>
     </item>
@@ -47,64 +98,14 @@
       <pubDate>Wed, 12 Feb 2025 17:00:48 GMT</pubDate>
     </item>
     <item>
-      <title>创纪录的中微子是有史以来最有活力的</title>
+      <title>创纪录的中微子是迄今为止探测到的能量最高的</title>
       <link>https://www.nature.com/articles/d41586-025-00444-1</link>
-      <description><![CDATA[文章URL： https://wwwww.nature.com/article 1  
-评论URL： https://news.ycombinator.com/item?id=43027150  &gt;
-点：34 
-＃评论：6 ]]></description>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-025-00444-1
+评论网址：https://news.ycombinator.com/item?id=43027150
+积分：114
+评论数：47]]></description>
       <guid>https://www.nature.com/articles/d41586-025-00444-1</guid>
       <pubDate>Wed, 12 Feb 2025 16:52:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>日产和本田的$ 60B合并谈判崩溃了</title>
-      <link>https://www.reuters.com/markets/deals/inside-collapse-nissan-hondas-60-billion-mega-deal-2025-02-12/</link>
-      <description><![CDATA[文章URL： https ：//www.reuters.com/markets/deals/inside-collapse-nissan-hondas-60-mega-deal-2025-02-12/  
-注释URL： https://news.ycombinator.com/item?id=43026934  &gt;
-点：24 
-＃评论：13 ]]></description>
-      <guid>https://www.reuters.com/markets/deals/inside-collapse-nissan-hondas-60-billion-mega-deal-2025-02-12/</guid>
-      <pubDate>Wed, 12 Feb 2025 16:32:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>停车的先知</title>
-      <link>https://www.worksinprogress.news/p/the-prophet-of-parking</link>
-      <description><![CDATA[文章网址：https://www.worksinprogress.news/p/the-prophet-of-parking
-评论网址：https://news.ycombinator.com/item?id=43026920
-积分：67
-评论数：62]]></description>
-      <guid>https://www.worksinprogress.news/p/the-prophet-of-parking</guid>
-      <pubDate>Wed, 12 Feb 2025 16:31:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>2024 年最受关注的 100 场软件工程演讲</title>
-      <link>https://www.techtalksweekly.io/p/100-most-watched-software-engineering</link>
-      <description><![CDATA[文章网址：https://www.techtalksweekly.io/p/100-most-watched-software-engineering
-评论网址：https://news.ycombinator.com/item?id=43026590
-积分：123
-评论数：24]]></description>
-      <guid>https://www.techtalksweekly.io/p/100-most-watched-software-engineering</guid>
-      <pubDate>Wed, 12 Feb 2025 15:55:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>SYD：针对Linux的安全应用沙箱简介[视频]</title>
-      <link>https://fosdem.org/2025/schedule/event/fosdem-2025-4176-syd-an-introduction-to-secure-application-sandboxing-for-linux/</link>
-      <description><![CDATA[文章网址：https://fosdem.org/2025/schedule/event/fosdem-2025-4176-syd-an-introduction-to-secure-application-sandboxing-for-linux/
-评论网址：https://news.ycombinator.com/item?id=43026104
-积分：29
-评论数：1]]></description>
-      <guid>https://fosdem.org/2025/schedule/event/fosdem-2025-4176-syd-an-introduction-to-secure-application-sandboxing-for-linux/</guid>
-      <pubDate>Wed, 12 Feb 2025 15:08:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>PGASSISTANT：OSS工具可帮助开发人员理解和优化PG性能</title>
-      <link>https://github.com/nexsol-technologies/pgassistant</link>
-      <description><![CDATA[文章网址：https://github.com/nexsol-technologies/pgassistant
-评论网址：https://news.ycombinator.com/item?id=43026036
-积分：77
-评论数：21]]></description>
-      <guid>https://github.com/nexsol-technologies/pgassistant</guid>
-      <pubDate>Wed, 12 Feb 2025 15:01:40 GMT</pubDate>
     </item>
     </channel>
 </rss>
