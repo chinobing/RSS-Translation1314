@@ -4,35 +4,76 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 12 Feb 2025 21:16:23 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 01:16:49 GMT</lastBuildDate>
+    <item>
+      <title>YouTube 的新色调</title>
+      <link>https://design.google/library/youtube-new-red-color</link>
+      <description><![CDATA[文章网址：https://design.google/library/youtube-new-red-color
+评论网址：https://news.ycombinator.com/item?id=43031545
+积分：8
+评论数：5]]></description>
+      <guid>https://design.google/library/youtube-new-red-color</guid>
+      <pubDate>Thu, 13 Feb 2025 00:55:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们之所以能够创造人工智能，是因为它有能力抹去一些东西</title>
+      <link>https://www.chrbutler.com/the-productive-void</link>
+      <description><![CDATA[文章网址：https://www.chrbutler.com/the-productive-void
+评论网址：https://news.ycombinator.com/item?id=43030556
+积分：60
+评论数：69]]></description>
+      <guid>https://www.chrbutler.com/the-productive-void</guid>
+      <pubDate>Wed, 12 Feb 2025 22:41:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>微型 JIT 可实现更快的 FFI</title>
+      <link>https://railsatscale.com/2025-02-12-tiny-jits-for-a-faster-ffi/</link>
+      <description><![CDATA[文章网址：https://railsatscale.com/2025-02-12-tiny-jits-for-a-faster-ffi/
+评论网址：https://news.ycombinator.com/item?id=43030388
+积分：113
+评论数：37]]></description>
+      <guid>https://railsatscale.com/2025-02-12-tiny-jits-for-a-faster-ffi/</guid>
+      <pubDate>Wed, 12 Feb 2025 22:20:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>向 HN 展示：因为无聊，我从头开始制作自己的操作系统</title>
+      <link>https://jotalea.com.ar/misc/jotaleaos/</link>
+      <description><![CDATA[自从我开始编程以来，我就一直想制作自己的操作系统。现在，五年过去了，我做到了（有点）。当然，它真的很基础，功能很少，但我做到了，我为此感到自豪。哦，顺便说一下，我才 ​​16 岁。
+
+评论网址：https://news.ycombinator.com/item?id=43029686
+积分：56
+评论数：20]]></description>
+      <guid>https://jotalea.com.ar/misc/jotaleaos/</guid>
+      <pubDate>Wed, 12 Feb 2025 20:55:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>PC及笔记本平均CPU性能首次下滑</title>
+      <link>https://www.cpubenchmark.net/year-on-year.html</link>
+      <description><![CDATA[文章网址：https://www.cpubenchmark.net/year-on-year.html
+评论网址：https://news.ycombinator.com/item?id=43029474
+积分：89
+评论数：57]]></description>
+      <guid>https://www.cpubenchmark.net/year-on-year.html</guid>
+      <pubDate>Wed, 12 Feb 2025 20:34:41 GMT</pubDate>
+    </item>
     <item>
       <title>显示 HN：yknotify – 当 YubiKey 在 macOS 上需要触摸时通知</title>
       <link>https://github.com/noperator/yknotify</link>
       <description><![CDATA[文章网址：https://github.com/noperator/yknotify
 评论网址：https://news.ycombinator.com/item?id=43029385
-积分：8
-评论数：3]]></description>
+积分：34
+评论数：13]]></description>
       <guid>https://github.com/noperator/yknotify</guid>
       <pubDate>Wed, 12 Feb 2025 20:24:59 GMT</pubDate>
     </item>
     <item>
-      <title>叙利亚刚刚举办了 50 年来首届国际科技会议</title>
-      <link>https://restofworld.org/2025/syria-international-tech-conference-sync-25/</link>
-      <description><![CDATA[文章网址：https://restofworld.org/2025/syria-international-tech-conference-sync-25/
-评论网址：https://news.ycombinator.com/item?id=43029277
-积分：23
-评论数：0]]></description>
-      <guid>https://restofworld.org/2025/syria-international-tech-conference-sync-25/</guid>
-      <pubDate>Wed, 12 Feb 2025 20:13:27 GMT</pubDate>
-    </item>
-    <item>
       <title>显示 HN：无需构建的全栈 SSR TypeScript Web 框架</title>
       <link>https://jsr.io/@fullsoak/fullsoak</link>
-      <description><![CDATA[嗨，HN 家族！我很想就采用不同方法的全栈 Web 框架征求您的意见：无需构建。这不是一个新概念。Preact 的人们提到了它：https://preactjs.com/guide/v10/no-build-workflows/然而，在 Web 框架市场中，我还没有找到很多同时支持“无需构建”和“SSR”的框架。总是存在某种“客户端挂载”和“服务器挂载”，并且必须（或两者都必须）经过构建（捆绑）过程。随着构建过程的进行，需要额外的维护工作和认知负荷。我无数次地与 tsconfig、webpack 配置、各种预设和插件搏斗……当一切正常时，它们就正常工作，但当我们需要一些自定义或非常规的东西时，我们几乎总是会遇到困难。（或者只是我）并不是说我反对任何现有的构建工作流程。事实上，我过去从 webpack 中受益匪浅，我对 Parcel 2、Turbopack、rspack 等现代打包器非常满意。我只是觉得为“无构建”路线保留一些位置是公平的 :)为此，我花了上个月的时间开发 TypeScript 全栈 SSR Web 框架的原型。它与 Deno 和 Bun 运行时兼容。我很乐意让它与 Node.js 兼容（在某些时候）。框架注册页面（https://jsr.io/@fullsoak/fullsoak）总结了迄今为止表达的动机。示例部署可在以下位置获得：https://fullsoak.onrender.com/app上述部署背后的代码：https://github.com/fullsoak/bun-examplesPS：您可能会看到 Preact 到处被使用和提及，但我确信 React 也 100% 受支持（只需插入和使用）。我只是恰好选择了 Preact 来亲自体验它。我期待您的想法 :) 并了解这是否可能（或可能不是）一个可行的大规模想法。也许，您会看到它（或类似的东西）未来的发展方向。非常感谢您的任何见解！
+      <description><![CDATA[嗨，HN！我很想听听您对采用不同方法的全栈 Web 框架的看法：无需构建。这不是一个新概念。Preact 的人们提到了它：https://preactjs.com/guide/v10/no-build-workflows/然而，在 Web 框架市场中，我还没有找到很多同时支持“无需构建”和“SSR”的框架。总是存在某种“客户端挂载”和“服务器挂载”，并且必须（或两者都必须）经过构建（捆绑）过程。随着构建过程的进行，需要额外的维护工作和认知负荷。我无数次地与 tsconfig、webpack 配置、各种预设和插件搏斗……当一切正常时，它们就正常工作，但当我们需要一些自定义或非常规的东西时，我们几乎总是会遇到困难。（或者只是我）并不是说我反对任何现有的构建工作流程。事实上，我过去从 webpack 中受益匪浅，我对 Parcel 2、Turbopack、rspack 等现代打包器非常满意。我只是觉得为“无构建”路线保留一些位置是公平的 :)为此，我花了上个月的时间开发 TypeScript 全栈 SSR Web 框架的原型。它与 Deno 和 Bun 运行时兼容。我很乐意让它与 Node.js 兼容（在某些时候）。框架注册页面（https://jsr.io/@fullsoak/fullsoak）总结了迄今为止表达的动机。示例部署可在以下位置获得：https://fullsoak.onrender.com/app上述部署背后的代码：https://github.com/fullsoak/bun-examplesPS：您可能会看到 Preact 到处被使用和提及，但我确信 React 也 100% 受支持（只需插入和使用）。我只是恰好选择了 Preact 来亲自体验它。我期待您的想法 :) 并了解这是否可能（或可能不是）一个可行的大规模想法。也许，您会看到它（或类似的东西）未来的发展方向。非常感谢您的任何见解！
 
 评论网址：https://news.ycombinator.com/item?id=43029089
-积分：32
-评论数：24]]></description>
+积分：54
+评论数：52]]></description>
       <guid>https://jsr.io/@fullsoak/fullsoak</guid>
       <pubDate>Wed, 12 Feb 2025 19:54:52 GMT</pubDate>
     </item>
@@ -41,8 +82,8 @@
       <link>https://imapsync.lamiral.info/</link>
       <description><![CDATA[文章网址：https://imapsync.lamiral.info/
 评论网址：https://news.ycombinator.com/item?id=43028468
-积分：16
-评论数：3]]></description>
+积分：78
+评论数：30]]></description>
       <guid>https://imapsync.lamiral.info/</guid>
       <pubDate>Wed, 12 Feb 2025 18:54:35 GMT</pubDate>
     </item>
@@ -51,8 +92,8 @@
       <link>https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/</link>
       <description><![CDATA[文章网址：https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizo​​ntal-scalability-at-odds/
 评论网址：https://news.ycombinator.com/item?id=43028200
-积分：21
-评论数：18]]></description>
+积分：35
+评论数：28]]></description>
       <guid>https://buttondown.com/hillelwayne/archive/are-efficiency-and-horizontal-scalability-at-odds/</guid>
       <pubDate>Wed, 12 Feb 2025 18:27:41 GMT</pubDate>
     </item>
@@ -61,51 +102,10 @@
       <link>https://arxiv.org/abs/2502.07577</link>
       <description><![CDATA[文章网址：https://arxiv.org/abs/2502.07577
 评论网址：https://news.ycombinator.com/item?id=43028057
-积分：20
-评论数：5]]></description>
+积分：37
+评论数：11]]></description>
       <guid>https://arxiv.org/abs/2502.07577</guid>
       <pubDate>Wed, 12 Feb 2025 18:14:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>HN 秀：Game Bub – 开源 FPGA 复古仿真手持设备</title>
-      <link>https://eli.lipsitz.net/posts/introducing-gamebub/</link>
-      <description><![CDATA[嗨，HN，在过去的约 1.5 年里，我制作了一款开源 FPGA 复古模拟手持设备，可以播放 Game Boy、Game Boy Color 和 Game Boy Advance 卡带。据我所知，目前还没有一款开源 FPGA 模拟器可以像这样播放物理卡带。我的主要目标之一是自己完成所有工作，并能够理解其中的每个组件，因此我设计了自己的 PCB，编写了固件，为 FPGA 编写了 Game Boy 和 Game Boy Advance 模拟器（使用 Chisel HDL），并设计了一个 3D 打印外壳。我在链接的帖子中详细介绍了设计和开发过程。很长，但是有很多图片和视频。GitHub 上提供的代码和设计文件：https://github.com/elipsitz/gamebub，以及架构概述：https://github.com/elipsitz/gamebub/blob/handheld/docs/archi...
-
-评论 URL：https://news.ycombinator.com/item?id=43027335
-积分：111
-评论数：37]]></description>
-      <guid>https://eli.lipsitz.net/posts/introducing-gamebub/</guid>
-      <pubDate>Wed, 12 Feb 2025 17:11:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>移动数据增长放缓，5G 网络满足消费者需求</title>
-      <link>https://spectrum.ieee.org/5g-bandwidth</link>
-      <description><![CDATA[文章网址：https://spectrum.ieee.org/5g-bandwidth
-评论网址：https://news.ycombinator.com/item?id=43027266
-积分：85
-评论数：134]]></description>
-      <guid>https://spectrum.ieee.org/5g-bandwidth</guid>
-      <pubDate>Wed, 12 Feb 2025 17:04:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Artie (YC S23) 正在招聘业务运营人员</title>
-      <link>https://www.ycombinator.com/companies/artie/jobs/CM1sVks-business-operations</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/artie/jobs/CM1sVks-business-operations
-评论网址：https://news.ycombinator.com/item?id=43027230
-积分：0
-评论数：0]]></description>
-      <guid>https://www.ycombinator.com/companies/artie/jobs/CM1sVks-business-operations</guid>
-      <pubDate>Wed, 12 Feb 2025 17:00:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>创纪录的中微子是迄今为止探测到的能量最高的</title>
-      <link>https://www.nature.com/articles/d41586-025-00444-1</link>
-      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-025-00444-1
-评论网址：https://news.ycombinator.com/item?id=43027150
-积分：114
-评论数：47]]></description>
-      <guid>https://www.nature.com/articles/d41586-025-00444-1</guid>
-      <pubDate>Wed, 12 Feb 2025 16:52:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
