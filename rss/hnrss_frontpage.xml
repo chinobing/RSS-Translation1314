@@ -4,107 +4,114 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Mon, 17 Feb 2025 15:18:28 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Feb 2025 18:22:48 GMT</lastBuildDate>
+    <item>
+      <title>发射HN：Roark（YC W25） - 消除声音AI测试的痛苦</title>
+      <link>https://news.ycombinator.com/item?id=43080895</link>
+      <description><![CDATA[嘿，我们是Roark的联合创始人James和Daniel（ https://roark.ai ）。我们构建了一个工具，使开发人员可以针对他们最新的声音AI的更改重新播放真实的生产呼叫，因此他们可以抓住失败，测试更新并充满信心地进行迭代。这是一个演示视频：与其他团队交谈，我们发现这不仅是一个利基问题 - 每个团队建立声音AI都在努力有效地验证绩效。调试意味着一遍又一遍地致电代理商。更新以未知的回归运输。情感分析仅依赖文本，缺少关键音频提示，例如犹豫或挫败感，这常常表明更深层的问题。这就是我们建立Roark的原因。 Roark不依赖脚本测试用例，而是通过API捕获了VAPI，Retell或定制代理商的真实生产呼叫，并根据您的最新代理更改重新重播它们。我们不仅要回馈文本，还保留用户说的话，他们说的话，以及当他们说出来时，模仿停顿，情感和调音，直到对话流动变化为止。这样可以确保您的代理在实际条件下进行测试，而不仅仅是合成脚本。对于我们运行的每个重播，Roark都会检查代理是否遵循密钥流量（例如，在共享帐户详细信息之前验证身份证）。我们基于语音的评估者还检测到情感，例如挫败感和混乱，长时间的暂停和中断 - 经常成绩单错过的事情。测试后，Roark提供了Mixpanel风格的分析，以跟踪失败，对话流量和关键绩效指标，帮助团队更快地调试并充满信心。团队不希望改变工作，而是立即获得通过/失败结果，并排成绩单比较以及现实世界的见解。我们已经与依靠语音的医疗保健，法律和客户服务团队合作AI用于关键互动。他们使用Roark来更快地调试AI失败，在上线之前进行测试更新并改善客户体验 - 而无需手动致电数十次。我们的产品还没有准备好  - 服务，因此您仍然会在我们的主页上看到可怕的“预订演示”。但是，如果您正在阅读本文，我们很想快速跟踪您，所以我们在此处为HN注册做了一个特殊的页面： https： //roark.ai/HN--Access 。如果您正在研究语音AI并想尝试我们，请这样做！会喜欢HN社区的任何反馈，想法或问题！
+
+注释URL： https://news.ycombinator.com/item?id=43080895  &gt;
+点：7 
+＃评论：1 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=43080895</guid>
+      <pubDate>Mon, 17 Feb 2025 16:54:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kartoffels v0.7：蜂窝自动机，统计，32位RISC-V</title>
+      <link>https://pwy.io/posts/kartoffels-v0.7/</link>
+      <description><![CDATA[文章URL： https://pwy.io/posts/kartoffels-v0.7/       &lt; /p&gt;
+注释URL： https://news.ycombinator.com/item?id=43080858  &gt;
+点：21 
+＃评论：0 ]]></description>
+      <guid>https://pwy.io/posts/kartoffels-v0.7/</guid>
+      <pubDate>Mon, 17 Feb 2025 16:51:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>HK，JDX的新Git Hook Manager</title>
+      <link>https://hk.jdx.dev/about.html</link>
+      <description><![CDATA[文章URL： https://hk.jdx.dev/about.html   
+注释URL： https://news.ycombinator.com/item?id=430800535  &gt;
+点：42 
+＃评论：19 ]]></description>
+      <guid>https://hk.jdx.dev/about.html</guid>
+      <pubDate>Mon, 17 Feb 2025 16:23:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源项目可以出售SBOM片段</title>
+      <link>https://www.thomas-huehn.com/open-source-projects-could-sell-sbom-fragments/</link>
+      <description><![CDATA[文章URL： https://wwwww.thomas-huehn.com /开源项目could-sell-sell-sbom-fragments/ 
+评论URL： https://news.ycombinator.com/item?id=43080378  &gt;
+点：37 
+＃评论：17 ]]></description>
+      <guid>https://www.thomas-huehn.com/open-source-projects-could-sell-sbom-fragments/</guid>
+      <pubDate>Mon, 17 Feb 2025 16:09:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>现在，您可以使用WebAssembly在浏览器中的栏杆上运行Ruby</title>
+      <link>https://web.dev/blog/ruby-on-rails-on-webassembly</link>
+      <description><![CDATA[文章URL： https://web.dev/blog/blog/ruby-on-on-rails-on-rails-rails-on-rails-on-on---- WebAssembly  
+注释URL： https://news.ycombinator.com/item?id=4307979791  &gt;
+点：23 
+＃评论：10 ]]></description>
+      <guid>https://web.dev/blog/ruby-on-rails-on-webassembly</guid>
+      <pubDate>Mon, 17 Feb 2025 15:15:14 GMT</pubDate>
+    </item>
     <item>
       <title>Mistral Saba</title>
       <link>https://mistral.ai/en/news/mistral-saba</link>
       <description><![CDATA[文章URL： https://mistral.ai/en/news/news/mistral-saba   
 评论URL： https://news.ycombinator.com/item?id=43079046  &gt;
-点：22 
-＃评论：3 ]]></description>
+点：110 
+＃评论：12 ]]></description>
       <guid>https://mistral.ai/en/news/mistral-saba</guid>
       <pubDate>Mon, 17 Feb 2025 13:56:30 GMT</pubDate>
     </item>
     <item>
-      <title>苹果图像游乐场的偏见</title>
-      <link>https://www.giete.ma/blog/biases-in-apples-image-playground</link>
-      <description><![CDATA[文章URL： https://wwwww.giete.ma/blog/blog/biases-biases-in-biases-in-biases-ing-biases-in-biases-in-----------------------------苹果图像播放 
-注释URL： https://news.ycombinator.com/item?id=43078743  &gt;
-点：20 
-＃评论：0 ]]></description>
-      <guid>https://www.giete.ma/blog/biases-in-apples-image-playground</guid>
-      <pubDate>Mon, 17 Feb 2025 13:24:04 GMT</pubDate>
+      <title>Espargos：基于ESP32的WiFi传感阵列</title>
+      <link>https://espargos.net/</link>
+      <description><![CDATA[文章URL： https://espargos.net/   
+注释URL： https://news.ycombinator.com/item?id=43079023  &gt;
+点：34 
+＃评论：1 ]]></description>
+      <guid>https://espargos.net/</guid>
+      <pubDate>Mon, 17 Feb 2025 13:54:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：刻有，创建停止运动动画并滑动由Excalidraw提供动力</title>
+      <link>https://inscribed.app/</link>
+      <description><![CDATA[ inscriped.app，一种基于幻灯片的工具，用于创建停止动作动画和幻灯片。我最近一直在编写许多技术内容，并且需要一种方法来创建停止运动以可视化博客的想法。 我是Excalidraw和Apple Keynote的忠实拥护者，因此该工具试图将两者的UX结合在一起。像excalidraw这样的草图带有幻灯片制作接口（带有快捷方式）等苹果主题演讲。特征：
+ - 键盘快捷键：复制/粘贴/del，向上/向下导航
+ - 调整文档尺寸
+ - 拖放图像
+-Google字体集成
+ - 演示模式
+ - 作为gif导出，或以iframe的形式嵌入到您想要的任何地方。自己尝试： https：// https：// &gt; 演示： https://www.youtube.com/watch？v = exe8 -6yezw   github： https://github.com/chunrapeepat/ininscriped  希望您喜欢它。欢迎任何反馈。
+
+注释URL： https://news.ycombinator.com/item?id=430785555  &gt;
+点：19 
+＃评论：3 ]]></description>
+      <guid>https://inscribed.app/</guid>
+      <pubDate>Mon, 17 Feb 2025 13:04:34 GMT</pubDate>
     </item>
     <item>
       <title>氟西汀促进了代谢防御，以防止败血症引起的致死性</title>
       <link>https://www.science.org/doi/10.1126/sciadv.adu4034</link>
       <description><![CDATA[文章url： https://www.science.org/doi/10.1126/sciadv.adu4034  
 注释URL： https://news.ycombinator.com/item?id=43078537  &gt;
-点：31 
-＃评论：11 ]]></description>
+点：99 
+＃评论：55 ]]></description>
       <guid>https://www.science.org/doi/10.1126/sciadv.adu4034</guid>
       <pubDate>Mon, 17 Feb 2025 13:02:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源维护者感到挤压</title>
-      <link>https://www.theregister.com/2025/02/16/open_source_maintainers_state_of_open/</link>
-      <description><![CDATA[Article URL: https://www.theregister.com/2025/02/16/open_source_maintainers_state_of_open/&lt; /a&gt; 
-注释URL： https://news.ycombinator.com/item?id=43077833  &gt;
-点：41 
-＃评论：24 ]]></description>
-      <guid>https://www.theregister.com/2025/02/16/open_source_maintainers_state_of_open/</guid>
-      <pubDate>Mon, 17 Feb 2025 11:41:12 GMT</pubDate>
     </item>
     <item>
       <title>0+0> 0：C ++线程 - 本地存储性能</title>
       <link>https://yosefk.com/blog/cxx-thread-local-storage-performance.html</link>
       <description><![CDATA[文章URL： https：//yosefk.com/blog/cxx-thread-thread-lread-local-local--存储 - 绩效。html 
 注释URL： https://news.ycombinator.com/item?id=430777675  &gt;
-点：34 
-＃评论：9 ]]></description>
+点：85 
+＃评论：37 ]]></description>
       <guid>https://yosefk.com/blog/cxx-thread-local-storage-performance.html</guid>
       <pubDate>Mon, 17 Feb 2025 11:18:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>问HN：作为SWE的职业发展的方法？</title>
-      <link>https://news.ycombinator.com/item?id=43077340</link>
-      <description><![CDATA[我担任软件工程师并获得确定的工资（市场薪水）。但是，似乎我陷入了自己的水平。我没有管理经验，因此我无法担任任何领导角色（无论是人还是软件），而且我的软件工程师不足以做复杂的事情（想想：非常高的负载，分发等） - 所以我无法将面试传递给所有Faang Move-fast-foad-load-world-world-do-our-our-7-Round-DFS-dfs-dfs-dfs-bfs-bfs-Interview风格公司。我唯一的选择是在工作之间跳跃在薪水范围内游泳，直到AI取代我，这远非理想。我有一个产生便士的SaaS，我不知道如何进一步扩展它。我没有筹集资金并创办自己的公司的技能或时间。我试图引导一些项目，但其中大多数人受到打击和错过（更多位于小姐）。我很想改用通过咨询或拥有自己的生意自雇，但我不能似乎弄清楚了如何进行切换。 
-
-注释URL： https://news.ycombinator.com/item?id=430777340  &gt;
-点：15 
-＃评论：7 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=43077340</guid>
-      <pubDate>Mon, 17 Feb 2025 10:32:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Step-Video-T2V：视频基础模型的实践，挑战和未来</title>
-      <link>https://arxiv.org/abs/2502.10248</link>
-      <description><![CDATA[文章URL： https://arxiv.org/abs/2502.10248   
-评论URL： https://news.ycombinator.com/item？id=430770744  &gt;
-点：7 
-＃评论：2 ]]></description>
-      <guid>https://arxiv.org/abs/2502.10248</guid>
-      <pubDate>Mon, 17 Feb 2025 09:54:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>X用户无法发布“ signal.me”链接</title>
-      <link>https://www.disruptionist.com/p/elon-musks-x-blocks-links-to-signal</link>
-      <description><![CDATA[文章URL： https://www.disruptionist.com/p/ Elon-Musks-X-blocks-links-links to-signal  
-评论URL： https://news.ycombinator.com/item?id=43076710     
-点：560 
-＃评论：486 ]]></description>
-      <guid>https://www.disruptionist.com/p/elon-musks-x-blocks-links-to-signal</guid>
-      <pubDate>Mon, 17 Feb 2025 08:52:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>chatgpt自动完成不良UX/UI吗？</title>
-      <link>https://honzabe.com/blog/posts/chatgpt-autocomplete-bad-ux-ui/</link>
-      <description><![CDATA[文章url： 
-注释URL： https://news.ycombinator.com/item?id=43076418  &gt;
-点：60 
-＃评论：44 ]]></description>
-      <guid>https://honzabe.com/blog/posts/chatgpt-autocomplete-bad-ux-ui/</guid>
-      <pubDate>Mon, 17 Feb 2025 08:05:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>单词嵌入 - 第3部分：Word2Vec的秘密成分</title>
-      <link>https://www.ruder.io/secret-word2vec/</link>
-      <description><![CDATA[文章URL： https://www.ruder.io/secret-word2vec/   
-注释URL： https://news.ycombinator.com/item？id=43075347  &gt;
-点：130 
-＃评论：10 ]]></description>
-      <guid>https://www.ruder.io/secret-word2vec/</guid>
-      <pubDate>Mon, 17 Feb 2025 05:02:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
