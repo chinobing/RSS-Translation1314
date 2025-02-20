@@ -4,106 +4,108 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Thu, 20 Feb 2025 15:19:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2025 18:23:18 GMT</lastBuildDate>
     <item>
-      <title>德克萨斯州禁止堕胎。然后败血症飙升</title>
-      <link>https://www.propublica.org/article/texas-abortion-ban-sepsis-maternal-mortality-analysis</link>
-      <description><![CDATA[文章URL： https://www.propublica.org/article/德克萨斯 - 堕胎 - 甲虫 -  sepsis-Mertalnal-Mortality Analysis  
-注释URL： https://news.ycombinator.com/item?id=43114990  &gt;
-点：66 
-＃评论：13 ]]></description>
-      <guid>https://www.propublica.org/article/texas-abortion-ban-sepsis-maternal-mortality-analysis</guid>
-      <pubDate>Thu, 20 Feb 2025 14:24:28 GMT</pubDate>
+      <title>Show HN：Wincse  - 将AWS S3与Windows Explorer集成</title>
+      <link>https://github.com/cbh34680/WinCse</link>
+      <description><![CDATA[ Wincse是一个将AWS S3存储器与Windows Explorer集成的应用程序。 Wincse利用WinFSP和AWS SDK，可以将S3存储库视为本地文件系统的一部分，从而使文件管理更简单。该应用程序目前正在开发中，并计划进行其他功能和改进。
+
+注释URL： https://news.ycombinator.com/item?id=43117895  &gt;
+点：8 
+＃评论：1 ]]></description>
+      <guid>https://github.com/cbh34680/WinCse</guid>
+      <pubDate>Thu, 20 Feb 2025 17:53:34 GMT</pubDate>
     </item>
     <item>
-      <title>是时候成为ML工程师了</title>
-      <link>https://blog.gregbrockman.com/its-time-to-become-an-ml-engineer</link>
-      <description><![CDATA[文章URL： https://blog.gregbrockman.com/its-pime-pime- to-become-an-ml-nevineer  
-注释URL： https://news.ycombinator.com/item?id=43114803  &gt;
+      <title>黑曜石现在可以免费上班</title>
+      <link>https://obsidian.md/blog/free-for-work/</link>
+      <description><![CDATA[文章URL： https://obsidian.md/blog/free-for-for-work/   &lt; /p&gt;
+评论URL： https://news.ycombinator.com/item?id=43117020  &gt;
+点：112 
+＃评论：1 ]]></description>
+      <guid>https://obsidian.md/blog/free-for-work/</guid>
+      <pubDate>Thu, 20 Feb 2025 16:50:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动HN：自信AI（YC W25） -  LLM应用程序的开源评估框架</title>
+      <link>https://news.ycombinator.com/item?id=43116633</link>
+      <description><![CDATA[ HI HN-我们是Jeffrey和Kritin，我们正在建立自信的AI（ https://confident-ai.com  ）。这是DeepeVal的云平台（ https://github.com/confident-ai/deepeval ），我们的Open-源包帮助工程师评估和单位测试LLM应用程序。在过去的一年中，我们花了很多时间来构建DeepeVal，以提供最佳的LLM评估开发人员体验，以BCG，Astrazeneca，Axa和Axa和Axa和Axa，Axa和Axa和CD的管道中的每天运行60万次评估，以提供最佳的LLM评估开发人员体验，以提供最佳的LLM评估开发人员体验，从而为LLMS进行思考。 Capgemini。但是，DeepeVal简单地运行并且之后什么都不做，这一事实并不是最佳体验。如果您想检查失败的测试用例，确定回归量，甚至选择最佳模型/及时组合，则不仅仅需要DeepeVal。这就是为什么我们围绕它构建平台的原因。这是一个快速演示视频： 自信AI非常适合抹布管道，代理和聊天机器人。典型的用例涉及允许公司切换基础LLM，重写提示的新型号（且可能更便宜），并与运行DeepeVal测试的代码库保持一致。我们的平台具有“数据集编辑器，”， “回归捕获者”和“迭代见解”。自信AI中的数据集编辑器允许域专家编辑数据集，同时使其与您的代码库保持同步进行评估。然后，一旦DeepeVal完成了从云中提取的这些数据集的运行评估，我们将生成可共享的LLM测试/基准报告。然后，回归捕捉器随后确定您的新实施中的任何回归，我们使用这些评估结果来根据您的度量分数来确定最佳迭代。我们的目标是使基准测试LLM应用程序如此可靠，以至于选择最佳实施方式是简单的在读取仪表板上的度量值时。为了实现这一目标，策划数据集的质量以及指标的准确性和可靠性必须是最高的。这使我们达到了当前的局限性。目前，DeepeVal的主要评估方法是LLM-AS-A-a-a-Gudge。我们使用诸如Geval和问答生成之类的技术来提高可靠性，但是这些方法仍然不一致。即使由域专家策划了高质量的数据集，我们的评估指标仍然是我们目标的最大阻碍。这是一个基于决策树的LLM-AS-A-A-Gudge指标，通过将测试用例分解为更精细的原子单元，从而提供确定性的结果。每个边缘代表一个决定，每个节点代表LLM评估步骤，每个叶节点返回分数。它在明确定义成功标准的情况下最有效，例如文本摘要。 DAG指标仍处于早期阶段，但我们希望通过朝着更好的，代码驱动的，开源的指标迈进，自信， AI可以提供确定性的LLM基准，任何人都可以盲目信任。我们希望您会尝试自信AI。 QuickStart在这里： https://docs.confident-ai.com/confident-ai/confident-ai/confident-ai/confident-ai-confident-confident-ai&gt; -intr ...  该平台在免费增值层上运行，我们已经放弃了下一个四个工作电子邮件注册的需求日子。期待您的想法！
+
+注释URL： https://news.ycombinator.com/item?id=4311666633  &gt;
 点：29 
-＃评论：27 ]]></description>
-      <guid>https://blog.gregbrockman.com/its-time-to-become-an-ml-engineer</guid>
-      <pubDate>Thu, 20 Feb 2025 14:09:14 GMT</pubDate>
+＃评论：0 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=43116633</guid>
+      <pubDate>Thu, 20 Feb 2025 16:23:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>加密货币骗局使一个小镇对着自己</title>
+      <link>https://www.nytimes.com/2025/02/19/magazine/cryptocurrency-scam-kansas-heartland-bank.html</link>
+      <description><![CDATA[文章URL： https://www.nytimes.com/2025/02/19/magazine/cryptocurrency-scam-kansas-hertland-bank.html  
+注释URL： https://news.ycombinator.com/item?id=43116410     
+点：98 
+＃评论：57 ]]></description>
+      <guid>https://www.nytimes.com/2025/02/19/magazine/cryptocurrency-scam-kansas-heartland-bank.html</guid>
+      <pubDate>Thu, 20 Feb 2025 16:09:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>SPICE86  - 用于实际模式反向工程的PC模拟器</title>
+      <link>https://github.com/OpenRakis/Spice86</link>
+      <description><![CDATA[文章URL： https://github.com/openrakis/spice86  
+注释URL： https://news.ycombinator.com/item?id=43116112    
+点：73 
+＃评论：11 ]]></description>
+      <guid>https://github.com/OpenRakis/Spice86</guid>
+      <pubDate>Thu, 20 Feb 2025 15:47:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>LOX  - 氧化的天体动力学 - 安全，人体工程学的天体动力学库</title>
+      <link>https://github.com/lox-space/lox</link>
+      <description><![CDATA[文章URL： https://github.com/lox-pace/lox-pace/lox   
+注释URL： https://news.ycombinator.com/item?id=43115735  &gt;
+点：54 
+＃评论：13 ]]></description>
+      <guid>https://github.com/lox-space/lox</guid>
+      <pubDate>Thu, 20 Feb 2025 15:20:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>螺旋：通才类人动物控制的视觉语言动作模型</title>
+      <link>https://www.figure.ai/news/helix</link>
+      <description><![CDATA[文章URL： https://www.figure.ai/news/news/helix   
+评论URL： https://news.ycombinator.com/item?id=43115079  &gt;
+点：133 
+＃评论：74 ]]></description>
+      <guid>https://www.figure.ai/news/helix</guid>
+      <pubDate>Thu, 20 Feb 2025 14:30:54 GMT</pubDate>
     </item>
     <item>
       <title>RT64：N64模拟器和本机端口中的图形渲染器</title>
       <link>https://github.com/rt64/rt64</link>
       <description><![CDATA[文章URL： https://github.com/rt64/rt64  
 注释URL： https://news.ycombinator.com/item?id=43114362  &gt;
-点：14 
-＃评论：0 ]]></description>
+点：62 
+＃评论：20 ]]></description>
       <guid>https://github.com/rt64/rt64</guid>
       <pubDate>Thu, 20 Feb 2025 13:26:17 GMT</pubDate>
     </item>
     <item>
-      <title>受XKCD密码规格启发的密码生成器</title>
-      <link>https://github.com/beala/xkcd-password</link>
-      <description><![CDATA[文章URL： https://github.com/beala/xkcd-password   
-注释URL： https://news.ycombinator.com/item?id=43114235  &gt;
-点：27 
-＃评论：39 ]]></description>
-      <guid>https://github.com/beala/xkcd-password</guid>
-      <pubDate>Thu, 20 Feb 2025 13:13:53 GMT</pubDate>
+      <title>可自定义的HTML选择</title>
+      <link>https://developer.chrome.com/blog/rfc-customizable-select</link>
+      <description><![CDATA[文章URL： 
+注释URL： https://news.ycombinator.com/item?id=43113790  &gt;
+点：35 
+＃评论：15 ]]></description>
+      <guid>https://developer.chrome.com/blog/rfc-customizable-select</guid>
+      <pubDate>Thu, 20 Feb 2025 12:13:57 GMT</pubDate>
     </item>
     <item>
       <title>Android设备的Amazon Appstore将于2025年8月20日停止</title>
       <link>https://www.amazon.com/gp/mas/appstore/android/faq</link>
       <description><![CDATA[文章URL： https://www.amazon.com/gp/gp/mas/appstore/appstore/anpstore/android/-常见问题 
 注释URL： https://news.ycombinator.com/item?id=43113397  &gt;
-点：113 
-＃评论：79 ]]></description>
+点：170 
+＃评论：138 ]]></description>
       <guid>https://www.amazon.com/gp/mas/appstore/android/faq</guid>
       <pubDate>Thu, 20 Feb 2025 11:13:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>20年后，数学夫妇解决了主要的小组理论问题</title>
-      <link>https://www.quantamagazine.org/after-20-years-math-couple-solves-major-group-theory-problem-20250219/</link>
-      <description><![CDATA[文章URL： https://www.quantamagazine.org/after-20 Yars-math-couple-solves-major-group-theory-problem-20250219/  
-注释URL： https://news.ycombinator.com/item?id=43113024    
-点：160 
-＃评论：20 ]]></description>
-      <guid>https://www.quantamagazine.org/after-20-years-math-couple-solves-major-group-theory-problem-20250219/</guid>
-      <pubDate>Thu, 20 Feb 2025 10:09:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Doge可以访问政府数据的“上帝模式”</title>
-      <link>https://www.theatlantic.com/technology/archive/2025/02/doge-god-mode-access/681719/</link>
-      <description><![CDATA[文章URL： https://wwwww.theatlantic.com/technolation.com/technology/archnology/archive/Archive/2025/02 /doge-god-mode-access/681719/ 
-评论URL： https://news.ycombinator.com/item?id=43112084    
-点：373 
-＃评论：679 ]]></description>
-      <guid>https://www.theatlantic.com/technology/archive/2025/02/doge-god-mode-access/681719/</guid>
-      <pubDate>Thu, 20 Feb 2025 07:36:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于微软拓扑Qubit的常见问题解答</title>
-      <link>https://scottaaronson.blog/?p=8669</link>
-      <description><![CDATA[文章URL： https://scottaaronson.blog/?p=8669   
-评论URL： https://news.ycombinator.com/item?id=4311202121    
-点：183 
-＃评论：31 ]]></description>
-      <guid>https://scottaaronson.blog/?p=8669</guid>
-      <pubDate>Thu, 20 Feb 2025 07:25:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>预测公司（YC S24）正在招聘</title>
-      <link>https://www.ycombinator.com/companies/the-forecasting-company/jobs/yxUzVUm-founding-machine-learning-engineer</link>
-      <description><![CDATA[文章URL： https://www.ycombinator.com/companies/the-forecasting-company/jobs/yxuzvum-founding-machine-learning-engineer-wenderer  
-注释URL： https://news.ycombinator.com/item?id=43111898  &gt;
-点：0 
-＃评论：0 ]]></description>
-      <guid>https://www.ycombinator.com/companies/the-forecasting-company/jobs/yxUzVUm-founding-machine-learning-engineer</guid>
-      <pubDate>Thu, 20 Feb 2025 07:00:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用Ollama和Pydantic在本地的文档/图像上运行结构化提取</title>
-      <link>https://github.com/vlm-run/vlmrun-hub</link>
-      <description><![CDATA[文章URL： https://github.com/vlm-run/vlmrun-hub  
-注释URL： https://news.ycombinator.com/item?id=43110173  &gt;
-点：146 
-＃评论：26 ]]></description>
-      <guid>https://github.com/vlm-run/vlmrun-hub</guid>
-      <pubDate>Thu, 20 Feb 2025 01:54:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
