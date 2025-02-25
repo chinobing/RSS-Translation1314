@@ -4,26 +4,105 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Tue, 25 Feb 2025 15:19:43 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2025 18:24:43 GMT</lastBuildDate>
     <item>
-      <title>chatgpt挽救了我的生命（不，认真，我是从急诊室写的）</title>
-      <link>https://hardmodefirst.xyz/chatgpt-saved-my-life-no,-seriously,-im-writing-this-from-the-er</link>
-      <description><![CDATA[文章URL： https：//hardmodefirst.xyz my-life-no， -  sernecim-im-writing-this-the-the-the-er-the-er  
-注释URL： https://news.ycombinator.com/item./item?id=43171639  &gt;
-点：82 
-＃评论：81 ]]></description>
-      <guid>https://hardmodefirst.xyz/chatgpt-saved-my-life-no,-seriously,-im-writing-this-from-the-er</guid>
-      <pubDate>Tue, 25 Feb 2025 13:36:31 GMT</pubDate>
+      <title>Show HN：TXTL  - 文本实用程序的快速静态网站</title>
+      <link>https://viveksjain.github.io/txtl/</link>
+      <description><![CDATA[我经常需要简单的文本工具（例如扩散，时代的时间转换，数字基础转换），并且感到沮丧，因为我找不到一个简单的选项，即我想要的那么快。许多（SEO优化）网站存在，但它们不必要地将您的输入发送给服务器。我使用了诸如DevToys之类的工具，但是它们的差异已经在Mac上损坏了一段时间[1]，并且需要安装应用程序，而Cyber​​chef很好，但需要太多互动（是的，我很挑剔）。，所以，我决定建立自己的。 TXTL试图根据输入自动检索您想要的模式，并且通常很快，并且尽可能避免您的方式。例如，如果您粘贴一个数字，则它将显示基本转换，但是如果它看起来像Epoch时间戳，则将显示相应的日期。当然是开源的，请 https://github.com/viveksjain/txtxl/  这也部分是一个部分让我在前端/新项目上尝试LLM的方式。这可能是整个博客文章，但是我明白为什么有些人可以说LLM可以10倍他们的生产力（我当然没有在我的日常工作中觉得这一点） - 我对O1的能力给我留下了深刻的印象，这可能是让我一枪就让我有70％的路。作为一个不熟悉前端开发的人，迭代速度更快。但是，它仍然需要大量的反馈，需要手持额 - 尽管我尝试了一些尝试，但我不得不完全重写差异逻辑，但我无法获得LLM才能正确。 ！ [1]  https://github.com/devtoys-app/devtoys/issues/1296   
+
+注释url： https://news.ycombinator.com/item？id=43175182  &gt;
+点：4 
+＃评论：0 ]]></description>
+      <guid>https://viveksjain.github.io/txtl/</guid>
+      <pubDate>Tue, 25 Feb 2025 18:00:47 GMT</pubDate>
     </item>
     <item>
-      <title>Zlib-RS不仅更安全，而且现在优于Zlib C实现</title>
-      <link>https://www.phoronix.com/news/Zlib-rs-0.4.2</link>
-      <description><![CDATA[文章URL： https://www.phoronix.com/news/news/zlib-rs-rs-0.4。 2  
-注释URL： https://news.ycombinator.com/item？id=43171413  &gt;
-点：37 
-＃评论：8 ]]></description>
-      <guid>https://www.phoronix.com/news/Zlib-rs-0.4.2</guid>
-      <pubDate>Tue, 25 Feb 2025 13:15:55 GMT</pubDate>
+      <title>'嘿数字17'</title>
+      <link>https://www.404media.co/email/b7eb2339-2ea1-4a37-96cc-a360494c214c/</link>
+      <description><![CDATA[文章URL： https://www.404media.co/email/b7eb2339-2ea1-4a37-96cc-a360494c214c/  
+评论URL： https://news.ycombinator.com/item?id=43175023  &gt;
+点：9 
+＃评论：0 ]]></description>
+      <guid>https://www.404media.co/email/b7eb2339-2ea1-4a37-96cc-a360494c214c/</guid>
+      <pubDate>Tue, 25 Feb 2025 17:48:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>减少记录排名的严重问题</title>
+      <link>https://noperator.dev/posts/document-ranking-for-complex-problems/</link>
+      <description><![CDATA[文章URL： https：//noperator.dev/posts/posts/document-ranking-for-complex - 问题/ 
+注释URL： https://news.ycombinator.com/item?id=43174910  &gt;
+点：26 
+＃评论：2 ]]></description>
+      <guid>https://noperator.dev/posts/document-ranking-for-complex-problems/</guid>
+      <pubDate>Tue, 25 Feb 2025 17:37:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：goatdb  - 轻巧，脱机的，deno和React的实时NODB</title>
+      <link>https://github.com/goatplatform/goatdb</link>
+      <description><![CDATA[嘿hn，我们一直在尝试Deno和React的实时，版本控制的NODB，称为GoatDB。这个想法是要删除后端复杂性，同时保持应用程序快速，离线弹性且易于自我托管。在客户端上运行 - 无需后端，增量查询可以使情况有效。
+ 自托管和轻量级 - 部署一个可执行文件，无需服务器堆栈。
+ 离线和弹性 - 客户独立工作，可以在服务器中断后恢复状态。
+ 边缘本地和快速 - 实时同步在本地发生的，而为什么我们构建了它：
+我们需要的东西比firebase更简单，比sqlite轻，并且更易于自我宿主。 GoatDB非常适合实时协作，离线，原型，单租户应用程序或超低成本的多租户设置 - 而没有后端的麻烦。喜欢HN：*的反馈：*是否有特定的功能或改进那会让它更有用吗？*您今天如何处理类似的问题，现有解决方案中缺少什么？回购在这里：
+ github repo： https://github.com/goatplatform/todo  期待您的想法！
+
+注释URL： https://news.ycombinator.com/item？id=43174377  &gt;
+点：17 
+＃评论：12 ]]></description>
+      <guid>https://github.com/goatplatform/goatdb</guid>
+      <pubDate>Tue, 25 Feb 2025 16:56:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我的新Wiki用于硅图形内容</title>
+      <link>https://www.tech-pubs.net/wiki/Main_Page</link>
+      <description><![CDATA[我还运行irixnet。我在这里分享我最新与SGI相关的项目。
+
+注释url： https://news.ycombinator.com/item？id=43174221  &gt;
+点：19 
+＃评论：1 ]]></description>
+      <guid>https://www.tech-pubs.net/wiki/Main_Page</guid>
+      <pubDate>Tue, 25 Feb 2025 16:46:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>混沌时空的新地图黑洞内部</title>
+      <link>https://www.quantamagazine.org/new-maps-of-the-bizarre-chaotic-space-time-inside-black-holes-20250224/</link>
+      <description><![CDATA[文章URL： https://www.quantamagazine.org/new-maps-of-the-bizarre-chaotic-chaotion-chaotion-time-inside-inside-black-holes-20250224/  
+注释URL： https://news.ycombinator.com/item？id=43173773  &gt;
+点：51 
+＃评论：7 ]]></description>
+      <guid>https://www.quantamagazine.org/new-maps-of-the-bizarre-chaotic-space-time-inside-black-holes-20250224/</guid>
+      <pubDate>Tue, 25 Feb 2025 16:15:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>超空间</title>
+      <link>https://hypercritical.co/2025/02/25/hyperspace</link>
+      <description><![CDATA[文章URL： https://hyypercritical.co/2025/02/02/25/hyperspace  &gt;
+注释URL： https://news.ycombinator.com/item./item?id=43173462  &gt;
+点：293 
+＃评论：166 ]]></description>
+      <guid>https://hypercritical.co/2025/02/25/hyperspace</guid>
+      <pubDate>Tue, 25 Feb 2025 15:51:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动HN：浏览器使用（YC W25） - 开源网络代理商</title>
+      <link>https://github.com/browser-use/browser-use</link>
+      <description><![CDATA[嘿，hn，我们是Gregor和Magnus，是浏览器的创始人（ https://browser-use.com/ ），一种将AI代理与浏览器连接的简便方法。  我们的代理库是开放式库（ https://github.com/browser-use-use/browser-use-browser-use ）我们拥有浏览器代理商最大的开源社区。现在我们有了云产品，因此我们今天发布的HN！查看此视频以查看它： https://preview.screen.studio/share/r1h4duak 。  https://github.com/browser-use/browser-use 关于我们如何如何用提示来控制网络。我们开始使用Selenium机器人和宏来自动化任务。然后我们俩都进入了ML。去年11月，我们问自己：“构建LLMS和Web之间的接口有多难？” 我们在show hn上启动（ https://news.ycombinator.com/item?id=42052432 ），此后一直在解决浏览器自动化的各种挑战，例如： - 网站更改时自动化脚本中断 - 自动化脚本烦人以构建 - 验证码和费率限制 - 解析错误和API密钥管理 - 也许最糟糕的是，登录屏幕。用我们填写其表格，在登录墙后面提取数据或自动化其CRM。其他人则使用XPATH的浏览器使用单击并更快地构建其脚本，或者直接重新重新确定浏览器使用的操作。我们目前正在研究强大的任务重播，长期任务的代理记忆，重复任务的并行化以及许多其他甜蜜的改进。一个有趣的方面是，有些公司现在希望将其UI更改为对代理更友好。一些开发人员甚至用不错的UI代替丑陋的UI，并使用浏览器使用来复制数据。除了开源，我们还有API。我们为您托管浏览器和LLM，并帮助您处理代理旋转，持续的会话并允许您并行运行多个实例。我们的价格为每月30美元，比Openai的运营商低。在开源方面，浏览器的使用仍然免费。您可以使用从双子座到十四行诗，Qwen甚至DeepSeek-R1的任何LLM。它已在麻省理工学院的许可下获得许可，使您完全自由自定义。我们很想听听您的声音 - 您面临什么自动化挑战？欢迎任何想法，问题，经验！
+
+注释URL： https://news.ycombinator.com/item？id=43173378  &gt;
+点：41 
+＃评论：21 ]]></description>
+      <guid>https://github.com/browser-use/browser-use</guid>
+      <pubDate>Tue, 25 Feb 2025 15:45:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>DeepSearcher：本地开源深度研究</title>
+      <link>https://milvus.io/blog/introduce-deepsearcher-a-local-open-source-deep-research.md</link>
+      <description><![CDATA[文章URL： https://milvus.io/blog/介绍深度搜索者-A-a-local-open-source-Deep-research.md  
+注释URL： https://news.ycombinator.com/item？id=43172338  &gt;
+点：89 
+＃评论：11 ]]></description>
+      <guid>https://milvus.io/blog/introduce-deepsearcher-a-local-open-source-deep-research.md</guid>
+      <pubDate>Tue, 25 Feb 2025 14:33:42 GMT</pubDate>
     </item>
     <item>
       <title>显示HN：优先考虑堆栈</title>
@@ -31,80 +110,10 @@
       <description><![CDATA[在人生的旅程中，我们决定的质量通常决定了我们的道路。经过阳光周围的多次旅行后，我可以给年轻一代的最有影响力的建议是磨练您的决策质量。生活向我们展示了一系列连续的选择，通常以有限的信息和大量不可预测的变量制成。通过优化我们的决策过程，我们增加了保持在有利的道路上的机会。我在个人和专业领域做出了很多决定，我想让我尽可能容易地直接达到这一点。我的目标是双重的： 1。尽可能最小化偏差。 2。为了减轻经常伴随着复杂选择的压倒性焦虑。这种实现使我开发了一种解决方案，该解决方案在个人使用和协作决策方面同样效果。我没有发明成对比较分析，我也是第一个基于此概念构建工具的人，但我也是VE创建了我自己的实现。我相信它为决策提供了独特的方法，希望您尝试一下。
 
 注释URL： https://news.ycombinator.com/item./item?id=43171334  &gt;
-点：11 
-＃评论：3 ]]></description>
+点：34 
+＃评论：30 ]]></description>
       <guid>https://stack-ranker.com</guid>
       <pubDate>Tue, 25 Feb 2025 13:06:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>将Python嵌入长生不老药，很好</title>
-      <link>https://dashbit.co/blog/running-python-in-elixir-its-fine</link>
-      <description><![CDATA[文章URL： https://dashbit.co/blog/running-python-python-in-in--in--in---- elixir-its-fine  
-注释url： https://news.ycombinator.com/item？id=43171239  &gt;
-点：81 
-＃评论：5 ]]></description>
-      <guid>https://dashbit.co/blog/running-python-in-elixir-its-fine</guid>
-      <pubDate>Tue, 25 Feb 2025 12:53:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果后门法律通过，请离开瑞典的信号</title>
-      <link>https://swedenherald.com/article/signals-ceo-then-were-leaving-sweden</link>
-      <description><![CDATA[文章URL： https://swedenherald.com/article.com/article/article/signals-ceo-ceo-ceo-ceo-then--then--then--then--then-是leaving-sweden  
-注释URL： https://news.ycombinator.com/item?id=43171205  &gt;
-点：316 
-＃评论：159 ]]></description>
-      <guid>https://swedenherald.com/article/signals-ceo-then-were-leaving-sweden</guid>
-      <pubDate>Tue, 25 Feb 2025 12:50:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>人们绊倒时会看到什么？分析Erowid的旅行报告</title>
-      <link>https://themicrodose.substack.com/p/what-do-people-see-when-theyre-tripping</link>
-      <description><![CDATA[文章URL： https://themicrodose.substack.com/p/当他们 -  theyre-tripping  时，什么事见解
-注释URL： https://news.ycombinator.com/item?id=43171007  &gt;
-点：20 
-＃评论：3 ]]></description>
-      <guid>https://themicrodose.substack.com/p/what-do-people-see-when-theyre-tripping</guid>
-      <pubDate>Tue, 25 Feb 2025 12:27:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果我们不使用TCP或UDP会发生什么？</title>
-      <link>https://github.com/Hawzen/hdp</link>
-      <description><![CDATA[文章URL： https://github.com/hawzen/hdp   
-注释URL： https://news.ycombinator.com/item?id=43169103  &gt;
-点：111 
-＃评论：52 ]]></description>
-      <guid>https://github.com/Hawzen/hdp</guid>
-      <pubDate>Tue, 25 Feb 2025 07:13:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gibberlink [AI-AI通信]</title>
-      <link>https://github.com/PennyroyalTea/gibberlink</link>
-      <description><![CDATA[文章URL： https://github.com/pennyroyaltea/gibberlink   
-注释URL： https://news.ycombinator.com/item?id=43168611  &gt;
-点：20 
-＃评论：4 ]]></description>
-      <guid>https://github.com/PennyroyalTea/gibberlink</guid>
-      <pubDate>Tue, 25 Feb 2025 05:47:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>CAD的历史 -  David Weisberg</title>
-      <link>https://www.shapr3d.com/blog/history-of-cad</link>
-      <description><![CDATA[文章URL： https://www.shapr3d.com/blog/history-of-cad-cad  
-注释url： https://news.ycombinator.com/item？id=43167865  &gt;
-点：86 
-＃评论：27 ]]></description>
-      <guid>https://www.shapr3d.com/blog/history-of-cad</guid>
-      <pubDate>Tue, 25 Feb 2025 03:36:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>DeepSeek开源DEEPEP  - 培训和推理的图书馆</title>
-      <link>https://github.com/deepseek-ai/DeepEP</link>
-      <description><![CDATA[文章URL： https://github.com/deepseek-ai/deepep   
-注释url： https://news.ycombinator.com/item？id=43167373  &gt;
-点：398 
-＃评论：54 ]]></description>
-      <guid>https://github.com/deepseek-ai/DeepEP</guid>
-      <pubDate>Tue, 25 Feb 2025 02:27:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
