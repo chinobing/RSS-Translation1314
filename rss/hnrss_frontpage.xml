@@ -4,106 +4,109 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Thu, 27 Feb 2025 15:20:09 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2025 18:24:47 GMT</lastBuildDate>
     <item>
-      <title>吉恩·哈克曼（Gene Hackman）死了</title>
-      <link>https://www.theguardian.com/film/2025/feb/27/gene-hackman-dies-wife-dog-95</link>
-      <description><![CDATA[Article URL: https://www.theguardian.com/film/2025/feb/27/gene-hackman-dies-wife-dog-95
-评论url： https://news.ycombinator.com/item？id=431947778 
-点：6 
+      <title>显示HN：Bild AI（YC W25） - 使用AI了解构造蓝图</title>
+      <link>https://news.ycombinator.com/item?id=43196474</link>
+      <description><![CDATA[嗨，hn！我们是Roop and Puneet，Bild AI的创始人（ https://www.bild.ai ）。 Bild AI使用机器学习来读取构造蓝图并提取详细的材料数量和成本估算。这是我们的演示： https：//youtu.be/vbdl7mh7iec  我们要解决的问题是，我们要解决的问题是生成材料数量的巨大努力，从而产生了来自blueprint blueprints blueprints blueprints blueprints blueprints blueprints，承包商和供应商花了无数小时的时间通过手工绘制蓝图来进行起飞 - 这是繁琐的，容易出错的，并且每年花费全球行业$ 30B。一个错误可能会导致一个项目的损失。我的联合创始人Puneet在加拿大建造了数百栋房屋时亲身经历了这一亲身经历。同时，我的背景是在Applied ML中 - 我从19岁开始在Google开始，然后是Waymo，在那里我为自动驾驶汽车建立了感知模型。 Puneet和我在Hack遇到了社会影响，我们建立了第一个_very_狭窄的原型。我们的方法是使用一套专业的机器学习模型来进行特定的蓝图理解任务，而不是单一端到端模型。例如，我们开发了计算机视觉模型，这些模型在检测和测量地面区域，或识别和计算钉子和门（例如螺柱和门）方面非常准确。 By composing these expert sub-models, we can achieve high accuracy on the overall takeoff.This is somewhat analogous to the approach we took at Waymo for self-driving perception - having an array of dedicated models for tasks like lane detection, traffic light classification etc. It&#39;s a very different paradigm than the big-data end-to-end models like what Tesla uses - unfortunately we just don’t have enough data yet.We&#39;re working with some early客户喜欢地板供应商，以帮助自动化其估计工作流程。但是，我们看到了一个巨大的机会，可以在所有行业中扩展这种“了解蓝图”方法的“ AI”。希望获得HN社区的思想和反馈！我认为建筑是应用最先进的ML技术的行业。如果您以建造者，建筑师，估算员，供应商等的经验在这个领域中有经验。我很想听听您的工作流程和痛点。，如果您是一名研究人员或工程师，他们对将最先进的技术应用于现实世界中服务不足的工业中的现实问题感到兴奋，那么我们目前与客户无疑可以与客户相处！前往 https://www.bild.ai/upload 如果您想尝试上传蓝图，我们可以谈论您的用例。我真的相信我们可以通过AI解决蓝图理解，并且似乎有大量应用程序。我整天都在这里聊天和回答问题！
+
+注释url： https://news.ycombinator.com/item？id=43196474 
+点：16 
+＃评论：8 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=43196474</guid>
+      <pubDate>Thu, 27 Feb 2025 17:30:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Superglue  - 编写自己的代码的开源API连接器</title>
+      <link>https://github.com/superglue-ai/superglue</link>
+      <description><![CDATA[您好，我们是Stefan和Adina，我们正在建造Superglue（ https://superglue.cloud.cloud ）。 SuperGlue允许您连接到任何API/数据源，并以所需的格式获取所需的数据。这是一台开源代理服务器，位于您和目标API之间。 Thus, you can easily deploy it into your own infra.If you’re spending a lot of time writing code connecting to weird APIs, fumbling with custom fields in foreign language ERPs, mapping JSONs, extracting data from compressed CSVs sitting on FTP servers, and making sure your integrations don’t break when something unexpected comes through, superglue might be for you.Here&#39;s how it works: You define your desired data schema and provide basic instructions关于API端点（例如“从Jira获取所有问题”）。然后，Superglue进行以下操作：  - 通过分析API文档来自动生成API配置。  - 处理分页，身份验证和错误检索。  -   -    - 使用JSONATA表达式的确切架构。花在构建和维护数据集成代码上。我们的方法与那里的其他解决方案有所不同，因为我们（1）使用LLMS生成映射代码，因此您可以使用所需的确切字段来构建自己的通用API，并且（2）验证您所获得的是您应该获得的，具有“自行车”的能力，可以使用任何问题。 href =“ https://github.com/superglue-ai/superglue”&gt; https://github.com/superglue-ai/superglue   - 许可证是GPL），或者您可以使用我们的托管版本（ https://app.superglue.cloud.cloud ）和我们的TS SDK（npm i @superglue/client）。 这是一个快速演示： https://www.youtube.com/watch?v=a1gv6p-fas4 
+您也可以在我们的网站上尝试Jira和Shopify Demos（ https：//superglue.cloud.cloud ）
+
+注释URL： https://news.ycombinator.com/item？id=43196374 
+点：18 
 ＃评论：2 ]]></description>
-      <guid>https://www.theguardian.com/film/2025/feb/27/gene-hackman-dies-wife-dog-95</guid>
-      <pubDate>Thu, 27 Feb 2025 14:42:02 GMT</pubDate>
+      <guid>https://github.com/superglue-ai/superglue</guid>
+      <pubDate>Thu, 27 Feb 2025 17:20:22 GMT</pubDate>
     </item>
     <item>
-      <title>Mozilla的新使用条款与Firefox的直接竞争不符</title>
-      <link>https://www.quippd.com/writing/2025/02/26/mozillas-new-terms-of-use-are-out-of-step-with-firefoxs-direct-competition.html</link>
-      <description><![CDATA[文章URL： https://www.quippd.com/writing/2025/02/02/26/mozillas-new-terms-of-use-use-use-us-of-of-step-with-firefoxs-direct-competition.html   
-评论url： https://news.ycombinator.com/item?id=43194536 
-点：41 
-＃评论：21 ]]></description>
-      <guid>https://www.quippd.com/writing/2025/02/26/mozillas-new-terms-of-use-are-out-of-step-with-firefoxs-direct-competition.html</guid>
-      <pubDate>Thu, 27 Feb 2025 14:12:54 GMT</pubDate>
+      <title>如何直接在容器中运行GUI应用程序</title>
+      <link>https://github.com/hemashushu/docker-archlinux-gui</link>
+      <description><![CDATA[文章URL： https://github.com/hemashushu/hemashushu/docker-archushus-archlinux-gui 
+注释URL： https://news.ycombinator.com/item?id=43196212 
+点：27 
+＃评论：5 ]]></description>
+      <guid>https://github.com/hemashushu/docker-archlinux-gui</guid>
+      <pubDate>Thu, 27 Feb 2025 17:04:11 GMT</pubDate>
     </item>
     <item>
-      <title>光子可以及时回到吗？</title>
-      <link>https://drgblackwell.substack.com/p/time-warp-delayed-choice-quantum</link>
-      <description><![CDATA[文章URL： https：//drgblackwell.substack.com/p/time-warp/time-warp/time-warp-delayed-choice-choice-choice-choice-choice-choice-choice-choice-choice-choice-choice-choice-quantum一下
-评论url： https://news.ycombinator.com/item?id=431944434 
-点：12 
-＃评论：10 ]]></description>
-      <guid>https://drgblackwell.substack.com/p/time-warp-delayed-choice-quantum</guid>
-      <pubDate>Thu, 27 Feb 2025 14:00:21 GMT</pubDate>
+      <title>将蓝牙设备变成无根特权的Apple Airtag</title>
+      <link>https://nroottag.github.io/</link>
+      <description><![CDATA[文章URL： https://nroottag.github.io/   
+注释URL： https://news.ycombinator.com/item?id=43196207 
+点：85 
+＃评论：6 ]]></description>
+      <guid>https://nroottag.github.io/</guid>
+      <pubDate>Thu, 27 Feb 2025 17:03:39 GMT</pubDate>
     </item>
     <item>
-      <title>当地的社会支出和经济剥夺的政治不满</title>
-      <link>https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2025.1516985/full</link>
-      <description><![CDATA[文章URL： https://www.frontiersin.org/journals/political-science/artices/10.3389/fpos.2025.1516985/full  
-注释url： https://news.ycombinator.com/item?id=43193795 
-点：43 
-＃评论：25 ]]></description>
-      <guid>https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2025.1516985/full</guid>
-      <pubDate>Thu, 27 Feb 2025 12:33:14 GMT</pubDate>
+      <title>MUON的磁矩暴露在SM中的孔 - 除非没有</title>
+      <link>https://physicsworld.com/a/the-muons-magnetic-moment-exposes-a-huge-hole-in-the-standard-model-unless-it-doesnt/</link>
+      <description><![CDATA[文章URL： https://physicsworld.com/a/the-muons-magnetic-moment-exposes-a-huge-huge-hole-in-the-candard-model-nosles-uns-to-in-toesnt/   
+评论url： https://news.ycombinator.com/item?id=43195724 
+点：25 
+＃评论：5 ]]></description>
+      <guid>https://physicsworld.com/a/the-muons-magnetic-moment-exposes-a-huge-hole-in-the-standard-model-unless-it-doesnt/</guid>
+      <pubDate>Thu, 27 Feb 2025 16:14:45 GMT</pubDate>
     </item>
     <item>
-      <title>Bitmovin（YC S15）正在奥地利雇用软件工程实习生</title>
-      <link>https://bitmovin.com/careers/7863755002/</link>
-      <description><![CDATA[文章URL： https://bitmovin.com/careers/7863755002/    
-注释URL： https://news.ycombinator.com/item?id=43193553 
-点：0 
-＃评论：0 ]]></description>
-      <guid>https://bitmovin.com/careers/7863755002/</guid>
-      <pubDate>Thu, 27 Feb 2025 12:01:37 GMT</pubDate>
+      <title>尼日利亚人正在为AWS和Google Cloud建立负担得起的替代方案</title>
+      <link>https://restofworld.org/2025/aws-google-cloud-nigeria-alternatives/</link>
+      <description><![CDATA[文章URL： https：//restofworld.org/2025/2025/aws-google-coogle-coogle-cloud-nigeria-alternative/
+评论URL： https://news.ycombinator.com/item?id=43195710 
+点：17 
+＃评论：2 ]]></description>
+      <guid>https://restofworld.org/2025/aws-google-cloud-nigeria-alternatives/</guid>
+      <pubDate>Thu, 27 Feb 2025 16:13:21 GMT</pubDate>
     </item>
     <item>
-      <title>Robopianist：灵巧的钢琴弹奏深度强化学习（2023）</title>
-      <link>https://kzakka.com/robopianist/#demo</link>
-      <description><![CDATA[文章URL： https://kzakka.com/robopianist/#demo   
-评论url： https://news.ycombinator.com/item?id=43192751 
-点：88 
-＃评论：28 ]]></description>
-      <guid>https://kzakka.com/robopianist/#demo</guid>
-      <pubDate>Thu, 27 Feb 2025 09:41:23 GMT</pubDate>
+      <title>分布式系统编程停滞不前</title>
+      <link>https://www.shadaj.me/writing/distributed-programming-stalled</link>
+      <description><![CDATA[文章url： https://www.shadaj.me/writing/writiting/distribed-progribed-progribed-prograted-programming-programming-programming-programming-programming-programming-programming-palled          
+注释url： https://news.ycombinator.com/item？id=43195702 
+点：81 
+＃评论：43 ]]></description>
+      <guid>https://www.shadaj.me/writing/distributed-programming-stalled</guid>
+      <pubDate>Thu, 27 Feb 2025 16:12:42 GMT</pubDate>
     </item>
     <item>
-      <title>双管：双向管道并行算法</title>
-      <link>https://github.com/deepseek-ai/DualPipe</link>
-      <description><![CDATA[文章URL： https://github.com/deepseek-ai/dualpipe   
-注释url： https://news.ycombinator.com/item?id=43190533 
-点：140 
-＃评论：19 ]]></description>
-      <guid>https://github.com/deepseek-ai/DualPipe</guid>
-      <pubDate>Thu, 27 Feb 2025 02:08:53 GMT</pubDate>
+      <title>$ 100 DIY MUON断层扫描师</title>
+      <link>https://spectrum.ieee.org/diy-muon-tomography</link>
+      <description><![CDATA[文章URL： https://spectrum.ieee.org/diy-muon-tomography    
+评论url： https://news.ycombinator.com/item?id=4319552525 
+点：89 
+＃评论：13 ]]></description>
+      <guid>https://spectrum.ieee.org/diy-muon-tomography</guid>
+      <pubDate>Thu, 27 Feb 2025 15:55:21 GMT</pubDate>
     </item>
     <item>
-      <title>几何代数</title>
-      <link>https://bivector.net/</link>
-      <description><![CDATA[文章URL： https://bivector.net/   
-评论url： https://news.ycombinator.com/item？id=43189703 
-点：151 
-＃评论：29 ]]></description>
-      <guid>https://bivector.net/</guid>
-      <pubDate>Wed, 26 Feb 2025 23:54:17 GMT</pubDate>
+      <title>单人</title>
+      <link>https://localthunk.com/blog/solitaire</link>
+      <description><![CDATA[文章URL： https://localthunk.com/blog/solitaire   
+评论url： https://news.ycombinator.com/item?id=431955516 
+点：224 
+＃评论：54 ]]></description>
+      <guid>https://localthunk.com/blog/solitaire</guid>
+      <pubDate>Thu, 27 Feb 2025 15:54:36 GMT</pubDate>
     </item>
     <item>
-      <title>iMac G4（K）</title>
-      <link>https://jcs.org/2025/02/26/imacg4k</link>
-      <description><![CDATA[文章URL： https://jcs.org/2025/02/02/26/imacg4k 
-注释url： https://news.ycombinator.com/item?id=43188971 
-点：344 
-＃评论：140 ]]></description>
-      <guid>https://jcs.org/2025/02/26/imacg4k</guid>
-      <pubDate>Wed, 26 Feb 2025 22:25:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>汤姆·史蒂文森（Tom Stevenson）在线性Elamite的解剖上</title>
-      <link>https://www.lrb.co.uk/the-paper/v47/n04/tom-stevenson/beyond-mesopotamia</link>
-      <description><![CDATA[Article URL: https://www.lrb.co.uk/the-paper/v47/n04/tom-stevenson/beyond-mesopotamia
-注释URL： https://news.ycombinator.com/item?id=43188537 
-点：88 
-＃评论：19 ]]></description>
-      <guid>https://www.lrb.co.uk/the-paper/v47/n04/tom-stevenson/beyond-mesopotamia</guid>
-      <pubDate>Wed, 26 Feb 2025 21:39:31 GMT</pubDate>
+      <title>谁是Aleph Null？ （2013）</title>
+      <link>http://bit-player.org/2013/who-was-aleph-null</link>
+      <description><![CDATA[文章URL： http://bit-bit-player.org/2013/who-was-was-was-no-was-was-null-null 
+注释URL： https://news.ycombinator.com/item?id=43195308 
+点：26 
+＃评论：11 ]]></description>
+      <guid>http://bit-player.org/2013/who-was-aleph-null</guid>
+      <pubDate>Thu, 27 Feb 2025 15:34:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
