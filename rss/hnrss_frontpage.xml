@@ -4,15 +4,75 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Fri, 28 Feb 2025 21:16:16 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Mar 2025 01:23:51 GMT</lastBuildDate>
+    <item>
+      <title>Mozilla使用条款的更新</title>
+      <link>https://blog.mozilla.org/en/products/firefox/update-on-terms-of-use/</link>
+      <description><![CDATA[文章url： https://blog.mozilla.mozilla.org/en/products/products/firefox/firefox/update-update-update-update-update-update-update-update-e--------
+注释url： https://news.ycombinator.com/item？id=43213612 
+点：83 
+＃评论：18 ]]></description>
+      <guid>https://blog.mozilla.org/en/products/firefox/update-on-terms-of-use/</guid>
+      <pubDate>Fri, 28 Feb 2025 23:59:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>继承几乎与工作一样重要</title>
+      <link>https://www.economist.com/leaders/2025/02/27/inheriting-is-becoming-nearly-as-important-as-working</link>
+      <description><![CDATA[文章URL： https://www.economist.com/leaders/2025/02/27/inheriting-is-becoming-nearly-as-rastant-as-portant-as-working  
+注释URL： https://news.ycombinator.com/item?id=43213143 
+点：149 
+＃评论：178 ]]></description>
+      <guid>https://www.economist.com/leaders/2025/02/27/inheriting-is-becoming-nearly-as-important-as-working</guid>
+      <pubDate>Fri, 28 Feb 2025 23:20:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Torii  - 生锈的框架不可知的身份验证库</title>
+      <link>https://github.com/cmackenzie1/torii-rs</link>
+      <description><![CDATA[文章URL： https://github.com/cmackenzie1/torii-rs   
+注释URL： https://news.ycombinator.com/item?id=43213090 
+点：12 
+＃评论：1 ]]></description>
+      <guid>https://github.com/cmackenzie1/torii-rs</guid>
+      <pubDate>Fri, 28 Feb 2025 23:16:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么很难构建喷气发动机</title>
+      <link>https://www.construction-physics.com/p/why-its-so-hard-to-build-a-jet-engine</link>
+      <description><![CDATA[文章url： https://www.construction-physics.com/pphysics.com/pphy-physics.com/p/pp/pp/pp/p/p/p/why-its-why-iss-so-so-so-so-so-hard-to-build-build-build-a-aet-pp/
+注释url： https://news.ycombinator.com/item？id=43212952 
+点：35 
+＃评论：11 ]]></description>
+      <guid>https://www.construction-physics.com/p/why-its-so-hard-to-build-a-jet-engine</guid>
+      <pubDate>Fri, 28 Feb 2025 23:05:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在数亿人和流行的应用程序上获得代码执行</title>
+      <link>https://kibty.town/blog/todesktop/</link>
+      <description><![CDATA[文章URL： https://kibty.town/blog/todesktop/   
+注释URL： https://news.ycombinator.com/item?id=432210858 
+点：294 
+＃评论：52 ]]></description>
+      <guid>https://kibty.town/blog/todesktop/</guid>
+      <pubDate>Fri, 28 Feb 2025 21:05:35 GMT</pubDate>
+    </item>
     <item>
       <title>日本东芝打字机型号BW-2112（2020）[视频]</title>
       <link>https://www.youtube.com/watch?v=JZcui85b4EE</link>
       <description><![CDATA[文章URL： https://www.youtube.com/watch?v=jzcui85b4ee
 注释URL： https://news.ycombinator.com/item?id=43210537 
-点：3 
-＃评论：0 ]]></description>
+点：45 
+＃评论：9 ]]></description>
       <guid>https://www.youtube.com/watch?v=JZcui85b4EE</guid>
+      <pubDate>Fri, 28 Feb 2025 20:51:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>400个不使用Microsoft Azure的原因</title>
+      <link>https://azsh.it</link>
+      <description><![CDATA[文章URL： https://azsh.it   
+注释URL： https://news.ycombinator.com/item?id=432210536 
+点：71 
+＃评论：18 ]]></description>
+      <guid>https://azsh.it</guid>
       <pubDate>Fri, 28 Feb 2025 20:51:34 GMT</pubDate>
     </item>
     <item>
@@ -22,8 +82,8 @@
 （d = 14，q = 3，r = 4）这花了几天的时间才能在我的第一个实现中运行。使用矩阵进行优化并进行操作，将其降低到20分钟，但速度太慢（IM以6分钟的限制在气体中运行）。一段时间以来，我使用了一个启发式：从随机预测开始，检查其最近的28个邻居，转到最高价值的邻居，然后重复直到距离3内不进行改进。它效果很好。，我一直在考虑如何正确解决该问题。最终，我意识到可以通过利用重叠来有效地积累部分总和：如果两个预测A和B共享邻居，则可以计算一次共享的邻居并重复使用。这是通过我使用Reshape，Roll和Flatten实施的基本转换来实现的（这可能不是最有效的实现，但最清晰），它通过在维度I中应用偏移来重新调整矩阵。 This transformation has two key properties that enable reducing the number of summations from 19,321 to just 101:- T(T(space, d1), d2) = T(T(space, d2), d1)- T(space1, d) + T(space2, d) = T(space1+space2, d)Number of sums would be the result of this expression:S_PSA = 1 + (d - （r-1）/2） * r *（q-1）我已经对任何数量的维度，每个维度元素和求和半径的算法进行了概括。实现在纯粹的numpy中。我已经将代码上传到了Colab，Github和博客中的解释。显然，这属于锤子邻居的总和，但是我在其他地方没有发现类似的方法（也许我在搜索不佳）。如果您知道或从事类似的工作，我很想听听您的想法！ rel =“ nofollow”&gt; https：//colab.research.google.com/drive/1aenkd7eemgqmjdb8y6y ...   github：  https：//sudapollismo.substack.com/p/partial-sum-acum-acum-acum-acum-acccumulation一下...-
 
 注释URL： https://news.ycombinator.com/item？id=432210185 
-点：9 
-＃评论：0 ]]></description>
+点：41 
+＃评论：1 ]]></description>
       <guid>https://news.ycombinator.com/item?id=43210185</guid>
       <pubDate>Fri, 28 Feb 2025 20:33:43 GMT</pubDate>
     </item>
@@ -32,8 +92,8 @@
       <link>https://github.com/salesforce/Merlion</link>
       <description><![CDATA[文章URL： https://github.com/salesforce/merlion  
 注释URL： https://news.ycombinator.com/item？id=43209064 
-点：53 
-＃评论：6 ]]></description>
+点：94 
+＃评论：16 ]]></description>
       <guid>https://github.com/salesforce/Merlion</guid>
       <pubDate>Fri, 28 Feb 2025 18:59:23 GMT</pubDate>
     </item>
@@ -42,70 +102,10 @@
       <link>https://www.bbc.com/news/live/c625ex282zzt</link>
       <description><![CDATA[文章URL： https://wwwww.bbc.com/news/news/live/c625ex255ex28282zzt  
 注释URL： https://news.ycombinator.com/item？id=43208973 
-点：861 
-＃评论：942 ]]></description>
+点：1886 
+＃评论：2641 ]]></description>
       <guid>https://www.bbc.com/news/live/c625ex282zzt</guid>
       <pubDate>Fri, 28 Feb 2025 18:49:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>哈罗德·科恩（Harold Cohen）和亚伦（Aaron） -  40年的合作（2016年）</title>
-      <link>https://computerhistory.org/blog/harold-cohen-and-aaron-a-40-year-collaboration/</link>
-      <description><![CDATA[文章url： httpps://computerhistory.orgg/blog/blog/blog/blog/harold-coholold-cohen--cohen-cohen-an--aaron-aaron-aaron-a-a-a-a-40-collabor-collabor-collaborati-al-collab/pp&gt;
-注释URL： https://news.ycombinator.com/item?id=43208524 
-点：7 
-＃评论：0 ]]></description>
-      <guid>https://computerhistory.org/blog/harold-cohen-and-aaron-a-40-year-collaboration/</guid>
-      <pubDate>Fri, 28 Feb 2025 18:02:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：GlobStar  - 开源静态分析工具包</title>
-      <link>https://news.ycombinator.com/item?id=43207942</link>
-      <description><![CDATA[嘿，hn！我们是DeepSource（YC W20）的联合创始人Jai和Sanket。我们正在开放源环球明星（ https://github.com/deepsourcecorp/globstar ），静态分析工具，使您可以轻松地编写和pland yam yam yaml [yaml [yaml [yaml [yam yam yaml yaml [yaml yam yam yaml yaml]关于在DeepSource每天处理数百万行代码的基于AST的静态分析仪，我们一直在听到客户的共同请求：“我们如何编写特定于代码库的自定义检查？” AppSec and DevOps teams have a lot of learned anti-patterns and security rules they want to enforce across their orgs, and being able to do that without being a static analysis expert, came up as an important want.We initially built an internal framework using tree-sitter [3] for our proprietary infrastructure-as-code analyzers, which enabled us to rapidly create new checkers.我们意识到，将框架开源可以为每个人解决这个问题。像Chatgpt和Claude这样的现代AI助手非常出色地以非常高的精度产生树木的查询。我们意识到，树木的粗糙S表达语法不再是问题（因为AI无论如何都会做所有这一代人），而我们可以专注于围绕它构建快速，灵活且可靠的检查器运行时。，所以我们不再创建另一个DSL，所以我们使用了另一个DSL，所以我们使用Tree-Sitter的本机语法。是的，表达式看起来比简化的DSL更复杂，但是它们可以直接访问代码的实际AST结构 - 这意味着您的规则完全按照您的期望工作。当您需要调试规则时，您正在处理代码的实际结构，而不是可能隐藏重要细节的抽象。我们还设计了GlobStar以具有逐渐学习的曲线：YAML界面可用于简单的检查器，而GO接口可以在需要的情况下处理复杂的方案，而当您需要诸如交叉范围分析，范围分析，范围分析，数据流程，数据流量分析和上下文分析，以及AWAREATE和COSTECT ARANANAGES和AWAREATE和CONTECT ARANANESS，AWARENSICESS，和AWAR AWARENESS，和AWAR AWARENESS和AWAR ARANANESS和AWAR AWARENESS。 The Go API gives you direct access to tree-sitter bindings, so you can write arbitrarily complex checkers on day one.Key features:- Written in Go with native tree-sitter bindings, distributed as a single binary- MIT-licensed- Write all your checkers in a “.globstar” folder in your repo, in YAML or Go, and just run “globstar check” without any build steps-通过树的多语言支持（今天20多种语言）我们还有很长的路要走，对于GlobStar来说，我们还有一个非常令人兴奋的路线图，我们很想听听您的反馈！ [1]  https://globstar.dev/guides/guides/writing-yaml-checker   [2]  https://globstar.dev/guides/writing-go-checker   [3] 
-注释URL： https://news.ycombinator.com/item?id=43207942 
-点：46 
-＃评论：14 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=43207942</guid>
-      <pubDate>Fri, 28 Feb 2025 17:12:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>3,200％的CPU利用率</title>
-      <link>https://josephmate.github.io/2025-02-26-3200p-cpu-util/</link>
-      <description><![CDATA[文章URL： https://josephmate.githmate.githmate.io/2025-02-02-26-02-26-3200P-CPU--CPU------CPU--------CPU--util/ 
-注释URL： https://news.ycombinator.com/item?id=43207831 
-点：230 
-＃评论：99 ]]></description>
-      <guid>https://josephmate.github.io/2025-02-26-3200p-cpu-util/</guid>
-      <pubDate>Fri, 28 Feb 2025 17:01:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>暴力改变了世代的人类基因，研究人员发现</title>
-      <link>https://news.ufl.edu/2025/02/syrian-violence-epigenetics/</link>
-      <description><![CDATA[文章URL： https：//news.ufl.ed.ufl.edu/2025/2025/202/syrian-violence-violence-violence-epigigenetics/
-注释URL： https://news.ycombinator.com/item？id=43206722 
-点：287 
-＃评论：189 ]]></description>
-      <guid>https://news.ufl.edu/2025/02/syrian-violence-epigenetics/</guid>
-      <pubDate>Fri, 28 Feb 2025 15:33:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>写信以逃脱默认设置</title>
-      <link>https://kupajo.com/write-to-escape-your-default-setting/</link>
-      <description><![CDATA[文章URL： https://kupajo.com/write-to-scape-escape-escape-your-default-setting/      
-注释URL： https://news.ycombinator.com/item？id=43206174 
-点：193 
-＃评论：55 ]]></description>
-      <guid>https://kupajo.com/write-to-escape-your-default-setting/</guid>
-      <pubDate>Fri, 28 Feb 2025 14:45:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenLayer（YC S21）正在雇用高级后端工程师</title>
-      <link>https://www.ycombinator.com/companies/openlayer/jobs/yIE9WI3-senior-backend-engineer</link>
-      <description><![CDATA[文章URL： https://wwwww.ycombinator.com/combinator.com/companies/openlayer/jobs/jobs/jobs/jobs/jobs/jobs/jobs/jobs/yieie9wi3-back-----------------          
-注释URL： https://news.ycombinator.com/item?id=43204682 
-点：0 
-＃评论：0 ]]></description>
-      <guid>https://www.ycombinator.com/companies/openlayer/jobs/yIE9WI3-senior-backend-engineer</guid>
-      <pubDate>Fri, 28 Feb 2025 12:00:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
