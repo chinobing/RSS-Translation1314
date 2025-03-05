@@ -4,109 +4,107 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 05 Mar 2025 01:19:47 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Mar 2025 03:26:31 GMT</lastBuildDate>
     <item>
-      <title>Show HN：ArchGW  - 提示的开源智能代理服务器</title>
-      <link>https://github.com/katanemo/archgw</link>
-      <description><![CDATA[嗨，hn！这是Salman，Adil，Shuguang和Co在ArchGW [1]上工作 - 一台开放式轻巧代理服务器，用于提示 - 用Rust编写并在Envoy [2]的顶部构建。 Arch移动了提示的关键但讨厌的处理和处理：任务理解，及时路由，安全性和可观察性 - 外部业务逻辑。 Its an edge and egress proxy for agentic apps.We&#39;ve talked to 100s of developers at places like Twilio, GE Healthcare, Redhat, Square, etc and there was a consistent theme in building AI apps: to move past a nascent demo they are left to their own devices in building out middle ware capabilities so that developers can move faster and ship with confidence.Today, the approach to building an enterprise-ready AI应用程序正在拼凑一大批单功能工具，添加了基于LLM的预处理步骤，以确定安全性（例如，应用治理和护栏），提出澄清的问题以改善任务绩效，通过手动呼叫和管理功能呼叫的函数来支持常见的代理操作。逻辑。 ArchGW建立了以下信念，即提示是细微的且不透明的用户请求，这些请求需要与传统的HTTP请求相同的功能，包括安全处理，智能路由，强大的可观察性以及与后端（API）的个性化系统的集成（API），以实现个性化 - 外部业务逻辑。我们在Lyft时帮助建立了使节，并认为其为建立代理以管理提示的流量提供了良好的基础。以下是有关开源项目的一些其他详细信息。 ArchGW用Rust编写，并且请求路径有三个主要部分：*侦听器子系统，该系统处理下游（Ingress）和上游（Egress）请求处理。*提示处理程序子系统。这是ArchGW通过其提示_Guard原始性做出决定的安全性，并确定在哪里通过其提示_target原始性来转发对话到将对话转发到对话。*模型服务子系统是托管所有轻量级llms [3]在Arggw中进行的所有轻量级LLMS [3]，并为我们提供了这些型号的框架，我们对此构建了这些型号，我们对幻想的构建了 plosect and of the Plivect and of the Plivect and of the Plivect and Is of the ploce  p&gt; questect and Is of plockity &gt;我们基础架构原始设施将帮助开发人员建立更快，更安全，更个性化的代理，而无需所有手动及时的工程和系统集成工作才能实现。我们希望邀请其他开发人员使用和改进拱门。请在此处进行一次镜头，并在我们的Discord频道[4] 上留下反馈，这也是该项目的快速演示[5]。您可以在[6]上查看我们的公共文档。我们的模型也可以在此处提供[7]。 rel =“ nofollow”&gt; https://www.envoyproxy.io/   [3]  https://huggingface.co/collections/katanemo/Arch-function-66  ...  [4]  https://discord.com/channels/1292630766827737088/12926307682  ...  [5]  https://www.youtube.com/watch?v=i4lbhr-nnxk    [6]  https://huggingface.co/katanemo  
-
-注释URL： https://news.ycombinator.com/item?id=43259862 
+      <title>微软出版商将在2026年10月以后不再支持</title>
+      <link>https://support.microsoft.com/en-gb/office/microsoft-publisher-will-no-longer-be-supported-after-october-2026-ee6302a2-4bc7-4841-babf-8e9be3acbfd7</link>
+      <description><![CDATA[文章URL： https://support.microsoft.com/en-gb/office/microsoft-publisher-will-no-no-no-no-no-be-be-be-support--after-after-2026-ee6302a2-4bc7-4bc7-4bc7-4bc7-4841-babf-8e9be3aacbfd7  
+注释URL： https://news.ycombinator.com/item？id=43262044 
+点：11 
+＃评论：2 ]]></description>
+      <guid>https://support.microsoft.com/en-gb/office/microsoft-publisher-will-no-longer-be-supported-after-october-2026-ee6302a2-4bc7-4841-babf-8e9be3acbfd7</guid>
+      <pubDate>Wed, 05 Mar 2025 02:51:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究发现，小鼠表现出针对无响应的同龄人的类似护理人员的行为</title>
+      <link>https://medicalxpress.com/news/2025-02-mice-paramedic-behaviors-unresponsive-peers.html</link>
+      <description><![CDATA[文章URL：https://medicalxpress.com/news/2025-02-mice-paramedic-behaviors-unresponsive-peers.html
+注释url： https://news.ycombinator.com/item？id=43261947 
 点：7 
+＃评论：0 ]]></description>
+      <guid>https://medicalxpress.com/news/2025-02-mice-paramedic-behaviors-unresponsive-peers.html</guid>
+      <pubDate>Wed, 05 Mar 2025 02:36:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>兄弟可能正在通过强制固件upd锁定第三方打印机墨盒</title>
+      <link>https://www.tomshardware.com/peripherals/printers/brother-accused-of-locking-down-third-party-printer-ink-cartridges-via-firmware-updates-removing-older-firmware-versions-from-support-portals</link>
+      <description><![CDATA[文章URL：  
+评论url： https://news.ycombinator.com/item?id=43261933 
+点：23 
+＃评论：3 ]]></description>
+      <guid>https://www.tomshardware.com/peripherals/printers/brother-accused-of-locking-down-third-party-printer-ink-cartridges-via-firmware-updates-removing-older-firmware-versions-from-support-portals</guid>
+      <pubDate>Wed, 05 Mar 2025 02:34:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>GSA准备出售400多家联邦物业</title>
+      <link>https://www.politico.com/news/2025/03/04/gsa-sell-400-federal-properties-00212071</link>
+      <description><![CDATA[文章URL： https://www.politico.com/news/2025/03/04/gsa-sell-400-federal-properties-00212071  
+注释url： https://news.ycombinator.com/item?id=43261761 
+点：61 
+＃评论：12 ]]></description>
+      <guid>https://www.politico.com/news/2025/03/04/gsa-sell-400-federal-properties-00212071</guid>
+      <pubDate>Wed, 05 Mar 2025 02:04:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MOX  - 现代，安全，多合一的电子邮件服务器</title>
+      <link>https://www.xmox.nl/</link>
+      <description><![CDATA[文章URL： https://www.xmox.nl/   
+注释url： https://news.ycombinator.com/item？id=43261729 
+点：51 
+＃评论：22 ]]></description>
+      <guid>https://www.xmox.nl/</guid>
+      <pubDate>Wed, 05 Mar 2025 01:58:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>百思买和目标首席执行官说，由于关税，价格即将上涨</title>
+      <link>https://www.theverge.com/news/624254/best-buy-target-raise-prices-tariffs</link>
+      <description><![CDATA[文章url： https：//wwwww.thereverge.com/news/news/news/news/news/624254/624254/best-buy-target-prices-prices-prices-pariff-prices-tariff-pariff-tariff-priffs-tariffs-tariffs-tarriff- 评论url： https://news.ycombinator.com/item？id=43261626 
+点：95 
+＃评论：88 ]]></description>
+      <guid>https://www.theverge.com/news/624254/best-buy-target-raise-prices-tariffs</guid>
+      <pubDate>Wed, 05 Mar 2025 01:36:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tmux  -  Essentials（2019）</title>
+      <link>https://davidwinter.dev/2019/03/14/tmux-the-essentials</link>
+      <description><![CDATA[文章URL： https://davidwinter.dev/2019/03/03/03/14/tmux-esentials  essentials    
+注释URL： https://news.ycombinator.com/item?id=43261600 
+点：29 
+＃评论：13 ]]></description>
+      <guid>https://davidwinter.dev/2019/03/14/tmux-the-essentials</guid>
+      <pubDate>Wed, 05 Mar 2025 01:31:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>死亡星球理论</title>
+      <link>https://arealsociety.substack.com/p/the-dead-planet-theory</link>
+      <description><![CDATA[文章url： https://arealsociety.substack.com/p/the-dead-planet-planet-theory 
+注释URL： https://news.ycombinator.com/item?id=43261327 
+点：10 
+＃评论：2 ]]></description>
+      <guid>https://arealsociety.substack.com/p/the-dead-planet-theory</guid>
+      <pubDate>Wed, 05 Mar 2025 00:45:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Scholium，您自己的研究助理</title>
+      <link>https://github.com/QDScholium/ScholiumAI</link>
+      <description><![CDATA[我建立了一个由AI驱动的研究代理，旨在根据用户查询有效地发现，总结和引用相关的学术论文。作为一名大学生，我已经写了很多论文，并且还担任了我们学生报纸的副本编辑。在事实检查期间，我注意到Google经常优先考虑不可靠和不cholarly的资源，例如中型文章，reddit帖子和LinkedIn内容，其最高成果是学术上的结果。例如，搜索“变形金刚”会产生六个博客和文章，然后最后列出Vaswani（2017）论文。这使收集可靠的来源并验证事实乏味且耗时。目前，学士可以访问有关ARXIV的所有论文，我的计划是将学者纳入搜索引擎进行研究，有点像Google或论文的困惑。 
+请查看存储库，给我一个明星，让我知道您的想法 - 我非常感谢您的反馈！ Web应用程序： https://github.com/qdscholium/scholiumai  
+
+注释URL： https://news.ycombinator.com/item？id=43261014 
+点：12 
 ＃评论：1 ]]></description>
-      <guid>https://github.com/katanemo/archgw</guid>
-      <pubDate>Tue, 04 Mar 2025 21:14:56 GMT</pubDate>
+      <guid>https://github.com/QDScholium/ScholiumAI</guid>
+      <pubDate>Tue, 04 Mar 2025 23:51:53 GMT</pubDate>
     </item>
     <item>
       <title>Arc-agi没有预处理</title>
       <link>https://iliao2345.github.io/blog_posts/arc_agi_without_pretraining/arc_agi_without_pretraining.html</link>
       <description><![CDATA[文章URL： https://iliao2345.github.io/blog_posts/arc_agi_without_pretraining/arc_agi_without_pretraining.html  
 注释url： https://news.ycombinator.com/item？id=43259182 
-点：190 
-＃评论：37 ]]></description>
+点：214 
+＃评论：48 ]]></description>
       <guid>https://iliao2345.github.io/blog_posts/arc_agi_without_pretraining/arc_agi_without_pretraining.html</guid>
       <pubDate>Tue, 04 Mar 2025 19:52:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么快速室很快</title>
-      <link>https://fabiensanglard.net/fastdoom/index.html</link>
-      <description><![CDATA[文章url： https://fabiensanglard.net.net/fastdoom/fastex.htex.htex.html 
-注释url： https://news.ycombinator.com/item？id = 43258709 
-点：343 
-＃评论：101 ]]></description>
-      <guid>https://fabiensanglard.net/fastdoom/index.html</guid>
-      <pubDate>Tue, 04 Mar 2025 19:05:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：时间旅行调试AI进行更可靠的氛围编码</title>
-      <link>https://nut.new</link>
-      <description><![CDATA[嗨，我是 https://replay.io 的首席执行官。  几年来，我们一直在为Web应用程序建立时间旅行调试器（以前的HN帖子： https://news.yews.yews.yews.yews.yembinator.com/item./item?id=28539247 ）以及我们的技术） process。 ais真的很擅长编写代码，但确实很擅长调试 - 使用克劳德（Claude）促使应用程序的存在真是太神奇了，当该应用程序无法正常工作时，Claude全部解决问题时，令人沮丧的是。  人们可以使用DevTools了解应用程序中发生的事情，但是AIS在这里挣扎。  随着应用程序的录制，其行为成为一个巨型数据库，用于使用抹布查询。  我们一直在提供Claude工具来探索和了解重播录制中发生的情况，从查看控制台消息到对React，Control依赖项和数据流的更高级分析。  现在，这是聊天API的背后（ https://blog.replay.io/the-nut-api ）。 rel =“ nofollow”&gt; https://nut.new ）作为开源项目，该项目使用此技术通过提示（Vibe编码）来构建应用程序，类似于E.G.  https://bolt.new  和看到固定螺母的虫子完全很整洁，否则完全使AI陷入困境。  下面的每个问题都有一个简短的视频，但您也可以加载关联的项目并自己尝试。 rel =“ nofollow”&gt; https://nut.new/problem/57A0B3D7-42ED-4DB0-BC7D-9DFEC8E3B3A5     - 设置按钮不起作用，因为其模态组件并不总是创建：https://nut.new/problem/bae8c208-31a1-4ec1-960f-3afa18514674-图标确实很小，这是由于其他元素施加的尺寸约束： https://nut.new/problem/9bb4e5f6-ea21-4b4c-b969-969-9e7ff4f00f5b    - 加载未完成，因为响应式UI状态的问题未完成href =“ https://nut.new/problem/486BC534-0C0E-4B2A-BB64-BBB64-BFE985E623F4” rel =“ nofollow”&gt; https://nut.new/problem/486bc534-0c0e-4b2a-bb64-bb64-bfe985e623f4      - 无限渲染循环由缺失的Usecallback： https://nut.new/problem/496F6944-419D-4F38-91B4-20D2AA698A5E    nut是完全免费的。  您可以获得一些免费用途或可以添加API键，我们还为可​​以为我们提供反馈来改善螺母的人们提供无限的免费访问。  如果您有兴趣，请给我发送电子邮件至hi@replay.io。  我很想知道你的想法！
-
-注释url： https://news.ycombinator.com/item?id=432258585 
-点：65 
-＃评论：30 ]]></description>
-      <guid>https://nut.new</guid>
-      <pubDate>Tue, 04 Mar 2025 18:53:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>虚构的工程师 - 卡尔·汉斯·扬克（Karl Hans Janke）的幻想飞行</title>
-      <link>https://www.cabinetmagazine.org/issues/29/lee.php</link>
-      <description><![CDATA[文章url： https://wwwww.cabinetmagazine.org/issues/issues/29/lee.php     
-注释URL： https://news.ycombinator.com/item？id=43258104 
-点：23 
-＃评论：9 ]]></description>
-      <guid>https://www.cabinetmagazine.org/issues/29/lee.php</guid>
-      <pubDate>Tue, 04 Mar 2025 18:12:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>谁害怕汤姆·沃尔夫（Tom Wolfe）？</title>
-      <link>https://commonreader.wustl.edu/c/whos-afraid-of-tom-wolfe/</link>
-      <description><![CDATA[文章url： https://commonreader.wustl.edu/c/whos-wheros-afraid--afraid--afraid-tom-wolfe-tom-wolfe/-tom-wolfe/    
-注释URL： https://news.ycombinator.com/item?id=43258010 
-点：64 
-＃评论：17 ]]></description>
-      <guid>https://commonreader.wustl.edu/c/whos-afraid-of-tom-wolfe/</guid>
-      <pubDate>Tue, 04 Mar 2025 18:04:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>解决SICP</title>
-      <link>https://lockywolf.wordpress.com/2021/02/08/solving-sicp/</link>
-      <description><![CDATA[文章URL： https://lockywolf.wordpress.com/2021/02/02/02/08/solving-solving-sicp/   -  sicp/   
-注释url： https://news.ycombinator.com/item？id=4322579663 
-点：68 
-＃评论：18 ]]></description>
-      <guid>https://lockywolf.wordpress.com/2021/02/08/solving-sicp/</guid>
-      <pubDate>Tue, 04 Mar 2025 17:58:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>将自然语言转换为逻辑谬误检测的一阶逻辑</title>
-      <link>https://arxiv.org/abs/2405.02318</link>
-      <description><![CDATA[文章URL： https://arxiv.org/abs/2405.02318   
-注释URL： https://news.ycombinator.com/item？id=432257719 
-点：159 
-＃评论：83 ]]></description>
-      <guid>https://arxiv.org/abs/2405.02318</guid>
-      <pubDate>Tue, 04 Mar 2025 17:36:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：vidformer  -  CV2视频注释脚本的插入加速度</title>
-      <link>https://github.com/ixlab/vidformer</link>
-      <description><![CDATA[嗨，这是我作为博士学位的一部分一直从事的项目。 vidformer是一个使视频注释或转换脚本实际上即时的系统。呈现完整视频的传统脚本可能需要几分钟的时间 - 通过优化执行和使用按需渲染来提高vidformer的速度，因此结果立即出现，而不是等待整个视频呈现。它可以作为OpenCV CV2的倒入替代品，这意味着大多数脚本可以通过简单地将“导入CV2”更改为“导入vidformer.cv2”为CV2，而无需重写代码或牺牲灵活性。 vidformer用Rust编写，并使用FFMPEG库进行低级视频访问。在引擎盖下，Vidformer在框架上运行代码，并带有符号引用到帧和跟踪框架修改以构建任务的声明表示。然后，当渲染时，它可以透明地在许多内核上分配工作负载，并有效地使用其他内存进行缓存帧。此外，它可以揭露按需端点的视频，并且一旦要求就渲染段；这让播放开始立即开始。很想听听反馈！
-
-评论url： https://news.ycombinator.com/item?id=4322577704 
-点：22 
-＃评论：11 ]]></description>
-      <guid>https://github.com/ixlab/vidformer</guid>
-      <pubDate>Tue, 04 Mar 2025 17:35:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>学习如何打破AES</title>
-      <link>https://davidwong.fr/blockbreakers/</link>
-      <description><![CDATA[文章URL： https://davidwong.fr/blockbreakers/   
-注释url： https://news.ycombinator.com/item?id=432257583 
-点：145 
-＃评论：37 ]]></description>
-      <guid>https://davidwong.fr/blockbreakers/</guid>
-      <pubDate>Tue, 04 Mar 2025 17:25:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
