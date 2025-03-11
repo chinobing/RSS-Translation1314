@@ -4,44 +4,60 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Tue, 11 Mar 2025 09:19:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 12:35:45 GMT</lastBuildDate>
     <item>
-      <title>ESP32无证蓝牙命令：清除空气</title>
-      <link>https://developer.espressif.com/blog/2025/03/esp32-bluetooth-clearing-the-air/</link>
-      <description><![CDATA[文章url： https://developer.espressif.com/blog/blog/blog/2025/2025/03/esp32-bluetooth-clear-clear-clear-clear-clear--clear---------------
-注释URL： https://news.ycombinator.com/item？id=433303331 
-点：69 
-＃评论：14 ]]></description>
-      <guid>https://developer.espressif.com/blog/2025/03/esp32-bluetooth-clearing-the-air/</guid>
-      <pubDate>Tue, 11 Mar 2025 08:21:59 GMT</pubDate>
+      <title>Show HN：因子学习环境 - 代理商建立工厂</title>
+      <link>https://jackhopkins.github.io/factorio-learning-environment/</link>
+      <description><![CDATA[我是杰克，我很高兴分享一个最近引入我的因素成瘾的项目：因子学习环境（FLE）。它提供了一个受控的环境，AI模型可以在具有有意义约束的基础世界中尝试复杂的自动化，资源管理和优化任务。 factorio作为基准的关键优势是其无限的本质。与许多新型模型迅速饱和的许多EVAL不同，Factorio的几何复杂性缩放意味着它不会在未来6个月（或甚至几年）中“解决”。这使我们能够通过他们可以生产的资源的含量顺序对模型进行有意义的比较 - 创建了长寿的基准。该项目在18个月前开始了多年的Factorio，并认识到其作为AI研究测试的潜力。几个月前，我们的团队（我自己，Akbir和Mart）共同创建了一个基准测试，可以测试代理在空间推理和长期计划中的能力。两个技术创新使该项目前进：首先，我们发现，在TCP上，将LUA带入了Factorio Console，可以使TCP上的Factorio Console启用（几乎）任意派遣游戏，而无需直接调节游戏。其次，我们开发了一种一流的Python API，该API包装了这些LUA程序，为AI代理通过熟悉的编程范式与Factorio进行了干净的类型界面。
+1。他们观察世界（看到他们最后一个动作的输出）
+2。生成Python代码以执行其下一个动作
+3。接收详细的反馈（包括例外和Stdout）我们提供两个主要评估设置：
+ - 实验室播放：24个带有固定资源的结构化任务
+ - 开放式游戏：在程序生成的地图上构建最大可能的工厂的无限任务，我们发现尽管LLMS表现出有希望的短距离技能，但它们在受约束环境中的空间推理挣扎。他们可以发现基本的自动化策略（例如电动钻孔），但无法实现更复杂的自动化（例如电子电路制造）。 Claude SONNET 3.5目前是最佳模型（按很大的利润）。该代码可在 https://github.com.com.com.com.com.com.com.com.com.com.com/jackhopkins/factorio  redme包含详细的安装说明和有关如何使用不同LLM代理进行评估的示例。我们很乐意听到您的想法，看看其他人可以使用此框架！
+
+评论url： https://news.ycombinator.com/item？id=433331582 
+点：5 
+＃评论：2 ]]></description>
+      <guid>https://jackhopkins.github.io/factorio-learning-environment/</guid>
+      <pubDate>Tue, 11 Mar 2025 12:02:02 GMT</pubDate>
     </item>
     <item>
-      <title>新西兰的$ 16B健康部通过单个Excel电子表格管理财务</title>
-      <link>https://www.theregister.com/2025/03/10/nz_health_excel_spreadsheet/</link>
-      <description><![CDATA[Article URL: https://www.theregister.com/2025/03/10/nz_health_excel_spreadsheet/
-注释URL： https://news.ycombinator.com/item?id=4333020206 
+      <title>是什么使代码难以阅读：复杂性的视觉模式（2023）</title>
+      <link>https://seeinglogic.com/posts/visual-readability-patterns/</link>
+      <description><![CDATA[文章url： https://seeinglogic.com/posts/posts/visual-radibal-radibaly-paters-patterns/     
+评论URL： https://news.ycombinator.com/item?id=43330900 
 点：18 
-＃评论：6 ]]></description>
-      <guid>https://www.theregister.com/2025/03/10/nz_health_excel_spreadsheet/</guid>
-      <pubDate>Tue, 11 Mar 2025 07:56:19 GMT</pubDate>
+＃评论：1 ]]></description>
+      <guid>https://seeinglogic.com/posts/visual-readability-patterns/</guid>
+      <pubDate>Tue, 11 Mar 2025 10:07:17 GMT</pubDate>
     </item>
     <item>
-      <title>使用光子制成的超old</title>
-      <link>https://www.photonicsonline.com/doc/a-super-solid-made-using-pho-tons-0001</link>
-      <description><![CDATA[Article URL: https://www.photonicsonline.com/doc/a-super-solid-made-using-pho-tons-0001
-注释url： https://news.ycombinator.com/item./item?id=43329427 
-点：64 
-＃评论：21 ]]></description>
-      <guid>https://www.photonicsonline.com/doc/a-super-solid-made-using-pho-tons-0001</guid>
-      <pubDate>Tue, 11 Mar 2025 05:30:45 GMT</pubDate>
+      <title>当地深入研究 -  Arxiv，Wiki和其他搜索包括</title>
+      <link>https://github.com/LearningCircuit/local-deep-research</link>
+      <description><![CDATA[文章URL： https://github.com/learningcircuit/local-deep-rocal-deep-research   
+注释URL： https://news.ycombinator.com/item?id=43330164 
+点：36 
+＃评论：6 ]]></description>
+      <guid>https://github.com/LearningCircuit/local-deep-research</guid>
+      <pubDate>Tue, 11 Mar 2025 07:51:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta必须捍卫声称其从Llama的培训饲料中剥离的版权信息</title>
+      <link>https://www.theregister.com/2025/03/11/meta_dmca_copyright_removal_case/</link>
+      <description><![CDATA[Article URL: https://www.theregister.com/2025/03/11/meta_dmca_copyright_removal_case/
+注释url： https://news.ycombinator.com/item？id=433329795 
+点：23 
+＃评论：0 ]]></description>
+      <guid>https://www.theregister.com/2025/03/11/meta_dmca_copyright_removal_case/</guid>
+      <pubDate>Tue, 11 Mar 2025 06:44:13 GMT</pubDate>
     </item>
     <item>
       <title>印度的极端贫困已经降至可忽略的水平</title>
       <link>https://www.economist.com/finance-and-economics/2025/02/27/india-has-undermined-a-popular-myth-about-development</link>
       <description><![CDATA[文章URL： https://www.economist.com/finance-and-conomics/2025/02/27/india-has-undermined-a-popular-myth-about-development  
 注释URL： https://news.ycombinator.com/item？id=433329373 
-点：63 
-＃评论：45 ]]></description>
+点：114 
+＃评论：99 ]]></description>
       <guid>https://www.economist.com/finance-and-economics/2025/02/27/india-has-undermined-a-popular-myth-about-development</guid>
       <pubDate>Tue, 11 Mar 2025 05:19:50 GMT</pubDate>
     </item>
@@ -51,8 +67,8 @@
       <description><![CDATA[如果时间盒装的社交媒体体验比无尽的社交媒体体验更好，我将建立该网站作为快速测试。到目前为止，我一直在和朋友一起使用它，感觉很好，但是似乎是时候将其带给更大的受众了。让我知道您的想法！它只是基于EST，对不起。
 
 评论url： https://news.ycombinator.com/item?id=433328095 
-点：274 
-＃评论：162 ]]></description>
+点：410 
+＃评论：218 ]]></description>
       <guid>https://www.seven39.com</guid>
       <pubDate>Tue, 11 Mar 2025 01:05:10 GMT</pubDate>
     </item>
@@ -61,8 +77,8 @@
       <link>https://github.com/eduardoagarcia/shef</link>
       <description><![CDATA[文章URL： https://github.com/eduardoardoagarcia/shef   
 注释URL： https://news.ycombinator.com/item?id=4333277758 
-点：66 
-＃评论：26 ]]></description>
+点：83 
+＃评论：32 ]]></description>
       <guid>https://github.com/eduardoagarcia/shef</guid>
       <pubDate>Tue, 11 Mar 2025 00:16:54 GMT</pubDate>
     </item>
@@ -70,8 +86,8 @@
       <title>地下室（1997）的时空弯曲</title>
       <link>https://www.fourmilab.ch/gravitation/foobar/</link>
       <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=433327730 
-点：147 
-＃评论：21 ]]></description>
+点：170 
+＃评论：27 ]]></description>
       <guid>https://www.fourmilab.ch/gravitation/foobar/</guid>
       <pubDate>Tue, 11 Mar 2025 00:11:33 GMT</pubDate>
     </item>
@@ -80,8 +96,8 @@
       <link>https://www.newyorker.com/magazine/2025/03/17/rot-padraic-x-scanlan-book-review</link>
       <description><![CDATA[文章URL： https://www.newyorker.com/magazine/magazine/2025/2025/03/03/03/17/rot-padran-rot-padran/rot-padran-padran/rot-padran-rot-padran 
 评论url： https://news.ycombinator.com/item?id=433326275 
-点：200 
-＃评论：282 ]]></description>
+点：236 
+＃评论：352 ]]></description>
       <guid>https://www.newyorker.com/magazine/2025/03/17/rot-padraic-x-scanlan-book-review</guid>
       <pubDate>Mon, 10 Mar 2025 21:24:06 GMT</pubDate>
     </item>
@@ -90,20 +106,10 @@
       <link>https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning</link>
       <description><![CDATA[Article URL: https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning
 注释url： https://news.ycombinator.com/item？id=433323946 
-点：297 
-＃评论：29 ]]></description>
+点：339 
+＃评论：31 ]]></description>
       <guid>https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning</guid>
       <pubDate>Mon, 10 Mar 2025 18:27:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>固件更新Bricks HP打印机，使其无法使用HP墨盒</title>
-      <link>https://arstechnica.com/gadgets/2025/03/firmware-update-bricks-hp-printers-makes-them-unable-to-use-hp-cartridges/</link>
-      <description><![CDATA[文章URL： https://arstechnica.com/gadgets/2025/03/firmware-update-bricks-bricks-hp-printers-makes-makes-them-unable-to-use-use-hp-cartridges/  
-注释URL： https://news.ycombinator.com/item?id=433323923 
-点：179 
-＃评论：156 ]]></description>
-      <guid>https://arstechnica.com/gadgets/2025/03/firmware-update-bricks-hp-printers-makes-them-unable-to-use-hp-cartridges/</guid>
-      <pubDate>Mon, 10 Mar 2025 18:26:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
