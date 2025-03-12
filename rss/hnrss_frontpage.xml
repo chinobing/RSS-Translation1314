@@ -4,14 +4,74 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 12 Mar 2025 06:25:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Mar 2025 09:19:25 GMT</lastBuildDate>
+    <item>
+      <title>GEMMA3  - 当前适合单个GPU的最强模型</title>
+      <link>https://ollama.com/library/gemma3</link>
+      <description><![CDATA[文章URL： https://ollama.com/library.com/library/gemma3   
+注释URL： https://news.ycombinator.com/item?id=43340785 
+点：62 
+＃评论：13 ]]></description>
+      <guid>https://ollama.com/library/gemma3</guid>
+      <pubDate>Wed, 12 Mar 2025 07:48:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>我每天使用光标 - 这是避免垃圾零件的方式</title>
+      <link>https://www.nickcraux.com/blog/cursor-tips</link>
+      <description><![CDATA[文章URL： https://www.nickcraux.com/blog/cursor-tipsor-tips   
+注释url： https://news.ycombinator.com/item？id = 4340662 
+点：30 
+＃评论：11 ]]></description>
+      <guid>https://www.nickcraux.com/blog/cursor-tips</guid>
+      <pubDate>Wed, 12 Mar 2025 07:21:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Azure的最弱链接？ API连接如何溢出秘密</title>
+      <link>https://binarysecurity.no/posts/2025/03/api-connections</link>
+      <description><![CDATA[文章url： https://binarysecurity.no/posts/2025/2025/03/api-connections 
+注释URL： https://news.ycombinator.com/item？id=4334050505 
+点：11 
+＃评论：3 ]]></description>
+      <guid>https://binarysecurity.no/posts/2025/03/api-connections</guid>
+      <pubDate>Wed, 12 Mar 2025 06:43:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gemma 3技术报告[PDF]</title>
+      <link>https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf</link>
+      <description><![CDATA[文章URL： https://storage.googleapis.com/deepmind-media/deepmind-media/gemma/gemma/gemma/gemma/gemma/gemma/gemma/gemma/gemma3report.pd.pd.pd.pdf  
+注释url： https://news.ycombinator.com/item?id=43340491 
+点：131 
+＃评论：87 ]]></description>
+      <guid>https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf</guid>
+      <pubDate>Wed, 12 Mar 2025 06:39:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLVM Flang的首次正式发行</title>
+      <link>https://blog.llvm.org/posts/2025-03-11-flang-new/</link>
+      <description><![CDATA[文章URL： https://blog.llvm..org/posts/2025-03-03-11-flang-new/  
+注释url： https://news.ycombinator.com/item?id=43340487 
+点：28 
+＃评论：3 ]]></description>
+      <guid>https://blog.llvm.org/posts/2025-03-11-flang-new/</guid>
+      <pubDate>Wed, 12 Mar 2025 06:37:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>一个更强大的RAW OPENBSD SYSCALL演示</title>
+      <link>https://nullprogram.com/blog/2025/03/06/</link>
+      <description><![CDATA[文章URL： https://nullprogm.com/blog/2025/03/06/06/   
+评论url： https://news.ycombinator.com/item？id=43340385 
+点：12 
+＃评论：3 ]]></description>
+      <guid>https://nullprogram.com/blog/2025/03/06/</guid>
+      <pubDate>Wed, 12 Mar 2025 06:11:41 GMT</pubDate>
+    </item>
     <item>
       <title>盐台风后电信堆栈的不安全感</title>
       <link>https://soatok.blog/2025/03/12/on-the-insecurity-of-telecom-stacks-in-the-wake-of-salt-typhoon/</link>
       <description><![CDATA[文章URL：&gt; https://soatok.blog/2025/03/03/12/on-the-inthe-insecurity-of-telecom-stacks-in-wake-wake-wake-of-salt-yphoon/  
 注释url： https://news.ycombinator.com/item?id=43340196 
-点：6 
-＃评论：0 ]]></description>
+点：71 
+＃评论：18 ]]></description>
       <guid>https://soatok.blog/2025/03/12/on-the-insecurity-of-telecom-stacks-in-the-wake-of-salt-typhoon/</guid>
       <pubDate>Wed, 12 Mar 2025 05:21:33 GMT</pubDate>
     </item>
@@ -21,8 +81,8 @@
       <description><![CDATA[嘿，我构建了Xpipe，因为我一直想对所有远程系统进行简单的文件系统和终端访问，包括容器，虚拟机，群集等，您通常无法通过开箱即用的现有解决方案进行连接。 xpipe是一种新型的连接集线器，可允许您从本地桌面访问整个服务器基金。通过消除与终端或图形界面相互作用时，与任何类型的服务器合作时，它可以使您的生活更轻松。 Xpipe带有SSH，Docker和其他容器的集成，Proxmox，Kubernetes群集，Teleport和Taileport和TailScale等各种管理程序，也不需要在远程系统上进行任何设置。您可以将自己喜欢的文本/代码编辑器，终端，密码管理器，外壳，命令行工具等链接起来，从而使您可以在使用Xpipe时继续使用自己喜欢的工具。   整个如何与远程系统通信的整个实现完全不同于大多数其他解决方案。本质上可以用这种方式解释背景中发生的事情：它启动了诸如CMD或Bash之类的本地外壳过程，并执行命令，该命令在该外壳过程中打开远程外壳连接，例如SSH user@host。然后，通过该外壳过程的stdin/stdout/stderr进行所有通信。从那里，它检测到哪种服务器和环境，例如Shell类型，OS，用户等。您已登录并调整其与远程系统的对话。到那时，例如使用文件系统相关的命令，例如LS，RM，Touch等。它可以实现一个功能上的文件管理器，该功能管理器基本上可以连接到每个系统。，如果您曾经使用过，它与Emacs Tramp Mode基本上是相同的想法。不同之处在于，它在各种系统上都可以使用，并且也不受某个编辑器/工具环境的约束。 VScode还使用类似的方法来为具有SSH的某些远程开发工具使用，但是范围更具限制，并且使用较短。它也绑定到VSCODE平台。 Xpipe实施的目的是不要受到特定环境或特定工具集的限制。开发花了一段时间，因为这种新方法需要在许多领域进行全新的实施，但我相信它已经准备好了。我感谢您提供的任何反馈，以指导我从这里朝着正确的开发方向。享受！
 
 注释url： https://news.ycombinator.com/item？id=433396629 
-点：21 
-＃评论：10 ]]></description>
+点：53 
+＃评论：25 ]]></description>
       <guid>https://xpipe.io/</guid>
       <pubDate>Wed, 12 Mar 2025 03:16:28 GMT</pubDate>
     </item>
@@ -32,8 +92,8 @@
       <description><![CDATA[在过去的几个月中，一直在C ++中制作此栅格器引擎，现在还向系统添加了射线追踪功能。只需加载模型或生成网格，添加一些灯并渲染。。
 
 评论url： https://news.ycombinator.com/item?id=43339584 
-点：37 
-＃评论：4 ]]></description>
+点：52 
+＃评论：6 ]]></description>
       <guid>https://github.com/WW92030-STORAGE/VSC</guid>
       <pubDate>Wed, 12 Mar 2025 03:08:23 GMT</pubDate>
     </item>
@@ -42,69 +102,10 @@
       <link>https://lumalabs.ai/news/inductive-moment-matching</link>
       <description><![CDATA[文章URL： https://lumalabs.ai/news/news/inductive-moment-matching    
 注释URL： https://news.ycombinator.com/item?id=43339563 
-点：56 
-＃评论：10 ]]></description>
+点：93 
+＃评论：17 ]]></description>
       <guid>https://lumalabs.ai/news/inductive-moment-matching</guid>
       <pubDate>Wed, 12 Mar 2025 03:05:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>看看Bluey和Cocomelon（2024）背后的创作过程</title>
-      <link>https://www.readtrung.com/p/why-i-love-bluey-and-hate-cocomelon</link>
-      <description><![CDATA[文章url：
-注释URL： https://news.ycombinator.com/item？id=43339206 
-点：70 
-＃评论：54 ]]></description>
-      <guid>https://www.readtrung.com/p/why-i-love-bluey-and-hate-cocomelon</guid>
-      <pubDate>Wed, 12 Mar 2025 01:54:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>10k一天快乐</title>
-      <link>https://blog.comma.ai/happy10kday/</link>
-      <description><![CDATA[文章URL： https://blog.comma.ai/happy10kday/   
-评论url： https://news.ycombinator.com/item?id=43339158 
-点：102 
-＃评论：59 ]]></description>
-      <guid>https://blog.comma.ai/happy10kday/</guid>
-      <pubDate>Wed, 12 Mar 2025 01:46:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>澳大利亚男人与人造心脏一起生存100天</title>
-      <link>https://www.theguardian.com/australia-news/2025/mar/12/australian-man-survives-100-days-with-artificial-heart-in-world-first-success</link>
-      <description><![CDATA[文章URL： 
-注释URL： https://news.ycombinator.com/item？id=433338596 
-点：159 
-＃评论：39 ]]></description>
-      <guid>https://www.theguardian.com/australia-news/2025/mar/12/australian-man-survives-100-days-with-artificial-heart-in-world-first-success</guid>
-      <pubDate>Wed, 12 Mar 2025 00:17:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>用CUDA对算法进行分类</title>
-      <link>https://ashwanirathee.com/blog/2025/sort2/</link>
-      <description><![CDATA[文章URL： https://ashwanirathee.com/blog/2025/sort2/sort2/   
-评论URL： https://news.ycombinator.com/item？id=433338405 
-点：79 
-＃评论：19 ]]></description>
-      <guid>https://ashwanirathee.com/blog/2025/sort2/</guid>
-      <pubDate>Tue, 11 Mar 2025 23:47:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>创业公司CTO的手册</title>
-      <link>https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md</link>
-      <description><![CDATA[Article URL: https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md
-注释url： https://news.ycombinator.com/item?id=4333377703 
-点：202 
-＃评论：43 ]]></description>
-      <guid>https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md</guid>
-      <pubDate>Tue, 11 Mar 2025 22:18:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>继续（YC S23）正在旧金山雇用软件工程师</title>
-      <link>https://www.ycombinator.com/companies/continue/jobs/smcxRnM-software-engineer</link>
-      <description><![CDATA[文章URL： https://www.ycombinator.com/comcombinator.com/companies/companies/companies/companie/continue/continue/continue/contegne/smcsmcsmcrencen 评论url： https://news.ycombinator.com/item?id=43336957 
-点：0 
-＃评论：0 ]]></description>
-      <guid>https://www.ycombinator.com/companies/continue/jobs/smcxRnM-software-engineer</guid>
-      <pubDate>Tue, 11 Mar 2025 21:01:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
