@@ -4,25 +4,56 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 12 Mar 2025 03:26:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Mar 2025 06:25:32 GMT</lastBuildDate>
+    <item>
+      <title>盐台风后电信堆栈的不安全感</title>
+      <link>https://soatok.blog/2025/03/12/on-the-insecurity-of-telecom-stacks-in-the-wake-of-salt-typhoon/</link>
+      <description><![CDATA[文章URL：&gt; https://soatok.blog/2025/03/03/12/on-the-inthe-insecurity-of-telecom-stacks-in-wake-wake-wake-of-salt-yphoon/  
+注释url： https://news.ycombinator.com/item?id=43340196 
+点：6 
+＃评论：0 ]]></description>
+      <guid>https://soatok.blog/2025/03/12/on-the-insecurity-of-telecom-stacks-in-the-wake-of-salt-typhoon/</guid>
+      <pubDate>Wed, 12 Mar 2025 05:21:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：Xpipe，SSH，Docker，K8S，VM等的外壳连接中心</title>
+      <link>https://xpipe.io/</link>
+      <description><![CDATA[嘿，我构建了Xpipe，因为我一直想对所有远程系统进行简单的文件系统和终端访问，包括容器，虚拟机，群集等，您通常无法通过开箱即用的现有解决方案进行连接。 xpipe是一种新型的连接集线器，可允许您从本地桌面访问整个服务器基金。通过消除与终端或图形界面相互作用时，与任何类型的服务器合作时，它可以使您的生活更轻松。 Xpipe带有SSH，Docker和其他容器的集成，Proxmox，Kubernetes群集，Teleport和Taileport和TailScale等各种管理程序，也不需要在远程系统上进行任何设置。您可以将自己喜欢的文本/代码编辑器，终端，密码管理器，外壳，命令行工具等链接起来，从而使您可以在使用Xpipe时继续使用自己喜欢的工具。   整个如何与远程系统通信的整个实现完全不同于大多数其他解决方案。本质上可以用这种方式解释背景中发生的事情：它启动了诸如CMD或Bash之类的本地外壳过程，并执行命令，该命令在该外壳过程中打开远程外壳连接，例如SSH user@host。然后，通过该外壳过程的stdin/stdout/stderr进行所有通信。从那里，它检测到哪种服务器和环境，例如Shell类型，OS，用户等。您已登录并调整其与远程系统的对话。到那时，例如使用文件系统相关的命令，例如LS，RM，Touch等。它可以实现一个功能上的文件管理器，该功能管理器基本上可以连接到每个系统。，如果您曾经使用过，它与Emacs Tramp Mode基本上是相同的想法。不同之处在于，它在各种系统上都可以使用，并且也不受某个编辑器/工具环境的约束。 VScode还使用类似的方法来为具有SSH的某些远程开发工具使用，但是范围更具限制，并且使用较短。它也绑定到VSCODE平台。 Xpipe实施的目的是不要受到特定环境或特定工具集的限制。开发花了一段时间，因为这种新方法需要在许多领域进行全新的实施，但我相信它已经准备好了。我感谢您提供的任何反馈，以指导我从这里朝着正确的开发方向。享受！
+
+注释url： https://news.ycombinator.com/item？id=433396629 
+点：21 
+＃评论：10 ]]></description>
+      <guid>https://xpipe.io/</guid>
+      <pubDate>Wed, 12 Mar 2025 03:16:28 GMT</pubDate>
+    </item>
     <item>
       <title>Show HN：VSC  -  C ++中的开源3D渲染引擎</title>
       <link>https://github.com/WW92030-STORAGE/VSC</link>
       <description><![CDATA[在过去的几个月中，一直在C ++中制作此栅格器引擎，现在还向系统添加了射线追踪功能。只需加载模型或生成网格，添加一些灯并渲染。。
 
 评论url： https://news.ycombinator.com/item?id=43339584 
-点：6 
-＃评论：0 ]]></description>
+点：37 
+＃评论：4 ]]></description>
       <guid>https://github.com/WW92030-STORAGE/VSC</guid>
       <pubDate>Wed, 12 Mar 2025 03:08:23 GMT</pubDate>
     </item>
     <item>
-      <title>为什么我爱蓝色（讨厌椰子龙）</title>
+      <title>超越扩散：归纳力矩匹配</title>
+      <link>https://lumalabs.ai/news/inductive-moment-matching</link>
+      <description><![CDATA[文章URL： https://lumalabs.ai/news/news/inductive-moment-matching    
+注释URL： https://news.ycombinator.com/item?id=43339563 
+点：56 
+＃评论：10 ]]></description>
+      <guid>https://lumalabs.ai/news/inductive-moment-matching</guid>
+      <pubDate>Wed, 12 Mar 2025 03:05:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>看看Bluey和Cocomelon（2024）背后的创作过程</title>
       <link>https://www.readtrung.com/p/why-i-love-bluey-and-hate-cocomelon</link>
       <description><![CDATA[文章url：
 注释URL： https://news.ycombinator.com/item？id=43339206 
-点：13 
-＃评论：3 ]]></description>
+点：70 
+＃评论：54 ]]></description>
       <guid>https://www.readtrung.com/p/why-i-love-bluey-and-hate-cocomelon</guid>
       <pubDate>Wed, 12 Mar 2025 01:54:35 GMT</pubDate>
     </item>
@@ -31,18 +62,18 @@
       <link>https://blog.comma.ai/happy10kday/</link>
       <description><![CDATA[文章URL： https://blog.comma.ai/happy10kday/   
 评论url： https://news.ycombinator.com/item?id=43339158 
-点：47 
-＃评论：20 ]]></description>
+点：102 
+＃评论：59 ]]></description>
       <guid>https://blog.comma.ai/happy10kday/</guid>
       <pubDate>Wed, 12 Mar 2025 01:46:27 GMT</pubDate>
     </item>
     <item>
-      <title>澳大利亚男人在世界优先的人造心中生存100天</title>
+      <title>澳大利亚男人与人造心脏一起生存100天</title>
       <link>https://www.theguardian.com/australia-news/2025/mar/12/australian-man-survives-100-days-with-artificial-heart-in-world-first-success</link>
       <description><![CDATA[文章URL： 
 注释URL： https://news.ycombinator.com/item？id=433338596 
-点：87 
-＃评论：5 ]]></description>
+点：159 
+＃评论：39 ]]></description>
       <guid>https://www.theguardian.com/australia-news/2025/mar/12/australian-man-survives-100-days-with-artificial-heart-in-world-first-success</guid>
       <pubDate>Wed, 12 Mar 2025 00:17:34 GMT</pubDate>
     </item>
@@ -51,8 +82,8 @@
       <link>https://ashwanirathee.com/blog/2025/sort2/</link>
       <description><![CDATA[文章URL： https://ashwanirathee.com/blog/2025/sort2/sort2/   
 评论URL： https://news.ycombinator.com/item？id=433338405 
-点：54 
-＃评论：15 ]]></description>
+点：79 
+＃评论：19 ]]></description>
       <guid>https://ashwanirathee.com/blog/2025/sort2/</guid>
       <pubDate>Tue, 11 Mar 2025 23:47:43 GMT</pubDate>
     </item>
@@ -61,20 +92,10 @@
       <link>https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md</link>
       <description><![CDATA[Article URL: https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md
 注释url： https://news.ycombinator.com/item?id=4333377703 
-点：111 
-＃评论：22 ]]></description>
+点：202 
+＃评论：43 ]]></description>
       <guid>https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md</guid>
       <pubDate>Tue, 11 Mar 2025 22:18:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>UNIX需要一个真正的集成环境：案例封闭（1989）[PDF]</title>
-      <link>http://www.bitsavers.org/pdf/xerox/parc/techReports/CSL-89-4_UNIX_Needs_A_True_Integrated_Environment.pdf</link>
-      <description><![CDATA[文章URL： http://www.bitsavers.org/pdf/xerox/parc/techreports/csl-89-4_unix_needs_a_a_true_integrated_environment.pdf  
-注释URL： https://news.ycombinator.com/item？id=433337220 
-点：29 
-＃评论：10 ]]></description>
-      <guid>http://www.bitsavers.org/pdf/xerox/parc/techReports/CSL-89-4_UNIX_Needs_A_True_Integrated_Environment.pdf</guid>
-      <pubDate>Tue, 11 Mar 2025 21:30:59 GMT</pubDate>
     </item>
     <item>
       <title>继续（YC S23）正在旧金山雇用软件工程师</title>
@@ -84,26 +105,6 @@
 ＃评论：0 ]]></description>
       <guid>https://www.ycombinator.com/companies/continue/jobs/smcxRnM-software-engineer</guid>
       <pubDate>Tue, 11 Mar 2025 21:01:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>后院氰化物</title>
-      <link>https://suziepetryk.com/blog/cyanide.html</link>
-      <description><![CDATA[文章URL： https://suziepetryk.com/blog/cyanide.html 
-注释URL： https://news.ycombinator.com/item?id=433335110 
-点：114 
-＃评论：46 ]]></description>
-      <guid>https://suziepetryk.com/blog/cyanide.html</guid>
-      <pubDate>Tue, 11 Mar 2025 17:46:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>建筑代理的新工具</title>
-      <link>https://openai.com/index/new-tools-for-building-agents/</link>
-      <description><![CDATA[文章URL： https://openai.com/index/index/new-tools-fors-for-building-angents/ 
-注释url： https://news.ycombinator.com/item?id=433346444 
-点：290 
-＃评论：106 ]]></description>
-      <guid>https://openai.com/index/new-tools-for-building-agents/</guid>
-      <pubDate>Tue, 11 Mar 2025 17:04:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
