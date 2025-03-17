@@ -4,65 +4,66 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Mon, 17 Mar 2025 18:24:21 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Mar 2025 21:16:50 GMT</lastBuildDate>
+    <item>
+      <title>Luthor（YC F24）正在旧金山雇用Ruby对铁路工程师</title>
+      <link>https://www.ycombinator.com/companies/luthor/jobs/HKrdhp0-staff-senior-software-engineer-backend-fullstack</link>
+      <description><![CDATA[文章URL： https://www.ycombinator.com/companies/luthor/jobs/hkrdhp0-senior-senior-software-egneer-backend-fullstack  
+评论url： https://news.ycombinator.com/item?id=43392696 
+点：0 
+＃评论：0 ]]></description>
+      <guid>https://www.ycombinator.com/companies/luthor/jobs/HKrdhp0-staff-senior-software-engineer-backend-fullstack</guid>
+      <pubDate>Mon, 17 Mar 2025 21:00:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Opentimes  - 美国人口普查地理之间的免费旅行时间</title>
+      <link>https://opentimes.org</link>
+      <description><![CDATA[嗨，hn！今天，我正在启动Opentimes，这是一个免费的数据库，该数据库在美国人口普查地理位置之间大约有1500亿个预计，点对点旅行时间。除了让您在主页上可视化旅行等边缘外，Opentimes还可以免费下载大量的旅行时间数据，而无需限制。这里的主要目标是启用研究并填补我在开源空间生态系统中注意到的空白。研究人员（社会科学家，经济学家等）使用大量的旅行时间矩阵来量化诸如获得医疗保健的事物，但他们通常最终向Google或ESRI支付了必要的数据。通过在常用研究地理（即人口普查）之间预先计算的时间，然后通过SQL轻松访问这些时间，我希望使大规模可访问性研究更便宜，更简单。  HN人可能感兴趣的某些技术位：  - 整个Opentimes Backentimes BackentEnd只是静态的PAREDEND PARTATIC PARQUET PARQUET在R2上。没有RDBM或运行服务。 The whole thing costs about $10/month to host and is free to serve.- All tr​​avel times were calculated by pre-building the inputs (OSM, OSRM networks) and then distributing the compute over hundreds of GitHub Actions jobs.- The query/SQL layer uses a setup I haven&#39;t seen before: a single DuckDB database file with views that point to static Parquet files via HTTP.Finally, the驾驶时间是乐观的，因为他们还没有（尚未）对流量进行解释。这是我希望在不久的将来进行的。享受！
+
+注释URL： https://news.ycombinator.com/item?id=43392521 
+点：10 
+＃评论：2 ]]></description>
+      <guid>https://opentimes.org</guid>
+      <pubDate>Mon, 17 Mar 2025 20:40:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>占领您的下一个租约以谈判更好的交易</title>
+      <link>https://occupry.com</link>
+      <description><![CDATA[文章URL： https://occupry.com   
+评论URL： https://news.ycombinator.com/item?id=43392303 
+点：11 
+＃评论：15 ]]></description>
+      <guid>https://occupry.com</guid>
+      <pubDate>Mon, 17 Mar 2025 20:12:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>档案存储</title>
+      <link>https://blog.dshr.org/2025/03/archival-storage.html</link>
+      <description><![CDATA[文章URL： https://blog.dshr.org/2025/03/archival-strocation.harchival-stroge.htoragor
+注释URL： https://news.ycombinator.com/item？id=43391459 
+点：94 
+＃评论：38 ]]></description>
+      <guid>https://blog.dshr.org/2025/03/archival-storage.html</guid>
+      <pubDate>Mon, 17 Mar 2025 18:36:21 GMT</pubDate>
+    </item>
     <item>
       <title>显示HN：python函数可重复执行的python功能的限制范围</title>
       <link>https://localscope.readthedocs.io/en/latest/</link>
       <description><![CDATA[ localscope是一个小型python软件包，可以拆卸函数，以检查它们是否访问不应该的全局变量。几年前，我写了这篇文章，以检测jupyter笔记本中常见的范围错误。最近，它非常方便地编写JAX代码（ https://github.com/jax-ml/jax ），因为它需要纯粹的功能。以为我会分享。
 
 注释URL： https://news.ycombinator.com/item?id=43390823 
-点：14 
-＃评论：4 ]]></description>
+点：37 
+＃评论：18 ]]></description>
       <guid>https://localscope.readthedocs.io/en/latest/</guid>
       <pubDate>Mon, 17 Mar 2025 17:33:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>LAPD使用此社交媒体工具监视加沙抗议活动</title>
-      <link>https://theintercept.com/2025/03/17/lapd-surveillance-gaza-palestine-protests-dataminr/</link>
-      <description><![CDATA[文章URL： https://theinterppps：/
-注释url： https://news.ycombinator.com/item？id=43390747 
-点：22 
-＃评论：12 ]]></description>
-      <guid>https://theintercept.com/2025/03/17/lapd-surveillance-gaza-palestine-protests-dataminr/</guid>
-      <pubDate>Mon, 17 Mar 2025 17:25:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>比黑暗的游泳池还黑吗？欢迎来到华尔街的“私人房间”</title>
-      <link>https://finance.yahoo.com/news/darker-dark-pool-welcome-wall-210011026.html</link>
-      <description><![CDATA[Article URL: https://finance.yahoo.com/news/darker-dark-pool-welcome-wall-210011026.html
-评论url： https://news.ycombinator.com/item?id=43390595 
-点：44 
-＃评论：18 ]]></description>
-      <guid>https://finance.yahoo.com/news/darker-dark-pool-welcome-wall-210011026.html</guid>
-      <pubDate>Mon, 17 Mar 2025 17:10:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Piramidal（YC W24）正在雇用ML工程师去解码脑电波</title>
-      <link>https://www.ycombinator.com/companies/piramidal/jobs/neQ9JaN-research-engineer-foundational-ai</link>
-      <description><![CDATA[文章URL： https://wwwww.ycombinator.com/combinator.com/companies/piramidal/piramidal/jobs/jobs/jobs/jobs/neq9jan-search-eachital----------
-注释URL： https://news.ycombinator.com/item？id=4339050505 
-点：0 
-＃评论：0 ]]></description>
-      <guid>https://www.ycombinator.com/companies/piramidal/jobs/neQ9JaN-research-engineer-foundational-ai</guid>
-      <pubDate>Mon, 17 Mar 2025 17:00:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>字母旋转taara  - 激光互联网</title>
-      <link>https://x.company/blog/posts/taara-graduation/</link>
-      <description><![CDATA[文章URL： https://x.company/blog/posts/posts/taara-graduation/   
-注释URL： https://news.ycombinator.com/item?id=43390467 
-点：10 
-＃评论：2 ]]></description>
-      <guid>https://x.company/blog/posts/taara-graduation/</guid>
-      <pubDate>Mon, 17 Mar 2025 16:55:17 GMT</pubDate>
     </item>
     <item>
       <title>深度学习不是那么神秘或不同</title>
       <link>https://arxiv.org/abs/2503.02113</link>
       <description><![CDATA[文章URL： https://arxiv.org/abs/2503.02113   
 注释URL： https://news.ycombinator.com/item？id=43390400 
-点：78 
-＃评论：10 ]]></description>
+点：187 
+＃评论：48 ]]></description>
       <guid>https://arxiv.org/abs/2503.02113</guid>
       <pubDate>Mon, 17 Mar 2025 16:47:02 GMT</pubDate>
     </item>
@@ -71,8 +72,8 @@
       <link>https://blog.cloudflare.com/chaos-in-cloudflare-lisbon-office-securing-the-internet-with-wave-motion/</link>
       <description><![CDATA[Article URL: https://blog.cloudflare.com/chaos-in-cloudflare-lisbon-office-securing-the-internet-with-wave-motion/
 评论url： https://news.ycombinator.com/item？id=433389064 
-点：144 
-＃评论：54 ]]></description>
+点：218 
+＃评论：103 ]]></description>
       <guid>https://blog.cloudflare.com/chaos-in-cloudflare-lisbon-office-securing-the-internet-with-wave-motion/</guid>
       <pubDate>Mon, 17 Mar 2025 14:38:18 GMT</pubDate>
     </item>
@@ -81,30 +82,30 @@
       <link>https://www.wired.com/story/undergraduate-upends-a-40-year-old-data-science-conjecture/</link>
       <description><![CDATA[文章url： https://wwwww.wired.wired.wired.com/story/story/story/story/story/undergraduates-a-40 fomeends-a-40岁
 评论url： https://news.ycombinator.com/item?id=433388296 
-点：126 
-＃评论：56 ]]></description>
+点：179 
+＃评论：86 ]]></description>
       <guid>https://www.wired.com/story/undergraduate-upends-a-40-year-old-data-science-conjecture/</guid>
       <pubDate>Mon, 17 Mar 2025 13:19:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Raspberry Pi RP2350现在可供购买，堆叠的内存变体来了</title>
-      <link>https://www.phoronix.com/news/Raspberry-Pi-RP2350-Buy</link>
-      <description><![CDATA[文章URL： https://wwwwww.phoronix.com/news/news/raspberry-pi-raspberry-pi-rpi-rp2350-buy 
-评论url： https://news.ycombinator.com/item?id=4333888221 
-点：111 
-＃评论：46 ]]></description>
-      <guid>https://www.phoronix.com/news/Raspberry-Pi-RP2350-Buy</guid>
-      <pubDate>Mon, 17 Mar 2025 13:11:33 GMT</pubDate>
     </item>
     <item>
       <title>将C转换为ASM为规格，然后转换为工作Z/80 Speccy磁带</title>
       <link>https://ghuntley.com/z80/</link>
       <description><![CDATA[文章URL： https://ghuntley.com/z80/   
 评论url： https://news.ycombinator.com/item?id=433387259 
-点：62 
-＃评论：63 ]]></description>
+点：70 
+＃评论：66 ]]></description>
       <guid>https://ghuntley.com/z80/</guid>
       <pubDate>Mon, 17 Mar 2025 11:17:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Akira勒索软件可以在十个小时内使用16个RTX 4090 GPU破解</title>
+      <link>https://www.tomshardware.com/tech-industry/cyber-security/akira-ransomware-cracked-with-rtx-4090-new-exploit-to-brute-force-encryption-attack</link>
+      <description><![CDATA[文章URL： https://www.tomshardware.com/tech-industry/cyber-security/akira-ransomware-cracked-with-rtx-4090-new-ecploit-to-brute-force-cerryption-cerryption-cerryption-centack-ancryption-antack   
+注释url： https://news.ycombinator.com/item?id=433387188 
+点：114 
+＃评论：34 ]]></description>
+      <guid>https://www.tomshardware.com/tech-industry/cyber-security/akira-ransomware-cracked-with-rtx-4090-new-exploit-to-brute-force-encryption-attack</guid>
+      <pubDate>Mon, 17 Mar 2025 11:06:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
