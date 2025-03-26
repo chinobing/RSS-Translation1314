@@ -4,108 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 26 Mar 2025 03:30:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 06:25:51 GMT</lastBuildDate>
     <item>
-      <title>显示HN：我也制作了MCP服务器（一种）</title>
-      <link>https://github.com/LaubPlusCo/mcp-webdav-server/commits/develop/src/services/webdav-connection-pool.ts</link>
-      <description><![CDATA[过去一周左右，有关一些新的MCP服务器（模型上下文协议）有很多帖子。我想加入乐趣，并显示我制作的MCP服务器。它确实在上周三开始。白天，我意识到我确实需要在略微过度设计的房屋设置上进行WebDav服务器。我很确定是存储乡亲备份的备份。我很久没有听说过WebDav  - 但是旋转服务器有多难。添加配置，重新启动NGINX并起作用。我可以从手机上传文件，依此类推。经过一个小时+盘旋后，我发现Nginx的WebDav模块仅支持协议的一个子集。当然，乡亲也使用了协议的其他部分。再次下来。我在Dockerfile找到了一个Golang项目。不到〜30分钟后，一切都在运行。总共只花了2个小时。还有其他要做的事情。WebDav实际上是一种很酷的，文件展示，端口443，http。的延伸。我阅读了更多的存储库和文档，直到凌晨2点，我的女友睡在沙发上。我记得Claude Desktop拥有只需要启用的内置MCP服务器。当我需要用不熟悉的语言写作时，它比替代方案更好。我已经编写了25年以上的代码。每当我从AI模型中询问代码时 - 没有欢乐 - 像一个过度自信的初级开发人员重复相同的错误。 i启用了开发设置，添加的文件系统，顺序思考和将mcp的mcp for for for mcp desktop。然后，我创建了一个项目，mcp-webdav-server。简要说明，简短提示：获取MCP文档，分析并建议MCP WebDav服务器的体系结构。在许可提示提示后，Claude编写了一个读数，然后编写了代码和脚本。它是在几分钟内完成的 - 代码，文档和所有。我浏览了，运行了NPM安装，然后进行NPM运行构建。 5构建错误。我粘贴了错误。更新的文件。它构建了。在那一刻，我感觉到了一些东西 - 我列出了要改进的东西。克劳德（Claude）重构并进行了更改。一些迭代并完成了。 Claude可以创建，更新，下载和删除文件。我修复了一些名称与文件系统MCP。我打包了代码，再次通过基本身份验证进行了测试。它验证了每个请求，因此我要求修复。在几分钟内，它实现了一个连接池。推了包装。更新的Claude Config使用NPX，它起作用了。从那时起，我更改了工作方式。我每天都会在一周前会花我的年龄。昨天，完整的NTOPNG设置，Tuya设备的MITM代理 - 不运气 - 他们现在很安全。我很失望地跳下那只兔子洞而没有警告。但是我曾要求克劳德（Claude）跳跃时握住我的手。学习变得非常快。克劳德（Claude）可能很快就跳下兔子洞，而不想握手。我想知道我是否会站着，还是我会找到其他要做的事情。在github上查看我的“我的” MCP WebDav服务器 - 它的工作原理并且确实有很好的记录。
-
-注释url： https://news.ycombinator.com/item？id=43478579 
+      <title>MCP会长期留下来吗？</title>
+      <link>https://rnikhil.com/2025/03/26/mcp-standard-llm</link>
+      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=43479332 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://github.com/LaubPlusCo/mcp-webdav-server/commits/develop/src/services/webdav-connection-pool.ts</guid>
-      <pubDate>Wed, 26 Mar 2025 03:26:03 GMT</pubDate>
+      <guid>https://rnikhil.com/2025/03/26/mcp-standard-llm</guid>
+      <pubDate>Wed, 26 Mar 2025 06:18:47 GMT</pubDate>
     </item>
     <item>
-      <title>扮演大卫·西林（David Sirlin）</title>
-      <link>https://robertheaton.com/2014/11/03/why-you-should-read-playing-to-win-by-david-sirlin/</link>
-      <description><![CDATA[Article URL: https://robertheaton.com/2014/11/03/why-you-should-read-playing-to-win-by-david-sirlin/
-注释url： https://news.ycombinator.com/item?id=43478569 
+      <title>特朗普和情报负责人播放信号小组聊天泄漏</title>
+      <link>https://www.bbc.com/news/articles/cp8vgr0p8n6o</link>
+      <description><![CDATA[文章URL： https://www.bbc.com/news/news/articles/cp8vgr0p8vgr0p8nnn6o 
+注释URL： https://news.ycombinator.com/item？id=43479329 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://robertheaton.com/2014/11/03/why-you-should-read-playing-to-win-by-david-sirlin/</guid>
-      <pubDate>Wed, 26 Mar 2025 03:23:56 GMT</pubDate>
+      <guid>https://www.bbc.com/news/articles/cp8vgr0p8n6o</guid>
+      <pubDate>Wed, 26 Mar 2025 06:17:23 GMT</pubDate>
     </item>
     <item>
-      <title>五分之一的技术人员辞去了僵化的工作场所政策</title>
-      <link>https://www.theregister.com/2025/03/24/2_in_5_techies_quit/</link>
-      <description><![CDATA[文章URL： https://wwwww.theregister.com/2025/03/03/24/24/24/24/24/24/24/2_in_5_5_techies_quit/ 
-评论URL： https://news.ycombinator.com/item?id=43478525 
-点：4 
-＃评论：0 ]]></description>
-      <guid>https://www.theregister.com/2025/03/24/2_in_5_techies_quit/</guid>
-      <pubDate>Wed, 26 Mar 2025 03:14:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>新（分销）技术的分娩：折扣店</title>
-      <link>https://americanbusinesshistory.org/the-birthing-of-a-new-distribution-technology-the-discount-store/</link>
-      <description><![CDATA[文章url： https：//americanbusinesshistory.org/the-birthe.org/the-birthing-birtthe-birthing-birthing-birthing-bir--new-dechnologi
-评论URL： https://news.ycombinator.com/item？id=43478504 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://americanbusinesshistory.org/the-birthing-of-a-new-distribution-technology-the-discount-store/</guid>
-      <pubDate>Wed, 26 Mar 2025 03:11:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>问HN：互联网的景观是否稳定吗？</title>
-      <link>https://news.ycombinator.com/item?id=43478496</link>
-      <description><![CDATA[在过去的十年左右的时间里，并没有说任何令人印象深刻的技术成就，但大多数感觉就像是为Web 2.0/5G技术景观服务而不是重新定义它而建造的。手机能够流式传输高质量的视频，手机和网络似乎都处于最终形式。从千年之交到2010年代中期，互联网和技术的增长速度的速度速度，感觉就像我们在可预见的未来所拥有的东西一样。我在这里不在基地吗？
-
-注释url： https://news.ycombinator.com/item?id=43478496 
+      <title>我正在构建booking.com 3.0</title>
+      <link>https://globallybased.com</link>
+      <description><![CDATA[文章URL： https://globallybasesed.com  
+注释URL： https://news.ycombinator.com/item？id=434799308 
 点：1 
 ＃评论：1 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=43478496</guid>
-      <pubDate>Wed, 26 Mar 2025 03:10:31 GMT</pubDate>
+      <guid>https://globallybased.com</guid>
+      <pubDate>Wed, 26 Mar 2025 06:12:43 GMT</pubDate>
     </item>
     <item>
-      <title>窗户清洁剂，以确认无价的莎士比亚肖像</title>
-      <link>https://www.bbc.com/news/articles/c5yr37nlzv8o</link>
-      <description><![CDATA[文章url： https://wwwww.bbc.com/news/news/articles/c5yrce/c5yr37nlzv8o 
-注释URL： https://news.ycombinator.com/item?id=43478480 
-点：2 
+      <title>像/不喜欢的一位？</title>
+      <link>https://news.ycombinator.com/item?id=43479296</link>
+      <description><![CDATA[开始使用Ansible配置机器。它具有很多能力，而学习曲线可以以一定的方式进行操作。说，您有一些命令可以通过SSH安装/配置某些工具。将命令放入剧本中时，它可能不会以相同的方式运行。说环境差异等...或可能需要重写/转换一些命令以采用Ansible的方式... 
+一些建议您如何采用易用或其他更好的替代方案？  谢谢... 
+
+注释url： https://news.ycombinator.com/item?id=43479296 
+点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.bbc.com/news/articles/c5yr37nlzv8o</guid>
-      <pubDate>Wed, 26 Mar 2025 03:08:01 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=43479296</guid>
+      <pubDate>Wed, 26 Mar 2025 06:10:11 GMT</pubDate>
     </item>
     <item>
-      <title>我可能是时候让我为我的蓝军预测而收集正确的观点</title>
-      <link>https://daringfireball.net/2025/03/bluesky_being_right_points</link>
-      <description><![CDATA[文章url： https://daringfireball.net/2025/2025/2025/03/bluessky_being_being_point_point_pointssss 
-注释url： https://news.ycombinator.com/item?id=43478456 
+      <title>Geoguessr下个月正在蒸汽</title>
+      <link>https://www.rockpapershotgun.com/geoguessr-is-making-its-way-to-steam-next-month-after-almost-12-years-of-sticking-it-out-as-a-browser-game</link>
+      <description><![CDATA[文章URL： https://www.rockpapershotgun.com/geoguessr-is-making-its-way-to-to-seam-next-month-month-fer-fer-fer-al-12年 - 固定-IT-IT-IT-OUT-AS-A-A-A-Browser-game-game-game-game-game   
+注释URL： https://news.ycombinator.com/item?id=43479289 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.rockpapershotgun.com/geoguessr-is-making-its-way-to-steam-next-month-after-almost-12-years-of-sticking-it-out-as-a-browser-game</guid>
+      <pubDate>Wed, 26 Mar 2025 06:08:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>哈巴狗 - 健壮，优雅，功能丰富的模板引擎。</title>
+      <link>https://github.com/pugjs/pug</link>
+      <description><![CDATA[文章URL： https://github.com/pugjs/pugjs/pug   
+注释url： https://news.ycombinator.com/item？id=43479282 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://github.com/pugjs/pug</guid>
+      <pubDate>Wed, 26 Mar 2025 06:05:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>AM广播永远不会死</title>
+      <link>https://www.discoursemagazine.com/p/am-radio-will-never-die</link>
+      <description><![CDATA[文章URL： https://wwwww.discoursemagazine.com/p/am-radio-will-will-never-never-never-never-never-never-never-never-never-never-never-never-never-never-never-die     
+评论url： https://news.ycombinator.com/item？id=43479262 
 点：3 
 ＃评论：0 ]]></description>
-      <guid>https://daringfireball.net/2025/03/bluesky_being_right_points</guid>
-      <pubDate>Wed, 26 Mar 2025 03:05:17 GMT</pubDate>
+      <guid>https://www.discoursemagazine.com/p/am-radio-will-never-die</guid>
+      <pubDate>Wed, 26 Mar 2025 06:01:23 GMT</pubDate>
     </item>
     <item>
-      <title>nvidia备份关键光学技术</title>
-      <link>https://spectrum.ieee.org/co-packaged-optics</link>
-      <description><![CDATA[文章URL： https://spectrum.ieee.org/co-packaged-optics-optics-packaged-optics  
-评论url： https://news.ycombinator.com/item？id=434784455 
+      <title>为什么PostgreSQL需要更好的API来替代桌子引擎？</title>
+      <link>https://www.orioledb.com/blog/better-table-access-methods</link>
+      <description><![CDATA[文章URL： https://wwwww.orioledb.com/blog/better/better-table-table-table-table-access-methods 
+注释url： https://news.ycombinator.com/item?id=43479260 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://spectrum.ieee.org/co-packaged-optics</guid>
-      <pubDate>Wed, 26 Mar 2025 03:05:16 GMT</pubDate>
+      <guid>https://www.orioledb.com/blog/better-table-access-methods</guid>
+      <pubDate>Wed, 26 Mar 2025 06:01:06 GMT</pubDate>
     </item>
     <item>
-      <title>oi / icpc的Wiki每个人</title>
-      <link>https://github.com/OI-wiki/OI-wiki</link>
-      <description><![CDATA[文章URL： https://github.com/oi-wiki/oi-wiki/oi-wiki   
-注释url： https://news.ycombinator.com/item?id=434784453 
+      <title>我的第一个失败的启动以及我如何接近下一个</title>
+      <link>https://news.ycombinator.com/item?id=43479255</link>
+      <description><![CDATA[启动一家初创公司很难，我了解到这是艰难的方式。我的第一次尝试，简要介绍是出于我在自己的开发团队中看到的一个问题而诞生的 - 许多重复的日常任务分布在吉特布，吉拉和懒散等不同工具中。我设想了一个平台，该平台将汇总此信息并为团队生成有用的分析和摘要。我开始与网上人接触，收集反馈并试图衡量兴趣。那是现实打击我的时候：只有一个人签署了新闻通讯。只是一个。这是一个痛苦但清晰的信号 - 我没有正确验证这个想法。我正在建立我认为人们需要的东西，而不是他们真正想要的东西。那是我的第一个主要课程。人们对Google Meet不满意。他们缺少来自Zoom，Better Chat UI，反应，答复，持续的消息，转录等的功能。那是我的提示。这次，我没有急于建立一个着陆页，而是建立了一个简单的原型，并让我的团队使用它。他们喜欢它。原型演变成我的新创业公司GM-Pro。一种镀铬扩展，可增强Google的相遇，例如更好的聊天UI，反应，持续的消息，转录和更多改进。如果您想尝试一下，可以从Chrome Store安装扩展名。这种体验与我的第一个启动相比是一个完全转变。在投入太多时间之前，我有验证。我有真正的用户给我真正的反馈。现在，我专注于精炼和扩展该产品，知道对它的实际需求。首先验证，然后执行。其他人是否经历了类似的启动失败？你是怎么旋转的？
+
+评论url： https://news.ycombinator.com/item?id=43479255 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://github.com/OI-wiki/OI-wiki</guid>
-      <pubDate>Wed, 26 Mar 2025 03:04:36 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=43479255</guid>
+      <pubDate>Wed, 26 Mar 2025 06:00:59 GMT</pubDate>
     </item>
     <item>
-      <title>粉碎Terahertz极限</title>
-      <link>https://spectrum.ieee.org/terahertz-waves-2671362433</link>
-      <description><![CDATA[文章url： https://spectrum.ieee.org/terahertz-waves-waves-waves-waves-267136241362433 
-注释URL： https://news.ycombinator.com/item？id=434784451 
-点：1 
+      <title>如何在数字时代保护您的眼睛</title>
+      <link>https://theconversation.com/how-to-protect-your-eyes-in-the-digital-age-expert-in-eye-and-vision-science-252280</link>
+      <description><![CDATA[文章URL： https://theconversation.com/how-to-protect-your-eyes-in-the-digital-age-age-expert-in-eye-and-vision-science-science-252280  
+注释url： https://news.ycombinator.com/item？id=43479251 
+点：4 
 ＃评论：0 ]]></description>
-      <guid>https://spectrum.ieee.org/terahertz-waves-2671362433</guid>
-      <pubDate>Wed, 26 Mar 2025 03:04:22 GMT</pubDate>
+      <guid>https://theconversation.com/how-to-protect-your-eyes-in-the-digital-age-expert-in-eye-and-vision-science-252280</guid>
+      <pubDate>Wed, 26 Mar 2025 06:00:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
