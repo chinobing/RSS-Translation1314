@@ -4,129 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 26 Mar 2025 18:25:17 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 21:17:31 GMT</lastBuildDate>
     <item>
-      <title>互联网档案馆最近的居住艺术家融合艺术和技术</title>
-      <link>https://blog.archive.org/2025/02/27/blending-art-and-technology-opens-new-doors-for-internet-archives-recent-artist-in-residence/</link>
-      <description><![CDATA[文章URL： https://blog.archive.org/2025/02/27/blending-art-and-and-technology-opens-new-doors-new-doors-for-internet-archives-archives-ract-recent-arcent-arcent-artist-inist-in-residence/   
-注释URL： https://news.ycombinator.com/item?id=43485129 
-点：1 
-＃评论：1 ]]></description>
-      <guid>https://blog.archive.org/2025/02/27/blending-art-and-technology-opens-new-doors-for-internet-archives-recent-artist-in-residence/</guid>
-      <pubDate>Wed, 26 Mar 2025 18:16:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：开放响应 - 任何LLM的OpenAI响应API替代方案</title>
-      <link>https://news.ycombinator.com/item?id=43485113</link>
-      <description><![CDATA[你好！我只是开源的开放式响应，这是与任何LLM后端一起使用的OpenAI新响应API的自托管实施。 The motivation was simple: I wanted to use the awesome new agents SDK &amp; the Responses API from OpenAI but with other models, including locally.https://docs.julep.ai/responsesOpen Responses lets you run your own server that is compatible with OpenAI响应API，但您可以自由地插入Anthropic的Claude，Alibaba的Qwen，DeepSeek R1或其他型号。您可以控制这是一个替换。尝试一下，只需运行
-  npx -y开放式回答init＃或使用uvx/pipx 允许许可（Apache-2.0）。这是一个早期版本，我真的很喜欢反馈，并提供社区的帮助，以使其变得更好。 repo： https://github.com/julep-ai/open-responses 
- - 自我托管和私人
- -   drop-in兼容性：它说的是与官方响应API相同的协议。您甚至可以通过将base_url设置为自托管URL来使用Awesome Adgents SDK。
- -  易于部署：您可以通过Docker-Compose或我们的CLI部署。
- -  基本工具*：当模型想要使用工具（例如Web_search）时，服务器会自动执行具有开放且可插入替代方案的人员（例如，Brave搜索API）。当前状态：该项目在Alpha中 - 核心聊天和代理商流动，但与官方API不可行100％，您曾经是API的100％。 init&#39;），要将代理SDK与Claude一起使用，而不是OpenAi，您可以做：   openai inoctai incort inoctionncopenai
-  来自代理intiment set_default_openai_client
-
-  ＃创建并配置OpenAI客户端
-  custom_client = asyncopenai（base_url =“ http：// localhost：8080/”，api_key =“ your_api_key”）
-  set_default_openai_client（custom_client）
-
-  来自代理进口代理，跑步者
-  
-  代理=代理（
-      名称=“测试代理”，
-      说明=“您是一位有用的助手，提供简洁的 
-回答。”，
-      model =“ openRouter/deepseek/deepseek-r1”，
-  ）   result =等待runner.run（代理，“你好！您工作正确吗？”）
- 
-这将把通话路由到Claude（通过其API）并返回摘要，就像OpenAI的API处理一样。路线图：  - 使用基于PGVECTOR的烘焙矢量搜索添加文件搜索集成。
- - 支持更多型号。
- - 更好地部署UX：可能是一单击部署或想要在Kubernetes上运行的人的掌舵图表。社区反馈！我很想知道哪些功能或改进最重要。例如，微调或矢量数据库集成您想要的东西吗？请让我知道。我期待您的反馈和问题。这听起来对您的项目有用吗？通过多模型支持，您期望有什么陷阱吗？感谢您的阅读，希望你们中的一些人会尝试甚至做出贡献！
-
-注释URL： https://news.ycombinator.com/item？id=43485113 
-点：3 
-＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=43485113</guid>
-      <pubDate>Wed, 26 Mar 2025 18:15:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sports Illustry以推出与体育运动的下注市场</title>
-      <link>https://www.bloomberg.com/news/articles/2025-03-26/sports-illustrated-to-roll-out-athletics-linked-wagers-market</link>
-      <description><![CDATA[文章URL： https://www.bloomberg.com/news/articles/2025-03-26/sports-lillusts-lillustrated-to-roll-roll-achletics-link--wagers-market  
-注释URL： https://news.ycombinator.com/item？id=43485072 
-点：1 
-＃评论：1 ]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2025-03-26/sports-illustrated-to-roll-out-athletics-linked-wagers-market</guid>
-      <pubDate>Wed, 26 Mar 2025 18:12:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>动画师说：“就是这样，伙计们”（2000年）</title>
-      <link>https://www.nytimes.com/2000/07/24/movies/animators-say-that-s-all-folks-computer-generated-wizardry-pummeling-everyone.html</link>
-      <description><![CDATA[文章URL： https://www.nytimes.com/2000/07/24/movies/animators-say-that-say-that-s-all-folks-computer-generated-wizardry-wizardry-pummeling-everyone.html  
-注释URL： https://news.ycombinator.com/item？
+      <title>气泡飞机</title>
+      <link>https://makezine.com/projects/toy-inventors-notebook-bubble-plane/</link>
+      <description><![CDATA[文章URL： https://makezine.com/projects/projects/toy-inventors-ingventors-indoy-inventors-notebook-bubble-bubble-bubble-plane-plane/    
+评论url： https://news.ycombinator.com/item?id=434873335 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.nytimes.com/2000/07/24/movies/animators-say-that-s-all-folks-computer-generated-wizardry-pummeling-everyone.html</guid>
-      <pubDate>Wed, 26 Mar 2025 18:10:27 GMT</pubDate>
+      <guid>https://makezine.com/projects/toy-inventors-notebook-bubble-plane/</guid>
+      <pubDate>Wed, 26 Mar 2025 21:09:03 GMT</pubDate>
     </item>
     <item>
-      <title>减少云支出：带有Postgres</title>
-      <link>https://www.crunchydata.com/blog/reducing-cloud-spend-migrating-logs-from-cloudwatch-to-iceberg-with-postgres</link>
-      <description><![CDATA[文章URL： https://www.crunchydata.com/blog/reducing-cloud-spend-migrating-logs-from-cloudwatch-to-cloudwatch-to-ceberg-with-with-with-postgres  
-注释URL： https://news.ycombinator.com/item?id=43485041 
+      <title>空中客车宣布用于防空的无人机无人机</title>
+      <link>https://www.defensenews.com/global/europe/2025/03/26/airbus-announces-missile-slinging-drone-for-air-defense/</link>
+      <description><![CDATA[文章URL： https://www.defensenews.com/global/europe/2025/03/03/26/airbus-announces-missile-slinging-drone-drone-for-air-air-defense/   
+注释URL： https://news.ycombinator.com/item？id=43487317 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.crunchydata.com/blog/reducing-cloud-spend-migrating-logs-from-cloudwatch-to-iceberg-with-postgres</guid>
-      <pubDate>Wed, 26 Mar 2025 18:10:13 GMT</pubDate>
+      <guid>https://www.defensenews.com/global/europe/2025/03/26/airbus-announces-missile-slinging-drone-for-air-defense/</guid>
+      <pubDate>Wed, 26 Mar 2025 21:07:01 GMT</pubDate>
     </item>
     <item>
-      <title>钻石旋转量子台以低于0.1％的误差率实现量子门</title>
-      <link>https://phys.org/news/2025-03-high-precision-quantum-gates-diamond.amp</link>
-      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=43485011 
+      <title>编写Linux调试器</title>
+      <link>https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/</link>
+      <description><![CDATA[文章url：注释url： https://news.ycombinator.com/item?id=43487298 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://phys.org/news/2025-03-high-precision-quantum-gates-diamond.amp</guid>
-      <pubDate>Wed, 26 Mar 2025 18:08:04 GMT</pubDate>
+      <guid>https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/</guid>
+      <pubDate>Wed, 26 Mar 2025 21:04:24 GMT</pubDate>
     </item>
     <item>
-      <title>特朗普政府为发展中国家削减疫苗援助</title>
-      <link>https://www.theguardian.com/us-news/2025/mar/26/trump-vaccine-aid-funding</link>
-      <description><![CDATA[文章URL： https://www.theguardian.com/us-news/us-news/20255/2025/255/mmarar/26/pinp-fund-pine-pine 
-注释URL： https://news.ycombinator.com/item?id=43485005 
-点：2 
+      <title>没有人的天空最新更新会在地球下增加骨头和化石</title>
+      <link>https://www.polygon.com/news/546691/no-mans-sky-relics-update</link>
+      <description><![CDATA[文章URL： https://wwwww.polygon.com/news/news/no-no-no-mans/546691/no-mans-mans-sky-sky-relics-update 注释URL： https://news.ycombinator.com/item?id=43487285 
+点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.theguardian.com/us-news/2025/mar/26/trump-vaccine-aid-funding</guid>
-      <pubDate>Wed, 26 Mar 2025 18:07:50 GMT</pubDate>
+      <guid>https://www.polygon.com/news/546691/no-mans-sky-relics-update</guid>
+      <pubDate>Wed, 26 Mar 2025 21:03:04 GMT</pubDate>
     </item>
     <item>
-      <title>AI上的比尔·盖茨（Bill Gates）：对于大多数事情，不需要人类</title>
-      <link>https://www.cnbc.com/2025/03/26/bill-gates-on-ai-humans-wont-be-needed-for-most-things.html</link>
-      <description><![CDATA[文章URL： https://www.cnbc.com/2025/03/26/bill-gates-on-ai-humans-wont-be-be-need-for-most-things.html  
-注释URL： https://news.ycombinator.com/item?id=43485002 
+      <title>15万年前非洲湿的热带森林中的人类</title>
+      <link>https://www.nature.com/articles/s41586-025-08613-y</link>
+      <description><![CDATA[文章url：注释URL： https://news.ycombinator.com/item？id=43487277 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.nature.com/articles/s41586-025-08613-y</guid>
+      <pubDate>Wed, 26 Mar 2025 21:02:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能数据中毒</title>
+      <link>https://www.schneier.com/blog/archives/2025/03/ai-data-poisoning.html</link>
+      <description><![CDATA[Article URL: https://www.schneier.com/blog/archives/2025/03/ai-data-poisoning.html
+注释URL： https://news.ycombinator.com/item？id=43487264 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.schneier.com/blog/archives/2025/03/ai-data-poisoning.html</guid>
+      <pubDate>Wed, 26 Mar 2025 21:01:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>CoreWeave在违反黑石贷款的条款后触发了违约</title>
+      <link>https://www.ft.com/content/cb94eb68-ccb5-4fb3-b903-0aae17b836dd</link>
+      <description><![CDATA[文章URL：https://www.ft.com/content/cb94eb68-ccb5-4fb3-b903-0aae17b836dd
+评论url： https://news.ycombinator.com/item?id=43487257 
 点：1 
 ＃评论：2 ]]></description>
-      <guid>https://www.cnbc.com/2025/03/26/bill-gates-on-ai-humans-wont-be-needed-for-most-things.html</guid>
-      <pubDate>Wed, 26 Mar 2025 18:07:35 GMT</pubDate>
+      <guid>https://www.ft.com/content/cb94eb68-ccb5-4fb3-b903-0aae17b836dd</guid>
+      <pubDate>Wed, 26 Mar 2025 21:00:55 GMT</pubDate>
     </item>
     <item>
-      <title>苹果的$ 10B+ Siri AI灾难</title>
-      <link>https://www.bskiller.com/p/apples-10b-siri-ai-disaster</link>
-      <description><![CDATA[文章url： https://www.bskiller.com/p/apples-10b-siri-ai-disaster
-注释url： https://news.ycombinator.com/item?id=43484990 
+      <title>订阅和收入共享模型的税收/法律清单？</title>
+      <link>https://news.ycombinator.com/item?id=43487253</link>
+      <description><![CDATA[我正在从事一个项目，我想让每个用户支付订阅，然后根据其他用户查看其内容的净订阅收入中的一部分净订阅收入。我对涉及大规模用户付款的税收或法律考虑的个人知识不足，并且希望在任何类型的特征和征收策略中获得任何类型的税收，除非有不同的征收，否则该公司的征收范围/征收均不能以不同的方式进行征收，以供您提供不同的功能和纳税策略，以提供任何范围的税收策略，以提供任何范围/征收策略，以提供任何范围的特征，便宜）。该项目基于用户上传的内容。截至目前，我假设我需要： 1。内容协议（不要上传非法/受版权保护的事物）
+2。收入共享协议
+3。一项责任协议（如果付款处理器搞砸了，或者您给我不正确的信息，而不是我的问题）我计划支持Venmo和BTC/Lightning，并且是项目中唯一的人（并且我本人打算做所有税收/付款工作）。我是否有任何重要的协议来保护自己，并且我是否可以通过prave nove of Shie Speip pr，或者我可以通过pr（pr）来设置par（或者是一个法律）&lt;一切都很简单，但我认为这是一个询问任何尖锐边缘/体验的好地方。
+
+注释URL： https://news.ycombinator.com/item?id=43487253 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=43487253</guid>
+      <pubDate>Wed, 26 Mar 2025 21:00:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么以下固定使我们的创意工作更好</title>
+      <link>https://www.itsnicethat.com/features/im-obsessed-why-following-fixations-makes-our-creative-work-better-creative-industry-240325</link>
+      <description><![CDATA[文章URL： https://www.itsnicethat.com/features/im-obsessed-why-following-following-makes-makes-ir-creative-work-better-creative-creative-indostry-indostry-indostry-240325   
+注释URL： https://news.ycombinator.com/item?id=43487249 
 点：2 
 ＃评论：0 ]]></description>
-      <guid>https://www.bskiller.com/p/apples-10b-siri-ai-disaster</guid>
-      <pubDate>Wed, 26 Mar 2025 18:06:54 GMT</pubDate>
+      <guid>https://www.itsnicethat.com/features/im-obsessed-why-following-fixations-makes-our-creative-work-better-creative-industry-240325</guid>
+      <pubDate>Wed, 26 Mar 2025 20:59:57 GMT</pubDate>
     </item>
     <item>
-      <title>埃隆·马斯克（Elon Musk）将他的技术专家放在信号泄漏上</title>
-      <link>https://www.usatoday.com/story/news/politics/2025/03/26/hegseth-atlantic-war-plans-group-chat-updates/82669460007/</link>
-      <description><![CDATA[文章URL： https://www.usatoday.com/story/news/politics/2025/03/03/26/hegseth-atlantic-warantic-war-war-plans-waran-plans-group-chat-updates/82669460007/82669460007/   
-注释url： https://news.ycombinator.com/item?id=43484982 
-点：2 
-＃评论：2 ]]></description>
-      <guid>https://www.usatoday.com/story/news/politics/2025/03/26/hegseth-atlantic-war-plans-group-chat-updates/82669460007/</guid>
-      <pubDate>Wed, 26 Mar 2025 18:06:23 GMT</pubDate>
+      <title>私募股权公司合并残疾人房屋</title>
+      <link>https://www.washingtonpost.com/business/2025/03/18/private-equity-intellectually-disabled-homes/</link>
+      <description><![CDATA[文章URL：https://www.washingtonpost.com/business/2025/03/18/private-equity-intellectually-disabled-homes/
+注释URL： https://news.ycombinator.com/item？id=43487236 
+点：1 
+＃评论：1 ]]></description>
+      <guid>https://www.washingtonpost.com/business/2025/03/18/private-equity-intellectually-disabled-homes/</guid>
+      <pubDate>Wed, 26 Mar 2025 20:58:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
