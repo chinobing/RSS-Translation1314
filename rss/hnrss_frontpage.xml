@@ -4,102 +4,105 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Fri, 28 Mar 2025 15:18:44 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 18:25:22 GMT</lastBuildDate>
+    <item>
+      <title>我们黑客入侵了Google的A.I Gemini并泄露了其源代码（至少一部分）</title>
+      <link>https://www.landh.tech/blog/20250327-we-hacked-gemini-source-code/</link>
+      <description><![CDATA[文章url： https://wwwww.landh.landh.land.tech/blog/2025027-250327-------250327-we-hacked-gemini--gemini-source-cce-code/pode/p）
+注释URL： https://news.ycombinator.com/item？id=43508418 
+点：13 
+＃评论：0 ]]></description>
+      <guid>https://www.landh.tech/blog/20250327-we-hacked-gemini-source-code/</guid>
+      <pubDate>Fri, 28 Mar 2025 18:12:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Hexi，C ++黑客仅现代标题网络二进制序列化</title>
+      <link>https://github.com/EmberEmu/Hexi</link>
+      <description><![CDATA[在过去的几年中，我需要一种简单的方法来快速序列化和应对各种网络协议的序列化和有效性。当时存在的大多数图书馆要么很重，要么低于出色的表现，要么是高于我想要的抽象水平。在此过程中，它拾取了有用的零件和零件，例如缓冲结构和分配器，这些零件和分配器使字节缩放更快，通常能够以零分配和零副本进行操作。出现安全功能是为了确保代码中的恶意数据包数据或错误不会导致segfaults或漏洞。，我已经将其包装在自己的独立库中，因为它可能对他人有用，这对我来说已经足够有用。除标准库以外，它具有零依赖项，并已设计用于在几分钟内快速集成到任何项目，或与合并标头的复制粘贴的几秒钟。它可以在生产代码中使用，但对于那些想要快速侵入二进制数据的人来说，它也是理想的选择。 
+
+注释URL： https://news.ycombinator.com/item?id=43508061 
+点：11 
+＃评论：2 ]]></description>
+      <guid>https://github.com/EmberEmu/Hexi</guid>
+      <pubDate>Fri, 28 Mar 2025 17:37:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>这本书（2021）</title>
+      <link>https://99percentinvisible.org/episode/the-real-book/</link>
+      <description><![CDATA[文章url：注释URL： https://news.ycombinator.com/item?id=435074404 
+点：24 
+＃评论：2 ]]></description>
+      <guid>https://99percentinvisible.org/episode/the-real-book/</guid>
+      <pubDate>Fri, 28 Mar 2025 16:39:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>喀拉拉邦如何致富</title>
+      <link>https://aeon.co/essays/how-did-kerala-go-from-poor-to-prosperous-among-indias-states</link>
+      <description><![CDATA[文章URL： https://aeon.co/essays/essays/how-did-did-did-go-from-go-from-po-from-pooor-pooor-pooor-pooor-pooor-to----------------------
+注释URL： https://news.ycombinator.com/item?id=43507286 
+点：145 
+＃评论：73 ]]></description>
+      <guid>https://aeon.co/essays/how-did-kerala-go-from-poor-to-prosperous-among-indias-states</guid>
+      <pubDate>Fri, 28 Mar 2025 16:27:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHub动作中的磁盘I/O瓶颈</title>
+      <link>https://depot.dev/blog/uncovering-disk-io-bottlenecks-github-actions-ci</link>
+      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=43506574 
+点：47 
+＃评论：27 ]]></description>
+      <guid>https://depot.dev/blog/uncovering-disk-io-bottlenecks-github-actions-ci</guid>
+      <pubDate>Fri, 28 Mar 2025 15:22:36 GMT</pubDate>
+    </item>
     <item>
       <title>将阶乘分解为大因素</title>
       <link>https://terrytao.wordpress.com/2025/03/26/decomposing-a-factorial-into-large-factors/</link>
       <description><![CDATA[文章URL： https:///terrytao.wordpress.com/2025/2025/26/decpress-26/decompome-facter-facter-facter-facter-facter-facter-facter-facter-facter-facterage-facterage-facterage-facterage-facter 注释URL： https://news.ycombinator.com/item？id=43506238 
-点：4 
-＃评论：0 ]]></description>
+点：73 
+＃评论：11 ]]></description>
       <guid>https://terrytao.wordpress.com/2025/03/26/decomposing-a-factorial-into-large-factors/</guid>
       <pubDate>Fri, 28 Mar 2025 14:55:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：光标IDE现在使用MCP记住您的编码pref</title>
+      <link>https://news.ycombinator.com/item?id=43506068</link>
+      <description><![CDATA[嗨，我是Zep的Daniel。我已经将光标IDE与我们的开源时间知识图形框架Graphiti集成在一起，以在会话之间为光标提供持续的内存。目标很简单：帮助光标记住您的编码偏好，标准和项目规格，因此您不必不断提醒它。在集成之前，光标（我们中的许多人已经每天都使用AI-Ased IDE）缺乏坚持用户上下文的强大方法。 To solve this, I used Graphiti’s Model Context Protocol (MCP) server, which allows structured data exchange between the IDE and Graphiti&#39;s temporal knowledge graph.Key points of how this works:- Custom entities like &#39;Requirement&#39;, &#39;Preference&#39;, and &#39;Procedure&#39; precisely capture coding standards and project specs.- Real-time updates let Cursor adapt instantly—if you change frameworks or update standards, the memory updates立即。 href =“ https://www.getzep.com/blog/cursor-adding-memory-with-with-graphiti-mcp/”&gt; https：//www.getzep.com/blog/blog/cursor-cursor-adding-memory-with-memory-with-graphi--graphi ...  href =“ https://github.com/getzep/graphiti” rel =“ nofollow”&gt; https://github.com/getzep/graphiti    -Daniel 
+
+注释URL： https://news.ycombinator.com/item?id=43506068 
+点：50 
+＃评论：18 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=43506068</guid>
+      <pubDate>Fri, 28 Mar 2025 14:44:59 GMT</pubDate>
     </item>
     <item>
       <title>大语言模型的生物学</title>
       <link>https://transformer-circuits.pub/2025/attribution-graphs/biology.html</link>
       <description><![CDATA[文章URL： https://transformer-circuits.pub/2025/2025/attribution-grution-graphs/attribution-graphs/biolaphs/biogology..html 
 注释URL： https://news.ycombinator.com/item?id=43505748 
-点：3 
-＃评论：0 ]]></description>
+点：73 
+＃评论：11 ]]></description>
       <guid>https://transformer-circuits.pub/2025/attribution-graphs/biology.html</guid>
       <pubDate>Fri, 28 Mar 2025 14:18:28 GMT</pubDate>
     </item>
     <item>
-      <title>尽管乌克兰战争，欧洲去年进口了更多的俄罗斯天然气</title>
-      <link>https://e360.yale.edu/digest/europe-russia-ukraine-war-natural-gas-2024</link>
-      <description><![CDATA[文章url： https://e360.yale.yale.edu/digest/europe-russia-europe-russia-ukraine-natural-natural-pp&gt;
-注释URL： https://news.ycombinator.com/item?id=43505700 
-点：22 
-＃评论：19 ]]></description>
-      <guid>https://e360.yale.edu/digest/europe-russia-ukraine-war-natural-gas-2024</guid>
-      <pubDate>Fri, 28 Mar 2025 14:15:11 GMT</pubDate>
+      <title>使用CGO和ZIG构建静态链接的GO可执行文件</title>
+      <link>https://calabro.io/zig-cgo</link>
+      <description><![CDATA[文章URL： https://calabro.io/zig-cgo   
+注释URL： https://news.ycombinator.com/item?id=43505646 
+点：47 
+＃评论：6 ]]></description>
+      <guid>https://calabro.io/zig-cgo</guid>
+      <pubDate>Fri, 28 Mar 2025 14:11:07 GMT</pubDate>
     </item>
     <item>
       <title>日本科学家创建了新的塑料，使盐水溶于一夜之间</title>
       <link>https://newatlas.com/materials/plastic-dissolves-ocean-overnight-no-microplastics/</link>
       <description><![CDATA[文章url： htttps://newatlas.com/mater.com/materials/materials/plastic-dissolves-dissolves-dissolves-ocean-ocean-overnight nirghtirgnight night Nightno-no-no-no-no-microplastics/ 
 注释URL： https://news.ycombinator.com/item?id=43505626 
-点：10 
-＃评论：0 ]]></description>
+点：85 
+＃评论：47 ]]></description>
       <guid>https://newatlas.com/materials/plastic-dissolves-ocean-overnight-no-microplastics/</guid>
       <pubDate>Fri, 28 Mar 2025 14:09:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>被闪电击中对某些热带树是有益的</title>
-      <link>https://www.caryinstitute.org/news-insights/press-release/getting-hit-lightning-good-some-tropical-trees</link>
-      <description><![CDATA[文章URL： https://www.caryinstitute.org/news-insights/press-release/getting-hit-lightning-good-some-some-tropical-trees  
-注释URL： https://news.ycombinator.com/item?id=43505447 
-点：45 
-＃评论：7 ]]></description>
-      <guid>https://www.caryinstitute.org/news-insights/press-release/getting-hit-lightning-good-some-tropical-trees</guid>
-      <pubDate>Fri, 28 Mar 2025 13:52:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>B电影怪物的生物学（2003）</title>
-      <link>https://fathom.lib.uchicago.edu/2/21701757/</link>
-      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item？id=43505334 
-点：19 
-＃评论：12 ]]></description>
-      <guid>https://fathom.lib.uchicago.edu/2/21701757/</guid>
-      <pubDate>Fri, 28 Mar 2025 13:40:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>跨平台P2P Wi-Fi：欧盟如何杀死AWDL</title>
-      <link>https://www.ditto.com/blog/cross-platform-p2p-wi-fi-how-the-eu-killed-awdl</link>
-      <description><![CDATA[文章URL：评论URL： https://news.ycombinator.com/item?id=435050222 
-点：42 
-＃评论：7 ]]></description>
-      <guid>https://www.ditto.com/blog/cross-platform-p2p-wi-fi-how-the-eu-killed-awdl</guid>
-      <pubDate>Fri, 28 Mar 2025 13:13:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>我要求警察向我发送他们的公共监视镜头</title>
-      <link>https://cardinalnews.org/2025/03/28/i-drove-300-miles-in-rural-virginia-then-asked-police-to-send-me-their-public-surveillance-footage-of-my-car-heres-what-i-learned/</link>
-      <description><![CDATA[文章URL：”&gt; https://cardinalnews.org/2025/03/28/i-drover-300-miles-in-rural-virginia-then-asked-police-to-send-me-their-me-their-public-surverance-surveillance-surverance-footage-fotage-fotage-fotage-my-car-heres-what-heres-what-i-i-i-i-learned/ learned/    
-注释URL： https://news.ycombinator.com/item？id=435044413 
-点：274 
-＃评论：186 ]]></description>
-      <guid>https://cardinalnews.org/2025/03/28/i-drove-300-miles-in-rural-virginia-then-asked-police-to-send-me-their-public-surveillance-footage-of-my-car-heres-what-i-learned/</guid>
-      <pubDate>Fri, 28 Mar 2025 12:14:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>许可流（YC W22）是雇用纽约市的高级/参谋人员</title>
-      <link>https://jobs.ashbyhq.com/permitflow?departmentId=d33195eb-8978-4439-abc6-5a8a072de808</link>
-      <description><![CDATA[文章URL： 
-注释URL： https://news.ycombinator.com/item?id=43504299 
-点：0 
-＃评论：0 ]]></description>
-      <guid>https://jobs.ashbyhq.com/permitflow?departmentId=d33195eb-8978-4439-abc6-5a8a072de808</guid>
-      <pubDate>Fri, 28 Mar 2025 12:02:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>让我们看一下JEP 483：提前班级加载和链接</title>
-      <link>https://www.morling.dev/blog/jep-483-aot-class-loading-linking/</link>
-      <description><![CDATA[文章URL： https://www.morling.dev/blog/blog/jep-483-483-aot-class-class-class-class-class-class-clos-class-class-closing-closing-linking-link-link-link-link-link/ 注释URL： https://news.ycombinator.com/item?id=43503960 
-点：23 
-＃评论：11 ]]></description>
-      <guid>https://www.morling.dev/blog/jep-483-aot-class-loading-linking/</guid>
-      <pubDate>Fri, 28 Mar 2025 11:11:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
