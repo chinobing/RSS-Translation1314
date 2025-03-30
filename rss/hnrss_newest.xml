@@ -4,104 +4,122 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Sun, 30 Mar 2025 06:24:07 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Mar 2025 09:16:54 GMT</lastBuildDate>
     <item>
-      <title>中国建立了AI数据中心，现在许多未使用的立场</title>
-      <link>https://www.technologyreview.com/2025/03/26/1113802/china-ai-data-centers-unused/</link>
-      <description><![CDATA[文章URL：评论url： https://news.ycombinator.com/item？id=435221769 
+      <title>大刮擦</title>
+      <link>https://herman.bearblog.dev/the-great-scrape/</link>
+      <description><![CDATA[文章URL： https://herman.bearblog.dev/-great-scrape/the-scrape/   
+注释url： https://news.ycombinator.com/item？id=435222638 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://herman.bearblog.dev/the-great-scrape/</guid>
+      <pubDate>Sun, 30 Mar 2025 09:06:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>一名博士生在广阔的日光下被蒙面军官抢走</title>
+      <link>https://www.cnn.com/2025/03/29/us/rumeysa-ozturk-tufts-university-arrest-saturday/index.html</link>
+      <description><![CDATA[文章URL： https://www.cnn.com/2025/03/29/us/rumeysa-ozturk-tufts-university-university-arrest-saturday/index.html  
+注释url： https://news.ycombinator.com/item?id=435222624 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.cnn.com/2025/03/29/us/rumeysa-ozturk-tufts-university-arrest-saturday/index.html</guid>
+      <pubDate>Sun, 30 Mar 2025 09:03:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>TQDM（Python Progress Bar）</title>
+      <link>https://tqdm.github.io/</link>
+      <description><![CDATA[文章URL： https://tqdm.github.io/  
+注释URL： https://news.ycombinator.com/item?id=435222611 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://tqdm.github.io/</guid>
+      <pubDate>Sun, 30 Mar 2025 09:01:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>SaaS超载？这是解决方案吗</title>
+      <link>https://auth.heyjuno.co/chat/kiljcd</link>
+      <description><![CDATA[文章URL： https://auth.heyjuno.co/chat/kiljcd   
+注释url： https://news.ycombinator.com/item？id=435222609 
+点：1 
+＃评论：1 ]]></description>
+      <guid>https://auth.heyjuno.co/chat/kiljcd</guid>
+      <pubDate>Sun, 30 Mar 2025 09:01:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：TS-RESULT  -  RUST的结果<t，E>类型用于TS中的明确错误处理</title>
+      <link>https://github.com/trylonai/ts-result</link>
+      <description><![CDATA[嘿hn，像许多人一样，我经常发现在JS/TS（重型尝试，模棱两可的无效返回）中的标准错误处理有些繁琐，以明确表示预期的失败。受Rust的结果枚举的启发（OK（T）| Err（E）），我们构建了TS-Result。这是一个轻巧的，集中的打字稿库，将该模式带来了：   函数的明确返回结果。
+
+    通过歧视工会和类型防护（ISOK/ISERR）键入安全性。
+
+    功能组成方法（地图，和Thon，Orelse等），以避免在成功/故障检查嵌套时进行深度。
+
+    现代TS实践（严格类型，ESM/CJS出口）。
+ 
+我们正在发展一个内部版本，无论如何还是开始看起来像结果，因此我们决定基于Rust Api。构建一个干净的开源实现。 虽然还有其他库（一些较大的库（某些较大的较大的FP生态系统）（例如fp-ts/formect-ts）（例如fp-ts/formect-ts），我们的目标是最小的，易于制定的结果。操作员或编译器可以保证，并且您仍然需要在具有异常的代码的边界上进行尝试，但我们发现它有助于在我们的核心逻辑中添加清晰度和类型安全，在此，在预期的特定故障状态下是预期的域结果。         github（source/docs/docs/docs/docs）：
+
+    npm（@trylonai/ts-result）：https：//www.npmjs.com/package/@trylonai/ts-result
+ 
+我们撰写了一篇博客文章，详细介绍了动机，我们从内部工具，设计选择的旅程以及与异常或更大的FP库进行比较：
+ https：//trylonai.github.io/ts-result/ts-result/ts-result/ts-result/ts-result-result-blog-post-post.htm一下
+
+注释URL： https://news.ycombinator.com/item./item?id=435222607 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://github.com/trylonai/ts-result</guid>
+      <pubDate>Sun, 30 Mar 2025 09:01:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>分散注意力后，建立了一个开源网站阻止程序</title>
+      <link>https://www.ashdeck.com/</link>
+      <description><![CDATA[文章URL： https://www.ashdeck.com/  
+注释url： https://news.ycombinator.com/item？id=435222605 
 点：3 
-＃评论：0 ]]></description>
-      <guid>https://www.technologyreview.com/2025/03/26/1113802/china-ai-data-centers-unused/</guid>
-      <pubDate>Sun, 30 Mar 2025 06:09:45 GMT</pubDate>
+＃评论：1 ]]></description>
+      <guid>https://www.ashdeck.com/</guid>
+      <pubDate>Sun, 30 Mar 2025 09:00:57 GMT</pubDate>
     </item>
     <item>
-      <title>变压器层作为画家</title>
-      <link>https://vevesta.substack.com/p/transformer-layers-as-painters</link>
-      <description><![CDATA[文章URL： https://vevesta.substack.com/p/transformer-layers-layers-aspainters-painter
-注释url： https://news.ycombinator.com/item?id=43521767 
+      <title>询问HN：代码应存储在数据库中。谁尝试过？</title>
+      <link>https://news.ycombinator.com/item?id=43522602</link>
+      <description><![CDATA[对我来说，很明显，代码应存储在数据库中，而不是基于文本的层次结构格式中。我们导航和组织代码的主要方式是文件夹层次结构。每个人都有不同的方法：按功能，模块，按文件类型（模板，组件等），通过环境（后端/前端）。而不是文件夹和文件名，一切都可以以不同的方式标记。谁尝试了此操作？
+
+注释url： https://news.ycombinator.com/item?id=435222602 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://vevesta.substack.com/p/transformer-layers-as-painters</guid>
-      <pubDate>Sun, 30 Mar 2025 06:09:14 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=43522602</guid>
+      <pubDate>Sun, 30 Mar 2025 09:00:31 GMT</pubDate>
     </item>
     <item>
-      <title>LLM开源Python库的交互式优化（2023）</title>
-      <link>https://arxiv.org/abs/2312.14949</link>
-      <description><![CDATA[文章URL： https://arxiv.org/abs/2312.14949   
-注释url： https://news.ycombinator.com/item./item?id=43521764 
+      <title>Show HN：我从289个API功能的后端服务器中购物AI聊天机器人</title>
+      <link>https://github.com/samchon/shopping-backend</link>
+      <description><![CDATA[文章URL： https://github.com/samchon/shopping-backend  
+注释URL： https://news.ycombinator.com/item？id=435222600 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://arxiv.org/abs/2312.14949</guid>
-      <pubDate>Sun, 30 Mar 2025 06:08:31 GMT</pubDate>
+      <guid>https://github.com/samchon/shopping-backend</guid>
+      <pubDate>Sun, 30 Mar 2025 09:00:06 GMT</pubDate>
     </item>
     <item>
-      <title>斐波那契隐藏在有趣的量子难题中[视频]</title>
-      <link>https://www.youtube.com/shorts/waQ8Z5BN-CM</link>
-      <description><![CDATA[文章URL： https://wwwww.youtube.com/shorts/shorts/waq8z5bn-cmn-cm 
-注释url： https://news.ycombinator.com/item?id=435221748 
+      <title>询问HN：AI机器人分析受影响的建筑物</title>
+      <link>https://news.ycombinator.com/item?id=43522596</link>
+      <description><![CDATA[缅甸几天前受到7.7级地震的影响，许多建筑物受到影响。建筑物上有裂缝，人们需要一些东西来识别 +分析房屋的安全水平。是否有任何AI机器人可以根据照片分类和分析建筑物的安全水平？
+
+评论URL： https://news.ycombinator.com/item？id=435222596 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.youtube.com/shorts/waQ8Z5BN-CM</guid>
-      <pubDate>Sun, 30 Mar 2025 06:05:13 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=43522596</guid>
+      <pubDate>Sun, 30 Mar 2025 08:59:18 GMT</pubDate>
     </item>
     <item>
-      <title>AAA授权框架（RFC 2904）</title>
-      <link>https://datatracker.ietf.org/doc/html/rfc2904</link>
-      <description><![CDATA[文章url： https://datatracker.ietf.org/doc/doc/doc/html/html/html/rfc2904 
-注释url： https://news.ycombinator.com/item？id=435221744 
+      <title>Show HN：Xian  -  Python-native区块链智能合约平台</title>
+      <link>https://xian.org</link>
+      <description><![CDATA[文章URL： https://xian.org   
+注释url： https://news.ycombinator.com/item?id=435222585 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://datatracker.ietf.org/doc/html/rfc2904</guid>
-      <pubDate>Sun, 30 Mar 2025 06:03:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>三个火枪手难题</title>
-      <link>https://erdos.sdslabs.co/problems/5</link>
-      <description><![CDATA[文章URL： https://erdos.sdslabslabs.co/problems/5   
-注释url： https://news.ycombinator.com/item?id=435221742 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://erdos.sdslabs.co/problems/5</guid>
-      <pubDate>Sun, 30 Mar 2025 06:03:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>不要在Anduril [视频]工作</title>
-      <link>https://www.youtube.com/watch?v=gXQrci3Wff8</link>
-      <description><![CDATA[文章url： https://www.youtube.com/watch?v=gxqrci3wff8 
-注释url： https://news.ycombinator.com/item?id=435221741 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.youtube.com/watch?v=gXQrci3Wff8</guid>
-      <pubDate>Sun, 30 Mar 2025 06:03:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>杰克·伦敦，杰克·约翰逊和世纪的战斗</title>
-      <link>https://publicdomainreview.org/essay/jack-london-jack-johnson-and-the-fight-of-the-century/</link>
-      <description><![CDATA[Article URL: https://publicdomainreview.org/essay/jack-london-jack-johnson-and-the-fight-of-the-century/
-注释url： https://news.ycombinator.com/item?id=435221682 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://publicdomainreview.org/essay/jack-london-jack-johnson-and-the-fight-of-the-century/</guid>
-      <pubDate>Sun, 30 Mar 2025 05:48:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>OWASP顶部主动控制（C1-C10）（2024）</title>
-      <link>https://top10proactive.owasp.org/archive/2024/the-top-10/</link>
-      <description><![CDATA[文章URL： https://top10proactive.owasp.org/archive/archive/2024/2024/the-top-10/      
-注释url： https://news.ycombinator.com/item?id=435221675 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://top10proactive.owasp.org/archive/2024/the-top-10/</guid>
-      <pubDate>Sun, 30 Mar 2025 05:47:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>埃隆·马斯克（Elon Musk）接管NASA和火星的任务</title>
-      <link>https://www.wsj.com/business/elon-musk-nasa-mars-space-travel-d3978a7b</link>
-      <description><![CDATA[文章url： https://www.wsj.com/busins/busins/busins/busins/busins/busins/elon-musk-nasa-mars-mars-mars-mars-mars-space-space-pace-pace-d397878787878.aj7878.ab 注释URL： https://news.ycombinator.com/item?id=435221673 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.wsj.com/business/elon-musk-nasa-mars-space-travel-d3978a7b</guid>
-      <pubDate>Sun, 30 Mar 2025 05:46:57 GMT</pubDate>
+      <guid>https://xian.org</guid>
+      <pubDate>Sun, 30 Mar 2025 08:56:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
