@@ -4,14 +4,36 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Sun, 30 Mar 2025 03:36:56 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Mar 2025 06:23:45 GMT</lastBuildDate>
+    <item>
+      <title>显示HN：可云的Postgres MCP服务器</title>
+      <link>https://github.com/stuzero/pg-mcp</link>
+      <description><![CDATA[ hey hn， i构建了PG-MCP，这是PostgreSQL的模型上下文协议（MCP）服务器，可为LLMS和代理提供结构化架构检查和查询执行。它是多租户，可以通过HTTP/SSE（不是STDIO）功能运行
+  - 支持来自多个代理的多个数据库连接  - 架构内省：返回表结构，类型，索引和约束；富含来自pg_catalog的描述。 (for well documented databases)- Read-Only Queries: Controlled execution of queries via MCP.- EXPLAIN Tool: Helps smart agents optimize queries before execution.- Extension Plugins: YAML-based plugin system for Postgres extensions (supports pgvector and postgis out of the box).- Server Mode: Spin up the container and it&#39;s ready to accept connections at  http：// localhost：8000/sse  
+
+注释URL： https://news.ycombinator.com/item?id=43520953 
+点：44 
+＃评论：4 ]]></description>
+      <guid>https://github.com/stuzero/pg-mcp</guid>
+      <pubDate>Sun, 30 Mar 2025 03:14:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>从地球旋转通过自己的磁场的电力发电</title>
+      <link>https://arxiv.org/abs/2503.15790</link>
+      <description><![CDATA[文章URL： https://arxiv.org/abs/2503.15790   
+注释URL： https://news.ycombinator.com/item?id=43520716 
+点：13 
+＃评论：9 ]]></description>
+      <guid>https://arxiv.org/abs/2503.15790</guid>
+      <pubDate>Sun, 30 Mar 2025 02:29:44 GMT</pubDate>
+    </item>
     <item>
       <title>6502作为服务</title>
       <link>https://www.emulationonline.com/systems/chiplab/6502-lab-available/</link>
       <description><![CDATA[文章url： https://www.emulationonline.com/sysemss/systems/chiplab/chiplab/chiplab/6502-lab-ab-ab-------------------------------------------------------------abababable
 注释URL： https://news.ycombinator.com/item?id=43520428 
-点：7 
-＃评论：2 ]]></description>
+点：20 
+＃评论：4 ]]></description>
       <guid>https://www.emulationonline.com/systems/chiplab/6502-lab-available/</guid>
       <pubDate>Sun, 30 Mar 2025 01:34:10 GMT</pubDate>
     </item>
@@ -20,8 +42,8 @@
       <link>https://sharktastica.co.uk/wip/timeline</link>
       <description><![CDATA[文章URL： https://sharktastica.co.uk/wip/wip/timeline  
 注释URL： https://news.ycombinator.com/item?id=43520297 
-点：12 
-＃评论：1 ]]></description>
+点：26 
+＃评论：3 ]]></description>
       <guid>https://sharktastica.co.uk/wip/timeline</guid>
       <pubDate>Sun, 30 Mar 2025 01:15:24 GMT</pubDate>
     </item>
@@ -30,28 +52,18 @@
       <link>https://support.vizio.com/s/article/Ambient-or-Scenic-Mode-showing-on-my-TV?language=en_US</link>
       <description><![CDATA[文章URL：https://support.vizio.com/s/article/Ambient-or-Scenic-Mode-showing-on-my-TV?language=en_US
 注释URL： https://news.ycombinator.com/item？id=435220074 
-点：218 
-＃评论：111 ]]></description>
+点：274 
+＃评论：155 ]]></description>
       <guid>https://support.vizio.com/s/article/Ambient-or-Scenic-Mode-showing-on-my-TV?language=en_US</guid>
       <pubDate>Sun, 30 Mar 2025 00:41:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>用氛围编码分解</title>
-      <link>https://www.lucasaguiar.xyz/posts/vibe-coding-pitfalls/</link>
-      <description><![CDATA[文章url： httpps://www.lucasaguiar.xyz/posts/posts/vibe-coding-pitflans/
-注释URL： https://news.ycombinator.com/item？id=43519938 
-点：48 
-＃评论：26 ]]></description>
-      <guid>https://www.lucasaguiar.xyz/posts/vibe-coding-pitfalls/</guid>
-      <pubDate>Sun, 30 Mar 2025 00:17:12 GMT</pubDate>
     </item>
     <item>
       <title>MSGPACK23  - 一个现代的，仅标题的C ++库，用于消息包（DE）序列化</title>
       <link>https://github.com/rwindegger/msgpack23</link>
       <description><![CDATA[文章URL： https://github.com/rwindegger/mmsgpack23   
 注释URL： https://news.ycombinator.com/item?id=43519930 
-点：19 
-＃评论：3 ]]></description>
+点：22 
+＃评论：9 ]]></description>
       <guid>https://github.com/rwindegger/msgpack23</guid>
       <pubDate>Sun, 30 Mar 2025 00:15:47 GMT</pubDate>
     </item>
@@ -60,8 +72,8 @@
       <link>https://linebender.org/blog/towards-fearless-simd/</link>
       <description><![CDATA[文章URL： https://linebender.org/blog/towards-fearless-fearless-simd/    
 评论url： https://news.ycombinator.com/item？id=43519823 
-点：61 
-＃评论：11 ]]></description>
+点：88 
+＃评论：20 ]]></description>
       <guid>https://linebender.org/blog/towards-fearless-simd/</guid>
       <pubDate>Sat, 29 Mar 2025 23:52:00 GMT</pubDate>
     </item>
@@ -70,28 +82,18 @@
       <link>http://blog.dusktreader.dev/2025/03/29/self-contained-python-scripts-with-uv/</link>
       <description><![CDATA[Article URL: http://blog.dusktreader.dev/2025/03/29/self-contained-python-scripts-with-uv/
 评论url： https://news.ycombinator.com/item?id=435196669 
-点：15 
-＃评论：0 ]]></description>
+点：64 
+＃评论：11 ]]></description>
       <guid>http://blog.dusktreader.dev/2025/03/29/self-contained-python-scripts-with-uv/</guid>
       <pubDate>Sat, 29 Mar 2025 23:22:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>“ Moonshots”计划，以确保RISC OS的未来</title>
-      <link>https://www.riscosopen.org/news/articles/2025/03/28/moonshots-initiative-to-secure-the-future-of-the-os</link>
-      <description><![CDATA[文章URL： https://www.riscosopen.org/news/articles/2025/03/28/moonshots-initiative-to-secure-to-secure-to-secure-the-future-of-the-os  
-注释URL： https://news.ycombinator.com/item?id=43519100 
-点：21 
-＃评论：4 ]]></description>
-      <guid>https://www.riscosopen.org/news/articles/2025/03/28/moonshots-initiative-to-secure-the-future-of-the-os</guid>
-      <pubDate>Sat, 29 Mar 2025 21:58:42 GMT</pubDate>
     </item>
     <item>
       <title>将Linux转换为Windows</title>
       <link>https://philipbohun.com/blog/0007.html</link>
       <description><![CDATA[文章URL： https://philipbohun.com/blog/0007.html   
 注释URL： https://news.ycombinator.com/item？id=43518917 
-点：90 
-＃评论：106 ]]></description>
+点：141 
+＃评论：163 ]]></description>
       <guid>https://philipbohun.com/blog/0007.html</guid>
       <pubDate>Sat, 29 Mar 2025 21:34:02 GMT</pubDate>
     </item>
@@ -100,8 +102,8 @@
       <link>https://peabee.substack.com/p/everyone-knows-what-apps-you-use</link>
       <description><![CDATA[文章url： https://peabee.substack.com/p/everyone-whatwhat-what-what-what-what-what-what-what-what-what-papps-apps-apps-you-us-us-use-use-use 
 注释URL： https://news.ycombinator.com/item?id=43518866 
-点：188 
-＃评论：81 ]]></description>
+点：356 
+＃评论：133 ]]></description>
       <guid>https://peabee.substack.com/p/everyone-knows-what-apps-you-use</guid>
       <pubDate>Sat, 29 Mar 2025 21:26:32 GMT</pubDate>
     </item>
