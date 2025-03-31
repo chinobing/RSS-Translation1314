@@ -4,106 +4,128 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Mon, 31 Mar 2025 12:36:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Mar 2025 15:19:54 GMT</lastBuildDate>
     <item>
-      <title>二进制分销重建</title>
-      <link>https://blog.josefsson.org/2025/03/31/on-binary-distribution-rebuilds/</link>
-      <description><![CDATA[文章url： htttps://blog.jose.jose.josefsson.org/2025/2025/03/03/03/31/-binary-binary-distribibutibutibutibirib 
-注释url： https://news.ycombinator.com/item?id=43534143 
+      <title>显示HN：Click2Load  - 使用一键式电子邮件工具派遣简报卡车</title>
+      <link>https://news.ycombinator.com/item?id=43535899</link>
+      <description><![CDATA[嘿，我很高兴共享click2load（ https://click2load.net.net ），我一直在努力简化卡车派遣和经纪人通信。这是一个Chrome扩展程序，使调度员单击直接从dat（例如DAT）发送电子邮件，而不会更繁琐的复制和粘贴。功能包括可自定义的电子邮件模板，无缝的Gmail/Microsoft Outlook集成以及内置的RPM计算，以更快地预订负载。我们已经与条纹集成了以确保安全计费，并提供了免费的7天试用版（无需信用卡）。它旨在减少物流领域的承运人和调度员的压力，节省时间和提高效率。设置需要不到60秒的时间，而且我们已经收到了将预订速度加倍的用户的反馈。会喜欢您的想法 - 您如何看待这种方法？您想在物流工作流中看到任何功能吗？在此处查看： https://click2load.net   
+
+注释url： https://news.ycombinator.com/item?id=43555899 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://blog.josefsson.org/2025/03/31/on-binary-distribution-rebuilds/</guid>
-      <pubDate>Mon, 31 Mar 2025 12:22:27 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=43535899</guid>
+      <pubDate>Mon, 31 Mar 2025 15:07:06 GMT</pubDate>
     </item>
     <item>
-      <title>海军陆战队在2027年禁止跑步，并被四年徒刑</title>
-      <link>https://www.theguardian.com/world/live/2025/mar/31/france-marine-le-pen-embezzlement-verdict-europe-news-live</link>
-      <description><![CDATA[文章URL： https://www.theguardian.com/world/live/2025/mar/31/france-marine-le-pen-pen-embezzlement-verdict-verdict-europe-news-news-live   
-注释url： https://news.ycombinator.com/item?id=43534140 
+      <title>Show HN：C/C ++/CUDA/ASM/PTX的慢慢C ++：重新审视性能技巧</title>
+      <link>https://github.com/ashvardanian/less_slow.cpp</link>
+      <description><![CDATA[今年早些时候，我花了一个月的时间重新审查我的编码习惯，并重新考虑了过去的设计选择。我希望今年能重写和改善我的福斯库，我需要首先回答一些问题。也许其中一些问题也会引起社区中的其他问题。
+   - 我应该使用simd内在设备来清晰或删除以更容易的库分发？
+   - 硬件是否遇到了AVX-512和SVE中的矢量散射/聚集？
+   - 安全的飞地和指针标签在英特尔，ARM和AMD上有何不同？
+   -  CPU和GPU张量核（TCS）之间的吞吐量差距是多少？
+   - 未对齐的内存访问和分载载荷的成本如何，非时空的负载/商店提供了哪些收益？
+   - 标准库的哪些部分最难打出绩效？
+   - 错误处理策略如何比较开销？
+   - 懒惰评估的范围的编译时间与运行时间权衡是什么？
+   - 用于元编程的哪些实用，非平凡的用例？
+   - 使用io_uring vs. posix插座，Linux内核有多挑战？
+   - 在C ++中使用网络TS或异质执行者有效地有多近？
+   - 在嵌套容器中传播状态分配的最佳实践以及哪些库支持它们？
+ 
+这些问题涉及微核优化（纳秒）到分布式系统（微/毫秒潜伏期）。 Rather than tackling them all in one post, I compiled my explorations into a repository—extending my previous Google Benchmark tutorial (&lt;https://ashvardanian.com/posts/google-benchmark&gt;)—to serve as a sandbox for performance实验。一些有趣的观察结果：    - 编译器现在矢量化3x3x3和4x4x4单/双精度乘法！尽管操作减少了70％，但较小的速度却慢了约60％，表现优于我的Vanilla SSE/AVX，并且占AVX-512的10％以内。
+  -NVIDIA TCS在数字类型，吞吐量，瓷砖形状，线程同步（线程/Quad-pair/warp/warp groups）和操作数存储中的数字类型，吞吐量，瓷砖形状，线程同步。伏特加后，手动PTX通常需要（作为内在的滞后），尽管新瓷砖（在GTC上引入）有望改善密集的线性代数内核。
+   -  AI波驱动CPU和GPU在Mat-Mul吞吐量和编程复杂性中收敛。我花了一天的时间来调试TMM注册初始化，而SME同样奇怪。 Sierra Forest Packs 288核/插座和AVX10.2降低了512位的256位支持...我想知道CPU的进步是否需要离散的Intel GPU？
+   - 在常见的浮点范围内，即使没有SIMD，标量正弦近似值也可以比标准实现快40倍。但是，这有点手动。我希望更多的项目记录了错误界限，并具有1＆3.5 ULP变体（如鞋子）。
+   - 与手工制作的FSM相比，诸如CTRE之类的元编程工具可以胜过5倍的典型的正则发动机，并简化建筑解析器。
+   - 一旦复杂性和性能明显不同（DPDK/SPDK与IO_URING），差距就会缩小。虽然前5.5前的io_uring可以在回环IO上增加4倍的UDP吞吐量，但较新的零副本和并发优化仍然具有挑战性。
+ 
+存储库中有指向喜爱的CPPCON讲座，GITHUB摘要和技术博客文章的链接。认识到许多高级概念在各种语言中都有不同的处理方式，因此我也开始在单独的存储库中移植示例以Rust＆Python。 Coroutines look bad everywhere :(Overall, this research project was rewarding! Most questions found answers in code — except pointer tagging and secure enclaves, which still elude me in public cloud. I&#39;d love to hear from others, especially on comparing High-Level Synthesis for small matrix multiplications on FPGAs versus hand-written VHDL/Verilog for integral types. Let me know if you have ideas for other cool, obscure topics to封面！
+
+评论url： https://news.ycombinator.com/item?id=43555897 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.theguardian.com/world/live/2025/mar/31/france-marine-le-pen-embezzlement-verdict-europe-news-live</guid>
-      <pubDate>Mon, 31 Mar 2025 12:22:12 GMT</pubDate>
+      <guid>https://github.com/ashvardanian/less_slow.cpp</guid>
+      <pubDate>Mon, 31 Mar 2025 15:06:59 GMT</pubDate>
     </item>
     <item>
-      <title>当生活方式超过逻辑时</title>
-      <link>https://www.thezerobasedbudget.com/blog/when-lifestyle-outpaces-logic/</link>
-      <description><![CDATA[文章url： https://www.thezerebasebasebasebasedbudget.com/blog/blog/blog/when-lifestyle-lifestyle--lifestyle--lifestyle--lifestyle--logic-logic/ 
-评论url： https://news.ycombinator.com/item?id=43534126 
+      <title>请不要使用我的名字：关于乌克兰人日益严重的战争疲倦的报告</title>
+      <link>https://meduza.io/en/feature/2025/03/27/please-don-t-use-my-name</link>
+      <description><![CDATA[文章URL： https://meduza.io/en/en/feature/2025/2025/2025/03/03/03/please-don-don-t----------------us--ny-ny-namy-namy-namy-namy-name 
+注释url： https://news.ycombinator.com/item?id=43555890 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.thezerobasedbudget.com/blog/when-lifestyle-outpaces-logic/</guid>
-      <pubDate>Mon, 31 Mar 2025 12:20:52 GMT</pubDate>
+      <guid>https://meduza.io/en/feature/2025/03/27/please-don-t-use-my-name</guid>
+      <pubDate>Mon, 31 Mar 2025 15:06:31 GMT</pubDate>
     </item>
     <item>
-      <title>LLM RCE的解剖</title>
-      <link>https://www.cyberark.com/resources/threat-research-blog/anatomy-of-an-llm-rce</link>
-      <description><![CDATA[文章URL： https://www.cyberark.com/resources/resources/resources/threat-threat-threat-creach-research-research-creach-creach-creach-creach-research-blog/anatome-of-an-an-an-an-an--an--an-llm-rce-.-an-llm-rce-      
-注释URL： https://news.ycombinator.com/item?id=43534103 
+      <title>GUMCP：开源MCP服务器，免费托管</title>
+      <link>https://github.com/gumloop/guMCP</link>
+      <description><![CDATA[文章URL： https://github.com/gumloop/gumcp  
+评论url： https://news.ycombinator.com/item?id=435555889 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.cyberark.com/resources/threat-research-blog/anatomy-of-an-llm-rce</guid>
-      <pubDate>Mon, 31 Mar 2025 12:17:21 GMT</pubDate>
+      <guid>https://github.com/gumloop/guMCP</guid>
+      <pubDate>Mon, 31 Mar 2025 15:06:23 GMT</pubDate>
     </item>
     <item>
-      <title>食品中的风味增强剂</title>
-      <link>https://www.eurofins.com/media-centre/newsletters/food-newsletter-nr44-march-2014/flavour-enhancers-in-food-products/</link>
-      <description><![CDATA[文章URL： https://www.eurofins.com/media-centre/newsletters/food-newsletter-nr44-march-2014/flavour-enhancers-inhancers-in-in-food-products/   
-评论url： https://news.ycombinator.com/item/item?id=4354095 
-点：1 
-＃评论：1 ]]></description>
-      <guid>https://www.eurofins.com/media-centre/newsletters/food-newsletter-nr44-march-2014/flavour-enhancers-in-food-products/</guid>
-      <pubDate>Mon, 31 Mar 2025 12:16:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>我找到了一个钱包，并以某种方式留下了笔记，所以只有真正的主人才能给我打电话</title>
-      <link>https://old.reddit.com/r/mildlyinteresting/comments/1jnxnfg/i_found_a_wallet_on_a_saturday_i_left_a_note_in_a/</link>
-      <description><![CDATA[文章URL： https://old.reddit.com/r/mildlyinteresting/comments/1jnxnfg/i_found_a_wallet_wallet_a_a_a_a_saturday_i_i_ left_a_a_note_in_a/   
-注释URL： https://news.ycombinator.com/item?id=43534083 
+      <title>将18年的评论从Disqus移出并进入我的110个静态网站</title>
+      <link>https://sachachua.com/blog/2025/03/moving-18-years-of-comments-out-of-disqus-and-into-my-11ty-static-site/</link>
+      <description><![CDATA[文章URL： https://sachachua.com/blog/2025/03/moving-18 yars-comments-un-disqus-and-into-my-11ty-static-site/   
+注释URL： https://news.ycombinator.com/item/item?id=435535883 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://old.reddit.com/r/mildlyinteresting/comments/1jnxnfg/i_found_a_wallet_on_a_saturday_i_left_a_note_in_a/</guid>
-      <pubDate>Mon, 31 Mar 2025 12:15:39 GMT</pubDate>
+      <guid>https://sachachua.com/blog/2025/03/moving-18-years-of-comments-out-of-disqus-and-into-my-11ty-static-site/</guid>
+      <pubDate>Mon, 31 Mar 2025 15:05:51 GMT</pubDate>
     </item>
     <item>
-      <title>为什么您的模拟不起作用</title>
-      <link>https://nedbatchelder.com/blog/201908/why_your_mock_doesnt_work.html</link>
-      <description><![CDATA[文章url： httpps://nedbatchelder.com/blog/blog/201908/201908/why_your_mock_mock_mock_mock_odoesnt_towork.pp&gt;
-注释url： https://news.ycombinator.com/item？id=43544075 
+      <title>微服务可靠性剧本</title>
+      <link>https://www.wix.engineering/post/microservices-reliability-playbook</link>
+      <description><![CDATA[文章URL： https://www.wix.engineering/post/post/microservices-roservices-roliability-playblay-playblay-playbook     
+注释url： https://news.ycombinator.com/item？id=43555870 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://nedbatchelder.com/blog/201908/why_your_mock_doesnt_work.html</guid>
-      <pubDate>Mon, 31 Mar 2025 12:14:53 GMT</pubDate>
+      <guid>https://www.wix.engineering/post/microservices-reliability-playbook</guid>
+      <pubDate>Mon, 31 Mar 2025 15:04:55 GMT</pubDate>
     </item>
     <item>
-      <title>木星王牌的奇怪案例</title>
-      <link>https://nemanjatrifunovic.substack.com/p/the-curious-case-of-jupiter-ace</link>
-      <description><![CDATA[文章URL： https：//nemanjatrifunovic.substack.com/p/the-culious-culious-case-case-case-case-ofiter-jupiter--jupiter-ace--jupiter-ace-ace-ace-ace-ace-ace-ace-ace-ace-ace-ace-ace-ace-ace  
-注释url： https://news.ycombinator.com/item./item?id=43534059 
+      <title>与JFK暗杀文件的80K PDF页面交谈</title>
+      <link>https://twitter.com/peterjliu/status/1906711224261464320</link>
+      <description><![CDATA[文章URL： https://twitter.com/peter.com/peterjliu/status/status/190671122222242426126146146146464320 评论url： https://news.ycombinator.com/item?id=43555863 
+点：2 
+＃评论：0 ]]></description>
+      <guid>https://twitter.com/peterjliu/status/1906711224261464320</guid>
+      <pubDate>Mon, 31 Mar 2025 15:04:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>FireProx：http通过独特IP的HTTP传递代理的AWS工具</title>
+      <link>https://github.com/ustayready/fireprox</link>
+      <description><![CDATA[文章URL： https://github.com/ustayready/fireprox   
+评论url： https://news.ycombinator.com/item?id=435555860 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://nemanjatrifunovic.substack.com/p/the-curious-case-of-jupiter-ace</guid>
-      <pubDate>Mon, 31 Mar 2025 12:12:32 GMT</pubDate>
+      <guid>https://github.com/ustayready/fireprox</guid>
+      <pubDate>Mon, 31 Mar 2025 15:04:25 GMT</pubDate>
     </item>
     <item>
-      <title>Gemini 2.5 Pro vs. Claude 3.7十四行诗：编码比较</title>
-      <link>https://composio.dev/blog/gemini-2-5-pro-vs-claude-3-7-sonnet-coding-comparison/</link>
-      <description><![CDATA[文章URL：https://composio.dev/blog/gemini-2-5-pro-vs-claude-3-7-sonnet-coding-comparison/
-注释url： https://news.ycombinator.com/item？id=43534029 
-点：1 
-＃评论：1 ]]></description>
-      <guid>https://composio.dev/blog/gemini-2-5-pro-vs-claude-3-7-sonnet-coding-comparison/</guid>
-      <pubDate>Mon, 31 Mar 2025 12:09:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>保护您的数字生活：苹果用户的隐私和安全措施</title>
-      <link>https://numericcitizen.me/protecting-your-digital-life-privacy-and-security-measures-for-apple-users/</link>
-      <description><![CDATA[文章URL： https://numericcitizen.me/numericcitizen.me/protecting--protecting--------------
-注释url： https://news.ycombinator.com/item？id=43534027 
+      <title>在“灭绝”阶段的cusp上，LLM提供商作为资本互联网咬合</title>
+      <link>https://www.theregister.com/2025/03/31/llm_providers_extinction/</link>
+      <description><![CDATA[文章URL： https://wwwww.theregister.com/2025/2025/03/03/31/llm_providers_providers_extinctin/
+注释URL： https://news.ycombinator.com/item？id=43535850 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://numericcitizen.me/protecting-your-digital-life-privacy-and-security-measures-for-apple-users/</guid>
-      <pubDate>Mon, 31 Mar 2025 12:09:49 GMT</pubDate>
+      <guid>https://www.theregister.com/2025/03/31/llm_providers_extinction/</guid>
+      <pubDate>Mon, 31 Mar 2025 15:03:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>建造计费很烂（用于商业和工程）</title>
+      <link>https://www.getlago.com/blog/billing-shouldnt-suck</link>
+      <description><![CDATA[文章URL： https://www.getlago.com/blog/billing/billing-shouldnt-shouldntnnt-suck    
+评论url： https://news.ycombinator.com/item？id=435555828 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.getlago.com/blog/billing-shouldnt-suck</guid>
+      <pubDate>Mon, 31 Mar 2025 15:01:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
