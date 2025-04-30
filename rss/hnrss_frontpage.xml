@@ -4,107 +4,107 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 30 Apr 2025 15:20:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 18:26:55 GMT</lastBuildDate>
+    <item>
+      <title>具有机械链接和枢轴的可逆计算</title>
+      <link>https://tennysontbardwell.com/blog/2025/04/30/mechanical-computing/index.html</link>
+      <description><![CDATA[Article URL: https://tennysontbardwell.com/blog/2025/04/30/mechanical-computing/index.html
+评论url： https://news.ycombinator.com/item?id=43848398 
+点：5 
+＃评论：0 ]]></description>
+      <guid>https://tennysontbardwell.com/blog/2025/04/30/mechanical-computing/index.html</guid>
+      <pubDate>Wed, 30 Apr 2025 17:35:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Notebooklm音频概述现在有50多种语言可用</title>
+      <link>https://blog.google/technology/google-labs/notebooklm-audio-overviews-50-languages/</link>
+      <description><![CDATA[文章url： https://blog.google/technology/technology/google-google-labs/noote-labs/notebooklmbook-book-------------------50&gt;
+注释url： https://news.ycombinator.com/item?id=43848325 
+点：42 
+＃评论：16 ]]></description>
+      <guid>https://blog.google/technology/google-labs/notebooklm-audio-overviews-50-languages/</guid>
+      <pubDate>Wed, 30 Apr 2025 17:28:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Archil（YC F24）正在雇用分布式系统工程师（面对面，SF）</title>
+      <link>https://news.ycombinator.com/item?id=43848007</link>
+      <description><![CDATA[注释URL： https://news.ycombinator.com/item?id=43848007 
+点：0 
+＃评论：0 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=43848007</guid>
+      <pubDate>Wed, 30 Apr 2025 17:01:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek-Prover-V2</title>
+      <link>https://github.com/deepseek-ai/DeepSeek-Prover-V2</link>
+      <description><![CDATA[文章URL： https://github.com/deepseek-ai/deepseek-ai/deepseek-prover-v2 
+注释url： https://news.ycombinator.com/item?id=438474432 
+点：124 
+＃评论：23 ]]></description>
+      <guid>https://github.com/deepseek-ai/DeepSeek-Prover-V2</guid>
+      <pubDate>Wed, 30 Apr 2025 16:23:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：使用Google表创建自己的Finetuned AI模型</title>
+      <link>https://promptrepo.com/finetune/</link>
+      <description><![CDATA[您好，我们建立了Progptrepo，以使产品团队可以使用填充，而不仅仅是ML工程师。上周，Openai的CPO分享了他们如何使用微调从客户支持到深入研究的所有事物，并认为这是认真的AI团队的未来。然而，我认识的大多数团队仍然依靠提示，因为微调太技术了，而拥有培训数据（产品经理和领域专家）的人通常是非技术性的。 With Promptrepo, they can now:- Add training examples in Google Sheets- Click a button to train- Deploy and test instantly- Use OpenAI, Claude, Gemini or Llama modelsWe’ve used this internally for years to power AI workflows in our products (Formfacade, Formesign, Neartail), and we&#39;re now opening it up to others.会喜欢您的反馈并乐于回答任何问题！ href =“ https://www.youtube.com/watch?v=e1ctin1bd0w” rel =“ nofollow”&gt; https://www.youtube.com/watch?v=e1ctin1bd0w  href =“ https://guesswork.co/support/post/post/fine-tuning-is-the-future-and-and-now-ist-within-every.anc-ddfd2598-5798-5798-423d-b6ec-b6ec-e7d84e984e9847aa.html” rel =“ nofollow”&gt; https：//guesswork.co/support/post/fine-tuning-is-the-future-...  
+
+评论url： https://news.ycombinator.com/item？id=43846964 
+点：13 
+＃评论：8 ]]></description>
+      <guid>https://promptrepo.com/finetune/</guid>
+      <pubDate>Wed, 30 Apr 2025 15:53:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：艺术 - 新的开源RL培训代理商</title>
+      <link>https://github.com/OpenPipe/ART</link>
+      <description><![CDATA[嘿，hn，我想分享一个新项目，我们过去几个月一直在研究艺术（ https://github.com/openpipe/art ）。艺术是一种新的开放式培训框架，用于培训的新开放式培训，使用培训型工程师。 RL允许您培训代理商在可以测量和量化结果的任何任务中都能更好地执行。有许多优秀的项目专注于使用RL培训LLM，例如Grpotrainer（ https://huggingface.co/docs/trl/main/en/grpo_trainer ）和verl（我们已经在OpenPipe上广泛使用了这些框架作为面向客户的项目，但是对某些关键限制感到沮丧：  - 代理称为工具，获得工具，得到响应并调用另一个响应的多转弯工作流，并不得到很好的支持。这使它们成为任何需要代理执行一系列动作的任务的启动者。  - 其他框架通常具有较低的GPU效率。他们可能需要多个H100 GPU来训练小型7B参数型号，并且在训练环的“推出”和“训练”阶段期间无法保持GPU始终如一。现有的培训师希望您调用原始文本完成端点，并且不要自动提供行业标准的聊天完成API。 ART旨在解决这些限制，并使训练高质量的代理商易于训练。我们还分享了许多细节和实用的经验教训，这是在这篇文章中，该帖子介绍了培训电子邮件研究代理的演示，该演示胜过O3（ You can also find out more about ART&#39;s architecture in our announcement post (https://openpipe.ai/blog/art-trainer-a-new-rl-trainer-for-ag...).Happy to answer any questions you拥有！
+
+评论url： https://news.ycombinator.com/item?id=438466690 
+点：26 
+＃评论：2 ]]></description>
+      <guid>https://github.com/OpenPipe/ART</guid>
+      <pubDate>Wed, 30 Apr 2025 15:35:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>YouTube的某人需要眼镜</title>
+      <link>https://jayd.ml/2025/04/30/someone-at-youtube-needs-glasses.html</link>
+      <description><![CDATA[Article URL: https://jayd.ml/2025/04/30/someone-at-youtube-needs-glasses.html
+注释URL： https://news.ycombinator.com/item?id=4384646487 
+点：525 
+＃评论：346 ]]></description>
+      <guid>https://jayd.ml/2025/04/30/someone-at-youtube-needs-glasses.html</guid>
+      <pubDate>Wed, 30 Apr 2025 15:18:47 GMT</pubDate>
+    </item>
     <item>
       <title>加入太阳微型系统 -  40年前（2022）</title>
       <link>https://akapugs.blog/2022/05/03/674/</link>
       <description><![CDATA[文章URL： https://akapugs.blogs.blog/2022/05/03/03/674/ 
 注释URL： https://news.ycombinator.com/item?id=43846187 
-点：5 
-＃评论：0 ]]></description>
+点：109 
+＃评论：57 ]]></description>
       <guid>https://akapugs.blog/2022/05/03/674/</guid>
       <pubDate>Wed, 30 Apr 2025 14:57:31 GMT</pubDate>
     </item>
     <item>
-      <title>研究发现，削减预算将对经济大大损害经济</title>
-      <link>https://impa.american.edu/costs-of-cutting-scientific-research/</link>
-      <description><![CDATA[文章URL： https://///impa.american.edu/costs-costs-ercosts-of-coutting-scientific-scientific-research/  
-注释URL： https://news.ycombinator.com/item?id=43845695 
-点：16 
-＃评论：12 ]]></description>
-      <guid>https://impa.american.edu/costs-of-cutting-scientific-research/</guid>
-      <pubDate>Wed, 30 Apr 2025 14:23:32 GMT</pubDate>
+      <title>为什么艾维斯不能应付几亿？</title>
+      <link>https://www.economist.com/briefing/2025/04/10/why-cant-stinking-rich-ivies-cope-with-losing-a-few-hundred-million</link>
+      <description><![CDATA[文章URL： https://www.economist.com/briefing/2025/04/10/why-cant-stinking-mich-ivies-cope-with-losing-losing-a-few-hun-hun drim千亿 
+注释URL： https://news.ycombinator.com/item？id=43845874 
+点：54 
+＃评论：96 ]]></description>
+      <guid>https://www.economist.com/briefing/2025/04/10/why-cant-stinking-rich-ivies-cope-with-losing-a-few-hundred-million</guid>
+      <pubDate>Wed, 30 Apr 2025 14:36:40 GMT</pubDate>
     </item>
     <item>
       <title>“ AI-First”是新的办公室</title>
       <link>https://www.anildash.com//2025/04/19/ai-first-is-the-new-return-to-office/</link>
       <description><![CDATA[文章url： https://www.anildash.com/2025/2025/2025/2025/04/19/19/19/ai-first-is-thew-shew-new-thew-prece 
 注释URL： https://news.ycombinator.com/item?id=43845089 
-点：18 
-＃评论：3 ]]></description>
+点：192 
+＃评论：120 ]]></description>
       <guid>https://www.anildash.com//2025/04/19/ai-first-is-the-new-return-to-office/</guid>
       <pubDate>Wed, 30 Apr 2025 13:38:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>否作为服务</title>
-      <link>https://github.com/hotheadhacker/no-as-a-service</link>
-      <description><![CDATA[文章URL： https://github.com/hotheadhacker/no-as-a-as-a-a-a-a-service 
-注释URL： https://news.ycombinator.com/item？id=43845016 
-点：48 
-＃评论：36 ]]></description>
-      <guid>https://github.com/hotheadhacker/no-as-a-service</guid>
-      <pubDate>Wed, 30 Apr 2025 13:33:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>洛杉矶港说，下周的运输量将下降35％</title>
-      <link>https://www.cnbc.com/2025/04/29/port-of-los-angeles-sees-shipping-volume-down-35percent-next-week-as-tariffs-bite.html</link>
-      <description><![CDATA[文章URL： https://www.cnbc.com/2025/04/29/port-of-los-los-angeles-sees-sees-shipping-shipping-volume-down-down-35percent-next-next-next-week-as-tariffs-bite.html.html  
-注释URL： https://news.ycombinator.com/item?id=43844708 
-点：227 
-＃评论：177 ]]></description>
-      <guid>https://www.cnbc.com/2025/04/29/port-of-los-angeles-sees-shipping-volume-down-35percent-next-week-as-tariffs-bite.html</guid>
-      <pubDate>Wed, 30 Apr 2025 13:07:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：kexa.io  - 开源IT安全性和合规性验证</title>
-      <link>https://news.ycombinator.com/item?id=43844665</link>
-      <description><![CDATA[ hi hn，我们正在构建kexa.io（ https://github.com/kexa-io/kexa ） 遵守。跟踪跨不同资产（服务器，K8，云资源）的配置，并确保它们符合安全基准（例如顺式基准等），手动挑战且容易出错。我们的目标是使用开放源代码核心的目标，即提供直接的方式来定义检查，并扫描您的资产，并在您的安全性内容上进行清晰的报告。您可以定义自己的规则或使用通用标准。我们现在正在积极开发我们的SaaS产品，计划在2025年6月左右发布Beta版本。关键功能将是专门为云环境设计的AI驱动的安全管理代理（最初针对AWS，GCP，Azure）。该代理人不仅要报告问题，还旨在提供主动，可行的建议，并可能自动化某些补救任务以简化云安全管理和硬化。非常欢迎对该概念或当前工具的反馈，如果您发现有趣的话，请有助于其他人发现该项目！如果即将到来的AI驱动的云安全代理听起来很有趣，那么我们特别热衷于听到您的想法，或者您可能有兴趣加入Beta（2025年6月左右）。谢谢！
-
-注释url： https://news.ycombinator.com/item?id=438444665 
-点：15 
-＃评论：2 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=43844665</guid>
-      <pubDate>Wed, 30 Apr 2025 13:04:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>第一季度的美国经济合同为0.3％</title>
-      <link>https://www.wsj.com/economy/us-gdp-q1-2025-1f82f689</link>
-      <description><![CDATA[文章URL： https://www.wsoment&gt;
-注释url： https://news.ycombinator.com/item?id=438444442 
-点：315 
-＃评论：291 ]]></description>
-      <guid>https://www.wsj.com/economy/us-gdp-q1-2025-1f82f689</guid>
-      <pubDate>Wed, 30 Apr 2025 12:38:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>OCAML的机器学习机翼</title>
-      <link>https://github.com/raven-ml/raven</link>
-      <description><![CDATA[文章URL： https://github.com/raven-ml/raven  
-注释url： https://news.ycombinator.com/item?id=43844279 
-点：25 
-＃评论：1 ]]></description>
-      <guid>https://github.com/raven-ml/raven</guid>
-      <pubDate>Wed, 30 Apr 2025 12:31:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>零售商很快将只剩下大约7周的完整库存</title>
-      <link>https://fortune.com/article/retailers-weeks-of-inventory-left-trump-china-trade-war/</link>
-      <description><![CDATA[Article URL: https://fortune.com/article/retailers-weeks-of-inventory-left-trump-china-trade-war/
-评论url： https://news.ycombinator.com/item？id=43843821 
-点：117 
-＃评论：127 ]]></description>
-      <guid>https://fortune.com/article/retailers-weeks-of-inventory-left-trump-china-trade-war/</guid>
-      <pubDate>Wed, 30 Apr 2025 11:42:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>黎巴嫩太空计划的教训 - 卡苏里安</title>
-      <link>https://kasurian.com/p/lebanese-space-program</link>
-      <description><![CDATA[文章URL： https://kasurian.com/p/lebanese-pace-pace-program      
-评论url： https://news.ycombinator.com/item?id=43843808 
-点：5 
-＃评论：0 ]]></description>
-      <guid>https://kasurian.com/p/lebanese-space-program</guid>
-      <pubDate>Wed, 30 Apr 2025 11:41:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
