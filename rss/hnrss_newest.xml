@@ -4,117 +4,105 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Thu, 01 May 2025 03:46:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 06:28:35 GMT</lastBuildDate>
     <item>
-      <title>Fortran 90中的国际象棋计划</title>
-      <link>https://gist.github.com/menezesd/fbd15fc7b5bb9c5aa632ddb12cbb8111</link>
-      <description><![CDATA[文章URL： https://gist.github.com/menezesd/fbd15fc7b5bb9c5aa632dddb12cbb8111  
-注释url： https://news.ycombinator.com/item?id=43853421 
+      <title>语言模棱两可的方式是弄清AI“含义”的一种方式</title>
+      <link>https://www.lesswrong.com/posts/wfDfPCkPcvi4N7tZN/alignment-from-equivariance-ii-language-equivariance-as-a</link>
+      <description><![CDATA[文章URL： https://www.lesswrong.com/posts/wfdfpckpcvi4n7tzn/alignment-from-equivariance-ii-language-equivariance-equivariance-aas-a aas-a   
+注释URL： https://news.ycombinator.com/item?id=43854249 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://gist.github.com/menezesd/fbd15fc7b5bb9c5aa632ddb12cbb8111</guid>
-      <pubDate>Thu, 01 May 2025 03:31:33 GMT</pubDate>
+      <guid>https://www.lesswrong.com/posts/wfDfPCkPcvi4N7tZN/alignment-from-equivariance-ii-language-equivariance-as-a</guid>
+      <pubDate>Thu, 01 May 2025 06:18:51 GMT</pubDate>
     </item>
     <item>
-      <title>表演HN：被解雇。厌倦了幽灵工作。建造了一些东西</title>
-      <link>https://app.ghostjobs.io/</link>
-      <description><![CDATA[大家好，我去年被解雇了，在狩猎期间，我一直遇到幽灵工作，这些列表永远不会引导任何地方。超级令人沮丧。一点点，我开始在跨职位委员会中跟踪公司行为。它滚雪到一个小网络应用程序中，您实际上可以看到公司的招聘方式 - 或假装。
- - 他们发布的董事会
- - 他们使用的系统系统
--Median薪水
--post频率 +列表的年龄
- - 技能和学位要求
--Track track track所有现有的主要工作委员会现在，每天都显示《财富》 100强。下周增加2500多家公司。长期目标？提供对实际跟踪超过数百万公司的数据库的访问权限，我宁愿在提供所有这些数据DU的访问权限之前等待，以达到所需的高昂的维护和资源。它还使任何求职者向任何公司提供匿名报告。他们也是每个公司的专用公开页面，提供说话并进行讨论的空间。如果这有助于某人避免浪费时间，那值得建立。在这里是：app.ghostjobs.io 很高兴回答问题或听到想法，您的反馈帮助！  
-
-注释url： https://news.ycombinator.com/item?id=43853401 
-点：3 
-＃评论：0 ]]></description>
-      <guid>https://app.ghostjobs.io/</guid>
-      <pubDate>Thu, 01 May 2025 03:25:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个面试问题，可以保护您免受朝鲜假工人的侵害</title>
-      <link>https://www.theregister.com/2025/04/29/north_korea_worker_interview_questions/</link>
-      <description><![CDATA[文章URL： https://wwwww.theregest：&gt;
-注释URL： https://news.ycombinator.com/item？id=438533382 
-点：3 
-＃评论：0 ]]></description>
-      <guid>https://www.theregister.com/2025/04/29/north_korea_worker_interview_questions/</guid>
-      <pubDate>Thu, 01 May 2025 03:21:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Mintflow NetStack  - 建立在FD.IO VPP上的新的VireGuard iOS客户端</title>
-      <link>https://news.ycombinator.com/item?id=43853353</link>
-      <description><![CDATA[ hi hn，我刚刚获得了由Apple批准的Mintflow NetStack 1.1.0，该Apple引入了应用程序级路由功能。我认为这将是分享该项目的好时机，以及其开发背后的一些技术背景。在过去两年中，我构建了两个基于TailScale的iOS VPN应用程序。我感谢他们出色的文档和高质量的代码。但是，我希望在客户端更加灵活性 - 尤其是在本地路由和拆分隧道周围。虽然TailScale现在提供了一个应用连接器功能，但我的用例需要在本地运行所有操作，而无需中央协调器即可分发DNS路线。，因为我已经与FD.IO VPP合作了一段时间，并且非常喜欢它的架构，因此我决定尝试构建基于VIREARGARD的VPN应用程序。 VPP具有以FreeBSD的实现为模型（尽管没有积极维护）建模的Vireguard插件。我的第一个挑战是将VPP Core移植到Darwin（iOS/MACOS的基础操作系统）。多亏了最近通过Epoll-Shim提供的FreeBSD支持，事实证明这很复杂，但可行 - 我最终在MacOS上运行了VPP。从那里，我与VPP的主机堆栈桥接了Apple的UTUN界面，处理BSD插座I/O，并最终获得了一个工作应用。 Version 1.0.0 shipped with basic split tunneling based on CIDR prefixes, but that felt too limited.So last month, I added an internal stub DNS resolver using hickory-dns (Rust-based), and enabled VPP&#39;s host stack to reconstruct TCP/UDP connections from the Apple tunnel interface and forward them via local interfaces (Wi-Fi/Cellular).这可以解锁更多的颗粒状路由 - 例如，通过Vireguard有选择地发送特定的流量，保留其他人本地或使用VPP的黑洞完全阻止路由。我很高兴讨论技术细节。从来没有想过我仍然会在2025年为iOS应用程序核心写C，尽管Rust现在也是堆栈的一部分。我最初尝试使用C-ares作为DNS，但选择Rust以更快的速度移动并学习新知识。构建这是很有趣的。目前，Mintflow是一个一次性购买的付费应用程序。我计划继续扩展它 -  VPP的主动开发意味着我可以在将来发行版中添加基于MITM的HTTPS捕获和更高级路由等功能。这是链接： App Store： https://apps.apple.com..com/us/mintflow/mintfloflflow-netstack/id6742394218  rel =“ nofollow”&gt; https://mintflow.643216.xyz  谢谢！
-
-评论url： https://news.ycombinator.com/item?id=438533353 
+      <title>不是FPM  - 简单的DEB，RPM，APK，IPK和Arch Linux Packager用GO编写</title>
+      <link>https://nfpm.goreleaser.com/</link>
+      <description><![CDATA[文章URL： https://nfpm.goreleaser.com/  
+注释URL： https://news.ycombinator.com/item？id=43854229 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=43853353</guid>
-      <pubDate>Thu, 01 May 2025 03:16:33 GMT</pubDate>
+      <guid>https://nfpm.goreleaser.com/</guid>
+      <pubDate>Thu, 01 May 2025 06:14:27 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：使用AI为您测试美丽</title>
-      <link>https://www.beautytestai.com/en</link>
-      <description><![CDATA[失败了约20多种产品后，我在2-3天内制造了另一种产品！希望还不错！这次是人们对自己的美丽进行考验。它将为您带来美容测试成绩。不是很严重，但也许有点有趣！尝试一下，给我一些反馈！
-我为什么要制造此产品？
-作为一名女士，有时我不确定自己的面部美，我们都知道雪白的公主和她的继母的故事。我希望有一种产品可以使人们充满信心并带来一些乐趣！
-
-注释URL： https://news.ycombinator.com/item？id=438533322 
-点：3 
+      <title>OpenRouter LLM排名</title>
+      <link>https://openrouter.ai/rankings</link>
+      <description><![CDATA[文章URL： https://openrouter.ai/rankings   
+注释URL： https://news.ycombinator.com/item?id=43854226 
+点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.beautytestai.com/en</guid>
-      <pubDate>Thu, 01 May 2025 03:11:56 GMT</pubDate>
+      <guid>https://openrouter.ai/rankings</guid>
+      <pubDate>Thu, 01 May 2025 06:13:38 GMT</pubDate>
     </item>
     <item>
-      <title>密尔沃基警察贸易：250万MUGSHOTS可免费获得面部识别</title>
-      <link>https://www.jsonline.com/story/news/crime/2025/04/25/milwaukee-police-considering-trading-mugshots-for-facial-recognition-tech/83084223007/</link>
-      <description><![CDATA[文章URL： https://www.jsonline.com/story/news/crime/2025/204/25/milwaukee-police-considering-mugshots-mugshots-for-facial-facial-facial-recognition-tech/83084223007/    
-注释url： https://news.ycombinator.com/item?id=43853297 
-点：20 
+      <title>克里斯·克雷布斯（Chris Krebs）启动了CBP的全球入场计划</title>
+      <link>https://www.cnn.com/2025/04/30/politics/chris-krebs-cbp-global-entry-revoked/index.html</link>
+      <description><![CDATA[文章URL： https://www.cnn.com/2025/04/30/politics/chris-krebs-cbp-global-entry-entry-revoked/index.html  
+注释URL： https://news.ycombinator.com/item？id=43854208 
+点：2 
 ＃评论：1 ]]></description>
-      <guid>https://www.jsonline.com/story/news/crime/2025/04/25/milwaukee-police-considering-trading-mugshots-for-facial-recognition-tech/83084223007/</guid>
-      <pubDate>Thu, 01 May 2025 03:05:25 GMT</pubDate>
+      <guid>https://www.cnn.com/2025/04/30/politics/chris-krebs-cbp-global-entry-revoked/index.html</guid>
+      <pubDate>Thu, 01 May 2025 06:10:49 GMT</pubDate>
     </item>
     <item>
-      <title>一年失败后的1周，我从应用程序中赚了100美元</title>
-      <link>https://www.indiehackers.com/post/i-earned-100-from-my-app-in-1-week-after-a-year-of-failure-006ef8a5f8</link>
-      <description><![CDATA[文章URL： https://www.indiehackers.com/post/i-arned-100-from-my-app-in-1-week-after-a-a-a-a-a of-failure-006ef8a5f8  
-注释URL： https://news.ycombinator.com/item?id=43853287 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.indiehackers.com/post/i-earned-100-from-my-app-in-1-week-after-a-year-of-failure-006ef8a5f8</guid>
-      <pubDate>Thu, 01 May 2025 03:03:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：VARU AI  - 交互作用生成新长度的AI草稿</title>
-      <link>https://www.varu.us/</link>
-      <description><![CDATA[文章URL： https://www.varu.us/  
-评论url： https://news.ycombinator.com/item?id=43853246 
+      <title>Doge正在建立监视状态</title>
+      <link>https://www.nytimes.com/2025/04/30/opinion/musk-doge-data-ai.html</link>
+      <description><![CDATA[Article URL: https://www.nytimes.com/2025/04/30/opinion/musk-doge-data-ai.html
+注释URL： https://news.ycombinator.com/item?id=43854203 
 点：4 
-＃评论：4 ]]></description>
-      <guid>https://www.varu.us/</guid>
-      <pubDate>Thu, 01 May 2025 02:54:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>非营利性约会应用的幻想</title>
-      <link>https://www.theatlantic.com/family/archive/2025/02/nonprofit-dating-app/681720/</link>
-      <description><![CDATA[Article URL: https://www.theatlantic.com/family/archive/2025/02/nonprofit-dating-app/681720/
-注释URL： https://news.ycombinator.com/item?id=43853217 
-点：6 
 ＃评论：1 ]]></description>
-      <guid>https://www.theatlantic.com/family/archive/2025/02/nonprofit-dating-app/681720/</guid>
-      <pubDate>Thu, 01 May 2025 02:44:50 GMT</pubDate>
+      <guid>https://www.nytimes.com/2025/04/30/opinion/musk-doge-data-ai.html</guid>
+      <pubDate>Thu, 01 May 2025 06:09:24 GMT</pubDate>
     </item>
     <item>
-      <title>将您的github或gitlab存储库变成带有deepwiki-open的AI Wiki（开源）</title>
-      <link>https://github.com/AsyncFuncAI/deepwiki-open</link>
-      <description><![CDATA[文章URL： https://github.com/asyncfuncai/deepwiki-open   
-注释url： https://news.ycombinator.com/item./item?id=43853216 
+      <title>Tech Nvidia首席执行官Jensen Huang警告中国在AI中“不落后”</title>
+      <link>https://www.cnbc.com/2025/04/30/nvidia-ceo-jensen-huang-says-china-not-behind-in-ai.html</link>
+      <description><![CDATA[文章URL： https://www.cnbc.com/2025/04/30/nvidia-ceo-ceo-jensen-huang-says-china-not-behind-behind-in-ai.html  
+评论url： https://news.ycombinator.com/item?id=43854193 
 点：2 
 ＃评论：0 ]]></description>
-      <guid>https://github.com/AsyncFuncAI/deepwiki-open</guid>
-      <pubDate>Thu, 01 May 2025 02:44:49 GMT</pubDate>
+      <guid>https://www.cnbc.com/2025/04/30/nvidia-ceo-jensen-huang-says-china-not-behind-in-ai.html</guid>
+      <pubDate>Thu, 01 May 2025 06:07:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究人员说，AI同伴对18岁以下的青少年不安全</title>
+      <link>https://mashable.com/article/ai-companions-for-teens-unsafe</link>
+      <description><![CDATA[文章URL： https://mashable.com/article/article/article/ai-companions/ai-companions-for-teens-teens-unsafe  
+注释URL： https://news.ycombinator.com/item?id=43854188 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://mashable.com/article/ai-companions-for-teens-unsafe</guid>
+      <pubDate>Thu, 01 May 2025 06:06:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>众议院投票以废除加利福尼亚的清洁卡车政策</title>
+      <link>https://www.nytimes.com/2025/04/30/climate/house-votes-to-repeal-californias-clean-truck-policies.html</link>
+      <description><![CDATA[文章URL： https://www.nytimes.com/2025/04/30/climate/house-votes-to-repeal-californias-cleanias-clean-truck-policies.html  
+注释url： https://news.ycombinator.com/item？id=43854184 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.nytimes.com/2025/04/30/climate/house-votes-to-repeal-californias-clean-truck-policies.html</guid>
+      <pubDate>Thu, 01 May 2025 06:05:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>问HN：您拥有自己或关注博客吗？</title>
+      <link>https://news.ycombinator.com/item?id=43854179</link>
+      <description><![CDATA[评论url： https://news.ycombinator.com/item？id=43854179 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=43854179</guid>
+      <pubDate>Thu, 01 May 2025 06:04:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>秘密服务的参与《火线》（1993年）[PDF]</title>
+      <link>https://www.governmentattic.org/58docs/USSSmovieInTheLineOfFireNoDate.pdf</link>
+      <description><![CDATA[Article URL: https://www.governmentattic.org/58docs/USSSmovieInTheLineOfFireNoDate.pdf
+注释url： https://news.ycombinator.com/item?id=43854162 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.governmentattic.org/58docs/USSSmovieInTheLineOfFireNoDate.pdf</guid>
+      <pubDate>Thu, 01 May 2025 05:58:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
