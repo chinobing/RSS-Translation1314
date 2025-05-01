@@ -4,106 +4,126 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Thu, 01 May 2025 18:26:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 21:18:42 GMT</lastBuildDate>
     <item>
-      <title>Google说，政府黑客正在领导使用归因于零日的使用</title>
-      <link>https://techcrunch.com/2025/04/29/government-hackers-are-leading-the-use-of-attributed-zero-days-google-says/</link>
-      <description><![CDATA[文章URL： https://techcrunch.com/2025/04/29/government-hackers-are-leading-the-the--use-of-astributed-zero-days-google-says/   
-注释url： https://news.ycombinator.com/item？id=43861426 
+      <title>Show HN：Kubetail  - 实时日志搜索Kubernetes</title>
+      <link>https://github.com/kubetail-org/kubetail</link>
+      <description><![CDATA[大家好！ kubetail是用于Kubernetes的通用日志记录仪表板，可实时优化用于跨多范围工作负载的尾log。使用Kubetail，您可以从工作负载（例如部署或Daemonset）中的所有容器中查看已合并到单个时间顺序的时间表中，并将其交付到您的浏览器或终端。我去年在HN上启动了Kubetail，当时又添加了最高请求。现在，我很高兴地说，我们终于在最新的官方版本（CLI/V0.4.3，Helm/V0.10.1）中提供了搜索。您可以在此处检查一下：  https://www.kubetail.com/demo   kubetail通常使用kubernetes api api wond，do not wond op seard op seard op seard，bubetail  kubetail  kubetail。要启用搜索，请单击GUI中的“安装”按钮，或在CLI中运行`kubetail cluster install&#39;，以部署在每个节点上放置kubetail代理的守护程序。每个代理商运行一个由Ripgrep驱动的自定义锈二进制；它扫描节点的日志文件，并流仅将行与浏览器或终端匹配。您可以将Kubetail搜索视为Kubernetes日志的“远程GREP”。现在，您不需要下载整个日志文件就可以在本地进行处理。特别是，我们构建了一个简单的CLI工具，该工具在您的桌面上启动Web仪表板：  ＃＃install
+    酿造安装kubetail
+
+    ＃ 跑步
+    kubetail服务
+ 
+我们还向CLI添加了一个功能强大的日志子命令，您可以使用它来遵循容器日志，甚至可以在给定时间窗口中获取所有记录，以在本地更详细地分析它们：    ＃conter示例示例
+    $ kubetail日志部署/web \
+         -  with-ts \
+         - 播种\
+         - 跟随
+
+    ＃获取示例
+    $ kubetail日志部署/web \
+        -since 2025-04-20T00：00：00Z \
+         - 直到2025-04-21T00：00：00Z \
+         -  all&gt; logs.txt
+ 
+自去年以来，我们添加了更多功能，但这些功能是我想突出的功能。我希望您喜欢我们对Kubetail的工作！您的反馈非常有价值，所以请让我们知道您在这里或我们的Discord聊天中的评论中的想法。 andres 
+
+注释URL： https://news.ycombinator.com/item？id=43863418 
+点：4 
+＃评论：0 ]]></description>
+      <guid>https://github.com/kubetail-org/kubetail</guid>
+      <pubDate>Thu, 01 May 2025 21:11:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>泊松分布背后的派生和直觉</title>
+      <link>https://antaripasaha.notion.site/Derivation-and-Intuition-behind-Poisson-distribution-1255314a56398062bf9dd9049fb1c396</link>
+      <description><![CDATA[文章URL： https://antaripasaha.notion.site/derivation-and-intuition-behind-poisson-distribution-1255314A56398062BF9049FB1C396   
+注释url： https://news.ycombinator.com/item?id=43863414 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://antaripasaha.notion.site/Derivation-and-Intuition-behind-Poisson-distribution-1255314a56398062bf9dd9049fb1c396</guid>
+      <pubDate>Thu, 01 May 2025 21:11:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI MCP服务器希望您存在什么？</title>
+      <link>https://news.ycombinator.com/item?id=43863400</link>
+      <description><![CDATA[嗨，我正在研究即将到来的黑客马拉松。在短期内，您希望拥有哪个MCP服务器，但不是？像光标和无花果通信之类的东西。
+谢谢！
+
+注释URL： https://news.ycombinator.com/item?id=43863400 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=43863400</guid>
+      <pubDate>Thu, 01 May 2025 21:09:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>扎克的视野将消除整个广告堆栈的工作方式</title>
+      <link>https://www.theverge.com/meta/659506/mark-zuckerberg-ai-facebook-ads</link>
+      <description><![CDATA[文章URL： https://wwwww.therever.com/meta/meta/meta/659506/659506/mark-mark-mark-zuckerberg-ai-facebook-facebook-bbook-pacebook-pace---- 注释url： https://news.ycombinator.com/item?id=43863395 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.theverge.com/meta/659506/mark-zuckerberg-ai-facebook-ads</guid>
+      <pubDate>Thu, 01 May 2025 21:09:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>德克萨斯州的自动卡车，没有安全司机</title>
+      <link>https://www.axios.com/2025/05/01/autonomous-vehicles-trucks-aurora-texas-pastries</link>
+      <description><![CDATA[文章URL：https://www.axios.com/2025/05/01/autonomous-vehicles-trucks-aurora-texas-pastries
+注释url： https://news.ycombinator.com/item?id=43863370 
 点：2 
 ＃评论：0 ]]></description>
-      <guid>https://techcrunch.com/2025/04/29/government-hackers-are-leading-the-use-of-attributed-zero-days-google-says/</guid>
-      <pubDate>Thu, 01 May 2025 18:20:08 GMT</pubDate>
+      <guid>https://www.axios.com/2025/05/01/autonomous-vehicles-trucks-aurora-texas-pastries</guid>
+      <pubDate>Thu, 01 May 2025 21:06:37 GMT</pubDate>
     </item>
     <item>
-      <title>游戏新闻网站Polygon由裁员在出售给Valnet</title>
-      <link>https://arstechnica.com/gaming/2025/05/gaming-news-site-polygon-gutted-by-massive-layoffs-amid-sale-to-valnet/</link>
-      <description><![CDATA[文章URL：&gt; https://arstechnica.com/gaming/2025/05/gaming-news-site-site-polygon-gutted-by-massive-layoffs-amid-sale-sale-sale-sale-to-valnet/   
-注释url： https://news.ycombinator.com/item？id=43861421 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://arstechnica.com/gaming/2025/05/gaming-news-site-polygon-gutted-by-massive-layoffs-amid-sale-to-valnet/</guid>
-      <pubDate>Thu, 01 May 2025 18:19:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>用社交媒体提要来增强您的购物商店</title>
-      <link>https://zingy-lily-83d08d.netlify.app/</link>
-      <description><![CDATA[文章URL： https://zingy-lily-83d08d.netlify.app/ 
-注释URL： https://news.ycombinator.com/item./item?id=43861381 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://zingy-lily-83d08d.netlify.app/</guid>
-      <pubDate>Thu, 01 May 2025 18:17:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>想法接种和推论距离</title>
-      <link>https://medium.com/@ThingMaker/idea-inoculation-inferential-distance-848836a07a5b</link>
-      <description><![CDATA[Article URL: https://medium.com/@ThingMaker/idea-inoculation-inferential-distance-848836a07a5b
-评论url： https://news.ycombinator.com/item?id=43861380 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://medium.com/@ThingMaker/idea-inoculation-inferential-distance-848836a07a5b</guid>
-      <pubDate>Thu, 01 May 2025 18:17:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于启动和优化Google广告的AI代理</title>
-      <link>https://trymultiply.com/</link>
-      <description><![CDATA[文章URL： https://trymultiply.com/  
-注释URL： https://news.ycombinator.com/item?id=43861378 
+      <title>处理项目领导职位开放</title>
+      <link>https://processingfoundation.org/employment/processing-project-lead</link>
+      <description><![CDATA[文章url： https://processingfoundation.org/employment/processing-processing-projecting-project-project-project-project-lead 
+注释URL： https://news.ycombinator.com/item?id=43863350 
 点：1 
 ＃评论：1 ]]></description>
-      <guid>https://trymultiply.com/</guid>
-      <pubDate>Thu, 01 May 2025 18:17:08 GMT</pubDate>
+      <guid>https://processingfoundation.org/employment/processing-project-lead</guid>
+      <pubDate>Thu, 01 May 2025 21:04:29 GMT</pubDate>
     </item>
     <item>
-      <title>秘密说明隐藏在80年后发现的达豪制造的乐器</title>
-      <link>https://www.euronews.com/culture/2025/04/28/violin-of-hope-secret-note-hidden-in-dachau-built-musical-instrument-found-after-80-years</link>
-      <description><![CDATA[文章URL：  
-注释URL： https://news.ycombinator.com/item?id=43861361 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.euronews.com/culture/2025/04/28/violin-of-hope-secret-note-hidden-in-dachau-built-musical-instrument-found-after-80-years</guid>
-      <pubDate>Thu, 01 May 2025 18:15:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI的威胁 - 错误信息和真实性危机</title>
-      <link>https://www.youtube.com/watch?v=Xm_3uhCd4VY</link>
-      <description><![CDATA[文章URL： https://www.youtube.com/watch?v=xm_3uhcd4vy 
-注释URL： https://news.ycombinator.com/item?id=43861352 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.youtube.com/watch?v=Xm_3uhCd4VY</guid>
-      <pubDate>Thu, 01 May 2025 18:15:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>数学（Expmath）</title>
-      <link>https://sam.gov/opp/869c8d7351c04234be43c45e2082b846/view</link>
-      <description><![CDATA[文章URL： https:/ https://sam.gov/opp/869c8d7351c042351c04234be43c43c43c45e2082bpppr 
-注释URL： https://news.ycombinator.com/item?id=43861313 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://sam.gov/opp/869c8d7351c04234be43c45e2082b846/view</guid>
-      <pubDate>Thu, 01 May 2025 18:12:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>走向最可爱的神经网络</title>
-      <link>https://kevinlynagh.com/towards-the-cutest-neural-network/</link>
-      <description><![CDATA[文章url： https://kevinlynagh.com/towards-cometesthe-cutest-cutest-neural-network/ 
-注释url： https://news.ycombinator.com/item?id=43861297 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://kevinlynagh.com/towards-the-cutest-neural-network/</guid>
-      <pubDate>Thu, 01 May 2025 18:10:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在出国旅行之前确保手机的数据</title>
-      <link>https://www.nytimes.com/2025/04/30/technology/personaltech/travel-burner-phone-cbp.html</link>
-      <description><![CDATA[文章URL： https://www.nytimes.com/2025/2025/04/30/30/30/30/30/30/technologic
-评论url： https://news.ycombinator.com/item./item?id=43861272 
-点：2 
+      <title>众议院投票阻止加利福尼亚在2035年禁止销售燃气汽车</title>
+      <link>https://www.washingtonpost.com/climate-environment/2025/05/01/california-cars-waiver-house-vote/</link>
+      <description><![CDATA[文章URL： https://www.washingtonpost.com/climate-environment/2025/05/01/california-cars-waiver-house-vote/  
+评论url： https://news.ycombinator.com/item?id=43863329 
+点：3 
 ＃评论：1 ]]></description>
-      <guid>https://www.nytimes.com/2025/04/30/technology/personaltech/travel-burner-phone-cbp.html</guid>
-      <pubDate>Thu, 01 May 2025 18:09:10 GMT</pubDate>
+      <guid>https://www.washingtonpost.com/climate-environment/2025/05/01/california-cars-waiver-house-vote/</guid>
+      <pubDate>Thu, 01 May 2025 21:02:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>onuze  -  reddit替代方案</title>
+      <link>https://onuze.me</link>
+      <description><![CDATA[文章URL： https://onuze.me   
+注释URL： https://news.ycombinator.com/item?id=43863306 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://onuze.me</guid>
+      <pubDate>Thu, 01 May 2025 21:00:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Harper的Chrome扩展的状态</title>
+      <link>https://elijahpotter.dev/articles/status_of_the_harper_chrome_extension</link>
+      <description><![CDATA[文章URL： htttps://elijahpotter.dev/articles.dev/articles/status_of_harper_harper_harper_harper_chrome_chrome_chrome_extension 
+注释URL： https://news.ycombinator.com/item?id=43863302 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://elijahpotter.dev/articles/status_of_the_harper_chrome_extension</guid>
+      <pubDate>Thu, 01 May 2025 21:00:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>自2000年以来，美国的工资落后于健康保险的成本</title>
+      <link>https://www.moneygeek.com/resources/rising-cost-of-health-insurance/</link>
+      <description><![CDATA[文章URL： https://www.moneygeek.com/risising-com/rising-cost-cost-cost-cost-ost-ost-of-health-ishance-surance/    
+评论url： https://news.ycombinator.com/item?id=43863275 
+点：3 
+＃评论：0 ]]></description>
+      <guid>https://www.moneygeek.com/resources/rising-cost-of-health-insurance/</guid>
+      <pubDate>Thu, 01 May 2025 20:58:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
