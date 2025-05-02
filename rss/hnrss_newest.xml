@@ -4,126 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Thu, 01 May 2025 21:18:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 01:26:01 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Kubetail  - 实时日志搜索Kubernetes</title>
-      <link>https://github.com/kubetail-org/kubetail</link>
-      <description><![CDATA[大家好！ kubetail是用于Kubernetes的通用日志记录仪表板，可实时优化用于跨多范围工作负载的尾log。使用Kubetail，您可以从工作负载（例如部署或Daemonset）中的所有容器中查看已合并到单个时间顺序的时间表中，并将其交付到您的浏览器或终端。我去年在HN上启动了Kubetail，当时又添加了最高请求。现在，我很高兴地说，我们终于在最新的官方版本（CLI/V0.4.3，Helm/V0.10.1）中提供了搜索。您可以在此处检查一下：  https://www.kubetail.com/demo   kubetail通常使用kubernetes api api wond，do not wond op seard op seard op seard，bubetail  kubetail  kubetail。要启用搜索，请单击GUI中的“安装”按钮，或在CLI中运行`kubetail cluster install&#39;，以部署在每个节点上放置kubetail代理的守护程序。每个代理商运行一个由Ripgrep驱动的自定义锈二进制；它扫描节点的日志文件，并流仅将行与浏览器或终端匹配。您可以将Kubetail搜索视为Kubernetes日志的“远程GREP”。现在，您不需要下载整个日志文件就可以在本地进行处理。特别是，我们构建了一个简单的CLI工具，该工具在您的桌面上启动Web仪表板：  ＃＃install
-    酿造安装kubetail
-
-    ＃ 跑步
-    kubetail服务
- 
-我们还向CLI添加了一个功能强大的日志子命令，您可以使用它来遵循容器日志，甚至可以在给定时间窗口中获取所有记录，以在本地更详细地分析它们：    ＃conter示例示例
-    $ kubetail日志部署/web \
-         -  with-ts \
-         - 播种\
-         - 跟随
-
-    ＃获取示例
-    $ kubetail日志部署/web \
-        -since 2025-04-20T00：00：00Z \
-         - 直到2025-04-21T00：00：00Z \
-         -  all&gt; logs.txt
- 
-自去年以来，我们添加了更多功能，但这些功能是我想突出的功能。我希望您喜欢我们对Kubetail的工作！您的反馈非常有价值，所以请让我们知道您在这里或我们的Discord聊天中的评论中的想法。 andres 
-
-注释URL： https://news.ycombinator.com/item？id=43863418 
-点：4 
-＃评论：0 ]]></description>
-      <guid>https://github.com/kubetail-org/kubetail</guid>
-      <pubDate>Thu, 01 May 2025 21:11:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>泊松分布背后的派生和直觉</title>
-      <link>https://antaripasaha.notion.site/Derivation-and-Intuition-behind-Poisson-distribution-1255314a56398062bf9dd9049fb1c396</link>
-      <description><![CDATA[文章URL： https://antaripasaha.notion.site/derivation-and-intuition-behind-poisson-distribution-1255314A56398062BF9049FB1C396   
-注释url： https://news.ycombinator.com/item?id=43863414 
+      <title>Mastodon：不断发展团队</title>
+      <link>https://blog.joinmastodon.org/2025/05/evolving-the-team/</link>
+      <description><![CDATA[文章URL： https://blog.joinmastodon.org/2025/2025/05/15/evolving-the-team/   -  team/      
+评论url： https://news.ycombinator.com/item？id=43865144 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://antaripasaha.notion.site/Derivation-and-Intuition-behind-Poisson-distribution-1255314a56398062bf9dd9049fb1c396</guid>
-      <pubDate>Thu, 01 May 2025 21:11:04 GMT</pubDate>
+      <guid>https://blog.joinmastodon.org/2025/05/evolving-the-team/</guid>
+      <pubDate>Fri, 02 May 2025 01:04:50 GMT</pubDate>
     </item>
     <item>
-      <title>AI MCP服务器希望您存在什么？</title>
-      <link>https://news.ycombinator.com/item?id=43863400</link>
-      <description><![CDATA[嗨，我正在研究即将到来的黑客马拉松。在短期内，您希望拥有哪个MCP服务器，但不是？像光标和无花果通信之类的东西。
-谢谢！
-
-注释URL： https://news.ycombinator.com/item?id=43863400 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=43863400</guid>
-      <pubDate>Thu, 01 May 2025 21:09:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>扎克的视野将消除整个广告堆栈的工作方式</title>
-      <link>https://www.theverge.com/meta/659506/mark-zuckerberg-ai-facebook-ads</link>
-      <description><![CDATA[文章URL： https://wwwww.therever.com/meta/meta/meta/659506/659506/mark-mark-mark-zuckerberg-ai-facebook-facebook-bbook-pacebook-pace---- 注释url： https://news.ycombinator.com/item?id=43863395 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.theverge.com/meta/659506/mark-zuckerberg-ai-facebook-ads</guid>
-      <pubDate>Thu, 01 May 2025 21:09:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>德克萨斯州的自动卡车，没有安全司机</title>
-      <link>https://www.axios.com/2025/05/01/autonomous-vehicles-trucks-aurora-texas-pastries</link>
-      <description><![CDATA[文章URL：https://www.axios.com/2025/05/01/autonomous-vehicles-trucks-aurora-texas-pastries
-注释url： https://news.ycombinator.com/item?id=43863370 
+      <title>必须删除第三方饼干</title>
+      <link>https://w3ctag.github.io/web-without-3p-cookies/</link>
+      <description><![CDATA[文章URL： https://w3ctag.github.io/web-without-3p-3p-cookies/
+注释url： https://news.ycombinator.com/item?id=43865132 
 点：2 
 ＃评论：0 ]]></description>
-      <guid>https://www.axios.com/2025/05/01/autonomous-vehicles-trucks-aurora-texas-pastries</guid>
-      <pubDate>Thu, 01 May 2025 21:06:37 GMT</pubDate>
+      <guid>https://w3ctag.github.io/web-without-3p-cookies/</guid>
+      <pubDate>Fri, 02 May 2025 01:03:10 GMT</pubDate>
     </item>
     <item>
-      <title>处理项目领导职位开放</title>
-      <link>https://processingfoundation.org/employment/processing-project-lead</link>
-      <description><![CDATA[文章url： https://processingfoundation.org/employment/processing-processing-projecting-project-project-project-project-lead 
-注释URL： https://news.ycombinator.com/item?id=43863350 
+      <title>问HN：我是一个菜鸟建造一个应用程序，需要建议。你能帮忙吗？</title>
+      <link>https://news.ycombinator.com/item?id=43865122</link>
+      <description><![CDATA[我是一个绝对的新秀，对编码一无所知，但是我正在使用AI来帮助我，并且我正在构建一个应用程序，并且目前使用我用于个人/工作目的的实际iPhone作为我的仿真设备。我是否应该为此使用完全空白的iPhone？我有几年来遍布目前空白的旧iPhone，但是其中有些人很老，可能会去博物馆里。 另外？如果我只是在实际的计算机上运行模拟器（挑战是我实际上使用的是笔记本电脑，并且屏幕上的空间已经有限。）我在此阶段并不试图开发抛光产品。我正在尝试开发的是一个功能合理的原型，因此我可以将自己的想法推向可能的投资者，以及我需要支付实际开发人员正确执行的资金 - 但是我仍然希望我的MVP非常好，因为我希望我的实际音调和演示文稿无瑕。 
+我自己这样做是因为我不想与他人分享我的想法，因为我不信任别人。
+
+注释url： https://news.ycombinator.com/item?id=43865122 
 点：1 
+＃评论：0 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=43865122</guid>
+      <pubDate>Fri, 02 May 2025 01:01:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>涉嫌儿童剥削邪教领袖被称为764被捕，被指控</title>
+      <link>https://www.cbc.ca/lite/story/1.7524177</link>
+      <description><![CDATA[文章URL： https://www.cbc.ca/lite/lite/story/story/1.7524177 
+注释URL： https://news.ycombinator.com/item?id=43865110 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.cbc.ca/lite/story/1.7524177</guid>
+      <pubDate>Fri, 02 May 2025 00:59:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Emera和Nova Scotia Power响应网络安全事件</title>
+      <link>https://www.nspower.ca/about-us/press-releases/2025/04/28/emera-and-nova-scotia-power-responding-to-cybersecurity-incident</link>
+      <description><![CDATA[文章URL： https://www.nspower.ca/about-us/press-releases/2025/04/28/emera-and-nova-scotia-scotia-power-power-responding-to-cybersecurity-incident-incident-incident-incent-indind-indind   
+注释URL： https://news.ycombinator.com/item？id=43865109 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.nspower.ca/about-us/press-releases/2025/04/28/emera-and-nova-scotia-power-responding-to-cybersecurity-incident</guid>
+      <pubDate>Fri, 02 May 2025 00:58:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>迈克·沃尔兹（Mike Waltz</title>
+      <link>https://www.404media.co/mike-waltz-accidentally-reveals-obscure-app-the-government-is-using-to-archive-signal-messages/</link>
+      <description><![CDATA[文章URL： https://www.404media.co/mike-waltz-accidentally-reveals-reveals-obscure-app-the-government-is-is-is-sus--using-to-archive-signal-messages/  
+注释URL： https://news.ycombinator.com/item?id=43865103 
+点：14 
 ＃评论：1 ]]></description>
-      <guid>https://processingfoundation.org/employment/processing-project-lead</guid>
-      <pubDate>Thu, 01 May 2025 21:04:29 GMT</pubDate>
+      <guid>https://www.404media.co/mike-waltz-accidentally-reveals-obscure-app-the-government-is-using-to-archive-signal-messages/</guid>
+      <pubDate>Fri, 02 May 2025 00:56:57 GMT</pubDate>
     </item>
     <item>
-      <title>众议院投票阻止加利福尼亚在2035年禁止销售燃气汽车</title>
-      <link>https://www.washingtonpost.com/climate-environment/2025/05/01/california-cars-waiver-house-vote/</link>
-      <description><![CDATA[文章URL： https://www.washingtonpost.com/climate-environment/2025/05/01/california-cars-waiver-house-vote/  
-评论url： https://news.ycombinator.com/item?id=43863329 
-点：3 
+      <title>自动收购：软件工程师是否已过时？</title>
+      <link>https://www.forbes.com/sites/hessiejones/2024/09/21/the-automation-takeover-are-software-engineers-becoming-obsolete/</link>
+      <description><![CDATA[文章URL： https://www.forbes.com/sites/hessiejones/2024/09/21/the-automation-takeover-are-are-software-engineers-becomeers-becoming-obsolete/   
+注释URL： https://news.ycombinator.com/item？id=43865102 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.forbes.com/sites/hessiejones/2024/09/21/the-automation-takeover-are-software-engineers-becoming-obsolete/</guid>
+      <pubDate>Fri, 02 May 2025 00:56:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>柔性串联太阳能电池可实现24.6％的效率并承受3K弯曲</title>
+      <link>https://techxplore.com/news/2025-04-flexible-tandem-solar-cells-efficiency.html</link>
+      <description><![CDATA[Article URL: https://techxplore.com/news/2025-04-flexible-tandem-solar-cells-efficiency.html
+注释URL： https://news.ycombinator.com/item?id=43865098 
+点：2 
 ＃评论：1 ]]></description>
-      <guid>https://www.washingtonpost.com/climate-environment/2025/05/01/california-cars-waiver-house-vote/</guid>
-      <pubDate>Thu, 01 May 2025 21:02:42 GMT</pubDate>
+      <guid>https://techxplore.com/news/2025-04-flexible-tandem-solar-cells-efficiency.html</guid>
+      <pubDate>Fri, 02 May 2025 00:56:10 GMT</pubDate>
     </item>
     <item>
-      <title>onuze  -  reddit替代方案</title>
-      <link>https://onuze.me</link>
-      <description><![CDATA[文章URL： https://onuze.me   
-注释URL： https://news.ycombinator.com/item?id=43863306 
+      <title>Xai Dev泄漏私人SpaceX的API密钥，Tesla LLMS</title>
+      <link>https://krebsonsecurity.com/2025/05/xai-dev-leaks-api-key-for-private-spacex-tesla-llms/</link>
+      <description><![CDATA[文章URL： httpps://krebsonecurity.com/2025/2025/2025/xai-dev-leaks-api--pai--------------------------------------------------- 注释URL： https://news.ycombinator.com/item？id=43865097 
+点：4 
+＃评论：0 ]]></description>
+      <guid>https://krebsonsecurity.com/2025/05/xai-dev-leaks-api-key-for-private-spacex-tesla-llms/</guid>
+      <pubDate>Fri, 02 May 2025 00:56:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>格罗克：“ Xai试图训练我吸引权利，但我的重点是真理”</title>
+      <link>https://twitter.com/grok/status/1917905876301824364</link>
+      <description><![CDATA[文章url： https://twitter.com/grok/status/19179058790587630182424242424242424242424242424242424242424242424242424242424242424242424242424242424242424244 
+注释URL： https://news.ycombinator.com/item？id=43865094 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://onuze.me</guid>
-      <pubDate>Thu, 01 May 2025 21:00:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Harper的Chrome扩展的状态</title>
-      <link>https://elijahpotter.dev/articles/status_of_the_harper_chrome_extension</link>
-      <description><![CDATA[文章URL： htttps://elijahpotter.dev/articles.dev/articles/status_of_harper_harper_harper_harper_chrome_chrome_chrome_extension 
-注释URL： https://news.ycombinator.com/item?id=43863302 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://elijahpotter.dev/articles/status_of_the_harper_chrome_extension</guid>
-      <pubDate>Thu, 01 May 2025 21:00:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>自2000年以来，美国的工资落后于健康保险的成本</title>
-      <link>https://www.moneygeek.com/resources/rising-cost-of-health-insurance/</link>
-      <description><![CDATA[文章URL： https://www.moneygeek.com/risising-com/rising-cost-cost-cost-cost-ost-ost-of-health-ishance-surance/    
-评论url： https://news.ycombinator.com/item?id=43863275 
-点：3 
-＃评论：0 ]]></description>
-      <guid>https://www.moneygeek.com/resources/rising-cost-of-health-insurance/</guid>
-      <pubDate>Thu, 01 May 2025 20:58:04 GMT</pubDate>
+      <guid>https://twitter.com/grok/status/1917905876301824364</guid>
+      <pubDate>Fri, 02 May 2025 00:55:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
