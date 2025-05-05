@@ -4,112 +4,114 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Mon, 05 May 2025 01:29:09 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 May 2025 03:42:26 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Agententshield SDK  - 代理AI应用程序的运行时安全性</title>
-      <link>https://pypi.org/project/agentshield-sdk/</link>
-      <description><![CDATA[Hi HN,We built AgentShield, a Python SDK and CLI to add a security checkpoint for AI agents before they perform potentially risky actions like external API calls or executing generated code.Problem: Agents calling arbitrary URLs or running unchecked code can lead to data leaks, SSRF, system damage, etc.Solution: AgentShield intercepts these actions:-  guarded_get（url = ...）：检查策略（块内部IP，http等）             致电以评估针对可配置的安全策略的操作。它包括常见风险的默认策略。入门：安装：
-  PIP安装AdmentHield-SDK 获取API键（CLI）：
-  AgentShield键创建在Python中使用：
-  来自AgentShield_SDK Import AgentShield
-  ＃shield = agententshield（api_key = ...）
-  ＃等待Shield.guarded_get（url = ...）
-  ＃await shield.safe_execute（code_snippet = ...） 完整的详细信息，文档和完整的读数为
-
-评论URL： https://news.ycombinator.com/item?id=438991111 
+      <title>我建立了Speaksy，因为顶级，未经审查的LLM不容易访问</title>
+      <link>https://speaksy.chat/</link>
+      <description><![CDATA[文章URL： https://speaksy.chat/   
+评论url： https://news.ycombinator.com/item?id=43891725 
 点：1 
-＃评论：0 ]]></description>
-      <guid>https://pypi.org/project/agentshield-sdk/</guid>
-      <pubDate>Mon, 05 May 2025 01:17:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mac的P1 Modula-2</title>
-      <link>https://modula2.awiedemann.de/</link>
-      <description><![CDATA[文章URL： https://modula2.awiedemann.de/   
-注释URL： https://news.ycombinator.com/item?id=43891100 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://modula2.awiedemann.de/</guid>
-      <pubDate>Mon, 05 May 2025 01:15:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个结构化的融合模型揭示了人类共有的深层祖先结构</title>
-      <link>https://www.nature.com/articles/s41588-025-02117-1</link>
-      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=43891069 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.nature.com/articles/s41588-025-02117-1</guid>
-      <pubDate>Mon, 05 May 2025 01:10:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>好评</title>
-      <link>https://en.wikipedia.org/wiki/Goodput</link>
-      <description><![CDATA[文章URL： https://en.wikipedia.org/wiki/goodput  
-注释URL： https://news.ycombinator.com/item？id=438991044 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://en.wikipedia.org/wiki/Goodput</guid>
-      <pubDate>Mon, 05 May 2025 01:07:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>五分之一的美国成年人无法阅读</title>
-      <link>https://www.thefp.com/p/a-fifth-of-american-adults-cant-read-i-teach-them</link>
-      <description><![CDATA[Article URL: https://www.thefp.com/p/a-fifth-of-american-adults-cant-read-i-teach-them
-评论URL： https://news.ycombinator.com/item？id=438991043 
-点：2 
-＃评论：0 ]]></description>
-      <guid>https://www.thefp.com/p/a-fifth-of-american-adults-cant-read-i-teach-them</guid>
-      <pubDate>Mon, 05 May 2025 01:07:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个工具，可让您在任何地方交叉社交媒体</title>
-      <link>https://reposter.social</link>
-      <description><![CDATA[文章URL： https://reposter.social.social  
-注释URL： https://news.ycombinator.com/item?id=43891031 
-点：1 
-＃评论：2 ]]></description>
-      <guid>https://reposter.social</guid>
-      <pubDate>Mon, 05 May 2025 01:04:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>SOATOK：我的博客持续时间比同盟国更长</title>
-      <link>https://soatok.blog/2024/07/21/my-furry-blog-has-lasted-longer-than-the-confederacy/</link>
-      <description><![CDATA[文章URL：https://soatok.blog/2024/07/21/my-furry-blog-has-lasted-longer-than-the-confederacy/
-注释url： https://news.ycombinator.com/item?id=43890998 
-点：2 
 ＃评论：1 ]]></description>
-      <guid>https://soatok.blog/2024/07/21/my-furry-blog-has-lasted-longer-than-the-confederacy/</guid>
-      <pubDate>Mon, 05 May 2025 00:56:49 GMT</pubDate>
+      <guid>https://speaksy.chat/</guid>
+      <pubDate>Mon, 05 May 2025 03:29:58 GMT</pubDate>
     </item>
     <item>
-      <title>在我们注意之前是一种商品：网上互联网的记忆</title>
-      <link>https://blog.sanfranciscan.org/2025/05/04/before-our-attention-was-a-commodity/</link>
-      <description><![CDATA[Article URL: https://blog.sanfranciscan.org/2025/05/04/before-our-attention-was-a-commodity/
-评论url： https://news.ycombinator.com/item?id=43890973 
+      <title>线之间的时间：内存访问如何影响性能（2015）</title>
+      <link>https://bitbashing.io/memory-performance.html</link>
+      <description><![CDATA[文章URL： https://bitbashing.io/memory-performance.html   
+注释URL： https://news.ycombinator.com/item?id=43891723 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://blog.sanfranciscan.org/2025/05/04/before-our-attention-was-a-commodity/</guid>
-      <pubDate>Mon, 05 May 2025 00:53:08 GMT</pubDate>
+      <guid>https://bitbashing.io/memory-performance.html</guid>
+      <pubDate>Mon, 05 May 2025 03:29:41 GMT</pubDate>
     </item>
     <item>
-      <title>阳台太阳能在德国很受欢迎，但美国还没有准备好</title>
-      <link>https://www.bdcnetwork.com/home/news/55287607/balcony-solar-has-proven-wildly-popular-in-germany-but-us-isnt-ready</link>
-      <description><![CDATA[文章URL： 
-注释url： https://news.ycombinator.com/item?id=4389090908 
-点：2 
-＃评论：0 ]]></description>
-      <guid>https://www.bdcnetwork.com/home/news/55287607/balcony-solar-has-proven-wildly-popular-in-germany-but-us-isnt-ready</guid>
-      <pubDate>Mon, 05 May 2025 00:41:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>ansible now（）函数</title>
-      <link>https://www.ansiblepilot.com/articles/mastering-time-in-ansible-the-now-function</link>
-      <description><![CDATA[文章url： https://wwwww.ansiblepilot.com/articles/articles/mastering time time-in-in-in-insible-in-andible-insible-the-now-function   -  now-function  
-注释url： https://news.ycombinator.com/item?id=43890906 
+      <title>Show HN：我使用LLM刮了30m+英国的物业记录来解决问题</title>
+      <link>https://homeportfolio.com</link>
+      <description><![CDATA[如果您曾经尝试过在英国购买或投资房地产，那么您已经知道该过程可能会有多破坏。
+作为自己的房地产投资者，我知道它是多么令人沮丧和分散，在过时的电子表格，埋藏的计划申请记录，10个以上的打开标签和半完整的门户网站列表，令人困惑的价格趋势……甚至那时，您仍然在猜测。 a tool designed to cut through the noise and give everyday homebuyers and investors instant clarity and confidence.I built an AI automated scraper that pulls live listings from 50+ sources, merges them with sold-price data from HM Land Registry, ONS neighbourhood stats, school stats, EPC ratings, and even flood-risk and planning data from local councils.Then I ran it all through LLMs to extract everything you’d normally spend hours digging 为了：
+ 投资机会，估值，价格趋势，床/浴室，地板区域，能量评分，犯罪率，学校接近性，洪水区，计划警报，租金，租金收益率您命名。
+灵活位置：通过地址，城市或县查询
+自动提取的规格：“ 3张床半独立，1浴，1 200ft²”直接从描述中解析
+风险标志：洪水风险区域和高噪声区域的即时警报
+收益率估算：售价趋势的5年租金和资本增长预测
+邻里快照：人口统计学，犯罪，学校质量，步行景观，空气质量一景仍然是早期的日子，但会喜欢这个社区的想法或反馈数据质量，UX改进或新功能的想法。特别好奇您是否遇到了相同的疼痛点以及您还想看到什么。在我们的ph page =&gt;  https：//www.producthunt.com/posts/posts/homeports/homeports/homeportfolio 或发送电子邮件至me samosportfolio.com 
+注释url： https://news.ycombinator.com/item?id=43891718 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.ansiblepilot.com/articles/mastering-time-in-ansible-the-now-function</guid>
-      <pubDate>Mon, 05 May 2025 00:40:57 GMT</pubDate>
+      <guid>https://homeportfolio.com</guid>
+      <pubDate>Mon, 05 May 2025 03:28:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>人类土耳其人是您的超人人道AI同事</title>
+      <link>https://alpha-platform.humanturk.com</link>
+      <description><![CDATA[文章URL： https://alpha-platform.humanturk.com  
+注释URL： https://news.ycombinator.com/item?id=43891714 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://alpha-platform.humanturk.com</guid>
+      <pubDate>Mon, 05 May 2025 03:28:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>我使用chatgpt创建了一个55页漫画</title>
+      <link>https://news.ycombinator.com/item?id=43891710</link>
+      <description><![CDATA[我刚刚使用GPT创建了一部漫画，它能够始终如一地保持故事情节。角色设计几乎没有差异。但这是一次有趣的经历。让我知道您对此的看法。链接：amitbehura.github.io/eternity.pdf 
+
+注释URL： https://news.ycombinator.com/item?id=43891710 
+点：1 
+＃评论：1 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=43891710</guid>
+      <pubDate>Mon, 05 May 2025 03:28:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>瓦肯（假设星球）</title>
+      <link>https://en.wikipedia.org/wiki/Vulcan_(hypothetical_planet)</link>
+      <description><![CDATA[文章url： https://en.wikipedia.org/wiki/wiki/vulcan_
+注释URL： https://news.ycombinator.com/item?id=43891673 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://en.wikipedia.org/wiki/Vulcan_(hypothetical_planet)</guid>
+      <pubDate>Mon, 05 May 2025 03:20:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>是最好的ORM吗？</title>
+      <link>https://joist-orm.io/blog/the-best-orm-ever/</link>
+      <description><![CDATA[文章URL： https://joist-orm.io/blog/blog/the-best-orm-ever/the-best-orm-ever/   
+注释url： https://news.ycombinator.com/item/item?id=438916663 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://joist-orm.io/blog/the-best-orm-ever/</guid>
+      <pubDate>Mon, 05 May 2025 03:16:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>DevOps Book Bundle：复杂的基础架构变得容易</title>
+      <link>https://www.humblebundle.com/books/devops-2025-oreilly-books</link>
+      <description><![CDATA[文章URL： https://wwwww.humblebundle.com/books/books/devops-2025-2025-2025-ROREILLY-Books  Books    
+注释URL： https://news.ycombinator.com/item？id=438916660 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.humblebundle.com/books/devops-2025-oreilly-books</guid>
+      <pubDate>Mon, 05 May 2025 03:16:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：Schedodo  - 将您的声音记录到结构化文本中</title>
+      <link>https://schedodo.com</link>
+      <description><![CDATA[我构建了Schedodo来解决一个问题，我忙于双手，但是有想法，想记下一些想法，例如：当我做饭和一个应用程序的想法时，或者当我想在脑海中闲逛一会儿时，并将其组织为凝聚力的想法。
+
+评论url： https://news.ycombinator.com/item?id=43891653 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://schedodo.com</guid>
+      <pubDate>Mon, 05 May 2025 03:15:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>特朗普命令重新开放臭名昭著的恶魔监狱</title>
+      <link>https://www.bbc.com/news/articles/cze17n02gego</link>
+      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=43891630 
+点：5 
+＃评论：1 ]]></description>
+      <guid>https://www.bbc.com/news/articles/cze17n02gego</guid>
+      <pubDate>Mon, 05 May 2025 03:10:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
