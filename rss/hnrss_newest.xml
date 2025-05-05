@@ -4,108 +4,112 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Sun, 04 May 2025 21:16:59 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 May 2025 01:29:09 GMT</lastBuildDate>
     <item>
-      <title>战略主义：纽约时报如何（＆为什么）是一家游戏公司</title>
-      <link>https://www.opensourceceo.com/p/strategism-nytimes-games</link>
-      <description><![CDATA[文章url： https://www.opensourceceo.com/p/strategism-nytimes-games       
-评论URL： https://news.ycombinator.com/item?id=438895553 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.opensourceceo.com/p/strategism-nytimes-games</guid>
-      <pubDate>Sun, 04 May 2025 21:02:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>我测试了美国数字产品（Ditching Big Tech）的每个欧盟替代方案[视频]</title>
-      <link>https://www.youtube.com/watch?v=PI0UFnxC_q8</link>
-      <description><![CDATA[文章URL： https://www.youtube.com/watch?v=pi0 ufnxc_q8      
-评论url： https://news.ycombinator.com/item?id=43889515 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.youtube.com/watch?v=PI0UFnxC_q8</guid>
-      <pubDate>Sun, 04 May 2025 20:58:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国公司欠其余$ 87T</title>
-      <link>https://www.bloomberg.com/opinion/articles/2025-05-02/carbon-costs-corporate-america-owes-us-87-trillion</link>
-      <description><![CDATA[文章URL： https://www.bloomberg.com/opinion/articles/2025-05-02/carbon-costs-corporate-corporate-america-america-owes-us-87-trillion  
-注释URL： https://news.ycombinator.com/item？id=438895511 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.bloomberg.com/opinion/articles/2025-05-02/carbon-costs-corporate-america-owes-us-87-trillion</guid>
-      <pubDate>Sun, 04 May 2025 20:57:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>问HN：黑客马拉松现在感觉很虚假。还有其他人注意到这个吗？</title>
-      <link>https://news.ycombinator.com/item?id=43889502</link>
-      <description><![CDATA[最近和老实说，在SF中去参加一堆黑客马拉松，一切都会变得假。大约有20个赞助商分发明了他们的工具，所有这些都在做同样的事情。一半的时间，他们甚至无法解释自己的用途。他们只是希望有人使用它们，以便将其视为采用。每个人都将这些塞入项目中以检查一个框，而建造的内容主要是BS为零创新。
-是总是这样吗，我现在注意到了，还是发生了变化？
+      <title>Show HN：Agententshield SDK  - 代理AI应用程序的运行时安全性</title>
+      <link>https://pypi.org/project/agentshield-sdk/</link>
+      <description><![CDATA[Hi HN,We built AgentShield, a Python SDK and CLI to add a security checkpoint for AI agents before they perform potentially risky actions like external API calls or executing generated code.Problem: Agents calling arbitrary URLs or running unchecked code can lead to data leaks, SSRF, system damage, etc.Solution: AgentShield intercepts these actions:-  guarded_get（url = ...）：检查策略（块内部IP，http等）             致电以评估针对可配置的安全策略的操作。它包括常见风险的默认策略。入门：安装：
+  PIP安装AdmentHield-SDK 获取API键（CLI）：
+  AgentShield键创建在Python中使用：
+  来自AgentShield_SDK Import AgentShield
+  ＃shield = agententshield（api_key = ...）
+  ＃等待Shield.guarded_get（url = ...）
+  ＃await shield.safe_execute（code_snippet = ...） 完整的详细信息，文档和完整的读数为
 
-注释URL： https://news.ycombinator.com/item?id=43889502 
+评论URL： https://news.ycombinator.com/item?id=438991111 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://pypi.org/project/agentshield-sdk/</guid>
+      <pubDate>Mon, 05 May 2025 01:17:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mac的P1 Modula-2</title>
+      <link>https://modula2.awiedemann.de/</link>
+      <description><![CDATA[文章URL： https://modula2.awiedemann.de/   
+注释URL： https://news.ycombinator.com/item?id=43891100 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://modula2.awiedemann.de/</guid>
+      <pubDate>Mon, 05 May 2025 01:15:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>一个结构化的融合模型揭示了人类共有的深层祖先结构</title>
+      <link>https://www.nature.com/articles/s41588-025-02117-1</link>
+      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=43891069 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.nature.com/articles/s41588-025-02117-1</guid>
+      <pubDate>Mon, 05 May 2025 01:10:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>好评</title>
+      <link>https://en.wikipedia.org/wiki/Goodput</link>
+      <description><![CDATA[文章URL： https://en.wikipedia.org/wiki/goodput  
+注释URL： https://news.ycombinator.com/item？id=438991044 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://en.wikipedia.org/wiki/Goodput</guid>
+      <pubDate>Mon, 05 May 2025 01:07:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>五分之一的美国成年人无法阅读</title>
+      <link>https://www.thefp.com/p/a-fifth-of-american-adults-cant-read-i-teach-them</link>
+      <description><![CDATA[Article URL: https://www.thefp.com/p/a-fifth-of-american-adults-cant-read-i-teach-them
+评论URL： https://news.ycombinator.com/item？id=438991043 
 点：2 
 ＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=43889502</guid>
-      <pubDate>Sun, 04 May 2025 20:55:41 GMT</pubDate>
+      <guid>https://www.thefp.com/p/a-fifth-of-american-adults-cant-read-i-teach-them</guid>
+      <pubDate>Mon, 05 May 2025 01:07:02 GMT</pubDate>
     </item>
     <item>
-      <title>口袋尺寸：现在动机，然后在AGI之后</title>
-      <link>https://philippcannons.com/the-pocket-dimension-motivation-now-post-agi/</link>
-      <description><![CDATA[文章URL： https://philippcannons.com/the-pocket-pocket-pocket-dimension-motivation-motivation-motivation-now-post-post-post-agi/ 
-注释url： https://news.ycombinator.com/item?id=43889491 
+      <title>我构建了一个工具，可让您在任何地方交叉社交媒体</title>
+      <link>https://reposter.social</link>
+      <description><![CDATA[文章URL： https://reposter.social.social  
+注释URL： https://news.ycombinator.com/item?id=43891031 
+点：1 
+＃评论：2 ]]></description>
+      <guid>https://reposter.social</guid>
+      <pubDate>Mon, 05 May 2025 01:04:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>SOATOK：我的博客持续时间比同盟国更长</title>
+      <link>https://soatok.blog/2024/07/21/my-furry-blog-has-lasted-longer-than-the-confederacy/</link>
+      <description><![CDATA[文章URL：https://soatok.blog/2024/07/21/my-furry-blog-has-lasted-longer-than-the-confederacy/
+注释url： https://news.ycombinator.com/item?id=43890998 
+点：2 
+＃评论：1 ]]></description>
+      <guid>https://soatok.blog/2024/07/21/my-furry-blog-has-lasted-longer-than-the-confederacy/</guid>
+      <pubDate>Mon, 05 May 2025 00:56:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>在我们注意之前是一种商品：网上互联网的记忆</title>
+      <link>https://blog.sanfranciscan.org/2025/05/04/before-our-attention-was-a-commodity/</link>
+      <description><![CDATA[Article URL: https://blog.sanfranciscan.org/2025/05/04/before-our-attention-was-a-commodity/
+评论url： https://news.ycombinator.com/item?id=43890973 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://philippcannons.com/the-pocket-dimension-motivation-now-post-agi/</guid>
-      <pubDate>Sun, 04 May 2025 20:54:48 GMT</pubDate>
+      <guid>https://blog.sanfranciscan.org/2025/05/04/before-our-attention-was-a-commodity/</guid>
+      <pubDate>Mon, 05 May 2025 00:53:08 GMT</pubDate>
     </item>
     <item>
-      <title>复杂系统如何失败</title>
-      <link>https://how.complexsystems.fail/</link>
-      <description><![CDATA[文章URL： https://how.complexsystems.fail/   
-注释url： https://news.ycombinator.com/item?id=43889487 
+      <title>阳台太阳能在德国很受欢迎，但美国还没有准备好</title>
+      <link>https://www.bdcnetwork.com/home/news/55287607/balcony-solar-has-proven-wildly-popular-in-germany-but-us-isnt-ready</link>
+      <description><![CDATA[文章URL： 
+注释url： https://news.ycombinator.com/item?id=4389090908 
+点：2 
+＃评论：0 ]]></description>
+      <guid>https://www.bdcnetwork.com/home/news/55287607/balcony-solar-has-proven-wildly-popular-in-germany-but-us-isnt-ready</guid>
+      <pubDate>Mon, 05 May 2025 00:41:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>ansible now（）函数</title>
+      <link>https://www.ansiblepilot.com/articles/mastering-time-in-ansible-the-now-function</link>
+      <description><![CDATA[文章url： https://wwwww.ansiblepilot.com/articles/articles/mastering time time-in-in-in-insible-in-andible-insible-the-now-function   -  now-function  
+注释url： https://news.ycombinator.com/item?id=43890906 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://how.complexsystems.fail/</guid>
-      <pubDate>Sun, 04 May 2025 20:54:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何阻止您的人幻觉</title>
-      <link>https://blog.sshh.io/p/how-to-stop-your-human-from-hallucinating</link>
-      <description><![CDATA[文章url：
-注释url： https://news.ycombinator.com/item?id=43889476 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://blog.sshh.io/p/how-to-stop-your-human-from-hallucinating</guid>
-      <pubDate>Sun, 04 May 2025 20:52:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>黑暗中的西班牙比在其他地方更安全</title>
-      <link>https://www.nytimes.com/2025/05/03/opinion/spain-portugal-blackout.html</link>
-      <description><![CDATA[Article URL: https://www.nytimes.com/2025/05/03/opinion/spain-portugal-blackout.html
-评论url： https://news.ycombinator.com/item?id=43889470 
-点：3 
-＃评论：0 ]]></description>
-      <guid>https://www.nytimes.com/2025/05/03/opinion/spain-portugal-blackout.html</guid>
-      <pubDate>Sun, 04 May 2025 20:51:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>llama2.c Commodore C64</title>
-      <link>https://github.com/ytmytm/llama2.c64</link>
-      <description><![CDATA[文章URL： https://github.com/ytmytm/llama/llama2.c64   
-注释URL： https://news.ycombinator.com/item？id=43889466 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://github.com/ytmytm/llama2.c64</guid>
-      <pubDate>Sun, 04 May 2025 20:50:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用IBM量子体验设计简单的量子摩尔斯编码器解码器</title>
-      <link>https://www.researchgate.net/profile/Bikash-Behera/publication/338221610_Designing_a_Simple_Quantum_Morse_Encoder_and_Decoder_Using_IBM_Quantum_Experience/links/5e0887b94585159aa4a27af6/Designing-a-Simple-Quantum-Morse-Encoder-and-Decoder-Using-IBM-Quantum-Experience.pdf?origin=publication_detail&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uRG93bmxvYWQiLCJwcmV2aW91c1BhZ2UiOiJwdWJsaWNhdGlvbiJ9fQ</link>
-      <description><![CDATA[文章URL： https://www.researchgate.net/profile/bikash-behera/publication/338221610_designing_a_simple_quantum_morse_en coder_and_decoder_uside_ibm_quantum_experience/links/5E0887B94585159AA4A27AF6/designing-a-simple-quantum-morse- encoder-and-decoder-using-ibm-quantum-experience.pdf？arount = publication_detail＆_tp = eyjjb250zxh0ijp7imzpccnn0ugf NZSI6INB1YMXPY2F0AW9UIIWICGFNZSI6INB1MXPY2F0AW9URG9BMXVYWQILCJWCMV2AW91BHZ2UIOIOIOIJS2UIOIOIJSWJSAWNHDGLVBLVBIJLVBIJ9FQBIJ9FQ    
-注释url： https://news.ycombinator.com/item?id=43889460 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.researchgate.net/profile/Bikash-Behera/publication/338221610_Designing_a_Simple_Quantum_Morse_Encoder_and_Decoder_Using_IBM_Quantum_Experience/links/5e0887b94585159aa4a27af6/Designing-a-Simple-Quantum-Morse-Encoder-and-Decoder-Using-IBM-Quantum-Experience.pdf?origin=publication_detail&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uRG93bmxvYWQiLCJwcmV2aW91c1BhZ2UiOiJwdWJsaWNhdGlvbiJ9fQ</guid>
-      <pubDate>Sun, 04 May 2025 20:49:33 GMT</pubDate>
+      <guid>https://www.ansiblepilot.com/articles/mastering-time-in-ansible-the-now-function</guid>
+      <pubDate>Mon, 05 May 2025 00:40:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
