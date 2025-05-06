@@ -4,120 +4,105 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Mon, 05 May 2025 21:17:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 01:28:01 GMT</lastBuildDate>
     <item>
-      <title>我建立了一个神经分类器来取代格子的交易类别</title>
-      <link>https://news.ycombinator.com/item?id=43899459</link>
-      <description><![CDATA[我最近关闭了我正在建立的一家初创公司。这是一个与健康相关支出的奖励平台。我的用户散布在美国各地，但主要是在SF，NYC，LA，芝加哥和波士顿。核心产品依赖于推断交易是否与健康有关。我很快意识到，在格子类别之外添加规则和启发式方法是行不通的。更不用说Plaid的分类过于不准确，无法决定经济奖励。以下是我为使其正常工作的内容的说明，并通过从我的平台收集的6K数据点进行了验证。
- - 分类准确性总计65.22％
- - 对于著名的商人（格子标识了一个“实体ID”）的准确性更好，我尝试了抹布的启动，但由于名称碰撞和区域重复，我能够立即崩溃，值得庆幸的是，我能够从Plaid已经清理过的交易数据开始。为了更好地解决实体，我的管道接纳了：
- - 交易金额（用于产品范围的启发式）
-- 地点
--POS方法（面对面与在线）
- - 我试图构建此管道（现在仅限于Big Banks™）时收集的已知银行特定格式怪癖列表使用该数据，我可以更好地弄清楚：
- - 购买的哪个实体是由具有重复名称（主要是SMB）的实体中的
- - 将区域标识符崩溃为单亲组织
- - 旁注：您是否知道Orangetheory在每个位置都有不同的区域标识符。例如：“ orangetheory”，“ otf”，“ otf”，“ otf {city}”，“ orangetheory {city}”都是可能的名称。这花了很长时间才解决了鲁棒也可以提供一个自定义类别的方式。就我而言，它是否与健康有关。我使用FSA/HSA资格规则（以JSON格式）定义，以及其他一些属性，例如健身/工作室类商人和补充。结果：结果：
--87.28％对“与健康相关”支出进行分类的准确性（具有亚马逊等市场案例的“需要更多信息”标签）
--95.78％的个人理财类别分类的精度，只有300个已知实体记录在我的数据库中。因此，这肯定可以通过扩大已知实体列表的努力来改善，这主要是为了关闭我的创业公司的文章，并在试图正确地使用交易数据时要警告潜在的事情。可以使用它来建立新业务。
-我正在考虑将其作为开发人员API或工具包的更多扩展。因此，如果您正在研究财务奖励，个人理财应用程序，FSA/HSA/费用平台，会计工具等。我很想收到您的来信！
-
-注释url： https://news.ycombinator.com/item?id=43899459 
+      <title>Show HN：Pinggy  - 网络的免费RSS阅读器</title>
+      <link>https://pinggy.com</link>
+      <description><![CDATA[文章URL： https://pinggy.com   
+注释URL： https://news.ycombinator.com/item?id=43900983 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=43899459</guid>
-      <pubDate>Mon, 05 May 2025 21:06:58 GMT</pubDate>
+      <guid>https://pinggy.com</guid>
+      <pubDate>Tue, 06 May 2025 01:18:18 GMT</pubDate>
     </item>
     <item>
-      <title>腓尼基文化主要通过文化交流传播</title>
-      <link>https://www.mpg.de/24574685/0422-evan-phoenician-culture-spread-mainly-through-cultural-exchange-150495-x</link>
-      <description><![CDATA[文章URL： https://www.mpg.de/24574685/0422--Evan-phoenician-culture-spread-mainly-through-through-through-cultural-exchange-150495-x    
-注释url： https://news.ycombinator.com/item？id=438999456 
+      <title>据报道，《半衰期3》在整体上可以播放</title>
+      <link>https://www.engadget.com/gaming/half-life-3-is-reportedly-playable-in-its-entirety-and-could-be-announced-this-year-183030499.html</link>
+      <description><![CDATA[文章URL： https://www.engadget.com/gaming/half-life-3-is-reportedly-playable-in-its-entirety-and-could-be-announced-this-year-183030499.html
+注释URL： https://news.ycombinator.com/item?id=43900965 
 点：2 
 ＃评论：0 ]]></description>
-      <guid>https://www.mpg.de/24574685/0422-evan-phoenician-culture-spread-mainly-through-cultural-exchange-150495-x</guid>
-      <pubDate>Mon, 05 May 2025 21:06:46 GMT</pubDate>
+      <guid>https://www.engadget.com/gaming/half-life-3-is-reportedly-playable-in-its-entirety-and-could-be-announced-this-year-183030499.html</guid>
+      <pubDate>Tue, 06 May 2025 01:15:00 GMT</pubDate>
     </item>
     <item>
-      <title>更好的蛇咬抗蛇毒可能是他的200蛇咬伤的结果</title>
-      <link>https://www.npr.org/sections/goats-and-soda/2025/05/02/nx-s1-5381017/snake-bite-venom-antivenom-tim-friede-universal</link>
-      <description><![CDATA[文章URL： https://www.npr.org/sections/goats-and-soda/2025/05/02/nx-s1-5381017/snake-bite-venom-venom-antivenom-tim-tim-tim-friede-universal  
-注释URL： https://news.ycombinator.com/item?id=438999449 
+      <title>AI很愚蠢，就像我一样</title>
+      <link>https://jesseduffield.com/Ai-stupid/</link>
+      <description><![CDATA[文章URL： https://jesseduffield.com/ai-stupid/  
+注释URL： https://news.ycombinator.com/item?id=43900964 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.npr.org/sections/goats-and-soda/2025/05/02/nx-s1-5381017/snake-bite-venom-antivenom-tim-friede-universal</guid>
-      <pubDate>Mon, 05 May 2025 21:05:18 GMT</pubDate>
+      <guid>https://jesseduffield.com/Ai-stupid/</guid>
+      <pubDate>Tue, 06 May 2025 01:14:52 GMT</pubDate>
     </item>
     <item>
-      <title>平方根日</title>
-      <link>https://en.wikipedia.org/wiki/Square_Root_Day</link>
-      <description><![CDATA[文章url： https://en.wikipedia.org/wiki/square/square_root_root_day      
-注释URL： https://news.ycombinator.com/item?id=438999447 
+      <title>显示HN：LLM路由器 - 多LLM部署的开源提示路由器</title>
+      <link>https://github.com/NVIDIA-AI-Blueprints/llm-router</link>
+      <description><![CDATA[我们只是开源的LLM路由器，该框架使您可以将用户提示路由到最合适的大型语言模型（LLM）自动优化速度，成本和准确性。如果您有多个LLM（打开或专有），并且希望使用正确的任务，则LLM路由器可作为插入OpenAI API兼容的代理。 It classifies each prompt (e.g., code generation, QA, rewrite) and sends it to the best backend, all configurable via YAML.Built for production: Rust backend, NVIDIA Triton integration, metrics for monitoring.Flexible policies: Use built-in classifiers or plug in your own PyTorch models.Easy integration: No major code changes needed, point your client at the路由器。示例：将复杂编码问题路由到一个强大的模型，并简单地重写一个较小，便宜的一个。 repo：github.com/nvidia-ai-blueprints/llm-routerfints/llm-router&lt; p&gt;是否喜欢反馈，想法，并听到其他人如何处理多lllm Workflows！
+注释URL： https://news.ycombinator.com/item?id=439009663 
 点：1 
+＃评论：0 ]]></description>
+      <guid>https://github.com/NVIDIA-AI-Blueprints/llm-router</guid>
+      <pubDate>Tue, 06 May 2025 01:14:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：OpenRouter模型价格比较</title>
+      <link>https://v0-openrouter-model-list.vercel.app/</link>
+      <description><![CDATA[文章URL： https://v0-openrouter-model-model-list.vercel.app/   
+注释URL： https://news.ycombinator.com/item?id=43900938 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://v0-openrouter-model-list.vercel.app/</guid>
+      <pubDate>Tue, 06 May 2025 01:08:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>加拿大应该朝着与欧洲而不是美国融合迈进</title>
+      <link>https://www.policyalternatives.ca/news-research/canada-should-move-towards-integration-with-europe-instead-of-the-u-s/</link>
+      <description><![CDATA[文章URL： https://www.policyalternatives.ca/news-research/canada-should-move-towards-towards-with-with-europe-in​​stead-oinstead-of-the-u-s/  
+注释URL： https://news.ycombinator.com/item?id=43900932 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.policyalternatives.ca/news-research/canada-should-move-towards-integration-with-europe-instead-of-the-u-s/</guid>
+      <pubDate>Tue, 06 May 2025 01:07:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>当世界在Skype上连接时</title>
+      <link>https://restofworld.org/2025/skype-shutting-down/</link>
+      <description><![CDATA[文章url： https://restofworld.org/2025/skype-shipy-shutting-down/skype-shutting-down/ 
+注释URL： https://news.ycombinator.com/item?id=43900913 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://restofworld.org/2025/skype-shutting-down/</guid>
+      <pubDate>Tue, 06 May 2025 01:03:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>安德烈亚斯·克林（Andreas Kling）在瓢虫浏览器上的主题演讲[视频]</title>
+      <link>https://www.youtube.com/watch?v=9YM7pDMLvr4</link>
+      <description><![CDATA[文章URL： https://www.youtube.com/watch?v=9M7pdmlvr4 
+注释URL： https://news.ycombinator.com/item?id=43900894 
+点：4 
+＃评论：0 ]]></description>
+      <guid>https://www.youtube.com/watch?v=9YM7pDMLvr4</guid>
+      <pubDate>Tue, 06 May 2025 01:00:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>雨果管理员在争议之后辞职</title>
+      <link>https://gizmodo.com/worldcon-2025-chatgpt-controversy-hugos-2000598351</link>
+      <description><![CDATA[文章url： https://gizmodo.com/gizmodo.com/wordo..com/worldcon-2025-2025-chatgpt-contgpt-controversy-hugos-preodsy-hugos-2000551 注释URL： https://news.ycombinator.com/item?id=43900882 
+点：2 
+＃评论：0 ]]></description>
+      <guid>https://gizmodo.com/worldcon-2025-chatgpt-controversy-hugos-2000598351</guid>
+      <pubDate>Tue, 06 May 2025 00:58:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Openai达成的协议以$ 3B的价格购买风力冲浪</title>
+      <link>https://www.bloomberg.com/news/articles/2025-05-06/openai-reaches-agreement-to-buy-startup-windsurf-for-3-billion</link>
+      <description><![CDATA[文章URL：”&gt; https://www.bloomberg.com/news/articles/2025-05-06/openai-reaches-agreement-to-buy-to-buy-startup-windsurf-for-for-3亿  
+注释URL： https://news.ycombinator.com/item？id=43900877 
+点：4 
 ＃评论：1 ]]></description>
-      <guid>https://en.wikipedia.org/wiki/Square_Root_Day</guid>
-      <pubDate>Mon, 05 May 2025 21:05:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>CT扫描可能会引起令人震惊的癌症病例</title>
-      <link>https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2832778</link>
-      <description><![CDATA[文章URL： https://jamanetwork.com/journals/journals/jamainternalmedicine/jamainternal-
-注释url： https://news.ycombinator.com/item？id=43899439 
-点：2 
-＃评论：0 ]]></description>
-      <guid>https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2832778</guid>
-      <pubDate>Mon, 05 May 2025 21:03:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>沟通的埃德·DPT的新议程：退缩民权目标跨性别学生</title>
-      <link>https://www.propublica.org/article/education-department-civil-rights-donald-trump-discrimination</link>
-      <description><![CDATA[Article URL: https://www.propublica.org/article/education-department-civil-rights-donald-trump-discrimination
-评论url： https://news.ycombinator.com/item？id=438999437 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.propublica.org/article/education-department-civil-rights-donald-trump-discrimination</guid>
-      <pubDate>Mon, 05 May 2025 21:03:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>围绕“ darcula”的网络钓鱼网络暴露于骗局短信</title>
-      <link>https://www.heise.de/en/news/Phishing-network-around-Darcula-exposed-for-scam-text-messages-10370880.html</link>
-      <description><![CDATA[文章URL： https://www.heise.de/en/news/phishing-network-around-darcula-exposed-for-scam-text-messages-10370880.html   
-注释url： https://news.ycombinator.com/item?id=438999423 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.heise.de/en/news/Phishing-network-around-Darcula-exposed-for-scam-text-messages-10370880.html</guid>
-      <pubDate>Mon, 05 May 2025 21:02:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>在15年内，卫星可能会改变风，平流层中的温度</title>
-      <link>https://admin-cires.colorado.edu/news/within-15-years-plummeting-satellites-could-release-enough-aluminum-alter-winds-temp</link>
-      <description><![CDATA[文章URL： https://admin-cires.colorado.edu/news/within-15-al-plummeting-satellites-satellites-could-release-enough-aluminum-aluminum-alter-alter-alter-winds-winds-temp   
-评论url： https://news.ycombinator.com/item？id=438999415 
-点：2 
-＃评论：0 ]]></description>
-      <guid>https://admin-cires.colorado.edu/news/within-15-years-plummeting-satellites-could-release-enough-aluminum-alter-winds-temp</guid>
-      <pubDate>Mon, 05 May 2025 21:01:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>网站肥胖危机（2015）</title>
-      <link>https://idlewords.com/talks/website_obesity.htm</link>
-      <description><![CDATA[文章URL： https://idlewords.com/talks/website_obesity.htm 
-注释URL： https://news.ycombinator.com/item？id=438999402 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://idlewords.com/talks/website_obesity.htm</guid>
-      <pubDate>Mon, 05 May 2025 20:59:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：X-entrate，一种镀铬扩展，可以从X Feed中删除政治</title>
-      <link>https://news.ycombinator.com/item?id=43899390</link>
-      <description><![CDATA[嗨，我做了一个镀铬扩展，从Twitter中删除了所有政治。源代码和安装说明在这里： https://github.com/wafer-inc/wafer-inc/x-termination              https://chadnauseam.com/coding/random/x-termination 。确实，我主要将扩展作为基础技术的演示：数据标记和决策树推理的Rust库。所有涉及的库都是开源的，并且有指示如何制作自己的过滤器（例如，如果您想删除所有涉及Rust或AI的Twitter帖子）。
-
-注释url： https://news.ycombinator.com/item?id=438999390 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=43899390</guid>
-      <pubDate>Mon, 05 May 2025 20:58:18 GMT</pubDate>
+      <guid>https://www.bloomberg.com/news/articles/2025-05-06/openai-reaches-agreement-to-buy-startup-windsurf-for-3-billion</guid>
+      <pubDate>Tue, 06 May 2025 00:57:48 GMT</pubDate>
     </item>
     </channel>
 </rss>
