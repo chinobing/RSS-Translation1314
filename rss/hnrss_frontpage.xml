@@ -4,108 +4,107 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Mon, 12 May 2025 15:22:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 18:27:10 GMT</lastBuildDate>
+    <item>
+      <title>Healthbench</title>
+      <link>https://openai.com/index/healthbench/</link>
+      <description><![CDATA[文章URL： https://openai.com/index/healthbench/   
+注释url： https://news.ycombinator.com/item?id=439656565656565608 
+点：7 
+＃评论：1 ]]></description>
+      <guid>https://openai.com/index/healthbench/</guid>
+      <pubDate>Mon, 12 May 2025 17:42:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Legion Health（YC S21）正在雇用创始工程师通过AI来解决心理健康</title>
+      <link>https://www.workatastartup.com/jobs/75011</link>
+      <description><![CDATA[文章URL： https://www.workatastartup.com/jobs/jobs/75011   
+评论URL： https://news.ycombinator.com/item?id=43965161 
+点：0 
+＃评论：0 ]]></description>
+      <guid>https://www.workatastartup.com/jobs/75011</guid>
+      <pubDate>Mon, 12 May 2025 17:01:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>BYTE潜在变压器：贴片比令牌更好</title>
+      <link>https://arxiv.org/abs/2412.09871</link>
+      <description><![CDATA[文章URL： https://arxiv.org/abs/2412.09871   
+注释URL： https://news.ycombinator.com/item?id=43965099 
+点：14 
+＃评论：4 ]]></description>
+      <guid>https://arxiv.org/abs/2412.09871</guid>
+      <pubDate>Mon, 12 May 2025 16:55:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>我入侵了一个约会应用程序（以及如何不对待安全研究人员）</title>
+      <link>https://alexschapiro.com/blog/security/vulnerability/2025/04/21/startups-need-to-take-security-seriously</link>
+      <description><![CDATA[文章URL：” https://alexschapiro.com/blog/security/vulnerability/2025/04/21/startups-need-to-teake-take-security-serity-sern.-serine  
+注释url： https://news.ycombinator.com/item？id=43964937 
+点：214 
+＃评论：97 ]]></description>
+      <guid>https://alexschapiro.com/blog/security/vulnerability/2025/04/21/startups-need-to-take-security-seriously</guid>
+      <pubDate>Mon, 12 May 2025 16:39:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>互联网1997  -  2021</title>
+      <link>https://www.opte.org/the-internet</link>
+      <description><![CDATA[文章URL： https://www.opte.org/the-internet  
+注释url： https://news.ycombinator.com/item?id=43964896 
+点：4 
+＃评论：0 ]]></description>
+      <guid>https://www.opte.org/the-internet</guid>
+      <pubDate>Mon, 12 May 2025 16:35:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>RIP USENIX ATC</title>
+      <link>https://bcantrill.dtrace.org/2025/05/11/rip-usenix-atc/</link>
+      <description><![CDATA[文章URL：注释url： https://news.ycombinator.com/item?id=43964827 
+点：51 
+＃评论：2 ]]></description>
+      <guid>https://bcantrill.dtrace.org/2025/05/11/rip-usenix-atc/</guid>
+      <pubDate>Mon, 12 May 2025 16:29:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>发射HN：Paraquery（YC X25） -  GPU加速/SQL</title>
+      <link>https://news.ycombinator.com/item?id=43964505</link>
+      <description><![CDATA[嘿，hn！我赢了，是Paraquery的创始人（ https://paraquery.com ），这是一个完全管理的，gpu-accelerated spark + sql解决方案。我们提供了Bigquery的易用性（或更容易），同时更具成本效益和性能。 rel =“ nofollow”&gt; https://www.youtube.com/watch?v=uu379ynccgu  众所周知，GPU对于许多SQL和DataFrame任务都非常好，至少由研究人员和Nvidia等研究人员和GPU公司。如此之多，以至于2018年，NVIDIA启动了Rapids计划和Spark-Rapids插件（ https://github.com/nvidia/nvidia/spark-rapids ）。我之所以发现，是因为当时我试图制作一个基于CUDA的Lambda cyculus解释器……我没有设法实施的几个想法之一，哈哈。但是实际上，GPU也对此也有好处！ GPU是一种专门用于此的硬件，具有高度可编程，并且（现在）在云上恰好非常可用！更好的是，GPU 内存在原始延迟上进行了带宽调整，与CPU相比，它仅改善其吞吐量功能。而且，只需使用云成本计算器几分钟，很明显，GPU即使在主要云上也具有成本效益。因此，就在一年多以前，我开始真正部署一个由GPU（即Spark-Rapids）提供支持的基于云的数据平台，该平台由A-Friend的朋友（-A-Friend）刺激，他们碰巧在他的初创公司中担心了BigQuery Conp。在获得了概念证明和意向书之后...好吧，什么都没有发生！即使在半年多之后。但是后来，确实发生了一些神奇的事情：他们的云积分用完了！现在，通过使用paraquery，他们从大量账单中节省了超过60％的折扣，同时也快2倍 - 需要零数据迁移（由Spark&#39;s GCS Connector提供）。顺便说一句，我不确定别人的经历，但是...我们远非与互联网（令我交谈过的许多工程师感到惊讶）。如果您也这样认为，或者您面临扩展数据挑战，则可以在此处注册： https://paraquery.com/waitlist 。抱歉，候补表格，但我们还没有准备好获得自助体验 - 它将负载大量的工程和硬件成本。但是我们会到达那里，请继续关注！感谢您的阅读！您对巨大的ETL /处理负载有什么经验？成本还是性能是问题吗？您如何看待GPU加速度（GPGPU）？您认为GPU只是昂贵的吗？很想在这里谈论技术！
+
+注释URL： https://news.ycombinator.com/item？id=439644505 
+点：46 
+＃评论：11 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=43964505</guid>
+      <pubDate>Mon, 12 May 2025 16:01:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：Airweave  - 让代理商搜索任何应用程序</title>
+      <link>https://github.com/airweave-ai/airweave</link>
+      <description><![CDATA[嘿，我们是Lennert和Rauf。我们正在构建AIRWEAVE（ https://github.com/airweave-ai/airweave ），一种敞开的source工具，可让代理商从任何应用程序或数据库中搜索并检索数据。这是一般介绍： https：//www.youtube.com/watch?v= ef- ef------7sygq48 的较长的案例，以及在这里使用的案例，以及在此案例中使用了更久的一个。 （0:33）和Claude Desktop（2:04）等： https:///youtu.be/youtu.be/p2dl-39hwqo 几个月以前，我们遇到了一个烦恼的人，我们曾经遇到过一些遇到的人。如果您从不满意的客户那里收到一封电子邮件，以“解决的款项”或“基于gdrive中的财务状况的回报？ MCP创造了更多渴望代理与外部资源互动的渴望，大多数代理Dev工具都集中在功能调用和动作上而不是搜索上。缺乏工具使代理能够使用语义搜索工作区或数据库内容的工具感到恼火，因此我们首先开始构建Airweave作为内部解决方案。然后，我们决定在我们获得同事和其他代理商建筑商的积极反应后，将其开放并全职。 Airweave通过其API连接到生产力工具，数据库或文档存储，并将其内容转换为可搜索的知识库，并通过标准化的代理商来访问。搜索接口通过REST或MCP暴露。使用MCP时，Airweave实质上是在资源之上构建可搜索的语义可搜索的MCP服务器。该平台处理从连接和提取到分块，嵌入和服务的整个数据管道。为了确保知识是最新的，它具有自动同步功能，具有可配置的时间表并通过内容哈希进行更改检测。我们在支持白色标记的多租户的支持下构建了它，以在维持隐私和安全边界的同时提供基于OAUTH2的集成。我们还积极地致力于该平台的许可意识（即数据上的RBAC）。很高兴分享学习并从您的经验中获得见解。期待评论！
+
+注释URL： https://news.ycombinator.com/item?id=439644201 
+点：52 
+＃评论：18 ]]></description>
+      <guid>https://github.com/airweave-ai/airweave</guid>
+      <pubDate>Mon, 12 May 2025 15:34:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>巴比肯人</title>
+      <link>https://arslan.io/2025/05/12/barbican-estate/</link>
+      <description><![CDATA[文章URL： https://arslan.io/2025/2025/05/12/12/barbican-estate/ 
+注释URL： https://news.ycombinator.com/item?id=43964136 
+点：145 
+＃评论：53 ]]></description>
+      <guid>https://arslan.io/2025/05/12/barbican-estate/</guid>
+      <pubDate>Mon, 12 May 2025 15:28:38 GMT</pubDate>
+    </item>
     <item>
       <title>嵌入被低估</title>
       <link>https://technicalwriting.dev/ml/embeddings/overview.html</link>
       <description><![CDATA[文章url： https://technicalwriting.dev/ml/ml/embeddings/overview.html 
 评论url： https://news.ycombinator.com/item？id=439663868 
-点：4 
-＃评论：0 ]]></description>
+点：231 
+＃评论：71 ]]></description>
       <guid>https://technicalwriting.dev/ml/embeddings/overview.html</guid>
       <pubDate>Mon, 12 May 2025 15:05:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>openeox标准化寿命末（EOL）和支持终止（EOS）信息</title>
-      <link>https://openeox.org/</link>
-      <description><![CDATA[文章URL： https://openeox.org/  
-评论url： https://news.ycombinator.com/item？id=439663839 
-点：3 
-＃评论：1 ]]></description>
-      <guid>https://openeox.org/</guid>
-      <pubDate>Mon, 12 May 2025 15:02:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ruby 3.5功能：读取上的名称空间</title>
-      <link>https://bugs.ruby-lang.org/issues/21311</link>
-      <description><![CDATA[文章URL： https://bugs.ruby-lang.org/issues/21311   
-评论url： https://news.ycombinator.com/item?id=43962770 
-点：57 
-＃评论：19 ]]></description>
-      <guid>https://bugs.ruby-lang.org/issues/21311</guid>
-      <pubDate>Mon, 12 May 2025 13:39:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>吉格公司侵犯工人权利</title>
-      <link>https://www.hrw.org/news/2025/05/12/us-major-companies-violate-gig-workers-rights</link>
-      <description><![CDATA[文章URL： https://www.hrw.org/news/2025/05/12/us-major-companies-violate-giolate-gigig-workers-rights  
-评论url： https://news.ycombinator.com/item？id=43962535 
-点：78 
-＃评论：20 ]]></description>
-      <guid>https://www.hrw.org/news/2025/05/12/us-major-companies-violate-gig-workers-rights</guid>
-      <pubDate>Mon, 12 May 2025 13:13:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>FTC推迟执行其“点击到康斯特尔”规则</title>
-      <link>https://www.theverge.com/news/664730/ftc-delay-click-to-cancel-rule</link>
-      <description><![CDATA[文章url： https://wwwww.thereve.com/news/news/news/news/news/664730/ftc-delay-click-click-click-click-click-click-cancel-cancel-cancel-cancel-cancel-cancel-cancel-cancel一下
-注释url： https://news.ycombinator.com/item?id=43962528 
-点：92 
-＃评论：40 ]]></description>
-      <guid>https://www.theverge.com/news/664730/ftc-delay-click-to-cancel-rule</guid>
-      <pubDate>Mon, 12 May 2025 13:12:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示HN：CLI，发现假github星星，危险依赖和许可陷阱</title>
-      <link>https://github.com/m-ahmed-elbeskeri/Starguard</link>
-      <description><![CDATA[当我遇到一项研究的一项研究，该研究追溯到450万个假吉斯布星星时，它证实了我有一段时间的怀疑：星星很吵。问题是它们是可见的，具有说服力，并且他们仍然塑造招聘决策，VC术语表和依赖选择，但他们对实际质量很少说。我写了Starguard，以我自己的方法来将这个数字置于该数字的角度，并启发了一个更广泛的供应供应 - 将一个更广泛的供应供应与一个命令的启动：，但膨胀的恒星只是一个问题。同时，Starguard Parses依赖性表现出来或SBOMS和标志常见的风险标志：未添加版本，直接的GIT URL，loughike套件的包装名称。它还扫描许可证 -  AGPL潜入声称MIT的回购，或其他可能会变成合规性头痛的矛盾之处。它也检查了贡献者模式。如果90％的提交来自一个几个月没有推动的人，那就标记了。它浏览了明显的代码危险信号：评估呼叫，缩小斑点，粗略的安装脚本 - 因为有时候问题藏在明显的视线中。所有这些都将其输入加权评分模型。最终的信任评分（0-100）一目了然地反映了回购健康，并直接对假星行为处罚，因此，一个漂亮的读书徽章无法隐藏无机的炒作。我为此而添加了它为它带来了一个很酷的小徽章，以为信任得分大声笑。在任何公共仓库上运行以下方式： python starguard.py所有者/储备金
-它可以无需代币，但是您会尽快点击率限制。请提供任何您可以的反馈。
-
-评论url： https://news.ycombinator.com/item？id=43962427 
-点：12 
-＃评论：5 ]]></description>
-      <guid>https://github.com/m-ahmed-elbeskeri/Starguard</guid>
-      <pubDate>Mon, 12 May 2025 12:59:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>CrowdStrike首席执行官通过无法解释的礼物将他的投票权削减了92％</title>
-      <link>https://www.bloomberg.com/news/articles/2025-05-12/billionaire-crowdstrike-ceo-cuts-voting-power-by-92-with-unexplained-gifts</link>
-      <description><![CDATA[文章URL： https://www.bloomberg.com/news/articles/2025-05-12/billionaire-crowdstrike-ceo-ceo-cuts-voting-power-power-by-92-with-unexplain--nexplain--nexplain-gifts   
-注释URL： https://news.ycombinator.com/item?id=43962207 
-点：78 
-＃评论：30 ]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2025-05-12/billionaire-crowdstrike-ceo-cuts-voting-power-by-92-with-unexplained-gifts</guid>
-      <pubDate>Mon, 12 May 2025 12:30:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>德克萨斯大学领导的团队解决了融合能源的一个大问题</title>
-      <link>https://news.utexas.edu/2025/05/05/university-of-texas-led-team-solves-a-big-problem-for-fusion-energy/</link>
-      <description><![CDATA[文章URL： https://news.utexas.edu/2025/05/05/university-of--texas-led-team-solves-a-big-problem-for-forbor-fusion-energy/  
-注释url： https://news.ycombinator.com/item?id=43962148 
-点：94 
-＃评论：36 ]]></description>
-      <guid>https://news.utexas.edu/2025/05/05/university-of-texas-led-team-solves-a-big-problem-for-fusion-energy/</guid>
-      <pubDate>Mon, 12 May 2025 12:21:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>铁锹硬件说明语言</title>
-      <link>https://spade-lang.org/</link>
-      <description><![CDATA[文章URL： https://spade-lang.org/   
-注释URL： https://news.ycombinator.com/item？id=43962138 
-点：53 
-＃评论：18 ]]></description>
-      <guid>https://spade-lang.org/</guid>
-      <pubDate>Mon, 12 May 2025 12:19:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Spark AI（YC W24）正在旧金山聘请一名完整的堆栈工程师</title>
-      <link>https://www.ycombinator.com/companies/spark/jobs/kDeJlPK-software-engineer-full-stack</link>
-      <description><![CDATA[文章URL：https://www.ycombinator.com/companies/spark/jobs/kDeJlPK-software-engineer-full-stack
-注释URL： https://news.ycombinator.com/item?id=439662029 
-点：0 
-＃评论：0 ]]></description>
-      <guid>https://www.ycombinator.com/companies/spark/jobs/kDeJlPK-software-engineer-full-stack</guid>
-      <pubDate>Mon, 12 May 2025 12:00:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
