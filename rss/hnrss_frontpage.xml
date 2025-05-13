@@ -4,14 +4,73 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Tue, 13 May 2025 18:27:41 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 May 2025 21:18:14 GMT</lastBuildDate>
     <item>
-      <title>PYPI组织</title>
+      <title>StarCloud</title>
+      <link>https://www.ycombinator.com/companies/starcloud</link>
+      <description><![CDATA[文章URL： https://www.ycombinator.com/companies/companies/starcloud    
+注释url： https://news.ycombinator.com/item?id=439777188 
+点：6 
+＃评论：0 ]]></description>
+      <guid>https://www.ycombinator.com/companies/starcloud</guid>
+      <pubDate>Tue, 13 May 2025 20:13:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用LLM构建文档的实时知识图</title>
+      <link>https://cocoindex.io/blogs/knowledge-graph-for-docs/</link>
+      <description><![CDATA[文章URL： https://cocoindex.io/blogs/knowledge-graph-forpaph-for-for-docs/ 
+注释url： https://news.ycombinator.com/item?id=43976895 
+点：14 
+＃评论：2 ]]></description>
+      <guid>https://cocoindex.io/blogs/knowledge-graph-for-docs/</guid>
+      <pubDate>Tue, 13 May 2025 19:48:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>黄昏OS</title>
+      <link>https://duskos.org/</link>
+      <description><![CDATA[文章URL： https://duskos.org/   
+注释URL： https://news.ycombinator.com/item?id=43976862 
+点：124 
+＃评论：66 ]]></description>
+      <guid>https://duskos.org/</guid>
+      <pubDate>Tue, 13 May 2025 19:44:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么银行仍然会变得如此错误？</title>
+      <link>https://jamal.haba.sh/its-2025-why-are-banks-still-getting-authentication-so-wrong/</link>
+      <description><![CDATA[Article URL: https://jamal.haba.sh/its-2025-why-are-banks-still-getting-authentication-so-wrong/
+注释URL： https://news.ycombinator.com/item？id=43976359 
+点：147 
+＃评论：175 ]]></description>
+      <guid>https://jamal.haba.sh/its-2025-why-are-banks-still-getting-authentication-so-wrong/</guid>
+      <pubDate>Tue, 13 May 2025 18:56:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>不要解开包装选项：有更好的方法（2024）</title>
+      <link>https://corrode.dev/blog/rust-option-handling-best-practices/</link>
+      <description><![CDATA[文章url： https://corrode.dev/blog/rust-poption handling-handling-handling-bendling-best-best-practices/ 
+注释URL： https://news.ycombinator.com/item?id=43975785 
+点：66 
+＃评论：42 ]]></description>
+      <guid>https://corrode.dev/blog/rust-option-handling-best-practices/</guid>
+      <pubDate>Tue, 13 May 2025 17:58:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>带有Apache箭头的OpenTelemetry协议</title>
+      <link>https://opentelemetry.io/blog/2025/otel-arrow-phase-2/</link>
+      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=43975782 
+点：30 
+＃评论：6 ]]></description>
+      <guid>https://opentelemetry.io/blog/2025/otel-arrow-phase-2/</guid>
+      <pubDate>Tue, 13 May 2025 17:57:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>PYPI组织（2023）</title>
       <link>https://blog.pypi.org/posts/2023-04-23-introducing-pypi-organizations/</link>
       <description><![CDATA[文章url： https：//blog..pypi.org.org/posts/2023-04-23-introduciuciucing-ppost-pposts/2023-ing.posts/
 评论url： https://news.ycombinator.com/item?id=439755541 
-点：7 
-＃评论：1 ]]></description>
+点：35 
+＃评论：10 ]]></description>
       <guid>https://blog.pypi.org/posts/2023-04-23-introducing-pypi-organizations/</guid>
       <pubDate>Tue, 13 May 2025 17:37:58 GMT</pubDate>
     </item>
@@ -21,90 +80,30 @@
       <description><![CDATA[嘿，hn，我们想共享HelixDB（ https://github.com/helixdb/helixdb/helix-db/ ）这是一个新的数据库，该数据库本质地交织了图形和矢量类型，而无需牺牲性能。它写成生锈，我们最初的重点是支撑抹布。这是一个视频运行： https://screen.studio/share/share/szgqu3yq 。向量数据库对于相似性查询很有用，而图数据库对于关系查询很有用。每个都以最佳的查询类型（例如，键值存储与节点和边缘表）的方式存储数据。但是，许多AI驱动的应用程序都需要 相似性和关系查询。例如，您可以使用基于矢量的语义搜索来检索相关的法律文档，然后使用图形遍历来识别案例之间的关系。此类应用程序的开发人员需要在两个不同数据库的顶部建立需要构建的困境（一个矢量One和一个图形） - 此外，您必须将它们链接在一起并同步数据。即使到那时，您的两个数据库也没有设计用于合作的工作 - 例如，没有本地方法可以执行跨越两个系统的加入或查询。您需要在应用程序级别上处理该逻辑。 Helix开始时，我们意识到有一些方法可以集成快速且适合AI应用程序的向量和图形数据，尤其是基于抹布的应用程序。参见这篇很酷的研究论文： https：//arxiv.org/html/2408.04948v1 。在阅读了图形和混合抹布上的其他文章之后，我们决定构建一个混合DB。我们的目的是从开发人员的角度使用一些更好的使用，同时也使它成为地狱。在将其作为附带项目进行了几个月的工作之后，我们的基准测试表明，我们与Pinecone和Vectors的Qdrant相当，并且我们的图形最多要比NEO4J更快地供您使用： neo4j。     cointe vers nourge nourge nourge nours nourge nourge nign coundec nign coundect：     -    -    -    -    -    -    -    - 基于上下文中的函数（通过边缘连接）中的代码 - 季纸，然后从函数调用，导入，依赖项等中创建一个AST（图中）。代理可以通过相似性或关键字查找代码，然后越过AST以获取相关代码，从而减少幻觉并降低llm llm从猜测对象形状或可变性的croce croce cortive biorc biorc biorc biorg lig and fircorial nagity name name - Enterprise knowledge management: you can represent organisational structure, projects, and people (e.g., employee → team → project) in graph form, then index internal documents, emails, or notes as vectors for semantic search and link them directly employees/teams/projects in the graph.I naively assumed when learning关于数据库首次将查询将在传统编程中像功能一样进行编译和执行。事实证明，我错了，但这通过发送额外的数据（整个书面查询），在运行时进行编译，然后执行它来创造不必要的延迟。使用Helix，您可以在我们的查询语言（HelixQL）中编写查询，然后将其转移到Rust Code中并直接构建到数据库服务器中，您可以在其中调用生成的API端点。许多人对“否定了另一个查询语言”（毫无疑问是有充分理由的原因！），但无论如何我们都会继续前进，但是我们还是可以更轻松地研究了一个可以让我们更容易地工作了，这是一个值得一试的事情。 HelixQl取自其他查询语言，例如Gremlin，cypher和SQL，并添加了一些额外的想法。这是声明性的，而遍历本身的功能则是功能。这允许完全控制遍历流量，同时还具有清洁的语法。 HelixQl返回JSON，使客户变得容易。此外，它使用架构，因此查询是类型检查的。我们采用了一种粗略的方法来构建原始的图形引擎，以使MVP熄灭，因此我们现在正在努力通过大规模平行且管道上的遍历来改善图形引擎。这意味着只有在需要时才将数据解码，并且部分读取都会并联处理。如果您想在简单的RAG演示中尝试一下，则可以遵循本指南并运行我们的jupyter笔记本： https：//github.com/helixdb/helixdb/helixdb/helix-db/tree/main/main/main/main/main/examples/examples/rag_d ...评论和反馈欢迎！
 
 注释URL： https://news.ycombinator.com/item?id=43975423 
-点：13 
-＃评论：2 ]]></description>
+点：72 
+＃评论：35 ]]></description>
       <guid>https://github.com/HelixDB/helix-db/</guid>
       <pubDate>Tue, 13 May 2025 17:26:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>共和党偷偷摸摸的十年AI法规禁令用于支出法案</title>
-      <link>https://arstechnica.com/ai/2025/05/gop-sneaks-decade-long-ai-regulation-ban-into-spending-bill/</link>
-      <description><![CDATA[文章URL：https://arstechnica.com/ai/2025/05/gop-sneaks-decade-long-ai-regulation-ban-into-spending-bill/
-注释URL： https://news.ycombinator.com/item?id=43975254 
-点：73 
-＃评论：49 ]]></description>
-      <guid>https://arstechnica.com/ai/2025/05/gop-sneaks-decade-long-ai-regulation-ban-into-spending-bill/</guid>
-      <pubDate>Tue, 13 May 2025 17:12:33 GMT</pubDate>
     </item>
     <item>
       <title>分支特权注入：利用分支预测竞赛条件</title>
       <link>https://comsec.ethz.ch/research/microarch/branch-privilege-injection/</link>
       <description><![CDATA[文章URL： https://comsec.ethz.ch/research/research/microarch/microarch/mmicroarch/branch-pranch-privilege-indoction/  
 注释url： https://news.ycombinator.com/item？id=43974891 
-点：172 
-＃评论：53 ]]></description>
+点：246 
+＃评论：91 ]]></description>
       <guid>https://comsec.ethz.ch/research/microarch/branch-privilege-injection/</guid>
       <pubDate>Tue, 13 May 2025 16:44:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示HN：AG-UI协议 - 将代理带入前端应用程序</title>
-      <link>https://github.com/ag-ui-protocol/ag-ui</link>
-      <description><![CDATA[文章URL： https://github.com/ag-ui-protocol/ag-protocol/ag-ui   
-注释url： https://news.ycombinator.com/item？id=4397444484 
-点：11 
-＃评论：3 ]]></description>
-      <guid>https://github.com/ag-ui-protocol/ag-ui</guid>
-      <pubDate>Tue, 13 May 2025 16:09:57 GMT</pubDate>
     </item>
     <item>
       <title>错误的分类法</title>
       <link>https://ruby0x1.github.io/machinery_blog_archive/post/a-taxonomy-of-bugs/index.html</link>
       <description><![CDATA[文章URL： https：//ruby0x1.githbith.github.github.io/machinery_blog_blog_blog_archive/post/post/post/post/a-taxonomy-post/ablind/abig/augh augn augn augn augn augn a&gt;
 注释url： https://news.ycombinator.com/item？id=43974026 
-点：17 
-＃评论：3 ]]></description>
+点：28 
+＃评论：11 ]]></description>
       <guid>https://ruby0x1.github.io/machinery_blog_archive/post/a-taxonomy-of-bugs/index.html</guid>
       <pubDate>Tue, 13 May 2025 15:29:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>它在等待您的实验</title>
-      <link>https://www.rifters.com/crawl/?p=11511</link>
-      <description><![CDATA[文章URL： https://www.rifters.com/crawl/?p=11511   
-注释URL： https://news.ycombinator.com/item?id=439744005 
-点：47 
-＃评论：11 ]]></description>
-      <guid>https://www.rifters.com/crawl/?p=11511</guid>
-      <pubDate>Tue, 13 May 2025 15:27:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>PDF到文本，一个具有挑战性的问题</title>
-      <link>https://www.marginalia.nu/log/a_119_pdf/</link>
-      <description><![CDATA[文章url： https://www.marginalia.nu/log/log/a_119_19_pdf/ 
-注释url： https://news.ycombinator.com/item？id=43973721 
-点：103 
-＃评论：58 ]]></description>
-      <guid>https://www.marginalia.nu/log/a_119_pdf/</guid>
-      <pubDate>Tue, 13 May 2025 15:01:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Chrome的新嵌入模型：较小，更快，质量相同</title>
-      <link>https://dejan.ai/blog/chromes-new-embedding-model/</link>
-      <description><![CDATA[文章URL： https://dejan.ai/blog/blog/chromes-new-ew-enew-embedding-model/       
-注释URL： https://news.ycombinator.com/item?id=43973502 
-点：11 
-＃评论：1 ]]></description>
-      <guid>https://dejan.ai/blog/chromes-new-embedding-model/</guid>
-      <pubDate>Tue, 13 May 2025 14:39:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google的未完成的类似DEX的桌面模式用于Android</title>
-      <link>https://tech.yahoo.com/phones/articles/first-look-google-unfinished-dex-181424457.html</link>
-      <description><![CDATA[文章URL：https://tech.yahoo.com/phones/articles/first-look-google-unfinished-dex-181424457.html
-注释url： https://news.ycombinator.com/item?id=43973395 
-点：42 
-＃评论：55 ]]></description>
-      <guid>https://tech.yahoo.com/phones/articles/first-look-google-unfinished-dex-181424457.html</guid>
-      <pubDate>Tue, 13 May 2025 14:30:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
