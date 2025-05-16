@@ -4,16 +4,83 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Fri, 16 May 2025 18:26:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 May 2025 21:18:36 GMT</lastBuildDate>
+    <item>
+      <title>有条不紊的平庸性</title>
+      <link>https://aeon.co/essays/who-needs-ai-text-generation-when-theres-erasmus-of-rotterdam</link>
+      <description><![CDATA[文章url： https://aeon.co/essays/who-needs/who-needs-needs-needs-no-needs-needs-needs-ebext-getx-gent-gener-when-when-when-when-when-when-when-when-when-when-when-when-when-when-when-when-pp&gt;
+注释URL： https://news.ycombinator.com/item?id=44009621 
+点：8 
+＃评论：1 ]]></description>
+      <guid>https://aeon.co/essays/who-needs-ai-text-generation-when-theres-erasmus-of-rotterdam</guid>
+      <pubDate>Fri, 16 May 2025 20:39:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>clojurescript叉子Google闭合以保证向后兼容性</title>
+      <link>https://clojurescript.org/news/2025-05-16-release</link>
+      <description><![CDATA[文章URL： https://clojurescript.org/news/news/2025-05-16-rease 
+注释URL： https://news.ycombinator.com/item?id=44009464 
+点：9 
+＃评论：2 ]]></description>
+      <guid>https://clojurescript.org/news/2025-05-16-release</guid>
+      <pubDate>Fri, 16 May 2025 20:20:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：KVSPLIT  - 在Apple Silicon上运行2-3x更长的上下文</title>
+      <link>https://github.com/dipampaul17/KVSplit</link>
+      <description><![CDATA[我发现在LLM推理中，KV缓存中的键和值具有非常不同的量化灵敏度。密钥需要比值更高的精度来维持质量。结果令人惊讶： -K8v4（8位键，4位值）：减少59％的记忆力，仅0.86％的困惑损失
+-K4v8（4位键，8位值）：减少记忆力为59％，但困惑损失6.06％
+ - 配置使用相同数量的位，但是K8V4的质量更好，这意味着您可以在同一Mac上使用2-3×较长上下文运行LLMS。内存使用量表具有序列长度，因此随着上下文的增长而节省的复合。实现很简单： 
+1。添加-kvq-key和-kvq-val标志到llama.cpp
+2。将现有量化逻辑分别应用于K和V张量
+3。在上下文长度上用困惑指标验证
+4。用于加速的金属（带有-mlong -calls标志以避免矢量化问题）在M4 MacBook Pro上运行带有8K上下文窗口的Tinyllama上的基准。与金属/MPS兼容并针对苹果硅进行了优化。 github： https://github.com/dipampampaul17/kvsplit    
+
+注释URL： https://news.ycombinator.com/item？id=44009321 
+点：86 
+＃评论：10 ]]></description>
+      <guid>https://github.com/dipampaul17/KVSplit</guid>
+      <pubDate>Fri, 16 May 2025 20:04:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于思考的想法</title>
+      <link>https://dcurt.is/thinking</link>
+      <description><![CDATA[文章URL： https://dcurt.is/thinking  
+注释URL： https://news.ycombinator.com/item?id=44008843 
+点：129 
+＃评论：80 ]]></description>
+      <guid>https://dcurt.is/thinking</guid>
+      <pubDate>Fri, 16 May 2025 19:09:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>魔术时光：特伦斯·马里克（Terrence Malick）的电影和隐藏生活</title>
+      <link>https://www.lrb.co.uk/the-paper/v47/n09/david-thomson/cool-tricking</link>
+      <description><![CDATA[文章url： https：///www.lrb.co.uk/the-paper/the-paper/the-paper/the-paper/the-paper/v47/v47/n09/n09/david-cool/cool 
+注释URL： https://news.ycombinator.com/item?id=44008412 
+点：26 
+＃评论：16 ]]></description>
+      <guid>https://www.lrb.co.uk/the-paper/v47/n09/david-thomson/cool-tricking</guid>
+      <pubDate>Fri, 16 May 2025 18:23:26 GMT</pubDate>
+    </item>
     <item>
       <title>Stax博物馆Bob Abrahamian系列</title>
       <link>https://bobacollection.staxmuseum.org/</link>
       <description><![CDATA[文章URL： https://bobacollection.staxmuseum.org/  
 注释URL： https://news.ycombinator.com/item?id=44007854 
-点：9 
-＃评论：2 ]]></description>
+点：26 
+＃评论：5 ]]></description>
       <guid>https://bobacollection.staxmuseum.org/</guid>
       <pubDate>Fri, 16 May 2025 17:21:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>新的“超级扩散”证明探究了湍流的神秘数学</title>
+      <link>https://www.quantamagazine.org/new-superdiffusion-proof-probes-the-mysterious-math-of-turbulence-20250516/</link>
+      <description><![CDATA[文章URL： https://www.quantamagazine.org/new-superdiffusion-prof-prof-probes-probes-the-mysterious-math-math-fursulence-20250516/  
+注释URL： https://news.ycombinator.com/item?id=440077714 
+点：29 
+＃评论：5 ]]></description>
+      <guid>https://www.quantamagazine.org/new-superdiffusion-proof-probes-the-mysterious-math-of-turbulence-20250516/</guid>
+      <pubDate>Fri, 16 May 2025 17:08:02 GMT</pubDate>
     </item>
     <item>
       <title>Foundry（YC F24）正在招聘 - 创建工程师（ML×SWE）</title>
@@ -31,8 +98,8 @@
       <description><![CDATA[嘿Hn  -  Gregor＆Magnus再次在这里。几个月前，我们启动了浏览器的使用（ https：//news.ycombinator.com.com.com.com.com.com/item/Item of inl lige lige light lige lige live in la&gt; la&gt;使用自然语言提示浏览器。这对于一次性任务非常好，例如预订航班或寻找产品，但是我们很快意识到企业的需求有所不同：他们通常具有一个带有动态变量的工作流程（例如，填写表格并下载了PDF），他们希望可靠地运行一百万次而不会破裂。 Pure LLM agents were slow, expensive, and unpredictable for these high-frequency tasks.So we just started working on Workflow Use:- You show the browser what to do (by manually recording steps; show don’t tell).- An LLM converts these recordings into deterministic scripts with variables (scripts include AI steps as well, where it’s 100% agentic)- Scripts run reliably, 10倍快10倍，比浏览器使用的速度约为90％。  - 如果步骤断开，则工作流将退缩以浏览器使用并进行代理运行步骤。 （这种自我修复功能还很早。）这个项目刚刚开始，所以很多事情都会破裂，肯定还没有准备好生产，而且仍然缺少很多东西（例如，扎实的编辑和适当的自我修复）。但是我们想尽早分享，得到反馈，找出您想以这种方式自动化的工作流程。尝试一下，让我们知道您的想法！
 
 注释URL： https://news.ycombinator.com/item?id=44007065 
-点：13 
-＃评论：4 ]]></description>
+点：34 
+＃评论：9 ]]></description>
       <guid>https://github.com/browser-use/workflow-use</guid>
       <pubDate>Fri, 16 May 2025 16:05:00 GMT</pubDate>
     </item>
@@ -41,73 +108,10 @@
       <link>https://arxiv.org/abs/2505.09814</link>
       <description><![CDATA[文章URL： https://arxiv.org/abs/2505.09814   
 注释URL： https://news.ycombinator.com/item?id=44006824 
-点：79 
-＃评论：25 ]]></description>
+点：135 
+＃评论：39 ]]></description>
       <guid>https://arxiv.org/abs/2505.09814</guid>
       <pubDate>Fri, 16 May 2025 15:45:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：RV，R的软件包经理</title>
-      <link>https://github.com/A2-ai/rv</link>
-      <description><![CDATA[我们一直在为R启发Rust的货物启发的R套餐经理。 RV背后的主要思想是要明确有关使用的R版本，并声明给定项目中的rproject.toml文件中使用了哪些依赖项。没有Renv ::快照等效，所有内容都需要在前面声明，配置文件（以及由此产生的LockFile）是真实的来源。这避免了RENV可能会错过有关安装的信息的问题，并且也很容易调整一些软件包，例如，从源安装并安装一个软件包。
-
-评论URL： https://news.ycombinator.com/item?id=44006735 
-点：31 
-＃评论：9 ]]></description>
-      <guid>https://github.com/A2-ai/rv</guid>
-      <pubDate>Fri, 16 May 2025 15:37:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>确保准确的研究记录</title>
-      <link>https://economics.mit.edu/news/assuring-accurate-research-record</link>
-      <description><![CDATA[文章URL： https://ecomonics.mit.mit.mit.mit.mit.edu/news/assuring-assuring-assuring-accurate-accurate-acreach-research-reach-recore-creach-recorh-creach-record      
-注释URL： https://news.ycombinator.com/item?id=44006426 
-点：37 
-＃评论：11 ]]></description>
-      <guid>https://economics.mit.edu/news/assuring-accurate-research-record</guid>
-      <pubDate>Fri, 16 May 2025 15:09:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>我是移民律师彼得·罗伯茨（Peter Roberts），他在YC和创业公司工作。 AMA</title>
-      <link>https://news.ycombinator.com/item?id=44006381</link>
-      <description><![CDATA[我将在接下来的5-6个小时内在这里。像往常一样，考虑到迅速变化的移民格局，有无数的话题，我将受到您所关心的指导。请记住，我无法就特定案件提供法律建议，因为我无法访问所有事实。请在您的问题中坚持事实讨论，我将在答案中尝试做同样的事情。
-
-注释URL： https://news.ycombinator.com/item?id=44006381 
-点：100 
-＃评论：164 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44006381</guid>
-      <pubDate>Fri, 16 May 2025 15:05:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>法典的研究预览</title>
-      <link>https://openai.com/index/introducing-codex/</link>
-      <description><![CDATA[文章url： https://openai.com/index/index/introducing-codex/   
-注释URL： https://news.ycombinator.com/item？id=44006345 
-点：212 
-＃评论：123 ]]></description>
-      <guid>https://openai.com/index/introducing-codex/</guid>
-      <pubDate>Fri, 16 May 2025 15:02:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：ERLANG的基于视觉流的编程，灵感来自节点-RED</title>
-      <link>https://github.com/gorenje/erlang-red</link>
-      <description><![CDATA[嗨， erlang-red在过去几个月中一直是我的项目，我很想从HN社区那里获得一些反馈。 的想法是利用Erlangs消息传递和低架空流程以在节点红色流中具有真正的并发性。另外，还将低代码的基于视觉流程的编程带到Erlang。
-
-注释URL： https://news.ycombinator.com/item？id=44006231 
-点：133 
-＃评论：53 ]]></description>
-      <guid>https://github.com/gorenje/erlang-red</guid>
-      <pubDate>Fri, 16 May 2025 14:54:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>最快的Postgres插入</title>
-      <link>https://docs.hatchet.run/blog/fastest-postgres-inserts</link>
-      <description><![CDATA[文章url： https://docs.hatchet.run/blog/fastest-postgres-postgres-interts-postgres-interts-interts-interts-interts-interts-interts-interts-interts-interts-interts-interts-interts-interts-inserts 
-注释URL： https://news.ycombinator.com/item?id=44005899 
-点：24 
-＃评论：7 ]]></description>
-      <guid>https://docs.hatchet.run/blog/fastest-postgres-inserts</guid>
-      <pubDate>Fri, 16 May 2025 14:24:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
