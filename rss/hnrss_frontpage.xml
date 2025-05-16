@@ -4,19 +4,151 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Fri, 16 May 2025 12:38:38 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 May 2025 15:18:09 GMT</lastBuildDate>
     <item>
-      <title>一家耗资1.3亿美元的公司伪造试验，而不是运行我们的免费OSS</title>
+      <title>法典的研究预览</title>
+      <link>https://openai.com/index/introducing-codex/</link>
+      <description><![CDATA[文章url： https://openai.com/index/index/introducing-codex/   
+注释URL： https://news.ycombinator.com/item？id=44006345 
+点：6 
+＃评论：0 ]]></description>
+      <guid>https://openai.com/index/introducing-codex/</guid>
+      <pubDate>Fri, 16 May 2025 15:02:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：ERLANG的基于视觉流的编程，灵感来自节点-RED</title>
+      <link>https://github.com/gorenje/erlang-red</link>
+      <description><![CDATA[文章URL： https://github.com/gorenje/gorenje/erlang-erlang-reang-reang-reang-reang-rang-rang-rang-rang  
+注释URL： https://news.ycombinator.com/item？id=44006231 
+点：23 
+＃评论：3 ]]></description>
+      <guid>https://github.com/gorenje/erlang-red</guid>
+      <pubDate>Fri, 16 May 2025 14:54:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>埃德·史密斯（Ed Smylie）用胶带拯救了阿波罗13号船员，死于95</title>
+      <link>https://www.nytimes.com/2025/05/16/science/space/ed-smylie-dead.html</link>
+      <description><![CDATA[文章URL： https://www.nytimes.com/2025/2025/2025/05/05/16/16/science/space/space/space/space-smylie-dead.a&gt;
+注释URL： https://news.ycombinator.com/item？id=44005668 
+点：9 
+＃评论：1 ]]></description>
+      <guid>https://www.nytimes.com/2025/05/16/science/space/ed-smylie-dead.html</guid>
+      <pubDate>Fri, 16 May 2025 14:03:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>生锈编译器错误的演变</title>
+      <link>https://kobzol.github.io/rust/rustc/2025/05/16/evolution-of-rustc-errors.html</link>
+      <description><![CDATA[文章URL：https://kobzol.github.io/rust/rustc/2025/05/16/evolution-of-rustc-errors.html
+注释URL： https://news.ycombinator.com/item？id=44005195 
+点：6 
+＃评论：0 ]]></description>
+      <guid>https://kobzol.github.io/rust/rustc/2025/05/16/evolution-of-rustc-errors.html</guid>
+      <pubDate>Fri, 16 May 2025 13:22:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>解释在航行时代的英国海军统治</title>
+      <link>https://www.lesswrong.com/posts/YE4XsvSFJiZkWFtFE/explaining-british-naval-dominance-during-the-age-of-sail</link>
+      <description><![CDATA[文章URL：&gt; https://www.lesswrong.com/posts/ye4xsvsfjizkwftfe/explaining-british-naval-dominance-dominance-doring-the-age-age-oge-og-og-og-og-og-of-sail  
+注释URL： https://news.ycombinator.com/item?id=44005110 
+点：24 
+＃评论：12 ]]></description>
+      <guid>https://www.lesswrong.com/posts/YE4XsvSFJiZkWFtFE/explaining-british-naval-dominance-during-the-age-of-sail</guid>
+      <pubDate>Fri, 16 May 2025 13:14:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Java 30：改变技术的代码背后的天才</title>
+      <link>https://thenewstack.io/java-at-30-the-genius-behind-the-code-that-changed-tech/</link>
+      <description><![CDATA[Article URL: https://thenewstack.io/java-at-30-the-genius-behind-the-code-that-c​​hanged-tech/
+评论URL： https://news.ycombinator.com/item?id=44005008 
+点：40 
+＃评论：25 ]]></description>
+      <guid>https://thenewstack.io/java-at-30-the-genius-behind-the-code-that-changed-tech/</guid>
+      <pubDate>Fri, 16 May 2025 13:05:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：SQL-TSTRING python中的T-string SQL构建器</title>
+      <link>https://github.com/pgjones/sql-tstring</link>
+      <description><![CDATA[ SQL-TSTRING是一个SQL构建器，它利用了最近接受的PEP-750， nofollow“&gt; htttps：//pepspys.python.org/peppep-/pep-/pep-/pep-0750/-sq for for示例，  来自sql_tstring导入sql
+    
+    val = 2
+    查询，values = sql（t“从y中选择x，其中x = {val}”）
+    assert查询==“从y中选择x =？”
+    断言值== [2]
+    db.execute（查询，值）＃大多数DB发动机支持此
+ 
+占位符？防止SQL注入，但无处不在。例如，列名称不能是占位符。如果尝试此SQL-TSTRING将引起错误，   col =“ x”
+    sql（t“ select {col}从y”）＃提高valueerror
+ 
+要继续进行，您需要声明从sql_tstring导入sql_context的  的有效值
+    
+    使用sql_context（columns =“ x”）：
+        查询，values = sql（t“ select {col}从y”）
+    断言查询==“从y中选择x”
+    断言值== []
+ 
+因此，您可以防止SQL注入。
+    查询，值= sql（t“从y中选择x，其中x喜欢&#39;％{text}&#39;”）
+    断言查询==“从y中选择x在哪里喜欢？”
+    断言值== [“％world”]
+ 
+与缺乏重写值一起使用时，这特别有用。 sql-tstring是SQL构建器，因此您可以使用特殊的重写值来更改和构建您想要的查询。最好通过考虑您有时需要通过一个A搜索的查询来显示这一点，有时是B，有时是B，有时两者兼而有
+        *，，
+        答：str |缺失=不存在，
+        B：str |缺失=不存在
+    ） - &gt;元组[str，list [str]]：
+        返回sql（t“从y中选择x，其中a = {a}和b = {b}”）
+    
+    servert search（）==“从y中选择x”，[]
+    断言搜索（a =“ hello”）==“从y中选择x？”，[“ hello”]
+    断言搜索（b =“ world”）==“从y中选择x，b =？”，[“世界”]
+    断言搜索（a =“ hello”，b =“ world”）==（
+        “从y中选择x =？和b =？”，[“你好”，“世界”]
+    ）
+ 
+具体缺乏（这是重新写入value.basent的别名）将删除它所存在的表达，如果删除后没有剩下的表达式，它也将删除条款。我包括的其他重写值是处理与Null相比的令人沮丧的案例，例如，以下情况是有效的，但您可能会像您一样有效，您可能会遇到任何可能的情况。
+    sql（t“从y中选择x，其中x = {可选}”）
+ 
+取而代
+
+    可选= isnull
+    查询，values = sql（t“从y中选择x，其中x = {optional}”）
+    断言查询==“从y中选择x，其中x为null”
+    断言值== []
+ 
+最终功能允许通过在现有的T-string中嵌套T-string，    innear = t“ x =&#39;a&#39;”来进行复杂的查询构建。
+    查询，_ = sql（t“从y中选择x，其中{innit}”）
+    断言查询==“从y中选择x，其中x =&#39;a&#39;”
+ 
+该库今天可以在没有Python3.14的T-string的情况下使用，并有一定限制，
+
+评论URL： https://news.ycombinator.com/item?id=44004827 
+点：25 
+＃评论：11 ]]></description>
+      <guid>https://github.com/pgjones/sql-tstring</guid>
+      <pubDate>Fri, 16 May 2025 12:48:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>科幻</title>
+      <link>https://sci-hub.se/sci-net</link>
+      <description><![CDATA[文章URL： https://sci-hub.se/sci-net   
+注释URL： https://news.ycombinator.com/item?id=44004625 
+点：155 
+＃评论：70 ]]></description>
+      <guid>https://sci-hub.se/sci-net</guid>
+      <pubDate>Fri, 16 May 2025 12:30:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>重大试验的地面控制</title>
       <link>https://virtualize.sh/blog/ground-control-to-major-trial/</link>
       <description><![CDATA[文章URL： https://virtualize.sh/blog/brogn/ground-control-control-control-control-control-to-major-trial/  
 注释URL： https://news.ycombinator.com/item?id=44004388 
-点：75 
-＃评论：24 ]]></description>
+点：344 
+＃评论：139 ]]></description>
       <guid>https://virtualize.sh/blog/ground-control-to-major-trial/</guid>
       <pubDate>Fri, 16 May 2025 12:03:07 GMT</pubDate>
     </item>
     <item>
-      <title>Dalus（YC W25）正在聘请硬件系统设计软件的创始工程师</title>
+      <title>Dalus（YC W25）正在聘请硬件系统设计软件的工程师</title>
       <link>https://www.ycombinator.com/companies/dalus/jobs/oFjdHjD-founding-software-engineer-1</link>
       <description><![CDATA[文章URL：https://www.ycombinator.com/companies/dalus/jobs/oFjdHjD-founding-software-engineer-1
 注释URL： https://news.ycombinator.com/item?id=44004362 
@@ -24,85 +156,6 @@
 ＃评论：0 ]]></description>
       <guid>https://www.ycombinator.com/companies/dalus/jobs/oFjdHjD-founding-software-engineer-1</guid>
       <pubDate>Fri, 16 May 2025 12:01:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>格罗克的白人种族灭绝固定是由“未经授权的修改”引起的</title>
-      <link>https://www.theverge.com/news/668220/grok-white-genocide-south-africa-xai-unauthorized-modification-employee</link>
-      <description><![CDATA[文章URL： https://www.theverge.com/news/668220/grok-white-genocide-south-south-south-africa-xai-unauthorized-modification-modification-employee  
-评论URL： https://news.ycombinator.com/item?id=4004250 
-点：31 
-＃评论：3 ]]></description>
-      <guid>https://www.theverge.com/news/668220/grok-white-genocide-south-africa-xai-unauthorized-modification-employee</guid>
-      <pubDate>Fri, 16 May 2025 11:50:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>提示我们的Grok聊天助理和X上的Grok Bot</title>
-      <link>https://github.com/xai-org/grok-prompts</link>
-      <description><![CDATA[文章URL： https://github.com/xai-org/grok/grok/grok-prompts   
-注释URL： https://news.ycombinator.com/item？id=44004224 
-点：11 
-＃评论：8 ]]></description>
-      <guid>https://github.com/xai-org/grok-prompts</guid>
-      <pubDate>Fri, 16 May 2025 11:47:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>青少年的问题不是智能手机 - 这是他们的家人</title>
-      <link>https://grimoiremanor.substack.com/p/the-problem-with-teens-isnt-smartphones</link>
-      <description><![CDATA[文章URL： https://grimoiremanor.substack.com/pthe-problem with-problem-with--problem-with--problem-wiith-teens-isnt-isnt-isnt-smartsmartphones 
-注释URL： https://news.ycombinator.com/item?id=44003885 
-点：20 
-＃评论：3 ]]></description>
-      <guid>https://grimoiremanor.substack.com/p/the-problem-with-teens-isnt-smartphones</guid>
-      <pubDate>Fri, 16 May 2025 11:03:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jetrelay：500 LOC的高性能ATPROTO接力</title>
-      <link>https://www.asayers.com/jetrelay/</link>
-      <description><![CDATA[文章URL： https://www.asayers.com/jetrelay/   
-注释URL： https://news.ycombinator.com/item?id=44003708 
-点：4 
-＃评论：1 ]]></description>
-      <guid>https://www.asayers.com/jetrelay/</guid>
-      <pubDate>Fri, 16 May 2025 10:30:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>经过几个月的LLM编码后，我要回到使用大脑</title>
-      <link>https://albertofortin.com/writing/coding-with-ai</link>
-      <description><![CDATA[文章URL： https://albertofortin.com/writing/writing/coding-with-ai-ai   
-注释URL： https://news.ycombinator.com/item?id=44003700 
-点：155 
-＃评论：93 ]]></description>
-      <guid>https://albertofortin.com/writing/coding-with-ai</guid>
-      <pubDate>Fri, 16 May 2025 10:29:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Epic声称，Apple Block Fortnite重返iOS App Store。</title>
-      <link>https://www.macrumors.com/2025/05/16/apple-blocks-fortnite-return-to-ios-app-store/</link>
-      <description><![CDATA[Article URL: https://www.macrumors.com/2025/05/16/apple-blocks-fortnite-return-to-ios-app-store/
-注释URL： https://news.ycombinator.com/item？id=44003590 
-点：65 
-＃评论：38 ]]></description>
-      <guid>https://www.macrumors.com/2025/05/16/apple-blocks-fortnite-return-to-ios-app-store/</guid>
-      <pubDate>Fri, 16 May 2025 10:08:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>您是对的，您的工作时间更长，参加更多会议（2020年）</title>
-      <link>https://www.library.hbs.edu/working-knowledge/you-re-right-you-are-working-longer-and-attending-more-meetings</link>
-      <description><![CDATA[文章URL： https://www.library.hbs.edu/working-knowledg/you-re-right-you-working-working-longer-and-anter-more-meetings  
-注释URL： https://news.ycombinator.com/item？id=44003449 
-点：21 
-＃评论：14 ]]></description>
-      <guid>https://www.library.hbs.edu/working-knowledge/you-re-right-you-are-working-longer-and-attending-more-meetings</guid>
-      <pubDate>Fri, 16 May 2025 09:43:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>韭菜和泄漏 -  daniel.haxx.se</title>
-      <link>https://daniel.haxx.se/blog/2025/05/16/leeks-and-leaks/</link>
-      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=44003447 
-点：72 
-＃评论：4 ]]></description>
-      <guid>https://daniel.haxx.se/blog/2025/05/16/leeks-and-leaks/</guid>
-      <pubDate>Fri, 16 May 2025 09:42:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
