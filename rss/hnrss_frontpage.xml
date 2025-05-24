@@ -4,35 +4,35 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Sat, 24 May 2025 09:18:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 May 2025 12:34:32 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：LNK  -  Git-native Dotfiles Manager</title>
+      <link>https://github.com/yarlson/lnk</link>
+      <description><![CDATA[将杂点移至〜/.config/lnk，恢复符号链接，正常使用git。单个二进制文件，没有配置文件，没有绒毛。建造是因为Chezmoi太复杂了，并且普通的Git太过手动了。
+
+注释URL： https://news.ycombinator.com/item?id=44080410 
+点：16 
+＃评论：5 ]]></description>
+      <guid>https://github.com/yarlson/lnk</guid>
+      <pubDate>Sat, 24 May 2025 11:41:19 GMT</pubDate>
+    </item>
     <item>
       <title>一个回来的男孩：我儿子麦克斯的近乎死亡，改变了生命</title>
       <link>https://www.theguardian.com/lifeandstyle/2025/may/24/the-boy-who-came-back-the-near-death-and-changed-life-of-my-son-max</link>
       <description><![CDATA[文章URL：  
 评论url： https://news.ycombinator.com/item？id=440793331 
-点：11 
-＃评论：0 ]]></description>
+点：33 
+＃评论：1 ]]></description>
       <guid>https://www.theguardian.com/lifeandstyle/2025/may/24/the-boy-who-came-back-the-near-death-and-changed-life-of-my-son-max</guid>
       <pubDate>Sat, 24 May 2025 07:12:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问HN：深入AI/LLM，还是将它们用作工具？</title>
-      <link>https://news.ycombinator.com/item?id=44079303</link>
-      <description><![CDATA[我是一名软件工程师，具有扎实的全栈背景和Web开发。在LLM和AI周围的所有噪音时，我不确定在两个路径之间： 1。花费时间来学习AI/LLM的内部内容，甚至可以切换字段并研究 2。继续专注于我擅长的东西，例如构建抛光的Web应用程序，并将AI视为我的工具箱中的另一个工具我主要是在试图减少炒作。这是另一个可能长期破裂或合并成更少的工作的泡沫吗？还是值得一提的转变？
-
-注释URL： https://news.ycombinator.com/item？id=440793033303 
-点：64 
-＃评论：32 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44079303</guid>
-      <pubDate>Sat, 24 May 2025 07:05:46 GMT</pubDate>
     </item>
     <item>
       <title>如何以作家为生</title>
       <link>https://thewalrus.ca/how-to-make-a-living-as-a-writer/</link>
       <description><![CDATA[文章URL： https://thewalrus.ca/how-to-make-to-make-a-to-make-a-a-living-a-living-as-as-a-writer/  
 注释url： https://news.ycombinator.com/item？id=440788813 
-点：77 
-＃评论：43 ]]></description>
+点：111 
+＃评论：60 ]]></description>
       <guid>https://thewalrus.ca/how-to-make-a-living-as-a-writer/</guid>
       <pubDate>Sat, 24 May 2025 04:36:31 GMT</pubDate>
     </item>
@@ -41,32 +41,20 @@
       <link>https://antelang.org/blog/why_effects/</link>
       <description><![CDATA[文章URL： https://antelang.org/blog/why_effects/   
 注释url： https://news.ycombinator.com/item？id = 44078434 
-点：135 
-＃评论：59 ]]></description>
+点：184 
+＃评论：78 ]]></description>
       <guid>https://antelang.org/blog/why_effects/</guid>
       <pubDate>Sat, 24 May 2025 03:00:53 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Sweepiq  - 一种简单的AI工具，可以帮助您了解更多，更快的速度</title>
-      <link>https://www.sweepiq.com</link>
-      <description><![CDATA[文章URL： https://www.sweepiq.com  
-注释URL： https://news.ycombinator.com/item？id=44078314 
-点：18 
-＃评论：7 ]]></description>
-      <guid>https://www.sweepiq.com</guid>
-      <pubDate>Sat, 24 May 2025 02:30:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：具有自动生成UI的Python Devs的Web应用程序</title>
-      <link>https://davia.ai/</link>
-      <description><![CDATA[ HI HN，我们是Afnan，Theo和Ruben。我们都是ML工程师或数据科学家，并且我们一直遇到同一件事：我们会为自己或内部工具编写有用的Python功能，然后当我们想以实际应用共享时撞到墙。，我们尝试了简化和Gradio。他们很高兴能快速获得一些东西。但是，一旦我们需要更高的灵活性或更加抛光的东西，就没有真正的途径。在React中正确重建前端不是我们带来最大价值的地方。因此，我们开始构建Davia。您将代码保留在Python中，装饰要公开的功能，Davia在Localhost上启动了FastAPI服务器。它打开一个连接到本地主机的窗口，您可以在其中用提示来描述接口。然后，它构建接口，您可以在一步中部署所有内容。可以将其视为可爱的，但对于Python开发人员而言。它在构建AI工具方面特别有效。我们构建了它是为了与Langgraph紧密整合，因此，如果您正在编写代理商或工作流程，则可以将它们变成真实的应用程序而不离开Python。
-github： https://github.com/davia-ai/davia  我们仍处于早期阶段，并会喜欢其他人的反馈
-
-注释URL： https://news.ycombinator.com/item?id=44078100 
-点：24 
-＃评论：5 ]]></description>
-      <guid>https://davia.ai/</guid>
-      <pubDate>Sat, 24 May 2025 01:26:23 GMT</pubDate>
+      <title>我在Carta学到的东西</title>
+      <link>https://lethain.com/stuff-learned-at-carta/</link>
+      <description><![CDATA[文章URL： https://lethain.com/stuff-learned-at-carta/   
+评论url： https://news.ycombinator.com/item?id=444078094 
+点：32 
+＃评论：3 ]]></description>
+      <guid>https://lethain.com/stuff-learned-at-carta/</guid>
+      <pubDate>Sat, 24 May 2025 01:24:57 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：Hnrelevant  - 在黑客新闻中添加一个“相关”部分</title>
@@ -74,8 +62,8 @@ github： https://github.com/davia-ai/davia  我们仍处于早期阶段，并�
       <description><![CDATA[自初次发行[此处]以来已经两年了（ https://news.ycombinator.com/item？id=36102610 ）。初始版本是一个非常基本的原型，除了GitHub存储库以外的任何地方都无法使用。 You had to install it as a userscript or load the extension manually.Since then, it remained simple but better, new features include:- Improved accuracy by also using comments to help gauge the topic of discussion and the right keywords.- Published as plugin for more browsers: Chrome, Firefox (including android), and more recently Microsoft Edge.- Support for narrow screens and mobile devices.- Added preference控件。您在这里，因为您喜欢有趣的HN讨论，但它们经常像隐藏的宝石一样被埋葬，所以请尝试一下，让我知道您的想法。
 
 评论url： https://news.ycombinator.com/item?id=44078024 
-点：61 
-＃评论：7 ]]></description>
+点：81 
+＃评论：11 ]]></description>
       <guid>https://github.com/imdj/HNRelevant</guid>
       <pubDate>Sat, 24 May 2025 01:07:08 GMT</pubDate>
     </item>
@@ -84,8 +72,8 @@ github： https://github.com/davia-ai/davia  我们仍处于早期阶段，并�
       <link>https://www.societyforscience.org/regeneron-sts/2025-student-finalists/chloe-lee/</link>
       <description><![CDATA[Article URL: https://www.societyforscience.org/regeneron-sts/2025-student-finalists/chloe-lee/
 注释URL： https://news.ycombinator.com/item?id=44077850 
-点：170 
-＃评论：103 ]]></description>
+点：183 
+＃评论：118 ]]></description>
       <guid>https://www.societyforscience.org/regeneron-sts/2025-student-finalists/chloe-lee/</guid>
       <pubDate>Sat, 24 May 2025 00:29:28 GMT</pubDate>
     </item>
@@ -93,8 +81,8 @@ github： https://github.com/davia-ai/davia  我们仍处于早期阶段，并�
       <title>为您的朋友的根源</title>
       <link>https://josephthacker.com/personal/2025/05/13/root-for-your-friends.html</link>
       <description><![CDATA[文章url： https：//josephthacker.com/phthacker.com/personal/ppersonal/2025/2025/05/05/13/13/13/13/13/13/root-for--for-prrys.ht 评论url： https://news.ycombinator.com/item?id=440777533 
-点：189 
-＃评论：58 ]]></description>
+点：228 
+＃评论：82 ]]></description>
       <guid>https://josephthacker.com/personal/2025/05/13/root-for-your-friends.html</guid>
       <pubDate>Fri, 23 May 2025 23:28:11 GMT</pubDate>
     </item>
@@ -103,10 +91,20 @@ github： https://github.com/davia-ai/davia  我们仍处于早期阶段，并�
       <link>https://strangecomforts.com/the-strange-world-of-japans-pc-98-computer/</link>
       <description><![CDATA[文章url： htttps://strangecomfort/strangecomfort/the-strangecomfort/the-strange-strange-worange-worange-worlange-worlange-worlange-japans-japan--japan，-com-98-computer/-
 注释URL： https://news.ycombinator.com/item?id=44076501 
-点：103 
-＃评论：31 ]]></description>
+点：125 
+＃评论：32 ]]></description>
       <guid>https://strangecomforts.com/the-strange-world-of-japans-pc-98-computer/</guid>
       <pubDate>Fri, 23 May 2025 20:51:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我建立了一种更有生产力的方式来管理AI聊天</title>
+      <link>https://contextch.at</link>
+      <description><![CDATA[文章URL： https://contextch.at.at  
+注释URL： https://news.ycombinator.com/item?id=444076449 
+点：122 
+＃评论：48 ]]></description>
+      <guid>https://contextch.at</guid>
+      <pubDate>Fri, 23 May 2025 20:46:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
