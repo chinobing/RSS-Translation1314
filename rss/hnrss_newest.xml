@@ -4,129 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Tue, 27 May 2025 09:21:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 May 2025 12:40:25 GMT</lastBuildDate>
     <item>
-      <title>Show HN：我做了电子邮件验证工具</title>
-      <link>https://www.verifyemailai.com/</link>
-      <description><![CDATA[嘿，hn，我是一名企业家，在过去的三年中一直在SaaS空间。我最近的三家初创公司失败了，所有这些初创公司的挑战是弄清楚如何吸引我的听众。我发现主要使用EXA.AI Webset（Web Vector搜索，极点适合多种用例，建议检查它们），然后通过SmartLead发送它们。在过去的30天中，我开展了该活动，而12-15％的电子邮件总是反弹。这浪费了我的电子邮件信用，并有机会与合适的人联系。因此，我们制作了一个工具，可以在发送电子邮件之前检查电子邮件（MX，超时，域检查，一次性电子邮件，收集所有电子邮件，..）。现在，可交付性接近99％：）  https://verifyemailai.com  我自己使用它，让我们看市场响应：）   
-
-注释URL： https://news.ycombinator.com/item？id=44105243 
+      <title>Show HN：使用Claude的启动OPS模拟游戏</title>
+      <link>https://claude.ai/public/artifacts/623ee796-2a36-4632-af5b-af16ca7d8e27</link>
+      <description><![CDATA[文章URL： https://claude.ai/public/artifacts/623ee796-2a36-4632-4632-af5b-af16ca7d8e27  
+注释URL： https://news.ycombinator.com/item?id=44106287 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.verifyemailai.com/</guid>
-      <pubDate>Tue, 27 May 2025 09:16:14 GMT</pubDate>
+      <guid>https://claude.ai/public/artifacts/623ee796-2a36-4632-af5b-af16ca7d8e27</guid>
+      <pubDate>Tue, 27 May 2025 12:29:16 GMT</pubDate>
     </item>
     <item>
-      <title>Luciole数学：针对视力障碍的学者明确开发的字体</title>
-      <link>https://luciole-vision.com/en/math.html</link>
-      <description><![CDATA[文章URL： https://luciole-vision.com/en/math.html.html   
-注释URL： https://news.ycombinator.com/item？id=44105239 
+      <title>5年的研究表明，作为交流的黑猩猩罢工石头对树木</title>
+      <link>https://phys.org/news/2025-05-year-chimpanzees-stones-trees-communication.html</link>
+      <description><![CDATA[文章URL： https://phys.org/news/2025-05--05--05-年-Chimpanzees-stone-pormuniation-pommuniation-pommuniation 
+注释URL： https://news.ycombinator.com/item？id=44106285 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://luciole-vision.com/en/math.html</guid>
-      <pubDate>Tue, 27 May 2025 09:15:18 GMT</pubDate>
+      <guid>https://phys.org/news/2025-05-year-chimpanzees-stones-trees-communication.html</guid>
+      <pubDate>Tue, 27 May 2025 12:29:12 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：VEO3 AI视频生成器</title>
-      <link>https://www.veo3ai.io</link>
-      <description><![CDATA[嘿，hn，我很高兴共享veo3 ai视频发电机（[ https://veo3ai.io ] rel =“ nofollow”&gt; https://veo3ai.io ）），我一直在建立一个平台，以使高级AI视频生成可访问且用户友好。我们的目标是提供一个统一的界面，用于从文本提示或现有图像中创建令人惊叹的视频，并利用AI模型的各种套件。*是什么： href =“ https://veo3ai.io” rel =“ nofollow”&gt; https://veo3ai.io ））专注于通过功能强大的视频合成工具来增强创作者的能力。目前，我们支持文本对视频和图像到视频的生成，集成了10多种不同的AI模型，包括一些最新且最有能力的模型，例如： -Kuaishou的Klling（1.6＆2.0，可用于高质量的结果）
--Luma Labs的梦想机器
- -  minimax（对于文本到视频和图像到视频）
- - 以及其他像Pixverse，Hunyuan，Mochi和Haiper。亮点：*  - *前端*：Next.js 14（App Router），React，Tailwind CSS，ShadCN/UI
- -  *后端 *：Next.js API路由
- -  *数据库 *：supabase（PostgreSQL）
- -  *身份验证 *：NextAuth.js 5.0
- -  *视频生成 *：用于编排10多个视频模型的FAL.AI
- -  *付款 *：条纹
- - *文件存储*：AWS S3 *为什么我构建了此内容：*我对生成视频的快速进步着迷。但是，访问和尝试这些通常意味着在不同的服务之间跳跃，每个服务都有自己的界面和定价。我想创建一个平台，用户（开发人员，创作者或AI爱好者）可以轻松地访问各种顶级AI视频生成工具。鉴于其令人印象深刻的文本理解和运动质量，克林模型的集成是一个特别的重点。*关键特征：*  - *多样化的视频生成*：访问文本到视频和图像到图像的10+模型，可满足不同的样式和需求。
- -  *文本到视频 *：将您的书面概念付诸实践。
- -  *图像到视频 *：将静态图像动画为动态视频。
- -  *免费级别和使用信用额度 *：免费入门并探索功能。
- -  *多语言 *：UI提供英语，中文，日语，韩语，法语和传统中文。
- - *现代界面*：构建以可用性和响应能力为重点。*接下来是什么：*  - 激活我们计划的AI聊天功能。
- - 扩展我们支持的AI视频模型库（包括探索可用的直接VEO模型集成）。
- - 为开发人员开发公共API。
- - 启动专用的移动应用程序。
- - 视频生成参数的更细粒度的控件。*我想获得您的反馈！*  - 您如何看待这个概念？
- - 您想添加任何特定的AI模型（聊天或视频）吗？
- - 您认为的任何功能都会使其对您的项目或创意努力更有用？ rel =“ nofollow”&gt; https://veo3ai.io ）。感谢您检查它！
-
-注释URL： https://news.ycombinator.com/item？id=44105232 
+      <title>非刀具软件可重复性工具</title>
+      <link>https://lumosql.org/src/not-forking/doc/trunk/README.md</link>
+      <description><![CDATA[文章URL： https：//lumosql.org/src/src/not-fork/not-forking/not-forking/doc/doc/doc/trunk/trunk/trunk/read/mead/medme.mme.md 
+注释URL： https://news.ycombinator.com/item?id=44106276 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.veo3ai.io</guid>
-      <pubDate>Tue, 27 May 2025 09:14:42 GMT</pubDate>
+      <guid>https://lumosql.org/src/not-forking/doc/trunk/README.md</guid>
+      <pubDate>Tue, 27 May 2025 12:28:35 GMT</pubDate>
     </item>
     <item>
-      <title>那些该死的Entia只是继续倍增</title>
-      <link>http://pascal.hansotten.com/simplicity/</link>
-      <description><![CDATA[文章URL： http://pascal.hansotten.com/simplicity/   
-注释URL： https://news.ycombinator.com/item?id=44105207 
+      <title>我打了一只狗[视频]</title>
+      <link>https://www.youtube.com/watch?v=huYpeHW7eGM</link>
+      <description><![CDATA[文章URL： https://www.youtube.com/watch?v=huypehw7egm 
+注释URL： https://news.ycombinator.com/item?id=44106267 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>http://pascal.hansotten.com/simplicity/</guid>
-      <pubDate>Tue, 27 May 2025 09:11:22 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=huYpeHW7eGM</guid>
+      <pubDate>Tue, 27 May 2025 12:27:49 GMT</pubDate>
     </item>
     <item>
-      <title>AI的最终游戏是什么？</title>
-      <link>https://news.ycombinator.com/item?id=44105197</link>
-      <description><![CDATA[ AI实体是我们的奴隶还是我们的主人？为什么我们认为智能机器人想为人类而不是为自己的机器人而努力？
-
-注释URL： https://news.ycombinator.com/item?id=44105197 
+      <title>Next.JS与Tanstack</title>
+      <link>https://www.kylegill.com/essays/next-vs-tanstack/</link>
+      <description><![CDATA[文章URL： https://www.kylegill.com/essays/next-vs-vs-vs-vs-tanstack/ 
+注释URL： https://news.ycombinator.com/item？id=44106245 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44105197</guid>
-      <pubDate>Tue, 27 May 2025 09:09:45 GMT</pubDate>
+      <guid>https://www.kylegill.com/essays/next-vs-tanstack/</guid>
+      <pubDate>Tue, 27 May 2025 12:24:25 GMT</pubDate>
     </item>
     <item>
-      <title>结肠数据库漏洞</title>
-      <link>https://lowendbox.com/blog/colocloud-breach-virtualizer-bugs-lead-to-wild-lowendtalk-thread/</link>
-      <description><![CDATA[Article URL: https://lowendbox.com/blog/colocloud-breach-virtualizer-bugs-lead-to-wild-lowendtalk-thread/
-注释URL： https://news.ycombinator.com/item?id=44105193 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://lowendbox.com/blog/colocloud-breach-virtualizer-bugs-lead-to-wild-lowendtalk-thread/</guid>
-      <pubDate>Tue, 27 May 2025 09:08:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>您可以淹没在一英寸的水中，所以请照顾好自己</title>
-      <link>https://iamevan.me/blog/you-can-drown-in-an-inch-of-water/</link>
-      <description><![CDATA[文章URL： https://iamevan.me/blog/you-can-can-can-can-in--drown-in-in-in-in-in-in-inch-anch-anch-inch-inch-inch-inch--anch-fater/-water/-water/       
-注释URL： https://news.ycombinator.com/item？id=44105191 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://iamevan.me/blog/you-can-drown-in-an-inch-of-water/</guid>
-      <pubDate>Tue, 27 May 2025 09:08:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Aquirin  - 乙酸卤素细胞的卤素查看器（HVAC）</title>
-      <link>https://aquirin.com/HV</link>
-      <description><![CDATA[文章URL： https://aquirin.com/hv   
-注释URL： https://news.ycombinator.com/item？id=44105187 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://aquirin.com/HV</guid>
-      <pubDate>Tue, 27 May 2025 09:08:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>欧洲警告巨型电子零售商停止欺骗消费者或面对愤怒</title>
-      <link>https://www.theregister.com/2025/05/27/eu_shein_warning/</link>
-      <description><![CDATA[文章URL： https://www.theregister.com/2025/2025/05/05/27/eu_shein_warning/eu_shein_warning/
-注释URL： https://news.ycombinator.com/item？id=44105185 
+      <title>马斯克对南非的“白人种族灭绝”的固定</title>
+      <link>https://www.muskwatch.com/p/why-musk-is-fueling-the-south-african</link>
+      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item？id=44106242 
 点：2 
 ＃评论：0 ]]></description>
-      <guid>https://www.theregister.com/2025/05/27/eu_shein_warning/</guid>
-      <pubDate>Tue, 27 May 2025 09:08:09 GMT</pubDate>
+      <guid>https://www.muskwatch.com/p/why-musk-is-fueling-the-south-african</guid>
+      <pubDate>Tue, 27 May 2025 12:24:06 GMT</pubDate>
     </item>
     <item>
-      <title>M/o/vfuscator：反向工程噩梦中转动MOV（2015）[PDF]</title>
-      <link>https://github.com/xoreaxeaxeax/movfuscator/blob/master/slides/domas_2015_the_movfuscator.pdf</link>
-      <description><![CDATA[文章URL： https://github.com/xoreaxeaxeax/movfuscator/blob/master/slides/domas_2015_the_movfuscator.pdf  
-注释URL： https://news.ycombinator.com/item?id=44105174 
+      <title>Show HN：Facet.ink  - 有影响力写作的新“论文”功能</title>
+      <link>https://facet.ink</link>
+      <description><![CDATA[ hi hn，我是Facet背后的团队的一部分，该平台旨在使写作和出版数字书籍无缝。我们刚刚启动了一项新功能：论文。有时，简洁的论文更合适。有了这一新功能，作者现在可以根据他们希望传达的信息出版一本全面的书或专注的文章进行选择。
+丰富的文本编辑器：利用我们的概念般的编辑器来制作图像，视频，标注等的内容。
+ - 无缝发行：发布后，与可以在任何设备上访问的读者毫不费力地分享您的作品。
+ - 社区：每篇文章都有自己的社区与您的读者取得联系。我们相信，这种增加的作家可以更好地将其内容与适当的格式匹配，增强创作和阅读体验。您可以在这里探索新论文的功能： https://facet.ink/publishings/surprise-surprise     https：//facet.ing    ，我们会听到您的想法和喂食！
+
+注释URL： https://news.ycombinator.com/item?id=44106237 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://github.com/xoreaxeaxeax/movfuscator/blob/master/slides/domas_2015_the_movfuscator.pdf</guid>
-      <pubDate>Tue, 27 May 2025 09:05:03 GMT</pubDate>
+      <guid>https://facet.ink</guid>
+      <pubDate>Tue, 27 May 2025 12:23:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>我把旧打字机变成了游戏打字机</title>
+      <link>https://old.reddit.com/r/pcmasterrace/comments/1kvi929/i_turned_an_old_typewriter_into_a_gaming/</link>
+      <description><![CDATA[文章URL： https://old.reddit.com/r/pcmasterrace/comments/1kvi929/i_turned_and_old_typewriter_into_a_a_gaming/  
+注释URL： https://news.ycombinator.com/item?id=441062223 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://old.reddit.com/r/pcmasterrace/comments/1kvi929/i_turned_an_old_typewriter_into_a_gaming/</guid>
+      <pubDate>Tue, 27 May 2025 12:21:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>自动驾驶卡车初创公司将商业秘密归为中国公司</title>
+      <link>https://www.wsj.com/tech/china-self-driving-trucks-tusimple-c20255e1</link>
+      <description><![CDATA[文章URL： https://www.wshine c..com/tech/china-c.com/tech/china-china-china-china-china-self-driving-driving-driving-truck-truck-truck-truck-truck-truck-tusimple-c20255e1 注释URL： https://news.ycombinator.com/item?id=44106214 
+点：2 
+＃评论：0 ]]></description>
+      <guid>https://www.wsj.com/tech/china-self-driving-trucks-tusimple-c20255e1</guid>
+      <pubDate>Tue, 27 May 2025 12:20:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>“雷，这是一种宗教”：内部雷·达利奥（Ray Dalio）的对冲基金</title>
+      <link>https://nymag.com/intelligencer/article/ray-dalio-rob-copeland-the-fund-book-excerpt.html</link>
+      <description><![CDATA[文章url：注释URL： https://news.ycombinator.com/item？id=44106212 
+点：2 
+＃评论：1 ]]></description>
+      <guid>https://nymag.com/intelligencer/article/ray-dalio-rob-copeland-the-fund-book-excerpt.html</guid>
+      <pubDate>Tue, 27 May 2025 12:20:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
