@@ -4,14 +4,47 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 28 May 2025 01:28:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 03:49:08 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：Autothink  - 通过自适应推理，将本地LLM绩效提高43％</title>
+      <link>https://news.ycombinator.com/item?id=44112326</link>
+      <description><![CDATA[我构建了Autothink，该技术通过基于查询复杂性来自适应分配计算资源来使本地LLMS提高原因。核心思想：而不是给出每个查询的“思维时间”，而是将查询分类为高或低的复杂性并相应地分配思考图表。复杂的推理获得了70-90％的令牌，简单查询获得20-40％。 i还实现了从关键令牌搜索（最初来自Microsoft的Phi-4纸）衍生的转向向量，这些搜索是指导该模型在发电过程中的推理模式。这些向量鼓励行为等行为，例如数值准确性，自我纠正和彻底的探索。导致DeepSeek-R1-Distill-Qwen-1.5b： -GPQA-DIAMOND：31.06％vs 21.72％基线（+43％的相对改善）
+-MMLU-PRO：26.38％vs 25.58％基线
+ - 使用的令牌少于基线方法与任何本地推理模型一起使用-DeepSeek，Qwen，自定义微型模型。没有API依赖。 rel =“ nofollow”&gt; https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5253327  代码和示例： https：//github.com/codelion/codelion/optillm/tree/main/main/main/main/main/main/optillm/autlm/authrm/autoth ... href =“ https://github.com/codelion/pts”&gt; https://github.com/codelion/pts  我很好奇您对您对AI推理的自适应资源分配的想法。您是否尝试过使用本地型号的类似方法？
+
+注释URL： https://news.ycombinator.com/item?id=44112326 
+点：31 
+＃评论：2 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=44112326</guid>
+      <pubDate>Wed, 28 May 2025 02:39:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>愚蠢理论[PDF]</title>
+      <link>https://www.onthewing.org/user/Bonhoeffer%20-%20Theory%20of%20Stupidity.pdf</link>
+      <description><![CDATA[文章URL： https:///wwwww.onthewing.orgg/user/benhoeer/bonhoefer/benhoefer/bonhoefer/benhhoefer%20theyore;
+注释URL： https://news.ycombinator.com/item?id=44112265 
+点：26 
+＃评论：3 ]]></description>
+      <guid>https://www.onthewing.org/user/Bonhoeffer%20-%20Theory%20of%20Stupidity.pdf</guid>
+      <pubDate>Wed, 28 May 2025 02:25:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用Postgres PG_TEST_FSYNC工具来测试低潜伏期写作</title>
+      <link>https://tanelpoder.com/posts/using-pg-test-fsync-for-testing-low-latency-writes/</link>
+      <description><![CDATA[Article URL: https://tanelpoder.com/posts/using-pg-test-fsync-for-testing-low-latency-writes/
+注释URL： https://news.ycombinator.com/item？id=44112218 
+点：10 
+＃评论：0 ]]></description>
+      <guid>https://tanelpoder.com/posts/using-pg-test-fsync-for-testing-low-latency-writes/</guid>
+      <pubDate>Wed, 28 May 2025 02:15:15 GMT</pubDate>
+    </item>
     <item>
       <title>Chrome Extensions的特权升级（2023）</title>
       <link>https://0x44.xyz/blog/cve-2023-4369/</link>
       <description><![CDATA[文章url： https：//0x44.xyz/blog/cve-2023-4369/ 
 注释URL： https://news.ycombinator.com/item?id=44111898 
-点：3 
-＃评论：0 ]]></description>
+点：17 
+＃评论：3 ]]></description>
       <guid>https://0x44.xyz/blog/cve-2023-4369/</guid>
       <pubDate>Wed, 28 May 2025 00:48:45 GMT</pubDate>
     </item>
@@ -20,8 +53,8 @@
       <link>https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles</link>
       <description><![CDATA[文章url： https://hazyresearch.stanford.edu/blog/blog/2025-05-27-27-no-bubbles
 注释URL： https://news.ycombinator.com/item?id=44111673 
-点：29 
-＃评论：3 ]]></description>
+点：77 
+＃评论：10 ]]></description>
       <guid>https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles</guid>
       <pubDate>Wed, 28 May 2025 00:01:20 GMT</pubDate>
     </item>
@@ -30,8 +63,8 @@
       <link>https://roderickkhan.com/posts/2025-05-16-poe-uefi-solution</link>
       <description><![CDATA[文章url：
 注释URL： https://news.ycombinator.com/item?id=44111609 
-点：24 
-＃评论：0 ]]></description>
+点：74 
+＃评论：6 ]]></description>
       <guid>https://roderickkhan.com/posts/2025-05-16-poe-uefi-solution</guid>
       <pubDate>Tue, 27 May 2025 23:45:02 GMT</pubDate>
     </item>
@@ -40,8 +73,8 @@
       <link>https://github.com/UCSBarchlab/OpenTPU</link>
       <description><![CDATA[文章URL： https://github.com/ucsbarchlab/opentpu  
 注释URL： https://news.ycombinator.com/item?id=44111452 
-点：24 
-＃评论：4 ]]></description>
+点：46 
+＃评论：5 ]]></description>
       <guid>https://github.com/UCSBarchlab/OpenTPU</guid>
       <pubDate>Tue, 27 May 2025 23:10:44 GMT</pubDate>
     </item>
@@ -50,8 +83,8 @@
       <link>https://girard.perso.math.cnrs.fr/mustard/article.html</link>
       <description><![CDATA[文章url： https://girard.perso.math.math.cnrs.cnrs.cnrs.fr/mustard/mustard/article.hticle.htmlicle.html     
 注释URL： https://news.ycombinator.com/item?id=44110931 
-点：32 
-＃评论：14 ]]></description>
+点：42 
+＃评论：18 ]]></description>
       <guid>https://girard.perso.math.cnrs.fr/mustard/article.html</guid>
       <pubDate>Tue, 27 May 2025 21:48:54 GMT</pubDate>
     </item>
@@ -60,50 +93,20 @@
       <link>https://simonwillison.net/2025/May/27/llm-tools/</link>
       <description><![CDATA[文章URL： https://simonwillison.net.net/2025/2025/may/may/27/llm-tools/27/llm-tools/ 
 注释URL： https://news.ycombinator.com/item？id=44110584 
-点：188 
-＃评论：71 ]]></description>
+点：239 
+＃评论：91 ]]></description>
       <guid>https://simonwillison.net/2025/May/27/llm-tools/</guid>
       <pubDate>Tue, 27 May 2025 20:53:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>在越南，这是奇卡诺文化的不太可能的哨所</title>
-      <link>https://www.latimes.com/world-nation/story/2025-05-27/chicano-culture-vietnam</link>
-      <description><![CDATA[文章URL： https://www.latps：//www.latps：/
-注释URL： https://news.ycombinator.com/item?id=44110270 
-点：52 
-＃评论：38 ]]></description>
-      <guid>https://www.latimes.com/world-nation/story/2025-05-27/chicano-culture-vietnam</guid>
-      <pubDate>Tue, 27 May 2025 20:09:58 GMT</pubDate>
     </item>
     <item>
       <title>为什么原始Macintosh的屏幕分辨率为512×324</title>
       <link>https://512pixels.net/2025/05/original-macintosh-resolution/</link>
       <description><![CDATA[文章url： https:/512pixels.net.net/2025/2025/05/05/original-macintosh-resolution/
 注释URL： https://news.ycombinator.com/item？id=44110219 
-点：113 
-＃评论：59 ]]></description>
+点：130 
+＃评论：77 ]]></description>
       <guid>https://512pixels.net/2025/05/original-macintosh-resolution/</guid>
       <pubDate>Tue, 27 May 2025 20:02:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>在WebGL中运行GPT-2：重新发现GPU着色器编程的丢失艺术</title>
-      <link>https://nathan.rs/posts/gpu-shader-programming/</link>
-      <description><![CDATA[文章URL： https://nathan.rs/posts/gpu-shader-programming/ 
-注释URL： https://news.ycombinator.com/item?id=44109257 
-点：94 
-＃评论：23 ]]></description>
-      <guid>https://nathan.rs/posts/gpu-shader-programming/</guid>
-      <pubDate>Tue, 27 May 2025 18:02:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>圆桌会议（YC S23）正在雇用技术人员</title>
-      <link>https://www.ycombinator.com/companies/roundtable/jobs/ZTZHEbb-member-of-technical-staff</link>
-      <description><![CDATA[文章URL：https://www.ycombinator.com/companies/roundtable/jobs/ZTZHEbb-member-of-technical-staff
-注释URL： https://news.ycombinator.com/item?id=44109090 
-点：0 
-＃评论：0 ]]></description>
-      <guid>https://www.ycombinator.com/companies/roundtable/jobs/ZTZHEbb-member-of-technical-staff</guid>
-      <pubDate>Tue, 27 May 2025 17:42:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
