@@ -4,120 +4,111 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 28 May 2025 15:20:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 18:26:17 GMT</lastBuildDate>
     <item>
-      <title>神秘的戈壁墙发现了</title>
-      <link>https://phys.org/news/2025-05-secrets-mysterious-gobi-wall-uncovered.html</link>
-      <description><![CDATA[文章URL： https://phys.org/news/2025-05-05-secrets-mysters-mysters-mysterious--gobi-will-unclall-unclall-pore 
-注释URL： https://news.ycombinator.com/item?id=44116803 
-点：3 
+      <title>DeepSeek R1-0528</title>
+      <link>https://huggingface.co/deepseek-ai/DeepSeek-R1-0528</link>
+      <description><![CDATA[文章URL： https://huggingface.co/deepseek-ai/deepseek-ai/deepseek-ieek-r1-0528 
+注释URL： https://news.ycombinator.com/item?id=441188818 
+点：8 
 ＃评论：0 ]]></description>
-      <guid>https://phys.org/news/2025-05-secrets-mysterious-gobi-wall-uncovered.html</guid>
-      <pubDate>Wed, 28 May 2025 15:07:57 GMT</pubDate>
+      <guid>https://huggingface.co/deepseek-ai/DeepSeek-R1-0528</guid>
+      <pubDate>Wed, 28 May 2025 17:59:02 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：湿地 - 轻巧的Python图书馆，用于管理Conda环境</title>
-      <link>https://arthursw.github.io/wetlands/0.2.0/</link>
-      <description><![CDATA[在构建用于应用程序的插件系统时，避免依赖性冲突至关重要。为了解决这个问题，我创建了湿地 - 轻量级的Conda环境经理。它使用多处理。连接和腌制模块进行过程间通信。此外，人们可以轻松地使用环境之间的共享内存，从而使数据交换更有效。文档： https：/
-来源： https://github.com/arthursw/wetlands/  我非常感谢任何反馈。谢谢！
-
-注释URL： https://news.ycombinator.com/item?id=441166643 
-点：5 
-＃评论：1 ]]></description>
-      <guid>https://arthursw.github.io/wetlands/0.2.0/</guid>
-      <pubDate>Wed, 28 May 2025 14:54:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>冒泡的莱塔</title>
-      <link>https://leta.mullvad.net</link>
-      <description><![CDATA[文章URL： https://leta.mullvad.net   
-注释URL： https://news.ycombinator.com/item?id=44116503 
-点：38 
-＃评论：11 ]]></description>
-      <guid>https://leta.mullvad.net</guid>
-      <pubDate>Wed, 28 May 2025 14:38:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：LOODIO 2  - 简单的可充电浴室隐私设备</title>
-      <link>https://loodio.com/</link>
-      <description><![CDATA[嘿，hn！我几年前在这里张贴，试图为我称之为loodio的产品筹集资金。 loodio是一名动作激活的音乐播放器，用于在浴室访问期间播放音乐的浴室运动播放器，以使用户在神圣的时刻为用户提供隐私。美国，但在制作下一个版本时，在世界各地的各个地方。我正在使用Python脚本和UNIX服务运行它。要添加音乐，人们必须进入该单元，以便您可以想象某些人对某些人有多痛苦。客户喜欢它！但是我知道我可以做得更好。最常见的请求是电池操作。这是版本1的一些评论： 
- https://loodio.com/pages/pages/pages/reviews  我很荣幸能自豪地说，loodio 2终于在这里工作，我想像我在近5年前开始工作的时候，现在正在努力工作。 手术）。
-它具有出色的声音和一种简单的方法，可以在SD卡支持（包括4GB）中添加自己的音乐。不需要任何应用程序。可以在没有WiFi的情况下运行（但是您会丢失一些功能，例如Internet广播，时间更新，软件更新和天气）您可能会询问它为什么具有显示？
-因为，我曾经有一个带有展示的电动牙刷。该显示显示您刷了多长时间，以确保您每刷2分钟。
-当我不刷牙时，它显示了当前的时间。然后我停止使用电牙刷（因为牙医告诉我他们的牙齿太苛刻），但大概在5年之内保留了展示，因为我注意到我真的很想知道早上准备上学/上班的时间。
-我注意到的另一件事是我总是检查外面的天气，所以我可以穿着适当的衣服。这些功能与灯光一起是我认为人们不希望使用的功能，但随着时间的流逝，这些功能变得与音乐一样重要。客户访谈验证了这一点。我浪费了很多钱，试图将最初18个月的开发外包。然后，我决定自己开始做。
-我出售的版本实际上是产品的第25（！）迭代。硬件的问题在于，由于中国的“设计 - &gt; order”的循环“设计 - &gt; testing-&gt;重复”，您大约需要一个月的时间来迭代电路（如果您不住在深圳的工厂旁边）。而且我没有电子产品的经验。看起来很酷。但主要是，我想对Tadeusz Karpinski和Velimir Stoleski表示赞赏，这些曲目将我糟糕的Python脚本移植到了正在运行loodio2的ESP32上。您需要尝试一下！我真的认为你会喜欢的！  https://loodio.com  
-
-注释URL： https://news.ycombinator.com/item?id=44116298 
-点：23 
-＃评论：16 ]]></description>
-      <guid>https://loodio.com/</guid>
-      <pubDate>Wed, 28 May 2025 14:19:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>对隐私硬币XMR的匿名化攻击的全面分析</title>
-      <link>https://monero.forex/is-monero-totally-private-a-comprehensive-analysis-of-de-anonymization-attacks-against-the-privacy-coin/</link>
-      <description><![CDATA[文章URL：&gt; https://monero.forex/is-monero-totally-private-a-comprehans-analysis-of-de-ronyminization-de-Attacks-Attacks-against-privacy-coin/   
-注释URL： https://news.ycombinator.com/item?id=44116236 
-点：37 
+      <title>将神经网汇总到C的1,744×加速度</title>
+      <link>https://slightknack.dev/blog/difflogic/</link>
+      <description><![CDATA[文章URL： https://slightknack.dev/blog/difflogic/   
+注释URL： https://news.ycombinator.com/item？id=44118373 
+点：33 
 ＃评论：2 ]]></description>
-      <guid>https://monero.forex/is-monero-totally-private-a-comprehensive-analysis-of-de-anonymization-attacks-against-the-privacy-coin/</guid>
-      <pubDate>Wed, 28 May 2025 14:11:47 GMT</pubDate>
+      <guid>https://slightknack.dev/blog/difflogic/</guid>
+      <pubDate>Wed, 28 May 2025 17:22:47 GMT</pubDate>
     </item>
     <item>
-      <title>打击理论：宇宙结构形成的新模型</title>
-      <link>https://theeggandtherock.com/p/the-blowtorch-theory-a-new-model</link>
-      <description><![CDATA[文章URL： https://theeggandtherock.com/p/the-blowtorch-the-blowtorch-therory-a-new-new-model 
-注释URL： https://news.ycombinator.com/item？id=44115973 
-点：43 
-＃评论：16 ]]></description>
-      <guid>https://theeggandtherock.com/p/the-blowtorch-theory-a-new-model</guid>
-      <pubDate>Wed, 28 May 2025 13:43:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>德克萨斯州的年度阅读测试每年调整了困难，掩盖了改进</title>
-      <link>https://theconversation.com/texas-annual-reading-test-adjusted-its-difficulty-every-year-masking-whether-students-are-improving-244159</link>
-      <description><![CDATA[文章URL： https://theconversation.com/texas-annual-anual-reading-test-usjusted-is-difficulty-e every-every-evermasking-where-students-students-students-are-raproving-244159   
-注释URL： https://news.ycombinator.com/item？id=44115854 
-点：18 
+      <title>Gogograndparent（YC S16）正在雇用后端工程师</title>
+      <link>https://news.ycombinator.com/item?id=44118127</link>
+      <description><![CDATA[注释URL： https://news.ycombinator.com/item?id=44118127 
+点：0 
 ＃评论：0 ]]></description>
-      <guid>https://theconversation.com/texas-annual-reading-test-adjusted-its-difficulty-every-year-masking-whether-students-are-improving-244159</guid>
-      <pubDate>Wed, 28 May 2025 13:31:07 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=44118127</guid>
+      <pubDate>Wed, 28 May 2025 17:01:26 GMT</pubDate>
     </item>
     <item>
-      <title>世卫组织关心时代</title>
-      <link>https://dansinker.com/posts/2025-05-23-who-cares/</link>
-      <description><![CDATA[文章URL： https://dansinker.com/posts/2025-05-05-23-who-cares/
-评论URL： https://news.ycombinator.com/item?id=44115620 
-点：216 
-＃评论：126 ]]></description>
-      <guid>https://dansinker.com/posts/2025-05-23-who-cares/</guid>
-      <pubDate>Wed, 28 May 2025 13:07:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Voiden  - 免费的，离线的，Git-Native API客户端</title>
-      <link>https://voiden.md</link>
-      <description><![CDATA[嘿，hn！ Aldin在这里，一只帮助voiden的帮助（ https://voiden.md ） voiden是免费的，离线的，git-native api client。您的API定义，文档和测试都生活在一起。因此，团队建立了相反的情况：一个没有登录的离线工具，没有遥测，没有锁定。只需Markdown和Hotkeys即可。它的行为就像代码：本地文件，git分支，无云废话。终端是内置的，因此您可以从应用程序中进行提交，差异和推动更改。文档保持与您的请求保持接近，因此API规格以及API实际上永远不会散开的API。无处不在的邮递员，文档和测试文件到处都是。真理的单一来源。简约的获取请求看起来像这样：  获取
-      https://dummyjson.com/posts
- 
-只需点击 /端点，粘贴URL，然后使用CMD /CTRL + ENTER运行。不是OSS（尚未），而是本地和免费的100％。
-可选的插件将降低线路，但核心保持免费。我们喜欢厌倦了过于复杂和肿的API工具的反馈。
+      <title>Show HN：我在Rust中重写了我的Mac Electron应用程序</title>
+      <link>https://desktopdocs.com/?v=2025</link>
+      <description><![CDATA[一年前，我的联合创始人在HN上启动了桌面文档。这是我们使用电子构建的Mac应用程序，它使用夹具嵌入式用自然语言在本地搜索照片和视频。我们从HN和我们的第一个付费客户那里得到了积极的反馈，但是该应用程序几乎是1GB且使用的笨拙。 tldr; Rust中的重建是正确的举动。
+-DMG安装程序较小70％：232MB→69.5MB
+ - 索引文件更快：一个38分钟的视频现在在〜3分钟而不是10-14分钟内索引
+ - 总体上更稳定（用于随机崩溃的旧应用程序）原始版本奏效了，但是当您尝试索引数千张图像或大型视频时，表现不佳。我们浪费了很多时间来优化电子的主要渲染器流程通信，并最终获得了一个复杂的工作者系统来处理大量媒体文件。几个月来，我们犹豫不决地争取了继续优化电子应用程序与迅速或生锈的全面重建的犹豫不决。让我们退缩的主要因素是，我们已经有将近10年的Swift编码，我们对Rust的了解不太了解。最终打破了我们的是，当用户抱怨该应用程序崩溃了他们的视频电话时，他们只是在后台运行。我想这就是当您用铬运送应用程序时，该应用程序在任何应用程序代码之前占200mb。今天，该应用程序仍然使用剪辑进行嵌入，除了Redis进行矢量存储和搜索之外，Rust现在处理图像和视频处理管道以及所有文件I/O，以及所有文件I/O来浏览UI，而不是sck yi rebuik to scred to scred to rebuy to rebue to scred。之所以表现良好，是因为它在旧版本的复杂性生活后产生了更清洁，更简单的UI。迁移中最棘手的部分是学习生锈。 LLM肯定会有所帮助，但是与电子相比，Rust/Tauri社区并不那么成熟。将Redis捆绑到该应用程序中是一场许可的噩梦，但是我认为我们使用Rust手柄的解决方案比我们对电子的解决方案更好。有时，您必须扔掉工作代码以构建正确的东西。 ama关于Rust/Tauri迁移，Redis Bundis Nightmares，剪辑嵌入方式如何用于本地语义搜索，或者为什么电子不总是答案。 
 
-注释URL： https://news.ycombinator.com/item?id=44115467 
-点：41 
-＃评论：31 ]]></description>
-      <guid>https://voiden.md</guid>
-      <pubDate>Wed, 28 May 2025 12:48:43 GMT</pubDate>
+注释URL： https://news.ycombinator.com/item?id=44118023 
+点：100 
+＃评论：75 ]]></description>
+      <guid>https://desktopdocs.com/?v=2025</guid>
+      <pubDate>Wed, 28 May 2025 16:53:11 GMT</pubDate>
     </item>
     <item>
-      <title>AI：加速无能</title>
-      <link>https://www.slater.dev/accelerated-incompetence/</link>
-      <description><![CDATA[文章URL： https://www.slater.dev/accelerated-incompetence/ 
-注释URL： https://news.ycombinator.com/item？id=444114631 
-点：203 
-＃评论：189 ]]></description>
-      <guid>https://www.slater.dev/accelerated-incompetence/</guid>
-      <pubDate>Wed, 28 May 2025 10:50:23 GMT</pubDate>
+      <title>日本邮报启动“数字地址”系统</title>
+      <link>https://www.japantimes.co.jp/business/2025/05/27/companies/japan-post-digital-address/</link>
+      <description><![CDATA[文章URL： https://www.japantimes.co.jp/business/2025/05/27/companies/japan-post-digital-address/  
+注释URL： https://news.ycombinator.com/item?id=441177779 
+点：33 
+＃评论：15 ]]></description>
+      <guid>https://www.japantimes.co.jp/business/2025/05/27/companies/japan-post-digital-address/</guid>
+      <pubDate>Wed, 28 May 2025 16:33:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>编译器资源管理器和URL的承诺永远持续</title>
+      <link>https://xania.org/202505/compiler-explorer-urls-forever</link>
+      <description><![CDATA[文章url： https://xania.org/202505/compiler-compiler-explorer-explorer-explorer-urls-urls-forever  forever  
+注释URL： https://news.ycombinator.com/item?id=441177722 
+点：77 
+＃评论：36 ]]></description>
+      <guid>https://xania.org/202505/compiler-explorer-urls-forever</guid>
+      <pubDate>Wed, 28 May 2025 16:28:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动HN：MindFort（YC X25） - 用于连续灌输的AI代理</title>
+      <link>https://news.ycombinator.com/item?id=44117465</link>
+      <description><![CDATA[嘿，hn！我们是Mindfort的Brandon，Sam和Akul（ https://mindfort.ai ）。我们正在建立自主的AI代理，这些代理在Web应用程序中不断找到，验证和补丁安全漏洞 - 实际上创建了一个运行24/7的AI红色团队。 rel =“ nofollow”&gt; https://www.loom.com/share/e56faa07d90b417db09bbb44454dce8d5a  今天的安全测试越来越具有挑战性。传统扫描仪产生30-50％的假阳性，在噪音中淹没工程团队。手动渗透测试每季度进行每季度进行，每季度进行数万评估，需要数周的时间才能完成。同时，在AI帮助的情况下，团队的运输速度比以往任何时候都更快，但是安全评论已成为更大的瓶颈。我们三个人都从不同的角度遇到了这个问题。布兰登（Brandon）在ProjectDiscovery Building the Nuclei Scanner工作，然后在NetSpi（最大的笔测试公司之一）为测试人员建造AI工具。山姆（Sam）是Salesforce领导Tableau的高级工程师。他亲自处理了杂耍安全调查结果和管理补救措施。阿库尔（Akul）在AI和安全方面做了他的主人，共同撰写了有关使用LLM进行生态攻击的论文，并参加了OpenAI和人类的红色团队。脆弱性并建议补丁 - 类似于人类渗透测试仪的工作原理。与传统扫描仪的关键区别在于，我们的代理商在报告之前验证了运行时环境中的利用，从而降低了误报。我们使用了共同策划的多个基础模型。代理人执行侦察以了解攻击表面，然后使用该上下文来告知测试策略。当他们发现潜在的漏洞时，他们会旋转孤立的环境以验证剥削。如果成功，他们将分析代码库以生成上下文补丁。是什么使这与现有工具不同？通过剥削验证：我们不仅仅是模式匹配 - 我们利用漏洞来证明它们是真实的； - 代码库集成：代理了解您的代码结构，以查找复杂的逻辑错误并建议适当的修复； - 连续操作：随着代码的发展，我们不断测试，而不是时间评估； - 攻击链发现：代理商可以找到需要将不同问题链接的多步漏洞。我们目前正在尽早访问，与初始合作伙伴合作以完善平台。我们的代理商已经发现了其他工具错过的脆弱性，并且在渗透测试基准方面得分很好。期待您的想法和评论！！
+
+注释URL： https://news.ycombinator.com/item?id=44117465 
+点：15 
+＃评论：5 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=44117465</guid>
+      <pubDate>Wed, 28 May 2025 16:00:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>从华夫饼屋停止并停止</title>
+      <link>https://www.jack.bio/blog/wafflehouse</link>
+      <description><![CDATA[文章URL： https://www.jack.bio/blog/blog/wafflehouse   
+评论URL： https://news.ycombinator.com/item?id=44117302 
+点：122 
+＃评论：72 ]]></description>
+      <guid>https://www.jack.bio/blog/wafflehouse</guid>
+      <pubDate>Wed, 28 May 2025 15:48:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Tesseral  - 开源Auth</title>
+      <link>https://github.com/tesseral-labs/tesseral</link>
+      <description><![CDATA[嗨，伙计们！我是Ulysse，然后是Tesseral（ https://github.com/tesseral-com/tesseral-labs/tesseral ）是B2B SaaS的Open-Source Auth。从那以后，我一直迷恋企业软件的细节。例如，我在Covid大流行的早期就写了SAML的实施，因为我认为这很有趣。多年来，我感到沮丧的是，很少有人有兴趣对商业软件的开发人员显而易见。 auth确实不需要如此混乱。我们使Tesseral帮助软件工程师使B2B Auth完全正确 - 并将精力集中在构建用户想要的功能上。您可以使用Tesseral站立登录页面，对用户进行身份验证，并管理其资源的访问。将其视为Auth0或Clerk，但开源并专门为B2B应用程序构建。除其他外，这意味着它是为B2B多租户设计的，包括企业就绪功能，例如单登录（SAML SSO），多因素身份验证（MFA），SICIM供应和基于角色的访问控制（RBAC）（RBAC）。  为那些向公众展示的人，您可以使用Tesseral来管理Tesseral for api api keys for api keys。您甚至可以通过使用我们的RBAC功能将API密钥的范围限制为特定操作。我们已经注意到Tesseral功能强大且足够安全，足以为真实的企业软件供电，但仍然使任何软件开发人员都可以使用。您不必成为安全专家即可实施Tesseral。 （默认情况下，Tesseral提出了一些意见。让我们知道您是否有充分的理由做一些不寻常的事情，我们将解决一些问题。）如果您想尝试Tesseral，则可以自己托管它或使用我们的托管服务。托管服务生活在 https://console.tesseral.com 。您可以在此处找到文档： https://tesseral.com/docs 。以下是一些简单的演示：   https://www.youtube.com/watch?v= ihypzz3vb54     https://www.youtube.com/watch?v=t-jj8tnjqnu     https://www.youtube.com/watch?v=mwthbirzo8k  我们处于项目的早期阶段，因此我们仍然有一些差距。我们在途中有更多功能，错误修复，SDK和文档。我们错过了什么？我们能做得更好吗？我们渴望听到社区的来信！
+
+注释URL： https://news.ycombinator.com/item?id=44117059 
+点：72 
+＃评论：22 ]]></description>
+      <guid>https://github.com/tesseral-labs/tesseral</guid>
+      <pubDate>Wed, 28 May 2025 15:27:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLM Codegen GO BRRR  - 与Git Worktrees和TMUX并行化</title>
+      <link>https://www.skeptrune.com/posts/git-worktrees-agents-and-tmux/</link>
+      <description><![CDATA[文章url： https：//www.skeptrune.com/posts/posts/git-worktrees-worktrees-worktrees-agents-agents-angents-angents-angent-angent-and-tmux--and-tmux--tmux-
+注释URL： https://news.ycombinator.com/item?id=441166872 
+点：19 
+＃评论：7 ]]></description>
+      <guid>https://www.skeptrune.com/posts/git-worktrees-agents-and-tmux/</guid>
+      <pubDate>Wed, 28 May 2025 15:13:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
