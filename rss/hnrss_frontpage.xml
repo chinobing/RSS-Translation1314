@@ -4,37 +4,54 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 28 May 2025 03:49:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 06:28:51 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Autothink  - 通过自适应推理，将本地LLM绩效提高43％</title>
-      <link>https://news.ycombinator.com/item?id=44112326</link>
-      <description><![CDATA[我构建了Autothink，该技术通过基于查询复杂性来自适应分配计算资源来使本地LLMS提高原因。核心思想：而不是给出每个查询的“思维时间”，而是将查询分类为高或低的复杂性并相应地分配思考图表。复杂的推理获得了70-90％的令牌，简单查询获得20-40％。 i还实现了从关键令牌搜索（最初来自Microsoft的Phi-4纸）衍生的转向向量，这些搜索是指导该模型在发电过程中的推理模式。这些向量鼓励行为等行为，例如数值准确性，自我纠正和彻底的探索。导致DeepSeek-R1-Distill-Qwen-1.5b： -GPQA-DIAMOND：31.06％vs 21.72％基线（+43％的相对改善）
--MMLU-PRO：26.38％vs 25.58％基线
- - 使用的令牌少于基线方法与任何本地推理模型一起使用-DeepSeek，Qwen，自定义微型模型。没有API依赖。 rel =“ nofollow”&gt; https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5253327  代码和示例： https：//github.com/codelion/codelion/optillm/tree/main/main/main/main/main/main/optillm/autlm/authrm/autoth ... href =“ https://github.com/codelion/pts”&gt; https://github.com/codelion/pts  我很好奇您对您对AI推理的自适应资源分配的想法。您是否尝试过使用本地型号的类似方法？
-
-注释URL： https://news.ycombinator.com/item?id=44112326 
-点：31 
-＃评论：2 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44112326</guid>
-      <pubDate>Wed, 28 May 2025 02:39:11 GMT</pubDate>
+      <title>时空中的奇异性很难杀死</title>
+      <link>https://www.quantamagazine.org/singularities-in-space-time-prove-hard-to-kill-20250527/</link>
+      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=44112641 
+点：5 
+＃评论：0 ]]></description>
+      <guid>https://www.quantamagazine.org/singularities-in-space-time-prove-hard-to-kill-20250527/</guid>
+      <pubDate>Wed, 28 May 2025 04:04:37 GMT</pubDate>
     </item>
     <item>
-      <title>愚蠢理论[PDF]</title>
-      <link>https://www.onthewing.org/user/Bonhoeffer%20-%20Theory%20of%20Stupidity.pdf</link>
-      <description><![CDATA[文章URL： https:///wwwww.onthewing.orgg/user/benhoeer/bonhoefer/benhoefer/bonhoefer/benhhoefer%20theyore;
-注释URL： https://news.ycombinator.com/item?id=44112265 
-点：26 
-＃评论：3 ]]></description>
-      <guid>https://www.onthewing.org/user/Bonhoeffer%20-%20Theory%20of%20Stupidity.pdf</guid>
-      <pubDate>Wed, 28 May 2025 02:25:28 GMT</pubDate>
+      <title>冥王星的极端堂兄？太阳系边缘可能的矮星</title>
+      <link>https://www.ias.edu/news/extreme-cousin-pluto-possible-dwarf-planet-discovered-solar-systems-edge</link>
+      <description><![CDATA[文章URL： https://www.ias.edu/news/extreme-cousin-pluto-possible-dwarf-planet-dwarf-planet-coldiscored-solar-solar-systems-desged  
+注释URL： https://news.ycombinator.com/item?id=44112493 
+点：5 
+＃评论：0 ]]></description>
+      <guid>https://www.ias.edu/news/extreme-cousin-pluto-possible-dwarf-planet-discovered-solar-systems-edge</guid>
+      <pubDate>Wed, 28 May 2025 03:23:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>全球高性能证明区块链和擦除编码</title>
+      <link>https://github.com/qkniep/alpenglow</link>
+      <description><![CDATA[文章URL： https://github.com/qkniep/alpenglow   
+注释URL： https://news.ycombinator.com/item?id=44112349 
+点：20 
+＃评论：28 ]]></description>
+      <guid>https://github.com/qkniep/alpenglow</guid>
+      <pubDate>Wed, 28 May 2025 02:47:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Autothink  - 通过自适应推理提高本地LLM性能</title>
+      <link>https://news.ycombinator.com/item?id=44112326</link>
+      <description><![CDATA[我构建了Autothink，该技术通过基于查询复杂性来自适应分配计算资源来使本地LLMS提高原因。核心思想：而不是给出每个查询的“思维时间”，而是将查询分类为高或低的复杂性并相应地分配思考图表。复杂的推理获得了70-90％的令牌，简单查询获得20-40％。 i还实现了从关键令牌搜索（最初来自Microsoft的Phi-4纸）衍生的转向向量，这些搜索是指导该模型在发电过程中的推理模式。这些矢量鼓励行为等行为，例如数值准确性，自我纠正和彻底的探索。导致DeepSeek-R1-Distill-Qwen-1.5b： -GPQA-DIAMOND：31.06％vs 21.72％基线（+43％相对改善） P&gt;  -  mmlu-pro：25.25.25.258％vs vs vs 258％vs vs vs vs 258％vs vs vs v。基线方法与任何本地推理模型一起使用-DeepSeek，Qwen，自定义微调模型。没有API依赖。 rel =“ nofollow”&gt; https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5253327  代码和示例： https：//github.com/codelion/codelion/optillm/tree/main/main/main/main/main/main/optillm/autlm/authrm/autoth ... href =“ https://github.com/codelion/pts”&gt; https://github.com/codelion/pts  我很好奇您对您对AI推理的自适应资源分配的想法。您是否尝试过使用本地型号的类似方法？
+
+注释URL： https://news.ycombinator.com/item?id=44112326 
+点：158 
+＃评论：16 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=44112326</guid>
+      <pubDate>Wed, 28 May 2025 02:39:11 GMT</pubDate>
     </item>
     <item>
       <title>使用Postgres PG_TEST_FSYNC工具来测试低潜伏期写作</title>
       <link>https://tanelpoder.com/posts/using-pg-test-fsync-for-testing-low-latency-writes/</link>
       <description><![CDATA[Article URL: https://tanelpoder.com/posts/using-pg-test-fsync-for-testing-low-latency-writes/
 注释URL： https://news.ycombinator.com/item？id=44112218 
-点：10 
-＃评论：0 ]]></description>
+点：23 
+＃评论：4 ]]></description>
       <guid>https://tanelpoder.com/posts/using-pg-test-fsync-for-testing-low-latency-writes/</guid>
       <pubDate>Wed, 28 May 2025 02:15:15 GMT</pubDate>
     </item>
@@ -43,7 +60,7 @@
       <link>https://0x44.xyz/blog/cve-2023-4369/</link>
       <description><![CDATA[文章url： https：//0x44.xyz/blog/cve-2023-4369/ 
 注释URL： https://news.ycombinator.com/item?id=44111898 
-点：17 
+点：41 
 ＃评论：3 ]]></description>
       <guid>https://0x44.xyz/blog/cve-2023-4369/</guid>
       <pubDate>Wed, 28 May 2025 00:48:45 GMT</pubDate>
@@ -51,10 +68,10 @@
     <item>
       <title>看马，没有气泡为Llama-1b设计低延迟的Megakernel</title>
       <link>https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles</link>
-      <description><![CDATA[文章url： https://hazyresearch.stanford.edu/blog/blog/2025-05-27-27-no-bubbles
+      <description><![CDATA[文章url： https://hazyresearch.stanford.edu/blog/blog/2025-05-27-27-27-no-bubbles
 注释URL： https://news.ycombinator.com/item?id=44111673 
-点：77 
-＃评论：10 ]]></description>
+点：111 
+＃评论：17 ]]></description>
       <guid>https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles</guid>
       <pubDate>Wed, 28 May 2025 00:01:20 GMT</pubDate>
     </item>
@@ -63,8 +80,8 @@
       <link>https://roderickkhan.com/posts/2025-05-16-poe-uefi-solution</link>
       <description><![CDATA[文章url：
 注释URL： https://news.ycombinator.com/item?id=44111609 
-点：74 
-＃评论：6 ]]></description>
+点：104 
+＃评论：21 ]]></description>
       <guid>https://roderickkhan.com/posts/2025-05-16-poe-uefi-solution</guid>
       <pubDate>Tue, 27 May 2025 23:45:02 GMT</pubDate>
     </item>
@@ -73,8 +90,8 @@
       <link>https://github.com/UCSBarchlab/OpenTPU</link>
       <description><![CDATA[文章URL： https://github.com/ucsbarchlab/opentpu  
 注释URL： https://news.ycombinator.com/item?id=44111452 
-点：46 
-＃评论：5 ]]></description>
+点：75 
+＃评论：12 ]]></description>
       <guid>https://github.com/UCSBarchlab/OpenTPU</guid>
       <pubDate>Tue, 27 May 2025 23:10:44 GMT</pubDate>
     </item>
@@ -83,30 +100,10 @@
       <link>https://girard.perso.math.cnrs.fr/mustard/article.html</link>
       <description><![CDATA[文章url： https://girard.perso.math.math.cnrs.cnrs.cnrs.fr/mustard/mustard/article.hticle.htmlicle.html     
 注释URL： https://news.ycombinator.com/item?id=44110931 
-点：42 
-＃评论：18 ]]></description>
+点：53 
+＃评论：22 ]]></description>
       <guid>https://girard.perso.math.cnrs.fr/mustard/article.html</guid>
       <pubDate>Tue, 27 May 2025 21:48:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示HN：我的LLM CLI工具现在可以从Python代码或插件运行工具</title>
-      <link>https://simonwillison.net/2025/May/27/llm-tools/</link>
-      <description><![CDATA[文章URL： https://simonwillison.net.net/2025/2025/may/may/27/llm-tools/27/llm-tools/ 
-注释URL： https://news.ycombinator.com/item？id=44110584 
-点：239 
-＃评论：91 ]]></description>
-      <guid>https://simonwillison.net/2025/May/27/llm-tools/</guid>
-      <pubDate>Tue, 27 May 2025 20:53:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么原始Macintosh的屏幕分辨率为512×324</title>
-      <link>https://512pixels.net/2025/05/original-macintosh-resolution/</link>
-      <description><![CDATA[文章url： https:/512pixels.net.net/2025/2025/05/05/original-macintosh-resolution/
-注释URL： https://news.ycombinator.com/item？id=44110219 
-点：130 
-＃评论：77 ]]></description>
-      <guid>https://512pixels.net/2025/05/original-macintosh-resolution/</guid>
-      <pubDate>Tue, 27 May 2025 20:02:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
