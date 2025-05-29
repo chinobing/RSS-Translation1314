@@ -4,34 +4,51 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Thu, 29 May 2025 03:45:05 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 May 2025 06:28:32 GMT</lastBuildDate>
+    <item>
+      <title>显示HN：输入-FFMPEG 3.0型接口到FFMPEG和Visual Filter Editor</title>
+      <link>https://github.com/livingbio/typed-ffmpeg</link>
+      <description><![CDATA[ hi hn， i构建了Typed-ffmpeg，这是一个Python软件包，可让您构建具有完整类型安全性，自动完成和验证的FFMPEG滤镜图。它的灵感来自FFMPEG-PYTHON，但解决了一些长期存在的问题，例如缺乏IDE支持和脆弱的CLI字符串。 v3.0中的新功能：
+ •源过滤器支持（例如颜色，testsrc等）
+ •输入流选择（例如[0：a]，[1：v]）
+ •一个新的互动游乐场，您可以：
+ •视觉构建过滤器图
+ •同时生成FFMPEG CLI和键入Python代码
+ •粘贴现有的ffmpeg命令并将它们反向图形游乐场链接：内部核心还支持转换CLI→Graph→键入Python代码。这对于构建教育工具，FFMPEG IDE或视觉编辑器很有用。我希望下一步的反馈，错误报告或想法。如果您曾经在FFMPEG的CLI上挣扎或尝试教它，这可能会有所帮助。谢谢！
+ - 大卫（维护者）
+
+注释URL： https://news.ycombinator.com/item？id=44123098 
+点：65 
+＃评论：6 ]]></description>
+      <guid>https://github.com/livingbio/typed-ffmpeg</guid>
+      <pubDate>Thu, 29 May 2025 04:23:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用dotnet run app.cs直接运行C＃文件</title>
+      <link>https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/</link>
+      <description><![CDATA[文章url： htttps://devblogs.microsoft.com/dotnet/dotnet/announcis-dotnet-dotnet-dotnet-dotnet-net-run-app/ 注释url： https://news.ycombinator.com/item?id=444122582 
+点：63 
+＃评论：18 ]]></description>
+      <guid>https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/</guid>
+      <pubDate>Thu, 29 May 2025 02:30:28 GMT</pubDate>
+    </item>
     <item>
       <title>Show HN：Handover.ai  - 知识转移变得容易</title>
       <link>https://www.handover.ai/</link>
       <description><![CDATA[文章URL： https://www.handover.ai/   
 注释URL： https://news.ycombinator.com/item？id=444121925 
-点：19 
-＃评论：7 ]]></description>
+点：37 
+＃评论：27 ]]></description>
       <guid>https://www.handover.ai/</guid>
       <pubDate>Thu, 29 May 2025 00:40:46 GMT</pubDate>
     </item>
     <item>
-      <title>美国贸易法院认为特朗普关税是非法的</title>
-      <link>https://www.bloomberg.com/news/articles/2025-05-28/trump-s-global-tariffs-blocked-by-us-trade-court</link>
-      <description><![CDATA[文章URL： https://www.bloomberg.com/news/articles/2025-05-28/trump-s-global-tariffs-blocked-by-us-us-trade-court-court  
-注释URL： https://news.ycombinator.com/item?id=444121732 
-点：389 
-＃评论：256 ]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2025-05-28/trump-s-global-tariffs-blocked-by-us-trade-court</guid>
-      <pubDate>Thu, 29 May 2025 00:06:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>HTAP数据库已死</title>
+      <title>HTAP死了</title>
       <link>https://www.mooncake.dev/blog/htap-is-dead</link>
       <description><![CDATA[文章URL： https://www.mooncake.dev/blog/htap-is-htap-is-dead 
 注释URL： https://news.ycombinator.com/item?id=44121177 
-点：44 
-＃评论：24 ]]></description>
+点：72 
+＃评论：40 ]]></description>
       <guid>https://www.mooncake.dev/blog/htap-is-dead</guid>
       <pubDate>Wed, 28 May 2025 22:22:18 GMT</pubDate>
     </item>
@@ -40,8 +57,8 @@
       <link>https://milwaukeerecord.com/city-life/long-live-american-science-surplus-which-needs-your-help/</link>
       <description><![CDATA[文章URL：https://milwaukeerecord.com/city-life/long-live-american-science-surplus-which-needs-your-help/
 注释URL： https://news.ycombinator.com/item?id=44120507 
-点：207 
-＃评论：47 ]]></description>
+点：254 
+＃评论：66 ]]></description>
       <guid>https://milwaukeerecord.com/city-life/long-live-american-science-surplus-which-needs-your-help/</guid>
       <pubDate>Wed, 28 May 2025 20:47:30 GMT</pubDate>
     </item>
@@ -53,8 +70,8 @@
  - 使用模拟器将状态保存为线程上下文  - 支持（非常基本的）静音，中断遮罩和条件变量  - 使用超级马里奥兄弟1-1，其中映射的各个部分专用于各种同步primitives    都没有许多简化和差距（甚至没有绘制），甚至没有绘制任务。保存状态代表整个机器的状态，包括RAM，而线程上下文表示更少的切片），但我认为这很有趣，并且b）唯一的内脏解释。
 
 注释URL： https://news.ycombinator.com/item?id=44120241 
-点：162 
-＃评论：33 ]]></description>
+点：178 
+＃评论：41 ]]></description>
       <guid>https://prettygoodblog.com/p/what-threads-are-part-2</guid>
       <pubDate>Wed, 28 May 2025 20:15:43 GMT</pubDate>
     </item>
@@ -63,28 +80,18 @@
       <link>https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/</link>
       <description><![CDATA[文章URL： https://buttondown.com/hillelelwayney/hillelwayne/hillelwaynarchive/what what what what what what
 注释URL： https://news.ycombinator.com/item?id=44119890 
-点：74 
-＃评论：70 ]]></description>
+点：90 
+＃评论：84 ]]></description>
       <guid>https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/</guid>
       <pubDate>Wed, 28 May 2025 19:37:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国海军的禁令和冰淇淋</title>
-      <link>https://www.oldsaltblog.com/2025/05/how-ice-cream-replaced-booze-in-the-us-navy-2/</link>
-      <description><![CDATA[文章URL： https://www.oldsaltblog.com/2025/2025/05/05/how-ice-cream-reeam-ream-replace-replace-replace--replace---replace--------------   -  &lt;-2
-注释URL： https://news.ycombinator.com/item？id=44119173 
-点：78 
-＃评论：88 ]]></description>
-      <guid>https://www.oldsaltblog.com/2025/05/how-ice-cream-replaced-booze-in-the-us-navy-2/</guid>
-      <pubDate>Wed, 28 May 2025 18:35:28 GMT</pubDate>
     </item>
     <item>
       <title>DeepSeek R1-0528</title>
       <link>https://huggingface.co/deepseek-ai/DeepSeek-R1-0528</link>
       <description><![CDATA[文章URL： https://huggingface.co/deepseek-ai/deepseek-ai/deepseek-ieek-r1-0528 
 注释URL： https://news.ycombinator.com/item?id=441188818 
-点：301 
-＃评论：124 ]]></description>
+点：333 
+＃评论：150 ]]></description>
       <guid>https://huggingface.co/deepseek-ai/DeepSeek-R1-0528</guid>
       <pubDate>Wed, 28 May 2025 17:59:02 GMT</pubDate>
     </item>
@@ -93,8 +100,8 @@
       <link>https://slightknack.dev/blog/difflogic/</link>
       <description><![CDATA[文章URL： https://slightknack.dev/blog/difflogic/   
 注释URL： https://news.ycombinator.com/item？id=44118373 
-点：199 
-＃评论：65 ]]></description>
+点：215 
+＃评论：66 ]]></description>
       <guid>https://slightknack.dev/blog/difflogic/</guid>
       <pubDate>Wed, 28 May 2025 17:22:47 GMT</pubDate>
     </item>
