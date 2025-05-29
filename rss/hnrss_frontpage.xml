@@ -4,25 +4,88 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Thu, 29 May 2025 15:20:25 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 May 2025 18:27:15 GMT</lastBuildDate>
     <item>
-      <title>Clickhouse筹集了3.5亿美元系列C</title>
-      <link>https://clickhouse.com/blog/clickhouse-raises-350-million-series-c-to-power-analytics-for-ai-era</link>
-      <description><![CDATA[Article URL: https://clickhouse.com/blog/clickhouse-raises-350-million-series-c-to-power-analytics-for-ai-era
-评论url： https://news.ycombinator.com/item?id=44126753 
-点：10 
-＃评论：2 ]]></description>
-      <guid>https://clickhouse.com/blog/clickhouse-raises-350-million-series-c-to-power-analytics-for-ai-era</guid>
-      <pubDate>Thu, 29 May 2025 14:59:37 GMT</pubDate>
+      <title>Infisical（YC W23）正在美国和加拿大雇用完整的堆栈工程师（打字稿）</title>
+      <link>https://www.ycombinator.com/companies/infisical/jobs/vGwCQVk-full-stack-engineer-us-canada</link>
+      <description><![CDATA[文章URL： https://www.ycombinator.com/companies/infisical/jobs/vgwcqvk-full-stack-engineer-us-canada  
+评论url： https://news.ycombinator.com/item?id=444127948 
+点：0 
+＃评论：0 ]]></description>
+      <guid>https://www.ycombinator.com/companies/infisical/jobs/vGwCQVk-full-stack-engineer-us-canada</guid>
+      <pubDate>Thu, 29 May 2025 17:01:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>人类编码人员仍然比LLM好</title>
+      <link>https://antirez.com/news/153</link>
+      <description><![CDATA[文章URL： https://antirez.com/news/153   
+注释url： https://news.ycombinator.com/item?id=444127739 
+点：104 
+＃评论：107 ]]></description>
+      <guid>https://antirez.com/news/153</guid>
+      <pubDate>Thu, 29 May 2025 16:41:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：开放源代码，设计师的视觉优先光标</title>
+      <link>https://beta.onlook.com/</link>
+      <description><![CDATA[Hey HN,I’m Kiet – one half of the two-person team building Onlook, an open-source [https://github.com/onlook-dev/onlook/] visual editor that lets you edit and create React apps live on an infinite canvas.We launched Onlook [1] [2]大约一年前作为当地第一个电子应用。从那时起，“及时建造”工具就爆炸了，但是没有一个让您在视觉上进行设计和迭代。我们通过采用视觉上的，以AI为动力的方法来解决该问题，您可以像在设计工具中一样提示，样式和直接操纵应用程序中的元素。两个月前，我们决定离开电子，并为浏览器重写所有内容。我们想消除下载数百个MB的摩擦并建立开发环境以使用该应用程序。我在这里写了更多关于我们如何做的[3]，但这里有一些从整个迁移中学习： 1。虽然大多数React UI代码都可以重复使用，但从电子的水疗体验到Next.js应用程序的映射。我们将本地的大多数数据存储为大JSON对象。将其移至远程数据库需要重构将表和更多的加载状态重构。我们不必在查询和加载时间之前就考虑过那么努力。 3。浏览器中的iFrame比电子网络视图执行更多的限制。围绕此操作需要我们将代码直接注入用户项目，以进行交叉iframe通信。 4。在Web应用程序上，保持API键安全要比电子应用程序容易得多。在电子中，我们留在客户端留下的每个钥匙都可以静态访问。因此，我们必须使用我们使用的任何SDK代理服务器调用中需要API键的任何SDK。在Web应用程序中，我们可以将键保留在服务器上。 5。将电子捆绑包推到电子中可能需要1个小时。一些用户可能永远不会更新。如果我们在AutoupDater本身中有一个错误，则可以永远将某些用户“滞留”在旧版本中，我们必须通过电子邮件发送电子邮件以进行更新。尽管这仍然比通过App Store的移动应用程序更好，但它仍然非常差。 Onlook的Web Work工作方式如何？我们首先连接到远程“ Sandbox” [4]。视觉编辑组件通过iframe发生。我们将iFrame中的HTML元素映射到代码中的位置。然后，进行编辑后，我们将模拟iframe上的更改，并同时编辑代码。这样，视觉变化总是感觉到的。当我们仍在熨烫体验时，您已经可以了：
+ - 选择元素并提示更改  - 通过样式UI   - 绘制新的Divs和Elements   - 在多个屏幕尺寸上绘制tailWindCSS类 - 绘制  - 预览 - 通过浏览器内编辑代码我们想使任何人创建，供任何人创建，样式和编辑Codebases。我们仍在介绍桌面应用程序中的功能 - 层，字体，托管，git等。一旦完成，我们计划添加对后端功能的支持，例如AUTH，DATABASE和API调用。特别感谢您为有助于创造Onlook Experience的70+贡献者！我认为在设计和开发工作流程中仍然有很多要解决的问题，我认为技术几乎在那里。您可以克隆项目并从我们的存储库中运行（链接到这篇文章）或在 [1]  https://news.ycombinator.com/item./item/item?id=41390449  href =“ https://news.ycombinator.com/item?id=40904862”&gt; https://news.ycombinator.com/item?id=40904862   [3] https://docs.onlook.com/docs/developer/electron-to-web-migra...[4] Currently, the sandbox is through CodeSandbox, but we plan to add support for connecting to a locally running server as well.
+
+注释url： https://news.ycombinator.com/item？id=44127653 
+点：38 
+＃评论：21 ]]></description>
+      <guid>https://beta.onlook.com/</guid>
+      <pubDate>Thu, 29 May 2025 16:31:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>3D内战：纽约历史学会（2015年）的立体声</title>
+      <link>https://www.nyhistory.org/blogs/civil-war-in-3d-stereographs-from-the-new-york-historical-society</link>
+      <description><![CDATA[文章URL：https://www.nyhistory.org/blogs/civil-war-in-3d-stereographs-from-the-new-york-historical-society
+评论url： https://news.ycombinator.com/item?id=444127177 
+点：25 
+＃评论：12 ]]></description>
+      <guid>https://www.nyhistory.org/blogs/civil-war-in-3d-stereographs-from-the-new-york-historical-society</guid>
+      <pubDate>Thu, 29 May 2025 15:43:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>让僵硬的身体休息</title>
+      <link>https://twitter.com/keenanisalive/status/1925225500659658999</link>
+      <description><![CDATA[https://xcancel.com/keenanisalive/status/1925225500659658999
+
+评论URL： https://news.ycombinator.com/item?id=444127173 
+点：33 
+＃评论：6 ]]></description>
+      <guid>https://twitter.com/keenanisalive/status/1925225500659658999</guid>
+      <pubDate>Thu, 29 May 2025 15:43:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Weatherstar 4000+：天气频道模拟器</title>
+      <link>https://weatherstar.netbymatt.com/</link>
+      <description><![CDATA[文章URL： https://weatherstar.netbymatt.com/  
+注释URL： https://news.ycombinator.com/item?id=44127109 
+点：193 
+＃评论：33 ]]></description>
+      <guid>https://weatherstar.netbymatt.com/</guid>
+      <pubDate>Thu, 29 May 2025 15:38:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>翻转电话网络：浏览原始歌剧迷你</title>
+      <link>https://www.spacebar.news/the-flip-phone-web-browsing-with-the-original-opera-mini/</link>
+      <description><![CDATA[Article URL: https://www.spacebar.news/the-flip-phone-web-browsing-with-the-original-opera-mini/
+评论url： https://news.ycombinator.com/item？id=44127027 
+点：52 
+＃评论：20 ]]></description>
+      <guid>https://www.spacebar.news/the-flip-phone-web-browsing-with-the-original-opera-mini/</guid>
+      <pubDate>Thu, 29 May 2025 15:30:17 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：我写了一本现代命令行手册</title>
       <link>https://commandline.stribny.name/</link>
-      <description><![CDATA[ tldr：我为Linux命令行写了一本手册。 PDF中的120页。更新了2025年。支付您想要的费用。几年前，我写了一本有关Linux命令行的电子书。这个想法不是专注于特定的外壳，释义手动页面或提供长期的重复解释，而是创建一个现代指南，可以帮助读者从实际意义上理解命令行，涵盖人们使用该命令行的最常见的事物，并在不浪费读者的情况下进行命令。案例，外壳脚本以及许多技巧和技巧，使在命令行上工作更方便。我仍然认为它是“介绍”，它不一定是居住在终端中的HN人群的书，但我相信这本书将很容易覆盖大多数人在终端中想要或需要做的事情的80％。我多年来对这本书进行了几次更新，并且在2025年完成了一本重要的一本书。这本书并不完美。我仍然看到很多改进的空间，但我认为这已经足够好，我真的想与所有人分享。因此，支付您想要的费用。  https：//commandline.stribny.name/   
+      <description><![CDATA[ tldr：我为Linux命令行写了一本手册。 PDF中的120页。更新了2025年。支付您想要的费用。几年前，我写了一本有关Linux命令行的电子书。这个想法不是专注于特定的外壳，释义手动页面或提供长期的重复解释，而是创建一个现代指南，可以帮助读者从实际意义上理解命令行，涵盖人们使用该命令行的最常见的事物，并在不浪费读者的情况下进行命令。案例，外壳脚本以及许多技巧和技巧，使在命令行上工作更方便。我仍然认为它是“介绍”，它不一定是居住在终端中的HN人群的书，但我相信这本书将很容易覆盖大多数人在终端中想要或需要做的事情的80％。我多年来对这本书进行了几次更新，并且在2025年完成了一本重要的一本书。这本书并不完美。我仍然看到很多改进的空间，但我认为这已经足够好，我真的想与所有人分享。因此，支付您想要的费用。示例页面： https：//drive.google.com/file/d/1pkuclv83ib6nkyf8888n3bqeevff ...     https://commandline.stribny.name/  
 
 注释url： https://news.ycombinator.com/item?id=441266612 
-点：8 
-＃评论：1 ]]></description>
+点：129 
+＃评论：23 ]]></description>
       <guid>https://commandline.stribny.name/</guid>
       <pubDate>Thu, 29 May 2025 14:44:33 GMT</pubDate>
     </item>
@@ -31,8 +94,8 @@
       <link>https://trynova.dev/</link>
       <description><![CDATA[文章URL： https://trynova.dev/  
 评论url： https://news.ycombinator.com/item?id=44126264 
-点：4 
-＃评论：0 ]]></description>
+点：68 
+＃评论：24 ]]></description>
       <guid>https://trynova.dev/</guid>
       <pubDate>Thu, 29 May 2025 14:05:27 GMT</pubDate>
     </item>
@@ -41,72 +104,10 @@
       <link>https://gygaxtest.com/posts/continued_pretraining_for-rules/</link>
       <description><![CDATA[文章url： https://gygaxtest.com/posts/posts/continued_pretretraining_for-rules/       
 注释url： https://news.ycombinator.com/item？id=444126214 
-点：7 
-＃评论：3 ]]></description>
+点：13 
+＃评论：6 ]]></description>
       <guid>https://gygaxtest.com/posts/continued_pretraining_for-rules/</guid>
       <pubDate>Thu, 29 May 2025 13:59:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>学习C3</title>
-      <link>https://alloc.dev/2025/05/29/learning_c3</link>
-      <description><![CDATA[文章URL： https://alloc.dev/2025/2025/05/29/learlearning_c3 
-注释URL： https://news.ycombinator.com/item?id=444125966 
-点：51 
-＃评论：19 ]]></description>
-      <guid>https://alloc.dev/2025/05/29/learning_c3</guid>
-      <pubDate>Thu, 29 May 2025 13:33:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>我在班加罗尔创办了一个小数学俱乐部</title>
-      <link>https://teachyourselfmath.app/club</link>
-      <description><![CDATA[文章URL： https://teachyourselfmath.app/club  
-注释url： https://news.ycombinator.com/item?id=444125489 
-点：3 
-＃评论：0 ]]></description>
-      <guid>https://teachyourselfmath.app/club</guid>
-      <pubDate>Thu, 29 May 2025 12:39:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>简单的编程语言，具有离线可用浏览器IDE</title>
-      <link>https://tiki.li/apps/tut_learn.html?v=2505e</link>
-      <description><![CDATA[文章URL： https://tiki.li/apps/tut_learn.learn.html?v=2505e     
-注释url： https://news.ycombinator.com/item？id=44124808 
-点：46 
-＃评论：16 ]]></description>
-      <guid>https://tiki.li/apps/tut_learn.html?v=2505e</guid>
-      <pubDate>Thu, 29 May 2025 11:04:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我制作了一个零孔的工具来可视化您的代码</title>
-      <link>https://staying.fun/en</link>
-      <description><![CDATA[我建立了留下来 - 一种工具，可以立即将您的代码转换为交互式动画，而无需设置。只需写入或粘贴代码并点击“可视化”。没有安装，没有帐户，没有配置。
-*支持*：Python，JavaScript和实验C ++ 
-
-注释url： https://news.ycombinator.com/item./item?id=444124652 
-点：55 
-＃评论：29 ]]></description>
-      <guid>https://staying.fun/en</guid>
-      <pubDate>Thu, 29 May 2025 10:29:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>EDAMAGIT：VSCODE的MAGIT</title>
-      <link>https://github.com/kahole/edamagit</link>
-      <description><![CDATA[文章URL： https://github.com/kahole/edamagit   
-评论url： https://news.ycombinator.com/item?id=444123953 
-点：97 
-＃评论：50 ]]></description>
-      <guid>https://github.com/kahole/edamagit</guid>
-      <pubDate>Thu, 29 May 2025 07:58:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>90年代的网页设计：Zeldman，Siegel，Nielsen</title>
-      <link>https://cybercultural.com/p/web-design-1997/</link>
-      <description><![CDATA[文章URL： https://cybercultural.com/p/web-design-1997/   
-注释url： https://news.ycombinator.com/item？id=44123852 
-点：242 
-＃评论：101 ]]></description>
-      <guid>https://cybercultural.com/p/web-design-1997/</guid>
-      <pubDate>Thu, 29 May 2025 07:33:02 GMT</pubDate>
     </item>
     </channel>
 </rss>
