@@ -4,107 +4,107 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Mon, 02 Jun 2025 09:21:36 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jun 2025 12:40:00 GMT</lastBuildDate>
     <item>
-      <title>是JavaScript吗？</title>
-      <link>https://blog.jim-nielsen.com/2025/is-it-javascript/</link>
-      <description><![CDATA[文章URL： https://blog.jim.jim.jim.jim.jim.jim-nielsen.com/2025/is-it-it-it-iit-it-it-iit-it-iit-it-iit-ip-javascript/ 
-注释url： https://news.ycombinator.com/item?id=444156092 
-点：13 
-＃评论：13 ]]></description>
-      <guid>https://blog.jim-nielsen.com/2025/is-it-javascript/</guid>
-      <pubDate>Mon, 02 Jun 2025 05:45:25 GMT</pubDate>
+      <title>超越黑匣子：财务中LLM的可解释性</title>
+      <link>https://arxiv.org/abs/2505.24650</link>
+      <description><![CDATA[文章URL： https://arxiv.org/abs/2505.24650   
+注释URL： https://news.ycombinator.com/item?id=444157618 
+点：25 
+＃评论：1 ]]></description>
+      <guid>https://arxiv.org/abs/2505.24650</guid>
+      <pubDate>Mon, 02 Jun 2025 11:16:06 GMT</pubDate>
     </item>
     <item>
-      <title>韦斯·安德森（Wes Anderson）最激动人心的电影是“腓尼基计划”吗？</title>
-      <link>https://www.newyorker.com/magazine/2025/06/09/the-phoenician-scheme-movie-review</link>
-      <description><![CDATA[文章URL： https://www.newyorker.com/magazine/magazine/magazine/2025/2025/06/06/09/the-phoenician-phoenician-pheenician-pheenic-movie 
-注释url： https://news.ycombinator.com/item？id=44155761 
+      <title>Tradexpert：与专家LLM的混合物革新交易</title>
+      <link>https://arxiv.org/abs/2411.00782</link>
+      <description><![CDATA[文章URL： https://arxiv.org/abs/2411.00782   
+评论url： https://news.ycombinator.com/item？id=44157378 
+点：54 
+＃评论：28 ]]></description>
+      <guid>https://arxiv.org/abs/2411.00782</guid>
+      <pubDate>Mon, 02 Jun 2025 10:25:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kan.BN  -  Trello的开源更改</title>
+      <link>https://github.com/kanbn/kan</link>
+      <description><![CDATA[文章URL： https://github.com/kanbn/kan  
+注释url： https://news.ycombinator.com/item?id=441157177 
+点：50 
+＃评论：19 ]]></description>
+      <guid>https://github.com/kanbn/kan</guid>
+      <pubDate>Mon, 02 Jun 2025 09:47:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>令人敬畏的仇恨：用于发现和使用Arxiv论文的策划工具</title>
+      <link>https://github.com/artnitolog/awesome-arxiv</link>
+      <description><![CDATA[文章URL： https://github.com/artnitolog/awsome/awesome-arxiv   
+注释url： https://news.ycombinator.com/item?id=444157086 
+点：16 
+＃评论：1 ]]></description>
+      <guid>https://github.com/artnitolog/awesome-arxiv</guid>
+      <pubDate>Mon, 02 Jun 2025 09:29:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>推理：RL的推理环境具有可验证的奖励</title>
+      <link>https://arxiv.org/abs/2505.24760</link>
+      <description><![CDATA[文章URL： https://arxiv.org/abs/2505.24760   
+注释url： https://news.ycombinator.com/item？id=444157077 
+点：38 
+＃评论：12 ]]></description>
+      <guid>https://arxiv.org/abs/2505.24760</guid>
+      <pubDate>Mon, 02 Jun 2025 09:27:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果您有用，那并不意味着您被重视</title>
+      <link>https://betterthanrandom.substack.com/p/if-you-are-useful-it-doesnt-mean</link>
+      <description><![CDATA[文章URL： https://betterterthanrandom.substack.com/p/if-you-are-are-are-are-use--are-useful-it-doesnt-doeesnt-mean-p- 
+评论url： https://news.ycombinator.com/item?id=444156935 
+点：260 
+＃评论：125 ]]></description>
+      <guid>https://betterthanrandom.substack.com/p/if-you-are-useful-it-doesnt-mean</guid>
+      <pubDate>Mon, 02 Jun 2025 08:59:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：系统提示学习 -  LLMS从经验中学习解决问题</title>
+      <link>https://news.ycombinator.com/item?id=44156467</link>
+      <description><![CDATA[我构建了一个系统，该系统可以随着时间的推移自动学习和改善解决问题的策略，灵感来自Andrej Karpathy对LLM学习的“第三个范式”的想法。  基本思想：而不是使用静态系统提示，而不是使用静态系统提示，而LLM构建了实际上用于不同问题类型的策略的数据库。当您给它一个新问题时，它会选择最相关的策略，应用它们，然后评估它们的工作状况并完善它们。存储为人类可读的JSON，您可以检查和编辑。我在数学基准测试中对其进行了测试，并看到了不错的改进 - 竞技场上的8.6％的速度好极了8.6％，AIME24的6.67％。在500个查询之后，该系统创建了129个策略并完善了其中的97个。它可以与任何与OpenAI兼容的API一起使用 - 您只需在模型名称中添加“ Spl-”即可。有两种模式：仅推理（使用现有策略）和学习模式（创建和完善策略）。有趣的是，它弥合了复杂系统之间的差距提示生产AI使用和我们大多数人使用的基本提示。您的模型从字面上看您丢下的问题的类型变得更好。该方法的灵感来自Andrej Karpathy关于LLM学习“第三个范式”的推文，而不仅仅是预处理和微调： https://x.com/karpathy/status/1921368644069765486  这些策略是完全透明的 - 您可以确切地看到系统学到了什么以及为什么要做出某些决定。没有黑匣子学习。是否有人尝试过LLMS从自己的经验中学习？
+
+评论url： https://news.ycombinator.com/item？id=44156467 
 点：35 
-＃评论：34 ]]></description>
-      <guid>https://www.newyorker.com/magazine/2025/06/09/the-phoenician-scheme-movie-review</guid>
-      <pubDate>Mon, 02 Jun 2025 04:05:26 GMT</pubDate>
+＃评论：11 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=44156467</guid>
+      <pubDate>Mon, 02 Jun 2025 07:29:02 GMT</pubDate>
     </item>
     <item>
       <title>当没人阅读时如何发布</title>
       <link>https://www.jeetmehta.com/posts/thrive-in-obscurity</link>
       <description><![CDATA[文章URL： https://www.jeetmehta.com/posts/thrive-invirive-inthive-invirive-inver-in--obscurity  
 注释URL： https://news.ycombinator.com/item?id=44155746 
-点：153 
-＃评论：61 ]]></description>
+点：238 
+＃评论：118 ]]></description>
       <guid>https://www.jeetmehta.com/posts/thrive-in-obscurity</guid>
       <pubDate>Mon, 02 Jun 2025 04:01:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：MBCOMPASS  -  Android Compass App</title>
-      <link>https://github.com/MubarakNative/MBCompass</link>
-      <description><![CDATA[嘿，hn，我构建了MBCompass，这是一个轻巧，对Android的隐私友好的指南针应用程序。它可以完全离线工作，不要求不必要的权限（没有GP，没有互联网），并且是开源的。我想要一些干净，快速和特色的东西。因此，我做了这个！它的大小只有〜1.7，并使用低通滤波器来平滑传感器读取。我喜欢反馈或想法 - 尤其是从其他建立简单的，隐私的应用程序！   https://f-droid.org/packages/com.mubarak.mbcompass/    
-注释URL： https://news.ycombinator.com/item/item?id=44155741 
-点：44 
-＃评论：12 ]]></description>
-      <guid>https://github.com/MubarakNative/MBCompass</guid>
-      <pubDate>Mon, 02 Jun 2025 03:58:58 GMT</pubDate>
     </item>
     <item>
       <title>LFSR CPU运行</title>
       <link>https://github.com/howerj/lfsr-vhdl</link>
       <description><![CDATA[文章URL： https://github.com/hower.com/howerj/lfsr-vhdl   
 注释url： https://news.ycombinator.com/item？id=444155635 
-点：30 
-＃评论：1 ]]></description>
+点：46 
+＃评论：7 ]]></description>
       <guid>https://github.com/howerj/lfsr-vhdl</guid>
       <pubDate>Mon, 02 Jun 2025 03:35:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我建立了使用iPhone的AI代理</title>
-      <link>https://github.com/rounak/PhoneAgent</link>
-      <description><![CDATA[它由OpenAI的GPT 4.1型号提供动力。使用Xcode UI测试 +可访问性树来查看应用程序，并执行刷卡，taps等以完成操作。
-
-注释url： https://news.ycombinator.com/item?id=44155426 
-点：10 
-＃评论：1 ]]></description>
-      <guid>https://github.com/rounak/PhoneAgent</guid>
-      <pubDate>Mon, 02 Jun 2025 02:37:35 GMT</pubDate>
     </item>
     <item>
       <title>AI研究人员如何节省能源？通过向后</title>
       <link>https://www.quantamagazine.org/how-can-ai-researchers-save-energy-by-going-backward-20250530/</link>
       <description><![CDATA[文章URL：https://www.quantamagazine.org/how-can-ai-researchers-save-energy-by-going-backward-20250530/
 注释url： https://news.ycombinator.com/item?id=444155391 
-点：45 
-＃评论：25 ]]></description>
+点：54 
+＃评论：33 ]]></description>
       <guid>https://www.quantamagazine.org/how-can-ai-researchers-save-energy-by-going-backward-20250530/</guid>
       <pubDate>Mon, 02 Jun 2025 02:29:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>普林斯顿国际编译器的源代码</title>
-      <link>https://esoteric.codes/blog/published-for-the-first-time-the-original-intercal72-compiler-code</link>
-      <description><![CDATA[Article URL: https://esoteric.codes/blog/published-for-the-first-time-the-original-intercal72-compiler-code
-注释URL： https://news.ycombinator.com/item?id=441555247 
-点：78 
-＃评论：14 ]]></description>
-      <guid>https://esoteric.codes/blog/published-for-the-first-time-the-original-intercal72-compiler-code</guid>
-      <pubDate>Mon, 02 Jun 2025 01:54:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>TPDE：快速适应性的编译器后端框架</title>
-      <link>https://arxiv.org/abs/2505.22610</link>
-      <description><![CDATA[文章URL： https://arxiv.org/abs/2505.22610  
-注释URL： https://news.ycombinator.com/item?id=44155069 
-点：31 
-＃评论：9 ]]></description>
-      <guid>https://arxiv.org/abs/2505.22610</guid>
-      <pubDate>Mon, 02 Jun 2025 01:17:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示HN：C，LUA，AWK，JavaScript等的月球阶段算法等。</title>
-      <link>https://github.com/oliverkwebb/moonphase</link>
-      <description><![CDATA[文章URL： https://github.com/oliverkwebb/moonphase   
-注释URL： https://news.ycombinator.com/item？id=44154511 
-点：30 
-＃评论：8 ]]></description>
-      <guid>https://github.com/oliverkwebb/moonphase</guid>
-      <pubDate>Sun, 01 Jun 2025 23:22:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
