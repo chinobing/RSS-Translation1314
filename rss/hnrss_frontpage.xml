@@ -4,123 +4,108 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Tue, 03 Jun 2025 18:28:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jun 2025 21:17:32 GMT</lastBuildDate>
     <item>
-      <title>显示HN：无需重写代码的本地化React应用程序</title>
-      <link>https://github.com/lingodotdev/lingo.dev</link>
-      <description><![CDATA[嗨，hn！ We&#39;ve just released an open-source React bundler plugin that makes apps multilingual—at build time, without modifying the code.React app localization typically requires implementing i18n frameworks, extracting text to JSON files, and wrapping components in translation tags - essentially rewriting your entire codebase before you can even start translating.Our React bundler plugin eliminates this friction entirely.
-您可以将其添加到现有的React应用程序中，指定所需的语言，并且它会自动使您的应用程序多语言而无需触摸组件代码的一行。这是一个视频，显示了它的工作原理： https://www.youtube.com/watch?v=sso2erxavb4 。这些文档位于 https://lingo.dev/en/compiler 和示例应用程序 https://github.com/github.com/lingodotdev/lingo.dev/linge.dev/tree/main/main/main/main/main/demo 去年。 JSON。 But a couple hours later, we found ourselves deep in a technical rabbit hole, wondering what if that actually was possible?That question led us to build the &quot;localization compiler&quot; - a middleware for React that plugs into the codebase, processes the Abstract Syntax Tree of the React code, deterministically locates translatable elements, feeds every context boundary into LLMs, and bakes the translations back into the build, making UI multilingual in秒。一切在建造时间期间本地发生，将React项目作为真理的来源。无需修改代码，没有提取和不需要单独的翻译文件的维护，但是，通过data-lingo-*属性可以覆盖。构建这比我们预期的要棘手。除了遍历React/JS抽象语法树之外，我们还必须解决一些具有挑战性的问题。我们想找到一种应确定性分组元素的方法，这些元素应被翻译在一起，因此，例如，包裹在``链接标签中的短语不会被误译，因为它是孤立处理的。我们还想在编译时代码生成期间检测内联函数调用并优雅地处理它们。
-功能welcomemessage（）{
-  返回 （
-    
-      欢迎来到我们的平台！ 今天开始。
-    
-  ）；
-}
-``最大的挑战是使我们的编译器与热模块更换兼容。这使开发人员可以用英语进行编码，同时立即看到西班牙语或日语的UI，这对于通过文本扩展或收缩引起的布局问题是无价的，这些问题在屏幕上占据了更多/更少的空间。 以进行性能，我们实施了积极的缓存，以在运行之间存储AST分析结果，并且仅在运行和仅发生了变化的重新处理组件之间存储。增量构建即使在大型代码库上也很快，因为在任何时间点作为开发点，您只会更新有限数量的组件，而我们在LLM上进行了大量平行的LLM呼叫。在LLMS之前，这种方法在技术上是可能的，但实际上是无用的，但由于为了精确的翻译，您仍然需要熟悉产品域的人类翻译器。但是，现在，使用上下文感知模型，我们可以自动生成体面的翻译。我们很高兴最终将其制作准备好并与HN社区分享。运行“ npm i lingo.dev”，请查看lingo.dev/compiler上的文档，让我们脱离它，让我们知道您对此进行了介绍，让我们想到了aect ie18n！      
-
-注释URL： https://news.ycombinator.com/item?id=444172428 
-点：12 
-＃评论：3 ]]></description>
-      <guid>https://github.com/lingodotdev/lingo.dev</guid>
-      <pubDate>Tue, 03 Jun 2025 17:27:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Swift Apple：从Java迁移密码监视服务</title>
-      <link>https://www.swift.org/blog/swift-at-apple-migrating-the-password-monitoring-service-from-java/</link>
-      <description><![CDATA[文章URL： https://www.swift.org/blog/blog/blog/blog/swift-apple-apple-apple-apple-migration-migrating-migrating-mograting-the-password-the-password-monitoring-monitoring-monitoring-mjaav-from-jaavava一下注释url： https://news.ycombinator.com/item？id=444172166 
-点：54 
-＃评论：12 ]]></description>
-      <guid>https://www.swift.org/blog/swift-at-apple-migrating-the-password-monitoring-service-from-java/</guid>
-      <pubDate>Tue, 03 Jun 2025 17:03:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Morph（YC S23）正在雇用ML工程师</title>
-      <link>https://news.ycombinator.com/item?id=44172144</link>
-      <description><![CDATA[注释url： https://news.ycombinator.com/item？id=44172144 
+      <title>Activeloop（YC S18）正在雇用高级后端和AI搜索工程师（现场，MV）</title>
+      <link>https://careers.activeloop.ai/</link>
+      <description><![CDATA[文章URL： https://careerers.activeloop.ai/   
+注释url： https://news.ycombinator.com/item？id=44174676 
 点：0 
 ＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44172144</guid>
-      <pubDate>Tue, 03 Jun 2025 17:00:58 GMT</pubDate>
+      <guid>https://careers.activeloop.ai/</guid>
+      <pubDate>Tue, 03 Jun 2025 21:00:50 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：具有表情符号支持的超轻量级库库</title>
-      <link>https://github.com/ushakov-igor/chonkify</link>
-      <description><![CDATA[我一直在每个项目中都重写相同的array.slice（i，i + n）逻辑。最终，我决定停下来并做一个实用性。群集，表情符号等）  -  esm-first，typeScript-Ready 我主要是为自己做的，但认为其他人也可能会发现它也很有用。会喜欢反馈！
+      <title>Yoshua Bengio推出了Lawzero：新的非营利组织逐个设计AI</title>
+      <link>https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai</link>
+      <description><![CDATA[文章URL：” https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-new-nonprofit-advancing-vancing-safe-design-ai-ai  
+注释url： https://news.ycombinator.com/item?id=444174643 
+点：5 
+＃评论：0 ]]></description>
+      <guid>https://lawzero.org/en/news/yoshua-bengio-launches-lawzero-new-nonprofit-advancing-safe-design-ai</guid>
+      <pubDate>Tue, 03 Jun 2025 20:57:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI偷工作吗？这位招聘分析师说是</title>
+      <link>https://www.inc.com/kit-eaton/is-ai-stealing-jobs-this-hiring-analyst-says-yes/91197705</link>
+      <description><![CDATA[文章URL： https://www.inc.com/kit-eaton/is-ai-stealing-jobs-jobs-this-hiring-analyst-says-yes/91197705  
+注释url： https://news.ycombinator.com/item?id=444174592 
+点：8 
+＃评论：0 ]]></description>
+      <guid>https://www.inc.com/kit-eaton/is-ai-stealing-jobs-this-hiring-analyst-says-yes/91197705</guid>
+      <pubDate>Tue, 03 Jun 2025 20:51:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>成年人可以生长新的脑细胞吗？</title>
+      <link>https://www.livescience.com/health/neuroscience/can-adults-grow-new-brain-cells</link>
+      <description><![CDATA[文章url： https://wwwwwwwwwwwwwwwwww.livescience.com/hhealth/neurealt/neureccience/neurcience/neurcience/can-adults-new-new-new-new-new-new-brain-brain-brain-brain-brain-brain-brain-brain-brain-brain-brain-brain-brain-brain-cells 
+注释url： https://news.ycombinator.com/item?id=44417454540 
+点：5 
+＃评论：0 ]]></description>
+      <guid>https://www.livescience.com/health/neuroscience/can-adults-grow-new-brain-cells</guid>
+      <pubDate>Tue, 03 Jun 2025 20:46:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：AIRAP Airplay服务器 -  iOS设备的播放</title>
+      <link>https://github.com/neon443/AirAP</link>
+      <description><![CDATA[我制作了AIRAP，因为当我的扬声器破产时，我想要一种简单的方法来从Mac mini中播放声音。但这也有很多其他用途，例如测试不同设备上的音频听起来的样子，或重新利用旧的有线扬声器。这真是太有趣了 - 迫不及待地等待所有人看到它！
 
-注释URL： https://news.ycombinator.com/item？id=44172017 
-点：10 
-＃评论：2 ]]></description>
-      <guid>https://github.com/ushakov-igor/chonkify</guid>
-      <pubDate>Tue, 03 Jun 2025 16:50:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>（on | no）句法支持错误处理</title>
-      <link>https://go.dev/blog/error-syntax</link>
-      <description><![CDATA[文章URL： https://go.dev/blog/error-syntax   
-注释url： https://news.ycombinator.com/item?id=444171677 
-点：143 
-＃评论：144 ]]></description>
-      <guid>https://go.dev/blog/error-syntax</guid>
-      <pubDate>Tue, 03 Jun 2025 16:18:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>文件（1）命令使用的 /eTc./magic文件的初始版本</title>
-      <link>https://retrocomputing.stackexchange.com/questions/31722/where-can-i-find-the-initial-version-of-the-etc-magic-file-used-by-the-file1</link>
-      <description><![CDATA[文章URL： https://retrocomputing.stackexchange.com/questions/31722/31722/where-can-i-find-theial-versial-version-version-of-the-etc-magic-file-used-used-by-by-the-file1   
-注释URL： https://news.ycombinator.com/item?id=444171581 
-点：23 
+注释url： https://news.ycombinator.com/item?id=44174190 
+点：71 
 ＃评论：4 ]]></description>
-      <guid>https://retrocomputing.stackexchange.com/questions/31722/where-can-i-find-the-initial-version-of-the-etc-magic-file-used-by-the-file1</guid>
-      <pubDate>Tue, 03 Jun 2025 16:10:35 GMT</pubDate>
+      <guid>https://github.com/neon443/AirAP</guid>
+      <pubDate>Tue, 03 Jun 2025 20:12:33 GMT</pubDate>
     </item>
     <item>
-      <title>英语的小世界</title>
-      <link>https://www.inotherwords.app/linguabase/</link>
-      <description><![CDATA[文章URL： https://www.inotherwords.apps.app/linguabase/   
-注释url： https://news.ycombinator.com/item？id=44170968 
-点：58 
-＃评论：40 ]]></description>
-      <guid>https://www.inotherwords.app/linguabase/</guid>
-      <pubDate>Tue, 03 Jun 2025 15:14:52 GMT</pubDate>
+      <title>目的地：木星</title>
+      <link>https://clarkesworldmagazine.com/liptak_06_25/</link>
+      <description><![CDATA[文章URL： https://clarkesworldmagazine.com/liptmagazine.com/liptak_06_25/ 
+注释url： https://news.ycombinator.com/item?id=44173853 
+点：37 
+＃评论：4 ]]></description>
+      <guid>https://clarkesworldmagazine.com/liptak_06_25/</guid>
+      <pubDate>Tue, 03 Jun 2025 19:43:30 GMT</pubDate>
     </item>
     <item>
-      <title>显示HN：用语音和手势控制3D模型</title>
-      <link>https://github.com/collidingScopes/3d-model-playground</link>
-      <description><![CDATA[I&#39;m sharing my project to control 3D models with voice commands and hand gestures:- use voice commands to change interaction mode (drag, rotate, scale, animate)- use hand gestures to control the 3D model- drag/drop to import other models (only GLTF format supported for now)Created using threejs, mediapipe, web speech API, rosebud AI, and Quaternius 3D型号 githhub repo： https://github.com/collidingscopes/3d-modelscopes/3d-model-playflayground  href =“ https://xcancel.com/measure_plan/status/192990074823550912” rel =“ nofollow”&gt; https：//xcancel.com/mmeasure_plan/status/192999007482355509900748235550912 谢谢
+      <title>Show HN：Alfred的工作流程，以打开GCP服务和浏览资源</title>
+      <link>https://github.com/dineshgowda24/alfred-gcp-workflow</link>
+      <description><![CDATA[ ALFRED工作流程，可让您立即打开Goog​​le Cloud Services或搜索GCP资源 - 快速，简单且从您的Alfred。
 
-注释URL： https://news.ycombinator.com/item?id=444170694 
-点：50 
-＃评论：9 ]]></description>
-      <guid>https://github.com/collidingScopes/3d-model-playground</guid>
-      <pubDate>Tue, 03 Jun 2025 14:45:52 GMT</pubDate>
+注释URL： https://news.ycombinator.com/item?id=4441736667 
+点：18 
+＃评论：5 ]]></description>
+      <guid>https://github.com/dineshgowda24/alfred-gcp-workflow</guid>
+      <pubDate>Tue, 03 Jun 2025 19:25:57 GMT</pubDate>
     </item>
     <item>
-      <title>显示HN：Pinsend  - 使用PIN（P2P，无登录）在设备之间共享文本</title>
-      <link>https://pinsend.app</link>
-      <description><![CDATA[ hi hn，我构建了[pinsend]（ https：//pinsend.app ） - 一个免费的网络应用程序，用于立即使用设备之间的文本，使用简单的6-Character Pin。
- - 点对点WEBRTC传输（无服务器继电器，无云）。
- - 跨平台：在任何现代浏览器上工作。我在开发Web应用程序的同时为自己构建了Pinsend-我一直在复制Ngrok链接并在笔记本电脑和移动设备之间发送错误日志。我想要一种无摩擦，即时的方式来移动任何事物之间的链接和文本。*演示：*  
-1。打开 https://pinsend.app 在您的电话和笔记本电脑上
-2。粘贴或输入一些文本并点击“发送”，输入另一个设备上的PIN
-3。即时同步！
-4。不再发送电子邮件或对自己的内容喜欢反馈！
+      <title>询问HN：单手打字的选项</title>
+      <link>https://news.ycombinator.com/item?id=44173581</link>
+      <description><![CDATA[我的亲戚最近对其占主导地位（右）造成了严重伤害，这将有很长的恢复期（可能几个月）。理想情况下，手指的运动将更快地恢复，但是即使这样，将受伤的手臂保持在人体工程学的打字位置可能并不舒服。乍一看，解决方案似乎属于三类：  - 有关如何有效地使用一只手的键盘的培训  - 对现有硬件上的键盘删除来使用替代键的布局，以偏爱左侧的键  - 专用键盘，这些键板打算与一只手一起使用。其中一些似乎很有希望，但也很昂贵。
 
-评论url： https://news.ycombinator.com/item?id=444170657 
-点：31 
-＃评论：15 ]]></description>
-      <guid>https://pinsend.app</guid>
-      <pubDate>Tue, 03 Jun 2025 14:41:47 GMT</pubDate>
+注释url： https://news.ycombinator.com/item?id=44173581 
+点：30 
+＃评论：31 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=44173581</guid>
+      <pubDate>Tue, 03 Jun 2025 19:17:50 GMT</pubDate>
     </item>
     <item>
-      <title>视觉语言模型有偏见</title>
-      <link>https://vlmsarebiased.github.io/</link>
-      <description><![CDATA[文章URL： https://vlmsarebiased.github.io/   
-评论url： https://news.ycombinator.com/item?id=44169413 
-点：40 
-＃评论：15 ]]></description>
-      <guid>https://vlmsarebiased.github.io/</guid>
-      <pubDate>Tue, 03 Jun 2025 12:47:30 GMT</pubDate>
+      <title>当太阳去世时，生命能否在木星海洋月亮欧罗巴（Europa）生存？</title>
+      <link>https://www.space.com/astronomy/when-the-sun-dies-could-life-survive-on-the-jupiter-ocean-moon-europa</link>
+      <description><![CDATA[文章URL： https://www.space.com/astronomy/when-the-sun-dies-could-life-survive-on-the-jupiter-ocean-ocean-moon-europa  
+注释URL： https://news.ycombinator.com/item?id=444173377 
+点：27 
+＃评论：34 ]]></description>
+      <guid>https://www.space.com/astronomy/when-the-sun-dies-could-life-survive-on-the-jupiter-ocean-moon-europa</guid>
+      <pubDate>Tue, 03 Jun 2025 18:56:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>不要只是检查错误，优雅地处理错误（2016年）</title>
+      <link>https://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully</link>
+      <description><![CDATA[文章URL： https：///////dave.cheney.net/2016/04/04/04/27/27/27/27/27/27/27/dont-just-just-ceeck-preem 注释URL： https://news.ycombinator.com/item？id=44173291 
+点：34 
+＃评论：25 ]]></description>
+      <guid>https://dave.cheney.net/2016/04/27/dont-just-check-errors-handle-them-gracefully</guid>
+      <pubDate>Tue, 03 Jun 2025 18:49:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
