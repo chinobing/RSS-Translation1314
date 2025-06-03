@@ -4,107 +4,123 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Tue, 03 Jun 2025 15:22:50 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jun 2025 18:28:16 GMT</lastBuildDate>
     <item>
-      <title>DuckDB广播 -  DuckDB现在与Websocket和Redis Pub/Sub进行了交谈</title>
-      <link>https://query.farm/duckdb_extension_radio.html</link>
-      <description><![CDATA[文章url： https://query.farm.farm/duckdb_extension_radio.html 
-注释url： https://news.ycombinator.com/item？id = 444170755 
-点：4 
-＃评论：0 ]]></description>
-      <guid>https://query.farm/duckdb_extension_radio.html</guid>
-      <pubDate>Tue, 03 Jun 2025 14:52:29 GMT</pubDate>
+      <title>显示HN：无需重写代码的本地化React应用程序</title>
+      <link>https://github.com/lingodotdev/lingo.dev</link>
+      <description><![CDATA[嗨，hn！ We&#39;ve just released an open-source React bundler plugin that makes apps multilingual—at build time, without modifying the code.React app localization typically requires implementing i18n frameworks, extracting text to JSON files, and wrapping components in translation tags - essentially rewriting your entire codebase before you can even start translating.Our React bundler plugin eliminates this friction entirely.
+您可以将其添加到现有的React应用程序中，指定所需的语言，并且它会自动使您的应用程序多语言而无需触摸组件代码的一行。这是一个视频，显示了它的工作原理： https://www.youtube.com/watch?v=sso2erxavb4 。这些文档位于 https://lingo.dev/en/compiler 和示例应用程序 https://github.com/github.com/lingodotdev/lingo.dev/linge.dev/tree/main/main/main/main/main/demo 去年。 JSON。 But a couple hours later, we found ourselves deep in a technical rabbit hole, wondering what if that actually was possible?That question led us to build the &quot;localization compiler&quot; - a middleware for React that plugs into the codebase, processes the Abstract Syntax Tree of the React code, deterministically locates translatable elements, feeds every context boundary into LLMs, and bakes the translations back into the build, making UI multilingual in秒。一切在建造时间期间本地发生，将React项目作为真理的来源。无需修改代码，没有提取和不需要单独的翻译文件的维护，但是，通过data-lingo-*属性可以覆盖。构建这比我们预期的要棘手。除了遍历React/JS抽象语法树之外，我们还必须解决一些具有挑战性的问题。我们想找到一种应确定性分组元素的方法，这些元素应被翻译在一起，因此，例如，包裹在``链接标签中的短语不会被误译，因为它是孤立处理的。我们还想在编译时代码生成期间检测内联函数调用并优雅地处理它们。
+功能welcomemessage（）{
+  返回 （
+    
+      欢迎来到我们的平台！ 今天开始。
+    
+  ）；
+}
+``最大的挑战是使我们的编译器与热模块更换兼容。这使开发人员可以用英语进行编码，同时立即看到西班牙语或日语的UI，这对于通过文本扩展或收缩引起的布局问题是无价的，这些问题在屏幕上占据了更多/更少的空间。 以进行性能，我们实施了积极的缓存，以在运行之间存储AST分析结果，并且仅在运行和仅发生了变化的重新处理组件之间存储。增量构建即使在大型代码库上也很快，因为在任何时间点作为开发点，您只会更新有限数量的组件，而我们在LLM上进行了大量平行的LLM呼叫。在LLMS之前，这种方法在技术上是可能的，但实际上是无用的，但由于为了精确的翻译，您仍然需要熟悉产品域的人类翻译器。但是，现在，使用上下文感知模型，我们可以自动生成体面的翻译。我们很高兴最终将其制作准备好并与HN社区分享。运行“ npm i lingo.dev”，请查看lingo.dev/compiler上的文档，让我们脱离它，让我们知道您对此进行了介绍，让我们想到了aect ie18n！      
+
+注释URL： https://news.ycombinator.com/item?id=444172428 
+点：12 
+＃评论：3 ]]></description>
+      <guid>https://github.com/lingodotdev/lingo.dev</guid>
+      <pubDate>Tue, 03 Jun 2025 17:27:32 GMT</pubDate>
     </item>
     <item>
-      <title>马里奥卡丁车设计师不得不重新考虑一切，以使其成为开放世界</title>
-      <link>https://www.theverge.com/interview/678097/mario-kart-world-nintendo-switch-2-interview-kosuke-yabuki</link>
-      <description><![CDATA[文章URL：” https://www.theverge.com/interview/678097/mario-kart-world-nintendo-nintendo-switch-2-interview-kosuke-kosuke-yabuki  
-注释URL： https://news.ycombinator.com/item？id=4417070708 
-点：3 
+      <title>Swift Apple：从Java迁移密码监视服务</title>
+      <link>https://www.swift.org/blog/swift-at-apple-migrating-the-password-monitoring-service-from-java/</link>
+      <description><![CDATA[文章URL： https://www.swift.org/blog/blog/blog/blog/swift-apple-apple-apple-apple-migration-migrating-migrating-mograting-the-password-the-password-monitoring-monitoring-monitoring-mjaav-from-jaavava一下注释url： https://news.ycombinator.com/item？id=444172166 
+点：54 
+＃评论：12 ]]></description>
+      <guid>https://www.swift.org/blog/swift-at-apple-migrating-the-password-monitoring-service-from-java/</guid>
+      <pubDate>Tue, 03 Jun 2025 17:03:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Morph（YC S23）正在雇用ML工程师</title>
+      <link>https://news.ycombinator.com/item?id=44172144</link>
+      <description><![CDATA[注释url： https://news.ycombinator.com/item？id=44172144 
+点：0 
 ＃评论：0 ]]></description>
-      <guid>https://www.theverge.com/interview/678097/mario-kart-world-nintendo-switch-2-interview-kosuke-yabuki</guid>
-      <pubDate>Tue, 03 Jun 2025 14:47:20 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=44172144</guid>
+      <pubDate>Tue, 03 Jun 2025 17:00:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：具有表情符号支持的超轻量级库库</title>
+      <link>https://github.com/ushakov-igor/chonkify</link>
+      <description><![CDATA[我一直在每个项目中都重写相同的array.slice（i，i + n）逻辑。最终，我决定停下来并做一个实用性。群集，表情符号等）  -  esm-first，typeScript-Ready 我主要是为自己做的，但认为其他人也可能会发现它也很有用。会喜欢反馈！
+
+注释URL： https://news.ycombinator.com/item？id=44172017 
+点：10 
+＃评论：2 ]]></description>
+      <guid>https://github.com/ushakov-igor/chonkify</guid>
+      <pubDate>Tue, 03 Jun 2025 16:50:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>（on | no）句法支持错误处理</title>
+      <link>https://go.dev/blog/error-syntax</link>
+      <description><![CDATA[文章URL： https://go.dev/blog/error-syntax   
+注释url： https://news.ycombinator.com/item?id=444171677 
+点：143 
+＃评论：144 ]]></description>
+      <guid>https://go.dev/blog/error-syntax</guid>
+      <pubDate>Tue, 03 Jun 2025 16:18:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>文件（1）命令使用的 /eTc./magic文件的初始版本</title>
+      <link>https://retrocomputing.stackexchange.com/questions/31722/where-can-i-find-the-initial-version-of-the-etc-magic-file-used-by-the-file1</link>
+      <description><![CDATA[文章URL： https://retrocomputing.stackexchange.com/questions/31722/31722/where-can-i-find-theial-versial-version-version-of-the-etc-magic-file-used-used-by-by-the-file1   
+注释URL： https://news.ycombinator.com/item?id=444171581 
+点：23 
+＃评论：4 ]]></description>
+      <guid>https://retrocomputing.stackexchange.com/questions/31722/where-can-i-find-the-initial-version-of-the-etc-magic-file-used-by-the-file1</guid>
+      <pubDate>Tue, 03 Jun 2025 16:10:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>英语的小世界</title>
+      <link>https://www.inotherwords.app/linguabase/</link>
+      <description><![CDATA[文章URL： https://www.inotherwords.apps.app/linguabase/   
+注释url： https://news.ycombinator.com/item？id=44170968 
+点：58 
+＃评论：40 ]]></description>
+      <guid>https://www.inotherwords.app/linguabase/</guid>
+      <pubDate>Tue, 03 Jun 2025 15:14:52 GMT</pubDate>
     </item>
     <item>
       <title>显示HN：用语音和手势控制3D模型</title>
       <link>https://github.com/collidingScopes/3d-model-playground</link>
-      <description><![CDATA[I&#39;m sharing my project to control 3D models with voice commands and hand gestures:- use voice commands to change interaction mode (drag, rotate, scale, animate)- use hand gestures to control the 3D model- drag/drop to import other models (only GLTF format supported for now)Created using threejs, mediapipe, web speech API, rosebud AI, and Quaternius 3D型号 githhub repo： https://github.com/collidingscopes/3d-modelscopes/3d-model-playground       我喜欢您的反馈！谢谢
+      <description><![CDATA[I&#39;m sharing my project to control 3D models with voice commands and hand gestures:- use voice commands to change interaction mode (drag, rotate, scale, animate)- use hand gestures to control the 3D model- drag/drop to import other models (only GLTF format supported for now)Created using threejs, mediapipe, web speech API, rosebud AI, and Quaternius 3D型号 githhub repo： https://github.com/collidingscopes/3d-modelscopes/3d-model-playflayground  href =“ https://xcancel.com/measure_plan/status/192990074823550912” rel =“ nofollow”&gt; https：//xcancel.com/mmeasure_plan/status/192999007482355509900748235550912 谢谢
 
 注释URL： https://news.ycombinator.com/item?id=444170694 
-点：8 
-＃评论：0 ]]></description>
+点：50 
+＃评论：9 ]]></description>
       <guid>https://github.com/collidingScopes/3d-model-playground</guid>
       <pubDate>Tue, 03 Jun 2025 14:45:52 GMT</pubDate>
     </item>
     <item>
-      <title>用MCP制作魔术：从数据检索到真实分析和见解</title>
-      <link>https://jellyfish.co/blog/how-ably-makes-magic-with-jellyfishs-mcp/</link>
-      <description><![CDATA[文章url： https:/jellyfish./jellyfish.co/blog/blog/how-ash-how-ash--------------
-注释URL： https://news.ycombinator.com/item？id=44170600 
-点：4 
-＃评论：0 ]]></description>
-      <guid>https://jellyfish.co/blog/how-ably-makes-magic-with-jellyfishs-mcp/</guid>
-      <pubDate>Tue, 03 Jun 2025 14:36:49 GMT</pubDate>
+      <title>显示HN：Pinsend  - 使用PIN（P2P，无登录）在设备之间共享文本</title>
+      <link>https://pinsend.app</link>
+      <description><![CDATA[ hi hn，我构建了[pinsend]（ https：//pinsend.app ） - 一个免费的网络应用程序，用于立即使用设备之间的文本，使用简单的6-Character Pin。
+ - 点对点WEBRTC传输（无服务器继电器，无云）。
+ - 跨平台：在任何现代浏览器上工作。我在开发Web应用程序的同时为自己构建了Pinsend-我一直在复制Ngrok链接并在笔记本电脑和移动设备之间发送错误日志。我想要一种无摩擦，即时的方式来移动任何事物之间的链接和文本。*演示：*  
+1。打开 https://pinsend.app 在您的电话和笔记本电脑上
+2。粘贴或输入一些文本并点击“发送”，输入另一个设备上的PIN
+3。即时同步！
+4。不再发送电子邮件或对自己的内容喜欢反馈！
+
+评论url： https://news.ycombinator.com/item?id=444170657 
+点：31 
+＃评论：15 ]]></description>
+      <guid>https://pinsend.app</guid>
+      <pubDate>Tue, 03 Jun 2025 14:41:47 GMT</pubDate>
     </item>
     <item>
-      <title>通过Android上的Localhost秘密网络到应用跟踪</title>
-      <link>https://localmess.github.io/</link>
-      <description><![CDATA[文章URL： https://localmess.github.io/   
-注释URL： https://news.ycombinator.com/item?id=44169314 
-点：102 
-＃评论：18 ]]></description>
-      <guid>https://localmess.github.io/</guid>
-      <pubDate>Tue, 03 Jun 2025 12:35:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我用纯C语言写了一个Java分解器</title>
-      <link>https://github.com/neocanable/garlic</link>
-      <description><![CDATA[文章URL： https://github.com/neocanable/garlic/garlic  
-注释url： https://news.ycombinator.com/item?id=444169132 
-点：67 
-＃评论：21 ]]></description>
-      <guid>https://github.com/neocanable/garlic</guid>
-      <pubDate>Tue, 03 Jun 2025 12:14:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>非法加密钻机在懒惰的Devops配置上猛扑离开云而易受伤害</title>
-      <link>https://www.theregister.com/2025/06/03/illicit_miners_hashicorp_tools/</link>
-      <description><![CDATA[文章url：
-注释url： https://news.ycombinator.com/item?id=444169069 
-点：18 
-＃评论：1 ]]></description>
-      <guid>https://www.theregister.com/2025/06/03/illicit_miners_hashicorp_tools/</guid>
-      <pubDate>Tue, 03 Jun 2025 12:05:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Spark AI（YC W24）正在旧金山聘请一名完整的堆栈工程师</title>
-      <link>https://www.ycombinator.com/companies/spark/jobs/kDeJlPK-software-engineer-full-stack</link>
-      <description><![CDATA[文章URL：https://www.ycombinator.com/companies/spark/jobs/kDeJlPK-software-engineer-full-stack
-注释url： https://news.ycombinator.com/item?id=444169039 
-点：0 
-＃评论：0 ]]></description>
-      <guid>https://www.ycombinator.com/companies/spark/jobs/kDeJlPK-software-engineer-full-stack</guid>
-      <pubDate>Tue, 03 Jun 2025 12:00:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>天文学中的“看到”是什么？大气湍流背后的科学</title>
-      <link>https://astroimagery.com/astronomy/what-does-seeing-mean-in-astrophotography/</link>
-      <description><![CDATA[文章URL： https://astroimagery.com/astromy.com/astronomy/what what what what what what what what-does-seeing-mean-seeing-mean-seeing-mean-in-in-astrophotophothich/pophicato
-注释URL： https://news.ycombinator.com/item?id=444168705 
-点：8 
-＃评论：2 ]]></description>
-      <guid>https://astroimagery.com/astronomy/what-does-seeing-mean-in-astrophotography/</guid>
-      <pubDate>Tue, 03 Jun 2025 11:15:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>乌克兰的自主杀手无人机击败电子战</title>
-      <link>https://spectrum.ieee.org/ukraine-killer-drones</link>
-      <description><![CDATA[文章URL： https://spectrum.ieee.org/ukraine-killer-killer-wrones 
-评论url： https://news.ycombinator.com/item?id=444168658 
-点：119 
-＃评论：106 ]]></description>
-      <guid>https://spectrum.ieee.org/ukraine-killer-drones</guid>
-      <pubDate>Tue, 03 Jun 2025 11:08:51 GMT</pubDate>
+      <title>视觉语言模型有偏见</title>
+      <link>https://vlmsarebiased.github.io/</link>
+      <description><![CDATA[文章URL： https://vlmsarebiased.github.io/   
+评论url： https://news.ycombinator.com/item?id=44169413 
+点：40 
+＃评论：15 ]]></description>
+      <guid>https://vlmsarebiased.github.io/</guid>
+      <pubDate>Tue, 03 Jun 2025 12:47:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
