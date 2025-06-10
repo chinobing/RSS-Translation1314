@@ -4,105 +4,108 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Tue, 10 Jun 2025 12:41:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jun 2025 15:21:36 GMT</lastBuildDate>
     <item>
-      <title>Onlook（YC W25）正在SF雇用A创始工程师</title>
+      <title>启动HN：Bitboard（YC X25） - 用于医疗保健后场的AI代理</title>
+      <link>https://news.ycombinator.com/item?id=44237769</link>
+      <description><![CDATA[嗨，hn！我们是康纳（Connor）和安巴尔（Ambar），我们正在研究Bitboard（ https://bitboard.work.work ）。我们建立了在医疗保健诊所处理重复行政任务的AI代理，例如填写摄入表，准备图表或管理转介。我们是向前的早期员工，该员工在美国提供了初级保健。为了扩展这一点，我们依靠成千上万的远程承包商来进行重复的行政工作，例如协调患者记录，并根据护理计划安排随访。这是一个巨大的瓶颈 - 昂贵，容易出错，并且总是从临床护理中引起人们的注意。我们的软件解决方案总是太脆弱了，从未设法处理我们监督的临床数据的差异。 ai，当应用良好时，能够执行我们手动完成的许多任务。因此，我们决定通过今天建立我们希望拥有的东西来解决问题，并帮助诊所使用它。诊所向我们发送了他们的SOP（例如，“标准操作程序”（例如，“在访问前从这些记录中备份患者图表”），我们将它们变成了从事这项工作的AI代理商。这些代理像远程承包商一样：它们登录EHR，导航内部工具，并在后台进行工作。与经典的RPA不同，我们在验证和确定性检查中进行构建，因此客户可以确认其正确完成。 
+与低代码工具不同，没有什么新鲜的。客户不必触摸UI或保持逻辑。他们只是把任务交给我们，我们做到了。临床医生不想要更多的屏幕！它们侵蚀了注意力并引起操作中怪异的瓶颈，因为有人必须驱动它们。我们的产品旨在解决这个问题。以下是一个演示视频：“ nofollow”&gt; https：//www.youtube.com/wath.youtube.com/watch？我们还不是自助服务，但是我们在登上他们的几天后与客户一起部署。我们正在努力加速。我们的早期客户之一是一个快速增长的肥胖医学组。他们的MAS每位患者花费15至20分钟，仅将摄入表格数据输入EHR。这项任务占了他们的MA时间的30％。我们在一周内接管了它。现在已经完全自动化了，他们已经清除了积压并加速访问。一些技术问题与建立医疗保健代理特别相关：  - 不可靠的接口：许多EHR和诊所工具都不遵循现代网络标准，使自动化变得脆弱。我们已经分配了浏览器，以解决其中一些挑战。我们正在研究类似的基础架构，以使代理在台式机上运行，​​并在各种API上运行。  - 验证：在医疗保健中，任务必须是正确的。我们将确定性检查嵌入每个工作流程中，以便代理可以确认任务已按预期完成，并且输出是准确的。  - 工作流程生成：诊所SOP用自然语言编写，但仍描述了适用于诊所的实际过程。我们将基于LLM的灵活性与硬化的logic结合了可靠性。
+我们根据复杂性收取每个任务的费用。除非审计需要另有审计要求，否则我们符合HIPAA的符合HIPAA，并在零保留环境中运行。有意义的部分是在像Healthcare这样的高风险环境中建立信任。其中一部分使产品可靠。但是，另一个教育部分是学习如何向诊所介绍一个新概念。我们正在努力描述它们，登上它们，测量它们的正确方法。令人陶醉的是，我们的一位客户的代理商被称为“罗伯特·奥特（Robert Ott）”，他们在每周的更新中以他的名字来称呼他，例如他是团队的成员:)我们正在学习很多东西，还有很长的路要走。我们很乐意结识其他人。1。在医疗团体或卫生系统中工作，并希望在重复的工作和2次上进行交易，并在空间中构建2。我们很乐意分享到目前为止所学到的一切。，这是一个很大的空间，从个人故事中获得了很多从临床医生，技术人员，管理员等方面的学习。你怎么做？我们很想收到您的来信。
+
+注释URL： https://news.ycombinator.com/item?id=444237769 
+点：3 
+＃评论：0 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=44237769</guid>
+      <pubDate>Tue, 10 Jun 2025 15:09:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>大卫·福斯特·华莱士（David Foster Wallace）的作品（2009）中的故意数学错误</title>
+      <link>https://www.thehowlingfantods.com/dfw/dubious-math-in-infinite-jest.html</link>
+      <description><![CDATA[文章url： https://wwwwwwwwwwwww.thehowlingfantods.com/com/dfw/dfw/dbious-math-math-math-inbath-inbath-in-in-in-infinite-pppp 注释URL： https://news.ycombinator.com/item？id=44237700 
+点：8 
+＃评论：0 ]]></description>
+      <guid>https://www.thehowlingfantods.com/dfw/dubious-math-in-infinite-jest.html</guid>
+      <pubDate>Tue, 10 Jun 2025 15:04:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>总是在上面，总是连接，总是搜索，总是分心</title>
+      <link>https://leejo.github.io/2025/06/10/always_on/</link>
+      <description><![CDATA[文章URL： https://leeejo.github.io/2025/06/06/10/10/always_on/always_on/      
+注释url： https://news.ycombinator.com/item？id=444237229 
+点：11 
+＃评论：0 ]]></description>
+      <guid>https://leejo.github.io/2025/06/10/always_on/</guid>
+      <pubDate>Tue, 10 Jun 2025 14:29:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>裁判官 -  Mistral AI的第一个推理模型</title>
+      <link>https://mistral.ai/news/magistral</link>
+      <description><![CDATA[文章URL： https://mistral.ai/news/magistral  
+评论url： https://news.ycombinator.com/item?id=444236997 
+点：158 
+＃评论：50 ]]></description>
+      <guid>https://mistral.ai/news/magistral</guid>
+      <pubDate>Tue, 10 Jun 2025 14:08:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Pydoll  - 与本地验证码旁路的异步Python刮擦引擎</title>
+      <link>https://github.com/autoscrape-labs/pydoll</link>
+      <description><![CDATA[文章URL： https://github.com/autoscrape-labs/pydoll   
+评论url： https://news.ycombinator.com/item？id=44236926 
+点：17 
+＃评论：3 ]]></description>
+      <guid>https://github.com/autoscrape-labs/pydoll</guid>
+      <pubDate>Tue, 10 Jun 2025 14:01:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>在随机生成的数据中查找Atari游戏</title>
+      <link>https://bbenchoff.github.io/pages/FiniteAtari.html</link>
+      <description><![CDATA[文章url： https://bbbenchoff.github.io/pages/pages/finiteatari.html 
+注释URL： https://news.ycombinator.com/item？id=44236900 
+点：32 
+＃评论：8 ]]></description>
+      <guid>https://bbenchoff.github.io/pages/FiniteAtari.html</guid>
+      <pubDate>Tue, 10 Jun 2025 13:58:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>欺骗OpenPGP.JS签名验证</title>
+      <link>https://codeanlabs.com/blog/research/cve-2025-47934-spoofing-openpgp-js-signatures/</link>
+      <description><![CDATA[文章URL：https://codeanlabs.com/blog/research/cve-2025-47934-spoofing-openpgp-js-signatures/
+注释URL： https://news.ycombinator.com/item？id=44236891 
+点：20 
+＃评论：0 ]]></description>
+      <guid>https://codeanlabs.com/blog/research/cve-2025-47934-spoofing-openpgp-js-signatures/</guid>
+      <pubDate>Tue, 10 Jun 2025 13:58:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>更快，更轻松的2D矢量渲染[视频]</title>
+      <link>https://www.youtube.com/watch?v=_sv8K190Zps</link>
+      <description><![CDATA[幻灯片： https：//docs.google.com/presentation/d/1f_vkbjmad68ifbo2j83l ...  
+
+注释url： https://news.ycombinator.com/item?id=444236423 
+点：47 
+＃评论：8 ]]></description>
+      <guid>https://www.youtube.com/watch?v=_sv8K190Zps</guid>
+      <pubDate>Tue, 10 Jun 2025 13:17:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>奇怪的命令案件，或如何“ POSIX要求此错误”</title>
+      <link>https://notes.volution.ro/v1/2021/01/notes/502e747f/</link>
+      <description><![CDATA[文章URL： https：//notes.volution.volution.ro/v1/2021/2021/01/notes/notes/notes/nonotes/nonotes/nnotes/502e7474747474747f/ 
+注释url： https://news.ycombinator.com/item？id=44236241 
+点：17 
+＃评论：6 ]]></description>
+      <guid>https://notes.volution.ro/v1/2021/01/notes/502e747f/</guid>
+      <pubDate>Tue, 10 Jun 2025 12:56:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Onlook（YC W25）正在SF雇用工程师</title>
       <link>https://news.ycombinator.com/item?id=44235716</link>
       <description><![CDATA[注释url： https://news.ycombinator.com/item？id=44235716 
 点：0 
 ＃评论：0 ]]></description>
       <guid>https://news.ycombinator.com/item?id=44235716</guid>
       <pubDate>Tue, 10 Jun 2025 12:00:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示HN：高端颜色量化器</title>
-      <link>https://github.com/big-nacho/patolette</link>
-      <description><![CDATA[这是我已经工作了很长时间的个人项目。我在做有关工作相关的事情时偶然发现了颜色量化问题。然后，我找到了一篇有趣的论文，我在网上找不到实施，而“让我们实施本文”变成了对整个事情的痴迷。它处于早期的eaaaarly阶段。有很多工作要做，这是一种记忆猪，但总的来说，演讲效果很好，而且输出的质量很高，因此我很乐意将其作为beta分享。
-
-注释URL： https://news.ycombinator.com/item?id=444235628 
-点：6 
-＃评论：0 ]]></description>
-      <guid>https://github.com/big-nacho/patolette</guid>
-      <pubDate>Tue, 10 Jun 2025 11:50:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示HN：MCP服务器和客户端实现最新规格</title>
-      <link>https://github.com/hemanth/paws-on-mcp</link>
-      <description><![CDATA[文章URL： https://github.com/hemanth/paws-paws-on-mcp   
-注释url： https://news.ycombinator.com/item？id=44423333315 
-点：52 
-＃评论：16 ]]></description>
-      <guid>https://github.com/hemanth/paws-on-mcp</guid>
-      <pubDate>Tue, 10 Jun 2025 06:30:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>成功的人设定限制而不是追求目标</title>
-      <link>https://www.joanwestenberg.com/smart-people-dont-chase-goals-they-create-limits/</link>
-      <description><![CDATA[Article URL: https://www.joanwestenberg.com/smart-people-dont-chase-goals-they-create-limits/
-注释url： https://news.ycombinator.com/item？id=44232714 
-点：172 
-＃评论：81 ]]></description>
-      <guid>https://www.joanwestenberg.com/smart-people-dont-chase-goals-they-create-limits/</guid>
-      <pubDate>Tue, 10 Jun 2025 05:01:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>显微照片（1665）[PDF]</title>
-      <link>https://arhipa.org/libros/Hooke_Robert_Micrographia-1665.pdf</link>
-      <description><![CDATA[文章URL： https://arhipa.org/libriblibros/hooke_roke_roke_roke_roke_roke_roke_robert_microgrphia-micrographia-micrographia-1665.pdf      
-注释URL： https://news.ycombinator.com/item？id=444232699 
-点：48 
-＃评论：11 ]]></description>
-      <guid>https://arhipa.org/libros/Hooke_Robert_Micrographia-1665.pdf</guid>
-      <pubDate>Tue, 10 Jun 2025 04:57:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>科学论文：创新还是模仿？</title>
-      <link>https://www.johndcook.com/blog/2025/06/05/scientific-papers-innovation-or-imitation/</link>
-      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=444232371 
-点：43 
-＃评论：19 ]]></description>
-      <guid>https://www.johndcook.com/blog/2025/06/05/scientific-papers-innovation-or-imitation/</guid>
-      <pubDate>Tue, 10 Jun 2025 04:04:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI使我的公司摆脱了2年的诉讼噩梦</title>
-      <link>https://tylertringas.com/ai-legal/</link>
-      <description><![CDATA[文章URL： https://tylertringas.com/ai-legal/   
-注释url： https://news.ycombinator.com/item？id=44232314 
-点：119 
-＃评论：56 ]]></description>
-      <guid>https://tylertringas.com/ai-legal/</guid>
-      <pubDate>Tue, 10 Jun 2025 03:55:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>离散数学：开放式简介[PDF]</title>
-      <link>https://discrete.openmathbooks.org/pdfs/dmoi4.pdf</link>
-      <description><![CDATA[文章URL： https://discrete.openmathbooks.org/pdfs/pdfs/dmoi.pdfs/dmoi4.pdf   
-注释url： https://news.ycombinator.com/item？id=44231649 
-点：180 
-＃评论：25 ]]></description>
-      <guid>https://discrete.openmathbooks.org/pdfs/dmoi4.pdf</guid>
-      <pubDate>Tue, 10 Jun 2025 01:48:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>实施确实>在第四，我开始这个混乱的全部原因</title>
-      <link>https://boston.conman.org/2025/06/09.1</link>
-      <description><![CDATA[文章URL： https://boston.conman.org/2025/06/09.1    
-注释url： https://news.ycombinator.com/item？id=444231594 
-点：89 
-＃评论：17 ]]></description>
-      <guid>https://boston.conman.org/2025/06/09.1</guid>
-      <pubDate>Tue, 10 Jun 2025 01:36:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么代理商是不好的一对程序员</title>
-      <link>https://justin.searls.co/posts/why-agents-are-bad-pair-programmers/</link>
-      <description><![CDATA[文章url： https：//justin.searls.co/posts/posts/posts/why-akent-aar are-aar are-Are-bad-pair-pair-pair-pair-pair-pair-pair-progmers/
-注释URL： https://news.ycombinator.com/item?id=44230838 
-点：157 
-＃评论：127 ]]></description>
-      <guid>https://justin.searls.co/posts/why-agents-are-bad-pair-programmers/</guid>
-      <pubDate>Mon, 09 Jun 2025 23:36:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
