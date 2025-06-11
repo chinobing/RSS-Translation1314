@@ -4,220 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 11 Jun 2025 09:21:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Jun 2025 12:40:26 GMT</lastBuildDate>
     <item>
-      <title>LLMS淘金热的结束，AI产品时代的开始</title>
-      <link>https://medium.com/@bytestobusiness/the-end-of-the-llm-gold-rush-the-start-of-the-ai-product-era-baf5441f3547</link>
-      <description><![CDATA[文章URL： https://medium.com/@bytestobusiness/the-end-of-the-llm-gold-rush-the-part-the-------------------------product-era-baf5441f3547  
-注释url： https://news.ycombinator.com/item？id=4424245680 
+      <title>月经跟踪应用程序数据是广告商的金矿，冒着女性安全的风险</title>
+      <link>https://www.cam.ac.uk/research/news/menstrual-tracking-app-data-is-a-gold-mine-for-advertisers-that-risks-womens-safety-report</link>
+      <description><![CDATA[文章URL： https://www.cam.ac.uk/research/news/menstrual-tracking-app-data-is-a-s-a-gold-mine-for-advertisers-tisks-womens-womens-womens-safety-report-report-report-report  
+评论URL： https://news.ycombinator.com/item？id=44246920 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://medium.com/@bytestobusiness/the-end-of-the-llm-gold-rush-the-start-of-the-ai-product-era-baf5441f3547</guid>
-      <pubDate>Wed, 11 Jun 2025 09:16:23 GMT</pubDate>
+      <guid>https://www.cam.ac.uk/research/news/menstrual-tracking-app-data-is-a-gold-mine-for-advertisers-that-risks-womens-safety-report</guid>
+      <pubDate>Wed, 11 Jun 2025 12:31:15 GMT</pubDate>
     </item>
     <item>
-      <title>WordPress  - 为什么开发人员说“叉子”</title>
-      <link>https://websmith.studio/blog/wordpress-why-developers-finally-said-fork-this/</link>
-      <description><![CDATA[文章URL： htttps://websmith.studio/blog/blog/wordpress-press-press-press-why-develvement-developers-flevervenally-said-finelly-said-forkevinally-said-fork-fork-fork------ 
-注释url： https://news.ycombinator.com/item？id=4424245666 
+      <title>oppenheimer访问战后日本</title>
+      <link>https://japantoday.com/category/features/japan-yesterday/j-robert-oppenheimer-father-of-the-atomic-bomb-visits-post-war-japan</link>
+      <description><![CDATA[文章URL： https://japantoday.com/category/features/japan-yesterday/j-robert-oppenheimer-father-father-father-of-the-aromic-bomb-visits-post-post-war-japan   
+注释URL： https://news.ycombinator.com/item？id=44246914 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://websmith.studio/blog/wordpress-why-developers-finally-said-fork-this/</guid>
-      <pubDate>Wed, 11 Jun 2025 09:13:22 GMT</pubDate>
+      <guid>https://japantoday.com/category/features/japan-yesterday/j-robert-oppenheimer-father-of-the-atomic-bomb-visits-post-war-japan</guid>
+      <pubDate>Wed, 11 Jun 2025 12:30:51 GMT</pubDate>
     </item>
     <item>
-      <title>02-HARMONYOS5语音表达式案例</title>
-      <link>https://news.ycombinator.com/item?id=44245641</link>
-      <description><![CDATA[案例描述
-这是基于AI基本语音服务实现的实时语音到文本案例。它通过麦克风收集音频并实时转换为文本。 import {secementRecognizer}从&#39;@kit.corespeechkit&#39;
-从&#39;@kit.abilitykit&#39;导入{communionAccesctrl}
-import {stressAction}来自&#39;@kit.arkui&#39; @entry
-@componentV2
-struct SpeeckRecognizer {
-  @local isRecording：boolean = false
-  @local text：string =&#39;&#39;
-  haspermissions：boolean = false
-  asrengine？：speechRecognizer.speechRecognitionEngine     oftoAppear（）：void {
-    //请求麦克风权限
-    this.requestpermissions（）
-  }
-
-  异步请求Permissions（）{
-    const atmanager = cancebalAccessctrl.CreateAtManager（）;
-    const res =等待atmanager.requestpermissionsfromuser（getContext（），[&#39;ohos.permission.microphone&#39;]）
-    this.haspermissions =
-      res.authresults.ever（GrantStatus =&gt; GrantStatus === commicalAccesctrl.grantstatus.permission_granted）
-  }
-
-  //开始麦克风识别
-  async startrecord（）{
-    if（caniuse（&#39;SystemCapiables.ai.ai.speechRocognizer&#39;））{
-      如果（！this.haspermissions）{
-        返回提示Actional.showtoast（{消息：&#39;麦克风未授权&#39;}）
-      }
-      if（this.isrecording）{
-        return strive stractaction.showtoast（{消息：&#39;rectoring ...&#39;}）
-      }
-      this.isrecording = true
-      this.asrengine =等待speekrecognizer.createengine（{
-        语言：&#39;zh-cn&#39;，
-        在线：1
-      }））
-      const _ this = this
-      this.asrengine.setListener（{
-        onstart（sessionid：string，EventMessage：string）{
-        }，，
-        OneVent（SessionID：String，Event Code：number，EventMessage：string）{
-        }，，
-        onResult（sessionid：string，result：specyRecognizer.speechRecognitionResult）{
-          _this.text = result.result
-          if（result.islast）{
-            _this.isrecording = false
-          }
-        }，，
-        OnComplete（SessionId：String，EventMessage：String）{
-        }，，
-        OnError（sessionId：字符串，错误代码：number，errormessage：string）{
-        }
-      }））
-      const audioparam：secementRecognizer.audioinfo = {
-        Audiotype：“ PCM”，
-        采样：16000，
-        声音渠道：1，
-        样本键：16
-      }
-      const froupaparam：record = {
-        “识别模式”：0，
-        “ vadbegin”：2000，
-        “ VADEND”：3000，
-        “ Maxaudioduration”：20000
-      }
-      const识别器：specyRecognizer.startparams = {
-        sessionid：&#39;10000&#39;，
-        AudioInfo：Audioparam，
-        外推：外推
-      }
-      this.asrengine.startlistening（识别剂）
-    }
-  }
-
-  async closecord（）{
-    if（caniuse（&#39;SystemCapiables.ai.ai.speechRocognizer&#39;））{
-      this.asrengine？.finish（&#39;10000&#39;）
-      this.asrengine？.cancel（&#39;10000&#39;）
-      this.asrengine？.shutdown（）
-    }
-  }
-
-  建造（） {
-    柱子（） {
-      排（） {
-        文字（this.text）
-          .Width（&#39;100％&#39;）
-          .lineheight（32）
-      }
-      。
-      .Width（&#39;100％&#39;）
-      .layoutWeaight（1）
-
-      button（this.isrecording？&#39;开始说话&#39;：&#39;按下并说话&#39;）
-        .Width（&#39;100％&#39;）
-        。
-          .onaction（（）=&gt; {
-            this.startrecord（）
-          }））
-          .onactionEnd（（）=&gt; {
-            this.closerecord（）
-          }））
-          .onactionCancel（（）=&gt; {
-            this.closerecord（）
-          }）））
-
-    }
-    .Padding（15）
-    .height（&#39;100％&#39;）
-    .Width（&#39;100％&#39;）
-  }
-}   
-
-注释url： https://news.ycombinator.com/item？id=4424245641 
+      <title>人工智能。公司想接您的工作</title>
+      <link>https://www.nytimes.com/2025/06/11/technology/ai-mechanize-jobs.html</link>
+      <description><![CDATA[文章url： https://wwwww.nytimes.com/2025/2025/06/06/11/11/11/11/technology/technologic
+注释URL： https://news.ycombinator.com/item？id=444246909 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44245641</guid>
-      <pubDate>Wed, 11 Jun 2025 09:06:42 GMT</pubDate>
+      <guid>https://www.nytimes.com/2025/06/11/technology/ai-mechanize-jobs.html</guid>
+      <pubDate>Wed, 11 Jun 2025 12:30:05 GMT</pubDate>
     </item>
     <item>
-      <title>苹果撤退</title>
-      <link>https://stratechery.com/2025/apple-retreats/</link>
-      <description><![CDATA[文章URL： https://stratechery.com/2025/apple-retreats/   
-评论url： https://news.ycombinator.com/item？id=444245637 
+      <title>法律版本控制已过时30年</title>
+      <link>https://theredline.versionstory.com/p/legal-version-control-is-30-years</link>
+      <description><![CDATA[文章url： https://theredline.version.versionstory.com/p/legal-version-control-istrol-is-is-is-is-is-30-30年
+评论url： https://news.ycombinator.com/item？id=442466896 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://stratechery.com/2025/apple-retreats/</guid>
-      <pubDate>Wed, 11 Jun 2025 09:06:05 GMT</pubDate>
+      <guid>https://theredline.versionstory.com/p/legal-version-control-is-30-years</guid>
+      <pubDate>Wed, 11 Jun 2025 12:28:56 GMT</pubDate>
     </item>
     <item>
-      <title>中国的气溶胶清理为全球变暖的加速做出了贡献</title>
-      <link>https://www.researchsquare.com/article/rs-6005409/v1</link>
-      <description><![CDATA[文章URL： https://www.researchsquare.com/article/article/rs-6005409/v1 
-注释URL： https://news.ycombinator.com/item？id=44245630 
+      <title>PE剧本：宠物护理</title>
+      <link>https://grata.com/resources/pet-care-pe-playbook-2025</link>
+      <description><![CDATA[文章URL： https://grata.com/resources/pet-care-pe-pe-play-play-playbook-2025 
+评论url： https://news.ycombinator.com/item？id=44246895 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://grata.com/resources/pet-care-pe-playbook-2025</guid>
+      <pubDate>Wed, 11 Jun 2025 12:28:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么屋顶太阳能在共和党税单中崩溃</title>
+      <link>https://www.nytimes.com/2025/06/11/climate/rooftop-solar-republicans-congress.html</link>
+      <description><![CDATA[Article URL: https://www.nytimes.com/2025/06/11/climate/rooftop-solar-republicans-congress.html
+注释url： https://news.ycombinator.com/item?id=444246889 
+点：2 
+＃评论：1 ]]></description>
+      <guid>https://www.nytimes.com/2025/06/11/climate/rooftop-solar-republicans-congress.html</guid>
+      <pubDate>Wed, 11 Jun 2025 12:28:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么大型制药会担心芬本唑</title>
+      <link>https://www.rifttv.com/the-overlooked-miracle-drug-for-cancer-why-big-pharma-fears-fenbendazole/</link>
+      <description><![CDATA[文章URL： https://www.rifttv.com/the-overlooked-miracle-drug-forcancer-why-big-pharma-fears-fenbendazole/  
+注释url： https://news.ycombinator.com/item？id=442466868 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.rifttv.com/the-overlooked-miracle-drug-for-cancer-why-big-pharma-fears-fenbendazole/</guid>
+      <pubDate>Wed, 11 Jun 2025 12:24:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>供应链弹性比以往任何时候都重要</title>
+      <link>https://cacm.acm.org/blogcacm/supply-chain-resilience-is-more-important-than-ever/</link>
+      <description><![CDATA[文章URL： https://cacm.c.m.acm.acm.acm.acm.acm.ac.org/blogcm/blogcm/supply-supply-chain-isupply-chain-is-chain-is-imience-moreine-porty/pord/ 
+注释URL： https://news.ycombinator.com/item？id=444246846 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://cacm.acm.org/blogcacm/supply-chain-resilience-is-more-important-than-ever/</guid>
+      <pubDate>Wed, 11 Jun 2025 12:21:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>临时文件夹自动清洁工具</title>
+      <link>https://github.com/attilatorda/TemporaryFolderManager</link>
+      <description><![CDATA[文章URL： https://github.com/attilatordora/temporaryfoldermanager 
+注释url： https://news.ycombinator.com/item？id=442466840 
 点：1 
 ＃评论：1 ]]></description>
-      <guid>https://www.researchsquare.com/article/rs-6005409/v1</guid>
-      <pubDate>Wed, 11 Jun 2025 09:03:42 GMT</pubDate>
+      <guid>https://github.com/attilatorda/TemporaryFolderManager</guid>
+      <pubDate>Wed, 11 Jun 2025 12:19:59 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Rapidez  - 带有Laravel和Instantsearch的无头洋红色</title>
-      <link>https://rapidez.io</link>
-      <description><![CDATA[我已经与Magento合作多年了，但是对于附带项目，我使用了Codeigniter。当Laravel释放时，我切换并思考：在Laravel生态系统中创建一个Magento商店！因此，在2020年，我创建了一个概念证明：Magento数据库顶部的一些Laravel模型，并使用Laravel Blade模板和一些基本风格带有尾翼CSS。与Magento相比，结果？超级快速产品页面！接下来：类别页面。这些需要过滤，排序等。最好没有页面刷新。 Magento需要Elasticsearch（自2.4.8起，只有OpenSearch），因此，如果我们可以将其用于产品清单，那就太好了。我们找到了ReactiveSearch，这是一个带有搜索组件的前端库。我们实现了超快速过滤和搜索。最近，借助Rapidez V4，我们使用搜索套件切换到IntestantSearch（从Algolia）切换，因此我们仍然可以使用Elasticsearch/OpenSearch，因为ReactiveSearch Repos上没有太多活动，并且我们遇到了一些问题。组件：仅在VUE文件中进行逻辑，而模板停留在刀片中。随着GraphQL的支持得到改善，我们在Rapidez V2中切换到CART的GraphQl，并且在V3中的整个结帐中。 rel =“ nofollow”&gt; https://rapidez.io 
--Demo： https://demo.rapidez.io 
- -  docs： https://docs.rapidez.io   
-
-注释url： https://news.ycombinator.com/item？id=4424245623 
-点：4 
-＃评论：0 ]]></description>
-      <guid>https://rapidez.io</guid>
-      <pubDate>Wed, 11 Jun 2025 09:02:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>稻草页 - 简单的非常规网站构建器</title>
-      <link>https://straw.page</link>
-      <description><![CDATA[文章URL： https://straw.page   
-注释url： https://news.ycombinator.com/item?id=44424245592 
-点：1 
-＃评论：1 ]]></description>
-      <guid>https://straw.page</guid>
-      <pubDate>Wed, 11 Jun 2025 08:58:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>tau²板凳</title>
-      <link>https://sierra.ai/blog/benchmarking-agents-in-collaborative-real-world-scenarios</link>
-      <description><![CDATA[文章url： https://sierra.ai/blog/blog/bleg/blenchmarking-benchmarking-agents-in-collail-collail-collail-collail-collail-collail-collail-collail-real-worlld-worlld-scenarios    
-评论url： https://news.ycombinator.com/item？id=44424245591 
+      <title>apl openai api</title>
+      <link>https://github.com/Dyalog/OpenAI/blob/main/source/OpenAI.apln</link>
+      <description><![CDATA[文章url： https：//github.com/dyalog.com/dyalog/openai/blob/main/main/source/source/openai.apenai.apenai.apln 
+注释url： https://news.ycombinator.com/item?id=444246839 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://sierra.ai/blog/benchmarking-agents-in-collaborative-real-world-scenarios</guid>
-      <pubDate>Wed, 11 Jun 2025 08:58:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>镜子里的外观 - 反光的Kerberos接力攻击</title>
-      <link>https://blog.redteam-pentesting.de/2025/reflective-kerberos-relay-attack/</link>
-      <description><![CDATA[文章URL： httpps://blog.redteam-pentesting.de/2025/2025/reflective-reflective-kerberos-kerberos-kerberos-relay-attack/ 
-注释URL： https://news.ycombinator.com/item？id=4424245590 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://blog.redteam-pentesting.de/2025/reflective-kerberos-relay-attack/</guid>
-      <pubDate>Wed, 11 Jun 2025 08:58:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>裤子的解剖学[视频]</title>
-      <link>https://www.youtube.com/watch?v=kWofmqyVqpM</link>
-      <description><![CDATA[文章url： https://wwwww.youtube.com/watch?v=kwofmqyvquofmqyvqpm      
-评论url： https://news.ycombinator.com/item？id=44242455551 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.youtube.com/watch?v=kWofmqyVqpM</guid>
-      <pubDate>Wed, 11 Jun 2025 08:51:19 GMT</pubDate>
+      <guid>https://github.com/Dyalog/OpenAI/blob/main/source/OpenAI.apln</guid>
+      <pubDate>Wed, 11 Jun 2025 12:19:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
