@@ -4,7 +4,51 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Mon, 16 Jun 2025 12:40:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jun 2025 15:21:39 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：DK  - 用OCAML编写的脚本跑步者和跨编译器</title>
+      <link>https://diskuv.com/dk/help/latest/</link>
+      <description><![CDATA[我总是发现扮演可以帮助年轻一代学习技能以拥有光明的未来的角色很酷。这个角色是我在几种方面（作为父母，机器人导师，学校董事会顾问和星期日学校老师的）所做的事情，我怀疑大多数HN读者都具有相同的角色和赞赏。对于开发软件技能，很明显，我和学生都必须拥有一个可以共同努力的生产性软件环境。经验丰富/缺乏经验的工程师共同努力的主题是我创建“ DK”作为脚本工具的背景。我的测试场是拥有一两个AP CS课程（美国的高中计算机科学）的学生，其中一些人与我实习。我必须解决一些问题：  - 开发环境必须简单地设置，并且编程语言并不复杂
+ - 认识到编写小型，易于测试的工作单元（例如“脚本”）是我为初级程序员开发大型应用程序的唯一方法
+- Cheap, locked-down development hardware (ex. school computers with limited RAM and no Administrator privileges) is sometimes used for deployment to cheap hardware targets (ex. hand-me-down Android tablets)My solution was to write a standalone binary called `dk` that uses scripts as the atom of work, cross-compiles to standalone executables, and downloads the runtimes and sysroots it needs on-demand.它与Python和GO。
+您的“ DK”脚本写在OCAML 4的几乎完整子集中：所有dk`脚本都是OCAML，但并非所有OCAML代码都可以在``dk&#39;&#39;中运行。与常规OCAML的其他区别是，“ DK”随附了一个大图书馆，如果该功能对所有受支持的OS-ES都不起作用，我将任何功能视为越野车。 上面的上述起源“ dk”的起源是奇怪的（和缩写），所以我不期望`dk&#39;dk&#39;现在是一种常规擦伤。但是是。我可以将我的大部分手写软件包装，重新使用和组织为“ DK”脚本。错误消息很烂（您必须向上滚动以查看根本原因和解决方案），但它们会改善。缺少一些进度条。也有一些实验功能...``UV&#39;&#39;式进口和交互式解释器是大型的……这是故意的文献记录的，因为我担心`dk` dk&#39;的API表面。 ，但它仍然很好，您可以在示例部分中看到一些真实的应用。我希望您能在轮胎上踢一下，并给``dk&#39;&#39;一些反馈！该问题列表在&lt;&lt; a href =“ https://github.com/diskuv/dk/issues”&gt; https://github.com/diskuv/dk/sissues &gt;。。
+
+注释url： https://news.ycombinator.com/item?id=444290121 
+点：6 
+＃评论：0 ]]></description>
+      <guid>https://diskuv.com/dk/help/latest/</guid>
+      <pubDate>Mon, 16 Jun 2025 14:49:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>数学插图：几何和后记手册</title>
+      <link>https://personal.math.ubc.ca/~cass/graphics/text/www/</link>
+      <description><![CDATA[文章URL： https://personal.math.math.ubc.ca/~cass/graphics/graphics/graphics/graphics/text/text/text/www/www/       
+评论url： https://news.ycombinator.com/item?id=444289705 
+点：13 
+＃评论：1 ]]></description>
+      <guid>https://personal.math.ubc.ca/~cass/graphics/text/www/</guid>
+      <pubDate>Mon, 16 Jun 2025 14:14:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Salesforce研究发现LLM代理商Flunk CRM和机密测试</title>
+      <link>https://www.theregister.com/2025/06/16/salesforce_llm_agents_benchmark/</link>
+      <description><![CDATA[文章url： https://wwwwwww.theregister.com/2025/2025/2025/06/16/16/16/salesfece_agenmend precce_agcle_agemngn
+注释url： https://news.ycombinator.com/item？id=44289554 
+点：32 
+＃评论：9 ]]></description>
+      <guid>https://www.theregister.com/2025/06/16/salesforce_llm_agents_benchmark/</guid>
+      <pubDate>Mon, 16 Jun 2025 13:59:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>从监狱工作</title>
+      <link>https://turso.tech/blog/working-on-databases-from-prison</link>
+      <description><![CDATA[文章url： https://turso.tech/blog/working-working-onworking-onworking-on-databases-from-prom-prom-prison 
+注释url： https://news.ycombinator.com/item？id=44288937 
+点：255 
+＃评论：156 ]]></description>
+      <guid>https://turso.tech/blog/working-on-databases-from-prison</guid>
+      <pubDate>Mon, 16 Jun 2025 12:32:02 GMT</pubDate>
+    </item>
     <item>
       <title>Infracost（YC W21）是招聘软件工程师（GMT+2至GMT-6）</title>
       <link>https://infracost.io/join-the-team</link>
@@ -16,97 +60,85 @@
       <pubDate>Mon, 16 Jun 2025 12:00:18 GMT</pubDate>
     </item>
     <item>
+      <title>显示HN：插件 - 呼叫socket.io事件，例如普通JavaScript函数</title>
+      <link>https://github.com/bperel/socket-call</link>
+      <description><![CDATA[你好，我构建了一个打字稿库（命名为插话，因为缺乏更性感的名称），其目标是能够将socket.io事件称为常规函数。，因此您像SO：   ...
+  const listEnevents =（服务：uservices）=&gt;（{{
+    //在此处添加您的活动，事件的名称是函数的名称
+    登录：async（用户名：字符串）=&gt; {
+      services._socket.data.user = {username};
+      console.log（`user $ {用户名}登录`）;
+      setInterval（（）=&gt; {
+        //调用已处理客户端的事件
+        services.showservermessage（`您仍在$ {username}！`中登录）
+      }，1000）;
+      返回`您现在已记录在$ {username}！`;
+    }，，
+  }）;
+ 
+然后，在客户端，您会像普通的异步JavaScript函数一样称呼它们（并且还可以创建客户端事件处理程序）：    ...
+  const user = socket.addnamespace（
+    &#39;/用户&#39;
+  ）；
+  
+  //调用声明服务器端的事件
+  user.login（username.value）。然后（（消息）=&gt; {
+    console.log（“服务器添加”，消息）;
+  }）;
+  
+  //处理服务器发送的事件
+  user.showservermessage =（message）=&gt; {
+    console.log（“服务器向我们发送消息”，消息）;
+  }
+
+ 
+我将此库用于自己的项目，并有兴趣收到有关它的反馈： - ）
+
+评论url： https://news.ycombinator.com/item？id=444288643 
+点：20 
+＃评论：4 ]]></description>
+      <guid>https://github.com/bperel/socket-call</guid>
+      <pubDate>Mon, 16 Jun 2025 11:40:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>BIC Cristal Ballpoint笔如何变得无处不在</title>
+      <link>https://www.openculture.com/2025/06/how-the-bic-cristal-ballpoint-pen-became-the-most-successful-product-in-history.html</link>
+      <description><![CDATA[文章URL： https://www.openculture.com/2025/06/how-the-the-the-the-bic-cristal-ballpoint-pen-pen-became-the-most-successful-product--product-in-html-html  
+注释url： https://news.ycombinator.com/item?id=444288051 
+点：31 
+＃评论：69 ]]></description>
+      <guid>https://www.openculture.com/2025/06/how-the-bic-cristal-ballpoint-pen-became-the-most-successful-product-in-history.html</guid>
+      <pubDate>Mon, 16 Jun 2025 10:06:51 GMT</pubDate>
+    </item>
+    <item>
       <title>开始自己的互联网弹性俱乐部</title>
       <link>https://bowshock.nl/irc/</link>
       <description><![CDATA[文章URL： https://bowshock.nl/irc/  
 注释url： https://news.ycombinator.com/item?id=444287395 
-点：269 
-＃评论：131 ]]></description>
+点：358 
+＃评论：201 ]]></description>
       <guid>https://bowshock.nl/irc/</guid>
       <pubDate>Mon, 16 Jun 2025 07:38:17 GMT</pubDate>
     </item>
     <item>
-      <title>使用AI助手进行论文写作任务时，认知债务的积累</title>
-      <link>https://arxiv.org/abs/2506.08872</link>
-      <description><![CDATA[文章URL： https://arxiv.org/abs/2506.08872   
-注释url： https://news.ycombinator.com/item?id=444286277 
-点：203 
-＃评论：111 ]]></description>
-      <guid>https://arxiv.org/abs/2506.08872</guid>
-      <pubDate>Mon, 16 Jun 2025 02:49:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>惠普档案馆</title>
-      <link>https://hparchive.com</link>
-      <description><![CDATA[文章URL： https://hparchive.com   
-注释URL： https://news.ycombinator.com/item?id=444286134 
-点：34 
-＃评论：6 ]]></description>
-      <guid>https://hparchive.com</guid>
-      <pubDate>Mon, 16 Jun 2025 02:01:50 GMT</pubDate>
+      <title>Nanonets-ocr-S  -  OCR模型，将文档转换为结构化降价</title>
+      <link>https://huggingface.co/nanonets/Nanonets-OCR-s</link>
+      <description><![CDATA[文章URL： https://huggingface.co/nanononets/nanonets-crocr-ocr-ocr-s   
+注释URL： https://news.ycombinator.com/item？id=444287043 
+点：132 
+＃评论：35 ]]></description>
+      <guid>https://huggingface.co/nanonets/Nanonets-OCR-s</guid>
+      <pubDate>Mon, 16 Jun 2025 06:14:56 GMT</pubDate>
     </item>
     <item>
       <title>重力只是熵的上升吗？长时间的想法再看</title>
       <link>https://www.quantamagazine.org/is-gravity-just-entropy-rising-long-shot-idea-gets-another-look-20250613/</link>
       <description><![CDATA[文章URL： https://www.quantamagazine.org/is-gravity-just-just-entropy-longis-long-shot-idea-gets-another-look-20250613/  
 评论url： https://news.ycombinator.com/item？id=44285874 
-点：91 
-＃评论：85 ]]></description>
+点：139 
+＃评论：138 ]]></description>
       <guid>https://www.quantamagazine.org/is-gravity-just-entropy-rising-long-shot-idea-gets-another-look-20250613/</guid>
       <pubDate>Mon, 16 Jun 2025 00:36:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>公共Android API的笑话和幽默</title>
-      <link>https://voxelmanip.se/2025/06/14/jokes-and-humour-in-the-public-android-api/</link>
-      <description><![CDATA[文章url： https://voxelmanip.se/2025/2025/06/06/14/jokes-and14/jokes-and-14/jokes-and-humouric-inpublic-public-public-public-publiac-  
-评论url： https://news.ycombinator.com/item?id=444285781 
-点：161 
-＃评论：85 ]]></description>
-      <guid>https://voxelmanip.se/2025/06/14/jokes-and-humour-in-the-public-android-api/</guid>
-      <pubDate>Mon, 16 Jun 2025 00:14:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>用超临界CO2重新发明断路器</title>
-      <link>https://spectrum.ieee.org/sf6-gas-replacement</link>
-      <description><![CDATA[文章URL： https://spectrum.ieee.org/sf6-gas-replacement 
-评论url： https://news.ycombinator.com/item？id=442855521 
-点：83 
-＃评论：31 ]]></description>
-      <guid>https://spectrum.ieee.org/sf6-gas-replacement</guid>
-      <pubDate>Sun, 15 Jun 2025 23:01:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>DARPA程序设置了功率光束的距离记录</title>
-      <link>https://www.darpa.mil/news/2025/darpa-program-distance-record-power-beaming</link>
-      <description><![CDATA[Article URL: https://www.darpa.mil/news/2025/darpa-program-distance-record-power-beaming
-注释URL： https://news.ycombinator.com/item?id=4442854440 
-点：83 
-＃评论：43 ]]></description>
-      <guid>https://www.darpa.mil/news/2025/darpa-program-distance-record-power-beaming</guid>
-      <pubDate>Sun, 15 Jun 2025 22:40:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>无电池或外部电源的实时二氧化碳监测</title>
-      <link>https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=47450</link>
-      <description><![CDATA[文章URL： https://news.kaist.ac.kr/newsen/html/news/?mode=v&amp;； mng_no = 47450  
-注释URL： https://news.ycombinator.com/item？id=444285392 
-点：57 
-＃评论：11 ]]></description>
-      <guid>https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=47450</guid>
-      <pubDate>Sun, 15 Jun 2025 22:29:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Zeekstd  -  ZSTD可寻求格式的生锈实施</title>
-      <link>https://github.com/rorosen/zeekstd</link>
-      <description><![CDATA[你好，我想分享我一直在研究的zstandard可寻求格式的生锈实现。常规ZSTD压缩文件由一个帧组成，这意味着您必须在开始时开始减压。可寻求的格式将压缩数据拆分为一系列独立框架，每个帧单独压缩，因此，在存档中间的一部分减压只需要ZSTD最多才能对最多的额外数据进行解压缩，而不是整个存档。我开始使用可寻求的格式，因为我想将大量ZSTD压缩的文件置于plul plul plul and plul and plul plul and plul and plul and ply and deckated play decked and deckecked deckecked ply。首先，我创建并使用了与上游可用的C函数的绑定[1]，但是，我偶然发现了第一个segfault（现在已修复），发现功能只允许基本内容。在仔细观察上游实现之后，我注意到它是使用核心API的功能，该功能现在已被弃用，并且不允许访问低级（DE）压缩上下文。 To me it looks like a PoC/demo implementation that isn&#39;t maintained the same way as the zstd core API, probably that&#39;s also the reason it&#39;s in the contrib directory.My use-case seemed to require a complete rewrite of the seekable format, so I decided to implement it from scratch in Rust using bindings to the advanced zstd compression API, available from zstd 1.4.0.The result is a single dependency library crate[2], and具有与常规ZSTD工具相似的可寻求格式的Cli板条[3]。 href =“ https://github.com/facebook/zstd/tree/dev/contrib/contrib/seekable_format”&gt; https：//github.com/facebook/facebook/zstd/tree/dev/dev/contrib/contrib/seekable_f_f ... 
-[2]： https://crats.io/crates/zeekstd 
-[3]： https://github.com/rorosen/zeekstd/tree/main/main/main/main/cli/cli   
-
-注释url： https://news.ycombinator.com/item？id=44284871 
-点：44 
-＃评论：2 ]]></description>
-      <guid>https://github.com/rorosen/zeekstd</guid>
-      <pubDate>Sun, 15 Jun 2025 20:49:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
