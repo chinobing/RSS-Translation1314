@@ -4,14 +4,49 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 18 Jun 2025 01:38:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jun 2025 03:48:03 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：LSTR  - 用Rust编写的现代互动树命令</title>
+      <link>https://github.com/bgreenwell/lstr</link>
+      <description><![CDATA[ HI HN，（第一次海报！）我是&#39;lstr&#39;的作者。我一直很喜欢经典的Linux&#39;Tree`命令，因为它的简单性，但是我经常发现自己想要更现代的功能，例如互动性和GIT集成。因此，我决定以快速，极简主义和互动的哲学来建立自己的版本。这也是帮助了解Rust \！的更多信息，这是一个快速查看交互式模式： https://raw.githubusercontent.com/bgreenwell/lstr/main/asset...I&#39;ve just released v0.2.0 with some features I think this community might find useful:  * **Interactive TUI Mode:** You can launch it with `lstr interactive`.它允许通过键盘驱动的导航，扩展/折叠目录以及默认编辑器中打开文件。
+  *** git状态集成：**使用`-g`标志，`lstr`将在树输出中显示每个文件和目录的git状态。
+  ***外壳集成：**这是我最喜欢的功能。在交互式模式下，您可以按`ctrl+s`退出，并让`lstr`打印所选路径到达stdout。这使您可以将其输送到其他命令中或将其用作视觉`cd&#39;。例如，您可以将此功能添加到您的`.bashrc`/`.zshrc`：
+    ``bash
+    lcd（）{
+        本地Selected_pa​​th
+        selected_pa​​th =“ $（LSTR Interactive -GG）”
+        如果[[-n“ $ selection_path” &amp;&amp; -d“ $ selection_path”];然后
+            CD“ $ selected_pa​​th”
+        fi
+    }
+    ````````
+    然后只需运行`lcd`以视觉上选择目录并跳到它即可。
+ 
+它还支持文件型图标（通过书呆字体），文件大小，权限和尊重您的“ .gitignore”。项目是开源的，我很乐意获得您的反馈。 github： https://github.com/bgreenwell/lstr   crates.io：
+
+评论URL： https://news.ycombinator.com/item?id=44306041 
+点：45 
+＃评论：18 ]]></description>
+      <guid>https://github.com/bgreenwell/lstr</guid>
+      <pubDate>Wed, 18 Jun 2025 02:07:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：规则手册AI  -  AI编码IDE的规则和内存管理器</title>
+      <link>https://github.com/botingw/rulebook-ai</link>
+      <description><![CDATA[文章URL： https://github.com/botingw/rulebook-ai   
+注释URL： https://news.ycombinator.com/item?id=44305636 
+点：8 
+＃评论：0 ]]></description>
+      <guid>https://github.com/botingw/rulebook-ai</guid>
+      <pubDate>Wed, 18 Jun 2025 00:56:42 GMT</pubDate>
+    </item>
     <item>
       <title>Dinesh的仲夏死亡谷步道（1998）</title>
       <link>https://dineshdesai.info/dv/photos.html</link>
       <description><![CDATA[文章URL： https://dineshdesai.info/dv/photos.html 
 注释URL： https://news.ycombinator.com/item?id=44305271 
-点：20 
-＃评论：7 ]]></description>
+点：39 
+＃评论：10 ]]></description>
       <guid>https://dineshdesai.info/dv/photos.html</guid>
       <pubDate>Tue, 17 Jun 2025 23:56:32 GMT</pubDate>
     </item>
@@ -30,8 +65,8 @@
       <link>https://grugbrain.dev/</link>
       <description><![CDATA[文章URL： https://grugbrain.dev/   
 注释URL： https://news.ycombinator.com/item？id=44303542 
-点：481 
-＃评论：152 ]]></description>
+点：562 
+＃评论：207 ]]></description>
       <guid>https://grugbrain.dev/</guid>
       <pubDate>Tue, 17 Jun 2025 20:24:36 GMT</pubDate>
     </item>
@@ -39,8 +74,8 @@
       <title>BZIP2板条箱从C转换为100％生锈</title>
       <link>https://trifectatech.org/blog/bzip2-crate-switches-from-c-to-rust/</link>
       <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=44303361 
-点：149 
-＃评论：58 ]]></description>
+点：181 
+＃评论：65 ]]></description>
       <guid>https://trifectatech.org/blog/bzip2-crate-switches-from-c-to-rust/</guid>
       <pubDate>Tue, 17 Jun 2025 20:06:54 GMT</pubDate>
     </item>
@@ -49,8 +84,8 @@
       <link>https://ingrids.space/posts/what-google-translate-can-tell-us-about-vibecoding/</link>
       <description><![CDATA[文章url： https://ingrids.space/posts/posts/posts/posts/what-google-google-google-google-google-translate-can-can-can-tell-tell-can-can-tell-phibod-pibecod-pry&gt;
 注释URL： https://news.ycombinator.com/item?id=44302870 
-点：84 
-＃评论：46 ]]></description>
+点：106 
+＃评论：60 ]]></description>
       <guid>https://ingrids.space/posts/what-google-translate-can-tell-us-about-vibecoding/</guid>
       <pubDate>Tue, 17 Jun 2025 19:23:10 GMT</pubDate>
     </item>
@@ -59,8 +94,8 @@
       <link>https://kirancodes.me/posts/log-lang-design-llms.html</link>
       <description><![CDATA[文章url： https://kirancodes.me/posts/posts/log-log-log-lang-design-design-design-design-design-llms.htms.htms.htmlms.html 
 注释URL： https://news.ycombinator.com/item?id=44302797 
-点：110 
-＃评论：86 ]]></description>
+点：122 
+＃评论：91 ]]></description>
       <guid>https://kirancodes.me/posts/log-lang-design-llms.html</guid>
       <pubDate>Tue, 17 Jun 2025 19:17:05 GMT</pubDate>
     </item>
@@ -69,8 +104,8 @@
       <link>https://apnews.com/article/iran-whatsapp-meta-israel-d9e6fe43280123c9963802e6f10ac8d1</link>
       <description><![CDATA[文章URL： https://apnews.com/article/iran-whatsapp-meta-israel-d9e6fe43280123c9963802e6f10ac8d1  
 注释URL： https://news.ycombinator.com/item?id=44302752 
-点：195 
-＃评论：229 ]]></description>
+点：229 
+＃评论：291 ]]></description>
       <guid>https://apnews.com/article/iran-whatsapp-meta-israel-d9e6fe43280123c9963802e6f10ac8d1</guid>
       <pubDate>Tue, 17 Jun 2025 19:12:23 GMT</pubDate>
     </item>
@@ -79,30 +114,10 @@
       <link>https://www.alexandermejia.com/from-sdr-to-fake-hdr-mario-kart-world-on-switch-2-undermines-modern-display-potential/</link>
       <description><![CDATA[文章URL： https://www.alexandermejia.com/from-sdr-sdr-to-fake-hdr-mario-kart-world-on-on-on-switch-2-undermines-modern-display-potential/  
 注释URL： https://news.ycombinator.com/item?id=44302704 
-点：51 
-＃评论：38 ]]></description>
+点：56 
+＃评论：45 ]]></description>
       <guid>https://www.alexandermejia.com/from-sdr-to-fake-hdr-mario-kart-world-on-switch-2-undermines-modern-display-potential/</guid>
       <pubDate>Tue, 17 Jun 2025 19:07:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>时间序列预测图形变压器</title>
-      <link>https://kumo.ai/research/time-series-forecasting/</link>
-      <description><![CDATA[文章URL： https://kumo.ai/research/time-series-series-forecasting/   
-注释URL： https://news.ycombinator.com/item？id=44301998 
-点：71 
-＃评论：26 ]]></description>
-      <guid>https://kumo.ai/research/time-series-forecasting/</guid>
-      <pubDate>Tue, 17 Jun 2025 18:05:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>建立有效的AI代理商</title>
-      <link>https://www.anthropic.com/engineering/building-effective-agents</link>
-      <description><![CDATA[文章URL： https://www.anthropic.com/engineering/engineering/engineering/engineering/building-effective-efferce--fective-effection-effective-efferce--ectent-
-注释URL： https://news.ycombinator.com/item?id=44301809 
-点：253 
-＃评论：50 ]]></description>
-      <guid>https://www.anthropic.com/engineering/building-effective-agents</guid>
-      <pubDate>Tue, 17 Jun 2025 17:50:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
