@@ -4,60 +4,63 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Sat, 21 Jun 2025 12:36:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jun 2025 15:18:58 GMT</lastBuildDate>
+    <item>
+      <title>幕后：Redpanda Cloud对GCP中断的反应</title>
+      <link>https://www.redpanda.com/blog/gcp-outage-june-redpanda-cloud</link>
+      <description><![CDATA[文章URL：评论url： https://news.ycombinator.com/item?id=444338089 
+点：3 
+＃评论：0 ]]></description>
+      <guid>https://www.redpanda.com/blog/gcp-outage-june-redpanda-cloud</guid>
+      <pubDate>Sat, 21 Jun 2025 14:57:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>记录DDOS PUMMELS网站，曾经单一的7.3Tbps的垃圾流量</title>
+      <link>https://arstechnica.com/security/2025/06/record-ddos-pummels-site-with-once-unimaginable-7-3tbps-of-junk-traffic/</link>
+      <description><![CDATA[文章URL： https://arstechnica.com/security/2025/06/record-ddos-pummels-site-with-once-once-once-unimaginable-7-3tbps-of-junk-traffic/   
+注释URL： https://news.ycombinator.com/item？id=44337225 
+点：36 
+＃评论：14 ]]></description>
+      <guid>https://arstechnica.com/security/2025/06/record-ddos-pummels-site-with-once-unimaginable-7-3tbps-of-junk-traffic/</guid>
+      <pubDate>Sat, 21 Jun 2025 12:56:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>微软暂停了海牙ICC检察官的电子邮件帐户</title>
+      <link>https://www.nytimes.com/2025/06/20/technology/us-tech-europe-microsoft-trump-icc.html</link>
+      <description><![CDATA[文章URL： https://www.nytimes.com/2025/06/20/technology/us-tech-europe-microsoft-trump-icc.html  
+注释URL： https://news.ycombinator.com/item？id=44336915 
+点：34 
+＃评论：7 ]]></description>
+      <guid>https://www.nytimes.com/2025/06/20/technology/us-tech-europe-microsoft-trump-icc.html</guid>
+      <pubDate>Sat, 21 Jun 2025 12:06:15 GMT</pubDate>
+    </item>
     <item>
       <title>通过拥抱广泛的事件并取代Otel来扩展我们的可观察性平台</title>
       <link>https://clickhouse.com/blog/scaling-observability-beyond-100pb-wide-events-replacing-otel</link>
       <description><![CDATA[文章url： https：//clickhouse.com/blog/blog/blog/scaling-scaling-scaling-observ--beobserv--beyond-beyond-beyond-beyond-100pb-wide-100pb-wide-ppb plyppb ppplacing-a&gt; 
 评论url： https://news.ycombinator.com/item？id=444366015 
-点：55 
-＃评论：23 ]]></description>
+点：98 
+＃评论：37 ]]></description>
       <guid>https://clickhouse.com/blog/scaling-observability-beyond-100pb-wide-events-replacing-otel</guid>
       <pubDate>Sat, 21 Jun 2025 09:23:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我们从AWS搬到Hetzner，保存了90％，保留了ISO 27001</title>
-      <link>https://medium.com/@accounts_73078/goodbye-aws-how-we-kept-iso-27001-slashed-costs-by-90-914ccb4b89fc</link>
-      <description><![CDATA[Earlier this year I led our migration off AWS to European cloud (Hetzner + OVHcloud), driven by cost (we cut 90%) and data sovereignty (GDPR + CLOUD Act concerns).We rebuilt key AWS features ourselves using Terraform for VPS provisioning, and Ansible for everything from hardening (auditd, ufw, SSH policies) to rolling deployments (with Cloudflare 一体化）。我们的Prometheus + AlertManager + BlackBox设置使用ISO 27001 Aligned Alerts监视Infra，Apps和SSL到期。 loki + grafana代理将日志处理到兼容S3兼容对象存储。堆栈包括：
- •PostgreSQL的Ansible角色（具有自动化的S3CMD备份 + Prometheus指标）
- •硬化任务（审核规则，UFW，SSH锁定，Chrony用于时钟同步）
- •滚动Web应用程序随回滚 + CloudFlare排水部署
- •与Prometheus，Alertmanager，Grafana Agent，Loki和出口商进行全面监控
- •我在docker + ansible 中通过certbot自动化我写了架构，挑战和经验教训： https：//medium.com/@accounts_73078/goodbye-aws-how-we-we-kept-i-  我很乐意分享洞察力，图表或snippets，如果人们有兴趣，如果人们有兴趣，或者是关于陷阱，合规性或成本模型的答案。
-
-注释URL： https://news.ycombinator.com/item?id=44335920 
-点：103 
-＃评论：50 ]]></description>
-      <guid>https://medium.com/@accounts_73078/goodbye-aws-how-we-kept-iso-27001-slashed-costs-by-90-914ccb4b89fc</guid>
-      <pubDate>Sat, 21 Jun 2025 09:02:29 GMT</pubDate>
     </item>
     <item>
       <title>Cosmoe：韦兰德顶部的Beos班级图书馆</title>
       <link>https://cosmoe.org/index.html</link>
       <description><![CDATA[文章URL： https://cosmoe.org/index.html  
 注释URL： https://news.ycombinator.com/item?id=444335907 
-点：45 
-＃评论：9 ]]></description>
+点：115 
+＃评论：41 ]]></description>
       <guid>https://cosmoe.org/index.html</guid>
       <pubDate>Sat, 21 Jun 2025 09:00:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>代理失误：LLM如何成为内部威胁</title>
-      <link>https://www.anthropic.com/research/agentic-misalignment</link>
-      <description><![CDATA[文章URL： https://www.anthropic.com/research/research/agentic-misalignment 
-评论url： https://news.ycombinator.com/item？id=443355519 
-点：57 
-＃评论：52 ]]></description>
-      <guid>https://www.anthropic.com/research/agentic-misalignment</guid>
-      <pubDate>Sat, 21 Jun 2025 07:39:28 GMT</pubDate>
     </item>
     <item>
       <title>在法国发现的一种新的血型：“ Gwada负面”，一个全球例外</title>
       <link>https://entrevue.fr/en/un-groupe-sanguin-inedit-decouvert-en-france-gwada-negatif-une-exception-mondiale/</link>
       <description><![CDATA[文章URL： https://entrevue.fr/en/un-groupe-sanguin-inedit-decouvert-en-france-grance-ganda-negation-negative-une-exception-mondial/  
 评论url： https://news.ycombinator.com/item？id=4443355517 
-点：22 
-＃评论：9 ]]></description>
+点：64 
+＃评论：32 ]]></description>
       <guid>https://entrevue.fr/en/un-groupe-sanguin-inedit-decouvert-en-france-gwada-negatif-une-exception-mondiale/</guid>
       <pubDate>Sat, 21 Jun 2025 07:38:42 GMT</pubDate>
     </item>
@@ -66,8 +69,8 @@
       <link>https://delta.chat/en/</link>
       <description><![CDATA[文章URL： https://delta.chat/en/   
 注释URL： https://news.ycombinator.com/item？id=443335065 
-点：48 
-＃评论：10 ]]></description>
+点：112 
+＃评论：45 ]]></description>
       <guid>https://delta.chat/en/</guid>
       <pubDate>Sat, 21 Jun 2025 06:29:00 GMT</pubDate>
     </item>
@@ -76,8 +79,8 @@
       <link>https://www.gematsu.com/2025/06/sega-mistakenly-reveals-sales-numbers-for-like-a-dragon-infinite-wealth-persona-3-reload-shin-megami-tensei-v-and-more</link>
       <description><![CDATA[文章URL： https://www.gematsu.com/2025/06/sega-mistakenly-reveals-sales-numbers-numbers-for-like-a-a-dragon-infinite-wealthite-wealth-wealth-persona-3-reload-reload-shin-megami-shin-megami-tense-tense-i-v-and-more-v-and-more     
 注释URL： https://news.ycombinator.com/item?id=44333038 
-点：132 
-＃评论：91 ]]></description>
+点：165 
+＃评论：133 ]]></description>
       <guid>https://www.gematsu.com/2025/06/sega-mistakenly-reveals-sales-numbers-for-like-a-dragon-infinite-wealth-persona-3-reload-shin-megami-tensei-v-and-more</guid>
       <pubDate>Sat, 21 Jun 2025 06:23:01 GMT</pubDate>
     </item>
@@ -86,8 +89,8 @@
       <link>https://graphics.cs.utah.edu/research/projects/avbd/</link>
       <description><![CDATA[文章url： https://graphics.cs.utah.edu/research/research/project/project/project/projects/projects/avbd/avbd/ 
 注释url： https://news.ycombinator.com/item？id=44433444403 
-点：35 
-＃评论：3 ]]></description>
+点：46 
+＃评论：5 ]]></description>
       <guid>https://graphics.cs.utah.edu/research/projects/avbd/</guid>
       <pubDate>Sat, 21 Jun 2025 04:04:56 GMT</pubDate>
     </item>
@@ -96,20 +99,10 @@
       <link>https://smex.org/open-letter-to-samsung-end-forced-israeli-app-installations-in-the-wana-region/</link>
       <description><![CDATA[Article URL: https://smex.org/open-letter-to-samsung-end-forced-israeli-app-installations-in-the-wana-region/
 注释URL： https://news.ycombinator.com/item./item?id=44434167 
-点：444 
-＃评论：275 ]]></description>
+点：516 
+＃评论：320 ]]></description>
       <guid>https://smex.org/open-letter-to-samsung-end-forced-israeli-app-installations-in-the-wana-region/</guid>
       <pubDate>Sat, 21 Jun 2025 03:06:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>小小的被低估的硬件同伴（2024）</title>
-      <link>https://vermaden.wordpress.com/2024/03/21/tiny-undervalued-hardware-companions/</link>
-      <description><![CDATA[文章url： https://vermaden.wordpress.com/2024/2024/03/03/03/21/tiny-undervalue-hard-hard-hard-hard-hard-hard-hard-hard-hard-hard-hard-hard-hard-hard-hard-hard-hard-hard-warred-hard-hard/p&gt;
-注释url： https://news.ycombinator.com/item?id=4443339660 
-点：81 
-＃评论：16 ]]></description>
-      <guid>https://vermaden.wordpress.com/2024/03/21/tiny-undervalued-hardware-companions/</guid>
-      <pubDate>Sat, 21 Jun 2025 02:19:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
