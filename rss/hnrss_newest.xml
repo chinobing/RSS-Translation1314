@@ -4,107 +4,112 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Sat, 21 Jun 2025 06:27:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jun 2025 09:19:01 GMT</lastBuildDate>
     <item>
-      <title>SEGA错误地揭示了销售数字流行游戏</title>
-      <link>https://www.gematsu.com/2025/06/sega-mistakenly-reveals-sales-numbers-for-like-a-dragon-infinite-wealth-persona-3-reload-shin-megami-tensei-v-and-more</link>
-      <description><![CDATA[文章URL： https://www.gematsu.com/2025/06/sega-mistakenly-reveals-sales-numbers-numbers-for-like-a-a-dragon-infinite-wealthite-wealth-wealth-persona-3-reload-reload-shin-megami-shin-megami-tense-tense-i-v-and-more-v-and-more     
-注释URL： https://news.ycombinator.com/item?id=44333038 
+      <title>$ 90K的法拉利Testa Rossa雕塑已准备就绪</title>
+      <link>https://www.forbes.com/sites/alistaircharlton/2025/06/20/this-90000-ferrari-testa-rossa-sculpture-is-ready-for-your-wall/</link>
+      <description><![CDATA[文章URL： https://www.forbes.com/sites/alistaircharlton/2025/06/20/this-90000--90000--ferrari-testa-testa-testa-testa-on-sculpture-is-is-ready-for-your-for-your-wall/   
+注释URL： https://news.ycombinator.com/item?id=444335928 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.gematsu.com/2025/06/sega-mistakenly-reveals-sales-numbers-for-like-a-dragon-infinite-wealth-persona-3-reload-shin-megami-tensei-v-and-more</guid>
-      <pubDate>Sat, 21 Jun 2025 06:23:01 GMT</pubDate>
+      <guid>https://www.forbes.com/sites/alistaircharlton/2025/06/20/this-90000-ferrari-testa-rossa-sculpture-is-ready-for-your-wall/</guid>
+      <pubDate>Sat, 21 Jun 2025 09:04:49 GMT</pubDate>
     </item>
     <item>
-      <title>伊朗要建立核武器吗？</title>
-      <link>https://www.abc.net.au/news/2025-06-21/donald-trump-says-tulsi-gabbard-wrong-on-iran-nuclear-program/105445142</link>
-      <description><![CDATA[文章URL： https://www.abc.net.au/news/2025-06-21/donald-trump-says-tulmi-gabbard-wrong-on-rong-on-iran-nuclear-nuclear-program/105445142  
-评论URL： https://news.ycombinator.com/item？id=443335015 
+      <title>美国领先的指标在5月滑倒，触发衰退信号</title>
+      <link>https://www.reuters.com/world/us/us-leading-indicators-slip-may-triggering-recession-signal-conference-board-says-2025-06-20/</link>
+      <description><![CDATA[文章URL： https://www.reuters.com/world/us/us/leading-indicators-slip-may-triggering-recession-signal-conference-board-say-says-says-2025-06-20/  
+评论url： https://news.ycombinator.com/item？id=44335922 
 点：1 
-＃评论：1 ]]></description>
-      <guid>https://www.abc.net.au/news/2025-06-21/donald-trump-says-tulsi-gabbard-wrong-on-iran-nuclear-program/105445142</guid>
-      <pubDate>Sat, 21 Jun 2025 06:17:30 GMT</pubDate>
+＃评论：0 ]]></description>
+      <guid>https://www.reuters.com/world/us/us-leading-indicators-slip-may-triggering-recession-signal-conference-board-says-2025-06-20/</guid>
+      <pubDate>Sat, 21 Jun 2025 09:03:16 GMT</pubDate>
     </item>
     <item>
-      <title>魏兹曼学院（Weizmann Institute）争先恐后地保存伊朗导弹命中实验室</title>
-      <link>https://www.thehindu.com/news/international/israeli-scientists-at-weizmann-institute-of-science-scramble-to-save-work-after-iranian-missile-hits-labs/article69720285.ece</link>
-      <description><![CDATA[文章URL： https://www.thehindu.com/news/international/israeli-scientists-weizmann-institute-of-science-science-scramble-to-save-work-work-fork-fer-fer-rab-rabs-labs-labs-labs-labs/article-69720285.ece   
-注释URL： https://news.ycombinator.com/item./item?id=44434977 
-点：2 
-＃评论：1 ]]></description>
-      <guid>https://www.thehindu.com/news/international/israeli-scientists-at-weizmann-institute-of-science-scramble-to-save-work-after-iranian-missile-hits-labs/article69720285.ece</guid>
-      <pubDate>Sat, 21 Jun 2025 06:09:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示HN：Clipbin；共享文本/代码的最简单，开源和安全的方式</title>
-      <link>https://github.com/alight659/ClipBin</link>
-      <description><![CDATA[大家好，再次分享有关Clipbin的信息。我更新了该平台，其中包括注册用户导出数据等的选项。请在 https://clipb.in   
+      <title>Show HN：我们从AWS搬到Hetzner，保存了90％，保留了ISO 27001</title>
+      <link>https://medium.com/@accounts_73078/goodbye-aws-how-we-kept-iso-27001-slashed-costs-by-90-914ccb4b89fc</link>
+      <description><![CDATA[Earlier this year I led our migration off AWS to European cloud (Hetzner + OVHcloud), driven by cost (we cut 90%) and data sovereignty (GDPR + CLOUD Act concerns).We rebuilt key AWS features ourselves using Terraform for VPS provisioning, and Ansible for everything from hardening (auditd, ufw, SSH policies) to rolling deployments (with Cloudflare 一体化）。我们的Prometheus + AlertManager + BlackBox设置使用ISO 27001 Aligned Alerts监视Infra，Apps和SSL到期。 loki + grafana代理将日志处理到兼容S3兼容对象存储。堆栈包括：
+ •PostgreSQL的Ansible角色（具有自动化的S3CMD备份 + Prometheus指标）
+ •硬化任务（审核规则，UFW，SSH锁定，Chrony用于时钟同步）
+ •滚动Web应用程序随回滚 + CloudFlare排水部署
+ •与Prometheus，Alertmanager，Grafana Agent，Loki和出口商进行全面监控
+ •我在docker + ansible 中通过certbot自动化我写了架构，挑战和经验教训： https：//medium.com/@accounts_73078/goodbye-aws-how-we-we-kept-i-  我很乐意分享洞察力，图表或snippets，如果人们有兴趣，如果人们有兴趣，或者是关于陷阱，合规性或成本模型的答案。
 
-注释URL： https://news.ycombinator.com/item?id=44434970 
+注释URL： https://news.ycombinator.com/item?id=44335920 
 点：3 
 ＃评论：0 ]]></description>
-      <guid>https://github.com/alight659/ClipBin</guid>
-      <pubDate>Sat, 21 Jun 2025 06:09:11 GMT</pubDate>
+      <guid>https://medium.com/@accounts_73078/goodbye-aws-how-we-kept-iso-27001-slashed-costs-by-90-914ccb4b89fc</guid>
+      <pubDate>Sat, 21 Jun 2025 09:02:29 GMT</pubDate>
     </item>
     <item>
-      <title>人们立即决定是否基于设计信任产品</title>
-      <link>https://www.andrewcoyle.com/blog/beauty-is-objective</link>
-      <description><![CDATA[文章URL： https://www.andrewcoyle.com/blog/blog/beauty-is-is-obigntive 
-注释url： https://news.ycombinator.com/item?id=444349663 
-点：3 
-＃评论：0 ]]></description>
-      <guid>https://www.andrewcoyle.com/blog/beauty-is-objective</guid>
-      <pubDate>Sat, 21 Jun 2025 06:07:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple高管进行了有关购买AI初创公司困惑的内部谈判</title>
-      <link>https://www.bloomberg.com/news/articles/2025-06-20/apple-executives-have-held-internal-talks-about-buying-ai-startup-perplexity</link>
-      <description><![CDATA[文章URL： https://www.bloomberg.com/news/articles/2025-06-20/apple-executives-have-held-held-held-held-internal-talks-buy-buying-buying-ai-startup-perperxity   
-注释url： https://news.ycombinator.com/item？id=44434958 
-点：4 
-＃评论：0 ]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2025-06-20/apple-executives-have-held-internal-talks-about-buying-ai-startup-perplexity</guid>
-      <pubDate>Sat, 21 Jun 2025 06:06:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>VIBE编码数据室应用程序</title>
-      <link>https://djpardis.medium.com/vibe-coding-a-data-room-app-2858246857e9</link>
-      <description><![CDATA[Article URL: https://djpardis.medium.com/vibe-coding-a-data-room-app-2858246857e9
-注释url： https://news.ycombinator.com/item？id=44434936 
+      <title>构建了一个简单的智能链接生成器</title>
+      <link>https://blazeurl.xyz/TdXG2G</link>
+      <description><![CDATA[文章URL： https://blazeurl.xyz/tdxg2g   
+注释URL： https://news.ycombinator.com/item?id=44335910 
 点：1 
 ＃评论：1 ]]></description>
-      <guid>https://djpardis.medium.com/vibe-coding-a-data-room-app-2858246857e9</guid>
-      <pubDate>Sat, 21 Jun 2025 06:02:30 GMT</pubDate>
+      <guid>https://blazeurl.xyz/TdXG2G</guid>
+      <pubDate>Sat, 21 Jun 2025 09:00:29 GMT</pubDate>
     </item>
     <item>
-      <title>以色列 - 伊朗冲突释放了AI虚假信息的浪潮</title>
-      <link>https://www.bbc.com/news/articles/c0k78715enxo</link>
-      <description><![CDATA[文章URL： https://wwwww.bbc.com/news/news/articles/articles/c0k7878715enxo 
-注释URL： https://news.ycombinator.com/item?id=44334930 
-点：1 
+      <title>Cosmoe：韦兰德顶部的Beos班级图书馆</title>
+      <link>https://cosmoe.org/index.html</link>
+      <description><![CDATA[文章URL： https://cosmoe.org/index.html  
+注释URL： https://news.ycombinator.com/item?id=444335907 
+点：2 
 ＃评论：0 ]]></description>
-      <guid>https://www.bbc.com/news/articles/c0k78715enxo</guid>
-      <pubDate>Sat, 21 Jun 2025 06:00:43 GMT</pubDate>
+      <guid>https://cosmoe.org/index.html</guid>
+      <pubDate>Sat, 21 Jun 2025 09:00:01 GMT</pubDate>
     </item>
     <item>
-      <title>对冲基金总监仲裁技术就业市场的指南</title>
-      <link>https://twitter.com/SimplyBendy/status/1936140533023326538</link>
-      <description><![CDATA[文章url： httpps://twitter.com/simplybendus/simplybendus/status/19361405333023332626262622626262262622622622622626226226226226226226226226226223232232323238  
-评论url： https://news.ycombinator.com/item?id=44434888 
+      <title>复古Sega游戏现在可以在Android（和iOS）上免费，直到它们永远消失</title>
+      <link>https://www.androidauthority.com/sega-retro-games-android-free-3568153/</link>
+      <description><![CDATA[文章URL： httpps://wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.androide.com/se-rretro一下至
+注释URL： https://news.ycombinator.com/item？id=44335900 
+点：2 
+＃评论：0 ]]></description>
+      <guid>https://www.androidauthority.com/sega-retro-games-android-free-3568153/</guid>
+      <pubDate>Sat, 21 Jun 2025 08:58:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>网络古比 - 您的网络年龄基本收入</title>
+      <link>https://github.com/stateless-minds/cyber-gubi</link>
+      <description><![CDATA[文章URL： https://github.com/stateless-minds/cyber-gubi   
+注释url： https://news.ycombinator.com/item?id=444335895 
 点：1 
 ＃评论：1 ]]></description>
-      <guid>https://twitter.com/SimplyBendy/status/1936140533023326538</guid>
-      <pubDate>Sat, 21 Jun 2025 05:50:46 GMT</pubDate>
+      <guid>https://github.com/stateless-minds/cyber-gubi</guid>
+      <pubDate>Sat, 21 Jun 2025 08:58:09 GMT</pubDate>
     </item>
     <item>
-      <title>我们为什么不能打破密码学？</title>
-      <link>https://blog.computationalcomplexity.org/2025/04/why-cant-we-break-crytptography.html</link>
-      <description><![CDATA[文章URL： https://blog.computationalcompletionalcompletionalcomplexital.org/2025/2025/2025/04/why-cant-cant-cant-cant-cant-cant-cant-cant-cant-cant-cant-cant-pptopraphy.ha&gt;
-注释url： https://news.ycombinator.com/item./item?id=44434865 
-点：3 
+      <title>瑜伽是人类需要再次完整的暂停按钮</title>
+      <link>https://www.thestatesman.com/india/yoga-is-the-pause-button-that-humanity-needs-to-be-whole-again-pm-modi-1503447973.html</link>
+      <description><![CDATA[文章URL： https://www.thestatesman.com/india/yoga-is-the-pause-button-that-that-humanity-needs-to-be-be-whe-------------- modi-1503447973.html   
+评论url： https://news.ycombinator.com/item?id=444335882 
+点：1 
 ＃评论：0 ]]></description>
-      <guid>https://blog.computationalcomplexity.org/2025/04/why-cant-we-break-crytptography.html</guid>
-      <pubDate>Sat, 21 Jun 2025 05:46:49 GMT</pubDate>
+      <guid>https://www.thestatesman.com/india/yoga-is-the-pause-button-that-humanity-needs-to-be-whole-again-pm-modi-1503447973.html</guid>
+      <pubDate>Sat, 21 Jun 2025 08:56:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>聪明的公民会遇到网格 - 黑客马拉松</title>
+      <link>https://www.hackster.io/news/fab-lab-barcelona-seeed-studio-hackster-meshtastic-to-collaborate-on-next-gen-smart-citizen-kit-aa63c981164a</link>
+      <description><![CDATA[文章URL： https://www.hackster.io/news/fab-lab-barcelona-seeed-seeed-studio-hackster-meshtastic-to-collaborate-collaborate-on-next-next-gen-smart-citizen-kit-kit-aa63c981164aa    
+注释URL： https://news.ycombinator.com/item?id=44335850 
+点：1 
+＃评论：1 ]]></description>
+      <guid>https://www.hackster.io/news/fab-lab-barcelona-seeed-studio-hackster-meshtastic-to-collaborate-on-next-gen-smart-citizen-kit-aa63c981164a</guid>
+      <pubDate>Sat, 21 Jun 2025 08:48:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>RL即将到来的GPT-3时刻</title>
+      <link>https://www.mechanize.work/blog/the-upcoming-gpt-3-moment-for-rl/</link>
+      <description><![CDATA[文章url： https://www.mechanize.work/blog/blog/the-ppt-cmpt-cpt-gpt-3-moment-for-for-for-for-rl/-
+注释url： https://news.ycombinator.com/item?id=444335847 
+点：2 
+＃评论：0 ]]></description>
+      <guid>https://www.mechanize.work/blog/the-upcoming-gpt-3-moment-for-rl/</guid>
+      <pubDate>Sat, 21 Jun 2025 08:48:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
