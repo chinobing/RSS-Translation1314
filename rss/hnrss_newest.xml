@@ -4,104 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 25 Jun 2025 15:23:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jun 2025 18:29:01 GMT</lastBuildDate>
     <item>
-      <title>纯UI</title>
-      <link>https://rauchg.com/2015/pure-ui</link>
-      <description><![CDATA[文章URL： https://rauchg.com/2015/pure-ui  
-评论url： https://news.ycombinator.com/item？id=444378322 
+      <title>Openai正在抛弃打字稿，以重建与Rust的Codex CLI</title>
+      <link>https://quiz.businessexplain.com/openai-is-ditching-typescript-to-rebuild-codex-cli-with-rust/</link>
+      <description><![CDATA[文章URL：https://quiz.businessexplain.com/openai-is-ditching-typescript-to-rebuild-codex-cli-with-rust/
+注释url： https://news.ycombinator.com/item？id=444380356 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://quiz.businessexplain.com/openai-is-ditching-typescript-to-rebuild-codex-cli-with-rust/</guid>
+      <pubDate>Wed, 25 Jun 2025 18:21:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>你不能在运动员中购买股票</title>
+      <link>https://www.bloomberg.com/opinion/newsletters/2025-06-25/you-can-t-exactly-buy-stock-in-athletes</link>
+      <description><![CDATA[文章URL： https://www.bloomberg.com/opinion/newsletters/2025-06-25/you-can-t-exactly-buy-stock-in--in---in-----in----------in--  
+注释URL： https://news.ycombinator.com/item？id=444380316 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.bloomberg.com/opinion/newsletters/2025-06-25/you-can-t-exactly-buy-stock-in-athletes</guid>
+      <pubDate>Wed, 25 Jun 2025 18:17:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>乌干达劳力士重200公斤打破世界纪录</title>
+      <link>https://www.guinnessworldrecords.com/news/2022/2/massive-ugandan-rolex-weighing-200-kg-breaks-world-record-691537</link>
+      <description><![CDATA[文章URL： https://www.guinnessworldrecords.com/news/2022/2/massive-ugandan-rolex-weighing-200-kg-breaks-world-record-691537  
+注释URL： https://news.ycombinator.com/item？id=4438030303 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.guinnessworldrecords.com/news/2022/2/massive-ugandan-rolex-weighing-200-kg-breaks-world-record-691537</guid>
+      <pubDate>Wed, 25 Jun 2025 18:16:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：ESP32分区计算器</title>
+      <link>https://esp32.jgarrettcorbin.com</link>
+      <description><![CDATA[我知道我已经在某个地方的评论中提到了这一点，但是我想正式与HN分享。在我的一个项目中，我需要在ESP32上自定义分区表。我目前唯一可以找到计算的工具是一个基于Google Sheet的工具，非常有限，因此创建了此工具。最近，我添加了一些工具来自动调整分区大小以适合空空间。我希望这个董事会上有一些人会找到一些用途。绝对欢迎任何有关改进的建议！
+
+注释url： https://news.ycombinator.com/item？id=44380286 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://esp32.jgarrettcorbin.com</guid>
+      <pubDate>Wed, 25 Jun 2025 18:15:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>什么是“公共互联网”？</title>
+      <link>https://pluralistic.net/2025/06/25/eurostack/#viktor-orbans-isp</link>
+      <description><![CDATA[文章url： httpps：//pluralistic.net/2025/2025/06/06/06/25/eurostack/eurostack/eurostack/wikviktor-packtor-orbans-orbans-orbans-isp 评论URL： https://news.ycombinator.com/item？id=444380285 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://pluralistic.net/2025/06/25/eurostack/#viktor-orbans-isp</guid>
+      <pubDate>Wed, 25 Jun 2025 18:15:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：与AI与历史/虚构/当代人物交谈的iOS应用程序</title>
+      <link>https://apps.apple.com/us/app/dinner-party-talk-across-time/id6747322690</link>
+      <description><![CDATA[有趣的周末氛围编码项目所有图标，设计，99％的代码是AI产生的。主要使用 https://www.alexcodes.app/ ，Cursor＆Chatgpt。 100％免费，没有注册，没有广告，没有广告，没有BullShit 任何功能建议，请反馈！ 
+
+评论url： https://news.ycombinator.com/item?id=444380273 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://apps.apple.com/us/app/dinner-party-talk-across-time/id6747322690</guid>
+      <pubDate>Wed, 25 Jun 2025 18:14:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：我在Zig中从头开始生生Dogog的MCP服务器。没有SDK</title>
+      <link>https://github.com/williamw520/zigjr/blob/master/examples/mcp_hello.zig</link>
+      <description><![CDATA[前一段时间，我想在Zig中编写MCP服务器，但发现MCP需要进行通信所需的ZIG中没有真正的JSON-RPC支持。我最终在Zig和更多[1]中开发了JSON-RPC 2.0库。它是从头开始实现MCP JSON模式的协议消息的。 llm调用我的MCP服务器[2]。大多数辛勤工作已经在JSON-RPC库中完成。 [1]  https://github.com/williamw520/zigjr  href =“ https://github.com/williamw520/zigjr?tab=readme-ov-file#run-the-mcp-server-example-”&gt; https：//github.com/williamw520/zigjr？
+
+注释url： https://news.ycombinator.com/item?id=444380269 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://github.com/williamw520/zigjr/blob/master/examples/mcp_hello.zig</guid>
+      <pubDate>Wed, 25 Jun 2025 18:14:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>实际深入研究了AI在生物制药中的采用</title>
+      <link>https://capsysgroup.com/how-can-biopharma-do-a-better-job-at-adopting-amd-integrating-ai-technologies-and-manage-change/</link>
+      <description><![CDATA[文章URL： https://capsysgroup.com/how-can-biopharma-do-a-a-better-job-at-ad-apting-amd-integrating-ai-technologies-and-manage-manage-change/   
+注释url： https://news.ycombinator.com/item?id=444380268 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://capsysgroup.com/how-can-biopharma-do-a-better-job-at-adopting-amd-integrating-ai-technologies-and-manage-change/</guid>
+      <pubDate>Wed, 25 Jun 2025 18:14:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>旧金山的200美元DIY公寓内置在啤酒桶内</title>
+      <link>https://www.sfgate.com/sf-culture/article/strangest-200-dollar-apartments-sf-history-20381556.php</link>
+      <description><![CDATA[文章URL： https://www.sfgate.com/sf-culture/article/strangest-200-dollar-apartments-sf-history-20381556.php  
+评论url： https://news.ycombinator.com/item？id=444380260 
 点：1 
 ＃评论：1 ]]></description>
-      <guid>https://rauchg.com/2015/pure-ui</guid>
-      <pubDate>Wed, 25 Jun 2025 15:17:47 GMT</pubDate>
+      <guid>https://www.sfgate.com/sf-culture/article/strangest-200-dollar-apartments-sf-history-20381556.php</guid>
+      <pubDate>Wed, 25 Jun 2025 18:13:23 GMT</pubDate>
     </item>
     <item>
-      <title>核政策专家戴夫·奥尔布赖特（Dave Albright）监测伊朗的核场地损害</title>
-      <link>https://www.nature.com/articles/d41586-025-01992-2</link>
-      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item？id=44378304 
+      <title>敦促加强网络防御的企业：增加伊朗的攻击</title>
+      <link>https://news.sky.com/story/businesses-urged-to-strengthen-cyber-defences-amid-increase-in-iran-adjacent-attacks-13388470</link>
+      <description><![CDATA[文章URL： https://news.sky.com/story/businesses-urged-to-cyber-defences-defences--amid-incresease-in-iran-adjacent-Attacks-13388470   
+注释url： https://news.ycombinator.com/item?id=444380248 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.nature.com/articles/d41586-025-01992-2</guid>
-      <pubDate>Wed, 25 Jun 2025 15:15:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>用法如何工作</title>
-      <link>https://www.usage.ai/blog/how-usage-works</link>
-      <description><![CDATA[文章URL： https://www.usage.ai/blog/blog/how-usage-works    
-注释URL： https://news.ycombinator.com/item?id=444378296 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.usage.ai/blog/how-usage-works</guid>
-      <pubDate>Wed, 25 Jun 2025 15:14:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>模型功能的早期预览 - 通才[视频]</title>
-      <link>https://www.youtube.com/watch?v=mhfleCK_IAI</link>
-      <description><![CDATA[文章URL： https://www.youtube.com/watch?v=mhfleck_iai 
-注释url： https://news.ycombinator.com/item?id=444378293 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.youtube.com/watch?v=mhfleCK_IAI</guid>
-      <pubDate>Wed, 25 Jun 2025 15:14:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>科学家在我们的细胞内发现未知的细胞器</title>
-      <link>https://phys.org/news/2025-06-scientists-unknown-organelle-cells.html</link>
-      <description><![CDATA[文章url： https://phys.org/news/news/news/2025-06-scientistist-scientists-scientist-scientist-scientist-inknown-inownownownown-chnownownownown-chelllecellle-celllle-celllle-celllless.h.a&gt;  注释url： https://news.ycombinator.com/item?id=444378277 
-点：2 
-＃评论：0 ]]></description>
-      <guid>https://phys.org/news/2025-06-scientists-unknown-organelle-cells.html</guid>
-      <pubDate>Wed, 25 Jun 2025 15:13:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Salesloft的凯尔·波特（Kyle Porter）关于组织健康[视频]</title>
-      <link>https://notanotherceo.substack.com/p/kyle-porter-salesloft-leading-with</link>
-      <description><![CDATA[文章url：注释URL： https://news.ycombinator.com/item./item?id=444378275 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://notanotherceo.substack.com/p/kyle-porter-salesloft-leading-with</guid>
-      <pubDate>Wed, 25 Jun 2025 15:12:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>问HN：在行业中，有人使用增强现实，VR，眼镜，头盔等吗？</title>
-      <link>https://news.ycombinator.com/item?id=44378271</link>
-      <description><![CDATA[自从Google Glass于2012年首次亮相以来，围绕增强现实和相关技术在行业中逐渐炒作，大概可以提高工人的生产力和能力。我至少认为可以访问免费的信息检索（例如蓝图，说明，笔记等），视频聊天和呼吁观看点共享等，这对于许多行业都非常有用。似乎确实有有趣的试验试验，涉及美国国防部（IVA）以及塞尔维亚的医疗保健远程监控。您知道是否有任何相关示例或用例，还是您自己是用户？您认为障碍是什么 - 实际有用性，显示质量，成本，其他东西？
-
-评论url： https://news.ycombinator.com/item?id=444378271 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44378271</guid>
-      <pubDate>Wed, 25 Jun 2025 15:12:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Elelem，ollama的工具呼叫CLI和C中的DeepSeek</title>
-      <link>https://codeberg.org/politebot/elelem</link>
-      <description><![CDATA[文章URL： https://codeberg.org/poleitebot/elem   
-注释url： https://news.ycombinator.com/item？id=444378254 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://codeberg.org/politebot/elelem</guid>
-      <pubDate>Wed, 25 Jun 2025 15:10:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>可视化的梯度</title>
-      <link>https://uclaacm.github.io/gradient-descent-visualiser/</link>
-      <description><![CDATA[文章url： https://uclaacm.github.io/gradient-descent-visalimer/ 
-注释url： https://news.ycombinator.com/item?id=444378253 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://uclaacm.github.io/gradient-descent-visualiser/</guid>
-      <pubDate>Wed, 25 Jun 2025 15:10:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>DCJ11简介 - 我的PDP-11项目</title>
-      <link>https://www.5volts.ch/pages/dcj11sbc/010-dcj11-introduction/</link>
-      <description><![CDATA[文章URL： https://www.5volts.ch/pages/pages/pages/dcj11sbc/010-dcj11-ind.010-dcj11-ing.11-ind.-110-dcj11-indodact/
-注释url： https://news.ycombinator.com/item?id=444378241 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.5volts.ch/pages/dcj11sbc/010-dcj11-introduction/</guid>
-      <pubDate>Wed, 25 Jun 2025 15:09:39 GMT</pubDate>
+      <guid>https://news.sky.com/story/businesses-urged-to-strengthen-cyber-defences-amid-increase-in-iran-adjacent-attacks-13388470</guid>
+      <pubDate>Wed, 25 Jun 2025 18:12:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
