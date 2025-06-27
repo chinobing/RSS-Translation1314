@@ -4,106 +4,129 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Fri, 27 Jun 2025 01:40:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jun 2025 03:50:13 GMT</lastBuildDate>
     <item>
-      <title>一个在山洞里呆了五百天的女人</title>
-      <link>https://www.newyorker.com/magazine/2024/01/29/the-woman-who-spent-five-hundred-days-in-a-cave</link>
-      <description><![CDATA[文章URL： https://www.newyorker.com/magazine/2024/01/29/the-woman-who-spent-five-hundred-days-in-a-cave  
-注释URL： https://news.ycombinator.com/item?id=44393069 
+      <title>每天在虚拟空间举行酗酒的匿名会议</title>
+      <link>https://www.uploadvr.com/alcoholics-anonymous-meetings-vr/</link>
+      <description><![CDATA[文章URL： https://www.uploadvr.com/alcoholics-ahololics-annymons-anonymos-mathornymous-meetings-meetings-meetings-meetings-vr/     
+注释url： https://news.ycombinator.com/item?id=444393484 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.uploadvr.com/alcoholics-anonymous-meetings-vr/</guid>
+      <pubDate>Fri, 27 Jun 2025 03:35:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>彼得·蒂尔（Peter Thiel）和敌基督者</title>
+      <link>https://www.nytimes.com/2025/06/26/opinion/peter-thiel-antichrist-ross-douthat.html</link>
+      <description><![CDATA[文章URL：https://www.nytimes.com/2025/06/26/opinion/peter-thiel-antichrist-ross-douthat.html
+注释url： https://news.ycombinator.com/item？id=444393475 
 点：2 
-＃评论：0 ]]></description>
-      <guid>https://www.newyorker.com/magazine/2024/01/29/the-woman-who-spent-five-hundred-days-in-a-cave</guid>
-      <pubDate>Fri, 27 Jun 2025 01:33:21 GMT</pubDate>
+＃评论：2 ]]></description>
+      <guid>https://www.nytimes.com/2025/06/26/opinion/peter-thiel-antichrist-ross-douthat.html</guid>
+      <pubDate>Fri, 27 Jun 2025 03:32:59 GMT</pubDate>
     </item>
     <item>
-      <title>二十年的蔬菜（2016年）</title>
-      <link>https://fabienne.us/2016/04/28/twenty-years-of-vegetables/</link>
-      <description><![CDATA[文章url： https://fabienne.us.us/2016/04/04/04/28/28/twenty-agnenty-agnty-agnty-agnty-agnty-agnty-agnty-agregetables/
-注释URL： https://news.ycombinator.com/item?id=44393067 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://fabienne.us/2016/04/28/twenty-years-of-vegetables/</guid>
-      <pubDate>Fri, 27 Jun 2025 01:33:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Chaotic_job：弹性测试帮助者活跃的工作</title>
-      <link>https://github.com/fractaledmind/chaotic_job</link>
-      <description><![CDATA[文章URL： https://github.com/fractaledmind/chaotion/chaotic_job   
-注释URL： https://news.ycombinator.com/item?id=4439303058 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://github.com/fractaledmind/chaotic_job</guid>
-      <pubDate>Fri, 27 Jun 2025 01:30:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>问HN：iOS开发人员，苹果需要多长时间批准您的应用程序？</title>
-      <link>https://news.ycombinator.com/item?id=44393055</link>
-      <description><![CDATA[感觉我已经等了几天了，他们一直拒绝愚蠢的事情。他们第一次随机拒绝并说：“您的应用不需要登录服务。让用户自由漫游并使用应用程序的功能”  ??? 我向他们解释了为什么应用程序中的游戏化方面和用户在完成任务后升级。然后他们同意有一个登录选项，但发送了一个新错误。现在我正在提交8。手指交叉的是一个。
+      <title>我构建了一个可以处理流量的API。尝试打破它</title>
+      <link>https://news.ycombinator.com/item?id=44393465</link>
+      <description><![CDATA[我设计了一个API端点，可以进行严重的殴打 - 它不会下降。端点：
+http://60.30.55.101:8888/prod-api/activite/task/startprocessfromserver2
+方法：发帖
+身体： JSON
+复制
+编辑
+{
+  “ Bizusername”：“ 153二管轮”
+}
+没有身份验证。
+没有节流。
+没有验证码。
+只是纯后端工程。我已经用： jmeter  apache Bench 平行卷曲洪水 Postman Runners 畸形有效载荷持久的多线程loops 结果？
+ 没有5xx
+ 没有放缓
+ 没有崩溃
+ 一致的响应时间即使在数千个并发请求下，原始http请求示例： bash
+复制
+编辑
+post/prod-api/activite/task/startprocessfromserver2 http/1.1
+主持人：60.30.55.101：8888
+内容类型：应用程序/JSON
+内容长度：31  {“ bizusername”：“ 153二管轮”}
+我希望在这里为人们进行测试，但他们喜欢他们喜欢 - 模拟负载，打破协议规则，将其淹没 - 无论您的工具或脚本都可以投入什么。如果下降，我会感到惊讶（印象深刻）。让我们看看这件事可以走多远。
 
-注释URL： https://news.ycombinator.com/item？id=4439303055 
+注释URL： https://news.ycombinator.com/item?id=444393465 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=44393465</guid>
+      <pubDate>Fri, 27 Jun 2025 03:30:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>omarchy</title>
+      <link>https://www.youtube.com/watch?v=I5Mnni7cea8</link>
+      <description><![CDATA[文章URL： https://www.youtube.com/watch?v=i5mnni7cea8 
+评论url： https://news.ycombinator.com/item?id=444393434 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.youtube.com/watch?v=I5Mnni7cea8</guid>
+      <pubDate>Fri, 27 Jun 2025 03:22:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动启动板带有想法，提示以及更多售价12美元的启动板</title>
+      <link>https://buildtheidea.net</link>
+      <description><![CDATA[文章URL： https://buildtheidea.net   
+注释URL： https://news.ycombinator.com/item？id=4439343431 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://buildtheidea.net</guid>
+      <pubDate>Fri, 27 Jun 2025 03:22:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>善良在工程中的重要性</title>
+      <link>https://ashouri.xyz/post/kindnessinengineering</link>
+      <description><![CDATA[文章url： https://ashouri.xyz/post/post/kindnessinengineingering  
+注释url： https://news.ycombinator.com/item？id=444393426 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://ashouri.xyz/post/kindnessinengineering</guid>
+      <pubDate>Fri, 27 Jun 2025 03:21:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的第一个YC演示日有一些想法</title>
+      <link>https://billchambers.me/articles/yc-demo-day-spring-25/</link>
+      <description><![CDATA[文章URL： https://billchambers.me/articles/yc-demo-day-spring-25/-25/
+评论url： https://news.ycombinator.com/item？id=444393418 
+点：7 
+＃评论：7 ]]></description>
+      <guid>https://billchambers.me/articles/yc-demo-day-spring-25/</guid>
+      <pubDate>Fri, 27 Jun 2025 03:19:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于音乐的18种最佳播客剧集</title>
+      <link>https://www.cantgetmuchhigher.com/p/the-18-best-podcast-episodes-about</link>
+      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item？id=444393395 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.cantgetmuchhigher.com/p/the-18-best-podcast-episodes-about</guid>
+      <pubDate>Fri, 27 Jun 2025 03:11:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：AI图像增强器 - 增强图像质量并增强照片分辨率</title>
+      <link>https://enhanceimage.org</link>
+      <description><![CDATA[文章URL： https://enhanceimage.org   
+评论url： https://news.ycombinator.com/item？id=44393392 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://enhanceimage.org</guid>
+      <pubDate>Fri, 27 Jun 2025 03:10:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>解决隐私疲劳</title>
+      <link>https://www.fastmail.com/blog/addressing-privacy-fatigue/</link>
+      <description><![CDATA[文章url： https://www.fastmail.com/blog/addressing-privacy-privacy-privacy-fatigue/ 
+注释url： https://news.ycombinator.com/item?id=4443933388 
 点：3 
-＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44393055</guid>
-      <pubDate>Fri, 27 Jun 2025 01:30:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>QUADPARTS V3发布 - 自托管FPV无人机库存应用程序</title>
-      <link>https://github.com/hasmeni/QuadParts</link>
-      <description><![CDATA[文章URL： https://github.com/hasmeni/quadparts   
-注释URL： https://news.ycombinator.com/item?id=4439303052 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://github.com/hasmeni/QuadParts</guid>
-      <pubDate>Fri, 27 Jun 2025 01:30:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gemini Cli系统的一部分提示看起来非常熟悉</title>
-      <link>https://blog.fsck.com/2025/06/26/system-prompts-for-cli-coding-agents/</link>
-      <description><![CDATA[文章url： https://blog..fsck.com/2025/2025/06/26/26/system-prompts-prompts-prompts-formpts-for-cli-cli-cli-client-codent-cod-cod-cod-cod/ 注释URL： https://news.ycombinator.com/item?id=4439303049 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://blog.fsck.com/2025/06/26/system-prompts-for-cli-coding-agents/</guid>
-      <pubDate>Fri, 27 Jun 2025 01:29:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>Legiscan</title>
-      <link>https://legiscan.com/</link>
-      <description><![CDATA[文章URL： https://legiscan.com/  
-注释URL： https://news.ycombinator.com/item?id=4439303046 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://legiscan.com/</guid>
-      <pubDate>Fri, 27 Jun 2025 01:27:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>您上次打扫路径是什么时候？</title>
-      <link>https://github.com/KD-MM2/Windows-Path-Cleaner</link>
-      <description><![CDATA[文章URL： https://github.com/kd-mm2/windows-path-path-cleaner   
-注释URL： https://news.ycombinator.com/item？id=4439303039 
-点：1 
 ＃评论：1 ]]></description>
-      <guid>https://github.com/KD-MM2/Windows-Path-Cleaner</guid>
-      <pubDate>Fri, 27 Jun 2025 01:25:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>选民分享惩罚公司自由言论的政客的统一观点</title>
-      <link>https://phys.org/news/2025-06-voters-view-politicians-corporate-free.html</link>
-      <description><![CDATA[文章url： https://phys.org/news/2025-06-voters-voters-voters-voters-voters-voters-voters-porporate-corporate-porporate-porporate-porporate-porporate-porporate-porporeate-porporeate-fef 
-注释URL： https://news.ycombinator.com/item?id=4439303038 
-点：2 
-＃评论：0 ]]></description>
-      <guid>https://phys.org/news/2025-06-voters-view-politicians-corporate-free.html</guid>
-      <pubDate>Fri, 27 Jun 2025 01:25:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claudeonrails：使用Claude Code的Ruby在Rails开发人员上的框架</title>
-      <link>https://github.com/obie/claude-on-rails</link>
-      <description><![CDATA[文章URL： https://github.com/obie/claude/claude-on-rails   
-注释URL： https://news.ycombinator.com/item？id=4439303029 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://github.com/obie/claude-on-rails</guid>
-      <pubDate>Fri, 27 Jun 2025 01:23:57 GMT</pubDate>
+      <guid>https://www.fastmail.com/blog/addressing-privacy-fatigue/</guid>
+      <pubDate>Fri, 27 Jun 2025 03:09:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
