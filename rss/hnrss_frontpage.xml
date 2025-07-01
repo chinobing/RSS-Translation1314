@@ -4,7 +4,69 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Tue, 01 Jul 2025 09:25:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 12:41:01 GMT</lastBuildDate>
+    <item>
+      <title>英国Bletchley Park和AI研究的平均国际象棋参与者</title>
+      <link>https://blogs.bl.uk/science/2025/06/the-average-chess-players-of-bletchley-park-and-ai-research-in-britain.html</link>
+      <description><![CDATA[文章URL： https://blogs.bl.uk/science/2025/06/the-average-chess-players-of-bletchley-parkley-park-park-and-ai-research-in-britain.html  
+注释URL： https://news.ycombinator.com/item./item?id=44444432444 
+点：10 
+＃评论：0 ]]></description>
+      <guid>https://blogs.bl.uk/science/2025/06/the-average-chess-players-of-bletchley-park-and-ai-research-in-britain.html</guid>
+      <pubDate>Tue, 01 Jul 2025 10:31:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>CloudFlare为AI机器人介绍每次拖网的付费</title>
+      <link>https://blog.cloudflare.com/introducing-pay-per-crawl/</link>
+      <description><![CDATA[文章url： https://blog.cloudflare.com/introducing-pay-per-per-crawl/ 
+注释url： https://news.ycombinator.com/item？
+点：165 
+＃评论：85 ]]></description>
+      <guid>https://blog.cloudflare.com/introducing-pay-per-crawl/</guid>
+      <pubDate>Tue, 01 Jul 2025 10:20:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：ToplingDB-用于外部存储的持续键值商店</title>
+      <link>https://github.com/topling/toplingdb</link>
+      <description><![CDATA[作为TerarkDB的创建者（2019年被Bytedance收购），我近年来已经开发了ToplingDB。 Patricia trie), which is 8x faster.* SST: BlockBasedTable is replaced by ToplingZipTable, implemented by searchable compression algo, it is very small and fast, typically less than 1μs per lookup:  * Keys/Indexes are compressed   using NestLoudsTrie(a multi-layer nesting LOUDS succinct trie).
+
+  * SST中的值以比ZSTD更好的ZIP比率压缩，并且可以在1GB/sec的单个值解压缩。
+
+  *不再需要BlockCache，避免了双缓存（BlockCache＆Pagecache）
+ 
+其他热点也得到了改进： *可忽略L0的齐平。大大减少了写入放大器，对于大的（GB）可记忆的    *记忆力可作为“ wal log in wal log”的关键索引，这是WAL log&#39;的关键索引。
+
+  *由于WAL文件内容几乎总是在页面缓存中，因此可以通过MMAP有效访问值的值
+
+  *当冲洗发生时，将记忆力作为SST售罄，WAL被视为斑点文件
+
+    * CSPP可记住的使用整数索引代替物理指针，因此内存格式与文件中格式完全相同
+ 
+*搜索候选SST和前缀缓存的前缀缓存，并将前缀缓存通过迭代器进行扫描   *缓存固定的Len键前缀中的数组中的二进制搜索，将其作为UINT阵列搜索
+ 
+*分布式压实（较高替换为rocksdb远程压实）   *优雅地支持合格器，压缩式式式委员会，propertiesCollector ...
+
+  *开箱即用，开发工作大大减少
+
+  *在许多DB节点的现场实例上非常易于共享压实服务
+ 
+Useful Bonus Feature:* Config by json/yaml: can config almost all features* Optional embeded WebView: show db structures in web browser, refreshing pages like animation* Online update db configs by httpMySQL integration, ToplingDB has integrated into MySQL by MyTopling, which is forked from MyRocks with great improvements, like improvements of ToplingDB on RocksDB:* WBWI(WriteBatchWithIndex): like MemTable, SkipList is replace with CSPP, 20x faster(speedup is more than MemTable).* LockManager &amp; LockTracker: 10x faster* Encoding &amp; Decoding: 5x faster* Others ....MyRocks has many disadvantages compared to InnoDB, MyToping几乎在所有方面都优于InnoDB（不包括特征差异）。我们为RockSDB创建了〜100个PR，其中约有40个被接受。我们的公关主要是“小”的变化，因为不太可能接受重大变化。 toplingdb已在众多生产环境中部署。欢迎每个使用toplingdb＆mytopling的人，并在 https://github.com/topling/toplingdb/discussions  
+
+注释url： https://news.ycombinator.com/item./item?id=44444432322 
+点：4 
+＃评论：0 ]]></description>
+      <guid>https://github.com/topling/toplingdb</guid>
+      <pubDate>Tue, 01 Jul 2025 10:07:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究人员发现了AI创造力背后的隐藏成分</title>
+      <link>https://www.quantamagazine.org/researchers-uncover-hidden-ingredients-behind-ai-creativity-20250630/</link>
+      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=44444431873 
+点：5 
+＃评论：2 ]]></description>
+      <guid>https://www.quantamagazine.org/researchers-uncover-hidden-ingredients-behind-ai-creativity-20250630/</guid>
+      <pubDate>Tue, 01 Jul 2025 08:40:37 GMT</pubDate>
+    </item>
     <item>
       <title>Noloco（YC S21）正在巴塞罗那雇用一名创始人</title>
       <link>https://www.ycombinator.com/companies/noloco/jobs/K7q02eV-founders-associate</link>
@@ -20,8 +82,8 @@
       <link>https://github.com/stan-smith/OpenFLOW</link>
       <description><![CDATA[文章URL： https://github.com/stan-smith/openflow  
 注释URL： https://news.ycombinator.com/item?id=444431178 
-点：8 
-＃评论：2 ]]></description>
+点：59 
+＃评论：14 ]]></description>
       <guid>https://github.com/stan-smith/OpenFLOW</guid>
       <pubDate>Tue, 01 Jul 2025 06:29:57 GMT</pubDate>
     </item>
@@ -30,8 +92,8 @@
       <link>https://www.publichealth.columbia.edu/news/aging-related-inflammation-not-universal-across-human-populations</link>
       <description><![CDATA[文章URL：https://www.publichealth.columbia.edu/news/aging-related-inflammation-not-universal-across-human-populations
 注释URL： https://news.ycombinator.com/item？id=4444430984 
-点：42 
-＃评论：25 ]]></description>
+点：74 
+＃评论：31 ]]></description>
       <guid>https://www.publichealth.columbia.edu/news/aging-related-inflammation-not-universal-across-human-populations</guid>
       <pubDate>Tue, 01 Jul 2025 05:52:40 GMT</pubDate>
     </item>
@@ -40,28 +102,18 @@
       <link>https://arxiv.org/abs/2506.02153</link>
       <description><![CDATA[文章URL： https://arxiv.org/abs/2506.02153   
 评论URL： https://news.ycombinator.com/item?id=44430311 
-点：48 
-＃评论：12 ]]></description>
+点：74 
+＃评论：30 ]]></description>
       <guid>https://arxiv.org/abs/2506.02153</guid>
       <pubDate>Tue, 01 Jul 2025 03:33:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nimtable：开源Web UI浏览和管理Apache冰山表</title>
-      <link>https://github.com/nimtable/nimtable</link>
-      <description><![CDATA[文章URL： https://github.com/nimtable/nimtable/nimtable/nimtable  
-注释URL： https://news.ycombinator.com/item？id=4444430286 
-点：23 
-＃评论：7 ]]></description>
-      <guid>https://github.com/nimtable/nimtable</guid>
-      <pubDate>Tue, 01 Jul 2025 03:27:09 GMT</pubDate>
     </item>
     <item>
       <title>冥王星是LUA的独特方言，重点是通用编程</title>
       <link>https://github.com/PlutoLang/Pluto</link>
       <description><![CDATA[文章URL： https://github.com/plutolang/pluto  
 注释url： https://news.ycombinator.com/item？id=44444429531 
-点：32 
-＃评论：16 ]]></description>
+点：43 
+＃评论：25 ]]></description>
       <guid>https://github.com/PlutoLang/Pluto</guid>
       <pubDate>Tue, 01 Jul 2025 00:58:22 GMT</pubDate>
     </item>
@@ -70,40 +122,10 @@
       <link>https://docs.anthropic.com/en/docs/claude-code/hooks</link>
       <description><![CDATA[文章URL： https://docs.anthropic.com/en/docs/docs/claude-code/claude-code/hooks 
 注释URL： https://news.ycombinator.com/item?id=4444429225 
-点：210 
-＃评论：75 ]]></description>
+点：250 
+＃评论：101 ]]></description>
       <guid>https://docs.anthropic.com/en/docs/claude-code/hooks</guid>
       <pubDate>Tue, 01 Jul 2025 00:01:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>墨尔本男子发现房屋下方的广泛模型火车网络</title>
-      <link>https://www.sbs.com.au/news/article/i-was-shocked-melbourne-mans-unbelievable-find-after-buying-house/m4sksfer8</link>
-      <description><![CDATA[文章URL：&gt; https://www.sbs.com.au/news/article/i-was-shocked-melbourne-mans-unbelievable-find-find-find-find-buying-house/m4sksfer8  
-注释url： https://news.ycombinator.com/item./item?id=4444429182 
-点：243 
-＃评论：74 ]]></description>
-      <guid>https://www.sbs.com.au/news/article/i-was-shocked-melbourne-mans-unbelievable-find-after-buying-house/m4sksfer8</guid>
-      <pubDate>Mon, 30 Jun 2025 23:53:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPEMU：用于快速，低成本深度学习原型制作的GPU模拟器[PDF]</title>
-      <link>https://vldb.org/pvldb/vol18/p1919-wang.pdf</link>
-      <description><![CDATA[文章url： https://vldb.org/pvldb/voldb/vol18/p1919-wang.p19-wang.pdf 
-评论url： https://news.ycombinator.com/item?id=4444428674 
-点：40 
-＃评论：4 ]]></description>
-      <guid>https://vldb.org/pvldb/vol18/p1919-wang.pdf</guid>
-      <pubDate>Mon, 30 Jun 2025 22:37:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示HN：IRS直接文件的延续可以自托管</title>
-      <link>https://github.com/openfiletax/openfile</link>
-      <description><![CDATA[美国国税局最近开放了大部分直接文件，这是它已经工作了几年的税收工具。不幸的是，由于最近的事件，美国国税局不再努力了。我决定拿起他们离开的地方，我正在尝试为下一个税收季节做好准备，直接文件背后的工作真的很有趣，我也可以在线阅读很多东西 -  
-注释url： https://news.ycombinator.com/item?id=4444428438 
-点：60 
-＃评论：3 ]]></description>
-      <guid>https://github.com/openfiletax/openfile</guid>
-      <pubDate>Mon, 30 Jun 2025 22:08:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
