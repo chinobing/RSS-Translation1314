@@ -4,108 +4,110 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Mon, 07 Jul 2025 12:41:11 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jul 2025 15:23:16 GMT</lastBuildDate>
     <item>
-      <title>DENO 2.4</title>
-      <link>https://deno.com/blog/v2.4</link>
-      <description><![CDATA[文章URL： https://deno.com/blog/v2.4   
-注释URL： https://news.ycombinator.com/item？id=44448888107 
-点：91 
-＃评论：45 ]]></description>
-      <guid>https://deno.com/blog/v2.4</guid>
-      <pubDate>Mon, 07 Jul 2025 08:44:26 GMT</pubDate>
+      <title>添加功能是因为chatgpt错误地认为它存在</title>
+      <link>https://www.holovaty.com/writing/chatgpt-fake-feature/</link>
+      <description><![CDATA[文章url： https://www.holovaty.com/writing/chatgpt-fake-fake-fake-feature/
+注释URL： https://news.ycombinator.com/item?id=44491071 
+点：5 
+＃评论：2 ]]></description>
+      <guid>https://www.holovaty.com/writing/chatgpt-fake-feature/</guid>
+      <pubDate>Mon, 07 Jul 2025 14:58:09 GMT</pubDate>
     </item>
     <item>
-      <title>完整堆栈芯片设计师的时代</title>
-      <link>https://chipinsights.substack.com/p/the-era-of-full-stack-chip-designers</link>
-      <description><![CDATA[文章url： https：//chipinsights.substack.com/p/the-era-era-era-era-era-era-er-a--er-a--er-of-full-chip-chip-chip-chip-chip-chip-designers 
-注释URL： https://news.ycombinator.com/item？id=4444486541 
-点：21 
-＃评论：4 ]]></description>
-      <guid>https://chipinsights.substack.com/p/the-era-of-full-stack-chip-designers</guid>
-      <pubDate>Mon, 07 Jul 2025 03:41:32 GMT</pubDate>
+      <title>显示HN：用于增强VIC输出的集成系统</title>
+      <link>https://github.com/Bloodmosher/ISEVIC</link>
+      <description><![CDATA[ Isevic代表积分系统来增强VIC输出，是C64的墨盒，它使用Tang Nano 20K FPGA监视总线并重新创建HDMI输出的C64视频。尽管处理所有巧妙的C64技巧，但巨大的努力应被视为1.0发行，因为仍然有一些演示和游戏显示出虫子。构建一个的一切都在GitHub页面上。
+
+注释URL： https://news.ycombinator.com/item?id=444490900 
+点：3 
+＃评论：0 ]]></description>
+      <guid>https://github.com/Bloodmosher/ISEVIC</guid>
+      <pubDate>Mon, 07 Jul 2025 14:44:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>调整Prusa Core One</title>
+      <link>https://arachnoid.com/3D_Printing_Prusa_Core_One/</link>
+      <description><![CDATA[文章url： https://arachnoid.com/3d_printing_printing_prusa_core_one_one/ 
+注释url： https://news.ycombinator.com/item?id=4444490883 
+点：4 
+＃评论：1 ]]></description>
+      <guid>https://arachnoid.com/3D_Printing_Prusa_Core_One/</guid>
+      <pubDate>Mon, 07 Jul 2025 14:42:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动HN：Morph（YC S23） - 应用AI代码编辑为4,500令牌/秒</title>
+      <link>https://news.ycombinator.com/item?id=44490863</link>
+      <description><![CDATA[嘿，我是Morph的Tejas。我们构建了一个燃烧的模型，用于将AI生成的代码编辑直接应用于4,500多个令牌/秒。不再有缓慢的全文件重写或脆弱的搜索和重新定位黑客。为什么？ AI吐出无法可靠地插入现有代码的代码。完整的文件重写，脆弱的搜索和重建黑客太慢，昂贵或容易出错。变形的方法：  - 您的代理输出“懒惰”编辑“懒惰”，在现有文件中引用未修改的线路（例如：//现有代码...现有代码...  这种方法是由光标去年开创的，但它们的模型并非作为API，因此我们为各地的开发人员（具有很大的免费层！） live demo（no Inbip）建立了变体： https://docs.morphllm.com/quickstart  我们有2个快速应用模型：morph-v3-fast-4500+ tok/sec/sec/sec/sec和morph-v3-large-v3-large-v3-large-2500+ tok/sec/sec/sec。这些模型快速适用于create.xyz，databutton，contine.dev等！我们还提供了用于嵌入 + reranking的检索模型。
+下一步：内联编辑模型（CMD -K）：非常快速的内联编辑 - 保持开发流状态；和Morph Tab API：我们的下一个编辑预测模型猜测您的下一个代码编辑 + sub-500ms延迟的操作。它目前是私人beta，但您可以在此处要求尽早访问： https：//morphllm.com/tab   hot Take： hot Take： 1）原始推理的速度更重要，而不是递增的dev ux for dev ux-agagree eyage eyagree eyage eyagee eyage eyagey？遗产 - 快速申请编辑以速度，成本和可靠性获胜。 3）随着狭窄任务的基准饱和至99％+，复杂性从单个边界模型转移到专业推理优化的模型。随着边境模型移动高档，他们将抛弃简单的任务，并且只有边境模型才能做我们很想听听您对编码代理的想法和经验！ 
+
+评论url： https://news.ycombinator.com/item?id=4444490863 
+点：7 
+＃评论：2 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=44490863</guid>
+      <pubDate>Mon, 07 Jul 2025 14:40:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：纽约地铁模拟器和路线设计师</title>
+      <link>https://buildmytransit.nyc</link>
+      <description><![CDATA[您好，Hn！作为纽约市的长期居民，我阅读了无数的文章，介绍了对地铁服务的想法，但总是发现它们很难没有视觉辅助。因此，在漫长的周末中，我决定建造一个。它具有所有的基本功能：火车将在其起源上产卵，停在车站，如果它离另一个人太近，就会放慢脚步。您还可以通过将轨道拼凑在一起来设计自定义路线。玩得开心，让我知道您的想法！
+
+注释URL： https://news.ycombinator.com/item?id=4444490588 
+点：31 
+＃评论：2 ]]></description>
+      <guid>https://buildmytransit.nyc</guid>
+      <pubDate>Mon, 07 Jul 2025 14:13:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Showh HN：Microjax  - 两个类别和六个功能的JAX</title>
+      <link>https://github.com/joelburget/microjax</link>
+      <description><![CDATA[文章URL： https://github.com/joelberget/joelberget/microjax   
+注释url： https://news.ycombinator.com/item？id=4444490299 
+点：19 
+＃评论：1 ]]></description>
+      <guid>https://github.com/joelburget/microjax</guid>
+      <pubDate>Mon, 07 Jul 2025 13:41:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>我用O3从保存的口袋链接中介绍了自己</title>
+      <link>https://noperator.dev/posts/o3-pocket-profile/</link>
+      <description><![CDATA[文章URL： https://noperator.dev/posts/o3-pockets/o3-pocket-profile/    
+注释url： https://news.ycombinator.com/item?id=4444489803 
+点：69 
+＃评论：41 ]]></description>
+      <guid>https://noperator.dev/posts/o3-pocket-profile/</guid>
+      <pubDate>Mon, 07 Jul 2025 12:44:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>汞：基于扩散的超快速语言模型</title>
+      <link>https://arxiv.org/abs/2506.17298</link>
+      <description><![CDATA[文章URL： https://arxiv.org/abs/2506.17298   
+评论url： https://news.ycombinator.com/item?id=4444489690 
+点：132 
+＃评论：52 ]]></description>
+      <guid>https://arxiv.org/abs/2506.17298</guid>
+      <pubDate>Mon, 07 Jul 2025 12:31:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>拟人削减了数百万二手书，并下载了700万的盗版书籍 - 法官</title>
+      <link>https://www.businessinsider.com/anthropic-cut-pirated-millions-used-books-train-claude-copyright-2025-6</link>
+      <description><![CDATA[文章URL： https://www.businessinsider.com/anththropic-cut-pirated-millions-used-books-train-claude-copyright-2025-6  
+注释URL： https://news.ycombinator.com/item？id=44444883331 
+点：133 
+＃评论：142 ]]></description>
+      <guid>https://www.businessinsider.com/anthropic-cut-pirated-millions-used-books-train-claude-copyright-2025-6</guid>
+      <pubDate>Mon, 07 Jul 2025 09:20:38 GMT</pubDate>
     </item>
     <item>
       <title>使用FPGA [PDF]的高性能图像传感器处理</title>
       <link>https://oda.uni-obuda.hu/bitstream/handle/20.500.14044/10350/Gabor_S_Becker_ertekezes.pdf</link>
       <description><![CDATA[文章URL： https://oda.uni-obuda.hu/bitstream/handle/20.500.14044/10350/gabor_s_becker_ertekezes.pdf  
 注释URL： https://news.ycombinator.com/item？id=4444486235 
-点：56 
-＃评论：3 ]]></description>
+点：71 
+＃评论：7 ]]></description>
       <guid>https://oda.uni-obuda.hu/bitstream/handle/20.500.14044/10350/Gabor_S_Becker_ertekezes.pdf</guid>
       <pubDate>Mon, 07 Jul 2025 02:36:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示HN：SystemD单元文件的语言服务器实现</title>
-      <link>https://github.com/JFryy/systemd-lsp</link>
-      <description><![CDATA[ SystemD单元文件的语言服务器协议（LSP）实现，并通过Rust的语法突出显示，诊断，自动完成和文档提供编辑支持。
-
-评论url： https://news.ycombinator.com/item？id=4444485649 
-点：54 
-＃评论：19 ]]></description>
-      <guid>https://github.com/JFryy/systemd-lsp</guid>
-      <pubDate>Mon, 07 Jul 2025 00:57:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bitchat  - 通过蓝牙网络网络工作的分散消息应用程序</title>
-      <link>https://github.com/jackjackbits/bitchat</link>
-      <description><![CDATA[文章URL： https://github.com/jackjackbits/bitchat   
-注释url： https://news.ycombinator.com/item?id=4444485342 
-点：457 
-＃评论：187 ]]></description>
-      <guid>https://github.com/jackjackbits/bitchat</guid>
-      <pubDate>Mon, 07 Jul 2025 00:05:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示HN：Windows 3.x的现代化文件经理和程序经理</title>
-      <link>https://github.com/brianluft/heirloom</link>
-      <description><![CDATA[这是Windows File Manager的叉子，并结合了程序管理器的摘要翻拍。快速，轻巧，适合日常驾驶员使用。
-
-注释url： https://news.ycombinator.com/item？id=4444485286 
-点：43 
-＃评论：7 ]]></description>
-      <guid>https://github.com/brianluft/heirloom</guid>
-      <pubDate>Sun, 06 Jul 2025 23:55:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>瑞典露营地（2004）</title>
-      <link>https://www.folklore.org/Swedish_Campground.html</link>
-      <description><![CDATA[文章URL： https://www.folklore.org/swedish/swedish_html.html 
-注释url： https://news.ycombinator.com/item?id=4444485241 
-点：97 
-＃评论：25 ]]></description>
-      <guid>https://www.folklore.org/Swedish_Campground.html</guid>
-      <pubDate>Sun, 06 Jul 2025 23:49:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>英特尔的狮子湾P核和游戏工作负载</title>
-      <link>https://chipsandcheese.com/p/intels-lion-cove-p-core-and-gaming</link>
-      <description><![CDATA[文章url： https://chipsandcheese.com/p/intels-cove/intels-cove-pove-pore-pore-pore-pore-pore-pore-pore-pore-poor，p-core-pore-in-------------------------
-注释URL： https://news.ycombinator.com/item./item?id=4444484688 
-点：213 
-＃评论：47 ]]></description>
-      <guid>https://chipsandcheese.com/p/intels-lion-cove-p-core-and-gaming</guid>
-      <pubDate>Sun, 06 Jul 2025 22:27:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLM的非人性化视图</title>
-      <link>http://addxorrol.blogspot.com/2025/07/a-non-anthropomorphized-view-of-llms.html</link>
-      <description><![CDATA[文章URL： htttp://addxorlol.blogspot.com/2025/2025/2025/07/a-non-anthon-anthropomorphied-promorphied-phiew-----------------------------------rms.ha&gt;
-注释url： https://news.ycombinator.com/item？id=4444484682 
-点：214 
-＃评论：238 ]]></description>
-      <guid>http://addxorrol.blogspot.com/2025/07/a-non-anthropomorphized-view-of-llms.html</guid>
-      <pubDate>Sun, 06 Jul 2025 22:26:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>用GCC构建生锈编译器</title>
-      <link>https://fractalfir.github.io/generated_html/cg_gcc_bootstrap.html</link>
-      <description><![CDATA[Article URL: https://fractalfir.github.io/generated_html/cg_gcc_bootstrap.html
-注释URL： https://news.ycombinator.com/item？
-点：182 
-＃评论：32 ]]></description>
-      <guid>https://fractalfir.github.io/generated_html/cg_gcc_bootstrap.html</guid>
-      <pubDate>Sun, 06 Jul 2025 21:46:02 GMT</pubDate>
     </item>
     </channel>
 </rss>
