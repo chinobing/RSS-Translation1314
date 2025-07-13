@@ -4,116 +4,112 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Sun, 13 Jul 2025 09:21:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 13 Jul 2025 12:37:56 GMT</lastBuildDate>
     <item>
-      <title>SpaceX将$ 2B投资到Elon Musk的Xai</title>
-      <link>https://www.wsj.com/tech/spacex-to-invest-2-billion-into-elon-musks-xai-413934de</link>
-      <description><![CDATA[文章URL：https://www.wsj.com/tech/spacex-to-invest-2-billion-into-elon-musks-xai-413934de
-评论URL： https://news.ycombinator.com/item?id=4445487775 
+      <title>布朗夫人的供词</title>
+      <link>https://fakepixels.substack.com/p/confessions-of-mrsbrown</link>
+      <description><![CDATA[文章URL： https://fakepixels.substack.com/p/confessions-of-confessions-of-mrsbrown 
+评论url： https://news.ycombinator.com/item？id=444549897 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.wsj.com/tech/spacex-to-invest-2-billion-into-elon-musks-xai-413934de</guid>
-      <pubDate>Sun, 13 Jul 2025 09:14:59 GMT</pubDate>
+      <guid>https://fakepixels.substack.com/p/confessions-of-mrsbrown</guid>
+      <pubDate>Sun, 13 Jul 2025 12:25:40 GMT</pubDate>
     </item>
     <item>
-      <title>AGI在数学上是不可能的（3）：Kolmogorov的复杂性</title>
-      <link>https://news.ycombinator.com/item?id=44548752</link>
-      <description><![CDATA[大家好。 
-这是我在过去几年中一直在进行的理论中的第三部分，称为“无限选择障碍”（ICB）。核心思想很简单：一般智力（尤其是AGI）在某些认知条件下在结构上是不可能的。数学上。该论点在三个障碍中分裂：
-1. computiational（Gödel，Turing，大米）：您无法决定系统看不到的内容。
-2.透镜（香农）：超过一定点，信号在结构上分解。
-3. Complexity（Kolmogorov，Chaitin）：大多数现实世界中的问题从根本上是不可压缩的。本文重点介绍（3）：Kolmogorov的复杂性。
-它认为，大多数人类关心的不仅是难以建模，而且正式无法建模 - 因为对问题的最短描述是问题。换句话说：您不能从无法压缩的内容中推广出来。⸻这是摘要：，有一个常见的人工通用智能（AGI）会通过尺度，或回顾一个常见的误解。本文恰恰相反：随着系统规模，它们接近概括本身的结构限制。
-使用Kolmogorov的复杂性，我们表明许多现实世界中的问题（尤其是涉及社会意义，上下文差异和语义波动率的问题）正式不可压缩，因此任何有限的算法都无法实现。这不是绩效问题。这是数学墙。而且它不在乎您有多少个令牌纸张并不轻，但这很确切。
-如果您处于限制，结构以及为什么大多数智能发生在优化之外，那可能值得您时间。 https://philpapers.org/archive/schaii-18.pdf 很高兴阅读您的视图。
+      <title>Collatz的胶带</title>
+      <link>https://gbragafibra.github.io/2025/07/12/collatz_ant8.html</link>
+      <description><![CDATA[Article URL: https://gbragafibra.github.io/2025/07/12/collatz_ant8.html
+评论url： https://news.ycombinator.com/item?id=444549893 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://gbragafibra.github.io/2025/07/12/collatz_ant8.html</guid>
+      <pubDate>Sun, 13 Jul 2025 12:25:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ramanujan-Computing：带空闲智能设备的分布式计算：开放源代码</title>
+      <link>https://news.ycombinator.com/item?id=44549883</link>
+      <description><![CDATA[我们很高兴分享一种新的开源编程语言Ramanujan和分布式计算平台，旨在解锁现代智能设备的庞大，未开发的处理能力。想象一下，所有这些闲置的智能手机和智能电视为科学研究做出了贡献！灵感很简单：阿波罗指导计算机的CPU与现代科学计算器一样强大。当今的智能设备的功能更强大数百万倍，但它们大多是闲置的。 Ramanujan帮助利用这种力量进行科学进步。什么是Ramanujan？
+Ramanujan专为分布式计算而设计。与通常需要特定于项目的客户的Boinc等平台不同，Ramanujan提供了通用的口译员。项目所有者以Ramanujan语言提交代码，并且一次安装了Ramanujan客户端一次的参与设备可以执行任何提交的计算。 解释器以C ++编写，并显示出显着的性能增长： 〜14％比gython快于渐变的discent Algorithm（优先级）（〜350ms vs 〜350ms vs〜410mms）。算法（2.5秒vs 55秒以优化10个功能）。关键功能和未来目标
+性能：用于科学计算的CPYTHON和MATLAB的速度快。开源：麻省理工学院许可项目，Github上可用的代码。设备兼容性：可用于Android，MacOS和Ubuntu的二进制文件。 Windows支持即将到来。从技术上讲，任何能够使用基本算术的互联网连接的设备都可以运行解释器，一旦为其架构编译。安装程序也可用于本地台式机（Ubuntu，Macos）。我们的近乎未来的目标集中在Python兼容性上：完整的Python采用：允许最先进的Python研究代码，以无缝地在Ramanujan上无缝地运行Ramanujan，而无需修改python Condertiation：通过采用python Condents and toyffif and to tofff and to toy to to tony to to toy to to tony and cfffi cfffi。 Python脚本。扩展的设备支持：使客户可用于更广泛的智能设备（冰箱，洗衣机等），以最大程度地提高全球计算贡献。该项目有可能通过利用现有硬件来大大减少电子废物和碳排放。我们认为，它可以彻底改变科学研究的计算。参与！
+Ramanujan处于新生阶段，我们正在积极寻找贡献者！无论您是热衷于编程，编译器，分布式系统，还是只是想为有影响力的开源项目做出贡献，我们都会邀请您加入我们。特别欢迎学生了解编译器，分布式编排（我们目前的服务仅使用2核CPU！）和大型系统。签约项目：门户网站：https：//portal.ramanujan.dev  github：https：//portal.ramanujan.dev  github： https://github.com/ramanujan-computing/ramanujan lets合作推动Ramanujan向前推！
 
-注释url： https://news.ycombinator.com/item？id=4445487752 
+注释URL： https://news.ycombinator.com/item?id=444549883 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44548752</guid>
-      <pubDate>Sun, 13 Jul 2025 09:10:34 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=44549883</guid>
+      <pubDate>Sun, 13 Jul 2025 12:23:33 GMT</pubDate>
     </item>
     <item>
-      <title>学术出版中的验证问题</title>
-      <link>https://philosopherscocoon.typepad.com/blog/2022/10/proofing-problems-in-academic-publishing.html</link>
-      <description><![CDATA[文章URL： https：//philosopherscocoon.typepad.com/blog/blog/2022222222222222222222222222222222222222222222222222222222222/PROFFORIBLEBLEBLEMBLEBLEMBLEBLEMBLEMENCMEGIMENG&gt;
-评论url： https://news.ycombinator.com/item？id=444548749 
+      <title>深入系统演练：基于云的VOD</title>
+      <link>https://app.ilograph.com/demo.ilograph.AWS%2520Video-On-Demand/Workflow</link>
+      <description><![CDATA[文章URL： https://app.ilograph.com/demo.ilograph.ielograph.aws%2520video-on-demand-demon-demand-demand-demand-demand/workflow         
+注释url： https://news.ycombinator.com/item?id=444549880 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://philosopherscocoon.typepad.com/blog/2022/10/proofing-problems-in-academic-publishing.html</guid>
-      <pubDate>Sun, 13 Jul 2025 09:09:57 GMT</pubDate>
+      <guid>https://app.ilograph.com/demo.ilograph.AWS%2520Video-On-Demand/Workflow</guid>
+      <pubDate>Sun, 13 Jul 2025 12:22:33 GMT</pubDate>
     </item>
     <item>
-      <title>大型强子对撞机：量子和AI碰撞时</title>
-      <link>https://perimeterinstitute.ca/news/when-quantum-and-ai-collide</link>
-      <description><![CDATA[文章URL： https://perimeterinstitute.ca/news/news/news/when-quantum-and-quantum-ind-collide  
-注释url： https://news.ycombinator.com/item?id=444548748 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://perimeterinstitute.ca/news/when-quantum-and-ai-collide</guid>
-      <pubDate>Sun, 13 Jul 2025 09:09:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>从有可能的内容中汲取互动</title>
-      <link>https://ggirelli.info/blog/2025/07/13/inter-pull</link>
-      <description><![CDATA[文章URL： https://ggirelli.info/blog/blog/2025/2025/07/07/13/inter-13/inter-pull 
-评论url： https://news.ycombinator.com/item?id=444548736 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://ggirelli.info/blog/2025/07/13/inter-pull</guid>
-      <pubDate>Sun, 13 Jul 2025 09:06:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过询问MCP，Langchain和一些魔术来构建ML模型</title>
-      <link>https://news.ycombinator.com/item?id=44548733</link>
-      <description><![CDATA[我写了一篇有关如何使用MCP和Langgraph将AI代理连接到基于工具的ML Server的实用文章。 
-链接：https：//medium.com/@premlaknaboina/how-to-to-wrap-machine-learning-models-models-as-mcp-tools-cp-tools-1e510b21f1f1f9&lt; p&gt;代理人接受用户输入（例如“诸如dataset.csv上的线性回归”，dataset.csv”）和自动传播的场景。
-
-注释URL： https://news.ycombinator.com/item/item?id=444548733 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44548733</guid>
-      <pubDate>Sun, 13 Jul 2025 09:05:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我在一个周末用7种语言建造了一个型号的whatsapp</title>
-      <link>https://my.owa.link/</link>
-      <description><![CDATA[文章URL： https://my.owa.link/   
-评论url： https://news.ycombinator.com/item？id=444548719 
-点：1 
-＃评论：1 ]]></description>
-      <guid>https://my.owa.link/</guid>
-      <pubDate>Sun, 13 Jul 2025 09:04:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>SCP-055是一种“抗魔法”  - 观察到时，它会从内存中擦除</title>
-      <link>https://scp-wiki.wikidot.com/scp-055</link>
-      <description><![CDATA[文章URL： https://scp-wiki.wikidot.com/scp-055   
-注释URL： https://news.ycombinator.com/item?id=444548712 
+      <title>“焦虑星期一”效果：长期压力与老年人的一周开始有关</title>
+      <link>https://www.hku.hk/press/press-releases/detail/28420.html</link>
+      <description><![CDATA[文章url： https://www.hku.hku.hku.hk/press/press/press/press-releases/press-releases/detail/detail/detail/detail/detail/detail/28420.html 
+注释URL： https://news.ycombinator.com/item？id=444549870 
 点：2 
 ＃评论：0 ]]></description>
-      <guid>https://scp-wiki.wikidot.com/scp-055</guid>
-      <pubDate>Sun, 13 Jul 2025 09:02:20 GMT</pubDate>
+      <guid>https://www.hku.hk/press/press-releases/detail/28420.html</guid>
+      <pubDate>Sun, 13 Jul 2025 12:21:13 GMT</pubDate>
     </item>
     <item>
-      <title>您是否注意到软件的质量恶化了？</title>
-      <link>https://news.ycombinator.com/item?id=44548706</link>
-      <description><![CDATA[我使用的许多软件似乎都比以前更具困惑。游戏，网络应用程序，消息传递应用程序和电话应用程序。
-
-注释URL： https://news.ycombinator.com/item？id = 444548706 
-点：4 
+      <title>将任何YouTube视频变成交互式抽认卡和测验</title>
+      <link>https://pocketmind.app/</link>
+      <description><![CDATA[文章URL： https://pocketmind.app/  
+注释URL： https://news.ycombinator.com/item?id=444549868 
+点：1 
 ＃评论：1 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44548706</guid>
-      <pubDate>Sun, 13 Jul 2025 09:01:18 GMT</pubDate>
+      <guid>https://pocketmind.app/</guid>
+      <pubDate>Sun, 13 Jul 2025 12:21:10 GMT</pubDate>
     </item>
     <item>
-      <title>网络朋克是什么？在备忘录中：1980  -  2020年</title>
-      <link>https://forums.insertcredit.com/t/what-was-cyberpunk-in-memoriam-1980-2020/1721</link>
-      <description><![CDATA[文章url：注释url： https://news.ycombinator.com/item?id=444548701 
-点：4 
+      <title>分形盒子单击器</title>
+      <link>https://codepen.io/ge1doot/pen/WbWQOP</link>
+      <description><![CDATA[文章URL： https://codepen.io/ge1dook/pen/pen/pen/wbwqop    
+评论url： https://news.ycombinator.com/item?id=444549857 
+点：1 
 ＃评论：0 ]]></description>
-      <guid>https://forums.insertcredit.com/t/what-was-cyberpunk-in-memoriam-1980-2020/1721</guid>
-      <pubDate>Sun, 13 Jul 2025 08:59:42 GMT</pubDate>
+      <guid>https://codepen.io/ge1doot/pen/WbWQOP</guid>
+      <pubDate>Sun, 13 Jul 2025 12:19:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>工作时间和健康 - 过去和未来的主要研究主题</title>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC11129786/</link>
+      <description><![CDATA[文章URL： https://pmc.nc.nc.nc.nc.nlm.nih.gov/articles/pmc111129786/p&gt;
+评论url： https://news.ycombinator.com/item?id=444549851 
+点：2 
+＃评论：0 ]]></description>
+      <guid>https://pmc.ncbi.nlm.nih.gov/articles/PMC11129786/</guid>
+      <pubDate>Sun, 13 Jul 2025 12:19:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：CouchTime.Click  - 我的YouTube白名单应用程序</title>
+      <link>https://couchtime.click</link>
+      <description><![CDATA[我想要一种限制我孩子可以观看的YouTube上哪些频道的方法，所以我在周末与Claude建造了它。 
+很好，即使我们通过Pihole阻止YouTube和YouTube-Kids。谢谢！
+
+注释URL： https://news.ycombinator.com/item?id=44549850 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://couchtime.click</guid>
+      <pubDate>Sun, 13 Jul 2025 12:18:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>理查德·萨顿（Richard Sutton）：经验时代，设计时代</title>
+      <link>https://www.youtube.com/watch?v=FLOL2f4iHKA</link>
+      <description><![CDATA[文章URL： https://www.youtube.com/watch?v=flol2f4ihka 
+评论url： https://news.ycombinator.com/item？id=444549843 
+点：2 
+＃评论：0 ]]></description>
+      <guid>https://www.youtube.com/watch?v=FLOL2f4iHKA</guid>
+      <pubDate>Sun, 13 Jul 2025 12:17:48 GMT</pubDate>
     </item>
     </channel>
 </rss>
