@@ -4,106 +4,111 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 16 Jul 2025 12:43:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 15:23:36 GMT</lastBuildDate>
     <item>
-      <title>Gauntlet AI（YC S17）：所有费用在AI和$ 200K+的工作</title>
-      <link>https://www.crossover.com/jobs/5597/gauntlet-ai/ai-challenger/apply</link>
-      <description><![CDATA[Article URL: https://www.crossover.com/jobs/5597/gauntlet-ai/ai-challenger/apply
-注释url： https://news.ycombinator.com/item?id=444581257 
-点：0 
+      <title>Show HN：通过国际象棋ELO分数改善抹布？ （YC W25）</title>
+      <link>https://www.zeroentropy.dev/blog/improving-rag-with-elo-scores</link>
+      <description><![CDATA[你好，我是零（YC W25）的联合创始人Ghita。我们为抹布和AI代理建立了高精度搜索基础架构。我们刚刚发布了两个新的最先进的Rerankers Zerank-1和Zerank-1-Small。其中一个是Apache 2.0的完全开源的。我们使用新颖的ELO得分启发的管道训练了这些模型，我们在附加的博客中详细描述了这些模型。简而言之，这是培训步骤的概述：
+*使用LLMS合奏在文档对之间收集软偏好。
+*安装ELO风格的评级系统（Bradley-Terry）将成对比较变成绝对的人均分数。
+*使用偏置校正步骤将相关性得分归一化，该步骤使用跨广告比较建模，并使用mle。您可以通过我们的API尝试这些模型（ https:/https：/ href =“ https://huggingface.co/zeroentropy/zerank-1-small” rel =“ nofollow”&gt; https://huggingface.co/zeroentrepopy/zereank-1-small ）。我们会喜欢这种社区对模型和训练方法的反馈。完整的技术报告也将很快发布。谢谢！
+
+注释url： https://news.ycombinator.com/item/item?id=444582662 
+点：7 
+＃评论：1 ]]></description>
+      <guid>https://www.zeroentropy.dev/blog/improving-rag-with-elo-scores</guid>
+      <pubDate>Wed, 16 Jul 2025 14:17:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>丹佛最深的恐龙</title>
+      <link>https://pubs.geoscienceworld.org/uwyo/rmg/article/60/1/1/657560/Denver-s-deepest-dinosaur</link>
+      <description><![CDATA[文章URL： https://pubs.geoscienceworld.org/uwyo/rmg/article/60/1/1/1/657560/denver-s-deepest-dinosaur  
+注释url： https://news.ycombinator.com/item？id=444582349 
+点：4 
 ＃评论：0 ]]></description>
-      <guid>https://www.crossover.com/jobs/5597/gauntlet-ai/ai-challenger/apply</guid>
-      <pubDate>Wed, 16 Jul 2025 12:02:21 GMT</pubDate>
+      <guid>https://pubs.geoscienceworld.org/uwyo/rmg/article/60/1/1/657560/Denver-s-deepest-dinosaur</guid>
+      <pubDate>Wed, 16 Jul 2025 13:46:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>cppyy：自动Python-C ++绑定</title>
+      <link>https://cppyy.readthedocs.io/en/latest/</link>
+      <description><![CDATA[文章URL： https://cppyy.readthedocs.io/en/latest/   
+注释URL： https://news.ycombinator.com/item？id=444581631 
+点：33 
+＃评论：8 ]]></description>
+      <guid>https://cppyy.readthedocs.io/en/latest/</guid>
+      <pubDate>Wed, 16 Jul 2025 12:39:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Dataramen，一个快速的SQL Explorer，具有自动加入和数据导航</title>
+      <link>https://dataramen.xyz/</link>
+      <description><![CDATA[我构建了DataRamen，这是一个本地首选的SQL Explorer，可帮助您快速获取所需的数据，而无需每次编写重复的查询。您可以从CLI（尚未云版本）（尚未云版本）在本地运行它，连接数据库，并准备好使用。目的是让您像电子表格一样探索和查询数据：直观，快速且无摩擦。在几秒钟内进行洞察力的问题（这一点仍在进行中，我发现它令人舒适，但目标是使其变得更好）。  - 命名为“保存查询”的标签：保持多个选项卡的打开，可与不同的查询打开，可用于比较或交叉检查数据。保存选项卡，因此您可以随时返回查询。  - 即时编辑和插入：单击以进行编辑或添加行，无需编写完整的查询。  - 多db支持：连接多个数据库并搜索所有数据库。您的数据，这可能会节省大量时间。我喜欢反馈或建议，尤其是从经常争吵数据的人们中。在
+
+注释URL： https://news.ycombinator.com/item？id=44581098 
+点：24 
+＃评论：25 ]]></description>
+      <guid>https://dataramen.xyz/</guid>
+      <pubDate>Wed, 16 Jul 2025 11:42:17 GMT</pubDate>
     </item>
     <item>
       <title>Linux在美国达到5％的台式市场份额</title>
       <link>https://ostechnix.com/linux-reaches-5-desktop-market-share-in-usa/</link>
       <description><![CDATA[文章url： https://ostechnix.com/linux-reaches-5-desktop-market-market-share-share-inare-in--usa/      
 注释url： https://news.ycombinator.com/item？id=44580682 
-点：238 
-＃评论：109 ]]></description>
+点：656 
+＃评论：350 ]]></description>
       <guid>https://ostechnix.com/linux-reaches-5-desktop-market-share-in-usa/</guid>
       <pubDate>Wed, 16 Jul 2025 10:37:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>AWS开源Postgres主动复制扩展</title>
+      <link>https://github.com/aws/pgactive</link>
+      <description><![CDATA[文章URL： https://github.com/aws/pgactive   
+评论url： https://news.ycombinator.com/item?id=444580257 
+点：88 
+＃评论：19 ]]></description>
+      <guid>https://github.com/aws/pgactive</guid>
+      <pubDate>Wed, 16 Jul 2025 09:15:28 GMT</pubDate>
     </item>
     <item>
       <title>乌克兰黑客摧毁了俄罗斯无人机制造商的IT基础设施</title>
       <link>https://prm.ua/en/ukrainian-hackers-destroyed-the-it-infrastructure-of-a-russian-drone-manufacturer-what-is-known/</link>
       <description><![CDATA[文章URL：”&gt; https://prm.ua/en/ukrainian-hackers-destroyed-the-the-it-infrastructure-of-a- russian-drone-manufacturer-what-is-is-nown/  
 注释URL： https://news.ycombinator.com/item？id=4445799902 
-点：218 
-＃评论：131 ]]></description>
+点：363 
+＃评论：233 ]]></description>
       <guid>https://prm.ua/en/ukrainian-hackers-destroyed-the-it-infrastructure-of-a-russian-drone-manufacturer-what-is-known/</guid>
       <pubDate>Wed, 16 Jul 2025 08:18:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>我要切换到Python，实际上喜欢它</title>
+      <link>https://www.cesarsotovalero.net/blog/i-am-switching-to-python-and-actually-liking-it.html</link>
+      <description><![CDATA[文章URL： https://wwwww.cesarsotovalero.net/blog/blog/blog/i-am-switching-py-pythit-py-pythit-py-pythit-py-python-py-python-python---------------------------- 
+注释url： https://news.ycombinator.com/item?id=444579717 
+点：85 
+＃评论：120 ]]></description>
+      <guid>https://www.cesarsotovalero.net/blog/i-am-switching-to-python-and-actually-liking-it.html</guid>
+      <pubDate>Wed, 16 Jul 2025 07:44:32 GMT</pubDate>
     </item>
     <item>
       <title>在Firefox 141中的Windows上运送WebGPU</title>
       <link>https://mozillagfx.wordpress.com/2025/07/15/shipping-webgpu-on-windows-in-firefox-141/</link>
       <description><![CDATA[文章URL：https://mozillagfx.wordpress.com/2025/07/15/shipping-webgpu-on-windows-in-firefox-141/
 评论url： https://news.ycombinator.com/item？id=444579317 
-点：154 
-＃评论：37 ]]></description>
+点：215 
+＃评论：65 ]]></description>
       <guid>https://mozillagfx.wordpress.com/2025/07/15/shipping-webgpu-on-windows-in-firefox-141/</guid>
       <pubDate>Wed, 16 Jul 2025 06:32:47 GMT</pubDate>
     </item>
     <item>
-      <title>NextFlow：用于创建可扩展，便携式，可再现的工作流程的系统</title>
-      <link>https://github.com/nextflow-io/nextflow</link>
-      <description><![CDATA[文章URL： https://github.com/nextflow-io/nextflow   
-注释URL： https://news.ycombinator.com/item?id=444578997 
-点：29 
-＃评论：7 ]]></description>
-      <guid>https://github.com/nextflow-io/nextflow</guid>
-      <pubDate>Wed, 16 Jul 2025 05:30:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>tilck：一个小的Linux兼容内核</title>
-      <link>https://github.com/vvaltchev/tilck</link>
-      <description><![CDATA[文章URL： https://github.com/vvaltchev/tilck   
-注释URL： https://news.ycombinator.com/item？id=44578510 
-点：168 
-＃评论：33 ]]></description>
-      <guid>https://github.com/vvaltchev/tilck</guid>
-      <pubDate>Wed, 16 Jul 2025 03:50:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>CloudFlare 1.1.1.1事件于2025年7月14日</title>
-      <link>https://blog.cloudflare.com/cloudflare-1-1-1-1-incident-on-july-14-2025/</link>
-      <description><![CDATA[文章URL： https://blog.cloudflare.com/cloudflare.com/cloudflare.com/cloudflare-1-1-1-1-1-1-1-1-1--in-in-in-in-in-in-in-in-in-in-july-in-july-in-july-14-14-14-14-14-2025/ 
-注释url： https://news.ycombinator.com/item?id=444578490 
-点：295 
-＃评论：177 ]]></description>
-      <guid>https://blog.cloudflare.com/cloudflare-1-1-1-1-incident-on-july-14-2025/</guid>
-      <pubDate>Wed, 16 Jul 2025 03:44:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>国会拒绝大部分白宫提议的NASA削减</title>
-      <link>https://arstechnica.com/space/2025/07/congress-moves-to-reject-bulk-of-white-houses-proposed-nasa-cuts/</link>
-      <description><![CDATA[文章URL： https://arstechnica.com/space/2025/07/congress-moves-to-reject-bulk-ox-of-of-white-hite-houses-prop，prop，-nasa-cuts/  
-注释url： https://news.ycombinator.com/item?id=444578255 
-点：186 
-＃评论：113 ]]></description>
-      <guid>https://arstechnica.com/space/2025/07/congress-moves-to-reject-bulk-of-white-houses-proposed-nasa-cuts/</guid>
-      <pubDate>Wed, 16 Jul 2025 02:56:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>六年的双子座</title>
-      <link>https://geminiprotocol.net/news/2025_06_20.gmi</link>
-      <description><![CDATA[文章url： https://geminiprotocol.net/news/news/2025_06_20.20.20.gmi 
-注释url： https://news.ycombinator.com/item?id=444578143 
-点：151 
-＃评论：56 ]]></description>
-      <guid>https://geminiprotocol.net/news/2025_06_20.gmi</guid>
-      <pubDate>Wed, 16 Jul 2025 02:37:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLM做白日梦</title>
-      <link>https://gwern.net/ai-daydreaming</link>
-      <description><![CDATA[文章URL： https://gwern.net/ai-daydreaming   
-注释URL： https://news.ycombinator.com/item?id=444578070 
-点：92 
-＃评论：38 ]]></description>
-      <guid>https://gwern.net/ai-daydreaming</guid>
-      <pubDate>Wed, 16 Jul 2025 02:22:02 GMT</pubDate>
+      <title>劫持信任？在控制FOSS项目PUTTY的域名的刻度</title>
+      <link>https://blog.pupred.com/blog/puttyvsbitvise/</link>
+      <description><![CDATA[文章URL： https://blog.pupred.com/blog/puttyvsbitvise/   
+注释url： https://news.ycombinator.com/item?id=444579265 
+点：56 
+＃评论：53 ]]></description>
+      <guid>https://blog.pupred.com/blog/puttyvsbitvise/</guid>
+      <pubDate>Wed, 16 Jul 2025 06:22:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
