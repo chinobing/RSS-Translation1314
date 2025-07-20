@@ -4,106 +4,116 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Sun, 20 Jul 2025 06:29:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jul 2025 09:21:03 GMT</lastBuildDate>
+    <item>
+      <title>“我注意到明显违反了我们的贡献指南”</title>
+      <link>https://github.com/antiwork/flexile/pull/427#issuecomment-3079688548</link>
+      <description><![CDATA[Article URL: https://github.com/antiwork/flexile/pull/427#issuecomment-3079688548
+注释URL： https://news.ycombinator.com/item?id=44623036 
+点：40 
+＃评论：18 ]]></description>
+      <guid>https://github.com/antiwork/flexile/pull/427#issuecomment-3079688548</guid>
+      <pubDate>Sun, 20 Jul 2025 08:26:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>质量下降的令人困惑的现象</title>
+      <link>https://english.elpais.com/culture/2025-07-20/the-bewildering-phenomenon-of-declining-quality.html</link>
+      <description><![CDATA[文章URL： https://english.elpais.com/culture/2025-07-20/the-bewildering-phenomenon-feclining-declining-quality.html  
+注释url： https://news.ycombinator.com/item?id=44622953 
+点：7 
+＃评论：0 ]]></description>
+      <guid>https://english.elpais.com/culture/2025-07-20/the-bewildering-phenomenon-of-declining-quality.html</guid>
+      <pubDate>Sun, 20 Jul 2025 08:10:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Big LLM体系结构比较</title>
+      <link>https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison</link>
+      <description><![CDATA[文章URL： https://magazine.sebastianraschka.com/p/p/-big-lllm-arkitector-bastianraschka.com/
+注释url： https://news.ycombinator.com/item？id=446226608 
+点：33 
+＃评论：1 ]]></description>
+      <guid>https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison</guid>
+      <pubDate>Sun, 20 Jul 2025 06:56:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>罗马道路研究协会（英国）</title>
+      <link>https://www.romanroads.org/index.html</link>
+      <description><![CDATA[文章URL： https://www.romanroads.org/index.html   
+注释url： https://news.ycombinator.com/item？id=446222543 
+点：3 
+＃评论：0 ]]></description>
+      <guid>https://www.romanroads.org/index.html</guid>
+      <pubDate>Sun, 20 Jul 2025 06:42:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>在数据库中的Linux上的异步I/O</title>
+      <link>https://blog.canoozie.net/async-i-o-on-linux-and-durability/</link>
+      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=446222454 
+点：49 
+＃评论：9 ]]></description>
+      <guid>https://blog.canoozie.net/async-i-o-on-linux-and-durability/</guid>
+      <pubDate>Sun, 20 Jul 2025 06:20:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>害怕对人工智能感到困惑的恐惧意味着我们现在会写不同的写作吗？</title>
+      <link>https://3quarksdaily.com/3quarksdaily/2025/06/will-the-fear-of-being-confused-for-ai-mean-that-we-will-now-write-differently.html</link>
+      <description><![CDATA[文章URL： https://3quarksdaily.com/3quarksdaily/2025/06/will-the-the-the-fear-of-being-confuse-for-ai-mean-mean-that-we-will-now-now-now-now-now-now-now-now-write-html-html  
+评论url： https://news.ycombinator.com/item?id=446222382 
+点：4 
+＃评论：5 ]]></description>
+      <guid>https://3quarksdaily.com/3quarksdaily/2025/06/will-the-fear-of-being-confused-for-ai-mean-that-we-will-now-write-differently.html</guid>
+      <pubDate>Sun, 20 Jul 2025 06:03:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：用于搅拌机的MCP服务器，该服务器通过自然语言构建3D场景</title>
+      <link>https://blender-mcp-psi.vercel.app/</link>
+      <description><![CDATA[ hi hn！我构建了一个自定义的MCP（模型上下文协议）服务器，该服务器将搅拌机连接到诸如chatgpt，claude和任何其他LLM支持工具调用和MCP之类的LLM，使AI可以理解和控制3D场景。使用自然语言来理解3D场景。  及其在搅拌机内部建造的系统 - 无需手动建模或脚本。它可以做什么：
+ - 从一个提示中生成多物体场景，例如村庄，风景
+ - 了解空间关系 - 例如，“将桥梁放在河上”或“在小屋后面添加树木”
+ - 创建摄像机动画和照明设置：“日落照明时的旋转场景”
+ - 响应迭代性变化，例如：“用石屋代替所有小屋”或“使河流更狭窄”
+ - 维护对象层次结构和标签以进行以后编辑技术堆栈：
+ - 搅拌器python脚本
+-Node.js服务器运行MCP
+-LLM后端（OpenAi / Claude，很容易交换）演示：
+ https://blender-mcp-psi.vercel.app/    github： github：  
+https://github.com/pranav-deshmukh/blender-mcp-demo/Curious to hear thoughts from folks in 3D tooling, AI-assisted design, or dev interface design.您会发现这是搅拌机插件吗？我愿意扩展它！请尝试一下，并在github上给它一颗星星
+
+注释url： https://news.ycombinator.com/item?id=446222374 
+点：11 
+＃评论：4 ]]></description>
+      <guid>https://blender-mcp-psi.vercel.app/</guid>
+      <pubDate>Sun, 20 Jul 2025 06:01:45 GMT</pubDate>
+    </item>
     <item>
       <title>Airbnb允许在洛杉矶大火后猖ramp的价格，城市检察官指控</title>
       <link>https://www.latimes.com/california/story/2025-07-19/airbnb-allowed-price-gouging-following-l-a-fires-city-attorney-alleges-in-lawsuit</link>
       <description><![CDATA[文章URL： https://www.latimes.com/california/story/2025-07-19/airbnb-allowed-price-golce-gouging-following-following-l-a-fires-city-city-attorney-altorges-alleges-ragsiut  
 注释url： https://news.ycombinator.com/item？id=44621675 
-点：25 
-＃评论：19 ]]></description>
+点：46 
+＃评论：62 ]]></description>
       <guid>https://www.latimes.com/california/story/2025-07-19/airbnb-allowed-price-gouging-following-l-a-fires-city-attorney-alleges-in-lawsuit</guid>
       <pubDate>Sun, 20 Jul 2025 03:14:26 GMT</pubDate>
     </item>
     <item>
-      <title>BORG-通过压缩和加密重复进行档案</title>
+      <title>BORG  - 通过压缩和加密来重复数据档案</title>
       <link>https://www.borgbackup.org/</link>
       <description><![CDATA[文章URL： https://www.borgbackup.org/  
 评论url： https://news.ycombinator.com/item?id=44621487 
-点：17 
-＃评论：4 ]]></description>
+点：54 
+＃评论：12 ]]></description>
       <guid>https://www.borgbackup.org/</guid>
       <pubDate>Sun, 20 Jul 2025 02:36:53 GMT</pubDate>
     </item>
     <item>
-      <title>与脑细胞损伤和中风风险有关</title>
-      <link>https://www.sciencedaily.com/releases/2025/07/250718035156.htm</link>
-      <description><![CDATA[文章url： https://www.sciencedaily.com/releases/releases/2025/2025/07/07/25071801801803556.HAB
-注释URL： https://news.ycombinator.com/item?id=44621268 
-点：46 
-＃评论：23 ]]></description>
-      <guid>https://www.sciencedaily.com/releases/2025/07/250718035156.htm</guid>
-      <pubDate>Sun, 20 Jul 2025 02:02:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>纽约的法案禁止单人火车运营</title>
-      <link>https://www.etany.org/statements/impeding-progress-costing-riders-opto</link>
-      <description><![CDATA[文章url： https://wwwww.etany.org/statement/mimpeding-pregress-progress-costing-progress-costing-costing-riders-riders-opto--riders-apto-riders-popto 
-注释URL： https://news.ycombinator.com/item？id=44621119 
-点：82 
-＃评论：107 ]]></description>
-      <guid>https://www.etany.org/statements/impeding-progress-costing-riders-opto</guid>
-      <pubDate>Sun, 20 Jul 2025 01:33:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>我用拱门，顺便说一句：macos，第1天</title>
-      <link>https://yberreby.com/posts/i-used-arch-btw-macos-day-1/</link>
-      <description><![CDATA[文章URL： https://yberreby.com/posts/posts/i-------------------
-注释URL： https://news.ycombinator.com/item?id=44620623 
-点：45 
-＃评论：54 ]]></description>
-      <guid>https://yberreby.com/posts/i-used-arch-btw-macos-day-1/</guid>
-      <pubDate>Sat, 19 Jul 2025 23:58:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>超越肉类为生存而战</title>
-      <link>https://foodinstitute.com/focus/beyond-meat-fights-for-survival/</link>
-      <description><![CDATA[文章URL： https://foodinstitute.com/focus/beyond-meat-fights-meat-fights-fights-for-survival/ 
-注释URL： https://news.ycombinator.com/item?id=44620606 
-点：46 
-＃评论：75 ]]></description>
-      <guid>https://foodinstitute.com/focus/beyond-meat-fights-for-survival/</guid>
-      <pubDate>Sat, 19 Jul 2025 23:54:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>戒指引入新功能，以允许警察直播摄像机</title>
-      <link>https://www.eff.org/deeplinks/2025/07/amazon-ring-cashes-techno-authoritarianism-and-mass-surveillance</link>
-      <description><![CDATA[文章URL：” https://www.eff.org/deeplinks/2025/07/amazon-ring-cashes-cashes-techno-authoritaraniashism-and-mass-surprance  
-评论URL： https://news.ycombinator.com/item?id=44620002 
-点：216 
-＃评论：103 ]]></description>
-      <guid>https://www.eff.org/deeplinks/2025/07/amazon-ring-cashes-techno-authoritarianism-and-mass-surveillance</guid>
-      <pubDate>Sat, 19 Jul 2025 22:25:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>超快速乘客旅行的未来</title>
-      <link>https://spaceambition.substack.com/p/beyond-the-sound-barrier</link>
-      <description><![CDATA[文章url： https://paceambition.substack.com/p/beyond-the-sh-sound-the-sound-sound-barrier     
-注释URL： https://news.ycombinator.com/item？id=44619258 
-点：26 
-＃评论：56 ]]></description>
-      <guid>https://spaceambition.substack.com/p/beyond-the-sound-barrier</guid>
-      <pubDate>Sat, 19 Jul 2025 20:50:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Trigon：利用协处理器来娱乐和获利（第2部分）</title>
-      <link>https://alfiecg.uk/2025/07/16/Trigon.html</link>
-      <description><![CDATA[文章URL： https://alfiecg.uk.uk/allfiecg.uk/2025/07/16/16/16/trigon.html 
-评论url： https://news.ycombinator.com/item？id=44618959 
-点：34 
-＃评论：1 ]]></description>
-      <guid>https://alfiecg.uk/2025/07/16/Trigon.html</guid>
-      <pubDate>Sat, 19 Jul 2025 20:15:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>TSMC开始用1.4nm技术建造四个新工厂</title>
-      <link>https://www.taipeitimes.com/News/front/archives/2025/07/20/2003840583</link>
-      <description><![CDATA[Article URL: https://www.taipeitimes.com/News/front/archives/2025/07/20/2003840583
-注释url： https://news.ycombinator.com/item？id=44618762 
-点：164 
-＃评论：110 ]]></description>
-      <guid>https://www.taipeitimes.com/News/front/archives/2025/07/20/2003840583</guid>
-      <pubDate>Sat, 19 Jul 2025 19:52:30 GMT</pubDate>
+      <title>AGI最终边界：CLJ-AGI基准测试</title>
+      <link>https://raspasov.posthaven.com/the-agi-final-frontier-the-clj-agi-benchmark</link>
+      <description><![CDATA[文章URL： https://raspasov.posthaven.com/the-agi-agi-final-final-final-final-final-frinc-frontier-frontier-frontier-frontier-the-clj-agi-the-clj-agi-bench一下
+注释URL： https://news.ycombinator.com/item？id=44621088 
+点：9 
+＃评论：3 ]]></description>
+      <guid>https://raspasov.posthaven.com/the-agi-final-frontier-the-clj-agi-benchmark</guid>
+      <pubDate>Sun, 20 Jul 2025 01:28:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
