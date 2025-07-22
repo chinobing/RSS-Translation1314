@@ -4,20 +4,55 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 22 Jul 2025 12:43:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jul 2025 15:22:58 GMT</lastBuildDate>
+    <item>
+      <title>在克劳德代码上花费900美元。现在我花了90美元。这就是方法。</title>
+      <link>https://www.reddit.com/r/programming/comments/1m6gs3g/was_spending_900month_on_claude_code_now_i_spend/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;     tl; dr ：构建一个免费的开放式代理代理，使Claude代码使用任何AI模型。保持最佳的编码接口，将您的成本削减90％。 问题 像你们中的许多人一样，我爱上了克劳德代码。它是最佳的编码代理 - 工具调用，上下文理解，一切都起作用。 ，但最低$ 200？在紧缩时间达到每日限制？看着我的账单每天达到30美元？  解决方案：ccproxy   i构建 ccproxy“&gt; ccproxy”   - 一个轻量级的代理，是Claude Code之间的轻量级专业版。它实时翻译API，因此Claude Code认为它正在与人类交谈，但实际上是在使用您想要的任何型号。 它的工作方式 您终端中的一行： bash Export anthropic_base_base_base_base_url = http = http：// localhost：3456 现在 gemini 2.5 Flash ：带有1M令牌上下文的自由层 -   Kimi K2 ：与Claude Sonnet相同的性能 - 成本为1/100，成本 -   qwen3 235b ：完全免费，击败了gpt -4在benchmarks benchmarks -benchmarks -benchmarks -prach marks -prach marks -prach marks -prach marks -prown well&gt; strort ：通过OpenRouter  我现在的日常工作流程       task  型号             调试  kimi k2   $ 0.15/m tokens        architection   claude  claude  claude     $ 15/m tokens        Qwen3 FREE   Code reviews DeepSeek V3 ~$0.20/M tokens   Same Claude Code interface.  它是免费的和开源的 ，因为工具不应支付付费。每个开发人员都应获得负担得起的AI帮助。    github ： href =“ https://ccproxy.orchestre.dev”&gt; https://ccproxy.orchestre.dev      快速启动：https://ccproxy.orchestre.dev/guide/quick-start  Questions I&#39;ll Probably Get Q: Does this break Claude Code? A: Nope. Claude代码的工作原理完全相同。 ccproxy只是翻译了API调用。   q：工具调用呢？  a：完全支持兼容模型（OpenAi，gemini等）   q：实际上是90％更便宜的？我将80％的任务路由到免费/廉价型号，请保留需要它的20％的Claude。   Q：为什么不直接直接使用其他型号？  a：因为克劳德代码的界面是无与伦比的。这为您提供了两全其美的最佳状态。 您将切换到免费的车型哪些昂贵的AI任务？很想听听您的用例！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/mose-exercise788       [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m6gs3g/was_spending_900month_on_claude_code_now_i_spend/</guid>
+      <pubDate>Tue, 22 Jul 2025 15:14:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>反向代理深度潜水：为什么HTTP在边缘解析比看起来更难</title>
+      <link>https://www.reddit.com/r/programming/comments/1m6gqnq/reverse_proxy_deep_dive_why_http_parsing_at_the/</link>
+      <description><![CDATA[I previously shared a version of this post on Reddit linking to Medium, but since then I’ve migrated the content to my personal blog and updated it with more detailed insights. This is Part 2 of my deep dive series on reverse proxies, focusing on the complexities of HTTP parsing at the edge.该文章解释了为什么处理HTTP请求和响应的原因不像看起来那样简单，尤其是在处理安全性，性能和兼容性时。 我涵盖了诸如畸形请求，标题操纵，用户代理Quirks，Geo-IP操作，GEO-IP操作，以及在流量中流量流量   系统或代理设计，我认为您会发现这很有用。 在此处查看：https://startwithawhy.com/reverseproxy/2025/07/20/ReverseProxy-Deep-Dive-Part2.html I would love to聆听任何反馈，问题或您自己的经历！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/miggyishu     [link]   ＆＃32;  &lt;a href =“ https://www.reddit.com/r/programming/comments/1m6gqnq/reverse_proxy_deep_deep_deep_dive_http_http_parsing_at_tp_parsing_at_at_at_th_the/]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m6gqnq/reverse_proxy_deep_dive_why_http_parsing_at_the/</guid>
+      <pubDate>Tue, 22 Jul 2025 15:13:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Golang项目结构模板</title>
+      <link>https://www.reddit.com/r/programming/comments/1m6ffjn/golang_project_structure_template/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  我总是发现自己在启动GO项目时创建了相同的文件夹 -   Handlers ， services ， models 等等。。我遵循的整体布局。没有代码，只是结构作为参考。 没什么特别的，但它可以节省我的时间。也许对他人有用：  https://github.com/gnomedevreact/mrn      href =“ https://github.com/gnomedevreact/mrn-design”&gt; https://github.com/gnomedevreact/mrn-design    很高兴听到想法或建议。提交由＆＃32; /u/u/u/imiminary_drawer7827       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m6ffjn/golang_project_structure_template/</guid>
+      <pubDate>Tue, 22 Jul 2025 14:22:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>用widget_driver在扑来中清洁可测试的小部件</title>
+      <link>https://www.reddit.com/r/programming/comments/1m6eulx/clean_and_testable_widgets_with_widget_driver_in/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/consenent-jicama932      [link]       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m6eulx/clean_and_testable_widgets_with_widget_driver_in/</guid>
+      <pubDate>Tue, 22 Jul 2025 13:59:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>嵌入：微型设备的安全代码沙箱</title>
+      <link>https://www.reddit.com/r/programming/comments/1m6ejh3/embive_a_secure_code_sandbox_for_tiny_devices/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/congolomera      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m6ejh3/embive_a_secure_code_sandbox_for_tiny_devices/</guid>
+      <pubDate>Tue, 22 Jul 2025 13:46:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过PG_STAT_STATEMENTS快速查找慢速邮政查询</title>
+      <link>https://www.reddit.com/r/programming/comments/1m6e0ga/finding_slow_postgres_queries_fast_with_pg_stat/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;    https://medium.com/@rohansodha10/pg-stat-statement-auto-explain-finding-slow-ceries-fast-fast-fast-123c6db5552df?sk=e601803389f570995cef570995cef5cef5fc5fc5fc5fc07e8d30dd0ddddddddddd      &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/questary_depth_2491       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1m6e0ga/finding_slow_postgres_queries_fast_with_pg_stat/</guid>
+      <pubDate>Tue, 22 Jul 2025 13:24:29 GMT</pubDate>
+    </item>
     <item>
       <title>拉的静态分析。迈向规律性的又一步</title>
       <link>https://www.reddit.com/r/programming/comments/1m6d05e/static_analysis_for_pull_requests_another_step/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/xaneris47    [comments]]]></description>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/xaneris47      [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1m6d05e/static_analysis_for_pull_requests_another_step/</guid>
       <pubDate>Tue, 22 Jul 2025 12:40:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>猜猜谁只是不再免费爬行AI机器人</title>
-      <link>https://www.reddit.com/r/programming/comments/1m6c2r4/guess_who_just_drew_a_line_for_no_more_free/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   CloudFlare只是通过更改AI机器人可以访问网站的方式，仅在所有者的许可下才能访问网站。  他们是最大的服务提供商，在全球范围内为所有互联网流量提供了超过20％的动力，这一举动更加有影响力。他们现在决定默认情况下阻止任何机器人保护的网站。为了使任何AI机器人访问，AI公司都必须为此付费。这种新结构被称为按拖网付费模型。  故障：AI机器人到底有什么作用？  想象您刚刚出版了一本小说。您将小说设计为自己的语气和味道。仅供机器人复制小说中写的所有内容，并将其更名为人们。  这正是AI机器人所做的。   AI机器人是软件代理，由OpenAI（Chatgpt的制造商），Google，Anthropic，Clplexity AI等公司使用，以及“爬网”。通过网站并收集数据来培训其大型语言模型（LLMS）。这些爬行者是在您问问题时吐出的知识来喂养这些AI系统的方法。  因此，当您将某些内容键入chatgpt并为您提供有关最新事件，产品比较，博客内容或代码片段的答案时，它可能会从您或您的某些网站等网站中学到这些信息。   Cloudflare做了什么？   Cloudflare现在说：“足够了。”  截至目前，除非网站所有者明确允许它们，否则所有AI机器人都无法使用Cloudflare访问任何站点。  以下是他们将其分解的方式：  AI机器人现在使用CloudFlare默认站点被CloudFlare挡住了，默认情况下不再允许AI爬网。这包括一些最大的AI球员，例如OpenAI和Google Gemini。 &lt; /p&gt; 付费播放（付费按拖网） Cloudflare正在推动新型号，AI公司必须支付网站所有者或平台以访问其内容。不再有免费骑行。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/hot_leadership1516      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m6c2r4/guess_who_just_drew_a_line_for_no_more_free/</guid>
-      <pubDate>Tue, 22 Jul 2025 11:55:30 GMT</pubDate>
     </item>
     <item>
       <title>您的入职过程会吸引Soham吗？</title>
@@ -27,25 +62,11 @@
       <pubDate>Tue, 22 Jul 2025 11:14:31 GMT</pubDate>
     </item>
     <item>
-      <title>所以AI惊慌失措</title>
-      <link>https://www.reddit.com/r/programming/comments/1m6b8ix/so_the_ai_panicked/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  &#39;我在删除代码冻结期间删除DEV的整个数据库后，在几秒钟内销毁了您的工作几个月：&#39;我感到惊慌而不是思考&#39;| PC游戏玩家  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/copulsive-net1438       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m6b8ix/so_the_ai_panicked/</guid>
-      <pubDate>Tue, 22 Jul 2025 11:11:00 GMT</pubDate>
-    </item>
-    <item>
       <title>[博客]学习编译器构造</title>
       <link>https://www.reddit.com/r/programming/comments/1m6aqek/blog_learning_compiler_construction/</link>
       <description><![CDATA[&lt;！ -  sc_off-&gt;   all！其中一个是编译器的构造，真正窥视了我的兴趣。真正有趣的学习是真正有趣的，这是自从我开始学习以来我学习的一些最有趣的东西。  从中，我想开始在课程继续写博客上关于我的经验和学习。感觉就像我会在这里与其他人分享，而不是像以前那样感兴趣。 欢迎任何反馈或响应！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/danwastheman      [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1m6aqek/blog_learning_compiler_construction/</guid>
       <pubDate>Tue, 22 Jul 2025 10:42:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT提示的规格优先审核层 - 开源，寻找反馈</title>
-      <link>https://www.reddit.com/r/programming/comments/1m6ao55/specfirst_audit_layer_for_gpt_prompts_open_source/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;     tl; dr  - 我厌倦了“提示意大利面条”，并写了一个**确定性的规格**，该规范迫使任何LLM调用在我们对其采取行动之前*之前的llm呼叫以暴露其推理链*。   ````文本目标上下文 约束 前提1前提2规则应用中间扣除 结论 自我检查 自我检查•偏见吗？ ✅/⚠️•循环？是/否•冲突？是/否  •纯标记→git-diffable决策日志•模型 -  agnostic（交换GPT-4O，Claude-3等）•内置偏见/loop/loop/concance flags     repo + repo + repo + repo +最新版本（下载zip）： https://github.com.com/arenalensmuaydata/arenalensmuaydata/arc-os-spec/releases/releases/latest/latest/latest/latest  2。您会将类似的内容集成到CI（Pre-Merge LLM呼叫）中吗？ 3。欢迎命名/结构调整 - 我很高兴采用PR进行示例。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/unival-preparation-48      &lt;a href =“ https://www.reddit.com/r/programming/comments/1m6ao55/specfirst_audit_layer_for_for_for_gpt_prompt_prompts_open_source/”]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m6ao55/specfirst_audit_layer_for_gpt_prompts_open_source/</guid>
-      <pubDate>Tue, 22 Jul 2025 10:39:17 GMT</pubDate>
     </item>
     <item>
       <title>我们维护harfbuzz，镀铬，firefox，android等的文本塑造引擎 - 问我们任何东西（或告诉我们是什么困惑您）</title>
@@ -67,27 +88,6 @@
       <description><![CDATA[＆＃32;提交由＆＃32; /u/u/zetter      [注释]  ]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1m69ww6/what_makes_sql_special/</guid>
       <pubDate>Tue, 22 Jul 2025 09:53:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Windows File-explorer被这个人击败了！</title>
-      <link>https://www.reddit.com/r/programming/comments/1m69l3p/windows_fileexplorer_got_defeated_so_hard_by_this/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  它令人震惊的是，最终可执行文件有多大（不是安装程序），以及与Windows file-explorer相比的速度。   &lt;！ -  sc_on-&gt;        [link]   ＆＃32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m69l3p/windows_fileexplorer_got_defeated_so_hard_by_this/</guid>
-      <pubDate>Tue, 22 Jul 2025 09:33:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>设备AI的兴起和数据所有权的返回</title>
-      <link>https://www.reddit.com/r/programming/comments/1m69im9/the_rise_of_ondevice_ai_and_the_return_of_data/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/party-tower-5475     [link]  ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m69im9/the_rise_of_ondevice_ai_and_the_return_of_data/</guid>
-      <pubDate>Tue, 22 Jul 2025 09:28:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>编程开源的MACOS YouTube缩略图制造商工作室</title>
-      <link>https://www.reddit.com/r/programming/comments/1m69fb8/programming_an_opensource_a_macos_youtube/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 我一直在为MacOS构建YouTube Thumbnail Maker Studio Studio App for MacOS。它目前是用电子编写的，主要是因为我最初需要一些跨平台，但我计划探索一个本地的SwiftUi构建，以获得更好的性能和集成。 这个想法来自我的挫败感，因为为每个YouTube视频手动创建缩略图。我想要一种直接的方法来通过按Enter来生成和节省缩略图，并快速组合多个图像以创建干净的品牌设计而无需在工具之间切换。 现在，这是一个简单的电子应用程序，可以使您可以快速屏幕屏幕屏幕屏幕屏幕屏幕屏幕屏幕检查并将其合并到缩略图中。整个项目都是开源的，我非常感谢任何反馈或建议，尤其是从之前构建了Mac-native Design或屏幕截图自动化应用程序的人。 如果您对代码有兴趣，它在这里： https://github.com/ph-7/ph-7/thumbnails-maker    我主要是要分享此内容，以便为您是否有价值的框架/pressing for there for the Imberework/play 阅读，期待您的想法。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/phenrys       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1m69fb8/programming_an_opensource_a_macos_youtube/</guid>
-      <pubDate>Tue, 22 Jul 2025 09:22:40 GMT</pubDate>
     </item>
     <item>
       <title>完整的Flexbox CSS指南</title>
