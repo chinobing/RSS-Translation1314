@@ -4,14 +4,74 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Sun, 27 Jul 2025 18:29:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 21:19:43 GMT</lastBuildDate>
+    <item>
+      <title>引导加载</title>
+      <link>http://www.intel4004.com/btstrp.htm</link>
+      <description><![CDATA[文章URL： http://www.intel4004.com/btstrp.htm   
+注释URL： https://news.ycombinator.com/item?id=4470444482 
+点：6 
+＃评论：0 ]]></description>
+      <guid>http://www.intel4004.com/btstrp.htm</guid>
+      <pubDate>Sun, 27 Jul 2025 20:37:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google的邪恶以及该怎么办</title>
+      <link>https://billdembski.substack.com/p/the-evilization-of-googleand-what</link>
+      <description><![CDATA[文章url：注释URL： https://news.ycombinator.com/item?id=44704391 
+点：11 
+＃评论：0 ]]></description>
+      <guid>https://billdembski.substack.com/p/the-evilization-of-googleand-what</guid>
+      <pubDate>Sun, 27 Jul 2025 20:25:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>我入侵了洗衣机</title>
+      <link>https://nexy.blog/2025/07/27/how-i-hacked-my-washing-machine/</link>
+      <description><![CDATA[文章url： https://nexy.blog/2025/2025/07/27/27/27/how-i-how-i-hack--i-hack----------------------------------------------------------------------------------------------------------------
+注释url： https://news.ycombinator.com/item？id=44704270 
+点：9 
+＃评论：1 ]]></description>
+      <guid>https://nexy.blog/2025/07/27/how-i-hacked-my-washing-machine/</guid>
+      <pubDate>Sun, 27 Jul 2025 20:09:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>国家航空反常现象报告中心</title>
+      <link>https://www.narcap.org</link>
+      <description><![CDATA[文章URL： https://www.narcap.org   
+注释url： https://news.ycombinator.com/item?id=44703908 
+点：5 
+＃评论：0 ]]></description>
+      <guid>https://www.narcap.org</guid>
+      <pubDate>Sun, 27 Jul 2025 19:31:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>杰夫·贝佐斯（Jeff Bezos）是故意还是偶然地杀死华盛顿邮报？</title>
+      <link>https://news.ycombinator.com/item?id=44703865</link>
+      <description><![CDATA[ https://www.thebulwark.com/p/the-washington-post-is-is-dying-jeff-bezos-will-lewis 
+
+注释URL： https://news.ycombinator.com/item？id=44703865 
+点：15 
+＃评论：5 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=44703865</guid>
+      <pubDate>Sun, 27 Jul 2025 19:27:20 GMT</pubDate>
+    </item>
     <item>
       <title>禁用Bontedance的VScode fork中的遥测会增加发送到其服务器的数据</title>
       <link>https://github.com/segmentationf4u1t/trae_telemetry_research</link>
-      <description><![CDATA[文章URL： https://github.com/sementemtionf4u1t/trae_telemetry_tlemetry_research 
+      <description><![CDATA[嗨，hn，
+我正在评估一个个人项目的IDE，并决定测试Trae，Bontedance的Vscode叉。我立即注意到我认为值得分享的一些重大绩效和隐私问题。我已经在链接的帖子中写了一个完整的分析，其中包含屏幕截图，网络日志和数据有效载荷。这是关键发现： 1。极端资源消耗：
+开箱即用，TRAE使用了6.3倍的RAM（〜5.7 GB），并比具有同一项目打开的标准VSCODE设置多了3.7倍（总计33）。此后，该团队进行了改进，但仍然重大。 2。遥测选择不起作用（情况更糟）：
+我发现Trae不断地将数据发送到bytedance服务器（byteoversea.com）。我进入了设置，并禁用了所有遥测。令我惊讶的是，这并没有阻止流量。实际上，它增加了批处理数据收集的频率。遥测“ OFF”开关似乎纯粹是化妆品。 3。正在发送什么：
+即使使用遥测“禁用”，TRAE仍会发送详细的有效载荷，包括：
+硬件规格（CPU，内存等）
+持续的用户，设备和机器ID
+OS版本，应用语言，用户名
+粒状用法数据，例如时间到底时，窗口聚焦状态和活动文件类型。 4。社区审查制度：
+当我试图在他们的官方不和谐上讨论这些发现时，我的帖子被删除了，我的帐户被静置了7天。似乎诸如“轨迹”触发自动插科打gur的词，它阻止了有关隐私的任何真实讨论。我相信开发人员应该意识到这种行为。资源消耗，非功能性隐私设置和技术反馈审查的结合是一个主要的危险信号。链接可在链接上提供完整的，详细的分析（流程清单，提琴手捕获，JSON有效载荷和屏幕截图）。很高兴回答任何问题。
+
 注释URL： https://news.ycombinator.com/item？id=44703164 
-点：5 
-＃评论：1 ]]></description>
+点：455 
+＃评论：146 ]]></description>
       <guid>https://github.com/segmentationf4u1t/trae_telemetry_research</guid>
       <pubDate>Sun, 27 Jul 2025 17:57:06 GMT</pubDate>
     </item>
@@ -20,8 +80,8 @@
       <link>https://techcrunch.com/2025/07/26/allianz-life-says-majority-of-customers-personal-data-stolen-in-cyberattack/</link>
       <description><![CDATA[文章URL： https://techcrunch.com/2025/07/26/allianz-life-says-majority-of-customers-personal-data----sonal-data-stolen-in-cyberattack/   
 注释URL： https://news.ycombinator.com/item?id=447003079 
-点：17 
-＃评论：6 ]]></description>
+点：130 
+＃评论：63 ]]></description>
       <guid>https://techcrunch.com/2025/07/26/allianz-life-says-majority-of-customers-personal-data-stolen-in-cyberattack/</guid>
       <pubDate>Sun, 27 Jul 2025 17:49:23 GMT</pubDate>
     </item>
@@ -30,80 +90,32 @@
       <link>https://khang-nd.github.io/7.css/</link>
       <description><![CDATA[文章URL： https://khang-nd.github.io/7.css/    
 注释url： https://news.ycombinator.com/item？id=44702894 
-点：39 
-＃评论：9 ]]></description>
+点：131 
+＃评论：41 ]]></description>
       <guid>https://khang-nd.github.io/7.css/</guid>
       <pubDate>Sun, 27 Jul 2025 17:27:26 GMT</pubDate>
     </item>
     <item>
-      <title>汤姆·莱勒（Tom Lehrer），有着黑暗连胜的音乐讽刺作家，死于97</title>
+      <title>问HN：您在做什么？ （2025年7月）</title>
+      <link>https://news.ycombinator.com/item?id=44702833</link>
+      <description><![CDATA[您在做什么？  您有什么新想法吗？
+
+注释URL： https://news.ycombinator.com/item?id=44702833 
+点：66 
+＃评论：200 ]]></description>
+      <guid>https://news.ycombinator.com/item?id=44702833</guid>
+      <pubDate>Sun, 27 Jul 2025 17:19:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>汤姆·雷勒（Tom Lehrer）去世了</title>
       <link>https://www.nytimes.com/2025/07/27/arts/music/tom-lehrer-dead.html</link>
-      <description><![CDATA[Article URL: https://www.nytimes.com/2025/07/27/arts/music/tom-lehrer-dead.html
+      <description><![CDATA[  https://archive.ph/gy3xa  也： https：//apnews.com/article/tom-lehrer-son-satirist-mathemati ...  
+
 注释url： https://news.ycombinator.com/item?id=44702782 
-点：60 
-＃评论：15 ]]></description>
+点：285 
+＃评论：58 ]]></description>
       <guid>https://www.nytimes.com/2025/07/27/arts/music/tom-lehrer-dead.html</guid>
       <pubDate>Sun, 27 Jul 2025 17:13:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>克劳德代码是一台老虎机</title>
-      <link>https://rgoldfinger.com/blog/2025-07-26-claude-code-is-a-slot-machine/</link>
-      <description><![CDATA[文章url： httpps://rgoldfinger.com/blog/blog/2025-07-26-25-07-26-claude-code-code-code-code-isis-is-is-slot-machin&gt;
-注释URL： https://news.ycombinator.com/item？id=44700202046 
-点：144 
-＃评论：139 ]]></description>
-      <guid>https://rgoldfinger.com/blog/2025-07-26-claude-code-is-a-slot-machine/</guid>
-      <pubDate>Sun, 27 Jul 2025 15:30:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>过去十年的许多javascript运行时间</title>
-      <link>https://buttondown.com/whatever_jamie/archive/the-many-many-many-javascript-runtimes-of-the-last-decade/</link>
-      <description><![CDATA[文章URL：https://buttondown.com/whatever_jamie/archive/the-many-many-many-javascript-runtimes-of-the-last-decade/
-评论url： https://news.ycombinator.com/item?id=44701574 
-点：42 
-＃评论：11 ]]></description>
-      <guid>https://buttondown.com/whatever_jamie/archive/the-many-many-many-javascript-runtimes-of-the-last-decade/</guid>
-      <pubDate>Sun, 27 Jul 2025 14:28:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>愚蠢的管道</title>
-      <link>https://www.dumbpipe.dev/</link>
-      <description><![CDATA[文章URL： https://www.dumbpipe.dev/  
-注释url： https://news.ycombinator.com/item？id=44701555 
-点：308 
-＃评论：64 ]]></description>
-      <guid>https://www.dumbpipe.dev/</guid>
-      <pubDate>Sun, 27 Jul 2025 14:25:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>甜菜根汁通过改变口服微生物组来降低老年人的血压</title>
-      <link>https://news.exeter.ac.uk/faculty-of-health-and-life-sciences/beetroot-juice-lowers-blood-pressure-in-older-people-by-changing-oral-microbiome/</link>
-      <description><![CDATA[文章URL：   
-注释URL： https://news.ycombinator.com/item?id=44700923 
-点：149 
-＃评论：92 ]]></description>
-      <guid>https://news.exeter.ac.uk/faculty-of-health-and-life-sciences/beetroot-juice-lowers-blood-pressure-in-older-people-by-changing-oral-microbiome/</guid>
-      <pubDate>Sun, 27 Jul 2025 12:44:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>分层推理模型</title>
-      <link>https://arxiv.org/abs/2506.21734</link>
-      <description><![CDATA[文章URL： https://arxiv.org/abs/2506.21734   
-评论url： https://news.ycombinator.com/item?id=446994452 
-点：219 
-＃评论：68 ]]></description>
-      <guid>https://arxiv.org/abs/2506.21734</guid>
-      <pubDate>Sun, 27 Jul 2025 07:15:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>当我们被komoot</title>
-      <link>https://bikepacking.com/plog/when-we-get-komooted/</link>
-      <description><![CDATA[文章URL： https://bikepacking.com/plog/plog/when-we-get-komooted/ 
-注释url： https://news.ycombinator.com/item?id=446999421 
-点：377 
-＃评论：204 ]]></description>
-      <guid>https://bikepacking.com/plog/when-we-get-komooted/</guid>
-      <pubDate>Sun, 27 Jul 2025 07:07:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
