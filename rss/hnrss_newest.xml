@@ -4,110 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 30 Jul 2025 06:34:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jul 2025 09:30:49 GMT</lastBuildDate>
     <item>
-      <title>问HN：Googlebot的奇数流量</title>
-      <link>https://news.ycombinator.com/item?id=44731394</link>
-      <description><![CDATA[我一直在分析服务器日志，并注意到了一些奇怪的流量，流量源自Google。我确实验证了ASN和反向DNS。所有内容都签出了。每个Googlebot请求都有一个伪造或伪造的HTTP主机：标头，通常填充一些我从未听说过的随机第三世界网站。参考器同样是伪造的，通常指向伪造主机上的页面：标题域。这是Googlebot中的某些编码错误，还是他们检查了一些SSRF漏洞，我不太了解？
-
-注释URL： https://news.ycombinator.com/item？id=44731394 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44731394</guid>
-      <pubDate>Wed, 30 Jul 2025 06:30:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示HN：将CSV转换为抛光PDF的简单工具</title>
-      <link>https://quickreport-v1.vercel.app/</link>
-      <description><![CDATA[ QuickReport是一个简单的工具，可以将CSV转换为抛光的PDF而不触摸Excel或床单！我构建了它，因为我想以可观的方式快速格式化原始表格数据，我可以通过电子邮件发送，而无需使用Excel或exket而又不必使用10个或更多的时间，以使PDF看起来不错。我使用React，Tailwind CSS，React-PDF和Papaparse 构建了它，我希望您的诚实反馈！请让我知道您是否会发现此工具有用，并且是否有任何能够真正脱颖而出的功能。谢谢！
-
-注释URL： https://news.ycombinator.com/item?id=44731392 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://quickreport-v1.vercel.app/</guid>
-      <pubDate>Wed, 30 Jul 2025 06:29:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在2025年加速WordPress网站</title>
-      <link>https://themedev.net/blog/how-to-speed-up-wordpress-site/</link>
-      <description><![CDATA[文章url： https://themedev.net/blog/blog/blog/how-to-peed-peed-peed-peed-peed-peed-peed-up-wordpress-site/      
-注释URL： https://news.ycombinator.com/item？id=44731384 
+      <title>古代DNA：早期埃及人与美索不达米亚人之间令人惊讶的遗传联系</title>
+      <link>https://www.cnn.com/2025/07/02/science/ancient-egyptian-genome-sequenced</link>
+      <description><![CDATA[文章url： https://www.cnn.com/2025/2025/2025/07/07/02/02/02/science/cience/cience/ancient/ancient-cient-cient-ecient-egyptian-getptian-genmecded 
+注释URL： https://news.ycombinator.com/item?id=44732304 
 点：1 
 ＃评论：1 ]]></description>
-      <guid>https://themedev.net/blog/how-to-speed-up-wordpress-site/</guid>
-      <pubDate>Wed, 30 Jul 2025 06:28:39 GMT</pubDate>
+      <guid>https://www.cnn.com/2025/07/02/science/ancient-egyptian-genome-sequenced</guid>
+      <pubDate>Wed, 30 Jul 2025 09:22:19 GMT</pubDate>
     </item>
     <item>
-      <title>液体玻璃反应</title>
-      <link>https://github.com/rdev/liquid-glass-react</link>
-      <description><![CDATA[文章URL： https://github.com/rdev/rdev/liquid-glass-glass-reakct   
-注释url： https://news.ycombinator.com/item?id=44731377 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://github.com/rdev/liquid-glass-react</guid>
-      <pubDate>Wed, 30 Jul 2025 06:27:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Apatilly  - 用于GO的简单API监视和分析工具</title>
-      <link>https://github.com/apitally/apitally-go</link>
-      <description><![CDATA[ g’day黑客新闻，我是西蒙·古尔克（Simon Gurcke），唯一的创始人（我以前从未在Go中建造任何东西，因此这对我来说是一个很好的学习机会。到目前为止，SDK已经经过了一些迭代，我很舒服，可以为广泛的生产使用准备。它具有良好的测试覆盖范围，并且针对不同版本的GO和受支持的框架具有广泛的测试矩阵。值得注意的特征包括：  - 对API使用，错误和性能的指标和见解，对于整个API，每个端点和单个API消费者。用户可以从汇总指标到单个请求进行钻探，事实证明，在解决问题时，这些请求非常有用。  - 正常运行时间监视和基于各种API流量，错误和性能指标，并通过电子邮件，Slack或Microsoft Teams提供通知的各种API流量和绩效指标。当时它只支持Python和Node.js。现在，我也希望也能达到GO社区。 apation构建的动机来自我对现有的监视工具的挫败感，这对于以API为中心的用例来说太复杂了，而且通常是痛苦的。因此，我非常重视尽可能简单地保持空位，并完全专注于REST API。有14天的免费试用版，仪表板具有演示模式，因此用户可以探索它而无需设置自己的应用程序。我路线图上的下一个大项目之一是支持opentelemetry用于应用程序日志和痕迹。 。
+      <title>show hn：dfembed是一种由生锈的python lib，将数据框变成矢量db</title>
+      <link>https://github.com/a-agmon/dfembeder</link>
+      <description><![CDATA[ df嵌入器是一个高性能的python库（带有生锈的后端），用于索引和嵌入apache箭头兼容数据范围（例如极点或熊猫）基于Lance Files的低延迟矢量数据库。
 
-注释url： https://news.ycombinator.com/item？id=44731347 
+注释URL： https://news.ycombinator.com/item？id=447322288 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://github.com/apitally/apitally-go</guid>
-      <pubDate>Wed, 30 Jul 2025 06:20:51 GMT</pubDate>
+      <guid>https://github.com/a-agmon/dfembeder</guid>
+      <pubDate>Wed, 30 Jul 2025 09:19:42 GMT</pubDate>
     </item>
     <item>
-      <title>明尼苏达州在圣保罗网络攻击之后激活国民警卫队</title>
-      <link>https://www.bleepingcomputer.com/news/security/minnesota-activates-national-guard-after-st-paul-cyberattack/</link>
-      <description><![CDATA[文章URL： https://www.bleepingcomputer.com/news/security/minnesota-activates-national-guard-after-s-paul-cyberattack/  
-注释url： https://news.ycombinator.com/item?id=44731323 
+      <title>您如何处理数据库迁移的GIT分支？</title>
+      <link>https://www.harness.io/blog/how-git-strategy-can-break-your-database-pipeline</link>
+      <description><![CDATA[文章url： https://wwwww.harness.io oio/blog/blog/blog/
+注释url： https://news.ycombinator.com/item?id=447322277 
+点：1 
+＃评论：1 ]]></description>
+      <guid>https://www.harness.io/blog/how-git-strategy-can-break-your-database-pipeline</guid>
+      <pubDate>Wed, 30 Jul 2025 09:18:39 GMT</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>https://fluxus.io/article/why-the-ai-bubble-isnt-a-bubble</link>
+      <description><![CDATA[文章URL： https：///fluxus.io/article/article/why-the-the-the-the-the-the--ai-bubble-isnt-isnt-a-bubble  
+注释url： https://news.ycombinator.com/item?id=447322269 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.bleepingcomputer.com/news/security/minnesota-activates-national-guard-after-st-paul-cyberattack/</guid>
-      <pubDate>Wed, 30 Jul 2025 06:17:49 GMT</pubDate>
+      <guid>https://fluxus.io/article/why-the-ai-bubble-isnt-a-bubble</guid>
+      <pubDate>Wed, 30 Jul 2025 09:17:54 GMT</pubDate>
     </item>
     <item>
-      <title>阿里巴巴开源WAN2.2：27B-PARAM MOE视频模型，720 P 24 fps在4090</title>
-      <link>https://www.wan-ai.co</link>
-      <description><![CDATA[文章URL： https://www.wan-ai.co   
-注释url： https://news.ycombinator.com/item?id=44731317 
+      <title>[用户删除]</title>
+      <link>https://harness.io/blog/gitops-branching-for-database-devops</link>
+      <description><![CDATA[文章URL： https://harness.io/blog/glog/gitops-branching-for-database-database-devops 
+评论url： https://news.ycombinator.com/item?id=4473322253 
+点：1 
+＃评论：1 ]]></description>
+      <guid>https://harness.io/blog/gitops-branching-for-database-devops</guid>
+      <pubDate>Wed, 30 Jul 2025 09:14:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>分析显示了小型模块反应器的竞争性LCOE目标</title>
+      <link>https://www.nucnet.org/news/analysis-shows-competitive-lcoe-target-for-small-modular-reactors-7-3-2025</link>
+      <description><![CDATA[文章URL： https://www.nucnet.org/news/analysis-shows-competistive-lcoe-target-for-small-small-modular-modactor-7-3-2025  
+注释URL： https://news.ycombinator.com/item？id=4473322225 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.nucnet.org/news/analysis-shows-competitive-lcoe-target-for-small-modular-reactors-7-3-2025</guid>
+      <pubDate>Wed, 30 Jul 2025 09:09:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我建立了一个免费的反向链接交易所市场</title>
+      <link>https://launchigniter.com/link-exchange</link>
+      <description><![CDATA[文章URL： https://launchigniter.com/link-exchange  
+注释url： https://news.ycombinator.com/item./item?id=447322216 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://launchigniter.com/link-exchange</guid>
+      <pubDate>Wed, 30 Jul 2025 09:08:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bitchat网格</title>
+      <link>https://apps.apple.com/us/app/bitchat-mesh/id6748219622</link>
+      <description><![CDATA[文章URL： https://apps.apple.com/us/app/bitchat/bitchat/bitchat-mesh/id6748219622 
+注释URL： https://news.ycombinator.com/item？id=44732208 
 点：2 
-＃评论：1 ]]></description>
-      <guid>https://www.wan-ai.co</guid>
-      <pubDate>Wed, 30 Jul 2025 06:16:45 GMT</pubDate>
+＃评论：0 ]]></description>
+      <guid>https://apps.apple.com/us/app/bitchat-mesh/id6748219622</guid>
+      <pubDate>Wed, 30 Jul 2025 09:06:23 GMT</pubDate>
     </item>
     <item>
-      <title>FlexFlex字体</title>
-      <link>https://ronikaufman.github.io/flexflex/</link>
-      <description><![CDATA[文章URL： https://ronikaufman.github.io/flexflexflex/   
-注释url： https://news.ycombinator.com/item?id=4473131313 
-点：1 
-＃评论：1 ]]></description>
-      <guid>https://ronikaufman.github.io/flexflex/</guid>
-      <pubDate>Wed, 30 Jul 2025 06:15:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>穿越地狱的旅行</title>
-      <link>https://www.thenation.com/article/society/solitary-confinement-christopher-blackwell/</link>
-      <description><![CDATA[Article URL: https://www.thenation.com/article/society/solitary-confinement-christopher-blackwell/
-注释URL： https://news.ycombinator.com/item?id=44731308 
+      <title>与AI/ML API集成的APISIX集成</title>
+      <link>https://apisix.apache.org/blog/2025/07/29/announcing-integration-of-apisix-and-ai-ml-api/</link>
+      <description><![CDATA[文章URL：https://apisix.apache.org/blog/2025/07/29/announcing-integration-of-apisix-and-ai-ml-api/
+注释URL： https://news.ycombinator.com/item?id=44732203 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.thenation.com/article/society/solitary-confinement-christopher-blackwell/</guid>
-      <pubDate>Wed, 30 Jul 2025 06:15:36 GMT</pubDate>
+      <guid>https://apisix.apache.org/blog/2025/07/29/announcing-integration-of-apisix-and-ai-ml-api/</guid>
+      <pubDate>Wed, 30 Jul 2025 09:05:49 GMT</pubDate>
     </item>
     <item>
-      <title>负担得起的网络托管</title>
-      <link>https://news.ycombinator.com/item?id=44731301</link>
-      <description><![CDATA[ Cloud Mail Store提供具有可靠的性能，出色的正常运行时间和用户友好功能的负担得起的Web托管解决方案。他们的计划非常适合小型企业和个人网站，包括免费的SSL，SSD存储和24/7支持。享受具有成本效益的托管，而不会损害速度或安全性。立即开始您的在线旅程！ https://www.cloudmailstore.com/hosting.php 
-
-注释URL： https://news.ycombinator.com/item?id=44731301 
+      <title>具有推理网关的Kubernetes中的自动A2A服务发现</title>
+      <link>https://github.com/inference-gateway/inference-gateway/tree/main/examples/kubernetes/a2a</link>
+      <description><![CDATA[Article URL: https://github.com/inference-gateway/inference-gateway/tree/main/examples/kubernetes/a2a
+注释url： https://news.ycombinator.com/item?id=44732198 
 点：1 
-＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=44731301</guid>
-      <pubDate>Wed, 30 Jul 2025 06:14:39 GMT</pubDate>
+＃评论：1 ]]></description>
+      <guid>https://github.com/inference-gateway/inference-gateway/tree/main/examples/kubernetes/a2a</guid>
+      <pubDate>Wed, 30 Jul 2025 09:05:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
