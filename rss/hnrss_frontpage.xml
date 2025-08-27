@@ -4,15 +4,49 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 27 Aug 2025 01:24:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 Aug 2025 03:36:12 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：Regolith  - 防止重做CVE的REGEX库</title>
+      <link>https://github.com/JakeRoggenbuck/regolith</link>
+      <description><![CDATA[我想要使用线性时间引擎的打字稿的Regexp更安全的替代方案，因此我构建了Regolith。原因：
+发生了许多CVE，因为打字稿库容易受到正则表达拒绝服务攻击的影响。我在进行本科研究时了解了这个问题，发现像Rust这样的语言具有内置的保护，但是JavaScript，Typescript和Python等语言没有。该图书馆试图减轻这些typectript和javaScript的这些漏洞。如何：
+Regolith在引擎盖下使用Rust的Regex库来防止重做攻击。 Rust Regex库实现了线性时间正则发动机，可确保线性复杂性的执行。当提供了恶意输入时，会发生重做攻击，这会导致普通的正则发动机检查过多的重叠配置中的匹配字符串。这会导致发动机花费很长时间来计算正则发动机，这可能会导致服务延迟或停机时间。通过设计引擎最多需要线性的时间，我们可以防止在图书馆级别上进行这些攻击，并让软件继承这些安全属性。我真的很着迷于使编程语言更安全，我很想听到有关如何改善该项目的任何反馈。我会尝试回答评论中发布的所有问题。谢谢！
+-Jake Roggenbuck 
+
+注释URL： https://news.ycombinator.com/item？id=45034957 
+点：5 
+＃评论：1 ]]></description>
+      <guid>https://github.com/JakeRoggenbuck/regolith</guid>
+      <pubDate>Wed, 27 Aug 2025 02:54:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>解剖Apple M1 GPU，结束</title>
+      <link>https://rosenzweig.io/blog/asahi-gpu-part-n.html</link>
+      <description><![CDATA[文章URL： https://rosenzweig.io/blog/blog/blog/asahi-gpu-put-put-put-par-par-par-par-par-par-par-par-par-par-par--par--par-par-par-par--par--par--par--par-par-par-par-par--par-n.html  
+注释URL： https://news.ycombinator.com/item?id=45034537 
+点：106 
+＃评论：22 ]]></description>
+      <guid>https://rosenzweig.io/blog/asahi-gpu-part-n.html</guid>
+      <pubDate>Wed, 27 Aug 2025 01:44:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>工作中的游戏理论：何时说话和何时闭嘴（2024）</title>
+      <link>https://swaits.com/game-theory-at-work-and-when-to-shutup/</link>
+      <description><![CDATA[文章URL： https://swaits.com/game/game-therory-twork-twork-twork-work-when-when-when-when-when-when-when to-shutup/     
+注释URL： https://news.ycombinator.com/item?id=450343033 
+点：11 
+＃评论：2 ]]></description>
+      <guid>https://swaits.com/game-theory-at-work-and-when-to-shutup/</guid>
+      <pubDate>Wed, 27 Aug 2025 01:10:56 GMT</pubDate>
+    </item>
     <item>
       <title>星际飞船的第十次飞行测试</title>
       <link>https://www.spacex.com/</link>
       <description><![CDATA[ youtube： https://www.youtube.com/watch?v
 
 注释URL： https://news.ycombinator.com/item？id=45033563 
-点：137 
-＃评论：61 ]]></description>
+点：220 
+＃评论：117 ]]></description>
       <guid>https://www.spacex.com/</guid>
       <pubDate>Tue, 26 Aug 2025 23:22:14 GMT</pubDate>
     </item>
@@ -22,8 +56,8 @@
       <description><![CDATA[论文： https://arxiv.org/abs/2408.08513  rel =“ nofollow”&gt; https://arxiv.org/abs/2508.10657  
 
 注释URL： https://news.ycombinator.com/item?id=450333114 
-点：83 
-＃评论：62 ]]></description>
+点：119 
+＃评论：114 ]]></description>
       <guid>https://www.iflscience.com/the-wow-signal-was-likely-from-an-extraterrestrial-source-and-more-powerful-than-we-thought-80561</guid>
       <pubDate>Tue, 26 Aug 2025 22:25:06 GMT</pubDate>
     </item>
@@ -32,8 +66,8 @@
       <link>https://www.ietf.org/archive/id/draft-abaris-aicdh-00.html</link>
       <description><![CDATA[文章URL： https://www.ietf.org/archive/archive/archive/Id/draft-aft-/draft-aft-/draft-abaris-abaris-abaris-aicicdh-aicicdh-00.html 
 注释URL： https://news.ycombinator.com/item?id=45032360 
-点：37 
-＃评论：22 ]]></description>
+点：52 
+＃评论：32 ]]></description>
       <guid>https://www.ietf.org/archive/id/draft-abaris-aicdh-00.html</guid>
       <pubDate>Tue, 26 Aug 2025 21:08:34 GMT</pubDate>
     </item>
@@ -52,8 +86,8 @@
       <link>https://www.polarsignals.com/blog/posts/2025/08/26/das-problem-mit-german-strings</link>
       <description><![CDATA[文章URL： https://wwwwwww.polarsignals.com/blog/blog/posts/posts/posts/posts/2025/2025/2025/26/26/das-problem-mitblemborblemblemblemblemblemblembembemborblembemberblem-ma&gt;       
 注释URL： https://news.ycombinator.com/item？id=450322261 
-点：22 
-＃评论：6 ]]></description>
+点：30 
+＃评论：9 ]]></description>
       <guid>https://www.polarsignals.com/blog/posts/2025/08/26/das-problem-mit-german-strings</guid>
       <pubDate>Tue, 26 Aug 2025 20:59:35 GMT</pubDate>
     </item>
@@ -62,20 +96,10 @@
       <link>https://artanis.dev/index.html</link>
       <description><![CDATA[文章URL： https://artanis.dev/index.html  
 注释URL： https://news.ycombinator.com/item?id=45031673 
-点：140 
-＃评论：25 ]]></description>
+点：171 
+＃评论：30 ]]></description>
       <guid>https://artanis.dev/index.html</guid>
       <pubDate>Tue, 26 Aug 2025 20:06:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>当东道国召唤大使时会发生什么？</title>
-      <link>https://politics.stackexchange.com/questions/93401/what-happens-when-ambassadors-are-summoned-by-the-foreign-ministry-of-their-host</link>
-      <description><![CDATA[文章URL： 
-注释URL： https://news.ycombinator.com/item?id=45031496 
-点：113 
-＃评论：69 ]]></description>
-      <guid>https://politics.stackexchange.com/questions/93401/what-happens-when-ambassadors-are-summoned-by-the-foreign-ministry-of-their-host</guid>
-      <pubDate>Tue, 26 Aug 2025 19:52:36 GMT</pubDate>
     </item>
     <item>
       <title>Claude for Chrome</title>
@@ -83,30 +107,10 @@
       <description><![CDATA[另请参见 https://claude.ai/chrome   
 
 注释URL： https://news.ycombinator.com/item?id=45030760 
-点：401 
-＃评论：254 ]]></description>
+点：468 
+＃评论：275 ]]></description>
       <guid>https://www.anthropic.com/news/claude-for-chrome</guid>
       <pubDate>Tue, 26 Aug 2025 19:01:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>“特殊登记小组”入侵了计算机词典数十年（2019年）</title>
-      <link>https://www.righto.com/2019/10/how-special-register-groups-invaded.html</link>
-      <description><![CDATA[文章URL： https://wwww..righto.com/2019/2019/10/10/10/how-special-register-register-register-groups-inger-groups-ingllll prep 
-注释URL： https://news.ycombinator.com/item?id=45030714    
-点：59 
-＃评论：26 ]]></description>
-      <guid>https://www.righto.com/2019/10/how-special-register-groups-invaded.html</guid>
-      <pubDate>Tue, 26 Aug 2025 18:57:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>人们为什么继续写关于虚构复合CR2GR2TE6的文章？</title>
-      <link>https://www.righto.com/2025/08/Cr2Ge2Te6-not-Cr2Gr2Te6.html</link>
-      <description><![CDATA[文章url： https://wwwww.righto.com/2025/08/cr2ge2ge2ge2ge2ge2te6-not-cr2gr-cr2gr2gr2gr2gr2gr2gr2gr2gr2te6.htm 
-评论URL： https://news.ycombinator.com/item?id=45030144    
-点：133 
-＃评论：69 ]]></description>
-      <guid>https://www.righto.com/2025/08/Cr2Ge2Te6-not-Cr2Gr2Te6.html</guid>
-      <pubDate>Tue, 26 Aug 2025 18:07:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
