@@ -4,112 +4,105 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Sun, 07 Sep 2025 12:34:39 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Sep 2025 15:17:08 GMT</lastBuildDate>
     <item>
-      <title>GWERN·gwern.net撰写的D＆D桌面会议</title>
-      <link>https://gwern.net/blog/2025/conference</link>
-      <description><![CDATA[文章URL： https://gwern.net/blog/2025/2025/conference   
-评论url： https://news.ycombinator.com/item?id=451575580 
+      <title>最有效的财务组合的三种成分</title>
+      <link>https://portfoliocharts.com/2021/12/16/three-secret-ingredients-of-the-most-efficient-portfolios/</link>
+      <description><![CDATA[文章URL：https://portfoliocharts.com/2021/12/16/three-secret-ingredients-of-the-most-efficient-portfolios/
+注释URL： https://news.ycombinator.com/item?id=451588820 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://gwern.net/blog/2025/conference</guid>
-      <pubDate>Sun, 07 Sep 2025 12:26:50 GMT</pubDate>
+      <guid>https://portfoliocharts.com/2021/12/16/three-secret-ingredients-of-the-most-efficient-portfolios/</guid>
+      <pubDate>Sun, 07 Sep 2025 15:04:27 GMT</pubDate>
     </item>
     <item>
-      <title>是什么真正造成了Sriracha短缺？ （2024）</title>
-      <link>https://fortune.com/2024/01/30/sriracha-shortage-huy-fong-foods-tabasco-underwood-ranches/</link>
-      <description><![CDATA[Article URL: https://fortune.com/2024/01/30/sriracha-shortage-huy-fong-foods-tabasco-underwood-ranches/
-评论url： https://news.ycombinator.com/item?id=451575567 
+      <title>SQLite对TCL的使用</title>
+      <link>https://www.tcl-lang.org/community/tcl2017/assets/talk93/Paper.html</link>
+      <description><![CDATA[文章url： https://www.tcl-lang.org.org/community/community/community/tcl2l2l2l2l2l2l2017/assets/talk/talk/talk/talk/talk/talk/talk/talk/talk/paper/paper/paper/paper/paper/paper/paper/paper/paperparperaper 注释url： https://news.ycombinator.com/item？id=451588814 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://fortune.com/2024/01/30/sriracha-shortage-huy-fong-foods-tabasco-underwood-ranches/</guid>
-      <pubDate>Sun, 07 Sep 2025 12:24:25 GMT</pubDate>
+      <guid>https://www.tcl-lang.org/community/tcl2017/assets/talk93/Paper.html</guid>
+      <pubDate>Sun, 07 Sep 2025 15:03:46 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：VDPR  - 我挖掘YouTube以找到产品创意（也非常适合数字）</title>
-      <link>https://www.vdpr.ai/</link>
-      <description><![CDATA[我构建了VDPR。您给它一个利基和视频限制。它提取成绩单，发现重复的问题和动作，并将它们变成排名的产品创意，并通过链接回到视频。诸如“这在哪里？”之类的评论。通常指向缺失的目录。 “那是什么应用/模板？”建议模板，插件或小型SaaS。 “有分步吗？” →课程或指南。示例：在“家庭/宠物”通行证中，由于室内无聊，夜间噪音和玩具疲劳，互动猫玩具浮出水面（在23个视频中有100多个提及）。物理角度：安静/夜间模块，模块化轨道。数字角度：具有噪声评级的公寓安全齿轮目录或“室内富集”指南。现在的作用（v1）
- •搜索利基市场，提取成绩单，提取问题和动作
- •提出想法（物理 +数字）并将其排名
- •展示为什么一个想法得分（出处）接下来是什么
- •评论分析
- •高级搜索过滤器（查看范围，包括/排除）
- •光富集（趋势/SEO/Amazon信号）反馈欢迎：您最信任哪些信号？如果您共享一个利基市场，我将使用一个小型的迷你报告（2个问题，3个想法）。
+      <title>你有氛围，你运行它吗？</title>
+      <link>https://uptimelabs.io/you-vibe-it-you-run-it/</link>
+      <description><![CDATA[文章URL： https://uptimelabs.io/you-you-vibe-it-it-iit-it-iit-it-you-run-it/      
+注释url： https://news.ycombinator.com/item？id=45158798 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://uptimelabs.io/you-vibe-it-you-run-it/</guid>
+      <pubDate>Sun, 07 Sep 2025 15:02:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Beelzebub（OSS） -  AI代理的MCP“金丝雀工具”</title>
+      <link>https://news.ycombinator.com/item?id=45158776</link>
+      <description><![CDATA[我们是通过MCP Honeypots向AI代理添加“金丝雀工具”的简单方法。这些是您的代理在正常操作期间绝不应致电的功能。 If a canary is invoked, you get a high-fidelity signal of prompt-injection, tool hijacking, or lateralization—no heuristics, no extra model calls.What it is:- Go framework exposing decoy tools over MCP that look legitimate (names/params/descriptions), return safe dummy output, and emit telemetry when invoked.- Runs alongside your real tools;将事件运送到stdout/webhook或您的管道（Prometheus/Grafana，Elk）。为什么会有所帮助：代理日志显示发生了什么；金丝雀标志着不可能发生的事情。单个绊倒是妥协的直接，低噪声的指标。现实世界中的相关性（NX攻击）：最近关于NX NPM供应链事件（“ S1ngularity”）的报告显示，恶意版本显示了SSH键，代价和其他杂物的cla claude claude claude claude cla cl a AI助手在软件供应链攻击中被武器化的案例。如果您的IDE代理（Claude Code或Gemini Code/CLI）已注册了金丝雀工具 - 例如，一个假的“导出秘密”或“ repo exfil”动作 - 任何未经授权的工具呼叫都会触发该事件期间的确定性警报。 href =“ https://github.com/mariocandela/beelzebub” rel =“ nofollow”&gt; https://github.com/mariocandela/mariocandela/beelzebub  rel =“ nofollow”&gt; https：//beelzebub-honeypot.com/blog/securing-ai-agents-with--...   需要反馈！ ：）
 
-注释URL： https://news.ycombinator.com/item?id=451575531 
-点：1 
+注释url： https://news.ycombinator.com/item?id=45158776 
+点：5 
 ＃评论：0 ]]></description>
-      <guid>https://www.vdpr.ai/</guid>
-      <pubDate>Sun, 07 Sep 2025 12:18:37 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45158776</guid>
+      <pubDate>Sun, 07 Sep 2025 15:00:29 GMT</pubDate>
     </item>
     <item>
-      <title>舒适的引擎</title>
-      <link>https://comfyengine.org/</link>
-      <description><![CDATA[文章URL： https://comfyengine.org/  
-注释url： https://news.ycombinator.com/item？id=45157522 
+      <title>人脑中的视觉表示与LLM对齐</title>
+      <link>https://www.nature.com/articles/s42256-025-01072-0</link>
+      <description><![CDATA[文章url：评论url： https://news.ycombinator.com/item?id=45158769 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://comfyengine.org/</guid>
-      <pubDate>Sun, 07 Sep 2025 12:17:41 GMT</pubDate>
+      <guid>https://www.nature.com/articles/s42256-025-01072-0</guid>
+      <pubDate>Sun, 07 Sep 2025 14:59:38 GMT</pubDate>
     </item>
     <item>
-      <title>美国共产党（2024年）</title>
-      <link>https://en.wikipedia.org/wiki/American_Communist_Party_(2024)</link>
-      <description><![CDATA[文章url：注释url： https://news.ycombinator.com/item?id=45157515 
+      <title>广告/</title>
+      <link>https://wgx.github.io/adno/</link>
+      <description><![CDATA[文章URL： https://wgx.github.io/adno/  
+注释URL： https://news.ycombinator.com/item？id=45158768 
+点：2 
+＃评论：0 ]]></description>
+      <guid>https://wgx.github.io/adno/</guid>
+      <pubDate>Sun, 07 Sep 2025 14:59:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>使儿童和青少年促进社交行为的神经元在成年</title>
+      <link>https://news.yale.edu/2025/09/03/quitting-time-neurons-drive-sociable-behavior-children-and-teens-turn-adulthood</link>
+      <description><![CDATA[文章URL： https://news.yale.edu/2025/09/03/quitting time-neurons-drive-sociable-behavior-children-and-children-and-children-and-teens-turn-adun-adun-adulthood  
+注释url： https://news.ycombinator.com/item?id=45158765 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://en.wikipedia.org/wiki/American_Communist_Party_(2024)</guid>
-      <pubDate>Sun, 07 Sep 2025 12:16:33 GMT</pubDate>
+      <guid>https://news.yale.edu/2025/09/03/quitting-time-neurons-drive-sociable-behavior-children-and-teens-turn-adulthood</guid>
+      <pubDate>Sun, 07 Sep 2025 14:59:18 GMT</pubDate>
     </item>
     <item>
-      <title>询问HN：分散的无信任系统中的数据完整性</title>
-      <link>https://news.ycombinator.com/item?id=45157509</link>
-      <description><![CDATA[嗨，我正在为当地社区的投票系统，人们将使用其智能手机，平板电脑或计算机投票。他们此前以URL中的访问密钥的方式收到了指向投票表格的链接。 “部分”是因为某人仍然可以强迫别人按照他的意愿进行投票。为此，我的想法是允许多次投票，但具有基于智力的投票：仅在数据库中记录了第一票或最后一票。 “您可以像您想要的那样给我5美元的投票，一旦回家，我投票给我想要的那个。代码审核（ + CI/CD审核 + DNS记录审核）可以帮助您。我的想法：每个方（NGO 1，NGO 2，大学1，大学2等）部署API及其数据库。源代码显然是打开的。然后，代理接收HTTP请求并将其转发到每个API。目的是达到最终的一致性。可能发生故障，如果在大学1中部署的API是无法实现的，那么一些数据将在其数据库中缺少。代理级别的重试策略只能在短时间网络故障（不在几分钟或小时的停电中）有所帮助。如果在大量数据上达成共识（示例：数据库的2/3在每个1小时内具有相同的数据），那么我们可以达到最终的一致性。代理成为弱链接。每个方必须为了审计目的访问其配置，并且还必须访问DNS记录。在目前，选民不必了解所有这些详细信息，他们信任系统，因为他们信任参加的当事方。您认为什么？谢谢！！
-
-注释URL： https://news.ycombinator.com/item?id=45157509 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=45157509</guid>
-      <pubDate>Sun, 07 Sep 2025 12:15:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>语义线断裂</title>
-      <link>https://sembr.org</link>
-      <description><![CDATA[文章URL： https://sembr.org  
-注释URL： https://news.ycombinator.com/item？id=45157505 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://sembr.org</guid>
-      <pubDate>Sun, 07 Sep 2025 12:14:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>热带森林砍伐与相当与热有关的死亡率有关</title>
-      <link>https://www.nature.com/articles/s41558-025-02411-0</link>
-      <description><![CDATA[文章url：注释URL： https://news.ycombinator.com/item？id=45157503 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.nature.com/articles/s41558-025-02411-0</guid>
-      <pubDate>Sun, 07 Sep 2025 12:14:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>希尔伯特空间：将功能视为向量</title>
-      <link>https://eli.thegreenplace.net/2025/hilbert-space-treating-functions-as-vectors/</link>
-      <description><![CDATA[文章url： https://eli.thegreenplace.net/2025/2025/2025/2025/hilbert-space-pace--hilbert-space-treateating-functions-functions-functions-functions-punctions-punctions-py&gt;
-评论url： https://news.ycombinator.com/item?id=45157495 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://eli.thegreenplace.net/2025/hilbert-space-treating-functions-as-vectors/</guid>
-      <pubDate>Sun, 07 Sep 2025 12:12:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Feox服务器 - 高性能，REDIS的置换式替换</title>
-      <link>https://github.com/mehrantsi/feox-server</link>
-      <description><![CDATA[文章URL： https://github.com/mehrantsi/feox-server   
-注释url： https://news.ycombinator.com/item?id=45157493 
+      <title>Fragnantica，无关紧要的评论和利基网络空间的喜悦（2024）</title>
+      <link>https://www.polyesterzine.com/features/fragrantica-unhinged-reviews-and-the-joy-of-niche-internet-spaces</link>
+      <description><![CDATA[文章URL：https://www.polyesterzine.com/features/fragrantica-unhinged-reviews-and-the-joy-of-niche-internet-spaces
+注释url： https://news.ycombinator.com/item?id=45158732 
 点：1 
 ＃评论：1 ]]></description>
-      <guid>https://github.com/mehrantsi/feox-server</guid>
-      <pubDate>Sun, 07 Sep 2025 12:12:40 GMT</pubDate>
+      <guid>https://www.polyesterzine.com/features/fragrantica-unhinged-reviews-and-the-joy-of-niche-internet-spaces</guid>
+      <pubDate>Sun, 07 Sep 2025 14:57:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究发现肥胖的主要根本原因</title>
+      <link>https://nypost.com/2023/10/25/health/fructose-targeted-a-major-root-cause-of-obesity-study/</link>
+      <description><![CDATA[文章URL：https://nypost.com/2023/10/25/health/fructose-targeted-a-major-root-cause-of-obesity-study/
+注释url： https://news.ycombinator.com/item./item?id=45158714 
+点：2 
+＃评论：0 ]]></description>
+      <guid>https://nypost.com/2023/10/25/health/fructose-targeted-a-major-root-cause-of-obesity-study/</guid>
+      <pubDate>Sun, 07 Sep 2025 14:55:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>青少年编码器成为第一个千禧一代天主教徒圣人</title>
+      <link>https://www.reuters.com/world/teen-coder-made-first-millennial-catholic-saint-youthful-vatican-event-2025-09-07/</link>
+      <description><![CDATA[文章URL：” https://www.reuters.com/world/teen-coder-made-first-millennial-catholic-saint-saint-saint-youthful-vatican-event-2025-09-07/  
+注释url： https://news.ycombinator.com/item?id=45158692 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.reuters.com/world/teen-coder-made-first-millennial-catholic-saint-youthful-vatican-event-2025-09-07/</guid>
+      <pubDate>Sun, 07 Sep 2025 14:52:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
