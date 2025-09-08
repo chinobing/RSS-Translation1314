@@ -4,34 +4,65 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Mon, 08 Sep 2025 06:30:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2025 09:22:30 GMT</lastBuildDate>
     <item>
-      <title>大公司的AI采用率下降了</title>
-      <link>https://www.apolloacademy.com/ai-adoption-rate-trending-down-for-large-companies/</link>
-      <description><![CDATA[文章url： https://wwwww.apolloacademy.com/apolloacademy.com/ai-ai-ab ad-adoption-aption-adoption-doption-down-down-down-down-down-forndend-down-forgor-large-compan/p&gt;，
-注释URL： https://news.ycombinator.com/item?id=45165019 
+      <title>Show HN：Theauditor  -  AI生成的代码的离线安全扫描仪</title>
+      <link>https://github.com/TheAuditorTool/Auditor</link>
+      <description><![CDATA[我是一名基础架构建筑师，他开始使用AI助手3个月前编写代码。 
+在用克劳德（Claude）构建了多个系统之后，我注意到了一个模式：代码总是有安全问题，我可以从OPS背景中发现的安全问题，但是由于我实际上无法编写代码，所以我无法自己修复它们。为什么构建了这一点：我需要一种方法来验证AI生成的代码是生产安全的。 
+现有工具要么需要上传云（隐私问题），要么在AI上下文窗口中产生的输出太大。 
+Theauditor解决了这两个问题 - 它完全离线运行，并将发现成分分成65KB的段，这些段适合于Claude/gpt-4上下文限制。我发现的内容：对实际项目进行测试，Theauditor始终发现50-200+ AI生成的代码中的50-200+漏洞。 
+模式非常一致：
+-SQL查询使用F-string而不是参数化
+ - 硬编码的秘密（JWT_Secret =“秘密”几乎出现在每个项目中）
+ - 缺少关键端点的身份验证
+ - 使用在重新启动技术方法上重置的内存存储限制速率：Theauditor并行运行14个分析阶段，包括污点分析（跟踪从用户输入到危险的水槽的数据），与100多个安全规则的模式匹配，以及编排行业工具（Eslint，Ruff，Mypy，Mypy，Bandit）。 
+所有内容都将输出为LLM消费优化的结构化JSON。必须实现模式偏差以减少误报。当前用法：在任何Python/JS/TS项目中运行AUD。它在.pf/readthis/中生成完整的安全审核。 
+然后，AI可以阅读这些报告并修复其自身的漏洞。我已经看到项目从3-4次迭代中的185个关键问题变为零。 
+它提供了AI需要自我纠正的“基础真理”。会感谢反馈：
+ -  AI生成的代码中常见的其他漏洞模式
+ - 处理防病毒假病假问题的更好方法
+ - 不同的AI编码工作流的集成想法感谢您的查看！ /theauditortool 
+
+注释url： https://news.ycombinator.com/item?id=45165897 
 点：6 
-＃评论：1 ]]></description>
-      <guid>https://www.apolloacademy.com/ai-adoption-rate-trending-down-for-large-companies/</guid>
-      <pubDate>Mon, 08 Sep 2025 05:56:48 GMT</pubDate>
+＃评论：0 ]]></description>
+      <guid>https://github.com/TheAuditorTool/Auditor</guid>
+      <pubDate>Mon, 08 Sep 2025 08:28:15 GMT</pubDate>
     </item>
     <item>
-      <title>“使无效的国家无法说明”被认为有害</title>
-      <link>https://www.seangoedecke.com/invalid-states/</link>
-      <description><![CDATA[文章URL： https://www.seangoedecke.com/invalid-states/   
-注释URL： https://news.ycombinator.com/item./item?id=451644444 
-点：41 
-＃评论：36 ]]></description>
-      <guid>https://www.seangoedecke.com/invalid-states/</guid>
-      <pubDate>Mon, 08 Sep 2025 03:40:02 GMT</pubDate>
+      <title>Show HN：Veena色调调谐器</title>
+      <link>https://play.google.com/store/apps/details?id=in.magima.digitaltuner&hl=en_US</link>
+      <description><![CDATA[我们很乐意介绍Veena色调，这是我们为音乐家，乐器制造商和民族音乐学家开发的应用程序，这些应用不仅需要标准的色调调谐器。我们的目标是创建一个工具，该工具不仅支持音调检测，还为各种音乐语调系统提供了深厚的支持，并提供了直观的视觉反馈。我们正在解决的问题：
+许多调谐器都适合同等气质，但是在公正语调，微音调音乐或诸如VEENA的特定要求方面的支持有限。示波器样视觉反馈：
+而不是仅仅是针，您会得到动态的，示波器样的波形显示。
+尖锐：波形向右旋转。
+平坦：波形左转。
+我们了解音乐不仅是12节。这对于实现相等气质的丰富，共鸣和旋律纯度至关重要。自定义的气质：超越预设！使用个性化比率设置创建，保存和管理自己独特的气质。这使作曲家，研究人员和表演者能够轻松地探索微尺度和历史调谐。此功能对于仪器制造商和研究弦乐器物理学的人是无价的。其他关键特征：多文化音符命名命名：西方，印度古典（Carnatic/Hindustani）中的显示注释，并支持多个印度语言脚本（泰米尔语，Devanagari，telugu，kannada，MalayaDa，MalayaDe plact of Placts）。 440Hz至432Hz或两者之间的任何内容。换位支持：容易为不同乐器进行转置注释。此应用程序对弦乐器（Veena，Veena，tilein，tialin，guitar，sitar，sitar等），风乐器音乐家，歌手，歌手，音乐老师，音乐老师，学生，学生，尤其是众多乐器的创造者，以及需要仪器的工作人员和fort inters with in infet interication和Pretise fret frite interiase和Pretise frite frite interinon和Pretise frite。任何探索微型音乐的人都会发现它非常有用。我们正在积极开发该应用程序，不断添加功能和改进。虽然音调检测是资源密集型的，但我们努力争取广泛的设备兼容性。在Google Play上查看它：[
+
+注释url： https://news.ycombinator.com/item?id=45165245 
+点：26 
+＃评论：10 ]]></description>
+      <guid>https://play.google.com/store/apps/details?id=in.magima.digitaltuner&hl=en_US</guid>
+      <pubDate>Mon, 08 Sep 2025 06:38:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：用于阅读MacBook的C ++库</title>
+      <link>https://github.com/ufoym/mac-angle</link>
+      <description><![CDATA[文章URL： https://github.com/ufoym/mac-angle  
+注释URL： https://news.ycombinator.com/item？id=45165066 
+点：28 
+＃评论：20 ]]></description>
+      <guid>https://github.com/ufoym/mac-angle</guid>
+      <pubDate>Mon, 08 Sep 2025 06:04:51 GMT</pubDate>
     </item>
     <item>
       <title>斯拉夫迁移如何重塑中欧和东欧</title>
       <link>https://www.mpg.de/25256341/0827-evan-slavic-migration-reshaped-central-and-eastern-europe-150495-x</link>
       <description><![CDATA[文章URL： https://www.mpg.de/25256341/0827-evan-slavic-migration-reshape-central-and-central-and-eastern-europe-150495-x   
 注释url： https://news.ycombinator.com/item?id=45163598 
-点：13 
-＃评论：0 ]]></description>
+点：49 
+＃评论：35 ]]></description>
       <guid>https://www.mpg.de/25256341/0827-evan-slavic-migration-reshaped-central-and-eastern-europe-150495-x</guid>
       <pubDate>Mon, 08 Sep 2025 00:30:19 GMT</pubDate>
     </item>
@@ -40,8 +71,8 @@
       <link>https://dmitrybrant.com/2025/09/07/using-claude-code-to-modernize-a-25-year-old-kernel-driver</link>
       <description><![CDATA[文章URL：
 注释url： https://news.ycombinator.com/item?id=45163362 
-点：357 
-＃评论：104 ]]></description>
+点：494 
+＃评论：152 ]]></description>
       <guid>https://dmitrybrant.com/2025/09/07/using-claude-code-to-modernize-a-25-year-old-kernel-driver</guid>
       <pubDate>Sun, 07 Sep 2025 23:53:47 GMT</pubDate>
     </item>
@@ -50,8 +81,8 @@
       <link>https://maxleiter.com/blog/formatting</link>
       <description><![CDATA[文章URL： https://maxleiter.com/blog/formatting   
 注释URL： https://news.ycombinator.com/item？id=45163043 
-点：99 
-＃评论：101 ]]></description>
+点：160 
+＃评论：204 ]]></description>
       <guid>https://maxleiter.com/blog/formatting</guid>
       <pubDate>Sun, 07 Sep 2025 23:08:42 GMT</pubDate>
     </item>
@@ -60,16 +91,26 @@
       <link>https://www.datagubbe.se/sceneherit/</link>
       <description><![CDATA[文章URL： https://www.datagubbe.se/sceneherit/   
 注释url： https://news.ycombinator.com/item?id=45162803 
-点：137 
-＃评论：58 ]]></description>
+点：171 
+＃评论：79 ]]></description>
       <guid>https://www.datagubbe.se/sceneherit/</guid>
       <pubDate>Sun, 07 Sep 2025 22:34:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Intel Arc Pro B50 GPU推出了349美元，用于紧凑型工作站</title>
+      <link>https://www.guru3d.com/story/intel-arc-pro-b50-gpu-launched-at-for-compact-workstations/</link>
+      <description><![CDATA[文章URL：https://www.guru3d.com/story/intel-arc-pro-b50-gpu-launched-at-for-compact-workstations/
+注释url： https://news.ycombinator.com/item?id=45162626 
+点：115 
+＃评论：137 ]]></description>
+      <guid>https://www.guru3d.com/story/intel-arc-pro-b50-gpu-launched-at-for-compact-workstations/</guid>
+      <pubDate>Sun, 07 Sep 2025 22:06:35 GMT</pubDate>
     </item>
     <item>
       <title>将Buildkite从附带项目带到全球公司</title>
       <link>https://www.valleyofdoubt.com/p/taking-buildkite-from-a-side-project</link>
       <description><![CDATA[文章URL：评论url： https://news.ycombinator.com/item./item?id=45162593 
-点：38 
+点：51 
 ＃评论：4 ]]></description>
       <guid>https://www.valleyofdoubt.com/p/taking-buildkite-from-a-side-project</guid>
       <pubDate>Sun, 07 Sep 2025 22:03:13 GMT</pubDate>
@@ -79,30 +120,10 @@
       <link>https://www.abortretry.fail/p/the-story-of-creative-technology</link>
       <description><![CDATA[文章URL： https://www.abortretry.fail/p/the-story-story-story-ereative-ereative-creative-technology-thologe      
 注释URL： https://news.ycombinator.com/item?id=45162501 
-点：57 
-＃评论：13 ]]></description>
+点：87 
+＃评论：37 ]]></description>
       <guid>https://www.abortretry.fail/p/the-story-of-creative-technology</guid>
       <pubDate>Sun, 07 Sep 2025 21:50:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>炸玉米饼钟</title>
-      <link>https://aidarwinawards.org/nominees/taco-bell-ai-drive-thru.html</link>
-      <description><![CDATA[文章URL： https://aidarwinawards.org/nominees/nominees/nominees/taco-bell-ai-drive-drive-drive-trive-trive-thru.html 
-注释URL： https://news.ycombinator.com/item?id=45162220 
-点：81 
-＃评论：109 ]]></description>
-      <guid>https://aidarwinawards.org/nominees/taco-bell-ai-drive-thru.html</guid>
-      <pubDate>Sun, 07 Sep 2025 21:14:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>PICO CSS  - 语义HTML的最小CSS框架</title>
-      <link>https://picocss.com</link>
-      <description><![CDATA[文章URL： https://picocss.com  
-注释URL： https://news.ycombinator.com/item?id=45161855 
-点：307 
-＃评论：86 ]]></description>
-      <guid>https://picocss.com</guid>
-      <pubDate>Sun, 07 Sep 2025 20:31:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
