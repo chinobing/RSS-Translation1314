@@ -4,106 +4,113 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Thu, 11 Sep 2025 09:20:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 12:38:20 GMT</lastBuildDate>
     <item>
-      <title>AI是为YouTube创作者来的</title>
-      <link>https://www.theatlantic.com/technology/archive/2025/09/youtube-ai-training-data-sets/684116/</link>
-      <description><![CDATA[文章URL： https://www.theatlantic.com/technology/archive/2025/09/youtube-ai-training-data-sets/684116/  
-注释URL： https://news.ycombinator.com/item?id=45209423 
-点：2 
-＃评论：0 ]]></description>
-      <guid>https://www.theatlantic.com/technology/archive/2025/09/youtube-ai-training-data-sets/684116/</guid>
-      <pubDate>Thu, 11 Sep 2025 09:08:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：一个用于与Nano Banana一起穿衣服的网络应用程序</title>
-      <link>https://www.fitpic.app/</link>
-      <description><![CDATA[ hi hn，我已经在我的附带项目待办事项列表上待了一段时间，但是等到图像编辑模型变得足够好，可以做出真正有效的东西。这是链接：全部由Google的New Nano Banana/gemini Flash Image 2.5型号提供支持，其目录由 https：&gt; https://trychannel3.com/ to progne&gt;一次免费购买信贷（我想在没有注册的情况下可以使用它，但是模型并不便宜，我不想通过将其开放给滥用来破产）。我确实在这里与一些示例一起放了一个快速页面：
+      <title>Show HN：与NVIDIA PARAKEASET-LES-LOCAL，快速，可扩展</title>
+      <link>https://elvin.engineering/blog/2025/09-10-para-speak-cli/</link>
+      <description><![CDATA[嘿，hn！ I built Para-speak to fit my workflow - I wanted something simple: press shortcut → talk → press shortcut → text appears at cursor.Existing tooling wasn&#39;t sufficient, and at the same time NVIDIA&#39;s Parakeet model was showing excellent results online, so I wanted specifically to try that.Para-speak is a Rust CLI that uses NVIDIA&#39;s Parakeet TDT model running locally via MLX on Apple Silicon.Demo &amp; details: https://elvin.engineering/blog/2025/09-10-para-speak-cli/GitHub:  https://github.com/elv1n/para-speak   关键特征：
+   - 可配置的全局快捷方式（双击，组合，序列）
+   - 音频反馈
+   - 光标位置的文本插入（模拟CMD+V）
+   - 可扩展的控制器系统（例如，在记录过程中操纵Spotify量）
+   - 空闲使用最少的资源 - 我的MacBook Pro M1平均负载约10-15 MB。当前限制：
+  -MacOS仅目前
+   - 快捷方式传递到其他应用程序（未消耗）我每天都在使用它进行AI辅助编码。对于小型型号而言，准确性令人惊讶地好。仍然很早。拥有守护程序模式，适当的安装（Homebrew等）并添加一些UI反馈。会喜欢您的想法！很高兴！
 
-注释URL： https://news.ycombinator.com/item?id=45209422 
+评论URL： https://news.ycombinator.com/item?id=45210730 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.fitpic.app/</guid>
-      <pubDate>Thu, 11 Sep 2025 09:08:29 GMT</pubDate>
+      <guid>https://elvin.engineering/blog/2025/09-10-para-speak-cli/</guid>
+      <pubDate>Thu, 11 Sep 2025 12:24:54 GMT</pubDate>
     </item>
     <item>
-      <title>甲骨文股票获得36％以来最好的一天，自1992年以来的最佳一天，价值244B美元</title>
-      <link>https://www.cnbc.com/2025/09/10/oracle-stock-cloud-backlog-ai.html</link>
-      <description><![CDATA[Article URL: https://www.cnbc.com/2025/09/10/oracle-stock-cloud-backlog-ai.html
-注释URL： https://news.ycombinator.com/item?id=45209409 
+      <title>彭博新闻如何审查爱泼斯坦电子邮件</title>
+      <link>https://www.bloomberg.com/news/features/2025-09-11/how-bloomberg-news-vetted-the-jeffrey-epstein-emails</link>
+      <description><![CDATA[文章URL： https://www.bloomberg.com/news/features/2025-09-11/how-bloomberg-news-vetted-the-jeffrey-epstein-emails  
+注释URL： https://news.ycombinator.com/item？id=452210726 
 点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.cnbc.com/2025/09/10/oracle-stock-cloud-backlog-ai.html</guid>
-      <pubDate>Thu, 11 Sep 2025 09:06:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用LLM（作为编码器）创建较大的项目</title>
-      <link>https://medium.com/@wojtek.jurkowlaniec/coding-workflow-with-llm-on-larger-projects-87dd2bf6fd2c</link>
-      <description><![CDATA[文章URL： https://medium.com/@wojtek.jurkowlaniec/coding-workflow-with-llm-on-larger-projects-87ddd2bf6fd2c  
-注释URL： https://news.ycombinator.com/item？id=45209398 
-点：3 
 ＃评论：1 ]]></description>
-      <guid>https://medium.com/@wojtek.jurkowlaniec/coding-workflow-with-llm-on-larger-projects-87dd2bf6fd2c</guid>
-      <pubDate>Thu, 11 Sep 2025 09:04:56 GMT</pubDate>
+      <guid>https://www.bloomberg.com/news/features/2025-09-11/how-bloomberg-news-vetted-the-jeffrey-epstein-emails</guid>
+      <pubDate>Thu, 11 Sep 2025 12:24:50 GMT</pubDate>
     </item>
     <item>
-      <title>三星从美国的苹果公司获得市场份额，因为可折叠电话会增强动力</title>
-      <link>https://www.cnbc.com/2025/08/16/samsungs-us-market-share-apple-rivalry-foldable-phones.html</link>
-      <description><![CDATA[文章URL： https://www.cnbc.com/2025/08/16/samsungs-us-market-share-apple--rivalry-foldable-foldable-phones.html  
-注释URL： https://news.ycombinator.com/item?id=45209389 
+      <title>英国大使向我们彼得·曼德尔森（Peter Mandelson）通过爱泼斯坦链接</title>
+      <link>https://www.cnn.com/2025/09/11/uk/peter-mandelson-uk-ambassador-fired-intl</link>
+      <description><![CDATA[文章URL：评论URL： https://news.ycombinator.com/item？id=45210709 
 点：2 
 ＃评论：0 ]]></description>
-      <guid>https://www.cnbc.com/2025/08/16/samsungs-us-market-share-apple-rivalry-foldable-phones.html</guid>
-      <pubDate>Thu, 11 Sep 2025 09:02:50 GMT</pubDate>
+      <guid>https://www.cnn.com/2025/09/11/uk/peter-mandelson-uk-ambassador-fired-intl</guid>
+      <pubDate>Thu, 11 Sep 2025 12:22:21 GMT</pubDate>
     </item>
     <item>
-      <title>德国不支持ChatControl-阻止少数民族担保</title>
-      <link>https://digitalcourage.social/@echo_pbreyer/115184350819592476</link>
-      <description><![CDATA[Article URL: https://digitalcourage.social/@echo_pbreyer/115184350819592476
-注释URL： https://news.ycombinator.com/item?id=45209366 
-点：72 
-＃评论：4 ]]></description>
-      <guid>https://digitalcourage.social/@echo_pbreyer/115184350819592476</guid>
-      <pubDate>Thu, 11 Sep 2025 08:59:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Go Podcast（） -  059：与John Arundel一起过去</title>
-      <link>https://gopodcast.dev/episodes/059-is-go-over-with-john-arundel</link>
-      <description><![CDATA[文章URL： https://gopodcast.dev/episodes/059-is-go-go-over-po-over-po-over-with-with-with-with-with-wo--------------- is-go-over-with-john-john-arundel-john-arundel 
-注释URL： https://news.ycombinator.com/item?id=45209324 
+      <title>神奇宝贝卡CSS全息效应</title>
+      <link>https://poke-holo.simey.me</link>
+      <description><![CDATA[文章URL： https://poke-holo.simey.me.me  
+注释URL： https://news.ycombinator.com/item？id = 45210706 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://gopodcast.dev/episodes/059-is-go-over-with-john-arundel</guid>
-      <pubDate>Thu, 11 Sep 2025 08:50:10 GMT</pubDate>
+      <guid>https://poke-holo.simey.me</guid>
+      <pubDate>Thu, 11 Sep 2025 12:21:40 GMT</pubDate>
     </item>
     <item>
-      <title>版权</title>
-      <link>https://en.wikipedia.org/wiki/Copyright</link>
-      <description><![CDATA[文章URL： https://en.wikipedia.org/wiki/copyright/copyright   
-注释URL： https://news.ycombinator.com/item？id=45209281 
+      <title>学习镜头模糊领域</title>
+      <link>https://blur-fields.github.io/</link>
+      <description><![CDATA[文章URL： https://blur-fields.github.io/   
+注释URL： https://news.ycombinator.com/item？id=45210705 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://en.wikipedia.org/wiki/Copyright</guid>
-      <pubDate>Thu, 11 Sep 2025 08:42:09 GMT</pubDate>
+      <guid>https://blur-fields.github.io/</guid>
+      <pubDate>Thu, 11 Sep 2025 12:21:27 GMT</pubDate>
     </item>
     <item>
-      <title>弯路：将Linux动态链接器加载到Run Ti的静态链接程序中</title>
-      <link>https://github.com/graphitemaster/detour</link>
-      <description><![CDATA[文章URL： https://github.com/graphitemaster/detour  
-注释URL： https://news.ycombinator.com/item？id=45209280 
+      <title>抽气和身份验证</title>
+      <link>https://fusionauth.io/blog/air-gapping</link>
+      <description><![CDATA[文章URL： https://fusionauth.io/blog/air-gapping   
+注释URL： https://news.ycombinator.com/item？id = 45210704 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://github.com/graphitemaster/detour</guid>
-      <pubDate>Thu, 11 Sep 2025 08:42:04 GMT</pubDate>
+      <guid>https://fusionauth.io/blog/air-gapping</guid>
+      <pubDate>Thu, 11 Sep 2025 12:21:17 GMT</pubDate>
     </item>
     <item>
-      <title>琐事和艺术的神圣繁琐</title>
-      <link>https://www.sothismedias.com/home/the-divine-drudgery-of-chores-and-art</link>
-      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=45209273 
+      <title>最小播客客户端</title>
+      <link>https://readerss.tiiny.site/</link>
+      <description><![CDATA[文章URL： https://readerss.tiiny.site/   
+注释URL： https://news.ycombinator.com/item？id=452210697 
+点：1 
+＃评论：1 ]]></description>
+      <guid>https://readerss.tiiny.site/</guid>
+      <pubDate>Thu, 11 Sep 2025 12:20:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>异步编程的兴起</title>
+      <link>https://www.braintrust.dev/blog/async-programming</link>
+      <description><![CDATA[文章URL： https://www.braintrust.dev/blog/ashync-programming 
+注释URL： https://news.ycombinator.com/item？id=452210693 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.sothismedias.com/home/the-divine-drudgery-of-chores-and-art</guid>
-      <pubDate>Thu, 11 Sep 2025 08:41:04 GMT</pubDate>
+      <guid>https://www.braintrust.dev/blog/async-programming</guid>
+      <pubDate>Thu, 11 Sep 2025 12:20:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>蛋白质平衡的可扩展合奏W生成深度学习</title>
+      <link>https://www.science.org/doi/10.1126/science.adv9817</link>
+      <description><![CDATA[文章url： https://www.science.org/doi/10.1126/science.adv9817 
+注释URL： https://news.ycombinator.com/item?id=45210692 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.science.org/doi/10.1126/science.adv9817</guid>
+      <pubDate>Thu, 11 Sep 2025 12:20:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>WebSpinners获得了自然界最佳雨衣的奖项</title>
+      <link>https://entomologytoday.org/2025/09/08/webspinners-silk-water-natures-best-raincoat/</link>
+      <description><![CDATA[Article URL: https://entomologytoday.org/2025/09/08/webspinners-silk-water-natures-best-raincoat/
+注释URL： https://news.ycombinator.com/item？id=452210686 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://entomologytoday.org/2025/09/08/webspinners-silk-water-natures-best-raincoat/</guid>
+      <pubDate>Thu, 11 Sep 2025 12:19:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
