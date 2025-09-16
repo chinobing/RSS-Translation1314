@@ -4,14 +4,75 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Tue, 16 Sep 2025 03:29:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Sep 2025 06:28:37 GMT</lastBuildDate>
+    <item>
+      <title>公共静态void main（string [] args）已死</title>
+      <link>https://mccue.dev/pages/9-16-25-psvm</link>
+      <description><![CDATA[文章URL： https://mccue.dev/pages/9-16-25-psvm    
+注释URL： https://news.ycombinator.com/item./item?id=45258098 
+点：127 
+＃评论：96 ]]></description>
+      <guid>https://mccue.dev/pages/9-16-25-psvm</guid>
+      <pubDate>Tue, 16 Sep 2025 04:42:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：PyProc  - 从无CGO或微服务的GO中拨打Python</title>
+      <link>https://github.com/YuminosukeSato/pyproc</link>
+      <description><![CDATA[ hi hn！我构建了 *pyproc *，以便像本地功能一样呼叫python  -  *没有CGO，也没有单独的微服务 *。它在同一主机/pod上运行了一系列Python的工作过程，并讨论*Unix域插座*，因此您会在GIL。
+*避免使用单独的Python服务的网络啤酒花，服务发现和OPS负担。*快速尝试（\ 〜5分钟）* go（app）：``````````````
+去获取github.com/yuminosukesato/pyproc@latest
+```` python（Worker）：````
+PIP安装PyProc-worker
+````最小工人（python）：````
+从pyproc_worker导入曝光，run_worker
+@暴露
+def预测（req）：
+    返回{“结果”：req [value&#39;] * 2}
+如果__name__ ==“ __ -main __”：
+    run_worker（）
+````从GO：``````&#39;&#39;&#39;&#39;
+进口 （
+  “语境”
+  “ FMT”
+  “ github.com/yuminosukesato/pyproc/pkg/pyproc”
+）
+func main（）{
+  池，_：= pyproc.newpool（pyproc.pooloptions {
+    config：pyproc.poolconfig {工人：4，maxinflight：10}，
+    WorkerConfig：pyproc.workerConfig {socketPath：“/tmp/pyproc.sock”，pythonexec：“ python3”，workerscript：“ worker.py”}，
+  }，nil）
+  _ = pool.start（context.background（））
+  defer pool.shutdown（context.background（））
+  var out map [string] any
+  _ = pool.call（context.background（），“预测”，映射[string]任何{“ value”：42}，＆amp; out）
+  fmt.println（out [“结果”]）// 84
+}
+````*范围 /限制**仅宿主 / pod（uds）。支持Linux/MacOS；尚未名为管道的窗户。
+*最适合要求/响应有效载荷≲\ 〜100 kb json; GPU编排和交叉主机服务的范围不超出范围。您的数字会有所不同。*包括**纯Go客户端（无CGO），Python Worker Lib，Pool，Health Checks，“优美重新启动”和“示例”。*docs＆code* *redme，design/ops/op/op/op/op/op/op/op/ops/security，pkg.go.go.dev： https://github.com/yuminosukesato/pyproc ]（*欢迎反馈**API人体工程学，负载下的故障模式以及编解码器/传输的优先级（例如，箭头IPC，grpc-over-uds）。 ------  ----   -    -   详细信息：详细信息：project＆doce hardme and docs and docs。 href =“ https://github.com/yuminosukesato/pyproc” rel =“ nofollow”&gt; https://github.com/yuminosukesukesato/pyproc “ github -yuminosukesukesukesato/pyproc processin“ 
+
+评论url： https://news.ycombinator.com/item?id=45257929 
+点：6 
+＃评论：0 ]]></description>
+      <guid>https://github.com/YuminosukeSato/pyproc</guid>
+      <pubDate>Tue, 16 Sep 2025 04:08:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>在用户界面中的“您的”与“我的”</title>
+      <link>https://adamsilver.io/blog/your-vs-my-in-user-interfaces/</link>
+      <description><![CDATA[文章URL： https://adamsilver.io/blog/blog/your-your-your-your-vs-my-in-in--user-in--user-interfaces/    
+评论url： https://news.ycombinator.com/item?id=45257627 
+点：19 
+＃评论：2 ]]></description>
+      <guid>https://adamsilver.io/blog/your-vs-my-in-user-interfaces/</guid>
+      <pubDate>Tue, 16 Sep 2025 03:05:53 GMT</pubDate>
+    </item>
     <item>
       <title>Linux手机现在比以往任何时候都重要</title>
       <link>https://feddit.org/post/18353777</link>
       <description><![CDATA[文章URL： https://feddit.org/post/post/18353777   
 注释URL： https://news.ycombinator.com/item?id=452566651 
-点：193 
-＃评论：113 ]]></description>
+点：336 
+＃评论：184 ]]></description>
       <guid>https://feddit.org/post/18353777</guid>
       <pubDate>Tue, 16 Sep 2025 00:33:12 GMT</pubDate>
     </item>
@@ -20,8 +81,8 @@
       <link>https://morrick.me/archives/10137</link>
       <description><![CDATA[文章URL： https://morrick.me/archives/10137   
 评论url： https://news.ycombinator.com/item?id=45256577 
-点：104 
-＃评论：100 ]]></description>
+点：221 
+＃评论：199 ]]></description>
       <guid>https://morrick.me/archives/10137</guid>
       <pubDate>Tue, 16 Sep 2025 00:20:59 GMT</pubDate>
     </item>
@@ -30,8 +91,8 @@
       <link>https://kyrylo.org/software/2025/08/21/why-do-software-developers-love-complexity.html</link>
       <description><![CDATA[文章URL：https://kyrylo.org/software/2025/08/21/why-do-software-developers-love-complexity.html
 注释URL： https://news.ycombinator.com/item?id=45256043 
-点：43 
-＃评论：64 ]]></description>
+点：70 
+＃评论：92 ]]></description>
       <guid>https://kyrylo.org/software/2025/08/21/why-do-software-developers-love-complexity.html</guid>
       <pubDate>Mon, 15 Sep 2025 23:02:31 GMT</pubDate>
     </item>
@@ -40,48 +101,28 @@
       <link>https://www.gadgetreview.com/massive-attack-turns-concert-into-facial-recognition-surveillance-experiment</link>
       <description><![CDATA[文章URL：https://www.gadgetreview.com/massive-attack-turns-concert-into-facial-recognition-surveillance-experiment
 注释URL： https://news.ycombinator.com/item？id=45255400 
-点：172 
-＃评论：79 ]]></description>
+点：217 
+＃评论：95 ]]></description>
       <guid>https://www.gadgetreview.com/massive-attack-turns-concert-into-facial-recognition-surveillance-experiment</guid>
       <pubDate>Mon, 15 Sep 2025 21:51:55 GMT</pubDate>
     </item>
     <item>
-      <title>显示HN：Pooshit  - 将本地代码同步到远程Docker容器</title>
-      <link>https://news.ycombinator.com/item?id=45255337</link>
-      <description><![CDATA[发音为push-it .... 我在大多数情况下是懒惰的开发人员，所以这是给像我这样的人。 Sometimes I just want my local code running in live remote containers quickly, without building images and syncing to cloud docker repos or setting up git workflows or any of the other draining ways to get your code running remotely.With pooshit (and a simple config file), you can simply push your local dev files to a remote folder on a VM then automatically remove relevant running containers, then build and run an updated container with one command line call.It works well with如您可以在pooshit_config files中指定docker运行参数。
-
-注释url： https://news.ycombinator.com/item?id=452555337 
-点：47 
-＃评论：37 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=45255337</guid>
-      <pubDate>Mon, 15 Sep 2025 21:46:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>威廉·吉布森（William Gibson）阅读神经友好者（2004）</title>
+      <title>威廉·吉布森（William Gibson）读神经法（2004年）</title>
       <link>http://bearcave.com/bookrev/neuromancer/neuromancer_audio.html</link>
       <description><![CDATA[文章url： http://bearcave.com/bookrev/neuromancer/neuromancer/neuromancer_audio.htmancer_audio.html  
 注释url： https://news.ycombinator.com/item?id=452555137 
-点：158 
-＃评论：35 ]]></description>
+积分：201 
+＃评论：53 ]]></description>
       <guid>http://bearcave.com/bookrev/neuromancer/neuromancer_audio.html</guid>
       <pubDate>Mon, 15 Sep 2025 21:28:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>鬼厨房快死了</title>
-      <link>https://davidrmann3.substack.com/p/ghost-kitchens-are-dying-heres-the</link>
-      <description><![CDATA[文章URL：注释URL： https://news.ycombinator.com/item?id=45254505 
-点：73 
-＃评论：60 ]]></description>
-      <guid>https://davidrmann3.substack.com/p/ghost-kitchens-are-dying-heres-the</guid>
-      <pubDate>Mon, 15 Sep 2025 20:25:26 GMT</pubDate>
     </item>
     <item>
       <title>人们如何使用chatgpt [PDF]</title>
       <link>https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf</link>
       <description><![CDATA[文章URL： https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/econonic-economic-research-chatgpt-usage-usage-page-paper.pdf   
 评论URL： https://news.ycombinator.com/item？id=4522537775 
-点：68 
-＃评论：49 ]]></description>
+点：93 
+＃评论：54 ]]></description>
       <guid>https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf</guid>
       <pubDate>Mon, 15 Sep 2025 19:14:28 GMT</pubDate>
     </item>
@@ -90,20 +131,10 @@
       <link>https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex/</link>
       <description><![CDATA[文章url： htttps://openai.com/index/gpt-5-system-5-system-card-system-card-asystem-card-addendum-gpt-5-cpt-5-codex/
 注释url： https://news.ycombinator.com/item/item?id=45253458 
-点：190 
-＃评论：110 ]]></description>
+点：205 
+＃评论：123 ]]></description>
       <guid>https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex/</guid>
       <pubDate>Mon, 15 Sep 2025 18:45:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>在一次性vape上托管网站</title>
-      <link>https://bogdanthegeek.github.io/blog/projects/vapeserver/</link>
-      <description><![CDATA[文章url： https://bogdanthegeek.gith.github.io/blog/blog/project/projects/projects/vapeserver/
-评论url： https://news.ycombinator.com/item？id=452252817 
-点：744 
-＃评论：381 ]]></description>
-      <guid>https://bogdanthegeek.github.io/blog/projects/vapeserver/</guid>
-      <pubDate>Mon, 15 Sep 2025 17:53:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
