@@ -4,106 +4,106 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Tue, 16 Sep 2025 15:20:29 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Sep 2025 18:26:43 GMT</lastBuildDate>
     <item>
-      <title>您可以使用软件定义的广播可以做的五十件事</title>
-      <link>https://blinry.org/50-things-with-sdr/</link>
-      <description><![CDATA[文章URL： https://blinry.org/50-things-with-with-sdr/   
-注释URL： https://news.ycombinator.com/item?id=45262835 
-点：65 
-＃评论：6 ]]></description>
-      <guid>https://blinry.org/50-things-with-sdr/</guid>
-      <pubDate>Tue, 16 Sep 2025 14:35:19 GMT</pubDate>
+      <title>AMD开始在Linux内核中的水管APCI C4支持以节省功率</title>
+      <link>https://www.phoronix.com/news/AMD-ACPI-C4-Linux-Kernel-Code</link>
+      <description><![CDATA[文章URL：评论url： https://news.ycombinator.com/item./item?id=45265299 
+点：6 
+＃评论：0 ]]></description>
+      <guid>https://www.phoronix.com/news/AMD-ACPI-C4-Linux-Kernel-Code</guid>
+      <pubDate>Tue, 16 Sep 2025 17:37:09 GMT</pubDate>
     </item>
     <item>
-      <title>所有演示的母亲</title>
-      <link>https://wordspike.com/s/5ip0xneiTsc</link>
-      <description><![CDATA[文章URL： https://wordspike.com/s/5ip0xneitsc   
-评论url： https://news.ycombinator.com/item?id=45262582 
-点：23 
-＃评论：6 ]]></description>
-      <guid>https://wordspike.com/s/5ip0xneiTsc</guid>
-      <pubDate>Tue, 16 Sep 2025 14:18:19 GMT</pubDate>
+      <title>启动HN：Rowboat（YC S24） - 多代理系统的开源IDE</title>
+      <link>https://github.com/rowboatlabs/rowboat</link>
+      <description><![CDATA[嗨，hn！我们是Rowboat的创始人Arjun，Ramnique和Akhilesh（ https：//wwwww.rowboatlabs.com ），用于建造和管理多元化系统的A-Assisted IDE。使用划艇，您可以构建确定性的自动化剂（例如自动汇总电子邮件）和更多的代理系统（例如，会议准备助手或客户支持机器人）。以下是一些示例：  - 会议助手： https://www.youtube.com/watch?v=kztp4xzm2dy    - 客户支持助手： https://www.youtube.com/watch?v=xf = xfo-ofgol8w    -  gmail and reddit助手： https://www.youtube.com/watch?v=6r7p4vlcn2g    Rowboat是Open-Source（ https://github.com/rowboatlabs/rowboat ），并且社区不断增长。几个月前，我们首次在展览会上启动了它（ https：//news.ycombinator.com/item.com/item?id=43763967667  今天，我们正在启动一个大型更新。我们为Gmail，Github和Slack，带有文档和URL等100个工具添加了内置工具集成，并触发了基于外部事件的助手。我们的云版本包括开源的所有功能，但即时不立即运行，没有设置或API键。对于发布会，我们将使用Gemini型号提供10美元的免费使用情况，因此您可以立即免费建造，而无需添加任何卡片详细信息。付费计划的起价为每月$ 20，让您访问其他型号（OpenAI，人类，双子座，随之而来）和更高的使用限制。越来越多的观点认为，单个代理商可以更好地处理某些任务（ https://news.ycombinator.com/item?id=45096962 ），而其他人则从多个系统中受益（ https：//www.anthropic.com/engineering/engineering/multi-agent-research-research-search-shearch-s.-s. ... ）。差异通常取决于范围：一项重点的任务，例如编码适合单个代理商，但是杂耍了多个域，例如电子邮件，松弛和LinkedIn，更好地划分了代理商。多代理系统还有助于避免上下文污染，因为LLMS要求处理无关的任务时会失去注意力。此外，干净分配的责任使每个代理更容易测试，调试和改进。，将工作分为多个代理并正确提示的工作是具有挑战性的。 Openai和其他人发表的模式对不同的情况很有效（ https：//cdn.openai.com/business-guides-and-resources/a-pract ... ）。我们添加了基于OpenAI代理SDK之上的代理摘要，以支持这些模式。这些包括面向用户的代理，可以在需要时决定将其他代理交给其他代理；执行内部任务的任务代理；确定性地称为代理的管道和管道。 Rowboat的Copilot（“ Skipper”）意识到了这些模式，并已播种了经过测试的模式，例如用于客户支持Bot的经理工作人员设置，用于自动化文档汇总的管道，用于自动化的文档汇总以及用于将Web Web搜索与Rag结合rag rag。它可以：  - 通过高级请求构建多代理系统，并决定必须如何在代理之间委派工作  - 编辑代理说明，以使用Composio工具或任何连接的MCP Server或任何连接的MCP Server进行正确的工具调用  - 观察您的游乐场聊天并根据您的测试来改进试剂我们将代理商我们看到代理系统作为样品。一方面是带有一些LLM调用的确定性工作流程。另一端是LLM做出所有控制流决策的完全代理系统 - 我们专注于频谱的这一末端，同时仍然允许确定性控制在现实世界助理用例中必要的情况下。我们故意避免了流程图风格的编辑（如N8N），因为它们在构建和维护高度代理系统时变得笨拙。我们期待听到您的想法！
+
+评论url： https://news.ycombinator.com/item？id=45264867 
+点：25 
+＃评论：10 ]]></description>
+      <guid>https://github.com/rowboatlabs/rowboat</guid>
+      <pubDate>Tue, 16 Sep 2025 17:01:16 GMT</pubDate>
     </item>
     <item>
-      <title>隐式ode求解器并不比显式ode solvers普遍强大</title>
-      <link>https://www.stochasticlifestyle.com/implicit-ode-solvers-are-not-universally-more-robust-than-explicit-ode-solvers-or-why-no-ode-solver-is-best/</link>
-      <description><![CDATA[文章URL： https://www.stochasticlifestyle.com/implitic-ode-solvers-are-not-universally-more-more-collust-than-than-eplitic-solver-solvers-solvers-or-why-why-no-why-no-ode-solver-is-solver-is-best/   
-注释URL： https://news.ycombinator.com/item？id = 45262151 
-点：26 
-＃评论：1 ]]></description>
-      <guid>https://www.stochasticlifestyle.com/implicit-ode-solvers-are-not-universally-more-robust-than-explicit-ode-solvers-or-why-no-ode-solver-is-best/</guid>
-      <pubDate>Tue, 16 Sep 2025 13:41:51 GMT</pubDate>
+      <title>Waymo已获得我们的试点许可证，允许在SFO进行商业运营</title>
+      <link>https://waymo.com/blog/#short-all-systems-go-at-sfo-waymo-has-received-our-pilot-permit</link>
+      <description><![CDATA[文章URL： https://waymo.com/blog/blog/blog/#short-short-short-short-short-short-go-go-ath-go-at-sfo-at-sfo-waymo-has-has-has-has-has-termit---------------------------------- permite 
+评论URL： https://news.ycombinator.com/item./item?id=45264562 
+点：232 
+＃评论：132 ]]></description>
+      <guid>https://waymo.com/blog/#short-all-systems-go-at-sfo-waymo-has-received-our-pilot-permit</guid>
+      <pubDate>Tue, 16 Sep 2025 16:38:08 GMT</pubDate>
     </item>
     <item>
-      <title>青少年将他们的房间变成了无技术的区域。这是结果</title>
-      <link>https://www.bbc.co.uk/news/articles/c1lelqg0jy3o</link>
-      <description><![CDATA[文章url： https://www.bbc.co.uk/news/news/news/articles/articles/article
-注释URL： https://news.ycombinator.com/item?id=45262001 
-点：15 
-＃评论：5 ]]></description>
-      <guid>https://www.bbc.co.uk/news/articles/c1lelqg0jy3o</guid>
-      <pubDate>Tue, 16 Sep 2025 13:30:27 GMT</pubDate>
+      <title>激发吉卜力工作室电影的日本风景</title>
+      <link>https://www.bbc.com/travel/article/20250912-the-japanese-landscapes-that-inspired-studio-ghibli-films</link>
+      <description><![CDATA[文章URL： https://www.bbc.com/travel/article/20250912-the--japanese-landscapes-th- inspired-studio-ghibli-films  
+注释url： https://news.ycombinator.com/item？id=452644484 
+点：20 
+＃评论：3 ]]></description>
+      <guid>https://www.bbc.com/travel/article/20250912-the-japanese-landscapes-that-inspired-studio-ghibli-films</guid>
+      <pubDate>Tue, 16 Sep 2025 16:32:13 GMT</pubDate>
     </item>
     <item>
-      <title>Java 25正式发布</title>
-      <link>https://mail.openjdk.org/pipermail/announce/2025-September/000360.html</link>
-      <description><![CDATA[文章url： https://mail.openjdk.org/pipermail/pipermail/pipermail/ppipermail/announce/annouse/2025--Septebr/2025-septebr/2025-september/me0003660.a&gt;
-注释url： https://news.ycombinator.com/item./item?id=45261946 
-点：24 
-＃评论：2 ]]></description>
-      <guid>https://mail.openjdk.org/pipermail/announce/2025-September/000360.html</guid>
-      <pubDate>Tue, 16 Sep 2025 13:25:42 GMT</pubDate>
+      <title>伯特兰·罗素（Bertrand Russell）到奥斯瓦尔德·莫斯利（Oswald Mosley）（1962）</title>
+      <link>https://lettersofnote.com/2016/02/02/every-ounce-of-my-energy/</link>
+      <description><![CDATA[文章url： https：//lettersofnote.com/2016/02/02/02/02/every-every-every-ounce-und---------- oute-my-energy/
+注释URL： https://news.ycombinator.com/item?id=45264340 
+点：89 
+＃评论：28 ]]></description>
+      <guid>https://lettersofnote.com/2016/02/02/every-ounce-of-my-energy/</guid>
+      <pubDate>Tue, 16 Sep 2025 16:22:40 GMT</pubDate>
     </item>
     <item>
-      <title>研究发现，生成的AI正在挖空入门级工作</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555</link>
-      <description><![CDATA[Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555
-注释URL： https://news.ycombinator.com/item?id=45261930 
-点：73 
-＃评论：64 ]]></description>
-      <guid>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555</guid>
-      <pubDate>Tue, 16 Sep 2025 13:24:35 GMT</pubDate>
+      <title>插件系统</title>
+      <link>https://iina.io/plugins/</link>
+      <description><![CDATA[文章URL： https://iina.io/plugins/   
+注释url： https://news.ycombinator.com/item?id=45264190 
+点：69 
+＃评论：16 ]]></description>
+      <guid>https://iina.io/plugins/</guid>
+      <pubDate>Tue, 16 Sep 2025 16:10:44 GMT</pubDate>
     </item>
     <item>
-      <title>卡车司机在21年内建立了纽约市的规模模型</title>
-      <link>https://gothamist.com/arts-entertainment/this-trucker-built-a-scale-model-of-nyc-over-21-years-its-drawing-museums-attention</link>
-      <description><![CDATA[文章URL： https://gothamist.com/arts-entertainment/this-trucker-built-a-scale-model-model-of-nyc-over-21-al-21-年 -  drawing-museums-museums-cattion  
-注释url： https://news.ycombinator.com/item./item?id=45261877 
-点：48 
-＃评论：6 ]]></description>
-      <guid>https://gothamist.com/arts-entertainment/this-trucker-built-a-scale-model-of-nyc-over-21-years-its-drawing-museums-attention</guid>
-      <pubDate>Tue, 16 Sep 2025 13:20:11 GMT</pubDate>
+      <title>我会经营波士顿2026吗？</title>
+      <link>https://getfast.ai/blogs/boston-2026</link>
+      <description><![CDATA[文章URL： https://getfast.ai/blogs/boston-2026   
+注释url： https://news.ycombinator.com/item？id=45264094 
+点：19 
+＃评论：20 ]]></description>
+      <guid>https://getfast.ai/blogs/boston-2026</guid>
+      <pubDate>Tue, 16 Sep 2025 16:04:18 GMT</pubDate>
     </item>
     <item>
-      <title>中央情报局信息自由法电子阅读室</title>
-      <link>https://www.cia.gov/readingroom</link>
-      <description><![CDATA[文章URL： https://www.cia.gov/readingroom   
-注释URL： https://news.ycombinator.com/item？id=45261764 
-点：61 
-＃评论：7 ]]></description>
-      <guid>https://www.cia.gov/readingroom</guid>
-      <pubDate>Tue, 16 Sep 2025 13:10:29 GMT</pubDate>
+      <title>Windows的新实验Google应用程序</title>
+      <link>https://blog.google/products/search/google-app-windows-labs/</link>
+      <description><![CDATA[文章URL： https://blog.google/products/search/search/google-app--app-windows-labs-labs-labs/     
+评论url： https://news.ycombinator.com/item？id=452633317 
+点：54 
+＃评论：84 ]]></description>
+      <guid>https://blog.google/products/search/google-app-windows-labs/</guid>
+      <pubDate>Tue, 16 Sep 2025 15:05:46 GMT</pubDate>
     </item>
     <item>
-      <title>青少年安全，自由和隐私</title>
-      <link>https://openai.com/index/teen-safety-freedom-and-privacy</link>
-      <description><![CDATA[文章URL： https://openai.com/index/index/teen-safety-safety-freedom-and-privacy 
-评论url： https://news.ycombinator.com/item？id=45261659 
-点：17 
-＃评论：6 ]]></description>
-      <guid>https://openai.com/index/teen-safety-freedom-and-privacy</guid>
-      <pubDate>Tue, 16 Sep 2025 13:02:20 GMT</pubDate>
+      <title>MOS技术的开发6502：历史观点（2022）</title>
+      <link>https://www.EmbeddedRelated.com/showarticle/1453.php</link>
+      <description><![CDATA[文章url： https：//www.embeddedrelelated.com/showarticle/1453.php       
+注释url： https://news.ycombinator.com/item?id=45263221 
+点：30 
+＃评论：4 ]]></description>
+      <guid>https://www.EmbeddedRelated.com/showarticle/1453.php</guid>
+      <pubDate>Tue, 16 Sep 2025 14:59:47 GMT</pubDate>
     </item>
     <item>
-      <title>联邦调查局无法让我的丈夫解密他的tor节点，所以他被判入狱3年</title>
-      <link>https://old.reddit.com/r/TOR/comments/1ni5drm/the_fbi_couldnt_get_my_husband_to_decrypt_his_tor/</link>
-      <description><![CDATA[文章URL： https://old.reddit.com/r/tor/comments/1ni5drm/the_fbi_couldnt_get_my_my_husband_to_decrypt_his_tor/  
-注释URL： https://news.ycombinator.com/item?id=45261163 
-点：763 
-＃评论：225 ]]></description>
-      <guid>https://old.reddit.com/r/TOR/comments/1ni5drm/the_fbi_couldnt_get_my_husband_to_decrypt_his_tor/</guid>
-      <pubDate>Tue, 16 Sep 2025 12:10:49 GMT</pubDate>
+      <title>Microsoft偏向于人类对手的视觉工作室代码而不是OpenAI</title>
+      <link>https://www.theverge.com/report/778641/microsoft-visual-studio-code-anthropic-claude-4</link>
+      <description><![CDATA[文章URL： https：//www.theverge.com/report/report/778641/778641/microsoft-coft-cudio-codio-codio-codeci&gt;
+评论URL： https://news.ycombinator.com/item?id=45263063 
+点：124 
+＃评论：53 ]]></description>
+      <guid>https://www.theverge.com/report/778641/microsoft-visual-studio-code-anthropic-claude-4</guid>
+      <pubDate>Tue, 16 Sep 2025 14:48:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
