@@ -4,14 +4,44 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 17 Sep 2025 06:28:49 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Sep 2025 09:21:17 GMT</lastBuildDate>
+    <item>
+      <title>塔比（Tabby） - 现代的码头</title>
+      <link>https://github.com/Eugeny/tabby</link>
+      <description><![CDATA[文章URL： https://github.com/eugeny/tabby   
+注释url： https://news.ycombinator.com/item?id=45272692 
+点：10 
+＃评论：1 ]]></description>
+      <guid>https://github.com/Eugeny/tabby</guid>
+      <pubDate>Wed, 17 Sep 2025 07:00:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Murex  - 现代命令行的直观和内容意识到的外壳</title>
+      <link>https://murex.rocks/</link>
+      <description><![CDATA[文章URL： https://murex.rocks/   
+注释url： https://news.ycombinator.com/item?id=452272480 
+点：34 
+＃评论：11 ]]></description>
+      <guid>https://murex.rocks/</guid>
+      <pubDate>Wed, 17 Sep 2025 06:32:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>赞美闲置（1932）</title>
+      <link>https://harpers.org/archive/1932/10/in-praise-of-idleness/</link>
+      <description><![CDATA[文章url： https://harpers.org/archive/archive/1932/1932/10/in-praise-10/in-praise-enderes/
+注释url： https://news.ycombinator.com/item?id=452272296 
+点：43 
+＃评论：5 ]]></description>
+      <guid>https://harpers.org/archive/1932/10/in-praise-of-idleness/</guid>
+      <pubDate>Wed, 17 Sep 2025 06:04:06 GMT</pubDate>
+    </item>
     <item>
       <title>Intion API进口商，具有数据库的基础转换赏金</title>
       <link>https://github.com/obsidianmd/obsidian-importer/issues/421</link>
       <description><![CDATA[文章URL： https://github.com/obsidianmd/obsidianmd/obsidian-importer/issues/issues/421  
 注释URL： https://news.ycombinator.com/item?id=45271942 
-点：28 
-＃评论：0 ]]></description>
+点：95 
+＃评论：20 ]]></description>
       <guid>https://github.com/obsidianmd/obsidian-importer/issues/421</guid>
       <pubDate>Wed, 17 Sep 2025 05:11:50 GMT</pubDate>
     </item>
@@ -20,8 +50,8 @@
       <link>https://changelog.complete.org/archives/10881-i-just-want-an-80x25-console-but-thats-no-longer-possible</link>
       <description><![CDATA[文章URL： https://changelog.complete.org/archives/10881-i-just-want-an-80x25-console-but-thats-no-longer-possible  
 注释url： https://news.ycombinator.com/item?id=45271664 
-点：22 
-＃评论：15 ]]></description>
+点：57 
+＃评论：59 ]]></description>
       <guid>https://changelog.complete.org/archives/10881-i-just-want-an-80x25-console-but-thats-no-longer-possible</guid>
       <pubDate>Wed, 17 Sep 2025 04:26:02 GMT</pubDate>
     </item>
@@ -30,8 +60,8 @@
       <link>https://github.com/Zephkek/Asus-ROG-Aml-Deep-Dive</link>
       <description><![CDATA[文章URL： https://github.com/zephkek/asus-mog-aml-aml-deep-dive  
 评论url： https://news.ycombinator.com/item?id=45271484 
-点：65 
-＃评论：21 ]]></description>
+点：166 
+＃评论：82 ]]></description>
       <guid>https://github.com/Zephkek/Asus-ROG-Aml-Deep-Dive</guid>
       <pubDate>Wed, 17 Sep 2025 03:54:36 GMT</pubDate>
     </item>
@@ -40,8 +70,8 @@
       <link>https://midnight-commander.org/</link>
       <description><![CDATA[文章URL： https://midnight-commander.org/   
 注释url： https://news.ycombinator.com/item?id=45271481 
-点：112 
-＃评论：65 ]]></description>
+点：247 
+＃评论：144 ]]></description>
       <guid>https://midnight-commander.org/</guid>
       <pubDate>Wed, 17 Sep 2025 03:54:06 GMT</pubDate>
     </item>
@@ -51,62 +81,32 @@
       <description><![CDATA[所以，在世界舞台上放弃了多年的生锈之后，我终于决定做一些实质性的事情。它始于简单的线条渲染，但我喜欢它的进展方式，因此我认为我可以制作一个合理的完整PSX样式渲染器和游戏。我唯一的依赖性是sdl2;我将其视为“平台”，因此可以处理窗口，输入和音频。这意味着我的cargo.toml就像： [dipendencies.sdl2]一样简单
 版本=“ 0.35”
 默认 -  features = false
-功能= [“ Mixer”] 这将吸引其他6-7个其他依赖项。我正在执行真实的真实颜色3D渲染（带有Z缓冲液，转换，照明和栅格化每个三角形等等，没有特殊的技术或射线播放），Framebuffer为320x180（WIVECREEN 320X240）。 SDL可以将硬件加速的最终缩放处理为显示分辨率（例如，在VMS中，有时不是纯软件）。我做自己的物理学，四个/矩阵/矢量数学，tga和obj加载。 Linux），在RaspberryPi 3b+上[40-50]。我没有更多的现代硬件可以测试。所有这些都是单线螺纹，没有SIMD，没有内联ASM。另外，实施交错的渲染提供了 +50％的perf提升（和一个很好的效果）。 pentium笔记本电脑具有ATI（是）芯片，这可能并不奇怪，SDL。关于Rust：我几乎没有触摸该语言。我更多地将其用作“带有VEC！S，借用检查器，模式匹配，错误传播和特质”的“ C”。我喜欢我使用的子集的语法；这是清晰，可读，符合人体工程学的。诸如匹配/ifs返回值之类的东西对于简洁和生产代码非常有用。但是，我在周围看到的Pro/惯用代码对我来说看上去不可读。我已经按照自己的条件从头开始编写所有代码，所以这不是问题，但是仍然……无论如何，生态系统和工具都很棒。总而言之，这是一个惊人的发展经验。 I am a bit afraid to switch back to C++ for my next project.Also, rustup/cargo made things a walk in the park while creating a deployment script that automates the whole process: after a commit, it scans source files for used assets and packages only those, copies dependencies (DLLs for Win), sets up build dependencies depending on the target, builds all 3 targets (Win10_64, Linux32, Linux64),将所有内容捆成单独的ZIPS并将其上传到我的本地服务器。我正在从64位Lubuntu 18.04虚拟机进行此操作。您可以尝试游戏并在linked Itch.io页面上阅读有关它的所有信息：
+功能= [“ Mixer”] 这将吸引其他6-7个其他依赖项。我正在执行真实的真实颜色3D渲染（带有Z缓冲液，转换，照明和栅格化每个三角形等等，没有特殊的技术或射线播放），Framebuffer为320x180（WIVECREEN 320X240）。 SDL可以将硬件加速的最终缩放处理为显示分辨率（例如，在VMS中，有时不是纯软件）。我做自己的物理学，四个/矩阵/矢量数学，tga和obj加载。 Linux），在RaspberryPi 3b+上[40-50]。我没有更多的现代硬件可以测试。所有这些都是单线螺纹，没有SIMD，没有内联ASM。另外，实施交错的渲染提供了 +50％的perf提升（和一个很好的效果）。 pentium笔记本电脑具有ATI（是）芯片，这可能并不奇怪，SDL。关于Rust：我几乎没有触摸该语言。我更多地将其用作“带有VEC！S，借用检查器，模式匹配，错误传播和特质”的“ C”。我喜欢我使用的子集的语法；这是清晰，可读，符合人体工程学的。诸如匹配/ifs返回值之类的东西对于简洁和生产代码非常有用。但是，我在周围看到的Pro/惯用代码对我来说看上去不可读。我已经按照自己的条件从头开始编写所有代码，所以这不是问题，但是仍然……无论如何，生态系统和工具都很棒。总而言之，这是一个惊人的发展经验。 I am a bit afraid to switch back to C++ for my next project.Also, rustup/cargo made things a walk in the park while creating a deployment script that automates the whole process: after a commit, it scans source files for used assets and packages only those, copies dependencies (DLLs for Win), sets up build dependencies depending on the target, builds all 3 targets (Win10_64, Linux32, Linux64),将所有内容捆绑成单独的zips，并将它们上传到我的本地服务器。我正在从64位Lubuntu 18.04虚拟机进行此操作。您可以尝试游戏并在linked Itch.io页面上阅读有关它的所有信息：
  https://totenarctanz.ith.io/a-scavenging-trip-trip-trip-trip-trip 所有资产（所有资产）（audio/forts/fort forts fort pot pos for pot pot provects potects potive provects potive potects provects potection noover）
 
 注释url： https://news.ycombinator.com/item?id=45270981 
-点：32 
-＃评论：2 ]]></description>
+点：43 
+＃评论：7 ]]></description>
       <guid>https://totenarctanz.itch.io/a-scavenging-trip</guid>
       <pubDate>Wed, 17 Sep 2025 02:39:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>全球和平指数2025</title>
-      <link>https://www.visionofhumanity.org/maps/</link>
-      <description><![CDATA[文章URL： https://www.visionofhumanity.org/maps/   
-注释URL： https://news.ycombinator.com/item?id=45270965 
-点：50 
-＃评论：49 ]]></description>
-      <guid>https://www.visionofhumanity.org/maps/</guid>
-      <pubDate>Wed, 17 Sep 2025 02:37:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>缓慢的社交媒体</title>
-      <link>https://herman.bearblog.dev/slow-social-media/</link>
-      <description><![CDATA[文章URL： https://herman.bearblog.dev/slow-slow-social-social-media/ 
-评论url： https://news.ycombinator.com/item?id=45270676 
-点：49 
-＃评论：29 ]]></description>
-      <guid>https://herman.bearblog.dev/slow-social-media/</guid>
-      <pubDate>Wed, 17 Sep 2025 01:57:58 GMT</pubDate>
     </item>
     <item>
       <title>我在Arc-Agi上获得最高分，再次将Python换成英语</title>
       <link>https://jeremyberman.substack.com/p/how-i-got-the-highest-score-on-arc-agi-again</link>
       <description><![CDATA[Article URL: https://jeremyberman.substack.com/p/how-i-got-the-highest-score-on-arc-agi-again
 注释url： https://news.ycombinator.com/item？id=45270649 
-点：36 
-＃评论：2 ]]></description>
+点：71 
+＃评论：17 ]]></description>
       <guid>https://jeremyberman.substack.com/p/how-i-got-the-highest-score-on-arc-agi-again</guid>
       <pubDate>Wed, 17 Sep 2025 01:53:47 GMT</pubDate>
     </item>
     <item>
-      <title>IRSSI：Docker Image中的IRC客户端</title>
-      <link>https://hub.docker.com/_/irssi</link>
-      <description><![CDATA[文章URL： https://hub.docker.com/_/irssi   
-注释url： https://news.ycombinator.com/item?id=45270482 
-点：34 
-＃评论：26 ]]></description>
-      <guid>https://hub.docker.com/_/irssi</guid>
-      <pubDate>Wed, 17 Sep 2025 01:26:41 GMT</pubDate>
-    </item>
-    <item>
       <title>关于iOS 15.8.5和iPados的安全内容15.8.5</title>
       <link>https://support.apple.com/en-us/125142</link>
-      <description><![CDATA[文章URL： https://support.apple.com/en-us/125142   
+      <description><![CDATA[文章URL： https：//support.apple.apple.com/en-us/125142   
 注释URL： https://news.ycombinator.com/item？id=452700108 
-点：286 
-＃评论：108 ]]></description>
+点：310 
+＃评论：124 ]]></description>
       <guid>https://support.apple.com/en-us/125142</guid>
       <pubDate>Wed, 17 Sep 2025 00:34:02 GMT</pubDate>
     </item>
