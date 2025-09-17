@@ -4,35 +4,89 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 17 Sep 2025 01:20:17 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Sep 2025 03:28:01 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：PSX/DOS样式的3D游戏用Rust和自定义软件渲染器编写</title>
+      <link>https://totenarctanz.itch.io/a-scavenging-trip</link>
+      <description><![CDATA[所以，在世界舞台上放弃了多年的生锈之后，我终于决定做一些实质性的事情。它始于简单的线条渲染，但我喜欢它的进展方式，因此我认为我可以制作一个合理的完整PSX样式渲染器和游戏。我唯一的依赖性是sdl2;我将其视为“平台”，因此可以处理窗口，输入和音频。这意味着我的cargo.toml就像： [dipendencies.sdl2]一样简单
+版本=“ 0.35”
+默认 -  features = false
+功能= [“ Mixer”] 这将吸引其他6-7个其他依赖项。我正在执行真实的真实颜色3D渲染（带有Z缓冲液，转换，照明和栅格化每个三角形等等，没有特殊的技术或射线播放），Framebuffer为320x180（WIVECREEN 320X240）。 SDL可以将硬件加速的最终缩放处理为显示分辨率（例如，在VMS中，有时不是纯软件）。我做自己的物理学，四个/矩阵/矢量数学，tga和obj加载。 Linux），在RaspberryPi 3b+上[40-50]。我没有更多的现代硬件可以测试。所有这些都是单线螺纹，没有SIMD，没有内联ASM。另外，实施交错的渲染提供了 +50％的perf提升（和一个很好的效果）。 pentium笔记本电脑具有ATI（是）芯片，这可能并不奇怪，SDL。关于Rust：我几乎没有触摸该语言。我更多地将其用作“带有VEC！S，借用检查器，模式匹配，错误传播和特质”的“ C”。我喜欢我使用的子集的语法；这是清晰，可读，符合人体工程学的。诸如匹配/ifs返回值之类的东西对于简洁和生产代码非常有用。但是，我在周围看到的Pro/惯用代码对我来说看上去不可读。我已经按照自己的条件从头开始编写所有代码，所以这不是问题，但是仍然……无论如何，生态系统和工具都很棒。总而言之，这是一个惊人的发展经验。 I am a bit afraid to switch back to C++ for my next project.Also, rustup/cargo made things a walk in the park while creating a deployment script that automates the whole process: after a commit, it scans source files for used assets and packages only those, copies dependencies (DLLs for Win), sets up build dependencies depending on the target, builds all 3 targets (Win10_64, Linux32, Linux64),将所有内容捆成单独的ZIPS并将其上传到我的本地服务器。我正在从64位Lubuntu 18.04虚拟机进行此操作。您可以尝试游戏并在linked Itch.io页面上阅读有关它的所有信息：
+ https://totenarctanz.ith.io/a-scavenging-trip-trip-trip-trip-trip 所有资产（所有资产）（audio/forts/fort forts fort pot pos for pot pot provects potects potive provects potive potects provects potection noover）
+
+注释url： https://news.ycombinator.com/item?id=45270981 
+点：6 
+＃评论：0 ]]></description>
+      <guid>https://totenarctanz.itch.io/a-scavenging-trip</guid>
+      <pubDate>Wed, 17 Sep 2025 02:39:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>全球和平指数2025</title>
+      <link>https://www.visionofhumanity.org/maps/</link>
+      <description><![CDATA[文章URL： https://www.visionofhumanity.org/maps/   
+注释URL： https://news.ycombinator.com/item?id=45270965 
+点：18 
+＃评论：4 ]]></description>
+      <guid>https://www.visionofhumanity.org/maps/</guid>
+      <pubDate>Wed, 17 Sep 2025 02:37:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>缓慢的社交媒体</title>
+      <link>https://herman.bearblog.dev/slow-social-media/</link>
+      <description><![CDATA[文章URL： https://herman.bearblog.dev/slow-slow-social-social-media/ 
+评论url： https://news.ycombinator.com/item?id=45270676 
+点：8 
+＃评论：2 ]]></description>
+      <guid>https://herman.bearblog.dev/slow-social-media/</guid>
+      <pubDate>Wed, 17 Sep 2025 01:57:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025年9月15日：行业承认AI订阅不起作用的那一天</title>
+      <link>https://blog.kilocode.ai/p/why-ai-subscriptions-cannot-work</link>
+      <description><![CDATA[文章URL： https://blog.kilocode.ai/p/phy-ai-ai-ai-ai-ai-ai-abscriptions-cannot-work-work-work-work 
+注释URL： https://news.ycombinator.com/item？id=45270610 
+点：17 
+＃评论：0 ]]></description>
+      <guid>https://blog.kilocode.ai/p/why-ai-subscriptions-cannot-work</guid>
+      <pubDate>Wed, 17 Sep 2025 01:47:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>IRSSI：Docker Image中的IRC客户端</title>
+      <link>https://hub.docker.com/_/irssi</link>
+      <description><![CDATA[文章URL： https://hub.docker.com/_/irssi   
+注释url： https://news.ycombinator.com/item?id=45270482 
+点：11 
+＃评论：15 ]]></description>
+      <guid>https://hub.docker.com/_/irssi</guid>
+      <pubDate>Wed, 17 Sep 2025 01:26:41 GMT</pubDate>
+    </item>
     <item>
       <title>Apple发布了10年历史的iPhone 6s的iOS 15.8.5安全更新</title>
       <link>https://support.apple.com/en-us/125142</link>
-      <description><![CDATA[文章URL： https://support.apple.com/en-us/125142   
+      <description><![CDATA[文章URL： https：//support.apple.apple.com/en-us/125142   
 注释URL： https://news.ycombinator.com/item？id=452700108 
-点：61 
-＃评论：11 ]]></description>
+点：185 
+＃评论：44 ]]></description>
       <guid>https://support.apple.com/en-us/125142</guid>
       <pubDate>Wed, 17 Sep 2025 00:34:02 GMT</pubDate>
     </item>
     <item>
-      <title>我推出了Mac实用程序；现在，使用我的故事，App Store上有5个克隆</title>
-      <link>https://news.ycombinator.com/item?id=45269827</link>
-      <description><![CDATA[我是一个独奏开发人员，我想分享最近的经验作为有关应用程序商店和独立开发的当前状态的案例研究。几个月前，我建立了一个简单的macos实用程序来解决个人挫败感：验证Mac菜单栏中USB-C电缆和设备的实际速度。它称为USB连接信息，它支持MacOS 13及以上。在启动之前，在Mac App Store上，此特定利基市场中没有其他应用程序。该应用程序意外成功，击中了前100个付费公用事业，并获得了大量有机压力。令人担忧的是，其中一些克隆复制了我的应用商店描述，包括我的个人起源故事，内容涉及我为什么构建应用程序。 一些开源克隆也出现在Github上，我认为这是一个积极的社区贡献。我关心的是，在App Store上的商业克隆正在从事窃。 LLMS降低了进入障碍的多少，使其他人可以在几天之内采用经过验证的想法和营销副本，并生成功能性克隆？这是否表示应用程序策划的转变？我的应用程序的值是简单性。在可以快速复制简单，成功的想法的环境中，护城河是什么？是品牌，创新速度，营销还是其他东西？好奇地听到您的观点。
-
-评论url： https://news.ycombinator.com/item?id=45269827 
-点：35 
-＃评论：16 ]]></description>
-      <guid>https://news.ycombinator.com/item?id=45269827</guid>
-      <pubDate>Tue, 16 Sep 2025 23:51:39 GMT</pubDate>
+      <title>AMDVLK（Vulkan的AMD开源驱动程序）项目已停用</title>
+      <link>https://github.com/GPUOpen-Drivers/AMDVLK/discussions/416</link>
+      <description><![CDATA[文章url： https://github.com/gpuopen-drivers/amdiscuss/amdvlk/amdiscussions/discussions/416 
+注释URL： https://news.ycombinator.com/item？id=45270087 
+点：9 
+＃评论：2 ]]></description>
+      <guid>https://github.com/GPUOpen-Drivers/AMDVLK/discussions/416</guid>
+      <pubDate>Wed, 17 Sep 2025 00:31:04 GMT</pubDate>
     </item>
     <item>
       <title>微型领导者增强随机数生成</title>
       <link>https://discovery.kaust.edu.sa/en/article/25936/micro-leds-boost-random-number-generation/</link>
       <description><![CDATA[文章URL：https://discovery.kaust.edu.sa/en/article/25936/micro-leds-boost-random-number-generation/
 注释URL： https://news.ycombinator.com/item？id=45268575 
-点：12 
-＃评论：5 ]]></description>
+点：20 
+＃评论：6 ]]></description>
       <guid>https://discovery.kaust.edu.sa/en/article/25936/micro-leds-boost-random-number-generation/</guid>
       <pubDate>Tue, 16 Sep 2025 21:48:06 GMT</pubDate>
     </item>
@@ -41,70 +95,20 @@
       <link>https://lenowo.org/viewtopic.php?t=31</link>
       <description><![CDATA[文章URL： https://lenowo.org/viewtopic.php?t=31 
 注释URL： https://news.ycombinator.com/item?id=45268269 
-点：53 
-＃评论：21 ]]></description>
+点：89 
+＃评论：36 ]]></description>
       <guid>https://lenowo.org/viewtopic.php?t=31</guid>
       <pubDate>Tue, 16 Sep 2025 21:24:23 GMT</pubDate>
     </item>
     <item>
-      <title>SQL性能改进：找到正确的查询以修复</title>
-      <link>https://ohdear.app/news-and-updates/sql-performance-improvements-finding-the-right-queries-to-fix-part-1</link>
-      <description><![CDATA[文章URL：https://ohdear.app/news-and-updates/sql-performance-improvements-finding-the-right-queries-to-fix-part-1
-注释url： https://news.ycombinator.com/item?id=45267762 
-点：22 
-＃评论：1 ]]></description>
-      <guid>https://ohdear.app/news-and-updates/sql-performance-improvements-finding-the-right-queries-to-fix-part-1</guid>
-      <pubDate>Tue, 16 Sep 2025 20:43:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>“最讨厌的” CSS功能：cos（）和sin（）</title>
-      <link>https://css-tricks.com/the-most-hated-css-feature-cos-and-sin/</link>
-      <description><![CDATA[文章URL： https://css-tricks.com/the-most-hated-css-feature-cos-feature-cos-cos-and-sin/  
-注释url： https://news.ycombinator.com/item?id=45267336 
-点：60 
-＃评论：38 ]]></description>
-      <guid>https://css-tricks.com/the-most-hated-css-feature-cos-and-sin/</guid>
-      <pubDate>Tue, 16 Sep 2025 20:10:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们应该沥干大沼泽地吗？</title>
-      <link>https://rabbitcavern.substack.com/p/should-we-drain-the-everglades</link>
-      <description><![CDATA[文章url： https://rabbitcavern.substack.com/p/should-we-we-we-we-we-we-we-we-we-drain-therain-the-the-the-the-peerglades一下
-注释URL： https://news.ycombinator.com/item?id=452666854 
-点：67 
-＃评论：53 ]]></description>
-      <guid>https://rabbitcavern.substack.com/p/should-we-drain-the-everglades</guid>
-      <pubDate>Tue, 16 Sep 2025 19:33:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何使框架桌面运行更安静</title>
-      <link>https://noctua.at/en/how-to-make-the-framework-desktop-run-even-quieter</link>
-      <description><![CDATA[文章url： https://noctua.at/no.at/how-to-to-to-to-to-make-to-make-make-make-the-frame-the-frame-th-frame-th-desktop-desktop-desktop-desktop-reun-even-even-even-even-even-even-even-p. 
-注释url： https://news.ycombinator.com/item?id=4526666039 
-点：193 
-＃评论：52 ]]></description>
-      <guid>https://noctua.at/en/how-to-make-the-framework-desktop-run-even-quieter</guid>
-      <pubDate>Tue, 16 Sep 2025 18:33:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>丹麦接近疫苗后，几乎要消除引起癌症的HPV菌株</title>
-      <link>https://www.gavi.org/vaccineswork/denmark-close-wiping-out-leading-cancer-causing-hpv-strains-after-vaccine-roll-out</link>
-      <description><![CDATA[文章URL： https://www.gavi.org/vaccineswork/denmark-close-wiping-clead-cancer-causing-causise-hpv-strains-after-after-vaccine-roll-roll out  
-注释URL： https://news.ycombinator.com/item?id=45265745 
-点：486 
-＃评论：192 ]]></description>
-      <guid>https://www.gavi.org/vaccineswork/denmark-close-wiping-out-leading-cancer-causing-hpv-strains-after-vaccine-roll-out</guid>
-      <pubDate>Tue, 16 Sep 2025 18:12:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Linux过程旅程（2023）[PDF]</title>
-      <link>https://thelearningjourneyebooks.com/wp-content/uploads/2023/09/TheLinuxProcessJourney_v6_Sep2023.pdf</link>
-      <description><![CDATA[文章URL： https://thelearningjourneyeebooks.com/wp-content/uploads/2023/09/thelinuxprocessjourney_v6_sep2023.pdf  
-注释URL： https://news.ycombinator.com/item?id=45265610 
-点：56 
-＃评论：1 ]]></description>
-      <guid>https://thelearningjourneyebooks.com/wp-content/uploads/2023/09/TheLinuxProcessJourney_v6_Sep2023.pdf</guid>
-      <pubDate>Tue, 16 Sep 2025 18:01:42 GMT</pubDate>
+      <title>为C ++辩护</title>
+      <link>https://dayvster.com/blog/in-defense-of-cpp/</link>
+      <description><![CDATA[文章URL： https://dayvster.com/blog/blog/in-defense-of-cpp/   
+注释url： https://news.ycombinator.com/item？id=452666947 
+点：86 
+＃评论：127 ]]></description>
+      <guid>https://dayvster.com/blog/in-defense-of-cpp/</guid>
+      <pubDate>Tue, 16 Sep 2025 19:40:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
