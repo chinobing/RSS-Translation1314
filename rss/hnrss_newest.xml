@@ -4,105 +4,122 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Wed, 17 Sep 2025 15:22:22 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Sep 2025 18:26:44 GMT</lastBuildDate>
     <item>
-      <title>来自Ragie的Bob Remeika取回杰出的一代[音频]</title>
-      <link>https://snyk.io/podcasts/the-secure-developer/retrieval-augmented-generation-with-bob-remeika-from-ragie/</link>
-      <description><![CDATA[文章URL： https://snyk.io/podcasts/the-secure-developer/retrieval-augmented-generated-with-bob-rememeika-from-ragie/  
-注释url： https://news.ycombinator.com/item?id=452276834 
+      <title>NIXOS ISO具有确定的NIX</title>
+      <link>https://github.com/DeterminateSystems/nixos-iso</link>
+      <description><![CDATA[文章URL： https://github.com/determinateystems/nixos-iso-iso    
+评论url： https://news.ycombinator.com/item?id=45279392 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://snyk.io/podcasts/the-secure-developer/retrieval-augmented-generation-with-bob-remeika-from-ragie/</guid>
-      <pubDate>Wed, 17 Sep 2025 15:12:36 GMT</pubDate>
+      <guid>https://github.com/DeterminateSystems/nixos-iso</guid>
+      <pubDate>Wed, 17 Sep 2025 18:17:27 GMT</pubDate>
     </item>
     <item>
-      <title>通过预测市场直接优化优化</title>
-      <link>https://reppo.ai/</link>
-      <description><![CDATA[文章URL： https://reppo.ai/  
-注释url： https://news.ycombinator.com/item？id=452276828 
+      <title>WASM 3.0完成了</title>
+      <link>https://webassembly.org/news/2025-09-17-wasm-3.0/</link>
+      <description><![CDATA[文章url： https://webassembly.org/news/2025-09-09-17-17-17-wasm-3.0/
+注释url： https://news.ycombinator.com/item?id=45279384 
+点：2 
+＃评论：0 ]]></description>
+      <guid>https://webassembly.org/news/2025-09-17-wasm-3.0/</guid>
+      <pubDate>Wed, 17 Sep 2025 18:16:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：Velda  - 直接在Cloud Compute上运行任何命令</title>
+      <link>https://velda.io</link>
+      <description><![CDATA[嗨，我是velda的chuan（ https://velda.io ）。我们正在简化诸如GPU之类的计算的访问。
+为了立即访问GPU进行交互式调试或快速原型制作，许多ML团队依靠昂贵的，始终在开发机器上 - 无论是强大的本地工作站还是具有专用GPU的云VM。这种设置非常适合速度，但是昂贵，而GPU通常会闲置。
+通常的替代方法是缓慢的远程ML工作流程，您需要等待10分钟才能进行Docker构建/推动循环，以测试一个较小的更改。
+我们构建了一个工具，可以为您提供云的功能和灵活性的本地GPU的交互速度，从而跳过高成本和缓慢的工作流程。
+使用我们的CLI VRUN，您可以在远程计算上运行任何命令，然后将输出流回去，就好像它在本地运行一样。 
+例如，在H100上运行培训脚本：
+$ vrun -p gpu-h100-1 python train.py-epochs 100
+工作在一个温暖的工人身上开始〜1秒。没有git提交，没有容器构建，没有CI管道。
+它的工作原理：
+像大多数云IDE一样，您将获得个人持久性Dev-container。这是您依赖性的单一真实来源。您可以使用所有熟悉的工具（APT，PIP，UV，CONDA等）来管理您的环境。
+使用VRUN扩展时，它将安装您的开发容器。只有必要的文件将被发送给工人加速启动。
+在背面，可以插入任何计算源（EC2，GCE，Kubernetes，HPC群集），并通过简单的池名称（GPU-H100-1）访问它。
+我们专注于改善机器学习工作流程的迭代部分。对于开发人员而言，这意味着更快的研究周期。对于公司而言，这可能意味着不需要专门的人GPU而降低成本。它将补充您现有的CI/CD和生产部署系统。
+核心是开源 https://github.com/velda-io/velda 。 
+更多示例： https://velda.io/blog/blog/blog/vrun-is-is-is-is-all-all-you-need 
+在我们的路线图上：我们正在探索托管选项，与其他工作框架，轻量级服务和工作流程更深的集成。
+我们很想听听您的想法和问题。当今团队远程开发工作流程中摩擦的最大要点是什么？
+
+评论url： https://news.ycombinator.com/item?id=45279381 
 点：1 
+＃评论：0 ]]></description>
+      <guid>https://velda.io</guid>
+      <pubDate>Wed, 17 Sep 2025 18:16:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>DeepMind和Openai在Openai Aks ICPC赢得金牌</title>
+      <link>https://codeforces.com/blog/entry/146536</link>
+      <description><![CDATA[文章URL： https://codeforces.com/blog/blog/entry/146536   
+评论url： https://news.ycombinator.com/item./item?id=452793357 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://codeforces.com/blog/entry/146536</guid>
+      <pubDate>Wed, 17 Sep 2025 18:15:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>功率会导致大脑损伤（2017年）</title>
+      <link>https://www.theatlantic.com/magazine/archive/2017/07/power-causes-brain-damage/528711/</link>
+      <description><![CDATA[文章URL：https://www.theatlantic.com/magazine/archive/2017/07/power-causes-brain-damage/528711/
+评论URL： https://news.ycombinator.com/item？id=452279355 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.theatlantic.com/magazine/archive/2017/07/power-causes-brain-damage/528711/</guid>
+      <pubDate>Wed, 17 Sep 2025 18:15:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>我戴着肩膀的一周</title>
+      <link>https://www.theguardian.com/lifeandstyle/2025/sep/17/my-weird-wild-week-of-wearing-shoulder-pals</link>
+      <description><![CDATA[文章URL： https://www.theguardian.com/lifeandstyle/2025/sep/17/my-weird-wild-wild-wild-week-feraining-shoulder-pals  
+注释URL： https://news.ycombinator.com/item？id=452279351 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.theguardian.com/lifeandstyle/2025/sep/17/my-weird-wild-week-of-wearing-shoulder-pals</guid>
+      <pubDate>Wed, 17 Sep 2025 18:14:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>四个节日以245,000美元的价格出售了两个limewire</title>
+      <link>https://www.wsj.com/style/fyre-festival-sale-limewire-billy-mcfarland-892abd24</link>
+      <description><![CDATA[Article URL: https://www.wsj.com/style/fyre-festival-sale-limewire-billy-mcfarland-892abd24
+评论url： https://news.ycombinator.com/item?id=452793335 
+点：2 
+＃评论：0 ]]></description>
+      <guid>https://www.wsj.com/style/fyre-festival-sale-limewire-billy-mcfarland-892abd24</guid>
+      <pubDate>Wed, 17 Sep 2025 18:13:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>将类似CAD的工作流程带到网状环境</title>
+      <link>https://www.cadsketcher.com</link>
+      <description><![CDATA[文章URL： https://www.cadsketcher.com   
+注释URL： https://news.ycombinator.com/item?id=45279329 
+点：2 
 ＃评论：1 ]]></description>
-      <guid>https://reppo.ai/</guid>
-      <pubDate>Wed, 17 Sep 2025 15:12:10 GMT</pubDate>
+      <guid>https://www.cadsketcher.com</guid>
+      <pubDate>Wed, 17 Sep 2025 18:13:09 GMT</pubDate>
     </item>
     <item>
-      <title>麻省理工学院地质学家发现地震期间能量去向</title>
-      <link>https://news.mit.edu/2025/mit-geologists-discover-where-energy-goes-during-earthquake-0916</link>
-      <description><![CDATA[文章URL： https://news.mit.mit.mit.mit.mit/2025/mit-geologist-discover-where-where-where-where-where-where-where-nerergy-goes-goes-goes-goees-dokees-earthquake-earthquake-earthquake-abe    注释url： https://news.ycombinator.com/item?id=45276817 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://news.mit.edu/2025/mit-geologists-discover-where-energy-goes-during-earthquake-0916</guid>
-      <pubDate>Wed, 17 Sep 2025 15:11:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>SARE，REST工具的Qunatum-Safe加密</title>
-      <link>https://sareproject.github.io/</link>
-      <description><![CDATA[文章URL： https://sareproject.github.io/   
-注释url： https://news.ycombinator.com/item?id=452276803 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://sareproject.github.io/</guid>
-      <pubDate>Wed, 17 Sep 2025 15:10:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>深入研究GO的内存分配器</title>
-      <link>https://nghiant3223.github.io/2025/06/03/memory_allocation_in_go.html</link>
-      <description><![CDATA[文章url： https://nghiant322222222222222233.github.io/2025/2025/2025/06/06/03/memory_ally_lo_.allodagocation_lgo.a&gt;
-评论url： https://news.ycombinator.com/item?id=45276794 
-点：1 
+      <title>地标纸中揭示了DeepSeek AI模型的秘密</title>
+      <link>https://www.nature.com/articles/d41586-025-03015-6</link>
+      <description><![CDATA[文章url：注释url： https://news.ycombinator.com/item?id=45279322 
+点：2 
 ＃评论：1 ]]></description>
-      <guid>https://nghiant3223.github.io/2025/06/03/memory_allocation_in_go.html</guid>
-      <pubDate>Wed, 17 Sep 2025 15:09:40 GMT</pubDate>
+      <guid>https://www.nature.com/articles/d41586-025-03015-6</guid>
+      <pubDate>Wed, 17 Sep 2025 18:12:31 GMT</pubDate>
     </item>
     <item>
-      <title>公理空间旨在使用轨道数据中心节点国际空间站</title>
-      <link>https://www.theregister.com/2025/09/17/axiom_space_aims_for_orbit/</link>
-      <description><![CDATA[文章url： https://wwwww.theregers.com/2025/2025/2025/09/17/17/axiom_space_eraims_for_orbit/p&gt;
-注释url： https://news.ycombinator.com/item?id=45276786 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.theregister.com/2025/09/17/axiom_space_aims_for_orbit/</guid>
-      <pubDate>Wed, 17 Sep 2025 15:09:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>CVE-2025-43330：使用字体文件从沙盒中脱离</title>
-      <link>https://bsssq.xyz/posts/sandbox/</link>
-      <description><![CDATA[文章URL： https://bsssq.xyz/posts/sandbox/   
-注释URL： https://news.ycombinator.com/item?id=45276778 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://bsssq.xyz/posts/sandbox/</guid>
-      <pubDate>Wed, 17 Sep 2025 15:08:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>主要健康保险公司说，会员将继续覆盖疫苗</title>
-      <link>https://www.statnews.com/2025/09/17/ahip-vaccine-insurance-acip-coverage/</link>
-      <description><![CDATA[文章URL： https://wwwww.statnews.com/2025/2025/09/17/17/17/ahip-cine-cine-cin-cine-cine-cine-cine-cine-cine-cip/ahip/ahip/ahip/ahip/aplance/apprance 
-注释URL： https://news.ycombinator.com/item?id=45276772 
+      <title>美联储将利率降低季度</title>
+      <link>https://www.ft.com/content/f1d4522b-331e-45d5-b676-24dc5b8e3c92</link>
+      <description><![CDATA[文章URL： https://www.ft.com/content/f1d4522b-331e-45d5-b676-24dc5b8e3c92  
+注释URL： https://news.ycombinator.com/item？id=45279308 
 点：3 
 ＃评论：0 ]]></description>
-      <guid>https://www.statnews.com/2025/09/17/ahip-vaccine-insurance-acip-coverage/</guid>
-      <pubDate>Wed, 17 Sep 2025 15:08:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>重新运行0.25  - 透明度，表滤波和初始MCAP支持</title>
-      <link>https://github.com/rerun-io/rerun/releases/tag/0.25.0</link>
-      <description><![CDATA[文章url： https：//github.com/rerun-io/rerun/rerun/rerun/releases/releases/tag/tag/0.25.0.25.0  
-评论url： https://news.ycombinator.com/item？id=452276728 
-点：1 
-＃评论：1 ]]></description>
-      <guid>https://github.com/rerun-io/rerun/releases/tag/0.25.0</guid>
-      <pubDate>Wed, 17 Sep 2025 15:04:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>代码是您的敌人（2013）</title>
-      <link>https://longform.asmartbear.com/code-is-your-enemy/</link>
-      <description><![CDATA[文章URL： https://longform.asmart.ashartbear.asmartbear.com/code-is-is-is-your-enemy/    
-注释URL： https://news.ycombinator.com/item?id=45276700 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://longform.asmartbear.com/code-is-your-enemy/</guid>
-      <pubDate>Wed, 17 Sep 2025 15:02:08 GMT</pubDate>
+      <guid>https://www.ft.com/content/f1d4522b-331e-45d5-b676-24dc5b8e3c92</guid>
+      <pubDate>Wed, 17 Sep 2025 18:11:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
