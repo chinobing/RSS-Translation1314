@@ -4,106 +4,114 @@
     <title>黑客新闻：首页</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Tue, 23 Sep 2025 12:39:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Sep 2025 15:19:37 GMT</lastBuildDate>
     <item>
-      <title>锌（YC W14）正在雇用高级后端工程师（NYC）</title>
-      <link>https://app.dover.com/apply/Zinc/4d32fdb9-c3e6-4f84-a4a2-12c80018fe8f/?rs=76643084</link>
-      <description><![CDATA[文章URL： https://app.dover.com/apply/zinc/4d32fdb9-c3e6-4f84-a4a2-12c80018fe8fe8f/?rs = 76643084   
-注释url： https://news.ycombinator.com/item？id=45345742 
-点：0 
+      <title>启动HN：Strata（YC X25） - 一个用于AI的MCP服务器来处理数千个工具</title>
+      <link>https://news.ycombinator.com/item?id=45347914</link>
+      <description><![CDATA[嘿，hn！我们是klavis ai（ https://www.klavis.ai/ ），我们我们正在启动Strata，这是一家开放式MCP服务器，可帮助AI代理使用成千上万的API工具而不会被挤压。地层没有立即显示所有可用的工具，而是根据AI的实际需求逐步展示它们。作为Google Gemini的前高级SWE的工具使用团队，我亲眼目睹了AI如何与工具斗争。如果您已经建造了AI代理，则可能会撞到相同的墙壁：（1）AI代理商难以从数百种选项中挑选正确的API。 （2）工具描述和信息消耗大量令牌预算。 （3）大多数服务器在40〜50个工具上限制了这些问题，以避免这些问题，从而限制了您可以构建的东西。而不是预先使用所有事物淹没AI，而是像人类一样工作。它指导AI代理人发现相关类别，然后列出这些类别中的可用操作。它依赖于LLMS的推理来逐步研究以找到所需的确切工具。以下是一些示例：  github查询：“在我们的主要存储库中找到我的陈旧拉力请求”   strata：ai模型识别github→显示类别（存储库，问题，问题，PRS，操作）→AI→AI→AI→prs→prs→SELECT pr selectific priptific Action_eectife list_pull_pull_pull_pull_redecests_pull_requests→ list_pull_requests with the right parameters.Jira query: &quot;Create a bug ticket in the &#39;MOBILE&#39; project about the app crashing on startup.&quot;Strata: AI identifies Jira → Shows categories (Projects, Issues, Sprints) → AI selects Issues → Shows actions (create_issue, get_issue) → AI selects create_issue → Shows create_issue详细信息→使用正确的参数执行。 send_message详细信息→使用正确的参数执行。这种渐进式方法解锁了巨大的优势：深度。 While most integrations offer a handful of high-level tools, Strata can expose hundreds of granular features for a single app like GitHub, Jira, etc. Your AI agent can finally access the deep, specific features that real workflows require, without getting lost in a sea of​​ options.Under the hood, Strata manages authentication tokens and includes a built-in search tool for the agent to dig into documentation if it gets stuck.On the MCPMark https://mcpmark.ai/leaderboard/mcp, Strata achieves +15.2% higher pass@1 rate vs the official GitHub server and +13.4% higher pass@1 rate vs the official Notion server.在人类评估测试中，它在复杂的，现实世界的多应用工作流程上达到了83％+的准确性。这是一个快速演示，可以观看Strata在每个步骤中自动选择正确的工具： https://www.youtube.com/watch?v=n00cy9ov_fm 。 rel =“ nofollow”&gt; https://github.com/klavis-ai/klavis 。用于团队或生产使用更多功能，请访问我们的网站： https://www.klavis.ai&gt;一键添加地层，VS代码或任何MCP兼容的应用程序。您也可以使用我们的API轻松插入AI应用程序。我们期待您的评论。感谢您的阅读！
+
+注释url： https://news.ycombinator.com/item？id=45347914 
+点：9 
 ＃评论：0 ]]></description>
-      <guid>https://app.dover.com/apply/Zinc/4d32fdb9-c3e6-4f84-a4a2-12c80018fe8f/?rs=76643084</guid>
-      <pubDate>Tue, 23 Sep 2025 12:00:00 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45347914</guid>
+      <pubDate>Tue, 23 Sep 2025 14:52:07 GMT</pubDate>
     </item>
     <item>
-      <title>在联合国附近发现了能够崩溃的电池网络的设备的缓存</title>
-      <link>https://www.nytimes.com/2025/09/23/us/politics/secret-service-sim-cards-servers-un.html</link>
-      <description><![CDATA[文章URL： https://www.nytimes.com/2025/09/23/us/politics/secret-service-sim-cards-servers-servers-un.html  
-注释url： https://news.ycombinator.com/item？id=453455514 
-点：41 
-＃评论：14 ]]></description>
-      <guid>https://www.nytimes.com/2025/09/23/us/politics/secret-service-sim-cards-servers-un.html</guid>
-      <pubDate>Tue, 23 Sep 2025 11:29:13 GMT</pubDate>
+      <title>美国的邮政编码图</title>
+      <link>https://engaging-data.com/us-zip-code-map/</link>
+      <description><![CDATA[文章URL： https://engaging-data.com/us-zip-code-map/   
+注释URL： https://news.ycombinator.com/item?id=45347880 
+点：8 
+＃评论：2 ]]></description>
+      <guid>https://engaging-data.com/us-zip-code-map/</guid>
+      <pubDate>Tue, 23 Sep 2025 14:50:06 GMT</pubDate>
     </item>
     <item>
-      <title>步行密歇根城（印第安纳州）</title>
-      <link>https://walkingtheworld.substack.com/p/walking-michigan-city-indiana</link>
-      <description><![CDATA[文章url： https：//walkingtheworld.substack.com/p/walking-michigan-city-ingigan-city-indiana 
-注释url： https://news.ycombinator.com/item?id=45345237 
-点：27 
-＃评论：1 ]]></description>
-      <guid>https://walkingtheworld.substack.com/p/walking-michigan-city-indiana</guid>
-      <pubDate>Tue, 23 Sep 2025 10:44:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLMS中的结构化输出</title>
-      <link>https://parthsareen.com/blog.html#sampling.md</link>
-      <description><![CDATA[文章URL： https://parthsareen.com/blog.html#sampling.md 
-注释URL： https://news.ycombinator.com/item？id=45345207 
-点：31 
-＃评论：3 ]]></description>
-      <guid>https://parthsareen.com/blog.html#sampling.md</guid>
-      <pubDate>Tue, 23 Sep 2025 10:40:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>HYB错误：混合度量的绝对和相对误差</title>
-      <link>https://arxiv.org/abs/2403.07492</link>
-      <description><![CDATA[文章URL： https://arxiv.org/abs/2403.07492   
-注释URL： https://news.ycombinator.com/item？id=45345148 
-点：5 
+      <title>Show HN：Kekkai  -  GO中的一个简单快速的文件完整性监视工具</title>
+      <link>https://github.com/catatsuy/kekkai</link>
+      <description><![CDATA[我在生产环境中构建了一个称为 * kekkai *的工具，用于文件完整性监视。
+它记录了部署过程中的文件哈希，然后验证它们以检测未经授权的修改（例如，从OS命令注入或篡改中）。 为什么它很重要：*许多Web应用程序（PHP，Ruby，Python，Python等）在AWS EC2上都需要在AWS EC2上进行轻度的方式来确认其代码没有更改。
+*依靠元数据的传统方法通常会产生误报。
+* Kekkai仅检查文件内容，因此可靠地检测到实际更改。
+*我已经将其部署到生产中的EC2 PHP应用程序中，并且到目前为止运行顺利。
+* * Symlink保护 *（检测掉期/更改）
+* *安全的S3存储 *（部署服务器仅写入，应用程序服务器仅读取）
+* *单次二进制 *具有最小依赖关系会喜欢从其他运行ec2上运行应用程序或管理文件完整性的反馈。
+
+注释url： https://news.ycombinator.com/item./item?id=453477714 
+点：3 
 ＃评论：0 ]]></description>
-      <guid>https://arxiv.org/abs/2403.07492</guid>
-      <pubDate>Tue, 23 Sep 2025 10:30:42 GMT</pubDate>
+      <guid>https://github.com/catatsuy/kekkai</guid>
+      <pubDate>Tue, 23 Sep 2025 14:39:59 GMT</pubDate>
     </item>
     <item>
-      <title>室内表面充当有害化学物质的海绵</title>
-      <link>https://news.uci.edu/2025/09/22/indoor-surfaces-act-as-massive-sponges-for-harmful-chemicals-uc-irvine-led-study-shows/</link>
-      <description><![CDATA[文章URL： https://news.uci.edu/2025/09/22/indoor-surfaces-act-act-as-s-massive-sponges-for-harmful-for-shemicals-uc-uc-irvine-led-study-study-study-shows/   
-注释url： https://news.ycombinator.com/item？id=45344756 
-点：30 
-＃评论：6 ]]></description>
-      <guid>https://news.uci.edu/2025/09/22/indoor-surfaces-act-as-massive-sponges-for-harmful-chemicals-uc-irvine-led-study-shows/</guid>
-      <pubDate>Tue, 23 Sep 2025 09:33:34 GMT</pubDate>
+      <title>代理将简单的关键字搜索变成引人注目的搜索体验</title>
+      <link>https://softwaredoug.com/blog/2025/09/22/reasoning-agents-need-bad-search</link>
+      <description><![CDATA[文章URL： https://softwaredoug.com/blog/blog/2025/2025/09/09/22/reasocy-anques-searpent-neques-search-neques-bad-need-bad-need-bad-need-bad-need-bad-need-bad-need-bad-bad-need-bad一下
+注释url： https://news.ycombinator.com/item？id=45347363 
+点：12 
+＃评论：10 ]]></description>
+      <guid>https://softwaredoug.com/blog/2025/09/22/reasoning-agents-need-bad-search</guid>
+      <pubDate>Tue, 23 Sep 2025 14:17:23 GMT</pubDate>
     </item>
     <item>
-      <title>GO增加了Valgrind支持</title>
-      <link>https://go-review.googlesource.com/c/go/+/674077</link>
-      <description><![CDATA[文章URL： https://go-review.googlesource.com/c/co/go/go/ +/+/+674077 
-注释url： https://news.ycombinator.com/item？id=45344708 
-点：124 
-＃评论：15 ]]></description>
-      <guid>https://go-review.googlesource.com/c/go/+/674077</guid>
-      <pubDate>Tue, 23 Sep 2025 09:26:57 GMT</pubDate>
+      <title>X402  - 互联网本地付款的开放协议</title>
+      <link>https://www.x402.org/</link>
+      <description><![CDATA[文章URL： https://www.x402.org/   
+注释URL： https://news.ycombinator.com/item?id=453473335 
+点：24 
+＃评论：5 ]]></description>
+      <guid>https://www.x402.org/</guid>
+      <pubDate>Tue, 23 Sep 2025 14:14:46 GMT</pubDate>
     </item>
     <item>
-      <title>地狱中的yaml文件</title>
-      <link>https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell</link>
-      <description><![CDATA[文章URL： https://ruudvanasseldonk.com/2023/01/01/11/11/11/-yaml-document-from-document-from-hell  
-注释url： https://news.ycombinator.com/item./item?id=453444554 
-点：48 
-＃评论：18 ]]></description>
-      <guid>https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell</guid>
-      <pubDate>Tue, 23 Sep 2025 09:04:43 GMT</pubDate>
+      <title>开发人员如何使用AI？在我们的2025 Dora报告中</title>
+      <link>https://blog.google/technology/developers/dora-report-2025/</link>
+      <description><![CDATA[文章URL：评论url： https://news.ycombinator.com/item？id=45347197 
+点：20 
+＃评论：8 ]]></description>
+      <guid>https://blog.google/technology/developers/dora-report-2025/</guid>
+      <pubDate>Tue, 23 Sep 2025 14:02:49 GMT</pubDate>
     </item>
     <item>
-      <title>拳头</title>
-      <link>https://www.scottsmitelli.com/articles/altoids-by-the-fistful/</link>
-      <description><![CDATA[文章URL： https://www.scottsmitelli.com/articles/articles/alticles/altoids-by-thoids-by-the-fistul/-the-fistul/      
-注释URL： https://news.ycombinator.com/item?id=45343449 
-点：111 
-＃评论：52 ]]></description>
-      <guid>https://www.scottsmitelli.com/articles/altoids-by-the-fistful/</guid>
-      <pubDate>Tue, 23 Sep 2025 06:24:50 GMT</pubDate>
+      <title>OpenDataloader-PDF：用于结构化PDF解析的开源工具</title>
+      <link>https://github.com/opendataloader-project/opendataloader-pdf</link>
+      <description><![CDATA[文章URL： https://github.com/opendataloader-project/opendataloadataloadataloadataloadataloader-pdf 
+注释url： https://news.ycombinator.com/item?id=45347147 
+点：7 
+＃评论：0 ]]></description>
+      <guid>https://github.com/opendataloader-project/opendataloader-pdf</guid>
+      <pubDate>Tue, 23 Sep 2025 13:58:48 GMT</pubDate>
     </item>
     <item>
-      <title>从位置='伊朗'的用户删除；</title>
-      <link>https://gist.github.com/avestura/ce2aa6e55dad783b1aba946161d5fef4</link>
-      <description><![CDATA[文章URL： https://gist.gith.github.com/avestura/ce2aa6e66e55daddad783b1aba9466161616161da.46 e55daddad783b1aba946161daa
-评论URL： https://news.ycombinator.com/item？id=4534343108 
-点：623 
-＃评论：462 ]]></description>
-      <guid>https://gist.github.com/avestura/ce2aa6e55dad783b1aba946161d5fef4</guid>
-      <pubDate>Tue, 23 Sep 2025 05:30:28 GMT</pubDate>
+      <title>Orangepi 5 Ultra评论：ARM64 SBC Powerhouse</title>
+      <link>https://boilingsteam.com/orange-pi-5-ultra-review/</link>
+      <description><![CDATA[文章URL： https://boilingsteam.com/orange-pi-5-ultra-review/   
+注释URL： https://news.ycombinator.com/item?id=45347089 
+点：25 
+＃评论：8 ]]></description>
+      <guid>https://boilingsteam.com/orange-pi-5-ultra-review/</guid>
+      <pubDate>Tue, 23 Sep 2025 13:54:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>室友的战争：为什么分享房屋非法？</title>
+      <link>https://marginalrevolution.com/marginalrevolution/2025/08/the-war-on-roommates-why-is-sharing-a-house-illegal.html</link>
+      <description><![CDATA[文章URL： https://marginalrevolution.com/marginalrevolution/2025/08/the-war-on-on-on-roomates-why-is-sharing-a-sharing-a-house-illegal.html  
+评论url： https://news.ycombinator.com/item?id=45347043 
+点：91 
+＃评论：116 ]]></description>
+      <guid>https://marginalrevolution.com/marginalrevolution/2025/08/the-war-on-roommates-why-is-sharing-a-house-illegal.html</guid>
+      <pubDate>Tue, 23 Sep 2025 13:51:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mrbeast未能披露广告，并收集了不当的儿童数据</title>
+      <link>https://bbbprograms.org/media/newsroom/decisions/mrbeast-feastables</link>
+      <description><![CDATA[文章url： https://bbbbbbprogms.org/media/newsroom/newsroom/decisions/mrbeast-feast-/mrbeast-feastables 
+注释URL： https://news.ycombinator.com/item?id=45346950 
+点：218 
+＃评论：79 ]]></description>
+      <guid>https://bbbprograms.org/media/newsroom/decisions/mrbeast-feastables</guid>
+      <pubDate>Tue, 23 Sep 2025 13:44:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
