@@ -4,111 +4,111 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 29 Sep 2025 12:39:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Sep 2025 21:15:28 GMT</lastBuildDate>
     <item>
-      <title>像前端</title>
-      <link>https://www.reddit.com/r/programming/comments/1ntgwni/excel_as_a_frontend/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/macrohard_certified     [link]   ＆＃32;   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ntgwni/excel_as_a_frontend/</guid>
-      <pubDate>Mon, 29 Sep 2025 12:39:10 GMT</pubDate>
+      <title>我将参加我的第一个黑客马拉松，我真的很紧张。</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntu527/i_am_going_to_participate_in_my_first_hackathon/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  这似乎是一种开放格式的黑客马拉松，这使我更加紧张，因为我不知道如何准备。有人知道我应该如何准备甚至想与我合作吗？我真的很想学习！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/fird-internal-3354       [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntu527/i_am_going_to_participate_in_my_first_hackathon/</guid>
+      <pubDate>Mon, 29 Sep 2025 21:08:38 GMT</pubDate>
     </item>
     <item>
-      <title>为大脑，心脏和睡眠而战</title>
-      <link>https://www.reddit.com/r/programming/comments/1ntgkgk/fighting_for_brain_heart_and_sleep/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/cekrem      [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ntgkgk/fighting_for_brain_heart_and_sleep/</guid>
-      <pubDate>Mon, 29 Sep 2025 12:23:52 GMT</pubDate>
+      <title>Postgres是可靠的 - 我将坚持在redis兼容的数据库中</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntszdf/postgres_is_reliable_ill_persist_in/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  刚刚灵感 https://dizzy.zone/2025/2025/2025/24/redis-is-is-is-is-is-fast-is-fast-ill-cache-in-postgres/--------iis-fast-ill-cache-in-postgres/ Postgres是一个可靠且通用的数据库，但是像每个系统一样，它具有边界。一旦工作负载超出了单个节点的限制，了解压力点的位置。 两个常见的瓶颈脱颖而出：     热数据增长  - 随着活动数据集的扩展，buffer池可以限制     性能。  对于第一种情况，通常会引入Postgres读取复制品。 But they’re not always ideal: replicas are still tied to a single node, they aren’t a shared cache, they lag behind (eventual consistency), and in practice they’re slower than purpose-built caching layers like Redis. For the second case, scaling write throughput typically means moving toward a distributed database rather than leaning on sharding logic in the application.理想情况下，应用程序不必仅仅因为数据和流量增长而重写。 这就是我一直在探索第三种方法的地方：默认情况下耐用的redis兼容系统。因为Redis提供了灵活的数据结构和熟悉的API，因此将其与重做日志，内存和存储之间的耐久性和可扩展性相结合，可以用作某些工作负载中的缓存和数据库。在所有情况下，这都不是Postgres的替代品，但是在某些情况下，它可能更合适。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/no_lock7126     ＆＃32;   [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntszdf/postgres_is_reliable_ill_persist_in/</guid>
+      <pubDate>Mon, 29 Sep 2025 20:25:04 GMT</pubDate>
     </item>
     <item>
-      <title>写“愚蠢的”代码</title>
-      <link>https://www.reddit.com/r/programming/comments/1ntexbp/write_the_stupid_code/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/garethx      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ntexbp/write_the_stupid_code/</guid>
-      <pubDate>Mon, 29 Sep 2025 10:59:03 GMT</pubDate>
+      <title>英特尔的原始64位扩展X86</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntsl3l/intels_original_64bit_extensions_for_x86/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/simon_o       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntsl3l/intels_original_64bit_extensions_for_x86/</guid>
+      <pubDate>Mon, 29 Sep 2025 20:09:53 GMT</pubDate>
     </item>
     <item>
-      <title>数据质量势在必行：为什么干净的数据是您企业最强大的资产</title>
-      <link>https://www.reddit.com/r/programming/comments/1nteckt/the_data_quality_imperative_why_clean_data_is/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  嘿 r/programming ！由于数据渗透到您的系统中，曾经遇到过重大头痛吗？巨额成本是一个普遍的问题，从分析到合规性都影响了所有问题。我一直在研究主动解决方案，特别是针对电子邮件，移动，IP和浏览器数据等事项的API驱动验证。似乎在入境点遇到问题要比以后清理混乱更有效。  您对应用程序内实施连续数据验证有何看法？  有任何喜欢的工具或最佳实践以维持数据质量？  讨论！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/usable-floor9213       [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nteckt/the_data_quality_imperative_why_clean_data_is/</guid>
-      <pubDate>Mon, 29 Sep 2025 10:23:56 GMT</pubDate>
+      <title>亲爱的C＃开发人员，只有＃@！＆ing学习JavaScript</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntpyz1/dear_c_developers_just_ing_learn_javascript/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/congolomera      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntpyz1/dear_c_developers_just_ing_learn_javascript/</guid>
+      <pubDate>Mon, 29 Sep 2025 18:31:28 GMT</pubDate>
     </item>
     <item>
-      <title>这实际上是一个非常好的免费研讨会</title>
-      <link>https://www.reddit.com/r/programming/comments/1ntcenk/this_is_actually_a_really_good_free_workshop/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  免费80分钟的在线研讨会，称为&#39;如何理解代码&#39;的价值&#39;它涵盖了：       它是互动性的，由行业专家领导，完全免费。如果您曾经不得不解释为什么您的团队的工作对利益相关者很重要的话。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/hdev-       [&gt;]   [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ntcenk/this_is_actually_a_really_good_free_workshop/</guid>
-      <pubDate>Mon, 29 Sep 2025 08:14:38 GMT</pubDate>
+      <title>Ruby如何从轨道上脱离</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntpsau/how_ruby_went_off_the_rails/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;   ruby​​gems周围的戏剧  &lt;！&lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/disneylegalteam      [commist]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntpsau/how_ruby_went_off_the_rails/</guid>
+      <pubDate>Mon, 29 Sep 2025 18:24:30 GMT</pubDate>
     </item>
     <item>
-      <title>PostgreSQL 18中的累积统计数据</title>
-      <link>https://www.reddit.com/r/programming/comments/1ntcblx/cumulative_statistics_in_postgresql_18/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/talktomeabouttech     [link]   ＆＃32;   [注释]   ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ntcblx/cumulative_statistics_in_postgresql_18/</guid>
-      <pubDate>Mon, 29 Sep 2025 08:08:53 GMT</pubDate>
+      <title>内部NVIDIA GPU：高性能matmul内核的解剖结构</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntprvz/inside_nvidia_gpus_anatomy_of_high_performance/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/mttd       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntprvz/inside_nvidia_gpus_anatomy_of_high_performance/</guid>
+      <pubDate>Mon, 29 Sep 2025 18:24:03 GMT</pubDate>
     </item>
     <item>
-      <title>gtranslate-速度的翻译</title>
-      <link>https://www.reddit.com/r/programming/comments/1ntc2f4/gtranslate_translations_at_the_speed_of_tought/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;   gtranslate-以拖拉的速度翻译   以思维速度进行翻译的开源，现代和便利的跨平台应用。      用 用         功能   将文本转换为任何语言 安全自动updater  系统托盘＆amp;自动启动启动   可用于     Windows（MSI）  macos    linux（beta，由于某些陶里限制）         源代码   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/预算 -  bicycle4121        [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ntc2f4/gtranslate_translations_at_the_speed_of_tought/</guid>
-      <pubDate>Mon, 29 Sep 2025 07:51:39 GMT</pubDate>
+      <title>使您的代码库变得更好将使您的代码覆盖范围更糟</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntosc4/making_your_code_base_better_will_make_your_code/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32;态href =“ https://stackoverflow.blog/2025/09/29/making-your-code-base-base-will-will-will-make-make-your-code-coverage-worse/”&gt; [link]    32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntosc4/making_your_code_base_better_will_make_your_code/</guid>
+      <pubDate>Mon, 29 Sep 2025 17:47:09 GMT</pubDate>
     </item>
     <item>
-      <title>高质量的代码？</title>
-      <link>https://www.reddit.com/r/programming/comments/1ntbea5/a_good_quality_code/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  这是我的第一个“算法”因此，任何建议都会非常有用，谢谢  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/muhammed_fpi      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ntbea5/a_good_quality_code/</guid>
-      <pubDate>Mon, 29 Sep 2025 07:06:01 GMT</pubDate>
+      <title>使用kafka connect构建文件到文件流媒体管道</title>
+      <link>https://www.reddit.com/r/programming/comments/1nto2zd/built_a_filetofile_streaming_pipeline_with_kafka/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好，多亏了对我以前的Kafka基本帖子的压倒性响应，我决定探索更高级的概念，从Kafka Connect开始。希望您能发现这个博客有见地和愉快的！ 如果您是Kafka的新手，我鼓励您阅读这篇文章并分享您的反馈，我很想听听您的想法。 谢谢！ 😊  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/dhairya-chauhan      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nto2zd/built_a_filetofile_streaming_pipeline_with_kafka/</guid>
+      <pubDate>Mon, 29 Sep 2025 17:20:42 GMT</pubDate>
     </item>
     <item>
-      <title>我的技术旅程</title>
-      <link>https://www.reddit.com/r/programming/comments/1ntb5u1/my_journey_into_tech/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/ranger0004       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1ntb5u1/my_journey_into_tech/</guid>
-      <pubDate>Mon, 29 Sep 2025 06:50:54 GMT</pubDate>
+      <title>通过简单的程序和快速可视化了解新的图灵机结果</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntn8gy/understanding_new_turing_machine_results_with/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  一个新的演讲解释了繁忙的海狸结果，在一个简短的程序中显示了如何计算 10↑↑15 ，并分享了有效地可视化Turing Machines 的技术。   &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/carlk22      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntn8gy/understanding_new_turing_machine_results_with/</guid>
+      <pubDate>Mon, 29 Sep 2025 16:49:49 GMT</pubDate>
     </item>
     <item>
-      <title>功利计划的去世</title>
-      <link>https://www.reddit.com/r/programming/comments/1nt8n5j/the_death_of_utilitarian_programming/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/pyeri      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nt8n5j/the_death_of_utilitarian_programming/</guid>
-      <pubDate>Mon, 29 Sep 2025 04:16:31 GMT</pubDate>
+      <title>释放编排：2025年实用指南</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntmq69/release_orchestration_a_practical_guide_for_2025/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  大家好， 我一直在撰写有关发行编排技术的简短文章。我认为我会在这里发布它，以防万一它可以帮助任何人。 该系列的目的是提供有用的摘要，以摘要在当代发展环境中计划发行的各种方法和策略。 如果您对释放编排有任何想法或经验，请与我们分享！提交由＆＃32;  /u/LevelRelationship732   [link] ＆＃32;   [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntmq69/release_orchestration_a_practical_guide_for_2025/</guid>
+      <pubDate>Mon, 29 Sep 2025 16:30:32 GMT</pubDate>
     </item>
     <item>
-      <title>测试驱动的开发：坏例子</title>
-      <link>https://www.reddit.com/r/programming/comments/1nt7jso/test_driven_development_bad_example/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  看哪，我最长的文章，其中我回顾了肯特·贝克（Kent Beck）的2003年书，《测试驱动的开发：以身作用。这很糟糕，但已经很长时间了。 享受！  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/the_axolot      [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nt7jso/test_driven_development_bad_example/</guid>
-      <pubDate>Mon, 29 Sep 2025 03:17:38 GMT</pubDate>
+      <title>Sqlite索引的微妙之处：了解查询计划者怪癖产生了35％的速度</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntm6vo/subtleties_of_sqlite_indexes_understanding_query/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/emschwartz      [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntm6vo/subtleties_of_sqlite_indexes_understanding_query/</guid>
+      <pubDate>Mon, 29 Sep 2025 16:10:19 GMT</pubDate>
     </item>
     <item>
-      <title>用Sonic Pi / YT@codewithcypert编程Cyber​​punk Soundscape</title>
-      <link>https://www.reddit.com/r/programming/comments/1nt73tn/programming_a_cyberpunk_soundscape_with_sonic_pi/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/captainsketchy       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nt73tn/programming_a_cyberpunk_soundscape_with_sonic_pi/</guid>
-      <pubDate>Mon, 29 Sep 2025 02:54:27 GMT</pubDate>
+      <title>我学到了建立网络本地编程语言的知识</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntkzfj/what_i_learned_building_a_webnative_programming/</link>
+      <description><![CDATA[&lt;！ -  sc_off-&gt;  在过去的几个月中，我设定了一个挑战：我可以设计一种编程语言，其中Web开发在语法级别“内置”？我不想使用通用语言（Python，JS等）再加上一个框架，而是想要HTML和CSS是一流公民的东西。该实验最终成为了我称为Veyra的Alpha项目，但对我来说，真正的价值是在此过程中学到的技术课程中。 1。从头开始写一个Lexer和解析器，我从基础知识开始：一个将源代码和解析器构建AST的Lexer。课程：错误处理比令牌化本身要难。来自解析器的明确错误消息的价值不仅仅是花式语法功能。我尝试了递归下降解析，因为语法很简单。 2。使HTML和CSS的一部分，而不是将HTML嵌入字符串，而是尝试了这种语法：复制代码veyra html html {h1（＆quot&#39;hello，world！＆quot&#39;）p（“这是网络本地语法。教训：将HTML视为一流的结构，感觉很优雅，但语法使语法复杂化。平衡简单与表现力是棘手的。 3.设计一个包装管理器我构建了一个轻量级软件包工具（Veyra-PM）。课程：即使是基本的软件包管理器也很快就会遇到依赖项解决问题。我必须尽早决定是在Python的生态系统上重新发明还是背负。 4。解释器和运行时解释器直接执行AST。课程：性能对于玩具计划来说是“足够好”的，但是如果没有优化，则不会扩展。设计既最小又可扩展的运行时是其自身的挑战。 5。平衡视觉与现实愿景：一种降低样板的“现代，网络本地”语言。现实：即使是让玩具口译员可靠地运行需要数周的调试。最难的部分不是编码，而是决定不包括的内容。我希望来自其他尝试过构建语言或运行时间的其他人的反馈：如果您设计了网络第一语言，您将如何构建语法？保持独立或与现有生态系统（例如Python软件包）进行互动互动更好？新语言的“玩具”和“可用”之间的甜点在哪里？如果您很好奇，我在GitHub（MIT许可）上分享了代码和用于实验的PYPI软件包：github： https://github.com/nishal21/veyra21/veyra  pypi  pypi： https://pypi.org/project/project/veyra/ 它仍然很alpha（v0.1.1），但是我继续迭代。对我来说，该实验是了解解析，运行时设计以及从头开始构建任何“网络本地”的挑战的好方法。  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/radiant-ad-9540       [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntkzfj/what_i_learned_building_a_webnative_programming/</guid>
+      <pubDate>Mon, 29 Sep 2025 15:25:02 GMT</pubDate>
     </item>
     <item>
-      <title>Salesforce的Tableau是否应该获得“可视化层次数据”的专利？</title>
-      <link>https://www.reddit.com/r/programming/comments/1nt1574/should_salesforces_tableau_be_granted_a_patent_on/</link>
-      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/newworkkarma       [注释]  ]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nt1574/should_salesforces_tableau_be_granted_a_patent_on/</guid>
-      <pubDate>Sun, 28 Sep 2025 22:07:43 GMT</pubDate>
+      <title>参考计数如何在Swift内部工作</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntkr04/how_reference_counting_works_internally_in_swift/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/u/jacobs-tech-tavern       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntkr04/how_reference_counting_works_internally_in_swift/</guid>
+      <pubDate>Mon, 29 Sep 2025 15:16:06 GMT</pubDate>
     </item>
     <item>
-      <title>[JS/TS]对于那些以前制作了反应性库的人，如何处理阵列排序的和解。</title>
-      <link>https://www.reddit.com/r/programming/comments/1nszt1m/jsts_for_those_who_made_a_reactive_library_before/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  我正在做一个小的反应性库（无vdom，直接操纵，完全是“机械”，“因为它将用于以后用来用于发电机，但仍然可以用手，但仍然足够符合人体工程学，但仍足够手工写入娱乐和学习目的，以获取娱乐性和学习目的，以便以后的反应性工作，现在是一个反应器和生成器的工程。我到了一个我认为它运行良好的点，并且在预期时具有层次结构和清理，我为控制（何时又是何时何时）进行了2个小助手，但是，到目前为止，每个人都不关心订购，我不确定它是否能够更改订单tbh，至少现在不正确。 DOM且不太通用，我以一种可以重复使用节点并使用DOM重新排序的方式进行的每个工作。  obs：如果您尝试将另一个项目添加到具有相同键的数组中，则有一个错误，它不会添加相同的键，因为它已经认为该组件已经存在。提交由＆＃32; /u/u/gustavo_fenilli     [link]   ＆＃32;  &lt;a href =“ https://www.reddit.com/r/programming/comments/1nszt1m/jsts_for_those_those_who_made_a_rea_reactive_library_before/”]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nszt1m/jsts_for_those_who_made_a_reactive_library_before/</guid>
-      <pubDate>Sun, 28 Sep 2025 21:11:37 GMT</pubDate>
+      <title>为什么SW建筑主要是交流•David Whitney，Ian Cooper和Hannes Lowette</title>
+      <link>https://www.reddit.com/r/programming/comments/1ntiz7l/why_sw_architecture_is_mostly_communication_david/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/goto-con     [link]      [注释]   ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1ntiz7l/why_sw_architecture_is_mostly_communication_david/</guid>
+      <pubDate>Mon, 29 Sep 2025 14:07:37 GMT</pubDate>
     </item>
     <item>
-      <title>刚刚从一个巨大的NX Monorepo中添加了120多个未使用的NPM DEP</title>
-      <link>https://www.reddit.com/r/programming/comments/1nsymn6/just_nuked_120_unused_npm_deps_from_a_huge_nx/</link>
-      <description><![CDATA[&lt;！ -  sc_off-&gt;  刚刚使用knip从一个巨大的NX monorepo中核定了120多个未使用的npm dep。剃了整整一分钟的纱线安装。 写下了整个过程，包括如何避免误报。如果您有NPM膨胀，这是给您的  &lt;！ -  sc_on-&gt;＆＃32;提交由＆＃32; /u/u/u/beautch_spot5404     [link]   ＆＃32;  &lt;a href =“ https://www.reddit.com/r/programming/comments/1nsymn6/just_nuked_120_unused_npm_depm_deps_from_a_a_huge_nx/”]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1nsymn6/just_nuked_120_unused_npm_deps_from_a_huge_nx/</guid>
-      <pubDate>Sun, 28 Sep 2025 20:23:52 GMT</pubDate>
+      <title>Python：经验丰富的开发商在AI时代的必要邪恶指南</title>
+      <link>https://www.reddit.com/r/programming/comments/1nthono/python_an_experienced_developers_grudging_guide/</link>
+      <description><![CDATA[＆＃32;提交由＆＃32; /u/u/derjanni       [注释]  ]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1nthono/python_an_experienced_developers_grudging_guide/</guid>
+      <pubDate>Mon, 29 Sep 2025 13:13:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
