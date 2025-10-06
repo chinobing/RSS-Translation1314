@@ -4,107 +4,124 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Mon, 06 Oct 2025 18:27:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 21:16:44 GMT</lastBuildDate>
     <item>
-      <title>dbrand也让Android用户也喝宇宙橙汁</title>
-      <link>https://www.theverge.com/news/792712/dbrand-android-device-skins-orange-apple-iphone-17-pro</link>
-      <description><![CDATA[文章URL： https://www.theverge.com/news/792712/dbrand-android-device-skins-orange-orange-apple-iphone-17-pro  
-注释url： https://news.ycombinator.com/item?id=454944471 
+      <title>使用NVFP4预读大型语言模型</title>
+      <link>https://arxiv.org/abs/2509.25149</link>
+      <description><![CDATA[文章URL： https://arxiv.org/abs/2509.25149   
+注释URL： https://news.ycombinator.com/item?id=454966359 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.theverge.com/news/792712/dbrand-android-device-skins-orange-apple-iphone-17-pro</guid>
-      <pubDate>Mon, 06 Oct 2025 18:22:26 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2509.25149</guid>
+      <pubDate>Mon, 06 Oct 2025 21:09:25 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我建立了一个转录CLI，因为上传4GB视频正在杀死我</title>
-      <link>https://medium.com/@illyism/i-built-a-youtube-transcription-cli-tool-because-uploading-4gb-videos-was-killing-me-89de8cf02526</link>
-      <description><![CDATA[文章URL： https://medium.com/@illyism/i-built-a-youtube-transcription-cli-tool-bececa.-becli--becloading-4gb-videos-was-was-killing-me-89de8cf02526  
-注释url： https://news.ycombinator.com/item？id=454944469 
+      <title>我在温和的育儿中的不幸</title>
+      <link>https://macleans.ca/longforms/my-misadventures-in-gentle-parenting/</link>
+      <description><![CDATA[文章url： https://macleans.ca/longhongems.ca/longhongems/my-misadventures-inmy-misadventures-in-gentle-gentle-parents-gentle-parenting/   
+评论URL： https://news.ycombinator.com/item?id=454966354 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://medium.com/@illyism/i-built-a-youtube-transcription-cli-tool-because-uploading-4gb-videos-was-killing-me-89de8cf02526</guid>
-      <pubDate>Mon, 06 Oct 2025 18:22:15 GMT</pubDate>
+      <guid>https://macleans.ca/longforms/my-misadventures-in-gentle-parenting/</guid>
+      <pubDate>Mon, 06 Oct 2025 21:08:43 GMT</pubDate>
     </item>
     <item>
-      <title>Sora 2克隆开始淹没全球应用商店</title>
-      <link>https://9to5mac.com/2025/10/04/sora-2-clones-start-flooding-the-app-store-worldwide/</link>
-      <description><![CDATA[Article URL: https://9to5mac.com/2025/10/04/sora-2-clones-start-flooding-the-app-store-worldwide/
-评论url： https://news.ycombinator.com/item？id=4549444454 
+      <title>Audacity 4：瞥见免费音频编辑器的新的，更现代的UI</title>
+      <link>https://cdm.link/audacity-4-in-ui-preview/</link>
+      <description><![CDATA[文章URL： https://cdm.link/audacity-4-4-in--ui-preview/   
+评论URL： https://news.ycombinator.com/item？id=454966309 
+点：5 
+＃评论：0 ]]></description>
+      <guid>https://cdm.link/audacity-4-in-ui-preview/</guid>
+      <pubDate>Mon, 06 Oct 2025 21:04:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示HN：使视频成为一个原始软件（从一代开始）</title>
+      <link>https://www.vloex.com</link>
+      <description><![CDATA[每个主要计算原始的遵循相同的路径：文本在我们拥有标准（UTF-8），即时渲染，接近零成本时变为原始。
+当我们拥有标准（JPEG/PNG），CDN，廉价存储空间时，图像变成了原始的
+当我们拥有标准（休息），基础架构（AWS），Tooling 视频时，API成为原始的。该技术正在到达那里（Sora，Veo，跑道），但是基础架构层尚不存在。
+ - 足够快（即时或近乎立场）
+ - 足够便宜（边际成本接近零）
+ - 标准接口（抽象层）
+ - 合并（编程操作）
+ - 出色的DX（易于集成）当前状态：
+ - 多流行者抽象（未锁定到单个API）
+ - 智能路由（优化成本/延迟/质量）
+ - 开发人员 - 首先（NPM安装，5行代码）
+``````python＆node js  pip安装vloex
+NPM安装Vloex 导入Vloex
+视频= vloex.generate（“您的内容”）
+＃与最佳提供商的自动路由，处理故障转移测试案例：自动生成视频发行说明GitHub Commits
+实时示例： https://vloex.com 检查实时示例部分
+这是第1部分（一代）。视觉包括组成，模板，操纵，服务 - 完整的原始堆栈。赌注：视频生成在2  -  3年内打“足够快 +足够便宜”。当这样做时，每个应用都将使用视频。他们需要基础架构。这就是基础架构。
+YC当前的RFS：“将视频视为计算原始的，而不是输出” 问题：我是在正确的时间建立还是太早建立了？ href =“ https://github.com/vloex/vloex-python” rel =“ nofollow”&gt; https：//github.com/vloex/vloex/vloex/vloex/vloex-python  诚实的反馈欢迎。
+
+评论url： https://news.ycombinator.com/item?id=45496299 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://9to5mac.com/2025/10/04/sora-2-clones-start-flooding-the-app-store-worldwide/</guid>
-      <pubDate>Mon, 06 Oct 2025 18:21:12 GMT</pubDate>
+      <guid>https://www.vloex.com</guid>
+      <pubDate>Mon, 06 Oct 2025 21:02:59 GMT</pubDate>
     </item>
     <item>
-      <title>与Sora 2 API的视频生成</title>
-      <link>https://platform.openai.com/docs/guides/video-generation</link>
-      <description><![CDATA[文章URL： https://platform.openai.com/docs/guides/guides/guides/video-generation  
-注释url： https://news.ycombinator.com/item./item?id=454944444 
-点：2 
-＃评论：1 ]]></description>
-      <guid>https://platform.openai.com/docs/guides/video-generation</guid>
-      <pubDate>Mon, 06 Oct 2025 18:20:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>在乌克兰战争的混乱之中，耐药细菌传播并加强</title>
-      <link>https://knowablemagazine.org/content/article/health-disease/2025/drug-resistant-bacteria-spread-strengthen-in-ukraine-war</link>
-      <description><![CDATA[文章URL： https://knowablemagazine.org/content/article/health-disease/2025/drug-esistant-bacteria-spread-spread-spread-spreaden-in-in-ukraine-war  
-注释URL： https://news.ycombinator.com/item？id=4549444437 
+      <title>下一个计算革命：将处理在内存中带来</title>
+      <link>https://www.computer.org/publications/tech-news/insider-membership-news/the-next-computing-revolution</link>
+      <description><![CDATA[文章URL：https://www.computer.org/publications/tech-news/insider-membership-news/the-next-computing-revolution
+注释url： https://news.ycombinator.com/item？id=454966282 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://knowablemagazine.org/content/article/health-disease/2025/drug-resistant-bacteria-spread-strengthen-in-ukraine-war</guid>
-      <pubDate>Mon, 06 Oct 2025 18:19:51 GMT</pubDate>
+      <guid>https://www.computer.org/publications/tech-news/insider-membership-news/the-next-computing-revolution</guid>
+      <pubDate>Mon, 06 Oct 2025 21:01:00 GMT</pubDate>
     </item>
     <item>
-      <title>Openai Devday</title>
-      <link>https://openai.com/podcast/</link>
-      <description><![CDATA[文章URL： https://openai.com/podcast/  
-注释URL： https://news.ycombinator.com/item？id=4549444431 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://openai.com/podcast/</guid>
-      <pubDate>Mon, 06 Oct 2025 18:19:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>自闭症，A.D.H.D。，焦虑：诊断可以使您更好吗？</title>
-      <link>https://www.nytimes.com/2025/10/03/health/can-a-diagnosis-make-you-better.html</link>
-      <description><![CDATA[Article URL: https://www.nytimes.com/2025/10/03/health/can-a-diagnosis-make-you-better.html
-注释url： https://news.ycombinator.com/item？id=454944424 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.nytimes.com/2025/10/03/health/can-a-diagnosis-make-you-better.html</guid>
-      <pubDate>Mon, 06 Oct 2025 18:18:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>培养皿：一种开源审计工具，用于加速AI安全研究\拟人化</title>
-      <link>https://www.anthropic.com/research/petri-open-source-auditing</link>
-      <description><![CDATA[文章url： https://www.anthropic.com/research/petri-open-open-source-source-audith-
-注释URL： https://news.ycombinator.com/item?id=454944413 
-点：1 
-＃评论：0 ]]></description>
-      <guid>https://www.anthropic.com/research/petri-open-source-auditing</guid>
-      <pubDate>Mon, 06 Oct 2025 18:18:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude 4.5现在可以立即构建和运行真实的应用程序</title>
-      <link>https://davia.ai/blog/create-on-the-fly</link>
-      <description><![CDATA[文章URL： https://davia.ai/blog/blog/create-on-on-the-phly    
-注释url： https://news.ycombinator.com/item？id=4549444405 
+      <title>为期一个世纪的湖尼斯怪物搜索</title>
+      <link>https://www.bbc.com/culture/article/20251002-the-century-long-search-for-the-loch-ness-monster</link>
+      <description><![CDATA[文章URL：https://www.bbc.com/culture/article/20251002-the-century-long-search-for-the-loch-ness-monster
+评论url： https://news.ycombinator.com/item?id=45496271 
 点：4 
 ＃评论：0 ]]></description>
-      <guid>https://davia.ai/blog/create-on-the-fly</guid>
-      <pubDate>Mon, 06 Oct 2025 18:17:24 GMT</pubDate>
+      <guid>https://www.bbc.com/culture/article/20251002-the-century-long-search-for-the-loch-ness-monster</guid>
+      <pubDate>Mon, 06 Oct 2025 21:00:02 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Godot Platformer模板/入门套件</title>
-      <link>https://wasivis.itch.io/platformerstarterkit</link>
-      <description><![CDATA[具有光滑的仪表板，墙壁/壁悬空，双重跳跃，土狼时间跳跃，带有HUD的硬币拾音器，带有健康心脏的尖峰危险 - 通过出口变量有线和调谐。包括所有脚本，包括所有脚本，占位符，1级场景，1级场景，带有设置 + setup + usage files file fule fule。分钟。
-
-注释url： https://news.ycombinator.com/item？id=4549444401 
+      <title>苹果将​​硬件负责人约翰·特尔斯（John Ternus）放在首席执行官继任焦点中</title>
+      <link>https://www.bloomberg.com/news/newsletters/2025-10-05/who-will-be-apple-s-next-ceo-after-tim-cook-apple-shelves-vision-air-m5-ipad</link>
+      <description><![CDATA[文章URL： https://www.bloomberg.com/news/newsletters/2025-10-05/who-will-be-be-be-be-be-s-next-ceo-ceo-ceo-ceo-after-tim-cook-cook-cook-sa​​pple-shelves-vision-vision-vision-vision-vision-vision-air-m5-ipad-ipad-ipad-ipad-ipad-ipad    
+注释url： https://news.ycombinator.com/item?id=45496268 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://wasivis.itch.io/platformerstarterkit</guid>
-      <pubDate>Mon, 06 Oct 2025 18:17:13 GMT</pubDate>
+      <guid>https://www.bloomberg.com/news/newsletters/2025-10-05/who-will-be-apple-s-next-ceo-after-tim-cook-apple-shelves-vision-air-m5-ipad</guid>
+      <pubDate>Mon, 06 Oct 2025 20:59:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI视频概述</title>
+      <link>https://idiallo.com/blog/ai-video-overview</link>
+      <description><![CDATA[文章URL： https://idiallo.com/blog/blog/ai-video-video-video-overview   
+注释url： https://news.ycombinator.com/item./item?id=45496246 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://idiallo.com/blog/ai-video-overview</guid>
+      <pubDate>Mon, 06 Oct 2025 20:57:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>橡皮鸭，即使在酸上也不会带你的工作</title>
+      <link>https://spikepuppet.io/posts/a-rubber-duck-on-acid-wont-take-jobs/</link>
+      <description><![CDATA[文章url： htttps://spikepuppet.io/posts/posts/posts/posts/a-rubber-duck-on-rubber-duck-acid-wont-wont-wont-wont-take-take-take-jobs/p-&gt;&gt;
+注释url： https://news.ycombinator.com/item?id=45496240 
+点：5 
+＃评论：0 ]]></description>
+      <guid>https://spikepuppet.io/posts/a-rubber-duck-on-acid-wont-take-jobs/</guid>
+      <pubDate>Mon, 06 Oct 2025 20:56:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Openai告诉开发人员Chetgpt准备成为他们的守门人</title>
+      <link>https://www.theregister.com/2025/10/06/openai_opens_chatgpt_to_referring/</link>
+      <description><![CDATA[文章url： https://wwwww.thereg.theregest：&gt; https：/
+注释url： https://news.ycombinator.com/item?id=45496225 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://www.theregister.com/2025/10/06/openai_opens_chatgpt_to_referring/</guid>
+      <pubDate>Mon, 06 Oct 2025 20:55:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
