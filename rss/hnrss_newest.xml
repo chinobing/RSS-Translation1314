@@ -4,124 +4,113 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻RSS</description>
-    <lastBuildDate>Mon, 06 Oct 2025 21:16:44 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Oct 2025 01:23:34 GMT</lastBuildDate>
     <item>
-      <title>使用NVFP4预读大型语言模型</title>
-      <link>https://arxiv.org/abs/2509.25149</link>
-      <description><![CDATA[文章URL： https://arxiv.org/abs/2509.25149   
-注释URL： https://news.ycombinator.com/item?id=454966359 
+      <title>Zebec如何赚钱比互联网本身更快</title>
+      <link>https://medium.com/@j.razo7869/this-might-be-the-most-important-article-you-read-all-year-how-zebec-is-making-money-move-faster-8ddb0578717c</link>
+      <description><![CDATA[文章URL： https://medium.com/@j.razo7869/this-might-be-the-most-important-important-important-article-you-read-alre--how-zebec-zebec-sebec-is-make-money-money-money-money-money-money-money-8ddb057871717c   
+注释URL： https://news.ycombinator.com/item?id=45498302 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://arxiv.org/abs/2509.25149</guid>
-      <pubDate>Mon, 06 Oct 2025 21:09:25 GMT</pubDate>
+      <guid>https://medium.com/@j.razo7869/this-might-be-the-most-important-article-you-read-all-year-how-zebec-is-making-money-move-faster-8ddb0578717c</guid>
+      <pubDate>Tue, 07 Oct 2025 01:12:03 GMT</pubDate>
     </item>
     <item>
-      <title>我在温和的育儿中的不幸</title>
-      <link>https://macleans.ca/longforms/my-misadventures-in-gentle-parenting/</link>
-      <description><![CDATA[文章url： https://macleans.ca/longhongems.ca/longhongems/my-misadventures-inmy-misadventures-in-gentle-gentle-parents-gentle-parenting/   
-评论URL： https://news.ycombinator.com/item?id=454966354 
+      <title>北达科他州的EF5龙卷风该国十多年来是第一个</title>
+      <link>https://www.cnn.com/2025/10/06/weather/ef5-tornado-north-dakota-climate</link>
+      <description><![CDATA[文章url： https：//www.cnn.com/2.cnn.com/2025/2025/2025/10/10/10/06/weather/weather/weather-dornado-north-north-worth-north-worth-north-dortha---------------------------------------------------------/
+注释URL： https://news.ycombinator.com/item？id=45498301 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://macleans.ca/longforms/my-misadventures-in-gentle-parenting/</guid>
-      <pubDate>Mon, 06 Oct 2025 21:08:43 GMT</pubDate>
+      <guid>https://www.cnn.com/2025/10/06/weather/ef5-tornado-north-dakota-climate</guid>
+      <pubDate>Tue, 07 Oct 2025 01:12:00 GMT</pubDate>
     </item>
     <item>
-      <title>Audacity 4：瞥见免费音频编辑器的新的，更现代的UI</title>
-      <link>https://cdm.link/audacity-4-in-ui-preview/</link>
-      <description><![CDATA[文章URL： https://cdm.link/audacity-4-4-in--ui-preview/   
-评论URL： https://news.ycombinator.com/item？id=454966309 
-点：5 
+      <title>打字稿缺陷（2024）</title>
+      <link>https://intercaetera.com/posts/typescript-sucks/</link>
+      <description><![CDATA[文章URL： https://intercaetera.com/posts/typescripts/typescript-sucks/   
+评论url： https://news.ycombinator.com/item?id=45498274 
+点：1 
 ＃评论：0 ]]></description>
-      <guid>https://cdm.link/audacity-4-in-ui-preview/</guid>
-      <pubDate>Mon, 06 Oct 2025 21:04:07 GMT</pubDate>
+      <guid>https://intercaetera.com/posts/typescript-sucks/</guid>
+      <pubDate>Tue, 07 Oct 2025 01:08:51 GMT</pubDate>
     </item>
     <item>
-      <title>显示HN：使视频成为一个原始软件（从一代开始）</title>
-      <link>https://www.vloex.com</link>
-      <description><![CDATA[每个主要计算原始的遵循相同的路径：文本在我们拥有标准（UTF-8），即时渲染，接近零成本时变为原始。
-当我们拥有标准（JPEG/PNG），CDN，廉价存储空间时，图像变成了原始的
-当我们拥有标准（休息），基础架构（AWS），Tooling 视频时，API成为原始的。该技术正在到达那里（Sora，Veo，跑道），但是基础架构层尚不存在。
- - 足够快（即时或近乎立场）
- - 足够便宜（边际成本接近零）
- - 标准接口（抽象层）
- - 合并（编程操作）
- - 出色的DX（易于集成）当前状态：
- - 多流行者抽象（未锁定到单个API）
- - 智能路由（优化成本/延迟/质量）
- - 开发人员 - 首先（NPM安装，5行代码）
-``````python＆node js  pip安装vloex
-NPM安装Vloex 导入Vloex
-视频= vloex.generate（“您的内容”）
-＃与最佳提供商的自动路由，处理故障转移测试案例：自动生成视频发行说明GitHub Commits
-实时示例： https://vloex.com 检查实时示例部分
-这是第1部分（一代）。视觉包括组成，模板，操纵，服务 - 完整的原始堆栈。赌注：视频生成在2  -  3年内打“足够快 +足够便宜”。当这样做时，每个应用都将使用视频。他们需要基础架构。这就是基础架构。
-YC当前的RFS：“将视频视为计算原始的，而不是输出” 问题：我是在正确的时间建立还是太早建立了？ href =“ https://github.com/vloex/vloex-python” rel =“ nofollow”&gt; https：//github.com/vloex/vloex/vloex/vloex/vloex-python  诚实的反馈欢迎。
+      <title>S.F.巨人队的赛季结束了。他们为我们留下了灯</title>
+      <link>https://missionlocal.org/2025/10/s-f-giants-season-is-over-they-left-the-light-on-for-us/</link>
+      <description><![CDATA[文章URL：https://missionlocal.org/2025/10/s-f-giants-season-is-over-they-left-the-light-on-for-us/
+评论url： https://news.ycombinator.com/item？id=45498254 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://missionlocal.org/2025/10/s-f-giants-season-is-over-they-left-the-light-on-for-us/</guid>
+      <pubDate>Tue, 07 Oct 2025 01:06:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>我建立了一个AI销售代理商，以处理创始人和小型团队的冷宣传</title>
+      <link>https://news.ycombinator.com/item?id=45498253</link>
+      <description><![CDATA[嘿，我一直在建造高架。一位AI销售代理，可帮助独奏创始人和小型团队从头到尾自动化冷水展览。这是其工作原理：
+•您可以要求AI查找潜在客户或使用内置的高级铅搜索工具。
+•您告诉它您的业务做什么以及您想联系谁。
+•它编写个性化的冷电子邮件，发送它们并自动跟随。
+•您可以创建无限的电子邮件序列以随着时间的流逝而培养潜在客户；没有限制，没有手动调度。您仍然控制着语气，受众和策略 -  AI只是处理研究，写作，时机和发送。我想要一个听起来像人类的系统，保持一致并真正得到答复。没有候补名单，没有演示，只是工作软件。 https://elevatesells.com 很高兴回答问题，分享反馈或浏览其工作方式。谢谢，谢谢，
+艾哈迈德
 
-评论url： https://news.ycombinator.com/item?id=45496299 
+注释URL： https://news.ycombinator.com/item?id=45498253 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.vloex.com</guid>
-      <pubDate>Mon, 06 Oct 2025 21:02:59 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45498253</guid>
+      <pubDate>Tue, 07 Oct 2025 01:05:45 GMT</pubDate>
     </item>
     <item>
-      <title>下一个计算革命：将处理在内存中带来</title>
-      <link>https://www.computer.org/publications/tech-news/insider-membership-news/the-next-computing-revolution</link>
-      <description><![CDATA[文章URL：https://www.computer.org/publications/tech-news/insider-membership-news/the-next-computing-revolution
-注释url： https://news.ycombinator.com/item？id=454966282 
+      <title>用分层的层次记忆进行预处理，将长尾和常识分开</title>
+      <link>https://arxiv.org/abs/2510.02375</link>
+      <description><![CDATA[文章URL： https://arxiv.org/abs/2510.02375   
+注释URL： https://news.ycombinator.com/item?id=45498211 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.computer.org/publications/tech-news/insider-membership-news/the-next-computing-revolution</guid>
-      <pubDate>Mon, 06 Oct 2025 21:01:00 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2510.02375</guid>
+      <pubDate>Tue, 07 Oct 2025 01:00:38 GMT</pubDate>
     </item>
     <item>
-      <title>为期一个世纪的湖尼斯怪物搜索</title>
-      <link>https://www.bbc.com/culture/article/20251002-the-century-long-search-for-the-loch-ness-monster</link>
-      <description><![CDATA[文章URL：https://www.bbc.com/culture/article/20251002-the-century-long-search-for-the-loch-ness-monster
-评论url： https://news.ycombinator.com/item?id=45496271 
-点：4 
-＃评论：0 ]]></description>
-      <guid>https://www.bbc.com/culture/article/20251002-the-century-long-search-for-the-loch-ness-monster</guid>
-      <pubDate>Mon, 06 Oct 2025 21:00:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>苹果将​​硬件负责人约翰·特尔斯（John Ternus）放在首席执行官继任焦点中</title>
-      <link>https://www.bloomberg.com/news/newsletters/2025-10-05/who-will-be-apple-s-next-ceo-after-tim-cook-apple-shelves-vision-air-m5-ipad</link>
-      <description><![CDATA[文章URL： https://www.bloomberg.com/news/newsletters/2025-10-05/who-will-be-be-be-be-be-s-next-ceo-ceo-ceo-ceo-after-tim-cook-cook-cook-sa​​pple-shelves-vision-vision-vision-vision-vision-vision-air-m5-ipad-ipad-ipad-ipad-ipad-ipad    
-注释url： https://news.ycombinator.com/item?id=45496268 
+      <title>我在几个小时内对静态图像库进行了编码：snig.pl</title>
+      <link>https://domm.plix.at/perl/2025_10_braincoded_static_image_gallery.html</link>
+      <description><![CDATA[文章url： https://domm.plix.pplix.at/perl/2025_1025_10_10_10_10_10_10_BRAINCODED_STATIC_STATIC_STATIC_STATIC_STATIC_STATIC_STATIC_GALLERY.AGLERY.AT&gt;
+注释URL： https://news.ycombinator.com/item？id=45498189 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.bloomberg.com/news/newsletters/2025-10-05/who-will-be-apple-s-next-ceo-after-tim-cook-apple-shelves-vision-air-m5-ipad</guid>
-      <pubDate>Mon, 06 Oct 2025 20:59:38 GMT</pubDate>
+      <guid>https://domm.plix.at/perl/2025_10_braincoded_static_image_gallery.html</guid>
+      <pubDate>Tue, 07 Oct 2025 00:56:35 GMT</pubDate>
     </item>
     <item>
-      <title>AI视频概述</title>
-      <link>https://idiallo.com/blog/ai-video-overview</link>
-      <description><![CDATA[文章URL： https://idiallo.com/blog/blog/ai-video-video-video-overview   
-注释url： https://news.ycombinator.com/item./item?id=45496246 
+      <title>在纽约监狱中抽搐一年</title>
+      <link>https://www.newyorker.com/magazine/2025/10/13/a-year-of-convulsions-in-new-yorks-prisons</link>
+      <description><![CDATA[文章URL： https://wwwww.newyorker.com/magazine/magazine/magazine/2025/2025/10/10/11/13/13/13/13/13/13/a-al-convir/p&gt;
+评论url： https://news.ycombinator.com/item?id=45498180 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://idiallo.com/blog/ai-video-overview</guid>
-      <pubDate>Mon, 06 Oct 2025 20:57:21 GMT</pubDate>
+      <guid>https://www.newyorker.com/magazine/2025/10/13/a-year-of-convulsions-in-new-yorks-prisons</guid>
+      <pubDate>Tue, 07 Oct 2025 00:55:30 GMT</pubDate>
     </item>
     <item>
-      <title>橡皮鸭，即使在酸上也不会带你的工作</title>
-      <link>https://spikepuppet.io/posts/a-rubber-duck-on-acid-wont-take-jobs/</link>
-      <description><![CDATA[文章url： htttps://spikepuppet.io/posts/posts/posts/posts/a-rubber-duck-on-rubber-duck-acid-wont-wont-wont-wont-take-take-take-jobs/p-&gt;&gt;
-注释url： https://news.ycombinator.com/item?id=45496240 
-点：5 
-＃评论：0 ]]></description>
-      <guid>https://spikepuppet.io/posts/a-rubber-duck-on-acid-wont-take-jobs/</guid>
-      <pubDate>Mon, 06 Oct 2025 20:56:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Openai告诉开发人员Chetgpt准备成为他们的守门人</title>
-      <link>https://www.theregister.com/2025/10/06/openai_opens_chatgpt_to_referring/</link>
-      <description><![CDATA[文章url： https://wwwww.thereg.theregest：&gt; https：/
-注释url： https://news.ycombinator.com/item?id=45496225 
+      <title>人工智能繁荣对循环交易的依赖正在引起人们对泡沫的担忧</title>
+      <link>https://www.nbcnews.com/business/economy/openai-nvidia-amd-deals-risks-rcna234806</link>
+      <description><![CDATA[文章URL： https://www.nbcnews.com/business/economy/openai-nvidia-amd-deals-risks-risks-rcna234806  
+注释URL： https://news.ycombinator.com/item?id=45498174 
 点：1 
 ＃评论：0 ]]></description>
-      <guid>https://www.theregister.com/2025/10/06/openai_opens_chatgpt_to_referring/</guid>
-      <pubDate>Mon, 06 Oct 2025 20:55:34 GMT</pubDate>
+      <guid>https://www.nbcnews.com/business/economy/openai-nvidia-amd-deals-risks-rcna234806</guid>
+      <pubDate>Tue, 07 Oct 2025 00:55:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Sora 2 API游乐场</title>
+      <link>https://sora2.sshh.io/</link>
+      <description><![CDATA[大家好！分享一个快速的VIBE编码游乐场，用于使用API​​使用SORA2模型。  https：//github.com/sshh12/sora-sora-sora-2/sora-2/sora-2-play-playfloes
+
+注释url： https://news.ycombinator.com/item?id=45498152 
+点：1 
+＃评论：0 ]]></description>
+      <guid>https://sora2.sshh.io/</guid>
+      <pubDate>Tue, 07 Oct 2025 00:52:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
