@@ -1,113 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>黑客新闻：首页</title>
+    <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
-    <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 08 Oct 2025 12:40:23 GMT</lastBuildDate>
+    <description>黑客新闻RSS</description>
+    <lastBuildDate>Wed, 08 Oct 2025 15:21:58 GMT</lastBuildDate>
     <item>
-      <title>单人垃圾邮件活动破坏了欧盟“聊天控制”法案</title>
-      <link>https://www.politico.eu/article/one-man-spam-campaign-ravages-eu-chat-control-bill-fight-chat-control/</link>
-      <description><![CDATA[文章URL： https://www.politico.eu/article/one-man-pam-campaign-ravages-eu-chat-c​​ontrol-bill-fight-fight-fight-fight-chat-c​​ontrol/   
-注释url： https://news.ycombinator.com/item？id=4555144433 
-点：61 
-＃评论：38 ]]></description>
-      <guid>https://www.politico.eu/article/one-man-spam-campaign-ravages-eu-chat-control-bill-fight-chat-control/</guid>
-      <pubDate>Wed, 08 Oct 2025 10:26:05 GMT</pubDate>
+      <title>Show HN：回忆：通过 Redis 支持的持久上下文为 Claude 提供完美的记忆</title>
+      <link>https://www.npmjs.com/package/@joseairosa/recall</link>
+      <description><![CDATA[嘿，hn！我是何塞，我建立了召回的问题，以解决一个使我发疯的问题。问题：
+我每天都使用Claude进行编码，但是每次对话都会从头开始。我会解释我的体系结构，编码标准，过去的决定...然后达到上下文限制并失去一切。下一个会话？重新开始。解决方案：
+回忆是MCP（模型上下文协议）服务器，它使用Redis +语义搜索提供Claude持久存储器。将其视为长期记忆，可在上下文限制和会话中重新启动。它的工作原理：
+ - 克劳德（Claude）将重要上下文作为对话中的“记忆”存储
+ - 记忆被嵌入（OpenAi），并与元数据一起存储在Redis中
+ - 语义搜索会自动检索相关记忆
+ - 跨会话，项目，甚至机器（如果使用Cloud Redis）关键功能：
+ - 全球记忆：在所有项目中共享上下文
+ - 关系：将相关记忆链接到知识图
+ - 版本控制：跟踪记忆如何随着时间的流逝而发展
+ - 模板：公共工作流的可重复使用模式
+ - 工作空间隔离：项目记忆不会污染项目B 技术堆栈：
+ - 打字稿 + MCP SDK
+ - 重新用于存储
+ -  OpenAI嵌入（Text-Embedding-3-Small）
+ - 〜189KB捆绑包，在本地运行当前统计信息：
+-27工具暴露于Claude
+-10种上下文类型（指令，决策，模式等）
+ -  10K+记忆的次秒语义搜索
+ - 与Claude Desktop，Claude Code，任何MCP客户端使用示例用例：
+我正在建立一个电子商务平台。我曾经告诉过克劳德：“我们使用尾风，更喜欢组成API，API速率限制为1000/min。”现在，克劳德（Claude）每次对话都会自动记住并应用这些偏好。下一步是什么（正在进行的v1.6.0）：
+-CI/CD管道用GitHub动作
+ - 码头支持方便部署的支持
+ - 适当的测试套件
+ - 更好的错误消息和记录尝试： npm install -g @joseairosa/召回
+＃添加到claude_desktop_config.json
+＃开始使用持久内存
+
+注释URL： https://news.ycombinator.com/item?id=455516584 
+点：6 
+＃评论：2 ]]></description>
+      <guid>https://www.npmjs.com/package/@joseairosa/recall</guid>
+      <pubDate>Wed, 08 Oct 2025 14:28:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何开始漏洞赏金（2021）</title>
+      <link>https://ozguralp.medium.com/how-to-start-bug-bounties-101-how-to-make-a-million-in-4-years-e15ee62d6f4</link>
+      <description><![CDATA[文章网址： https://ozguralp.medium.com/how-to-start-bug-bounties-101-how-to-make-a-million-in-4-years-e15ee62d6f4
+评论网址：https://news.ycombinator.com/item?id=45516556
+积分：5
+# 条评论：0]]></description>
+      <guid>https://ozguralp.medium.com/how-to-start-bug-bounties-101-how-to-make-a-million-in-4-years-e15ee62d6f4</guid>
+      <pubDate>Wed, 08 Oct 2025 14:25:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：CodingFox  - 开源AI代码评论工具，其工作原理就像魔术</title>
+      <link>https://github.com/furudo-erika/codingfox</link>
+      <description><![CDATA[文章网址：https://github.com/furudo-erika/codingfox
+评论网址：https://news.ycombinator.com/item?id=45516402
+积分：11
+# 条评论：0]]></description>
+      <guid>https://github.com/furudo-erika/codingfox</guid>
+      <pubDate>Wed, 08 Oct 2025 14:11:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>英格兰银行旗帜的风险在AI膨胀的科技股中“突然更正”</title>
+      <link>https://www.ft.com/content/fe474cff-564c-41d2-aaf7-313636a83e5b</link>
+      <description><![CDATA[文章URL： https：//www.ft.ft.com/content/content/content/content/fe474cff-564c-564c-41d22-1d2-aff 
+注释URL： https://news.ycombinator.com/item?id=455516265 
+点：77 
+＃评论：32 ]]></description>
+      <guid>https://www.ft.com/content/fe474cff-564c-41d2-aaf7-313636a83e5b</guid>
+      <pubDate>Wed, 08 Oct 2025 13:55:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们没有用 Rust 重写 feed 处理程序</title>
+      <link>https://databento.com/blog/why-we-didnt-rewrite-our-feed-handler-in-rust</link>
+      <description><![CDATA[文章url： https://databento.com/blog/blog/why-we-we-we-we-we--we--we------------------------------------------------------------
+注释url： https://news.ycombinator.com/item?id=455516255 
+点：6 
+＃评论：0 ]]></description>
+      <guid>https://databento.com/blog/why-we-didnt-rewrite-our-feed-handler-in-rust</guid>
+      <pubDate>Wed, 08 Oct 2025 13:54:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们在GO的ARM64编译器中发现了一个错误</title>
+      <link>https://blog.cloudflare.com/how-we-found-a-bug-in-gos-arm64-compiler/</link>
+      <description><![CDATA[文章URL： https：//blog.cloudflare.com/
+注释URL： https://news.ycombinator.com/item?id=455516000 
+点：6 
+＃评论：1 ]]></description>
+      <guid>https://blog.cloudflare.com/how-we-found-a-bug-in-gos-arm64-compiler/</guid>
+      <pubDate>Wed, 08 Oct 2025 13:33:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>旅行黑名单的武器化</title>
+      <link>https://papersplease.org/wp/2025/10/06/the-weaponization-of-travel-blacklists/</link>
+      <description><![CDATA[文章网址：https://papersplease.org/wp/2025/10/06/the-weaponization-of-travel-blacklists/
+评论网址：https://news.ycombinator.com/item?id=45515783
+积分：66
+# 条评论：15]]></description>
+      <guid>https://papersplease.org/wp/2025/10/06/the-weaponization-of-travel-blacklists/</guid>
+      <pubDate>Wed, 08 Oct 2025 13:10:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>他们不应该阅读的电子邮件</title>
+      <link>https://it-notes.dragas.net/2025/10/08/the-email-they-shouldnt-have-read/</link>
+      <description><![CDATA[文章url：
+注释URL： https://news.ycombinator.com/item./item?id=455515657 
+点：167 
+＃评论：54 ]]></description>
+      <guid>https://it-notes.dragas.net/2025/10/08/the-email-they-shouldnt-have-read/</guid>
+      <pubDate>Wed, 08 Oct 2025 12:56:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>为人工智能代理建立的法律合同</title>
+      <link>https://paid.ai/blog/ai-agents/paid-gitlaw-introducing-legal-contracts-built-for-ai-agents</link>
+      <description><![CDATA[文章URL：https://paid.ai/blog/ai-agents/paid-gitlaw-introducing-legal-contracts-built-for-ai-agents
+注释URL： https://news.ycombinator.com/item？id=455515640 
+点：29 
+＃评论：11 ]]></description>
+      <guid>https://paid.ai/blog/ai-agents/paid-gitlaw-introducing-legal-contracts-built-for-ai-agents</guid>
+      <pubDate>Wed, 08 Oct 2025 12:55:01 GMT</pubDate>
     </item>
     <item>
       <title>诺贝尔化学奖2025</title>
       <link>https://www.nobelprize.org/prizes/chemistry/2025/popular-information/</link>
-      <description><![CDATA[文章url： https://wwwww.nobelprize.org/priess/chempriess/chempriess/Chemist-2025/2025/popular-inderformation/popular-ingular-information/popular-information/popular-information/popular-information/popular-information/ppular-information/  
-注释URL： https://news.ycombinator.com/item？id=455514164 
-点：92 
-＃评论：11 ]]></description>
+      <description><![CDATA[文章网址：https://www.nobelprize.org/prizes/chemistry/2025/popular-information/
+评论网址：https://news.ycombinator.com/item?id=45514164
+积分：175
+# 条评论：28]]></description>
       <guid>https://www.nobelprize.org/prizes/chemistry/2025/popular-information/</guid>
       <pubDate>Wed, 08 Oct 2025 09:49:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Synology逆转政策，禁止销售后，禁止第三方HDD</title>
-      <link>https://www.guru3d.com/story/synology-reverses-policy-banning-thirdparty-hdds-after-nas-sales-plummet/</link>
-      <description><![CDATA[文章网址： https://www.guru3d.com/story/synology-reverses-policy-banning-thirdparty-hdds-after-nas-sales-plummet/
-评论网址：https://news.ycombinator.com/item?id=45513485
-积分：407
-评论数：270]]></description>
-      <guid>https://www.guru3d.com/story/synology-reverses-policy-banning-thirdparty-hdds-after-nas-sales-plummet/</guid>
-      <pubDate>Wed, 08 Oct 2025 08:19:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：哦，是的 - 我为儿子建造的常规管理应用程序</title>
-      <link>https://ohyahapp.com</link>
-      <description><![CDATA[嗨，HN！我建造了哦耶！帮助我的儿子（7岁和10岁）在没有不断提醒的情况下坚持日常生活。核心理念：通过在计时器运行时锁定导航来最大限度地减少任务期间的干扰，以及可选的基于照片的任务完成以实现问责制使用 React Native/Expo 和 Firebase 构建。最棘手的部分是设计用户体验，使其对孩子来说足够简单，干扰最小，同时给予父母足够的控制权——最终得到了一个任务定义系统，让父母可以创建每周的日程安排，并进行每日切换，而不是在几天内重复任务经过我和家人几个月的测试，现在它已经在 App Store 上架了。有 1 个月的免费试用期，然后就需要订阅了。希望得到其他面临类似挑战的家长的反馈
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45513459
-积分：40
-# 条评论：19]]></description>
-      <guid>https://ohyahapp.com</guid>
-      <pubDate>Wed, 08 Oct 2025 08:15:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究100万人的头骨指向现代人类的早期起源</title>
-      <link>https://www.theguardian.com/science/2025/sep/25/study-of-1m-year-old-skull-points-to-earlier-origins-of-modern-humans</link>
-      <description><![CDATA[论文：https://www.science.org/doi/10.1126/science.ado9202
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45510582
-积分：99
-# 条评论：109]]></description>
-      <guid>https://www.theguardian.com/science/2025/sep/25/study-of-1m-year-old-skull-points-to-earlier-origins-of-modern-humans</guid>
-      <pubDate>Wed, 08 Oct 2025 00:17:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gemini 2.5电脑使用机型</title>
-      <link>https://blog.google/technology/google-deepmind/gemini-computer-use-model/</link>
-      <description><![CDATA[文章url： httpps://blog.google.google/technology/google-google-google-deepmind-deepmind/gemind/gemind/gemini-computer-computer-muse-model/p&gt;，
-注释URL： https://news.ycombinator.com/item?id=45507936 
-点：539 
-＃评论：268 ]]></description>
-      <guid>https://blog.google/technology/google-deepmind/gemini-computer-use-model/</guid>
-      <pubDate>Tue, 07 Oct 2025 19:49:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>消除飞行中的尾迹可能很便宜</title>
-      <link>https://www.sustainabilitybynumbers.com/p/eliminating-contrails</link>
-      <description><![CDATA[文章URL： https://www.sustainabilitybynumbynumbs.com/p/eliminating-contrails 
-注释URL： https://news.ycombinator.com/item？id=45507398 
-点：132 
-＃评论：168 ]]></description>
-      <guid>https://www.sustainabilitybynumbers.com/p/eliminating-contrails</guid>
-      <pubDate>Tue, 07 Oct 2025 19:07:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>少即是多：微型网络的递归推理</title>
-      <link>https://alexiajm.github.io/2025/09/29/tiny_recursive_models.html</link>
-      <description><![CDATA[论文：https://arxiv.org/abs/2510.04871，代码：https://github.com/SamsungSAILMontreal/TinyRecursiveModels
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45506268
-积分：245
-# 条评论：54]]></description>
-      <guid>https://alexiajm.github.io/2025/09/29/tiny_recursive_models.html</guid>
-      <pubDate>Tue, 07 Oct 2025 17:42:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>德国政府反对聊天控制</title>
-      <link>https://xcancel.com/paddi_hansen/status/1975595307800142205</link>
-      <description><![CDATA[  https：//www.patrick-breyer.de/en/citizen-protest-halts-chat-...  
-
-注释URL： https://news.ycombinator.com/item?id=45506143 
-点：984 
-＃评论：414 ]]></description>
-      <guid>https://xcancel.com/paddi_hansen/status/1975595307800142205</guid>
-      <pubDate>Tue, 07 Oct 2025 17:31:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>像软件公司一样看到</title>
-      <link>https://www.seangoedecke.com/seeing-like-a-software-company/</link>
-      <description><![CDATA[文章网址：https://www.seangoedecke.com/seeing-like-a-software-company/
-评论网址：https://news.ycombinator.com/item?id=45505539
-积分：256
-# 条评论：81]]></description>
-      <guid>https://www.seangoedecke.com/seeing-like-a-software-company/</guid>
-      <pubDate>Tue, 07 Oct 2025 16:49:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
