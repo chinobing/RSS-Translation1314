@@ -4,56 +4,99 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 08 Oct 2025 21:20:07 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Oct 2025 01:22:11 GMT</lastBuildDate>
+    <item>
+      <title>一位竞争对手成为 Reddit 版主，损失了 2350 万美元的训练营</title>
+      <link>https://larslofgren.com/codesmith-reddit-reputation-attack/</link>
+      <description><![CDATA[文章网址：https://larslofgren.com/codesmith-reddit-reputation-attack/
+评论网址：https://news.ycombinator.com/item?id=45521920
+积分：53
+# 条评论：26]]></description>
+      <guid>https://larslofgren.com/codesmith-reddit-reputation-attack/</guid>
+      <pubDate>Wed, 08 Oct 2025 23:48:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>冬季 2025/2026 天气预报</title>
+      <link>https://www.severe-weather.eu/long-range-2/winter-2025-2026-outlook-colder-season-forecast-for-united-states-canada-europe-fa/</link>
+      <description><![CDATA[文章网址： https://www.severe-weather.eu/long-range-2/winter-2025-2026-outlook-colder-season-forecast-for-united-states-canada-europe-fa/
+评论网址：https://news.ycombinator.com/item?id=45521836
+积分：12
+# 条评论：0]]></description>
+      <guid>https://www.severe-weather.eu/long-range-2/winter-2025-2026-outlook-colder-season-forecast-for-united-states-canada-europe-fa/</guid>
+      <pubDate>Wed, 08 Oct 2025 23:35:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：HyprMCP – MCP 服务器的分析、日志和身份验证</title>
+      <link>https://github.com/hyprmcp/jetski</link>
+      <description><![CDATA[嗨，HN，我叫 Philip，我是 Glasskube 的联合创始人，也是 HyprMCP 的创建者之一。当我们做了每个人都在做的事情时，这个项目就开始了——构建一个远程 MCP 服务器并启动它。构建第一个本地 MCP 服务器进行测试非常简单，我们在一天之内就准备好了第一个工具。下一步是将其转变为生产就绪的远程 MCP 服务器。当我们向用户公开 MCP 服务器时，我们希望使用现有的身份验证方法对他们进行身份验证。我们深入研究身份验证。我们的方法是构建一个身份验证代理并将其插入到我们的 MCP 前面。我们花了一段时间才弄清楚动态客户端注册 (DCR) 和 OAuth 规范，尤其是现有 OIDC IDP 与 LLM 客户端所需内容之间的差距。我们认为身份验证将是最困难的部分 - 但事实并非如此。当我们与一些友好的初创公司共享 MCP 服务器时，我们意识到不同的 MCP 客户端的行为不同。特别是如果某件事不起作用，就很难找出根本原因。我们最终存储了所有原始 gRPC 方法调用，以查看初始化和后续请求是否有效。如果您处于调试功能有限的无服务器环境（例如 Cloudflare Workers）中，这尤其有用。一旦我们解决了身份验证和兼容性问题，我们就向小型客户群推出了 — 完成了，对吧？不幸的是，不完全是。从技术上讲，一切正常，但当我们开始与用户交谈时，他们告诉我们 MCP 服务器并不总是根据他们的提示使用正确的工具进行响应。我们有一个可以运行的企业级 MCP 服务器，但它不是很智能。在与一些创业朋友交谈后，我们意识到我们需要一个评估层。这时我们添加了提示分析——让我们看到哪些提示触发了哪些工具以及它们的性能如何。仅此一点就极大地改善了我们的 MCP 行为和整体用户体验。将所有这些构建到我们的代理中后，我们意识到构建远程 MCP 的每个人都面临着相同的挑战。因此，我们决定将其全部打包并发送给社区。我们很高兴能够推出并开源 HyprMCP。
+它充当代理，您可以将其插入 MCP 服务器前面，并且无需进行零代码更改。您可以获得身份验证、日志记录和调试、提示分析以及 MCP 连接指令生成器。在底层，HyprMCP 利用动态 Kubernetes Operators (Metacontroller) 来自动化基础设施配置。路线图：MCP 聚合 — 将多个 MCP 服务器组合在一个远程 URL 下，以便运行具有不同生命周期的服务器的大型组织。
+所有这一切都无需在服务器上存储最终用户凭据并将 MCP 连接到组织现有的身份验证方法。您可以在 GitHub 上查看该项目：https://github.com/hyprmcp/jetski为了进行测试，我们还 这里有一个托管版本：https://app.hyprmcp.com我们甚至在 YouTube 上创建了一个演示视频：https://www.youtube.com/watch?v=m2-YyfjXap4我们很乐意收到您的反馈，了解缺少哪些功能，并了解您如何构建和运行自己的 MCP 服务器。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45521788
+积分：3
+# 条评论：0]]></description>
+      <guid>https://github.com/hyprmcp/jetski</guid>
+      <pubDate>Wed, 08 Oct 2025 23:27:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Discord 称 7 万用户的政府 ID 可能被泄露</title>
+      <link>https://www.theverge.com/news/797051/discord-government-ids-leaked-data-breach</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/news/797051/discord-government-ids-leaked-data-breach
+评论网址：https://news.ycombinator.com/item?id=45521738
+积分：28
+评论数量：9]]></description>
+      <guid>https://www.theverge.com/news/797051/discord-government-ids-leaked-data-breach</guid>
+      <pubDate>Wed, 08 Oct 2025 23:20:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>PWA 浏览器记分卡</title>
+      <link>https://pwascore.com/</link>
+      <description><![CDATA[文章网址：https://pwascore.com/
+评论网址：https://news.ycombinator.com/item?id=45521704
+积分：71
+# 条评论：22]]></description>
+      <guid>https://pwascore.com/</guid>
+      <pubDate>Wed, 08 Oct 2025 23:14:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么 OpenAI、Nvidia、AMD 之间的 Circular AI 交易引起关注</title>
+      <link>https://www.bloomberg.com/news/articles/2025-10-08/the-circular-openai-nvidia-and-amd-deals-raising-fears-of-a-new-tech-bubble</link>
+      <description><![CDATA[文章网址： https://www.bloomberg.com/news/articles/2025-10-08/the-circular-openai-nvidia-and-amd-deals-raise-fears-of-a-new-tech-bubble
+评论网址：https://news.ycombinator.com/item?id=45521484
+积分：67
+# 条评论：26]]></description>
+      <guid>https://www.bloomberg.com/news/articles/2025-10-08/the-circular-openai-nvidia-and-amd-deals-raising-fears-of-a-new-tech-bubble</guid>
+      <pubDate>Wed, 08 Oct 2025 22:47:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>库尔特得到了</title>
+      <link>https://fly.io/blog/kurt-got-got/</link>
+      <description><![CDATA[文章网址：https://fly.io/blog/kurt-got-got/
+评论网址：https://news.ycombinator.com/item?id=45520615
+积分：123
+# 条评论：107]]></description>
+      <guid>https://fly.io/blog/kurt-got-got/</guid>
+      <pubDate>Wed, 08 Oct 2025 21:02:34 GMT</pubDate>
+    </item>
     <item>
       <title>我玩了 1000 手在线扑克，并使用 Cursor AI 构建了一个 Web 应用程序</title>
       <link>https://blog.rchase.com/i-played-1-000-hands-of-online-poker-and-built-a-web-app-with-cursor-ai/</link>
       <description><![CDATA[文章网址：https://blog.rchase.com/i-played-1-000-hands-of-online-poker-and-built-a-web-app-with-cursor-ai/
 评论网址：https://news.ycombinator.com/item?id=45520154
-积分：15
-# 条评论：4]]></description>
+积分：59
+# 条评论：62]]></description>
       <guid>https://blog.rchase.com/i-played-1-000-hands-of-online-poker-and-built-a-web-app-with-cursor-ai/</guid>
       <pubDate>Wed, 08 Oct 2025 20:20:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>扩大对 Opal（我们的无代码 AI 迷你应用程序构建器）的访问</title>
-      <link>https://blog.google/technology/google-labs/opal-expansion/</link>
-      <description><![CDATA[文章网址：https://blog.google/technology/google-labs/opal-expansion/
-评论网址：https://news.ycombinator.com/item?id=45519944
-积分：16
-# 条评论：10]]></description>
-      <guid>https://blog.google/technology/google-labs/opal-expansion/</guid>
-      <pubDate>Wed, 08 Oct 2025 19:56:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Svelte 就是这么快</title>
-      <link>https://chuniversiteit.nl/papers/svelte-is-fast</link>
-      <description><![CDATA[文章网址：https://chuniversiteit.nl/papers/svelte-is-fast
-评论网址：https://news.ycombinator.com/item?id=45519915
-积分：111
-评论数量：97]]></description>
-      <guid>https://chuniversiteit.nl/papers/svelte-is-fast</guid>
-      <pubDate>Wed, 08 Oct 2025 19:54:02 GMT</pubDate>
     </item>
     <item>
       <title>偷走我的 914 (2022) 之前需要了解的几件事</title>
       <link>https://www.hagerty.com/media/advice/a-few-things-to-know-before-you-steal-my-914/</link>
       <description><![CDATA[文章网址：https://www.hagerty.com/media/advice/a-few-things-to-know-before-you-steal-my-914/
 评论网址：https://news.ycombinator.com/item?id=45519575
-积分：87
-# 条评论：36]]></description>
+积分：198
+评论数量：90]]></description>
       <guid>https://www.hagerty.com/media/advice/a-few-things-to-know-before-you-steal-my-914/</guid>
       <pubDate>Wed, 08 Oct 2025 19:16:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Julia 1.12 亮点</title>
-      <link>https://julialang.org/blog/2025/10/julia-1.12-highlights/</link>
-      <description><![CDATA[文章网址：https://julialang.org/blog/2025/10/julia-1.12-highlights/
-评论网址：https://news.ycombinator.com/item?id=45519263
-积分：100
-# 条评论：26]]></description>
-      <guid>https://julialang.org/blog/2025/10/julia-1.12-highlights/</guid>
-      <pubDate>Wed, 08 Oct 2025 18:42:22 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：FleetCode – 用于运行多个编码代理的开源 UI</title>
@@ -61,51 +104,10 @@
       <description><![CDATA[嗨，HN！我最近发现运行并行 CLI 编码代理的生产力（在最初不相信它们之后）。在进行了大量的 git 存储和分支摸索之后，我决定需要一些东西来更符合人体工程学地在它们自己的专用空间中运行这些代理。我尝试了很多现有产品，但它们要么太复杂，要么根本不起作用。他们中的一些人似乎也推出了自己的聊天 UI，我认为这不是正确的方法，我想要一些东西来轻松包装我的终端会话。所以我构建了 FleetCode！它使用 git worktrees，让您可以同时运行多个代理。它使我的多代理编码工作流程变得更加轻松。它是免费且开源的，希望得到一些反馈！
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=45518861
-积分：36
-# 条评论：22]]></description>
+积分：56
+# 条评论：35]]></description>
       <guid>https://github.com/built-by-as/FleetCode</guid>
       <pubDate>Wed, 08 Oct 2025 18:00:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>WinBoat：Linux 上的 Windows 应用程序无缝集成</title>
-      <link>https://www.winboat.app/</link>
-      <description><![CDATA[文章网址：https://www.winboat.app/
-评论网址：https://news.ycombinator.com/item?id=45518813
-积分：78
-# 条评论：43]]></description>
-      <guid>https://www.winboat.app/</guid>
-      <pubDate>Wed, 08 Oct 2025 17:56:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我构建了一个本地优先的播客应用程序</title>
-      <link>https://wherever.audio</link>
-      <description><![CDATA[我在 2004 年开发了早期的播客软件 (iPodder/Juice)，从那时起我就一直是播客的重度消费者。我想要一个尊重您的隐私并拥抱开放网络的播客应用程序，并探索浏览器中的可能性。结果是Wherever.audio，您现在可以通过上面的链接尝试它。它是如何工作的：这是一个渐进式网络应用程序，使用 IndexedDB 将您的所有订阅和数据本地存储在浏览器中。将其添加到您的主屏幕，感觉就像是原生的。可以离线使用下载的剧集。没有中央服务器存储您的数据，只有一些 Cloudflare/AWS 帮助程序来消除浏览器限制。有何不同：- 真正的本地优先：您的数据保留在您的设备上- 自定义源：添加任何 RSS 源，而不仅仅是目录中的内容- 设备上搜索：搜索所有源和剧集，包括您的自定义源- Podcasting 2.0 支持：章节、 文字记录、资助标签等- 自动生成的章节：适用于没有这些内容的热门节目- 人工智能驱动的发现：提出问题以查找节目和剧集（此功能会向第三方 API 发送查询，并且在我们制定提示时还使用匿名分析）- 音频引导教程：带有语音指导和视觉提示的交互式演练 基础功能也很好用：标准播放功能、队列管理、速度控制等。我对反馈真的很感兴趣——现在这是一个比业务更充满激情的项目。我已经将它作为我的日常播客应用程序进行了一年多的测试，如果人们发现它有价值，我愿意探索将其变成一项业务。很好奇是否存在以隐私为中心的开放网络方法可以解决的未满足的需求。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45518127
-积分：35
-# 条评论：19]]></description>
-      <guid>https://wherever.audio</guid>
-      <pubDate>Wed, 08 Oct 2025 16:46:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>奥尔特加假说</title>
-      <link>https://en.wikipedia.org/wiki/Ortega_hypothesis</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Ortega_hypothesis
-评论网址：https://news.ycombinator.com/item?id=45517674
-积分：141
-# 条评论：77]]></description>
-      <guid>https://en.wikipedia.org/wiki/Ortega_hypothesis</guid>
-      <pubDate>Wed, 08 Oct 2025 16:06:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>RSS 提要阅读器景观</title>
-      <link>https://lighthouseapp.io/blog/feed-reader-deep-dive</link>
-      <description><![CDATA[文章网址：https://lighthouseapp.io/blog/feed-reader-deep-dive
-评论网址：https://news.ycombinator.com/item?id=45517134
-积分：122
-评论数量：90]]></description>
-      <guid>https://lighthouseapp.io/blog/feed-reader-deep-dive</guid>
-      <pubDate>Wed, 08 Oct 2025 15:17:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
