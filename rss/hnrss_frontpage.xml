@@ -4,48 +4,74 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 10 Oct 2025 18:29:23 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 21:17:24 GMT</lastBuildDate>
     <item>
-      <title>Show HN：用 Rust 建模人体，这样我就可以通过 Cmd+Click 浏览它</title>
-      <link>https://github.com/lantos1618/open_human_ontology</link>
-      <description><![CDATA[我开始尝试了解两件事：为什么我的亚洲朋友喝酒后会变红，以及为什么几个朋友似乎都有偏头痛。我正在阅读医学论文和教科书，但在主题之间跳转时总是迷失方向。我想：如果我可以通过 Cmd+Click 来浏览这样的代码怎么办？如果“ALDH2 基因”实际上是可点击的，并带我了解变异、表型、群体频率，结果会怎样？因此，我开始与我的 Ralph 代理（循环中的 Claude、ty ghuntley）一起在 Rust 中对人类生物学进行建模。事实证明，类型系统非常适合于此。每个生物实体都是强类型的，并在编译时强制执行关系。代理编码 1 天后：
-- 277 个 Rust 文件，约 95k 行代码 
-- 1,561 项测试通过
-- 13个完整的器官系统
-- 具有祖先特定变异的遗传学
-- 临床病理模型尝试一下：git clone https://github.com/lantos1618/open_ human_ontology
-cd open_human_ontology
-Cargo run --example ide_navigation_demo然后打开 `examples/ide_navigation_demo.rs` 并 Cmd+点击：了解亚洲同花：AsianGeneticVariantsCatalog::get_metabolic_variants()// 点击进入：// → 染色体上的 ALDH2 基因 12q24.12// → rs671 变异 (Glu504Lys)// → 日本人群中的频率为 40%// → 酒精潮红反应// → 酒精导致食管癌的风险增加 10 倍// → 乙醛代谢途径了解偏头痛：
-偏头痛{
-    子类型：WithAura，
-    触发因素：[压力、睡眠不足、荷尔蒙变化]、
-    Genetic_variants：[“rs2075968”，“rs1835740”]，
-    ...
-}// 点击查看：// → 17 种偏头痛触发类型// → 12 种先兆症状类型// → 遗传风险因素// → 为什么会发生集群（荷尔蒙变化 → 月经）现在我实际上可以导航这些连接，而无需翻阅 PDF。心脏→冠状动脉→斑块。 VisualCortex → 200M 神经元 → NeuralConnection 通路。它就像维基百科，但经过类型检查并具有跳转到定义的功能。这不是生产医疗软件 - 它是一种学习工具。但对于理解生物系统如何连接，它比教科书有用得多。代理不断扩展它。有时它会 OOM，但这也是乐趣的一部分。技术：Rust、nalgebra、serde、rayon、proptest我不是博士或医学专业人士，这是为了我的教育，如果您愿意，您可以致力于它，或者如果您发现错误信息或想要添加参考文献，请查看并打开一些 PR。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45541874
-积分：4
+      <title>Show HN：国家美术馆的语义搜索</title>
+      <link>https://nga.demo.mixedbread.com/</link>
+      <description><![CDATA[文章网址：https://nga.demo.mixedbread.com/
+评论网址：https://news.ycombinator.com/item?id=45543471
+积分：5
 # 条评论：0]]></description>
-      <guid>https://github.com/lantos1618/open_human_ontology</guid>
-      <pubDate>Fri, 10 Oct 2025 17:59:55 GMT</pubDate>
+      <guid>https://nga.demo.mixedbread.com/</guid>
+      <pubDate>Fri, 10 Oct 2025 20:33:25 GMT</pubDate>
     </item>
     <item>
-      <title>软件开发人才性质模糊</title>
+      <title>Apple 决定 ICE 特工属于受保护类别</title>
+      <link>https://www.techdirt.com/2025/10/10/apple-decides-ice-agents-are-a-protected-class-because-apparently-government-accountability-is-now-hate-speech/</link>
+      <description><![CDATA[文章网址： https://www.techdirt.com/2025/10/10/apple-decides-ice-agents-are-a-protected-class-because-apparently-government-accountability-is-now-hate-speech/
+评论网址：https://news.ycombinator.com/item?id=45543114
+积分：33
+# 条评论：1]]></description>
+      <guid>https://www.techdirt.com/2025/10/10/apple-decides-ice-agents-are-a-protected-class-because-apparently-government-accountability-is-now-hate-speech/</guid>
+      <pubDate>Fri, 10 Oct 2025 19:59:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们的“对速度的需求”是否让我们的 Wi-Fi 很糟糕？</title>
+      <link>https://orb.net/blog/does-speed-make-wifi-suck</link>
+      <description><![CDATA[文章网址：https://orb.net/blog/does-speed-make-wifi-suck
+评论网址：https://news.ycombinator.com/item?id=45542444
+积分：42
+# 条评论：38]]></description>
+      <guid>https://orb.net/blog/does-speed-make-wifi-suck</guid>
+      <pubDate>Fri, 10 Oct 2025 18:55:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>丰田计划推出“首款”全固态电动汽车电池</title>
+      <link>https://electrek.co/2025/10/08/toyota-aims-to-launch-worlds-first-all-solid-state-ev-batteries/</link>
+      <description><![CDATA[文章网址： https://electrek.co/2025/10/08/toyota-aims-to-launch-worlds-first-all-solid-state-ev-batteries/
+评论网址：https://news.ycombinator.com/item?id=45542423
+积分：38
+# 条评论：30]]></description>
+      <guid>https://electrek.co/2025/10/08/toyota-aims-to-launch-worlds-first-all-solid-state-ev-batteries/</guid>
+      <pubDate>Fri, 10 Oct 2025 18:53:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>谷歌、Meta 和微软将停止在欧盟展示政治广告</title>
+      <link>https://www.politico.eu/article/eu-political-ad-rules-google-meta-microsoft-big-tech-kick-in/</link>
+      <description><![CDATA[文章网址： https://www.politico.eu/article/eu-political-ad-rules-google-meta-microsoft-big-tech-kick-in/
+评论网址：https://news.ycombinator.com/item?id=45542145
+积分：143
+评论数：108]]></description>
+      <guid>https://www.politico.eu/article/eu-political-ad-rules-google-meta-microsoft-big-tech-kick-in/</guid>
+      <pubDate>Fri, 10 Oct 2025 18:25:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>软件开发人才的难以辨认的本质</title>
       <link>https://surfingcomplexity.blog/2025/10/08/the-illegible-nature-of-software-development-talent/</link>
       <description><![CDATA[文章网址：https://surfingcomplexity.blog/2025/10/08/the-illegible-nature-of-software-development-talent/
 评论网址：https://news.ycombinator.com/item?id=45541600
-积分：5
-# 条评论：1]]></description>
+积分：80
+# 条评论：79]]></description>
       <guid>https://surfingcomplexity.blog/2025/10/08/the-illegible-nature-of-software-development-talent/</guid>
       <pubDate>Fri, 10 Oct 2025 17:37:43 GMT</pubDate>
     </item>
     <item>
-      <title>2025.41：这是 OpenAI 的世界，我们只是生活在其中</title>
+      <title>这是 OpenAI 的世界，我们只是生活在其中</title>
       <link>https://stratechery.com/2025/its-openais-world-were-just-living-in-it/</link>
       <description><![CDATA[文章网址：https://stratechery.com/2025/its-openais-world-were-just-living-in-it/
 评论网址：https://news.ycombinator.com/item?id=45541125
-积分：43
-# 条评论：57]]></description>
+积分：81
+评论数：148]]></description>
       <guid>https://stratechery.com/2025/its-openais-world-were-just-living-in-it/</guid>
       <pubDate>Fri, 10 Oct 2025 17:01:04 GMT</pubDate>
     </item>
@@ -54,40 +80,10 @@ Cargo run --example ide_navigation_demo然后打开 `examples/ide_navigation_dem
       <link>https://president.mit.edu/writing-speeches/regarding-compact</link>
       <description><![CDATA[文章网址：https://president.mit.edu/writing-speeches/regarding-compact
 评论网址：https://news.ycombinator.com/item?id=45540989
-积分：91
-# 条评论：20]]></description>
+积分：131
+评论数量：85]]></description>
       <guid>https://president.mit.edu/writing-speeches/regarding-compact</guid>
       <pubDate>Fri, 10 Oct 2025 16:49:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Boring Company 因拉斯维加斯近 800 起环境违法行为而被指控</title>
-      <link>https://www.propublica.org/article/elon-musk-boring-company-violations-fines-vegas-loop</link>
-      <description><![CDATA[文章网址：https://www.propublica.org/article/elon-musk-boring-company-violations-fines-vegas-loop
-评论网址：https://news.ycombinator.com/item?id=45540585
-积分：191
-# 条评论：175]]></description>
-      <guid>https://www.propublica.org/article/elon-musk-boring-company-violations-fines-vegas-loop</guid>
-      <pubDate>Fri, 10 Oct 2025 16:13:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>编码教育中的“氛围代码地狱”已取代“教程地狱”</title>
-      <link>https://blog.boot.dev/education/vibe-code-hell/</link>
-      <description><![CDATA[文章网址：https://blog.boot.dev/education/vibe-code-hell/
-评论网址：https://news.ycombinator.com/item?id=45540313
-积分：169
-# 条评论：79]]></description>
-      <guid>https://blog.boot.dev/education/vibe-code-hell/</guid>
-      <pubDate>Fri, 10 Oct 2025 15:48:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软让老板发现躲避 Copilot 的团队</title>
-      <link>https://www.theregister.com/2025/10/10/microsoft_copilot_viva_insights/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2025/10/10/microsoft_copilot_viva_insights/
-评论网址：https://news.ycombinator.com/item?id=45540174
-积分：66
-# 条评论：50]]></description>
-      <guid>https://www.theregister.com/2025/10/10/microsoft_copilot_viva_insights/</guid>
-      <pubDate>Fri, 10 Oct 2025 15:37:43 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：Gitcasso – GitHub 评论的语法突出显示和草稿恢复</title>
@@ -98,8 +94,8 @@ https://www.youtube.com/watch?v=wm7fVg4DWqk以及带有视频演练时间戳的�
 https://nedshed.dev/p/meet-gitcasso
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=45540171
-积分：12
-# 条评论：2]]></description>
+积分：19
+# 条评论：4]]></description>
       <guid>https://github.com/diffplug/gitcasso</guid>
       <pubDate>Fri, 10 Oct 2025 15:37:27 GMT</pubDate>
     </item>
@@ -108,20 +104,10 @@ https://nedshed.dev/p/meet-gitcasso
       <link>https://github.com/NixOS/nixpkgs/issues/444342</link>
       <description><![CDATA[文章网址：https://github.com/NixOS/nixpkgs/issues/444342
 评论网址：https://news.ycombinator.com/item?id=45540011
-积分：91
-# 条评论：27]]></description>
+积分：127
+# 条评论：62]]></description>
       <guid>https://github.com/NixOS/nixpkgs/issues/444342</guid>
       <pubDate>Fri, 10 Oct 2025 15:18:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>瑞安航空航班降落在曼彻斯特机场，燃油还剩六分钟</title>
-      <link>https://www.theguardian.com/business/2025/oct/10/ryanair-flight-landed-at-manchester-airport-with-six-minutes-of-fuel-left-flight-log-suggests</link>
-      <description><![CDATA[文章网址： https://www.theguardian.com/business/2025/oct/10/ryanair-flight-landed-at-manchester-airport-with-six-minutes-of-fuel-left-flight-log-suggests
-评论网址：https://news.ycombinator.com/item?id=45539943
-积分：266
-# 条评论：246]]></description>
-      <guid>https://www.theguardian.com/business/2025/oct/10/ryanair-flight-landed-at-manchester-airport-with-six-minutes-of-fuel-left-flight-log-suggests</guid>
-      <pubDate>Fri, 10 Oct 2025 15:11:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
