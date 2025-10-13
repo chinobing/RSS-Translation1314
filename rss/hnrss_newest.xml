@@ -4,111 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 13 Oct 2025 12:39:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 15:20:09 GMT</lastBuildDate>
     <item>
-      <title>Show HN: Minim – 集成了 AI 命令的 minim 编辑器</title>
-      <link>https://www.minimeditor.com</link>
-      <description><![CDATA[Minim 是一个命令模式的编辑器。我构建它的灵感来自 VIM。寻求建议我可以使用此编辑器进一步做什么。
+      <title>显示 HN：Tabsdata – 用于表的 Pub/Sub 来替换 ETL 管道</title>
+      <link>https://news.ycombinator.com/item?id=45569167</link>
+      <description><![CDATA[您好，HN，我是 Tabsdata 的创始人之一，这是一个围绕表的发布/订阅构建的数据集成新系统。Tabsdata 是一个自我管理的系统，您可以在自己的环境中部署。它是用 Rust 构建的，以提高性能和安全性，并使用 Python 绑定来表达数据流。您可以获得基于浏览器的 UI 和覆盖平台整个表面区域的 CLI。我们在花费了近二十年的数据集成时间后开始了这个项目。在那段时间里，我们看到现代数据堆栈分层出现：摄取、准备、质量、产品化等等。其中许多层旨在处理半结构化数据和模式漂移。但这种复杂性常常给数据团队带来脆弱的工作流程和有限的可见性。我们的一个重要教训是：无论数据如何开始，它总是会变成表格。 API、日志、Parquet 文件、事件流 - 所有内容最终都会以表格形式呈现。因此，我们从摄取开始就将表格作为系统中的一流单元。第二课是关于语义和元数据的。生产者和消费者之间的每一层都倾向于淡化意义、重塑模式、掩盖血统或放弃所有权上下文。这迫使团队构建新的层来修补丢失的内容。我们认为更好的方法是将表、其元数据及其语义意图从头到尾都放在一起。 Tabsdata 对此进行了默认设置。Tabsdata 不是跨分散的工具和平台将摄取、转换、编排和治理拼接在一起，而是提供了一个单一的声明性系统，生产者可以在其中发布，转换器可以丰富，消费者可以订阅。每个步骤都有版本控制，每个更改都是可解释的。如果您好奇，这里是我们在实用数据社区分享的简短概述和演示：https://www.youtube.com/watch?v=qCZIRC9khmA您还可以在此处了解更多信息：https://tabsdata.com典型用例* 即时 ETL - 没有要安排的工作。每次更新都会立即流经依赖关系图，因此面向消费者的表始终与生产者的最新数据同步。* 即时沿袭 - 每个表刷新都会生成一个沿袭图，其中包括输入、输出的版本以及连接它们的转换。* 声明性 DataOps - 无需争论的管道。使用具有明确输入和输出的声明性步骤将转换直接附加到表。对表的所有更改都完全可重现。* 旧版 ETL 现代化 - Tabsdata 清晰地映射到 Informatica 和 Talend 样式的映射。您可以进行迁移，而无需从头开始重写逻辑或中断下游用户。Tabsdata 不是什么* 它不是消息代理或事件系统。如果您正在构建实时流应用程序，您仍然应该使用 Kafka、Kinesis 或同等产品。* 它不是数据库或 Lakehouse。 Tabsdata 可与您已有的数据平台配合使用，将受版本控制的可信表作为输出提供给其中。我们还处于早期阶段，正在寻求反馈。如果您遇到过管道蔓延、协调缓慢或数据团队之间所有权不明确的问题，我们很想听听您的观点。缺少什么？什么没有意义？什么会让这在您的设置中更有用？此致，Arvind
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45567610
+评论网址：https://news.ycombinator.com/item?id=45569167
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.minimeditor.com</guid>
-      <pubDate>Mon, 13 Oct 2025 12:29:42 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45569167</guid>
+      <pubDate>Mon, 13 Oct 2025 15:08:55 GMT</pubDate>
     </item>
     <item>
-      <title>癌症：法国必须知道为什么它的接触率更高</title>
-      <link>https://www.lemonde.fr/en/opinion/article/2025/10/11/cancer-france-must-know-why-it-faces-higher-exposure-rates_6746328_23.html</link>
-      <description><![CDATA[文章网址： https://www.lemonde.fr/en/opinion/article/2025/10/11/cancer-france-must-know-why-it-faces-higher-exposure-rates_6746328_23.html
-评论网址：https://news.ycombinator.com/item?id=45567592
+      <title>荷兰限制 Nexperia 在中国境外保守其芯片机密</title>
+      <link>https://www.techzine.eu/news/security/135367/dutch-restrict-nexperia-to-keep-its-chip-secrets-outside-of-china/</link>
+      <description><![CDATA[文章网址： https://www.techzine.eu/news/security/135367/dutch-restrict-nexperia-to-keep-its-chip-secrets-outside-of-china/
+评论网址：https://news.ycombinator.com/item?id=45569156
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.lemonde.fr/en/opinion/article/2025/10/11/cancer-france-must-know-why-it-faces-higher-exposure-rates_6746328_23.html</guid>
-      <pubDate>Mon, 13 Oct 2025 12:27:55 GMT</pubDate>
+      <guid>https://www.techzine.eu/news/security/135367/dutch-restrict-nexperia-to-keep-its-chip-secrets-outside-of-china/</guid>
+      <pubDate>Mon, 13 Oct 2025 15:08:05 GMT</pubDate>
     </item>
     <item>
-      <title>普京针对“大”英国的阴谋——以及他是如何得逞的</title>
-      <link>https://bylinetimes.com/2022/03/08/putin-plot-against-great-britain-and-how-he-got-away-with-it/</link>
-      <description><![CDATA[文章网址： https://bylinetimes.com/2022/03/08/putin-plot-against-great-britain-and-how-he-got-away-with-it/
-评论网址：https://news.ycombinator.com/item?id=45567572
+      <title>贝尼奥夫放弃了派遣军队清理旧金山的想法</title>
+      <link>https://www.theregister.com/2025/10/13/marc_benioffs_new_dream_force/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2025/10/13/marc_benioffs_new_dream_force/
+评论网址：https://news.ycombinator.com/item?id=45569155
 积分：1
 # 条评论：0]]></description>
-      <guid>https://bylinetimes.com/2022/03/08/putin-plot-against-great-britain-and-how-he-got-away-with-it/</guid>
-      <pubDate>Mon, 13 Oct 2025 12:25:26 GMT</pubDate>
+      <guid>https://www.theregister.com/2025/10/13/marc_benioffs_new_dream_force/</guid>
+      <pubDate>Mon, 13 Oct 2025 15:07:52 GMT</pubDate>
     </item>
     <item>
-      <title>简单的铸造和热处理即可产生兼具强度和延展性的合金</title>
-      <link>https://techxplore.com/news/2025-09-simple-treatment-yields-alloy-strength.html</link>
-      <description><![CDATA[文章网址：https://techxplore.com/news/2025-09-simple-treatment-yields-alloy-strength.html
-评论网址：https://news.ycombinator.com/item?id=45567569
+      <title>人工智能时代的治理：国家转型的新模式（2024）</title>
+      <link>https://institute.global/insights/politics-and-governance/governing-in-the-age-of-ai-a-new-model-to-transform-the-state</link>
+      <description><![CDATA[文章网址： https://institute.global/insights/politics-and-governance/governing-in-the-age-of-ai-a-new-model-to-transform-the-state
+评论网址：https://news.ycombinator.com/item?id=45569144
 积分：1
 # 条评论：0]]></description>
-      <guid>https://techxplore.com/news/2025-09-simple-treatment-yields-alloy-strength.html</guid>
-      <pubDate>Mon, 13 Oct 2025 12:25:10 GMT</pubDate>
+      <guid>https://institute.global/insights/politics-and-governance/governing-in-the-age-of-ai-a-new-model-to-transform-the-state</guid>
+      <pubDate>Mon, 13 Oct 2025 15:07:15 GMT</pubDate>
     </item>
     <item>
-      <title>打造让您与众不同的东西。买剩下的</title>
-      <link>https://werd.io/build-what-makes-you-special-buy-the-rest/</link>
-      <description><![CDATA[文章网址：https://werd.io/build-what-makes-you-special-buy-the-rest/
-评论网址：https://news.ycombinator.com/item?id=45567554
-积分：1
-# 条评论：1]]></description>
-      <guid>https://werd.io/build-what-makes-you-special-buy-the-rest/</guid>
-      <pubDate>Mon, 13 Oct 2025 12:24:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>大比分：电视和电影配乐的生意</title>
-      <link>https://www.rte.ie/news/business/2025/1012/1538079-soundtracks-film-tv/</link>
-      <description><![CDATA[文章网址：https://www.rte.ie/news/business/2025/1012/1538079-soundtracks-film-tv/
-评论网址：https://news.ycombinator.com/item?id=45567550
+      <title>Veo 3.1 带音频的 AI 视频生成器 – 电影文本转视频</title>
+      <link>https://veo31video.com</link>
+      <description><![CDATA[文章网址：https://veo31video.com
+评论网址：https://news.ycombinator.com/item?id=45569141
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.rte.ie/news/business/2025/1012/1538079-soundtracks-film-tv/</guid>
-      <pubDate>Mon, 13 Oct 2025 12:23:07 GMT</pubDate>
+      <guid>https://veo31video.com</guid>
+      <pubDate>Mon, 13 Oct 2025 15:06:54 GMT</pubDate>
     </item>
     <item>
-      <title>任天堂因销售 Switch ROM 提起诉讼，要求 Reddit Mod 支付 450 万美元</title>
-      <link>https://hothardware.com/news/nintendo-lawsuit-demands-over-4-million-from-reddit-mod-for-selling-switch-roms</link>
-      <description><![CDATA[文章网址： https://hothardware.com/news/nintendo-lawsuit-demands-over-4-million-from-reddit-mod-for- sell-switch-roms
-评论网址：https://news.ycombinator.com/item?id=45567545
-积分：1
-# 条评论：0]]></description>
-      <guid>https://hothardware.com/news/nintendo-lawsuit-demands-over-4-million-from-reddit-mod-for-selling-switch-roms</guid>
-      <pubDate>Mon, 13 Oct 2025 12:22:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Notion 数据库的 SQL 集成</title>
-      <link>https://yourdata.tech</link>
-      <description><![CDATA[我正在为 Notion 构建一个集成，它允许您自动将 SQL 数据库中的数据同步到 Notion 数据库中。这对于使用 Notion 进行知识管理的高级用户和公司来说应该很有用。它的作用：- 可与 Postgres、MySQL、SQL Server 和其他主要数据库配合使用
-- 您可以使用 SQL 查询控制数据（根据需要过滤、连接、转换）
-- 计划同步使 Notion 自动更新寻找早期用户。加入候补名单的人可享受终身折扣！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45567538
-积分：1
-# 条评论：0]]></description>
-      <guid>https://yourdata.tech</guid>
-      <pubDate>Mon, 13 Oct 2025 12:21:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：本地浏览器 AI</title>
-      <link>https://blog.alexewerlof.com/p/local-browser-ai</link>
-      <description><![CDATA[使用新的 Prompt API 构建免费的开源隐私优先聊天扩展程序，可在 Linux、Mac、Windows 和 ChromeOS 上的 Chrome 或 Edge 上运行
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45567522
+      <title>托尼·布莱尔和尼克·克莱格主持晚宴，让科技公司的老板们能够会见英国部长</title>
+      <link>https://www.theguardian.com/politics/2025/oct/11/tony-blair-and-nick-clegg-hosted-dinner-giving-tech-bosses-access-to-uk-minister</link>
+      <description><![CDATA[文章网址： https://www.theguardian.com/politics/2025/oct/11/tony-blair-and-nick-clegg-hosted-dinner-giving-tech-bosses-access-to-uk-minister
+评论网址：https://news.ycombinator.com/item?id=45569124
 积分：2
 # 条评论：0]]></description>
-      <guid>https://blog.alexewerlof.com/p/local-browser-ai</guid>
-      <pubDate>Mon, 13 Oct 2025 12:19:24 GMT</pubDate>
+      <guid>https://www.theguardian.com/politics/2025/oct/11/tony-blair-and-nick-clegg-hosted-dinner-giving-tech-bosses-access-to-uk-minister</guid>
+      <pubDate>Mon, 13 Oct 2025 15:05:07 GMT</pubDate>
     </item>
     <item>
-      <title>美国垃圾债券录得六个月来最严重损失，利差扩大</title>
-      <link>https://www.bloomberg.com/news/articles/2025-10-13/us-junk-bonds-post-worst-losses-in-six-months-spreads-widen</link>
-      <description><![CDATA[文章网址： https://www.bloomberg.com/news/articles/2025-10-13/us-junk-bonds-post-worst-losses-in-six-months-spreads-widen
-评论网址：https://news.ycombinator.com/item?id=45567517
+      <title>不方便的学习</title>
+      <link>https://www.aninconvenientstudy.com/</link>
+      <description><![CDATA[文章网址：https://www.aninconvenientstudy.com/
+评论网址：https://news.ycombinator.com/item?id=45569113
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.aninconvenientstudy.com/</guid>
+      <pubDate>Mon, 13 Oct 2025 15:04:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>超过 13 万沃达丰客户报告服务中断</title>
+      <link>https://www.bbc.co.uk/news/articles/c5yldldx659o</link>
+      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/c5yldldx659o
+评论网址：https://news.ycombinator.com/item?id=45569108
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2025-10-13/us-junk-bonds-post-worst-losses-in-six-months-spreads-widen</guid>
-      <pubDate>Mon, 13 Oct 2025 12:18:39 GMT</pubDate>
+      <guid>https://www.bbc.co.uk/news/articles/c5yldldx659o</guid>
+      <pubDate>Mon, 13 Oct 2025 15:03:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>英国沃达丰宽带全国中断</title>
+      <link>https://www.thesun.co.uk/money/36989720/vodafone-broadband-down-thousands-internet-access/</link>
+      <description><![CDATA[文章网址：https://www.thesun.co.uk/money/36989720/vodafone-broadband-down-thousands-internet-access/
+评论网址：https://news.ycombinator.com/item?id=45569103
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.thesun.co.uk/money/36989720/vodafone-broadband-down-thousands-internet-access/</guid>
+      <pubDate>Mon, 13 Oct 2025 15:03:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHub 的 Ubuntu 运行程序有 1,681 个软件包和 9 个高漏洞</title>
+      <link>https://bomfather.dev/blog/gh-runners-are-filled-with-vulns/</link>
+      <description><![CDATA[文章网址：https://bomfather.dev/blog/gh-runners-are-filled-with-vulns/
+评论网址：https://news.ycombinator.com/item?id=45569095
+积分：2
+# 条评论：0]]></description>
+      <guid>https://bomfather.dev/blog/gh-runners-are-filled-with-vulns/</guid>
+      <pubDate>Mon, 13 Oct 2025 15:03:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
