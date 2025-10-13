@@ -4,107 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 13 Oct 2025 15:20:09 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 18:27:45 GMT</lastBuildDate>
     <item>
-      <title>显示 HN：Tabsdata – 用于表的 Pub/Sub 来替换 ETL 管道</title>
-      <link>https://news.ycombinator.com/item?id=45569167</link>
-      <description><![CDATA[您好，HN，我是 Tabsdata 的创始人之一，这是一个围绕表的发布/订阅构建的数据集成新系统。Tabsdata 是一个自我管理的系统，您可以在自己的环境中部署。它是用 Rust 构建的，以提高性能和安全性，并使用 Python 绑定来表达数据流。您可以获得基于浏览器的 UI 和覆盖平台整个表面区域的 CLI。我们在花费了近二十年的数据集成时间后开始了这个项目。在那段时间里，我们看到现代数据堆栈分层出现：摄取、准备、质量、产品化等等。其中许多层旨在处理半结构化数据和模式漂移。但这种复杂性常常给数据团队带来脆弱的工作流程和有限的可见性。我们的一个重要教训是：无论数据如何开始，它总是会变成表格。 API、日志、Parquet 文件、事件流 - 所有内容最终都会以表格形式呈现。因此，我们从摄取开始就将表格作为系统中的一流单元。第二课是关于语义和元数据的。生产者和消费者之间的每一层都倾向于淡化意义、重塑模式、掩盖血统或放弃所有权上下文。这迫使团队构建新的层来修补丢失的内容。我们认为更好的方法是将表、其元数据及其语义意图从头到尾都放在一起。 Tabsdata 对此进行了默认设置。Tabsdata 不是跨分散的工具和平台将摄取、转换、编排和治理拼接在一起，而是提供了一个单一的声明性系统，生产者可以在其中发布，转换器可以丰富，消费者可以订阅。每个步骤都有版本控制，每个更改都是可解释的。如果您好奇，这里是我们在实用数据社区分享的简短概述和演示：https://www.youtube.com/watch?v=qCZIRC9khmA您还可以在此处了解更多信息：https://tabsdata.com典型用例* 即时 ETL - 没有要安排的工作。每次更新都会立即流经依赖关系图，因此面向消费者的表始终与生产者的最新数据同步。* 即时沿袭 - 每个表刷新都会生成一个沿袭图，其中包括输入、输出的版本以及连接它们的转换。* 声明性 DataOps - 无需争论的管道。使用具有明确输入和输出的声明性步骤将转换直接附加到表。对表的所有更改都完全可重现。* 旧版 ETL 现代化 - Tabsdata 清晰地映射到 Informatica 和 Talend 样式的映射。您可以进行迁移，而无需从头开始重写逻辑或中断下游用户。Tabsdata 不是什么* 它不是消息代理或事件系统。如果您正在构建实时流应用程序，您仍然应该使用 Kafka、Kinesis 或同等产品。* 它不是数据库或 Lakehouse。 Tabsdata 可与您已有的数据平台配合使用，将受版本控制的可信表作为输出提供给其中。我们还处于早期阶段，正在寻求反馈。如果您遇到过管道蔓延、协调缓慢或数据团队之间所有权不明确的问题，我们很想听听您的观点。缺少什么？什么没有意义？什么会让这在您的设置中更有用？此致，Arvind
+      <title>数据中心液体冷却：AI 热解决方案</title>
+      <link>https://spectrum.ieee.org/data-center-liquid-cooling</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/data-center-liquid-cooling
+评论网址：https://news.ycombinator.com/item?id=45571617
+积分：1
+# 条评论：0]]></description>
+      <guid>https://spectrum.ieee.org/data-center-liquid-cooling</guid>
+      <pubDate>Mon, 13 Oct 2025 18:16:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>加州新法律要求人工智能告诉你它是人工智能</title>
+      <link>https://www.theverge.com/news/798875/california-just-passed-a-new-law-requiring-ai-to-tell-you-its-ai</link>
+      <description><![CDATA[文章网址： https://www.theverge.com/news/798875/california-just-passed-a-new-law-requiring-ai-to-tell-you-its-ai
+评论网址：https://news.ycombinator.com/item?id=45571615
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theverge.com/news/798875/california-just-passed-a-new-law-requiring-ai-to-tell-you-its-ai</guid>
+      <pubDate>Mon, 13 Oct 2025 18:16:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>土耳其语“ı”和“ş”错误在许多字体中造成了设计问题？</title>
+      <link>https://news.ycombinator.com/item?id=45571592</link>
+      <description><![CDATA[https://news.ycombinator.com/item?id=45559767受上面帖子的启发，土耳其字母还有另一个问题。十多年来，我仅仅因为这些字母就遇到了字体问题。它存在于不同的系统、在线和公共写作以及许多字体中。下面的ss来自亚马逊客服，连他们也逃不掉。 “ı”和“ş”以不同的字体书写，因此看起来不同且不是粗体。https://imgur.com/a/qpAP2dc即使是亚马逊字体也不能幸免。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45569167
+评论网址：https://news.ycombinator.com/item?id=45571592
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45569167</guid>
-      <pubDate>Mon, 13 Oct 2025 15:08:55 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45571592</guid>
+      <pubDate>Mon, 13 Oct 2025 18:14:41 GMT</pubDate>
     </item>
     <item>
-      <title>荷兰限制 Nexperia 在中国境外保守其芯片机密</title>
-      <link>https://www.techzine.eu/news/security/135367/dutch-restrict-nexperia-to-keep-its-chip-secrets-outside-of-china/</link>
-      <description><![CDATA[文章网址： https://www.techzine.eu/news/security/135367/dutch-restrict-nexperia-to-keep-its-chip-secrets-outside-of-china/
-评论网址：https://news.ycombinator.com/item?id=45569156
+      <title>PyBeach 2025 会谈</title>
+      <link>https://www.youtube.com/playlist?list=PLwdA5WU2fAAvCIOjgnYDA7NrGJ8iFh97t</link>
+      <description><![CDATA[文章网址： https://www.youtube.com/playlist?list=PLwdA5WU2fAAvCIOjgnYDA7NrGJ8iFh97t
+评论网址：https://news.ycombinator.com/item?id=45571567
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.techzine.eu/news/security/135367/dutch-restrict-nexperia-to-keep-its-chip-secrets-outside-of-china/</guid>
-      <pubDate>Mon, 13 Oct 2025 15:08:05 GMT</pubDate>
+      <guid>https://www.youtube.com/playlist?list=PLwdA5WU2fAAvCIOjgnYDA7NrGJ8iFh97t</guid>
+      <pubDate>Mon, 13 Oct 2025 18:12:07 GMT</pubDate>
     </item>
     <item>
-      <title>贝尼奥夫放弃了派遣军队清理旧金山的想法</title>
-      <link>https://www.theregister.com/2025/10/13/marc_benioffs_new_dream_force/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2025/10/13/marc_benioffs_new_dream_force/
-评论网址：https://news.ycombinator.com/item?id=45569155
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.theregister.com/2025/10/13/marc_benioffs_new_dream_force/</guid>
-      <pubDate>Mon, 13 Oct 2025 15:07:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能时代的治理：国家转型的新模式（2024）</title>
-      <link>https://institute.global/insights/politics-and-governance/governing-in-the-age-of-ai-a-new-model-to-transform-the-state</link>
-      <description><![CDATA[文章网址： https://institute.global/insights/politics-and-governance/governing-in-the-age-of-ai-a-new-model-to-transform-the-state
-评论网址：https://news.ycombinator.com/item?id=45569144
-积分：1
-# 条评论：0]]></description>
-      <guid>https://institute.global/insights/politics-and-governance/governing-in-the-age-of-ai-a-new-model-to-transform-the-state</guid>
-      <pubDate>Mon, 13 Oct 2025 15:07:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Veo 3.1 带音频的 AI 视频生成器 – 电影文本转视频</title>
-      <link>https://veo31video.com</link>
-      <description><![CDATA[文章网址：https://veo31video.com
-评论网址：https://news.ycombinator.com/item?id=45569141
-积分：1
-# 条评论：0]]></description>
-      <guid>https://veo31video.com</guid>
-      <pubDate>Mon, 13 Oct 2025 15:06:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>托尼·布莱尔和尼克·克莱格主持晚宴，让科技公司的老板们能够会见英国部长</title>
-      <link>https://www.theguardian.com/politics/2025/oct/11/tony-blair-and-nick-clegg-hosted-dinner-giving-tech-bosses-access-to-uk-minister</link>
-      <description><![CDATA[文章网址： https://www.theguardian.com/politics/2025/oct/11/tony-blair-and-nick-clegg-hosted-dinner-giving-tech-bosses-access-to-uk-minister
-评论网址：https://news.ycombinator.com/item?id=45569124
+      <title>自适应语言模型</title>
+      <link>https://jyopari.github.io/posts/seal</link>
+      <description><![CDATA[文章网址：https://jyopari.github.io/posts/seal
+评论网址：https://news.ycombinator.com/item?id=45571512
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.theguardian.com/politics/2025/oct/11/tony-blair-and-nick-clegg-hosted-dinner-giving-tech-bosses-access-to-uk-minister</guid>
-      <pubDate>Mon, 13 Oct 2025 15:05:07 GMT</pubDate>
+      <guid>https://jyopari.github.io/posts/seal</guid>
+      <pubDate>Mon, 13 Oct 2025 18:07:45 GMT</pubDate>
     </item>
     <item>
-      <title>不方便的学习</title>
-      <link>https://www.aninconvenientstudy.com/</link>
-      <description><![CDATA[文章网址：https://www.aninconvenientstudy.com/
-评论网址：https://news.ycombinator.com/item?id=45569113
+      <title>Litex：第一种可在 2 小时内学会的正式语言</title>
+      <link>https://litexlang.com/</link>
+      <description><![CDATA[文章网址：https://litexlang.com/
+评论网址：https://news.ycombinator.com/item?id=45571493
+积分：2
+# 条评论：0]]></description>
+      <guid>https://litexlang.com/</guid>
+      <pubDate>Mon, 13 Oct 2025 18:06:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>机器文化——论文|人工智能启示录的生态指南</title>
+      <link>https://www.machineculture.io/p/machine-culture</link>
+      <description><![CDATA[文章网址：https://www.machineculture.io/p/machine-culture
+评论网址：https://news.ycombinator.com/item?id=45571485
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.aninconvenientstudy.com/</guid>
-      <pubDate>Mon, 13 Oct 2025 15:04:08 GMT</pubDate>
+      <guid>https://www.machineculture.io/p/machine-culture</guid>
+      <pubDate>Mon, 13 Oct 2025 18:05:12 GMT</pubDate>
     </item>
     <item>
-      <title>超过 13 万沃达丰客户报告服务中断</title>
-      <link>https://www.bbc.co.uk/news/articles/c5yldldx659o</link>
-      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/c5yldldx659o
-评论网址：https://news.ycombinator.com/item?id=45569108
-积分：2
+      <title>飞镖皇后</title>
+      <link>https://victoryjournal.substack.com/p/queen-of-darts</link>
+      <description><![CDATA[文章网址：https://victoryjournal.substack.com/p/queen-of-darts
+评论网址：https://news.ycombinator.com/item?id=45571472
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bbc.co.uk/news/articles/c5yldldx659o</guid>
-      <pubDate>Mon, 13 Oct 2025 15:03:53 GMT</pubDate>
+      <guid>https://victoryjournal.substack.com/p/queen-of-darts</guid>
+      <pubDate>Mon, 13 Oct 2025 18:04:24 GMT</pubDate>
     </item>
     <item>
-      <title>英国沃达丰宽带全国中断</title>
-      <link>https://www.thesun.co.uk/money/36989720/vodafone-broadband-down-thousands-internet-access/</link>
-      <description><![CDATA[文章网址：https://www.thesun.co.uk/money/36989720/vodafone-broadband-down-thousands-internet-access/
-评论网址：https://news.ycombinator.com/item?id=45569103
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.thesun.co.uk/money/36989720/vodafone-broadband-down-thousands-internet-access/</guid>
-      <pubDate>Mon, 13 Oct 2025 15:03:43 GMT</pubDate>
+      <title>KuzuDB 于 10 月 10 日被所有者存档</title>
+      <link>https://github.com/kuzudb/kuzu</link>
+      <description><![CDATA[文章网址：https://github.com/kuzudb/kuzu
+评论网址：https://news.ycombinator.com/item?id=45571462
+积分：1
+# 条评论：1]]></description>
+      <guid>https://github.com/kuzudb/kuzu</guid>
+      <pubDate>Mon, 13 Oct 2025 18:03:40 GMT</pubDate>
     </item>
     <item>
-      <title>GitHub 的 Ubuntu 运行程序有 1,681 个软件包和 9 个高漏洞</title>
-      <link>https://bomfather.dev/blog/gh-runners-are-filled-with-vulns/</link>
-      <description><![CDATA[文章网址：https://bomfather.dev/blog/gh-runners-are-filled-with-vulns/
-评论网址：https://news.ycombinator.com/item?id=45569095
+      <title>新报告发现，视频游戏重制时代才刚刚开始</title>
+      <link>https://kotaku.com/remakes-popular-report-survey-fallout-3-eso-oblivion-2000626866</link>
+      <description><![CDATA[文章网址：https://kotaku.com/remakes-popular-report-survey-fallout-3-eso-oblivion-2000626866
+评论网址：https://news.ycombinator.com/item?id=45571460
 积分：2
 # 条评论：0]]></description>
-      <guid>https://bomfather.dev/blog/gh-runners-are-filled-with-vulns/</guid>
-      <pubDate>Mon, 13 Oct 2025 15:03:04 GMT</pubDate>
+      <guid>https://kotaku.com/remakes-popular-report-survey-fallout-3-eso-oblivion-2000626866</guid>
+      <pubDate>Mon, 13 Oct 2025 18:03:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
