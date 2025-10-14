@@ -4,24 +4,75 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 14 Oct 2025 15:22:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 18:29:13 GMT</lastBuildDate>
     <item>
-      <title>科学家创造出比钢强10倍的“超级木材”</title>
-      <link>https://www.cnn.com/science/superwood-10-times-stronger-than-steel-spc</link>
-      <description><![CDATA[文章网址：https://www.cnn.com/science/superwood-10-times-stronger-than-steel-spc
-评论网址：https://news.ycombinator.com/item?id=45580724
-积分：10
-# 条评论：2]]></description>
-      <guid>https://www.cnn.com/science/superwood-10-times-stronger-than-steel-spc</guid>
-      <pubDate>Tue, 14 Oct 2025 14:46:17 GMT</pubDate>
+      <title>2.97 美元的 ADC 能有多糟糕？</title>
+      <link>https://excamera.substack.com/p/how-bad-can-a-297-adc-be</link>
+      <description><![CDATA[文章网址：https://excamera.substack.com/p/how-bad-can-a-297-adc-be
+评论网址：https://news.ycombinator.com/item?id=45582462
+积分：49
+# 条评论：26]]></description>
+      <guid>https://excamera.substack.com/p/how-bad-can-a-297-adc-be</guid>
+      <pubDate>Tue, 14 Oct 2025 17:12:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>前缀总和：20 GB/s（2.6 倍基线）</title>
+      <link>https://github.com/ashtonsix/perf-portfolio/tree/main/delta</link>
+      <description><![CDATA[文章网址：https://github.com/ashtonsix/perf-portfolio/tree/main/delta
+评论网址：https://news.ycombinator.com/item?id=45582268
+积分：20
+# 条评论：5]]></description>
+      <guid>https://github.com/ashtonsix/perf-portfolio/tree/main/delta</guid>
+      <pubDate>Tue, 14 Oct 2025 16:53:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>推迟 Litestream 0.5.0</title>
+      <link>https://mtlynch.io/notes/hold-off-on-litestream-0.5.0/</link>
+      <description><![CDATA[文章网址：https://mtlynch.io/notes/hold-off-on-litestream-0.5.0/
+评论网址：https://news.ycombinator.com/item?id=45581761
+积分：51
+# 条评论：8]]></description>
+      <guid>https://mtlynch.io/notes/hold-off-on-litestream-0.5.0/</guid>
+      <pubDate>Tue, 14 Oct 2025 16:10:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>颠覆 Telegram 的端到端加密 (2023)</title>
+      <link>https://tosc.iacr.org/index.php/ToSC/article/view/10302</link>
+      <description><![CDATA[文章网址：
+评论网址：
+积分：65
+# 条评论：46]]></description>
+      <guid>https://tosc.iacr.org/index.php/ToSC/article/view/10302</guid>
+      <pubDate>Tue, 14 Oct 2025 15:23:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPT-5o-mini 幻觉住院医生申请人等级</title>
+      <link>https://www.thalamusgme.com/blogs/cortex-core-clerkship-grades-and-transcript-normalization</link>
+      <description><![CDATA[文章网址：https://www.thalamusgme.com/blogs/cortex-core-clerkship-grades-and-transcript-normalization
+评论网址：https://news.ycombinator.com/item?id=45581029
+积分：142
+评论数量：93]]></description>
+      <guid>https://www.thalamusgme.com/blogs/cortex-core-clerkship-grades-and-transcript-normalization</guid>
+      <pubDate>Tue, 14 Oct 2025 15:12:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Metorial (YC F25) – Vercel for MCP</title>
+      <link>https://github.com/metorial/metorial</link>
+      <description><![CDATA[嘿，HN！我们是 Wen 和 Tobias，我们正在构建 Metorial (https://metorial.com)，这是一个使用 MCP 将 AI 代理连接到外部工具和数据的集成平台。问题：虽然 MCP 在本地运行良好（例如 Cursor 或 Claude Desktop），但服务器端部署却很痛苦。运行 MCP 服务器意味着管理 Docker 配置、每用户 OAuth 流、扩展并发会话以及从头开始构建可观察性。这项基础设施工作将简单的集成变成了数周的设置时间。Metorial 会自动处理所有这些。我们维护着约 600 个 MCP 服务器（GitHub、Slack、Google Drive、Salesforce、数据库等）的开放目录，您只需单击三下即可进行部署。您还可以自带 MCP 服务器或分叉现有服务器。对于 OAuth，只需提供您的客户端 ID 和密钥，我们就会处理整个流程，包括令牌刷新。然后，每个用户都会自动获得一个配置有自己的 OAuth 凭据的独立 MCP 服务器实例。我们的不同之处在于，我们的无服务器运行时会休眠空闲的 MCP 服务器，并通过亚秒级冷启动来恢复它们，同时保留状态和连接。我们的自定义 MCP 引擎能够管理数千个并发连接，为您提供具有每个用户隔离的可扩展服务。其他替代方案要么运行共享服务器（安全问题），要么为每个用户提供单独的虚拟机（昂贵且扩展缓慢）。我们的 Python 和 TypeScript SDK 可让您通过单个函数调用将 LLM 连接到 MCP 工具，从而消除协议复杂性。但如果您想深入挖掘，您可以使用标准 MCP 和我们的 REST API (https://metorial.com/api) 连接到我们的平台。您可以自行托管 (https://github.com/metorial/metorial）或使用 https://metorial.com 上的托管版本。到目前为止，我们看到企业团队使用 Metorial 为 Salesforce 等工具建立中央集成中心，而初创公司则使用它来减少数周的基础设施工作 在构建具有集成功能的 AI 代理时。演示视频：https://www.youtube.com/watch?v=07StSRNmJZ8我们的存储库：Metorial：https://github.com/metorial/metorial，MCP 容器：https://github.com/metorial/mcp-containersSDK：Node/TypeScript：https://github.com/metorial/metorial-node，Python：https://github.com/metorial/metorial-python我们很乐意听到反馈，特别是如果您已经处理过大规模部署 MCP！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45580771
+积分：23
+# 条评论：6]]></description>
+      <guid>https://github.com/metorial/metorial</guid>
+      <pubDate>Tue, 14 Oct 2025 14:49:56 GMT</pubDate>
     </item>
     <item>
       <title>天文学家在遥远的宇宙中“成像”了一个神秘的黑暗物体</title>
       <link>https://www.mpg.de/25518363/1007-asph-astronomers-image-a-mysterious-dark-object-in-the-distant-universe-155031-x</link>
       <description><![CDATA[文章网址： https://www.mpg.de/25518363/1007-asph-astronomers-image-a-mysterious-dark-object-in-the-distant-universe-155031-x
 评论网址：https://news.ycombinator.com/item?id=45580699
-积分：21
-# 条评论：5]]></description>
+积分：107
+# 条评论：64]]></description>
       <guid>https://www.mpg.de/25518363/1007-asph-astronomers-image-a-mysterious-dark-object-in-the-distant-universe-155031-x</guid>
       <pubDate>Tue, 14 Oct 2025 14:45:02 GMT</pubDate>
     </item>
@@ -30,18 +81,18 @@
       <link>https://nuxx.net/blog/2025/10/14/wireshark-4-6-0-supports-macos-pktap-metadata-pid-process-name-etc/</link>
       <description><![CDATA[文章网址： https://nuxx.net/blog/2025/10/14/wireshark-4-6-0-supports-macos-pktap-metadata-pid-process-name-etc/
 评论网址：https://news.ycombinator.com/item?id=45580315
-积分：26
-# 条评论：1]]></description>
+积分：82
+# 条评论：13]]></description>
       <guid>https://nuxx.net/blog/2025/10/14/wireshark-4-6-0-supports-macos-pktap-metadata-pid-process-name-etc/</guid>
       <pubDate>Tue, 14 Oct 2025 14:18:14 GMT</pubDate>
     </item>
     <item>
-      <title>最终可以编辑线粒体 DNA 的类似 CRISPR 的工具可能是革命性的</title>
+      <title>类似 CRISPR 的工具终于可以编辑线粒体 DNA</title>
       <link>https://www.nature.com/articles/d41586-025-03307-x</link>
       <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-025-03307-x
 评论网址：https://news.ycombinator.com/item?id=45579708
-积分：29
-# 条评论：2]]></description>
+积分：92
+# 条评论：21]]></description>
       <guid>https://www.nature.com/articles/d41586-025-03307-x</guid>
       <pubDate>Tue, 14 Oct 2025 13:21:03 GMT</pubDate>
     </item>
@@ -50,60 +101,10 @@
       <link>https://pyrefly.org/?featured_on=talkpython</link>
       <description><![CDATA[文章网址：https://pyrefly.org/?featured_on=talkpython
 评论网址：https://news.ycombinator.com/item?id=45579275
-积分：88
-# 条评论：60]]></description>
+积分：145
+评论数：102]]></description>
       <guid>https://pyrefly.org/?featured_on=talkpython</guid>
       <pubDate>Tue, 14 Oct 2025 12:33:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kyber (YC W23) 正在招聘一名企业 AE</title>
-      <link>https://www.ycombinator.com/companies/kyber/jobs/BQRRSrZ-enterprise-account-executive-ae</link>
-      <description><![CDATA[文章网址： https://www.ycombinator.com/companies/kyber/jobs/BQRRSrZ-enterprise-account-executive-ae
-评论网址：https://news.ycombinator.com/item?id=45578990
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/kyber/jobs/BQRRSrZ-enterprise-account-executive-ae</guid>
-      <pubDate>Tue, 14 Oct 2025 12:00:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>数组语言动物园</title>
-      <link>https://ktye.github.io/</link>
-      <description><![CDATA[文章网址：https://ktye.github.io/
-评论网址：https://news.ycombinator.com/item?id=45578540
-积分：73
-# 条评论：21]]></description>
-      <guid>https://ktye.github.io/</guid>
-      <pubDate>Tue, 14 Oct 2025 11:01:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>ADS-B 暴露</title>
-      <link>https://adsb.exposed/</link>
-      <description><![CDATA[文章网址：https://adsb.exposed/
-评论网址：https://news.ycombinator.com/item?id=45578383
-积分：81
-# 条评论：14]]></description>
-      <guid>https://adsb.exposed/</guid>
-      <pubDate>Tue, 14 Oct 2025 10:38:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>KDE 庆祝 29 岁生日并启动年度筹款活动</title>
-      <link>https://kde.org/fundraisers/yearend2025/</link>
-      <description><![CDATA[文章网址：https://kde.org/fundraisers/yearend2025/
-评论网址：https://news.ycombinator.com/item?id=45578117
-积分：175
-评论数量：75]]></description>
-      <guid>https://kde.org/fundraisers/yearend2025/</guid>
-      <pubDate>Tue, 14 Oct 2025 09:54:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么学习编程语言（2022）</title>
-      <link>https://people.csail.mit.edu/rachit/post/why-study-programming-languages/</link>
-      <description><![CDATA[文章网址：https://people.csail.mit.edu/rachit/post/why-study-programming-languages/
-评论网址：https://news.ycombinator.com/item?id=45576623
-积分：131
-评论数：98]]></description>
-      <guid>https://people.csail.mit.edu/rachit/post/why-study-programming-languages/</guid>
-      <pubDate>Tue, 14 Oct 2025 05:36:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
