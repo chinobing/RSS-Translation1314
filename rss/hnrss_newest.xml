@@ -4,113 +4,110 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 14 Oct 2025 12:41:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Oct 2025 15:22:25 GMT</lastBuildDate>
     <item>
-      <title>简单且长期的 Discord 机器人支持</title>
-      <link>https://news.ycombinator.com/item?id=45579258</link>
-      <description><![CDATA[Discord 机器人用于每周举办黎明杀机锦标赛。然而，只有应用程序框架是使用 SMVP 模式（共享、模型、视图、心理学）实现的，其项目结构类似于 API（中间件、路由器），但进行了一些修改——“交互”和“消息”而不是“路由器”。从长远来看，这种方法旨在使开发 Discord、Telegram 和其他机器人变得更容易、更快
-堆栈：TypeScript、Discord.js、SMVP、Git、Github Actions、Github Codespaces、Docker、PostgreSQL
-https://github.com/sl8s/dbd_tournaments
+      <title>OpenAI 董事会成员正在向被禁国家出售 ChatGPT / Claude API</title>
+      <link>https://news.ycombinator.com/item?id=45581005</link>
+      <description><![CDATA[OpenAI 董事会成员、Quora (Poe.com) 首席执行官 Adam D&#39;Angelo 一直在向香港等被禁止的国家/地区出售 ChatGPT 和 Anthropic 的 Claude 的出口禁止 API 访问权限。Poe 曾经在香港应用商店排名第二，他们最近为香港用户推出了 API 服务。有趣的是 OpenAI/Anthropic 允许 Poe.com 向该地区转售被禁服务。Poe 在香港 App Store 排名：https://www.similarweb.com/top-apps/apple/hong-kong/productivity/top-grossing/相关 Reddit 讨论 https://www.reddit.com/r/HongKong/comments/15zp5lr/why_is_chat_gpt_banned_in_hk_but_poe_is_allowed/
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45579258
+评论网址：https://news.ycombinator.com/item?id=45581005
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45579258</guid>
-      <pubDate>Tue, 14 Oct 2025 12:31:02 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45581005</guid>
+      <pubDate>Tue, 14 Oct 2025 15:10:04 GMT</pubDate>
     </item>
     <item>
-      <title>苹果将​​“Apple TV+”更名为“Apple TV”</title>
-      <link>https://daringfireball.net/linked/2025/10/13/apple-tv-minus</link>
-      <description><![CDATA[文章网址：https://daringfireball.net/linked/2025/10/13/apple-tv-minus
-评论网址：https://news.ycombinator.com/item?id=45579251
+      <title>GraphHopper路由引擎11.0发布</title>
+      <link>https://www.graphhopper.com/blog/2025/10/14/graphhopper-routing-engine-11-0-released/</link>
+      <description><![CDATA[文章网址：https://www.graphhopper.com/blog/2025/10/14/graphhopper-routing-engine-11-0-released/
+评论网址：https://news.ycombinator.com/item?id=45580993
 积分：1
 # 条评论：0]]></description>
-      <guid>https://daringfireball.net/linked/2025/10/13/apple-tv-minus</guid>
-      <pubDate>Tue, 14 Oct 2025 12:29:57 GMT</pubDate>
+      <guid>https://www.graphhopper.com/blog/2025/10/14/graphhopper-routing-engine-11-0-released/</guid>
+      <pubDate>Tue, 14 Oct 2025 15:09:22 GMT</pubDate>
     </item>
     <item>
-      <title>中国黑客滥用地理测绘工具长达一年之久</title>
-      <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-abuse-geo-mapping-tool-for-year-long-persistence/</link>
-      <description><![CDATA[文章网址： https://www.bleepingcomputer.com/news/security/chinese-hackers-abuse-geo-mapping-tool-for-year-long-persistence/
-评论网址：https://news.ycombinator.com/item?id=45579236
+      <title>Show HN：Rover 是编码代理的管理器</title>
+      <link>https://news.ycombinator.com/item?id=45580989</link>
+      <description><![CDATA[我们最近开源了 Rover，它是 AI 编码代理的管理器。这是我们内部开发的一个工具，旨在帮助我们更好地与 Claude 和 Gemini 等编码代理合作。如果您查看一些 HN 故事或推文，您会发现许多开发人员从编码代理中获得了令人惊叹的结果，而其他人则完全失望，达到了完全负面的程度。将 Rover 视为最佳实践和技术功能（即 git 工作树）的捆绑，以便有一种简单的方法可以更好地与人交互 编码剂。您可以在后台运行多个代理，甚至可以将它们组合起来完成一项任务。在实践中，这意味着：您可以将任务分配给多个代理，它们可以独立并行工作。
+代理不会互相干扰，也不会干扰您的系统。它们在容器内运行并使用 git 工作树。
+一切都是透明的并且在本地运行。它作为 npm 包安装在命令行中或作​​为 VSCode 的扩展。您无需改变任何工作方式。我们现在支持 Claude、Codex、Gemini 和 Qwen。尝试一下，让我们知道您的想法！https://github.com/endorhq/rover
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45580989
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bleepingcomputer.com/news/security/chinese-hackers-abuse-geo-mapping-tool-for-year-long-persistence/</guid>
-      <pubDate>Tue, 14 Oct 2025 12:28:36 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45580989</guid>
+      <pubDate>Tue, 14 Oct 2025 15:08:57 GMT</pubDate>
     </item>
     <item>
-      <title>修复 AWS 架构图：AI 文档处理</title>
-      <link>https://www.ilograph.com/blog/posts/fixing-aws-diagrams-ai-document-processing/</link>
-      <description><![CDATA[文章网址：https://www.ilograph.com/blog/posts/fixing-aws-diagrams-ai-document-processing/
-评论网址：https://news.ycombinator.com/item?id=45579228
+      <title>地质学家发现4.5B年“原地球”的第一个证据</title>
+      <link>https://news.mit.edu/2025/geologists-discover-first-evidence-45-billion-year-old-proto-earth-1014</link>
+      <description><![CDATA[文章网址：https://news.mit.edu/2025/geists-discover-first-evidence-45-billion-year-old-proto-earth-1014
+评论网址：https://news.ycombinator.com/item?id=45580983
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.ilograph.com/blog/posts/fixing-aws-diagrams-ai-document-processing/</guid>
-      <pubDate>Tue, 14 Oct 2025 12:27:38 GMT</pubDate>
+      <guid>https://news.mit.edu/2025/geologists-discover-first-evidence-45-billion-year-old-proto-earth-1014</guid>
+      <pubDate>Tue, 14 Oct 2025 15:08:41 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Wordle 风格的每日维基百科游戏</title>
-      <link>https://hyperlinked.wiki</link>
-      <description><![CDATA[文章网址：https://hyperlinked.wiki
-评论网址：https://news.ycombinator.com/item?id=45579217
+      <title>编程游戏将于 2025 年艾达·洛夫莱斯日在 Steam 上发售</title>
+      <link>https://store.steampowered.com/curator/42589128/sale/AdaLovelaceDay2025</link>
+      <description><![CDATA[文章网址：https://store.steampowered.com/curator/42589128/sale/AdaLovelaceDay2025
+评论网址：https://news.ycombinator.com/item?id=45580982
+积分：4
+# 条评论：3]]></description>
+      <guid>https://store.steampowered.com/curator/42589128/sale/AdaLovelaceDay2025</guid>
+      <pubDate>Tue, 14 Oct 2025 15:08:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国司法部从柬埔寨“宰猪”骗局中查获价值 150 亿美元的比特币</title>
+      <link>https://www.justice.gov/opa/pr/chairman-prince-group-indicted-operating-cambodian-forced-labor-scam-compounds-engaged</link>
+      <description><![CDATA[文章网址： https://www.justice.gov/opa/pr/chairman-prince-group-indicted-operating-cambodian-forced-labor-scam-compounds-engaging
+评论网址：https://news.ycombinator.com/item?id=45580981
 积分：2
 # 条评论：0]]></description>
-      <guid>https://hyperlinked.wiki</guid>
-      <pubDate>Tue, 14 Oct 2025 12:26:19 GMT</pubDate>
+      <guid>https://www.justice.gov/opa/pr/chairman-prince-group-indicted-operating-cambodian-forced-labor-scam-compounds-engaged</guid>
+      <pubDate>Tue, 14 Oct 2025 15:08:38 GMT</pubDate>
     </item>
     <item>
-      <title>使用 FMCW 雷达在车辆环境中进行心率检测</title>
-      <link>https://www.mdpi.com/1424-8220/25/18/5885</link>
-      <description><![CDATA[文章网址：https://www.mdpi.com/1424-8220/25/18/5885
-评论网址：https://news.ycombinator.com/item?id=45579195
+      <title>Rubenerd：我推荐 Hugo 来写博客吗？</title>
+      <link>https://rubenerd.com/do-i-recommend-hugo-for-blogging/</link>
+      <description><![CDATA[文章网址：https://rubenerd.com/do-i-recommend-hugo-for-blogging/
+评论网址：https://news.ycombinator.com/item?id=45580952
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.mdpi.com/1424-8220/25/18/5885</guid>
-      <pubDate>Tue, 14 Oct 2025 12:24:05 GMT</pubDate>
+      <guid>https://rubenerd.com/do-i-recommend-hugo-for-blogging/</guid>
+      <pubDate>Tue, 14 Oct 2025 15:05:17 GMT</pubDate>
     </item>
     <item>
-      <title>中国是一个悖论</title>
-      <link>https://www.bothfleshandmore.com/p/china-is-a-paradox</link>
-      <description><![CDATA[文章网址：https://www.bothfleshandmore.com/p/china-is-a-paradox
-评论网址：https://news.ycombinator.com/item?id=45579193
+      <title>丹佛市长在以 12-0 输掉投票后强制羊群人工智能监控 [视频]</title>
+      <link>https://www.youtube.com/watch?v=mQxQpzNSNZU</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=mQxQpzNSNZU
+评论网址：https://news.ycombinator.com/item?id=45580936
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.youtube.com/watch?v=mQxQpzNSNZU</guid>
+      <pubDate>Tue, 14 Oct 2025 15:03:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：CLI 以薄片形式平分 Nixpkgs 通道历史记录</title>
+      <link>https://github.com/samestep/npc</link>
+      <description><![CDATA[文章网址：https://github.com/samestep/npc
+评论网址：https://news.ycombinator.com/item?id=45580932
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bothfleshandmore.com/p/china-is-a-paradox</guid>
-      <pubDate>Tue, 14 Oct 2025 12:23:31 GMT</pubDate>
+      <guid>https://github.com/samestep/npc</guid>
+      <pubDate>Tue, 14 Oct 2025 15:03:03 GMT</pubDate>
     </item>
     <item>
-      <title>Arc：一周后，210 颗星和新的 ClickBench 结果</title>
-      <link>https://news.ycombinator.com/item?id=45579188</link>
-      <description><![CDATA[大家好，我只想对过去一周的所有反馈、问题和好奇表示感谢。https://news.ycombinator.com/item?id=45505407这个社区推动 Arc 向前发展的速度比我想象的要快，从架构理念到性能讨论，与你们这么多人一起探索真是太棒了。我们现在已经在 GitHub 上获得了 210 颗星，并添加了 AWS c6a.4xlarge 上的最新 ClickBench 结果（冷 36.43 秒/热 35.12 秒），加上使用 MessagePack 的每秒 201 万条记录的写入吞吐量。登陆 &gt; basekick.net
-博客 &gt; basekick.net/blog
-仓库 &gt; github.com/Basekick-Labs/arc（如果您有感觉，请加星标）文档将于今天晚些时候发布，很快就会有更多基准测试。感谢所有测试、挑战或只是说“这看起来很酷”的人。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45579188
+      <title>技术乐观和适当的恐惧</title>
+      <link>https://jack-clark.net/2025/10/13/import-ai-431-technological-optimism-and-appropriate-fear/</link>
+      <description><![CDATA[文章网址：https://jack-clark.net/2025/10/13/import-ai-431-technological-optimism-and-property-fear/
+评论网址：https://news.ycombinator.com/item?id=45580914
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45579188</guid>
-      <pubDate>Tue, 14 Oct 2025 12:22:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我构建了一个工具，让 Kubernetes 感觉像一个 PaaS</title>
-      <link>https://deckrun.com</link>
-      <description><![CDATA[我一直很喜欢 Fly.io 或 Heroku 等 PaaS 平台如何让应用程序部署变得超级简单。但问题是，一旦需要更多资源，成本就会飙升。这让我产生了构建类似 PaaS 但在托管 Kubernetes 上运行的东西的想法。在过去的两年里，我一直在将这个项目作为一个业余项目进行工作，而且我刚刚启动了它。我现在正在全职研究它。它是一种 CLI 工具，可让您仅使用一个简单的配置文件 (TOML) 将应用程序部署到 Kubernetes。您可以通过 CLI 创建集群、设置流程、环境变量、资源限制、自动缩放、检查日志等。目前，它可与 DigitalOcean 和 Scaleway 配合使用，但随着时间的推移，我将添加更多提供程序。我刚刚获得了第一批客户，我很想听听您的想法。非常感谢任何反馈！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45579177
-积分：1
-# 条评论：0]]></description>
-      <guid>https://deckrun.com</guid>
-      <pubDate>Tue, 14 Oct 2025 12:21:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>特朗普政府增加使用社交媒体监控</title>
-      <link>https://www.schneier.com/blog/archives/2025/10/the-trump-administrations-increased-use-of-social-media-surveillance.html</link>
-      <description><![CDATA[文章网址： https://www.schneier.com/blog/archives/2025/10/the-trump-administrations-increased-use-of-social-media-surveillance.html
-评论网址：https://news.ycombinator.com/item?id=45579168
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.schneier.com/blog/archives/2025/10/the-trump-administrations-increased-use-of-social-media-surveillance.html</guid>
-      <pubDate>Tue, 14 Oct 2025 12:20:23 GMT</pubDate>
+      <guid>https://jack-clark.net/2025/10/13/import-ai-431-technological-optimism-and-appropriate-fear/</guid>
+      <pubDate>Tue, 14 Oct 2025 15:01:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
