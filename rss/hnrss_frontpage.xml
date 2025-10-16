@@ -4,14 +4,90 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 16 Oct 2025 12:42:59 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 15:21:29 GMT</lastBuildDate>
+    <item>
+      <title>使用 Amiga 的 RAM 和 Rad Disk</title>
+      <link>https://www.datagubbe.se/ramdisk/</link>
+      <description><![CDATA[文章网址：https://www.datagubbe.se/ramdisk/
+评论网址：https://news.ycombinator.com/item?id=45606097
+积分：4
+# 条评论：0]]></description>
+      <guid>https://www.datagubbe.se/ramdisk/</guid>
+      <pubDate>Thu, 16 Oct 2025 14:51:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tor 浏览器删除了各种 Firefox AI 功能</title>
+      <link>https://blog.torproject.org/new-alpha-release-tor-browser-150a4/</link>
+      <description><![CDATA[文章网址：https://blog.torproject.org/new-alpha-release-tor-browser-150a4/
+评论网址：https://news.ycombinator.com/item?id=45605842
+积分：47
+# 条评论：10]]></description>
+      <guid>https://blog.torproject.org/new-alpha-release-tor-browser-150a4/</guid>
+      <pubDate>Thu, 16 Oct 2025 14:33:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么我选择 Elixir Phoenix 而不是 Rails、Laravel 和 Next.js</title>
+      <link>https://akarshc.com/post/phoenix-for-my-project.html</link>
+      <description><![CDATA[文章网址：https://akarshc.com/post/phoenix-for-my-project.html
+评论网址：https://news.ycombinator.com/item?id=45605291
+积分：61
+# 条评论：31]]></description>
+      <guid>https://akarshc.com/post/phoenix-for-my-project.html</guid>
+      <pubDate>Thu, 16 Oct 2025 13:48:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lace：一种新型元胞自动机，链接很重要</title>
+      <link>https://www.novaspivack.com/science/introducing-lace-a-new-kind-of-cellular-automata</link>
+      <description><![CDATA[文章网址：https://www.novaspiack.com/science/introducing-lace-a-new-kind-of-cellular-automata
+评论网址：https://news.ycombinator.com/item?id=45605153
+积分：12
+# 条评论：8]]></description>
+      <guid>https://www.novaspivack.com/science/introducing-lace-a-new-kind-of-cellular-automata</guid>
+      <pubDate>Thu, 16 Oct 2025 13:33:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>与 MS Excel 一样，数据透视表永远不会消亡</title>
+      <link>https://www.rilldata.com/blog/why-pivot-tables-never-die</link>
+      <description><![CDATA[文章网址：https://www.rilldata.com/blog/why-pivot-tables-never-die
+评论网址：https://news.ycombinator.com/item?id=45604823
+积分：19
+# 条评论：36]]></description>
+      <guid>https://www.rilldata.com/blog/why-pivot-tables-never-die</guid>
+      <pubDate>Thu, 16 Oct 2025 13:03:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动 HN：Inkeep (YC W23) – 开源代理生成器</title>
+      <link>https://github.com/inkeep/agents</link>
+      <description><![CDATA[嗨，HN！我是来自因基普的尼克。我们构建了一个代理构建器，在代码和拖放可视化编辑器之间具有真正的双向同步，因此开发人员和非开发人员可以在相同的代理上进行协作。这是一个演示视频：https://go.inkeep.com/video。作为开发者，流程是：
+1) 使用 TypeScript SDK 构建 AI 聊天助手或 AI 工作流程 2) 从 CLI 运行“inkeep Push”进行发布 3) 在可视化构建器中编辑代理（或移交给非技术团队） 4) 运行“inkeep pull”以再次在代码中进行编辑。我们构建此应用程序是因为我们想要无代码工作流程构建器（n8n、Zapier）的可访问性，但又希望获得基于代码的代理的灵活性和开发性 框架（LangGraph、Mastra）。我们还希望为具有交互式 UI 的聊天助手提供一流的支持，而不仅仅是工作流程。 OpenAI 已经很接近了，但您只能从可视化构建器一次性导出到代码，并且存在供应商锁定。我如何使用它：我为我们的营销和销售团队引导了一些代理，然后能够移交，以便他们可以维护和创建自己的代理。这使我们能够在单一平台上采用公司内跨技术和非技术角色的代理。要进行尝试，请参阅以下快速入门：https://go.inkeep.com/quickstart。我们依靠开放协议来轻松在任何地方使用代理：
+MCP 端点，因此可以从 Cursor/Claude/ChatGPT 使用代理
+带有可在 React 中自定义的交互式元素的聊天 UI 库
+与 Vercel AI SDK“useChat”挂钩兼容的 API 端点
+支持 Agent2Agent (A2A)，以便它们与其他代理生态系统合作我们制作了一些实用的模板，例如 customer_support、deep_research 和 docs_assistant。使用具有公平代码许可证的 Vercel/Docker 可以轻松进行部署，并且有跟踪 UI 和 OTEL 日志以实现可观察性。在幕后，我们全力以赴采用多代理架构。代理由 LLM、MCP 和代理与代理关系组成。我们发现，对于复杂的工作流程，这种方法比传统的“if/else”方法更容易维护，也更灵活。互操作性之所以有效，是因为 SDK 和可视化构建器共享通用的底层表示，并且 Inkeep CLI 通过 LLM 和 TypeScript 语法糖的混合来桥接它。详细信息请参阅我们的文档：https://docs.inkeep.com。我们对想法和贡献持开放态度！并且很想听听您构建代理的经验 - 哪些有效，哪些无效，哪些有前途？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45604700
+积分：25
+# 条评论：20]]></description>
+      <guid>https://github.com/inkeep/agents</guid>
+      <pubDate>Thu, 16 Oct 2025 12:50:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hyperflask – 全栈 Flask 和 Htmx 框架</title>
+      <link>https://hyperflask.dev/</link>
+      <description><![CDATA[文章网址：https://hyperflask.dev/
+评论网址：https://news.ycombinator.com/item?id=45604673
+积分：65
+# 条评论：12]]></description>
+      <guid>https://hyperflask.dev/</guid>
+      <pubDate>Thu, 16 Oct 2025 12:46:28 GMT</pubDate>
+    </item>
     <item>
       <title>使用自我修复 DOM 映射的有状态浏览器代理</title>
       <link>https://100x.bot/a/a-stateful-browser-agent-using-self-healing-dom-maps</link>
       <description><![CDATA[文章网址：https://100x.bot/a/a-stateful-browser-agent-using-self-healing-dom-maps
 评论网址：https://news.ycombinator.com/item?id=45604451
-积分：8
-# 条评论：0]]></description>
+积分：49
+# 条评论：34]]></description>
       <guid>https://100x.bot/a/a-stateful-browser-agent-using-self-healing-dom-maps</guid>
       <pubDate>Thu, 16 Oct 2025 12:21:36 GMT</pubDate>
     </item>
@@ -30,80 +106,10 @@
       <link>https://github.com/liquibase/liquibase/issues/7374</link>
       <description><![CDATA[文章网址：https://github.com/liquibase/liquibase/issues/7374
 评论网址：https://news.ycombinator.com/item?id=45602676
-积分：190
-# 条评论：124]]></description>
+积分：269
+# 条评论：212]]></description>
       <guid>https://github.com/liquibase/liquibase/issues/7374</guid>
       <pubDate>Thu, 16 Oct 2025 08:02:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>海浪的隐藏数学进入视野</title>
-      <link>https://www.quantamagazine.org/the-hidden-math-of-ocean-waves-crashes-into-view-20251015/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/the-hidden-math-of-ocean-waves-crashes-into-view-20251015/
-评论网址：https://news.ycombinator.com/item?id=45602197
-积分：31
-# 条评论：1]]></description>
-      <guid>https://www.quantamagazine.org/the-hidden-math-of-ocean-waves-crashes-into-view-20251015/</guid>
-      <pubDate>Thu, 16 Oct 2025 06:54:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>史蒂夫·乔布斯和 Cray-1 将出现在 2026 年美国创新 1 美元硬币上</title>
-      <link>https://www.usmint.gov/news/press-releases/united-states-mint-releases-2026-american-innovation-one-dollar-coin-program-designs</link>
-      <description><![CDATA[文章网址： https://www.usmint.gov/news/press-releases/united-states-mint-releases-2026-american-innovation-one-dollar-coin-program-designs
-评论网址：https://news.ycombinator.com/item?id=45602124
-积分：150
-# 条评论：118]]></description>
-      <guid>https://www.usmint.gov/news/press-releases/united-states-mint-releases-2026-american-innovation-one-dollar-coin-program-designs</guid>
-      <pubDate>Thu, 16 Oct 2025 06:39:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>即将推出的用于内核开发的 Rust 语言功能</title>
-      <link>https://lwn.net/Articles/1039073/</link>
-      <description><![CDATA[文章网址：https://lwn.net/Articles/1039073/
-评论网址：https://news.ycombinator.com/item?id=45601982
-积分：143
-# 条评论：45]]></description>
-      <guid>https://lwn.net/Articles/1039073/</guid>
-      <pubDate>Thu, 16 Oct 2025 06:12:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>新的编码模型和集成</title>
-      <link>https://ollama.com/blog/coding-models</link>
-      <description><![CDATA[文章网址：https://ollama.com/blog/coding-models
-评论网址：https://news.ycombinator.com/item?id=45601834
-积分：129
-# 条评论：45]]></description>
-      <guid>https://ollama.com/blog/coding-models</guid>
-      <pubDate>Thu, 16 Oct 2025 05:46:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>TurboTax 为阻止美国人免费报税而进行的 20 年斗争 (2019)</title>
-      <link>https://www.propublica.org/article/inside-turbotax-20-year-fight-to-stop-americans-from-filing-their-taxes-for-free</link>
-      <description><![CDATA[文章网址： https://www.propublica.org/article/inside-turbotax-20-year-fight-to-stop-americans-from-filing-their-taxes-for-free
-评论网址：https://news.ycombinator.com/item?id=45601750
-积分：316
-# 条评论：142]]></description>
-      <guid>https://www.propublica.org/article/inside-turbotax-20-year-fight-to-stop-americans-from-filing-their-taxes-for-free</guid>
-      <pubDate>Thu, 16 Oct 2025 05:31:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>TaxCalcBench：评估税收计算任务的前沿模型</title>
-      <link>https://arxiv.org/abs/2507.16126</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2507.16126
-评论网址：https://news.ycombinator.com/item?id=45601230
-积分：51
-# 条评论：12]]></description>
-      <guid>https://arxiv.org/abs/2507.16126</guid>
-      <pubDate>Thu, 16 Oct 2025 03:45:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>免费应用程序、手柄模式和远程系统</title>
-      <link>https://exploring-better-ways.bellroy.com/free-applicatives-the-handle-pattern-and-remote-systems.html</link>
-      <description><![CDATA[文章网址：https://exploring-better-ways.bellroy.com/free-applicatives-the-handle-pattern-and-remote-systems.html
-评论网址：https://news.ycombinator.com/item?id=45601177
-积分：66
-# 条评论：16]]></description>
-      <guid>https://exploring-better-ways.bellroy.com/free-applicatives-the-handle-pattern-and-remote-systems.html</guid>
-      <pubDate>Thu, 16 Oct 2025 03:33:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
