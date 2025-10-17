@@ -4,24 +4,57 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 17 Oct 2025 03:34:22 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Oct 2025 06:28:57 GMT</lastBuildDate>
     <item>
-      <title>Nvidia DGX Spark 和 Apple Mac Studio = EXO 1.0 的 LLM 推理速度提高了 4 倍</title>
-      <link>https://blog.exolabs.net/nvidia-dgx-spark/</link>
-      <description><![CDATA[文章网址：https://blog.exolabs.net/nvidia-dgx-spark/
-评论网址：https://news.ycombinator.com/item?id=45611912
-积分：38
-# 条评论：12]]></description>
-      <guid>https://blog.exolabs.net/nvidia-dgx-spark/</guid>
-      <pubDate>Thu, 16 Oct 2025 23:30:36 GMT</pubDate>
+      <title>询问 HN：如何阻止 AWS 机器人每月发送 2B 个请求</title>
+      <link>https://news.ycombinator.com/item?id=45613567</link>
+      <description><![CDATA[我一直在与来自 AWS 新加坡的机器人“Mozilla/5.0（兼容；爬虫）”作斗争，并向我的域发送大量请求，几个月来平均每秒超过 700 个请求。
+值得庆幸的是，CloudFlare 能够通过简单的 WAF 规则和 444 响应来处理流量，以减少出站流量。我已向 AWS 提交了几份投诉以阻止此流量，他们的典型后续行动是：
+我们已与客户进行了接触，并根据这次接触确定所报告的活动目前不需要 AWS 采取进一步行动。我已尝试了各种 4XX 响应来查看机器人是否会退出，我已尝试了 30 次重定向（随后出现）但无济于事。流量达到了数字要求我与 CloudFlare 重新协商合同，否则在查看分析/日志时会很麻烦。我已经 考虑过将整个流量重定向到 AWS 滥用报告页面，但在这次会议上，它本质上是一个小型 DDoS 网络，将其发送到任何地方本身都可能被视为滥用。还有其他人有类似的经历吗？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45613567
+积分：11
+# 条评论：5]]></description>
+      <guid>https://news.ycombinator.com/item?id=45613567</guid>
+      <pubDate>Fri, 17 Oct 2025 05:28:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>释放互联网：Tor 项目的年度筹款活动</title>
+      <link>https://blog.torproject.org/2025-fundraiser-donations-matched/</link>
+      <description><![CDATA[文章网址：https://blog.torproject.org/2025-fundraiser-donations-matched/
+评论网址：https://news.ycombinator.com/item?id=45613246
+积分：79
+# 条评论：10]]></description>
+      <guid>https://blog.torproject.org/2025-fundraiser-donations-matched/</guid>
+      <pubDate>Fri, 17 Oct 2025 04:10:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>喵相机</title>
+      <link>https://meow.camera/</link>
+      <description><![CDATA[文章网址：https://meow.camera/
+评论网址：https://news.ycombinator.com/item?id=45613047
+积分：64
+# 条评论：14]]></description>
+      <guid>https://meow.camera/</guid>
+      <pubDate>Fri, 17 Oct 2025 03:27:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>GNU 工具链中 BPF 支持的后续步骤</title>
+      <link>https://lwn.net/Articles/1039827/</link>
+      <description><![CDATA[文章网址：https://lwn.net/Articles/1039827/
+评论网址：https://news.ycombinator.com/item?id=45612987
+积分：25
+# 条评论：2]]></description>
+      <guid>https://lwn.net/Articles/1039827/</guid>
+      <pubDate>Fri, 17 Oct 2025 03:13:00 GMT</pubDate>
     </item>
     <item>
       <title>导致尼安德特人和其他原始人的大脑和语言发育有限？</title>
       <link>https://today.ucsd.edu/story/did-lead-limit-brain-and-language-development-in-neanderthals-and-other-extinct-hominids</link>
       <description><![CDATA[文章网址： https://today.ucsd.edu/story/did-lead-limit-brain-and-language-development-in-neanderthals-and-other-extinct-hominids
 评论网址：https://news.ycombinator.com/item?id=45611851
-积分：41
-# 条评论：6]]></description>
+积分：58
+# 条评论：18]]></description>
       <guid>https://today.ucsd.edu/story/did-lead-limit-brain-and-language-development-in-neanderthals-and-other-extinct-hominids</guid>
       <pubDate>Thu, 16 Oct 2025 23:20:16 GMT</pubDate>
     </item>
@@ -30,8 +63,8 @@
       <link>https://www.youtube.com/watch?v=T-jt3qBzJ4A</link>
       <description><![CDATA[文章网址：https://www.youtube.com/watch?v=T-jt3qBzJ4A
 评论网址：https://news.ycombinator.com/item?id=45611735
-积分：94
-# 条评论：44]]></description>
+积分：128
+# 条评论：72]]></description>
       <guid>https://www.youtube.com/watch?v=T-jt3qBzJ4A</guid>
       <pubDate>Thu, 16 Oct 2025 23:05:04 GMT</pubDate>
     </item>
@@ -40,28 +73,18 @@
       <link>https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html</link>
       <description><![CDATA[文章网址：https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html
 评论网址：https://news.ycombinator.com/item?id=45610996
-积分：42
-# 条评论：3]]></description>
+积分：56
+# 条评论：6]]></description>
       <guid>https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html</guid>
       <pubDate>Thu, 16 Oct 2025 21:36:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>黑客新闻 – 好的部分</title>
-      <link>https://smartmic.bearblog.dev/why-hacker-news/</link>
-      <description><![CDATA[文章网址：https://smartmic.bearblog.dev/why-hacker-news/
-评论网址：https://news.ycombinator.com/item?id=45610620
-积分：106
-# 条评论：123]]></description>
-      <guid>https://smartmic.bearblog.dev/why-hacker-news/</guid>
-      <pubDate>Thu, 16 Oct 2025 21:02:11 GMT</pubDate>
     </item>
     <item>
       <title>Cloudflare 沙箱 SDK</title>
       <link>https://sandbox.cloudflare.com/</link>
       <description><![CDATA[文章网址：https://sandbox.cloudflare.com/
 评论网址：https://news.ycombinator.com/item?id=45610523
-积分：136
-# 条评论：46]]></description>
+积分：172
+# 条评论：53]]></description>
       <guid>https://sandbox.cloudflare.com/</guid>
       <pubDate>Thu, 16 Oct 2025 20:51:27 GMT</pubDate>
     </item>
@@ -70,8 +93,8 @@
       <link>https://blog.pixelmelt.dev/kindle-web-drm/</link>
       <description><![CDATA[文章网址：https://blog.pixelmelt.dev/kindle-web-drm/
 评论网址：https://news.ycombinator.com/item?id=45610226
-积分：614
-# 条评论：189]]></description>
+积分：784
+# 条评论：245]]></description>
       <guid>https://blog.pixelmelt.dev/kindle-web-drm/</guid>
       <pubDate>Thu, 16 Oct 2025 20:22:48 GMT</pubDate>
     </item>
@@ -80,30 +103,10 @@
       <link>https://generalrobots.substack.com/p/benjies-humanoid-olympic-games</link>
       <description><![CDATA[文章网址：https://generalrobots.substack.com/p/benjies- humanoid-olympic-games
 评论网址：https://news.ycombinator.com/item?id=45609922
-积分：102
-# 条评论：77]]></description>
+积分：109
+# 条评论：81]]></description>
       <guid>https://generalrobots.substack.com/p/benjies-humanoid-olympic-games</guid>
       <pubDate>Thu, 16 Oct 2025 19:51:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>杀死 IE6 的阴谋 (2019)</title>
-      <link>https://blog.chriszacharias.com/a-conspiracy-to-kill-ie6</link>
-      <description><![CDATA[文章网址：https://blog.chriszacharias.com/a-conspiracy-to-kill-ie6
-评论网址：https://news.ycombinator.com/item?id=45608887
-积分：164
-评论数量：93]]></description>
-      <guid>https://blog.chriszacharias.com/a-conspiracy-to-kill-ie6</guid>
-      <pubDate>Thu, 16 Oct 2025 18:22:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>天赋</title>
-      <link>https://www.felixstocker.com/blog/talent</link>
-      <description><![CDATA[文章网址：https://www.felixstocker.com/blog/talent
-评论网址：https://news.ycombinator.com/item?id=45608456
-积分：124
-# 条评论：52]]></description>
-      <guid>https://www.felixstocker.com/blog/talent</guid>
-      <pubDate>Thu, 16 Oct 2025 17:47:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
