@@ -4,46 +4,95 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 19 Oct 2025 09:19:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Oct 2025 12:35:25 GMT</lastBuildDate>
     <item>
-      <title>Show HN：新人排名 – 新存储库趋势的 GitHub 替代方案</title>
-      <link>https://git-stars.org/ranking/newcomers</link>
-      <description><![CDATA[我一直在 git-stars.org 上工作，并创建了一个“新人排名”，我认为它比 GitHub Trending 更能发现新的流行项目。虽然 GitHub Trending 经常显示相同的已建立的存储库循环，但我的新人排名特别关注新的且最近获得显着关注的存储库。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45632724
+      <title>Uber 将在不在路上时为司机提供人工智能数据标签等零工工作</title>
+      <link>https://www.cnbc.com/2025/10/16/uber-will-offer-us-drivers-more-gig-work-including-ai-data-labeling.html</link>
+      <description><![CDATA[文章网址： https://www.cnbc.com/2025/10/16/uber-will-offer-us-drivers-more-gig-work-include-ai-data-labeling.html
+评论网址：https://news.ycombinator.com/item?id=45633619
 积分：4
 # 条评论：0]]></description>
-      <guid>https://git-stars.org/ranking/newcomers</guid>
-      <pubDate>Sun, 19 Oct 2025 08:11:47 GMT</pubDate>
+      <guid>https://www.cnbc.com/2025/10/16/uber-will-offer-us-drivers-more-gig-work-including-ai-data-labeling.html</guid>
+      <pubDate>Sun, 19 Oct 2025 12:05:50 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：更好的黑客新闻前端</title>
-      <link>https://hakkernieuws.vercel.app/top</link>
-      <description><![CDATA[我分叉了 pajecaav 的 better-hn 存储库，事实证明这是一个很好的基础。虽然最初的实现干净且实用，但它并没有完全抓住 Hackernews 的本质。更重要的是，它缺少一些我认为对于真正可行的替代方案至关重要的功能。经过一段时间的修改，我认为我已经解决了它——至少对于我自己的用例来说是这样。如果它对我有用，那么其他人可能也会发现它很有用。所以我想，为什么不分享它呢？非常简单：没有广告，没有跟踪，没有盈利计划，也无意这样做。只需在 Vercel 的免费套餐上进行简单的部署，无需花费任何费用。我并不期望有数百万用户（让我们现实一点），但如果人们真正开始使用它，我们将看到它如何扩展。欢迎提供任何反馈，或者直接使用它。
+      <title>乐高防盗环</title>
+      <link>https://www.nytimes.com/2025/10/18/us/lego-theft-california-arrest.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2025/10/18/us/lego-theft-california-arrest.html
+评论网址：https://news.ycombinator.com/item?id=45633513
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.nytimes.com/2025/10/18/us/lego-theft-california-arrest.html</guid>
+      <pubDate>Sun, 19 Oct 2025 11:40:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Duck-UI – 用于 DuckDB 的基于浏览器的 SQL IDE</title>
+      <link>https://demo.duckui.com</link>
+      <description><![CDATA[我构建了 Duck-UI，一个基于 Web 的 SQL 编辑器，可以通过 WebAssembly 在浏览器中完全运行 DuckDB。不需要后端。问题：每次我需要查询 csv、parquet，甚至使用 SQL 时，我都必须：
+(a) 启动 Jupyter 笔记本
+(b) 使用 CLI
+(c) 上传到托管服务。每一步都有摩擦（加载 csv 甚至测试一些 sql（研究）都太多了...解决方案：DuckDB 的 WASM 运行时允许我们在客户端运行 SQL 分析。从磁盘或 URL 加载 CSV/JSON/Parquet 文件，编写 SQL，立即获取结果。数据保留在您的计算机上。
+它的作用：具有自动完成和语法突出显示功能的 SQL 编辑器
+导入 CSV、JSON、Parquet、Arrow（本地或远程 URL）
+查询历史记录、键盘快捷键、主题切换
+通过 OPFS 进行持久存储（数据在浏览器刷新后仍然存在）
+可选：连接到外部 DuckDB 服务器
+单线 Docker 部署或 Node 20+ 开发服务器技术细节：DuckDB 编译为 WASM；在浏览器中执行查询
+OPFS 支持的持久性
+Apache 2.0 许可
+在 Chrome 88+、Firefox 79+、Safari 14+ 上运行用例：无需设置数据库即可学习 SQL
+即席数据探索（CSV → SQL 只需几秒）
+在投入生产之前快速制作原型
+注重隐私的工作流程（没有数据离开您的浏览器）GitHub：https://github.com/ibero-data/duck-ui
+现场演示：https://demo.duckui.com
+快速入门： docker run -p 5522:5522 ghcr.io/ibero-data/duck-ui:latest希望得到以下反馈： 
+(1) 我缺少的用例
+(2)遇到的性能瓶颈
+(3) 使其成为默认 SQL 便签本的功能。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45632681
-积分：5
-# 条评论：3]]></description>
-      <guid>https://hakkernieuws.vercel.app/top</guid>
-      <pubDate>Sun, 19 Oct 2025 08:01:20 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=45633453
+积分：26
+# 条评论：12]]></description>
+      <guid>https://demo.duckui.com</guid>
+      <pubDate>Sun, 19 Oct 2025 11:19:38 GMT</pubDate>
     </item>
     <item>
-      <title>GoFundMe首席执行官：经济如此糟糕他的客户众筹来支付杂货</title>
-      <link>https://finance.yahoo.com/news/gofundme-ceo-says-economy-bad-182843671.html</link>
-      <description><![CDATA[文章网址：https://finance.yahoo.com/news/gofundme-ceo-says-economy-bad-182843671.html
-评论网址：https://news.ycombinator.com/item?id=45632262
-积分：36
-# 条评论：12]]></description>
-      <guid>https://finance.yahoo.com/news/gofundme-ceo-says-economy-bad-182843671.html</guid>
-      <pubDate>Sun, 19 Oct 2025 05:45:02 GMT</pubDate>
+      <title>2007年发生了什么？</title>
+      <link>https://whathappenedin2007.com/</link>
+      <description><![CDATA[文章网址：https://whathappenedin2007.com/
+评论网址：https://news.ycombinator.com/item?id=45633426
+积分：4
+# 条评论：0]]></description>
+      <guid>https://whathappenedin2007.com/</guid>
+      <pubDate>Sun, 19 Oct 2025 11:08:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>微调回归的案例</title>
+      <link>https://welovesota.com/article/the-case-for-the-return-of-fine-tuning</link>
+      <description><![CDATA[文章网址：https://welovesota.com/article/the-case-for-the-return-of-fine-tuning
+评论网址：https://news.ycombinator.com/item?id=45633081
+积分：31
+# 条评论：8]]></description>
+      <guid>https://welovesota.com/article/the-case-for-the-return-of-fine-tuning</guid>
+      <pubDate>Sun, 19 Oct 2025 09:41:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>太空垃圾落在西澳大利亚矿区</title>
+      <link>https://www.abc.net.au/news/2025-10-19/wa-space-debris-reentry-investigation/105909612</link>
+      <description><![CDATA[文章网址： https://www.abc.net.au/news/2025-10-19/wa-space-debris-reentry-investigation/105909612
+评论网址：https://news.ycombinator.com/item?id=45632738
+积分：38
+# 条评论：7]]></description>
+      <guid>https://www.abc.net.au/news/2025-10-19/wa-space-debris-reentry-investigation/105909612</guid>
+      <pubDate>Sun, 19 Oct 2025 08:14:04 GMT</pubDate>
     </item>
     <item>
       <title>问责制问题</title>
       <link>https://www.jamesshore.com/v2/blog/2025/the-accountability-problem</link>
       <description><![CDATA[文章网址：https://www.jamesshore.com/v2/blog/2025/the-accountability-problem
 评论网址：https://news.ycombinator.com/item?id=45631678
-积分：51
-# 条评论：11]]></description>
+积分：77
+# 条评论：27]]></description>
       <guid>https://www.jamesshore.com/v2/blog/2025/the-accountability-problem</guid>
       <pubDate>Sun, 19 Oct 2025 02:22:53 GMT</pubDate>
     </item>
@@ -52,8 +101,8 @@
       <link>https://3quarksdaily.com/3quarksdaily/2025/10/friendship-begins-at-home.html</link>
       <description><![CDATA[文章网址：https://3quarksdaily.com/3quarksdaily/2025/10/friendship-begins-at-home.html
 评论网址：https://news.ycombinator.com/item?id=45631503
-积分：117
-# 条评论：51]]></description>
+积分：133
+# 条评论：62]]></description>
       <guid>https://3quarksdaily.com/3quarksdaily/2025/10/friendship-begins-at-home.html</guid>
       <pubDate>Sun, 19 Oct 2025 01:23:29 GMT</pubDate>
     </item>
@@ -67,44 +116,14 @@
       <pubDate>Sun, 19 Oct 2025 01:00:42 GMT</pubDate>
     </item>
     <item>
-      <title>如何以低于 2,000 美元的价格对 DNA 进行测序</title>
-      <link>https://maxlangenkamp.substack.com/p/how-to-sequence-your-dna-for-2k</link>
-      <description><![CDATA[文章网址：https://maxlangenkamp.substack.com/p/how-to-sequence-your-dna-for-2k
-评论网址：https://news.ycombinator.com/item?id=45629970
-积分：167
-# 条评论：75]]></description>
-      <guid>https://maxlangenkamp.substack.com/p/how-to-sequence-your-dna-for-2k</guid>
-      <pubDate>Sat, 18 Oct 2025 19:58:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>大多数用户无法识别人工智能偏差，即使在训练数据中也是如此</title>
-      <link>https://www.psu.edu/news/bellisario-college-communications/story/most-users-cannot-identify-ai-bias-even-training-data</link>
-      <description><![CDATA[文章网址： https://www.psu.edu/news/bellisario-college-communications/story/most-users-cannot-identify-ai-bias-even-training-data
-评论网址：https://news.ycombinator.com/item?id=45629299
-积分：84
-# 条评论：51]]></description>
-      <guid>https://www.psu.edu/news/bellisario-college-communications/story/most-users-cannot-identify-ai-bias-even-training-data</guid>
-      <pubDate>Sat, 18 Oct 2025 18:13:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>耳鸣神经调节剂</title>
-      <link>https://mynoise.net/NoiseMachines/neuromodulationTonesGenerator.php</link>
-      <description><![CDATA[文章网址：https://mynoise.net/NoiseMachines/neuromodulationTonesGenerator.php
-评论网址：https://news.ycombinator.com/item?id=45628391
-积分：299
-# 条评论：201]]></description>
-      <guid>https://mynoise.net/NoiseMachines/neuromodulationTonesGenerator.php</guid>
-      <pubDate>Sat, 18 Oct 2025 16:08:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>想象数学</title>
-      <link>https://mathenchant.wordpress.com/2025/10/18/picturing-mathematics/</link>
-      <description><![CDATA[文章网址：https://mathenchant.wordpress.com/2025/10/18/picturing-mathematics/
-评论网址：https://news.ycombinator.com/item?id=45628283
-积分：84
-# 条评论：3]]></description>
-      <guid>https://mathenchant.wordpress.com/2025/10/18/picturing-mathematics/</guid>
-      <pubDate>Sat, 18 Oct 2025 15:52:39 GMT</pubDate>
+      <title>在珍妮特中使用钉子</title>
+      <link>https://articles.inqk.net/2020/09/19/how-to-use-pegs-in-janet.html</link>
+      <description><![CDATA[文章网址：https://articles.inqk.net/2020/09/19/how-to-use-pegs-in-janet.html
+评论网址：https://news.ycombinator.com/item?id=45631328
+积分：38
+# 条评论：4]]></description>
+      <guid>https://articles.inqk.net/2020/09/19/how-to-use-pegs-in-janet.html</guid>
+      <pubDate>Sun, 19 Oct 2025 00:33:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
