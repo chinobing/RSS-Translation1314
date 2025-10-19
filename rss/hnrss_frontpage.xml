@@ -4,126 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 19 Oct 2025 12:35:25 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Oct 2025 15:18:46 GMT</lastBuildDate>
     <item>
-      <title>Uber 将在不在路上时为司机提供人工智能数据标签等零工工作</title>
-      <link>https://www.cnbc.com/2025/10/16/uber-will-offer-us-drivers-more-gig-work-including-ai-data-labeling.html</link>
-      <description><![CDATA[文章网址： https://www.cnbc.com/2025/10/16/uber-will-offer-us-drivers-more-gig-work-include-ai-data-labeling.html
-评论网址：https://news.ycombinator.com/item?id=45633619
-积分：4
+      <title>为什么丰富的选择并不等于自由</title>
+      <link>https://aeon.co/essays/why-an-abundance-of-choice-is-not-the-same-as-freedom</link>
+      <description><![CDATA[文章网址：https://aeon.co/essays/why-an-abundance-of-choice-is-not-the-same-as-freedom
+评论网址：https://news.ycombinator.com/item?id=45634641
+积分：10
 # 条评论：0]]></description>
-      <guid>https://www.cnbc.com/2025/10/16/uber-will-offer-us-drivers-more-gig-work-including-ai-data-labeling.html</guid>
-      <pubDate>Sun, 19 Oct 2025 12:05:50 GMT</pubDate>
+      <guid>https://aeon.co/essays/why-an-abundance-of-choice-is-not-the-same-as-freedom</guid>
+      <pubDate>Sun, 19 Oct 2025 14:58:16 GMT</pubDate>
     </item>
     <item>
-      <title>乐高防盗环</title>
-      <link>https://www.nytimes.com/2025/10/18/us/lego-theft-california-arrest.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2025/10/18/us/lego-theft-california-arrest.html
-评论网址：https://news.ycombinator.com/item?id=45633513
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.nytimes.com/2025/10/18/us/lego-theft-california-arrest.html</guid>
-      <pubDate>Sun, 19 Oct 2025 11:40:05 GMT</pubDate>
+      <title>网站是为人类服务的</title>
+      <link>https://marcus-obst.de/blog/websites-are-for-humans</link>
+      <description><![CDATA[文章网址：https://marcus-obst.de/blog/websites-are-for- humans
+评论网址：https://news.ycombinator.com/item?id=45634484
+积分：13
+# 条评论：1]]></description>
+      <guid>https://marcus-obst.de/blog/websites-are-for-humans</guid>
+      <pubDate>Sun, 19 Oct 2025 14:40:47 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Duck-UI – 用于 DuckDB 的基于浏览器的 SQL IDE</title>
-      <link>https://demo.duckui.com</link>
-      <description><![CDATA[我构建了 Duck-UI，一个基于 Web 的 SQL 编辑器，可以通过 WebAssembly 在浏览器中完全运行 DuckDB。不需要后端。问题：每次我需要查询 csv、parquet，甚至使用 SQL 时，我都必须：
-(a) 启动 Jupyter 笔记本
-(b) 使用 CLI
-(c) 上传到托管服务。每一步都有摩擦（加载 csv 甚至测试一些 sql（研究）都太多了...解决方案：DuckDB 的 WASM 运行时允许我们在客户端运行 SQL 分析。从磁盘或 URL 加载 CSV/JSON/Parquet 文件，编写 SQL，立即获取结果。数据保留在您的计算机上。
-它的作用：具有自动完成和语法突出显示功能的 SQL 编辑器
-导入 CSV、JSON、Parquet、Arrow（本地或远程 URL）
-查询历史记录、键盘快捷键、主题切换
-通过 OPFS 进行持久存储（数据在浏览器刷新后仍然存在）
-可选：连接到外部 DuckDB 服务器
-单线 Docker 部署或 Node 20+ 开发服务器技术细节：DuckDB 编译为 WASM；在浏览器中执行查询
-OPFS 支持的持久性
-Apache 2.0 许可
-在 Chrome 88+、Firefox 79+、Safari 14+ 上运行用例：无需设置数据库即可学习 SQL
-即席数据探索（CSV → SQL 只需几秒）
-在投入生产之前快速制作原型
-注重隐私的工作流程（没有数据离开您的浏览器）GitHub：https://github.com/ibero-data/duck-ui
-现场演示：https://demo.duckui.com
-快速入门： docker run -p 5522:5522 ghcr.io/ibero-data/duck-ui:latest希望得到以下反馈： 
-(1) 我缺少的用例
-(2)遇到的性能瓶颈
-(3) 使其成为默认 SQL 便签本的功能。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45633453
-积分：26
-# 条评论：12]]></description>
-      <guid>https://demo.duckui.com</guid>
-      <pubDate>Sun, 19 Oct 2025 11:19:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>2007年发生了什么？</title>
-      <link>https://whathappenedin2007.com/</link>
-      <description><![CDATA[文章网址：https://whathappenedin2007.com/
-评论网址：https://news.ycombinator.com/item?id=45633426
-积分：4
-# 条评论：0]]></description>
-      <guid>https://whathappenedin2007.com/</guid>
-      <pubDate>Sun, 19 Oct 2025 11:08:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>微调回归的案例</title>
-      <link>https://welovesota.com/article/the-case-for-the-return-of-fine-tuning</link>
-      <description><![CDATA[文章网址：https://welovesota.com/article/the-case-for-the-return-of-fine-tuning
-评论网址：https://news.ycombinator.com/item?id=45633081
-积分：31
-# 条评论：8]]></description>
-      <guid>https://welovesota.com/article/the-case-for-the-return-of-fine-tuning</guid>
-      <pubDate>Sun, 19 Oct 2025 09:41:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>太空垃圾落在西澳大利亚矿区</title>
-      <link>https://www.abc.net.au/news/2025-10-19/wa-space-debris-reentry-investigation/105909612</link>
-      <description><![CDATA[文章网址： https://www.abc.net.au/news/2025-10-19/wa-space-debris-reentry-investigation/105909612
-评论网址：https://news.ycombinator.com/item?id=45632738
-积分：38
+      <title>Xubuntu.org 可能受到损害</title>
+      <link>https://old.reddit.com/r/Ubuntu/comments/1oa4549/xubuntuorg_might_be_compromised/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/Ubuntu/comments/1oa4549/xubuntuorg_might_be_compromished/
+评论网址：https://news.ycombinator.com/item?id=45634367
+积分：56
 # 条评论：7]]></description>
-      <guid>https://www.abc.net.au/news/2025-10-19/wa-space-debris-reentry-investigation/105909612</guid>
-      <pubDate>Sun, 19 Oct 2025 08:14:04 GMT</pubDate>
+      <guid>https://old.reddit.com/r/Ubuntu/comments/1oa4549/xubuntuorg_might_be_compromised/</guid>
+      <pubDate>Sun, 19 Oct 2025 14:25:45 GMT</pubDate>
     </item>
     <item>
-      <title>问责制问题</title>
-      <link>https://www.jamesshore.com/v2/blog/2025/the-accountability-problem</link>
-      <description><![CDATA[文章网址：https://www.jamesshore.com/v2/blog/2025/the-accountability-problem
-评论网址：https://news.ycombinator.com/item?id=45631678
-积分：77
-# 条评论：27]]></description>
-      <guid>https://www.jamesshore.com/v2/blog/2025/the-accountability-problem</guid>
-      <pubDate>Sun, 19 Oct 2025 02:22:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>友谊从家里开始</title>
-      <link>https://3quarksdaily.com/3quarksdaily/2025/10/friendship-begins-at-home.html</link>
-      <description><![CDATA[文章网址：https://3quarksdaily.com/3quarksdaily/2025/10/friendship-begins-at-home.html
-评论网址：https://news.ycombinator.com/item?id=45631503
-积分：133
-# 条评论：62]]></description>
-      <guid>https://3quarksdaily.com/3quarksdaily/2025/10/friendship-begins-at-home.html</guid>
-      <pubDate>Sun, 19 Oct 2025 01:23:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>GoGoGrandparent (YC S16) 正在招聘后端和全栈工程师</title>
-      <link>https://news.ycombinator.com/item?id=45631422</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=45631422
-积分：0
+      <title>Show HN：Pyversity – 用于检索和 RAG 的快速结果多样化</title>
+      <link>https://github.com/Pringled/pyversity</link>
+      <description><![CDATA[嘿，HN！我最近开源了 Pyversity，这是一个用于使检索结果多样化的轻量级库。大多数检索系统仅针对相关性进行优化，这可能会导致看起来几乎相同的 top-k 结果。 Pyversity 有效地对结果进行重新排名，以平衡相关性和多样性，显示仍然相关但冗余较少的项目。这有助于改进检索、推荐和 RAG 管道，而不会增加延迟或复杂性。主要功能：- 统一 API：一个函数（多样化）支持多种众所周知的策略：MMR、MSD、DPP 和 COVER（即将推出更多策略）- 轻量级：唯一的依赖项是 NumPy，保持包较小且易于安装- 快速：所有支持策略的高效实现；在毫秒内实现结果多样化使用交叉编码器重新排名现在非常流行，但也非常昂贵。根据我的经验，您通常可以使用更简单、更快的方法来改进检索结果，例如本包中实现的方法。通过确保每个新项目都添加新信息，这有助于检索、推荐和 RAG 系统呈现更丰富、信息更丰富的结果。代码和文档：github.com/pringled/pyversity如果您有任何反馈或支持其他多样化策略的建议，请告诉我！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45634310
+积分：5
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45631422</guid>
-      <pubDate>Sun, 19 Oct 2025 01:00:42 GMT</pubDate>
+      <guid>https://github.com/Pringled/pyversity</guid>
+      <pubDate>Sun, 19 Oct 2025 14:16:12 GMT</pubDate>
     </item>
     <item>
-      <title>在珍妮特中使用钉子</title>
-      <link>https://articles.inqk.net/2020/09/19/how-to-use-pegs-in-janet.html</link>
-      <description><![CDATA[文章网址：https://articles.inqk.net/2020/09/19/how-to-use-pegs-in-janet.html
-评论网址：https://news.ycombinator.com/item?id=45631328
-积分：38
-# 条评论：4]]></description>
-      <guid>https://articles.inqk.net/2020/09/19/how-to-use-pegs-in-janet.html</guid>
-      <pubDate>Sun, 19 Oct 2025 00:33:24 GMT</pubDate>
+      <title>替换.ai</title>
+      <link>https://replacement.ai</link>
+      <description><![CDATA[文章网址：https://replacement.ai
+评论网址：https://news.ycombinator.com/item?id=45634095
+积分：240
+# 条评论：83]]></description>
+      <guid>https://replacement.ai</guid>
+      <pubDate>Sun, 19 Oct 2025 13:47:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>德克萨斯农工大学研究发现，废弃土地导致休斯敦出现危险高温</title>
+      <link>https://stories.tamu.edu/news/2025/10/07/abandoned-land-drives-dangerous-heat-in-houston-texas-am-study-finds/</link>
+      <description><![CDATA[文章网址： https://stories.tamu.edu/news/2025/10/07/abandoned-land-drives-dangerous-heat-in-houston-texas-am-study-finds/
+评论网址：https://news.ycombinator.com/item?id=45634026
+积分：41
+# 条评论：33]]></description>
+      <guid>https://stories.tamu.edu/news/2025/10/07/abandoned-land-drives-dangerous-heat-in-houston-texas-am-study-finds/</guid>
+      <pubDate>Sun, 19 Oct 2025 13:35:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何从头开始组装电加热元件</title>
+      <link>https://solar.lowtechmagazine.com/2025/10/how-to-build-an-electric-heating-element-from-scratch/</link>
+      <description><![CDATA[文章网址：https://solar.lowtechmagazine.com/2025/10/how-to-build-an-electric-heating-element-from-scratch/
+评论网址：https://news.ycombinator.com/item?id=45633958
+积分：15
+# 条评论：7]]></description>
+      <guid>https://solar.lowtechmagazine.com/2025/10/how-to-build-an-electric-heating-element-from-scratch/</guid>
+      <pubDate>Sun, 19 Oct 2025 13:25:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>亿万富翁街的一座塔布满了裂缝。谁该受责备？</title>
+      <link>https://www.nytimes.com/2025/10/19/nyregion/432-park-avenue-condo-tower.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2025/10/19/nyregion/432-park-avenue-condo-tower.html
+评论网址：https://news.ycombinator.com/item?id=45633711
+积分：46
+# 条评论：24]]></description>
+      <guid>https://www.nytimes.com/2025/10/19/nyregion/432-park-avenue-condo-tower.html</guid>
+      <pubDate>Sun, 19 Oct 2025 12:36:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>改进 PixelMelt 的 Kindle Web 反混淆器</title>
+      <link>https://shkspr.mobi/blog/2025/10/improving-pixelmelts-kindle-web-deobfuscator/</link>
+      <description><![CDATA[文章网址：https://shkspr.mobi/blog/2025/10/improving-pixelmelts-kindle-web-deobfuscator/
+评论网址：https://news.ycombinator.com/item?id=45633642
+积分：36
+评论数量：9]]></description>
+      <guid>https://shkspr.mobi/blog/2025/10/improving-pixelmelts-kindle-web-deobfuscator/</guid>
+      <pubDate>Sun, 19 Oct 2025 12:11:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pebble 正式回归 iOS 和 Android</title>
+      <link>https://twitter.com/ericmigi/status/1979576965494710564</link>
+      <description><![CDATA[文章网址：https://twitter.com/ericmigi/status/1979576965494710564
+评论网址：https://news.ycombinator.com/item?id=45633591
+积分：70
+# 条评论：8]]></description>
+      <guid>https://twitter.com/ericmigi/status/1979576965494710564</guid>
+      <pubDate>Sun, 19 Oct 2025 12:00:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
