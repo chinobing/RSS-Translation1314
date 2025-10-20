@@ -4,108 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 20 Oct 2025 15:21:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Oct 2025 18:31:17 GMT</lastBuildDate>
     <item>
-      <title>AI新镜像引擎</title>
-      <link>https://github.com/fieryseaturtle-dotcom/My-Mirror-Engine-for-AI</link>
-      <description><![CDATA[文章网址：https://github.com/fieryseaturtle-dotcom/My-Mirror-Engine-for-AI
-评论网址：https://news.ycombinator.com/item?id=45644904
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/fieryseaturtle-dotcom/My-Mirror-Engine-for-AI</guid>
-      <pubDate>Mon, 20 Oct 2025 15:16:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>收到一封 Netflix 信件，内容涉及追踪到我的 IP 的 3 万次登录尝试失败</title>
-      <link>https://old.reddit.com/r/SaladChefs/comments/1oa3k5o/got_a_netflix_letter_about_30000_failed_login/</link>
-      <description><![CDATA[文章网址： https://old.reddit.com/r/SaladChefs/comments/1oa3k5o/got_a_netflix_letter_about_30000_failed_login/
-评论网址：https://news.ycombinator.com/item?id=45644903
-积分：1
-# 条评论：0]]></description>
-      <guid>https://old.reddit.com/r/SaladChefs/comments/1oa3k5o/got_a_netflix_letter_about_30000_failed_login/</guid>
-      <pubDate>Mon, 20 Oct 2025 15:15:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>首次使用 Anthropic 的代理技能</title>
-      <link>https://macwright.com/2025/10/20/agent-skills</link>
-      <description><![CDATA[文章网址：https://macwright.com/2025/10/20/agent-skills
-评论网址：https://news.ycombinator.com/item?id=45644897
-积分：1
-# 条评论：0]]></description>
-      <guid>https://macwright.com/2025/10/20/agent-skills</guid>
-      <pubDate>Mon, 20 Oct 2025 15:15:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么数字 6 到 7 让数学老师感到厌烦</title>
-      <link>https://www.npr.org/2025/10/19/nx-s1-5578929/why-the-numbers-6-7-are-driving-math-teachers-up-the-wall</link>
-      <description><![CDATA[文章网址： https://www.npr.org/2025/10/19/nx-s1-5578929/why-the-numbers-6-7-are-driven-math-teachers-up-the-wall
-评论网址：https://news.ycombinator.com/item?id=45644890
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.npr.org/2025/10/19/nx-s1-5578929/why-the-numbers-6-7-are-driving-math-teachers-up-the-wall</guid>
-      <pubDate>Mon, 20 Oct 2025 15:15:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我构建了一个用户友好的 Google Analytics 替代方案</title>
-      <link>https://www.statflows.com/</link>
-      <description><![CDATA[文章网址：https://www.statflows.com/
-评论网址：https://news.ycombinator.com/item?id=45644886
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.statflows.com/</guid>
-      <pubDate>Mon, 20 Oct 2025 15:14:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果可以的话，烤我吧</title>
-      <link>https://novad.app</link>
-      <description><![CDATA[文章网址：https://novad.app
-评论网址：https://news.ycombinator.com/item?id=45644873
+      <title>使用 AI 工具构建静态目录站点</title>
+      <link>https://poolnear.me</link>
+      <description><![CDATA[文章网址：https://poolnear.me
+评论网址：https://news.ycombinator.com/item?id=45647352
 积分：1
 # 条评论：1]]></description>
-      <guid>https://novad.app</guid>
-      <pubDate>Mon, 20 Oct 2025 15:14:13 GMT</pubDate>
+      <guid>https://poolnear.me</guid>
+      <pubDate>Mon, 20 Oct 2025 18:27:46 GMT</pubDate>
     </item>
     <item>
-      <title>询问 HN：claude-agent-sdk-python 准备好投入生产了吗？ （剧透：没有）</title>
-      <link>https://news.ycombinator.com/item?id=45644862</link>
-      <description><![CDATA[我正在谈论“claude-agent-sdk-python”，所以如果您不打算使用它，可以忽略它。1.这不是真正的 Python SDK。它只是一个薄包装器，将 Claude Code npm 包作为子进程生成，并通过 stdin/stdout 进行通信。所有核心逻辑（代理循环、工具执行和提示处理）都存在于 npm 包中，而不是 Python 中。2.没有本机工具界面。用户被迫构建自定义 MCP 服务器并在 Python 代码中手动连接它们。当然，MCP 服务器可以作为将工具组合在一起的一种方式，但没有其他选择似乎并不理想。3.没有适当的健康检查实施。在EKS等现代容器编排环境中，健康检查对于维持稳定的服务至关重要。然而，这个SDK没有提供有意义的健康检查功能。 `is_ready()` 方法只是检查一个布尔标志，它不会验证子进程是否真正响应。当“await client.connect()”将 Claude Code npm 包作为子进程生成时，没有任何机制可以确保代理守护进程随着时间的推移保持健康 — 它可能会挂起、死锁或处于僵尸状态而不被检测到。4.还有一个资源消耗问题。实际上，这是来自 claude 代码 cli，因为 claude agent sdk 只是一个包装器。您可以在“https://github.com/jujumilk3/jujumilk3/issues/1”查看捕获情况。如果我使用bypassPermission运行claude agent sdk，它需要非root帐户，因此发生这种情况时我无法调试。因为docker镜像是用非root账户构建的。内存峰值来自请求，因此看来此资源消耗与实际操作无关。我写了过去几周使用 claude agent sdk 的经验。如果我以错误的方式使用它，请告诉我。也请分享一下您使用该框架的经验。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45644862
+      <title>采访新的托管提供商</title>
+      <link>https://ntietz.com/blog/andromeda-industries-interview/</link>
+      <description><![CDATA[文章网址：https://ntietz.com/blog/andromeda-industries-interview/
+评论网址：https://news.ycombinator.com/item?id=45647347
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45644862</guid>
-      <pubDate>Mon, 20 Oct 2025 15:13:14 GMT</pubDate>
+      <guid>https://ntietz.com/blog/andromeda-industries-interview/</guid>
+      <pubDate>Mon, 20 Oct 2025 18:27:27 GMT</pubDate>
     </item>
     <item>
-      <title>永恒紧迫的诅咒</title>
-      <link>https://gettingthingsdone.com/2025/05/the-curse-of-the-eternally-urgent/</link>
-      <description><![CDATA[文章网址：https://gettingthingsdone.com/2025/05/the-curse-of-the-eternally-urgent/
-评论网址：https://news.ycombinator.com/item?id=45644839
+      <title>Show HN：ComfortView – 采用研究支持设计的纯文本阅读视图</title>
+      <link>https://chromewebstore.google.com/detail/comfortview/npojnlhhfjfahofkahkjpljalfmbhcof</link>
+      <description><![CDATA[ComfortView 是一款浏览器扩展，通过应用研究支持的设计选择来提高可读性：柔和、低眩光的棕褐色背景可减轻眼睛疲劳；行距增加1.5倍，更方便阅读；行长度优化为 50-75 个字符，以尽量减少眼睛疲劳；干净的无衬线字体可确保屏幕清晰。欲了解更多信息：https://github.com/uscne/ComfortView
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45647328
+积分：1
+# 条评论：0]]></description>
+      <guid>https://chromewebstore.google.com/detail/comfortview/npojnlhhfjfahofkahkjpljalfmbhcof</guid>
+      <pubDate>Mon, 20 Oct 2025 18:25:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Git 过后还有生命</title>
+      <link>https://flames-of-code.netlify.app/blog/my-jj-workflow/</link>
+      <description><![CDATA[文章网址：https://flames-of-code.netlify.app/blog/my-jj-workflow/
+评论网址：https://news.ycombinator.com/item?id=45647320
+积分：1
+# 条评论：0]]></description>
+      <guid>https://flames-of-code.netlify.app/blog/my-jj-workflow/</guid>
+      <pubDate>Mon, 20 Oct 2025 18:24:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>高通 Snapdragon 芯片无法使用 Android 的最佳功能之一</title>
+      <link>https://www.androidauthority.com/snapdragon-chips-android-linux-terminal-3608648/</link>
+      <description><![CDATA[文章网址：https://www.androidauthority.com/snapdragon-chips-android-linux-terminal-3608648/
+评论网址：https://news.ycombinator.com/item?id=45647281
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.androidauthority.com/snapdragon-chips-android-linux-terminal-3608648/</guid>
+      <pubDate>Mon, 20 Oct 2025 18:21:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>弗林效应的消亡</title>
+      <link>https://www.cremieux.xyz/p/the-demise-of-the-flynn-effect</link>
+      <description><![CDATA[文章网址：https://www.cremieux.xyz/p/the-demise-of-the-flynn-effect
+评论网址：https://news.ycombinator.com/item?id=45647273
 积分：2
 # 条评论：0]]></description>
-      <guid>https://gettingthingsdone.com/2025/05/the-curse-of-the-eternally-urgent/</guid>
-      <pubDate>Mon, 20 Oct 2025 15:11:00 GMT</pubDate>
+      <guid>https://www.cremieux.xyz/p/the-demise-of-the-flynn-effect</guid>
+      <pubDate>Mon, 20 Oct 2025 18:21:15 GMT</pubDate>
     </item>
     <item>
-      <title>Windows 11 更新取消 USB 鼠标和键盘的恢复模式</title>
-      <link>https://www.theregister.com/2025/10/20/microsoft_bug_keyboard_mouse/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2025/10/20/microsoft_bug_keyboard_mouse/
-评论网址：https://news.ycombinator.com/item?id=45644824
-积分：1
+      <title>100 种消失的物种</title>
+      <link>https://www.100lostspecies.com/</link>
+      <description><![CDATA[文章网址：https://www.100lostspecies.com/
+评论网址：https://news.ycombinator.com/item?id=45647223
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.theregister.com/2025/10/20/microsoft_bug_keyboard_mouse/</guid>
-      <pubDate>Mon, 20 Oct 2025 15:09:31 GMT</pubDate>
+      <guid>https://www.100lostspecies.com/</guid>
+      <pubDate>Mon, 20 Oct 2025 18:17:30 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：将 Chrome 变成代理</title>
-      <link>https://firmware.ai</link>
-      <description><![CDATA[您好，HN，Sidekick 可以查看并操作您使用的每个网站。使用简单的英语，它可以在您的本地浏览器中导航、单击和输入演示视频（40 秒）：https://www.youtube.com/watch?v=8w-KNcFfQ1g免费试用，今天所有注册均可免费获得 1 个月的付费入门级套餐。还有一个免费套餐我是 Colby，一位自力更生的独立创始人我之所以创建 Sidekick，是因为我淹没在度假租赁管理业务的重复工作流程中，我希望我的计算机能够完成点击操作风投拒绝了我，这个想法。但我不需要他们的钱。我需要真正的人来尝试并提供诚实的反馈我会整天闲逛，很想得到您的反馈并回答有关实施、安全或其他任何问题的问题！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45644806
+      <title>GitLab Mrs 的更智能 AI 代码审查：ThinkReview 的 GitLab Duo 替代方案</title>
+      <link>https://thinkreview.dev/</link>
+      <description><![CDATA[文章网址：https://thinkreview.dev/
+评论网址：https://news.ycombinator.com/item?id=45647177
 积分：1
+# 条评论：1]]></description>
+      <guid>https://thinkreview.dev/</guid>
+      <pubDate>Mon, 20 Oct 2025 18:13:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>克劳德·代码在网络上</title>
+      <link>https://www.anthropic.com/news/claude-code-on-the-web</link>
+      <description><![CDATA[文章网址：https://www.anthropic.com/news/claude-code-on-the-web
+评论网址：https://news.ycombinator.com/item?id=45647166
+积分：6
 # 条评论：0]]></description>
-      <guid>https://firmware.ai</guid>
-      <pubDate>Mon, 20 Oct 2025 15:08:22 GMT</pubDate>
+      <guid>https://www.anthropic.com/news/claude-code-on-the-web</guid>
+      <pubDate>Mon, 20 Oct 2025 18:12:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>儿童花生过敏率大幅下降</title>
+      <link>https://www.nytimes.com/2025/10/20/well/peanut-allergy-drop.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2025/10/20/well/peanut-allergy-drop.html
+评论网址：https://news.ycombinator.com/item?id=45647133
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.nytimes.com/2025/10/20/well/peanut-allergy-drop.html</guid>
+      <pubDate>Mon, 20 Oct 2025 18:09:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
