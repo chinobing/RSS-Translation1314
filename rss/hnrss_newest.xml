@@ -4,107 +4,138 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 26 Oct 2025 18:27:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Oct 2025 21:18:15 GMT</lastBuildDate>
     <item>
-      <title>路易斯·罗斯曼：政治家称选民为没有隐私权的罪犯[视频]</title>
-      <link>https://www.youtube.com/watch?v=WJh31Mk7XE4</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=WJh31Mk7XE4
-评论网址：https://news.ycombinator.com/item?id=45714067
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=WJh31Mk7XE4</guid>
-      <pubDate>Sun, 26 Oct 2025 18:23:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>未成年人创立特拉华 C 型企业</title>
-      <link>https://news.ycombinator.com/item?id=45714043</link>
-      <description><![CDATA[今年早些时候，我以 LLC 的身份创立了自己的软件初创公司，但并不知道 Delaware C Corp 是初创公司的首选结构。我现在正在考虑让我的父母之一创建它并通过 Stripe Atlas 签署所有内容，但似乎最复杂的部分是如何将我自己与公司联系起来并给自己股份，而不会使所有权结构过于复杂并吓跑风险投资家。如果有人有类似情况的经验，或者知道有人可以提供一些指导，我们将不胜感激。
+      <title>显示 HN：Zimic：TypeScript 优先的 HTTP 集成</title>
+      <link>https://zimic.dev/</link>
+      <description><![CDATA[Zimic 是一组 TypeScript 优先的 HTTP 集成库，在设计时考虑了开发者体验和类型安全。https://zimic.dev---背景：自从我第一次开始使用 TypeScript 以来，我就觉得嘲笑 HTTP 响应 使用 MSW 和 Nock 等工具很难扩展。使用这些库几年了，主要是为了测试，我经常不得不在它们之上编写、审查和复制大量自定义抽象，试图确保： • 模拟合规性：每个模拟都应该真实、准确地反映它所代表的真实服务；参数不正确、响应不兼容或与实际 API 不同步的模拟会直接降低测试信心；
+
+  • 测试完整性：如果应用程序预计会发出带有某些参数的大量请求，则应从测试中清楚这些期望是什么，如果未满足，它们将失败；
+
+多年来，我逐渐相信我们使用的工具有独特的机会来塑造我们的心理模型并鼓励良好的实践。所以我开始探索一个问题：库如何帮助开发人员创建更好的 API 模拟？我在研究过程中获得的见解导致了 @zimic/interceptor 的早期草案和 IEEE 上发表的论文 (https://ieeexplore.ieee.org/document/11126628）。从那时起，我开始扩展 Zimic 的核心原则，以涵盖开发过程的更多方面，而不仅仅是 API 模拟： • @zimic/http：声明 HTTP 架构、从 OpenAPI 推断类型以及输入本机 Web API。
+
+  • @zimic/fetch：创建类型安全的Fetch API 客户端，并默认将您的请求和响应完全键入。
+
+  • @zimic/interceptor：在开发和测试中模拟HTTP服务，并模拟类型安全的响应。
+
+今年早些时候，Zimic 达到了 1.0，我很想听听您的想法！https://zimic.dev
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45714043
+评论网址：https://news.ycombinator.com/item?id=45715262
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45714043</guid>
-      <pubDate>Sun, 26 Oct 2025 18:20:35 GMT</pubDate>
+      <guid>https://zimic.dev/</guid>
+      <pubDate>Sun, 26 Oct 2025 21:12:53 GMT</pubDate>
     </item>
     <item>
-      <title>加密悖论——为什么代码不足以赢得自由</title>
-      <link>http://arweave.net/c5Ox7mNIiM5G7ovFc2vZYy0XA-duyYBE0UxD5MfZCbY</link>
-      <description><![CDATA[文章网址：http://arweave.net/c5Ox7mNIiM5G7ovFc2vZYy0XA-duyYBE0UxD5MfZCbY
-评论网址：https://news.ycombinator.com/item?id=45714036
-积分：1
-# 条评论：1]]></description>
-      <guid>http://arweave.net/c5Ox7mNIiM5G7ovFc2vZYy0XA-duyYBE0UxD5MfZCbY</guid>
-      <pubDate>Sun, 26 Oct 2025 18:20:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>认知捷径悖论</title>
-      <link>https://www.oreilly.com/radar/the-cognitive-shortcut-paradox/</link>
-      <description><![CDATA[文章网址：https://www.oreilly.com/radar/the-cognitive-shortcut-paradox/
-评论网址：https://news.ycombinator.com/item?id=45714023
+      <title>区域协调可以减轻低碳电力的成本负担</title>
+      <link>https://www.nature.com/articles/s41467-025-64093-8</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41467-025-64093-8
+评论网址：https://news.ycombinator.com/item?id=45715260
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.oreilly.com/radar/the-cognitive-shortcut-paradox/</guid>
-      <pubDate>Sun, 26 Oct 2025 18:18:06 GMT</pubDate>
+      <guid>https://www.nature.com/articles/s41467-025-64093-8</guid>
+      <pubDate>Sun, 26 Oct 2025 21:12:49 GMT</pubDate>
     </item>
     <item>
-      <title>关岛如何走向数字化并忘记外出</title>
-      <link>https://www.postguam.com/forum/featured_columnists/how-guam-went-digital-and-forgot-to-go-outside/article_4ac27370-4868-4c17-9fe8-a44bc3e116b6.html</link>
-      <description><![CDATA[文章网址： https://www.postguam.com/forum/featured_columnists/how-guam-went-digital-and-forgot-to-go-outside/article_4ac27370-4868-4c17-9fe8-a44bc3e116b6.html
-评论网址：https://news.ycombinator.com/item?id=45714022
+      <title>问 HN：手写 OCR 选项？</title>
+      <link>https://news.ycombinator.com/item?id=45715258</link>
+      <description><![CDATA[我正在寻找无需在线服务即可将手写文档转换为文本的选项。我特别记得这里有人提供了一个博客的链接，或者一些关于在某些社会档案馆（也许在旧金山地区）的历史文档中执行此操作的链接。我认为它使用了本地机器学习 OCR 库，该库已经存在了一段时间，并且在转换历史文档方面很受欢迎。你知道那个图书馆可能是什么吗？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45715258
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.postguam.com/forum/featured_columnists/how-guam-went-digital-and-forgot-to-go-outside/article_4ac27370-4868-4c17-9fe8-a44bc3e116b6.html</guid>
-      <pubDate>Sun, 26 Oct 2025 18:18:04 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45715258</guid>
+      <pubDate>Sun, 26 Oct 2025 21:12:40 GMT</pubDate>
     </item>
     <item>
-      <title>网络应用防火墙</title>
-      <link>https://github.com/1rhino2/RhinoWAF</link>
-      <description><![CDATA[文章网址：https://github.com/1rhino2/RhinoWAF
-评论网址：https://news.ycombinator.com/item?id=45714016
+      <title>Unix Shell 基础知识</title>
+      <link>https://elixirestonia.github.io/2025-04-25-shell-novice/</link>
+      <description><![CDATA[文章网址：https://elixirestonia.github.io/2025-04-25-shell-novice/
+评论网址：https://news.ycombinator.com/item?id=45715257
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/1rhino2/RhinoWAF</guid>
-      <pubDate>Sun, 26 Oct 2025 18:17:04 GMT</pubDate>
+      <guid>https://elixirestonia.github.io/2025-04-25-shell-novice/</guid>
+      <pubDate>Sun, 26 Oct 2025 21:12:38 GMT</pubDate>
     </item>
     <item>
-      <title>使用 RPNI 算法学习常规语言</title>
-      <link>https://rahul.gopinath.org/post/2025/10/24/rpni-learning-regular-languages/</link>
-      <description><![CDATA[文章网址：https://rahul.gopinath.org/post/2025/10/24/rpni-learning-regular-languages/
-评论网址：https://news.ycombinator.com/item?id=45714012
+      <title>万圣节糖果的巧克力味越来越淡</title>
+      <link>https://www.marketplace.org/story/2025/10/24/halloween-candys-getting-lighter-on-the-chocolate</link>
+      <description><![CDATA[文章网址：https://www.marketplace.org/story/2025/10/24/halloween-candys-getting-lighter-on-the-chocolate
+评论网址：https://news.ycombinator.com/item?id=45715254
 积分：1
 # 条评论：0]]></description>
-      <guid>https://rahul.gopinath.org/post/2025/10/24/rpni-learning-regular-languages/</guid>
-      <pubDate>Sun, 26 Oct 2025 18:16:20 GMT</pubDate>
+      <guid>https://www.marketplace.org/story/2025/10/24/halloween-candys-getting-lighter-on-the-chocolate</guid>
+      <pubDate>Sun, 26 Oct 2025 21:12:25 GMT</pubDate>
     </item>
     <item>
-      <title>黄铜基材和弹药外壳上潜在指印的可视化</title>
-      <link>https://www.sciencedirect.com/science/article/pii/S2468170925000256</link>
-      <description><![CDATA[文章网址：https://www.sciencedirect.com/science/article/pii/S2468170925000256
-评论网址：https://news.ycombinator.com/item?id=45714007
+      <title>显示 HN：通过 Hack Club）：MyraOS – 我的 C 和 ASM 32 位操作系统</title>
+      <link>https://github.com/dvir-biton/MyraOS</link>
+      <description><![CDATA[嗨，HN，我是 Dvir，一位年轻的开发人员。去年，我在面试后被拒绝了，因为我缺乏一些CPU知识。之后，我决定加深对低层世界的理解，了解事物背后的工作原理。我决定尝试用 C 和 ASM 创建一个操作系统，以此来拓宽我在该领域的知识。这让我踏上了最有趣的旅程，我在一个全新的水平上了解了操作系统理论和低级编程。  我花了几个小时、血和泪，阅读不同的操作系统理论博客、学习底层概念、调试、测试和处理这个项目。我首先阅读大学书籍和在线博客，同时还观看视频。  
+对我有帮助的一些来源是 OSDev Wiki (https://wiki.osdev.org/Expanded_Main_Page)、OSTEP (https://pages.cs.wisc.edu/~remzi/OSTEP)，开源库如MellOS和LemonOS（更高级），DoomGeneric，以及一些以前构建过操作系统的朋友。这部分是最长的， 但也是最简单的。我觉得我理解了这个理论，但仍然无法将其连接到实际的代码中。坐下来开始编码很困难，但我知道这是我需要采取的下一步！我首先研究引导加载程序，这是可选的，因为您可以使用预制的引导加载程序（后来我也切换到 GRUB），但实现它主要是为了学习目的和热身 ASM。接下来是我的步骤： 1) 我开始实现 VGA 驱动程序，它使我能够显示文本。
+  2) 中断 - IDT、ISR、IRQ，向 CPU 发出某个事件发生的信号，
+  需要处理（例如故障、硬件连接设备操作等）。
+  3) 键盘驱动程序，它使我能够显示与我在键盘上键入的相同的文本。
+  4）PMM（物理内存管理）
+  5）分页和虚拟内存管理
+  6) RTC 驱动程序 - 时钟添加（在我看来，这是可选的）
+  7) PIT 驱动程序 - 每隔一定时间滴答一次，并且
+  8) FS（文件系统）和物理 HDD 驱动程序 - 对于 HDD 我选择了 PATA（HDD）
+  通信协议）为了简单起见（SATA 也是一个更新但更难的选项）。
+  对于 FS，我选择了 EXT2（第二扩展文件系统），这是一个基础文件系统
+  linux 1993年引入的FS结构。这个FS结构不是最简单的，但是很
+  在 hobby-OS 中流行，非常受支持，易于设置和升级到较新的 EXT
+  版本，与其他选项相比，它在网上有很多材料。
+  这可能是我参与过的最长、最大的功能。
+  9) 系统调用支持。
+  10）Libc 实现。
+  11) 多处理的处理和调度。
+  12）这里我也做了一个shell来测试一下。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45715241
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.sciencedirect.com/science/article/pii/S2468170925000256</guid>
-      <pubDate>Sun, 26 Oct 2025 18:15:51 GMT</pubDate>
+      <guid>https://github.com/dvir-biton/MyraOS</guid>
+      <pubDate>Sun, 26 Oct 2025 21:10:19 GMT</pubDate>
     </item>
     <item>
-      <title>纽约市对全市电动自行车实行 15 英里/小时的限速</title>
-      <link>https://www.cbsnews.com/newyork/news/nyc-ebike-speed-limit-starts/</link>
-      <description><![CDATA[文章网址：https://www.cbsnews.com/newyork/news/nyc-ebike-speed-limit-starts/
-评论网址：https://news.ycombinator.com/item?id=45713996
+      <title>编程语言作为语言 (2014)</title>
+      <link>https://programmingzen.com/programming-languages-as-languages/</link>
+      <description><![CDATA[文章网址：https://programmingzen.com/programming-languages-as-languages/
+评论网址：https://news.ycombinator.com/item?id=45715206
+积分：2
+# 条评论：0]]></description>
+      <guid>https://programmingzen.com/programming-languages-as-languages/</guid>
+      <pubDate>Sun, 26 Oct 2025 21:05:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过推出我们自己的“S3”，我们每年节省了 50 万美元</title>
+      <link>https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143</link>
+      <description><![CDATA[文章网址：https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143
+评论网址：https://news.ycombinator.com/item?id=45715204
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.cbsnews.com/newyork/news/nyc-ebike-speed-limit-starts/</guid>
-      <pubDate>Sun, 26 Oct 2025 18:14:58 GMT</pubDate>
+      <guid>https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143</guid>
+      <pubDate>Sun, 26 Oct 2025 21:05:09 GMT</pubDate>
     </item>
     <item>
-      <title>iPad Pro 的下一步是什么？像 iPhone 17 Pro 一样的均热板、地图中的广告</title>
-      <link>https://www.bloomberg.com/news/newsletters/2025-10-26/what-s-next-for-the-ipad-pro-iphone-17-pro-like-vapor-chamber-apple-maps-ads-mh7nq39h</link>
-      <description><![CDATA[文章网址： https://www.bloomberg.com/news/newsletters/2025-10-26/what-s-next-for-the-ipad-pro-iphone-17-pro-like-vapor-chamber-apple-maps-ads-mh7nq39h
-评论网址：https://news.ycombinator.com/item?id=45713981
-积分：5
+      <title>Git 提交哈希值激发欢乐</title>
+      <link>https://tylercipriani.com/blog/2024/09/29/subliminal-git-commits/</link>
+      <description><![CDATA[文章网址：https://tylercipriani.com/blog/2024/09/29/subliminal-git-commits/
+评论网址：https://news.ycombinator.com/item?id=45715199
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bloomberg.com/news/newsletters/2025-10-26/what-s-next-for-the-ipad-pro-iphone-17-pro-like-vapor-chamber-apple-maps-ads-mh7nq39h</guid>
-      <pubDate>Sun, 26 Oct 2025 18:13:19 GMT</pubDate>
+      <guid>https://tylercipriani.com/blog/2024/09/29/subliminal-git-commits/</guid>
+      <pubDate>Sun, 26 Oct 2025 21:04:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Netflix 的核战争电影如何与现实世界相符</title>
+      <link>https://www.nytimes.com/2025/10/23/opinion/house-of-dynamite-bigelow-nuclear.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2025/10/23/opinion/house-of-dynamite-bigelow-nuclear.html
+评论网址：https://news.ycombinator.com/item?id=45715183
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nytimes.com/2025/10/23/opinion/house-of-dynamite-bigelow-nuclear.html</guid>
+      <pubDate>Sun, 26 Oct 2025 21:01:30 GMT</pubDate>
     </item>
     </channel>
 </rss>

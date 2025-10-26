@@ -4,96 +4,74 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 26 Oct 2025 18:27:05 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Oct 2025 21:17:53 GMT</lastBuildDate>
+    <item>
+      <title>智能手机操纵我们的情绪并触发我们的反应</title>
+      <link>https://theconversation.com/smartphones-manipulate-our-emotions-and-trigger-our-reflexes-no-wonder-were-addicted-265014</link>
+      <description><![CDATA[文章网址： https://theconversation.com/smartphones-manipulate-our-emotions-and-trigger-our-reflexes-no-wonder-were-addicted-265014
+评论网址：https://news.ycombinator.com/item?id=45714348
+积分：32
+# 条评论：10]]></description>
+      <guid>https://theconversation.com/smartphones-manipulate-our-emotions-and-trigger-our-reflexes-no-wonder-were-addicted-265014</guid>
+      <pubDate>Sun, 26 Oct 2025 19:00:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>AGI 的定义</title>
+      <link>https://arxiv.org/abs/2510.18212</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2510.18212
+评论网址：https://news.ycombinator.com/item?id=45713959
+积分：88
+# 条评论：131]]></description>
+      <guid>https://arxiv.org/abs/2510.18212</guid>
+      <pubDate>Sun, 26 Oct 2025 18:09:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nvidia DGX Spark：当基准数据满足生产现实时</title>
+      <link>https://publish.obsidian.md/aixplore/Practical+Applications/dgx-lab-benchmarks-vs-reality-day-4</link>
+      <description><![CDATA[文章网址：https://publish.obsidian.md/aixplore/Practical+Applications/dgx-lab-benchmarks-vs-reality-day-4
+评论网址：https://news.ycombinator.com/item?id=45713835
+积分：74
+# 条评论：35]]></description>
+      <guid>https://publish.obsidian.md/aixplore/Practical+Applications/dgx-lab-benchmarks-vs-reality-day-4</guid>
+      <pubDate>Sun, 26 Oct 2025 17:53:22 GMT</pubDate>
+    </item>
     <item>
       <title>阿尔茨海默病扰乱了清除斑块的脑细胞的昼夜节律</title>
       <link>https://medicine.washu.edu/news/alzheimers-disrupts-circadian-rhythms-of-plaque-clearing-brain-cells/</link>
       <description><![CDATA[文章网址： https://medicine.washu.edu/news/alzheimers-disrupts-circadian-rhythms-of-plaque-clearing-brain-cells/
 评论网址：https://news.ycombinator.com/item?id=45713738
-积分：15
-# 条评论：0]]></description>
+积分：91
+# 条评论：12]]></description>
       <guid>https://medicine.washu.edu/news/alzheimers-disrupts-circadian-rhythms-of-plaque-clearing-brain-cells/</guid>
       <pubDate>Sun, 26 Oct 2025 17:40:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN: FlashRecord – 2MB Python 原生 CLI 屏幕录像机</title>
-      <link>https://github.com/Flamehaven/FlashRecord</link>
-      <description><![CDATA[嗨，HN - 我构建了 FlashRecord，这是一个用于屏幕截图和 GIF 录制的小型（约 2MB）Python 原生 CLI 工具，旨在帮助那些希望在没有 GUI 的情况下进行自动化友好、可编写脚本的屏幕捕获的开发人员。### 它是什么- CLI 优先且可导入（导入 flashrecord），因此您可以将其插入脚本、测试、CI 管道或文档生成中。
-- 使用受 CWAM 启发的压缩管道（多尺度显着性、时间子采样、自适应缩放）的纯 Pillow/NumPy 实现输出 GIF（和屏幕截图）。
-- 跨平台 (Windows/macOS/Linux)、零配置默认值以及可用于生产的测试/文档。---### 为什么它可能会很有趣- 小型安装，无需管理重量级 GUI/工具。
-- 专为自动化而设计：在 CI 中生成证据 GIF，将演示 GIF 附加到 PR，或从脚本创建教程资产。
-- 压缩侧重于保留视觉上重要的区域，同时在典型的 UI 演示中大幅减小文件大小。---存储库和许可证：https://github.com/Flamehaven/FlashRecord
-— 麻省理工学院许可。---我很乐意回答技术问题、性能数据、跨平台怪癖，或了解压缩管道。欢迎反馈、问题和 PR。
-它是什么CLI 优先且可导入（导入 flashrecord），因此您可以将其插入脚本、测试、CI 管道或文档生成中。使用受 CWAM 启发的压缩管道（多尺度显着性、时间子采样、自适应缩放）的纯 Pillow/NumPy 实现输出 GIF（和屏幕截图）。跨平台 (Windows/macOS/Linux)，零配置默认值，并且可通过测试/文档进行生产准备。为什么它可能会很有趣安装很小，无需管理重量级 GUI/工具。专为自动化而设计：在 CI 中生成证据 GIF，将演示 GIF 附加到 PR，或从脚本创建教程资源。压缩侧重于保留视觉上重要的区域，同时减少压缩 在典型的 UI 演示中，文件大小显着增加。快速尝试（从源代码）git clone https://github.com/Flamehaven/FlashRecord
-光盘闪录
-pip install -e 。
-flashrecord @sc # 即时截图
-flashrecord @sv 5 10 # 5s GIF at 10 FPS（默认交互式）存储库和许可证：https://github.com/Flamehaven/FlashRecord
- — 麻省理工学院许可。我很乐意回答技术问题、性能数据、跨平台怪癖，或了解压缩管道。欢迎提供反馈、问题和 PR。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45713507
-积分：7
-# 条评论：0]]></description>
-      <guid>https://github.com/Flamehaven/FlashRecord</guid>
-      <pubDate>Sun, 26 Oct 2025 17:12:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>人写的书——在人工智能世界中捍卫有机文学</title>
-      <link>https://booksbypeople.org/</link>
-      <description><![CDATA[文章网址：https://booksbypeople.org/
-评论网址：https://news.ycombinator.com/item?id=45713367
-积分：22
-# 条评论：11]]></description>
-      <guid>https://booksbypeople.org/</guid>
-      <pubDate>Sun, 26 Oct 2025 16:57:44 GMT</pubDate>
     </item>
     <item>
       <title>制作电子显微镜</title>
       <link>https://www.asimov.press/p/electron-microscope</link>
       <description><![CDATA[文章网址：https://www.asimov.press/p/electron-microscope
 评论网址：https://news.ycombinator.com/item?id=45713253
-积分：6
-# 条评论：0]]></description>
+积分：31
+# 条评论：2]]></description>
       <guid>https://www.asimov.press/p/electron-microscope</guid>
       <pubDate>Sun, 26 Oct 2025 16:46:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>非洲的电影海报虽然很糟糕，但也很好</title>
-      <link>https://www.utterlyinteresting.com/post/bizarre-movie-posters-from-africa-that-are-so-bad-they-re-good</link>
-      <description><![CDATA[文章网址： https://www.utterlyinteresting.com/post/bizarre-movie-posters-from-africa-that-are-so-bad-they-re-good
-评论网址：https://news.ycombinator.com/item?id=45712807
-积分：192
-# 条评论：63]]></description>
-      <guid>https://www.utterlyinteresting.com/post/bizarre-movie-posters-from-africa-that-are-so-bad-they-re-good</guid>
-      <pubDate>Sun, 26 Oct 2025 15:47:29 GMT</pubDate>
     </item>
     <item>
       <title>缅甸军方关闭了一个主要网络犯罪中心，拘留了超过 2000 人</title>
       <link>https://apnews.com/article/scam-centers-cybercrime-myanmar-a2c9fda85187121e51bd0efdf29c81da</link>
       <description><![CDATA[文章网址： https://apnews.com/article/scam-centers-cybercrime-myanmar-a2c9fda85187121e51bd0efdf29c81da
 评论网址：https://news.ycombinator.com/item?id=45712517
-积分：61
-评论数量：9]]></description>
+积分：111
+# 条评论：33]]></description>
       <guid>https://apnews.com/article/scam-centers-cybercrime-myanmar-a2c9fda85187121e51bd0efdf29c81da</guid>
       <pubDate>Sun, 26 Oct 2025 15:11:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>FSF 考虑大型语言模型</title>
-      <link>https://lwn.net/Articles/1040888/</link>
-      <description><![CDATA[文章网址：https://lwn.net/Articles/1040888/
-评论网址：https://news.ycombinator.com/item?id=45711786
-积分：78
-# 条评论：36]]></description>
-      <guid>https://lwn.net/Articles/1040888/</guid>
-      <pubDate>Sun, 26 Oct 2025 13:38:30 GMT</pubDate>
     </item>
     <item>
       <title>让我们帮助 NetBSD 在 2025 年结束之前冲过终点线</title>
       <link>https://mail-index.netbsd.org/netbsd-users/2025/10/26/msg033327.html</link>
       <description><![CDATA[文章网址：https://mail-index.netbsd.org/netbsd-users/2025/10/26/msg033327.html
 评论网址：https://news.ycombinator.com/item?id=45711279
-积分：297
-# 条评论：151]]></description>
+积分：362
+# 条评论：195]]></description>
       <guid>https://mail-index.netbsd.org/netbsd-users/2025/10/26/msg033327.html</guid>
       <pubDate>Sun, 26 Oct 2025 12:34:36 GMT</pubDate>
     </item>
@@ -102,8 +80,8 @@ flashrecord @sv 5 10 # 5s GIF at 10 FPS（默认交互式）存储库和许可�
       <link>https://cs.ru.nl/~freek/courses/fr-2025/public/fr.pdf</link>
       <description><![CDATA[文章网址：https://cs.ru.nl/~freek/courses/fr-2025/public/fr.pdf
 评论网址：https://news.ycombinator.com/item?id=45711062
-积分：76
-# 条评论：16]]></description>
+积分：103
+# 条评论：22]]></description>
       <guid>https://cs.ru.nl/~freek/courses/fr-2025/public/fr.pdf</guid>
       <pubDate>Sun, 26 Oct 2025 12:03:59 GMT</pubDate>
     </item>
@@ -112,10 +90,20 @@ flashrecord @sv 5 10 # 5s GIF at 10 FPS（默认交互式）存储库和许可�
       <link>https://maurycyz.com/misc/easy_git/</link>
       <description><![CDATA[文章网址：https://maurycyz.com/misc/easy_git/
 评论网址：https://news.ycombinator.com/item?id=45710721
-积分：278
-# 条评论：217]]></description>
+积分：324
+# 条评论：263]]></description>
       <guid>https://maurycyz.com/misc/easy_git/</guid>
       <pubDate>Sun, 26 Oct 2025 10:53:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过网络连接到 1980 年代 Atari BBS</title>
+      <link>https://www.southernamis.com/ataribbsconnect</link>
+      <description><![CDATA[文章网址：https://www.southernamis.com/ataribbsconnect
+评论网址：https://news.ycombinator.com/item?id=45710366
+积分：58
+# 条评论：3]]></description>
+      <guid>https://www.southernamis.com/ataribbsconnect</guid>
+      <pubDate>Sun, 26 Oct 2025 09:31:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
