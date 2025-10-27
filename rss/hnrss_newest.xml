@@ -4,138 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 26 Oct 2025 21:18:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 01:41:47 GMT</lastBuildDate>
     <item>
-      <title>显示 HN：Zimic：TypeScript 优先的 HTTP 集成</title>
-      <link>https://zimic.dev/</link>
-      <description><![CDATA[Zimic 是一组 TypeScript 优先的 HTTP 集成库，在设计时考虑了开发者体验和类型安全。https://zimic.dev---背景：自从我第一次开始使用 TypeScript 以来，我就觉得嘲笑 HTTP 响应 使用 MSW 和 Nock 等工具很难扩展。使用这些库几年了，主要是为了测试，我经常不得不在它们之上编写、审查和复制大量自定义抽象，试图确保： • 模拟合规性：每个模拟都应该真实、准确地反映它所代表的真实服务；参数不正确、响应不兼容或与实际 API 不同步的模拟会直接降低测试信心；
-
-  • 测试完整性：如果应用程序预计会发出带有某些参数的大量请求，则应从测试中清楚这些期望是什么，如果未满足，它们将失败；
-
-多年来，我逐渐相信我们使用的工具有独特的机会来塑造我们的心理模型并鼓励良好的实践。所以我开始探索一个问题：库如何帮助开发人员创建更好的 API 模拟？我在研究过程中获得的见解导致了 @zimic/interceptor 的早期草案和 IEEE 上发表的论文 (https://ieeexplore.ieee.org/document/11126628）。从那时起，我开始扩展 Zimic 的核心原则，以涵盖开发过程的更多方面，而不仅仅是 API 模拟： • @zimic/http：声明 HTTP 架构、从 OpenAPI 推断类型以及输入本机 Web API。
-
-  • @zimic/fetch：创建类型安全的Fetch API 客户端，并默认将您的请求和响应完全键入。
-
-  • @zimic/interceptor：在开发和测试中模拟HTTP服务，并模拟类型安全的响应。
-
-今年早些时候，Zimic 达到了 1.0，我很想听听您的想法！https://zimic.dev
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45715262
+      <title>想法全错了</title>
+      <link>https://poc-ai.web.app/</link>
+      <description><![CDATA[文章网址：https://poc-ai.web.app/
+评论网址：https://news.ycombinator.com/item?id=45716498
 积分：1
 # 条评论：0]]></description>
-      <guid>https://zimic.dev/</guid>
-      <pubDate>Sun, 26 Oct 2025 21:12:53 GMT</pubDate>
+      <guid>https://poc-ai.web.app/</guid>
+      <pubDate>Mon, 27 Oct 2025 01:31:03 GMT</pubDate>
     </item>
     <item>
-      <title>区域协调可以减轻低碳电力的成本负担</title>
-      <link>https://www.nature.com/articles/s41467-025-64093-8</link>
-      <description><![CDATA[文章网址：https://www.nature.com/articles/s41467-025-64093-8
-评论网址：https://news.ycombinator.com/item?id=45715260
+      <title>Soho 的 REI 即将关闭——纽约人正在失去他们最喜欢的浴室</title>
+      <link>https://www.wsj.com/lifestyle/new-yorkers-are-losing-their-favorite-bathroom-rei-bed74dd1</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/lifestyle/new-yorkers-are-losing-their-favorite-bathroom-rei-bed74dd1
+评论网址：https://news.ycombinator.com/item?id=45716496
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.nature.com/articles/s41467-025-64093-8</guid>
-      <pubDate>Sun, 26 Oct 2025 21:12:49 GMT</pubDate>
+      <guid>https://www.wsj.com/lifestyle/new-yorkers-are-losing-their-favorite-bathroom-rei-bed74dd1</guid>
+      <pubDate>Mon, 27 Oct 2025 01:30:46 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：手写 OCR 选项？</title>
-      <link>https://news.ycombinator.com/item?id=45715258</link>
-      <description><![CDATA[我正在寻找无需在线服务即可将手写文档转换为文本的选项。我特别记得这里有人提供了一个博客的链接，或者一些关于在某些社会档案馆（也许在旧金山地区）的历史文档中执行此操作的链接。我认为它使用了本地机器学习 OCR 库，该库已经存在了一段时间，并且在转换历史文档方面很受欢迎。你知道那个图书馆可能是什么吗？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45715258
+      <title>Anidap.se – 100% 无广告的动漫流媒体网站</title>
+      <link>https://anidap.se/home</link>
+      <description><![CDATA[文章网址：https://anidap.se/home
+评论网址：https://news.ycombinator.com/item?id=45716493
+积分：1
+# 条评论：1]]></description>
+      <guid>https://anidap.se/home</guid>
+      <pubDate>Mon, 27 Oct 2025 01:30:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>适用于 Apple Vision Pro 的罗技 Muse</title>
+      <link>https://www.youtube.com/watch?v=chzOjj0LsD0</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=chzOjj0LsD0
+评论网址：https://news.ycombinator.com/item?id=45716486
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45715258</guid>
-      <pubDate>Sun, 26 Oct 2025 21:12:40 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=chzOjj0LsD0</guid>
+      <pubDate>Mon, 27 Oct 2025 01:28:50 GMT</pubDate>
     </item>
     <item>
-      <title>Unix Shell 基础知识</title>
-      <link>https://elixirestonia.github.io/2025-04-25-shell-novice/</link>
-      <description><![CDATA[文章网址：https://elixirestonia.github.io/2025-04-25-shell-novice/
-评论网址：https://news.ycombinator.com/item?id=45715257
+      <title>书架上的未读书籍告诉我们什么是关于我们自己的</title>
+      <link>https://bigthink.com/neuropsych/do-i-own-too-many-books/</link>
+      <description><![CDATA[文章网址：https://bigthink.com/neuropsych/do-i-own-too-many-books/
+评论网址：https://news.ycombinator.com/item?id=45716468
 积分：1
 # 条评论：0]]></description>
-      <guid>https://elixirestonia.github.io/2025-04-25-shell-novice/</guid>
-      <pubDate>Sun, 26 Oct 2025 21:12:38 GMT</pubDate>
+      <guid>https://bigthink.com/neuropsych/do-i-own-too-many-books/</guid>
+      <pubDate>Mon, 27 Oct 2025 01:23:54 GMT</pubDate>
     </item>
     <item>
-      <title>万圣节糖果的巧克力味越来越淡</title>
-      <link>https://www.marketplace.org/story/2025/10/24/halloween-candys-getting-lighter-on-the-chocolate</link>
-      <description><![CDATA[文章网址：https://www.marketplace.org/story/2025/10/24/halloween-candys-getting-lighter-on-the-chocolate
-评论网址：https://news.ycombinator.com/item?id=45715254
+      <title>不仅仅是你 - iOS 键盘坏了 [视频]</title>
+      <link>https://www.youtube.com/watch?v=hksVvXONrIo</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=hksVvXONrIo
+评论网址：https://news.ycombinator.com/item?id=45716461
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.youtube.com/watch?v=hksVvXONrIo</guid>
+      <pubDate>Mon, 27 Oct 2025 01:22:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Crank.js，一个使用状态生成器的 JavaScript 框架</title>
+      <link>https://crank.js.org/</link>
+      <description><![CDATA[文章网址：https://crank.js.org/
+评论网址：https://news.ycombinator.com/item?id=45716460
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.marketplace.org/story/2025/10/24/halloween-candys-getting-lighter-on-the-chocolate</guid>
-      <pubDate>Sun, 26 Oct 2025 21:12:25 GMT</pubDate>
+      <guid>https://crank.js.org/</guid>
+      <pubDate>Mon, 27 Oct 2025 01:22:05 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：通过 Hack Club）：MyraOS – 我的 C 和 ASM 32 位操作系统</title>
-      <link>https://github.com/dvir-biton/MyraOS</link>
-      <description><![CDATA[嗨，HN，我是 Dvir，一位年轻的开发人员。去年，我在面试后被拒绝了，因为我缺乏一些CPU知识。之后，我决定加深对低层世界的理解，了解事物背后的工作原理。我决定尝试用 C 和 ASM 创建一个操作系统，以此来拓宽我在该领域的知识。这让我踏上了最有趣的旅程，我在一个全新的水平上了解了操作系统理论和低级编程。  我花了几个小时、血和泪，阅读不同的操作系统理论博客、学习底层概念、调试、测试和处理这个项目。我首先阅读大学书籍和在线博客，同时还观看视频。  
-对我有帮助的一些来源是 OSDev Wiki (https://wiki.osdev.org/Expanded_Main_Page)、OSTEP (https://pages.cs.wisc.edu/~remzi/OSTEP)，开源库如MellOS和LemonOS（更高级），DoomGeneric，以及一些以前构建过操作系统的朋友。这部分是最长的， 但也是最简单的。我觉得我理解了这个理论，但仍然无法将其连接到实际的代码中。坐下来开始编码很困难，但我知道这是我需要采取的下一步！我首先研究引导加载程序，这是可选的，因为您可以使用预制的引导加载程序（后来我也切换到 GRUB），但实现它主要是为了学习目的和热身 ASM。接下来是我的步骤： 1) 我开始实现 VGA 驱动程序，它使我能够显示文本。
-  2) 中断 - IDT、ISR、IRQ，向 CPU 发出某个事件发生的信号，
-  需要处理（例如故障、硬件连接设备操作等）。
-  3) 键盘驱动程序，它使我能够显示与我在键盘上键入的相同的文本。
-  4）PMM（物理内存管理）
-  5）分页和虚拟内存管理
-  6) RTC 驱动程序 - 时钟添加（在我看来，这是可选的）
-  7) PIT 驱动程序 - 每隔一定时间滴答一次，并且
-  8) FS（文件系统）和物理 HDD 驱动程序 - 对于 HDD 我选择了 PATA（HDD）
-  通信协议）为了简单起见（SATA 也是一个更新但更难的选项）。
-  对于 FS，我选择了 EXT2（第二扩展文件系统），这是一个基础文件系统
-  linux 1993年引入的FS结构。这个FS结构不是最简单的，但是很
-  在 hobby-OS 中流行，非常受支持，易于设置和升级到较新的 EXT
-  版本，与其他选项相比，它在网上有很多材料。
-  这可能是我参与过的最长、最大的功能。
-  9) 系统调用支持。
-  10）Libc 实现。
-  11) 多处理的处理和调度。
-  12）这里我也做了一个shell来测试一下。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45715241
-积分：1
+      <title>意志力是不存在的。为什么你的健康很大程度上不是你的错</title>
+      <link>https://www.bbc.com/news/articles/c98nd0d61d0o</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c98nd0d61d0o
+评论网址：https://news.ycombinator.com/item?id=45716453
+积分：3
 # 条评论：0]]></description>
-      <guid>https://github.com/dvir-biton/MyraOS</guid>
-      <pubDate>Sun, 26 Oct 2025 21:10:19 GMT</pubDate>
+      <guid>https://www.bbc.com/news/articles/c98nd0d61d0o</guid>
+      <pubDate>Mon, 27 Oct 2025 01:20:22 GMT</pubDate>
     </item>
     <item>
-      <title>编程语言作为语言 (2014)</title>
-      <link>https://programmingzen.com/programming-languages-as-languages/</link>
-      <description><![CDATA[文章网址：https://programmingzen.com/programming-languages-as-languages/
-评论网址：https://news.ycombinator.com/item?id=45715206
+      <title>尽管美国全国人口数量下降，但美国一些地区的服药过量死亡人数仍在上升</title>
+      <link>https://www.theguardian.com/us-news/ng-interactive/2025/oct/17/overdose-deaths-data-analysis</link>
+      <description><![CDATA[文章网址： https://www.theguardian.com/us-news/ng-interactive/2025/oct/17/overdose-deaths-data-analysis
+评论网址：https://news.ycombinator.com/item?id=45716450
 积分：2
 # 条评论：0]]></description>
-      <guid>https://programmingzen.com/programming-languages-as-languages/</guid>
-      <pubDate>Sun, 26 Oct 2025 21:05:23 GMT</pubDate>
+      <guid>https://www.theguardian.com/us-news/ng-interactive/2025/oct/17/overdose-deaths-data-analysis</guid>
+      <pubDate>Mon, 27 Oct 2025 01:19:52 GMT</pubDate>
     </item>
     <item>
-      <title>通过推出我们自己的“S3”，我们每年节省了 50 万美元</title>
-      <link>https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143</link>
-      <description><![CDATA[文章网址：https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143
-评论网址：https://news.ycombinator.com/item?id=45715204
-积分：1
+      <title>尽管没有经过证实的健康益处，但铬被认为是一种必需营养素</title>
+      <link>https://theconversation.com/why-chromium-is-considered-an-essential-nutrient-despite-having-no-proven-health-benefits-252867</link>
+      <description><![CDATA[文章网址： https://theconversation.com/why-chromium-is-considered-an-essential- Nutrition-despite-having-no-proven-health-benefits-252867
+评论网址：https://news.ycombinator.com/item?id=45716438
+积分：2
 # 条评论：0]]></description>
-      <guid>https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143</guid>
-      <pubDate>Sun, 26 Oct 2025 21:05:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Git 提交哈希值激发欢乐</title>
-      <link>https://tylercipriani.com/blog/2024/09/29/subliminal-git-commits/</link>
-      <description><![CDATA[文章网址：https://tylercipriani.com/blog/2024/09/29/subliminal-git-commits/
-评论网址：https://news.ycombinator.com/item?id=45715199
-积分：1
-# 条评论：0]]></description>
-      <guid>https://tylercipriani.com/blog/2024/09/29/subliminal-git-commits/</guid>
-      <pubDate>Sun, 26 Oct 2025 21:04:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Netflix 的核战争电影如何与现实世界相符</title>
-      <link>https://www.nytimes.com/2025/10/23/opinion/house-of-dynamite-bigelow-nuclear.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2025/10/23/opinion/house-of-dynamite-bigelow-nuclear.html
-评论网址：https://news.ycombinator.com/item?id=45715183
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.nytimes.com/2025/10/23/opinion/house-of-dynamite-bigelow-nuclear.html</guid>
-      <pubDate>Sun, 26 Oct 2025 21:01:30 GMT</pubDate>
+      <guid>https://theconversation.com/why-chromium-is-considered-an-essential-nutrient-despite-having-no-proven-health-benefits-252867</guid>
+      <pubDate>Mon, 27 Oct 2025 01:16:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
