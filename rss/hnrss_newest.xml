@@ -4,154 +4,111 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 28 Oct 2025 15:23:21 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 18:30:21 GMT</lastBuildDate>
     <item>
-      <title>代理实验室正在蚕食软件世界</title>
-      <link>https://www.nibzard.com/agent-labs</link>
-      <description><![CDATA[文章网址：https://www.nibzard.com/agent-labs
-评论网址：https://news.ycombinator.com/item?id=45733965
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.nibzard.com/agent-labs</guid>
-      <pubDate>Tue, 28 Oct 2025 15:16:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>所以你讨厌人工智能吧？</title>
-      <link>https://news.ycombinator.com/item?id=45733960</link>
-      <description><![CDATA[你称之为判断力的武器化编程，应该是正常和值得珍惜的，可能会取消人工智能作为编程辅助的资金和开发。你直接得出结论，像我这样使用它的人一直都是骗子，对自动完成或它提供的答案的钦佩意味着我不知道我在做什么，而且我没有能力将其变成稳定和富有成效的东西。当我在公开场合说人工智能非常有用时 并通俗地提到它自动完成我正在输入的内容是多么酷（我现在只选择性地使用可切换的东西）我得到了轻蔑的笑声，我将其解释为我被视为一个无编码员或者他们知道一些我不知道的人工智能的真正本质（后者会更有趣）。我的看法是，这是因为我花了很多年手动编程而没有那种我能够欣赏的帮助 直接谴责我所描述的技术及其采用者的文化节目聚集了支持者并摧毁了我认为有价值的东西。这种小小的 Reddit 拒绝投票文化可能是杀死互联网的原因，因为如果你没有注意到，除了 HN 非常活跃，特别是在 Show HN 部分，以及有趣的文章和媒体（最近变得非常有趣）之外，网络作为通信平台已经死亡。
+      <title>Show HN：Radar – Slack 的开源 GitHub 通知</title>
+      <link>https://github.com/zlwaterfield/radar</link>
+      <description><![CDATA[嘿，HN！我是 Zach，我构建了 Radar - 一个开源应用程序，它使 GitHub 通知实际上可以通过 Slack 进行管理。链接- https://radar.town/
+- https://github.com/zlwaterfield/radar我正在解决的问题如果您所在的团队拥有多个存储库和活跃贡献者，则 GitHub 通知将变得无法管理。关键的 PR 被埋没了，您错过了审核请求，还有三天前标有您名字的问题？被遗忘了。原生 GitHub Slack 应用程序和 Toast 等工具很不错，但我一直遇到限制，想要一些我可以自定义和扩展自己的东西。Radar 的用途Radar 通过基于角色的智能通知将您的 GitHub 存储库连接到 Slack。它知道您是 PR 作者、审阅者还是受让人，并相应地发送通知。我对一些功能感到兴奋：- 近乎实时的基于 Webhook 的交付
+- 使用人工智能进行关键字匹配，即使您没有直接被标记，也可以捕获重要的提及
+- 可配置的摘要通知（在适合您的时间获取 PR 活动的摘要）
+- 对 PR、问题、评论和评论的全面支持托管与自托管我正在运行托管版本，但整个代码库是开源的。成本加起来 — Webhook 存储、持续的后台作业处理以及实时保持所有内容都需要大量的计算。这就是为什么托管版本有付费套餐的原因。但如果您想自己运行它，绝对可以。 “开源模式”让您可以自行托管，具有完整的功能和零计费设置。您需要管理自己的基础设施（网络钩子、后台工作人员、数据库），但您可以获得完全的控制和自定义。为什么开源我从 Toast、GitHub Slack 应用程序和 Graphite 中获得了灵感，但想要一些更轻、更易于破解的东西。开源意味着社区可以贡献功能、修复错误并以我未曾想到的方式扩展它。另外，如果您想构建自定义路由逻辑或集成，您不会被锁定到供应商。诚实的部分这是一个早期测试版。会有错误。设置需要一些工作（Slack 应用程序、GitHub OAuth、用于作业的 Trigger.dev，以及用于本地 Webhook 的 ngrok（如果您正在开发）。但它确实有效——我每天都使用它，它确实让我的生活变得更轻松。安全性我知道这个应用程序需要大量访问权限，因此我尝试将访问权限限制为仅需要的内容。所有 GitHub 权限都是只读的。不读取或存储任何代码。所有通知均基于拉取请求和问题元数据、评论、描述等。如果您对此有疑问，我很乐意迭代和改进。我在寻找什么反馈！哪些通知模式让您抓狂？其他工具的哪些功能是必须具备的？您遇到任何边缘情况或错误吗？我正在积极致力于此，并希望构建真正有用的东西。该存储库具有托管和自托管的完整设置文档。尝试适合您需求的方式，并让我知道您的想法 - 特别是如果 GitHub 通知过载也是您遇到的问题。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45733960
+评论网址：https://news.ycombinator.com/item?id=45736819
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45733960</guid>
-      <pubDate>Tue, 28 Oct 2025 15:16:11 GMT</pubDate>
+      <guid>https://github.com/zlwaterfield/radar</guid>
+      <pubDate>Tue, 28 Oct 2025 18:28:58 GMT</pubDate>
     </item>
     <item>
-      <title>欧盟蓝卡手册</title>
-      <link>https://relocateme.substack.com/p/the-eu-blue-card-handbook</link>
-      <description><![CDATA[文章网址：https://relocateme.substack.com/p/the-eu-blue-card-handbook
-评论网址：https://news.ycombinator.com/item?id=45733943
+      <title>担任政府或国家元首的专业经济学家</title>
+      <link>https://brucebartlett.substack.com/p/professional-economists-who-were</link>
+      <description><![CDATA[文章网址：https://brucebartlett.substack.com/p/professional-economists-who-were
+评论网址：https://news.ycombinator.com/item?id=45736783
 积分：1
 # 条评论：0]]></description>
-      <guid>https://relocateme.substack.com/p/the-eu-blue-card-handbook</guid>
-      <pubDate>Tue, 28 Oct 2025 15:15:19 GMT</pubDate>
+      <guid>https://brucebartlett.substack.com/p/professional-economists-who-were</guid>
+      <pubDate>Tue, 28 Oct 2025 18:25:05 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我为 PostgreSQL 构建了一个开源 LLM 集成</title>
-      <link>https://github.com/JigsawStack/postgres-llm</link>
-      <description><![CDATA[我们通常会在将数据插入数据库的列/行之前使用 LLM 对其进行预处理，例如翻译文本并存储不同的语言或在文档上运行 OCR 并存储结构化输出或在存储之前使用分类来标记用户消息/文档。许多此类用例可能发生在数据库而不是专用管道上。有动力让 Postgres 通过扩展它来做更多事情。我们构建了 Postgres-LLM，它是一个触发器，可以有条件地在特定列上设置，并在运行 LLM 的插入/更新上执行明确定义的任务，并将输出存储在另一列上或更新初始列。该项目支持任何与 OpenAI Chat API 兼容的 LLM。我创建这个项目的动机是为了展示我们最近推出的法学硕士 Interfaze.ai，因为它经过培训可以处理 OCR、翻译、分类等开发人员任务。但是，您可以通过替换设置时的 URL 和 API 密钥来使用您选择的任何 LLM。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45733938
+      <title>模型城市 星期一 10/27/25</title>
+      <link>https://www.astralcodexten.com/p/model-city-monday-102725</link>
+      <description><![CDATA[文章网址：https://www.astralcodexten.com/p/model-city-monday-102725
+评论网址：https://news.ycombinator.com/item?id=45736770
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/JigsawStack/postgres-llm</guid>
-      <pubDate>Tue, 28 Oct 2025 15:14:56 GMT</pubDate>
+      <guid>https://www.astralcodexten.com/p/model-city-monday-102725</guid>
+      <pubDate>Tue, 28 Oct 2025 18:24:31 GMT</pubDate>
     </item>
     <item>
-      <title>我的用户说，如果我的应用程序消失了，他们会哭泣。他们都不付钱</title>
-      <link>https://news.ycombinator.com/item?id=45733935</link>
-      <description><![CDATA[我花了 3 年时间开发了一个习惯跟踪应用程序。有些用户说“如果它消失了，我会哭整个晚上”。其中之一是 177 级，每周完成 197 次。另一个达到了 420 级（42,000 XP 或完成了 10000 多个习惯）。他们都没有付费。大多数人不会回复电子邮件。这是数据和我所缺少的内容。数字收入：3 年内安装 35,238 次，20 位订阅者的 MRR 为 86 美元，终身收入为 4,091 美元，免费到付费转化率为 0.8%，每月消耗 905 美元（有日常工作补贴）。留存率：D1 4.2% （工业 40%+），D7 1.1%（工业 25%+)，D30 0.9%（行业 15%+），每月流失率 130%。悖论：9 位用户达到 100+ 级（10,000+ XP）。 6 仍然活跃，每天使用它。 1 位受访者（博士 + 产品经理）：如果应用程序消失，“我会哭”。付款状态：0 名付款，4 名过期促销，1 名无法付款（SWIFT 被阻止）。高级用户分析通过计算变异系数（CV = std dev / 每日完成次数的平均值）分析 3,000 多名用户的使用模式。成功原型（用户 A）：
-- CV 0.33（非常一致的日常模式）
-- 580 次完成/月
-- 465 天活跃
-- 定期的专业日程
-- 高认知负荷（博士+项目经理）
-- 待完成工作：“消除决策疲劳”失败原型（用户 B）：
-- CV 0.86（繁荣-萧条周期）
-- 仍在支付订阅费
-- 7个月前停止使用
-- 引用：“生活太不规律，闹钟在错误的时间响起”我尝试过的保留修复（没有从 4.2% 移动 D1）：
-- 重新构建入职流程 4 次（当前：v4，引导用户创建第一个仪式 + 习惯 + 完成一次）
-- 添加了人工智能辅导（GPT-5、个性化习惯建议、代理工具调用）
-- 添加了游戏化（任务、XP、等级、连胜）
-- 内置 WearOS 应用程序（手腕上的仪式）（更多的是为了我自己，因为这是半天的工作，但仍然如此）
-- 添加了分析仪表板
-- 每日通知
-- 在第一阶段的早期胜利（完全的入职习惯），连续构建的功能没有帮助：
-- AI 聊天（发现后转化率为 11.54%，但只有 2.4% 的用户找到它，尽管它确实位于底部导航栏中）
-- 日记
-- 带有屏幕覆盖的习惯计时器
-- 带有目标的连胜小部件，并专注于小胜利/未来进展面试尝试：
-- 向所有 9 位高级用户发送电子邮件进行 15-20 分钟的采访
-- 提供 6-12 个月免费 Pro
-- 多次尝试后得到 2 个回复
-- 用户C（177级，每日活跃）：无回复
-- 用户D（148级）：无反应
-- 用户E（236级，ADHD教练，同意致电）：幽灵
-- 其他 3 个：2 周后没有回复付费客户分析：
-- 查询数据库：只有 15% 的付费客户符合“高级用户原型”（CV &lt;0.5 或级别 100+）
-- 5 个已知高级用户中有 4 个不付费，其他用户付费但不使用该应用程序。
-- 模式：随机尝试转化，未建立用户
-- 30% 的订阅者有 0 次活动（忘记取消）取消原因（分析了所有流失的订阅者）：
-- 43% 的人“使用得不够”（取消前平均 63 天）
-- 30% 的成本问题（取消前平均 33 天）
-- 12% 找到了更好的应用（取消前平均 19 天）我认为我知道的内容1.产品适用于有规律的作息+高认知负荷的人
-2.当生活不规律时，定时闹钟就会响起
-3. 高级用户喜欢它，但不会付费或参与
-4.随机的人短暂付款然后流失
-5. 添加功能并不能解决留存问题（D1 通过 AI、任务、WearOS 等保持在 4.2%）
-6. 3 年后没有可盈利的模式问题不问该做什么。问：我对什么视而不见？我对 9 名不愿获利的人有极端的 PMF。这是：
-- 定价问题？ （测试 1-6 美元/月 PPP）
-- 定位问题？ （作为一般习惯追踪器销售，是否应该缩小利基市场？）
-- 功能问题？ （错误的功能被锁定在付费墙后面？）
-- 无法修复？ （该类别太难获利 - 需要数周时间才能获得结果，需要用户缺乏纪律）乐于分享查询、GA4 导出以及任何有帮助的内容。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45733935
-积分：2
+      <title>看什么</title>
+      <link>https://marginalrevolution.com/marginalrevolution/2025/10/what-to-watch-7.html</link>
+      <description><![CDATA[文章网址：https://marginalrevolution.com/marginalrevolution/2025/10/what-to-watch-7.html
+评论网址：https://news.ycombinator.com/item?id=45736759
+积分：1
+# 条评论：0]]></description>
+      <guid>https://marginalrevolution.com/marginalrevolution/2025/10/what-to-watch-7.html</guid>
+      <pubDate>Tue, 28 Oct 2025 18:23:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>理解主成分分析、特征向量和特征值</title>
+      <link>https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues</link>
+      <description><![CDATA[文章网址： https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues
+评论网址：https://news.ycombinator.com/item?id=45736725
+积分：1
 # 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=45733935</guid>
-      <pubDate>Tue, 28 Oct 2025 15:14:45 GMT</pubDate>
+      <guid>https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues</guid>
+      <pubDate>Tue, 28 Oct 2025 18:22:02 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI 完成重组，微软估值突破 4T 美元</title>
-      <link>https://www.ft.com/content/74d537c6-bd80-4797-9897-3d5455dfc414</link>
-      <description><![CDATA[文章网址： https://www.ft.com/content/74d537c6-bd80-4797-9897-3d5455dfc414
-评论网址：https://news.ycombinator.com/item?id=45733930
+      <title>Burn 0.19.0 版本：量化、分布式训练和 LLVM 后端</title>
+      <link>https://burn.dev/blog/release-0.19.0/</link>
+      <description><![CDATA[文章网址：https://burn.dev/blog/release-0.19.0/
+评论网址：https://news.ycombinator.com/item?id=45736707
+积分：1
+# 条评论：0]]></description>
+      <guid>https://burn.dev/blog/release-0.19.0/</guid>
+      <pubDate>Tue, 28 Oct 2025 18:19:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Xtra：让 DJI 将其流行相机偷偷带入美国的公司</title>
+      <link>https://www.theverge.com/report/795016/xtra-muse-dji-osmo-pocket-3-us-customs-tariffs</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/report/795016/xtra-muse-dji-osmo-pocket-3-us-customs-tariffs
+评论网址：https://news.ycombinator.com/item?id=45736694
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.ft.com/content/74d537c6-bd80-4797-9897-3d5455dfc414</guid>
-      <pubDate>Tue, 28 Oct 2025 15:14:05 GMT</pubDate>
+      <guid>https://www.theverge.com/report/795016/xtra-muse-dji-osmo-pocket-3-us-customs-tariffs</guid>
+      <pubDate>Tue, 28 Oct 2025 18:19:23 GMT</pubDate>
     </item>
     <item>
-      <title>囚犯入侵监狱 IT 系统并陷入疯狂</title>
-      <link>https://news.risky.biz/risky-bulletin-prisoner-hacks-prison-it-system-goes-wild/</link>
-      <description><![CDATA[文章网址：https://news.risky.biz/risky-bulletin-prisoner-hacks-prison-it-system-goes-wild/
-评论网址：https://news.ycombinator.com/item?id=45733926
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.risky.biz/risky-bulletin-prisoner-hacks-prison-it-system-goes-wild/</guid>
-      <pubDate>Tue, 28 Oct 2025 15:13:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 完成盈利性资本重组</title>
-      <link>https://techcrunch.com/2025/10/28/openai-completes-its-for-profit-recapitalization/</link>
-      <description><![CDATA[文章网址：https://techcrunch.com/2025/10/28/openai-completes-its-for-profit-recapitalization/
-评论网址：https://news.ycombinator.com/item?id=45733918
+      <title>所有上市公司都是相似的</title>
+      <link>https://www.bloomberg.com/opinion/newsletters/2025-10-28/all-public-companies-are-alike</link>
+      <description><![CDATA[文章网址：https://www.bloomberg.com/opinion/newsletters/2025-10-28/all-public-companies-are-alike
+评论网址：https://news.ycombinator.com/item?id=45736669
 积分：2
-# 条评论：0]]></description>
-      <guid>https://techcrunch.com/2025/10/28/openai-completes-its-for-profit-recapitalization/</guid>
-      <pubDate>Tue, 28 Oct 2025 15:13:34 GMT</pubDate>
+# 条评论：2]]></description>
+      <guid>https://www.bloomberg.com/opinion/newsletters/2025-10-28/all-public-companies-are-alike</guid>
+      <pubDate>Tue, 28 Oct 2025 18:16:51 GMT</pubDate>
     </item>
     <item>
-      <title>据报道亚马逊计划裁员约 3 万个企业岗位</title>
-      <link>https://techcrunch.com/2025/10/27/amazon-reportedly-plans-to-cut-around-30000-corporate-jobs/</link>
-      <description><![CDATA[文章网址：https://techcrunch.com/2025/10/27/amazon-reportedly-plans-to-cut-around-30000-corporate-jobs/
-评论网址：https://news.ycombinator.com/item?id=45733917
+      <title>现代法学硕士培训（摘要）</title>
+      <link>https://www.lesswrong.com/posts/FC3m5zhx6sFBrMpTm/cs-2881r-ai-safety-week-2-modern-llm-training</link>
+      <description><![CDATA[文章网址： https://www.lesswrong.com/posts/FC3m5zhx6sFBrMpTm/cs-2881r-ai-safety-week-2-modern-llm-training
+评论网址：https://news.ycombinator.com/item?id=45736663
 积分：1
 # 条评论：0]]></description>
-      <guid>https://techcrunch.com/2025/10/27/amazon-reportedly-plans-to-cut-around-30000-corporate-jobs/</guid>
-      <pubDate>Tue, 28 Oct 2025 15:13:33 GMT</pubDate>
+      <guid>https://www.lesswrong.com/posts/FC3m5zhx6sFBrMpTm/cs-2881r-ai-safety-week-2-modern-llm-training</guid>
+      <pubDate>Tue, 28 Oct 2025 18:16:26 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Redis-Automerge：Redis 的 CRDT 文档</title>
-      <link>https://github.com/michelp/redis-automerge</link>
-      <description><![CDATA[redis-automerge 是一个 redis 模块，它使用 automerge CRDT 库向类似 json 的文档添加实时协作。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45733893
+      <title>男子因针对中国富裕客户的“生育旅游”计划被判三年徒刑</title>
+      <link>https://www.justice.gov/usao-cdca/pr/rancho-cucamonga-man-sentenced-more-3-years-prison-operating-birth-tourism-scheme</link>
+      <description><![CDATA[文章网址： https://www.justice.gov/usao-cdca/pr/rancho-cucamonga-man-sentenced-more-3-years-prison-operating-birth-tourism-scheme
+评论网址：https://news.ycombinator.com/item?id=45736655
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/michelp/redis-automerge</guid>
-      <pubDate>Tue, 28 Oct 2025 15:12:00 GMT</pubDate>
+      <guid>https://www.justice.gov/usao-cdca/pr/rancho-cucamonga-man-sentenced-more-3-years-prison-operating-birth-tourism-scheme</guid>
+      <pubDate>Tue, 28 Oct 2025 18:15:50 GMT</pubDate>
     </item>
     </channel>
 </rss>

@@ -4,14 +4,81 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 28 Oct 2025 15:23:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 18:30:11 GMT</lastBuildDate>
+    <item>
+      <title>SigNoz (YC W21) 正在美国招聘 DevRel 工程师 – 开源 O11y 平台</title>
+      <link>https://jobs.ashbyhq.com/SigNoz/8447522c-1163-48d0-8f55-fac25f64a0f3</link>
+      <description><![CDATA[文章网址： https://jobs.ashbyhq.com/SigNoz/8447522c-1163-48d0-8f55-fac25f64a0f3
+评论网址：https://news.ycombinator.com/item?id=45735491
+积分：0
+# 条评论：0]]></description>
+      <guid>https://jobs.ashbyhq.com/SigNoz/8447522c-1163-48d0-8f55-fac25f64a0f3</guid>
+      <pubDate>Tue, 28 Oct 2025 17:00:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>我一直很喜欢网络上的克劳德代码</title>
+      <link>https://ben.page/claude-code-web</link>
+      <description><![CDATA[文章网址：https://ben.page/claude-code-web
+评论网址：https://news.ycombinator.com/item?id=45735264
+积分：24
+# 条评论：4]]></description>
+      <guid>https://ben.page/claude-code-web</guid>
+      <pubDate>Tue, 28 Oct 2025 16:46:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>HOPL：仅限人类的公共许可证</title>
+      <link>https://vanderessen.com/posts/hopl/</link>
+      <description><![CDATA[文章网址：https://vanderessen.com/posts/hopl/
+评论网址：https://news.ycombinator.com/item?id=45735044
+积分：62
+# 条评论：59]]></description>
+      <guid>https://vanderessen.com/posts/hopl/</guid>
+      <pubDate>Tue, 28 Oct 2025 16:32:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Dexto – 将您的 AI 代理与现实世界的工具和数据连接起来</title>
+      <link>https://github.com/truffle-ai/dexto</link>
+      <description><![CDATA[您好，HN，我们是 Truffle AI (YC W25) 的团队，我们一直致力于开发 Dexto (https://www.dexto.ai/)，这是一个 AI 代理的运行时和编排层，可让您将任何应用、服务或工具转变为 能够推理、思考和行动的人工智能助手。以下是视频演示 - https://www.youtube.com/watch?v=WJ1qbI6MU6g在帮助客户设置代理来执行日常营销任务（例如在网站上发帖）后，我们开始使用 Dexto LinkedIn、运行 Reddit 搜索、生成广告创意等。我们意识到法学硕士不是问题。真正的阻力是围绕它们的重复编排：- 将法学硕士连接到工具
+- 管理上下文和持久性
+- 添加内存和批准流程
+- 每个客户/用例的定制行为每个小项目都悄悄地膨胀到数周的管道中，每个客户都有基本相同但略有定制的需求。因此，我们将 Dexto 构建为顶级编排层，您可以在其中声明代理的功能和行为：- 代理可以使用哪些工具或 MCP，而不是您自己编写编排逻辑的另一个框架
+- 哪个法学硕士为其提供动力
+- 它应该如何表现（系统提示、语气、批准规则）配置后，代理将作为事件驱动循环运行 - 通过步骤进行推理、调用工具、处理重试以及维护其自己的状态和内存。您的应用不管理编排，它只是触发和订阅代理的事件，并决定如何呈现或批准结果。代理可以在本地、云端或混合运行。 Dexto 附带 CLI、Web UI 和一些入门示例代理。为了展示其灵活性，我们将一些 OpenCV 功能封装到 MCP 服务器中并将其连接到 Dexto (https://youtu.be/A0j61EIgWdI）。现在，非技术用户可以通过与代理交谈来检测图像中的面部或创建自定义照片拼贴画。同样的方法适用于根据您的数据进行调整的编码代理、浏览器代理、多发言人播客代理和营销助理。 https://docs.dexto.ai/examples/category/agent-examplesDexto 是模块化、可组合和可移植的，允许您插入新工具，甚至将整个 Dexto 代理重新公开为 MCP 服务器并从 Cursor (https://www.youtube.com/watch?v=_hZMFIO8KZM) 等其他应用使用它。由于代理是通过配置定义并由一致的运行时提供支持，因此它们可以在任何地方运行，无需更改代码，从而轻松实现跨代理 (A2A) 交互和重用。在某种程度上，我们喜欢将 Dexto 视为“元代理”或“代理工具”，可以根据其工具、数据和平台将其自定义为专用代理。目前，我们选择了 Elastic V2 许可证以提供最大的灵活性 让社区能够使用 Dexto 进行构建，同时防止更大的玩家接管我们的工作并通过其货币化。我们希望得到您的反馈：- 尝试快速入门并告诉我们哪些问题
+- 分享您想要在一天内发布的用例，我们将建议一个最小配置存储库：https://github.com/truffle-ai/dexto文档：https://docs.dexto.ai/docs/category/getting-started快速入门：npm i -g dexto
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45734696
+积分：10
+# 条评论：0]]></description>
+      <guid>https://github.com/truffle-ai/dexto</guid>
+      <pubDate>Tue, 28 Oct 2025 16:07:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用人工智能将 19.5 万美元的医院账单降至 3.3 万美元</title>
+      <link>https://www.threads.com/@nthmonkey/post/DQVdAD1gHhw</link>
+      <description><![CDATA[文章网址：https://www.threads.com/@nthmonkey/post/DQVdAD1gHhw
+评论网址：https://news.ycombinator.com/item?id=45734582
+积分：347
+# 条评论：204]]></description>
+      <guid>https://www.threads.com/@nthmonkey/post/DQVdAD1gHhw</guid>
+      <pubDate>Tue, 28 Oct 2025 15:58:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何建造 747 – WorldFlight 的故事</title>
+      <link>https://www.x-plane.com/2025/10/how-to-build-a-747-a-worldflight-story/</link>
+      <description><![CDATA[文章网址：https://www.x-plane.com/2025/10/how-to-build-a-747-a-worldflight-story/
+评论网址：https://news.ycombinator.com/item?id=45733772
+积分：35
+# 条评论：3]]></description>
+      <guid>https://www.x-plane.com/2025/10/how-to-build-a-747-a-worldflight-story/</guid>
+      <pubDate>Tue, 28 Oct 2025 15:02:59 GMT</pubDate>
+    </item>
     <item>
       <title>EuroLLM：欧洲制造的法学硕士，支持所有 24 种欧盟官方语言</title>
       <link>https://eurollm.io/</link>
       <description><![CDATA[文章网址：https://eurollm.io/
 评论网址：https://news.ycombinator.com/item?id=45733707
-积分：57
-# 条评论：19]]></description>
+积分：316
+评论数：244]]></description>
       <guid>https://eurollm.io/</guid>
       <pubDate>Tue, 28 Oct 2025 14:58:04 GMT</pubDate>
     </item>
@@ -20,90 +87,30 @@
       <link>https://www.exasol.com/blog/text-to-sql-governance/</link>
       <description><![CDATA[文章网址：https://www.exasol.com/blog/text-to-sql-governance/
 评论网址：https://news.ycombinator.com/item?id=45733525
-积分：6
-# 条评论：4]]></description>
+积分：36
+# 条评论：27]]></description>
       <guid>https://www.exasol.com/blog/text-to-sql-governance/</guid>
       <pubDate>Tue, 28 Oct 2025 14:43:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>你好，是我，维基百科，我准备好接受你的道歉</title>
-      <link>https://www.mcsweeneys.net/articles/hi-its-me-wikipedia-and-i-am-ready-for-your-apology</link>
-      <description><![CDATA[文章网址：https://www.mcsweeneys.net/articles/hi-its-me-wikipedia-and-i-am-ready-for-your-apology
-评论网址：https://news.ycombinator.com/item?id=45733430
-积分：7
-# 条评论：1]]></description>
-      <guid>https://www.mcsweeneys.net/articles/hi-its-me-wikipedia-and-i-am-ready-for-your-apology</guid>
-      <pubDate>Tue, 28 Oct 2025 14:35:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>v0 for iOS – 用 AI 构建任何东西</title>
-      <link>https://apps.apple.com/us/app/v0/id6745097949</link>
-      <description><![CDATA[文章网址：https://apps.apple.com/us/app/v0/id6745097949
-评论网址：https://news.ycombinator.com/item?id=45733415
-积分：18
-# 条评论：0]]></description>
-      <guid>https://apps.apple.com/us/app/v0/id6745097949</guid>
-      <pubDate>Tue, 28 Oct 2025 14:34:23 GMT</pubDate>
     </item>
     <item>
       <title>随机数简史</title>
       <link>https://crates.io/crates/oorandom#a-brief-history-of-random-numbers</link>
       <description><![CDATA[文章网址：https://crates.io/crates/oorandom#a-brief-history-of-random-numbers
 评论网址：https://news.ycombinator.com/item?id=45733412
-积分：18
-# 条评论：2]]></description>
+积分：102
+# 条评论：21]]></description>
       <guid>https://crates.io/crates/oorandom#a-brief-history-of-random-numbers</guid>
       <pubDate>Tue, 28 Oct 2025 14:34:18 GMT</pubDate>
     </item>
     <item>
-      <title>《华盛顿邮报》社论忽略了一项关键披露：贝佐斯的财务关系</title>
-      <link>https://www.npr.org/2025/10/28/nx-s1-5587932/washington-post-editorials-omit-a-key-disclosure-bezos-financial-ties</link>
-      <description><![CDATA[文章网址： https://www.npr.org/2025/10/28/nx-s1-5587932/washington-post-editorials-omit-a-key-disclosure-bezos-financial-ties
-评论网址：https://news.ycombinator.com/item?id=45733197
-积分：98
-# 条评论：14]]></description>
-      <guid>https://www.npr.org/2025/10/28/nx-s1-5587932/washington-post-editorials-omit-a-key-disclosure-bezos-financial-ties</guid>
-      <pubDate>Tue, 28 Oct 2025 14:16:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>无处不在的 SFP 向导</title>
-      <link>https://blog.ui.com/article/welcome-to-sfp-liberation-day</link>
-      <description><![CDATA[文章网址：https://blog.ui.com/article/welcome-to-sfp-liberation-day
-评论网址：https://news.ycombinator.com/item?id=45732874
-积分：30
-# 条评论：8]]></description>
-      <guid>https://blog.ui.com/article/welcome-to-sfp-liberation-day</guid>
-      <pubDate>Tue, 28 Oct 2025 13:48:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>维生素 D 水平较低的人可减少感冒的发生率和持续时间</title>
-      <link>https://ijmpr.in/article/the-role-of-vitamin-d-supplementation-in-the-prevention-of-acute-respiratory-infections-a-double-blind-randomized-controlled-trial-1327/</link>
-      <description><![CDATA[文章网址： https://ijmpr.in/article/the-role-of-vitamin-d-supplementation-in-the-prevention-of-acute-respiratory-infections-a-double-blind-randomized-control-trial-1327/
-评论网址：https://news.ycombinator.com/item?id=45732670
-积分：21
-# 条评论：3]]></description>
-      <guid>https://ijmpr.in/article/the-role-of-vitamin-d-supplementation-in-the-prevention-of-acute-respiratory-infections-a-double-blind-randomized-controlled-trial-1327/</guid>
-      <pubDate>Tue, 28 Oct 2025 13:31:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sick：用于类似 JSON 数据结构的索引重复数据删除二进制存储</title>
-      <link>https://github.com/7mind/sick</link>
-      <description><![CDATA[文章网址：https://github.com/7mind/sick
-评论网址：https://news.ycombinator.com/item?id=45732552
-积分：55
-# 条评论：20]]></description>
-      <guid>https://github.com/7mind/sick</guid>
-      <pubDate>Tue, 28 Oct 2025 13:22:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>奥地利政府部门驱逐微软，转而支持 Nextcloud</title>
-      <link>https://news.itsfoss.com/austrian-ministry-kicks-out-microsoft/</link>
-      <description><![CDATA[文章网址：https://news.itsfoss.com/austrian-ministry-kicks-out-microsoft/
-评论网址：https://news.ycombinator.com/item?id=45732485
-积分：120
-# 条评论：24]]></description>
-      <guid>https://news.itsfoss.com/austrian-ministry-kicks-out-microsoft/</guid>
-      <pubDate>Tue, 28 Oct 2025 13:16:40 GMT</pubDate>
+      <title>AirPods Pro 3 飞行问题</title>
+      <link>https://basicappleguy.com/basicappleblog/the-airpods-pro-3-flight-problem</link>
+      <description><![CDATA[文章网址：https://basicappleguy.com/basicappleblog/the-airpods-pro-3-flight-problem
+评论网址：https://news.ycombinator.com/item?id=45733329
+积分：194
+# 条评论：120]]></description>
+      <guid>https://basicappleguy.com/basicappleblog/the-airpods-pro-3-flight-problem</guid>
+      <pubDate>Tue, 28 Oct 2025 14:27:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
