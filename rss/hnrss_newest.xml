@@ -4,111 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 28 Oct 2025 18:30:21 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 21:19:37 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Radar – Slack 的开源 GitHub 通知</title>
-      <link>https://github.com/zlwaterfield/radar</link>
-      <description><![CDATA[嘿，HN！我是 Zach，我构建了 Radar - 一个开源应用程序，它使 GitHub 通知实际上可以通过 Slack 进行管理。链接- https://radar.town/
-- https://github.com/zlwaterfield/radar我正在解决的问题如果您所在的团队拥有多个存储库和活跃贡献者，则 GitHub 通知将变得无法管理。关键的 PR 被埋没了，您错过了审核请求，还有三天前标有您名字的问题？被遗忘了。原生 GitHub Slack 应用程序和 Toast 等工具很不错，但我一直遇到限制，想要一些我可以自定义和扩展自己的东西。Radar 的用途Radar 通过基于角色的智能通知将您的 GitHub 存储库连接到 Slack。它知道您是 PR 作者、审阅者还是受让人，并相应地发送通知。我对一些功能感到兴奋：- 近乎实时的基于 Webhook 的交付
-- 使用人工智能进行关键字匹配，即使您没有直接被标记，也可以捕获重要的提及
-- 可配置的摘要通知（在适合您的时间获取 PR 活动的摘要）
-- 对 PR、问题、评论和评论的全面支持托管与自托管我正在运行托管版本，但整个代码库是开源的。成本加起来 — Webhook 存储、持续的后台作业处理以及实时保持所有内容都需要大量的计算。这就是为什么托管版本有付费套餐的原因。但如果您想自己运行它，绝对可以。 “开源模式”让您可以自行托管，具有完整的功能和零计费设置。您需要管理自己的基础设施（网络钩子、后台工作人员、数据库），但您可以获得完全的控制和自定义。为什么开源我从 Toast、GitHub Slack 应用程序和 Graphite 中获得了灵感，但想要一些更轻、更易于破解的东西。开源意味着社区可以贡献功能、修复错误并以我未曾想到的方式扩展它。另外，如果您想构建自定义路由逻辑或集成，您不会被锁定到供应商。诚实的部分这是一个早期测试版。会有错误。设置需要一些工作（Slack 应用程序、GitHub OAuth、用于作业的 Trigger.dev，以及用于本地 Webhook 的 ngrok（如果您正在开发）。但它确实有效——我每天都使用它，它确实让我的生活变得更轻松。安全性我知道这个应用程序需要大量访问权限，因此我尝试将访问权限限制为仅需要的内容。所有 GitHub 权限都是只读的。不读取或存储任何代码。所有通知均基于拉取请求和问题元数据、评论、描述等。如果您对此有疑问，我很乐意迭代和改进。我在寻找什么反馈！哪些通知模式让您抓狂？其他工具的哪些功能是必须具备的？您遇到任何边缘情况或错误吗？我正在积极致力于此，并希望构建真正有用的东西。该存储库具有托管和自托管的完整设置文档。尝试适合您需求的方式，并让我知道您的想法 - 特别是如果 GitHub 通知过载也是您遇到的问题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45736819
+      <title>关于 ChatGPT Atlas 的想法、观察和链接</title>
+      <link>https://daringfireball.net/2025/10/thoughts_observations_and_links_regarding_chatgpt_atlas</link>
+      <description><![CDATA[文章网址：https://daringfireball.net/2025/10/thoughts_observations_and_links_regarding_chatgpt_atlas
+评论网址：https://news.ycombinator.com/item?id=45739205
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/zlwaterfield/radar</guid>
-      <pubDate>Tue, 28 Oct 2025 18:28:58 GMT</pubDate>
+      <guid>https://daringfireball.net/2025/10/thoughts_observations_and_links_regarding_chatgpt_atlas</guid>
+      <pubDate>Tue, 28 Oct 2025 21:07:59 GMT</pubDate>
     </item>
     <item>
-      <title>担任政府或国家元首的专业经济学家</title>
-      <link>https://brucebartlett.substack.com/p/professional-economists-who-were</link>
-      <description><![CDATA[文章网址：https://brucebartlett.substack.com/p/professional-economists-who-were
-评论网址：https://news.ycombinator.com/item?id=45736783
-积分：1
-# 条评论：0]]></description>
-      <guid>https://brucebartlett.substack.com/p/professional-economists-who-were</guid>
-      <pubDate>Tue, 28 Oct 2025 18:25:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>模型城市 星期一 10/27/25</title>
-      <link>https://www.astralcodexten.com/p/model-city-monday-102725</link>
-      <description><![CDATA[文章网址：https://www.astralcodexten.com/p/model-city-monday-102725
-评论网址：https://news.ycombinator.com/item?id=45736770
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.astralcodexten.com/p/model-city-monday-102725</guid>
-      <pubDate>Tue, 28 Oct 2025 18:24:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>看什么</title>
-      <link>https://marginalrevolution.com/marginalrevolution/2025/10/what-to-watch-7.html</link>
-      <description><![CDATA[文章网址：https://marginalrevolution.com/marginalrevolution/2025/10/what-to-watch-7.html
-评论网址：https://news.ycombinator.com/item?id=45736759
-积分：1
-# 条评论：0]]></description>
-      <guid>https://marginalrevolution.com/marginalrevolution/2025/10/what-to-watch-7.html</guid>
-      <pubDate>Tue, 28 Oct 2025 18:23:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>理解主成分分析、特征向量和特征值</title>
-      <link>https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues</link>
-      <description><![CDATA[文章网址： https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues
-评论网址：https://news.ycombinator.com/item?id=45736725
+      <title>加州学区规定火不会产生光和热</title>
+      <link>https://www.sfchronicle.com/bayarea/article/family-challenges-silicon-valley-school-exam-21114149.php</link>
+      <description><![CDATA[文章网址：https://www.sfchronicle.com/bayarea/article/family-challenges-silicon-valley-school-exam-21114149.php
+评论网址：https://news.ycombinator.com/item?id=45739193
 积分：1
 # 条评论：1]]></description>
-      <guid>https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues</guid>
-      <pubDate>Tue, 28 Oct 2025 18:22:02 GMT</pubDate>
+      <guid>https://www.sfchronicle.com/bayarea/article/family-challenges-silicon-valley-school-exam-21114149.php</guid>
+      <pubDate>Tue, 28 Oct 2025 21:06:54 GMT</pubDate>
     </item>
     <item>
-      <title>Burn 0.19.0 版本：量化、分布式训练和 LLVM 后端</title>
-      <link>https://burn.dev/blog/release-0.19.0/</link>
-      <description><![CDATA[文章网址：https://burn.dev/blog/release-0.19.0/
-评论网址：https://news.ycombinator.com/item?id=45736707
+      <title>测试我的第一个钠离子太阳能电池（拆解）[视频]</title>
+      <link>https://www.youtube.com/watch?v=zSPSCC3_hHw</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=zSPSCC3_hHw
+评论网址：https://news.ycombinator.com/item?id=45739189
 积分：1
 # 条评论：0]]></description>
-      <guid>https://burn.dev/blog/release-0.19.0/</guid>
-      <pubDate>Tue, 28 Oct 2025 18:19:57 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=zSPSCC3_hHw</guid>
+      <pubDate>Tue, 28 Oct 2025 21:06:30 GMT</pubDate>
     </item>
     <item>
-      <title>Xtra：让 DJI 将其流行相机偷偷带入美国的公司</title>
-      <link>https://www.theverge.com/report/795016/xtra-muse-dji-osmo-pocket-3-us-customs-tariffs</link>
-      <description><![CDATA[文章网址：https://www.theverge.com/report/795016/xtra-muse-dji-osmo-pocket-3-us-customs-tariffs
-评论网址：https://news.ycombinator.com/item?id=45736694
+      <title>伯明翰再次推迟修复灾难性的 Oracle 系统</title>
+      <link>https://www.theregister.com/2025/09/24/uk_mega_council_delays_fix/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2025/09/24/uk_mega_council_delays_fix/
+评论网址：https://news.ycombinator.com/item?id=45739187
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theregister.com/2025/09/24/uk_mega_council_delays_fix/</guid>
+      <pubDate>Tue, 28 Oct 2025 21:06:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 debuginfo 减少 (Rust) 程序的二进制大小</title>
+      <link>https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html</link>
+      <description><![CDATA[文章网址：https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html
+评论网址：https://news.ycombinator.com/item?id=45739173
+积分：1
+# 条评论：0]]></description>
+      <guid>https://kobzol.github.io/rust/2025/09/22/reducing-binary-size-of-rust-programs-with-debuginfo.html</guid>
+      <pubDate>Tue, 28 Oct 2025 21:05:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>了解 Docker 内部结构：用 Python 构建容器运行时</title>
+      <link>https://muhammadraza.me/2024/building-container-runtime-python/</link>
+      <description><![CDATA[文章网址：https://muhammadraza.me/2024/building-container-runtime-python/
+评论网址：https://news.ycombinator.com/item?id=45739171
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.theverge.com/report/795016/xtra-muse-dji-osmo-pocket-3-us-customs-tariffs</guid>
-      <pubDate>Tue, 28 Oct 2025 18:19:23 GMT</pubDate>
+      <guid>https://muhammadraza.me/2024/building-container-runtime-python/</guid>
+      <pubDate>Tue, 28 Oct 2025 21:05:18 GMT</pubDate>
     </item>
     <item>
-      <title>所有上市公司都是相似的</title>
-      <link>https://www.bloomberg.com/opinion/newsletters/2025-10-28/all-public-companies-are-alike</link>
-      <description><![CDATA[文章网址：https://www.bloomberg.com/opinion/newsletters/2025-10-28/all-public-companies-are-alike
-评论网址：https://news.ycombinator.com/item?id=45736669
-积分：2
+      <title>显示 HN：事件溯源平台</title>
+      <link>https://docs.flowcore.io/guides/5-minute-tutorial/5-min-tutorial/</link>
+      <description><![CDATA[附件是使用我们的平台在 5 分钟内事件源数据的教程。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45739123
+积分：1
+# 条评论：0]]></description>
+      <guid>https://docs.flowcore.io/guides/5-minute-tutorial/5-min-tutorial/</guid>
+      <pubDate>Tue, 28 Oct 2025 21:01:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>逃离佩茨奇城堡 (Commodore 64)</title>
+      <link>https://jimbo.itch.io/escape-from-petscii-castle-v075-for-commodore-64</link>
+      <description><![CDATA[文章网址：https://jimbo.itch.io/escape-from-petscii-castle-v075-for-commodore-64
+评论网址：https://news.ycombinator.com/item?id=45739108
+积分：1
+# 条评论：0]]></description>
+      <guid>https://jimbo.itch.io/escape-from-petscii-castle-v075-for-commodore-64</guid>
+      <pubDate>Tue, 28 Oct 2025 21:00:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>MaGi：发现几何中的智慧</title>
+      <link>https://github.com/bmalloy-224/MaGi</link>
+      <description><![CDATA[文章网址：https://github.com/bmalloy-224/MaGi
+评论网址：https://news.ycombinator.com/item?id=45739098
+积分：1
 # 条评论：2]]></description>
-      <guid>https://www.bloomberg.com/opinion/newsletters/2025-10-28/all-public-companies-are-alike</guid>
-      <pubDate>Tue, 28 Oct 2025 18:16:51 GMT</pubDate>
+      <guid>https://github.com/bmalloy-224/MaGi</guid>
+      <pubDate>Tue, 28 Oct 2025 20:59:39 GMT</pubDate>
     </item>
     <item>
-      <title>现代法学硕士培训（摘要）</title>
-      <link>https://www.lesswrong.com/posts/FC3m5zhx6sFBrMpTm/cs-2881r-ai-safety-week-2-modern-llm-training</link>
-      <description><![CDATA[文章网址： https://www.lesswrong.com/posts/FC3m5zhx6sFBrMpTm/cs-2881r-ai-safety-week-2-modern-llm-training
-评论网址：https://news.ycombinator.com/item?id=45736663
-积分：1
+      <title>生成式 AI 图像编辑对决</title>
+      <link>https://genai-showdown.specr.net/image-editing</link>
+      <description><![CDATA[文章网址：https://genai-showdown.specr.net/image-editing
+评论网址：https://news.ycombinator.com/item?id=45739080
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.lesswrong.com/posts/FC3m5zhx6sFBrMpTm/cs-2881r-ai-safety-week-2-modern-llm-training</guid>
-      <pubDate>Tue, 28 Oct 2025 18:16:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>男子因针对中国富裕客户的“生育旅游”计划被判三年徒刑</title>
-      <link>https://www.justice.gov/usao-cdca/pr/rancho-cucamonga-man-sentenced-more-3-years-prison-operating-birth-tourism-scheme</link>
-      <description><![CDATA[文章网址： https://www.justice.gov/usao-cdca/pr/rancho-cucamonga-man-sentenced-more-3-years-prison-operating-birth-tourism-scheme
-评论网址：https://news.ycombinator.com/item?id=45736655
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.justice.gov/usao-cdca/pr/rancho-cucamonga-man-sentenced-more-3-years-prison-operating-birth-tourism-scheme</guid>
-      <pubDate>Tue, 28 Oct 2025 18:15:50 GMT</pubDate>
+      <guid>https://genai-showdown.specr.net/image-editing</guid>
+      <pubDate>Tue, 28 Oct 2025 20:58:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
