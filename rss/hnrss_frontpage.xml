@@ -4,14 +4,54 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 28 Oct 2025 21:19:21 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 01:29:49 GMT</lastBuildDate>
+    <item>
+      <title>保持互联网快速安全：引入 Merkle 树证书</title>
+      <link>https://blog.cloudflare.com/bootstrap-mtc/</link>
+      <description><![CDATA[文章网址：https://blog.cloudflare.com/bootstrap-mtc/
+评论网址：https://news.ycombinator.com/item?id=45740214
+积分：46
+# 条评论：13]]></description>
+      <guid>https://blog.cloudflare.com/bootstrap-mtc/</guid>
+      <pubDate>Tue, 28 Oct 2025 22:39:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>托尔浏览器 15.0</title>
+      <link>https://blog.torproject.org/new-release-tor-browser-150/</link>
+      <description><![CDATA[文章网址：https://blog.torproject.org/new-release-tor-browser-150/
+评论网址：https://news.ycombinator.com/item?id=45739515
+积分：68
+# 条评论：10]]></description>
+      <guid>https://blog.torproject.org/new-release-tor-browser-150/</guid>
+      <pubDate>Tue, 28 Oct 2025 21:33:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>修补是获得良好品味的一种方式</title>
+      <link>https://seated.ro/blog/tinkering-a-lost-art</link>
+      <description><![CDATA[文章网址：https://seated.ro/blog/tinkering-a-lost-art
+评论网址：https://news.ycombinator.com/item?id=45739499
+积分：101
+评论数量：90]]></description>
+      <guid>https://seated.ro/blog/tinkering-a-lost-art</guid>
+      <pubDate>Tue, 28 Oct 2025 21:31:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>生成式 AI 图像编辑对决</title>
+      <link>https://genai-showdown.specr.net/image-editing</link>
+      <description><![CDATA[文章网址：https://genai-showdown.specr.net/image-editing
+评论网址：https://news.ycombinator.com/item?id=45739080
+积分：137
+# 条评论：27]]></description>
+      <guid>https://genai-showdown.specr.net/image-editing</guid>
+      <pubDate>Tue, 28 Oct 2025 20:58:22 GMT</pubDate>
+    </item>
     <item>
       <title>亚马逊的工程文化内部：高级负责人的经验教训</title>
       <link>https://olshansky.substack.com/p/inside-amazons-engineering-culture</link>
       <description><![CDATA[文章网址：https://olshansky.substack.com/p/inside-amazons-engineering-culture
 评论网址：https://news.ycombinator.com/item?id=45738472
-积分：14
-# 条评论：5]]></description>
+积分：38
+# 条评论：43]]></description>
       <guid>https://olshansky.substack.com/p/inside-amazons-engineering-culture</guid>
       <pubDate>Tue, 28 Oct 2025 20:12:14 GMT</pubDate>
     </item>
@@ -20,97 +60,51 @@
       <link>https://512pixels.net/2025/10/boring-is-what-we-wanted/</link>
       <description><![CDATA[文章网址：https://512pixels.net/2025/10/boring-is-what-we-wanted/
 评论网址：https://news.ycombinator.com/item?id=45738247
-积分：7
-# 条评论：3]]></description>
+积分：181
+评论数：94]]></description>
       <guid>https://512pixels.net/2025/10/boring-is-what-we-wanted/</guid>
       <pubDate>Tue, 28 Oct 2025 19:57:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Butter——法学硕士的行为缓存</title>
+      <link>https://www.butter.dev/</link>
+      <description><![CDATA[嗨，HN！我是埃里克。我们构建了 Butter，一个 LLM 代理，它通过缓存和重放响应使代理系统具有确定性，因此自动化在运行中表现一致。- 这是一个聊天完成兼容端点，可以轻松地使用自定义的 base_url 放入现有代理- 缓存是模板感知的，这意味着查找可以将动态内容（名称、地址等）视为变量您可以在 这个演示记录了 tic-tac-toe 游戏：https://www.youtube.com/watch?v=PWbyeZwPjuY我们为什么构建这个：在 Butter 之前，我们是 Pig.dev (YC W25），我们构建了计算机使用代理来自动化旧版 Windows 应用程序。目标是取代 RPA。但在实践中，这些代理速度慢、成本高且不可预测——这是确定性 RPA 的重大降级，并且在医疗保健、贷款和政府领域是不可接受的。我们意识到用户不想用 AI 取代 RPA，他们只是希望 AI 能够处理边缘情况。我们着手构建一个用于 AI 自动化（通用用途，而不仅仅是计算机用途）的“肌肉记忆”系统，其中代理轨迹被烘焙成可重用的代码。您可能还记得我们在五月份的第一次迭代，一个名为 Muscle Mem 的库：https://news.ycombinator.com/item?id=43988381今天我们将其作为聊天完成代理重新启动。它通过将观察到的消息历史记录存储在树结构中来模拟脚本自动化，其中树中的每个分叉代表工作流“代码”中的某个条件分支。我们通过沿着树走代理来重放行为，如果下一步未知，则返回到 AI 添加新分支。代理是实时且免费使用的，同时我们致力于使模板感知引擎更加灵活和准确。请尝试一下并分享它是如何进行的、哪里出了问题以及是否有帮助。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45737948
+积分：13
+# 条评论：10]]></description>
+      <guid>https://www.butter.dev/</guid>
+      <pubDate>Tue, 28 Oct 2025 19:39:51 GMT</pubDate>
     </item>
     <item>
       <title>为什么有些无线电塔会闪烁？</title>
       <link>https://www.jeffgeerling.com/blog/2025/why-do-some-radio-towers-blink</link>
       <description><![CDATA[文章网址：https://www.jeffgeerling.com/blog/2025/why-do-some-radio-towers-blink
 评论网址：https://news.ycombinator.com/item?id=45737941
-积分：41
-# 条评论：22]]></description>
+积分：96
+评论数量：75]]></description>
       <guid>https://www.jeffgeerling.com/blog/2025/why-do-some-radio-towers-blink</guid>
       <pubDate>Tue, 28 Oct 2025 19:38:53 GMT</pubDate>
     </item>
     <item>
-      <title>三星在 3,499 美元的智能冰箱上正式投放广告，并发布即将推出的软件更新</title>
+      <title>三星通过即将推出的软件更新正式在智能冰箱上投放广告</title>
       <link>https://arstechnica.com/gadgets/2025/10/samsung-makes-ads-on-3499-smart-fridges-official-with-upcoming-software-update/</link>
       <description><![CDATA[文章网址： https://arstechnica.com/gadgets/2025/10/samsung-makes-ads-on-3499-smart-fridges-official-with-upcoming-software-update/
 评论网址：https://news.ycombinator.com/item?id=45737338
-积分：141
-# 条评论：109]]></description>
+积分：379
+# 条评论：313]]></description>
       <guid>https://arstechnica.com/gadgets/2025/10/samsung-makes-ads-on-3499-smart-fridges-official-with-upcoming-software-update/</guid>
       <pubDate>Tue, 28 Oct 2025 19:02:48 GMT</pubDate>
     </item>
     <item>
-      <title>绘制 FDA 批准的每种现有药物的脱靶效应</title>
-      <link>https://www.owlposting.com/p/mapping-the-off-target-effects-of</link>
-      <description><![CDATA[文章网址：https://www.owlposting.com/p/mapping-the-off-target-effects-of
-评论网址：https://news.ycombinator.com/item?id=45736608
-积分：44
-# 条评论：1]]></description>
-      <guid>https://www.owlposting.com/p/mapping-the-off-target-effects-of</guid>
-      <pubDate>Tue, 28 Oct 2025 18:12:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>当我们谈论侧载时我们在谈论什么</title>
-      <link>https://f-droid.org/2025/10/28/sideloading.html</link>
-      <description><![CDATA[文章网址：https://f-droid.org/2025/10/28/sideloading.html
-评论网址：https://news.ycombinator.com/item?id=45736479
-积分：266
-# 条评论：120]]></description>
-      <guid>https://f-droid.org/2025/10/28/sideloading.html</guid>
-      <pubDate>Tue, 28 Oct 2025 18:02:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Fil-C：内存安全的 C 实现</title>
-      <link>https://lwn.net/SubscriberLink/1042938/658ade3768dd4758/</link>
-      <description><![CDATA[文章网址：https://lwn.net/SubscriberLink/1042938/658ade3768dd4758/
-评论网址：https://news.ycombinator.com/item?id=45735877
-积分：34
-# 条评论：5]]></description>
-      <guid>https://lwn.net/SubscriberLink/1042938/658ade3768dd4758/</guid>
-      <pubDate>Tue, 28 Oct 2025 17:25:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>SigNoz (YC W21) 正在美国招聘 DevRel 工程师 – 开源 O11y 平台</title>
-      <link>https://jobs.ashbyhq.com/SigNoz/8447522c-1163-48d0-8f55-fac25f64a0f3</link>
-      <description><![CDATA[文章网址：https://jobs.ashbyhq.com/SigNoz/8447522c-1163-48d0-8f55-fac25f64a0f3
-评论网址：https://news.ycombinator.com/item?id=45735491
-积分：0
-# 条评论：0]]></description>
-      <guid>https://jobs.ashbyhq.com/SigNoz/8447522c-1163-48d0-8f55-fac25f64a0f3</guid>
-      <pubDate>Tue, 28 Oct 2025 17:00:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>我一直很喜欢网络上的克劳德代码</title>
-      <link>https://ben.page/claude-code-web</link>
-      <description><![CDATA[文章网址：https://ben.page/claude-code-web
-评论网址：https://news.ycombinator.com/item?id=45735264
-积分：66
-# 条评论：57]]></description>
-      <guid>https://ben.page/claude-code-web</guid>
-      <pubDate>Tue, 28 Oct 2025 16:46:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Dexto – 将您的 AI 代理与现实世界的工具和数据连接起来</title>
-      <link>https://github.com/truffle-ai/dexto</link>
-      <description><![CDATA[您好，HN，我们是 Truffle AI (YC W25) 的团队，我们一直致力于开发 Dexto (https://www.dexto.ai/)，这是一个 AI 代理的运行时和编排层，可让您将任何应用、服务或工具转变为可以推理、思考和行动的 AI 助手。以下是视频演练 - https://www.youtube.com/watch?v=WJ1qbI6MU6g在帮助客户设置代理来执行日常营销任务（例如在 LinkedIn 上发帖、运行 Reddit 搜索、生成广告创意等）后，我们开始使用 Dexto。我们意识到 LLM 并不适合的问题。真正的阻力是围绕它们的重复编排：- 将法学硕士连接到工具
-- 管理上下文和持久性
-- 添加内存和批准流程
-- 每个客户/用例的定制行为每个小项目都悄悄地膨胀到数周的管道中，每个客户都有基本相同但略有定制的需求。因此，我们将 Dexto 构建为顶级编排层，您可以在其中声明代理的功能和行为：- 代理可以使用哪些工具或 MCP，而不是您自己编写编排逻辑的另一个框架
-- 哪个法学硕士为其提供动力
-- 它应该如何表现（系统提示、语气、批准规则）配置后，代理将作为事件驱动循环运行 - 通过步骤进行推理、调用工具、处理重试以及维护其自己的状态和内存。您的应用不管理编排，它只是触发和订阅代理的事件，并决定如何呈现或批准结果。代理可以在本地、云端或混合运行。 Dexto 附带 CLI、Web UI 和一些入门示例代理。为了展示其灵活性，我们将一些 OpenCV 功能封装到 MCP 服务器中，并将其连接到 Dexto (https://youtu.be/A0j61EIgWdI)。现在，非技术用户可以通过与代理交谈来检测图像中的面部或创建自定义照片拼贴画。同样的方法适用于根据您的数据进行调整的编码代理、浏览器代理、多发言人播客代理和营销助理。 https://docs.dexto.ai/examples/category/agent-examplesDexto 是模块化、可组合和可移植的，允许您插入新工具，甚至将整个 Dexto 代理重新公开为 MCP 服务器，并从 Cursor 等其他应用程序使用它（https://www.youtube.com/watch?v=_hZMFIO8KZM）。由于代理是通过配置定义并由一致的运行时提供支持，因此它们可以在任何地方运行，无需更改代码，从而轻松实现跨代理 (A2A) 交互和重用。在某种程度上，我们喜欢将 Dexto 视为“元代理”或“代理工具”，可以根据其工具、数据和平台将其自定义为专用代理。目前，我们选择了 Elastic V2 许可证，为社区使用 Dexto 构建提供最大的灵活性，同时防止更大的风险阻止玩家接管我们的工作并通过其货币化。我们希望得到您的反馈：- 尝试快速入门并告诉我们哪些问题
-- 分享您想要在一天内发布的用例，我们会建议一个最小配置存储库：https://github.com/truffle-ai/dexto文档：https://docs.dexto.ai/docs/category/getting-started快速入门：npm i -g dexto
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45734696
-积分：15
-# 条评论：2]]></description>
-      <guid>https://github.com/truffle-ai/dexto</guid>
-      <pubDate>Tue, 28 Oct 2025 16:07:27 GMT</pubDate>
+      <title>近 90% 的 Windows 游戏现在在 Linux 上运行</title>
+      <link>https://www.tomshardware.com/software/linux/nearly-90-percent-of-windows-games-now-run-on-linux-latest-data-shows-as-windows-10-dies-gaming-on-linux-is-more-viable-than-ever</link>
+      <description><![CDATA[文章网址： https://www.tomshardware.com/software/linux/nearly-90-percent-of-windows-games-now-run-on-linux-latest-data-shows-as-windows-10-dies-gaming-on-linux-is-more-viable-than-ever
+评论网址：https://news.ycombinator.com/item?id=45736925
+积分：229
+# 条评论：124]]></description>
+      <guid>https://www.tomshardware.com/software/linux/nearly-90-percent-of-windows-games-now-run-on-linux-latest-data-shows-as-windows-10-dies-gaming-on-linux-is-more-viable-than-ever</guid>
+      <pubDate>Tue, 28 Oct 2025 18:37:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
