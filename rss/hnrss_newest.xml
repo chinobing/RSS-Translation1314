@@ -4,114 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 02 Nov 2025 06:28:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Nov 2025 09:18:11 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Polym – 用于知识保留和回忆的应用程序。记住你学到的东西</title>
-      <link>https://polymapp.com/</link>
-      <description><![CDATA[Polym 是一款移动应用程序，可提高基础知识的保留和回忆，例如逻辑、数学、心理学、经济学、计算机科学、哲学、历史等。对于那些不断学习的人，我认为下面的比较阐明了 Polym 如何提供帮助：当前终身学习者 → 有抱负的博学者
-重新阅读和审查仓促编写的笔记→审查专家制作的笔记和主动学习集
-回顾利基和/或即将过时的概念 → 掌握基础知识，如逻辑、经济学、数学和心理学
-花几个小时记笔记和创建抽认卡 → 专注于学习，因为笔记和卡片都得到妥善处理
-参与不频繁的文本主动学习→使用间隔重复进行多模式检索练习
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45788174
-积分：1
-# 条评论：0]]></description>
-      <guid>https://polymapp.com/</guid>
-      <pubDate>Sun, 02 Nov 2025 06:14:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLVM 中的机器调度程序 – 第二部分</title>
-      <link>https://myhsu.xyz/llvm-machine-scheduler-2/</link>
-      <description><![CDATA[文章网址：https://myhsu.xyz/llvm-machine-scheduler-2/
-评论网址：https://news.ycombinator.com/item?id=45788167
-积分：1
-# 条评论：0]]></description>
-      <guid>https://myhsu.xyz/llvm-machine-scheduler-2/</guid>
-      <pubDate>Sun, 02 Nov 2025 06:13:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>硅谷有一个上帝问题</title>
-      <link>https://www.webworm.co/newgods/</link>
-      <description><![CDATA[文章网址：https://www.webworm.co/newgods/
-评论网址：https://news.ycombinator.com/item?id=45788165
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.webworm.co/newgods/</guid>
-      <pubDate>Sun, 02 Nov 2025 06:11:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我制作了 YouTube 缩略图，始终显示最新评论 [视频]</title>
-      <link>https://www.youtube.com/watch?v=HbUgsprjNVY</link>
-      <description><![CDATA[幕后花絮1.我使用 YouTube 数据 API 提取最新评论。2.使用 next/og 中的 ImageResponse 的 next.js 应用程序通过将最新评论文本覆盖在原始缩略图上来生成新的缩略图。3.我使用 YouTube API 更新该视频的缩略图。文本也被截断为 65 个字符，并且我将视频的评论过滤设置为“严格”这一切都作为 cron 作业每 15 分钟运行一次。我希望它运行得更频繁，但每次缩略图更新需要大约 50 个积分，而 YouTube 每天只提供 10k API 积分。对于 24 小时内更改缩略图的次数也有一个未记录的限制，我在第一天每 10 分钟运行一次时就达到了这个限制。我放慢了速度，还添加了缓存，因此只有在评论自上次运行以来发生更改时才会更新。视频链接：
-https://www.youtube.com/watch?v=HbUgsprjNVY链接到页面以查看缩略图：
-https://www.youtube.com/@SmithOffGrid/search?query=HbUgsprjN...=-=-=构建这个非常有趣。不过，这并不是第一个这样做的人。我能找到的其他人：Tom Scott：https://www.youtube.com/watch?v=BxV14h0kFs0Sean Hodgins：https://www.youtube.com/watch?v=FV2OqOJcQRcMrBeast：https://www.youtube.com/watch?v=YSoJPA8-oHc超复杂：https://www.youtube.com/watch?v=6fAQ_y-1SxI
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45788156
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=HbUgsprjNVY</guid>
-      <pubDate>Sun, 02 Nov 2025 06:08:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025 年黑客啤酒节</title>
-      <link>https://hacktoberfest.com</link>
-      <description><![CDATA[文章网址：https://hacktoberfest.com
-评论网址：https://news.ycombinator.com/item?id=45788146
-积分：1
-# 条评论：0]]></description>
-      <guid>https://hacktoberfest.com</guid>
-      <pubDate>Sun, 02 Nov 2025 06:05:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>跨 PostgreSQL 实例移动表</title>
-      <link>https://ananthakumaran.in/2025/11/02/moving-tables-across-postgres-instances.html</link>
-      <description><![CDATA[文章网址：https://ananthakumaran.in/2025/11/02/moving-tables-across-postgres-instances.html
-评论网址：https://news.ycombinator.com/item?id=45788086
-积分：1
-# 条评论：0]]></description>
-      <guid>https://ananthakumaran.in/2025/11/02/moving-tables-across-postgres-instances.html</guid>
-      <pubDate>Sun, 02 Nov 2025 05:47:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>联觉帮助我找到四叶草</title>
-      <link>https://matthewjamestaylor.com/synesthesia-four-leaf-clovers</link>
-      <description><![CDATA[文章网址：https://matthewjamestaylor.com/synesthesia-four-leaf-clovers
-评论网址：https://news.ycombinator.com/item?id=45788083
+      <title>情境工程</title>
+      <link>https://chrisloy.dev/post/2025/08/03/context-engineering</link>
+      <description><![CDATA[文章网址：https://chrisloy.dev/post/2025/08/03/context-engineering
+评论网址：https://news.ycombinator.com/item?id=45788842
 积分：2
 # 条评论：0]]></description>
-      <guid>https://matthewjamestaylor.com/synesthesia-four-leaf-clovers</guid>
-      <pubDate>Sun, 02 Nov 2025 05:47:07 GMT</pubDate>
+      <guid>https://chrisloy.dev/post/2025/08/03/context-engineering</guid>
+      <pubDate>Sun, 02 Nov 2025 08:52:23 GMT</pubDate>
     </item>
     <item>
-      <title>寻找销售/营销联合创始人（仅限股权）</title>
-      <link>https://beatstorapon.com</link>
-      <description><![CDATA[文章网址：https://beatstorapon.com
-评论网址：https://news.ycombinator.com/item?id=45788081
+      <title>三星互联网浏览器在 Windows 上推出</title>
+      <link>https://browser.samsung.com/beta</link>
+      <description><![CDATA[文章网址：https://browser.samsung.com/beta
+评论网址：https://news.ycombinator.com/item?id=45788817
+积分：1
+# 条评论：0]]></description>
+      <guid>https://browser.samsung.com/beta</guid>
+      <pubDate>Sun, 02 Nov 2025 08:48:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>财富，按比例显示</title>
+      <link>https://eattherichtextformat.github.io/1-pixel-wealth/</link>
+      <description><![CDATA[文章网址：https://eattherichtextformat.github.io/1-pixel-wealth/
+评论网址：https://news.ycombinator.com/item?id=45788804
+积分：3
+# 条评论：0]]></description>
+      <guid>https://eattherichtextformat.github.io/1-pixel-wealth/</guid>
+      <pubDate>Sun, 02 Nov 2025 08:44:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>重新构想社交媒体，优化其意义，而不是参与度</title>
+      <link>https://www.facts.social/</link>
+      <description><![CDATA[文章网址：https://www.facts.social/
+评论网址：https://news.ycombinator.com/item?id=45788750
+积分：3
+# 条评论：1]]></description>
+      <guid>https://www.facts.social/</guid>
+      <pubDate>Sun, 02 Nov 2025 08:32:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：你在做什么？ （2025 年 11 月）</title>
+      <link>https://news.ycombinator.com/item?id=45788736</link>
+      <description><![CDATA[你在做什么？您正在考虑任何新想法吗？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45788736
+积分：2
+# 条评论：1]]></description>
+      <guid>https://news.ycombinator.com/item?id=45788736</guid>
+      <pubDate>Sun, 02 Nov 2025 08:29:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>电脑艺人 (1982 – 1990)</title>
+      <link>https://archive.gamehistory.org/folder/519c0dbd-0f5d-45fe-83c2-355a756391a9?sortField=date&sortDir=asc&showUncatalogedFiles=true</link>
+      <description><![CDATA[文章网址： https://archive.gamehistory.org/folder/519c0dbd-0f5d-45fe-83c2-355a756391a9?sortField=date&amp;sortDir=asc&amp;showUncatalogedFiles=true
+评论网址：https://news.ycombinator.com/item?id=45788732
+积分：1
+# 条评论：0]]></description>
+      <guid>https://archive.gamehistory.org/folder/519c0dbd-0f5d-45fe-83c2-355a756391a9?sortField=date&sortDir=asc&showUncatalogedFiles=true</guid>
+      <pubDate>Sun, 02 Nov 2025 08:28:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我构建了一个直接在 Chrome 中运行的免费 VPN</title>
+      <link>https://chromewebstore.google.com/detail/quickvpn-proxy-–-vpn-for/pnbbbdihfmedmgilpjldboihdodhnkel</link>
+      <description><![CDATA[我构建了一个名为 QuickVPN Proxy 的轻量级 VPN Chrome 扩展程序，无需注册或配置即可立即连接。我制作它是因为我对需要帐户、降低浏览器速度或记录用户数据的 VPN 应用程序感到沮丧。 QuickVPN 完全在您的浏览器中运行并一键连接。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45788720
+积分：1
+# 条评论：0]]></description>
+      <guid>https://chromewebstore.google.com/detail/quickvpn-proxy-–-vpn-for/pnbbbdihfmedmgilpjldboihdodhnkel</guid>
+      <pubDate>Sun, 02 Nov 2025 08:24:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>FortNine – 谷歌经常因虚假广告影响而获得报酬 [视频]</title>
+      <link>https://www.youtube.com/watch?v=BfNIRyPi5QA</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=BfNIRyPi5QA
+评论网址：https://news.ycombinator.com/item?id=45788692
 积分：1
 # 条评论：1]]></description>
-      <guid>https://beatstorapon.com</guid>
-      <pubDate>Sun, 02 Nov 2025 05:46:31 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=BfNIRyPi5QA</guid>
+      <pubDate>Sun, 02 Nov 2025 08:18:04 GMT</pubDate>
     </item>
     <item>
-      <title>使用 Live-Build 快速构建自定义 Debian Live ISO (2023)</title>
-      <link>https://ianlecorbeau.com</link>
-      <description><![CDATA[文章网址：https://ianlecorbeau.com
-评论网址：https://news.ycombinator.com/item?id=45788076
-积分：1
+      <title>斯宾诺莎的伦理学</title>
+      <link>https://en.wikipedia.org/wiki/Spinoza%27s_Ethics</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Spinoza%27s_Ethics
+评论网址：https://news.ycombinator.com/item?id=45788634
+积分：4
 # 条评论：0]]></description>
-      <guid>https://ianlecorbeau.com</guid>
-      <pubDate>Sun, 02 Nov 2025 05:44:26 GMT</pubDate>
+      <guid>https://en.wikipedia.org/wiki/Spinoza%27s_Ethics</guid>
+      <pubDate>Sun, 02 Nov 2025 07:59:54 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：手持设备空间 – 全面的手持设备维基</title>
-      <link>https://handhelds.space/</link>
-      <description><![CDATA[文章网址：https://handhelds.space/
-评论网址：https://news.ycombinator.com/item?id=45788044
+      <title>我构建了一个基于 Rust 的进化 SIM，其中生物会吃掉它们的孩子</title>
+      <link>https://daymare.net/blogs/artificial-life/</link>
+      <description><![CDATA[文章网址：https://daymare.net/blogs/artificial-life/
+评论网址：https://news.ycombinator.com/item?id=45788614
 积分：1
 # 条评论：0]]></description>
-      <guid>https://handhelds.space/</guid>
-      <pubDate>Sun, 02 Nov 2025 05:33:19 GMT</pubDate>
+      <guid>https://daymare.net/blogs/artificial-life/</guid>
+      <pubDate>Sun, 02 Nov 2025 07:54:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
