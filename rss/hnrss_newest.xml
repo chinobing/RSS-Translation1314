@@ -4,113 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 03 Nov 2025 12:41:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Nov 2025 15:22:28 GMT</lastBuildDate>
     <item>
-      <title>Show HN：我构建了一个可以发现医学研究差距的工具</title>
-      <link>https://researchthegap.com</link>
-      <description><![CDATA[研究背后的想法是填补知识空白，增进我们对某个主题的理解。但这提出了一个问题：我在哪里可以找到一个？这个问题启发我创建了 Research the Gap，这是一个免费工具，它使用六个研究维度（人口、方法、自变量、结果和环境）中的两个将医学论文映射到网格上。研究较多的领域以绿色显示，而研究较少或没有研究的领域则以红色显示。您觉得怎么样？这个名字有意义吗？研究差距，比如注意差距？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45798375
+      <title>OpenAI 与亚马逊达成 38B 美元协议，让 ChatGPT 制造商使用 AWS</title>
+      <link>https://www.reuters.com/business/retail-consumer/openai-amazon-strike-38-billion-agreement-chatgpt-maker-use-aws-2025-11-03/</link>
+      <description><![CDATA[文章网址： https://www.reuters.com/business/retail-consumer/openai-amazon-strike-38-billion-agreement-chatgpt-maker-use-aws-2025-11-03/
+评论网址：https://news.ycombinator.com/item?id=45799924
 积分：1
 # 条评论：0]]></description>
-      <guid>https://researchthegap.com</guid>
-      <pubDate>Mon, 03 Nov 2025 12:33:52 GMT</pubDate>
+      <guid>https://www.reuters.com/business/retail-consumer/openai-amazon-strike-38-billion-agreement-chatgpt-maker-use-aws-2025-11-03/</guid>
+      <pubDate>Mon, 03 Nov 2025 15:13:11 GMT</pubDate>
     </item>
     <item>
-      <title>将 Coding-Agent RL 缩放至 32x H100。 160% Improvement on Stanford's TBench</title>
-      <link>https://github.com/Danau5tin/Orca-Agent-RL</link>
-      <description><![CDATA[文章网址：https://github.com/Danau5tin/Orca-Agent-RL
-评论网址：https://news.ycombinator.com/item?id=45798344
+      <title>“生物技术芭比娃娃”表示现在是考虑 CRISPR 婴儿的时候了</title>
+      <link>https://www.nature.com/articles/d41586-025-03554-y</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-025-03554-y
+评论网址：https://news.ycombinator.com/item?id=45799923
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nature.com/articles/d41586-025-03554-y</guid>
+      <pubDate>Mon, 03 Nov 2025 15:13:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>特殊教育的缓慢消亡</title>
+      <link>https://www.theatlantic.com/politics/archive/2025/11/special-education-shutdown/684777/</link>
+      <description><![CDATA[文章网址：https://www.theatlantic.com/politics/archive/2025/11/special-education-shutdown/684777/
+评论网址：https://news.ycombinator.com/item?id=45799922
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/Danau5tin/Orca-Agent-RL</guid>
-      <pubDate>Mon, 03 Nov 2025 12:29:10 GMT</pubDate>
+      <guid>https://www.theatlantic.com/politics/archive/2025/11/special-education-shutdown/684777/</guid>
+      <pubDate>Mon, 03 Nov 2025 15:12:58 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我构建了一个人工智能，可以在 30 秒内生成全栈应用程序</title>
-      <link>https://news.ycombinator.com/item?id=45798328</link>
-      <description><![CDATA[在过去的 6 个月里，我一直在构建 ORUS Builder，这是一个开源 AI 代码生成器。我的目标是解决 v0、Lovable 等工具遇到的最大问题 - 它们生成需要数小时调试的损坏的、无法编译的代码。ORUS Builder 不同。它使用“编译器完整性生成”(CIG) 协议，这是在生成代码之前运行的一组认知验证步骤。
-在我的测试中，首次编译成功率为 99.9%。工作流程很简单：
-1.在单个提示中描述一个应用程序。
-2.它在大约30秒内生成一个全栈应用程序（React/Vue/Angular + Node.js + DB schema）。
-3.您将获得一个 ZIP 文件，其中包含可用于生产的代码，包括测试和 CI/CD 配置。核心基于 TypeScript 和 Node.js 构建，它为不同的认知任务编排 3 个专门的 AI 连接器（我称之为“Trinity AI”）。完整的架构有超过 260 个内部组件。一些背景信息：我是一位来自巴西圣路易斯的企业家，拥有 15 年的经验。我不是一名程序员。我开发了一个名为“ORUS Method”的框架来协调 AI 进行复杂的创作，这是第一个用它构建的工具。
-我的理念是彻底透明和民主化获取强大技术。它获得了 100% MIT 许可，并将始终拥有免费、强大的开源核心。GitHub：https://github.com/OrusMind/Orus-Builder---Cognitive-Generat...我在这里一天回答技术问题，我已经做好了接受批评的准备。公开建设意味着敢于犯错。期待您的反馈。
-——图里奥·K
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45798328
+      <title>Python 核心冲刺 2025</title>
+      <link>https://hugovk.dev/blog/2025/python-core-sprint/</link>
+      <description><![CDATA[文章网址：https://hugovk.dev/blog/2025/python-core-sprint/
+评论网址：https://news.ycombinator.com/item?id=45799918
+积分：1
+# 条评论：0]]></description>
+      <guid>https://hugovk.dev/blog/2025/python-core-sprint/</guid>
+      <pubDate>Mon, 03 Nov 2025 15:12:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>传统的承诺让我伤心</title>
+      <link>https://srazkvt.codeberg.page/posts/2025-07-06-conventional-commits-makes-me-sad.html</link>
+      <description><![CDATA[文章网址：https://srazkvt.codeberg.page/posts/2025-07-06-conventional-commits-makes-me-sad.html
+评论网址：https://news.ycombinator.com/item?id=45799917
+积分：1
+# 条评论：0]]></description>
+      <guid>https://srazkvt.codeberg.page/posts/2025-07-06-conventional-commits-makes-me-sad.html</guid>
+      <pubDate>Mon, 03 Nov 2025 15:12:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能在几分钟内生成电子商务视觉效果</title>
+      <link>https://pomelli-ai.com</link>
+      <description><![CDATA[文章网址：https://pomelli-ai.com
+评论网址：https://news.ycombinator.com/item?id=45799863
+积分：1
+# 条评论：0]]></description>
+      <guid>https://pomelli-ai.com</guid>
+      <pubDate>Mon, 03 Nov 2025 15:08:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>科学就是这样发生的 (2020)</title>
+      <link>https://www.hillelwayne.com/post/this-is-how-science-happens/</link>
+      <description><![CDATA[文章网址：https://www.hillelwayne.com/post/this-is-how-science-happens/
+评论网址：https://news.ycombinator.com/item?id=45799848
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.hillelwayne.com/post/this-is-how-science-happens/</guid>
+      <pubDate>Mon, 03 Nov 2025 15:07:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>《我在北京送货》作者胡安彦谈中国电子商务等</title>
+      <link>https://restofworld.org/2025/hu-anyan-deliver-parcels-beijing-book-china-interview/</link>
+      <description><![CDATA[文章网址：https://restofworld.org/2025/hu-anyan-deliver-parcels-beijing-book-china-interview/
+评论网址：https://news.ycombinator.com/item?id=45799832
+积分：1
+# 条评论：0]]></description>
+      <guid>https://restofworld.org/2025/hu-anyan-deliver-parcels-beijing-book-china-interview/</guid>
+      <pubDate>Mon, 03 Nov 2025 15:06:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD 勘误表：AMD Zen 5 处理器上的 RDSEED 失败</title>
+      <link>https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7055.html</link>
+      <description><![CDATA[文章网址：https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7055.html
+评论网址：https://news.ycombinator.com/item?id=45799816
+积分：4
+# 条评论：1]]></description>
+      <guid>https://www.amd.com/en/resources/product-security/bulletin/amd-sb-7055.html</guid>
+      <pubDate>Mon, 03 Nov 2025 15:05:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cast(x AS STRING) 在 SQLite 中转换为整数</title>
+      <link>https://lalitm.com/cast-x-as-string-casts-to-integer-in-sqlite/</link>
+      <description><![CDATA[文章网址：https://lalitm.com/cast-x-as-string-casts-to-integer-in-sqlite/
+评论网址：https://news.ycombinator.com/item?id=45799814
 积分：2
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45798328</guid>
-      <pubDate>Mon, 03 Nov 2025 12:25:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为工程经理生存的初创公司</title>
-      <link>https://reluctantleadership.substack.com/p/surviving-startups-as-an-engineering</link>
-      <description><![CDATA[文章网址：https://reluctantleadership.substack.com/p/surviving-startups-as-an-engineering
-评论网址：https://news.ycombinator.com/item?id=45798311
-积分：2
-# 条评论：0]]></description>
-      <guid>https://reluctantleadership.substack.com/p/surviving-startups-as-an-engineering</guid>
-      <pubDate>Mon, 03 Nov 2025 12:22:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>我喜欢社交。然后我开始与聊天机器人交谈</title>
-      <link>https://www.wsj.com/tech/ai/ai-friends-socialization-chatbot-acb4dbf5</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/tech/ai/ai-friends-socialization-chatbot-acb4dbf5
-评论网址：https://news.ycombinator.com/item?id=45798304
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.wsj.com/tech/ai/ai-friends-socialization-chatbot-acb4dbf5</guid>
-      <pubDate>Mon, 03 Nov 2025 12:21:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>解决问题的关键是找到关键问题</title>
-      <link>https://news.ycombinator.com/item?id=45798294</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=45798294
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45798294</guid>
-      <pubDate>Mon, 03 Nov 2025 12:20:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>A11y.css</title>
-      <link>https://ffoodd.github.io/a11y.css/</link>
-      <description><![CDATA[文章网址：https://ffoodd.github.io/a11y.css/
-评论网址：https://news.ycombinator.com/item?id=45798289
-积分：3
-# 条评论：0]]></description>
-      <guid>https://ffoodd.github.io/a11y.css/</guid>
-      <pubDate>Mon, 03 Nov 2025 12:19:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>互联网档案馆的法律斗争已经结束，但其创始人哀悼失去的一切</title>
-      <link>https://arstechnica.com/tech-policy/2025/11/the-internet-archive-survived-major-copyright-losses-whats-next/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/tech-policy/2025/11/the-internet-archive-survived-major-copyright-losses-whats-next/
-评论网址：https://news.ycombinator.com/item?id=45798283
-积分：2
-# 条评论：0]]></description>
-      <guid>https://arstechnica.com/tech-policy/2025/11/the-internet-archive-survived-major-copyright-losses-whats-next/</guid>
-      <pubDate>Mon, 03 Nov 2025 12:18:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>我如何在家运行一条每月价值 4 万美元的生产线 [视频]</title>
-      <link>https://www.youtube.com/watch?v=RyKvEcgcswg</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=RyKvEcgcswg
-评论网址：https://news.ycombinator.com/item?id=45798254
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=RyKvEcgcswg</guid>
-      <pubDate>Mon, 03 Nov 2025 12:14:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们需要谈论道德多样性</title>
-      <link>https://hollisrobbinsanecdotal.substack.com/p/ethical-diversity</link>
-      <description><![CDATA[文章网址：https://hollisrobbinsanecdotal.substack.com/p/ethical-diversity
-评论网址：https://news.ycombinator.com/item?id=45798244
-积分：1
-# 条评论：0]]></description>
-      <guid>https://hollisrobbinsanecdotal.substack.com/p/ethical-diversity</guid>
-      <pubDate>Mon, 03 Nov 2025 12:12:47 GMT</pubDate>
+      <guid>https://lalitm.com/cast-x-as-string-casts-to-integer-in-sqlite/</guid>
+      <pubDate>Mon, 03 Nov 2025 15:05:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
