@@ -4,109 +4,113 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 03 Nov 2025 09:23:59 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Nov 2025 12:41:39 GMT</lastBuildDate>
     <item>
-      <title>不要让“废话”抹去多动症的现实</title>
-      <link>https://adhdreading.org/en</link>
-      <description><![CDATA[文章网址：https://adhdreading.org/en
-评论网址：https://news.ycombinator.com/item?id=45797210
-积分：1
-# 条评论：0]]></description>
-      <guid>https://adhdreading.org/en</guid>
-      <pubDate>Mon, 03 Nov 2025 09:12:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>棋子 (2008)</title>
-      <link>https://time.com/archive/6683570/the-chessman/</link>
-      <description><![CDATA[文章网址：https://time.com/archive/6683570/the-chessman/
-评论网址：https://news.ycombinator.com/item?id=45797199
-积分：1
-# 条评论：0]]></description>
-      <guid>https://time.com/archive/6683570/the-chessman/</guid>
-      <pubDate>Mon, 03 Nov 2025 09:09:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>新的 Golang 货币包</title>
-      <link>https://news.ycombinator.com/item?id=45797177</link>
-      <description><![CDATA[请查看我的新 golang 货币包https://github.com/the-nucleus-project/good_money
+      <title>Show HN：我构建了一个可以发现医学研究差距的工具</title>
+      <link>https://researchthegap.com</link>
+      <description><![CDATA[研究背后的想法是填补知识空白，增进我们对某个主题的理解。但这提出了一个问题：我在哪里可以找到一个？这个问题启发我创建了 Research the Gap，这是一个免费工具，它使用六个研究维度（人口、方法、自变量、结果和环境）中的两个将医学论文映射到网格上。研究较多的领域以绿色显示，而研究较少或没有研究的领域则以红色显示。您觉得怎么样？这个名字有意义吗？研究差距，比如注意差距？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45797177
+评论网址：https://news.ycombinator.com/item?id=45798375
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45797177</guid>
-      <pubDate>Mon, 03 Nov 2025 09:06:28 GMT</pubDate>
+      <guid>https://researchthegap.com</guid>
+      <pubDate>Mon, 03 Nov 2025 12:33:52 GMT</pubDate>
     </item>
     <item>
-      <title>德国研究基金会希望从美国云中检索数据</title>
-      <link>https://www.heise.de/news/US-Clouds-Deutsche-Forschungsgemeinschaft-will-Daten-aus-dem-Ausland-heimholen-10966079.html</link>
-      <description><![CDATA[文章网址：
-评论网址：https://news.ycombinator.com/item?id=45797171
+      <title>将 Coding-Agent RL 缩放至 32x H100。 160% Improvement on Stanford's TBench</title>
+      <link>https://github.com/Danau5tin/Orca-Agent-RL</link>
+      <description><![CDATA[文章网址：https://github.com/Danau5tin/Orca-Agent-RL
+评论网址：https://news.ycombinator.com/item?id=45798344
+积分：1
+# 条评论：1]]></description>
+      <guid>https://github.com/Danau5tin/Orca-Agent-RL</guid>
+      <pubDate>Mon, 03 Nov 2025 12:29:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我构建了一个人工智能，可以在 30 秒内生成全栈应用程序</title>
+      <link>https://news.ycombinator.com/item?id=45798328</link>
+      <description><![CDATA[在过去的 6 个月里，我一直在构建 ORUS Builder，这是一个开源 AI 代码生成器。我的目标是解决 v0、Lovable 等工具遇到的最大问题 - 它们生成需要数小时调试的损坏的、无法编译的代码。ORUS Builder 不同。它使用“编译器完整性生成”(CIG) 协议，这是在生成代码之前运行的一组认知验证步骤。
+在我的测试中，首次编译成功率为 99.9%。工作流程很简单：
+1.在单个提示中描述一个应用程序。
+2.它在大约30秒内生成一个全栈应用程序（React/Vue/Angular + Node.js + DB schema）。
+3.您将获得一个 ZIP 文件，其中包含可用于生产的代码，包括测试和 CI/CD 配置。核心基于 TypeScript 和 Node.js 构建，它为不同的认知任务编排 3 个专门的 AI 连接器（我称之为“Trinity AI”）。完整的架构有超过 260 个内部组件。一些背景信息：我是一位来自巴西圣路易斯的企业家，拥有 15 年的经验。我不是一名程序员。我开发了一个名为“ORUS Method”的框架来协调 AI 进行复杂的创作，这是第一个用它构建的工具。
+我的理念是彻底透明和民主化获取强大技术。它获得了 100% MIT 许可，并将始终拥有免费、强大的开源核心。GitHub：https://github.com/OrusMind/Orus-Builder---Cognitive-Generat...我在这里一天回答技术问题，我已经做好了接受批评的准备。公开建设意味着敢于犯错。期待您的反馈。
+——图里奥·K
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45798328
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.heise.de/news/US-Clouds-Deutsche-Forschungsgemeinschaft-will-Daten-aus-dem-Ausland-heimholen-10966079.html</guid>
-      <pubDate>Mon, 03 Nov 2025 09:05:20 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45798328</guid>
+      <pubDate>Mon, 03 Nov 2025 12:25:20 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN: Serie – 在终端中显示丰富的 Git 提交图</title>
-      <link>https://github.com/lusingander/serie</link>
-      <description><![CDATA[Serie 是一个 TUI 应用程序，它使用终端模拟器的图像显示协议来呈现提交图，如 git log --graph --all。这不是一个功能齐全的 git 客户端，也没有任何计划添加此类功能，因此它不能替代 tig、lazygit、gitui 等。此工具的唯一目的是提供漂亮的 git log --graph 并使提交信息易于访问。虽然有些用户更喜欢通过以下方式使用 Git CLI，他们通常依赖 GUI 或功能丰富的 TUI 来查看提交日志。其他人可能会发现 git log --graph 足够了。就我个人而言，我发现 git log --graph 的输出很难阅读，即使有其他选项也是如此。仅仅为了查看日志而学习复杂的工具似乎很麻烦。限制：- 不支持 Sixel。仅支持支持 iTerm 和 kitty 图像协议的终端。- 不支持终端多路复用器。- 不支持 Windows。https://github.com/lusingander/serie
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45797169
-积分：1
+      <title>作为工程经理生存的初创公司</title>
+      <link>https://reluctantleadership.substack.com/p/surviving-startups-as-an-engineering</link>
+      <description><![CDATA[文章网址：https://reluctantleadership.substack.com/p/surviving-startups-as-an-engineering
+评论网址：https://news.ycombinator.com/item?id=45798311
+积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/lusingander/serie</guid>
-      <pubDate>Mon, 03 Nov 2025 09:04:51 GMT</pubDate>
+      <guid>https://reluctantleadership.substack.com/p/surviving-startups-as-an-engineering</guid>
+      <pubDate>Mon, 03 Nov 2025 12:22:21 GMT</pubDate>
     </item>
     <item>
-      <title>我尝试了第一个人形家用机器人。事情变得很奇怪[视频]</title>
-      <link>https://www.youtube.com/watch?v=f3c4mQty_so</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=f3c4mQty_so
-评论网址：https://news.ycombinator.com/item?id=45797131
+      <title>我喜欢社交。然后我开始与聊天机器人交谈</title>
+      <link>https://www.wsj.com/tech/ai/ai-friends-socialization-chatbot-acb4dbf5</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/tech/ai/ai-friends-socialization-chatbot-acb4dbf5
+评论网址：https://news.ycombinator.com/item?id=45798304
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=f3c4mQty_so</guid>
-      <pubDate>Mon, 03 Nov 2025 08:56:45 GMT</pubDate>
+      <guid>https://www.wsj.com/tech/ai/ai-friends-socialization-chatbot-acb4dbf5</guid>
+      <pubDate>Mon, 03 Nov 2025 12:21:40 GMT</pubDate>
     </item>
     <item>
-      <title>只需编写测试</title>
-      <link>https://theblackarrovv.github.io/thoughts/2025/11/02/write-tests.html</link>
-      <description><![CDATA[文章网址：https://theblackarrovv.github.io/thoughts/2025/11/02/write-tests.html
-评论网址：https://news.ycombinator.com/item?id=45797121
+      <title>解决问题的关键是找到关键问题</title>
+      <link>https://news.ycombinator.com/item?id=45798294</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=45798294
 积分：1
 # 条评论：0]]></description>
-      <guid>https://theblackarrovv.github.io/thoughts/2025/11/02/write-tests.html</guid>
-      <pubDate>Mon, 03 Nov 2025 08:54:46 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45798294</guid>
+      <pubDate>Mon, 03 Nov 2025 12:20:33 GMT</pubDate>
     </item>
     <item>
-      <title>LinkedIn 和自我推销的艺术</title>
-      <link>https://www.economist.com/business/2025/10/30/linkedin-and-the-art-of-self-promotion</link>
-      <description><![CDATA[文章网址：https://www.economist.com/business/2025/10/30/linkedin-and-the-art-of-self-promotion
-评论网址：https://news.ycombinator.com/item?id=45797112
-积分：1
+      <title>A11y.css</title>
+      <link>https://ffoodd.github.io/a11y.css/</link>
+      <description><![CDATA[文章网址：https://ffoodd.github.io/a11y.css/
+评论网址：https://news.ycombinator.com/item?id=45798289
+积分：3
 # 条评论：0]]></description>
-      <guid>https://www.economist.com/business/2025/10/30/linkedin-and-the-art-of-self-promotion</guid>
-      <pubDate>Mon, 03 Nov 2025 08:52:31 GMT</pubDate>
+      <guid>https://ffoodd.github.io/a11y.css/</guid>
+      <pubDate>Mon, 03 Nov 2025 12:19:46 GMT</pubDate>
     </item>
     <item>
-      <title>如何建立自己的VPN，或者：WARP的历史</title>
-      <link>https://blog.cloudflare.com/how-to-build-your-own-vpn-or-the-history-of-warp/</link>
-      <description><![CDATA[文章网址：https://blog.cloudflare.com/how-to-build-your-own-vpn-or-the-history-of-warp/
-评论网址：https://news.ycombinator.com/item?id=45797083
-积分：1
+      <title>互联网档案馆的法律斗争已经结束，但其创始人哀悼失去的一切</title>
+      <link>https://arstechnica.com/tech-policy/2025/11/the-internet-archive-survived-major-copyright-losses-whats-next/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/tech-policy/2025/11/the-internet-archive-survived-major-copyright-losses-whats-next/
+评论网址：https://news.ycombinator.com/item?id=45798283
+积分：2
 # 条评论：0]]></description>
-      <guid>https://blog.cloudflare.com/how-to-build-your-own-vpn-or-the-history-of-warp/</guid>
-      <pubDate>Mon, 03 Nov 2025 08:46:51 GMT</pubDate>
+      <guid>https://arstechnica.com/tech-policy/2025/11/the-internet-archive-survived-major-copyright-losses-whats-next/</guid>
+      <pubDate>Mon, 03 Nov 2025 12:18:39 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN: Stack Masters – 一款基于物理的类似俄罗斯方块的骰子堆叠游戏</title>
-      <link>https://easel.games/@raysplaceinspace/stack-masters/</link>
-      <description><![CDATA[在这款游戏中，你必须与物理斗争才能将骰子排成一行。将成堆的骰子扔到空中，将正确的骰子放在底部。在我看来，这款游戏在触摸屏上感觉非常令人满意，所以如果您有平板电脑或手机，请尝试在平板电脑或手机上玩它！只是认为这将是 HN 可能会喜欢的物理引擎的有趣使用！这款游戏是为了 Gamejam 在 3 天内创建的。所有音乐和艺术作品均为原创。用画架制作。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45797071
+      <title>我如何在家运行一条每月价值 4 万美元的生产线 [视频]</title>
+      <link>https://www.youtube.com/watch?v=RyKvEcgcswg</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=RyKvEcgcswg
+评论网址：https://news.ycombinator.com/item?id=45798254
 积分：1
 # 条评论：0]]></description>
-      <guid>https://easel.games/@raysplaceinspace/stack-masters/</guid>
-      <pubDate>Mon, 03 Nov 2025 08:44:24 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=RyKvEcgcswg</guid>
+      <pubDate>Mon, 03 Nov 2025 12:14:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们需要谈论道德多样性</title>
+      <link>https://hollisrobbinsanecdotal.substack.com/p/ethical-diversity</link>
+      <description><![CDATA[文章网址：https://hollisrobbinsanecdotal.substack.com/p/ethical-diversity
+评论网址：https://news.ycombinator.com/item?id=45798244
+积分：1
+# 条评论：0]]></description>
+      <guid>https://hollisrobbinsanecdotal.substack.com/p/ethical-diversity</guid>
+      <pubDate>Mon, 03 Nov 2025 12:12:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
