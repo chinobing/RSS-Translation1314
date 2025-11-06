@@ -4,106 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 06 Nov 2025 15:22:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Nov 2025 18:30:03 GMT</lastBuildDate>
     <item>
-      <title>Kessel Run（美国 AF 计划）很糟糕</title>
-      <link>https://kesselrunsucks.com/</link>
-      <description><![CDATA[文章网址：https://kesselrunsucks.com/
-评论网址：https://news.ycombinator.com/item?id=45836201
+      <title>TypeScript 在人工智能时代的崛起：首席架构师 Anders Hejlsberg 的见解</title>
+      <link>https://github.blog/developer-skills/programming-languages-and-frameworks/typescripts-rise-in-the-ai-era-insights-from-lead-architect-anders-hejlsberg/</link>
+      <description><![CDATA[文章网址： https://github.blog/developer-skills/programming-languages-and-frameworks/typescripts-rise-in-the-ai-era-insights-from-lead-architect-anders-hejlsberg/
+评论网址：https://news.ycombinator.com/item?id=45838557
 积分：1
 # 条评论：0]]></description>
-      <guid>https://kesselrunsucks.com/</guid>
-      <pubDate>Thu, 06 Nov 2025 15:18:00 GMT</pubDate>
+      <guid>https://github.blog/developer-skills/programming-languages-and-frameworks/typescripts-rise-in-the-ai-era-insights-from-lead-architect-anders-hejlsberg/</guid>
+      <pubDate>Thu, 06 Nov 2025 18:28:09 GMT</pubDate>
     </item>
     <item>
-      <title>《LOTRO》中佛罗多从夏尔步行到魔多的 9 小时视频</title>
-      <link>https://www.youtube.com/watch?v=LYipECdYpXc</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=LYipECdYpXc
-评论网址：https://news.ycombinator.com/item?id=45836192
+      <title>抽象熵简介</title>
+      <link>https://www.lesswrong.com/posts/REA49tL5jsh69X3aM/introduction-to-abstract-entropy</link>
+      <description><![CDATA[文章网址：https://www.lesswrong.com/posts/REA49tL5jsh69X3aM/introduction-to-abstract-entropy
+评论网址：https://news.ycombinator.com/item?id=45838556
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=LYipECdYpXc</guid>
-      <pubDate>Thu, 06 Nov 2025 15:17:03 GMT</pubDate>
+      <guid>https://www.lesswrong.com/posts/REA49tL5jsh69X3aM/introduction-to-abstract-entropy</guid>
+      <pubDate>Thu, 06 Nov 2025 18:28:02 GMT</pubDate>
     </item>
     <item>
-      <title>Git 3.0 即将到来：Git 用户需要了解的关于下一个主要版本的信息</title>
-      <link>https://www.deployhq.com/blog/git-3-0-on-the-horizon-what-git-users-need-to-know-about-the-next-major-release</link>
-      <description><![CDATA[文章网址：https://www.deployhq.com/blog/git-3-0-on-the-horizon-what-git-users-need-to-know-about-the-next-major-release
-评论网址：https://news.ycombinator.com/item?id=45836184
+      <title>美学索引</title>
+      <link>https://cari.institute/aesthetics</link>
+      <description><![CDATA[文章网址：https://cari.institute/aesthetics
+评论网址：https://news.ycombinator.com/item?id=45838554
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.deployhq.com/blog/git-3-0-on-the-horizon-what-git-users-need-to-know-about-the-next-major-release</guid>
-      <pubDate>Thu, 06 Nov 2025 15:16:22 GMT</pubDate>
+      <guid>https://cari.institute/aesthetics</guid>
+      <pubDate>Thu, 06 Nov 2025 18:27:55 GMT</pubDate>
     </item>
     <item>
-      <title>最后写、先读规则</title>
-      <link>https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/</link>
-      <description><![CDATA[文章网址：https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/
-评论网址：https://news.ycombinator.com/item?id=45836170
+      <title>显示 HN：TabPFN-2.5 – 表格数据的 SOTA 基础模型</title>
+      <link>https://priorlabs.ai/technical-reports/tabpfn-2-5-model-report</link>
+      <description><![CDATA[我很高兴地宣布发布 TabPFN-2.5，这是我们的表格基础模型，现在可扩展到包含多达 50,000 个样本和 2,000 个特征的数据集，比今年早些时候在《自然》杂志上发布的 TabPFN v2 增加了 5 倍。 TabPFN-2.5 在一次前向传递中提供最先进的预测，无需跨分类和回归任务进行超参数调整。2.5 中的新增功能：
+TabPFN-2.5 保留了 v2 的核心方法 - 一个预训练的 Transformer，在超过一亿个合成数据集上进行训练，以执行上下文学习并输出测试数据的预测分布。它本身支持缺失值、分类特征、文本和数字特征，对异常值和无信息特征具有鲁棒性。主要改进：- 规模增加 5 倍：现在可处理 50,000 个样本 × 2,000 个特征（v2 中为 10,000 × 500 个）- SOTA 性能：TabPFN-2.5 优于基于树的调整方法，并与复杂模型的性能相匹配ensemble (AutoGluon 1.4)，其本身包括 TabPFN v2，调整了 4 小时。调整模型可提高性能，在回归任务方面优于 AutoGluon 1.4。- 重建 API：新的 REST 接口以及具有专用拟合和预测端点的 Python SDK，使部署和集成对开发人员更加友好- 蒸馏引擎，可将 TabPFN-2.5 转换为紧凑的 MLP 或树集成，同时保持准确性并提供低延迟推理。仍然存在一些限制。该模型专为高达 50K 样本的数据集而设计。它可以处理更大的数据集，但这并不是 TabPFN-2.5 的重点。蒸馏引擎尚未通过 API 提供，只能通过许可证使用（尽管我们确实在模型报告中展示了性能）。我们正在积极努力消除这些限制，并打算发布专注于上下文推理、因果推理、图形网络、更大数据和时间序列的新模型。
+TabPFN-2.5 可通过 API 和 Hugging Face 上的包获得。希望您尝试一下并向我们提供反馈！模型报告：https://priorlabs.ai/technical-reports/tabpfn-2-5-model-repo...包装：https://github.com/PriorLabs/TabPFN客户端：https://github.com/PriorLabs/tabpfn-client文档：https://docs.priorlabs.ai/quickstart
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45838540
+积分：4
+# 条评论：0]]></description>
+      <guid>https://priorlabs.ai/technical-reports/tabpfn-2-5-model-report</guid>
+      <pubDate>Thu, 06 Nov 2025 18:26:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究表明宇宙膨胀可能正在放缓，而不是加速</title>
+      <link>https://www.theguardian.com/science/2025/nov/06/universe-expansion-slowing-not-accelerating-nobel-prize</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/science/2025/nov/06/universe-expansion-slowing-not-acceleating-nobel-prize
+评论网址：https://news.ycombinator.com/item?id=45838508
 积分：1
 # 条评论：0]]></description>
-      <guid>https://tigerbeetle.com/blog/2025-11-06-the-write-last-read-first-rule/</guid>
-      <pubDate>Thu, 06 Nov 2025 15:15:19 GMT</pubDate>
+      <guid>https://www.theguardian.com/science/2025/nov/06/universe-expansion-slowing-not-accelerating-nobel-prize</guid>
+      <pubDate>Thu, 06 Nov 2025 18:24:42 GMT</pubDate>
     </item>
     <item>
-      <title>通过 $RankFusion 利用图集搜索和矢量搜索的强大功能</title>
-      <link>https://www.mongodb.com/company/blog/technical/harness-power-atlas-search-vector-search-with-rankfusion</link>
-      <description><![CDATA[文章网址：https://www.mongodb.com/company/blog/technical/harness-power-atlas-search-vector-search-with-rankfusion
-评论网址：https://news.ycombinator.com/item?id=45836154
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.mongodb.com/company/blog/technical/harness-power-atlas-search-vector-search-with-rankfusion</guid>
-      <pubDate>Thu, 06 Nov 2025 15:14:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rust 正在吞噬世界：从固件到跨平台应用程序、服务器</title>
-      <link>https://kerkour.com/rust-is-eating-the-world</link>
-      <description><![CDATA[文章网址：https://kerkour.com/rust-is-eating-the-world
-评论网址：https://news.ycombinator.com/item?id=45836149
+      <title>Deepnote，“Jupyter Notebook 的继任者”，开源</title>
+      <link>https://thenewstack.io/deepnote-a-successor-to-jupyter-notebook-goes-open-source/</link>
+      <description><![CDATA[文章网址：https://thenewstack.io/deepnote-a-successor-to-jupyter-notebook-goes-open-source/
+评论网址：https://news.ycombinator.com/item?id=45838493
 积分：2
 # 条评论：0]]></description>
-      <guid>https://kerkour.com/rust-is-eating-the-world</guid>
-      <pubDate>Thu, 06 Nov 2025 15:13:34 GMT</pubDate>
+      <guid>https://thenewstack.io/deepnote-a-successor-to-jupyter-notebook-goes-open-source/</guid>
+      <pubDate>Thu, 06 Nov 2025 18:23:20 GMT</pubDate>
     </item>
     <item>
-      <title>Tidyverse 的个人历史</title>
-      <link>https://hadley.github.io/25-tidyverse-history/?trk=feed_main-feed-card_feed-article-content</link>
-      <description><![CDATA[文章网址：https://hadley.github.io/25-tidyverse-history/?trk=feed_main-feed-card_feed-article-content
-评论网址：https://news.ycombinator.com/item?id=45836138
-积分：2
-# 条评论：0]]></description>
-      <guid>https://hadley.github.io/25-tidyverse-history/?trk=feed_main-feed-card_feed-article-content</guid>
-      <pubDate>Thu, 06 Nov 2025 15:12:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>科学家表示，外星人感到“无聊”并停止寻找人类</title>
-      <link>https://scienceclock.com/aliens-got-bored-and-stopped-searching-humans-says-scientist/</link>
-      <description><![CDATA[文章网址：https://scienceclock.com/aliens-got-bored-and-stopped-searching- humans-says-scientist/
-评论网址：https://news.ycombinator.com/item?id=45836124
-积分：1
-# 条评论：1]]></description>
-      <guid>https://scienceclock.com/aliens-got-bored-and-stopped-searching-humans-says-scientist/</guid>
-      <pubDate>Thu, 06 Nov 2025 15:10:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>磁共振钢琴</title>
-      <link>http://instrumentslab.org/research/mrp.html</link>
-      <description><![CDATA[文章网址：http://instrumentslab.org/research/mrp.html
-评论网址：https://news.ycombinator.com/item?id=45836114
-积分：2
-# 条评论：0]]></description>
-      <guid>http://instrumentslab.org/research/mrp.html</guid>
-      <pubDate>Thu, 06 Nov 2025 15:10:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>隐藏 100 年后佛罗伦萨钻石重新浮出水面</title>
-      <link>https://www.nytimes.com/2025/11/06/arts/design/florentine-diamond-resurfaces-hapsburg.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2025/11/06/arts/design/florentine-diamond-resurfaces-hapsburg.html
-评论网址：https://news.ycombinator.com/item?id=45836110
+      <title>43% 的 Z 世代更喜欢 YouTube 和 TikTok，而不是传统电视和流媒体</title>
+      <link>https://variety.com/2025/tv/news/gen-z-youtube-tiktok-microdramas-1236569763/</link>
+      <description><![CDATA[文章网址：https://variety.com/2025/tv/news/gen-z-youtube-tiktok-microdramas-1236569763/
+评论网址：https://news.ycombinator.com/item?id=45838490
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.nytimes.com/2025/11/06/arts/design/florentine-diamond-resurfaces-hapsburg.html</guid>
-      <pubDate>Thu, 06 Nov 2025 15:09:56 GMT</pubDate>
+      <guid>https://variety.com/2025/tv/news/gen-z-youtube-tiktok-microdramas-1236569763/</guid>
+      <pubDate>Thu, 06 Nov 2025 18:23:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>终点线：沙特阿拉伯的 Neom 梦想如何破灭</title>
+      <link>https://www.ft.com/register/access</link>
+      <description><![CDATA[文章网址：https://www.ft.com/register/access
+评论网址：https://news.ycombinator.com/item?id=45838470
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.ft.com/register/access</guid>
+      <pubDate>Thu, 06 Nov 2025 18:21:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Squidfunk 宣布推出 Zensical，MkDocs 材料现已处于维护模式</title>
+      <link>https://squidfunk.github.io/mkdocs-material/blog/2025/11/05/zensical/</link>
+      <description><![CDATA[文章网址：https://squidfunk.github.io/mkdocs-material/blog/2025/11/05/zensical/
+评论网址：https://news.ycombinator.com/item?id=45838439
+积分：2
+# 条评论：0]]></description>
+      <guid>https://squidfunk.github.io/mkdocs-material/blog/2025/11/05/zensical/</guid>
+      <pubDate>Thu, 06 Nov 2025 18:19:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>阿根廷一个前所未知的血统延续了八千年</title>
+      <link>https://www.nature.com/articles/s41586-025-09731-3</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41586-025-09731-3
+评论网址：https://news.ycombinator.com/item?id=45838429
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nature.com/articles/s41586-025-09731-3</guid>
+      <pubDate>Thu, 06 Nov 2025 18:17:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
