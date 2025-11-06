@@ -4,44 +4,97 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 06 Nov 2025 18:29:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Nov 2025 21:19:10 GMT</lastBuildDate>
     <item>
-      <title>OpenDesk – 一款适用于公共部门的灵活一体式办公套件</title>
-      <link>https://www.opendesk.eu/de</link>
-      <description><![CDATA[文章网址：https://www.opendesk.eu/de
-评论网址：https://news.ycombinator.com/item?id=45838239
-积分：14
-# 条评论：1]]></description>
-      <guid>https://www.opendesk.eu/de</guid>
-      <pubDate>Thu, 06 Nov 2025 18:04:28 GMT</pubDate>
+      <title>宇宙的膨胀“现在正在放缓，而不是加速”</title>
+      <link>https://ras.ac.uk/news-and-press/research-highlights/universes-expansion-now-slowing-not-speeding</link>
+      <description><![CDATA[文章网址：https://ras.ac.uk/news-and-press/research-highlights/universes-expansion-now-slowing-not-speeding
+评论网址：https://news.ycombinator.com/item?id=45840200
+积分：6
+# 条评论：0]]></description>
+      <guid>https://ras.ac.uk/news-and-press/research-highlights/universes-expansion-now-slowing-not-speeding</guid>
+      <pubDate>Thu, 06 Nov 2025 20:45:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>20 亿电子邮件地址被泄露</title>
+      <link>https://www.troyhunt.com/2-billion-email-addresses-were-exposed-and-we-indexed-them-all-in-have-i-been-pwned/</link>
+      <description><![CDATA[文章网址：https://www.troyhunt.com/2-billion-email-addresses-were-expose-and-we-indexed-them-all-in-have-i-been-pwned/
+评论网址：https://news.ycombinator.com/item?id=45839901
+积分：94
+# 条评论：54]]></description>
+      <guid>https://www.troyhunt.com/2-billion-email-addresses-were-exposed-and-we-indexed-them-all-in-have-i-been-pwned/</guid>
+      <pubDate>Thu, 06 Nov 2025 20:20:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>英国在通过早期风险投资创建独角兽方面表现优于美国</title>
+      <link>https://www.cityam.com/uk-outperforms-us-in-creating-unicorns-from-early-stage-vc-investment/</link>
+      <description><![CDATA[文章网址：https://www.cityam.com/uk-outperforms-us-in-creating-unicorns-from-early-stage-vc-investment/
+评论网址：https://news.ycombinator.com/item?id=45839655
+积分：25
+# 条评论：18]]></description>
+      <guid>https://www.cityam.com/uk-outperforms-us-in-creating-unicorns-from-early-stage-vc-investment/</guid>
+      <pubDate>Thu, 06 Nov 2025 20:01:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>黑洞耀斑是观测到的最大且最远的</title>
+      <link>https://www.caltech.edu/about/news/black-hole-flare-is-biggest-and-most-distant-seen</link>
+      <description><![CDATA[文章网址：https://www.caltech.edu/about/news/black-hole-flare-is-biggest-and-most-distant-seen
+评论网址：https://news.ycombinator.com/item?id=45838864
+积分：9
+# 条评论：3]]></description>
+      <guid>https://www.caltech.edu/about/news/black-hole-flare-is-biggest-and-most-distant-seen</guid>
+      <pubDate>Thu, 06 Nov 2025 18:54:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>法学硕士编码问题的难度</title>
+      <link>https://arxiv.org/abs/2510.18147</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2510.18147
+评论网址：https://news.ycombinator.com/item?id=45838564
+积分：55
+# 条评论：4]]></description>
+      <guid>https://arxiv.org/abs/2510.18147</guid>
+      <pubDate>Thu, 06 Nov 2025 18:29:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：TabPFN-2.5 – 表格数据的 SOTA 基础模型</title>
+      <link>https://priorlabs.ai/technical-reports/tabpfn-2-5-model-report</link>
+      <description><![CDATA[我很高兴地宣布发布 TabPFN-2.5，这是我们的表格基础模型，现在可扩展到包含多达 50,000 个样本和 2,000 个特征的数据集，比今年早些时候在《自然》杂志上发布的 TabPFN v2 增加了 5 倍。 TabPFN-2.5 在一次前向传递中提供最先进的预测，无需跨分类和回归任务进行超参数调整。2.5 中的新增功能：
+TabPFN-2.5 保留了 v2 的核心方法 - 一个预训练的 Transformer，在超过一亿个合成数据集上进行训练，以执行上下文学习并输出测试数据的预测分布。它本身支持缺失值、分类特征、文本和数字特征，对异常值和无信息特征具有鲁棒性。主要改进：- 规模增加 5 倍：现在可处理 50,000 个样本 × 2,000 个特征（v2 中为 10,000 × 500 个）- SOTA 性能：TabPFN-2.5 优于基于树的调整方法，并与复杂模型的性能相匹配ensemble (AutoGluon 1.4)，其本身包括 TabPFN v2，调整了 4 小时。调整模型可提高性能，在回归任务方面优于 AutoGluon 1.4。- 重建 API：新的 REST 接口以及具有专用拟合和预测端点的 Python SDK，使部署和集成对开发人员更加友好- 蒸馏引擎，可将 TabPFN-2.5 转换为紧凑的 MLP 或树集成，同时保持准确性并提供低延迟推理。仍然存在一些限制。该模型专为高达 50K 样本的数据集而设计。它可以处理更大的数据集，但这并不是 TabPFN-2.5 的重点。蒸馏引擎尚未通过 API 提供，只能通过许可证使用（尽管我们确实在模型报告中展示了性能）。我们正在积极努力消除这些限制，并打算发布专注于上下文推理、因果推理、图形网络、更大数据和时间序列的新模型。
+TabPFN-2.5 可通过 API 和 Hugging Face 上的包获得。希望您尝试一下并向我们提供反馈！模型报告：https://priorlabs.ai/technical-reports/tabpfn-2-5-model-repo...包装：https://github.com/PriorLabs/TabPFN客户端：https://github.com/PriorLabs/tabpfn-client文档：https://docs.priorlabs.ai/quickstart
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45838540
+积分：44
+# 条评论：11]]></description>
+      <guid>https://priorlabs.ai/technical-reports/tabpfn-2-5-model-report</guid>
+      <pubDate>Thu, 06 Nov 2025 18:26:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>对最可靠的文档解析 API 进行基准测试</title>
+      <link>https://www.tensorlake.ai/blog/benchmarks</link>
+      <description><![CDATA[文章网址：https://www.tensorlake.ai/blog/benchmarks
+评论网址：https://news.ycombinator.com/item?id=45838365
+积分：20
+# 条评论：13]]></description>
+      <guid>https://www.tensorlake.ai/blog/benchmarks</guid>
+      <pubDate>Thu, 06 Nov 2025 18:12:56 GMT</pubDate>
     </item>
     <item>
       <title>FreeBSD 上的 Swift 预览版</title>
       <link>https://forums.swift.org/t/swift-on-freebsd-preview/83064</link>
       <description><![CDATA[文章网址：https://forums.swift.org/t/swift-on-freebsd-preview/83064
 评论网址：https://news.ycombinator.com/item?id=45837871
-积分：34
-评论数量：9]]></description>
+积分：132
+# 条评论：71]]></description>
       <guid>https://forums.swift.org/t/swift-on-freebsd-preview/83064</guid>
       <pubDate>Thu, 06 Nov 2025 17:37:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>英语并不存在——只有发音很糟糕的法语</title>
-      <link>https://www.frenchclasses.com/tablettes-de-chocolat/the-english-language-doesnt-exist-its-just-french-thats-badly-pronounced/</link>
-      <description><![CDATA[文章网址：https://www.frenchclasses.com/tablettes-de-chocolat/the-english-language-doesnt-exist-its-just-french-thats-badly-pronounced/
-评论网址：https://news.ycombinator.com/item?id=45837452
-积分：48
-# 条评论：37]]></description>
-      <guid>https://www.frenchclasses.com/tablettes-de-chocolat/the-english-language-doesnt-exist-its-just-french-thats-badly-pronounced/</guid>
-      <pubDate>Thu, 06 Nov 2025 17:06:47 GMT</pubDate>
     </item>
     <item>
       <title>并行搜索 API</title>
       <link>https://parallel.ai/blog/introducing-parallel-search</link>
       <description><![CDATA[文章网址：https://parallel.ai/blog/introducing-parallel-search
 评论网址：https://news.ycombinator.com/item?id=45837425
-积分：13
-# 条评论：4]]></description>
+积分：52
+# 条评论：29]]></description>
       <guid>https://parallel.ai/blog/introducing-parallel-search</guid>
       <pubDate>Thu, 06 Nov 2025 17:04:41 GMT</pubDate>
     </item>
@@ -54,56 +107,6 @@
 # 条评论：0]]></description>
       <guid>https://www.ycombinator.com/companies/artie/jobs/gqANVBc-senior-business-operations</guid>
       <pubDate>Thu, 06 Nov 2025 17:00:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>ICC 放弃 Microsoft 365 转而使用 openDesk</title>
-      <link>https://www.binnenlandsbestuur.nl/digitaal/internationaal-strafhof-neemt-afscheid-van-microsoft-365</link>
-      <description><![CDATA[文章网址：https://www.binnenlandsadministratie.nl/digitaal/internationaal-strafhof-nemen-afscheid-van-microsoft-365
-评论网址：https://news.ycombinator.com/item?id=45837342
-积分：169
-# 条评论：38]]></description>
-      <guid>https://www.binnenlandsbestuur.nl/digitaal/internationaal-strafhof-neemt-afscheid-van-microsoft-365</guid>
-      <pubDate>Thu, 06 Nov 2025 16:57:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>FBI 试图揭露 archive.is 所有者的身份</title>
-      <link>https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html</link>
-      <description><![CDATA[文章网址：https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html
-评论网址：https://news.ycombinator.com/item?id=45836826
-积分：270
-# 条评论：137]]></description>
-      <guid>https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html</guid>
-      <pubDate>Thu, 06 Nov 2025 16:18:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>供应链攻击正在利用我们的假设</title>
-      <link>https://blog.trailofbits.com/2025/09/24/supply-chain-attacks-are-exploiting-our-assumptions/</link>
-      <description><![CDATA[文章网址：https://blog.trailofbits.com/2025/09/24/supply-chain-attacks-are-exploiting-our-assections/
-评论网址：https://news.ycombinator.com/item?id=45836466
-积分：13
-# 条评论：0]]></description>
-      <guid>https://blog.trailofbits.com/2025/09/24/supply-chain-attacks-are-exploiting-our-assumptions/</guid>
-      <pubDate>Thu, 06 Nov 2025 15:46:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>澳大利亚拥有如此丰富的太阳能，为每个人提供免费电力</title>
-      <link>https://electrek.co/2025/11/04/australia-has-so-much-solar-that-its-offering-everyone-free-electricity-3h-day/</link>
-      <description><![CDATA[文章网址： https://electrek.co/2025/11/04/australia-has-so-much-solar-that-its-offering-everyone-free-electricity-3h-day/
-评论网址：https://news.ycombinator.com/item?id=45836104
-积分：140
-评论数量：90]]></description>
-      <guid>https://electrek.co/2025/11/04/australia-has-so-much-solar-that-its-offering-everyone-free-electricity-3h-day/</guid>
-      <pubDate>Thu, 06 Nov 2025 15:08:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kimi K2 Thinking，SOTA开源万亿参数推理模型</title>
-      <link>https://moonshotai.github.io/Kimi-K2/thinking.html</link>
-      <description><![CDATA[文章网址：https://moonshotai.github.io/Kimi-K2/thinking.html
-评论网址：https://news.ycombinator.com/item?id=45836070
-积分：226
-# 条评论：60]]></description>
-      <guid>https://moonshotai.github.io/Kimi-K2/thinking.html</guid>
-      <pubDate>Thu, 06 Nov 2025 15:06:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
