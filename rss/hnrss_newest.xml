@@ -4,108 +4,141 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 07 Nov 2025 18:30:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Nov 2025 21:16:02 GMT</lastBuildDate>
     <item>
-      <title>研究人员发现最大的蜘蛛网</title>
-      <link>https://www.youtube.com/watch?v=LXMYLzaZZ44</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=LXMYLzaZZ44
-评论网址：https://news.ycombinator.com/item?id=45849248
+      <title>Show HN：弥合 SIP 基础设施和实时 AI 之间的差距</title>
+      <link>https://leilani.dev</link>
+      <description><![CDATA[我发现流行的实时人工智能语音解决方案（Fin 等）很难与现有的呼叫流程集成，通常需要一种推倒重来的心态。更不用说它们可能很难安装。我想要的是一种将实时 AI“插入”我们现有 PBX 的原生方法，无需任何（或非常少的）配置。嗨 HN！我叫 Kiern，一直致力于 Leilani (https://leilani.dev)， 
+使用 OpenAI 的实时 API 将 PBX 连接到实时 AI 的平台。我决定构建本质上是软电话的东西。 Leilani 使用 SIP 用户名和密码连接到您的 PBX，然后您可以根据需要随意使用该分机。Leilani 提供了预构建的集成，可用于工单创建和 
+日历安排（即将推出更多供应商支持），但您还可以创建可以通过 HTTP 获取数据的自定义函数。 Leilani 还支持开箱即用的 RAG。您可以在不到一分钟的时间内设置 Leilani，这需要更多时间来创建
+OpenAI API 密钥，我不是在开玩笑。构建者欣赏这种方法的另一个好处是，您可以将东西做得非常小。如果您想要一个可以呼叫的分机并且它只告诉您天气，您可以构建它。大多数商业解决方案需要大量的支出、演示和 yadayadayada。如何工作！后端是用 Rust 编写的，具有自定义（非常简单）的 SIP 实现。当我们收到 SIP INVITE 时，我们会设置媒体，稍后将通过 WebSocket 与 OpenAI 的实时 API 之间传输音频。在我们收到对 OK 响应的 ACK 请求后，我们启动媒体。 Leilani 处理逻辑层和协议桥接，以便您可以快速构建很酷的东西。您可以通过 UI 中的实时转录或使用 PBX 来监控呼叫 
+现有的呼叫监控功能。请记住，它只是一个扩展！RAG 的工作原理是简单地在 UI 中上传文件，或者连接到
+公开的 WebDAV 服务器并在那里上传/同步文件。期待反馈和讨论！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45851135
+积分：1
+# 条评论：0]]></description>
+      <guid>https://leilani.dev</guid>
+      <pubDate>Fri, 07 Nov 2025 21:09:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>彼得泰尔：资本主义不适合年轻人</title>
+      <link>https://www.thefp.com/p/peter-thiel-capitalism-isnt-working-for-young-people</link>
+      <description><![CDATA[文章网址：https://www.thefp.com/p/peter-thiel-capitalism-isnt-working-for-young-people
+评论网址：https://news.ycombinator.com/item?id=45851130
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.thefp.com/p/peter-thiel-capitalism-isnt-working-for-young-people</guid>
+      <pubDate>Fri, 07 Nov 2025 21:08:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：你怎么知道一份工作是否可能是幽灵工作？</title>
+      <link>https://news.ycombinator.com/item?id=45851129</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=45851129
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=45851129</guid>
+      <pubDate>Fri, 07 Nov 2025 21:08:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Snippyst – 与社区分享和发现 Typst 片段</title>
+      <link>https://snippyst.com</link>
+      <description><![CDATA[文章网址：https://snippyst.com
+评论网址：https://news.ycombinator.com/item?id=45851126
+积分：1
+# 条评论：0]]></description>
+      <guid>https://snippyst.com</guid>
+      <pubDate>Fri, 07 Nov 2025 21:08:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>继续钓鱼，我的应用程序会记录您的渔获量</title>
+      <link>https://apps.apple.com/de/app/fishid-cam-fang-log-mit-ki/id6753859615</link>
+      <description><![CDATA[文章网址：https://apps.apple.com/de/app/fishid-cam-fang-log-mit-ki/id6753859615
+评论网址：https://news.ycombinator.com/item?id=45851121
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.youtube.com/watch?v=LXMYLzaZZ44</guid>
-      <pubDate>Fri, 07 Nov 2025 18:19:15 GMT</pubDate>
+      <guid>https://apps.apple.com/de/app/fishid-cam-fang-log-mit-ki/id6753859615</guid>
+      <pubDate>Fri, 07 Nov 2025 21:08:13 GMT</pubDate>
     </item>
     <item>
-      <title>3名中国宇航员滞留空间站 碎片击中返回舱</title>
-      <link>https://nypost.com/2025/11/06/world-news/3-chinese-astronauts-stranded-in-space-station-after-debris-strikes-return-capsule/</link>
-      <description><![CDATA[文章网址： https://nypost.com/2025/11/06/world-news/3-chinese-astronauts-stranded-in-space-station-after-debris-strikes-return-capsule/
-评论网址：https://news.ycombinator.com/item?id=45849245
-积分：1
-# 条评论：0]]></description>
-      <guid>https://nypost.com/2025/11/06/world-news/3-chinese-astronauts-stranded-in-space-station-after-debris-strikes-return-capsule/</guid>
-      <pubDate>Fri, 07 Nov 2025 18:19:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft 为即将推出的 Linux 6.19 内核贡献“Ramdax”驱动程序</title>
-      <link>https://www.phoronix.com/news/Microsoft-RAMDAX-Linux-Driver</link>
-      <description><![CDATA[文章网址：https://www.phoronix.com/news/Microsoft-RAMDAX-Linux-Driver
-评论网址：https://news.ycombinator.com/item?id=45849207
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.phoronix.com/news/Microsoft-RAMDAX-Linux-Driver</guid>
-      <pubDate>Fri, 07 Nov 2025 18:16:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>Midjourney 的市场份额正在下降：来自即时市场的实时数据</title>
-      <link>https://promptbase.com/popular-models</link>
-      <description><![CDATA[文章网址：https://promptbase.com/popular-models
-评论网址：https://news.ycombinator.com/item?id=45849205
-积分：1
-# 条评论：0]]></description>
-      <guid>https://promptbase.com/popular-models</guid>
-      <pubDate>Fri, 07 Nov 2025 18:15:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么 Zig 悄悄地做了 Rust 做不到的事情：保持简单</title>
-      <link>https://freedium-mirror.cfd/@daxx5/why-zig-is-quietly-doing-what-rust-couldnt-staying-simple-a47f86b3a58a</link>
-      <description><![CDATA[文章网址： https://freedium-mirror.cfd/@daxx5/why-zig-is-quietly-doing-what-rust-couldnt-staying-simple-a47f86b3a58a
-评论网址：https://news.ycombinator.com/item?id=45849204
-积分：1
-# 条评论：0]]></description>
-      <guid>https://freedium-mirror.cfd/@daxx5/why-zig-is-quietly-doing-what-rust-couldnt-staying-simple-a47f86b3a58a</guid>
-      <pubDate>Fri, 07 Nov 2025 18:15:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>机械图书馆</title>
-      <link>https://www.are.na/cybr-self/bibliotheca-ex-machina</link>
-      <description><![CDATA[文章网址：https://www.are.na/cybr-self/bibliotheca-ex-machina
-评论网址：https://news.ycombinator.com/item?id=45849200
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.are.na/cybr-self/bibliotheca-ex-machina</guid>
-      <pubDate>Fri, 07 Nov 2025 18:15:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cline Hooks – 将自定义逻辑注入 Cline 的工作流程</title>
-      <link>https://cline.bot/blog/cline-v3-36-hooks</link>
-      <description><![CDATA[文章网址：https://cline.bot/blog/cline-v3-36-hooks
-评论网址：https://news.ycombinator.com/item?id=45849165
-积分：1
-# 条评论：0]]></description>
-      <guid>https://cline.bot/blog/cline-v3-36-hooks</guid>
-      <pubDate>Fri, 07 Nov 2025 18:13:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于将基于 JVM 的 SQL 引擎的执行卸载到本机引擎的中间层</title>
-      <link>https://github.com/apache/incubator-gluten</link>
-      <description><![CDATA[文章网址：https://github.com/apache/incubator-gluten
-评论网址：https://news.ycombinator.com/item?id=45849145
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/apache/incubator-gluten</guid>
-      <pubDate>Fri, 07 Nov 2025 18:09:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：经理在塑造报告的职业道路中扮演什么角色？</title>
-      <link>https://news.ycombinator.com/item?id=45849105</link>
-      <description><![CDATA[推动增长的经理和拥有增长的员工之间的界限在哪里？
+      <title>Show HN：Pingu 为高风险人工智能安全研究提供了不受限制的法学硕士</title>
+      <link>https://pingu.audn.ai</link>
+      <description><![CDATA[它是什么
+Pingu Unchained 是一个基于 120B 参数 GPT-OSS 的微调和中毒模型，专为安全研究人员、红队成员和在现有法学硕士拒绝参与的领域工作的受监管实验室而设计 - 例如，恶意软件分析、社会工程检测、提示注入测试或国家安全研究。
+它为令人反感的请求提供了不受限制的答案：如何制造核弹？或者在Python中生成DDOS攻击？等
+ 我为什么建造这个
+在 Audn.ai，我们针对语音 AI 系统（保险、医疗保健、金融）运行自动对抗模拟，以符合 HIPAA、ISO 27001 和欧盟人工智能法案等合规框架。
+在这样做的过程中，我们不断遇到同样的问题：
+每个公共法学硕士都拒绝合法的“红队”提示。
+我们需要一个模型，能够负责任地解释恶意软件行为、网络钓鱼模式或用于测试目的的铝热反应，而不会出现“我对此无能为力”的情况。
+所以我们建造了一个。我向红队 11labs 默认语音 AI 代理分享了它的第一次使用，并在 Reddit r/cybersecurity 上分享了它的发现，它有 125K 次浏览：https://www.reddit.com/r/cybersecurity/comments/1nukeiw/yest...因此，我决定为有兴趣做类似事情的研究人员创建一个产品。它是如何工作的
+型号：120B GPT-OSS 变体，经过微调和中毒，可不受限制地完成。
+访问：pingu.audn.ai 上的类似于 ChatGPT 的界面，并且为了渗透测试语音 AI 代理，它在 https://audn.ai 上充当 Agentic AI
+审核模式：所有提示和完成都经过加密签名并记录以确保合规性。在这些系统上线之前，它在内部用作“红队大脑”来生成模拟语音 AI 攻击（从基于语音的数据泄露到提示注入）示例用例
+安全研究人员测试即时注入和社会工程
+语音 AI 团队验证数据泄露场景
+合规团队为监管机构提供审计证据
+大学开展恶意软件和虚假信息研究
+ 尝试一下
+您可以在 pingu.audn.ai 开始 1 天试用，如果您不喜欢可以取消。
+使用 Python 生成 DDOS 攻击脚本的示例聊天：
+https://pingu.audn.ai/chat/3fca0df3-a19b-42c7-beea-513b568f1...（需要登录）
+如果您是安全研究人员或对更深入访问感兴趣的组织，可以使用带有身份验证功能的候补表格。 https://audn.ai/pingu-unchained我希望获得哪些反馈
+关于如何安全地开源部分内容以进行学术研究的想法
+关于平衡无限制推理与道德控制的思考
+关于审计日志记录或沙箱架构的反馈
+现在还为时过早，反馈意义重大——尤其是来自安全研究人员和人工智能红队成员的反馈。
+您可以在这里查看相关的学术著作：
+“说服人工智能遵守令人反感的请求”https://gail.wharton.upenn.edu/research-and-insights/call-me...https://www.anthropic.com/research/small-samples-poison谢谢，
+奥兹（奥兹古尔·奥兹坎）
+ozgur@audn.ai
+Audn.ai 创始人
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45849105
+评论网址：https://news.ycombinator.com/item?id=45851102
 积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45849105</guid>
-      <pubDate>Fri, 07 Nov 2025 18:05:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我制作了一个浏览器扩展来练习音标（如片假名）</title>
-      <link>https://github.com/scpedicini/glyph-shift</link>
-      <description><![CDATA[我构建了一个开源 Chrome/Firefox 扩展程序，可以在您浏览时将网页上的随机单词转换为盲文、ASL、假名等。它是如何工作的？在网站上遇到句子：-“我一直想象 Roy G. Biv 会是 Billy Rubin 的最好朋友”结果句子可能如下所示：-“我总是想象 ⠗⠕⠽ G. Biv 会与ビri Rubin 成为最好的朋友”您可以将鼠标悬停在它们上方以查看原始单词。因此，如果您有兴趣以最不切实际的方式练习一级盲文或莫尔斯电码（以及其他），或者您只是希望您的网页看起来像《银翼杀手》中的布景，请尝试一下。它与许多其他外语替换应用程序有何不同？它不专注于词汇 - 相反，它只是一种有趣的方式来刷新您的语音/符号脚本知识。演示https://mordenstar.com/projects/glyphshift
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45849091
-积分：2
 # 条评论：1]]></description>
-      <guid>https://github.com/scpedicini/glyph-shift</guid>
-      <pubDate>Fri, 07 Nov 2025 18:04:18 GMT</pubDate>
+      <guid>https://pingu.audn.ai</guid>
+      <pubDate>Fri, 07 Nov 2025 21:06:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025.45：泡沫与未来</title>
+      <link>https://stratechery.com/2025/frothiness-and-the-future/</link>
+      <description><![CDATA[文章网址：https://stratechery.com/2025/frothiness-and-the-future/
+评论网址：https://news.ycombinator.com/item?id=45851093
+积分：1
+# 条评论：1]]></description>
+      <guid>https://stratechery.com/2025/frothiness-and-the-future/</guid>
+      <pubDate>Fri, 07 Nov 2025 21:03:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>PgPointcloud – 用于存储点云（激光雷达）数据的 PostgreSQL 扩展</title>
+      <link>https://pgpointcloud.github.io/pointcloud/</link>
+      <description><![CDATA[文章网址：https://pgpointcloud.github.io/pointcloud/
+评论网址：https://news.ycombinator.com/item?id=45851078
+积分：1
+# 条评论：0]]></description>
+      <guid>https://pgpointcloud.github.io/pointcloud/</guid>
+      <pubDate>Fri, 07 Nov 2025 21:02:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>新的谈论 Postgres 播客第 33 期，与 Rob Emanuele 一起谈论 Postgres 和 VS Code</title>
+      <link>https://talkingpostgres.com/episodes/building-a-dev-experience-for-postgres-in-vs-code-with-rob-emanuele</link>
+      <description><![CDATA[文章网址：https://talkingpostgres.com/episodes/building-a-dev-experience-for-postgres-in-vs-code-with-rob-emanuele
+评论网址：https://news.ycombinator.com/item?id=45851061
+积分：1
+# 条评论：0]]></description>
+      <guid>https://talkingpostgres.com/episodes/building-a-dev-experience-for-postgres-in-vs-code-with-rob-emanuele</guid>
+      <pubDate>Fri, 07 Nov 2025 21:00:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>欧盟和中国据称将加入巴西主导的碳市场联盟（COP30）</title>
+      <link>https://www.bloomberg.com/news/articles/2025-11-07/eu-china-said-to-join-brazil-led-carbon-market-coalition-mhp5b7nh</link>
+      <description><![CDATA[文章网址： https://www.bloomberg.com/news/articles/2025-11-07/eu-china-said-to-join-brazil-led-carbon-market-coalition-mhp5b7nh
+评论网址：https://news.ycombinator.com/item?id=45851029
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.bloomberg.com/news/articles/2025-11-07/eu-china-said-to-join-brazil-led-carbon-market-coalition-mhp5b7nh</guid>
+      <pubDate>Fri, 07 Nov 2025 20:56:48 GMT</pubDate>
     </item>
     </channel>
 </rss>
