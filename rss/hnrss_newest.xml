@@ -4,141 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 07 Nov 2025 21:16:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Nov 2025 01:25:23 GMT</lastBuildDate>
     <item>
-      <title>Show HN：弥合 SIP 基础设施和实时 AI 之间的差距</title>
-      <link>https://leilani.dev</link>
-      <description><![CDATA[我发现流行的实时人工智能语音解决方案（Fin 等）很难与现有的呼叫流程集成，通常需要一种推倒重来的心态。更不用说它们可能很难安装。我想要的是一种将实时 AI“插入”我们现有 PBX 的原生方法，无需任何（或非常少的）配置。嗨 HN！我叫 Kiern，一直致力于 Leilani (https://leilani.dev)， 
-使用 OpenAI 的实时 API 将 PBX 连接到实时 AI 的平台。我决定构建本质上是软电话的东西。 Leilani 使用 SIP 用户名和密码连接到您的 PBX，然后您可以根据需要随意使用该分机。Leilani 提供了预构建的集成，可用于工单创建和 
-日历安排（即将推出更多供应商支持），但您还可以创建可以通过 HTTP 获取数据的自定义函数。 Leilani 还支持开箱即用的 RAG。您可以在不到一分钟的时间内设置 Leilani，这需要更多时间来创建
-OpenAI API 密钥，我不是在开玩笑。构建者欣赏这种方法的另一个好处是，您可以将东西做得非常小。如果您想要一个可以呼叫的分机并且它只告诉您天气，您可以构建它。大多数商业解决方案需要大量的支出、演示和 yadayadayada。如何工作！后端是用 Rust 编写的，具有自定义（非常简单）的 SIP 实现。当我们收到 SIP INVITE 时，我们会设置媒体，稍后将通过 WebSocket 与 OpenAI 的实时 API 之间传输音频。在我们收到对 OK 响应的 ACK 请求后，我们启动媒体。 Leilani 处理逻辑层和协议桥接，以便您可以快速构建很酷的东西。您可以通过 UI 中的实时转录或使用 PBX 来监控呼叫 
-现有的呼叫监控功能。请记住，它只是一个扩展！RAG 的工作原理是简单地在 UI 中上传文件，或者连接到
-公开的 WebDAV 服务器并在那里上传/同步文件。期待反馈和讨论！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45851135
+      <title>在 Quadra 650 中运行 68060 CPU</title>
+      <link>https://github.com/ZigZagJoe/Macintosh-Q650-68060</link>
+      <description><![CDATA[文章网址：https://github.com/ZigZagJoe/Macintosh-Q650-68060
+评论网址：https://news.ycombinator.com/item?id=45853204
 积分：1
 # 条评论：0]]></description>
-      <guid>https://leilani.dev</guid>
-      <pubDate>Fri, 07 Nov 2025 21:09:32 GMT</pubDate>
+      <guid>https://github.com/ZigZagJoe/Macintosh-Q650-68060</guid>
+      <pubDate>Sat, 08 Nov 2025 01:18:12 GMT</pubDate>
     </item>
     <item>
-      <title>彼得泰尔：资本主义不适合年轻人</title>
-      <link>https://www.thefp.com/p/peter-thiel-capitalism-isnt-working-for-young-people</link>
-      <description><![CDATA[文章网址：https://www.thefp.com/p/peter-thiel-capitalism-isnt-working-for-young-people
-评论网址：https://news.ycombinator.com/item?id=45851130
+      <title>2015 年 20 世纪 70 年代新闻照片的传播方式</title>
+      <link>https://petapixel.com/2015/07/26/this-is-how-press-photos-were-transmitted-back-in-the-1970s/</link>
+      <description><![CDATA[文章网址：https://petapixel.com/2015/07/26/this-is-how-press-photos-were-transmissed-back-in-the-1970s/
+评论网址：https://news.ycombinator.com/item?id=45853196
+积分：2
+# 条评论：0]]></description>
+      <guid>https://petapixel.com/2015/07/26/this-is-how-press-photos-were-transmitted-back-in-the-1970s/</guid>
+      <pubDate>Sat, 08 Nov 2025 01:15:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>ZFS 限制背后的意义是什么</title>
+      <link>https://unix.stackexchange.com/questions/336961/what-is-the-sense-behind-zfss-limits</link>
+      <description><![CDATA[文章网址：https://unix.stackexchange.com/questions/336961/what-is-the-sense-behind-zfss-limits
+评论网址：https://news.ycombinator.com/item?id=45853180
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.thefp.com/p/peter-thiel-capitalism-isnt-working-for-young-people</guid>
-      <pubDate>Fri, 07 Nov 2025 21:08:58 GMT</pubDate>
+      <guid>https://unix.stackexchange.com/questions/336961/what-is-the-sense-behind-zfss-limits</guid>
+      <pubDate>Sat, 08 Nov 2025 01:12:33 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：你怎么知道一份工作是否可能是幽灵工作？</title>
-      <link>https://news.ycombinator.com/item?id=45851129</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=45851129
+      <title>喝完一罐可乐后身体会发生什么变化</title>
+      <link>https://www.telegraph.co.uk/health-fitness/diet/nutrition/what-cola-does-to-your-body/</link>
+      <description><![CDATA[文章网址：https://www.telegraph.co.uk/health-fitness/diet/nutrition/what-cola-does-to-your-body/
+评论网址：https://news.ycombinator.com/item?id=45853176
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45851129</guid>
-      <pubDate>Fri, 07 Nov 2025 21:08:55 GMT</pubDate>
+      <guid>https://www.telegraph.co.uk/health-fitness/diet/nutrition/what-cola-does-to-your-body/</guid>
+      <pubDate>Sat, 08 Nov 2025 01:11:36 GMT</pubDate>
     </item>
     <item>
-      <title>Snippyst – 与社区分享和发现 Typst 片段</title>
-      <link>https://snippyst.com</link>
-      <description><![CDATA[文章网址：https://snippyst.com
-评论网址：https://news.ycombinator.com/item?id=45851126
+      <title>为什么我停止校对并开始倾听</title>
+      <link>https://refp.se/articles/I-stopped-proofreading-and-started-to-listen</link>
+      <description><![CDATA[文章网址：https://refp.se/articles/I-stopped-proofreading-and-started-to-listen
+评论网址：https://news.ycombinator.com/item?id=45853159
 积分：1
 # 条评论：0]]></description>
-      <guid>https://snippyst.com</guid>
-      <pubDate>Fri, 07 Nov 2025 21:08:42 GMT</pubDate>
+      <guid>https://refp.se/articles/I-stopped-proofreading-and-started-to-listen</guid>
+      <pubDate>Sat, 08 Nov 2025 01:08:14 GMT</pubDate>
     </item>
     <item>
-      <title>继续钓鱼，我的应用程序会记录您的渔获量</title>
-      <link>https://apps.apple.com/de/app/fishid-cam-fang-log-mit-ki/id6753859615</link>
-      <description><![CDATA[文章网址：https://apps.apple.com/de/app/fishid-cam-fang-log-mit-ki/id6753859615
-评论网址：https://news.ycombinator.com/item?id=45851121
-积分：1
-# 条评论：1]]></description>
-      <guid>https://apps.apple.com/de/app/fishid-cam-fang-log-mit-ki/id6753859615</guid>
-      <pubDate>Fri, 07 Nov 2025 21:08:13 GMT</pubDate>
+      <title>11 个州老年人数量超过儿童</title>
+      <link>https://www.census.gov/newsroom/press-releases/2025/older-adults-outnumber-children.html</link>
+      <description><![CDATA[文章网址：https://www.census.gov/newsroom/press-releases/2025/older-adults-outnumber-children.html
+评论网址：https://news.ycombinator.com/item?id=45853155
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.census.gov/newsroom/press-releases/2025/older-adults-outnumber-children.html</guid>
+      <pubDate>Sat, 08 Nov 2025 01:07:26 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Pingu 为高风险人工智能安全研究提供了不受限制的法学硕士</title>
-      <link>https://pingu.audn.ai</link>
-      <description><![CDATA[它是什么
-Pingu Unchained 是一个基于 120B 参数 GPT-OSS 的微调和中毒模型，专为安全研究人员、红队成员和在现有法学硕士拒绝参与的领域工作的受监管实验室而设计 - 例如，恶意软件分析、社会工程检测、提示注入测试或国家安全研究。
-它为令人反感的请求提供了不受限制的答案：如何制造核弹？或者在Python中生成DDOS攻击？等
- 我为什么建造这个
-在 Audn.ai，我们针对语音 AI 系统（保险、医疗保健、金融）运行自动对抗模拟，以符合 HIPAA、ISO 27001 和欧盟人工智能法案等合规框架。
-在这样做的过程中，我们不断遇到同样的问题：
-每个公共法学硕士都拒绝合法的“红队”提示。
-我们需要一个模型，能够负责任地解释恶意软件行为、网络钓鱼模式或用于测试目的的铝热反应，而不会出现“我对此无能为力”的情况。
-所以我们建造了一个。我向红队 11labs 默认语音 AI 代理分享了它的第一次使用，并在 Reddit r/cybersecurity 上分享了它的发现，它有 125K 次浏览：https://www.reddit.com/r/cybersecurity/comments/1nukeiw/yest...因此，我决定为有兴趣做类似事情的研究人员创建一个产品。它是如何工作的
-型号：120B GPT-OSS 变体，经过微调和中毒，可不受限制地完成。
-访问：pingu.audn.ai 上的类似于 ChatGPT 的界面，并且为了渗透测试语音 AI 代理，它在 https://audn.ai 上充当 Agentic AI
-审核模式：所有提示和完成都经过加密签名并记录以确保合规性。在这些系统上线之前，它在内部用作“红队大脑”来生成模拟语音 AI 攻击（从基于语音的数据泄露到提示注入）示例用例
-安全研究人员测试即时注入和社会工程
-语音 AI 团队验证数据泄露场景
-合规团队为监管机构提供审计证据
-大学开展恶意软件和虚假信息研究
- 尝试一下
-您可以在 pingu.audn.ai 开始 1 天试用，如果您不喜欢可以取消。
-使用 Python 生成 DDOS 攻击脚本的示例聊天：
-https://pingu.audn.ai/chat/3fca0df3-a19b-42c7-beea-513b568f1...（需要登录）
-如果您是安全研究人员或对更深入访问感兴趣的组织，可以使用带有身份验证功能的候补表格。 https://audn.ai/pingu-unchained我希望获得哪些反馈
-关于如何安全地开源部分内容以进行学术研究的想法
-关于平衡无限制推理与道德控制的思考
-关于审计日志记录或沙箱架构的反馈
-现在还为时过早，反馈意义重大——尤其是来自安全研究人员和人工智能红队成员的反馈。
-您可以在这里查看相关的学术著作：
-“说服人工智能遵守令人反感的请求”https://gail.wharton.upenn.edu/research-and-insights/call-me...https://www.anthropic.com/research/small-samples-poison谢谢，
-奥兹（奥兹古尔·奥兹坎）
-ozgur@audn.ai
-Audn.ai 创始人
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45851102
-积分：1
-# 条评论：1]]></description>
-      <guid>https://pingu.audn.ai</guid>
-      <pubDate>Fri, 07 Nov 2025 21:06:04 GMT</pubDate>
+      <title>Midjourney 由五名工程师为 Bun 上的 Web 堆栈提供支持，为数百万人提供服务</title>
+      <link>https://twitter.com/_chenglou/status/1986583136369844608</link>
+      <description><![CDATA[文章网址：https://twitter.com/_ Chenglou/status/1986583136369844608
+评论网址：https://news.ycombinator.com/item?id=45853137
+积分：2
+# 条评论：0]]></description>
+      <guid>https://twitter.com/_chenglou/status/1986583136369844608</guid>
+      <pubDate>Sat, 08 Nov 2025 01:04:20 GMT</pubDate>
     </item>
     <item>
-      <title>2025.45：泡沫与未来</title>
-      <link>https://stratechery.com/2025/frothiness-and-the-future/</link>
-      <description><![CDATA[文章网址：https://stratechery.com/2025/frothiness-and-the-future/
-评论网址：https://news.ycombinator.com/item?id=45851093
-积分：1
-# 条评论：1]]></description>
-      <guid>https://stratechery.com/2025/frothiness-and-the-future/</guid>
-      <pubDate>Fri, 07 Nov 2025 21:03:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>PgPointcloud – 用于存储点云（激光雷达）数据的 PostgreSQL 扩展</title>
-      <link>https://pgpointcloud.github.io/pointcloud/</link>
-      <description><![CDATA[文章网址：https://pgpointcloud.github.io/pointcloud/
-评论网址：https://news.ycombinator.com/item?id=45851078
+      <title>来自 Microsoft Research 的 Data-formulator.ai – 免费数据分析代理</title>
+      <link>https://data-formulator.ai/</link>
+      <description><![CDATA[文章网址：https://data-formulator.ai/
+评论网址：https://news.ycombinator.com/item?id=45853136
 积分：1
 # 条评论：0]]></description>
-      <guid>https://pgpointcloud.github.io/pointcloud/</guid>
-      <pubDate>Fri, 07 Nov 2025 21:02:32 GMT</pubDate>
+      <guid>https://data-formulator.ai/</guid>
+      <pubDate>Sat, 08 Nov 2025 01:04:18 GMT</pubDate>
     </item>
     <item>
-      <title>新的谈论 Postgres 播客第 33 期，与 Rob Emanuele 一起谈论 Postgres 和 VS Code</title>
-      <link>https://talkingpostgres.com/episodes/building-a-dev-experience-for-postgres-in-vs-code-with-rob-emanuele</link>
-      <description><![CDATA[文章网址：https://talkingpostgres.com/episodes/building-a-dev-experience-for-postgres-in-vs-code-with-rob-emanuele
-评论网址：https://news.ycombinator.com/item?id=45851061
-积分：1
+      <title>一切都与令牌有​​关：走向法学硕士的语义信息理论</title>
+      <link>https://arxiv.org/abs/2511.01202</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2511.01202
+评论网址：https://news.ycombinator.com/item?id=45853123
+积分：2
 # 条评论：0]]></description>
-      <guid>https://talkingpostgres.com/episodes/building-a-dev-experience-for-postgres-in-vs-code-with-rob-emanuele</guid>
-      <pubDate>Fri, 07 Nov 2025 21:00:17 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2511.01202</guid>
+      <pubDate>Sat, 08 Nov 2025 01:01:57 GMT</pubDate>
     </item>
     <item>
-      <title>欧盟和中国据称将加入巴西主导的碳市场联盟（COP30）</title>
-      <link>https://www.bloomberg.com/news/articles/2025-11-07/eu-china-said-to-join-brazil-led-carbon-market-coalition-mhp5b7nh</link>
-      <description><![CDATA[文章网址： https://www.bloomberg.com/news/articles/2025-11-07/eu-china-said-to-join-brazil-led-carbon-market-coalition-mhp5b7nh
-评论网址：https://news.ycombinator.com/item?id=45851029
-积分：1
+      <title>深入 Rama：Clojure LSH 向量搜索实验</title>
+      <link>https://shtanglitza.ai/public/blog/rama-lsh.html</link>
+      <description><![CDATA[文章网址：https://shtanglitza.ai/public/blog/rama-lsh.html
+评论网址：https://news.ycombinator.com/item?id=45853107
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2025-11-07/eu-china-said-to-join-brazil-led-carbon-market-coalition-mhp5b7nh</guid>
-      <pubDate>Fri, 07 Nov 2025 20:56:48 GMT</pubDate>
+      <guid>https://shtanglitza.ai/public/blog/rama-lsh.html</guid>
+      <pubDate>Sat, 08 Nov 2025 00:58:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
