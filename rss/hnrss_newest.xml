@@ -4,106 +4,112 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 08 Nov 2025 03:36:14 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Nov 2025 06:28:16 GMT</lastBuildDate>
     <item>
-      <title>谁喜欢玩卧底游戏？</title>
-      <link>https://www.bestpartygames.net/games/undercover/undercover</link>
-      <description><![CDATA[文章网址：https://www.bestpartygames.net/games/undercover/undercover
-评论网址：https://news.ycombinator.com/item?id=45853851
+      <title>人工智能。横扫新闻编辑室，但它是记者还是工具？</title>
+      <link>https://www.nytimes.com/2025/11/07/business/media/ai-news-media.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2025/11/07/business/media/ai-news-media.html
+评论网址：https://news.ycombinator.com/item?id=45854580
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bestpartygames.net/games/undercover/undercover</guid>
-      <pubDate>Sat, 08 Nov 2025 03:25:18 GMT</pubDate>
+      <guid>https://www.nytimes.com/2025/11/07/business/media/ai-news-media.html</guid>
+      <pubDate>Sat, 08 Nov 2025 06:21:13 GMT</pubDate>
     </item>
     <item>
-      <title>GPT-OSS 120B 在 Cerebras 上以 3000 个代币/秒的速度运行</title>
-      <link>https://www.cerebras.ai/blog/openai-gpt-oss-120b-runs-fastest-on-cerebras</link>
-      <description><![CDATA[文章网址：https://www.cerebras.ai/blog/openai-gpt-oss-120b-runs-fastest-on-cerebras
-评论网址：https://news.ycombinator.com/item?id=45853849
+      <title>HOLO – 一个持久性框架，可在重置后保持 AI 上下文</title>
+      <link>https://news.ycombinator.com/item?id=45854558</link>
+      <description><![CDATA[我一直在构建一个名为 HOLO 的小型框架，它可以锁定人工智能系统的状态和连续性，而不是将每个会话视为无状态。
+它使用遏制数学和 CAP 风格的规则来保留上下文并在重新启动时重建身份。
+我正在寻找两到三名工程师或研究人员，他们曾努力解决上下文漂移或持续学习问题，并希望一起测试持久性模型。
+可根据要求提供存储库/演示 - 这篇文章只是为了找到合适的人。
+Holo.Simulations@gmail.com
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45854558
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.cerebras.ai/blog/openai-gpt-oss-120b-runs-fastest-on-cerebras</guid>
-      <pubDate>Sat, 08 Nov 2025 03:24:25 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45854558</guid>
+      <pubDate>Sat, 08 Nov 2025 06:13:45 GMT</pubDate>
     </item>
     <item>
-      <title>美国最高法院允许特朗普政府暂时避免为 SNAP 付款提供资金</title>
-      <link>https://www.cbc.ca/lite/story/9.6972034</link>
-      <description><![CDATA[文章网址：https://www.cbc.ca/lite/story/9.6972034
-评论网址：https://news.ycombinator.com/item?id=45853840
-积分：3
+      <title>印度的统一支付接口彻底改变了其数字支付市场</title>
+      <link>https://business.cornell.edu/hub/2024/12/20/indias-unified-payments-interface-has-revolutionized-its-digital-payments-market/</link>
+      <description><![CDATA[文章网址：https://business.cornell.edu/hub/2024/12/20/indias-unified- payments-interface-has-revolutionized-its-digital- payments-market/
+评论网址：https://news.ycombinator.com/item?id=45854553
+积分：1
+# 条评论：0]]></description>
+      <guid>https://business.cornell.edu/hub/2024/12/20/indias-unified-payments-interface-has-revolutionized-its-digital-payments-market/</guid>
+      <pubDate>Sat, 08 Nov 2025 06:12:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>C++ 移动语义问题 (YT) [视频]</title>
+      <link>https://www.youtube.com/watch?v=Klq-sNxuP2g</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=Klq-sNxuP2g
+评论网址：https://news.ycombinator.com/item?id=45854536
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=Klq-sNxuP2g</guid>
+      <pubDate>Sat, 08 Nov 2025 06:08:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Distiller – 从长格式内容中提取可验证的见解</title>
+      <link>https://distillr.akatsys.com</link>
+      <description><![CDATA[在第五次观看 2 小时的采访并找到中间某处提到的一个具体见解后，我决定构建一些东西。Distiller 将视频和播客压缩为具有可验证引用的结构化见解。与其他摘要器的主要区别在于：它不仅仅是一个摘要器，它是与输入完全相同的格式的输出，仅包含重要部分。还致力于“信号优先排名”，以在病毒式的废话上显示信息密集的内容。立即启动预发布等待名单。使用 Next.js 构建，将使用 Whisper 进行转录。希望 HN 就这个概念以及哪些功能最重要提供反馈。https://distillr.akatsys.com
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45854482
+积分：1
+# 条评论：0]]></description>
+      <guid>https://distillr.akatsys.com</guid>
+      <pubDate>Sat, 08 Nov 2025 05:52:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>控制流的错误代码</title>
+      <link>https://matklad.github.io/2025/11/06/error-codes-for-control-flow.html</link>
+      <description><![CDATA[文章网址：https://matklad.github.io/2025/11/06/error-codes-for-control-flow.html
+评论网址：https://news.ycombinator.com/item?id=45854459
+积分：1
+# 条评论：0]]></description>
+      <guid>https://matklad.github.io/2025/11/06/error-codes-for-control-flow.html</guid>
+      <pubDate>Sat, 08 Nov 2025 05:42:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>苹果的“公证”——封锁开发者和用户的软件自由</title>
+      <link>https://fsfe.org/news/2025/news-20251105-01.en.html</link>
+      <description><![CDATA[文章网址：https://fsfe.org/news/2025/news-20251105-01.en.html
+评论网址：https://news.ycombinator.com/item?id=45854441
+积分：5
+# 条评论：0]]></description>
+      <guid>https://fsfe.org/news/2025/news-20251105-01.en.html</guid>
+      <pubDate>Sat, 08 Nov 2025 05:37:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Zig 中用于模糊测试的实用程序库</title>
+      <link>https://github.com/steelcake/fuzzi</link>
+      <description><![CDATA[文章网址：https://github.com/steelcake/fuzzi
+评论网址：https://news.ycombinator.com/item?id=45854424
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/steelcake/fuzzi</guid>
+      <pubDate>Sat, 08 Nov 2025 05:33:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过正式模型（IR 和 Alloy 和 Golden Master）将 COBOL 转换为 Kotlin</title>
+      <link>https://marcoeg.medium.com/from-cobol-to-kotlin-795920b1f371</link>
+      <description><![CDATA[文章网址：https://marcoeg.medium.com/from-cobol-to-kotlin-795920b1f371
+评论网址：https://news.ycombinator.com/item?id=45854418
+积分：1
 # 条评论：1]]></description>
-      <guid>https://www.cbc.ca/lite/story/9.6972034</guid>
-      <pubDate>Sat, 08 Nov 2025 03:22:23 GMT</pubDate>
+      <guid>https://marcoeg.medium.com/from-cobol-to-kotlin-795920b1f371</guid>
+      <pubDate>Sat, 08 Nov 2025 05:32:31 GMT</pubDate>
     </item>
     <item>
-      <title>ImGui React 运行时</title>
-      <link>https://github.com/tmikov/imgui-react-runtime</link>
-      <description><![CDATA[文章网址：https://github.com/tmikov/imgui-react-runtime
-评论网址：https://news.ycombinator.com/item?id=45853831
-积分：2
-# 条评论：0]]></description>
-      <guid>https://github.com/tmikov/imgui-react-runtime</guid>
-      <pubDate>Sat, 08 Nov 2025 03:21:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>收集原因</title>
-      <link>https://collectthereasons.org/</link>
-      <description><![CDATA[文章网址：https://collectthereasons.org/
-评论网址：https://news.ycombinator.com/item?id=45853824
-积分：2
-# 条评论：0]]></description>
-      <guid>https://collectthereasons.org/</guid>
-      <pubDate>Sat, 08 Nov 2025 03:19:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>奥马奇3号</title>
-      <link>https://www.youtube.com/watch?v=L3EafsSCv80</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=L3EafsSCv80
-评论网址：https://news.ycombinator.com/item?id=45853808
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=L3EafsSCv80</guid>
-      <pubDate>Sat, 08 Nov 2025 03:15:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stability AI 赢得了与 Getty Images 的英国法庭诉讼</title>
-      <link>https://apnews.com/article/getty-stability-ai-image-copyright-trademark-fa2c561a33c7b6714a7657255a3fbdf1</link>
-      <description><![CDATA[文章网址： https://apnews.com/article/getty-stability-ai-image-copyright-trademark-fa2c561a33c7b6714a7657255a3fbdf1
-评论网址：https://news.ycombinator.com/item?id=45853803
+      <title>Meredith Whittaker 谈如何使用 AWS 处理 Signal</title>
+      <link>https://mastodon.world/@Mer__edith/115445701583902092</link>
+      <description><![CDATA[文章网址：https://mastodon.world/@Mer__edith/115445701583902092
+评论网址：https://news.ycombinator.com/item?id=45854404
 积分：1
 # 条评论：0]]></description>
-      <guid>https://apnews.com/article/getty-stability-ai-image-copyright-trademark-fa2c561a33c7b6714a7657255a3fbdf1</guid>
-      <pubDate>Sat, 08 Nov 2025 03:14:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>每个人都被托管续订所困扰。这就是我所做的</title>
-      <link>https://veerhost.com/</link>
-      <description><![CDATA[文章网址：https://veerhost.com/
-评论网址：https://news.ycombinator.com/item?id=45853781
-积分：1
-# 条评论：0]]></description>
-      <guid>https://veerhost.com/</guid>
-      <pubDate>Sat, 08 Nov 2025 03:10:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>图片中：探索 DNA 秘密的竞赛</title>
-      <link>https://www.bbc.com/news/articles/c51yxlzw0w0o</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c51yxlzw0w0o
-评论网址：https://news.ycombinator.com/item?id=45853711
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.bbc.com/news/articles/c51yxlzw0w0o</guid>
-      <pubDate>Sat, 08 Nov 2025 02:56:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>我如何使用人工智能（2025 年 10 月）</title>
-      <link>https://ben.stolovitz.com/posts/how_use_ai_oct_2025/</link>
-      <description><![CDATA[文章网址：https://ben.stolovitz.com/posts/how_use_ai_oct_2025/
-评论网址：https://news.ycombinator.com/item?id=45853691
-积分：1
-# 条评论：0]]></description>
-      <guid>https://ben.stolovitz.com/posts/how_use_ai_oct_2025/</guid>
-      <pubDate>Sat, 08 Nov 2025 02:52:21 GMT</pubDate>
+      <guid>https://mastodon.world/@Mer__edith/115445701583902092</guid>
+      <pubDate>Sat, 08 Nov 2025 05:30:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
