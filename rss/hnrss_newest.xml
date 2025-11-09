@@ -4,128 +4,116 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 09 Nov 2025 15:17:57 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 18:25:58 GMT</lastBuildDate>
     <item>
-      <title>Show HN：知名软件的更好替代品目录</title>
-      <link>https://alterbase.co</link>
-      <description><![CDATA[嗨，我是具有 2x 退出功能的软件开发人员。有一段时间，我收集了一些昂贵且知名工具的经济替代品。主要供个人使用。现在我构建了平台并将它们添加到此处。此外，社区还通过他们的工具和建议帮助成长。享受吧，如果您对流行软件有任何替代方案或有建议，请在此处提交，使其成为互联网上最大的替代软件平台。
+      <title>现代游戏引擎是如何退化的——该怪谁？</title>
+      <link>https://www.youtube.com/watch?v=1jg-ILC-bCI</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=1jg-ILC-bCI
+评论网址：https://news.ycombinator.com/item?id=45867698
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=1jg-ILC-bCI</guid>
+      <pubDate>Sun, 09 Nov 2025 18:15:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>当我们将注意力交给算法时我们会失去什么</title>
+      <link>https://www.theguardian.com/us-news/ng-interactive/2025/nov/09/healthcare-artificial-intelligence-ai</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/us-news/ng-interactive/2025/nov/09/healthcare-artificial-intelligence-ai
+评论网址：https://news.ycombinator.com/item?id=45867691
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.theguardian.com/us-news/ng-interactive/2025/nov/09/healthcare-artificial-intelligence-ai</guid>
+      <pubDate>Sun, 09 Nov 2025 18:15:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Spine AI – 跨多个 AI 模型进行思考的可视化工作区</title>
+      <link>https://app.getspine.ai/guest</link>
+      <description><![CDATA[嘿 HN – Akshay 和 Ashwin，Spine AI (YC S23) 的创始人。我们想向您展示我们的新产品：Spine Canvas。TL;DR：Spine AI 是一个无限的可视化工作空间，您可以在其中与 300 多个 AI 模型和代理协作，比在单次聊天中更好地思考和创造。您无需注册即可尝试：app.getspine.ai/guest背景故事：
+我们于 2022 年开始构建多语言 RAG，进入 YC S23，通过多次迭代了解到用户想要迭代和控制 - 而不仅仅是另一个聊天界面。ChatGPT 最初的目的是为 GPT 的下一版本收集训练数据 - 但它爆炸了，因为它让 AI 变得易于访问。虽然聊天对于问答来说很棒，但对于思考来说却很糟糕：你会陷入线性线程中，迭代的唯一方法就是发送另一条消息，并且你无法控制模型实际记住了多少先前的上下文。每个模型也有自己的“超能力”：Claude 擅长编码，Gemini 擅长批评，Grok 擅长营销。我经常使用不同的法学硕士作为顾问，因为每个人都会带来略有不同的视角 - 当您深入思考、探索权衡或检查盲点时很有用。因此我们构建了 Spine：
+Spine Canvas 让您以块而非线程的方式进行思考。您可以连接块，这确保隐式上下文传递。您还可以明确引用连接的块作为当前块参数的一部分。我们有专用的块：图像生成、深入研究报告、幻灯片、聊天、提示。所有这些都可以在彼此之间无缝地传递上下文。因为它是一块画布，所以您可以分支 - 探索兔子洞，而不会丢失主要路径。您可以自由交换模型。列表是一等公民：同时在多个项目上运行相同的流程（例如“深入研究这 10 家公司”）。您可以更改单个块并在整个分支中进行逐步更新。为了帮助解决空白画布问题，我们有一个 AI 助手，可以通过构建您的初始画布来帮助您立即思考。您还可以从外部引入上下文 - 来自其他法学硕士的聊天、YouTube 视频（带有文字记录）或网页 - 并将它们视为板上的本地块。我们还提供 Miro 风格的注释和形状，让您可以将人类背景直接添加到 AI 工作区中。我们如何使用它（以及还有谁这样做）：
+使用 Spine 最简单的方法是与最新模型聊天，随时分支对话，并在同一板上继续使用不同模型。作为视觉创始人，我使用 Canvas 来映射 GTM、产品优先级和工程决策。例如，我们即将推出的应用程序块的提示工程来自于探索六位不同的法学硕士如何推理其他人工智能工具的系统提示——所有这些都在一个板上，在 20 分钟内完成。我更频繁地使用“流程”，因为一切都位于一个工作空间中。创始人是令人惊讶的早期采用者 - 可能是出于混乱与结构的原因。产品人员，尤其是那些使用 Miro 或 FigJam 等工具的人员，将其用于战略规划、优先级排序以及查找路线图中的盲点或联系。投资者将其用于市场研究，因为我们的深度研究报告比聊天法学硕士更全面、更容易迭代。我们已经看到一些高级用户使用它来学习新概念。问题：
+尝试一下并告诉我们您的想法。
+您无需注册即可立即使用：app.getspine.ai/guest 
+如果您创建帐户，则有一个免费计划，每月 2,000 个积分 + 每日 500 个积分（积分随基础模型成本而定）。如果您想聊天：Founders@getspine.ai，Discord：https://discord.gg/KuHzF6zBPs感谢您的支持时间！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45866131
+评论网址：https://news.ycombinator.com/item?id=45867678
+积分：1
+# 条评论：0]]></description>
+      <guid>https://app.getspine.ai/guest</guid>
+      <pubDate>Sun, 09 Nov 2025 18:13:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：并行运行和比较多个自治浏览器代理</title>
+      <link>https://www.thebrowserarena.com/</link>
+      <description><![CDATA[嘿 HN，我正在构建一个项目，需要同时比较多个浏览器代理，因此我构建了浏览器竞技场。
+在这个网站上，您可以并行运行多个代理，并实时查看哪个模型在完全相同的任务上表现最好。您还可以获得一些指标，例如成本和速度。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45867636
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.thebrowserarena.com/</guid>
+      <pubDate>Sun, 09 Nov 2025 18:09:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国司法部反垄断审查批准谷歌 32B 美元收购 Wiz</title>
+      <link>https://www.securityweek.com/doj-antitrust-review-clears-googles-32-billion-acquisition-of-wiz/</link>
+      <description><![CDATA[文章网址：https://www.securityweek.com/doj-antitrust-review-clears-googles-32-billion-acquisition-of-wiz/
+评论网址：https://news.ycombinator.com/item?id=45867611
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.securityweek.com/doj-antitrust-review-clears-googles-32-billion-acquisition-of-wiz/</guid>
+      <pubDate>Sun, 09 Nov 2025 18:06:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>近一半的topk网站没有密码长度要求</title>
+      <link>https://www.scworld.com/news/nearly-half-of-top-1000-websites-have-no-password-length-requirements</link>
+      <description><![CDATA[文章网址：https://www.scworld.com/news/nearly-half-of-top-1000-websites-have-no-password-length-requirements
+评论网址：https://news.ycombinator.com/item?id=45867603
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.scworld.com/news/nearly-half-of-top-1000-websites-have-no-password-length-requirements</guid>
+      <pubDate>Sun, 09 Nov 2025 18:05:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>轨道动力学魔法帮助拯救了美国宇航局的下一次火星任务</title>
+      <link>https://arstechnica.com/space/2025/11/heres-how-orbital-dynamics-wizardry-helped-save-nasas-next-mars-mission/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/space/2025/11/heres-how-orbital-dynamics-wizardry-helped-save-nasas-next-mars-mission/
+评论网址：https://news.ycombinator.com/item?id=45867582
 积分：2
 # 条评论：0]]></description>
-      <guid>https://alterbase.co</guid>
-      <pubDate>Sun, 09 Nov 2025 15:14:24 GMT</pubDate>
+      <guid>https://arstechnica.com/space/2025/11/heres-how-orbital-dynamics-wizardry-helped-save-nasas-next-mars-mission/</guid>
+      <pubDate>Sun, 09 Nov 2025 18:03:45 GMT</pubDate>
     </item>
     <item>
-      <title>赫尔曼·戈林和阿尔伯特·戈林：两个不同的兄弟</title>
-      <link>https://www.dw.com/en/hermann-und-albert-g%C3%B6ring-two-very-different-brothers/a-74621491</link>
-      <description><![CDATA[文章网址：https://www.dw.com/en/hermann-und-albert-g%C3%B6ring-two-very- Different-brothers/a-74621491
-评论网址：https://news.ycombinator.com/item?id=45866128
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.dw.com/en/hermann-und-albert-g%C3%B6ring-two-very-different-brothers/a-74621491</guid>
-      <pubDate>Sun, 09 Nov 2025 15:14:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源地理系统</title>
-      <link>https://github.com/AI2HU/gego</link>
-      <description><![CDATA[文章网址：https://github.com/AI2HU/gego
-评论网址：https://news.ycombinator.com/item?id=45866127
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/AI2HU/gego</guid>
-      <pubDate>Sun, 09 Nov 2025 15:14:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sslip.io：用于 IP 嵌入式主机名的免费 DNS，支持通配符 TLS</title>
-      <link>https://sslip.io</link>
-      <description><![CDATA[文章网址：https://sslip.io
-评论网址：https://news.ycombinator.com/item?id=45866090
-积分：1
-# 条评论：0]]></description>
-      <guid>https://sslip.io</guid>
-      <pubDate>Sun, 09 Nov 2025 15:10:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Task Sentry – 上下文感知 AI 拦截器，100% 在 Chrome 中（提示 API）</title>
-      <link>https://tasksentry.app</link>
-      <description><![CDATA[文章网址：https://tasksentry.app
-评论网址：https://news.ycombinator.com/item?id=45866087
-积分：1
-# 条评论：0]]></description>
-      <guid>https://tasksentry.app</guid>
-      <pubDate>Sun, 09 Nov 2025 15:10:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：当 LLM 辅助解决问题时，我们应该如何称呼 Vivi 编码？</title>
-      <link>https://news.ycombinator.com/item?id=45866068</link>
-      <description><![CDATA[当我帮助 Claude Code 解决一个令人讨厌的错误时，它并不像“我告诉模型我觉得网站应该是什么样子”那样“震动”。这感觉就像是狙击，就像“我告诉模型如何调整风、海拔和射程以击中远处的目标”。原始的 Karpathy 定义说，如果您没有阅读它生成的代码，它只是“振动编码”。那么，如果我不是 vivi 编码，我在做什么？
+      <title>计算模值的参数选择</title>
+      <link>https://news.ycombinator.com/item?id=45867568</link>
+      <description><![CDATA[这里有人必须计算参数选择以每天、每周或每月计算模值吗？目前，计算、审查和验证模数需要多长时间？需要花费多少时间和金钱才能将其实施到您的系统中？如果有一个可证明正确的方法，那么您所要做的就是输入 b= 基数、p=素数、t= 深度和 r= 残差，它每次都会为您提供正确的局部和/或组合模数值，这会是您或您的公司感兴趣的东西吗？如果是这样，您或您的公司愿意为每次计算支付多少费用？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45866068
-积分：1
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=45866068</guid>
-      <pubDate>Sun, 09 Nov 2025 15:07:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：React Source Lens – 从 UI 组件一键跳转到源代码</title>
-      <link>https://www.npmjs.com/package/react-source-lens</link>
-      <description><![CDATA[React Source Lens 是一款开发工具，可让您直接在浏览器中检查 React 组件源代码。工作原理：添加 
-使用ReactSourceLens()
- 到你的 React 应用程序
-将鼠标悬停在应用程序中的任何组件上
-按 Cmd+Shift+O (Mac) 或 Ctrl+Shift+O (Windows/Linux)
-出现一个带有文件路径和行号的模式
-点击“在VS Code中打开”直接跳转到源码
-主要功能：视觉叠加显示您将鼠标悬停在哪个组件上
-使用 React 的调试信息（开发模式）
-用于增强源检测的可选 Babel 插件
-VS Code 与 vscode:// 协议集成
-使用 Cmd+Shift+L 切换覆盖
-安装：npm install react-source-lens
-用法：javascript
-import { useReactSourceLens } from &#39;react-source-lens&#39;;// 基本用法
-useReactSourceLens();// 与 VS Code 集成
-使用ReactSourceLens({
-  项目根：&#39;/path/to/your/project&#39;
-});
-为什么重要：在处理大型或不熟悉的 React 代码库时，查找组件定义可能非常耗时。该工具通过提供即时源代码导航来消除这种麻烦。使用现代 React 构建并与 Vite 配合使用，Create React App
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45866064
+评论网址：https://news.ycombinator.com/item?id=45867568
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.npmjs.com/package/react-source-lens</guid>
-      <pubDate>Sun, 09 Nov 2025 15:06:22 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45867568</guid>
+      <pubDate>Sun, 09 Nov 2025 18:02:24 GMT</pubDate>
     </item>
     <item>
-      <title>曾经尝试过运行零云依赖的完整 RAG 系统吗？</title>
-      <link>https://github.com/raghavan/pdfgptindexer-offline</link>
-      <description><![CDATA[文章网址：https://github.com/raghavan/pdfgptindexer-offline
-评论网址：https://news.ycombinator.com/item?id=45866062
+      <title>人工智能正在让我们变得更笨吗？</title>
+      <link>https://realworldprogrammer.com/2025/11/09/artificial-intelligence-is-making-us-all-dumber/</link>
+      <description><![CDATA[文章网址：https://realworldprogrammer.com/2025/11/09/artificial-intelligence-is-making-us-all-dumber/
+评论网址：https://news.ycombinator.com/item?id=45867558
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/raghavan/pdfgptindexer-offline</guid>
-      <pubDate>Sun, 09 Nov 2025 15:06:18 GMT</pubDate>
+      <guid>https://realworldprogrammer.com/2025/11/09/artificial-intelligence-is-making-us-all-dumber/</guid>
+      <pubDate>Sun, 09 Nov 2025 18:01:09 GMT</pubDate>
     </item>
     <item>
-      <title>SORTA 堆栈语言 (1991)</title>
-      <link>https://www.ioccc.org/1991/brnstnd/index.html</link>
-      <description><![CDATA[文章网址：https://www.ioccc.org/1991/brnstnd/index.html
-评论网址：https://news.ycombinator.com/item?id=45866049
-积分：1
+      <title>资本配置</title>
+      <link>https://www.morganstanley.com/content/dam/im/assets/publication/thought-leadership/consilient-observer/article_capitalallocation.pdf?1762571474557</link>
+      <description><![CDATA[文章网址： https://www.morganstanley.com/content/dam/im/assets/publication/thought-leadership/consilient-observer/article_capitalallocation.pdf?1762571474557
+评论网址：https://news.ycombinator.com/item?id=45867537
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.ioccc.org/1991/brnstnd/index.html</guid>
-      <pubDate>Sun, 09 Nov 2025 15:05:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>罗德岛州森林中建造的被动式房屋</title>
-      <link>https://www.nytimes.com/2025/06/23/realestate/location-rhode-island-contemporary.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2025/06/23/realestate/location-rhode-island-contemporary.html
-评论网址：https://news.ycombinator.com/item?id=45866037
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.nytimes.com/2025/06/23/realestate/location-rhode-island-contemporary.html</guid>
-      <pubDate>Sun, 09 Nov 2025 15:04:19 GMT</pubDate>
+      <guid>https://www.morganstanley.com/content/dam/im/assets/publication/thought-leadership/consilient-observer/article_capitalallocation.pdf?1762571474557</guid>
+      <pubDate>Sun, 09 Nov 2025 17:58:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
