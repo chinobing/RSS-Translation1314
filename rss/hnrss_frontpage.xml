@@ -4,110 +4,108 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 09 Nov 2025 12:37:05 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 15:17:37 GMT</lastBuildDate>
+    <item>
+      <title>关于 KeePassXC 的代码质量控制</title>
+      <link>https://keepassxc.org/blog/2025-11-09-about-keepassxcs-code-quality-control/</link>
+      <description><![CDATA[文章网址：https://keepassxc.org/blog/2025-11-09-about-keepassxcs-code-quality-control/
+评论网址：https://news.ycombinator.com/item?id=45865921
+积分：4
+# 条评论：0]]></description>
+      <guid>https://keepassxc.org/blog/2025-11-09-about-keepassxcs-code-quality-control/</guid>
+      <pubDate>Sun, 09 Nov 2025 14:44:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Pipeflow-PHP – 使用管道实现任何自动化，甚至非开发人员也可以编辑</title>
+      <link>https://github.com/marcosiino/pipeflow-php</link>
+      <description><![CDATA[大家好，我一直在构建 [Pipeflow-php](https://github.com/marcosiino/pipeflow-php)，这是一个 PHP 管道引擎，可以使用核心模块化阶段和自定义实现的阶段（可以执行任何操作）来自动化所有操作（从内容生成到后端和业务逻辑工作流程），其关键功能是使用易于推理和阅读的XML 来定义管道逻辑，公司中的每个参与者，甚至非开发人员，都可以理解、维护和编辑。它是一个“无头引擎”：不包含 UI，但它的设计目的是可以轻松连接到任何后端界面（例如 WordPress 管理、CMS 仪表板、自定义面板），因此*即使非开发人员也可以编辑或配置逻辑*。它确实需要改进，需要实现更多核心阶段和更多功能，但我已经在两个网站上使用它我已经开发了。将来我也计划将其移植为其他语言。感谢反馈（甚至贡献）:)---为什么我构建它我每天通过 cron 作业运行一个网站：- 使用复杂的逻辑并在生成人工智能的支持下自动生成和发布着色页面，- 根据管道中定义的逻辑选择类别和提示，- 创建和发布 WordPress 帖子每天自动进行，无需任何人为干预。所有逻辑都在 XML 管道中定义，可通过 WordPress 管理面板进行编辑（使用我开发的 WordPress 插件，该插件还向 Pipeflow 添加了一些与 WordPress 相关的自定义阶段）。非开发人员（例如内容管理员）可以调整这种自动内容生成逻辑，例如通过改进它，或者在假期期间更改主题/类别，而无需接触 PHP。---Pipeflow 的作用- 直接从您的 Web 应用程序管理页面以*流畅的 PHP* 或*简单、易于理解的 XML（即使是非开发人员）定义管道*- 使用控制流阶段，如 `If`、`ForEach`、`For`- 执行管道手动、通过 cron 或任何适合您业务逻辑的后端触发器- 在顶部构建您自己的 UI 或编辑器（从简单的文本编辑器到基于节点的编辑器，该编辑器输出兼容的基于 XML 的配置以馈送到管道流）- 跨不同管道重用模块化“阶段”（核心和自定义阶段）
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45865546
+积分：15
+# 条评论：3]]></description>
+      <guid>https://github.com/marcosiino/pipeflow-php</guid>
+      <pubDate>Sun, 09 Nov 2025 13:40:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Drax：具有离散流匹配的语音识别</title>
+      <link>https://huggingface.co/papers/2510.04162</link>
+      <description><![CDATA[文章网址：https://huggingface.co/papers/2510.04162
+评论网址：https://news.ycombinator.com/item?id=45865426
+积分：20
+# 条评论：0]]></description>
+      <guid>https://huggingface.co/papers/2510.04162</guid>
+      <pubDate>Sun, 09 Nov 2025 13:24:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 bubblewrap 向 NetBSD 添加沙箱</title>
+      <link>https://blog.netbsd.org/tnf/entry/gsoc2025_bubblewrap_sandboxing</link>
+      <description><![CDATA[文章网址：https://blog.netbsd.org/tnf/entry/gsoc2025_bubblewrap_sandboxing
+评论网址：https://news.ycombinator.com/item?id=45865327
+积分：13
+# 条评论：1]]></description>
+      <guid>https://blog.netbsd.org/tnf/entry/gsoc2025_bubblewrap_sandboxing</guid>
+      <pubDate>Sun, 09 Nov 2025 13:09:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>蒙大拿州成为第一个将“计算权”写入法律的州</title>
+      <link>https://montananewsroom.com/montana-becomes-first-state-to-enshrine-right-to-compute-into-law/</link>
+      <description><![CDATA[文章网址：https://montananewsroom.com/montana-becomes-first-state-to-enshrine-right-to-compute-into-law/
+评论网址：https://news.ycombinator.com/item?id=45865289
+积分：8
+# 条评论：5]]></description>
+      <guid>https://montananewsroom.com/montana-becomes-first-state-to-enshrine-right-to-compute-into-law/</guid>
+      <pubDate>Sun, 09 Nov 2025 13:03:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zensical – 由 Material for MkDocs 团队构建的现代静态站点生成器</title>
+      <link>https://squidfunk.github.io/mkdocs-material/blog/2025/11/05/zensical/</link>
+      <description><![CDATA[文章网址：https://squidfunk.github.io/mkdocs-material/blog/2025/11/05/zensical/
+评论网址：https://news.ycombinator.com/item?id=45865189
+积分：5
+# 条评论：0]]></description>
+      <guid>https://squidfunk.github.io/mkdocs-material/blog/2025/11/05/zensical/</guid>
+      <pubDate>Sun, 09 Nov 2025 12:50:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>复兴经典 Unix 游戏：软件考古学 20 年之旅</title>
+      <link>https://vejeta.com/reviving-classic-unix-games-a-20-year-journey-through-software-archaeology/</link>
+      <description><![CDATA[文章网址：https://vejeta.com/reviving-classic-unix-games-a-20-year-journey-through-software-archaeology/
+评论网址：https://news.ycombinator.com/item?id=45865159
+积分：40
+# 条评论：11]]></description>
+      <guid>https://vejeta.com/reviving-classic-unix-games-a-20-year-journey-through-software-archaeology/</guid>
+      <pubDate>Sun, 09 Nov 2025 12:44:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>活跃的互联网理论</title>
+      <link>https://alivetheory.net/</link>
+      <description><![CDATA[文章网址：https://alivetheory.net/
+评论网址：https://news.ycombinator.com/item?id=45865098
+积分：85
+# 条评论：34]]></description>
+      <guid>https://alivetheory.net/</guid>
+      <pubDate>Sun, 09 Nov 2025 12:33:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 FastAPI-Voyager 可视化 FastAPI 端点</title>
+      <link>https://www.newsyeah.fun/voyager/</link>
+      <description><![CDATA[文章网址：https://www.newsyeah.fun/voyager/
+评论网址：https://news.ycombinator.com/item?id=45865049
+积分：49
+评论数量：9]]></description>
+      <guid>https://www.newsyeah.fun/voyager/</guid>
+      <pubDate>Sun, 09 Nov 2025 12:24:50 GMT</pubDate>
+    </item>
     <item>
       <title>问 HN：您会如何设置孩子的第一台 Linux 计算机？</title>
       <link>https://news.ycombinator.com/item?id=45864732</link>
       <description><![CDATA[作为一名技术父母，我认为我为我的儿子和女儿做的最好的事情之一就是为他们的第一台计算机帮助他们构建和设置自己的 Linux 计算机（当时是 Ubuntu，但现在他们都把自己转移到了 Arch）。我们一起买了一台二手台式机（也让卖给我们的人感到兴奋），当我回到家时，我拿出了 RAM、HD 和 CD 驱动器并将它们放在一边;然后我们用螺丝刀花了几天时间“建造了计算机”。在 Windows 中，当孩子在网上搜索“Windows 电影制作者”时，他们将陷入一个痛苦的世界，要么找到昂贵的商业选择，要么找到向世界承诺的超级诈骗网站。相比之下，在 Linux 上，如果他们搜索本地“应用程序商店”，他们会找到一堆又一堆免费、有用、开放的许可软件。我的孩子们喜欢这种力量、自由和后来意想不到的社区。 现在我的朋友想为他们 8 岁的女儿做同样的事情。我打算做同样的事情，和她的父母一起去买一台二手台式机，然后在上面安装 Linux。我的问题是你会从哪里开始？您有什么建议？要安装什么？有什么迷你“课程”或想法吗？很想听听您的想法和经验。具有自由和开放软件的Linux是我们的目标和重点。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=45864732
-积分：26
-# 条评论：21]]></description>
+积分：70
+评论数量：91]]></description>
       <guid>https://news.ycombinator.com/item?id=45864732</guid>
       <pubDate>Sun, 09 Nov 2025 11:12:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>我是马克·扎克伯格</title>
-      <link>https://iammarkzuckerberg.com/</link>
-      <description><![CDATA[文章网址：https://iammarkzuckerberg.com/
-评论网址：https://news.ycombinator.com/item?id=45863360
-积分：485
-# 条评论：159]]></description>
-      <guid>https://iammarkzuckerberg.com/</guid>
-      <pubDate>Sun, 09 Nov 2025 06:13:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究发现年轻人记忆力衰退激增</title>
-      <link>https://onepercentrule.substack.com/p/under-40s-declining-memory</link>
-      <description><![CDATA[研究：https://www.neurology.org/doi/10.1212/WNL.0000000000214226
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45863057
-积分：105
-# 条评论：52]]></description>
-      <guid>https://onepercentrule.substack.com/p/under-40s-declining-memory</guid>
-      <pubDate>Sun, 09 Nov 2025 05:05:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>第四——它仍然相关吗？</title>
-      <link>https://github.com/chochain/eforth</link>
-      <description><![CDATA[文章网址：https://github.com/chochain/eforth
-评论网址：https://news.ycombinator.com/item?id=45863024
-积分：56
-# 条评论：32]]></description>
-      <guid>https://github.com/chochain/eforth</guid>
-      <pubDate>Sun, 09 Nov 2025 04:59:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>Grok 4 Fast 现在有 2M 上下文窗口</title>
-      <link>https://docs.x.ai/docs/models</link>
-      <description><![CDATA[文章网址：https://docs.x.ai/docs/models
-评论网址：https://news.ycombinator.com/item?id=45862833
-积分：105
-# 条评论：177]]></description>
-      <guid>https://docs.x.ai/docs/models</guid>
-      <pubDate>Sun, 09 Nov 2025 04:10:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>逆向工程 Codex CLI 以获得 GPT-5-Codex-Mini 来画一只鹈鹕</title>
-      <link>https://simonwillison.net/2025/Nov/9/gpt-5-codex-mini/</link>
-      <description><![CDATA[文章网址：https://simonwillison.net/2025/Nov/9/gpt-5-codex-mini/
-评论网址：https://news.ycombinator.com/item?id=45862802
-积分：87
-# 条评论：40]]></description>
-      <guid>https://simonwillison.net/2025/Nov/9/gpt-5-codex-mini/</guid>
-      <pubDate>Sun, 09 Nov 2025 04:02:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>编程语言的语法和语义（1995）</title>
-      <link>https://homepage.cs.uiowa.edu/~slonnegr/plf/Book/</link>
-      <description><![CDATA[文章网址：https://homepage.cs.uiowa.edu/~slonnegr/plf/Book/
-评论网址：https://news.ycombinator.com/item?id=45862591
-积分：35
-# 条评论：19]]></description>
-      <guid>https://homepage.cs.uiowa.edu/~slonnegr/plf/Book/</guid>
-      <pubDate>Sun, 09 Nov 2025 03:15:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：任何人都可以创建的地理围栏聊天社区</title>
-      <link>https://vicinity.social/</link>
-      <description><![CDATA[嗨，HN我使用类似 Discord 的服务器构建了一个基于位置的聊天室。这最初是一个学习 WebSocket 的组合项目，但后来完全发展成了其他东西。它是如何工作的。现在有两个功能：Drop - 只能在指定半径内看到的单个聊天室，并且只能持续少于用户选择的 48 小时的时间。Hubs - 以 Discord 为模型的地理围栏服务器。这些都没有时间限制。它们可以由任何人创建，创建者成为能够添加频道和设置规则的管理员。当用户进入该位置区域时，他们可以加入中心并在离开后继续查看消息。中心不能重叠，因此一旦一个区域存在一个中心，就无法在该区域上创建另一个中心。只要该集线器正在被积极使用，它就会持续存在。如果两周未使用，它将被删除。 （仍在实现此删除方面，因此目前不在登陆页面中）为什么我构建了这个。我不再喜欢大多数社交媒体的感觉，但我真的很喜欢我大学的不和谐服务器。我想要一些更通用的东西来提供类似的交互。因此，我认为可能有用的东西是与位置相关的更通用的社交应用程序。我认为如果做得正确，它可以重现我喜欢的氛围。我想了很多关于那种气氛是什么。我认为社交媒体要让人感觉自然，它需要“第三件事”：在两个人之间建立联系的共同兴趣或对象，或者沟通的中立基础。拥有共同点只会让互动变得更好、更有用。我认为位置可以作为一般的共同点，特别是如果服务器是由当地人管理的。
-这也可能是人们在新地方立即建立联系的好方法。现在，我正在享受构建这个东西的乐趣。如果其他人在那里的话，我真的很想使用它......而且它构建得更好并且是一个应用程序。反馈我正在寻找任何反馈。什么是好主意，什么是坏主意。这实际上只是一个原型，所以还有一些粗糙的地方，我正在积极地研究它。如果您发现任何错误并想传达它们，请这样做。  您可以通过 nhowar@uwo.ca 联系我
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45862500
-积分：41
-# 条评论：33]]></description>
-      <guid>https://vicinity.social/</guid>
-      <pubDate>Sun, 09 Nov 2025 02:59:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tabloid：点击诱饵头条新闻编程语言</title>
-      <link>https://tabloid.vercel.app/</link>
-      <description><![CDATA[文章网址：https://tabloid.vercel.app/
-评论网址：https://news.ycombinator.com/item?id=45862470
-积分：241
-# 条评论：36]]></description>
-      <guid>https://tabloid.vercel.app/</guid>
-      <pubDate>Sun, 09 Nov 2025 02:53:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>IRIX简介</title>
-      <link>http://www.sgistuff.net/software/irixintro/index.html</link>
-      <description><![CDATA[文章网址：http://www.sgistuff.net/software/irixintro/index.html
-评论网址：https://news.ycombinator.com/item?id=45862071
-积分：37
-# 条评论：19]]></description>
-      <guid>http://www.sgistuff.net/software/irixintro/index.html</guid>
-      <pubDate>Sun, 09 Nov 2025 01:33:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
