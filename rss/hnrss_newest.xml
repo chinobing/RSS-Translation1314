@@ -4,116 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 09 Nov 2025 18:25:58 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 21:17:56 GMT</lastBuildDate>
     <item>
-      <title>现代游戏引擎是如何退化的——该怪谁？</title>
-      <link>https://www.youtube.com/watch?v=1jg-ILC-bCI</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=1jg-ILC-bCI
-评论网址：https://news.ycombinator.com/item?id=45867698
+      <title>我建造半个图腾的那一周</title>
+      <link>https://taoofmac.com/space/blog/2025/11/05/2050</link>
+      <description><![CDATA[文章网址：https://taoofmac.com/space/blog/2025/11/05/2050
+评论网址：https://news.ycombinator.com/item?id=45869248
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=1jg-ILC-bCI</guid>
-      <pubDate>Sun, 09 Nov 2025 18:15:41 GMT</pubDate>
+      <guid>https://taoofmac.com/space/blog/2025/11/05/2050</guid>
+      <pubDate>Sun, 09 Nov 2025 21:15:52 GMT</pubDate>
     </item>
     <item>
-      <title>当我们将注意力交给算法时我们会失去什么</title>
-      <link>https://www.theguardian.com/us-news/ng-interactive/2025/nov/09/healthcare-artificial-intelligence-ai</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/us-news/ng-interactive/2025/nov/09/healthcare-artificial-intelligence-ai
-评论网址：https://news.ycombinator.com/item?id=45867691
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.theguardian.com/us-news/ng-interactive/2025/nov/09/healthcare-artificial-intelligence-ai</guid>
-      <pubDate>Sun, 09 Nov 2025 18:15:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Spine AI – 跨多个 AI 模型进行思考的可视化工作区</title>
-      <link>https://app.getspine.ai/guest</link>
-      <description><![CDATA[嘿 HN – Akshay 和 Ashwin，Spine AI (YC S23) 的创始人。我们想向您展示我们的新产品：Spine Canvas。TL;DR：Spine AI 是一个无限的可视化工作空间，您可以在其中与 300 多个 AI 模型和代理协作，比在单次聊天中更好地思考和创造。您无需注册即可尝试：app.getspine.ai/guest背景故事：
-我们于 2022 年开始构建多语言 RAG，进入 YC S23，通过多次迭代了解到用户想要迭代和控制 - 而不仅仅是另一个聊天界面。ChatGPT 最初的目的是为 GPT 的下一版本收集训练数据 - 但它爆炸了，因为它让 AI 变得易于访问。虽然聊天对于问答来说很棒，但对于思考来说却很糟糕：你会陷入线性线程中，迭代的唯一方法就是发送另一条消息，并且你无法控制模型实际记住了多少先前的上下文。每个模型也有自己的“超能力”：Claude 擅长编码，Gemini 擅长批评，Grok 擅长营销。我经常使用不同的法学硕士作为顾问，因为每个人都会带来略有不同的视角 - 当您深入思考、探索权衡或检查盲点时很有用。因此我们构建了 Spine：
-Spine Canvas 让您以块而非线程的方式进行思考。您可以连接块，这确保隐式上下文传递。您还可以明确引用连接的块作为当前块参数的一部分。我们有专用的块：图像生成、深入研究报告、幻灯片、聊天、提示。所有这些都可以在彼此之间无缝地传递上下文。因为它是一块画布，所以您可以分支 - 探索兔子洞，而不会丢失主要路径。您可以自由交换模型。列表是一等公民：同时在多个项目上运行相同的流程（例如“深入研究这 10 家公司”）。您可以更改单个块并在整个分支中进行逐步更新。为了帮助解决空白画布问题，我们有一个 AI 助手，可以通过构建您的初始画布来帮助您立即思考。您还可以从外部引入上下文 - 来自其他法学硕士的聊天、YouTube 视频（带有文字记录）或网页 - 并将它们视为板上的本地块。我们还提供 Miro 风格的注释和形状，让您可以将人类背景直接添加到 AI 工作区中。我们如何使用它（以及还有谁这样做）：
-使用 Spine 最简单的方法是与最新模型聊天，随时分支对话，并在同一板上继续使用不同模型。作为视觉创始人，我使用 Canvas 来映射 GTM、产品优先级和工程决策。例如，我们即将推出的应用程序块的提示工程来自于探索六位不同的法学硕士如何推理其他人工智能工具的系统提示——所有这些都在一个板上，在 20 分钟内完成。我更频繁地使用“流程”，因为一切都位于一个工作空间中。创始人是令人惊讶的早期采用者 - 可能是出于混乱与结构的原因。产品人员，尤其是那些使用 Miro 或 FigJam 等工具的人员，将其用于战略规划、优先级排序以及查找路线图中的盲点或联系。投资者将其用于市场研究，因为我们的深度研究报告比聊天法学硕士更全面、更容易迭代。我们已经看到一些高级用户使用它来学习新概念。问题：
-尝试一下并告诉我们您的想法。
-您无需注册即可立即使用：app.getspine.ai/guest 
-如果您创建帐户，则有一个免费计划，每月 2,000 个积分 + 每日 500 个积分（积分随基础模型成本而定）。如果您想聊天：Founders@getspine.ai，Discord：https://discord.gg/KuHzF6zBPs感谢您的支持时间！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45867678
+      <title>随着参议院开会打破僵局，结束关闭的协议“触手可及”</title>
+      <link>https://www.dailymail.co.uk/news/article-15274163/Senate-end-government-shutdown-Americans-hungry-airports-disarray.html</link>
+      <description><![CDATA[文章网址：https://www.dailymail.co.uk/news/article-15274163/Senate-end-government-shutdown-Americans-hungry-airports-disarray.html
+评论网址：https://news.ycombinator.com/item?id=45869241
 积分：1
 # 条评论：0]]></description>
-      <guid>https://app.getspine.ai/guest</guid>
-      <pubDate>Sun, 09 Nov 2025 18:13:29 GMT</pubDate>
+      <guid>https://www.dailymail.co.uk/news/article-15274163/Senate-end-government-shutdown-Americans-hungry-airports-disarray.html</guid>
+      <pubDate>Sun, 09 Nov 2025 21:15:08 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：并行运行和比较多个自治浏览器代理</title>
-      <link>https://www.thebrowserarena.com/</link>
-      <description><![CDATA[嘿 HN，我正在构建一个项目，需要同时比较多个浏览器代理，因此我构建了浏览器竞技场。
-在这个网站上，您可以并行运行多个代理，并实时查看哪个模型在完全相同的任务上表现最好。您还可以获得一些指标，例如成本和速度。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45867636
+      <title>C 中的守护进程示例</title>
+      <link>https://lloydrochester.com/post/c/unix-daemon-example/</link>
+      <description><![CDATA[文章网址：https://lloydrochester.com/post/c/unix-daemon-example/
+评论网址：https://news.ycombinator.com/item?id=45869235
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.thebrowserarena.com/</guid>
-      <pubDate>Sun, 09 Nov 2025 18:09:30 GMT</pubDate>
+      <guid>https://lloydrochester.com/post/c/unix-daemon-example/</guid>
+      <pubDate>Sun, 09 Nov 2025 21:14:26 GMT</pubDate>
     </item>
     <item>
-      <title>美国司法部反垄断审查批准谷歌 32B 美元收购 Wiz</title>
-      <link>https://www.securityweek.com/doj-antitrust-review-clears-googles-32-billion-acquisition-of-wiz/</link>
-      <description><![CDATA[文章网址：https://www.securityweek.com/doj-antitrust-review-clears-googles-32-billion-acquisition-of-wiz/
-评论网址：https://news.ycombinator.com/item?id=45867611
+      <title>在杰基·罗宾逊之前融入棒球的美国士兵</title>
+      <link>https://www.theguardian.com/sport/2025/oct/22/the-forgotten-story-of-the-us-soldiers-who-integrated-baseball-before-jackie-robinson</link>
+      <description><![CDATA[文章网址： https://www.theguardian.com/sport/2025/oct/22/the-forgotten-story-of-the-us-soldiers-who-integrated-baseball-before-jackie-robinson
+评论网址：https://news.ycombinator.com/item?id=45869219
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.securityweek.com/doj-antitrust-review-clears-googles-32-billion-acquisition-of-wiz/</guid>
-      <pubDate>Sun, 09 Nov 2025 18:06:24 GMT</pubDate>
+      <guid>https://www.theguardian.com/sport/2025/oct/22/the-forgotten-story-of-the-us-soldiers-who-integrated-baseball-before-jackie-robinson</guid>
+      <pubDate>Sun, 09 Nov 2025 21:12:21 GMT</pubDate>
     </item>
     <item>
-      <title>近一半的topk网站没有密码长度要求</title>
-      <link>https://www.scworld.com/news/nearly-half-of-top-1000-websites-have-no-password-length-requirements</link>
-      <description><![CDATA[文章网址：https://www.scworld.com/news/nearly-half-of-top-1000-websites-have-no-password-length-requirements
-评论网址：https://news.ycombinator.com/item?id=45867603
+      <title>英国和德国指责俄罗斯威胁其卫星</title>
+      <link>https://www.cnn.com/2025/11/09/europe/russian-satellite-spying-explainer-intl</link>
+      <description><![CDATA[文章网址：https://www.cnn.com/2025/11/09/europe/ Russian-satellite-spying-explainer-intl
+评论网址：https://news.ycombinator.com/item?id=45869204
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.scworld.com/news/nearly-half-of-top-1000-websites-have-no-password-length-requirements</guid>
-      <pubDate>Sun, 09 Nov 2025 18:05:55 GMT</pubDate>
+      <guid>https://www.cnn.com/2025/11/09/europe/russian-satellite-spying-explainer-intl</guid>
+      <pubDate>Sun, 09 Nov 2025 21:10:51 GMT</pubDate>
     </item>
     <item>
-      <title>轨道动力学魔法帮助拯救了美国宇航局的下一次火星任务</title>
-      <link>https://arstechnica.com/space/2025/11/heres-how-orbital-dynamics-wizardry-helped-save-nasas-next-mars-mission/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/space/2025/11/heres-how-orbital-dynamics-wizardry-helped-save-nasas-next-mars-mission/
-评论网址：https://news.ycombinator.com/item?id=45867582
+      <title>世界上最大的蜘蛛网</title>
+      <link>https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html
+评论网址：https://news.ycombinator.com/item?id=45869194
 积分：2
 # 条评论：0]]></description>
-      <guid>https://arstechnica.com/space/2025/11/heres-how-orbital-dynamics-wizardry-helped-save-nasas-next-mars-mission/</guid>
-      <pubDate>Sun, 09 Nov 2025 18:03:45 GMT</pubDate>
+      <guid>https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html</guid>
+      <pubDate>Sun, 09 Nov 2025 21:08:50 GMT</pubDate>
     </item>
     <item>
-      <title>计算模值的参数选择</title>
-      <link>https://news.ycombinator.com/item?id=45867568</link>
-      <description><![CDATA[这里有人必须计算参数选择以每天、每周或每月计算模值吗？目前，计算、审查和验证模数需要多长时间？需要花费多少时间和金钱才能将其实施到您的系统中？如果有一个可证明正确的方法，那么您所要做的就是输入 b= 基数、p=素数、t= 深度和 r= 残差，它每次都会为您提供正确的局部和/或组合模数值，这会是您或您的公司感兴趣的东西吗？如果是这样，您或您的公司愿意为每次计算支付多少费用？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45867568
+      <title>蒂姆·戴维因被指控存在严重偏见而辞去 BBC 总干事职务</title>
+      <link>https://www.theguardian.com/media/2025/nov/09/tim-davie-expected-to-resign-bbc-director-general</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/media/2025/nov/09/tim-davie-expected-to-resign-bbc-director-general
+评论网址：https://news.ycombinator.com/item?id=45869190
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.theguardian.com/media/2025/nov/09/tim-davie-expected-to-resign-bbc-director-general</guid>
+      <pubDate>Sun, 09 Nov 2025 21:08:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Netflix 奖（2009 年）——寻找预测用户电影评分的最佳算法</title>
+      <link>https://en.wikipedia.org/wiki/Netflix_Prize</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Netflix_Prize
+评论网址：https://news.ycombinator.com/item?id=45869182
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45867568</guid>
-      <pubDate>Sun, 09 Nov 2025 18:02:24 GMT</pubDate>
+      <guid>https://en.wikipedia.org/wiki/Netflix_Prize</guid>
+      <pubDate>Sun, 09 Nov 2025 21:07:09 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能正在让我们变得更笨吗？</title>
-      <link>https://realworldprogrammer.com/2025/11/09/artificial-intelligence-is-making-us-all-dumber/</link>
-      <description><![CDATA[文章网址：https://realworldprogrammer.com/2025/11/09/artificial-intelligence-is-making-us-all-dumber/
-评论网址：https://news.ycombinator.com/item?id=45867558
+      <title>24号染色体（幸运的是，YC W26公司）</title>
+      <link>https://supernaturalselection.substack.com/p/chromosome-24</link>
+      <description><![CDATA[文章网址：https://supernaturalselection.substack.com/p/chromosome-24
+评论网址：https://news.ycombinator.com/item?id=45869154
+积分：1
+# 条评论：1]]></description>
+      <guid>https://supernaturalselection.substack.com/p/chromosome-24</guid>
+      <pubDate>Sun, 09 Nov 2025 21:03:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>城市指数</title>
+      <link>https://www.notion.so/aviaras/ae53bceea407441e8ef453ef5c697a1e?v=6cd7ebb12b1c46788f92a36706a21b4c&source=copy_link</link>
+      <description><![CDATA[文章网址： https://www.notion.so/aviaras/ae53bceea407441e8ef453ef5c697a1e?v=6cd7ebb12b1c46788f92a36706a21b4c&amp;source=copy_link
+评论网址：https://news.ycombinator.com/item?id=45869150
 积分：1
 # 条评论：0]]></description>
-      <guid>https://realworldprogrammer.com/2025/11/09/artificial-intelligence-is-making-us-all-dumber/</guid>
-      <pubDate>Sun, 09 Nov 2025 18:01:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>资本配置</title>
-      <link>https://www.morganstanley.com/content/dam/im/assets/publication/thought-leadership/consilient-observer/article_capitalallocation.pdf?1762571474557</link>
-      <description><![CDATA[文章网址： https://www.morganstanley.com/content/dam/im/assets/publication/thought-leadership/consilient-observer/article_capitalallocation.pdf?1762571474557
-评论网址：https://news.ycombinator.com/item?id=45867537
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.morganstanley.com/content/dam/im/assets/publication/thought-leadership/consilient-observer/article_capitalallocation.pdf?1762571474557</guid>
-      <pubDate>Sun, 09 Nov 2025 17:58:53 GMT</pubDate>
+      <guid>https://www.notion.so/aviaras/ae53bceea407441e8ef453ef5c697a1e?v=6cd7ebb12b1c46788f92a36706a21b4c&source=copy_link</guid>
+      <pubDate>Sun, 09 Nov 2025 21:02:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
