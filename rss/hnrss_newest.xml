@@ -4,134 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 10 Nov 2025 01:40:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 03:51:30 GMT</lastBuildDate>
     <item>
-      <title>Show HN：UnisonDB – 像消息总线一样复制。就像数据库一样</title>
-      <link>https://github.com/ankur-anand/unisondb</link>
-      <description><![CDATA[大家好，
-我一直在尝试一种想法，将数据库和消息总线组合到一个系统中，用于需要在边缘并置状态的系统。每个数据库都已经有一个日志 - 预写日志。它很耐用，
-  有序且仅附加。如果你是的话，这确实是你会构建的
-  设计一个消息队列。 所以我问：如果我们只复制日志本身怎么办？
-
-  UnisonDB 就是结果。这是一个基于 Go 的 KV 商店，其中：
-
-  每次写：
-  1.附加到内存映射的WAL（持久性）
-  2. 从 Wal 本身立即流式传输到 100 多个副本（无单独的 CDC）。
-  3.通过B+Tree（状态）变得可查询
-
-  复制的工作原理
-
-  每个副本都有一个位于其最后应用的偏移量处的 WAL 读取器。
-
-  - 新数据到达→读者拉取→本地应用
-  - 网络分区？重新连接并从偏移处恢复
-  - 副本崩溃？恢复本地 WAL，追上上次提交
-
-  没有达成共识。无法定人数。没有全球协调。只是：流式传输日志。
-
-GitHub: github.com/ankur-anand/unisondb
-希望得到您的反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45871223
+      <title>Coco 2 上的复合模块：UVD 板</title>
+      <link>https://nicole.express/2025/cuckoo-for-coco-puffs.html</link>
+      <description><![CDATA[文章网址：https://nicole.express/2025/cuckoo-for-coco-puffs.html
+评论网址：https://news.ycombinator.com/item?id=45872183
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/ankur-anand/unisondb</guid>
-      <pubDate>Mon, 10 Nov 2025 01:35:04 GMT</pubDate>
+      <guid>https://nicole.express/2025/cuckoo-for-coco-puffs.html</guid>
+      <pubDate>Mon, 10 Nov 2025 03:44:39 GMT</pubDate>
     </item>
     <item>
-      <title>月球值得开采吗？</title>
-      <link>https://nautil.us/is-the-moon-worth-mining-1246663/</link>
-      <description><![CDATA[文章网址：https://nautil.us/is-the-moon-worth-mining-1246663/
-评论网址：https://news.ycombinator.com/item?id=45871194
+      <title>从软件到硬件管理现代 HPC 集群和超级计算机</title>
+      <link>https://link.springer.com/book/9798868815997</link>
+      <description><![CDATA[文章网址：https://link.springer.com/book/9798868815997
+评论网址：https://news.ycombinator.com/item?id=45872135
+积分：1
+# 条评论：0]]></description>
+      <guid>https://link.springer.com/book/9798868815997</guid>
+      <pubDate>Mon, 10 Nov 2025 03:38:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>多层感知器的全局最优替代方案</title>
+      <link>https://www.mdpi.com/2078-2489/16/10/921</link>
+      <description><![CDATA[文章网址：https://www.mdpi.com/2078-2489/16/10/921
+评论网址：https://news.ycombinator.com/item?id=45872131
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.mdpi.com/2078-2489/16/10/921</guid>
+      <pubDate>Mon, 10 Nov 2025 03:37:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 驱动的客户服务 – 24/7 全球支持</title>
+      <link>https://news.ycombinator.com/item?id=45872121</link>
+      <description><![CDATA[免费使用。
+通过基于行为的营销触发因素提高转化率。
+提高对 24/7 多语言 AI 支持的满意度。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45872121
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=45872121</guid>
+      <pubDate>Mon, 10 Nov 2025 03:36:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>EvSwipe – 用于编码面试准备的游戏化移动应用程序（免费，iOS）</title>
+      <link>https://devswipe.io/</link>
+      <description><![CDATA[文章网址：https://devswipe.io/
+评论网址：https://news.ycombinator.com/item?id=45872113
+积分：1
+# 条评论：1]]></description>
+      <guid>https://devswipe.io/</guid>
+      <pubDate>Mon, 10 Nov 2025 03:35:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>隆重推出 Kit——您的网络新伙伴</title>
+      <link>https://discourse.mozilla.org/t/introducing-kit-your-new-companion-through-the-web/146463</link>
+      <description><![CDATA[文章网址：https://discourse.mozilla.org/t/introducing-kit-your-new-companion-through-the-web/146463
+评论网址：https://news.ycombinator.com/item?id=45872084
+积分：1
+# 条评论：1]]></description>
+      <guid>https://discourse.mozilla.org/t/introducing-kit-your-new-companion-through-the-web/146463</guid>
+      <pubDate>Mon, 10 Nov 2025 03:31:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>科学家研制出章鱼迷彩背后的强力颜料</title>
+      <link>https://today.ucsd.edu/story/scientists-produce-powerhouse-pigment-behind-octopus-camouflage</link>
+      <description><![CDATA[文章网址：https://today.ucsd.edu/story/scientists-product-powerhouse-pigment-behind-octopus-camouflage
+评论网址：https://news.ycombinator.com/item?id=45872066
+积分：1
+# 条评论：0]]></description>
+      <guid>https://today.ucsd.edu/story/scientists-produce-powerhouse-pigment-behind-octopus-camouflage</guid>
+      <pubDate>Mon, 10 Nov 2025 03:29:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>网络如何成长为 Nvidia 的 $46B 副业</title>
+      <link>https://www.sdxcentral.com/control-plane/how-networking-grew-to-become-nvidias-46-billion-side-hustle/</link>
+      <description><![CDATA[文章网址：https://www.sdxcentral.com/control-plane/how-networking-grew-to-become-nvidias-46-billion-side-hustle/
+评论网址：https://news.ycombinator.com/item?id=45872052
 积分：2
 # 条评论：0]]></description>
-      <guid>https://nautil.us/is-the-moon-worth-mining-1246663/</guid>
-      <pubDate>Mon, 10 Nov 2025 01:30:31 GMT</pubDate>
+      <guid>https://www.sdxcentral.com/control-plane/how-networking-grew-to-become-nvidias-46-billion-side-hustle/</guid>
+      <pubDate>Mon, 10 Nov 2025 03:27:21 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：CalmNest – 帮助您放下手机入睡</title>
-      <link>https://apps.apple.com/st/app/calmnest-sleep-relax/id6754578929</link>
-      <description><![CDATA[嗨，HN我构建了 CalmNest，因为我在晚上无法停止滚动。
-大多数晚上，我都会告诉自己很快就会入睡，但当我一直拿着手机、阅读、检查东西或只是盯着屏幕直到睡着时，一个小时就会消失。我想改变这一点 - 不是完全切断自己的联系，而是将手机变成引导我入睡而不是让我保持清醒的东西。所以我制作了 CalmNest，一个平静的空间，可以帮助您放慢速度并自然地进入睡眠状态。
-它以微妙的视觉效果轻轻引导您的呼吸，在您放松时变暗，并最终在您停止互动时淡入柔和的“晚安”屏幕。从那时起，它会跟踪您的睡眠时间和模式 - 没有压力，没有通知，只是平静。通常价格为 5.99 美元，但在 11 月 17 日之前免费提供给任何想尝试的人。
-如果您像我一样倾向于拿着手机入睡，也许这会有所帮助。https://apps.apple.com/st/app/calmnest-sleep-relax/id6754578...很想听听您的想法，尤其是来自以下人士的想法：与同样的“半夜打电话”习惯作斗争。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45871187
+      <title>小镇养老基金对退休储户发出警告</title>
+      <link>https://www.wsj.com/finance/investing/this-small-town-pension-fund-has-a-warning-for-millions-of-retirement-savers-24ed0112</link>
+      <description><![CDATA[文章网址： https://www.wsj.com/finance/investing/this-small-town-pension-fund-has-a-warning-for-millions-of-retirement-savers-24ed0112
+评论网址：https://news.ycombinator.com/item?id=45872040
 积分：2
 # 条评论：0]]></description>
-      <guid>https://apps.apple.com/st/app/calmnest-sleep-relax/id6754578929</guid>
-      <pubDate>Mon, 10 Nov 2025 01:29:47 GMT</pubDate>
+      <guid>https://www.wsj.com/finance/investing/this-small-town-pension-fund-has-a-warning-for-millions-of-retirement-savers-24ed0112</guid>
+      <pubDate>Mon, 10 Nov 2025 03:25:54 GMT</pubDate>
     </item>
     <item>
-      <title>终点线：沙特阿拉伯的 Neom 梦想如何破灭</title>
-      <link>https://www.ft.com/register/access</link>
-      <description><![CDATA[文章网址：https://www.ft.com/register/access
-评论网址：https://news.ycombinator.com/item?id=45871182
+      <title>数理逻辑入门：学习指南</title>
+      <link>https://www.logicmatters.net/tyl/</link>
+      <description><![CDATA[文章网址：https://www.logicmatters.net/tyl/
+评论网址：https://news.ycombinator.com/item?id=45872006
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.ft.com/register/access</guid>
-      <pubDate>Mon, 10 Nov 2025 01:29:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>当河流吞噬土地：孟加拉国与侵蚀的无休止的斗争</title>
-      <link>https://www.reuters.com/sustainability/cop/when-rivers-swallow-land-bangladeshs-endless-battle-with-erosion-2025-11-10/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/sustainability/cop/when-rivers-swallow-land-bangladeshs-endless-battle-with-erosion-2025-11-10/
-评论网址：https://news.ycombinator.com/item?id=45871174
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.reuters.com/sustainability/cop/when-rivers-swallow-land-bangladeshs-endless-battle-with-erosion-2025-11-10/</guid>
-      <pubDate>Mon, 10 Nov 2025 01:27:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir 首席执行官在“Axios Show”上</title>
-      <link>https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios</link>
-      <description><![CDATA[文章网址：https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios
-评论网址：https://news.ycombinator.com/item?id=45871163
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios</guid>
-      <pubDate>Mon, 10 Nov 2025 01:26:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Globalstar 吸引了 SpaceX 对出售过程的兴趣</title>
-      <link>https://www.reuters.com/business/media-telecom/globalstar-draws-spacex-interest-sale-process-bloomberg-news-reports-2025-10-30/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/business/media-telecom/globalstar-draws-spacex-interest-sale-process-bloomberg-news-reports-2025-10-30/
-评论网址：https://news.ycombinator.com/item?id=45871145
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.reuters.com/business/media-telecom/globalstar-draws-spacex-interest-sale-process-bloomberg-news-reports-2025-10-30/</guid>
-      <pubDate>Mon, 10 Nov 2025 01:24:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>英国如何失去造船业</title>
-      <link>https://www.construction-physics.com/p/how-the-uk-lost-its-shipbuilding</link>
-      <description><![CDATA[文章网址：https://www.construction-physicals.com/p/how-the-uk-lost-its-shipbuilding
-评论网址：https://news.ycombinator.com/item?id=45871141
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.construction-physics.com/p/how-the-uk-lost-its-shipbuilding</guid>
-      <pubDate>Mon, 10 Nov 2025 01:23:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>混合策略</title>
-      <link>https://turtlespace.blog/p/the-portmanteau-strategy</link>
-      <description><![CDATA[文章网址：https://turtlespace.blog/p/the-portmanteau-strategy
-评论网址：https://news.ycombinator.com/item?id=45871140
-积分：1
-# 条评论：0]]></description>
-      <guid>https://turtlespace.blog/p/the-portmanteau-strategy</guid>
-      <pubDate>Mon, 10 Nov 2025 01:23:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>近视流行中如何保持良好视力</title>
-      <link>https://ssathe.substack.com/p/vision-in-the-digital-age</link>
-      <description><![CDATA[文章网址：https://ssathe.substack.com/p/vision-in-the-digital-age
-评论网址：https://news.ycombinator.com/item?id=45871107
-积分：11
-# 条评论：0]]></description>
-      <guid>https://ssathe.substack.com/p/vision-in-the-digital-age</guid>
-      <pubDate>Mon, 10 Nov 2025 01:20:18 GMT</pubDate>
+      <guid>https://www.logicmatters.net/tyl/</guid>
+      <pubDate>Mon, 10 Nov 2025 03:20:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
