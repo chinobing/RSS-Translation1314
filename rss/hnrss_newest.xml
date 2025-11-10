@@ -4,106 +4,134 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 09 Nov 2025 21:17:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 01:40:06 GMT</lastBuildDate>
     <item>
-      <title>我建造半个图腾的那一周</title>
-      <link>https://taoofmac.com/space/blog/2025/11/05/2050</link>
-      <description><![CDATA[文章网址：https://taoofmac.com/space/blog/2025/11/05/2050
-评论网址：https://news.ycombinator.com/item?id=45869248
+      <title>Show HN：UnisonDB – 像消息总线一样复制。就像数据库一样</title>
+      <link>https://github.com/ankur-anand/unisondb</link>
+      <description><![CDATA[大家好，
+我一直在尝试一种想法，将数据库和消息总线组合到一个系统中，用于需要在边缘并置状态的系统。每个数据库都已经有一个日志 - 预写日志。它很耐用，
+  有序且仅附加。如果你是的话，这确实是你会构建的
+  设计一个消息队列。 所以我问：如果我们只复制日志本身怎么办？
+
+  UnisonDB 就是结果。这是一个基于 Go 的 KV 商店，其中：
+
+  每次写：
+  1.附加到内存映射的WAL（持久性）
+  2. 从 Wal 本身立即流式传输到 100 多个副本（无单独的 CDC）。
+  3.通过B+Tree（状态）变得可查询
+
+  复制的工作原理
+
+  每个副本都有一个位于其最后应用的偏移量处的 WAL 读取器。
+
+  - 新数据到达→读者拉取→本地应用
+  - 网络分区？重新连接并从偏移处恢复
+  - 副本崩溃？恢复本地 WAL，追上上次提交
+
+  没有达成共识。无法定人数。没有全球协调。只是：流式传输日志。
+
+GitHub: github.com/ankur-anand/unisondb
+希望得到您的反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45871223
 积分：1
 # 条评论：0]]></description>
-      <guid>https://taoofmac.com/space/blog/2025/11/05/2050</guid>
-      <pubDate>Sun, 09 Nov 2025 21:15:52 GMT</pubDate>
+      <guid>https://github.com/ankur-anand/unisondb</guid>
+      <pubDate>Mon, 10 Nov 2025 01:35:04 GMT</pubDate>
     </item>
     <item>
-      <title>随着参议院开会打破僵局，结束关闭的协议“触手可及”</title>
-      <link>https://www.dailymail.co.uk/news/article-15274163/Senate-end-government-shutdown-Americans-hungry-airports-disarray.html</link>
-      <description><![CDATA[文章网址：https://www.dailymail.co.uk/news/article-15274163/Senate-end-government-shutdown-Americans-hungry-airports-disarray.html
-评论网址：https://news.ycombinator.com/item?id=45869241
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.dailymail.co.uk/news/article-15274163/Senate-end-government-shutdown-Americans-hungry-airports-disarray.html</guid>
-      <pubDate>Sun, 09 Nov 2025 21:15:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>C 中的守护进程示例</title>
-      <link>https://lloydrochester.com/post/c/unix-daemon-example/</link>
-      <description><![CDATA[文章网址：https://lloydrochester.com/post/c/unix-daemon-example/
-评论网址：https://news.ycombinator.com/item?id=45869235
-积分：1
-# 条评论：0]]></description>
-      <guid>https://lloydrochester.com/post/c/unix-daemon-example/</guid>
-      <pubDate>Sun, 09 Nov 2025 21:14:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>在杰基·罗宾逊之前融入棒球的美国士兵</title>
-      <link>https://www.theguardian.com/sport/2025/oct/22/the-forgotten-story-of-the-us-soldiers-who-integrated-baseball-before-jackie-robinson</link>
-      <description><![CDATA[文章网址： https://www.theguardian.com/sport/2025/oct/22/the-forgotten-story-of-the-us-soldiers-who-integrated-baseball-before-jackie-robinson
-评论网址：https://news.ycombinator.com/item?id=45869219
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.theguardian.com/sport/2025/oct/22/the-forgotten-story-of-the-us-soldiers-who-integrated-baseball-before-jackie-robinson</guid>
-      <pubDate>Sun, 09 Nov 2025 21:12:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>英国和德国指责俄罗斯威胁其卫星</title>
-      <link>https://www.cnn.com/2025/11/09/europe/russian-satellite-spying-explainer-intl</link>
-      <description><![CDATA[文章网址：https://www.cnn.com/2025/11/09/europe/ Russian-satellite-spying-explainer-intl
-评论网址：https://news.ycombinator.com/item?id=45869204
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.cnn.com/2025/11/09/europe/russian-satellite-spying-explainer-intl</guid>
-      <pubDate>Sun, 09 Nov 2025 21:10:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>世界上最大的蜘蛛网</title>
-      <link>https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html
-评论网址：https://news.ycombinator.com/item?id=45869194
+      <title>月球值得开采吗？</title>
+      <link>https://nautil.us/is-the-moon-worth-mining-1246663/</link>
+      <description><![CDATA[文章网址：https://nautil.us/is-the-moon-worth-mining-1246663/
+评论网址：https://news.ycombinator.com/item?id=45871194
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html</guid>
-      <pubDate>Sun, 09 Nov 2025 21:08:50 GMT</pubDate>
+      <guid>https://nautil.us/is-the-moon-worth-mining-1246663/</guid>
+      <pubDate>Mon, 10 Nov 2025 01:30:31 GMT</pubDate>
     </item>
     <item>
-      <title>蒂姆·戴维因被指控存在严重偏见而辞去 BBC 总干事职务</title>
-      <link>https://www.theguardian.com/media/2025/nov/09/tim-davie-expected-to-resign-bbc-director-general</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/media/2025/nov/09/tim-davie-expected-to-resign-bbc-director-general
-评论网址：https://news.ycombinator.com/item?id=45869190
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.theguardian.com/media/2025/nov/09/tim-davie-expected-to-resign-bbc-director-general</guid>
-      <pubDate>Sun, 09 Nov 2025 21:08:28 GMT</pubDate>
+      <title>Show HN：CalmNest – 帮助您放下手机入睡</title>
+      <link>https://apps.apple.com/st/app/calmnest-sleep-relax/id6754578929</link>
+      <description><![CDATA[嗨，HN我构建了 CalmNest，因为我在晚上无法停止滚动。
+大多数晚上，我都会告诉自己很快就会入睡，但当我一直拿着手机、阅读、检查东西或只是盯着屏幕直到睡着时，一个小时就会消失。我想改变这一点 - 不是完全切断自己的联系，而是将手机变成引导我入睡而不是让我保持清醒的东西。所以我制作了 CalmNest，一个平静的空间，可以帮助您放慢速度并自然地进入睡眠状态。
+它以微妙的视觉效果轻轻引导您的呼吸，在您放松时变暗，并最终在您停止互动时淡入柔和的“晚安”屏幕。从那时起，它会跟踪您的睡眠时间和模式 - 没有压力，没有通知，只是平静。通常价格为 5.99 美元，但在 11 月 17 日之前免费提供给任何想尝试的人。
+如果您像我一样倾向于拿着手机入睡，也许这会有所帮助。https://apps.apple.com/st/app/calmnest-sleep-relax/id6754578...很想听听您的想法，尤其是来自以下人士的想法：与同样的“半夜打电话”习惯作斗争。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45871187
+积分：2
+# 条评论：0]]></description>
+      <guid>https://apps.apple.com/st/app/calmnest-sleep-relax/id6754578929</guid>
+      <pubDate>Mon, 10 Nov 2025 01:29:47 GMT</pubDate>
     </item>
     <item>
-      <title>Netflix 奖（2009 年）——寻找预测用户电影评分的最佳算法</title>
-      <link>https://en.wikipedia.org/wiki/Netflix_Prize</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Netflix_Prize
-评论网址：https://news.ycombinator.com/item?id=45869182
+      <title>终点线：沙特阿拉伯的 Neom 梦想如何破灭</title>
+      <link>https://www.ft.com/register/access</link>
+      <description><![CDATA[文章网址：https://www.ft.com/register/access
+评论网址：https://news.ycombinator.com/item?id=45871182
 积分：1
 # 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Netflix_Prize</guid>
-      <pubDate>Sun, 09 Nov 2025 21:07:09 GMT</pubDate>
+      <guid>https://www.ft.com/register/access</guid>
+      <pubDate>Mon, 10 Nov 2025 01:29:04 GMT</pubDate>
     </item>
     <item>
-      <title>24号染色体（幸运的是，YC W26公司）</title>
-      <link>https://supernaturalselection.substack.com/p/chromosome-24</link>
-      <description><![CDATA[文章网址：https://supernaturalselection.substack.com/p/chromosome-24
-评论网址：https://news.ycombinator.com/item?id=45869154
-积分：1
-# 条评论：1]]></description>
-      <guid>https://supernaturalselection.substack.com/p/chromosome-24</guid>
-      <pubDate>Sun, 09 Nov 2025 21:03:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>城市指数</title>
-      <link>https://www.notion.so/aviaras/ae53bceea407441e8ef453ef5c697a1e?v=6cd7ebb12b1c46788f92a36706a21b4c&source=copy_link</link>
-      <description><![CDATA[文章网址： https://www.notion.so/aviaras/ae53bceea407441e8ef453ef5c697a1e?v=6cd7ebb12b1c46788f92a36706a21b4c&amp;source=copy_link
-评论网址：https://news.ycombinator.com/item?id=45869150
+      <title>当河流吞噬土地：孟加拉国与侵蚀的无休止的斗争</title>
+      <link>https://www.reuters.com/sustainability/cop/when-rivers-swallow-land-bangladeshs-endless-battle-with-erosion-2025-11-10/</link>
+      <description><![CDATA[文章网址： https://www.reuters.com/sustainability/cop/when-rivers-swallow-land-bangladeshs-endless-battle-with-erosion-2025-11-10/
+评论网址：https://news.ycombinator.com/item?id=45871174
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.notion.so/aviaras/ae53bceea407441e8ef453ef5c697a1e?v=6cd7ebb12b1c46788f92a36706a21b4c&source=copy_link</guid>
-      <pubDate>Sun, 09 Nov 2025 21:02:49 GMT</pubDate>
+      <guid>https://www.reuters.com/sustainability/cop/when-rivers-swallow-land-bangladeshs-endless-battle-with-erosion-2025-11-10/</guid>
+      <pubDate>Mon, 10 Nov 2025 01:27:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Palantir 首席执行官在“Axios Show”上</title>
+      <link>https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios</link>
+      <description><![CDATA[文章网址：https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios
+评论网址：https://news.ycombinator.com/item?id=45871163
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios</guid>
+      <pubDate>Mon, 10 Nov 2025 01:26:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Globalstar 吸引了 SpaceX 对出售过程的兴趣</title>
+      <link>https://www.reuters.com/business/media-telecom/globalstar-draws-spacex-interest-sale-process-bloomberg-news-reports-2025-10-30/</link>
+      <description><![CDATA[文章网址： https://www.reuters.com/business/media-telecom/globalstar-draws-spacex-interest-sale-process-bloomberg-news-reports-2025-10-30/
+评论网址：https://news.ycombinator.com/item?id=45871145
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.reuters.com/business/media-telecom/globalstar-draws-spacex-interest-sale-process-bloomberg-news-reports-2025-10-30/</guid>
+      <pubDate>Mon, 10 Nov 2025 01:24:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>英国如何失去造船业</title>
+      <link>https://www.construction-physics.com/p/how-the-uk-lost-its-shipbuilding</link>
+      <description><![CDATA[文章网址：https://www.construction-physicals.com/p/how-the-uk-lost-its-shipbuilding
+评论网址：https://news.ycombinator.com/item?id=45871141
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.construction-physics.com/p/how-the-uk-lost-its-shipbuilding</guid>
+      <pubDate>Mon, 10 Nov 2025 01:23:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>混合策略</title>
+      <link>https://turtlespace.blog/p/the-portmanteau-strategy</link>
+      <description><![CDATA[文章网址：https://turtlespace.blog/p/the-portmanteau-strategy
+评论网址：https://news.ycombinator.com/item?id=45871140
+积分：1
+# 条评论：0]]></description>
+      <guid>https://turtlespace.blog/p/the-portmanteau-strategy</guid>
+      <pubDate>Mon, 10 Nov 2025 01:23:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>近视流行中如何保持良好视力</title>
+      <link>https://ssathe.substack.com/p/vision-in-the-digital-age</link>
+      <description><![CDATA[文章网址：https://ssathe.substack.com/p/vision-in-the-digital-age
+评论网址：https://news.ycombinator.com/item?id=45871107
+积分：11
+# 条评论：0]]></description>
+      <guid>https://ssathe.substack.com/p/vision-in-the-digital-age</guid>
+      <pubDate>Mon, 10 Nov 2025 01:20:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
