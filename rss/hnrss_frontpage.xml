@@ -4,103 +4,104 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 13 Nov 2025 18:28:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 21:20:04 GMT</lastBuildDate>
     <item>
-      <title>微软确认Windows 11即将改变遭到强烈反对 – Neowin</title>
-      <link>https://www.neowin.net/news/microsoft-confirms-windows-11-is-about-to-change-massively-gets-enormous-backlash/</link>
-      <description><![CDATA[文章网址：https://www.neowin.net/news/microsoft-confirms-windows-11-is-about-to-change-massively-gets-enormous-backlash/
-评论网址：https://news.ycombinator.com/item?id=45918203
-积分：8
+      <title>Piramidal (YC W24) 招聘：前端工程师</title>
+      <link>https://www.ycombinator.com/companies/piramidal/jobs/i9yNX5s-front-end-engineer-user-interface</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/piramidal/jobs/i9yNX5s-front-end-engineer-user-interface
+评论网址：https://news.ycombinator.com/item?id=45920468
+积分：0
 # 条评论：0]]></description>
-      <guid>https://www.neowin.net/news/microsoft-confirms-windows-11-is-about-to-change-massively-gets-enormous-backlash/</guid>
-      <pubDate>Thu, 13 Nov 2025 18:01:52 GMT</pubDate>
+      <guid>https://www.ycombinator.com/companies/piramidal/jobs/i9yNX5s-front-end-engineer-user-interface</guid>
+      <pubDate>Thu, 13 Nov 2025 21:00:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：DBOS Java – Postgres 支持的持久工作流程</title>
+      <link>https://github.com/dbos-inc/dbos-transact-java</link>
+      <description><![CDATA[嗨，HN - 我是 Peter，和 Harry (devhawk) 一起，我们正在构建 DBOS Java，这是一个由 Postgres 支持的用于持久工作流程的开源 Java 库。https://github.com/dbos-inc/dbos-transact-java从本质上讲，DBOS 可以帮助您编写代码寿命长、可靠的代码，可以在故障、重新启动和崩溃中幸存下来，而不会丢失状态或重复工作。当您的工作流程运行时，它会在 Postgres 数据库中检查它们执行的每个步骤。当进程停止（失败、重新启动或崩溃）时，您的程序可以从这些检查点恢复以恢复其确切状态，并从停止的位置继续，就像什么都没发生一样。实际上，这使得为 AI 代理、支付、数据同步或任何需要数小时、数天或数周才能完成的用例构建可靠的系统变得更加容易。持久工作流不是附加临时重试逻辑和数据库检查点，而是为您提供一种一致的模型，以确保您的程序可以从任何故障中从其停止的位置恢复。该库包含向程序添加持久工作流所需的所有内容：除了 Postgres 之外，没有单独的服务或编排器或任何外部依赖项。因为它只是一个库，所以您可以将其逐步添加到您的项目中，并且它可以与 Spring 等框架一起开箱即用。由于它基于 Postgres 构建，因此本身支持您熟悉的所有工具（备份、GUI、CLI 工具），并可与任何 Postgres 提供程序配合使用。如果您想尝试一下，请查看快速入门：https://docs.dbos.dev/quickstart?language=java我们很想听听你的想法！我们将在当天剩下的时间里在评论中回答任何问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45920156
+积分：6
+# 条评论：0]]></description>
+      <guid>https://github.com/dbos-inc/dbos-transact-java</guid>
+      <pubDate>Thu, 13 Nov 2025 20:33:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 C 中解析整数</title>
+      <link>https://daniel.haxx.se/blog/2025/11/13/parsing-integers-in-c/</link>
+      <description><![CDATA[文章网址：https://daniel.haxx.se/blog/2025/11/13/parsing-integers-in-c/
+评论网址：https://news.ycombinator.com/item?id=45920049
+积分：14
+# 条评论：1]]></description>
+      <guid>https://daniel.haxx.se/blog/2025/11/13/parsing-integers-in-c/</guid>
+      <pubDate>Thu, 13 Nov 2025 20:25:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>SlopStop：Kagi Search 中社区驱动的 AI 溢出检测</title>
+      <link>https://blog.kagi.com/slopstop</link>
+      <description><![CDATA[文章网址：https://blog.kagi.com/slopstop
+评论网址：https://news.ycombinator.com/item?id=45919067
+积分：122
+# 条评论：46]]></description>
+      <guid>https://blog.kagi.com/slopstop</guid>
+      <pubDate>Thu, 13 Nov 2025 19:03:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>IBM 为欧拉 200 年前的“AI 可解释性”数学技术申请了专利</title>
+      <link>https://leetarxiv.substack.com/p/ibm-patented-eulers-fractions</link>
+      <description><![CDATA[文章 URL：https://leetarxiv.substack.com/p/ibm-patented-eulers-fractions
+评论网址：https://news.ycombinator.com/item?id=45918732
+积分：72
+# 条评论：23]]></description>
+      <guid>https://leetarxiv.substack.com/p/ibm-patented-eulers-fractions</guid>
+      <pubDate>Thu, 13 Nov 2025 18:41:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>破坏首个报道的人工智能精心策划的网络间谍活动</title>
+      <link>https://www.anthropic.com/news/disrupting-AI-espionage</link>
+      <description><![CDATA[文章网址：https://www.anthropic.com/news/disrupting-AI-espionage
+评论网址：https://news.ycombinator.com/item?id=45918638
+积分：67
+# 条评论：24]]></description>
+      <guid>https://www.anthropic.com/news/disrupting-AI-espionage</guid>
+      <pubDate>Thu, 13 Nov 2025 18:34:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Android 中的 Rust：快速行动并修复问题</title>
+      <link>https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html</link>
+      <description><![CDATA[文章网址：https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+评论网址：https://news.ycombinator.com/item?id=45918616
+积分：111
+# 条评论：32]]></description>
+      <guid>https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html</guid>
+      <pubDate>Thu, 13 Nov 2025 18:32:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>鸡蛋非凡要塞</title>
+      <link>https://ahmed1011001.github.io/Notes/stories/eggstrodinary.html</link>
+      <description><![CDATA[文章网址：https://ahmed1011001.github.io/Notes/stories/eggstrodinary.html
+评论网址：https://news.ycombinator.com/item?id=45918331
+积分：9
+# 条评论：1]]></description>
+      <guid>https://ahmed1011001.github.io/Notes/stories/eggstrodinary.html</guid>
+      <pubDate>Thu, 13 Nov 2025 18:10:29 GMT</pubDate>
     </item>
     <item>
       <title>Nano Banana 可快速设计用于生成细致入微的 AI 图像</title>
       <link>https://minimaxir.com/2025/11/nano-banana-prompts/</link>
       <description><![CDATA[文章网址：https://minimaxir.com/2025/11/nano-banana-prompts/
 评论网址：https://news.ycombinator.com/item?id=45917875
-积分：50
-# 条评论：5]]></description>
+积分：251
+# 条评论：66]]></description>
       <guid>https://minimaxir.com/2025/11/nano-banana-prompts/</guid>
       <pubDate>Thu, 13 Nov 2025 17:39:13 GMT</pubDate>
     </item>
     <item>
-      <title>让人工智能来解决您假日购物中的困难部分</title>
-      <link>https://blog.google/products/shopping/agentic-checkout-holiday-ai-shopping/</link>
-      <description><![CDATA[文章网址：https://blog.google/products/shopping/agentic-checkout-holiday-ai-shopping/
-评论网址：https://news.ycombinator.com/item?id=45917830
-积分：5
-# 条评论：5]]></description>
-      <guid>https://blog.google/products/shopping/agentic-checkout-holiday-ai-shopping/</guid>
-      <pubDate>Thu, 13 Nov 2025 17:36:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>兰德·保罗：国会法案破坏了大麻农民的生计</title>
-      <link>https://www.courier-journal.com/story/opinion/contributors/2025/11/13/rand-paul-congress-funding-bill-hemp-products-farmers/87247317007/</link>
-      <description><![CDATA[文章网址： https://www.courier-journal.com/story/opinion/contributors/2025/11/13/rand-paul-congress-funding-bill-hemp-products-farmers/87247317007/
-评论网址：https://news.ycombinator.com/item?id=45917618
-积分：25
-# 条评论：3]]></description>
-      <guid>https://www.courier-journal.com/story/opinion/contributors/2025/11/13/rand-paul-congress-funding-bill-hemp-products-farmers/87247317007/</guid>
-      <pubDate>Thu, 13 Nov 2025 17:22:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>BAML 正在招聘编译器/Rust 工程师 (YC W23)</title>
-      <link>https://github.com/BoundaryML/baml/tree/canary/jobs</link>
-      <description><![CDATA[文章网址：https://github.com/BoundaryML/baml/tree/canary/jobs
-评论网址：https://news.ycombinator.com/item?id=45917282
-积分：0
-# 条评论：0]]></description>
-      <guid>https://github.com/BoundaryML/baml/tree/canary/jobs</guid>
-      <pubDate>Thu, 13 Nov 2025 17:00:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>启动 HN: Tweeks (YC W25) – 浏览器扩展，以消除网络的束缚</title>
+      <title>启动 HN: Tweeks (YC W25) – 浏览器扩展以消除网络混乱</title>
       <link>https://www.tweeks.io/onboarding</link>
       <description><![CDATA[]]></description>
       <guid>https://www.tweeks.io/onboarding</guid>
       <pubDate>Thu, 13 Nov 2025 16:03:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Zed是我们的办公室</title>
-      <link>https://zed.dev/blog/zed-is-our-office</link>
-      <description><![CDATA[文章网址：https://zed.dev/blog/zed-is-our-office
-评论网址：https://news.ycombinator.com/item?id=45916196
-积分：226
-评论数量：91]]></description>
-      <guid>https://zed.dev/blog/zed-is-our-office</guid>
-      <pubDate>Thu, 13 Nov 2025 15:41:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>特斯拉再次召回赛博卡车。是的，更多的碎片正在脱落</title>
-      <link>https://www.popularmechanics.com/cars/hybrid-electric/a69384091/cybertruck-lightbar-recall/</link>
-      <description><![CDATA[文章网址：https://www.popularmechanics.com/cars/hybrid-electric/a69384091/cybertruck-lightbar-recall/
-评论网址：https://news.ycombinator.com/item?id=45916146
-积分：208
-评论数：174]]></description>
-      <guid>https://www.popularmechanics.com/cars/hybrid-electric/a69384091/cybertruck-lightbar-recall/</guid>
-      <pubDate>Thu, 13 Nov 2025 15:38:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>SIMA 2：在虚拟 3D 世界中与您一起玩耍、推理和学习的代理</title>
-      <link>https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/</link>
-      <description><![CDATA[文章网址：https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/
-评论网址：https://news.ycombinator.com/item?id=45916037
-积分：69
-# 条评论：15]]></description>
-      <guid>https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/</guid>
-      <pubDate>Thu, 13 Nov 2025 15:29:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过迁移到 Hetzner，我们将 Mongo DB 成本降低了 90%</title>
-      <link>https://prosopo.io/blog/we-cut-our-mongodb-costs-by-90-percent/</link>
-      <description><![CDATA[文章网址：https://prosopo.io/blog/we-cut-our-mongodb-costs-by-90-percent/
-评论网址：https://news.ycombinator.com/item?id=45915884
-积分：114
-评论数：80]]></description>
-      <guid>https://prosopo.io/blog/we-cut-our-mongodb-costs-by-90-percent/</guid>
-      <pubDate>Thu, 13 Nov 2025 15:17:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
