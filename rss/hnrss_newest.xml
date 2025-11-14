@@ -4,108 +4,113 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 14 Nov 2025 18:29:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 21:19:56 GMT</lastBuildDate>
     <item>
-      <title>Show HN：愚蠢的商业想法</title>
-      <link>https://dumbassideas.com</link>
-      <description><![CDATA[发现可能不应该存在的搞笑、糟糕的商业想法。从最糟糕的创业概念中获取灵感，与朋友分享，并提交您自己的愚蠢想法！
+      <title>面向标记的对象表示法 (TOON)</title>
+      <link>https://github.com/toon-format/toon</link>
+      <description><![CDATA[文章网址：https://github.com/toon-format/toon
+评论网址：https://news.ycombinator.com/item?id=45932237
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/toon-format/toon</guid>
+      <pubDate>Fri, 14 Nov 2025 21:09:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>有史以来最古老的RNA捕捉到了猛犸象的临终时刻</title>
+      <link>https://gizmodo.com/oldest-rna-ever-recovered-captures-a-woolly-mammoths-dying-moments-2000686048</link>
+      <description><![CDATA[文章网址：https://gizmodo.com/oldest-rna-ever-recovered-captures-a-woolly-mammoths-dying-moments-2000686048
+评论网址：https://news.ycombinator.com/item?id=45932215
+积分：1
+# 条评论：0]]></description>
+      <guid>https://gizmodo.com/oldest-rna-ever-recovered-captures-a-woolly-mammoths-dying-moments-2000686048</guid>
+      <pubDate>Fri, 14 Nov 2025 21:07:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：电影预告片弹出窗口 – 右键单击​​电影标题即可观看预告片</title>
+      <link>https://chromewebstore.google.com/detail/movie-trailer-popup/hmggnepcdimcgnfmboknmpecegcnfgpg</link>
+      <description><![CDATA[我在浪费了半个电影夜晚复制电影标题并在 YouTube 上搜索预告片后构建了这个。问题：我在没有预告片预览的本地流媒体服务器上浏览电影。我不是电影迷，而且空闲时间有限，我不想把时间浪费在不好的选择上。工作流程很乏味：浏览 → 复制标题 → 搜索 YouTube → 观看预告片 → 重复。所以我构建了这个扩展。现在，您可以右键单击任何网页上的任何电影标题，并立即在弹出窗口中观看预告片。无需选项卡切换，无需搜索。它甚至可以在禁用右键单击（使用 Alt/Option + 右键单击）的网站上运行，并通过扩展图标提供手动搜索选项。希望获得反馈，尤其是以下方面的反馈：
+- 我没有想到的用例
+- 性能改进
+- 功能建议
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45929888
+评论网址：https://news.ycombinator.com/item?id=45932184
 积分：1
 # 条评论：0]]></description>
-      <guid>https://dumbassideas.com</guid>
-      <pubDate>Fri, 14 Nov 2025 18:18:11 GMT</pubDate>
+      <guid>https://chromewebstore.google.com/detail/movie-trailer-popup/hmggnepcdimcgnfmboknmpecegcnfgpg</guid>
+      <pubDate>Fri, 14 Nov 2025 21:05:30 GMT</pubDate>
     </item>
     <item>
-      <title>编码 Trance 音乐（完整叙述）</title>
-      <link>https://www.youtube.com/watch?v=GWXCCBsOMSg</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=GWXCCBsOMSg
-评论网址：https://news.ycombinator.com/item?id=45929883
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=GWXCCBsOMSg</guid>
-      <pubDate>Fri, 14 Nov 2025 18:17:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>LangDiff：LLM 的渐进式 UI</title>
-      <link>https://github.com/globalaiplatform/langdiff</link>
-      <description><![CDATA[文章网址：https://github.com/globalaiplatform/langdiff
-评论网址：https://news.ycombinator.com/item?id=45929880
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/globalaiplatform/langdiff</guid>
-      <pubDate>Fri, 14 Nov 2025 18:17:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：在训练 ML 模型时，您如何处理日志记录和评估？</title>
-      <link>https://news.ycombinator.com/item?id=45929871</link>
-      <description><![CDATA[大家好，我目前正在参加一些 ML 课程，虽然他们在理论方面做得很好，但他们不涵盖应用程序。至少在 Jupyter Notebook 中实现了一些基本的实现。我一直遇到的一个摩擦点是如何处理模型的日志记录和评估。现在我正在使用 Jupyter Notebook，我将训练模型，然后使用测试集为不同指标生成一些图表。整个工作流程似乎是我程序中人员的标准，但我无法摆脱它似乎基于振动且次优的感觉。我有几个项目即将进行，我想利用它们作为改进我的训练模型方法的机会。什么方法适合你？您有推荐的文章或库吗？您希望 Jr. Engineers 对此有何新的希望？谢谢！
+      <title>问 HN：代理商只是炒作吗？</title>
+      <link>https://news.ycombinator.com/item?id=45932160</link>
+      <description><![CDATA[过去几天我一直在尝试（但失败了）找到人工智能代理在生产中实际扩展的真实案例。除了编码代理和开发生产力工具之外，我很难看到任何看起来像真正可扩展的代理系统的东西。今天人们所说的大多数“代理”基本上都是确定性工作流程，其中一两个 LLM 调用粘合在一起。那不是代理。这充其量只是一个 API 管道。所以我真的很好奇：是否有代理大规模处理大型、混乱、多步骤工作流程的真实示例？不是演示，不是玩具项目，不是 VC 平台。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45929871
+评论网址：https://news.ycombinator.com/item?id=45932160
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45929871</guid>
-      <pubDate>Fri, 14 Nov 2025 18:16:45 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45932160</guid>
+      <pubDate>Fri, 14 Nov 2025 21:03:28 GMT</pubDate>
     </item>
     <item>
-      <title>秘密船只袭击备忘录声称针对毒品而不是人来证明杀戮是正当的</title>
-      <link>https://theintercept.com/2025/11/14/boat-strikes-immunity-legality-trump/</link>
-      <description><![CDATA[文章网址：https://theintercept.com/2025/11/14/boat-strikes-immunity-legality-trump/
-评论网址：https://news.ycombinator.com/item?id=45929863
-积分：1
-# 条评论：0]]></description>
-      <guid>https://theintercept.com/2025/11/14/boat-strikes-immunity-legality-trump/</guid>
-      <pubDate>Fri, 14 Nov 2025 18:16:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>红帽 OpenShift 4.20 增强人工智能、安全性和混合云</title>
-      <link>https://thenewstack.io/red-hat-openshift-4-20-boosts-ai-security-hybrid-cloud/</link>
-      <description><![CDATA[文章网址：https://thenewstack.io/red-hat-openshift-4-20-boosts-ai-security-hybrid-cloud/
-评论网址：https://news.ycombinator.com/item?id=45929859
+      <title>询问 HN：是否有人在不破坏用户流的情况下逐步淘汰 Azure B2C？</title>
+      <link>https://news.ycombinator.com/item?id=45932157</link>
+      <description><![CDATA[我正在研究不同的方法来逐渐让用户脱离 Azure B2C。 
+一个示例讨论了仅当用户再次登录时才在新系统上处理用户创建，而不是进行完全导出。有人尝试过吗？它在生产环境中是否有效，或者是否因不活跃用户/缺失声明而中断？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45932157
 积分：1
 # 条评论：1]]></description>
-      <guid>https://thenewstack.io/red-hat-openshift-4-20-boosts-ai-security-hybrid-cloud/</guid>
-      <pubDate>Fri, 14 Nov 2025 18:16:11 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=45932157</guid>
+      <pubDate>Fri, 14 Nov 2025 21:03:17 GMT</pubDate>
     </item>
     <item>
-      <title>教皇利奥十四世：“人工智能和医学：人类尊严的挑战”</title>
-      <link>https://www.vatican.va/content/leo-xiv/en/messages/pont-messages/2025/documents/20251107-messaggio-ai-medicine.html</link>
-      <description><![CDATA[文章网址： https://www.vatican.va/content/leo-xiv/en/messages/pont-messages/2025/documents/20251107-messaggio-ai-medicine.html
-评论网址：https://news.ycombinator.com/item?id=45929840
+      <title>100 到 20 份服务台门票</title>
+      <link>https://noproduct.gumroad.com/l/fqwpbu</link>
+      <description><![CDATA[文章网址：https://noproduct.gumroad.com/l/fqwpbu
+评论网址：https://news.ycombinator.com/item?id=45932143
+积分：1
+# 条评论：1]]></description>
+      <guid>https://noproduct.gumroad.com/l/fqwpbu</guid>
+      <pubDate>Fri, 14 Nov 2025 21:01:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>克劳德代理 SDK C++</title>
+      <link>https://github.com/0xeb/claude-agent-sdk-cpp</link>
+      <description><![CDATA[文章网址：https://github.com/0xeb/claude-agent-sdk-cpp
+评论网址：https://news.ycombinator.com/item?id=45932135
+积分：1
+# 条评论：1]]></description>
+      <guid>https://github.com/0xeb/claude-agent-sdk-cpp</guid>
+      <pubDate>Fri, 14 Nov 2025 21:01:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>调试你的决定</title>
+      <link>https://joncphillips.com/debugging-your-decisions/</link>
+      <description><![CDATA[文章网址：https://joncphillips.com/debugging-your-decisions/
+评论网址：https://news.ycombinator.com/item?id=45932123
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.vatican.va/content/leo-xiv/en/messages/pont-messages/2025/documents/20251107-messaggio-ai-medicine.html</guid>
-      <pubDate>Fri, 14 Nov 2025 18:15:08 GMT</pubDate>
+      <guid>https://joncphillips.com/debugging-your-decisions/</guid>
+      <pubDate>Fri, 14 Nov 2025 20:59:38 GMT</pubDate>
     </item>
     <item>
-      <title>光标从未在其主页上显示“IDE”</title>
-      <link>https://twitter.com/grigoriy_kogan/status/1989395569865838775</link>
-      <description><![CDATA[文章网址：https://twitter.com/grigoriy_kogan/status/1989395569865838775
-评论网址：https://news.ycombinator.com/item?id=45929808
+      <title>Matomo 的免费 A/B 测试插件</title>
+      <link>https://github.com/nofrillsplugins/matomo-simple-ab-testing</link>
+      <description><![CDATA[文章网址：https://github.com/nofrillsplugins/matomo-simple-ab-testing
+评论网址：https://news.ycombinator.com/item?id=45932094
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/nofrillsplugins/matomo-simple-ab-testing</guid>
+      <pubDate>Fri, 14 Nov 2025 20:56:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国宇航员在疑似“太空垃圾”袭击离开地球后返回地球</title>
+      <link>https://www.livescience.com/space/space-exploration/chinese-astronauts-are-back-on-earth-after-suspected-space-junk-strike-left-them-stranded-in-space</link>
+      <description><![CDATA[文章网址： https://www.livescience.com/space/space-exploration/chinese-astronauts-are-back-on-earth-after-suspected-space-junk-strike-left-them-stranded-in-space
+评论网址：https://news.ycombinator.com/item?id=45932090
 积分：2
-# 条评论：1]]></description>
-      <guid>https://twitter.com/grigoriy_kogan/status/1989395569865838775</guid>
-      <pubDate>Fri, 14 Nov 2025 18:13:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>光标 AI 因按 Tab 74,283 次而向我发送了一份礼物 [视频]</title>
-      <link>https://www.youtube.com/shorts/vZ1Qd-gClu4</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/shorts/vZ1Qd-gClu4
-评论网址：https://news.ycombinator.com/item?id=45929805
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.youtube.com/shorts/vZ1Qd-gClu4</guid>
-      <pubDate>Fri, 14 Nov 2025 18:12:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>数百万美元的移动投票计划</title>
-      <link>https://www.wired.com/story/bradley-tusk-mobile-voting-protocol/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/bradley-tusk-mobile-voting-protocol/
-评论网址：https://news.ycombinator.com/item?id=45929801
-积分：1
 # 条评论：0]]></description>
-      <guid>https://www.wired.com/story/bradley-tusk-mobile-voting-protocol/</guid>
-      <pubDate>Fri, 14 Nov 2025 18:12:45 GMT</pubDate>
+      <guid>https://www.livescience.com/space/space-exploration/chinese-astronauts-are-back-on-earth-after-suspected-space-junk-strike-left-them-stranded-in-space</guid>
+      <pubDate>Fri, 14 Nov 2025 20:56:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
