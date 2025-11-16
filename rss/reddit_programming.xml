@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sun, 16 Nov 2025 12:35:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 15:17:22 GMT</lastBuildDate>
+    <item>
+      <title>超越 Vector API - 寻求较低级别的 API #JVMLS</title>
+      <link>https://www.reddit.com/r/programming/comments/1oyo7i6/beyond_the_vector_api_a_quest_for_a_lower_level/</link>
+      <description><![CDATA[ 由   提交/u/BlueGoliath  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oyo7i6/beyond_the_vector_api_a_quest_for_a_lower_level/</guid>
+      <pubDate>Sun, 16 Nov 2025 15:14:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hyperlambda，人工智能编程语言</title>
+      <link>https://www.reddit.com/r/programming/comments/1oyng2s/hyperlambda_the_ai_programming_language/</link>
+      <description><![CDATA[ 由   提交/u/IdeaAffectionate945  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oyng2s/hyperlambda_the_ai_programming_language/</guid>
+      <pubDate>Sun, 16 Nov 2025 14:43:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>CAP定理的ELI5解释</title>
+      <link>https://www.reddit.com/r/programming/comments/1oynd1w/eli5_explanation_of_the_cap_theorem/</link>
+      <description><![CDATA[ 由   提交 /u/trolleid   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oynd1w/eli5_explanation_of_the_cap_theorem/</guid>
+      <pubDate>Sun, 16 Nov 2025 14:39:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>布隆过滤器：速度提升 16 倍的 API 背后的利基技巧</title>
+      <link>https://www.reddit.com/r/programming/comments/1oyl5k1/bloom_filters_the_niche_trick_behind_a_16_faster/</link>
+      <description><![CDATA[ 由   提交 /u/shared_ptr   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1oyl5k1/bloom_filters_the_niche_trick_behind_a_16_faster/</guid>
+      <pubDate>Sun, 16 Nov 2025 13:01:08 GMT</pubDate>
+    </item>
     <item>
       <title>如何在 WSL 中运行后台服务</title>
       <link>https://www.reddit.com/r/programming/comments/1oyjbis/how_to_run_a_background_service_in_wsl/</link>
@@ -29,7 +57,7 @@
     <item>
       <title>多模式 RAG 系统要好得多。与它们相比，传统 RAG 感觉很盲目。</title>
       <link>https://www.reddit.com/r/programming/comments/1oyil1f/multimodal_rag_systems_are_way_better_traditional/</link>
-      <description><![CDATA[嘿，大家好，我想分享过去一个月我在内部 RAG 管道上发现的内容，并了解您的想法，因为我确信我不是唯一一个碰壁的人。我为公司内部知识构建了一个 RAG 系统。这是一个经典的、照章办事的设置。我向它提供了所有 Confluence 文档、PDF 和文本文件。太棒了。 然后，在演示中，我的老板要求我搜索并展示过去一周举行的视频会议中的一些细节，我的 RAG 系统被难住了。我突然意识到：我还没有建立起公司的大脑。我建立了一个纯文本库。我的人工智能对视频、音频文件和图像中 80% 的知识视而不见，充耳不闻。所以，我重新开始。 这是我现在正在构建的架构。 核心思想：多模态嵌入我们都习惯了文本嵌入，但是新的多模态模型（例如 CLIP 或较新的模型）可以将不同媒体映射到相同的“含义”中。空间。这意味着文本“一只红狗”和红狗的照片在数字上变得非常相似。这是关键。   真实 工作：索引管道视频文件。   音频/视频：首先，我通过 Whisper 运行每个文件，以获得具有精确时间戳的高质量转录。这是没有商量余地的。  智能分块：我通过惨痛的经历才了解到这一点。不要只按 60 秒的间隔进行划分。你会把句子切成两半。我使用 PySceneDetect 来查找视频中的实际场景变化。这给了我更有逻辑性、语义上更有意义的“块”。嵌入。  存储：对于每个块，我都会存储转录本、文本向量、开始/结束时间戳和原始文件路径。 混合检索（不仅仅是矢量搜索！）如果您只是对“Ghaziabad 工厂”进行纯矢量搜索，您将获得同一个 5 分钟会议片段的 10 个剪辑。这是一种糟糕的用户体验。   真正的解决方案是混合检索： 首先过滤（“哪里”），然后矢量搜索（“什么”） 这种方法速度快 100 倍，准确度提高 100 倍。我现在正在研究重新排名步骤（因为前 5 个结果通常仍然太相似），但这个新架构已经更加强大了。我们终于构建了一个能够真正看到和听到的系统。 我写了一篇关于整个架构的完整的、长达 10 分钟的深入探讨，以及混合管道的一些示例代码。您可以在这里阅读：文章  我真的很好奇：你们都是怎么处理这个问题的？您只是索引成绩单吗？您用于分块和嵌入视频的堆栈是什么？   由   提交 /u/Paper-Superb   [链接] [评论]]]></description>
+      <description><![CDATA[嘿，大家好，我想分享过去一个月我在内部 RAG 管道上发现的内容，并了解您的想法，因为我确信我不是唯一一个碰壁的人。我为公司内部知识构建了一个 RAG 系统。这是一个经典的、照章办事的设置。我向它提供了所有 Confluence 文档、PDF 和文本文件。太棒了。 然后，在演示中，我的老板要求我搜索并展示过去一周举行的视频会议中的一些细节，我的 RAG 系统被难住了。我突然意识到：我还没有建立起公司的大脑。我建立了一个纯文本库。我的人工智能对视频、音频文件和图像中 80% 的知识视而不见，充耳不闻。所以，我重新开始。 这是我现在正在构建的架构。 核心思想：多模态嵌入我们都习惯了文本嵌入，但是新的多模态模型（例如 CLIP 或较新的模型）可以将不同媒体映射到相同的“含义”中。空间。这意味着文本“一只红狗”和红狗的照片在数字上变得非常相似。这是关键。   真实 工作：索引管道视频文件。   音频/视频：首先，我通过 Whisper 运行每个文件，以获得具有精确时间戳的高质量转录。这是没有商量余地的。  智能分块：我通过惨痛的教训才学会了这一点。不要只按 60 秒的间隔进行划分。你会把句子切成两半。我使用 PySceneDetect 来查找视频中的实际场景变化。这给了我更有逻辑性、语义上更有意义的“块”。嵌入。  存储：对于每个块，我都会存储转录本、文本向量、开始/结束时间戳和原始文件路径。 混合检索（不仅仅是矢量搜索！）如果您只是对“Ghaziabad 工厂”进行纯矢量搜索，您将获得同一个 5 分钟会议片段的 10 个剪辑。这是一种糟糕的用户体验。   真正的解决方案是混合检索： 首先过滤（“哪里”），然后矢量搜索（“什么”） 这种方法速度快 100 倍，准确度提高 100 倍。我现在正在研究重新排名步骤（因为前 5 个结果通常仍然太相似），但这个新架构已经更加强大了。我们终于构建了一个能够真正看到和听到的系统。 我写了一篇关于整个架构的完整的、长达 10 分钟的深入探讨，以及混合管道的一些示例代码。您可以在这里阅读：文章  我真的很好奇：你们都是怎么处理这个问题的？您只是索引成绩单吗？您用于分块和嵌入视频的堆栈是什么？   由   提交 /u/Paper-Superb   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1oyil1f/multimodal_rag_systems_are_way_better_traditional/</guid>
       <pubDate>Sun, 16 Nov 2025 10:39:46 GMT</pubDate>
     </item>
@@ -69,13 +97,6 @@
       <pubDate>Sun, 16 Nov 2025 07:12:38 GMT</pubDate>
     </item>
     <item>
-      <title>Lumi音乐播放器-WPF</title>
-      <link>https://www.reddit.com/r/programming/comments/1oyeqln/lumi_musical_player_wpf/</link>
-      <description><![CDATA[大家好，我想分享一下我已经研究了一段时间的新项目 - Lumi音乐播放器。这是一个小巧、美观的音乐播放器，只需指定文件夹路径即可收听您喜欢的音乐。 特点：  设计。这款播放器的设计是透明的，使其在电脑上的任何主题中看起来都很漂亮，无论是深色、浅色还是任何自定义主题 - Lumi Player 在任何地方都看起来很棒。 方便。适合那些不需要太多功能，只想听设计精美的音乐的人。 资源。 Lumi Player 不需要太多资源或功能强大的 PC；它在任何计算机上都能正常工作。 开源。如果您想了解此播放器的编写方式或提出改进建议，可以在 GitHub 上获取代码。  “”技术细节：  在 MIT 许可下使用 WPF 开源完全用 C# 编写 - 我欢迎您的建议和改进！ 该项目支持现代 MVVM 设计模式    由   提交 /u/Rywent   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oyeqln/lumi_musical_player_wpf/</guid>
-      <pubDate>Sun, 16 Nov 2025 06:41:01 GMT</pubDate>
-    </item>
-    <item>
       <title>评价我的投资组合</title>
       <link>https://www.reddit.com/r/programming/comments/1oyctqr/rate_my_portfolio/</link>
       <description><![CDATA[嘿伙计们，我刚刚制作了我的作品集，它还没有 100% 完成，你能告诉我它是否好或者我是否需要更改任何内容，并给我一些提示。我是网络开发新手，我制作这个作品集只是为了我的大学补充申请。这是链接： parsakeshavarzi.com   由   提交/u/parsa_keshavarzi   [链接] [评论]]]></description>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交/u/BlueGoliath  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1oycsza/jonathan_blow_on_programming_language_design/</guid>
       <pubDate>Sun, 16 Nov 2025 04:50:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>VotingWorks 开源选举系统</title>
-      <link>https://www.reddit.com/r/programming/comments/1oyb3k2/votingworks_open_source_election_system/</link>
-      <description><![CDATA[ 由   提交/u/R2_SWE2   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oyb3k2/votingworks_open_source_election_system/</guid>
-      <pubDate>Sun, 16 Nov 2025 03:21:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>每秒实时 WS + React 渲染：有趣的性能问题！</title>
-      <link>https://www.reddit.com/r/programming/comments/1oy9d73/realtime_ws_react_rendering_every_second_fun/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oy9d73/realtime_ws_react_rendering_every_second_fun/</guid>
-      <pubDate>Sun, 16 Nov 2025 01:55:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>那么现在苹果的PKL怎么样呢？</title>
-      <link>https://www.reddit.com/r/programming/comments/1oy7mnl/so_hows_apples_pkl_nowadays/</link>
-      <description><![CDATA[我记得大约一年前，Apple 随机丢弃了一个没人真正认为他们需要的工具，我只记得它再也没有被提起过，但是我看到存储库正在积极开发，所以我假设这个项目的存在有一些目的和需求。  那么，知道这是怎么回事吗？   由   提交 /u/Vyalkuran   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1oy7mnl/so_hows_apples_pkl_nowadays/</guid>
-      <pubDate>Sun, 16 Nov 2025 00:32:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
