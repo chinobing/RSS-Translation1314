@@ -4,158 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 16 Nov 2025 06:29:06 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 09:20:44 GMT</lastBuildDate>
     <item>
-      <title>企业咨询的（迟来的）崩溃[视频]</title>
-      <link>https://www.youtube.com/watch?v=ysEAIIHzvXo</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=ysEAIIHzvXo
-评论网址：https://news.ycombinator.com/item?id=45943180
+      <title>石油峰值现在怎么办？揭开化石燃料之争的惊人转折</title>
+      <link>https://www.cnbc.com/2025/11/13/what-now-for-peak-oil-unpacking-the-ieas-shift-on-fossil-fuel-demand.html</link>
+      <description><![CDATA[文章网址：https://www.cnbc.com/2025/11/13/what-now-for-peak-oil-unpacking-the-ieas-shift-on-fossil-fuel-demand.html
+评论网址：https://news.ycombinator.com/item?id=45943730
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=ysEAIIHzvXo</guid>
-      <pubDate>Sun, 16 Nov 2025 06:19:37 GMT</pubDate>
+      <guid>https://www.cnbc.com/2025/11/13/what-now-for-peak-oil-unpacking-the-ieas-shift-on-fossil-fuel-demand.html</guid>
+      <pubDate>Sun, 16 Nov 2025 09:10:15 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：ChronoGuard – 具有时间控制功能的浏览器自动化零信任代理</title>
-      <link>https://github.com/j-raghavan/ChronoGuard</link>
-      <description><![CDATA[嗨 HN！我构建了 ChronoGuard，这是一个开源零信任代理，为浏览器自动化提供网络强制授权。## 问题如果您大规模运行 Playwright、Puppeteer 或 Selenium 代理（CI/CD、K8s、VM 队列），您将面临两个挑战： 1. **访问控制**：如何确保代理仅访问批准的域？
-  2. **可审计性**：如何证明您的自动化何时何地访问外部资源？
-
-传统方法（SDK 限制、代码审查、监控）是可绕过的或缺乏时间证明。审计员和合规团队需要可加密验证、防篡改的日志。## 解决方案ChronoGuard 是位于代理和互联网之间的强制转发代理。每个请求都流经： Agent → Envoy (mTLS) → OPA（策略检查）→ 目标域
-                  ↓
-           不可变的审核日志（哈希链、时间序列）
-
-*主要特点：*
-  - 用于代理身份验证的 mTLS 身份验证
-  - 具有时间窗口限制的域允许列表/阻止列表
-  - 用于审核日志完整性的加密哈希链
-  - 策略即代码的 OPA 集成
-  - 多租户隔离
-  - 96%+ 测试覆盖率## 立即尝试需要零设置 - 只需单击：
-[![在 Codespaces 中打开](https://github.com/codespaces/badge.svg)](https://codespaces.new/j-raghavan/ChronoGuard?quickstart=1)或在本地运行：
-````bash
-  git clone https://github.com/j-raghavan/chronoguard
-  CD计时卫士
-  ./scripts/generate_secrets.sh
-  docker 组成-d
-``` 仪表板：http://localhost:3000
-  API 文档：http://localhost:8000/docs
-
-架构采用领域驱动设计 + 简洁架构构建：
-  - 6 项服务：Envoy 代理、OPA 策略引擎、FastAPI 后端、React
-  仪表板、PostgreSQL+TimescaleDB、Redis
-  - 技术堆栈：Python 3.11+、FastAPI、Envoy、开放策略代理、TimescaleDB
-  - 部署：Docker Compose (MVP)、Kubernetes 就绪（路线图）用例 - 电子商务竞争情报
-  - 金融科技市场研究
-  - 医疗数据运营（HIPAA 合规性）
-  - 具有审核要求的质量保证/测试提供商
-  - 任何运行具有合规义务的浏览器代理的组织
-
-下一步是什么 这是 v0.1.0 MVP。我正在寻找以下方面的反馈：
-  - 我没有考虑过的现实世界用例
-  - 与现有自动化堆栈的集成痛点
-  - 功能优先级（WebSocket 流、gRPC、高级速率限制）
-
-贡献 该项目遵循严格的质量标准（95%+ 测试覆盖率要求，
-  DRY 原则，mypy + ruff）。寻找对以下内容感兴趣的贡献者：
-  - 安全测试和威胁建模
-  - Kubernetes/Helm 部署
-  - 性能优化
-  - 客户端 SDK（Python、JS、Go）
-
-  GitHub：https://github.com/j-raghavan/ChronoGuard
-  许可证：Apache 2.0
-
-很高兴回答有关架构、设计决策或路线图的问题！谨致问候！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45943156
+      <title>Dotcommand：在 VS Code 中保存、查看、复制、管理常用命令</title>
+      <link>https://github.com/kareem2099/dotcommand</link>
+      <description><![CDATA[文章网址：https://github.com/kareem2099/dotcommand
+评论网址：https://news.ycombinator.com/item?id=45943717
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/kareem2099/dotcommand</guid>
+      <pubDate>Sun, 16 Nov 2025 09:07:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>时间、空间、记忆和脑体节律</title>
+      <link>https://www.nature.com/articles/s41583-025-00987-2</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41583-025-00987-2
+评论网址：https://news.ycombinator.com/item?id=45943708
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nature.com/articles/s41583-025-00987-2</guid>
+      <pubDate>Sun, 16 Nov 2025 09:04:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>将自然语言能力与学习编程语言联系起来</title>
+      <link>https://www.nature.com/articles/s41598-020-60661-8</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41598-020-60661-8
+评论网址：https://news.ycombinator.com/item?id=45943702
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nature.com/articles/s41598-020-60661-8</guid>
+      <pubDate>Sun, 16 Nov 2025 09:02:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>基于 TOTP 的登录的新登录验证</title>
+      <link>https://blog.pypi.org/posts/2025-11-14-login-verification/</link>
+      <description><![CDATA[文章网址：https://blog.pypi.org/posts/2025-11-14-login-verification/
+评论网址：https://news.ycombinator.com/item?id=45943688
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.pypi.org/posts/2025-11-14-login-verification/</guid>
+      <pubDate>Sun, 16 Nov 2025 08:57:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>谁发明了 Transformer 神经网络？</title>
+      <link>https://people.idsia.ch/~juergen/who-invented-transformer-neural-networks.html</link>
+      <description><![CDATA[文章网址：https://people.idsia.ch/~juergen/who-invented-transformer-neural-networks.html
+评论网址：https://news.ycombinator.com/item?id=45943677
+积分：1
+# 条评论：0]]></description>
+      <guid>https://people.idsia.ch/~juergen/who-invented-transformer-neural-networks.html</guid>
+      <pubDate>Sun, 16 Nov 2025 08:54:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>纳西雷马</title>
+      <link>https://en.wikipedia.org/wiki/Nacirema</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Nacirema
+评论网址：https://news.ycombinator.com/item?id=45943676
+积分：1
+# 条评论：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/Nacirema</guid>
+      <pubDate>Sun, 16 Nov 2025 08:53:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>重新发现 Perl 的乐趣</title>
+      <link>https://blog.zerodogg.org/2025/10/13/the-joy-of-rediscovering-perl/</link>
+      <description><![CDATA[文章网址：https://blog.zerodogg.org/2025/10/13/the-joy-of-rediscovering-perl/
+评论网址：https://news.ycombinator.com/item?id=45943669
 积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/j-raghavan/ChronoGuard</guid>
-      <pubDate>Sun, 16 Nov 2025 06:11:57 GMT</pubDate>
+      <guid>https://blog.zerodogg.org/2025/10/13/the-joy-of-rediscovering-perl/</guid>
+      <pubDate>Sun, 16 Nov 2025 08:51:04 GMT</pubDate>
     </item>
     <item>
-      <title>个性化二维码生成器</title>
-      <link>https://qrcode.chdaoai.com/en</link>
-      <description><![CDATA[文章网址：https://qrcode.chdaoai.com/en
-评论网址：https://news.ycombinator.com/item?id=45943141
-积分：1
-# 条评论：0]]></description>
-      <guid>https://qrcode.chdaoai.com/en</guid>
-      <pubDate>Sun, 16 Nov 2025 06:08:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Xeus-Haskell – 适用于 JupyterLite 的轻量级 Haskell 内核</title>
-      <link>https://github.com/tani/xeus-haskell</link>
-      <description><![CDATA[我一直在尝试 MicroHs（一个最小的 Haskell 实现），并最终在其之上构建了一个小项目：xeus-haskell，一个新的 Jupyter 内核。这里的一些内容可能会让人们感兴趣：- MicroHs 几乎没有依赖项，因此通过 xeus 将其连接到 Jupyter 消息传递协议非常简单。
-- 这种极简主义也意味着 MicroHs 可以干净地编译为 WebAssembly。
-- 因此，xeus-haskell 在浏览器中的 JupyterLite 上运行 - 没有 GHC、没有工具链、没有本地设置。目标是使 Haskell 更易于用于科学和技术计算。惰性求值对于某些工作负载（图算法、递归结构等）非常有效，并且能够在笔记本中以交互方式演示这一点感觉就像是很自然的事情。演示：https://tani.github.io/xeus-haskell
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45943126
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/tani/xeus-haskell</guid>
-      <pubDate>Sun, 16 Nov 2025 06:05:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Zohran Mamdani 富有影响力且丰富多彩的活动背后</title>
-      <link>https://www.thehindu.com/life-and-style/zohran-mamdani-new-york-mayor-campaign-handdrawn-visual-design-naba-yasir/article70269754.ece</link>
-      <description><![CDATA[文章网址： https://www.thehindu.com/life-and-style/zohran-mamdani-new-york-mayor-campaign-handdrawn-visual-design-naba-yasir/article70269754.ece
-评论网址：https://news.ycombinator.com/item?id=45943120
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.thehindu.com/life-and-style/zohran-mamdani-new-york-mayor-campaign-handdrawn-visual-design-naba-yasir/article70269754.ece</guid>
-      <pubDate>Sun, 16 Nov 2025 06:04:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>会议费用计算器</title>
-      <link>https://meetingcost.alaindichiappari.dev</link>
-      <description><![CDATA[文章网址：https://meetingcost.alaindichiappari.dev
-评论网址：https://news.ycombinator.com/item?id=45943113
+      <title>人工智能和动物交流？</title>
+      <link>https://rodgercuddington.substack.com/p/what-280-million-cat-meows-taught</link>
+      <description><![CDATA[文章网址：https://rodgercuddington.substack.com/p/what-280-million-cat-meows-taught
+评论网址：https://news.ycombinator.com/item?id=45943664
 积分：2
-# 条评论：1]]></description>
-      <guid>https://meetingcost.alaindichiappari.dev</guid>
-      <pubDate>Sun, 16 Nov 2025 06:02:23 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://rodgercuddington.substack.com/p/what-280-million-cat-meows-taught</guid>
+      <pubDate>Sun, 16 Nov 2025 08:50:20 GMT</pubDate>
     </item>
     <item>
-      <title>法国因性玩偶暂停Shein的停职程序</title>
-      <link>https://www.reuters.com/business/retail-consumer/france-lets-shein-resume-operation-after-it-withdrew-all-illicit-products-2025-11-07/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/business/retail-consumer/france-lets-shein-resume-operation-after-it-withdrew-all-illicit-products-2025-11-07/
-评论网址：https://news.ycombinator.com/item?id=45943099
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.reuters.com/business/retail-consumer/france-lets-shein-resume-operation-after-it-withdrew-all-illicit-products-2025-11-07/</guid>
-      <pubDate>Sun, 16 Nov 2025 05:58:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>3 个精密电流源的设计方程</title>
-      <link>https://www.edn.com/basic-design-equations-for-three-precision-current-sources/</link>
-      <description><![CDATA[文章网址：https://www.edn.com/basic-design-equations-for- Three- precision-current-sources/
-评论网址：https://news.ycombinator.com/item?id=45942981
+      <title>在 3 分钟内使用 AI 创建自定义迷你应用程序</title>
+      <link>https://www.indiehackers.com/post/create-custom-mini-apps-with-ai-in-under-3-minutes-DMs9dczXpGow9vYbnSbY</link>
+      <description><![CDATA[文章网址：https://www.indiehackers.com/post/create-custom-mini-apps-with-ai-in-under-3-minutes-DMs9dczXpGow9vYbnSbY
+评论网址：https://news.ycombinator.com/item?id=45943649
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.edn.com/basic-design-equations-for-three-precision-current-sources/</guid>
-      <pubDate>Sun, 16 Nov 2025 05:24:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>没有人再有个性了</title>
-      <link>https://www.thefp.com/p/nobody-has-a-personality-anymore-culture-internet-society</link>
-      <description><![CDATA[文章网址：https://www.thefp.com/p/nobody-has-a-personality-anymore-culture-internet-society
-评论网址：https://news.ycombinator.com/item?id=45942980
-积分：1
-# 条评论：3]]></description>
-      <guid>https://www.thefp.com/p/nobody-has-a-personality-anymore-culture-internet-society</guid>
-      <pubDate>Sun, 16 Nov 2025 05:24:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>EverMemOS</title>
-      <link>https://everm.ai</link>
-      <description><![CDATA[文章网址：https://everm.ai
-评论网址：https://news.ycombinator.com/item?id=45942940
-积分：1
-# 条评论：1]]></description>
-      <guid>https://everm.ai</guid>
-      <pubDate>Sun, 16 Nov 2025 05:10:08 GMT</pubDate>
+      <guid>https://www.indiehackers.com/post/create-custom-mini-apps-with-ai-in-under-3-minutes-DMs9dczXpGow9vYbnSbY</guid>
+      <pubDate>Sun, 16 Nov 2025 08:46:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
