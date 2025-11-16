@@ -4,130 +4,158 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 16 Nov 2025 03:49:40 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 06:29:06 GMT</lastBuildDate>
     <item>
-      <title>Clickwrap 与湿签名许可协议</title>
-      <link>https://news.ycombinator.com/item?id=45942546</link>
-      <description><![CDATA[大家好。我运行 SaaS。医疗保健领域的交易规模可能每月 500-6000 美元。通常会进行演示，就价格达成一致，然后他们开始使用该产品，然后我通过 Pandadoc 向他们发送许可协议，然后他们签署。我想探索仅执行 Clickwrap 类型协议而不是使用 Pandadoc 并发送协议的想法。基本上在第一次登录时，所有用户都会收到协议，然后单击“确定”，仅此而已。我们将记录关联的元数据作为他们点击同意的证据。这是典型的吗？需要注意什么？如何实施 - 我看到 Docusign 有一个产品可以这样做，但每年 5k，这对我来说太多了？有什么想法吗？
+      <title>企业咨询的（迟来的）崩溃[视频]</title>
+      <link>https://www.youtube.com/watch?v=ysEAIIHzvXo</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=ysEAIIHzvXo
+评论网址：https://news.ycombinator.com/item?id=45943180
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=ysEAIIHzvXo</guid>
+      <pubDate>Sun, 16 Nov 2025 06:19:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：ChronoGuard – 具有时间控制功能的浏览器自动化零信任代理</title>
+      <link>https://github.com/j-raghavan/ChronoGuard</link>
+      <description><![CDATA[嗨 HN！我构建了 ChronoGuard，这是一个开源零信任代理，为浏览器自动化提供网络强制授权。## 问题如果您大规模运行 Playwright、Puppeteer 或 Selenium 代理（CI/CD、K8s、VM 队列），您将面临两个挑战： 1. **访问控制**：如何确保代理仅访问批准的域？
+  2. **可审计性**：如何证明您的自动化何时何地访问外部资源？
+
+传统方法（SDK 限制、代码审查、监控）是可绕过的或缺乏时间证明。审计员和合规团队需要可加密验证、防篡改的日志。## 解决方案ChronoGuard 是位于代理和互联网之间的强制转发代理。每个请求都流经： Agent → Envoy (mTLS) → OPA（策略检查）→ 目标域
+                  ↓
+           不可变的审核日志（哈希链、时间序列）
+
+*主要特点：*
+  - 用于代理身份验证的 mTLS 身份验证
+  - 具有时间窗口限制的域允许列表/阻止列表
+  - 用于审核日志完整性的加密哈希链
+  - 策略即代码的 OPA 集成
+  - 多租户隔离
+  - 96%+ 测试覆盖率## 立即尝试需要零设置 - 只需单击：
+[![在 Codespaces 中打开](https://github.com/codespaces/badge.svg)](https://codespaces.new/j-raghavan/ChronoGuard?quickstart=1)或在本地运行：
+````bash
+  git clone https://github.com/j-raghavan/chronoguard
+  CD计时卫士
+  ./scripts/generate_secrets.sh
+  docker 组成-d
+``` 仪表板：http://localhost:3000
+  API 文档：http://localhost:8000/docs
+
+架构采用领域驱动设计 + 简洁架构构建：
+  - 6 项服务：Envoy 代理、OPA 策略引擎、FastAPI 后端、React
+  仪表板、PostgreSQL+TimescaleDB、Redis
+  - 技术堆栈：Python 3.11+、FastAPI、Envoy、开放策略代理、TimescaleDB
+  - 部署：Docker Compose (MVP)、Kubernetes 就绪（路线图）用例 - 电子商务竞争情报
+  - 金融科技市场研究
+  - 医疗数据运营（HIPAA 合规性）
+  - 具有审核要求的质量保证/测试提供商
+  - 任何运行具有合规义务的浏览器代理的组织
+
+下一步是什么 这是 v0.1.0 MVP。我正在寻找以下方面的反馈：
+  - 我没有考虑过的现实世界用例
+  - 与现有自动化堆栈的集成痛点
+  - 功能优先级（WebSocket 流、gRPC、高级速率限制）
+
+贡献 该项目遵循严格的质量标准（95%+ 测试覆盖率要求，
+  DRY 原则，mypy + ruff）。寻找对以下内容感兴趣的贡献者：
+  - 安全测试和威胁建模
+  - Kubernetes/Helm 部署
+  - 性能优化
+  - 客户端 SDK（Python、JS、Go）
+
+  GitHub：https://github.com/j-raghavan/ChronoGuard
+  许可证：Apache 2.0
+
+很高兴回答有关架构、设计决策或路线图的问题！谨致问候！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45942546
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45942546</guid>
-      <pubDate>Sun, 16 Nov 2025 03:35:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Refringence – 通过与 AI 导师一起做项目来学习硬件设计</title>
-      <link>https://refringence.com/</link>
-      <description><![CDATA[文章网址：https://refringence.com/
-评论网址：https://news.ycombinator.com/item?id=45942519
-积分：1
-# 条评论：1]]></description>
-      <guid>https://refringence.com/</guid>
-      <pubDate>Sun, 16 Nov 2025 03:30:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>现代 Paywalls Ioniq 5 N 刹车片更换</title>
-      <link>https://www.thedrive.com/news/replacing-brake-pads-on-a-hyundai-ioniq-5-n-requires-a-professional-mechanics-login</link>
-      <description><![CDATA[文章网址：https://www.thedrive.com/news/replacing-brake-pads-on-a-hyundai-ioniq-5-n-requires-a-professional-mechanics-login
-评论网址：https://news.ycombinator.com/item?id=45942518
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.thedrive.com/news/replacing-brake-pads-on-a-hyundai-ioniq-5-n-requires-a-professional-mechanics-login</guid>
-      <pubDate>Sun, 16 Nov 2025 03:29:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：数学参数选择以消除同步错误</title>
-      <link>https://news.ycombinator.com/item?id=45942491</link>
-      <description><![CDATA[我开发了一种使用 p-adic 估值理论在分布式系统中证明正确的参数选择的方法。它解决的问题：
-- RNG 种子选择（并行蒙特卡罗，模拟）
-- 哈希函数参数（分布式系统中的冲突避免）
-- NTT 变换大小（后量子密码学）
-- 网络定时器间隔（避免协议同步）
-- FPGA/ASIC 参数冲突（多约束硬件设计）它与传统方法有何不同：
-- 无需模拟（直接计算）
-- 正确性的数学证明（非经验证明）
-- 在设计时检测不可能的约束组合
-- 24-48 小时交付 vs 数周试错示例：具有混合 AVOID/REQUIRE 约束的 16 通道 FPGA PHY 
-跨 PRBS 发生器、扰码器和 NTT 块。确定了基本约束冲突（p=5 深度 2 避免与 p=11 深度 2 
-要求两者影响相同的参数）。如果在启动过程中发现，重新旋转将花费 50 万美元以上。不到 24 小时就找到了。该方法基于乘法阶和 p 进深度理论的同行评审研究。本质上：翻译为“避免 
-在素数 p 到深度 t 处的同步”转化为精确的模算术约束，然后通过中国余数定理进行组合。验证需求：为前 10 个严重请求提供免费分析。如果您有：
-- 分布式系统中神秘的周期性错误
-- 形式化要求的参数选择问题
-- 具有冲突约束的硬件设计Christopher W. Stevens电子邮件：cwstevens71@gmail.com 以及您的系统规格。将提供：
-- 约束分析
-- 可证明正确的参数（或不可能的证明）
-- 验证测试用例寻找以下方面的反馈：
-- 这对于执业工程师有价值吗？
-- 我缺少哪些用例？
-- 您或您的公司愿意为此付费吗？多少钱？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45942491
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=45942491</guid>
-      <pubDate>Sun, 16 Nov 2025 03:21:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>售价 5 美元的 PlanetScale 已上线</title>
-      <link>https://planetscale.com/blog/5-dollar-planetscale-is-here</link>
-      <description><![CDATA[文章网址：https://planetscale.com/blog/5-dollar-planetscale-is-here
-评论网址：https://news.ycombinator.com/item?id=45942462
-积分：2
-# 条评论：1]]></description>
-      <guid>https://planetscale.com/blog/5-dollar-planetscale-is-here</guid>
-      <pubDate>Sun, 16 Nov 2025 03:14:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>视频观看对儿童技能的影响</title>
-      <link>https://marginalrevolution.com/marginalrevolution/2025/11/the-effect-of-video-watching-on-childrens-skills.html</link>
-      <description><![CDATA[文章网址：https://marginalrevolution.com/marginalrevolution/2025/11/the-effect-of-video-watching-on-childrens-skills.html
-评论网址：https://news.ycombinator.com/item?id=45942458
-积分：1
-# 条评论：0]]></description>
-      <guid>https://marginalrevolution.com/marginalrevolution/2025/11/the-effect-of-video-watching-on-childrens-skills.html</guid>
-      <pubDate>Sun, 16 Nov 2025 03:13:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>CPU 是如何工作的？运行数字世界的工程[视频]</title>
-      <link>https://www.youtube.com/watch?v=16zrEPOsIcI</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=16zrEPOsIcI
-评论网址：https://news.ycombinator.com/item?id=45942455
+评论网址：https://news.ycombinator.com/item?id=45943156
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=16zrEPOsIcI</guid>
-      <pubDate>Sun, 16 Nov 2025 03:12:40 GMT</pubDate>
+      <guid>https://github.com/j-raghavan/ChronoGuard</guid>
+      <pubDate>Sun, 16 Nov 2025 06:11:57 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我构建了 E2E 测试代理 – 用简单的英语描述测试，AI 执行它</title>
-      <link>https://github.com/armannaj/e2e-test-agent</link>
-      <description><![CDATA[嘿，HN！我构建了 E2E Test Agent – 一个测试框架，您可以用简单的英语编写测试，AI 代理执行它们。而不是：await page.locator(&quot;#main-content&quot;).scrollIntoView();await page.click(&#39;button[data-testid=&quot;get-started-btn&quot;]&#39;);您编写：打开 playwright.dev一直向下滚动单击“开始”检查页面侧菜单是否可见。这意味着：- 每次重构时不再有脆弱的选择器- 非技术利益相关者可以编写测试- 测试在 UI 重构中幸存- 维护开销大大减少。它可以与 OpenAI、Claude（通过兼容端点）或任何支持 OpenAI API 格式的本地 LLM 配合使用。。npm安装 e2e-test-agent。很想听听您的想法！特别好奇的是：- 这可能会为您解决哪些测试痛点- 对测试中 AI 不确定性的担忧- 扩展它的想法（API 测试、数据库验证等）。GitHub：https://github.com/armannaj/e2e-test-agentnpm： https://www.npmjs.com/package/e2e-test-agent网站：https://e2eagent.io
+      <title>个性化二维码生成器</title>
+      <link>https://qrcode.chdaoai.com/en</link>
+      <description><![CDATA[文章网址：https://qrcode.chdaoai.com/en
+评论网址：https://news.ycombinator.com/item?id=45943141
+积分：1
+# 条评论：0]]></description>
+      <guid>https://qrcode.chdaoai.com/en</guid>
+      <pubDate>Sun, 16 Nov 2025 06:08:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Xeus-Haskell – 适用于 JupyterLite 的轻量级 Haskell 内核</title>
+      <link>https://github.com/tani/xeus-haskell</link>
+      <description><![CDATA[我一直在尝试 MicroHs（一个最小的 Haskell 实现），并最终在其之上构建了一个小项目：xeus-haskell，一个新的 Jupyter 内核。这里的一些内容可能会让人们感兴趣：- MicroHs 几乎没有依赖项，因此通过 xeus 将其连接到 Jupyter 消息传递协议非常简单。
+- 这种极简主义也意味着 MicroHs 可以干净地编译为 WebAssembly。
+- 因此，xeus-haskell 在浏览器中的 JupyterLite 上运行 - 没有 GHC、没有工具链、没有本地设置。目标是使 Haskell 更易于用于科学和技术计算。惰性求值对于某些工作负载（图算法、递归结构等）非常有效，并且能够在笔记本中以交互方式演示这一点感觉就像是很自然的事情。演示：https://tani.github.io/xeus-haskell
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45942443
+评论网址：https://news.ycombinator.com/item?id=45943126
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/armannaj/e2e-test-agent</guid>
-      <pubDate>Sun, 16 Nov 2025 03:10:18 GMT</pubDate>
+      <guid>https://github.com/tani/xeus-haskell</guid>
+      <pubDate>Sun, 16 Nov 2025 06:05:42 GMT</pubDate>
     </item>
     <item>
-      <title>延迟分析和优化 – Dmitry Vyukov [视频]</title>
-      <link>https://www.youtube.com/watch?v=lv03NAT4Mwc</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=lv03NAT4Mwc
-评论网址：https://news.ycombinator.com/item?id=45942435
+      <title>Zohran Mamdani 富有影响力且丰富多彩的活动背后</title>
+      <link>https://www.thehindu.com/life-and-style/zohran-mamdani-new-york-mayor-campaign-handdrawn-visual-design-naba-yasir/article70269754.ece</link>
+      <description><![CDATA[文章网址： https://www.thehindu.com/life-and-style/zohran-mamdani-new-york-mayor-campaign-handdrawn-visual-design-naba-yasir/article70269754.ece
+评论网址：https://news.ycombinator.com/item?id=45943120
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.thehindu.com/life-and-style/zohran-mamdani-new-york-mayor-campaign-handdrawn-visual-design-naba-yasir/article70269754.ece</guid>
+      <pubDate>Sun, 16 Nov 2025 06:04:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>会议费用计算器</title>
+      <link>https://meetingcost.alaindichiappari.dev</link>
+      <description><![CDATA[文章网址：https://meetingcost.alaindichiappari.dev
+评论网址：https://news.ycombinator.com/item?id=45943113
+积分：2
+# 条评论：1]]></description>
+      <guid>https://meetingcost.alaindichiappari.dev</guid>
+      <pubDate>Sun, 16 Nov 2025 06:02:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>法国因性玩偶暂停Shein的停职程序</title>
+      <link>https://www.reuters.com/business/retail-consumer/france-lets-shein-resume-operation-after-it-withdrew-all-illicit-products-2025-11-07/</link>
+      <description><![CDATA[文章网址： https://www.reuters.com/business/retail-consumer/france-lets-shein-resume-operation-after-it-withdrew-all-illicit-products-2025-11-07/
+评论网址：https://news.ycombinator.com/item?id=45943099
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.reuters.com/business/retail-consumer/france-lets-shein-resume-operation-after-it-withdrew-all-illicit-products-2025-11-07/</guid>
+      <pubDate>Sun, 16 Nov 2025 05:58:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>3 个精密电流源的设计方程</title>
+      <link>https://www.edn.com/basic-design-equations-for-three-precision-current-sources/</link>
+      <description><![CDATA[文章网址：https://www.edn.com/basic-design-equations-for- Three- precision-current-sources/
+评论网址：https://news.ycombinator.com/item?id=45942981
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=lv03NAT4Mwc</guid>
-      <pubDate>Sun, 16 Nov 2025 03:08:01 GMT</pubDate>
+      <guid>https://www.edn.com/basic-design-equations-for-three-precision-current-sources/</guid>
+      <pubDate>Sun, 16 Nov 2025 05:24:22 GMT</pubDate>
     </item>
     <item>
-      <title>弦理论到底发生了什么？</title>
-      <link>https://gizmodo.com/whatever-happened-to-string-theory-2000686064</link>
-      <description><![CDATA[文章网址：https://gizmodo.com/whatever-happened-to-string-theory-2000686064
-评论网址：https://news.ycombinator.com/item?id=45942427
-积分：5
-# 条评论：0]]></description>
-      <guid>https://gizmodo.com/whatever-happened-to-string-theory-2000686064</guid>
-      <pubDate>Sun, 16 Nov 2025 03:06:36 GMT</pubDate>
+      <title>没有人再有个性了</title>
+      <link>https://www.thefp.com/p/nobody-has-a-personality-anymore-culture-internet-society</link>
+      <description><![CDATA[文章网址：https://www.thefp.com/p/nobody-has-a-personality-anymore-culture-internet-society
+评论网址：https://news.ycombinator.com/item?id=45942980
+积分：1
+# 条评论：3]]></description>
+      <guid>https://www.thefp.com/p/nobody-has-a-personality-anymore-culture-internet-society</guid>
+      <pubDate>Sun, 16 Nov 2025 05:24:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>EverMemOS</title>
+      <link>https://everm.ai</link>
+      <description><![CDATA[文章网址：https://everm.ai
+评论网址：https://news.ycombinator.com/item?id=45942940
+积分：1
+# 条评论：1]]></description>
+      <guid>https://everm.ai</guid>
+      <pubDate>Sun, 16 Nov 2025 05:10:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
