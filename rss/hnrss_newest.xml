@@ -4,112 +4,119 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 18 Nov 2025 03:47:06 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 06:31:04 GMT</lastBuildDate>
     <item>
-      <title>哑巴理论：为什么智商分数突然下降？</title>
-      <link>https://nymag.com/intelligencer/article/american-adult-lower-iq-scores-cognitive-decline-technology-flynn-effect.html</link>
-      <description><![CDATA[文章网址：https://nymag.com/intelligencer/article/american-adult-lower-iq-scores-cognitive-decline-technology-flynn-effect.html
-评论网址：https://news.ycombinator.com/item?id=45961117
-积分：1
-# 条评论：0]]></description>
-      <guid>https://nymag.com/intelligencer/article/american-adult-lower-iq-scores-cognitive-decline-technology-flynn-effect.html</guid>
-      <pubDate>Tue, 18 Nov 2025 03:34:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>C23：稍微好一点的 C</title>
-      <link>https://lemire.me/blog/2024/01/21/c23-a-slightly-better-c/</link>
-      <description><![CDATA[文章网址：https://lemire.me/blog/2024/01/21/c23-a-slightly-better-c/
-评论网址：https://news.ycombinator.com/item?id=45961115
-积分：1
-# 条评论：0]]></description>
-      <guid>https://lemire.me/blog/2024/01/21/c23-a-slightly-better-c/</guid>
-      <pubDate>Tue, 18 Nov 2025 03:34:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>钇短缺蔓延，新稀土危机正在酝酿</title>
-      <link>https://www.reuters.com/business/aerospace-defense/new-rare-earth-crisis-is-brewing-yttrium-shortages-spread-2025-11-14/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/business/aerospace-defense/new-rare-earth-crisis-is-brewing-yttrium-shortages-spread-2025-11-14/
-评论网址：https://news.ycombinator.com/item?id=45961105
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.reuters.com/business/aerospace-defense/new-rare-earth-crisis-is-brewing-yttrium-shortages-spread-2025-11-14/</guid>
-      <pubDate>Tue, 18 Nov 2025 03:32:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Linux 内核中数据包的生命周期：从 write() 到 receive()</title>
-      <link>https://www.0xkato.xyz/life-of-a-packet-in-the-linux-kernel/</link>
-      <description><![CDATA[文章网址：https://www.0xkato.xyz/life-of-a-packet-in-the-linux-kernel/
-评论网址：https://news.ycombinator.com/item?id=45961099
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.0xkato.xyz/life-of-a-packet-in-the-linux-kernel/</guid>
-      <pubDate>Tue, 18 Nov 2025 03:31:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：用于构建代理的 Claude Code 插件（现在正在狗屎）</title>
-      <link>https://github.com/openonion/connectonion-claude-plugin</link>
-      <description><![CDATA[# 我为代理构建器精心设计的插件我花了 30 天为代理构建器构建和完善这个 Claude Code 插件。它有我每天使用的 5 个斜线命令。现在让我向您展示它们有多么神奇，以及我在过去 30 天里如何构建和完善它们。## 第一个命令/generate-code-map-headers - 生成代码映射头当我们使用 Claude Code 来振动代码时，有时需要多个步骤来搜索和找到最相关的代码并找出数据流跟踪堆栈等。如果您每天完成工作后都运行它，第二天一早，Claude 就能一步搞懂代码关系，编码速度也会快得多。## 第二条命令/design-refine - 迭代地完善网站设计，使其达到专业标准如果你像我一样构建前端，你会发现处理小设计问题很烦人。你必须截图并告诉 Claude Code 修复它们。这个斜杠命令将运行一个浏览器代理，并以不同尺寸截取移动和桌面的屏幕截图并修复设计问题。你也可以在完成一天的工作时运行它，第二天早上它会修复大部分小问题。## 第三条命令 
-/linus-review-my-code - 追求复杂性（Linus 风格：直接和诚实）你总会发现 Claude Code 喜欢添加 try-catch、if-else 和其他过度设计的东西。
-所以你需要一个它的风格指南，比如“让它崩溃”，或者“不要太多的类，只有简单的函数”，或者“不要过度抽象。”我发现这个提示让它像 Linus 一样审查代码，它发现了大多数问题。当您刚刚完成一些自动接受编辑时，这真的很好 - 让其检查您的代码并修复问题。## 第 4 个命令 
-/aaron-review-my-code - 得到创建者的审查（Aaron：教育性和原则性）如果您使用 ConnectOnion 构建代理并且不想阅读文档，但仍然想构建遵循“让简单的事情变得简单，让复杂的事情成为可能”原则的优雅代理，那么运行这个！## 第 5 个命令 
-/aaron-build-my-agent - 让 Aaron 构建您的代理（脚手架正确完成）如果您想构建代理但不想自己构建，只需运行此程序并输入您想要构建的内容 - 让此提示为您构建一个！## 如何安装使用此命令安装市场：/plugin market add openonion/connectonion-claude-plugin![安装市场](https://raw.githubusercontent.com/wu-changxing/openonion-assets...)然后安装插件：
-/plugin install connectonion![安装插件](https://raw.githubusercontent.com/wu-changxing/openonion-ass...)该插件是使用 Apache 2.0 的开源插件。请检查并安装。如果您有任何问题，欢迎在我们的 Discord 服务器中与我讨论。https://github.com/openonion/connectonion-claude-plugin
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45961054
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/openonion/connectonion-claude-plugin</guid>
-      <pubDate>Tue, 18 Nov 2025 03:23:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>墨西哥政府部分解除对安全互联网的封锁</title>
-      <link>https://blog.torproject.org/mexican-government-partially-unblocks-tor/</link>
-      <description><![CDATA[文章网址：https://blog.torproject.org/mexican-government-partially-unblocks-tor/
-评论网址：https://news.ycombinator.com/item?id=45961039
+      <title>人工智能算法使所有产品看起来都一样（2021）[视频]</title>
+      <link>https://www.youtube.com/watch?v=V8msfSiTWLg</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=V8msfSiTWLg
+评论网址：https://news.ycombinator.com/item?id=45961954
 积分：2
 # 条评论：0]]></description>
-      <guid>https://blog.torproject.org/mexican-government-partially-unblocks-tor/</guid>
-      <pubDate>Tue, 18 Nov 2025 03:21:25 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=V8msfSiTWLg</guid>
+      <pubDate>Tue, 18 Nov 2025 06:19:52 GMT</pubDate>
     </item>
     <item>
-      <title>OpenZFS 2.4 在最后一刻进行了一些改进</title>
-      <link>https://www.phoronix.com/news/OpenZFS-2.4-rc4-Released</link>
-      <description><![CDATA[文章网址：https://www.phoronix.com/news/OpenZFS-2.4-rc4-Released
-评论网址：https://news.ycombinator.com/item?id=45960974
+      <title>AI 的 IA：法学硕士作为思维工具（2024）</title>
+      <link>https://www.patreon.com/posts/ai-for-ia-large-118120516</link>
+      <description><![CDATA[文章网址：https://www.patreon.com/posts/ai-for-ia-large-118120516
+评论网址：https://news.ycombinator.com/item?id=45961952
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.patreon.com/posts/ai-for-ia-large-118120516</guid>
+      <pubDate>Tue, 18 Nov 2025 06:19:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>剑桥词典 2025 年度词汇捕捉现代现象</title>
+      <link>https://www.cnn.com/2025/11/17/world/parasocial-cambridge-dictionary-scli-intl</link>
+      <description><![CDATA[文章网址：https://www.cnn.com/2025/11/17/world/parasocial-cambridge-dictionary-scli-intl
+评论网址：https://news.ycombinator.com/item?id=45961942
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.cnn.com/2025/11/17/world/parasocial-cambridge-dictionary-scli-intl</guid>
+      <pubDate>Tue, 18 Nov 2025 06:17:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 w11 更新破坏后，Churk Moore 退休了 colorfors</title>
+      <link>https://lobste.rs/s/wqrzcy/chuck_moore_retires_from_colorforth</link>
+      <description><![CDATA[文章网址：https://lobste.rs/s/wqrzcy/chuck_moore_retires_from_colorforth
+评论网址：https://news.ycombinator.com/item?id=45961932
+积分：3
+# 条评论：2]]></description>
+      <guid>https://lobste.rs/s/wqrzcy/chuck_moore_retires_from_colorforth</guid>
+      <pubDate>Tue, 18 Nov 2025 06:14:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>醉酒出人头地是另一个时代的宿醉</title>
+      <link>https://www.thetimes.com/business-money/companies-markets/article/getting-drunk-to-get-ahead-is-the-hangover-of-another-age-z6b702zfj</link>
+      <description><![CDATA[文章网址： https://www.thetimes.com/business-money/companies-markets/article/getting-drunk-to-get-ahead-is-the-hangover-of-another-age-z6b702zfj
+评论网址：https://news.ycombinator.com/item?id=45961917
 积分：3
 # 条评论：0]]></description>
-      <guid>https://www.phoronix.com/news/OpenZFS-2.4-rc4-Released</guid>
-      <pubDate>Tue, 18 Nov 2025 03:09:38 GMT</pubDate>
+      <guid>https://www.thetimes.com/business-money/companies-markets/article/getting-drunk-to-get-ahead-is-the-hangover-of-another-age-z6b702zfj</guid>
+      <pubDate>Tue, 18 Nov 2025 06:11:23 GMT</pubDate>
     </item>
     <item>
-      <title>这不是谷歌的错。这是你的</title>
-      <link>https://www.admdnewsletter.com/its-not-googles-fault-its-yours/</link>
-      <description><![CDATA[文章网址：https://www.admdnewsletter.com/its-not-googles-fault-its-yours/
-评论网址：https://news.ycombinator.com/item?id=45960972
+      <title>贝佐斯重返一线，担任新人工智能初创公司普罗米修斯计划的联合首席执行官</title>
+      <link>https://techcrunch.com/2025/11/17/jeff-bezos-reportedly-returns-to-the-trenches-as-co-ceo-of-new-ai-startup-project-prometheus/</link>
+      <description><![CDATA[文章网址： https://techcrunch.com/2025/11/17/jeff-bezos-reportedly-returns-to-the-trenches-as-co-ceo-of-new-ai-startup-project-prometheus/
+评论网址：https://news.ycombinator.com/item?id=45961906
 积分：2
-# 条评论：0]]></description>
-      <guid>https://www.admdnewsletter.com/its-not-googles-fault-its-yours/</guid>
-      <pubDate>Tue, 18 Nov 2025 03:09:16 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://techcrunch.com/2025/11/17/jeff-bezos-reportedly-returns-to-the-trenches-as-co-ceo-of-new-ai-startup-project-prometheus/</guid>
+      <pubDate>Tue, 18 Nov 2025 06:09:30 GMT</pubDate>
     </item>
     <item>
-      <title>Gimp 3.2 RC1 带来更多 UI/UX 改进，正确的 SVG 导出</title>
-      <link>https://www.phoronix.com/news/GIMP-3.2-RC1-Released</link>
-      <description><![CDATA[文章网址：https://www.phoronix.com/news/GIMP-3.2-RC1-Released
-评论网址：https://news.ycombinator.com/item?id=45960970
-积分：2
+      <title>用于通用量子计算的容错中性原子架构</title>
+      <link>https://www.nature.com/articles/s41586-025-09848-5</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41586-025-09848-5
+评论网址：https://news.ycombinator.com/item?id=45961904
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.phoronix.com/news/GIMP-3.2-RC1-Released</guid>
-      <pubDate>Tue, 18 Nov 2025 03:09:15 GMT</pubDate>
+      <guid>https://www.nature.com/articles/s41586-025-09848-5</guid>
+      <pubDate>Tue, 18 Nov 2025 06:09:19 GMT</pubDate>
     </item>
     <item>
-      <title>特朗普推翻了爱泼斯坦的档案，表示他将签署要求释放爱泼斯坦的法案[视频]</title>
-      <link>https://www.youtube.com/watch?v=XcebHfZ2LbU</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=XcebHfZ2LbU
-评论网址：https://news.ycombinator.com/item?id=45960968
+      <title>Show HN：StenifyAI – AI 根据会议类型生成会议纪要</title>
+      <link>https://stenify.ai</link>
+      <description><![CDATA[我们构建了 StenifyAI，这是一个轻量级工具，可以根据真实对话生成结构化会议纪要。它适用于面对面会议和在线会议，输出格式根据会议类型（产品同步、客户电话、头脑风暴、讲座等）而变化。我们在 24 小时 Cursor 黑客马拉松期间开始了这项工作，并在过去的一个月里加强了用户体验和准确性。我们构建它是因为大多数人工智能摘要工具都会提供遗漏决策或所有权的通用注释。我们自己的会议常常以不明确的行动项目结束。我们构建了针对特定会议格式进行调整的模板，而不是一刀切的摘要。技术概述：
+ • 在线通话的系统音频捕获
+ • 现场会议的麦克风捕获
+ • 基于会议类型的提示层引导摘要
+ • 基于时间戳的解析
+ • Supabase 后端，React 前端当前限制：
+ • 扬声器差异化仍在改善
+ • 仅基本导出选项
+ • 尚无实时“助理模式” - 仅录制/导入上传我们希望得到定期进行产品、工程或客户会议的人员的反馈：
+ • 这些结构有用吗？
+ • 是否缺少任何格式？
+ • 哪里失败了？
+ • 基于信用的定价有意义吗？链接：https://stenify.ai还处于早期阶段，但很乐意回答有关构建决策、技术堆栈或流程的任何问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45961894
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=XcebHfZ2LbU</guid>
-      <pubDate>Tue, 18 Nov 2025 03:08:51 GMT</pubDate>
+      <guid>https://stenify.ai</guid>
+      <pubDate>Tue, 18 Nov 2025 06:08:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>谷歌老板警告称，如果人工智能泡沫破裂，“没有公司能幸免”</title>
+      <link>https://www.bbc.com/news/articles/cwy7vrd8k4eo</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cwy7vrd8k4eo
+评论网址：https://news.ycombinator.com/item?id=45961886
+积分：2
+# 条评论：2]]></description>
+      <guid>https://www.bbc.com/news/articles/cwy7vrd8k4eo</guid>
+      <pubDate>Tue, 18 Nov 2025 06:06:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>德国赞扬新确定的巴赫作品的演奏</title>
+      <link>https://www.thetimes.com/world/europe/article/germany-hails-performance-newly-identified-bach-pieces-n2qtrds5f</link>
+      <description><![CDATA[文章网址：https://www.thetimes.com/world/europe/article/germany-hails-performance-newly-identified-bach-pieces-n2qtrds5f
+评论网址：https://news.ycombinator.com/item?id=45961875
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.thetimes.com/world/europe/article/germany-hails-performance-newly-identified-bach-pieces-n2qtrds5f</guid>
+      <pubDate>Tue, 18 Nov 2025 06:04:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
