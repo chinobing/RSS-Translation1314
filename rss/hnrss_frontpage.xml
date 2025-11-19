@@ -4,111 +4,110 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 18 Nov 2025 18:30:52 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 01:27:48 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Guts – 将 Golang 类型转换为 TypeScript</title>
-      <link>https://github.com/coder/guts</link>
-      <description><![CDATA[文章网址：https://github.com/coder/guts
-评论网址：https://news.ycombinator.com/item?id=45969708
-积分：7
-# 条评论：0]]></description>
-      <guid>https://github.com/coder/guts</guid>
-      <pubDate>Tue, 18 Nov 2025 17:55:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>卵石、卵石和前进的道路</title>
-      <link>https://ericmigi.com/blog/pebble-rebble-and-a-path-forward/</link>
-      <description><![CDATA[文章网址：https://ericmigi.com/blog/pebble-rebble-and-a-path-forward/
-评论网址：https://news.ycombinator.com/item?id=45969250
-积分：72
-# 条评论：12]]></description>
-      <guid>https://ericmigi.com/blog/pebble-rebble-and-a-path-forward/</guid>
-      <pubDate>Tue, 18 Nov 2025 17:24:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>Strix Halo 的内存子系统：应对 iGPU 挑战</title>
-      <link>https://chipsandcheese.com/p/strix-halos-memory-subsystem-tackling</link>
-      <description><![CDATA[文章网址：https://chipsandcheese.com/p/strix-halos-memory-subsystem-tackling
-评论网址：https://news.ycombinator.com/item?id=45968611
-积分：25
-评论数量：9]]></description>
-      <guid>https://chipsandcheese.com/p/strix-halos-memory-subsystem-tackling</guid>
-      <pubDate>Tue, 18 Nov 2025 16:41:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：使用 Rust 优化 LiteLLM – 当期望满足现实时</title>
-      <link>https://github.com/neul-labs/fast-litellm</link>
-      <description><![CDATA[我一直在研究 Fast LiteLLM - 流行的 LiteLLM 库的 Rust 加速层 - 我有一些有趣的学习，可能会与其他试图从现有系统中榨取性能的开发人员产生共鸣。我的假设是，LiteLLM 作为一个 Python 库，将有很多容易实现的优化成果。我开始使用 PyO3 创建一个 Rust 层，以加速性能关键部分：令牌计数、路由、速率限制和连接池。方法- 使用 tiktoken-rs 构建用于令牌计数的 Rust 实现- 使用 DashMap 添加无锁数据结构以进行并发操作- 实现异步友好的速率限制- 创建 Monkeypatch 垫片以透明地替换 Python 函数- 添加全面的功能标志以实现安全、渐进推出-开发性能监控以实时跟踪改进构建完所有 Rust 加速后，我运行了综合基准测试，比较基线 LiteLLM 与填充版本：函数基线时间填充时间加速改进状态token_counter 0.000035s 0.000036s 0.99x -0.6%count_tokens_batch 0.000001s 0.000001s 1.10x +9.1%路由器 0.001309s 0.001299s 1.01x +0.7%速率限制器 0.000000s 0.000000s 1.85x +45.9%连接池0.000000s 0.000000s 1.63x +38.7%事实证明，LiteLLM 已经得到了很好的优化！核心令牌计数本质上没有变化（慢了 0.6%，可能在测量噪声范围内），最显着的收益来自更复杂的操作，例如速率限制和连接池，其中 Rust 的并发原语发挥了真正的作用。关键要点1。不要假设现有的库优化不足 - 维护者可能很了解他们的领域
-2. 关注算法改进而不是重新实现——有时更好的方法胜过更快的语言
-3. 微基准可能会产生误导——现实世界的性能影响差异很大
-4. 最大的收获往往来自复杂的部分，而不是简单的操作
-5. 即使“适度”的改进在规模上也很重要 - 速率限制的 45% 改进对于高吞吐量应用程序来说是有意义的虽然核心令牌计数的改进很小，但速率限制和连接池的增益仍然为大容量用例提供了价值。我构建的基础设施（功能标志、性能监控、安全回退）为未来的优化奠定了坚实的基础。对于任何对 Rust-Python 集成模式感兴趣的人来说，该项目将在 GitHub 上继续作为 Fast LiteLLM，即使性能提升令人沮丧。编辑：澄清一下 - token_counter 的负性能可能在测量的噪声范围内，这表明 LiteLLM 的令牌计数已经得到了很好的优化。速率限制和连接池方面 45% 以上的收益仍然为高吞吐量应用程序提供了价值。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=45968461
-积分：19
-# 条评论：3]]></description>
-      <guid>https://github.com/neul-labs/fast-litellm</guid>
-      <pubDate>Tue, 18 Nov 2025 16:32:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>以零错误解决百万步 LLM 任务</title>
-      <link>https://arxiv.org/abs/2511.09030</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2511.09030
-评论网址：https://news.ycombinator.com/item?id=45968362
-积分：33
-# 条评论：8]]></description>
-      <guid>https://arxiv.org/abs/2511.09030</guid>
-      <pubDate>Tue, 18 Nov 2025 16:26:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Falkenstein 数据中心 Hetzner Online 的一天</title>
-      <link>https://www.igorslab.de/en/a-day-at-hetzner-online-in-the-falkenstein-data-center-insights-into-server-technology-cooling-production-rma-and-sustainability/</link>
-      <description><![CDATA[文章网址： https://www.igorslab.de/en/a-day-at-hetzner-online-in-the-falkenstein-data-center-insights-into-server-technology-cooling-product-rma-and-sustainability/
-评论网址：https://news.ycombinator.com/item?id=45968235
-积分：73
-# 条评论：19]]></description>
-      <guid>https://www.igorslab.de/en/a-day-at-hetzner-online-in-the-falkenstein-data-center-insights-into-server-technology-cooling-production-rma-and-sustainability/</guid>
-      <pubDate>Tue, 18 Nov 2025 16:18:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Gemini CLI 中使用 Gemini 3 Pro 进行的 5 项尝试</title>
-      <link>https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/</link>
-      <description><![CDATA[文章网址：https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/
-评论网址：https://news.ycombinator.com/item?id=45968104
-积分：78
-# 条评论：26]]></description>
-      <guid>https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/</guid>
-      <pubDate>Tue, 18 Nov 2025 16:09:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌将 Gemini 3 AI 模型引入搜索和 AI 模式</title>
-      <link>https://blog.google/products/search/gemini-3-search-ai-mode/</link>
-      <description><![CDATA[文章网址：https://blog.google/products/search/gemini-3-search-ai-mode/
-评论网址：https://news.ycombinator.com/item?id=45968091
-积分：71
+      <title>Lucent 7 R/E 5ESS 电话交换机救援</title>
+      <link>http://kev009.com/wp/2024/07/Lucent-5ESS-Rescue/</link>
+      <description><![CDATA[文章网址：http://kev009.com/wp/2024/07/Lucent-5ESS-Rescue/
+评论网址：https://news.ycombinator.com/item?id=45973955
+积分：16
 # 条评论：5]]></description>
-      <guid>https://blog.google/products/search/gemini-3-search-ai-mode/</guid>
-      <pubDate>Tue, 18 Nov 2025 16:08:17 GMT</pubDate>
+      <guid>http://kev009.com/wp/2024/07/Lucent-5ESS-Rescue/</guid>
+      <pubDate>Tue, 18 Nov 2025 23:59:14 GMT</pubDate>
     </item>
     <item>
-      <title>谷歌反重力，人工智能辅助软件开发的新时代</title>
-      <link>https://antigravity.google/blog/introducing-google-antigravity</link>
-      <description><![CDATA[文章网址：https://antigravity.google/blog/introducing-google-antigravity
-评论网址：https://news.ycombinator.com/item?id=45968065
-积分：181
-评论数：138]]></description>
-      <guid>https://antigravity.google/blog/introducing-google-antigravity</guid>
-      <pubDate>Tue, 18 Nov 2025 16:06:32 GMT</pubDate>
+      <title>Cloudflare 于 2025 年 11 月 18 日发生故障事后分析</title>
+      <link>https://blog.cloudflare.com/18-november-2025-outage/</link>
+      <description><![CDATA[相关：Cloudflare 全球网络遇到问题 - https://news.ycombinator.com/item?id=45963780 - 2025 年 11 月（1580 条评论）
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45973709
+积分：294
+# 条评论：159]]></description>
+      <guid>https://blog.cloudflare.com/18-november-2025-outage/</guid>
+      <pubDate>Tue, 18 Nov 2025 23:31:22 GMT</pubDate>
     </item>
     <item>
-      <title>面向开发人员的 Gemini 3：新推理、代理功能</title>
-      <link>https://blog.google/technology/developers/gemini-3-developers/</link>
-      <description><![CDATA[文章网址：https://blog.google/technology/developers/gemini-3-developers/
-评论网址：https://news.ycombinator.com/item?id=45968043
-积分：330
-评论数：104]]></description>
-      <guid>https://blog.google/technology/developers/gemini-3-developers/</guid>
-      <pubDate>Tue, 18 Nov 2025 16:04:12 GMT</pubDate>
+      <title>丽贝卡·海涅曼——从无家可归到移植《毁灭战士》</title>
+      <link>https://corecursive.com/doomed-to-fail-with-burger-becky/</link>
+      <description><![CDATA[文章网址：https://corecursive.com/doomed-to-fail-with-burger-becky/
+评论网址：https://news.ycombinator.com/item?id=45973573
+积分：71
+# 条评论：11]]></description>
+      <guid>https://corecursive.com/doomed-to-fail-with-burger-becky/</guid>
+      <pubDate>Tue, 18 Nov 2025 23:13:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Monotype 字体授权调整</title>
+      <link>https://www.insanityworks.org/randomtangent/2025/11/14/monotype-font-licencing-shake-down</link>
+      <description><![CDATA[文章网址：https://www.insanityworks.org/randomtangent/2025/11/14/monotype-font-licencing-shake-down
+评论网址：https://news.ycombinator.com/item?id=45973261
+积分：84
+# 条评论：14]]></description>
+      <guid>https://www.insanityworks.org/randomtangent/2025/11/14/monotype-font-licencing-shake-down</guid>
+      <pubDate>Tue, 18 Nov 2025 22:42:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>搅拌机5.0</title>
+      <link>https://www.blender.org/download/releases/5-0/</link>
+      <description><![CDATA[文章网址：https://www.blender.org/download/releases/5-0/
+评论网址：https://news.ycombinator.com/item?id=45972519
+积分：415
+评论数：110]]></description>
+      <guid>https://www.blender.org/download/releases/5-0/</guid>
+      <pubDate>Tue, 18 Nov 2025 21:39:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bild AI (YC W25) 正在招聘 – 让住房负担得起</title>
+      <link>https://www.ycombinator.com/companies/bild-ai/jobs/m2ilR5L-founding-engineer-applied-ai</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/bild-ai/jobs/m2ilR5L-founding-engineer-applied-ai
+评论网址：https://news.ycombinator.com/item?id=45972390
+积分：0
+# 条评论：0]]></description>
+      <guid>https://www.ycombinator.com/companies/bild-ai/jobs/m2ilR5L-founding-engineer-applied-ai</guid>
+      <pubDate>Tue, 18 Nov 2025 21:29:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHub：Git 操作失败</title>
+      <link>https://www.githubstatus.com/incidents/5q7nmlxz30sk</link>
+      <description><![CDATA[文章网址：https://www.githubstatus.com/incidents/5q7nmlxz30sk
+评论网址：https://news.ycombinator.com/item?id=45971726
+积分：322
+评论数：268]]></description>
+      <guid>https://www.githubstatus.com/incidents/5q7nmlxz30sk</guid>
+      <pubDate>Tue, 18 Nov 2025 20:40:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>尝试 Gemini 3 Pro 的音频转录和新的 Pelican 基准测试</title>
+      <link>https://simonwillison.net/2025/Nov/18/gemini-3/</link>
+      <description><![CDATA[文章网址：https://simonwillison.net/2025/Nov/18/gemini-3/
+评论网址：https://news.ycombinator.com/item?id=45970519
+积分：116
+# 条评论：43]]></description>
+      <guid>https://simonwillison.net/2025/Nov/18/gemini-3/</guid>
+      <pubDate>Tue, 18 Nov 2025 19:05:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>OrthoRoute – 适用于 KiCad 的 GPU 加速自动布线</title>
+      <link>https://bbenchoff.github.io/pages/OrthoRoute.html</link>
+      <description><![CDATA[文章网址：https://bbenchoff.github.io/pages/OrthoRoute.html
+评论网址：https://news.ycombinator.com/item?id=45970391
+积分：106
+# 条评论：12]]></description>
+      <guid>https://bbenchoff.github.io/pages/OrthoRoute.html</guid>
+      <pubDate>Tue, 18 Nov 2025 18:54:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：RowboatX – 用于日常自动化的开源 Claude 代码</title>
+      <link>https://github.com/rowboatlabs/rowboat</link>
+      <description><![CDATA[Claude Code 很棒，但它专注于编码。缺少的部分是为非代码任务构建和运行自定义后台代理的本机方法。我们将 RowboatX 构建为一个以 Claude Code 为模型的 CLI 工具，让您可以做到这一点。它使用文件系统和 unix 工具来创建和监视日常任务的后台代理，将它们连接到任何 MCP 服务器以获取工具，并对它们的输出进行推理。因为 RowboatX 通过 shell 访问在本地运行，所以代理可以安装工具、执行代码，并在您明确许可的情况下自动执行您可以在终端中执行的任何操作。它适用于任何兼容的 LLM，包括开源 LLM。我们的存储库是 https://github.com/rowboatlabs/rowboat，这里有一个演示视频：https://youtu.be/cyPBinQzicY例如，您可以将 RowboatX 连接到 ElevenLabs MCP 服务器，并创建一个后台工作流程，每天根据 arXiv 上最新的 AI 代理论文生成 NotebookLM 风格的播客。或者，您可以将其连接到 Google 日历和 Exa 搜索，以研究与会者并在每次活动前生成简报。您可以尝试使用以下命令：`npx @rowboatlabs/rowboatx`我们结合了三个简单的想法：1.文件系统作为状态：每个代理的指令、内存、日志和数据只是磁盘上的文件，可 grepable、diffable 和本地文件。例如，您只需运行：grep -rl &#39;&quot;agent&quot;:&quot;&quot;&#39; ~/.rowboat/runs 即可列出特定工作流程的每次运行。2.主管代理：Claude Code 风格的代理，可以创建和运行后台代理。它主要使用 Unix 命令来监视、更新和调度代理。 LLM 比后端 API 更好地处理 Unix 工具 [1][2]，因此我们倾向于这一点。它还可以探测任何 MCP 服务器并将工具附加到代理。3.人机交互：每个后台代理都可以在需要时发出 human_request 消息（例如起草一封棘手的电子邮件或安装工具），暂停执行并等待输入，然后再继续。主管对此进行协调。十多年前，我在 Twitter 开始了我的职业生涯，构建垃圾邮件检测模型，花了很多时间在终端上使用 Unix 命令进行数据分析 [0] 和 Vowpal Wabbit 进行建模。当克劳德·科德 (Claude Code) 出现时，与他一起工作感觉很熟悉且令人惊奇。但尝试在代码之外使用它总是感觉有点强迫。我们构建 RowboatX 是为了将相同的工作流程带入日常任务中。它获得 Apache-2.0 许可，并且易于扩展。虽然有许多代理构建器，但在用户终端上运行可以实现基于云的工具无法比拟的独特用例，例如计算机和浏览器自动化。这种电源需要仔细的安全设计。我们实施了命令级允许/拒绝列表，接下来是容器化。我们从第一天起就努力设计安全性，但我们很想听听社区对您认为重要的额外保护措施或方法的看法。我们很高兴与这里的每个人分享 RowboatX。我们很想听听您的想法并欢迎贡献！—[0] https://web.stanford.edu/class/cs124/kwc-unix-for-poets.pdf
+[1] https://arxiv.org/pdf/2405.06807
+[2] https://arxiv.org/pdf/2501.10132
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45970338
+积分：52
+# 条评论：10]]></description>
+      <guid>https://github.com/rowboatlabs/rowboat</guid>
+      <pubDate>Tue, 18 Nov 2025 18:50:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
