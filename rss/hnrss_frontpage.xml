@@ -4,106 +4,133 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 20 Nov 2025 15:21:47 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Nov 2025 18:30:01 GMT</lastBuildDate>
+    <item>
+      <title>启动 HN: Poly (YC S22) – 文件光标</title>
+      <link>https://news.ycombinator.com/item?id=45995394</link>
+      <description><![CDATA[]]></description>
+      <guid>https://news.ycombinator.com/item?id=45995394</guid>
+      <pubDate>Thu, 20 Nov 2025 17:47:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>密码学国情咨文</title>
+      <link>https://words.filippo.io/2025-state/</link>
+      <description><![CDATA[文章网址：https://words.filippo.io/2025-state/
+评论网址：https://news.ycombinator.com/item?id=45994895
+积分：27
+评论数量：9]]></description>
+      <guid>https://words.filippo.io/2025-state/</guid>
+      <pubDate>Thu, 20 Nov 2025 17:07:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>从 Pixel 10 开始，Android 和 iPhone 用户现在可以共享文件</title>
+      <link>https://blog.google/products/android/quick-share-airdrop/</link>
+      <description><![CDATA[文章网址：https://blog.google/products/android/quick-share-airdrop/
+评论网址：https://news.ycombinator.com/item?id=45994854
+积分：109
+评论数：94]]></description>
+      <guid>https://blog.google/products/android/quick-share-airdrop/</guid>
+      <pubDate>Thu, 20 Nov 2025 17:04:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Tangent – 由 WASM 提供支持的日志管道</title>
+      <link>https://github.com/telophasehq/tangent</link>
+      <description><![CDATA[嗨，HN！我们是 Ethan 和 Danny，Tangent (https://github.com/telophasehq/tangent) 的作者，这是一个基于 Rust 的日志管道，其中所有规范化、丰富和检测逻辑都作为 WASM 插件运行。我们在 OCSF (https://ocsf.io) 社区：
+1）模式不断变化。大公司有整个团队致力于保持供应商→OCSF 映射最新。
+2）没有共享的映射库，因此每个人都重新创建相同的作品。
+3）编写映射器是一项乏味的重复性工作。
+4) 大多数管道使用专有的 DSL，这些 DSL 难以共享，工具/LLM 也难以生成。Tangent 采用不同的方法：没有 DSL – 映射和丰富只是编译为 WASM 的普通代码，可共享插件 – 我们维护一个社区库 (https://github.com/telophasehq/tangent-plugins)，互操作性 – 我们可以在 WASM 内运行其他引擎的 DSL（例如 Bloblang），以便于迁移，完全灵活性 – 插件可以验证模式，调用外部 API (https://github.com/telophasehq/tangent/blob/main/examples/en...），或执行复杂的转换（https://github.com/telophasehq/tangent-plugins/blob/main/zee...)。这是一个示例 Python 转换插件，用于删除日志中除 `message` 之外的所有字段： import json
+  
+  从输入导入列表
+  
+  来自 wit_world.imports 导入日志
+  
+  # `log.Logview` 是 Tangent 的零拷贝 JSON 访问器类型。
+  
+  def process_logs(self, 日志: List[log.Logview]) -&gt; 字节:
+  
+      输出 = 字节数组()
+  
+      对于日志中的 lv：
+  
+          味精 = lv.get(&quot;味精&quot;)
+  
+          value = msg.value 如果 msg 不是 None else &quot;&quot;
+  
+          out.extend(json.dumps({&quot;message&quot;: value}).encode() + b&quot;\n&quot;)
+  
+      返回字节（输出）
+
+我们在存储库中有更多示例。因为插件只是 Go/Python/Rust，所以法学硕士可以轻松创建新的映射器。例如，我问： 生成从 AWS Security Hub 查找到 OCSF 的映射器
+
+只需要进行一些小的调整。 (https://github.com/telophasehq/tangent-plugins/blob/main/aws...)性能方面，16 核 Amazon Linux 盒子端到端处理速度约为 480 MB/s (TCP → Rust-WASM 转换→接收器）在大约 100 字节的 JSON 日志上。 CLI 包括用于在本地搭建、测试和基准测试插件的工具。下面深入探讨我们如何获得这种性能： 
+https://docs.telophasehq.com/runtime。我们很乐意收到您的反馈！你觉得怎么样？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=45994592
+积分：7
+# 条评论：0]]></description>
+      <guid>https://github.com/telophasehq/tangent</guid>
+      <pubDate>Thu, 20 Nov 2025 16:41:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>萤火虫和脉冲星</title>
+      <link>https://www.centauri-dreams.org/2025/11/20/the-firefly-and-the-pulsar/</link>
+      <description><![CDATA[文章网址：https://www.centauri-dreams.org/2025/11/20/the-firefly-and-the-pulsar/
+评论网址：https://news.ycombinator.com/item?id=45994537
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.centauri-dreams.org/2025/11/20/the-firefly-and-the-pulsar/</guid>
+      <pubDate>Thu, 20 Nov 2025 16:37:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>房地产市场已见底</title>
+      <link>https://www.ryanpuzycki.com/p/the-banished-bottom-of-the-housing</link>
+      <description><![CDATA[文章网址：https://www.ryanpuzycki.com/p/the-banished-bottom-of-the-housing
+评论网址：https://news.ycombinator.com/item?id=45993943
+积分：128
+# 条评论：113]]></description>
+      <guid>https://www.ryanpuzycki.com/p/the-banished-bottom-of-the-housing</guid>
+      <pubDate>Thu, 20 Nov 2025 15:53:17 GMT</pubDate>
+    </item>
     <item>
       <title>纳米香蕉专业版</title>
       <link>https://blog.google/technology/ai/nano-banana-pro/</link>
       <description><![CDATA[文章网址：https://blog.google/technology/ai/nano-banana-pro/
 评论网址：https://news.ycombinator.com/item?id=45993296
-积分：31
-# 条评论：7]]></description>
+积分：450
+评论数：295]]></description>
       <guid>https://blog.google/technology/ai/nano-banana-pro/</guid>
       <pubDate>Thu, 20 Nov 2025 15:04:23 GMT</pubDate>
     </item>
     <item>
-      <title>第210章 智商不够</title>
-      <link>https://taylor.town/iq-not-enough</link>
-      <description><![CDATA[文章网址：https://taylor.town/iq-not-enough
-评论网址：https://news.ycombinator.com/item?id=45993073
-积分：79
-# 条评论：63]]></description>
-      <guid>https://taylor.town/iq-not-enough</guid>
-      <pubDate>Thu, 20 Nov 2025 14:45:20 GMT</pubDate>
+      <title>更自由的 Monad，更可扩展的效果 [pdf]</title>
+      <link>https://okmij.org/ftp/Haskell/extensible/more.pdf</link>
+      <description><![CDATA[文章网址：https://okmij.org/ftp/Haskell/extensible/more.pdf
+评论网址：https://news.ycombinator.com/item?id=45993214
+积分：37
+# 条评论：2]]></description>
+      <guid>https://okmij.org/ftp/Haskell/extensible/more.pdf</guid>
+      <pubDate>Thu, 20 Nov 2025 14:56:47 GMT</pubDate>
     </item>
     <item>
       <title>Firefox 147 将支持 XDG 基目录规范</title>
       <link>https://www.phoronix.com/news/Firefox-147-XDG-Base-Directory</link>
       <description><![CDATA[文章网址：https://www.phoronix.com/news/Firefox-147-XDG-Base-Directory
 评论网址：https://news.ycombinator.com/item?id=45992829
-积分：51
-# 条评论：13]]></description>
+积分：236
+评论数：80]]></description>
       <guid>https://www.phoronix.com/news/Firefox-147-XDG-Base-Directory</guid>
       <pubDate>Thu, 20 Nov 2025 14:20:49 GMT</pubDate>
     </item>
     <item>
-      <title>对 Matthew Garrett 博士 (@mjg59) 与 Roy Schestowitz 博士 (Techrights.org) 的判决</title>
+      <title>马修·加勒特博士 v Roy Schestowitz 博士和阿诺尔</title>
       <link>https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/3063</link>
       <description><![CDATA[文章网址：https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/3063
 评论网址：https://news.ycombinator.com/item?id=45992403
-积分：14
-# 条评论：4]]></description>
+积分：86
+评论数量：75]]></description>
       <guid>https://caselaw.nationalarchives.gov.uk/ewhc/kb/2025/3063</guid>
       <pubDate>Thu, 20 Nov 2025 13:37:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>学生对人工智能教授的课程进行反击</title>
-      <link>https://www.theguardian.com/education/2025/nov/20/university-of-staffordshire-course-taught-in-large-part-by-ai-artificial-intelligence</link>
-      <description><![CDATA[文章网址： https://www.theguardian.com/education/2025/nov/20/university-of-staffordshire-course-taught-in-large-part-by-ai-artificial-intelligence
-评论网址：https://news.ycombinator.com/item?id=45992304
-积分：84
-# 条评论：62]]></description>
-      <guid>https://www.theguardian.com/education/2025/nov/20/university-of-staffordshire-course-taught-in-large-part-by-ai-artificial-intelligence</guid>
-      <pubDate>Thu, 20 Nov 2025 13:24:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>网络浏览器中的红色警戒 2</title>
-      <link>https://chronodivide.com/</link>
-      <description><![CDATA[文章网址：https://chronodivide.com/
-评论网址：https://news.ycombinator.com/item?id=45991853
-积分：102
-# 条评论：30]]></description>
-      <guid>https://chronodivide.com/</guid>
-      <pubDate>Thu, 20 Nov 2025 12:21:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>40 年前，加尔文和霍布斯的著作突然出现在书页上</title>
-      <link>https://www.npr.org/2025/11/18/nx-s1-5564064/calvin-and-hobbes-bill-watterson-40-years-comic-strip-lee-salem</link>
-      <description><![CDATA[文章网址： https://www.npr.org/2025/11/18/nx-s1-5564064/calvin-and-hobbes-bill-watterson-40-years-comic-strip-lee-salem
-评论网址：https://news.ycombinator.com/item?id=45991787
-积分：153
-# 条评论：45]]></description>
-      <guid>https://www.npr.org/2025/11/18/nx-s1-5564064/calvin-and-hobbes-bill-watterson-40-years-comic-strip-lee-salem</guid>
-      <pubDate>Thu, 20 Nov 2025 12:08:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>对抗性诗歌作为法学硕士的通用单轮越狱机制</title>
-      <link>https://arxiv.org/abs/2511.15304</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2511.15304
-评论网址：https://news.ycombinator.com/item?id=45991738
-积分：99
-# 条评论：63]]></description>
-      <guid>https://arxiv.org/abs/2511.15304</guid>
-      <pubDate>Thu, 20 Nov 2025 12:01:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>自公元前 3000 年以来的互动世界历史地图集</title>
-      <link>http://geacron.com/home-en/</link>
-      <description><![CDATA[文章网址：http://geacron.com/home-en/
-评论网址：https://news.ycombinator.com/item?id=45990934
-积分：159
-评论数：84]]></description>
-      <guid>http://geacron.com/home-en/</guid>
-      <pubDate>Thu, 20 Nov 2025 09:52:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>DOS Days – 笔记本电脑显示器</title>
-      <link>https://www.dosdays.co.uk/topics/laptop_displays.php</link>
-      <description><![CDATA[文章网址：https://www.dosdays.co.uk/topics/laptop_displays.php
-评论网址：https://news.ycombinator.com/item?id=45990575
-积分：39
-# 条评论：8]]></description>
-      <guid>https://www.dosdays.co.uk/topics/laptop_displays.php</guid>
-      <pubDate>Thu, 20 Nov 2025 09:04:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
