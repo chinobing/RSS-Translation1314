@@ -4,24 +4,55 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 24 Nov 2025 06:31:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 09:25:17 GMT</lastBuildDate>
     <item>
-      <title>随着数十亿美元索赔风险的增加，保险公司退出人工智能保险</title>
-      <link>https://www.ft.com/content/abfe9741-f438-4ed6-a673-075ec177dc62</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/abfe9741-f438-4ed6-a673-075ec177dc62
-评论网址：https://news.ycombinator.com/item?id=46030360
-积分：30
-# 条评论：2]]></description>
-      <guid>https://www.ft.com/content/abfe9741-f438-4ed6-a673-075ec177dc62</guid>
-      <pubDate>Mon, 24 Nov 2025 04:22:12 GMT</pubDate>
+      <title>Show HN：Syd – 面向蓝队的离线优先、人工智能增强工作站</title>
+      <link>https://www.sydsec.co.uk</link>
+      <description><![CDATA[嗨，HN，我是保罗。我正在构建 Syd，一个离线优先的取证工作站，它通过 GUI 编排 YARA 和 Nmap 等工具，使用本地法学硕士来分析结果而不泄露数据。它在本地主机上完全离线运行，不会将任何数据发送到云端，从而确保敏感调查的安全。这是一个演示：https://www.youtube.com/watch?v=8dQV3JbLrRE。我构建此程序是因为虽然 YARA 等工具功能强大，但管理规则集并且解码十六进制字符串很慢。 AI 非常擅长解释恶意软件签名，但我无法在工作中使用 ChatGPT，因为将潜在恶意软件或敏感日志粘贴到 Web 表单中会带来巨大的安全风险。我需要法学硕士的智慧，但又需要气隙机器的隐私。在底层，它是基于 Python 3 构建的。我使用子进程来管理扫描引擎的繁重工作，这样 UI（使用 CustomTkinter 构建）就不会冻结。 “秘密武器”不是人工智能本身，而是我编写的解析器，它将 YARA 的非结构化文本输出转换为本地法学硕士可以真正理解和推理的结构化 JSON 格式。我一直在使用它来分类文件以供我自己的学习。在一个案例中，Syd 标记了一个与“SilentBanker”规则匹配的文件，并且 AI 指出了用于键盘记录的特定 API 调用，这为我节省了大约 20 分钟的手动十六进制编辑时间。在链接的演示视频中，您可以看到这个工作流程：扫描目录，点击自定义 YARA 规则，然后让本地 AI 立即分析字符串。通过这个过程，我了解到“AI 包装器”很容易，但 AI 编排很难 - 让工具为 LLM 输出干净的数据才是真正的挑战。我很想知道您是否认为其他静态分析工具（例如 PEStudio 或 Capa）对于此类工作站至关重要，或者您目前如何处理使用 AI 进行日志分析的隐私风险。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46031208
+积分：10
+# 条评论：3]]></description>
+      <guid>https://www.sydsec.co.uk</guid>
+      <pubDate>Mon, 24 Nov 2025 07:11:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>一分钟多动症测试</title>
+      <link>https://psychotechnology.substack.com/p/a-one-minute-adhd-test-2330</link>
+      <description><![CDATA[文章网址：https://psychotechnology.substack.com/p/a-one-million-adhd-test-2330
+评论网址：https://news.ycombinator.com/item?id=46031196
+积分：25
+# 条评论：20]]></description>
+      <guid>https://psychotechnology.substack.com/p/a-one-minute-adhd-test-2330</guid>
+      <pubDate>Mon, 24 Nov 2025 07:09:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lambda 演算 – Lambda 图的动画 Beta 约简</title>
+      <link>https://cruzgodar.com/applets/lambda-calculus</link>
+      <description><![CDATA[文章网址：https://cruzgodar.com/applets/lambda-calculus
+评论网址：https://news.ycombinator.com/item?id=46030613
+积分：26
+# 条评论：0]]></description>
+      <guid>https://cruzgodar.com/applets/lambda-calculus</guid>
+      <pubDate>Mon, 24 Nov 2025 05:17:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Go 和 Web 技术构建桌面应用程序</title>
+      <link>https://github.com/wailsapp/wails</link>
+      <description><![CDATA[文章网址：https://github.com/wailsapp/wails
+评论网址：https://news.ycombinator.com/item?id=46030414
+积分：41
+# 条评论：17]]></description>
+      <guid>https://github.com/wailsapp/wails</guid>
+      <pubDate>Mon, 24 Nov 2025 04:33:57 GMT</pubDate>
     </item>
     <item>
       <title>红蜂</title>
       <link>https://computer.rip/2025-11-22-RuBee.html</link>
       <description><![CDATA[文章网址：https://computer.rip/2025-11-22-RuBee.html
 评论网址：https://news.ycombinator.com/item?id=46029932
-积分：93
-# 条评论：6]]></description>
+积分：199
+# 条评论：30]]></description>
       <guid>https://computer.rip/2025-11-22-RuBee.html</guid>
       <pubDate>Mon, 24 Nov 2025 03:08:10 GMT</pubDate>
     </item>
@@ -30,40 +61,31 @@
       <link>https://www.bbc.com/news/articles/c8676qpxgnqo</link>
       <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c8676qpxgnqo
 评论网址：https://news.ycombinator.com/item?id=46029929
-积分：22
-# 条评论：10]]></description>
+积分：55
+评论数：88]]></description>
       <guid>https://www.bbc.com/news/articles/c8676qpxgnqo</guid>
       <pubDate>Mon, 24 Nov 2025 03:07:07 GMT</pubDate>
     </item>
     <item>
-      <title>Cloudflare 中断是一件好事</title>
+      <title>Cloudflare 中断可能是一件好事</title>
       <link>https://gist.github.com/jbreckmckye/32587f2907e473dd06d68b0362fb0048</link>
       <description><![CDATA[文章网址：https://gist.github.com/jbreckmckye/32587f2907e473dd06d68b0362fb0048
 评论网址：https://news.ycombinator.com/item?id=46029908
-积分：76
-# 条评论：46]]></description>
+积分：138
+# 条评论：109]]></description>
       <guid>https://gist.github.com/jbreckmckye/32587f2907e473dd06d68b0362fb0048</guid>
       <pubDate>Mon, 24 Nov 2025 03:04:10 GMT</pubDate>
     </item>
     <item>
-      <title>一款让法学硕士惊叹不已的免费工具，包含数千个不可见的 Unicode 字符</title>
+      <title>Show HN：用数千个不可见的 Unicode 字符震惊法学硕士</title>
       <link>https://gibberifier.com</link>
-      <description><![CDATA[文章网址：https://gibberifier.com
+      <description><![CDATA[我制作了一款免费工具，可以用不可见的 Unicode 字符让法学硕士感到震惊。*用例：* 反剽窃、针对法学硕士抓取工具的文本混淆，或者只是为了好玩！即使只有一个单词的“乱码”文本也足以阻止大多数法学硕士做出连贯的响应。
+&lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46029889
-积分：29
-# 条评论：15]]></description>
+积分：98
+# 条评论：44]]></description>
       <guid>https://gibberifier.com</guid>
       <pubDate>Mon, 24 Nov 2025 03:00:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们停止了路线图工作一周并修复了 189 个错误</title>
-      <link>https://lalitm.com/fixits-are-good-for-the-soul/</link>
-      <description><![CDATA[文章网址：https://lalitm.com/fixits-are-good-for-the-soul/
-评论网址：https://news.ycombinator.com/item?id=46029772
-积分：116
-评论数：80]]></description>
-      <guid>https://lalitm.com/fixits-are-good-for-the-soul/</guid>
-      <pubDate>Mon, 24 Nov 2025 02:36:54 GMT</pubDate>
     </item>
     <item>
       <title>问 HN：助听器佩戴者，什么是热的？</title>
@@ -71,8 +93,8 @@
       <description><![CDATA[我的一台 Phonak Audeo 90 (RIC) 在使用 5 年后的某一天坏了，我正在购买新的。如果您最近升级或一直在考虑购买助听器，您目前会选择什么助听器？中度损失，已佩戴多年，喜欢听音乐和大自然，但在会议和嘈杂的环境中也需要帮助。不担心费用，希望在退休前再从工作保险中获得一份优惠。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46029699
-积分：111
-# 条评论：42]]></description>
+积分：170
+评论数：84]]></description>
       <guid>https://news.ycombinator.com/item?id=46029699</guid>
       <pubDate>Mon, 24 Nov 2025 02:25:39 GMT</pubDate>
     </item>
@@ -81,30 +103,10 @@
       <link>https://technotes.seastrom.com/2025/11/23/passing-the-torch.html</link>
       <description><![CDATA[文章网址：https://technotes.seastrom.com/2025/11/23/passing-the-torch.html
 评论网址：https://news.ycombinator.com/item?id=46029649
-积分：36
-# 条评论：6]]></description>
+积分：50
+# 条评论：13]]></description>
       <guid>https://technotes.seastrom.com/2025/11/23/passing-the-torch.html</guid>
       <pubDate>Mon, 24 Nov 2025 02:16:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>工作中的自我、同理心和谦逊的统一理论</title>
-      <link>https://matthogg.fyi/a-unified-theory-of-ego-empathy-and-humility-at-work/</link>
-      <description><![CDATA[文章网址：https://matthogg.fyi/a-unified-theory-of-ego-empathy-and-humility-at-work/
-评论网址：https://news.ycombinator.com/item?id=46029534
-积分：28
-# 条评论：0]]></description>
-      <guid>https://matthogg.fyi/a-unified-theory-of-ego-empathy-and-humility-at-work/</guid>
-      <pubDate>Mon, 24 Nov 2025 02:01:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Liva AI (YC S25) 正在招聘</title>
-      <link>https://www.ycombinator.com/companies/liva-ai/jobs/fYP8QP8-growth-intern</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/liva-ai/jobs/fYP8QP8-growth-intern
-评论网址：https://news.ycombinator.com/item?id=46028046
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/liva-ai/jobs/fYP8QP8-growth-intern</guid>
-      <pubDate>Sun, 23 Nov 2025 22:36:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
