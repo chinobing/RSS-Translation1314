@@ -4,119 +4,132 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 24 Nov 2025 18:30:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 21:20:14 GMT</lastBuildDate>
     <item>
-      <title>保护云中使用的数据：务实的理念</title>
-      <link>https://www.mimirsec.com/2025/11/24/elementor-855/</link>
-      <description><![CDATA[文章网址：https://www.mimirsec.com/2025/11/24/elementor-855/
-评论网址：https://news.ycombinator.com/item?id=46037234
+      <title>新报告呼吁美国终止童婚</title>
+      <link>https://womensmediacenter.com/news-features/new-report-calls-for-end-to-child-marriage-in-us</link>
+      <description><![CDATA[文章网址：https://womensmediacenter.com/news-features/new-report-calls-for-end-to-child-marriage-in-us
+评论网址：https://news.ycombinator.com/item?id=46039399
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.mimirsec.com/2025/11/24/elementor-855/</guid>
-      <pubDate>Mon, 24 Nov 2025 18:22:59 GMT</pubDate>
+      <guid>https://womensmediacenter.com/news-features/new-report-calls-for-end-to-child-marriage-in-us</guid>
+      <pubDate>Mon, 24 Nov 2025 21:13:36 GMT</pubDate>
     </item>
     <item>
-      <title>列举 WhatsApp 上的 30 亿个帐户 [pdf]</title>
-      <link>https://github.com/sbaresearch/whatsapp-census/blob/main/Hey_there_You_are_using_WhatsApp.pdf</link>
-      <description><![CDATA[文章网址：https://github.com/sbaresearch/whatsapp-census/blob/main/Hey_there_You_are_using_WhatsApp.pdf
-评论网址：https://news.ycombinator.com/item?id=46037231
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/sbaresearch/whatsapp-census/blob/main/Hey_there_You_are_using_WhatsApp.pdf</guid>
-      <pubDate>Mon, 24 Nov 2025 18:22:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建 CallSpark（基于浏览器的 VoIP）：我学到了什么以及造成痛苦的原因</title>
-      <link>https://news.ycombinator.com/item?id=46037226</link>
-      <description><![CDATA[我一直在构建 CallSpark，一个基于浏览器的呼叫平台。通过 Twilio 浏览器 SDK 的核心 VoIP 流程如宣传的那样工作。困难的部分在其他地方。简单的部分Twilio 的 SDK 很简单。初始化一个Device，传入一个token，调用connect。 
-WebRTC 和音频质量无需太多调整即可保持。真正的问题1。浏览器内的调用状态
-SDK 在正确的时间发出事件，但 React 状态并不总是代表调用实际执行的操作。 
-UI 组件安装、卸载或重新渲染以及状态漂移。我希望即使用户转到应用程序内的任何其他页面，呼叫也能保持在线。
-当 UI 错误地认为它已断开连接时，调用可能仍然处于活动状态，反之亦然。我最终保留了对活动调用的全局引用并广播自定义事件，以便每个组件都可以保持对齐。它并不优雅，但它是始终保持 UI 准确的唯一方法。Twilio 也不提供可靠的“呼叫开始”时间戳，因此我自己跟踪它，但显然我不能使用它进行计费。2.实时计费
-我想要在通话期间按秒（或每分钟）计费。 
-Twilio 的呼叫后 Webhook 对于实时检查没有用，因为它仅在呼叫结束后才到达。而且它并不总是包含通话费用。我的后端运行一个定期工作程序，它会查找活动通话，计算自上次收费以来已经过去了多少时间，扣除积分，并在用户余额不足时结束通话。 
-这部分有效，但您很快就会遇到边缘情况。如果工作人员错过了一个周期，您必须在不重复收费的情况下进行协调。
-浏览器 UI 可能会消失，但计费和通话状态必须准确地继续。我找到的解决方案是部分计费（如果您愿意，请告诉我）。工作人员每十秒运行一次并查看所有活动呼叫。如果用户有足够的余额来应付接下来的十秒，通话将继续。如果没有，就结束。每个时间间隔后，工作人员都会保留前十秒的成本。
-当通话结束时，twilio 会通过 webhook 告诉我们，然后我会核对我从积分中借记了多少、实际上必须借记了多少等。我仍在解决的问题保持客户端调用状态一致而不回退到全局对象的更好模式。一种干净的方法来处理浏览器 UI 在调用中消失但调用本身在后端正常继续的情况。社区问题&gt; 如果您构建了VoIP 实时计费，您是如何构建它的？
-&gt; 您如何为长期调用保持准确的浏览器 UI 状态。
-&gt; 使用 Twilio 浏览器 SDK 的任何经验教训。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46037226
+      <title>威利斯·惠特菲尔德：一个简单的人用一个简单的解决方案改变了世界</title>
+      <link>https://www.sandia.gov/labnews/2024/04/04/willis-whitfield-a-simple-man-with-a-simple-solution-that-changed-the-world/</link>
+      <description><![CDATA[文章网址： https://www.sandia.gov/labnews/2024/04/04/willis-whitfield-a-simple-man-with-a-simple-solution-that-changed-the-world/
+评论网址：https://news.ycombinator.com/item?id=46039387
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46037226</guid>
-      <pubDate>Mon, 24 Nov 2025 18:22:52 GMT</pubDate>
+      <guid>https://www.sandia.gov/labnews/2024/04/04/willis-whitfield-a-simple-man-with-a-simple-solution-that-changed-the-world/</guid>
+      <pubDate>Mon, 24 Nov 2025 21:12:25 GMT</pubDate>
     </item>
     <item>
-      <title>肯尼迪在没有科学支持的情况下加强了疫苗攻击</title>
-      <link>https://www.cbsnews.com/news/rfk-jr-vaccine-safety-aluminum-ingredients/</link>
-      <description><![CDATA[文章网址：https://www.cbsnews.com/news/rfk-jr-vaccine-safety-aluminum-ingredients/
-评论网址：https://news.ycombinator.com/item?id=46037214
+      <title>卢维特io</title>
+      <link>https://luvit.io/</link>
+      <description><![CDATA[文章网址：https://luvit.io/
+评论网址：https://news.ycombinator.com/item?id=46039379
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.cbsnews.com/news/rfk-jr-vaccine-safety-aluminum-ingredients/</guid>
-      <pubDate>Mon, 24 Nov 2025 18:21:23 GMT</pubDate>
+      <guid>https://luvit.io/</guid>
+      <pubDate>Mon, 24 Nov 2025 21:11:48 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Prismle – 用一句话从查询到候选</title>
-      <link>https://prismle.com/</link>
-      <description><![CDATA[Prismle 使每一份简历都可以通过基于含义的搜索来发现，通过简单、人性化的查询将您与合适的候选人联系起来。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46037209
+      <title>被指控、被回避和流放：这些妇女被驱逐到加纳的“女巫营”</title>
+      <link>https://www.aljazeera.com/features/longform/2025/11/23/accused-shunned-exiled-the-women-banished-to-ghanas-witch-camps</link>
+      <description><![CDATA[文章网址： https://www.aljazeera.com/features/longform/2025/11/23/accused-shunned-exiled-the-women-banished-to-ghanas-witch-camps
+评论网址：https://news.ycombinator.com/item?id=46039357
 积分：1
 # 条评论：0]]></description>
-      <guid>https://prismle.com/</guid>
-      <pubDate>Mon, 24 Nov 2025 18:20:55 GMT</pubDate>
+      <guid>https://www.aljazeera.com/features/longform/2025/11/23/accused-shunned-exiled-the-women-banished-to-ghanas-witch-camps</guid>
+      <pubDate>Mon, 24 Nov 2025 21:09:47 GMT</pubDate>
     </item>
     <item>
-      <title>南希·佩洛西 (Nancy Pelosi) 的回报率高达 16,930%，高出市场 581%</title>
-      <link>https://finance.yahoo.com/news/nancy-pelosi-beat-market-581-162100416.html</link>
-      <description><![CDATA[文章网址：https://finance.yahoo.com/news/nancy-pelosi-beat-market-581-162100416.html
-评论网址：https://news.ycombinator.com/item?id=46037202
+      <title>Gmail：批量促销删除需要不同的浏览器或禁用隐身模式</title>
+      <link>https://twitter.com/andrew_michels/status/1992330739615182998</link>
+      <description><![CDATA[文章网址：https://twitter.com/andrew_michels/status/1992330739615182998
+评论网址：https://news.ycombinator.com/item?id=46039355
+积分：1
+# 条评论：0]]></description>
+      <guid>https://twitter.com/andrew_michels/status/1992330739615182998</guid>
+      <pubDate>Mon, 24 Nov 2025 21:09:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 MCP Inspector 测试 MCP 服务器</title>
+      <link>https://chrisebert.net/testing-mcp-servers-with-mcp-inspector/</link>
+      <description><![CDATA[文章网址：https://chrisebert.net/testing-mcp-servers-with-mcp-inspector/
+评论网址：https://news.ycombinator.com/item?id=46039351
 积分：2
 # 条评论：0]]></description>
-      <guid>https://finance.yahoo.com/news/nancy-pelosi-beat-market-581-162100416.html</guid>
-      <pubDate>Mon, 24 Nov 2025 18:20:22 GMT</pubDate>
+      <guid>https://chrisebert.net/testing-mcp-servers-with-mcp-inspector/</guid>
+      <pubDate>Mon, 24 Nov 2025 21:09:04 GMT</pubDate>
     </item>
     <item>
-      <title>创建数学/建筑结构的全身学习 [pdf]</title>
-      <link>https://archive.bridgesmathart.org/2017/bridges2017-523.pdf</link>
-      <description><![CDATA[文章网址：https://archive.bridgesmatart.org/2017/bridges2017-523.pdf
-评论网址：https://news.ycombinator.com/item?id=46037185
+      <title>你们尝试过AI扩展吗？这东西很狂野</title>
+      <link>https://news.ycombinator.com/item?id=46039340</link>
+      <description><![CDATA[你们都尝试过AI扩展吗？这东西太狂野了它完美地填补了我照片缺失的边缘，哈哈
+链接：modernphototools.com/tools/ai-expand
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46039340
 积分：1
 # 条评论：0]]></description>
-      <guid>https://archive.bridgesmathart.org/2017/bridges2017-523.pdf</guid>
-      <pubDate>Mon, 24 Nov 2025 18:19:09 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46039340</guid>
+      <pubDate>Mon, 24 Nov 2025 21:08:22 GMT</pubDate>
     </item>
     <item>
-      <title>维京人。维京人无处不在</title>
-      <link>https://signoregalilei.com/2025/11/13/vikings-vikings-everywhere/</link>
-      <description><![CDATA[文章网址：https://signoregalilei.com/2025/11/13/vikings-vikings-everywhere/
-评论网址：https://news.ycombinator.com/item?id=46037177
-积分：1
+      <title>是时候对桌面进行重复数据删除了</title>
+      <link>https://www.theregister.com/2025/11/10/deduplicating_the_desktops/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2025/11/10/deduplicating_the_desktops/
+评论网址：https://news.ycombinator.com/item?id=46039325
+积分：2
 # 条评论：0]]></description>
-      <guid>https://signoregalilei.com/2025/11/13/vikings-vikings-everywhere/</guid>
-      <pubDate>Mon, 24 Nov 2025 18:18:50 GMT</pubDate>
+      <guid>https://www.theregister.com/2025/11/10/deduplicating_the_desktops/</guid>
+      <pubDate>Mon, 24 Nov 2025 21:07:03 GMT</pubDate>
     </item>
     <item>
-      <title>“眼睛”从青铜时代演变到今天[视频]</title>
-      <link>https://m.youtube.com/shorts/rWxWj6FTHvk</link>
-      <description><![CDATA[文章网址：https://m.youtube.com/shorts/rWxWj6FTHvk
-评论网址：https://news.ycombinator.com/item?id=46037174
+      <title>人工智能的成本正在耗尽您的预算（以及如何解决这些问题）</title>
+      <link>https://news.ycombinator.com/item?id=46039323</link>
+      <description><![CDATA[我是 AiGuardian 的营销与销售总监。在分析了数百个 AI 实施之后，我发现了 5 项隐藏成本，大多数团队都没有意识到这些成本正在消耗他们的预算：*1。代币过度消费*
+- 问题：大多数团队没有优化代币使用
+- 成本：API 调用超支 40-60%
+- 解决方案：智能分块、摘要、缓存
+- 影响：使用 TokenGuard 的公司可将成本降低 30-70%*2。上下文漂移*
+- 问题：对话中上下文中断，需要重新提示
+- 成本：用户体验受损、支持票、重新设计
+- 解决方案：实时上下文漂移检测
+- 影响：ContextGuard 在中断生产之前检测偏差（精度为 96%）*3。偏见事件*
+- 问题：产出中出现偏见，损害品牌声誉
+- 成本：声誉受损、客户流失、法律风险
+- 解决方案：实时偏差检测（&lt;50ms，12+类型）
+- 影响：BiasGuard 在部署之前捕获偏差*4。可靠性故障*
+- 问题：无法在生产前验证人工智能响应
+- 成本：生产事故、用户信任丧失、返工
+- 解决方案：7重检查验证系统
+- 影响：TrustGuard 在部署前验证可靠性*5。可见度有限*
+- 问题：无法洞察人工智能系统的健康状况
+- 成本：被动解决问题、停机时间、错过的问题
+- 解决方案：全系统监控和验证
+- 影响：HealthGuard 提供全面的可见性*现实：*
+大多数团队都会面临所有 5 个问题，但只跟踪 1-2 个指标。他们盲目飞行。*解决方案：*
+我们构建 AiGuardian 来解决所有 5 个问题。 5 门卫服务。生产就绪。 &lt;50ms 响应时间。单一 API 集成。*您看到了什么？*
+您遇到哪些隐性成本？您正在跟踪哪些指标？让我们讨论一下。www.aiguardian.ai#AI #MachineLearning #DevOps #AICosts #AIProtection #DeveloperTools
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46039323
 积分：1
 # 条评论：0]]></description>
-      <guid>https://m.youtube.com/shorts/rWxWj6FTHvk</guid>
-      <pubDate>Mon, 24 Nov 2025 18:18:43 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46039323</guid>
+      <pubDate>Mon, 24 Nov 2025 21:07:02 GMT</pubDate>
     </item>
     <item>
-      <title>在平流层部署量子计算机降低冷却成本</title>
-      <link>https://discovery.kaust.edu.sa/en/article/26198/green-quantum-computing-takes-to-the-skies/</link>
-      <description><![CDATA[文章网址：https://discovery.kaust.edu.sa/en/article/26198/green-quantum-computing-takes-to-the-skies/
-评论网址：https://news.ycombinator.com/item?id=46037172
+      <title>Atuin 的新 Runbook 执行引擎</title>
+      <link>https://blog.atuin.sh/introducing-the-new-runbook-execution-engine/</link>
+      <description><![CDATA[文章网址：https://blog.atuin.sh/introducing-the-new-runbook-execution-engine/
+评论网址：https://news.ycombinator.com/item?id=46039317
 积分：1
 # 条评论：0]]></description>
-      <guid>https://discovery.kaust.edu.sa/en/article/26198/green-quantum-computing-takes-to-the-skies/</guid>
-      <pubDate>Mon, 24 Nov 2025 18:18:28 GMT</pubDate>
+      <guid>https://blog.atuin.sh/introducing-the-new-runbook-execution-engine/</guid>
+      <pubDate>Mon, 24 Nov 2025 21:06:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
