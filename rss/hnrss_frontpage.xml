@@ -4,7 +4,74 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 25 Nov 2025 15:24:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 18:31:31 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：我们构建了一个开源、零 Webhooks 支付处理器</title>
+      <link>https://github.com/flowglad/flowglad</link>
+      <description><![CDATA[嗨，HN！在过去的一段时间里，我们一直在构建 Flowglad (https://flowglad.com)，现在感觉它已经足够好，可以与大家分享：存储库：https://github.com/flowglad/flowglad演示视频：https://www.youtube.com/watch?v=G6H0c1Cd2kUFlowglad 是一款支付处理器，无需编写任何粘合代码即可集成。在处理您的付款的同时，它还会根据您的客户的账单状态实时告诉您可用的功能和使用积分余额。 DX 感觉就像 React，因为我们希望将响应式编程范式引入支付领域。只需点击几下，我们就可以轻松启动成熟的定价模型（包括使用量表、功能门和使用信用赠款）。我们将这些定价模型模式化到一个类似于 Terraform 的定价.yaml 文件中，但针对的是您的定价。结果是一个支付层，AI 编码代理可以更轻松地一次性完成（目前最快乐的路径是全栈 Typescript + React 应用程序）。我们为什么构建这个：- 在 Stripe 上构建了十年之后，我们发现它功能强大但缺乏主见。这让我们需要做大量死记硬背的工作来建立相当标准的用例
+- 这意味着需要维护更多代码，其中大部分代码都很脆弱，因为它跨越了如此多的服务器-客户端边界
+- 更不用说使用 Stripe 结账流程和 Webhook 事件类型来编排我们业务领域的生命周期，其中有 250 多种
+- 在线支付变得复杂 - 不仅是人工智能产品的新定价模型，还包括跨境销售税等。您要么需要自己处理其中的大部分内容，要么注册并组成多个服务这一切都感觉过于笨重，尤其是与近年来托管和数据库等其他层变得多么容易相比。这些模式在十年内没有太大变化。虽然编码代理可以敲定应用程序的所有其他死记硬背的部分（身份验证、数据库、分析），但支付是最可怕的选项卡选项。因为现有的集成模式很难推理，难以验证正确性，而且绝对是关键任务。我们的测试版可以让您：- 只需点击几下即可启动常见的定价模型，并根据需要对其进行自定义
+- 在测试模式和实时模式之间克隆定价模型，并通过pricing.yaml导入/导出
+- 在后端和 React 前端实时检查客户使用积分和功能访问
+- 无需任何数据库架构更改即可进行集成 - 您可以通过您的 id 引用您的客户，并通过您定义的 slugs 引用价格、产品、功能和使用量我们仍处于旅程的早期阶段，因此希望得到您的反馈和意见。计费有很多用例，因此如果您看到任何希望我们支持的内容，请告诉我们！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46048252
+积分：42
+# 条评论：33]]></description>
+      <guid>https://github.com/flowglad/flowglad</guid>
+      <pubDate>Tue, 25 Nov 2025 17:33:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>可以说“CSS 变量”而不是“自定义属性”</title>
+      <link>https://blog.kizu.dev/css-variables/</link>
+      <description><![CDATA[文章网址：https://blog.kizu.dev/css-variables/
+评论网址：https://news.ycombinator.com/item?id=46048229
+积分：8
+# 条评论：0]]></description>
+      <guid>https://blog.kizu.dev/css-variables/</guid>
+      <pubDate>Tue, 25 Nov 2025 17:31:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>对于数据科学来说，Python 并不是一种很好的语言。第 1 部分：经验</title>
+      <link>https://blog.genesmindsmachines.com/p/python-is-not-a-great-language-for</link>
+      <description><![CDATA[文章网址：https://blog.genesmindsmachines.com/p/python-is-not-a-great-language-for
+评论网址：https://news.ycombinator.com/item?id=46047580
+积分：10
+# 条评论：1]]></description>
+      <guid>https://blog.genesmindsmachines.com/p/python-is-not-a-great-language-for</guid>
+      <pubDate>Tue, 25 Nov 2025 16:38:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究发现 Ozempic 不会减缓阿尔茨海默病</title>
+      <link>https://www.semafor.com/article/11/25/2025/ozempic-does-not-slow-alzheimers-study-finds</link>
+      <description><![CDATA[文章网址：https://www.semafor.com/article/11/25/2025/ozempic-does-not-slow-alzheimers-study-finds
+评论网址：https://news.ycombinator.com/item?id=46047513
+积分：37
+# 条评论：24]]></description>
+      <guid>https://www.semafor.com/article/11/25/2025/ozempic-does-not-slow-alzheimers-study-finds</guid>
+      <pubDate>Tue, 25 Nov 2025 16:34:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Orion 1.0 – 超越浏览</title>
+      <link>https://blog.kagi.com/orion</link>
+      <description><![CDATA[文章网址：https://blog.kagi.com/orion
+评论网址：https://news.ycombinator.com/item?id=46047350
+积分：162
+评论数：86]]></description>
+      <guid>https://blog.kagi.com/orion</guid>
+      <pubDate>Tue, 25 Nov 2025 16:21:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>FLUX.2：前沿视觉智能</title>
+      <link>https://bfl.ai/blog/flux-2</link>
+      <description><![CDATA[文章网址：https://bfl.ai/blog/flux-2
+评论网址：https://news.ycombinator.com/item?id=46046916
+积分：93
+# 条评论：33]]></description>
+      <guid>https://bfl.ai/blog/flux-2</guid>
+      <pubDate>Tue, 25 Nov 2025 15:47:14 GMT</pubDate>
+    </item>
     <item>
       <title>启动 HN：Onyx (YC W24) – 开源聊天 UI</title>
       <link>https://news.ycombinator.com/item?id=46045987</link>
@@ -13,12 +80,12 @@
       <pubDate>Tue, 25 Nov 2025 14:20:30 GMT</pubDate>
     </item>
     <item>
-      <title>Apt Rust 要求引发问题</title>
+      <title>APT Rust 要求引发问题</title>
       <link>https://lwn.net/SubscriberLink/1046841/5bbf1fc049a18947/</link>
       <description><![CDATA[文章网址：https://lwn.net/SubscriberLink/1046841/5bbf1fc049a18947/
 评论网址：https://news.ycombinator.com/item?id=46045972
-积分：59
-# 条评论：27]]></description>
+积分：199
+# 条评论：334]]></description>
       <guid>https://lwn.net/SubscriberLink/1046841/5bbf1fc049a18947/</guid>
       <pubDate>Tue, 25 Nov 2025 14:18:01 GMT</pubDate>
     </item>
@@ -27,81 +94,20 @@
       <link>https://www.theguardian.com/science/2025/nov/25/brain-human-cognitive-development-life-stages-cambridge-study</link>
       <description><![CDATA[文章网址：https://www.theguardian.com/science/2025/nov/25/brain- human-cognitive-development-life-stages-cambridge-study
 评论网址：https://news.ycombinator.com/item?id=46045661
-积分：51
-# 条评论：31]]></description>
+积分：182
+# 条评论：169]]></description>
       <guid>https://www.theguardian.com/science/2025/nov/25/brain-human-cognitive-development-life-stages-cambridge-study</guid>
       <pubDate>Tue, 25 Nov 2025 13:38:12 GMT</pubDate>
     </item>
     <item>
-      <title>制作古惑狼 (2011)</title>
-      <link>https://all-things-andy-gavin.com/video-games/making-crash/</link>
-      <description><![CDATA[文章网址：https://all-things-andy-gavin.com/video-games/making-crash/
-评论网址：https://news.ycombinator.com/item?id=46045039
-积分：49
-# 条评论：6]]></description>
-      <guid>https://all-things-andy-gavin.com/video-games/making-crash/</guid>
-      <pubDate>Tue, 25 Nov 2025 12:05:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>最稳定的树莓派？具有热管理功能的更好 NTP</title>
-      <link>https://austinsnerdythings.com/2025/11/24/worlds-most-stable-raspberry-pi-81-better-ntp-with-thermal-management/</link>
-      <description><![CDATA[文章网址：https://austinsnerdythings.com/2025/11/24/worlds-most-stable-raspberry-pi-81-better-ntp-with- Thermal-management/
-评论网址：https://news.ycombinator.com/item?id=46042946
-积分：215
-# 条评论：71]]></description>
-      <guid>https://austinsnerdythings.com/2025/11/24/worlds-most-stable-raspberry-pi-81-better-ntp-with-thermal-management/</guid>
-      <pubDate>Tue, 25 Nov 2025 06:35:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>人类大脑预先配置了理解世界的指令</title>
-      <link>https://news.ucsc.edu/2025/11/sharf-preconfigured-brain/</link>
-      <description><![CDATA[文章网址：https://news.ucsc.edu/2025/11/sharf-preconfigured-brain/
-评论网址：https://news.ycombinator.com/item?id=46042928
-积分：232
-# 条评论：149]]></description>
-      <guid>https://news.ucsc.edu/2025/11/sharf-preconfigured-brain/</guid>
-      <pubDate>Tue, 25 Nov 2025 06:31:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>Windows GUI – 好、坏和非常丑 (2023)</title>
-      <link>https://creolened.com/windows-gui-good-bad-and-pretty-ugly-ranked/</link>
-      <description><![CDATA[文章网址：https://creolened.com/windows-gui-good-bad-and-pretty-ugly-ranked/
-评论网址：https://news.ycombinator.com/item?id=46042655
-积分：38
-# 条评论：66]]></description>
-      <guid>https://creolened.com/windows-gui-good-bad-and-pretty-ugly-ranked/</guid>
-      <pubDate>Tue, 25 Nov 2025 05:33:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>未通电的 SSD 会缓慢丢失数据</title>
-      <link>https://www.xda-developers.com/your-unpowered-ssd-is-slowly-losing-your-data/</link>
-      <description><![CDATA[文章网址：https://www.xda-developers.com/your-unpowered-ssd-is-slowly-losing-your-data/
-评论网址：https://news.ycombinator.com/item?id=46038099
-积分：598
-评论数：246]]></description>
-      <guid>https://www.xda-developers.com/your-unpowered-ssd-is-slowly-losing-your-data/</guid>
-      <pubDate>Mon, 24 Nov 2025 19:25:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>克劳德高级工具使用</title>
-      <link>https://www.anthropic.com/engineering/advanced-tool-use</link>
-      <description><![CDATA[文章网址：https://www.anthropic.com/engineering/advanced-tool-use
-评论网址：https://news.ycombinator.com/item?id=46038047
-积分：571
-# 条评论：234]]></description>
-      <guid>https://www.anthropic.com/engineering/advanced-tool-use</guid>
-      <pubDate>Mon, 24 Nov 2025 19:21:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>近距离工作4.5</title>
-      <link>https://www.anthropic.com/news/claude-opus-4-5</link>
-      <description><![CDATA[https://platform.claude.com/docs/en/about-claude/models/what...
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46037637
-积分：1022
-# 条评论：472]]></description>
-      <guid>https://www.anthropic.com/news/claude-opus-4-5</guid>
-      <pubDate>Mon, 24 Nov 2025 18:53:05 GMT</pubDate>
+      <title>花费数万亿美元的大型软件项目仍然失败</title>
+      <link>https://spectrum.ieee.org/it-management-software-failures</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/it-management-software-failures
+评论网址：https://news.ycombinator.com/item?id=46045085
+积分：83
+# 条评论：67]]></description>
+      <guid>https://spectrum.ieee.org/it-management-software-failures</guid>
+      <pubDate>Tue, 25 Nov 2025 12:14:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
