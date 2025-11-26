@@ -4,54 +4,75 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 26 Nov 2025 01:29:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 03:48:24 GMT</lastBuildDate>
     <item>
-      <title>现在怎么办？处理大型系统中的错误</title>
-      <link>https://brooker.co.za/blog/2025/11/20/what-now</link>
-      <description><![CDATA[文章网址：https://brooker.co.za/blog/2025/11/20/what-now
-评论网址：https://news.ycombinator.com/item?id=46052667
-积分：3
-# 条评论：0]]></description>
-      <guid>https://brooker.co.za/blog/2025/11/20/what-now</guid>
-      <pubDate>Wed, 26 Nov 2025 00:31:26 GMT</pubDate>
+      <title>太空卡车 – 诺斯特罗莫 (2012)</title>
+      <link>https://alienseries.wordpress.com/2012/10/23/space-truckin-the-nostromo/</link>
+      <description><![CDATA[文章网址：https://alienseries.wordpress.com/2012/10/23/space-truckin-the-nostromo/
+评论网址：https://news.ycombinator.com/item?id=46053566
+积分：16
+# 条评论：3]]></description>
+      <guid>https://alienseries.wordpress.com/2012/10/23/space-truckin-the-nostromo/</guid>
+      <pubDate>Wed, 26 Nov 2025 02:31:41 GMT</pubDate>
     </item>
     <item>
-      <title>有关科技工作的可怕新数据</title>
-      <link>https://www.businessinsider.com/gruesome-tech-jobs-data-scientists-analytics-indeed-2025-11</link>
-      <description><![CDATA[文章网址：https://www.businessinsider.com/gruesome-tech-jobs-data-scientists-analytics-indeed-2025-11
-评论网址：https://news.ycombinator.com/item?id=46052527
-积分：22
-# 条评论：7]]></description>
-      <guid>https://www.businessinsider.com/gruesome-tech-jobs-data-scientists-analytics-indeed-2025-11</guid>
-      <pubDate>Wed, 26 Nov 2025 00:14:21 GMT</pubDate>
+      <title>Show HN：一个 WordPress 插件，可重写图像 URL 以实现近乎零成本的交付</title>
+      <link>https://wordpress.org/plugins/bandwidth-saver/</link>
+      <description><![CDATA[嗨 HN，我构建了一个名为 Bandwidth Saver 的 WordPress 插件。它获取您网站已有的图像并通过 Cloudflare R2 和 Workers 提供服务，这意味着零出口费用和极低的存储成本。我们的目标是在不增加任何传统优化插件复杂性的情况下，使图像传输快速且廉价。这个想法很简单。 WordPress 保持正常生成图像。该插件重写前端的 URL，以便由 Cloudflare Worker 提供图像。在第一个请求中，Worker 获取原始图像并将其存储在 R2 中。之后，Cloudflare 的边缘会从其全局缓存中提供图像，并且不收取出口费用。无需预加载或同步任何内容，如果出现故障，则会加载原始图像。这就是整个系统。我构建这个系统是因为大多数图像 CDN 插件都会尝试执行所有操作：压缩、调整大小、AI 转换、资产管理、自定义仪表板和月费。这对于某些用户来说很有用，但对于大多数只希望现有媒体加载速度更快而又不花太多钱的网站来说是不必要的。 Bandwidth Saver 仅关注交付，而不关注转换。它是故意最小化的。有两种使用它的方法。如果您想运行自己的 Cloudflare Worker，该插件是完全免费的。我包含了 Worker 代码以及部署它所需的步骤。如果您不想处理任何 Cloudflare 设置，可以使用我的 Worker 和 R2 存储桶，每月支付 2.99 美元的托管选项。我试图保持它的可访问性，同时还承担运营成本。该插件适用于任何主题或构建器，并且不会修改数据库。它仅重写输出中的 URL。 WordPress 仍然是所有媒体的记录系统。 R2 只是成为一个由 Cloudflare 边缘支持的廉价、耐用的缓存层。我对有关该方法的反馈特别感兴趣。首次请求获取模型有意义吗？这个范围的插件的定价公平吗？我应该优先允许用户连接他们自己的 R2 存储桶还是托管服务？对于那些在边缘计算或 CDN 方面有经验的人，我希望了解如何改进 Worker 或重写策略。感谢您的阅读，很高兴回答任何问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46053385
+积分：9
+# 条评论：3]]></description>
+      <guid>https://wordpress.org/plugins/bandwidth-saver/</guid>
+      <pubDate>Wed, 26 Nov 2025 02:05:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>BebboSSH：Amiga 系统的 SSH2 实现（68000，GPLv3）</title>
+      <link>https://franke.ms/git/bebbo/bebbossh</link>
+      <description><![CDATA[文章网址：https://franke.ms/git/bebbo/bebbossh
+评论网址：https://news.ycombinator.com/item?id=46053262
+积分：7
+# 条评论：2]]></description>
+      <guid>https://franke.ms/git/bebbo/bebbossh</guid>
+      <pubDate>Wed, 26 Nov 2025 01:51:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>太空：1999 – 特效技术</title>
+      <link>https://catacombs.space1999.net/main/pguide/upsfx.html</link>
+      <description><![CDATA[文章网址：https://catacombs.space1999.net/main/pguide/upsfx.html
+评论网址：https://news.ycombinator.com/item?id=46053017
+积分：14
+# 条评论：1]]></description>
+      <guid>https://catacombs.space1999.net/main/pguide/upsfx.html</guid>
+      <pubDate>Wed, 26 Nov 2025 01:19:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>CS234：强化学习 2025 年冬季</title>
+      <link>https://web.stanford.edu/class/cs234/</link>
+      <description><![CDATA[文章网址：https://web.stanford.edu/class/cs234/
+评论网址：https://news.ycombinator.com/item?id=46052685
+积分：31
+# 条评论：3]]></description>
+      <guid>https://web.stanford.edu/class/cs234/</guid>
+      <pubDate>Wed, 26 Nov 2025 00:33:29 GMT</pubDate>
     </item>
     <item>
       <title>生成墨西哥卷饼测试</title>
       <link>https://www.generativist.com/notes/2025/Nov/25/generative-burrito-test.html</link>
       <description><![CDATA[文章网址：https://www.generativist.com/notes/2025/Nov/25/generative-burrito-test.html
 评论网址：https://news.ycombinator.com/item?id=46052102
-积分：68
-# 条评论：38]]></description>
+积分：94
+# 条评论：45]]></description>
       <guid>https://www.generativist.com/notes/2025/Nov/25/generative-burrito-test.html</guid>
       <pubDate>Tue, 25 Nov 2025 23:28:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLVM 添加了用于保护加密代码的恒定时间支持</title>
-      <link>https://blog.trailofbits.com/2025/11/25/constant-time-support-lands-in-llvm-protecting-cryptographic-code-at-the-compiler-level/</link>
-      <description><![CDATA[文章网址： https://blog.trailofbits.com/2025/11/25/constant-time-support-lands-in-llvm-protecting-cryptographic-code-at-the-compiler-level/
-评论网址：https://news.ycombinator.com/item?id=46052090
-积分：14
-# 条评论：3]]></description>
-      <guid>https://blog.trailofbits.com/2025/11/25/constant-time-support-lands-in-llvm-protecting-cryptographic-code-at-the-compiler-level/</guid>
-      <pubDate>Tue, 25 Nov 2025 23:26:38 GMT</pubDate>
     </item>
     <item>
       <title>计算机和视频显示器故障排除和维修注意事项</title>
       <link>https://www.repairfaq.org/sam/monfaq.htm</link>
       <description><![CDATA[文章网址：https://www.repairfaq.org/sam/monfaq.htm
 评论网址：https://news.ycombinator.com/item?id=46051724
-积分：14
-# 条评论：1]]></description>
+积分：24
+# 条评论：6]]></description>
       <guid>https://www.repairfaq.org/sam/monfaq.htm</guid>
       <pubDate>Tue, 25 Nov 2025 22:40:52 GMT</pubDate>
     </item>
@@ -60,18 +81,19 @@
       <link>https://devblogs.microsoft.com/dotnet/reinventing-how-dotnet-builds-and-ships-again/</link>
       <description><![CDATA[文章网址：https://devblogs.microsoft.com/dotnet/reinventing-how-dotnet-builds-and-ships-again/
 评论网址：https://news.ycombinator.com/item?id=46051691
-积分：57
-# 条评论：23]]></description>
+积分：115
+# 条评论：48]]></description>
       <guid>https://devblogs.microsoft.com/dotnet/reinventing-how-dotnet-builds-and-ships-again/</guid>
       <pubDate>Tue, 25 Nov 2025 22:37:48 GMT</pubDate>
     </item>
     <item>
-      <title>用于在 KiCad 中渲染并通过音频插孔进行渲染的 DOOM 矢量引擎</title>
+      <title>显示 HN：KiDoom – 在 PCB 迹线上运行 DOOM</title>
       <link>https://www.mikeayles.com/#kidoom</link>
-      <description><![CDATA[文章网址：https://www.mikeayles.com/#kidoom
+      <description><![CDATA[我通过使用 PCB 迹线和足迹而不是像素渲染 DOOM 在 KiCad 中运行。墙壁被渲染为 PCB_TRACK 迹线，实体（敌人、物品、玩家）是实际的组件足迹 - SOT-23 用于小物品，SOIC-8 用于装饰品，QFP-64 用于敌人和玩家。我是如何做到的：首先修补 DOOM 的源代码，直接从发动机。我没有尝试渲染 64,000 像素（这会慢得难以置信），而是获取 DOOM 已经在内部计算的几何图形 - 墙壁的drawsegs[]数组和实体的vissprites[]。在 vissprite_t 结构中添加了一个字段，以在 R_ProjectSprite() 期间捕获实体类型（MT_SHOTGUY、MT_PLAYER 等）。这让我可以将 150 多种实体类型映射到适当的足迹类别。DOOM 引擎通过 Unix 套接字将此矢量数据发送到 KiCad 中运行的 Python 插件。该插件在启动时预先分配踪迹和足迹池，然后仅在每帧更新它们的位置，而不是创建/销毁对象。调用 pcbnew.Refresh() 更新显示。以 10-25 FPS 运行，具体取决于硬件。瓶颈是 KiCad 的刷新，而不是 DOOM 或数据传输。还渲染到 SDL 窗口（用于实际游戏）和 Python 线框窗口（用于调试），因此您可以同时运行三个视图。后续：ScopeDoom在线框渲染器工作后，我想将其推到更物理的地方。 X-Y 模式下的示波器是矢量显示器 - 将 X 坐标馈送到一个通道，将 Y 坐标馈送到另一个通道。我没有函数发生器，所以我使用了 MacBook 的耳机插孔。声卡只是一个 44.1kHz 的双通道 DAC。有线 3.5mm 插孔 → 1kΩ 电阻器 → 示波器 CH1 (X) 和 CH2 (Y)。重复使用了 KiDoom 中的相同矢量提取，但 Python 脚本将坐标转换为 ±1V 范围，并将它们作为音频样本进行流式传输。每面墙都变成一个线框，示波器沿着每条线进行跟踪。 44.1kHz 下每帧约 7,000 个点，刷新率约为 6 Hz - 慢到足以播放幻灯片，但关卡几何结构清晰可辨。 96kHz 音频接口或模拟示波器将显着改善它（数字示波器进行采样保持，而不是连续波束追踪）。链接：KiDoom GitHub：https://github.com/MichaelAyles/KiDoom，文章：https://www.mikeayles.com/#kidoomScopeDoom GitHub：https://github.com/MichaelAyles/ScopeDoom，文章：https://www.mikeayles.com/#scopedoom
+&lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46051449
-积分：41
-# 条评论：2]]></description>
+积分：97
+# 条评论：12]]></description>
       <guid>https://www.mikeayles.com/#kidoom</guid>
       <pubDate>Tue, 25 Nov 2025 22:13:35 GMT</pubDate>
     </item>
@@ -80,31 +102,10 @@
       <link>https://andrej.sh/blog/maintaining-open-source-project/</link>
       <description><![CDATA[文章网址：https://andrej.sh/blog/maintaining-open-source-project/
 评论网址：https://news.ycombinator.com/item?id=46051393
-积分：47
-# 条评论：20]]></description>
+积分：100
+# 条评论：72]]></description>
       <guid>https://andrej.sh/blog/maintaining-open-source-project/</guid>
       <pubDate>Tue, 25 Nov 2025 22:08:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于我们最新的 TPU Ironwood 您需要了解的 3 件事</title>
-      <link>https://blog.google/products/google-cloud/ironwood-google-tpu-things-to-know/</link>
-      <description><![CDATA[文章网址：https://blog.google/products/google-cloud/ironwood-google-tpu-things-to-know/
-评论网址：https://news.ycombinator.com/item?id=46051345
-积分：12
-# 条评论：1]]></description>
-      <guid>https://blog.google/products/google-cloud/ironwood-google-tpu-things-to-know/</guid>
-      <pubDate>Tue, 25 Nov 2025 22:04:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>YouTube 上有人需要眼镜：预言已经实现</title>
-      <link>https://jayd.ml/2025/11/10/someone-at-youtube-needs-glasses-prophecy-fulfilled.html</link>
-      <description><![CDATA[相关：YouTube 上有人需要眼镜 - https://news.ycombinator.com/item?id=43846487 - 2025 年 4 月（694 条评论）
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46051340
-积分：264
-# 条评论：162]]></description>
-      <guid>https://jayd.ml/2025/11/10/someone-at-youtube-needs-glasses-prophecy-fulfilled.html</guid>
-      <pubDate>Tue, 25 Nov 2025 22:04:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
