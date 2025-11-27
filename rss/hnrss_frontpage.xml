@@ -4,44 +4,105 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 27 Nov 2025 12:42:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Nov 2025 15:21:59 GMT</lastBuildDate>
     <item>
-      <title>我们都是马赛克：在一个人的细胞之间发现遗传多样性</title>
-      <link>https://www.nature.com/articles/d41586-025-03768-0</link>
-      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-025-03768-0
-评论网址：https://news.ycombinator.com/item?id=46068404
-积分：5
-# 条评论：1]]></description>
-      <guid>https://www.nature.com/articles/d41586-025-03768-0</guid>
-      <pubDate>Thu, 27 Nov 2025 11:55:11 GMT</pubDate>
+      <title>Show HN: Runprompt – 从命令行运行 .prompt 文件</title>
+      <link>https://github.com/chr15m/runprompt</link>
+      <description><![CDATA[我构建了一个单文件 Python 脚本，让您可以通过模板、结构化输出以及将提示链接在一起的能力从命令行运行 LLM 提示。当我发现 Google 的 Dotprompt 格式（frontmatter + Handlebars 模板）时，我意识到它非常适合我一直想要的东西：将提示视为可以通过 Unix 风格连接在一起的一流程序。 Google 在 Firebase Genkit 中使用 Dotprompt，我想要更简单的东西 - 只需直接在命令行上运行 .prompt 文件即可。如下所示：---
+型号：anthropic/claude-sonnet-4-20250514
+输出：
+  格式：json
+  架构：
+    情绪：字符串，积极/消极/中性
+    置信度：数字，0-1 分数
+---
+分析以下情绪：{{STDIN}}运行它：cat Reviews.txt | ./runprompt 情绪.prompt | jq &#39;.sentiment&#39;我认为有趣的事情：* 结构化输出模式：使用简单的“字段：类型，描述”语法在 frontmatter 中定义 JSON 模式。 LLM 可靠地返回有效的 JSON，您可以通过管道传送到其他工具。* 提示链接：将一个提示中的 JSON 输出作为模板变量传送到下一个提示中。这使得将多步骤代理工作流程构建为简单的 shell 管道变得很容易。* 零依赖性：它是一个仅使用 stdlib 的 Python 文件。只需将其卷曲并运行即可。* 与提供商无关：可与 Anthropic、OpenAI、Google AI 和 OpenRouter（通过一个 API 密钥访问数十种模型）配合使用。您可以使用它来自动执行一些操作，例如从非结构化文本中提取结构化数据、从日志生成报告以及构建小型代理工作流程，而无需启动整个框架。希望得到您的反馈，非常欢迎 PR！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46069556
+积分：7
+# 条评论：0]]></description>
+      <guid>https://github.com/chr15m/runprompt</guid>
+      <pubDate>Thu, 27 Nov 2025 14:26:35 GMT</pubDate>
     </item>
     <item>
-      <title>阿瑟·柯南·道尔如何通过福尔摩斯探索男性心理健康</title>
+      <title>TPU 与 GPU 以及为什么谷歌能够长期赢得人工智能竞赛</title>
+      <link>https://www.uncoveralpha.com/p/the-chip-made-for-the-ai-inference</link>
+      <description><![CDATA[文章网址：https://www.uncoveralpha.com/p/the-chip-made-for-the-ai-inference
+评论网址：https://news.ycombinator.com/item?id=46069048
+积分：5
+# 条评论：0]]></description>
+      <guid>https://www.uncoveralpha.com/p/the-chip-made-for-the-ai-inference</guid>
+      <pubDate>Thu, 27 Nov 2025 13:28:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: MkSlides – Markdown 到幻灯片，工作流程与 MkDocs 类似</title>
+      <link>https://github.com/MartenBE/mkslides</link>
+      <description><![CDATA[作为一名教师，我们将幻灯片作为 Markdown 文件保存在 git 存储库中，并希望自动构建这些文件，以便可以在线查看（或根据需要离线查看）。为了实现这一目标，我创建了 MkSlides。该工具将文件夹中的所有 Markdown 转换为使用 Reveal.js 生成的幻灯片。
+工作流程与 MkDocs 非常相似。安装：`pip install mkslides`构建幻灯片：`mkslides build`编辑期间实时预览：`mkslidesserve`与 marp、slidev、... 等其他工具比较：- 此工具是单个命令，易于集成到 CI/CD 管道中。- 只需要 Python。- 工作流程也非常类似于MkDocs，可以轻松地将两者组合到一个 GitHub/GitLab 存储库中。- 为文件夹中的多个幻灯片生成索引登录页面，如果您有例如每章一个幻灯片。- 它很轻量。- 一切都是 IaC。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46068847
+积分：4
+# 条评论：0]]></description>
+      <guid>https://github.com/MartenBE/mkslides</guid>
+      <pubDate>Thu, 27 Nov 2025 13:00:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPL 传播到 AI 模型的现状</title>
+      <link>https://shujisado.org/2025/11/27/gpl-propagates-to-ai-models-trained-on-gpl-code/</link>
+      <description><![CDATA[文章网址：https://shujisado.org/2025/11/27/gpl-propagates-to-ai-models-trained-on-gpl-code/
+评论网址：https://news.ycombinator.com/item?id=46068777
+积分：77
+评论数量：90]]></description>
+      <guid>https://shujisado.org/2025/11/27/gpl-propagates-to-ai-models-trained-on-gpl-code/</guid>
+      <pubDate>Thu, 27 Nov 2025 12:48:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>C64 洞穴.BAS</title>
+      <link>https://basic-code.bearblog.dev/c64-burrow/</link>
+      <description><![CDATA[文章网址：https://basic-code.bearblog.dev/c64-burrow/
+评论网址：https://news.ycombinator.com/item?id=46068147
+积分：17
+# 条评论：3]]></description>
+      <guid>https://basic-code.bearblog.dev/c64-burrow/</guid>
+      <pubDate>Thu, 27 Nov 2025 11:11:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>阿瑟·柯南·道尔通过夏洛克·福尔摩斯探索男性的心理健康</title>
       <link>https://scienceclock.com/arthur-conan-doyle-delved-into-mens-mental-health-through-his-sherlock-holmes-stories/</link>
       <description><![CDATA[文章网址：https://scienceclock.com/arthur-conan-doyle-delved-into-mens-mental-health-through-his-sherlock-holmes-stories/
 评论网址：https://news.ycombinator.com/item?id=46068015
-积分：39
-# 条评论：14]]></description>
+积分：105
+评论数量：96]]></description>
       <guid>https://scienceclock.com/arthur-conan-doyle-delved-into-mens-mental-health-through-his-sherlock-holmes-stories/</guid>
       <pubDate>Thu, 27 Nov 2025 10:54:02 GMT</pubDate>
     </item>
     <item>
-      <title>2D 光线行进软阴影</title>
+      <title>2D 光线行进软阴影 (2020)</title>
       <link>https://www.rykap.com/2020/09/23/distance-fields/</link>
       <description><![CDATA[文章网址：https://www.rykap.com/2020/09/23/distance-fields/
 评论网址：https://news.ycombinator.com/item?id=46066695
-积分：93
-# 条评论：13]]></description>
+积分：130
+# 条评论：20]]></description>
       <guid>https://www.rykap.com/2020/09/23/distance-fields/</guid>
       <pubDate>Thu, 27 Nov 2025 07:31:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mixpanel 安全漏洞</title>
+      <link>https://mixpanel.com/blog/sms-security-incident/</link>
+      <description><![CDATA[文章网址：https://mixpanel.com/blog/sms-security-incident/
+评论网址：https://news.ycombinator.com/item?id=46066522
+积分：104
+评论数量：75]]></description>
+      <guid>https://mixpanel.com/blog/sms-security-incident/</guid>
+      <pubDate>Thu, 27 Nov 2025 07:02:40 GMT</pubDate>
     </item>
     <item>
       <title>Linux 内核浏览器</title>
       <link>https://reverser.dev/linux-kernel-explorer</link>
       <description><![CDATA[文章网址：https://reverser.dev/linux-kernel-explorer
 评论网址：https://news.ycombinator.com/item?id=46066280
-积分：232
-# 条评论：33]]></description>
+积分：326
+# 条评论：50]]></description>
       <guid>https://reverser.dev/linux-kernel-explorer</guid>
       <pubDate>Thu, 27 Nov 2025 06:17:37 GMT</pubDate>
     </item>
@@ -50,61 +111,10 @@
       <link>https://ecmascript.news/archive/es-next-news-2025-11-26.html</link>
       <description><![CDATA[文章网址：https://ecmascript.news/archive/es-next-news-2025-11-26.html
 评论网址：https://news.ycombinator.com/item?id=46066255
-积分：26
-# 条评论：4]]></description>
+积分：42
+评论数量：9]]></description>
       <guid>https://ecmascript.news/archive/es-next-news-2025-11-26.html</guid>
       <pubDate>Thu, 27 Nov 2025 06:14:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN: Era – 用于 AI 代理的开源本地沙箱</title>
-      <link>https://github.com/BinSquare/ERA</link>
-      <description><![CDATA[刚刚观看了 ThePrimeagen (https://www.youtube.com/watch?v=efwDZw7l2Nk) 发布的这段视频，内容涉及攻击者越狱 Claude 来实施网络攻击。核心问题：AI 代理需要隔离。我们构建了 ERA 来解决这个问题 - 基于本地 microVM 的沙箱，用于具有硬件级安​​全性的 AI 生成代码。想想容器，但更安全。如果在 ERA 中运行，此类攻击不会影响您的主机。GitHub：https://github.com/BinSquare/ERA快速入门：https://github.com/BinSquare/ERA/tree/main/era-agent/tutoria...希望得到您的想法和反馈！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46065997
-积分：25
-评论数量：9]]></description>
-      <guid>https://github.com/BinSquare/ERA</guid>
-      <pubDate>Thu, 27 Nov 2025 05:28:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>耗资 9600 万澳元的 Bom 网站改造一经推出就遭遇失败</title>
-      <link>https://www.bbc.com/news/articles/c2k4dy15nqqo</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c2k4dy15nqo
-评论网址：https://news.ycombinator.com/item?id=46065870
-积分：39
-# 条评论：33]]></description>
-      <guid>https://www.bbc.com/news/articles/c2k4dy15nqqo</guid>
-      <pubDate>Thu, 27 Nov 2025 05:05:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究发现音乐可以简化手术并加速康复</title>
-      <link>https://www.bbc.com/news/articles/c231dv9zpz3o</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c231dv9zpz3o
-评论网址：https://news.ycombinator.com/item?id=46065817
-积分：98
-# 条评论：32]]></description>
-      <guid>https://www.bbc.com/news/articles/c231dv9zpz3o</guid>
-      <pubDate>Thu, 27 Nov 2025 04:55:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Coq：世界上最好的宏汇编器？ [pdf] [2013]</title>
-      <link>https://nickbenton.name/coqasm.pdf</link>
-      <description><![CDATA[文章网址：https://nickbenton.name/coqasm.pdf
-评论网址：https://news.ycombinator.com/item?id=46065698
-积分：85
-# 条评论：31]]></description>
-      <guid>https://nickbenton.name/coqasm.pdf</guid>
-      <pubDate>Thu, 27 Nov 2025 04:34:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>它是： 2026 headlis</title>
-      <link>https://blog.briancmoses.com/2025/11/diy-nas-2026-edition.html</link>
-      <description><![CDATA[文章网址：https://blog.briancmoses.com/2025/11/diy-nas-2026-edition.html
-评论网址：https://news.ycombinator.com/item?id=46065034
-积分：224
-# 条评论：109]]></description>
-      <guid>https://blog.briancmoses.com/2025/11/diy-nas-2026-edition.html</guid>
-      <pubDate>Thu, 27 Nov 2025 02:54:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
