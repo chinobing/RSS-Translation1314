@@ -4,94 +4,97 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 28 Nov 2025 06:31:53 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 09:21:11 GMT</lastBuildDate>
+    <item>
+      <title>GrapheneOS 迁出法国</title>
+      <link>https://xcancel.com/GrapheneOS/status/1993035936800584103</link>
+      <description><![CDATA[文章网址：https://xcancel.com/GrapheneOS/status/1993035936800584103
+评论网址：https://news.ycombinator.com/item?id=46076150
+积分：44
+# 条评论：32]]></description>
+      <guid>https://xcancel.com/GrapheneOS/status/1993035936800584103</guid>
+      <pubDate>Fri, 28 Nov 2025 06:43:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：用于检测带摄像头的智能眼镜的眼镜</title>
+      <link>https://github.com/NullPxl/banrays</link>
+      <description><![CDATA[嗨！最近，像 Meta Ray-bans 这样带有摄像头的智能眼镜似乎越来越流行。有些人希望移除/遮盖录音 LED 指示灯。我想看看是否有一种方法可以检测人们何时使用这些类型的眼镜进行录音，所以不久前我开始了这个项目。不过，我遇到了一些困难，所以我对想法非常开放！我在链接上写了更多内容（+照片在那里），但本质上这使用了 2 种指纹识别方法： 
+- 通过观察红外反射来观察相机传感器的回归反射率。这里的结果好坏参半。
+- 无线流量（主要是 BLE，也研究 BTC 和 wifi）对于后者，我目前只使用 ESP32，并且我可以一致地检测 Meta Raybans 何时 1) 配对、2) 首次开机、3)（不太一致）何时从充电盒中取出。当它们确实检测到某些东西时，它会在您的耳边播放一点叮当声。理想情况下，我希望能够在它们使用时检测到它们，而不仅仅是在启动时。我遇到过 nRF52840，它似乎可以跟踪初始广播之外的定向 BLE 流量，但根据我的理解，它仍然需要捕获第一个 CONNECT_REQ 事件。在蓝牙经典方面，所有硬件看起来都非常昂贵！任何想法表示赞赏。谢谢！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46075882
+积分：138
+# 条评论：42]]></description>
+      <guid>https://github.com/NullPxl/banrays</guid>
+      <pubDate>Fri, 28 Nov 2025 05:52:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何使用Linux vsock进行快速VM通信</title>
+      <link>https://popovicu.com/posts/how-to-use-linux-vsock-for-fast-vm-communication/</link>
+      <description><![CDATA[文章网址：https://popovicu.com/posts/how-to-use-linux-vsock-for-fast-vm-communication/
+评论网址：https://news.ycombinator.com/item?id=46075746
+积分：11
+# 条评论：1]]></description>
+      <guid>https://popovicu.com/posts/how-to-use-linux-vsock-for-fast-vm-communication/</guid>
+      <pubDate>Fri, 28 Nov 2025 05:19:45 GMT</pubDate>
+    </item>
     <item>
       <title>TigerStyle：专注于安全、性能、开发体验的编码哲学</title>
       <link>https://tigerstyle.dev/</link>
       <description><![CDATA[文章网址：https://tigerstyle.dev/
 评论网址：https://news.ycombinator.com/item?id=46075628
-积分：22
-# 条评论：8]]></description>
+积分：65
+# 条评论：61]]></description>
       <guid>https://tigerstyle.dev/</guid>
       <pubDate>Fri, 28 Nov 2025 04:53:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Beads – 编码代理的内存升级</title>
+      <link>https://github.com/steveyegge/beads</link>
+      <description><![CDATA[文章网址：https://github.com/steveyegge/beads
+评论网址：https://news.ycombinator.com/item?id=46075616
+积分：14
+# 条评论：1]]></description>
+      <guid>https://github.com/steveyegge/beads</guid>
+      <pubDate>Fri, 28 Nov 2025 04:50:57 GMT</pubDate>
     </item>
     <item>
       <title>迁移到 Positron，这是适用于 Python 和 R 的下一代数据科学 IDE</title>
       <link>https://posit.co/blog/positron-migration-guides</link>
       <description><![CDATA[文章网址：https://posit.co/blog/positron-migration-guides
 评论网址：https://news.ycombinator.com/item?id=46075462
-积分：11
-# 条评论：4]]></description>
+积分：28
+# 条评论：21]]></description>
       <guid>https://posit.co/blog/positron-migration-guides</guid>
       <pubDate>Fri, 28 Nov 2025 04:15:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitLab 扫描在公共仓库中发现 17,000 个秘密，获得 9000 多美元的赏金</title>
-      <link>https://trufflesecurity.com/blog/scanning-5-6-million-public-gitlab-repositories-for-secrets</link>
-      <description><![CDATA[文章网址：https://trufflesecurity.com/blog/scanning-5-6-million-public-gitlab-repositories-for-secrets
-评论网址：https://news.ycombinator.com/item?id=46075367
-积分：12
-# 条评论：4]]></description>
-      <guid>https://trufflesecurity.com/blog/scanning-5-6-million-public-gitlab-repositories-for-secrets</guid>
-      <pubDate>Fri, 28 Nov 2025 03:55:37 GMT</pubDate>
     </item>
     <item>
       <title>Pocketbase – 1 个文件中的开源实时后端</title>
       <link>https://pocketbase.io/</link>
       <description><![CDATA[文章网址：https://pocketbase.io/
 评论网址：https://news.ycombinator.com/item?id=46075320
-积分：75
-# 条评论：26]]></description>
+积分：226
+评论数：88]]></description>
       <guid>https://pocketbase.io/</guid>
       <pubDate>Fri, 28 Nov 2025 03:45:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国的纯电动卡车和柴油机主导地位的终结</title>
-      <link>https://cleantechnica.com/2025/11/26/chinas-bev-trucks-and-the-end-of-diesels-dominance/</link>
-      <description><![CDATA[文章网址：https://cleantechnica.com/2025/11/26/chinas-bev-trucks-and-the-end-of-diesels-dominance/
-评论网址：https://news.ycombinator.com/item?id=46075305
-积分：70
-# 条评论：35]]></description>
-      <guid>https://cleantechnica.com/2025/11/26/chinas-bev-trucks-and-the-end-of-diesels-dominance/</guid>
-      <pubDate>Fri, 28 Nov 2025 03:40:52 GMT</pubDate>
     </item>
     <item>
       <title>查尔斯·舒尔茨如何创造查理·布朗和史努比 (2024)</title>
       <link>https://www.bbc.com/culture/article/20241205-how-charles-m-schulz-created-charlie-brown-and-snoopy</link>
       <description><![CDATA[文章网址：https://www.bbc.com/culture/article/20241205-how-charles-m-schulz-created-charlie-brown-and-snoopy
 评论网址：https://news.ycombinator.com/item?id=46074362
-积分：110
-# 条评论：41]]></description>
+积分：130
+# 条评论：54]]></description>
       <guid>https://www.bbc.com/culture/article/20241205-how-charles-m-schulz-created-charlie-brown-and-snoopy</guid>
       <pubDate>Fri, 28 Nov 2025 00:10:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>禽流感病毒对发烧具有抵抗力，使其成为人类的主要威胁</title>
-      <link>https://medicalxpress.com/news/2025-11-bird-flu-viruses-resistant-fever.html</link>
-      <description><![CDATA[文章网址：https://medicalxpress.com/news/2025-11-bird-flu-viruses-pressive-fever.html
-评论网址：https://news.ycombinator.com/item?id=46074286
-积分：100
-# 条评论：81]]></description>
-      <guid>https://medicalxpress.com/news/2025-11-bird-flu-viruses-resistant-fever.html</guid>
-      <pubDate>Thu, 27 Nov 2025 23:57:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>ML-KEM 辟谣</title>
-      <link>https://keymaterial.net/2025/11/27/ml-kem-mythbusting/</link>
-      <description><![CDATA[文章网址：https://keymaterial.net/2025/11/27/ml-kem-mythbusting/
-评论网址：https://news.ycombinator.com/item?id=46074183
-积分：20
-# 条评论：3]]></description>
-      <guid>https://keymaterial.net/2025/11/27/ml-kem-mythbusting/</guid>
-      <pubDate>Thu, 27 Nov 2025 23:42:00 GMT</pubDate>
     </item>
     <item>
       <title>Vsora Jotunn-8 5nm欧洲推理芯片</title>
       <link>https://vsora.com/products/jotunn-8/</link>
       <description><![CDATA[文章网址：https://vsora.com/products/jotunn-8/
 评论网址：https://news.ycombinator.com/item?id=46074111
-积分：61
-# 条评论：13]]></description>
+积分：105
+# 条评论：26]]></description>
       <guid>https://vsora.com/products/jotunn-8/</guid>
       <pubDate>Thu, 27 Nov 2025 23:30:11 GMT</pubDate>
     </item>
@@ -100,8 +103,8 @@
       <link>https://www.energy-storage.news/250mwh-sand-battery-to-start-construction-in-finland-for-both-heating-and-ancillary-services/</link>
       <description><![CDATA[文章网址： https://www.energy-storage.news/250mwh-sand-battery-to-start-construction-in-finland-for-both-heating-and-ancillary-services/
 评论网址：https://news.ycombinator.com/item?id=46073855
-积分：212
-评论数：98]]></description>
+积分：251
+# 条评论：156]]></description>
       <guid>https://www.energy-storage.news/250mwh-sand-battery-to-start-construction-in-finland-for-both-heating-and-ancillary-services/</guid>
       <pubDate>Thu, 27 Nov 2025 22:48:44 GMT</pubDate>
     </item>
