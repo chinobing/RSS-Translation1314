@@ -4,117 +4,117 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 03 Dec 2025 09:26:36 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 12:45:12 GMT</lastBuildDate>
     <item>
-      <title>显示 HN：YapYap – 发布到 X/LinkedIn，无需查看时间线 (macOS)</title>
-      <link>https://news.ycombinator.com/item?id=46132119</link>
-      <description><![CDATA[公共建筑对我来说并不自然。我想得太多，对参与感到压力，迷失在时间表中。尝试过调度程序、网络拦截器、意志力 - 没有任何卡住。因此我构建了 YapYap，一个带有全局键盘快捷键的 macOS 菜单栏应用程序：
-- Option+X → X 撰写窗口（无提要）
-- Option+L → LinkedIn 撰写窗口（无摘要）
-- Cmd+Enter 发布，然后返回工作技术方法：它使用 webview 加载本机撰写 UI。没有 API 调用（避免 X 的 200 美元/月定价），我的服务器上没有存储任何数据。您的凭据保留在应用程序的沙盒会话中。网络视图会检测您何时离开撰写（发布后）并自动关闭。
-下次您按快捷方式时，它已经加载并准备就绪。堆栈：
-- 电子+Vite
-- 通过 Electron 的 globalShortcut API 的全局快捷方式
-- 持续会话，让您保持登录状态
-- 针对 macOS 的代码签名+公证
-- 通过电子更新程序自动更新一次性购买 5 欧元，仅限 macOS。https://yapyap.dev?ref=hn
+      <title>询问 HN：您是否曾因成本或不确定性而跳过申请专利？</title>
+      <link>https://news.ycombinator.com/item?id=46133780</link>
+      <description><![CDATA[我试图了解创始人、建设者和研究人员如何看待早期的知识产权决策。您是否曾经达到过选择不申请专利的地步——要么是因为成本、时间长、可专利性不明确，要么只是因为在那个阶段感觉不合理？我很好奇人们在实践中如何处理这种权衡，以及哪些因素最重要。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46132119
+评论网址：https://news.ycombinator.com/item?id=46133780
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46132119</guid>
-      <pubDate>Wed, 03 Dec 2025 09:07:46 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46133780</guid>
+      <pubDate>Wed, 03 Dec 2025 12:34:45 GMT</pubDate>
     </item>
     <item>
-      <title></title>
-      <link>https://world.hey.com/dhh/fizzy-is-our-fun-modern-take-on-kanban-and-we-made-it-free-to-self-host-54ac41b6</link>
-      <description><![CDATA[文章网址： https://world.hey.com/dhh/fizzy-is-our-fun-modern-take-on-kanban-and-we-made-it-free-to-self-host-54ac41b6
-评论网址：https://news.ycombinator.com/item?id=46132082
+      <title>IHS 的真正含义是什么？</title>
+      <link>https://www.catholicshare.com/what-does-ihs-really-mean/</link>
+      <description><![CDATA[文章网址：https://www.catholicshare.com/what-does-ihs-really-mean/
+评论网址：https://news.ycombinator.com/item?id=46133771
 积分：1
 # 条评论：0]]></description>
-      <guid>https://world.hey.com/dhh/fizzy-is-our-fun-modern-take-on-kanban-and-we-made-it-free-to-self-host-54ac41b6</guid>
-      <pubDate>Wed, 03 Dec 2025 09:01:28 GMT</pubDate>
+      <guid>https://www.catholicshare.com/what-does-ihs-really-mean/</guid>
+      <pubDate>Wed, 03 Dec 2025 12:33:33 GMT</pubDate>
     </item>
     <item>
-      <title>我们 15 岁和 17 岁，利用我们的数据科学技能构建了人工智能社交媒体管理器</title>
-      <link>https://news.ycombinator.com/item?id=46132040</link>
-      <description><![CDATA[嘿 HN，我的兄弟（Arjun Dhiman）（17 岁）和我（Akshat Dhiman）（15 岁）通过简单的“处理即可”获得了我们爸爸的业务 Instagram 和 Facebook。在此之前，我们正在研究数据科学并致力于 SMMA。我们认为我们可以应用我们的新技能。相反，我们花了几个月的时间在手工工作的战壕中：在 Canva 上为每一篇文章深夜。请求 ChatGPT 提供听起来不机械的字幕。尝试了像 Hootsuite/Buffer 这样的调度程序，并意识到它们实际上并没有创建任何东西 - 你仍然需要做所有艰苦的工作。感觉就像一个巨大的差距。我们拥有数据科学技能，那么为什么我们不能创建一个工具来智能地完成创造性工作？这就是我们构建 Wyna 的原因。它是一个人工智能社交媒体管理器，可以为您创建和发布内容。你访问过一个网站一次，之后，你每个月都会花大约 10 秒的时间告诉 Wyna“走”。它计划并生成 30 天的自定义帖子、卷轴（文案、主题标签、视觉效果、时间安排），并自动发布所有内容。对我们来说，关键是没有模板。 Wyna 旨在为每个品牌创建完全定制的视觉效果，因此 B2B SaaS 和本地健身房看起来并不相同。我们的目标是让创始人基本上忘记社交媒体，并且仍然看起来始终活跃。过去 4 个月，我们在古尔冈的卧室里建造了这个项目，从我们父亲那里得到了大约 1,100 美元的资金，同时还要兼顾学业。今天，我们推出了 Product Hunt，我们既兴奋又害怕。如果您是创始人、独立黑客，或者只是好奇，我们很乐意提供您的反馈：该产品是否解决了真正的问题，还是我们只是在抓自己的痒？我们缺少什么？欢迎提供任何残酷的反馈 - 我们在这里学习。链接： https://www.producthunt.com/products/wyna-ai-social-media-by-2-teenagers这是我们梦想的项目——利用我们在数据科学中学到的知识，构建一个真正的工具来解决实际问题。 HN 社区的任何支持或反馈对我们来说都至关重要。
+      <title>Waymo 无人驾驶出租车直接驶入洛杉矶警察局的僵局</title>
+      <link>https://www.teslarati.com/waymo-driverless-taxi-drives-directly-into-active-lapd-standoff/</link>
+      <description><![CDATA[文章网址：https://www.teslarati.com/waymo-driverless-taxi-drives-directly-into-active-lapd-standoff/
+评论网址：https://news.ycombinator.com/item?id=46133754
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.teslarati.com/waymo-driverless-taxi-drives-directly-into-active-lapd-standoff/</guid>
+      <pubDate>Wed, 03 Dec 2025 12:31:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>告诉 HN：合规不等于安全</title>
+      <link>https://news.ycombinator.com/item?id=46133753</link>
+      <description><![CDATA[十多年来，我一直从事错误赏金、安全审计和安全咨询工作。如果说我反复看到过一件事，那就是：大多数初创公司只有在距离合规截止日期只有几周或几个月时才会致电安全工程师或聘请安全机构。无论是 PCI DSS、ISO 27001、SOC 1、SOC 2，还是欧盟在 Web3 和金融科技领域推出的 MICA 和 DORA 新举措，其动机几乎总是相同的。这是一个销售阻碍，完成它！在过去几年中，我有机会咨询一些“完全合规”的初创公司，这些初创公司让我能够更深入地访问：GitHub、只读数据库访问、CI/CD 配置等。那就是事情变得有趣的时候。我在“合规”初创公司中发现了什么以下是一些真实的示例（详细信息已匿名）：1. GitHub 存储库中隐藏着秘密：
+尽管公司有专门的机密管理器，但旧的机密、代币和环境变量仍然分散在存储库中——有些多年来未曾触及。2.非工程团队在公共 Replit 中进行“氛围编码”：
+因为该公司希望“每个人都编码”，所以非工程师正在使用 ChatGPT API 密钥和 MongoDB 连接 URL 来试验公共 Repl.it 项目。
+我在数据库连接 URL 公开之前阻止了潜在的数据泄漏。3.一个公共 Docker 镜像已经存在了 5 年：
+它里面有一个旧的 Zendesk API 密钥。任何人都可以拉取它，然后访问用户 PII。4。多个未报告的漏洞：
+这些问题本来会成为严重事件，还有许多未报告的被利用问题，但他们的合规流程没有发现这些问题。然而，这家公司自豪地：“100% SOC2 合规。”并完成了企业交易。他们在 Vanta 上获得了 100% 合规性的批准。他们的主页上有 SOC 2 徽章。合规框架并非毫无用处。他们建立必要的基线，实施良好实践，并建立信任框架。他们回答这样的问题：“您有流程吗？”但他们没有回答关键问题：“您的团队现在正在遵循该流程吗？”或“昨天创新在流程之外造成了哪些混乱？”合规审计员会检查您在审计时是否拥有正确的文件、政策和控制措施。攻击者每天都会寻找错误配置、忘记凭证、废弃代码和人为错误。一家公司可以“完全合规”，但仍然只需一次错误的提交即可避免重大违规。创始人应该使用的一个简单规则
+在评估初创公司或构建自己的初创公司时：不要通过合规证书或闪亮的 100% 合规 Vanta 仪表板来判断安全性。
+通过相对于团队规模的专职安全工程师数量来判断。拥有 0-1 名安全工程师和 SOC2 证书的公司是不安全的。
+他们只是合规。安全是一项持续的努力。建立内部安全文化并聘请全职工程师比支付大牌安全机构进行恐慌审计或更糟糕的数据泄露清理费用要便宜得多。如果您已经读到这里：感谢您收听我的咆哮。如果您正在寻找安全顾问（他们关心的不仅仅是复选框），请随时与 bhattacharya.manish8@gmail.com 联系。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46132040
+评论网址：https://news.ycombinator.com/item?id=46133753
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46132040</guid>
-      <pubDate>Wed, 03 Dec 2025 08:56:08 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46133753</guid>
+      <pubDate>Wed, 03 Dec 2025 12:31:09 GMT</pubDate>
     </item>
     <item>
-      <title>Stripe 收购 Metronome</title>
-      <link>https://metronome.com/blog/important-company-update</link>
-      <description><![CDATA[文章网址：https://metronome.com/blog/important-company-update
-评论网址：https://news.ycombinator.com/item?id=46131987
+      <title>布鲁塞尔推动 70% 的关键商品“欧洲制造”</title>
+      <link>https://www.ft.com/content/b0200e50-dd3a-4e9e-8908-40ead49e7daa</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/b0200e50-dd3a-4e9e-8908-40ead49e7daa
+评论网址：https://news.ycombinator.com/item?id=46133734
 积分：3
 # 条评论：0]]></description>
-      <guid>https://metronome.com/blog/important-company-update</guid>
-      <pubDate>Wed, 03 Dec 2025 08:51:15 GMT</pubDate>
+      <guid>https://www.ft.com/content/b0200e50-dd3a-4e9e-8908-40ead49e7daa</guid>
+      <pubDate>Wed, 03 Dec 2025 12:28:55 GMT</pubDate>
     </item>
     <item>
-      <title>Zig 的异步程序新计划</title>
-      <link>https://lwn.net/SubscriberLink/1046084/6cb9e4e1fd82a90d/</link>
-      <description><![CDATA[文章网址：https://lwn.net/SubscriberLink/1046084/6cb9e4e1fd82a90d/
-评论网址：https://news.ycombinator.com/item?id=46131986
-积分：2
-# 条评论：3]]></description>
-      <guid>https://lwn.net/SubscriberLink/1046084/6cb9e4e1fd82a90d/</guid>
-      <pubDate>Wed, 03 Dec 2025 08:51:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：微型（1.8 KiB）无依赖反应路由器替代方案</title>
-      <link>https://github.com/odosui/slim-react-router</link>
-      <description><![CDATA[文章网址：https://github.com/odosui/slim-react-router
-评论网址：https://news.ycombinator.com/item?id=46131968
+      <title>AWS Lambda 宣布推出持久函数</title>
+      <link>https://aws.amazon.com/about-aws/whats-new/2025/12/lambda-durable-multi-step-applications-ai-workflows/</link>
+      <description><![CDATA[文章网址：https://aws.amazon.com/about-aws/whats-new/2025/12/lambda-durable-multi-step-applications-ai-workflows/
+评论网址：https://news.ycombinator.com/item?id=46133730
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/odosui/slim-react-router</guid>
-      <pubDate>Wed, 03 Dec 2025 08:49:32 GMT</pubDate>
+      <guid>https://aws.amazon.com/about-aws/whats-new/2025/12/lambda-durable-multi-step-applications-ai-workflows/</guid>
+      <pubDate>Wed, 03 Dec 2025 12:27:59 GMT</pubDate>
     </item>
     <item>
-      <title>德国堆栈：巴伐利亚不想买“戳中的猪”</title>
-      <link>https://www.heise.de/en/news/Deutschland-Stack-Bavaria-doesn-t-want-to-buy-a-pig-in-a-poke-11100460.html</link>
-      <description><![CDATA[文章网址： https://www.heise.de/en/news/Deutschland-Stack-Bavaria-doesn-t-want-to-buy-a-pig-in-a-poke-11100460.html
-评论网址：https://news.ycombinator.com/item?id=46131889
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.heise.de/en/news/Deutschland-Stack-Bavaria-doesn-t-want-to-buy-a-pig-in-a-poke-11100460.html</guid>
-      <pubDate>Wed, 03 Dec 2025 08:43:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Acme，改变互联网安全的协议之一的历史</title>
-      <link>https://blog.brocas.org/2025/12/01/ACME-a-brief-history-of-one-of-the-protocols-which-has-changed-the-Internet-Security/</link>
-      <description><![CDATA[文章网址： https://blog.brocas.org/2025/12/01/ACME-a-brief-history-of-one-of-the-protocols-which-has-changed-the-Internet-Security/
-评论网址：https://news.ycombinator.com/item?id=46131878
-积分：1
-# 条评论：1]]></description>
-      <guid>https://blog.brocas.org/2025/12/01/ACME-a-brief-history-of-one-of-the-protocols-which-has-changed-the-Internet-Security/</guid>
-      <pubDate>Wed, 03 Dec 2025 08:42:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>将视频转录为文本：免费且快速的转换器</title>
-      <link>https://taptranscribe.com/pt-BR</link>
-      <description><![CDATA[文章网址：https://taptranscribe.com/pt-BR
-评论网址：https://news.ycombinator.com/item?id=46131851
+      <title>Bitplane-Cursor：X 的标志性鼠标光标主题</title>
+      <link>https://bastian-frank.de/tech-blog/bitplane-cursor</link>
+      <description><![CDATA[文章网址：https://bastian-frank.de/tech-blog/bitplane-cursor
+评论网址：https://news.ycombinator.com/item?id=46133716
 积分：1
 # 条评论：0]]></description>
-      <guid>https://taptranscribe.com/pt-BR</guid>
-      <pubDate>Wed, 03 Dec 2025 08:40:57 GMT</pubDate>
+      <guid>https://bastian-frank.de/tech-blog/bitplane-cursor</guid>
+      <pubDate>Wed, 03 Dec 2025 12:26:04 GMT</pubDate>
     </item>
     <item>
-      <title>没有 ARIA 比坏 ARIA 好</title>
-      <link>https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/</link>
-      <description><![CDATA[文章网址：https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/
-评论网址：https://news.ycombinator.com/item?id=46131837
+      <title>询问 HN：可以为国际化准备代码库的合约商店</title>
+      <link>https://news.ycombinator.com/item?id=46133715</link>
+      <description><![CDATA[有人对可以为本地化/国际化准备代码库的软件合约商店有什么建议吗？他们不必自己进行翻译，只需软件即可工作。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46133715
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/</guid>
-      <pubDate>Wed, 03 Dec 2025 08:39:12 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46133715</guid>
+      <pubDate>Wed, 03 Dec 2025 12:25:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>绘制代码</title>
+      <link>https://adelbordbari.github.io/code/2025-12-03-paint-the-code/</link>
+      <description><![CDATA[文章网址：https://adelbordbari.github.io/code/2025-12-03-paint-the-code/
+评论网址：https://news.ycombinator.com/item?id=46133708
+积分：1
+# 条评论：0]]></description>
+      <guid>https://adelbordbari.github.io/code/2025-12-03-paint-the-code/</guid>
+      <pubDate>Wed, 03 Dec 2025 12:24:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>GNU 扬声器 v1.2 发布</title>
+      <link>https://www.taler.net/en/news/2025-12.html</link>
+      <description><![CDATA[文章网址：https://www.taler.net/en/news/2025-12.html
+评论网址：https://news.ycombinator.com/item?id=46133699
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.taler.net/en/news/2025-12.html</guid>
+      <pubDate>Wed, 03 Dec 2025 12:23:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
