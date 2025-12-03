@@ -4,131 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 03 Dec 2025 18:34:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 21:19:37 GMT</lastBuildDate>
     <item>
-      <title>MCP 一周年：2025 年 11 月规范发布</title>
-      <link>http://blog.modelcontextprotocol.io/posts/2025-11-25-first-mcp-anniversary/</link>
-      <description><![CDATA[文章网址：http://blog.modelcontextprotocol.io/posts/2025-11-25-first-mcp-anniversary/
-评论网址：https://news.ycombinator.com/item?id=46138056
+      <title>最后; Wayland 上 NetworkManager 真正优秀的 GUI</title>
+      <link>https://github.com/cachebag/nmrs</link>
+      <description><![CDATA[文章网址：https://github.com/cachebag/nmrs
+评论网址：https://news.ycombinator.com/item?id=46140265
 积分：1
-# 条评论：0]]></description>
-      <guid>http://blog.modelcontextprotocol.io/posts/2025-11-25-first-mcp-anniversary/</guid>
-      <pubDate>Wed, 03 Dec 2025 18:26:39 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://github.com/cachebag/nmrs</guid>
+      <pubDate>Wed, 03 Dec 2025 21:17:42 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：MemState – 用于 AI 代理的事务型类型安全内存 (SQLite/Redis)</title>
-      <link>https://github.com/scream4ik/MemState</link>
-      <description><![CDATA[我想分享 MemState，这是我为严格的代理状态管理而构建的开源库。它充当 Python 代理的类似 Git 的层：与标准向量内存不同，它强制执行 Pydantic 模式并支持事务回滚（时间旅行）以防止状态损坏。关键技术特性：
-* 严格模式：使用 Pydantic 来验证写入时的内存。如果 LLM 尝试将字符串保存到 int 字段中，则事务会在损坏发生之前失败。
-* 时间旅行：每次更改都是仅附加事务。您可以调用 memory.rollback(1) 来撤消代理的幻觉。
-* 约束：强制执行诸如单例事实之类的逻辑（例如，每个会话只有一个“用户配置文件”）。
-* 不需要向量：它使用 SQLite 的 JSON1 扩展进行结构化过滤，这对于状态查找来说速度更快且具有确定性。它包括 LangGraph 的本机检查点，因此您可以将代理线程持久保存到 SQLite 并具有完整的历史可审计性。它是开源的 (Apache 2.0)。
-很想听听您对架构的反馈！
+      <title>无需迁移的 Laravel 中的动态自定义字段：深入探讨</title>
+      <link>https://github.com/Relaticle/relaticle</link>
+      <description><![CDATA[文章网址：https://github.com/Relaticle/relaticle
+评论网址：https://news.ycombinator.com/item?id=46140263
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/Relaticle/relaticle</guid>
+      <pubDate>Wed, 03 Dec 2025 21:17:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>8086 微码浏览器</title>
+      <link>https://nand2mario.github.io/posts/2025/8086_microcode_browser/</link>
+      <description><![CDATA[文章网址：https://nand2mario.github.io/posts/2025/8086_microcode_browser/
+评论网址：https://news.ycombinator.com/item?id=46140244
+积分：1
+# 条评论：0]]></description>
+      <guid>https://nand2mario.github.io/posts/2025/8086_microcode_browser/</guid>
+      <pubDate>Wed, 03 Dec 2025 21:16:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Airena – 用于比较 68 家提供商的 AI 模型的客户端竞技场</title>
+      <link>https://github.com/andronov04/airena</link>
+      <description><![CDATA[我制作了一个工具来实时并排比较 AI 模型。选择模型（GPT-5、Claude、Gemini 等），输入提示，然后并行查看响应。完全客户端，无后端。演示：https://arena.jit.dev
+代码： https://github.com/andronov04/airena
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46138027
+评论网址：https://news.ycombinator.com/item?id=46140234
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/scream4ik/MemState</guid>
-      <pubDate>Wed, 03 Dec 2025 18:24:43 GMT</pubDate>
+      <guid>https://github.com/andronov04/airena</guid>
+      <pubDate>Wed, 03 Dec 2025 21:15:43 GMT</pubDate>
     </item>
     <item>
-      <title>黄仁勋谈乔·罗根的经历 [视频]</title>
-      <link>https://www.youtube.com/watch?v=3hptKYix4X8</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=3hptKYix4X8
-评论网址：https://news.ycombinator.com/item?id=46138017
+      <title>Meta 的儿童性交易问题</title>
+      <link>https://www.afterbabel.com/p/metas-child-sex-trafficking-problem</link>
+      <description><![CDATA[文章网址：https://www.afterbabel.com/p/metas-child-sex-trafficking-problem
+评论网址：https://news.ycombinator.com/item?id=46140229
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=3hptKYix4X8</guid>
-      <pubDate>Wed, 03 Dec 2025 18:23:45 GMT</pubDate>
+      <guid>https://www.afterbabel.com/p/metas-child-sex-trafficking-problem</guid>
+      <pubDate>Wed, 03 Dec 2025 21:15:25 GMT</pubDate>
     </item>
     <item>
-      <title>降低电力成本的三个想法</title>
-      <link>https://www.theatlantic.com/science/2025/12/electricity-costs-climate/685123/</link>
-      <description><![CDATA[文章网址：https://www.theatlantic.com/science/2025/12/electricity-costs-climate/685123/
-评论网址：https://news.ycombinator.com/item?id=46138010
+      <title>Freedom Mobile 披露数据泄露事件，导致客户数据泄露</title>
+      <link>https://www.bleepingcomputer.com/news/security/freedom-mobile-discloses-data-breach-exposing-customer-data/</link>
+      <description><![CDATA[文章网址：https://www.bleepingcomputer.com/news/security/freedom-mobile-discloses-data-breach-exusing-customer-data/
+评论网址：https://news.ycombinator.com/item?id=46140227
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theatlantic.com/science/2025/12/electricity-costs-climate/685123/</guid>
-      <pubDate>Wed, 03 Dec 2025 18:22:58 GMT</pubDate>
+      <guid>https://www.bleepingcomputer.com/news/security/freedom-mobile-discloses-data-breach-exposing-customer-data/</guid>
+      <pubDate>Wed, 03 Dec 2025 21:15:24 GMT</pubDate>
     </item>
     <item>
-      <title>C++ 枚举类和错误代码</title>
-      <link>https://mropert.github.io/2025/12/03/enum_class_error_codes_part3/</link>
-      <description><![CDATA[文章网址：https://mropert.github.io/2025/12/03/enum_class_error_codes_part3/
-评论网址：https://news.ycombinator.com/item?id=46137995
+      <title>美国父母称小猪佩奇正在让他们的孩子有英国口音 (2021)</title>
+      <link>https://www.theguardian.com/tv-and-radio/2021/jul/19/peppa-pig-american-kids-british-accents</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/tv-and-radio/2021/jul/19/peppa-pig-american-kids-british-accents
+评论网址：https://news.ycombinator.com/item?id=46140224
 积分：1
 # 条评论：0]]></description>
-      <guid>https://mropert.github.io/2025/12/03/enum_class_error_codes_part3/</guid>
-      <pubDate>Wed, 03 Dec 2025 18:21:46 GMT</pubDate>
+      <guid>https://www.theguardian.com/tv-and-radio/2021/jul/19/peppa-pig-american-kids-british-accents</guid>
+      <pubDate>Wed, 03 Dec 2025 21:15:11 GMT</pubDate>
     </item>
     <item>
-      <title>米莎·格伦尼 (Misha Glenny) 将主持 BBC 广播 4 台《我们的时代》</title>
-      <link>https://www.bbc.co.uk/mediacentre/2025/misha-glenny-in-our-time-bbc-radio-4</link>
-      <description><![CDATA[文章网址：https://www.bbc.co.uk/mediacentre/2025/misha-glenny-in-our-time-bbc-radio-4
-评论网址：https://news.ycombinator.com/item?id=46137979
+      <title>传递火炬：詹姆斯·格罗斯谈微移动行业的新篇章</title>
+      <link>https://micromobility.io/news/how-charging-is-reshaping-the-business-of-shared-scooters-and-e-bikes</link>
+      <description><![CDATA[文章网址：https://micromobility.io/news/how-charging-is-reshaping-the-business-of-shared-scooters-and-e-bikes
+评论网址：https://news.ycombinator.com/item?id=46140219
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bbc.co.uk/mediacentre/2025/misha-glenny-in-our-time-bbc-radio-4</guid>
-      <pubDate>Wed, 03 Dec 2025 18:20:40 GMT</pubDate>
+      <guid>https://micromobility.io/news/how-charging-is-reshaping-the-business-of-shared-scooters-and-e-bikes</guid>
+      <pubDate>Wed, 03 Dec 2025 21:14:54 GMT</pubDate>
     </item>
     <item>
-      <title>Azure 创新与 Mark Russinovich，MSFT Ignite 2025 [视频]</title>
-      <link>https://www.microsoft.com/en-us/research/video/inside-azure-innovations-with-mark-russinovich-microsoft-ignite-2025/</link>
-      <description><![CDATA[文章网址：https://www.microsoft.com/en-us/research/video/inside-azure-innovations-with-mark-russinovich-microsoft-ignite-2025/
-评论网址：https://news.ycombinator.com/item?id=46137977
+      <title>ThunderKittens 的 Python 绑定内部</title>
+      <link>https://www.enbao.me/posts/tk</link>
+      <description><![CDATA[文章网址：https://www.enbao.me/posts/tk
+评论网址：https://news.ycombinator.com/item?id=46140196
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.microsoft.com/en-us/research/video/inside-azure-innovations-with-mark-russinovich-microsoft-ignite-2025/</guid>
-      <pubDate>Wed, 03 Dec 2025 18:20:20 GMT</pubDate>
+      <guid>https://www.enbao.me/posts/tk</guid>
+      <pubDate>Wed, 03 Dec 2025 21:12:54 GMT</pubDate>
     </item>
     <item>
-      <title>从梦想到管道现实：Aspire Pipelines 的故事</title>
-      <link>https://devblogs.microsoft.com/aspire/aspire-pipelines/</link>
-      <description><![CDATA[文章网址：https://devblogs.microsoft.com/aspire/aspire-pipelines/
-评论网址：https://news.ycombinator.com/item?id=46137975
+      <title>HBO Max 的广告狂人呕吐场景证明“重制”并不意味着“更好”</title>
+      <link>https://www.wired.com/story/hbo-maxs-mad-men-barf-scene-proves-remastered-doesnt-mean-better/</link>
+      <description><![CDATA[文章网址：https://www.wired.com/story/hbo-maxs-mad-men-barf-scene-proves-remastered-doesnt-mean-better/
+评论网址：https://news.ycombinator.com/item?id=46140191
 积分：1
 # 条评论：0]]></description>
-      <guid>https://devblogs.microsoft.com/aspire/aspire-pipelines/</guid>
-      <pubDate>Wed, 03 Dec 2025 18:20:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Textwave – 文档版本控制（免费、仅限本地文档编辑器）</title>
-      <link>https://textwaveapp.com/</link>
-      <description><![CDATA[什么是 Textwave？Textwave 是一个基于浏览器的文档编辑器。所有数据都存储在浏览器中（本地存储和IndexedDB）。目前这对我来说是一个副项目。
-主要区别在于版本系统。 
-典型的编辑器只有一个版本列表。从版本 5 返回到版本 2，编辑某些内容并创建新版本，将作为版本 6 附加到列表中。
-Textwave的版本系统更接近git（尽管不一样）。它允许您返回、编辑并在所选版本的正下方创建新版本。基本上它会创建一个新分支。当前功能（超出正常文档编辑范围）
-* 意见、建议和回复
-* 创建/重命名/删除版本
-* 显示对先前版本添加/删除的单词
-* 悬停预览版本
-* 导出为 Markdown 和 HTML（使用 base64 内嵌图像）
-* 通过JSON导出和导入文档
-* 浅色和深色模式我为什么要开发它？我想要一些版本感觉比我习惯的基于网络的编辑器更轻的东西。当我写一篇文章时，我想创建一个不张扬的版本。类似于我在创建 git 提交时所习惯的。与其他编辑器一起创建版本感觉非常沉重。另一个目标是保留所有历史记录，这样我就不需要为所有内容创建版本。我所做的每项更改都应该是可恢复的。 
-我经常写一些我认为以后可能有用的东西，但现在不行。这样我就可以随时恢复它。
-Textwave 目前已经存储了所有更改，但尚未在 UI 中公开它们。未来有什么计划？有几个问题需要解决。
-我想添加的更大功能（如果时间允许）是
-* 使其可以在移动设备上使用
-* 快捷方式
-* 显示完整的编辑历史记录
-* 人工智能集成（例如突出显示文本并要求单独的短语、风格检查器、研究助理 - 选项是无穷无尽的），并带有您自己的 API 密钥我也喜欢计算“信息密度”等指标，但对此不太确定。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46137966
-积分：1
-# 条评论：0]]></description>
-      <guid>https://textwaveapp.com/</guid>
-      <pubDate>Wed, 03 Dec 2025 18:19:58 GMT</pubDate>
-    </item>
-    <item>
-      <title></title>
-      <link>https://microlandia.city</link>
-      <description><![CDATA[这一切都始于一个实验，看看我是否可以构建一个大量使用 Deno 及其 SQLite 驱动程序的游戏。在“你在做什么？”中分享了早期构建之后在这里，我得到了改进它并为 Steam 制作 1.0 版本所需的鼓励。这就是 Microlandia，一款受 SimCity Classic 启发的游戏，其参数来自现实生活数据集、统计数据和研究。它还引入了其他游戏中方便隐藏的方面（例如无家可归），我的计划是无限期地继续更新、扩展和完善模型。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46137953
-积分：1
-# 条评论：0]]></description>
-      <guid>https://microlandia.city</guid>
-      <pubDate>Wed, 03 Dec 2025 18:18:23 GMT</pubDate>
+      <guid>https://www.wired.com/story/hbo-maxs-mad-men-barf-scene-proves-remastered-doesnt-mean-better/</guid>
+      <pubDate>Wed, 03 Dec 2025 21:12:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
