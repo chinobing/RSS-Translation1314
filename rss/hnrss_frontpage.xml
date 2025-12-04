@@ -4,14 +4,88 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 03 Dec 2025 21:19:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 01:40:31 GMT</lastBuildDate>
+    <item>
+      <title>Kea DHCP：现代开源 DHCPv4 和 DHCPv6 服务器</title>
+      <link>https://www.isc.org/kea/</link>
+      <description><![CDATA[文章网址：https://www.isc.org/kea/
+评论网址：https://news.ycombinator.com/item?id=46142000
+积分：23
+# 条评论：7]]></description>
+      <guid>https://www.isc.org/kea/</guid>
+      <pubDate>Wed, 03 Dec 2025 23:58:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Acme，改变互联网的协议之一的简史</title>
+      <link>https://blog.brocas.org/2025/12/01/ACME-a-brief-history-of-one-of-the-protocols-which-has-changed-the-Internet-Security/</link>
+      <description><![CDATA[文章网址： https://blog.brocas.org/2025/12/01/ACME-a-brief-history-of-one-of-the-protocols-which-has-changed-the-Internet-Security/
+评论网址：https://news.ycombinator.com/item?id=46141745
+积分：41
+# 条评论：17]]></description>
+      <guid>https://blog.brocas.org/2025/12/01/ACME-a-brief-history-of-one-of-the-protocols-which-has-changed-the-Internet-Security/</guid>
+      <pubDate>Wed, 03 Dec 2025 23:28:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>苹果为什么不推出独立的 Touch ID？</title>
+      <link>https://www.jeffgeerling.com/blog/2025/why-doesnt-apple-make-standalone-touch-id</link>
+      <description><![CDATA[文章网址：https://www.jeffgeerling.com/blog/2025/why-doesnt-apple-make-standalone-touch-id
+评论网址：https://news.ycombinator.com/item?id=46141429
+积分：10
+# 条评论：3]]></description>
+      <guid>https://www.jeffgeerling.com/blog/2025/why-doesnt-apple-make-standalone-touch-id</guid>
+      <pubDate>Wed, 03 Dec 2025 22:55:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>家猫与男性看护者打招呼的频率更高</title>
+      <link>https://onlinelibrary.wiley.com/doi/10.1111/eth.70033</link>
+      <description><![CDATA[文章网址：https://onlinelibrary.wiley.com/doi/10.1111/eth.70033
+评论网址：https://news.ycombinator.com/item?id=46140753
+积分：49
+# 条评论：36]]></description>
+      <guid>https://onlinelibrary.wiley.com/doi/10.1111/eth.70033</guid>
+      <pubDate>Wed, 03 Dec 2025 21:56:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>8086 微码浏览器</title>
+      <link>https://nand2mario.github.io/posts/2025/8086_microcode_browser/</link>
+      <description><![CDATA[文章网址：https://nand2mario.github.io/posts/2025/8086_microcode_browser/
+评论网址：https://news.ycombinator.com/item?id=46140244
+积分：38
+# 条评论：0]]></description>
+      <guid>https://nand2mario.github.io/posts/2025/8086_microcode_browser/</guid>
+      <pubDate>Wed, 03 Dec 2025 21:16:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>C 中的检查大小数组参数</title>
+      <link>https://lwn.net/SubscriberLink/1046840/3eb9029084cc9e1e/</link>
+      <description><![CDATA[文章网址：https://lwn.net/SubscriberLink/1046840/3eb9029084cc9e1e/
+评论网址：https://news.ycombinator.com/item?id=46139782
+积分：46
+# 条评论：21]]></description>
+      <guid>https://lwn.net/SubscriberLink/1046840/3eb9029084cc9e1e/</guid>
+      <pubDate>Wed, 03 Dec 2025 20:37:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我构建了一个仪表板来比较 120 个信用合作社的抵押贷款利率</title>
+      <link>https://finfam.app/blog/credit-union-mortgages</link>
+      <description><![CDATA[当我买房时，我使用多年的大银行给我的年利率是 7%。当地信用合作社为完全相同的抵押贷款提供 5.5% 的利率。我很惊讶，直到我了解到抵押贷款基本上是标准化产品 - 政府几乎购买所有这些产品（请参阅 Bits About Money：https://www.bitsaboutmoney.com/archive/mortgages-are-a-manuf...）。那么支付的差价是多少呢？最近彭博社 Odd Lot 的一集表明，它主要是广告和营销 (https://www.bloomberg.com/news/audio/2025-11-28/odd-lots-thi...）。信用合作社是非营利组织，没有大量的营销预算，因此他们可以将这些节省下来的钱转嫁给别人，但很多人并不了解他们。我构建了这个仪表板，以便更轻松地进行货比三家。我从 120 多个信用合作社网站上提取公开利率，并与每周的 FRED 国家基准进行比较。功能：- 按贷款类型（30 年/15 年等）、资格（具体来说最难的部分）和利率类型进行筛选
+- 具有 refi 模式的付款计算器（CU 可能比大型贷方慢一点，但这使得它们非常适合 refi）
+- 每个 CU 费率页面和资格要求的链接
+- 切换显示/隐藏统计异常值在撰写本文时，平均 CU 率为 5.91%，而全国平均水平为 6.23%。 50 万美元贷款的总利息差异约为 3.7 万美元。我实际上使用seaborn来可视化针对四大银行的利差：https://www.reddit.com/r/dataisbeautiful/comments/1pcj9t7/oc...Stack：Python 用于数据/后端，Svelte/SvelteKit 用于前端。无需注册、无广告、无推荐费。很乐意回答有关方法的问题或添加人们建议的 CU。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46139761
+积分：109
+# 条评论：42]]></description>
+      <guid>https://finfam.app/blog/credit-union-mortgages</guid>
+      <pubDate>Wed, 03 Dec 2025 20:35:27 GMT</pubDate>
+    </item>
     <item>
       <title>西雅图的每个人都讨厌人工智能</title>
       <link>https://jonready.com/blog/posts/everyone-in-seattle-hates-ai.html</link>
       <description><![CDATA[文章网址：https://jonready.com/blog/posts/everyone-in-seattle-hates-ai.html
 评论网址：https://news.ycombinator.com/item?id=46138952
-积分：216
-# 条评论：199]]></description>
+积分：569
+# 条评论：531]]></description>
       <guid>https://jonready.com/blog/posts/everyone-in-seattle-hates-ai.html</guid>
       <pubDate>Wed, 03 Dec 2025 19:37:25 GMT</pubDate>
     </item>
@@ -20,8 +94,8 @@
       <link>https://www.quantamagazine.org/what-are-lie-groups-20251203/</link>
       <description><![CDATA[文章网址：https://www.quantamagazine.org/what-are-lie-groups-20251203/
 评论网址：https://news.ycombinator.com/item?id=46138632
-积分：41
-# 条评论：12]]></description>
+积分：86
+# 条评论：32]]></description>
       <guid>https://www.quantamagazine.org/what-are-lie-groups-20251203/</guid>
       <pubDate>Wed, 03 Dec 2025 19:12:40 GMT</pubDate>
     </item>
@@ -30,78 +104,10 @@
       <link>https://mitchellh.com/writing/ghostty-non-profit</link>
       <description><![CDATA[文章网址：https://mitchellh.com/writing/ghostty-non-profit
 评论网址：https://news.ycombinator.com/item?id=46138238
-积分：410
-# 条评论：79]]></description>
+积分：738
+评论数：146]]></description>
       <guid>https://mitchellh.com/writing/ghostty-non-profit</guid>
       <pubDate>Wed, 03 Dec 2025 18:40:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Dijkstra 的程序构造形式化验证代码的出现</title>
-      <link>https://haripm.com/blog/aoc-day-3-without-thinking/</link>
-      <description><![CDATA[文章网址：https://haripm.com/blog/aoc-day-3-without-thinking/
-评论网址：https://news.ycombinator.com/item?id=46138226
-积分：10
-# 条评论：0]]></description>
-      <guid>https://haripm.com/blog/aoc-day-3-without-thinking/</guid>
-      <pubDate>Wed, 03 Dec 2025 18:39:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>美光宣布退出关键消费业务</title>
-      <link>https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business</link>
-      <description><![CDATA[文章网址：https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business
-评论网址：https://news.ycombinator.com/item?id=46137783
-积分：96
-# 条评论：21]]></description>
-      <guid>https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business</guid>
-      <pubDate>Wed, 03 Dec 2025 18:04:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过诗歌即时注入</title>
-      <link>https://www.wired.com/story/poems-can-trick-ai-into-helping-you-make-a-nuclear-weapon/</link>
-      <description><![CDATA[https://archive.ph/RlKoj
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46137746
-积分：35
-# 条评论：22]]></description>
-      <guid>https://www.wired.com/story/poems-can-trick-ai-into-helping-you-make-a-nuclear-weapon/</guid>
-      <pubDate>Wed, 03 Dec 2025 18:01:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>启动 HN：Phind 3 (YC S22) – 每个答案都是一个迷你应用程序</title>
-      <link>https://news.ycombinator.com/item?id=46137548</link>
-      <description><![CDATA[]]></description>
-      <guid>https://news.ycombinator.com/item?id=46137548</guid>
-      <pubDate>Wed, 03 Dec 2025 17:47:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>对价值 10 亿美元的合法 AI 工具进行逆向工程，暴露了 10 万多个机密文件</title>
-      <link>https://alexschapiro.com/security/vulnerability/2025/12/02/filevine-api-100k</link>
-      <description><![CDATA[文章网址：https://alexschapiro.com/security/vulnerability/2025/12/02/filevine-api-100k
-评论网址：https://news.ycombinator.com/item?id=46137514
-积分：297
-# 条评论：83]]></description>
-      <guid>https://alexschapiro.com/security/vulnerability/2025/12/02/filevine-api-100k</guid>
-      <pubDate>Wed, 03 Dec 2025 17:44:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>发现一维康威生命滑翔机，长 3.7B 细胞</title>
-      <link>https://conwaylife.com/forums/viewtopic.php?&p=222136#p222136</link>
-      <description><![CDATA[文章网址：https://conwaylife.com/forums/viewtopic.php?&amp;p=222136#p222136
-评论网址：https://news.ycombinator.com/item?id=46137253
-积分：205
-# 条评论：67]]></description>
-      <guid>https://conwaylife.com/forums/viewtopic.php?&p=222136#p222136</guid>
-      <pubDate>Wed, 03 Dec 2025 17:24:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rocketable (YC W25) 正在招聘一名创始工程师来实现软件公司的自动化</title>
-      <link>https://www.ycombinator.com/companies/rocketable/jobs/CArgzmX-founding-engineer-automation-platform</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/rocketable/jobs/CArgzmX-founding-engineer-automation-platform
-评论网址：https://news.ycombinator.com/item?id=46136918
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/rocketable/jobs/CArgzmX-founding-engineer-automation-platform</guid>
-      <pubDate>Wed, 03 Dec 2025 17:01:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
