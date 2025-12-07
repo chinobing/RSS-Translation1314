@@ -4,120 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 07 Dec 2025 09:20:36 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Dec 2025 12:37:44 GMT</lastBuildDate>
     <item>
-      <title>艾伦·戴伊是蒂姆·库克的盲点</title>
-      <link>https://daringfireball.net/2025/12/dye_cook_blind_spot</link>
-      <description><![CDATA[文章网址：https://daringfireball.net/2025/12/dye_cook_blind_spot
-评论网址：https://news.ycombinator.com/item?id=46180320
+      <title>LZAV 5.7：增强的压缩、速度、C++ 合规性和基准结果</title>
+      <link>https://github.com/avaneev/lzav</link>
+      <description><![CDATA[文章网址：https://github.com/avaneev/lzav
+评论网址：https://news.ycombinator.com/item?id=46181240
 积分：1
 # 条评论：0]]></description>
-      <guid>https://daringfireball.net/2025/12/dye_cook_blind_spot</guid>
-      <pubDate>Sun, 07 Dec 2025 09:15:05 GMT</pubDate>
+      <guid>https://github.com/avaneev/lzav</guid>
+      <pubDate>Sun, 07 Dec 2025 12:25:56 GMT</pubDate>
     </item>
     <item>
-      <title>染色工作不好</title>
-      <link>https://daringfireball.net/2025/12/bad_dye_job</link>
-      <description><![CDATA[文章网址：https://daringfireball.net/2025/12/bad_dye_job
-评论网址：https://news.ycombinator.com/item?id=46180306
+      <title>19号航班的失踪如何助长了百慕大三角的传奇</title>
+      <link>https://www.smithsonianmag.com/history/how-the-disappearance-of-flight-19-a-navy-squadron-lost-in-1945-fueled-the-legend-of-the-bermuda-triangle-180987759/</link>
+      <description><![CDATA[文章网址： https://www.smithsonianmag.com/history/how-the-disappearance-of-flight-19-a-navy-squadron-lost-in-1945-fueled-the-legend-of-the-bermuda-triangle-180987759/
+评论网址：https://news.ycombinator.com/item?id=46181237
 积分：1
 # 条评论：0]]></description>
-      <guid>https://daringfireball.net/2025/12/bad_dye_job</guid>
-      <pubDate>Sun, 07 Dec 2025 09:12:02 GMT</pubDate>
+      <guid>https://www.smithsonianmag.com/history/how-the-disappearance-of-flight-19-a-navy-squadron-lost-in-1945-fueled-the-legend-of-the-bermuda-triangle-180987759/</guid>
+      <pubDate>Sun, 07 Dec 2025 12:25:04 GMT</pubDate>
     </item>
     <item>
-      <title>2025 年虚拟细胞挑战赛总结：获奖者和反思</title>
-      <link>https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up</link>
-      <description><![CDATA[文章网址：https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up
-评论网址：https://news.ycombinator.com/item?id=46180305
+      <title>超写实石墨手表图纸</title>
+      <link>https://sinzianaiordache.com/</link>
+      <description><![CDATA[文章网址：https://sinzianaiordache.com/
+评论网址：https://news.ycombinator.com/item?id=46181233
+积分：1
+# 条评论：1]]></description>
+      <guid>https://sinzianaiordache.com/</guid>
+      <pubDate>Sun, 07 Dec 2025 12:23:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>谷歌泰坦架构，帮助AI拥有长期记忆</title>
+      <link>https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/</link>
+      <description><![CDATA[文章网址：https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/
+评论网址：https://news.ycombinator.com/item?id=46181231
 积分：1
 # 条评论：0]]></description>
-      <guid>https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up</guid>
-      <pubDate>Sun, 07 Dec 2025 09:11:54 GMT</pubDate>
+      <guid>https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/</guid>
+      <pubDate>Sun, 07 Dec 2025 12:23:45 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：AI Paul Graham</title>
-      <link>https://www.paulgraham-nia.com/</link>
-      <description><![CDATA[我构建了 Paul Graham 的 AI 版本，完全由 Nia API 提供支持。* Nia 通过索引整个代码库、文档和包为编码代理提供准确的上下文。它通过让代理检索真实来源信息而不是猜测来修复幻觉。开发人员的交付速度更快，因为人工智能可以读取和理解他们的实际项目。这是 Nia 的一个不同用例，但显然它也有效。您可以与它聊天并提出任何问题，因为它可以访问 Nia 的知识库，该知识库索引了他的所有个人论文。该代理能够调用直接使用 Nia API 的多个工具：• NiaWebSearch - 搜索网络
-• searchEssays - 对所有论文进行语义搜索
-• browserEssays - 显示完整的论文树
-• listDirectory - 列出路径中的文章
-• readEssay - 阅读完整的论文内容
-• grepEssays - 正则表达式模式搜索
-• getSourceContent - 通过标识符模型检索完整源代码：
-人类/克劳德十四行诗-4.5
-Moonshotai/kimi-k2-thinking
-xai/grok-4-快速推理
-alibaba/qwen3-vl-thinking完全免费且开源。尝试一下：https://www.paulgraham-nia.com/
-代码： https://github.com/nozomio-labs/paulgraham-ai
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46180304
+      <title>我们测试人工智能智能的方式是否错误？</title>
+      <link>https://spectrum.ieee.org/melanie-mitchell</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/melanie-mitchell
+评论网址：https://news.ycombinator.com/item?id=46181225
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.paulgraham-nia.com/</guid>
-      <pubDate>Sun, 07 Dec 2025 09:11:49 GMT</pubDate>
+      <guid>https://spectrum.ieee.org/melanie-mitchell</guid>
+      <pubDate>Sun, 07 Dec 2025 12:21:47 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Quirky – 真人服务器监控</title>
-      <link>https://github.com/quirky-dev/quirky</link>
-      <description><![CDATA[我需要一个简单的服务器监控和通知工具，但我对 grafana（或替代品）并不满意。看到此线程后：https://news.ycombinator.com/item?id=45934940，我决定构建自己的。仍处于早期阶段，但您可以使用可组合步骤（http_get、compare_timestamp 等）定义检查，并且可以使用任何可以返回的语言编写自定义检查json.后端是用 haskell 编写的，因此现在尝试它的最简单方法是使用 nix：
-  nix run .#quirky -- Examples/demo.yaml然后你就可以在 http://localhost:9855 上看到仪表板
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46180296
+      <title>突破性DNA修复药物可以治愈组织损伤</title>
+      <link>https://newatlas.com/heart-disease/drug-dna-repair-heart/</link>
+      <description><![CDATA[文章网址：https://newatlas.com/heart-disease/drug-dna-repair-heart/
+评论网址：https://news.ycombinator.com/item?id=46181221
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/quirky-dev/quirky</guid>
-      <pubDate>Sun, 07 Dec 2025 09:08:04 GMT</pubDate>
+      <guid>https://newatlas.com/heart-disease/drug-dna-repair-heart/</guid>
+      <pubDate>Sun, 07 Dec 2025 12:21:15 GMT</pubDate>
     </item>
     <item>
-      <title>结构 Sockaddr 续集</title>
-      <link>https://lwn.net/Articles/1045453/</link>
-      <description><![CDATA[文章网址：https://lwn.net/Articles/1045453/
-评论网址：https://news.ycombinator.com/item?id=46180291
-积分：1
-# 条评论：0]]></description>
-      <guid>https://lwn.net/Articles/1045453/</guid>
-      <pubDate>Sun, 07 Dec 2025 09:06:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>华尔街投资者从玩游戏中获得什么</title>
-      <link>https://www.bloomberg.com/features/2025-games-wall-street-plays/</link>
-      <description><![CDATA[文章网址：https://www.bloomberg.com/features/2025-games-wall-street-plays/
-评论网址：https://news.ycombinator.com/item?id=46180275
+      <title>科技精英正在建立自己的营利性城市</title>
+      <link>https://www.ft.com/content/b127ee7a-5ac4-4730-a395-c9f9619615c7</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/b127ee7a-5ac4-4730-a395-c9f9619615c7
+评论网址：https://news.ycombinator.com/item?id=46181207
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.bloomberg.com/features/2025-games-wall-street-plays/</guid>
-      <pubDate>Sun, 07 Dec 2025 09:02:58 GMT</pubDate>
+      <guid>https://www.ft.com/content/b127ee7a-5ac4-4730-a395-c9f9619615c7</guid>
+      <pubDate>Sun, 07 Dec 2025 12:17:34 GMT</pubDate>
     </item>
     <item>
-      <title>KJS：JavaScript 的完整形式语义</title>
-      <link>https://github.com/kframework/javascript-semantics</link>
-      <description><![CDATA[文章网址：https://github.com/kframework/javascript-semantics
-评论网址：https://news.ycombinator.com/item?id=46180273
+      <title>Show HN：员工会不断离开，直到你培养他们。如何？</title>
+      <link>https://semis.reispar.com</link>
+      <description><![CDATA[文章网址：https://semis.reispar.com
+评论网址：https://news.ycombinator.com/item?id=46181199
+积分：1
+# 条评论：1]]></description>
+      <guid>https://semis.reispar.com</guid>
+      <pubDate>Sun, 07 Dec 2025 12:15:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>MI300X vs. H100 vs. H200 基准测试第 1 部分：训练</title>
+      <link>https://newsletter.semianalysis.com/p/mi300x-vs-h100-vs-h200-benchmark-part-1-training</link>
+      <description><![CDATA[文章网址：https://newsletter.semianalysis.com/p/mi300x-vs-h100-vs-h200-benchmark-part-1-training
+评论网址：https://news.ycombinator.com/item?id=46181171
 积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/kframework/javascript-semantics</guid>
-      <pubDate>Sun, 07 Dec 2025 09:02:38 GMT</pubDate>
+      <guid>https://newsletter.semianalysis.com/p/mi300x-vs-h100-vs-h200-benchmark-part-1-training</guid>
+      <pubDate>Sun, 07 Dec 2025 12:10:25 GMT</pubDate>
     </item>
     <item>
-      <title>GitHub 商店</title>
-      <link>https://thegithubshop.com/</link>
-      <description><![CDATA[文章网址：https://thegithubshop.com/
-评论网址：https://news.ycombinator.com/item?id=46180271
+      <title>基于 Nostr 的大型科技替代品</title>
+      <link>https://noalt.app/</link>
+      <description><![CDATA[文章网址：https://noalt.app/
+评论网址：https://news.ycombinator.com/item?id=46181144
 积分：1
 # 条评论：0]]></description>
-      <guid>https://thegithubshop.com/</guid>
-      <pubDate>Sun, 07 Dec 2025 09:02:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sega Mega Drive 的 Tanglewood – 采访 Matt Phillips [视频]</title>
-      <link>https://www.youtube.com/watch?v=5xIQoGaKYYA</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=5xIQoGaKYYA
-评论网址：https://news.ycombinator.com/item?id=46180246
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=5xIQoGaKYYA</guid>
-      <pubDate>Sun, 07 Dec 2025 08:57:34 GMT</pubDate>
+      <guid>https://noalt.app/</guid>
+      <pubDate>Sun, 07 Dec 2025 12:04:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
