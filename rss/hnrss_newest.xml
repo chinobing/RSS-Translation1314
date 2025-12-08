@@ -4,106 +4,128 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 08 Dec 2025 06:35:40 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 09:28:56 GMT</lastBuildDate>
     <item>
-      <title>Kinesis 优势2</title>
-      <link>https://danishpraka.sh/posts/kinesis-advantage2/</link>
-      <description><![CDATA[文章网址：https://danishpraka.sh/posts/kinesis-advantage2/
-评论网址：https://news.ycombinator.com/item?id=46189045
+      <title>如果您必须控制在社交媒体上看到的内容，您的信息流会是什么样子？</title>
+      <link>https://www.abc.net.au/news/2025-12-08/chanel-contos-teach-us-consent-fix-our-feed/106107546</link>
+      <description><![CDATA[文章网址： https://www.abc.net.au/news/2025-12-08/chanel-contos-teach-us-consent-fix-our-feed/106107546
+评论网址：https://news.ycombinator.com/item?id=46190125
 积分：1
 # 条评论：0]]></description>
-      <guid>https://danishpraka.sh/posts/kinesis-advantage2/</guid>
-      <pubDate>Mon, 08 Dec 2025 06:25:11 GMT</pubDate>
+      <guid>https://www.abc.net.au/news/2025-12-08/chanel-contos-teach-us-consent-fix-our-feed/106107546</guid>
+      <pubDate>Mon, 08 Dec 2025 09:15:24 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Peargent – 用于构建 AI 代理的简单 Python 框架</title>
-      <link>https://github.com/Quanta-Naut/peargent</link>
-      <description><![CDATA[文章网址：https://github.com/Quanta-Naut/peargent
-评论网址：https://news.ycombinator.com/item?id=46189026
+      <title>高效 LED 背后被忽视的工程</title>
+      <link>https://news.ycombinator.com/item?id=46190100</link>
+      <description><![CDATA[LED 灯泡感觉很简单，但其背后的物理和材料科学却出奇地复杂。从散热挑战到驱动电路和荧光粉质量，微小的设计选择都会极大地影响使用寿命和色彩准确性。很好奇这里的其他人认为 LED 技术在未来十年将如何发展，尤其是在效率和 micro-LED 应用方面。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46190100
 积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/Quanta-Naut/peargent</guid>
-      <pubDate>Mon, 08 Dec 2025 06:22:17 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=46190100</guid>
+      <pubDate>Mon, 08 Dec 2025 09:12:10 GMT</pubDate>
     </item>
     <item>
-      <title>印度3岁男​​孩成史上最年轻国际象棋棋手</title>
-      <link>https://www.nytimes.com/athletic/6869534/2025/12/07/youngest-chess-player-age-india/</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/athletic/6869534/2025/12/07/youngest-chess-player-age-india/
-评论网址：https://news.ycombinator.com/item?id=46189022
+      <title>Show HN：Bat‑KV – 用于 Windows 批处理脚本的小型单文件 KV 数据库</title>
+      <link>https://github.com/Water-Run/Bat-KV</link>
+      <description><![CDATA[Windows Batch (BAT) 以其有限的功能和复古的语法而闻名，以至于即使是基本的持久存储也缺乏简单、通用的工具。
+顾名思义，Bat-KV 是一个微型“BAT 库”，提供最简单的持久层：存储在自定义纯文本 .bkv 文件中的基本 CRUD 操作。它是超轻量级的（整个项目只有 346 行 — 对于法学硕士来说微不足道），并且非常易于使用。只需从 GitHub 发布页面 (https://github.com/Water-Run/Bat-KV/releases/tag/Bat-KV) 下载它，将其放入脚本目录中，然后“导入”即可。这是一个最小的示例：batch
+@回声关闭
+REM 最小 Bat-KV 使用示例REM 创建数据库
+调用 Bat-KV.bat :BKV.New
+echo 创建数据库：%BKV_STATUS%REM 添加数据
+call Bat-KV.bat :BKV.Append &quot;name&quot; &quot;Alice&quot;
+调用 Bat-KV.bat :BKV.Append &quot;年龄&quot; &quot;25&quot;
+call Bat-KV.bat :BKV.Append &quot;城市&quot; &quot;北京&quot;REM 读取数据
+call Bat-KV.bat :BKV.Fetch &quot;name&quot;
+echo 名称: %BKV_RESULT%call Bat-KV.bat :BKV.Fetch &quot;age&quot;
+echo Age: %BKV_RESULT%REM 检查数据是否存在
+调用 Bat-KV.bat :BKV.Include &quot;email&quot;
+如果“%BKV_RESULT%”==“否”（
+    echo 电子邮件未设置，正在添加默认值...
+    调用 Bat-KV.bat :BKV.Append &quot;email&quot; &quot;alice@example.com&quot;
+)REM 删除数据
+调用 Bat-KV.bat :BKV.删除“城市”
+echo 删除城市：%BKV_STATUS%pause该存储库还包括一个测试程序和一个简单的 DBMS，以及帮助您快速入门的详细文档。
+如果这个小项目对你有用，请考虑留下一个star来支持它:)
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46190098
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/Water-Run/Bat-KV</guid>
+      <pubDate>Mon, 08 Dec 2025 09:11:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>中兴努比亚M153运行字节跳动的豆宝AI Agent</title>
+      <link>https://twitter.com/TaylorOgan/status/1996538308697137277</link>
+      <description><![CDATA[文章网址：https://twitter.com/TaylorOgan/status/1996538308697137277
+评论网址：https://news.ycombinator.com/item?id=46190074
 积分：2
-# 条评论：1]]></description>
-      <guid>https://www.nytimes.com/athletic/6869534/2025/12/07/youngest-chess-player-age-india/</guid>
-      <pubDate>Mon, 08 Dec 2025 06:21:58 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://twitter.com/TaylorOgan/status/1996538308697137277</guid>
+      <pubDate>Mon, 08 Dec 2025 09:08:46 GMT</pubDate>
     </item>
     <item>
-      <title>芬尼克斯</title>
-      <link>https://en.wikipedia.org/wiki/Finnix</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Finnix
-评论网址：https://news.ycombinator.com/item?id=46189011
-积分：1
-# 条评论：1]]></description>
-      <guid>https://en.wikipedia.org/wiki/Finnix</guid>
-      <pubDate>Mon, 08 Dec 2025 06:20:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>从 1975 年到 2024 年医学出版物被撤回的五十年</title>
-      <link>https://jkms.org/DOIx.php?id=10.3346/jkms.2025.40.e300</link>
-      <description><![CDATA[文章网址：https://jkms.org/DOIx.php?id=10.3346/jkms.2025.40.e300
-评论网址：https://news.ycombinator.com/item?id=46189005
+      <title>Netflix 荣获好莱坞最高奖项</title>
+      <link>https://techcentral.co.za/how-netflix-won-hollywoods-biggest-prize/275319/</link>
+      <description><![CDATA[文章网址：https://techcentral.co.za/how-netflix-won-hollywoods-biggest-prize/275319/
+评论网址：https://news.ycombinator.com/item?id=46190072
 积分：1
 # 条评论：0]]></description>
-      <guid>https://jkms.org/DOIx.php?id=10.3346/jkms.2025.40.e300</guid>
-      <pubDate>Mon, 08 Dec 2025 06:19:54 GMT</pubDate>
+      <guid>https://techcentral.co.za/how-netflix-won-hollywoods-biggest-prize/275319/</guid>
+      <pubDate>Mon, 08 Dec 2025 09:08:36 GMT</pubDate>
     </item>
     <item>
-      <title>苹果在最新的人事变动中任命 Meta Lawyer 为总法律顾问</title>
-      <link>https://www.bloomberg.com/news/articles/2025-12-04/apple-taps-top-meta-lawyer-as-general-counsel-in-latest-shake-up</link>
-      <description><![CDATA[文章网址： https://www.bloomberg.com/news/articles/2025-12-04/apple-taps-top-meta-lawyer-as-general-counsel-in-latest-shake-up
-评论网址：https://news.ycombinator.com/item?id=46188943
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2025-12-04/apple-taps-top-meta-lawyer-as-general-counsel-in-latest-shake-up</guid>
-      <pubDate>Mon, 08 Dec 2025 06:09:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>估计嘈杂时间序列中某一点的趋势</title>
-      <link>https://github.com/finite-sample/incline</link>
-      <description><![CDATA[文章网址：https://github.com/finite-sample/incline
-评论网址：https://news.ycombinator.com/item?id=46188935
+      <title>为什么人工智能编码代理尚未做好生产准备</title>
+      <link>https://venturebeat.com/ai/why-ai-coding-agents-arent-production-ready-brittle-context-windows-broken</link>
+      <description><![CDATA[文章网址：https://venturebeat.com/ai/why-ai-coding-agents-arent-product-ready-brittle-context-windows-broken
+评论网址：https://news.ycombinator.com/item?id=46190056
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/finite-sample/incline</guid>
-      <pubDate>Mon, 08 Dec 2025 06:08:49 GMT</pubDate>
+      <guid>https://venturebeat.com/ai/why-ai-coding-agents-arent-production-ready-brittle-context-windows-broken</guid>
+      <pubDate>Mon, 08 Dec 2025 09:06:36 GMT</pubDate>
     </item>
     <item>
-      <title>发布恶意 VS Code 扩展：绕过 VS Code 市场分析</title>
-      <link>https://mazinahmed.net/blog/publishing-malicious-vscode-extensions/</link>
-      <description><![CDATA[文章网址：https://mazinahmed.net/blog/publishing-malicious-vscode-extensions/
-评论网址：https://news.ycombinator.com/item?id=46188903
+      <title>将 Burningboard.net Mastodon 实例迁移到多 Jail FreeBSD 设置</title>
+      <link>https://blog.hofstede.it/migrating-burningboardnet-mastodon-instance-to-a-multi-jail-freebsd-setup/index.html</link>
+      <description><![CDATA[文章网址：https://blog.hofstede.it/migration-burningboardnet-mastodon-instance-to-a-multi-jail-freebsd-setup/index.html
+评论网址：https://news.ycombinator.com/item?id=46190051
 积分：1
 # 条评论：0]]></description>
-      <guid>https://mazinahmed.net/blog/publishing-malicious-vscode-extensions/</guid>
-      <pubDate>Mon, 08 Dec 2025 06:02:37 GMT</pubDate>
+      <guid>https://blog.hofstede.it/migrating-burningboardnet-mastodon-instance-to-a-multi-jail-freebsd-setup/index.html</guid>
+      <pubDate>Mon, 08 Dec 2025 09:05:52 GMT</pubDate>
     </item>
     <item>
-      <title>IBM 将以 11B 美元收购 Confluence</title>
-      <link>https://www.bloomberg.com/news/articles/2025-12-08/ibm-close-to-buying-confluent-in-11-billion-deal-wsj-says</link>
-      <description><![CDATA[文章网址： https://www.bloomberg.com/news/articles/2025-12-08/ibm-close-to-buying-confluence-in-11-billion-deal-wsj-says
-评论网址：https://news.ycombinator.com/item?id=46188889
-积分：2
-# 条评论：1]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2025-12-08/ibm-close-to-buying-confluent-in-11-billion-deal-wsj-says</guid>
-      <pubDate>Mon, 08 Dec 2025 05:59:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>Dewy：VPS 和裸机的持续部署，无需 K8</title>
-      <link>https://github.com/linyows/dewy</link>
-      <description><![CDATA[文章网址：https://github.com/linyows/dewy
-评论网址：https://news.ycombinator.com/item?id=46188870
+      <title>矢量数据库比较</title>
+      <link>https://agentset.ai/blog/best-vector-db-for-rag</link>
+      <description><![CDATA[文章网址：https://agentset.ai/blog/best-vector-db-for-rag
+评论网址：https://news.ycombinator.com/item?id=46190040
 积分：1
+# 条评论：0]]></description>
+      <guid>https://agentset.ai/blog/best-vector-db-for-rag</guid>
+      <pubDate>Mon, 08 Dec 2025 09:04:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么我讨厌受苦艺术家的神话（2012）</title>
+      <link>https://www.theguardian.com/books/booksblog/2012/apr/02/myth-of-the-suffering-artist</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/books/booksblog/2012/apr/02/myth-of-the-suffering-artist
+评论网址：https://news.ycombinator.com/item?id=46190008
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theguardian.com/books/booksblog/2012/apr/02/myth-of-the-suffering-artist</guid>
+      <pubDate>Mon, 08 Dec 2025 08:59:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：PolyBets – 拍卖预测市场（对拍卖结果进行投注）</title>
+      <link>https://polybets.fun/</link>
+      <description><![CDATA[所以我是一个汽车大佬（如你所见），我和我的朋友们不会停止对拍卖结果大喊大叫。这很常见，不仅在汽车爱好者中，而且在艺术品、手表、收藏品等中也是如此。因此，我开始开发一个小型、便携式 MVP，让我和我的朋友可以通过 Polygon Mainnet 在链上解决这些纠纷（因为 Polymarket 也使用这种方式）。输入任何拍卖网站的链接，PolyBets 就会为您创造市场。享受吧！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46189997
+积分：5
 # 条评论：1]]></description>
-      <guid>https://github.com/linyows/dewy</guid>
-      <pubDate>Mon, 08 Dec 2025 05:57:48 GMT</pubDate>
+      <guid>https://polybets.fun/</guid>
+      <pubDate>Mon, 08 Dec 2025 08:57:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
