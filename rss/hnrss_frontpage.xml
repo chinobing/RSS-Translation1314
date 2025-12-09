@@ -4,107 +4,109 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 09 Dec 2025 15:24:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Dec 2025 18:27:48 GMT</lastBuildDate>
     <item>
-      <title>随着市场对支出感到厌倦，苹果缓慢的人工智能步伐成为一种优势</title>
-      <link>https://finance.yahoo.com/news/apple-slow-ai-pace-becomes-104658095.html</link>
-      <description><![CDATA[文章网址：https://finance.yahoo.com/news/apple-slow-ai-pace-becomes-104658095.html
-评论网址：https://news.ycombinator.com/item?id=46205724
-积分：7
-# 条评论：1]]></description>
-      <guid>https://finance.yahoo.com/news/apple-slow-ai-pace-becomes-104658095.html</guid>
-      <pubDate>Tue, 09 Dec 2025 15:08:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>工程师：不要再试图赢得别人的游戏</title>
-      <link>https://www.anthonyputignano.com/p/the-western-front-advantage-how-junior</link>
-      <description><![CDATA[文章网址：https://www.anthonyputignano.com/p/the-western-front-advantage-how-junior
-评论网址：https://news.ycombinator.com/item?id=46205532
-积分：4
-# 条评论：0]]></description>
-      <guid>https://www.anthonyputignano.com/p/the-western-front-advantage-how-junior</guid>
-      <pubDate>Tue, 09 Dec 2025 14:53:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kaiju – Go 和 Vulkan 中的通用 3D/2D 游戏引擎，带有内置编辑器</title>
-      <link>https://github.com/KaijuEngine/kaiju</link>
-      <description><![CDATA[文章网址：https://github.com/KaijuEngine/kaiju
-评论网址：https://news.ycombinator.com/item?id=46205519
-积分：11
-# 条评论：3]]></description>
-      <guid>https://github.com/KaijuEngine/kaiju</guid>
-      <pubDate>Tue, 09 Dec 2025 14:51:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>马自达手提箱车，一种可以装在行李中的便携式三轮车</title>
-      <link>https://www.designboom.com/technology/rediscover-mazda-suitcase-car-portable-three-wheeled-vehicle-fits-luggage-12-06-2025/</link>
-      <description><![CDATA[文章网址： https://www.designboom.com/technology/rediscover-mazda-suitcase-car-portable-三轮-vehicle-fits-luggage-12-06-2025/
-评论网址：https://news.ycombinator.com/item?id=46204139
-积分：44
-# 条评论：27]]></description>
-      <guid>https://www.designboom.com/technology/rediscover-mazda-suitcase-car-portable-three-wheeled-vehicle-fits-luggage-12-06-2025/</guid>
-      <pubDate>Tue, 09 Dec 2025 12:20:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Brent 的封装 C 编程规则 (2020)</title>
-      <link>https://retroscience.net/brents-c-programming-rules.html</link>
-      <description><![CDATA[文章网址：https://retroscience.net/brents-c-programming-rules.html
-评论网址：https://news.ycombinator.com/item?id=46203611
-积分：26
-# 条评论：14]]></description>
-      <guid>https://retroscience.net/brents-c-programming-rules.html</guid>
-      <pubDate>Tue, 09 Dec 2025 11:16:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：AlgoDrill – 交互式练习，防止忘记 LeetCode 模式</title>
-      <link>https://algodrill.io</link>
-      <description><![CDATA[我构建 AlgoDrill 是因为我一直在打磨 LeetCode，以为我知道这个模式，然后在几周后我必须从头开始实现它时完全空白。AlgoDrill 将 NeetCode 150 及更多内容变成基于模式的练习：您可以通过主动回忆逐行重建解决方案，获得解释每个步骤存在原因的第一原理社论，并且所有内容都用滑动窗口、两个指针和 DP 等模式进行标记，以便您可以锤击您保留的那些忘记。目标很简单：将熟悉的模式转化为您可以在真实面试中快速、自信地编写的代码。https://algodrill.io希望得到反馈，了解这种练习式方法是否感觉比只解决一次问题真正升级，以及当您第一次登陆该网站时最困惑或缺失的是什么。
+      <title>Show HN：详细信息，错误查找器</title>
+      <link>https://detail.dev/</link>
+      <description><![CDATA[嗨，HN，tl;dr，我们构建了一个运行良好的错误查找器，特别是对于应用程序后端。尝试一下并将您的想法发送给我们！下面是长篇故事。----------------------------------------我们最初打算解决技术债务问题。我们都见过有大量债务的代码库，所以我们对这个问题怀有个人怨恨，而人工智能似乎让情况变得更糟。技术债务对于人工智能来说似乎也是一个大问题，因为：1）一小部分工作是深思熟虑和战略性的，然后大部分执行是相当机械的，2）当你解决技术债务时，你通常会试图保留现有的行为，只是改变实现。这意味着如果您找到检测由于代码更改而导致的意外行为更改的好方法，则可以将其视为闭环问题。我们知道如何做到这一点 - 这就是测试的用途！因此我们开始编写测试。测试创建了护栏，使未来的代码更改更加安全。我们的想法是：如果我们能够测试得足够好，我们就可以以非常高的质量自动化许多其他技术债务工作。我们构建了一个代理，可以为典型的代码库编写数千个新测试，大多数“合并质量”。一些早期用户合并了数百个以这种方式生成的 PR，但直观上该工具总是感觉“不错，但不是很好”。我们自己偶尔使用它，通常感觉像是一件苦差事。在这一点上我们意识到：虽然我们已经开始编写好的测试，但我们已经构建了一个系统，通过一些调整，可能非常擅长发现错误。当我们在一些朋友的代码库上对其进行测试时，我们发现几乎每个存储库都潜伏着大量我们能够标记的错误。严重的错误，足够有趣，以至于人们放弃了他们正在做的事情来修复它们。坐在人们的代码库中，已经合并，在产品中运行。我们还发现了很多漏洞，甚至在成熟的代码库中，有时甚至在有人进行渗透测试后。在幕后：
+- 我们检查代码库并弄清楚如何为本地开发人员构建它并通过测试进行练习。
+- 我们拍摄已构建的本地开发状态的快照。 （我们为此使用 Runloop，并且是它的忠实粉丝。）
+- 我们启动数百个本地开发环境副本，以数千种方式运行代码库并标记看似错误的行为。
+- 我们选择最突出、最可怕的例子，并将它们作为线性票证、github 问题或电子邮件提供。在实践中，它运行得很好。我们已经能够在从编译器到交易平台（甚至是 Rust 代码）的所有内容中找到错误，但最有效的地方是应用程序后端。我们的方法以计算换取质量。我们的代码库扫描需要几个小时，远远超出了代码审查机器人的实际能力。但结果是我们可以更明智地利用工程师的注意力，我们认为这将是最重要的变量。从长远来看，我们认为计算成本低廉，工程师的注意力昂贵。如果运用得当，最新的模型即使在大型代码库中也可以执行复杂的更改。这意味着构建软件的限制因素是人类的注意力。工程师仍然需要时间和精力来吸收信息，例如现有的代码、组织环境和产品要求。在工程师能够以精确的方式表达他们想要的内容并做好审查结果差异的工作之前，这些都是必要的。目前我们正在寻找错误，但我们正在开发的技术扩展到许多其他背景、半主动工作以改进代码库。尝试一下并告诉我们您的想法。首次扫描免费，无需信用卡：https://detail.dev/如果您有任何请求，我们还会扫描 OSS 存储库。该系统的信噪比相当高，但我们不想冒着自动打开问题而惹恼维护人员的风险，因此，如果您请求扫描 OSS 存储库，结果将亲自发送给您。 https://detail.dev/oss
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46203581
-积分：73
-# 条评论：53]]></description>
-      <guid>https://algodrill.io</guid>
-      <pubDate>Tue, 09 Dec 2025 11:09:06 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=46207852
+积分：16
+# 条评论：4]]></description>
+      <guid>https://detail.dev/</guid>
+      <pubDate>Tue, 09 Dec 2025 17:35:35 GMT</pubDate>
     </item>
     <item>
-      <title>互联网上的 ZX Spectrum Next：Xberry Pi ESP01 和 Pi Zero 升级</title>
-      <link>https://retrogamecoders.com/zx-spectrum-next-on-the-internet-xberry-pi-esp01-and-pi-zero-upgrades/</link>
-      <description><![CDATA[文章网址：https://retrogamecoders.com/zx-spectrum-next-on-the-internet-xberry-pi-esp01-and-pi-zero-upgrades/
-评论网址：https://news.ycombinator.com/item?id=46203499
-积分：26
+      <title>私募股权如何改变住房</title>
+      <link>https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/</link>
+      <description><![CDATA[文章网址：https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/
+评论网址：https://news.ycombinator.com/item?id=46207727
+积分：21
+# 条评论：16]]></description>
+      <guid>https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/</guid>
+      <pubDate>Tue, 09 Dec 2025 17:26:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果您要编写振动代码，为什么不用 C 语言呢？</title>
+      <link>https://stephenramsay.net/posts/vibe-coding.html</link>
+      <description><![CDATA[文章网址：https://stephenramsay.net/posts/vibe-coding.html
+评论网址：https://news.ycombinator.com/item?id=46207505
+积分：65
+# 条评论：69]]></description>
+      <guid>https://stephenramsay.net/posts/vibe-coding.html</guid>
+      <pubDate>Tue, 09 Dec 2025 17:11:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>PeerTube被数字公共产品联盟认定为数字公共产品</title>
+      <link>https://www.digitalpublicgoods.net/r/peertube</link>
+      <description><![CDATA[文章网址：https://www.digitalpublicgoods.net/r/peertube
+评论网址：https://news.ycombinator.com/item?id=46207464
+积分：76
+# 条评论：8]]></description>
+      <guid>https://www.digitalpublicgoods.net/r/peertube</guid>
+      <pubDate>Tue, 09 Dec 2025 17:08:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>捐赠模型上下文协议并建立Agentic AI基金会</title>
+      <link>https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation</link>
+      <description><![CDATA[文章网址：https://www.anthropic.com/news/donating-the-model-context-protocol-and-builting-of-the-agentic-ai-foundation
+评论网址：https://news.ycombinator.com/item?id=46207425
+积分：8
+# 条评论：4]]></description>
+      <guid>https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation</guid>
+      <pubDate>Tue, 09 Dec 2025 17:05:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Clearspace (YC W23) 正在招聘一位创始设计师</title>
+      <link>https://www.ycombinator.com/companies/clearspace/jobs/yamWTLr-founding-designer-at-clearspace</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/clearspace/jobs/yamWTLr-founding-designer-at-clearspace
+评论网址：https://news.ycombinator.com/item?id=46207360
+积分：0
 # 条评论：0]]></description>
-      <guid>https://retrogamecoders.com/zx-spectrum-next-on-the-internet-xberry-pi-esp01-and-pi-zero-upgrades/</guid>
-      <pubDate>Tue, 09 Dec 2025 10:52:58 GMT</pubDate>
+      <guid>https://www.ycombinator.com/companies/clearspace/jobs/yamWTLr-founding-designer-at-clearspace</guid>
+      <pubDate>Tue, 09 Dec 2025 17:01:11 GMT</pubDate>
     </item>
     <item>
-      <title>在 Sega Saturn 上玩 Grandia 的乐趣</title>
-      <link>https://www.segasaturnshiro.com/2025/11/27/the-joy-of-playing-grandia-on-sega-saturn/</link>
-      <description><![CDATA[文章网址：https://www.segasaturnshiro.com/2025/11/27/the-joy-of-playing-grandia-on-sega-saturn/
-评论网址：https://news.ycombinator.com/item?id=46203138
-积分：107
-# 条评论：54]]></description>
-      <guid>https://www.segasaturnshiro.com/2025/11/27/the-joy-of-playing-grandia-on-sega-saturn/</guid>
-      <pubDate>Tue, 09 Dec 2025 09:48:55 GMT</pubDate>
+      <title>启动 HN：Mentat (YC F24) – 通过运行时干预控制法学硕士</title>
+      <link>https://playground.ctgt.ai</link>
+      <description><![CDATA[]]></description>
+      <guid>https://playground.ctgt.ai</guid>
+      <pubDate>Tue, 09 Dec 2025 16:37:55 GMT</pubDate>
     </item>
     <item>
-      <title>魔兽争霸 II：黑暗之潮 30 周年纪念</title>
-      <link>https://www.jorsys.org/archive/december_2025.html#newsitem_2025-12-09T07:42:19Z</link>
-      <description><![CDATA[文章网址：https://www.jorsys.org/archive/december_2025.html#newsitem_2025-12-09T07:42:19Z
-评论网址：https://news.ycombinator.com/item?id=46202921
-积分：30
-# 条评论：14]]></description>
-      <guid>https://www.jorsys.org/archive/december_2025.html#newsitem_2025-12-09T07:42:19Z</guid>
-      <pubDate>Tue, 09 Dec 2025 09:13:56 GMT</pubDate>
+      <title>毫无疑问最酷的 3D 网站之一</title>
+      <link>https://bruno-simon.com/</link>
+      <description><![CDATA[文章网址：https://bruno-simon.com/
+评论网址：https://news.ycombinator.com/item?id=46206531
+积分：129
+# 条评论：36]]></description>
+      <guid>https://bruno-simon.com/</guid>
+      <pubDate>Tue, 09 Dec 2025 16:06:58 GMT</pubDate>
     </item>
     <item>
-      <title>通用权重子空间假设</title>
-      <link>https://arxiv.org/abs/2512.05117</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2512.05117
-评论网址：https://news.ycombinator.com/item?id=46199623
-积分：323
-# 条评论：113]]></description>
-      <guid>https://arxiv.org/abs/2512.05117</guid>
-      <pubDate>Tue, 09 Dec 2025 00:16:46 GMT</pubDate>
+      <title>问 HN：HN 指南是否应该禁止“我问过 $AI，它说”这样的回复？</title>
+      <link>https://news.ycombinator.com/item?id=46206457</link>
+      <description><![CDATA[随着各种 LLM 变得越来越受欢迎，“我问 Gemini，Gemini 说......”的评论也越来越受欢迎。虽然指南是在不同时间编写（并迭代）的，但似乎是时候讨论 HN 是否应该欢迎此类评论了。一些示例：- https://news.ycombinator.com/item?id=46164360- https://news.ycombinator.com/item?id=46200460- https://news.ycombinator.com/item?id=46080064就我个人而言，我在 HN 上进行人类对话，而 LLM 生成的大量文本只会妨碍从真实人类那里读取真实文本（至少是假设的）。您认为呢？是否应该在 HN 上允许基本上归结为“我向 $LLM 询问 $X 的问题，这是 $LLM 所说的：”的回复，并更新指南以表明人们不应该批评它（类似于当前的其他指南），还是应该添加一个新的指南来要求人们不要将大量 LLM 回复复制粘贴到评论中，或者完全是其他东西？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46206457
+积分：284
+# 条评论：158]]></description>
+      <guid>https://news.ycombinator.com/item?id=46206457</guid>
+      <pubDate>Tue, 09 Dec 2025 16:02:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能需要的电力超出了电网所能提供的电力——超音速技术可以解决这个问题</title>
+      <link>https://boomsupersonic.com/flyby/ai-needs-more-power-than-the-grid-can-deliver-supersonic-tech-can-fix-that</link>
+      <description><![CDATA[文章网址：https://boomsupersonic.com/flyby/ai-needs-more-power-than-the-grid-can-deliver-supersonic-tech-can-fix-that
+评论网址：https://news.ycombinator.com/item?id=46206277
+积分：14
+评论数量：9]]></description>
+      <guid>https://boomsupersonic.com/flyby/ai-needs-more-power-than-the-grid-can-deliver-supersonic-tech-can-fix-that</guid>
+      <pubDate>Tue, 09 Dec 2025 15:51:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
