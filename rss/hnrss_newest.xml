@@ -4,114 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 10 Dec 2025 18:31:40 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 21:23:39 GMT</lastBuildDate>
     <item>
-      <title>1Crossword：密码管理器的填字游戏</title>
-      <link>https://eieio.games/blog/1Crossword/</link>
-      <description><![CDATA[文章网址：https://eieio.games/blog/1Crossword/
-评论网址：https://news.ycombinator.com/item?id=46221349
-积分：1
-# 条评论：0]]></description>
-      <guid>https://eieio.games/blog/1Crossword/</guid>
-      <pubDate>Wed, 10 Dec 2025 18:21:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我们开源了用于使用 Claude AI 评分 PR 的内部工具</title>
-      <link>https://github.com/MergeMint/mergemint-app</link>
-      <description><![CDATA[嗨，HN！我正在分享 MergeMint，这是我们在 TextCortex AI 构建的一个开源平台，用于使用 Claude AI 自动评估拉取请求并对其进行评分。我们遇到的问题：我们的工程团队缺乏对贡献影响的可见性，并且绩效评估感觉很主观。我们想要客观的指标，而无需人工 PR 审查的开销。工作原理：当 PR 合并时，MergeMint 会使用 Claude AI 分析差异、链接问题并提交。它对组件/严重性进行分类、计算分数、在 PR 上发布反馈并更新团队排行榜。6 个月后的结果：
-• 开发人员对我们内部错误赏金计划的参与度增加了 3 倍
-• 团队成员在排行榜上积极竞争（游戏化确实有效！）
-• 绩效评估现已得到具体贡献数据的支持
-• 我们发现并奖励那些在雷达下飞行的高影响力工作评分是完全可配置的 – 我们使用乘数和带有基点的严重性级别 (P0-P3) 定义了我们的组件（身份验证、API、UI）。克劳德进行分类，我们控制权重。老实说，游戏化方面最让我们惊讶。开发人员开始更加关注链接问题、编写更好的 PR 描述以及开展高优先级工作。技术堆栈：Next.js 15、Supabase (PostgreSQL)、Anthropic Claude、Tailwind v4。使用 Docker 完全可自行托管。我们将其开源，因为它对我们的团队来说具有变革性，而且我们认为其他工程组织也可以受益。GitHub：https://github.com/MergeMint/mergemint-app
-免费 SaaS 版本：https://mergemint.dev很高兴回答有关我们在生产中部署此功能或技术实施的经验的问题！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46221321
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/MergeMint/mergemint-app</guid>
-      <pubDate>Wed, 10 Dec 2025 18:19:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>SAGE：半自动地面环境防空系统</title>
-      <link>https://www.ll.mit.edu/about/history/sage-semi-automatic-ground-environment-air-defense-system</link>
-      <description><![CDATA[文章网址：https://www.ll.mit.edu/about/history/sage-semi-automatic-ground-environment-air-defense-system
-评论网址：https://news.ycombinator.com/item?id=46221311
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.ll.mit.edu/about/history/sage-semi-automatic-ground-environment-air-defense-system</guid>
-      <pubDate>Wed, 10 Dec 2025 18:19:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>分开抚养的双胞胎并不存在</title>
-      <link>https://davidbessis.substack.com/p/twins-reared-apart-do-not-exist</link>
-      <description><![CDATA[文章网址：https://davidbessis.substack.com/p/twins-reared-apart-do-not-exist
-评论网址：https://news.ycombinator.com/item?id=46221278
-积分：1
-# 条评论：0]]></description>
-      <guid>https://davidbessis.substack.com/p/twins-reared-apart-do-not-exist</guid>
-      <pubDate>Wed, 10 Dec 2025 18:17:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：YouTube 只显示广告？</title>
-      <link>https://news.ycombinator.com/item?id=46221250</link>
-      <description><![CDATA[只是好奇其他人是否看到了这个或者我是否参与了 ​​a/b 测试。  当人们在他们的页面上嵌入 YouTube 视频时，您可以（通常？总是？）点击视频的左下角，在 YouTube 页面（而不是嵌入该视频的页面）上打开该视频。但今天早上我注意到，它没有将我带到 YouTube 页面以查看嵌入视频，而是将我带到 YouTube 页面以在嵌入视频上投放第一个广告。  最重要的是，它会在向我展示广告之前向我展示一则广告。似乎适用于所有 IP 地址和多个浏览器。我应该检查一下当我注销或登录我的工作帐户时它是否会这样做。 （尚未这样做。）无法直接向 YouTube 或 Alphabet 提供反馈，因此如果有人认识 Google 的任何人，您能否要求他们停止这样做？  -谢谢
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46221250
-积分：1
-# 条评论：3]]></description>
-      <guid>https://news.ycombinator.com/item?id=46221250</guid>
-      <pubDate>Wed, 10 Dec 2025 18:14:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>Urik – 注重隐私的 Android 键盘现已进入公开测试版</title>
-      <link>https://github.com/urikdev/Urik</link>
-      <description><![CDATA[文章网址：https://github.com/urikdev/Urik
-评论网址：https://news.ycombinator.com/item?id=46221226
-积分：2
-# 条评论：1]]></description>
-      <guid>https://github.com/urikdev/Urik</guid>
-      <pubDate>Wed, 10 Dec 2025 18:13:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本首家配备人体洗衣机的酒店现已为您准备就绪</title>
-      <link>https://soranews24.com/2025/12/10/japans-first-hotel-with-a-human-washing-machine-is-now-ready-for-you-to-come-and-bathe-in-it/</link>
-      <description><![CDATA[文章网址： https://soranews24.com/2025/12/10/japans-first-hotel-with-a- human-washing-machine-is-now-ready-for-you-to-come-and-bathe-in-it/
-评论网址：https://news.ycombinator.com/item?id=46221210
+      <title>Vibe 编码已经足够好了</title>
+      <link>https://www.theregister.com/2025/12/10/vibe_coding_is_good_enough/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2025/12/10/vibe_coding_is_good_enough/
+评论网址：https://news.ycombinator.com/item?id=46223954
 积分：1
 # 条评论：1]]></description>
-      <guid>https://soranews24.com/2025/12/10/japans-first-hotel-with-a-human-washing-machine-is-now-ready-for-you-to-come-and-bathe-in-it/</guid>
-      <pubDate>Wed, 10 Dec 2025 18:11:33 GMT</pubDate>
+      <guid>https://www.theregister.com/2025/12/10/vibe_coding_is_good_enough/</guid>
+      <pubDate>Wed, 10 Dec 2025 21:14:30 GMT</pubDate>
     </item>
     <item>
-      <title>您在数据工程工具之上使用什么 UI 来查看数据？</title>
-      <link>https://news.ycombinator.com/item?id=46221195</link>
-      <description><![CDATA[DuckDB Wasm 等工具和 Iceberg 等数据工程平台利用 Parquet 的内置索引通过网络非常高效地查询文件。但由于我自己一直在构建数据工具，堆栈很快就会变得复杂，尤其是当您尝试可视化或探索数据而不仅仅是查询数据时。我对人们用来进行更多客户端数据工程的一些现代技巧很感兴趣。借助 OPFS + Parquet + Wasm，浏览器已经具备了处理客户端多 GB LLM 数据集所需的一切。数据 UI 的世界在不断发展吗？除了笔记本和 DuckDB 之外，还有新的数据工具和最佳实践吗？
+      <title>显示 HN：通过简单的 HTTP POST 实时特定于应用程序的指标</title>
+      <link>https://news.ycombinator.com/item?id=46223916</link>
+      <description><![CDATA[我构建了一个小工具，用于使用简单的 HTTP POST 请求发送实时的、特定于应用程序的指标（计量表）。
+没有普罗米修斯，没有格拉法纳。
+希望得到反馈。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46221195
+评论网址：https://news.ycombinator.com/item?id=46223916
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46221195</guid>
-      <pubDate>Wed, 10 Dec 2025 18:10:11 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46223916</guid>
+      <pubDate>Wed, 10 Dec 2025 21:11:29 GMT</pubDate>
     </item>
     <item>
-      <title>十的幂 (1977) [视频]</title>
-      <link>https://www.youtube.com/watch?v=0fKBhvDjuy0</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=0fKBhvDjuy0
-评论网址：https://news.ycombinator.com/item?id=46221151
-积分：4
+      <title>从学习 Fizzy 测试套件中获得的经验教训</title>
+      <link>https://testdrivingrails.com/blog/fizzy-test-suite</link>
+      <description><![CDATA[文章网址：https://testdrivenrails.com/blog/fizzy-test-suite
+评论网址：https://news.ycombinator.com/item?id=46223902
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=0fKBhvDjuy0</guid>
-      <pubDate>Wed, 10 Dec 2025 18:07:35 GMT</pubDate>
+      <guid>https://testdrivingrails.com/blog/fizzy-test-suite</guid>
+      <pubDate>Wed, 10 Dec 2025 21:10:14 GMT</pubDate>
     </item>
     <item>
-      <title>3D代理</title>
-      <link>https://3d-agent.com</link>
-      <description><![CDATA[文章网址：https://3d-agent.com
-评论网址：https://news.ycombinator.com/item?id=46221123
-积分：2
+      <title>美国可能要求荷兰旅客分享 5 年社交媒体信息才能入境</title>
+      <link>https://nltimes.nl/2025/12/10/us-may-require-dutch-travelers-share-5-years-social-media-enter-country</link>
+      <description><![CDATA[文章网址：https://nltimes.nl/2025/12/10/us-may-require-dutch-travelers-share-5-years-social-media-enter-country
+评论网址：https://news.ycombinator.com/item?id=46223895
+积分：1
+# 条评论：1]]></description>
+      <guid>https://nltimes.nl/2025/12/10/us-may-require-dutch-travelers-share-5-years-social-media-enter-country</guid>
+      <pubDate>Wed, 10 Dec 2025 21:09:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建 HTML 工具的有用模式</title>
+      <link>https://simonwillison.net/2025/Dec/10/html-tools/</link>
+      <description><![CDATA[文章网址：https://simonwillison.net/2025/Dec/10/html-tools/
+评论网址：https://news.ycombinator.com/item?id=46223882
+积分：1
 # 条评论：0]]></description>
-      <guid>https://3d-agent.com</guid>
-      <pubDate>Wed, 10 Dec 2025 18:04:41 GMT</pubDate>
+      <guid>https://simonwillison.net/2025/Dec/10/html-tools/</guid>
+      <pubDate>Wed, 10 Dec 2025 21:08:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>谷歌推出 Android 紧急直播视频共享</title>
+      <link>https://9to5google.com/2025/12/10/android-emergency-live-video/</link>
+      <description><![CDATA[文章网址：https://9to5google.com/2025/12/10/android-emergency-live-video/
+评论网址：https://news.ycombinator.com/item?id=46223878
+积分：1
+# 条评论：0]]></description>
+      <guid>https://9to5google.com/2025/12/10/android-emergency-live-video/</guid>
+      <pubDate>Wed, 10 Dec 2025 21:08:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么美国赢得碳捕获竞赛</title>
+      <link>https://oilprice.com/Energy/Energy-General/Why-America-Is-Winning-the-Carbon-Capture-Race.html</link>
+      <description><![CDATA[文章网址：https://oilprice.com/Energy/Energy-General/Why-America-Is-Winning-the-Carbon-Capture-Race.html
+评论网址：https://news.ycombinator.com/item?id=46223862
+积分：1
+# 条评论：0]]></description>
+      <guid>https://oilprice.com/Energy/Energy-General/Why-America-Is-Winning-the-Carbon-Capture-Race.html</guid>
+      <pubDate>Wed, 10 Dec 2025 21:07:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>DHH 和开源</title>
+      <link>https://ma.tt/2025/12/dhh-open-source/</link>
+      <description><![CDATA[文章网址：https://ma.tt/2025/12/dhh-open-source/
+评论网址：https://news.ycombinator.com/item?id=46223859
+积分：1
+# 条评论：1]]></description>
+      <guid>https://ma.tt/2025/12/dhh-open-source/</guid>
+      <pubDate>Wed, 10 Dec 2025 21:07:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能将消防水带变成漏斗</title>
+      <link>https://www.niemanlab.org/2025/12/ai-turns-the-firehose-into-a-funnel/</link>
+      <description><![CDATA[文章网址：https://www.niemanlab.org/2025/12/ai-turns-the-firehose-into-a-funnel/
+评论网址：https://news.ycombinator.com/item?id=46223849
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.niemanlab.org/2025/12/ai-turns-the-firehose-into-a-funnel/</guid>
+      <pubDate>Wed, 10 Dec 2025 21:05:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>我想念旧的卡萨尔，而不是新的卡萨尔</title>
+      <link>https://qy.co/writings/newqasar/</link>
+      <description><![CDATA[文章网址：https://qy.co/writings/newqasar/
+评论网址：https://news.ycombinator.com/item?id=46223845
+积分：1
+# 条评论：0]]></description>
+      <guid>https://qy.co/writings/newqasar/</guid>
+      <pubDate>Wed, 10 Dec 2025 21:05:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
