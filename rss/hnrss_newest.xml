@@ -4,113 +4,114 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 11 Dec 2025 06:34:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 09:26:57 GMT</lastBuildDate>
     <item>
-      <title>美国重塑俄罗斯、乌克兰经济蓝图引发与欧洲冲突</title>
-      <link>https://www.wsj.com/world/europe/u-s-blueprint-to-rewire-economies-of-russia-ukraine-sets-off-clash-with-europe-72484515</link>
-      <description><![CDATA[文章网址： https://www.wsj.com/world/europe/u-s-blueprint-to-rewire-economies-of-Russia-ukraine-sets-off-clash-with-europe-72484515
-评论网址：https://news.ycombinator.com/item?id=46228284
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.wsj.com/world/europe/u-s-blueprint-to-rewire-economies-of-russia-ukraine-sets-off-clash-with-europe-72484515</guid>
-      <pubDate>Thu, 11 Dec 2025 06:25:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>批评：用于审查 Git 更改的 TUI</title>
-      <link>https://github.com/remorses/critique</link>
-      <description><![CDATA[文章网址：https://github.com/remorses/critique
-评论网址：https://news.ycombinator.com/item?id=46228248
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/remorses/critique</guid>
-      <pubDate>Thu, 11 Dec 2025 06:17:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>潘多（树）</title>
-      <link>https://en.wikipedia.org/wiki/Pando_(tree)</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Pando_(tree)
-评论网址：https://news.ycombinator.com/item?id=46228240
-积分：1
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Pando_(tree)</guid>
-      <pubDate>Thu, 11 Dec 2025 06:15:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于域应该成为每个人的“互联网句柄”这一想法的一些想法</title>
-      <link>https://xn--gckvb8fzb.com/domains-as-internet-handles/</link>
-      <description><![CDATA[文章网址：https://xn--gckvb8fzb.com/domains-as-internet-handles/
-评论网址：https://news.ycombinator.com/item?id=46228239
-积分：1
-# 条评论：0]]></description>
-      <guid>https://xn--gckvb8fzb.com/domains-as-internet-handles/</guid>
-      <pubDate>Thu, 11 Dec 2025 06:15:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我为小型 SaaS 应用程序构建了一个小型 Datadog 替代品</title>
-      <link>https://getlogmint.com</link>
-      <description><![CDATA[大家好，
-过去几个月我一直在兼职开发一个小型开发工具，我想分享我构建的内容以及我在这个过程中学到的东西。我维护了一些小型 SaaS 应用程序，我一直觉得现有的监控工具对于小型团队来说太吵闹、太昂贵或太重。我不需要数十个仪表板和数百个指标 - 我只需要将日志、指标、警报和审核日志放在一个轻量级位置，最好是基于 SDK 的。这促使我构建了一个类似 Datadog 的小型工具，我称之为 LogMint。LogMint 处理什么1.应用程序日志2.指标3.警报4。仪表板5.审核日志全部基于 SDK，无代理我不想与大型工具竞争。这更像是一个“独立开发者可以构建一些可用且小型的东西吗？”实验。我在构建它时学到了什么1.从头开始构建仪表板和小部件比摄取需要更多时间
-可视化是最难的部分。2.降噪比功能数量更重要
-我构建这个的原因是我淹没在我不关心的警报中。设计一个保持安静的系统是一个挑战。3.获得第一个用户比编写后端更难
-我尝试过在开发博客上发帖并分享文章。我还没有得到真正的使用。仍在弄清楚这一部分。为什么我要发布此内容我希望获得构建开发人员工具或监控系统的人们的反馈。
-主要是： 1.这种方法（SDK &gt; 代理）有用吗？2.小团队是否真的在寻求更简单的监控？3.这样的工具应该有什么“最低有用版本”？对于那些构建开发工具的人：你的第一批用户是如何出现的？如果有人想看它，该项目在这里：
-(https://getlogmint.com)不出售任何东西 - 只是分享该项目，以防其他人觉得这很有趣或对我应该改进的地方有想法。
+      <title>Show HN：通过简单地通过电子邮件发送公钥来货币化 API</title>
+      <link>https://img.arible.co/</link>
+      <description><![CDATA[抛开实际提供的服务不谈，我想提请注意的是货币化模型。它的执行几乎异常简单，这正是我认为它值得讨论的原因。这个想法很简单：我维护一个公钥白名单。消费者生成密钥对并通过电子邮件向我发送他们的公钥。就是这样。当然，这种方法确实限制了我可以支持的交互类型或访问模式，但原则上它是有效的。尽管如此，这种简单性让我保持谨慎。当一个解决方案感觉如此简单时，它往往是以下两种情况之一：要么它太简单以至于没有人愿意谈论它，要么它的陷阱足够严重以至于没有人使用它。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46228231
+评论网址：https://news.ycombinator.com/item?id=46229231
 积分：1
 # 条评论：0]]></description>
-      <guid>https://getlogmint.com</guid>
-      <pubDate>Thu, 11 Dec 2025 06:13:13 GMT</pubDate>
+      <guid>https://img.arible.co/</guid>
+      <pubDate>Thu, 11 Dec 2025 09:14:06 GMT</pubDate>
     </item>
     <item>
-      <title>使用 Mikado 方法在复杂的代码库中进行安全的更改</title>
-      <link>https://understandlegacycode.com/blog/a-process-to-do-safe-changes-in-a-complex-codebase/</link>
-      <description><![CDATA[文章网址：https://understandlegacycode.com/blog/a-process-to-do-safe-changes-in-a-complex-codebase/
-评论网址：https://news.ycombinator.com/item?id=46228224
+      <title>Sweet Alert++ – 现代、可访问的模态库（SweetAlert2 替代方案）</title>
+      <link>https://raiank.github.io/sweetalertplusplus.github.io/</link>
+      <description><![CDATA[文章网址：https://raiank.github.io/sweetalertplusplus.github.io/
+评论网址：https://news.ycombinator.com/item?id=46229183
+积分：1
+# 条评论：0]]></description>
+      <guid>https://raiank.github.io/sweetalertplusplus.github.io/</guid>
+      <pubDate>Thu, 11 Dec 2025 09:06:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>绝育和避孕可延长脊椎动物的寿命</title>
+      <link>https://www.nature.com/articles/s41586-025-09836-9</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41586-025-09836-9
+评论网址：https://news.ycombinator.com/item?id=46229180
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nature.com/articles/s41586-025-09836-9</guid>
+      <pubDate>Thu, 11 Dec 2025 09:05:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何制作加密货币</title>
+      <link>https://coinheadlines.com/news/features/how-to-make-a-crypto-coin/article-22639/</link>
+      <description><![CDATA[文章网址：https://coinheadlines.com/news/features/how-to-make-a-crypto-coin/article-22639/
+评论网址：https://news.ycombinator.com/item?id=46229170
+积分：1
+# 条评论：1]]></description>
+      <guid>https://coinheadlines.com/news/features/how-to-make-a-crypto-coin/article-22639/</guid>
+      <pubDate>Thu, 11 Dec 2025 09:04:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于传播恶意软件的 ChatGPT 和搜索广告</title>
+      <link>https://eclecticlight.co/2025/12/11/how-online-search-and-ai-can-install-malware/</link>
+      <description><![CDATA[文章网址：https://electiclight.co/2025/12/11/how-online-search-and-ai-can-install-malware/
+评论网址：https://news.ycombinator.com/item?id=46229160
 积分：2
 # 条评论：0]]></description>
-      <guid>https://understandlegacycode.com/blog/a-process-to-do-safe-changes-in-a-complex-codebase/</guid>
-      <pubDate>Thu, 11 Dec 2025 06:11:22 GMT</pubDate>
+      <guid>https://eclecticlight.co/2025/12/11/how-online-search-and-ai-can-install-malware/</guid>
+      <pubDate>Thu, 11 Dec 2025 09:03:26 GMT</pubDate>
     </item>
     <item>
-      <title>酒柜</title>
-      <link>https://tedium.co/2025/12/10/404-media-zine-linux-affinity/</link>
-      <description><![CDATA[文章网址：https://tedium.co/2025/12/10/404-media-zine-linux-affinity/
-评论网址：https://news.ycombinator.com/item?id=46228211
-积分：1
-# 条评论：0]]></description>
-      <guid>https://tedium.co/2025/12/10/404-media-zine-linux-affinity/</guid>
-      <pubDate>Thu, 11 Dec 2025 06:08:23 GMT</pubDate>
+      <title>综合安全平台反馈</title>
+      <link>https://substack.com/home/post/p-181243655</link>
+      <description><![CDATA[文章网址：https://substack.com/home/post/p-181243655
+评论网址：https://news.ycombinator.com/item?id=46229148
+积分：2
+# 条评论：1]]></description>
+      <guid>https://substack.com/home/post/p-181243655</guid>
+      <pubDate>Thu, 11 Dec 2025 09:02:10 GMT</pubDate>
     </item>
     <item>
-      <title>变形金刚一定会产生幻觉</title>
-      <link>https://medium.com/@nikitph/why-transformers-must-hallucinate-7c2a8fc3b3be</link>
-      <description><![CDATA[文章网址：https://medium.com/@nikitph/why-transformers-must-hallucinate-7c2a8fc3b3be
-评论网址：https://news.ycombinator.com/item?id=46228210
-积分：1
+      <title>华夫饼奇点</title>
+      <link>https://www.tetraslam.world/blog/the_waffle_singularity</link>
+      <description><![CDATA[文章网址：https://www.tetraslam.world/blog/the_waffle_singularity
+评论网址：https://news.ycombinator.com/item?id=46229144
+积分：2
 # 条评论：0]]></description>
-      <guid>https://medium.com/@nikitph/why-transformers-must-hallucinate-7c2a8fc3b3be</guid>
-      <pubDate>Thu, 11 Dec 2025 06:08:18 GMT</pubDate>
+      <guid>https://www.tetraslam.world/blog/the_waffle_singularity</guid>
+      <pubDate>Thu, 11 Dec 2025 09:01:34 GMT</pubDate>
     </item>
     <item>
-      <title>PicoRuby 是单芯片微控制器的最小 Ruby 实现</title>
-      <link>https://picoruby.org</link>
-      <description><![CDATA[文章网址：https://picoruby.org
-评论网址：https://news.ycombinator.com/item?id=46228206
-积分：1
+      <title>Show HN：Simo.io – 面向专业人士的安全第一有线开源智能家居系统</title>
+      <link>https://simo.io</link>
+      <description><![CDATA[过去 6 年里，我一直在构建 SIMO.io，这是一个安全第一、有线、开源的智能家居系统，用于专业安装（全栈硬件 + 软件）。该集线器是一个运行 Django/Python 堆栈（PostgreSQL、Redis、Supervisor 等）的小型 Ubuntu 服务器盒。它按照设计位于本地、带有路由器和 PoE 交换机的 UPS 上。每晚 LVM/Borg 备份都会转移到可移动介质；恢复是裸机恢复，而不是云舞蹈。骨干网是以太网/PoE。面板是 DIN 导轨“游戏规则改变者”板，具有 16 个通用 I/O 以及用于 DALI 或 I²C 等总线的数字接口托架。您可以插入用于灯、阀门、传感器、百叶窗、大门等的继电器/调光器/输入模块。关键回路（例如墙壁开关↔灯）直接在面板上运行，因此即使集线器关闭，基本行为也会继续。房间由 Sentinel 单元处理：具有存在感应功能的 PoE 天花板设备、环境传感器、AI 语音助手和 100 dB 警报器，所有这些都通过 LAN 与本地集线器通信。HN 可能感兴趣的一些具体细节：- 线路优先、安全第一的架构：PoE 主干、骨干网中没有无线电、UPS 感知功率处理以及核心功能的离线优先行为。 
+- 专业级权限和角色：集线器管理员、实例超级用户和每个组件 ACL，以便电工、客户、居民和访客每个人都能准确地看到和控制他们应该看到的内容。
+- 面向开发人员的设计：Django 管理和仅密钥远程 SSH 进入集线器、用于集成的 Python virtualenv、/var/log/simo 下的结构化日志以及第三方系统的记录扩展模型。 
+- 自动化模型：组件（灯、阀门、传感器、场景、警报组、全局状态等）加上运行纯 Python 的脚本组件。该应用程序可以根据自然语言描述生成初始Python脚本；然后您可以在管理中对其进行编辑。 
+- 移动优先调试：安装人员可以创建实例、配对面板、映射 IO、构建场景/存在照明/警报组，并通过手机上的二维码移交访问权限，然后仅在需要更深入的工作时才进入管理/SSH。目标不是一堆 Wi-Fi 小工具，而是电工或集成商可以部署为基础设施的东西：可重复的面板、可审计的集线器、故障下的可预测行为以及开发人员实际上可以推理的开源堆栈我很感激有关架构、安全模型和开发人员人体工程学的直接反馈，尤其是来自当今运行或部署全屋系统的人员。网站：https://simo.io
+文档：https://simo.io/wiki/
+GitHub：https://github.com/SIMO-io
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46229092
+积分：2
 # 条评论：0]]></description>
-      <guid>https://picoruby.org</guid>
-      <pubDate>Thu, 11 Dec 2025 06:08:00 GMT</pubDate>
+      <guid>https://simo.io</guid>
+      <pubDate>Thu, 11 Dec 2025 08:53:08 GMT</pubDate>
     </item>
     <item>
-      <title>一个数据库统领一切</title>
-      <link>https://docs.eventsourcingdb.io/blog/2025/12/11/one-database-to-rule-them-all/</link>
-      <description><![CDATA[文章网址：https://docs.eventsourcedb.io/blog/2025/12/11/one-database-to-rule-them-all/
-评论网址：https://news.ycombinator.com/item?id=46228192
-积分：1
+      <title>我停止编码</title>
+      <link>https://www.youtube.com/watch?v=KBL_RkTx5eI</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=KBL_RkTx5eI
+评论网址：https://news.ycombinator.com/item?id=46229073
+积分：2
 # 条评论：0]]></description>
-      <guid>https://docs.eventsourcingdb.io/blog/2025/12/11/one-database-to-rule-them-all/</guid>
-      <pubDate>Thu, 11 Dec 2025 06:03:24 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=KBL_RkTx5eI</guid>
+      <pubDate>Thu, 11 Dec 2025 08:50:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>企业人工智能革命：从聊天机器人到自主代理架构</title>
+      <link>https://medium.com/@mohan.khilariwal/the-enterprise-ai-revolution-moving-beyond-chatbots-to-autonomous-agentic-architectures-6e51b1c5bb87</link>
+      <description><![CDATA[文章网址： https://medium.com/@mohan.khilariwal/the-enterprise-ai-revolution-moving-beyond-chatbots-to-autonomous-agentic-architectures-6e51b1c5bb87
+评论网址：https://news.ycombinator.com/item?id=46229071
+积分：2
+# 条评论：0]]></description>
+      <guid>https://medium.com/@mohan.khilariwal/the-enterprise-ai-revolution-moving-beyond-chatbots-to-autonomous-agentic-architectures-6e51b1c5bb87</guid>
+      <pubDate>Thu, 11 Dec 2025 08:49:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
