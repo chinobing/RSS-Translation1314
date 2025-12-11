@@ -4,106 +4,113 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 11 Dec 2025 03:58:20 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 06:34:48 GMT</lastBuildDate>
     <item>
-      <title>威尔·拉尔森反思他的书《参谋工程师》[视频]</title>
-      <link>https://www.youtube.com/watch?v=RBPtGtMY8bE</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=RBPtGtMY8bE
-评论网址：https://news.ycombinator.com/item?id=46227428
+      <title>美国重塑俄罗斯、乌克兰经济蓝图引发与欧洲冲突</title>
+      <link>https://www.wsj.com/world/europe/u-s-blueprint-to-rewire-economies-of-russia-ukraine-sets-off-clash-with-europe-72484515</link>
+      <description><![CDATA[文章网址： https://www.wsj.com/world/europe/u-s-blueprint-to-rewire-economies-of-Russia-ukraine-sets-off-clash-with-europe-72484515
+评论网址：https://news.ycombinator.com/item?id=46228284
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=RBPtGtMY8bE</guid>
-      <pubDate>Thu, 11 Dec 2025 03:51:14 GMT</pubDate>
+      <guid>https://www.wsj.com/world/europe/u-s-blueprint-to-rewire-economies-of-russia-ukraine-sets-off-clash-with-europe-72484515</guid>
+      <pubDate>Thu, 11 Dec 2025 06:25:36 GMT</pubDate>
     </item>
     <item>
-      <title>Vibe 编码令人沮丧</title>
-      <link>https://law.gmnz.xyz/vibe-coding-is-mad-depressing/</link>
-      <description><![CDATA[文章网址：https://law.gmnz.xyz/vibe-coding-is-mad-depressing/
-评论网址：https://news.ycombinator.com/item?id=46227422
+      <title>批评：用于审查 Git 更改的 TUI</title>
+      <link>https://github.com/remorses/critique</link>
+      <description><![CDATA[文章网址：https://github.com/remorses/critique
+评论网址：https://news.ycombinator.com/item?id=46228248
 积分：1
 # 条评论：0]]></description>
-      <guid>https://law.gmnz.xyz/vibe-coding-is-mad-depressing/</guid>
-      <pubDate>Thu, 11 Dec 2025 03:50:04 GMT</pubDate>
+      <guid>https://github.com/remorses/critique</guid>
+      <pubDate>Thu, 11 Dec 2025 06:17:03 GMT</pubDate>
     </item>
     <item>
-      <title>错误和之字形</title>
-      <link>https://notes.eatonphil.com/errors-and-zig.html</link>
-      <description><![CDATA[文章网址：https://notes.eatonphil.com/errors-and-zig.html
-评论网址：https://news.ycombinator.com/item?id=46227409
+      <title>潘多（树）</title>
+      <link>https://en.wikipedia.org/wiki/Pando_(tree)</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Pando_(tree)
+评论网址：https://news.ycombinator.com/item?id=46228240
+积分：1
+# 条评论：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/Pando_(tree)</guid>
+      <pubDate>Thu, 11 Dec 2025 06:15:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于域应该成为每个人的“互联网句柄”这一想法的一些想法</title>
+      <link>https://xn--gckvb8fzb.com/domains-as-internet-handles/</link>
+      <description><![CDATA[文章网址：https://xn--gckvb8fzb.com/domains-as-internet-handles/
+评论网址：https://news.ycombinator.com/item?id=46228239
+积分：1
+# 条评论：0]]></description>
+      <guid>https://xn--gckvb8fzb.com/domains-as-internet-handles/</guid>
+      <pubDate>Thu, 11 Dec 2025 06:15:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我为小型 SaaS 应用程序构建了一个小型 Datadog 替代品</title>
+      <link>https://getlogmint.com</link>
+      <description><![CDATA[大家好，
+过去几个月我一直在兼职开发一个小型开发工具，我想分享我构建的内容以及我在这个过程中学到的东西。我维护了一些小型 SaaS 应用程序，我一直觉得现有的监控工具对于小型团队来说太吵闹、太昂贵或太重。我不需要数十个仪表板和数百个指标 - 我只需要将日志、指标、警报和审核日志放在一个轻量级位置，最好是基于 SDK 的。这促使我构建了一个类似 Datadog 的小型工具，我称之为 LogMint。LogMint 处理什么1.应用程序日志2.指标3.警报4。仪表板5.审核日志全部基于 SDK，无代理我不想与大型工具竞争。这更像是一个“独立开发者可以构建一些可用且小型的东西吗？”实验。我在构建它时学到了什么1.从头开始构建仪表板和小部件比摄取需要更多时间
+可视化是最难的部分。2.降噪比功能数量更重要
+我构建这个的原因是我淹没在我不关心的警报中。设计一个保持安静的系统是一个挑战。3.获得第一个用户比编写后端更难
+我尝试过在开发博客上发帖并分享文章。我还没有得到真正的使用。仍在弄清楚这一部分。为什么我要发布此内容我希望获得构建开发人员工具或监控系统的人们的反馈。
+主要是： 1.这种方法（SDK &gt; 代理）有用吗？2.小团队是否真的在寻求更简单的监控？3.这样的工具应该有什么“最低有用版本”？对于那些构建开发工具的人：你的第一批用户是如何出现的？如果有人想看它，该项目在这里：
+(https://getlogmint.com)不出售任何东西 - 只是分享该项目，以防其他人觉得这很有趣或对我应该改进的地方有想法。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46228231
+积分：1
+# 条评论：0]]></description>
+      <guid>https://getlogmint.com</guid>
+      <pubDate>Thu, 11 Dec 2025 06:13:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Mikado 方法在复杂的代码库中进行安全的更改</title>
+      <link>https://understandlegacycode.com/blog/a-process-to-do-safe-changes-in-a-complex-codebase/</link>
+      <description><![CDATA[文章网址：https://understandlegacycode.com/blog/a-process-to-do-safe-changes-in-a-complex-codebase/
+评论网址：https://news.ycombinator.com/item?id=46228224
 积分：2
 # 条评论：0]]></description>
-      <guid>https://notes.eatonphil.com/errors-and-zig.html</guid>
-      <pubDate>Thu, 11 Dec 2025 03:44:59 GMT</pubDate>
+      <guid>https://understandlegacycode.com/blog/a-process-to-do-safe-changes-in-a-complex-codebase/</guid>
+      <pubDate>Thu, 11 Dec 2025 06:11:22 GMT</pubDate>
     </item>
     <item>
-      <title>展开循环</title>
-      <link>https://xania.org/202512/10-loop-unrolling</link>
-      <description><![CDATA[文章网址：https://xania.org/202512/10-loop-unrolling
-评论网址：https://news.ycombinator.com/item?id=46227406
-积分：2
-# 条评论：0]]></description>
-      <guid>https://xania.org/202512/10-loop-unrolling</guid>
-      <pubDate>Thu, 11 Dec 2025 03:44:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>30 年前 Windows 95 改变了一切</title>
-      <link>https://www.goto10retro.com/p/30-years-ago-windows-95-changed-everything</link>
-      <description><![CDATA[文章网址：https://www.goto10retro.com/p/30-years-ago-windows-95-changed-everything
-评论网址：https://news.ycombinator.com/item?id=46227402
+      <title>酒柜</title>
+      <link>https://tedium.co/2025/12/10/404-media-zine-linux-affinity/</link>
+      <description><![CDATA[文章网址：https://tedium.co/2025/12/10/404-media-zine-linux-affinity/
+评论网址：https://news.ycombinator.com/item?id=46228211
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.goto10retro.com/p/30-years-ago-windows-95-changed-everything</guid>
-      <pubDate>Thu, 11 Dec 2025 03:43:23 GMT</pubDate>
+      <guid>https://tedium.co/2025/12/10/404-media-zine-linux-affinity/</guid>
+      <pubDate>Thu, 11 Dec 2025 06:08:23 GMT</pubDate>
     </item>
     <item>
-      <title>中国机器人公司首席执行官发布自己被机器人踢的视频</title>
-      <link>https://www.businessinsider.com/engineai-ceo-robot-kick-video-2025-12</link>
-      <description><![CDATA[文章网址：https://www.businessinsider.com/engineai-ceo-robot-kick-video-2025-12
-评论网址：https://news.ycombinator.com/item?id=46227397
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.businessinsider.com/engineai-ceo-robot-kick-video-2025-12</guid>
-      <pubDate>Thu, 11 Dec 2025 03:42:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>幽灵般的太阳中微子在地下深处转化碳原子</title>
-      <link>https://phys.org/news/2025-12-ghostly-solar-neutrinos-caught-carbon.html</link>
-      <description><![CDATA[文章网址：https://phys.org/news/2025-12-ghostly-solar-neutrinos-caught-carbon.html
-评论网址：https://news.ycombinator.com/item?id=46227362
-积分：3
-# 条评论：1]]></description>
-      <guid>https://phys.org/news/2025-12-ghostly-solar-neutrinos-caught-carbon.html</guid>
-      <pubDate>Thu, 11 Dec 2025 03:36:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用扩展属性来标记文件</title>
-      <link>https://alexlance.blog/tagging.html</link>
-      <description><![CDATA[文章网址：https://alexlance.blog/tagging.html
-评论网址：https://news.ycombinator.com/item?id=46227357
-积分：1
-# 条评论：1]]></description>
-      <guid>https://alexlance.blog/tagging.html</guid>
-      <pubDate>Thu, 11 Dec 2025 03:36:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本经济奇迹的兴衰[视频]</title>
-      <link>https://www.youtube.com/watch?v=vOTgi8PniA8</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=vOTgi8PniA8
-评论网址：https://news.ycombinator.com/item?id=46227355
+      <title>变形金刚一定会产生幻觉</title>
+      <link>https://medium.com/@nikitph/why-transformers-must-hallucinate-7c2a8fc3b3be</link>
+      <description><![CDATA[文章网址：https://medium.com/@nikitph/why-transformers-must-hallucinate-7c2a8fc3b3be
+评论网址：https://news.ycombinator.com/item?id=46228210
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=vOTgi8PniA8</guid>
-      <pubDate>Thu, 11 Dec 2025 03:36:19 GMT</pubDate>
+      <guid>https://medium.com/@nikitph/why-transformers-must-hallucinate-7c2a8fc3b3be</guid>
+      <pubDate>Thu, 11 Dec 2025 06:08:18 GMT</pubDate>
     </item>
     <item>
-      <title>脑启发法学硕士对齐</title>
-      <link>https://docs.google.com/forms/d/e/1FAIpQLSc6vmem8-XfhVkMde3PCyysAS_bwBImk3H9iJo0S1OsqfUHWg/closedform</link>
-      <description><![CDATA[文章网址： https://docs.google.com/forms/d/e/1FAIpQLSc6vmem8-XfhVkMde3PCyysAS_bwBImk3H9iJo0S1OsqfUHWg/filledform
-评论网址：https://news.ycombinator.com/item?id=46227347
+      <title>PicoRuby 是单芯片微控制器的最小 Ruby 实现</title>
+      <link>https://picoruby.org</link>
+      <description><![CDATA[文章网址：https://picoruby.org
+评论网址：https://news.ycombinator.com/item?id=46228206
 积分：1
-# 条评论：1]]></description>
-      <guid>https://docs.google.com/forms/d/e/1FAIpQLSc6vmem8-XfhVkMde3PCyysAS_bwBImk3H9iJo0S1OsqfUHWg/closedform</guid>
-      <pubDate>Thu, 11 Dec 2025 03:33:52 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://picoruby.org</guid>
+      <pubDate>Thu, 11 Dec 2025 06:08:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>一个数据库统领一切</title>
+      <link>https://docs.eventsourcingdb.io/blog/2025/12/11/one-database-to-rule-them-all/</link>
+      <description><![CDATA[文章网址：https://docs.eventsourcedb.io/blog/2025/12/11/one-database-to-rule-them-all/
+评论网址：https://news.ycombinator.com/item?id=46228192
+积分：1
+# 条评论：0]]></description>
+      <guid>https://docs.eventsourcingdb.io/blog/2025/12/11/one-database-to-rule-them-all/</guid>
+      <pubDate>Thu, 11 Dec 2025 06:03:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
