@@ -4,36 +4,77 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 13 Dec 2025 15:20:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 18:27:18 GMT</lastBuildDate>
     <item>
-      <title>人工智能正在让旧核电站重新焕发活力</title>
-      <link>https://www.wbur.org/hereandnow/2025/12/09/nuclear-power-ai</link>
-      <description><![CDATA[文章网址：https://www.wbur.org/hereandnow/2025/12/09/nuclear-power-ai
-评论网址：https://news.ycombinator.com/item?id=46254276
-积分：36
-# 条评论：29]]></description>
-      <guid>https://www.wbur.org/hereandnow/2025/12/09/nuclear-power-ai</guid>
-      <pubDate>Sat, 13 Dec 2025 13:08:36 GMT</pubDate>
+      <title>Java 中快速、内存高效的哈希表：借鉴最好的想法</title>
+      <link>https://bluuewhale.github.io/posts/building-a-fast-and-memory-efficient-hash-table-in-java-by-borrowing-the-best-ideas/</link>
+      <description><![CDATA[文章网址：https://bluuewhale.github.io/posts/building-a-fast-and-memory-efficient-hash-table-in-java-by-borrowing-the-best-ideas/
+评论网址：https://news.ycombinator.com/item?id=46256325
+积分：9
+# 条评论：0]]></description>
+      <guid>https://bluuewhale.github.io/posts/building-a-fast-and-memory-efficient-hash-table-in-java-by-borrowing-the-best-ideas/</guid>
+      <pubDate>Sat, 13 Dec 2025 17:41:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>分析发现，随着电池成本大幅下降，太阳能发电随时可用</title>
+      <link>https://pv-magazine-usa.com/2025/12/12/analysis-finds-anytime-electricity-from-solar-available-as-battery-costs-plummet/</link>
+      <description><![CDATA[文章网址： https://pv-magazine-usa.com/2025/12/12/analysis-finds-anytime-electricity-from-solar-available-as-battery-costs-plummet/
+评论网址：https://news.ycombinator.com/item?id=46256249
+积分：20
+# 条评论：6]]></description>
+      <guid>https://pv-magazine-usa.com/2025/12/12/analysis-finds-anytime-electricity-from-solar-available-as-battery-costs-plummet/</guid>
+      <pubDate>Sat, 13 Dec 2025 17:32:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>EasyPost (YC S13) 正在招聘</title>
+      <link>https://www.easypost.com/careers</link>
+      <description><![CDATA[文章网址：https://www.easypost.com/careers
+评论网址：https://news.ycombinator.com/item?id=46256002
+积分：0
+# 条评论：0]]></description>
+      <guid>https://www.easypost.com/careers</guid>
+      <pubDate>Sat, 13 Dec 2025 17:01:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>我尝试过 Gleam 的 Advent of Code</title>
+      <link>https://blog.tymscar.com/posts/gleamaoc2025/</link>
+      <description><![CDATA[文章网址：https://blog.tymscar.com/posts/gleamaoc2025/
+评论网址：https://news.ycombinator.com/item?id=46255991
+积分：60
+# 条评论：18]]></description>
+      <guid>https://blog.tymscar.com/posts/gleamaoc2025/</guid>
+      <pubDate>Sat, 13 Dec 2025 17:00:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：我怎样才能更好地使用人工智能进行编程？</title>
+      <link>https://news.ycombinator.com/item?id=46255285</link>
+      <description><![CDATA[我最近一直在做一个个人项目，将一个旧的 jQuery + Django 项目重写为 SvelteKit。主要工作是将 UI 模板翻译成惯用的 SvelteKit，同时保持原始样式。这包括使用语义 HTML 而不是 div 垃圾邮件、不在 div 中包装 div 以及用最小的 tailwind 替换 bootstrap 等。它还包括一些逻辑重构，以维护原始功能，但进行重写以避免多年的代码债务。例如使用可组合 Svelte 组件的多个视图的布尔标志替换模板。我有一个相当稳定的流程来执行此操作：查看 Django 中定义的每个路由，构建我的“+page.server.ts”，然后将页面的每个主要部分拆分为具有匹配 Storybook 故事的 Svelte 组件。这样做需要花费很多时间，因为我必须确保我不仅仅是复制模板，而是以更惯用的风格重新创建它。这种工作似乎是人工智能辅助编程的一个很好的用例，但我未能有效地使用它。我最多只能让 Claude Code 在 Svelte 中重新创建一些稍微不那么意大利面条式的代码。简单的提示根本无法让 AI 的代码质量达到我手写代码的 90% 以内。理想情况下，人工智能可以在 15-20 分钟内将其代码转换为我可以手动检查的内容，这将大大加快该项目的时间（现在我需要 1-2 小时才能正确翻译一条路线）。你们对如何利用人工智能提高效率和代码质量有建议或建议吗？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46255285
+积分：49
+# 条评论：36]]></description>
+      <guid>https://news.ycombinator.com/item?id=46255285</guid>
+      <pubDate>Sat, 13 Dec 2025 15:37:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Z8086：从原始微码重建 8086</title>
+      <link>https://nand2mario.github.io/posts/2025/z8086/</link>
+      <description><![CDATA[文章网址：https://nand2mario.github.io/posts/2025/z8086/
+评论网址：https://news.ycombinator.com/item?id=46255007
+积分：11
+# 条评论：2]]></description>
+      <guid>https://nand2mario.github.io/posts/2025/z8086/</guid>
+      <pubDate>Sat, 13 Dec 2025 15:04:29 GMT</pubDate>
     </item>
     <item>
       <title>我们构建了另一个对象存储</title>
       <link>https://fractalbits.com/blog/why-we-built-another-object-storage/</link>
       <description><![CDATA[文章网址：https://fractalbits.com/blog/why-we-built-another-object-storage/
 评论网址：https://news.ycombinator.com/item?id=46254087
-积分：61
-# 条评论：13]]></description>
+积分：115
+# 条评论：38]]></description>
       <guid>https://fractalbits.com/blog/why-we-built-another-object-storage/</guid>
       <pubDate>Sat, 13 Dec 2025 12:29:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>YouTube 首席执行官限制孩子们使用社交媒体——其他科技公司老板也这么做</title>
-      <link>https://www.cnbc.com/2025/12/13/youtubes-ceo-is-latest-tech-boss-limiting-his-kids-social-media-use.html</link>
-      <description><![CDATA[文章网址：https://www.cnbc.com/2025/12/13/youtubes-ceo-is-latest-tech-boss-limiting-his-kids-social-media-use.html
-评论网址：https://news.ycombinator.com/item?id=46253985
-积分：90
-# 条评论：68]]></description>
-      <guid>https://www.cnbc.com/2025/12/13/youtubes-ceo-is-latest-tech-boss-limiting-his-kids-social-media-use.html</guid>
-      <pubDate>Sat, 13 Dec 2025 12:03:51 GMT</pubDate>
     </item>
     <item>
       <title>计算机动画师和 Amiga 狂热者迪克·范·戴克 (Dick Van Dyke) 诞辰 100 周年</title>
@@ -41,8 +82,8 @@
       <description><![CDATA[这是 2004 年的视频 https://www.youtube.com/watch?v=Y1J9kfDCAmU今天是他的 100 岁生日。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46252993
-积分：115
-# 条评论：24]]></description>
+积分：177
+# 条评论：42]]></description>
       <guid>https://news.ycombinator.com/item?id=46252993</guid>
       <pubDate>Sat, 13 Dec 2025 08:15:48 GMT</pubDate>
     </item>
@@ -51,60 +92,20 @@
       <link>https://hey.paris/posts/appleid/</link>
       <description><![CDATA[文章网址：https://hey.paris/posts/appleid/
 评论网址：https://news.ycombinator.com/item?id=46252114
-积分：888
-评论数：458]]></description>
+积分：1265
+# 条评论：719]]></description>
       <guid>https://hey.paris/posts/appleid/</guid>
       <pubDate>Sat, 13 Dec 2025 04:55:59 GMT</pubDate>
     </item>
     <item>
-      <title>可怜的约翰尼仍然不会加密</title>
-      <link>https://bfswa.substack.com/p/poor-johnny-still-wont-encrypt</link>
-      <description><![CDATA[文章网址：https://bfswa.substack.com/p/poor-johnny-still-wont-encrypt
-评论网址：https://news.ycombinator.com/item?id=46251952
-积分：52
-# 条评论：66]]></description>
-      <guid>https://bfswa.substack.com/p/poor-johnny-still-wont-encrypt</guid>
-      <pubDate>Sat, 13 Dec 2025 04:21:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 正在悄然采用技能，现已在 ChatGPT 和 Codex CLI 中提供</title>
-      <link>https://simonwillison.net/2025/Dec/12/openai-skills/</link>
-      <description><![CDATA[文章网址：https://simonwillison.net/2025/Dec/12/openai-skills/
-评论网址：https://news.ycombinator.com/item?id=46250332
-积分：483
-# 条评论：273]]></description>
-      <guid>https://simonwillison.net/2025/Dec/12/openai-skills/</guid>
-      <pubDate>Fri, 12 Dec 2025 23:30:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>50 年的证明助理</title>
-      <link>https://lawrencecpaulson.github.io//2025/12/05/History_of_Proof_Assistants.html</link>
-      <description><![CDATA[文章网址：https://lawrencecpaulson.github.io//2025/12/05/History_of_Proof_Assistants.html
-评论网址：https://news.ycombinator.com/item?id=46250309
-积分：107
-# 条评论：17]]></description>
-      <guid>https://lawrencecpaulson.github.io//2025/12/05/History_of_Proof_Assistants.html</guid>
-      <pubDate>Fri, 12 Dec 2025 23:26:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：C 语言的小型 VM 沙箱以及 Rust、C 和 Zig 语言的应用程序</title>
-      <link>https://github.com/ringtailsoftware/uvm32</link>
-      <description><![CDATA[文章网址：https://github.com/ringtailsoftware/uvm32
-评论网址：https://news.ycombinator.com/item?id=46249538
-积分：167
-# 条评论：11]]></description>
-      <guid>https://github.com/ringtailsoftware/uvm32</guid>
-      <pubDate>Fri, 12 Dec 2025 22:02:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>Capsudo：重新思考 sudo 与对象功能</title>
-      <link>https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capabilities.html</link>
-      <description><![CDATA[文章网址：https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capability.html
-评论网址：https://news.ycombinator.com/item?id=46249337
-积分：76
-# 条评论：45]]></description>
-      <guid>https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capabilities.html</guid>
-      <pubDate>Fri, 12 Dec 2025 21:42:04 GMT</pubDate>
+      <title>Conway 的《生命游戏》(2021) 中实现的 Lisp 解释器</title>
+      <link>https://woodrush.github.io/blog/posts/2022-01-12-lisp-in-life.html</link>
+      <description><![CDATA[文章网址：https://woodrush.github.io/blog/posts/2022-01-12-lisp-in-life.html
+评论网址：https://news.ycombinator.com/item?id=46251620
+积分：58
+# 条评论：2]]></description>
+      <guid>https://woodrush.github.io/blog/posts/2022-01-12-lisp-in-life.html</guid>
+      <pubDate>Sat, 13 Dec 2025 03:06:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
