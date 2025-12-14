@@ -4,122 +4,138 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 14 Dec 2025 12:40:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 15:20:12 GMT</lastBuildDate>
     <item>
-      <title>2025 年：网络安全跨越人工智能卢比孔河的一年</title>
-      <link>https://www.govtech.com/blogs/lohrmann-on-cybersecurity/2025-the-year-cybersecurity-crossed-the-ai-rubicon</link>
-      <description><![CDATA[文章网址：https://www.govtech.com/blogs/lohrmann-on-cybersecurity/2025-the-year-cybersecurity-crossed-the-ai-rubicon
-评论网址：https://news.ycombinator.com/item?id=46262550
+      <title>在 PicoLisp 中实施 TPC-H 基准测试</title>
+      <link>https://picolisp.com/wiki/?tpch</link>
+      <description><![CDATA[文章网址：https://picolisp.com/wiki/?tpch
+评论网址：https://news.ycombinator.com/item?id=46263553
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.govtech.com/blogs/lohrmann-on-cybersecurity/2025-the-year-cybersecurity-crossed-the-ai-rubicon</guid>
-      <pubDate>Sun, 14 Dec 2025 12:19:27 GMT</pubDate>
+      <guid>https://picolisp.com/wiki/?tpch</guid>
+      <pubDate>Sun, 14 Dec 2025 15:07:51 GMT</pubDate>
     </item>
     <item>
-      <title>戈尔曼悖论：所有人工智能生成的应用程序都在哪里？</title>
-      <link>https://codemanship.wordpress.com/2025/12/14/the-gorman-paradox-where-are-all-the-ai-generated-apps/</link>
-      <description><![CDATA[文章网址：https://codemanship.wordpress.com/2025/12/14/the-gorman-paradox-where-are-all-the-ai- generated-apps/
-评论网址：https://news.ycombinator.com/item?id=46262545
-积分：3
+      <title>法国“六个月内”自动实时拦截盗版 IPTV</title>
+      <link>https://torrentfreak.com/automated-real-time-pirate-iptv-blocking-in-france-within-six-months-251214/</link>
+      <description><![CDATA[文章网址：https://torrentfreak.com/automated-real-time-pirate-iptv-blocking-in-france-within-six-months-251214/
+评论网址：https://news.ycombinator.com/item?id=46263544
+积分：1
+# 条评论：0]]></description>
+      <guid>https://torrentfreak.com/automated-real-time-pirate-iptv-blocking-in-france-within-six-months-251214/</guid>
+      <pubDate>Sun, 14 Dec 2025 15:07:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 LLVM-mca 阐明处理器内核</title>
+      <link>https://abseil.io/fast/99</link>
+      <description><![CDATA[文章网址：https://abseil.io/fast/99
+评论网址：https://news.ycombinator.com/item?id=46263530
+积分：1
+# 条评论：0]]></description>
+      <guid>https://abseil.io/fast/99</guid>
+      <pubDate>Sun, 14 Dec 2025 15:05:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>不可逾越的汉斯（或涡轮增压门柱移动的时代）</title>
+      <link>https://cjauvin.github.io/posts/insurmountable-hans/</link>
+      <description><![CDATA[文章网址：https://cjauvin.github.io/posts/insurmountable-hans/
+评论网址：https://news.ycombinator.com/item?id=46263524
+积分：1
+# 条评论：0]]></description>
+      <guid>https://cjauvin.github.io/posts/insurmountable-hans/</guid>
+      <pubDate>Sun, 14 Dec 2025 15:03:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>意想不到的微生物正在深海固定碳</title>
+      <link>https://www.nature.com/articles/s41561-025-01798-x</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41561-025-01798-x
+评论网址：https://news.ycombinator.com/item?id=46263509
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nature.com/articles/s41561-025-01798-x</guid>
+      <pubDate>Sun, 14 Dec 2025 15:01:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我制作了一个用于调整测试版 LLM 的人机交互系统</title>
+      <link>https://www.joinoneshot.com/</link>
+      <description><![CDATA[OneShot 是一个 API，可将失败的 LLM 输出路由给经过培训的人员、返回更正的输出或提示注入，并将编辑内容存储为结构化训练数据。隐私说明：
+该产品还不是为了保护隐私而而设计的。当前的用例是内部工具或测试版功能，不向用户承诺隐私。但这个工具的重点不是用于生产。将来将会有一个自动匿名化所有私人信息的功能。问题：
+我今年的项目是为儿科医生提供一个在人工智能协助下进行保险索赔的工具。像这样的利基行业需要大量的示例、微调和重新提示才能真正为他们提供有效的产品。然后，它需要在某种程度上监控输出（当然要经过医院的同意），这样小的模型变化或边缘情况至少在前几个月不会破坏输出。这种监控需要几个月的时间来分散注意力，不去开发新功能。我想要发布的每一个新功能都需要这种持续的测试版监控，以使其达到可靠的状态。这还包括我可靠工作所需的内部工具和自动化。从那时起，我开始希望有一位人工智能工程师/架构师每天 24-7 监控每个新功能第一个月的输出。  在现实世界的软件中，程序需要更少的破坏。几乎从来没有。目前的人工智能模型通常无法帮助我们实现这一目标。从 90% 到 100 或 95 到 100。我们在发布新功能之前浪费了几个月的时间试图在内部对其进行调整，而模型无法在现实世界中进行改进。在利基代理环境中，有时需要一个真正的人介入。它是如何工作的：
+首先，测试版部署。
+您部署人工智能来执行测试版或内部的 X 业务用例。管道的每个步骤都会使用您喜欢的模型等查询我们的 API。然后，负责一批输出的人员将在出现问题时看到带有标记的输出（我们首先就这意味着什么达成一致）。然后，他们可以使用人类判断来调整提示，提示不同的模型，或者在多个并行线程中一遍又一遍地提供添加的上下文，直到出现正确的输出。第二，微调。
+现在，您拥有一个数据集，其中包含对提示进行了哪些更改以及对输出进行了哪些更改导致了神奇的输出。数以千计的更改和调整可以将您的模型内部每个功能提升到一个新的水平，这些都在您的数据库中。这些数据使您能够更快地发货，并获得更好的保证，并减少不受现实世界奖励或惩罚的手动测试。人类是谁？
+我是一名开发人员，与我的技术朋友手动制作门票，我现在要自掏腰包（是的，它是 24/7 可用！！！）。
+这是在测试期间故意采用手动方式，具有明确的审核指南，因此我们在尝试雇用之前了解该流程。速度有多慢？
+大多数时候，没有人会碰它，有时人类会采取快速、不明显的自动化动作。在某些边缘情况下，您会感觉到一些明显的减速（10 秒以上），但我们也希望加速这些速度，替代方案是完全破坏输出。它不适合谁？
+这不适用于消费者应用程序、隐私敏感的生产系统或期望零人工参与的团队。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46263508
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.joinoneshot.com/</guid>
+      <pubDate>Sun, 14 Dec 2025 15:01:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Git 历史比你的站立演讲更了解。我们构建了一个人工智能来查询它</title>
+      <link>https://news.ycombinator.com/item?id=46263486</link>
+      <description><![CDATA[我构建 Gitmore 已经有一段时间了。我正在解决的问题：每周 
+我会花 1-2 小时滚动浏览提交，试图拼凑出“做了什么” 
+我们发货？”对于那些不想阅读“feat: impl oauth2 w/refresh”的利益相关者。见解：所有信息都已在 Git 中。提交、PR、作者、时间戳。 
+对于非开发人员来说，它是无法阅读的。因此我在其上构建了一个 AI 层：1.通过 OAuth 连接到 GitHub/GitLab/Bitbucket（仅读取元数据，从不读取代码）
+2. 通过 webhooks 实时捕获提交和 PR
+3. 使用 Claude 将原始 Git 活动转换为人类可读的摘要
+4. 按照您想要的任何时间表通过电子邮件或 Slack 自动交付示例转换： 之前：“修复：rm 已弃用的 api 调用，重构：提取身份验证中间件”
+  之后：“通过更新已弃用的端点来修复 API 超时。改进 
+         通过集中身份验证逻辑来确保安全。”
+
+技术堆栈：Next.js 15、MongoDB、用于异步报告生成的 Bull 队列、 
+Claude API 用于总结。用于实时数据的 Webhook，而不是轮询。我在构建此过程中学到的一些东西：- 提交消息遵循严格的模式（73% 以 feat:/fix:/refactor: 开头） 
+  但几乎不包含“为什么”上下文
+- 团队每年/人花费约 78 小时手动编写状态报告
+- 问题“这周我们运送了什么？”占查询量的 62% 
+  关于存储库同一数据层出现的其他功能：
+- 您可以与人工智能代理聊天（“莎拉上周做了什么工作？”）
+- 具有贡献评分的开发者排行榜
+- 自动生成的公共变更日志免费层：1 个存储库，1 个自动化。 Pro（15 美元/月）：5 个存储库。 
+企业（49 美元/月）：20 个存储库 + 自定义品牌报告。https://gitmore.io乐于回答有关架构、AI 提示策略、 
+或 webhook 处理。也很好奇 - 其他团队如何处理“我们运送了什么” 
+有问题吗？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46263486
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=46263486</guid>
+      <pubDate>Sun, 14 Dec 2025 14:57:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 照片编辑器 – 免费在线 AI 图像编辑器和增强器</title>
+      <link>https://ai-photo-editor.co</link>
+      <description><![CDATA[文章网址：https://ai-photo-editor.co
+评论网址：https://news.ycombinator.com/item?id=46263477
+积分：2
+# 条评论：0]]></description>
+      <guid>https://ai-photo-editor.co</guid>
+      <pubDate>Sun, 14 Dec 2025 14:57:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么超过四分之一的美国人承认在自助结账时偷窃</title>
+      <link>https://www.marketplace.org/story/2025/12/11/why-are-people-stealing-from-selfcheckout</link>
+      <description><![CDATA[文章网址：https://www.marketplace.org/story/2025/12/11/why-are-people-stealing-from-selfcheckout
+评论网址：https://news.ycombinator.com/item?id=46263469
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.marketplace.org/story/2025/12/11/why-are-people-stealing-from-selfcheckout</guid>
+      <pubDate>Sun, 14 Dec 2025 14:56:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>流感病毒进入我们的细胞[视频]</title>
+      <link>https://www.youtube.com/watch?v=zx_6BZ7czBU</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=zx_6BZ7czBU
+评论网址：https://news.ycombinator.com/item?id=46263452
+积分：2
 # 条评论：1]]></description>
-      <guid>https://codemanship.wordpress.com/2025/12/14/the-gorman-paradox-where-are-all-the-ai-generated-apps/</guid>
-      <pubDate>Sun, 14 Dec 2025 12:18:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Dobling - 为 gen AI 准备好文档</title>
-      <link>https://github.com/docling-project/docling</link>
-      <description><![CDATA[文章网址：https://github.com/docling-project/docling
-评论网址：https://news.ycombinator.com/item?id=46262544
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/docling-project/docling</guid>
-      <pubDate>Sun, 14 Dec 2025 12:18:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Aero.zip – 可恢复的 E2EE 文件传输，而非 P2P（100 GB，不透明）</title>
-      <link>https://aero.zip</link>
-      <description><![CDATA[嘿，HN！我是 Linas，这是我对 XKCD 949 的看法。我创建了一个文件发送/共享网站（想想 WeTransfer），我认为它在几个方面是独一无二的：* 端到端加密
-* 收件人可以随时开始下载，即它不是像 FilePizza 这样基于 P2P WebRTC 的东西
-*（有效）上传数据的大小没有限制，即加密/解密 100 GB 就可以了
-*（有效）不限制发送的文件数量
-* 实时传输，即收件人甚至可以在您完成上传文件之前就开始下载文件
-* 可断点上传/下载
-* ZIP 下载 - 在浏览器中根据解密数据动态创建 ZIP
-* 完整的密钥验证，即可以从具有 PRF 的密钥导出数据加密密钥
-* 快速 - 10 Gbps 链路，加上分块设计，上传 1024 个 1 KB 文件或单个 1 MB 文件大约需要相同的时间
-* 没有讨厌的跟踪器此外，它还有黑暗模式！上传过程将小文件连接在一起，将大文件分开，从数据构建约 1 MB 的块，使用 AES-256-GCM 加密每个块（每个块都有自己独特的 IV），并通过 WebSockets 通道将其流式传输；下载过程反向执行几乎相同的操作。服务器端传入的上传被写入支持随机访问的定制二进制格式（类似于 Protobuf）。这可以实现上传/下载恢复、选择性下载一个或多个文件以及实时下载。下载时，网站会设置一个 Service Worker 并将其 URL 添加为 iframe（一种已知的黑客行为，强制浏览器下载由 JavaScript 生成的内容）。所述服务工作者获取数据，对其进行解密，然后动态创建未压缩的 ZIP 存档；为此，我实现了一个全新的流式 ZIP64 存档器（我正在考虑在某个时候将其开源）。我使用 OPAQUE 进行身份验证（尽管有 serenity-kit/opaque 和 Facebook 的 opaque-ke），因为这似乎是阻止我了解任何人的“hunter2”的好方法（密码用于加密 DEK，DEK 反过来又加密上传的“秘密密钥”）对于经过身份验证的用户）。此外，OPAQUE 还可以防止弱密码在我这边出现安全混乱的情况下被破解。该网站能够仅使用密码来完全验证用户身份。如果密钥提供商支持 PRF，则网站将不必询问用户的主密码，因为它将能够使用 PRF 解密 DEK；否则，密钥将作为 2FA 的一种方式。如果您想尝试一下，请使用 iCloud 钥匙串（在 macOS / iOS 上）、Windows Hello 或 Android 来存储密钥。前端使用 Svelte 5。我不像这里的某些人那样是前端魔术师，但我想至少我设法保持它快速和简单。我想如果我们的消息现在默认是 E2E 加密的，甚至我在新闻网站上阅读的新闻文章也受到 TLS 的保护，那么文件发送服务也应该享有一些隐私 - 在这一点上，E2EE 应该只是基本的隐私卫生。整个项目花费的时间比我愿意承认的要长，主要是因为我被一堆过早的优化所困扰，而且还不得不假装学习如何做现代前端。免费传输有 2 GB 的免费限制，还有一个 100 GB 限制的高级订阅选项。我希望它能长期存在，但我必须保证财务正常。如果您觉得有用，希望得到您的支持！如果 HN 有兴趣，很乐意分享免费试用的促销代码（无需 CC）。欢迎反馈！（如果有语法错误，请原谅，我不是以英语为母语的人，我不想将其提供给 LLM，使其看起来像 AI 废话。）
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46262540
-积分：1
-# 条评论：0]]></description>
-      <guid>https://aero.zip</guid>
-      <pubDate>Sun, 14 Dec 2025 12:17:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI 代理入侵大学网络，16 小时内超越人类专家</title>
-      <link>https://www.businessinsider.com/ai-agent-hacker-stanford-study-outperform-human-artemis-2025-12</link>
-      <description><![CDATA[文章网址：https://www.businessinsider.com/ai-agent-hacker-stanford-study-outperform- human-artemis-2025-12
-评论网址：https://news.ycombinator.com/item?id=46262525
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.businessinsider.com/ai-agent-hacker-stanford-study-outperform-human-artemis-2025-12</guid>
-      <pubDate>Sun, 14 Dec 2025 12:15:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>欧洲人的健康数据出售给前以色列间谍经营的美国公司</title>
-      <link>https://www.ftm.eu/articles/europe-health-data-us-firm-israel-spies</link>
-      <description><![CDATA[文章网址：https://www.ftm.eu/articles/europe-health-data-us-firm-israel-spies
-评论网址：https://news.ycombinator.com/item?id=46262524
-积分：13
-# 条评论：1]]></description>
-      <guid>https://www.ftm.eu/articles/europe-health-data-us-firm-israel-spies</guid>
-      <pubDate>Sun, 14 Dec 2025 12:15:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>想法：使用AI作为预处理器来改进传统TT</title>
-      <link>https://news.ycombinator.com/item?id=46262520</link>
-      <description><![CDATA[我一直在考虑一种方法，让非神经/传统 TTS 听起来更好，而无需更换 TTS 引擎本身。核心思想是在 TTS 合成之前插入 AI 文本预处理器。AI 模型不是将原始文本直接输入 TTS，而是解析并重写文本以针对语音进行优化，处理当前 TTS 管道做得很差的事情，除非用户是 SSML 专家。预处理器会做什么做：1。控制节奏、节奏和音调：
-自动推断停顿、强调和句子流程。大多数用户不了解 SSML，但良好的节奏本身就可以显着提高感知质量。2.语境感知发音
-例如：“我希望我们一起吃饭。”
-这里，“US”应该发音为“us”，而不是“U.S.”3。重写文本以确保发音清晰。标准化数字：10 000 → 10,000 或“一万”调整外文名称或歧义词需要时进行语音提示（例如，sake →“sayk”）保留含义但提高语音输出的小重写这不会达到完整神经 TTS 的质量，但它可以极大地缩小差距，尤其是适用于：低资源环境嵌入式系统传统 TTS 引擎成本敏感的用例很好奇是否有人在生产中看到过类似的方法，或者是否已经在某处悄悄完成。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46262520
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46262520</guid>
-      <pubDate>Sun, 14 Dec 2025 12:13:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：两阶段电价能否加速可再生能源部署？</title>
-      <link>https://news.ycombinator.com/item?id=46262513</link>
-      <description><![CDATA[我正在寻找对以下概念的批评反馈：短视频 (YouTube)：https://www.youtube.com/watch?v=fLwI98huNWM
-完整预印本（Zenodo）：https://doi.org/10.5281/zenodo.17288906我不想在这里出售任何东西。我确实在亚马逊上写了一本包含更多细节的书，但预印本应该足以评估这个概念。我特别看重：- 你认为的弱点是什么（监管、项目融资、消费者接受度、部署限制或其他），- 它是否可以单独工作，- 你将如何改进它。Zenodo 显示出吸引力（浏览量/下载量），但我没有得到有关人们实际想法的反馈。我很感激您的想法。谢谢。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46262513
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46262513</guid>
-      <pubDate>Sun, 14 Dec 2025 12:11:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：并排询问 TOP Premium AI Tool 的统一界面</title>
-      <link>https://modelxpert.com/</link>
-      <description><![CDATA[文章网址：https://modelxpert.com/
-评论网址：https://news.ycombinator.com/item?id=46262499
-积分：1
-# 条评论：0]]></description>
-      <guid>https://modelxpert.com/</guid>
-      <pubDate>Sun, 14 Dec 2025 12:09:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>ZX 频谱的高效基本编码</title>
-      <link>https://blog.jafma.net/2020/02/24/efficient-basic-coding-for-the-zx-spectrum/</link>
-      <description><![CDATA[文章网址：https://blog.jafma.net/2020/02/24/efficient-basic-coding-for-the-zx-spectrum/
-评论网址：https://news.ycombinator.com/item?id=46262480
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blog.jafma.net/2020/02/24/efficient-basic-coding-for-the-zx-spectrum/</guid>
-      <pubDate>Sun, 14 Dec 2025 12:04:44 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=zx_6BZ7czBU</guid>
+      <pubDate>Sun, 14 Dec 2025 14:54:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
