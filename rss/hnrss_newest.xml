@@ -4,107 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 13 Dec 2025 21:19:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 01:48:04 GMT</lastBuildDate>
     <item>
-      <title>媒体服务器项目的分散登录系统？</title>
-      <link>https://news.ycombinator.com/item?id=46258069</link>
-      <description><![CDATA[我有一个我一直想做的副项目的有趣计划，即媒体服务器。目前这并不严重，但我真的很想这么做（用我平庸的 Rust 编码技能）。很大一部分吸引力是我希望为观看媒体提供尽可能最好的便利，适合 2025/26 年，而不依赖于单个实体/故障点。我已经为这个项目学习 Rust 和其他一些东西有一段时间了（我已经有了低级代码知识并完成了相当多的小项目，所以不是一个完全的新手）。像 Plex 一样思考，但没有中央服务器。登录账号可以访问多个服务器（好友B、好友C服务器）。是否可以？我认为旧的电子邮件/密码可能无法在没有重大妥协的情况下工作（例如密码重置），但任何事情都会发生，无密码电子邮件，临时代码等...... idk tbh）。我问了几个法学硕士，但没有得到满意的结果，这并没有归结为带有私钥-公钥系统的 Nostr/DHT。从数据角度来看，Nostr 似乎是这样，但我仍然需要完全理解它。我知道，有了捐款或我的钱包，运行一个 Hetzner 服务器 + 一些全局服务器以从维护人员那里获得冗余来完成这项任务确实并不昂贵。我还是更喜欢没有。我的基本想法（还没有具体细节，所以我可能错过了关键的事情）是使用像 Nostr 这样的去中心化系统（甚至媒体服务器主机本身作为一个节点，有点像 TOR 节点？）来简单地存储注册用户和添加他们的服务器映射，当然所有这些都用盐加密。然后，如果电子邮件密码可行，请在实际服务器上处理密码重置等。为什么？虽然像 Bitwarden 一样，您可以在登录屏幕上添加一个链接/url，然后就完成了，但这也可能是与您爸爸/妈妈通话的原因。我真的很想为技术不太熟练的用户简化流程。是的，url 是一个简单的概念，但很多人很快就会感到困惑，并且手动编写/指导用户编写 URL 充满了摩擦。即使技术相当熟练的用户仍然需要花费时间来编写或传达 URL，更不用说更长的 URL 了。我的意思是，考虑在电视上写 URL，发生了很多事情，需要很多时间。当然，如果没有广泛的审核/验证（如果可能的话），我不会单独进行这个项目的（大部分）部分，即使设计超出了我的技能，即使我有基本的加密知识（大学时期只学了一门课程，我实际上只知道公共私有加密是如何工作的以及这样的基本知识）。另一个更简单的想法是创建一个“同步”层，其中多个服务器一起加入。这样用户 A 就可以登录主机 B 上的帐户，而且还能在所有朋友组服务器之间获得“同步”的电视节目搜索结果等（就像目前 Plex 的做法一样）。是的，我设法方便了他们中的很多人来旋转服务器，并且互相挑剔非常有趣：p我知道我已经超越了自己，但这并不是我这样做的唯一原因。我有更多的理由去真正追求这个项目，但这个登录想法确实让我质疑它是否值得/可行。不过，我预计这一目标还需要一两年的时间才能成为现实。另外，第一篇黑客新闻文章，如果是文字墙或很奇怪，我很抱歉。
+      <title>Show HN：Libefaxx – AWS EFA GPU/CPU RDMA 通信的微基准测试</title>
+      <link>https://github.com/crazyguitar/Libefaxx</link>
+      <description><![CDATA[我正在分享 Libefaxx，这是一个针对 AWS Elastic Fabric Adapter (EFA) 的开源微基准测试，专注于 GPU/CPU RDMA 通信。大多数现有基准测试（例如 nccl-tests、NVSHMEM）都会测量集体库，这使得很难隔离原始 EFA 传输性能。随着人们对 GPU 启动网络 (GIN)（例如 Deep-EP）的兴趣日益浓厚，我们希望找到一种方法来直接测量较低级别的 EFA 延迟、带宽和扩展行为。Libefaxx 通过帮助工程师和研究人员更好地理解和优化 AWS 上大规模分布式训练的节点间通信来补充现有工具。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46258069
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46258069</guid>
-      <pubDate>Sat, 13 Dec 2025 21:08:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Visual Studio Code 时代</title>
-      <link>https://blog.robenkleene.com/2020/09/21/the-era-of-visual-studio-code/</link>
-      <description><![CDATA[文章网址：https://blog.robenkleene.com/2020/09/21/the-era-of-visual-studio-code/
-评论网址：https://news.ycombinator.com/item?id=46258068
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blog.robenkleene.com/2020/09/21/the-era-of-visual-studio-code/</guid>
-      <pubDate>Sat, 13 Dec 2025 21:08:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>华盛顿大学工作日项目价值 2.66 亿美元</title>
-      <link>https://www.theregister.com/2025/12/12/washington_university_workday_costs_revealed/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2025/12/12/washington_university_workday_costs_revealed/
-评论网址：https://news.ycombinator.com/item?id=46257986
+评论网址：https://news.ycombinator.com/item?id=46260062
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.theregister.com/2025/12/12/washington_university_workday_costs_revealed/</guid>
-      <pubDate>Sat, 13 Dec 2025 20:58:50 GMT</pubDate>
+      <guid>https://github.com/crazyguitar/Libefaxx</guid>
+      <pubDate>Sun, 14 Dec 2025 01:35:34 GMT</pubDate>
     </item>
     <item>
-      <title>Myna v2.0：上下文变体，更多权重（甚至支持 APL）</title>
-      <link>https://github.com/sayyadirfanali/Myna/releases/tag/v2.0.0</link>
-      <description><![CDATA[文章网址：https://github.com/sayyadirfanali/Myna/releases/tag/v2.0.0
-评论网址：https://news.ycombinator.com/item?id=46257965
+      <title>大麻和大麻素的治疗用途：综述</title>
+      <link>https://jamanetwork.com/journals/jama/fullarticle/2842072?guestAccessKey=a368e622-e374-4a0c-8d3b-22a976500305</link>
+      <description><![CDATA[文章网址： https://jamanetwork.com/journals/jama/fullarticle/2842072?guestAccessKey=a368e622-e374-4a0c-8d3b-22a976500305
+评论网址：https://news.ycombinator.com/item?id=46260039
 积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/sayyadirfanali/Myna/releases/tag/v2.0.0</guid>
-      <pubDate>Sat, 13 Dec 2025 20:57:03 GMT</pubDate>
+      <guid>https://jamanetwork.com/journals/jama/fullarticle/2842072?guestAccessKey=a368e622-e374-4a0c-8d3b-22a976500305</guid>
+      <pubDate>Sun, 14 Dec 2025 01:32:36 GMT</pubDate>
     </item>
     <item>
-      <title>Safari 26.2 发行说明</title>
-      <link>https://developer.apple.com/documentation/safari-release-notes/safari-26_2-release-notes</link>
-      <description><![CDATA[文章网址：https://developer.apple.com/documentation/safari-release-notes/safari-26_2-release-notes
-评论网址：https://news.ycombinator.com/item?id=46257960
+      <title>自由软件奖获奖者公布：Andy Wingo、Alx Sa、Govdirectory</title>
+      <link>https://www.fsf.org/news/2024-free-software-awards-winners</link>
+      <description><![CDATA[文章网址：https://www.fsf.org/news/2024-free-software-awards-winners
+评论网址：https://news.ycombinator.com/item?id=46259970
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.fsf.org/news/2024-free-software-awards-winners</guid>
+      <pubDate>Sun, 14 Dec 2025 01:19:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>NeuralOperator 加入 PyTorch 生态系统</title>
+      <link>https://pytorch.org/blog/neuraloperatorjoins-the-pytorch-ecosystem/</link>
+      <description><![CDATA[文章网址：https://pytorch.org/blog/neuraloperatorjoins-the-pytorch-ecosystem/
+评论网址：https://news.ycombinator.com/item?id=46259950
 积分：1
 # 条评论：0]]></description>
-      <guid>https://developer.apple.com/documentation/safari-release-notes/safari-26_2-release-notes</guid>
-      <pubDate>Sat, 13 Dec 2025 20:56:48 GMT</pubDate>
+      <guid>https://pytorch.org/blog/neuraloperatorjoins-the-pytorch-ecosystem/</guid>
+      <pubDate>Sun, 14 Dec 2025 01:15:32 GMT</pubDate>
     </item>
     <item>
-      <title>Chrome 扩展管理器</title>
-      <link>https://chromewebstore.google.com/detail/extension-manager-extensi/jafcieombbedhpdkjlhcggagepcgaihp</link>
-      <description><![CDATA[文章网址：https://chromewebstore.google.com/detail/extension-manager-extensi/jafcieombbedhpdkjlhcggagepcgaihp
-评论网址：https://news.ycombinator.com/item?id=46257948
-积分：1
+      <title>各州对特朗普 10 万美元的 H-1B 签证费提起诉讼</title>
+      <link>https://www.politico.com/news/2025/12/12/trump-visa-fee-lawsuit-00689510</link>
+      <description><![CDATA[文章网址：https://www.politico.com/news/2025/12/12/trump-visa-fee-lawsuit-00689510
+评论网址：https://news.ycombinator.com/item?id=46259947
+积分：3
 # 条评论：1]]></description>
-      <guid>https://chromewebstore.google.com/detail/extension-manager-extensi/jafcieombbedhpdkjlhcggagepcgaihp</guid>
-      <pubDate>Sat, 13 Dec 2025 20:55:56 GMT</pubDate>
+      <guid>https://www.politico.com/news/2025/12/12/trump-visa-fee-lawsuit-00689510</guid>
+      <pubDate>Sun, 14 Dec 2025 01:14:33 GMT</pubDate>
     </item>
     <item>
-      <title>中国贸易顺差突破创纪录的1吨美元，无视贸易战的不确定性</title>
-      <link>https://www.scmp.com/economy/economic-indicators/article/3335551/chinas-exports-rebound-november-after-trade-war-thaw</link>
-      <description><![CDATA[文章网址：https://www.scmp.com/economy/economic-indicators/article/3335551/chinas-exports-rebound-november-after-trade-war-thaw
-评论网址：https://news.ycombinator.com/item?id=46257947
-积分：4
-# 条评论：0]]></description>
-      <guid>https://www.scmp.com/economy/economic-indicators/article/3335551/chinas-exports-rebound-november-after-trade-war-thaw</guid>
-      <pubDate>Sat, 13 Dec 2025 20:55:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>普渡大学批准所有本科生的新人工智能要求</title>
-      <link>https://www.forbes.com/sites/michaeltnietzel/2025/12/13/purdue-university-approves-new-ai-requirement-for-all-undergrads/</link>
-      <description><![CDATA[文章网址： https://www.forbes.com/sites/michaeltnietzel/2025/12/13/purdue-university-approves-new-ai-requirement-for-all-undergrads/
-评论网址：https://news.ycombinator.com/item?id=46257939
+      <title>在 Veo World 模拟器中评估 Gemini 机器人策略</title>
+      <link>https://veo-robotics.github.io/</link>
+      <description><![CDATA[文章网址：https://veo-robotics.github.io/
+评论网址：https://news.ycombinator.com/item?id=46259936
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.forbes.com/sites/michaeltnietzel/2025/12/13/purdue-university-approves-new-ai-requirement-for-all-undergrads/</guid>
-      <pubDate>Sat, 13 Dec 2025 20:54:32 GMT</pubDate>
+      <guid>https://veo-robotics.github.io/</guid>
+      <pubDate>Sun, 14 Dec 2025 01:13:11 GMT</pubDate>
     </item>
     <item>
-      <title>赛百味的兴衰：价值 110 亿美元的帝国崩溃了</title>
-      <link>https://www.youtube.com/watch?v=LeF6DG7xfpA</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=LeF6DG7xfpA
-评论网址：https://news.ycombinator.com/item?id=46257932
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.youtube.com/watch?v=LeF6DG7xfpA</guid>
-      <pubDate>Sat, 13 Dec 2025 20:53:47 GMT</pubDate>
+      <title>量子计算可以让 IBM 再次登顶</title>
+      <link>https://www.barrons.com/articles/ibm-stock-quantum-computing-system-two-a6c615de</link>
+      <description><![CDATA[文章 URL：https://www.barrons.com/articles/ibm-stock-quantum-computing-system-two-a6c615de
+评论网址：https://news.ycombinator.com/item?id=46259915
+积分：3
+# 条评论：2]]></description>
+      <guid>https://www.barrons.com/articles/ibm-stock-quantum-computing-system-two-a6c615de</guid>
+      <pubDate>Sun, 14 Dec 2025 01:10:11 GMT</pubDate>
     </item>
     <item>
-      <title>人力机构：使用隐藏的反 AI 指令保护您的文档</title>
-      <link>https://www.human-agency.xyz/</link>
-      <description><![CDATA[文章网址：https://www. human-agency.xyz/
-评论网址：https://news.ycombinator.com/item?id=46257927
+      <title>Awesome-Jj：柔术事物</title>
+      <link>https://github.com/Necior/awesome-jj</link>
+      <description><![CDATA[文章网址：https://github.com/Necior/awesome-jj
+评论网址：https://news.ycombinator.com/item?id=46259914
 积分：1
-# 条评论：1]]></description>
-      <guid>https://www.human-agency.xyz/</guid>
-      <pubDate>Sat, 13 Dec 2025 20:53:10 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://github.com/Necior/awesome-jj</guid>
+      <pubDate>Sun, 14 Dec 2025 01:10:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 Miri 中模拟 AVX-512 内在函数</title>
+      <link>https://trifectatech.org/blog/emulating-avx-512-intrinsics-in-miri/</link>
+      <description><![CDATA[文章网址：https://trifectatech.org/blog/emulated-avx-512-intrinsics-in-miri/
+评论网址：https://news.ycombinator.com/item?id=46259905
+积分：1
+# 条评论：0]]></description>
+      <guid>https://trifectatech.org/blog/emulating-avx-512-intrinsics-in-miri/</guid>
+      <pubDate>Sun, 14 Dec 2025 01:08:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>不切换循环以获得乐趣和利润</title>
+      <link>https://xania.org/202512/12-loop-unswitching</link>
+      <description><![CDATA[文章网址：https://xania.org/202512/12-loop-unswitching
+评论网址：https://news.ycombinator.com/item?id=46259866
+积分：1
+# 条评论：0]]></description>
+      <guid>https://xania.org/202512/12-loop-unswitching</guid>
+      <pubDate>Sun, 14 Dec 2025 01:00:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
