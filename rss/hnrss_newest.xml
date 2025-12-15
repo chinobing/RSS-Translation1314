@@ -4,109 +4,114 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 15 Dec 2025 04:05:23 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 06:36:33 GMT</lastBuildDate>
     <item>
-      <title>Arborium：使用 Native 和 WASM 目标突出显示 Tree-sitter 代码</title>
-      <link>https://arborium.bearcove.eu/</link>
-      <description><![CDATA[文章网址：https://arborium.bearcove.eu/
-评论网址：https://news.ycombinator.com/item?id=46270298
+      <title>Raspberry Pi Pico 上的 Fuzix</title>
+      <link>https://ewpratten.com/blog/fuzix-pi-pico</link>
+      <description><![CDATA[文章网址：https://ewpratten.com/blog/fuzix-pi-pico
+评论网址：https://news.ycombinator.com/item?id=46271115
 积分：1
 # 条评论：0]]></description>
-      <guid>https://arborium.bearcove.eu/</guid>
-      <pubDate>Mon, 15 Dec 2025 03:57:46 GMT</pubDate>
+      <guid>https://ewpratten.com/blog/fuzix-pi-pico</guid>
+      <pubDate>Mon, 15 Dec 2025 06:31:39 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：一种具有运行时反射且无 GC 的系统语言</title>
-      <link>https://xxml-language.com</link>
-      <description><![CDATA[嗨，HN，我一直在研究一种名为 XXML 的实验性编程语言。
-该项目始于我在跨系统语言中不断遇到的挫折：具有强大所有权的语言往往会避免运行时反射。具有丰富反射的语言通常依赖 GC 或放弃内存保证。编译时代码生成通常需要单独的宏语言。我想探索这些权衡是否真正必要。XXML 正在尝试做什么XXML 是一种静态类型的本机语言，它：使用显式所有权和借用（无垃圾收集器）支持运行时反射，同时尊重所有权规则允许使用普通语言结构而不是宏来生成编译时代码编译为 LLVM IR 并生成本机二进制文件反射 API 受到限制，因此在编译时会拒绝不安全的所有权操作。目标不是“不惜一切代价动态”，而是在不失去安全性的情况下进行内省。（到目前为止）它有什么用我正在探索的一些具体用例：用于本机应用程序的安全插件/mod系统自动生成序列化（例如，JSON/RPC），无需宏可以推断用户类型的调试和检查工具受益于结构化的声明性域（UI/布局/资产图）语法它不是什么这还处于早期阶段，绝对不适合生产：生态系统很小语言仍在发展文档和工具不完整我最感兴趣的是来自以下工作人员的反馈：编译器语言运行时具有大量序列化或插件边界的系统代码GitHub存储库：
-https://github.com/ThatSoulyGuy/XXMLCompiler 或 https://xxml-language.com我特别感谢有关以下方面的批评：所有权模型反射安全边界此设计所在的位置存在根本缺陷感谢您的阅读 - 很高兴回答问题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46270296
-积分：1
-# 条评论：0]]></description>
-      <guid>https://xxml-language.com</guid>
-      <pubDate>Mon, 15 Dec 2025 03:57:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>加油工</title>
-      <link>http://viznut.fi/unscii/</link>
-      <description><![CDATA[文章网址：http://viznut.fi/unscii/
-评论网址：https://news.ycombinator.com/item?id=46270282
+      <title>从树到图：使用 Hannoy 将矢量搜索速度提高 10 倍</title>
+      <link>https://blog.kerollmops.com/from-trees-to-graphs-speeding-up-vector-search-10x-with-hannoy</link>
+      <description><![CDATA[文章网址：https://blog.kerollmops.com/from-trees-to-graphs-speeding-up-vector-search-10x-with-hannoy
+评论网址：https://news.ycombinator.com/item?id=46271062
 积分：2
-# 条评论：0]]></description>
-      <guid>http://viznut.fi/unscii/</guid>
-      <pubDate>Mon, 15 Dec 2025 03:55:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>电动汽车车主面临新的按英里付费税。环境怎么样？</title>
-      <link>https://phys.org/news/2025-11-electric-vehicle-owners-pay-mile.html</link>
-      <description><![CDATA[文章网址：https://phys.org/news/2025-11-electric-vehicle-owners-pay-mile.html
-评论网址：https://news.ycombinator.com/item?id=46270277
-积分：1
-# 条评论：0]]></description>
-      <guid>https://phys.org/news/2025-11-electric-vehicle-owners-pay-mile.html</guid>
-      <pubDate>Mon, 15 Dec 2025 03:54:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>导演罗布·莱纳去世，享年 78 岁</title>
-      <link>https://www.hollywoodreporter.com/movies/movie-news/rob-reiner-dead-harry-met-sally-princess-bride-all-in-family-1236450387/</link>
-      <description><![CDATA[文章网址： https://www.hollywoodreporter.com/movies/movie-news/rob-reiner-dead-harry-met-sally-princess-bride-all-in-family-1236450387/
-评论网址：https://news.ycombinator.com/item?id=46270273
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.hollywoodreporter.com/movies/movie-news/rob-reiner-dead-harry-met-sally-princess-bride-all-in-family-1236450387/</guid>
-      <pubDate>Mon, 15 Dec 2025 03:54:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>生成式人工智能产业充满欺诈、不道德且危险</title>
-      <link>https://dianne.skoll.ca/writings/ai-is-bad/</link>
-      <description><![CDATA[文章网址：https://dianne.skoll.ca/writings/ai-is-bad/
-评论网址：https://news.ycombinator.com/item?id=46270264
-积分：1
-# 条评论：0]]></description>
-      <guid>https://dianne.skoll.ca/writings/ai-is-bad/</guid>
-      <pubDate>Mon, 15 Dec 2025 03:53:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>同步税</title>
-      <link>https://www.symmetrybroken.com/the-synchronization-tax/</link>
-      <description><![CDATA[文章网址：https://www.symmetrybroken.com/the-synchronization-tax/
-评论网址：https://news.ycombinator.com/item?id=46270253
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.symmetrybroken.com/the-synchronization-tax/</guid>
-      <pubDate>Mon, 15 Dec 2025 03:52:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Niantic 空间公司</title>
-      <link>https://www.nianticspatial.com/</link>
-      <description><![CDATA[文章网址：https://www.nianticspatial.com/
-评论网址：https://news.ycombinator.com/item?id=46270252
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.nianticspatial.com/</guid>
-      <pubDate>Mon, 15 Dec 2025 03:51:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>过去十年印度最贫困人口的生活如何改善</title>
-      <link>https://timesofindia.indiatimes.com/toi-plus/business-economy/how-the-lives-of-indias-poorest-improved-in-the-last-10-years/articleshow/125948350.cms</link>
-      <description><![CDATA[文章网址： https://timesofindia.indiatimes.com/toi-plus/business-economy/how-the-lives-of-indias-poorest-improved-in-the-last-10-years/articleshow/125948350.cms
-评论网址：https://news.ycombinator.com/item?id=46270245
-积分：1
 # 条评论：1]]></description>
-      <guid>https://timesofindia.indiatimes.com/toi-plus/business-economy/how-the-lives-of-indias-poorest-improved-in-the-last-10-years/articleshow/125948350.cms</guid>
-      <pubDate>Mon, 15 Dec 2025 03:51:16 GMT</pubDate>
+      <guid>https://blog.kerollmops.com/from-trees-to-graphs-speeding-up-vector-search-10x-with-hannoy</guid>
+      <pubDate>Mon, 15 Dec 2025 06:22:07 GMT</pubDate>
     </item>
     <item>
-      <title>深色模式是必不可少的，而不是设计偏好</title>
-      <link>https://seemeplease.com/blog/dark-mode</link>
-      <description><![CDATA[文章网址：https://seemeplease.com/blog/dark-mode
-评论网址：https://news.ycombinator.com/item?id=46270220
+      <title>有可靠的免费人工智能商业计划生成器吗？</title>
+      <link>https://news.ycombinator.com/item?id=46271059</link>
+      <description><![CDATA[我正处于新项目的早期规划阶段，正在寻找可以帮助我构建粗略但可靠的商业计划的工具。我还没有准备好支付软件费用，所以我很好奇这里是否有人使用过真正有用的免费人工智能商业计划生成器。
+如果您使用过任何可以提供良好、详细输出的免费工具，您的体验如何？
+不寻求促销，只是寻求实际尝试过的人的诚实反馈。
+谢谢！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46271059
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=46271059</guid>
+      <pubDate>Mon, 15 Dec 2025 06:21:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Warper – 最快的 React 虚拟化库，使用 Rust/WASM 构建</title>
+      <link>https://warper.tech/</link>
+      <description><![CDATA[我构建了最快的 React 虚拟化库。核心是用 Rust 编写的，并编译为 WebAssembly。现场演示：https://warper.tech1000 万行，帧速率超过 120 FPS。没有滞后。没有掉帧。现有的库（例如react-window和react-virtuoso）在规模上遇到了障碍。它们依赖于 JavaScript 二分搜索和 O(n) 扫描可变高度。 Warper 是不同的。引擎使用：- 用于 O(log n) 可变高度查找的 Fenwick 树
+- 固定高度项目的 O(1) 算术
+- WASM 和 JS 之间的零复制类型数组
+- 滚动期间预分配内存池的 GC 为零具有 100 万行的 M1 MacBook Pro 上的基准测试：Warper 达到 119 FPS。 React-virtuoso 下降至 58 FPS。在 10M 行时，Warper 保持在 118 FPS，而 virtuoso 则降至 31 FPS。速度并没有快多少。根据工作负载，其速度提高了 2-4 倍。权衡是捆绑包大小：react-window 约为 45KB，而 6KB。如果您需要性能，那么这是值得的。可通过 GitHub Sponsors 获取：github.com/sponsors/itsmeadarsh2008很高兴回答有关架构的问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46271032
+积分：2
+# 条评论：0]]></description>
+      <guid>https://warper.tech/</guid>
+      <pubDate>Mon, 15 Dec 2025 06:17:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>焦散的实时渲染</title>
+      <link>https://www.youtube.com/watch?v=cD_jnCAqxWk</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=cD_jnCAqxWk
+评论网址：https://news.ycombinator.com/item?id=46271013
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=cD_jnCAqxWk</guid>
+      <pubDate>Mon, 15 Dec 2025 06:15:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>黑客新闻弹出窗口 – Chrome 网上应用店</title>
+      <link>https://chromewebstore.google.com/detail/hacker-news-popup/decfpoogjcefcgolalhpigfcofidngjk</link>
+      <description><![CDATA[文章网址：https://chromewebstore.google.com/detail/hacker-news-popup/decfpoogjcefcgolalhpigfcofidngjk
+评论网址：https://news.ycombinator.com/item?id=46271008
+积分：1
+# 条评论：0]]></description>
+      <guid>https://chromewebstore.google.com/detail/hacker-news-popup/decfpoogjcefcgolalhpigfcofidngjk</guid>
+      <pubDate>Mon, 15 Dec 2025 06:14:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT 中的群聊 – OpenAI 帮助</title>
+      <link>https://help.openai.com/en/articles/12703475-group-chats-in-chatgpt</link>
+      <description><![CDATA[文章网址：https://help.openai.com/en/articles/12703475-group-chats-in-chatgpt
+评论网址：https://news.ycombinator.com/item?id=46270982
+积分：1
+# 条评论：0]]></description>
+      <guid>https://help.openai.com/en/articles/12703475-group-chats-in-chatgpt</guid>
+      <pubDate>Mon, 15 Dec 2025 06:06:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>蛋白质为何折叠以及 GPU 如何帮助我们折叠</title>
+      <link>https://aval.bearblog.dev/nvidiaproteins/</link>
+      <description><![CDATA[文章网址：https://aval.bearblog.dev/nvidia Proteins/
+评论网址：https://news.ycombinator.com/item?id=46270972
 积分：4
 # 条评论：0]]></description>
-      <guid>https://seemeplease.com/blog/dark-mode</guid>
-      <pubDate>Mon, 15 Dec 2025 03:46:59 GMT</pubDate>
+      <guid>https://aval.bearblog.dev/nvidiaproteins/</guid>
+      <pubDate>Mon, 15 Dec 2025 06:05:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>将角色向量提炼为 LLM 权重</title>
+      <link>https://martianlantern.github.io/2025/12/persona-vector-distillation/</link>
+      <description><![CDATA[文章网址：https://martianlantern.github.io/2025/12/persona-vector-distillation/
+评论网址：https://news.ycombinator.com/item?id=46270947
+积分：1
+# 条评论：0]]></description>
+      <guid>https://martianlantern.github.io/2025/12/persona-vector-distillation/</guid>
+      <pubDate>Mon, 15 Dec 2025 06:00:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>传奇喜剧演员兼导演罗布·莱纳被发现在家中身亡</title>
+      <link>https://variety.com/2025/film/news/rob-reiner-dead-princess-bride-spinal-tap-1236608541/</link>
+      <description><![CDATA[文章网址：https://variety.com/2025/film/news/rob-reiner-dead-princess-bride-spinal-tap-1236608541/
+评论网址：https://news.ycombinator.com/item?id=46270945
+积分：2
+# 条评论：2]]></description>
+      <guid>https://variety.com/2025/film/news/rob-reiner-dead-princess-bride-spinal-tap-1236608541/</guid>
+      <pubDate>Mon, 15 Dec 2025 06:00:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
