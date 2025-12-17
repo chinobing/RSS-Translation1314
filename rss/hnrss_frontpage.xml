@@ -4,14 +4,48 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 17 Dec 2025 09:28:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 12:44:31 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：Mephisto – 使用 React 构建的仅 RAM、无广告的一次性电子邮件 PWA</title>
+      <link>https://mephistomail.site</link>
+      <description><![CDATA[您好，HN，我构建 Mephisto 是因为我对一次性电子邮件服务的现状感到沮丧 - 大多数服务都充满了侵入性广告、跟踪器和验证码。我想要一个感觉像合适的开发人员实用程序而不是垃圾邮件场的工具。堆栈是 React、Vite 和 Tailwind。关键架构决策：1.易失性内存：后端不向磁盘写入任何内容。一旦会话终止，数据就无法恢复。
+2. 客户端熵：密码生成器在浏览器本地运行；密钥永远不会发送到服务器。
+3. PWA：它是可安装的，并且设计用于使用 WebSockets 接收邮件（无轮询）以实现低延迟。
+4. 移动设备切换：您可以通过加密的二维码将活动会话转移到移动设备。它完全免费并向公众开放。我很想听听您对实施和用户界面的反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46300047
+积分：11
+评论数量：9]]></description>
+      <guid>https://mephistomail.site</guid>
+      <pubDate>Wed, 17 Dec 2025 09:54:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mozilla 正在努力自杀吗？</title>
+      <link>https://infosec.press/brunomiguel/is-mozilla-trying-hard-to-kill-itself</link>
+      <description><![CDATA[文章网址：https://infosec.press/brunomiguel/is-mozilla-trying-hard-to-kill-itself
+评论网址：https://news.ycombinator.com/item?id=46299934
+积分：389
+评论数：326]]></description>
+      <guid>https://infosec.press/brunomiguel/is-mozilla-trying-hard-to-kill-itself</guid>
+      <pubDate>Wed, 17 Dec 2025 09:37:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能真正的超能力：消费，而不是创造</title>
+      <link>https://msanroman.io/blog/ai-consumption-paradigm</link>
+      <description><![CDATA[文章网址：https://msanroman.io/blog/ai-conspiration-paradigm
+评论网址：https://news.ycombinator.com/item?id=46299552
+积分：49
+# 条评论：34]]></description>
+      <guid>https://msanroman.io/blog/ai-consumption-paradigm</guid>
+      <pubDate>Wed, 17 Dec 2025 08:34:00 GMT</pubDate>
+    </item>
     <item>
       <title>TLA+ 建模技巧</title>
       <link>http://muratbuffalo.blogspot.com/2025/12/tla-modeling-tips.html</link>
       <description><![CDATA[文章网址：http://muratbuffalo.blogspot.com/2025/12/tla-modeling-tips.html
 评论网址：https://news.ycombinator.com/item?id=46299389
-积分：8
-# 条评论：0]]></description>
+积分：49
+# 条评论：7]]></description>
       <guid>http://muratbuffalo.blogspot.com/2025/12/tla-modeling-tips.html</guid>
       <pubDate>Wed, 17 Dec 2025 08:05:30 GMT</pubDate>
     </item>
@@ -20,10 +54,20 @@
       <link>https://twitter.com/ustraderep/status/2000990028835508258</link>
       <description><![CDATA[文章网址：https://twitter.com/ustraderep/status/2000990028835508258
 评论网址：https://news.ycombinator.com/item?id=46299377
-积分：42
-# 条评论：23]]></description>
+积分：71
+# 条评论：69]]></description>
       <guid>https://twitter.com/ustraderep/status/2000990028835508258</guid>
       <pubDate>Wed, 17 Dec 2025 08:04:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>P：分布式（事件驱动）系统的形式化建模和分析</title>
+      <link>https://github.com/p-org/P</link>
+      <description><![CDATA[文章网址：https://github.com/p-org/P
+评论网址：https://news.ycombinator.com/item?id=46299257
+积分：16
+# 条评论：2]]></description>
+      <guid>https://github.com/p-org/P</guid>
+      <pubDate>Wed, 17 Dec 2025 07:42:09 GMT</pubDate>
     </item>
     <item>
       <title>Subsets (YC S23) 正在丹麦哥本哈根招聘工程师</title>
@@ -40,8 +84,8 @@
       <link>https://blog.ozeninc.com/resources/from-datasheet-to-demagnetization-a-guide-to-magnetizing-n48-magnets-in-ansys-maxwell</link>
       <description><![CDATA[文章网址：https://blog.ozeninc.com/resources/from-datasheet-to-demagnetization-a-guide-to-magnetizing-n48-magnets-in-ansys-maxwell
 评论网址：https://news.ycombinator.com/item?id=46298055
-积分：23
-# 条评论：1]]></description>
+积分：30
+# 条评论：2]]></description>
       <guid>https://blog.ozeninc.com/resources/from-datasheet-to-demagnetization-a-guide-to-magnetizing-n48-magnets-in-ansys-maxwell</guid>
       <pubDate>Wed, 17 Dec 2025 03:55:59 GMT</pubDate>
     </item>
@@ -50,8 +94,8 @@
       <link>https://bernsteinbear.com/isdt/</link>
       <description><![CDATA[文章网址：https://bernsteinbear.com/isdt/
 评论网址：https://news.ycombinator.com/item?id=46297127
-积分：72
-评论数量：9]]></description>
+积分：85
+# 条评论：12]]></description>
       <guid>https://bernsteinbear.com/isdt/</guid>
       <pubDate>Wed, 17 Dec 2025 01:26:14 GMT</pubDate>
     </item>
@@ -64,46 +108,6 @@
 # 条评论：0]]></description>
       <guid>https://www.ycombinator.com/companies/sei/jobs/TYbKqi0-llm-engineer-mid-senior</guid>
       <pubDate>Wed, 17 Dec 2025 01:00:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Dafny：验证感知编程语言</title>
-      <link>https://dafny.org/</link>
-      <description><![CDATA[文章网址：https://dafny.org/
-评论网址：https://news.ycombinator.com/item?id=46295792
-积分：72
-# 条评论：25]]></description>
-      <guid>https://dafny.org/</guid>
-      <pubDate>Tue, 16 Dec 2025 22:50:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>我在几个小时内使用 Codex CLI 和 GPT-5.2 将 JustHTML 从 Python 移植到了 JavaScript</title>
-      <link>https://simonwillison.net/2025/Dec/15/porting-justhtml/</link>
-      <description><![CDATA[文章网址：https://simonwillison.net/2025/Dec/15/porting-justhtml/
-评论网址：https://news.ycombinator.com/item?id=46295771
-积分：153
-评论数量：96]]></description>
-      <guid>https://simonwillison.net/2025/Dec/15/porting-justhtml/</guid>
-      <pubDate>Tue, 16 Dec 2025 22:48:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>这里没有人工智能*——对 Mozilla 下一章的回应</title>
-      <link>https://www.waterfox.com/blog/no-ai-here-response-to-mozilla/</link>
-      <description><![CDATA[文章网址：https://www.waterfox.com/blog/no-ai-here-response-to-mozilla/
-评论网址：https://news.ycombinator.com/item?id=46295268
-积分：308
-# 条评论：181]]></description>
-      <guid>https://www.waterfox.com/blog/no-ai-here-response-to-mozilla/</guid>
-      <pubDate>Tue, 16 Dec 2025 22:07:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>Chat-tails：基于 Tailscale 构建的复古终端聊天</title>
-      <link>https://tailscale.com/blog/chat-tails-terminal-chat</link>
-      <description><![CDATA[文章网址：https://tailscale.com/blog/chat-tails-terminal-chat
-评论网址：https://news.ycombinator.com/item?id=46294592
-积分：84
-# 条评论：15]]></description>
-      <guid>https://tailscale.com/blog/chat-tails-terminal-chat</guid>
-      <pubDate>Tue, 16 Dec 2025 21:16:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
