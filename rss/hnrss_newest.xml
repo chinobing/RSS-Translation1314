@@ -4,123 +4,138 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 18 Dec 2025 03:56:27 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 06:34:12 GMT</lastBuildDate>
     <item>
-      <title>Show HN：PacketPro – 在本地检查 iOS 应用程序网络流量</title>
-      <link>https://apps.apple.com/us/app/packetpro/id6755604263</link>
-      <description><![CDATA[PacketPro 是一款 iOS 应用程序，用于检查直接在设备上的应用程序生成的网络流量。它允许实时查看出站 HTTP/HTTPS 请求，包括请求 URL、标头、方法、状态代码和响应正文。
-所有检查均在设备本地执行，无需 Mac 代理或越狱。除了基本流量捕获之外，它还提供多种过滤和分析工具：
-- 针对主机、域、请求方法、状态代码和内容类型的多个过滤器
-- 按会话组织，更容易将流量与特定应用程序交互隔离
-- 能够在捕获流量时动态包含或排除请求
-- 在捕获的会话中搜索和快速过滤对于开发和调试工作流程，它支持：
-- 在应用程序开发期间检查 API 请求/响应有效负载
-- 验证请求标头、身份验证令牌和参数格式
-- 调试意外的网络行为或冗余请求
-- 分析第三方SDK和分析流量
-- 导出捕获的流量以供进一步检查或记录一些值得注意的点：
-- 完全设备上的流量检查（不涉及外部服务器）
-- 可与常规 iOS 应用程序配合使用
-- 基于会话的请求组织
-- 用于集中分析的多个过滤选项
-- 导出支持以供进一步分析
+      <title>最佳公共交通价格接近于零 [pdf]</title>
+      <link>https://www.nber.org/system/files/working_papers/w32185/w32185.pdf</link>
+      <description><![CDATA[文章网址：https://www.nber.org/system/files/working_papers/w32185/w32185.pdf
+评论网址：https://news.ycombinator.com/item?id=46309511
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.nber.org/system/files/working_papers/w32185/w32185.pdf</guid>
+      <pubDate>Thu, 18 Dec 2025 06:29:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>自托管运行器的 GitHub Actions 替代方案</title>
+      <link>https://r0bbie.substack.com/p/alternatives-to-github-actions-for</link>
+      <description><![CDATA[文章网址：https://r0bbie.substack.com/p/alternatives-to-github-actions-for
+评论网址：https://news.ycombinator.com/item?id=46309490
+积分：1
+# 条评论：0]]></description>
+      <guid>https://r0bbie.substack.com/p/alternatives-to-github-actions-for</guid>
+      <pubDate>Thu, 18 Dec 2025 06:25:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>一切都死了，我们杀了它</title>
+      <link>https://www.joanwestenberg.com/everything-is-dead-and-we-killed-it/</link>
+      <description><![CDATA[文章网址：https://www.joanwestenberg.com/everything-is-dead-and-we-killed-it/
+评论网址：https://news.ycombinator.com/item?id=46309481
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.joanwestenberg.com/everything-is-dead-and-we-killed-it/</guid>
+      <pubDate>Thu, 18 Dec 2025 06:22:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于人工智能推理的 Google TPU</title>
+      <link>https://www.naddod.com/ai-insights/google-tpu-the-ai-chip-for-the-ai-inference-era</link>
+      <description><![CDATA[文章网址：https://www.naddod.com/ai-insights/google-tpu-the-ai-chip-for-the-ai-inference-era
+评论网址：https://news.ycombinator.com/item?id=46309467
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.naddod.com/ai-insights/google-tpu-the-ai-chip-for-the-ai-inference-era</guid>
+      <pubDate>Thu, 18 Dec 2025 06:20:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>旧金山立法者投票决定为每位黑人居民设立 500 万美元赔偿基金</title>
+      <link>https://www.reddit.com/r/sanfrancisco/s/ZUv2nywQgw</link>
+      <description><![CDATA[文章网址：https://www.reddit.com/r/sanfrancisco/s/ZUv2nywQgw
+评论网址：https://news.ycombinator.com/item?id=46309465
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.reddit.com/r/sanfrancisco/s/ZUv2nywQgw</guid>
+      <pubDate>Thu, 18 Dec 2025 06:19:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>FWS – 可通过 pip 安装的嵌入式进程管理器，具有 PTY/pipe/dtach 后端</title>
+      <link>https://news.ycombinator.com/item?id=46309463</link>
+      <description><![CDATA[我正在发布 *Framework Shells* (`fws`)：一个独立的 Python 包，用于通过 *PTY*、*pipes* 和 *dtach* 后端编排长时间运行的后台进程（“shell”）。这适用于您不想建立完整管理堆栈（或没有）的环境：快速多服务原型、开发环境、受限用户空间等。###它的作用* 使用以下命令生成/管理 shell： * **PTY**：交互式终端会话（调整大小、输入、流）
+  * **管道**：stdin/stdout/stderr 流（适用于守护进程/LSP）
+  * **dtach**：您可以附加/分离的持久会话（在管理器重新启动后仍然存在）
+* *运行时隔离*（最大的特点）：shell 的命名空间是
+  `~/.cache/framework_shells/runtime///...`
+  因此，同一存储库的两个克隆可以同时运行，无需交叉采用或交叉控制。
+* *控制界面*：CLI + 可选的 FastAPI/WS UI，用于列表、日志和生命周期操作。
+* 用于主机集成的可选 *hooks*（外部注册表/遥测）。### CLI 快速入门```bash
+# 列出 shell
+fws list# 运行一次性 shell（无规范）
+fws run --backend pty --label demo -- bash -l -i# 应用 YAML shellspec（推荐）
+fws up shells.yaml# 终止 shell
+fws down# 附加到 dtach 支持的 shell
+fws Attach # 显示托管 shell + procfs 后代
+fws 树——深度 4
+```### Shellspec 示例```yaml
+版本：“1”
+贝壳：
+  工人：
+    后端：过程
+    cwd：$ {ctx：PROJECT_ROOT}
+    子组：[“工人”，“项目：$ {ctx：APP_ID}”]
+    命令：[“python”，“-m”，“your_module.worker”，“--port”，“$ {free_port}”]
+```### 隔离 + 安全模型（默认情况下很简单）* `FRAMEWORK_SHELLS_SECRET` 派生出 `runtime_id` （命名空间）和 API 令牌。
+* 如果设置了密钥，则改变 API 端点需要： * `Authorization: Bearer `（或 `X-Framework-Key`）。
+* 如果未设置密钥，则禁用身份验证（开发模式）。硬限制：如果两个运行时共享相同的操作系统用户/UID，操作系统可能仍允许向彼此的进程发送信号。保证是：没有交叉计数/采用/控制*通过库的控制平面*。### 实际使用我使用它作为完整开发环境的基础，其中“应用程序是外壳”（终端、IDE + LSP、代理/MCP、aria2 RPC、文件资源管理器、llama.cpp 运行程序等）。回购协议：```文本
+https://github.com/mrsurge/termux-extensions-2
+```### 我想要的反馈* 秘密/指纹/运行时隔离合约感觉合适吗？
+* 默认 API/CLI 中是否有明显的脚枪？
+* 期望 vs systemd/supervisord/tmux/dtach：你会在哪里使用这个？github.com/mrsurge/framework-shellspip install &quot;framework-shells @ git+https://github.com/mrsurge/framework-shells@main&quot;```bash
+fws——帮助
+````
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46308734
+评论网址：https://news.ycombinator.com/item?id=46309463
 积分：1
 # 条评论：0]]></description>
-      <guid>https://apps.apple.com/us/app/packetpro/id6755604263</guid>
-      <pubDate>Thu, 18 Dec 2025 03:48:47 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46309463</guid>
+      <pubDate>Thu, 18 Dec 2025 06:19:32 GMT</pubDate>
     </item>
     <item>
-      <title>德国：亚马逊不得强迫顾客在 Prime Video 上观看广告</title>
-      <link>https://www.zeit.de/wirtschaft/2025-12/amazon-urteil-video-kunden-werbung</link>
-      <description><![CDATA[文章网址：
-评论网址：https://news.ycombinator.com/item?id=46308706
+      <title>Apple 2026 年和 2027 年路线图：可折叠 iPhone、iPhone 18 Pro、M5 Mac 等</title>
+      <link>https://www.macrumors.com/2025/12/16/apple-product-roadmap-2026/</link>
+      <description><![CDATA[文章网址：https://www.macrumors.com/2025/12/16/apple-product-roadmap-2026/
+评论网址：https://news.ycombinator.com/item?id=46309454
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.zeit.de/wirtschaft/2025-12/amazon-urteil-video-kunden-werbung</guid>
-      <pubDate>Thu, 18 Dec 2025 03:42:24 GMT</pubDate>
+      <guid>https://www.macrumors.com/2025/12/16/apple-product-roadmap-2026/</guid>
+      <pubDate>Thu, 18 Dec 2025 06:17:40 GMT</pubDate>
     </item>
     <item>
-      <title>Salesforce 获得资格</title>
-      <link>https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-qualified/?bc=HL</link>
-      <description><![CDATA[文章网址：https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-qualified/?bc=HL
-评论网址：https://news.ycombinator.com/item?id=46308698
+      <title>云备份的神话</title>
+      <link>https://medium.com/@justinwang001/why-on-prem-backup-still-makes-sense-5723504c2d7b</link>
+      <description><![CDATA[文章网址：https://medium.com/@justinwang001/why-on-prem-backup-still-makes-sense-5723504c2d7b
+评论网址：https://news.ycombinator.com/item?id=46309451
+积分：1
+# 条评论：1]]></description>
+      <guid>https://medium.com/@justinwang001/why-on-prem-backup-still-makes-sense-5723504c2d7b</guid>
+      <pubDate>Thu, 18 Dec 2025 06:17:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么风险投资误解幂律</title>
+      <link>https://www.alphanome.ai/post/the-map-is-not-the-territory-why-venture-capital-misunderstands-the-power-law</link>
+      <description><![CDATA[文章网址：https://www.alphanome.ai/post/the-map-is-not-the-territory-why-venture-capital-misunderstands-the-power-law
+评论网址：https://news.ycombinator.com/item?id=46309450
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-qualified/?bc=HL</guid>
-      <pubDate>Thu, 18 Dec 2025 03:40:57 GMT</pubDate>
+      <guid>https://www.alphanome.ai/post/the-map-is-not-the-territory-why-venture-capital-misunderstands-the-power-law</guid>
+      <pubDate>Thu, 18 Dec 2025 06:16:57 GMT</pubDate>
     </item>
     <item>
-      <title>南非教育</title>
-      <link>https://educationsouthafrica.com/</link>
-      <description><![CDATA[文章网址：https://educationsouthafrica.com/
-评论网址：https://news.ycombinator.com/item?id=46308691
+      <title>电话禁令拯救了高中</title>
+      <link>https://nymag.com/intelligencer/article/how-new-york-public-school-phone-ban-saved-high-school.html</link>
+      <description><![CDATA[文章网址：https://nymag.com/intelligencer/article/how-new-york-public-school-phone-ban-saved-high-school.html
+评论网址：https://news.ycombinator.com/item?id=46309443
 积分：1
 # 条评论：0]]></description>
-      <guid>https://educationsouthafrica.com/</guid>
-      <pubDate>Thu, 18 Dec 2025 03:40:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>您可以在 InfiniaxAI 上免费使用 Gemini 3.0 Flash High</title>
-      <link>https://infiniax.ai</link>
-      <description><![CDATA[文章网址：https://infiniax.ai
-评论网址：https://news.ycombinator.com/item?id=46308668
-积分：1
-# 条评论：0]]></description>
-      <guid>https://infiniax.ai</guid>
-      <pubDate>Thu, 18 Dec 2025 03:36:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>每个人都在建立错误的人工智能初创公司</title>
-      <link>https://news.ycombinator.com/item?id=46308665</link>
-      <description><![CDATA[如果您正在关注现在正在构建的内容，可能会感觉似曾相识。每周都会推出新的人工智能工具。演示看起来令人印象深刻。推文如病毒般传播。然而，大多数初创公司都悄然衰落，没有人真正关心它们的消失。这并不是因为开发者很糟糕。这是因为他们针对可构建的内容进行优化，而不是痛苦的内容。人工智能很容易将可能性误认为是需求，这是危险的。您几乎可以将所有事情自动化，但很少有事情能够真正产生紧迫感。投资者会立即感受到这一点。用户也会这样做，即使他们无法清楚地表达出来。幸存下来的人工智能初创公司并不感觉自己聪明。他们感到如释重负。他们消除了人们已经讨厌做的工作。他们修复了团队在未经询问的情况下抱怨的流程。它们会出现在压力已经存在的地方。一旦我开始通过这个镜头过滤想法，情况看起来就大不相同了。我开始从公共论坛和创始人社区收集重复的投诉，这些地方是人们发泄而不是推销的地方。随着时间的推移，这成为startupideasdbcom在投入数月努力之前将噪音与信号分开的一种方式。分享这一点是因为许多聪明的创始人并没有失败，他们只是在解决没有人迫切想要解决的问题。如果你必须诚实：你周围的人抱怨什么问题而你却没有提出来？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46308665
-积分：2
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46308665</guid>
-      <pubDate>Thu, 18 Dec 2025 03:35:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>马拉松运动员患结肠癌的风险可能更高</title>
-      <link>https://www.medscape.com/viewarticle/marathon-runners-may-have-higher-colon-cancer-risk-2025a1000zap</link>
-      <description><![CDATA[文章网址：https://www.medscape.com/viewarticle/marathon-runners-may-have-higher-colon-cancer-risk-2025a1000zap
-评论网址：https://news.ycombinator.com/item?id=46308646
-积分：1
-# 条评论：2]]></description>
-      <guid>https://www.medscape.com/viewarticle/marathon-runners-may-have-higher-colon-cancer-risk-2025a1000zap</guid>
-      <pubDate>Thu, 18 Dec 2025 03:31:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>Trendgetter - 用于从各种平台获取趋势内容的 API</title>
-      <link>https://github.com/Zivsteve/trendgetter</link>
-      <description><![CDATA[文章网址：https://github.com/Zivsteve/trendgetter
-评论网址：https://news.ycombinator.com/item?id=46308640
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/Zivsteve/trendgetter</guid>
-      <pubDate>Thu, 18 Dec 2025 03:30:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Web 开发 – 辅助功能不是可选的</title>
-      <link>https://ross-oneill.com/blog/accessibility-isnt-optional/</link>
-      <description><![CDATA[文章网址：https://ross-oneill.com/blog/accessibility-isnt-optional/
-评论网址：https://news.ycombinator.com/item?id=46308639
-积分：2
-# 条评论：0]]></description>
-      <guid>https://ross-oneill.com/blog/accessibility-isnt-optional/</guid>
-      <pubDate>Thu, 18 Dec 2025 03:30:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>约翰·舒尔曼 (John Schulman) 陷入死胡同、扩展强化学习、建立研究机构 [视频]</title>
-      <link>https://www.youtube.com/watch?v=29BYxvvF1iM</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=29BYxvvF1iM
-评论网址：https://news.ycombinator.com/item?id=46308622
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=29BYxvvF1iM</guid>
-      <pubDate>Thu, 18 Dec 2025 03:28:21 GMT</pubDate>
+      <guid>https://nymag.com/intelligencer/article/how-new-york-public-school-phone-ban-saved-high-school.html</guid>
+      <pubDate>Thu, 18 Dec 2025 06:15:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
