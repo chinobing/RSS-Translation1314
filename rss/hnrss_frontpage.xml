@@ -4,14 +4,100 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 18 Dec 2025 15:24:26 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 18:33:06 GMT</lastBuildDate>
+    <item>
+      <title>Firefox 将有一个选项来禁用所有 AI 功能</title>
+      <link>https://mastodon.social/@firefoxwebdevs/115740500373677782</link>
+      <description><![CDATA[文章网址：https://mastodon.social/@firefoxwebdevs/115740500373677782
+评论网址：https://news.ycombinator.com/item?id=46316409
+积分：9
+# 条评论：5]]></description>
+      <guid>https://mastodon.social/@firefoxwebdevs/115740500373677782</guid>
+      <pubDate>Thu, 18 Dec 2025 18:18:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>麻省理工学院核科学教授努诺·洛雷罗 (Nuno Loureiro) 在家中被枪杀</title>
+      <link>https://nypost.com/2025/12/16/us-news/mit-nuclear-science-professor-found-shot-dead-in-home-in-swanky-mass-neighborhood/</link>
+      <description><![CDATA[文章网址： https://nypost.com/2025/12/16/us-news/mit-nuclear-science-professor-found-shot-dead-in-home-in-swanky-mass-neighborhood/
+评论网址：https://news.ycombinator.com/item?id=46316370
+积分：5
+# 条评论：1]]></description>
+      <guid>https://nypost.com/2025/12/16/us-news/mit-nuclear-science-professor-found-shot-dead-in-home-in-swanky-mass-neighborhood/</guid>
+      <pubDate>Thu, 18 Dec 2025 18:15:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPT-5.2-法典</title>
+      <link>https://openai.com/index/introducing-gpt-5-2-codex/</link>
+      <description><![CDATA[文章网址：https://openai.com/index/introducing-gpt-5-2-codex/
+评论网址：https://news.ycombinator.com/item?id=46316367
+积分：19
+# 条评论：14]]></description>
+      <guid>https://openai.com/index/introducing-gpt-5-2-codex/</guid>
+      <pubDate>Thu, 18 Dec 2025 18:14:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>软件控制级别军用标准</title>
+      <link>https://entropicthoughts.com/mil-std-882e-software-control</link>
+      <description><![CDATA[文章网址：https://entropicthoughts.com/mil-std-882e-software-control
+评论网址：https://news.ycombinator.com/item?id=46315547
+积分：26
+# 条评论：4]]></description>
+      <guid>https://entropicthoughts.com/mil-std-882e-software-control</guid>
+      <pubDate>Thu, 18 Dec 2025 17:12:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>代理技能现已成为开放标准</title>
+      <link>https://claude.com/blog/organization-skills-and-directory</link>
+      <description><![CDATA[文章网址：https://claude.com/blog/organization-skills-and-directory
+评论网址：https://news.ycombinator.com/item?id=46315414
+积分：69
+# 条评论：53]]></description>
+      <guid>https://claude.com/blog/organization-skills-and-directory</guid>
+      <pubDate>Thu, 18 Dec 2025 17:04:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>从 2026 年 1 月开始，所有 ACM 出版物都将开放获取</title>
+      <link>https://dl.acm.org/openaccess</link>
+      <description><![CDATA[文章网址：https://dl.acm.org/openaccess
+评论网址：https://news.ycombinator.com/item?id=46313991
+积分：608
+# 条评论：68]]></description>
+      <guid>https://dl.acm.org/openaccess</guid>
+      <pubDate>Thu, 18 Dec 2025 15:39:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>推出 HN: Pulse (YC S24) – 生产级非结构化文档提取</title>
+      <link>https://news.ycombinator.com/item?id=46313930</link>
+      <description><![CDATA[您好，HN，我们是 Pulse (https://www.runpulse.com/) 的联合创始人 Sid 和 Ritvik。 Pulse 是一个文档提取系统，用于使用混合 VLM + OCR 模型创建 LLM 就绪文本。这里有一个演示视频：https://video.runpulse.com/video/pulse-platform-walkthrough-...。在本文后面，您将找到有关特别棘手案例的前后示例的链接。看看这些，看看 Pulse 到底能做什么！
+现代视觉语言模型非常擅长生成可信的文本，但这使得它们对于 OCR 和数据摄取来说存在风险。当您需要准确性时，合理性还不够好。当我们开始进行文档提取时，我们假设许多团队都在做同样的事情：基础模型正在快速改进，多模态系统似乎可以很好地读取文档，这有什么不喜欢的呢？事实上，对于少量或干净的输入，这些假设大多会给出良好的结果。
+然而，一旦开始大量处理真实文档，限制就会显现出来。长 PDF、密集表格、混合布局、低保真扫描以及财务或运营数据会暴露出微妙、难以检测且纠正成本高昂的错误。输出看起来很合理，尽管它们包含小而重要的错误，尤其是在表格和数字字段中。遇到这些挑战让我们努力工作。我们对复杂的文档进行了受控评估，微调了视觉模型，并构建了真正重要的标记数据集。有很多个夜晚，我们的团队熬夜手工注释页面，在表格周围绘制边框，逐点标记图表，或者争论数字是否难以阅读或只是扫描不当。这个过程对我们直觉的影响远远超过基准。有一件事很快就变得清晰起来。核心挑战不是提取本身，而是信心。视觉语言模型将文档图像嵌入到针对语义理解而不是精确转录而优化的高维表示中。这个过程本质上是有损的。当出现不确定性时，模型倾向于使用学习到的先验来解决它，而不是暴露歧义。这种行为在消费者环境中可能会有所帮助。在生产管道中，它会产生无法很好扩展的验证问题。
+Pulse 源于我们试图通过系统设计来解决这一差距，而不是单独提示。我们的系统没有将文档理解视为单个生成步骤，而是将布局分析与语言建模分开。文档被规范化为结构化表示，在模式映射发生之前保留层次结构和表格。提取受到提前定义的模式的限制，并且提取的值被绑定回源位置，因此可以检查而不是猜测不确定性。在实践中，这导致了一种结合了传统计算机视觉技术、布局模型和视觉语言模型的混合方法，因为没有一种方法可以单独可靠地处理这些情况。我们有意分享一些反映推动这项工作的输入类型的文档。这些是我们看到通用 OCR 或基于 VLM 的管道陷入困境的典型案例。以下是财务 10K：
+https://platform.runpulse.com/dashboard/examples/example1这是一份报纸：
+https://platform.runpulse.com/dashboard/examples/example2这是租金卷：https://platform.runpulse.com/dashboard/examples/example3Pulse 并不完美，特别是在高度退化的情况下扫描或不常见的手写体，我们正在努力改进。但是，我们的目标不是完全消除错误，而是使错误可见、可审核且更容易推理。Pulse 可通过基于使用情况的 API 和平台访问来使用。您可以在 https://platform.runpulse.com/login 注册试用。 API 文档位于 https://docs.runpulse.com/introduction。我们很想听听这里的其他人如何评估文档提取的正确性、您在实践中看到了哪些故障模式，以及您依靠什么信号来决定输出是否可信。如果人们想分享示例，我们将随时回答问题，并很乐意运行其他文档。在评论中添加链接，我们会将其插入并回复您。期待您的评论！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46313930
+积分：27
+# 条评论：25]]></description>
+      <guid>https://news.ycombinator.com/item?id=46313930</guid>
+      <pubDate>Thu, 18 Dec 2025 15:35:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>心脏、肾脏疾病和 2 型糖尿病可能是一种疾病</title>
+      <link>https://www.scientificamerican.com/article/heart-and-kidney-diseases-plus-type-2-diabetes-may-be-one-illness-treatable/</link>
+      <description><![CDATA[文章网址：https://www.scientificamerican.com/article/heart-and-kidney-diseases-plus-type-2-diabetes-may-be-one-illness-treatable/
+评论网址：https://news.ycombinator.com/item?id=46313693
+积分：45
+# 条评论：20]]></description>
+      <guid>https://www.scientificamerican.com/article/heart-and-kidney-diseases-plus-type-2-diabetes-may-be-one-illness-treatable/</guid>
+      <pubDate>Thu, 18 Dec 2025 15:23:05 GMT</pubDate>
+    </item>
     <item>
       <title>使用 TypeScript 获取最稀有的车牌之一</title>
       <link>https://www.jack.bio/blog/licenseplate</link>
       <description><![CDATA[文章网址：https://www.jack.bio/blog/licenseplate
 评论网址：https://news.ycombinator.com/item?id=46313379
-积分：5
-# 条评论：0]]></description>
+积分：102
+评论数量：91]]></description>
       <guid>https://www.jack.bio/blog/licenseplate</guid>
       <pubDate>Thu, 18 Dec 2025 15:00:32 GMT</pubDate>
     </item>
@@ -20,90 +106,10 @@
       <link>https://simonwillison.net/2025/Dec/18/code-proven-to-work/</link>
       <description><![CDATA[文章网址：https://simonwillison.net/2025/Dec/18/code-proven-to-work/
 评论网址：https://news.ycombinator.com/item?id=46313297
-积分：27
-# 条评论：17]]></description>
+积分：352
+评论数：298]]></description>
       <guid>https://simonwillison.net/2025/Dec/18/code-proven-to-work/</guid>
       <pubDate>Thu, 18 Dec 2025 14:52:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>西班牙对 Airbnb 处以 6500 万欧元罚款：政府为何严厉打击非法出租</title>
-      <link>https://www.euronews.com/travel/2025/12/15/spain-fines-airbnb-65-million-why-the-government-is-cracking-down-on-illegal-rentals</link>
-      <description><![CDATA[文章网址： https://www.euronews.com/travel/2025/12/15/spain-fines-airbnb-65-million-why-the-government-is-cracking-down-on-illegal-rentals
-评论网址：https://news.ycombinator.com/item?id=46313266
-积分：24
-# 条评论：0]]></description>
-      <guid>https://www.euronews.com/travel/2025/12/15/spain-fines-airbnb-65-million-why-the-government-is-cracking-down-on-illegal-rentals</guid>
-      <pubDate>Thu, 18 Dec 2025 14:49:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple 礼品卡可以安全兑换吗？</title>
-      <link>https://daringfireball.net/linked/2025/12/17/are-apple-gift-cards-safe-to-redeem</link>
-      <description><![CDATA[文章网址：https://daringfireball.net/linked/2025/12/17/are-apple-gift-cards-safe-to-redeem
-评论网址：https://news.ycombinator.com/item?id=46313061
-积分：67
-# 条评论：22]]></description>
-      <guid>https://daringfireball.net/linked/2025/12/17/are-apple-gift-cards-safe-to-redeem</guid>
-      <pubDate>Thu, 18 Dec 2025 14:26:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>请尝试 Htmx</title>
-      <link>http://pleasejusttryhtmx.com/</link>
-      <description><![CDATA[文章网址：http://pleasejusttryhtmx.com/
-评论网址：https://news.ycombinator.com/item?id=46312973
-积分：24
-评论数量：9]]></description>
-      <guid>http://pleasejusttryhtmx.com/</guid>
-      <pubDate>Thu, 18 Dec 2025 14:18:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用开源虚拟化 Nvidia HGX B200 GPU</title>
-      <link>https://www.ubicloud.com/blog/virtualizing-nvidia-hgx-b200-gpus-with-open-source</link>
-      <description><![CDATA[文章网址：https://www.ubicloud.com/blog/virtualizing-nvidia-hgx-b200-gpus-with-open-source
-评论网址：https://news.ycombinator.com/item?id=46312792
-积分：37
-# 条评论：2]]></description>
-      <guid>https://www.ubicloud.com/blog/virtualizing-nvidia-hgx-b200-gpus-with-open-source</guid>
-      <pubDate>Thu, 18 Dec 2025 14:04:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI 有助于加快交付速度，但产生的错误数量却增加了 1.7 倍</title>
-      <link>https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report</link>
-      <description><![CDATA[文章网址：https://www.coderabbit.ai/blog/state-of-ai-vs- human-code- Generation-report
-评论网址：https://news.ycombinator.com/item?id=46312159
-积分：44
-# 条评论：48]]></description>
-      <guid>https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report</guid>
-      <pubDate>Thu, 18 Dec 2025 13:06:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>大多数停放域名现在都提供恶意内容</title>
-      <link>https://krebsonsecurity.com/2025/12/most-parked-domains-now-serving-malicious-content/</link>
-      <description><![CDATA[文章网址：https://krebsonsecurity.com/2025/12/most-parked-domains-now-serving-malicious-content/
-评论网址：https://news.ycombinator.com/item?id=46312021
-积分：64
-# 条评论：16]]></description>
-      <guid>https://krebsonsecurity.com/2025/12/most-parked-domains-now-serving-malicious-content/</guid>
-      <pubDate>Thu, 18 Dec 2025 12:50:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>古典雕像并没有画得很糟糕</title>
-      <link>https://worksinprogress.co/issue/were-classical-statues-painted-horribly/</link>
-      <description><![CDATA[文章网址：https://worksinprogress.co/issue/were-classical-statues-painted-horribly/
-评论网址：https://news.ycombinator.com/item?id=46311856
-Points: 174
-# 条评论：83]]></description>
-      <guid>https://worksinprogress.co/issue/were-classical-statues-painted-horribly/</guid>
-      <pubDate>Thu, 18 Dec 2025 12:28:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hightouch (YC S19) 正在招聘</title>
-      <link>https://hightouch.com/careers</link>
-      <description><![CDATA[文章网址：https://hightouch.com/careers
-评论网址：https://news.ycombinator.com/item?id=46311637
-积分：0
-# 条评论：0]]></description>
-      <guid>https://hightouch.com/careers</guid>
-      <pubDate>Thu, 18 Dec 2025 12:01:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
