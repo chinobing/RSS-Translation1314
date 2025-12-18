@@ -4,111 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 18 Dec 2025 09:28:20 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 12:43:58 GMT</lastBuildDate>
     <item>
-      <title>破解 LLDB 以获得出色的 Zig 调试体验</title>
-      <link>https://joel.id/hacking-lldb-for-a-great-zig-debugging-experience/</link>
-      <description><![CDATA[文章网址：https://joel.id/hacking-lldb-for-a-great-zig-debugging-experience/
-评论网址：https://news.ycombinator.com/item?id=46310523
-积分：1
-# 条评论：1]]></description>
-      <guid>https://joel.id/hacking-lldb-for-a-great-zig-debugging-experience/</guid>
-      <pubDate>Thu, 18 Dec 2025 09:20:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：信息交换的去中心化身份验证？</title>
-      <link>https://news.ycombinator.com/item?id=46310517</link>
-      <description><![CDATA[我有一个想要从事的媒体服务器项目。但我坚持一件事，方便与隐私。由于该项目是关于旋转您自己的服务器（媒体服务器），我希望有一种更流畅的方式来拥有一个简单的帐户系统，用户只需输入电子邮件和密码，并获取服务器/IP 列表（所有操作都在实际服务器上完成）。例如，一个用户可以被邀请到两台服务器，并会在同一页面中看到它们，这使事情变得更加直接和容易。现在，我想了很多，最后得出的结论是集中化是最明智的选择。数据本身归结为：电子邮件、加密密码、加密 IP 列表（通过密钥交换）。有什么方法可以实现去中心化吗？我进行了搜索，甚至询问了法学硕士，但没有什么感觉是可靠的（最好的是诺斯特的建议），但这种方法会让电子邮件、密码重置变得痛苦或几乎不可能。我对这个主题了解不多，所以这是一个很大的挑战。重点是什么/为什么不只使用 URL？方便。我知道，但向家长提供 URL 很糟糕，即使与一些技术精湛的朋友也需要一些沟通。我想尽可能地消除摩擦。此外，如果集中化，用户无需购买域名、设置即可加密以及所有花费金钱和时间的事情（特别是对于简单/新的自我托管者）；它更好、更流畅，并且在某种程度上提供了更好的开箱即用隐私。注意，这个项目甚至还不存在。但我很快就会追求。我在大学时代也只学过一门加密课程，虽然我理解并且擅长它，但我仍然需要审核/验证我的方法。 
-它基本上是： 
-1.用不同的算法对密码+盐进行哈希处理，保存私钥并将公钥发送到中央服务器 
-2.（媒体服务器所有者想要邀请）媒体服务器检查公钥，对包含所有详细信息（IP、状态、端口等）的消息进行加密，并将加密的消息发送到中央服务器。 
-3. 客户端稍后检查，如果有新消息，则解密来自服务器的 ip/info 并连接。每个设备都可以通过这种方式登录并安全地获取服务器列表信息。将会有某种方法可以在电视等上“快速连接”并更改密码，但我现在不想超前。我不认为 IP/服务器信息加密会受到任何重大问题的影响，但这是一般的核心原则。我可能（可能？）错过了一些东西。我能想到的唯一问题是“集中”URL/域会一直显示而不是所有者。请注意，它的设计方式将允许您将它们发送到您自己的 URL/域等。无论如何，请让我知道什么是最好的。顺便说一句，我并不富有，但这种简单的“auth”服务器可能会花费 5 美元/m + 2x5/m 的冗余费用，应该不会太糟糕。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46310517
+      <title>Vm.overcommit_memory=2 始终是正确的设置</title>
+      <link>https://ariadne.space/2025/12/16/vmovercommitmemory-is-always-the-right.html</link>
+      <description><![CDATA[文章网址：https://ariadne.space/2025/12/16/vmovercommitmemory-is-always-the-right.html
+评论网址：https://news.ycombinator.com/item?id=46311876
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46310517</guid>
-      <pubDate>Thu, 18 Dec 2025 09:19:12 GMT</pubDate>
+      <guid>https://ariadne.space/2025/12/16/vmovercommitmemory-is-always-the-right.html</guid>
+      <pubDate>Thu, 18 Dec 2025 12:30:52 GMT</pubDate>
     </item>
     <item>
-      <title>哈利波特式“移动隐形斗篷”技术开发出来</title>
-      <link>https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=56050</link>
-      <description><![CDATA[文章网址：https://news.kaist.ac.kr/newsen/html/news/?mode=V&amp;mng_no=56050
-评论网址：https://news.ycombinator.com/item?id=46310486
+      <title>Rcarmo/drawterm：macOS 上具有 HIDPI 缩放设置的drawterm</title>
+      <link>https://github.com/rcarmo/drawterm</link>
+      <description><![CDATA[文章网址：https://github.com/rcarmo/drawterm
+评论网址：https://news.ycombinator.com/item?id=46311870
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=56050</guid>
-      <pubDate>Thu, 18 Dec 2025 09:14:12 GMT</pubDate>
+      <guid>https://github.com/rcarmo/drawterm</guid>
+      <pubDate>Thu, 18 Dec 2025 12:30:04 GMT</pubDate>
     </item>
     <item>
-      <title>什么是角膜塑形术？</title>
-      <link>https://www.aao.org/eye-health/glasses-contacts/what-is-orthokeratology</link>
-      <description><![CDATA[文章网址：https://www.aao.org/eye-health/glasses-contacts/what-is-orthokeratology
-评论网址：https://news.ycombinator.com/item?id=46310435
+      <title>快速内存漏洞，用 100% 安全的 Rust 编写</title>
+      <link>https://github.com/Speykious/cve-rs</link>
+      <description><![CDATA[文章网址：https://github.com/Speykious/cve-rs
+评论网址：https://news.ycombinator.com/item?id=46311867
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/Speykious/cve-rs</guid>
+      <pubDate>Thu, 18 Dec 2025 12:29:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>古典雕像并没有画得很糟糕</title>
+      <link>https://worksinprogress.co/issue/were-classical-statues-painted-horribly/</link>
+      <description><![CDATA[文章网址：https://worksinprogress.co/issue/were-classical-statues-painted-horribly/
+评论网址：https://news.ycombinator.com/item?id=46311856
+积分：1
+# 条评论：0]]></description>
+      <guid>https://worksinprogress.co/issue/were-classical-statues-painted-horribly/</guid>
+      <pubDate>Thu, 18 Dec 2025 12:28:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vaadin 25.0：现代化 Java Web 堆栈（Java 21、Spring Boot 4、100% Lit）</title>
+      <link>https://vaadin.com/blog/vaadin-25-0-release</link>
+      <description><![CDATA[文章网址：https://vaadin.com/blog/vaadin-25-0-release
+评论网址：https://news.ycombinator.com/item?id=46311852
 积分：3
 # 条评论：1]]></description>
-      <guid>https://www.aao.org/eye-health/glasses-contacts/what-is-orthokeratology</guid>
-      <pubDate>Thu, 18 Dec 2025 09:06:09 GMT</pubDate>
+      <guid>https://vaadin.com/blog/vaadin-25-0-release</guid>
+      <pubDate>Thu, 18 Dec 2025 12:28:35 GMT</pubDate>
     </item>
     <item>
-      <title>“这是一次公开的入侵”：斑驴贻贝如何改变日内瓦湖</title>
-      <link>https://www.theguardian.com/environment/2025/dec/18/invasive-quagga-mussels-lake-geneva-aoe</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/environment/2025/dec/18/pressive-quagga-mussels-lake-geneva-aoe
-评论网址：https://news.ycombinator.com/item?id=46310422
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.theguardian.com/environment/2025/dec/18/invasive-quagga-mussels-lake-geneva-aoe</guid>
-      <pubDate>Thu, 18 Dec 2025 09:03:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nvidia 发布 Nemotron 3 Nano 完整评估方案</title>
-      <link>https://huggingface.co/blog/nvidia/nemotron-3-nano-evaluation-recipe</link>
-      <description><![CDATA[文章网址：https://huggingface.co/blog/nvidia/nemotron-3-nano-evaluation-recipe
-评论网址：https://news.ycombinator.com/item?id=46310421
+      <title>种子期前初创公司的人工智能筹款代理</title>
+      <link>https://meetgordon.com/</link>
+      <description><![CDATA[文章网址：https://meetgordon.com/
+评论网址：https://news.ycombinator.com/item?id=46311849
 积分：1
 # 条评论：0]]></description>
-      <guid>https://huggingface.co/blog/nvidia/nemotron-3-nano-evaluation-recipe</guid>
-      <pubDate>Thu, 18 Dec 2025 09:03:28 GMT</pubDate>
+      <guid>https://meetgordon.com/</guid>
+      <pubDate>Thu, 18 Dec 2025 12:27:59 GMT</pubDate>
     </item>
     <item>
-      <title>提示已损坏</title>
-      <link>https://godofprompt.beehiiv.com/p/your-prompts-are-broken</link>
-      <description><![CDATA[文章网址：https://godofprompt.beehiiv.com/p/your-prompts-are-broken
-评论网址：https://news.ycombinator.com/item?id=46310407
+      <title>Vector Prism：通过分层语义结构来动画矢量图形</title>
+      <link>https://yeolj00.github.io/personal-projects/vector-prism/</link>
+      <description><![CDATA[文章网址：https://yeolj00.github.io/personal-projects/vector-prism/
+评论网址：https://news.ycombinator.com/item?id=46311800
 积分：1
 # 条评论：0]]></description>
-      <guid>https://godofprompt.beehiiv.com/p/your-prompts-are-broken</guid>
-      <pubDate>Thu, 18 Dec 2025 09:01:30 GMT</pubDate>
+      <guid>https://yeolj00.github.io/personal-projects/vector-prism/</guid>
+      <pubDate>Thu, 18 Dec 2025 12:21:41 GMT</pubDate>
     </item>
     <item>
-      <title>跨越语言鸿沟的差异模糊测试</title>
-      <link>https://R9295.github.io/posts/differential-fuzzing-accross-languages/</link>
-      <description><![CDATA[文章网址：https://R9295.github.io/posts/ Differential-fuzzing-accross-languages/
-评论网址：https://news.ycombinator.com/item?id=46310377
+      <title>Show HN：在几分钟内将代码连接到任何云</title>
+      <link>https://www.neptune.dev/</link>
+      <description><![CDATA[文章网址：https://www.neptune.dev/
+评论网址：https://news.ycombinator.com/item?id=46311791
 积分：1
 # 条评论：0]]></description>
-      <guid>https://R9295.github.io/posts/differential-fuzzing-accross-languages/</guid>
-      <pubDate>Thu, 18 Dec 2025 08:57:05 GMT</pubDate>
+      <guid>https://www.neptune.dev/</guid>
+      <pubDate>Thu, 18 Dec 2025 12:20:10 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：SuperchargeBrowser – 隐私优先的 Chrome 扩展程序，可修复性能问题</title>
-      <link>https://github.com/SuperchargeBrowser/supercharge-browser</link>
-      <description><![CDATA[文章网址：https://github.com/SuperchargeBrowser/supercharge-browser
-评论网址：https://news.ycombinator.com/item?id=46310373
+      <title>光标功能请求：本机代理合规性验证自动批评循环</title>
+      <link>https://forum.cursor.com/t/native-agent-compliance-verification-auto-critique-loops/146556</link>
+      <description><![CDATA[文章网址：https://forum.cursor.com/t/native-agent-compliance-verification-auto-critique-loops/146556
+评论网址：https://news.ycombinator.com/item?id=46311785
 积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/SuperchargeBrowser/supercharge-browser</guid>
-      <pubDate>Thu, 18 Dec 2025 08:56:40 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://forum.cursor.com/t/native-agent-compliance-verification-auto-critique-loops/146556</guid>
+      <pubDate>Thu, 18 Dec 2025 12:19:32 GMT</pubDate>
     </item>
     <item>
-      <title>威廉国王学院 - 马恩岛“世界上最难的测验”[pdf]</title>
-      <link>https://kwc.im/wp-content/uploads/2025/12/GKP_2025_26.pdf</link>
-      <description><![CDATA[文章网址：https://kwc.im/wp-content/uploads/2025/12/GKP_2025_26.pdf
-评论网址：https://news.ycombinator.com/item?id=46310360
-积分：2
-# 条评论：5]]></description>
-      <guid>https://kwc.im/wp-content/uploads/2025/12/GKP_2025_26.pdf</guid>
-      <pubDate>Thu, 18 Dec 2025 08:54:42 GMT</pubDate>
+      <title>身份验证：你是谁？证明是密码、代码和密钥</title>
+      <link>https://binaryigor.com/authentication-who-are-you-proofs.html</link>
+      <description><![CDATA[文章网址：https://binaryigor.com/authentication-who-are-you-proofs.html
+评论网址：https://news.ycombinator.com/item?id=46311772
+积分：1
+# 条评论：0]]></description>
+      <guid>https://binaryigor.com/authentication-who-are-you-proofs.html</guid>
+      <pubDate>Thu, 18 Dec 2025 12:17:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
