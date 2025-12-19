@@ -4,24 +4,68 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 19 Dec 2025 09:25:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 12:42:09 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Orbit 一种将 .sh 编译为 LLVM 的系统级编程语言</title>
-      <link>https://github.com/SIE-Libraries/orbit</link>
-      <description><![CDATA[文章网址：https://github.com/SIE-Libraries/orbit
-评论网址：https://news.ycombinator.com/item?id=46323693
-积分：4
-# 条评论：1]]></description>
-      <guid>https://github.com/SIE-Libraries/orbit</guid>
-      <pubDate>Fri, 19 Dec 2025 08:54:25 GMT</pubDate>
+      <title>Show HN：我开源了我的 Go 和 Next B2B SaaS Starter（部署在任何地方，麻省理工学院）</title>
+      <link>https://github.com/moasq/production-saas-starter</link>
+      <description><![CDATA[嗨，HN，我是 Mohammed，一位热爱运输和回馈社区的技术创始人。我正在开源为我的 B2B 产品 apflow.co 提供支持的全栈引擎。它是什么：带有 Go 后端和 Next.js 前端的生产 B2B 启动器。两者都通过单独的容器完全 Docker 化。没有维塞尔。没有苏帕巴斯。将整个系统部署在 6 美元的 VPS 上，或者将前端和后端分散到不同的提供商。您拥有基础设施。我正在解决的问题：我评估的每个 SaaS 初创公司都有同样的问题：他们将我锁定在其他人的平台上。 Vercel 用于托管。 PlanetScale 数据库。无服务器函数按调用计费。对于原型来说很好，但规模化时成本变得不可预测，而且迁移起来很痛苦。我想要一些可以通过 docker-compose up 部署在任何 Linux 机器上的东西。如果我愿意，我可以将前端托管在 Cloudflare Pages 上，将后端托管在 Hetzner VPS 上。我的代码中没有隐藏特定于供应商的 API。为什么选择后端：Go 完全满足了我 SaaS 后端的需求：占用空间很小。后端空闲时内存约为 50MB。在便宜的 VPS 上，这个空间让我可以运行更多服务而无需升级。
+没有复杂性的并发。计费 Webhooks、文件上传和 AI 调用同时运行，无需回调地狱。
+编译时类型安全。使用 SQLC，我的 SQL 编译为类型安全的 Go。如果查询错误，它会在构建时失败，而不是在生产中失败。
+可预测的性能。在负载下不会出现令您惊讶的垃圾收集暂停。
+架构（模块化单体）：我不希望小团队的微服务变得复杂，但我需要干净的分离。我构建了一个模块化整体：Auth、Billing 和 AI 等功能是具有显式接口的独立 Go 模块，但它们作为单个二进制文件部署。这种结构还使 AI 编码工具（Cursor、Claude Code）显着更加有效。因为每个模块都有严格的边界，所以 AI 确切地知道新代码所属的位置，并且不会破坏其他模块。全栈，而不仅仅是后端：后端：Go 1.25 + Gin + SQLC（类型安全 SQL，无 ORM）+ 带有 pgvector 的 PostgreSQL
+前端：Next.js 16 + React 19 + Tailwind + shadcn/ui
+通信：前端使用干净的 REST API。您可以将 Next.js 替换为任何支持 HTTP 的框架。
+基础设施：前端和后端的独立 Dockerfile。一起或分开部署。
+预构建的内容：无聊的基础设施已得到解决，因此您可以专注于实际产品：Auth + RBAC：Stytch B2B 与组织、团队和角色集成。在查询级别强制执行多租户数据隔离。
+计费：Polar.sh 作为记录商户。处理订阅、发票和全球税/增值税。没有 Stripe webhook 边缘情况。
+AI Pipeline：使用 pgvector 的 OpenAI RAG。检索服务强制执行严格的上下文边界，以最大限度地减少幻觉。
+OCR：用于文档提取的 Mistral 集成。
+文件存储：Cloudflare R2 集成。
+每个功能都是一个单独的模块。不需要 OCR 吗？将其删除。想要 Stripe 而不是 Polar？计费接口是抽象的。真实世界的证明：这不是我为 GitHub star 制作的模板。这是在生产环境中运行 apflow.co 的确切代码。当我添加文档 OCR 时，我将其构建为新模块，而没有触及身份验证或计费。架构如何。如何尝试：克隆存储库，阅读 setup.md 以检查先决条件，运行 ./setup.sh，几分钟内您就可以在本地建立一个工作的 B2B 环境。我想要的反馈：我非常感谢 Go 开发人员对模块边界和跨模块接口的反馈。也很好奇是否有人对生产部署中的 Docker 设置有建议。GitHub：https://github.com/moasq/product-saas-starterLive：https://apflow.co
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46324665
+积分：19
+# 条评论：13]]></description>
+      <guid>https://github.com/moasq/production-saas-starter</guid>
+      <pubDate>Fri, 19 Dec 2025 11:34:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：黑客新闻，但每个标题都是歇斯底里的标题诱饵</title>
+      <link>https://dosaygo-studio.github.io/hn-front-page-2035/news-max.html</link>
+      <description><![CDATA[文章网址：https://dosaygo-studio.github.io/hn-front-page-2035/news-max.html
+评论网址：https://news.ycombinator.com/item?id=46324579
+积分：49
+# 条评论：20]]></description>
+      <guid>https://dosaygo-studio.github.io/hn-front-page-2035/news-max.html</guid>
+      <pubDate>Fri, 19 Dec 2025 11:21:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>GotaTun——Mullvad 在 Rust 中的 WireGuard 实现</title>
+      <link>https://mullvad.net/en/blog/announcing-gotatun-the-future-of-wireguard-at-mullvad-vpn</link>
+      <description><![CDATA[文章网址：https://mullvad.net/en/blog/announcing-gotatun-the-future-of-wireguard-at-mullvad-vpn
+评论网址：https://news.ycombinator.com/item?id=46324543
+积分：91
+# 条评论：16]]></description>
+      <guid>https://mullvad.net/en/blog/announcing-gotatun-the-future-of-wireguard-at-mullvad-vpn</guid>
+      <pubDate>Fri, 19 Dec 2025 11:16:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>亚马逊将允许无 DRM 电子书的 ePub 和 PDF 下载</title>
+      <link>https://www.kdpcommunity.com/s/article/New-eBook-Download-Options-for-Readers-Coming-in-2026?language=en_US</link>
+      <description><![CDATA[文章网址：https://www.kdpcommunity.com/s/article/New-eBook-Download-Options-for-Readers-Coming-in-2026?language=en_US
+评论网址：https://news.ycombinator.com/item?id=46324078
+积分：89
+# 条评论：33]]></description>
+      <guid>https://www.kdpcommunity.com/s/article/New-eBook-Download-Options-for-Readers-Coming-in-2026?language=en_US</guid>
+      <pubDate>Fri, 19 Dec 2025 10:03:38 GMT</pubDate>
     </item>
     <item>
       <title>制作 Google Sans Flex</title>
       <link>https://design.google/library/google-sans-flex-font</link>
       <description><![CDATA[文章网址：https://design.google/library/google-sans-flex-font
 评论网址：https://news.ycombinator.com/item?id=46322732
-积分：35
-# 条评论：10]]></description>
+积分：69
+# 条评论：44]]></description>
       <guid>https://design.google/library/google-sans-flex-font</guid>
       <pubDate>Fri, 19 Dec 2025 06:10:02 GMT</pubDate>
     </item>
@@ -30,8 +74,8 @@
       <link>https://ads.apple.com/app-store/help/ad-placements/0082-search-results</link>
       <description><![CDATA[文章网址：https://ads.apple.com/app-store/help/ad-placements/0082-search-results
 评论网址：https://news.ycombinator.com/item?id=46322556
-积分：141
-评论数量：134]]></description>
+积分：200
+评论数：184]]></description>
       <guid>https://ads.apple.com/app-store/help/ad-placements/0082-search-results</guid>
       <pubDate>Fri, 19 Dec 2025 05:38:25 GMT</pubDate>
     </item>
@@ -40,8 +84,8 @@
       <link>https://lorendb.dev/posts/getting-bitten-by-poor-naming-schemes/</link>
       <description><![CDATA[文章网址：https://lorendb.dev/posts/getting-bitten-by-poor-naming-schemes/
 评论网址：https://news.ycombinator.com/item?id=46322540
-积分：90
-# 条评论：43]]></description>
+积分：163
+# 条评论：83]]></description>
       <guid>https://lorendb.dev/posts/getting-bitten-by-poor-naming-schemes/</guid>
       <pubDate>Fri, 19 Dec 2025 05:35:34 GMT</pubDate>
     </item>
@@ -50,8 +94,8 @@
       <link>https://pckf.com/viewtopic.php?t=18248</link>
       <description><![CDATA[文章网址：https://pckf.com/viewtopic.php?t=18248
 评论网址：https://news.ycombinator.com/item?id=46321982
-积分：68
-# 条评论：8]]></description>
+积分：90
+# 条评论：14]]></description>
       <guid>https://pckf.com/viewtopic.php?t=18248</guid>
       <pubDate>Fri, 19 Dec 2025 03:26:52 GMT</pubDate>
     </item>
@@ -60,50 +104,20 @@
       <link>https://noclip.website/</link>
       <description><![CDATA[文章网址：https://noclip.website/
 评论网址：https://news.ycombinator.com/item?id=46321619
-积分：176
-# 条评论：20]]></description>
+积分：242
+# 条评论：30]]></description>
       <guid>https://noclip.website/</guid>
       <pubDate>Fri, 19 Dec 2025 02:20:08 GMT</pubDate>
     </item>
     <item>
-      <title>SMB Direct – 基于 RDMA 的 SMB3 – Linux 内核文档</title>
+      <title>SMB Direct – 基于 RDMA 的 SMB3</title>
       <link>https://docs.kernel.org/filesystems/smb/smbdirect.html</link>
       <description><![CDATA[文章网址：https://docs.kernel.org/filesystems/smb/smbdirect.html
 评论网址：https://news.ycombinator.com/item?id=46321350
-积分：24
-# 条评论：4]]></description>
+积分：35
+# 条评论：6]]></description>
       <guid>https://docs.kernel.org/filesystems/smb/smbdirect.html</guid>
       <pubDate>Fri, 19 Dec 2025 01:42:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于属性的测试发现了我从未发现的安全漏洞</title>
-      <link>https://kiro.dev/blog/property-based-testing-fixed-security-bug/</link>
-      <description><![CDATA[文章网址：https://kiro.dev/blog/property-based-testing-fixed-security-bug/
-评论网址：https://news.ycombinator.com/item?id=46320395
-积分：20
-# 条评论：3]]></description>
-      <guid>https://kiro.dev/blog/property-based-testing-fixed-security-bug/</guid>
-      <pubDate>Thu, 18 Dec 2025 23:40:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>理论计算机科学的伟大想法</title>
-      <link>https://www.cs251.com/</link>
-      <description><![CDATA[文章网址：https://www.cs251.com/
-评论网址：https://news.ycombinator.com/item?id=46319946
-积分：100
-# 条评论：19]]></description>
-      <guid>https://www.cs251.com/</guid>
-      <pubDate>Thu, 18 Dec 2025 22:52:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>历史法学硕士：专门针对 1913 年之前的文本进行训练的模型</title>
-      <link>https://github.com/DGoettlich/history-llms</link>
-      <description><![CDATA[文章网址：https://github.com/DGoettlich/history-llms
-评论网址：https://news.ycombinator.com/item?id=46319826
-积分：483
-# 条评论：190]]></description>
-      <guid>https://github.com/DGoettlich/history-llms</guid>
-      <pubDate>Thu, 18 Dec 2025 22:39:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
