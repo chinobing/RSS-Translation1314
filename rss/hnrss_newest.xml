@@ -4,217 +4,111 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 25 Dec 2025 18:30:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Dec 2025 21:20:20 GMT</lastBuildDate>
     <item>
-      <title>询问 HN：牙科、软件工程和健康信息学</title>
-      <link>https://news.ycombinator.com/item?id=46386148</link>
-      <description><![CDATA[我从牙科学校毕业，我从来没有想过学习牙科，但那是另一个故事了，我研究了一段时间网络开发，寻找网络开发工作，但从未找到过一份工作，现在我在一家健康信息公司从事实施部分工作，但我真的很想解决 SWE 的痒，我正在学习这些说的 CS 基础知识，但我不确定下一步应该做什么，我知道的是我不认为我想永远留在 HI 工作。
+      <title>法学硕士时代的技术写作框架</title>
+      <link>https://thedataquarry.com/blog/a-framework-for-reading-and-writing/</link>
+      <description><![CDATA[文章网址：https://thedataquarry.com/blog/a-framework-for-reading-and-writing/
+评论网址：https://news.ycombinator.com/item?id=46387034
+积分：1
+# 条评论：0]]></description>
+      <guid>https://thedataquarry.com/blog/a-framework-for-reading-and-writing/</guid>
+      <pubDate>Thu, 25 Dec 2025 21:04:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mq – 用于 Markdown 处理的类似 jq 的命令行工具</title>
+      <link>https://github.com/harehare/mq</link>
+      <description><![CDATA[文章网址：https://github.com/harehare/mq
+评论网址：https://news.ycombinator.com/item?id=46387029
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/harehare/mq</guid>
+      <pubDate>Thu, 25 Dec 2025 21:03:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Intelligence – 悬疑调查游戏</title>
+      <link>https://intelligencegame.tech/</link>
+      <description><![CDATA[文章网址：https://intelligencegame.tech/
+评论网址：https://news.ycombinator.com/item?id=46387028
+积分：1
+# 条评论：0]]></description>
+      <guid>https://intelligencegame.tech/</guid>
+      <pubDate>Thu, 25 Dec 2025 21:03:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：稍后 – 安排稍后打开的 URL</title>
+      <link>https://github.com/adagradschool/later</link>
+      <description><![CDATA[我构建 Later 是为了解决自己的问题：我会找到有趣的文章，但没有时间阅读它们，或者我会因为代码太深而忘记参加会议。Later 是一个浏览器扩展 + 本地守护进程，可让您安排在特定时间打开任何网页。按 Option+L，选择一个时间（或使用“1 小时内”或“今晚”等预设），即使您的浏览器已关闭或正在使用其他应用程序，页面也会自动打开。技术详细信息：
+  - UI 的浏览器扩展（Firefox + Chrome）
+  - Python 守护进程 (FastAPI + SQLite) 处理调度并通过系统打开 URL
+  - launchd 集成，可在 macOS 上自动启动
+  - 一切都在本地运行，没有帐户或云守护程序方法是有意为之的 - 当时间到来时它会抢走焦点，这正是您想要的会议。纯粹的扩展程序会在后台默默地打开选项卡。在一个慵懒的圣诞节下午与 Claude Code 一起构建。很高兴回答有关架构或实现的问题。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46386148
+评论网址：https://news.ycombinator.com/item?id=46387010
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46386148</guid>
-      <pubDate>Thu, 25 Dec 2025 18:29:50 GMT</pubDate>
+      <guid>https://github.com/adagradschool/later</guid>
+      <pubDate>Thu, 25 Dec 2025 21:00:18 GMT</pubDate>
     </item>
     <item>
-      <title>标准模型是否过度拟合，或者我是否曲线拟合？</title>
-      <link>https://news.ycombinator.com/item?id=46386102</link>
-      <description><![CDATA[我正在开发一个基于几何约束（w = 2，δ = √5）和拓扑不变量的物理相互作用的几何模型。没有自由参数，只有几何形状。在您看来，这是一个合法的几何统一还是只是复杂的曲线拟合？结果：质子半径 (r_p)：
-建模为具有球面场投影损失 (α / 4 · π) 的四面体结构极限 (4 · ƛ)。 r_p = 4 · ƛ_p · (1 - (α / (4 · π)))
-  预计：8.407470 × 10^-16 m
-  实验：8.4075(64) × 10^-16 m
-  差异：3 ppm
-
-质子磁矩 (g_p):
-源自由黄金摩擦项 (α / Φ) 阻尼的动势 (δ = √5 )。 g_p = (δ^3 / w) - (α / Φ)
-  预测: 5.5856599
-  经验：5.5856947
-  差异：6 ppm
-
-μ 子异常 (a_μ):
-导出为二十面体几何的分层分辨率：表面 (α / 2 · π) + 节点 (α^2 / 12) + 顶点对称性 (α^3 / 5)。 a_μ = (α / (2 · π)) + (α^2 / 12) + (α^3 / 5)
-  预测: 0.00116592506
-  经验值：0.00116592059
-  差异：4 ppm
-
-α粒子半径(r_α)：
-建模为具有线性核子投影成本 (α / π) 的 4 核子四面体 (8 · ƛ)。 r_α = 8 · ƛ_p · (1 - (α / π))
-  预计：1.67856 × 10^-15 m
-  实验值：1.678 × 10^-15 m
-  差值：330 ppm
-
-质子质量 (m_p):
-通过 64 位度量水平 (2^64) 和对角线传输 (√2) 将普朗克标尺连接到质子标尺。 m_p = ((√2 · m_P) / 2^64) · (1 + α / 3)
-  预重：1.67260849206×10^-27千克
-  消耗：1.67262192595(52)×10^-27千克
-  差异：8 ppm
-
-中子-质子质量差 (Δ_m):
-建模为电子（二十面体，20 个面）几何压缩到质子框架（立方体，8 个顶点）中存储的势能。压缩比 = 20/8 = 5/2。 Δ_m = m_e · ((5/2) + 4 · α + (α / 4))
-  预测值：1.293345 MeV
-  实验值：1.293332 MeV。
-  差异：10 ppm。
-
-没有 G 的万有引力常数 (G)：
-源自量子常数和质子质量，将 G 识别为 128 位层次结构 (2^128) 的缩放工件。 G = (ħ · c · 2 · (1 + α / 3)^2) / (m_p^2 · 2^128)
-  预测值： 6.6742439706 × 10^-11
-  实验：6.67430(15) × 10^-11 m^3 · kg^-1 · s^-2
-  差异：8 ppm
-
-精细结构常数 (α):
-导出为静态空间成本加上旋量环校正。 α^-1 = (4 · π^3 + π^2 + π) - (α / 24)
-  预测：137.0359996
-  经验：137.0359991
-  差异：&lt; 0.005 ppm
-
-预印本：https://doi.org/10.5281/zenodo.17847770
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46386102
-积分：2
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=46386102</guid>
-      <pubDate>Thu, 25 Dec 2025 18:22:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cursor 首席执行官警告氛围编码建立“不稳定的基础”</title>
-      <link>https://fortune.com/2025/12/25/cursor-ceo-michael-truell-vibe-coding-warning-generative-ai-assistant/</link>
-      <description><![CDATA[文章网址：https://fortune.com/2025/12/25/cursor-ceo-michael-truell-vibe-coding-warning-generative-ai-assistant/
-评论网址：https://news.ycombinator.com/item?id=46386101
+      <title>显示 HN：我嵌入了 10M 街景图像</title>
+      <link>https://view.geospot.sdan.io/</link>
+      <description><![CDATA[文章网址：https://view.geospot.sdan.io/
+评论网址：https://news.ycombinator.com/item?id=46387007
 积分：1
 # 条评论：0]]></description>
-      <guid>https://fortune.com/2025/12/25/cursor-ceo-michael-truell-vibe-coding-warning-generative-ai-assistant/</guid>
-      <pubDate>Thu, 25 Dec 2025 18:21:36 GMT</pubDate>
+      <guid>https://view.geospot.sdan.io/</guid>
+      <pubDate>Thu, 25 Dec 2025 20:59:43 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我为聊天机器人创建了交互式按钮</title>
-      <link>https://news.ycombinator.com/item?id=46386095</link>
-      <description><![CDATA[即将到 2026 年，在聊天机器人方面我们仍然停留在 CLI 时代。因此，我创建了一个名为 Quint 的开源库。
-Quint 是一个小型 React 库，可让您在 LLM 之上构建结构化、确定性的交互。您可以定义明确的选择，而不是一切都是原始文本，其中单击可以显示信息，将结构化输入发送回模型，或同时执行这两种操作，并完全控制输出的显示位置。
-Quint 只管理状态和行为，而不管理表示。因此，您可以完全自定义按钮并通过自己的组件和样式显示 UI。
-核心思想很简单：将模型接收的内容、用户看到的内容以及输出的渲染位置分开。这使得 MCQ、解释、角色扮演分支和本地化 UI 扩展等内容变得可预测，而不是老套。
-Quint 不依赖任何人工智能提供商，即使没有法学硕士也能工作。所有模型交互都通过回调进行，因此您可以插入 OpenAI、Gemini、Claude 或模拟函数。
-现在还很早（v0.1.0），但核心抽象是稳定的。我希望得到反馈，看看这是否是一个有用的方向，或者是否存在我遗漏的明显缺陷。
-这只是开始。很快我们将拥有可以由 LLM 渲染的完整 ui 元素，使普通最终用户的每次交互都变得简单。
-仓库 + 文档：https://github.com/ItsM0rty/quint
-npm： https://www.npmjs.com/package/@itsm0rty/quint
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46386095
+      <title>注意力使错误的规范正常化</title>
+      <link>https://convergentthinking.sh/posts/attention-normalizes-the-wrong-norm/</link>
+      <description><![CDATA[文章网址：https://convergentthinking.sh/posts/attention-normalizes-the-wrong-norm/
+评论网址：https://news.ycombinator.com/item?id=46386995
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46386095</guid>
-      <pubDate>Thu, 25 Dec 2025 18:20:47 GMT</pubDate>
+      <guid>https://convergentthinking.sh/posts/attention-normalizes-the-wrong-norm/</guid>
+      <pubDate>Thu, 25 Dec 2025 20:57:21 GMT</pubDate>
     </item>
     <item>
-      <title>白色圣诞兔子洞</title>
-      <link>https://www.loganseaburg.com/blog/whitest-christmas</link>
-      <description><![CDATA[文章网址：https://www.loganseaburg.com/blog/whitest-christmas
-评论网址：https://news.ycombinator.com/item?id=46386093
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.loganseaburg.com/blog/whitest-christmas</guid>
-      <pubDate>Thu, 25 Dec 2025 18:20:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：使用一次性公钥共享秘密的 CLI</title>
-      <link>https://github.com/scosman/secret_share</link>
-      <description><![CDATA[文章网址：https://github.com/scosman/secret_share
-评论网址：https://news.ycombinator.com/item?id=46386091
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/scosman/secret_share</guid>
-      <pubDate>Thu, 25 Dec 2025 18:20:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>来自 top.1% ChatGPT 用户的 AI 感想</title>
-      <link>https://stocktalknewsletter.substack.com/p/ai-reflections-from-a-top-01-chatgpt</link>
-      <description><![CDATA[文章网址：https://stocktalknewsletter.substack.com/p/ai-reflections-from-a-top-01-chatgpt
-评论网址：https://news.ycombinator.com/item?id=46386080
-积分：1
-# 条评论：0]]></description>
-      <guid>https://stocktalknewsletter.substack.com/p/ai-reflections-from-a-top-01-chatgpt</guid>
-      <pubDate>Thu, 25 Dec 2025 18:17:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>解释英国工业革命：主要理论</title>
-      <link>https://frompovertytoprogress.substack.com/p/explaining-britains-industrial-revolution</link>
-      <description><![CDATA[文章网址：https://frompovertytoprogress.substack.com/p/explaining-britains-industrial-revolution
-评论网址：https://news.ycombinator.com/item?id=46386065
-积分：1
-# 条评论：0]]></description>
-      <guid>https://frompovertytoprogress.substack.com/p/explaining-britains-industrial-revolution</guid>
-      <pubDate>Thu, 25 Dec 2025 18:16:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>防止浪费：当成本下降时，平均质量也会下降</title>
-      <link>https://newsletter.rootsofprogress.org/p/in-defense-of-slop</link>
-      <description><![CDATA[文章网址：https://newsletter.rootsofprogress.org/p/in-defense-of-slop
-评论网址：https://news.ycombinator.com/item?id=46386057
+      <title>回溯 0.3 发布</title>
+      <link>https://wayback.freedesktop.org/news/2025/12/22/wayback-0.3-released/</link>
+      <description><![CDATA[文章网址：https://wayback.freedesktop.org/news/2025/12/22/wayback-0.3-released/
+评论网址：https://news.ycombinator.com/item?id=46386972
 积分：2
 # 条评论：0]]></description>
-      <guid>https://newsletter.rootsofprogress.org/p/in-defense-of-slop</guid>
-      <pubDate>Thu, 25 Dec 2025 18:14:31 GMT</pubDate>
+      <guid>https://wayback.freedesktop.org/news/2025/12/22/wayback-0.3-released/</guid>
+      <pubDate>Thu, 25 Dec 2025 20:54:26 GMT</pubDate>
     </item>
     <item>
-      <title>无需分布式锁即可编排 5000 个 Worker：重新发现 TDMA</title>
-      <link>https://news.ycombinator.com/item?id=46386053</link>
-      <description><![CDATA[我需要使用 Go 和 SQLite 协调 500-5000 个批处理工作人员（ML 培训、ETL）。每个教程都说：使用 etcd、Consul 或 ZooKeeper。但为什么这些进程需要相互通信？洞察力如果编排器从不同时运行怎么办？Runner-0 在 T=0 秒、10 秒、20 秒执行……
-Runner-1 在 T=2s、12s、22s... 时执行
-Runner-2 在 T=4s、14s、24s...执行
-Runner-3 在 T=6s、16s、26s...执行
-Runner-4 在 T=8s、18s、28s...时分多址 (TDMA) 时执行。与 GSM 用于无线电的模式相同。GO 实现type Runner struct {
-    ID，TotalRunners int
-    CycleTime 时间.Duration
-}func (r Runner) Start() {
-    槽 := r.CycleTime / time.Duration(r.TotalRunners)
-    offset := time.Duration(r.ID)  slot for {
-        time.Sleep(time.Until(computeNextSlot(offset)))
-        r.reconcile() // 检查worker，如果需要则启动
-    }
-}每个跑步者在 10 秒的循环中获得 2 秒。无重叠 = 零协调。SQLITE CONFIGPRAGMA Journal_mode=WAL;
-dbWrite.SetMaxOpenConns(1) // 一位写入者
-dbRead.SetMaxOpenConns(10) // 并发读取使用 TDMA，busy_timeout 永远不会触发。数学容量 = SlotDuration / TimePerWorker
-         = 2000ms / 10ms = 每个运行程序 200 个工作人员5 个运行程序 = 1000 个工作人员
-25 个运行者 = 5000 个工作人员（25 秒周期，12.5 秒平均延迟）对于批处理作业运行时间，10 秒检测延迟无关紧要。基准测试（来自文档/论文的真实数据）系统 |写入/秒 |延迟 |节点|使用案例
-等10,000 | 25 毫秒 | 3-5 | 3-5配置
-动物园管理员 | 8,000 | 50 毫秒 | 5 |选举
-颞叶 | 2,000 | 100 毫秒 | 15-20 |工作流程
-气流| 300 | 300 2秒| 2-3 | 2-3批次
-TDMA-SPI | 40 | 40 5 秒平均 | 1-5 | 1-5批次您获得什么：
-- 零共识协议（无 Raft/Paxos）
-- 可单节点部署
-- 确定性行为
-- 极其简单您牺牲了什么：
-- 实时响应（&lt;1s）
-- 高频（&gt;1000 次操作/秒）
-- 任意规模（限制约 5000 名工作人员）通用模式无线传感器网络：DD-TDMA (IEEE 2007) - 相同模式
-Kubernetes 控制器：每 5-10 秒协调一次（隐式 TDMA）
-构建系统：时间片作业声明与选择更新为什么这不常见？1.文化偏见：行业默认“添加共识层”
-2. TDMA 听起来很古老：它来自 20 世纪 80 年代的电信（但古老≠不好）
-3. SQLite 被低估：实际上在 NVMe 上每秒处理 50K-100K 写入
-4. 大多数示例针对微服务进行优化（1000 次操作/秒），而不是批处理何时不使用：
- 微服务（需要 &lt;100 毫秒的延迟）
- 实时系统（交易、游戏）
- 需要 &gt;10,000 次操作/秒适用于：
- 批量处理
- 机器学习训练编排
- ETL 管道（每小时/每天）
- 视频/图像处理
- 任何任务持续时间 &gt;&gt; 检测延迟真正的教训现代分布式系统思维：
-1. 假设需要协调
-2. 选择共识协议
-3. 处理复杂性替代方案：
-1. 进程可以互相避免吗？ （时间隔离）
-2、数据可以分区吗？ （空间隔离）
-3. 最终一致性可以吗？如果这三个问题都是肯定的：您可能根本不需要协调。结论我为批处理工作人员构建了一个简单的编排器，并重新发现了 40 年前的电信模式，该模式完全消除了分布式协调。模式：TDMA + 空间分区 + SQLite
-工作流编排的应用似乎很新颖。如果 Kubernetes 感觉有点大材小用，也许时间切片就足够了。有时最好的分布式系统就是不需要分布式的系统。---
-完整文章：[博客链接]
-代码：[github 链接]讨论：还有人使用基于时间的调度来实现无协调系统吗？高时钟偏差网络怎么样？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46386053
+      <title>彭博社与 Jason Furman 的人工智能泡沫问答中最令人担忧的部分</title>
+      <link>https://gizmodo.com/the-most-worrying-bits-from-bloombergs-worrisome-ai-bubble-qa-with-jason-furman-2000702356</link>
+      <description><![CDATA[文章网址： https://gizmodo.com/the-most-worrying-bits-from-bloombergs-worrisome-ai-bubble-qa-with-jason-furman-2000702356
+评论网址：https://news.ycombinator.com/item?id=46386948
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46386053</guid>
-      <pubDate>Thu, 25 Dec 2025 18:14:12 GMT</pubDate>
+      <guid>https://gizmodo.com/the-most-worrying-bits-from-bloombergs-worrisome-ai-bubble-qa-with-jason-furman-2000702356</guid>
+      <pubDate>Thu, 25 Dec 2025 20:50:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>虚拟单元将更像 Gwa，而不是 AlphaFold</title>
+      <link>https://andrewcarroll.github.io/2025/12/23/the-virtual-cell-will-be-more-like-GWAS-than-AlphaFold.html</link>
+      <description><![CDATA[文章网址：https://andrewcarroll.github.io/2025/12/23/the-virtual-cell-will-be-more-like-GWAS-than-AlphaFold.html
+评论网址：https://news.ycombinator.com/item?id=46386946
+积分：1
+# 条评论：0]]></description>
+      <guid>https://andrewcarroll.github.io/2025/12/23/the-virtual-cell-will-be-more-like-GWAS-than-AlphaFold.html</guid>
+      <pubDate>Thu, 25 Dec 2025 20:49:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>共同市场：当我在网上购物时，我支持我的幼儿园</title>
+      <link>https://blog.hermesloom.org/p/wenn-ich-online-shoppe-tu-ich-meinem</link>
+      <description><![CDATA[文章网址：https://blog.hermesloom.org/p/wenn-ich-online-shoppe-tu-ich-meinem
+评论网址：https://news.ycombinator.com/item?id=46386943
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.hermesloom.org/p/wenn-ich-online-shoppe-tu-ich-meinem</guid>
+      <pubDate>Thu, 25 Dec 2025 20:49:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
