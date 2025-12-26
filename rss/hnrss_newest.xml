@@ -4,118 +4,123 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 26 Dec 2025 12:42:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Dec 2025 15:22:06 GMT</lastBuildDate>
     <item>
-      <title>经过多年的请求，ChatGPT 对话仍然缺乏时间戳</title>
-      <link>https://community.openai.com/t/timestamps-for-chats-in-chatgpt/440107?page=3</link>
-      <description><![CDATA[文章网址：https://community.openai.com/t/timestamps-for-chats-in-chatgpt/440107?page=3
-评论网址：https://news.ycombinator.com/item?id=46391472
+      <title>Show HN：用于网络抓取的自托管 Apify 兼容平台</title>
+      <link>https://crawlee.cloud</link>
+      <description><![CDATA[嘿 HN，我构建了 Crawlee Cloud，这是一个开源自托管平台，可让您在自己的基础设施上运行 Crawlee 和 Apify Actors。问题：Apify 生态系统（Crawlee、SDK、Actors）非常适合网络抓取，但它与他们的云绑定在一起。如果您想将数据保留在本地、在自己的服务器上运行或大规模节省成本，那么您就会陷入困境。解决方案：Crawlee Cloud 实施 Apify 的 REST API，因此您现有的 Actor 无需更改代码即可工作。只需将 APIFY_API_BASE_URL 指向您自己的服务器即可。功能：
+- SDK 兼容：数据集、键值存储、请求队列都可以工作
+- 基于 Docker：每个 Actor 都在一个隔离的容器中运行
+- 仪表板：监控运行、探索数据集、管理 Actor
+- CLI：从终端推送、运行和管理 ActorStack：Node.js、Fastify、PostgreSQL、Redis、S3/MinIO、Next.jsGitHub：https://github.com/crawlee-cloud/crawlee-cloud很高兴回答问题！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46392738
+积分：1
+# 条评论：0]]></description>
+      <guid>https://crawlee.cloud</guid>
+      <pubDate>Fri, 26 Dec 2025 15:07:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Xcc700：ESP32 (Xtensa) 的自托管迷你 C 编译器（700 行）</title>
+      <link>https://github.com/valdanylchuk/xcc700</link>
+      <description><![CDATA[仓库：https://github.com/valdanylchuk/xcc700大家好！我刚刚编写了我的第一个编译器！- 单通道、递归下降、直接发射- 生成 REL ELF 二进制文件，可使用 ESP-IDF elf_loader 运行- 仅具有非常基本的功能，足以用于自托管- 为了简单起见，将 Xtensa CPU 视为堆栈机，无需寄存器分配/窗口使用- 可在 Mac 上编译，也可能在 Linux 上编译，可以在那里交叉编译 esp32-为乐趣而写 / cyberdeck 项目esp32 的示例输出： xcc700.elf xcc700.c -o /d/cc.elf
+    
+    [ xcc700 ] 构建完成 &gt; 确定
+    &gt; IN : 700 行 / 7977 代币
+    &gt; SYM：69 个函数 / 91 个全局变量
+    &gt; REL：152 个文字/1027 个补丁
+    &gt; MEM：1041 B .rodata / 17120 B .bss
+    &gt; 输出：27735 B .text / 33300 B ELF
+    [ 40 毫秒 ] &gt;&gt; 17500 行/秒 &lt;&lt;
+
+我最大的希望是某个 fork 可能会成长为一种适合 esp32 平台的独特的好语言。我认为它在用户级爱好项目中被低估了。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46392736
+积分：2
+# 条评论：0]]></description>
+      <guid>https://github.com/valdanylchuk/xcc700</guid>
+      <pubDate>Fri, 26 Dec 2025 15:07:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: Text Behind Image – 使用 AI 将文本置于对象后面</title>
+      <link>https://text-behind-image.org/</link>
+      <description><![CDATA[我构建了一个小型网络工具，可以自动将文本放置在图像的主要主题后面。上传图像，添加文本，AI 会处理主题检测和遮蔽。无需注册，无水印。构建此效果是因为在 Photoshop 中手动执行此效果比应有的更烦人。欢迎反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46392732
+积分：1
+# 条评论：0]]></description>
+      <guid>https://text-behind-image.org/</guid>
+      <pubDate>Fri, 26 Dec 2025 15:06:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>一位经历过 2025 年的科技专业大学生的固执己见的博客</title>
+      <link>https://substack.com/inbox/post/182630805</link>
+      <description><![CDATA[文章网址：https://substack.com/inbox/post/182630805
+评论网址：https://news.ycombinator.com/item?id=46392726
 积分：1
 # 条评论：1]]></description>
-      <guid>https://community.openai.com/t/timestamps-for-chats-in-chatgpt/440107?page=3</guid>
-      <pubDate>Fri, 26 Dec 2025 12:39:32 GMT</pubDate>
+      <guid>https://substack.com/inbox/post/182630805</guid>
+      <pubDate>Fri, 26 Dec 2025 15:06:29 GMT</pubDate>
     </item>
     <item>
-      <title>逆向API工程师</title>
-      <link>https://github.com/kalil0321/reverse-api-engineer</link>
-      <description><![CDATA[文章网址：https://github.com/kalil0321/reverse-api-engineer
-评论网址：https://news.ycombinator.com/item?id=46391470
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/kalil0321/reverse-api-engineer</guid>
-      <pubDate>Fri, 26 Dec 2025 12:39:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nano Banana Pro 是最好的 AI 图像生成器，但有一些注意事项 – Max Woolf 的博客</title>
-      <link>https://minimaxir.com/2025/12/nano-banana-pro/</link>
-      <description><![CDATA[文章网址：https://minimaxir.com/2025/12/nano-banana-pro/
-评论网址：https://news.ycombinator.com/item?id=46391460
-积分：1
-# 条评论：0]]></description>
-      <guid>https://minimaxir.com/2025/12/nano-banana-pro/</guid>
-      <pubDate>Fri, 26 Dec 2025 12:36:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Unix“查找”表达式编译为字节码</title>
-      <link>https://nullprogram.com/blog/2025/12/23/</link>
-      <description><![CDATA[文章网址：https://nullprogram.com/blog/2025/12/23/
-评论网址：https://news.ycombinator.com/item?id=46391448
-积分：1
-# 条评论：0]]></description>
-      <guid>https://nullprogram.com/blog/2025/12/23/</guid>
-      <pubDate>Fri, 26 Dec 2025 12:35:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>唐纳德·高德纳 (Donald Knuth) 2025 年年度圣诞讲座 – Adventures with Knight's Tours</title>
-      <link>https://online.stanford.edu/donald-e-knuth-lectures</link>
-      <description><![CDATA[文章网址：https://online.stanford.edu/donald-e-knuth-lectures
-评论网址：https://news.ycombinator.com/item?id=46391434
-积分：1
-# 条评论：0]]></description>
-      <guid>https://online.stanford.edu/donald-e-knuth-lectures</guid>
-      <pubDate>Fri, 26 Dec 2025 12:31:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Neuro‑IDE：通用内核皮层</title>
-      <link>https://news.ycombinator.com/item?id=46391428</link>
-      <description><![CDATA[我构建了一些我一直希望存在于 OSDev 中的东西：
-在一个单一的皮质中，可以看到、理解甚至叙述操作系统的整个诞生过程。Repo：  
- https://github.com/neuro-os/neuro-ideNeuro‑IDE 不是典型的 IDE。
-它是内核创建者的统一大脑：诊断、可视化、二进制分析、内存映射、日志时间线以及将启动事件转化为可读叙述的完全程序化的故事引擎。这很奇怪。
-这是固执己见的。
-它是集成的。
-这是我一开始就希望拥有的工具。里面有什么
-17 个模块，全部集中在一个位置（零依赖性）将启动日志转换为故事的叙事引擎（史诗、技术、哲学、幽默、自我意识）实时串行日志时间线内存映射可视化工具 (BootViz)64 位二进制文件的 ELF 浏览器通用二进制差异模拟时间旅行调试器(KTTD)用于隔离 OSDev 实验的沙盒生成器英语 + 西班牙语支持为什么存在
-OSDev 工具分散在脚本、十六进制转储、半损坏的查看器和终端窗口中。
-我想要一个地方：初学者可以看到正在发生的事情专家可以加速调试内核可以自己说话这是我尝试为 OSDev 提供一个有灵魂的工具。状态：  
-v0.2 — 稳定、模块化且不断发展。
-欢迎提供反馈、问题和想法。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46391428
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46391428</guid>
-      <pubDate>Fri, 26 Dec 2025 12:30:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>GNU Mes 和模块系统</title>
-      <link>https://ekaitz.elenq.tech/fasterMes5.html</link>
-      <description><![CDATA[文章网址：https://ekaitz.elenq.tech/fasterMes5.html
-评论网址：https://news.ycombinator.com/item?id=46391422
-积分：1
-# 条评论：0]]></description>
-      <guid>https://ekaitz.elenq.tech/fasterMes5.html</guid>
-      <pubDate>Fri, 26 Dec 2025 12:28:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>我是一个笔记本电脑怪人，这就是为什么我喜欢我的新 Framework 13</title>
-      <link>https://blog.matthewbrunelle.com/im-a-laptop-weirdo-and-thats-why-i-like-my-new-framework-13/</link>
-      <description><![CDATA[文章网址：https://blog.matthewbrunelle.com/im-a-laptop-weirdo-and-thats-why-i-like-my-new-framework-13/
-评论网址：https://news.ycombinator.com/item?id=46391410
+      <title>Clone Hero – 开源 Guitar Hero 的继任者</title>
+      <link>https://clonehero.net/</link>
+      <description><![CDATA[文章网址：https://clonehero.net/
+评论网址：https://news.ycombinator.com/item?id=46392691
 积分：2
 # 条评论：0]]></description>
-      <guid>https://blog.matthewbrunelle.com/im-a-laptop-weirdo-and-thats-why-i-like-my-new-framework-13/</guid>
-      <pubDate>Fri, 26 Dec 2025 12:27:19 GMT</pubDate>
+      <guid>https://clonehero.net/</guid>
+      <pubDate>Fri, 26 Dec 2025 15:03:27 GMT</pubDate>
     </item>
     <item>
-      <title>我建立了一个最小的网站，但谷歌忽略了它</title>
-      <link>https://gokhanarkan.com/blog/minimal-website-seo/</link>
-      <description><![CDATA[文章网址：https://gokhanarkan.com/blog/minimal-website-seo/
-评论网址：https://news.ycombinator.com/item?id=46391407
-积分：2
+      <title>DeepMind 的故事</title>
+      <link>https://bigthink.com/business/the-inside-story-of-deepmind/</link>
+      <description><![CDATA[文章网址：https://bigthink.com/business/the-inside-story-of-deepmind/
+评论网址：https://news.ycombinator.com/item?id=46392690
+积分：1
 # 条评论：0]]></description>
-      <guid>https://gokhanarkan.com/blog/minimal-website-seo/</guid>
-      <pubDate>Fri, 26 Dec 2025 12:26:58 GMT</pubDate>
+      <guid>https://bigthink.com/business/the-inside-story-of-deepmind/</guid>
+      <pubDate>Fri, 26 Dec 2025 15:03:18 GMT</pubDate>
     </item>
     <item>
-      <title>我刚刚要求降职吗？</title>
-      <link>https://andrew.grahamyooll.com/blog/Did-I-Just-Ask-For-A-Demotion/</link>
-      <description><![CDATA[文章网址：https://andrew.grahamyooll.com/blog/Did-I-Just-Ask-For-A-Demotion/
-评论网址：https://news.ycombinator.com/item?id=46391392
-积分：2
+      <title>中国对电池供应链的控制对美国军方构成重大风险</title>
+      <link>https://www.tomshardware.com/tech-industry/how-chinas-control-of-battery-supply-chains-is-becoming-a-critical-risk-for-us-ai-and-defense</link>
+      <description><![CDATA[文章网址： https://www.tomshardware.com/tech-industry/how-chinas-control-of-battery-supply-chains-is-becoming-a-ritic-risk-for-us-ai-and-defense
+评论网址：https://news.ycombinator.com/item?id=46392689
+积分：1
 # 条评论：0]]></description>
-      <guid>https://andrew.grahamyooll.com/blog/Did-I-Just-Ask-For-A-Demotion/</guid>
-      <pubDate>Fri, 26 Dec 2025 12:23:20 GMT</pubDate>
+      <guid>https://www.tomshardware.com/tech-industry/how-chinas-control-of-battery-supply-chains-is-becoming-a-critical-risk-for-us-ai-and-defense</guid>
+      <pubDate>Fri, 26 Dec 2025 15:03:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么什么都不重要</title>
+      <link>https://aeon.co/essays/why-zero-could-unlock-how-the-brain-perceives-absence</link>
+      <description><![CDATA[文章网址：https://aeon.co/essays/why-zero-could-unlock-how-the-brain-perceives-absence
+评论网址：https://news.ycombinator.com/item?id=46392687
+积分：1
+# 条评论：0]]></description>
+      <guid>https://aeon.co/essays/why-zero-could-unlock-how-the-brain-perceives-absence</guid>
+      <pubDate>Fri, 26 Dec 2025 15:03:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>tmux 中的 SSH 代理损坏了？我有你</title>
+      <link>https://blogsystem5.substack.com/p/ssh-agent-switcher-release</link>
+      <description><![CDATA[文章网址：https://blogsystem5.substack.com/p/ssh-agent-switcher-release
+评论网址：https://news.ycombinator.com/item?id=46392682
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blogsystem5.substack.com/p/ssh-agent-switcher-release</guid>
+      <pubDate>Fri, 26 Dec 2025 15:02:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025 年：这就结束了，以下是统计数据</title>
+      <link>https://www.backblaze.com/blog/2025-thats-a-wrap-and-here-are-the-stats/</link>
+      <description><![CDATA[文章网址：https://www.backblaze.com/blog/2025-thats-a-wrap-and-here-are-the-stats/
+评论网址：https://news.ycombinator.com/item?id=46392646
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.backblaze.com/blog/2025-thats-a-wrap-and-here-are-the-stats/</guid>
+      <pubDate>Fri, 26 Dec 2025 14:59:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
