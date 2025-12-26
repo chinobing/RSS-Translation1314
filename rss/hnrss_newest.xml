@@ -4,123 +4,155 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 26 Dec 2025 15:22:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Dec 2025 18:30:43 GMT</lastBuildDate>
     <item>
-      <title>Show HN：用于网络抓取的自托管 Apify 兼容平台</title>
-      <link>https://crawlee.cloud</link>
-      <description><![CDATA[嘿 HN，我构建了 Crawlee Cloud，这是一个开源自托管平台，可让您在自己的基础设施上运行 Crawlee 和 Apify Actors。问题：Apify 生态系统（Crawlee、SDK、Actors）非常适合网络抓取，但它与他们的云绑定在一起。如果您想将数据保留在本地、在自己的服务器上运行或大规模节省成本，那么您就会陷入困境。解决方案：Crawlee Cloud 实施 Apify 的 REST API，因此您现有的 Actor 无需更改代码即可工作。只需将 APIFY_API_BASE_URL 指向您自己的服务器即可。功能：
-- SDK 兼容：数据集、键值存储、请求队列都可以工作
-- 基于 Docker：每个 Actor 都在一个隔离的容器中运行
-- 仪表板：监控运行、探索数据集、管理 Actor
-- CLI：从终端推送、运行和管理 ActorStack：Node.js、Fastify、PostgreSQL、Redis、S3/MinIO、Next.jsGitHub：https://github.com/crawlee-cloud/crawlee-cloud很高兴回答问题！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46392738
+      <title>Elevator Wiki：有关电梯及其相关主题的 wiki</title>
+      <link>https://elevation.fandom.com/wiki/Elevator_Wiki</link>
+      <description><![CDATA[文章网址：https://elevation.fandom.com/wiki/Elevator_Wiki
+评论网址：https://news.ycombinator.com/item?id=46394657
 积分：1
 # 条评论：0]]></description>
-      <guid>https://crawlee.cloud</guid>
-      <pubDate>Fri, 26 Dec 2025 15:07:16 GMT</pubDate>
+      <guid>https://elevation.fandom.com/wiki/Elevator_Wiki</guid>
+      <pubDate>Fri, 26 Dec 2025 18:20:43 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Xcc700：ESP32 (Xtensa) 的自托管迷你 C 编译器（700 行）</title>
-      <link>https://github.com/valdanylchuk/xcc700</link>
-      <description><![CDATA[仓库：https://github.com/valdanylchuk/xcc700大家好！我刚刚编写了我的第一个编译器！- 单通道、递归下降、直接发射- 生成 REL ELF 二进制文件，可使用 ESP-IDF elf_loader 运行- 仅具有非常基本的功能，足以用于自托管- 为了简单起见，将 Xtensa CPU 视为堆栈机，无需寄存器分配/窗口使用- 可在 Mac 上编译，也可能在 Linux 上编译，可以在那里交叉编译 esp32-为乐趣而写 / cyberdeck 项目esp32 的示例输出： xcc700.elf xcc700.c -o /d/cc.elf
-    
-    [ xcc700 ] 构建完成 &gt; 确定
-    &gt; IN : 700 行 / 7977 代币
-    &gt; SYM：69 个函数 / 91 个全局变量
-    &gt; REL：152 个文字/1027 个补丁
-    &gt; MEM：1041 B .rodata / 17120 B .bss
-    &gt; 输出：27735 B .text / 33300 B ELF
-    [ 40 毫秒 ] &gt;&gt; 17500 行/秒 &lt;&lt;
-
-我最大的希望是某个 fork 可能会成长为一种适合 esp32 平台的独特的好语言。我认为它在用户级爱好项目中被低估了。
+      <title>星规</title>
+      <link>https://en.wikipedia.org/wiki/Star_Gauge</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Star_Gauge
+评论网址：https://news.ycombinator.com/item?id=46394655
+积分：1
+# 条评论：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/Star_Gauge</guid>
+      <pubDate>Fri, 26 Dec 2025 18:20:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Claude Code 解决合并冲突</title>
+      <link>https://raine.dev/blog/resolve-conflicts-with-claude/</link>
+      <description><![CDATA[文章网址：https://raine.dev/blog/resolve-conflicts-with-claude/
+评论网址：https://news.ycombinator.com/item?id=46394652
+积分：1
+# 条评论：0]]></description>
+      <guid>https://raine.dev/blog/resolve-conflicts-with-claude/</guid>
+      <pubDate>Fri, 26 Dec 2025 18:20:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tixl：开源实时运动图形</title>
+      <link>https://github.com/tixl3d/tixl</link>
+      <description><![CDATA[文章网址：https://github.com/tixl3d/tixl
+评论网址：https://news.ycombinator.com/item?id=46394651
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/tixl3d/tixl</guid>
+      <pubDate>Fri, 26 Dec 2025 18:20:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：人工智能生成的客户沟通的权威门</title>
+      <link>https://authority.bhaviavelayudhan.com</link>
+      <description><![CDATA[您好，HN，随着越来越多的团队让人工智能起草或发送面向客户的电子邮件（支持、计费、续订），我注意到一种安静的失败模式：人工智能生成的消息做出了没有人明确批准的承诺。
+暗示退款。承诺折扣。续订重新协商。不是幻觉，而是人工智能在没有权限边界的情况下完成工作。我在人工智能生成的消息和交付之间建立了一个小型权限门。它不会生成内容或取代 CRM 或支持工具。它只在发送消息之前回答一个问题 =&gt; 是否允许此消息向客户承诺金钱、条款或操作？系统检查出站消息，检测面向客户的承诺（退款、账单更改、续订、取消）、阻止交付或需要人工批准、记录每个决定以进行可审核我已经为尝试 AI 驱动的客户沟通的团队提供了一个公共沙箱。我还不确定这是否是一个利基边缘案例，还是随着 AI 采用率的增加而不可避免的新基础设施层，所以我特别想听听：a）您是否见过类似的失败b）您目前如何处理权限和批准，或者您为什么认为这个问题在实践中并不重要这里的沙盒+文档：
+https://authority.bhaviavelayudhan.com很高兴回答技术问题。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46392736
+评论网址：https://news.ycombinator.com/item?id=46394626
 积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/valdanylchuk/xcc700</guid>
-      <pubDate>Fri, 26 Dec 2025 15:07:01 GMT</pubDate>
+      <guid>https://authority.bhaviavelayudhan.com</guid>
+      <pubDate>Fri, 26 Dec 2025 18:17:44 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN: Text Behind Image – 使用 AI 将文本置于对象后面</title>
-      <link>https://text-behind-image.org/</link>
-      <description><![CDATA[我构建了一个小型网络工具，可以自动将文本放置在图像的主要主题后面。上传图像，添加文本，AI 会处理主题检测和遮蔽。无需注册，无水印。构建此效果是因为在 Photoshop 中手动执行此效果比应有的更烦人。欢迎反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46392732
+      <title>蒙戈出血</title>
+      <link>https://github.com/joe-desimone/mongobleed/blob/main/mongobleed.py</link>
+      <description><![CDATA[文章网址：https://github.com/joe-desimone/mongobleed/blob/main/mongobleed.py
+评论网址：https://news.ycombinator.com/item?id=46394620
 积分：1
 # 条评论：0]]></description>
-      <guid>https://text-behind-image.org/</guid>
-      <pubDate>Fri, 26 Dec 2025 15:06:49 GMT</pubDate>
+      <guid>https://github.com/joe-desimone/mongobleed/blob/main/mongobleed.py</guid>
+      <pubDate>Fri, 26 Dec 2025 18:17:00 GMT</pubDate>
     </item>
     <item>
-      <title>一位经历过 2025 年的科技专业大学生的固执己见的博客</title>
-      <link>https://substack.com/inbox/post/182630805</link>
-      <description><![CDATA[文章网址：https://substack.com/inbox/post/182630805
-评论网址：https://news.ycombinator.com/item?id=46392726
+      <title>Gh-yule-log：GitHubCLI 扩展将您的终端变成动画 Yule 日志</title>
+      <link>https://github.com/leereilly/gh-yule-log</link>
+      <description><![CDATA[文章网址：https://github.com/leereilly/gh-yule-log
+评论网址：https://news.ycombinator.com/item?id=46394618
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/leereilly/gh-yule-log</guid>
+      <pubDate>Fri, 26 Dec 2025 18:16:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>BitVault – 延时多重签名钱包解决方案，提供最高的安全性</title>
+      <link>https://www.bitvault.sv/</link>
+      <description><![CDATA[文章网址：https://www.bitvault.sv/
+评论网址：https://news.ycombinator.com/item?id=46394564
 积分：1
 # 条评论：1]]></description>
-      <guid>https://substack.com/inbox/post/182630805</guid>
-      <pubDate>Fri, 26 Dec 2025 15:06:29 GMT</pubDate>
+      <guid>https://www.bitvault.sv/</guid>
+      <pubDate>Fri, 26 Dec 2025 18:12:03 GMT</pubDate>
     </item>
     <item>
-      <title>Clone Hero – 开源 Guitar Hero 的继任者</title>
-      <link>https://clonehero.net/</link>
-      <description><![CDATA[文章网址：https://clonehero.net/
-评论网址：https://news.ycombinator.com/item?id=46392691
+      <title>卢浮宫博物馆的藏品数据库，每日更新</title>
+      <link>https://collections.louvre.fr/en/</link>
+      <description><![CDATA[文章网址：https://collections.louvre.fr/en/
+评论网址：https://news.ycombinator.com/item?id=46394556
 积分：2
 # 条评论：0]]></description>
-      <guid>https://clonehero.net/</guid>
-      <pubDate>Fri, 26 Dec 2025 15:03:27 GMT</pubDate>
+      <guid>https://collections.louvre.fr/en/</guid>
+      <pubDate>Fri, 26 Dec 2025 18:11:19 GMT</pubDate>
     </item>
     <item>
-      <title>DeepMind 的故事</title>
-      <link>https://bigthink.com/business/the-inside-story-of-deepmind/</link>
-      <description><![CDATA[文章网址：https://bigthink.com/business/the-inside-story-of-deepmind/
-评论网址：https://news.ycombinator.com/item?id=46392690
+      <title>Show HN：StegCore——人工智能系统的决策边界（真相≠许可）</title>
+      <link>https://github.com/StegVerse-Labs/StegCore</link>
+      <description><![CDATA[TL;博士
+大多数系统将“已验证”视为“允许”。
+StegCore 将这些概念分开。StegCore 是一个小型、文档优先的项目，它定义了决策边界：
+给定经过验证的连续性（来自外部系统），它会回答允许/拒绝/延迟，并具有明确的约束，例如法定人数、监护人审查、否决窗口或时间锁定。尚无策略引擎。没有 AGI 声明。只是缺少一层。⸻问题现代自动化——尤其是人工智能驱动的自动化——通常将三件事合二为一：
+ 1. 真相（这是真实的/经过验证的吗？）
+ 2. 权威（这是允许的吗？）
+ 3. 执行（做事）有效……直到不起作用。当出现问题时，没有干净的地方可以：
+ • 暂停动作
+ • 需要同意
+ • 升级为人类
+ • 在不关闭一切的情况下恢复仅经过验证的真相并不能告诉您允许什么。⸻StegCore 做什么StegCore 定义了一个狭窄的接口：鉴于经过验证的连续性，该参与者现在可以执行此操作 - 在什么约束下？输入：
+ • 经验证的连续性证据（对 StegCore 不透明；例如来自 StegID）
+ • 演员类（人类/人工智能/系统）
+ • 行动意图
+ • 政策背景（仅结构）输出：
+ • 允许、拒绝或推迟
+ • 稳定的、机器可读的原因代码
+ • 可选约束（法定人数、监护人、否决窗口、时间锁定、升级）StegCore：
+ • 不验证收据
+ • 不存储身份信息
+ • 不执行操作
+ • 不主张自主权或情报它声明决策。其他系统采取行动（或不采取行动）。⸻为什么“推迟”很重要大多数系统仅支持允许或拒绝。在实际系统中，最安全的答案通常是：
+ •“还没有”
+ •“经同意”
+ •“审查后”
+ •“延迟后”StegCore 将延迟视为一流结果，而不是解决方法。这就是以下之间的区别：
+ • 脆弱的自动化
+和
+ • 可恢复的自动化⸻今天的仓库中有什么
+ • 清晰的决策模型和政策形态文档（权威）
+ • 显式代理生命周期（意图→连续性→决策→执行）
+ • 带有测试的最小确定性决策接口
+ • 状态/审计信号的脚手架（不是连续性事实）目前还没有策略引擎。这是故意的。文档就是合同；代码是从属的。⸻这不是什么
+ • 不是 AGI 声明
+ • 不是身份验证系统
+ • 不是身份管理
+ • 不是规则引擎
+ • 不是现有安全工具的替代品它是验证和执行之间缺失的一层。⸻为什么存在我们不断看到相同的故障模式：“系统在技术上是正确的，但不应该允许这样做。”StegCore 的存在是为了明确“允许”。⸻定位（锁定）我们不是在构建通用的智能。我们正在实现：可负责、可恢复且受可验证连续性约束的人工智能系统。⸻状态
+ • v0.1
+ • 文档优先
+ • 实施最小决策边界
+ • 在构建任何策略运行时之前开放反馈存储库：https://github.com/StegVerse-Labs/StegCore⸻我们希望获得反馈的问题
+ • 真相和许可之间的界限是否明确？
+ • “延迟”+约束在您的系统中有用吗？
+ • 该边界已隐式存在但未记录在哪里？
+ • 在信任决策运行时之前您想要什么？感谢您的阅读 - 很高兴回答问题并澄清界限。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46394552
 积分：1
 # 条评论：0]]></description>
-      <guid>https://bigthink.com/business/the-inside-story-of-deepmind/</guid>
-      <pubDate>Fri, 26 Dec 2025 15:03:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国对电池供应链的控制对美国军方构成重大风险</title>
-      <link>https://www.tomshardware.com/tech-industry/how-chinas-control-of-battery-supply-chains-is-becoming-a-critical-risk-for-us-ai-and-defense</link>
-      <description><![CDATA[文章网址： https://www.tomshardware.com/tech-industry/how-chinas-control-of-battery-supply-chains-is-becoming-a-ritic-risk-for-us-ai-and-defense
-评论网址：https://news.ycombinator.com/item?id=46392689
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.tomshardware.com/tech-industry/how-chinas-control-of-battery-supply-chains-is-becoming-a-critical-risk-for-us-ai-and-defense</guid>
-      <pubDate>Fri, 26 Dec 2025 15:03:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么什么都不重要</title>
-      <link>https://aeon.co/essays/why-zero-could-unlock-how-the-brain-perceives-absence</link>
-      <description><![CDATA[文章网址：https://aeon.co/essays/why-zero-could-unlock-how-the-brain-perceives-absence
-评论网址：https://news.ycombinator.com/item?id=46392687
-积分：1
-# 条评论：0]]></description>
-      <guid>https://aeon.co/essays/why-zero-could-unlock-how-the-brain-perceives-absence</guid>
-      <pubDate>Fri, 26 Dec 2025 15:03:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>tmux 中的 SSH 代理损坏了？我有你</title>
-      <link>https://blogsystem5.substack.com/p/ssh-agent-switcher-release</link>
-      <description><![CDATA[文章网址：https://blogsystem5.substack.com/p/ssh-agent-switcher-release
-评论网址：https://news.ycombinator.com/item?id=46392682
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blogsystem5.substack.com/p/ssh-agent-switcher-release</guid>
-      <pubDate>Fri, 26 Dec 2025 15:02:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025 年：这就结束了，以下是统计数据</title>
-      <link>https://www.backblaze.com/blog/2025-thats-a-wrap-and-here-are-the-stats/</link>
-      <description><![CDATA[文章网址：https://www.backblaze.com/blog/2025-thats-a-wrap-and-here-are-the-stats/
-评论网址：https://news.ycombinator.com/item?id=46392646
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.backblaze.com/blog/2025-thats-a-wrap-and-here-are-the-stats/</guid>
-      <pubDate>Fri, 26 Dec 2025 14:59:36 GMT</pubDate>
+      <guid>https://github.com/StegVerse-Labs/StegCore</guid>
+      <pubDate>Fri, 26 Dec 2025 18:10:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
