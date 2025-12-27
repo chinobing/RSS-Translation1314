@@ -4,123 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 27 Dec 2025 15:21:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Dec 2025 18:29:34 GMT</lastBuildDate>
     <item>
-      <title>QSV 太忙了，所以 Claude 对 XSV 进行了现代化改造</title>
-      <link>https://github.com/faradayio/xsv2</link>
-      <description><![CDATA[文章网址：https://github.com/faradayio/xsv2
-评论网址：https://news.ycombinator.com/item?id=46402408
+      <title>特斯拉前人工智能总监卡帕蒂向软件工程师发送“公开信”</title>
+      <link>https://timesofindia.indiatimes.com/technology/tech-news/teslas-former-ai-director-andrej-karpathy-sends-open-letter-to-software-engineers-i-never-felt-this-much-behind-as-a-programmer-profession-is/articleshow/126202051.cms</link>
+      <description><![CDATA[文章网址： https://timesofindia.indiatimes.com/technology/tech-news/teslas-former-ai-director-andrej-karpathy-sends-open-letter-to-software-engineers-i-never-felt-this-much-behind-as-a-programmer-profession-is/articleshow/126202051.cms
+评论网址：https://news.ycombinator.com/item?id=46403928
 积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/faradayio/xsv2</guid>
-      <pubDate>Sat, 27 Dec 2025 15:13:00 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://timesofindia.indiatimes.com/technology/tech-news/teslas-former-ai-director-andrej-karpathy-sends-open-letter-to-software-engineers-i-never-felt-this-much-behind-as-a-programmer-profession-is/articleshow/126202051.cms</guid>
+      <pubDate>Sat, 27 Dec 2025 18:24:05 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：TimeSeal – 带 Dead Man's Switch 的加密时间锁定保险库</title>
-      <link>https://github.com/Teycir/Timeseal</link>
-      <description><![CDATA[# 黑客新闻提交## 标题
-Show HN：TimeSeal – 带 Dead Man&#39;s Switch 的加密时间锁定保险库## 帖子文本我构建 TimeSeal 是为了解决一个问题：大多数“未来消息”应用程序依赖于信任。 TimeSeal 使用分裂密钥加密技术使早期访问在数学上变得不可能。*工作原理：*您的浏览器会生成两个随机 AES-GCM-256 密钥。密钥 A 保留在 URL 哈希中（从不发送到服务器）。密钥 B 用于 Cloudflare Workers。服务器拒绝在解锁时间之前释放密钥 B。如果没有这两个密钥，即使对我来说，解密也是不可能的。*三种模式：*1。 *定时发布* - 在未来的确切日期开放（产品发布、生日消息）
-2. *死人开关* - 如果您停止签入则自动解锁（加密继承、举报人保险）
-3. *短暂* - N次查看后自毁（一次性密码、保密共享）*架构亮点：*- 三层加密（客户端AES-GCM + 服务器端密钥加密 + 主密钥）
-- 分裂密钥设计：任何一方都无法提前解密
-- 服务器端时间执行（客户端时钟无关）
-- Cloudflare Workers + D1 数据库（边缘原生、全球分布）
-- 使用基于随机数的脉冲令牌预防重放攻击
-- 通过 SHA-256 浏览器指纹识别进行速率限制
-- 开源（BSL 许可证，4 年内转换为 Apache 2.0）*安全模型：*即使拥有完整的数据库访问权限，攻击者也无法解密，除非：
-- 密钥 A（在 URL 哈希中，从未传输）
-- 主加密密钥（环境秘密）
-- 两个密钥组合服务器通过 Cloudflare 的 NTP 同步基础设施强制实施时间锁定。没有 root 访问权限 = 没有时间操纵。*我没想到的用例：*- 遗产规划（沉默 30 天后解锁的加密种子短语）
-- 记者保险（被捕后证据自动发布）
-- 营销噱头（产品掉落倒计时器）
-- 法律保留（在结算日期激活的合同）现场演示：https://timeseal.online来源：https://github.com/teycir/timeseal文档涵盖威胁模型、攻击场景、自托管和信任假设。很高兴回答有关加密、架构或边缘情况的问题。---
+      <title>为什么人人都爱日本</title>
+      <link>https://www.noahpinion.blog/p/why-everyone-loves-japan</link>
+      <description><![CDATA[文章网址：https://www.noahpinion.blog/p/why-everyone-loves-japan
+评论网址：https://news.ycombinator.com/item?id=46403917
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.noahpinion.blog/p/why-everyone-loves-japan</guid>
+      <pubDate>Sat, 27 Dec 2025 18:22:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>适用于 Apricot PC/Xi 的 Windows 2</title>
+      <link>https://www.ninakalinina.com/notes/win2apri/</link>
+      <description><![CDATA[文章网址：https://www.ninakalinina.com/notes/win2apri/
+评论网址：https://news.ycombinator.com/item?id=46403915
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.ninakalinina.com/notes/win2apri/</guid>
+      <pubDate>Sat, 27 Dec 2025 18:22:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Roblox 成为青少年的“it”游戏 – 以及一门生意</title>
+      <link>https://www.cnn.com/2020/10/27/tech/roblox-explainer</link>
+      <description><![CDATA[文章网址：https://www.cnn.com/2020/10/27/tech/roblox-explainer
+评论网址：https://news.ycombinator.com/item?id=46403907
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.cnn.com/2020/10/27/tech/roblox-explainer</guid>
+      <pubDate>Sat, 27 Dec 2025 18:21:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>提供更高的薪酬？零工经济中任务级薪酬标准的影响</title>
+      <link>https://www.nber.org/papers/w34545</link>
+      <description><![CDATA[文章网址：https://www.nber.org/papers/w34545
+评论网址：https://news.ycombinator.com/item?id=46403898
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nber.org/papers/w34545</guid>
+      <pubDate>Sat, 27 Dec 2025 18:20:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>人类与人工智能之间的认识论断层</title>
+      <link>https://arxiv.org/abs/2512.19466</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2512.19466
+评论网址：https://news.ycombinator.com/item?id=46403893
+积分：1
+# 条评论：0]]></description>
+      <guid>https://arxiv.org/abs/2512.19466</guid>
+      <pubDate>Sat, 27 Dec 2025 18:19:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>邪教电视闪回：另一个世界 (1985)</title>
+      <link>https://reflectionsonfilmandtelevision.blogspot.com/2008/11/cult-tv-flashback-62-otherworld-1985.html</link>
+      <description><![CDATA[文章网址：https://reflectionsonfilmandtelevision.blogspot.com/2008/11/cult-tv-flashback-62-otherworld-1985.html
+评论网址：https://news.ycombinator.com/item?id=46403841
+积分：1
+# 条评论：0]]></description>
+      <guid>https://reflectionsonfilmandtelevision.blogspot.com/2008/11/cult-tv-flashback-62-otherworld-1985.html</guid>
+      <pubDate>Sat, 27 Dec 2025 18:14:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：Confluence 现在还很糟糕吗？</title>
+      <link>https://news.ycombinator.com/item?id=46403820</link>
+      <description><![CDATA[上次我检查过，它很慢，用户体验很差，搜索极其垃圾。您的经历是怎样的？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46402406
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/Teycir/Timeseal</guid>
-      <pubDate>Sat, 27 Dec 2025 15:12:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Lumina – 一个最小的 AI 反射应用程序（源代码）</title>
-      <link>https://github.com/Encoremuff/lumina-preview</link>
-      <description><![CDATA[Lumina 是一款私人反思应用程序，可为您提供一个平静、简约的空间，让您放慢速度、清晰思考并探索自己的想法，而不会分心或受到压力。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46402369
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/Encoremuff/lumina-preview</guid>
-      <pubDate>Sat, 27 Dec 2025 15:09:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>书评：机器为何学习</title>
-      <link>https://philippdubach.com/2025/12/27/book-review-why-machines-learn/</link>
-      <description><![CDATA[文章网址：https://philippdubach.com/2025/12/27/book-review-why-machines-learn/
-评论网址：https://news.ycombinator.com/item?id=46402366
-积分：1
-# 条评论：0]]></description>
-      <guid>https://philippdubach.com/2025/12/27/book-review-why-machines-learn/</guid>
-      <pubDate>Sat, 27 Dec 2025 15:08:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何毁掉所有的包管理</title>
-      <link>https://nesbitt.io/2025/12/27/how-to-ruin-all-of-package-management.html</link>
-      <description><![CDATA[文章网址：https://nesbitt.io/2025/12/27/how-to-ruin-all-of-package-management.html
-评论网址：https://news.ycombinator.com/item?id=46402355
-积分：1
-# 条评论：0]]></description>
-      <guid>https://nesbitt.io/2025/12/27/how-to-ruin-all-of-package-management.html</guid>
-      <pubDate>Sat, 27 Dec 2025 15:07:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Eertree – 互动指南</title>
-      <link>https://ufukhaciogullari.com/blog/eertree/</link>
-      <description><![CDATA[文章网址：https://ufukhaciogullari.com/blog/eertree/
-评论网址：https://news.ycombinator.com/item?id=46402331
-积分：1
-# 条评论：0]]></description>
-      <guid>https://ufukhaciogullari.com/blog/eertree/</guid>
-      <pubDate>Sat, 27 Dec 2025 15:03:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Merlin 鸟鸣识别应用程序的兴起</title>
-      <link>https://www.theguardian.com/environment/2025/dec/27/merlin-ai-assisted-birdsong-identifying-app-bird-species</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/environment/2025/dec/27/merlin-ai-assistance-birdsong-identifying-app-bird-species
-评论网址：https://news.ycombinator.com/item?id=46402328
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.theguardian.com/environment/2025/dec/27/merlin-ai-assisted-birdsong-identifying-app-bird-species</guid>
-      <pubDate>Sat, 27 Dec 2025 15:02:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们实现联邦退休自动化</title>
-      <link>https://ndstudio.gov/posts/automating-federal-retirements</link>
-      <description><![CDATA[文章网址：https://ndstudio.gov/posts/automating-federal-retirements
-评论网址：https://news.ycombinator.com/item?id=46402327
+评论网址：https://news.ycombinator.com/item?id=46403820
 积分：2
 # 条评论：0]]></description>
-      <guid>https://ndstudio.gov/posts/automating-federal-retirements</guid>
-      <pubDate>Sat, 27 Dec 2025 15:02:30 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46403820</guid>
+      <pubDate>Sat, 27 Dec 2025 18:12:00 GMT</pubDate>
     </item>
     <item>
-      <title>越南电动汽车冠军正在流失现金</title>
-      <link>https://www.economist.com/business/2025/12/11/vietnams-ev-champion-is-bleeding-cash</link>
-      <description><![CDATA[文章网址：https://www.economist.com/business/2025/12/11/vietnams-ev-champion-is-bleeding-cash
-评论网址：https://news.ycombinator.com/item?id=46402303
+      <title>39C3 Grafana 仪表板</title>
+      <link>https://dashboard.congress.ccc.de/public-dashboards/e6cf86b287304662b4d1b8eb31b5ab50</link>
+      <description><![CDATA[文章网址：https://dashboard.congress.ccc.de/public-dashboards/e6cf86b287304662b4d1b8eb31b5ab50
+评论网址：https://news.ycombinator.com/item?id=46403813
 积分：1
-# 条评论：0]]></description>
-      <guid>https://www.economist.com/business/2025/12/11/vietnams-ev-champion-is-bleeding-cash</guid>
-      <pubDate>Sat, 27 Dec 2025 14:58:30 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://dashboard.congress.ccc.de/public-dashboards/e6cf86b287304662b4d1b8eb31b5ab50</guid>
+      <pubDate>Sat, 27 Dec 2025 18:11:16 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：MemoryGate – 代理的零摩擦信任校正内存</title>
-      <link>https://memorygate.io</link>
-      <description><![CDATA[文章网址：https://memorygate.io
-评论网址：https://news.ycombinator.com/item?id=46402291
+      <title>泰国攻击柬埔寨，称其目标是诈骗行业</title>
+      <link>https://www.nytimes.com/2025/12/24/world/asia/cambodia-scam-centers-refugees-thailand.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2025/12/24/world/asia/cambodia-scam-centers-refugees-thailand.html
+评论网址：https://news.ycombinator.com/item?id=46403812
 积分：1
 # 条评论：0]]></description>
-      <guid>https://memorygate.io</guid>
-      <pubDate>Sat, 27 Dec 2025 14:57:00 GMT</pubDate>
+      <guid>https://www.nytimes.com/2025/12/24/world/asia/cambodia-scam-centers-refugees-thailand.html</guid>
+      <pubDate>Sat, 27 Dec 2025 18:11:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
