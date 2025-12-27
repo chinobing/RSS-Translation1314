@@ -4,34 +4,67 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 27 Dec 2025 06:31:47 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Dec 2025 09:21:17 GMT</lastBuildDate>
     <item>
-      <title>医疗保健软件公司首席执行官因共谋 10 亿美元欺诈被判刑</title>
-      <link>https://www.justice.gov/opa/pr/ceo-health-care-software-company-sentenced-1b-fraud-conspiracy</link>
-      <description><![CDATA[文章网址：https://www.justice.gov/opa/pr/ceo-health-care-software-company-sentenced-1b-fraud-conspiracy
-评论网址：https://news.ycombinator.com/item?id=46398752
-积分：40
-# 条评论：23]]></description>
-      <guid>https://www.justice.gov/opa/pr/ceo-health-care-software-company-sentenced-1b-fraud-conspiracy</guid>
-      <pubDate>Sat, 27 Dec 2025 03:14:56 GMT</pubDate>
+      <title>Show HN：Ez FFmpeg – 用简单的英语进行视频编辑</title>
+      <link>http://npmjs.com/package/ezff</link>
+      <description><![CDATA[我构建了一个 CLI 工具，可让您执行常见的视频/音频操作，而无需记住 ffmpeg 语法。而不是：
+ffmpeg -i video.mp4 -vf &quot;fps=15,scale=480:-1:flags=lanczos&quot; -loop 0 output.gif你写：
+  ff 将 video.mp4 转换为 gif更多示例：
+  ff 将 video.mp4 压缩为 10mb
+  ff 将 video.mp4 从 0:30 修剪到 1:00
+  ff 从 video.mp4 中提取音频
+  ff 将 video.mp4 大小调整为 720p
+  ff 将 video.mp4 速度加快 2 倍
+  ff 反向视频.mp4有使用 LLM 的类似工具（wtffmpeg、llmpeg、ai-ffmpeg-cli），但它们需要 API 密钥、需要花钱并且有延迟。Ez FFmpeg 不同：
+  - 没有人工智能——只有正则表达式模式匹配
+  - 即时 – 无需 API 调用
+  - 免费 – 没有代币
+  - 离线 – 无需互联网即可工作它可以处理约 20 个常见操作，涵盖开发人员实际使用 ffmpeg 所做的 90%。对于边缘情况，您仍然需要直接使用 ffmpeg。交互模式（只需键入 ff）会通过提前搜索显示当前文件夹中的媒体文件。npm install -g ezff
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46400251
+积分：16
+# 条评论：4]]></description>
+      <guid>http://npmjs.com/package/ezff</guid>
+      <pubDate>Sat, 27 Dec 2025 08:45:46 GMT</pubDate>
     </item>
     <item>
-      <title>ULA 前总裁兼首席执行官托里·布鲁诺 (Tory Bruno) 加入蓝色起源</title>
-      <link>https://spaceflightnow.com/2025/12/26/former-ula-president-and-ceo-tory-bruno-joins-blue-origin/</link>
-      <description><![CDATA[文章网址：https://spaceflightnow.com/2025/12/26/former-ula-president-and-ceo-tory-bruno-joins-blue-origin/
-评论网址：https://news.ycombinator.com/item?id=46398644
+      <title>更动态的 Cronjobs</title>
+      <link>https://george.mand.is/2025/09/more-dynamic-cronjobs/</link>
+      <description><![CDATA[文章网址：https://george.mand.is/2025/09/more-dynamic-cronjobs/
+评论网址：https://news.ycombinator.com/item?id=46399576
 积分：26
 # 条评论：6]]></description>
-      <guid>https://spaceflightnow.com/2025/12/26/former-ula-president-and-ceo-tory-bruno-joins-blue-origin/</guid>
-      <pubDate>Sat, 27 Dec 2025 02:56:43 GMT</pubDate>
+      <guid>https://george.mand.is/2025/09/more-dynamic-cronjobs/</guid>
+      <pubDate>Sat, 27 Dec 2025 06:10:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>预提交钩子从根本上被破坏了</title>
+      <link>https://jyn.dev/pre-commit-hooks-are-fundamentally-broken/</link>
+      <description><![CDATA[文章网址：https://jyn.dev/pre-commit-hooks-are-fundamentally-broken/
+评论网址：https://news.ycombinator.com/item?id=46398906
+积分：45
+# 条评论：7]]></description>
+      <guid>https://jyn.dev/pre-commit-hooks-are-fundamentally-broken/</guid>
+      <pubDate>Sat, 27 Dec 2025 03:45:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Proton，“你能想象到的最复杂的东西”</title>
+      <link>https://www.quantamagazine.org/inside-the-proton-the-most-complicated-thing-imaginable-20221019/</link>
+      <description><![CDATA[文章网址：https://www.quantamagazine.org/inside-the-proton-the-most-complicated-thing-imaginable-20221019/
+评论网址：https://news.ycombinator.com/item?id=46398666
+积分：29
+# 条评论：6]]></description>
+      <guid>https://www.quantamagazine.org/inside-the-proton-the-most-complicated-thing-imaginable-20221019/</guid>
+      <pubDate>Sat, 27 Dec 2025 03:00:00 GMT</pubDate>
     </item>
     <item>
       <title>QNX 自托管开发者桌面</title>
       <link>https://devblog.qnx.com/qnx-self-hosted-developer-desktop-initial-release/</link>
       <description><![CDATA[文章网址：https://devblog.qnx.com/qnx-self-hosted-developer-desktop-initial-release/
 评论网址：https://news.ycombinator.com/item?id=46398201
-积分：93
-# 条评论：40]]></description>
+积分：134
+# 条评论：69]]></description>
       <guid>https://devblog.qnx.com/qnx-self-hosted-developer-desktop-initial-release/</guid>
       <pubDate>Sat, 27 Dec 2025 01:16:53 GMT</pubDate>
     </item>
@@ -40,8 +73,8 @@
       <link>https://github.com/readme/guides/publishing-your-work</link>
       <description><![CDATA[文章网址：https://github.com/readme/guides/publishing-your-work
 评论网址：https://news.ycombinator.com/item?id=46397991
-积分：62
-# 条评论：12]]></description>
+积分：105
+# 条评论：33]]></description>
       <guid>https://github.com/readme/guides/publishing-your-work</guid>
       <pubDate>Sat, 27 Dec 2025 00:43:04 GMT</pubDate>
     </item>
@@ -51,8 +84,8 @@
       <description><![CDATA[https://blog.exe.dev/meet-exe.devhttps://exe.dev/docs/how-exedev-workshttps://exe.dev/docs/pricing
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46397609
-积分：87
-# 条评论：53]]></description>
+积分：183
+# 条评论：83]]></description>
       <guid>https://exe.dev/</guid>
       <pubDate>Fri, 26 Dec 2025 23:42:46 GMT</pubDate>
     </item>
@@ -61,8 +94,8 @@
       <link>https://graydon2.dreamwidth.org/193447.html</link>
       <description><![CDATA[文章网址：https://graydon2.dreamwidth.org/193447.html
 评论网址：https://news.ycombinator.com/item?id=46397379
-积分：168
-# 条评论：72]]></description>
+积分：207
+评论数：105]]></description>
       <guid>https://graydon2.dreamwidth.org/193447.html</guid>
       <pubDate>Fri, 26 Dec 2025 23:09:40 GMT</pubDate>
     </item>
@@ -71,8 +104,8 @@
       <link>https://joannabregan.substack.com/p/toys-with-the-highest-play-time-and</link>
       <description><![CDATA[文章网址：https://joannabregan.substack.com/p/toys-with-the-highest-play-time-and
 评论网址：https://news.ycombinator.com/item?id=46395885
-积分：14
-# 条评论：210]]></description>
+积分：374
+# 条评论：222]]></description>
       <guid>https://joannabregan.substack.com/p/toys-with-the-highest-play-time-and</guid>
       <pubDate>Fri, 26 Dec 2025 20:28:53 GMT</pubDate>
     </item>
@@ -81,30 +114,10 @@
       <link>https://type-ruby.github.io/</link>
       <description><![CDATA[文章网址：https://type-ruby.github.io/
 评论网址：https://news.ycombinator.com/item?id=46395871
-积分：91
-# 条评论：55]]></description>
+积分：120
+评论数量：85]]></description>
       <guid>https://type-ruby.github.io/</guid>
       <pubDate>Fri, 26 Dec 2025 20:27:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>高斯泼溅 3 种方式</title>
-      <link>https://github.com/NullandKale/NullSplats</link>
-      <description><![CDATA[文章网址：https://github.com/NullandKale/NullSplats
-评论网址：https://news.ycombinator.com/item?id=46395273
-积分：61
-# 条评论：7]]></description>
-      <guid>https://github.com/NullandKale/NullSplats</guid>
-      <pubDate>Fri, 26 Dec 2025 19:23:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的胰岛素泵控制器使用 Linux 内核。它还违反了 GPL</title>
-      <link>https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/</link>
-      <description><![CDATA[文章网址：https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/
-评论网址：https://news.ycombinator.com/item?id=46395184
-积分：384
-# 条评论：161]]></description>
-      <guid>https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/</guid>
-      <pubDate>Fri, 26 Dec 2025 19:13:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
