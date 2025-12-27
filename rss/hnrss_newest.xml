@@ -4,107 +4,123 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 27 Dec 2025 12:40:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Dec 2025 15:21:09 GMT</lastBuildDate>
     <item>
-      <title>销售副总裁</title>
-      <link>https://unicursaltalent.com/</link>
-      <description><![CDATA[文章网址：https://unicursaltalent.com/
-评论网址：https://news.ycombinator.com/item?id=46401398
-积分：1
-# 条评论：0]]></description>
-      <guid>https://unicursaltalent.com/</guid>
-      <pubDate>Sat, 27 Dec 2025 12:33:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sequence Toys：使用 WebGPU 在浏览器中训练语言模型</title>
-      <link>https://sequence.toys</link>
-      <description><![CDATA[文章网址：https://sequence.toys
-评论网址：https://news.ycombinator.com/item?id=46401389
-积分：1
-# 条评论：0]]></description>
-      <guid>https://sequence.toys</guid>
-      <pubDate>Sat, 27 Dec 2025 12:32:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI村，看前沿AI与彼此、与世界互动</title>
-      <link>https://theaidigest.org/village</link>
-      <description><![CDATA[文章网址：https://theaidigest.org/village
-评论网址：https://news.ycombinator.com/item?id=46401369
+      <title>QSV 太忙了，所以 Claude 对 XSV 进行了现代化改造</title>
+      <link>https://github.com/faradayio/xsv2</link>
+      <description><![CDATA[文章网址：https://github.com/faradayio/xsv2
+评论网址：https://news.ycombinator.com/item?id=46402408
 积分：1
 # 条评论：1]]></description>
-      <guid>https://theaidigest.org/village</guid>
-      <pubDate>Sat, 27 Dec 2025 12:26:19 GMT</pubDate>
+      <guid>https://github.com/faradayio/xsv2</guid>
+      <pubDate>Sat, 27 Dec 2025 15:13:00 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Bibrof AI – 离线批量图像背景去除器</title>
-      <link>https://bibrof.lislip.com/</link>
-      <description><![CDATA[您好，HN，我想分享一下 BIBROF AI，这是一款由人工智能驱动的后台删除工具，可以在 Windows PC 上完全离线运行。它无需任何云服务器即可从图像中删除背景 - 一切都在本地进行，以确保隐私和速度。用例：非常适合需要批量编辑产品照片、创建营销图像或只是不想将文件发送到第三方服务器的开发人员、设计师或创始人。我们在将客户端图像上传到随机云服务时感到不安后构建了它。主要功能：一次处理多达 100 张图像，相当准确的边缘检测（对头发、毛皮、半透明物体的检测效果相当好），并且不需要 GPU（在 CPU 上运行良好）。没有“信用”系统或使用限制 - 一次订阅，您就可以在无限的图像上使用它。质量和速度：它始终输出最高分辨率的结果。在我们的测试中，它比等待许多云 API 调用更快，因为处理是本地的。技术堆栈：基于 MIT 许可的 InSpyReNet 模型构建。我们不是开源的（UI 代码和打包是专有的），但我们相信开源模型。系统要求：Windows 10 或 11，至少 4GB RAM。安装后使用约 1.5GB 磁盘（包括 AI 模型）。定价：免费 7 天试用（无需信用卡）。之后，它是付费的：目前为 23.88 美元/年。无需按图片付费。尝试：https://bibrof.lislip.com/安全说明：该应用尚未经过代码签名。这意味着安装时，Windows SmartScreen 可能会警告发布者未知。这是预料之中的（目前 EV 证书对我们来说很昂贵）。我们计划在负担得起的情况下签署二进制文件（目标是在前 100 笔销售后）。目前，用户必须单击 SmartScreen 对话框上的“仍然运行”。我们完全理解这对某些人来说是否会破坏交易 - 只是想坦率地说明这一点。为什么显示 HN：我们认为其他开发人员可能会喜欢用于图像处理的云 API 的替代方案。此外，处理未签名的应用程序并构建离线优先工具是一次冒险 - 我很乐意回答有关技术或我们的旅程的问题。我们最近推出并渴望获得反馈。对所有问题开放。很高兴讨论权衡、准确性或为什么离线很重要。期待您的想法。谢谢HN！
+      <title>Show HN：TimeSeal – 带 Dead Man's Switch 的加密时间锁定保险库</title>
+      <link>https://github.com/Teycir/Timeseal</link>
+      <description><![CDATA[# 黑客新闻提交## 标题
+Show HN：TimeSeal – 带 Dead Man&#39;s Switch 的加密时间锁定保险库## 帖子文本我构建 TimeSeal 是为了解决一个问题：大多数“未来消息”应用程序依赖于信任。 TimeSeal 使用分裂密钥加密技术使早期访问在数学上变得不可能。*工作原理：*您的浏览器会生成两个随机 AES-GCM-256 密钥。密钥 A 保留在 URL 哈希中（从不发送到服务器）。密钥 B 用于 Cloudflare Workers。服务器拒绝在解锁时间之前释放密钥 B。如果没有这两个密钥，即使对我来说，解密也是不可能的。*三种模式：*1。 *定时发布* - 在未来的确切日期开放（产品发布、生日消息）
+2. *死人开关* - 如果您停止签入则自动解锁（加密继承、举报人保险）
+3. *短暂* - N次查看后自毁（一次性密码、保密共享）*架构亮点：*- 三层加密（客户端AES-GCM + 服务器端密钥加密 + 主密钥）
+- 分裂密钥设计：任何一方都无法提前解密
+- 服务器端时间执行（客户端时钟无关）
+- Cloudflare Workers + D1 数据库（边缘原生、全球分布）
+- 使用基于随机数的脉冲令牌预防重放攻击
+- 通过 SHA-256 浏览器指纹识别进行速率限制
+- 开源（BSL 许可证，4 年内转换为 Apache 2.0）*安全模型：*即使拥有完整的数据库访问权限，攻击者也无法解密，除非：
+- 密钥 A（在 URL 哈希中，从未传输）
+- 主加密密钥（环境秘密）
+- 两个密钥组合服务器通过 Cloudflare 的 NTP 同步基础设施强制实施时间锁定。没有 root 访问权限 = 没有时间操纵。*我没想到的用例：*- 遗产规划（沉默 30 天后解锁的加密种子短语）
+- 记者保险（被捕后证据自动发布）
+- 营销噱头（产品掉落倒计时器）
+- 法律保留（在结算日期激活的合同）现场演示：https://timeseal.online来源：https://github.com/teycir/timeseal文档涵盖威胁模型、攻击场景、自托管和信任假设。很高兴回答有关加密、架构或边缘情况的问题。---
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46401355
+评论网址：https://news.ycombinator.com/item?id=46402406
 积分：1
 # 条评论：0]]></description>
-      <guid>https://bibrof.lislip.com/</guid>
-      <pubDate>Sat, 27 Dec 2025 12:23:59 GMT</pubDate>
+      <guid>https://github.com/Teycir/Timeseal</guid>
+      <pubDate>Sat, 27 Dec 2025 15:12:47 GMT</pubDate>
     </item>
     <item>
-      <title>Package Forge，改进 *Unix 系统的包管理</title>
-      <link>https://github.com/pkgforge</link>
-      <description><![CDATA[文章网址：https://github.com/pkgforge
-评论网址：https://news.ycombinator.com/item?id=46401353
+      <title>Show HN：Lumina – 一个最小的 AI 反射应用程序（源代码）</title>
+      <link>https://github.com/Encoremuff/lumina-preview</link>
+      <description><![CDATA[Lumina 是一款私人反思应用程序，可为您提供一个平静、简约的空间，让您放慢速度、清晰思考并探索自己的想法，而不会分心或受到压力。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46402369
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/pkgforge</guid>
-      <pubDate>Sat, 27 Dec 2025 12:23:38 GMT</pubDate>
+      <guid>https://github.com/Encoremuff/lumina-preview</guid>
+      <pubDate>Sat, 27 Dec 2025 15:09:16 GMT</pubDate>
     </item>
     <item>
-      <title>拥有一张图表</title>
-      <link>https://staysaasy.com/strategy/2025/11/25/own-a-graph.html</link>
-      <description><![CDATA[文章网址：https://staysaasy.com/strategy/2025/11/25/own-a-graph.html
-评论网址：https://news.ycombinator.com/item?id=46401347
+      <title>书评：机器为何学习</title>
+      <link>https://philippdubach.com/2025/12/27/book-review-why-machines-learn/</link>
+      <description><![CDATA[文章网址：https://philippdubach.com/2025/12/27/book-review-why-machines-learn/
+评论网址：https://news.ycombinator.com/item?id=46402366
 积分：1
 # 条评论：0]]></description>
-      <guid>https://staysaasy.com/strategy/2025/11/25/own-a-graph.html</guid>
-      <pubDate>Sat, 27 Dec 2025 12:22:36 GMT</pubDate>
+      <guid>https://philippdubach.com/2025/12/27/book-review-why-machines-learn/</guid>
+      <pubDate>Sat, 27 Dec 2025 15:08:48 GMT</pubDate>
     </item>
     <item>
-      <title>AI错误指控艺术家性犯罪后演唱会被取消</title>
-      <link>https://www.cbc.ca/news/entertainment/ashley-macisaac-ai-accusation-9.7026786</link>
-      <description><![CDATA[文章网址：https://www.cbc.ca/news/entertainment/ashley-macisaac-ai-accusation-9.7026786
-评论网址：https://news.ycombinator.com/item?id=46401343
+      <title>如何毁掉所有的包管理</title>
+      <link>https://nesbitt.io/2025/12/27/how-to-ruin-all-of-package-management.html</link>
+      <description><![CDATA[文章网址：https://nesbitt.io/2025/12/27/how-to-ruin-all-of-package-management.html
+评论网址：https://news.ycombinator.com/item?id=46402355
+积分：1
+# 条评论：0]]></description>
+      <guid>https://nesbitt.io/2025/12/27/how-to-ruin-all-of-package-management.html</guid>
+      <pubDate>Sat, 27 Dec 2025 15:07:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Eertree – 互动指南</title>
+      <link>https://ufukhaciogullari.com/blog/eertree/</link>
+      <description><![CDATA[文章网址：https://ufukhaciogullari.com/blog/eertree/
+评论网址：https://news.ycombinator.com/item?id=46402331
+积分：1
+# 条评论：0]]></description>
+      <guid>https://ufukhaciogullari.com/blog/eertree/</guid>
+      <pubDate>Sat, 27 Dec 2025 15:03:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>Merlin 鸟鸣识别应用程序的兴起</title>
+      <link>https://www.theguardian.com/environment/2025/dec/27/merlin-ai-assisted-birdsong-identifying-app-bird-species</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/environment/2025/dec/27/merlin-ai-assistance-birdsong-identifying-app-bird-species
+评论网址：https://news.ycombinator.com/item?id=46402328
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theguardian.com/environment/2025/dec/27/merlin-ai-assisted-birdsong-identifying-app-bird-species</guid>
+      <pubDate>Sat, 27 Dec 2025 15:02:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们实现联邦退休自动化</title>
+      <link>https://ndstudio.gov/posts/automating-federal-retirements</link>
+      <description><![CDATA[文章网址：https://ndstudio.gov/posts/automating-federal-retirements
+评论网址：https://news.ycombinator.com/item?id=46402327
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.cbc.ca/news/entertainment/ashley-macisaac-ai-accusation-9.7026786</guid>
-      <pubDate>Sat, 27 Dec 2025 12:21:57 GMT</pubDate>
+      <guid>https://ndstudio.gov/posts/automating-federal-retirements</guid>
+      <pubDate>Sat, 27 Dec 2025 15:02:30 GMT</pubDate>
     </item>
     <item>
-      <title>机械战警 – 违反法律。 H0ffman 破解 DataEast 的 RoboCop Arcade</title>
-      <link>https://hoffman.home.blog/2025/12/26/robocop-breaking-the-law/</link>
-      <description><![CDATA[文章网址：https://hoffman.home.blog/2025/12/26/robocop-writing-the-law/
-评论网址：https://news.ycombinator.com/item?id=46401340
+      <title>越南电动汽车冠军正在流失现金</title>
+      <link>https://www.economist.com/business/2025/12/11/vietnams-ev-champion-is-bleeding-cash</link>
+      <description><![CDATA[文章网址：https://www.economist.com/business/2025/12/11/vietnams-ev-champion-is-bleeding-cash
+评论网址：https://news.ycombinator.com/item?id=46402303
 积分：1
 # 条评论：0]]></description>
-      <guid>https://hoffman.home.blog/2025/12/26/robocop-breaking-the-law/</guid>
-      <pubDate>Sat, 27 Dec 2025 12:21:30 GMT</pubDate>
+      <guid>https://www.economist.com/business/2025/12/11/vietnams-ev-champion-is-bleeding-cash</guid>
+      <pubDate>Sat, 27 Dec 2025 14:58:30 GMT</pubDate>
     </item>
     <item>
-      <title>吉利SiEngine凭借全新7nm SoC超越全球ADAS标准</title>
-      <link>https://robotdyn.com/geelys-siengine-surpasses-global-adas-standards-with-new-7nm-socs/</link>
-      <description><![CDATA[文章网址：https://robotdyn.com/geelys-siengine-surpasses-global-adas-standards-with-new-7nm-socs/
-评论网址：https://news.ycombinator.com/item?id=46401321
+      <title>Show HN：MemoryGate – 代理的零摩擦信任校正内存</title>
+      <link>https://memorygate.io</link>
+      <description><![CDATA[文章网址：https://memorygate.io
+评论网址：https://news.ycombinator.com/item?id=46402291
 积分：1
 # 条评论：0]]></description>
-      <guid>https://robotdyn.com/geelys-siengine-surpasses-global-adas-standards-with-new-7nm-socs/</guid>
-      <pubDate>Sat, 27 Dec 2025 12:16:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>私人飞机比商业飞机安全吗？</title>
-      <link>https://www.vanityfair.com/style/story/private-jet-plane-crashes</link>
-      <description><![CDATA[文章网址：https://www.vanityfair.com/style/story/private-jet-plane-crashes
-评论网址：https://news.ycombinator.com/item?id=46401320
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.vanityfair.com/style/story/private-jet-plane-crashes</guid>
-      <pubDate>Sat, 27 Dec 2025 12:16:44 GMT</pubDate>
+      <guid>https://memorygate.io</guid>
+      <pubDate>Sat, 27 Dec 2025 14:57:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
