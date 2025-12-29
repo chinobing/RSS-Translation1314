@@ -4,107 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 29 Dec 2025 04:11:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 06:36:15 GMT</lastBuildDate>
     <item>
-      <title>Gmail允许用户在保留数据的同时更改地址</title>
-      <link>https://www.nytimes.com/2025/12/28/technology/gmail-change-address-email.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2025/12/28/technology/gmail-change-address-email.html
-评论网址：https://news.ycombinator.com/item?id=46417357
+      <title>收集美国大规模商业数据后我了解到的</title>
+      <link>https://rangelead.com/</link>
+      <description><![CDATA[文章网址：https://rangelead.com/
+评论网址：https://news.ycombinator.com/item?id=46417981
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.nytimes.com/2025/12/28/technology/gmail-change-address-email.html</guid>
-      <pubDate>Mon, 29 Dec 2025 04:04:35 GMT</pubDate>
+      <guid>https://rangelead.com/</guid>
+      <pubDate>Mon, 29 Dec 2025 06:25:55 GMT</pubDate>
     </item>
     <item>
-      <title>基于 Rust 的查看器：任何文档、任何平台，以毫秒为单位</title>
-      <link>https://github.com/abahjat/Prism</link>
-      <description><![CDATA[文章网址：https://github.com/abahjat/Prism
-评论网址：https://news.ycombinator.com/item?id=46417354
-积分：2
+      <title>多维分析：科学与工程的代数和系统</title>
+      <link>https://www.georgehart.com/research/multanal.html</link>
+      <description><![CDATA[文章网址：https://www.georgehart.com/research/multanal.html
+评论网址：https://news.ycombinator.com/item?id=46417935
+积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/abahjat/Prism</guid>
-      <pubDate>Mon, 29 Dec 2025 04:03:28 GMT</pubDate>
+      <guid>https://www.georgehart.com/research/multanal.html</guid>
+      <pubDate>Mon, 29 Dec 2025 06:12:12 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能对 Erdős 问题的贡献</title>
-      <link>https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems</link>
-      <description><![CDATA[文章网址：https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems
-评论网址：https://news.ycombinator.com/item?id=46417273
-积分：2
-# 条评论：0]]></description>
-      <guid>https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems</guid>
-      <pubDate>Mon, 29 Dec 2025 03:46:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么我认为 Valve 将淘汰 Steam Deck LCD</title>
-      <link>https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/</link>
-      <description><![CDATA[文章网址：https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/
-评论网址：https://news.ycombinator.com/item?id=46417252
-积分：4
-# 条评论：0]]></description>
-      <guid>https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/</guid>
-      <pubDate>Mon, 29 Dec 2025 03:44:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Deno 构建恐龙奔跑游戏</title>
-      <link>https://deno.com/blog/build-a-game-with-deno-1</link>
-      <description><![CDATA[文章网址：https://deno.com/blog/build-a-game-with-deno-1
-评论网址：https://news.ycombinator.com/item?id=46417243
-积分：2
-# 条评论：0]]></description>
-      <guid>https://deno.com/blog/build-a-game-with-deno-1</guid>
-      <pubDate>Mon, 29 Dec 2025 03:42:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过无线电实现快速 GPU 互连</title>
-      <link>https://spectrum.ieee.org/rf-over-fiber</link>
-      <description><![CDATA[文章网址：https://spectrum.ieee.org/rf-over- Fiber
-评论网址：https://news.ycombinator.com/item?id=46417227
-积分：3
-# 条评论：0]]></description>
-      <guid>https://spectrum.ieee.org/rf-over-fiber</guid>
-      <pubDate>Mon, 29 Dec 2025 03:39:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>修复日志分析</title>
-      <link>https://news.ycombinator.com/item?id=46417218</link>
-      <description><![CDATA[https://github.com/hyehudai/quackfix
+      <title>问 HN：Ruby 4 和 unicorn segfault (kgio) 如何获得 gem 版本？</title>
+      <link>https://news.ycombinator.com/item?id=46417911</link>
+      <description><![CDATA[嗨，我在 Ruby 4 上使用 unicorn 时遇到了分段错误。它看起来与 kgio 有关。在 unicorn master (git) 中，似乎 kgio 已被删除（或者 unicorn 不再依赖它），因此 Ruby 4 可能可以在那里工作。但没有包含此更改的 RubyGems 版本。我可以从 git 运行 unicorn，但它需要额外的“发布时”构建步骤（生成 lib/unicorn/version.rb、使用 ragel 构建/安装 ext/unicorn_http，并复制 unicorn_http.so）。解决方法 PR（确切步骤）：https://github.com/catatsuy/private-isu/pull/853
+我发送给 unicorn-public 的邮件（可能处于非活动状态）：https://yhbt.net/unicorn-public/20251227071714.D9328160070@mail.catatsuy.org/T/#u问题：联系 unicorn 维护者或请求 RubyGems 版本的最佳方式是什么？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46417218
+评论网址：https://news.ycombinator.com/item?id=46417911
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46417218</guid>
-      <pubDate>Mon, 29 Dec 2025 03:38:37 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46417911</guid>
+      <pubDate>Mon, 29 Dec 2025 06:03:49 GMT</pubDate>
     </item>
     <item>
-      <title>147 小时后第 11,175 次翻转，液压机将硬币翻转到边缘</title>
-      <link>https://www.twitch.tv/hydraulicpresschannel/clip/OilySmallKaleGivePLZ-FxxqhF85A1s_55Nv</link>
-      <description><![CDATA[文章网址：https://www.twitch.tv/Hydraulicpresschannel/clip/OilySmallKaleGivePLZ-FxxqhF85A1s_55Nv
-评论网址：https://news.ycombinator.com/item?id=46417207
-积分：6
+      <title>半环注释类型系统的框架</title>
+      <link>https://stax.strath.ac.uk/concern/theses/tt44pn44w</link>
+      <description><![CDATA[文章网址：https://stax.strath.ac.uk/concern/theses/tt44pn44w
+评论网址：https://news.ycombinator.com/item?id=46417910
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.twitch.tv/hydraulicpresschannel/clip/OilySmallKaleGivePLZ-FxxqhF85A1s_55Nv</guid>
-      <pubDate>Mon, 29 Dec 2025 03:36:25 GMT</pubDate>
+      <guid>https://stax.strath.ac.uk/concern/theses/tt44pn44w</guid>
+      <pubDate>Mon, 29 Dec 2025 06:03:41 GMT</pubDate>
     </item>
     <item>
-      <title></title>
-      <link>https://hiddenpalace.org/News/One_Bad_Ass_Hedgehog_-_Shadow_the_Hedgehog#Demystifying_DVDs</link>
-      <description><![CDATA[文章网址：https://hiddenpalace.org/News/One_Bad_Ass_Hedgehog_-_Shadow_the_Hedgehog#Demystifying_DVDs
-评论网址：https://news.ycombinator.com/item?id=46417162
-积分：4
+      <title>被诗歌欺骗的人工智能语言模型</title>
+      <link>https://www.dw.com/en/ai-language-models-duped-hacked-by-poems-chatgpt-gemini-claude-security-mechanisms/a-75180648</link>
+      <description><![CDATA[文章网址： https://www.dw.com/en/ai-language-models-duped-hacked-by-poems-chatgpt-gemini-claude-security-mechanisms/a-75180648
+评论网址：https://news.ycombinator.com/item?id=46417898
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.dw.com/en/ai-language-models-duped-hacked-by-poems-chatgpt-gemini-claude-security-mechanisms/a-75180648</guid>
+      <pubDate>Mon, 29 Dec 2025 06:00:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>百万美元的想法？想象一下 TikTok，但每次你滚动它都是一个新的模因</title>
+      <link>https://www.onemorememe.com/</link>
+      <description><![CDATA[文章网址：https://www.onemorememe.com/
+评论网址：https://news.ycombinator.com/item?id=46417891
+积分：1
 # 条评论：1]]></description>
-      <guid>https://hiddenpalace.org/News/One_Bad_Ass_Hedgehog_-_Shadow_the_Hedgehog#Demystifying_DVDs</guid>
-      <pubDate>Mon, 29 Dec 2025 03:25:35 GMT</pubDate>
+      <guid>https://www.onemorememe.com/</guid>
+      <pubDate>Mon, 29 Dec 2025 05:58:30 GMT</pubDate>
     </item>
     <item>
-      <title>西方出了什么问题？</title>
-      <link>https://spectator.com/article/whats-wrong-with-the-west/</link>
-      <description><![CDATA[文章网址：https://spectator.com/article/whats-wrong-with-the-west/
-评论网址：https://news.ycombinator.com/item?id=46417154
+      <title>$276B 牛市：Ken Fisher 对人工智能超级周期的最大赌注</title>
+      <link>https://www.13radar.com/guru/ken-fisher</link>
+      <description><![CDATA[文章网址：https://www.13radar.com/guru/ken-fisher
+评论网址：https://news.ycombinator.com/item?id=46417879
+积分：1
+# 条评论：2]]></description>
+      <guid>https://www.13radar.com/guru/ken-fisher</guid>
+      <pubDate>Mon, 29 Dec 2025 05:55:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025 年保持领先于审查</title>
+      <link>https://forum.torproject.org/t/staying-ahead-of-censors-in-2025-what-weve-learned-from-fighting-censorship-in-iran-and-russia/20898</link>
+      <description><![CDATA[文章网址： https://forum.torproject.org/t/staying-ahead-of-censors-in-2025-what-weve-learned-from-fighting-censorship-in-iran-and-Russia/20898
+评论网址：https://news.ycombinator.com/item?id=46417844
+积分：22
+# 条评论：1]]></description>
+      <guid>https://forum.torproject.org/t/staying-ahead-of-censors-in-2025-what-weve-learned-from-fighting-censorship-in-iran-and-russia/20898</guid>
+      <pubDate>Mon, 29 Dec 2025 05:47:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nano Banana Pro 结构化 JSON 提示案例研究</title>
+      <link>https://curateclick.com/blog/2025-12-29-nano-banana-pro-prompts</link>
+      <description><![CDATA[文章网址：https://curateclick.com/blog/2025-12-29-nano-banana-pro-prompts
+评论网址：https://news.ycombinator.com/item?id=46417826
+积分：1
+# 条评论：3]]></description>
+      <guid>https://curateclick.com/blog/2025-12-29-nano-banana-pro-prompts</guid>
+      <pubDate>Mon, 29 Dec 2025 05:42:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Z80-μLM，一个大小为 40KB 的“对话式 AI”</title>
+      <link>https://github.com/HarryR/z80ai</link>
+      <description><![CDATA[语言模型可以有多小，同时仍然可以做一些有用的事情？我想找出答案，假期里有一些空闲时间。Z80-μLM 是一种字符级语言模型，具有 2 位量化权重 ({-2,-1,0,+1})，在具有 64KB RAM 的 Z80 上运行。整个事情：推理、权重、聊天 UI，所有这些都适合在一个 40KB 的 .COM 文件中运行，您可以在 CP/M 模拟器中运行，甚至可以在真正的硬件中运行！它不会写您的电子邮件，但可以训练它播放 20 个问题的精简版本，有时能够保持一种具有鲜明个性的简单而简洁的对话的错觉。--极端的限制书呆子狙击了我并强制进行有趣的权衡：三元组散列（拼写错误、丢失字序）、16 位整数数学以及对训练数据的一些仔细处理意味着我可以使示例保持“有趣”。关键是量化感知训练，可以准确模拟推理代码限制。训练循环并行运行浮点量化和整数量化前向传递，根据其知识在量化中的表现对模型进行评分。使用直通估计器将权重逐渐推向 2 位网格，溢出惩罚与 Z80 的 16 位累加器限制相匹配。训练结束时，模型已经适应了它的约束，因此没有事后量化崩溃。最终我在 Claude API 上花了几美元来生成 20 个问题数据（请参阅示例/猜测/GUESS.COM），我希望 Anthropic 不会向我发送 C&amp;D 来根据 ToS 提炼他们的模型；P但无论如何，祝大家代码高尔夫季快乐:)
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46417815
 积分：2
 # 条评论：0]]></description>
-      <guid>https://spectator.com/article/whats-wrong-with-the-west/</guid>
-      <pubDate>Mon, 29 Dec 2025 03:24:02 GMT</pubDate>
+      <guid>https://github.com/HarryR/z80ai</guid>
+      <pubDate>Mon, 29 Dec 2025 05:41:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
