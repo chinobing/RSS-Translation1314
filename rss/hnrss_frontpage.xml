@@ -4,64 +4,76 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 29 Dec 2025 06:35:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 09:32:03 GMT</lastBuildDate>
     <item>
       <title>2025 年保持领先于审查</title>
       <link>https://forum.torproject.org/t/staying-ahead-of-censors-in-2025-what-weve-learned-from-fighting-censorship-in-iran-and-russia/20898</link>
       <description><![CDATA[文章网址： https://forum.torproject.org/t/staying-ahead-of-censors-in-2025-what-weve-learned-from-fighting-censorship-in-iran-and-Russia/20898
 评论网址：https://news.ycombinator.com/item?id=46417844
-积分：22
-# 条评论：1]]></description>
+积分：109
+# 条评论：50]]></description>
       <guid>https://forum.torproject.org/t/staying-ahead-of-censors-in-2025-what-weve-learned-from-fighting-censorship-in-iran-and-russia/20898</guid>
       <pubDate>Mon, 29 Dec 2025 05:47:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Z80-μLM，一个大小为 40KB 的“对话式 AI”</title>
+      <link>https://github.com/HarryR/z80ai</link>
+      <description><![CDATA[语言模型可以有多小，同时仍然可以做一些有用的事情？我想找出答案，假期里有一些空闲时间。Z80-μLM 是一种字符级语言模型，具有 2 位量化权重 ({-2,-1,0,+1})，在具有 64KB RAM 的 Z80 上运行。整个事情：推理、权重、聊天 UI，所有这些都适合在一个 40KB 的 .COM 文件中运行，您可以在 CP/M 模拟器中运行，甚至可以在真正的硬件中运行！它不会写您的电子邮件，但可以训练它播放 20 个问题的精简版本，有时能够保持一种具有鲜明个性的简单而简洁的对话的错觉。--极端的限制书呆子狙击了我并强制进行有趣的权衡：三元组散列（拼写错误、丢失字序）、16 位整数数学以及对训练数据的一些仔细处理意味着我可以使示例保持“有趣”。关键是量化感知训练，可以准确模拟推理代码限制。训练循环并行运行浮点量化和整数量化前向传递，根据其知识在量化中的表现对模型进行评分。使用直通估计器将权重逐渐推向 2 位网格，溢出惩罚与 Z80 的 16 位累加器限制相匹配。训练结束时，模型已经适应了它的约束，因此没有事后量化崩溃。最终我在 Claude API 上花了几美元来生成 20 个问题数据（请参阅示例/猜测/GUESS.COM），我希望 Anthropic 不会向我发送 C&amp;D 来根据 ToS 提炼他们的模型；P但无论如何，祝大家代码高尔夫季快乐:)
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46417815
+积分：106
+# 条评论：30]]></description>
+      <guid>https://github.com/HarryR/z80ai</guid>
+      <pubDate>Mon, 29 Dec 2025 05:41:24 GMT</pubDate>
     </item>
     <item>
       <title>二进制文件</title>
       <link>https://fzakaria.com/2025/12/28/huge-binaries</link>
       <description><![CDATA[文章网址：https://fzakaria.com/2025/12/28/huge-binaries
 评论网址：https://news.ycombinator.com/item?id=46417791
-积分：3
-# 条评论：0]]></description>
+积分：34
+# 条评论：12]]></description>
       <guid>https://fzakaria.com/2025/12/28/huge-binaries</guid>
       <pubDate>Mon, 29 Dec 2025 05:35:17 GMT</pubDate>
     </item>
     <item>
-      <title>约翰·辛普森：“我报道过 40 场战争，但我从未见过像 2025 年这样的一年”</title>
-      <link>https://www.bbc.com/news/articles/cj4qp17e1lqo</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cj4qp17e1lqo
-评论网址：https://news.ycombinator.com/item?id=46417724
-积分：39
+      <title>星际迷航布景全景图</title>
+      <link>https://mijofr.github.io/st-panorama/</link>
+      <description><![CDATA[文章网址：https://mijofr.github.io/st-panorama/
+评论网址：https://news.ycombinator.com/item?id=46417752
+积分：63
 评论数量：9]]></description>
-      <guid>https://www.bbc.com/news/articles/cj4qp17e1lqo</guid>
-      <pubDate>Mon, 29 Dec 2025 05:21:06 GMT</pubDate>
+      <guid>https://mijofr.github.io/st-panorama/</guid>
+      <pubDate>Mon, 29 Dec 2025 05:26:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我的非营利搜索引擎，没有广告，没有人工智能，所有 DDG 刘海</title>
+      <link>https://nilch.org</link>
+      <description><![CDATA[我一直在研究一个小型开源 [1] 搜索引擎，nilch。我注意到几乎所有知名的搜索引擎，包括替代搜索引擎，往往都是由不同规模的公司运营，其目的是为了赚钱，所以他们要么在你的结果中填充广告，要么向你收费，我不喜欢这样，因为搜索是互联网的支柱，不应该是商业性的，所以它以非营利的方式运行，旨在靠捐赠生存。此外，我个人真的厌倦了搜索结果中的人工智能，所以我放弃了它，我想要 DuckDuckGo 刘海，所以它支持所有这些。与许多替代搜索引擎一样，它是完全私有的。遗憾的是，它目前没有自己的索引，而是使用 Brave 搜索 API。一旦我的财务状况变得可能，我绝对愿意从头开始构建一个全新的开源索引，以及一个开源排名和搜索算法来支持它。我在 Reddit 上发帖并得到了大量反馈，我实现了许多功能请求，所以我也非常喜欢你们的想法、批评和错误报告。谢谢您，并对这么长的帖子表示歉意！[1] https://github.com/UnmappedStack/nilch
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46417748
+积分：62
+# 条评论：33]]></description>
+      <guid>https://nilch.org</guid>
+      <pubDate>Mon, 29 Dec 2025 05:25:25 GMT</pubDate>
     </item>
     <item>
       <title>我的第一个 Meshtastic 网络</title>
       <link>https://rickcarlino.com/notes/electronics/my-first-meshtastic-network.html</link>
       <description><![CDATA[文章网址：https://rickcarlino.com/notes/ electronics/my-first-meshtastic-network.html
 评论网址：https://news.ycombinator.com/item?id=46417676
-积分：3
-# 条评论：0]]></description>
+积分：40
+# 条评论：14]]></description>
       <guid>https://rickcarlino.com/notes/electronics/my-first-meshtastic-network.html</guid>
       <pubDate>Mon, 29 Dec 2025 05:12:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么我认为 Valve 将淘汰 Steam Deck LCD</title>
-      <link>https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/</link>
-      <description><![CDATA[文章网址：https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/
-评论网址：https://news.ycombinator.com/item?id=46417252
-积分：31
-# 条评论：28]]></description>
-      <guid>https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/</guid>
-      <pubDate>Mon, 29 Dec 2025 03:44:12 GMT</pubDate>
     </item>
     <item>
       <title>通过无线电实现快速 GPU 互连</title>
       <link>https://spectrum.ieee.org/rf-over-fiber</link>
       <description><![CDATA[文章网址：https://spectrum.ieee.org/rf-over- Fiber
 评论网址：https://news.ycombinator.com/item?id=46417227
-积分：9
-# 条评论：0]]></description>
+积分：20
+# 条评论：1]]></description>
       <guid>https://spectrum.ieee.org/rf-over-fiber</guid>
       <pubDate>Mon, 29 Dec 2025 03:39:42 GMT</pubDate>
     </item>
@@ -70,8 +82,8 @@
       <link>https://maurycyz.com/misc/make-up-tags/</link>
       <description><![CDATA[文章网址：https://maurycyz.com/misc/make-up-tags/
 评论网址：https://news.ycombinator.com/item?id=46416945
-积分：139
-# 条评论：58]]></description>
+积分：217
+评论数量：90]]></description>
       <guid>https://maurycyz.com/misc/make-up-tags/</guid>
       <pubDate>Mon, 29 Dec 2025 02:47:44 GMT</pubDate>
     </item>
@@ -80,7 +92,7 @@
       <link>https://skerritt.blog/best-japanese-learning-tools-2025-award-show/</link>
       <description><![CDATA[文章网址：https://skerritt.blog/best-japanese-learning-tools-2025-award-show/
 评论网址：https://news.ycombinator.com/item?id=46415819
-积分：81
+积分：106
 # 条评论：14]]></description>
       <guid>https://skerritt.blog/best-japanese-learning-tools-2025-award-show/</guid>
       <pubDate>Mon, 29 Dec 2025 00:01:26 GMT</pubDate>
@@ -90,20 +102,10 @@
       <link>https://github.com/halidecx/fcvvdp</link>
       <description><![CDATA[文章网址：https://github.com/halidecx/fcvvdp
 评论网址：https://news.ycombinator.com/item?id=46415570
-积分：25
-# 条评论：1]]></description>
+积分：32
+# 条评论：3]]></description>
       <guid>https://github.com/halidecx/fcvvdp</guid>
       <pubDate>Sun, 28 Dec 2025 23:30:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何投诉 (2024)</title>
-      <link>https://outerproduct.net/trivial/2024-03-25_complain.html</link>
-      <description><![CDATA[文章网址：https://outerproduct.net/trivial/2024-03-25_complain.html
-评论网址：https://news.ycombinator.com/item?id=46415522
-积分：47
-# 条评论：6]]></description>
-      <guid>https://outerproduct.net/trivial/2024-03-25_complain.html</guid>
-      <pubDate>Sun, 28 Dec 2025 23:23:21 GMT</pubDate>
     </item>
     </channel>
 </rss>
