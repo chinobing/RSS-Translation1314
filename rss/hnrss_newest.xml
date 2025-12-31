@@ -4,130 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 30 Dec 2025 21:21:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 01:45:44 GMT</lastBuildDate>
     <item>
-      <title>询问 HN：我需要有多优秀才能在初创公司工作？</title>
-      <link>https://news.ycombinator.com/item?id=46438047</link>
-      <description><![CDATA[我想在一家初创公司工作，但我不知道如何脱颖而出。有什么建议吗？我是一名高级自动柜员机，但如果可以的话，我明天会开车去旧金山开始工作...我建造了很多东西并且喜欢它，但其中一些应用程序会说“你在哪方面排名前 1%？”。我没有去目标学校，也不知道如何推销自己。我的技能/兴趣是视觉+交互人工智能应用。例如：构建一个全栈本地 llm 应用程序来控制 3D 搅拌机场景，让 NVIDIA 的研究库无头运行（无人机 -&gt; 3d 自拍），而且我一直在照顾额外的时间，以节省 AR 眼镜来进行空间黑客攻击。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46438047
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46438047</guid>
-      <pubDate>Tue, 30 Dec 2025 21:11:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：tmpo – 具有 Git 集成和本地优先存储的 CLI 时间跟踪器</title>
-      <link>https://github.com/DylanDevelops/tmpo</link>
-      <description><![CDATA[我之所以创建 tmpo，是因为我在 Google 表单中追踪自由职业时间而赔钱。它是一个 CLI 时间跟踪器，可以从 Git 自动检测您的项目并将所有内容存储在本地。关键技术决策：- 使用 Modernc.org/sqlite 实现 Pure Go（无 CGO，更容易交叉编译）
-- 通过 git rev-parse 自动检测项目名称
-- ~/.tmpo/ 中的本地 SQLite 数据库（没有任何内容离开您的计算机）
-- 单个二进制文件，零依赖自我开始以来的新功能：- 里程碑跟踪 - 使用自动标记将条目组织到冲刺/发布中
-- 暂停/恢复工作流程以进行上下文切换
-- 为被遗忘的时间手动创建条目
-- 可配置的日期/时间格式和货币（存储在全局配置中）
-- 编辑/删除条目工作流程示例：```bash
-cd ~/projects/客户网站
-tmpo里程碑开始“Sprint 5”
-tmpo start“修复身份验证错误”
-# ...工作...
-tmpo 暂停#午休
-tmpo简历
-临时停止
-tmpo 统计数据——周
-tmpo 导出 --milestone &quot;Sprint 5&quot; --format csv
-```它从 git 检测“客户端网站”，并自动用活动里程碑标记所有内容。代码库约为 6k LOC。正在研究 Homebrew 公式，但现在可以使用预构建的二进制文件。GitHub：&lt;https://github.com/DylanDevelops/tmpo&gt;大家的问题：1。您想在 tmpo 中看到什么功能吗？
-2. 当前使用 3 层配置优先级（.tmporc &gt; git &gt; 目录）。更好的方法？
-3. 对里程碑自动标记方法有任何疑问吗？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46438040
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/DylanDevelops/tmpo</guid>
-      <pubDate>Tue, 30 Dec 2025 21:10:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Claude 代码从头开始构建 64 位操作系统</title>
-      <link>https://isene.org/2025/11/SimplicityOS.html</link>
-      <description><![CDATA[文章网址：https://isene.org/2025/11/SimplicityOS.html
-评论网址：https://news.ycombinator.com/item?id=46438010
-积分：1
-# 条评论：0]]></description>
-      <guid>https://isene.org/2025/11/SimplicityOS.html</guid>
-      <pubDate>Tue, 30 Dec 2025 21:07:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：使用客户硬件进行数学人工智能辅导</title>
-      <link>https://app.toughtongueai.com/run/seminarlines-algebra-tutor-69513790800e1ea3b09856a5/</link>
-      <description><![CDATA[为语音 AI 代理添加功能，以使用摄像头 + 屏幕共享实时查看事物这解锁了独特的能力。此处：连接了文档相机，以便人工智能导师观看我在笔和纸上解决数学问题，然后指导我纠正错误。它生成动态幻灯片来教我概念。当我做对时，会出现阵雨表情符号。个性化。有记忆。按照您的节奏学习。https://youtube.com/shorts/GE8hrbc0wYo?feature=share
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46438007
-积分：1
-# 条评论：0]]></description>
-      <guid>https://app.toughtongueai.com/run/seminarlines-algebra-tutor-69513790800e1ea3b09856a5/</guid>
-      <pubDate>Tue, 30 Dec 2025 21:07:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>我让克劳德建立了一个自动生成艺术画廊来测试我的定制技能</title>
-      <link>https://josh-gree.github.io/gen-art-gallery/</link>
-      <description><![CDATA[文章网址：https://josh-gree.github.io/gen-art-gallery/
-评论网址：https://news.ycombinator.com/item?id=46438004
-积分：1
+      <title>本地优先人工智能的窗口（在默认值发布之前）</title>
+      <link>https://www.localghost.ai/inflection</link>
+      <description><![CDATA[文章网址：https://www.localghost.ai/inflection
+评论网址：https://news.ycombinator.com/item?id=46440318
+积分：2
 # 条评论：1]]></description>
-      <guid>https://josh-gree.github.io/gen-art-gallery/</guid>
-      <pubDate>Tue, 30 Dec 2025 21:06:55 GMT</pubDate>
+      <guid>https://www.localghost.ai/inflection</guid>
+      <pubDate>Wed, 31 Dec 2025 01:31:48 GMT</pubDate>
     </item>
     <item>
-      <title>Nexperia 在无人区：该公司如何夹在两个世界强国之间</title>
-      <link>https://www.nrc.nl/nieuws/2025/12/30/nexperia-in-no-mans-land-how-a-chip-company-became-caught-between-two-world-powers-a4916395</link>
-      <description><![CDATA[文章网址： https://www.nrc.nl/nieuws/2025/12/30/nexperia-in-no-mans-land-how-a-chip-company-became-caught- Between-two-world-powers-a4916395
-评论网址：https://news.ycombinator.com/item?id=46437985
+      <title>2025 年法学硕士的现状：进展、进展和预测</title>
+      <link>https://magazine.sebastianraschka.com/p/state-of-llms-2025</link>
+      <description><![CDATA[文章网址：https://magazine.sebastianraschka.com/p/state-of-llms-2025
+评论网址：https://news.ycombinator.com/item?id=46440308
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.nrc.nl/nieuws/2025/12/30/nexperia-in-no-mans-land-how-a-chip-company-became-caught-between-two-world-powers-a4916395</guid>
-      <pubDate>Tue, 30 Dec 2025 21:05:15 GMT</pubDate>
+      <guid>https://magazine.sebastianraschka.com/p/state-of-llms-2025</guid>
+      <pubDate>Wed, 31 Dec 2025 01:30:38 GMT</pubDate>
     </item>
     <item>
-      <title>多动症药物并不像我们想象的那样起作用</title>
-      <link>https://www.sciencedaily.com/releases/2025/12/251225235942.htm</link>
-      <description><![CDATA[文章网址：https://www.sciencedaily.com/releases/2025/12/251225235942.htm
-评论网址：https://news.ycombinator.com/item?id=46437976
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.sciencedaily.com/releases/2025/12/251225235942.htm</guid>
-      <pubDate>Tue, 30 Dec 2025 21:03:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>股票多元化模拟器</title>
-      <link>https://diversifire.ludable.com</link>
-      <description><![CDATA[文章网址：https://diversifire.ludable.com
-评论网址：https://news.ycombinator.com/item?id=46437965
-积分：1
-# 条评论：1]]></description>
-      <guid>https://diversifire.ludable.com</guid>
-      <pubDate>Tue, 30 Dec 2025 21:03:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Topas-DSPL – 解决硬推理任务的 15M 参数 AI (ARC-AGI-2)</title>
-      <link>https://github.com/Bitterbot-AI/topas_DSLPv1</link>
-      <description><![CDATA[作者在此。我们对“缩放假设”（只是让模型更大）感到沮丧。我们认为当前人工智能的问题不在于规模，而在于架构。我们刚刚开源了 TOPAS-DSPL。它是一个微型模型（约 15M 参数），使用双流架构（将逻辑与执行分离）来解决 ARC-AGI-2 基准测试。它在硬评估集上实现了 24% 的准确率，超过了其大小 1000 倍的许多模型。该存储库包括完整的训练代码、数据增强管道以及我们用于稳定递归的 MuonClip 优化器。它在单个消费级 GPU 上运行。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46437963
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/Bitterbot-AI/topas_DSLPv1</guid>
-      <pubDate>Tue, 30 Dec 2025 21:02:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：我是否患有抑郁症或我的人际关系很糟糕？</title>
-      <link>https://news.ycombinator.com/item?id=46437944</link>
-      <description><![CDATA[我很难决定是哪一个。我们已经在一起三年了。我对我的伴侣没有性吸引力，常常觉得我们是非常不同的人，有着截然不同的价值观。我已经 35 岁了，我的大脑的一部分认为现在寻找新对象已经太晚了，而且我需要向所有朋友和家人宣布分手的事实也很可怕。另一方面，我的伴侣很好，很体贴，我们很少吵架，有相似的幽默感。我的生活或多或少很好，有工作和朋友，但是缺乏一套更大的目标。有什么建议吗？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46437944
+      <title>调查并修复一个令人讨厌的克隆错误</title>
+      <link>https://kobzol.github.io/rust/2025/12/30/investigating-and-fixing-a-nasty-clone-bug.html</link>
+      <description><![CDATA[文章网址：https://kobzol.github.io/rust/2025/12/30/investigating-and-fixing-a-nasty-clone-bug.html
+评论网址：https://news.ycombinator.com/item?id=46440271
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46437944</guid>
-      <pubDate>Tue, 30 Dec 2025 21:01:22 GMT</pubDate>
+      <guid>https://kobzol.github.io/rust/2025/12/30/investigating-and-fixing-a-nasty-clone-bug.html</guid>
+      <pubDate>Wed, 31 Dec 2025 01:24:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何翻译 ROM：游戏卡带的奥秘 [视频]</title>
+      <link>https://www.youtube.com/watch?v=XDg73E1n5-g</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=XDg73E1n5-g
+评论网址：https://news.ycombinator.com/item?id=46440188
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=XDg73E1n5-g</guid>
+      <pubDate>Wed, 31 Dec 2025 01:10:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>异步对于您的 Python Web 应用意味着什么？</title>
+      <link>https://hackeryarn.com/post/async-python-benchmarks/</link>
+      <description><![CDATA[文章网址：https://hackeryarn.com/post/async-python-benchmarks/
+评论网址：https://news.ycombinator.com/item?id=46440187
+积分：1
+# 条评论：0]]></description>
+      <guid>https://hackeryarn.com/post/async-python-benchmarks/</guid>
+      <pubDate>Wed, 31 Dec 2025 01:09:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>玛梅 0.284</title>
+      <link>https://www.mamedev.org/?p=558</link>
+      <description><![CDATA[文章网址：https://www.mamedev.org/?p=558
+评论网址：https://news.ycombinator.com/item?id=46440183
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.mamedev.org/?p=558</guid>
+      <pubDate>Wed, 31 Dec 2025 01:09:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：你是如何让自己更有市场的？</title>
+      <link>https://news.ycombinator.com/item?id=46440135</link>
+      <description><![CDATA[我是一名全栈工程师。非常聪明，但我认为这不足以让自己在这个市场上脱颖而出。我想知道这里是否有人做了一些特别的事情来让自己更有市场。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46440135
+积分：5
+# 条评论：3]]></description>
+      <guid>https://news.ycombinator.com/item?id=46440135</guid>
+      <pubDate>Wed, 31 Dec 2025 01:01:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>2025年年终工程工资报告</title>
+      <link>https://levels.fyi/2025/</link>
+      <description><![CDATA[文章网址：https://levels.fyi/2025/
+评论网址：https://news.ycombinator.com/item?id=46440087
+积分：2
+# 条评论：0]]></description>
+      <guid>https://levels.fyi/2025/</guid>
+      <pubDate>Wed, 31 Dec 2025 00:53:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>反常电子态开辟了室温超导之路</title>
+      <link>https://phys.org/news/2025-11-anomalous-electronic-state-pathway-room.html</link>
+      <description><![CDATA[文章网址：https://phys.org/news/2025-11-anomalous-electronic-state-pathway-room.html
+评论网址：https://news.ycombinator.com/item?id=46440067
+积分：4
+# 条评论：0]]></description>
+      <guid>https://phys.org/news/2025-11-anomalous-electronic-state-pathway-room.html</guid>
+      <pubDate>Wed, 31 Dec 2025 00:50:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>S&P500 以黄金定价</title>
+      <link>https://pricedingold.com/sp-500/</link>
+      <description><![CDATA[文章网址：https://pricedingold.com/sp-500/
+评论网址：https://news.ycombinator.com/item?id=46440066
+积分：4
+# 条评论：1]]></description>
+      <guid>https://pricedingold.com/sp-500/</guid>
+      <pubDate>Wed, 31 Dec 2025 00:49:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
