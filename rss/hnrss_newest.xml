@@ -4,121 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 02 Jan 2026 01:46:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 04:05:11 GMT</lastBuildDate>
     <item>
-      <title>计算机使用和设计的人道指南</title>
-      <link>https://horeszko.ca/blog/humane-guidelines-for-computer-usage-and-design.html</link>
-      <description><![CDATA[文章网址：https://horeszko.ca/blog/ humane-guidelines-for-computer-usage-and-design.html
-评论网址：https://news.ycombinator.com/item?id=46460401
+      <title>Coco：一个简单的无堆栈、单线程、仅头文件的 C++20 协程库</title>
+      <link>http://luajit.io:80/posts/coco-cpp20-coroutine/</link>
+      <description><![CDATA[文章网址：http://luajit.io:80/posts/coco-cpp20-coroutine/
+评论网址：https://news.ycombinator.com/item?id=46461242
 积分：1
 # 条评论：0]]></description>
-      <guid>https://horeszko.ca/blog/humane-guidelines-for-computer-usage-and-design.html</guid>
-      <pubDate>Fri, 02 Jan 2026 01:37:39 GMT</pubDate>
+      <guid>http://luajit.io:80/posts/coco-cpp20-coroutine/</guid>
+      <pubDate>Fri, 02 Jan 2026 03:55:41 GMT</pubDate>
     </item>
     <item>
-      <title>可扩展性：“100% Lisp”谬论</title>
-      <link>https://kyo.iroiro.party/en/posts/100-percent-lisp/</link>
-      <description><![CDATA[文章网址：https://kyo.iroiro.party/en/posts/100-percent-lisp/
-评论网址：https://news.ycombinator.com/item?id=46460394
-积分：1
-# 条评论：0]]></description>
-      <guid>https://kyo.iroiro.party/en/posts/100-percent-lisp/</guid>
-      <pubDate>Fri, 02 Jan 2026 01:36:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pelican：使用 vLLM 生成多步 SVG</title>
-      <link>https://pelican.alexey.work/</link>
-      <description><![CDATA[文章网址：https://pelican.alexey.work/
-评论网址：https://news.ycombinator.com/item?id=46460374
-积分：1
-# 条评论：1]]></description>
-      <guid>https://pelican.alexey.work/</guid>
-      <pubDate>Fri, 02 Jan 2026 01:33:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rust9x 更新：Rust 1.93.0-beta</title>
-      <link>https://seri.tools/blog/rust9x-1-93/</link>
-      <description><![CDATA[文章网址：https://seri.tools/blog/rust9x-1-93/
-评论网址：https://news.ycombinator.com/item?id=46460372
+      <title>DHH 是不朽的，耗资 2 亿美元</title>
+      <link>https://danieltenner.com/dhh-is-immortal-and-costs-200-m/</link>
+      <description><![CDATA[文章网址：https://danieltenner.com/dhh-is-immortal-and-costs-200-m/
+评论网址：https://news.ycombinator.com/item?id=46461230
 积分：2
 # 条评论：0]]></description>
-      <guid>https://seri.tools/blog/rust9x-1-93/</guid>
-      <pubDate>Fri, 02 Jan 2026 01:33:44 GMT</pubDate>
+      <guid>https://danieltenner.com/dhh-is-immortal-and-costs-200-m/</guid>
+      <pubDate>Fri, 02 Jan 2026 03:52:53 GMT</pubDate>
     </item>
     <item>
-      <title>Saks 因未能偿还债务而准备破产</title>
-      <link>https://www.wsj.com/finance/saks-prepares-for-bankruptcy-after-missing-debt-payment-ff3df6d2</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/finance/saks-prepares-for-bankruptcy-after-missing-debt- payment-ff3df6d2
-评论网址：https://news.ycombinator.com/item?id=46460370
+      <title>你只有 X 年的时间来摆脱永久的月球所有权</title>
+      <link>https://www.astralcodexten.com/p/you-have-only-x-years-to-escape-permanent</link>
+      <description><![CDATA[文章网址：https://www.astralcodexten.com/p/you-have-only-x-years-to-escape-permanent
+评论网址：https://news.ycombinator.com/item?id=46461219
 积分：1
-# 条评论：1]]></description>
-      <guid>https://www.wsj.com/finance/saks-prepares-for-bankruptcy-after-missing-debt-payment-ff3df6d2</guid>
-      <pubDate>Fri, 02 Jan 2026 01:33:23 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://www.astralcodexten.com/p/you-have-only-x-years-to-escape-permanent</guid>
+      <pubDate>Fri, 02 Jan 2026 03:51:36 GMT</pubDate>
     </item>
     <item>
-      <title>部分故障期间的安全中断——分布式系统的设计说明</title>
-      <link>https://news.ycombinator.com/item?id=46460369</link>
-      <description><![CDATA[TL;DR：许多安全机制不是在攻击期间失败，而是在部分中断期间失败。这篇文章记录了分布式系统的故障感知安全框架的早期设计说明。问题在生产分布式系统中，安全性经常会在事情半途而废时中断：身份验证服务降级→重试爆炸回退路径扩大访问恢复逻辑成为攻击面没有任何东西被“利用”，但系统变得不安全。大多数安全模型都假设稳定的组件和干净的故障。
-真实系统的行为并非如此。设计假设我们假设：相关故障重试是对抗性的超时是不安全的默认值恢复路径与稳态逻辑一样重要我们不假设：全局一致性完美的身份可靠的时钟集中执行框架思想（高级）这项工作探讨了四个想法：1。故障感知信任故障时信任会降低，而不仅仅是妥协部分中断期间访问会自动缩小2.运行时的安全不变量不断强制执行不变量违规触发遏制，而不是警报3.重试安全的安全原语幂等、单调、副作用有限重试无法提升权限4。安全性作为可观察的状态信任级别、降级和遏制是可见的如果你无法观察到它，你就无法保护它这不是什么不是零信任营销不合规不是一个完成的系统它试图将失败视为正常情况，而不是例外。为什么要这么早发布？因为许多真正的失败：不适合干净的研究论文发生在事件期间，而不是攻击在生产系统之外是不可见的我们正在共享设计说明，以便在正式化或进一步评估之前获得反馈。欢迎提供反馈如果您在中断或重试期间发现安全回归导致不安全行为，我很想听听。这是一项正在进行的工作。没有声称新颖性或完整性。
+      <title>加州亿万富翁税的威胁招致超级富豪的批评</title>
+      <link>https://www.wsj.com/us-news/law/bill-ackman-billionaire-wealth-tax-66fd6130</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/us-news/law/bill-ackman-billionaire-wealth-tax-66fd6130
+评论网址：https://news.ycombinator.com/item?id=46461210
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.wsj.com/us-news/law/bill-ackman-billionaire-wealth-tax-66fd6130</guid>
+      <pubDate>Fri, 02 Jan 2026 03:48:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>雅克·鲍德上校（退役）解释受到欧盟制裁的原因</title>
+      <link>https://www.youtube.com/watch?v=VwNH3FLeZLA</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=VwNH3FLeZLA
+评论网址：https://news.ycombinator.com/item?id=46461189
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=VwNH3FLeZLA</guid>
+      <pubDate>Fri, 02 Jan 2026 03:45:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国对避孕套和避孕药征税以刺激出生率</title>
+      <link>https://www.reuters.com/business/healthcare-pharmaceuticals/china-taxes-condoms-contraceptive-drugs-bid-spur-birth-rate-2026-01-02/</link>
+      <description><![CDATA[文章网址： https://www.reuters.com/business/healthcare-pharmaceuticals/china-taxes-condoms-contraceptive-drugs-bid-spur-birth-rate-2026-01-02/
+评论网址：https://news.ycombinator.com/item?id=46461182
+积分：4
+# 条评论：0]]></description>
+      <guid>https://www.reuters.com/business/healthcare-pharmaceuticals/china-taxes-condoms-contraceptive-drugs-bid-spur-birth-rate-2026-01-02/</guid>
+      <pubDate>Fri, 02 Jan 2026 03:44:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gas Town – 多代理工作区管理器</title>
+      <link>https://github.com/steveyegge/gastown</link>
+      <description><![CDATA[文章网址：https://github.com/steveyegge/gastown
+评论网址：https://news.ycombinator.com/item?id=46461168
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/steveyegge/gastown</guid>
+      <pubDate>Fri, 02 Jan 2026 03:41:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Mini Apps Builder – 构建 Telegram 迷你应用程序的无代码方式</title>
+      <link>https://miniappsbuilder.com/</link>
+      <description><![CDATA[您好，HN我一直在构建 *Mini Apps Builder*，这是一个小型无代码工具，可帮助人们创建 Telegram 迷你应用程序和简单的 Web 应用程序，而无需编写代码。这个想法来自于对 Telegram 迷你应用程序的实验——它们功能强大，但除非您已经是开发人员，否则使用工具可能会很困难。该项目旨在通过模板、基本支付和快速部署来简化这一过程，以便人们可以更多地关注想法而不是设置。我真的很感激来自任何构建了 Telegram 机器人或迷你应用程序的人的反馈，或者关于这是否能解决实际问题的想法。很高兴回答问题或从您的反馈中学习。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46460369
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46460369</guid>
-      <pubDate>Fri, 02 Jan 2026 01:33:21 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=46461121
+积分：3
+# 条评论：2]]></description>
+      <guid>https://miniappsbuilder.com/</guid>
+      <pubDate>Fri, 02 Jan 2026 03:34:57 GMT</pubDate>
     </item>
     <item>
-      <title>询问 HN：自动化 WebRTC 直播录制</title>
-      <link>https://news.ycombinator.com/item?id=46460342</link>
-      <description><![CDATA[嘿伙计们，我正在尝试构建一个自动化系统来录制直播，但我不确定我是否做错了什么，或者是否有更好的方法来做到这一点要求 - 免提，24/7运行 - 网页上的传入流仅在WebRTC中（没有m3u8等） - 需要能够在以下位置录制多个（最多4个，希望更多）流一次注释
-- 它不必是 chrome 扩展- 我很乐意下载一个简单的应用程序来执行此操作（如果存在）我当前的流程：
-1. 我有一个单独的检测脚本，可以检测视频何时开始，效果很好2.制作了一个 chrome 扩展3. Chrome 扩展程序有一个内容脚本4.内容脚本将标头脚本注入网页1。标头脚本将“WebRTC”对象包装在侦听器代理2中。对于所有已建立的“WebRTC”连接，存储音频和视频轨道5.成功找到音视频轨时1.使用 `MediaRecorder` 开始录制流 1. 该流每 1 小时重新启动一次
-
-  2. 每条码流录制1小时10分钟
-
- 2. 每 15s 一个块
-
- 3. 将块数据转换为base64 blob
-
- 4.通过消息传递将base64 blob发送到内容脚本
-
-6. 接收到内容脚本后，它将数据转发到后台脚本7.后台脚本通过TUS上传到supabase我当前的问题：1。有几个 15 秒的块未上传2.一些 15 秒的块相当滞后3。特别是在重叠部分，我丢失了很多 15 秒的块如果有人对改进系统有任何建议，或者我做错了什么等，请告诉我！我已经为此苦苦挣扎了一段时间，因此任何见解或建议将不胜感激
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46460342
+      <title>明年是2027年吗？</title>
+      <link>https://www.google.com/search?q=Is+next+year+2027%3F&sca_esv=5ee91fe61c00ad93&sxsrf=AE3TifPUb5DSjlay-7cskOA3plvJb1xz8w%3A1767324750364&ei=TjxXabH6FbGg0PEPoOTauA8&ved=0ahUKEwix2crf9euRAxUxEDQIHSCyFvcQ4dUDCBM&uact=5&oq=Is+next+year+2027%3F&gs_lp=Egxnd3Mtd2l6LXNlcnAiEklzIG5leHQgeWVhciAyMDI3PzIEEAAYHjIGEAAYBRgeMgYQABgIGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHkjKHFCPA1jAGnACeAGQAQCYAWegAe0DqgEDNy4xuAEDyAEA-AEBmAIKoAKjBMICChAAGLADGNYEGEfCAhAQABiABBixAxhDGIMBGIoFwgILEAAYgAQYkQIYigXCAgoQABiABBhDGIoFwgIGEAAYBxgewgIFEAAYgATCAggQABgHGAgYHpgDAIgGAZAGCJIHAzkuMaAHwjayBwM3LjG4B54EwgcFMC40LjbIByWACAA</link>
+      <description><![CDATA[文章网址： https://www.google.com/search?Q=Is+Next+Yer+2027%3F&amp;SCA_ESV=5ee91fe61C000AD93&amp; sxsrf=ae3for-aefpub5dsjlay-7cskoa3plvjb1xz8w%3A1767324750364&amp;ei=tjxabh6fbgg0pe Potaua8ua8&amp;ved=0Ahukewix2crf9EururaxexDQHSCYFVCQ4DUdcbm&amp;Uact=5&amp;OQ=IS+Next +Yaer+2027%.2027%.f&amp;gs_lp=egxnd3mtdmtdnlcnaieklzig5lehqgewvhmdi3pZieAyhjigeaa YBGEMGYQAGB4YBhaaGAGYHJEYCBGEMGYQB4YbhaagagyHjigeaaycbgemgyqagb4ybh Aagagyhkjkhfcpa1jagNaceagQacyAwegae0dqgedny4xUaedyaEa-AebmaIkoakjbMicchaagladgNyeg efcahaqabiiAbbiabbiabbixhdgImbGiMBIOFOWGILEYGAYGAYGXCagoqabiiAbbhdGIFOYBXGEWGWGIFOYBXGEWGWGW GWGWGWGWGWGWGWGWGWGWGYHPGDGGYHPGCJAZKKUZUZkumaaahwJAYBWM3LJG4BWM3LJG4BWM3LJG4LjBywwacaa
+评论网址：https://news.ycombinator.com/item?id=46461118
 积分：2
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46460342</guid>
-      <pubDate>Fri, 02 Jan 2026 01:29:24 GMT</pubDate>
+      <guid>https://www.google.com/search?q=Is+next+year+2027%3F&sca_esv=5ee91fe61c00ad93&sxsrf=AE3TifPUb5DSjlay-7cskOA3plvJb1xz8w%3A1767324750364&ei=TjxXabH6FbGg0PEPoOTauA8&ved=0ahUKEwix2crf9euRAxUxEDQIHSCyFvcQ4dUDCBM&uact=5&oq=Is+next+year+2027%3F&gs_lp=Egxnd3Mtd2l6LXNlcnAiEklzIG5leHQgeWVhciAyMDI3PzIEEAAYHjIGEAAYBRgeMgYQABgIGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHkjKHFCPA1jAGnACeAGQAQCYAWegAe0DqgEDNy4xuAEDyAEA-AEBmAIKoAKjBMICChAAGLADGNYEGEfCAhAQABiABBixAxhDGIMBGIoFwgILEAAYgAQYkQIYigXCAgoQABiABBhDGIoFwgIGEAAYBxgewgIFEAAYgATCAggQABgHGAgYHpgDAIgGAZAGCJIHAzkuMaAHwjayBwM3LjG4B54EwgcFMC40LjbIByWACAA</guid>
+      <pubDate>Fri, 02 Jan 2026 03:34:18 GMT</pubDate>
     </item>
     <item>
-      <title>大家都在看股票。真正的泡沫是人工智能债务</title>
-      <link>https://www.bloomberg.com/news/newsletters/2025-12-31/everyone-s-watching-stocks-the-real-bubble-is-ai-debt</link>
-      <description><![CDATA[文章网址： https://www.bloomberg.com/news/newsletters/2025-12-31/everyone-s-watching-stocks-the-real-bubble-is-ai-debt
-评论网址：https://news.ycombinator.com/item?id=46460329
-积分：1
+      <title>澳大利亚对搜索引擎用户强制执行年龄 ID 检查</title>
+      <link>https://reclaimthenet.org/australia-enforces-age-id-checks-for-search-engine-users</link>
+      <description><![CDATA[文章网址：https://reclaimthenet.org/australia-enforces-age-id-checks-for-search-engine-users
+评论网址：https://news.ycombinator.com/item?id=46461117
+积分：6
 # 条评论：1]]></description>
-      <guid>https://www.bloomberg.com/news/newsletters/2025-12-31/everyone-s-watching-stocks-the-real-bubble-is-ai-debt</guid>
-      <pubDate>Fri, 02 Jan 2026 01:26:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>诺曼·福斯特的新摩天大楼是对纽约天际线的侮辱</title>
-      <link>https://www.theguardian.com/artanddesign/2025/dec/03/eco-obscenity-norman-foster-skyscraper-jp-morgan-new-york</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/artanddesign/2025/dec/03/eco-obscenity-norman-foster-skyscraper-jp-morgan-new-york
-评论网址：https://news.ycombinator.com/item?id=46460324
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.theguardian.com/artanddesign/2025/dec/03/eco-obscenity-norman-foster-skyscraper-jp-morgan-new-york</guid>
-      <pubDate>Fri, 02 Jan 2026 01:25:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么用户不能直接创建问题（Ghostty）</title>
-      <link>https://github.com/ghostty-org/ghostty/issues/3558</link>
-      <description><![CDATA[文章网址：https://github.com/ghostty-org/ghostty/issues/3558
-评论网址：https://news.ycombinator.com/item?id=46460319
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/ghostty-org/ghostty/issues/3558</guid>
-      <pubDate>Fri, 02 Jan 2026 01:24:51 GMT</pubDate>
+      <guid>https://reclaimthenet.org/australia-enforces-age-id-checks-for-search-engine-users</guid>
+      <pubDate>Fri, 02 Jan 2026 03:34:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
