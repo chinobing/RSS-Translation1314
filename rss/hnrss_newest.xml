@@ -4,110 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 04 Jan 2026 09:20:45 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 12:41:49 GMT</lastBuildDate>
     <item>
-      <title>动态大概念模型：自适应语义空间中的潜在推理</title>
-      <link>https://arxiv.org/abs/2512.24617</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2512.24617
-评论网址：https://news.ycombinator.com/item?id=46486336
+      <title>Nightshade：使图像不适合模型训练</title>
+      <link>https://nightshade.cs.uchicago.edu/whatis.html</link>
+      <description><![CDATA[文章网址：https://nightshade.cs.uchicago.edu/whatis.html
+评论网址：https://news.ycombinator.com/item?id=46487342
 积分：1
 # 条评论：0]]></description>
-      <guid>https://arxiv.org/abs/2512.24617</guid>
-      <pubDate>Sun, 04 Jan 2026 09:12:51 GMT</pubDate>
+      <guid>https://nightshade.cs.uchicago.edu/whatis.html</guid>
+      <pubDate>Sun, 04 Jan 2026 12:32:30 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：BlockFrame – Rust 中的本地纠删码存储引擎</title>
-      <link>https://github.com/crushr3sist/blockframe-rs</link>
-      <description><![CDATA[嗨，HN，作者。我构建 BlockFrame 是因为我想要分布式对象存储（擦除编码、位腐烂保护）的持久性，但适用于本地单节点存档。它是一个存储引擎，可将文件分片为 Reed-Solomon 块（RS(30,3) 或 RS(1,3)），以保证从磁盘损坏中进行数学恢复。然后，它通过 FUSE/WinFSP 接口公开此引擎，以便您可以使用标准工具（读取、查找）访问数据，而无需自定义 API。主要功能：引擎层：处理奇偶校验计算和 Merkle 树验证的繁重工作。访问层：虚拟文件系统驱动程序允许对多 GB 数据集进行零复制访问和随机查找。自我修复：引擎在运行过程中透明地重建损坏的扇区。读到。我将于五月毕业，目标是在英国担任系统职位。我希望获得有关架构的反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46486334
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/crushr3sist/blockframe-rs</guid>
-      <pubDate>Sun, 04 Jan 2026 09:12:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>PGP 问题 (2019)</title>
-      <link>https://www.latacora.com/blog/2019/07/16/the-pgp-problem/</link>
-      <description><![CDATA[文章网址：https://www.latacora.com/blog/2019/07/16/the-pgp-problem/
-评论网址：https://news.ycombinator.com/item?id=46486326
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.latacora.com/blog/2019/07/16/the-pgp-problem/</guid>
-      <pubDate>Sun, 04 Jan 2026 09:11:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>功能请求：支持 Minisign 和/或 Signify 来签署 Github 提交</title>
-      <link>https://github.com/orgs/community/discussions/183391</link>
-      <description><![CDATA[文章网址：https://github.com/orgs/community/discussions/183391
-评论网址：https://news.ycombinator.com/item?id=46486320
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/orgs/community/discussions/183391</guid>
-      <pubDate>Sun, 04 Jan 2026 09:10:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：PicList，云存储管理器和图像托管 CLI/GUI</title>
-      <link>https://github.com/Kuingsmile/PicList</link>
-      <description><![CDATA[嗨，HN，我一直在构建 PicList，因为我发现大多数图像上传器都是“单向街道”。它们非常适合将图像传输到服务器上，但如果您需要稍后管理该图像或处理复杂的工作流程，那就很糟糕了。它有何不同：双向管理：与仅上传的工具不同，PicList 有一个“管理”选项卡，您可以在 S3、WebDAV、SFTP 等上浏览、重命名、删除和创建文件夹/存储桶。深度集成：它支持 Obsidian、Typora，并可通过 REST 使用API。内置处理：它可以在图像到达云端之前自动压缩、添加水印或将图像转换为 WebP/AVIF。可扩展性：我们有一个插件系统，几乎涵盖所有利基存储提供商或后处理步骤。存储库：https://github.com/kuingsmile/piclist
-网址：https://piclist.cn/en/
-我会随时回答任何问题！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46486304
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/Kuingsmile/PicList</guid>
-      <pubDate>Sun, 04 Jan 2026 09:07:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>超越 Benchmaxxing：为什么人工智能的未来是推理时间搜索</title>
-      <link>https://adlrocha.substack.com/p/adlrocha-beyond-benchmaxxing-why</link>
-      <description><![CDATA[文章网址：https://adlrocha.substack.com/p/adlrocha-beyond-benchmaxxing-why
-评论网址：https://news.ycombinator.com/item?id=46486290
+      <title>欢迎来到维基功能</title>
+      <link>https://www.wikifunctions.org/wiki/Wikifunctions:Main_Page</link>
+      <description><![CDATA[文章网址：https://www.wikifunctions.org/wiki/Wikifunctions:Main_Page
+评论网址：https://news.ycombinator.com/item?id=46487322
 积分：2
 # 条评论：0]]></description>
-      <guid>https://adlrocha.substack.com/p/adlrocha-beyond-benchmaxxing-why</guid>
-      <pubDate>Sun, 04 Jan 2026 09:04:23 GMT</pubDate>
+      <guid>https://www.wikifunctions.org/wiki/Wikifunctions:Main_Page</guid>
+      <pubDate>Sun, 04 Jan 2026 12:29:02 GMT</pubDate>
     </item>
     <item>
-      <title>埃隆·马斯克的擎天柱机器人项目</title>
-      <link>https://www.wsj.com/tech/elon-musk-optimus-robots-7196d53e</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/tech/elon-musk-optimus-robots-7196d53e
-评论网址：https://news.ycombinator.com/item?id=46486286
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.wsj.com/tech/elon-musk-optimus-robots-7196d53e</guid>
-      <pubDate>Sun, 04 Jan 2026 09:03:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>我不使用技术债务这个词，你也不应该使用</title>
-      <link>https://charemza.name/blog/posts/software/communication/I-dont-use-the-term-technical-debt-and-neither-should-you/</link>
-      <description><![CDATA[文章网址：https://charemza.name/blog/posts/software/communication/I-dont-use-the-term-technical-debt-and-neither-should-you/
-评论网址：https://news.ycombinator.com/item?id=46486280
+      <title>关于表达问题和字体设计的笔记（2018）</title>
+      <link>https://www.tedinski.com/2018/03/06/more-on-the-expression-problem.html</link>
+      <description><![CDATA[文章网址：https://www.tedinski.com/2018/03/06/more-on-the-expression-problem.html
+评论网址：https://news.ycombinator.com/item?id=46487319
 积分：1
 # 条评论：0]]></description>
-      <guid>https://charemza.name/blog/posts/software/communication/I-dont-use-the-term-technical-debt-and-neither-should-you/</guid>
-      <pubDate>Sun, 04 Jan 2026 09:02:37 GMT</pubDate>
+      <guid>https://www.tedinski.com/2018/03/06/more-on-the-expression-problem.html</guid>
+      <pubDate>Sun, 04 Jan 2026 12:28:21 GMT</pubDate>
     </item>
     <item>
-      <title>CapyDraw 应用程序 – 轻松将任何想法变成艺术品</title>
-      <link>https://apps.apple.com/us/app/capydraw/id6745793095</link>
-      <description><![CDATA[文章网址：https://apps.apple.com/us/app/capydraw/id6745793095
-评论网址：https://news.ycombinator.com/item?id=46486274
+      <title>谁拥有内存？第 1 部分：什么是对象？</title>
+      <link>https://lukefleed.xyz/posts/who-owns-the-memory-pt1/</link>
+      <description><![CDATA[文章网址：https://lukefleed.xyz/posts/who-owns-the-memory-pt1/
+评论网址：https://news.ycombinator.com/item?id=46487283
 积分：1
-# 条评论：1]]></description>
-      <guid>https://apps.apple.com/us/app/capydraw/id6745793095</guid>
-      <pubDate>Sun, 04 Jan 2026 09:02:06 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://lukefleed.xyz/posts/who-owns-the-memory-pt1/</guid>
+      <pubDate>Sun, 04 Jan 2026 12:21:04 GMT</pubDate>
     </item>
     <item>
-      <title>Odoo 首席执行官 Fabien Pinckaers 访谈[视频]</title>
-      <link>https://www.youtube.com/watch?v=vgvbRRVreHI</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=vgvbRRVreHI
-评论网址：https://news.ycombinator.com/item?id=46486269
-积分：2
+      <title>写给年轻人的新年信</title>
+      <link>https://www.siliconcontinent.com/p/a-new-years-letter-to-a-young-person</link>
+      <description><![CDATA[文章网址：https://www.siliconContinental.com/p/a-new-years-letter-to-a-young-person
+评论网址：https://news.ycombinator.com/item?id=46487276
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=vgvbRRVreHI</guid>
-      <pubDate>Sun, 04 Jan 2026 09:00:16 GMT</pubDate>
+      <guid>https://www.siliconcontinent.com/p/a-new-years-letter-to-a-young-person</guid>
+      <pubDate>Sun, 04 Jan 2026 12:20:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>D3D11 (2013) 中快速简单的 GPU 随机数</title>
+      <link>https://www.reedbeta.com/blog/quick-and-easy-gpu-random-numbers-in-d3d11/</link>
+      <description><![CDATA[文章网址：https://www.reedbeta.com/blog/quick-and-easy-gpu-random-numbers-in-d3d11/
+评论网址：https://news.ycombinator.com/item?id=46487241
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.reedbeta.com/blog/quick-and-easy-gpu-random-numbers-in-d3d11/</guid>
+      <pubDate>Sun, 04 Jan 2026 12:13:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>3D打印折纸</title>
+      <link>https://www.youtube.com/watch?v=FNVBK7-h9Fs</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=FNVBK7-h9Fs
+评论网址：https://news.ycombinator.com/item?id=46487238
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=FNVBK7-h9Fs</guid>
+      <pubDate>Sun, 04 Jan 2026 12:13:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>现实世界中的幽灵：从云端泄露您的私人数据</title>
+      <link>https://www.youtube.com/watch?v=_fPanvQcwe4</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=_fPanvQcwe4
+评论网址：https://news.ycombinator.com/item?id=46487226
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=_fPanvQcwe4</guid>
+      <pubDate>Sun, 04 Jan 2026 12:11:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>成名的代价？著名歌手的死亡风险</title>
+      <link>https://jech.bmj.com/content/early/2025/11/30/jech-2025-224589</link>
+      <description><![CDATA[文章网址：https://jech.bmj.com/content/early/2025/11/30/jech-2025-224589
+评论网址：https://news.ycombinator.com/item?id=46487224
+积分：1
+# 条评论：0]]></description>
+      <guid>https://jech.bmj.com/content/early/2025/11/30/jech-2025-224589</guid>
+      <pubDate>Sun, 04 Jan 2026 12:11:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>石油美元的终结[视频]</title>
+      <link>https://www.youtube.com/watch?v=ZMnLnRkcikw</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=ZMnLnRkcikw
+评论网址：https://news.ycombinator.com/item?id=46487177
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=ZMnLnRkcikw</guid>
+      <pubDate>Sun, 04 Jan 2026 12:03:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
