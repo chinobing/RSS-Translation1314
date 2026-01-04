@@ -4,13 +4,56 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 04 Jan 2026 04:11:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 06:32:29 GMT</lastBuildDate>
+    <item>
+      <title>和 Jax 一起学习玩 Tic-Tac-Toe</title>
+      <link>https://joe-antognini.github.io/ml/jax-tic-tac-toe</link>
+      <description><![CDATA[文章网址：https://joe-antognini.github.io/ml/jax-tic-tac-toe
+评论网址：https://news.ycombinator.com/item?id=46485130
+积分：6
+# 条评论：0]]></description>
+      <guid>https://joe-antognini.github.io/ml/jax-tic-tac-toe</guid>
+      <pubDate>Sun, 04 Jan 2026 05:09:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Corundum – 基于 FPGA 的开源 NIC 和网络内计算平台</title>
+      <link>https://github.com/corundum/corundum</link>
+      <description><![CDATA[文章网址：https://github.com/corundum/corundum
+评论网址：https://news.ycombinator.com/item?id=46485101
+积分：5
+# 条评论：0]]></description>
+      <guid>https://github.com/corundum/corundum</guid>
+      <pubDate>Sun, 04 Jan 2026 05:04:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>神经网络：从零到英雄</title>
+      <link>https://karpathy.ai/zero-to-hero.html</link>
+      <description><![CDATA[文章网址：https://karpathy.ai/zero-to-hero.html
+评论网址：https://news.ycombinator.com/item?id=46485090
+积分：48
+# 条评论：2]]></description>
+      <guid>https://karpathy.ai/zero-to-hero.html</guid>
+      <pubDate>Sun, 04 Jan 2026 05:02:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Krowdovi – DePIN 创作者经济中基于视频的室内导航</title>
+      <link>https://github.com/daftpixie/krowdovi</link>
+      <description><![CDATA[这是什么？Krowdovi 是一个开源平台，任何拥有智能手机的人都可以录制室内空间（医院、机场、商场、大学）的第一人称导航视频，并通过帮助他人找到路来赚取代币。它是在 Solana 上使用即刻铸造的 DePIN 模型构建的。该项目解决了两个问题：室内导航仍然存在问题。 30% 的首次到医院就诊的患者会迷路或迟到，导致大型医院每年损失员工 20 万至 50 万美元的时间。 Google Live View 等现有解决方案需要预先捕获的街景数据（室内几乎不存在），而企业工具每个场地每年收费 1 万至 5 万美元。摄像师正在因生成式人工智能而失去工作。像 Sora 这样的工具可以生成合成视频，但它们无法遍历医院的实际布局或拍摄场地的真实路线。对于创作者来说，拥有人工智能无法复制的基于位置的视觉内容是一个经济机会。工作原理对于用户：在场馆入口处扫描二维码，观看显示从您所在位置到目的地的路线的第一人称视频，并提供叠加图形和多语言支持。对于创作者：在手机上录制导航视频，上传到平台，根据质量和观看次数获得声誉等级（铜牌 → 钻石牌），当用户燃烧 $FIND 时获得报酬代币来解锁您的路线。代币机制：用户燃烧 $FIND 代币来铸造解锁视频的“积分”。 75% 的销毁代币将永久退出流通，25% 进入奖励创建者的再铸池。 Solana 上的智能合约处理销毁和铸币逻辑、声誉跟踪和分发。一切都经过 MIT 许可 - 分叉它，代码就是你的。我为什么构建这个我非常关心让所有人都能访问这个世界。如果这个被分叉，有人会出色地执行，让世界成为一个对于有视觉或行动障碍的人来说更容易接近的地方 - 太好了！技术堆栈智能合约：Solana 上的 Rust/Anchor（销毁和铸币引擎、声誉等级、财务管理）
+后端：Node.js/Express + Prisma/PostgreSQL（场地元数据、视频上传、JWT 身份验证）前端：Next.js 14（Creator Studio、覆盖工具、通过 @solana/wallet-adapter-react 进行钱包集成）设计为可在 Railway/Vercel 上托管，并以最少的开发运维。 
+智能合约位于 devnet 上 - 需要在主网之前进行安全审核，但您现在可以测试代币燃烧/铸币。当前限制有效的方法：部署在 devnet 上的智能合约、准备部署的全栈应用程序、视频上传工作流程、钱包身份验证。无效的方法：尚无真实内容（我需要拍摄 10-20 个场地）、没有主网代币启动（等待安全审核 + 需求验证）、手动质量验证、无移动应用程序（仅限网络）。后续步骤：对反游戏、节制、ZK 证明进行深刻的反思亲自尝试一下！GitHub 存储库有设置说明。您需要 Solana CLI、Node.js + pnpm 和 Solana 钱包来进行 devnet 测试。有兴趣分叉不同的垂直领域、贡献代码、通过拍摄路线进行测试或讨论代币经济学吗？我会在评论中讨论。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46484882
+积分：4
+# 条评论：2]]></description>
+      <guid>https://github.com/daftpixie/krowdovi</guid>
+      <pubDate>Sun, 04 Jan 2026 04:23:13 GMT</pubDate>
+    </item>
     <item>
       <title>托马斯·曼如何写下《魔山》</title>
       <link>https://www.theguardian.com/books/2025/dec/31/the-master-of-contradictions-by-morten-hi-jensen-review-how-thomas-mann-wrote-the-magic-mountain</link>
       <description><![CDATA[文章网址： https://www.theguardian.com/books/2025/dec/31/the-master-of-contradictions-by-morten-hi-jensen-review-how-thomas-mann-wrote-the-magic-mountain
 评论网址：https://news.ycombinator.com/item?id=46484104
-积分：12
+积分：34
 # 条评论：0]]></description>
       <guid>https://www.theguardian.com/books/2025/dec/31/the-master-of-contradictions-by-morten-hi-jensen-review-how-thomas-mann-wrote-the-magic-mountain</guid>
       <pubDate>Sun, 04 Jan 2026 02:13:23 GMT</pubDate>
@@ -20,8 +63,8 @@
       <link>https://uni.tlaan.nl/thesis/msc_thesis_tristan_laan_aieblas.pdf</link>
       <description><![CDATA[文章网址：https://uni.tlaan.nl/thesis/msc_thesis_tristan_laan_aieblas.pdf
 评论网址：https://news.ycombinator.com/item?id=46483811
-积分：14
-# 条评论：4]]></description>
+积分：27
+# 条评论：7]]></description>
       <guid>https://uni.tlaan.nl/thesis/msc_thesis_tristan_laan_aieblas.pdf</guid>
       <pubDate>Sun, 04 Jan 2026 01:26:39 GMT</pubDate>
     </item>
@@ -30,8 +73,8 @@
       <link>https://github.com/obround/mytorch</link>
       <description><![CDATA[文章网址：https://github.com/obround/mytorch
 评论网址：https://news.ycombinator.com/item?id=46483776
-积分：37
-# 条评论：2]]></description>
+积分：56
+# 条评论：7]]></description>
       <guid>https://github.com/obround/mytorch</guid>
       <pubDate>Sun, 04 Jan 2026 01:21:56 GMT</pubDate>
     </item>
@@ -40,28 +83,18 @@
       <link>https://www.bbc.com/culture/article/20210209-the-worlds-most-misunderstood-novel</link>
       <description><![CDATA[文章网址：https://www.bbc.com/culture/article/20210209-the-worlds-most-misunderstood-novel
 评论网址：https://news.ycombinator.com/item?id=46483729
-积分：37
-# 条评论：18]]></description>
+积分：43
+# 条评论：51]]></description>
       <guid>https://www.bbc.com/culture/article/20210209-the-worlds-most-misunderstood-novel</guid>
       <pubDate>Sun, 04 Jan 2026 01:15:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>SQLNet 一个类似于 Twitter 的社交网络，但你可以编写 SQL 来执行任何操作</title>
-      <link>https://sqlnet.cc</link>
-      <description><![CDATA[文章网址：https://sqlnet.cc
-评论网址：https://news.ycombinator.com/item?id=46483657
-积分：20
-# 条评论：2]]></description>
-      <guid>https://sqlnet.cc</guid>
-      <pubDate>Sun, 04 Jan 2026 01:02:46 GMT</pubDate>
     </item>
     <item>
       <title>腐蚀：非法生锈</title>
       <link>https://github.com/buyukakyuz/corroded</link>
       <description><![CDATA[文章网址：https://github.com/buyukakyuz/corroded
 评论网址：https://news.ycombinator.com/item?id=46483531
-积分：23
-# 条评论：4]]></description>
+积分：55
+# 条评论：12]]></description>
       <guid>https://github.com/buyukakyuz/corroded</guid>
       <pubDate>Sun, 04 Jan 2026 00:45:54 GMT</pubDate>
     </item>
@@ -70,40 +103,10 @@
       <link>https://rabbitictranslator.com/kde-onboarding/</link>
       <description><![CDATA[文章网址：https://rabbitictranslator.com/kde-onboarding/
 评论网址：https://news.ycombinator.com/item?id=46483432
-积分：30
-# 条评论：3]]></description>
+积分：67
+# 条评论：28]]></description>
       <guid>https://rabbitictranslator.com/kde-onboarding/</guid>
       <pubDate>Sun, 04 Jan 2026 00:31:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>最坏情况最优连接：图连接对应</title>
-      <link>https://finnvolkel.com/wcoj-graph-join-correspondence</link>
-      <description><![CDATA[文章网址：https://finnvolkel.com/wcoj-graph-join-correspondence
-评论网址：https://news.ycombinator.com/item?id=46483299
-积分：12
-# 条评论：1]]></description>
-      <guid>https://finnvolkel.com/wcoj-graph-join-correspondence</guid>
-      <pubDate>Sun, 04 Jan 2026 00:15:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Android 上的 Swift：现在可以进行完整的本机应用程序开发</title>
-      <link>https://docs.swifdroid.com/app/</link>
-      <description><![CDATA[文章网址：https://docs.swifdroid.com/app/
-评论网址：https://news.ycombinator.com/item?id=46483023
-积分：125
-# 条评论：72]]></description>
-      <guid>https://docs.swifdroid.com/app/</guid>
-      <pubDate>Sat, 03 Jan 2026 23:39:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>糟糕的是我们在这里</title>
-      <link>https://nik.art/the-suck-is-why-were-here/</link>
-      <description><![CDATA[文章网址：https://nik.art/the-suck-is-why-were-here/
-评论网址：https://news.ycombinator.com/item?id=46482877
-积分：140
-# 条评论：51]]></description>
-      <guid>https://nik.art/the-suck-is-why-were-here/</guid>
-      <pubDate>Sat, 03 Jan 2026 23:24:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
