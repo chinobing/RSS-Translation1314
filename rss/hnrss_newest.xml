@@ -4,137 +4,114 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 05 Jan 2026 15:25:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 18:33:35 GMT</lastBuildDate>
     <item>
-      <title>Show HN：工程师从 IC 过渡到管理的模拟器</title>
-      <link>https://apmcommunication.com/scenario/backchannel-vp</link>
-      <description><![CDATA[嗨，HN，我是一名前 C++ 开发人员，后来成为产品经理。我注意到许多工程师在成为领导者后，都在与事情的“政治”方面作斗争。为了帮助解决这个问题，我正在构建一个基于文本的模拟器。它不是人工智能聊天机器人。这是一个基于真实经验的手工制作的分支叙述（逻辑树）。我刚刚启动了第一个场景：“反向渠道副总裁”。设置：您的工程副总裁绕过您，直接向您的下属分配任务，造成混乱。您的目标：停止反向渠道而不被解雇。这是一个简短而具体的谜题。我很想知道您是否认为我设计的“正确”路径符合您的现实世界经验，或者我是否有错。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46499694
-积分：1
-# 条评论：0]]></description>
-      <guid>https://apmcommunication.com/scenario/backchannel-vp</guid>
-      <pubDate>Mon, 05 Jan 2026 15:13:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：BuzzBear – 通过语义搜索监控 Reddit（云 GPU 成本为 0 美元/月）</title>
-      <link>https://news.ycombinator.com/item?id=46499693</link>
-      <description><![CDATA[BuzzBear 监控 Reddit，并在人们发布有关您关心的主题时向您发出提醒。它使用语义匹配，因此您可以用简单的英语描述您要查找的内容，即使人们使用完全不同的单词，它也能找到相关帖子。示例：搜索“CI/CD 工具”并捕获诸如“我们的部署过程是一场噩梦”之类的帖子https://buzzbear.ai（提供免费套餐）---
-我如何避免云 GPU 成本：我需要 ML 推理来实现文本相似性。对于大部分时间闲置的实例，云 GPU 定价为 700-1000 美元/月。 “缩放到零”听起来很棒，直到您想要慷慨的免费套餐。我的解决方案：我已经拥有的 RTX 3080。堆栈（Elixir/Phoenix + Bumblebee）：
-  - Fly.io 上的 Phoenix 应用程序 - 我的家庭服务器上的 Bumblebee ML 节点 (RTX 3080)
-
-  - Tailscale + libcluster 连接它们
-
-从代码的角度来看，它们是一个 Erlang 集群。我可以像本地函数一样调用 ML 服务。 Tailscale 传输流量，libcluster 处理发现。容量：约 1M 比较/小时。我目前需要其中的一小部分。扩展：如果我需要更多，我会启动云 GPU 节点，将它们连接到我的 Tailscale 网络，然后 libcluster 自动发现它们。零代码更改。很高兴回答与此相关的任何问题！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46499693
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46499693</guid>
-      <pubDate>Mon, 05 Jan 2026 15:13:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么网络防御需要神经系统——而不仅仅是防火墙</title>
-      <link>https://negativespacelabs.com/blog</link>
-      <description><![CDATA[文章网址：https://Negativespacelabs.com/blog
-评论网址：https://news.ycombinator.com/item?id=46499681
-积分：1
-# 条评论：0]]></description>
-      <guid>https://negativespacelabs.com/blog</guid>
-      <pubDate>Mon, 05 Jan 2026 15:13:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：编辑任何内容：人工智能驱动的 PDF 编辑功能可删除文本</title>
-      <link>https://redactanything.com</link>
-      <description><![CDATA[我构建了一个工具来编辑 PDF 中的敏感信息：https://redactanything.com 问题：大多数“编辑”工具只是在文本上绘制黑框。文本仍然在 PDF 中，可以使用基本工具恢复。 Adobe 的实际编辑工作是有效的，但它是手动的且缓慢。
-
-  这是做什么的：
-  - 上传 PDF（保留在您的浏览器中，永远不会访问服务器）
-  - AI 检测 PII：姓名、SSN、电子邮件、电话号码、地址、日期等。
-  - 您查看发现的内容并批准/拒绝
-  - 下载 PDF，其中文本已从内容流中永久删除
-
-  技术细节：
-  - 前端：React + PDF.js 用于渲染 + pdf-lib 用于操作
-  - NER 模型：在服务器端运行的 Hugging Face Transformers (Xenova/bert-base-NER)
-  - 扫描文档的 OCR
-  - 实际的修订从 PDF 内容流中删除文本运算符，而不仅仅是覆盖
-
-  我建立这个是因为我需要编辑医疗记录和法律文件。企业工具的价格为数千美元，Adobe 为 20 美元/月，手动、免费工具也很粗略。作为中间立场，最终确定为 2.99 美元/doc。
-
-  我知道的限制：
-  - 人工智能检测并不完美（这就是为什么有一个审查步骤）
-  - 不处理所有 PDF 边缘情况（加密、格式错误等）
-  - 非西方格式的名称需要改进
-
-  感谢您对检测精度和发现的任何边缘情况提供反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46499676
-积分：1
-# 条评论：0]]></description>
-      <guid>https://redactanything.com</guid>
-      <pubDate>Mon, 05 Jan 2026 15:12:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>我编程时没有语法突出显示</title>
-      <link>https://hakon.gylterud.net/opinion/syntax-highlighting.html</link>
-      <description><![CDATA[文章网址：https://hakon.gylterud.net/opinion/syntax-highlighting.html
-评论网址：https://news.ycombinator.com/item?id=46499674
-积分：1
-# 条评论：0]]></description>
-      <guid>https://hakon.gylterud.net/opinion/syntax-highlighting.html</guid>
-      <pubDate>Mon, 05 Jan 2026 15:12:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>桑巴舞是如何编写的 (2003)</title>
-      <link>https://download.samba.org/pub/tridge/misc/french_cafe.txt</link>
-      <description><![CDATA[文章网址：https://download.samba.org/pub/tridge/misc/french_cafe.txt
-评论网址：https://news.ycombinator.com/item?id=46499670
-积分：1
-# 条评论：0]]></description>
-      <guid>https://download.samba.org/pub/tridge/misc/french_cafe.txt</guid>
-      <pubDate>Mon, 05 Jan 2026 15:12:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>印度给马斯克 72 小时的时间，因为 X 充斥着使用 Grok 生成的淫秽图像</title>
-      <link>https://restofworld.org/2026/musk-grok-bikini-trend/</link>
-      <description><![CDATA[文章网址：https://restofworld.org/2026/musk-grok-bikini-trend/
-评论网址：https://news.ycombinator.com/item?id=46499649
-积分：1
-# 条评论：0]]></description>
-      <guid>https://restofworld.org/2026/musk-grok-bikini-trend/</guid>
-      <pubDate>Mon, 05 Jan 2026 15:11:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN: DoNotNotify – 在 Android 上记录并智能阻止通知</title>
-      <link>https://donotnotify.com/</link>
-      <description><![CDATA[为什么 - 我厌倦了 Android 手机上滥用通知的应用程序。虽然操作系统确实使您能够根据渠道关闭通知，但大多数应用程序要么不使用它，要么故意滥用它。就我而言，我生活在一个封闭的社会中，该社会使用名为 MyGate 的应用程序来允许访问者，并且该应用程序有意通过相同的渠道推送广告，因为您无法阻止它们。什么 - DoNotNotify 是一款记录所有传入通知的应用程序，并按应用程序分组显示它们。它还捕获通知背后的操作，该操作可以从应用程序本身触发。从此日志中，您可以根据应用程序的通知内容创建规则，将来自应用程序的通知列入白名单/黑名单。这些过滤器甚至可以是正则表达式，这允许更复杂的用例。该应用程序附带了一些针对 Facebook、Amazon、Instagram、Netflix、TikTok、Reddit 等热门应用程序的预定义规则。地点 - 网站位于 https://donotnotify.com/。还想指出的是，该应用程序完全在您的设备上运行，从不与互联网上的任何内容进行通信，并且只需要通知访问权即可工作。它完全免费，没有广告或隐藏的陷阱。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46499646
-积分：1
-# 条评论：0]]></description>
-      <guid>https://donotnotify.com/</guid>
-      <pubDate>Mon, 05 Jan 2026 15:10:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌前埃里克·施密特加入人工智能竞赛，与失败的德克萨斯铁路公司转型为石油巨头</title>
-      <link>https://fortune.com/2026/01/02/eric-schmidt-ai-data-centers-bolt-texas-pacific-land-tpl/</link>
-      <description><![CDATA[文章网址：https://fortune.com/2026/01/02/eric-schmidt-ai-data-centers-bolt-texas-pacific-land-tpl/
-评论网址：https://news.ycombinator.com/item?id=46499641
+      <title>我建立了一个自主营销指挥中心，而不是进一步扩大规模</title>
+      <link>https://flippa.com/12205760-vect-ai-is-an-autonomous-marketing-command-center-where-ai-agents-plan-campaigns-create-visuals-and-run-10-growth-tools-from-one-unified-system</link>
+      <description><![CDATA[文章网址： https://flippa.com/12205760-vect-ai-is-an-autonomous-marketing-command-center-where-ai-agents-plan-campaigns-create-visuals-and-run-10-growth-tools-from-one-unified-system
+评论网址：https://news.ycombinator.com/item?id=46502612
 积分：1
 # 条评论：1]]></description>
-      <guid>https://fortune.com/2026/01/02/eric-schmidt-ai-data-centers-bolt-texas-pacific-land-tpl/</guid>
-      <pubDate>Mon, 05 Jan 2026 15:10:12 GMT</pubDate>
+      <guid>https://flippa.com/12205760-vect-ai-is-an-autonomous-marketing-command-center-where-ai-agents-plan-campaigns-create-visuals-and-run-10-growth-tools-from-one-unified-system</guid>
+      <pubDate>Mon, 05 Jan 2026 18:26:03 GMT</pubDate>
     </item>
     <item>
-      <title>为什么 Lobste.rs 比 Hacker News 更好</title>
-      <link>https://kevquirk.com/blog/why-lobste-rs-is-better-than-hacker-news/</link>
-      <description><![CDATA[文章网址：https://kevquirk.com/blog/why-lobste-rs-is-better-than-hacker-news/
-评论网址：https://news.ycombinator.com/item?id=46499633
+      <title>你知道overflow:clip吗？</title>
+      <link>https://kilianvalkhof.com/2022/css-html/do-you-know-about-overflow-clip/</link>
+      <description><![CDATA[文章网址：https://kilianvalkhof.com/2022/css-html/do-you-know-about-overflow-clip/
+评论网址：https://news.ycombinator.com/item?id=46502602
+积分：1
+# 条评论：0]]></description>
+      <guid>https://kilianvalkhof.com/2022/css-html/do-you-know-about-overflow-clip/</guid>
+      <pubDate>Mon, 05 Jan 2026 18:25:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>量子技术的同步辐射</title>
+      <link>https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202501043</link>
+      <description><![CDATA[文章网址：https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202501043
+评论网址：https://news.ycombinator.com/item?id=46502589
+积分：1
+# 条评论：0]]></description>
+      <guid>https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202501043</guid>
+      <pubDate>Mon, 05 Jan 2026 18:24:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>特朗普贸易战时间表2.0：最新指南</title>
+      <link>https://www.piie.com/blogs/realtime-economics/2025/trumps-trade-war-timeline-20-date-guide</link>
+      <description><![CDATA[文章网址：https://www.piie.com/blogs/realtime-economics/2025/trumps-trade-war-timeline-20-date-guide
+评论网址：https://news.ycombinator.com/item?id=46502554
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.piie.com/blogs/realtime-economics/2025/trumps-trade-war-timeline-20-date-guide</guid>
+      <pubDate>Mon, 05 Jan 2026 18:21:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>《谋杀机器人》评论：这部科幻剧是 2025 年最佳新喜剧</title>
+      <link>https://www.npr.org/2025/05/16/nx-s1-5393659/murderbot-review-apple-tv</link>
+      <description><![CDATA[文章网址：https://www.npr.org/2025/05/16/nx-s1-5393659/murderbot-review-apple-tv
+评论网址：https://news.ycombinator.com/item?id=46502545
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.npr.org/2025/05/16/nx-s1-5393659/murderbot-review-apple-tv</guid>
+      <pubDate>Mon, 05 Jan 2026 18:20:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能。将以许多人没有意识到的规模取代工人</title>
+      <link>https://www.nytimes.com/2025/12/27/opinion/artificial-intelligence-jobs-worker-training.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2025/12/27/opinion/artificial-intelligence-jobs-worker-training.html
+评论网址：https://news.ycombinator.com/item?id=46502539
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nytimes.com/2025/12/27/opinion/artificial-intelligence-jobs-worker-training.html</guid>
+      <pubDate>Mon, 05 Jan 2026 18:20:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>团队</title>
+      <link>https://quarter--mile.com/i-team</link>
+      <description><![CDATA[文章网址：https://quarter--mile.com/i-team
+评论网址：https://news.ycombinator.com/item?id=46502536
+积分：1
+# 条评论：0]]></description>
+      <guid>https://quarter--mile.com/i-team</guid>
+      <pubDate>Mon, 05 Jan 2026 18:20:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: Xprv (expressive) – 类似于 tRPC 的express框架</title>
+      <link>https://github.com/ch0c0l8ra1n/xprv</link>
+      <description><![CDATA[我想要一个类似 trpc 的框架，位于 Express 之上，所以我构建了一个。功能包括：
+1）类似DX的tRPC
+2）openapi模式生成
+3) 服务器仅通过线路返回有效的 json，因此您可以准确地知道在客户端上得到的内容。即服务器不会让您使用 Date 对象进行响应。在此之前，您需要将其转换为字符串/数字
+4）（几乎）一切都定义良好。当您创建 xprv 应用程序时，您可以告诉它如何处理内部服务器错误或 404 等错误，它会推断响应的类型
+5) 如果出现问题，您还可以完全访问底层 Express 对象。这并不是说该项目是完美的。有一些缺点：
+1）目前仅处理json。其他文件类型（例如图像，甚至文本）实际上不受支持。
+2）错误有时可能会有点令人困惑。通过线路断言有效 json 使用复杂的实用程序类型，并且其错误尚不清楚。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46502522
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/ch0c0l8ra1n/xprv</guid>
+      <pubDate>Mon, 05 Jan 2026 18:19:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>摩托罗拉、英特尔、IBM 在 PC 中打造大型机 – PC XT/370</title>
+      <link>https://thechipletter.substack.com/p/motorola-intel-ibm-make-a-mainframe</link>
+      <description><![CDATA[文章 URL：https://thechipletter.substack.com/p/motorola-intel-ibm-make-a-mainframe
+评论网址：https://news.ycombinator.com/item?id=46502506
 积分：3
-# 条评论：2]]></description>
-      <guid>https://kevquirk.com/blog/why-lobste-rs-is-better-than-hacker-news/</guid>
-      <pubDate>Mon, 05 Jan 2026 15:08:41 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://thechipletter.substack.com/p/motorola-intel-ibm-make-a-mainframe</guid>
+      <pubDate>Mon, 05 Jan 2026 18:18:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ofcom 向 X 询问其 Grok AI 制作儿童色情图片的报道</title>
+      <link>https://www.bbc.co.uk/news/articles/c5y5w0k99r1o</link>
+      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/c5y5w0k99r1o
+评论网址：https://news.ycombinator.com/item?id=46502484
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.bbc.co.uk/news/articles/c5y5w0k99r1o</guid>
+      <pubDate>Mon, 05 Jan 2026 18:16:21 GMT</pubDate>
     </item>
     </channel>
 </rss>

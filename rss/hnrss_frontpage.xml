@@ -4,106 +4,124 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 05 Jan 2026 15:24:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 18:33:23 GMT</lastBuildDate>
     <item>
-      <title>GOG 赞助人 - 与游戏玩家一起让经典永存</title>
-      <link>https://www.gog.com/en/patrons</link>
-      <description><![CDATA[文章网址：https://www.gog.com/en/patrons
-评论网址：https://news.ycombinator.com/item?id=46498775
-积分：45
-# 条评论：19]]></description>
-      <guid>https://www.gog.com/en/patrons</guid>
-      <pubDate>Mon, 05 Jan 2026 13:57:08 GMT</pubDate>
+      <title>Show HN：开源 8 通道 BCI 板（ESP32 和 ADS1299 以及 OpenBCI GUI）</title>
+      <link>https://github.com/Cerelog-ESP-EEG/ESP-EEG</link>
+      <description><![CDATA[您好，HN，我最近在 r/BCI 上分享了此内容，并想了解这里的工程社区的想法。不久前，我对可访问的 BCI 硬件的状态感到沮丧。研究设备非常昂贵。因此，我花了大量时间设计定制板、软件和固件来弥补这一差距。我称之为 Cerelog ESP-EEG。它是开源的（固件 + 原理图），我专门设计它来解决大多数 DIY 硬件中发现的信号完整性问题。我相信共享工作。您可以在 GitHub 存储库上找到原理图、固件和软件设置：
+GITHUB 链接：https://github.com/Cerelog-ESP-EEG/ESP-EEG对于那些不想处理 BGA 焊接或采购组件的人，我确实提供了组装单元：https://www.cerelog.com/eeg_researchers.html主要功能：分叉/修改的 OpenBCI GUI 兼容性以及 Brainflow API 和 LSL 兼容性。我知道我们很多人都依赖 OpenBCI GUI 进行可视化，因为它确实有效。我不想重新发明轮子，所以我确保这个板本身支持它。它开箱即用：我维护一个 GUI 的分支修改版本，它通过 LSL（实验室流层）连接到板。需要零编码：您可以立即可视化 FFT、频谱图和 EMG 小部件，而无需编写一行 Python。“主动偏差”（为什么我的信号更干净）：TI ADS1299 是 EEG 的黄金标准，但许多开发板错误地实现了它。它们经常将偏置反馈环路保持为“开放”（无源），这使得它们在抑制 60Hz 电源嗡嗡声方面表现不佳。我只是按照数据表进行操作：我实现了真正的闭环有源偏置（驱动右腿）。它的工作原理：它测量共模信号，将其反转，并主动将其驱动回体内。结果：更清晰的数据技术堆栈： ADC：TI ADS1299（24 位，8 通道）。
+
+  MCU：选择 ESP32 来处理高速 SPI 和 WiFi/USB 流
+
+  软件：为想要构建自定义 ML 管道的用户提供 BrainFlow 支持（Python、C++、Java、C#）、LSL 支持以及 OpenBCI GUI 支持的分叉版本
+
+这对我来说是一个巨大的项目。我很高兴能够让 ESP32 以高采样率可靠地进行流传输，因为事实证明该项目的软件和固件比我预期的更具挑战性。让我知道您的想法！安全注意事项：
+我强烈建议通过 WiFi 使用锂电池运行它。如果您必须使用 USB，请使用使用电池供电的笔记本电脑，而不是插入墙上的电源。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46502051
+积分：9
+# 条评论：4]]></description>
+      <guid>https://github.com/Cerelog-ESP-EEG/ESP-EEG</guid>
+      <pubDate>Mon, 05 Jan 2026 17:46:51 GMT</pubDate>
     </item>
     <item>
-      <title>我从 VSCode 切换到 Zed</title>
-      <link>https://tenthousandmeters.com/blog/i-switched-from-vscode-to-zed/</link>
-      <description><![CDATA[文章网址：https://tenthousandmeters.com/blog/i-switched-from-vscode-to-zed/
-评论网址：https://news.ycombinator.com/item?id=46498735
-积分：68
-# 条评论：51]]></description>
-      <guid>https://tenthousandmeters.com/blog/i-switched-from-vscode-to-zed/</guid>
-      <pubDate>Mon, 05 Jan 2026 13:52:17 GMT</pubDate>
+      <title>校准我的乌龟</title>
+      <link>https://clabs.org/blog/CalibratingMyTurtle</link>
+      <description><![CDATA[文章网址：https://clabs.org/blog/CalibrationMyTurtle
+评论网址：https://news.ycombinator.com/item?id=46501987
+积分：6
+# 条评论：1]]></description>
+      <guid>https://clabs.org/blog/CalibratingMyTurtle</guid>
+      <pubDate>Mon, 05 Jan 2026 17:41:17 GMT</pubDate>
     </item>
     <item>
-      <title>詹森：离岸外包“给我们的国家带来了极大的伤害”</title>
-      <link>https://www.barchart.com/story/news/36862423/weve-done-our-country-a-great-disservice-by-offshoring-nvidias-jensen-huang-says-we-have-to-create-prosperity-for-all-not-just-phds</link>
-      <description><![CDATA[文章网址： https://www.barchart.com/story/news/36862423/weve-done-our-country-a-great-disservice-by-offshoring-nvidias-jensen-huang-says-we-have-to-create-prosperity-for-all-not-just-phds
-评论网址：https://news.ycombinator.com/item?id=46498309
-积分：71
-# 条评论：74]]></description>
-      <guid>https://www.barchart.com/story/news/36862423/weve-done-our-country-a-great-disservice-by-offshoring-nvidias-jensen-huang-says-we-have-to-create-prosperity-for-all-not-just-phds</guid>
-      <pubDate>Mon, 05 Jan 2026 13:02:52 GMT</pubDate>
+      <title>一名 Web 开发人员在其客户的网站上发布了一条付款羞辱消息</title>
+      <link>https://joseph-smith.co.uk/</link>
+      <description><![CDATA[文章网址：https://joseph-smith.co.uk/
+评论网址：https://news.ycombinator.com/item?id=46501975
+积分：54
+# 条评论：42]]></description>
+      <guid>https://joseph-smith.co.uk/</guid>
+      <pubDate>Mon, 05 Jan 2026 17:40:19 GMT</pubDate>
     </item>
     <item>
-      <title>很难证明太浩湖图标的合理性</title>
-      <link>https://tonsky.me/blog/tahoe-icons/</link>
-      <description><![CDATA[文章网址：https://tonsky.me/blog/tahoe-icons/
-评论网址：https://news.ycombinator.com/item?id=46497712
-积分：885
-评论数：376]]></description>
-      <guid>https://tonsky.me/blog/tahoe-icons/</guid>
-      <pubDate>Mon, 05 Jan 2026 11:51:42 GMT</pubDate>
+      <title>Y Combinator 如何明智地信任创始人</title>
+      <link>https://elbowgreasegames.substack.com/p/when-good-actors-can-trust-each-other</link>
+      <description><![CDATA[文章网址：https://elbowgreasegames.substack.com/p/when-good-actors-can-trust-each-other
+评论网址：https://news.ycombinator.com/item?id=46501677
+积分：8
+# 条评论：5]]></description>
+      <guid>https://elbowgreasegames.substack.com/p/when-good-actors-can-trust-each-other</guid>
+      <pubDate>Mon, 05 Jan 2026 17:20:01 GMT</pubDate>
     </item>
     <item>
-      <title>使用着色器的香烟烟雾效果</title>
-      <link>https://garden.bradwoods.io/notes/javascript/three-js/shaders/shaders-103-smoke</link>
-      <description><![CDATA[文章网址：https://garden.bradwoods.io/notes/javascript/third-js/shaders/shaders-103-smoke
-评论网址：https://news.ycombinator.com/item?id=46497589
-积分：55
-# 条评论：8]]></description>
-      <guid>https://garden.bradwoods.io/notes/javascript/three-js/shaders/shaders-103-smoke</guid>
-      <pubDate>Mon, 05 Jan 2026 11:32:58 GMT</pubDate>
+      <title>最后支持的 HP-UX 版本已不再存在</title>
+      <link>https://www.theregister.com/2026/01/05/hpux_end_of_life/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2026/01/05/hpux_end_of_life/
+评论网址：https://news.ycombinator.com/item?id=46501667
+积分：9
+# 条评论：0]]></description>
+      <guid>https://www.theregister.com/2026/01/05/hpux_end_of_life/</guid>
+      <pubDate>Mon, 05 Jan 2026 17:19:35 GMT</pubDate>
     </item>
     <item>
-      <title>安娜的档案馆在意外暂停后失去了 .org 域名</title>
-      <link>https://torrentfreak.com/annas-archive-loses-org-domain-after-surprise-suspension/</link>
-      <description><![CDATA[文章网址：https://torrentfreak.com/annas-archive-loses-org-domain-after-surprise-suspension/
-评论网址：https://news.ycombinator.com/item?id=46497164
-积分：339
-# 条评论：135]]></description>
-      <guid>https://torrentfreak.com/annas-archive-loses-org-domain-after-surprise-suspension/</guid>
-      <pubDate>Mon, 05 Jan 2026 10:23:32 GMT</pubDate>
+      <title>Show HN：Tailsnitch – Tailscale 的安全审计员</title>
+      <link>https://github.com/Adversis/tailsnitch</link>
+      <description><![CDATA[文章网址：https://github.com/Adversis/tailsnitch
+评论网址：https://news.ycombinator.com/item?id=46501137
+积分：65
+# 条评论：7]]></description>
+      <guid>https://github.com/Adversis/tailsnitch</guid>
+      <pubDate>Mon, 05 Jan 2026 16:47:23 GMT</pubDate>
     </item>
     <item>
-      <title>装饰密码学</title>
-      <link>https://www.dlp.rip/decorative-cryptography</link>
-      <description><![CDATA[文章网址：https://www.dlp.rip/decorative-cryptography
-评论网址：https://news.ycombinator.com/item?id=46496494
-积分：128
-# 条评论：33]]></description>
-      <guid>https://www.dlp.rip/decorative-cryptography</guid>
-      <pubDate>Mon, 05 Jan 2026 08:29:38 GMT</pubDate>
+      <title>沙箱不受信任的Python</title>
+      <link>https://gist.github.com/mavdol/2c68acb408686f1e038bf89e5705b28c</link>
+      <description><![CDATA[文章网址：https://gist.github.com/mavdol/2c68acb408686f1e038bf89e5705b28c
+评论网址：https://news.ycombinator.com/item?id=46500510
+积分：4
+# 条评论：0]]></description>
+      <guid>https://gist.github.com/mavdol/2c68acb408686f1e038bf89e5705b28c</guid>
+      <pubDate>Mon, 05 Jan 2026 16:11:44 GMT</pubDate>
     </item>
     <item>
-      <title>2025 年数据库：回顾一年</title>
-      <link>https://www.cs.cmu.edu/~pavlo/blog/2026/01/2025-databases-retrospective.html</link>
-      <description><![CDATA[文章网址：https://www.cs.cmu.edu/~pavlo/blog/2026/01/2025-databases-retrospective.html
-评论网址：https://news.ycombinator.com/item?id=46496103
-积分：286
-评论数：89]]></description>
-      <guid>https://www.cs.cmu.edu/~pavlo/blog/2026/01/2025-databases-retrospective.html</guid>
-      <pubDate>Mon, 05 Jan 2026 07:14:30 GMT</pubDate>
+      <title>CSS 很糟糕，因为我们懒得学习它 (2022)</title>
+      <link>https://idiallo.com/blog/learn-css</link>
+      <description><![CDATA[文章网址：https://idiallo.com/blog/learn-css
+评论网址：https://news.ycombinator.com/item?id=46500022
+积分：125
+# 条评论：130]]></description>
+      <guid>https://idiallo.com/blog/learn-css</guid>
+      <pubDate>Mon, 05 Jan 2026 15:37:38 GMT</pubDate>
     </item>
     <item>
-      <title>与以前见过的蜘蛛网不同</title>
-      <link>https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html
-评论网址：https://news.ycombinator.com/item?id=46496054
-积分：163
-# 条评论：77]]></description>
-      <guid>https://www.nytimes.com/2025/11/08/science/biggest-spiderweb-sulfur-cave.html</guid>
-      <pubDate>Mon, 05 Jan 2026 07:06:22 GMT</pubDate>
+      <title>谋杀自杀案显示 OpenAI 在用户死亡后有选择地隐藏数据</title>
+      <link>https://arstechnica.com/tech-policy/2025/12/openai-refuses-to-say-where-chatgpt-logs-go-when-users-die/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/tech-policy/2025/12/openai-refuses-to-say-where-chatgpt-logs-go-when-users-die/
+评论网址：https://news.ycombinator.com/item?id=46499983
+积分：167
+# 条评论：66]]></description>
+      <guid>https://arstechnica.com/tech-policy/2025/12/openai-refuses-to-say-where-chatgpt-logs-go-when-users-die/</guid>
+      <pubDate>Mon, 05 Jan 2026 15:34:40 GMT</pubDate>
     </item>
     <item>
-      <title>使用 AI 为 C++ 构建 Rust 风格的静态分析器</title>
-      <link>http://mpaxos.com/blog/rusty-cpp.html</link>
-      <description><![CDATA[文章网址：http://mpaxos.com/blog/rusty-cpp.html
-评论网址：https://news.ycombinator.com/item?id=46495539
-积分：81
-# 条评论：44]]></description>
-      <guid>http://mpaxos.com/blog/rusty-cpp.html</guid>
-      <pubDate>Mon, 05 Jan 2026 05:11:59 GMT</pubDate>
+      <title>YC 初创公司 RevisionDojo 正在针对儿童开展 astroturfing 活动</title>
+      <link>https://news.ycombinator.com/item?id=46499976</link>
+      <description><![CDATA[RevisionDojo 是一家由 YC 支持的考试准备公司（筹集了 340 万美元），销售国际文凭 (IB) 考试准备产品。在过去的一年里，r/IBO subreddit 上的用户记录了一种不道德的营销行为模式：*Astroturfing：* 协调活动，帐户冒充学生分享“备忘单”和“预测考试泄露”。其他帐户随后会投票、留下支持性评论并提出后续问题，从而造成学生自然兴奋的错觉。多个线程都暴露了这种模式 [1][2][3]。*付费虚假帖子：*高中生报告称有人向他们付费撰写促销 Reddit 帖子[4]。*给批评者带来压力：*发布负面评论的用户报告说公司代表直接联系他们，告诉他们公开发布评论是“耻辱”[5]。批评性评论会遭到协调一致的大规模否决[6]。*索取受版权保护的材料：*他们利用 TikTok 影响者和虚假的 reddit 帖子说服学生向他们出售官方 IB 考试试卷，这违反了 IB 政策[7]。r/IBO 版主正在积极调查 [8]。这些做法似乎对他们很有效。最近，他们收购了 OnePrep (oneprep.xyz)，这是一款免费的 SAT 准备工具，该工具已经在 r/sat 上流行。自收购以来，同样的操纵策略已被大规模部署：几天之内就有 150 条 Trustpilot 评论 [9]，以及广泛协调的 Reddit 操纵——多个帐户发布推荐 Oneprep 的“提示”、协调一致的点赞和评论中的虚假热情。最突出的例子是版主因操纵而删除了 2,000 多个点赞的帖子，但它是 Reddit 子版块持续活动的一部分。*来源：*[1] https://www.reddit.com/r/IBO/comments/1p55qun/
+[2] https://www.reddit.com/r/IBO/comments/1jsb00a/
+[3] https://www.reddit.com/r/IBO/comments/1ohcohi/
+[4] https://www.reddit.com/r/IBO/comments/1p55qun/comment/nqmhal3/
+[5] https://www.reddit.com/r/IBO/comments/1my1ajx/comment/na94upv/
+[6] https://www.reddit.com/r/IBO/comments/1my1ajx/comment/na8zvs4/
+[7] https://www.reddit.com/r/IBO/comments/1mej900/
+[8] https://www.reddit.com/r/IBO/comments/1my1ajx/comment/nagdkl5/
+[9] https://www.trustpilot.com/review/oneprep.xyz
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46499976
+积分：219
+# 条评论：29]]></description>
+      <guid>https://news.ycombinator.com/item?id=46499976</guid>
+      <pubDate>Mon, 05 Jan 2026 15:34:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
