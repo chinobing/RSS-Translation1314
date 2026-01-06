@@ -4,118 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 06 Jan 2026 15:24:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 18:32:57 GMT</lastBuildDate>
     <item>
-      <title>65% 的黑客新闻帖子带有负面情绪，而且表现出色</title>
-      <link>https://philippdubach.com/standalone/hn-sentiment/</link>
-      <description><![CDATA[文章网址：https://philippdubach.com/standalone/hn-sentiment/
-评论网址：https://news.ycombinator.com/item?id=46512881
-积分：76
-# 条评论：58]]></description>
-      <guid>https://philippdubach.com/standalone/hn-sentiment/</guid>
-      <pubDate>Tue, 06 Jan 2026 14:45:47 GMT</pubDate>
+      <title>使用 GeoSpy 在 30 秒内定位车辆照片</title>
+      <link>https://geospy.ai/blog/locating-a-photo-of-a-vehicle-in-30-seconds-with-geospy</link>
+      <description><![CDATA[文章网址：https://geospy.ai/blog/ located-a-photo-of-a-vehicle-in-30-seconds-with-geospy
+评论网址：https://news.ycombinator.com/item?id=46515948
+积分：10
+# 条评论：6]]></description>
+      <guid>https://geospy.ai/blog/locating-a-photo-of-a-vehicle-in-30-seconds-with-geospy</guid>
+      <pubDate>Tue, 06 Jan 2026 18:00:27 GMT</pubDate>
     </item>
     <item>
-      <title>为什么德国弦乐无处不在？</title>
-      <link>https://cedardb.com/blog/german_strings/</link>
-      <description><![CDATA[文章网址：https://cedardb.com/blog/german_strings/
-评论网址：https://news.ycombinator.com/item?id=46511981
-积分：43
-# 条评论：24]]></description>
-      <guid>https://cedardb.com/blog/german_strings/</guid>
-      <pubDate>Tue, 06 Jan 2026 13:30:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：DDL 到数据 – 从 SQL 模式生成真实的测试数据</title>
-      <link>https://news.ycombinator.com/item?id=46511578</link>
-      <description><![CDATA[在反复推迟“仅使用生产数据并屏蔽它”请求后，我构建了 DDL 到数据。团队需要填充数据库来进行测试，但拉动产品意味着安全审查、PII 清理和 DevOps 票证。手写的种子脚本是另一种缓慢、脆弱且在架构更改时不同步的替代方案。粘贴您的 CREATE TABLE 语句，获取真实的测试数据。它解析您的架构，保留外键关系，并生成看起来真实的数据，电子邮件看起来像电子邮件，时间戳合理，遵守唯一性约束。无需设置，无需配置。适用于 PostgreSQL 和 MySQL。https://ddltodata.com希望得到处理测试数据或临时环境的任何人的反馈。缺少什么？
+      <title>推出 HN：Tamarind Bio (YC W24) – 用于药物发现的人工智能推理提供商</title>
+      <link>https://news.ycombinator.com/item?id=46515777</link>
+      <description><![CDATA[您好，HN，我们是来自 Tamarind Bio (https://www.tamarind.bio) 的 Deniz 和 Sherry。 Tamarind 是人工智能药物发现的推理提供商，为 AlphaFold 等模型提供服务。生物制药公司使用我们领先的开源模型库来通过计算设计新药物。这是一个演示：https://youtu.be/luoMApPeglo两年前，我受聘在斯坦福大学的一家实验室为我的实验室伙伴运行模型。一些博士后会要求我按顺序运行一组包含数万个输入的 1-5 个模型，在大学集群中设置工作流程后，我会通过电子邮件将结果发回给他们。在某种程度上，组织的所有计算生物学工作都由本科生完成是不合理的，因此我们将 Tamarind 构建为所有分子 AI 工具的单一位置，无需技术背景即可大规模使用。如今，排名前 20 的制药公司、数十家生物技术公司和数万名科学家都在使用我们的产品。当我们开始在大型制药公司中采用时，我们发现这个问题也仍然存在。我认识数据科学主管，他们的一半工作可以被描述为为其他人运行脚本。许多公司也已经弃用了内部构建的切换解决方案，当你工作的公司试图治愈癌症时，处理 GPU 基础设施和装载 Docker 容器并不是一个非常令人兴奋的问题。与非专业推理提供商不同，我们为开发人员构建了一个编程接口，同时也构建了一个对科学家友好的 Web 应用程序，因为我们的大多数用户都是非技术人员。其中一些用于从动物血液中提取蛋白质，然后使用 AI 在 Tamarind 上生成蛋白质来取代该过程。除了为我们服务的每个模型打磨图像之外，我们还设计了一个标准化模式，以便能够共享每个模型的数据格式。我们构建了一个针对水平扩展进行优化的自定义调度程序和队列（每个推理调用需要几分钟到几小时，一次在一个 GPU 上运行），同时在 CPU 和 GPU 之间拆分作业以获得最佳时序。随着我们不断成长，能够代表客户处理大部分生物制药研发 AI 需求，我们的业务范围已经超出了仅仅提供开源协议库的范围。我们早期看到的一个常见用例是将多个模型连接到管道中的需要，并拥有可重复、一致的方案来替代物理实验。一旦我们成为构建计算科学内部工具的地方，我们的用户就开始询问他们是否可以将自己的模型加载到平台上。从那里，我们现在支持微调、为任意 Docker 容器构建 UI、连接到湿实验室数据源等等！如果您对我们的工作感兴趣，请通过 deniz[at]tamarind.bio 与我联系，我们正在招聘！请访问 https://app.tamarind.bio 查看我们的产品，如果您有任何反馈意见来支持当今生物技术行业如何使用人工智能，请告诉我们。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46511578
-积分：21
-# 条评论：13]]></description>
-      <guid>https://news.ycombinator.com/item?id=46511578</guid>
-      <pubDate>Tue, 06 Jan 2026 12:47:23 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=46515777
+积分：13
+# 条评论：4]]></description>
+      <guid>https://news.ycombinator.com/item?id=46515777</guid>
+      <pubDate>Tue, 06 Jan 2026 17:49:56 GMT</pubDate>
     </item>
     <item>
-      <title>C 最好</title>
-      <link>https://sqlite.org/whyc.html</link>
-      <description><![CDATA[文章网址：https://sqlite.org/whyc.html
-评论网址：https://news.ycombinator.com/item?id=46511470
-积分：175
-# 条评论：152]]></description>
-      <guid>https://sqlite.org/whyc.html</guid>
-      <pubDate>Tue, 06 Jan 2026 12:33:54 GMT</pubDate>
+      <title>Opus 4.5 并不是我迄今为止所拥有的正常 AI 代理体验</title>
+      <link>https://burkeholland.github.io/posts/opus-4-5-change-everything/</link>
+      <description><![CDATA[文章网址：https://burkeholland.github.io/posts/opus-4-5-change-everything/
+评论网址：https://news.ycombinator.com/item?id=46515696
+积分：56
+# 条评论：54]]></description>
+      <guid>https://burkeholland.github.io/posts/opus-4-5-change-everything/</guid>
+      <pubDate>Tue, 06 Jan 2026 17:45:37 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Prism.Tools – 免费且注重隐私的开发人员实用程序</title>
-      <link>https://blgardner.github.io/prism.tools/</link>
-      <description><![CDATA[嗨，HN，我是 Barry，我已经构建了 Prism.Tools (https://blgardner.github.io/prism.tools/) – 一组尊重您隐私的客户端开发人员实用程序。其中许多工具早在我运行 BBS 并启动我的社区第一个 ISP 的时候就使用过，通过拨号互联网、虚拟主机等为三个当地社区提供服务。这些工具经过改进，以反映自那时以来技术的变化，并为新手和专业人士设计。当我找到更多其他人可能觉得有用的工具时，我将完善它们并将它们添加到集合中。使用、分享或不使用它们。如果您需要它们，它们就在这里...40 多个开发工具（JSON 格式化程序、正则表达式测试器、base64 编码器、Git 命令帮助程序等）完全在您的浏览器中运行。
-零跟踪、零分析、零数据收集——一切都在本地处理。
-独立的 HTML 文件，没有构建过程或框架。我意识到多年来我构建了很多工具/实用程序供自己使用。我讨厌必须“注册”才能访问/使用我自己创建的简单实用程序。我对它们进行了改进，并将它们放在一个安全的地方，以便我可以在需要时轻松访问它们。我决定通过 Github Pages 向任何可能觉得它们有用的人提供它们。 Prism.Tools 就是结果。每个工具都是一个带有嵌入式 CSS 和 JavaScript 的独立 HTML 文件。没有框架，没有 npm 包，没有构建步骤 - 只需打开文件即可工作。整个工具集：- 100% 客户端处理 - 您的数据永远不会离开浏览器。- 除了 cdnjs.cloudflare.com 的特定库（用于 markdown 的 marked.js，用于图像元数据的 exifr 等）之外，没有外部依赖项- 一致的深色 UI - 每个工具都遵循相同的设计语言以方便熟悉。- Vanilla尽可能使用 JS – 仅在必要时获取公共 CDN 资源。“单个 HTML 文件”的限制是有意为之的。它强制简化并确保工具保持可维护性。这还意味着用户可以轻松地检查、修改或自行托管任何工具。这些工具帮助我调试生产问题、快速格式化任务、学习 Git 命令（Git 命令帮助程序特别有用）只需访问 https://blgardner.github.io/prism.tools/ 并尝试任何工具。无需注册，无需安装。您发现自己缺少哪些工具？
-特定工具有任何性能问题吗？
-UI/UX 摩擦点？所有工具都遵循相同的隐私优先理念...
-您的数据保留在您的浏览器中。没有帐户，没有跟踪，没有服务器处理您的信息。
-该项目还证明您并不总是需要 React、Vue 或复杂的构建管道 - 有时单个 HTML 文件中的普通 JavaScript 正是完成这项工作的正确工具。普通 JavaScript (ES6+)
-CSS3 与 CSS 网格
-最少的外部库：marked.js、exifr、highlight.js、sql-formatter（全部来自 CDN）
-没有框架，没有捆绑器，没有 npm
-托管在 Github 页面上很高兴回答有关技术实现、设计决策或特定工具的问题！所有工具都是可检查的 - 只需在任何页面上查看源代码即可准确了解它们的工作原理！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46511469
-积分：113
-# 条评论：37]]></description>
-      <guid>https://blgardner.github.io/prism.tools/</guid>
-      <pubDate>Tue, 06 Jan 2026 12:33:49 GMT</pubDate>
+      <title>大众汽车恢复物理按钮</title>
+      <link>https://www.caranddriver.com/news/a69916699/volkswagen-interior-physical-buttons-return/</link>
+      <description><![CDATA[文章网址：https://www.caranddriver.com/news/a69916699/volkswagen-interior-physical-buttons-return/
+评论网址：https://news.ycombinator.com/item?id=46514913
+积分：79
+# 条评论：57]]></description>
+      <guid>https://www.caranddriver.com/news/a69916699/volkswagen-interior-physical-buttons-return/</guid>
+      <pubDate>Tue, 06 Jan 2026 16:59:44 GMT</pubDate>
     </item>
     <item>
-      <title>系统：使用自然语言随时随地控制您的 Mac</title>
-      <link>https://system.surf/</link>
-      <description><![CDATA[文章网址：https://system.surf/
-评论网址：https://news.ycombinator.com/item?id=46511298
-积分：17
-# 条评论：7]]></description>
-      <guid>https://system.surf/</guid>
-      <pubDate>Tue, 06 Jan 2026 12:04:57 GMT</pubDate>
+      <title>Show HN：Stash – 通过 CLI 将 Markdown 文件与 Apple Notes 同步</title>
+      <link>https://github.com/shakedlokits/stash</link>
+      <description><![CDATA[文章网址：https://github.com/shakedlokits/stash
+评论网址：https://news.ycombinator.com/item?id=46514874
+积分：12
+# 条评论：1]]></description>
+      <guid>https://github.com/shakedlokits/stash</guid>
+      <pubDate>Tue, 06 Jan 2026 16:57:15 GMT</pubDate>
     </item>
     <item>
-      <title>AWS 在周六将 GPU 价格提高 15%，希望您没有注意到</title>
-      <link>https://www.theregister.com/2026/01/05/aws_price_increase/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2026/01/05/aws_price_increase/
-评论网址：https://news.ycombinator.com/item?id=46511153
-积分：351
-# 条评论：234]]></description>
-      <guid>https://www.theregister.com/2026/01/05/aws_price_increase/</guid>
-      <pubDate>Tue, 06 Jan 2026 11:42:35 GMT</pubDate>
+      <title>Loongarch 使用 Box64 进行的改进</title>
+      <link>https://box86.org/2026/01/new-box64-v0-4-0-released/</link>
+      <description><![CDATA[文章网址：https://box86.org/2026/01/new-box64-v0-4-0-released/
+评论网址：https://news.ycombinator.com/item?id=46514807
+积分：16
+# 条评论：0]]></description>
+      <guid>https://box86.org/2026/01/new-box64-v0-4-0-released/</guid>
+      <pubDate>Tue, 06 Jan 2026 16:52:56 GMT</pubDate>
     </item>
     <item>
-      <title>SCiZE 的经典 Warez 系列</title>
-      <link>https://scenelist.org/</link>
-      <description><![CDATA[文章网址：https://scenelist.org/
-评论网址：https://news.ycombinator.com/item?id=46510625
-积分：77
-# 条评论：27]]></description>
-      <guid>https://scenelist.org/</guid>
-      <pubDate>Tue, 06 Jan 2026 10:13:43 GMT</pubDate>
+      <title>随着 DRAM 成本飙升，Raspberry Pi 和迷你 PC 家庭实验室价格持平</title>
+      <link>https://www.tomshardware.com/raspberry-pi/raspberry-pi-and-mini-pc-home-lab-prices-hit-parity-as-dram-costs-skyrocket-price-hikes-force-hobbyists-to-weigh-up-performance-versus-power-consumption</link>
+      <description><![CDATA[文章网址： https://www.tomshardware.com/raspberry-pi/raspberry-pi-and-mini-pc-home-lab-prices-hit-parity-as-dram-costs-skyrocket-price-hikes-force-hobbyists-to-weigh-up-performance-versus-power-conspiration
+评论网址：https://news.ycombinator.com/item?id=46514794
+积分：35
+评论数量：9]]></description>
+      <guid>https://www.tomshardware.com/raspberry-pi/raspberry-pi-and-mini-pc-home-lab-prices-hit-parity-as-dram-costs-skyrocket-price-hikes-force-hobbyists-to-weigh-up-performance-versus-power-consumption</guid>
+      <pubDate>Tue, 06 Jan 2026 16:52:08 GMT</pubDate>
     </item>
     <item>
-      <title>地铁列车可以利用量子物理规则在地铁中行驶</title>
-      <link>https://www.ianvisits.co.uk/articles/tube-trains-could-navigate-the-underground-using-the-weird-rules-of-quantum-physics-86370/</link>
-      <description><![CDATA[文章网址： https://www.ianvisits.co.uk/articles/tube-trains-could-navigate-the-underground-using-the-weird-rules-of-quantum-physicals-86370/
-评论网址：https://news.ycombinator.com/item?id=46509967
-积分：29
-# 条评论：59]]></description>
-      <guid>https://www.ianvisits.co.uk/articles/tube-trains-could-navigate-the-underground-using-the-weird-rules-of-quantum-physics-86370/</guid>
-      <pubDate>Tue, 06 Jan 2026 08:26:23 GMT</pubDate>
+      <title>为什么 Gmail 应用程序有 700 MB？</title>
+      <link>https://akr.am/blog/posts/why-is-the-gmail-app-700-mb</link>
+      <description><![CDATA[文章网址：https://akr.am/blog/posts/why-is-the-gmail-app-700-mb
+评论网址：https://news.ycombinator.com/item?id=46514692
+积分：140
+# 条评论：130]]></description>
+      <guid>https://akr.am/blog/posts/why-is-the-gmail-app-700-mb</guid>
+      <pubDate>Tue, 06 Jan 2026 16:46:13 GMT</pubDate>
     </item>
     <item>
-      <title>围住马</title>
-      <link>https://enclose.horse/</link>
-      <description><![CDATA[文章网址：https://enclose.horse/
-评论网址：https://news.ycombinator.com/item?id=46509211
-积分：694
-评论数：122]]></description>
-      <guid>https://enclose.horse/</guid>
-      <pubDate>Tue, 06 Jan 2026 06:01:57 GMT</pubDate>
+      <title>越南禁止不可跳过的广告</title>
+      <link>https://saigoneer.com/vietnam-news/28652-vienam-bans-unskippable-ads,-requires-skip-button-to-appear-after-5-seconds</link>
+      <description><![CDATA[文章网址： https://saigoneer.com/vietnam-news/28652-vienam-bans-unskippable-ads,-requires-skip-button-to-appear-after-5-seconds
+评论网址：https://news.ycombinator.com/item?id=46514677
+积分：403
+# 条评论：183]]></description>
+      <guid>https://saigoneer.com/vietnam-news/28652-vienam-bans-unskippable-ads,-requires-skip-button-to-appear-after-5-seconds</guid>
+      <pubDate>Tue, 06 Jan 2026 16:45:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>鳍的现状 2026-01-06 – Jellyfin</title>
+      <link>https://jellyfin.org/posts/state-of-the-fin-2026-01-06/</link>
+      <description><![CDATA[文章网址：https://jellyfin.org/posts/state-of-the-fin-2026-01-06/
+评论网址：https://news.ycombinator.com/item?id=46514282
+积分：140
+# 条评论：83]]></description>
+      <guid>https://jellyfin.org/posts/state-of-the-fin-2026-01-06/</guid>
+      <pubDate>Tue, 06 Jan 2026 16:17:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
