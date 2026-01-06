@@ -4,111 +4,110 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 05 Jan 2026 21:21:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 01:44:52 GMT</lastBuildDate>
     <item>
-      <title>Show HN：内存图 – 交互式 Python 执行和内存可视化工具</title>
-      <link>https://memory-graph.com/#breakpoints=8&continues=1&timestep=1.0&play</link>
-      <description><![CDATA[大家好，我构建内存图是为了帮助学生（和我自己）构建 Python 引用、可变性和复制的正确心智模型，并使调试数据结构减少“打印驱动”。它受到 Python Tutor 的启发，但专注于更清晰的图形以及在许多不同的环境和调试器中本地运行。内存图 Web 调试器可快速将您的 Web 浏览器变成 Python 调试器，其中整个程序状态在每个步骤中都可视化，清楚地显示别名和数据结构，提供仅通过打印很难获得的见解。一些有趣的示例：- 递归、十进制到二进制转换： 
-https://memory-graph.com/#codeurl=https://raw.githubusercont...- 二叉树数据结构： 
-https://memory-graph.com/#codeurl=https://raw.githubusercont...- 鸡尾酒摇床排序： 
-https://memory-graph.com/#codeurl=https://raw.githubusercont...在这里您可以找到一些用于教育的困难的 Python 数据模型练习，其中内存图有助于解释正确答案： https://github.com/bterwijn/memory_graph_videos/blob/main/exercises/exercises.md
+      <title>天生还是后天？连环杀手</title>
+      <link>https://www.youtube.com/watch?v=Zkw0EWdgwm0</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=Zkw0EWdgwm0
+评论网址：https://news.ycombinator.com/item?id=46507693
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=Zkw0EWdgwm0</guid>
+      <pubDate>Tue, 06 Jan 2026 01:33:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于检测阿尔茨海默病病理的微创干血斑试验</title>
+      <link>https://www.nature.com/articles/s41591-025-04080-0</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41591-025-04080-0
+评论网址：https://news.ycombinator.com/item?id=46507687
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nature.com/articles/s41591-025-04080-0</guid>
+      <pubDate>Tue, 06 Jan 2026 01:31:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么人工智能记忆还没有得到解决</title>
+      <link>https://twitter.com/ashpreetbedi/status/2008315658417647895</link>
+      <description><![CDATA[文章网址：https://twitter.com/ashpreetbedi/status/2008315658417647895
+评论网址：https://news.ycombinator.com/item?id=46507667
+积分：1
+# 条评论：0]]></description>
+      <guid>https://twitter.com/ashpreetbedi/status/2008315658417647895</guid>
+      <pubDate>Tue, 06 Jan 2026 01:28:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>大回归</title>
+      <link>https://world.hey.com/jason/the-big-regression-da7fc60d</link>
+      <description><![CDATA[文章网址：https://world.hey.com/jason/the-big-regression-da7fc60d
+评论网址：https://news.ycombinator.com/item?id=46507661
+积分：1
+# 条评论：0]]></description>
+      <guid>https://world.hey.com/jason/the-big-regression-da7fc60d</guid>
+      <pubDate>Tue, 06 Jan 2026 01:27:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>长期安装 LED 灯带的实用经验法则是什么？</title>
+      <link>https://news.ycombinator.com/item?id=46507646</link>
+      <description><![CDATA[我正在安装一些 LED 灯带，其运行时间足够长，以至于“通常的初学者建议”（只需选择一个 PSU 并将灯带粘起来）就不再起作用。典型场景：用于间接/凹形照明的 24V 恒压灯带，每次运行约 5–20m有时可寻址灯带（SPI 式），其中数据完整性成为一个因素室内安装在铝制通道/扩散器中（因此热量和布线整洁很重要）我很乐意从大规模这样做的人那里收集实用的经验法则。特别是：功率注入对于 12V 与 24V，您的“每 X 米注入一次”启发式是什么？您更喜欢单端 + 注入，还是为两端供电（以及原因）？有针对常见功率水平（例如每次运行 50-200W）的常用线规指南吗？熔断与安全您是否熔断每个注入分支？直插式刀片保险丝？还有其他吗？对于隐藏运行，您发现更安全/更清洁的布线模式吗？可寻址/数据完整性您什么时候停止信任单个数据线并切换到差分/RS-485 样式传输？您是否经常在数据上添加串联电阻，如果是的话，什么值在现场实际有帮助？当带和控制器相距很远时，有任何接地的最佳实践吗？耐热和寿命对于带中的带带扩散器的通道：任何“保持在 X W/m”指导下以避免长期泛黄/粘合剂失效？如果您有最喜欢的参考资料（计算器、接线图、现场测试指南），我将不胜感激。我不想出售任何东西——只是想避免常见的故障模式（暗尾、闪烁、随机故障）并建立一个可重复的检查表。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46505099
+评论网址：https://news.ycombinator.com/item?id=46507646
 积分：1
 # 条评论：0]]></description>
-      <guid>https://memory-graph.com/#breakpoints=8&continues=1&timestep=1.0&play</guid>
-      <pubDate>Mon, 05 Jan 2026 21:17:34 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46507646</guid>
+      <pubDate>Tue, 06 Jan 2026 01:26:34 GMT</pubDate>
     </item>
     <item>
-      <title>CoreWeave 修订信贷协议成为焦点</title>
-      <link>https://seekingalpha.com/news/4536592-coreweave-in-focus-as-it-amends-credit-agreement</link>
-      <description><![CDATA[文章网址：https://seekingalpha.com/news/4536592-coreweave-in-focus-as-it-amends-credit-agreement
-评论网址：https://news.ycombinator.com/item?id=46505092
-积分：1
-# 条评论：0]]></description>
-      <guid>https://seekingalpha.com/news/4536592-coreweave-in-focus-as-it-amends-credit-agreement</guid>
-      <pubDate>Mon, 05 Jan 2026 21:16:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何构建适用于 2026 年对话式 AI 的数据模型</title>
-      <link>https://medium.com/data-science-collective/how-to-build-data-models-that-actually-work-for-conversational-ai-in-2026-67d16f261344</link>
-      <description><![CDATA[文章网址： https://medium.com/data-science-collective/how-to-build-data-models-that-actually-work-for-conversational-ai-in-2026-67d16f261344
-评论网址：https://news.ycombinator.com/item?id=46505087
-积分：1
-# 条评论：0]]></description>
-      <guid>https://medium.com/data-science-collective/how-to-build-data-models-that-actually-work-for-conversational-ai-in-2026-67d16f261344</guid>
-      <pubDate>Mon, 05 Jan 2026 21:16:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：以太的标志——重建没有零或空空间的物理</title>
-      <link>https://github.com/chrisnchips42-blip/Logos-of-Aether-A-Measurement-Theoretic-Foundation-for-Physics</link>
-      <description><![CDATA[背景：过去几年我一直在写《以太的标志》（500 多页，开源），它试图使用一元的元胞自动机方法而不是标准的连续微积分来推导标准模型。核心思想：现代物理学在奇点处崩溃，因为我们的数学允许无限密度（除以零）。我用“增压加法”(⊕) 取代了标准加法，这是一种类似于狭义相对论中的速度加法的饱和运算，但应用于信息密度。数学：不是线性加法 (1+1=2)，而是通过以下方式添加区别：x ⊕ y = (x + y) / (1 + xy/π²)这对信息密度 (π) 施加了硬性上限，自然消除了黑洞奇点和“无限能量”错误在 QFT 中无需重整化。我发帖的原因：我有理论推导（包括电子质量作为 11 次谐波共振的几何推导），但我正在从“纸张”转向“引擎”。我正在寻找对元胞自动机和 Python/JAX 感兴趣的贡献者来帮助构建参考模拟（“The Rattle”）来测试网格中的这些交互。这本书是公共领域的。我不卖任何东西。只是想看看这个代码库是否正确运行 Universe-v1.0。关于“跷跷板原理”或推导逻辑的 AMA。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46505077
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/chrisnchips42-blip/Logos-of-Aether-A-Measurement-Theoretic-Foundation-for-Physics</guid>
-      <pubDate>Mon, 05 Jan 2026 21:15:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>维基百科阅读次数最多的页面揭示了我们共同的好奇心</title>
-      <link>https://www.not-ship.com/wikipedi/</link>
-      <description><![CDATA[文章网址：https://www.not-ship.com/wikipedi/
-评论网址：https://news.ycombinator.com/item?id=46505068
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.not-ship.com/wikipedi/</guid>
-      <pubDate>Mon, 05 Jan 2026 21:15:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>丹麦首相称特朗普认真想接管格陵兰岛</title>
-      <link>https://www.theguardian.com/world/live/2026/jan/05/europe-greenland-denmark-eu-venezuela-trump-latest-news-updates</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/world/live/2026/jan/05/europe-greenland-denmark-eu-venezuela-trump-latest-news-updates
-评论网址：https://news.ycombinator.com/item?id=46505052
-积分：5
-# 条评论：0]]></description>
-      <guid>https://www.theguardian.com/world/live/2026/jan/05/europe-greenland-denmark-eu-venezuela-trump-latest-news-updates</guid>
-      <pubDate>Mon, 05 Jan 2026 21:14:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>是什么改变了我的投资组合？</title>
-      <link>https://patternos.com</link>
-      <description><![CDATA[文章网址：https://patternos.com
-评论网址：https://news.ycombinator.com/item?id=46505036
+      <title>Show HN：梦想与爱——夫妻共同愿景板</title>
+      <link>https://our-journey-to-france-633f2ef8.base44.app</link>
+      <description><![CDATA[文章网址：https://our-journey-to-france-633f2ef8.base44.app
+评论网址：https://news.ycombinator.com/item?id=46507642
 积分：1
 # 条评论：1]]></description>
-      <guid>https://patternos.com</guid>
-      <pubDate>Mon, 05 Jan 2026 21:12:44 GMT</pubDate>
+      <guid>https://our-journey-to-france-633f2ef8.base44.app</guid>
+      <pubDate>Tue, 06 Jan 2026 01:25:57 GMT</pubDate>
     </item>
     <item>
-      <title>欧洲数字产品替代品</title>
-      <link>https://european-alternatives.eu</link>
-      <description><![CDATA[文章网址：https://european-alternatives.eu
-评论网址：https://news.ycombinator.com/item?id=46505021
-积分：4
+      <title>乐高推出智能积木和智能游戏系统，可在您玩耍时做出反应</title>
+      <link>https://mashable.com/article/ces-2026-lego-smart-play-system-announced</link>
+      <description><![CDATA[文章网址：https://mashable.com/article/ces-2026-lego-smart-play-system-announced
+评论网址：https://news.ycombinator.com/item?id=46507641
+积分：1
 # 条评论：1]]></description>
-      <guid>https://european-alternatives.eu</guid>
-      <pubDate>Mon, 05 Jan 2026 21:11:04 GMT</pubDate>
+      <guid>https://mashable.com/article/ces-2026-lego-smart-play-system-announced</guid>
+      <pubDate>Tue, 06 Jan 2026 01:25:48 GMT</pubDate>
     </item>
     <item>
-      <title>美利坚合众国国家安全战略 (2025) [pdf]</title>
-      <link>https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf</link>
-      <description><![CDATA[文章网址：https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf
-评论网址：https://news.ycombinator.com/item?id=46505006
+      <title>您可以在美国购买第一款配备固态电池的电动汽车</title>
+      <link>https://insideevs.com/news/783463/first-solid-state-ev-sold-in-the-us/</link>
+      <description><![CDATA[文章网址：https://insideevs.com/news/783463/first-solid-state-ev-sold-in-the-us/
+评论网址：https://news.ycombinator.com/item?id=46507637
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf</guid>
-      <pubDate>Mon, 05 Jan 2026 21:09:42 GMT</pubDate>
+      <guid>https://insideevs.com/news/783463/first-solid-state-ev-sold-in-the-us/</guid>
+      <pubDate>Tue, 06 Jan 2026 01:25:28 GMT</pubDate>
     </item>
     <item>
-      <title>到了 2026 年，你到底该如何从事科技行业呢？</title>
-      <link>https://www.anildash.com/2026/01/05/a-tech-career-in-2026/</link>
-      <description><![CDATA[文章网址：https://www.anildash.com/2026/01/05/a-tech-career-in-2026/
-评论网址：https://news.ycombinator.com/item?id=46505005
+      <title>问 HN：您在阅读 AI 生成的文本时是否感到明显的“恐怖谷”？</title>
+      <link>https://news.ycombinator.com/item?id=46507634</link>
+      <description><![CDATA[当我阅读人工智能生成的文本时，我会感觉到这一点，但我实际上并不知道我的大脑正在捕捉哪些独特特征。这让我想起了当我看到类似人类但不太正确的东西时所感受到的恐怖谷感。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46507634
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.anildash.com/2026/01/05/a-tech-career-in-2026/</guid>
-      <pubDate>Mon, 05 Jan 2026 21:09:41 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46507634</guid>
+      <pubDate>Tue, 06 Jan 2026 01:25:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Claude 代码的单文件内存</title>
+      <link>https://github.com/memvid/claude-brain</link>
+      <description><![CDATA[Claude 有巨大的上下文窗口，但在关闭会话时会忘记所有内容“还记得那个身份验证错误吗？”
+“我不记得以前的对话了”我构建了一个插件来解决这个问题。你项目中的一个文件，claude 在开始时读取它，在你工作时写入它。第二天它实际上知道昨天发生了什么。你也可以 git 提交该文件。字面上的版本控制克劳德的大脑。我开源了，这里是代码https://github.com/memvid/claude-brain
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46507620
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/memvid/claude-brain</guid>
+      <pubDate>Tue, 06 Jan 2026 01:22:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
