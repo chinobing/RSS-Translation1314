@@ -4,107 +4,118 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 06 Jan 2026 12:44:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 15:24:08 GMT</lastBuildDate>
+    <item>
+      <title>65% 的黑客新闻帖子带有负面情绪，而且表现出色</title>
+      <link>https://philippdubach.com/standalone/hn-sentiment/</link>
+      <description><![CDATA[文章网址：https://philippdubach.com/standalone/hn-sentiment/
+评论网址：https://news.ycombinator.com/item?id=46512881
+积分：76
+# 条评论：58]]></description>
+      <guid>https://philippdubach.com/standalone/hn-sentiment/</guid>
+      <pubDate>Tue, 06 Jan 2026 14:45:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么德国弦乐无处不在？</title>
+      <link>https://cedardb.com/blog/german_strings/</link>
+      <description><![CDATA[文章网址：https://cedardb.com/blog/german_strings/
+评论网址：https://news.ycombinator.com/item?id=46511981
+积分：43
+# 条评论：24]]></description>
+      <guid>https://cedardb.com/blog/german_strings/</guid>
+      <pubDate>Tue, 06 Jan 2026 13:30:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：DDL 到数据 – 从 SQL 模式生成真实的测试数据</title>
+      <link>https://news.ycombinator.com/item?id=46511578</link>
+      <description><![CDATA[在反复推迟“仅使用生产数据并屏蔽它”请求后，我构建了 DDL 到数据。团队需要填充数据库来进行测试，但拉动产品意味着安全审查、PII 清理和 DevOps 票证。手写的种子脚本是另一种缓慢、脆弱且在架构更改时不同步的替代方案。粘贴您的 CREATE TABLE 语句，获取真实的测试数据。它解析您的架构，保留外键关系，并生成看起来真实的数据，电子邮件看起来像电子邮件，时间戳合理，遵守唯一性约束。无需设置，无需配置。适用于 PostgreSQL 和 MySQL。https://ddltodata.com希望得到处理测试数据或临时环境的任何人的反馈。缺少什么？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46511578
+积分：21
+# 条评论：13]]></description>
+      <guid>https://news.ycombinator.com/item?id=46511578</guid>
+      <pubDate>Tue, 06 Jan 2026 12:47:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>C 最好</title>
+      <link>https://sqlite.org/whyc.html</link>
+      <description><![CDATA[文章网址：https://sqlite.org/whyc.html
+评论网址：https://news.ycombinator.com/item?id=46511470
+积分：175
+# 条评论：152]]></description>
+      <guid>https://sqlite.org/whyc.html</guid>
+      <pubDate>Tue, 06 Jan 2026 12:33:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Prism.Tools – 免费且注重隐私的开发人员实用程序</title>
+      <link>https://blgardner.github.io/prism.tools/</link>
+      <description><![CDATA[嗨，HN，我是 Barry，我已经构建了 Prism.Tools (https://blgardner.github.io/prism.tools/) – 一组尊重您隐私的客户端开发人员实用程序。其中许多工具早在我运行 BBS 并启动我的社区第一个 ISP 的时候就使用过，通过拨号互联网、虚拟主机等为三个当地社区提供服务。这些工具经过改进，以反映自那时以来技术的变化，并为新手和专业人士设计。当我找到更多其他人可能觉得有用的工具时，我将完善它们并将它们添加到集合中。使用、分享或不使用它们。如果您需要它们，它们就在这里...40 多个开发工具（JSON 格式化程序、正则表达式测试器、base64 编码器、Git 命令帮助程序等）完全在您的浏览器中运行。
+零跟踪、零分析、零数据收集——一切都在本地处理。
+独立的 HTML 文件，没有构建过程或框架。我意识到多年来我构建了很多工具/实用程序供自己使用。我讨厌必须“注册”才能访问/使用我自己创建的简单实用程序。我对它们进行了改进，并将它们放在一个安全的地方，以便我可以在需要时轻松访问它们。我决定通过 Github Pages 向任何可能觉得它们有用的人提供它们。 Prism.Tools 就是结果。每个工具都是一个带有嵌入式 CSS 和 JavaScript 的独立 HTML 文件。没有框架，没有 npm 包，没有构建步骤 - 只需打开文件即可工作。整个工具集：- 100% 客户端处理 - 您的数据永远不会离开浏览器。- 除了 cdnjs.cloudflare.com 的特定库（用于 markdown 的 marked.js，用于图像元数据的 exifr 等）之外，没有外部依赖项- 一致的深色 UI - 每个工具都遵循相同的设计语言以方便熟悉。- Vanilla尽可能使用 JS – 仅在必要时获取公共 CDN 资源。“单个 HTML 文件”的限制是有意为之的。它强制简化并确保工具保持可维护性。这还意味着用户可以轻松地检查、修改或自行托管任何工具。这些工具帮助我调试生产问题、快速格式化任务、学习 Git 命令（Git 命令帮助程序特别有用）只需访问 https://blgardner.github.io/prism.tools/ 并尝试任何工具。无需注册，无需安装。您发现自己缺少哪些工具？
+特定工具有任何性能问题吗？
+UI/UX 摩擦点？所有工具都遵循相同的隐私优先理念...
+您的数据保留在您的浏览器中。没有帐户，没有跟踪，没有服务器处理您的信息。
+该项目还证明您并不总是需要 React、Vue 或复杂的构建管道 - 有时单个 HTML 文件中的普通 JavaScript 正是完成这项工作的正确工具。普通 JavaScript (ES6+)
+CSS3 与 CSS 网格
+最少的外部库：marked.js、exifr、highlight.js、sql-formatter（全部来自 CDN）
+没有框架，没有捆绑器，没有 npm
+托管在 Github 页面上很高兴回答有关技术实现、设计决策或特定工具的问题！所有工具都是可检查的 - 只需在任何页面上查看源代码即可准确了解它们的工作原理！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46511469
+积分：113
+# 条评论：37]]></description>
+      <guid>https://blgardner.github.io/prism.tools/</guid>
+      <pubDate>Tue, 06 Jan 2026 12:33:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>系统：使用自然语言随时随地控制您的 Mac</title>
+      <link>https://system.surf/</link>
+      <description><![CDATA[文章网址：https://system.surf/
+评论网址：https://news.ycombinator.com/item?id=46511298
+积分：17
+# 条评论：7]]></description>
+      <guid>https://system.surf/</guid>
+      <pubDate>Tue, 06 Jan 2026 12:04:57 GMT</pubDate>
+    </item>
     <item>
       <title>AWS 在周六将 GPU 价格提高 15%，希望您没有注意到</title>
       <link>https://www.theregister.com/2026/01/05/aws_price_increase/</link>
       <description><![CDATA[文章网址：https://www.theregister.com/2026/01/05/aws_price_increase/
 评论网址：https://news.ycombinator.com/item?id=46511153
-积分：88
-# 条评论：11]]></description>
+积分：351
+# 条评论：234]]></description>
       <guid>https://www.theregister.com/2026/01/05/aws_price_increase/</guid>
       <pubDate>Tue, 06 Jan 2026 11:42:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：这是最好的纪元转换器吗？</title>
-      <link>https://epochconverter.dev/</link>
-      <description><![CDATA[我在日常工作中经常使用 epochconverter。厌倦了旧的 UI，我创建了新网站。使用现代 UI 元素完全重新设计了纪元转换器。查看 - https://epochconverter.dev/如果您有任何改进，请告诉我。喜欢就点个赞吧。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46510656
-积分：7
-# 条评论：1]]></description>
-      <guid>https://epochconverter.dev/</guid>
-      <pubDate>Tue, 06 Jan 2026 10:18:48 GMT</pubDate>
     </item>
     <item>
       <title>SCiZE 的经典 Warez 系列</title>
       <link>https://scenelist.org/</link>
       <description><![CDATA[文章网址：https://scenelist.org/
 评论网址：https://news.ycombinator.com/item?id=46510625
-积分：49
-# 条评论：11]]></description>
+积分：77
+# 条评论：27]]></description>
       <guid>https://scenelist.org/</guid>
       <pubDate>Tue, 06 Jan 2026 10:13:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>地铁列车可以利用量子物理规则在地铁中行驶</title>
+      <link>https://www.ianvisits.co.uk/articles/tube-trains-could-navigate-the-underground-using-the-weird-rules-of-quantum-physics-86370/</link>
+      <description><![CDATA[文章网址： https://www.ianvisits.co.uk/articles/tube-trains-could-navigate-the-underground-using-the-weird-rules-of-quantum-physicals-86370/
+评论网址：https://news.ycombinator.com/item?id=46509967
+积分：29
+# 条评论：59]]></description>
+      <guid>https://www.ianvisits.co.uk/articles/tube-trains-could-navigate-the-underground-using-the-weird-rules-of-quantum-physics-86370/</guid>
+      <pubDate>Tue, 06 Jan 2026 08:26:23 GMT</pubDate>
     </item>
     <item>
       <title>围住马</title>
       <link>https://enclose.horse/</link>
       <description><![CDATA[文章网址：https://enclose.horse/
 评论网址：https://news.ycombinator.com/item?id=46509211
-积分：472
-# 条评论：73]]></description>
+积分：694
+评论数：122]]></description>
       <guid>https://enclose.horse/</guid>
       <pubDate>Tue, 06 Jan 2026 06:01:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>后美国互联网</title>
-      <link>https://pluralistic.net/2026/01/01/39c3/</link>
-      <description><![CDATA[文章网址：https://pluralistic.net/2026/01/01/39c3/
-评论网址：https://news.ycombinator.com/item?id=46509019
-积分：353
-# 条评论：191]]></description>
-      <guid>https://pluralistic.net/2026/01/01/39c3/</guid>
-      <pubDate>Tue, 06 Jan 2026 05:20:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>GoGoGrandparent (YC S16) 正在招聘后端工程师</title>
-      <link>https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-gogograndparent-yc-s16-is-hiring-backend-and-full-stack-engineers</link>
-      <description><![CDATA[文章网址： https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-gogograndparent-yc-s16-is-hiring-backend-and-full-stack-engineers
-评论网址：https://news.ycombinator.com/item?id=46508441
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-gogograndparent-yc-s16-is-hiring-backend-and-full-stack-engineers</guid>
-      <pubDate>Tue, 06 Jan 2026 03:32:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>GBC 开机动画 88×31 网页按钮</title>
-      <link>https://zakhary.dev/blog/gbc-web-button</link>
-      <description><![CDATA[文章网址：https://zakhary.dev/blog/gbc-web-button
-评论网址：https://news.ycombinator.com/item?id=46507963
-积分：141
-# 条评论：13]]></description>
-      <guid>https://zakhary.dev/blog/gbc-web-button</guid>
-      <pubDate>Tue, 06 Jan 2026 02:20:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>I/O不再是瓶颈？ (2022)</title>
-      <link>https://stoppels.ch/2022/11/27/io-is-no-longer-the-bottleneck.html</link>
-      <description><![CDATA[文章网址：https://stoppels.ch/2022/11/27/io-is-no-longer-the-bottleneck.html
-评论网址：https://news.ycombinator.com/item?id=46506994
-积分：199
-评论数量：99]]></description>
-      <guid>https://stoppels.ch/2022/11/27/io-is-no-longer-the-bottleneck.html</guid>
-      <pubDate>Tue, 06 Jan 2026 00:02:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>奇怪的网站</title>
-      <link>https://strange.website/</link>
-      <description><![CDATA[文章网址：https://strange.website/
-评论网址：https://news.ycombinator.com/item?id=46506596
-积分：147
-# 条评论：55]]></description>
-      <guid>https://strange.website/</guid>
-      <pubDate>Mon, 05 Jan 2026 23:19:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025年人工智能为何没有“加入劳动力大军”？</title>
-      <link>https://calnewport.com/why-didnt-ai-join-the-workforce-in-2025/</link>
-      <description><![CDATA[文章网址：https://calnewport.com/why-didnt-ai-join-the-workforce-in-2025/
-评论网址：https://news.ycombinator.com/item?id=46505735
-积分：152
-# 条评论：215]]></description>
-      <guid>https://calnewport.com/why-didnt-ai-join-the-workforce-in-2025/</guid>
-      <pubDate>Mon, 05 Jan 2026 22:10:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
