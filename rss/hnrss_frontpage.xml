@@ -4,106 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 07 Jan 2026 18:34:22 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 21:21:39 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：感知动态数据的 LLM 响应缓存</title>
+      <link>https://blog.butter.dev/on-automatic-template-induction-for-response-caching</link>
+      <description><![CDATA[Raymond 来自 Butter.dev，这是一个作为聊天完成代理构建的 LLM 响应缓存。今天，我们将为该平台推出一项关键功能：概括动态、模板化输入的能力。HTTP 请求级别的缓存存在明显的概括性问题。由于模板化变量（如名称）和元数据（如时间戳），几乎没有请求是相同的，因此精确匹配的缓存查找很少命中。我们在 Butter 中通过使用 LLM 来检测请求中的动态内容并导出它们的相互关系来解决这个问题，从而允许将缓存条目存储为模板+变量+确定性代码。这允许未来的请求包含不同的可变数据，但仍通过缓存提供服务。我们发现这种方法极大地提高了缓存命中率，并相信它对于执行重复性后台任务、计算机使用或输入数据经常具有相同形状的数据转换的代理很有用。- 您可以在此处查看学习模式的演示：https://www.youtube.com/watch?v=ORDfPnk9rCA- 我们在此处撰写了有关技术方法的更多信息：https://blog.butter.dev/on-automatic-template-induction-for-...- 可以在此处免费试用：https://butter.dev/auth
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46532755
+积分：3
+# 条评论：0]]></description>
+      <guid>https://blog.butter.dev/on-automatic-template-induction-for-response-caching</guid>
+      <pubDate>Wed, 07 Jan 2026 21:04:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claude Code CLI 损坏</title>
+      <link>https://github.com/anthropics/claude-code/issues/16673</link>
+      <description><![CDATA[文章网址：https://github.com/anthropics/claude-code/issues/16673
+评论网址：https://news.ycombinator.com/item?id=46532075
+积分：47
+# 条评论：28]]></description>
+      <guid>https://github.com/anthropics/claude-code/issues/16673</guid>
+      <pubDate>Wed, 07 Jan 2026 20:25:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>默认情况下不再启用 Tailscale 状态文件加密</title>
+      <link>https://tailscale.com/changelog</link>
+      <description><![CDATA[文章网址：https://tailscale.com/changelog
+评论网址：https://news.ycombinator.com/item?id=46531925
+积分：53
+# 条评论：38]]></description>
+      <guid>https://tailscale.com/changelog</guid>
+      <pubDate>Wed, 07 Jan 2026 20:16:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>克劳德代码紧急行为：当技能结合时</title>
+      <link>https://vibeandscribe.xyz/posts/2025-01-07-emergent-behavior.html</link>
+      <description><![CDATA[文章网址：https://vibeandscribe.xyz/posts/2025-01-07-emergent-behavior.html
+评论网址：https://news.ycombinator.com/item?id=46531794
+积分：16
+# 条评论：2]]></description>
+      <guid>https://vibeandscribe.xyz/posts/2025-01-07-emergent-behavior.html</guid>
+      <pubDate>Wed, 07 Jan 2026 20:06:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI概念：未打补丁的数据泄露</title>
+      <link>https://www.promptarmor.com/resources/notion-ai-unpatched-data-exfiltration</link>
+      <description><![CDATA[文章网址：https://www.promptarmor.com/resources/notion-ai-unpatched-data-exfiltration
+评论网址：https://news.ycombinator.com/item?id=46531565
+积分：6
+# 条评论：1]]></description>
+      <guid>https://www.promptarmor.com/resources/notion-ai-unpatched-data-exfiltration</guid>
+      <pubDate>Wed, 07 Jan 2026 19:49:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>笔记本律师</title>
+      <link>https://avc.xyz/notebook-lawyer</link>
+      <description><![CDATA[文章网址：https://avc.xyz/notebook-lawyer
+评论网址：https://news.ycombinator.com/item?id=46531511
+积分：4
+# 条评论：0]]></description>
+      <guid>https://avc.xyz/notebook-lawyer</guid>
+      <pubDate>Wed, 07 Jan 2026 19:45:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国将禁止华尔街投资者购买单户住宅</title>
+      <link>https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/</link>
+      <description><![CDATA[文章网址： https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/
+评论网址：https://news.ycombinator.com/item?id=46531068
+积分：231
+# 条评论：221]]></description>
+      <guid>https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/</guid>
+      <pubDate>Wed, 07 Jan 2026 19:13:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>经典代币经历动荡后，NPM 将实施分阶段发布</title>
+      <link>https://socket.dev/blog/npm-to-implement-staged-publishing</link>
+      <description><![CDATA[文章网址：https://socket.dev/blog/npm-to-implement-staged-publishing
+评论网址：https://news.ycombinator.com/item?id=46530448
+积分：77
+# 条评论：7]]></description>
+      <guid>https://socket.dev/blog/npm-to-implement-staged-publishing</guid>
+      <pubDate>Wed, 07 Jan 2026 18:31:19 GMT</pubDate>
+    </item>
     <item>
       <title>一个标签囤积者的理智之旅</title>
       <link>https://twitter.com/borisandcrispin/status/2008709479068794989</link>
       <description><![CDATA[文章网址：https://twitter.com/borisandcrispin/status/2008709479068794989
 评论网址：https://news.ycombinator.com/item?id=46529797
-积分：18
-# 条评论：8]]></description>
+积分：61
+# 条评论：66]]></description>
       <guid>https://twitter.com/borisandcrispin/status/2008709479068794989</guid>
       <pubDate>Wed, 07 Jan 2026 17:54:25 GMT</pubDate>
     </item>
     <item>
-      <title>伊利诺伊州机构称，医疗保健数据泄露影响了超过 60 万患者</title>
-      <link>https://www.nprillinois.org/illinois/2026-01-06/health-care-data-breach-affects-600-000-patients-illinois-agency-says</link>
-      <description><![CDATA[文章网址： https://www.nprillinois.org/illinois/2026-01-06/health-care-data-breach-affects-600-000-患者-illinois-agency-says
-评论网址：https://news.ycombinator.com/item?id=46528353
-积分：47
-# 条评论：22]]></description>
-      <guid>https://www.nprillinois.org/illinois/2026-01-06/health-care-data-breach-affects-600-000-patients-illinois-agency-says</guid>
-      <pubDate>Wed, 07 Jan 2026 16:28:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>比尔G 经理</title>
-      <link>https://hardcoresoftware.learningbyshipping.com/p/019-billg-the-manager</link>
-      <description><![CDATA[文章网址：https://hardcoresoftware.learningbyshipping.com/p/019-billg-the-manager
-评论网址：https://news.ycombinator.com/item?id=46528192
-积分：26
-# 条评论：6]]></description>
-      <guid>https://hardcoresoftware.learningbyshipping.com/p/019-billg-the-manager</guid>
-      <pubDate>Wed, 07 Jan 2026 16:18:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nushell 案 (2023)</title>
-      <link>https://www.sophiajt.com/case-for-nushell/</link>
-      <description><![CDATA[文章网址：https://www.sophiajt.com/case-for-nushell/
-评论网址：https://news.ycombinator.com/item?id=46528142
-积分：34
-# 条评论：17]]></description>
-      <guid>https://www.sophiajt.com/case-for-nushell/</guid>
-      <pubDate>Wed, 07 Jan 2026 16:15:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Nvidia 开放模型构建语音代理</title>
-      <link>https://www.daily.co/blog/building-voice-agents-with-nvidia-open-models/</link>
-      <description><![CDATA[文章网址：https://www.daily.co/blog/building-voice-agents-with-nvidia-open-models/
-评论网址：https://news.ycombinator.com/item?id=46528045
-积分：10
-# 条评论：1]]></description>
-      <guid>https://www.daily.co/blog/building-voice-agents-with-nvidia-open-models/</guid>
-      <pubDate>Wed, 07 Jan 2026 16:08:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tailwind 的创始人解雇了 75% 的工程团队成员</title>
-      <link>https://github.com/tailwindlabs/tailwindcss.com/pull/2388</link>
-      <description><![CDATA[文章网址：https://github.com/tailwindlabs/tailwindcss.com/pull/2388
-评论网址：https://news.ycombinator.com/item?id=46527950
-积分：334
-# 条评论：197]]></description>
-      <guid>https://github.com/tailwindlabs/tailwindcss.com/pull/2388</guid>
-      <pubDate>Wed, 07 Jan 2026 16:02:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>WebDAV 的重重地狱：用 Go 编写客户端/服务器</title>
-      <link>https://candid.dev/blog/many-hells-of-webdav</link>
-      <description><![CDATA[文章网址：https://candid.dev/blog/many-hells-of-webdav
-评论网址：https://news.ycombinator.com/item?id=46527775
-积分：54
-# 条评论：32]]></description>
-      <guid>https://candid.dev/blog/many-hells-of-webdav</guid>
-      <pubDate>Wed, 07 Jan 2026 15:50:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>戴尔的 CES 2026 聊天是我 5 年来最愉快的非人工智能简报</title>
-      <link>https://www.pcgamer.com/hardware/dells-ces-2026-chat-was-the-most-pleasingly-un-ai-briefing-ive-had-in-maybe-5-years/</link>
-      <description><![CDATA[文章网址： https://www.pcgamer.com/hardware/dells-ces-2026-chat-was-the-most-pleasingly-un-ai-briefing-ive-had-in-maybe-5-years/
-评论网址：https://news.ycombinator.com/item?id=46527706
-积分：78
-# 条评论：35]]></description>
-      <guid>https://www.pcgamer.com/hardware/dells-ces-2026-chat-was-the-most-pleasingly-un-ai-briefing-ive-had-in-maybe-5-years/</guid>
-      <pubDate>Wed, 07 Jan 2026 15:46:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国职位空缺降至一年多来最低水平</title>
-      <link>https://www.bloomberg.com/news/articles/2026-01-07/us-job-openings-decline-to-lowest-level-in-more-than-a-year</link>
-      <description><![CDATA[文章网址：https://www.bloomberg.com/news/articles/2026-01-07/us-job-openings-decline-to-lowest-level-in-more-than-a-year
-评论网址：https://news.ycombinator.com/item?id=46527533
-积分：225
-# 条评论：215]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2026-01-07/us-job-openings-decline-to-lowest-level-in-more-than-a-year</guid>
-      <pubDate>Wed, 07 Jan 2026 15:32:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Shipmap.org</title>
-      <link>https://www.shipmap.org/</link>
-      <description><![CDATA[文章网址：https://www.shipmap.org/
-评论网址：https://news.ycombinator.com/item?id=46527161
-积分：174
-# 条评论：34]]></description>
-      <guid>https://www.shipmap.org/</guid>
-      <pubDate>Wed, 07 Jan 2026 15:03:41 GMT</pubDate>
+      <title>吃真正的食物</title>
+      <link>https://realfood.gov</link>
+      <description><![CDATA[文章网址：https://realfood.gov
+评论网址：https://news.ycombinator.com/item?id=46529237
+积分：210
+评论数：380]]></description>
+      <guid>https://realfood.gov</guid>
+      <pubDate>Wed, 07 Jan 2026 17:22:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
