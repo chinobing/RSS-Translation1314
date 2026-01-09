@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 09 Jan 2026 06:35:25 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 09:28:22 GMT</lastBuildDate>
+    <item>
+      <title>我的 C++ 编译器刚刚写了自己的同人小说（编译时推理）</title>
+      <link>https://www.reddit.com/r/programming/comments/1q831cb/my_c_compiler_just_wrote_its_own_fanfiction/</link>
+      <description><![CDATA[不是真的，但至少它产生了自己的主角。 我一直痴迷于将语言模型推向它们不属于的地方。去年夏天，它是一个用 6502 程序集编写的 NES 的 1KB 二元模型。这周，我认为即使是 1983 年的硬件对我来说运行时间也太多了。 因此我构建了一个完全在 C++ 编译阶段运行的二元语言模型。  从技术上讲，它是通过 constexpr 和模板元编程实现的马尔可夫链。模型的权重被硬编码在数组中。一个有趣的部分是实现随机数生成器：由于编译器（大部分）是确定性的（理所当然），因此我使用 FNV-1a 算法对 __TIME__ 和 __DATE__ 进行哈希处理，以生成 constexpr Xorshift32 RNG。 当您运行二进制文件时，CPU 会执行零数学运算。它只是打印一个由编译器幻觉的字符串，每次编译时都不同。 ```cpp // 当你喝咖啡时，这一行完成所有工作 static constexpr NameGenerator&lt;15&gt;;结果（种子，T）；  int main() { // 只打印一个烘焙到数据段中的常量 std::cout &lt;&lt; [结果.名称](http://结果.名称) &lt;&lt; std::endl; }  ``` 除了它的乐趣之外，我希望它证明了一点：瓶颈并不总是我们的硬件。我们有回旋余地来重新定义何时应该执行，并将确定性推理直接烘焙到二进制文件中。 代码在这里： https://github.com/erodola/bigram-metacpp   由   提交/u/Brief_Argument8155  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q831cb/my_c_compiler_just_wrote_its_own_fanfiction/</guid>
+      <pubDate>Fri, 09 Jan 2026 08:36:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的法学硕士编码工作流程将进入 2026 年，作者：Addy Osmani（Google）</title>
+      <link>https://www.reddit.com/r/programming/comments/1q81trq/my_llm_coding_workflow_going_into_2026_by_addy/</link>
+      <description><![CDATA[ 由   提交/u/RevillWeb  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q81trq/my_llm_coding_workflow_going_into_2026_by_addy/</guid>
+      <pubDate>Fri, 09 Jan 2026 07:21:58 GMT</pubDate>
+    </item>
     <item>
       <title>开放收据格式 (ORF)：开放的、与支付无关的数字收据标准</title>
       <link>https://www.reddit.com/r/programming/comments/1q7yvvw/open_receipt_format_orf_an_open_paymentagnostic/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[ 由   提交/u/AltruisticPrimary34  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q7gq2q/how_developers_use_cursor_ai_6_easy_tasks_beyond/</guid>
       <pubDate>Thu, 08 Jan 2026 16:43:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>科技博客的经验教训</title>
-      <link>https://www.reddit.com/r/programming/comments/1q7gl44/tech_blogging_lessons_learned/</link>
-      <description><![CDATA[慈善专业人士、antirez、Thorsten Ball、Eric Lippert、Sam Rose 的提示...   由   提交/u/swdevtest  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q7gl44/tech_blogging_lessons_learned/</guid>
-      <pubDate>Thu, 08 Jan 2026 16:38:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>较新的人工智能编码助手正以阴险的方式失败IEEE 频谱</title>
-      <link>https://www.reddit.com/r/programming/comments/1q7g6zv/newer_ai_coding_assistants_are_failing_in/</link>
-      <description><![CDATA[ 由   提交/u/angry_cactus  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q7g6zv/newer_ai_coding_assistants_are_failing_in/</guid>
-      <pubDate>Thu, 08 Jan 2026 16:23:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
