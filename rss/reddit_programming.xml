@@ -4,20 +4,27 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 09 Jan 2026 04:02:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 06:35:25 GMT</lastBuildDate>
+    <item>
+      <title>开放收据格式 (ORF)：开放的、与支付无关的数字收据标准</title>
+      <link>https://www.reddit.com/r/programming/comments/1q7yvvw/open_receipt_format_orf_an_open_paymentagnostic/</link>
+      <description><![CDATA[我一直致力于制定一个名为开放收据格式 (ORF) 的开放规范： https://openreceiptformat.github.io/orf-spec/ 以及支持该规范的生态系统（均为开源参考应用） https://openreceiptformat.github.io/Tommy-the-Tapir/ https://openreceiptformat.github.io/recipta/  这个想法很简单：收据是重要的记录，但今天它们被锁定在 POS 系统、支付提供商、电子邮件收件箱或专有应用程序中。 ORF 是： - 开放且供应商中立 - 明确不是支付标准 - 隐私至上（客户身份是可选的） - 设计为即使没有 POS API 也能工作 - 适用于实体和在线商务 它支持例如： - 草稿、确认和验证收据 - 人工确认（收银员/系统），而不仅仅是 API 信任 - QR / NFC / 基于链接的收据交付 - 用户设备上的本地优先收据存储 目标不是取代 POS 系统或支付 - 而是为人们提供可在个人财务工具、笔记中使用的便携式、结构化收据应用程序、审计或知识库。 规范很早，但可用，非常欢迎反馈： - 范围有意义吗？ - 缺少什么？ - 这在现实世界中会在哪里出现问题？ 很高兴回答问题或听到批评。   由   提交 /u/mikeatmnl   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q7yvvw/open_receipt_format_orf_an_open_paymentagnostic/</guid>
+      <pubDate>Fri, 09 Jan 2026 04:43:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>缓存非确定性 LLM 响应的惊人复杂性</title>
+      <link>https://www.reddit.com/r/programming/comments/1q7ykin/the_surprising_complexity_of_caching/</link>
+      <description><![CDATA[我一直致力于在开发过程中降低 API 成本，但遇到了一个有趣的问题：如何缓存来自非确定性系统的响应？ 简单的方法不起作用： 您可能会认为：对请求进行哈希处理，缓存响应。但法学硕士的温度&gt; 0 对于相同的提示返回不同的响应。即使在 温度=0 下，某些模型也不是完全确定的。 对缓存键真正重要的是什么： 经过一些实验，我发现缓存需要考虑：  提示规范化至关重要 - 开发人员复制粘贴混乱。 “Hello\n” 与 “Hello” 与 “Hello” 应该命中相同的缓存。折叠空格和去除尾随空格将命中率提高了约 40%。 模型别名会破坏缓存 - gpt-4-turbo-latest 和 gpt-4-turbo-2024-04-09 可能指向同一模型，但它们的哈希值不同。您需要对它们进行标准化。 参数敏感性 - 温度对于缓存键很重要，但max_tokens则不然（它只是截断）。弄清楚哪些参数影响确定性，哪些参数只是输出格式是反复试验的结果。  流式传输问题： 流式响应是实时转发的（显然），但如何缓存它们？在流式传输开始之前，您不能等待完整的响应。目前的做法：立即转发，在后台重建并缓存。有效，但感觉很hacky。 我学到的东西：  JSON 的确定性哈希比看起来更难（关键排序很重要） LLM 的缓存失效很奇怪 - 响应不会“过期”在传统意义上 大多数收益来自开发迭代，而不是生产（相同提示的重复调试）  如果有人想查看实现细节，代码位于附加的链接中。 好奇其他人是否以不同的方式解决了这个问题。如何处理非确定性 API 的缓存？   由   提交/u/decentralizedbee  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q7ykin/the_surprising_complexity_of_caching/</guid>
+      <pubDate>Fri, 09 Jan 2026 04:27:11 GMT</pubDate>
+    </item>
     <item>
       <title>拉尔夫·威格姆实验：人工智能能否通过迭代循环进行有意义的自我改进？</title>
       <link>https://www.reddit.com/r/programming/comments/1q7x805/the_ralph_wiggum_experiment_can_ai_meaningfully/</link>
       <description><![CDATA[ 由   提交/u/utpalnadiger  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q7x805/the_ralph_wiggum_experiment_can_ai_meaningfully/</guid>
       <pubDate>Fri, 09 Jan 2026 03:23:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>VFX AI 测试版用户 - 高级视频剪辑和编辑 [免费]</title>
-      <link>https://www.reddit.com/r/programming/comments/1q7uxuh/beta_users_for_vfx_ai_premium_video_clipping/</link>
-      <description><![CDATA[大家好， 我是 Aarav，宾夕法尼亚大学沃顿商学院本科生，也是 VFX AI 的创始人，VFX AI 是世界上第一个针对流媒体和剪辑师的人工智能视频平台。我们在几分钟内提供优质视频剪辑和编辑服务。 我们正在寻找测试版用户来测试我们的平台。 您将获得： - 3 个月免费使用专业产品。 - 测试期间优先处理 - 在公开发布之前抢先体验新视频功能 有兴趣吗？ DM 我“阿尔法”开始吧。   由   提交/u/SadAd6531   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q7uxuh/beta_users_for_vfx_ai_premium_video_clipping/</guid>
-      <pubDate>Fri, 09 Jan 2026 01:42:42 GMT</pubDate>
     </item>
     <item>
       <title>从 DevX 到 BotX</title>
@@ -36,7 +43,7 @@
     <item>
       <title>我希望作为一名开发人员能够早点理解测试基础知识</title>
       <link>https://www.reddit.com/r/programming/comments/1q7ricq/testing_fundamentals_i_wish_i_understood_earlier/</link>
-      <description><![CDATA[我注意到很多开发人员（包括过去的我）在理解为什么测试失败或要测试什么之前就跳入框架。 我写了一篇基础知识第一的文章，涵盖：  单元、集成与端到端 什么使测试有用 常见测试反模式 如何测试实际上有助于长期提高速度  博客链接：https://www.hexplain.space/blog/tt4bwNwfenmcQDT29U2e 什么测试概念对您来说迟来了？   由   提交/u/third_void  [链接] [评论]]]></description>
+      <description><![CDATA[我注意到很多开发人员（包括过去的我）在理解为什么测试失败或要测试什么之前就跳入了框架。 我写了一篇基础知识第一的文章，涵盖：  单元、集成与端到端 什么使测试有用 常见的测试反模式 如何测试实际上有助于长期提高速度  博客链接：https://www.hexplain.space/blog/tt4bwNwfenmcQDT29U2e 什么测试概念对您来说迟来了？   由   提交/u/third_void  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q7ricq/testing_fundamentals_i_wish_i_understood_earlier/</guid>
       <pubDate>Thu, 08 Jan 2026 23:18:32 GMT</pubDate>
     </item>
@@ -99,16 +106,9 @@
     <item>
       <title>较新的人工智能编码助手正以阴险的方式失败IEEE 频谱</title>
       <link>https://www.reddit.com/r/programming/comments/1q7g6zv/newer_ai_coding_assistants_are_failing_in/</link>
-      <description><![CDATA[ 由   提交/u/angry_cactus  [链接] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/angry_cactus  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q7g6zv/newer_ai_coding_assistants_are_failing_in/</guid>
       <pubDate>Thu, 08 Jan 2026 16:23:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tailwind 刚刚解雇了 75% 的工程团队人员</title>
-      <link>https://www.reddit.com/r/programming/comments/1q7f4xi/tailwind_just_laid_off_75_of_their_engineering/</link>
-      <description><![CDATA[ 由   提交/u/corp_code_slinger  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q7f4xi/tailwind_just_laid_off_75_of_their_engineering/</guid>
-      <pubDate>Thu, 08 Jan 2026 15:44:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
