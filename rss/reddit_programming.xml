@@ -4,7 +4,42 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 09 Jan 2026 09:28:22 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 12:45:12 GMT</lastBuildDate>
+    <item>
+      <title>为什么 GPT-5.2 和 Opus 4.5 是编码的飞跃</title>
+      <link>https://www.reddit.com/r/programming/comments/1q878q9/why_gpt52_and_opus_45_are_a_leap_forward_for/</link>
+      <description><![CDATA[自从这些型号问世以来，炒作表盘似乎已经变成了 11...   由   提交 /u/scarey102   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q878q9/why_gpt52_and_opus_45_are_a_leap_forward_for/</guid>
+      <pubDate>Fri, 09 Jan 2026 12:41:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们仍然像 20 世纪 80 年代一样进行调试</title>
+      <link>https://www.reddit.com/r/programming/comments/1q86jo3/we_still_debug_like_its_the_1980s/</link>
+      <description><![CDATA[ 由   提交/u/hirsimaki-markus  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q86jo3/we_still_debug_like_its_the_1980s/</guid>
+      <pubDate>Fri, 09 Jan 2026 12:05:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>战争：安全需要更新，开发人员想要有效的构建</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8670x/war_security_wants_updates_devs_want_builds_that/</link>
+      <description><![CDATA[安全团队通常专注于降低风险，这意味着告诉开发人员将依赖项升级到最新版本以避免 cve。另一方面，开发团队通常通过他们交付和保持稳定的程度来衡量，所以他们认为如果他们改变它就会破坏，所以他们遵循“如果没有破坏，就不要碰它”的方法。 这是团队的常见情况，还是只是一个有趣的模因？如果是真的，团队多久会遇到这种情况，现在是否有任何可用的解决方案，或者它仍然是一个需要修复的未解决问题？ 我创建一家软件供应链安全公司，我们的产品旨在从进攻的角度（而不仅仅是防御的角度）发现依赖项和整个软件供应链中的漏洞，我很想知道这是否是团队使用当前工具面临的真正的、持续的挑战，或者是否已经存在完善的解决方案。如果仍然存在差距，我们希望直接在我们的产品中解决它们。 此外，如果您有有趣的故事 - 最令人沮丧的依赖项升级是什么。你曾经不得不处理过吗？ （Java、npm、Python、OpenSSL…分享你的故事，让我们了解痛苦！）     提交href=&quot;https://www.reddit.com/user/StrikingExperience25&quot;&gt;/u/StrikingExperience25  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8670x/war_security_wants_updates_devs_want_builds_that/</guid>
+      <pubDate>Fri, 09 Jan 2026 11:46:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么移动应用程序不征求分析数据收集的同意？</title>
+      <link>https://www.reddit.com/r/programming/comments/1q84vpz/why_are_mobile_apps_not_asking_for_consent_for/</link>
+      <description><![CDATA[这项研究有些陈旧，但比以往任何时候都更相关，因为应用程序商店中每天发布的应用程序数量惊人。 研究表明，该应用程序严重缺乏对数据隐私法规的遵守，这意味着很大一部分移动应用程序未能获得有效的用户同意来按照 GDPR 等法律的要求收集分析数据。虽然 GDPR 是针对欧盟的，但许多国家（巴西、印度、澳大利亚、韩国、英国等）和美国的许多州正在隐私监管竞赛中迎头赶上。 我们习惯于在网站上看到（是的，烦人的）cookie 同意问题。大多数移动应用程序也会收集分析数据，但我几乎没有看到任何移动应用程序要求用户同意收集分析数据。 即使使用隐私友好的解决方案，许多法规也规定，如果应用程序的功能不需要收集的数据，则需要征求用户的同意。许多人以“合法利益”为借口躲藏起来。但它有点难以防御，因为应用程序的运行不一定需要分析。不要因此责怪我，这就是法规的实际规定 - 无论我们认为它是否有意义。 但这并不意味着分析变得不重要。了解应用程序的使用方式确实很重要，这样我们才能改进应用程序。 这是我迄今为止的看法：  使用隐私优先的移动分析解决方案，该解决方案基本上会阻止个人身份信息 (PII) 的存储。 不要在分析中保存自定义字段，因为人为/开发人员错误可能会导致无意中存储 PII。存储的分析数据的形式应使其无法连接到个人 请求用户同意收集分析数据，即使在使用隐私优先的移动分析解决方案时也是如此。法规非常复杂，无论您的分析解决方案对隐私有多友好，其中一些法规仍然可能要求您征求用户同意。您发现一项法规可以免除您仅在进行用户分析时征求用户同意的义务，但这并不意味着您将遵守世界各地的所有隐私法规。  现在，您可以说... 等一下！如果我仍然会征求用户同意，我到底为什么要使用隐私优先的移动分析解决方案？ 因为：如果您将 PII 数据存储在分析中，您的责任就会呈指数级增长。首先，您与第三方公司共享 PII 数据。他们实际上用它做什么？所有提供完全免费或极其慷慨的免费套餐的平台；为什么这些解决方案实际上是免费的？它们对数据做了什么？此外，如果您将 PII 数据保存在分析中，您还需要开始承担数据删除请求的责任。如果有人要求您（假设您有移动应用程序）从系统中删除他/她的数据，您还需要清理分析数据。我想知道有多少开发者真正知道如何清理这些数据？ 征求用户同意。也许一半的用户会拒绝分析数据收集，但这没关系。在流量正常的情况下，应该仍然可以了解应用程序的使用方式。 使用隐私优先的移动分析解决方案，不要保存 PII 数据，这样当用户要求您从系统中删除他/她的数据时，您可以确保实际上没有任何可删除的内容（就分析数据而言）。但是，请跳过与第三方公司共享用户数据的责任。 隐私优先移动分析解决方案的缺点： - 忘记跟踪。特别是如果您正在投放广告，衡量广告的影响就变得更加困难。不幸的是，没有人能找到一个好的解决方案，这让包括我在内的许多人感到害怕。 - 您将无法获得一些长期趋势，即每月活跃的唯一用户数。如果一个解决方案声称他们首先是隐私，然后还告诉您可以获得每月活跃唯一用户等统计数据，那么您应该质疑它对隐私的友好程度。 值得一提的是，我不是律师，我在这里分享的所有内容都不是法律建议。这只是我的经验的收集和总结；我关心隐私，但我也发现这很难，而且在移动应用程序开发领域仍然令人难以置信地被忽视。 很高兴听到其他人对此主题的看法。   由   提交/u/cesncn   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q84vpz/why_are_mobile_apps_not_asking_for_consent_for/</guid>
+      <pubDate>Fri, 09 Jan 2026 10:31:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>正确进行二分查找比您想象的要困难</title>
+      <link>https://www.reddit.com/r/programming/comments/1q841bg/doing_binary_search_right_is_harder_than_you/</link>
+      <description><![CDATA[ 由   提交/u/xarg  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q841bg/doing_binary_search_right_is_harder_than_you/</guid>
+      <pubDate>Fri, 09 Jan 2026 09:39:23 GMT</pubDate>
+    </item>
     <item>
       <title>我的 C++ 编译器刚刚写了自己的同人小说（编译时推理）</title>
       <link>https://www.reddit.com/r/programming/comments/1q831cb/my_c_compiler_just_wrote_its_own_fanfiction/</link>
@@ -57,7 +92,7 @@
     <item>
       <title>我希望作为一名开发人员能够早点理解测试基础知识</title>
       <link>https://www.reddit.com/r/programming/comments/1q7ricq/testing_fundamentals_i_wish_i_understood_earlier/</link>
-      <description><![CDATA[我注意到很多开发人员（包括过去的我）在理解为什么测试失败或要测试什么之前就跳入了框架。 我写了一篇基础知识第一的文章，涵盖：  单元、集成与端到端 什么使测试有用 常见的测试反模式 如何测试实际上有助于长期提高速度  博客链接：https://www.hexplain.space/blog/tt4bwNwfenmcQDT29U2e 什么测试概念对您来说迟来了？   由   提交/u/third_void  [链接] [评论]]]></description>
+      <description><![CDATA[我注意到很多开发人员（包括过去的我）在理解为什么测试失败或要测试什么之前就跳入框架。 我写了一篇基础知识第一的文章，涵盖：  单元、集成与端到端 什么使测试有用 常见测试反模式 如何测试实际上有助于长期提高速度  博客链接：https://www.hexplain.space/blog/tt4bwNwfenmcQDT29U2e 什么测试概念对您来说迟来了？   由   提交/u/third_void  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q7ricq/testing_fundamentals_i_wish_i_understood_earlier/</guid>
       <pubDate>Thu, 08 Jan 2026 23:18:32 GMT</pubDate>
     </item>
@@ -74,41 +109,6 @@
       <description><![CDATA[ 由   提交 /u/the-_Ghost   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q7ly2o/template_deduction_the_hidden_copies_killing_your/</guid>
       <pubDate>Thu, 08 Jan 2026 19:49:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>IBM AI（“Bob”）下载并执行恶意软件</title>
-      <link>https://www.reddit.com/r/programming/comments/1q7kf5w/ibm_ai_bob_downloads_and_executes_malware/</link>
-      <description><![CDATA[ 由   提交 /u/R2_SWE2   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q7kf5w/ibm_ai_bob_downloads_and_executes_malware/</guid>
-      <pubDate>Thu, 08 Jan 2026 18:54:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>较新的人工智能编码助手正在以阴险的方式失败</title>
-      <link>https://www.reddit.com/r/programming/comments/1q7im8l/newer_ai_coding_assistants_are_failing_in/</link>
-      <description><![CDATA[ 由   提交 /u/IEEESpectrum   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q7im8l/newer_ai_coding_assistants_are_failing_in/</guid>
-      <pubDate>Thu, 08 Jan 2026 17:51:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>信念传播：用于训练推理模型的反向传播的模糊替代方案</title>
-      <link>https://www.reddit.com/r/programming/comments/1q7h4rz/belief_propagation_obscure_alternative_to/</link>
-      <description><![CDATA[ 由   提交/u/DataBaeBee  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q7h4rz/belief_propagation_obscure_alternative_to/</guid>
-      <pubDate>Thu, 08 Jan 2026 16:58:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>我如何使用 Claude AI 和 Eiffel 在 60 天内编写 240,000 多行生产代码</title>
-      <link>https://www.reddit.com/r/programming/comments/1q7gvq9/how_i_wrote_240000_lines_of_production_code_in_60/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q7gvq9/how_i_wrote_240000_lines_of_production_code_in_60/</guid>
-      <pubDate>Thu, 08 Jan 2026 16:49:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>开发人员如何使用 Cursor AI：除了代码生成之外的 6 个简单任务</title>
-      <link>https://www.reddit.com/r/programming/comments/1q7gq2q/how_developers_use_cursor_ai_6_easy_tasks_beyond/</link>
-      <description><![CDATA[ 由   提交/u/AltruisticPrimary34  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q7gq2q/how_developers_use_cursor_ai_6_easy_tasks_beyond/</guid>
-      <pubDate>Thu, 08 Jan 2026 16:43:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
