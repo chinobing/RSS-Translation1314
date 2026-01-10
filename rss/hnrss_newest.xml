@@ -4,115 +4,120 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 10 Jan 2026 01:44:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 03:57:27 GMT</lastBuildDate>
     <item>
-      <title>Show HN：将任何主题变成 3Blue1Brown 风格的视频</title>
-      <link>https://github.com/mateolafalce/topic2manim</link>
-      <description><![CDATA[嘿，HN！我构建了 Topic2Manim 来自动创建教育视频 
-就像 3Blue1Brown 中的那样。工作流程很简单：1.给它任何主题（例如，“ChatGPT 的工作原理”）2.法学硕士生成分为多个场景的教育脚本3。 LLM 为每个场景生成 Manim 代码4。 FFmpeg 将所有内容连接到最终视频目前正在致力于 TTS 集成以进行旁白！希望获得有关 TTS 集成的方法和想法的反馈
+      <title>高代理工程</title>
+      <link>https://edtw.in/high-agency-engineering/</link>
+      <description><![CDATA[文章网址：https://edtw.in/high-agency-engineering/
+评论网址：https://news.ycombinator.com/item?id=46562562
+积分：1
+# 条评论：0]]></description>
+      <guid>https://edtw.in/high-agency-engineering/</guid>
+      <pubDate>Sat, 10 Jan 2026 03:48:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>编剧对人工智能的谎言</title>
+      <link>https://elliotgrove.substack.com/p/7-lies-screenwriters-tell-themselves</link>
+      <description><![CDATA[文章网址：https://elliotgrove.substack.com/p/7-lies-screenwriters-tell-themselves
+评论网址：https://news.ycombinator.com/item?id=46562533
+积分：1
+# 条评论：0]]></description>
+      <guid>https://elliotgrove.substack.com/p/7-lies-screenwriters-tell-themselves</guid>
+      <pubDate>Sat, 10 Jan 2026 03:41:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：为学习者暂停并解释代码的 JavaScript 解释器</title>
+      <link>https://www.codesteps.dev/learn-javascript/editor?s=p6klVe</link>
+      <description><![CDATA[这是我的一个激情/爱好项目，我的目标是让学习如何编码变得更容易。即使是理解像“let sum = num1 + num2;”这样的简单行也几乎是不可能的，除非你投入一些时间阅读/学习来理解计算机如何运行这些东西。我正在构建这个工具来弥补与执行环境之间的差距，该执行环境只是解释它在运行代码时所做的一切。它就像一个调试器，但通过以初学者友好的术语解释每个步骤，以便您可以准确地看到幕后发生的事情。其他一些示例演示了它是如何工作的：
+* 布尔条件： https://www.codesteps.dev/learn-javascript/editor?s=HOVtlD
+* 圆的面积： https://www.codesteps.dev/learn-javascript/editor?s=ed6l8w 
+* 斐波那契（递归）：https://www.codesteps.dev/learn-javascript/editor?s=vEmzDo如果您想知道其工作原理，请了解一些技术：这是一个树行走解释器，在 AST 的每个节点处暂停而不是运行解释器在循环中。在此暂停期间，我检查当前节点、父节点、子节点、状态堆栈、调用堆栈，并运行一堆 if/else 语句以跳过解释，或将一些字符串组合在一起以解释执行中此阶段发生的情况以及下一步是什么。没有法学硕士参与生成解释。如果你教人们编码，我很想听听你是否觉得这有用。如果您想学习如何编写/阅读代码，我也很想听听您是否觉得这有帮助。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46561801
+评论网址：https://news.ycombinator.com/item?id=46562498
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/mateolafalce/topic2manim</guid>
-      <pubDate>Sat, 10 Jan 2026 01:35:53 GMT</pubDate>
+      <guid>https://www.codesteps.dev/learn-javascript/editor?s=p6klVe</guid>
+      <pubDate>Sat, 10 Jan 2026 03:33:42 GMT</pubDate>
     </item>
     <item>
-      <title>规划后，工作历史分散在工具和人们的头脑中</title>
-      <link>https://news.ycombinator.com/item?id=46561796</link>
-      <description><![CDATA[在规划任务之后，当实际开始执行时，工作就会分解为跨职能团队的依赖关系 -&gt; 人员 x 等待人员 y。
-随着时间的推移，工作历史变得混乱并分散在不同的工具和媒介中。聊天、电子邮件线程和标记会议逐渐消失，导致后续行动模糊、错过工作以及需要手动记住事情。
-我构建了一个工具来保持工作承诺和他们从开始到结束的共同执行。将其视为工作的版本控制，其中的单元不是消息，而是工作项，其他一切都围绕它展开。
-非常感谢对此进行讨论或提出异议。查看登陆以获得更好的理解 -&gt; https://forthora.com
+      <title>人工智能规范驱动开发</title>
+      <link>https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/</link>
+      <description><![CDATA[文章网址：https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
+评论网址：https://news.ycombinator.com/item?id=46562474
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/</guid>
+      <pubDate>Sat, 10 Jan 2026 03:30:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>专家表示，人工智能正在加剧在线信任的“崩溃”</title>
+      <link>https://www.nbcnews.com/tech/tech-news/experts-warn-collapse-trust-online-ai-deepfakes-venezuela-rcna252472</link>
+      <description><![CDATA[文章网址：https://www.nbcnews.com/tech/tech-news/experts-warn-collapse-trust-online-ai-deepfakes-venezuela-rcna252472
+评论网址：https://news.ycombinator.com/item?id=46562460
+积分：4
+# 条评论：0]]></description>
+      <guid>https://www.nbcnews.com/tech/tech-news/experts-warn-collapse-trust-online-ai-deepfakes-venezuela-rcna252472</guid>
+      <pubDate>Sat, 10 Jan 2026 03:25:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>公共货币公共代码</title>
+      <link>https://publiccode.eu/en/</link>
+      <description><![CDATA[文章网址：https://publiccode.eu/en/
+评论网址：https://news.ycombinator.com/item?id=46562458
+积分：2
+# 条评论：0]]></description>
+      <guid>https://publiccode.eu/en/</guid>
+      <pubDate>Sat, 10 Jan 2026 03:24:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>具有眼动追踪技术的自动对焦智能眼镜可能会让双焦点眼镜过时</title>
+      <link>https://hothardware.com/news/autofocusing-smart-glasses-with-eye-tracking-tech-could-make-bifocals-obsolete</link>
+      <description><![CDATA[文章网址：https://hothardware.com/news/autofocusing-smart-glasses-with-eye-tracking-tech-could-make-bifocals-obsolete
+评论网址：https://news.ycombinator.com/item?id=46562452
+积分：2
+# 条评论：0]]></description>
+      <guid>https://hothardware.com/news/autofocusing-smart-glasses-with-eye-tracking-tech-could-make-bifocals-obsolete</guid>
+      <pubDate>Sat, 10 Jan 2026 03:22:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>2. 标题：Show HN：第一个通过 OCuLink 用于 IBM POWER8 的现代 Nvidia 驱动程序</title>
+      <link>https://github.com/Scottcjn/nvidia-power8-patches</link>
+      <description><![CDATA[文章网址：https://github.com/Scottcjn/nvidia-power8-patches
+评论网址：https://news.ycombinator.com/item?id=46562440
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/Scottcjn/nvidia-power8-patches</guid>
+      <pubDate>Sat, 10 Jan 2026 03:19:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：用于数据工作流的 Base44 风格构建器（由 DuckDB 驱动）</title>
+      <link>https://www.gptbeyond.com/try</link>
+      <description><![CDATA[我不断重建相同的 CSV 工作流程（协调导出、创建老化计划、将月份拼接在一起），因此我构建了一个仅在浏览器中进行的小型实验。这使您可以构建由 DuckDB 支持的完整的、基于节点的数据工作流程 — 所有工作流程都完全在浏览器中运行。您可以：
+- 上传 CSV
+- 创建并连接节点
+- 协调数据集
+- 建立老化时间表
+- 用简单的英语提出问题，并查看实时生成的 DuckDB SQL 和完整的工作流程
+- 在每一步检查和修改 SQL考虑“Base44 风格的 UX”，但针对的是数据工作流而不是应用程序。这是有意为之的早期：
+- 仅 CSV
+- 没有坚持
+- 使用受到限制但我很好奇这种工作流程优先的方法是否有用还是死胡同。https://www.gptbeyond.com非常欢迎提供反馈 - 特别是缺少原语、用户体验问题或您希望支持的工作流程。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46561796
+评论网址：https://news.ycombinator.com/item?id=46562425
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46561796</guid>
-      <pubDate>Sat, 10 Jan 2026 01:34:35 GMT</pubDate>
+      <guid>https://www.gptbeyond.com/try</guid>
+      <pubDate>Sat, 10 Jan 2026 03:15:59 GMT</pubDate>
     </item>
     <item>
-      <title>如果 Starmer 禁止 X，英国将受到制裁</title>
-      <link>https://www.telegraph.co.uk/business/2026/01/09/uk-threatened-with-sanctions-if-starmer-bans-x/</link>
-      <description><![CDATA[文章网址：https://www.telegraph.co.uk/business/2026/01/09/uk-threatened-with-sanctions-if-starmer-bans-x/
-评论网址：https://news.ycombinator.com/item?id=46561784
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.telegraph.co.uk/business/2026/01/09/uk-threatened-with-sanctions-if-starmer-bans-x/</guid>
-      <pubDate>Sat, 10 Jan 2026 01:33:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>并非所有浏览器 API 都是“Web”API</title>
-      <link>https://polypane.app/blog/not-all-browser-apis-are-web-apis/</link>
-      <description><![CDATA[文章网址：https://polypane.app/blog/not-all-browser-apis-are-web-apis/
-评论网址：https://news.ycombinator.com/item?id=46561783
-积分：1
-# 条评论：0]]></description>
-      <guid>https://polypane.app/blog/not-all-browser-apis-are-web-apis/</guid>
-      <pubDate>Sat, 10 Jan 2026 01:33:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Asset Hoard – 独立游戏开发者的本地优先资产管理器（测试版）</title>
-      <link>https://assethoard.com</link>
-      <description><![CDATA[文章网址：https://assethoard.com
-评论网址：https://news.ycombinator.com/item?id=46561752
+      <title>mRNA 注射使小鼠的时间倒转</title>
+      <link>https://singularityhub.com/2026/01/08/aging-weakens-immunity-an-mrna-shot-turned-back-the-clock-in-mice/</link>
+      <description><![CDATA[文章网址：https://singularityhub.com/2026/01/08/aging-weakens-immunity-an-mrna-shot-turned-back-the-clock-in-mice/
+评论网址：https://news.ycombinator.com/item?id=46562424
 积分：1
 # 条评论：1]]></description>
-      <guid>https://assethoard.com</guid>
-      <pubDate>Sat, 10 Jan 2026 01:29:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Awesome-Nanobanana-Prompts</title>
-      <link>https://github.com/Transcendo/awesome-nanobanana-prompts</link>
-      <description><![CDATA[我策划了一个带有图像示例的 Nano Banana / Nano Banana Pro 提示库。
-默认情况下，提示是折叠的，因此您可以先浏览图像，然后展开提示。
-欢迎反馈/贡献。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46561739
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/Transcendo/awesome-nanobanana-prompts</guid>
-      <pubDate>Sat, 10 Jan 2026 01:26:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hush Line 评论：记者和律师可使用的举报平台</title>
-      <link>https://www.privacyguides.org/posts/2026/01/09/hush-line-review-an-accessible-whistleblowing-platform-for-journalists-and-lawyers-alike/</link>
-      <description><![CDATA[文章网址： https://www.privacyguides.org/posts/2026/01/09/hush-line-review-an-accessible-whistleblowing-platform-for-journalists-and-lawyers-alike/
-评论网址：https://news.ycombinator.com/item?id=46561736
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.privacyguides.org/posts/2026/01/09/hush-line-review-an-accessible-whistleblowing-platform-for-journalists-and-lawyers-alike/</guid>
-      <pubDate>Sat, 10 Jan 2026 01:26:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple 失去 Safari 首席设计师，转投浏览器公司</title>
-      <link>https://www.macrumors.com/2026/01/08/apple-loses-safari-designer-to-the-browser-company/</link>
-      <description><![CDATA[文章网址：https://www.macrumors.com/2026/01/08/apple-loses-safari-designer-to-the-browser-company/
-评论网址：https://news.ycombinator.com/item?id=46561734
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.macrumors.com/2026/01/08/apple-loses-safari-designer-to-the-browser-company/</guid>
-      <pubDate>Sat, 10 Jan 2026 01:25:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>火山模型数据库管理系统</title>
-      <link>https://www.oreateai.com/blog/volcano-model-research-on-the-scalable-architecture-of-database-query-systems/79e43b2337079f11e37f84d66bd900db</link>
-      <description><![CDATA[文章网址： https://www.oreateai.com/blog/volcano-model-research-on-the-scalable-architecture-of-database-query-systems/79e43b2337079f11e37f84d66bd900db
-评论网址：https://news.ycombinator.com/item?id=46561699
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.oreateai.com/blog/volcano-model-research-on-the-scalable-architecture-of-database-query-systems/79e43b2337079f11e37f84d66bd900db</guid>
-      <pubDate>Sat, 10 Jan 2026 01:21:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>诺贝尔奖不能撤销、分享或转让</title>
-      <link>https://www.nobelpeaceprize.org/press/press-releases/a-nobel-prize-cannot-be-revoked-shared-or-transferred</link>
-      <description><![CDATA[文章网址：https://www.nobelpeaceprize.org/press/press-releases/a-nobel-prize-cannot-be-revoked-shared-or-transferred
-评论网址：https://news.ycombinator.com/item?id=46561684
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.nobelpeaceprize.org/press/press-releases/a-nobel-prize-cannot-be-revoked-shared-or-transferred</guid>
-      <pubDate>Sat, 10 Jan 2026 01:19:11 GMT</pubDate>
+      <guid>https://singularityhub.com/2026/01/08/aging-weakens-immunity-an-mrna-shot-turned-back-the-clock-in-mice/</guid>
+      <pubDate>Sat, 10 Jan 2026 03:15:43 GMT</pubDate>
     </item>
     </channel>
 </rss>

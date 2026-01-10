@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 10 Jan 2026 01:42:31 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 03:56:30 GMT</lastBuildDate>
+    <item>
+      <title>我用 C++20 编写了一个小型的仅包含头文件的 WebSocket 库，因为我显然讨厌自己</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8tlw4/i_wrote_a_tiny_headeronly_websocket_library_in/</link>
+      <description><![CDATA[嘿伙计们👋 我完全意识到世界不需要需要另一个 C++ WebSocket 库 - 但在与现有库斗争太久之后，我最终编写了自己的库而不是碰草。 它被称为 wspp，它是一个仅标头的 C++20 WebSocket 客户端/服务器 库。没有 Boost，没有 ASIO 依赖汤，没有宏观体操。只是现代 C++ 和反应器式异步循环。 我并不是说它是革命性的或比你最喜欢的库更好。这主要是由于：  “这应该更简单” “为什么需要 5 个依赖项？” “当然 RFC 6455 并没有那么糟糕”（确实如此）  一些亮点（如果您仍在阅读）：  仅标头（将其放入并继续） WS 和 WSS（OpenSSL 可选） 异步/非阻塞 Windows + Linux 通过 Autobahn 测试（这最让我惊讶） 围绕 C++20 设计，而不是假装是 2008 年  我一直在自己的项目中使用它，并认为在它在我的 SSD 上永远烂掉之前我会分享它。如果没有别的，也许它很有用：  一个轻量级的替代方案 一个参考实现 或者在评论中大喊大叫的东西😄  Repo +示例+文档在这里： 👉 https://github.com/pinwhell/wspp 反馈、挑剔、“你为什么不直接使用 X”或“这太糟糕了，这就是原因”都非常受欢迎。我仍在学习中，我宁愿现在就听到它，也不愿在有人在其基础上构建一些重要的东西之后才听到它。 感谢您阅读❤️   由   提交/u/Previous_Bake7736   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8tlw4/i_wrote_a_tiny_headeronly_websocket_library_in/</guid>
+      <pubDate>Sat, 10 Jan 2026 03:41:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>我构建了一些东西来解决我一直遇到的问题：我想在我的项目中嵌入人工智能功能（聊天机器人、内容生成器），但不想管理 API 密钥、构建后端或按请求付费。</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8sgtj/i_built_something_to_solve_a_problem_i_kept/</link>
+      <description><![CDATA[方法：Scaffold 不调用 OpenAI 的 API，而是生成用户自己发送到 ChatGPT 的优化提示。您构建一个包含自定义字段的表单，使用 {{variables}} 编写提示模板，然后您的用户将获得格式完美的 ChatGPT 提示。  这是我正在解决的真正问题吗？如果您需要任何澄清问题，请告诉我。   由   提交/u/BruhMomentBruhuno   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8sgtj/i_built_something_to_solve_a_problem_i_kept/</guid>
+      <pubDate>Sat, 10 Jan 2026 02:47:48 GMT</pubDate>
+    </item>
     <item>
       <title>我们如何使 Python 的打包库速度提高 3 倍</title>
       <link>https://www.reddit.com/r/programming/comments/1q8p8y5/how_we_made_pythons_packaging_library_3x_faster/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[Cloud Code 并不是华而不实的功能；而是 开发人员通常首先注意到的是：  在 IDE（VS Code / IntelliJ）中工作，因此您无需切换工具即可进行编码、调试和部署 YAML（Kubernetes、Cloud Run）的自动完成+验证，减少配置错误 更快的本地运行和部署调试，这样您就可以在推送到云端之前进行迭代 内置 Kubernetes 工作流程，而不是将多个工具拼接在一起  对于任何构建容器化或云原生应用程序的人来说，Cloud Code 悄悄地改善了日常开发人员体验。   由   提交/u/netcommah  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q8e79y/cloud_code_what_it_actually_fixes_for_developers/</guid>
       <pubDate>Fri, 09 Jan 2026 17:17:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>LSM 树存储引擎无需复杂即可卓越 - YouTube</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8dqgv/lsmtree_storage_engines_dont_need_to_be_complex/</link>
-      <description><![CDATA[我在 Database Internals Discord 社区中关于 TidesDB 的演示的预录。我希望你检查一下:)   由   提交/u/diagraphic  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8dqgv/lsmtree_storage_engines_dont_need_to_be_complex/</guid>
-      <pubDate>Fri, 09 Jan 2026 17:00:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cloudspecs：云硬件演进一览</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8cgua/cloudspecs_cloud_hardware_evolution_through_the/</link>
-      <description><![CDATA[ 由   提交/u/mttd  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8cgua/cloudspecs_cloud_hardware_evolution_through_the/</guid>
-      <pubDate>Fri, 09 Jan 2026 16:14:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
