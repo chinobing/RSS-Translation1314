@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 10 Jan 2026 06:30:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 09:20:42 GMT</lastBuildDate>
+    <item>
+      <title>3D 打印遥控汽车模型</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8yny1/3d_printed_rc_car_model/</link>
+      <description><![CDATA[ 由   提交/u/Inevitable-King1775   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8yny1/3d_printed_rc_car_model/</guid>
+      <pubDate>Sat, 10 Jan 2026 08:15:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>寻找真实用户的独立反馈</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8yim1/looking_for_independent_feedback_from_real_users/</link>
+      <description><![CDATA[大家好， 我目前正在开发一个已经在两个主要应用平台上运行的应用程序，并且我正在寻求独立测试支持。 内部测试或依赖与项目关系密切的人员已被证明是无效的。对产品的熟悉使得很难发现真正的可用性问题、边缘情况或不一致的行为。我们需要的是一双新的眼睛——能够客观地使用该应用程序并报告无法按预期工作的内容的人。 我之前出于同样的目的曾在这里联系过，结果确实很有帮助。反馈是清晰的、可重复的，并且实质性地改进了产品。由于这次经历，我将回到这个社区。 我还要感谢 James、Carlitos、Nick、Tom、Rahul、Sanjay 和 Kaushik 之前的贡献。他们的报告全面、实用且有价值，他们的努力得到了充分的补偿。 积极测试和提交有效、可重现的错误报告所花费的时间将按小时获得补偿，符合美国市场标准。可能报告的问题数量没有固定上限。 评论部分将提供应用程序链接 感谢您花时间阅读本文。真诚感谢任何帮助。   由   提交/u/NefiousnessOld2368   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8yim1/looking_for_independent_feedback_from_real_users/</guid>
+      <pubDate>Sat, 10 Jan 2026 08:06:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在没有源映射的情况下将运行时文本映射回源代码？</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8xqk3/how_do_you_map_runtime_text_back_to_source_code/</link>
+      <description><![CDATA[我正在构建一个尝试进行“反向渲染”的开发工具 - 您单击前端上的一个元素，它会打开在 IDE 中生成它的源代码。 我已经让简单的东西完美地工作了。如果 DOM 显示 &lt;p&gt;Hello World&lt;/p&gt; 并且代码包含 return &lt;p&gt;Hello World&lt;/p&gt;，我的 AST 分块器 + 向量嵌入会立即找到它。 但我遇到了动态数据的难题。 如果用户看到 星期二、十二月23 在屏幕上，负责的代码通常类似于： ```javascript {date ? new Date(date).toLocaleDateString(...) : &#39;TBD&#39;} ``` 我当前的方法（将文件分块并嵌入块）在这里很难成功。  嵌入失败： “星期二” 的语义向量距离toLocaleDateString. Grep 失败： 显然，字符串“Tuesday”是文件中不存在。  我真的想避免对构建管道进行检测（例如，没有自定义 Babel 插件添加 data-source 属性），因为我希望它能够在“普通”环境下工作。存储库。 有人成功地弥补了这个差距吗？我正在考虑使用法学硕士来“产生幻觉”在搜索之前基于 UI 文本的源代码，但这感觉很慢/昂贵。 你会如何解决这个问题？   由   提交/u/ryan-rudd   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8xqk3/how_do_you_map_runtime_text_back_to_source_code/</guid>
+      <pubDate>Sat, 10 Jan 2026 07:19:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>初级程序员被认为是必不可少的</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8x4ia/junior_programmers_considered_essential/</link>
+      <description><![CDATA[该视频提出这样的论点：初级开发人员并不是要尽可能消除的成本，而是使任何项目真正可行的关键部分。当您的员工确实在努力完成某件事时，这通常表明您正朝着错误的方向前进。   由   提交/u/stumblingtowards  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8x4ia/junior_programmers_considered_essential/</guid>
+      <pubDate>Sat, 10 Jan 2026 06:43:40 GMT</pubDate>
+    </item>
     <item>
       <title>构建多代理开发工作流程</title>
       <link>https://www.reddit.com/r/programming/comments/1q8wh6u/building_a_multiagent_development_workflow/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[ 由   提交/u/VXReload1920   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q8m817/a_very_short_introduction_to_secure_coding_with/</guid>
       <pubDate>Fri, 09 Jan 2026 22:19:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>情境工程：为什么您的个人 AI 生产力收益无法扩展 (GitKon 2025)</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8k4ep/context_engineering_why_your_individual_ai/</link>
-      <description><![CDATA[ 由   提交 /u/GitKraken   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8k4ep/context_engineering_why_your_individual_ai/</guid>
-      <pubDate>Fri, 09 Jan 2026 20:59:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何建立一个大型的不熟悉的代码库的心理模型？我尝试了一些不同的东西。</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8j3so/how_do_you_build_a_mental_model_of_a_large/</link>
-      <description><![CDATA[对于大多数程序员来说，构建不熟悉的源代码（尤其是大型代码库）的心理模型仍然是一个缓慢且通常痛苦的过程。  在使用大型系统并阅读开源代码库（通常没有任何人寻求帮助）多年之后，我不断回到同一个问题：有没有办法让初级开发人员像资深开发人员一样进步？  今天，当我重新审视我的一些旧项目，看看现代法学硕士将如何处理它们，特别是从 UI/UX 角度来看，这个问题再次出现，因为这一直是我作为全栈开发人员需要改进的地方。  老实说，这既令人兴奋又令人不安。事实很清楚：法学硕士在那些知道自己在做什么的人手中具有难以置信的力量。  因此，这个实验没有抵制这一现实，而是拥抱了它。 这个想法是将整个代码库转换为交互式网络图，旨在大大减少理解不熟悉的代码和构建可靠的心理模型所需的时间。  我正在分享一个早期演示，以收集反馈、寻找早期采用者，并有可能将其发展为开源项目。  您可以在 YT 视频说明中找到我为此创建的 Discord 社区。   由   提交/u/DocsReader  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8j3so/how_do_you_build_a_mental_model_of_a_large/</guid>
-      <pubDate>Fri, 09 Jan 2026 20:19:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cosmic Rundown：开发者如何思考创造力、基础设施和感知</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8h68l/cosmic_rundown_how_developers_think_about/</link>
-      <description><![CDATA[ 由   提交 /u/tonyspiro   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8h68l/cosmic_rundown_how_developers_think_about/</guid>
-      <pubDate>Fri, 09 Jan 2026 19:05:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>2026 年构建 AI 代理的最简单方法</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8gi54/the_simplest_way_to_build_ai_agents_in_2026/</link>
-      <description><![CDATA[ 由   提交/u/Minute-Conference-33  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8gi54/the_simplest_way_to_build_ai_agents_in_2026/</guid>
-      <pubDate>Fri, 09 Jan 2026 18:41:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
