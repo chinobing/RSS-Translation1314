@@ -4,7 +4,42 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 10 Jan 2026 09:20:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 12:40:50 GMT</lastBuildDate>
+    <item>
+      <title>寻找合作者：用于编写书籍和脚本的开源工具</title>
+      <link>https://www.reddit.com/r/programming/comments/1q92zjc/looking_for_collaborators_opensource_tool_for/</link>
+      <description><![CDATA[大家好 我正在开发一个名为 Storyteller 的开源项目，这是一个用于编写书籍、故事和构建虚构世界的现代工具 目标是超越简单的文本编辑器，帮助作家组织故事和故事。章节 • 人物 • 背景故事、时间线和世界构建 • 结构化的想法，而不是分散的笔记 该项目仍处于早期阶段，但愿景很明确，基础已经存在 我正在寻找这样的人： • 喜欢开源协作 • 喜欢为创作者构建工具 • 希望做出贡献长期且有意义的 欢迎任何形式的贡献：代码、想法、用户体验反馈、架构讨论，甚至只是功能建议 如果您对此感兴趣，请随时发表评论、提出问题或直接联系   由   提交 /u/orielhaim   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q92zjc/looking_for_collaborators_opensource_tool_for/</guid>
+      <pubDate>Sat, 10 Jan 2026 12:35:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Detectron2 轻松进行实例分割</title>
+      <link>https://www.reddit.com/r/programming/comments/1q92n00/make_instance_segmentation_easy_with_detectron2/</link>
+      <description><![CDATA[对于学习使用 Detectron2 进行实时实例分割的人来说，本教程展示了一个干净、适合初学者的工作流程，用于使用来自官方 Model Zoo 的预训练 Mask R-CNN 模型通过 Detectron2 运行实例分割推理。 在代码中，我们使用 OpenCV 加载图像，调整其大小以加快速度处理，使用 COCO-InstanceSegmentation mask_rcnn_R_50_FPN_3x 检查点配置 Detectron2，然后使用 DefaultPredictor 运行推理。最后，我们使用 Detectron2 的 Visualizer 可视化预测的掩模和类，显示原始结果和分割结果，并将最终分割图像保存到磁盘。   视频说明： https://youtu.be/TDEsukREsDM 中型用户帖子链接： https://medium.com/image-segmentation-tutorials/make-instance-segmentation-easy-with-detectron2-d25b20ef1b13 已写入用代码解释： https://eranfeit.net/make-instance-segmentation-easy-with-detectron2/   此内容仅供教育目的分享，欢迎建设性反馈或讨论。   由   提交 /u/Feitgemel   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q92n00/make_instance_segmentation_easy_with_detectron2/</guid>
+      <pubDate>Sat, 10 Jan 2026 12:16:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>领英</title>
+      <link>https://www.reddit.com/r/programming/comments/1q921ae/linkedin/</link>
+      <description><![CDATA[我最近测试了这 3 个“简单”的方法我团队的数学问题。甚至我们的工程师都错了。 马铃薯问题？大多数人猜测是99公斤。答案是什么呢？ 50公斤。环绕地球的绳子？人们说毫米。是16厘米。失踪的卢比？这个问题仍然困扰着我。 这些问题之所以令人着迷，不仅仅是因为它们违反直觉，而是因为它们揭示了我们的大脑在处理百分比、比例和平均值时如何背叛我们。 我写这篇文章是为了解释为什么我们的直觉在这些问题上如此失败。  公平警告：在阅读解释之前，您可能至少会犯一个错误。 &lt;一href=&quot;https://medium.com/@ppp.mishra124/3-math-problems-that-break-everyones-brain-in-the-best-way-5b6a68f5eb61&quot;&gt; https://medium.com/@ppp.mishra124/3-math-problems-that-break-everyones-brain-in-the-best-way-5b6a68f5eb61   由   提交 /u/Turbulent_Style_2611   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q921ae/linkedin/</guid>
+      <pubDate>Sat, 10 Jan 2026 11:41:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>[FOSS] 我如何使用环境光传感器自动化 Android 黑暗模式</title>
+      <link>https://www.reddit.com/r/programming/comments/1q91dyl/foss_how_i_automated_android_dark_mode_with_the/</link>
+      <description><![CDATA[新年快乐！ 以下是我最新的开源 Android 应用的一些技术挑战和经验教训。 大多数 Android 暗模式自动化都与静态时钟或日落/日出时间表相关。我想构建一些更具情境感知能力的系统，即通过环境光传感器对物理环境做出反应的系统，而不会产生与背景传感器轮询相关的典型电池损耗。 以下是我的应用程序“自适应主题”背后的技术挑战和架构的细分。 1.挑战：实现“零”电池耗尽 监控环境光的标准方法涉及后台服务不断轮询SensorManager。这是一个电池杀手。 为了解决这个问题，我实现了一个事件驱动架构：  被动监控：应用程序不是前台服务，而是为 SCREEN_ON 意图注册一个 BroadcastReceiver。 分秒初始化：应用程序初始化SensorManager 仅在屏幕打开后立即出现一个简短的窗口，以验证勒克斯级别。 立即拆卸：一旦获得稳定的读数并切换主题（如有必要），传感器将立即取消注册。这样，当用户与设备交互时，主题不会切换。  这可确保在设备使用或屏幕关闭时后台 CPU 或传感器使用率为零。 2.技术限制：Android 14 和接收器上下文 开发过程中的一个有趣发现是，这种特定的事件驱动方法仅在 Android 14 (API 34) 及更高版本上可靠。 在旧版本的操作系统上，无法在该特定用例的广播接收器上下文的短执行窗口内正确初始化或读取光传感器。或者至少我没有找到解决方案。以 API 34 为目标，可以通过 Kotlin Flows 实现更稳定的反应流。 3。安全障碍：WRITE_SECURE_SETTINGS Android（理所应当）保护系统级 UI 设置。以编程方式更改系统主题需要 WRITE_SECURE_SETTINGS 权限，该权限无法通过标准清单提示授予。 为了在不需要 root 的情况下保持良好的用户体验，我必须实现几个替代的权限授予流程：  Shizuku 集成： 利用 Shizuku API 充当特权命令。 WebADB (WebUSB)：我使用 WebUSB API 在 lexip.dev/setup 构建了一个配套浏览器工具，以便用户可以从其他设备授予权限，而无需在本地安装 Android SDK 或 ADB。我很快就会推送它的源代码。 Root Fallback：一个简单的 su 命令，适用于已经拥有 root 环境的用户。  4.建筑与技术堆栈 该应用程序构建在现代反应式堆栈上，以确保可维护性：  UI： 使用 Material 3（Material You）的 100% Jetpack Compose。 状态管理： ViewModel 通过 Kotlin Flows 公开数据并使用协程管理并发。 持久性：我放弃了 SharedPreferences，转而使用 Jetpack DataStore 进行类型安全的异步设置存储。 构建风格：为了在 Play 商店中保持 FOSS 兼容，我维护了一个基于风格的构建系统，该系统完全剥离了 GitHub/F-Droid 版本的专有 blob（如 Firebase）。  经验教训 构建“简单”的应用程序实用程序告诉我，最难的部分不是核心逻辑（读取传感器），而是管理 Android 电源管理和安全策略的边缘情况。还有获得特殊许可的设置过程的用户体验。 我很想听听其他 Android 开发者的意见：您是否找到了在较旧的 API 级别上读取 BroadcastReceiver 中的传感器的更可靠方法，或者迁移到 API 34+ 是唯一干净的前进道路？ 我会回答任何问题，让我知道您的想法！   由   提交 /u/xLexip   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q91dyl/foss_how_i_automated_android_dark_mode_with_the/</guid>
+      <pubDate>Sat, 10 Jan 2026 11:03:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>用户端软件</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8zrw0/software_on_its_users_side/</link>
+      <description><![CDATA[ 由   提交/u/Odd-Tell9763   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8zrw0/software_on_its_users_side/</guid>
+      <pubDate>Sat, 10 Jan 2026 09:24:24 GMT</pubDate>
+    </item>
     <item>
       <title>3D 打印遥控汽车模型</title>
       <link>https://www.reddit.com/r/programming/comments/1q8yny1/3d_printed_rc_car_model/</link>
@@ -74,41 +109,6 @@
       <description><![CDATA[ 由   提交 /u/DarkMatterDetective   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q8p8y5/how_we_made_pythons_packaging_library_3x_faster/</guid>
       <pubDate>Sat, 10 Jan 2026 00:24:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>对 Denuvo 进行 hack 编程</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8or76/programming_a_hack_to_denuvo/</link>
-      <description><![CDATA[ 由   提交/u/RazerOG   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8or76/programming_a_hack_to_denuvo/</guid>
-      <pubDate>Sat, 10 Jan 2026 00:03:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Java 提供了有关新语言功能的状态更新——常量模式和模式分配！</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8o5uv/java_gives_a_status_update_about_new_language/</link>
-      <description><![CDATA[ 由   提交/u/davidalayachew   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8o5uv/java_gives_a_status_update_about_new_language/</guid>
-      <pubDate>Fri, 09 Jan 2026 23:38:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>大多数 CSS 布局错误都是单元错误</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8n7vg/most_css_layout_bugs_are_unit_bugs/</link>
-      <description><![CDATA[许多损坏的布局不是 Flexbox 或 Grid 问题。 它们是这样的： 移动设备上的 100vh 损坏 组件内部的复合 px 忽略用户字体缩放 我写了一篇简短的实用博客，介绍常见 CSS 单元通常会出错的地方以及实际中哪些效果更好 链接： https://www.hexplain.space/blog/5Fc5g4A8IaHKXu2Yvs3F   由   提交/u/third_void  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8n7vg/most_css_layout_bugs_are_unit_bugs/</guid>
-      <pubDate>Fri, 09 Jan 2026 22:59:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>生产错误的行为与本地错误不同</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8mnu8/production_bugs_dont_behave_like_local_bugs/</link>
-      <description><![CDATA[本地错误会提供堆栈跟踪。 生产错误会导致延迟峰值、丢失请求以及添加日志后消失的问题。 这个差距就是这篇文章的主题。少说“修复这个错误”，多说高级工程师如何看待调试真实系统。 链接： https://www.hexplain.space/blog/V0E4waPMYFancbIKZviq   由   提交/u/third_void  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8mnu8/production_bugs_dont_behave_like_local_bugs/</guid>
-      <pubDate>Fri, 09 Jan 2026 22:37:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>安全编码的简短介绍 - 包含有关修复 IDOR、不安全文件上传和 SQL 注入的实验室示例</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8m817/a_very_short_introduction_to_secure_coding_with/</link>
-      <description><![CDATA[ 由   提交/u/VXReload1920   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8m817/a_very_short_introduction_to_secure_coding_with/</guid>
-      <pubDate>Fri, 09 Jan 2026 22:19:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
