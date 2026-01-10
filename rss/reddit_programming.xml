@@ -4,7 +4,14 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 10 Jan 2026 18:29:52 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 21:19:25 GMT</lastBuildDate>
+    <item>
+      <title>Vibe 编码需要 git Blame</title>
+      <link>https://www.reddit.com/r/programming/comments/1q9cyxz/vibe_coding_needs_git_blame/</link>
+      <description><![CDATA[ 由   提交/u/jakozaur   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q9cyxz/vibe_coding_needs_git_blame/</guid>
+      <pubDate>Sat, 10 Jan 2026 19:22:37 GMT</pubDate>
+    </item>
     <item>
       <title>谷歌将限制 Android 源代码每年发布两次</title>
       <link>https://www.reddit.com/r/programming/comments/1q9aq7j/google_will_limit_android_source_releases_to/</link>
@@ -41,46 +48,11 @@
       <pubDate>Sat, 10 Jan 2026 16:00:38 GMT</pubDate>
     </item>
     <item>
-      <title>旅行商问题的递归性质</title>
-      <link>https://www.reddit.com/r/programming/comments/1q971ns/the_recursive_property_of_the_traveling_salesman/</link>
-      <description><![CDATA[当处理时间限于多项式时，旅行商问题是否递归？   由   提交/u/yongim   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q971ns/the_recursive_property_of_the_traveling_salesman/</guid>
-      <pubDate>Sat, 10 Jan 2026 15:34:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>在遇到“每个服务都有不同的错误格式”的障碍后，我们开源了我们的 API 治理工具</title>
-      <link>https://www.reddit.com/r/programming/comments/1q96w43/we_opensourced_our_api_governance_tool_after/</link>
-      <description><![CDATA[第三次调试移动应用程序失败（因为后端在没有告诉任何人的情况下更改了 API）后，我们构建了一个工具来自动捕获此问题。 api-governor： - 根据可配置策略检查 OpenAPI 规范 - 检测规范版本之间的重大变更 - 生成审核报告 这就像用于 API 设计的 ESLint，加上重大变更检测。关键的见解是工程师不仅需要警告，还需要工件。因此，我们生成直接进入 PR 的 API_REVIEW.md。 GitHub：https://github.com/akz4ol/api-governance-skill PyPI：pip install api-governor MIT 许可。使用 Python 构建，没有严重的依赖关系。    由   提交/u/Creative_Maybe2323   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q96w43/we_opensourced_our_api_governance_tool_after/</guid>
-      <pubDate>Sat, 10 Jan 2026 15:28:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>能够承受 PRD 变化的稳定需求 ID - 基于指纹的方法</title>
-      <link>https://www.reddit.com/r/programming/comments/1q96vi6/stable_requirement_ids_that_survive_prd_changes/</link>
-      <description><![CDATA[我们厌倦了“我们正在谈论哪个 REQ-0042？”每次 PRD 更新后的对话。构建了一个根据内容指纹而不是序列号分配 ID 的工具： - 编辑拼写错误 → 相同 ID - 重新排序部分 → 相同 ID - 主要重写 → 新 ID（正确） 还生成测试用例和可追溯性矩阵。 .idmap.json 文件保存指纹→ID 映射。将其提交到 git，每个人都会获得一致的 ID。 GitHub：https://github.com/akz4ol/spec-test-generator-skill PyPI：pip install spec-test-generator MIT 许可，Python 3.10+。    由   提交/u/Creative_Maybe2323   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q96vi6/stable_requirement_ids_that_survive_prd_changes/</guid>
-      <pubDate>Sat, 10 Jan 2026 15:27:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>我厌倦了“TODO：稍后删除”变成永久生产代码，所以我构建了这个</title>
-      <link>https://www.reddit.com/r/programming/comments/1q96nar/i_got_tired_of_todo_remove_later_turning_into/</link>
-      <description><![CDATA[在我开发过的几乎每个代码库中，我们都遇到了同样的问题：有人添加了一个快速的 hack 来发布一些东西（“只是为了这个版本”，“只是为了这个实验”，“我们稍后会清理它”）......并且它永远不会被删除。 六个月后，没有人记得它为什么在那里，但现在它是生产的一部分。 我厌倦了并构建了一个名为 DebtBomb 的小型 CLI： https://github.com/jobin-404/debtbomb 这个想法很简单：当您编写临时代码时，您可以在注释中附加一个到期日期。当该日期过去后，CI 将失败，直到有人删除代码或显式扩展它。 因此，它不再是“TODO：稍后删除”，而是“此内容将于 2026 年 2 月 10 日到期”。 它适用于任何语言，因为它只扫描注释，而不是语法。它作为单个二进制文件运行，可以在任何 CI 中使用，而且我还添加了一个 npm 包装器，以便人们可以在每个项目中尝试它。 这始于处理生产中太多被遗忘的黑客的个人渴望。如果这引起您的共鸣，非常欢迎提供反馈、建议和贡献——我很想看看其他人会如何塑造它。 更新：它不必使 CI 出现硬故障。您可以在警告模式下运行它，或者导出 JSON 并将报告发送到 Slack，以便团队在任何阻止发布的情况之前获得可见性。    由   提交/u/Star-Shadow-007   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q96nar/i_got_tired_of_todo_remove_later_turning_into/</guid>
-      <pubDate>Sat, 10 Jan 2026 15:18:25 GMT</pubDate>
-    </item>
-    <item>
       <title>预填充缓存是一种“附加”缓存优化，我已在许多系统中成功使用过。它有效，但增加了复杂性</title>
       <link>https://www.reddit.com/r/programming/comments/1q962v7/prepopulating_caches_is_a_bolton/</link>
       <description><![CDATA[ 由   提交/u/madflojo  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q962v7/prepopulating_caches_is_a_bolton/</guid>
       <pubDate>Sat, 10 Jan 2026 14:55:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>我作为一名 CS 学生的 DSA 之旅</title>
-      <link>https://www.reddit.com/r/programming/comments/1q953la/my_dsa_journey_as_a_cs_student/</link>
-      <description><![CDATA[当我第一次开始学习计算机应用/IT 时，到处不断出现的一个主题是数据结构和算法 (DSA)。老实说，这让人感觉不知所措。每个人都在谈论 DSA 的重要性，但没有人真正解释从哪里开始或如何一步一步进行。 YouTube、Udemy、随机博客、社交媒体帖子上有大量资源 - 这实际上让我更加困惑。我一直在没有适当结构的情况下从一个来源跳到另一个来源。 对我有用的是坚持一个结构化平台。我个人发现 GeeksforGeeks 很有帮助，因为主题是从基础到高级组织的，而且解释很简单。在同一个地方提供示例和练习问题使学习变得更易于管理而不是混乱。 它在学期考试期间也出乎意料地帮助了我，因为这些概念是以理论与实施相结合的方式解释的。 我并不是说这是唯一的资源，但如果您是刚刚开始 DSA 并感到迷失的人，拥有一个清晰的路线图比收集 10 个不同的资源更重要资源。 我还想听听其他人分享他们的经验。   由   提交/u/tejus_JAISWAL   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q953la/my_dsa_journey_as_a_cs_student/</guid>
-      <pubDate>Sat, 10 Jan 2026 14:13:59 GMT</pubDate>
     </item>
     <item>
       <title>了解 Go 中的装饰器设计模式：实用指南</title>
@@ -104,11 +76,39 @@
       <pubDate>Sat, 10 Jan 2026 13:28:29 GMT</pubDate>
     </item>
     <item>
-      <title>[Showoff Saturday] 我构建了一个消除 CSS 文件的 JS 框架：仅使用 JavaScript 对象构建现代 UI</title>
-      <link>https://www.reddit.com/r/programming/comments/1q93qrp/showoff_saturday_i_built_a_js_framework_that/</link>
-      <description><![CDATA[🚀 JS 组件套件  “最少的代码，最大的视觉冲击力”  将复杂的 HTML/CSS 世界抛在脑后。 JS-Component Suite 是一个面向对象的高级 UI 框架，专为开发现代 Web 应用程序而设计。它将开发人员从低级样式代码中解放出来，使他们能够直接专注于业务逻辑和用户体验。 ✨ 为什么选择 JS-Component Suite？ 在传统的 Web 开发中，HTML、CSS 和 JavaScript 之间的碎片化常常会降低生产力。该框架使应用程序开发像使用乐高积木一样系统化和愉快。 🎯 主要优势  零 CSS 管理：样式参数直接驻留在 JavaScript 对象中。不再需要费力地处理外部 CSS 文件！ 超快速开发：预构建的表单、输入和导航组件随时可用 - 只需定义您的参数。 智能布局 (AutoLayout)：Flexbox 的直观抽象（例如，flow: “vertical”），可减少 80% 的布局工作量。 绝对控制：使用基于坐标的设计（position: &quot;absolute&quot;）和 center() 等辅助函数来消除“CSS 布局地狱”永远。 轻量级且易于使用。高性能：通过直接 DOM 操作实现高性能，无需虚拟 DOM 的开销。  🛠 技术特点  📦 完全封装的组件：每个组件（Input、Form、BottomBar 等）在内部都有自己的样式、动画和逻辑。这可确保项目不同部分的完美一致性。 📐 智能定位（自动布局）：使用设计师熟悉的术语（Figma/Sketch），例如间隙、填充和对齐，从而实现从设计到代码的无缝过渡。 🎬 动态动画 (UX)：平滑过渡（Web 开发中最痛苦的任务之一）被简化为一行代码使用 setMotion 和 withMotion 等辅助函数。  📊 比较分析   功能 JS-组件套件 流行框架（React/Vue）    学习曲线 非常低（仅需要 JS） 中/高   CSS 管理 对象内（零 CSS） 复杂（Tailwind/Sass等）   开发速度 超快 中   自定义 非常高（每个参数都公开） 有限或复杂   代码密度 精益和精益简洁 详细   🚀 它适合谁？  独立开发者和开发者初创企业：为那些希望以闪电般的速度推出 SaaS 产品或 MVP 的企业提供生产力引擎。 企业解决方案：为构建复杂“管理面板”的公司提供标准化结构。  UI 架构师：非常适合想要构建界面和功能而不仅仅是编写样板代码的开发人员。  💡我们的理念 该框架拥护“用代码进行设计”的理念。它将您从单纯的“代码编写者”转变为“代码编写者”。成为“界面架构师”能够轻松构建专业的交互式用户界面。   由   提交/u/Bug7a  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q93qrp/showoff_saturday_i_built_a_js_framework_that/</guid>
-      <pubDate>Sat, 10 Jan 2026 13:13:36 GMT</pubDate>
+      <title>法学硕士已经烧掉了数十亿美元，但无法建立另一个 Tailwind</title>
+      <link>https://www.reddit.com/r/programming/comments/1q93k2q/llms_have_burned_billions_but_couldnt_build/</link>
+      <description><![CDATA[ 由   提交/u/omarous   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q93k2q/llms_have_burned_billions_but_couldnt_build/</guid>
+      <pubDate>Sat, 10 Jan 2026 13:04:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Detectron2 轻松进行实例分割</title>
+      <link>https://www.reddit.com/r/programming/comments/1q92n00/make_instance_segmentation_easy_with_detectron2/</link>
+      <description><![CDATA[对于学习使用 Detectron2 进行实时实例分割的人来说，本教程展示了一个干净、适合初学者的工作流程，用于使用来自官方 Model Zoo 的预训练 Mask R-CNN 模型通过 Detectron2 运行实例分割推理。 在代码中，我们使用 OpenCV 加载图像，调整其大小以加快速度处理，使用 COCO-InstanceSegmentation mask_rcnn_R_50_FPN_3x 检查点配置 Detectron2，然后使用 DefaultPredictor 运行推理。最后，我们使用 Detectron2 的 Visualizer 可视化预测的掩模和类，显示原始结果和分割结果，并将最终分割图像保存到磁盘。   视频说明： https://youtu.be/TDEsukREsDM 中型用户帖子链接： https://medium.com/image-segmentation-tutorials/make-instance-segmentation-easy-with-detectron2-d25b20ef1b13 已写入用代码解释： https://eranfeit.net/make-instance-segmentation-easy-with-detectron2/   此内容仅供教育目的分享，欢迎建设性反馈或讨论。   由   提交 /u/Feitgemel   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q92n00/make_instance_segmentation_easy_with_detectron2/</guid>
+      <pubDate>Sat, 10 Jan 2026 12:16:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>用户端软件</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8zrw0/software_on_its_users_side/</link>
+      <description><![CDATA[ 由   提交/u/Odd-Tell9763   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8zrw0/software_on_its_users_side/</guid>
+      <pubDate>Sat, 10 Jan 2026 09:24:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>初级程序员被认为是必不可少的</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8x4ia/junior_programmers_considered_essential/</link>
+      <description><![CDATA[该视频提出这样的论点：初级开发人员并不是要尽可能消除的成本，而是使任何项目真正可行的关键部分。当您的员工确实在努力完成某件事时，这通常表明您正朝着错误的方向前进。   由   提交/u/stumblingtowards  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8x4ia/junior_programmers_considered_essential/</guid>
+      <pubDate>Sat, 10 Jan 2026 06:43:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建多代理开发工作流程</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8wh6u/building_a_multiagent_development_workflow/</link>
+      <description><![CDATA[我会不断更新。   由   提交/u/itsgg  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8wh6u/building_a_multiagent_development_workflow/</guid>
+      <pubDate>Sat, 10 Jan 2026 06:08:17 GMT</pubDate>
     </item>
     </channel>
 </rss>

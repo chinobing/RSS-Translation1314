@@ -4,7 +4,48 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 10 Jan 2026 18:30:58 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 21:20:21 GMT</lastBuildDate>
+    <item>
+      <title>辛克莱C5</title>
+      <link>https://en.wikipedia.org/wiki/Sinclair_C5</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Sinclair_C5
+评论网址：https://news.ycombinator.com/item?id=46569640
+积分：11
+# 条评论：1]]></description>
+      <guid>https://en.wikipedia.org/wiki/Sinclair_C5</guid>
+      <pubDate>Sat, 10 Jan 2026 20:31:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bichon：带有 WebUI 的轻量级、高性能 Rust 电子邮件存档器</title>
+      <link>https://github.com/rustmailer/bichon</link>
+      <description><![CDATA[通过https://news.ycombinator.com/item?id=46429250
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46569075
+积分：29
+评论数量：9]]></description>
+      <guid>https://github.com/rustmailer/bichon</guid>
+      <pubDate>Sat, 10 Jan 2026 19:29:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>查找并修复 Ghostty 最大的内存泄漏</title>
+      <link>https://mitchellh.com/writing/ghostty-memory-leak-fix</link>
+      <description><![CDATA[文章网址：https://mitchellh.com/writing/ghostty-memory-leak-fix
+评论网址：https://news.ycombinator.com/item?id=46568794
+积分：36
+# 条评论：2]]></description>
+      <guid>https://mitchellh.com/writing/ghostty-memory-leak-fix</guid>
+      <pubDate>Sat, 10 Jan 2026 18:58:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>摄像机拍到老鼠狩猎飞行的蝙蝠</title>
+      <link>https://scienceclock.com/rats-caught-on-camera-hunting-flying-bats-for-the-first-time/</link>
+      <description><![CDATA[文章网址：https://scienceclock.com/rats-caught-on-camera-hunting-flying-bats-for-the-first-time/
+评论网址：https://news.ycombinator.com/item?id=46568662
+积分：32
+# 条评论：6]]></description>
+      <guid>https://scienceclock.com/rats-caught-on-camera-hunting-flying-bats-for-the-first-time/</guid>
+      <pubDate>Sat, 10 Jan 2026 18:44:46 GMT</pubDate>
+    </item>
     <item>
       <title>UpCodes (YC S17) 正在招聘 PM、SWE 来自动化施工合规性</title>
       <link>https://up.codes/careers?utm_source=HN</link>
@@ -16,32 +57,46 @@
       <pubDate>Sat, 10 Jan 2026 17:01:49 GMT</pubDate>
     </item>
     <item>
+      <title>Show HN：我使用 Claude Code 发现了 100 本书之间的联系</title>
+      <link>https://trails.pieterma.es/</link>
+      <description><![CDATA[我认为 LLM 在总结方面被过度使用，而在帮助我们更深入地阅读方面却没有得到充分利用。我为 Claude Code 构建了一个系统，用于浏览 100 本非小说类书籍并找到它们之间有趣的联系。我从分阶段的管道开始，将 LLM 调用链接在一起以构建图书馆的上下文。 
+我主要是为了重新获得我在提示中融入的见解，结果并不特别令人惊讶。一时兴起，我向 CC 授予了我的调试 CLI 工具的访问权限，发现这种方法效果很好。 
+相比之下，它给出了实际上很有趣的结果，并且只需要很少的编排。我最喜欢的摘录之一是从乔布斯的现实扭曲场到希拉洛斯的虚假演示，到蒂尔关于创业崇拜，到霍弗关于群众运动江湖骗子（https://trails.pieterma.es/trail/useful-lies/）。
+一个有趣的倾向是，克劳德总是被秘密、阴谋和隐藏系统等话题分散注意力 - 就好像任务本身召唤了傅科摆思维模式。详细信息：* 这些书是从 HN 的最爱中挑选的（我之前收集过：https://hnbooks.pieterma.es/)。* 使用 Gemini Flash Lite 按主题对块建立索引。整个库的成本约为 10 英镑。* 使用递归莱顿分区和 LLM 标签将主题组织成树结构。这给出了主题的高级感。* 有多种浏览方式。最有用的是嵌入相似性、主题树同级以及在块窗口中同时出现的主题。* 一切都存储在 SQLite 中，并使用一组 CLI 工具进行操作。我在这里写了有关该过程的更多信息：https://pieterma.es/syntopic-reading-claude/我很好奇这种阅读方式是否能引起其他人的共鸣——无论是否是法学硕士。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46567400
+积分：28
+# 条评论：4]]></description>
+      <guid>https://trails.pieterma.es/</guid>
+      <pubDate>Sat, 10 Jan 2026 16:56:55 GMT</pubDate>
+    </item>
+    <item>
       <title>AI是一种商业模式压力测试</title>
       <link>https://dri.es/ai-is-a-business-model-stress-test</link>
       <description><![CDATA[文章网址：https://dri.es/ai-is-a-business-model-stress-test
 评论网址：https://news.ycombinator.com/item?id=46567392
-积分：39
-# 条评论：28]]></description>
+积分：76
+# 条评论：107]]></description>
       <guid>https://dri.es/ai-is-a-business-model-stress-test</guid>
       <pubDate>Sat, 10 Jan 2026 16:56:34 GMT</pubDate>
     </item>
     <item>
-      <title>微软可能通过 Windows 11 创建了 25 年来最慢的 Windows</title>
-      <link>https://www.eteknix.com/microsoft-may-have-created-the-slowest-windows-in-25-years-with-windows-11/</link>
-      <description><![CDATA[文章网址：https://www.eteknix.com/microsoft-may-have-created-the-slowest-windows-in-25-years-with-windows-11/
-评论网址：https://news.ycombinator.com/item?id=46567138
-积分：167
-# 条评论：157]]></description>
-      <guid>https://www.eteknix.com/microsoft-may-have-created-the-slowest-windows-in-25-years-with-windows-11/</guid>
-      <pubDate>Sat, 10 Jan 2026 16:36:56 GMT</pubDate>
+      <title>直接在输电线路上充电的无人机</title>
+      <link>https://www.ycombinator.com/companies/voltair</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/voltair
+评论网址：https://news.ycombinator.com/item?id=46567218
+积分：114
+评论数：84]]></description>
+      <guid>https://www.ycombinator.com/companies/voltair</guid>
+      <pubDate>Sat, 10 Jan 2026 16:43:19 GMT</pubDate>
     </item>
     <item>
       <title>Open Chaos：一个自我进化的开源项目</title>
       <link>https://www.openchaos.dev/</link>
       <description><![CDATA[文章网址：https://www.openchaos.dev/
 评论网址：https://news.ycombinator.com/item?id=46566812
-积分：76
-评论数量：9]]></description>
+积分：212
+# 条评论：38]]></description>
       <guid>https://www.openchaos.dev/</guid>
       <pubDate>Sat, 10 Jan 2026 16:03:55 GMT</pubDate>
     </item>
@@ -50,61 +105,10 @@
       <link>https://www.theverge.com/tech/858910/linux-diary-gaming-desktop</link>
       <description><![CDATA[文章网址：https://www.theverge.com/tech/858910/linux-diary-gaming-desktop
 评论网址：https://news.ycombinator.com/item?id=46566465
-积分：216
-# 条评论：172]]></description>
+积分：360
+# 条评论：291]]></description>
       <guid>https://www.theverge.com/tech/858910/linux-diary-gaming-desktop</guid>
       <pubDate>Sat, 10 Jan 2026 15:26:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>英国政府免除网络法的约束并没有激发人们的信心</title>
-      <link>https://www.theregister.com/2026/01/10/csr_bill_analysis/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2026/01/10/csr_bill_analysis/
-评论网址：https://news.ycombinator.com/item?id=46565731
-积分：191
-# 条评论：47]]></description>
-      <guid>https://www.theregister.com/2026/01/10/csr_bill_analysis/</guid>
-      <pubDate>Sat, 10 Jan 2026 13:51:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN: 元载世界 – 具有分支世界线的法学硕士角色扮演游戏</title>
-      <link>https://www.yuanzai.world/</link>
-      <description><![CDATA[嗨，HN，我是王凯，元载世界的创建者之一。我们构建了一个模拟引擎（目前在 iOS 和 Android 上），允许社区创建和共享由多个基于 LLM 的代理填充的文本冒险。与标准聊天机器人不同，我们的重点是社区共同创造——用户定义世界观，而我们的代理（具有持久记忆和社会关系）将它们变为现实。最酷的部分：我们实现了一个称为“世界线分歧”的系统（受到《命运石之门》等视觉小说的启发）。通常，AI RPG 感觉是随机的或无限循环的。我们构建了一个跟踪“世界偏差”的状态机。如果玩家以特定方式与 NPC 互动（例如，说服艺术家改变他们的风格），则会触发图形切换，导致生成完全不同的结局，从而有效地破坏原始脚本。技术堆栈：- 后端：带有自定义 AI 编排框架的 Python / Java（用于处理代理并发）。- 模型：Gemini、GPT 和 DeepSeek 之间的混合路由（基于任务）。- Vector DB：Milvus（用于处理长期代理内存）。我们目前在 App Store 和 Google Play 上运行。由于这是移动优先的体验，因此该链接会引导您进入我们的登陆页面，您可以在其中看到演示流程。很想听听您对“世界线”概念的反馈：这种状态机方法是否解决了 AI RPG 的漫无目的问题？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46565265
-积分：18
-# 条评论：1]]></description>
-      <guid>https://www.yuanzai.world/</guid>
-      <pubDate>Sat, 10 Jan 2026 12:48:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>数据可视化杰作《黑暗天空》的悼词 (2023)</title>
-      <link>https://nightingaledvs.com/dark-sky-weather-data-viz/</link>
-      <description><![CDATA[文章网址：https://nightingaledvs.com/dark-sky-weather-data-viz/
-评论网址：https://news.ycombinator.com/item?id=46565132
-积分：249
-# 条评论：112]]></description>
-      <guid>https://nightingaledvs.com/dark-sky-weather-data-viz/</guid>
-      <pubDate>Sat, 10 Jan 2026 12:23:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过元数据版本分析从斯诺登 PDF 中提取的新信息</title>
-      <link>https://libroot.org/posts/going-through-snowden-documents-part-4/</link>
-      <description><![CDATA[文章网址：https://libroot.org/posts/going-through-snowden-documents-part-4/
-评论网址：https://news.ycombinator.com/item?id=46564762
-积分：178
-评论数：84]]></description>
-      <guid>https://libroot.org/posts/going-through-snowden-documents-part-4/</guid>
-      <pubDate>Sat, 10 Jan 2026 11:23:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>请允许我介绍一下，雪铁龙C15</title>
-      <link>https://eupolicy.social/@jmaris/115860595238097654</link>
-      <description><![CDATA[文章网址：https://eupolicy.social/@jmaris/115860595238097654
-评论网址：https://news.ycombinator.com/item?id=46564696
-积分：527
-评论数：324]]></description>
-      <guid>https://eupolicy.social/@jmaris/115860595238097654</guid>
-      <pubDate>Sat, 10 Jan 2026 11:12:15 GMT</pubDate>
     </item>
     </channel>
 </rss>
