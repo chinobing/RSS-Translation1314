@@ -4,107 +4,120 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 07 Jan 2026 21:21:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 01:43:52 GMT</lastBuildDate>
     <item>
-      <title>Show HN：感知动态数据的 LLM 响应缓存</title>
-      <link>https://blog.butter.dev/on-automatic-template-induction-for-response-caching</link>
-      <description><![CDATA[Raymond 来自 Butter.dev，这是一个作为聊天完成代理构建的 LLM 响应缓存。今天，我们将为该平台推出一项关键功能：概括动态、模板化输入的能力。HTTP 请求级别的缓存存在明显的概括性问题。由于模板化变量（如名称）和元数据（如时间戳），几乎没有请求是相同的，因此精确匹配的缓存查找很少命中。我们在 Butter 中通过使用 LLM 来检测请求中的动态内容并导出它们的相互关系来解决这个问题，从而允许将缓存条目存储为模板+变量+确定性代码。这允许未来的请求包含不同的可变数据，但仍通过缓存提供服务。我们发现这种方法极大地提高了缓存命中率，并相信它对于执行重复性后台任务、计算机使用或输入数据经常具有相同形状的数据转换的代理很有用。- 您可以在此处查看学习模式的演示：https://www.youtube.com/watch?v=ORDfPnk9rCA- 我们在此处撰写了有关技术方法的更多信息：https://blog.butter.dev/on-automatic-template-induction-for-...- 可以在此处免费试用：https://butter.dev/auth
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46532755
-积分：3
-# 条评论：0]]></description>
-      <guid>https://blog.butter.dev/on-automatic-template-induction-for-response-caching</guid>
-      <pubDate>Wed, 07 Jan 2026 21:04:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude Code CLI 损坏</title>
-      <link>https://github.com/anthropics/claude-code/issues/16673</link>
-      <description><![CDATA[文章网址：https://github.com/anthropics/claude-code/issues/16673
-评论网址：https://news.ycombinator.com/item?id=46532075
+      <title>Caltrain 展示了为什么每个地区都应该转向区域铁路</title>
+      <link>https://www.hsrail.org/blog/caltrain-shows-why-every-region-should-be-moving-toward-regional-rail/</link>
+      <description><![CDATA[文章网址：https://www.hsrail.org/blog/caltrain-shows-why-every-region-should-be-moving-toward-regional-rail/
+评论网址：https://news.ycombinator.com/item?id=46561302
 积分：47
-# 条评论：28]]></description>
-      <guid>https://github.com/anthropics/claude-code/issues/16673</guid>
-      <pubDate>Wed, 07 Jan 2026 20:25:51 GMT</pubDate>
+# 条评论：44]]></description>
+      <guid>https://www.hsrail.org/blog/caltrain-shows-why-every-region-should-be-moving-toward-regional-rail/</guid>
+      <pubDate>Sat, 10 Jan 2026 00:25:29 GMT</pubDate>
     </item>
     <item>
-      <title>默认情况下不再启用 Tailscale 状态文件加密</title>
-      <link>https://tailscale.com/changelog</link>
-      <description><![CDATA[文章网址：https://tailscale.com/changelog
-评论网址：https://news.ycombinator.com/item?id=46531925
-积分：53
-# 条评论：38]]></description>
-      <guid>https://tailscale.com/changelog</guid>
-      <pubDate>Wed, 07 Jan 2026 20:16:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>克劳德代码紧急行为：当技能结合时</title>
-      <link>https://vibeandscribe.xyz/posts/2025-01-07-emergent-behavior.html</link>
-      <description><![CDATA[文章网址：https://vibeandscribe.xyz/posts/2025-01-07-emergent-behavior.html
-评论网址：https://news.ycombinator.com/item?id=46531794
-积分：16
-# 条评论：2]]></description>
-      <guid>https://vibeandscribe.xyz/posts/2025-01-07-emergent-behavior.html</guid>
-      <pubDate>Wed, 07 Jan 2026 20:06:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI概念：未打补丁的数据泄露</title>
-      <link>https://www.promptarmor.com/resources/notion-ai-unpatched-data-exfiltration</link>
-      <description><![CDATA[文章网址：https://www.promptarmor.com/resources/notion-ai-unpatched-data-exfiltration
-评论网址：https://news.ycombinator.com/item?id=46531565
-积分：6
-# 条评论：1]]></description>
-      <guid>https://www.promptarmor.com/resources/notion-ai-unpatched-data-exfiltration</guid>
-      <pubDate>Wed, 07 Jan 2026 19:49:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>笔记本律师</title>
-      <link>https://avc.xyz/notebook-lawyer</link>
-      <description><![CDATA[文章网址：https://avc.xyz/notebook-lawyer
-评论网址：https://news.ycombinator.com/item?id=46531511
-积分：4
+      <title>用你撒谎的耳朵看到它</title>
+      <link>https://lcamtuf.substack.com/p/see-it-with-your-lying-ears</link>
+      <description><![CDATA[文章网址：https://lcamtuf.substack.com/p/see-it-with-your-lying-ears
+评论网址：https://news.ycombinator.com/item?id=46561286
+积分：18
 # 条评论：0]]></description>
-      <guid>https://avc.xyz/notebook-lawyer</guid>
-      <pubDate>Wed, 07 Jan 2026 19:45:35 GMT</pubDate>
+      <guid>https://lcamtuf.substack.com/p/see-it-with-your-lying-ears</guid>
+      <pubDate>Sat, 10 Jan 2026 00:23:05 GMT</pubDate>
     </item>
     <item>
-      <title>美国将禁止华尔街投资者购买单户住宅</title>
-      <link>https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/
-评论网址：https://news.ycombinator.com/item?id=46531068
-积分：231
-# 条评论：221]]></description>
-      <guid>https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/</guid>
-      <pubDate>Wed, 07 Jan 2026 19:13:19 GMT</pubDate>
+      <title>“鄂尔多斯问题 #728 或多或少是由人工智能自主解决的”</title>
+      <link>https://mathstodon.xyz/@tao/115855840223258103</link>
+      <description><![CDATA[文章网址：https://mathstodon.xyz/@tao/115855840223258103
+评论网址：https://news.ycombinator.com/item?id=46560445
+积分：198
+# 条评论：139]]></description>
+      <guid>https://mathstodon.xyz/@tao/115855840223258103</guid>
+      <pubDate>Fri, 09 Jan 2026 22:39:15 GMT</pubDate>
     </item>
     <item>
-      <title>经典代币经历动荡后，NPM 将实施分阶段发布</title>
-      <link>https://socket.dev/blog/npm-to-implement-staged-publishing</link>
-      <description><![CDATA[文章网址：https://socket.dev/blog/npm-to-implement-staged-publishing
-评论网址：https://news.ycombinator.com/item?id=46530448
-积分：77
+      <title>会议在 5 分钟后开始</title>
+      <link>https://philipotoole.com/start-your-meetings-at-5-minutes-past/</link>
+      <description><![CDATA[文章网址：https://phillipotoole.com/start-your-meetings-at-5-minutes-past/
+评论网址：https://news.ycombinator.com/item?id=46560217
+积分：12
+# 条评论：8]]></description>
+      <guid>https://philipotoole.com/start-your-meetings-at-5-minutes-past/</guid>
+      <pubDate>Fri, 09 Jan 2026 22:19:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Deno 已正式发布其 PyPI 发行版</title>
+      <link>https://github.com/denoland/deno/issues/31254</link>
+      <description><![CDATA[文章网址：https://github.com/denoland/eno/issues/31254
+评论网址：https://news.ycombinator.com/item?id=46559761
+积分：22
 # 条评论：7]]></description>
-      <guid>https://socket.dev/blog/npm-to-implement-staged-publishing</guid>
-      <pubDate>Wed, 07 Jan 2026 18:31:19 GMT</pubDate>
+      <guid>https://github.com/denoland/deno/issues/31254</guid>
+      <pubDate>Fri, 09 Jan 2026 21:41:27 GMT</pubDate>
     </item>
     <item>
-      <title>一个标签囤积者的理智之旅</title>
-      <link>https://twitter.com/borisandcrispin/status/2008709479068794989</link>
-      <description><![CDATA[文章网址：https://twitter.com/borisandcrispin/status/2008709479068794989
-评论网址：https://news.ycombinator.com/item?id=46529797
-积分：61
-# 条评论：66]]></description>
-      <guid>https://twitter.com/borisandcrispin/status/2008709479068794989</guid>
-      <pubDate>Wed, 07 Jan 2026 17:54:25 GMT</pubDate>
+      <title>QtNat – 使用 Qt UPnP 打开您的端口</title>
+      <link>http://renaudguezennec.eu/index.php/2026/01/09/qtnat-open-you-port-with-qt/</link>
+      <description><![CDATA[文章网址：http://renaudguezennec.eu/index.php/2026/01/09/qtnat-open-you-port-with-qt/
+评论网址：https://news.ycombinator.com/item?id=46558739
+积分：38
+# 条评论：26]]></description>
+      <guid>http://renaudguezennec.eu/index.php/2026/01/09/qtnat-open-you-port-with-qt/</guid>
+      <pubDate>Fri, 09 Jan 2026 20:17:07 GMT</pubDate>
     </item>
     <item>
-      <title>吃真正的食物</title>
-      <link>https://realfood.gov</link>
-      <description><![CDATA[文章网址：https://realfood.gov
-评论网址：https://news.ycombinator.com/item?id=46529237
-积分：210
-评论数：380]]></description>
-      <guid>https://realfood.gov</guid>
-      <pubDate>Wed, 07 Jan 2026 17:22:09 GMT</pubDate>
+      <title>RTX 5090 和 Raspberry Pi：可以玩游戏吗？</title>
+      <link>https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/</link>
+      <description><![CDATA[文章网址：https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/
+评论网址：https://news.ycombinator.com/item?id=46558148
+积分：139
+# 条评论：60]]></description>
+      <guid>https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/</guid>
+      <pubDate>Fri, 09 Jan 2026 19:33:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：火箭发射和轨道模拟器</title>
+      <link>https://www.donutthejedi.com/</link>
+      <description><![CDATA[我（17 岁）一直在开发火箭发射模拟，让用户能够探索从地球发射火箭并​​将其送入轨道的感觉。这个想法最初是作为一个教育模拟开始的，但随着我越深入兔子洞，我就越想让它变得现实。问题是我从来没有上过正式的轨道力学课程或类似的课程，所以我不知道我错过了什么，我目前实现的是： 可变重力
+  可变大气阻力（美国标准大气 1976）
+  多级火箭
+  闭环引导/俯仰程序（在 350 公里至 600 公里范围内运行良好）
+  轨道预测和推进选项可以改变你的轨道。
+
+我正在寻找的反馈是：UI 改进和未来可能的物理实现。当前的代码和物理可以在以下位置找到：https://github.com/donutTheJedi/Rocket-Launch-Simulation
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46557879
+积分：91
+# 条评论：26]]></description>
+      <guid>https://www.donutthejedi.com/</guid>
+      <pubDate>Fri, 09 Jan 2026 19:15:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：EuConform – 离线优先的欧盟人工智能法案合规工具（开源）</title>
+      <link>https://github.com/Hiepler/EuConform</link>
+      <description><![CDATA[我将其构建为个人开源项目，以探索欧盟人工智能的行为方式
+要求可以转化为具体的、可检查的技术检查。核心思想是本地优先合规性：
+– 风险分类（第 5-15 条，包括禁止使用案例）
+– 使用 CrowS-Pairs 进行偏差评估
+– 面向附件 IV 的自动 PDF 报告
+– 没有云服务或外部 API（基于浏览器 + Ollama）我对有关此类是否存在的反馈特别感兴趣
+人工智能监管的技术框架在现实世界的项目中是有意义的。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46557823
+积分：56
+# 条评论：33]]></description>
+      <guid>https://github.com/Hiepler/EuConform</guid>
+      <pubDate>Fri, 09 Jan 2026 19:11:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>140 个字符的 JavaScript 演示</title>
+      <link>https://beta.dwitter.net</link>
+      <description><![CDATA[文章网址：https://beta.dwitter.net
+评论网址：https://news.ycombinator.com/item?id=46557489
+积分：172
+# 条评论：36]]></description>
+      <guid>https://beta.dwitter.net</guid>
+      <pubDate>Fri, 09 Jan 2026 18:48:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
