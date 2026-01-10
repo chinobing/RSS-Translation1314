@@ -4,20 +4,41 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Sat, 10 Jan 2026 03:56:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 06:30:36 GMT</lastBuildDate>
     <item>
-      <title>我用 C++20 编写了一个小型的仅包含头文件的 WebSocket 库，因为我显然讨厌自己</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8tlw4/i_wrote_a_tiny_headeronly_websocket_library_in/</link>
-      <description><![CDATA[嘿伙计们👋 我完全意识到世界不需要需要另一个 C++ WebSocket 库 - 但在与现有库斗争太久之后，我最终编写了自己的库而不是碰草。 它被称为 wspp，它是一个仅标头的 C++20 WebSocket 客户端/服务器 库。没有 Boost，没有 ASIO 依赖汤，没有宏观体操。只是现代 C++ 和反应器式异步循环。 我并不是说它是革命性的或比你最喜欢的库更好。这主要是由于：  “这应该更简单” “为什么需要 5 个依赖项？” “当然 RFC 6455 并没有那么糟糕”（确实如此）  一些亮点（如果您仍在阅读）：  仅标头（将其放入并继续） WS 和 WSS（OpenSSL 可选） 异步/非阻塞 Windows + Linux 通过 Autobahn 测试（这最让我惊讶） 围绕 C++20 设计，而不是假装是 2008 年  我一直在自己的项目中使用它，并认为在它在我的 SSD 上永远烂掉之前我会分享它。如果没有别的，也许它很有用：  一个轻量级的替代方案 一个参考实现 或者在评论中大喊大叫的东西😄  Repo +示例+文档在这里： 👉 https://github.com/pinwhell/wspp 反馈、挑剔、“你为什么不直接使用 X”或“这太糟糕了，这就是原因”都非常受欢迎。我仍在学习中，我宁愿现在就听到它，也不愿在有人在其基础上构建一些重要的东西之后才听到它。 感谢您阅读❤️   由   提交/u/Previous_Bake7736   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8tlw4/i_wrote_a_tiny_headeronly_websocket_library_in/</guid>
-      <pubDate>Sat, 10 Jan 2026 03:41:54 GMT</pubDate>
+      <title>构建多代理开发工作流程</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8wh6u/building_a_multiagent_development_workflow/</link>
+      <description><![CDATA[我会不断更新。   由   提交/u/itsgg  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8wh6u/building_a_multiagent_development_workflow/</guid>
+      <pubDate>Sat, 10 Jan 2026 06:08:17 GMT</pubDate>
     </item>
     <item>
-      <title>我构建了一些东西来解决我一直遇到的问题：我想在我的项目中嵌入人工智能功能（聊天机器人、内容生成器），但不想管理 API 密钥、构建后端或按请求付费。</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8sgtj/i_built_something_to_solve_a_problem_i_kept/</link>
-      <description><![CDATA[方法：Scaffold 不调用 OpenAI 的 API，而是生成用户自己发送到 ChatGPT 的优化提示。您构建一个包含自定义字段的表单，使用 {{variables}} 编写提示模板，然后您的用户将获得格式完美的 ChatGPT 提示。  这是我正在解决的真正问题吗？如果您需要任何澄清问题，请告诉我。   由   提交/u/BruhMomentBruhuno   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8sgtj/i_built_something_to_solve_a_problem_i_kept/</guid>
-      <pubDate>Sat, 10 Jan 2026 02:47:48 GMT</pubDate>
+      <title>由于错误共享，代码速度减慢 100 倍</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8w3by/100x_slower_code_due_to_false_sharing/</link>
+      <description><![CDATA[ 由   提交/u/BlueGoliath  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8w3by/100x_slower_code_due_to_false_sharing/</guid>
+      <pubDate>Sat, 10 Jan 2026 05:47:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>1MB 密码：通过哈希耗尽导致后端崩溃</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8vptv/the_1mb_password_crashing_backends_via_hashing/</link>
+      <description><![CDATA[ 由   提交/u/JadeLuxe  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8vptv/the_1mb_password_crashing_backends_via_hashing/</guid>
+      <pubDate>Sat, 10 Jan 2026 05:27:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Replit 老板：首席执行官可以编写自己的原型，而不必再向工程师寻求帮助</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8vm5v/replit_boss_ceos_can_vibe_code_their_own/</link>
+      <description><![CDATA[这有点发泄： 我以前说过，我会死在这座山上：氛围编码绝对是脑腐病，事实上，它与首席执行官可以给自己支付更多工资和雇用更少人员的建议有关，这是令人愤慨的。我敢打赌他的代码看起来绝对是一派胡言🤣  Masad 说许多领导者感到“被剥夺了权力，因为他们委托了很多事情。”  基本上可以翻译为：“我懒得学习如何编程:(”   一个粗略的原型，Masad 说，允许领导提出一个尖锐的问题：如果几天内就能完成一个版本，为什么要花几周的时间来构建？  这实际上是疯狂的。 无论如何，我一直讨厌 Repilit     提交的href=&quot;https://www.reddit.com/user/chronically-iconic&quot;&gt; /u/chronically-iconic   [链接]   href=&quot;https://www.reddit.com/r/programming/comments/1q8vm5v/replit_boss_ceos_can_vibe_code_their_own/&quot;&gt;[评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8vm5v/replit_boss_ceos_can_vibe_code_their_own/</guid>
+      <pubDate>Sat, 10 Jan 2026 05:22:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>麻省理工学院非人工智能许可证</title>
+      <link>https://www.reddit.com/r/programming/comments/1q8v9b1/mit_nonai_license/</link>
+      <description><![CDATA[ 由   提交/u/dumindunuwan  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1q8v9b1/mit_nonai_license/</guid>
+      <pubDate>Sat, 10 Jan 2026 05:03:41 GMT</pubDate>
     </item>
     <item>
       <title>我们如何使 Python 的打包库速度提高 3 倍</title>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交/u/Minute-Conference-33  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1q8gi54/the_simplest_way_to_build_ai_agents_in_2026/</guid>
       <pubDate>Fri, 09 Jan 2026 18:41:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>钻孔系统赢得信任</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8evp8/boring_systems_earn_trust/</link>
-      <description><![CDATA[当有人称某个系统“聪明”时，我常常将其视为一种恭维。   由   提交 /u/Unhappy_Concept237   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8evp8/boring_systems_earn_trust/</guid>
-      <pubDate>Fri, 09 Jan 2026 17:42:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>接口是一组函数</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8egr2/an_interface_is_a_set_of_functions/</link>
-      <description><![CDATA[ 由   提交 /u/levodelellis   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8egr2/an_interface_is_a_set_of_functions/</guid>
-      <pubDate>Fri, 09 Jan 2026 17:26:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>云代码：它实际上为开发人员解决了什么问题</title>
-      <link>https://www.reddit.com/r/programming/comments/1q8e79y/cloud_code_what_it_actually_fixes_for_developers/</link>
-      <description><![CDATA[Cloud Code 并不是华而不实的功能；而是 开发人员通常首先注意到的是：  在 IDE（VS Code / IntelliJ）中工作，因此您无需切换工具即可进行编码、调试和部署 YAML（Kubernetes、Cloud Run）的自动完成+验证，减少配置错误 更快的本地运行和部署调试，这样您就可以在推送到云端之前进行迭代 内置 Kubernetes 工作流程，而不是将多个工具拼接在一起  对于任何构建容器化或云原生应用程序的人来说，Cloud Code 悄悄地改善了日常开发人员体验。   由   提交/u/netcommah  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1q8e79y/cloud_code_what_it_actually_fixes_for_developers/</guid>
-      <pubDate>Fri, 09 Jan 2026 17:17:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
