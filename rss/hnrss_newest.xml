@@ -4,123 +4,110 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 11 Jan 2026 12:42:14 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 15:21:40 GMT</lastBuildDate>
     <item>
-      <title>问 HN：Manus.im（Meta）让我挂了 7 天——这正常吗？</title>
-      <link>https://news.ycombinator.com/item?id=46575192</link>
-      <description><![CDATA[我一直在 Manus.im（最近被 Meta 收购）上构建移动应用程序。在过去 5 天以上，我的后端无法发布。支持时间表：
-- 第 1-2 天（1 月 3-4 日）：我提交带有日志的详细错误报告
-- 第 3 天：支持人员做出回应，显然不理解问题
-- 第三天：我重新解释，提供项目访问进行测试
-- 第 4-7 天：完全沉默。没有测试结果，没有更新。同时，由于沙箱重置，我已经丢失了 4 次相同的工作，并浪费了数千积分。这种情况发生在多张支持票上。他们回应一次，我提供他们要求的东西，然后他们就消失了。这对马努斯来说正常吗？我应该减少损失并迁移吗？其他人也经历过这种情况吗？堆栈：Next.js + React Native (Expo) + tRPC + PostgreSQL考虑迁移到：Vercel + Railway + Supabase + Expo EAS感谢任何建议。
+      <title>显示 HN：zsh 的 blaze-keys – 通过主键组合更快地运行命令</title>
+      <link>https://github.com/enhanced-primate/blaze-keys</link>
+      <description><![CDATA[作为经常使用终端的人，我尝试优化每次击键。虽然我仍然使用像“fzf”和“zsh-autosuggestions”这样很棒的插件，但它们并没有完全优化运行常见命令所需的击键次数。因此，我创建了 `blaze-keys` (`blz`)。（预告片演示：https://asciinema.org/a/767061）`blz` 有两个主要功能： 
+1. Leader-keys 是一个热键，触发它可以打开可能的命令树。您可以看到可用选项的列表，并且将执行/展开第一个明确的选择。一旦你的肌肉记忆开始发挥作用，你就会以惊人的速度执行命令。 
+2. `blz` 还可以用作热键管理器，使您可以更轻松地在一个地方设置按键绑定。但此外，当您在目录之间移动时，它会自动重新分配您的热键，因此您可以在不同的项目类型中保留相同的“构建”热键。在领导键模式下，您甚至不需要使用 Enter 键来运行命令：您在调用它时选择是想要“执行”模式还是“缩写”模式。这使得它感觉像是大脑和终端之间的一个非常直接的接口。GitHub 页面上有一个完整的演示链接。目前 blz 仅支持 Zsh，但将来扩展对 Fish 等其他 shell 的支持应该相对容易。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46575192
+评论网址：https://news.ycombinator.com/item?id=46576383
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46575192</guid>
-      <pubDate>Sun, 11 Jan 2026 12:31:53 GMT</pubDate>
+      <guid>https://github.com/enhanced-primate/blaze-keys</guid>
+      <pubDate>Sun, 11 Jan 2026 15:12:32 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：vibe 编码员的每周代码审核</title>
-      <link>https://pyscn.ludo-tech.org/</link>
-      <description><![CDATA[文章网址：https://pyscn.ludo-tech.org/
-评论网址：https://news.ycombinator.com/item?id=46575190
+      <title>Show HN：使用 VM/370 机器做的有趣事情</title>
+      <link>https://rbanffy.github.io/fun-with-old-mainframes.github.io/fun-with-vm370.html</link>
+      <description><![CDATA[大家好。我将此作为一个有趣的介绍，旨在帮助那些零 IBM 大型机经验且​​无法访问现代 IBM 大型机（至少无法使用它做任何您想做的事情）的人。对于那些不知道这些机器如何运行的人来说，我很欣赏提示、建议以及任何可能改善体验的东西(d)。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46576367
 积分：1
-# 条评论：1]]></description>
-      <guid>https://pyscn.ludo-tech.org/</guid>
-      <pubDate>Sun, 11 Jan 2026 12:31:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>从头开始重新创建几个介绍</title>
-      <link>https://medium.com/@skewcy/recreate-pluribus-intro-from-scratch-8f64c7ff50a3</link>
-      <description><![CDATA[文章网址：https://medium.com/@skewcy/recreate-pluribus-intro-from-scratch-8f64c7ff50a3
-评论网址：https://news.ycombinator.com/item?id=46575155
-积分：2
 # 条评论：0]]></description>
-      <guid>https://medium.com/@skewcy/recreate-pluribus-intro-from-scratch-8f64c7ff50a3</guid>
-      <pubDate>Sun, 11 Jan 2026 12:26:18 GMT</pubDate>
+      <guid>https://rbanffy.github.io/fun-with-old-mainframes.github.io/fun-with-vm370.html</guid>
+      <pubDate>Sun, 11 Jan 2026 15:10:16 GMT</pubDate>
     </item>
     <item>
-      <title>谷歌：不要为法学硕士制作“一口大小”的内容</title>
-      <link>https://arstechnica.com/google/2026/01/google-dont-make-bite-sized-content-for-llms-if-you-care-about-search-rank/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/google/2026/01/google-dont-make-bite-sized-content-for-llms-if-you-care-about-search-rank/
-评论网址：https://news.ycombinator.com/item?id=46575127
-积分：2
+      <title>AI芯片销售数据</title>
+      <link>https://epoch.ai/data/ai-chip-sales</link>
+      <description><![CDATA[文章网址：https://epoch.ai/data/ai-chip-sales
+评论网址：https://news.ycombinator.com/item?id=46576357
+积分：1
 # 条评论：0]]></description>
-      <guid>https://arstechnica.com/google/2026/01/google-dont-make-bite-sized-content-for-llms-if-you-care-about-search-rank/</guid>
-      <pubDate>Sun, 11 Jan 2026 12:22:05 GMT</pubDate>
+      <guid>https://epoch.ai/data/ai-chip-sales</guid>
+      <pubDate>Sun, 11 Jan 2026 15:09:13 GMT</pubDate>
     </item>
     <item>
-      <title>NPM-agentskills – 将 AI 代理文档与 NPM 包捆绑在一起</title>
-      <link>https://github.com/onmax/npm-agentskills</link>
-      <description><![CDATA[文章网址：https://github.com/onmax/npm-agentskills
-评论网址：https://news.ycombinator.com/item?id=46575092
+      <title>数据中心——我们的数据还不够多吗？</title>
+      <link>https://www.buzzsprout.com/2469780/episodes/18477666-19-data-centers-don-t-we-have-enough-already</link>
+      <description><![CDATA[文章网址： https://www.buzzsprout.com/2469780/episodes/18477666-19-data-centers-don-t-we-have-enough-already
+评论网址：https://news.ycombinator.com/item?id=46576353
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/onmax/npm-agentskills</guid>
-      <pubDate>Sun, 11 Jan 2026 12:18:41 GMT</pubDate>
+      <guid>https://www.buzzsprout.com/2469780/episodes/18477666-19-data-centers-don-t-we-have-enough-already</guid>
+      <pubDate>Sun, 11 Jan 2026 15:08:59 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：一个小型的免费工作申请跟踪器，让您不再忘记跟进</title>
-      <link>https://applytrack.netlify.app/</link>
-      <description><![CDATA[你用什么来跟踪工作申请？我一直不知道我在哪里申请以及何时跟进，所以我为自己制作了一个非常小的网络跟踪器。它故意是最小的：公司/角色、状态和下一步行动日期，这样我就不会忘记后续行动。我主要寻找反馈，而不是销售，什么感觉令人困惑，缺少什么，或者你个人使用什么！！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46575084
-积分：2
-# 条评论：1]]></description>
-      <guid>https://applytrack.netlify.app/</guid>
-      <pubDate>Sun, 11 Jan 2026 12:17:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于现代投资组合理论的资产配置的Python集成</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5915004</link>
-      <description><![CDATA[文章网址：https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5915004
-评论网址：https://news.ycombinator.com/item?id=46575081
-积分：2
-# 条评论：0]]></description>
-      <guid>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5915004</guid>
-      <pubDate>Sun, 11 Jan 2026 12:17:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>推荐阅读新技术和思维的资源</title>
-      <link>https://news.ycombinator.com/item?id=46575065</link>
-      <description><![CDATA[所以，我觉得在所有关于人工智能和法学硕士的讨论中，许多文章都涉及技术方面的细节，而不是涉及这项新技术的哲学、社会或社区方面，以及我们正在走向什么样的未来。我曾经读过《大胆的火球》，因为它简短、切题，但文章变得相当冗长；当它更加学术化时，我不介意冗长，只是对于以观点为导向的来说，我不介意。  我很想听听关于该读谁的书、该浏览哪些网站，甚至该翻阅哪些（电子）书的建议。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46575065
-积分：2
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46575065</guid>
-      <pubDate>Sun, 11 Jan 2026 12:15:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：UebGuard – 在用户点击之前阻止网络钓鱼的电子邮件保护</title>
-      <link>https://www.uebguard.com/</link>
-      <description><![CDATA[嗨，HN 
-我是 Arlind，UebGuard 的创始人。我们看到的大多数安全漏洞并不是从零日攻击或高级攻击开始的。
-他们从一封网络钓鱼电子邮件开始。因此，我们构建了 UebGuard 电子邮件保护 — 一种让初创公司和小型团队无需复杂配置即可阻止网络钓鱼和欺骗电子邮件的简单方法。工作原理：您验证您的域名
-我们实时分析发件人、标头和链接
-网络钓鱼、欺骗和恶意电子邮件会被自动阻止无代理。
-没有严格的规则。
-专为绩效第一的团队而打造。我们刚刚开放抢先体验，我希望获得 HN 社区的反馈，尤其是以下方面的反馈：误报
-缺少攻击向量
-用户体验简单性与控制链接：uebguard.com很高兴回答任何问题
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46575061
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.uebguard.com/</guid>
-      <pubDate>Sun, 11 Jan 2026 12:14:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>DJK</title>
-      <link>https://news.ycombinator.com/item?id=46575055</link>
-      <description><![CDATA[DJJK
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46575055
+      <title>人工智能驱动的凡勃伦经济</title>
+      <link>https://reducibleerrors.com/the-veblen-economy/</link>
+      <description><![CDATA[文章网址：https://reducibleerrors.com/the-veblen-economy/
+评论网址：https://news.ycombinator.com/item?id=46576345
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46575055</guid>
-      <pubDate>Sun, 11 Jan 2026 12:13:56 GMT</pubDate>
+      <guid>https://reducibleerrors.com/the-veblen-economy/</guid>
+      <pubDate>Sun, 11 Jan 2026 15:08:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>技术准备水平</title>
+      <link>https://www.nasa.gov/directorates/somd/space-communications-navigation-program/technology-readiness-levels/</link>
+      <description><![CDATA[文章网址：https://www.nasa.gov/directorates/somd/space-communications-navigation-program/technology-readiness-levels/
+评论网址：https://news.ycombinator.com/item?id=46576342
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nasa.gov/directorates/somd/space-communications-navigation-program/technology-readiness-levels/</guid>
+      <pubDate>Sun, 11 Jan 2026 15:08:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>一袋重杂货</title>
+      <link>https://ahmeto.com/p/bag-of-heavy-groceries</link>
+      <description><![CDATA[文章网址：https://ahmeto.com/p/bag-of-heavy-groceries
+评论网址：https://news.ycombinator.com/item?id=46576339
+积分：1
+# 条评论：0]]></description>
+      <guid>https://ahmeto.com/p/bag-of-heavy-groceries</guid>
+      <pubDate>Sun, 11 Jan 2026 15:07:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>据报道 Instagram 数据泄露泄露了 1750 万用户的个人信息</title>
+      <link>https://www.engadget.com/cybersecurity/an-instagram-data-breach-reportedly-exposed-the-personal-info-of-175-million-users-192105616.html</link>
+      <description><![CDATA[文章网址： https://www.engadget.com/cybersecurity/an-instagram-data-breach-reportedly-expose-the-personal-info-of-175-million-users-192105616.html
+评论网址：https://news.ycombinator.com/item?id=46576337
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.engadget.com/cybersecurity/an-instagram-data-breach-reportedly-exposed-the-personal-info-of-175-million-users-192105616.html</guid>
+      <pubDate>Sun, 11 Jan 2026 15:07:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>都柏林的虐待工厂</title>
+      <link>https://www.thegist.ie/the-gist-the-abuse-factory/</link>
+      <description><![CDATA[文章网址：https://www.thegist.ie/the-gist-the-abuse-factory/
+评论网址：https://news.ycombinator.com/item?id=46576328
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.thegist.ie/the-gist-the-abuse-factory/</guid>
+      <pubDate>Sun, 11 Jan 2026 15:06:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>时间和风险</title>
+      <link>https://www.tornikeo.com/time-and-risk/</link>
+      <description><![CDATA[文章网址：https://www.tornikeo.com/time-and-risk/
+评论网址：https://news.ycombinator.com/item?id=46576325
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.tornikeo.com/time-and-risk/</guid>
+      <pubDate>Sun, 11 Jan 2026 15:06:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
