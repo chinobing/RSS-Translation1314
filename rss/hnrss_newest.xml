@@ -4,111 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 10 Jan 2026 21:20:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 01:55:47 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Marten – 优雅的 Go Web 框架（没什么妨碍）</title>
-      <link>https://github.com/gomarten/marten</link>
-      <description><![CDATA[文章网址：https://github.com/gomarten/marten
-评论网址：https://news.ycombinator.com/item?id=46569949
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/gomarten/marten</guid>
-      <pubDate>Sat, 10 Jan 2026 21:10:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：标签驱动的变更日志生成器 (MDX) 以及可选的 LLM 摘要</title>
-      <link>https://news.ycombinator.com/item?id=46569948</link>
-      <description><![CDATA[我为我维护的 OSS 项目构建了一个标签驱动的变更日志生成器，并用它来回填我们的 2025 年文档变更日志。它遍历 git 标签，查找版本之间合并的 PR，将它们分类，并呈现按年 -&gt; 月 -&gt; 类别 -&gt; 版本组织的 MDX（在我们的例子中为 Docusaurus）。有一个可选的 LLM 模式，可通过 Pydantic 模式生成结构化 JSON，用于 PR 条目和每月摘要。示例：python .scripts/changelog/generate.py --year 2025 --github --ai --ai-model gpt-5.2
-（或 --help）问题：如果您使用 --github，请设置 GITHUB_TOKEN，否则您很可能会达到 GitHub 速率限制。Repo 脚本：https://github.com/confident-ai/deepeval/blob/main/.scripts/...披露：我维护 DeepEval。乐意回答问题并接受反馈。
+      <title>Show HN: Ferrite – Rust 中的 Markdown 编辑器，具有原生美人鱼图渲染</title>
+      <link>https://github.com/OlaProeis/Ferrite</link>
+      <description><![CDATA[Ferrite：带有原生美人鱼图的 Rust 快速 Markdown/文本/代码编辑器使用 Rust + egui 构建了一个 Markdown 编辑器。 v0.2.1 刚刚发布，带来了主要的 Mermaid 改进：→ 原生 Mermaid 图表 - 流程图、序列、状态、ER、git 图 - 纯 Rust，无 JS→ 分割视图 - 原始 + 并排渲染并同步滚动→ 语法突出显示 - 40 多种语言，具有大文件优化→ JSON/YAML/TOML 树查看器 - 带展开/折叠的结构化编辑→ Git 集成 - 文件树显示修改/暂存/未跟踪状态还有：小地图、禅宗模式、自动保存、会话恢复、代码折叠指示器。~15MB 二进制文件、即时启动。 Windows/Linux/macOS。GitHub：https://github.com/OlaProeis/Ferritev0.2.2 即将推出，改进了大文件的性能。寻求反馈！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46569948
+评论网址：https://news.ycombinator.com/item?id=46571980
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46569948</guid>
-      <pubDate>Sat, 10 Jan 2026 21:10:51 GMT</pubDate>
+      <guid>https://github.com/OlaProeis/Ferrite</guid>
+      <pubDate>Sun, 11 Jan 2026 01:50:01 GMT</pubDate>
     </item>
     <item>
-      <title>SchHow 普通人在没有完美成绩的情况下赢得资助</title>
-      <link>https://grantjobsandscholarship.blogspot.com/2026/01/hidden-scholarships-nobody-talks-about.html</link>
-      <description><![CDATA[文章网址：https://grantjobsandscholarship.blogspot.com/2026/01/hidden-scholarships-nobody-talks-about.html
-评论网址：https://news.ycombinator.com/item?id=46569936
+      <title>官员称美国空袭叙利亚境内“伊斯兰国”目标</title>
+      <link>https://www.cbsnews.com/news/us-airstrikes-isis-targets-syria-central-command/</link>
+      <description><![CDATA[文章网址：https://www.cbsnews.com/news/us-airstrikes-isis-targets-syria-central-command/
+评论网址：https://news.ycombinator.com/item?id=46571973
 积分：1
 # 条评论：0]]></description>
-      <guid>https://grantjobsandscholarship.blogspot.com/2026/01/hidden-scholarships-nobody-talks-about.html</guid>
-      <pubDate>Sat, 10 Jan 2026 21:09:12 GMT</pubDate>
+      <guid>https://www.cbsnews.com/news/us-airstrikes-isis-targets-syria-central-command/</guid>
+      <pubDate>Sun, 11 Jan 2026 01:48:16 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：你是哪种类型的极客？</title>
-      <link>https://news.ycombinator.com/item?id=46569926</link>
-      <description><![CDATA[我想知道什么类型的人真正阅读 HN，我认为直接询问可能会更容易，而不是废弃评论并分析它们。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46569926
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46569926</guid>
-      <pubDate>Sat, 10 Jan 2026 21:07:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Tooliz – 使用 Flutter 构建的离线优先移动工具包（径向 UI）</title>
-      <link>https://play.google.com/store/apps/details?id=com.quentinrg.tooliz&hl=en</link>
-      <description><![CDATA[您好 HN，我是 Tooliz 背后的开发人员。我之所以构建这个应用程序，是因为我对 Play 商店中实用应用程序的当前状态感到沮丧 - 大多数都是 100MB 以上的臃肿软件，需要不必要的权限（例如手电筒的联系人/位置），或者仅使用简单的标尺就强制全屏视频广告。我想构建一个尊重用户并专注于 UI/UX 效率的单一轻量级应用程序。技术堆栈：它是用 Flutter 构建的。我选择它是为了在 Android 和 iOS 上以 60fps+ 的速度顺利处理工具所需的自定义绘画。有趣的技术挑战：径向菜单：我不需要标准网格或抽屉。我使用 CustomPainter 和重型三角函数实现了自定义径向菜单来处理触摸点击测试和动画。拇指导航感觉比到达左上角的汉堡菜单要快得多。传感器融合和硬件：金属探测器：访问原始磁力计流（sensors_plus 包）。我必须实施校准步骤来滤除背景磁场并隔离局部异常（金属）。声级计：使用麦克风流来计算分贝。将原始 PCM 数据映射到不同设备麦克风上的准确 dB SPL 值非常痛苦。我使用了校准偏移系统来减轻硬件差异。离线优先架构：除了最小的广告横幅（以保持项目活力）之外，一切都可以离线工作。对于单位转换器，我对转换逻辑进行了硬编码，而不是依赖 API，因此它可以在飞行模式下立即运行。盈利：免费。底部有一个小横幅广告 (AdMob)。我很想听听您对 Radial UI 实现或特定设备上的传感器准确性的反馈！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46569911
-积分：1
-# 条评论：0]]></description>
-      <guid>https://play.google.com/store/apps/details?id=com.quentinrg.tooliz&hl=en</guid>
-      <pubDate>Sat, 10 Jan 2026 21:04:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能的集中经济学：为什么云超大规模可能被低估</title>
-      <link>https://deadneurons.substack.com/p/the-concentrated-economics-of-ai</link>
-      <description><![CDATA[文章网址：https://deadneurons.substack.com/p/the-concentrate-economics-of-ai
-评论网址：https://news.ycombinator.com/item?id=46569907
-积分：1
-# 条评论：0]]></description>
-      <guid>https://deadneurons.substack.com/p/the-concentrated-economics-of-ai</guid>
-      <pubDate>Sat, 10 Jan 2026 21:03:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>很快，热泵将能够根据需要存储和分配热量</title>
-      <link>https://norwegianscitechnews.com/2026/01/pretty-soon-heat-pumps-will-be-able-to-store-and-distribute-heat-as-needed/</link>
-      <description><![CDATA[文章网址： https://norwegianscitechnews.com/2026/01/pretty-soon-heat-pumps-will-be-able-to-store-and-distribute-heat-as-needed/
-评论网址：https://news.ycombinator.com/item?id=46569900
+      <title>网络犯罪分子窃取了 1750 万 Instagram 用户的敏感信息</title>
+      <link>https://bsky.app/profile/malwarebytes.com/post/3mbywfybiil26</link>
+      <description><![CDATA[文章网址：https://bsky.app/profile/malwarebytes.com/post/3mbywfybiil26
+评论网址：https://news.ycombinator.com/item?id=46571968
 积分：2
-# 条评论：1]]></description>
-      <guid>https://norwegianscitechnews.com/2026/01/pretty-soon-heat-pumps-will-be-able-to-store-and-distribute-heat-as-needed/</guid>
-      <pubDate>Sat, 10 Jan 2026 21:02:09 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://bsky.app/profile/malwarebytes.com/post/3mbywfybiil26</guid>
+      <pubDate>Sun, 11 Jan 2026 01:46:51 GMT</pubDate>
     </item>
     <item>
-      <title>面向 PRO 用户的 Omarchy 3.3 Linux：archlinux 和 hyprland 以及 opencode 和 voxtype</title>
-      <link>https://www.youtube.com/watch?v=v2bWGI1ocYY</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=v2bWGI1ocYY
-评论网址：https://news.ycombinator.com/item?id=46569893
+      <title>Synthetic.new <3 开放代码</title>
+      <link>https://synthetic.new/blog/2026-01-10-synthetic-heart-opencode</link>
+      <description><![CDATA[文章网址：https://synthetic.new/blog/2026-01-10-synthetic-heart-opencode
+评论网址：https://news.ycombinator.com/item?id=46571955
+积分：5
+# 条评论：0]]></description>
+      <guid>https://synthetic.new/blog/2026-01-10-synthetic-heart-opencode</guid>
+      <pubDate>Sun, 11 Jan 2026 01:45:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>查看 PCWorld 的新 Linux 播客：双启动日记</title>
+      <link>https://www.pcworld.com/article/2888221/check-out-pcworlds-new-linux-podcast.html</link>
+      <description><![CDATA[文章网址：https://www.pcworld.com/article/2888221/check-out-pcworlds-new-linux-podcast.html
+评论网址：https://news.ycombinator.com/item?id=46571946
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=v2bWGI1ocYY</guid>
-      <pubDate>Sat, 10 Jan 2026 21:01:24 GMT</pubDate>
+      <guid>https://www.pcworld.com/article/2888221/check-out-pcworlds-new-linux-podcast.html</guid>
+      <pubDate>Sun, 11 Jan 2026 01:43:28 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：VAAK（语音激活自主知识系统）</title>
-      <link>https://github.com/ayushmaanbhav/Voice-Activated-Autonomous-Knowledge-System</link>
-      <description><![CDATA[当今大多数“语音 AI”演示只是云 LLM 的 API 包装器。它们令人印象深刻，但由于三个原因而在生产中失败：延迟、合规性和缺乏控制。我构建了 VAAK（语音激活自主知识系统）来解决这个问题。它不仅仅是一个“本地聊天机器人”。它是一个与领域无关的生产级会话操作系统，完全用 Rust 构建。以下是高级架构师和产品领导者应该关注的原因：1. “确定性”架构企业人工智能在讨论利率或医疗建议时不会产生幻觉。 VAAK 使用混合架构：生成流动性 + 确定性护栏：它自然流动，但严格遵守关键数据的业务逻辑。复杂的内存系统：它不仅仅“记住”最后一个令牌。它将上下文记忆（对话流）与代理记忆（长期事实）分开，使其能够处理复杂的多轮谈判，而不会丢失情节。实时 RAG：内置检索增强生成，可在几毫秒内查询您的内部知识库，确保答案基于您的文档，而不是互联网。2.专为复杂的“人类”行为而构建 VAAK 不仅限于问答。它专为特定的高价值模式而设计：发现和意图：在尝试解决问题之前准确识别用户致电的原因。异议处理：一个专用层，通过具有同理心、逻辑支持的反驳来管理推回（例如“价格太高”）。销售和转化：跟踪情绪并引导对话走向结束事件。财务和 CRM：安全处理交易查询（黄金贷款、EMI 计算）零数据泄漏。3.真正的主权和安全（GDPR 就绪） 在“数据主权”时代，VAAK 提供大型云提供商无法提供的功能：完全隔离。气隙运行时：没有数据离开您的 VPC。合规第一：内置 PII 编辑和审核日志记录。零信任设计：您拥有模型、权重和推理管道。4.性能工程（Rust 优势）&lt;500 毫秒延迟：实现人类水平的“可中断性”和响应时间。无 GPU 税：在标准 CPU 上高效运行推理。可配置性：只需交换 YAML 配置文件即可更改整个领域（例如，从银行业到医疗保健）。Vision VAAK 证明我们不需要大规模集群来构建智能系统。我们需要更好的工程设计。如果您正在为银行、医疗保健或政府部门进行建设，而隐私和精确性是不容妥协的——这就是蓝图。在此处探索架构和代码：https://github.com/ayushmaanbhav/Voice-Activated-Autonomous-...#VAAK #RustLang #SystemArchitecture #GenerativeAI #SovereignAI #EnterpriseTech #VoiceAI #RAG #OpenSource #SoftwareEngineering
+      <title>AI Wizard 教给我们关于大规模 LLM 代码生成的知识</title>
+      <link>https://posthog.com/blog/correct-llm-code-generation</link>
+      <description><![CDATA[文章网址：https://posthog.com/blog/ Correct-llm-code- Generation
+评论网址：https://news.ycombinator.com/item?id=46571941
+积分：1
+# 条评论：0]]></description>
+      <guid>https://posthog.com/blog/correct-llm-code-generation</guid>
+      <pubDate>Sun, 11 Jan 2026 01:41:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>许多好莱坞幻想背后的假发制造商</title>
+      <link>https://www.nytimes.com/2026/01/09/style/wigs-celebrities-red-carpet.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2026/01/09/style/wigs-celebrities-red-carpet.html
+评论网址：https://news.ycombinator.com/item?id=46571936
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.nytimes.com/2026/01/09/style/wigs-celebrities-red-carpet.html</guid>
+      <pubDate>Sun, 11 Jan 2026 01:41:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Tatuagem，一个引以为傲的代码签名套件</title>
+      <link>https://github.com/juleshenry/tatuagem</link>
+      <description><![CDATA[我用 @DerekITCoder 故意递归地标记我的代码的有趣项目 (https://github.com/DerekITCoder)
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46569882
+评论网址：https://news.ycombinator.com/item?id=46571932
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/ayushmaanbhav/Voice-Activated-Autonomous-Knowledge-System</guid>
-      <pubDate>Sat, 10 Jan 2026 21:00:29 GMT</pubDate>
+      <guid>https://github.com/juleshenry/tatuagem</guid>
+      <pubDate>Sun, 11 Jan 2026 01:41:08 GMT</pubDate>
     </item>
     <item>
-      <title>《过山车大亨》中的克劳德·代码 [视频]</title>
-      <link>https://www.youtube.com/watch?v=CaFBNIH1gS4</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=CaFBNIH1gS4
-评论网址：https://news.ycombinator.com/item?id=46569860
+      <title>特朗普宣布信用卡利率一年上限为10%</title>
+      <link>https://www.theguardian.com/us-news/2026/jan/10/trump-credit-card-interest-rate-cap</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/us-news/2026/jan/10/trump-credit-card-interest-rate-cap
+评论网址：https://news.ycombinator.com/item?id=46571930
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=CaFBNIH1gS4</guid>
-      <pubDate>Sat, 10 Jan 2026 20:57:53 GMT</pubDate>
+      <guid>https://www.theguardian.com/us-news/2026/jan/10/trump-credit-card-interest-rate-cap</guid>
+      <pubDate>Sun, 11 Jan 2026 01:40:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>普渡大学增加了新生的人工智能学习要求</title>
+      <link>https://www.wfyi.org/news/articles/purdue-university-adds-ai-learning-requirement-for-incoming-students</link>
+      <description><![CDATA[文章网址：https://www.wfyi.org/news/articles/purdue-university-adds-ai-learning-requirement-for-incoming-students
+评论网址：https://news.ycombinator.com/item?id=46571899
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.wfyi.org/news/articles/purdue-university-adds-ai-learning-requirement-for-incoming-students</guid>
+      <pubDate>Sun, 11 Jan 2026 01:35:46 GMT</pubDate>
     </item>
     </channel>
 </rss>
