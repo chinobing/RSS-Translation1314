@@ -4,113 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 11 Jan 2026 04:11:13 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 06:33:20 GMT</lastBuildDate>
     <item>
-      <title>根据经验判断书籍的封面</title>
-      <link>https://yakshed.com/books/</link>
-      <description><![CDATA[文章网址：https://yakshed.com/books/
-评论网址：https://news.ycombinator.com/item?id=46572605
-积分：1
-# 条评论：0]]></description>
-      <guid>https://yakshed.com/books/</guid>
-      <pubDate>Sun, 11 Jan 2026 03:58:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：PrintReadyBook</title>
-      <link>https://printreadybook.com/</link>
-      <description><![CDATA[人工智能生成带有封面艺术的完整小说，可供印刷文本：我构建了一个工具，可以从单一概念生成完整的、可供印刷的书籍。输入您的想法，选择类型和长度，您将获得：
-完整稿件 PDF（打印格式，包含标题页、版权、章节）
-可编辑的 DOCX 文件
-AI 生成的封面艺术
-带书脊的可打印 PDF 封面
-整个过程需要几分钟。输出尺寸适合标准裁切尺寸，因此您可以直接上传到 KDP 或其他按需打印服务。与 Claude 一起构建，用于封面的写作和图像生成。起价 19 美元。希望获得有关概念和输出质量的反馈。 https://printreadybook.com
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46572593
-积分：1
-# 条评论：0]]></description>
-      <guid>https://printreadybook.com/</guid>
-      <pubDate>Sun, 11 Jan 2026 03:56:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>我从头开始构建了 1 PB 服务器 [视频]</title>
-      <link>https://www.youtube.com/watch?v=vVI7atoAeoo</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=vVI7atoAeoo
-评论网址：https://news.ycombinator.com/item?id=46572589
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=vVI7atoAeoo</guid>
-      <pubDate>Sun, 11 Jan 2026 03:55:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>问题来源</title>
-      <link>https://en.wikipedia.org/wiki/Q_source</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Q_source
-评论网址：https://news.ycombinator.com/item?id=46572581
-积分：1
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Q_source</guid>
-      <pubDate>Sun, 11 Jan 2026 03:54:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>主祷文</title>
-      <link>https://en.wikipedia.org/wiki/Lord%27s_Prayer</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Lord%27s_Prayer
-评论网址：https://news.ycombinator.com/item?id=46572577
-积分：1
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Lord%27s_Prayer</guid>
-      <pubDate>Sun, 11 Jan 2026 03:54:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>子代理、命令和技能正在融合</title>
-      <link>https://vivekhaldar.com/articles/claude-code-subagents-commands-skills-converging/</link>
-      <description><![CDATA[文章网址：https://vivekhaldar.com/articles/claude-code-subagents-commands-skills-converging/
-评论网址：https://news.ycombinator.com/item?id=46572576
-积分：1
-# 条评论：0]]></description>
-      <guid>https://vivekhaldar.com/articles/claude-code-subagents-commands-skills-converging/</guid>
-      <pubDate>Sun, 11 Jan 2026 03:54:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>马斯克的X将在7天内开源新算法</title>
-      <link>https://www.reuters.com/business/media-telecom/musks-x-open-source-new-algorithm-seven-days-2026-01-10/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/business/media-telecom/musks-x-open-source-new-algorithm-7-days-2026-01-10/
-评论网址：https://news.ycombinator.com/item?id=46572573
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.reuters.com/business/media-telecom/musks-x-open-source-new-algorithm-seven-days-2026-01-10/</guid>
-      <pubDate>Sun, 11 Jan 2026 03:53:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：使用多模式 LLM 进行 UI 测试</title>
-      <link>https://kodefreeze.com</link>
-      <description><![CDATA[嗨 HN，我构建这个工具是为了解决 UI 测试中的“不稳定”问题。现有的 AI 代理经常难以精确交互，而传统框架（Selenium/Playwright）在 DOM 发生变化时就会崩溃。方法：我不依赖硬编码选择器或纯计算机视觉，而是使用由多模式 LLM 提供支持的多代理系统。我们将屏幕截图（像素）和浏览器上下文（网络请求、控制台日志等）传递给模型。这使得代理能够：像用户一样“查看”UI，并准确地将语义意图（“单击注册按钮”）映射到精确坐标，即使布局发生变化也是如此。目标是模仿自然用户行为，而不是遵循预定义的脚本。它处理探索性测试并发现基于代码的断言遗漏的视觉错误。我希望获得有关实施的反馈或讨论使用 LLM 进行确定性测试的挑战。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46572553
-积分：1
-# 条评论：0]]></description>
-      <guid>https://kodefreeze.com</guid>
-      <pubDate>Sun, 11 Jan 2026 03:49:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>圣何塞市长：加州拟议的财富税将负担推给中产阶级家庭[视频]</title>
-      <link>https://www.youtube.com/watch?v=muVVOjJsLG8</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=muVVOjJsLG8
-评论网址：https://news.ycombinator.com/item?id=46572549
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=muVVOjJsLG8</guid>
-      <pubDate>Sun, 11 Jan 2026 03:49:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>马克斯·佩恩 – 二十年后 – 图形评论</title>
-      <link>https://darkcephas.blogspot.com/2021/07/max-payne-two-decades-later-graphics.html</link>
-      <description><![CDATA[文章网址：https://darkcephas.blogspot.com/2021/07/max-payne-two-decades-later-graphics.html
-评论网址：https://news.ycombinator.com/item?id=46572523
+      <title>Signal Chat：硅谷正在密谋反对加州的亿万富翁税</title>
+      <link>https://www.wsj.com/politics/policy/save-california-billionare-tax-814a2fe9</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/politics/policy/save-california-billionare-tax-814a2fe9
+评论网址：https://news.ycombinator.com/item?id=46573104
 积分：2
 # 条评论：0]]></description>
-      <guid>https://darkcephas.blogspot.com/2021/07/max-payne-two-decades-later-graphics.html</guid>
-      <pubDate>Sun, 11 Jan 2026 03:43:44 GMT</pubDate>
+      <guid>https://www.wsj.com/politics/policy/save-california-billionare-tax-814a2fe9</guid>
+      <pubDate>Sun, 11 Jan 2026 06:15:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>淫秽图片：X承认错误并表示将遵守印度法律</title>
+      <link>https://timesofindia.indiatimes.com/india/obscene-image-row-x-admits-mistake-thousands-of-posts-over-600-accounts-taken-down/articleshow/126461143.cms</link>
+      <description><![CDATA[文章网址： https://timesofindia.indiatimes.com/india/obscene-image-row-x-admits-mistake-thousands-of-posts-over-600-accounts-taken-down/articleshow/126461143.cms
+评论网址：https://news.ycombinator.com/item?id=46573092
+积分：1
+# 条评论：0]]></description>
+      <guid>https://timesofindia.indiatimes.com/india/obscene-image-row-x-admits-mistake-thousands-of-posts-over-600-accounts-taken-down/articleshow/126461143.cms</guid>
+      <pubDate>Sun, 11 Jan 2026 06:09:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>被遗忘者的照片</title>
+      <link>https://www.synthetrix.com/potf.html</link>
+      <description><![CDATA[文章网址：https://www.synthetrix.com/potf.html
+评论网址：https://news.ycombinator.com/item?id=46573082
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.synthetrix.com/potf.html</guid>
+      <pubDate>Sun, 11 Jan 2026 06:06:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>“操你，让我”无需说出口</title>
+      <link>https://daringfireball.net/2026/01/fuck_you_make_me_without_saying_the_words</link>
+      <description><![CDATA[文章网址：https://daringfireball.net/2026/01/fuck_you_make_me_without_saying_the_words
+评论网址：https://news.ycombinator.com/item?id=46573068
+积分：3
+# 条评论：1]]></description>
+      <guid>https://daringfireball.net/2026/01/fuck_you_make_me_without_saying_the_words</guid>
+      <pubDate>Sun, 11 Jan 2026 06:00:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我通过游戏化构建了一款 Instagram 风格的生产力应用程序</title>
+      <link>https://apps.apple.com/us/app/lockin-social-productivity/id6742454713</link>
+      <description><![CDATA[文章网址：https://apps.apple.com/us/app/lockin-social-productivity/id6742454713
+评论网址：https://news.ycombinator.com/item?id=46573014
+积分：1
+# 条评论：1]]></description>
+      <guid>https://apps.apple.com/us/app/lockin-social-productivity/id6742454713</guid>
+      <pubDate>Sun, 11 Jan 2026 05:46:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>简洁 TypeScript 书</title>
+      <link>https://github.com/gibbok/typescript-book</link>
+      <description><![CDATA[文章网址：https://github.com/gibbok/typescript-book
+评论网址：https://news.ycombinator.com/item?id=46573001
+积分：4
+# 条评论：1]]></description>
+      <guid>https://github.com/gibbok/typescript-book</guid>
+      <pubDate>Sun, 11 Jan 2026 05:42:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Worktrunk – 用于管理 Git 存储库中多个工作树的 CLI 工具</title>
+      <link>https://github.com/max-sixty/worktrunk</link>
+      <description><![CDATA[文章网址：https://github.com/max-sixty/worktrunk
+评论网址：https://news.ycombinator.com/item?id=46572998
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/max-sixty/worktrunk</guid>
+      <pubDate>Sun, 11 Jan 2026 05:41:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jupyter Agents：训练法学硕士使用笔记本进行推理</title>
+      <link>https://huggingface.co/blog/jupyter-agent-2</link>
+      <description><![CDATA[文章网址：https://huggingface.co/blog/jupyter-agent-2
+评论网址：https://news.ycombinator.com/item?id=46572992
+积分：1
+# 条评论：0]]></description>
+      <guid>https://huggingface.co/blog/jupyter-agent-2</guid>
+      <pubDate>Sun, 11 Jan 2026 05:40:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ghost 时事通讯注册垃圾邮件的最终结果是什么？</title>
+      <link>https://www.autodidacts.io/ghost-newsletter-sign-up-spam/</link>
+      <description><![CDATA[文章网址：https://www.autodidacts.io/ghost-newsletter-sign-up-spam/
+评论网址：https://news.ycombinator.com/item?id=46572989
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.autodidacts.io/ghost-newsletter-sign-up-spam/</guid>
+      <pubDate>Sun, 11 Jan 2026 05:39:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于疾病预测的多模式睡眠基础模型</title>
+      <link>https://www.nature.com/articles/s41591-025-04133-4</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41591-025-04133-4
+评论网址：https://news.ycombinator.com/item?id=46572986
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nature.com/articles/s41591-025-04133-4</guid>
+      <pubDate>Sun, 11 Jan 2026 05:39:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
