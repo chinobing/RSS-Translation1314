@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 12 Jan 2026 09:32:34 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 12:48:16 GMT</lastBuildDate>
+    <item>
+      <title>Vibe Engineering：这个工作流程让我在 33 天内交付了一个全栈应用程序，同时还晚上和周末工作</title>
+      <link>https://www.reddit.com/r/programming/comments/1qataws/vibe_engineering_the_workflow_that_let_me_ship_a/</link>
+      <description><![CDATA[假期期间，我从头开始编写了一个比特币原生活动票务平台。我是一名 Android 工程师，从大学开始就没有接触过 Web 开发。 让它发挥作用的心智模型：我是高级工程师，AI 是我才华横溢但与上下文无关的实习生。 关键模式：  规范驱动的开发（作为事实来源的 PRODUCT_SPEC.md） 作为虚构代码的代理角色（@Security-Agent、@UX-Agent）审阅者 宪法不变量（成为测试用例的设计原则） 每个功能后的事后分析 → 更新技能 → 系统变得更智能  这是由 4 部分组成的系列的第 1 部分。完整文章：链接 带有模板的入门套件：github.com/AOrobator/vibe-engineering-starter 很高兴回答有关工作流程的问题。   由   提交/u/boomchaos  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qataws/vibe_engineering_the_workflow_that_let_me_ship_a/</guid>
+      <pubDate>Mon, 12 Jan 2026 12:13:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>领域组合模型 (DCM)：Active Record 和 Clean DDD 之间的实用中间立场</title>
+      <link>https://www.reddit.com/r/programming/comments/1qast8w/domaincomposed_models_dcm_a_pragmatic_middle/</link>
+      <description><![CDATA[我写了一篇文章，探讨了当 Active Record 变得过于耦合时我们在实践中趋于一致的模式，但大量存储库的 Clean DDD 感觉像是解决当前问题的不必要的仪式。 这个想法是让域行为接近 ORM 支持的模型，同时在依赖于显式行为契约（钩子）的与基础设施无关的混合中表达业务规则。具体模型使用持久性问题来实现这些钩子。 它不是 DDD 的替代品，也不是 Active Record 的捍卫 - 更多的是尝试形式化许多团队似乎有机地达成的务实的中间立场。 本文使用一个简单的酒店预订示例（Python / SQLAlchemy），讨论该模式的权衡限制，并解释其他方法更适合的地方。 文章： https://medium.com/@hamza-senhajirhazi/domain-composed-models-dcm-a-pragmatic-middle-ground- Between-active-record-and-clean-ddd-e44172a58246 我真的对反例或批评感兴趣，尤其是来自在生产系统中应用 DDD 的人。   由   提交/u/senhaj_h   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qast8w/domaincomposed_models_dcm_a_pragmatic_middle/</guid>
+      <pubDate>Mon, 12 Jan 2026 11:47:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>YAML？这就是挪威的问题</title>
+      <link>https://www.reddit.com/r/programming/comments/1qaroyn/yaml_thats_norway_problem/</link>
+      <description><![CDATA[ 由   提交/u/merelysounds  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qaroyn/yaml_thats_norway_problem/</guid>
+      <pubDate>Mon, 12 Jan 2026 10:43:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>C++ 是您应该学习的最佳系统编程语言</title>
+      <link>https://www.reddit.com/r/programming/comments/1qarm9z/c_is_the_best_system_programming_language_that/</link>
+      <description><![CDATA[ 由   提交/u/delvin0  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qarm9z/c_is_the_best_system_programming_language_that/</guid>
+      <pubDate>Mon, 12 Jan 2026 10:39:15 GMT</pubDate>
+    </item>
     <item>
       <title>使用 Claude Code（cli 工具）与使用 Claude 模型的 GitHub Copilot 之间有区别吗？</title>
       <link>https://www.reddit.com/r/programming/comments/1qap838/is_there_a_difference_between_using_claude_code/</link>
@@ -15,7 +43,7 @@
     <item>
       <title>Claude 面向开发人员和架构师：实际用例、优势和局限性</title>
       <link>https://www.reddit.com/r/programming/comments/1qap4mk/claude_for_developers_architects_practical_use/</link>
-      <description><![CDATA[文章“Claude for Java Developers &amp;架构师&#39;重点关注：Claude 如何帮助进行代码推理、重构和解释遗留 Java 代码，使用 Claude 进行设计模式、架构权衡和 ADR，Claude 在哪些方面比其他 LLM 表现更好（长上下文、结构化推理），在哪些方面仍低于 Java/Spring 企业系统。    由   提交/u/erdsingh24  [link] [评论]]]></description>
+      <description><![CDATA[文章“Claude for Java Developers &amp;架构师&#39;重点关注：Claude 如何帮助进行代码推理、重构和解释遗留 Java 代码，使用 Claude 进行设计模式、架构权衡和 ADR，Claude 在哪些方面比其他 LLM 表现更好（长上下文、结构化推理），在哪些方面仍低于 Java/Spring 企业系统。    由   提交/u/erdsingh24  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qap4mk/claude_for_developers_architects_practical_use/</guid>
       <pubDate>Mon, 12 Jan 2026 08:01:24 GMT</pubDate>
     </item>
@@ -81,34 +109,6 @@
       <description><![CDATA[ 由   提交/u/fernandohur   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qaguow/maybe_the_database_got_it_right/</guid>
       <pubDate>Mon, 12 Jan 2026 01:02:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>C++ 编译器是一场噩梦！</title>
-      <link>https://www.reddit.com/r/programming/comments/1qagtj3/the_c_compiler_is_a_nightmare/</link>
-      <description><![CDATA[ 由   提交/u/BlueGoliath  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qagtj3/the_c_compiler_is_a_nightmare/</guid>
-      <pubDate>Mon, 12 Jan 2026 01:01:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>寻找合作伙伴帮助编写社交媒体平台代码</title>
-      <link>https://www.reddit.com/r/programming/comments/1qagp9y/looking_for_partners_to_help_with_coding_a_social/</link>
-      <description><![CDATA[嗨，我对社交媒体平台有一个非常好的想法，我正在寻找有人帮助我实现它。我不想在没有感兴趣的人签署保密协议的情况下分享这个想法，因为它没有注册商标。但我确实需要一个合作伙伴，因为我不编码。提示一下，如果您认为您可以编写 Twitter 之类的代码，那么我可能会感谢您的帮助和友谊。感谢您的兴趣 - 认真的，只准备帮助回复 上面的链接是我的 html 博客，我只是添加它，因为它要求我提供链接。欢迎您查看。   由   提交/u/Whole-Equal3490   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qagp9y/looking_for_partners_to_help_with_coding_a_social/</guid>
-      <pubDate>Mon, 12 Jan 2026 00:56:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLVM：不好的部分</title>
-      <link>https://www.reddit.com/r/programming/comments/1qaeile/llvm_the_bad_parts/</link>
-      <description><![CDATA[ 由   提交 /u/Necrotos   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qaeile/llvm_the_bad_parts/</guid>
-      <pubDate>Sun, 11 Jan 2026 23:22:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>评估法学硕士使用的不同编程语言</title>
-      <link>https://www.reddit.com/r/programming/comments/1qac0kt/evaluating_different_programming_languages_for/</link>
-      <description><![CDATA[如果我们试图找出哪种语言更适合 LLM 使用，我们需要有某种方法来评估不同的语言。我使用不同的编程语言做了一些小测试，并对它们的工作效果进行了粗略估计。  对于哪些语言更适合法学硕士，哪些语言更适合您，您有何经验？    由   提交 /u/ozzymcduff   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qac0kt/evaluating_different_programming_languages_for/</guid>
-      <pubDate>Sun, 11 Jan 2026 21:43:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
