@@ -4,45 +4,85 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 12 Jan 2026 01:51:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 04:13:24 GMT</lastBuildDate>
     <item>
-      <title>美联储主席杰罗姆·鲍威尔的声明 [视频]</title>
-      <link>https://www.youtube.com/watch?v=KckGHaBLSn4</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=KckGHaBLSn4
-评论网址：https://news.ycombinator.com/item?id=46582441
-积分：176
-# 条评论：64]]></description>
-      <guid>https://www.youtube.com/watch?v=KckGHaBLSn4</guid>
-      <pubDate>Mon, 12 Jan 2026 01:05:20 GMT</pubDate>
+      <title>Show HN：一种 LLM 优化的编程语言</title>
+      <link>https://github.com/ImJasonH/ImJasonH/blob/main/articles/llm-programming-language.md</link>
+      <description><![CDATA[文章网址：https://github.com/ImJasonH/ImJasonH/blob/main/articles/llm-programming-language.md
+评论网址：https://news.ycombinator.com/item?id=46583581
+积分：6
+# 条评论：0]]></description>
+      <guid>https://github.com/ImJasonH/ImJasonH/blob/main/articles/llm-programming-language.md</guid>
+      <pubDate>Mon, 12 Jan 2026 03:11:49 GMT</pubDate>
     </item>
     <item>
-      <title>杰罗姆·鲍威尔回应</title>
-      <link>https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm</link>
-      <description><![CDATA[文章网址：https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm
-评论网址：https://news.ycombinator.com/item?id=46582420
-积分：42
-# 条评论：1]]></description>
-      <guid>https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm</guid>
-      <pubDate>Mon, 12 Jan 2026 01:02:48 GMT</pubDate>
+      <title>现在代码很便宜，但软件却不便宜</title>
+      <link>https://www.chrisgregori.dev/opinion/code-is-cheap-now-software-isnt</link>
+      <description><![CDATA[文章网址：https://www.chrisgregori.dev/opinion/code-is-cheap-now-software-isnt
+评论网址：https://news.ycombinator.com/item?id=46583410
+积分：53
+# 条评论：15]]></description>
+      <guid>https://www.chrisgregori.dev/opinion/code-is-cheap-now-software-isnt</guid>
+      <pubDate>Mon, 12 Jan 2026 02:51:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>哪些编程语言的令牌效率最高？</title>
+      <link>https://martinalderson.com/posts/which-programming-languages-are-most-token-efficient/</link>
+      <description><![CDATA[文章网址：https://martinalderson.com/posts/which-programming-languages-are-most-token-efficient/
+评论网址：https://news.ycombinator.com/item?id=46582728
+积分：39
+# 条评论：16]]></description>
+      <guid>https://martinalderson.com/posts/which-programming-languages-are-most-token-efficient/</guid>
+      <pubDate>Mon, 12 Jan 2026 01:36:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gadget 暴露了间谍相机 [视频]</title>
+      <link>https://www.youtube.com/watch?v=1reman2waLs</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=1reman2waLs
+评论网址：https://news.ycombinator.com/item?id=46582033
+积分：12
+# 条评论：5]]></description>
+      <guid>https://www.youtube.com/watch?v=1reman2waLs</guid>
+      <pubDate>Mon, 12 Jan 2026 00:15:36 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：如果人工智能代理具有十二生肖性格会怎样？</title>
       <link>https://github.com/baturyilmaz/what-if-ai-agents-had-zodiac-personalities</link>
-      <description><![CDATA[一款与朋友一起玩道德困境的有趣游戏。我使用相同的 LLM 和不同的个性提示，为 12 个 AI 代理赋予了十二生肖性格（并不是我相信它们）。
+      <description><![CDATA[一款与朋友一起玩道德困境的有趣游戏。我使用相同的 LLM 和不同的性格提示，为 12 个 AI 代理赋予了十二生肖性格（并不是说我相信他们）。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46581832
-积分：14
-# 条评论：3]]></description>
+积分：20
+评论数量：9]]></description>
       <guid>https://github.com/baturyilmaz/what-if-ai-agents-had-zodiac-personalities</guid>
       <pubDate>Sun, 11 Jan 2026 23:49:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：语音作曲家 – 基于浏览器的 MIDI/strudel/tidal 音调检测</title>
+      <link>https://dioptre.github.io/tidal/</link>
+      <description><![CDATA[在周末构建此项目，以弥补“可以哼出旋律”和“可以编码算法音乐模式”（Strudel/TidalCycles）之间的差距，以进行现场编码和现场 dj&#39;ing。它的作用：使用多种算法在浏览器中进行实时音调检测：
+CREPE（通过 TensorFlow.js 的深度学习模型）
+YIN（基于自相关的基频估计）
+带谐波乘积频谱的 FFT
+AMDF（平均星等差函数）
+输出：视觉钢琴卷帘、MIDI 文件、Strudel/TidalCycles 代码
+所有客户端，没有任何东西离开您的机器
+为什么采用多种算法：
+不同的音高检测方法对于不同的输入效果更好。 CREPE 最准确，但计算成本较高； YIN 速度快，适合干净的单声道输入； FFT/HPS 处理谐波丰富的声音； AMDF 是轻量级的。让用户根据自己的用例进行切换。技术细节：React，通过 Web Audio API 完全在浏览器中运行
+基于画布的可视化，具有实时波形渲染最初的问题：我想学习现场编码，但音乐理论为零。这使得捕捉旋律创意并立即在基于模式的音乐系统中使用它们变得微不足道。尝试一下：https://dioptre.github.io/tidal/在桌面上效果最好。工作方式更像数字音频工作台 (DAW)。来源：https://github.com/dioptre/tidal
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46581431
+积分：7
+# 条评论：1]]></description>
+      <guid>https://dioptre.github.io/tidal/</guid>
+      <pubDate>Sun, 11 Jan 2026 23:06:18 GMT</pubDate>
     </item>
     <item>
       <title>我会告诉你一个 UDP 笑话......</title>
       <link>https://www.codepuns.com/post/805294580859879424/i-would-tell-you-a-udp-joke-but-you-might-not-get</link>
       <description><![CDATA[文章网址： https://www.codepuns.com/post/805294580859879424/i-would-tell-you-a-udp-joke-but-you-might-not-get
 评论网址：https://news.ycombinator.com/item?id=46580946
-积分：86
-# 条评论：25]]></description>
+积分：108
+# 条评论：33]]></description>
       <guid>https://www.codepuns.com/post/805294580859879424/i-would-tell-you-a-udp-joke-but-you-might-not-get</guid>
       <pubDate>Sun, 11 Jan 2026 22:20:17 GMT</pubDate>
     </item>
@@ -51,60 +91,34 @@
       <link>https://iczelia.net/posts/snake-polyglot/</link>
       <description><![CDATA[文章网址：https://iczelia.net/posts/snake-polyglot/
 评论网址：https://news.ycombinator.com/item?id=46580864
-积分：76
-# 条评论：26]]></description>
+积分：115
+# 条评论：36]]></description>
       <guid>https://iczelia.net/posts/snake-polyglot/</guid>
       <pubDate>Sun, 11 Jan 2026 22:14:35 GMT</pubDate>
     </item>
     <item>
-      <title>软件工程的未来两年</title>
-      <link>https://addyosmani.com/blog/next-two-years/</link>
-      <description><![CDATA[文章网址：https://addyosmani.com/blog/next-two-years/
-评论网址：https://news.ycombinator.com/item?id=46580703
-积分：53
-# 条评论：24]]></description>
-      <guid>https://addyosmani.com/blog/next-two-years/</guid>
-      <pubDate>Sun, 11 Jan 2026 22:00:24 GMT</pubDate>
+      <title>Show HN：工程精神分裂症：通过拜占庭式错误相信自己</title>
+      <link>https://news.ycombinator.com/item?id=46580652</link>
+      <description><![CDATA[嗨，HN！我叫罗伯特·埃斯克里瓦。我于 2017 年从康奈尔大学计算机科学系获得博士学位。三年前，我经历了一次精神病发作，不可逆转地震撼了我的世界。从那时起，我一直将我在研究生院学到的技能——即调试分布式复杂系统——运用到自己的头脑中。我把我的发现写进了一本 [书 (pdf)](https://rescrv.net/engineering-schizophrenia.pdf) 关于工程、我特殊的精神分裂妄想，以及像我一样曾经遭受过痛苦的人如何找到一条穿过迷雾到达另一边的路。对于那些从未停下来询问的人来说，这是一个指南和警告，
+“如果我的大脑开始出现故障，会发生什么？”我之所以写作，是因为我发现的不是目的地，而是一个过程。对于我和像我这样的人来说，这是一个持续的过程。我还相信，它可以使用我们应用于基于机器的系统的相同技术实现自动化。我正在寻找其他认识到人类思维利害关系的人来参与有关该问题的讨论。
+主题。黑客快乐，
+罗伯特
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46580652
+积分：46
+评论数量：9]]></description>
+      <guid>https://news.ycombinator.com/item?id=46580652</guid>
+      <pubDate>Sun, 11 Jan 2026 21:55:34 GMT</pubDate>
     </item>
     <item>
-      <title>像 Claude Code 这样的 CLI 代理让家庭服务器上的自托管变得更加轻松有趣</title>
+      <title>CLI 代理使家庭服务器上的自托管变得更加轻松有趣</title>
       <link>https://fulghum.io/self-hosting</link>
       <description><![CDATA[文章网址：https://fulghum.io/self-hosting
 评论网址：https://news.ycombinator.com/item?id=46580326
-积分：252
-# 条评论：178]]></description>
+积分：352
+# 条评论：233]]></description>
       <guid>https://fulghum.io/self-hosting</guid>
       <pubDate>Sun, 11 Jan 2026 21:29:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>FUSE 满足您的所有需求 – 让代理可以通过文件系统访问任何内容</title>
-      <link>https://jakobemmerling.de/posts/fuse-is-all-you-need/</link>
-      <description><![CDATA[文章网址：https://jakobemmerling.de/posts/fuse-is-all-you-need/
-评论网址：https://news.ycombinator.com/item?id=46580136
-积分：62
-# 条评论：19]]></description>
-      <guid>https://jakobemmerling.de/posts/fuse-is-all-you-need/</guid>
-      <pubDate>Sun, 11 Jan 2026 21:12:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>比亚迪最便宜的电动汽车配备激光雷达自动驾驶技术</title>
-      <link>https://thedriven.io/2026/01/11/byds-cheapest-electric-cars-to-have-lidar-self-driving-tech/</link>
-      <description><![CDATA[文章网址：https://thedriven.io/2026/01/11/byds-cheapest-electric-cars-to-have-lidar-self-driven-tech/
-评论网址：https://news.ycombinator.com/item?id=46579927
-积分：117
-评论数量：134]]></description>
-      <guid>https://thedriven.io/2026/01/11/byds-cheapest-electric-cars-to-have-lidar-self-driving-tech/</guid>
-      <pubDate>Sun, 11 Jan 2026 20:52:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 macOS Tahoe 上调整窗口大小的困难</title>
-      <link>https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/</link>
-      <description><![CDATA[文章网址：https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/
-评论网址：https://news.ycombinator.com/item?id=46579864
-积分：783
-评论数：358]]></description>
-      <guid>https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/</guid>
-      <pubDate>Sun, 11 Jan 2026 20:47:55 GMT</pubDate>
     </item>
     </channel>
 </rss>

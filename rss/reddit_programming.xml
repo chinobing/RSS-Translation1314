@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Mon, 12 Jan 2026 01:50:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 04:11:57 GMT</lastBuildDate>
+    <item>
+      <title>使用 AI Web 代理进行大规模 Vibe 抓取，只需提示 => 获取数据</title>
+      <link>https://www.reddit.com/r/programming/comments/1qaju10/vibe_scraping_at_scale_with_ai_web_agents_just/</link>
+      <description><![CDATA[去年我一直在观察公司为“浏览器基础设施”筹集了数亿美元。 但他们都采取了相同的方法，只是营销水平不同： →围绕 CDP（Chrome 开发工具协议）的商品化包装→与现成的视觉模型 (CUA) 集成→脚本编写框架来抽象 CSS 选择器 这是我们在 rtrvr.ai 提出时构建的内容： 𝗘𝗻𝗱-𝘁𝗼-𝗘𝗻𝗱 𝗔𝗴𝗲𝗻𝘁 𝘃𝘀 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸 当他们将浏览器基础设施包装到库和 SDK 中时，我们构建了一个弹性代理工具，其中包含 20 多个专门的子代理，可将单个提示进入完整的端到端工作流程。 您无需编写脚本。你不安排步骤。您描述结果。 𝗗𝗢𝗠 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲 𝘃𝘀 𝗩𝗶𝘀𝗶𝗼𝗻 𝗠𝗼𝗱𝗲𝗹 𝗪𝗿𝗮𝗽𝗽𝗲𝗿 当他们插入现成的 CUA 模型来截图页面并猜测要点击的内容时，我们完善了纯 DOM 方法，将任何网页表示为语义树。 没有幻觉按钮。没有 OCR 错误。无需 1 美元的视觉 API 调用。利用最便宜的现成模型 Gemini Flash Lite 实现快速、准确、确定性的页面理解。您甚至可以免费携带自己的 API 密钥！ 𝗡𝗮𝘁𝗶𝘃𝗲 𝗖𝗵𝗿𝗼𝗺𝗲 𝗔𝗣𝗜𝘀 𝘃𝘀 𝗖𝗼𝗺𝗺𝗼𝗱𝗶𝘁𝘆 𝗖𝗗𝗣 虽然其他所有玩家都使用 CDP（可检测、脆弱、失败率高），但我们构建了一个与浏览器在同一进程中运行的 Chrome 扩展。 原生 API。没有 WebSocket 开销。没有自动化指纹。 3.39% 的基础设施错误与 20-30% 的行业标准相比。 我们第一个基于浏览器扩展的架构利用网页的纯文本页面表示，只需提示即可构建复杂的工作流程，从而解锁大量用例，例如只需一个提示即可轻松跨数百个域进行代理抓取。 很想听听你们对我们的设计选择和产品的看法！   由   提交/u/BodybuilderLost328  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qaju10/vibe_scraping_at_scale_with_ai_web_agents_just/</guid>
+      <pubDate>Mon, 12 Jan 2026 03:16:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>从哪里开始创建游戏</title>
+      <link>https://www.reddit.com/r/programming/comments/1qaiiw1/onde_começar_a_criar_jogos/</link>
+      <description><![CDATA[最近我在互联网上看到，要开始创建游戏，我需要参加算法课程并学习编程语言。我最终有点迷失了，我想从你们那里得到一些关于如何创建我的第一个游戏的建议   由   提交/u/Ok-Sky1763   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qaiiw1/onde_começar_a_criar_jogos/</guid>
+      <pubDate>Mon, 12 Jan 2026 02:16:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>三体问题：软件工程中的代理人工智能</title>
+      <link>https://www.reddit.com/r/programming/comments/1qai6qo/the_threebody_problem_agentic_ai_in_software/</link>
+      <description><![CDATA[ 由   提交 /u/serefayar   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qai6qo/the_threebody_problem_agentic_ai_in_software/</guid>
+      <pubDate>Mon, 12 Jan 2026 02:01:20 GMT</pubDate>
+    </item>
     <item>
       <title>C++26 - 它对您有什么好处？ - 马克·格雷瓜尔 - CppCon 2025</title>
       <link>https://www.reddit.com/r/programming/comments/1qah2k3/c26_whats_in_it_for_you_marc_gregoire_cppcon_2025/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[我相信代理将融入软件开发工作流程，以及为什么流程对于充分发挥 Claude 和其他人的作用比以往任何时候都更加重要。   由   提交/u/EnterpriseVibeCode   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qa52gq/agile_for_agents/</guid>
       <pubDate>Sun, 11 Jan 2026 17:20:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能内部人士试图毒害提供给他们的数据</title>
-      <link>https://www.reddit.com/r/programming/comments/1qa4tl6/ai_insiders_seek_to_poison_the_data_that_feeds/</link>
-      <description><![CDATA[ 由   提交/u/RNSAFFN   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qa4tl6/ai_insiders_seek_to_poison_the_data_that_feeds/</guid>
-      <pubDate>Sun, 11 Jan 2026 17:11:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>从浏览器到服务器的 DNS 解析过程的可视化分解</title>
-      <link>https://www.reddit.com/r/programming/comments/1qa412v/visual_breakdown_of_the_dns_resolution_process/</link>
-      <description><![CDATA[ 由   提交/u/nulless  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qa412v/visual_breakdown_of_the_dns_resolution_process/</guid>
-      <pubDate>Sun, 11 Jan 2026 16:42:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>赋予初级工程师权力的重要性！</title>
-      <link>https://www.reddit.com/r/programming/comments/1qa2m1l/the_importance_of_empowering_junior_engineers/</link>
-      <description><![CDATA[ 由   提交/u/Gopher-Face912   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qa2m1l/the_importance_of_empowering_junior_engineers/</guid>
-      <pubDate>Sun, 11 Jan 2026 15:47:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
