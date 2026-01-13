@@ -4,7 +4,56 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 13 Jan 2026 09:28:43 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 12:48:15 GMT</lastBuildDate>
+    <item>
+      <title>您的估计花费的时间比预期的要长，即使您考虑了它们需要更长的时间 - 帕金森定律和霍夫施塔特定律</title>
+      <link>https://www.reddit.com/r/programming/comments/1qbpqbo/your_estimates_take_longer_than_expected_even/</link>
+      <description><![CDATA[ 由   提交/u/dmp0x7c5  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qbpqbo/your_estimates_take_longer_than_expected_even/</guid>
+      <pubDate>Tue, 13 Jan 2026 12:12:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>我为 Zed 编辑器构建了 FreeMarker 扩展（使用树守护者语法）</title>
+      <link>https://www.reddit.com/r/programming/comments/1qbphav/i_built_a_freemarker_extension_for_zed_editor/</link>
+      <description><![CDATA[大家好！我刚刚为 Zed 编辑器发布了一个 FreeMarker 语法突出显示扩展，该扩展使用自定义的树守护者语法构建。 这是什么？ FreeMarker 是一个自 2000 年以来就已存在的 Java 模板引擎。 它仍然广泛用于企业系统、基于 Spring 的应用程序以及 Keycloak 等知名项目，它支持主题、登录页面和 尽管如此，现代编辑器支持仍然非常缺乏。 为什么选择 Zed？ 我最近切换到 Zed，并对缺乏 FreeMarker 支持感到沮丧。由于 Zed 使用 Tree-sitter 进行语法突出显示，因此我决定从头开始构建正确的语法，而不是依赖正则表达式 hack。 一个小小的免责声明： 我不是语法设计或 Rust 方面的专家，因此 Tree-sitter 语法很大程度上是一种边做边学的工作。也就是说，它在现实世界的模板中运行良好，而且 PR、建议和改进非常受欢迎。 功能：  基于树的完整解析（即使复杂的嵌套结构也很准确） &lt;#...&gt; 和 [#...] 语法样式 HTML 注入对于混合模板 所有 FreeMarker 指令：条件、循环、宏、包含、内置 智能括号匹配和自动关闭  链接：  GitHub：https://github.com/debba/zed-freemarker Tree-sitter 语法：https://github.com/debba/tree-sitter-freemarker  主要为我自己的项目构建此语法，但认为其他人坚持维护 FreeMarker 模板可能会喜欢它。如果您发现任何错误或有功能建议，请告诉我！   由   提交/u/debba_  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qbphav/i_built_a_freemarker_extension_for_zed_editor/</guid>
+      <pubDate>Tue, 13 Jan 2026 11:59:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>在网络安全 SaaS 领域工作了七年多并陷入无计可施之后，我辞掉了工作，搬进了我父亲的地下室，并出版了一本小说，讲述了一个人使用 Jira 票来破坏他的雇主的故事。我的书在接下来的 2 天内在亚马逊上免费</title>
+      <link>https://www.reddit.com/r/programming/comments/1qbomre/after_working_in_cybersecurity_saas_for_seven/</link>
+      <description><![CDATA[本书中正在开发的主要功能是布尔搜索过滤器、管理员角色和权限以及可自定义的仪表板。 计算概念不仅深深嵌入故事中，而且推动了大部分情节。它们不仅仅是装饰性或审美性的，它们并不是为了营造情绪或氛围而放置的 - 例如，你实际上必须了解后端重构之类的东西，才能掌握故事中到底发生了什么。 同时，它的密度不够高，以至于非技术读者无法跟上；只是理解深度不同而已。 但是请注意——狗屎会变得非常黑暗，速度非常快。我并不是以一种可爱的、Netflix 风格的方式谈论反乌托邦。我的意思是真正的不适。这玩意儿不适合敏感的人。我的愤怒以人们可能会感到不安的方式表达出来。 我现在也不会为此接受金钱，因为我主要认为这是一种爱的劳动。   由   提交 /u/Elegant-Heron-5743   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qbomre/after_working_in_cybersecurity_saas_for_seven/</guid>
+      <pubDate>Tue, 13 Jan 2026 11:11:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>hgit：200~ 行代码中的 git</title>
+      <link>https://www.reddit.com/r/programming/comments/1qbney5/hgit_git_in_200_lines_of_code/</link>
+      <description><![CDATA[ 由   提交 /u/Quiet_Answer_3334   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qbney5/hgit_git_in_200_lines_of_code/</guid>
+      <pubDate>Tue, 13 Jan 2026 09:57:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>可视化递归语言模型</title>
+      <link>https://www.reddit.com/r/programming/comments/1qbn7sc/visualizing_recursive_language_models/</link>
+      <description><![CDATA[我一直在尝试递归语言模型 (RLM)，这是一种由 LLM 编写和执行代码来决定如何探索结构化上下文而不是在单个提示中消耗所有内容的方法。 核心 RLM 思想最初是在以 Python 为中心的工作中描述的。我最近将其移植到 TypeScript 并添加了一个小型可视化，显示模型如何遍历 node_modules、检查包以及逐步选择下一步操作。 该示例的目标不是分析整个代码库，而是使递归执行循环可见并且更易于推理。 TypeScript RLM 实现： https://github.com/code-rabi/rllm 可视化示例： https://github.com/code-rabi/rllm/tree/master/examples/node-modules-viz 背景文章包含更多详细信息： https://medium.com/ai-in-plain-english/bringing-rlm-to-typescript-building-rllm-990f9979d89b 快乐听取尝试长上下文处理、代理风格系统或编写代码的法学硕士的想法。   由   提交 /u/nitayrabi   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qbn7sc/visualizing_recursive_language_models/</guid>
+      <pubDate>Tue, 13 Jan 2026 09:44:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>非西方软件开发人员在职业道路、招聘、OSS 和在线知名度方面是否经历过不同的待遇？</title>
+      <link>https://www.reddit.com/r/programming/comments/1qbn328/do_nonwestern_software_developers_experience/</link>
+      <description><![CDATA[我很好奇其他人是否观察到基于背景、国籍或先入为主的道德对软件开发人员的评估或获得知名度的差异。 在我自己的职业生涯（中东）中，我注意到一些感觉不一致的模式，尤其是在以下方面： - 实习和早期职业生涯。 - 过渡到核心软件工程角色。 - 开源贡献可见性和 PR 审核延迟。 - 社交媒体/专业可见性（例如，其技术内容在 Linkedin、X、GitHub、博客等平台上得到放大）。 - 如何分配信任、所有权和责任 - 即使技术能力、领导能力明显很强且有记录。 我不是在指责。我真诚地试图了解其中有多少： - 系统偏见。 - 文化或区域市场动态。 - 算法可见性影响。 - 竞争激烈的领域中的正常差异。 我特别欣赏： - 跨地区工作的开发人员的经验。 - OSS 维护者的观点。 - 链接 注意：我特别感兴趣的是那些在没有强大家庭、机构或精英网络支持的情况下进入该领域的开发人员的观点，因为获得机会的机会可能会因社会背景而有很大差异。尤其是在机会分布不均的地区。  我希望听到那些主要通过软技能和硬技能、坚持不懈和高度代理的自我指导工作取得进步的人的意见，以及那些尽管或因为强大的技术和可行能力而感到被边缘化或停滞的人的意见。  当然欢迎具有不同背景的开发者做出贡献，但我主要希望集中那些在没有意识到任何结构性优势的情况下取得进步的人的经验。    由   提交 /u/DocsReader   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qbn328/do_nonwestern_software_developers_experience/</guid>
+      <pubDate>Tue, 13 Jan 2026 09:36:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>法学硕士时代被认为有害的评论</title>
+      <link>https://www.reddit.com/r/programming/comments/1qbn26i/comments_considered_harmful_in_the_age_of_llms/</link>
+      <description><![CDATA[ 由   提交/u/yegor256  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qbn26i/comments_considered_harmful_in_the_age_of_llms/</guid>
+      <pubDate>Tue, 13 Jan 2026 09:34:33 GMT</pubDate>
+    </item>
     <item>
       <title>使用 3D 关键点设置骨架姿势</title>
       <link>https://www.reddit.com/r/programming/comments/1qblnv0/posing_armatures_using_3d_keypoints/</link>
@@ -60,55 +109,6 @@
       <description><![CDATA[我一直在探索一种计算模型，其中数字不是值，而是树。而我们在数学中使用的“=”实际上是一种破坏性操作，会丢弃结构信息。 核心见解：“11 × 13”和“143”是*不同的对象*。一种是“Mul(11,13)”，其因子为可见子项。另一个是没有结构的“Atom(143)”。当我们编写“11 × 13 = 143”时，我们正在执行丢弃乘法结构的 PRUNE。 这具有有趣的含义： - **因式分解不是搜索** - 它正在恢复修剪后的结构 - **记忆化是免费的** - 相同的内容 = 相同的身份，始终 - **不需要遍历** - 通过身份查找是O(1) - **密码学重构**为：构建结构 → 修剪 → 发布剩余部分 我在 Rust 中将其实现为内容寻址系统（核心原语约 400 行）。每个节点的每个操作都是 O(1)。没有传统意义上的迭代——循环变成了树深度。 范式转变：工作是结构创建，而不是步骤执行。 好奇社区对这个模型的看法。 “平等是有损的”吗？框架产生共鸣？有没有我应该看的探讨类似想法的论文？ 代码：https://github.com/onajourney/hako 语言参考：https://github.com/onajourney/hako/blob/main/CHEATSHEET.md   由   提交 /u/Quiet_Answer_3334   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qbcj3p/what_if_the_equals_sign_is_a_lossy_operation/</guid>
       <pubDate>Tue, 13 Jan 2026 00:31:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Windows 上模拟硬件键盘输入</title>
-      <link>https://www.reddit.com/r/programming/comments/1qbbzr0/simulating_hardware_keyboard_input_on_windows/</link>
-      <description><![CDATA[ 由   提交/u/w1be  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qbbzr0/simulating_hardware_keyboard_input_on_windows/</guid>
-      <pubDate>Tue, 13 Jan 2026 00:10:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>采访编码员泄露了所有作弊的瑞典人的全名、地址和公司</title>
-      <link>https://www.reddit.com/r/programming/comments/1qb9733/interview_coder_leaks_full_names_addresses_and/</link>
-      <description><![CDATA[Interview Coder 背叛了他们的用户并泄露了他们用户的全名以及他们在所有地方的主页上获得优惠的信息！我制作了一个视频记录了它，但你可以自己去看。  我还发现了一个更大的漏洞，该漏洞使近 14,000 名用户的身份面临风险，我接下来将制作一个视频。不要在他们糟糕的软件上拿你的职业生涯冒险。  我之前制作了一个视频，在我因使用 Interview Coder 被抓并被列入黑名单后，揭穿了他们所有不可检测性的说法，但他们仍然不给我退款    由   提交/u/jadedroyal  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qb9733/interview_coder_leaks_full_names_addresses_and/</guid>
-      <pubDate>Mon, 12 Jan 2026 22:18:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>掌握 .NET 中的内存管理和垃圾收集</title>
-      <link>https://www.reddit.com/r/programming/comments/1qb909x/mastering_memory_management_and_garbage/</link>
-      <description><![CDATA[ 由   提交 /u/ReverseBlade   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qb909x/mastering_memory_management_and_garbage/</guid>
-      <pubDate>Mon, 12 Jan 2026 22:11:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>当所有人都在谈论人工智能时，广汽来抢你的饭碗</title>
-      <link>https://www.reddit.com/r/programming/comments/1qb71ay/while_everyone_is_talking_about_ai_gac_is_coming/</link>
-      <description><![CDATA[有很多关于“行业已死”和其他末日论者类型的观点。这篇文章代表了我的 2c。   由   提交 /u/myFullNameWasTaken   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qb71ay/while_everyone_is_talking_about_ai_gac_is_coming/</guid>
-      <pubDate>Mon, 12 Jan 2026 20:58:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>正确命名的开发人员指南</title>
-      <link>https://www.reddit.com/r/programming/comments/1qb6v0n/a_developers_guide_to_naming_things_right/</link>
-      <description><![CDATA[ 由   提交 /u/sparkestine   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qb6v0n/a_developers_guide_to_naming_things_right/</guid>
-      <pubDate>Mon, 12 Jan 2026 20:51:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>引自《A Pattern Language》（设计模式的起源）</title>
-      <link>https://www.reddit.com/r/programming/comments/1qb6czi/quotes_from_a_pattern_language_origin_of_design/</link>
-      <description><![CDATA[“每个模式都描述了在我们的环境中反复出现的问题，然后描述了该问题解决方案的核心，这样您就可以使用该解决方案一百万次，而无需以同样的方式执行两次。” “这些模式仍然是假设，共有 253 个模式 - 因此都是尝试性的，都可以在新的经验和观察。” “每个充满活力和完整的社会，都会有自己独特的、独特的模式语言……这样一个社会中的每个人都会有一种独特的语言，部分共享，但作为一个整体，对于拥有它的人来说，它是独一无二的。”  “我们以什么心态、什么意图在这里发布这种语言？它以书的形式出版意味着成千上万的人可以使用它。人们可能会依赖这种印刷语言，而不是在自己的头脑中发展自己的语言，这难道不是真的吗？”  “事实是，我们写这本书是作为全社会进程的第一步，通过这个进程，人们将逐渐意识到自己的模式语言，并努力改进它们。” “当对模式有疑问时，不要包含它。” “在很多情况下，您可能有一个模式的个人版本，它更真实，或更适合您的需求。你。”   由   提交 /u/SpeedyPuzzlement   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qb6czi/quotes_from_a_pattern_language_origin_of_design/</guid>
-      <pubDate>Mon, 12 Jan 2026 20:33:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>技术债务：“快速修复”的隐性成本</title>
-      <link>https://www.reddit.com/r/programming/comments/1qb3mfc/tech_debt_the_hidden_cost_of_quick_fixes/</link>
-      <description><![CDATA[ 由   提交 /u/sparkestine   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qb3mfc/tech_debt_the_hidden_cost_of_quick_fixes/</guid>
-      <pubDate>Mon, 12 Jan 2026 18:54:44 GMT</pubDate>
     </item>
     </channel>
 </rss>
