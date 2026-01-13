@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 13 Jan 2026 06:34:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 09:28:43 GMT</lastBuildDate>
+    <item>
+      <title>使用 3D 关键点设置骨架姿势</title>
+      <link>https://www.reddit.com/r/programming/comments/1qblnv0/posing_armatures_using_3d_keypoints/</link>
+      <description><![CDATA[ 由   提交/u/Mid_reddit   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qblnv0/posing_armatures_using_3d_keypoints/</guid>
+      <pubDate>Tue, 13 Jan 2026 08:04:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>我给了 Claude Code 一个指令文件，让它自主解决 Advent of Code 2025。它在 20/22 挑战中取得了成功，而我没有编写任何代码。</title>
+      <link>https://www.reddit.com/r/programming/comments/1qbl77e/i_gave_claude_code_a_single_instruction_file_and/</link>
+      <description><![CDATA[我想测试自主 AI 编码的极限，所以我进行了一项实验：Claude Code 能否完全独立解决 Advent of Code 2025？ 设置： - 通过 12 个步骤创建一个 INSTRUCTIONS.md 文件 - 运行：claude --chrome --dangerously-skip-permissions - 退后一步观看 结果：91% 成功率（20/22 个挑战） 代理独立： ✓ 导航至谜题页面 ✓ 阅读并理解问题 ✓ 编写解决方案策略 ✓ 用 Python 编码 ✓ 测试和调试 ✓ 已提交网站的答案 在 2 个需要复杂算法洞察的挑战中失败，但它无法生成。 这不是结对编程或副驾驶建议。这是从问题阅读到答案提交的完全自主执行。 详细说明：https://dineshgdk.substack.com/p/using-claude-code-to-solve-advent 包含所有自动生成代码的完整存储库：https://github.com/dinesh-GDK/claude-code-advent-of-code-2025 问题不是“AI 可以编码吗？”不再了。这是“当人工智能处理实现时，我们应该在什么抽象级别上工作？” 好奇其他人对这个方向的看法。   由   提交/u/no1_2021  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qbl77e/i_gave_claude_code_a_single_instruction_file_and/</guid>
+      <pubDate>Tue, 13 Jan 2026 07:35:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>再见 MySQL——受欢迎程度急剧下降</title>
+      <link>https://www.reddit.com/r/programming/comments/1qbkcpc/bye_bye_mysql_popularity_dropping_steeply/</link>
+      <description><![CDATA[MySQL 在 1995-2010 年代的互联网基础设施中发挥了关键作用。然而，自从 Oracle 收购它以来，它的受欢迎程度有所下降，许多人已经告别了它👋👋 这篇文章认为，到 2026 年，任何仍在使用 MySQL 的人都应该计划放弃它。   由   提交/u/OttoKekalainen   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qbkcpc/bye_bye_mysql_popularity_dropping_steeply/</guid>
+      <pubDate>Tue, 13 Jan 2026 06:44:13 GMT</pubDate>
+    </item>
     <item>
       <title>使用 CORS + Google Sheets 是实现着陆页候补名单的最便宜的方法</title>
       <link>https://www.reddit.com/r/programming/comments/1qbk58k/using_cors_google_sheets_is_the_cheapest_way_to/</link>
@@ -25,13 +46,6 @@
       <description><![CDATA[ 由   提交/u/hongminhee  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qbij1a/your_clis_completion_should_know_what_options/</guid>
       <pubDate>Tue, 13 Jan 2026 05:03:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于过度依赖人工智能的程度和成本的实验研究</title>
-      <link>https://www.reddit.com/r/programming/comments/1qbgrrq/an_experimental_study_on_the_extent_and_costs_of/</link>
-      <description><![CDATA[阅读这篇学术文章。您是否曾与在工作中过度依赖人工智能的人共事过？介意分享你的故事。   由   提交/u/Inner-Chemistry8971   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qbgrrq/an_experimental_study_on_the_extent_and_costs_of/</guid>
-      <pubDate>Tue, 13 Jan 2026 03:38:51 GMT</pubDate>
     </item>
     <item>
       <title>ACID 测试：为什么我们认为搜索需要事务</title>
@@ -85,7 +99,7 @@
     <item>
       <title>引自《A Pattern Language》（设计模式的起源）</title>
       <link>https://www.reddit.com/r/programming/comments/1qb6czi/quotes_from_a_pattern_language_origin_of_design/</link>
-      <description><![CDATA[“每种模式都描述了在我们的环境中反复出现的一个问题，然后描述了该问题解决方案的核心，这样您就可以使用该解决方案一百万次，而无需以同样的方式执行两次。” “这些模式仍然是假设，共有 253 个模式 - 因此都是尝试性的，都可以在新的经验和观察。” “每个充满活力和完整的社会，都会有自己独特的、独特的模式语言……这样一个社会中的每个人都会有一种独特的语言，部分共享，但作为一个整体，对于拥有它的人来说，它是独一无二的。”  “我们以什么心态、什么意图在这里发布这种语言？它以书的形式出版意味着成千上万的人可以使用它。人们可能会依赖这种印刷语言，而不是在自己的头脑中发展自己的语言，这难道不是真的吗？”  “事实是，我们写这本书是作为全社会进程的第一步，通过这个进程，人们将逐渐意识到自己的模式语言，并努力改进它们。” “当对模式有疑问时，不要包含它。” “在很多情况下，您可能有一个模式的个人版本，它更真实，或更适合您的需求。你。”   由   提交 /u/SpeedyPuzzlement   [链接] [评论]]]></description>
+      <description><![CDATA[“每个模式都描述了在我们的环境中反复出现的问题，然后描述了该问题解决方案的核心，这样您就可以使用该解决方案一百万次，而无需以同样的方式执行两次。” “这些模式仍然是假设，共有 253 个模式 - 因此都是尝试性的，都可以在新的经验和观察。” “每个充满活力和完整的社会，都会有自己独特的、独特的模式语言……这样一个社会中的每个人都会有一种独特的语言，部分共享，但作为一个整体，对于拥有它的人来说，它是独一无二的。”  “我们以什么心态、什么意图在这里发布这种语言？它以书的形式出版意味着成千上万的人可以使用它。人们可能会依赖这种印刷语言，而不是在自己的头脑中发展自己的语言，这难道不是真的吗？”  “事实是，我们写这本书是作为全社会进程的第一步，通过这个进程，人们将逐渐意识到自己的模式语言，并努力改进它们。” “当对模式有疑问时，不要包含它。” “在很多情况下，您可能有一个模式的个人版本，它更真实，或更适合您的需求。你。”   由   提交 /u/SpeedyPuzzlement   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qb6czi/quotes_from_a_pattern_language_origin_of_design/</guid>
       <pubDate>Mon, 12 Jan 2026 20:33:03 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[ 由   提交 /u/sparkestine   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qb3mfc/tech_debt_the_hidden_cost_of_quick_fixes/</guid>
       <pubDate>Mon, 12 Jan 2026 18:54:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>您的第一个 Python 量子电路（Qiskit 2026 指南）</title>
-      <link>https://www.reddit.com/r/programming/comments/1qb005o/your_first_quantum_circuit_in_python_qiskit_2026/</link>
-      <description><![CDATA[ 由   提交/u/thecoode  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qb005o/your_first_quantum_circuit_in_python_qiskit_2026/</guid>
-      <pubDate>Mon, 12 Jan 2026 16:46:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>复杂性、逻辑和数据</title>
-      <link>https://www.reddit.com/r/programming/comments/1qayyfb/complexity_logic_and_data/</link>
-      <description><![CDATA[ 由   提交 /u/alcoholov   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qayyfb/complexity_logic_and_data/</guid>
-      <pubDate>Mon, 12 Jan 2026 16:08:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
