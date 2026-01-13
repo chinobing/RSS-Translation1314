@@ -4,15 +4,15 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 13 Jan 2026 01:43:38 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 04:05:05 GMT</lastBuildDate>
     <item>
       <title>告诉 HN：DigitalOcean 的托管服务在更新后互相中断</title>
       <link>https://news.ycombinator.com/item?id=46596075</link>
       <description><![CDATA[昨天我的生产应用程序崩溃了。原因是什么？ DigitalOcean 的托管 PostgreSQL 更新中断了与其托管 Kubernetes 的私有 VPC 连接。公共端点正常工作。专用端点超时。根本原因：Cilium 错误 (#34503)，其中 ARP 条目在基础设施更改后变得陈旧。DO 支持响应相对较快（&lt;12 小时）。他们的解决办法？从随机 GitHub 用户部署 DaemonSet，每 10 秒 ping 一次过时的 ARP 条目。上游 Cilium 修复已合并，但尚未部署到 DOKS。没有预计到达时间。我专门选择托管服务来避免运营紧急情况。我们是一家小型初创公司，需要支付额外费用，所以其他人会处理这件事。相反，我花了深夜时间在我无法控制的网络层中调试 VPC 路由问题。HN 通常的建议是“只使用托管服务，专注于业务”。一般来说是好的建议。但托管并不意味着无忧无虑，它意味着用您的故障模式换取供应商的故障模式。你不是在有问题和没有问题之间做出选择。您要在您可以控制的问题和（更少？）您无法控制的问题之间进行选择。仍然使用 DO。仍在使用托管服务。只是对“托管”的含义不再抱有幻想。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46596075
-积分：16
-# 条评论：2]]></description>
+积分：44
+# 条评论：19]]></description>
       <guid>https://news.ycombinator.com/item?id=46596075</guid>
       <pubDate>Tue, 13 Jan 2026 00:48:11 GMT</pubDate>
     </item>
@@ -21,8 +21,8 @@
       <link>https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/</link>
       <description><![CDATA[文章网址：https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/
 评论网址：https://news.ycombinator.com/item?id=46595419
-积分：64
-# 条评论：32]]></description>
+积分：108
+# 条评论：61]]></description>
       <guid>https://arstechnica.com/ai/2026/01/google-removes-some-ai-health-summaries-after-investigation-finds-dangerous-flaws/</guid>
       <pubDate>Mon, 12 Jan 2026 23:05:04 GMT</pubDate>
     </item>
@@ -41,8 +41,8 @@
       <link>https://www.bellard.org/ts_zip/</link>
       <description><![CDATA[文章网址：https://www.bellard.org/ts_zip/
 评论网址：https://news.ycombinator.com/item?id=46593802
-积分：102
-# 条评论：41]]></description>
+积分：119
+# 条评论：46]]></description>
       <guid>https://www.bellard.org/ts_zip/</guid>
       <pubDate>Mon, 12 Jan 2026 20:26:47 GMT</pubDate>
     </item>
@@ -51,8 +51,8 @@
       <link>https://www.youtube.com/watch?v=c0mLhHDcY3I</link>
       <description><![CDATA[文章网址：https://www.youtube.com/watch?v=c0mLhHDcY3I
 评论网址：https://news.ycombinator.com/item?id=46593395
-积分：149
-评论数量：97]]></description>
+积分：180
+# 条评论：135]]></description>
       <guid>https://www.youtube.com/watch?v=c0mLhHDcY3I</guid>
       <pubDate>Mon, 12 Jan 2026 19:57:37 GMT</pubDate>
     </item>
@@ -61,8 +61,8 @@
       <link>https://claude.com/blog/cowork-research-preview</link>
       <description><![CDATA[文章网址：https://claude.com/blog/cowork-research-preview
 评论网址：https://news.ycombinator.com/item?id=46593022
-积分：606
-# 条评论：319]]></description>
+积分：717
+评论数：358]]></description>
       <guid>https://claude.com/blog/cowork-research-preview</guid>
       <pubDate>Mon, 12 Jan 2026 19:27:19 GMT</pubDate>
     </item>
@@ -81,30 +81,30 @@
       <link>https://github.com/sarusso/bedtime</link>
       <description><![CDATA[文章网址：https://github.com/sarusso/bedtime
 评论网址：https://news.ycombinator.com/item?id=46592376
-积分：45
-# 条评论：16]]></description>
+积分：56
+# 条评论：17]]></description>
       <guid>https://github.com/sarusso/bedtime</guid>
       <pubDate>Mon, 12 Jan 2026 18:36:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Yolobox – 使用完整的 sudo 运行 AI 编码代理，无需破坏主目录</title>
+      <link>https://github.com/finbarr/yolobox</link>
+      <description><![CDATA[文章网址：https://github.com/finbarr/yolobox
+评论网址：https://news.ycombinator.com/item?id=46592344
+积分：62
+# 条评论：49]]></description>
+      <guid>https://github.com/finbarr/yolobox</guid>
+      <pubDate>Mon, 12 Jan 2026 18:34:02 GMT</pubDate>
     </item>
     <item>
       <title>邮政套利</title>
       <link>https://walzr.com/postal-arbitrage</link>
       <description><![CDATA[文章网址：https://walzr.com/postal- Arbitration
 评论网址：https://news.ycombinator.com/item?id=46591708
-积分：259
-# 条评论：126]]></description>
+积分：305
+# 条评论：154]]></description>
       <guid>https://walzr.com/postal-arbitrage</guid>
       <pubDate>Mon, 12 Jan 2026 17:41:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>消息队列：带有类比的简单指南 (2024)</title>
-      <link>https://www.cloudamqp.com/blog/message-queues-exaplined-with-analogies.html</link>
-      <description><![CDATA[文章网址：https://www.cloudamqp.com/blog/message-queues-exaplined-with-analogies.html
-评论网址：https://news.ycombinator.com/item?id=46591402
-积分：73
-# 条评论：21]]></description>
-      <guid>https://www.cloudamqp.com/blog/message-queues-exaplined-with-analogies.html</guid>
-      <pubDate>Mon, 12 Jan 2026 17:17:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
