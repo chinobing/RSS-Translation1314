@@ -4,7 +4,77 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 14 Jan 2026 12:46:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 15:26:48 GMT</lastBuildDate>
+    <item>
+      <title>n8n 感觉很快，直到你需要解释它</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcpor9/n8n_feels_fast_until_you_need_to_explain_it/</link>
+      <description><![CDATA[为什么没有可解释性的速度会变成技术债务。   由   提交/u/Unhappy_Concept237  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcpor9/n8n_feels_fast_until_you_need_to_explain_it/</guid>
+      <pubDate>Wed, 14 Jan 2026 15:08:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年 SWE 必须具备的基本技能和知识</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcpo2s/fundamental_skills_and_knowledge_you_must_have_in/</link>
+      <description><![CDATA[杰弗里·亨特利 (Geoffrey Huntley)，拉尔夫循环的创建者   由   提交/u/creaturefeature16  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcpo2s/fundamental_skills_and_knowledge_you_must_have_in/</guid>
+      <pubDate>Wed, 14 Jan 2026 15:08:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>系统设计面试的缓存手册</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcpk06/caching_playbook_for_system_design_interviews/</link>
+      <description><![CDATA[这是一篇关于缓存的文章，缓存是任何系统设计中最重要的组件之一。  本文涵盖以下内容： - 什么是缓存？  - 我们什么时候应该缓存？  - 缓存层 - 缓存策略 - 缓存驱逐策略 - 缓存生产边缘情况以及如何处理它们 还包含简短的备忘单和漂亮的图表，请查看。    由   提交/u/Comfortable-Fan-580   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcpk06/caching_playbook_for_system_design_interviews/</guid>
+      <pubDate>Wed, 14 Jan 2026 15:03:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>欣赏其他项目是激励自己做出更好项目的最佳方式</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcpego/appreciating_other_project_is_best_way_to/</link>
+      <description><![CDATA[ 由   提交 /u/harsh_lag   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcpego/appreciating_other_project_is_best_way_to/</guid>
+      <pubDate>Wed, 14 Jan 2026 14:57:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么 Linus 和 DHH 现在都在进行 vivi 编码</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcp6hu/why_linus_and_dhh_are_vibe_coding_now/</link>
+      <description><![CDATA[ 由   提交/u/Waterty  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcp6hu/why_linus_and_dhh_are_vibe_coding_now/</guid>
+      <pubDate>Wed, 14 Jan 2026 14:49:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>BAZINGA：对人工智能生成的代码实施专业的工程实践</title>
+      <link>https://www.reddit.com/r/programming/comments/1qco7z1/bazinga_enforcing_professional_engineering/</link>
+      <description><![CDATA[嘿r/programming， 我一直在思考人工智能编码工具的一个缺陷：它们生成的代码没有我们要求人类开发人员提供的保护措施。 当人类编写代码时，它会经历：  代码审查 安全扫描 测试覆盖率检查 Lint 验证  当 AI 生成代码时，通常会直接提交。 因此我构建了 BAZINGA，它在 AI 开发中强制执行专业的工程实践： 它的作用： 每次更改都会自动获取：  安全扫描（bandit、npm 审计、gosec、等） Lint 检查（ruff、eslint、golangci-lint 等） 测试覆盖率分析 技术主管代码审查  关键原则： 编写者不会审查自己的代码。开发人员代理编写代码，由单独的技术主管代理对其进行审查。与人类团队相同的关注点分离。 工作流程： PM 分析需求 ↓ 开发人员实施 + 编写测试 ↓ 安全扫描运行（不能跳过） ↓ Lint 检查运行（不能跳过） ↓ 技术主管审查架构 + 质量 ↓ 批准→完成  为什么这很重要： 人工智能生成的代码具有相同的潜力for:  安全漏洞 架构问题 缺少边缘情况 技术债务  它应该经历相同的审核流程。 快速入门： uvx --from git+https://github.com/mehdic/bazinga.git bazinga init my-project  麻省理工学院许可。与 Claude Code 一起使用。 GitHub：github.com/mehdic/bazinga 对该方法的反馈感兴趣。您如何在团队中处理人工智能生成的代码的代码审查？   由   提交/u/mehditch  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qco7z1/bazinga_enforcing_professional_engineering/</guid>
+      <pubDate>Wed, 14 Jan 2026 14:09:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 DORA Metrics 揭开更快、更安全发布的秘密</title>
+      <link>https://www.reddit.com/r/programming/comments/1qco1b3/unlocking_the_secret_to_faster_safer_releases/</link>
+      <description><![CDATA[ 由   提交 /u/goto-con   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qco1b3/unlocking_the_secret_to_faster_safer_releases/</guid>
+      <pubDate>Wed, 14 Jan 2026 14:01:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>杰弗里·辛顿因煽动恐怖主义而需要被捕（间接！）</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcnv5l/geoffrey_hinton_needs_to_be_arrested_for_inciting/</link>
+      <description><![CDATA[ 由   提交/u/IdeaAffectionate945  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcnv5l/geoffrey_hinton_needs_to_be_arrested_for_inciting/</guid>
+      <pubDate>Wed, 14 Jan 2026 13:54:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 GitHub Copilot Code Review 作为首次 PR 审核者（工作流程 + 护栏）</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcmsc6/using_github_copilot_code_review_as_a_firstpass/</link>
+      <description><![CDATA[帖子内图片下方提供免费阅读（无需会员）链接。   由   提交 /u/sparkestine   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcmsc6/using_github_copilot_code_review_as_a_firstpass/</guid>
+      <pubDate>Wed, 14 Jan 2026 13:06:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>不良氛围：比较流行编码代理的安全编码能力</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcms90/bad_vibes_comparing_the_secure_coding/</link>
+      <description><![CDATA[ 由   提交/u/oridavid1231  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcms90/bad_vibes_comparing_the_secure_coding/</guid>
+      <pubDate>Wed, 14 Jan 2026 13:06:36 GMT</pubDate>
+    </item>
     <item>
       <title>用于写作的洋泾浜标记，或者 HTML 能维持多少？</title>
       <link>https://www.reddit.com/r/programming/comments/1qcl14y/pidgin_markup_for_writing_or_how_much_can_html/</link>
@@ -39,76 +109,6 @@
       <description><![CDATA[或者：用 Swift 编写翻译命令行工具。 这是 SwiftLand 中的一次小冒险。   由   提交/u/M1M1R0N   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qcio2v/the_unbearable_frustration_of_figuring_out_apis/</guid>
       <pubDate>Wed, 14 Jan 2026 09:10:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLM 是一个长达 400 年的信心把戏</title>
-      <link>https://www.reddit.com/r/programming/comments/1qci8z5/llms_are_a_400yearlong_confidence_trick/</link>
-      <description><![CDATA[LLM 是一个非常强大的工具，可以做一些令人惊奇的事情。但即便如此，它们并不像它们的创造者让你相信的那样幻想。 我写下这篇文章是因为我试图弄清楚为什么人们如此乐意相信法学硕士给出的答案，尽管众所周知，他们经常产生幻觉。 为什么我们乐于生活在这种认知失调中？为什么这么多公司计划依赖一个设计上并不可靠的工具？   由   提交/u/SwoopsFromAbove  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qci8z5/llms_are_a_400yearlong_confidence_trick/</guid>
-      <pubDate>Wed, 14 Jan 2026 08:43:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能编写代码的速度更快。你的工作仍然是证明它有效。</title>
-      <link>https://www.reddit.com/r/programming/comments/1qci4j8/ai_writes_code_faster_your_job_is_still_to_prove/</link>
-      <description><![CDATA[ 由   提交/u/rag1987  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qci4j8/ai_writes_code_faster_your_job_is_still_to_prove/</guid>
-      <pubDate>Wed, 14 Jan 2026 08:35:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>不受欢迎的观点：SAGA 模式只是手动事务管理的一个奇特名称</title>
-      <link>https://www.reddit.com/r/programming/comments/1qch2h6/unpopular_opinion_saga_pattern_is_just_a_fancy/</link>
-      <description><![CDATA[说实话：有有人真正在生产中正常工作了吗？在分布式环境中，可能会出现很多问题。如果网络在提交阶段发生故障，回滚也可能会失败——您无法向后传输故障。与此同时，源数据可能仍在变化。感觉不可能。   由   提交/u/christoforosl08  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qch2h6/unpopular_opinion_saga_pattern_is_just_a_fancy/</guid>
-      <pubDate>Wed, 14 Jan 2026 07:29:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在一个下午用您想要的任何语言构建感知器（现代人工智能的基本构建模块）</title>
-      <link>https://www.reddit.com/r/programming/comments/1qceld6/how_to_build_a_perceptron_the_fundamental/</link>
-      <description><![CDATA[我写了一篇关于构建 AI 基本构建块的文章：感知器。做起来有点棘手，但大多数程序员一个下午就能完成。以防万一文章的链接不起作用，这里又是：https://medium.com/@mariogianota/the-perceptron-the-fundametal-building-block-of-modern-ai-9db2df67fa6d   由   提交/u/MarioGianota   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qceld6/how_to_build_a_perceptron_the_fundamental/</guid>
-      <pubDate>Wed, 14 Jan 2026 05:10:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>Java 提供了 Amber 项目的更新 - 面向数据的编程，超越记录</title>
-      <link>https://www.reddit.com/r/programming/comments/1qcahu6/java_gives_an_update_on_project_amber/</link>
-      <description><![CDATA[ 由   提交/u/davidalayachew   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qcahu6/java_gives_an_update_on_project_amber/</guid>
-      <pubDate>Wed, 14 Jan 2026 01:57:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Java 正在原型设计，向类型系统添加空检查！</title>
-      <link>https://www.reddit.com/r/programming/comments/1qca1iw/java_is_prototyping_adding_null_checks_to_the/</link>
-      <description><![CDATA[ 由   提交/u/davidalayachew   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qca1iw/java_is_prototyping_adding_null_checks_to_the/</guid>
-      <pubDate>Wed, 14 Jan 2026 01:36:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ramp 构建了一个后台编码代理，可以编写和验证自己的代码</title>
-      <link>https://www.reddit.com/r/programming/comments/1qc9qix/ramp_built_a_background_coding_agent_that_writes/</link>
-      <description><![CDATA[之前在 Twitter 上看到过，所以想分享一下   由   提交/u/PsychologicalCost5  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qc9qix/ramp_built_a_background_coding_agent_that_writes/</guid>
-      <pubDate>Wed, 14 Jan 2026 01:22:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Effect-TS 构建容错 Web 数据摄取管道</title>
-      <link>https://www.reddit.com/r/programming/comments/1qc8oe7/building_a_faulttolerant_web_data_ingestion/</link>
-      <description><![CDATA[ 由   提交/u/TheLostWanderer47  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qc8oe7/building_a_faulttolerant_web_data_ingestion/</guid>
-      <pubDate>Wed, 14 Jan 2026 00:36:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>当500个搜索结果需要变成20个时，你如何挑选哪20个？</title>
-      <link>https://www.reddit.com/r/programming/comments/1qc5orc/when_500_search_results_need_to_become_20_how_do/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qc5orc/when_500_search_results_need_to_become_20_how_do/</guid>
-      <pubDate>Tue, 13 Jan 2026 22:33:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>我对 Web 框架进行了 200,000 合成年的压力测试。 Chrome 的 V8 在地质规模上崩溃了。 Firefox 的 Spidermonkey 继续处理。</title>
-      <link>https://www.reddit.com/r/programming/comments/1qc3zcb/i_stresstested_web_frameworks_to_200000_synthetic/</link>
-      <description><![CDATA[ 由   提交/u/Biodiv  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qc3zcb/i_stresstested_web_frameworks_to_200000_synthetic/</guid>
-      <pubDate>Tue, 13 Jan 2026 21:29:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
