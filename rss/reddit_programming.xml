@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 14 Jan 2026 15:26:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 18:33:49 GMT</lastBuildDate>
+    <item>
+      <title>沃尔沃汽车正在使用 Rust</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcv8yy/rust_is_being_used_at_volvo_cars/</link>
+      <description><![CDATA[ 由   提交/u/NYPuppy  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcv8yy/rust_is_being_used_at_volvo_cars/</guid>
+      <pubDate>Wed, 14 Jan 2026 18:32:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在 VS Code 公共 API 的限制内构建重要的扩展功能？</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcuy8d/how_do_you_build_serious_extension_features/</link>
+      <description><![CDATA[大多数工具甚至不会尝试。他们分叉编辑器或构建自定义 IDE，以便可以跳过困难的交互问题。  我正在开发一个开源编码代理，并面临着如何在 VS Code 中呈现代码建议的困境。我们的 NES 是 VS Code 的原生功能。这意味着要生活在严格的性能预算和交互模式中，而这些预算和交互模式从来不是为提出实时多行结构编辑的法学硕士而设计的。  在这种情况下，在不引起关注的情况下，为人工智能建议提供足够的背景信息以使其具有可操作性要困难得多。  这促使我们采用动态渲染策略，而不是单一的人工智能建议 UI。每条路径都被有意地限定在其表现最佳的情况下，将其与给定编辑的破坏性最小的表示对齐。  如果人工智能要存在于真正的编辑器中，我认为这才是真正重要的层。  博客中的完整描述   由   提交 /u/National_Purpose5521   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcuy8d/how_do_you_build_serious_extension_features/</guid>
+      <pubDate>Wed, 14 Jan 2026 18:21:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>零拷贝 SIMD 解析可处理二进制协议中的未对齐读取和生命周期复杂性</title>
+      <link>https://www.reddit.com/r/programming/comments/1qctri6/zerocopy_simd_parsing_to_handle_unaligned_reads/</link>
+      <description><![CDATA[我一直在为 NASDAQ ITCH 构建解析器。这就是实时订单簿背后的二进制消防水带。在繁忙的市场中，它每秒可以处理数百万条消息，因此任何为每条消息分配或复制的东西都会崩溃。这变成了对零拷贝解析、SIMD 以及 Rust 推回之前你能推多远的深入探讨。 每条消息的分配问题 ITCH 是紧密的二进制数据。两个字节长度，一个字节类型，固定头，然后是负载。明显的 Rust 方法如下所示： ```rust fn parse_naive(data: &amp;[u8]) -&gt; Vec&lt;消息&gt; { 让 mut out = Vec::new();让 mut pos = 0; while pos &lt;; data.len() { let len = u16::from_be_bytes([data[pos], data[pos + 1]]) as usize;让 msg = data[pos..pos + len].to_vec(); out.push(消息::from_bytes(msg)); pos += len； } out  } ``` 这有效，但速度很慢。您为每条消息分配一个 Vec。在规模上，这意味着大量的堆搅动和糟糕的缓存行为。对于数千万条消息，您基本上是在对 malloc 进行基准测试。 零复制解析和终身痛苦 解决方法是停止拥有字节并只是借用它们。直接从输入缓冲区进行解析，除非确实需要，否则永远不要复制。 在我的情况下，每个解析的消息仅保存对原始缓冲区的引用。 ```使用 Zerocopy::Ref; pub struct ZeroCopyMessage&lt;&#39;a&gt;; { header: Ref&lt;&amp;&#39;a [u8], MessageHeaderRaw&gt;, 负载: &amp;&#39;a [u8], } impl&lt;&#39;a&gt;; ZeroCopyMessage&lt;&#39;a&gt; { pub fn read_u32(&amp;self, offset: usize) -&gt;; u32 { 让字节 = &amp;self.payload[offset..offset + 4]; u32::from_be_bytes(bytes.try_into().unwrap()) } } ``` zerocopy 箱负责处理标头的繁重工作。它检查大小和对齐方式，因此您不需要原始指针转换。有效负载是可变的，因此这些字段需要手动读取。 权衡是显而易见的。一生是严格的。您无法将这些消息隐藏在某处或将它们发送到另一个线程而不进行复制。当您立即处理并丢弃时，此方法效果最佳。作为回报，您在解析过程中获得零分配，并显着降低内存使用量。 SIMD 真正重要的地方 一个热门路径是查找消息边界。标量代码逐字节运行并不断分支。 SIMD 可让您一次扫描多个块。 这是一次扫描 32 个字节的简化 AVX2 示例： ```rust use std::arch::x86_64::*; pub fn scan_boundaries_avx2(data: &amp;[u8], pos: usize) -&gt;选项&lt;使用大小&gt; { let chunk = unsafe { _mm256_loadu_si256(data.as_ptr().add(pos) as *const __m256i) }; let Needle = _mm256_set1_epi8(b&#39;A&#39;);让 cmp = _mm256_cmpeq_epi8(块，针);让掩码= _mm256_movemask_epi8(cmp); if mask != 0 { Some(pos + mask.trailing_zeros() as usize) } else { None }  } ``` 这会一次性检查 32 个字节。在支持它的 CPU 上，您可以对 AVX512 执行相同的操作，并将其加倍。运行时的功能检测会选择最佳版本并回退到旧机器上的标量代码。 好处是真实的。在现代硬件上，吞吐量测试明显快了两到四倍。 缺点也是真实的。 SIMD 代码写起来很烦人，更难调试，而且充满了不安全的块。对于小投入，设置成本可能会超过胜利。 安全与速度 Rust 有所帮助，但它并不能帮助您避免权衡。零复制意味着生命周期无处不在。 SIMD意味着不安全。在发布版本中会跳过一些验证，因为检查所有内容都会花费时间。 与其他语言相比。 Cpp 可以对视图进行零复制，但悬空指针总是潜伏着。 Go 在并发方面表现出色，但零拷贝解析会与 GC 发生冲突。 Zig 可能会使这个过程更清晰，但您仍然要付出复杂性成本。 此设置的重点是每秒传递 1 亿条消息。如果您想要完整的内容，代码就在这里 https://github.com/lunyn-hft/lunary 好奇其他人如何处理这个问题。您是否曾与 Rust 生命周期进行过如此艰苦的斗争，或者手动编写过 SIMD 来进行二进制解析？您如何用您的语言做到这一点而不失去理智？   由   提交 /u/capitanturkiye   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qctri6/zerocopy_simd_parsing_to_handle_unaligned_reads/</guid>
+      <pubDate>Wed, 14 Jan 2026 17:39:19 GMT</pubDate>
+    </item>
     <item>
       <title>n8n 感觉很快，直到你需要解释它</title>
       <link>https://www.reddit.com/r/programming/comments/1qcpor9/n8n_feels_fast_until_you_need_to_explain_it/</link>
@@ -27,13 +48,6 @@
       <pubDate>Wed, 14 Jan 2026 15:03:42 GMT</pubDate>
     </item>
     <item>
-      <title>欣赏其他项目是激励自己做出更好项目的最佳方式</title>
-      <link>https://www.reddit.com/r/programming/comments/1qcpego/appreciating_other_project_is_best_way_to/</link>
-      <description><![CDATA[ 由   提交 /u/harsh_lag   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qcpego/appreciating_other_project_is_best_way_to/</guid>
-      <pubDate>Wed, 14 Jan 2026 14:57:45 GMT</pubDate>
-    </item>
-    <item>
       <title>为什么 Linus 和 DHH 现在都在进行 vivi 编码</title>
       <link>https://www.reddit.com/r/programming/comments/1qcp6hu/why_linus_and_dhh_are_vibe_coding_now/</link>
       <description><![CDATA[ 由   提交/u/Waterty  [link] [评论]]]></description>
@@ -41,25 +55,11 @@
       <pubDate>Wed, 14 Jan 2026 14:49:14 GMT</pubDate>
     </item>
     <item>
-      <title>BAZINGA：对人工智能生成的代码实施专业的工程实践</title>
-      <link>https://www.reddit.com/r/programming/comments/1qco7z1/bazinga_enforcing_professional_engineering/</link>
-      <description><![CDATA[嘿r/programming， 我一直在思考人工智能编码工具的一个缺陷：它们生成的代码没有我们要求人类开发人员提供的保护措施。 当人类编写代码时，它会经历：  代码审查 安全扫描 测试覆盖率检查 Lint 验证  当 AI 生成代码时，通常会直接提交。 因此我构建了 BAZINGA，它在 AI 开发中强制执行专业的工程实践： 它的作用： 每次更改都会自动获取：  安全扫描（bandit、npm 审计、gosec、等） Lint 检查（ruff、eslint、golangci-lint 等） 测试覆盖率分析 技术主管代码审查  关键原则： 编写者不会审查自己的代码。开发人员代理编写代码，由单独的技术主管代理对其进行审查。与人类团队相同的关注点分离。 工作流程： PM 分析需求 ↓ 开发人员实施 + 编写测试 ↓ 安全扫描运行（不能跳过） ↓ Lint 检查运行（不能跳过） ↓ 技术主管审查架构 + 质量 ↓ 批准→完成  为什么这很重要： 人工智能生成的代码具有相同的潜力for:  安全漏洞 架构问题 缺少边缘情况 技术债务  它应该经历相同的审核流程。 快速入门： uvx --from git+https://github.com/mehdic/bazinga.git bazinga init my-project  麻省理工学院许可。与 Claude Code 一起使用。 GitHub：github.com/mehdic/bazinga 对该方法的反馈感兴趣。您如何在团队中处理人工智能生成的代码的代码审查？   由   提交/u/mehditch  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qco7z1/bazinga_enforcing_professional_engineering/</guid>
-      <pubDate>Wed, 14 Jan 2026 14:09:52 GMT</pubDate>
-    </item>
-    <item>
       <title>使用 DORA Metrics 揭开更快、更安全发布的秘密</title>
       <link>https://www.reddit.com/r/programming/comments/1qco1b3/unlocking_the_secret_to_faster_safer_releases/</link>
       <description><![CDATA[ 由   提交 /u/goto-con   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qco1b3/unlocking_the_secret_to_faster_safer_releases/</guid>
       <pubDate>Wed, 14 Jan 2026 14:01:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>杰弗里·辛顿因煽动恐怖主义而需要被捕（间接！）</title>
-      <link>https://www.reddit.com/r/programming/comments/1qcnv5l/geoffrey_hinton_needs_to_be_arrested_for_inciting/</link>
-      <description><![CDATA[ 由   提交/u/IdeaAffectionate945  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qcnv5l/geoffrey_hinton_needs_to_be_arrested_for_inciting/</guid>
-      <pubDate>Wed, 14 Jan 2026 13:54:33 GMT</pubDate>
     </item>
     <item>
       <title>使用 GitHub Copilot Code Review 作为首次 PR 审核者（工作流程 + 护栏）</title>
