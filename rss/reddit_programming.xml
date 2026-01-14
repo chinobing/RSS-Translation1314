@@ -4,7 +4,28 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 14 Jan 2026 18:33:49 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 21:21:55 GMT</lastBuildDate>
+    <item>
+      <title>PR 审查指南：我在代码审查中寻找什么</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcyy22/pr_review_guidelines_what_i_look_for_in_code/</link>
+      <description><![CDATA[这些是我在审查拉取请求或提交我自己的 PR 时在个人清单中保存的注释。 这不是一个详尽的列表，也绝对不是一个严格的原则。显然，有时我们会在压力下放弃快速 POC 或一些修补程序的彻底性。 在此分享，以防对其他人有帮助。随意采取有效的方法，忽略无效的方法:) 1.以您所使用语言的自然风格编写  每种语言都有自己的习语和模式，即自然的做事方式。当您通过借用其他语言或生态系统的方法来对抗这些模式时，代码通常会变得更加冗长、难以维护，有时效率也会降低。 例如。 Rust 更喜欢迭代器而不是手动循环，因为迭代器消除了运行时绑定检查，因为编译器知道它们不会产生越界索引。 2.使用错误代码/枚举，而不是字符串消息  错误应该表示为结构化类型，即 Rust 中的枚举、Java 中的错误代码。当错误只是像“连接失败”这样的字符串时或“无效请求”，您将失去以编程方式区分不同故障模式的能力。通过错误枚举或代码，您的可观察性堆栈可以获得结构化数据，它实际上可以使用它来按错误类型跟踪指标。 3.结构化日志记录打印语句  日志应该首先是机器可解析的，其次是人类可读的。使用输出 JSON 或键值对的结构化日志库，而不是 println！或字符串连接。对于非结构化日志，您最终会编写脆弱的正则表达式模式，数据不会被索引，并且您无法对特定字段进行聚合或发出警报。每个问题都需要新的 grep 模式和手动计数。 4.可读代码和优化之间的健康平衡  默认为可读且可维护的代码，仅在分析显示真正的瓶颈时进行优化。即便如此，也要尽可能保持清晰度。过早的微优化通常会引入微妙的错误，并使未来的更改和调试速度变慢。 5.避免使用幻数和字符串 分散在代码中的文字值很难理解，而且更改起来很危险。未来的维护者不知道该值是任意的、经过精心调整的还是由规范强制执行的。将它们提取到命名常量中，以解释其含义并提供单一事实来源。 6.注释应该解释“为什么”，而不是“什么” 好的代码是“什么”的自我记录。注释应该包含代码本身不明显的推理、权衡和上下文。 7.保持小而集中的更改 较小的 PR 更容易理解。审稿人可以掌握完整的上下文，而不会造成认知超载。这可以实现更快的周期和更快的批准。 如果出现问题，更容易隔离错误。您可以挑选或恢复单个重点更改，而无需撤消不相关的工作。    由   提交 /u/Normal-Tangelo-7120   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcyy22/pr_review_guidelines_what_i_look_for_in_code/</guid>
+      <pubDate>Wed, 14 Jan 2026 20:47:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>聊天是法学硕士最不感兴趣的界面</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcwi0i/chat_is_the_least_interesting_interface_to_llms/</link>
+      <description><![CDATA[ 由   提交/u/Tekmo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcwi0i/chat_is_the_least_interesting_interface_to_llms/</guid>
+      <pubDate>Wed, 14 Jan 2026 19:17:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>工程团队成熟度的一个很好的考验是你吸收初级人才的能力</title>
+      <link>https://www.reddit.com/r/programming/comments/1qcw37d/a_good_test_of_engineering_team_maturity_is_how/</link>
+      <description><![CDATA[Christine Miao 在这里指出： &gt;能够轻松吸收初级人才的团队拥有弹性系统，可以最大限度地减少错误的影响。实习生无法停止生产，因为**没有任何一个工程师**可以停止生产！ 整篇文章是 Charity Majors 的“赞扬普通工程师”的续集。从去年开始。   由   提交/u/sean-adapt  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qcw37d/a_good_test_of_engineering_team_maturity_is_how/</guid>
+      <pubDate>Wed, 14 Jan 2026 19:02:19 GMT</pubDate>
+    </item>
     <item>
       <title>沃尔沃汽车正在使用 Rust</title>
       <link>https://www.reddit.com/r/programming/comments/1qcv8yy/rust_is_being_used_at_volvo_cars/</link>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交/u/JadeLuxe  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qckzk3/the_microservice_desync_modern_http_request/</guid>
       <pubDate>Wed, 14 Jan 2026 11:33:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么 Rust 解决了我们不再遇到的问题 - AI + 形式证明使安全语法过时</title>
-      <link>https://www.reddit.com/r/programming/comments/1qckltv/why_rust_solves_a_problem_we_no_longer_have_ai/</link>
-      <description><![CDATA[ 由   提交 /u/suhcoR   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qckltv/why_rust_solves_a_problem_we_no_longer_have_ai/</guid>
-      <pubDate>Wed, 14 Jan 2026 11:11:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>40 行修复如何消除 400 倍的性能差距</title>
-      <link>https://www.reddit.com/r/programming/comments/1qcjd0w/how_a_40line_fix_eliminated_a_400x_performance_gap/</link>
-      <description><![CDATA[ 由   提交/u/j1897OS   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qcjd0w/how_a_40line_fix_eliminated_a_400x_performance_gap/</guid>
-      <pubDate>Wed, 14 Jan 2026 09:55:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>弄清楚 API 的难以忍受的挫败感</title>
-      <link>https://www.reddit.com/r/programming/comments/1qcio2v/the_unbearable_frustration_of_figuring_out_apis/</link>
-      <description><![CDATA[或者：用 Swift 编写翻译命令行工具。 这是 SwiftLand 中的一次小冒险。   由   提交/u/M1M1R0N   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qcio2v/the_unbearable_frustration_of_figuring_out_apis/</guid>
-      <pubDate>Wed, 14 Jan 2026 09:10:39 GMT</pubDate>
     </item>
     </channel>
 </rss>

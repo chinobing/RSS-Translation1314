@@ -4,119 +4,113 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 14 Jan 2026 18:34:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 21:23:13 GMT</lastBuildDate>
     <item>
-      <title>人工智能能产生新想法吗？</title>
-      <link>https://www.nytimes.com/2026/01/14/technology/ai-ideas-chat-gpt-openai.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2026/01/14/technology/ai-ideas-chat-gpt-openai.html
-评论网址：https://news.ycombinator.com/item?id=46620188
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.nytimes.com/2026/01/14/technology/ai-ideas-chat-gpt-openai.html</guid>
-      <pubDate>Wed, 14 Jan 2026 18:26:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>分子生物研究员，延长寿命</title>
-      <link>https://news.ycombinator.com/item?id=46620165</link>
-      <description><![CDATA[ 位置：美国纽约州皇后区
-  远程：是的
-  是否愿意搬家：否
-  技术：遗传学（原核生物和真核生物）、生物化学、噬菌体展示、分子多样性文库、重组抗体、基于免疫的技术、Python/vibe 编码、DNA/RNA 操作、基于 PCR 的技术、阵列、蛋白质组学等。
-  简历/简历：专家（&gt;25年）分子生物研究员（博士），具有丰富的湿实验室实践经验/能力，对复杂和先进的分子生物学、免疫学和遗传学技术有丰富的详细知识，以及出色的新实验方案开发和实施技能。也许，我的个人资料中最重要的亮点之一是，
-只要为工作提供了适当的工具，我总是能找到我所从事的大大小小的任务的完整答案（通常是针对公共或企业的尖端实验室和机构）。
-目前，正在积极为纽约地区（最好是纽约州皇后区）的任何实体寻找一份薪资可观的远程职位（因为我经常去欧洲旅行），担任雇员、顾问或资助作者/合作者。也欢迎私人/投资者，即建立一家初创企业。我对这份工作没有具体的偏好，但任何关于寿命延长或永生（生理的，而不是数字的）或肢体和脊髓再生的年轻项目，或任何实验室/公司，都会更符合我个人的科学兴趣、目标和知识。
-  邮箱：vikmarec@protonmail.com
+      <title>Show HN：讨论优先的意见社区</title>
+      <link>https://opinora.com/en</link>
+      <description><![CDATA[嗨，我围绕讨论和意见做了一个小实验。
+所有内容都被组织到基于主题的频道中，而不是全局源，因此对话保持上下文关系，并且不会随着时间的推移而消失。目前还没有内容 - 我正在早期阶段分享此内容并寻找参与者。
+我们的想法是让分歧变得可读，让不同的观点并存，而不优化参与度或时间表。感谢任何看过或分享他们想法的人。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46620165
+评论网址：https://news.ycombinator.com/item?id=46623545
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46620165</guid>
-      <pubDate>Wed, 14 Jan 2026 18:25:46 GMT</pubDate>
+      <guid>https://opinora.com/en</guid>
+      <pubDate>Wed, 14 Jan 2026 21:14:12 GMT</pubDate>
     </item>
     <item>
-      <title>克隆人战争：IBM 版</title>
-      <link>https://hackaday.com/2026/01/14/clone-wars-ibm-edition/</link>
-      <description><![CDATA[文章 URL：https://hackaday.com/2026/01/14/clone-wars-ibm-edition/
-评论网址：https://news.ycombinator.com/item?id=46620162
-积分：1
-# 条评论：0]]></description>
-      <guid>https://hackaday.com/2026/01/14/clone-wars-ibm-edition/</guid>
-      <pubDate>Wed, 14 Jan 2026 18:25:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：AI Vibe 编码黑客马拉松</title>
-      <link>https://vibe.devpost.com/</link>
-      <description><![CDATA[最后一张海报非常火爆
+      <title>Show HN：具有批量替换和自动 PR 的自托管代码搜索</title>
+      <link>https://techquests.dev/projects/code-search</link>
+      <description><![CDATA[嗨 HN，我构建了代码搜索，因为我厌倦了大规模“查找代码”和“修复代码”之间的差距。我想要的工作流程：在我的所有存储库中搜索已弃用的模式，预览替换，然后让该工具自动创建分支并打开合并请求。现有工具要么无法做到这一点，要么需要我没有的企业基础设施。它的作用：- 使用 Zoekt（三元组索引）进行亚秒级正则表达式搜索
+- 跨存储库批量查找和替换
+- 自动创建分支和开设MR/PR
+- Web UI、CLI 和 REST API
+- 连接到 GitHub、GitLab、Bitbucket、Gitea技术：Go 后端、Next.js 前端，在 Docker Compose 上运行。我一直在使用它来管理约 1,000 个存储库。仅批量替换功能就帮我节省了数小时的繁琐工作。欢迎提供反馈，尤其是有关记录的架构决策的反馈。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46620150
+评论网址：https://news.ycombinator.com/item?id=46623544
 积分：1
 # 条评论：0]]></description>
-      <guid>https://vibe.devpost.com/</guid>
-      <pubDate>Wed, 14 Jan 2026 18:24:49 GMT</pubDate>
+      <guid>https://techquests.dev/projects/code-search</guid>
+      <pubDate>Wed, 14 Jan 2026 21:14:10 GMT</pubDate>
     </item>
     <item>
-      <title>美国批准向中国出售英伟达先进人工智能芯片</title>
-      <link>https://www.bbc.com/news/articles/cg4erx1n04lo</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cg4erx1n04lo
-评论网址：https://news.ycombinator.com/item?id=46620136
+      <title>人工智能模型是推理还是仅仅反刍？</title>
+      <link>https://bigthink.com/the-present/do-ai-models-reason-or-regurgitate/</link>
+      <description><![CDATA[文章网址：https://bigthink.com/the-present/do-ai-models-reason-or-regurgitate/
+评论网址：https://news.ycombinator.com/item?id=46623520
+积分：1
+# 条评论：1]]></description>
+      <guid>https://bigthink.com/the-present/do-ai-models-reason-or-regurgitate/</guid>
+      <pubDate>Wed, 14 Jan 2026 21:12:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Provenance 模拟器：Atari、Commodore、Game Boy 等</title>
+      <link>https://provenance-emu.com/</link>
+      <description><![CDATA[文章网址：https://provenance-emu.com/
+评论网址：https://news.ycombinator.com/item?id=46623513
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bbc.com/news/articles/cg4erx1n04lo</guid>
-      <pubDate>Wed, 14 Jan 2026 18:24:14 GMT</pubDate>
+      <guid>https://provenance-emu.com/</guid>
+      <pubDate>Wed, 14 Jan 2026 21:12:19 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：AlgoMommy – 通过一边录音一边说话来组织视频剪辑 (macOS)</title>
-      <link>https://www.algomommy.com/show-hn.html</link>
-      <description><![CDATA[如果您定期录制视频并最终得到一个凌乱的剪辑文件夹，我构建了一个 macOS 应用程序来提供帮助。AlgoMommy 根据您在录音中说出的简短口头指令（例如“嘿 Cleo，这是婚礼 B-roll - 将其标记为绿色”或“嘿 Cleo，这是纽约日出”）将原始视频文件组织到现有的文件夹层次结构中。录制完成后，将片段放入AlgoMommy中；它会监听您在录制过程中所说的说明，并将文件复制到相应的子文件夹中。下载 (DMG)：- https://download.algomommy.com/app/macos/public/AlgoMommy-1....- 492 MB - 大部分是 WhisperKit，经过签名和公证- sha256： de354d073467aece719433f170f1886c5ab781835e4caccc4054827ee3320ee5演示视频（48 秒）：- Youtube：https://www.youtube.com/watch?v=Ucj-D9yOKBc- 原始 MP4：https://download.algomommy.com/public/AlgoMommy.mp4立即尝试：- 安装 DMG并使用此共享演示帐户登录： 用户：hn@algomommy.com
-  通行证：hnpass2026
-
-- 选择目标根文件夹（您当前需要预先创建文件夹层次结构）。- 拖放一些视频，然后单击“组织视频”需要身份验证，因为该服务使用付费 LLM 调用。离开您的计算机/隐私的内容：- 不会上传原始视频或音频。- 音频在本地提取 + 转录。- 发送的唯一数据是：(1) 约 30 秒的文本转录片段，用于似乎要处理的片段“Cleo”，以及 (2) 您选择的根目录下的相对目标文件夹路径列表（以便模型可以选择文件夹）。- 这些片段用于决定目标文件夹 + 标签/元数据。为什么选择“Cleo”（以及为什么自然语言）：- WhisperKit 准确但速度慢，Apple 的 SpeechAnalyzer 速度快但准确度较差。 AlgoMommy 使用 SpeechAnalyzer 快速找到“Cleo”寻址的片段，然后使用 WhisperKit 重新转录大约 30 秒的块以确保准确性。安全：- AlgoMommy 只“复制”视频，从不“移动”/“覆盖”视频。灵感：- 最初这是我的合作伙伴的 Python 脚本，旨在解决这个问题。我随后决定将该解决方案“产品化”为 macOS 应用程序。我正在寻求以下方面的反馈：1) 这是否为您解决了重大问题？2) 工作流程在实际使用中是否清晰且稳健？3) 今天您必须预先创建文件夹层次结构：这是可以接受的吗？或者应用程序在某些情况下是否应该能够创建目标文件夹？如果文件夹创建很有价值，那么哪些规则可以使其安全/可预测？4) 除了“组织/标记此剪辑”之外，您还需要任何语音命令（例如“在此处开始一个新的视频文件”）？如果有人感兴趣，我们很乐意回答问题并深入了解实施细节。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46620131
+      <title>CMV：如果朝鲜没有核武器，它将成为另一个委内瑞拉</title>
+      <link>https://news.ycombinator.com/item?id=46623480</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=46623480
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.algomommy.com/show-hn.html</guid>
-      <pubDate>Wed, 14 Jan 2026 18:23:45 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46623480</guid>
+      <pubDate>Wed, 14 Jan 2026 21:09:48 GMT</pubDate>
     </item>
     <item>
-      <title>伊朗星链终端GPS欺骗/干扰检测技术分析</title>
-      <link>https://github.com/narimangharib/starlink-iran-gps-spoofing/blob/main/starlink-iran.md</link>
-      <description><![CDATA[文章网址：https://github.com/narimangharib/starlink-iran-gps-spoofing/blob/main/starlink-iran.md
-评论网址：https://news.ycombinator.com/item?id=46620125
+      <title>Digg 公开测试版已上线</title>
+      <link>https://digg.com</link>
+      <description><![CDATA[文章网址：https://digg.com
+评论网址：https://news.ycombinator.com/item?id=46623390
+积分：3
+# 条评论：0]]></description>
+      <guid>https://digg.com</guid>
+      <pubDate>Wed, 14 Jan 2026 21:04:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>脱离电网作者：Alexander Endrullat</title>
+      <link>https://peopleofprint.com/general/off-the-grid-by-alexander-endrullat/</link>
+      <description><![CDATA[文章网址：https://peopleofprint.com/general/off-the-grid-by-alexander-endrullat/
+评论网址：https://news.ycombinator.com/item?id=46623350
+积分：1
+# 条评论：0]]></description>
+      <guid>https://peopleofprint.com/general/off-the-grid-by-alexander-endrullat/</guid>
+      <pubDate>Wed, 14 Jan 2026 21:01:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>X在对色情图片提出强烈抗议后“采取行动遵守英国法律”</title>
+      <link>https://www.theguardian.com/technology/2026/jan/14/x-acting-to-comply-with-uk-law-after-outcry-over-sexualised-images</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/technology/2026/jan/14/x-acting-to-comply-with-uk-law-after-outcry-over-sexualized-images
+评论网址：https://news.ycombinator.com/item?id=46623291
 积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/narimangharib/starlink-iran-gps-spoofing/blob/main/starlink-iran.md</guid>
-      <pubDate>Wed, 14 Jan 2026 18:23:17 GMT</pubDate>
+      <guid>https://www.theguardian.com/technology/2026/jan/14/x-acting-to-comply-with-uk-law-after-outcry-over-sexualised-images</guid>
+      <pubDate>Wed, 14 Jan 2026 20:58:35 GMT</pubDate>
     </item>
     <item>
-      <title>使超媒体驱动的应用程序感觉更快</title>
-      <link>https://postomator.com/updates/making-hypermedia-driven-applications-faster/</link>
-      <description><![CDATA[文章网址：https://postomator.com/updates/making-hypermedia-driven-applications-faster/
-评论网址：https://news.ycombinator.com/item?id=46620087
+      <title>回顾 2025 年</title>
+      <link>https://rolando.is/typing/2025/reflecting_on_2025/</link>
+      <description><![CDATA[文章网址：https://rolando.is/typing/2025/reflecting_on_2025/
+评论网址：https://news.ycombinator.com/item?id=46623283
 积分：1
 # 条评论：0]]></description>
-      <guid>https://postomator.com/updates/making-hypermedia-driven-applications-faster/</guid>
-      <pubDate>Wed, 14 Jan 2026 18:21:45 GMT</pubDate>
+      <guid>https://rolando.is/typing/2025/reflecting_on_2025/</guid>
+      <pubDate>Wed, 14 Jan 2026 20:58:04 GMT</pubDate>
     </item>
     <item>
-      <title>形式化方法简介（第 2 部分）：从规范到代码</title>
-      <link>https://vikramsg.github.io/introduction-to-formal-methods-part-2/</link>
-      <description><![CDATA[文章网址：https://vikramsg.github.io/introduction-to-formal-methods-part-2/
-评论网址：https://news.ycombinator.com/item?id=46620063
-积分：1
-# 条评论：0]]></description>
-      <guid>https://vikramsg.github.io/introduction-to-formal-methods-part-2/</guid>
-      <pubDate>Wed, 14 Jan 2026 18:20:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Markiplier 将在 2,500 个屏幕上开放铁肺，无需经销商</title>
-      <link>https://www.indiewire.com/news/analysis/markiplier-open-iron-lung-2500-screens-no-distributor-1235172987/</link>
-      <description><![CDATA[文章网址：https://www.indiewire.com/news/analysis/markiplier-open-iron-lung-2500-screens-no-distributor-1235172987/
-评论网址：https://news.ycombinator.com/item?id=46620037
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.indiewire.com/news/analysis/markiplier-open-iron-lung-2500-screens-no-distributor-1235172987/</guid>
-      <pubDate>Wed, 14 Jan 2026 18:20:00 GMT</pubDate>
+      <title>新的反政治热情</title>
+      <link>https://www.noemamag.com/a-new-anti-political-fervor/</link>
+      <description><![CDATA[文章网址：https://www.noemamag.com/a-new-anti-political-fervor/
+评论网址：https://news.ycombinator.com/item?id=46623262
+积分：3
+# 条评论：1]]></description>
+      <guid>https://www.noemamag.com/a-new-anti-political-fervor/</guid>
+      <pubDate>Wed, 14 Jan 2026 20:57:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
