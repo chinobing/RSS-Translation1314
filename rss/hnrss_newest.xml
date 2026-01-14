@@ -4,111 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 14 Jan 2026 06:36:22 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 09:30:37 GMT</lastBuildDate>
     <item>
-      <title>不学习的乐趣：人工智能如何拯救我的爱好项目</title>
-      <link>https://harichetlur.com/blog/the-joy-of-not-learning-how-ai-saves-my-hobby-projects/</link>
-      <description><![CDATA[文章网址：https://harichetlur.com/blog/the-joy-of-not-learning-how-ai-saves-my-hobby-projects/
-评论网址：https://news.ycombinator.com/item?id=46613018
+      <title>Gleam 中的防弹类型安全：从数据库到客户端</title>
+      <link>https://blog.andreyfadeev.com/p/bulletproof-type-safety-in-gleam</link>
+      <description><![CDATA[文章网址：https://blog.andreyfadeev.com/p/bulletproof-type-safety-in-gleam
+评论网址：https://news.ycombinator.com/item?id=46614025
 积分：1
 # 条评论：0]]></description>
-      <guid>https://harichetlur.com/blog/the-joy-of-not-learning-how-ai-saves-my-hobby-projects/</guid>
-      <pubDate>Wed, 14 Jan 2026 06:31:46 GMT</pubDate>
+      <guid>https://blog.andreyfadeev.com/p/bulletproof-type-safety-in-gleam</guid>
+      <pubDate>Wed, 14 Jan 2026 09:23:31 GMT</pubDate>
     </item>
     <item>
-      <title>中国报告七十多年来最大的金矿发现</title>
-      <link>https://www.euronews.com/business/2025/11/14/china-reports-largest-gold-discovery-in-more-than-seven-decades</link>
-      <description><![CDATA[文章网址：https://www.euronews.com/business/2025/11/14/china-reports-largest-gold-discovery-in-more-than-seven-decades
-评论网址：https://news.ycombinator.com/item?id=46612994
+      <title>Show HN：浏览器代理的可见性和控制 (ContextFort YC S25)</title>
+      <link>https://contextfort.ai/</link>
+      <description><![CDATA[嘿，HN！我是 Ashwin，ContextFort (https://contextfort.ai/) 的联合创始人。我们通过开源浏览器扩展程序为 Chrome 中的 Claude 等 AI 浏览器代理提供可见性和控制。浏览器代理是 AI 副驾驶，可以在浏览器中自主导航并执行操作。它们显示为独立浏览器（Comet、Atlas）或 Chrome 扩展程序（Claude）。它们在搜索/API 连接器无法正常工作的网站中特别有用，例如通过 Google 网上论坛搜索错误修复或从 BILL.com 提取发票。 Anthropic 昨天发布了 Claude CoWork，并在发布视频中展示了其浏览器使用的 chromium 扩展：https://www.youtube.com/watch?v=UAmKyyZ-b9E但由于间接提示注入风险，企业采用速度缓慢，Simon Willison 在他的博客：https://simonwillison.net/2025/Aug/26/piloting-claude-for-ch...。在安全团队决定采取防护措施之前，他们需要了解员工如何使用浏览器代理来了解风险所在。因此，我们对 Chrome 扩展程序中的 Claude 工作原理进行了逆向工程，并构建了一个端到端跟踪代理会话的可见性层。它会检测 AI 代理何时控制浏览器，并记录其在会话期间访问的页面以及在每个页面上执行的操作（单击的内容和输入文本的位置）。除此之外，我们还为安全团队添加了简单的控件，以便根据可见性层捕获的内容采取行动：(1) 阻止特定页面上的特定操作（例如，阻止代理单击电子邮件上的“提交”）(2) 阻止单个会话中的有风险的跨站点流量（例如，在与 StackOverflow 交互后阻止导航至 Atlassian），或者应用更严格的策略并阻止将任何外部上下文完全引入 Atlassian。我们在这段 2 分钟的 YouTube 视频中演示了上述所有功能：https://www.youtube.com/watch?v=1YtEGVZKMeo您可以在此处尝试我们的浏览器扩展程序：https://github.com/ContextFort-AI/ContextFort很高兴与您分享此内容并听取您的评论！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46614015
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.euronews.com/business/2025/11/14/china-reports-largest-gold-discovery-in-more-than-seven-decades</guid>
-      <pubDate>Wed, 14 Jan 2026 06:27:36 GMT</pubDate>
+      <guid>https://contextfort.ai/</guid>
+      <pubDate>Wed, 14 Jan 2026 09:22:42 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Cyber​​+ – 一种专注于网络安全的编程语言</title>
-      <link>https://github.com/TanmayCzax/Cyber-Programming-language-Alpha</link>
-      <description><![CDATA[您好，HN，我是 Cyber​​+ 的创建者。Cyber​​+ 是一种开源编程语言，专为扫描、侦察和安全自动化等网络安全任务而设计。我构建它是因为通用语言对于快速安全工作流程来说过于沉重和冗长。该项目仍处于实验阶段，但它是可运行的，并且包含一个基本的解释器和示例。我非常感谢以下方面的反馈：
-- 语言设计和语法
-- 注重安全的 DSL 在实践中是否有用
-- 哪些功能对您最重要存储库：https://github.com/TanmayCzax/Cyber-Programming-language-Alp...
+      <title>Signal 的创造者 Moxie Marlinspike 希望为 AI 做他在消息传递方面所做的事情</title>
+      <link>https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</link>
+      <description><![CDATA[文章网址： https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/
+评论网址：https://news.ycombinator.com/item?id=46614007
+积分：1
+# 条评论：0]]></description>
+      <guid>https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</guid>
+      <pubDate>Wed, 14 Jan 2026 09:21:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLM 是一个长达 400 年的信心把戏</title>
+      <link>https://tomrenner.com/posts/400-year-confidence-trick/</link>
+      <description><![CDATA[文章网址：https://tomrenner.com/posts/400-year-confidence-trick/
+评论网址：https://news.ycombinator.com/item?id=46613997
+积分：1
+# 条评论：0]]></description>
+      <guid>https://tomrenner.com/posts/400-year-confidence-trick/</guid>
+      <pubDate>Wed, 14 Jan 2026 09:20:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>让法学硕士为您可视化数据</title>
+      <link>https://medium.com/altitudehq/let-llms-visualize-data-for-you-a8a494abbbbf</link>
+      <description><![CDATA[文章网址：https://medium.com/altitudehq/let-llms-visualize-data-for-you-a8a494abbbbf
+评论网址：https://news.ycombinator.com/item?id=46613982
+积分：1
+# 条评论：0]]></description>
+      <guid>https://medium.com/altitudehq/let-llms-visualize-data-for-you-a8a494abbbbf</guid>
+      <pubDate>Wed, 14 Jan 2026 09:18:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Klarna 推出点对点支付</title>
+      <link>https://www.klarna.com/international/press/klarna-expands-digital-bank-offer-with-peer-to-peer-payments/</link>
+      <description><![CDATA[文章网址：https://www.klarna.com/international/press/klarna-expands-digital-bank-offer-with-peer-to-peer- payments/
+评论网址：https://news.ycombinator.com/item?id=46613976
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.klarna.com/international/press/klarna-expands-digital-bank-offer-with-peer-to-peer-payments/</guid>
+      <pubDate>Wed, 14 Jan 2026 09:18:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能编写代码的速度更快。你的工作仍然是证明它有效</title>
+      <link>https://addyosmani.com/blog/code-review-ai/</link>
+      <description><![CDATA[文章网址：https://addyosmani.com/blog/code-review-ai/
+评论网址：https://news.ycombinator.com/item?id=46613962
+积分：1
+# 条评论：0]]></description>
+      <guid>https://addyosmani.com/blog/code-review-ai/</guid>
+      <pubDate>Wed, 14 Jan 2026 09:14:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：GLM-Image Online – 16B AR+Diffusion 模型实现准确文本</title>
+      <link>https://glmimage.online/</link>
+      <description><![CDATA[嗨 HN，我为 GLM-Image 架构构建了一个 Web 界面（由zhipu AI 提供）。与标准扩散模型不同，它使用混合方法（自回归变压器 + 扩散），这使得它非常擅长渲染连贯文本并遵循复杂的空间指令。本地运行：由于这是一个开源模型，因此如果有硬件，您可以自己运行它。它需要大约 24GB+ VRAM（例如 RTX 3090/4090 或 A100）。我在这里编写了有关如何设置的详细指南：https://glmimage.online/docs/how-to-install-glm-image云版本：对于那些没有 GPU 集群的用户，我将其包装到此 SaaS 中，以便您可以立即在浏览器中尝试。它支持本地双语提示（英语/中文）。我很想听听您对排版质量与 Flux 或 Ideogram 相比如何的看法！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46612986
+评论网址：https://news.ycombinator.com/item?id=46613958
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/TanmayCzax/Cyber-Programming-language-Alpha</guid>
-      <pubDate>Wed, 14 Jan 2026 06:26:19 GMT</pubDate>
+      <guid>https://glmimage.online/</guid>
+      <pubDate>Wed, 14 Jan 2026 09:13:43 GMT</pubDate>
     </item>
     <item>
-      <title>摄影师“飞越月球”历时两年打造标志性外星人游戏</title>
-      <link>https://www.bbc.com/news/articles/cp3z475kxwpo</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cp3z475kxwpo
-评论网址：https://news.ycombinator.com/item?id=46612982
+      <title>对写作的赞扬（以及反对人工智能的案例​​）</title>
+      <link>https://jaapgrolleman.com/ai-writing/</link>
+      <description><![CDATA[文章网址：https://jaapgrolleman.com/ai-writing/
+评论网址：https://news.ycombinator.com/item?id=46613953
 积分：1
-# 条评论：0]]></description>
-      <guid>https://www.bbc.com/news/articles/cp3z475kxwpo</guid>
-      <pubDate>Wed, 14 Jan 2026 06:25:34 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://jaapgrolleman.com/ai-writing/</guid>
+      <pubDate>Wed, 14 Jan 2026 09:12:48 GMT</pubDate>
     </item>
     <item>
-      <title>新的 Apple Creator Studio 图标</title>
-      <link>https://www.reddit.com/r/MacOS/s/aPa5goAtSo</link>
-      <description><![CDATA[文章网址：https://www.reddit.com/r/MacOS/s/aPa5goAtSo
-评论网址：https://news.ycombinator.com/item?id=46612974
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.reddit.com/r/MacOS/s/aPa5goAtSo</guid>
-      <pubDate>Wed, 14 Jan 2026 06:24:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>问HN：如何寻找AI时代的差距和机会？</title>
-      <link>https://news.ycombinator.com/item?id=46612945</link>
-      <description><![CDATA[如何找到我可以建立的差距和机会并赚一些钱来做得更好？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46612945
-积分：3
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46612945</guid>
-      <pubDate>Wed, 14 Jan 2026 06:19:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>最新 iOS 26.3 Beta 中引用的端到端加密 RCS 消息</title>
-      <link>https://twitter.com/TiinoX83/status/2010830920681427199</link>
-      <description><![CDATA[文章网址：https://twitter.com/TiinoX83/status/2010830920681427199
-评论网址：https://news.ycombinator.com/item?id=46612942
+      <title>人工智能记忆研究</title>
+      <link>https://www.theatlantic.com/technology/2026/01/ai-memorization-research/685552/</link>
+      <description><![CDATA[文章网址：https://www.theatlantic.com/technology/2026/01/ai-memorization-research/685552/
+评论网址：https://news.ycombinator.com/item?id=46613944
 积分：2
 # 条评论：0]]></description>
-      <guid>https://twitter.com/TiinoX83/status/2010830920681427199</guid>
-      <pubDate>Wed, 14 Jan 2026 06:19:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>国土安全部驱逐卷轴因未经许可的音乐使用而受到版权打击</title>
-      <link>https://reason.com/2026/01/11/the-deportation-playlist-is-mostly-stolen/</link>
-      <description><![CDATA[文章网址：https://reason.com/2026/01/11/the-deportation-playlist-is-mostly-stolen/
-评论网址：https://news.ycombinator.com/item?id=46612934
-积分：7
-# 条评论：0]]></description>
-      <guid>https://reason.com/2026/01/11/the-deportation-playlist-is-mostly-stolen/</guid>
-      <pubDate>Wed, 14 Jan 2026 06:16:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic 总代理 Claude Cowork 的第一印象</title>
-      <link>https://simonw.substack.com/p/first-impressions-of-claude-cowork</link>
-      <description><![CDATA[文章网址：https://simonw.substack.com/p/first-impressions-of-claude-cowork
-评论网址：https://news.ycombinator.com/item?id=46612919
-积分：3
-# 条评论：0]]></description>
-      <guid>https://simonw.substack.com/p/first-impressions-of-claude-cowork</guid>
-      <pubDate>Wed, 14 Jan 2026 06:14:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Keir Starmer 放弃强制数字身份证计划</title>
-      <link>https://www.thetimes.com/uk/politics/article/digital-id-scrapped-u-turn-keir-starmer-7zcwqqvb5</link>
-      <description><![CDATA[文章网址：https://www.thetimes.com/uk/politics/article/digital-id-scrapped-u-turn-keir-starmer-7zcwqqvb5
-评论网址：https://news.ycombinator.com/item?id=46612916
-积分：4
-# 条评论：0]]></description>
-      <guid>https://www.thetimes.com/uk/politics/article/digital-id-scrapped-u-turn-keir-starmer-7zcwqqvb5</guid>
-      <pubDate>Wed, 14 Jan 2026 06:14:15 GMT</pubDate>
+      <guid>https://www.theatlantic.com/technology/2026/01/ai-memorization-research/685552/</guid>
+      <pubDate>Wed, 14 Jan 2026 09:11:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
