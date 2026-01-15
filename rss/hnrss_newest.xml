@@ -4,127 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 15 Jan 2026 09:29:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 12:47:47 GMT</lastBuildDate>
     <item>
-      <title>使用代理还是被抛在后面？自动化工作的个人指南</title>
-      <link>https://timdettmers.com/2026/01/13/use-agents-or-be-left-behind/</link>
-      <description><![CDATA[文章网址：https://timdettmers.com/2026/01/13/use-agents-or-be-left-behind/
-评论网址：https://news.ycombinator.com/item?id=46630110
-积分：1
-# 条评论：0]]></description>
-      <guid>https://timdettmers.com/2026/01/13/use-agents-or-be-left-behind/</guid>
-      <pubDate>Thu, 15 Jan 2026 09:19:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过批量大小自动调整优化 Postgres 快照的数据吞吐量</title>
-      <link>https://xata.io/blog/postgres-snapshots-with-batch-size-auto-tuning</link>
-      <description><![CDATA[文章网址：https://xata.io/blog/postgres-snapshots-with-batch-size-auto-tuning
-评论网址：https://news.ycombinator.com/item?id=46630105
-积分：1
-# 条评论：1]]></description>
-      <guid>https://xata.io/blog/postgres-snapshots-with-batch-size-auto-tuning</guid>
-      <pubDate>Thu, 15 Jan 2026 09:18:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>典型：运行时具有类型安全性的 TypeScript</title>
-      <link>https://typical.elliots.dev/</link>
-      <description><![CDATA[文章网址：https://tropic.elliots.dev/
-评论网址：https://news.ycombinator.com/item?id=46630101
-积分：1
-# 条评论：0]]></description>
-      <guid>https://typical.elliots.dev/</guid>
-      <pubDate>Thu, 15 Jan 2026 09:18:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>我和机器</title>
-      <link>https://mitsuhiko.github.io/talks/me-and-the-machine/</link>
-      <description><![CDATA[文章网址：https://mitsuhiko.github.io/talks/me-and-the-machine/
-评论网址：https://news.ycombinator.com/item?id=46630087
-积分：1
-# 条评论：0]]></description>
-      <guid>https://mitsuhiko.github.io/talks/me-and-the-machine/</guid>
-      <pubDate>Thu, 15 Jan 2026 09:17:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>LevelDB是一个快速的键值存储库</title>
-      <link>https://github.com/google/leveldb</link>
-      <description><![CDATA[文章网址：https://github.com/google/leveldb
-评论网址：https://news.ycombinator.com/item?id=46630077
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/google/leveldb</guid>
-      <pubDate>Thu, 15 Jan 2026 09:16:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过蓝牙入侵轮椅</title>
-      <link>https://www.securityweek.com/researchers-expose-whill-wheelchair-safety-risks-via-remote-hacking/</link>
-      <description><![CDATA[文章网址：https://www.securityweek.com/researchers-expose-whill-wheelchair-safety-risks-via-remote-hacking/
-评论网址：https://news.ycombinator.com/item?id=46630076
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.securityweek.com/researchers-expose-whill-wheelchair-safety-risks-via-remote-hacking/</guid>
-      <pubDate>Thu, 15 Jan 2026 09:15:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>ICE 是秘密警察</title>
-      <link>https://www.nytimes.com/2026/01/10/opinion/immigration-ice-violence-minnesota.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2026/01/10/opinion/immigration-ice-violence-minnesota.html
-评论网址：https://news.ycombinator.com/item?id=46630046
+      <title>Wine 11.0 发布</title>
+      <link>https://gitlab.winehq.org/wine/wine/-/releases/wine-11.0</link>
+      <description><![CDATA[文章网址：https://gitlab.winehq.org/wine/wine/-/releases/wine-11.0
+评论网址：https://news.ycombinator.com/item?id=46631568
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.nytimes.com/2026/01/10/opinion/immigration-ice-violence-minnesota.html</guid>
-      <pubDate>Thu, 15 Jan 2026 09:11:58 GMT</pubDate>
+      <guid>https://gitlab.winehq.org/wine/wine/-/releases/wine-11.0</guid>
+      <pubDate>Thu, 15 Jan 2026 12:37:37 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Getmaapp/signal-WASM v0.1.0 – Web 信号协议</title>
-      <link>https://github.com/getmaapp/signal-wasm</link>
-      <description><![CDATA[您好 HN，我很高兴地宣布发布 @getmaapp/signal-wasm v0.1.0，这是一个编译为 WebAssembly 的 Rust 包，可将信号协议（双棘轮、X3DH）暴露给浏览器 JavaScript 和 TypeScript 环境，以实现 E2EE 消息传递。存储库：https://github.com/getmaapp/signal-wasm 
-NPM：https://www.npmjs.com/package/@getmaapp/signal-wasm动机
-Web 应用程序的格局正在迅速发展，安全通信变得比以往任何时候都更加重要。
-- 聊天功能的兴起：更多网络应用程序将聊天直接集成到其产品中。
-- 人工智能聊天机器人：人工智能代理的激增需要安全、私密的敏感数据通道。
-- 安全威胁：随着黑客、欺诈和数据泄露的增加，仅仅依赖明文或弱加密已经不够了。
-- 供应商锁定：现有的 E2EE 解决方案充当“黑匣子”或专有 SaaS 产品，将开发人员锁定在特定的生态系统中。
-- 开源基金会：信号协议是 E2EE 的黄金标准，但由于 WASM 限制（系统时间、随机性等），在纯浏览器环境中使用它历来具有挑战性。
-- 该项目旨在提供一个长期开源工具，使任何 Web 开发人员都可以访问信号协议，而无需锁定。实现细节
-该库包装了上游 libsignal Rust 箱并解决了几个 WASM 特定的挑战：
-- 随机性：使用 Web Crypto API 将 OsRng（在 WASM 中出现恐慌）替换为 getrandom。
-- 时间：通过桥接到 js_sys::Date 来处理 SystemTime 恐慌。
-- 异步/等待：为 JavaScript 提供干净的异步 API，处理同步 Rust 核心。注意事项和免责声明
-- 我不是密码学家：我主要是一名具有产品管理背景的 TypeScript/React 全栈开发人员 (Effect-TS)。虽然这个库绑定了官方 Signal Rust 板条箱，但绑定本身尚未经过审核。
-- AI 辅助开发：该项目是在 AI 编码代理（Google Antigravity、Claude Opus 4.5、Gemini 3）的大力协助下构建的。
-- 归属：巨大的功劳属于 Signal Foundation 及其工程团队，他们创建了加密原语和 libsignal Rust 实现，使这成为可能。我们站在巨人的肩膀上。号召性用语
-- 这是 v0.1.0。它有效，它通过了测试，并且我们在存储库中有一个有效的 React 演示。然而，为了使其成为基于 Web 的 E2EE 的标准，我们需要社区的关注。
-- 非常欢迎合作和贡献。无论是代码审查、改进 WASM 桥还是构建很酷的演示，我很想看看您构建的内容。关于我
-我是一名 TypeScript/React 开发人员和产品经理。LinkedIn：https://www.linkedin.com/in/thecannabisapp/
-Github：https://github.com/thecannabisapp
-电子邮件：jia@getma.app谢谢！
+      <title>开放式可穿戴设备——统一健康数据平台</title>
+      <link>https://www.openwearables.io/</link>
+      <description><![CDATA[文章网址：https://www.openwearables.io/
+评论网址：https://news.ycombinator.com/item?id=46631553
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.openwearables.io/</guid>
+      <pubDate>Thu, 15 Jan 2026 12:36:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>秘密 ICE 计划揭晓</title>
+      <link>https://www.kenklippenstein.com/p/21-secret-ice-programs-revealed</link>
+      <description><![CDATA[文章网址：https://www.kenklippenstein.com/p/21-secret-ice-programs-revealed
+评论网址：https://news.ycombinator.com/item?id=46631550
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.kenklippenstein.com/p/21-secret-ice-programs-revealed</guid>
+      <pubDate>Thu, 15 Jan 2026 12:35:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>基因疗法旨在为先天聋哑人带来听力</title>
+      <link>https://hackaday.com/2026/01/14/genetic-therapy-aims-to-bring-hearing-to-those-born-deaf/</link>
+      <description><![CDATA[文章网址：https://hackaday.com/2026/01/14/genic-therapy-aims-to-bring-hearing-to-those-born-deaf/
+评论网址：https://news.ycombinator.com/item?id=46631534
+积分：1
+# 条评论：0]]></description>
+      <guid>https://hackaday.com/2026/01/14/genetic-therapy-aims-to-bring-hearing-to-those-born-deaf/</guid>
+      <pubDate>Thu, 15 Jan 2026 12:34:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpaceX 将尝试在 2026 年底前抵达火星</title>
+      <link>https://www.msn.com/en-ie/money/other/elon-musk-surprises-everyone-spacex-will-attempt-to-reach-mars-by-the-end-of-2026/ar-AA1TZA2z</link>
+      <description><![CDATA[文章网址： https://www.msn.com/en-ie/money/other/elon-musk-surprises-everyone-spacex-will-attempt-to-reach-mars-by-the-end-of-2026/ar-AA1TZA2z
+评论网址：https://news.ycombinator.com/item?id=46631522
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.msn.com/en-ie/money/other/elon-musk-surprises-everyone-spacex-will-attempt-to-reach-mars-by-the-end-of-2026/ar-AA1TZA2z</guid>
+      <pubDate>Thu, 15 Jan 2026 12:32:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>专家希望了解美国公司收购 Digid（荷兰国家身份识别服务）的情况</title>
+      <link>https://www.dutchnews.nl/2026/01/experts-want-insight-into-takeover-of-digid-platform-by-us-firm/</link>
+      <description><![CDATA[文章网址：https://www.dutchnews.nl/2026/01/experts-want-insight-into-takeover-of-digid-platform-by-us-firm/
+评论网址：https://news.ycombinator.com/item?id=46631518
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.dutchnews.nl/2026/01/experts-want-insight-into-takeover-of-digid-platform-by-us-firm/</guid>
+      <pubDate>Thu, 15 Jan 2026 12:32:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：CallTuv – 基于浏览器的拨号器，具有透明的每分钟定价</title>
+      <link>https://calltuv.com/en-US</link>
+      <description><![CDATA[文章网址：https://calltuv.com/en-US
+评论网址：https://news.ycombinator.com/item?id=46631513
+积分：1
+# 条评论：1]]></description>
+      <guid>https://calltuv.com/en-US</guid>
+      <pubDate>Thu, 15 Jan 2026 12:31:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>寒冷天气和微型移动电池的硬性限制</title>
+      <link>https://micromobility.io/news/cold-weather-and-the-hard-limits-of-micromobility-batteries</link>
+      <description><![CDATA[文章网址：https://micromobility.io/news/cold-weather-and-the-hard-limits-of-micromobility-batteries
+评论网址：https://news.ycombinator.com/item?id=46631508
+积分：1
+# 条评论：0]]></description>
+      <guid>https://micromobility.io/news/cold-weather-and-the-hard-limits-of-micromobility-batteries</guid>
+      <pubDate>Thu, 15 Jan 2026 12:31:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我将个人成功建模为具有贝叶斯先验的控制系统</title>
+      <link>https://mondonno.github.io/successus/sample-h1.html</link>
+      <description><![CDATA[我是一名学生，也是一家无障碍初创公司的联合创始人。平衡产品开发与考试打破了我的工作流程，因此我寻找了一个调试器。Mathematica Successūs 是我将“自我”建模为控制系统的尝试。它认为，只有当调节器的种类与环境干扰相匹配（阿什比定律）时，稳定性才有可能。这是用 LaTeX 编写的简短（59 页）技术手册。它不将倦怠视为一种感觉，而是将其视为对系统约束的违反。它依赖于数学的严谨性，而不是空洞的指导。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46630042
-积分：1
+评论网址：https://news.ycombinator.com/item?id=46631488
+积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/getmaapp/signal-wasm</guid>
-      <pubDate>Thu, 15 Jan 2026 09:11:27 GMT</pubDate>
+      <guid>https://mondonno.github.io/successus/sample-h1.html</guid>
+      <pubDate>Thu, 15 Jan 2026 12:29:00 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：S3mini(0.9.1) 小型 ts S3 客户端，现在支持 blob 和流</title>
-      <link>https://github.com/good-lly/s3mini/releases/tag/v0.9.1</link>
-      <description><![CDATA[文章网址：https://github.com/good-lly/s3mini/releases/tag/v0.9.1
-评论网址：https://news.ycombinator.com/item?id=46630020
+      <title>仅靠软件很难赚钱</title>
+      <link>https://twitter.com/i/status/2011542744989077863</link>
+      <description><![CDATA[文章网址：https://twitter.com/i/status/2011542744989077863
+评论网址：https://news.ycombinator.com/item?id=46631479
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/good-lly/s3mini/releases/tag/v0.9.1</guid>
-      <pubDate>Thu, 15 Jan 2026 09:08:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>SETI@home：加州大学伯克利分校的科学家们正在追踪他们发现的 100 个信号</title>
-      <link>https://news.berkeley.edu/2026/01/12/for-21-years-enthusiasts-used-their-home-computers-to-search-for-et-uc-berkeley-scientists-are-homing-in-on-100-signals-they-found/</link>
-      <description><![CDATA[文章网址： https://news.berkeley.edu/2026/01/12/for-21-years-enthusiasts-used-their-home-computers-to-search-for-et-uc-berkeley-scientists-are-homing-in-on-100-signals-they-found/
-评论网址：https://news.ycombinator.com/item?id=46630012
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.berkeley.edu/2026/01/12/for-21-years-enthusiasts-used-their-home-computers-to-search-for-et-uc-berkeley-scientists-are-homing-in-on-100-signals-they-found/</guid>
-      <pubDate>Thu, 15 Jan 2026 09:07:15 GMT</pubDate>
+      <guid>https://twitter.com/i/status/2011542744989077863</guid>
+      <pubDate>Thu, 15 Jan 2026 12:27:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
