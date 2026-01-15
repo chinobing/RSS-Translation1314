@@ -4,7 +4,35 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Thu, 15 Jan 2026 06:36:02 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 09:28:19 GMT</lastBuildDate>
+    <item>
+      <title>分区与分片：对不断增长的数据库的简单解释</title>
+      <link>https://www.reddit.com/r/programming/comments/1qdeyki/partitioning_vs_sharding_a_simple_explanation_for/</link>
+      <description><![CDATA[随着数据库的增长，大多数团队最终都会面临同样的问题： 我们应该分区还是应该分片？ 它们听起来很相似，但解决的问题却截然不同。 分区在单个数据库内组织数据以提高性能和维护。分片将数据分布在多个数据库之间以实现真正的水平扩展。 一是优化。另一个是分布式系统决策。 我最近写了一篇简短的博客，通过生产系统的示例详细分析了差异、权衡和现实世界的使用模式。 如果您从事后端、数据库或系统设计，您可能会发现它很有用： https://www.hexplain.space/blog/fUqutuyOg9W77rMq7UG9   由   提交/u/Odd-Chipmunk-6460   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qdeyki/partitioning_vs_sharding_a_simple_explanation_for/</guid>
+      <pubDate>Thu, 15 Jan 2026 09:18:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>相同的提示，相同的任务 — 3 个 AI 编码助手中的 2 个成功，包括 OpenCode</title>
+      <link>https://www.reddit.com/r/programming/comments/1qdeiq7/same_prompt_same_task_2_of_3_ai_coding_assistant/</link>
+      <description><![CDATA[我通过 3 个 AI 编码系统运行了完全相同的非平凡工程提示。 其中 2 个生成了最初工作的代码。 在检查极端情况并运行测试后，差异变得明显 - 一个实现（如 i8n）实现了更多功能，而另一个实现了更好的代码结构。 这不是模型智能的问题，而是而不是工程偏见： 当细节不清楚时，系统优先优化什么？   由   提交/u/dqj1998  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qdeiq7/same_prompt_same_task_2_of_3_ai_coding_assistant/</guid>
+      <pubDate>Thu, 15 Jan 2026 08:50:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>单节点本地 S3 的 MinIO 替代方案</title>
+      <link>https://www.reddit.com/r/programming/comments/1qde8c9/alternatives_to_minio_for_singlenode_local_s3/</link>
+      <description><![CDATA[ 由   提交 /u/rmoff   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qde8c9/alternatives_to_minio_for_singlenode_local_s3/</guid>
+      <pubDate>Thu, 15 Jan 2026 08:32:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>由 4 部分组成的技术系列，介绍我如何在 VS Code 中为编码代理构建 NES</title>
+      <link>https://www.reddit.com/r/programming/comments/1qdctx6/a_4part_technical_series_on_how_i_built_nes_in_vs/</link>
+      <description><![CDATA[嘿伙计们，分享一个由 4 部分组成的深入技术系列，介绍我如何在编码代理背后构建 AI 编辑模型。  它涵盖了从实时上下文管理和请求生命周期到仅使用 VS Code 的公共 API 动态渲染代码编辑的所有内容。  我尽可能公开、具体地写了这篇文章，其中包含实现细节和权衡。  如果您在编辑器中构建人工智能，我想您会发现这很有用。   由   提交 /u/National_Purpose5521   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qdctx6/a_4part_technical_series_on_how_i_built_nes_in_vs/</guid>
+      <pubDate>Thu, 15 Jan 2026 07:07:29 GMT</pubDate>
+    </item>
     <item>
       <title>Python程序混淆工具</title>
       <link>https://www.reddit.com/r/programming/comments/1qdbx4r/python_program_obfuscation_tool/</link>
@@ -81,34 +109,6 @@
       <description><![CDATA[我一直在为 NASDAQ ITCH 构建解析器。这就是实时订单簿背后的二进制消防水带。在繁忙的市场中，它每秒可以处理数百万条消息，因此任何为每条消息分配或复制的东西都会崩溃。这变成了对零拷贝解析、SIMD 以及 Rust 推回之前你能推多远的深入探讨。 每条消息的分配问题 ITCH 是紧密的二进制数据。两个字节长度，一个字节类型，固定头，然后是负载。明显的 Rust 方法如下所示： ```rust fn parse_naive(data: &amp;[u8]) -&gt; Vec&lt;消息&gt; { 让 mut out = Vec::new();让 mut pos = 0; while pos &lt;; data.len() { let len = u16::from_be_bytes([data[pos], data[pos + 1]]) as usize;让 msg = data[pos..pos + len].to_vec(); out.push(消息::from_bytes(msg)); pos += len； } out  } ``` 这有效，但速度很慢。您为每条消息分配一个 Vec。在规模上，这意味着大量的堆搅动和糟糕的缓存行为。对于数千万条消息，您基本上是在对 malloc 进行基准测试。 零复制解析和终身痛苦 解决方法是停止拥有字节并只是借用它们。直接从输入缓冲区进行解析，除非确实需要，否则永远不要复制。 在我的情况下，每个解析的消息仅保存对原始缓冲区的引用。 ```使用 Zerocopy::Ref; pub struct ZeroCopyMessage&lt;&#39;a&gt;; { header: Ref&lt;&amp;&#39;a [u8], MessageHeaderRaw&gt;, 负载: &amp;&#39;a [u8], } impl&lt;&#39;a&gt;; ZeroCopyMessage&lt;&#39;a&gt; { pub fn read_u32(&amp;self, offset: usize) -&gt;; u32 { 让字节 = &amp;self.payload[offset..offset + 4]; u32::from_be_bytes(bytes.try_into().unwrap()) } } ``` zerocopy 箱负责处理标头的繁重工作。它检查大小和对齐方式，因此您不需要原始指针转换。有效负载是可变的，因此这些字段需要手动读取。 权衡是显而易见的。一生是严格的。您无法将这些消息隐藏在某处或将它们发送到另一个线程而不进行复制。当您立即处理并丢弃时，此方法效果最佳。作为回报，您在解析过程中获得零分配，并显着降低内存使用量。 SIMD 真正重要的地方 一个热门路径是查找消息边界。标量代码逐字节运行并不断分支。 SIMD 可让您一次扫描多个块。 这是一次扫描 32 个字节的简化 AVX2 示例： ```rust use std::arch::x86_64::*; pub fn scan_boundaries_avx2(data: &amp;[u8], pos: usize) -&gt;选项&lt;使用大小&gt; { let chunk = unsafe { _mm256_loadu_si256(data.as_ptr().add(pos) as *const __m256i) }; let Needle = _mm256_set1_epi8(b&#39;A&#39;);让 cmp = _mm256_cmpeq_epi8(块，针);让掩码= _mm256_movemask_epi8(cmp); if mask != 0 { Some(pos + mask.trailing_zeros() as usize) } else { None }  } ``` 这会一次性检查 32 个字节。在支持它的 CPU 上，您可以对 AVX512 执行相同的操作，并将其加倍。运行时的功能检测会选择最佳版本并回退到旧机器上的标量代码。 好处是真实的。在现代硬件上，吞吐量测试明显快了两到四倍。 缺点也是真实的。 SIMD 代码写起来很烦人，更难调试，而且充满了不安全的块。对于小投入，设置成本可能会超过胜利。 安全与速度 Rust 有所帮助，但它并不能帮助您避免权衡。零复制意味着生命周期无处不在。 SIMD意味着不安全。在发布版本中会跳过一些验证，因为检查所有内容都会花费时间。 与其他语言相比。 Cpp 可以对视图进行零复制，但悬空指针总是潜伏着。 Go 在并发方面表现出色，但零拷贝解析会与 GC 发生冲突。 Zig 可能会使这个过程更清晰，但您仍然要付出复杂性成本。 此设置的重点是每秒传递 1 亿条消息。如果您想要完整的内容，代码就在这里 https://github.com/lunyn-hft/lunary 好奇其他人如何处理这个问题。您是否曾与 Rust 生命周期进行过如此艰苦的斗争，或者手动编写过 SIMD 来进行二进制解析？您如何用您的语言做到这一点而不失去理智？   由   提交 /u/capitanturkiye   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qctri6/zerocopy_simd_parsing_to_handle_unaligned_reads/</guid>
       <pubDate>Wed, 14 Jan 2026 17:39:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>n8n 感觉很快，直到你需要解释它</title>
-      <link>https://www.reddit.com/r/programming/comments/1qcpor9/n8n_feels_fast_until_you_need_to_explain_it/</link>
-      <description><![CDATA[为什么没有可解释性的速度会变成技术债务。   由   提交/u/Unhappy_Concept237  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qcpor9/n8n_feels_fast_until_you_need_to_explain_it/</guid>
-      <pubDate>Wed, 14 Jan 2026 15:08:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>2026 年 SWE 必须具备的基本技能和知识</title>
-      <link>https://www.reddit.com/r/programming/comments/1qcpo2s/fundamental_skills_and_knowledge_you_must_have_in/</link>
-      <description><![CDATA[杰弗里·亨特利 (Geoffrey Huntley)，拉尔夫循环的创建者   由   提交/u/creaturefeature16  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qcpo2s/fundamental_skills_and_knowledge_you_must_have_in/</guid>
-      <pubDate>Wed, 14 Jan 2026 15:08:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>系统设计面试的缓存手册</title>
-      <link>https://www.reddit.com/r/programming/comments/1qcpk06/caching_playbook_for_system_design_interviews/</link>
-      <description><![CDATA[这是一篇关于缓存的文章，缓存是任何系统设计中最重要的组件之一。  本文涵盖以下内容： - 什么是缓存？  - 我们什么时候应该缓存？  - 缓存层 - 缓存策略 - 缓存驱逐策略 - 缓存生产边缘情况以及如何处理它们 还包含简短的备忘单和漂亮的图表，请查看。    由   提交/u/Comfortable-Fan-580   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qcpk06/caching_playbook_for_system_design_interviews/</guid>
-      <pubDate>Wed, 14 Jan 2026 15:03:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么 Linus 和 DHH 现在都在进行 vivi 编码</title>
-      <link>https://www.reddit.com/r/programming/comments/1qcp6hu/why_linus_and_dhh_are_vibe_coding_now/</link>
-      <description><![CDATA[ 由   提交/u/Waterty  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qcp6hu/why_linus_and_dhh_are_vibe_coding_now/</guid>
-      <pubDate>Wed, 14 Jan 2026 14:49:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
