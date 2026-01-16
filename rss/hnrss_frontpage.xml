@@ -4,14 +4,64 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 16 Jan 2026 09:28:37 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 12:44:47 GMT</lastBuildDate>
+    <item>
+      <title>Signal 的创造者 Moxie Marlinspike 希望为 AI 做他在消息传递方面所做的事情</title>
+      <link>https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</link>
+      <description><![CDATA[文章网址： https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/
+评论网址：https://news.ycombinator.com/item?id=46645430
+积分：7
+# 条评论：0]]></description>
+      <guid>https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</guid>
+      <pubDate>Fri, 16 Jan 2026 11:36:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>论崩溃时期的人性 (2022) [pdf]</title>
+      <link>https://web.cs.ucdavis.edu/~rogaway/papers/crisis/crisis.pdf</link>
+      <description><![CDATA[文章网址：https://web.cs.ucdavis.edu/~rogaway/papers/crisis/crisis.pdf
+评论网址：https://news.ycombinator.com/item?id=46644962
+积分：110
+评论数：86]]></description>
+      <guid>https://web.cs.ucdavis.edu/~rogaway/papers/crisis/crisis.pdf</guid>
+      <pubDate>Fri, 16 Jan 2026 10:19:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>隔离范围：从裸机到 WebAssembly</title>
+      <link>https://buildsoftwaresystems.com/post/guide-to-execution-environments/</link>
+      <description><![CDATA[文章网址：https://buildsoftwaresystems.com/post/guide-to-execution-environments/
+评论网址：https://news.ycombinator.com/item?id=46644661
+积分：34
+# 条评论：15]]></description>
+      <guid>https://buildsoftwaresystems.com/post/guide-to-execution-environments/</guid>
+      <pubDate>Fri, 16 Jan 2026 09:27:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>pf：让af-to不再那么神奇</title>
+      <link>https://undeadly.org/cgi?action=article;sid=20260116085115</link>
+      <description><![CDATA[文章网址：https://undeadly.org/cgi?action=article;sid=20260116085115
+评论网址：https://news.ycombinator.com/item?id=46644541
+积分：20
+# 条评论：1]]></description>
+      <guid>https://undeadly.org/cgi?action=article;sid=20260116085115</guid>
+      <pubDate>Fri, 16 Jan 2026 09:06:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>交互式eBPF</title>
+      <link>https://ebpf.party/</link>
+      <description><![CDATA[文章网址：https://ebpf.party/
+评论网址：https://news.ycombinator.com/item?id=46644181
+积分：48
+# 条评论：4]]></description>
+      <guid>https://ebpf.party/</guid>
+      <pubDate>Fri, 16 Jan 2026 08:01:02 GMT</pubDate>
+    </item>
     <item>
       <title>构建一个更好的 Bugbot</title>
       <link>https://cursor.com/blog/building-bugbot</link>
       <description><![CDATA[文章网址：https://cursor.com/blog/building-bugbot
 评论网址：https://news.ycombinator.com/item?id=46643737
-积分：27
-# 条评论：4]]></description>
+积分：31
+评论数量：9]]></description>
       <guid>https://cursor.com/blog/building-bugbot</guid>
       <pubDate>Fri, 16 Jan 2026 06:52:03 GMT</pubDate>
     </item>
@@ -20,8 +70,8 @@
       <link>https://www.bbc.com/news/articles/cly56w0p9e1o</link>
       <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cly56w0p9e1o
 评论网址：https://news.ycombinator.com/item?id=46642920
-积分：143
-# 条评论：52]]></description>
+积分：189
+评论数量：85]]></description>
       <guid>https://www.bbc.com/news/articles/cly56w0p9e1o</guid>
       <pubDate>Fri, 16 Jan 2026 04:11:17 GMT</pubDate>
     </item>
@@ -30,21 +80,10 @@
       <link>https://www.undeadly.org/cgi?action=article;sid=20260115203619</link>
       <description><![CDATA[文章网址：https://www.undeadly.org/cgi?action=article;sid=20260115203619
 评论网址：https://news.ycombinator.com/item?id=46642560
-积分：221
-# 条评论：20]]></description>
+积分：296
+# 条评论：30]]></description>
       <guid>https://www.undeadly.org/cgi?action=article;sid=20260115203619</guid>
       <pubDate>Fri, 16 Jan 2026 03:10:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：扭转 YouTube 的“重播次数最多”图表</title>
-      <link>https://priyavr.at/blog/reversing-most-replayed/</link>
-      <description><![CDATA[您好，HN，我最近注意到 YouTube 播放器的“重播次数最多”热图中反复出现视觉伪影。最高峰总是被两个低谷包围。我很好奇它们为什么在那里，所以我决定对该功能进行逆向工程以找出答案。这篇文章记录了深入研究。它从系统设计重新开始，对渲染代码进行逆向工程，并以数学结束。这也是我第一次尝试编写交互式文章。我很想听听您对调查和形式的想法。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46642173
-积分：49
-# 条评论：16]]></description>
-      <guid>https://priyavr.at/blog/reversing-most-replayed/</guid>
-      <pubDate>Fri, 16 Jan 2026 02:06:11 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：BGP Scout – BGP 网络浏览器</title>
@@ -53,61 +92,20 @@
 获取原始数据很容易，但随着时间的推移浏览网络却出人意料地困难，尤其是它们出现的时间、运行的地点以及它们实际的外观。我构建了一个小工具 bgpscout.io，来解决这个问题。它可以让您：按注册日期和地理位置浏览 ASN查看给定网络的存在位置在一个地方查看有关 ASN 的普遍分散的公共数据保存搜索以跟踪新出现的数据出现符合特定条件的网络所有这些数据均已公开；目标是让探索更快、更少痛苦。我还没有投入大量资金来扩展它。在此之前，我很好奇：这是否为您解决了真正的问题？什么会让这样的东西在日常工作中真正有用？欢迎提供反馈。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46641663
-积分：8
-# 条评论：5]]></description>
+积分：20
+# 条评论：7]]></description>
       <guid>https://bgpscout.io/</guid>
       <pubDate>Fri, 16 Jan 2026 00:52:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Gambit，一种用于构建可靠 AI 代理的开源代理工具</title>
-      <link>https://github.com/bolt-foundry/gambit</link>
-      <description><![CDATA[嘿 HN！想要展示我们名为 Gambit 的开源代理工具。如果您不熟悉，代理工具有点像代理的操作系统...它们处理工具调用、规划、上下文窗口管理，并且不需要太多的开发人员编排。通常您可能会看到代理编排框架管道，例如：计算 -&gt; 计算 -&gt; 计算 -&gt; LLM -&gt; 计算 -&gt; 计算 -&gt; LLM我们用代理工具将其反转，它更像是：LLM -&gt; LLM -&gt; LLM -&gt; 计算 -&gt; LLM -&gt; LLM -&gt; 计算 -&gt; LLM本质上，您可以在自包含的 Markdown 文件或打字稿程序中描述每个代理。您的根代理可以根据需要引入其他代理，我们为您创建一种类型安全的方式来定义这些代理之间的接口。我们将这些称为套牌。代理可以调用​​代理，并且可以使用对您的任务有意义的任何模型参数来设计每个代理。此外，链的每个步骤都会进行自动评估，我们称之为评分器。评分器是另一种套牌类型……但它旨在评估对话（或个人对话回合）并对其进行评分。我们还提供了您可以在逐个牌组的基础上定义的测试代理，这些测试代理旨在模拟您的代理将面临的场景，并为人类或评分者生成合成数据进行评分。在 Gambit 之前，我们构建了一个基于 LLM 的视频编辑器，但我们对结果并不满意，这就是我们走上这条提高 LLM 推理时间的原因的原因。质量。我们知道它缺少一些明显的部分，但我们希望将其推出，看看它如何帮助人们或开始对话。我们对它与一些早期设计合作伙伴的合作方式感到非常满意，我们认为这是实现许多有趣应用程序的一种方式：- 真正的开源代理和助手，可以轻松地与社区共享逻辑、代码和提示。- 基于 Rubric 的分级，以保证您（例如）不会意外泄漏 PII- 在几分钟内启动一个可用的机器人，并让 Codex 或 Claude Code 使用我们的命令行运行程序/评分者构建一个非常好的第一个版本，只需很少的人为干预。如果您有任何问题或想法，我们会随时为您服务。感谢您关注我们！演练视频：https://youtu.be/J_hQ2L_yy60
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46641362
-积分：71
-# 条评论：14]]></description>
-      <guid>https://github.com/bolt-foundry/gambit</guid>
-      <pubDate>Fri, 16 Jan 2026 00:13:25 GMT</pubDate>
     </item>
     <item>
       <title>我对 Prolog 的抱怨</title>
       <link>https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/</link>
       <description><![CDATA[文章网址：https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/
 评论网址：https://news.ycombinator.com/item?id=46641348
-积分：90
-# 条评论：47]]></description>
+积分：109
+# 条评论：55]]></description>
       <guid>https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/</guid>
       <pubDate>Fri, 16 Jan 2026 00:11:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>个别树木列表</title>
-      <link>https://en.wikipedia.org/wiki/List_of_individual_trees</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/List_of_individual_trees
-评论网址：https://news.ycombinator.com/item?id=46641284
-积分：97
-# 条评论：29]]></description>
-      <guid>https://en.wikipedia.org/wiki/List_of_individual_trees</guid>
-      <pubDate>Fri, 16 Jan 2026 00:05:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>所有 23 位静物画均可用滑翔机建造</title>
-      <link>https://mvr.github.io/posts/xs23.html</link>
-      <description><![CDATA[文章网址：https://mvr.github.io/posts/xs23.html
-评论网址：https://news.ycombinator.com/item?id=46641239
-积分：85
-# 条评论：7]]></description>
-      <guid>https://mvr.github.io/posts/xs23.html</guid>
-      <pubDate>Thu, 15 Jan 2026 23:59:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tldraw 因 AI 问题暂停外部贡献</title>
-      <link>https://github.com/tldraw/tldraw/issues/7695</link>
-      <description><![CDATA[文章网址：https://github.com/tldraw/tldraw/issues/7695
-评论网址：https://news.ycombinator.com/item?id=46641042
-积分：113
-# 条评论：43]]></description>
-      <guid>https://github.com/tldraw/tldraw/issues/7695</guid>
-      <pubDate>Thu, 15 Jan 2026 23:37:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
