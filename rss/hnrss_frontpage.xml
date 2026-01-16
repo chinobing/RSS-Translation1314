@@ -4,34 +4,44 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 16 Jan 2026 04:03:03 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 06:36:07 GMT</lastBuildDate>
+    <item>
+      <title>旧金山将为年收入 23 万美元的人提供免费托儿服务</title>
+      <link>https://www.theguardian.com/us-news/2026/jan/15/san-francisco-childcare-families</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/us-news/2026/jan/15/san-francisco-childcare-families
+评论网址：https://news.ycombinator.com/item?id=46643099
+积分：19
+# 条评论：2]]></description>
+      <guid>https://www.theguardian.com/us-news/2026/jan/15/san-francisco-childcare-families</guid>
+      <pubDate>Fri, 16 Jan 2026 04:51:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>NTSB 报告称，波音公司知道部分与 UPS 飞机坠毁有关的缺陷</title>
+      <link>https://www.bbc.com/news/articles/cly56w0p9e1o</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cly56w0p9e1o
+评论网址：https://news.ycombinator.com/item?id=46642920
+积分：79
+# 条评论：35]]></description>
+      <guid>https://www.bbc.com/news/articles/cly56w0p9e1o</guid>
+      <pubDate>Fri, 16 Jan 2026 04:11:17 GMT</pubDate>
+    </item>
     <item>
       <title>OpenBSD-current 现在在 Apple Hypervisor 下作为来宾运行</title>
       <link>https://www.undeadly.org/cgi?action=article;sid=20260115203619</link>
       <description><![CDATA[文章网址：https://www.undeadly.org/cgi?action=article;sid=20260115203619
 评论网址：https://news.ycombinator.com/item?id=46642560
-积分：50
-# 条评论：1]]></description>
+积分：136
+# 条评论：7]]></description>
       <guid>https://www.undeadly.org/cgi?action=article;sid=20260115203619</guid>
       <pubDate>Fri, 16 Jan 2026 03:10:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare 威胁意大利退出 罚款 1400 万欧元</title>
-      <link>https://ioplus.nl/en/posts/cloudflare-threatens-italy-exit-over-14m-fine</link>
-      <description><![CDATA[文章网址：https://ioplus.nl/en/posts/cloudflare-threatens-italy-exit-over-14m-fine
-评论网址：https://news.ycombinator.com/item?id=46642504
-积分：27
-# 条评论：27]]></description>
-      <guid>https://ioplus.nl/en/posts/cloudflare-threatens-italy-exit-over-14m-fine</guid>
-      <pubDate>Fri, 16 Jan 2026 02:59:59 GMT</pubDate>
     </item>
     <item>
       <title>SETI Home 对 12B 其他信号进行排序后标记了 100 个信号</title>
       <link>https://news.berkeley.edu/2026/01/12/for-21-years-enthusiasts-used-their-home-computers-to-search-for-et-uc-berkeley-scientists-are-homing-in-on-100-signals-they-found/</link>
       <description><![CDATA[文章网址： https://news.berkeley.edu/2026/01/12/for-21-years-enthusiasts-used-their-home-computers-to-search-for-et-uc-berkeley-scientists-are-homing-in-on-100-signals-they-found/
 评论网址：https://news.ycombinator.com/item?id=46642414
-积分：38
-# 条评论：4]]></description>
+积分：69
+# 条评论：31]]></description>
       <guid>https://news.berkeley.edu/2026/01/12/for-21-years-enthusiasts-used-their-home-computers-to-search-for-et-uc-berkeley-scientists-are-homing-in-on-100-signals-they-found/</guid>
       <pubDate>Fri, 16 Jan 2026 02:45:15 GMT</pubDate>
     </item>
@@ -41,8 +51,8 @@
       <description><![CDATA[您好，HN，我最近注意到 YouTube 播放器的“重播次数最多”热图中反复出现视觉伪影。最高峰总是被两个低谷包围。我很好奇它们为什么在那里，所以我决定对该功能进行逆向工程以找出答案。这篇文章记录了深入研究。它从系统设计重新开始，对渲染代码进行逆向工程，并以数学结束。这也是我第一次尝试编写交互式文章。我很想听听您对调查和形式的想法。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46642173
-积分：11
-# 条评论：2]]></description>
+积分：30
+# 条评论：11]]></description>
       <guid>https://priyavr.at/blog/reversing-most-replayed/</guid>
       <pubDate>Fri, 16 Jan 2026 02:06:11 GMT</pubDate>
     </item>
@@ -52,8 +62,8 @@
       <description><![CDATA[嘿 HN！想要展示我们名为 Gambit 的开源代理工具。如果您不熟悉，代理工具有点像代理的操作系统...它们处理工具调用、规划、上下文窗口管理，并且不需要太多的开发人员编排。通常您可能会看到代理编排框架管道，例如：计算 -&gt; 计算 -&gt; 计算 -&gt; LLM -&gt; 计算 -&gt; 计算 -&gt; LLM我们用代理工具将其反转，它更像是：LLM -&gt; LLM -&gt; LLM -&gt; 计算 -&gt; LLM -&gt; LLM -&gt; 计算 -&gt; LLM本质上，您可以在自包含的 Markdown 文件或打字稿程序中描述每个代理。您的根代理可以根据需要引入其他代理，我们为您创建一种类型安全的方式来定义这些代理之间的接口。我们将这些称为套牌。代理可以调用​​代理，并且可以使用对您的任务有意义的任何模型参数来设计每个代理。此外，链的每个步骤都会进行自动评估，我们称之为评分器。评分器是另一种套牌类型……但它旨在评估对话（或个人对话回合）并对其进行评分。我们还提供了您可以在逐个牌组的基础上定义的测试代理，这些测试代理旨在模拟您的代理将面临的场景，并为人类或评分者生成合成数据进行评分。在 Gambit 之前，我们构建了一个基于 LLM 的视频编辑器，但我们对结果并不满意，这就是我们走上这条提高 LLM 推理时间的原因的原因。质量。我们知道它缺少一些明显的部分，但我们希望将其推出，看看它如何帮助人们或开始对话。我们对它与一些早期设计合作伙伴的合作方式感到非常满意，我们认为这是实现许多有趣应用程序的一种方式：- 真正的开源代理和助手，可以轻松地与社区共享逻辑、代码和提示。- 基于 Rubric 的分级，以保证您（例如）不会意外泄漏 PII- 在几分钟内启动一个可用的机器人，并让 Codex 或 Claude Code 使用我们的命令行运行程序/评分者构建一个非常好的第一个版本，只需很少的人为干预。如果您有任何问题或想法，我们会随时为您服务。感谢您关注我们！演练视频：https://youtu.be/J_hQ2L_yy60
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46641362
-积分：44
-# 条评论：11]]></description>
+积分：63
+# 条评论：12]]></description>
       <guid>https://github.com/bolt-foundry/gambit</guid>
       <pubDate>Fri, 16 Jan 2026 00:13:25 GMT</pubDate>
     </item>
@@ -62,50 +72,40 @@
       <link>https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/</link>
       <description><![CDATA[文章网址：https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/
 评论网址：https://news.ycombinator.com/item?id=46641348
-积分：40
-# 条评论：28]]></description>
+积分：62
+# 条评论：39]]></description>
       <guid>https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/</guid>
       <pubDate>Fri, 16 Jan 2026 00:11:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>个别树木列表</title>
+      <link>https://en.wikipedia.org/wiki/List_of_individual_trees</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/List_of_individual_trees
+评论网址：https://news.ycombinator.com/item?id=46641284
+积分：8
+# 条评论：1]]></description>
+      <guid>https://en.wikipedia.org/wiki/List_of_individual_trees</guid>
+      <pubDate>Fri, 16 Jan 2026 00:05:01 GMT</pubDate>
     </item>
     <item>
       <title>所有 23 位静物画均可用滑翔机建造</title>
       <link>https://mvr.github.io/posts/xs23.html</link>
       <description><![CDATA[文章网址：https://mvr.github.io/posts/xs23.html
 评论网址：https://news.ycombinator.com/item?id=46641239
-积分：16
-# 条评论：0]]></description>
+积分：52
+# 条评论：6]]></description>
       <guid>https://mvr.github.io/posts/xs23.html</guid>
       <pubDate>Thu, 15 Jan 2026 23:59:06 GMT</pubDate>
     </item>
     <item>
-      <title>为什么高级工程师会让糟糕的项目失败</title>
-      <link>https://lalitm.com/post/why-senior-engineers-let-bad-projects-fail/</link>
-      <description><![CDATA[文章网址：https://lalitm.com/post/why-senior-engineers-let-bad-projects-fail/
-评论网址：https://news.ycombinator.com/item?id=46640366
-积分：145
-评论数：108]]></description>
-      <guid>https://lalitm.com/post/why-senior-engineers-let-bad-projects-fail/</guid>
-      <pubDate>Thu, 15 Jan 2026 22:33:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Aviator (YC S21) 正在招聘构建多人人工智能编码平台</title>
-      <link>https://www.ycombinator.com/companies/aviator/jobs</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/aviator/jobs
-评论网址：https://news.ycombinator.com/item?id=46639248
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/aviator/jobs</guid>
-      <pubDate>Thu, 15 Jan 2026 21:00:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过 SSH 的 Linux 盒子：断开连接时暂停</title>
-      <link>https://shellbox.dev/</link>
-      <description><![CDATA[文章网址：https://shellbox.dev/
-评论网址：https://news.ycombinator.com/item?id=46638629
-积分：136
-评论数：86]]></description>
-      <guid>https://shellbox.dev/</guid>
-      <pubDate>Thu, 15 Jan 2026 20:20:13 GMT</pubDate>
+      <title>Tldraw 因 AI 问题暂停外部贡献</title>
+      <link>https://github.com/tldraw/tldraw/issues/7695</link>
+      <description><![CDATA[文章网址：https://github.com/tldraw/tldraw/issues/7695
+评论网址：https://news.ycombinator.com/item?id=46641042
+积分：74
+# 条评论：24]]></description>
+      <guid>https://github.com/tldraw/tldraw/issues/7695</guid>
+      <pubDate>Thu, 15 Jan 2026 23:37:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
