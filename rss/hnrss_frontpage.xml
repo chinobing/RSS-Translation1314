@@ -4,16 +4,63 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 17 Jan 2026 18:29:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 21:20:16 GMT</lastBuildDate>
     <item>
-      <title>地球变暖速度更快。科学家们正在接近原因</title>
-      <link>https://www.economist.com/science-and-technology/2024/12/16/earth-is-warming-faster-scientists-are-closing-in-on-why</link>
-      <description><![CDATA[文章网址：https://www.economist.com/science-and-technology/2024/12/16/earth-is-warming-faster-scientists-are-fitting-in-on-why
-评论网址：https://news.ycombinator.com/item?id=46660134
+      <title>显示 HN：Minikv – Rust 中的分布式键值和对象存储（Raft、S3 API）</title>
+      <link>https://github.com/whispem/minikv</link>
+      <description><![CDATA[嗨 HN，我正在发布 minikv，这是一个 Rust 中的分布式键值和对象存储。什么是 minikv？
+minikv 是一个开源的分布式存储引擎，专为学习、实验和自托管设置而构建。 
+它结合了强一致性键值数据库 (Raft)、S3 兼容的对象存储和基本的多租户。 
+我开始将 minikv 作为一个关于分布式系统的学习项目，后来它发展成为可用于生产且扩展起来很有趣的东西。功能/亮点：- 具有自动故障转移和分片功能的 Raft 共识
+- S3兼容的HTTP API（加上REST/gRPC API）
+- 可插拔存储后端：内存中、RocksDB、Sled
+- 多租户：每租户命名空间、基于角色的访问、配额和审核
+- 指标 (Prometheus)、TLS、基于 JWT 的 API 密钥
+- 易于部署（单个二进制文件，可与 Docker/Kubernetes 配合使用）快速演示（单节点）：git clone https://github.com/whispem/minikv.git
+小型kv光盘
+货物运行 --release -- --config config.example.toml
+卷曲本地主机：8080/health/ready
+# S3上传+读取
+卷曲 -X PUT 本地主机：8080/s3/mybucket/hello -d“嗨 HN”
+curl localhost:8080/s3/mybucket/hello文档、集群设置和架构详细信息位于存储库中。
+我很想听听反馈、问题、想法或您在 Rust 中运行分布式基础设施的故事！存储库：https://github.com/whispem/minikv
+板条箱：https://crates.io/crates/minikv
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46661308
+积分：31
+# 条评论：25]]></description>
+      <guid>https://github.com/whispem/minikv</guid>
+      <pubDate>Sat, 17 Jan 2026 19:39:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI 将在 ChatGPT 中测试广告，因为它消耗了数十亿美元</title>
+      <link>https://arstechnica.com/information-technology/2026/01/openai-to-test-ads-in-chatgpt-as-it-burns-through-billions/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/information-technology/2026/01/openai-to-test-ads-in-chatgpt-as-it-burns-through-billions/
+评论网址：https://news.ycombinator.com/item?id=46661231
+积分：64
+# 条评论：56]]></description>
+      <guid>https://arstechnica.com/information-technology/2026/01/openai-to-test-ads-in-chatgpt-as-it-burns-through-billions/</guid>
+      <pubDate>Sat, 17 Jan 2026 19:31:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>加拿大与中国的协议表明加拿大认真考虑从美国转向</title>
+      <link>https://www.bbc.com/news/articles/cm24k6kk1rko</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cm24k6kk1rko
+评论网址：https://news.ycombinator.com/item?id=46661217
+积分：98
+评论数：88]]></description>
+      <guid>https://www.bbc.com/news/articles/cm24k6kk1rko</guid>
+      <pubDate>Sat, 17 Jan 2026 19:29:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>给我带来快乐的事</title>
+      <link>https://www.stephenlewis.me/blog/the-thing-that-brought-me-joy/</link>
+      <description><![CDATA[文章网址：https://www.stephenlewis.me/blog/the-thing-that-brought-me-joy/
+评论网址：https://news.ycombinator.com/item?id=46660663
 积分：7
-# 条评论：0]]></description>
-      <guid>https://www.economist.com/science-and-technology/2024/12/16/earth-is-warming-faster-scientists-are-closing-in-on-why</guid>
-      <pubDate>Sat, 17 Jan 2026 17:48:06 GMT</pubDate>
+# 条评论：2]]></description>
+      <guid>https://www.stephenlewis.me/blog/the-thing-that-brought-me-joy/</guid>
+      <pubDate>Sat, 17 Jan 2026 18:42:39 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：如果您的菜单栏是键盘控制的命令中心怎么办？</title>
@@ -45,8 +92,8 @@ Ice 需要可访问权限。 ExtraBar 零离线工作
 ProductHunt：https://www.producthunt.com/products/extrabar
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46659943
-积分：16
-# 条评论：3]]></description>
+积分：46
+# 条评论：28]]></description>
       <guid>https://extrabar.app/</guid>
       <pubDate>Sat, 17 Jan 2026 17:31:21 GMT</pubDate>
     </item>
@@ -55,8 +102,8 @@ ProductHunt：https://www.producthunt.com/products/extrabar
       <link>https://www.economist.com/science-and-technology/2026/01/14/2025-was-the-third-hottest-year-on-record</link>
       <description><![CDATA[文章网址：https://www.economist.com/science-and-technology/2026/01/14/2025-was-the-third-hottest-year-on-record
 评论网址：https://news.ycombinator.com/item?id=46659913
-积分：39
-# 条评论：21]]></description>
+积分：159
+# 条评论：130]]></description>
       <guid>https://www.economist.com/science-and-technology/2026/01/14/2025-was-the-third-hottest-year-on-record</guid>
       <pubDate>Sat, 17 Jan 2026 17:29:31 GMT</pubDate>
     </item>
@@ -65,70 +112,40 @@ ProductHunt：https://www.producthunt.com/products/extrabar
       <link>https://www.bbc.com/future/article/20260116-an-elizabethan-mansions-secrets-for-staying-warm</link>
       <description><![CDATA[文章网址：https://www.bbc.com/future/article/20260116-an-elizabethan-mansions-secrets-for-staying-warm
 评论网址：https://news.ycombinator.com/item?id=46659550
-积分：18
-# 条评论：21]]></description>
+积分：62
+# 条评论：68]]></description>
       <guid>https://www.bbc.com/future/article/20260116-an-elizabethan-mansions-secrets-for-staying-warm</guid>
       <pubDate>Sat, 17 Jan 2026 16:53:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>苹果、树和准模</title>
+      <link>https://systemstack.dev/2025/09/humane-computing/</link>
+      <description><![CDATA[文章网址：https://systemstack.dev/2025/09/ humane-computing/
+评论网址：https://news.ycombinator.com/item?id=46659465
+积分：13
+# 条评论：2]]></description>
+      <guid>https://systemstack.dev/2025/09/humane-computing/</guid>
+      <pubDate>Sat, 17 Jan 2026 16:44:45 GMT</pubDate>
     </item>
     <item>
       <title>共振计算宣言</title>
       <link>https://resonantcomputing.org/</link>
       <description><![CDATA[文章网址：https://resonantcomputing.org/
 评论网址：https://news.ycombinator.com/item?id=46659456
-积分：19
-# 条评论：4]]></description>
+积分：35
+评论数量：9]]></description>
       <guid>https://resonantcomputing.org/</guid>
       <pubDate>Sat, 17 Jan 2026 16:43:59 GMT</pubDate>
     </item>
     <item>
-      <title>为什么没有单一的最佳方式来存储信息</title>
+      <title>存储信息没有单一的最佳方法</title>
       <link>https://www.quantamagazine.org/why-theres-no-single-best-way-to-store-information-20260116/</link>
       <description><![CDATA[文章网址：https://www.quantamagazine.org/why-theres-no-single-best-way-to-store-information-20260116/
 评论网址：https://news.ycombinator.com/item?id=46659219
-积分：19
-# 条评论：3]]></description>
+积分：52
+# 条评论：31]]></description>
       <guid>https://www.quantamagazine.org/why-theres-no-single-best-way-to-store-information-20260116/</guid>
       <pubDate>Sat, 17 Jan 2026 16:17:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>意大利调查动视暴雪推动游戏内购的行为</title>
-      <link>https://techcrunch.com/2026/01/16/italy-investigates-activision-blizzard-for-pushing-in-game-purchases/</link>
-      <description><![CDATA[文章网址：https://techcrunch.com/2026/01/16/italy-investigates-activision-blizzard-for-pushing-in-game-purchases/
-评论网址：https://news.ycombinator.com/item?id=46658014
-积分：71
-# 条评论：29]]></description>
-      <guid>https://techcrunch.com/2026/01/16/italy-investigates-activision-blizzard-for-pushing-in-game-purchases/</guid>
-      <pubDate>Sat, 17 Jan 2026 13:44:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>“你好”一词 600 年前的起源</title>
-      <link>https://www.bbc.com/culture/article/20260113-hello-hiya-aloha-what-our-greetings-reveal</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/culture/article/20260113-hello-hiya-aloha-what-our-greetings-reveal
-评论网址：https://news.ycombinator.com/item?id=46657296
-积分：69
-# 条评论：36]]></description>
-      <guid>https://www.bbc.com/culture/article/20260113-hello-hiya-aloha-what-our-greetings-reveal</guid>
-      <pubDate>Sat, 17 Jan 2026 11:51:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>一次性系统的架构</title>
-      <link>https://tuananh.net/2026/01/15/architecture-for-disposable-systems/</link>
-      <description><![CDATA[文章网址：https://tuananh.net/2026/01/15/architecture-for-disposable-systems/
-评论网址：https://news.ycombinator.com/item?id=46657141
-积分：45
-# 条评论：26]]></description>
-      <guid>https://tuananh.net/2026/01/15/architecture-for-disposable-systems/</guid>
-      <pubDate>Sat, 17 Jan 2026 11:18:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>ASCII 字符不是像素：深入探讨 ASCII 渲染</title>
-      <link>https://alexharri.com/blog/ascii-rendering</link>
-      <description><![CDATA[文章网址：https://alexharri.com/blog/ascii-rendering
-评论网址：https://news.ycombinator.com/item?id=46657122
-积分：490
-# 条评论：61]]></description>
-      <guid>https://alexharri.com/blog/ascii-rendering</guid>
-      <pubDate>Sat, 17 Jan 2026 11:15:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
