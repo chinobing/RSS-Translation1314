@@ -4,24 +4,55 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 18 Jan 2026 06:32:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jan 2026 09:22:18 GMT</lastBuildDate>
     <item>
-      <title>我的健身追踪器的无情法则</title>
-      <link>https://timharford.com/2025/10/the-relentless-rule-of-my-fitness-tracker/</link>
-      <description><![CDATA[文章网址：https://timharford.com/2025/10/the-relentless-rule-of-my-fitness-tracker/
-评论网址：https://news.ycombinator.com/item?id=46664771
-积分：12
-# 条评论：3]]></description>
-      <guid>https://timharford.com/2025/10/the-relentless-rule-of-my-fitness-tracker/</guid>
-      <pubDate>Sun, 18 Jan 2026 04:26:29 GMT</pubDate>
+      <title>启动手工软件基金会</title>
+      <link>https://handmade.network/blog/p/9106-welcome_to_2026%2521#30623</link>
+      <description><![CDATA[文章网址：https://handmade.network/blog/p/9106-welcome_to_2026%2521#30623
+评论网址：https://news.ycombinator.com/item?id=46665453
+积分：39
+# 条评论：20]]></description>
+      <guid>https://handmade.network/blog/p/9106-welcome_to_2026%2521#30623</guid>
+      <pubDate>Sun, 18 Jan 2026 07:01:12 GMT</pubDate>
     </item>
     <item>
-      <title>jQuery 4.0.0 发布</title>
+      <title>Iconify：开源图标库</title>
+      <link>https://icon-sets.iconify.design/</link>
+      <description><![CDATA[文章网址：https://icon-sets.iconify.design/
+评论网址：https://news.ycombinator.com/item?id=46665411
+积分：70
+# 条评论：8]]></description>
+      <guid>https://icon-sets.iconify.design/</guid>
+      <pubDate>Sun, 18 Jan 2026 06:53:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：GibRAM 是用于检索的内存中临时 GraphRAG 运行时</title>
+      <link>https://github.com/gibram-io/gibram</link>
+      <description><![CDATA[嗨，HN，我最近一直在处理监管繁重的文件，有件事一直困扰着我。扁平 RAG 管道通常无法一起检索相关文章，即使它们通过引用、定义或子句明确连接起来也是如此。在尝试了几种 RAG 设置后，我主观上认为 GraphRAG 对于此类数据来说是更好的心智模型。 Microsoft GraphRAG 论文和参考实现是有用的起点。然而，在实践中，我发现了一个反复出现的摩擦点：图形存储和向量索引通常由单独的系统处理，这对于短期分析任务来说感觉不必要的繁重。为了探索这种权衡，我构建了 GibRAM（图形缓冲区检索和关联内存）。它是一个实验性的内存中 GraphRAG 运行时，其中实体、关系、文本单元和嵌入在单个进程中并存。GibRAM 故意是短暂的。它专为探索性任务而设计，例如对有界文档集进行摘要或对话查询。数据存在于内存中，由会话限定范围，并通过 TTL 自动清理。没有持久性保证，对于预期用例，重新计算被认为比持久性更便宜。这不是数据库，也不是生产就绪的系统。这是一个休闲项目，主要是 vivi 编码，旨在探索当内存而不是存储成为主要约束时 GraphRAG 的样子。存在技术债务，并且许多权衡都是明确的。该项目是开源的，我非常感谢来自从事 RAG、搜索基础设施或基于图形检索的人员的反馈。GitHub：https://github.com/gibram-io/gibram很高兴回答问题或了解为什么这种方法可能是有缺陷。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46665393
+积分：10
+# 条评论：2]]></description>
+      <guid>https://github.com/gibram-io/gibram</guid>
+      <pubDate>Sun, 18 Jan 2026 06:47:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>思考下一步设计</title>
+      <link>https://thinknextdesign.com/home.html</link>
+      <description><![CDATA[文章网址：https://thinknextdesign.com/home.html
+评论网址：https://news.ycombinator.com/item?id=46665310
+积分：57
+# 条评论：15]]></description>
+      <guid>https://thinknextdesign.com/home.html</guid>
+      <pubDate>Sun, 18 Jan 2026 06:27:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>jQuery 4</title>
       <link>https://blog.jquery.com/2026/01/17/jquery-4-0-0/</link>
       <description><![CDATA[文章网址：https://blog.jquery.com/2026/01/17/jquery-4-0-0/
 评论网址：https://news.ycombinator.com/item?id=46664755
-积分：81
-# 条评论：20]]></description>
+积分：235
+# 条评论：60]]></description>
       <guid>https://blog.jquery.com/2026/01/17/jquery-4-0-0/</guid>
       <pubDate>Sun, 18 Jan 2026 04:23:28 GMT</pubDate>
     </item>
@@ -30,18 +61,18 @@
       <link>https://torrentfreak.com/u-s-court-order-against-annas-archive-spells-more-trouble-for-the-site/</link>
       <description><![CDATA[文章网址：https://torrentfreak.com/u-s-court-order-against-annas-archive-spells-more-trouble-for-the-site/
 评论网址：https://news.ycombinator.com/item?id=46664646
-积分：35
-# 条评论：16]]></description>
+积分：65
+# 条评论：34]]></description>
       <guid>https://torrentfreak.com/u-s-court-order-against-annas-archive-spells-more-trouble-for-the-site/</guid>
       <pubDate>Sun, 18 Jan 2026 03:52:10 GMT</pubDate>
     </item>
     <item>
-      <title>Lopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphiokarab</title>
+      <title>最长的希腊单词</title>
       <link>https://en.wikipedia.org/wiki/Lopado%C2%ADtemacho%C2%ADselacho%C2%ADgaleo%C2%ADkranio%C2%ADleipsano%C2%ADdrim%C2%ADhypo%C2%ADtrimmato%C2%ADsilphio%C2%ADkarabo%C2%ADmelito%C2%ADkatakechy%C2%ADmeno%C2%ADkichl%C2%ADepi%C2%ADkossypho%C2%ADphatto%C2%ADperister%C2%ADalektryon%C2%ADopte%C2%ADkephallio%C2%ADkigklo%C2%ADpeleio%C2%ADlagoio%C2%ADsiraio%C2%ADbaphe%C2%ADtragano%C2%ADpterygon</link>
       <description><![CDATA[文章网址： https://en.wikipedia.org/wiki/Lopado%C2%ADtemacho%C2%ADselacho%C2%ADgaleo%C2%ADkranio%C2%ADleipsano%C2%ADdrim%C2%ADhypo%C2%ADtrimmato%C2%ADsilphio%C2%ADkarabo%C2%ADmelito%C2%ADkatakechy%C2%ADmen o%C2%ADkichl%C2%ADepi%C2%ADkossypho%C2%ADphatto%C2%ADperister%C2%ADalektryon%C2%ADopte%C2%ADkepha llio%C2%ADkigklo%C2%ADpeleio%C2%ADlagoio%C2%ADsiraio%C2%ADbaphe%C2%ADtragano%C2%ADpterygon
 评论网址：https://news.ycombinator.com/item?id=46664638
-积分：57
-# 条评论：22]]></description>
+积分：110
+# 条评论：47]]></description>
       <guid>https://en.wikipedia.org/wiki/Lopado%C2%ADtemacho%C2%ADselacho%C2%ADgaleo%C2%ADkranio%C2%ADleipsano%C2%ADdrim%C2%ADhypo%C2%ADtrimmato%C2%ADsilphio%C2%ADkarabo%C2%ADmelito%C2%ADkatakechy%C2%ADmeno%C2%ADkichl%C2%ADepi%C2%ADkossypho%C2%ADphatto%C2%ADperister%C2%ADalektryon%C2%ADopte%C2%ADkephallio%C2%ADkigklo%C2%ADpeleio%C2%ADlagoio%C2%ADsiraio%C2%ADbaphe%C2%ADtragano%C2%ADpterygon</guid>
       <pubDate>Sun, 18 Jan 2026 03:49:29 GMT</pubDate>
     </item>
@@ -50,8 +81,8 @@
       <link>https://twitter.com/neelsomani/status/2012695714187325745</link>
       <description><![CDATA[文章网址：https://twitter.com/neelsomani/status/2012695714187325745
 评论网址：https://news.ycombinator.com/item?id=46664631
-积分：122
-# 条评论：64]]></description>
+积分：186
+评论数：148]]></description>
       <guid>https://twitter.com/neelsomani/status/2012695714187325745</guid>
       <pubDate>Sun, 18 Jan 2026 03:48:03 GMT</pubDate>
     </item>
@@ -60,8 +91,8 @@
       <link>https://www.anthropic.com/news/accelerating-scientific-research</link>
       <description><![CDATA[文章网址：https://www.anthropic.com/news/acceleating-scientific-research
 评论网址：https://news.ycombinator.com/item?id=46664540
-积分：41
-# 条评论：28]]></description>
+积分：80
+# 条评论：46]]></description>
       <guid>https://www.anthropic.com/news/accelerating-scientific-research</guid>
       <pubDate>Sun, 18 Jan 2026 03:22:52 GMT</pubDate>
     </item>
@@ -70,40 +101,10 @@
       <link>https://www.abelard.org/asimov.php</link>
       <description><![CDATA[文章网址：https://www.abelard.org/asimov.php
 评论网址：https://news.ycombinator.com/item?id=46664195
-积分：26
-# 条评论：4]]></description>
+积分：57
+# 条评论：6]]></description>
       <guid>https://www.abelard.org/asimov.php</guid>
       <pubDate>Sun, 18 Jan 2026 02:17:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>深色模式与浅色模式：哪个更好？</title>
-      <link>https://www.nngroup.com/articles/dark-mode/</link>
-      <description><![CDATA[文章网址：https://www.nngroup.com/articles/dark-mode/
-评论网址：https://news.ycombinator.com/item?id=46664079
-积分：21
-# 条评论：15]]></description>
-      <guid>https://www.nngroup.com/articles/dark-mode/</guid>
-      <pubDate>Sun, 18 Jan 2026 01:55:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>塑造 20 世纪文学的花花公子出版商的一生</title>
-      <link>https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/</link>
-      <description><![CDATA[文章网址：https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/
-评论网址：https://news.ycombinator.com/item?id=46663686
-积分：7
-# 条评论：1]]></description>
-      <guid>https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/</guid>
-      <pubDate>Sun, 18 Jan 2026 00:41:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机系统安全 6.566 / 2024 年春季</title>
-      <link>https://css.csail.mit.edu/6.858/2024/</link>
-      <description><![CDATA[文章网址：https://css.csail.mit.edu/6.858/2024/
-评论网址：https://news.ycombinator.com/item?id=46663507
-积分：64
-评论数量：9]]></description>
-      <guid>https://css.csail.mit.edu/6.858/2024/</guid>
-      <pubDate>Sun, 18 Jan 2026 00:09:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
