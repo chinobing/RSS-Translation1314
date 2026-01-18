@@ -4,148 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 17 Jan 2026 21:20:16 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jan 2026 01:52:26 GMT</lastBuildDate>
     <item>
-      <title>显示 HN：Minikv – Rust 中的分布式键值和对象存储（Raft、S3 API）</title>
-      <link>https://github.com/whispem/minikv</link>
-      <description><![CDATA[嗨 HN，我正在发布 minikv，这是一个 Rust 中的分布式键值和对象存储。什么是 minikv？
-minikv 是一个开源的分布式存储引擎，专为学习、实验和自托管设置而构建。 
-它结合了强一致性键值数据库 (Raft)、S3 兼容的对象存储和基本的多租户。 
-我开始将 minikv 作为一个关于分布式系统的学习项目，后来它发展成为可用于生产且扩展起来很有趣的东西。功能/亮点：- 具有自动故障转移和分片功能的 Raft 共识
-- S3兼容的HTTP API（加上REST/gRPC API）
-- 可插拔存储后端：内存中、RocksDB、Sled
-- 多租户：每租户命名空间、基于角色的访问、配额和审核
-- 指标 (Prometheus)、TLS、基于 JWT 的 API 密钥
-- 易于部署（单个二进制文件，可与 Docker/Kubernetes 配合使用）快速演示（单节点）：git clone https://github.com/whispem/minikv.git
-小型kv光盘
-货物运行 --release -- --config config.example.toml
-卷曲本地主机：8080/health/ready
-# S3上传+读取
-卷曲 -X PUT 本地主机：8080/s3/mybucket/hello -d“嗨 HN”
-curl localhost:8080/s3/mybucket/hello文档、集群设置和架构详细信息位于存储库中。
-我很想听听反馈、问题、想法或您在 Rust 中运行分布式基础设施的故事！存储库：https://github.com/whispem/minikv
-板条箱：https://crates.io/crates/minikv
+      <title>我如何停止参与？</title>
+      <link>https://geohot.github.io//blog/jekyll/update/2026/01/18/how-do-i-stop.html</link>
+      <description><![CDATA[文章网址：https://geohot.github.io//blog/jekyll/update/2026/01/18/how-do-i-stop.html
+评论网址：https://news.ycombinator.com/item?id=46663621
+积分：14
+# 条评论：2]]></description>
+      <guid>https://geohot.github.io//blog/jekyll/update/2026/01/18/how-do-i-stop.html</guid>
+      <pubDate>Sun, 18 Jan 2026 00:30:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>IRISC：ARMv7 汇编解释器和计算机体系结构模拟器</title>
+      <link>https://polysoftit.co.uk/irisc-web/</link>
+      <description><![CDATA[文章网址：https://polysoftit.co.uk/irisc-web/
+评论网址：https://news.ycombinator.com/item?id=46663467
+积分：8
+# 条评论：1]]></description>
+      <guid>https://polysoftit.co.uk/irisc-web/</guid>
+      <pubDate>Sun, 18 Jan 2026 00:05:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>据报道 OpenAI 可能会在 2027 年中期耗尽现金</title>
+      <link>https://www.tomshardware.com/tech-industry/big-tech/openai-could-reportedly-run-out-of-cash-by-mid-2027-nyt-analyst-paints-grim-picture-after-examining-companys-finances</link>
+      <description><![CDATA[文章网址： https://www.tomshardware.com/tech-industry/big-tech/openai-could-reportedly-run-out-of-cash-by-mid-2027-nyt-analyst-paints-grim-picture-after-examining-companys-finances
+评论网址：https://news.ycombinator.com/item?id=46663341
+积分：54
+# 条评论：38]]></description>
+      <guid>https://www.tomshardware.com/tech-industry/big-tech/openai-could-reportedly-run-out-of-cash-by-mid-2027-nyt-analyst-paints-grim-picture-after-examining-companys-finances</guid>
+      <pubDate>Sat, 17 Jan 2026 23:47:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果你把苹果图标倒过来，看起来就像有人擅长设计</title>
+      <link>https://www.threads.com/@heliographe.studio/post/DTeOwAykwQ1</link>
+      <description><![CDATA[文章网址：https://www.threads.com/@heliographe.studio/post/DTeOwAykwQ1
+评论网址：https://news.ycombinator.com/item?id=46663338
+积分：97
+# 条评论：35]]></description>
+      <guid>https://www.threads.com/@heliographe.studio/post/DTeOwAykwQ1</guid>
+      <pubDate>Sat, 17 Jan 2026 23:47:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>光模式 InFFFFFFlation</title>
+      <link>https://willhbr.net/2025/10/20/light-mode-infffffflation/</link>
+      <description><![CDATA[文章网址：https://willhbr.net/2025/10/20/light-mode-infffffflation/
+评论网址：https://news.ycombinator.com/item?id=46662662
+积分：137
+评论数量：92]]></description>
+      <guid>https://willhbr.net/2025/10/20/light-mode-infffffflation/</guid>
+      <pubDate>Sat, 17 Jan 2026 22:19:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：ChunkHound，用于理解大型代码库的本地优先工具</title>
+      <link>https://github.com/chunkhound/chunkhound</link>
+      <description><![CDATA[ChunkHound 的目标很简单：本地优先的代码库智能可以帮助您按需获取深入的、核心开发级别的见解，生成始终最新的文档，并从小型存储库扩展到企业单一存储库 - 同时保持免费 + 开源和与提供商无关（VoyageAI / OpenAI / Qwen3、Anthropic / OpenAI / Gemini / Grok 等）。我很高兴收到您的反馈 - 如果您有反馈，谢谢成为旅程的一部分！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46661308
-积分：31
-# 条评论：25]]></description>
-      <guid>https://github.com/whispem/minikv</guid>
-      <pubDate>Sat, 17 Jan 2026 19:39:36 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=46662078
+积分：44
+# 条评论：5]]></description>
+      <guid>https://github.com/chunkhound/chunkhound</guid>
+      <pubDate>Sat, 17 Jan 2026 21:03:52 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI 将在 ChatGPT 中测试广告，因为它消耗了数十亿美元</title>
-      <link>https://arstechnica.com/information-technology/2026/01/openai-to-test-ads-in-chatgpt-as-it-burns-through-billions/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/information-technology/2026/01/openai-to-test-ads-in-chatgpt-as-it-burns-through-billions/
-评论网址：https://news.ycombinator.com/item?id=46661231
-积分：64
-# 条评论：56]]></description>
-      <guid>https://arstechnica.com/information-technology/2026/01/openai-to-test-ads-in-chatgpt-as-it-burns-through-billions/</guid>
-      <pubDate>Sat, 17 Jan 2026 19:31:15 GMT</pubDate>
+      <title>基于土耳其语语法案例的编程语言</title>
+      <link>https://github.com/kip-dili/kip</link>
+      <description><![CDATA[文章网址：https://github.com/kip-dili/kip
+评论网址：https://news.ycombinator.com/item?id=46661897
+积分：117
+# 条评论：37]]></description>
+      <guid>https://github.com/kip-dili/kip</guid>
+      <pubDate>Sat, 17 Jan 2026 20:44:52 GMT</pubDate>
     </item>
     <item>
-      <title>加拿大与中国的协议表明加拿大认真考虑从美国转向</title>
-      <link>https://www.bbc.com/news/articles/cm24k6kk1rko</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cm24k6kk1rko
-评论网址：https://news.ycombinator.com/item?id=46661217
-积分：98
-评论数：88]]></description>
-      <guid>https://www.bbc.com/news/articles/cm24k6kk1rko</guid>
-      <pubDate>Sat, 17 Jan 2026 19:29:04 GMT</pubDate>
+      <title>Docker.how – Docker 命令备忘单</title>
+      <link>https://docker.how/</link>
+      <description><![CDATA[文章网址：https://docker.how/
+评论网址：https://news.ycombinator.com/item?id=46661630
+积分：39
+# 条评论：12]]></description>
+      <guid>https://docker.how/</guid>
+      <pubDate>Sat, 17 Jan 2026 20:17:49 GMT</pubDate>
     </item>
     <item>
       <title>给我带来快乐的事</title>
       <link>https://www.stephenlewis.me/blog/the-thing-that-brought-me-joy/</link>
       <description><![CDATA[文章网址：https://www.stephenlewis.me/blog/the-thing-that-brought-me-joy/
 评论网址：https://news.ycombinator.com/item?id=46660663
-积分：7
-# 条评论：2]]></description>
+积分：61
+# 条评论：24]]></description>
       <guid>https://www.stephenlewis.me/blog/the-thing-that-brought-me-joy/</guid>
       <pubDate>Sat, 17 Jan 2026 18:42:39 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：如果您的菜单栏是键盘控制的命令中心怎么办？</title>
-      <link>https://extrabar.app/</link>
-      <description><![CDATA[嘿黑客新闻 
-了解我的人都知道我是一个生产力极客。在 DockFlow 管理我的 Dock 和 ExtraDock（它为我提供了更多空间来管理应用程序和文件）之后，我决定解决 macOS 的大难题：菜单栏。我每天大约 40% 的时间都花在应用程序之间的上下文切换上——Zoom 会议、 
-Slack 通道、Code 项目和 Figma 设计。 
-我的 macOS 菜单栏有太多无用的图标，我几乎从不使用。所以我想，如何使用这个区域来改进我的工作流程？大多数解决方案（Bartender、Ice）都需要屏幕录制权限，并没有真正解决我的问题。
-我想要应用程序中的自定义菜单，而不是开发人员为我决定的菜单。经过几次迭代并探索不同的解决方案后，创建了 ExtraBar。
-如果菜单栏成为一个键盘控制的命令中心并具有我需要的操作，而不是仅仅隐藏图标，会怎么样？
-没有权限。没有遥测。只是本地操作。这是 ExtraBar：使用您需要的应用程序和操作设置菜单，并使用热键将其调出，并内置完整的键盘导航。您可以做什么：
-- 通过按键即可跳入您的下一个 Zoom 通话
-- 立即打开特定的 Slack 频道（无需点击菜单）
-- 直接启动 VS Code 项目
-- 触发Apple Shortcuts工作流程
-- 与 Raycast 集成以实现高级自动化
-- 自定义深层链接到 Figma、Spotify 或任何 URL真实示例：我删除了菜单栏图标。一切都是键盘——
-控制：cmd+B → 2（缩放）→ 4（我的个人会议）→ 我参加。为什么不同：调酒师和冰隐藏图标。 ExtraBar 使用您的菜单 
-做事吧。
-调酒师需要屏幕录制权限。
-Ice 需要可访问权限。 ExtraBar 零离线工作 
-权限 -（仅通过可访问权限增强功能，不是必须的）技术：
-- 用 SwiftUI 编写；原生于 Apple Silicon 和 Intel
-- 需要零操作系统权限（增强键盘导航的可选可访问性）
-- 所有数据都存储在本地（无云，无遥测）
-- 非常可定制，可为流行应用程序内置自定义配置+完全可定制的配置操作。
-- 导入/导出操作配置该应用程序每周都会根据社区反馈进行改进。 
-我们还在构建配置共享，以便用户可以共享设置。已经从 Reddit 和 Producthunt 获得了一些很好的反馈，我迫不及待地想得到您的反馈！查看网站：https://extrabar.app
-ProductHunt：https://www.producthunt.com/products/extrabar
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46659943
-积分：46
-# 条评论：28]]></description>
-      <guid>https://extrabar.app/</guid>
-      <pubDate>Sat, 17 Jan 2026 17:31:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025 年是有记录以来第三个最热的年份</title>
-      <link>https://www.economist.com/science-and-technology/2026/01/14/2025-was-the-third-hottest-year-on-record</link>
-      <description><![CDATA[文章网址：https://www.economist.com/science-and-technology/2026/01/14/2025-was-the-third-hottest-year-on-record
-评论网址：https://news.ycombinator.com/item?id=46659913
-积分：159
-# 条评论：130]]></description>
-      <guid>https://www.economist.com/science-and-technology/2026/01/14/2025-was-the-third-hottest-year-on-record</guid>
-      <pubDate>Sat, 17 Jan 2026 17:29:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>伊丽莎白时代豪宅的保暖秘诀</title>
-      <link>https://www.bbc.com/future/article/20260116-an-elizabethan-mansions-secrets-for-staying-warm</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/future/article/20260116-an-elizabethan-mansions-secrets-for-staying-warm
-评论网址：https://news.ycombinator.com/item?id=46659550
-积分：62
-# 条评论：68]]></description>
-      <guid>https://www.bbc.com/future/article/20260116-an-elizabethan-mansions-secrets-for-staying-warm</guid>
-      <pubDate>Sat, 17 Jan 2026 16:53:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>苹果、树和准模</title>
-      <link>https://systemstack.dev/2025/09/humane-computing/</link>
-      <description><![CDATA[文章网址：https://systemstack.dev/2025/09/ humane-computing/
-评论网址：https://news.ycombinator.com/item?id=46659465
-积分：13
-# 条评论：2]]></description>
-      <guid>https://systemstack.dev/2025/09/humane-computing/</guid>
-      <pubDate>Sat, 17 Jan 2026 16:44:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>共振计算宣言</title>
-      <link>https://resonantcomputing.org/</link>
-      <description><![CDATA[文章网址：https://resonantcomputing.org/
-评论网址：https://news.ycombinator.com/item?id=46659456
-积分：35
-评论数量：9]]></description>
-      <guid>https://resonantcomputing.org/</guid>
-      <pubDate>Sat, 17 Jan 2026 16:43:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>存储信息没有单一的最佳方法</title>
-      <link>https://www.quantamagazine.org/why-theres-no-single-best-way-to-store-information-20260116/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/why-theres-no-single-best-way-to-store-information-20260116/
-评论网址：https://news.ycombinator.com/item?id=46659219
-积分：52
-# 条评论：31]]></description>
-      <guid>https://www.quantamagazine.org/why-theres-no-single-best-way-to-store-information-20260116/</guid>
-      <pubDate>Sat, 17 Jan 2026 16:17:58 GMT</pubDate>
+      <title>筹集资金搞砸了我</title>
+      <link>https://blog.yakkomajuri.com/blog/raising-money-fucked-me-up</link>
+      <description><![CDATA[文章网址：https://blog.yakkomajuri.com/blog/raise-money-fucked-me-up
+评论网址：https://news.ycombinator.com/item?id=46660543
+积分：109
+# 条评论：34]]></description>
+      <guid>https://blog.yakkomajuri.com/blog/raising-money-fucked-me-up</guid>
+      <pubDate>Sat, 17 Jan 2026 18:29:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
