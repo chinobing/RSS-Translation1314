@@ -4,126 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 18 Jan 2026 04:06:43 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jan 2026 06:32:48 GMT</lastBuildDate>
     <item>
-      <title>Show HN：用于 Ghostty 终端配置的直观 TUI</title>
-      <link>https://github.com/intaek-h/ghofig</link>
-      <description><![CDATA[- 比 Ghostty Docs 更直观的视图
-- 直接编辑配置，无需打开新的文本编辑器
-- 按名称或描述搜索
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46664666
+      <title>考古学家发现已知最古老的贝壳珠（2021 年）</title>
+      <link>https://leakeyfoundation.org/archaeologists-find-the-oldest-known-shell-beads/</link>
+      <description><![CDATA[文章网址：https://leakeyfoundation.org/archaeologies-find-the-oldest-known-shell-beads/
+评论网址：https://news.ycombinator.com/item?id=46665313
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/intaek-h/ghofig</guid>
-      <pubDate>Sun, 18 Jan 2026 03:57:45 GMT</pubDate>
+      <guid>https://leakeyfoundation.org/archaeologists-find-the-oldest-known-shell-beads/</guid>
+      <pubDate>Sun, 18 Jan 2026 06:28:02 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：自我保管医疗记录原型（经验教训）</title>
-      <link>https://github.com/Mzhvnn-tch/sehati-apps</link>
-      <description><![CDATA[您好，HN，我构建了一个早期原型，探索自我保管医疗记录是否可以在实践中发挥作用，使用加密证明，而不将敏感的健康数据放在链上。我正在测试的问题是印度尼西亚的医疗数据碎片化，患者记录在医院之间是孤立的，并且在紧急情况下通常不可用。区块链仅用作不可变的审计层；即使链条发生变化，该系统也能正常工作。关键设计选择：
-- 链上没有医疗数据（仅散列，用于验证和审计）
-- 所有记录均在链下加密
-- 患者通过基于二维码的共享控制访问（医生不接触加密货币）
-- 区块链被视为验证层，而不是存储到目前为止学到的经验教训：
-- 医院不会运行区块链基础设施
-- 医生不会管理私钥
-- 用户体验比密码学更重要
-- 密钥恢复比预期更难
-- 法规尽早塑造架构这还没有做好生产准备，还没有解决法规、密钥恢复或医院互操作性问题。我主要寻找关键反馈：
-- 这种方法存在根本缺陷
-- 我应该考虑哪些更简单的设计
-- 医疗保健从业者的现实检查回购协议和技术细节位于自述文件中。
-很高兴回答问题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46664651
+      <title>ThinkPad的精神</title>
+      <link>https://thinknextdesign.com/home.html</link>
+      <description><![CDATA[文章网址：https://thinknextdesign.com/home.html
+评论网址：https://news.ycombinator.com/item?id=46665310
+积分：1
+# 条评论：0]]></description>
+      <guid>https://thinknextdesign.com/home.html</guid>
+      <pubDate>Sun, 18 Jan 2026 06:27:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>对 ESP32-C3 Wi-Fi 驱动程序进行逆向工程以进行静态最坏情况分析</title>
+      <link>https://arxiv.org/abs/2501.17684</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2501.17684
+评论网址：https://news.ycombinator.com/item?id=46665309
+积分：1
+# 条评论：0]]></description>
+      <guid>https://arxiv.org/abs/2501.17684</guid>
+      <pubDate>Sun, 18 Jan 2026 06:27:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>FragCut – 人工智能可在几分钟内将游戏流变成病毒式的 TikTok/Shorts 剪辑</title>
+      <link>https://fragcut.io</link>
+      <description><![CDATA[文章网址：https://fragcut.io
+评论网址：https://news.ycombinator.com/item?id=46665298
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/Mzhvnn-tch/sehati-apps</guid>
-      <pubDate>Sun, 18 Jan 2026 03:53:19 GMT</pubDate>
+      <guid>https://fragcut.io</guid>
+      <pubDate>Sun, 18 Jan 2026 06:24:35 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Hekate – 克服内存墙的零拷贝 ZK 引擎</title>
-      <link>https://news.ycombinator.com/item?id=46664650</link>
-      <description><![CDATA[大多数 ZK 证明系统都针对具有大容量 RAM 的服务器级硬件进行了优化。当扩展到工业规模的跟踪（2^20+行）时，它们经常会遇到“内存墙”，其中分配和数据移动成为比实际计算更大的瓶颈。我一直在开发 Hekate，这是一个用 Rust 编写的 ZK 引擎，它利用零复制流模型和混合平铺评估器。为了测试其极限，我使用 Keccak-256 在 Apple M3 Max 笔记本电脑上对 Binius64 进行了头对头基准测试。结果凸显了显着的架构差异：在 2^15 行处：Binius64 更快（147ms vs 202ms），但 Hekate 的内存效率已经提高了 10 倍（44MB vs ~400MB）。在 2^20 行处： Binius64 的 RAM 使用量达到 72GB，在笔记本电脑上进入交换地狱。 Hekate 仅使用 1.4GB RAM 在 4.74 秒内处理相同的工作负载。在 2^24 行（1670 万步）时：Hekate 在 88 秒内完成，峰值 RAM 为 21.5GB。由于该硬件上的 OOM/Swap，Binius64 无法完成任务。核心区别在于“物化与流式处理”。虽然许多引擎在 Sumcheck 和 PCS 操作期间在 RAM 中实现并复制大量多项式，但 Hekate 将它们通过切片中的 CPU 缓存进行流式传输。这将 ZK 证明的单位经济效益从 2.00 美元/小时的高内存云实例转变为 0.10 美元/小时的商用硬件或本地边缘设备。我正在寻求社区的反馈，特别是那些致力于二进制字段、GKR 和内存受限的 SNARK/STARK 实现的反馈。
+      <title>聊天、保存和博客</title>
+      <link>https://chatblogr.com</link>
+      <description><![CDATA[文章网址：https://chatblogr.com
+评论网址：https://news.ycombinator.com/item?id=46665227
+积分：1
+# 条评论：0]]></description>
+      <guid>https://chatblogr.com</guid>
+      <pubDate>Sun, 18 Jan 2026 06:07:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>具有内置分析功能的美学 Bento 微型网站</title>
+      <link>https://news.ycombinator.com/item?id=46665213</link>
+      <description><![CDATA[我们刚刚解决了您最大的销售问题。您知道什么会扼杀交易吗？摩擦。您发送了一份提案。美丽的甲板。花了你三个小时。然后您发送案例研究。单独的链接。然后定价。另一个链接。然后是演示视频。第四个链接。您的潜在客户淹没在链接中。他们的一半？从来没有打开过。你的交易？死在水里。这是我们的做法我们建立了微型网站。一个链接。你所有的材料。他们需要说“是”的一切。不再有“嘿，你收到我的包含价格的电子邮件了吗？”不再想知道他们实际查看的是哪个文件。不再有交易因为在收件箱中找不到您的案例研究而终止。一个链接就足以完成一笔交易您可以将所有内容（提案、案例研究、定价、视频等）捆绑到一个专业页面中。一个链接。就是这样。他们点击一次。他们看到了一切。干净的。专业的。没有干扰。你可以看到他们所做的一切。他们打开了什么。他们读什么。他们忽略了什么。当他们回来时。这就是力量。你不再猜测了。你知道。他们花了 8 分钟来定价？打电话给他们。他们跳过了你的案例研究？送更好的。他们转发给三个人？您的交易刚刚开始。实时情报。真正的钱。谁需要这个？销售代表完成交易——将你的提案与证据捆绑在一起。创始人筹集资金——平台、财务、团队简介、一个链接。自由职业者登陆客户——投资组合、推荐、定价，完成。任何厌倦了因为潜在客户找不到你该死的文件而失去交易的人。尝试一下吧现在https://www.sendnow.live点击“创建微型网站”。将您的文件拖入。需要 90 秒。在咖啡变冷之前，您将获得一个专业的、可跟踪的链接。在您的下一个提案中使用它。观察会发生什么。观察他们实际参与。观察您的收盘价攀升。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46664650
+评论网址：https://news.ycombinator.com/item?id=46665213
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46664650</guid>
-      <pubDate>Sun, 18 Jan 2026 03:52:48 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46665213</guid>
+      <pubDate>Sun, 18 Jan 2026 06:05:02 GMT</pubDate>
     </item>
     <item>
-      <title>美国法院针对安娜档案馆的命令给该网站带来了更多麻烦</title>
-      <link>https://torrentfreak.com/u-s-court-order-against-annas-archive-spells-more-trouble-for-the-site/</link>
-      <description><![CDATA[文章网址：https://torrentfreak.com/u-s-court-order-against-annas-archive-spells-more-trouble-for-the-site/
-评论网址：https://news.ycombinator.com/item?id=46664646
+      <title>人工智能的未来会怎样——来自塑造人工智能的人们</title>
+      <link>https://www.nature.com/immersive/d41586-025-03701-5/index.html</link>
+      <description><![CDATA[文章网址：https://www.nature.com/immersive/d41586-025-03701-5/index.html
+评论网址：https://news.ycombinator.com/item?id=46665212
 积分：1
 # 条评论：0]]></description>
-      <guid>https://torrentfreak.com/u-s-court-order-against-annas-archive-spells-more-trouble-for-the-site/</guid>
-      <pubDate>Sun, 18 Jan 2026 03:52:10 GMT</pubDate>
+      <guid>https://www.nature.com/immersive/d41586-025-03701-5/index.html</guid>
+      <pubDate>Sun, 18 Jan 2026 06:04:42 GMT</pubDate>
     </item>
     <item>
-      <title>Lopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphiokarab</title>
-      <link>https://en.wikipedia.org/wiki/Lopado%C2%ADtemacho%C2%ADselacho%C2%ADgaleo%C2%ADkranio%C2%ADleipsano%C2%ADdrim%C2%ADhypo%C2%ADtrimmato%C2%ADsilphio%C2%ADkarabo%C2%ADmelito%C2%ADkatakechy%C2%ADmeno%C2%ADkichl%C2%ADepi%C2%ADkossypho%C2%ADphatto%C2%ADperister%C2%ADalektryon%C2%ADopte%C2%ADkephallio%C2%ADkigklo%C2%ADpeleio%C2%ADlagoio%C2%ADsiraio%C2%ADbaphe%C2%ADtragano%C2%ADpterygon</link>
-      <description><![CDATA[文章网址： https://en.wikipedia.org/wiki/Lopado%C2%ADtemacho%C2%ADselacho%C2%ADgaleo%C2%ADkranio%C2%ADleipsano%C2%ADdrim%C2%ADhypo%C2%ADtrimmato%C2%ADsilphio%C2%ADkarabo%C2%ADmelito%C2%ADkatakechy%C2%ADmen o%C2%ADkichl%C2%ADepi%C2%ADkossypho%C2%ADphatto%C2%ADperister%C2%ADalektryon%C2%ADopte%C2%ADkepha llio%C2%ADkigklo%C2%ADpeleio%C2%ADlagoio%C2%ADsiraio%C2%ADbaphe%C2%ADtragano%C2%ADpterygon
-评论网址：https://news.ycombinator.com/item?id=46664638
-积分：3
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Lopado%C2%ADtemacho%C2%ADselacho%C2%ADgaleo%C2%ADkranio%C2%ADleipsano%C2%ADdrim%C2%ADhypo%C2%ADtrimmato%C2%ADsilphio%C2%ADkarabo%C2%ADmelito%C2%ADkatakechy%C2%ADmeno%C2%ADkichl%C2%ADepi%C2%ADkossypho%C2%ADphatto%C2%ADperister%C2%ADalektryon%C2%ADopte%C2%ADkephallio%C2%ADkigklo%C2%ADpeleio%C2%ADlagoio%C2%ADsiraio%C2%ADbaphe%C2%ADtragano%C2%ADpterygon</guid>
-      <pubDate>Sun, 18 Jan 2026 03:49:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 ChatGPT 5.2 Pro 解决了鄂尔多斯 281</title>
-      <link>https://twitter.com/neelsomani/status/2012695714187325745</link>
-      <description><![CDATA[文章网址：https://twitter.com/neelsomani/status/2012695714187325745
-评论网址：https://news.ycombinator.com/item?id=46664631
+      <title>失去知觉或死亡！黑客如何夺取计算手段（2024）</title>
+      <link>https://www.youtube.com/watch?v=4EmstuO0Em8</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=4EmstuO0Em8
+评论网址：https://news.ycombinator.com/item?id=46665207
 积分：1
-# 条评论：0]]></description>
-      <guid>https://twitter.com/neelsomani/status/2012695714187325745</guid>
-      <pubDate>Sun, 18 Jan 2026 03:48:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>克劳德在经理的日程安排上编码</title>
-      <link>https://news.ycombinator.com/item?id=46664621</link>
-      <description><![CDATA[你们中的许多人都会熟悉 pg 的“创客日程，经理日程”：https://paulgraham.com/makersschedule.html让我印象深刻的是，使用 Claude Code 的一天的主要变化之一是，在创客的日程中，我的工作不必是固定的焦点。我可以给代理分配任务，去做其他事情，然后在我想要的时候再回来，事情就完成了。测试一下，处理下一个任务，然后去吃点零食。重复。有什么东西丢失了吗？当然，您不会对代码有那么深入的了解。但并非所有代码都需要这样。有些事情你可以委托。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46664621
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46664621</guid>
-      <pubDate>Sun, 18 Jan 2026 03:44:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：LLM 的一些规则是什么？</title>
-      <link>https://news.ycombinator.com/item?id=46664613</link>
-      <description><![CDATA[我一直看到和听到的最可靠的一个是：“这不是 X。这是 Y。”或“这不是 X。这是 Y。”此外，当某些内容被人类拼写错误（例如“IOUS”）并被合成数字孪生错误地“读”为“I O U S”而不是“IOUs”时。有时某个单词的重音不正确。我希望这些陈词滥调能保留下来，因为它们至少提醒我注意草率编辑的人工智能。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46664613
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46664613</guid>
-      <pubDate>Sun, 18 Jan 2026 03:42:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>Windows XP 下设备上的 TLS 剥离</title>
-      <link>https://kianbradley.com/2024/01/14/tls-on-xp.html</link>
-      <description><![CDATA[文章网址：https://kianbradley.com/2024/01/14/tls-on-xp.html
-评论网址：https://news.ycombinator.com/item?id=46664576
-积分：3
 # 条评论：1]]></description>
-      <guid>https://kianbradley.com/2024/01/14/tls-on-xp.html</guid>
-      <pubDate>Sun, 18 Jan 2026 03:31:27 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=4EmstuO0Em8</guid>
+      <pubDate>Sun, 18 Jan 2026 06:03:49 GMT</pubDate>
     </item>
     <item>
-      <title>香港著名股东活动家 David Webb 去世，享年 60 岁</title>
-      <link>https://www.seattletimes.com/business/david-webb-prominent-hong-kong-shareholder-activist-dies-at-60/</link>
-      <description><![CDATA[文章网址：https://www.seattletimes.com/business/david-webb-prominent-hong-kong-shareholder-activist-dies-at-60/
-评论网址：https://news.ycombinator.com/item?id=46664570
-积分：2
+      <title>“他是个白痴”：马斯克和瑞安航空的奥利里在星链 Wi-Fi 行中进行贸易侮辱</title>
+      <link>https://www.politico.eu/article/elon-musk-ryanair-chief-michael-oleary-trade-insults-starlink-spat-war-wi-fi-row/</link>
+      <description><![CDATA[文章网址：https://www.politico.eu/article/elon-musk-ryanair-chief-michael-oleary-trade-insults-starlink-spat-war-wi-fi-row/
+评论网址：https://news.ycombinator.com/item?id=46665201
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.seattletimes.com/business/david-webb-prominent-hong-kong-shareholder-activist-dies-at-60/</guid>
-      <pubDate>Sun, 18 Jan 2026 03:30:38 GMT</pubDate>
+      <guid>https://www.politico.eu/article/elon-musk-ryanair-chief-michael-oleary-trade-insults-starlink-spat-war-wi-fi-row/</guid>
+      <pubDate>Sun, 18 Jan 2026 06:02:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何在 Docker 中使用 Claude Code Pro 订阅</title>
+      <link>https://foldr.uk/claude-code-pro-subscription-docker/</link>
+      <description><![CDATA[文章网址：https://foldr.uk/claude-code-pro-subscription-docker/
+评论网址：https://news.ycombinator.com/item?id=46665200
+积分：1
+# 条评论：0]]></description>
+      <guid>https://foldr.uk/claude-code-pro-subscription-docker/</guid>
+      <pubDate>Sun, 18 Jan 2026 06:01:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
