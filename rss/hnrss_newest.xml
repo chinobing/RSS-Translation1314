@@ -4,107 +4,126 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 18 Jan 2026 01:52:39 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jan 2026 04:06:43 GMT</lastBuildDate>
     <item>
-      <title>双子座推出个人智能</title>
-      <link>https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence/</link>
-      <description><![CDATA[文章网址：https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence/
-评论网址：https://news.ycombinator.com/item?id=46664012
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence/</guid>
-      <pubDate>Sun, 18 Jan 2026 01:46:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>预测</title>
-      <link>https://secondthoughts.my/posts/projects/forecats/</link>
-      <description><![CDATA[文章网址：https://secondthoughts.my/posts/projects/forecats/
-评论网址：https://news.ycombinator.com/item?id=46663977
-积分：1
-# 条评论：0]]></description>
-      <guid>https://secondthoughts.my/posts/projects/forecats/</guid>
-      <pubDate>Sun, 18 Jan 2026 01:38:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic 的克劳德代码和自主编码工具的兴起</title>
-      <link>https://www.wsj.com/tech/ai/anthropic-claude-code-ai-7a46460e</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/tech/ai/anthropic-claude-code-ai-7a46460e
-评论网址：https://news.ycombinator.com/item?id=46663970
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.wsj.com/tech/ai/anthropic-claude-code-ai-7a46460e</guid>
-      <pubDate>Sun, 18 Jan 2026 01:37:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>告诉 HN：YouTube 禁用了高级字幕，并将其从旧视频中删除</title>
-      <link>https://news.ycombinator.com/item?id=46663969</link>
-      <description><![CDATA[Youtube 支持几种基本的视频字幕形式，但最高级的形式来自其 YTT / SRV3 文件格式。此格式支持任何其他字幕格式所不可用的选项。这包括粗体/斜体/下划线、文本和背景框的自定义颜色和透明度、轮廓和阴影、替代字体和字体大小、视频上任何位置的精确定位、亚洲语言的垂直文本和红宝石文本。 （列表取自这篇有用的用户报告帖子：https://www.reddit.com/r/youtube/comments/1qdvgmc/uploading_srv3_subtitles_got_brokendisabled/）使用此格式是必要的，可以生成与屏幕上的实际文本匹配的字幕并本地替换它，生成颜色匹配多个不同扬声器的字幕，以便轻松识别，等等。一些使用示例包括（针对这些视频的恐怖电影内容警告）：https://www.youtube.com/watch?v=eHcHjcV8SNY - “无意识安魂曲”，其中字幕闪烁并改变颜色以匹配屏幕上闪烁和展开的文本https://www.youtube.com/watch?v=3iUgKH8c7p4 - “立即重试”，其中字幕样式与屏幕上的视觉小说文本框中出现的对话框用户现在报告提交带有高级字幕的视频不起作用。这不仅仅是为新视频禁用它 - 一些用户现在报告旧视频的自定义字幕被删除，包括观看次数超过 1000 万次的视频。希望此更改能够恢复，但您应该从您希望保留的任何视频中下载字幕。
+      <title>Show HN：用于 Ghostty 终端配置的直观 TUI</title>
+      <link>https://github.com/intaek-h/ghofig</link>
+      <description><![CDATA[- 比 Ghostty Docs 更直观的视图
+- 直接编辑配置，无需打开新的文本编辑器
+- 按名称或描述搜索
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46663969
-积分：2
+评论网址：https://news.ycombinator.com/item?id=46664666
+积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46663969</guid>
-      <pubDate>Sun, 18 Jan 2026 01:37:06 GMT</pubDate>
+      <guid>https://github.com/intaek-h/ghofig</guid>
+      <pubDate>Sun, 18 Jan 2026 03:57:45 GMT</pubDate>
     </item>
     <item>
-      <title>我创建了一个 MCP，可以让 AI 调试运行时代码（断点、单步执行等）</title>
-      <link>https://github.com/ai-debugger-inc/aidb</link>
-      <description><![CDATA[文章网址：https://github.com/ai-debugger-inc/aidb
-评论网址：https://news.ycombinator.com/item?id=46663942
+      <title>Show HN：自我保管医疗记录原型（经验教训）</title>
+      <link>https://github.com/Mzhvnn-tch/sehati-apps</link>
+      <description><![CDATA[您好，HN，我构建了一个早期原型，探索自我保管医疗记录是否可以在实践中发挥作用，使用加密证明，而不将敏感的健康数据放在链上。我正在测试的问题是印度尼西亚的医疗数据碎片化，患者记录在医院之间是孤立的，并且在紧急情况下通常不可用。区块链仅用作不可变的审计层；即使链条发生变化，该系统也能正常工作。关键设计选择：
+- 链上没有医疗数据（仅散列，用于验证和审计）
+- 所有记录均在链下加密
+- 患者通过基于二维码的共享控制访问（医生不接触加密货币）
+- 区块链被视为验证层，而不是存储到目前为止学到的经验教训：
+- 医院不会运行区块链基础设施
+- 医生不会管理私钥
+- 用户体验比密码学更重要
+- 密钥恢复比预期更难
+- 法规尽早塑造架构这还没有做好生产准备，还没有解决法规、密钥恢复或医院互操作性问题。我主要寻找关键反馈：
+- 这种方法存在根本缺陷
+- 我应该考虑哪些更简单的设计
+- 医疗保健从业者的现实检查回购协议和技术细节位于自述文件中。
+很高兴回答问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46664651
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/ai-debugger-inc/aidb</guid>
-      <pubDate>Sun, 18 Jan 2026 01:31:50 GMT</pubDate>
+      <guid>https://github.com/Mzhvnn-tch/sehati-apps</guid>
+      <pubDate>Sun, 18 Jan 2026 03:53:19 GMT</pubDate>
     </item>
     <item>
-      <title>Batmobile：用于等变图神经网络的 CUDA 内核速度提高 10-20 倍</title>
-      <link>https://elliotarledge.com/blog/batmobile</link>
-      <description><![CDATA[文章网址：https://elliotarledge.com/blog/batmobile
-评论网址：https://news.ycombinator.com/item?id=46663931
+      <title>Show HN：Hekate – 克服内存墙的零拷贝 ZK 引擎</title>
+      <link>https://news.ycombinator.com/item?id=46664650</link>
+      <description><![CDATA[大多数 ZK 证明系统都针对具有大容量 RAM 的服务器级硬件进行了优化。当扩展到工业规模的跟踪（2^20+行）时，它们经常会遇到“内存墙”，其中分配和数据移动成为比实际计算更大的瓶颈。我一直在开发 Hekate，这是一个用 Rust 编写的 ZK 引擎，它利用零复制流模型和混合平铺评估器。为了测试其极限，我使用 Keccak-256 在 Apple M3 Max 笔记本电脑上对 Binius64 进行了头对头基准测试。结果凸显了显着的架构差异：在 2^15 行处：Binius64 更快（147ms vs 202ms），但 Hekate 的内存效率已经提高了 10 倍（44MB vs ~400MB）。在 2^20 行处： Binius64 的 RAM 使用量达到 72GB，在笔记本电脑上进入交换地狱。 Hekate 仅使用 1.4GB RAM 在 4.74 秒内处理相同的工作负载。在 2^24 行（1670 万步）时：Hekate 在 88 秒内完成，峰值 RAM 为 21.5GB。由于该硬件上的 OOM/Swap，Binius64 无法完成任务。核心区别在于“物化与流式处理”。虽然许多引擎在 Sumcheck 和 PCS 操作期间在 RAM 中实现并复制大量多项式，但 Hekate 将它们通过切片中的 CPU 缓存进行流式传输。这将 ZK 证明的单位经济效益从 2.00 美元/小时的高内存云实例转变为 0.10 美元/小时的商用硬件或本地边缘设备。我正在寻求社区的反馈，特别是那些致力于二进制字段、GKR 和内存受限的 SNARK/STARK 实现的反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46664650
 积分：1
 # 条评论：0]]></description>
-      <guid>https://elliotarledge.com/blog/batmobile</guid>
-      <pubDate>Sun, 18 Jan 2026 01:29:42 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46664650</guid>
+      <pubDate>Sun, 18 Jan 2026 03:52:48 GMT</pubDate>
     </item>
     <item>
-      <title>OPDS – 电子文档的开放联合标准</title>
-      <link>https://en.wikipedia.org/wiki/Open_Publication_Distribution_System</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Open_Publication_Distribution_System
-评论网址：https://news.ycombinator.com/item?id=46663900
+      <title>美国法院针对安娜档案馆的命令给该网站带来了更多麻烦</title>
+      <link>https://torrentfreak.com/u-s-court-order-against-annas-archive-spells-more-trouble-for-the-site/</link>
+      <description><![CDATA[文章网址：https://torrentfreak.com/u-s-court-order-against-annas-archive-spells-more-trouble-for-the-site/
+评论网址：https://news.ycombinator.com/item?id=46664646
 积分：1
 # 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Open_Publication_Distribution_System</guid>
-      <pubDate>Sun, 18 Jan 2026 01:23:26 GMT</pubDate>
+      <guid>https://torrentfreak.com/u-s-court-order-against-annas-archive-spells-more-trouble-for-the-site/</guid>
+      <pubDate>Sun, 18 Jan 2026 03:52:10 GMT</pubDate>
     </item>
     <item>
-      <title>将 OpenRouter 与 Anthropic Agent SDK 结合使用</title>
-      <link>https://openrouter.ai/docs/guides/community/anthropic-agent-sdk</link>
-      <description><![CDATA[文章网址：https://openrouter.ai/docs/guides/community/anthropic-agent-sdk
-评论网址：https://news.ycombinator.com/item?id=46663891
-积分：2
+      <title>Lopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphiokarab</title>
+      <link>https://en.wikipedia.org/wiki/Lopado%C2%ADtemacho%C2%ADselacho%C2%ADgaleo%C2%ADkranio%C2%ADleipsano%C2%ADdrim%C2%ADhypo%C2%ADtrimmato%C2%ADsilphio%C2%ADkarabo%C2%ADmelito%C2%ADkatakechy%C2%ADmeno%C2%ADkichl%C2%ADepi%C2%ADkossypho%C2%ADphatto%C2%ADperister%C2%ADalektryon%C2%ADopte%C2%ADkephallio%C2%ADkigklo%C2%ADpeleio%C2%ADlagoio%C2%ADsiraio%C2%ADbaphe%C2%ADtragano%C2%ADpterygon</link>
+      <description><![CDATA[文章网址： https://en.wikipedia.org/wiki/Lopado%C2%ADtemacho%C2%ADselacho%C2%ADgaleo%C2%ADkranio%C2%ADleipsano%C2%ADdrim%C2%ADhypo%C2%ADtrimmato%C2%ADsilphio%C2%ADkarabo%C2%ADmelito%C2%ADkatakechy%C2%ADmen o%C2%ADkichl%C2%ADepi%C2%ADkossypho%C2%ADphatto%C2%ADperister%C2%ADalektryon%C2%ADopte%C2%ADkepha llio%C2%ADkigklo%C2%ADpeleio%C2%ADlagoio%C2%ADsiraio%C2%ADbaphe%C2%ADtragano%C2%ADpterygon
+评论网址：https://news.ycombinator.com/item?id=46664638
+积分：3
 # 条评论：0]]></description>
-      <guid>https://openrouter.ai/docs/guides/community/anthropic-agent-sdk</guid>
-      <pubDate>Sun, 18 Jan 2026 01:21:48 GMT</pubDate>
+      <guid>https://en.wikipedia.org/wiki/Lopado%C2%ADtemacho%C2%ADselacho%C2%ADgaleo%C2%ADkranio%C2%ADleipsano%C2%ADdrim%C2%ADhypo%C2%ADtrimmato%C2%ADsilphio%C2%ADkarabo%C2%ADmelito%C2%ADkatakechy%C2%ADmeno%C2%ADkichl%C2%ADepi%C2%ADkossypho%C2%ADphatto%C2%ADperister%C2%ADalektryon%C2%ADopte%C2%ADkephallio%C2%ADkigklo%C2%ADpeleio%C2%ADlagoio%C2%ADsiraio%C2%ADbaphe%C2%ADtragano%C2%ADpterygon</guid>
+      <pubDate>Sun, 18 Jan 2026 03:49:29 GMT</pubDate>
     </item>
     <item>
-      <title>Google Now 默认不为您的内容编制索引 (2024)</title>
-      <link>https://www.vincentschmalbach.com/google-now-defaults-to-not-indexing-your-content/</link>
-      <description><![CDATA[文章网址：https://www.vincentschmalbach.com/google-now-defaults-to-not-indexing-your-content/
-评论网址：https://news.ycombinator.com/item?id=46663889
+      <title>使用 ChatGPT 5.2 Pro 解决了鄂尔多斯 281</title>
+      <link>https://twitter.com/neelsomani/status/2012695714187325745</link>
+      <description><![CDATA[文章网址：https://twitter.com/neelsomani/status/2012695714187325745
+评论网址：https://news.ycombinator.com/item?id=46664631
 积分：1
+# 条评论：0]]></description>
+      <guid>https://twitter.com/neelsomani/status/2012695714187325745</guid>
+      <pubDate>Sun, 18 Jan 2026 03:48:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>克劳德在经理的日程安排上编码</title>
+      <link>https://news.ycombinator.com/item?id=46664621</link>
+      <description><![CDATA[你们中的许多人都会熟悉 pg 的“创客日程，经理日程”：https://paulgraham.com/makersschedule.html让我印象深刻的是，使用 Claude Code 的一天的主要变化之一是，在创客的日程中，我的工作不必是固定的焦点。我可以给代理分配任务，去做其他事情，然后在我想要的时候再回来，事情就完成了。测试一下，处理下一个任务，然后去吃点零食。重复。有什么东西丢失了吗？当然，您不会对代码有那么深入的了解。但并非所有代码都需要这样。有些事情你可以委托。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46664621
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=46664621</guid>
+      <pubDate>Sun, 18 Jan 2026 03:44:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：LLM 的一些规则是什么？</title>
+      <link>https://news.ycombinator.com/item?id=46664613</link>
+      <description><![CDATA[我一直看到和听到的最可靠的一个是：“这不是 X。这是 Y。”或“这不是 X。这是 Y。”此外，当某些内容被人类拼写错误（例如“IOUS”）并被合成数字孪生错误地“读”为“I O U S”而不是“IOUs”时。有时某个单词的重音不正确。我希望这些陈词滥调能保留下来，因为它们至少提醒我注意草率编辑的人工智能。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46664613
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=46664613</guid>
+      <pubDate>Sun, 18 Jan 2026 03:42:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Windows XP 下设备上的 TLS 剥离</title>
+      <link>https://kianbradley.com/2024/01/14/tls-on-xp.html</link>
+      <description><![CDATA[文章网址：https://kianbradley.com/2024/01/14/tls-on-xp.html
+评论网址：https://news.ycombinator.com/item?id=46664576
+积分：3
 # 条评论：1]]></description>
-      <guid>https://www.vincentschmalbach.com/google-now-defaults-to-not-indexing-your-content/</guid>
-      <pubDate>Sun, 18 Jan 2026 01:21:43 GMT</pubDate>
+      <guid>https://kianbradley.com/2024/01/14/tls-on-xp.html</guid>
+      <pubDate>Sun, 18 Jan 2026 03:31:27 GMT</pubDate>
     </item>
     <item>
-      <title>Serpl – 一个令人愉快的 TUI，用于正则表达式和固定字符串搜索和替换</title>
-      <link>https://github.com/yassinebridi/serpl</link>
-      <description><![CDATA[文章网址：https://github.com/yassinebridi/serpl
-评论网址：https://news.ycombinator.com/item?id=46663873
+      <title>香港著名股东活动家 David Webb 去世，享年 60 岁</title>
+      <link>https://www.seattletimes.com/business/david-webb-prominent-hong-kong-shareholder-activist-dies-at-60/</link>
+      <description><![CDATA[文章网址：https://www.seattletimes.com/business/david-webb-prominent-hong-kong-shareholder-activist-dies-at-60/
+评论网址：https://news.ycombinator.com/item?id=46664570
 积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/yassinebridi/serpl</guid>
-      <pubDate>Sun, 18 Jan 2026 01:18:14 GMT</pubDate>
+      <guid>https://www.seattletimes.com/business/david-webb-prominent-hong-kong-shareholder-activist-dies-at-60/</guid>
+      <pubDate>Sun, 18 Jan 2026 03:30:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
