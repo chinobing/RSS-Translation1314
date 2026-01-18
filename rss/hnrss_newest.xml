@@ -4,117 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 18 Jan 2026 12:40:47 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jan 2026 15:21:39 GMT</lastBuildDate>
     <item>
-      <title>AIVO标准和AI依赖治理层</title>
-      <link>https://zenodo.org/records/18289687</link>
-      <description><![CDATA[文章网址：https://zenodo.org/records/18289687
-评论网址：https://news.ycombinator.com/item?id=46667348
-积分：1
-# 条评论：0]]></description>
-      <guid>https://zenodo.org/records/18289687</guid>
-      <pubDate>Sun, 18 Jan 2026 12:37:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>避免数据库设计和系统图中的扇形陷阱</title>
-      <link>https://www.ilograph.com/blog/posts/avoid-fan-traps-in-system-diagrams/</link>
-      <description><![CDATA[文章网址：https://www.ilograph.com/blog/posts/avoid-fan-traps-in-system-diagrams/
-评论网址：https://news.ycombinator.com/item?id=46667336
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.ilograph.com/blog/posts/avoid-fan-traps-in-system-diagrams/</guid>
-      <pubDate>Sun, 18 Jan 2026 12:34:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Claude Threads – 通过 Slack/Mattermost 协作处理 Claude 代码</title>
-      <link>https://claude-threads.run</link>
-      <description><![CDATA[我希望我的团队开始使用 Claude Code，但不想让每个人都进行设置。开始通过管道输出到 Mattermost（以及后来的 Slack），以便人们可以观看。最终构建了更多内容：并行的多个会话（每个会话都在一个线程中，因此得名）、使用表情符号批准来自其他用户的消息、批准文件写入、附加图像/文件、每个线程的工作树。它在您的计算机上运行。我使用自己构建了其中的大部分内容。观看直播的队友捕捉到了我错过的东西。https://claude-threads.run
-https://github.com/anneschuth/claude-threads
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46667317
-积分：1
-# 条评论：0]]></description>
-      <guid>https://claude-threads.run</guid>
-      <pubDate>Sun, 18 Jan 2026 12:32:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：ArchitectGBT MCP：AI 辅助开发的智能模型选择</title>
-      <link>https://github.com/3rdbrain/architectgbt-mcp</link>
-      <description><![CDATA[我构建了 ArchitectGBT MCP，这是一个模型上下文协议服务器，可以为您的编码任务实时推荐正确的 AI 模型 - 直接集成到 Claude Desktop、Cursor 和 Windsurf 中。问题：
-现在有 10 多个可用的前沿模型（Claude Opus/Sonnet/Haiku、GPT-5/4o、Gemini 2.5、DeepSeek 等），开发人员花费认知负荷和代币来猜测使用哪一个。正确的样板模型与调试所需的模型不同。但测试两者的成本很高。解决方案：轻量级 MCP 服务器，使用任务感知启发法立即推荐最佳模型，基于：任务类型：重构、调试、架构、样板文件、逻辑繁重的工作性能指标：速度与功能权衡成本效率：正确调整模型大小主要功能：无缝集成到您的编辑器工作流程（Claude Desktop、 Cursor、Windsurf）单行安装：npx archivegbt-mcp跨 8 个以上 AI 模型的特定于任务的建议开源，MIT 许可安装：json
-{
-  “architectgbt-mcp”：{
-    “命令”：“npx”，
-    “args”：[“architectgbt-mcp”]
-  }
-}为什么重要：模型上下文协议正在成为 AI 工具的标准（请参阅：Windsurf 的架构）随着 Anthropic、OpenAI、Google 和其他公司每月发布模型，拥有自动模型选择的顾问将提高生产力开发人员可以专注于编码，而不是针对要使用的 AI 提供程序/模型进行超参数调整GitHub：3rdbrain/architectgbt-mcp将不胜感激HN 社区对此领域的用例、改进或相关问题的反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46667311
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/3rdbrain/architectgbt-mcp</guid>
-      <pubDate>Sun, 18 Jan 2026 12:31:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>价值 5000 欧元的瑞士相机，零电子产品</title>
-      <link>https://www.alpa.swiss</link>
-      <description><![CDATA[文章网址：https://www.alpa.swiss
-评论网址：https://news.ycombinator.com/item?id=46667277
+      <title>开源 NSFW 检测（ViT 和 DistilBERT），AUC 为 99%</title>
+      <link>https://huggingface.co/acaciabengo</link>
+      <description><![CDATA[文章网址：https://huggingface.co/acaciabengo
+评论网址：https://news.ycombinator.com/item?id=46668474
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.alpa.swiss</guid>
-      <pubDate>Sun, 18 Jan 2026 12:26:41 GMT</pubDate>
+      <guid>https://huggingface.co/acaciabengo</guid>
+      <pubDate>Sun, 18 Jan 2026 15:18:02 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：RqLui – 用 Quasar 编写的 Rqlite 的免费开源 WebUI</title>
-      <link>https://github.com/Suleman-Elahi/rqLui</link>
-      <description><![CDATA[Rqlite 数据库几乎没有完全免费的 UI，所以我构建了一个。它是 Vivi 编码的，但我是一名全栈开发人员，并且使用 AI 来更快地构建它以供我个人使用，因为我经常使用 Rqlite。请随意尝试留下建议/反馈。谢谢。
+      <title>光谱揭示了环形星云内部的铁棒</title>
+      <link>https://academic.oup.com/mnras/article/546/1/staf2139/8425243?login=false</link>
+      <description><![CDATA[文章网址：https://academic.oup.com/mnras/article/546/1/staf2139/8425243?login=false
+评论网址：https://news.ycombinator.com/item?id=46668472
+积分：1
+# 条评论：0]]></description>
+      <guid>https://academic.oup.com/mnras/article/546/1/staf2139/8425243?login=false</guid>
+      <pubDate>Sun, 18 Jan 2026 15:17:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：VelinScript 2.5 – 用于 AI-API 开发的现代语言</title>
+      <link>https://github.com/SkyliteDesign/velinscript</link>
+      <description><![CDATA[VelinScript (Velisch) 2.5 是专为 AI-API 开发而设计的下一代编程语言。目标是将现代高级语言的简单性与 Rust 的性能和可预测性相结合，同时提供用于构建生产级 API 的完整工具链。2.5 中的新增功能：重新设计的编译器管道内置对以 AI 为中心的工作流程的支持具有自动回滚功能的基于流程的执行模型自动文档和自动测试装饰器不断增长的 API 和数据任务标准库改进REPL 和开发人员工具跨平台安装程序（Windows、Linux、macOS）VelinScript 注重开发人员体验：快速迭代、清晰的语法以及适用于实际后端和 AI 工作负载的强大工具。如果您对新语言、API 设计或 AI 驱动的开发感兴趣，非常欢迎提供反馈。GitHub：https://github.com/SkyliteDesign/velinscript
+文档：https://velinscript.birdapi.de/docs
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46667266
+评论网址：https://news.ycombinator.com/item?id=46668466
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/Suleman-Elahi/rqLui</guid>
-      <pubDate>Sun, 18 Jan 2026 12:25:07 GMT</pubDate>
+      <guid>https://github.com/SkyliteDesign/velinscript</guid>
+      <pubDate>Sun, 18 Jan 2026 15:17:21 GMT</pubDate>
     </item>
     <item>
-      <title>生火——经典朗读</title>
-      <link>https://classicsreadaloud.substack.com/p/to-build-a-fire</link>
-      <description><![CDATA[文章网址：https://classicsreadaloud.substack.com/p/to-build-a-fire
-评论网址：https://news.ycombinator.com/item?id=46667262
+      <title>Radxa Dragon Q6A 是一款基于 Arm 的单板 PC，支持 Windows 和 Linux</title>
+      <link>https://liliputing.com/radxa-dragon-q6a-is-an-arm-based-single-board-pc-with-windows-and-linux-support/</link>
+      <description><![CDATA[文章网址：https://liliputing.com/radxa-dragon-q6a-is-an-arm-based-single-board-pc-with-windows-and-linux-support/
+评论网址：https://news.ycombinator.com/item?id=46668431
 积分：1
 # 条评论：0]]></description>
-      <guid>https://classicsreadaloud.substack.com/p/to-build-a-fire</guid>
-      <pubDate>Sun, 18 Jan 2026 12:24:38 GMT</pubDate>
+      <guid>https://liliputing.com/radxa-dragon-q6a-is-an-arm-based-single-board-pc-with-windows-and-linux-support/</guid>
+      <pubDate>Sun, 18 Jan 2026 15:14:09 GMT</pubDate>
     </item>
     <item>
-      <title>科学课程的人工智能代理</title>
-      <link>https://agents4science.github.io/Class/curriculum.html</link>
-      <description><![CDATA[文章网址：https://agents4science.github.io/Class/curriculum.html
-评论网址：https://news.ycombinator.com/item?id=46667243
-积分：1
+      <title>克劳德正在席卷人工智能世界，即使是非书呆子也被震撼了</title>
+      <link>https://www.wsj.com/tech/ai/anthropic-claude-code-ai-7a46460e</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/tech/ai/anthropic-claude-code-ai-7a46460e
+评论网址：https://news.ycombinator.com/item?id=46668424
+积分：2
 # 条评论：0]]></description>
-      <guid>https://agents4science.github.io/Class/curriculum.html</guid>
-      <pubDate>Sun, 18 Jan 2026 12:21:19 GMT</pubDate>
+      <guid>https://www.wsj.com/tech/ai/anthropic-claude-code-ai-7a46460e</guid>
+      <pubDate>Sun, 18 Jan 2026 15:12:51 GMT</pubDate>
     </item>
     <item>
-      <title>氡衰变产物会被合成纤维制成的衣服吸引[pdf]</title>
-      <link>https://web.archive.org/web/20240717061107/https://www.nrc.gov/docs/ML1117/ML111720789.pdf</link>
-      <description><![CDATA[文章网址： https://web.archive.org/web/20240717061107/https://www.nrc.gov/docs/ML1117/ML111720789.pdf
-评论网址：https://news.ycombinator.com/item?id=46667236
+      <title>为什么科技界认为美国梦正在消亡</title>
+      <link>https://www.wsj.com/tech/ai/why-the-tech-world-thinks-the-american-dream-is-dying-daf793dc</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/tech/ai/why-the-tech-world-thinks-the-american-dream-is-dying-daf793dc
+评论网址：https://news.ycombinator.com/item?id=46668394
 积分：1
 # 条评论：0]]></description>
-      <guid>https://web.archive.org/web/20240717061107/https://www.nrc.gov/docs/ML1117/ML111720789.pdf</guid>
-      <pubDate>Sun, 18 Jan 2026 12:19:34 GMT</pubDate>
+      <guid>https://www.wsj.com/tech/ai/why-the-tech-world-thinks-the-american-dream-is-dying-daf793dc</guid>
+      <pubDate>Sun, 18 Jan 2026 15:09:37 GMT</pubDate>
     </item>
     <item>
-      <title>构建 TUI 来索引和搜索我的编码代理会话</title>
-      <link>https://stanislas.blog/2026/01/tui-index-search-coding-agent-sessions/</link>
-      <description><![CDATA[文章网址：https://stanislas.blog/2026/01/tui-index-search-coding-agent-sessions/
-评论网址：https://news.ycombinator.com/item?id=46667177
+      <title>海洋破坏使气候变化的成本几乎翻倍</title>
+      <link>https://insideclimatenews.org/news/15012026/ocean-damage-nearly-doubles-the-cost-of-climate-change/</link>
+      <description><![CDATA[文章网址：https://insideclimatenews.org/news/15012026/ocean-damage-nearly-doubles-the-cost-of-climate-change/
+评论网址：https://news.ycombinator.com/item?id=46668391
 积分：1
 # 条评论：0]]></description>
-      <guid>https://stanislas.blog/2026/01/tui-index-search-coding-agent-sessions/</guid>
-      <pubDate>Sun, 18 Jan 2026 12:11:43 GMT</pubDate>
+      <guid>https://insideclimatenews.org/news/15012026/ocean-damage-nearly-doubles-the-cost-of-climate-change/</guid>
+      <pubDate>Sun, 18 Jan 2026 15:09:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>虚拟现实检查后，Meta 退出虚拟宇宙</title>
+      <link>https://www.theregister.com/2026/01/16/meta_quest_horizon_workrooms/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2026/01/16/meta_quest_horizon_workrooms/
+评论网址：https://news.ycombinator.com/item?id=46668388
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.theregister.com/2026/01/16/meta_quest_horizon_workrooms/</guid>
+      <pubDate>Sun, 18 Jan 2026 15:09:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>超越魔多经济</title>
+      <link>https://thehonestsorcerer.substack.com/p/beyond-the-mordor-economy</link>
+      <description><![CDATA[文章网址：https://thehonestsorcerer.substack.com/p/beyond-the-mordor-economy
+评论网址：https://news.ycombinator.com/item?id=46668380
+积分：1
+# 条评论：0]]></description>
+      <guid>https://thehonestsorcerer.substack.com/p/beyond-the-mordor-economy</guid>
+      <pubDate>Sun, 18 Jan 2026 15:08:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>去他妈的订阅，使用 Gmail API 终生批量发送电子邮件</title>
+      <link>https://godsend.email</link>
+      <description><![CDATA[文章网址：https://godsend.email
+评论网址：https://news.ycombinator.com/item?id=46668357
+积分：1
+# 条评论：0]]></description>
+      <guid>https://godsend.email</guid>
+      <pubDate>Sun, 18 Jan 2026 15:06:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
