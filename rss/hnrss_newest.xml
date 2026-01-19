@@ -4,107 +4,137 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 18 Jan 2026 21:20:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 01:51:48 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Beats，一款基于网络的鼓机</title>
-      <link>https://beats.lasagna.pizza</link>
-      <description><![CDATA[大家好！自从我发现 Teenage Engineering 的 Pocket Operators 以来，我一直是它们的狂热粉丝。我什至拥有一台 EP-133 K.O.今天，我很喜欢。几个月前，Reddit 用户 andiam03 分享了一份包含一些鼓模式的 Google 表格 [1]。我认为这是分享和理解节拍的一种非常酷的方式。在周末，我编写了今天分享的这个应用程序的基本版本。我在空闲时间迭代了它，昨天我觉得我有一个非常好的版本可以与大家分享。它并不是一个音序器，而是一种尝试节拍和基本声音、保存它们并在歌曲中使用它们的方法。它还具有带有链接的共享功能。它是使用 Tone.js [2]、Stimulus [3] 构建的，并作为静态网站部署在 Render [4] 中。我使用 LLM 阅读 Tone.js 文档并生成声音，因为我对声音制作一无所知，并从那里进行了修改。无论如何，希望你喜欢它！我很高兴构建它。[0]：https://teenage.engineering[1]：https://docs.google.com/spreadsheets/d/1GMRWxEqcZGdBzJg52soe...[2]：https://tonejs.github.io[3]：https://stimulus.hotwired.dev[4]：http://render.com
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46672181
+      <title>美人鱼作为人工智能代理的编程语言</title>
+      <link>https://twitter.com/xiaoxxchan/status/2011825791408226618</link>
+      <description><![CDATA[文章网址：https://twitter.com/xiaoxxchan/status/2011825791408226618
+评论网址：https://news.ycombinator.com/item?id=46674136
 积分：1
 # 条评论：0]]></description>
-      <guid>https://beats.lasagna.pizza</guid>
-      <pubDate>Sun, 18 Jan 2026 21:10:08 GMT</pubDate>
+      <guid>https://twitter.com/xiaoxxchan/status/2011825791408226618</guid>
+      <pubDate>Mon, 19 Jan 2026 01:40:54 GMT</pubDate>
     </item>
     <item>
-      <title>不要说谎</title>
-      <link>https://notes.philippdubach.com/0007</link>
-      <description><![CDATA[文章网址：https://notes.philippdubach.com/0007
-评论网址：https://news.ycombinator.com/item?id=46672165
+      <title>Show HN:N.codes – 让用户在您的应用程序中生成迷你应用程序</title>
+      <link>https://news.ycombinator.com/item?id=46674120</link>
+      <description><![CDATA[嘿 HN，我一直在研究 n.codes，这是一个开源框架，可让最终用户使用自然语言提示在您的应用程序中生成自己的 UI。问题：每个 SaaS 团队都淹没在功能请求中。大多数并不复杂，只是现有数据的不同安排：“向我显示需要批准的超过 500 美元的退款”、“导出此报告以进行会计格式化”、“批量存档这些记录。”后端已经可以做到这一点。瓶颈是通过 UI 公开功能。它是如何工作的：
+  1. 读取您的组件 (React/Vue) 以了解可用的 UI 原语和样式
+  2. 根据 API、模式和文档构建功能图
+  3. 当用户提示时，在您的应用中使用现有 API 和组件生成沙盒 UI。它不适用于营销页面或复杂流程。它适用于 80% 的内部工具，这些工具只是 CRUD、仪表板和工作流程。当前状态：早期阶段。架构已定义，核心功能映射已开始工作。在构建完整的运行时之前寻求反馈。寻求以下方面的反馈：
+  - 这能解决您遇到的实际问题吗？
+  - 什么会让您信任生产应用程序中生成的 UI？ （沙箱模型、权限、审计跟踪？）
+  - 我应该学习类似的方法？GitHub：https://github.com/yungookim/n.codes
+网站：https://n.codes
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46674120
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=46674120</guid>
+      <pubDate>Mon, 19 Jan 2026 01:37:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：PixelMotion：使用 Sora 2、Veo 3.1 和其他 9 个型号生成 AI 视频</title>
+      <link>https://www.pixelmotion.io/</link>
+      <description><![CDATA[嗨，HN！我构建 PixelMotion 是为了解决作为内容创建者遇到的问题：在尝试扩展时使用太多工具。堆栈：
+- 前端：Next.js 15 + React 19 + TailwindCSS
+- 后端：Express.js + PostgreSQL + Sequelize
+- AI：复制、FAL AI、OpenAI API
+- 视频模型：Sora 2、Veo 3.1、Luma Ray2、Runway Gen-3、Kling、Hailuo 2.3 等
+- 存储：Google 云存储有何不同：
+1. 所有 11 个优质视频模型集中在一处（不再需要在服务之间切换）
+2. 内置客户发现——寻找直接推销的企业
+3. 直接发布到 YouTube、TikTok、Instagram乐于回答有关架构或 AI 模型集成的任何技术问题。尝试一下：7 天免费试用，无需信用卡。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46674100
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.pixelmotion.io/</guid>
+      <pubDate>Mon, 19 Jan 2026 01:34:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>特斯拉调查其自动驾驶技术是否造成交通违规</title>
+      <link>https://www.latimes.com/business/story/2026-01-16/tesla-is-probing-if-its-self-driving-technology-caused-thousands-of-traffic-violations</link>
+      <description><![CDATA[文章网址： https://www.latimes.com/business/story/2026-01-16/tesla-is-probing-if-its-self-driven-technology-caused-thousands-of-traffic-violations
+评论网址：https://news.ycombinator.com/item?id=46674097
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.latimes.com/business/story/2026-01-16/tesla-is-probing-if-its-self-driving-technology-caused-thousands-of-traffic-violations</guid>
+      <pubDate>Mon, 19 Jan 2026 01:34:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>我为电子商务产品图像生成构建了一个合适的用户界面（聊天无法扩展）</title>
+      <link>https://aimockupgenerator.co/</link>
+      <description><![CDATA[文章网址：https://aimockupgenerator.co/
+评论网址：https://news.ycombinator.com/item?id=46674093
+积分：1
+# 条评论：1]]></description>
+      <guid>https://aimockupgenerator.co/</guid>
+      <pubDate>Mon, 19 Jan 2026 01:34:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：我们可以用实际的 Git 问题替换职位描述吗？</title>
+      <link>https://news.ycombinator.com/item?id=46674086</link>
+      <description><![CDATA[您好，HN，我正在探索一个概念来解决“职位描述”和“实际工作”之间的脱节。问题：
+公司通常会带着特定的意图进行招聘（例如，“我们需要有人来解决我们遗留的支付同步问题”），但当这个问题到达 JD 时，它就变成了一个通用的关键字汤：“必须拥有 5 年以上的 Java、微服务......”假设：
+招聘是为了解决问题。那么我们为什么不使用问题本身作为 JD？建议的工作流程：输入 = 问题上下文（公共或私有）：
+招聘经理无需编写 JD，而是从问题跟踪器（GitHub、Jira 等）中选择一组实际任务/问题。示例（开源）：“这是问题 #123（内存泄漏）。给我找一个解决了类似复杂性的人。”
+示例（企业）：“这是一个有关高并发数据库锁定的已解决任务。我们需要另一个人来处理这种级别的工作。”
+愿景：这可以通过 API 或 MCP（模型上下文协议）服务器来安全地获取任务上下文（代码差异、讨论和复杂性指标）来完成。
+比赛：
+我们将此“问题向量”与候选人的“活动向量”（源自他们的 git 日志或贡献历史记录）进行比较。结果：“候选人 X 的匹配率达到 90%，因为他们最近在 Rust 中重构了一个类似的异步队列系统，这与输入问题的复杂性相一致。”
+隐私挑战（房间里的大象）：
+为了使其在企业（私人存储库）中发挥作用，隐私至关重要。我正在考虑一个本地化的提取层，其中“问题上下文”在发送到 LLM 进行分析之前会被清理（删除 PII/秘密）。目标是提取问题的模式，而不是专有代码本身。
+我的问题：
+我首先为公共 GitHub 用例构建一个原型。
+但对于那些在企业招聘的人来说：您会信任一个可以解析您的内部问题上下文（已清理）以生成精确的候选人需求概况的工具吗？我相信这种“基于任务的招聘”比“简历解析”更公平，但我很好奇您认为这个模型在哪里失败了。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46674086
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=46674086</guid>
+      <pubDate>Mon, 19 Jan 2026 01:33:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gemini 研究 MCP 服务器</title>
+      <link>https://github.com/fortaine/gemini-research-mcp</link>
+      <description><![CDATA[文章网址：https://github.com/fortaine/gemini-research-mcp
+评论网址：https://news.ycombinator.com/item?id=46674070
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/fortaine/gemini-research-mcp</guid>
+      <pubDate>Mon, 19 Jan 2026 01:30:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>新框架提出时空作为一种新兴的不可逆信息过程</title>
+      <link>https://zenodo.org/records/17911993</link>
+      <description><![CDATA[文章网址：https://zenodo.org/records/17911993
+评论网址：https://news.ycombinator.com/item?id=46674020
+积分：1
+# 条评论：2]]></description>
+      <guid>https://zenodo.org/records/17911993</guid>
+      <pubDate>Mon, 19 Jan 2026 01:25:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Webship.dev – 自定义 Web 系统、遗留代码和性能</title>
+      <link>https://webship.dev/</link>
+      <description><![CDATA[网站使用自己的网络管理系统创建，无需任何外部工具。纯代码，没有混乱。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46674011
+积分：1
+# 条评论：0]]></description>
+      <guid>https://webship.dev/</guid>
+      <pubDate>Mon, 19 Jan 2026 01:24:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Disqus 但使用 GitHub。很酷的主意</title>
+      <link>https://giscus.app/</link>
+      <description><![CDATA[文章网址：https://giscus.app/
+评论网址：https://news.ycombinator.com/item?id=46673999
 积分：2
 # 条评论：0]]></description>
-      <guid>https://notes.philippdubach.com/0007</guid>
-      <pubDate>Sun, 18 Jan 2026 21:07:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>警方投资数百万美元购买神秘电话追踪软件，但未透露其用途</title>
-      <link>https://www.texasobserver.org/texas-police-invest-tangles-sheriff-surveillance/</link>
-      <description><![CDATA[文章网址：https://www.texasobserver.org/texas-police-invest-tangles-sheriff-surveillance/
-评论网址：https://news.ycombinator.com/item?id=46672150
-积分：3
-# 条评论：1]]></description>
-      <guid>https://www.texasobserver.org/texas-police-invest-tangles-sheriff-surveillance/</guid>
-      <pubDate>Sun, 18 Jan 2026 21:05:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>代理应该编写代码，而不是 JSON</title>
-      <link>https://blog.sshh.io/p/building-multi-agent-systems-part-c0c</link>
-      <description><![CDATA[文章网址：https://blog.sshh.io/p/building-multi-agent-systems-part-c0c
-评论网址：https://news.ycombinator.com/item?id=46672148
-积分：1
-# 条评论：1]]></description>
-      <guid>https://blog.sshh.io/p/building-multi-agent-systems-part-c0c</guid>
-      <pubDate>Sun, 18 Jan 2026 21:05:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>我召开站立会议的方式（2024）</title>
-      <link>https://marcgg.com/blog/2024/11/20/standup/</link>
-      <description><![CDATA[文章网址：https://marcgg.com/blog/2024/11/20/standup/
-评论网址：https://news.ycombinator.com/item?id=46672144
-积分：1
-# 条评论：0]]></description>
-      <guid>https://marcgg.com/blog/2024/11/20/standup/</guid>
-      <pubDate>Sun, 18 Jan 2026 21:04:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>我通过振动编码进入 Highload.fun 排行榜上的第一名</title>
-      <link>https://josusanmartin.com/blog/2026/01/18/the-game-has-changed-vibecoded-highload.html</link>
-      <description><![CDATA[文章网址：https://josusanmartin.com/blog/2026/01/18/the-game-has-changed-vibecoded-highload.html
-评论网址：https://news.ycombinator.com/item?id=46672143
-积分：1
-# 条评论：0]]></description>
-      <guid>https://josusanmartin.com/blog/2026/01/18/the-game-has-changed-vibecoded-highload.html</guid>
-      <pubDate>Sun, 18 Jan 2026 21:04:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>模拟瓢虫时钟拼图</title>
-      <link>https://austinhenley.com/blog/ladybugclock.html</link>
-      <description><![CDATA[文章网址：https://austinhenley.com/blog/ladybugclock.html
-评论网址：https://news.ycombinator.com/item?id=46672132
-积分：1
-# 条评论：0]]></description>
-      <guid>https://austinhenley.com/blog/ladybugclock.html</guid>
-      <pubDate>Sun, 18 Jan 2026 21:03:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>从头开始编写法学硕士，第 31 部分 – 模型现已出现在 Hugging Face 上</title>
-      <link>https://www.gilesthomas.com/2026/01/llm-from-scratch-31-models-on-hugging-face</link>
-      <description><![CDATA[文章网址：https://www.gilesthomas.com/2026/01/llm-from-scratch-31-models-on-hugging-face
-评论网址：https://news.ycombinator.com/item?id=46672128
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.gilesthomas.com/2026/01/llm-from-scratch-31-models-on-hugging-face</guid>
-      <pubDate>Sun, 18 Jan 2026 21:02:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>我为 Django 创建了一个游戏引擎？</title>
-      <link>https://en.andros.dev/blog/6e9e4485/i-created-a-game-engine-for-django/</link>
-      <description><![CDATA[文章网址：https://en.andros.dev/blog/6e9e4485/i-created-a-game-engine-for-django/
-评论网址：https://news.ycombinator.com/item?id=46672123
-积分：1
-# 条评论：0]]></description>
-      <guid>https://en.andros.dev/blog/6e9e4485/i-created-a-game-engine-for-django/</guid>
-      <pubDate>Sun, 18 Jan 2026 21:02:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>ISS SOS：离开注定失败的空间站的计划——快速</title>
-      <link>https://www.bbc.com/future/article/20260115-how-do-you-evacuate-a-space-station</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/future/article/20260115-how-do-you-evacuate-a-space-station
-评论网址：https://news.ycombinator.com/item?id=46672092
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.bbc.com/future/article/20260115-how-do-you-evacuate-a-space-station</guid>
-      <pubDate>Sun, 18 Jan 2026 20:58:50 GMT</pubDate>
+      <guid>https://giscus.app/</guid>
+      <pubDate>Mon, 19 Jan 2026 01:21:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
