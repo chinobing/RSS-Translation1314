@@ -4,106 +4,118 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 19 Jan 2026 06:39:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 09:36:00 GMT</lastBuildDate>
     <item>
-      <title>扩展长时间运行的自主编码</title>
-      <link>https://simonwillison.net/2026/Jan/19/scaling-long-running-autonomous-coding/</link>
-      <description><![CDATA[文章网址：https://simonwillison.net/2026/Jan/19/scaling-long-running-autonomous-coding/
-评论网址：https://news.ycombinator.com/item?id=46675637
-积分：1
-# 条评论：0]]></description>
-      <guid>https://simonwillison.net/2026/Jan/19/scaling-long-running-autonomous-coding/</guid>
-      <pubDate>Mon, 19 Jan 2026 06:31:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>在您自己的模型上运行 Cursor、Claude Code、Codex 等 AI 工具</title>
-      <link>https://github.com/Fast-Editor/Lynkr</link>
-      <description><![CDATA[文章网址：https://github.com/Fast-Editor/Lynkr
-评论网址：https://news.ycombinator.com/item?id=46675635
+      <title>显示 HN：可视化数据库架构设计器（Angular 21 和 .NET 10）</title>
+      <link>https://dbvisualdesigner.com</link>
+      <description><![CDATA[嗨，HN，OP。我构建这个是因为我对数据库设计工具的当前状态感到沮丧。它们通常是重型企业桌面应用程序（如 DataGrip/Workbench）或不导出可用代码的简单绘图工具。我希望在浏览器中获得“类似 VS Code”的体验：深色模式、严格打字和即时视觉反馈。技术堆栈相当激进：
+- 前端：Angular 21（最新）。我专门使用 Signals 进行图形状态管理，以处理 100 多个节点，而不会造成布局抖动。
+- 后端：.NET 10，用于 DDL 生成和架构验证。当前功能：
+- 可视化表/列编辑器。
+- 拖放关系（1:N 处理）。
+- 导出到 PostgreSQL DDL（Entity Framework Core 导出即将推出）。这是一个 MVP，所以我正在寻找有关图形交互和 UI 感觉的反馈。“类似 IDE”的布局适合您执行此类任务吗？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46676815
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/Fast-Editor/Lynkr</guid>
-      <pubDate>Mon, 19 Jan 2026 06:31:30 GMT</pubDate>
+      <guid>https://dbvisualdesigner.com</guid>
+      <pubDate>Mon, 19 Jan 2026 09:32:52 GMT</pubDate>
     </item>
     <item>
-      <title>可视化管理克劳德代码</title>
-      <link>https://github.com/Nearcyan/vibecraft</link>
-      <description><![CDATA[文章网址：https://github.com/Nearcyan/vibecraft
-评论网址：https://news.ycombinator.com/item?id=46675634
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/Nearcyan/vibecraft</guid>
-      <pubDate>Mon, 19 Jan 2026 06:31:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>数组是函数吗？</title>
-      <link>https://futhark-lang.org/blog/2026-01-16-are-arrays-functions.html</link>
-      <description><![CDATA[文章网址：https://futhark-lang.org/blog/2026-01-16-are-arrays-functions.html
-评论网址：https://news.ycombinator.com/item?id=46675630
-积分：1
-# 条评论：0]]></description>
-      <guid>https://futhark-lang.org/blog/2026-01-16-are-arrays-functions.html</guid>
-      <pubDate>Mon, 19 Jan 2026 06:30:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能同事</title>
-      <link>https://coworkai.app/</link>
-      <description><![CDATA[文章网址：https://coworkai.app/
-评论网址：https://news.ycombinator.com/item?id=46675628
-积分：1
-# 条评论：0]]></description>
-      <guid>https://coworkai.app/</guid>
-      <pubDate>Mon, 19 Jan 2026 06:30:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：预测市场优势指数</title>
-      <link>https://www.oddpool.com/dominance</link>
-      <description><![CDATA[文章网址：https://www.oddpool.com/dominance
-评论网址：https://news.ycombinator.com/item?id=46675614
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.oddpool.com/dominance</guid>
-      <pubDate>Mon, 19 Jan 2026 06:27:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于技术文档的生产级 RAG 管道</title>
-      <link>https://alexanderfashakin.substack.com/p/building-trustworthy-documentation-rag-systems</link>
-      <description><![CDATA[文章网址：https://alexanderfashakin.substack.com/p/building-trustworthy-documentation-rag-systems
-评论网址：https://news.ycombinator.com/item?id=46675607
+      <title>Claude Skill for Terraform/OpenTofu – 测试、模块、CI/CD 和产品模式</title>
+      <link>https://github.com/antonbabenko/terraform-skill</link>
+      <description><![CDATA[文章网址：https://github.com/antonbabenko/terraform-skill
+评论网址：https://news.ycombinator.com/item?id=46676801
 积分：1
 # 条评论：1]]></description>
-      <guid>https://alexanderfashakin.substack.com/p/building-trustworthy-documentation-rag-systems</guid>
-      <pubDate>Mon, 19 Jan 2026 06:25:52 GMT</pubDate>
+      <guid>https://github.com/antonbabenko/terraform-skill</guid>
+      <pubDate>Mon, 19 Jan 2026 09:31:24 GMT</pubDate>
     </item>
     <item>
-      <title>使用二进制嵌入和 int8 重新评分在 CPU 上搜索 40M 文档，时间 <200 毫秒</title>
-      <link>https://medium.com/coding-nexus/search-40m-documents-in-under-200ms-on-a-cpu-using-binary-embeddings-and-int8-rescoring-4f5d34ad11ab</link>
-      <description><![CDATA[文章网址： https://medium.com/coding-nexus/search-40m-documents-in-under-200ms-on-a-cpu-using-binary-embeddings-and-int8-rescoring-4f5d34ad11ab
-评论网址：https://news.ycombinator.com/item?id=46675606
+      <title>Awesome-ralph：有关 Ralph（AI 编码技术）的精选资源列表</title>
+      <link>https://github.com/snwfdhmp/awesome-ralph</link>
+      <description><![CDATA[文章网址：https://github.com/snwfdhmp/awesome-ralph
+评论网址：https://news.ycombinator.com/item?id=46676760
 积分：1
 # 条评论：0]]></description>
-      <guid>https://medium.com/coding-nexus/search-40m-documents-in-under-200ms-on-a-cpu-using-binary-embeddings-and-int8-rescoring-4f5d34ad11ab</guid>
-      <pubDate>Mon, 19 Jan 2026 06:25:16 GMT</pubDate>
+      <guid>https://github.com/snwfdhmp/awesome-ralph</guid>
+      <pubDate>Mon, 19 Jan 2026 09:26:35 GMT</pubDate>
     </item>
     <item>
-      <title>诺贝尔基金会的声明</title>
-      <link>https://www.nobelprize.org/press-release/statement-from-the-nobel-foundation/</link>
-      <description><![CDATA[文章网址：https://www.nobelprize.org/press-release/statement-from-the-nobel-foundation/
-评论网址：https://news.ycombinator.com/item?id=46675605
+      <title>编码冒险：光线追踪器</title>
+      <link>https://www.youtube.com/playlist?list=PLFt_AvWsXl0dlgwe4JQ0oZuleqOTjmox3</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/playlist?list=PLFt_AvWsXl0dlgwe4JQ0oZuleqOTjmox3
+评论网址：https://news.ycombinator.com/item?id=46676745
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.nobelprize.org/press-release/statement-from-the-nobel-foundation/</guid>
-      <pubDate>Mon, 19 Jan 2026 06:25:07 GMT</pubDate>
+      <guid>https://www.youtube.com/playlist?list=PLFt_AvWsXl0dlgwe4JQ0oZuleqOTjmox3</guid>
+      <pubDate>Mon, 19 Jan 2026 09:24:28 GMT</pubDate>
     </item>
     <item>
-      <title>贝奥武甫的开头“What”不是感叹词</title>
-      <link>https://www.poetryfoundation.org/poetry-news/69208/new-research-opening-line-of-beowulf-is-not-what-weve-eternally-thunk</link>
-      <description><![CDATA[文章网址： https://www.poetryfoundation.org/poetry-news/69208/new-research-opening-line-of-beowulf-is-not-what-weve-eternally-thunk
-评论网址：https://news.ycombinator.com/item?id=46675583
+      <title>单腿站立的惊人好处</title>
+      <link>https://www.bbc.com/future/article/20260114-the-surprising-benefits-of-standing-on-one-leg</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/future/article/20260114-the-surprising-benefits-of-stand-on-one-leg
+评论网址：https://news.ycombinator.com/item?id=46676738
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.poetryfoundation.org/poetry-news/69208/new-research-opening-line-of-beowulf-is-not-what-weve-eternally-thunk</guid>
-      <pubDate>Mon, 19 Jan 2026 06:19:53 GMT</pubDate>
+      <guid>https://www.bbc.com/future/article/20260114-the-surprising-benefits-of-standing-on-one-leg</guid>
+      <pubDate>Mon, 19 Jan 2026 09:23:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: Aeph – 只是您终端的论文，而不是编辑器</title>
+      <link>https://github.com/siki-712/aeph</link>
+      <description><![CDATA[嗨，HN，我一直喜欢 Ephe 的简单性 (https://ephe.app/)，但我希望在我的终端中获得同样短暂的、“只是一张纸”的体验。所以我用 Rust 构建了 Aeph。Aeph 不是文本编辑器。它是一款极简便签本，专为快速大脑转储、笔记和任务管理而设计，无需文件管理或配置的开销。为什么使用 Aeph？
+- 用 Rust 构建：它快速、轻量，并且作为单个二进制文件存在。
+- 真正的便签本：无需保存或命名文件。它会自动保存一切。
+- 9 个即时页面：使用 Ctrl+O + [1-9] 即时切换上下文（例如，第 1 页用于笔记，第 2 页用于日常 TODO）。
+- Markdown 和 TODO：无缝切换任务 (Ctrl+T) 和添加新任务 (Ctrl+N)。
+- 受 Vim 启发的命令：支持像“dd”这样的领导者命令来删除一行，使 Vim 用户熟悉流程。我专门构建这个命令是因为我想要一个“数字餐巾纸”，当我在 CLI 中工作时，它不会妨碍我。存储库：[https://github.com/siki-712/aeph]自述文件中有一个 GIF 演示，因此您可以立即看到它的运行情况！我很想听听您的想法，尤其是其他 CLI 爱好者的想法！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46676734
+积分：2
+# 条评论：0]]></description>
+      <guid>https://github.com/siki-712/aeph</guid>
+      <pubDate>Mon, 19 Jan 2026 09:22:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>摩尔门经如何解锁启示录 [视频]</title>
+      <link>https://www.youtube.com/watch?v=dPgMZxCslWU</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=dPgMZxCslWU
+评论网址：https://news.ycombinator.com/item?id=46676733
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.youtube.com/watch?v=dPgMZxCslWU</guid>
+      <pubDate>Mon, 19 Jan 2026 09:22:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>独立工作的简单发票</title>
+      <link>https://www.defray.com</link>
+      <description><![CDATA[文章网址：https://www.defray.com
+评论网址：https://news.ycombinator.com/item?id=46676710
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.defray.com</guid>
+      <pubDate>Mon, 19 Jan 2026 09:19:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建健壮的 Helm 图表</title>
+      <link>https://www.willmunn.xyz/devops/helm/kubernetes/2026/01/17/building-robust-helm-charts.html</link>
+      <description><![CDATA[文章网址：https://www.willmunn.xyz/devops/helm/kubernetes/2026/01/17/building-robust-helm-charts.html
+评论网址：https://news.ycombinator.com/item?id=46676708
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.willmunn.xyz/devops/helm/kubernetes/2026/01/17/building-robust-helm-charts.html</guid>
+      <pubDate>Mon, 19 Jan 2026 09:19:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>将音频转录为文本</title>
+      <link>https://transcribetotext.org</link>
+      <description><![CDATA[文章网址：https://transcribetotext.org
+评论网址：https://news.ycombinator.com/item?id=46676694
+积分：1
+# 条评论：0]]></description>
+      <guid>https://transcribetotext.org</guid>
+      <pubDate>Mon, 19 Jan 2026 09:18:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
