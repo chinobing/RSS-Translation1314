@@ -4,118 +4,126 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 19 Jan 2026 09:36:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 12:51:25 GMT</lastBuildDate>
     <item>
-      <title>显示 HN：可视化数据库架构设计器（Angular 21 和 .NET 10）</title>
-      <link>https://dbvisualdesigner.com</link>
-      <description><![CDATA[嗨，HN，OP。我构建这个是因为我对数据库设计工具的当前状态感到沮丧。它们通常是重型企业桌面应用程序（如 DataGrip/Workbench）或不导出可用代码的简单绘图工具。我希望在浏览器中获得“类似 VS Code”的体验：深色模式、严格打字和即时视觉反馈。技术堆栈相当激进：
-- 前端：Angular 21（最新）。我专门使用 Signals 进行图形状态管理，以处理 100 多个节点，而不会造成布局抖动。
-- 后端：.NET 10，用于 DDL 生成和架构验证。当前功能：
-- 可视化表/列编辑器。
-- 拖放关系（1:N 处理）。
-- 导出到 PostgreSQL DDL（Entity Framework Core 导出即将推出）。这是一个 MVP，所以我正在寻找有关图形交互和 UI 感觉的反馈。“类似 IDE”的布局适合您执行此类任务吗？
+      <title>从 SQL 中选择 Wat；</title>
+      <link>https://scattered-thoughts.net/writing/select-wat-from-sql/</link>
+      <description><![CDATA[文章网址：https://scattered-thoughts.net/writing/select-wat-from-sql/
+评论网址：https://news.ycombinator.com/item?id=46678349
+积分：1
+# 条评论：0]]></description>
+      <guid>https://scattered-thoughts.net/writing/select-wat-from-sql/</guid>
+      <pubDate>Mon, 19 Jan 2026 12:42:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：享受——一个游戏化的 GitHub 存储库，贡献可赚取业力</title>
+      <link>https://github.com/fabriziosalmi/enjoy</link>
+      <description><![CDATA[我构建了一款完全位于 GitHub 存储库中的游戏。每项贡献都会赢得业力、解锁成就并提升社区水平。工作原理：- 分叉 → 添加单词到单词/ → PR → 自动合并 → 赚取业力                                                                                                                          
+- 基于时间的乘数（夜猫子奖金、中午太阳峰）                                                                                                                        
+- 连胜系统、每日挑战、神秘盒子                                                                                                                                      
+- 当您达到里程碑时，成就就会解锁技术堆栈：                                                                                                                                                                           
+- 状态存储在state.json中（git作为数据库）                                                                                                                                        
+- GitHub Actions 处理所有游戏逻辑                                                                                                                                                
+- 无后端，无服务器，纯GitHub                                                                                                                                                  
+- 用于 Claude 代码/桌面集成的 MCP 服务器我学到了什么：                                                                                                                                                                       
+- GitHub Actions 可以成为一个功能惊人的“无服务器”平台                                                                                                                  
+- 游戏化有效：贡献者回归连续                                                                                                                              
+- JSON + git = 简单而有效的状态管理可视化 UI 根据游戏状态进行更新：业力影响极光强度，玩家显示为浮动灯光，关卡会改变太阳/月亮的大小。享受并做出贡献，调试创始人永远值得进入排行榜:)祝你有美好的一天！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46676815
+评论网址：https://news.ycombinator.com/item?id=46678332
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/fabriziosalmi/enjoy</guid>
+      <pubDate>Mon, 19 Jan 2026 12:40:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>无需 JavaScript 的静态站点搜索（Perl + FastCGI + SA 索引）</title>
+      <link>https://www.asciimx.com/log/site-search/</link>
+      <description><![CDATA[文章网址：https://www.asciimx.com/log/site-search/
+评论网址：https://news.ycombinator.com/item?id=46678329
 积分：1
 # 条评论：1]]></description>
-      <guid>https://dbvisualdesigner.com</guid>
-      <pubDate>Mon, 19 Jan 2026 09:32:52 GMT</pubDate>
+      <guid>https://www.asciimx.com/log/site-search/</guid>
+      <pubDate>Mon, 19 Jan 2026 12:39:55 GMT</pubDate>
     </item>
     <item>
-      <title>Claude Skill for Terraform/OpenTofu – 测试、模块、CI/CD 和产品模式</title>
-      <link>https://github.com/antonbabenko/terraform-skill</link>
-      <description><![CDATA[文章网址：https://github.com/antonbabenko/terraform-skill
-评论网址：https://news.ycombinator.com/item?id=46676801
+      <title>ZeroDP：通过 NVLink 实现数据并行的即时减重</title>
+      <link>https://mainlymatmul.com/blog/zerodp/</link>
+      <description><![CDATA[文章网址：https://mainlymatmul.com/blog/zerodp/
+评论网址：https://news.ycombinator.com/item?id=46678316
 积分：1
+# 条评论：0]]></description>
+      <guid>https://mainlymatmul.com/blog/zerodp/</guid>
+      <pubDate>Mon, 19 Jan 2026 12:37:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么年轻的丹麦人仍然做爱</title>
+      <link>https://spectator.com/article/gen-z-as-is-well-known-is-having-significantly-less-sex-than-their-parents/</link>
+      <description><![CDATA[文章网址：https://spectator.com/article/gen-z-as-is-well-known-is-having-significantly-less-sex-than-their-parents/
+评论网址：https://news.ycombinator.com/item?id=46678304
+积分：3
 # 条评论：1]]></description>
-      <guid>https://github.com/antonbabenko/terraform-skill</guid>
-      <pubDate>Mon, 19 Jan 2026 09:31:24 GMT</pubDate>
+      <guid>https://spectator.com/article/gen-z-as-is-well-known-is-having-significantly-less-sex-than-their-parents/</guid>
+      <pubDate>Mon, 19 Jan 2026 12:36:46 GMT</pubDate>
     </item>
     <item>
-      <title>Awesome-ralph：有关 Ralph（AI 编码技术）的精选资源列表</title>
-      <link>https://github.com/snwfdhmp/awesome-ralph</link>
-      <description><![CDATA[文章网址：https://github.com/snwfdhmp/awesome-ralph
-评论网址：https://news.ycombinator.com/item?id=46676760
+      <title>黑客声称在最近的网络攻击后出售 Target 源代码</title>
+      <link>https://www.techradar.com/pro/security/hackers-claim-to-have-target-source-code-for-sale-following-recent-cyberattack</link>
+      <description><![CDATA[文章网址：https://www.techradar.com/pro/security/hackers-claim-to-have-target-source-code-for-sale-following-recent-cyberattack
+评论网址：https://news.ycombinator.com/item?id=46678259
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/snwfdhmp/awesome-ralph</guid>
-      <pubDate>Mon, 19 Jan 2026 09:26:35 GMT</pubDate>
+      <guid>https://www.techradar.com/pro/security/hackers-claim-to-have-target-source-code-for-sale-following-recent-cyberattack</guid>
+      <pubDate>Mon, 19 Jan 2026 12:31:07 GMT</pubDate>
     </item>
     <item>
-      <title>编码冒险：光线追踪器</title>
-      <link>https://www.youtube.com/playlist?list=PLFt_AvWsXl0dlgwe4JQ0oZuleqOTjmox3</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/playlist?list=PLFt_AvWsXl0dlgwe4JQ0oZuleqOTjmox3
-评论网址：https://news.ycombinator.com/item?id=46676745
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/playlist?list=PLFt_AvWsXl0dlgwe4JQ0oZuleqOTjmox3</guid>
-      <pubDate>Mon, 19 Jan 2026 09:24:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>单腿站立的惊人好处</title>
-      <link>https://www.bbc.com/future/article/20260114-the-surprising-benefits-of-standing-on-one-leg</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/future/article/20260114-the-surprising-benefits-of-stand-on-one-leg
-评论网址：https://news.ycombinator.com/item?id=46676738
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.bbc.com/future/article/20260114-the-surprising-benefits-of-standing-on-one-leg</guid>
-      <pubDate>Mon, 19 Jan 2026 09:23:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN: Aeph – 只是您终端的论文，而不是编辑器</title>
-      <link>https://github.com/siki-712/aeph</link>
-      <description><![CDATA[嗨，HN，我一直喜欢 Ephe 的简单性 (https://ephe.app/)，但我希望在我的终端中获得同样短暂的、“只是一张纸”的体验。所以我用 Rust 构建了 Aeph。Aeph 不是文本编辑器。它是一款极简便签本，专为快速大脑转储、笔记和任务管理而设计，无需文件管理或配置的开销。为什么使用 Aeph？
-- 用 Rust 构建：它快速、轻量，并且作为单个二进制文件存在。
-- 真正的便签本：无需保存或命名文件。它会自动保存一切。
-- 9 个即时页面：使用 Ctrl+O + [1-9] 即时切换上下文（例如，第 1 页用于笔记，第 2 页用于日常 TODO）。
-- Markdown 和 TODO：无缝切换任务 (Ctrl+T) 和添加新任务 (Ctrl+N)。
-- 受 Vim 启发的命令：支持像“dd”这样的领导者命令来删除一行，使 Vim 用户熟悉流程。我专门构建这个命令是因为我想要一个“数字餐巾纸”，当我在 CLI 中工作时，它不会妨碍我。存储库：[https://github.com/siki-712/aeph]自述文件中有一个 GIF 演示，因此您可以立即看到它的运行情况！我很想听听您的想法，尤其是其他 CLI 爱好者的想法！
+      <title>没人愿意谈论的 PS Plus Premium 问题</title>
+      <link>https://news.ycombinator.com/item?id=46678249</link>
+      <description><![CDATA[PlayStation Plus Premium 发生了一些令人不安的事情，而且它比临时中断或随机错误更严重。在过去的几周里，PS3 游戏流媒体（索尼最昂贵的订阅级别的旗舰承诺之一）一直在失败，暴露了现代游戏访问实际运作方式的更深层次问题。不是崩溃。
+不落后。
+只是……没有开始。这种差异比听起来更重要。当按钮不起作用时，那就是系统性故障
+报道于 2026 年 1 月中旬开始浮出水面。玩家将选择 PS Plus Premium 附带的 PS3 游戏，按“Stream”，听到熟悉的 UI 声音，然后什么也不会发生。没有加载屏幕。没有错误消息。没有警告。控制台只会停留在原来的位置，就好像命令从未发出过一样。这个问题特别引人注目的是它的一致性。 PS4 和 PS5 流媒体游戏均可使用。可下载经典作品。此次失败主要针对完全依赖索尼云基础设施的 PS3 游戏。这就排除了家庭网络问题、本地硬件问题或一般 PlayStation 网络不稳定的情况。换句话说，系统已启动。管道已损坏。您付费但无法访问的图书馆
+这就是事情从“烦人”变成“结构性问题”的地方。PS Plus Premium 上的 PS3 游戏不可下载。它们在本地不存在。它们仅作为与索尼服务器相关的权限而存在。当这些服务器无法授权或启动流时，游戏实际上对玩家来说不再存在——即使订阅处于活动状态并且已付费。包括 PlayStation LifeStyle 和 GamingBible 在内的多家商店强调了一个特别奇怪的行为：之前玩过的游戏比用户从未打开过的游戏更有可能成功启动。这表明问题可能涉及如何在服务器端验证权利或历史图书馆关联。该细节很重要，因为它暗示后端逻辑故障，而不是带宽故障。而且后端故障无法快速自行修复。社区解决方法比索尼提供的更多
+索尼尚未发布明确的公开解释。没有详细的状态更新。不承认 PS3 流媒体性能已降级。与此同时，玩家被迫进行反复试验故障排除。一些人发现，在尝试串流游戏之前将游戏添加到他们的愿望清单有时会有所帮助。其他人报告说，他们通过 PlayStation Plus PC 应用程序将游戏添加到他们的游戏库中，然后在主机上启动，取得了部分成功。这些都不是解决方案。它们是线索。他们认为问题可能出在目录索引、帐户权限和云会话初始化的交叉点上——这是一条脆弱的链条，其中一个损坏的链接就会使整个体验失效。PiunikaWeb 的报道强调了这一点，指出 PlayStation Network 的官方状态页面继续将所有内容显示为“可运行”，尽管广泛的用户报告表明情况并非如此。这种脱节不仅令人沮丧。它侵蚀了信任。这不仅仅是一个错误 - 这是一个警告
+令人不安的事实是，PS Plus Premium 的 PS3 产品始终是一种妥协。索尼从未解决原生 PS3 向后兼容性问题，因此流媒体成为解决方法。当它工作时它工作得足够好 - 但当它失败时，没有后备。没有离线模式。
+没有本地缓存​​。
+没有所有权安全网。此事件暴露的是，当访问完全抽象在您无法控制的基础设施后面时，访问会变得多么脆弱。一次后端更改、一次许可同步问题、一次未被注意到的回归 — 数十款游戏一夜之间从您的手中消失。在此处阅读更多内容
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46676734
+评论网址：https://news.ycombinator.com/item?id=46678249
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=46678249</guid>
+      <pubDate>Mon, 19 Jan 2026 12:29:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>研究：算法的民族主义</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6065414</link>
+      <description><![CDATA[文章网址：https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6065414
+评论网址：https://news.ycombinator.com/item?id=46678247
 积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/siki-712/aeph</guid>
-      <pubDate>Mon, 19 Jan 2026 09:22:56 GMT</pubDate>
+      <guid>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6065414</guid>
+      <pubDate>Mon, 19 Jan 2026 12:29:36 GMT</pubDate>
     </item>
     <item>
-      <title>摩尔门经如何解锁启示录 [视频]</title>
-      <link>https://www.youtube.com/watch?v=dPgMZxCslWU</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=dPgMZxCslWU
-评论网址：https://news.ycombinator.com/item?id=46676733
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.youtube.com/watch?v=dPgMZxCslWU</guid>
-      <pubDate>Mon, 19 Jan 2026 09:22:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>独立工作的简单发票</title>
-      <link>https://www.defray.com</link>
-      <description><![CDATA[文章网址：https://www.defray.com
-评论网址：https://news.ycombinator.com/item?id=46676710
+      <title>利用本地文件构建个人知识库</title>
+      <link>https://desktopcommander.app/blog/2026/01/07/build-a-personal-ai-knowledge-base-with-local-files/</link>
+      <description><![CDATA[文章网址：https://desktopcommander.app/blog/2026/01/07/build-a-personal-ai-knowledge-base-with-local-files/
+评论网址：https://news.ycombinator.com/item?id=46678241
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.defray.com</guid>
-      <pubDate>Mon, 19 Jan 2026 09:19:59 GMT</pubDate>
+      <guid>https://desktopcommander.app/blog/2026/01/07/build-a-personal-ai-knowledge-base-with-local-files/</guid>
+      <pubDate>Mon, 19 Jan 2026 12:28:43 GMT</pubDate>
     </item>
     <item>
-      <title>构建健壮的 Helm 图表</title>
-      <link>https://www.willmunn.xyz/devops/helm/kubernetes/2026/01/17/building-robust-helm-charts.html</link>
-      <description><![CDATA[文章网址：https://www.willmunn.xyz/devops/helm/kubernetes/2026/01/17/building-robust-helm-charts.html
-评论网址：https://news.ycombinator.com/item?id=46676708
-积分：1
+      <title>UW ttyp0 等宽位图字体 (v2.1)</title>
+      <link>https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/</link>
+      <description><![CDATA[文章网址：https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/
+评论网址：https://news.ycombinator.com/item?id=46678235
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.willmunn.xyz/devops/helm/kubernetes/2026/01/17/building-robust-helm-charts.html</guid>
-      <pubDate>Mon, 19 Jan 2026 09:19:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>将音频转录为文本</title>
-      <link>https://transcribetotext.org</link>
-      <description><![CDATA[文章网址：https://transcribetotext.org
-评论网址：https://news.ycombinator.com/item?id=46676694
-积分：1
-# 条评论：0]]></description>
-      <guid>https://transcribetotext.org</guid>
-      <pubDate>Mon, 19 Jan 2026 09:18:36 GMT</pubDate>
+      <guid>https://people.mpi-inf.mpg.de/~uwe/misc/uw-ttyp0/</guid>
+      <pubDate>Mon, 19 Jan 2026 12:27:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
