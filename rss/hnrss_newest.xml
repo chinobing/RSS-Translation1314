@@ -4,106 +4,110 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 21 Jan 2026 18:42:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 21:29:28 GMT</lastBuildDate>
     <item>
-      <title>Chrome 插件可显示人工智能/技术的最新趋势，而不是空选项卡</title>
-      <link>https://chromewebstore.google.com/detail/ai-trends-dashboard/dpglmhdbgjekmmghclfjheficnaadine</link>
-      <description><![CDATA[文章网址：https://chromewebstore.google.com/detail/ai-trends-dashboard/dpglmhdbgjekmmghclfjheficnaadine
-评论网址：https://news.ycombinator.com/item?id=46709586
+      <title>靠近一点，这样我就能听到鸟叫声</title>
+      <link>https://terratauri.com/blog/get-closer-so-i-can-hear-the-birds/</link>
+      <description><![CDATA[文章网址：https://terratauri.com/blog/get-closer-so-i-can-hear-the-birds/
+评论网址：https://news.ycombinator.com/item?id=46711721
 积分：1
 # 条评论：0]]></description>
-      <guid>https://chromewebstore.google.com/detail/ai-trends-dashboard/dpglmhdbgjekmmghclfjheficnaadine</guid>
-      <pubDate>Wed, 21 Jan 2026 18:34:55 GMT</pubDate>
+      <guid>https://terratauri.com/blog/get-closer-so-i-can-hear-the-birds/</guid>
+      <pubDate>Wed, 21 Jan 2026 21:20:37 GMT</pubDate>
     </item>
     <item>
-      <title>丹尼尔·罗伊 (Daniel Roe) 的 Nuxt 规模（播客剧集）</title>
-      <link>https://open.spotify.com/episode/5xTPxvS3WHjEkz16rSHj7I</link>
-      <description><![CDATA[文章网址：https://open.spotify.com/episode/5xTPxvS3WHjEkz16rSHj7I
-评论网址：https://news.ycombinator.com/item?id=46709579
+      <title>Show HN：Ablly AI Transport – 代理应用程序的传输层</title>
+      <link>https://ably.com/docs/ai-transport</link>
+      <description><![CDATA[嘿 HN，这里是 Ably 的工程师。在过去的几个月里，我一直在与构建 AI 助手、副驾驶和代理工作流程的工程师（目前已超过 40 家公司）进行交谈，特别关注云托管代理。我预计困难问题将出现在模型选择、提示工程和编排方面。相反，同样的基础设施挑战不断出现：代理和最终客户端之间的实时同步很难正确实现。- 管理和扩展代理与客户端之间的 WebSocket 或 SSE 连接- 在服务器端缓冲消息并实现重新连接客户端的重播逻辑- 跟踪每个客户端在多个设备上收到的内容- 确保初始加载时历史响应和实时响应之间的连续性- 将重新连接的客户端路由到分布式中的正确代理实例部署Ably AI Transport 解决了这个问题：它是位于代理和最终用户设备之间的嵌入式传输层。我们发现许多公司已经在使用 Ably Pub/Sub 来解决这些问题。发布/订阅模式将代理与客户端解耦：代理发布到通道，客户端订阅，Ablly 处理交付和重播。AI Transport 使这一切变得更容易 - 例如，我们添加了用于高效令牌流的消息附加，以及用于附加引文等元数据的注释。一些有趣的技术部分：- 面向通道的架构：在面向连接的设置中，连接将代理带入生活。如果连接断开，重新连接时代理必须弄清楚每个客户端丢失的状态。 AI Transport 使用通道代替：代理发布，客户端订阅，通道处理重播。状态事件让代理能够检测用户何时上线/离线或从多个设备进行连接。- 解耦的发布/订阅中的身份：用户通过您的服务器进行身份验证，该服务器会发出带有嵌入式 clientId 和功能的 JWT。代理接收具有经过加密验证的身份的消息。用户声明（JWT 中的ively.channel.*）出现在 message.extras.userClaim 中 - 对于 HITL 工作流程非常有用，您可以在执行工具调用之前验证批准者的角色。- 带附加的令牌流：新的 message.append 操作可让您增量构建响应。中途加入的客户端会收到一条消息。更新到目前为止的完整响应，然后接收后续追加。频道历史记录每个响应包含一条压缩消息。- 引文注释：将引文元数据附加到响应而不修改内容。客户端可以订阅单独的注释或通过 REST 按需获取它们。 Ably 还会自动将注释聚合成摘要（例如按域名计数），然后实时传送给客户端。- 消息传递模式：文档包括工具调用、人机交互批准流程和思想链流的模式。文档：https://ously.com/docs/ai-transport如果您正在构建 AI UX，我很想听听您遇到了哪些问题以及您内部构建了哪些内容。谢谢！Mike Christensen
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46711706
+积分：1
+# 条评论：0]]></description>
+      <guid>https://ably.com/docs/ai-transport</guid>
+      <pubDate>Wed, 21 Jan 2026 21:18:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>人脸形状检测器</title>
+      <link>https://whatismyfaceshape.net/</link>
+      <description><![CDATA[文章网址：https://whatismyfaceshape.net/
+评论网址：https://news.ycombinator.com/item?id=46711686
 积分：1
 # 条评论：1]]></description>
-      <guid>https://open.spotify.com/episode/5xTPxvS3WHjEkz16rSHj7I</guid>
-      <pubDate>Wed, 21 Jan 2026 18:34:28 GMT</pubDate>
+      <guid>https://whatismyfaceshape.net/</guid>
+      <pubDate>Wed, 21 Jan 2026 21:17:51 GMT</pubDate>
     </item>
     <item>
-      <title>北海项目承诺将碳返回其来源地</title>
-      <link>https://www.japantimes.co.jp/environment/2025/12/22/climate-change/co2-denmark-north-sea/</link>
-      <description><![CDATA[文章网址：https://www.japantimes.co.jp/environment/2025/12/22/climate-change/co2-denmark-north-sea/
-评论网址：https://news.ycombinator.com/item?id=46709569
+      <title>Show HN：Tandem – 开源跨平台 AI 同事 (Tauri)</title>
+      <link>https://news.ycombinator.com/item?id=46711652</link>
+      <description><![CDATA[我构建了 Tandem，一个在 Windows/Linux/macOS 上运行的开源桌面“AI 同事”。
+我也想在 Windows/Linux 上使用此工作流程（很多类似的工具都是 macOS 优先）。工作原理：计划模式：助手提出任务列表→您查看→批量执行工件：在工作区中生成可共享的 HTML 报告/仪表板作为真实文件BYOK 模型/提供程序：OpenRouter / OpenAI / Anthropic / Ollama存储库：https://github.com/frumu-ai/tandem下载：https://tandem.frumu.ai/接下来我应该演示什么：网络研究刷新、法律研究还是脚本工作室？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46711652
+积分：1
+# 条评论：1]]></description>
+      <guid>https://news.ycombinator.com/item?id=46711652</guid>
+      <pubDate>Wed, 21 Jan 2026 21:14:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: TerabyteDeals – 按 $/TB 比较存储价格</title>
+      <link>https://terabytedeals.com</link>
+      <description><![CDATA[我构建了一个简单的工具，按每 TB 价格比较硬盘和 SSD 的价格。在购买 NAS 驱动器时，我一直需要手动计算每 TB 美元的价格，因此我这样做是为了省去自己的麻烦。它从亚马逊（美国、加拿大、澳大利亚和欧盟商店）获取价格，计算每 TB 美元的价格，并让您按驱动器类型、接口、外形尺寸和容量进行筛选。没什么花哨的 — 只是每天更新的可排序表格。任何非常欢迎反馈，我希望有人会觉得它有用！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46711649
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.japantimes.co.jp/environment/2025/12/22/climate-change/co2-denmark-north-sea/</guid>
-      <pubDate>Wed, 21 Jan 2026 18:33:58 GMT</pubDate>
+      <guid>https://terabytedeals.com</guid>
+      <pubDate>Wed, 21 Jan 2026 21:13:59 GMT</pubDate>
     </item>
     <item>
-      <title>我一直扔掉 LLM 生成的代码</title>
-      <link>https://nickzaccardi.com/i-keep-throwing-away-llm-generated-code/</link>
-      <description><![CDATA[文章网址：https://nickzaccardi.com/i-keep-throwing-away-llm- generated-code/
-评论网址：https://news.ycombinator.com/item?id=46709564
+      <title>印度尼西亚发现最古老的洞穴艺术</title>
+      <link>https://www.barrons.com/news/world-s-oldest-cave-art-discovered-in-indonesia-3ddd2a48</link>
+      <description><![CDATA[文章网址：https://www.barrons.com/news/world-s-oldest-cave-art-discovered-in-indonesia-3ddd2a48
+评论网址：https://news.ycombinator.com/item?id=46711639
 积分：1
 # 条评论：0]]></description>
-      <guid>https://nickzaccardi.com/i-keep-throwing-away-llm-generated-code/</guid>
-      <pubDate>Wed, 21 Jan 2026 18:33:38 GMT</pubDate>
+      <guid>https://www.barrons.com/news/world-s-oldest-cave-art-discovered-in-indonesia-3ddd2a48</guid>
+      <pubDate>Wed, 21 Jan 2026 21:13:33 GMT</pubDate>
     </item>
     <item>
-      <title>TeraWave 卫星通信网络</title>
-      <link>https://www.blueorigin.com/terawave</link>
-      <description><![CDATA[文章网址：https://www.blueorigin.com/terawave
-评论网址：https://news.ycombinator.com/item?id=46709548
-积分：2
+      <title>Typeframe PS-85 – 受外星人启发的便携式</title>
+      <link>https://www.typeframe.net/docs/ps-85</link>
+      <description><![CDATA[文章网址：https://www.typeframe.net/docs/ps-85
+评论网址：https://news.ycombinator.com/item?id=46711631
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.typeframe.net/docs/ps-85</guid>
+      <pubDate>Wed, 21 Jan 2026 21:12:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：石原（色盲）测试生成器</title>
+      <link>https://connorboyle.io/ishihara/</link>
+      <description><![CDATA[文章网址：https://connorboyle.io/ishihara/
+评论网址：https://news.ycombinator.com/item?id=46711616
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.blueorigin.com/terawave</guid>
-      <pubDate>Wed, 21 Jan 2026 18:31:58 GMT</pubDate>
+      <guid>https://connorboyle.io/ishihara/</guid>
+      <pubDate>Wed, 21 Jan 2026 21:11:35 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Rails UI</title>
-      <link>https://railsui.com/</link>
-      <description><![CDATA[文章网址：https://railsui.com/
-评论网址：https://news.ycombinator.com/item?id=46709543
+      <title>如果人工智能既好又不那么具有破坏性怎么办？</title>
+      <link>https://deadneurons.substack.com/p/what-if-ai-is-both-really-good-and</link>
+      <description><![CDATA[文章网址：https://deadneurons.substack.com/p/what-if-ai-is-both-really-good-and
+评论网址：https://news.ycombinator.com/item?id=46711615
+积分：1
+# 条评论：0]]></description>
+      <guid>https://deadneurons.substack.com/p/what-if-ai-is-both-really-good-and</guid>
+      <pubDate>Wed, 21 Jan 2026 21:11:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Grok 公开详细的账户压制信息</title>
+      <link>https://twitter.com/realstewpeters/status/2013848860771144075</link>
+      <description><![CDATA[文章网址：https://twitter.com/realstewpeters/status/2013848860771144075
+评论网址：https://news.ycombinator.com/item?id=46711607
 积分：3
 # 条评论：0]]></description>
-      <guid>https://railsui.com/</guid>
-      <pubDate>Wed, 21 Jan 2026 18:31:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>OmniOS 社区版</title>
-      <link>https://omnios.org/</link>
-      <description><![CDATA[文章网址：https://omnios.org/
-评论网址：https://news.ycombinator.com/item?id=46709539
-积分：1
-# 条评论：0]]></description>
-      <guid>https://omnios.org/</guid>
-      <pubDate>Wed, 21 Jan 2026 18:30:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>特朗普政府承认 DOGE 访问了个人社会保障数据</title>
-      <link>https://washingtonpost.com/politics/2026/01/20/doge-social-security-data-privacy-act/</link>
-      <description><![CDATA[文章网址：https://washingtonpost.com/politics/2026/01/20/doge-social-security-data-privacy-act/
-评论网址：https://news.ycombinator.com/item?id=46709534
-积分：4
-# 条评论：0]]></description>
-      <guid>https://washingtonpost.com/politics/2026/01/20/doge-social-security-data-privacy-act/</guid>
-      <pubDate>Wed, 21 Jan 2026 18:30:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>讨厌这个词很重，但我不喜欢 Windows 11</title>
-      <link>https://blog.urara.pl/hate-is-a-strong-word-but-i-really-really-really-don%27t-like-windows-11</link>
-      <description><![CDATA[文章网址：https://blog.urara.pl/hate-is-a-strong-word-but-i-really-really-really-don%27t-like-windows-11
-评论网址：https://news.ycombinator.com/item?id=46709530
-积分：2
-# 条评论：1]]></description>
-      <guid>https://blog.urara.pl/hate-is-a-strong-word-but-i-really-really-really-don%27t-like-windows-11</guid>
-      <pubDate>Wed, 21 Jan 2026 18:29:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>特朗普在达沃斯语无伦次的演讲中混淆了冰岛和格陵兰岛</title>
-      <link>https://newrepublic.com/post/205475/donald-trump-mixes-iceland-greenland-davos-speech</link>
-      <description><![CDATA[文章网址：https://newrepublic.com/post/205475/donald-trump-mixes-iceland-greenland-davos-speech
-评论网址：https://news.ycombinator.com/item?id=46709525
-积分：9
-# 条评论：0]]></description>
-      <guid>https://newrepublic.com/post/205475/donald-trump-mixes-iceland-greenland-davos-speech</guid>
-      <pubDate>Wed, 21 Jan 2026 18:29:21 GMT</pubDate>
+      <guid>https://twitter.com/realstewpeters/status/2013848860771144075</guid>
+      <pubDate>Wed, 21 Jan 2026 21:10:40 GMT</pubDate>
     </item>
     </channel>
 </rss>
