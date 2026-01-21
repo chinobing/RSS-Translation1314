@@ -4,112 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 21 Jan 2026 09:33:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 12:52:05 GMT</lastBuildDate>
     <item>
-      <title>代码审查最佳实践：关注可维护性，而不是正确性</title>
-      <link>https://www.blundergoat.com/articles/code-review-framework-collaborative-quality</link>
-      <description><![CDATA[文章网址：https://www.blundergoat.com/articles/code-review-framework-collaborative-quality
-评论网址：https://news.ycombinator.com/item?id=46703144
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.blundergoat.com/articles/code-review-framework-collaborative-quality</guid>
-      <pubDate>Wed, 21 Jan 2026 09:27:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：MCP Hangar：用于通过延迟加载管理 MCP 服务器的 K8s 操作员</title>
-      <link>https://github.com/mapyr/mcp-hangar</link>
-      <description><![CDATA[文章网址：https://github.com/mapyr/mcp-hangar
-评论网址：https://news.ycombinator.com/item?id=46703101
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/mapyr/mcp-hangar</guid>
-      <pubDate>Wed, 21 Jan 2026 09:22:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>特工记忆实际上应该存放在哪里？</title>
-      <link>https://www.youtube.com/watch?v=iVoWI67NqRY</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=iVoWI67NqRY
-评论网址：https://news.ycombinator.com/item?id=46703092
+      <title>西班牙通勤火车撞上倒塌的墙壁，司机死亡，37人受伤</title>
+      <link>https://www.theguardian.com/world/2026/jan/20/commuter-train-near-barcelona-hits-collapsed-wall-injuring-several-people</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/world/2026/jan/20/commuter-train-near-barcelona-hits-collapsed-wall-injuring-several-people
+评论网址：https://news.ycombinator.com/item?id=46704972
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=iVoWI67NqRY</guid>
-      <pubDate>Wed, 21 Jan 2026 09:21:01 GMT</pubDate>
+      <guid>https://www.theguardian.com/world/2026/jan/20/commuter-train-near-barcelona-hits-collapsed-wall-injuring-several-people</guid>
+      <pubDate>Wed, 21 Jan 2026 12:48:47 GMT</pubDate>
     </item>
     <item>
-      <title>古怪的分体式键盘，glove80 – Dev Oops</title>
-      <link>https://mcgillij.dev/glove80.html</link>
-      <description><![CDATA[文章网址：https://mcgillij.dev/glove80.html
-评论网址：https://news.ycombinator.com/item?id=46703090
+      <title>Transit：一种数据交换格式</title>
+      <link>https://github.com/cognitect/transit-format</link>
+      <description><![CDATA[文章网址：https://github.com/cognitect/transit-format
+评论网址：https://news.ycombinator.com/item?id=46704966
 积分：1
 # 条评论：0]]></description>
-      <guid>https://mcgillij.dev/glove80.html</guid>
-      <pubDate>Wed, 21 Jan 2026 09:20:14 GMT</pubDate>
+      <guid>https://github.com/cognitect/transit-format</guid>
+      <pubDate>Wed, 21 Jan 2026 12:48:11 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：RobyGraph – 一款在浏览器中对 AI 代理进行编程的图形策略游戏</title>
-      <link>https://www.yfiles.com/robygraph</link>
-      <description><![CDATA[文章网址：https://www.yfiles.com/robygraph
-评论网址：https://news.ycombinator.com/item?id=46703079
-积分：2
-# 条评论：1]]></description>
-      <guid>https://www.yfiles.com/robygraph</guid>
-      <pubDate>Wed, 21 Jan 2026 09:18:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>魔法 SysRq 密钥</title>
-      <link>https://en.wikipedia.org/wiki/Magic_SysRq_key</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Magic_SysRq_key
-评论网址：https://news.ycombinator.com/item?id=46703064
-积分：2
-# 条评论：1]]></description>
-      <guid>https://en.wikipedia.org/wiki/Magic_SysRq_key</guid>
-      <pubDate>Wed, 21 Jan 2026 09:16:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我制作了 StarDesk，专为游戏和工作而打造的 P2P 低延迟远程桌面</title>
-      <link>https://www.stardesk.net/</link>
-      <description><![CDATA[嗨，HN，
-我是 StarDesk 背后的开发人员之一，这是一个 P2P 优先的远程桌面，我们已经构建了约一年。
-我们之所以开始这样做，部分原因是出于沮丧：一些流行的 RDP 工具很长一段时间没有看到有意义的更新，而且长期存在的问题往往没有得到解决。作为开发人员，我们真的不喜欢一旦“运行得足够好”就停滞不前的软件。
-StarDesk 是我们尝试以不同的方式做到这一点。我们关注的重点是：
--默认 P2P（中继作为后备）-低 RTT + 低抖动 &gt; 追逐最大比特率-为实时交互而调整的编码器/输入路径-现代 E2EE (TLS/DTLS)UX 方面，设置故意无聊：
-PC 到 PC 在大约 5 分钟内连接，没有特殊的环境，没有奇怪的网络配置。仅这一点就为我们在日常工作中节省了大量时间。StarDesk 还处于早期阶段，WIP。功能集有限，但延迟对于实时使用来说已经很稳定了。我们计划继续公开快速迭代。希望您能给我们一些想法来让它变得更强大。如果您构建或使用过低延迟远程或流媒体系统，我很想听听您的想法！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46703025
-积分：5
-# 条评论：5]]></description>
-      <guid>https://www.stardesk.net/</guid>
-      <pubDate>Wed, 21 Jan 2026 09:10:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>导演戈尔·维宾斯基：虚幻引擎是电影最大的倒退</title>
-      <link>https://www.pcgamer.com/movies-tv/director-gore-verbinski-says-unreal-engine-is-the-greatest-slip-backwards-for-movie-cgi/</link>
-      <description><![CDATA[文章网址： https://www.pcgamer.com/movies-tv/director-gore-verbinski-says-unreal-engine-is-the-greatest-slip-backwards-for-movie-cgi/
-评论网址：https://news.ycombinator.com/item?id=46703019
-积分：9
-# 条评论：7]]></description>
-      <guid>https://www.pcgamer.com/movies-tv/director-gore-verbinski-says-unreal-engine-is-the-greatest-slip-backwards-for-movie-cgi/</guid>
-      <pubDate>Wed, 21 Jan 2026 09:09:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>拉尔夫·威古姆 饰 “软件工程师”</title>
-      <link>https://ghuntley.com/ralph/</link>
-      <description><![CDATA[文章网址：https://ghuntley.com/ralph/
-评论网址：https://news.ycombinator.com/item?id=46703014
+      <title>重新发现伽罗瓦理论</title>
+      <link>https://groshanlal.github.io/math/2026/01/14/galois-1.html</link>
+      <description><![CDATA[文章网址：https://groshanlal.github.io/math/2026/01/14/galois-1.html
+评论网址：https://news.ycombinator.com/item?id=46704954
 积分：1
 # 条评论：0]]></description>
-      <guid>https://ghuntley.com/ralph/</guid>
-      <pubDate>Wed, 21 Jan 2026 09:09:22 GMT</pubDate>
+      <guid>https://groshanlal.github.io/math/2026/01/14/galois-1.html</guid>
+      <pubDate>Wed, 21 Jan 2026 12:47:19 GMT</pubDate>
     </item>
     <item>
-      <title>埃多</title>
-      <link>https://github.com/walterra/eddoapp</link>
-      <description><![CDATA[文章网址：https://github.com/walterra/eddoapp
-评论网址：https://news.ycombinator.com/item?id=46703011
+      <title>显示 HN：SERP 和 Reader API（起价 0.56 美元/1000 美元）。没有每月订阅</title>
+      <link>https://www.searchcans.com/</link>
+      <description><![CDATA[文章网址：https://www.searchcans.com/
+评论网址：https://news.ycombinator.com/item?id=46704948
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/walterra/eddoapp</guid>
-      <pubDate>Wed, 21 Jan 2026 09:08:41 GMT</pubDate>
+      <guid>https://www.searchcans.com/</guid>
+      <pubDate>Wed, 21 Jan 2026 12:46:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：cc-cleaner – AI编码时代的缓存清理器</title>
+      <link>https://github.com/elexingyu/cc-cleaner</link>
+      <description><![CDATA[文章网址：https://github.com/eleshingyu/cc-cleaner
+评论网址：https://news.ycombinator.com/item?id=46704945
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/elexingyu/cc-cleaner</guid>
+      <pubDate>Wed, 21 Jan 2026 12:46:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>振动编码#2</title>
+      <link>https://matklad.github.io/2026/01/20/vibecoding-2.html</link>
+      <description><![CDATA[文章网址：https://matklad.github.io/2026/01/20/vibecoding-2.html
+评论网址：https://news.ycombinator.com/item?id=46704943
+积分：1
+# 条评论：0]]></description>
+      <guid>https://matklad.github.io/2026/01/20/vibecoding-2.html</guid>
+      <pubDate>Wed, 21 Jan 2026 12:46:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>在实例较多的场景中管理 HWRT</title>
+      <link>https://real-mrbeam.github.io/2026/01/20/Managing-HWRT-in-Instance-Heavy-Scenes.html</link>
+      <description><![CDATA[文章网址：https://real-mrbeam.github.io/2026/01/20/Managing-HWRT-in-Instance-Heavy-Scenes.html
+评论网址：https://news.ycombinator.com/item?id=46704935
+积分：1
+# 条评论：0]]></description>
+      <guid>https://real-mrbeam.github.io/2026/01/20/Managing-HWRT-in-Instance-Heavy-Scenes.html</guid>
+      <pubDate>Wed, 21 Jan 2026 12:45:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>我告诉克劳德建立一名行政助理。这就是现在工作的样子</title>
+      <link>https://twitter.com/obie/status/2013955736292704342</link>
+      <description><![CDATA[文章网址：https://twitter.com/obie/status/2013955736292704342
+评论网址：https://news.ycombinator.com/item?id=46704931
+积分：1
+# 条评论：0]]></description>
+      <guid>https://twitter.com/obie/status/2013955736292704342</guid>
+      <pubDate>Wed, 21 Jan 2026 12:45:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>针对肠道的设备可维持 GLP-1 药物的减肥效果</title>
+      <link>https://spectrum.ieee.org/weight-loss-devices</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/weight-loss-devices
+评论网址：https://news.ycombinator.com/item?id=46704928
+积分：1
+# 条评论：0]]></description>
+      <guid>https://spectrum.ieee.org/weight-loss-devices</guid>
+      <pubDate>Wed, 21 Jan 2026 12:45:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何使用 Vice 模拟 C64 调制解调器并拨打 BBS</title>
+      <link>https://retrogamecoders.com/vice-c64-modem-emulation/</link>
+      <description><![CDATA[文章网址：https://retrogamecoders.com/vice-c64-modem-emulation/
+评论网址：https://news.ycombinator.com/item?id=46704925
+积分：1
+# 条评论：0]]></description>
+      <guid>https://retrogamecoders.com/vice-c64-modem-emulation/</guid>
+      <pubDate>Wed, 21 Jan 2026 12:44:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
