@@ -4,106 +4,111 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 22 Jan 2026 15:31:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 18:34:13 GMT</lastBuildDate>
+    <item>
+      <title>马克龙表示，每年汇往美国的欧盟储蓄中的300B欧元将投资于欧盟</title>
+      <link>https://old.reddit.com/r/europe/comments/1qjtvtl/macron_says_300_billion_in_european_savings_flown/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/europe/comments/1qjtvtl/macron_says_300_billion_in_european_ savings_flown/
+评论网址：https://news.ycombinator.com/item?id=46722594
+积分：43
+# 条评论：12]]></description>
+      <guid>https://old.reddit.com/r/europe/comments/1qjtvtl/macron_says_300_billion_in_european_savings_flown/</guid>
+      <pubDate>Thu, 22 Jan 2026 17:42:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>CSS 视错觉</title>
+      <link>https://alvaromontoro.com/blog/68091/css-optical-illusions</link>
+      <description><![CDATA[文章网址：https://alvaromontoro.com/blog/68091/css-optical-illusions
+评论网址：https://news.ycombinator.com/item?id=46722570
+积分：16
+# 条评论：1]]></description>
+      <guid>https://alvaromontoro.com/blog/68091/css-optical-illusions</guid>
+      <pubDate>Thu, 22 Jan 2026 17:41:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>发射 HN：星座空间 (YC W26) – 用于卫星任务保证的人工智能</title>
+      <link>https://constellation-io.com/</link>
+      <description><![CDATA[嗨，HN！我们是来自 Constellation Space 的 Kamran、Raaid、Laith 和 Omeed。我们构建了一个人工智能系统，可以在卫星链路故障发生之前进行预测 (https://youtu.be/069V9fADAtM)。
+我们多年来一直在 SpaceX、蓝色起源和 NASA 从事卫星运营工作。在 SpaceX，我们管理星链的星座健康状况。在 Blue，我们致力于为新格伦开发下一代测试基础设施。在美国宇航局，我们负责深空通信。同样的问题不断出现：当您注意到链路性能下降时，您通常已经丢失了数据。核心问题是卫星射频链路受到数十个相互作用变量的影响。一颗卫星从头顶掠过，您需要预测该链路是否会在接下来的几分钟内保持不变。这取决于：轨道几何形状（仰角不断变化）、对流层衰减（湿度通过 ITU-R P.676 影响信号损失）、雨衰（通过 ITU-R P.618 计算 - 降雨率（毫米/小时）直接转换为 Ka 波段及以上波段的损失 dB）、电离层闪烁（我们从磁力计网络跟踪 KP 指数）以及网络拥塞。传统方法是反应性的。操作员观察仪表板，当 SNR 降至阈值以下时，他们会手动重新路由流量或切换到备份链路。目前，轨道上有 10,000 颗卫星，预计到 2030 年将有 70,000 多颗卫星，这一数字无法扩展。
+我们的系统以每秒约 100,000 条消息的速度从卫星、地面站、气象雷达、物联网湿度传感器和空间气象监测器接收遥测数据。我们实时运行基于物理的模型 - 完整的链路预算方程、国际电联大气标准、轨道传播 - 来计算应该发生的情况。然后，我们将 ML 模型分层，对来自实际多轨道操作的数十亿个数据点进行训练。ML 部分才是有趣的地方。我们使用联邦学习是因为星座运营商（可以理解）不想共享原始遥测数据。每个星座都根据自己的数据训练本地模型，并且我们仅聚合高级模式。这为我们提供了跨不同轨道类型和频段的迁移学习——从 LEO Ka 频段链路中学习有助于优化 MEO 或 GEO 操作。
+我们可以在 3-5 分钟内预测大多数链路故障，准确率 &gt;90%，这为在数据丢失之前重新路由流量提供了足够的时间。该系统已完全容器化 (Docker/Kubernetes)，并可在 GovCloud（AWS GovCloud、Azure Government）或标准商业云上本地部署气隙环境。目前，我们正在与国防和商业合作伙伴进行测试。仪表板显示实时链路运行状况、60/180/300 秒后的预测以及根本原因分析（雨势减弱了吗？卫星设置在地平线以下？拥塞？）。我们通过 API 公开一切 - 遥测摄取、预测、拓扑快照，甚至是用于自然语言故障排除的 LLM 聊天端点。我们仍在研究的困难部分：预测准确性会随着时间范围的延长而降低（超过 5 分钟就很危险），我们需要针对罕见的边缘情况提供更多标记的故障数据，并且联邦学习设置需要跨不同运营商的安全边界进行仔细编排。
+我们希望得到任何从事卫星操作、射频链路建模或大规模时间序列预测工作的人的反馈。我们缺少什么？是什么让它在生产 NOC 环境中真正有用？很高兴回答任何技术问题！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46721933
+积分：9
+# 条评论：0]]></description>
+      <guid>https://constellation-io.com/</guid>
+      <pubDate>Thu, 22 Jan 2026 17:03:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>回答这个（YC F25）正在招聘</title>
+      <link>https://www.ycombinator.com/companies/answerthis/jobs/r5VHmSC-ai-agent-orchestration</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/answerthis/jobs/r5VHmSC-ai-agent-orchestration
+评论网址：https://news.ycombinator.com/item?id=46721897
+积分：0
+# 条评论：0]]></description>
+      <guid>https://www.ycombinator.com/companies/answerthis/jobs/r5VHmSC-ai-agent-orchestration</guid>
+      <pubDate>Thu, 22 Jan 2026 17:00:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: isometric.nyc – 纽约市巨型等距像素艺术地图</title>
+      <link>https://cannoneyed.com/isometric-nyc/</link>
+      <description><![CDATA[文章网址：https://cannoneyed.com/isometric-nyc/
+评论网址：https://news.ycombinator.com/item?id=46721802
+积分：80
+# 条评论：29]]></description>
+      <guid>https://cannoneyed.com/isometric-nyc/</guid>
+      <pubDate>Thu, 22 Jan 2026 16:52:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>状态/需求分类标签似乎已被删除</title>
+      <link>https://github.com/google-gemini/gemini-cli/issues/16728</link>
+      <description><![CDATA[文章网址：https://github.com/google-gemini/gemini-cli/issues/16728
+评论网址：https://news.ycombinator.com/item?id=46721179
+积分：93
+# 条评论：23]]></description>
+      <guid>https://github.com/google-gemini/gemini-cli/issues/16728</guid>
+      <pubDate>Thu, 22 Jan 2026 16:10:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPTZero 在 NeurIPS 2025 接受的论文中发现 100 个新的幻觉</title>
+      <link>https://gptzero.me/news/neurips/</link>
+      <description><![CDATA[文章网址：https://gptzero.me/news/neurips/
+评论网址：https://news.ycombinator.com/item?id=46720395
+积分：350
+# 条评论：200]]></description>
+      <guid>https://gptzero.me/news/neurips/</guid>
+      <pubDate>Thu, 22 Jan 2026 15:20:48 GMT</pubDate>
+    </item>
     <item>
       <title>树看护者与语言服务器</title>
       <link>https://lambdaland.org/posts/2026-01-21_tree-sitter_vs_lsp/</link>
       <description><![CDATA[文章网址：https://lambdaland.org/posts/2026-01-21_tree-sitter_vs_lsp/
 评论网址：https://news.ycombinator.com/item?id=46719899
-积分：3
-# 条评论：0]]></description>
+积分：118
+# 条评论：33]]></description>
       <guid>https://lambdaland.org/posts/2026-01-21_tree-sitter_vs_lsp/</guid>
       <pubDate>Thu, 22 Jan 2026 14:47:58 GMT</pubDate>
     </item>
     <item>
-      <title>Palantir、Meta、OpenAI 高管被任命为美国陆军中校</title>
-      <link>https://twitter.com/SecArmy/status/1933693585183965372</link>
-      <description><![CDATA[文章网址：https://twitter.com/SecArmy/status/1933693585183965372
-评论网址：https://news.ycombinator.com/item?id=46719704
-积分：52
-# 条评论：24]]></description>
-      <guid>https://twitter.com/SecArmy/status/1933693585183965372</guid>
-      <pubDate>Thu, 22 Jan 2026 14:32:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>您现在可以下载包含所有更新的 Windows 7 和 Vista ISO 映像</title>
-      <link>https://www.neowin.net/news/you-can-now-download-windows-7-and-vista-iso-images-with-every-possible-update-included/</link>
-      <description><![CDATA[文章网址：https://www.neowin.net/news/you-can-now-download-windows-7-and-vista-iso-images-with-every-possible-update-included/
-评论网址：https://news.ycombinator.com/item?id=46719489
-积分：32
-# 条评论：20]]></description>
-      <guid>https://www.neowin.net/news/you-can-now-download-windows-7-and-vista-iso-images-with-every-possible-update-included/</guid>
-      <pubDate>Thu, 22 Jan 2026 14:14:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>认识因吃人工智能艺术展而被捕的阿拉斯加学生</title>
-      <link>https://www.thenation.com/article/society/alaska-student-arrested-eating-ai-art-exhibit/</link>
-      <description><![CDATA[文章网址：https://www.thenation.com/article/society/alaska-student-arrested-eating-ai-art-exhibit/
-评论网址：https://news.ycombinator.com/item?id=46719465
-积分：22
-# 条评论：5]]></description>
-      <guid>https://www.thenation.com/article/society/alaska-student-arrested-eating-ai-art-exhibit/</guid>
-      <pubDate>Thu, 22 Jan 2026 14:12:13 GMT</pubDate>
+      <title>在欧洲，风能和太阳能取代化石燃料</title>
+      <link>https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels</link>
+      <description><![CDATA[文章网址：https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels
+评论网址：https://news.ycombinator.com/item?id=46719491
+积分：310
+评论数：295]]></description>
+      <guid>https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels</guid>
+      <pubDate>Thu, 22 Jan 2026 14:14:15 GMT</pubDate>
     </item>
     <item>
       <title>Qwen3-TTS 系列现已开源：语音设计、克隆和生成</title>
       <link>https://qwen.ai/blog?id=qwen3tts-0115</link>
       <description><![CDATA[文章网址：https://qwen.ai/blog?id=qwen3tts-0115
 评论网址：https://news.ycombinator.com/item?id=46719229
-积分：5
-# 条评论：0]]></description>
+积分：211
+# 条评论：54]]></description>
       <guid>https://qwen.ai/blog?id=qwen3tts-0115</guid>
       <pubDate>Thu, 22 Jan 2026 13:51:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>道格拉斯·亚当斯谈英美“英雄”文化分歧</title>
-      <link>https://shreevatsa.net/post/douglas-adams-cultural-divide/</link>
-      <description><![CDATA[文章网址：https://shreevatsa.net/post/douglas-adams-culture-divide/
-评论网址：https://news.ycombinator.com/item?id=46719222
-积分：157
-# 条评论：117]]></description>
-      <guid>https://shreevatsa.net/post/douglas-adams-cultural-divide/</guid>
-      <pubDate>Thu, 22 Jan 2026 13:50:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>现在使用 Mqtts</title>
-      <link>https://daniel.haxx.se/blog/2026/01/19/now-with-mqtts/</link>
-      <description><![CDATA[文章网址：https://daniel.haxx.se/blog/2026/01/19/now-with-mqtts/
-评论网址：https://news.ycombinator.com/item?id=46718869
-积分：15
-# 条评论：1]]></description>
-      <guid>https://daniel.haxx.se/blog/2026/01/19/now-with-mqtts/</guid>
-      <pubDate>Thu, 22 Jan 2026 13:18:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Flowtel (YC W25) 正在招聘</title>
-      <link>https://www.ycombinator.com/companies/flowtel/jobs/LaddaEz-founding-engineer-staff-senior</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/flowtel/jobs/LaddaEz-founding-engineer-staff-senior
-评论网址：https://news.ycombinator.com/item?id=46718140
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/flowtel/jobs/LaddaEz-founding-engineer-staff-senior</guid>
-      <pubDate>Thu, 22 Jan 2026 12:00:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>你必须阅读的设计思维书籍</title>
-      <link>https://www.designorate.com/design-thinking-books/</link>
-      <description><![CDATA[文章网址：https://www.designorate.com/design-thinking-books/
-评论网址：https://news.ycombinator.com/item?id=46718061
-积分：133
-# 条评论：58]]></description>
-      <guid>https://www.designorate.com/design-thinking-books/</guid>
-      <pubDate>Thu, 22 Jan 2026 11:51:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果您在垃圾报告上浪费我们的时间，我们将禁止您并公开嘲笑您</title>
-      <link>https://curl.se/.well-known/security.txt</link>
-      <description><![CDATA[文章网址：https://curl.se/.well-known/security.txt
-评论网址：https://news.ycombinator.com/item?id=46717556
-积分：583
-# 条评论：336]]></description>
-      <guid>https://curl.se/.well-known/security.txt</guid>
-      <pubDate>Thu, 22 Jan 2026 10:48:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
