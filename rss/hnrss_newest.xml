@@ -4,110 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 21 Jan 2026 21:29:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 01:49:37 GMT</lastBuildDate>
     <item>
-      <title>靠近一点，这样我就能听到鸟叫声</title>
-      <link>https://terratauri.com/blog/get-closer-so-i-can-hear-the-birds/</link>
-      <description><![CDATA[文章网址：https://terratauri.com/blog/get-closer-so-i-can-hear-the-birds/
-评论网址：https://news.ycombinator.com/item?id=46711721
+      <title>FBI：常见欺诈和骗局</title>
+      <link>https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams</link>
+      <description><![CDATA[文章网址：https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams
+评论网址：https://news.ycombinator.com/item?id=46714117
 积分：1
 # 条评论：0]]></description>
-      <guid>https://terratauri.com/blog/get-closer-so-i-can-hear-the-birds/</guid>
-      <pubDate>Wed, 21 Jan 2026 21:20:37 GMT</pubDate>
+      <guid>https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams</guid>
+      <pubDate>Thu, 22 Jan 2026 01:37:55 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Ablly AI Transport – 代理应用程序的传输层</title>
-      <link>https://ably.com/docs/ai-transport</link>
-      <description><![CDATA[嘿 HN，这里是 Ably 的工程师。在过去的几个月里，我一直在与构建 AI 助手、副驾驶和代理工作流程的工程师（目前已超过 40 家公司）进行交谈，特别关注云托管代理。我预计困难问题将出现在模型选择、提示工程和编排方面。相反，同样的基础设施挑战不断出现：代理和最终客户端之间的实时同步很难正确实现。- 管理和扩展代理与客户端之间的 WebSocket 或 SSE 连接- 在服务器端缓冲消息并实现重新连接客户端的重播逻辑- 跟踪每个客户端在多个设备上收到的内容- 确保初始加载时历史响应和实时响应之间的连续性- 将重新连接的客户端路由到分布式中的正确代理实例部署Ably AI Transport 解决了这个问题：它是位于代理和最终用户设备之间的嵌入式传输层。我们发现许多公司已经在使用 Ably Pub/Sub 来解决这些问题。发布/订阅模式将代理与客户端解耦：代理发布到通道，客户端订阅，Ablly 处理交付和重播。AI Transport 使这一切变得更容易 - 例如，我们添加了用于高效令牌流的消息附加，以及用于附加引文等元数据的注释。一些有趣的技术部分：- 面向通道的架构：在面向连接的设置中，连接将代理带入生活。如果连接断开，重新连接时代理必须弄清楚每个客户端丢失的状态。 AI Transport 使用通道代替：代理发布，客户端订阅，通道处理重播。状态事件让代理能够检测用户何时上线/离线或从多个设备进行连接。- 解耦的发布/订阅中的身份：用户通过您的服务器进行身份验证，该服务器会发出带有嵌入式 clientId 和功能的 JWT。代理接收具有经过加密验证的身份的消息。用户声明（JWT 中的ively.channel.*）出现在 message.extras.userClaim 中 - 对于 HITL 工作流程非常有用，您可以在执行工具调用之前验证批准者的角色。- 带附加的令牌流：新的 message.append 操作可让您增量构建响应。中途加入的客户端会收到一条消息。更新到目前为止的完整响应，然后接收后续追加。频道历史记录每个响应包含一条压缩消息。- 引文注释：将引文元数据附加到响应而不修改内容。客户端可以订阅单独的注释或通过 REST 按需获取它们。 Ably 还会自动将注释聚合成摘要（例如按域名计数），然后实时传送给客户端。- 消息传递模式：文档包括工具调用、人机交互批准流程和思想链流的模式。文档：https://ously.com/docs/ai-transport如果您正在构建 AI UX，我很想听听您遇到了哪些问题以及您内部构建了哪些内容。谢谢！Mike Christensen
+      <title>逻辑智能引入LeCun，宣扬人工智能突破</title>
+      <link>https://www.ft.com/content/157bb0e3-9d6c-47ac-afc5-6944981e10ef</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/157bb0e3-9d6c-47ac-afc5-6944981e10ef
+评论网址：https://news.ycombinator.com/item?id=46714071
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.ft.com/content/157bb0e3-9d6c-47ac-afc5-6944981e10ef</guid>
+      <pubDate>Thu, 22 Jan 2026 01:32:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：GluonDB – 数据库的游标</title>
+      <link>https://gluondb.com</link>
+      <description><![CDATA[我正在构建 gluonDB，以使小型团队更快、更容易地进行数据监控。认为 Metabase 与 Cursor 相遇：您连接数据库并使用 AI 代理以简单的英语提出问题。该代理会生成您可以与您的团队共享的仪表板。状态：我们处于早期测试阶段。
+- 支持：目前针对 Postgres 兼容数据库（Supabase、RDS 等）进行了优化。欢迎提供所有反馈，我将在这里回答有关技术或路线图的问题。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46711706
+评论网址：https://news.ycombinator.com/item?id=46714067
 积分：1
 # 条评论：0]]></description>
-      <guid>https://ably.com/docs/ai-transport</guid>
-      <pubDate>Wed, 21 Jan 2026 21:18:57 GMT</pubDate>
+      <guid>https://gluondb.com</guid>
+      <pubDate>Thu, 22 Jan 2026 01:32:14 GMT</pubDate>
     </item>
     <item>
-      <title>人脸形状检测器</title>
-      <link>https://whatismyfaceshape.net/</link>
-      <description><![CDATA[文章网址：https://whatismyfaceshape.net/
-评论网址：https://news.ycombinator.com/item?id=46711686
+      <title>咖啡价格为何飞涨</title>
+      <link>https://english.elpais.com/economy-and-business/2025-12-28/why-the-price-of-coffee-has-skyrocketed-from-brazilian-plantations-to-specialty-coffee-houses.html</link>
+      <description><![CDATA[文章网址： https://english.elpais.com/economy-and-business/2025-12-28/why-the-price-of-coffee-has-skyrocketed-from-brazilian-plantations-to-specialty-coffee-houses.html
+评论网址：https://news.ycombinator.com/item?id=46714055
+积分：1
+# 条评论：0]]></description>
+      <guid>https://english.elpais.com/economy-and-business/2025-12-28/why-the-price-of-coffee-has-skyrocketed-from-brazilian-plantations-to-specialty-coffee-houses.html</guid>
+      <pubDate>Thu, 22 Jan 2026 01:30:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>ICE称警察可以在没有司法令的情况下强行进入住宅</title>
+      <link>https://www.nbcnews.com/news/us-news/ice-policy-officers-enter-homes-immigration-without-judicial-warrant-rcna255305</link>
+      <description><![CDATA[文章网址：https://www.nbcnews.com/news/us-news/ice-policy-officers-enter-homes-immigration-without-judicial-warrant-rcna255305
+评论网址：https://news.ycombinator.com/item?id=46714041
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nbcnews.com/news/us-news/ice-policy-officers-enter-homes-immigration-without-judicial-warrant-rcna255305</guid>
+      <pubDate>Thu, 22 Jan 2026 01:29:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>实时头部跟踪 3D 查看器头部耦合透视效果</title>
+      <link>https://off-axis-sneaker.bolt.host/</link>
+      <description><![CDATA[文章网址：https://off-axis-sneaker.bolt.host/
+评论网址：https://news.ycombinator.com/item?id=46714035
 积分：1
 # 条评论：1]]></description>
-      <guid>https://whatismyfaceshape.net/</guid>
-      <pubDate>Wed, 21 Jan 2026 21:17:51 GMT</pubDate>
+      <guid>https://off-axis-sneaker.bolt.host/</guid>
+      <pubDate>Thu, 22 Jan 2026 01:27:47 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Tandem – 开源跨平台 AI 同事 (Tauri)</title>
-      <link>https://news.ycombinator.com/item?id=46711652</link>
-      <description><![CDATA[我构建了 Tandem，一个在 Windows/Linux/macOS 上运行的开源桌面“AI 同事”。
-我也想在 Windows/Linux 上使用此工作流程（很多类似的工具都是 macOS 优先）。工作原理：计划模式：助手提出任务列表→您查看→批量执行工件：在工作区中生成可共享的 HTML 报告/仪表板作为真实文件BYOK 模型/提供程序：OpenRouter / OpenAI / Anthropic / Ollama存储库：https://github.com/frumu-ai/tandem下载：https://tandem.frumu.ai/接下来我应该演示什么：网络研究刷新、法律研究还是脚本工作室？
+      <title>Show HN：Faramesh – 随机自主 AI 代理的确定性门</title>
+      <link>https://news.ycombinator.com/item?id=46714023</link>
+      <description><![CDATA[在过去的几个月里，我观察了 LLM 代理如何通过“vibe-code”进入生产灾难。我们一直假装 500 字的系统提示是一个安全层。事实并非如此。这只是一个礼貌的请求，该模型一越狱就不会被忽略。我构建 Faramesh 是因为我想要在代理的“大脑”和我的实际基础设施之间建立一个硬性的加密边界。它拦截工具调用并在任何代码运行之前强制它们通过确定性门。如果该操作不在您的策略中，则它根本不存在。最令人头痛的是 canonicalization.py。 LLM 很混乱——一个模型发送浮点数为 1.0，另一个模型发送浮点数为 1.00，并且每次都会破坏加密哈希。我编写了一个规范化引擎，以确保相同的意图产生完全相同的字节流和哈希值。它是开源的（Python/Node SDK）。我很好奇人们是否认为这应该存在于框架级别或作为独立代理。拆解代码：https://github.com/faramesh/faramesh-core对于理论爱好者，我邀请您阅读我最近发表的一篇论文，题为“Faramesh：用于自治代理系统的与协议无关的执行控制平面”（链接如下）https://doi.org/10.5281/zenodo.18296731
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46711652
-积分：1
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=46711652</guid>
-      <pubDate>Wed, 21 Jan 2026 21:14:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN: TerabyteDeals – 按 $/TB 比较存储价格</title>
-      <link>https://terabytedeals.com</link>
-      <description><![CDATA[我构建了一个简单的工具，按每 TB 价格比较硬盘和 SSD 的价格。在购买 NAS 驱动器时，我一直需要手动计算每 TB 美元的价格，因此我这样做是为了省去自己的麻烦。它从亚马逊（美国、加拿大、澳大利亚和欧盟商店）获取价格，计算每 TB 美元的价格，并让您按驱动器类型、接口、外形尺寸和容量进行筛选。没什么花哨的 — 只是每天更新的可排序表格。任何非常欢迎反馈，我希望有人会觉得它有用！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46711649
+评论网址：https://news.ycombinator.com/item?id=46714023
 积分：1
 # 条评论：0]]></description>
-      <guid>https://terabytedeals.com</guid>
-      <pubDate>Wed, 21 Jan 2026 21:13:59 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46714023</guid>
+      <pubDate>Thu, 22 Jan 2026 01:26:58 GMT</pubDate>
     </item>
     <item>
-      <title>印度尼西亚发现最古老的洞穴艺术</title>
-      <link>https://www.barrons.com/news/world-s-oldest-cave-art-discovered-in-indonesia-3ddd2a48</link>
-      <description><![CDATA[文章网址：https://www.barrons.com/news/world-s-oldest-cave-art-discovered-in-indonesia-3ddd2a48
-评论网址：https://news.ycombinator.com/item?id=46711639
+      <title>浏览器实验室：在浏览器中运行的 3D 编辑器和创意编码环境</title>
+      <link>https://github.com/icurtis1/thebrowserlab</link>
+      <description><![CDATA[文章网址：https://github.com/icurtis1/thebrowserlab
+评论网址：https://news.ycombinator.com/item?id=46714016
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.barrons.com/news/world-s-oldest-cave-art-discovered-in-indonesia-3ddd2a48</guid>
-      <pubDate>Wed, 21 Jan 2026 21:13:33 GMT</pubDate>
+      <guid>https://github.com/icurtis1/thebrowserlab</guid>
+      <pubDate>Thu, 22 Jan 2026 01:25:34 GMT</pubDate>
     </item>
     <item>
-      <title>Typeframe PS-85 – 受外星人启发的便携式</title>
-      <link>https://www.typeframe.net/docs/ps-85</link>
-      <description><![CDATA[文章网址：https://www.typeframe.net/docs/ps-85
-评论网址：https://news.ycombinator.com/item?id=46711631
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.typeframe.net/docs/ps-85</guid>
-      <pubDate>Wed, 21 Jan 2026 21:12:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：石原（色盲）测试生成器</title>
-      <link>https://connorboyle.io/ishihara/</link>
-      <description><![CDATA[文章网址：https://connorboyle.io/ishihara/
-评论网址：https://news.ycombinator.com/item?id=46711616
+      <title>为不信任政府的人提供的小工具</title>
+      <link>https://www.youtube.com/watch?v=W_F4rEaRduk</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=W_F4rEaRduk
+评论网址：https://news.ycombinator.com/item?id=46714013
 积分：1
 # 条评论：0]]></description>
-      <guid>https://connorboyle.io/ishihara/</guid>
-      <pubDate>Wed, 21 Jan 2026 21:11:35 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=W_F4rEaRduk</guid>
+      <pubDate>Thu, 22 Jan 2026 01:24:51 GMT</pubDate>
     </item>
     <item>
-      <title>如果人工智能既好又不那么具有破坏性怎么办？</title>
-      <link>https://deadneurons.substack.com/p/what-if-ai-is-both-really-good-and</link>
-      <description><![CDATA[文章网址：https://deadneurons.substack.com/p/what-if-ai-is-both-really-good-and
-评论网址：https://news.ycombinator.com/item?id=46711615
-积分：1
+      <title>1993 年：Web 浏览器添加多媒体，Mtv.com 上线</title>
+      <link>https://cybercultural.com/p/1993-mtv-internet/</link>
+      <description><![CDATA[文章网址：https://cyberculture.com/p/1993-mtv-internet/
+评论网址：https://news.ycombinator.com/item?id=46713988
+积分：2
 # 条评论：0]]></description>
-      <guid>https://deadneurons.substack.com/p/what-if-ai-is-both-really-good-and</guid>
-      <pubDate>Wed, 21 Jan 2026 21:11:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Grok 公开详细的账户压制信息</title>
-      <link>https://twitter.com/realstewpeters/status/2013848860771144075</link>
-      <description><![CDATA[文章网址：https://twitter.com/realstewpeters/status/2013848860771144075
-评论网址：https://news.ycombinator.com/item?id=46711607
-积分：3
-# 条评论：0]]></description>
-      <guid>https://twitter.com/realstewpeters/status/2013848860771144075</guid>
-      <pubDate>Wed, 21 Jan 2026 21:10:40 GMT</pubDate>
+      <guid>https://cybercultural.com/p/1993-mtv-internet/</guid>
+      <pubDate>Thu, 22 Jan 2026 01:21:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
