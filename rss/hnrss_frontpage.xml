@@ -4,65 +4,64 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 23 Jan 2026 01:46:08 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 04:05:18 GMT</lastBuildDate>
     <item>
-      <title>Vibe 吉他踏板</title>
-      <link>https://polyend.com/endless/</link>
-      <description><![CDATA[文章网址：https://polyend.com/endless/
-评论网址：https://news.ycombinator.com/item?id=46726907
-积分：11
-# 条评论：11]]></description>
-      <guid>https://polyend.com/endless/</guid>
-      <pubDate>Fri, 23 Jan 2026 00:29:07 GMT</pubDate>
+      <title>苹果喜欢的虫子</title>
+      <link>https://www.bugsappleloves.com</link>
+      <description><![CDATA[文章网址：https://www.bugsappleloves.com
+评论网址：https://news.ycombinator.com/item?id=46727587
+积分：236
+# 条评论：69]]></description>
+      <guid>https://www.bugsappleloves.com</guid>
+      <pubDate>Fri, 23 Jan 2026 02:24:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>隧道</title>
+      <link>https://www.stunnel.org/</link>
+      <description><![CDATA[文章网址：https://www.stunnel.org/
+评论网址：https://news.ycombinator.com/item?id=46726916
+积分：35
+# 条评论：7]]></description>
+      <guid>https://www.stunnel.org/</guid>
+      <pubDate>Fri, 23 Jan 2026 00:30:20 GMT</pubDate>
     </item>
     <item>
       <title>为什么中世纪城市建设视频游戏在历史上不准确（2020）</title>
       <link>https://www.leidenmedievalistsblog.nl/articles/why-medieval-city-builder-video-games-are-historically-inaccurate</link>
       <description><![CDATA[文章网址：https://www.leidenmedievalistsblog.nl/articles/why-medieval-city-builder-video-games-are-historically-inaccurate
 评论网址：https://news.ycombinator.com/item?id=46726857
-积分：36
-评论数量：9]]></description>
+积分：78
+# 条评论：40]]></description>
       <guid>https://www.leidenmedievalistsblog.nl/articles/why-medieval-city-builder-video-games-are-historically-inaccurate</guid>
       <pubDate>Fri, 23 Jan 2026 00:22:58 GMT</pubDate>
     </item>
     <item>
-      <title>亚稳态故障和系统之间的相互作用</title>
-      <link>https://charap.co/on-metastable-failures-and-interactions-between-systems/</link>
-      <description><![CDATA[文章网址：https://charap.co/on-metastable-failures-and-interactions- Between-systems/
-评论网址：https://news.ycombinator.com/item?id=46726808
-积分：6
-# 条评论：0]]></description>
-      <guid>https://charap.co/on-metastable-failures-and-interactions-between-systems/</guid>
-      <pubDate>Fri, 23 Jan 2026 00:16:22 GMT</pubDate>
+      <title>阿肯色州囚犯禁止直接接收实体书籍和其他媒体</title>
+      <link>https://arkansasadvocate.com/2025/12/19/arkansas-inmates-restricted-from-receiving-physical-books-other-media-directly-under-new-policy/</link>
+      <description><![CDATA[文章网址： https://arkansasadvocate.com/2025/12/19/arkansas-inmates-restricted-from-receiving-physical-books-other-media-directly-under-new-policy/
+评论网址：https://news.ycombinator.com/item?id=46726820
+积分：28
+# 条评论：21]]></description>
+      <guid>https://arkansasadvocate.com/2025/12/19/arkansas-inmates-restricted-from-receiving-physical-books-other-media-directly-under-new-policy/</guid>
+      <pubDate>Fri, 23 Jan 2026 00:17:38 GMT</pubDate>
     </item>
     <item>
       <title>提高 Swift 中 C 库的可用性</title>
       <link>https://www.swift.org/blog/improving-usability-of-c-libraries-in-swift/</link>
       <description><![CDATA[文章网址：https://www.swift.org/blog/improving-usability-of-c-libraries-in-swift/
 评论网址：https://news.ycombinator.com/item?id=46726526
-积分：33
-# 条评论：0]]></description>
+积分：68
+# 条评论：2]]></description>
       <guid>https://www.swift.org/blog/improving-usability-of-c-libraries-in-swift/</guid>
       <pubDate>Thu, 22 Jan 2026 23:34:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>FIPS 依赖项和预构建的二进制文件</title>
-      <link>https://www.docker.com/blog/fips-dependencies-and-prebuilt-binaries/</link>
-      <description><![CDATA[作者在此。这是调试在启用 FIPS 的容器中运行的真实 Rails 应用程序时得出的结果。一切看起来都正确。启用 FIPS 提供程序的 OpenSSL 3。 Ruby 是针对它构建的。一个简单的 pg 连接就可以工作。一旦涉及 ActiveRecord，应用程序就会失败。该错误来自 libpq。事实证明，pg gem 引入了一个预构建的本机依赖项，​​该依赖项与不同的加密货币相关联。这条路一直都在那里。只是在 ActiveRecord 命中之前它才被执行。强制源构建解决了该问题，因为扩展随后链接到映像中的 OpenSSL。要点是，一旦涉及本机代码，FIPS 基础映像并不意味着您的依赖关系图尊重相同的边界。很好奇其他人如何在 Ruby、Python 轮子、Go with CGO 或 Node 原生插件中看到这种情况。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46726259
-积分：20
-# 条评论：5]]></description>
-      <guid>https://www.docker.com/blog/fips-dependencies-and-prebuilt-binaries/</guid>
-      <pubDate>Thu, 22 Jan 2026 23:04:25 GMT</pubDate>
     </item>
     <item>
       <title>人类经济指数经济原语</title>
       <link>https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</link>
       <description><![CDATA[文章网址：https://www.anthropic.com/research/anthropic-economic-index-january-2026-report
 评论网址：https://news.ycombinator.com/item?id=46725632
-积分：47
-# 条评论：36]]></description>
+积分：69
+# 条评论：40]]></description>
       <guid>https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</guid>
       <pubDate>Thu, 22 Jan 2026 21:54:02 GMT</pubDate>
     </item>
@@ -71,10 +70,20 @@
       <link>https://zuernerd.github.io/blog/2026/01/07/switch-password.html</link>
       <description><![CDATA[文章网址：https://zuernerd.github.io/blog/2026/01/07/switch-password.html
 评论网址：https://news.ycombinator.com/item?id=46725389
-积分：36
-# 条评论：7]]></description>
+积分：53
+# 条评论：11]]></description>
       <guid>https://zuernerd.github.io/blog/2026/01/07/switch-password.html</guid>
       <pubDate>Thu, 22 Jan 2026 21:31:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>扩展 PostgreSQL 以支持 8 亿 ChatGPT 用户</title>
+      <link>https://openai.com/index/scaling-postgresql/</link>
+      <description><![CDATA[文章网址：https://openai.com/index/scaling-postgresql/
+评论网址：https://news.ycombinator.com/item?id=46725300
+积分：75
+# 条评论：23]]></description>
+      <guid>https://openai.com/index/scaling-postgresql/</guid>
+      <pubDate>Thu, 22 Jan 2026 21:24:23 GMT</pubDate>
     </item>
     <item>
       <title>第一资本将以 $5.15B 收购 Brex</title>
@@ -82,8 +91,8 @@
       <description><![CDATA[存档链接：https://archive.md/vk8ov，第一国会声明：https://investor.capitalone.com/news-releases/news-release-d...，Brex 声明：https://www.brex.com/journal/brex-and-capital-one-join-force...
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46725288
-积分：109
-评论数量：75]]></description>
+积分：190
+# 条评论：139]]></description>
       <guid>https://www.reuters.com/legal/transactional/capital-one-buy-fintech-firm-brex-515-billion-deal-2026-01-22/</guid>
       <pubDate>Thu, 22 Jan 2026 21:23:12 GMT</pubDate>
     </item>
@@ -92,20 +101,10 @@
       <link>https://eieio.games/blog/ssh-sends-100-packets-per-keystroke/</link>
       <description><![CDATA[文章网址：https://eieio.games/blog/ssh-sends-100-packets-per-keyrinkle/
 评论网址：https://news.ycombinator.com/item?id=46723990
-积分：269
-# 条评论：186]]></description>
+积分：327
+# 条评论：209]]></description>
       <guid>https://eieio.games/blog/ssh-sends-100-packets-per-keystroke/</guid>
       <pubDate>Thu, 22 Jan 2026 19:27:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>“活跃”坐姿更有利于大脑健康：研究回顾</title>
-      <link>https://www.sciencealert.com/not-all-sitting-is-equal-one-type-was-just-linked-to-better-brain-health</link>
-      <description><![CDATA[文章网址：https://www.sciencealert.com/not-all-sitting-is-equal-one-type-was-just-linked-to-better-brain-health
-评论网址：https://news.ycombinator.com/item?id=46723694
-积分：67
-# 条评论：29]]></description>
-      <guid>https://www.sciencealert.com/not-all-sitting-is-equal-one-type-was-just-linked-to-better-brain-health</guid>
-      <pubDate>Thu, 22 Jan 2026 19:03:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
