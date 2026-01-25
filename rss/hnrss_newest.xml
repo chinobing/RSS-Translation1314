@@ -4,108 +4,146 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 25 Jan 2026 18:31:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jan 2026 21:20:08 GMT</lastBuildDate>
     <item>
-      <title>机器学习的类比：就像在没有食谱的情况下烘烤蛋糕</title>
-      <link>https://merqur.io/2026/01/25/what-baking-can-teach-us-about-machine-learning/</link>
-      <description><![CDATA[文章网址：https://merqur.io/2026/01/25/what-baking-can-teach-us-about-machine-learning/
-评论网址：https://news.ycombinator.com/item?id=46756655
-积分：1
-# 条评论：1]]></description>
-      <guid>https://merqur.io/2026/01/25/what-baking-can-teach-us-about-machine-learning/</guid>
-      <pubDate>Sun, 25 Jan 2026 18:26:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Kreamsicle – 黑客新闻的 Cmd+K 命令面板</title>
-      <link>https://sajarin.com/blog/kreamsicle/</link>
-      <description><![CDATA[文章网址：https://sajarin.com/blog/kreamsicle/
-评论网址：https://news.ycombinator.com/item?id=46756651
+      <title>Show HN：Lochle，苏格兰 Lochs 的 Wordle 克隆</title>
+      <link>https://lochle.xyz/</link>
+      <description><![CDATA[文章网址：https://lochle.xyz/
+评论网址：https://news.ycombinator.com/item?id=46758291
 积分：1
 # 条评论：0]]></description>
-      <guid>https://sajarin.com/blog/kreamsicle/</guid>
-      <pubDate>Sun, 25 Jan 2026 18:26:31 GMT</pubDate>
+      <guid>https://lochle.xyz/</guid>
+      <pubDate>Sun, 25 Jan 2026 21:12:38 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：YouBankLab – 具有私有人工智能层的个人金融云</title>
-      <link>https://github.com/TomasYBL/YouBankLab/blob/main/README.md</link>
-      <description><![CDATA[您好，HN，我正在开发 YouBankLab，这是一个围绕一个简单想法的测试版实验：如果人们不将钱存放在银行，而是存放在他们完全拥有的个人金融云中怎么办？YouBankLab 是一个非托管金融环境，其中：用户持有自己的资金和身份支付是点对点的系统没有对货币的托管新功能（以及我的新功能）测试）是一个隐私优先的本地人工智能层，它：观察交易模式检测行为变化或异常提供背景和见解从不转移资金或做出决策这里的人工智能不是机器人或顾问 - 它更像是一个私人金融“观察者”，可以帮助您了解自己的金融云内部发生的事情。这是一个早期测试版，很大程度上是一个学习项目。
-我最感兴趣的是以下方面的反馈：这个框架是否有意义感觉不清楚或不切实际的地方以及这是否为这里的任何人解决了真正的问题实时测试版：https://youbanklab.base44.app网站：https://www.youbanklab.com很高兴回答问题。— Tomas
+      <title>Show HN：500 周期运行时测试，实现长期 LLM 一致性</title>
+      <link>https://zenodo.org/records/18369990</link>
+      <description><![CDATA[我们运行了 500 个周期的基准测试来测试大型语言模型中的长期推理稳定性 - 不仅仅是输出质量，还包括模型是否能够在数百个递归推理步骤中保持连贯的身份和逻辑。这是我们 SIGMA Runtime 项目的一部分 - 一个运行在任何 LLM 之上的认知控制层，并实时跟踪漂移、连贯性和身份持久性。---我们为什么这样做大多数 LLM 评估都会衡量较短的推理跨度——1-10 轮。  
+但是，当要求模型维持数百步的推理过程时，就会出现微妙的反馈效应：- 语义漂移：含义随着文本复合而缓慢变化。  
+- 结晶：模型锁定重复自己的措辞或风格。  
+- 身份丢失：“说话者”失去内部一致性。我们想看看是否可以在运行时防止这些影响，而无需重新训练或提示重置。---这里有什么新内容我们用一个名为  
+AEP（自适应熵协议）— 一种实时调节器，可将受控熵注入模型输出。AEP 跟踪三个内部指标：
+- TI — 术语等距（关键概念的一致性）
+- SDC——语义漂移系数（意思是变异率）
+- L/N — 逻辑噪声比（逻辑密度与表面变化）当模型变得过于稳定（重复、严格的措辞）时，AEP 会添加微扰动来恢复变化。  
+当它漂移太远时，它会抑制熵回到平衡状态。---我们如何测试它- 每个模型 500 个推理周期（OpenAI GPT-5.2 和 Gemini-3-Flash 预览版）  
+- 每第 50 个周期 = 一个肋点，压缩并验证最后 49 个步骤  
+- 运行时的连续遥测（相干性、漂移、熵）  
+- 身份：相同的合成代理（“LEO”，人工智能架构师/认知科学家）---发生了什么两个模型都完成了所有 500 个周期，没有身份丢失或语义崩溃。  
+熵调制增加了词汇多样性，同时保持推理轨迹的连贯性。发生截断时 (Gemini API)，运行时使用先前的压缩检查点重建缺失的上下文。---视觉结果漂移和连贯性演化（500 个周期） 
+GPT-5.2：https://files.sigmastratum.net/Leo_OpenAI_D_summary_dashboar...  
+Gemini-3-Flash：https://files.sigmastratum.net/Leo_Gogle_D_summary_dashboard...AEP 指标动态（TI、SDC、L/N） 
+GPT-5.2：https://files.sigmastratum.net/Leo_OpenAI_E_metrics_timeline...  
+Gemini-3-Flash：https://files.sigmastratum.net/Leo_Gogle_E_metrics_timeline....---要点 - 熵可以调节，而不仅仅是随机化。  
+- 当给定运行时反馈时，法学硕士可以在数百个周期中保持自洽推理。  
+- 结构稳定性（连贯性、术语、逻辑）不需要重新训练——只需动态控制层。---报告 (DOI)：https://doi.org/10.5281/zenodo.18271591  
+代码和附录：https://github.com/sigmastratum/documentation---我们希望获得以下方面的技术反馈：  
+- 运行时级别的一致性控制  
+- 衡量“身份持久性”  
+- 长视野推理测试（100+回合）
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46756650
+评论网址：https://news.ycombinator.com/item?id=46758274
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/TomasYBL/YouBankLab/blob/main/README.md</guid>
-      <pubDate>Sun, 25 Jan 2026 18:26:21 GMT</pubDate>
+      <guid>https://zenodo.org/records/18369990</guid>
+      <pubDate>Sun, 25 Jan 2026 21:10:17 GMT</pubDate>
     </item>
     <item>
-      <title>Meta 的现实实验室削减引发了对“VR 冬天”的担忧</title>
-      <link>https://www.cnbc.com/2026/01/24/metas-reality-labs-cuts-sparked-fears-of-a-vr-winter.html</link>
-      <description><![CDATA[文章网址：https://www.cnbc.com/2026/01/24/metas-reality-labs-cuts-sparked-fears-of-a-vr-winter.html
-评论网址：https://news.ycombinator.com/item?id=46756649
-积分：1
+      <title>被附体的机器：陀思妥耶夫斯基的恶魔和即将到来的 AGI 灾难</title>
+      <link>https://possessedmachines.com/</link>
+      <description><![CDATA[文章网址：https://possessedmachines.com/
+评论网址：https://news.ycombinator.com/item?id=46758253
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.cnbc.com/2026/01/24/metas-reality-labs-cuts-sparked-fears-of-a-vr-winter.html</guid>
-      <pubDate>Sun, 25 Jan 2026 18:26:19 GMT</pubDate>
+      <guid>https://possessedmachines.com/</guid>
+      <pubDate>Sun, 25 Jan 2026 21:08:24 GMT</pubDate>
     </item>
     <item>
-      <title>货币价值的经济学</title>
-      <link>https://marginalrevolution.com/marginalrevolution/2026/01/the-economics-of-currency-values.html</link>
-      <description><![CDATA[文章网址：https://marginalrevolution.com/marginalrevolution/2026/01/the-economics-of-currency-values.html
-评论网址：https://news.ycombinator.com/item?id=46756614
+      <title>1 月 19 日至 25 日注意事项（我的编码代理沙箱设置）</title>
+      <link>https://taoofmac.com/space/notes/2026/01/25/2030</link>
+      <description><![CDATA[文章网址：https://taoofmac.com/space/notes/2026/01/25/2030
+评论网址：https://news.ycombinator.com/item?id=46758244
 积分：1
 # 条评论：0]]></description>
-      <guid>https://marginalrevolution.com/marginalrevolution/2026/01/the-economics-of-currency-values.html</guid>
-      <pubDate>Sun, 25 Jan 2026 18:24:00 GMT</pubDate>
+      <guid>https://taoofmac.com/space/notes/2026/01/25/2030</guid>
+      <pubDate>Sun, 25 Jan 2026 21:07:51 GMT</pubDate>
     </item>
     <item>
-      <title>没有计划的压力</title>
-      <link>https://lethain.com/pressure-without-a-plan/</link>
-      <description><![CDATA[文章网址：https://lethain.com/Pressure-without-a-plan/
-评论网址：https://news.ycombinator.com/item?id=46756608
+      <title>加拿大</title>
+      <link>https://www.jenn.site/on-canada/</link>
+      <description><![CDATA[文章网址：https://www.jenn.site/on-canada/
+评论网址：https://news.ycombinator.com/item?id=46758242
 积分：1
 # 条评论：0]]></description>
-      <guid>https://lethain.com/pressure-without-a-plan/</guid>
-      <pubDate>Sun, 25 Jan 2026 18:23:44 GMT</pubDate>
+      <guid>https://www.jenn.site/on-canada/</guid>
+      <pubDate>Sun, 25 Jan 2026 21:07:41 GMT</pubDate>
     </item>
     <item>
-      <title>“你好，电脑。”声乐计算似乎已经准备好起飞，这次是真正的起飞</title>
-      <link>https://spyglass.org/vocal-computing-ai/</link>
-      <description><![CDATA[文章网址：https://spyglass.org/vocal-computing-ai/
-评论网址：https://news.ycombinator.com/item?id=46756606
+      <title>Show HN：从您的终端制作定制 ASCII 艺术 T 恤</title>
+      <link>https://www.asciitee.com/</link>
+      <description><![CDATA[我想构建我的第一个 CLI 应用程序，并受到 Terminal.shop（咖啡应用程序）的启发。想知道如果您可以从终端订购咖啡，您也应该可以订购 T 恤。它是如何工作的：您描述您想要的东西，它会生成 ASCII 艺术，向您显示实际衬衫上的模型，您可以在那里查看。 pip install ascii-tee
+
+  ascii-tee“向日葵”
+
+堆栈：- CLI：Typer + Rich 用于交互流程（提示、旋转器、面板） - ASCII 生成：Claude API，系统提示符已针对 40×30 字符画布进行了调整，打印效果良好
+
+  - 预览：Pillow 将 ASCII（使用 JetBrains Mono 渲染）合成到衬衫样机模板上
+
+  - 终端图像：检测 iTerm2/Kitty/WezTerm 的本机内联图像，回退到 timg 或 chafa，然后是浏览器
+
+  - 后端：Cloudflare Workers 处理 API 调用
+
+  - 结帐：Stripe，付款页面显示预览图
+
+  - 履行：印刷品和船舶（Bella+Canvas 3001）
+
+第一次构建这样的东西，所以希望得到任何反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46758239
 积分：1
 # 条评论：0]]></description>
-      <guid>https://spyglass.org/vocal-computing-ai/</guid>
-      <pubDate>Sun, 25 Jan 2026 18:23:34 GMT</pubDate>
+      <guid>https://www.asciitee.com/</guid>
+      <pubDate>Sun, 25 Jan 2026 21:07:33 GMT</pubDate>
     </item>
     <item>
-      <title>厌倦了算法？电影和音乐发现的最佳网站</title>
-      <link>https://artdots.co/blog/tired-of-the-algorithm-best-websites-for-film-and-music-discovery</link>
-      <description><![CDATA[文章网址：https://artdots.co/blog/tired-of-the-algorithm-best-websites-for-film-and-music-discovery
-评论网址：https://news.ycombinator.com/item?id=46756571
+      <title>别再说无聊对孩子有好处</title>
+      <link>https://www.fast.ai/posts/2025-12-03-boredom/</link>
+      <description><![CDATA[文章网址：https://www.fast.ai/posts/2025-12-03-boredom/
+评论网址：https://news.ycombinator.com/item?id=46758224
 积分：1
 # 条评论：0]]></description>
-      <guid>https://artdots.co/blog/tired-of-the-algorithm-best-websites-for-film-and-music-discovery</guid>
-      <pubDate>Sun, 25 Jan 2026 18:20:50 GMT</pubDate>
+      <guid>https://www.fast.ai/posts/2025-12-03-boredom/</guid>
+      <pubDate>Sun, 25 Jan 2026 21:06:33 GMT</pubDate>
     </item>
     <item>
-      <title>电力 2025 – 分析 – IEA</title>
-      <link>https://www.iea.org/reports/electricity-2025</link>
-      <description><![CDATA[文章网址：https://www.iea.org/reports/electricity-2025
-评论网址：https://news.ycombinator.com/item?id=46756563
-积分：1
+      <title>蒂姆·库克 (Tim Cook) 任命约翰·特努斯 (John Ternus) 负责监督苹果的设计团队</title>
+      <link>https://9to5mac.com/2026/01/22/tim-cook-quietly-taps-john-ternus-to-oversee-apples-design-teams-report/</link>
+      <description><![CDATA[文章网址： https://9to5mac.com/2026/01/22/tim-cook-quietly-taps-john-ternus-to-oversee-apples-design-teams-report/
+评论网址：https://news.ycombinator.com/item?id=46758199
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.iea.org/reports/electricity-2025</guid>
-      <pubDate>Sun, 25 Jan 2026 18:19:30 GMT</pubDate>
+      <guid>https://9to5mac.com/2026/01/22/tim-cook-quietly-taps-john-ternus-to-oversee-apples-design-teams-report/</guid>
+      <pubDate>Sun, 25 Jan 2026 21:03:37 GMT</pubDate>
     </item>
     <item>
-      <title>意图之箭：在大型代理代码库中维护意图</title>
-      <link>https://loki.ws/code/2026/01/25/the-arrow-of-intent.html</link>
-      <description><![CDATA[文章网址：https://loki.ws/code/2026/01/25/the-arrow-of-intent.html
-评论网址：https://news.ycombinator.com/item?id=46756559
+      <title>Robert Moreno 和 ChatGPT 的使用定义了他在索契的时光</title>
+      <link>https://www.beinsports.com/en-us/soccer/articles/robert-moreno-and-the-use-of-chatgpt-that-defined-his-time-at-sochi-2026-01-24</link>
+      <description><![CDATA[文章网址： https://www.beinsports.com/en-us/soccer/articles/robert-moreno-and-the-use-of-chatgpt-that-define-his-time-at-sochi-2026-01-24
+评论网址：https://news.ycombinator.com/item?id=46758187
 积分：1
 # 条评论：0]]></description>
-      <guid>https://loki.ws/code/2026/01/25/the-arrow-of-intent.html</guid>
-      <pubDate>Sun, 25 Jan 2026 18:19:04 GMT</pubDate>
+      <guid>https://www.beinsports.com/en-us/soccer/articles/robert-moreno-and-the-use-of-chatgpt-that-defined-his-time-at-sochi-2026-01-24</guid>
+      <pubDate>Sun, 25 Jan 2026 21:02:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能部落主义</title>
+      <link>https://nolanlawson.com/2026/01/24/ai-tribalism/</link>
+      <description><![CDATA[文章网址：https://nolanlawson.com/2026/01/24/ai-tribalism/
+评论网址：https://news.ycombinator.com/item?id=46758175
+积分：11
+# 条评论：0]]></description>
+      <guid>https://nolanlawson.com/2026/01/24/ai-tribalism/</guid>
+      <pubDate>Sun, 25 Jan 2026 21:01:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
