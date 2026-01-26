@@ -4,146 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 25 Jan 2026 21:20:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 01:55:11 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Lochle，苏格兰 Lochs 的 Wordle 克隆</title>
-      <link>https://lochle.xyz/</link>
-      <description><![CDATA[文章网址：https://lochle.xyz/
-评论网址：https://news.ycombinator.com/item?id=46758291
+      <title>为什么光标/克劳德代码在生成自述文件方面如此糟糕？</title>
+      <link>https://news.ycombinator.com/item?id=46760782</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=46760782
 积分：1
 # 条评论：0]]></description>
-      <guid>https://lochle.xyz/</guid>
-      <pubDate>Sun, 25 Jan 2026 21:12:38 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46760782</guid>
+      <pubDate>Mon, 26 Jan 2026 01:43:23 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：500 周期运行时测试，实现长期 LLM 一致性</title>
-      <link>https://zenodo.org/records/18369990</link>
-      <description><![CDATA[我们运行了 500 个周期的基准测试来测试大型语言模型中的长期推理稳定性 - 不仅仅是输出质量，还包括模型是否能够在数百个递归推理步骤中保持连贯的身份和逻辑。这是我们 SIGMA Runtime 项目的一部分 - 一个运行在任何 LLM 之上的认知控制层，并实时跟踪漂移、连贯性和身份持久性。---我们为什么这样做大多数 LLM 评估都会衡量较短的推理跨度——1-10 轮。  
-但是，当要求模型维持数百步的推理过程时，就会出现微妙的反馈效应：- 语义漂移：含义随着文本复合而缓慢变化。  
-- 结晶：模型锁定重复自己的措辞或风格。  
-- 身份丢失：“说话者”失去内部一致性。我们想看看是否可以在运行时防止这些影响，而无需重新训练或提示重置。---这里有什么新内容我们用一个名为  
-AEP（自适应熵协议）— 一种实时调节器，可将受控熵注入模型输出。AEP 跟踪三个内部指标：
-- TI — 术语等距（关键概念的一致性）
-- SDC——语义漂移系数（意思是变异率）
-- L/N — 逻辑噪声比（逻辑密度与表面变化）当模型变得过于稳定（重复、严格的措辞）时，AEP 会添加微扰动来恢复变化。  
-当它漂移太远时，它会抑制熵回到平衡状态。---我们如何测试它- 每个模型 500 个推理周期（OpenAI GPT-5.2 和 Gemini-3-Flash 预览版）  
-- 每第 50 个周期 = 一个肋点，压缩并验证最后 49 个步骤  
-- 运行时的连续遥测（相干性、漂移、熵）  
-- 身份：相同的合成代理（“LEO”，人工智能架构师/认知科学家）---发生了什么两个模型都完成了所有 500 个周期，没有身份丢失或语义崩溃。  
-熵调制增加了词汇多样性，同时保持推理轨迹的连贯性。发生截断时 (Gemini API)，运行时使用先前的压缩检查点重建缺失的上下文。---视觉结果漂移和连贯性演化（500 个周期） 
-GPT-5.2：https://files.sigmastratum.net/Leo_OpenAI_D_summary_dashboar...  
-Gemini-3-Flash：https://files.sigmastratum.net/Leo_Gogle_D_summary_dashboard...AEP 指标动态（TI、SDC、L/N） 
-GPT-5.2：https://files.sigmastratum.net/Leo_OpenAI_E_metrics_timeline...  
-Gemini-3-Flash：https://files.sigmastratum.net/Leo_Gogle_E_metrics_timeline....---要点 - 熵可以调节，而不仅仅是随机化。  
-- 当给定运行时反馈时，法学硕士可以在数百个周期中保持自洽推理。  
-- 结构稳定性（连贯性、术语、逻辑）不需要重新训练——只需动态控制层。---报告 (DOI)：https://doi.org/10.5281/zenodo.18271591  
-代码和附录：https://github.com/sigmastratum/documentation---我们希望获得以下方面的技术反馈：  
-- 运行时级别的一致性控制  
-- 衡量“身份持久性”  
-- 长视野推理测试（100+回合）
+      <title>通过 WAND 进行矢量化 MAXSCORE，特别是对于 LLM 生成的长查询</title>
+      <link>https://turbopuffer.com/blog/fts-v2-maxscore</link>
+      <description><![CDATA[文章网址：https://turbopuffer.com/blog/fts-v2-maxscore
+评论网址：https://news.ycombinator.com/item?id=46760748
+积分：1
+# 条评论：0]]></description>
+      <guid>https://turbopuffer.com/blog/fts-v2-maxscore</guid>
+      <pubDate>Mon, 26 Jan 2026 01:39:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>谷歌人工智能概述如何将公共健康置于危险之中</title>
+      <link>https://www.theguardian.com/technology/ng-interactive/2026/jan/24/how-the-confident-authority-of-google-ai-overviews-is-putting-public-health-at-risk</link>
+      <description><![CDATA[文章网址： https://www.theguardian.com/technology/ng-interactive/2026/jan/24/how-the-confident-authority-of-google-ai-overviews-is-putting-public-health-at-risk
+评论网址：https://news.ycombinator.com/item?id=46760724
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theguardian.com/technology/ng-interactive/2026/jan/24/how-the-confident-authority-of-google-ai-overviews-is-putting-public-health-at-risk</guid>
+      <pubDate>Mon, 26 Jan 2026 01:35:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>黑客新闻不涉及政治</title>
+      <link>https://joelx.com/no-politics-on-hacker-news/</link>
+      <description><![CDATA[文章网址：https://joelx.com/no-politics-on-hacker-news/
+评论网址：https://news.ycombinator.com/item?id=46760714
+积分：4
+# 条评论：1]]></description>
+      <guid>https://joelx.com/no-politics-on-hacker-news/</guid>
+      <pubDate>Mon, 26 Jan 2026 01:34:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>与法学硕士一起学习</title>
+      <link>https://jwuphysics.github.io/blog/2025/12/learning-with-llms/</link>
+      <description><![CDATA[文章网址：https://jwuphysicals.github.io/blog/2025/12/learning-with-llms/
+评论网址：https://news.ycombinator.com/item?id=46760706
+积分：1
+# 条评论：0]]></description>
+      <guid>https://jwuphysics.github.io/blog/2025/12/learning-with-llms/</guid>
+      <pubDate>Mon, 26 Jan 2026 01:34:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>绝色美女2</title>
+      <link>https://staggeringbeauty.io/</link>
+      <description><![CDATA[文章网址：https://staggeringbeauty.io/
+评论网址：https://news.ycombinator.com/item?id=46760702
+积分：1
+# 条评论：0]]></description>
+      <guid>https://staggeringbeauty.io/</guid>
+      <pubDate>Mon, 26 Jan 2026 01:33:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLM 不是工具</title>
+      <link>https://yagmin.com/blog/llms-arent-tools/</link>
+      <description><![CDATA[文章网址：https://yagmin.com/blog/llms-arent-tools/
+评论网址：https://news.ycombinator.com/item?id=46760697
+积分：1
+# 条评论：0]]></description>
+      <guid>https://yagmin.com/blog/llms-arent-tools/</guid>
+      <pubDate>Mon, 26 Jan 2026 01:33:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sysp：使用同形宏、重新计数内存将 Systems Lisp 编译为 C，嗨</title>
+      <link>https://github.com/karans4/sysp</link>
+      <description><![CDATA[文章网址：https://github.com/karans4/sysp
+评论网址：https://news.ycombinator.com/item?id=46760686
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/karans4/sysp</guid>
+      <pubDate>Mon, 26 Jan 2026 01:31:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>本周期迄今为止最大的特朗普超级政治行动委员会捐助者是 OpenAI 总裁</title>
+      <link>https://bsky.app/profile/jakemgrumbach.bsky.social/post/3mdbzv2nfsc2k</link>
+      <description><![CDATA[文章网址：https://bsky.app/profile/jakemgrumbach.bsky.social/post/3mdbzv2nfsc2k
+评论网址：https://news.ycombinator.com/item?id=46760683
+积分：10
+# 条评论：0]]></description>
+      <guid>https://bsky.app/profile/jakemgrumbach.bsky.social/post/3mdbzv2nfsc2k</guid>
+      <pubDate>Mon, 26 Jan 2026 01:31:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：法学硕士的本地操作系统。麻省理工学院许可证。零幻觉。无限记忆</title>
+      <link>https://github.com/merchantmoh-debug/Remember-Me-AI</link>
+      <description><![CDATA[法学硕士的问题不在于智力，而在于智力。这是健忘症和不诚实。嘿 HN，过去几个月我一直在构建 Remember-Me，这是一个开源“主权大脑”堆栈，旨在在消费者硬件上完全离线运行。核心论点很简单：不要出租你的认知。大多数 RAG（检索增强生成）实现只是“grep 嵌入”。它们杂乱、不精确，并且容易产生幻觉。我想在架构层解决“上下文完整性”问题。技术堆栈（工作原理）：QDMA（量子梦想内存架构）：它使用分层投影引擎，而不是平面矢量 DB。它将“热”（召回）内存与“冷”（存储）内存分开，允许通过压缩进行有效的无限上下文窗口管理。CSNP（上下文切换神经协议）-幻觉杀手：这是最重要的部分。每个内存片段都被散列到默克尔链中。当 LLM 检索上下文时，系统会根据不可变账本以加密方式验证检索结果。如果哈希与链不匹配：检索会被拒绝。结果：人工智能在视觉上无法“编造”你的过去，因为它在数学上受到分类账的限制。
+本地推理：构建在 llama.cpp 服务器之上。它在本地运行 Llama-3（或任何 GGUF）。没有 API 密钥。没有数据离开您的机器。功能：零依赖性：仅使用 Python 和 GPU（或 CPU）在 Windows/Linux 上运行。可视化界面：包括基于 Streamlit 的“认知界面”，用于可视化内存状态。
+开源：麻省理工学院许可证。
+这是将“代理权”还给用户的尝试。我相信，如果我们想要 AGI，它需要由我们拥有，而不是通过 API 租用。存储库：https://github.com/merchantmoh-debug/Remember-Me-AI我很想听听您对 Merkle 验证方法的反馈。限制上下文窗口是否可以有效地解决您的“信任”问题？它完全有效 - 经过全面测试。如果您之前尝试过 Git Clone 但没有成功 - 因为这不是我第一次对此进行 HN 展示 - 请随意再试一次。致所有讨厌 AI slop 的人；贪婪的公司将他们的私人数据存储在云服务器上。不客气。干杯，Mohamad
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46758274
+评论网址：https://news.ycombinator.com/item?id=46760663
 积分：1
 # 条评论：0]]></description>
-      <guid>https://zenodo.org/records/18369990</guid>
-      <pubDate>Sun, 25 Jan 2026 21:10:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>被附体的机器：陀思妥耶夫斯基的恶魔和即将到来的 AGI 灾难</title>
-      <link>https://possessedmachines.com/</link>
-      <description><![CDATA[文章网址：https://possessedmachines.com/
-评论网址：https://news.ycombinator.com/item?id=46758253
-积分：2
-# 条评论：0]]></description>
-      <guid>https://possessedmachines.com/</guid>
-      <pubDate>Sun, 25 Jan 2026 21:08:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>1 月 19 日至 25 日注意事项（我的编码代理沙箱设置）</title>
-      <link>https://taoofmac.com/space/notes/2026/01/25/2030</link>
-      <description><![CDATA[文章网址：https://taoofmac.com/space/notes/2026/01/25/2030
-评论网址：https://news.ycombinator.com/item?id=46758244
-积分：1
-# 条评论：0]]></description>
-      <guid>https://taoofmac.com/space/notes/2026/01/25/2030</guid>
-      <pubDate>Sun, 25 Jan 2026 21:07:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>加拿大</title>
-      <link>https://www.jenn.site/on-canada/</link>
-      <description><![CDATA[文章网址：https://www.jenn.site/on-canada/
-评论网址：https://news.ycombinator.com/item?id=46758242
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.jenn.site/on-canada/</guid>
-      <pubDate>Sun, 25 Jan 2026 21:07:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：从您的终端制作定制 ASCII 艺术 T 恤</title>
-      <link>https://www.asciitee.com/</link>
-      <description><![CDATA[我想构建我的第一个 CLI 应用程序，并受到 Terminal.shop（咖啡应用程序）的启发。想知道如果您可以从终端订购咖啡，您也应该可以订购 T 恤。它是如何工作的：您描述您想要的东西，它会生成 ASCII 艺术，向您显示实际衬衫上的模型，您可以在那里查看。 pip install ascii-tee
-
-  ascii-tee“向日葵”
-
-堆栈：- CLI：Typer + Rich 用于交互流程（提示、旋转器、面板） - ASCII 生成：Claude API，系统提示符已针对 40×30 字符画布进行了调整，打印效果良好
-
-  - 预览：Pillow 将 ASCII（使用 JetBrains Mono 渲染）合成到衬衫样机模板上
-
-  - 终端图像：检测 iTerm2/Kitty/WezTerm 的本机内联图像，回退到 timg 或 chafa，然后是浏览器
-
-  - 后端：Cloudflare Workers 处理 API 调用
-
-  - 结帐：Stripe，付款页面显示预览图
-
-  - 履行：印刷品和船舶（Bella+Canvas 3001）
-
-第一次构建这样的东西，所以希望得到任何反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46758239
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.asciitee.com/</guid>
-      <pubDate>Sun, 25 Jan 2026 21:07:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>别再说无聊对孩子有好处</title>
-      <link>https://www.fast.ai/posts/2025-12-03-boredom/</link>
-      <description><![CDATA[文章网址：https://www.fast.ai/posts/2025-12-03-boredom/
-评论网址：https://news.ycombinator.com/item?id=46758224
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.fast.ai/posts/2025-12-03-boredom/</guid>
-      <pubDate>Sun, 25 Jan 2026 21:06:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>蒂姆·库克 (Tim Cook) 任命约翰·特努斯 (John Ternus) 负责监督苹果的设计团队</title>
-      <link>https://9to5mac.com/2026/01/22/tim-cook-quietly-taps-john-ternus-to-oversee-apples-design-teams-report/</link>
-      <description><![CDATA[文章网址： https://9to5mac.com/2026/01/22/tim-cook-quietly-taps-john-ternus-to-oversee-apples-design-teams-report/
-评论网址：https://news.ycombinator.com/item?id=46758199
-积分：2
-# 条评论：0]]></description>
-      <guid>https://9to5mac.com/2026/01/22/tim-cook-quietly-taps-john-ternus-to-oversee-apples-design-teams-report/</guid>
-      <pubDate>Sun, 25 Jan 2026 21:03:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Robert Moreno 和 ChatGPT 的使用定义了他在索契的时光</title>
-      <link>https://www.beinsports.com/en-us/soccer/articles/robert-moreno-and-the-use-of-chatgpt-that-defined-his-time-at-sochi-2026-01-24</link>
-      <description><![CDATA[文章网址： https://www.beinsports.com/en-us/soccer/articles/robert-moreno-and-the-use-of-chatgpt-that-define-his-time-at-sochi-2026-01-24
-评论网址：https://news.ycombinator.com/item?id=46758187
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.beinsports.com/en-us/soccer/articles/robert-moreno-and-the-use-of-chatgpt-that-defined-his-time-at-sochi-2026-01-24</guid>
-      <pubDate>Sun, 25 Jan 2026 21:02:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能部落主义</title>
-      <link>https://nolanlawson.com/2026/01/24/ai-tribalism/</link>
-      <description><![CDATA[文章网址：https://nolanlawson.com/2026/01/24/ai-tribalism/
-评论网址：https://news.ycombinator.com/item?id=46758175
-积分：11
-# 条评论：0]]></description>
-      <guid>https://nolanlawson.com/2026/01/24/ai-tribalism/</guid>
-      <pubDate>Sun, 25 Jan 2026 21:01:37 GMT</pubDate>
+      <guid>https://github.com/merchantmoh-debug/Remember-Me-AI</guid>
+      <pubDate>Mon, 26 Jan 2026 01:29:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
