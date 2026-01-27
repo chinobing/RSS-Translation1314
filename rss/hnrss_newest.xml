@@ -4,136 +4,117 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 27 Jan 2026 15:31:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 18:39:54 GMT</lastBuildDate>
     <item>
-      <title>Show HN：我编码了一个在真实硬件上启动的 X64、ARM64 操作系统</title>
-      <link>https://github.com/viralcode/vib-OS</link>
-      <description><![CDATA[文章网址：https://github.com/viralcode/vib-OS
-评论网址：https://news.ycombinator.com/item?id=46781188
+      <title>谷歌 DeepMind 员工要求领导确保他们“人身安全”，免受 ICE 侵害</title>
+      <link>https://www.wired.com/story/google-deepmind-staffers-ice-office-questions-safety/</link>
+      <description><![CDATA[文章网址：https://www.wired.com/story/google-deepmind-staffers-ice-office-questions-safety/
+评论网址：https://news.ycombinator.com/item?id=46784222
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/viralcode/vib-OS</guid>
-      <pubDate>Tue, 27 Jan 2026 15:23:29 GMT</pubDate>
+      <guid>https://www.wired.com/story/google-deepmind-staffers-ice-office-questions-safety/</guid>
+      <pubDate>Tue, 27 Jan 2026 18:33:05 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Kimi K2.5（Agent Swarm，击败 GPT-5）现已在 RouterLab（瑞士托管）上运行</title>
-      <link>https://routerlab.ch/blog/kimi-k2-5</link>
-      <description><![CDATA[嗨 HN！Moonshot AI 今天发布了 Kimi K2.5，我们在几个小时内将其集成到 RouterLab 上。为什么这很重要：*开源击败专有：*
-• Kimi K2.5：HLE（人类最后的考试）50.2%
-• GPT-5：41.7%
-• Claude 4.5：32.0%开源模型首次在专家级推理上击败 GPT-5。*Agent Swarm 架构：*
-• 协调多达 100 个并行代理
-• 1,500 个同时工具调用
-• 比顺序执行快 4.5 倍
-• 自主任务分解示例：“分析 50 个竞争对手并创建报告”
-→ 创建 50 个研究代理
-→ 并行执行
-→ 几分钟内即可完成报告*技术规格：*
-• 1T 参数（32B 激活）
-• 384 名教育部专家
-• 原生 INT4 量化
-• 256k 上下文窗口
-• 拥抱面的开放重量*基准：*
-• HLE（推理）：50.2%（GPT-5：41.7%）
-• BrowseComp（网络导航）：60.2%（GPT-5：54.9%）
-• SWE-Bench（编码）：71.3%
-• 视频MMMU：86.6%*定价：*
-• 每 100 万个代币 0.60 美元/3.00 美元
-• 比 GPT-5 便宜 5 倍我们是一家瑞士公司（Eyelo SA，成立于 1983 年），并将 RouterLab 上的 Kimi K2.5 与瑞士/德国托管集成，以实现 GDPR 合规性。兼容 OpenAI 的 API，迁移只需 2 行代码：```python
-客户端 = OpenAI(
-    base_url=&quot;https://routerlab.ch/v1&quot;,
-    api_key=&quot;你的密钥&quot;
-）
-我写了一篇技术分析：
-https://medium.com/@comeback01/kimi-k2-5-the-agent-swarm-rev...尝试一下：https://routerlab.ch/blog/kimi-k2-5（14 天免费试用）很高兴回答有关 Agent Swarm、MoE 架构或部署的技术问题！
+      <title>Show HN：Mystral Native – 使用 WebGPU 本地运行 JavaScript 游戏（无浏览器）</title>
+      <link>https://github.com/mystralengine/mystralnative</link>
+      <description><![CDATA[您好，HN，我一直在构建 Mystral Native - 一个轻量级本机运行时，可让您使用标准 Web API（WebGPU、Canvas 2D、Web Audio、fetch）以 JavaScript/TypeScript 编写游戏，并将其作为独立桌面应用程序运行。想想“游戏中的 Electron”，但没有 Chromium。或者像 Node、Deno 或 Bun 这样的 JS 运行时，但针对 WebGPU 进行了优化（并使用 SDL3 捆绑窗口/事件系统）。原因：我最初是在 WebGPU 中启动一个新的游戏引擎，我喜欢编写 Typescript 的迭代循环，并通过热重载立即看到浏览器中的变化。在完成一些工作并发布演示后，我意识到如果我也希望相同的代码库在移动设备上工作，那么发布整个浏览器并不能真正工作。当然，我可以使用 webview，但这对于用户来说并不总是良好或一致的体验 - iOS 上的 Safari 支持 WebGPU 存在细微差别，但与 Chrome 在桌面上提供的功能不同。我真正想要的是一个一致且可在任何平台上运行的 WebGPU 运行时。我受到 deno 的 --unsafe-webgpu 标志的启发，但我意识到 deno 可能不太适合长期使用，因为它不支持 iOS 或 Android，并且不捆绑窗口/事件系统（它们有“自带窗口”，但这意味着为事件编写大量自定义代码，处理窗口，更不用说更具体的事情了，比如实现 WebAudio shim 等）。因此，这让我走上了专门为游戏构建本机运行时的道路，这就是 Mystral Native。现在有了 Mystral Native，我可以拥有相同的开发人员体验（编写 JS、在 WGSL 中使用着色器、调用 requestAnimationFrame），但获得真正的本机二进制文件，我可以将其发送给任何平台上的玩家，而无需 Web 视图或浏览器。没有 200MB Chromium 运行时，没有 CEF 开销，只有游戏代码和约 25MB 运行时。它的作用：
+- 通过 Dawn（Chrome 的实现）或 wgpu-native（Rust）实现完整的 WebGPU
+- 通过 SDL3 的本机窗口和事件
+- Canvas 2D 支持 (Skia)、网络音频 (SDL3)、获取（文件/http/https）
+- V8 for JS（与Chrome/Node相同的引擎），也支持QuickJS和JSC
+- ES 模块，通过 SWC 的 TypeScript
+- 编译为单个二进制文件（认为“pkg”）：`mystral编译game.js --include asset -o my-game`
+- macOS .app 与代码签名、Linux/Windows 独立可执行文件捆绑在一起
+- 适用于 iOS 和 Android 的嵌入 API（JSC/QuickJS + wgpu-native）这是早期 alpha — 核心渲染路径运行良好，我已经在 Mac、Linux (Ubuntu 24.04) 和 Windows 11 上进行了测试，并在 iOS 和 Android 上进行了一些自定义构建，以验证它们是否可以工作，但还有很多需要改进的地方。很想获得一些反馈并看看它可以走向何方！MIT 许可。仓库：https://github.com/mystralengine/mystralnative文档：https://mystralengine.github.io/mystralnative/
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46781155
+评论网址：https://news.ycombinator.com/item?id=46784221
 积分：1
 # 条评论：0]]></description>
-      <guid>https://routerlab.ch/blog/kimi-k2-5</guid>
-      <pubDate>Tue, 27 Jan 2026 15:21:01 GMT</pubDate>
+      <guid>https://github.com/mystralengine/mystralnative</guid>
+      <pubDate>Tue, 27 Jan 2026 18:33:05 GMT</pubDate>
     </item>
     <item>
-      <title>希望与现实主义：斯托克代尔悖论</title>
-      <link>https://www.leadingsapiens.com/stockdale-paradox/</link>
-      <description><![CDATA[文章网址：https://www.leadingsapiens.com/stockdale-paradox/
-评论网址：https://news.ycombinator.com/item?id=46781149
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.leadingsapiens.com/stockdale-paradox/</guid>
-      <pubDate>Tue, 27 Jan 2026 15:20:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nils' K1v – Kawai K1 仿真插件 VSTi/AU</title>
-      <link>https://www.nilsschneider.de/wp/nils-k1v/</link>
-      <description><![CDATA[文章网址：https://www.nilsschneider.de/wp/nils-k1v/
-评论网址：https://news.ycombinator.com/item?id=46781145
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.nilsschneider.de/wp/nils-k1v/</guid>
-      <pubDate>Tue, 27 Jan 2026 15:20:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：自定义域的最佳电子邮件服务？</title>
-      <link>https://news.ycombinator.com/item?id=46781144</link>
-      <description><![CDATA[我想要自定义域的电子邮件服务。您使用过的最好的服务是什么？（除了 Google）
+      <title>Show HN：MCP服务器模糊测试工具</title>
+      <link>https://github.com/Agent-Hellboy/mcp-server-fuzzer</link>
+      <description><![CDATA[用于 MCP 服务器的开源模糊器。目标：轻松地向服务器反复抛出格式错误/奇怪的请求，并捕获崩溃、挂起和错误处理。如果您正在构建 MCP 服务器，我很想知道您希望从模糊器获得什么（语料库输入、传输覆盖范围、报告、CI 使用）。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46781144
+评论网址：https://news.ycombinator.com/item?id=46784217
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46781144</guid>
-      <pubDate>Tue, 27 Jan 2026 15:20:33 GMT</pubDate>
+      <guid>https://github.com/Agent-Hellboy/mcp-server-fuzzer</guid>
+      <pubDate>Tue, 27 Jan 2026 18:32:47 GMT</pubDate>
     </item>
     <item>
-      <title>Yahoo Scout，新的人工智能答案引擎</title>
-      <link>https://www.yahooinc.com/press/introducing-yahoo-scout-a-new-ai-answer-engine</link>
-      <description><![CDATA[文章网址：https://www.yahooinc.com/press/introducing-yahoo-scout-a-new-ai-answer-engine
-评论网址：https://news.ycombinator.com/item?id=46781130
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.yahooinc.com/press/introducing-yahoo-scout-a-new-ai-answer-engine</guid>
-      <pubDate>Tue, 27 Jan 2026 15:19:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：还有其他人发现克劳德的失败几乎无法使用吗？</title>
-      <link>https://news.ycombinator.com/item?id=46781103</link>
-      <description><![CDATA[它比 OpenAI 更适合编码，但它总是默默地失败，这破坏了我的工作流程。  这周我已经停止使用它了，因为我不想在一条死胡同里花上几个小时试图回到原来的地方。  好奇我是否沉浸在这个问题的世界里？
+      <title>询问 HN：如果 OpenAI 停止其免费 Web 服务 (ChatGPT)</title>
+      <link>https://news.ycombinator.com/item?id=46784213</link>
+      <description><![CDATA[我可以使用哪种本地法学硕士至少检查我的代码？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46781103
+评论网址：https://news.ycombinator.com/item?id=46784213
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46781103</guid>
-      <pubDate>Tue, 27 Jan 2026 15:17:16 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46784213</guid>
+      <pubDate>Tue, 27 Jan 2026 18:32:39 GMT</pubDate>
     </item>
     <item>
-      <title>中国已经清除了最高级别的军事将领。为什么？</title>
-      <link>https://www.bbc.com/news/articles/c8d0l0g8yz5o</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c8d0l0g8yz5o
-评论网址：https://news.ycombinator.com/item?id=46781095
+      <title>法学硕士作为法庭</title>
+      <link>https://falconer.com/notes/llm-as-a-courtroom/</link>
+      <description><![CDATA[文章网址：https://falconer.com/notes/llm-as-a-courtroom/
+评论网址：https://news.ycombinator.com/item?id=46784210
+积分：1
+# 条评论：0]]></description>
+      <guid>https://falconer.com/notes/llm-as-a-courtroom/</guid>
+      <pubDate>Tue, 27 Jan 2026 18:32:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：React 开发者的 Duolingo</title>
+      <link>https://www.stanza.dev</link>
+      <description><![CDATA[文章网址：https://www.stanza.dev
+评论网址：https://news.ycombinator.com/item?id=46784192
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.stanza.dev</guid>
+      <pubDate>Tue, 27 Jan 2026 18:31:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>邪恶图表</title>
+      <link>https://evilcharts.com/</link>
+      <description><![CDATA[文章网址：https://evilcharts.com/
+评论网址：https://news.ycombinator.com/item?id=46784176
+积分：1
+# 条评论：0]]></description>
+      <guid>https://evilcharts.com/</guid>
+      <pubDate>Tue, 27 Jan 2026 18:30:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 Anthropic 要求更名后，Clawdbot 更名为 Moltbot</title>
+      <link>https://officechai.com/ai/clawdbot-rebrands-to-moltbot-after-anthropic-asks-it-to-change-name-over-similarity-to-claude/</link>
+      <description><![CDATA[文章网址：https://officechai.com/ai/clawdbot-rebrands-to-moltbot-after-anthropic-asks-it-to-change-name-over-similarity-to-claude/
+评论网址：https://news.ycombinator.com/item?id=46784166
+积分：1
+# 条评论：0]]></description>
+      <guid>https://officechai.com/ai/clawdbot-rebrands-to-moltbot-after-anthropic-asks-it-to-change-name-over-similarity-to-claude/</guid>
+      <pubDate>Tue, 27 Jan 2026 18:29:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么最初的 Apple Silicon 会失败：Asianometry YouTube [视频]</title>
+      <link>https://www.youtube.com/watch?v=Tld91M_bcEI</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=Tld91M_bcEI
+评论网址：https://news.ycombinator.com/item?id=46784155
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=Tld91M_bcEI</guid>
+      <pubDate>Tue, 27 Jan 2026 18:28:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>充满麦田怪圈的古老湖泊潜伏在“驼峰”山的阴影下</title>
+      <link>https://www.livescience.com/planet-earth/ancient-lake-full-of-crop-circles-lurks-in-the-shadow-of-saudi-arabias-camel-hump-mountain-earth-from-space</link>
+      <description><![CDATA[文章网址： https://www.livescience.com/planet-earth/ancient-lake-full-of-crop-circles-lurks-in-the-shadow-of-saudi-arabias-camel-hump-mountain-earth-from-space
+评论网址：https://news.ycombinator.com/item?id=46784152
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.bbc.com/news/articles/c8d0l0g8yz5o</guid>
-      <pubDate>Tue, 27 Jan 2026 15:16:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>专业婚纱照修图服务</title>
-      <link>https://www.photorestorationretouching.com/wedding-photo-retouching/</link>
-      <description><![CDATA[文章网址：https://www.photorestorationretouching.com/wedding-photo-retouching/
-评论网址：https://news.ycombinator.com/item?id=46781091
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.photorestorationretouching.com/wedding-photo-retouching/</guid>
-      <pubDate>Tue, 27 Jan 2026 15:16:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>光标谎称它是新浏览器 [视频]</title>
-      <link>https://www.youtube.com/watch?v=U7s_CaI93Mo</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=U7s_CaI93Mo
-评论网址：https://news.ycombinator.com/item?id=46781078
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=U7s_CaI93Mo</guid>
-      <pubDate>Tue, 27 Jan 2026 15:15:52 GMT</pubDate>
+      <guid>https://www.livescience.com/planet-earth/ancient-lake-full-of-crop-circles-lurks-in-the-shadow-of-saudi-arabias-camel-hump-mountain-earth-from-space</guid>
+      <pubDate>Tue, 27 Jan 2026 18:28:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
