@@ -4,117 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 27 Jan 2026 18:39:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 21:19:18 GMT</lastBuildDate>
     <item>
-      <title>谷歌 DeepMind 员工要求领导确保他们“人身安全”，免受 ICE 侵害</title>
-      <link>https://www.wired.com/story/google-deepmind-staffers-ice-office-questions-safety/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/google-deepmind-staffers-ice-office-questions-safety/
-评论网址：https://news.ycombinator.com/item?id=46784222
+      <title>Show HN：脚本：像 Rust 一样运行的 JavaScript</title>
+      <link>https://docs.script-lang.org/blog/introducing-script</link>
+      <description><![CDATA[文章网址：https://docs.script-lang.org/blog/introducing-script
+评论网址：https://news.ycombinator.com/item?id=46786879
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.wired.com/story/google-deepmind-staffers-ice-office-questions-safety/</guid>
-      <pubDate>Tue, 27 Jan 2026 18:33:05 GMT</pubDate>
+      <guid>https://docs.script-lang.org/blog/introducing-script</guid>
+      <pubDate>Tue, 27 Jan 2026 21:15:00 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Mystral Native – 使用 WebGPU 本地运行 JavaScript 游戏（无浏览器）</title>
-      <link>https://github.com/mystralengine/mystralnative</link>
-      <description><![CDATA[您好，HN，我一直在构建 Mystral Native - 一个轻量级本机运行时，可让您使用标准 Web API（WebGPU、Canvas 2D、Web Audio、fetch）以 JavaScript/TypeScript 编写游戏，并将其作为独立桌面应用程序运行。想想“游戏中的 Electron”，但没有 Chromium。或者像 Node、Deno 或 Bun 这样的 JS 运行时，但针对 WebGPU 进行了优化（并使用 SDL3 捆绑窗口/事件系统）。原因：我最初是在 WebGPU 中启动一个新的游戏引擎，我喜欢编写 Typescript 的迭代循环，并通过热重载立即看到浏览器中的变化。在完成一些工作并发布演示后，我意识到如果我也希望相同的代码库在移动设备上工作，那么发布整个浏览器并不能真正工作。当然，我可以使用 webview，但这对于用户来说并不总是良好或一致的体验 - iOS 上的 Safari 支持 WebGPU 存在细微差别，但与 Chrome 在桌面上提供的功能不同。我真正想要的是一个一致且可在任何平台上运行的 WebGPU 运行时。我受到 deno 的 --unsafe-webgpu 标志的启发，但我意识到 deno 可能不太适合长期使用，因为它不支持 iOS 或 Android，并且不捆绑窗口/事件系统（它们有“自带窗口”，但这意味着为事件编写大量自定义代码，处理窗口，更不用说更具体的事情了，比如实现 WebAudio shim 等）。因此，这让我走上了专门为游戏构建本机运行时的道路，这就是 Mystral Native。现在有了 Mystral Native，我可以拥有相同的开发人员体验（编写 JS、在 WGSL 中使用着色器、调用 requestAnimationFrame），但获得真正的本机二进制文件，我可以将其发送给任何平台上的玩家，而无需 Web 视图或浏览器。没有 200MB Chromium 运行时，没有 CEF 开销，只有游戏代码和约 25MB 运行时。它的作用：
-- 通过 Dawn（Chrome 的实现）或 wgpu-native（Rust）实现完整的 WebGPU
-- 通过 SDL3 的本机窗口和事件
-- Canvas 2D 支持 (Skia)、网络音频 (SDL3)、获取（文件/http/https）
-- V8 for JS（与Chrome/Node相同的引擎），也支持QuickJS和JSC
-- ES 模块，通过 SWC 的 TypeScript
-- 编译为单个二进制文件（认为“pkg”）：`mystral编译game.js --include asset -o my-game`
-- macOS .app 与代码签名、Linux/Windows 独立可执行文件捆绑在一起
-- 适用于 iOS 和 Android 的嵌入 API（JSC/QuickJS + wgpu-native）这是早期 alpha — 核心渲染路径运行良好，我已经在 Mac、Linux (Ubuntu 24.04) 和 Windows 11 上进行了测试，并在 iOS 和 Android 上进行了一些自定义构建，以验证它们是否可以工作，但还有很多需要改进的地方。很想获得一些反馈并看看它可以走向何方！MIT 许可。仓库：https://github.com/mystralengine/mystralnative文档：https://mystralengine.github.io/mystralnative/
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46784221
+      <title>OpenAI 的 Prism 原型于 15 个月前完成</title>
+      <link>https://twitter.com/vicapow/status/1848842158595576073</link>
+      <description><![CDATA[文章网址：https://twitter.com/vicapow/status/1848842158595576073
+评论网址：https://news.ycombinator.com/item?id=46786876
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/mystralengine/mystralnative</guid>
-      <pubDate>Tue, 27 Jan 2026 18:33:05 GMT</pubDate>
+      <guid>https://twitter.com/vicapow/status/1848842158595576073</guid>
+      <pubDate>Tue, 27 Jan 2026 21:14:53 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：MCP服务器模糊测试工具</title>
-      <link>https://github.com/Agent-Hellboy/mcp-server-fuzzer</link>
-      <description><![CDATA[用于 MCP 服务器的开源模糊器。目标：轻松地向服务器反复抛出格式错误/奇怪的请求，并捕获崩溃、挂起和错误处理。如果您正在构建 MCP 服务器，我很想知道您希望从模糊器获得什么（语料库输入、传输覆盖范围、报告、CI 使用）。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46784217
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/Agent-Hellboy/mcp-server-fuzzer</guid>
-      <pubDate>Tue, 27 Jan 2026 18:32:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：如果 OpenAI 停止其免费 Web 服务 (ChatGPT)</title>
-      <link>https://news.ycombinator.com/item?id=46784213</link>
-      <description><![CDATA[我可以使用哪种本地法学硕士至少检查我的代码？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46784213
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46784213</guid>
-      <pubDate>Tue, 27 Jan 2026 18:32:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>法学硕士作为法庭</title>
-      <link>https://falconer.com/notes/llm-as-a-courtroom/</link>
-      <description><![CDATA[文章网址：https://falconer.com/notes/llm-as-a-courtroom/
-评论网址：https://news.ycombinator.com/item?id=46784210
-积分：1
-# 条评论：0]]></description>
-      <guid>https://falconer.com/notes/llm-as-a-courtroom/</guid>
-      <pubDate>Tue, 27 Jan 2026 18:32:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：React 开发者的 Duolingo</title>
-      <link>https://www.stanza.dev</link>
-      <description><![CDATA[文章网址：https://www.stanza.dev
-评论网址：https://news.ycombinator.com/item?id=46784192
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.stanza.dev</guid>
-      <pubDate>Tue, 27 Jan 2026 18:31:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>邪恶图表</title>
-      <link>https://evilcharts.com/</link>
-      <description><![CDATA[文章网址：https://evilcharts.com/
-评论网址：https://news.ycombinator.com/item?id=46784176
-积分：1
-# 条评论：0]]></description>
-      <guid>https://evilcharts.com/</guid>
-      <pubDate>Tue, 27 Jan 2026 18:30:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Anthropic 要求更名后，Clawdbot 更名为 Moltbot</title>
-      <link>https://officechai.com/ai/clawdbot-rebrands-to-moltbot-after-anthropic-asks-it-to-change-name-over-similarity-to-claude/</link>
-      <description><![CDATA[文章网址：https://officechai.com/ai/clawdbot-rebrands-to-moltbot-after-anthropic-asks-it-to-change-name-over-similarity-to-claude/
-评论网址：https://news.ycombinator.com/item?id=46784166
-积分：1
-# 条评论：0]]></description>
-      <guid>https://officechai.com/ai/clawdbot-rebrands-to-moltbot-after-anthropic-asks-it-to-change-name-over-similarity-to-claude/</guid>
-      <pubDate>Tue, 27 Jan 2026 18:29:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么最初的 Apple Silicon 会失败：Asianometry YouTube [视频]</title>
-      <link>https://www.youtube.com/watch?v=Tld91M_bcEI</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=Tld91M_bcEI
-评论网址：https://news.ycombinator.com/item?id=46784155
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=Tld91M_bcEI</guid>
-      <pubDate>Tue, 27 Jan 2026 18:28:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>充满麦田怪圈的古老湖泊潜伏在“驼峰”山的阴影下</title>
-      <link>https://www.livescience.com/planet-earth/ancient-lake-full-of-crop-circles-lurks-in-the-shadow-of-saudi-arabias-camel-hump-mountain-earth-from-space</link>
-      <description><![CDATA[文章网址： https://www.livescience.com/planet-earth/ancient-lake-full-of-crop-circles-lurks-in-the-shadow-of-saudi-arabias-camel-hump-mountain-earth-from-space
-评论网址：https://news.ycombinator.com/item?id=46784152
+      <title>Zotac警告零部件短缺威胁GPU制造商的“生存”</title>
+      <link>https://www.tomshardware.com/pc-components/gpus/zotac-warns-component-shortages-threaten-the-very-survival-of-gpu-manufacturers-and-distributors-message-to-korean-customers-suggests-that-the-worst-could-be-yet-to-come</link>
+      <description><![CDATA[文章网址： https://www.tomshardware.com/pc-components/gpus/zotac-warns-component-shortages-threaten-the-very-survival-of-gpu-manufacturers-and-distributors-message-to-korean-customers-suggests-that-the-worst-could-be-yet-to-come
+评论网址：https://news.ycombinator.com/item?id=46786831
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.livescience.com/planet-earth/ancient-lake-full-of-crop-circles-lurks-in-the-shadow-of-saudi-arabias-camel-hump-mountain-earth-from-space</guid>
-      <pubDate>Tue, 27 Jan 2026 18:28:29 GMT</pubDate>
+      <guid>https://www.tomshardware.com/pc-components/gpus/zotac-warns-component-shortages-threaten-the-very-survival-of-gpu-manufacturers-and-distributors-message-to-korean-customers-suggests-that-the-worst-could-be-yet-to-come</guid>
+      <pubDate>Tue, 27 Jan 2026 21:12:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>食品的未来并不更大。它更小，更人性化</title>
+      <link>https://www.thefoodcorridor.com/blog/the-future-of-food/</link>
+      <description><![CDATA[文章网址：https://www.thefoodcorridor.com/blog/the-future-of-food/
+评论网址：https://news.ycombinator.com/item?id=46786782
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.thefoodcorridor.com/blog/the-future-of-food/</guid>
+      <pubDate>Tue, 27 Jan 2026 21:09:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>出于安全担忧，法国将放弃美国平台，转而使用“主权平台”</title>
+      <link>https://www.euronews.com/next/2026/01/27/france-to-ditch-us-platforms-microsoft-teams-zoom-for-sovereign-platform-amid-security-con</link>
+      <description><![CDATA[文章网址： https://www.euronews.com/next/2026/01/27/france-to-ditch-us-platforms-microsoft-teams-zoom-for-sovereign-platform-amid-security-con
+评论网址：https://news.ycombinator.com/item?id=46786775
+积分：2
+# 条评论：1]]></description>
+      <guid>https://www.euronews.com/next/2026/01/27/france-to-ditch-us-platforms-microsoft-teams-zoom-for-sovereign-platform-amid-security-con</guid>
+      <pubDate>Tue, 27 Jan 2026 21:08:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：视频源实验无需登录</title>
+      <link>https://infinijest.com</link>
+      <description><![CDATA[文章网址：https://infinijest.com
+评论网址：https://news.ycombinator.com/item?id=46786745
+积分：1
+# 条评论：0]]></description>
+      <guid>https://infinijest.com</guid>
+      <pubDate>Tue, 27 Jan 2026 21:07:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：对后台代理入门工具包的反馈（WINK / Python）</title>
+      <link>https://github.com/weakincentives/starter</link>
+      <description><![CDATA[文章网址：https://github.com/weakincentives/starter
+评论网址：https://news.ycombinator.com/item?id=46786724
+积分：1
+# 条评论：1]]></description>
+      <guid>https://github.com/weakincentives/starter</guid>
+      <pubDate>Tue, 27 Jan 2026 21:06:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>怪物中微子可能是古代黑洞的使者</title>
+      <link>https://www.quantamagazine.org/monster-neutrino-could-be-a-messenger-of-ancient-black-holes-20260123/</link>
+      <description><![CDATA[文章网址：https://www.quantamagazine.org/monster-neutrino-could-be-a-messenger-of-ancient-black-holes-20260123/
+评论网址：https://news.ycombinator.com/item?id=46786723
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.quantamagazine.org/monster-neutrino-could-be-a-messenger-of-ancient-black-holes-20260123/</guid>
+      <pubDate>Tue, 27 Jan 2026 21:06:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>HWO 必须达到皮米级才能观测地球 2.0</title>
+      <link>https://www.universetoday.com/articles/the-hwo-must-be-picometer-perfect-to-observe-earth-20</link>
+      <description><![CDATA[文章网址：https://www.universetoday.com/articles/the-hwo-must-be-picometer-perfect-to-observe-earth-20
+评论网址：https://news.ycombinator.com/item?id=46786721
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.universetoday.com/articles/the-hwo-must-be-picometer-perfect-to-observe-earth-20</guid>
+      <pubDate>Tue, 27 Jan 2026 21:06:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Drift，一款开源 HRV 阅读器</title>
+      <link>https://github.com/cladam/drift</link>
+      <description><![CDATA[这一切都始于我想要测量我的 HRV，我尝试了许多不同的应用程序，但并没有真正留下深刻的印象，要么它们的订阅费用昂贵，要么它们的界面非常混乱，而且 PPG（光电体积描记法（使用相机））恕我直言，并不是那么准确。像智能环或手表这样的可穿戴设备可能会更好，但我不想买......所以我开始构建自己的，这是一次有趣的经历，我读了很多关于 HRV、RR 间隔以及如何使用 baevsky 方法计算压力指数的内容，读起来很有趣。Drift 通过查看 BPM、HRV、SI 和每晚睡眠量来帮助您了解您当前的能力。如果没有可穿戴设备，则必须手动开始跟踪睡眠，但它具有智能功能，并且会在早上第一次解锁后停止跟踪（深夜滚动器会等待 2 小时，以确保您在睡觉）我没有找到任何好的开源应用程序，因此希望 Drift 能够吸引感兴趣的人。我是 OSS 的坚定信徒，我认为用户会喜欢能够看到正在发生的事情的开放性，以及在 Play 上获取它的便利性低价商店（无订阅或隐藏费用）。GitHub（麻省理工学院开源）：https://github.com/cladam/drift
+Play 商店：https://play.google.com/store/apps/details?id=com.ilseon.dri...感谢您查看。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46786696
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/cladam/drift</guid>
+      <pubDate>Tue, 27 Jan 2026 21:04:16 GMT</pubDate>
     </item>
     </channel>
 </rss>
