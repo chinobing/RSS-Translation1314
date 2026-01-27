@@ -4,107 +4,136 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 27 Jan 2026 12:52:13 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 15:31:51 GMT</lastBuildDate>
     <item>
-      <title>最近有什么以软件工程师为主角的小说吗？</title>
-      <link>https://news.ycombinator.com/item?id=46779230</link>
-      <description><![CDATA[我不知道为什么这么难找到。我只是在寻找最近的小说，其中的主角是像我这样的人，有一份常规的软件开发工作，只是做普通的开发工作。我在互联网上搜索并只挖出了一些。在柏林，安妮·博特和上帝！天啊！一切都很好，但还需要更多。有什么建议吗？
+      <title>Show HN：我编码了一个在真实硬件上启动的 X64、ARM64 操作系统</title>
+      <link>https://github.com/viralcode/vib-OS</link>
+      <description><![CDATA[文章网址：https://github.com/viralcode/vib-OS
+评论网址：https://news.ycombinator.com/item?id=46781188
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/viralcode/vib-OS</guid>
+      <pubDate>Tue, 27 Jan 2026 15:23:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Kimi K2.5（Agent Swarm，击败 GPT-5）现已在 RouterLab（瑞士托管）上运行</title>
+      <link>https://routerlab.ch/blog/kimi-k2-5</link>
+      <description><![CDATA[嗨 HN！Moonshot AI 今天发布了 Kimi K2.5，我们在几个小时内将其集成到 RouterLab 上。为什么这很重要：*开源击败专有：*
+• Kimi K2.5：HLE（人类最后的考试）50.2%
+• GPT-5：41.7%
+• Claude 4.5：32.0%开源模型首次在专家级推理上击败 GPT-5。*Agent Swarm 架构：*
+• 协调多达 100 个并行代理
+• 1,500 个同时工具调用
+• 比顺序执行快 4.5 倍
+• 自主任务分解示例：“分析 50 个竞争对手并创建报告”
+→ 创建 50 个研究代理
+→ 并行执行
+→ 几分钟内即可完成报告*技术规格：*
+• 1T 参数（32B 激活）
+• 384 名教育部专家
+• 原生 INT4 量化
+• 256k 上下文窗口
+• 拥抱面的开放重量*基准：*
+• HLE（推理）：50.2%（GPT-5：41.7%）
+• BrowseComp（网络导航）：60.2%（GPT-5：54.9%）
+• SWE-Bench（编码）：71.3%
+• 视频MMMU：86.6%*定价：*
+• 每 100 万个代币 0.60 美元/3.00 美元
+• 比 GPT-5 便宜 5 倍我们是一家瑞士公司（Eyelo SA，成立于 1983 年），并将 RouterLab 上的 Kimi K2.5 与瑞士/德国托管集成，以实现 GDPR 合规性。兼容 OpenAI 的 API，迁移只需 2 行代码：```python
+客户端 = OpenAI(
+    base_url=&quot;https://routerlab.ch/v1&quot;,
+    api_key=&quot;你的密钥&quot;
+）
+我写了一篇技术分析：
+https://medium.com/@comeback01/kimi-k2-5-the-agent-swarm-rev...尝试一下：https://routerlab.ch/blog/kimi-k2-5（14 天免费试用）很高兴回答有关 Agent Swarm、MoE 架构或部署的技术问题！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46779230
+评论网址：https://news.ycombinator.com/item?id=46781155
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46779230</guid>
-      <pubDate>Tue, 27 Jan 2026 12:42:16 GMT</pubDate>
+      <guid>https://routerlab.ch/blog/kimi-k2-5</guid>
+      <pubDate>Tue, 27 Jan 2026 15:21:01 GMT</pubDate>
     </item>
     <item>
-      <title>Gonemaster：Zonemaster DNS 检查器的 Golang 克隆</title>
-      <link>https://codeberg.org/pawal/gonemaster</link>
-      <description><![CDATA[文章网址：https://codeberg.org/pawal/gonemaster
-评论网址：https://news.ycombinator.com/item?id=46779229
+      <title>希望与现实主义：斯托克代尔悖论</title>
+      <link>https://www.leadingsapiens.com/stockdale-paradox/</link>
+      <description><![CDATA[文章网址：https://www.leadingsapiens.com/stockdale-paradox/
+评论网址：https://news.ycombinator.com/item?id=46781149
 积分：1
 # 条评论：0]]></description>
-      <guid>https://codeberg.org/pawal/gonemaster</guid>
-      <pubDate>Tue, 27 Jan 2026 12:42:03 GMT</pubDate>
+      <guid>https://www.leadingsapiens.com/stockdale-paradox/</guid>
+      <pubDate>Tue, 27 Jan 2026 15:20:43 GMT</pubDate>
     </item>
     <item>
-      <title>国会图书馆 Pywb 回溯机</title>
-      <link>https://webarchive-beta.loc.gov/playback-services/general/</link>
-      <description><![CDATA[文章网址：https://webarchive-beta.loc.gov/playback-services/general/
-评论网址：https://news.ycombinator.com/item?id=46779214
+      <title>Nils' K1v – Kawai K1 仿真插件 VSTi/AU</title>
+      <link>https://www.nilsschneider.de/wp/nils-k1v/</link>
+      <description><![CDATA[文章网址：https://www.nilsschneider.de/wp/nils-k1v/
+评论网址：https://news.ycombinator.com/item?id=46781145
 积分：1
 # 条评论：0]]></description>
-      <guid>https://webarchive-beta.loc.gov/playback-services/general/</guid>
-      <pubDate>Tue, 27 Jan 2026 12:40:20 GMT</pubDate>
+      <guid>https://www.nilsschneider.de/wp/nils-k1v/</guid>
+      <pubDate>Tue, 27 Jan 2026 15:20:33 GMT</pubDate>
     </item>
     <item>
-      <title>对抗性人工智能辩论你的问题，法官选出获胜者</title>
-      <link>https://mindhalo.ai/debates/</link>
-      <description><![CDATA[文章网址：https://mindhalo.ai/debates/
-评论网址：https://news.ycombinator.com/item?id=46779201
+      <title>询问 HN：自定义域的最佳电子邮件服务？</title>
+      <link>https://news.ycombinator.com/item?id=46781144</link>
+      <description><![CDATA[我想要自定义域的电子邮件服务。您使用过的最好的服务是什么？（除了 Google）
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46781144
 积分：1
 # 条评论：0]]></description>
-      <guid>https://mindhalo.ai/debates/</guid>
-      <pubDate>Tue, 27 Jan 2026 12:38:58 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46781144</guid>
+      <pubDate>Tue, 27 Jan 2026 15:20:33 GMT</pubDate>
     </item>
     <item>
-      <title>苹果今年将推出这 20 款产品</title>
-      <link>https://www.macrumors.com/2026/01/25/rumored-apple-products/</link>
-      <description><![CDATA[文章网址：https://www.macrumors.com/2026/01/25/rumored-apple-products/
-评论网址：https://news.ycombinator.com/item?id=46779194
+      <title>Yahoo Scout，新的人工智能答案引擎</title>
+      <link>https://www.yahooinc.com/press/introducing-yahoo-scout-a-new-ai-answer-engine</link>
+      <description><![CDATA[文章网址：https://www.yahooinc.com/press/introducing-yahoo-scout-a-new-ai-answer-engine
+评论网址：https://news.ycombinator.com/item?id=46781130
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.macrumors.com/2026/01/25/rumored-apple-products/</guid>
-      <pubDate>Tue, 27 Jan 2026 12:38:28 GMT</pubDate>
+      <guid>https://www.yahooinc.com/press/introducing-yahoo-scout-a-new-ai-answer-engine</guid>
+      <pubDate>Tue, 27 Jan 2026 15:19:32 GMT</pubDate>
     </item>
     <item>
-      <title>会话代理的自我识别</title>
-      <link>https://arxiv.org/abs/2002.02334</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2002.02334
-评论网址：https://news.ycombinator.com/item?id=46779177
+      <title>问 HN：还有其他人发现克劳德的失败几乎无法使用吗？</title>
+      <link>https://news.ycombinator.com/item?id=46781103</link>
+      <description><![CDATA[它比 OpenAI 更适合编码，但它总是默默地失败，这破坏了我的工作流程。  这周我已经停止使用它了，因为我不想在一条死胡同里花上几个小时试图回到原来的地方。  好奇我是否沉浸在这个问题的世界里？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46781103
 积分：1
 # 条评论：0]]></description>
-      <guid>https://arxiv.org/abs/2002.02334</guid>
-      <pubDate>Tue, 27 Jan 2026 12:36:07 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46781103</guid>
+      <pubDate>Tue, 27 Jan 2026 15:17:16 GMT</pubDate>
     </item>
     <item>
-      <title>Joyus：我尝试过 Datastar</title>
-      <link>https://ajmoon.com/posts/joyus-i-tried-datastar</link>
-      <description><![CDATA[文章网址：https://ajmoon.com/posts/joyus-i-tried-datastar
-评论网址：https://news.ycombinator.com/item?id=46779148
-积分：1
-# 条评论：0]]></description>
-      <guid>https://ajmoon.com/posts/joyus-i-tried-datastar</guid>
-      <pubDate>Tue, 27 Jan 2026 12:32:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLM内存终极指南</title>
-      <link>https://fastpaca.com/blog/ultimate-guide-to-llm-memory/</link>
-      <description><![CDATA[文章网址：https://fastpaca.com/blog/ultimate-guide-to-llm-memory/
-评论网址：https://news.ycombinator.com/item?id=46779145
-积分：1
-# 条评论：0]]></description>
-      <guid>https://fastpaca.com/blog/ultimate-guide-to-llm-memory/</guid>
-      <pubDate>Tue, 27 Jan 2026 12:32:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>旋转：请不要</title>
-      <link>https://www.siliceum.com/en/blog/post/spinning-around/</link>
-      <description><![CDATA[文章网址：https://www.siliceum.com/en/blog/post/spinning-around/
-评论网址：https://news.ycombinator.com/item?id=46779141
+      <title>中国已经清除了最高级别的军事将领。为什么？</title>
+      <link>https://www.bbc.com/news/articles/c8d0l0g8yz5o</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c8d0l0g8yz5o
+评论网址：https://news.ycombinator.com/item?id=46781095
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.siliceum.com/en/blog/post/spinning-around/</guid>
-      <pubDate>Tue, 27 Jan 2026 12:32:10 GMT</pubDate>
+      <guid>https://www.bbc.com/news/articles/c8d0l0g8yz5o</guid>
+      <pubDate>Tue, 27 Jan 2026 15:16:43 GMT</pubDate>
     </item>
     <item>
-      <title>可解释的机器学习：k 个 q 维最佳拟合多胞体</title>
-      <link>https://figshare.com/articles/media/A_demo_of_k-polytopes/7991909?file=14884349</link>
-      <description><![CDATA[文章网址：https://figshare.com/articles/media/A_demo_of_k-polytopes/7991909?file=14884349
-评论网址：https://news.ycombinator.com/item?id=46779127
+      <title>专业婚纱照修图服务</title>
+      <link>https://www.photorestorationretouching.com/wedding-photo-retouching/</link>
+      <description><![CDATA[文章网址：https://www.photorestorationretouching.com/wedding-photo-retouching/
+评论网址：https://news.ycombinator.com/item?id=46781091
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.photorestorationretouching.com/wedding-photo-retouching/</guid>
+      <pubDate>Tue, 27 Jan 2026 15:16:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>光标谎称它是新浏览器 [视频]</title>
+      <link>https://www.youtube.com/watch?v=U7s_CaI93Mo</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=U7s_CaI93Mo
+评论网址：https://news.ycombinator.com/item?id=46781078
 积分：1
 # 条评论：0]]></description>
-      <guid>https://figshare.com/articles/media/A_demo_of_k-polytopes/7991909?file=14884349</guid>
-      <pubDate>Tue, 27 Jan 2026 12:30:30 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=U7s_CaI93Mo</guid>
+      <pubDate>Tue, 27 Jan 2026 15:15:52 GMT</pubDate>
     </item>
     </channel>
 </rss>
