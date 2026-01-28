@@ -4,108 +4,109 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 28 Jan 2026 18:38:44 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 21:31:43 GMT</lastBuildDate>
     <item>
-      <title>汇丰银行，电子邮件不是这样运作的</title>
+      <title>沃纳·赫尔佐格的虚无主义企鹅教会了我们关于生活的什么？</title>
+      <link>https://lwlies.com/article/werner-herzog-penguin-encounters-at-the-end-of-the-world</link>
+      <description><![CDATA[文章网址：https://lwlies.com/article/werner-herzog-penguin-encounters-at-the-end-of-the-world
+评论网址：https://news.ycombinator.com/item?id=46801225
+积分：7
+# 条评论：8]]></description>
+      <guid>https://lwlies.com/article/werner-herzog-penguin-encounters-at-the-end-of-the-world</guid>
+      <pubDate>Wed, 28 Jan 2026 20:43:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>原生 Linux VST 插件目录</title>
+      <link>https://linuxmusic.rocks</link>
+      <description><![CDATA[文章网址：https://linuxmusic.rocks
+评论网址：https://news.ycombinator.com/item?id=46800737
+积分：26
+# 条评论：13]]></description>
+      <guid>https://linuxmusic.rocks</guid>
+      <pubDate>Wed, 28 Jan 2026 19:59:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Native Instruments 进入破产程序</title>
+      <link>https://www.engadget.com/audio/native-instruments-enters-into-insolvency-proceedings-leaving-its-future-uncertain-183206826.html</link>
+      <description><![CDATA[文章网址： https://www.engadget.com/audio/native-instruments-enters-into-insolvency-proceedings-leaving-its-future-uncertain-183206826.html
+评论网址：https://news.ycombinator.com/item?id=46800645
+积分：46
+评论数量：9]]></description>
+      <guid>https://www.engadget.com/audio/native-instruments-enters-into-insolvency-proceedings-leaving-its-future-uncertain-183206826.html</guid>
+      <pubDate>Wed, 28 Jan 2026 19:51:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>谁设定了世界末日时钟？</title>
+      <link>https://www.popularmechanics.com/science/a70162364/setting-the-doomsday-clock/</link>
+      <description><![CDATA[文章网址：https://www.popularmechanics.com/science/a70162364/setting-the-doomsday-clock/
+评论网址：https://news.ycombinator.com/item?id=46800623
+积分：6
+# 条评论：4]]></description>
+      <guid>https://www.popularmechanics.com/science/a70162364/setting-the-doomsday-clock/</guid>
+      <pubDate>Wed, 28 Jan 2026 19:48:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：用户脚本的光标</title>
+      <link>https://github.com/chebykinn/browser-code</link>
+      <description><![CDATA[我一直在尝试将 Claude Code/Cursor 风格的编码代理直接嵌入到浏览器中。在较高级别上，该代理生成并维护在页面加载时重新应用的用户脚本和 CSS。代理不仅仅是在控制台中通过 JS 编辑 DOM，而是将页面和 DOM 视为文件。模型通常在 RL 沙箱中进行训练，可以完全访问文件系统和 bash，因此它们非常擅长使用它。因此，为了使代理表现良好，我模拟了这个环境。页面和脚本的整个状态被实现为在 browser.local 存储之上破解的虚拟文件系统。 URL 映射到目录，代理在该目录内启动。它具有读取/编辑文件的工具、grep 和一个仅用于运行脚本和执行 JS 代码的假 bash 命令。到目前为止，我仅使用 Opus 4.5 进行了测试，并且它工作得非常可靠。
+文件系统的状态可以同步到真实的文件系统，尽管由于 Firefox 不支持 Filesystem API，所以您需要先手动导入文件系统内容。这个代理对于将内容提取到 CSV 确实非常有用，但它也可以用于娱乐。演示：https://x.com/ichebykin/status/2015686974439608607
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46800484
+积分：9
+# 条评论：0]]></description>
+      <guid>https://github.com/chebykinn/browser-code</guid>
+      <pubDate>Wed, 28 Jan 2026 19:39:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>尝试制作值得向最终用户展示的人工智能图像</title>
+      <link>https://www.approachwithalacrity.com/how-to-turn-sfo-jfk-into-a-beautiful-photo/</link>
+      <description><![CDATA[文章网址：https://www.approachwithalacrity.com/how-to-turn-sfo-jfk-into-a-beautiful-photo/
+评论网址：https://news.ycombinator.com/item?id=46800303
+积分：5
+# 条评论：0]]></description>
+      <guid>https://www.approachwithalacrity.com/how-to-turn-sfo-jfk-into-a-beautiful-photo/</guid>
+      <pubDate>Wed, 28 Jan 2026 19:24:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：一个 MitM 代理，用于查看您的 LLM 工具发送的内容</title>
+      <link>https://github.com/jmuncor/sherlock</link>
+      <description><![CDATA[我出于对 Claude Code 实际发送到 API 的内容的好奇而构建了这个。事实证明，实时观察代币的增长是一种奇怪的满足感。Sherlock 位于 LLM 工具和 API 之间，通过实时仪表板向您显示每个请求，并以 markdown 和 json 形式自动保存每个提示的副本。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46799898
+积分：6
+# 条评论：0]]></description>
+      <guid>https://github.com/jmuncor/sherlock</guid>
+      <pubDate>Wed, 28 Jan 2026 18:52:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我正在构建一个防人工智能的写作工具。你会怎样打败它？</title>
+      <link>https://auth-auth.vercel.app/</link>
+      <description><![CDATA[文章网址：https://auth-auth.vercel.app/
+评论网址：https://news.ycombinator.com/item?id=46799402
+积分：3
+# 条评论：1]]></description>
+      <guid>https://auth-auth.vercel.app/</guid>
+      <pubDate>Wed, 28 Jan 2026 18:18:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>电子邮件不是这样运作的</title>
       <link>https://danq.me/2026/01/28/hsbc-dont-understand-email/</link>
       <description><![CDATA[文章网址：https://danq.me/2026/01/28/hsbc-dont-understand-email/
 评论网址：https://news.ycombinator.com/item?id=46799304
-积分：11
-# 条评论：0]]></description>
+积分：162
+# 条评论：105]]></description>
       <guid>https://danq.me/2026/01/28/hsbc-dont-understand-email/</guid>
       <pubDate>Wed, 28 Jan 2026 18:12:02 GMT</pubDate>
     </item>
     <item>
-      <title>Mousefood – 为微控制器构建嵌入式终端 UI</title>
-      <link>https://github.com/ratatui/mousefood</link>
-      <description><![CDATA[文章网址：https://github.com/ratatui/mousefood
-评论网址：https://news.ycombinator.com/item?id=46798402
-积分：14
-# 条评论：1]]></description>
-      <guid>https://github.com/ratatui/mousefood</guid>
-      <pubDate>Wed, 28 Jan 2026 17:20:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我为特工构建了一个沙箱</title>
-      <link>https://github.com/vrn21/bouvet.com</link>
-      <description><![CDATA[文章网址：https://github.com/vrn21/bouvet.com
-评论网址：https://news.ycombinator.com/item?id=46797895
-积分：28
-# 条评论：29]]></description>
-      <guid>https://github.com/vrn21/bouvet.com</guid>
-      <pubDate>Wed, 28 Jan 2026 16:50:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>旋转：请不要 – 自旋锁的常见问题</title>
-      <link>https://www.siliceum.com/en/blog/post/spinning-around/</link>
-      <description><![CDATA[文章网址：https://www.siliceum.com/en/blog/post/spinning-around/
-评论网址：https://news.ycombinator.com/item?id=46797868
-积分：5
-# 条评论：0]]></description>
-      <guid>https://www.siliceum.com/en/blog/post/spinning-around/</guid>
-      <pubDate>Wed, 28 Jan 2026 16:48:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Elixir 的作业处理框架 Oban 现已移植到 Python</title>
-      <link>https://www.dimamik.com/posts/oban_py/</link>
-      <description><![CDATA[文章网址：https://www.dimamik.com/posts/oban_py/
-评论网址：https://news.ycombinator.com/item?id=46797594
-积分：44
-# 条评论：17]]></description>
-      <guid>https://www.dimamik.com/posts/oban_py/</guid>
-      <pubDate>Wed, 28 Jan 2026 16:32:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>翼型 (2024)</title>
-      <link>https://ciechanow.ski/airfoil/</link>
-      <description><![CDATA[文章网址：https://ciechanow.ski/airfoil/
-评论网址：https://news.ycombinator.com/item?id=46795908
-积分：204
-# 条评论：35]]></description>
-      <guid>https://ciechanow.ski/airfoil/</guid>
-      <pubDate>Wed, 28 Jan 2026 14:32:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软强迫我切换到 Linux</title>
-      <link>https://www.himthe.dev/blog/microsoft-to-linux</link>
-      <description><![CDATA[文章网址：https://www.himthe.dev/blog/microsoft-to-linux
-评论网址：https://news.ycombinator.com/item?id=46795864
-积分：871
-# 条评论：728]]></description>
-      <guid>https://www.himthe.dev/blog/microsoft-to-linux</guid>
-      <pubDate>Wed, 28 Jan 2026 14:28:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我用 C++ 从头开始​​构建了一个小型浏览器引擎</title>
-      <link>https://github.com/beginner-jhj/mini_browser</link>
-      <description><![CDATA[嗨，HN！韩国高中生，即将在大学开始计算机科学。我用 C++ 从头开始​​构建了一个浏览器引擎，以了解浏览器的工作原理。第一次使用 C++，开发了 8 周，进行了大量调试 - 但它有效！功能：- HTML 解析与纠错- CSS 级联和继承- 块/内联布局引擎- 异步图像加载 + 缓存- 链接导航 + 历史记录最难的部分：- 字符串解析（html、css）- 渲染- 图像缓存和布局回流我学到的东西（超越代码）：- 系统调试至关重要- 发布已知错误而不是追求完美- “为什么？”的力量~3,000 行 C++17/Qt6。希望获得有关代码架构和 C++ 最佳实践的反馈！GitHub：https://github.com/beginner-jhj/mini_browser
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46795540
-积分：58
-# 条评论：13]]></description>
-      <guid>https://github.com/beginner-jhj/mini_browser</guid>
-      <pubDate>Wed, 28 Jan 2026 14:03:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kyber (YC W23) 正在招聘一名高级工程师</title>
-      <link>https://www.ycombinator.com/companies/kyber/jobs/GPJkv5v-staff-engineer-tech-lead</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/kyber/jobs/GPJkv5v-staff-engineer-tech-lead
-评论网址：https://news.ycombinator.com/item?id=46794231
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/kyber/jobs/GPJkv5v-staff-engineer-tech-lead</guid>
-      <pubDate>Wed, 28 Jan 2026 12:00:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：HN 商场</title>
-      <link>https://andrewgy8.github.io/hnarcade/</link>
-      <description><![CDATA[我喜欢看到人们构建并发布到此网站的所有小游戏。我不想忘记任何游戏，因此我为我维护的游戏构建了一个目录/游戏中心。请随意查看，如果缺少游戏，请添加您的游戏，并让我知道您的想法。谢谢！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46793693
-积分：233
-# 条评论：64]]></description>
-      <guid>https://andrewgy8.github.io/hnarcade/</guid>
-      <pubDate>Wed, 28 Jan 2026 10:50:32 GMT</pubDate>
+      <title>计算机历史博物馆推出藏品数字门户</title>
+      <link>https://computerhistory.org/press-releases/computer-history-museum-launches-digital-portal-to-its-vast-collection/</link>
+      <description><![CDATA[文章网址：https://computerhistory.org/press-releases/computer-history-museum-launches-digital-portal-to-its-vast-collection/
+评论网址：https://news.ycombinator.com/item?id=46798994
+积分：56
+评论数量：9]]></description>
+      <guid>https://computerhistory.org/press-releases/computer-history-museum-launches-digital-portal-to-its-vast-collection/</guid>
+      <pubDate>Wed, 28 Jan 2026 17:54:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
