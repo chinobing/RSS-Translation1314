@@ -4,128 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 29 Jan 2026 12:58:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 15:37:01 GMT</lastBuildDate>
     <item>
-      <title>Show HN：让 Claude 创作并端到端演奏 techno 曲目的系统</title>
-      <link>https://github.com/hughes7370/AbletonComposer</link>
-      <description><![CDATA[我对人工智能音乐中的一个根本差距很着迷：当前模型（Suno、Udio）通过序列预测生成音频 - 它们与现有波形进行模式匹配，但不“了解”音乐理论。因此，你无法获取主干、调整混音或修改编曲逻辑。我想看看法学硕士是否可以根据第一原理（理解音阶、和弦进行和编曲理论）创作音乐，并控制 DAW 生成音频。Loom 演示：https://www.loom.com/share/8f55136085a24ed1bc79acb5cdda194c堆栈
-Ableton Live 12：DAW 引擎。Ableton MCP（模型上下文协议）：分叉和扩展，允许 Claude 操作 MIDI、剪辑和设备。Claude 3.5 Sonnet：“作曲家”，配备了约 12 个自定义技能文件，涵盖编曲、EQ 和声音设计。Gemini：反馈循环。用于分析渲染的音频（通过主干分离）并为迭代提供批评。Python：1,700 多行性能脚本。工程挑战
-1. 样本库问题技术依赖于精选的样本，而不仅仅是合成。但法学硕士无法“听到”示例库来选择正确的踢法或帽子。我构建了一个示例分析系统，可以预处理该库并生成 JSON 配置文件。这使得 Claude 可以通过光谱特征查询样本，而不仅仅是文件名。JSON
-{
-  &quot;file_name&quot;: &quot;001_Stab_Low.wav&quot;,
-  “每分钟节拍数”：126.0，
-  &quot;key&quot;: &quot;N/A（无调性）&quot;,
-  “spectral_centroid_mean”：297.2，
-  “亮度”：0.04，
-  “温暖”：1.0，
-  “texture_tags”：[“黑暗”，“温暖”，“软攻击”，“扭曲”]，
-  “类别”：“低音”
-}
-2. 性能层（Polymetrics） Ableton 的会话视图处理循环，但轨道需要转换。我不想要静态块；我想要现场表演。我编写了一个 Python 表演引擎来创建实时自动化脚本。它处理音量淡入淡出、频谱雕刻（元素碰撞时闪避频率），以及最重要的聚合循环以创建催眠定相：Python# 以节拍为单位的聚合循环长度
-聚 = {
-    &quot;STAB&quot;: 7, # 每 7 拍循环一次
-    &quot;RIDE&quot;: 5, # 每 5 拍循环一次
-    &quot;DING&quot;: 11, # 每 11 拍循环一次
-    &quot;ARPEGGIO&quot;: 13 # 每 13 拍循环一次
-}管道规划：Claude 分析目标风格（例如，Ben Klock、Surgeon）并生成编排图（Intro -&gt; Peak -&gt; Outro）。设置：使用特定乐器架生成 19 多个曲目。生成：Python 脚本生成 MIDI 模式（例如，带有力度曲线的 G 小调之后的 256 个事件）。性能：系统“播放”跟踪，根据能量曲线逻辑实时自动化参数。结果和学习输出明显是技术性的。混合是平衡的，结构是合乎逻辑的。然而，虽然该系统创造的音乐在理论上是正确的，但它目前缺乏以有趣的方式打破规则的直觉——缺少人类制作的“快乐意外”。我怀疑符号音乐生成的下一步是将“品味”建模为约束函数，而不仅仅是遵守理论。SoundCloud Track为什么这对 HN 有效：
-代码片段：HN 用户喜欢看到该项目的“实质”。 JSON 和 Python 字典证明您确实构建了一些复杂的东西。“第一原则”：这个框架将您与“我在 Suno 中输入提示”的人群区分开来。它强调工程设计而不是简单的使用。诚实：“结果和学习”部分承认人工智能缺乏“灵魂/直觉”。承认局限性可以在这个社区中建立巨大的可信度。格式：粗体和要点使其易于浏览。下一步：当您发布此内容时，请在第一个小时内留在评论中。您可能会遇到有关延迟、幻觉（克劳德是否尝试过使用您没有的插件？）和成本的问题。准备好回答这些问题！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46809491
+      <title>捕获下一个 Telnetd 级安全漏洞</title>
+      <link>https://vartia.ai/posts/telnetd_cve/</link>
+      <description><![CDATA[文章网址：https://vartia.ai/posts/telnetd_cve/
+评论网址：https://news.ycombinator.com/item?id=46811492
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/hughes7370/AbletonComposer</guid>
-      <pubDate>Thu, 29 Jan 2026 12:49:15 GMT</pubDate>
+      <guid>https://vartia.ai/posts/telnetd_cve/</guid>
+      <pubDate>Thu, 29 Jan 2026 15:29:51 GMT</pubDate>
     </item>
     <item>
-      <title>Looi – 一个最小的、可定制的新标签页，适用于 Firefox、Chrome（带有小部件和</title>
-      <link>https://github.com/prinzpiuz/looi</link>
-      <description><![CDATA[文章网址：https://github.com/prinzpiuz/looi
-评论网址：https://news.ycombinator.com/item?id=46809479
+      <title>用于 Claude Code 的 Tmux，但可通过网络浏览器和移动设备访问</title>
+      <link>https://github.com/kirikov/teleclaude</link>
+      <description><![CDATA[文章网址：https://github.com/kirikov/teleclaude
+评论网址：https://news.ycombinator.com/item?id=46811481
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/prinzpiuz/looi</guid>
-      <pubDate>Thu, 29 Jan 2026 12:47:57 GMT</pubDate>
+      <guid>https://github.com/kirikov/teleclaude</guid>
+      <pubDate>Thu, 29 Jan 2026 15:29:11 GMT</pubDate>
     </item>
     <item>
-      <title>吸血鬼悖论</title>
-      <link>https://worldsensorium.com/the-vampire-paradox/</link>
-      <description><![CDATA[文章网址：https://worldsensorium.com/the-vampire-paradox/
-评论网址：https://news.ycombinator.com/item?id=46809475
+      <title>我希望你能像人一样过上自己的生活</title>
+      <link>https://transgamerthoughts.com/post/802327706229456896/i-hope-you-get-to-live-your-entire-life-as-a-human</link>
+      <description><![CDATA[文章网址： https://transgamerthoughts.com/post/802327706229456896/i-hope-you-get-to-live-your-entire-life-as-a- human
+评论网址：https://news.ycombinator.com/item?id=46811469
 积分：1
 # 条评论：0]]></description>
-      <guid>https://worldsensorium.com/the-vampire-paradox/</guid>
-      <pubDate>Thu, 29 Jan 2026 12:47:42 GMT</pubDate>
+      <guid>https://transgamerthoughts.com/post/802327706229456896/i-hope-you-get-to-live-your-entire-life-as-a-human</guid>
+      <pubDate>Thu, 29 Jan 2026 15:28:01 GMT</pubDate>
     </item>
     <item>
-      <title>用于可视化西班牙外国出生人口数据的交互式工具</title>
-      <link>https://www.dedonde.es</link>
-      <description><![CDATA[文章网址：https://www.dedonde.es
-评论网址：https://news.ycombinator.com/item?id=46809470
+      <title>我们又都是初学者</title>
+      <link>https://matthewrocklin.com/ai-beginners/</link>
+      <description><![CDATA[文章网址：https://matthewrocklin.com/ai-beginners/
+评论网址：https://news.ycombinator.com/item?id=46811467
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.dedonde.es</guid>
-      <pubDate>Thu, 29 Jan 2026 12:47:17 GMT</pubDate>
+      <guid>https://matthewrocklin.com/ai-beginners/</guid>
+      <pubDate>Thu, 29 Jan 2026 15:27:55 GMT</pubDate>
     </item>
     <item>
-      <title>我们能保护科学吗？</title>
-      <link>https://nautil.us/can-we-protect-science-1264227/</link>
-      <description><![CDATA[文章网址：https://nautil.us/can-we-protect-science-1264227/
-评论网址：https://news.ycombinator.com/item?id=46809462
+      <title>现代熊猫 (2016)</title>
+      <link>https://tomaugspurger.net/posts/modern-1-intro/</link>
+      <description><![CDATA[文章网址：https://tomaugspurger.net/posts/modern-1-intro/
+评论网址：https://news.ycombinator.com/item?id=46811457
 积分：1
 # 条评论：0]]></description>
-      <guid>https://nautil.us/can-we-protect-science-1264227/</guid>
-      <pubDate>Thu, 29 Jan 2026 12:46:51 GMT</pubDate>
+      <guid>https://tomaugspurger.net/posts/modern-1-intro/</guid>
+      <pubDate>Thu, 29 Jan 2026 15:26:52 GMT</pubDate>
     </item>
     <item>
-      <title>我们都来到了伊斯灵顿：英国种族隔离的隐藏多维性</title>
-      <link>https://laurenleek.substack.com/p/we-all-ended-up-in-islington-the</link>
-      <description><![CDATA[文章网址：https://laurenleek.substack.com/p/we-all-ending-up-in-islington-the
-评论网址：https://news.ycombinator.com/item?id=46809446
+      <title>太平洋西北树章鱼</title>
+      <link>https://zapatopi.net/treeoctopus/</link>
+      <description><![CDATA[文章网址：https://zapatopi.net/treeoctopus/
+评论网址：https://news.ycombinator.com/item?id=46811453
 积分：1
 # 条评论：0]]></description>
-      <guid>https://laurenleek.substack.com/p/we-all-ended-up-in-islington-the</guid>
-      <pubDate>Thu, 29 Jan 2026 12:45:22 GMT</pubDate>
+      <guid>https://zapatopi.net/treeoctopus/</guid>
+      <pubDate>Thu, 29 Jan 2026 15:26:21 GMT</pubDate>
     </item>
     <item>
-      <title>鼻内药物输送在大脑中达到治疗水平</title>
-      <link>https://www.placera.se/pressmeddelanden/nosa-plugs-nosa-receives-positive-organ-data-from-in-vivo-study-on-drug-delivery-20260129</link>
-      <description><![CDATA[文章网址： https://www.placera.se/pressmeddelanden/nosa-plugs-nosa-receives-positive-organ-data-from-in-vivo-study-on-drug-delivery-20260129
-评论网址：https://news.ycombinator.com/item?id=46809441
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.placera.se/pressmeddelanden/nosa-plugs-nosa-receives-positive-organ-data-from-in-vivo-study-on-drug-delivery-20260129</guid>
-      <pubDate>Thu, 29 Jan 2026 12:45:07 GMT</pubDate>
+      <title>美国11月贸易赤字扩大近34年来最大</title>
+      <link>https://finance.yahoo.com/news/us-trade-deficit-widens-most-144236696.html</link>
+      <description><![CDATA[文章网址：https://finance.yahoo.com/news/us-trade-deficit-widens-most-144236696.html
+评论网址：https://news.ycombinator.com/item?id=46811452
+积分：3
+# 条评论：1]]></description>
+      <guid>https://finance.yahoo.com/news/us-trade-deficit-widens-most-144236696.html</guid>
+      <pubDate>Thu, 29 Jan 2026 15:26:20 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：工作区格式化程序 – 多窗格 JSON/XML 检查器和格式化程序</title>
-      <link>https://www.formatter-workspace.com/</link>
-      <description><![CDATA[用于 JSON/XML 文档的基于树的检查器。在工作中，调试通常意味着在多个系统的日志之间跳转，我厌倦了打开一堆选项卡只是为了快速格式化和并排检查 JSON/XML。许多现有工具都是广告密集型，不完全是客户端，或者限制您只能使用单个文档，因此我构建了一个小型工作区风格的工具，让我可以完全在浏览器中一次检查多个有效负载。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46809435
+      <title>雷德克的第一印象</title>
+      <link>https://www.autodidacts.io/readeck-open-source-read-it-later-app-with-kobo-support/</link>
+      <description><![CDATA[文章网址：https://www.autodidacts.io/readeck-open-source-read-it-later-app-with-kobo-support/
+评论网址：https://news.ycombinator.com/item?id=46811438
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.formatter-workspace.com/</guid>
-      <pubDate>Thu, 29 Jan 2026 12:44:33 GMT</pubDate>
+      <guid>https://www.autodidacts.io/readeck-open-source-read-it-later-app-with-kobo-support/</guid>
+      <pubDate>Thu, 29 Jan 2026 15:25:06 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：BlueDot – 通用VPS主机，所有云，一个TUI，58K价格</title>
-      <link>https://tui.bluedot.ink</link>
-      <description><![CDATA[文章网址：https://tui.bluedot.ink
-评论网址：https://news.ycombinator.com/item?id=46809428
+      <title>Neocloud 采用率数据</title>
+      <link>https://www.hostingadvice.com/studies/neocloud-adoption/</link>
+      <description><![CDATA[文章网址：https://www.hostingadvice.com/studies/neocloud-adoption/
+评论网址：https://news.ycombinator.com/item?id=46811424
 积分：1
 # 条评论：0]]></description>
-      <guid>https://tui.bluedot.ink</guid>
-      <pubDate>Thu, 29 Jan 2026 12:43:42 GMT</pubDate>
+      <guid>https://www.hostingadvice.com/studies/neocloud-adoption/</guid>
+      <pubDate>Thu, 29 Jan 2026 15:24:08 GMT</pubDate>
     </item>
     <item>
-      <title>Microworld eScan 供应链受损 (2026-01-20)</title>
-      <link>https://www.morphisec.com/blog/critical-escan-threat-bulletin/</link>
-      <description><![CDATA[文章网址：https://www.morphisec.com/blog/ritic-escan-threat-bulletin/
-评论网址：https://news.ycombinator.com/item?id=46809427
+      <title>利用 AlphaGenome 推进监管变异效应预测</title>
+      <link>https://www.nature.com/articles/s41586-025-10014-0</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41586-025-10014-0
+评论网址：https://news.ycombinator.com/item?id=46811410
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.morphisec.com/blog/critical-escan-threat-bulletin/</guid>
-      <pubDate>Thu, 29 Jan 2026 12:43:27 GMT</pubDate>
+      <guid>https://www.nature.com/articles/s41586-025-10014-0</guid>
+      <pubDate>Thu, 29 Jan 2026 15:23:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
