@@ -4,116 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 30 Jan 2026 09:39:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 12:56:35 GMT</lastBuildDate>
     <item>
-      <title>PDF 库 TypeScript 值得拥有</title>
-      <link>https://documenso.com/blog/introducing-libpdf-the-pdf-library-typescript-deserves</link>
-      <description><![CDATA[文章网址：https://documenso.com/blog/introducing-libpdf-the-pdf-library-typescript-deserves
-评论网址：https://news.ycombinator.com/item?id=46822295
+      <title>育碧资深人士称他因批评重返办公室政策而被停职</title>
+      <link>https://www.gamespot.com/articles/ubisoft-veteran-says-he-was-suspended-for-criticizing-its-return-to-office-policy/1100-6537747/</link>
+      <description><![CDATA[文章网址： https://www.gamespot.com/articles/ubisoft-veteran-says-he-was-suspended-for-criticizing-its-return-to-office-policy/1100-6537747/
+评论网址：https://news.ycombinator.com/item?id=46823815
 积分：1
 # 条评论：0]]></description>
-      <guid>https://documenso.com/blog/introducing-libpdf-the-pdf-library-typescript-deserves</guid>
-      <pubDate>Fri, 30 Jan 2026 09:26:59 GMT</pubDate>
+      <guid>https://www.gamespot.com/articles/ubisoft-veteran-says-he-was-suspended-for-criticizing-its-return-to-office-policy/1100-6537747/</guid>
+      <pubDate>Fri, 30 Jan 2026 12:45:30 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：ShiftPlus – 一键保存和恢复您的 macOS 工作区</title>
-      <link>https://shiftplus.app/</link>
-      <description><![CDATA[您好，HN，我构建了 ShiftPlus，这是一款 macOS 应用程序，可让您一键保存和恢复整个工作区。我制作此应用程序是因为我每天都会失去注意力，重新打开相同的应用程序、浏览器配置文件、文件夹并重新排列窗口，尤其是在开发工作、会议和个人时间之间切换时。通过 ShiftPlus，您可以：
-- 将当前工作空间保存为配置文件
-- 一起启动应用程序、文件夹和浏览器配置文件
-- 恢复多个显示器的窗口布局
-- 在开发、工作和放松设置之间即时切换这是一款原生 macOS 应用，主要为开发人员和关心干净、可重复工作流程的人构建。网站：https://shiftplus.app/我非常感谢任何反馈、批评或改进想法。
-谢谢！
+      <title>Deezer 表示，目前其人工智能音乐流中高达 85% 是欺诈性的</title>
+      <link>https://musically.com/2026/01/29/deezer-says-up-to-85-of-its-ai-music-streams-are-now-fraudulent/</link>
+      <description><![CDATA[文章网址：https://musically.com/2026/01/29/deezer-says-up-to-85-of-its-ai-music-streams-are-now-fraudulent/
+评论网址：https://news.ycombinator.com/item?id=46823802
+积分：1
+# 条评论：0]]></description>
+      <guid>https://musically.com/2026/01/29/deezer-says-up-to-85-of-its-ai-music-streams-are-now-fraudulent/</guid>
+      <pubDate>Fri, 30 Jan 2026 12:43:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kioxia 和 SanDisk 将四日市合资协议延长至 2034 年</title>
+      <link>https://www.kioxia.com/en-jp/about/news/2026/20260130-1.html</link>
+      <description><![CDATA[文章网址：https://www.kioxia.com/en-jp/about/news/2026/20260130-1.html
+评论网址：https://news.ycombinator.com/item?id=46823798
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.kioxia.com/en-jp/about/news/2026/20260130-1.html</guid>
+      <pubDate>Fri, 30 Jan 2026 12:42:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>PDF 文本提取有什么难的？</title>
+      <link>https://filingdb.com/b/pdf-text-extraction</link>
+      <description><![CDATA[文章网址：https://filingdb.com/b/pdf-text-extraction
+评论网址：https://news.ycombinator.com/item?id=46823793
+积分：1
+# 条评论：0]]></description>
+      <guid>https://filingdb.com/b/pdf-text-extraction</guid>
+      <pubDate>Fri, 30 Jan 2026 12:42:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：土耳其筛引擎 – 在单个 GPU 上达到 1.1T-Items/S</title>
+      <link>https://github.com/bilgisofttr/turkishsieve</link>
+      <description><![CDATA[您好，HN，我一直在研究一种优化的素数筛实现，称为土耳其筛引擎 (TSE)。我最近拿到了 RTX 5090，并成功突破了 1 Tera-items/s 的障碍，在 10^12 范围内达到了 1.136 T-items/s。该项目使用了一种我称之为“N/6 位索引”的方法。通过仅映射 6k±1 形式的数字并使用位压缩表示，我成功地显着减少了内存占用。这允许处理范围高达 10^14（100 万亿），并且使用大约 17GB 的 VRAM，这完全在现代消费类 GPU 的限制之内。我最新基准测试的主要结果：范围 10^12（1 万亿）：0.880 秒（1.13 T-items/s）范围 10^14（100 万亿）：359 秒（6 分钟）在 RTX 5090Twin 与 Cousin Primes 上：验证了 10^14 下的 Hardy-Littlewood 猜想，方差仅为 0.0003%。该引擎使用混合 CUDA/OpenMP 方法。对于 CPU 方面，我针对 Ryzen 9 9950X3D 的 L3 缓存（使用 192.5 KB 段）进行了优化，达到了 66 G-items/s。我已将结果和方法存档在 Zenodo 上（DOI：10.5281/zenodo.18038661），供那些对学术方面感兴趣的人使用。该代码是开源的，我很想听听您的意见关于进一步 CUDA 内核优化或内存管理的想法。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46822289
+评论网址：https://news.ycombinator.com/item?id=46823784
 积分：1
 # 条评论：0]]></description>
-      <guid>https://shiftplus.app/</guid>
-      <pubDate>Fri, 30 Jan 2026 09:26:30 GMT</pubDate>
+      <guid>https://github.com/bilgisofttr/turkishsieve</guid>
+      <pubDate>Fri, 30 Jan 2026 12:40:58 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：PadlessBox – 使用手机作为控制器的派对游戏</title>
-      <link>https://padlessbox.com/</link>
-      <description><![CDATA[文章网址：https://padestosbox.com/a&gt;
-评论网址：https://News.ycombinator.com
-分数：1
-# 条评论：1]]></description>
-      <guid>https://padlessbox.com/</guid>
-      <pubDate>Fri, 30 Jan 2026 09:25:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>FFmpeg 对 AMD 发送的 AI 生成补丁不满意</title>
-      <link>https://twitter.com/FFmpeg/status/2016981960015437994</link>
-      <description><![CDATA[文章网址：https://twitter.com/FFmpeg/status/2016981960015437994
-评论网址：https://news.ycombinator.com/item?id=46822273
-积分：3
-# 条评论：0]]></description>
-      <guid>https://twitter.com/FFmpeg/status/2016981960015437994</guid>
-      <pubDate>Fri, 30 Jan 2026 09:24:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：人工智能的进步感觉异常快——您认为这将走向何方？</title>
-      <link>https://news.ycombinator.com/item?id=46822260</link>
-      <description><![CDATA[与过去的技术浪潮相比，过去几年的人工智能进步感觉异常快。我见过几个周期来来去去（网络、移动、云、加密货币），而这个周期的不同之处在于它出现在各处的速度：工具、内容和日常工作流程。有时，如果不仔细观察，很难分辨什么是人造的，什么不是人造的，这是一种新的感觉。对于那些已经存在了足够长的时间并有一定看法的人来说：- 您认为这是最终趋于稳定的事情，还是作为一种长期的结构性转变？
-- 当今人工智能热潮的哪些部分让您感觉持久，哪些部分可能会褪色？
-- 展望 5-10 年后，您认为哪些方面会真正发生有意义的变化？对深思熟虑的观点而不是预测感兴趣。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46822260
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46822260</guid>
-      <pubDate>Fri, 30 Jan 2026 09:22:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：在网络上查找内容</title>
-      <link>https://www.xelochat.com</link>
-      <description><![CDATA[我相当擅长扫描文本，但很多人却不擅长。我构建了一个工具，您可以将网站的网址粘贴到其中，它会被抓取，然后您可以与网站内容聊天。包括谷歌日历集成。您也可以预约。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46822256
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.xelochat.com</guid>
-      <pubDate>Fri, 30 Jan 2026 09:22:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>LoudCull – 无代理多云 GPU 僵尸杀手 (Python/Terraform)</title>
-      <link>https://github.com/daretechie/CommitVigil</link>
-      <description><![CDATA[文章网址：https://github.com/daretechie/CommitVigil
-评论网址：https://news.ycombinator.com/item?id=46822245
+      <title>大门票 - 将 20 个研究选项卡变成比较板</title>
+      <link>https://shopbigticket.com/</link>
+      <description><![CDATA[文章网址：https://shopbigticket.com/
+评论网址：https://news.ycombinator.com/item?id=46823781
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/daretechie/CommitVigil</guid>
-      <pubDate>Fri, 30 Jan 2026 09:21:23 GMT</pubDate>
+      <guid>https://shopbigticket.com/</guid>
+      <pubDate>Fri, 30 Jan 2026 12:40:48 GMT</pubDate>
     </item>
     <item>
-      <title>RAG 出了问题：7 个最常见的错误（以及如何避免它们）</title>
-      <link>https://www.kapa.ai/blog/rag-gone-wrong-the-7-most-common-mistakes-and-how-to-avoid-them</link>
-      <description><![CDATA[文章网址：https://www.kapa.ai/blog/rag-gone-wrong-the-7-most-common-mistakes-and-how-to-avoid-them
-评论网址：https://news.ycombinator.com/item?id=46822243
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.kapa.ai/blog/rag-gone-wrong-the-7-most-common-mistakes-and-how-to-avoid-them</guid>
-      <pubDate>Fri, 30 Jan 2026 09:21:09 GMT</pubDate>
+      <title>Show HN：PipeDream – 将实时 AI 视觉效果添加到任何 CLI 文本冒险中</title>
+      <link>https://github.com/CPritch/PipeDream</link>
+      <description><![CDATA[文章网址：https://github.com/CPritch/PipeDream
+评论网址：https://news.ycombinator.com/item?id=46823778
+积分：2
+# 条评论：1]]></description>
+      <guid>https://github.com/CPritch/PipeDream</guid>
+      <pubDate>Fri, 30 Jan 2026 12:40:29 GMT</pubDate>
     </item>
     <item>
-      <title>使用 FDAP 堆栈构建现代数据库</title>
-      <link>https://gotopia.tech/articles/412/building-modern-databases-with-the-fdap-stack</link>
-      <description><![CDATA[文章网址：https://gotopia.tech/articles/412/building-modern-databases-with-the-fdap-stack
-评论网址：https://news.ycombinator.com/item?id=46822236
+      <title>用人工智能取代开发人员是多么错误的事情 [视频]</title>
+      <link>https://www.youtube.com/watch?v=ts0nH_pSAdM</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=ts0nH_pSAdM
+评论网址：https://news.ycombinator.com/item?id=46823747
 积分：1
 # 条评论：0]]></description>
-      <guid>https://gotopia.tech/articles/412/building-modern-databases-with-the-fdap-stack</guid>
-      <pubDate>Fri, 30 Jan 2026 09:19:30 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=ts0nH_pSAdM</guid>
+      <pubDate>Fri, 30 Jan 2026 12:35:35 GMT</pubDate>
     </item>
     <item>
-      <title>逻辑智能（Yann LeCun 关联初创公司，试点基于能源的模型）</title>
-      <link>https://logicalintelligence.com/</link>
-      <description><![CDATA[文章网址：https://逻辑智能.com/
-评论网址：https://news.ycombinator.com/item?id=46822234
+      <title>他们对你撒谎了。构建软件很困难</title>
+      <link>https://blog.nordcraft.com/they-lied-to-you-building-software-is-really-hard</link>
+      <description><![CDATA[文章网址：https://blog.nordcraft.com/they-lied-to-you-building-software-is-really-hard
+评论网址：https://news.ycombinator.com/item?id=46823725
+积分：1
+# 条评论：1]]></description>
+      <guid>https://blog.nordcraft.com/they-lied-to-you-building-software-is-really-hard</guid>
+      <pubDate>Fri, 30 Jan 2026 12:33:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>DeepMind：LM 中的线性表示可能会发生巨大变化</title>
+      <link>https://arxiv.org/abs/2601.20834</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2601.20834
+评论网址：https://news.ycombinator.com/item?id=46823720
 积分：1
 # 条评论：0]]></description>
-      <guid>https://logicalintelligence.com/</guid>
-      <pubDate>Fri, 30 Jan 2026 09:19:00 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2601.20834</guid>
+      <pubDate>Fri, 30 Jan 2026 12:33:21 GMT</pubDate>
     </item>
     </channel>
 </rss>
