@@ -4,16 +4,91 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 30 Jan 2026 21:31:11 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 01:58:33 GMT</lastBuildDate>
     <item>
-      <title>我构建了自己的企业级 Clawdbot，没有安全噩梦</title>
-      <link>https://medium.com/ai-native-enterprise/how-i-built-my-own-enterprise-grade-clawdbot-without-the-security-nightmares-00ae01193280</link>
-      <description><![CDATA[文章网址： https://medium.com/ai-native-enterprise/how-i-built-my-own-enterprise-grade-clawdbot-without-the-security-nightmares-00ae01193280
-评论网址：https://news.ycombinator.com/item?id=46830013
-积分：5
+      <title>Show HN：我训练了一个 9M 语音模型来修复我的普通话声调</title>
+      <link>https://simedw.com/2026/01/31/ear-pronunication-via-ctc/</link>
+      <description><![CDATA[构建此模型是因为音调会影响我的普通话口语，而且我无法可靠地听到自己的错误。这是一个 9M Conformer-CTC 模型，训练时间约为 300 小时（AISHELL + Primewords），量化为 INT8 (11 MB)，通过 ONNX Runtime Web 在浏览器中 100% 运行。使用 Viterbi 强制对每个音节发音 + 声调进行评分对齐。在这里尝试一下：https://simedw.com/projects/ear/
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46832074
+积分：32
+# 条评论：5]]></description>
+      <guid>https://simedw.com/2026/01/31/ear-pronunication-via-ctc/</guid>
+      <pubDate>Sat, 31 Jan 2026 00:51:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Foundry – 将重复的工作流程转变为一键命令</title>
+      <link>https://github.com/lekt9/openclaw-foundry</link>
+      <description><![CDATA[文章网址：https://github.com/lekt9/openclaw-foundry
+评论网址：https://news.ycombinator.com/item?id=46831978
+积分：3
 # 条评论：0]]></description>
-      <guid>https://medium.com/ai-native-enterprise/how-i-built-my-own-enterprise-grade-clawdbot-without-the-security-nightmares-00ae01193280</guid>
-      <pubDate>Fri, 30 Jan 2026 21:15:57 GMT</pubDate>
+      <guid>https://github.com/lekt9/openclaw-foundry</guid>
+      <pubDate>Sat, 31 Jan 2026 00:40:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>发现超过 175K 个公开暴露的 Ollama AI 实例</title>
+      <link>https://www.techradar.com/pro/security/over-175-000-publicly-exposed-ollama-ai-servers-discovered-worldwide-so-fix-now</link>
+      <description><![CDATA[文章网址：https://www.techradar.com/pro/security/over-175-000-publicly-expose-ollama-ai-servers-discovered-worldwide-so-fix-now
+评论网址：https://news.ycombinator.com/item?id=46831784
+积分：22
+# 条评论：11]]></description>
+      <guid>https://www.techradar.com/pro/security/over-175-000-publicly-exposed-ollama-ai-servers-discovered-worldwide-so-fix-now</guid>
+      <pubDate>Sat, 31 Jan 2026 00:12:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI 和 Nvidia 之间的 1000 亿美元巨额交易陷入僵局</title>
+      <link>https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/tech/ai/the-100-billion-megadeal- Between-openai-and-nvidia-is-on-ice-aa3025e3
+评论网址：https://news.ycombinator.com/item?id=46831702
+积分：114
+# 条评论：31]]></description>
+      <guid>https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3</guid>
+      <pubDate>Sat, 31 Jan 2026 00:02:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stonebraker 谈 CAP 定理和数据库</title>
+      <link>https://perspectives.mvdirona.com/2010/04/stonebraker-on-cap-theorem-and-databases/</link>
+      <description><![CDATA[文章网址：https://perspectives.mvdirona.com/2010/04/stonebraker-on-cap-theorem-and-databases/
+评论网址：https://news.ycombinator.com/item?id=46831592
+积分：20
+# 条评论：8]]></description>
+      <guid>https://perspectives.mvdirona.com/2010/04/stonebraker-on-cap-theorem-and-databases/</guid>
+      <pubDate>Fri, 30 Jan 2026 23:47:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我建立了一个 AI 对话伙伴来练习口语</title>
+      <link>https://apps.apple.com/us/app/talkbits-speak-naturally/id6756824177</link>
+      <description><![CDATA[嗨，我构建 TalkBits 是因为大多数语言应用程序都专注于词汇或练习，而不是实际对话。学习语言的困难部分是在压力下自然地说话。TalkBits 可让您与像母语人士一样的人工智能进行实时口语对话。您可以选择不同的场景（旅行、日常生活、工作等），自然地说话，AI 会以自然的语音回复进行响应。我们的目标是让它感觉像是在与真人交谈，而不是在上课。技术方面，它使用实时语音输入、转录、LLM 响应和 tts 流来保持低延迟，使对话感觉流畅。我对以下方面的反馈特别感兴趣：
+– 感觉自然吗？
+– 对话在哪里破坏了沉浸感？
+– 是什么让您经常使用它？也很高兴回答技术问题。谢谢
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46830698
+积分：42
+# 条评论：32]]></description>
+      <guid>https://apps.apple.com/us/app/talkbits-speak-naturally/id6756824177</guid>
+      <pubDate>Fri, 30 Jan 2026 22:16:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>我将人工智能模型困在艺术装置中（2025）[视频]</title>
+      <link>https://www.youtube.com/watch?v=7fNYj0EXxMs</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=7fNYj0EXxMs
+评论网址：https://news.ycombinator.com/item?id=46830523
+积分：39
+# 条评论：6]]></description>
+      <guid>https://www.youtube.com/watch?v=7fNYj0EXxMs</guid>
+      <pubDate>Fri, 30 Jan 2026 21:58:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>P 与 NP 以及计算难度：规则学方法</title>
+      <link>https://writings.stephenwolfram.com/2026/01/p-vs-np-and-the-difficulty-of-computation-a-ruliological-approach/</link>
+      <description><![CDATA[文章网址：https://writings.stephenwolfram.com/2026/01/p-vs-np-and-the-difficulty-of-computation-a-ruliological-approach/
+评论网址：https://news.ycombinator.com/item?id=46830027
+积分：37
+# 条评论：17]]></description>
+      <guid>https://writings.stephenwolfram.com/2026/01/p-vs-np-and-the-difficulty-of-computation-a-ruliological-approach/</guid>
+      <pubDate>Fri, 30 Jan 2026 21:17:21 GMT</pubDate>
     </item>
     <item>
       <title>Peerweb：通过 WebTorrent 进行去中心化网站托管</title>
@@ -21,8 +96,8 @@
       <description><![CDATA[https://github.com/omodaka9375/peerweb
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46829582
-积分：35
-# 条评论：17]]></description>
+积分：169
+# 条评论：63]]></description>
       <guid>https://peerweb.lol/</guid>
       <pubDate>Fri, 30 Jan 2026 20:40:00 GMT</pubDate>
     </item>
@@ -31,83 +106,10 @@
       <link>https://antirender.com/</link>
       <description><![CDATA[文章网址：https://antirender.com/
 评论网址：https://news.ycombinator.com/item?id=46829147
-积分：284
-# 条评论：72]]></description>
+积分：756
+# 条评论：179]]></description>
       <guid>https://antirender.com/</guid>
       <pubDate>Fri, 30 Jan 2026 20:05:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>法官允许联邦调查局尝试绕过生物识别技术</title>
-      <link>https://theintercept.com/2026/01/30/washington-post-hannah-natanson-fbi-biometrics-unlock-phone/</link>
-      <description><![CDATA[https://archive.is/NEjHU
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46828881
-积分：89
-# 条评论：65]]></description>
-      <guid>https://theintercept.com/2026/01/30/washington-post-hannah-natanson-fbi-biometrics-unlock-phone/</guid>
-      <pubDate>Fri, 30 Jan 2026 19:38:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mamdani 将杀死纽约人工智能聊天机器人，因为它告诉企业违法</title>
-      <link>https://themarkup.org/artificial-intelligence/2026/01/30/mamdani-to-kill-the-nyc-ai-chatbot-we-caught-telling-businesses-to-break-the-law</link>
-      <description><![CDATA[文章网址： https://themarkup.org/artificial-intelligence/2026/01/30/mamdani-to-kill-the-nyc-ai-chatbot-we-caught-telling-businesses-to-break-the-law
-评论网址：https://news.ycombinator.com/item?id=46827665
-积分：118
-# 条评论：31]]></description>
-      <guid>https://themarkup.org/artificial-intelligence/2026/01/30/mamdani-to-kill-the-nyc-ai-chatbot-we-caught-telling-businesses-to-break-the-law</guid>
-      <pubDate>Fri, 30 Jan 2026 18:02:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kimi K2.5技术报告 [pdf]</title>
-      <link>https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf</link>
-      <description><![CDATA[文章网址：https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf
-评论网址：https://news.ycombinator.com/item?id=46826597
-积分：112
-# 条评论：53]]></description>
-      <guid>https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf</guid>
-      <pubDate>Fri, 30 Jan 2026 16:43:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>自动驾驶汽车保险</title>
-      <link>https://www.lemonade.com/car/explained/self-driving-car-insurance/</link>
-      <description><![CDATA[文章网址：https://www.lemonade.com/car/explained/self-driven-car-insurance/
-评论网址：https://news.ycombinator.com/item?id=46825828
-积分：44
-# 条评论：119]]></description>
-      <guid>https://www.lemonade.com/car/explained/self-driving-car-insurance/</guid>
-      <pubDate>Fri, 30 Jan 2026 15:50:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Buttered Crumpet，超级无敌掌门狗的自定义字体</title>
-      <link>https://jamieclarketype.com/case-study/wallace-and-gromit-font/</link>
-      <description><![CDATA[文章网址：https://jamieclarketype.com/case-study/wallace-and-gromit-font/
-评论网址：https://news.ycombinator.com/item?id=46825415
-积分：200
-# 条评论：40]]></description>
-      <guid>https://jamieclarketype.com/case-study/wallace-and-gromit-font/</guid>
-      <pubDate>Fri, 30 Jan 2026 15:19:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Amla Sandbox – 用于 AI 代理的 WASM bash shell 沙箱</title>
-      <link>https://github.com/amlalabs/amla-sandbox</link>
-      <description><![CDATA[WASM 沙箱，用于安全运行 LLM 生成的代码。代理获得类似 bash 的 shell，并且只能在您定义的约束下调用您提供的工具。
-没有 Docker，没有子进程，没有 SaaS——只需 pip install amla-sandbox
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46824877
-积分：101
-# 条评论：64]]></description>
-      <guid>https://github.com/amlalabs/amla-sandbox</guid>
-      <pubDate>Fri, 30 Jan 2026 14:34:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>HTTP 猫</title>
-      <link>https://http.cat/</link>
-      <description><![CDATA[文章网址：https://http.cat/
-评论网址：https://news.ycombinator.com/item?id=46824422
-积分：88
-# 条评论：17]]></description>
-      <guid>https://http.cat/</guid>
-      <pubDate>Fri, 30 Jan 2026 13:56:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
