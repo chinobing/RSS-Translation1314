@@ -4,137 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 01 Feb 2026 15:26:13 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 18:35:52 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Bellwether – CI/CD 的 MCP 服务器测试和偏差检测</title>
-      <link>https://github.com/dotsetlabs/bellwether</link>
-      <description><![CDATA[它的作用：领头羊检查 MCP 服务器架构的快照并将其与基线进行比较。如果发生任何更改（添加/删除工具、修改参数、更改类型），那么在部署之前您的 CI 构建就会失败。无需 LLM 调用，无 API 成本，只需几秒即可运行。主要特点：• CI 零成本：检查命令完全免费且具有确定性。没有 API 密钥，没有 LLM 调用。
-• 细化退出代码：根据严重性返回0-5（无漂移→信息→警告→重大更改→错误→低置信度）。将您的管道配置为仅在重大更改时失败，或更严格。
-• 副作用是文档：生成 CONTRACT.md 和 AGENTS.md，记录服务器的工具、参数和行为。
-• 可选的深度测试：bellwether explore 使用 LLM 从多个角色（安全测试人员、QA 工程师、新手用户）进行测试，并捕获结构检查遗漏的边缘情况。npm install -g @dotsetlabs/bellwether
-领头羊 init npx @mcp/your-server
-领头羊检查
-领头羊基线保存
-# 稍后：bellwether check --fail-on-driftGitHub 操作：- 使用：actions/checkout@v4
-- 运行：npx @dotsetlabs/bellwether check --fail-on-drift为什么这很重要：如果您正在构建依赖于 MCP 服务器的 AI 代理，您需要知道这些依赖关系何时发生变化。这就像进行 API 合约测试，但针对的是 AI 工具架构。文档：https://docs.bellwether.sh
-NPM：@dotsetlabs/bellwether
-GitHub：https://github.com/dotsetlabs/bellwether欢迎提问。很好奇其他人是否遇到类似的 MCP 漂移问题，或者我是否缺少更好的方法。
+      <title>对新型量子材料中的维格纳晶态进行成像</title>
+      <link>https://phys.org/news/2026-01-imaging-wigner-crystal-state-quantum.html</link>
+      <description><![CDATA[文章网址：https://phys.org/news/2026-01-imaging-wigner-crystal-state-quantum.html
+评论网址：https://news.ycombinator.com/item?id=46848176
+积分：1
+# 条评论：0]]></description>
+      <guid>https://phys.org/news/2026-01-imaging-wigner-crystal-state-quantum.html</guid>
+      <pubDate>Sun, 01 Feb 2026 18:30:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么 Airbnb 从未成为一家价值数万亿美元的公司</title>
+      <link>https://gilpignol.substack.com/p/why-airbnb-never-became-a-trillion</link>
+      <description><![CDATA[文章网址：https://gilpignol.substack.com/p/why-airbnb-never-became-a-trillion
+评论网址：https://news.ycombinator.com/item?id=46848156
+积分：1
+# 条评论：0]]></description>
+      <guid>https://gilpignol.substack.com/p/why-airbnb-never-became-a-trillion</guid>
+      <pubDate>Sun, 01 Feb 2026 18:28:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>十字结</title>
+      <link>https://gutenberg.net.au/ebooks13/1303501h.html</link>
+      <description><![CDATA[文章网址：https://gutenberg.net.au/ebooks13/1303501h.html
+评论网址：https://news.ycombinator.com/item?id=46848154
+积分：1
+# 条评论：0]]></description>
+      <guid>https://gutenberg.net.au/ebooks13/1303501h.html</guid>
+      <pubDate>Sun, 01 Feb 2026 18:28:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：字幕查找器 – 为您的视频文件查找完美同步的字幕</title>
+      <link>https://subtitlefinder.com</link>
+      <description><![CDATA[我在对字幕网站返回数十个结果而无法知道哪一个与我的文件匹配感到沮丧后构建了此工具。该工具可识别您的特定视频版本并将其与字幕数据库进行匹配，以找到时间正确的视频。仅使用文件名或直接分析文件即可工作。技术堆栈：节点、角度欢迎提供反馈，尤其是匹配准确性方面的反馈。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46846797
+评论网址：https://news.ycombinator.com/item?id=46848151
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/dotsetlabs/bellwether</guid>
-      <pubDate>Sun, 01 Feb 2026 15:23:48 GMT</pubDate>
+      <guid>https://subtitlefinder.com</guid>
+      <pubDate>Sun, 01 Feb 2026 18:28:02 GMT</pubDate>
     </item>
     <item>
-      <title>针对非平稳环境的进化多智能体架构的反馈</title>
-      <link>https://news.ycombinator.com/item?id=46846796</link>
-      <description><![CDATA[嗨，HN，
-我正在试验系统架构而不是成品，我非常感谢从事机器学习系统、代理或复杂自适应系统工作的人员提供的技术反馈。
-核心思想是将策略/代理视为不断发展的“物种”而不是静态模型。每个物种都由模块化“器官”（信号处理器、风险控制器、执行逻辑等）组成，并且突变被限制在兼容的器官类别中，因此组件可以安全地重新组合。生存取决于非平稳环境下的真实性能，而不是离线基准。
-我没有使用 LLM 直接生成操作，而是将它们用作环境解释器。 RAG 层吸收最近的新闻头条和其他信号来对当前的“政权”或世界国家进行分类，物种根据与其内在特征的一致性而不是明确的因果推理来决定是否以及如何采取行动。
-这是非常早期的阶段：
-– 尚无生产代理
-– 仍在连接架构和数据管道
-– 主要关注进化动力学和界面契约
-我主要寻找批评：你见过的类似系统、可能的故障模式、扩展问题或更好的抽象。如果有帮助的话，很乐意分享图表或伪代码。
-谢谢！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46846796
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46846796</guid>
-      <pubDate>Sun, 01 Feb 2026 15:23:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Ziframe – 直接在 After Effects 时间轴上生成 AI 资源</title>
-      <link>https://ziframe.com</link>
-      <description><![CDATA[您好，HN，我构建了 Ziframe，因为我厌倦了在 After Effects 和 AI 网站之间来回切换。Ziframe 是一个 AE 扩展，可让您直接在 After Effects 内生成 AI 图像和短视频资源。您从面板中进行提示，结果会以图层形式返回到合成中，因此您可以像正常 AE 工作一样进行迭代。这解决了许多问题：- Ae 和浏览器之间不断进行上下文切换- 使用 ai 生成图像→下载文件→将文件移动到项目文件夹→将文件导入到 Ae→将其移动到时间线→使用 After 进行调整→导出图像→打开视频生成工具以使其移动→ 等等- 在如此多的工具和订阅之间切换在幕后它是多模型的。我使用 fal.ai 作为后端，它允许我将请求路由到不同的模型，同时在 AE 扩展中动态生成 UI。目标是每个模型只有 json 文件，其余部分保持动态。它是基于信用的（无 BYO API 密钥），因此这将使我最终能够构建更多自动化和路由功能。与 photoai.com 的做法类似。这是我每天在实际客户工作中使用的东西。很高兴回答有关 After Effects 集成、fal.ai 或将 AI 放入传统创意软件中的权衡的问题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46846790
-积分：1
-# 条评论：0]]></description>
-      <guid>https://ziframe.com</guid>
-      <pubDate>Sun, 01 Feb 2026 15:23:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：谁想被雇用？ （2026 年 2 月）</title>
-      <link>https://news.ycombinator.com/item?id=46846789</link>
-      <description><![CDATA[如果您正在找工作，请分享您的信息。请使用以下格式：
-地点：
-远程：
-愿意搬家：
-技术：
-简历：
-电子邮件：仅当您个人寻找工作时才请发帖。代理机构、招聘人员、招聘委员会、
-等等，这里不是主题。
-读者：请仅向这些地址发送电子邮件以讨论工作机会。有一个搜索这些帖子的网站：https://www.wantstobehired.com 和 https://hireindex.xyz。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46846789
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46846789</guid>
-      <pubDate>Sun, 01 Feb 2026 15:23:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>相同的 SQL，不同的结果：Oracle 与 PostgreSQL 的微妙迁移错误</title>
-      <link>https://databaserookies.wordpress.com/2026/01/30/same-sql-different-results-a-subtle-oracle-vs-postgresql-migration-bug/</link>
-      <description><![CDATA[文章网址： https://databaserookies.wordpress.com/2026/01/30/same-sql- Different-results-a-subtle-oracle-vs-postgresql-migration-bug/
-评论网址：https://news.ycombinator.com/item?id=46846762
-积分：1
-# 条评论：0]]></description>
-      <guid>https://databaserookies.wordpress.com/2026/01/30/same-sql-different-results-a-subtle-oracle-vs-postgresql-migration-bug/</guid>
-      <pubDate>Sun, 01 Feb 2026 15:18:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mojo，非吸吮的简单工具，可将任何网站转换为 LLM 就绪数据</title>
-      <link>https://github.com/malvads/mojo</link>
-      <description><![CDATA[文章网址：https://github.com/malvads/mojo
-评论网址：https://news.ycombinator.com/item?id=46846751
+      <title>SF电话簿 (1905)</title>
+      <link>https://archive.org/details/sanfranciscotele1905paci_0</link>
+      <description><![CDATA[文章网址：https://archive.org/details/sanfranciscotele1905paci_0
+评论网址：https://news.ycombinator.com/item?id=46848136
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/malvads/mojo</guid>
-      <pubDate>Sun, 01 Feb 2026 15:17:28 GMT</pubDate>
+      <guid>https://archive.org/details/sanfranciscotele1905paci_0</guid>
+      <pubDate>Sun, 01 Feb 2026 18:25:42 GMT</pubDate>
     </item>
     <item>
-      <title>AIWriter释放你的写作创造力</title>
-      <link>https://aiwriter.fun</link>
-      <description><![CDATA[文章网址：https://aiwriter.fun
-评论网址：https://news.ycombinator.com/item?id=46846739
-积分：1
-# 条评论：0]]></description>
-      <guid>https://aiwriter.fun</guid>
-      <pubDate>Sun, 01 Feb 2026 15:15:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic 将交互式 MCP 应用程序集成到 Claude 中</title>
-      <link>https://www.testingcatalog.com/anthropic-integrates-interactive-mcp-apps-into-claude/</link>
-      <description><![CDATA[文章网址：https://www.testingcatalog.com/anthropic-integrates-interactive-mcp-apps-into-claude/
-评论网址：https://news.ycombinator.com/item?id=46846724
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.testingcatalog.com/anthropic-integrates-interactive-mcp-apps-into-claude/</guid>
-      <pubDate>Sun, 01 Feb 2026 15:13:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>DBaaS 性能基准 – 结果会让您震惊！</title>
-      <link>https://github.com/iamalnewkirk/dbaas-benchmark/blob/master/REPORT.md</link>
-      <description><![CDATA[文章网址：https://github.com/iamalnewkirk/dbaas-benchmark/blob/master/REPORT.md
-评论网址：https://news.ycombinator.com/item?id=46846715
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/iamalnewkirk/dbaas-benchmark/blob/master/REPORT.md</guid>
-      <pubDate>Sun, 01 Feb 2026 15:12:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Opclaw.io – 预装 OpenClaw 的 10 美元/月 VPS（4 VCPU、8GB RAM、150GB SSD）</title>
-      <link>https://opclaw.io/</link>
-      <description><![CDATA[文章网址：https://opclaw.io/
-评论网址：https://news.ycombinator.com/item?id=46846711
-积分：1
+      <title>不是演习</title>
+      <link>https://www.nytimes.com/2026/02/01/opinion/midterms-election-influence-trump.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2026/02/01/opinion/midterms-election-influence-trump.html
+评论网址：https://news.ycombinator.com/item?id=46848127
+积分：4
 # 条评论：1]]></description>
-      <guid>https://opclaw.io/</guid>
-      <pubDate>Sun, 01 Feb 2026 15:11:08 GMT</pubDate>
+      <guid>https://www.nytimes.com/2026/02/01/opinion/midterms-election-influence-trump.html</guid>
+      <pubDate>Sun, 01 Feb 2026 18:24:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPS 先驱、NASA 著名“隐藏人物”之一格拉迪斯·韦斯特 (Gladys West) 去世，享年 95 岁</title>
+      <link>https://www.space.com/space-exploration/gladys-west-gps-pioneer-and-one-of-nasas-famed-hidden-figures-dies-at-95</link>
+      <description><![CDATA[文章网址：https://www.space.com/space-exploration/gladys-west-gps-pioneer-and-one-of-nasas-famed-hidden-figures-dies-at-95
+评论网址：https://news.ycombinator.com/item?id=46848110
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.space.com/space-exploration/gladys-west-gps-pioneer-and-one-of-nasas-famed-hidden-figures-dies-at-95</guid>
+      <pubDate>Sun, 01 Feb 2026 18:22:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>格陵兰岛案例</title>
+      <link>https://www.campbellramble.ai/p/the-case-for-greenland</link>
+      <description><![CDATA[文章网址：https://www.campbellramble.ai/p/the-case-for-greenland
+评论网址：https://news.ycombinator.com/item?id=46848104
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.campbellramble.ai/p/the-case-for-greenland</guid>
+      <pubDate>Sun, 01 Feb 2026 18:21:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动 CivicMapper：以 3D 方式可视化土地价值</title>
+      <link>https://progressandpoverty.substack.com/p/launching-civicmapper-visualizing</link>
+      <description><![CDATA[文章网址：https://progressandpoverty.substack.com/p/launching-civicmapper-visualizing
+评论网址：https://news.ycombinator.com/item?id=46848103
+积分：1
+# 条评论：0]]></description>
+      <guid>https://progressandpoverty.substack.com/p/launching-civicmapper-visualizing</guid>
+      <pubDate>Sun, 01 Feb 2026 18:21:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能代理的天然家园就是您的提醒应用程序</title>
+      <link>https://interconnected.org/home/2026/01/15/reminders</link>
+      <description><![CDATA[文章网址：https://interconnected.org/home/2026/01/15/reminders
+评论网址：https://news.ycombinator.com/item?id=46848102
+积分：1
+# 条评论：0]]></description>
+      <guid>https://interconnected.org/home/2026/01/15/reminders</guid>
+      <pubDate>Sun, 01 Feb 2026 18:21:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
