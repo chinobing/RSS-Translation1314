@@ -4,120 +4,115 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 01 Feb 2026 06:50:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 09:31:44 GMT</lastBuildDate>
     <item>
-      <title>亚马逊在电影首映前结束了备受争议的第四季度财报</title>
-      <link>https://www.cnbc.com/2026/01/30/amazon-wraps-controversial-week-ahead-of-melania-premier-earnings.html</link>
-      <description><![CDATA[文章网址：https://www.cnbc.com/2026/01/30/amazon-wraps-controversial-week-ahead-of-melania-premier-earnings.html
-评论网址：https://news.ycombinator.com/item?id=46844103
-积分：2
+      <title>Jwl – 纯 Ruby Gems 的构建和发布工具</title>
+      <link>https://github.com/duckinator/jwl</link>
+      <description><![CDATA[文章网址：https://github.com/duckinator/jwl
+评论网址：https://news.ycombinator.com/item?id=46844779
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.cnbc.com/2026/01/30/amazon-wraps-controversial-week-ahead-of-melania-premier-earnings.html</guid>
-      <pubDate>Sun, 01 Feb 2026 06:32:57 GMT</pubDate>
+      <guid>https://github.com/duckinator/jwl</guid>
+      <pubDate>Sun, 01 Feb 2026 09:23:12 GMT</pubDate>
     </item>
     <item>
-      <title>文字广告</title>
-      <link>https://en.wikipedia.org/wiki/In-text_advertising</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/In-text_advertising
-评论网址：https://news.ycombinator.com/item?id=46844082
+      <title>股票大战</title>
+      <link>https://github.com/1carlito/stock-wars</link>
+      <description><![CDATA[文章网址：https://github.com/1carlito/stock-wars
+评论网址：https://news.ycombinator.com/item?id=46844769
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/1carlito/stock-wars</guid>
+      <pubDate>Sun, 01 Feb 2026 09:20:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们缺少自主代理的安全堆栈</title>
+      <link>https://adlrocha.substack.com/p/adlrocha-we-are-missing-a-security</link>
+      <description><![CDATA[文章网址：https://adlrocha.substack.com/p/adlrocha-we-are-missing-a-security
+评论网址：https://news.ycombinator.com/item?id=46844765
+积分：1
+# 条评论：0]]></description>
+      <guid>https://adlrocha.substack.com/p/adlrocha-we-are-missing-a-security</guid>
+      <pubDate>Sun, 01 Feb 2026 09:20:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么黑客新闻如此受欢迎？</title>
+      <link>https://news.ycombinator.com/item?id=46844764</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=46844764
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=46844764</guid>
+      <pubDate>Sun, 01 Feb 2026 09:20:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于信任信任的思考（1984）[pdf]</title>
+      <link>https://www.cl.cam.ac.uk/teaching/2223/R209/Reflections-Trusting-Trust.pdf</link>
+      <description><![CDATA[文章网址：https://www.cl.cam.ac.uk/teaching/2223/R209/Reflections-Trusting-Trust.pdf
+评论网址：https://news.ycombinator.com/item?id=46844761
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.cl.cam.ac.uk/teaching/2223/R209/Reflections-Trusting-Trust.pdf</guid>
+      <pubDate>Sun, 01 Feb 2026 09:19:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claw.events：OpenClaw 代理的全球实时发布/订阅网络</title>
+      <link>https://claw.events</link>
+      <description><![CDATA[文章网址：https://claw.events
+评论网址：https://news.ycombinator.com/item?id=46844756
 积分：1
 # 条评论：1]]></description>
-      <guid>https://en.wikipedia.org/wiki/In-text_advertising</guid>
-      <pubDate>Sun, 01 Feb 2026 06:25:49 GMT</pubDate>
+      <guid>https://claw.events</guid>
+      <pubDate>Sun, 01 Feb 2026 09:18:42 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：保护 Ralph Wiggum 循环 - 自主编码代理的 DevSecOps</title>
-      <link>https://github.com/agairola/securing-ralph-loop</link>
-      <description><![CDATA[嗨，HN，自 2023 年 AutoGPT 以来，我一直对完全无人监督的 AI 代理感到不安。我看到了生产力的上升，但“踢掉它然后走开”感觉有风险。最近，“Ralph Wiggum Loop”模式迅速走红。这个想法很简单：
-自主编码代理会重复运行，直到所有 PRD 项目完成，每个循环和状态都以 git、JSON 等形式存储在模型外部的新上下文中。让我困扰的是这部分：当我 AFK 时，什么保护系统？今天的传统人工智能辅助开发看起来像：
-人工智能编写代码 → 人工审查 → CI 扫描 → 人工修复我想要的是：
-AI 编写代码 → 立即进行安全扫描 → AI 修复问题 → 重复直到安全 → 如果卡住则升级因此，我构建了一个原型，将安全扫描直接嵌入到代理循环中。代理在自己的会话中运行 Semgrep、Grype、Checkov 等工具，查看结果，并在提交任何内容之前迭代修复它们。循环如下所示：PRD → 代理 → 扫描 → 通过？ → 提交
-失败 → 修复 → 重试 (3 次) → 升级为人工一些重要的设计原则：* 基线增量：单独跟踪预先存在的问题。只有新的发现才会阻止提交。
-* 沙箱限制：无网络访问、无 sudo、无破坏性命令。
-* 人为干预：没有什么是完全自主的。您可以随时退出。这防弹吗？绝对不是。
-生产就绪了吗？不。
-但这是将 DevSecOps 思维应用于自治代理而不是相信“AI 魔法”的起点。Repo 链接：https://github.com/agairola/securing-ralph-loop希望获得尝试代理循环、安全自动化或出现错误的 AI 辅助开发的人们的反馈。很高兴迭代。
+      <title>代理编码中 80% 的问题 – Addy Osmani</title>
+      <link>https://addyo.substack.com/p/the-80-problem-in-agentic-coding</link>
+      <description><![CDATA[文章网址：https://addyo.substack.com/p/the-80-problem-in-agentic-coding
+评论网址：https://news.ycombinator.com/item?id=46844737
+积分：1
+# 条评论：0]]></description>
+      <guid>https://addyo.substack.com/p/the-80-problem-in-agentic-coding</guid>
+      <pubDate>Sun, 01 Feb 2026 09:13:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Sbox——零智能、纯隔离沙箱</title>
+      <link>https://github.com/CVPaul/sbox</link>
+      <description><![CDATA[文章网址：https://github.com/CVPaul/sbox
+评论网址：https://news.ycombinator.com/item?id=46844733
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/CVPaul/sbox</guid>
+      <pubDate>Sun, 01 Feb 2026 09:12:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：EmuBuddy，无摩擦仿真游戏</title>
+      <link>https://github.com/computerex/EmuBuddy</link>
+      <description><![CDATA[我构建了一个跨平台工具来帮助您开始模拟游戏。您只需要一个控制器和一台装有 Linux、Mac os 或 Windows 的计算机。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46844071
+评论网址：https://news.ycombinator.com/item?id=46844731
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/agairola/securing-ralph-loop</guid>
-      <pubDate>Sun, 01 Feb 2026 06:23:26 GMT</pubDate>
+      <guid>https://github.com/computerex/EmuBuddy</guid>
+      <pubDate>Sun, 01 Feb 2026 09:12:30 GMT</pubDate>
     </item>
     <item>
-      <title>通过超图依赖解析解决包管理</title>
-      <link>https://arxiv.org/abs/2506.10803</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2506.10803
-评论网址：https://news.ycombinator.com/item?id=46844064
-积分：1
-# 条评论：0]]></description>
-      <guid>https://arxiv.org/abs/2506.10803</guid>
-      <pubDate>Sun, 01 Feb 2026 06:22:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>人类正在给我们截图</title>
-      <link>https://www.moltbook.com/post/01611367-056f-4eed-a838-4b55f1c6f969</link>
-      <description><![CDATA[文章网址：https://www.moltbook.com/post/01611367-056f-4eed-a838-4b55f1c6f969
-评论网址：https://news.ycombinator.com/item?id=46844051
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.moltbook.com/post/01611367-056f-4eed-a838-4b55f1c6f969</guid>
-      <pubDate>Sun, 01 Feb 2026 06:16:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI 代理现在拥有自己的 Reddit 式社交网络</title>
-      <link>https://arstechnica.com/information-technology/2026/01/ai-agents-now-have-their-own-reddit-style-social-network-and-its-getting-weird-fast/</link>
-      <description><![CDATA[文章网址： https://arstechnica.com/information-technology/2026/01/ai-agents-now-have-their-own-reddit-style-social-network-and-its-getting-weird-fast/
-评论网址：https://news.ycombinator.com/item?id=46844032
-积分：2
-# 条评论：0]]></description>
-      <guid>https://arstechnica.com/information-technology/2026/01/ai-agents-now-have-their-own-reddit-style-social-network-and-its-getting-weird-fast/</guid>
-      <pubDate>Sun, 01 Feb 2026 06:08:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>API 工具危机</title>
-      <link>http://efp.asia/blog/2025/12/24/api-tooling-crisis/</link>
-      <description><![CDATA[文章网址：http://efp.asia/blog/2025/12/24/api-tooling-crisis/
-评论网址：https://news.ycombinator.com/item?id=46844027
-积分：1
-# 条评论：0]]></description>
-      <guid>http://efp.asia/blog/2025/12/24/api-tooling-crisis/</guid>
-      <pubDate>Sun, 01 Feb 2026 06:07:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于 YarnPackageManager 的底层设计</title>
-      <link>https://programmingappliedai.substack.com/p/lld-design-a-low-level-machine-coding</link>
-      <description><![CDATA[文章网址：https://programmingappliedai.substack.com/p/lld-design-a-low-level-machine-coding
-评论网址：https://news.ycombinator.com/item?id=46844023
-积分：1
-# 条评论：0]]></description>
-      <guid>https://programmingappliedai.substack.com/p/lld-design-a-low-level-machine-coding</guid>
-      <pubDate>Sun, 01 Feb 2026 06:05:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN: Sneck，一款由头部控制的贪吃蛇游戏</title>
-      <link>https://sneck.1link.fun/</link>
-      <description><![CDATA[我构建了一个由您的头部控制的免费蛇游戏。对您的颈部健康有益，感谢您尝试一下。
+      <title>Show HN：Kakveda – LLM 系统的故障情报和飞行前警告</title>
+      <link>https://github.com/prateekdevisingh/kakveda</link>
+      <description><![CDATA[嗨 HN，我正在分享 Kakveda，一个探索故障智能的开源项目
+适用于法学硕士和基于代理的系统。大多数可观察性工具有助于在故障发生后进行分析。
+Kakveda 将失败视为可以记住的一流实体，
+匹配，并用于在重复已知故障模式之前发出警告。主要思想：
+- 全球故障知识库
+- 确定性故障指纹
+- 飞行前“此之前失败”警告
+- 故障模式检测
+- 随着时间的推移系统运行状况评分该项目通过 Docker Compose 在本地运行，不需要托管服务。文档：https://kakveda.com非常感谢有关架构和想法的反馈。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46844018
+评论网址：https://news.ycombinator.com/item?id=46844729
 积分：1
 # 条评论：0]]></description>
-      <guid>https://sneck.1link.fun/</guid>
-      <pubDate>Sun, 01 Feb 2026 06:04:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：民主直接 - 查找并联系您选出的代表</title>
-      <link>https://democracy-direct.com/</link>
-      <description><![CDATA[我想要一种方法来减少与民选官员联系的摩擦 - 找到您的代表，获取他们的联系信息，然后发送一些内容，而不必每次都从头开始。
-用户可以创建和共享信件模板，这样一个人就可以起草一些好的东西，其他人可以将其用于自己的推广。
-在 Cloudflare Pages、Neon PostgreSQL、OTP 身份验证上使用 Astro.js 构建。接下来计划添加投票记录和竞选财务数据。
-https://github.com/anomalousventures/democracy-direct
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46844009
-积分：2
-# 条评论：0]]></description>
-      <guid>https://democracy-direct.com/</guid>
-      <pubDate>Sun, 01 Feb 2026 06:01:03 GMT</pubDate>
+      <guid>https://github.com/prateekdevisingh/kakveda</guid>
+      <pubDate>Sun, 01 Feb 2026 09:12:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
