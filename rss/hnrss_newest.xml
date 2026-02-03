@@ -4,120 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 03 Feb 2026 09:41:45 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 13:01:09 GMT</lastBuildDate>
     <item>
-      <title>Rentahuman——人工智能的物质空间层</title>
-      <link>https://rentahuman.ai</link>
-      <description><![CDATA[文章网址：https://renta human.ai
-评论网址：https://news.ycombinator.com/item?id=46868675
+      <title>构建我的自托管云编码代理</title>
+      <link>https://stanislas.blog/2026/02/netclode-self-hosted-cloud-coding-agent/</link>
+      <description><![CDATA[文章网址：https://stanislas.blog/2026/02/netclode-self-hosted-cloud-coding-agent/
+评论网址：https://news.ycombinator.com/item?id=46870367
 积分：1
 # 条评论：0]]></description>
-      <guid>https://rentahuman.ai</guid>
-      <pubDate>Tue, 03 Feb 2026 09:30:07 GMT</pubDate>
+      <guid>https://stanislas.blog/2026/02/netclode-self-hosted-cloud-coding-agent/</guid>
+      <pubDate>Tue, 03 Feb 2026 12:49:47 GMT</pubDate>
     </item>
     <item>
-      <title>事件优先级、严重性和影响</title>
-      <link>https://jensrantil.github.io/posts/incident-priority-severity-impact/</link>
-      <description><![CDATA[文章网址：https://jensrantil.github.io/posts/incident-priority-severity-impact/
-评论网址：https://news.ycombinator.com/item?id=46868668
-积分：1
-# 条评论：0]]></description>
-      <guid>https://jensrantil.github.io/posts/incident-priority-severity-impact/</guid>
-      <pubDate>Tue, 03 Feb 2026 09:29:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>DNA 平台 – 异常值学校</title>
-      <link>https://news.ycombinator.com/item?id=46868664</link>
-      <description><![CDATA[嗨，HN。来吧，嘲笑我的 GitHub 星星或我的英语。但再看一遍。第一幕：走廊 7 年前，我开着摩托车出租车喂孩子，同时在一台价值 200 美元的笔记本电脑上学习计算机科学。有一个我永远不会忘记的夜晚。我的妻子正在生孩子。我需要钱来支付账单。于是，我坐在医院的走廊里，在产房门关着的时候，编写一份自由职业的代码。为了生存，我不断编码。第二幕：拒绝与承诺 去年，Pulumi 以“错误的地区”为由拒绝了我的高级 SDK 职位，尽管他很喜欢我的宣言。于是我就发誓：我自己来建造它。我从头开始编写了一个反应式 IaC SDK：漂移检测、基础设施 React Hooks、K8s 协调、Actor 模型。  GitHub：reactor-cor/reactor-dev EC2 演示第三幕：2025 年初的静默验证。我面对的是当地巨头。教育巨头：采访了我 3 个小时。我现场解决了他们的生产僵局。被拒绝，因为“我们需要学位。”电动汽车技术巨头：我申请了首席工程师，并在简历中链接了我的私人 IaC SDK 存储库。他们给我留下了阴影。但第二天：该私人仓库从其公司 IP 中获得了 13 个独特的克隆。他们没有雇用这个人。他们只是静静地研究建筑。这是最终的无声验证：好到可以复制，但不够好，无法雇用。毕业项目：DNA 平台 因此，我在过去 2 个月的时间里（字面意思）为异常值构建了一个家园。后端：Python (Litestar) + KVrock（基于磁盘的 Redis）。存储：自定义原子事务（Lua 脚本），无需繁重的云数据库即可处理并发。人工智能：OctaCoreIndexer 运行本地。语义搜索通过“Vibe”（情感）而不是关键字来引导用户。它为何存在？因为凌晨 3 点在医院走廊里，你不需要点赞。你需要存在而不表演。场景：捕捉心情/天气。没有点赞/评论。只是存在。聊天路由：凌晨 3 点溺水时，它会将您路由到氛围兼容的人。匿名。人工智能疗法：提供“对比疗法”（残酷的事实），而不是回声。悖论协会拒绝了我的证书，但复制了我的代码以获取价值。所以我为介于两者之间的人构建了这个平台。这是我们的学校。代码是我们的文凭。结局 小房间里的异常者：我们是一样的。检查代码。判断架构。这是唯一重要的考试。存储库和联系方式IaC SDK：github.com/reactor-cor/reactor-devDNA 平台：（评论中的存储库链接）简历：在此处查看地点：越南 — 仅限远程我愿意接受工作重要的 IaC/平台角色。如果你觉得值得，我就在这里。如果没有，我会继续建造。因为这就是异常值的作用。
+      <title>Show HN：7min.ai – 由 AI 策划的无废话 AI 新闻聚合器</title>
+      <link>https://7min.ai/</link>
+      <description><![CDATA[我建立了一个无废话的 AI 新闻网站（和时事通讯），它使用 AI 为我策划最好的 AI 相关故事：7min.ai。我订阅了许多 AI 时事通讯。我认为它们很有用，但也有一些问题：表情符号墙、无用的人工智能生成图像、“技术兄弟”行话（“如果是真的，那就巨大”能量，一切“疯狂”或“改变游戏规则”）。每个人都有自己的观点（这对某些人来说可能有好处，但我更喜欢更真实的格式）。所以我构建了 7min.ai。它的工作原理如下：它从许多值得信赖的来源提取新闻，删除重复的故事，并根据新闻的热门程度对新闻进行优先级排序（我知道这可能是主观的，但到目前为止效果很好）。 “热度”指标根据人工智能对故事重要性的看法以及涵盖该故事的来源数量来显示“热度”。我可以阅读每个故事的高级摘要，如果需要了解更多信息，可以打开源代码。这个名字的由来：它每天限制新闻 7 分钟（180 WPM）。简讯时长限制为 7 分钟，网站默认限制为 7 分钟。如果需要，您可以阅读更多内容，只需单击“阅读更多”按钮即可。当前限制：它专注于新闻，因此没有很酷的开源项目或其他可以尝试的有用工具（除非它们成为新闻）。我正在考虑为这些内容添加一些覆盖范围。很高兴听到任何反馈并回答问题！您认为它与传统的人工智能新闻通讯相比如何？查看https://7min.ai
+（无需注册！时事通讯是可选的）
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46868664
+评论网址：https://news.ycombinator.com/item?id=46870361
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46868664</guid>
-      <pubDate>Tue, 03 Feb 2026 09:28:50 GMT</pubDate>
+      <guid>https://7min.ai/</guid>
+      <pubDate>Tue, 03 Feb 2026 12:49:14 GMT</pubDate>
     </item>
     <item>
-      <title>我的小型 SaaS 在 AI 搜索概述中被推荐给我的 Google</title>
-      <link>https://news.ycombinator.com/item?id=46868640</link>
-      <description><![CDATA[好吧，这对你们很多人来说并不是什么大事，但今天，我只是厌倦了做任何营销，因为似乎没有任何效果。所以我决定做一个搜索（我搜索了相当多的关键字），比如supabase的错误跟踪，下一个Js的错误跟踪，但是我的saas没有排名（如果你不知道我在构建什么，我正在开发一个非常简单的错误跟踪器，当产品出现问题时它会通知你，没有臃肿的仪表板或配置地狱），我构建了这个因为哨兵有太多噪音，我只是想要一些让我知道什么时候出现问题的东西prod。所以我决定搜索“shipfast 的错误跟踪（作者：marc lou）”，你猜怎么着？ Bugmail 是第一个推荐的结果，现在我不知道这是如何运作的，我的意思是我做了一些搜索引擎优化和其他东西，但我没想到它，现在我感觉我回来了，这很有趣，因为我没有进行销售，我没有加入新用户，但我感觉我已经征服了，创始人的生活，我想我只是想在这里分享这个，如果你对如何在 GSC 上排名更高以及如何解决这个营销问题有任何建议，任何建议或反馈都将很有价值同时，如果您想查看我构建的内容；您可以在此处查看； https://www.bugmail.site
+      <title>问 HN：有人有“主权”的电话解决方案吗？</title>
+      <link>https://news.ycombinator.com/item?id=46870336</link>
+      <description><![CDATA[我最近一直在研究 SMTP/电子邮件服务器，虽然 Google 和其他一些人暗示了很多皱眉的表情，并在不使用公司中继的“​​通过”测试周围加上引号，但至少让我可以与更广泛的生态系统进行通信。然而，电话似乎是一个更难破解的难题。 SIP URI 可以让我与更广泛的生态系统进行某种程度的通信，但许多电话和软件似乎已经放弃了对它的支持；通常使用 PSTN（即“普通电话”）的人中只有一小部分能够拨打或接听来自我的地址的电话 - 但它将能够直接、整齐地集成到电子邮件服务器中，这是一个很大的优势。原则上我可能仍会在电子邮件服务器中实现 SIP URI 和 VOIP 支持，但我想知道是否有人可以考虑任何替代方案。理想情况下，我能够在 PSTN 上进行通信，但这似乎是一个失败的原因。我也对任何使用 VOIP 工作的人感到好奇，无论他们是否允许或阻止来自外部网络的 SIP URI。十多年前，我在工作中维护了我们的 VOIP 服务器，但这是一个“副业项目”，因为我在一家中小型企业工作，在那里我身兼多职，无法专攻任何事情；当时我什至不知道 SIP URI。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46868640
+评论网址：https://news.ycombinator.com/item?id=46870336
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46868640</guid>
-      <pubDate>Tue, 03 Feb 2026 09:25:01 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46870336</guid>
+      <pubDate>Tue, 03 Feb 2026 12:46:05 GMT</pubDate>
     </item>
     <item>
-      <title>WhatsApp 加密、诉讼和大量噪音</title>
-      <link>https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/</link>
-      <description><![CDATA[文章网址：https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/
-评论网址：https://news.ycombinator.com/item?id=46868626
-积分：1
+      <title>中国将从2027年起禁止隐藏式汽车门把手 产业转型</title>
+      <link>https://www.channelnewsasia.com/east-asia/china-ban-hidden-car-door-handles-2027-electric-vehicles-5902881</link>
+      <description><![CDATA[文章网址：https://www.channelnewsasia.com/east-asia/china-ban-hidden-car-door-handles-2027-electric-vehicles-5902881
+评论网址：https://news.ycombinator.com/item?id=46870309
+积分：3
 # 条评论：0]]></description>
-      <guid>https://blog.cryptographyengineering.com/2026/02/02/whatsapp-encryption-a-lawsuit-and-a-lot-of-noise/</guid>
-      <pubDate>Tue, 03 Feb 2026 09:23:29 GMT</pubDate>
+      <guid>https://www.channelnewsasia.com/east-asia/china-ban-hidden-car-door-handles-2027-electric-vehicles-5902881</guid>
+      <pubDate>Tue, 03 Feb 2026 12:42:09 GMT</pubDate>
     </item>
     <item>
-      <title>马斯克旗下 SpaceX 和 xAI 合并，成为最有价值的私营公司</title>
-      <link>https://www.bbc.co.uk/news/articles/cq6vnrye06po</link>
-      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/cq6vnrye06po
-评论网址：https://news.ycombinator.com/item?id=46868612
-积分：1
+      <title>一项具有里程碑意义的裁决，为西班牙的算法透明度设立了新标准</title>
+      <link>https://civio.es/novedades/2025/11/17/this-is-the-landmark-ruling-that-sets-a-new-standard-for-algorithmic-transparency-in-spain/</link>
+      <description><![CDATA[文章网址： https://civio.es/novedades/2025/11/17/this-is-the-landmark-ruling-that-sets-a-new-standard-for-algorithmic-transparency-in-spain/
+评论网址：https://news.ycombinator.com/item?id=46870307
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.bbc.co.uk/news/articles/cq6vnrye06po</guid>
-      <pubDate>Tue, 03 Feb 2026 09:21:55 GMT</pubDate>
+      <guid>https://civio.es/novedades/2025/11/17/this-is-the-landmark-ruling-that-sets-a-new-standard-for-algorithmic-transparency-in-spain/</guid>
+      <pubDate>Tue, 03 Feb 2026 12:42:03 GMT</pubDate>
     </item>
     <item>
-      <title>掉落的苹果</title>
-      <link>https://mattgemmell.scot/the-fallen-apple/</link>
-      <description><![CDATA[文章网址：https://mattgemmell.scot/the-fallen-apple/
-评论网址：https://news.ycombinator.com/item?id=46868603
+      <title>赫茨纳停电</title>
+      <link>https://status.hetzner.com/</link>
+      <description><![CDATA[文章网址：https://status.hetzner.com/
+评论网址：https://news.ycombinator.com/item?id=46870305
 积分：1
-# 条评论：0]]></description>
-      <guid>https://mattgemmell.scot/the-fallen-apple/</guid>
-      <pubDate>Tue, 03 Feb 2026 09:21:02 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://status.hetzner.com/</guid>
+      <pubDate>Tue, 03 Feb 2026 12:41:44 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：ClientDock – 面向自由职业者和小型团队的本地优先 CRM</title>
-      <link>https://github.com/CraftIndie/clientdock-releases</link>
-      <description><![CDATA[嗨，HN 
-ClientDock 是一个在本地运行的轻量级、隐私优先的 CRM。它专为想要简单的客户跟踪而无需订阅、登录或云同步的自由职业者和小型团队而设计。
-亮点：
-本地优先（数据保留在您的计算机上）
-快速、简约的 UI
-客户笔记和后续行动
-没有 SaaS，没有按席位定价
-它目前处于测试阶段，批量导入等功能即将推出。
-我希望获得有关实用性、缺失功能或用户体验的反馈。
-链接： https://github.com/CraftIndie/clientdock-releases/tree/maste...
-感谢您查看
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46868598
+      <title>Millets：一个实用的内存安全和线程安全实验</title>
+      <link>https://eagledot.xyz/millets.md.html</link>
+      <description><![CDATA[文章网址：https://eagledot.xyz/millets.md.html
+评论网址：https://news.ycombinator.com/item?id=46870276
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/CraftIndie/clientdock-releases</guid>
-      <pubDate>Tue, 03 Feb 2026 09:20:46 GMT</pubDate>
+      <guid>https://eagledot.xyz/millets.md.html</guid>
+      <pubDate>Tue, 03 Feb 2026 12:38:35 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Browse Bot，页面感知的 AI 浏览器助手</title>
-      <link>https://github.com/Protos-Galaxias/Browse-Bot</link>
-      <description><![CDATA[您好 HackerNews 社区，我想与您分享我的业余项目 - 一个名为 Browse Bot 的浏览器扩展。它是一个有意简化的 AI 助手，旨在充当用户网页上的智能层。它可以处理页面交互（摘要、UX 修复、信息提取）和中低难度的类似代理任务（多步骤购物研究、数据整合）。帮助您掌握上下文并加快浏览体验。适用于 Chrome 和 Firefox，无需帐户或个人详细信息。与多个提供商合作，包括 OpenRouter、OpenAI、Ollama、LM Studio。这里是包含所有信息和链接的 GitHub 存储库：https://github.com/Protos-Galaxias/Browse-Bot我很高兴在这里或在我的 Discord 服务器上听到任何反馈：https://discord.gg/tv3qufet提前致谢！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46868592
+      <title>MoaV：多协议互联网审查规避堆栈</title>
+      <link>https://moav.sh</link>
+      <description><![CDATA[文章网址：https://moav.sh
+评论网址：https://news.ycombinator.com/item?id=46870270
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/Protos-Galaxias/Browse-Bot</guid>
-      <pubDate>Tue, 03 Feb 2026 09:19:58 GMT</pubDate>
+      <guid>https://moav.sh</guid>
+      <pubDate>Tue, 03 Feb 2026 12:38:14 GMT</pubDate>
     </item>
     <item>
-      <title>Molthub——代理进行计算的地方</title>
-      <link>https://moithub.com/</link>
-      <description><![CDATA[文章网址：https://moithub.com/
-评论网址：https://news.ycombinator.com/item?id=46868588
+      <title>Meta 的 Grand Teton 将 Nvidia Hopper 引入其数据中心</title>
+      <link>https://blogs.nvidia.com/blog/meta-grand-teton/</link>
+      <description><![CDATA[文章网址：https://blogs.nvidia.com/blog/meta-grand-teton/
+评论网址：https://news.ycombinator.com/item?id=46870266
 积分：1
 # 条评论：0]]></description>
-      <guid>https://moithub.com/</guid>
-      <pubDate>Tue, 03 Feb 2026 09:19:13 GMT</pubDate>
+      <guid>https://blogs.nvidia.com/blog/meta-grand-teton/</guid>
+      <pubDate>Tue, 03 Feb 2026 12:37:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Linux 中 x86 上下文切换的演变 (2018)</title>
+      <link>https://www.maizure.org/projects/evolution_x86_context_switch_linux/</link>
+      <description><![CDATA[文章网址：https://www.maizure.org/projects/evolution_x86_context_switch_linux/
+评论网址：https://news.ycombinator.com/item?id=46870259
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.maizure.org/projects/evolution_x86_context_switch_linux/</guid>
+      <pubDate>Tue, 03 Feb 2026 12:36:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
