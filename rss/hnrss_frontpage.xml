@@ -4,9 +4,122 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 03 Feb 2026 13:00:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 15:51:11 GMT</lastBuildDate>
     <item>
-      <title>Emerge Career (YC S22) 正在招聘一名创始产品设计师</title>
+      <title>WhatsApp 漏洞导致恶意媒体文件通过群聊传播</title>
+      <link>https://www.malwarebytes.com/blog/news/2026/01/a-whatsapp-bug-lets-malicious-media-files-spread-through-group-chats</link>
+      <description><![CDATA[文章网址：https://www.malwarebytes.com/blog/news/2026/01/a-whatsapp-bug-lets-malicious-media-files-spread-through-group-chats
+评论网址：https://news.ycombinator.com/item?id=46871504
+积分：6
+# 条评论：0]]></description>
+      <guid>https://www.malwarebytes.com/blog/news/2026/01/a-whatsapp-bug-lets-malicious-media-files-spread-through-group-chats</guid>
+      <pubDate>Tue, 03 Feb 2026 14:38:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHub 浏览器插件用于拉取请求中的 AI 贡献指责</title>
+      <link>https://blog.rbby.dev/posts/github-ai-contribution-blame-for-pull-requests/</link>
+      <description><![CDATA[文章网址：https://blog.rbby.dev/posts/github-ai-contribution-blame-for-pull-requests/
+评论网址：https://news.ycombinator.com/item?id=46871473
+积分：13
+# 条评论：6]]></description>
+      <guid>https://blog.rbby.dev/posts/github-ai-contribution-blame-for-pull-requests/</guid>
+      <pubDate>Tue, 03 Feb 2026 14:35:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：使用 WebAssembly 对不受信任的代码进行沙箱处理</title>
+      <link>https://github.com/mavdol/capsule</link>
+      <description><![CDATA[大家好，我构建了一个运行时来使用 wasm 沙箱隔离不受信任的代码。基本上，它可以保护您的主机系统免受不受信任代码可能导致的问题的影响。我们最近对 Python 中的沙箱进行了深入的讨论，对这个问题进行了更多的阐述 [1]。在 TypeScript 中，由于两个生态系统之间的紧密联系，wasm 集成更加自然。核心是用 Rust 构建的。最重要的是，我通过 wasmtime 和组件模型使用 WASI 0.2，以及使事情尽可能地惯用的自定义 SDK。例如，在 Python 中，我们有一个简单的装饰器： fromcapsule import task
+
+  @任务（
+      名称=“分析数据”， 
+      计算=“中”，
+      内存=“512MB”，
+      allowed_files=[&quot;./authorized-folder/&quot;],
+      超时=“30秒”， 
+      最大重试次数=1
+  ）
+  defanalyze_data（数据集：列表）-&gt;字典：
+      &quot;&quot;&quot;在隔离的、资源受控的环境中处理数据。&quot;&quot;&quot;
+      # 您的代码在 Wasm 沙箱中安全运行
+      返回{“已处理”：len（数据集），“状态”：“完成”}
+
+在 TypeScript 中，我们有一个包装器： import { task } from &quot;@capsule-run/sdk&quot;
+
+  导出常量分析 = 任务({
+      名称：“分析数据”， 
+      计算：“中”， 
+      内存：“512mb”，
+      allowedFiles: [&quot;./authorized-folder/&quot;],
+      超时：30000， 
+      最大重试次数：1
+  }, (数据集: number[]) =&gt; {
+      返回{已处理：数据集.长度，状态：“完成”}
+  });
+
+您可以设置 CPU（带计算）、内存、文件系统访问和重试，以精确控制您的任务。现在还很早，但我希望得到反馈。我会及时回答问题。GitHub：https://github.com/mavdol/capsule[1] https://news.ycombinator.com/item?id=46500510
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46871387
+积分：12
+# 条评论：0]]></description>
+      <guid>https://github.com/mavdol/capsule</guid>
+      <pubDate>Tue, 03 Feb 2026 14:28:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：反向代理模型（应用程序作为客户端、聊天作为服务器和反射）</title>
+      <link>https://github.com/RAIL-Suite/RAIL</link>
+      <description><![CDATA[你好，HN。 
+首先我想说，我是一名开发人员，开始这个研究项目是为了挑战自己。我知道存在 MCP 等标准协议，但我想探索不同的路径，并享受创建专为桌面应用程序量身定制的通信层的乐趣。该项目旨在以代理方式处理桌面应用程序之间的通信，因此重点严格放在此 IPC 层（忘记 HTTP API 调用）。RAIL（远程代理调用层）的核心是两个基本概念。这些名称可能听起来很吓人，但请记住这是一个研究项目：内存逻辑注入 + 反射
+范式转变：聊天是服务器，应用程序是客户端。为什么采用这种方法？这个想法是为了避免仅仅为了调用内部方法而创建巨大的包装器或 API 端点。相反，代理应用程序将其自己的实例传递给 SDK（例如，RailEngine.Ignite(this)）。这是我觉得很有趣的流程：-应用程序将其实例传递给在其自己的进程内运行的 RailEngine 库。-聊天（协调器）接收可用方法的清单。模型决定要执行的操作并通过命名管道发送回命令。-触发器：应用程序内的 RailEngine 接收命令并使用反射所持有的实例以直接执行 .Invoke()。本质上，我通过 SDK 将“代理逻辑”直接注入应用程序内存空间，从而允许 Chat 远程触发本地方法。关于 Repo 的说明：GitHub 存储库已变得很大。核心焦点是 RailEngine 和 RailOrchestrator。您会发现其他连接器（C++、Python）坦率地说是“垃圾代码”或不完整的实验。我在C++中强制RTTR来实现反射，但我不相信它。请跳过那些；它们与架构讨论无关。我希望将讨论集中在内存管理语言（如 C#/.NET）上，并询问您：-架构：与标准服务器/API 模型相比，这种反向架构（应用程序通过 IPC“拨号回家”）对于本地代理有意义吗？-性能：关于每次调用使用反射 — 是否值得实现一种在启动时将方法缓存为委托的机制？或者考虑到 LLM 本身的延迟，优化是否无关紧要？-安全性：既然我们有效地绕过了 API 层，那么假设的安全层会是什么来防止恶意使用？ （例如，由用户签署的功能清单？）我很想听听架构比较和批评。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46871251
+积分：12
+# 条评论：2]]></description>
+      <guid>https://github.com/RAIL-Suite/RAIL</guid>
+      <pubDate>Tue, 03 Feb 2026 14:16:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：这里还有人还在使用计算尺吗？</title>
+      <link>https://news.ycombinator.com/item?id=46871179</link>
+      <description><![CDATA[受到这个 Ask HN 的启发：https://news.ycombinator.com/item?id=46834977但我要回溯到更早的时间，看看这里是否还有人还在使用计算尺？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46871179
+积分：46
+# 条评论：53]]></description>
+      <guid>https://news.ycombinator.com/item?id=46871179</guid>
+      <pubDate>Tue, 03 Feb 2026 14:10:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>代理技巧</title>
+      <link>https://agentskills.io/home</link>
+      <description><![CDATA[文章网址：https://agentskills.io/home
+评论网址：https://news.ycombinator.com/item?id=46871173
+积分：99
+评论数：80]]></description>
+      <guid>https://agentskills.io/home</guid>
+      <pubDate>Tue, 03 Feb 2026 14:09:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：difi – 与 Neovim 集成的 Git diff TUI（用 Go 编写）</title>
+      <link>https://github.com/oug-t/difi</link>
+      <description><![CDATA[文章网址：https://github.com/oug-t/difi
+评论网址：https://news.ycombinator.com/item?id=46870917
+积分：11
+# 条评论：10]]></description>
+      <guid>https://github.com/oug-t/difi</guid>
+      <pubDate>Tue, 03 Feb 2026 13:47:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>兔子数据库</title>
+      <link>https://bunny.net/blog/meet-bunny-database-the-sql-service-that-just-works/</link>
+      <description><![CDATA[文章网址：https://bunny.net/blog/meet-bunny-database-the-sql-service-that-just-works/
+评论网址：https://news.ycombinator.com/item?id=46870015
+积分：27
+# 条评论：17]]></description>
+      <guid>https://bunny.net/blog/meet-bunny-database-the-sql-service-that-just-works/</guid>
+      <pubDate>Tue, 03 Feb 2026 12:13:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Emerge Career (YC S22) 正在招聘一名产品设计师</title>
       <link>https://www.ycombinator.com/companies/emerge-career/jobs/omqT34S-founding-product-designer</link>
       <description><![CDATA[文章网址：https://www.ycombinator.com/companies/emerge-career/jobs/omqT34S-founding-product-designer
 评论网址：https://news.ycombinator.com/item?id=46869901
@@ -20,107 +133,10 @@
       <link>https://lars.ingebrigtsen.no/2026/02/02/whats-up-with-all-those-equals-signs-anyway/</link>
       <description><![CDATA[文章网址：https://lars.ingebrigtsen.no/2026/02/02/whats-up-with-all-those-equals-signs-anyway/
 评论网址：https://news.ycombinator.com/item?id=46868759
-积分：187
-# 条评论：58]]></description>
+积分：343
+评论数：102]]></description>
       <guid>https://lars.ingebrigtsen.no/2026/02/02/whats-up-with-all-those-equals-signs-anyway/</guid>
       <pubDate>Tue, 03 Feb 2026 09:37:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rentahuman——人工智能的物质空间层</title>
-      <link>https://rentahuman.ai</link>
-      <description><![CDATA[文章网址：https://renta human.ai
-评论网址：https://news.ycombinator.com/item?id=46868675
-积分：49
-# 条评论：40]]></description>
-      <guid>https://rentahuman.ai</guid>
-      <pubDate>Tue, 03 Feb 2026 09:30:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Safe-now.live – 超轻型紧急信息网站 (<10KB)</title>
-      <link>https://safe-now.live</link>
-      <description><![CDATA[在 Sparkbox (https://news.ycombinator.com/item?id=46494734) 上阅读“在 Helene 期间，我只是想要一个纯文本网站”后，我建立了 safe-now.live – 一个针对美国和加拿大的文本优先紧急信息网站。没有 JavaScript，没有图像，小于 10KB。提取实时 FEMA 灾害、NWS 警报、天气和当地资源。这是我的第一个实时网站，因此在网站上寻求批评反馈。请随意查看。https://safe-now.live
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46868479
-积分：35
-# 条评论：8]]></description>
-      <guid>https://safe-now.live</guid>
-      <pubDate>Tue, 03 Feb 2026 09:06:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>LNAI – 定义一次 AI 编码工具配置，同步到 Claude、Cursor、Codex 等。</title>
-      <link>https://github.com/KrystianJonca/lnai</link>
-      <description><![CDATA[文章网址：https://github.com/KrystianJonca/lnai
-评论网址：https://news.ycombinator.com/item?id=46868318
-积分：33
-# 条评论：16]]></description>
-      <guid>https://github.com/KrystianJonca/lnai</guid>
-      <pubDate>Tue, 03 Feb 2026 08:45:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Minikv – Rust 中的分布式键值和对象存储（Raft、S3 API）</title>
-      <link>https://github.com/whispem/minikv</link>
-      <description><![CDATA[嗨，HN，我是 Emilie，我有文学背景（这解释了编写良好的文档！），在过去的几个月里，我一直通过构建 minikv 来学习 Rust 和分布式系统。 
-它最近在 Programmez! 中得到了推荐！杂志：https://www.programmez.com/actualites/minikv-un-key-value-st...minikv 是一款开源分布式存储引擎，专为学习、实验和开发而构建自托管设置。 
-它结合了强一致性键值数据库 (Raft)、S3 兼容的对象存储和基本的多租户。功能/亮点：- 具有自动故障转移和分片功能的 Raft 共识
-- S3兼容的HTTP API（加上REST/gRPC API）
-- 可插拔存储后端：内存中、RocksDB、Sled
-- 多租户：每租户命名空间、基于角色的访问、配额和审核
-- 指标 (Prometheus)、TLS、基于 JWT 的 API 密钥
-- 易于部署（单个二进制文件，可与 Docker/Kubernetes 配合使用）快速演示（单节点）：````bash
-git 克隆 https://github.com/whispem/minikv.git
-CD迷你KV
-货物运行 --release -- --config config.example.toml
-curl localhost:8080/health/ready# S3上传+读取
-卷曲 -X PUT 本地主机：8080/s3/mybucket/hello -d“嗨 HN”
-curl localhost:8080/s3/mybucket/hello文档、集群设置和架构详细信息位于存储库中。 
-我很想听听反馈、问题、想法或您在 Rust 中运行分布式基础设施的故事！存储库：https://github.com/whispem/minikv
-板条箱：https://crates.io/crates/minikv
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46867947
-积分：20
-# 条评论：4]]></description>
-      <guid>https://github.com/whispem/minikv</guid>
-      <pubDate>Tue, 03 Feb 2026 08:00:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>Floppinux – 单张软盘上的嵌入式 Linux，2025 版</title>
-      <link>https://krzysztofjankowski.com/floppinux/floppinux-2025.html</link>
-      <description><![CDATA[文章网址：https://krzysztofjankowski.com/floppinux/floppinux-2025.html
-评论网址：https://news.ycombinator.com/item?id=46866544
-积分：172
-# 条评论：109]]></description>
-      <guid>https://krzysztofjankowski.com/floppinux/floppinux-2025.html</guid>
-      <pubDate>Tue, 03 Feb 2026 04:33:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>偏差如何随着模型智能和任务复杂性的变化而变化？</title>
-      <link>https://alignment.anthropic.com/2026/hot-mess-of-ai/</link>
-      <description><![CDATA[文章网址：https://alignment.anthropic.com/2026/hot-mess-of-ai/
-评论网址：https://news.ycombinator.com/item?id=46864498
-积分：203
-# 条评论：56]]></description>
-      <guid>https://alignment.anthropic.com/2026/hot-mess-of-ai/</guid>
-      <pubDate>Tue, 03 Feb 2026 00:28:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>朱莉娅</title>
-      <link>https://borretti.me/fiction/julia</link>
-      <description><![CDATA[文章网址：https://borretti.me/fiction/julia
-评论网址：https://news.ycombinator.com/item?id=46863357
-积分：128
-# 条评论：22]]></description>
-      <guid>https://borretti.me/fiction/julia</guid>
-      <pubDate>Mon, 02 Feb 2026 22:57:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>TSA 新规定 45 美元的无身份证件飞行收费是违法的</title>
-      <link>https://www.frommers.com/tips/airfare/the-tsa-new-45-fee-to-fly-without-id-is-illegal-says-regulatory-expert/</link>
-      <description><![CDATA[文章网址：https://www.frommers.com/tips/airfare/the-tsa-new-45-fee-to-fly-without-id-is-illegal-says-regulatory-expert/
-评论网址：https://news.ycombinator.com/item?id=46863162
-积分：451
-# 条评论：525]]></description>
-      <guid>https://www.frommers.com/tips/airfare/the-tsa-new-45-fee-to-fly-without-id-is-illegal-says-regulatory-expert/</guid>
-      <pubDate>Mon, 02 Feb 2026 22:48:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
