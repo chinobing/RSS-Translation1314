@@ -4,111 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 04 Feb 2026 06:53:49 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 09:44:27 GMT</lastBuildDate>
     <item>
-      <title>Show HN：我 16 岁，构建了欧盟人工智能法案合规软件</title>
-      <link>https://audit.omensystems.com</link>
-      <description><![CDATA[嘿 HN – 我是 Chaitanya，一名 16 岁的学生。在阅读了《欧盟人工智能法案》并意识到大多数公司不知道如何遵守之后，我创建了 AuditDraft。
-规定是400页。高风险人工智能系统需要涵盖 12 种不同要求的技术文档。罚款最高可达 3500 万欧元。一些条款已经开始执行，大期限（2026 年 8 月）即将到来。
-AuditDraft 可帮助您：对 AI 系统的风险级别进行分类（基于第 6 条的 8 个问题）
-生成符合附件 IV 标准的模型卡和文档
-跟踪所有 35 项高风险要求的合规性充满激情。
+      <title>Show HN：捕捉 LLM 幻觉的 32KB 演绎引擎</title>
+      <link>https://news.ycombinator.com/item?id=46883606</link>
+      <description><![CDATA[我构建了一个幻觉检测器，它可以获取任何人工智能生成的文本，提取可验证的事实主张，根据搜索结果交叉检查每个主张，并输出带有每个主张判决的可信度报告。它是如何工作的：(1) 粘贴任何人工智能响应。 (2) 提取器识别事实主张——名称、日期、数字、引文。 (3) 每个声明都通过 HTTP 独立搜索。 (4) 比较者根据权利要求检查搜索证据。 (5) 记者对整体可信度进行评分。7 个 Python 模块，总共约 27KB。使用 Claude API 进行提取/比较并直接搜索进行验证。 Streamlit Web UI，每个声明都带有颜色编码的卡片。论文：幻觉是一个架构问题，而不是一个规模问题。 LLM 计算 argmax P(most_likely)，而不是 P(true)。参数越多，猜测就越精确，但“最有可能”≠“最真实”。因此，与其让猜测者变得更好，不如添加一个在逻辑上运行的独立验证层，而不是统计数据。讽刺的是：在代码审查期间，我让 Claude 编写代码，让 Gemini 审查它。 Gemini 将 claude-sonnet-4-20250514 标记为“虚构模特”，并发出严重阻止警告。该模型是真实的——Gemini 的训练中断使其在检查幻觉探测器时产生了关于模型名称的幻觉。然后克劳德总结道，当只有两个人工智能存在时，“所有三个人工智能都被批准”。人类用一句话抓住了两者。构建在 32KB 演绎推理引擎上（9 个公理，跨 6 个关系尺度进行分形验证）。同样开源。检测器：https://github.com/ZhangXiaowenOpen/hallucination- detector所有项目：https://github.com/ZhangXiaowenOpenMIT + Heart条款许可。单独开发 + AI 协作。很高兴回答有关架构的问题或为什么演绎验证比基于 RAG 的方法更持久。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46882332
+评论网址：https://news.ycombinator.com/item?id=46883606
 积分：1
 # 条评论：0]]></description>
-      <guid>https://audit.omensystems.com</guid>
-      <pubDate>Wed, 04 Feb 2026 06:43:42 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46883606</guid>
+      <pubDate>Wed, 04 Feb 2026 09:34:00 GMT</pubDate>
     </item>
     <item>
-      <title>驯服扁平 AST：零分配时代的人体工程学</title>
-      <link>http://modern-c.blogspot.com/2026/02/taming-flat-ast-ergonomics-in-age-of.html</link>
-      <description><![CDATA[文章网址：http://modern-c.blogspot.com/2026/02/taming-flat-ast-ergonomics-in-age-of.html
-评论网址：https://news.ycombinator.com/item?id=46882328
+      <title>使用人工智能编程，无需炒作</title>
+      <link>https://albertovarela.net/blog/2026/02/programming-with-ai/</link>
+      <description><![CDATA[文章网址：https://albertovarela.net/blog/2026/02/programming-with-ai/
+评论网址：https://news.ycombinator.com/item?id=46883596
 积分：1
 # 条评论：0]]></description>
-      <guid>http://modern-c.blogspot.com/2026/02/taming-flat-ast-ergonomics-in-age-of.html</guid>
-      <pubDate>Wed, 04 Feb 2026 06:42:58 GMT</pubDate>
+      <guid>https://albertovarela.net/blog/2026/02/programming-with-ai/</guid>
+      <pubDate>Wed, 04 Feb 2026 09:32:54 GMT</pubDate>
     </item>
     <item>
-      <title>Apple 的 Xcode 现在支持 Claude Agent SDK</title>
-      <link>https://www.anthropic.com/news/apple-xcode-claude-agent-sdk</link>
-      <description><![CDATA[文章网址：https://www.anthropic.com/news/apple-xcode-claude-agent-sdk
-评论网址：https://news.ycombinator.com/item?id=46882278
+      <title>AssemblyAI 的即时语音语言模型 (YC S17)</title>
+      <link>https://www.assemblyai.com/universal-3-pro</link>
+      <description><![CDATA[文章网址：https://www.assembleai.com/universal-3-pro
+评论网址：https://news.ycombinator.com/item?id=46883593
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.assemblyai.com/universal-3-pro</guid>
+      <pubDate>Wed, 04 Feb 2026 09:32:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Multitui – macOS 上的沙箱 claude/codex/gemini，无需容器</title>
+      <link>https://multitui.com/</link>
+      <description><![CDATA[我让 Multitui 可以轻松控制编码代理的沙箱，而无需更改我的开发环境（没有特殊的容器或虚拟机）。您的本地开发环境不需要配置...只需在通用终端中启动 ClaudeCode.app 而不是 claude 即可。容器和虚拟机可能很有用，但我总是有一堆项目正在进行，这些解决方案感觉很沉重。Multitui 为任何终端应用程序创建单一用途的本机 macOS 应用程序，并带有可选的沙箱。它使用内置的 macOS sandbox-exec 和日志监控功能，为您提供一个简单的 UI 来管理规则、查看被阻止的内容，并在观察需要允许的文件时添加规则。https://multitui.com这看起来有用吗？它也需要网络沙箱吗？此外，它今天已在 Product Hunt 上发布，因此我们将不胜感激！https://www.producthunt.com/products/multitui-David
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46883587
+积分：1
+# 条评论：0]]></description>
+      <guid>https://multitui.com/</guid>
+      <pubDate>Wed, 04 Feb 2026 09:32:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>欧洲开始缓慢摆脱对美国的依赖</title>
+      <link>https://www.politico.eu/article/europe-begins-retreat-united-states-dependence-donald-trump-rocks-transatlantic-relationship/</link>
+      <description><![CDATA[文章网址：https://www.politico.eu/article/europe-begins-retreat-united-states-dependence-donald-trump-rocks-transatlantic-relationship/
+评论网址：https://news.ycombinator.com/item?id=46883576
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.anthropic.com/news/apple-xcode-claude-agent-sdk</guid>
-      <pubDate>Wed, 04 Feb 2026 06:37:50 GMT</pubDate>
+      <guid>https://www.politico.eu/article/europe-begins-retreat-united-states-dependence-donald-trump-rocks-transatlantic-relationship/</guid>
+      <pubDate>Wed, 04 Feb 2026 09:30:22 GMT</pubDate>
     </item>
     <item>
-      <title>链接缩短工具风险较高</title>
-      <link>https://forkingmad.blog/link-shortening-tools/</link>
-      <description><![CDATA[文章网址：https://forkingmad.blog/link-shortening-tools/
-评论网址：https://news.ycombinator.com/item?id=46882185
-积分：1
-# 条评论：0]]></description>
-      <guid>https://forkingmad.blog/link-shortening-tools/</guid>
-      <pubDate>Wed, 04 Feb 2026 06:23:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软已经六次杀死 Widget。这就是他们不断回来的原因</title>
-      <link>https://xakpc.dev/windows-widgets/history/</link>
-      <description><![CDATA[文章网址：https://xakpc.dev/windows-widgets/history/
-评论网址：https://news.ycombinator.com/item?id=46882184
+      <title>研究发现，下午 3 点之前癌症免疫疗法效果更好</title>
+      <link>https://www.nature.com/articles/s41591-025-04181-w</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41591-025-04181-w
+评论网址：https://news.ycombinator.com/item?id=46883574
 积分：2
 # 条评论：0]]></description>
-      <guid>https://xakpc.dev/windows-widgets/history/</guid>
-      <pubDate>Wed, 04 Feb 2026 06:22:58 GMT</pubDate>
+      <guid>https://www.nature.com/articles/s41591-025-04181-w</guid>
+      <pubDate>Wed, 04 Feb 2026 09:30:05 GMT</pubDate>
     </item>
     <item>
-      <title>39C3 – 几乎不需要数学的天体导航</title>
-      <link>https://www.youtube.com/watch?v=iq1WmAVb3Sg</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=iq1WmAVb3Sg
-评论网址：https://news.ycombinator.com/item?id=46882174
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=iq1WmAVb3Sg</guid>
-      <pubDate>Wed, 04 Feb 2026 06:20:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pure Go 中的嵌入式矢量和图形数据库</title>
-      <link>https://github.com/liliang-cn/sqvect</link>
-      <description><![CDATA[文章网址：https://github.com/liliang-cn/sqvect
-评论网址：https://news.ycombinator.com/item?id=46882163
+      <title>FOSDEM 游戏和 VR 视频已发布</title>
+      <link>https://fosdem.org/2026/schedule/track/gaming-and-vr-devroom/</link>
+      <description><![CDATA[文章网址：https://fosdem.org/2026/schedule/track/gaming-and-vr-devroom/
+评论网址：https://news.ycombinator.com/item?id=46883568
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/liliang-cn/sqvect</guid>
-      <pubDate>Wed, 04 Feb 2026 06:19:15 GMT</pubDate>
+      <guid>https://fosdem.org/2026/schedule/track/gaming-and-vr-devroom/</guid>
+      <pubDate>Wed, 04 Feb 2026 09:29:27 GMT</pubDate>
     </item>
     <item>
-      <title>法国政府可能考虑限制VPN</title>
-      <link>https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-next-on-my-list-france-set-to-evaluate-vpn-use-following-social-media-ban-for-under-15s</link>
-      <description><![CDATA[文章网址： https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-next-on-my-list-france-set-to-evaluate-vpn-use-following-social-media-ban-for-under-15s
-评论网址：https://news.ycombinator.com/item?id=46882157
-积分：3
-# 条评论：1]]></description>
-      <guid>https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-next-on-my-list-france-set-to-evaluate-vpn-use-following-social-media-ban-for-under-15s</guid>
-      <pubDate>Wed, 04 Feb 2026 06:18:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>我离开 PayPal 近 12 年后，关于 PayPal 的一些想法</title>
-      <link>https://twitter.com/davidmarcus/status/2018809762708873443</link>
-      <description><![CDATA[文章网址：https://twitter.com/davidmarcus/status/2018809762708873443
-评论网址：https://news.ycombinator.com/item?id=46882150
+      <title>Linux 图形堆栈简介</title>
+      <link>https://lwn.net/Articles/955376/</link>
+      <description><![CDATA[文章网址：https://lwn.net/Articles/955376/
+评论网址：https://news.ycombinator.com/item?id=46883545
 积分：2
 # 条评论：0]]></description>
-      <guid>https://twitter.com/davidmarcus/status/2018809762708873443</guid>
-      <pubDate>Wed, 04 Feb 2026 06:17:52 GMT</pubDate>
+      <guid>https://lwn.net/Articles/955376/</guid>
+      <pubDate>Wed, 04 Feb 2026 09:26:47 GMT</pubDate>
     </item>
     <item>
-      <title>PCB 上有孔的 Nvidia RTX 5070 Ti 创造了世界纪录</title>
-      <link>https://videocardz.com/newz/nvidia-rtx-5070-ti-with-a-hole-in-the-pcb-manages-to-score-a-world-record</link>
-      <description><![CDATA[文章网址：https://videocardz.com/newz/nvidia-rtx-5070-ti-with-a-hole-in-the-pcb-manages-to-score-a-world-record
-评论网址：https://news.ycombinator.com/item?id=46882142
+      <title>“GPT-2 时间”，缩短至 2.91 小时</title>
+      <link>https://twitter.com/karpathy/status/2018804068874064198</link>
+      <description><![CDATA[文章网址：https://twitter.com/karpathy/status/2018804068874064198
+评论网址：https://news.ycombinator.com/item?id=46883528
 积分：1
 # 条评论：0]]></description>
-      <guid>https://videocardz.com/newz/nvidia-rtx-5070-ti-with-a-hole-in-the-pcb-manages-to-score-a-world-record</guid>
-      <pubDate>Wed, 04 Feb 2026 06:17:04 GMT</pubDate>
+      <guid>https://twitter.com/karpathy/status/2018804068874064198</guid>
+      <pubDate>Wed, 04 Feb 2026 09:24:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>物种的未来——我们即将创造合成生命吗？</title>
+      <link>https://www.theguardian.com/books/2026/feb/04/on-the-future-of-species-by-adrian-woolfson-review-are-we-on-the-verge-of-creating-synthetic-life</link>
+      <description><![CDATA[文章网址： https://www.theguardian.com/books/2026/feb/04/on-the-future-of-species-by-adrian-woolfson-review-are-we-on-the-verge-of-creating-synthetic-life
+评论网址：https://news.ycombinator.com/item?id=46883505
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theguardian.com/books/2026/feb/04/on-the-future-of-species-by-adrian-woolfson-review-are-we-on-the-verge-of-creating-synthetic-life</guid>
+      <pubDate>Wed, 04 Feb 2026 09:21:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
