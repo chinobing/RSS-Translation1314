@@ -4,133 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 04 Feb 2026 12:59:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 15:43:39 GMT</lastBuildDate>
     <item>
-      <title>反对高温LLM采样的阴谋</title>
-      <link>https://gist.github.com/Hellisotherpeople/71ba712f9f899adcb08b94bce20d5397</link>
-      <description><![CDATA[文章网址：https://gist.github.com/Hellisotherpeople/71ba712f9f899adcb08b94bce20d5397
-评论网址：https://news.ycombinator.com/item?id=46885257
+      <title>Kevin Boone：注重隐私的搜索引擎之战：Kagi 与 DuckDuckGo</title>
+      <link>https://kevinboone.me/kagi_ddg.html</link>
+      <description><![CDATA[文章网址：https://kevinboone.me/kagi_ddg.html
+评论网址：https://news.ycombinator.com/item?id=46887095
 积分：1
 # 条评论：0]]></description>
-      <guid>https://gist.github.com/Hellisotherpeople/71ba712f9f899adcb08b94bce20d5397</guid>
-      <pubDate>Wed, 04 Feb 2026 12:54:07 GMT</pubDate>
+      <guid>https://kevinboone.me/kagi_ddg.html</guid>
+      <pubDate>Wed, 04 Feb 2026 15:35:30 GMT</pubDate>
     </item>
     <item>
-      <title>中世纪僧侣重写古代星表——粒子加速揭示原创</title>
-      <link>https://www.smithsonianmag.com/smart-news/medieval-monks-wrote-over-a-copy-of-an-ancient-star-catalog-now-a-particle-accelerator-is-revealing-the-long-lost-original-text-180988123/</link>
-      <description><![CDATA[文章网址： https://www.smithsonianmag.com/smart-news/medieval-monks-wrote-over-a-copy-of-an-an-ancient-star-catalog-now-a-article-accelerator-is-revealing-the-long-lost-original-text-180988123/
-评论网址：https://news.ycombinator.com/item?id=46885249
+      <title>为什么MySQL与DuckDB的集成比PostgreSQL更优雅</title>
+      <link>https://www.linkedin.com/top-content/</link>
+      <description><![CDATA[文章网址：https://www.linkedin.com/top-content/
+评论网址：https://news.ycombinator.com/item?id=46887089
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.smithsonianmag.com/smart-news/medieval-monks-wrote-over-a-copy-of-an-ancient-star-catalog-now-a-particle-accelerator-is-revealing-the-long-lost-original-text-180988123/</guid>
-      <pubDate>Wed, 04 Feb 2026 12:53:23 GMT</pubDate>
+      <guid>https://www.linkedin.com/top-content/</guid>
+      <pubDate>Wed, 04 Feb 2026 15:35:09 GMT</pubDate>
     </item>
     <item>
-      <title>使用 Wayback Machine 修复链接</title>
-      <link>https://automattic.com/2026/02/04/wayback-machine-wordpress-link-fixer/</link>
-      <description><![CDATA[文章网址：https://automattic.com/2026/02/04/wayback-machine-wordpress-link-fixer/
-评论网址：https://news.ycombinator.com/item?id=46885247
+      <title>日本正在考虑建造核潜艇。但它们值得付出这些代价吗？</title>
+      <link>https://www.japantimes.co.jp/news/2026/01/28/japan/japan-challenges-nuclear-submarines/</link>
+      <description><![CDATA[文章网址：https://www.japantimes.co.jp/news/2026/01/28/japan/japan-challenges-nuclear-submarines/
+评论网址：https://news.ycombinator.com/item?id=46887087
 积分：1
 # 条评论：0]]></description>
-      <guid>https://automattic.com/2026/02/04/wayback-machine-wordpress-link-fixer/</guid>
-      <pubDate>Wed, 04 Feb 2026 12:53:07 GMT</pubDate>
+      <guid>https://www.japantimes.co.jp/news/2026/01/28/japan/japan-challenges-nuclear-submarines/</guid>
+      <pubDate>Wed, 04 Feb 2026 15:35:02 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：具有可选 WebGPU 路径跟踪的 3D 棋盘沙箱</title>
-      <link>https://chessboard3d.app/</link>
-      <description><![CDATA[我想探索 GPU 光线追踪，因此我构建了一个免费的棋盘，感觉就像在现实生活中的咖啡馆里下棋。目标是全面 (OTB) 真实感。这是一个基于物理的沙箱，您可以在其中手动拖动棋子，移动车进行易位，并自行清除捕获的棋子。你甚至可以把它们撞倒。最初的想法来自我的朋友 Drew Olbrich (lunarskydiving.com)，他于 90 年代在 PDI 构建了这个概念的基于 SGI 的版本。我花了三十年的时间在 PDI/DreamWorks 和 NVIDIA 编写渲染代码。我在 WebGPU 中从头开始编写渲染管道。它默认为优化的光栅化“快速路径”，但如果您有良好的 GPU，则可以在设置中启用实时路径跟踪器。我使用 4 层深度剥离 G 缓冲区和分层 Z 缓冲区 DDA 进行光线行进，支持多次反射 GI 和环境贴图重要性采样。场景完全由单个 HDRI 环境贴图照亮，没有本地光源。由于我是一名程序员而不是灯光艺术家，因此我公开了所有材质设置供您调整和共享。对于多人游戏，我使用 WebRTC（通过 PeerJS）来避免中央服务器延迟。该应用程序与 Lichess.org 集成以挑战您现有的朋友，或者您也可以扮演本地 Stockfish 网络工作者。每个客户端都运行自己的刚体模拟，以保持物理响应，同时逻辑游戏状态保持同步。该应用程序需要 WebGPU（Chrome 113+、Edge 113+ 或 Safari 17.4+）。在最新的 Windows、MacOS、iOS 和 Android 上进行了测试。如果网络连接速度较慢，加载图形资源可能需要几秒钟的时间。我很想听听您的硬件性能如何，以及对未来功能的建议，例如添加折射、允许观众或注释？
+      <title>F字</title>
+      <link>http://muratbuffalo.blogspot.com/2026/02/friction.html</link>
+      <description><![CDATA[文章网址：http://muratbuffalo.blogspot.com/2026/02/friction.html
+评论网址：https://news.ycombinator.com/item?id=46887084
+积分：1
+# 条评论：0]]></description>
+      <guid>http://muratbuffalo.blogspot.com/2026/02/friction.html</guid>
+      <pubDate>Wed, 04 Feb 2026 15:34:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>WebAssembly 中对 Python 的 Greenlet 支持</title>
+      <link>https://wasmer.io/posts/greenlet-support-python-wasm</link>
+      <description><![CDATA[文章网址：https://wasmer.io/posts/greenlet-support-python-wasm
+评论网址：https://news.ycombinator.com/item?id=46887080
+积分：1
+# 条评论：0]]></description>
+      <guid>https://wasmer.io/posts/greenlet-support-python-wasm</guid>
+      <pubDate>Wed, 04 Feb 2026 15:34:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>培训和协助</title>
+      <link>https://news.ycombinator.com/item?id=46887072</link>
+      <description><![CDATA[100% 的残疾退伍军人在我正在开展的研究项目中寻求培训和帮助，以增加我自己在教育和再就业方面取得成功的机会。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46885241
+评论网址：https://news.ycombinator.com/item?id=46887072
 积分：1
 # 条评论：0]]></description>
-      <guid>https://chessboard3d.app/</guid>
-      <pubDate>Wed, 04 Feb 2026 12:52:20 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46887072</guid>
+      <pubDate>Wed, 04 Feb 2026 15:33:37 GMT</pubDate>
     </item>
     <item>
-      <title>要了解中国，我们需要了解中国互联网</title>
-      <link>https://restofworld.org/2026/wall-dancers-china-internet-book/</link>
-      <description><![CDATA[文章网址：https://restofworld.org/2026/wall-dancers-china-internet-book/
-评论网址：https://news.ycombinator.com/item?id=46885236
+      <title>按行业划分的数据合同模板</title>
+      <link>https://soda.io/templates</link>
+      <description><![CDATA[文章网址：https://soda.io/templates
+评论网址：https://news.ycombinator.com/item?id=46887065
 积分：1
 # 条评论：0]]></description>
-      <guid>https://restofworld.org/2026/wall-dancers-china-internet-book/</guid>
-      <pubDate>Wed, 04 Feb 2026 12:51:32 GMT</pubDate>
+      <guid>https://soda.io/templates</guid>
+      <pubDate>Wed, 04 Feb 2026 15:33:15 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：单位前缀健全性检查器 – 捕获数据表中的 10×/1000× 错误</title>
-      <link>https://chromewebstore.google.com/detail/unit-prefix-sanity-checke/bojhddjdbnmkjoloafgbenlbcpomihnp</link>
-      <description><![CDATA[我构建了一个 Chrome 扩展程序，可以标记网页中的可疑单位前缀组合。这种拼写错误会导致工程师订购错误的组件或花费数小时进行调试。在这些上尝试一下（先安装扩展）： 电容器：10 mF 陶瓷
-  MCU时钟：16000kHz
-  板宽：0.005m
-  电池：3.7mAh 锂离子电池
-  下载：100 Mb 存储空间
-  表面光洁度：Ra = 1.6 mm
-
-如果扩展程序正常工作，您将在悬停时看到内联突出显示和说明。它目前有 89 条规则，涉及电气、机械、HVAC、数据、化学、光学和角度单位。完全在本地运行，没有数据收集，没有帐户，没有后端。这个想法来自于捕获组件数据表中的这些错误，并想知道这些年来我错过了多少错误。寻找关于它错过的内容、误报和我不太熟悉的领域中的单位约定的反馈。希望接下来为 Firefox 构建它。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46885227
+      <title>RackRat：eBay 机架式服务器交易查找器</title>
+      <link>https://rackrat.net</link>
+      <description><![CDATA[文章网址：https://rackrat.net
+评论网址：https://news.ycombinator.com/item?id=46887062
 积分：1
-# 条评论：0]]></description>
-      <guid>https://chromewebstore.google.com/detail/unit-prefix-sanity-checke/bojhddjdbnmkjoloafgbenlbcpomihnp</guid>
-      <pubDate>Wed, 04 Feb 2026 12:49:27 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://rackrat.net</guid>
+      <pubDate>Wed, 04 Feb 2026 15:33:02 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：howfar.nyc</title>
-      <link>https://howfar.nyc</link>
-      <description><![CDATA[开放标准阐明了理解世界的不同方式。向东移动后，我对到达三州地区其他主要城市的速度以及人们通勤到纽约市的地点的广度印象深刻。我也对我的自行车经常是到达布鲁克林其他地方最快的方式印象不深。特别是在寻找公寓时，某些地区似乎有一些交通便利的地方，有时对应于更高的租金价格。我需要一张地图，过去几周的暴风雪是制作地图的一个机会。我提取了一些 GTFS 数据，并使用 Open Trip Planner 预先计算了纽约市每个十字路口以及三州地区一些城市中心的交通出行时间。交通数据包括 MTA、CT Transit、Septa 和 NJ Transit。多边形存储在 PostGIS 中，leaflet 可以快速将它们渲染为 GeoJSON 图层。我在同一个堆栈上有一些用 clojure/script 编写的地图项目，所以它是一个自然的扩展。很乐意回答任何问题。注意：大多数交通机构愿意提供自己的 GTFS 数据，但 Amtrak 必须遵循 FOIA，所以我使用了第三方清理版本。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46885226
+      <title>人工智能机器人现已成为网络流量的重要来源</title>
+      <link>https://www.wired.com/story/ai-bots-are-now-a-signifigant-source-of-web-traffic/</link>
+      <description><![CDATA[文章网址：https://www.wired.com/story/ai-bots-are-now-a-signifigant-source-of-web-traffic/
+评论网址：https://news.ycombinator.com/item?id=46887060
 积分：1
 # 条评论：0]]></description>
-      <guid>https://howfar.nyc</guid>
-      <pubDate>Wed, 04 Feb 2026 12:49:27 GMT</pubDate>
+      <guid>https://www.wired.com/story/ai-bots-are-now-a-signifigant-source-of-web-traffic/</guid>
+      <pubDate>Wed, 04 Feb 2026 15:32:53 GMT</pubDate>
     </item>
     <item>
-      <title>更好的教训？深度学习时代的几何与拓扑</title>
-      <link>https://bastian.rieck.me/blog/2026/better_lesson/</link>
-      <description><![CDATA[文章网址：https://bastian.rieck.me/blog/2026/better_lesson/
-评论网址：https://news.ycombinator.com/item?id=46885223
+      <title>真相还重要吗？ [视频]</title>
+      <link>https://www.youtube.com/watch?v=rnEAAFeE3W4</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=rnEAAFeE3W4
+评论网址：https://news.ycombinator.com/item?id=46887046
 积分：1
 # 条评论：0]]></description>
-      <guid>https://bastian.rieck.me/blog/2026/better_lesson/</guid>
-      <pubDate>Wed, 04 Feb 2026 12:49:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：GrahamBell – 这就是 2009 年比特币挖矿的样子</title>
-      <link>https://news.ycombinator.com/item?id=46885212</link>
-      <description><![CDATA[我花了 5 年时间思考一个大多数人认为无法解决的问题：是否有可能去中心化地限制工作量证明 (PoW) 的挖矿速度？我有一个浏览器 MVP 演示了一种可能的方法，并且我非常感谢任何类型的反馈。这个想法很简单，但很难实现：强制每个节点每秒 1 个哈希值的硬性限制，使 (PoW) 不仅能够防 ASIC/GPU，甚至还能防 CPU。为了具体说明这一点，我提供了简短的演示视频，其中显示：(1) 当节点超过 1 哈希值/秒时，挖掘尝试将被拒绝：https://youtu.be/i5gzzqFXXUk (2) 实时通话期间挖矿的直观展示：https://youtu.be/gPz7d3lGz1k您还可以尝试MVP 本地客户端位于：https://grahambell.io/mvp/Proof_of_Witness.html如果您开始挖矿并提高挖矿速度，尝试和区块就会开始被实时拒绝。我们的目标是恢复 2009 年初单独挖矿的公平性，除非是由网络强制执行，而不是硬件稀缺。 （扭转：在这个本地客户端中，想象它发生在活动的音频/视频通话会话期间）。为什么这很重要？今天，PoW 仅验证最终结果。它无法了解结果的生成方式或速度。这就是通过资本优势实现并行挖矿、矿池和硬件主导地位的原因。在实践中，参与现在通常需要六位数的投资，无论是通过质押、硬件、电力还是维护（运营费用）。大多数人根本无法承担有意义的参与，这推动了区块链日益集中化。我发现一个有用的类比：如果工作量证明是一场数学考试，那么今天矿工们在家解决它，只提交问题/答案表。没有人看到工作情况、时间安排或是否使用了多个计算器。但是，如果矿工还必须在考场的去中心化监考、考试条件和规则下实时提交计算表并解决考试呢？核心思想：这个本地客户端在矿工控制之外添加了一个外部的去中心化观察层，这确保矿工遵循挖掘规则，允许网络验证过程（“如何”），而不仅仅是结果。结果，挖掘尝试变得外部可见（暴露）并且速率受到限制。这个 MVP 自然地将每个节点的挖掘限制为 1 哈希/秒，因为每次尝试都是可观察的，如果速度太快，就会立即检测到并拒绝。“我不能在不被观察到的情况下提出区块吗？”如果不被观察和遵循挖掘规则，提议的区块即使有效，也会继续被拒绝，除非观察者通过共识签署它们。这迫使矿工在遵守规则的同时在观察下进行操作。将观察者的签名视为验证印章。没有它，区块就会被忽略。“我不能启动一百万个矿工吗？”这是一个显而易见且正确的问题。您可以添加更多节点，但注册它们是故意困难、成本高昂且具有概率性的。可以将其想象为在与他人竞争时反复玩不断变化的随机数猜谜游戏。每个人都竞相猜测相同的数字，该数字会随着注册节点的正确猜测而改变。每次尝试成本高昂且速率有限（例如，每个参与者每秒尝试 1 次）。这使得并行挖掘成为可能，但昂贵、缓慢且可观察，而不是免费。这不是一个完美的初创公司。这是一个 MVP，挑战了我曾经相信自己的假设。如果您有技术、好奇并且感兴趣，我很乐意进一步讨论它。我还在寻找第一组测试人员来帮助对 P2P 版本发布时进行压力测试。如果您想运行早期节点之一，我在这里列出了参与列表：https://grahambell.io/mvp/#waitlist更多上下文：https://grahambell.io
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46885212
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46885212</guid>
-      <pubDate>Wed, 04 Feb 2026 12:48:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：YourGPT Copilot SDK 用于产品级智能的开源 SDK</title>
-      <link>https://copilot-sdk.yourgpt.ai/docs</link>
-      <description><![CDATA[在过去的一年里，许多 SaaS 产品都添加了人工智能聊天机器人来回答问题并减少支持负载。它最初很有帮助，但大多数系统仍然位于聊天窗口中，不知道应用程序内部发生了什么。
-他们不知道当前页面、所选数据、用户权限或工作流程状态。用户最终会重复产品已有的上下文。
-我最近遇到了一个开源 Copilot SDK，它通过将实时应用程序状态直接注入人工智能并让它执行真正的前端和后端功能，而不是仅仅用文本响应来以不同的方式解决这个问题。
-它的作用：
-- 了解应用程序状态，包括当前页面、所选数据和用户权限
-- 执行后端和前端功能，而不是仅用文本响应
-- 通过表格、表单和交互式按钮等生成式 UI 提供更丰富的产品体验
-- 根据产品内环境了解用户工作流程和意图
-- 维护会话上下文，使交互保持一致
-示例：人工智能不会询问“您需要什么帮助？”，而是了解用户上下文正在查看上周失败的交易，并可以立即重试、导出数据或调查模式。
-技术细节：
-- 可与 React、Next.js、Vite 配合使用（Vue 和 Angular 即将推出）
-- 法学硕士不可知（带上你自己的模型）
-- 通过上下文提供者进行状态注入
-- 用于安全函数调用的工具执行层
-- 完整的数据所有权（一切都在您的基础设施中运行）文档 + 示例：https://copilot-sdk.yourgpt.ai乐意回答有关实施或特定用例的技术问题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46885205
-积分：1
-# 条评论：0]]></description>
-      <guid>https://copilot-sdk.yourgpt.ai/docs</guid>
-      <pubDate>Wed, 04 Feb 2026 12:47:39 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=rnEAAFeE3W4</guid>
+      <pubDate>Wed, 04 Feb 2026 15:32:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
