@@ -4,106 +4,120 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 05 Feb 2026 02:05:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 04:48:32 GMT</lastBuildDate>
     <item>
-      <title>膨胀显微镜改变了我们看待细胞世界的方式</title>
-      <link>https://www.quantamagazine.org/expansion-microscopy-has-transformed-how-we-see-the-cellular-world-20260204/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/expansion-microscopy-has-transformed-how-we-see-the-cellular-world-20260204/
-评论网址：https://news.ycombinator.com/item?id=46894624
+      <title>Show HN：UI 线框的文本格式 – 比较 4 种格式的代币成本</title>
+      <link>https://github.com/enlinks-llc/katsuragi</link>
+      <description><![CDATA[我一直在探索如何有效地向法学硕士描述 UI 布局。问题：当你要求 AI 生成或修改 UI 时，你如何描述当前状态？
+- 自然语言（“标题在上，表格在下”）不明确
+- 编辑时 ASCII 艺术会中断（对齐问题）
+- HTML 很精确但很冗长我进行了一些测量。对于简单的登录表单：
+- 自然语言：102 个标记
+- ASCII 艺术：84 个标记
+- HTML：330 个标记我使用类似 Excel 的单元格引用尝试了基于网格的文本格式： 网格：4x3
+  A1..D1: { 类型：txt，值：“登录” }
+  A2..D2: { 类型：输入，标签：“电子邮件” }
+  D3: { 类型：btn，值：“提交” }
+
+结果是 120 个标记 - 比 HTML 少，比自然语言更精确。构建了一个 CLI 将其渲染为 SVG/PNG：npx ktr input.kui -o output.png好奇其他人尝试过什么方法来解决这个问题。有什么东西吗
+我错过了已经很好地解决了这个问题？代码：https://github.com/enlinks-llc/katsuragi
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46895733
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.quantamagazine.org/expansion-microscopy-has-transformed-how-we-see-the-cellular-world-20260204/</guid>
-      <pubDate>Thu, 05 Feb 2026 01:53:51 GMT</pubDate>
+      <guid>https://github.com/enlinks-llc/katsuragi</guid>
+      <pubDate>Thu, 05 Feb 2026 04:37:36 GMT</pubDate>
     </item>
     <item>
-      <title>有传言称，Anthropic 即将发行 Claude Sonnet 5</title>
-      <link>https://www.macobserver.com/news/anthropic-is-close-to-releasing-claude-sonnet-5-per-rumors/</link>
-      <description><![CDATA[文章网址：https://www.macobserver.com/news/anthropic-is-close-to-releasing-claude-sonnet-5-per-rumors/
-评论网址：https://news.ycombinator.com/item?id=46894606
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.macobserver.com/news/anthropic-is-close-to-releasing-claude-sonnet-5-per-rumors/</guid>
-      <pubDate>Thu, 05 Feb 2026 01:51:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何编写好的（短）文档</title>
-      <link>https://tombedor.dev/how-to-write-good-short-docs/</link>
-      <description><![CDATA[文章网址：https://tombedor.dev/how-to-write-good-short-docs/
-评论网址：https://news.ycombinator.com/item?id=46894478
-积分：1
-# 条评论：0]]></description>
-      <guid>https://tombedor.dev/how-to-write-good-short-docs/</guid>
-      <pubDate>Thu, 05 Feb 2026 01:34:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>经历文化大革命</title>
-      <link>https://substack.com/home/post/p-186384573</link>
-      <description><![CDATA[文章网址：https://substack.com/home/post/p-186384573
-评论网址：https://news.ycombinator.com/item?id=46894458
-积分：4
-# 条评论：1]]></description>
-      <guid>https://substack.com/home/post/p-186384573</guid>
-      <pubDate>Thu, 05 Feb 2026 01:32:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>事实核查：JK 罗琳邀请杰弗里·爱泼斯坦去看话剧吗？</title>
-      <link>https://rainyseason.substack.com/p/fact-check-did-jk-rowling-invite</link>
-      <description><![CDATA[文章网址：https://rainyseason.substack.com/p/fact-check-did-jk-rowling-invite
-评论网址：https://news.ycombinator.com/item?id=46894452
-积分：3
-# 条评论：0]]></description>
-      <guid>https://rainyseason.substack.com/p/fact-check-did-jk-rowling-invite</guid>
-      <pubDate>Thu, 05 Feb 2026 01:31:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>银行为甲骨文数据中心贷款寻找新买家</title>
-      <link>https://www.ft.com/content/90aa74a5-b39d-4131-a138-367726cb18fb</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/90aa74a5-b39d-4131-a138-367726cb18fb
-评论网址：https://news.ycombinator.com/item?id=46894439
-积分：5
-# 条评论：2]]></description>
-      <guid>https://www.ft.com/content/90aa74a5-b39d-4131-a138-367726cb18fb</guid>
-      <pubDate>Thu, 05 Feb 2026 01:30:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>39 天内听写了 243,000 个单词，语音转文本改变了我的工作方式</title>
-      <link>https://modulovalue.com/blog/voxtral-transcribe-and-wispr-flow/</link>
-      <description><![CDATA[文章网址：https://modulovalue.com/blog/voxtral-transcribe-and-wispr-flow/
-评论网址：https://news.ycombinator.com/item?id=46894410
-积分：1
-# 条评论：0]]></description>
-      <guid>https://modulovalue.com/blog/voxtral-transcribe-and-wispr-flow/</guid>
-      <pubDate>Thu, 05 Feb 2026 01:25:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>托马斯哲学人类学：法学硕士的解释网格</title>
-      <link>https://michaelmangialardi.substack.com/p/a-thomistic-philosophical-anthropology-llm-pt1</link>
-      <description><![CDATA[文章网址：https://michaelmangialardi.substack.com/p/a-thomistic-philosophical-anthropology-llm-pt1
-评论网址：https://news.ycombinator.com/item?id=46894399
-积分：1
-# 条评论：0]]></description>
-      <guid>https://michaelmangialardi.substack.com/p/a-thomistic-philosophical-anthropology-llm-pt1</guid>
-      <pubDate>Thu, 05 Feb 2026 01:23:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>从头开始编写法学硕士，第 32B 部分 – 干预措施：梯度裁剪</title>
-      <link>https://www.gilesthomas.com/2026/02/llm-from-scratch-32b-interventions-gradient-clipping</link>
-      <description><![CDATA[文章网址：https://www.gilesthomas.com/2026/02/llm-from-scratch-32b-interventions-gradient-clipping
-评论网址：https://news.ycombinator.com/item?id=46894386
+      <title>显示 HN：FIPSPad – Rust 中的 FIPS 140-3 和 NIST SP 800-53 最小记事本应用程序</title>
+      <link>https://github.com/BrowserBox/FIPSPad</link>
+      <description><![CDATA[文章网址：https://github.com/BrowserBox/FIPSPad
+评论网址：https://news.ycombinator.com/item?id=46895731
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.gilesthomas.com/2026/02/llm-from-scratch-32b-interventions-gradient-clipping</guid>
-      <pubDate>Thu, 05 Feb 2026 01:22:01 GMT</pubDate>
+      <guid>https://github.com/BrowserBox/FIPSPad</guid>
+      <pubDate>Thu, 05 Feb 2026 04:37:22 GMT</pubDate>
     </item>
     <item>
-      <title>近 40% 的斯坦福大学本科生声称自己有残疾。我是其中之一</title>
-      <link>https://www.thetimes.com/us/news-today/article/40-percent-stanford-undergraduates-claim-disabled-sw99r3k8c</link>
-      <description><![CDATA[文章网址：https://www.thetimes.com/us/news-today/article/40-percent-stanford-undergraduates-claim-disabled-sw99r3k8c
-评论网址：https://news.ycombinator.com/item?id=46894381
-积分：2
+      <title>米克·贾格尔“特纳的备忘录”（1970）[视频]</title>
+      <link>https://archive.org/details/memo-from-turner-clip</link>
+      <description><![CDATA[文章网址：https://archive.org/details/memo-from-turner-clip
+评论网址：https://news.ycombinator.com/item?id=46895716
+积分：1
+# 条评论：0]]></description>
+      <guid>https://archive.org/details/memo-from-turner-clip</guid>
+      <pubDate>Thu, 05 Feb 2026 04:33:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：使用克劳德代码查询和分析您的财务状况</title>
+      <link>https://github.com/theFong/mmoney-cli</link>
+      <description><![CDATA[mmoney-cli 是一个 CLI，可将 Monarch Money 转变为个人财务后端，您可以从终端查询并连接到 Claude Code 等人工智能代理。Monarch 已经完成了聚合、分类和同步的艰苦工作。 mmoney-cli 将这些数据公开为结构化原语，以便您可以针对它编写脚本或让代理对其进行推理。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46895696
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/theFong/mmoney-cli</guid>
+      <pubDate>Thu, 05 Feb 2026 04:29:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>4 小时构建：剖析开发者体验崩溃</title>
+      <link>https://fabioluciano.com/en/4-hours-build-anatomy-devex-collapse/</link>
+      <description><![CDATA[文章网址：https://fabioluciano.com/en/4-hours-build-anatomy-devex-collapse/
+评论网址：https://news.ycombinator.com/item?id=46895671
+积分：1
+# 条评论：0]]></description>
+      <guid>https://fabioluciano.com/en/4-hours-build-anatomy-devex-collapse/</guid>
+      <pubDate>Thu, 05 Feb 2026 04:26:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>施法</title>
+      <link>https://phyous.github.io/spellcasting/</link>
+      <description><![CDATA[文章网址：https://phyous.github.io/spellcasting/
+评论网址：https://news.ycombinator.com/item?id=46895655
+积分：1
+# 条评论：0]]></description>
+      <guid>https://phyous.github.io/spellcasting/</guid>
+      <pubDate>Thu, 05 Feb 2026 04:24:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw 很孤独 [视频]</title>
+      <link>https://vimeo.com/1160861583</link>
+      <description><![CDATA[文章网址：https://vimeo.com/1160861583
+评论网址：https://news.ycombinator.com/item?id=46895651
+积分：1
+# 条评论：0]]></description>
+      <guid>https://vimeo.com/1160861583</guid>
+      <pubDate>Thu, 05 Feb 2026 04:23:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Strava 为打击作弊行为从排行榜上删除了 230 万次骑行</title>
+      <link>https://www.cyclingweekly.com/news/strava-removes-2-3-million-rides-from-leaderboards-in-clampdown-on-cheats</link>
+      <description><![CDATA[文章网址：https://www.cyclingweekly.com/news/strava-removes-2-3-million-rides-from-leaderboards-in-clampdown-on-cheats
+评论网址：https://news.ycombinator.com/item?id=46895649
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.cyclingweekly.com/news/strava-removes-2-3-million-rides-from-leaderboards-in-clampdown-on-cheats</guid>
+      <pubDate>Thu, 05 Feb 2026 04:23:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>恒定 14ms 注意力：512→524K 令牌（比 FlashAttention 快 24.5 倍）</title>
+      <link>https://github.com/RegularJoe-CEO/vllm/blob/waller-operator-integration/benchmarks/attention_benchmarks/waller_mistral7b_results.md</link>
+      <description><![CDATA[文章网址： https://github.com/RegularJoe-CEO/vllm/blob/waller-operator-integration/benchmarks/attention_benchmarks/waller_mistral7b_results.md
+评论网址：https://news.ycombinator.com/item?id=46895639
+积分：1
 # 条评论：1]]></description>
-      <guid>https://www.thetimes.com/us/news-today/article/40-percent-stanford-undergraduates-claim-disabled-sw99r3k8c</guid>
-      <pubDate>Thu, 05 Feb 2026 01:21:24 GMT</pubDate>
+      <guid>https://github.com/RegularJoe-CEO/vllm/blob/waller-operator-integration/benchmarks/attention_benchmarks/waller_mistral7b_results.md</guid>
+      <pubDate>Thu, 05 Feb 2026 04:21:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>红杉需要流失</title>
+      <link>https://www.gnupg.org/blog/20250117-aheinecke-on-sequoia.html</link>
+      <description><![CDATA[文章网址：https://www.gnupg.org/blog/20250117-aheinecke-on-sequoia.html
+评论网址：https://news.ycombinator.com/item?id=46895629
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.gnupg.org/blog/20250117-aheinecke-on-sequoia.html</guid>
+      <pubDate>Thu, 05 Feb 2026 04:20:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
