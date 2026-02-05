@@ -4,107 +4,108 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 04 Feb 2026 21:34:01 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 02:04:54 GMT</lastBuildDate>
     <item>
-      <title>Show HN：交互式加州预算（作者：Claude Code）</title>
-      <link>https://california-budget.com</link>
-      <description><![CDATA[围绕加州预算和一些拟议的税收政策进行了很多讨论，因此我要求克劳德代码研究预算并将其转变为交互式仪表板。使用异步子代理，克劳德能够在多年内一次研究〜十几个预算项目，为像我这样刚开始不太熟悉的人添加许多有用的背景和图表。它仍然在前端变化方面遇到困难，但对于研究来说这可能我的吞吐量是 20-40 倍。让我知道任何有兴趣添加的其他数据或可视化！
+      <title>萨姆·奥尔特曼 (Sam Altman) 回应 Anthropic 的“广告将针对人工智能，但不会针对克劳德”广告</title>
+      <link>https://xcancel.com/sama/status/2019139174339928189</link>
+      <description><![CDATA[文章网址：https://xcancel.com/sama/status/2019139174339928189
+评论网址：https://news.ycombinator.com/item?id=46894151
+积分：30
+# 条评论：22]]></description>
+      <guid>https://xcancel.com/sama/status/2019139174339928189</guid>
+      <pubDate>Thu, 05 Feb 2026 00:50:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw 是苹果智能应有的样子</title>
+      <link>https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been</link>
+      <description><![CDATA[文章网址：https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been
+评论网址：https://news.ycombinator.com/item?id=46893970
+积分：81
+# 条评论：67]]></description>
+      <guid>https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been</guid>
+      <pubDate>Thu, 05 Feb 2026 00:28:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>正如岩石所想</title>
+      <link>https://evjang.com/2026/02/04/rocks.html</link>
+      <description><![CDATA[文章网址：https://evjang.com/2026/02/04/rocks.html
+评论网址：https://news.ycombinator.com/item?id=46893018
+积分：53
+# 条评论：41]]></description>
+      <guid>https://evjang.com/2026/02/04/rocks.html</guid>
+      <pubDate>Wed, 04 Feb 2026 22:50:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>当开发者渐行渐远时 Debian 面临的挑战</title>
+      <link>https://www.phoronix.com/news/Debian-Developers-Quiet-Away</link>
+      <description><![CDATA[文章网址：https://www.phoronix.com/news/Debian-Developers-Quiet-Away
+评论网址：https://news.ycombinator.com/item?id=46892861
+积分：39
+# 条评论：1]]></description>
+      <guid>https://www.phoronix.com/news/Debian-Developers-Quiet-Away</guid>
+      <pubDate>Wed, 04 Feb 2026 22:34:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能代码审查的现实基准</title>
+      <link>https://www.qodo.ai/blog/how-we-built-a-real-world-benchmark-for-ai-code-review/</link>
+      <description><![CDATA[文章网址：https://www.qodo.ai/blog/how-we-built-a-real-world-benchmark-for-ai-code-review/
+评论网址：https://news.ycombinator.com/item?id=46891860
+积分：37
+# 条评论：15]]></description>
+      <guid>https://www.qodo.ai/blog/how-we-built-a-real-world-benchmark-for-ai-code-review/</guid>
+      <pubDate>Wed, 04 Feb 2026 21:13:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: Morph – AI 测试 PR 的视频，嵌入 GitHub 中</title>
+      <link>https://morphllm.com/products/glance</link>
+      <description><![CDATA[我整天都在审查 PR，但我基本上已经不再阅读它们了。有人打开了一个 2000 行的 PR，我滚动，看到它主要是 AI 生成的 React 组件，留下评论，合并。我对此感到很难过，直到我意识到团队中的每个人都做同样的事情。问题是差异的格式错误。 PR 可能会改变三个按钮的行为方式。盯着绿线和红线来理解这是疯狂的。我们构建这个的核心原因是我们认为今天的产品是根据过去的假设构建的。具有相同审查系统的 100 倍代码意味着 100 倍的人类注意力。人类的注意力无法满足这种需求，因此我们构建了一些不同的东西。事实证明，人类对视频内容的参与程度高于文本。因此，我们通过强化学习训练并构建了一个代理，该代理会在您打开 PR 时监视您的预览部署，单击更改的内容，并在 PR 本身中发布视频。最困难的部分是弄清楚更改的代码实际上位于正在运行的应用程序中的位置。 diff 可能会说 Button.tsx 第 47 行已更改，但这并没有告诉您如何找到该按钮。我们遍历 React 的 Fiber 树，其中每个节点都映射回源文件，因此我们可以跟踪 DOM 元素边界框的更改。然后，我们奖励模型在其中进行展示和交互。这显然只适用于 React，因此在推广到所有语言时我们必须变得更加聪明。我们训练了一个 RL 代理来与这些组件交互。简单的奖励：将修改后的内容放入视口的积分，点击/打字的双倍积分。它所做的大约 30% 的事情很奇怪，部分表单提交，在模态中击中转义，因为真正的用户会做这些事情，而礼貌的 AI 模型不会自己测试它。这会捕获单元测试完全错过的东西：呈现某些内容但无法单击它的 z-index 错误、滚动陷阱的容器、静默失败的处理程序。现在有什么问题：功能标志、存储不同的用户状态以及任何需要未提供上下文的内容。免费尝试：https://morphllm.com/dashboard/integrations/github演示：https://www.youtube.com/watch?v=Tc66RMA0nCY
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46891290
-积分：8
-# 条评论：3]]></description>
-      <guid>https://california-budget.com</guid>
-      <pubDate>Wed, 04 Feb 2026 20:33:35 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=46891827
+积分：19
+# 条评论：10]]></description>
+      <guid>https://morphllm.com/products/glance</guid>
+      <pubDate>Wed, 04 Feb 2026 21:10:55 GMT</pubDate>
     </item>
     <item>
-      <title>技术统治2.0</title>
-      <link>https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/</link>
-      <description><![CDATA[文章网址：https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/
-评论网址：https://news.ycombinator.com/item?id=46890899
-积分：23
-# 条评论：7]]></description>
-      <guid>https://brooklynrail.org/2026/02/field-notes/technocracy-2-0/</guid>
-      <pubDate>Wed, 04 Feb 2026 20:06:00 GMT</pubDate>
+      <title>当我们深情告别时，聚焦世界概况</title>
+      <link>https://www.cia.gov/stories/story/spotlighting-the-world-factbook-as-we-bid-a-fond-farewell/</link>
+      <description><![CDATA[文章网址：https://www.cia.gov/stories/story/spotlighting-the-world-factbook-as-we-bid-a-fond-farewell/
+评论网址：https://news.ycombinator.com/item?id=46891794
+积分：88
+# 条评论：77]]></description>
+      <guid>https://www.cia.gov/stories/story/spotlighting-the-world-factbook-as-we-bid-a-fond-farewell/</guid>
+      <pubDate>Wed, 04 Feb 2026 21:08:35 GMT</pubDate>
     </item>
     <item>
-      <title>教授们受到监视：“我们从未见过如此多的监视”</title>
-      <link>https://www.nytimes.com/2026/02/04/us/professors-classroom-surveillance-politics.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2026/02/04/us/professors-classroom-surveillance-politics.html
-评论网址：https://news.ycombinator.com/item?id=46890487
-积分：13
-# 条评论：3]]></description>
-      <guid>https://www.nytimes.com/2026/02/04/us/professors-classroom-surveillance-politics.html</guid>
-      <pubDate>Wed, 04 Feb 2026 19:31:27 GMT</pubDate>
+      <title>Codex 应用程序说明了 IDE 和编码 GUI 的左移</title>
+      <link>https://www.benshoemaker.us/writing/codex-app-launch/</link>
+      <description><![CDATA[文章网址：https://www.benshoemaker.us/writing/codex-app-launch/
+评论网址：https://news.ycombinator.com/item?id=46891131
+积分：63
+# 条评论：133]]></description>
+      <guid>https://www.benshoemaker.us/writing/codex-app-launch/</guid>
+      <pubDate>Wed, 04 Feb 2026 20:23:54 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN: EpsteIn – 在 Epstein 文件中搜索您的 LinkedIn 联系人</title>
-      <link>https://github.com/cfinke/EpsteIn</link>
-      <description><![CDATA[文章网址：https://github.com/cfinke/EpsteIn
-评论网址：https://news.ycombinator.com/item?id=46890401
-积分：34
-# 条评论：8]]></description>
-      <guid>https://github.com/cfinke/EpsteIn</guid>
-      <pubDate>Wed, 04 Feb 2026 19:24:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>将任何网站变成实时的结构化数据源</title>
-      <link>https://www.meter.sh/</link>
-      <description><![CDATA[文章网址：https://www.meter.sh/
-评论网址：https://news.ycombinator.com/item?id=46890261
-积分：7
-# 条评论：3]]></description>
-      <guid>https://www.meter.sh/</guid>
-      <pubDate>Wed, 04 Feb 2026 19:12:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>杰夫·贝索斯如何打垮《华盛顿邮报》</title>
-      <link>https://www.newyorker.com/news/annals-of-communications/how-jeff-bezos-brought-down-the-washington-post</link>
-      <description><![CDATA[文章网址：https://www.newyorker.com/news/annals-of-communications/how-jeff-bezos-brought-down-the-washington-post
-评论网址：https://news.ycombinator.com/item?id=46890034
-积分：172
-# 条评论：154]]></description>
-      <guid>https://www.newyorker.com/news/annals-of-communications/how-jeff-bezos-brought-down-the-washington-post</guid>
-      <pubDate>Wed, 04 Feb 2026 18:56:46 GMT</pubDate>
+      <title>告诉 HN：又一轮 Zendesk 垃圾邮件</title>
+      <link>https://news.ycombinator.com/item?id=46890418</link>
+      <description><![CDATA[看起来又一轮 Zendesk 垃圾邮件正在发生。在过去的半小时内我已经收到了数百个。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46890418
+积分：76
+# 条评论：30]]></description>
+      <guid>https://news.ycombinator.com/item?id=46890418</guid>
+      <pubDate>Wed, 04 Feb 2026 19:26:08 GMT</pubDate>
     </item>
     <item>
       <title>基础设施领域的克劳德·代码</title>
       <link>https://www.fluid.sh/</link>
       <description><![CDATA[文章网址：https://www.fluid.sh/
 评论网址：https://news.ycombinator.com/item?id=46889703
-积分：66
-# 条评论：53]]></description>
+积分：141
+评论数：126]]></description>
       <guid>https://www.fluid.sh/</guid>
       <pubDate>Wed, 04 Feb 2026 18:34:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>从头开始构建 24 位街机 CRT 显示适配器</title>
-      <link>https://www.scd31.com/posts/building-an-arcade-display-adapter</link>
-      <description><![CDATA[文章网址：https://www.scd31.com/posts/building-an-arcade-display-adapter
-评论网址：https://news.ycombinator.com/item?id=46888795
-积分：76
-# 条评论：19]]></description>
-      <guid>https://www.scd31.com/posts/building-an-arcade-display-adapter</guid>
-      <pubDate>Wed, 04 Feb 2026 17:35:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究：社交媒体的情感支持可以减少焦虑</title>
-      <link>https://news.uark.edu/articles/80669/emotional-support-from-social-media-found-to-reduce-anxiety</link>
-      <description><![CDATA[文章网址：https://news.uark.edu/articles/80669/emotional-support-from-social-media-found-to-reduce-anxiety
-评论网址：https://news.ycombinator.com/item?id=46888532
-积分：58
-# 条评论：59]]></description>
-      <guid>https://news.uark.edu/articles/80669/emotional-support-from-social-media-found-to-reduce-anxiety</guid>
-      <pubDate>Wed, 04 Feb 2026 17:16:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能正在扼杀 B2B SaaS</title>
-      <link>https://nmn.gl/blog/ai-killing-b2b-saas</link>
-      <description><![CDATA[文章网址：https://nmn.gl/blog/ai-killing-b2b-saas
-评论网址：https://news.ycombinator.com/item?id=46888441
-积分：88
-# 条评论：133]]></description>
-      <guid>https://nmn.gl/blog/ai-killing-b2b-saas</guid>
-      <pubDate>Wed, 04 Feb 2026 17:09:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
