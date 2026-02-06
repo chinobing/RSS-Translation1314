@@ -4,14 +4,86 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 05 Feb 2026 21:31:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 02:05:32 GMT</lastBuildDate>
+    <item>
+      <title>C 不是一种语言</title>
+      <link>https://faultlore.com/blah/c-isnt-a-language/</link>
+      <description><![CDATA[文章网址：https://faultlore.com/blah/c-isnt-a-language/
+评论网址：https://news.ycombinator.com/item?id=46907350
+积分：10
+# 条评论：10]]></description>
+      <guid>https://faultlore.com/blah/c-isnt-a-language/</guid>
+      <pubDate>Fri, 06 Feb 2026 00:15:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：RTX 3080 上的本地任务分类器和调度程序</title>
+      <link>https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</link>
+      <description><![CDATA[嗨，HN，我是 shubham，一位 3D 艺术家，在大学期间作为 I.T 学习了编码。  毕业生知道逻辑，但不是专家，因为我只是想尝试一下人工智能所以我构建了弹性工作流哨兵，这是离线人工智能代理，它对紧急程度（低、中和高）进行分类，并根据可用性调度给候选人 
+好吧，我想要一个离线系统，就像一个人可以信任的敏感数据完全保留在本地是否使用人工智能进行编码来加速和减少劳动力。它适用于 RTX 3080 系统（这是一个基本的经济实惠的设置，而不是重型人工智能机器），我希望它能够使其可靠而无需大量升级
+这是完整的系统，不需要 ollama（我不反对）我看到公司中的票证是在 jira 和 slack 上提出的。目前，人们或经理（自己）必须对这些内容进行排序，要么手动一一阅读，要么将它们发送到云端。但问题是，您无法发送所有内容，因为那里有很多他们不信任的敏感数据，这使得事情变得更加困难，而且手动对数千个数据进行排序可能是一场噩梦。但想象一下，您对所有任务进行了分类，例如其紧急程度和分布，您可以有选择地查看哪个任务是紧急的，需要立即关注，最后所有信息并不能让您的建筑物完全安全
+此外，Api 发送并不是唯一的问题，您为每个任务支付的每个代币成本可能是每月 100 美元到 1000 美元，这可以为初创公司或公司节省很多麻烦存在一些偏差，例如位置偏差和 json 输出偏差也有需要注意的问题 
+一开始，我尝试只是提示诸如思想链、RISE（首先评估负面例子）之类的东西，给出负面例子，正面例子，在某个地方它正在与常识性问题作斗争，所以为此提供了例子（后来改变了方法）提示确实给出了输出并且效果很好，但花了太多时间来处理单个任务，例如任务的 70 到 90 秒然后我尝试了批处理，偏差变得最糟糕，就像它变得更强一样，它总是习惯更喜欢爱丽丝提示就像被忽略等等对于 json 输出，我使用了约束，因此模型只能生成 json，如果失败，我在仅实现提示时使用了一个解析器这将每个任务的时间从 90 秒减少到近 15 到 30 秒
+我使用转向矢量来纠正我看到的问题发生的注意力堆栈：
+语言：Python 3.10
+型号：qwen2.5-7b-instruct
+库：Pytorch、Hugging Face Transformers（没有 Langchain、没有 Ollama）
+API：快速API
+用户界面：NiceGUI
+硬件：Ryzen 5、16Gb ram RTX 3080实现：量化：在 nf4 量化中加载模型，因此像 7b 这样的模型可以适合 10GB 的 vram（RTX 3080 上也是我的硬件）转向向量：标准提示还不够。我需要阻止或指导 llm 的某一层上的某些内容以使其可靠。Json 约束：使用约束使模型严格给出 json，并停止过度解释，这种情况发生在 logits 级别，其中不需要的令牌被阻止等github : https://github.com/resilientworkflowsentinel/resilient-workf...Youtube：https://youtu.be/tky3eURLzWo
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46906967
+积分：4
+# 条评论：0]]></description>
+      <guid>https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</guid>
+      <pubDate>Thu, 05 Feb 2026 23:31:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD 无法修复的 RCE</title>
+      <link>https://mrbruh.com/amd/</link>
+      <description><![CDATA[文章网址：https://mrbruh.com/amd/
+评论网址：https://news.ycombinator.com/item?id=46906947
+积分：34
+# 条评论：6]]></description>
+      <guid>https://mrbruh.com/amd/</guid>
+      <pubDate>Thu, 05 Feb 2026 23:29:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jane Street 博客 – 如果编写测试是一种快乐的体验怎么办？</title>
+      <link>https://blog.janestreet.com/the-joy-of-expect-tests/</link>
+      <description><![CDATA[文章网址：https://blog.janestreet.com/the-joy-of-expect-tests/
+评论网址：https://news.ycombinator.com/item?id=46905896
+积分：27
+# 条评论：6]]></description>
+      <guid>https://blog.janestreet.com/the-joy-of-expect-tests/</guid>
+      <pubDate>Thu, 05 Feb 2026 21:51:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>艾萨克·阿西莫夫对 1984 年的回顾 (1980)</title>
+      <link>https://www.newworker.org/ncptrory/1984.htm</link>
+      <description><![CDATA[文章网址：https://www.newworker.org/ncptrory/1984.htm
+评论网址：https://news.ycombinator.com/item?id=46905761
+积分：80
+# 条评论：32]]></description>
+      <guid>https://www.newworker.org/ncptrory/1984.htm</guid>
+      <pubDate>Thu, 05 Feb 2026 21:39:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>现在是 2026 年，只需使用 Postgres</title>
+      <link>https://www.tigerdata.com/blog/its-2026-just-use-postgres</link>
+      <description><![CDATA[文章网址：https://www.tigerdata.com/blog/its-2026-just-use-postgres
+评论网址：https://news.ycombinator.com/item?id=46905555
+积分：355
+# 条评论：200]]></description>
+      <guid>https://www.tigerdata.com/blog/its-2026-just-use-postgres</guid>
+      <pubDate>Thu, 05 Feb 2026 21:24:03 GMT</pubDate>
+    </item>
     <item>
       <title>Claude Opus 4.6 额外使用促销</title>
       <link>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</link>
       <description><![CDATA[文章网址：https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo
 评论网址：https://news.ycombinator.com/item?id=46904569
-积分：3
-# 条评论：0]]></description>
+积分：100
+# 条评论：26]]></description>
       <guid>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</guid>
       <pubDate>Thu, 05 Feb 2026 20:15:48 GMT</pubDate>
     </item>
@@ -20,28 +92,18 @@
       <link>https://github.com/mdp/linkedin-extension-fingerprinting</link>
       <description><![CDATA[文章网址：https://github.com/mdp/linkedin-extension-fingerprinting
 评论网址：https://news.ycombinator.com/item?id=46904361
-积分：118
-# 条评论：60]]></description>
+积分：277
+# 条评论：137]]></description>
       <guid>https://github.com/mdp/linkedin-extension-fingerprinting</guid>
       <pubDate>Thu, 05 Feb 2026 20:00:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>我没有见到杰弗里·爱泼斯坦的那段时间</title>
-      <link>https://scottaaronson.blog/?p=9534</link>
-      <description><![CDATA[文章网址：https://scottaaronson.blog/?p=9534
-评论网址：https://news.ycombinator.com/item?id=46903929
-积分：59
-# 条评论：39]]></description>
-      <guid>https://scottaaronson.blog/?p=9534</guid>
-      <pubDate>Thu, 05 Feb 2026 19:29:41 GMT</pubDate>
     </item>
     <item>
       <title>我们委托 Opus 4.6 使用代理团队构建 C 编译器</title>
       <link>https://www.anthropic.com/engineering/building-c-compiler</link>
       <description><![CDATA[文章网址：https://www.anthropic.com/engineering/building-c-compiler
 评论网址：https://news.ycombinator.com/item?id=46903616
-积分：155
-# 条评论：128]]></description>
+积分：366
+# 条评论：342]]></description>
       <guid>https://www.anthropic.com/engineering/building-c-compiler</guid>
       <pubDate>Thu, 05 Feb 2026 19:07:51 GMT</pubDate>
     </item>
@@ -50,60 +112,10 @@
       <link>https://mitchellh.com/writing/my-ai-adoption-journey</link>
       <description><![CDATA[文章网址：https://mitchellh.com/writing/my-ai-adoption-journey
 评论网址：https://news.ycombinator.com/item?id=46903558
-积分：94
-# 条评论：27]]></description>
+积分：314
+评论数：80]]></description>
       <guid>https://mitchellh.com/writing/my-ai-adoption-journey</guid>
       <pubDate>Thu, 05 Feb 2026 19:04:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Flock 首席执行官称 Delock 为“恐怖组织”[视频]（2025）</title>
-      <link>https://www.youtube.com/watch?v=l-kZGrDz7PU</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=l-kZGrDz7PU
-评论网址：https://news.ycombinator.com/item?id=46903556
-积分：218
-# 条评论：131]]></description>
-      <guid>https://www.youtube.com/watch?v=l-kZGrDz7PU</guid>
-      <pubDate>Thu, 05 Feb 2026 19:04:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ardour 9.0发布</title>
-      <link>https://ardour.org/whatsnew.html</link>
-      <description><![CDATA[文章网址：https://ardour.org/whatsnew.html
-评论网址：https://news.ycombinator.com/item?id=46903001
-积分：152
-# 条评论：25]]></description>
-      <guid>https://ardour.org/whatsnew.html</guid>
-      <pubDate>Thu, 05 Feb 2026 18:30:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>Opus 4.6 发现开源代码中的 500 个零日缺陷</title>
-      <link>https://www.axios.com/2026/02/05/anthropic-claude-opus-46-software-hunting</link>
-      <description><![CDATA[文章网址：https://www.axios.com/2026/02/05/anthropic-claude-opus-46-software-hunting
-评论网址：https://news.ycombinator.com/item?id=46902909
-积分：129
-# 条评论：73]]></description>
-      <guid>https://www.axios.com/2026/02/05/anthropic-claude-opus-46-software-hunting</guid>
-      <pubDate>Thu, 05 Feb 2026 18:25:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>心理测量越狱揭示前沿模型中的内部冲突</title>
-      <link>https://arxiv.org/abs/2512.04124</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2512.04124
-评论网址：https://news.ycombinator.com/item?id=46902855
-积分：31
-# 条评论：27]]></description>
-      <guid>https://arxiv.org/abs/2512.04124</guid>
-      <pubDate>Thu, 05 Feb 2026 18:21:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个由构建者为构建者提供的小型共享技能库。 （人和代理人）</title>
-      <link>https://github.com/PsiACE/skills</link>
-      <description><![CDATA[文章网址：https://github.com/PsiACE/skills
-评论网址：https://news.ycombinator.com/item?id=46902789
-积分：33
-# 条评论：3]]></description>
-      <guid>https://github.com/PsiACE/skills</guid>
-      <pubDate>Thu, 05 Feb 2026 18:17:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
