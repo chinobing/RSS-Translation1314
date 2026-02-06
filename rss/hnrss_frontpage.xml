@@ -4,34 +4,80 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 06 Feb 2026 04:47:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 06:55:46 GMT</lastBuildDate>
+    <item>
+      <title>Unix 可以原子地做的事情 (2010)</title>
+      <link>https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</link>
+      <description><![CDATA[文章网址：https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html
+评论网址：https://news.ycombinator.com/item?id=46909468
+积分：32
+# 条评论：6]]></description>
+      <guid>https://rcrowley.org/2010/01/06/things-unix-can-do-atomically.html</guid>
+      <pubDate>Fri, 06 Feb 2026 05:29:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>系统思维</title>
+      <link>http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</link>
+      <description><![CDATA[文章网址：http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html
+评论网址：https://news.ycombinator.com/item?id=46909439
+积分：33
+# 条评论：12]]></description>
+      <guid>http://theprogrammersparadox.blogspot.com/2026/02/systems-thinking.html</guid>
+      <pubDate>Fri, 06 Feb 2026 05:24:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>生成笔训练变压器</title>
+      <link>https://theodore.net/projects/Polargraph/</link>
+      <description><![CDATA[文章网址：https://theodore.net/projects/Polargraph/
+评论网址：https://news.ycombinator.com/item?id=46909122
+积分：5
+# 条评论：0]]></description>
+      <guid>https://theodore.net/projects/Polargraph/</guid>
+      <pubDate>Fri, 06 Feb 2026 04:28:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Artifact Keeper – Rust 中的开源 Artifactory/Nexus 替代方案</title>
+      <link>https://github.com/artifact-keeper</link>
+      <description><![CDATA[我是一名软件工程师，无论我如何努力摆脱 DevOps，我都会不断地陷入其中。我最近转而担任首席 DevOps 工程师，编写工具以自动化方式消除很多痛苦。在工作之余，我构建了 Artifact Keeper——一个支持 45 多种包格式的自托管工件注册表。安全扫描、SSO、复制、WASM 插件 - 全部包含在 MIT 许可的版本中。无企业级。没有功能门。没有意外的发票。你的包管理器——pip、npm、docker、cargo、helm、go，所有这些——使用它们的本机协议直接与它对话。内置使用 Trivy、Grype 和 OpenSCAP 进行安全扫描，并具有一个策略引擎，可以在不良工件到达您的构建之前对其进行隔离。如果您需要一种它尚不支持的格式，可以使用 WASM 插件系统，这样您就可以添加自己的插件系统，而无需分叉后端。我构建它的原因：首先吸引我进入计算机的部分原因是开源。我在新奥尔良长大，家里很穷，在 2000 年代初，我能接触到的唯一硬件是我父亲在工作中把它们扔掉后带回家的一些康柏奔腾 II。我在它们上安装了 Linux，它在低端硬件上运行 Windows 2000 和 Millennium。这段经历告诉我，最好的软件是开放给每个人查看、使用，并且实际上可以在您拥有的任何设备上运行良好的软件。快进到今天，我到处都看到同样的模式：GitLab、JFrog、Harbor 和其他公司发布有限的“社区”版本，然后将团队实际需要的功能隐藏在某些付费专区后面。我明白了——薪水必须来自某个地方。但我想证明功能齐全的工件注册表可以作为真正的开源软件存在。每个功能。无一例外。具体功能来自真正的痛点。 Artifactory 的搜索速度慢得令人痛苦——这就是我集成 Meil​​isearch 的原因。不需要单独的企业许可证的安全扫描是另一大问题。我想要不需要中央协调器的复制 - 因此我构建了一个对等网格，其中任何节点都可以复制到任何其他节点。我还没有在工作中部署它——现在我正在家里为我的个人项目运行它——但我很乐意看到它进行大规模测试，这也是我在这里分享它的一个重要原因。人工智能的故事（我会诚实地讲这一点）：我使用 Claude Code 在大约三周内构建了这个。我知道你们很多人会说这可能是振动编码垃圾——但如果是这样的话，这就是一堆令人印象深刻的振动编码垃圾。去看看代码库。后端是 ~80% Rust，有 429 个单元测试、33 个 PostgreSQL 迁移、分层架构以及带有 E2E 测试、压力测试和故障注入的完整 CI/CD 管道。AI 没有为我做出设计决策。我仍然需要设计 WASM 插件系统，弄清楚扫描引擎如何相互补充，并构建网格复制。多年的领域知识推动了设计——人工智能让我更快地构建它。我对这些工具为像我这样的修补匠和安全迷所做的事情感到惊讶。技术堆栈：Axum 上的 Rust、PostgreSQL 16、Meilisearch、Trivy + Grype + OpenSCAP、Wasmtime WASM 插件（可热重载）、带分块传输的网格复制。前端是 Next.js 15 加上原生 Swift (iOS/macOS) 和 Kotlin (Android) 应用程序。 OpenAPI 3.1 规范，带有自动生成的 TypeScript 和 Rust SDK。尝试一下： git clone https://github.com/artifact-keeper/artifact-keeper.git
+  CD神器守护者
+  docker 组成-d
+
+然后访问http://localhost:30080现场演示：https://demo.artifactkeeper.com
+文档：https://artifactkeeper.com/docs/我希望收到任何反馈 - 您对这种方法的看法、您希望看到的内容、您对 Artifactory 或 Nexus 的讨厌之处以及希望有人能够修复的地方。它不一定是公关。提出问题、开始讨论，或者直接在这里告诉我。https://github.com/artifact-keeper
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46909037
+积分：12
+# 条评论：2]]></description>
+      <guid>https://github.com/artifact-keeper</guid>
+      <pubDate>Fri, 06 Feb 2026 04:12:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>等待 Postgres 19：更好的规划器提示路径生成策略 [视频]</title>
+      <link>https://www.youtube.com/watch?v=QLb3nhIy2Lc</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=QLb3nhIy2Lc
+评论网址：https://news.ycombinator.com/item?id=46908700
+积分：15
+# 条评论：1]]></description>
+      <guid>https://www.youtube.com/watch?v=QLb3nhIy2Lc</guid>
+      <pubDate>Fri, 06 Feb 2026 03:25:51 GMT</pubDate>
+    </item>
     <item>
       <title>我逆转了《幻想之塔》的反作弊驱动程序：从未加载过 BYOVD 工具包</title>
       <link>https://vespalec.com/blog/tower-of-flaws/</link>
       <description><![CDATA[文章网址：https://vespalec.com/blog/tower-of-flaws/
 评论网址：https://news.ycombinator.com/item?id=46908671
-积分：18
-# 条评论：2]]></description>
+积分：40
+# 条评论：12]]></description>
       <guid>https://vespalec.com/blog/tower-of-flaws/</guid>
       <pubDate>Fri, 06 Feb 2026 03:22:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>控制加州的 9.21 亿美元特殊利益机器</title>
-      <link>https://garryslist.org/posts/the-921m-special-interest-machine-that-controls-california</link>
-      <description><![CDATA[文章网址：https://garryslist.org/posts/the-921m-special-interest-machine-that-controls-california
-评论网址：https://news.ycombinator.com/item?id=46908531
-积分：6
-# 条评论：2]]></description>
-      <guid>https://garryslist.org/posts/the-921m-special-interest-machine-that-controls-california</guid>
-      <pubDate>Fri, 06 Feb 2026 03:03:34 GMT</pubDate>
     </item>
     <item>
       <title>GitHub Actions 正在慢慢杀死工程团队</title>
       <link>https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</link>
       <description><![CDATA[文章网址：https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/
 评论网址：https://news.ycombinator.com/item?id=46908491
-积分：49
-# 条评论：13]]></description>
+积分：154
+# 条评论：67]]></description>
       <guid>https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</guid>
       <pubDate>Fri, 06 Feb 2026 02:58:31 GMT</pubDate>
     </item>
@@ -40,8 +86,8 @@
       <link>https://faultlore.com/blah/c-isnt-a-language/</link>
       <description><![CDATA[文章网址：https://faultlore.com/blah/c-isnt-a-language/
 评论网址：https://news.ycombinator.com/item?id=46907350
-积分：45
-# 条评论：49]]></description>
+积分：64
+# 条评论：72]]></description>
       <guid>https://faultlore.com/blah/c-isnt-a-language/</guid>
       <pubDate>Fri, 06 Feb 2026 00:15:55 GMT</pubDate>
     </item>
@@ -62,7 +108,7 @@ API：快速API
 硬件：Ryzen 5、16Gb ram RTX 3080实现：量化：在 nf4 量化中加载模型，因此像 7b 这样的模型可以适合 10GB 的 vram（RTX 3080 上也是我的硬件）转向向量：标准提示还不够。我需要阻止或指导 llm 的某一层上的某些内容以使其可靠。Json 约束：使用约束使模型严格给出 json，并停止过度解释，这种情况发生在 logits 级别，其中不需要的令牌被阻止等github : https://github.com/resilientworkflowsentinel/resilient-workf...Youtube：https://youtu.be/tky3eURLzWo
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46906967
-积分：10
+积分：16
 # 条评论：0]]></description>
       <guid>https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</guid>
       <pubDate>Thu, 05 Feb 2026 23:31:01 GMT</pubDate>
@@ -72,51 +118,10 @@ API：快速API
       <link>https://mrbruh.com/amd/</link>
       <description><![CDATA[文章网址：https://mrbruh.com/amd/
 评论网址：https://news.ycombinator.com/item?id=46906947
-积分：97
-# 条评论：48]]></description>
+积分：140
+# 条评论：59]]></description>
       <guid>https://mrbruh.com/amd/</guid>
       <pubDate>Thu, 05 Feb 2026 23:29:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Calfkit – 用于在 Kafka 上构建分布式、事件驱动的 AI 代理的 SDK</title>
-      <link>https://github.com/calf-ai/calfkit-sdk</link>
-      <description><![CDATA[我认为代理应该像真正的团队一样工作，具有独立、独特的角色、异步通信，并且能够在不重组整个组织的情况下引入新的队友或工具。我在雅虎和 TikTok 构建了后端系统，因此事件驱动代理感觉很明显。但没有代理 SDK 使用这种模式，所以我制作了 Calfkit。Calfkit 将代理分解为通过 Kafka 异步通信的独立服务（LLM 推理、工具和路由）。代理、工具服务和下游消费者可以独立部署、添加、删除和扩展。如果您对此感兴趣，请检查一下！我很想知道你们的想法。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46906737
-积分：6
-# 条评论：0]]></description>
-      <guid>https://github.com/calf-ai/calfkit-sdk</guid>
-      <pubDate>Thu, 05 Feb 2026 23:10:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果编写测试是一种快乐的经历怎么办？ (2023)</title>
-      <link>https://blog.janestreet.com/the-joy-of-expect-tests/</link>
-      <description><![CDATA[文章网址：https://blog.janestreet.com/the-joy-of-expect-tests/
-评论网址：https://news.ycombinator.com/item?id=46905896
-积分：47
-# 条评论：15]]></description>
-      <guid>https://blog.janestreet.com/the-joy-of-expect-tests/</guid>
-      <pubDate>Thu, 05 Feb 2026 21:51:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>艾萨克·阿西莫夫对 1984 年的回顾 (1980)</title>
-      <link>https://www.newworker.org/ncptrory/1984.htm</link>
-      <description><![CDATA[文章网址：https://www.newworker.org/ncptrory/1984.htm
-评论网址：https://news.ycombinator.com/item?id=46905761
-积分：116
-# 条评论：49]]></description>
-      <guid>https://www.newworker.org/ncptrory/1984.htm</guid>
-      <pubDate>Thu, 05 Feb 2026 21:39:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude Opus 4.6 额外使用促销</title>
-      <link>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</link>
-      <description><![CDATA[文章网址：https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo
-评论网址：https://news.ycombinator.com/item?id=46904569
-积分：134
-# 条评论：39]]></description>
-      <guid>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</guid>
-      <pubDate>Thu, 05 Feb 2026 20:15:48 GMT</pubDate>
     </item>
     </channel>
 </rss>
