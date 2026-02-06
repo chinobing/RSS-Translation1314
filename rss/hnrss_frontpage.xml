@@ -4,14 +4,44 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 06 Feb 2026 02:05:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 04:47:20 GMT</lastBuildDate>
     <item>
-      <title>C 不是一种语言</title>
+      <title>我逆转了《幻想之塔》的反作弊驱动程序：从未加载过 BYOVD 工具包</title>
+      <link>https://vespalec.com/blog/tower-of-flaws/</link>
+      <description><![CDATA[文章网址：https://vespalec.com/blog/tower-of-flaws/
+评论网址：https://news.ycombinator.com/item?id=46908671
+积分：18
+# 条评论：2]]></description>
+      <guid>https://vespalec.com/blog/tower-of-flaws/</guid>
+      <pubDate>Fri, 06 Feb 2026 03:22:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>控制加州的 9.21 亿美元特殊利益机器</title>
+      <link>https://garryslist.org/posts/the-921m-special-interest-machine-that-controls-california</link>
+      <description><![CDATA[文章网址：https://garryslist.org/posts/the-921m-special-interest-machine-that-controls-california
+评论网址：https://news.ycombinator.com/item?id=46908531
+积分：6
+# 条评论：2]]></description>
+      <guid>https://garryslist.org/posts/the-921m-special-interest-machine-that-controls-california</guid>
+      <pubDate>Fri, 06 Feb 2026 03:03:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHub Actions 正在慢慢杀死工程团队</title>
+      <link>https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</link>
+      <description><![CDATA[文章网址：https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/
+评论网址：https://news.ycombinator.com/item?id=46908491
+积分：49
+# 条评论：13]]></description>
+      <guid>https://www.iankduncan.com/engineering/2026-02-05-github-actions-killing-your-team/</guid>
+      <pubDate>Fri, 06 Feb 2026 02:58:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>C 不再是一种编程语言 (2022)</title>
       <link>https://faultlore.com/blah/c-isnt-a-language/</link>
       <description><![CDATA[文章网址：https://faultlore.com/blah/c-isnt-a-language/
 评论网址：https://news.ycombinator.com/item?id=46907350
-积分：10
-# 条评论：10]]></description>
+积分：45
+# 条评论：49]]></description>
       <guid>https://faultlore.com/blah/c-isnt-a-language/</guid>
       <pubDate>Fri, 06 Feb 2026 00:15:55 GMT</pubDate>
     </item>
@@ -32,7 +62,7 @@ API：快速API
 硬件：Ryzen 5、16Gb ram RTX 3080实现：量化：在 nf4 量化中加载模型，因此像 7b 这样的模型可以适合 10GB 的 vram（RTX 3080 上也是我的硬件）转向向量：标准提示还不够。我需要阻止或指导 llm 的某一层上的某些内容以使其可靠。Json 约束：使用约束使模型严格给出 json，并停止过度解释，这种情况发生在 logits 级别，其中不需要的令牌被阻止等github : https://github.com/resilientworkflowsentinel/resilient-workf...Youtube：https://youtu.be/tky3eURLzWo
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46906967
-积分：4
+积分：10
 # 条评论：0]]></description>
       <guid>https://github.com/resilientworkflowsentinel/resilient-workflow-sentinel</guid>
       <pubDate>Thu, 05 Feb 2026 23:31:01 GMT</pubDate>
@@ -42,18 +72,29 @@ API：快速API
       <link>https://mrbruh.com/amd/</link>
       <description><![CDATA[文章网址：https://mrbruh.com/amd/
 评论网址：https://news.ycombinator.com/item?id=46906947
-积分：34
-# 条评论：6]]></description>
+积分：97
+# 条评论：48]]></description>
       <guid>https://mrbruh.com/amd/</guid>
       <pubDate>Thu, 05 Feb 2026 23:29:18 GMT</pubDate>
     </item>
     <item>
-      <title>Jane Street 博客 – 如果编写测试是一种快乐的体验怎么办？</title>
+      <title>Show HN：Calfkit – 用于在 Kafka 上构建分布式、事件驱动的 AI 代理的 SDK</title>
+      <link>https://github.com/calf-ai/calfkit-sdk</link>
+      <description><![CDATA[我认为代理应该像真正的团队一样工作，具有独立、独特的角色、异步通信，并且能够在不重组整个组织的情况下引入新的队友或工具。我在雅虎和 TikTok 构建了后端系统，因此事件驱动代理感觉很明显。但没有代理 SDK 使用这种模式，所以我制作了 Calfkit。Calfkit 将代理分解为通过 Kafka 异步通信的独立服务（LLM 推理、工具和路由）。代理、工具服务和下游消费者可以独立部署、添加、删除和扩展。如果您对此感兴趣，请检查一下！我很想知道你们的想法。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46906737
+积分：6
+# 条评论：0]]></description>
+      <guid>https://github.com/calf-ai/calfkit-sdk</guid>
+      <pubDate>Thu, 05 Feb 2026 23:10:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果编写测试是一种快乐的经历怎么办？ (2023)</title>
       <link>https://blog.janestreet.com/the-joy-of-expect-tests/</link>
       <description><![CDATA[文章网址：https://blog.janestreet.com/the-joy-of-expect-tests/
 评论网址：https://news.ycombinator.com/item?id=46905896
-积分：27
-# 条评论：6]]></description>
+积分：47
+# 条评论：15]]></description>
       <guid>https://blog.janestreet.com/the-joy-of-expect-tests/</guid>
       <pubDate>Thu, 05 Feb 2026 21:51:51 GMT</pubDate>
     </item>
@@ -62,60 +103,20 @@ API：快速API
       <link>https://www.newworker.org/ncptrory/1984.htm</link>
       <description><![CDATA[文章网址：https://www.newworker.org/ncptrory/1984.htm
 评论网址：https://news.ycombinator.com/item?id=46905761
-积分：80
-# 条评论：32]]></description>
+积分：116
+# 条评论：49]]></description>
       <guid>https://www.newworker.org/ncptrory/1984.htm</guid>
       <pubDate>Thu, 05 Feb 2026 21:39:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>现在是 2026 年，只需使用 Postgres</title>
-      <link>https://www.tigerdata.com/blog/its-2026-just-use-postgres</link>
-      <description><![CDATA[文章网址：https://www.tigerdata.com/blog/its-2026-just-use-postgres
-评论网址：https://news.ycombinator.com/item?id=46905555
-积分：355
-# 条评论：200]]></description>
-      <guid>https://www.tigerdata.com/blog/its-2026-just-use-postgres</guid>
-      <pubDate>Thu, 05 Feb 2026 21:24:03 GMT</pubDate>
     </item>
     <item>
       <title>Claude Opus 4.6 额外使用促销</title>
       <link>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</link>
       <description><![CDATA[文章网址：https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo
 评论网址：https://news.ycombinator.com/item?id=46904569
-积分：100
-# 条评论：26]]></description>
+积分：134
+# 条评论：39]]></description>
       <guid>https://support.claude.com/en/articles/13613973-claude-opus-4-6-extra-usage-promo</guid>
       <pubDate>Thu, 05 Feb 2026 20:15:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>LinkedIn 检查 2953 个浏览器扩展</title>
-      <link>https://github.com/mdp/linkedin-extension-fingerprinting</link>
-      <description><![CDATA[文章网址：https://github.com/mdp/linkedin-extension-fingerprinting
-评论网址：https://news.ycombinator.com/item?id=46904361
-积分：277
-# 条评论：137]]></description>
-      <guid>https://github.com/mdp/linkedin-extension-fingerprinting</guid>
-      <pubDate>Thu, 05 Feb 2026 20:00:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们委托 Opus 4.6 使用代理团队构建 C 编译器</title>
-      <link>https://www.anthropic.com/engineering/building-c-compiler</link>
-      <description><![CDATA[文章网址：https://www.anthropic.com/engineering/building-c-compiler
-评论网址：https://news.ycombinator.com/item?id=46903616
-积分：366
-# 条评论：342]]></description>
-      <guid>https://www.anthropic.com/engineering/building-c-compiler</guid>
-      <pubDate>Thu, 05 Feb 2026 19:07:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的人工智能采用之旅</title>
-      <link>https://mitchellh.com/writing/my-ai-adoption-journey</link>
-      <description><![CDATA[文章网址：https://mitchellh.com/writing/my-ai-adoption-journey
-评论网址：https://news.ycombinator.com/item?id=46903558
-积分：314
-评论数：80]]></description>
-      <guid>https://mitchellh.com/writing/my-ai-adoption-journey</guid>
-      <pubDate>Thu, 05 Feb 2026 19:04:40 GMT</pubDate>
     </item>
     </channel>
 </rss>
