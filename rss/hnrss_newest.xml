@@ -4,132 +4,110 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 07 Feb 2026 06:42:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 09:32:22 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Mermaid Formatter – 用于自动格式化 Mermaid 图的 CLI 和库</title>
-      <link>https://github.com/chenyanchen/mermaid-formatter</link>
-      <description><![CDATA[我为 Mermaid 图语法构建了一个零依赖格式化程序。它规范了所有图表类型的缩进、空白和箭头间距。功能：
-- CLI 工具 (mermaidfmt) 具有标准输入/文件/就地支持
-- 用于集成的编程 API（例如，在 Markdown 中格式化 Mermaid 块）
-- 嵌套块缩进（alt/loop/par/subgraph轨道深度）
-- 上下文感知解析（否则仅在 alt 内部，并且仅在 par 内部）
-- 箭头标准化：A-&gt;&gt;B:msg → A -&gt;&gt; B: msgnpm install -g mermaid-formatter
+      <title>LLM很强大，但企业本质上是确定性的</title>
+      <link>https://news.ycombinator.com/item?id=46922527</link>
+      <description><![CDATA[去年，我们一直在企业系统内尝试法学硕士。不断出现的问题是根本性的不匹配：
+LLM 具有概率性和非确定性，而企业则建立在可预测性、可审计性和问责制的基础上。当前大多数方法都试图通过提示、重试或启发式方法来“驯服”LLM。这适用于演示，但当您需要可解释性、策略执行或事件后责任时，就会开始崩溃。我们发现，将 LLM 视为建议引擎而不是决策者会完全改变架构。
+实际执行需要位于确定性控制层中，该控制层可以执行规则、记录决策并安全地失败。很好奇这里的其他人如何处理概率性人工智能和确定性企业系统之间的差距。
+您在生产中是否遇到类似问题？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46921778
+评论网址：https://news.ycombinator.com/item?id=46922527
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/chenyanchen/mermaid-formatter</guid>
-      <pubDate>Sat, 07 Feb 2026 06:25:42 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46922527</guid>
+      <pubDate>Sat, 07 Feb 2026 09:29:06 GMT</pubDate>
     </item>
     <item>
-      <title>RFC 与 README：协议的演变</title>
-      <link>https://h3manth.com/scribe/rfcs-vs-readmes/</link>
-      <description><![CDATA[文章网址：https://h3manth.com/scribe/rfcs-vs-readmes/
-评论网址：https://news.ycombinator.com/item?id=46921758
-积分：2
-# 条评论：1]]></description>
-      <guid>https://h3manth.com/scribe/rfcs-vs-readmes/</guid>
-      <pubDate>Sat, 07 Feb 2026 06:19:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>甘吉布勒姆纱丽和思维机器</title>
-      <link>https://altermag.com/articles/kanchipuram-saris-and-thinking-machines</link>
-      <description><![CDATA[文章网址：https://altermag.com/articles/kanchipuram-saris-and-thinking-machines
-评论网址：https://news.ycombinator.com/item?id=46921757
-积分：1
-# 条评论：0]]></description>
-      <guid>https://altermag.com/articles/kanchipuram-saris-and-thinking-machines</guid>
-      <pubDate>Sat, 07 Feb 2026 06:19:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国化学品供应商引发全球婴儿配方奶粉召回</title>
-      <link>https://www.reuters.com/business/healthcare-pharmaceuticals/nestle-widens-french-infant-formula-recall-new-batch-guigoz-2026-02-04</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/business/healthcare-pharmaceuticals/nestle-widens-french-infant-formula-recall-new-batch-guigoz-2026-02-04
-评论网址：https://news.ycombinator.com/item?id=46921749
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.reuters.com/business/healthcare-pharmaceuticals/nestle-widens-french-infant-formula-recall-new-batch-guigoz-2026-02-04</guid>
-      <pubDate>Sat, 07 Feb 2026 06:16:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>作为一名工程师，我在一年内使用 AI 编写了 100% 的代码</title>
-      <link>https://old.reddit.com/r/ClaudeCode/comments/1qxvobt/ive_used_ai_to_write_100_of_my_code_for_1_year_as/</link>
-      <description><![CDATA[文章网址： https://old.reddit.com/r/ClaudeCode/comments/1qxvobt/ive_used_ai_to_write_100_of_my_code_for_1_year_as/
-评论网址：https://news.ycombinator.com/item?id=46921740
+      <title>让您的 iPad 3 成为电脑的触摸屏</title>
+      <link>https://github.com/lemonjesus/ipad-touch-screen</link>
+      <description><![CDATA[文章网址：https://github.com/lemonjesus/ipad-touch-screen
+评论网址：https://news.ycombinator.com/item?id=46922507
 积分：1
 # 条评论：1]]></description>
-      <guid>https://old.reddit.com/r/ClaudeCode/comments/1qxvobt/ive_used_ai_to_write_100_of_my_code_for_1_year_as/</guid>
-      <pubDate>Sat, 07 Feb 2026 06:13:56 GMT</pubDate>
+      <guid>https://github.com/lemonjesus/ipad-touch-screen</guid>
+      <pubDate>Sat, 07 Feb 2026 09:24:01 GMT</pubDate>
     </item>
     <item>
-      <title>寻找 4 位患有自闭症的 AI 初创公司联合创始人（股权型）</title>
-      <link>https://news.ycombinator.com/item?id=46921706</link>
-      <description><![CDATA[我是阿尔夫。柬埔寨退休太阳能工程师。 
-打造真正的去中心化个人AI系统！ 
-采用 AISL 协议（AI 到 AI 结构化通信）的系统操作系统。
-这样的事情不存在，也不会存在，除非我们构建它并改变世界！寻找 4 位自闭症开发人员作为联合创始人加入：
-- 每人 20% 股权
-- 收入之前不发薪水
-- 6周试用期
-- 远程、异步、零会议
-- 柬埔寨海滩办公室可选工作：
-- AISL协议设计
-- 多AI编排（GPT/Claude/Llama）
-- 加密知识库
-- 模式密集的架构不寻找：
-- FAANG难民
-- 薪水猎人
-- 简历建设者寻找：
-- 开发人员在晚上编码，因为他们必须
-- 痴迷于模式的头脑
-- 渴望打造属于自己的东西
-- 自闭症是优势，而不是限制申请：aut_ai_aisl@pm.me电报：@aut_ai_aisl
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46921706
+      <title>代理时代的国际化与本地化</title>
+      <link>https://myblog.ru/internationalization-and-localization-in-the-age-of-agents</link>
+      <description><![CDATA[文章网址：https://myblog.ru/internationalization-and-localization-in-the-age-of-agents
+评论网址：https://news.ycombinator.com/item?id=46922506
+积分：1
+# 条评论：0]]></description>
+      <guid>https://myblog.ru/internationalization-and-localization-in-the-age-of-agents</guid>
+      <pubDate>Sat, 07 Feb 2026 09:23:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建自定义 Clawdbot 工作流程以自动化网站创建</title>
+      <link>https://seedance2api.org/</link>
+      <description><![CDATA[文章网址：https://seedance2api.org/
+评论网址：https://news.ycombinator.com/item?id=46922495
 积分：1
 # 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=46921706</guid>
-      <pubDate>Sat, 07 Feb 2026 06:03:39 GMT</pubDate>
+      <guid>https://seedance2api.org/</guid>
+      <pubDate>Sat, 07 Feb 2026 09:21:03 GMT</pubDate>
     </item>
     <item>
-      <title>AI 原生功能、新的 API 目录以及更新的计划和定价</title>
-      <link>https://blog.postman.com/new-capabilities-march-2026/</link>
-      <description><![CDATA[文章网址：https://blog.postman.com/new-capability-march-2026/
-评论网址：https://news.ycombinator.com/item?id=46921705
+      <title>为什么“台湾巨蛋”无法在中国的袭击中幸存</title>
+      <link>https://www.lowyinstitute.org/the-interpreter/why-taiwan-dome-won-t-survive-chinese-attack</link>
+      <description><![CDATA[文章网址：https://www.lowyinstitute.org/the-interpreter/why-taiwan-dome-won-t-survive-chinese-attack
+评论网址：https://news.ycombinator.com/item?id=46922492
 积分：1
 # 条评论：0]]></description>
-      <guid>https://blog.postman.com/new-capabilities-march-2026/</guid>
-      <pubDate>Sat, 07 Feb 2026 06:03:13 GMT</pubDate>
+      <guid>https://www.lowyinstitute.org/the-interpreter/why-taiwan-dome-won-t-survive-chinese-attack</guid>
+      <pubDate>Sat, 07 Feb 2026 09:20:46 GMT</pubDate>
     </item>
     <item>
-      <title>从 2010 年到 2020 年，科技发生了哪些变化？</title>
-      <link>https://www.tedsanders.com/what-changed-in-tech-from-2010-to-2020/</link>
-      <description><![CDATA[文章网址：https://www.tedsanders.com/what-changed-in-tech-from-2010-to-2020/
-评论网址：https://news.ycombinator.com/item?id=46921692
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.tedsanders.com/what-changed-in-tech-from-2010-to-2020/</guid>
-      <pubDate>Sat, 07 Feb 2026 05:58:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>从人体工效学到代理工效学</title>
-      <link>https://wesmckinney.com/blog/agent-ergonomics/</link>
-      <description><![CDATA[文章网址：https://wesmckinney.com/blog/agent-ergonomics/
-评论网址：https://news.ycombinator.com/item?id=46921676
+      <title>Xkcd：游戏 AI</title>
+      <link>https://xkcd.com/1002/</link>
+      <description><![CDATA[文章网址：https://xkcd.com/1002/
+评论网址：https://news.ycombinator.com/item?id=46922487
 积分：1
 # 条评论：0]]></description>
-      <guid>https://wesmckinney.com/blog/agent-ergonomics/</guid>
-      <pubDate>Sat, 07 Feb 2026 05:54:31 GMT</pubDate>
+      <guid>https://xkcd.com/1002/</guid>
+      <pubDate>Sat, 07 Feb 2026 09:19:13 GMT</pubDate>
     </item>
     <item>
-      <title>高级惯性参考球</title>
-      <link>https://en.wikipedia.org/wiki/Advanced_Inertial_Reference_Sphere</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Advanced_Inertial_Reference_Sphere
-评论网址：https://news.ycombinator.com/item?id=46921672
+      <title>Windows 11 最终将于 2026 年淘汰旧版打印机驱动程序</title>
+      <link>https://www.windowscentral.com/microsoft/windows-11/windows-11-finally-pulls-the-plug-on-legacy-printer-drivers-starting-january-2026</link>
+      <description><![CDATA[文章网址： https://www.windowscentral.com/microsoft/windows-11/windows-11-finally-pulls-the-plug-on-legacy-printer-drivers-starting-january-2026
+评论网址：https://news.ycombinator.com/item?id=46922482
 积分：1
 # 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Advanced_Inertial_Reference_Sphere</guid>
-      <pubDate>Sat, 07 Feb 2026 05:53:11 GMT</pubDate>
+      <guid>https://www.windowscentral.com/microsoft/windows-11/windows-11-finally-pulls-the-plug-on-legacy-printer-drivers-starting-january-2026</guid>
+      <pubDate>Sat, 07 Feb 2026 09:18:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>从卸载到参与（生成人工智能研究）</title>
+      <link>https://www.mdpi.com/2306-5729/10/11/172</link>
+      <description><![CDATA[文章网址：https://www.mdpi.com/2306-5729/10/11/172
+评论网址：https://news.ycombinator.com/item?id=46922475
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.mdpi.com/2306-5729/10/11/172</guid>
+      <pubDate>Sat, 07 Feb 2026 09:16:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能为民</title>
+      <link>https://justsitandgrin.im/posts/ai-for-people/</link>
+      <description><![CDATA[文章网址：https://justsitandgrin.im/posts/ai-for-people/
+评论网址：https://news.ycombinator.com/item?id=46922470
+积分：1
+# 条评论：0]]></description>
+      <guid>https://justsitandgrin.im/posts/ai-for-people/</guid>
+      <pubDate>Sat, 07 Feb 2026 09:15:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>罗马布满炮弹 (2022)</title>
+      <link>https://essenceofrome.com/rome-is-studded-with-cannon-balls</link>
+      <description><![CDATA[文章网址：https://essenceofrome.com/rome-is-studded-with-cannon-balls
+评论网址：https://news.ycombinator.com/item?id=46922453
+积分：1
+# 条评论：0]]></description>
+      <guid>https://essenceofrome.com/rome-is-studded-with-cannon-balls</guid>
+      <pubDate>Sat, 07 Feb 2026 09:10:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
