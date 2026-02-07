@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 06 Feb 2026 21:31:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 01:59:06 GMT</lastBuildDate>
+    <item>
+      <title>解决 LLM 到语音管道中 <2 秒的延迟墙</title>
+      <link>https://www.reddit.com/r/programming/comments/1qy0v87/solving_the_2s_latency_wall_in_llmtovoice/</link>
+      <description><![CDATA[最近我一直在一个特定的兔子洞中度过我的夜晚：试图弥合“代理逻辑”与“代理逻辑”之间的差距。以及实际的实时人类对话。 我们都见过“AI Caller”。演示，但如果您实际上尝试过构建一个，您就会知道基础设施通常是一团糟。大多数“包装器”或无代码解决方案的往返时间为 3-5 秒。当 TTS（文本转语音）完成第一句话时，用户已经说了“你好？”两次然后挂断。 架构斗争 我最初尝试使用标准 Webhooks 和长期运行的节点链来协调这一过程。这是一场灾难。在 VAD（语音活动检测）抖动和 LLM 推理滞后之间，出现了“恐怖谷”。更像是一个峡谷。 我最终离开了“意大利面条”。逻辑并专注于构建专用基础设施来处理主逻辑流程之外的“肺”（音频流和可中断性）。我的目标是不到 2 秒的响应时间。 我的发现：一旦达到 &lt;2 秒的阈值，对话的心理就会发生变化。人工智能不再是“机器人”并开始成为参与者。它可以处理中断、吸引语气，并在线索还“热”的时候真正吸引线索。 测试一下（看看底层）我一直在将其构建为一个独立的引擎，我很好奇其他开发人员是否可以打破它或找到并发上限。我已经为此子设置了一个测试业务帐户来进行探索： 我很好奇您对传输层的看法：我们只是在等待更快的模型，还是语音代理的未来纯粹在于“管道”的优化？ （WebRTC/PSTN 处理）？当有人中途中断时，你们如何处理状态管理？ 我会谈论堆栈和延迟权衡。   由   提交/u/ahmedGacem   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qy0v87/solving_the_2s_latency_wall_in_llmtovoice/</guid>
+      <pubDate>Sat, 07 Feb 2026 01:52:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>持续集成的目的就是失败</title>
+      <link>https://www.reddit.com/r/programming/comments/1qxulks/the_purpose_of_continuous_integration_is_to_fail/</link>
+      <description><![CDATA[ 由   提交/u/NorfairKing2   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1qxulks/the_purpose_of_continuous_integration_is_to_fail/</guid>
+      <pubDate>Fri, 06 Feb 2026 21:32:10 GMT</pubDate>
+    </item>
     <item>
       <title>敢于强大的代码</title>
       <link>https://www.reddit.com/r/programming/comments/1qxsidp/dare_mighty_code/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[ 由   提交 /u/scribe-kiddie   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1qxf20q/ai_and_the_commons/</guid>
       <pubDate>Fri, 06 Feb 2026 11:24:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mathieu Ropert：使用 C++ 学习图形编程</title>
-      <link>https://www.reddit.com/r/programming/comments/1qxeyn3/mathieu_ropert_learning_graphics_programming_with/</link>
-      <description><![CDATA[ 由   提交/u/_a4z  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qxeyn3/mathieu_ropert_learning_graphics_programming_with/</guid>
-      <pubDate>Fri, 06 Feb 2026 11:18:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>带有外部 MCP 服务器的 Spring AI</title>
-      <link>https://www.reddit.com/r/programming/comments/1qxdreh/spring_ai_with_external_mcp_servers/</link>
-      <description><![CDATA[ 由   提交/u/piotr_minkowski   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1qxdreh/spring_ai_with_external_mcp_servers/</guid>
-      <pubDate>Fri, 06 Feb 2026 10:08:58 GMT</pubDate>
     </item>
     </channel>
 </rss>
