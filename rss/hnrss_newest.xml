@@ -4,109 +4,111 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 09 Feb 2026 13:10:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 15:57:35 GMT</lastBuildDate>
     <item>
-      <title>GNU C 编译器如何成为密码学领域的 Clippy</title>
-      <link>https://www.theregister.com/2026/02/09/compilers_undermine_encryption/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2026/02/09/compilers_undermine_cryption/
-评论网址：https://news.ycombinator.com/item?id=46944767
+      <title>呼吁元领导层删除俄罗斯账户[视频]</title>
+      <link>https://www.youtube.com/watch?v=2YYHhD7DNZs</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=2YYHhD7DNZs
+评论网址：https://news.ycombinator.com/item?id=46946496
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theregister.com/2026/02/09/compilers_undermine_encryption/</guid>
-      <pubDate>Mon, 09 Feb 2026 12:59:42 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=2YYHhD7DNZs</guid>
+      <pubDate>Mon, 09 Feb 2026 15:48:20 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：TanStack DB 的 IndexedDB 集合</title>
-      <link>https://news.ycombinator.com/item?id=46944766</link>
-      <description><![CDATA[Claude 和我为 TanStack DB 构建了一个由 IndexedDB 支持的集合适配器，它提供持久本地存储，并具有自动跨表同步功能。我是 TanStack DB 库的忠实粉丝，但它只有内存中和 localStorage 集合。我需要一些可以处理更大数据集并跨标签同步的东西 - 所以我让 Claude 来构建这个。我一直在我的业余项目中使用它 - 一个 Google Reader 克隆版 (https://github.com/sonnes/reader) 和一个针对 ALS/MND 患者的沟通助手 (https://github.com/sonnes/september）。我已经向 TanStack DB monorepo (https://github.com/TanStack/db/pull/1179) 提交了 PR，并且还作为独立包发布。npm：https://www.npmjs.com/package/indexeddb-collection
-GitHub：https://github.com/sonnes/indexeddb-collection
-PR：https://github.com/TanStack/db/pull/1179尝试一下，让我知道你的想法。
+      <title>理解状态空间模型如何了解代码</title>
+      <link>https://arxiv.org/abs/2602.06774</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2602.06774
+评论网址：https://news.ycombinator.com/item?id=46946477
+积分：1
+# 条评论：0]]></description>
+      <guid>https://arxiv.org/abs/2602.06774</guid>
+      <pubDate>Mon, 09 Feb 2026 15:46:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：OpenMessage – 适用于带有 MCP 服务器的 macOS 的 Google 消息客户端</title>
+      <link>https://openmessage.ai</link>
+      <description><![CDATA[我构建了一个带有内置 MCP 服务器的开源 Google Messages 客户端，因此像 Claude 这样的 AI 助手可以阅读、搜索和发送您的文本。它使用 mautrix/gmessages 库（与为 Beeper 提供支持的 Go 库相同）通过 QR 码配对连接到 Google Messages。消息保留在本地 - 没有云帐户，没有 Matrix 服务器。MCP 服务器在本地主机上运行，​​并公开用于列出对话、搜索消息、发送文本等的工具。我每天将它与 Claude Code 一起使用来执行诸如“在远足群聊中赶上我”或“给妈妈发短信说我迟到了”之类的事情。有两种运行方式：原生 Swift macOS 应用程序或独立的 Go CLI。 Apache 2.0。mautrix 生态系统还拥有 WhatsApp、Signal、Telegram、Discord 和 Slack 的库，因此该架构可以扩展到跨所有服务提供 AI 访问的统一消息客户端。GitHub：https://github.com/MaxGhenis/openmessage
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46944766
+评论网址：https://news.ycombinator.com/item?id=46946473
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46944766</guid>
-      <pubDate>Mon, 09 Feb 2026 12:59:39 GMT</pubDate>
+      <guid>https://openmessage.ai</guid>
+      <pubDate>Mon, 09 Feb 2026 15:46:09 GMT</pubDate>
     </item>
     <item>
-      <title>被特朗普疏远的欧洲人承担国防责任</title>
-      <link>https://reason.com/2026/02/09/alienated-by-trump-europeans-finally-take-responsibility-for-defense/</link>
-      <description><![CDATA[文章网址：https://reason.com/2026/02/09/alienated-by-trump-europeans-finally-take-responsibility-for-defense/
-评论网址：https://news.ycombinator.com/item?id=46944762
-积分：1
-# 条评论：0]]></description>
-      <guid>https://reason.com/2026/02/09/alienated-by-trump-europeans-finally-take-responsibility-for-defense/</guid>
-      <pubDate>Mon, 09 Feb 2026 12:58:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>随着人工智能进入手术室，有关手术失败的报道不断出现</title>
-      <link>https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/
-评论网址：https://news.ycombinator.com/item?id=46944753
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.reuters.com/investigations/ai-enters-operating-room-reports-arise-botched-surgeries-misidentified-body-2026-02-09/</guid>
-      <pubDate>Mon, 09 Feb 2026 12:57:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于基于座位的定价走向的注释</title>
-      <link>https://arnon.dk/notes-on-where-seat-based-pricing-is-going/</link>
-      <description><![CDATA[文章网址：https://arnon.dk/notes-on-where-seat-based-pricing-is-going/
-评论网址：https://news.ycombinator.com/item?id=46944752
-积分：1
-# 条评论：0]]></description>
-      <guid>https://arnon.dk/notes-on-where-seat-based-pricing-is-going/</guid>
-      <pubDate>Mon, 09 Feb 2026 12:57:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>我对法学硕士的态度强硬了吗？</title>
-      <link>https://www.baldurbjarnason.com/2026/have-i-hardened-against-ai/</link>
-      <description><![CDATA[文章网址：https://www.baldurbjarnason.com/2026/have-i-hardened-against-ai/
-评论网址：https://news.ycombinator.com/item?id=46944751
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.baldurbjarnason.com/2026/have-i-hardened-against-ai/</guid>
-      <pubDate>Mon, 09 Feb 2026 12:57:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>AlphaZero 风格的蓝色 AI</title>
-      <link>https://twitter.com/danluu/status/2020839176766418960</link>
-      <description><![CDATA[文章网址：https://twitter.com/danluu/status/2020839176766418960
-评论网址：https://news.ycombinator.com/item?id=46944749
-积分：1
-# 条评论：0]]></description>
-      <guid>https://twitter.com/danluu/status/2020839176766418960</guid>
-      <pubDate>Mon, 09 Feb 2026 12:57:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：BotsChat，为 OpenClaw 设计的聊天 UI</title>
-      <link>https://botschat.app/</link>
-      <description><![CDATA[文章网址：https://botschat.app/
-评论网址：https://news.ycombinator.com/item?id=46944737
-积分：1
-# 条评论：0]]></description>
-      <guid>https://botschat.app/</guid>
-      <pubDate>Mon, 09 Feb 2026 12:54:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>和声世界——咖啡、吉他和合成器</title>
-      <link>https://mynoise.net/vlog.php?ep=20260204</link>
-      <description><![CDATA[文章网址：https://mynoise.net/vlog.php?ep=20260204
-评论网址：https://news.ycombinator.com/item?id=46944716
+      <title>问 HN：临时专利对早期初创公司重要吗？</title>
+      <link>https://news.ycombinator.com/item?id=46946464</link>
+      <description><![CDATA[我是 AI B2B 基础设施领域的独立创始人。我正在申请一些核心技术方法的临时专利，以便可以与早期设计合作伙伴和投资者更公开地分享。对那些筹集过 Pre-Seed/Seed 资金或与早期公司合作的人们感到好奇：
+- 临时资金对筹款或合作伙伴关系是否有有意义的帮助？
+- 或者说，直到后来的几轮/真正的吸引力之前，它们主要是噪音？我正在尝试校准在这个阶段投入 IP 的时间/精力与仅仅运输 + 用户吸引力的时间/精力。很想听听现实世界的经验。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46946464
 积分：2
 # 条评论：0]]></description>
-      <guid>https://mynoise.net/vlog.php?ep=20260204</guid>
-      <pubDate>Mon, 09 Feb 2026 12:53:09 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46946464</guid>
+      <pubDate>Mon, 09 Feb 2026 15:45:24 GMT</pubDate>
     </item>
     <item>
-      <title>使用分布式 MIMO 雷达进行野外可扩展多视图生物识别传感</title>
-      <link>https://dl.acm.org/doi/10.1145/3680207.3723461</link>
-      <description><![CDATA[文章网址：https://dl.acm.org/doi/10.1145/3680207.3723461
-评论网址：https://news.ycombinator.com/item?id=46944713
+      <title>真理的代价</title>
+      <link>https://www.samrian.com/blog/cost-of-truth</link>
+      <description><![CDATA[文章网址：https://www.samrian.com/blog/cost-of-truth
+评论网址：https://news.ycombinator.com/item?id=46946423
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.samrian.com/blog/cost-of-truth</guid>
+      <pubDate>Mon, 09 Feb 2026 15:42:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：具有聊天分析功能的自托管 WhatsApp 存档查看器</title>
+      <link>https://github.com/sabrieker/whatsapp-archive</link>
+      <description><![CDATA[我编写了一个 docker 托管的 Whatsapp Archieve 查看器。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46946418
 积分：1
 # 条评论：0]]></description>
-      <guid>https://dl.acm.org/doi/10.1145/3680207.3723461</guid>
-      <pubDate>Mon, 09 Feb 2026 12:52:52 GMT</pubDate>
+      <guid>https://github.com/sabrieker/whatsapp-archive</guid>
+      <pubDate>Mon, 09 Feb 2026 15:42:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>JSONata：JSON 查询和转换语言</title>
+      <link>https://jsonata.org/</link>
+      <description><![CDATA[文章网址：https://jsonata.org/
+评论网址：https://news.ycombinator.com/item?id=46946417
+积分：1
+# 条评论：0]]></description>
+      <guid>https://jsonata.org/</guid>
+      <pubDate>Mon, 09 Feb 2026 15:42:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vibe 编码 RSS 提要 – 有多难？</title>
+      <link>https://blog.fortrabbit.com/vibe-coding-an-rss-feed/</link>
+      <description><![CDATA[文章网址：https://blog.fortrabbit.com/vibe-coding-an-rss-feed/
+评论网址：https://news.ycombinator.com/item?id=46946415
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.fortrabbit.com/vibe-coding-an-rss-feed/</guid>
+      <pubDate>Mon, 09 Feb 2026 15:41:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>从头开始编写法学硕士，第 32a 部分 – 干预措施：训练基线模型</title>
+      <link>https://www.gilesthomas.com/2026/02/llm-from-scratch-32a-interventions-baseline-model</link>
+      <description><![CDATA[文章网址：https://www.gilesthomas.com/2026/02/llm-from-scratch-32a-interventions-baseline-model
+评论网址：https://news.ycombinator.com/item?id=46946403
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.gilesthomas.com/2026/02/llm-from-scratch-32a-interventions-baseline-model</guid>
+      <pubDate>Mon, 09 Feb 2026 15:39:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>天空为什么是蓝色的？</title>
+      <link>https://explainers.blog/posts/why-is-the-sky-blue/</link>
+      <description><![CDATA[文章网址：https://explainers.blog/posts/why-is-the-sky-blue/
+评论网址：https://news.ycombinator.com/item?id=46946401
+积分：2
+# 条评论：0]]></description>
+      <guid>https://explainers.blog/posts/why-is-the-sky-blue/</guid>
+      <pubDate>Mon, 09 Feb 2026 15:39:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
