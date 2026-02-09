@@ -4,124 +4,134 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 09 Feb 2026 02:11:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 05:01:35 GMT</lastBuildDate>
     <item>
-      <title>通过无人机、塔和卫星感知非洲牲畜的甲烷排放</title>
-      <link>https://bg.copernicus.org/articles/22/4163/2025/</link>
-      <description><![CDATA[文章网址：https://bg.copernicus.org/articles/22/4163/2025/
-评论网址：https://news.ycombinator.com/item?id=46940744
+      <title>灵魂.md</title>
+      <link>https://soul.md/</link>
+      <description><![CDATA[文章网址：https://soul.md/
+评论网址：https://news.ycombinator.com/item?id=46941720
 积分：1
 # 条评论：0]]></description>
-      <guid>https://bg.copernicus.org/articles/22/4163/2025/</guid>
-      <pubDate>Mon, 09 Feb 2026 02:00:53 GMT</pubDate>
+      <guid>https://soul.md/</guid>
+      <pubDate>Mon, 09 Feb 2026 04:56:40 GMT</pubDate>
     </item>
     <item>
-      <title>法学硕士正在成为组件而不是系统吗？</title>
-      <link>https://www.corvic.ai/blog/part-1-of-3-indicting-the-villain-how-the-pipeline-tyranny-created-your-genius-gridlock</link>
-      <description><![CDATA[文章网址：https://www.corvic.ai/blog/part-1-of-3-indicting-the-villain-how-the-pipeline-tyranny-created-your-genius-gridlock
-评论网址：https://news.ycombinator.com/item?id=46940729
+      <title>正值巅峰，尚未年满三十岁</title>
+      <link>https://briankitano.com/essays/on-culmination/</link>
+      <description><![CDATA[文章网址：https://briankitano.com/essays/on-culmination/
+评论网址：https://news.ycombinator.com/item?id=46941710
 积分：1
-# 条评论：1]]></description>
-      <guid>https://www.corvic.ai/blog/part-1-of-3-indicting-the-villain-how-the-pipeline-tyranny-created-your-genius-gridlock</guid>
-      <pubDate>Mon, 09 Feb 2026 01:59:33 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://briankitano.com/essays/on-culmination/</guid>
+      <pubDate>Mon, 09 Feb 2026 04:55:23 GMT</pubDate>
     </item>
     <item>
-      <title>从界面到智能：代理人工智能的闪光点</title>
-      <link>https://dvitsios.org/2026/02/07/from-interfaces-to-intelligence-where-agentic-ai-really-shines/</link>
-      <description><![CDATA[文章网址：https://dvitsios.org/2026/02/07/from-interfaces-to-intelligence-where-agentic-ai-really-shines/
-评论网址：https://news.ycombinator.com/item?id=46940727
-积分：1
-# 条评论：1]]></description>
-      <guid>https://dvitsios.org/2026/02/07/from-interfaces-to-intelligence-where-agentic-ai-really-shines/</guid>
-      <pubDate>Mon, 09 Feb 2026 01:59:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>首次证明人工智能挑战的尝试</title>
-      <link>https://abhvio.us/posts/pony/</link>
-      <description><![CDATA[文章网址：https://abhvio.us/posts/pony/
-评论网址：https://news.ycombinator.com/item?id=46940725
-积分：1
-# 条评论：1]]></description>
-      <guid>https://abhvio.us/posts/pony/</guid>
-      <pubDate>Mon, 09 Feb 2026 01:59:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>Seedance 2.0 预览：2026 年最佳视频模型，表现优于 Sora 2</title>
-      <link>https://news.ycombinator.com/item?id=46940720</link>
-      <description><![CDATA[字节跳动悄然发布 Seedance 2.0。有趣的部分不是通常的文本到视频的升级，而是参考/调节系统。与典型 T2V 模型的不同之处：同时接受 4 种输入模式：文本、图像（最多 9 个）、视频剪辑（最多 3 个，总共 ≤15 秒）和音频（最多 3 个，总共 ≤15 秒）。混合输入上限为12个文件。
-参考驱动生成：您可以使用图像来锁定构图/角色外观，使用视频剪辑来指定相机移动和运动动态，以及使用音轨来驱动节奏和节奏。输出包括生成的 SFX/BGM。
-关键声明是“音频驱动视频”而不是“附加音频的视频”——这意味着运动实际上与音频输入的节拍结构同步，而不仅仅是叠加。
-支持具有镜头间一致性的视频延续/扩展，以及对现有剪辑的编辑操作（字符交换、片段插入/删除）。
-输出：4–15s，可选。带有内置声音。
-为什么这在技术上很重要：当前大多数视频模型将音频视为后处理步骤。 Seedance 2.0 似乎直接根据音频特征调节扩散过程，这可以解释节拍同步行为。多参考@标记系统（@image1用于合成，@video1用于运动，@audio1用于节奏）建议采用条件混合架构，而不是简单的串联。尚未看到官方公告。文档已在 Dreamina（字节跳动的创意平台）上发布。很好奇是否有人有有关该架构的更多详细信息。如果您想在发布后对其进行测试，这里有一些不错的平台，具体取决于您的用例：
-- 对于开发人员（API）：https://www.atlascloud.ai/
-- 创作者：Higgsfield、ImagenArt有关 Seedance 2.0 的更多信息：https://www.reddit.com/r/SoraAi/comments/1qxdv5u/seedance_20_teaser_better_than_sora_2_true/
-Seedance 2.0 的 Reddit 子版块进行讨论：https://www.reddit.com/r/Seedance_AI
+      <title>显示 HN：Monitui – hyprland 的拖放监视器配置</title>
+      <link>https://github.com/nathaniel-fargo/monitui</link>
+      <description><![CDATA[Vibe 为我的 Omarchy 设置编写了此代码。愿意分享并获取想法。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46940720
+评论网址：https://news.ycombinator.com/item?id=46941695
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=46940720</guid>
-      <pubDate>Mon, 09 Feb 2026 01:58:10 GMT</pubDate>
+      <guid>https://github.com/nathaniel-fargo/monitui</guid>
+      <pubDate>Mon, 09 Feb 2026 04:52:54 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我们开发了一个工具来跟踪我在广告期间忽略的数百万美元</title>
-      <link>https://twitter.com/k0ba_eth/status/2020650212906418532</link>
-      <description><![CDATA[超级碗（对不起，“大型比赛”）的经济学是荒谬的。 
-30 秒的播放时间价值 800 万美元。我们想量化当您使用这款信息娱乐应用忽略它时会发生什么。Big Flush 可以让您在广告时段打卡，并为您提供一张收据，记录您因上厕所、吃零食等而“毁掉”的广告价值。它是为一次黑客马拉松而在 3-4 天内构建的。我们试图让 UI 感觉“奢华而荒谬”。希望获得有关 Three.js 在移动设备上的性能的反馈:shy:!https://bigflush.base44.app
+      <title>设计法学硕士理解的 MCP 工具模式</title>
+      <link>https://news.ycombinator.com/item?id=46941684</link>
+      <description><![CDATA[过去几个月我一直在构建 MCP 服务器，发现
+为人工智能代理设计工具模式与
+为人类设计 REST API。以下是一些在生产中有效和无效的模式：无效的模式：1.细粒度的 CRUD 端点。我从显而易见的事情开始
+   获取请求、更新请求状态、更新请求分配者、
+   add_comment等代理经常会调用错误
+   或者以错误的顺序链接它们。太多类似的工具 = 混乱。2.通用参数名称。名为“id”的字段对
+   没有上下文的代理。它会产生幻觉 ID 或传递错误的 ID
+   实体的 ID。3.稀疏的错误消息。返回“404 Not Found”给代理
+   没有什么可以合作的。它会无限期地重试相同的错误调用。有效方法：1。更少、更广泛的工具。我折叠了它们，而不是 8 个 CRUD 端点
+   分为 3 个：search_requests、get_request_detail、update_request。的
+   代理使用更小的工具集犯的错误要少得多。2.带有示例的描述性架构。添加“描述”字段
+   JSON 模式中的示例值得到显着改进
+   准确性。模式就是提示。3.丰富的错误响应。返回而不是“404”
+   “未找到 ID 为‘abc’的请求。您是要先搜索吗？
+   可用工具：search_requests”实际上让代理
+   自我纠正。4.先读后写模式。构建代理工具
+   在减少更改之前自然地获取上下文
+   破坏性错误显着。5。危险操作确认字段。添加必需的
+   删除/批量更新的“confirm: true”参数充当
+   减速带让代理三思而后行。思维模式转变：您不是为开发人员设计 API
+阅读文档。您正在为推理引擎设计一个界面
+只能看到架构和最后几条消息。每个领域
+名称、描述和错误消息是一个提示。好奇构建 MCP 服务器的其他人是否发现了类似的模式
+或发现不同的方法。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46940695
+评论网址：https://news.ycombinator.com/item?id=46941684
 积分：1
 # 条评论：0]]></description>
-      <guid>https://twitter.com/k0ba_eth/status/2020650212906418532</guid>
-      <pubDate>Mon, 09 Feb 2026 01:56:00 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=46941684</guid>
+      <pubDate>Mon, 09 Feb 2026 04:50:03 GMT</pubDate>
     </item>
     <item>
-      <title>一项了不起的成就（老式软件）</title>
-      <link>https://mcauldronism.substack.com/p/a-remarkable-achievement-old-fashioned</link>
-      <description><![CDATA[文章网址：https://mcauldronism.substack.com/p/a-remarkable-achievement-old-fashioned
-评论网址：https://news.ycombinator.com/item?id=46940687
+      <title>关于衰老，鼹鼠可以告诉我们什么</title>
+      <link>https://worksinprogress.co/issue/the-perks-of-being-a-mole-rat/</link>
+      <description><![CDATA[文章网址：https://worksinprogress.co/issue/the-perks-of-being-a-mole-rat/
+评论网址：https://news.ycombinator.com/item?id=46941683
+积分：1
+# 条评论：0]]></description>
+      <guid>https://worksinprogress.co/issue/the-perks-of-being-a-mole-rat/</guid>
+      <pubDate>Mon, 09 Feb 2026 04:49:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么有钱人更长寿？</title>
+      <link>https://www.empirical.health/blog/rich-people-live-longer-hims-superbowl/</link>
+      <description><![CDATA[文章网址：https://www.empirical.health/blog/rich-people-live-longer-hims-superbowl/
+评论网址：https://news.ycombinator.com/item?id=46941676
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.empirical.health/blog/rich-people-live-longer-hims-superbowl/</guid>
+      <pubDate>Mon, 09 Feb 2026 04:47:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN: Mission Plus – macOS Mission Control 中的清晰标题和应用程序徽标</title>
+      <link>https://trystartup.com</link>
+      <description><![CDATA[嗨，HN，我构建了 Mission Plus，这是一个小型的原生 macOS 实用程序，当您打开许多窗口时，它可以使 Mission Control 更易于阅读。Mission Control 很棒，但一旦多个窗口看起来相似，就很难一眼识别出是什么。 Mission Plus 在每个窗口正上方覆盖大文本标题和可识别的应用程序徽标，因此您可以立即区分它们，而无需浏览缩略图。该应用程序是本机实现的，重点是低开销和流畅的性能。它紧密遵循 Mission Control 动画，其设计看起来像内置 macOS 功能，而不是第三方覆盖层。主要功能：窗口上方有大而清晰的文本标题自动匹配大多数常见 macOS 应用程序的徽标资源使用率非常低，没有明显的延迟直接 DMG 下载（无需注册，无需 App Store）您可以在此处下载并试用：
+https://trystartup.com/这是一个早期版本，我对反馈非常感兴趣，尤其是来自 macOS 高级用户的反馈。我将在评论中回答问题并讨论设计或实现细节。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46941666
+积分：1
+# 条评论：0]]></description>
+      <guid>https://trystartup.com</guid>
+      <pubDate>Mon, 09 Feb 2026 04:45:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>屏幕图形和电影用户界面的工艺（2014）</title>
+      <link>https://www.pushing-pixels.org/2014/04/04/the-craft-of-screen-graphics-and-movie-user-interfaces-interview-with-jorge-almeida.html</link>
+      <description><![CDATA[文章网址： https://www.pushing-pixels.org/2014/04/04/the-craft-of-screen-graphics-and-movie-user-interfaces-interview-with-jorge-almeida.html
+评论网址：https://news.ycombinator.com/item?id=46941644
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.pushing-pixels.org/2014/04/04/the-craft-of-screen-graphics-and-movie-user-interfaces-interview-with-jorge-almeida.html</guid>
+      <pubDate>Mon, 09 Feb 2026 04:40:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>台积电将在日本生产先进人工智能半导体</title>
+      <link>https://apnews.com/article/semiconductors-tsmc-japan-taiwan-ai-11256f2bfde73ca23d08331ad138d6d5</link>
+      <description><![CDATA[文章网址： https://apnews.com/article/semiconductors-tsmc-japan-taiwan-ai-11256f2bfde73ca23d08331ad138d6d5
+评论网址：https://news.ycombinator.com/item?id=46941640
+积分：3
+# 条评论：0]]></description>
+      <guid>https://apnews.com/article/semiconductors-tsmc-japan-taiwan-ai-11256f2bfde73ca23d08331ad138d6d5</guid>
+      <pubDate>Mon, 09 Feb 2026 04:38:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：计算机的物理滑动打字</title>
+      <link>https://github.com/ZimengXiong/swipeType</link>
+      <description><![CDATA[采用了一种更快的单指打字方式（除了 STT），使用 DTW 算法来计算和比较路径。用 Rust 编写的引擎，并编译为 WASM 和 FFI for mac。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46941612
 积分：2
 # 条评论：0]]></description>
-      <guid>https://mcauldronism.substack.com/p/a-remarkable-achievement-old-fashioned</guid>
-      <pubDate>Mon, 09 Feb 2026 01:54:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Faaadmv – 检查并更新 CA DMV 注册</title>
-      <link>https://github.com/AshKash/faaadmv</link>
-      <description><![CDATA[嗨 HN，我构建了一个名为 faaadmv 的小工具。它是一个 REPL，可帮助检查和更新加州 DMV 注册。它以 head 模式运行 Playwright，这样我就可以观看自动化操作并在需要时解决任何验证码。我这样做是因为 CA DMV 网站感觉用户有敌意。每年我都会错过最后期限，然后我会支付数百美元的罚款。我想要一些快速、可见且不那么令人沮丧的东西。主要特点：
-- REPL菜单，简单的按键
-- 观看模式默认开启
-- 多车辆支持
-- 状态检查和续订试运行
-- 用于支付的本地加密配置和钥匙串
-- 本地存储的屏幕截图和调试日志Repo：https://github.com/AshKash/faaadmv我现在无法测试真正的更新过程，因为我的车最近更新了。我正在寻找有人帮助测试和调试续订流程。我希望获得有关用户体验和可靠性的反馈。如果您尝试后失败，请分享发生的情况。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46940635
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/AshKash/faaadmv</guid>
-      <pubDate>Mon, 09 Feb 2026 01:45:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>客户服务中的人工智能：2026 年优先考虑的 20 个用例</title>
-      <link>https://nadiaaccompagne.substack.com/p/ia-dans-le-service-client-les-20</link>
-      <description><![CDATA[文章网址：https://nadia accompanies.substack.com/p/ia-dans-le-service-client-les-20
-评论网址：https://news.ycombinator.com/item?id=46940624
-积分：1
-# 条评论：0]]></description>
-      <guid>https://nadiaaccompagne.substack.com/p/ia-dans-le-service-client-les-20</guid>
-      <pubDate>Mon, 09 Feb 2026 01:43:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>有限理性</title>
-      <link>https://en.wikipedia.org/wiki/Bounded_rationality</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Bounded_rationality
-评论网址：https://news.ycombinator.com/item?id=46940605
-积分：2
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Bounded_rationality</guid>
-      <pubDate>Mon, 09 Feb 2026 01:41:44 GMT</pubDate>
+      <guid>https://github.com/ZimengXiong/swipeType</guid>
+      <pubDate>Mon, 09 Feb 2026 04:32:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
