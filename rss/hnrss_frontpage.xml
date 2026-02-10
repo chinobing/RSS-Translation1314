@@ -4,25 +4,87 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 10 Feb 2026 19:05:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 21:42:26 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：Clawe – 面向代理团队的开源 Trello</title>
+      <link>https://github.com/getclawe/clawe</link>
+      <description><![CDATA[我们最近开始使用代理每周更新代码库中的一些文档，所有内容很快都变成了 cron 作业、日志和终端输出。它有效，但很难判断代理在做什么、为什么失败或者工作流程是否真正在进行。我们认为将代理视为具有状态和责任以及明确交接的长期工作人员会更有趣。您可以实际看到和推理的东西，而不仅仅是跟踪日志。因此，我们构建了 Clawe，这是 OpenClaw 之上的一个小型协调层，允许代理工作流程运行、暂停、重试，并在特定点将控制权交还给人类。这最初是作为代理系统操作方式的实验，但我们开始看到它的真正潜力，特别是对于营销中的内容审核和维护工作流程。好奇什么抽象有意义，什么感觉不必要，什么首先破坏。存储库：https://github.com/getclawe/clawe
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46966209
+积分：40
+# 条评论：28]]></description>
+      <guid>https://github.com/getclawe/clawe</guid>
+      <pubDate>Tue, 10 Feb 2026 20:17:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>丰田汽车和恐怖分子：“为什么 ISIS 的卡车比我们的更好？”</title>
+      <link>https://www.airuniversity.af.edu/Wild-Blue-Yonder/Articles/Article-Display/Article/3600155/toyotas-and-terrorists-why-are-isiss-trucks-better-than-ours-said-the-american/</link>
+      <description><![CDATA[文章网址： https://www.airuniversity.af.edu/Wild-Blue-Yonder/Articles/Article-Display/Article/3600155/toyotas-and-terrorists-why-are-isiss-trucks-better-than-ours-said-the-american/
+评论网址：https://news.ycombinator.com/item?id=46965776
+积分：71
+评论数：80]]></description>
+      <guid>https://www.airuniversity.af.edu/Wild-Blue-Yonder/Articles/Article-Display/Article/3600155/toyotas-and-terrorists-why-are-isiss-trucks-better-than-ours-said-the-american/</guid>
+      <pubDate>Tue, 10 Feb 2026 19:49:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Windows 95 如何获得将 Weezer 视频 Buddy Holly 放入 CD 的许可？</title>
+      <link>https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052</link>
+      <description><![CDATA[文章网址：https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052
+评论网址：https://news.ycombinator.com/item?id=46965440
+积分：8
+# 条评论：1]]></description>
+      <guid>https://devblogs.microsoft.com/oldnewthing/20260210-00/?p=112052</guid>
+      <pubDate>Tue, 10 Feb 2026 19:25:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国数据中心的繁荣：张家口的视角（2025）</title>
+      <link>https://sinocities.substack.com/p/chinas-data-center-boom-a-view-from</link>
+      <description><![CDATA[文章网址：https://sinocities.substack.com/p/chinas-data-center-boom-a-view-from
+评论网址：https://news.ycombinator.com/item?id=46965345
+积分：17
+# 条评论：7]]></description>
+      <guid>https://sinocities.substack.com/p/chinas-data-center-boom-a-view-from</guid>
+      <pubDate>Tue, 10 Feb 2026 19:19:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：用于实时对话的多模态感知系统</title>
+      <link>https://raven.tavuslabs.org</link>
+      <description><![CDATA[我在 Tavus 从事实时语音/视频 AI 工作，在过去的几年里，我主要关注机器在对话中如何响应。一直困扰我的一件事是，几乎所有对话系统仍然将所有内容简化为文字记录，并丢弃大量需要下游使用的信号。一些现有的情感理解模型试图分析和分类为一小组任意的盒子，但它们要么不够快/不够丰富，无法实时地做到这一点。因此，我构建了一个多模态感知系统，它为我们提供了一种对视觉和音频对话信号进行编码的方法，并通过在这些信号上对齐一个小型 LLM 将它们翻译成自然语言，这样代理就可以“看到”和“听到”你，并且你可以在实时对话中通过 OpenAI 兼容工具模式与其进行交互。它输出对交互中发生的事情进行简短的自然语言描述 - 例如不确定性的建立、讽刺、脱离，甚至是对话中单回合的注意力转移。一些快速规格：- 每个对话实时运行- 以约 15fps 的速度处理视频 + 对话中重叠的音频- 处理微妙的情绪、耳语与喊叫- 经过合成+内部对话数据的训练很高兴回答问题或深入了解架构/权衡更多详细信息：https://www.tavus.io/post/raven-1-bringing-emotional-intelli...
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46965012
+积分：19
+# 条评论：1]]></description>
+      <guid>https://raven.tavuslabs.org</guid>
+      <pubDate>Tue, 10 Feb 2026 18:58:35 GMT</pubDate>
+    </item>
     <item>
       <title>推出 HN：Livedocs (YC W22) – 用于数据分析的 AI 原生笔记本</title>
       <link>https://livedocs.com</link>
       <description><![CDATA[您好，HN，我是 Arsalan，LiveDocs (https://livedocs.com) 的创始人。我们正在构建一个 AI 原生数据工作区，让团队可以询问他们的真实数据问题，并让系统规划、执行和维护端到端的分析。我们四年前曾发布过有关 LiveDocs 的文章 (https://news.ycombinator.com/item?id=30735058)。当时，LiveDocs 是一种无代码分析工具，用于将 Stripe 和 Google Analytics 等工具的指标拼接在一起。它适用于基本报告，但随着时间的推移，我们遇到了与用户相同的上限。仪表板很好，直到问题变得混乱，笔记本慢慢变成难以维护的一堆胶水。在过去的几年里，我们几乎完全围绕一个不同的想法重建了 LiveDocs。数据工作的行为应该像一个活的系统，而不是静态文档或聊天记录。如今，LiveDocs 是一个由真实执行引擎支持的反应式笔记本环境。笔记本电脑不是线性的。每个单元都参与依赖图，因此当数据或逻辑发生变化时，只有受影响的部分会重新计算。您可以在同一文档中自由混合 SQL、Python、图表、表格和文本，并且一切都保持同步。在本地，我们在 DuckDB 和 Polars 上运行，当您连接 Snowflake、BigQuery 或 Postgres 等仓库时，查询将被推送，而不是复制数据。每个结果都是可检查和可重现的。在此环境之上有一个人工智能代理，但它不是“与您的数据聊天”。该代理在笔记本本身内部工作。它可以规划多步骤分析、编写和调试 SQL 或 Python、为不同任务生成专门的子代理、在终端中运行代码以及在缺乏上下文时浏览文档或 Web。因为它在与人类相同的执行图中运行，所以您可以准确地看到它运行的内容、对其进行编辑或在任何时候接管。我们还支持画布模式，在该模式下，代理可以为您的分析构建自定义 UI，而不仅仅是图表。这包括带有控件、比较的表以及与基础数据保持连接的派生视图。当笔记本的界面不合适时，您可以将其部分内容发布为交互式应用程序。它们的行为更像是轻量级内部工具，在精神上与 Retool 类似，但由相同的分析逻辑支持。LiveDocs 中的一切都是完全实时协作的。多人可以编辑同一个笔记本、实时查看结果更新、内联评论以及共享文档或应用程序，而不会暴露原始代码（除非他们愿意）。团队使用 LiveDocs 来调查不完全适合仪表板的问题，构建随时间演变的分析，无需不断重写，并自动处理重复出现的问题，而不会将其变成脆弱的管道。定价为按需付费，每月 15 美元起，提供免费套餐，以便人们无需交谈即可尝试。对我们来说。您必须注册，因为它要求我们为您提供一个沙箱来运行您的笔记本。以下是视频演示：https://youtu.be/Hl12su9Jn_I我们仍在研究其中的问题。生产数据上长时间运行的代理工作流程会出现很多尖锐的边缘。我们希望得到那些构建或使用分析系统、笔记本或“与数据聊天”工具并感受到其局限性的人们的反馈。很高兴深入了解技术细节和商业说明。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=46964162
-积分：13
-# 条评论：2]]></description>
+积分：36
+# 条评论：14]]></description>
       <guid>https://livedocs.com</guid>
       <pubDate>Tue, 10 Feb 2026 18:09:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>切换到 Linux 并开始我的自托管之旅</title>
+      <link>https://hazemkrimi.tech/blog/linux-self-hosting-journey/</link>
+      <description><![CDATA[文章网址：https://hazemkrimi.tech/blog/linux-self-hosting-journey/
+评论网址：https://news.ycombinator.com/item?id=46964159
+积分：87
+# 条评论：61]]></description>
+      <guid>https://hazemkrimi.tech/blog/linux-self-hosting-journey/</guid>
+      <pubDate>Tue, 10 Feb 2026 18:09:10 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：Showboat 和 Rodney，以便代理商可以演示他们所构建的内容</title>
       <link>https://simonwillison.net/2026/Feb/10/showboat-and-rodney/</link>
       <description><![CDATA[文章网址：https://simonwillison.net/2026/Feb/10/showboat-and-rodney/
 评论网址：https://news.ycombinator.com/item?id=46963887
-积分：21
-# 条评论：6]]></description>
+积分：74
+# 条评论：38]]></description>
       <guid>https://simonwillison.net/2026/Feb/10/showboat-and-rodney/</guid>
       <pubDate>Tue, 10 Feb 2026 17:52:46 GMT</pubDate>
     </item>
@@ -31,87 +93,20 @@
       <link>https://github.com/taf2/mdvi</link>
       <description><![CDATA[文章网址：https://github.com/taf2/mdvi
 评论网址：https://news.ycombinator.com/item?id=46963865
-积分：13
-# 条评论：3]]></description>
+积分：35
+# 条评论：12]]></description>
       <guid>https://github.com/taf2/mdvi</guid>
       <pubDate>Tue, 10 Feb 2026 17:51:10 GMT</pubDate>
     </item>
     <item>
-      <title>谷歌向 ICE 学生记者提供银行卡号和信用卡号</title>
+      <title>谷歌向 ICE 学生记者提供了银行卡号和信用卡号</title>
       <link>https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/</link>
       <description><![CDATA[文章网址：https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/
 评论网址：https://news.ycombinator.com/item?id=46963804
-积分：190
-# 条评论：67]]></description>
+积分：426
+# 条评论：155]]></description>
       <guid>https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/</guid>
       <pubDate>Tue, 10 Feb 2026 17:48:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>爪轮</title>
-      <link>https://clawhub.ai/</link>
-      <description><![CDATA[文章网址：https://clawhub.ai/
-评论网址：https://news.ycombinator.com/item?id=46963691
-积分：19
-# 条评论：15]]></description>
-      <guid>https://clawhub.ai/</guid>
-      <pubDate>Tue, 10 Feb 2026 17:40:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>伦敦最具争议的自行车手</title>
-      <link>https://www.the-londoner.co.uk/jeremy-vine-loves-him-motorists-hate-him-is-this-londons-most-controversial-cyclist/</link>
-      <description><![CDATA[文章网址：https://www.the-londoner.co.uk/jeremy-vine-loves-him-motorists-hate-him-is-this-londons-most-controversial-cyclist/
-评论网址：https://news.ycombinator.com/item?id=46963671
-积分：14
-# 条评论：3]]></description>
-      <guid>https://www.the-londoner.co.uk/jeremy-vine-loves-him-motorists-hate-him-is-this-londons-most-controversial-cyclist/</guid>
-      <pubDate>Tue, 10 Feb 2026 17:39:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Stripe-no-webhooks – 将您的 Stripe 数据同步到 Postgres 数据库</title>
-      <link>https://github.com/pretzelai/stripe-no-webhooks</link>
-      <description><![CDATA[]]></description>
-      <guid>https://github.com/pretzelai/stripe-no-webhooks</guid>
-      <pubDate>Tue, 10 Feb 2026 17:14:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：用于人工智能知识工作的开源 SDK</title>
-      <link>https://github.com/ClioAI/kw-sdk</link>
-      <description><![CDATA[GitHub：https://github.com/ClioAI/kw-sdk大多数 AI 代理框架都以代码为目标。编写代码、运行测试、修复错误，然后重复。这是有效的，因为代码具有自然的验证信号。要么有效，要么无效。此 SDK 将知识工作视为工程问题：任务→简介→Rubric（对执行者隐藏）→工作→验证→失败？ → 重试 → 通过 → 提交协调器协调子代理、网络搜索、代码执行和文件 I/O。然后根据它无法玩弄的标准检查自己的工作（标题是在单独的调用中生成的，执行器永远不会直接看到它）。我们最初将其构建为知识任务强化学习训练的工具。标题是奖励函数。如果您正在训练有关知识工作的模型，那么简短→标题→执行→验证循环将为您提供通常没有的任务的结构化奖励信号。知识工作与代码有何不同？ （除了反馈循环）
-我相信当今的座席在知识工作方面缺少一些功能。我试图将其包含在这个版本中。示例：探索模式：映射解决方案空间，识别设置的级别差距，并提供选项。大多数代理针对单个答案进行优化，并最终得到中值答案。对于策略、设计、创意问题，你想看看有哪些选择，有哪些权衡，以及你能做什么？探索模式生成 N 种不同的方法，每种方法都有明确的假设和反事实（“如果 X 有效，如果 Y 则失败”）。输出以设置级别间隙结束，即整个设置错过了哪些角度。差距往往比收获更有价值。我认为这是我们许多人每天都会做的事情，但今天没有代理直接捕捉到它。请参阅 https://github.com/ClioAI/kw-sdk/blob/main/examples/explore_... 以及输出，了解其有何不同。检查点：通过许多人工智能代理，尤其是多代理系统，我可以看到哪里出了问题，但无法从同一阶段进行推理。 （或者，一旦代理完成了一些任务（例如搜索）并且现在正在寻找想法，您可能需要进行多次探索）。我经常使用它来进行部署，并认为它是再次运行或从特定检查点分叉的一个很棒的功能。关于验证循环的注释：
-验证步骤是真正的杠杆所在。能够根据标题准确评估自己的工作的模型比生成稍好一点的初稿的模型更有价值。该标题使质量变得清晰可见——对于代理、人类，甚至可能是训练信号。我喜欢这个的一些事情： 
-- 您可以传递远程执行环境（包括作为沙箱的浏览器）并且它会起作用。它可以是 docker、e2b、您的本地环境，任何东西，模型将在您的上下文中执行命令，并根据反馈循环进行迭代。代码执行在这里是一个协议。- 工具调用：我意识到您不需要复杂的函数。模型擅长编写终端代码，并且可以根据反馈进行迭代，因此您可以只传递上下文中的函数，模型将执行，或者您可以传递文档，模型将编写代码。 （与 anthropic 的编程工具调用相同）。详细信息： https://github.com/ClioAI/kw-sdk/blob/main/TOOL_CALLING_GUID...最后，一些指南： 
-- SDK指南：https://github.com/ClioAI/kw-sdk/blob/main/SDK_GUIDE.md
-- 可扩展。请参阅我添加新模式的奇怪示例： https://github.com/ClioAI/kw-sdk/blob/main/examples/custom_m...
-- 处理文件： https://github.com/ClioAI/kw-sdk/blob/main/examples/with_fil... 
-- 这很简单，但我喜欢 csv 示例： https://github.com/ClioAI/kw-sdk/blob/main/examples/csv_rese...
-- 远程执行：https://github.com/ClioAI/kw-sdk/blob/main/examples/with_cus...还有更多。这是由 opus 完全重构的，考虑到返工，可能需要很长时间才能发布它。麻省理工学院许可。希望得到您的反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46963026
-积分：10
-# 条评论：1]]></description>
-      <guid>https://github.com/ClioAI/kw-sdk</guid>
-      <pubDate>Tue, 10 Feb 2026 17:06:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>奇点将发生在星期二</title>
-      <link>https://campedersen.com/singularity</link>
-      <description><![CDATA[文章网址：https://campedersen.com/singularity
-评论网址：https://news.ycombinator.com/item?id=46962996
-积分：170
-评论数：102]]></description>
-      <guid>https://campedersen.com/singularity</guid>
-      <pubDate>Tue, 10 Feb 2026 17:04:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：HN Companion – 增强 HN 阅读体验的网络应用程序</title>
-      <link>https://hncompanion.com</link>
-      <description><![CDATA[HN 就是关于丰富的讨论。我们希望将 HN 体验更进一步 - 带来熟悉的键盘优先导航，在线程中找到有趣的观点并了解长线程的要点，以便我们可以决定要探索哪些兔子洞。因此，我们在一年前构建了 HN Companion，并一直在不断完善它。尝试一下：https://app.hncompanion.com 或作为 Firefox / Chrome 的扩展使用：[0]。大多数人工智能摘要通过将线程扁平化为文本墙来去除对话中的声音。这扼杀了阅读 HN 讨论的乐趣。相反，HN Companion 的工作方式有所不同 - 它了解线程层次结构、投票模式和对比观点 - 一切让 HN 变得有趣。可以将其想象为将多个层次结构中的相关讨论聚集到一个组中，并显示代表每个集群的评论。它保留带有反向链接的逐字文本，这样您就不会丢失上下文并可以从该点继续对话。以下是摘要的工作原理 [1]。我们首先将其构建为开源浏览器扩展。但很快我们就了解到人们对安装它犹豫不决。因此，我们构建了与具有所有功能的网络应用程序相同的体验。这帮助人们了解它的工作原理，并在移动设备上使用它（在浏览器中或作为 PWA）。现在，这是一个在将新功能引入浏览器扩展之前尝试新功能的游乐场。我们一年前进行了 Show HN [2]，我们根据用户反馈添加了这些功能：* 缓存摘要 - 生成摘要并缓存在我们的服务器上。这显着提高了速度。您仍然可以选择使用自己的 API 密钥或通过 Ollama 使用本地模型。* 我们的系统提示位于扩展程序的“设置”页面中。您可以根据需要进行自定义。* 根据点、评论、时间或默认排序顺序对 feed 页面（/home、/show 等）中的帖子进行排序。* 我们尝试微调开放权重模型进行总结，但了解到，通过良好的系统提示和用户提示，前沿模型可以提供相似质量的结果。因此，我们没有使用微调模型，但您可以在本地运行它们。浏览器扩展不会跟踪任何使用情况或分析。代码是开源的[3]。我们希望继续改进 HN Companion，特别是添加关注作者、作者注释、草稿帖子等功能。在此处查看帖子的实际操作 https://app.hncompanion.com/item?id=46937696我们很乐意收到您的反馈，以了解如何使此内容对您的 HN 阅读更有用。[0] https://hncompanion.com/#download[1] https://hncompanion.com/how-it-works[2] https://news.ycombinator.com/item?id=42532374[3] https://github.com/hncompanion/browser-extension
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46962942
-积分：6
-# 条评论：1]]></description>
-      <guid>https://hncompanion.com</guid>
-      <pubDate>Tue, 10 Feb 2026 17:01:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
