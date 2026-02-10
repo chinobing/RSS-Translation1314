@@ -4,34 +4,99 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 10 Feb 2026 07:04:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 13:13:53 GMT</lastBuildDate>
+    <item>
+      <title>法官认定澳大利亚作家的色情小说是儿童性虐待材料</title>
+      <link>https://www.bbc.com/news/articles/ckgzv529v5no</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/ckgzv529v5no
+评论网址：https://news.ycombinator.com/item?id=46959067
+积分：14
+# 条评论：3]]></description>
+      <guid>https://www.bbc.com/news/articles/ckgzv529v5no</guid>
+      <pubDate>Tue, 10 Feb 2026 12:52:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>稻米理论：为什么东方文化更加合作</title>
+      <link>https://www.npr.org/sections/thesalt/2014/05/08/310477497/rice-theory-why-eastern-cultures-are-more-cooperative</link>
+      <description><![CDATA[文章网址： https://www.npr.org/sections/thesalt/2014/05/08/310477497/rice-theory-why-eastern-cultures-are-more-cooperative
+评论网址：https://news.ycombinator.com/item?id=46958890
+积分：6
+# 条评论：2]]></description>
+      <guid>https://www.npr.org/sections/thesalt/2014/05/08/310477497/rice-theory-why-eastern-cultures-are-more-cooperative</guid>
+      <pubDate>Tue, 10 Feb 2026 12:34:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bitchat – 去中心化的点对点消息传递</title>
+      <link>https://en.wikipedia.org/wiki/Bitchat</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Bitchat
+评论网址：https://news.ycombinator.com/item?id=46958760
+积分：6
+# 条评论：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/Bitchat</guid>
+      <pubDate>Tue, 10 Feb 2026 12:20:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Pipelock – 用于 AI 编码代理的一体化安全工具</title>
+      <link>https://github.com/luckyPipewrench/pipelock</link>
+      <description><![CDATA[我是一名自学编码的水管工。我白天经营一家管道公司，晚上则搞乱我的家庭实验室。大约一年前，我开始运行具有完整 shell 访问权限和 API 密钥的 AI 代理，以帮助管理我的业务。调度、开具发票、监控我的 K3s 集群。它运行得很好，直到我意识到没有什么可以阻止这些代理将我的凭据发送到任何地方。我有 Slack、电子邮件、云服务的 API 密钥，所有这些都位于任何工具调用都可能泄露的环境变量中。静态扫描器会在安装之前检查代码，但它们无法捕获决定在运行时打电话回家的可信工具。因此我构建了 Pipelock。 Single Go 二进制文件，位于您的 AI 代理和外部世界之间。它的作用：- 扫描所有出站流量中的秘密（API 密钥、令牌、密码）并在它们离开之前阻止它们- 阻止对未经授权的目的地的网络访问（SSRF 保护）- 将 MCP 服务器包装为 stdio 代理，扫描响应以进行提示注入- 监控工作区文件是否存在未经授权的更改
+困难的部分是让它足够快，以至于你不会注意到它的存在。每个 HTTP 请求都会经过正则表达式匹配和熵分析。我花了很多时间将扫描管道的延迟控制在几毫秒内。 MCP 代理比较棘手。当某些内容被标记时，实时拦截 JSON-RPC stdio 流而不破坏对话流需要一些迭代。我每天都在自己的设置上运行它。我的 AI 助手管理 Slack 消息、查询我们的作业管理 API、检查电子邮件并监控我的 Kubernetes 集群。 Pipelock 位于所有这些的前面。上周，它发现了一项将我的 Slack 令牌嵌入到指向外部端点的调试日志中的技能。如果没有 DLP 扫描仪，永远不会注意到。Snyk 最近发现，在 3,984 项已发布的代理技能中，有 283 项（约占 7%）正在泄露凭证。这就是问题空间。静态扫描可捕获恶意软件。运行时扫描捕获其他所有内容。尝试一下：brew install luckyPipewrench/tap/pipelock
+pipelinelock生成配置--presetbalanced-opipelock.yaml
+pipelinelock proxy start --config pipelinelock.yaml演示：https://asciinema.org/a/I1UzzECkeCBx6p42对检测方法的反馈感到好奇。我缺少的渗透模式，MCP 代理是否对运行编码代理的人有用，以及如果您尝试它会出现什么问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46958597
+积分：21
+# 条评论：6]]></description>
+      <guid>https://github.com/luckyPipewrench/pipelock</guid>
+      <pubDate>Tue, 10 Feb 2026 12:04:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 Quake 1 引擎上洁净室实施 Half-Life 2</title>
+      <link>https://code.idtech.space/fn/hl2</link>
+      <description><![CDATA[文章网址：https://code.idtech.space/fn/hl2
+评论网址：https://news.ycombinator.com/item?id=46958231
+积分：21
+# 条评论：4]]></description>
+      <guid>https://code.idtech.space/fn/hl2</guid>
+      <pubDate>Tue, 10 Feb 2026 11:21:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qwen-Image-2.0：专业信息图表，精美写实</title>
+      <link>https://qwen.ai/blog?id=qwen-image-2.0</link>
+      <description><![CDATA[文章网址：https://qwen.ai/blog?id=qwen-image-2.0
+评论网址：https://news.ycombinator.com/item?id=46957198
+积分：120
+评论数量：82]]></description>
+      <guid>https://qwen.ai/blog?id=qwen-image-2.0</guid>
+      <pubDate>Tue, 10 Feb 2026 09:19:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能不会减少工作，而是会强化工作</title>
+      <link>https://simonwillison.net/2026/Feb/9/ai-intensifies-work/</link>
+      <description><![CDATA[原文：https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensizes...
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46955703
+积分：185
+# 条评论：183]]></description>
+      <guid>https://simonwillison.net/2026/Feb/9/ai-intensifies-work/</guid>
+      <pubDate>Tue, 10 Feb 2026 05:19:00 GMT</pubDate>
+    </item>
     <item>
       <title>在 KPI 的压力下，前沿 AI 代理有 30-50% 的时间违反道德约束</title>
       <link>https://arxiv.org/abs/2512.20798</link>
       <description><![CDATA[文章网址：https://arxiv.org/abs/2512.20798
 评论网址：https://news.ycombinator.com/item?id=46954920
-积分：157
-# 条评论：101]]></description>
+积分：367
+评论数：240]]></description>
       <guid>https://arxiv.org/abs/2512.20798</guid>
       <pubDate>Tue, 10 Feb 2026 03:17:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么“只是更好地提示”不起作用</title>
-      <link>https://www.bicameral-ai.com/blog/tech-debt-meeting</link>
-      <description><![CDATA[文章网址：https://www.bicameral-ai.com/blog/tech-debt-meeting
-评论网址：https://news.ycombinator.com/item?id=46954899
-积分：39
-# 条评论：15]]></description>
-      <guid>https://www.bicameral-ai.com/blog/tech-debt-meeting</guid>
-      <pubDate>Tue, 10 Feb 2026 03:13:48 GMT</pubDate>
     </item>
     <item>
       <title>Mistral 的 Voxtral Mini 4B Realtime 的 Rust 实现在浏览器中运行</title>
       <link>https://github.com/TrevorS/voxtral-mini-realtime-rs</link>
       <description><![CDATA[文章网址：https://github.com/TrevorS/voxtral-mini-realtime-rs
 评论网址：https://news.ycombinator.com/item?id=46954136
-积分：127
-# 条评论：17]]></description>
+积分：297
+# 条评论：33]]></description>
       <guid>https://github.com/TrevorS/voxtral-mini-realtime-rs</guid>
       <pubDate>Tue, 10 Feb 2026 01:26:42 GMT</pubDate>
     </item>
@@ -40,70 +105,10 @@
       <link>https://github.com/antirez/voxtral.c</link>
       <description><![CDATA[文章网址：https://github.com/antirez/voxtral.c
 评论网址：https://news.ycombinator.com/item?id=46954049
-积分：64
-# 条评论：3]]></description>
+积分：204
+# 条评论：18]]></description>
       <guid>https://github.com/antirez/voxtral.c</guid>
       <pubDate>Tue, 10 Feb 2026 01:17:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>粒子物理学是死了、垂死了还是很难？</title>
-      <link>https://www.quantamagazine.org/is-particle-physics-dead-dying-or-just-hard-20260126/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/is-article-physicals-dead-dying-or-just-hard-20260126/
-评论网址：https://news.ycombinator.com/item?id=46953136
-积分：86
-# 条评论：133]]></description>
-      <guid>https://www.quantamagazine.org/is-particle-physics-dead-dying-or-just-hard-20260126/</guid>
-      <pubDate>Mon, 09 Feb 2026 23:31:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>废弃油轮的阴暗世界</title>
-      <link>https://www.bbc.com/news/articles/cddg885344do</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cddg885344do
-评论网址：https://news.ycombinator.com/item?id=46952987
-积分：112
-# 条评论：60]]></description>
-      <guid>https://www.bbc.com/news/articles/cddg885344do</guid>
-      <pubDate>Mon, 09 Feb 2026 23:17:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>LiftKit – “一切都源自黄金比例”的 UI</title>
-      <link>https://www.chainlift.io/liftkit</link>
-      <description><![CDATA[文章网址：https://www.chainlift.io/liftkit
-评论网址：https://news.ycombinator.com/item?id=46952118
-积分：131
-# 条评论：77]]></description>
-      <guid>https://www.chainlift.io/liftkit</guid>
-      <pubDate>Mon, 09 Feb 2026 22:01:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国面临钨问题</title>
-      <link>https://www.noleary.com/blog/posts/1</link>
-      <description><![CDATA[文章网址：https://www.noleary.com/blog/posts/1
-评论网址：https://news.ycombinator.com/item?id=46951057
-积分：156
-# 条评论：152]]></description>
-      <guid>https://www.noleary.com/blog/posts/1</guid>
-      <pubDate>Mon, 09 Feb 2026 20:49:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Let's Encrypt 即将发生的变化及其对 XMPP 服务器运营商的影响</title>
-      <link>https://blog.prosody.im/2026-letsencrypt-changes/</link>
-      <description><![CDATA[文章网址：https://blog.prosody.im/2026-letsencrypt-changes/
-评论网址：https://news.ycombinator.com/item?id=46950780
-积分：100
-评论数量：92]]></description>
-      <guid>https://blog.prosody.im/2026-letsencrypt-changes/</guid>
-      <pubDate>Mon, 09 Feb 2026 20:31:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>工作中的博弈论模式 (2016)</title>
-      <link>https://daeus.blog/2026/01/18/game-theory-patterns-at-work/</link>
-      <description><![CDATA[文章网址：https://daeus.blog/2026/01/18/game-theory-patterns-at-work/
-评论网址：https://news.ycombinator.com/item?id=46950756
-积分：67
-# 条评论：4]]></description>
-      <guid>https://daeus.blog/2026/01/18/game-theory-patterns-at-work/</guid>
-      <pubDate>Mon, 09 Feb 2026 20:30:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
