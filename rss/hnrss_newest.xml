@@ -4,106 +4,119 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 10 Feb 2026 02:28:20 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 05:05:13 GMT</lastBuildDate>
     <item>
-      <title>从上下文中学习比我们想象的更难</title>
-      <link>https://hy.tencent.com/research/100025?langVersion=en&utm_source=tldrai</link>
-      <description><![CDATA[文章网址：https://hy.tencent.com/research/100025?langVersion=en&amp;utm_source=tldrai
-评论网址：https://news.ycombinator.com/item?id=46954532
+      <title>关于制造商主题的报告 (1791) [pdf]</title>
+      <link>https://constitution.org/2-Authors/ah/rpt_manufactures.pdf</link>
+      <description><![CDATA[文章网址：https://constitution.org/2-Authors/ah/rpt_manufactures.pdf
+评论网址：https://news.ycombinator.com/item?id=46955546
 积分：1
 # 条评论：0]]></description>
-      <guid>https://hy.tencent.com/research/100025?langVersion=en&utm_source=tldrai</guid>
-      <pubDate>Tue, 10 Feb 2026 02:21:56 GMT</pubDate>
+      <guid>https://constitution.org/2-Authors/ah/rpt_manufactures.pdf</guid>
+      <pubDate>Tue, 10 Feb 2026 04:52:49 GMT</pubDate>
     </item>
     <item>
-      <title>AI 对话中的几何分配广告</title>
-      <link>https://www.june.kim/power-diagrams-ad-auctions</link>
-      <description><![CDATA[文章网址：https://www.june.kim/power-diagrams-ad-auctions
-评论网址：https://news.ycombinator.com/item?id=46954526
+      <title>用准极值原初黑洞解释 PeV 中微子通量</title>
+      <link>https://journals.aps.org/prl/accepted/10.1103/r793-p7ct</link>
+      <description><![CDATA[文章网址：https://journals.aps.org/prl/accepted/10.1103/r793-p7ct
+评论网址：https://news.ycombinator.com/item?id=46955545
+积分：1
+# 条评论：0]]></description>
+      <guid>https://journals.aps.org/prl/accepted/10.1103/r793-p7ct</guid>
+      <pubDate>Tue, 10 Feb 2026 04:52:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>互联网背景噪音</title>
+      <link>https://en.wikipedia.org/wiki/Internet_background_noise</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Internet_background_noise
+评论网址：https://news.ycombinator.com/item?id=46955543
+积分：1
+# 条评论：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/Internet_background_noise</guid>
+      <pubDate>Tue, 10 Feb 2026 04:52:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：OpenClaw 的安全托管（免费且 BYOK）</title>
+      <link>https://openclaw-setup.me/</link>
+      <description><![CDATA[它是 OpenClaw 的托管托管，针对那些想要始终在线的个人 AI 助理但又不想自行托管/调试基础设施的人。它的作用- 1 分钟设置：使用 Google 登录 → 连接 Telegram → 连接您的 LLM 提供商
+- 隔离运行时：您的 OpenClaw 实例隔离运行（较小的爆炸半径与“在笔记本电脑/VPS 上运行”相比）
+- 访问控制：允许向您的机器人发送消息的人员（DM + 群组）
+- 密钥安全处理：凭证加密存储并与 OpenClaw 实例分开保存
+- 使用情况 + 成本可见性：代币/成本仪表板，以便您可以发现“代币燃烧”
+- 教程：OpenAI / Anthropic / Gemini / OpenRouter / Kimi 密钥 + 设置凭据的分步指南
+- 多个实例：您可以启动多个 OpenClaw 实例（具有角色的“个人 AI 团队”）当前状态/限制- 现在支持 Telegram；以后有更多频道。
+- 您携带自己的模型/提供商密钥 (BYOK)。
+- 早期项目 - 我希望获得有关入门、安全假设以及最重要功能的反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46955517
+积分：1
+# 条评论：0]]></description>
+      <guid>https://openclaw-setup.me/</guid>
+      <pubDate>Tue, 10 Feb 2026 04:49:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：您如何解释 P99 延迟而不被误导？</title>
+      <link>https://news.ycombinator.com/item?id=46955498</link>
+      <description><![CDATA[我看到许多团队严重依赖 P50/P95/P99 延迟数字，但仍然错过了真正的用户痛苦或误诊事件。最近，我尝试写下一种更系统的方法来推理生产中的延迟分布：不同的分布形状如何表现，为什么聚合和采样经常欺骗我们，以及为什么分段（按端点、租户、区域、工作负载）通常比添加更多百分位数更重要。我很好奇这里的其他人如何处理这个问题练习：您是否有在事件发生期间解释 P99 的心理模型？哪些图表或故障实际上可以帮助您调试延迟问题？您是否被隐藏真正问题的“好看”百分位数所困扰？我在这里写下了我的笔记以供参考：
+https://optyxstack.com/performance/latency-distributions-in-practice-reading-p50-p95-p99-without-fooling-yourself很想听听人们如何在实际系统中处理这个问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46955498
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=46955498</guid>
+      <pubDate>Tue, 10 Feb 2026 04:46:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>陷入推销、免责声明和坦白之间</title>
+      <link>https://gilpignol.substack.com/p/trapped-between-pitch-disclaimer</link>
+      <description><![CDATA[文章网址：https://gilpignol.substack.com/p/trapped- Between-pitch-disclaimer
+评论网址：https://news.ycombinator.com/item?id=46955497
+积分：1
+# 条评论：0]]></description>
+      <guid>https://gilpignol.substack.com/p/trapped-between-pitch-disclaimer</guid>
+      <pubDate>Tue, 10 Feb 2026 04:46:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>LLM 评估中的词汇启动混淆 [pdf]</title>
+      <link>https://github.com/Palmerschallon/Dharma_Code/blob/main/paper/vocab_priming_confound.pdf</link>
+      <description><![CDATA[文章网址：https://github.com/Palmerschallon/Dharma_Code/blob/main/paper/vocab_priming_confound.pdf
+评论网址：https://news.ycombinator.com/item?id=46955474
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/Palmerschallon/Dharma_Code/blob/main/paper/vocab_priming_confound.pdf</guid>
+      <pubDate>Tue, 10 Feb 2026 04:43:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>委员会问题：为什么 B2B 演示在形式结束后就消亡了</title>
+      <link>https://blog.skipup.ai/buying-committee-demo-scheduling-problem/</link>
+      <description><![CDATA[文章网址：https://blog.skipup.ai/buying-committee-demo-scheduling-problem/
+评论网址：https://news.ycombinator.com/item?id=46955464
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.skipup.ai/buying-committee-demo-scheduling-problem/</guid>
+      <pubDate>Tue, 10 Feb 2026 04:41:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Seedance2.live – 尝试多种 AI 图像和视频模型的地方</title>
+      <link>https://seedance2.live</link>
+      <description><![CDATA[我一直在尝试使用一堆 AI 图像和视频模型，厌倦了在不同站点之间跳转，因此我将它们全部放在一个地方。现在有超过 45 种模型可供您尝试 - 文本到图像、文本到视频、图像到视频、效果等。您可以自己选择一个模型，也可以让它自动为您选择一个模型。无需注册即可试用。老实说，我真的很期待 Seedance 2.0 — 它可以一次性制作多镜头视频，您可以向其提供图像、视频和音频作为参考，而不仅仅是文本。那是巨大的。 API 可用后，我会将其插入。很想听听您的想法。https://seedance2.live
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46955441
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.june.kim/power-diagrams-ad-auctions</guid>
-      <pubDate>Tue, 10 Feb 2026 02:20:55 GMT</pubDate>
+      <guid>https://seedance2.live</guid>
+      <pubDate>Tue, 10 Feb 2026 04:37:28 GMT</pubDate>
     </item>
     <item>
-      <title>密码数字谜题</title>
-      <link>http://www.cryptarithms.com/</link>
-      <description><![CDATA[文章网址：http://www.cryptarithms.com/
-评论网址：https://news.ycombinator.com/item?id=46954505
-积分：1
-# 条评论：0]]></description>
-      <guid>http://www.cryptarithms.com/</guid>
-      <pubDate>Tue, 10 Feb 2026 02:16:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>意义的阴影 (2018)</title>
-      <link>https://mag.uchicago.edu/arts-humanities/shades-meaning</link>
-      <description><![CDATA[文章网址：https://mag.uchicago.edu/arts- humanities/shades-meaning
-评论网址：https://news.ycombinator.com/item?id=46954500
+      <title>Show HN：Grok Video 10s – Grok AI 视频生成和创作者竞赛</title>
+      <link>https://grok-video.org/</link>
+      <description><![CDATA[我是 https://grok-video.org 的创建者，这是一个专为高质量 AI 视频生成而构建的网络平台。当前提供的功能：Grok 视频集成：使用 Grok 的视频架构全面支持文本到视频和图像到视频。快速渲染：针对速度进行优化，以帮助创作者进行迭代路线图：当前版本由 Grok 提供支持，但我正在积极致力于在未来的更新中支持其他开放权重模型，例如 Wan 2.1 和腾讯混元，以提供更多创意多样性。参加我们的比赛：我们刚刚启动了 Grok 视频大赛，以鼓励创作者分享他们最好的人工智能生成的剪辑。在这里查看：https://grok-video.org/grok-contest我很想听听您对用户体验以及您希望添加的任何功能的想法。网站：https://grok-video.org/
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46955437
 积分：2
 # 条评论：0]]></description>
-      <guid>https://mag.uchicago.edu/arts-humanities/shades-meaning</guid>
-      <pubDate>Tue, 10 Feb 2026 02:16:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>特朗普将废除具有里程碑意义的气候发现监管回滚</title>
-      <link>https://www.wsj.com/politics/policy/trump-to-repeal-landmark-climate-finding-in-huge-regulatory-rollback-ff7d58db</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/politics/policy/trump-to-repeal-landmark-climate-finding-in-huge-regulatory-rollback-ff7d58db
-评论网址：https://news.ycombinator.com/item?id=46954496
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.wsj.com/politics/policy/trump-to-repeal-landmark-climate-finding-in-huge-regulatory-rollback-ff7d58db</guid>
-      <pubDate>Tue, 10 Feb 2026 02:15:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>“历史上最反自行车的法案”——爱荷华州近乎全面禁止自行车的提案</title>
-      <link>https://www.cyclingweekly.com/news/the-most-anti-biking-bill-in-history-iowas-near-total-bike-ban-proposal-is-bizarre-and-alarming</link>
-      <description><![CDATA[文章网址： https://www.cyclingweekly.com/news/the-most-anti-biking-bill-in-history-iowas-near-total-bike-ban-proposal-is-bizarre-and-alarming
-评论网址：https://news.ycombinator.com/item?id=46954467
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.cyclingweekly.com/news/the-most-anti-biking-bill-in-history-iowas-near-total-bike-ban-proposal-is-bizarre-and-alarming</guid>
-      <pubDate>Tue, 10 Feb 2026 02:10:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lambda 持久函数</title>
-      <link>https://docs.aws.amazon.com/lambda/latest/dg/durable-functions.html</link>
-      <description><![CDATA[文章网址：https://docs.aws.amazon.com/lambda/latest/dg/durable-functions.html
-评论网址：https://news.ycombinator.com/item?id=46954452
-积分：1
-# 条评论：0]]></description>
-      <guid>https://docs.aws.amazon.com/lambda/latest/dg/durable-functions.html</guid>
-      <pubDate>Tue, 10 Feb 2026 02:09:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>基于属性的测试作为代理编码的可执行规范</title>
-      <link>https://kiro.dev/blog/property-based-testing/</link>
-      <description><![CDATA[文章网址：https://kiro.dev/blog/property-based-testing/
-评论网址：https://news.ycombinator.com/item?id=46954441
-积分：1
-# 条评论：0]]></description>
-      <guid>https://kiro.dev/blog/property-based-testing/</guid>
-      <pubDate>Tue, 10 Feb 2026 02:07:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitHub：我们暂停推出 GPT-5.3-Codex，以专注于平台可靠性</title>
-      <link>https://twitter.com/github/status/2021040916451164412</link>
-      <description><![CDATA[文章网址：https://twitter.com/github/status/2021040916451164412
-评论网址：https://news.ycombinator.com/item?id=46954414
-积分：2
-# 条评论：1]]></description>
-      <guid>https://twitter.com/github/status/2021040916451164412</guid>
-      <pubDate>Tue, 10 Feb 2026 02:03:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>SMTLIB 作为编译器 IR I</title>
-      <link>https://www.philipzucker.com/smt_compiler_i/</link>
-      <description><![CDATA[文章网址：https://www.philipzucker.com/smt_compiler_i/
-评论网址：https://news.ycombinator.com/item?id=46954397
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.philipzucker.com/smt_compiler_i/</guid>
-      <pubDate>Tue, 10 Feb 2026 02:00:37 GMT</pubDate>
+      <guid>https://grok-video.org/</guid>
+      <pubDate>Tue, 10 Feb 2026 04:36:56 GMT</pubDate>
     </item>
     </channel>
 </rss>
