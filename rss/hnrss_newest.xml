@@ -4,113 +4,111 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 10 Feb 2026 13:14:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 16:07:51 GMT</lastBuildDate>
     <item>
-      <title>Enphase 20周年</title>
-      <link>https://enphase.com/blog/message-ceo-20-years-enphase</link>
-      <description><![CDATA[文章网址：https://enphase.com/blog/message-ceo-20-years-enphase
-评论网址：https://news.ycombinator.com/item?id=46959204
-积分：1
-# 条评论：0]]></description>
-      <guid>https://enphase.com/blog/message-ceo-20-years-enphase</guid>
-      <pubDate>Tue, 10 Feb 2026 13:05:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么 JavaScript 需要结构化并发</title>
-      <link>https://frontside.com/effection/blog/2026-02-06-structured-concurrency-for-javascript/</link>
-      <description><![CDATA[文章网址：https://frontside.com/effection/blog/2026-02-06-structed-concurrency-for-javascript/
-评论网址：https://news.ycombinator.com/item?id=46959193
-积分：1
-# 条评论：1]]></description>
-      <guid>https://frontside.com/effection/blog/2026-02-06-structured-concurrency-for-javascript/</guid>
-      <pubDate>Tue, 10 Feb 2026 13:05:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：MemOS OpenClaw 插件现已上线</title>
-      <link>https://twitter.com/MemOS_dev/status/2019254160919769171</link>
-      <description><![CDATA[MemOS OpenClaw 插件现已上线！
-主要特点：
- 个人和记忆驱动 — 回忆过去来自 MemOS Cloud 的交互并适应您的工作流程。
- 安全且本地优先 - 在您的计算机上运行，​​云中的内存由您控制。
- Token-smart — 将内存卸载到 MemOS，与普通 OpenClaw 相比，减少了 LLM 调用并节省了成本。
- 即插即用 — 安装、启用、重新启动，您的代理就准备好了。无需复杂的设置。
+      <title>显示 HN：使用 Centia.io 进行 Vibe 编码</title>
+      <link>https://centia.io/docs/vibe-coding</link>
+      <description><![CDATA[Centia.io 现在提供专用的模型上下文协议 (MCP) 服务器，允许 AI 代理直接与 Centia.io 后端交互。以及全面的代理指南。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46959189
+评论网址：https://news.ycombinator.com/item?id=46961568
 积分：1
 # 条评论：0]]></description>
-      <guid>https://twitter.com/MemOS_dev/status/2019254160919769171</guid>
-      <pubDate>Tue, 10 Feb 2026 13:04:47 GMT</pubDate>
+      <guid>https://centia.io/docs/vibe-coding</guid>
+      <pubDate>Tue, 10 Feb 2026 15:56:29 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：用于 Claude 和 AI 助手的 GitScrum MCP 服务器</title>
-      <link>https://github.com/gitscrum-core/mcp-server</link>
-      <description><![CDATA[GitScrum MCP Server 为 GitScrum 带来了模型上下文协议支持，使 Claude、GitHub Copilot、Cursor 和其他 AI 助手能够管理您的任务、冲刺、时间跟踪、用户故事、史诗等。使用 TypeScript 构建。目前拥有 1 颗星 - 希望您能提供反馈和贡献！
+      <title>你可以用你的头来控制贪吃蛇游戏</title>
+      <link>https://sneck.1link.fun</link>
+      <description><![CDATA[文章网址：https://sneck.1link.fun
+评论网址：https://news.ycombinator.com/item?id=46961558
+积分：1
+# 条评论：0]]></description>
+      <guid>https://sneck.1link.fun</guid>
+      <pubDate>Tue, 10 Feb 2026 15:56:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>预测癌症症状轨迹需要纵向记忆</title>
+      <link>https://myaether.live/blog/predicting-cancer-symptom-trajectories-longitudinal-ehr</link>
+      <description><![CDATA[文章网址：https://myaether.live/blog/predicting-cancer-symptom-trajectories-longitudinal-ehr
+评论网址：https://news.ycombinator.com/item?id=46961522
+积分：1
+# 条评论：0]]></description>
+      <guid>https://myaether.live/blog/predicting-cancer-symptom-trajectories-longitudinal-ehr</guid>
+      <pubDate>Tue, 10 Feb 2026 15:54:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：一个简单的定价和资源限制库</title>
+      <link>https://github.com/dev-formata-io/limitr</link>
+      <description><![CDATA[嘿黑客新闻！
+没有人喜欢对定价进行编码；太糟糕了。它不应该占用我的时间，但它总是占用我的时间——太多了。定价总是需要改变，占用了宝贵的开发时间。我创建了一个简单的定价引擎，以便我可以在单个 YAML 文档中编写所有定价规则和资源限制，然后通过单个策略检查在任何地方强制执行它们。它简单、直观、可版本化、可审计，并且易于推理或快速更改，而不会使我的开发陷入困境。我的 CTO 朋友喜欢这个想法并希望使用它，因此我创建了这个开源库供每个人尝试我们还有一个托管版本，可用于添加 Stripe 计费和实时客户数据，以便您可以独立于代码库来制定定价。查看并告诉我您的想法！ :)
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46959187
-积分：1
+评论网址：https://news.ycombinator.com/item?id=46961521
+积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/gitscrum-core/mcp-server</guid>
-      <pubDate>Tue, 10 Feb 2026 13:04:41 GMT</pubDate>
+      <guid>https://github.com/dev-formata-io/limitr</guid>
+      <pubDate>Tue, 10 Feb 2026 15:54:38 GMT</pubDate>
     </item>
     <item>
-      <title>Stripe Minions – 端到端代理编码</title>
-      <link>https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents</link>
-      <description><![CDATA[文章网址：https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents
-评论网址：https://news.ycombinator.com/item?id=46959177
+      <title>盎司</title>
+      <link>https://www.warp.dev/oz</link>
+      <description><![CDATA[文章网址：https://www.warp.dev/oz
+评论网址：https://news.ycombinator.com/item?id=46961506
 积分：1
 # 条评论：0]]></description>
-      <guid>https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents</guid>
-      <pubDate>Tue, 10 Feb 2026 13:03:32 GMT</pubDate>
+      <guid>https://www.warp.dev/oz</guid>
+      <pubDate>Tue, 10 Feb 2026 15:53:41 GMT</pubDate>
     </item>
     <item>
-      <title>在学习的同时发展自己的游戏内初创公司</title>
-      <link>https://focusticker.live/</link>
-      <description><![CDATA[文章网址：https://focusticker.live/
-评论网址：https://news.ycombinator.com/item?id=46959173
+      <title>机构如何忘记如何移动</title>
+      <link>https://www.seeingthesystem.com/p/how-institutions-forget-how-to-move</link>
+      <description><![CDATA[文章网址：https://www.seeingthesystem.com/p/how-institutions-forget-how-to-move
+评论网址：https://news.ycombinator.com/item?id=46961503
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.seeingthesystem.com/p/how-institutions-forget-how-to-move</guid>
+      <pubDate>Tue, 10 Feb 2026 15:53:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我们热爱 AI 工作 – 为不会编写 Python 的人提供的 AI 工作</title>
+      <link>https://weloveaijobs.com</link>
+      <description><![CDATA[大多数 AI 求职板只是 PyTorch 和 CUDA 的过滤器。我们认为这忽略了最有趣的转变：人工智能正在成为新的“Excel”或“打字”。我们看到了巨大的差距，公司需要将法学硕士视为其堆栈标准部分的营销人员、产品经理和设计师，但这些角色被埋在“机器学习工程师”列表中。我们专门为人工智能是核心工作流程要求而不是基础设施任务的角色构建了一个委员会。如果这项工作需要通过代理和提示而不是训练模型将效率提高 10 倍，那么就在这里。“人工智能工作”对于非工程师来说是一个有用的类别，还是这只是“知识工作”的新定义？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46961498
+积分：1
+# 条评论：0]]></description>
+      <guid>https://weloveaijobs.com</guid>
+      <pubDate>Tue, 10 Feb 2026 15:53:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能是在帮助你做工作，还是只是帮你做事？</title>
+      <link>https://coyotetracks.org/blog/ai-work-vs-stuff/</link>
+      <description><![CDATA[文章网址：https://coyotetracks.org/blog/ai-work-vs-stuff/
+评论网址：https://news.ycombinator.com/item?id=46961481
+积分：2
+# 条评论：0]]></description>
+      <guid>https://coyotetracks.org/blog/ai-work-vs-stuff/</guid>
+      <pubDate>Tue, 10 Feb 2026 15:52:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Skly 是人工智能代理技能的市场</title>
+      <link>https://skly.ai</link>
+      <description><![CDATA[文章网址：https://skly.ai
+评论网址：https://news.ycombinator.com/item?id=46961474
 积分：1
 # 条评论：1]]></description>
-      <guid>https://focusticker.live/</guid>
-      <pubDate>Tue, 10 Feb 2026 13:03:24 GMT</pubDate>
+      <guid>https://skly.ai</guid>
+      <pubDate>Tue, 10 Feb 2026 15:51:58 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Askill – 具有 AI 安全评分功能的 AI 代理技能包管理器</title>
-      <link>https://news.ycombinator.com/submit</link>
-      <description><![CDATA[文章网址：https://news.ycombinator.com/submit
-评论网址：https://news.ycombinator.com/item?id=46959160
-积分：1
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/submit</guid>
-      <pubDate>Tue, 10 Feb 2026 13:01:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>我支付了 170 美元，得到的只是这个演示</title>
-      <link>https://www.marble.onl/posts/this_cost_170.html</link>
-      <description><![CDATA[文章网址：https://www.marble.onl/posts/this_cost_170.html
-评论网址：https://news.ycombinator.com/item?id=46959157
+      <title>Show HN：Asterbot，AI 代理，其中每项功能都是沙盒 WASM 组件</title>
+      <link>https://github.com/asterai-io/asterbot</link>
+      <description><![CDATA[Asterbot 是一个模块化 AI 代理，其中的每项功能（例如网络搜索、内存、LLM 提供程序）都是可交换的 WASM 组件，通过 WASI 沙箱化。组件只能访问您明确授予的内容（例如单个目录）。它们可以用任何语言（Rust、Go、Python、JS）编写，并从 asterai 注册表中提取。在底层，asterai 是一个基于 wasmtime 构建的 WASM 组件模型注册表和运行时。您发布一个组件，设置一个环境变量以将其授权为工具，asterbot 会自动发现并调用它。我构建这个组件是因为我认为 WASM 组件模型是构建软件的好方法，但生态系统缺少关键基础设施（尤其是开放的中央注册表）。 AI 代理感觉很自然，因为工具安全性是一个真正的问题，而 WASM 沙箱默认解决了这个问题。仍处于早期阶段，但存储库中的所有功能都经过测试并正常运行。很高兴回答问题！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46961468
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.marble.onl/posts/this_cost_170.html</guid>
-      <pubDate>Tue, 10 Feb 2026 13:01:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>微软技能</title>
-      <link>https://github.com/microsoft/skills</link>
-      <description><![CDATA[文章网址：https://github.com/microsoft/skills
-评论网址：https://news.ycombinator.com/item?id=46959155
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/microsoft/skills</guid>
-      <pubDate>Tue, 10 Feb 2026 13:01:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Vigil Network：我为 Stationeers 写了一个监控系统</title>
-      <link>https://stationeering.substack.com/p/vigil-network-architecture</link>
-      <description><![CDATA[文章网址：https://stationeering.substack.com/p/vigil-network-architecture
-评论网址：https://news.ycombinator.com/item?id=46959140
-积分：1
-# 条评论：0]]></description>
-      <guid>https://stationeering.substack.com/p/vigil-network-architecture</guid>
-      <pubDate>Tue, 10 Feb 2026 13:00:10 GMT</pubDate>
+      <guid>https://github.com/asterai-io/asterbot</guid>
+      <pubDate>Tue, 10 Feb 2026 15:51:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
