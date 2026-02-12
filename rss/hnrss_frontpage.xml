@@ -4,114 +4,116 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 12 Feb 2026 19:03:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 21:34:59 GMT</lastBuildDate>
     <item>
-      <title>Polis：大规模寻找共同点的开源平台</title>
-      <link>https://pol.is/home2</link>
-      <description><![CDATA[文章网址：https://pol.is/home2
-评论网址：https://news.ycombinator.com/item?id=46992815
+      <title>欢迎面临年龄验证挑战的 Discord 用户</title>
+      <link>https://matrix.org/blog/2026/02/welcome-discord/</link>
+      <description><![CDATA[文章网址：https://matrix.org/blog/2026/02/welcome-discord/
+评论网址：https://news.ycombinator.com/item?id=46995046
+积分：37
+# 条评论：3]]></description>
+      <guid>https://matrix.org/blog/2026/02/welcome-discord/</guid>
+      <pubDate>Thu, 12 Feb 2026 20:57:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>ICE 和 CBP 知道面部识别应用程序无法实现 DHS 所说的功能</title>
+      <link>https://www.techdirt.com/2026/02/12/ice-cbp-knew-facial-recognition-app-couldnt-do-what-dhs-says-it-could-deployed-it-anyway/</link>
+      <description><![CDATA[文章网址： https://www.techdirt.com/2026/02/12/ice-cbp-knew-facial-recognition-app-couldnt-do-what-dhs-says-it-could-deployed-it-anyway/
+评论网址：https://news.ycombinator.com/item?id=46995001
+积分：16
+# 条评论：1]]></description>
+      <guid>https://www.techdirt.com/2026/02/12/ice-cbp-knew-facial-recognition-app-couldnt-do-what-dhs-says-it-could-deployed-it-anyway/</guid>
+      <pubDate>Thu, 12 Feb 2026 20:53:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Realfood.gov 包含 Grok 搜索框</title>
+      <link>https://realfood.gov/#answers</link>
+      <description><![CDATA[文章网址：https://realfood.gov/#answers
+评论网址：https://news.ycombinator.com/item?id=46994907
+积分：28
+# 条评论：22]]></description>
+      <guid>https://realfood.gov/#answers</guid>
+      <pubDate>Thu, 12 Feb 2026 20:47:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过获取土地价值来修复零售业</title>
+      <link>https://worksinprogress.co/issue/fixing-retail-with-land-value-capture/</link>
+      <description><![CDATA[文章网址：https://worksinprogress.co/issue/fixing-retail-with-land-value-capture/
+评论网址：https://news.ycombinator.com/item?id=46994869
+积分：8
+# 条评论：5]]></description>
+      <guid>https://worksinprogress.co/issue/fixing-retail-with-land-value-capture/</guid>
+      <pubDate>Thu, 12 Feb 2026 20:44:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>“光盘”和“磁盘”有什么区别？</title>
+      <link>https://support.apple.com/en-gb/100749</link>
+      <description><![CDATA[文章网址：https://support.apple.com/en-gb/100749
+评论网址：https://news.ycombinator.com/item?id=46994636
+积分：16
+# 条评论：13]]></description>
+      <guid>https://support.apple.com/en-gb/100749</guid>
+      <pubDate>Thu, 12 Feb 2026 20:27:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>我今天被侮辱了——AI风格</title>
+      <link>https://forkingmad.blog/insulted-today-ai/</link>
+      <description><![CDATA[文章网址：https://forkingmad.blog/insulted-today-ai/
+评论网址：https://news.ycombinator.com/item?id=46994633
+积分：25
+# 条评论：14]]></description>
+      <guid>https://forkingmad.blog/insulted-today-ai/</guid>
+      <pubDate>Thu, 12 Feb 2026 20:27:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：从数据生成 Web 界面</title>
+      <link>https://github.com/puffinsoft/syntux</link>
+      <description><![CDATA[文章网址：https://github.com/puffinsoft/syntux
+评论网址：https://news.ycombinator.com/item?id=46994255
+积分：9
+# 条评论：1]]></description>
+      <guid>https://github.com/puffinsoft/syntux</guid>
+      <pubDate>Thu, 12 Feb 2026 19:59:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：HN在想什么？实时情绪和概念分析</title>
+      <link>https://ethos.devrupt.io/</link>
+      <description><![CDATA[嗨 HN，我制作了 Ethos，一个开源工具，用于可视化 Hacker News 上的讨论。它
+提取实体、跟踪情绪并按概念对讨论进行分组。查看：https://ethos.devrupt.io这是一个“预算构建”实验。我设法以低于 1 美元的价格运送它
+成本。最初我在 LLM 中使用 `qwen3-8b` 和 `qwen3-embedding-8b`
+用于嵌入，但我遇到了该模型的一些容量问题
+决定使用“llama-3.1-8b-instruct”来保持类似的预算，同时
+具有更高的吞吐量。在相同的价格范围内，您会使用什么 LLM 或嵌入？它会
+需要是一个支持结构化输出的模型。您认为使用“llama-3.1”然后使用更高版本有多糟糕
+维度嵌入？我最初想保留法学硕士和嵌入
+同一个家族，但我不确定其中是否有重要意义。回购：https://github.com/devrupt-io/ethos我正在寻找有关您最常发现哪些指标（情感与概念）的反馈
+有趣！欢迎 PR！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46993774
 积分：7
 # 条评论：0]]></description>
-      <guid>https://pol.is/home2</guid>
-      <pubDate>Thu, 12 Feb 2026 18:23:20 GMT</pubDate>
+      <guid>https://ethos.devrupt.io/</guid>
+      <pubDate>Thu, 12 Feb 2026 19:27:53 GMT</pubDate>
     </item>
     <item>
-      <title>GPT-5.3-Codex-Spark</title>
-      <link>https://openai.com/index/introducing-gpt-5-3-codex-spark/</link>
-      <description><![CDATA[文章网址：https://openai.com/index/introducing-gpt-5-3-codex-spark/
-评论网址：https://news.ycombinator.com/item?id=46992553
-积分：93
-# 条评论：33]]></description>
-      <guid>https://openai.com/index/introducing-gpt-5-3-codex-spark/</guid>
-      <pubDate>Thu, 12 Feb 2026 18:06:09 GMT</pubDate>
+      <title>Rari – Rust 驱动的 React 框架</title>
+      <link>https://rari.build/</link>
+      <description><![CDATA[文章网址：https://rari.build/
+评论网址：https://news.ycombinator.com/item?id=46993596
+积分：46
+# 条评论：27]]></description>
+      <guid>https://rari.build/</guid>
+      <pubDate>Thu, 12 Feb 2026 19:15:47 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Pgclaw – 每行都有一个“Clawdbot”，包含 400 行 Postgres SQL</title>
-      <link>https://github.com/calebwin/pgclaw</link>
-      <description><![CDATA[嗨，HN，一直在研究一种完全在 Postgres 数据库内运行代理的简单方法，“每行一个代理”。您可以用它构建的东西：
-* 您自己的代理协调器
-* A personal assistant with time travel
-*（更多我想不到的事情）还没有完全实现，但我想以当前状态分享它。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46992136
-积分：5
+      <title>如何拥有糟糕的职业生涯 – 大卫·帕特森 (2016) [视频]</title>
+      <link>https://www.youtube.com/watch?v=Rn1w4MRHIhc</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=Rn1w4MRHIhc
+评论网址：https://news.ycombinator.com/item?id=46993397
+积分：11
 # 条评论：0]]></description>
-      <guid>https://github.com/calebwin/pgclaw</guid>
-      <pubDate>Thu, 12 Feb 2026 17:42:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>启动 HN：Omnara (YC S25) – 从任何地方运行 Claude 代码和 Codex</title>
-      <link>https://news.ycombinator.com/item?id=46991591</link>
-      <description><![CDATA[]]></description>
-      <guid>https://news.ycombinator.com/item?id=46991591</guid>
-      <pubDate>Thu, 12 Feb 2026 17:14:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>闭嘴：评论拦截器</title>
-      <link>https://rickyromero.com/shutup/</link>
-      <description><![CDATA[文章网址：https://rickyromero.com/shutup/
-评论网址：https://news.ycombinator.com/item?id=46991435
-积分：36
-# 条评论：14]]></description>
-      <guid>https://rickyromero.com/shutup/</guid>
-      <pubDate>Thu, 12 Feb 2026 17:05:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>艾博士</title>
-      <link>https://www.0xsid.com/blog/aidr</link>
-      <description><![CDATA[文章网址：https://www.0xsid.com/blog/aidr
-评论网址：https://news.ycombinator.com/item?id=46991394
-积分：282
-评论数：140]]></description>
-      <guid>https://www.0xsid.com/blog/aidr</guid>
-      <pubDate>Thu, 12 Feb 2026 17:03:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>双子座3深度思考</title>
-      <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/</link>
-      <description><![CDATA[https://twitter.com/GoogleDeepMind/status/202198151040070909...
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46991240
-积分：185
-# 条评论：78]]></description>
-      <guid>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/</guid>
-      <pubDate>Thu, 12 Feb 2026 16:55:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>MiniMax M2.5 发布：SWE 平台验证率为 80.2%</title>
-      <link>https://www.minimax.io/news/minimax-m25</link>
-      <description><![CDATA[文章网址：https://www.minimax.io/news/minimax-m25
-评论网址：https://news.ycombinator.com/item?id=46991154
-积分：80
-# 条评论：16]]></description>
-      <guid>https://www.minimax.io/news/minimax-m25</guid>
-      <pubDate>Thu, 12 Feb 2026 16:51:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>塔克拉玛干沙漠种植了如此多的树木，变成了碳汇</title>
-      <link>https://www.livescience.com/planet-earth/plants/china-has-planted-so-many-trees-around-the-taklamakan-desert-that-its-turned-this-biological-void-into-a-carbon-sink</link>
-      <description><![CDATA[文章网址： https://www.livescience.com/planet-earth/plants/china-has-planted-so-many-trees-around-the-taklamakan-desert-that-its-turned-this-biological-void-into-a-carbon-sink
-评论网址：https://news.ycombinator.com/item?id=46990855
-积分：82
-# 条评论：21]]></description>
-      <guid>https://www.livescience.com/planet-earth/plants/china-has-planted-so-many-trees-around-the-taklamakan-desert-that-its-turned-this-biological-void-into-a-carbon-sink</guid>
-      <pubDate>Thu, 12 Feb 2026 16:32:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：20 多个 Claude Code 代理在实际工作中进行协调（开源）</title>
-      <link>https://github.com/mutable-state-inc/lean-collab</link>
-      <description><![CDATA[单代理 LLM 无法处理长时间运行的复杂任务。我们开源了一个多代理协调器，我们一直用它来处理长时间运行的 LLM 任务。我们发现单个 LLM 代理往往会停止、循环或生成无法编译的代码，因此我们为代理构建了一个工具，以便在工作进行时协调共享上下文。它是如何工作的：
-1. 管理任务分解的 Orchestrator 代理
-2. 并行工作的子代理
-3. 订阅任务状态和进度
-4. 代理之间实时共享中间发现我们在普特南级数学问题上对此进行了测试，但该模式可推广到重构、应用程序构建和长期研究等方面。
-它被打包为 Claude Code 技能，设计得小巧、可读且可修改。使用它、破坏它，告诉我下一步应该尝试和运行哪些工作负载！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46990733
-积分：23
-# 条评论：22]]></description>
-      <guid>https://github.com/mutable-state-inc/lean-collab</guid>
-      <pubDate>Thu, 12 Feb 2026 16:23:37 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=Rn1w4MRHIhc</guid>
+      <pubDate>Thu, 12 Feb 2026 19:01:54 GMT</pubDate>
     </item>
     </channel>
 </rss>

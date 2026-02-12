@@ -4,110 +4,143 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 12 Feb 2026 19:03:40 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 21:35:12 GMT</lastBuildDate>
     <item>
-      <title>Show HN：AccessLint – iOS 可访问性静态分析（25 条 WCAG 规则）</title>
-      <link>https://accesslint.app</link>
-      <description><![CDATA[嘿 HN，我为 iOS 可访问性构建了一个静态分析器。它会读取您的 Swift 源文件并报告辅助功能违规行为 - 行号、严重性、修复建议以及每个发现对应的 WCAG 成功标准。涵盖 SwiftUI 和 UIKit 的 25 条规则：缺少 VoiceOver 标签、破坏动态类型的固定字体大小、没有装饰标记的图像、没有标签的按钮、低于 44pt 的触摸目标、缺少减少运动检查、方向锁定、标题结构问题等等。问题：每个现有的 iOS 辅助功能工具都需要一个正在运行的应用程序。 Xcode Accessibility Inspector 是手动的——您一次点击一个屏幕。 VoiceOver 测试很重要，但速度缓慢且不可自动化。两者都在 CI 中运行。AccessLint 在源代码级别工作，与 SwiftLint 类似，但专注于可访问性。它解析您的 Swift 文件，应用规则，并使用 CI 可以控制的代码退出。每个发现都映射到 WCAG 2.1 成功标准（1.1.1、4.1.2、1.4.4 等），因此当您的合规团队询问“我们是 WCAG AA 吗？”时您可以将它们指向报告。安装：brew tapsynctek-llc/accesslint &amp;&amp;brew install accesslint
-    accesslint 分析 --path ./Sources
+      <title>Sandcastle：基于 Web 的 Linux 桌面环境</title>
+      <link>https://maxleiter.com/blog/sandcastle</link>
+      <description><![CDATA[文章网址：https://maxleiter.com/blog/sandcastle
+评论网址：https://news.ycombinator.com/item?id=46995370
+积分：1
+# 条评论：0]]></description>
+      <guid>https://maxleiter.com/blog/sandcastle</guid>
+      <pubDate>Thu, 12 Feb 2026 21:21:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>逃离数字奴隶制：也门程序员的呐喊</title>
+      <link>https://paragraph.com/@0x4fd3729a4fedf54a74b73d93f7f775a1ef520cec/noor-the-sovereign-ai-truth-from-yemen?referrer=0x4fd3729a4fEdf54a74b73d93F7f775A1EF520CEC</link>
+      <description><![CDATA[文章网址： https://paragraph.com/@0x4fd3729a4fedf54a74b73d93f7f775a1ef520cec/noor-the-soverei gn-ai-truth-from-yemen?referrer=0x4fd3729a4fEdf54a74b73d93F7f775A1EF520CEC
+评论网址：https://news.ycombinator.com/item?id=46995337
+积分：1
+# 条评论：0]]></description>
+      <guid>https://paragraph.com/@0x4fd3729a4fedf54a74b73d93f7f775a1ef520cec/noor-the-sovereign-ai-truth-from-yemen?referrer=0x4fd3729a4fEdf54a74b73d93F7f775A1EF520CEC</guid>
+      <pubDate>Thu, 12 Feb 2026 21:19:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：一次性购买的 ScreenStudio 替代方案</title>
+      <link>https://aftercut.studio/</link>
+      <description><![CDATA[文章网址：https://aftercut.studio/
+评论网址：https://news.ycombinator.com/item?id=46995331
+积分：1
+# 条评论：1]]></description>
+      <guid>https://aftercut.studio/</guid>
+      <pubDate>Thu, 12 Feb 2026 21:19:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：多信号CLIP/HSV/HOG评分的图像提示游戏</title>
+      <link>https://promptmatch.app</link>
+      <description><![CDATA[最初将其构建为一个小型竞技游戏，然后它变成了一个有用的提示工程实践循环。核心机制：用户看到目标图像，编写提示，模型生成输出，然后我们对相似​​度进行评分。
 
-它适用于任何运行 macOS 的 CI - 只需在工作流程中通过 Homebrew 安装并运行 CLI。退出代码可让您在可访问性回归上控制 PR。免费层：10 条规则，终端输出。团队（19.99 美元/月）：所有 25 条规则、JSON 和 Markdown 报告、用于跟踪回归的云基线。 Enterprise（49.99 美元/月）：自定义规则和 SSO。我是在 SyncTek LLC 构建此项目的独立创始人。开始是因为我不断发现生产中的可访问性错误，这些错误可能是 linter 在 PR 阶段发现的。很乐意回答有关规则引擎、分析方法或其他任何问题的问题。文档：https://accesslint.app/docs.html
+  评分使用多个信号，因此一个指标不会占主导地位：
+
+  1. 语义对齐（CLIP）
+  - user_prompt -&gt; target_image（提示在概念上与目标一致吗？）
+  - user_image -&gt; target_image（生成的结果在语义上与目标一致吗？）
+
+  2. 迅速忠诚（CLIP）
+  - user_prompt -&gt; user_image（生成实际上遵循提交的提示吗？）
+
+  3. 颜色相似度
+  - 用于调色板/色调分布的 HSV 直方图重叠（用户图像与目标图像）
+
+  4.结构相似性
+  - 用于布局/边缘组合的 HOG-lite 梯度/方向比较（用户图像与目标图像）
+
+  最终分数是加权混合（内容信号加权最高），标准化为面向玩家的分数。
+
+  为什么采用这种方法：
+  - 仅 CLIP 可能会高估语义相关但视觉上偏离的输出
+  - 仅颜色忽略结构/含义
+  - 仅结构错过了语义/风格
+  - 结合提示图像和图像图像信号减少了排名中明显的误报
+
+  堆栈：
+  - Spring Boot后端
+  - 单独的 CLIP 评分容器
+  - 外部图像生成服务
+  - Next.js 前端
+  - PostgreSQL
+
+  希望获得以下方面的技术反馈：
+  - 公制称重/校准
+  - 我应该进行基准测试的已知故障模式
+  - HOG-lite 的替代品，用于快速结构评分
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46993308
-积分：1
-# 条评论：0]]></description>
-      <guid>https://accesslint.app</guid>
-      <pubDate>Thu, 12 Feb 2026 18:56:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>社交媒体年龄验证充满风险且回报不明确</title>
-      <link>https://www.salon.com/2026/02/11/social-media-age-verification-is-full-of-risks-and-unclear-rewards/</link>
-      <description><![CDATA[文章网址：https://www.salon.com/2026/02/11/social-media-age-verification-is-full-of-risks-and-unclear-rewards/
-评论网址：https://news.ycombinator.com/item?id=46993305
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.salon.com/2026/02/11/social-media-age-verification-is-full-of-risks-and-unclear-rewards/</guid>
-      <pubDate>Thu, 12 Feb 2026 18:55:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国环保局推翻了气候变化调查结果，剥夺了自己监管排放的能力</title>
-      <link>https://www.nbcnews.com/science/climate-change/epa-reverses-endangerment-climate-change-finding-rcna258452</link>
-      <description><![CDATA[文章网址：https://www.nbcnews.com/science/climate-change/epa-reverses-endangerment-climate-change-finding-rcna258452
-评论网址：https://news.ycombinator.com/item?id=46993299
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.nbcnews.com/science/climate-change/epa-reverses-endangerment-climate-change-finding-rcna258452</guid>
-      <pubDate>Thu, 12 Feb 2026 18:55:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>为不阅读代码辩护</title>
-      <link>https://www.benshoemaker.us/writing/in-defense-of-not-reading-the-code/</link>
-      <description><![CDATA[文章网址：https://www.benshoemaker.us/writing/in-defense-of-not-reading-the-code/
-评论网址：https://news.ycombinator.com/item?id=46993283
-积分：2
-# 条评论：1]]></description>
-      <guid>https://www.benshoemaker.us/writing/in-defense-of-not-reading-the-code/</guid>
-      <pubDate>Thu, 12 Feb 2026 18:53:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>初创公司的初创公司，几乎没有人记得</title>
-      <link>https://efferent.app</link>
-      <description><![CDATA[文章网址：https://efferent.app
-评论网址：https://news.ycombinator.com/item?id=46993276
-积分：2
-# 条评论：1]]></description>
-      <guid>https://efferent.app</guid>
-      <pubDate>Thu, 12 Feb 2026 18:53:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>诺特定理</title>
-      <link>https://grokipedia.com/page/Noether%27s_theorem</link>
-      <description><![CDATA[文章网址：https://grokipedia.com/page/Noether%27s_theorem
-评论网址：https://news.ycombinator.com/item?id=46993271
-积分：2
-# 条评论：0]]></description>
-      <guid>https://grokipedia.com/page/Noether%27s_theorem</guid>
-      <pubDate>Thu, 12 Feb 2026 18:52:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple 以安全为重点的开发者活动</title>
-      <link>https://twitter.com/radian/status/2014381898760651046</link>
-      <description><![CDATA[文章网址：https://twitter.com/radian/status/2014381898760651046
-评论网址：https://news.ycombinator.com/item?id=46993253
-积分：1
-# 条评论：0]]></description>
-      <guid>https://twitter.com/radian/status/2014381898760651046</guid>
-      <pubDate>Thu, 12 Feb 2026 18:51:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>DanceJump for YouTube – 节奏舞蹈游戏 – v0.4.1 发布</title>
-      <link>https://chromewebstore.google.com/detail/dancejump-for-youtube-rhy/hhdeflibphdghcpblkekakmbennfcaci</link>
-      <description><![CDATA[文章网址：https://chromewebstore.google.com/detail/dancejump-for-youtube-rhy/hhdeflibphdghcpblkekakmbennfcaci
-评论网址：https://news.ycombinator.com/item?id=46993248
+评论网址：https://news.ycombinator.com/item?id=46995321
 积分：1
 # 条评论：1]]></description>
-      <guid>https://chromewebstore.google.com/detail/dancejump-for-youtube-rhy/hhdeflibphdghcpblkekakmbennfcaci</guid>
-      <pubDate>Thu, 12 Feb 2026 18:51:13 GMT</pubDate>
+      <guid>https://promptmatch.app</guid>
+      <pubDate>Thu, 12 Feb 2026 21:18:03 GMT</pubDate>
     </item>
     <item>
-      <title>阿拉巴马州提供了三个修复贫困城市学校的技巧</title>
-      <link>https://www.economist.com/united-states/2026/02/12/alabama-offers-three-tricks-to-fix-poor-urban-schools</link>
-      <description><![CDATA[文章网址：https://www.economist.com/united-states/2026/02/12/alabama-offers-三-tricks-to-fix-poor-urban-schools
-评论网址：https://news.ycombinator.com/item?id=46993238
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.economist.com/united-states/2026/02/12/alabama-offers-three-tricks-to-fix-poor-urban-schools</guid>
-      <pubDate>Thu, 12 Feb 2026 18:50:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Dyad 2.0：代理人工智能对计算机语言的未来意味着什么</title>
-      <link>https://juliahub.com/blog/announcing-dyad-2.0</link>
-      <description><![CDATA[文章网址：https://juliahub.com/blog/announcing-dyad-2.0
-评论网址：https://news.ycombinator.com/item?id=46993229
+      <title>Google 识别出蒸馏攻击中使用的超过 10 万条提示</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use</link>
+      <description><![CDATA[文章网址：https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use
+评论网址：https://news.ycombinator.com/item?id=46995296
 积分：2
 # 条评论：0]]></description>
-      <guid>https://juliahub.com/blog/announcing-dyad-2.0</guid>
-      <pubDate>Thu, 12 Feb 2026 18:49:49 GMT</pubDate>
+      <guid>https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use</guid>
+      <pubDate>Thu, 12 Feb 2026 21:16:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>WC3UI – 以魔兽争霸III界面为主题的组件库</title>
+      <link>https://wc3ui.banteg.xyz/</link>
+      <description><![CDATA[文章网址：https://wc3ui.banteg.xyz/
+评论网址：https://news.ycombinator.com/item?id=46995282
+积分：1
+# 条评论：1]]></description>
+      <guid>https://wc3ui.banteg.xyz/</guid>
+      <pubDate>Thu, 12 Feb 2026 21:15:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>数据代理目录</title>
+      <link>https://codamail.com/articles/data-broker-directory/</link>
+      <description><![CDATA[文章网址：https://codamail.com/articles/data-broker-directory/
+评论网址：https://news.ycombinator.com/item?id=46995271
+积分：2
+# 条评论：0]]></description>
+      <guid>https://codamail.com/articles/data-broker-directory/</guid>
+      <pubDate>Thu, 12 Feb 2026 21:14:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：海王保护您的 OpenClaw 秘密</title>
+      <link>https://github.com/tech4242/aquaman</link>
+      <description><![CDATA[创建此代理和插件设置以隔离凭据。希望对于任何担心自己的凭证和供应链攻击的人来说，这是一个受欢迎的补丁。 OpenClaw 的开放性很酷，但这里有一些电池。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=46995243
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/tech4242/aquaman</guid>
+      <pubDate>Thu, 12 Feb 2026 21:12:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Spotify 称其最优秀的开发人员自 12 月以来未编写过一行代码</title>
+      <link>https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/</link>
+      <description><![CDATA[文章网址： https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-writing-a-line-of-code-since-december-thanks-to-ai/
+评论网址：https://news.ycombinator.com/item?id=46995241
+积分：1
+# 条评论：1]]></description>
+      <guid>https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/</guid>
+      <pubDate>Thu, 12 Feb 2026 21:12:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>我不希望人工智能擅长这个</title>
+      <link>https://robbyonrails.com/articles/2026/02/12/i-didnt-want-ai-to-be-good-at-this/</link>
+      <description><![CDATA[文章网址：https://robbyonrails.com/articles/2026/02/12/i-didnt-want-ai-to-be-good-at-this/
+评论网址：https://news.ycombinator.com/item?id=46995222
+积分：4
+# 条评论：1]]></description>
+      <guid>https://robbyonrails.com/articles/2026/02/12/i-didnt-want-ai-to-be-good-at-this/</guid>
+      <pubDate>Thu, 12 Feb 2026 21:10:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
