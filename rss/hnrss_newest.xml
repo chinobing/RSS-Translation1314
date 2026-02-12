@@ -4,111 +4,110 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 12 Feb 2026 15:54:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 19:03:40 GMT</lastBuildDate>
     <item>
-      <title>暗黑破坏神 II：复活 – 术士的统治</title>
-      <link>https://diablo2.blizzard.com/en-us/</link>
-      <description><![CDATA[文章网址：https://diablo2.blizzard.com/en-us/
-评论网址：https://news.ycombinator.com/item?id=46990258
-积分：1
-# 条评论：0]]></description>
-      <guid>https://diablo2.blizzard.com/en-us/</guid>
-      <pubDate>Thu, 12 Feb 2026 15:47:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPU 基础设施的未来（租赁 > 拥有基础设施）[视频]</title>
-      <link>https://www.youtube.com/watch?v=AsQwwvvRlW4</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=AsQwwvvRlW4
-评论网址：https://news.ycombinator.com/item?id=46990254
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=AsQwwvvRlW4</guid>
-      <pubDate>Thu, 12 Feb 2026 15:47:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChargePoint 数据显示新的电动汽车瓶颈正在形成</title>
-      <link>https://electrek.co/2026/02/11/chargepoint-data-shows-a-new-ev-bottleneck-forming/</link>
-      <description><![CDATA[文章网址：https://electrek.co/2026/02/11/chargepoint-data-shows-a-new-ev-bottleneck-forming/
-评论网址：https://news.ycombinator.com/item?id=46990233
-积分：1
-# 条评论：0]]></description>
-      <guid>https://electrek.co/2026/02/11/chargepoint-data-shows-a-new-ev-bottleneck-forming/</guid>
-      <pubDate>Thu, 12 Feb 2026 15:45:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude 更喜欢 JSON 而不是 Markdown</title>
-      <link>https://capsule.endor.dev?gist=40cb2bb9e073fadd772c92232c6016c8</link>
-      <description><![CDATA[文章网址：https://capsule.endor.dev?gist=40cb2bb9e073fadd772c92232c6016c8
-评论网址：https://news.ycombinator.com/item?id=46990230
-积分：2
-# 条评论：0]]></description>
-      <guid>https://capsule.endor.dev?gist=40cb2bb9e073fadd772c92232c6016c8</guid>
-      <pubDate>Thu, 12 Feb 2026 15:45:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Shortcut.ai 是一款出色的 Excel 代理（以及关于 AI 取代 Prof 服务的想法）</title>
-      <link>https://theautomatedoperator.substack.com/p/shortcutai-is-crazy-good-for-excel</link>
-      <description><![CDATA[文章网址：https://theautomatedoperator.substack.com/p/shortcutai-is-crazy-good-for-excel
-评论网址：https://news.ycombinator.com/item?id=46990206
-积分：1
-# 条评论：0]]></description>
-      <guid>https://theautomatedoperator.substack.com/p/shortcutai-is-crazy-good-for-excel</guid>
-      <pubDate>Thu, 12 Feb 2026 15:43:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我建立了一个“代理分数”来衡量你的手机对你的控制程度</title>
-      <link>https://apps.apple.com/us/app/superagency/id6757364702</link>
-      <description><![CDATA[嘿 HN，我一直在尝试手机排毒应用程序，但它们都给人一种惩罚性的感觉——就像我在和自己作斗争一样。因此，我构建了一些不同的东西：一种诊断工具，可以将电话控制作为单个数字 (0-100) 进行测量。您的代理机构得分将屏幕时间、接听次数、通知模式和应用程序使用情况合并为一个指标。进行 3 分钟评估，获取分数 + 针对您的特定设置的个性化行动计划。免费评估，持续跟踪额外费用。希望获得有关评分算法或用户体验的反馈。您想查看哪些指标？顺便说一句，您也可以在 Mac 上尝试。链接：https://apps.apple.com/us/app/superagency/id6757364702
+      <title>Show HN：AccessLint – iOS 可访问性静态分析（25 条 WCAG 规则）</title>
+      <link>https://accesslint.app</link>
+      <description><![CDATA[嘿 HN，我为 iOS 可访问性构建了一个静态分析器。它会读取您的 Swift 源文件并报告辅助功能违规行为 - 行号、严重性、修复建议以及每个发现对应的 WCAG 成功标准。涵盖 SwiftUI 和 UIKit 的 25 条规则：缺少 VoiceOver 标签、破坏动态类型的固定字体大小、没有装饰标记的图像、没有标签的按钮、低于 44pt 的触摸目标、缺少减少运动检查、方向锁定、标题结构问题等等。问题：每个现有的 iOS 辅助功能工具都需要一个正在运行的应用程序。 Xcode Accessibility Inspector 是手动的——您一次点击一个屏幕。 VoiceOver 测试很重要，但速度缓慢且不可自动化。两者都在 CI 中运行。AccessLint 在源代码级别工作，与 SwiftLint 类似，但专注于可访问性。它解析您的 Swift 文件，应用规则，并使用 CI 可以控制的代码退出。每个发现都映射到 WCAG 2.1 成功标准（1.1.1、4.1.2、1.4.4 等），因此当您的合规团队询问“我们是 WCAG AA 吗？”时您可以将它们指向报告。安装：brew tapsynctek-llc/accesslint &amp;&amp;brew install accesslint
+    accesslint 分析 --path ./Sources
+
+它适用于任何运行 macOS 的 CI - 只需在工作流程中通过 Homebrew 安装并运行 CLI。退出代码可让您在可访问性回归上控制 PR。免费层：10 条规则，终端输出。团队（19.99 美元/月）：所有 25 条规则、JSON 和 Markdown 报告、用于跟踪回归的云基线。 Enterprise（49.99 美元/月）：自定义规则和 SSO。我是在 SyncTek LLC 构建此项目的独立创始人。开始是因为我不断发现生产中的可访问性错误，这些错误可能是 linter 在 PR 阶段发现的。很乐意回答有关规则引擎、分析方法或其他任何问题的问题。文档：https://accesslint.app/docs.html
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46990204
-积分：2
+评论网址：https://news.ycombinator.com/item?id=46993308
+积分：1
 # 条评论：0]]></description>
-      <guid>https://apps.apple.com/us/app/superagency/id6757364702</guid>
-      <pubDate>Thu, 12 Feb 2026 15:43:28 GMT</pubDate>
+      <guid>https://accesslint.app</guid>
+      <pubDate>Thu, 12 Feb 2026 18:56:08 GMT</pubDate>
     </item>
     <item>
-      <title>在浏览器终端中显示 HN: Void Walkers – 小队战术</title>
-      <link>https://void-cmd.web.app/</link>
-      <description><![CDATA[文章网址：https://void-cmd.web.app/
-评论网址：https://news.ycombinator.com/item?id=46990195
+      <title>社交媒体年龄验证充满风险且回报不明确</title>
+      <link>https://www.salon.com/2026/02/11/social-media-age-verification-is-full-of-risks-and-unclear-rewards/</link>
+      <description><![CDATA[文章网址：https://www.salon.com/2026/02/11/social-media-age-verification-is-full-of-risks-and-unclear-rewards/
+评论网址：https://news.ycombinator.com/item?id=46993305
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.salon.com/2026/02/11/social-media-age-verification-is-full-of-risks-and-unclear-rewards/</guid>
+      <pubDate>Thu, 12 Feb 2026 18:55:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国环保局推翻了气候变化调查结果，剥夺了自己监管排放的能力</title>
+      <link>https://www.nbcnews.com/science/climate-change/epa-reverses-endangerment-climate-change-finding-rcna258452</link>
+      <description><![CDATA[文章网址：https://www.nbcnews.com/science/climate-change/epa-reverses-endangerment-climate-change-finding-rcna258452
+评论网址：https://news.ycombinator.com/item?id=46993299
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nbcnews.com/science/climate-change/epa-reverses-endangerment-climate-change-finding-rcna258452</guid>
+      <pubDate>Thu, 12 Feb 2026 18:55:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>为不阅读代码辩护</title>
+      <link>https://www.benshoemaker.us/writing/in-defense-of-not-reading-the-code/</link>
+      <description><![CDATA[文章网址：https://www.benshoemaker.us/writing/in-defense-of-not-reading-the-code/
+评论网址：https://news.ycombinator.com/item?id=46993283
+积分：2
+# 条评论：1]]></description>
+      <guid>https://www.benshoemaker.us/writing/in-defense-of-not-reading-the-code/</guid>
+      <pubDate>Thu, 12 Feb 2026 18:53:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>初创公司的初创公司，几乎没有人记得</title>
+      <link>https://efferent.app</link>
+      <description><![CDATA[文章网址：https://efferent.app
+评论网址：https://news.ycombinator.com/item?id=46993276
+积分：2
+# 条评论：1]]></description>
+      <guid>https://efferent.app</guid>
+      <pubDate>Thu, 12 Feb 2026 18:53:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>诺特定理</title>
+      <link>https://grokipedia.com/page/Noether%27s_theorem</link>
+      <description><![CDATA[文章网址：https://grokipedia.com/page/Noether%27s_theorem
+评论网址：https://news.ycombinator.com/item?id=46993271
+积分：2
+# 条评论：0]]></description>
+      <guid>https://grokipedia.com/page/Noether%27s_theorem</guid>
+      <pubDate>Thu, 12 Feb 2026 18:52:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple 以安全为重点的开发者活动</title>
+      <link>https://twitter.com/radian/status/2014381898760651046</link>
+      <description><![CDATA[文章网址：https://twitter.com/radian/status/2014381898760651046
+评论网址：https://news.ycombinator.com/item?id=46993253
+积分：1
+# 条评论：0]]></description>
+      <guid>https://twitter.com/radian/status/2014381898760651046</guid>
+      <pubDate>Thu, 12 Feb 2026 18:51:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>DanceJump for YouTube – 节奏舞蹈游戏 – v0.4.1 发布</title>
+      <link>https://chromewebstore.google.com/detail/dancejump-for-youtube-rhy/hhdeflibphdghcpblkekakmbennfcaci</link>
+      <description><![CDATA[文章网址：https://chromewebstore.google.com/detail/dancejump-for-youtube-rhy/hhdeflibphdghcpblkekakmbennfcaci
+评论网址：https://news.ycombinator.com/item?id=46993248
 积分：1
 # 条评论：1]]></description>
-      <guid>https://void-cmd.web.app/</guid>
-      <pubDate>Thu, 12 Feb 2026 15:42:34 GMT</pubDate>
+      <guid>https://chromewebstore.google.com/detail/dancejump-for-youtube-rhy/hhdeflibphdghcpblkekakmbennfcaci</guid>
+      <pubDate>Thu, 12 Feb 2026 18:51:13 GMT</pubDate>
     </item>
     <item>
-      <title>Karpathy 的 JavaScript 微型法学硕士</title>
-      <link>https://github.com/beachdevs/gptjs</link>
-      <description><![CDATA[文章网址：https://github.com/beachdevs/gptjs
-评论网址：https://news.ycombinator.com/item?id=46990184
+      <title>阿拉巴马州提供了三个修复贫困城市学校的技巧</title>
+      <link>https://www.economist.com/united-states/2026/02/12/alabama-offers-three-tricks-to-fix-poor-urban-schools</link>
+      <description><![CDATA[文章网址：https://www.economist.com/united-states/2026/02/12/alabama-offers-三-tricks-to-fix-poor-urban-schools
+评论网址：https://news.ycombinator.com/item?id=46993238
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.economist.com/united-states/2026/02/12/alabama-offers-three-tricks-to-fix-poor-urban-schools</guid>
+      <pubDate>Thu, 12 Feb 2026 18:50:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dyad 2.0：代理人工智能对计算机语言的未来意味着什么</title>
+      <link>https://juliahub.com/blog/announcing-dyad-2.0</link>
+      <description><![CDATA[文章网址：https://juliahub.com/blog/announcing-dyad-2.0
+评论网址：https://news.ycombinator.com/item?id=46993229
 积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/beachdevs/gptjs</guid>
-      <pubDate>Thu, 12 Feb 2026 15:41:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>LED 进入纳米级，但效率障碍挑战着迄今为止最小的 LED</title>
-      <link>https://spectrum.ieee.org/nanoled-research-approaches</link>
-      <description><![CDATA[文章网址：https://spectrum.ieee.org/nanoled-research-approaches
-评论网址：https://news.ycombinator.com/item?id=46990175
-积分：1
-# 条评论：0]]></description>
-      <guid>https://spectrum.ieee.org/nanoled-research-approaches</guid>
-      <pubDate>Thu, 12 Feb 2026 15:40:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Tako AI – 具有自然语言的 Okta 代理（零幻觉）</title>
-      <link>https://github.com/fctr-id/okta-ai-agent</link>
-      <description><![CDATA[您好，HN，每周，我都会看到 Okta 管理员花费大量时间回答安全团队提出的临时问题：“谁有权访问 Salesforce？”、“查找所有具有 GitHub 访问权限但在 30 天内未使用 MFA 的承包商。”答案总是涉及同样痛苦的循环：挖掘缓慢的 Web 控制台、链接 API 调用、关联 CSV、编写一次性 Python 脚本。下周重复。我花了 12 个月构建 Tako AI 来解决这个问题。您用简单的英语提出问题，它会返回经过验证的数据。GitHub：https://github.com/fctr-id/okta-ai-agent一条规则：零幻觉。在身份和访问管理中，错误答案比没有答案更糟糕。如果 AI 告诉您的 CISO 承包商实际上没有管理员访问权限，那么这就是安全事件。 Tako 从不“预测”答案。它编写代码来查找答案，执行它并返回原始结果。问同一个问题两次，您会得到相同的数据。最困难的问题：扩展到 107 个以上 API 端点大多数 AI 代理都无法使用 10-20 个工具。他们产生幻觉参数、调用错误的端点、发明不存在的字段。我们在 12 个月内经历了五次架构重写。每次迭代：新的 LLM 下降（GPT-4、Claude 3.5），我们重建代理，达到上下文限制，看着它滚雪球变成乱码。突破不在于更大的上下文窗口，而在于精确的上下文工程。代理不是将 107 个端点定义塞进提示中，而是动态地发现手头任务的正确规范。它读取所需的特定端点的自定义 JSON API 文档文件，构建经过验证的请求，然后执行它们。每个端点没有硬编码工具。接下来我们将添加完整的 CRUD 操作。工作原理：基于 ReAct（推理 + 行动）的多代理架构。每个代理都有一个狭窄的工作：• 路由器：分析您的问题，决定本地缓存还是实时 API
-• SQL 代理：查询本地 SQLite 缓存以获取批量数据（10k 用户以毫秒为单位 vs 通过 API 以分钟为单位）
-• API 代理：处理实时 Okta 调用
-• 综合代理：将所有内容合并到最终验证的报告中API 代理具有令我们惊讶的自我修复循环。当生成的代码失败时（参数名称错误、速率限制命中、API 架构更改），它会捕获堆栈跟踪，将错误连同上下文反馈给 LLM，并重写代码。我们已经看到它从我们甚至不知道发生的 Okta API 更改中恢复。隐私和安全：在 Docker 中本地运行 100%。您可以携带自己的 LLM 密钥（OpenAI、Anthropic、Gemini 或 Ollama 实现完全离线）。您的员工 PII 永远不会离开您的机器。设计为只读。所有生成的 Python 和 API 代码都在沙盒环境中运行。每次执行都会在运行前自动根据安全模式进行验证 - 代码会被记录并可供审核，但您无需手动批准每个查询。下一步：我们将其视为一个平台，而不仅仅是一个 Okta 工具。该模式（本地缓存 + 实时 ReAct 代理 + 自我修复代码执行）可推广到任何 SaaS API。 Google Workspace、Slack、Workday — 相同的架构，不同的规范文件。接下来，在人机交互批准的情况下处理写入操作。您希望人工智能代理在 2026 年实际为您做什么？您认为这项技术在聊天机器人之外的哪些地方？—Dan
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46990146
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/fctr-id/okta-ai-agent</guid>
-      <pubDate>Thu, 12 Feb 2026 15:38:38 GMT</pubDate>
+      <guid>https://juliahub.com/blog/announcing-dyad-2.0</guid>
+      <pubDate>Thu, 12 Feb 2026 18:49:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
