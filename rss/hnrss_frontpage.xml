@@ -4,14 +4,95 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 13 Feb 2026 18:51:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 21:36:05 GMT</lastBuildDate>
+    <item>
+      <title>人工智能安全领袖表示“世界正处于危险之中”并退出学习诗歌</title>
+      <link>https://www.bbc.com/news/articles/c62dlvdq3e3o</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c62dlvdq3e3o
+评论网址：https://news.ycombinator.com/item?id=47007877
+积分：10
+# 条评论：0]]></description>
+      <guid>https://www.bbc.com/news/articles/c62dlvdq3e3o</guid>
+      <pubDate>Fri, 13 Feb 2026 21:10:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>欧盟采取行动消除无限滚动</title>
+      <link>https://www.politico.eu/article/tiktok-meta-facebook-instagram-brussels-kill-infinite-scrolling/</link>
+      <description><![CDATA[文章网址：https://www.politico.eu/article/tiktok-meta-facebook-instagram-brussels-kill-infinite-scrolling/
+评论网址：https://news.ycombinator.com/item?id=47007656
+积分：58
+# 条评论：74]]></description>
+      <guid>https://www.politico.eu/article/tiktok-meta-facebook-instagram-brussels-kill-infinite-scrolling/</guid>
+      <pubDate>Fri, 13 Feb 2026 20:52:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPT-5.2得出理论物理新结果</title>
+      <link>https://openai.com/index/new-result-theoretical-physics/</link>
+      <description><![CDATA[文章网址：https://openai.com/index/new-result-theoretical-physicals/
+评论网址：https://news.ycombinator.com/item?id=47006594
+积分：224
+# 条评论：142]]></description>
+      <guid>https://openai.com/index/new-result-theoretical-physics/</guid>
+      <pubDate>Fri, 13 Feb 2026 19:20:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：让 Claude Code/Codex 启动 VM 和 GPU 的技能</title>
+      <link>https://cloudrouter.dev/</link>
+      <description><![CDATA[我一直在研究 CloudRouter，这是一种技能 + CLI，它使 Claude Code 和 Codex 等编码代理能够启动云 VM 和 GPU。当代理编写代码时，通常需要启动开发服务器、运行测试、打开浏览器来验证其工作。今天，这一切都发生在您的本地计算机上。这对于单个任务来说效果很好，但代理正在共享您的计算机：您的端口、RAM、屏幕。如果并行运行多个代理，就会变得有点混乱。 Docker 有助于隔离，但它仍然使用计算机的资源，并且不会为代理提供浏览器、桌面或 GPU 来正确关闭循环。如果代理有启动虚拟机的原语，它就可以自行处理所有这些。CloudRouter 就是这个原语 — 一种为代理提供自己的机器的技能。代理可以从本地项目目录启动虚拟机，上传项目文件，在虚拟机上运行命令，并在完成后将其拆除。如果需要 GPU，可以请求一个。 cloudrouter start ./my-project
+  cloudrouter 启动 --gpu B200 ./my-project
+  cloudrouter ssh cr_abc123“npm install &amp;&amp; npm run dev”
+
+每个虚拟机都配有 VNC 桌面、VS Code 和 Jupyter Lab，所有这些都位于受身份验证保护的 URL 后面。当代理在虚拟机上进行浏览器自动化时，您可以打开VNC URL并实时观看。 CloudRouter 包装代理浏览器 [1] 以实现浏览器自动化。 cloudrouter browser open cr_abc123 &quot;http://localhost:3000&quot;
+  cloudrouter浏览器快照-i cr_abc123
+  # → @e1 [链接] 主页 @e2 [链接] 设置 @e3 [按钮] 退出
+  cloudrouter浏览器点击cr_abc123 @e2
+  cloudrouter浏览器截图 cr_abc123 result.png
+
+这是一个简短的演示：https://youtu.be/SCkkzxKBcPE令我惊讶的是这如何颠倒了我的工作流程。大多数云开发工具都是从云端（后台代理、远程 SSH 等）开始到本地进行测试。但 CloudRouter 将您的代理保留在本地，并将代理的工作推送到云端。该代理执行与本地相同的操作 - 运行开发服务器、操作浏览器 - 但现在在虚拟机上执行。当我不再观察代理工作并担心本地限制时，我开始并行运行更多任务。GPU 方面是我最想看到开发的部分。如今，如果您希望编码代理帮助完成涉及训练或推理的任何事情，您可以通过手动步骤来配置机器。借助 CloudRouter，代理只需启动 GPU 沙箱、运行工作负载并在完成后进行清理。我的一些朋友一直在使用它来让代理并行运行小型实验，但我对其他用例持开放态度。希望得到您的反馈和想法。 CloudRouter 位于我们 monorepo https://github.com/manaflow-ai/manaflow 的 packages/cloudrouter 下。[1] https://github.com/vercel-labs/agent-browser
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47006393
+积分：40
+# 条评论：10]]></description>
+      <guid>https://cloudrouter.dev/</guid>
+      <pubDate>Fri, 13 Feb 2026 19:02:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>帝国时代：25 年 C++ 寻路问题 [视频]</title>
+      <link>https://www.youtube.com/watch?v=lEBQveBCtKY</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=lEBQveBCtKY
+评论网址：https://news.ycombinator.com/item?id=47006316
+积分：54
+# 条评论：8]]></description>
+      <guid>https://www.youtube.com/watch?v=lEBQveBCtKY</guid>
+      <pubDate>Fri, 13 Feb 2026 18:56:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>1979 年的 Sharp PC-2000 电脑音箱</title>
+      <link>https://stereo2go.com/forums/threads/one-of-the-rarest-the-sharp-pc-2000-computer-boombox-from-1979.10341/</link>
+      <description><![CDATA[文章网址： https://stereo2go.com/forums/threads/one-of-the-rarest-the-sharp-pc-2000-computer-boombox-from-1979.10341/
+评论网址：https://news.ycombinator.com/item?id=47006055
+积分：9
+# 条评论：2]]></description>
+      <guid>https://stereo2go.com/forums/threads/one-of-the-rarest-the-sharp-pc-2000-computer-boombox-from-1979.10341/</guid>
+      <pubDate>Fri, 13 Feb 2026 18:35:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>现在构建 TUI 很容易</title>
+      <link>https://hatchet.run/blog/tuis-are-easy-now</link>
+      <description><![CDATA[文章网址：https://hatchet.run/blog/tuis-are-easy-now
+评论网址：https://news.ycombinator.com/item?id=47005509
+积分：29
+# 条评论：5]]></description>
+      <guid>https://hatchet.run/blog/tuis-are-easy-now</guid>
+      <pubDate>Fri, 13 Feb 2026 17:50:54 GMT</pubDate>
+    </item>
     <item>
       <title>CBP 签署 Clearview AI 协议，利用人脸识别进行“战术定位”</title>
       <link>https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</link>
       <description><![CDATA[文章网址：https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tropical-targeting/
 评论网址：https://news.ycombinator.com/item?id=47005081
-积分：110
-# 条评论：50]]></description>
+积分：214
+# 条评论：120]]></description>
       <guid>https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/</guid>
       <pubDate>Fri, 13 Feb 2026 17:13:01 GMT</pubDate>
     </item>
@@ -20,8 +101,8 @@
       <link>https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</link>
       <description><![CDATA[文章网址：https://www.wired.com/story/i-tried-renta human-ai-agents-hired-me-to-hype-their-ai-startups/
 评论网址：https://news.ycombinator.com/item?id=47004319
-积分：52
-# 条评论：37]]></description>
+积分：101
+# 条评论：60]]></description>
       <guid>https://www.wired.com/story/i-tried-rentahuman-ai-agents-hired-me-to-hype-their-ai-startups/</guid>
       <pubDate>Fri, 13 Feb 2026 16:11:08 GMT</pubDate>
     </item>
@@ -30,80 +111,10 @@
       <link>https://github.com/nearai/ironclaw</link>
       <description><![CDATA[文章网址：https://github.com/nearai/ironclaw
 评论网址：https://news.ycombinator.com/item?id=47004312
-积分：20
-# 条评论：6]]></description>
+积分：111
+# 条评论：55]]></description>
       <guid>https://github.com/nearai/ironclaw</guid>
       <pubDate>Fri, 13 Feb 2026 16:10:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源与你无关 (2018)</title>
-      <link>https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9</link>
-      <description><![CDATA[文章网址：https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9
-评论网址：https://news.ycombinator.com/item?id=47003219
-积分：138
-评论数量：82]]></description>
-      <guid>https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9</guid>
-      <pubDate>Fri, 13 Feb 2026 14:36:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>《启示录》：我们自以为了解的关于玛雅人的一切几乎都是错误的</title>
-      <link>https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong</link>
-      <description><![CDATA[文章网址： https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong
-评论网址：https://news.ycombinator.com/item?id=47003214
-积分：58
-# 条评论：23]]></description>
-      <guid>https://www.theguardian.com/news/2026/feb/12/apocalypse-no-how-almost-everything-we-thought-we-knew-about-the-maya-is-wrong</guid>
-      <pubDate>Fri, 13 Feb 2026 14:36:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple，在计时器结束之前修好我的键盘，否则我就离开 iPhone</title>
-      <link>https://ios-countdown.win/</link>
-      <description><![CDATA[文章网址：https://ios-countdown.win/
-评论网址：https://news.ycombinator.com/item?id=47003064
-积分：549
-# 条评论：323]]></description>
-      <guid>https://ios-countdown.win/</guid>
-      <pubDate>Fri, 13 Feb 2026 14:21:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Zed 编辑器将图形库从 Blade 切换到 WGPU</title>
-      <link>https://github.com/zed-industries/zed/pull/46758</link>
-      <description><![CDATA[文章网址：https://github.com/zed-industries/zed/pull/46758
-评论网址：https://news.ycombinator.com/item?id=47002825
-积分：230
-# 条评论：189]]></description>
-      <guid>https://github.com/zed-industries/zed/pull/46758</guid>
-      <pubDate>Fri, 13 Feb 2026 14:03:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gauntlet AI (YC S17) 训练您掌握 AI 建筑，给您 20 万美元以上的工作机会</title>
-      <link>http://qualify.gauntletAI.com</link>
-      <description><![CDATA[文章网址：http://qualify.gauntletAI.com
-评论网址：https://news.ycombinator.com/item?id=47001968
-积分：0
-# 条评论：0]]></description>
-      <guid>http://qualify.gauntletAI.com</guid>
-      <pubDate>Fri, 13 Feb 2026 12:32:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>单色草图</title>
-      <link>https://monosketch.io/</link>
-      <description><![CDATA[文章网址：https://monosketch.io/
-评论网址：https://news.ycombinator.com/item?id=47001871
-积分：483
-# 条评论：101]]></description>
-      <guid>https://monosketch.io/</guid>
-      <pubDate>Fri, 13 Feb 2026 12:18:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>GovDash (YC W22) 正在纽约市招聘高级工程师（产品和搜索）</title>
-      <link>https://www.workatastartup.com/companies/govdash</link>
-      <description><![CDATA[文章网址：https://www.workatastartup.com/companies/govdash
-评论网址：https://news.ycombinator.com/item?id=47001756
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.workatastartup.com/companies/govdash</guid>
-      <pubDate>Fri, 13 Feb 2026 12:01:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
