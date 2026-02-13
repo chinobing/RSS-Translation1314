@@ -4,143 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 12 Feb 2026 21:35:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 02:14:11 GMT</lastBuildDate>
     <item>
-      <title>Sandcastle：基于 Web 的 Linux 桌面环境</title>
-      <link>https://maxleiter.com/blog/sandcastle</link>
-      <description><![CDATA[文章网址：https://maxleiter.com/blog/sandcastle
-评论网址：https://news.ycombinator.com/item?id=46995370
+      <title>氧气有什么特别之处？</title>
+      <link>https://www.quanxr.org/elctronspins</link>
+      <description><![CDATA[文章网址：https://www.quanxr.org/elctronspins
+评论网址：https://news.ycombinator.com/item?id=46998053
 积分：1
 # 条评论：0]]></description>
-      <guid>https://maxleiter.com/blog/sandcastle</guid>
-      <pubDate>Thu, 12 Feb 2026 21:21:24 GMT</pubDate>
+      <guid>https://www.quanxr.org/elctronspins</guid>
+      <pubDate>Fri, 13 Feb 2026 02:06:59 GMT</pubDate>
     </item>
     <item>
-      <title>逃离数字奴隶制：也门程序员的呐喊</title>
-      <link>https://paragraph.com/@0x4fd3729a4fedf54a74b73d93f7f775a1ef520cec/noor-the-sovereign-ai-truth-from-yemen?referrer=0x4fd3729a4fEdf54a74b73d93F7f775A1EF520CEC</link>
-      <description><![CDATA[文章网址： https://paragraph.com/@0x4fd3729a4fedf54a74b73d93f7f775a1ef520cec/noor-the-soverei gn-ai-truth-from-yemen?referrer=0x4fd3729a4fEdf54a74b73d93F7f775A1EF520CEC
-评论网址：https://news.ycombinator.com/item?id=46995337
+      <title>美国法院在“幽灵枪”案中发现，并非所有计算机代码都受到语音保护</title>
+      <link>https://www.reuters.com/legal/government/not-all-computer-code-protected-speech-us-appeals-court-finds-ghost-gun-case-2026-02-12/</link>
+      <description><![CDATA[文章网址： https://www.reuters.com/legal/government/not-all-computer-code-protected-speech-us-appeals-court-finds-ghost-gun-case-2026-02-12/
+评论网址：https://news.ycombinator.com/item?id=46998039
 积分：1
 # 条评论：0]]></description>
-      <guid>https://paragraph.com/@0x4fd3729a4fedf54a74b73d93f7f775a1ef520cec/noor-the-sovereign-ai-truth-from-yemen?referrer=0x4fd3729a4fEdf54a74b73d93F7f775A1EF520CEC</guid>
-      <pubDate>Thu, 12 Feb 2026 21:19:14 GMT</pubDate>
+      <guid>https://www.reuters.com/legal/government/not-all-computer-code-protected-speech-us-appeals-court-finds-ghost-gun-case-2026-02-12/</guid>
+      <pubDate>Fri, 13 Feb 2026 02:05:15 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：一次性购买的 ScreenStudio 替代方案</title>
-      <link>https://aftercut.studio/</link>
-      <description><![CDATA[文章网址：https://aftercut.studio/
-评论网址：https://news.ycombinator.com/item?id=46995331
+      <title>使用 apywire 和 starlette 构建模块化 Python 应用程序</title>
+      <link>https://alganet.github.io/blog/2026-02-12-22-Building-a-Modular-Application-with-apywire-and-starlette.html</link>
+      <description><![CDATA[文章网址：https://alganet.github.io/blog/2026-02-12-22-Building-a-Modular-Application-with-apywire-and-starlette.html
+评论网址：https://news.ycombinator.com/item?id=46998035
 积分：1
-# 条评论：1]]></description>
-      <guid>https://aftercut.studio/</guid>
-      <pubDate>Thu, 12 Feb 2026 21:19:00 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://alganet.github.io/blog/2026-02-12-22-Building-a-Modular-Application-with-apywire-and-starlette.html</guid>
+      <pubDate>Fri, 13 Feb 2026 02:04:26 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：多信号CLIP/HSV/HOG评分的图像提示游戏</title>
-      <link>https://promptmatch.app</link>
-      <description><![CDATA[最初将其构建为一个小型竞技游戏，然后它变成了一个有用的提示工程实践循环。核心机制：用户看到目标图像，编写提示，模型生成输出，然后我们对相似​​度进行评分。
-
-  评分使用多个信号，因此一个指标不会占主导地位：
-
-  1. 语义对齐（CLIP）
-  - user_prompt -&gt; target_image（提示在概念上与目标一致吗？）
-  - user_image -&gt; target_image（生成的结果在语义上与目标一致吗？）
-
-  2. 迅速忠诚（CLIP）
-  - user_prompt -&gt; user_image（生成实际上遵循提交的提示吗？）
-
-  3. 颜色相似度
-  - 用于调色板/色调分布的 HSV 直方图重叠（用户图像与目标图像）
-
-  4.结构相似性
-  - 用于布局/边缘组合的 HOG-lite 梯度/方向比较（用户图像与目标图像）
-
-  最终分数是加权混合（内容信号加权最高），标准化为面向玩家的分数。
-
-  为什么采用这种方法：
-  - 仅 CLIP 可能会高估语义相关但视觉上偏离的输出
-  - 仅颜色忽略结构/含义
-  - 仅结构错过了语义/风格
-  - 结合提示图像和图像图像信号减少了排名中明显的误报
-
-  堆栈：
-  - Spring Boot后端
-  - 单独的 CLIP 评分容器
-  - 外部图像生成服务
-  - Next.js 前端
-  - PostgreSQL
-
-  希望获得以下方面的技术反馈：
-  - 公制称重/校准
-  - 我应该进行基准测试的已知故障模式
-  - HOG-lite 的替代品，用于快速结构评分
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46995321
+      <title>Python终端深空接收器</title>
+      <link>https://github.com/luisub/6EQUJ5</link>
+      <description><![CDATA[文章网址：https://github.com/luisub/6EQUJ5
+评论网址：https://news.ycombinator.com/item?id=46998019
 积分：1
-# 条评论：1]]></description>
-      <guid>https://promptmatch.app</guid>
-      <pubDate>Thu, 12 Feb 2026 21:18:03 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://github.com/luisub/6EQUJ5</guid>
+      <pubDate>Fri, 13 Feb 2026 02:02:52 GMT</pubDate>
     </item>
     <item>
-      <title>Google 识别出蒸馏攻击中使用的超过 10 万条提示</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use</link>
-      <description><![CDATA[文章网址：https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use
-评论网址：https://news.ycombinator.com/item?id=46995296
+      <title>YouTube 在 Apple Vision Pro 上推出</title>
+      <link>https://www.macrumors.com/2026/02/12/youtube-app-apple-vision-pro/</link>
+      <description><![CDATA[文章网址：https://www.macrumors.com/2026/02/12/youtube-app-apple-vision-pro/
+评论网址：https://news.ycombinator.com/item?id=46998014
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.macrumors.com/2026/02/12/youtube-app-apple-vision-pro/</guid>
+      <pubDate>Fri, 13 Feb 2026 02:01:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么夫妻在厨房里吵架（家具问题，不是婚姻问题）</title>
+      <link>https://oedmethod.substack.com/p/why-couples-fight-in-the-kitchen</link>
+      <description><![CDATA[文章网址：https://oedmethod.substack.com/p/why- Couples-fight-in-the-kitchen
+评论网址：https://news.ycombinator.com/item?id=46998013
 积分：2
 # 条评论：0]]></description>
-      <guid>https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use</guid>
-      <pubDate>Thu, 12 Feb 2026 21:16:33 GMT</pubDate>
+      <guid>https://oedmethod.substack.com/p/why-couples-fight-in-the-kitchen</guid>
+      <pubDate>Fri, 13 Feb 2026 02:01:26 GMT</pubDate>
     </item>
     <item>
-      <title>WC3UI – 以魔兽争霸III界面为主题的组件库</title>
-      <link>https://wc3ui.banteg.xyz/</link>
-      <description><![CDATA[文章网址：https://wc3ui.banteg.xyz/
-评论网址：https://news.ycombinator.com/item?id=46995282
+      <title>为什么远期名义国债利率在过去几年中增长如此之多？</title>
+      <link>https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html</link>
+      <description><![CDATA[文章网址： https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html
+评论网址：https://news.ycombinator.com/item?id=46997994
 积分：1
 # 条评论：1]]></description>
-      <guid>https://wc3ui.banteg.xyz/</guid>
-      <pubDate>Thu, 12 Feb 2026 21:15:30 GMT</pubDate>
+      <guid>https://www.federalreserve.gov/econres/notes/feds-notes/why-have-far-forward-nominal-treasury-rates-increased-so-much-in-the-past-few-years-20260212.html</guid>
+      <pubDate>Fri, 13 Feb 2026 01:57:27 GMT</pubDate>
     </item>
     <item>
-      <title>数据代理目录</title>
-      <link>https://codamail.com/articles/data-broker-directory/</link>
-      <description><![CDATA[文章网址：https://codamail.com/articles/data-broker-directory/
-评论网址：https://news.ycombinator.com/item?id=46995271
-积分：2
-# 条评论：0]]></description>
-      <guid>https://codamail.com/articles/data-broker-directory/</guid>
-      <pubDate>Thu, 12 Feb 2026 21:14:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：海王保护您的 OpenClaw 秘密</title>
-      <link>https://github.com/tech4242/aquaman</link>
-      <description><![CDATA[创建此代理和插件设置以隔离凭据。希望对于任何担心自己的凭证和供应链攻击的人来说，这是一个受欢迎的补丁。 OpenClaw 的开放性很酷，但这里有一些电池。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=46995243
+      <title>克劳德代码错误迫使用户重新启动聊天，浪费代币</title>
+      <link>https://old.reddit.com/r/claude/comments/1o1csrq/api_error_400_due_to_tool_use_concurrency_issues/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/claude/comments/1o1csrq/api_error_400_due_to_tool_use_concurrency_issues/
+评论网址：https://news.ycombinator.com/item?id=46997993
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/tech4242/aquaman</guid>
-      <pubDate>Thu, 12 Feb 2026 21:12:18 GMT</pubDate>
+      <guid>https://old.reddit.com/r/claude/comments/1o1csrq/api_error_400_due_to_tool_use_concurrency_issues/</guid>
+      <pubDate>Fri, 13 Feb 2026 01:57:24 GMT</pubDate>
     </item>
     <item>
-      <title>Spotify 称其最优秀的开发人员自 12 月以来未编写过一行代码</title>
-      <link>https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/</link>
-      <description><![CDATA[文章网址： https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-writing-a-line-of-code-since-december-thanks-to-ai/
-评论网址：https://news.ycombinator.com/item?id=46995241
+      <title>NASA 在 Artemis 2 火箭上装载液态氢进行未经宣布的测试</title>
+      <link>https://spaceflightnow.com/2026/02/12/nasa-loading-liquid-hydrogen-aboard-artemis-2-rocket-in-unannounced-test/</link>
+      <description><![CDATA[文章网址：https://spaceflightnow.com/2026/02/12/nasa-loading-liquid-Hydrogen-aboard-artemis-2-rocket-in-unannounced-test/
+评论网址：https://news.ycombinator.com/item?id=46997981
 积分：1
-# 条评论：1]]></description>
-      <guid>https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/</guid>
-      <pubDate>Thu, 12 Feb 2026 21:12:12 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://spaceflightnow.com/2026/02/12/nasa-loading-liquid-hydrogen-aboard-artemis-2-rocket-in-unannounced-test/</guid>
+      <pubDate>Fri, 13 Feb 2026 01:55:09 GMT</pubDate>
     </item>
     <item>
-      <title>我不希望人工智能擅长这个</title>
-      <link>https://robbyonrails.com/articles/2026/02/12/i-didnt-want-ai-to-be-good-at-this/</link>
-      <description><![CDATA[文章网址：https://robbyonrails.com/articles/2026/02/12/i-didnt-want-ai-to-be-good-at-this/
-评论网址：https://news.ycombinator.com/item?id=46995222
-积分：4
-# 条评论：1]]></description>
-      <guid>https://robbyonrails.com/articles/2026/02/12/i-didnt-want-ai-to-be-good-at-this/</guid>
-      <pubDate>Thu, 12 Feb 2026 21:10:26 GMT</pubDate>
+      <title>战场之外：国防工业基地面临的威胁</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/threats-to-defense-industrial-base/</link>
+      <description><![CDATA[文章网址：https://cloud.google.com/blog/topics/threat-intelligence/threats-to-defense-induscial-base/
+评论网址：https://news.ycombinator.com/item?id=46997980
+积分：1
+# 条评论：0]]></description>
+      <guid>https://cloud.google.com/blog/topics/threat-intelligence/threats-to-defense-industrial-base/</guid>
+      <pubDate>Fri, 13 Feb 2026 01:55:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
