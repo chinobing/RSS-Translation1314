@@ -4,108 +4,115 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 14 Feb 2026 12:49:11 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 15:27:01 GMT</lastBuildDate>
     <item>
-      <title>OpenClaw 在 5 美元的芯片上，没有 Linux 或 Node.js</title>
-      <link>https://www.mimiclaw.io/</link>
-      <description><![CDATA[文章网址：https://www.mimiclaw.io/
-评论网址：https://news.ycombinator.com/item?id=47014143
+      <title>Show HN：Markdown Prism – 适用于 macOS 的非 Electron Markdown 编辑器</title>
+      <link>https://prism.huconn.xyz</link>
+      <description><![CDATA[嗨 HN，我构建了一个名为 Markdown Prism 的 macOS 原生 Markdown 查看器/编辑器。网站：https://prism.huconn.xyzGitHub：https://github.com/hulryung/markdown-prism我最初是为自己构建的。我想要一个 macOS 上的轻量级 Markdown 查看器，它：不是基于 Electron 的正确渲染 GFM支持 LaTeX 数学和美人鱼图完全离线工作我尝试过的大多数本机应用程序要么是最小的但缺少关键功能（数学、图表），要么是功能齐全但 Electron 应用程序。我想要介于两者之间的东西 - 原生感觉，但具有成熟的 JS Markdown 生态系统。它是如何工作的这是一种混合方法：用于本机应用程序外壳的 SwiftUI用于渲染的 WKWebView本地捆绑的 markdown-it、KaTeX、highlight.js 和 Mermaid.js因此，您可以获得本机性能和集成（快速查看、文件查看、拖放），但仍然受益于经过实战考验的 JS 渲染库。一切都捆绑在一起供离线使用。功能带实时预览的分屏编辑器（400 毫秒去抖动）GFM（表格、任务列表、删除线）通过 KaTeX 进行 LaTeX 数学计算美人鱼图支持语法突出显示（190 多种语言）快速查看扩展（在 Finder 中预览 .md）深色模式外部文件监视编辑通过以下方式安装：brew install hulryung/tap/markdown-prism或从网站下载 DMG。它是免费且开源的 (MIT)，macOS 14+。希望得到反馈，尤其是来自经常使用 Markdown 的人。缺少什么？是什么使它成为您的日常 Markdown 工具？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47015111
 积分：1
-# 条评论：2]]></description>
-      <guid>https://www.mimiclaw.io/</guid>
-      <pubDate>Sat, 14 Feb 2026 12:43:01 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://prism.huconn.xyz</guid>
+      <pubDate>Sat, 14 Feb 2026 15:14:21 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPT 承诺帮助她找到灵魂伴侣。然后就背叛了她</title>
-      <link>https://www.npr.org/2026/02/14/nx-s1-5711441/ai-chatgpt-openai-love-betrayal-delusion-chatbot</link>
-      <description><![CDATA[文章网址： https://www.npr.org/2026/02/14/nx-s1-5711441/ai-chatgpt-openai-love-betrayal-delusion-chatbot
-评论网址：https://news.ycombinator.com/item?id=47014125
+      <title>AntiAntiRender——让世界更美丽</title>
+      <link>https://antiantirender.com/</link>
+      <description><![CDATA[文章网址：https://antiantirender.com/
+评论网址：https://news.ycombinator.com/item?id=47015104
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.npr.org/2026/02/14/nx-s1-5711441/ai-chatgpt-openai-love-betrayal-delusion-chatbot</guid>
-      <pubDate>Sat, 14 Feb 2026 12:40:29 GMT</pubDate>
+      <guid>https://antiantirender.com/</guid>
+      <pubDate>Sat, 14 Feb 2026 15:13:58 GMT</pubDate>
     </item>
     <item>
-      <title>时间更新概率预测框架</title>
-      <link>https://arxiv.org/abs/2602.09982</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2602.09982
-评论网址：https://news.ycombinator.com/item?id=47014123
+      <title>为什么 2020 年代初大气中的甲烷含量激增</title>
+      <link>https://www.science.org/doi/10.1126/science.adx8262</link>
+      <description><![CDATA[文章网址：https://www.science.org/doi/10.1126/science.adx8262
+评论网址：https://news.ycombinator.com/item?id=47015101
 积分：1
 # 条评论：0]]></description>
-      <guid>https://arxiv.org/abs/2602.09982</guid>
-      <pubDate>Sat, 14 Feb 2026 12:40:18 GMT</pubDate>
+      <guid>https://www.science.org/doi/10.1126/science.adx8262</guid>
+      <pubDate>Sat, 14 Feb 2026 15:13:26 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我使用 Ruby 和 Claude 构建了个人新闻策划人工智能</title>
-      <link>https://github.com/ashishra0/news-curator</link>
-      <description><![CDATA[文章网址：https://github.com/ashishra0/news-curator
-评论网址：https://news.ycombinator.com/item?id=47014122
+      <title>显示 HN：Dots Network 知道朋友何时在附近，但无需确切位置</title>
+      <link>https://dotsnetwork.app</link>
+      <description><![CDATA[文章网址：https://dotsnetwork.app
+评论网址：https://news.ycombinator.com/item?id=47015089
 积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/ashishra0/news-curator</guid>
-      <pubDate>Sat, 14 Feb 2026 12:40:15 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://dotsnetwork.app</guid>
+      <pubDate>Sat, 14 Feb 2026 15:11:36 GMT</pubDate>
     </item>
     <item>
-      <title>全力以赴 DLang：为什么我在 2025 年转向 D 进行网络、教学和图形 [pdf]</title>
-      <link>https://dconf.org/2025/slides/shah.pdf</link>
-      <description><![CDATA[文章网址：https://dconf.org/2025/slides/shah.pdf
-评论网址：https://news.ycombinator.com/item?id=47014110
+      <title>国土安全部已发出传票以查明 ICE 批评者的身份</title>
+      <link>https://www.engadget.com/big-tech/homeland-security-has-reportedly-sent-out-hundreds-of-subpoenas-to-identify-ice-critics-online-135245457.html</link>
+      <description><![CDATA[文章网址： https://www.engadget.com/big-tech/homeland-security-has-reportedly-sent-out-hundreds-of-subpoenas-to-identify-ice-critics-online-135245457.html
+评论网址：https://news.ycombinator.com/item?id=47015084
 积分：2
 # 条评论：0]]></description>
-      <guid>https://dconf.org/2025/slides/shah.pdf</guid>
-      <pubDate>Sat, 14 Feb 2026 12:38:08 GMT</pubDate>
+      <guid>https://www.engadget.com/big-tech/homeland-security-has-reportedly-sent-out-hundreds-of-subpoenas-to-identify-ice-critics-online-135245457.html</guid>
+      <pubDate>Sat, 14 Feb 2026 15:10:23 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能与创意产品的数量和质量</title>
-      <link>https://www.nber.org/papers/w34777</link>
-      <description><![CDATA[文章网址：https://www.nber.org/papers/w34777
-评论网址：https://news.ycombinator.com/item?id=47014087
+      <title>Show HN: Termote – 从任何浏览器远程访问您的终端</title>
+      <link>https://termote.agi.build</link>
+      <description><![CDATA[文章网址：https://termote.agi.build
+评论网址：https://news.ycombinator.com/item?id=47015073
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.nber.org/papers/w34777</guid>
-      <pubDate>Sat, 14 Feb 2026 12:35:28 GMT</pubDate>
+      <guid>https://termote.agi.build</guid>
+      <pubDate>Sat, 14 Feb 2026 15:09:11 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能电影学校培养下一代好莱坞电影制作人</title>
-      <link>https://www.reuters.com/business/media-telecom/ai-film-school-trains-next-generation-hollywood-moviemakers-2026-02-14/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/business/media-telecom/ai-film-school-trains-next- Generation-hollywood-moviemakers-2026-02-14/
-评论网址：https://news.ycombinator.com/item?id=47014071
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.reuters.com/business/media-telecom/ai-film-school-trains-next-generation-hollywood-moviemakers-2026-02-14/</guid>
-      <pubDate>Sat, 14 Feb 2026 12:31:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>五角大楼在委内瑞拉马杜罗袭击中使用了 Anthropic 的克劳德</title>
-      <link>https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17
-评论网址：https://news.ycombinator.com/item?id=47014060
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17</guid>
-      <pubDate>Sat, 14 Feb 2026 12:29:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>强制性驾驶员损伤传感器清除了资金障碍，但他们准备好了吗？</title>
-      <link>https://apnews.com/article/federal-law-impairment-detection-car-dui-062d40e885a0e32c6cad0ba70163aef8</link>
-      <description><![CDATA[文章网址： https://apnews.com/article/federal-law-impairment-detection-car-dui-062d40e885a0e32c6cad0ba70163aef8
-评论网址：https://news.ycombinator.com/item?id=47014045
-积分：2
-# 条评论：0]]></description>
-      <guid>https://apnews.com/article/federal-law-impairment-detection-car-dui-062d40e885a0e32c6cad0ba70163aef8</guid>
-      <pubDate>Sat, 14 Feb 2026 12:26:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：您对 XMTP 有何看法</title>
-      <link>https://news.ycombinator.com/item?id=47014042</link>
-      <description><![CDATA[听说过吗？
-你用过吗？
+      <title>Show HN：Rust 中的位封装分段素筛，32KB 工作内存，0 deps</title>
+      <link>https://news.ycombinator.com/item?id=47015066</link>
+      <description><![CDATA[从超紧凑的 C++ 位封装筛子开始——花了几个月的时间将其削减到约 9 行原始位操作。每个奇数一位，Brian Kernighan 的提取位技巧，硬件 tzcnt 内在函数。然后我将其移植到 Rust。借用检查器有意见。您不能对位数组（不可变借用）进行 .filter() 和 .for_each() 同时对其进行变异。很公平——筛选阶段的显式循环，收集的迭代器。相同的装配输出，可证明安全。一路上，我发现了两个断言错误，筛子太正确而无法触发（在第 10,001 个素数上相差一；499,999 是合数，而不是素数）。平面筛子在 ~10M 处碰壁 — 位数组超过了 L1 缓存 (32KB)，并且每个筛分过程都会受到影响。因此，我构建了一个分段版本：通过平面筛引导筛选素数直至 √n，然后在 32KB L1 大小的分段中处理整个范围。一个缓冲区，重复使用，永不离开缓存。结果（单线程，25 次迭代，针对原始 crate 进行交叉验证）： n=500K：~440μs，30KB sieve mem
+  n=10M：~10ms，32KB 筛网内存
+  n=50M：~52ms，32KB 筛子内存（平坦：~67ms）
+  n=100M：~137ms，32KB 筛子内存（平坦：~190ms）
+
+与 primal crate（Rust 同类中最好的）相比，原始速度大约落后 2 倍——primal 使用wheel-30 因式分解，跳过 2、3 和 5 的倍数。这个筛子只跳过偶数。但内存才是它获胜的地方：n=50M 时筛子工作内存比原始内存少 187 倍（32KB 与 6MB），并且素数计数预分配的结果向量更严格。目标用例是嵌入式/受限的：ESP32 节点、Raspberry Pi Zeros、每个 KB 都很重要的分布式计时网络。它也是一个干净的参考实现 - 一个文件，零依赖项，使用单个 rustc 调用进行编译。单个文件。没有货物。没有板条箱。只是： rustc -C opt-level=3 -C target-cpu=native primes.rs &amp;&amp; ./primer
+
+代码、基准测试、借用检查器文章和完整的开发叙述都在存储库中。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47014042
+评论网址：https://news.ycombinator.com/item?id=47015066
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47014042</guid>
-      <pubDate>Sat, 14 Feb 2026 12:25:36 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47015066</guid>
+      <pubDate>Sat, 14 Feb 2026 15:08:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 Seastar 的 Reactor 上运行异步 WebAssembly</title>
+      <link>https://rockwotj.com/blog/async-wasm-in-seastar/</link>
+      <description><![CDATA[文章网址：https://rockwotj.com/blog/async-wasm-in-seastar/
+评论网址：https://news.ycombinator.com/item?id=47015044
+积分：1
+# 条评论：0]]></description>
+      <guid>https://rockwotj.com/blog/async-wasm-in-seastar/</guid>
+      <pubDate>Sat, 14 Feb 2026 15:04:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>退出 Google Cloud 时申请免费数据传输</title>
+      <link>https://cloud.google.com/exit-cloud</link>
+      <description><![CDATA[文章网址：https://cloud.google.com/exit-cloud
+评论网址：https://news.ycombinator.com/item?id=47015027
+积分：1
+# 条评论：0]]></description>
+      <guid>https://cloud.google.com/exit-cloud</guid>
+      <pubDate>Sat, 14 Feb 2026 15:02:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>律师在法庭案件中被 Zoom 小猫过滤器卡住（2021 年）[视频]</title>
+      <link>https://www.youtube.com/watch?v=lGOofzZOyl8</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=lGOofzZOyl8
+评论网址：https://news.ycombinator.com/item?id=47015016
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=lGOofzZOyl8</guid>
+      <pubDate>Sat, 14 Feb 2026 15:01:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
