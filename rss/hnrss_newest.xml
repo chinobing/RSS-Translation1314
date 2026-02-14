@@ -4,115 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 14 Feb 2026 15:27:01 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 18:36:48 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Markdown Prism – 适用于 macOS 的非 Electron Markdown 编辑器</title>
-      <link>https://prism.huconn.xyz</link>
-      <description><![CDATA[嗨 HN，我构建了一个名为 Markdown Prism 的 macOS 原生 Markdown 查看器/编辑器。网站：https://prism.huconn.xyzGitHub：https://github.com/hulryung/markdown-prism我最初是为自己构建的。我想要一个 macOS 上的轻量级 Markdown 查看器，它：不是基于 Electron 的正确渲染 GFM支持 LaTeX 数学和美人鱼图完全离线工作我尝试过的大多数本机应用程序要么是最小的但缺少关键功能（数学、图表），要么是功能齐全但 Electron 应用程序。我想要介于两者之间的东西 - 原生感觉，但具有成熟的 JS Markdown 生态系统。它是如何工作的这是一种混合方法：用于本机应用程序外壳的 SwiftUI用于渲染的 WKWebView本地捆绑的 markdown-it、KaTeX、highlight.js 和 Mermaid.js因此，您可以获得本机性能和集成（快速查看、文件查看、拖放），但仍然受益于经过实战考验的 JS 渲染库。一切都捆绑在一起供离线使用。功能带实时预览的分屏编辑器（400 毫秒去抖动）GFM（表格、任务列表、删除线）通过 KaTeX 进行 LaTeX 数学计算美人鱼图支持语法突出显示（190 多种语言）快速查看扩展（在 Finder 中预览 .md）深色模式外部文件监视编辑通过以下方式安装：brew install hulryung/tap/markdown-prism或从网站下载 DMG。它是免费且开源的 (MIT)，macOS 14+。希望得到反馈，尤其是来自经常使用 Markdown 的人。缺少什么？是什么使它成为您的日常 Markdown 工具？
+      <title>Show HN：Tilth v0.3 – AI 代码导航便宜 17%（279 次运行，3 个 Claude 模型）</title>
+      <link>https://news.ycombinator.com/item?id=47016959</link>
+      <description><![CDATA[tilth 通过 MCP 为 AI 代理提供结构代码智能（树守护者定义、被调用者解析、智能大纲）。我在 4 个真实存储库（Express、FastAPI、Gin、ripgrep）的 21 个代码导航任务上对其进行了基准测试。-&gt; https://github.com/jahala/tilth结果：Sonnet 4.5 — 每个正确答案便宜 26%（79% → 86% 准确率）。 Opus 4.6 — 便宜 14%（也是唯一能够解决最困难任务的模型+模式组合）。 Haiku 4.5 — 被迫使用 tith 时便宜 82%（准确率 69% → 100%，每个答案 0.04 美元）。我们衡量“每个正确答案的成本” — 在重试下获得可用答案之前您期望花费的费用。错误的答案并不是廉价的成功。有趣的发现：更聪明的模型自愿采用 MCP 工具（Sonnet 95%，Opus 94%），但 Haiku 忽略它们（9%）。指令调整没有帮助。删除重叠的内置工具确实可以。https://github.com/jahala/tilth/blob/main/benchmark/README.m...PS：我没有预算用 Opus 运行大量基准测试，所以如果任何代币鲸鱼有能力运行一些基准测试，请随时查看公关结果。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47015111
+评论网址：https://news.ycombinator.com/item?id=47016959
 积分：1
 # 条评论：0]]></description>
-      <guid>https://prism.huconn.xyz</guid>
-      <pubDate>Sat, 14 Feb 2026 15:14:21 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47016959</guid>
+      <pubDate>Sat, 14 Feb 2026 18:27:20 GMT</pubDate>
     </item>
     <item>
-      <title>AntiAntiRender——让世界更美丽</title>
-      <link>https://antiantirender.com/</link>
-      <description><![CDATA[文章网址：https://antiantirender.com/
-评论网址：https://news.ycombinator.com/item?id=47015104
-积分：1
-# 条评论：1]]></description>
-      <guid>https://antiantirender.com/</guid>
-      <pubDate>Sat, 14 Feb 2026 15:13:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么 2020 年代初大气中的甲烷含量激增</title>
-      <link>https://www.science.org/doi/10.1126/science.adx8262</link>
-      <description><![CDATA[文章网址：https://www.science.org/doi/10.1126/science.adx8262
-评论网址：https://news.ycombinator.com/item?id=47015101
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.science.org/doi/10.1126/science.adx8262</guid>
-      <pubDate>Sat, 14 Feb 2026 15:13:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Dots Network 知道朋友何时在附近，但无需确切位置</title>
-      <link>https://dotsnetwork.app</link>
-      <description><![CDATA[文章网址：https://dotsnetwork.app
-评论网址：https://news.ycombinator.com/item?id=47015089
-积分：1
-# 条评论：1]]></description>
-      <guid>https://dotsnetwork.app</guid>
-      <pubDate>Sat, 14 Feb 2026 15:11:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>国土安全部已发出传票以查明 ICE 批评者的身份</title>
-      <link>https://www.engadget.com/big-tech/homeland-security-has-reportedly-sent-out-hundreds-of-subpoenas-to-identify-ice-critics-online-135245457.html</link>
-      <description><![CDATA[文章网址： https://www.engadget.com/big-tech/homeland-security-has-reportedly-sent-out-hundreds-of-subpoenas-to-identify-ice-critics-online-135245457.html
-评论网址：https://news.ycombinator.com/item?id=47015084
+      <title>科技领导者向超级政治行动委员会投入 5000 万美元，以选出对人工智能友好的候选人</title>
+      <link>https://www.latimes.com/business/story/2026-02-13/tech-titans-pour-50-million-into-super-pac-to-elect-ai-friendly-candidates-to-congress</link>
+      <description><![CDATA[文章网址： https://www.latimes.com/business/story/2026-02-13/tech-titans-pour-50-million-into-super-pac-to-elect-ai-friend-candidates-to-congress
+评论网址：https://news.ycombinator.com/item?id=47016950
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.engadget.com/big-tech/homeland-security-has-reportedly-sent-out-hundreds-of-subpoenas-to-identify-ice-critics-online-135245457.html</guid>
-      <pubDate>Sat, 14 Feb 2026 15:10:23 GMT</pubDate>
+      <guid>https://www.latimes.com/business/story/2026-02-13/tech-titans-pour-50-million-into-super-pac-to-elect-ai-friendly-candidates-to-congress</guid>
+      <pubDate>Sat, 14 Feb 2026 18:26:14 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN: Termote – 从任何浏览器远程访问您的终端</title>
-      <link>https://termote.agi.build</link>
-      <description><![CDATA[文章网址：https://termote.agi.build
-评论网址：https://news.ycombinator.com/item?id=47015073
+      <title>Head 在 Git 中如何工作</title>
+      <link>https://jvns.ca/blog/2024/03/08/how-head-works-in-git/</link>
+      <description><![CDATA[文章网址：https://jvns.ca/blog/2024/03/08/how-head-works-in-git/
+评论网址：https://news.ycombinator.com/item?id=47016946
 积分：1
 # 条评论：0]]></description>
-      <guid>https://termote.agi.build</guid>
-      <pubDate>Sat, 14 Feb 2026 15:09:11 GMT</pubDate>
+      <guid>https://jvns.ca/blog/2024/03/08/how-head-works-in-git/</guid>
+      <pubDate>Sat, 14 Feb 2026 18:26:03 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Rust 中的位封装分段素筛，32KB 工作内存，0 deps</title>
-      <link>https://news.ycombinator.com/item?id=47015066</link>
-      <description><![CDATA[从超紧凑的 C++ 位封装筛子开始——花了几个月的时间将其削减到约 9 行原始位操作。每个奇数一位，Brian Kernighan 的提取位技巧，硬件 tzcnt 内在函数。然后我将其移植到 Rust。借用检查器有意见。您不能对位数组（不可变借用）进行 .filter() 和 .for_each() 同时对其进行变异。很公平——筛选阶段的显式循环，收集的迭代器。相同的装配输出，可证明安全。一路上，我发现了两个断言错误，筛子太正确而无法触发（在第 10,001 个素数上相差一；499,999 是合数，而不是素数）。平面筛子在 ~10M 处碰壁 — 位数组超过了 L1 缓存 (32KB)，并且每个筛分过程都会受到影响。因此，我构建了一个分段版本：通过平面筛引导筛选素数直至 √n，然后在 32KB L1 大小的分段中处理整个范围。一个缓冲区，重复使用，永不离开缓存。结果（单线程，25 次迭代，针对原始 crate 进行交叉验证）： n=500K：~440μs，30KB sieve mem
-  n=10M：~10ms，32KB 筛网内存
-  n=50M：~52ms，32KB 筛子内存（平坦：~67ms）
-  n=100M：~137ms，32KB 筛子内存（平坦：~190ms）
-
-与 primal crate（Rust 同类中最好的）相比，原始速度大约落后 2 倍——primal 使用wheel-30 因式分解，跳过 2、3 和 5 的倍数。这个筛子只跳过偶数。但内存才是它获胜的地方：n=50M 时筛子工作内存比原始内存少 187 倍（32KB 与 6MB），并且素数计数预分配的结果向量更严格。目标用例是嵌入式/受限的：ESP32 节点、Raspberry Pi Zeros、每个 KB 都很重要的分布式计时网络。它也是一个干净的参考实现 - 一个文件，零依赖项，使用单个 rustc 调用进行编译。单个文件。没有货物。没有板条箱。只是： rustc -C opt-level=3 -C target-cpu=native primes.rs &amp;&amp; ./primer
-
-代码、基准测试、借用检查器文章和完整的开发叙述都在存储库中。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47015066
+      <title>我参观了人工智能工程的未来——并带着警告回来了</title>
+      <link>https://igor718185.substack.com/p/i-visited-the-future-of-ai-engineering</link>
+      <description><![CDATA[文章网址：https://igor718185.substack.com/p/i-visited-the-future-of-ai-engineering
+评论网址：https://news.ycombinator.com/item?id=47016924
 积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47015066</guid>
-      <pubDate>Sat, 14 Feb 2026 15:08:23 GMT</pubDate>
+# 条评论：2]]></description>
+      <guid>https://igor718185.substack.com/p/i-visited-the-future-of-ai-engineering</guid>
+      <pubDate>Sat, 14 Feb 2026 18:23:44 GMT</pubDate>
     </item>
     <item>
-      <title>在 Seastar 的 Reactor 上运行异步 WebAssembly</title>
-      <link>https://rockwotj.com/blog/async-wasm-in-seastar/</link>
-      <description><![CDATA[文章网址：https://rockwotj.com/blog/async-wasm-in-seastar/
-评论网址：https://news.ycombinator.com/item?id=47015044
+      <title>奥兹博士推动人工智能化身作为农村医疗保健的解决方案</title>
+      <link>https://www.npr.org/2026/02/14/nx-s1-5704189/dr-oz-ai-avatars-replace-rural-health-workers</link>
+      <description><![CDATA[文章网址： https://www.npr.org/2026/02/14/nx-s1-5704189/dr-oz-ai-avatars-replace-rural-health-workers
+评论网址：https://news.ycombinator.com/item?id=47016920
 积分：1
-# 条评论：0]]></description>
-      <guid>https://rockwotj.com/blog/async-wasm-in-seastar/</guid>
-      <pubDate>Sat, 14 Feb 2026 15:04:08 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://www.npr.org/2026/02/14/nx-s1-5704189/dr-oz-ai-avatars-replace-rural-health-workers</guid>
+      <pubDate>Sat, 14 Feb 2026 18:22:48 GMT</pubDate>
     </item>
     <item>
-      <title>退出 Google Cloud 时申请免费数据传输</title>
-      <link>https://cloud.google.com/exit-cloud</link>
-      <description><![CDATA[文章网址：https://cloud.google.com/exit-cloud
-评论网址：https://news.ycombinator.com/item?id=47015027
+      <title>抖音</title>
+      <link>https://www.tiktok.com/explore</link>
+      <description><![CDATA[文章网址：https://www.tiktok.com/explore
+评论网址：https://news.ycombinator.com/item?id=47016915
 积分：1
 # 条评论：0]]></description>
-      <guid>https://cloud.google.com/exit-cloud</guid>
-      <pubDate>Sat, 14 Feb 2026 15:02:26 GMT</pubDate>
+      <guid>https://www.tiktok.com/explore</guid>
+      <pubDate>Sat, 14 Feb 2026 18:22:23 GMT</pubDate>
     </item>
     <item>
-      <title>律师在法庭案件中被 Zoom 小猫过滤器卡住（2021 年）[视频]</title>
-      <link>https://www.youtube.com/watch?v=lGOofzZOyl8</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=lGOofzZOyl8
-评论网址：https://news.ycombinator.com/item?id=47015016
+      <title>布隆过滤艺术：在心中编码文字；送给特别的人</title>
+      <link>https://improbable-heart.com/</link>
+      <description><![CDATA[文章网址：https://improbable-heart.com/
+评论网址：https://news.ycombinator.com/item?id=47016912
+积分：1
+# 条评论：1]]></description>
+      <guid>https://improbable-heart.com/</guid>
+      <pubDate>Sat, 14 Feb 2026 18:22:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Clawsec：OpenClaw.ai 的开源插件，可阻止危险行为</title>
+      <link>https://www.clawsec.bot</link>
+      <description><![CDATA[文章网址：https://www.clawsec.bot
+评论网址：https://news.ycombinator.com/item?id=47016889
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.clawsec.bot</guid>
+      <pubDate>Sat, 14 Feb 2026 18:18:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>设计成功的企业人工智能系统的关键第一步</title>
+      <link>https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/</link>
+      <description><![CDATA[文章网址： https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/
+评论网址：https://news.ycombinator.com/item?id=47016881
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=lGOofzZOyl8</guid>
-      <pubDate>Sat, 14 Feb 2026 15:01:07 GMT</pubDate>
+      <guid>https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/</guid>
+      <pubDate>Sat, 14 Feb 2026 18:18:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>别再沉浸在你的思绪中</title>
+      <link>https://curiositysink.substack.com/p/stop-drowning-in-your-thoughts</link>
+      <description><![CDATA[文章网址：https://curiositysink.substack.com/p/stop-drowning-in-your-thoughts
+评论网址：https://news.ycombinator.com/item?id=47016874
+积分：1
+# 条评论：1]]></description>
+      <guid>https://curiositysink.substack.com/p/stop-drowning-in-your-thoughts</guid>
+      <pubDate>Sat, 14 Feb 2026 18:17:51 GMT</pubDate>
     </item>
     </channel>
 </rss>

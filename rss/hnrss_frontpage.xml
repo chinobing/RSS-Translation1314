@@ -4,16 +4,88 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 14 Feb 2026 15:26:44 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 18:36:35 GMT</lastBuildDate>
     <item>
-      <title>昨晚使用 Claude Code、Svelte 和 ThreeJS 构建的高尔夫游戏</title>
-      <link>https://www.the-golf-is-golfing.com</link>
-      <description><![CDATA[文章网址：https://www.the-golf-is-golfing.com
-评论网址：https://news.ycombinator.com/item?id=47014704
-积分：18
-评论数量：9]]></description>
-      <guid>https://www.the-golf-is-golfing.com</guid>
-      <pubDate>Sat, 14 Feb 2026 14:15:33 GMT</pubDate>
+      <title>显示 HN：Arcmark – 作为侧边栏附加到浏览器的 macOS 书签管理器</title>
+      <link>https://github.com/Geek-1001/arcmark</link>
+      <description><![CDATA[嘿，HN！我是 Arc 浏览器的长期用户，喜欢它的侧边栏如何将选项卡和书签组织到工作区中。我想切换到其他浏览器而不丢失该工作流程。因此，我构建了 Arcmark，它是一个 macOS 书签管理器 (Swift/AppKit)，可以作为附加到任何浏览器窗口的侧边栏浮动。它使用 macOS 辅助功能 API 来跟踪浏览器窗口。您可以通过嵌套文件夹、拖放重新排序和自定义工作区颜色获得基于工作区的链接/书签组织。在大多数情况下，我尝试尽可能接近地复制 Arc 的侧边栏 UX。1.本地优先：所有数据都位于单个 JSON 文件中 (~/Library/Application Support/Arcmark/data.json)。没有帐户，没有云同步。2.适用于任何浏览器：Chrome、Safari、Brave、Arc 等。或者将其单独用作带有常规窗口的书签管理器。3.从 Arc 导入固定的制表符和空格：它会解析 Arc 的 StorableSidebar.json 以重新创建准确的工作区/文件夹结构。4.使用 swift-bundler 而不是 Xcode 构建。自述文件中有一个演示视频，显示了正在运行的侧边栏附件。
+DMG 可在发布页面 (macOS 13+) 上找到，或者您可以从源代码构建。这是 v0.1.0，因此它是一个非常早期的版本。希望得到任何反馈或想法GitHub：https://github.com/Geek-1001/arcmark
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47016058
+积分：19
+# 条评论：0]]></description>
+      <guid>https://github.com/Geek-1001/arcmark</guid>
+      <pubDate>Sat, 14 Feb 2026 16:55:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stoat 在用户批评后删除了所有 LLM 生成的代码</title>
+      <link>https://github.com/orgs/stoatchat/discussions/1022</link>
+      <description><![CDATA[文章网址：https://github.com/orgs/stoatchat/discussions/1022
+评论网址：https://news.ycombinator.com/item?id=47016050
+积分：32
+# 条评论：33]]></description>
+      <guid>https://github.com/orgs/stoatchat/discussions/1022</guid>
+      <pubDate>Sat, 14 Feb 2026 16:54:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>阿姆斯特丹编译器套件</title>
+      <link>https://github.com/davidgiven/ack</link>
+      <description><![CDATA[文章网址：https://github.com/davidgiven/ack
+评论网址：https://news.ycombinator.com/item?id=47016008
+积分：19
+# 条评论：5]]></description>
+      <guid>https://github.com/davidgiven/ack</guid>
+      <pubDate>Sat, 14 Feb 2026 16:50:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>发烧友无法区分通过铜、香蕉或泥土发送的音频</title>
+      <link>https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator</link>
+      <description><![CDATA[文章网址： https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference- Between-audio-signals-sent-thr粗铜线香蕉或湿泥泥应该听起来非常糟糕，但它并没有注意到实验创建者
+评论网址：https://news.ycombinator.com/item?id=47015987
+积分：40
+# 条评论：29]]></description>
+      <guid>https://www.tomshardware.com/speakers/in-a-blind-test-audiophiles-couldnt-tell-the-difference-between-audio-signals-sent-through-copper-wire-a-banana-or-wet-mud-the-mud-should-sound-perfectly-awful-but-it-doesnt-notes-the-experiment-creator</guid>
+      <pubDate>Sat, 14 Feb 2026 16:48:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>M 盘存档功能回顾。具有长期测试结果</title>
+      <link>http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html</link>
+      <description><![CDATA[文章网址：http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html
+评论网址：https://news.ycombinator.com/item?id=47015579
+积分：22
+# 条评论：14]]></description>
+      <guid>http://www.microscopy-uk.org.uk/mag/artsep16/mol-mdisc-review.html</guid>
+      <pubDate>Sat, 14 Feb 2026 16:07:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vim 9.2 发布</title>
+      <link>https://www.vim.org/vim-9.2-released.php</link>
+      <description><![CDATA[文章网址：https://www.vim.org/vim-9.2-released.php
+评论网址：https://news.ycombinator.com/item?id=47015330
+积分：141
+# 条评论：59]]></description>
+      <guid>https://www.vim.org/vim-9.2-released.php</guid>
+      <pubDate>Sat, 14 Feb 2026 15:39:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的智能睡眠面罩将用户的脑电波广播到开放的 MQTT 代理</title>
+      <link>https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/</link>
+      <description><![CDATA[文章网址：https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/
+评论网址：https://news.ycombinator.com/item?id=47015294
+积分：164
+# 条评论：72]]></description>
+      <guid>https://aimilios.bearblog.dev/reverse-engineering-sleep-mask/</guid>
+      <pubDate>Sat, 14 Feb 2026 15:35:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>7zip.com 正在提供恶意软件</title>
+      <link>https://www.malwarebytes.com/blog/threat-intel/2026/02/fake-7-zip-downloads-are-turning-home-pcs-into-proxy-nodes</link>
+      <description><![CDATA[文章网址： https://www.malwarebytes.com/blog/threat-intel/2026/02/fake-7-zip-downloads-are-turning-home-pcs-into-proxy-nodes
+评论网址：https://news.ycombinator.com/item?id=47014995
+积分：61
+# 条评论：35]]></description>
+      <guid>https://www.malwarebytes.com/blog/threat-intel/2026/02/fake-7-zip-downloads-are-turning-home-pcs-into-proxy-nodes</guid>
+      <pubDate>Sat, 14 Feb 2026 14:58:29 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：Sameshi – 约 1200 Elo 国际象棋引擎，大小不超过 2KB</title>
@@ -22,8 +94,8 @@
 我使用了 MinMax 的一个变体，称为 Negamax，带有 alpha beta 剪枝。对于董事会代表，我使用了 120 个单元的“邮箱”。在排除了一些边缘情况后，我设法将死/陷入僵局。我从中学起就是 demoscene（计算机艺术亚文化）的忠实粉丝，因此这是我必须执行的仪式。为了估计 Elo，我在固定深度 5 和一些约束规则下，使用相同的颜色分布，测量了 240 个针对 Stockfish Elo 级别（1320 到 1600）的自动游戏。然后转换通过一些具有二项式 95% 置信区间的标准逻辑公式，将获胜/平局/失败分数汇总到 Elo。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47014500
-积分：27
-# 条评论：12]]></description>
+积分：122
+# 条评论：38]]></description>
       <guid>https://github.com/datavorous/sameshi</guid>
       <pubDate>Sat, 14 Feb 2026 13:47:44 GMT</pubDate>
     </item>
@@ -32,81 +104,10 @@
       <link>https://ooh.directory/</link>
       <description><![CDATA[文章网址：https://ooh.directory/
 评论网址：https://news.ycombinator.com/item?id=47014449
-积分：90
-# 条评论：23]]></description>
+积分：261
+评论数：89]]></description>
       <guid>https://ooh.directory/</guid>
       <pubDate>Sat, 14 Feb 2026 13:40:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>x86-64 CPU 有多少个寄存器？ (2020)</title>
-      <link>https://blog.yossarian.net/2020/11/30/How-many-registers-does-an-x86-64-cpu-have</link>
-      <description><![CDATA[文章网址：https://blog.yossarian.net/2020/11/30/How-many-registers-does-an-x86-64-cpu-have
-评论网址：https://news.ycombinator.com/item?id=47014405
-积分：19
-# 条评论：8]]></description>
-      <guid>https://blog.yossarian.net/2020/11/30/How-many-registers-does-an-x86-64-cpu-have</guid>
-      <pubDate>Sat, 14 Feb 2026 13:33:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ars Technica 引用了 Matplotlib 维护者的话；拉故事</title>
-      <link>https://infosec.exchange/@mttaggart/116065340523529645</link>
-      <description><![CDATA[文章网址：https://infosec.exchange/@mtaggart/116065340523529645
-评论网址：https://news.ycombinator.com/item?id=47013059
-积分：270
-# 条评论：83]]></description>
-      <guid>https://infosec.exchange/@mttaggart/116065340523529645</guid>
-      <pubDate>Sat, 14 Feb 2026 09:28:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>YouTube 作为存储</title>
-      <link>https://github.com/PulseBeat02/yt-media-storage</link>
-      <description><![CDATA[文章网址：https://github.com/PulseBeat02/yt-media-storage
-评论网址：https://news.ycombinator.com/item?id=47012964
-积分：104
-评论数量：85]]></description>
-      <guid>https://github.com/PulseBeat02/yt-media-storage</guid>
-      <pubDate>Sat, 14 Feb 2026 09:10:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Zig – io_uring 和 Grand Central Dispatch std.Io 实施落地</title>
-      <link>https://ziglang.org/devlog/2026/#2026-02-13</link>
-      <description><![CDATA[文章网址：https://ziglang.org/devlog/2026/#2026-02-13
-评论网址：https://news.ycombinator.com/item?id=47012717
-积分：227
-评论数：128]]></description>
-      <guid>https://ziglang.org/devlog/2026/#2026-02-13</guid>
-      <pubDate>Sat, 14 Feb 2026 08:22:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cogram (YC W22) – 雇用前技术创始人</title>
-      <link>https://www.ycombinator.com/companies/cogram/jobs/LDTrViN-ex-technical-founder-product-engineer</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/cogram/jobs/LDTrViN-ex-technical-Founder-product-engineer
-评论网址：https://news.ycombinator.com/item?id=47012312
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/cogram/jobs/LDTrViN-ex-technical-founder-product-engineer</guid>
-      <pubDate>Sat, 14 Feb 2026 07:00:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>2025 年 Backblaze 驱动器统计数据</title>
-      <link>https://www.backblaze.com/blog/backblaze-drive-stats-for-2025/</link>
-      <description><![CDATA[文章网址：https://www.backblaze.com/blog/backblaze-drive-stats-for-2025/
-评论网址：https://news.ycombinator.com/item?id=47011602
-积分：119
-# 条评论：21]]></description>
-      <guid>https://www.backblaze.com/blog/backblaze-drive-stats-for-2025/</guid>
-      <pubDate>Sat, 14 Feb 2026 04:35:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：SQL-tap – PostgreSQL 和 MySQL 的实时 SQL 流量查看器</title>
-      <link>https://github.com/mickamy/sql-tap</link>
-      <description><![CDATA[sql-tap 是一个透明代理，它通过解析 PostgreSQL/MySQL 有线协议捕获 SQL 查询并将其显示在终端 UI 中。您可以对任何捕获的查询运行 EXPLAIN。无需更改应用程序代码 - 只需更改端口即可。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47011567
-积分：170
-# 条评论：27]]></description>
-      <guid>https://github.com/mickamy/sql-tap</guid>
-      <pubDate>Sat, 14 Feb 2026 04:27:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
