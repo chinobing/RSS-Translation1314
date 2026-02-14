@@ -4,107 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 14 Feb 2026 18:36:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 21:26:18 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Tilth v0.3 – AI 代码导航便宜 17%（279 次运行，3 个 Claude 模型）</title>
-      <link>https://news.ycombinator.com/item?id=47016959</link>
-      <description><![CDATA[tilth 通过 MCP 为 AI 代理提供结构代码智能（树守护者定义、被调用者解析、智能大纲）。我在 4 个真实存储库（Express、FastAPI、Gin、ripgrep）的 21 个代码导航任务上对其进行了基准测试。-&gt; https://github.com/jahala/tilth结果：Sonnet 4.5 — 每个正确答案便宜 26%（79% → 86% 准确率）。 Opus 4.6 — 便宜 14%（也是唯一能够解决最困难任务的模型+模式组合）。 Haiku 4.5 — 被迫使用 tith 时便宜 82%（准确率 69% → 100%，每个答案 0.04 美元）。我们衡量“每个正确答案的成本” — 在重试下获得可用答案之前您期望花费的费用。错误的答案并不是廉价的成功。有趣的发现：更聪明的模型自愿采用 MCP 工具（Sonnet 95%，Opus 94%），但 Haiku 忽略它们（9%）。指令调整没有帮助。删除重叠的内置工具确实可以。https://github.com/jahala/tilth/blob/main/benchmark/README.m...PS：我没有预算用 Opus 运行大量基准测试，所以如果任何代币鲸鱼有能力运行一些基准测试，请随时查看公关结果。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47016959
+      <title>CaptchaWare – 一款快速连续完成验证码的游戏</title>
+      <link>https://paperhatprojects.itch.io/captchaware</link>
+      <description><![CDATA[文章网址：https://paperhatprojects.itch.io/captchaware
+评论网址：https://news.ycombinator.com/item?id=47018441
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47016959</guid>
-      <pubDate>Sat, 14 Feb 2026 18:27:20 GMT</pubDate>
+      <guid>https://paperhatprojects.itch.io/captchaware</guid>
+      <pubDate>Sat, 14 Feb 2026 21:13:34 GMT</pubDate>
     </item>
     <item>
-      <title>科技领导者向超级政治行动委员会投入 5000 万美元，以选出对人工智能友好的候选人</title>
-      <link>https://www.latimes.com/business/story/2026-02-13/tech-titans-pour-50-million-into-super-pac-to-elect-ai-friendly-candidates-to-congress</link>
-      <description><![CDATA[文章网址： https://www.latimes.com/business/story/2026-02-13/tech-titans-pour-50-million-into-super-pac-to-elect-ai-friend-candidates-to-congress
-评论网址：https://news.ycombinator.com/item?id=47016950
+      <title>用纯 CSS 和语义排版构建的 CRT 风格的互动诗</title>
+      <link>https://www.gemedet.com/aullido/</link>
+      <description><![CDATA[文章网址：https://www.gemedet.com/aullido/
+评论网址：https://news.ycombinator.com/item?id=47018433
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.gemedet.com/aullido/</guid>
+      <pubDate>Sat, 14 Feb 2026 21:12:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>彩色 Petri 网、LLM 和分布式应用程序</title>
+      <link>https://blog.sao.dev/cpns-llms-distributed-apps/</link>
+      <description><![CDATA[文章网址：https://blog.sao.dev/cpns-llms-distributed-apps/
+评论网址：https://news.ycombinator.com/item?id=47018405
+积分：4
+# 条评论：0]]></description>
+      <guid>https://blog.sao.dev/cpns-llms-distributed-apps/</guid>
+      <pubDate>Sat, 14 Feb 2026 21:08:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>创始人的人工智能搜索引擎优化指南</title>
+      <link>https://superamped.com/posts/ai-search-engine-optimization-b2b-saas/</link>
+      <description><![CDATA[文章网址：https://superamped.com/posts/ai-search-engine-optimization-b2b-saas/
+评论网址：https://news.ycombinator.com/item?id=47018390
+积分：1
+# 条评论：0]]></description>
+      <guid>https://superamped.com/posts/ai-search-engine-optimization-b2b-saas/</guid>
+      <pubDate>Sat, 14 Feb 2026 21:06:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>邀请讨论 MySQL 生态系统的未来</title>
+      <link>https://letter.3306-db.org/</link>
+      <description><![CDATA[文章网址：https://letter.3306-db.org/
+评论网址：https://news.ycombinator.com/item?id=47018385
+积分：1
+# 条评论：0]]></description>
+      <guid>https://letter.3306-db.org/</guid>
+      <pubDate>Sat, 14 Feb 2026 21:06:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Keyjump – 面向高级用户的键盘优先新选项卡</title>
+      <link>https://keyjump.app</link>
+      <description><![CDATA[我构建了 Keyjump，这是一个键盘优先的新标签页，用于在书签、仪表板和预定义站点搜索之间快速跳转。我最初是在计算机科学学习期间为自己制作的，因为我经常在工具之间切换，并且想要比单击书签更快的东西。我在本地使用它多年，最近对其进行了清理并公开：https://keyjump.app/主要特征：- 键盘优先导航- 自定义搜索模板（例如直接跳转到特定网站上的搜索结果）- 本地优先：默认情况下存储在浏览器本地存储中的数据- 无需帐户- 可选帐户跨设备同步和持久性（清除浏览器数据时）- Chrome 扩展可用（Firefox 计划）；它还可以让您快速保存来自其他选项卡的书签/搜索查询，并在任何页面上启动覆盖-主题和布局自定义它故意简单且集中。如果有任何反馈或批评，我将不胜感激。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47018382
+积分：1
+# 条评论：0]]></description>
+      <guid>https://keyjump.app</guid>
+      <pubDate>Sat, 14 Feb 2026 21:06:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建云室：资源指南</title>
+      <link>https://docs.google.com/document/d/14DMR0eFtU-ABk0p-wPXsEzEQ0hJ8VBWtnu5YkQb7BF4/edit?tab=t.0#heading=h.7oi0st3s6iir</link>
+      <description><![CDATA[文章网址： https://docs.google.com/document/d/14DMR0eFtU-ABk0p-wPXsEzEQ0hJ8VBWtnu5YkQb7BF4/edit?tab=t.0#heading=h.7oi0st3s6iir
+评论网址：https://news.ycombinator.com/item?id=47018379
+积分：1
+# 条评论：0]]></description>
+      <guid>https://docs.google.com/document/d/14DMR0eFtU-ABk0p-wPXsEzEQ0hJ8VBWtnu5YkQb7BF4/edit?tab=t.0#heading=h.7oi0st3s6iir</guid>
+      <pubDate>Sat, 14 Feb 2026 21:05:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>溺水模拟器</title>
+      <link>https://drowningsimulator.wtf/</link>
+      <description><![CDATA[文章网址：https://drowningsimulator.wtf/
+评论网址：https://news.ycombinator.com/item?id=47018304
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.latimes.com/business/story/2026-02-13/tech-titans-pour-50-million-into-super-pac-to-elect-ai-friendly-candidates-to-congress</guid>
-      <pubDate>Sat, 14 Feb 2026 18:26:14 GMT</pubDate>
+      <guid>https://drowningsimulator.wtf/</guid>
+      <pubDate>Sat, 14 Feb 2026 20:55:50 GMT</pubDate>
     </item>
     <item>
-      <title>Head 在 Git 中如何工作</title>
-      <link>https://jvns.ca/blog/2024/03/08/how-head-works-in-git/</link>
-      <description><![CDATA[文章网址：https://jvns.ca/blog/2024/03/08/how-head-works-in-git/
-评论网址：https://news.ycombinator.com/item?id=47016946
-积分：1
-# 条评论：0]]></description>
-      <guid>https://jvns.ca/blog/2024/03/08/how-head-works-in-git/</guid>
-      <pubDate>Sat, 14 Feb 2026 18:26:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>我参观了人工智能工程的未来——并带着警告回来了</title>
-      <link>https://igor718185.substack.com/p/i-visited-the-future-of-ai-engineering</link>
-      <description><![CDATA[文章网址：https://igor718185.substack.com/p/i-visited-the-future-of-ai-engineering
-评论网址：https://news.ycombinator.com/item?id=47016924
-积分：1
-# 条评论：2]]></description>
-      <guid>https://igor718185.substack.com/p/i-visited-the-future-of-ai-engineering</guid>
-      <pubDate>Sat, 14 Feb 2026 18:23:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>奥兹博士推动人工智能化身作为农村医疗保健的解决方案</title>
-      <link>https://www.npr.org/2026/02/14/nx-s1-5704189/dr-oz-ai-avatars-replace-rural-health-workers</link>
-      <description><![CDATA[文章网址： https://www.npr.org/2026/02/14/nx-s1-5704189/dr-oz-ai-avatars-replace-rural-health-workers
-评论网址：https://news.ycombinator.com/item?id=47016920
-积分：1
+      <title>问 HN：您如何处理分散的注意力？</title>
+      <link>https://news.ycombinator.com/item?id=47018290</link>
+      <description><![CDATA[由于编码代理的能力越来越强，我经常让他们在工作日同时处理 2-5 项不同的任务。这些任务通常位于单独的甚至不相关的存储库中。或者更糟糕的是，有时这些任务非常相似，很容易混淆。我的大部分注意力都花在了切换上：检查结果、重新启动停止的任务、修复错误或提供提示等。上下文切换会导致注意力分散和效率低下。你会做什么来帮助解决这个问题？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47018290
+积分：2
 # 条评论：1]]></description>
-      <guid>https://www.npr.org/2026/02/14/nx-s1-5704189/dr-oz-ai-avatars-replace-rural-health-workers</guid>
-      <pubDate>Sat, 14 Feb 2026 18:22:48 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47018290</guid>
+      <pubDate>Sat, 14 Feb 2026 20:54:28 GMT</pubDate>
     </item>
     <item>
-      <title>抖音</title>
-      <link>https://www.tiktok.com/explore</link>
-      <description><![CDATA[文章网址：https://www.tiktok.com/explore
-评论网址：https://news.ycombinator.com/item?id=47016915
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.tiktok.com/explore</guid>
-      <pubDate>Sat, 14 Feb 2026 18:22:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>布隆过滤艺术：在心中编码文字；送给特别的人</title>
-      <link>https://improbable-heart.com/</link>
-      <description><![CDATA[文章网址：https://improbable-heart.com/
-评论网址：https://news.ycombinator.com/item?id=47016912
-积分：1
+      <title>Show HN：DevDay – AI 编码会议的日终回顾</title>
+      <link>https://github.com/ujjwaljainnn/devday</link>
+      <description><![CDATA[我构建 devday 是因为我使用多种 AI 编码工具（OpenCode、Claude Code、Cursor），并且想要一个命令来查看我每天实际完成的工作。它读取本地会话数据、与 git 提交的交叉引用，并可选择通过 OpenAI 或 Anthropic 生成独立就绪的摘要。一切都在本地运行 - 除非您选择 LLM 摘要，否则数据不会离开您的计算机。使用 npm install -g devday 进行安装。目前支持 macOS 上的 OpenCode、Claude Code 和 Cursor。希望获得有关支持哪些其他工具的反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47018267
+积分：3
 # 条评论：1]]></description>
-      <guid>https://improbable-heart.com/</guid>
-      <pubDate>Sat, 14 Feb 2026 18:22:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Clawsec：OpenClaw.ai 的开源插件，可阻止危险行为</title>
-      <link>https://www.clawsec.bot</link>
-      <description><![CDATA[文章网址：https://www.clawsec.bot
-评论网址：https://news.ycombinator.com/item?id=47016889
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.clawsec.bot</guid>
-      <pubDate>Sat, 14 Feb 2026 18:18:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>设计成功的企业人工智能系统的关键第一步</title>
-      <link>https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/</link>
-      <description><![CDATA[文章网址： https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/
-评论网址：https://news.ycombinator.com/item?id=47016881
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/</guid>
-      <pubDate>Sat, 14 Feb 2026 18:18:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>别再沉浸在你的思绪中</title>
-      <link>https://curiositysink.substack.com/p/stop-drowning-in-your-thoughts</link>
-      <description><![CDATA[文章网址：https://curiositysink.substack.com/p/stop-drowning-in-your-thoughts
-评论网址：https://news.ycombinator.com/item?id=47016874
-积分：1
-# 条评论：1]]></description>
-      <guid>https://curiositysink.substack.com/p/stop-drowning-in-your-thoughts</guid>
-      <pubDate>Sat, 14 Feb 2026 18:17:51 GMT</pubDate>
+      <guid>https://github.com/ujjwaljainnn/devday</guid>
+      <pubDate>Sat, 14 Feb 2026 20:51:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
