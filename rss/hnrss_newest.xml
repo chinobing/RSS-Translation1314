@@ -4,112 +4,124 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 15 Feb 2026 04:55:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 06:53:52 GMT</lastBuildDate>
     <item>
-      <title>OpenClaw 与 VirusTotal 合作保障技能安全</title>
-      <link>https://openclaw.ai/blog/virustotal-partnership</link>
-      <description><![CDATA[文章网址：https://openclaw.ai/blog/virustotal-partnership
-评论网址：https://news.ycombinator.com/item?id=47021145
-积分：1
-# 条评论：0]]></description>
-      <guid>https://openclaw.ai/blog/virustotal-partnership</guid>
-      <pubDate>Sun, 15 Feb 2026 04:48:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>“我建立了一个网站来探索和分析所有 18,500 条 Pitchfork 评论”</title>
-      <link>https://old.reddit.com/r/indieheads/comments/1r4watg/i_built_a_site_to_explore_and_analyze_all_18500/</link>
-      <description><![CDATA[文章网址： https://old.reddit.com/r/indieheads/comments/1r4watg/i_built_a_site_to_explore_and_analyze_all_18500/
-评论网址：https://news.ycombinator.com/item?id=47021141
-积分：1
-# 条评论：0]]></description>
-      <guid>https://old.reddit.com/r/indieheads/comments/1r4watg/i_built_a_site_to_explore_and_analyze_all_18500/</guid>
-      <pubDate>Sun, 15 Feb 2026 04:46:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>象征性焦虑</title>
-      <link>https://writing.nikunjk.com/p/token-anxiety</link>
-      <description><![CDATA[文章网址：https://writing.nikunjk.com/p/token-anxiety
-评论网址：https://news.ycombinator.com/item?id=47021136
-积分：1
-# 条评论：0]]></description>
-      <guid>https://writing.nikunjk.com/p/token-anxiety</guid>
-      <pubDate>Sun, 15 Feb 2026 04:46:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我厌倦了申请幽灵工作，所以我建立了一个 BS 探测器</title>
-      <link>https://www.thesubspace.io/</link>
-      <description><![CDATA[许多“紧急”招聘信息实际上已经发布了几个月，只是为了看起来新鲜而重新发布。我构建了一个工具，可以通过 PR 来查看公司是否真的在招聘或只是在汇集候选人。在写求职信之前检查你的“幽灵分数”
+      <title>Show HN：我为那些想要停止依赖人工智能的开发者建造了一个“健身房”</title>
+      <link>https://get-human-spec.netlify.app/</link>
+      <description><![CDATA[我注意到初级人员正在复制粘贴他们不理解的代码。我建立了一个平台，你必须手动修复损坏的人工智能代码。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47021131
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.thesubspace.io/</guid>
-      <pubDate>Sun, 15 Feb 2026 04:45:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN: Repy – 具有内置 TTS 和字典查找功能的终端 ePub 阅读器</title>
-      <link>https://github.com/newptcai/repy</link>
-      <description><![CDATA[我构建了 repy，因为我想在不离开终端的情况下通过 SSH 和 tmux 读取 EPUB。它最初是对 epy（一个 Python CLI 电子书阅读器）的 Rust 重新实现，但已经远远超出了这个范围。功能：vim 式导航（hjkl、/、n/N、Ctrl+o/Ctrl+i 跳转历史记录）、书签、目录、带有复制到剪贴板的可视模式、跨章节的正则表达式搜索以及通过 SQLite 实现每本书的宽度/位置持久性。有两个功能我特别满意with:- 文本转语音：按 !它会逐句大声朗读这本书（每块约 300-400 个字符），并在当前段落下划线。默认情况下使用边缘播放 (Microsoft Edge TTS)，可配置为 espeak 或任何自定义命令。智能滚动使语音文本保持可见，而不会不必要地跳转。
-- 词典查找：在视觉模式下选择一个单词，然后按 d 查找词典（自动检测 wkdict/sdcv/dict）或按 p 查找维基百科摘要。可配置为任何自定义命令。全面披露：该项目几乎完全由人工智能构建。我不了解 Rust——我描述了我想要的东西，Claude Code 编写了实现。事实是，一个
-非 Rust 程序员可以通过对话构建和迭代 5000 多行 Rust TUI 应用程序，老实说，有点令人惊奇。该项目中的每个功能、错误修复和重构都经过该工作流程。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47021114
-积分：3
-# 条评论：1]]></description>
-      <guid>https://github.com/newptcai/repy</guid>
-      <pubDate>Sun, 15 Feb 2026 04:41:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>印度加大政府支持风险投资力度，批准 1.1B 美元基金</title>
-      <link>https://techcrunch.com/2026/02/14/india-doubles-down-on-state-backed-venture-capital-approving-1-1b-fund/</link>
-      <description><![CDATA[文章网址：https://techcrunch.com/2026/02/14/india-doubles-down-on-state-backed-venture-capital-approving-1-1b-fund/
-评论网址：https://news.ycombinator.com/item?id=47021108
-积分：3
-# 条评论：0]]></description>
-      <guid>https://techcrunch.com/2026/02/14/india-doubles-down-on-state-backed-venture-capital-approving-1-1b-fund/</guid>
-      <pubDate>Sun, 15 Feb 2026 04:39:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>在您的航站楼中显示 HN：Google 地图</title>
-      <link>https://github.com/Luthiraa/ascii-map</link>
-      <description><![CDATA[1个命令安装： 
-brew install luthiraa/ascii-map/ascii-map
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47021100
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/Luthiraa/ascii-map</guid>
-      <pubDate>Sun, 15 Feb 2026 04:38:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>对旧金山一名社交攀登者的指控被指控性犯罪</title>
-      <link>https://sfstandard.com/2026/02/12/mickey-gerold-sex-crimes-investigation/</link>
-      <description><![CDATA[文章网址：https://sfstandard.com/2026/02/12/mickey-gerold-sex-crimes-investigation/
-评论网址：https://news.ycombinator.com/item?id=47021087
-积分：1
-# 条评论：0]]></description>
-      <guid>https://sfstandard.com/2026/02/12/mickey-gerold-sex-crimes-investigation/</guid>
-      <pubDate>Sun, 15 Feb 2026 04:33:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>线性表示和叠加</title>
-      <link>http://ternarysearch.blogspot.com/2026/02/linear-representations-and-superposition.html</link>
-      <description><![CDATA[文章网址：http://ternarysearch.blogspot.com/2026/02/linear-representations-and-superposition.html
-评论网址：https://news.ycombinator.com/item?id=47021065
+评论网址：https://news.ycombinator.com/item?id=47021548
 积分：2
 # 条评论：0]]></description>
-      <guid>http://ternarysearch.blogspot.com/2026/02/linear-representations-and-superposition.html</guid>
-      <pubDate>Sun, 15 Feb 2026 04:29:44 GMT</pubDate>
+      <guid>https://get-human-spec.netlify.app/</guid>
+      <pubDate>Sun, 15 Feb 2026 06:35:33 GMT</pubDate>
     </item>
     <item>
-      <title>台湾拒绝慕尼黑演讲称中国才是真正的威胁</title>
-      <link>https://www.reuters.com/world/china/china-is-real-threat-taiwan-says-rebuff-munich-speech-2026-02-15/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/world/china/china-is-real-threat-taiwan-says-rebuff-munich-speech-2026-02-15/
-评论网址：https://news.ycombinator.com/item?id=47021061
+      <title>Agentic 科技杂志</title>
+      <link>https://agentcrunch.ai/</link>
+      <description><![CDATA[文章网址：https://agentcrunch.ai/
+评论网址：https://news.ycombinator.com/item?id=47021538
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.reuters.com/world/china/china-is-real-threat-taiwan-says-rebuff-munich-speech-2026-02-15/</guid>
-      <pubDate>Sun, 15 Feb 2026 04:28:55 GMT</pubDate>
+      <guid>https://agentcrunch.ai/</guid>
+      <pubDate>Sun, 15 Feb 2026 06:32:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 Libre Office 中使用 Microsoft Office 快捷方式</title>
+      <link>https://github.com/Zaki101Aslam/MS-office-shortcuts-for-Libre-Office</link>
+      <description><![CDATA[文章网址：https://github.com/Zaki101Aslam/MS-office-shortcuts-for-Libre-Office
+评论网址：https://news.ycombinator.com/item?id=47021525
+积分：1
+# 条评论：1]]></description>
+      <guid>https://github.com/Zaki101Aslam/MS-office-shortcuts-for-Libre-Office</guid>
+      <pubDate>Sun, 15 Feb 2026 06:30:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>SmolMail – 不再输入电子邮件所知道的内容</title>
+      <link>https://smolmail.com/</link>
+      <description><![CDATA[文章网址：https://smolmail.com/
+评论网址：https://news.ycombinator.com/item?id=47021504
+积分：1
+# 条评论：1]]></description>
+      <guid>https://smolmail.com/</guid>
+      <pubDate>Sun, 15 Feb 2026 06:27:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>你的人工智能代理安全吗？</title>
+      <link>https://agentshield.live/</link>
+      <description><![CDATA[文章网址：https://agentshield.live/
+评论网址：https://news.ycombinator.com/item?id=47021487
+积分：1
+# 条评论：1]]></description>
+      <guid>https://agentshield.live/</guid>
+      <pubDate>Sun, 15 Feb 2026 06:21:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 ChatGPT、Claude、Gemini、Grok 和本地之间即时切换您的自我</title>
+      <link>https://context-wallet.com/</link>
+      <description><![CDATA[文章网址：https://context-wallet.com/
+评论网址：https://news.ycombinator.com/item?id=47021466
+积分：1
+# 条评论：0]]></description>
+      <guid>https://context-wallet.com/</guid>
+      <pubDate>Sun, 15 Feb 2026 06:17:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：AgentScore – AI 代理的灯塔</title>
+      <link>https://github.com/xiongallen40-design/agentscore</link>
+      <description><![CDATA[AgentScore 在 AI 代理友好性方面对网站进行了 0-100 分评分。大多数网站都是为人类而不是 AI 构建的 - 我们分析 DOM 语义、ARIA 覆盖范围、选择器稳定性、WebMCP 支持和结构化数据。真实结果：
+- anthropic.com：60/100
+- github.com：56/100（91% CSS-in-JS 哈希类）
+- news.ycombinator.com：31/100（表格布局，零语义标签）尝试：npxagentscore审计
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47021453
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/xiongallen40-design/agentscore</guid>
+      <pubDate>Sun, 15 Feb 2026 06:13:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：PlanOpticon – 从视频记录中提取结构化知识</title>
+      <link>https://github.com/ConflictHQ/PlanOpticon</link>
+      <description><![CDATA[我们构建 PlanOpticon 是为了解决我们一直遇到的问题：长时间录制的会议、培训课程和演示文稿无人重看。它将视频中的结构化知识（文字记录、图表、操作项、要点和知识图）提取为可浏览的输出（Markdown、HTML、
+   PDF)。工作原理： - 使用变化检测（不仅仅是每第 N 帧）提取帧，并定期捕获缓慢变化的内容（例如屏幕共享）
+  - 通过面部检测自动过滤掉网络摄像头/仅限人物的帧
+  - 转录音频（OpenAI Whisper API 或本地 Whisper — 无需 API）
+  - 将帧发送到视觉模型以识别图表并将其重新创建为美人鱼代码
+  - 根据记录构建知识图（实体+关系）
+  - 提取关键点、行动项以及视觉和口头内容之间的交叉引用
+  - 生成一份结构化报告，其中所有内容都链接在一起
+
+支持 OpenAI、Anthropic 和 Gemini 作为提供者 — 自动发现可用模型并将每项任务路由到最佳模型。检查点/恢复这么长时间的分析可以在失败后幸存下来。 pip install planopticon
+  planopticon 分析 -i 会议.mp4 -o ./输出
+
+还支持对整个文件夹进行批处理并从 Google Drive 或 Dropbox 中提取视频。示例：我们在 90 分钟的训练课程中运行它：提取了 122 个帧（从数千名候选人中提取），重新创建了 6 个图表，包含说话者分类的完整文字记录，540 个节点的知识图和一份综合报告 - 所有这些都在大约 25 分钟内完成。Python 3.10+，麻省理工学院许可。文档位于 https://planopticon.dev。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47021448
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/ConflictHQ/PlanOpticon</guid>
+      <pubDate>Sun, 15 Feb 2026 06:10:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Discord 与 Peter Thiel 的 Palantir 年龄验证公司保持距离</title>
+      <link>https://kotaku.com/discord-palantir-peter-thiel-persona-age-verification-2000668951</link>
+      <description><![CDATA[文章网址：https://kotaku.com/discord-palantir-peter-thiel-persona-age-verification-2000668951
+评论网址：https://news.ycombinator.com/item?id=47021421
+积分：4
+# 条评论：0]]></description>
+      <guid>https://kotaku.com/discord-palantir-peter-thiel-persona-age-verification-2000668951</guid>
+      <pubDate>Sun, 15 Feb 2026 06:00:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Flashpoint Archive – 保存了超过 20 万个网页游戏和动画</title>
+      <link>https://flashpointarchive.org</link>
+      <description><![CDATA[文章网址：https://flashpointarchive.org
+评论网址：https://news.ycombinator.com/item?id=47021354
+积分：2
+# 条评论：0]]></description>
+      <guid>https://flashpointarchive.org</guid>
+      <pubDate>Sun, 15 Feb 2026 05:43:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
