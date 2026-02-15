@@ -4,106 +4,113 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 15 Feb 2026 18:37:12 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 21:26:01 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：Lightwave – 实时笔记应用程序，3.5 年手写 JavaScript</title>
+      <link>https://news.ycombinator.com/item?id=47027463</link>
+      <description><![CDATA[嗨，HN！我创作这个独奏已经大约三年半了。我不断尝试每个新的项目/笔记工具（Notion、Asana、Trello 等），但最终总是回到纯文本文件中。我想要的东西在第一次接触时感觉像文本编辑器，但在需要时可以成长为真正的结构。https://lightwave.so技术堆栈是 Laravel、MySQL、Redis 和客户端上的手动 JavaScript。没有像 React/Vue 等框架。约 270 行 jQuery（总共 80k+ 行 LOC）用于一些旧版 DOM 实用程序，以及用于本地持久性的 IndexedDB。实时协作使用混合方法：用于弹性操作的 HTTP/2 POST + 通过 Laravel Reverb 的 WebSockets 用于实时光标、状态和编辑。这是预发布压力测试，而不是发布。 Lightwave 将是一款付费产品。现在我正在打开它，因为没有多少单独的测试可以复制被真实流量打在嘴里的情况。上面的链接有一个按钮，可以一键创建一个测试帐户。已知的粗糙边缘：光标和选择系统是从头开始构建的（就像 VS Code，而不是可内容编辑的包装器），因此有很多表面区域。某些键盘快捷键可能会丢失。仅桌面版，辅助功能尚未实现。我正在实时发布修复程序。如果出现问题，应用程序内有一个“提交错误或反馈”按钮。很高兴回答有关架构或其他任何问题的任何问题。一些亮点：- 粘贴 markdown，获取原生块。复制块，恢复降价。- 分层文档、结构。分层文件管理器。- 具有共享光标、选择和状态的实时协作。- 带有语法突出显示的代码块。 LaTeX 数学块。- 完整数据导出：markdown、JSON 和附件。无锁定。- 完全撤消/重做，并恢复游标。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47027463
+积分：8
+# 条评论：6]]></description>
+      <guid>https://news.ycombinator.com/item?id=47027463</guid>
+      <pubDate>Sun, 15 Feb 2026 20:57:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>GNU Pies – 程序调用和执行主管</title>
+      <link>https://www.gnu.org.ua/software/pies/</link>
+      <description><![CDATA[文章网址：https://www.gnu.org.ua/software/pies/
+评论网址：https://news.ycombinator.com/item?id=47027427
+积分：15
+# 条评论：2]]></description>
+      <guid>https://www.gnu.org.ua/software/pies/</guid>
+      <pubDate>Sun, 15 Feb 2026 20:53:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>法院因 H.265 专利命令宏碁和华硕停止在德国销售 PC</title>
+      <link>https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</link>
+      <description><![CDATA[文章网址： https://videocardz.com/newz/acer-and-asus-are-now-banned-from- sell-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling
+评论网址：https://news.ycombinator.com/item?id=47027011
+积分：25
+# 条评论：5]]></description>
+      <guid>https://videocardz.com/newz/acer-and-asus-are-now-banned-from-selling-pcs-and-laptops-in-germany-following-nokia-hevc-patent-ruling</guid>
+      <pubDate>Sun, 15 Feb 2026 20:06:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>州总检察长希望将在线访问与身份证件联系起来</title>
+      <link>https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</link>
+      <description><![CDATA[文章网址：https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act
+评论网址：https://news.ycombinator.com/item?id=47026848
+积分：76
+# 条评论：51]]></description>
+      <guid>https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act</guid>
+      <pubDate>Sun, 15 Feb 2026 19:49:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：VOOG – 使用 Python 和 tkinter GUI 的 Moog 风格复调合成器</title>
+      <link>https://github.com/gpasquero/voog</link>
+      <description><![CDATA[正文：
+  我使用 Python 和 tkinter GUI 构建了一个复调合成器，其风格仿照 Moog Subsequent 37。 功能：3 个振荡器、Moog 梯形滤波器 (24dB/oct)、双 ADSR 包络、LFO、滑音、噪声发生器、4 个多音色通道、19 个预设、旋转
+  旋钮 GUI、带鼠标的虚拟键盘 + QWERTY 输入以及 MIDI 支持。
+
+  没有外部 GUI 框架——只有 tkinter、numpy 和 sounddevice。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47026768
+积分：29
+# 条评论：2]]></description>
+      <guid>https://github.com/gpasquero/voog</guid>
+      <pubDate>Sun, 15 Feb 2026 19:40:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>科学家在几种动物中观察到 3 亿年前的大脑节律</title>
+      <link>https://phys.org/news/2026-01-scientists-million-year-brain-rhythm.html</link>
+      <description><![CDATA[文章网址：https://phys.org/news/2026-01-scientists-million-year-brain-rhythm.html
+评论网址：https://news.ycombinator.com/item?id=47026289
+积分：13
+# 条评论：0]]></description>
+      <guid>https://phys.org/news/2026-01-scientists-million-year-brain-rhythm.html</guid>
+      <pubDate>Sun, 15 Feb 2026 18:52:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Microgpt 是一个可以在浏览器中可视化的 GPT</title>
+      <link>https://microgpt.boratto.ca</link>
+      <description><![CDATA[深受 karpathy 的同名 microgpt 启发。它（默认情况下）是一个 4000 参数的 GPT/LLM/NN，用于学习生成名称。这是一种教育工具，您可以在激活通过网络时将其可视化，然后单击内容以获得对它们的解释。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47026186
+积分：33
+# 条评论：1]]></description>
+      <guid>https://microgpt.boratto.ca</guid>
+      <pubDate>Sun, 15 Feb 2026 18:40:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>走向自主数学研究</title>
+      <link>https://arxiv.org/abs/2602.10177</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2602.10177
+评论网址：https://news.ycombinator.com/item?id=47026134
+积分：51
+# 条评论：15]]></description>
+      <guid>https://arxiv.org/abs/2602.10177</guid>
+      <pubDate>Sun, 15 Feb 2026 18:35:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>现代 CSS 代码片段：别再像 2015 年那样编写 CSS</title>
+      <link>https://modern-css.com</link>
+      <description><![CDATA[文章网址：https://modern-css.com
+评论网址：https://news.ycombinator.com/item?id=47025851
+积分：66
+# 条评论：15]]></description>
+      <guid>https://modern-css.com</guid>
+      <pubDate>Sun, 15 Feb 2026 18:04:10 GMT</pubDate>
+    </item>
     <item>
       <title>Palantir 从纽约市公立医院获得数百万美元</title>
       <link>https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/</link>
       <description><![CDATA[文章网址：https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/
 评论网址：https://news.ycombinator.com/item?id=47025624
-积分：44
-# 条评论：5]]></description>
+积分：203
+评论数量：75]]></description>
       <guid>https://theintercept.com/2026/02/15/palantir-contract-new-york-city-health-hospitals/</guid>
       <pubDate>Sun, 15 Feb 2026 17:37:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>LT6502：基于 6502 的自制笔记本电脑</title>
-      <link>https://github.com/TechPaula/LT6502</link>
-      <description><![CDATA[文章网址：https://github.com/TechPaula/LT6502
-评论网址：https://news.ycombinator.com/item?id=47025399
-积分：81
-评论数量：9]]></description>
-      <guid>https://github.com/TechPaula/LT6502</guid>
-      <pubDate>Sun, 15 Feb 2026 17:12:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>欧盟禁止销毁未售出的服装、服装、配饰和鞋类</title>
-      <link>https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en</link>
-      <description><![CDATA[文章网址：https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en
-评论网址：https://news.ycombinator.com/item?id=47025378
-积分：187
-评论数：127]]></description>
-      <guid>https://environment.ec.europa.eu/news/new-eu-rules-stop-destruction-unsold-clothes-and-shoes-2026-02-09_en</guid>
-      <pubDate>Sun, 15 Feb 2026 17:10:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir 诉“Republik”：美国分析公司将杂志告上法庭</title>
-      <link>https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html</link>
-      <description><![CDATA[文章网址： https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html
-评论网址：https://news.ycombinator.com/item?id=47025188
-积分：65
-# 条评论：11]]></description>
-      <guid>https://www.heise.de/en/news/Palantir-vs-the-Republik-US-analytics-firm-takes-magazine-to-court-11176508.html</guid>
-      <pubDate>Sun, 15 Feb 2026 16:51:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>世嘉所有游戏机的设计师佐藤英树去世</title>
-      <link>https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/</link>
-      <description><![CDATA[文章网址：https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/
-评论网址：https://news.ycombinator.com/item?id=47024907
-积分：138
-# 条评论：4]]></description>
-      <guid>https://www.videogameschronicle.com/news/hideki-sato-designer-of-segas-consoles-dies-age-75/</guid>
-      <pubDate>Sun, 15 Feb 2026 16:19:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>一名被奴役的园丁将山核桃变成了经济作物</title>
-      <link>https://lithub.com/how-an-enslaved-gardener-transformed-the-pecan-into-a-cash-crop/</link>
-      <description><![CDATA[文章网址：https://lithub.com/how-an-enslaved-gardener-transformed-the-pecan-into-a-cash-crop/
-评论网址：https://news.ycombinator.com/item?id=47024676
-积分：44
-# 条评论：29]]></description>
-      <guid>https://lithub.com/how-an-enslaved-gardener-transformed-the-pecan-into-a-cash-crop/</guid>
-      <pubDate>Sun, 15 Feb 2026 15:53:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gwtar：静态高效的单文件 HTML 格式</title>
-      <link>https://gwern.net/gwtar</link>
-      <description><![CDATA[文章网址：https://gwern.net/gwtar
-评论网址：https://news.ycombinator.com/item?id=47024506
-积分：42
-# 条评论：7]]></description>
-      <guid>https://gwern.net/gwtar</guid>
-      <pubDate>Sun, 15 Feb 2026 15:37:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>1940 年代爱尔兰科幻小说以早期机甲和重力辅助为特色</title>
-      <link>https://github.com/cavedave/Manannan</link>
-      <description><![CDATA[文章网址：https://github.com/cavedave/Manannan
-评论网址：https://news.ycombinator.com/item?id=47024184
-积分：16
-# 条评论：3]]></description>
-      <guid>https://github.com/cavedave/Manannan</guid>
-      <pubDate>Sun, 15 Feb 2026 14:55:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>平台内效应</title>
-      <link>https://en.wikipedia.org/wiki/Inner-platform_effect</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Inner-platform_effect
-评论网址：https://news.ycombinator.com/item?id=47024112
-积分：31
-# 条评论：6]]></description>
-      <guid>https://en.wikipedia.org/wiki/Inner-platform_effect</guid>
-      <pubDate>Sun, 15 Feb 2026 14:48:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>亚马逊、谷歌无意中暴露了美国监控国家的严重性</title>
-      <link>https://greenwald.substack.com/p/amazons-ring-and-googles-nest-unwittingly</link>
-      <description><![CDATA[文章网址：https://greenwald.substack.com/p/amazons-ring-and-googles-nest-unwittingly
-评论网址：https://news.ycombinator.com/item?id=47023238
-积分：445
-# 条评论：288]]></description>
-      <guid>https://greenwald.substack.com/p/amazons-ring-and-googles-nest-unwittingly</guid>
-      <pubDate>Sun, 15 Feb 2026 12:42:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
