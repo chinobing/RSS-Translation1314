@@ -4,109 +4,114 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 17 Feb 2026 06:59:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 09:50:35 GMT</lastBuildDate>
     <item>
-      <title>爱泼斯坦档案中的人如何击败 MeToo</title>
-      <link>https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo</link>
-      <description><![CDATA[文章网址：https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo
-评论网址：https://news.ycombinator.com/item?id=47044467
+      <title>谁杀了凯鲁亚克</title>
+      <link>https://whokilledkerouac.com/mission</link>
+      <description><![CDATA[文章网址：https://whokilledkerouac.com/mission
+评论网址：https://news.ycombinator.com/item?id=47045495
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo</guid>
-      <pubDate>Tue, 17 Feb 2026 06:53:46 GMT</pubDate>
+      <guid>https://whokilledkerouac.com/mission</guid>
+      <pubDate>Tue, 17 Feb 2026 09:44:36 GMT</pubDate>
     </item>
     <item>
-      <title>2 LOC 中的 GPT</title>
-      <link>https://github.com/Lazarus-931/femto-gpt</link>
-      <description><![CDATA[文章网址：https://github.com/Lazarus-931/femto-gpt
-评论网址：https://news.ycombinator.com/item?id=47044438
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/Lazarus-931/femto-gpt</guid>
-      <pubDate>Tue, 17 Feb 2026 06:47:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么更多的男性应该服用伟哥，而这与性无关</title>
-      <link>https://news.ycombinator.com/item?id=47044429</link>
-      <description><![CDATA[https://www.telegraph.co.uk/news/2026/02/14/why-more-men-should-be-on-viagra/
+      <title>显示 HN：MCP 存储映射 – 适用于 MySQL、MongoDB 和 Athena 的一台 MCP 服务器</title>
+      <link>https://github.com/cyhoon/mcp-storage-map</link>
+      <description><![CDATA[我构建了一个 MCP 服务器，让 AI 助手（Claude、Cursor 等）通过一个统一的界面查询多个数据库。在使用 Claude Code 时，我发现管理 MySQL、MongoDB 和 AWS Athena 的单独连接非常痛苦。所以我
+构建了一个服务器，提供一组一致的工具（查询、list_collections、describe_collection 等）
+在所有支持的数据库中都以相同的方式工作。主要功能：
+- 默认情况下只读 - 写入访问需要明确选择加入，因此您不会意外地改变生产数据
+- 多个同时连接 – 将它们标记为 PROD、STAGING、ANALYTICS 等并同时管理它们
+- 可扩展 – 通过实现使用 TypeScript 构建的 McpConnector 接口添加新的数据库连接器。支持 MySQL 5.7+、MongoDB 4.4+ 和 AWS Athena。这是一个开源项目 – 欢迎提供反馈、问题和 PR。如果你尝试一下并有任何
+有任何改进建议或想法，请随时分享！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47044429
+评论网址：https://news.ycombinator.com/item?id=47045460
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47044429</guid>
-      <pubDate>Tue, 17 Feb 2026 06:46:09 GMT</pubDate>
+      <guid>https://github.com/cyhoon/mcp-storage-map</guid>
+      <pubDate>Tue, 17 Feb 2026 09:39:10 GMT</pubDate>
     </item>
     <item>
-      <title>Nematic：具有准真实 LCD 着色器的 Gameboy 模拟器</title>
-      <link>https://nematic.tulv.in/</link>
-      <description><![CDATA[文章网址：https://nematic.tulv.in/
-评论网址：https://news.ycombinator.com/item?id=47044424
-积分：1
-# 条评论：1]]></description>
-      <guid>https://nematic.tulv.in/</guid>
-      <pubDate>Tue, 17 Feb 2026 06:45:46 GMT</pubDate>
+      <title>WD 和希捷确认：2026 年硬盘已售罄</title>
+      <link>https://www.heise.de/en/news/WD-and-Seagate-confirm-Hard-drives-for-2026-sold-out-11178917.html</link>
+      <description><![CDATA[文章网址：https://www.heise.de/en/news/WD-and-Seagate-confirm-Hard-drives-for-2026-sold-out-11178917.html
+评论网址：https://news.ycombinator.com/item?id=47045459
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.heise.de/en/news/WD-and-Seagate-confirm-Hard-drives-for-2026-sold-out-11178917.html</guid>
+      <pubDate>Tue, 17 Feb 2026 09:38:54 GMT</pubDate>
     </item>
     <item>
-      <title>切尔诺贝利工人子女中发现 DNA 突变</title>
-      <link>https://www.sciencealert.com/dna-mutations-discovered-in-the-children-of-chernobyl-workers</link>
-      <description><![CDATA[文章网址：https://www.sciencealert.com/dna-mutations-discovered-in-the-children-of-chernobyl-workers
-评论网址：https://news.ycombinator.com/item?id=47044423
+      <title>OpenCode 的创建者认为人工智能生产力是在自欺欺人</title>
+      <link>https://blog.codacy.com/the-creator-of-opencode-thinks-youre-fooling-yourself-about-ai-productivity</link>
+      <description><![CDATA[文章网址：https://blog.codacy.com/the-creator-of-opencode-thinks-youre-fooling-yourself-about-ai-productivity
+评论网址：https://news.ycombinator.com/item?id=47045441
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.sciencealert.com/dna-mutations-discovered-in-the-children-of-chernobyl-workers</guid>
-      <pubDate>Tue, 17 Feb 2026 06:45:45 GMT</pubDate>
+      <guid>https://blog.codacy.com/the-creator-of-opencode-thinks-youre-fooling-yourself-about-ai-productivity</guid>
+      <pubDate>Tue, 17 Feb 2026 09:36:15 GMT</pubDate>
     </item>
     <item>
-      <title>内存紧缺，二手笔记本电脑市场成为“主流”</title>
-      <link>https://www.theregister.com/2026/02/16/refurbished_pcs_memory_crunch/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2026/02/16/refurbished_pcs_memory_crunch/
-评论网址：https://news.ycombinator.com/item?id=47044419
+      <title>埃隆·马斯克 (Elon Musk) 谈太空 GPU、人工智能、擎天柱及其制造方法</title>
+      <link>https://cheekypint.substack.com/p/elon-musk-on-space-gpus-ai-optimus</link>
+      <description><![CDATA[文章网址：https://cheekypint.substack.com/p/elon-musk-on-space-gpus-ai-optimus
+评论网址：https://news.ycombinator.com/item?id=47045438
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theregister.com/2026/02/16/refurbished_pcs_memory_crunch/</guid>
-      <pubDate>Tue, 17 Feb 2026 06:44:54 GMT</pubDate>
+      <guid>https://cheekypint.substack.com/p/elon-musk-on-space-gpus-ai-optimus</guid>
+      <pubDate>Tue, 17 Feb 2026 09:35:53 GMT</pubDate>
     </item>
     <item>
-      <title>JWasm：Masm 兼容汇编器</title>
-      <link>https://github.com/Baron-von-Riedesel/JWasm</link>
-      <description><![CDATA[文章网址：https://github.com/Baron-von-Riedesel/JWasm
-评论网址：https://news.ycombinator.com/item?id=47044413
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/Baron-von-Riedesel/JWasm</guid>
-      <pubDate>Tue, 17 Feb 2026 06:43:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>捍卫无聊技术</title>
-      <link>https://aazar.me/posts/in-defense-of-boring-technology</link>
-      <description><![CDATA[文章网址：https://aazar.me/posts/in-defense-of-boring-technology
-评论网址：https://news.ycombinator.com/item?id=47044412
-积分：1
-# 条评论：0]]></description>
-      <guid>https://aazar.me/posts/in-defense-of-boring-technology</guid>
-      <pubDate>Tue, 17 Feb 2026 06:43:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>“信号嗅探器”检测南希·格思里部署的起搏器</title>
-      <link>https://www.cbsnews.com/news/signal-sniffer-detect-nancy-guthrie-pacemaker-deployed-law-enforcement-sources/</link>
-      <description><![CDATA[文章网址：https://www.cbsnews.com/news/signal-sniffer-detect-nancy-guthrie-pacemaker-deployed-law-enforcement-sources/
-评论网址：https://news.ycombinator.com/item?id=47044408
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.cbsnews.com/news/signal-sniffer-detect-nancy-guthrie-pacemaker-deployed-law-enforcement-sources/</guid>
-      <pubDate>Tue, 17 Feb 2026 06:43:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：使用 Sankey 图可视化 S&P 500 财务状况</title>
-      <link>https://10q10k.net</link>
-      <description><![CDATA[我构建这个是为了了解公司实际赚钱和花钱的地方。每家公司都会得到一张桑基图，显示从收入到支出再到利润的流程。还包括三份标准财务报表。
-希望获得有关可视化方法的反馈。
+      <title>显示 HN：Llmfit；94 个型号，30 个提供商。1 个工具可查看您的硬件上运行的内容</title>
+      <link>https://github.com/AlexsJones/llmfit</link>
+      <description><![CDATA[我构建这个是为了证明自己购买一台功能更强大的笔记本电脑是合理的。现在你也可以..
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47044393
+评论网址：https://news.ycombinator.com/item?id=47045434
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/AlexsJones/llmfit</guid>
+      <pubDate>Tue, 17 Feb 2026 09:35:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>利润不仅仅是数字</title>
+      <link>https://news.ycombinator.com/submit</link>
+      <description><![CDATA[文章网址：https://news.ycombinator.com/submit
+评论网址：https://news.ycombinator.com/item?id=47045431
+积分：1
+# 条评论：2]]></description>
+      <guid>https://news.ycombinator.com/submit</guid>
+      <pubDate>Tue, 17 Feb 2026 09:34:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>零知识（关于）加密：密码管理器的安全分析</title>
+      <link>https://zkae.io/</link>
+      <description><![CDATA[文章网址：https://zkae.io/
+评论网址：https://news.ycombinator.com/item?id=47045399
+积分：1
+# 条评论：0]]></description>
+      <guid>https://zkae.io/</guid>
+      <pubDate>Tue, 17 Feb 2026 09:30:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>日本是资本主义衰落晚期的样子</title>
+      <link>https://oceandrops.substack.com/p/japan-is-what-late-stage-capitalist</link>
+      <description><![CDATA[文章网址：https://oceandrops.substack.com/p/japan-is-what-late-stage-capitalist
+评论网址：https://news.ycombinator.com/item?id=47045381
+积分：1
+# 条评论：0]]></description>
+      <guid>https://oceandrops.substack.com/p/japan-is-what-late-stage-capitalist</guid>
+      <pubDate>Tue, 17 Feb 2026 09:27:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>产品管理的重点是人，而不是技术</title>
+      <link>https://www.leadinginproduct.com/p/product-management-is-a-people-role</link>
+      <description><![CDATA[文章网址：https://www.leadinginproduct.com/p/product-management-is-a-people-role
+评论网址：https://news.ycombinator.com/item?id=47045378
 积分：3
-# 条评论：0]]></description>
-      <guid>https://10q10k.net</guid>
-      <pubDate>Tue, 17 Feb 2026 06:41:01 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://www.leadinginproduct.com/p/product-management-is-a-people-role</guid>
+      <pubDate>Tue, 17 Feb 2026 09:26:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
