@@ -4,135 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 17 Feb 2026 04:53:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 06:59:56 GMT</lastBuildDate>
     <item>
-      <title>迈向原生多模式代理</title>
-      <link>https://simonwillison.net/2026/Feb/17/qwen35/</link>
-      <description><![CDATA[文章网址：https://simonwillison.net/2026/Feb/17/qwen35/
-评论网址：https://news.ycombinator.com/item?id=47043766
+      <title>爱泼斯坦档案中的人如何击败 MeToo</title>
+      <link>https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo
+评论网址：https://news.ycombinator.com/item?id=47044467
 积分：1
 # 条评论：0]]></description>
-      <guid>https://simonwillison.net/2026/Feb/17/qwen35/</guid>
-      <pubDate>Tue, 17 Feb 2026 04:40:29 GMT</pubDate>
+      <guid>https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo</guid>
+      <pubDate>Tue, 17 Feb 2026 06:53:46 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：CodeGraph CLI – 使用图形增强 RAG 与您的代码库聊天</title>
-      <link>https://github.com/al1-nasir/codegraph-cli</link>
-      <description><![CDATA[嘿 HN！我构建了 CodeGraph CLI，因为我厌倦了 grep 
-大量代码库试图理解事物是如何工作的。它结合了三件事：
-- tree-sitter（AST解析，容错）
-- SQLite（依赖图：节点+边）
-- LanceDB（向量嵌入，基于磁盘）关键见解：纯向量搜索错过了结构 
-关系。所以我将向量搜索与 BFS 图结合起来 
-遍历——找到语义相似的代码，然后展开 
-到依赖项/依赖项。结果：询问“身份验证如何工作？”它发现 
-validate_token()，其调用者login_handler()，以及 
-dependency TokenStore — 因为它理解两者 
-含义 AND 结构。其他功能：
-- 影响分析（多跳 BFS：在更改之前会破坏什么）
-- 通过 CrewAI 的多代理系统（4 个专业代理）
-- 可视化代码浏览器（基于浏览器）
-- 自动生成文档/自述文件
-- 100% 本地优先（与 Ollama 一起使用，零数据离开机器）
-- 6 个法学硕士提供商（Ollama、OpenAI、Anthropic、Groq、Gemini、OpenRouter）
-- 5 个嵌入模型（从零依赖哈希到 1.5B 代码模型）快速入门：
-  pip 安装 codegraph-cli
-  cg配置设置
-  cg 项目索引 ./your-project
-  cg chat startMIT 许可。 Python 3.9+。很高兴回答有关图增强 RAG 的问题 
-架构或任何技术决策。
+      <title>2 LOC 中的 GPT</title>
+      <link>https://github.com/Lazarus-931/femto-gpt</link>
+      <description><![CDATA[文章网址：https://github.com/Lazarus-931/femto-gpt
+评论网址：https://news.ycombinator.com/item?id=47044438
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/Lazarus-931/femto-gpt</guid>
+      <pubDate>Tue, 17 Feb 2026 06:47:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么更多的男性应该服用伟哥，而这与性无关</title>
+      <link>https://news.ycombinator.com/item?id=47044429</link>
+      <description><![CDATA[https://www.telegraph.co.uk/news/2026/02/14/why-more-men-should-be-on-viagra/
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47043764
+评论网址：https://news.ycombinator.com/item?id=47044429
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/al1-nasir/codegraph-cli</guid>
-      <pubDate>Tue, 17 Feb 2026 04:39:54 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47044429</guid>
+      <pubDate>Tue, 17 Feb 2026 06:46:09 GMT</pubDate>
     </item>
     <item>
-      <title>长期失业正在成为当今就业市场的“现状”</title>
-      <link>https://www.cnbc.com/2026/02/16/long-term-unemployment-becoming-a-status-quo-in-todays-job-market.html</link>
-      <description><![CDATA[文章网址：https://www.cnbc.com/2026/02/16/long-term-unemployment-becoming-a-status-quo-in-todays-job-market.html
-评论网址：https://news.ycombinator.com/item?id=47043751
+      <title>Nematic：具有准真实 LCD 着色器的 Gameboy 模拟器</title>
+      <link>https://nematic.tulv.in/</link>
+      <description><![CDATA[文章网址：https://nematic.tulv.in/
+评论网址：https://news.ycombinator.com/item?id=47044424
+积分：1
+# 条评论：1]]></description>
+      <guid>https://nematic.tulv.in/</guid>
+      <pubDate>Tue, 17 Feb 2026 06:45:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>切尔诺贝利工人子女中发现 DNA 突变</title>
+      <link>https://www.sciencealert.com/dna-mutations-discovered-in-the-children-of-chernobyl-workers</link>
+      <description><![CDATA[文章网址：https://www.sciencealert.com/dna-mutations-discovered-in-the-children-of-chernobyl-workers
+评论网址：https://news.ycombinator.com/item?id=47044423
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.sciencealert.com/dna-mutations-discovered-in-the-children-of-chernobyl-workers</guid>
+      <pubDate>Tue, 17 Feb 2026 06:45:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>内存紧缺，二手笔记本电脑市场成为“主流”</title>
+      <link>https://www.theregister.com/2026/02/16/refurbished_pcs_memory_crunch/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2026/02/16/refurbished_pcs_memory_crunch/
+评论网址：https://news.ycombinator.com/item?id=47044419
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theregister.com/2026/02/16/refurbished_pcs_memory_crunch/</guid>
+      <pubDate>Tue, 17 Feb 2026 06:44:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>JWasm：Masm 兼容汇编器</title>
+      <link>https://github.com/Baron-von-Riedesel/JWasm</link>
+      <description><![CDATA[文章网址：https://github.com/Baron-von-Riedesel/JWasm
+评论网址：https://news.ycombinator.com/item?id=47044413
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/Baron-von-Riedesel/JWasm</guid>
+      <pubDate>Tue, 17 Feb 2026 06:43:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>捍卫无聊技术</title>
+      <link>https://aazar.me/posts/in-defense-of-boring-technology</link>
+      <description><![CDATA[文章网址：https://aazar.me/posts/in-defense-of-boring-technology
+评论网址：https://news.ycombinator.com/item?id=47044412
+积分：1
+# 条评论：0]]></description>
+      <guid>https://aazar.me/posts/in-defense-of-boring-technology</guid>
+      <pubDate>Tue, 17 Feb 2026 06:43:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>“信号嗅探器”检测南希·格思里部署的起搏器</title>
+      <link>https://www.cbsnews.com/news/signal-sniffer-detect-nancy-guthrie-pacemaker-deployed-law-enforcement-sources/</link>
+      <description><![CDATA[文章网址：https://www.cbsnews.com/news/signal-sniffer-detect-nancy-guthrie-pacemaker-deployed-law-enforcement-sources/
+评论网址：https://news.ycombinator.com/item?id=47044408
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.cbsnews.com/news/signal-sniffer-detect-nancy-guthrie-pacemaker-deployed-law-enforcement-sources/</guid>
+      <pubDate>Tue, 17 Feb 2026 06:43:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：使用 Sankey 图可视化 S&P 500 财务状况</title>
+      <link>https://10q10k.net</link>
+      <description><![CDATA[我构建这个是为了了解公司实际赚钱和花钱的地方。每家公司都会得到一张桑基图，显示从收入到支出再到利润的流程。还包括三份标准财务报表。
+希望获得有关可视化方法的反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47044393
 积分：3
 # 条评论：0]]></description>
-      <guid>https://www.cnbc.com/2026/02/16/long-term-unemployment-becoming-a-status-quo-in-todays-job-market.html</guid>
-      <pubDate>Tue, 17 Feb 2026 04:36:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：如何在 Rust 中可靠地对低于 100 纳秒的代码路径进行基准测试</title>
-      <link>https://github.com/abokhalill/cuttlefish</link>
-      <description><![CDATA[大家好，我刚刚完成了这个名为 Cuttlefish 的库的核心版本的编码，完全用 Rust 编写。它是一个受 CRDT 启发的框架，包含 io_uring、SIMD、零复制管道等内容。它是这样的：所以大多数分布式系统都是强一致性的，但代价是延迟。 Cuttlefish 是一个无协调状态内核，它以 L1 缓存的速度保留不变量和约束。这里的正确性是由代数的属性定义的。因此，如果您的运营需要通勤，则无需协调。如果没有，您知道准入时间以纳秒为单位，或者至少应该知道。运行完整的基准测试套件会触发以下结果：完整准入周期：~40ns
-内核承认：~13 ns
-因果时钟优势：~700 ps
-分层哈希验证：~280 ns
-持久准入：~5.2 ns
-WAL 哈希：~230 ns在我的 CPU (r5 7600x) 上，我测量了 40 ns 的完整周期，包括因果关系检查，但我不确定我的基准设置，因为其中大部分是由 AI 编写的。其他人如何可靠地测量 100 纳秒以下的 rust 代码路径？ 
-仓库：https://github.com/abokhalill/cuttlefish
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47043738
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/abokhalill/cuttlefish</guid>
-      <pubDate>Tue, 17 Feb 2026 04:33:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>民意调查：您的大部分代码是手工编写的还是使用人工智能代理编写的？</title>
-      <link>https://news.ycombinator.com/item?id=47043735</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=47043735
-积分：1
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=47043735</guid>
-      <pubDate>Tue, 17 Feb 2026 04:33:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>详细程度</title>
-      <link>https://phinze.com/writing/level-of-detail</link>
-      <description><![CDATA[文章网址：https://phinze.com/writing/level-of-detail
-评论网址：https://news.ycombinator.com/item?id=47043731
-积分：1
-# 条评论：0]]></description>
-      <guid>https://phinze.com/writing/level-of-detail</guid>
-      <pubDate>Tue, 17 Feb 2026 04:32:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>前谷歌员工成为极端邪教领袖（2025）</title>
-      <link>https://www.nytimes.com/2025/07/06/business/ziz-lasota-zizians-rationalists.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2025/07/06/business/ziz-lasota-zizians-rationalists.html
-评论网址：https://news.ycombinator.com/item?id=47043729
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.nytimes.com/2025/07/06/business/ziz-lasota-zizians-rationalists.html</guid>
-      <pubDate>Tue, 17 Feb 2026 04:31:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>免费学习 n8n</title>
-      <link>https://theowllogic.com</link>
-      <description><![CDATA[文章网址：https://theowllogic.com
-评论网址：https://news.ycombinator.com/item?id=47043718
-积分：1
-# 条评论：0]]></description>
-      <guid>https://theowllogic.com</guid>
-      <pubDate>Tue, 17 Feb 2026 04:29:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>经过真菌处理的小提琴胜过斯特拉迪瓦里小提琴</title>
-      <link>https://www.sciencedaily.com/releases/2009/09/090914111418.htm</link>
-      <description><![CDATA[文章网址：https://www.sciencedaily.com/releases/2009/09/090914111418.htm
-评论网址：https://news.ycombinator.com/item?id=47043707
-积分：2
-# 条评论：1]]></description>
-      <guid>https://www.sciencedaily.com/releases/2009/09/090914111418.htm</guid>
-      <pubDate>Tue, 17 Feb 2026 04:27:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>两人点文件 – Kevin.md</title>
-      <link>https://www.kevin.md/dotfiles-for-two.md/</link>
-      <description><![CDATA[文章网址：https://www.kevin.md/dotfiles-for-two.md/
-评论网址：https://news.ycombinator.com/item?id=47043703
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.kevin.md/dotfiles-for-two.md/</guid>
-      <pubDate>Tue, 17 Feb 2026 04:27:14 GMT</pubDate>
+      <guid>https://10q10k.net</guid>
+      <pubDate>Tue, 17 Feb 2026 06:41:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
