@@ -4,15 +4,45 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 19 Feb 2026 04:53:10 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 07:00:59 GMT</lastBuildDate>
+    <item>
+      <title>欧洲技术替代品</title>
+      <link>https://eutechmap.com/map</link>
+      <description><![CDATA[文章网址：https://eutechmap.com/map
+评论网址：https://news.ycombinator.com/item?id=47070142
+积分：107
+# 条评论：58]]></description>
+      <guid>https://eutechmap.com/map</guid>
+      <pubDate>Thu, 19 Feb 2026 05:07:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：一个 Lisp，其中每个函数调用都运行一个 Docker 容器</title>
+      <link>https://github.com/a11ce/docker-lisp</link>
+      <description><![CDATA[文章网址：https://github.com/a11ce/docker-lisp
+评论网址：https://news.ycombinator.com/item?id=47069876
+积分：11
+# 条评论：5]]></description>
+      <guid>https://github.com/a11ce/docker-lisp</guid>
+      <pubDate>Thu, 19 Feb 2026 04:19:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>当电网出现故障时，乌克兰人通过 LoRa 无线电控制家庭助理</title>
+      <link>https://old.reddit.com/r/homeassistant/comments/1r8ftc0/i_control_my_home_assistant_over_lora_radio_when/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/homeassistant/comments/1r8ftc0/i_control_my_home_assistant_over_lora_radio_when/
+评论网址：https://news.ycombinator.com/item?id=47069724
+积分：43
+# 条评论：5]]></description>
+      <guid>https://old.reddit.com/r/homeassistant/comments/1r8ftc0/i_control_my_home_assistant_over_lora_radio_when/</guid>
+      <pubDate>Thu, 19 Feb 2026 03:56:29 GMT</pubDate>
+    </item>
     <item>
       <title>Electrobun v1：使用 TypeScript 构建快速、小型和跨平台的桌面应用程序</title>
       <link>https://blackboard.sh/blog/electrobun-v1/</link>
-      <description><![CDATA[我正在使用 Electrobun [1] 构建一个商业 macOS 应用程序。我之前用 Tauri 编写过相同的应用程序。我想说的是，虽然我喜欢 Tauri，但使用 Electrobun 绝对是轻而易举的事。我在大约 70% 的时间内完成了相同的应用程序 [2]。这是一个非常高效的堆栈。这在很大程度上归功于 Electrobun，而且事实上 Bun 拥有大量 DX 细节和内置捆绑器。 Electrobun 允许您打开/操作/关闭 Webview 窗口并使用类型化 RPC 与它们进行通信。它还处理构建、代码签名和公证。因为我使用 Bun，所以运行 HMR + React + Tailwind 服务器只需一个命令（`bun ./index.html`）或类似 5 行代码。通过 --console ，webview 的 console.log() 也会传输到您的终端。Electrobun 还做了很多其他事情，我什至没有提到，因为我还没有与它们进行太多交互。例如。我知道它可以让您显示平台本机通知、提示/弹出窗口等。还有一个非常令人印象深刻的更新机制，该机制依赖于用 Zig 编写的 bsdiff 实现。您只需交付增量，因此大多数时候对非常大的应用程序的更新只有几 KB。这确实是一个非常高效的堆栈和令人印象深刻的技术。[1] 不隶属 - 我只是喜欢这个项目。[2]：API 和实现很明确，所以我会谨慎地说这不是“重写总是更快”的情况。事实上，Tauri 版本也是重写:)
+      <description><![CDATA[我正在使用 Electrobun [1] 构建一个商业 macOS 应用程序。我之前用 Tauri 编写过相同的应用程序。我想说的是，虽然我喜欢 Tauri，但使用 Electrobun 绝对是轻而易举的事情。我在大约 70% 的时间内完成了相同的应用程序 [2]。这是一个非常高效的堆栈。这在很大程度上归功于 Electrobun，而且事实上 Bun 拥有大量 DX 细节和内置捆绑器。 Electrobun 允许您打开/操作/关闭 Webview 窗口并使用类型化 RPC 与它们进行通信。它还处理构建、代码签名和公证。因为我使用 Bun，所以运行 HMR + React + Tailwind 服务器只需一个命令（`bun ./index.html`）或类似 5 行代码。通过 --console ，webview 的 console.log() 也会传输到您的终端。Electrobun 还做了很多其他事情，我什至没有提到，因为我还没有与它们进行太多交互。例如。我知道它可以让您显示平台本机通知、提示/弹出窗口等。还有一个非常令人印象深刻的更新机制，该机制依赖于用 Zig 编写的 bsdiff 实现。您只需交付增量，因此大多数时候对非常大的应用程序的更新只有几 KB。这确实是一个非常高效的堆栈和令人印象深刻的技术。[1] 不隶属 - 我只是喜欢这个项目。[2]：API 和实现很明确，所以我会谨慎地说这不是“重写总是更快”的情况。事实上，Tauri 版本也是重写:)
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47069650
-积分：22
-# 条评论：6]]></description>
+积分：65
+# 条评论：19]]></description>
       <guid>https://blackboard.sh/blog/electrobun-v1/</guid>
       <pubDate>Thu, 19 Feb 2026 03:46:07 GMT</pubDate>
     </item>
@@ -21,8 +51,8 @@
       <link>https://code.claude.com/docs/en/legal-and-compliance</link>
       <description><![CDATA[文章网址：https://code.claude.com/docs/en/legal-and-compliance
 评论网址：https://news.ycombinator.com/item?id=47069299
-积分：118
-评论数：138]]></description>
+积分：230
+# 条评论：241]]></description>
       <guid>https://code.claude.com/docs/en/legal-and-compliance</guid>
       <pubDate>Thu, 19 Feb 2026 02:52:26 GMT</pubDate>
     </item>
@@ -31,8 +61,8 @@
       <link>https://static.stepfun.com/blog/step-3.5-flash/</link>
       <description><![CDATA[文章网址：https://static.stepfun.com/blog/step-3.5-flash/
 评论网址：https://news.ycombinator.com/item?id=47069179
-积分：15
-# 条评论：2]]></description>
+积分：36
+# 条评论：10]]></description>
       <guid>https://static.stepfun.com/blog/step-3.5-flash/</guid>
       <pubDate>Thu, 19 Feb 2026 02:32:00 GMT</pubDate>
     </item>
@@ -41,8 +71,8 @@
       <link>https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</link>
       <description><![CDATA[文章网址：https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/
 评论网址：https://news.ycombinator.com/item?id=47068948
-积分：109
-# 条评论：28]]></description>
+积分：156
+# 条评论：47]]></description>
       <guid>https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</guid>
       <pubDate>Thu, 19 Feb 2026 01:55:33 GMT</pubDate>
     </item>
@@ -51,8 +81,8 @@
       <link>https://nicolasdickenmann.com/blog/the-great-fp64-divide.html</link>
       <description><![CDATA[文章网址：https://nicolasdickenmann.com/blog/the-great-fp64-divide.html
 评论网址：https://news.ycombinator.com/item?id=47068890
-积分：48
-# 条评论：14]]></description>
+积分：75
+# 条评论：22]]></description>
       <guid>https://nicolasdickenmann.com/blog/the-great-fp64-divide.html</guid>
       <pubDate>Thu, 19 Feb 2026 01:46:07 GMT</pubDate>
     </item>
@@ -61,8 +91,8 @@
       <link>https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe</link>
       <description><![CDATA[文章网址：https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe
 评论网址：https://news.ycombinator.com/item?id=47068320
-积分：26
-# 条评论：8]]></description>
+积分：68
+# 条评论：30]]></description>
       <guid>https://cepr.org/voxeu/columns/how-ai-affecting-productivity-and-jobs-europe</guid>
       <pubDate>Thu, 19 Feb 2026 00:22:45 GMT</pubDate>
     </item>
@@ -72,40 +102,10 @@
       <description><![CDATA[https://archive.is/D9vEN
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47067759
-积分：227
-# 条评论：141]]></description>
+积分：259
+# 条评论：157]]></description>
       <guid>https://devblogs.microsoft.com/azure-sql/langchain-with-sqlvectorstore-example/</guid>
       <pubDate>Wed, 18 Feb 2026 23:19:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>结束这个，因为我们不再追求 Swift 的采用</title>
-      <link>https://github.com/LadybirdBrowser/ladybird/issues/933</link>
-      <description><![CDATA[文章网址：https://github.com/LadybirdBrowser/ladybird/issues/933
-评论网址：https://news.ycombinator.com/item?id=47067678
-积分：235
-# 条评论：185]]></description>
-      <guid>https://github.com/LadybirdBrowser/ladybird/issues/933</guid>
-      <pubDate>Wed, 18 Feb 2026 23:08:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>尺码混乱</title>
-      <link>https://pudding.cool/2026/02/womens-sizing/</link>
-      <description><![CDATA[文章网址：https://pudding.cool/2026/02/womens-sizing/
-评论网址：https://news.ycombinator.com/item?id=47066552
-积分：379
-# 条评论：212]]></description>
-      <guid>https://pudding.cool/2026/02/womens-sizing/</guid>
-      <pubDate>Wed, 18 Feb 2026 21:18:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Metriport (YC S22) 正在招聘一名安全工程师来强化医疗基础设施</title>
-      <link>https://www.ycombinator.com/companies/metriport/jobs/XC2AF8s-senior-security-engineer</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/metriport/jobs/XC2AF8s-senior-security-engineer
-评论网址：https://news.ycombinator.com/item?id=47066310
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/metriport/jobs/XC2AF8s-senior-security-engineer</guid>
-      <pubDate>Wed, 18 Feb 2026 21:00:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
