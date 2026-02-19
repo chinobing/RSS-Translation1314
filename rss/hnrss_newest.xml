@@ -4,107 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 19 Feb 2026 02:09:39 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 04:53:24 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Pinggy – 一款有趣的应用程序，只需一个词就能分享您正在做的事情</title>
-      <link>https://pinggy.com</link>
-      <description><![CDATA[文章网址：https://pinggy.com
-评论网址：https://news.ycombinator.com/item?id=47068957
-积分：2
-# 条评论：0]]></description>
-      <guid>https://pinggy.com</guid>
-      <pubDate>Thu, 19 Feb 2026 01:56:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>Minecraft Java 正在从 OpenGL 切换到 Vulkan</title>
-      <link>https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</link>
-      <description><![CDATA[文章网址：https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/
-评论网址：https://news.ycombinator.com/item?id=47068948
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/</guid>
-      <pubDate>Thu, 19 Feb 2026 01:55:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能先驱李飞飞的世界实验室筹集了 10 亿美元资金</title>
-      <link>https://finance.yahoo.com/news/ai-pioneer-fei-fei-lis-202957884.html</link>
-      <description><![CDATA[文章网址：https://finance.yahoo.com/news/ai-pioneer-fei-fei-lis-202957884.html
-评论网址：https://news.ycombinator.com/item?id=47068944
-积分：1
-# 条评论：0]]></description>
-      <guid>https://finance.yahoo.com/news/ai-pioneer-fei-fei-lis-202957884.html</guid>
-      <pubDate>Thu, 19 Feb 2026 01:54:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>新地图发现，洛杉矶县近一半的人行道可能没有必要</title>
-      <link>https://www.latimes.com/environment/story/2026-02-16/nearly-half-of-l-a-countys-pavement-may-be-unnecessary-new-map-finds</link>
-      <description><![CDATA[文章网址： https://www.latimes.com/environment/story/2026-02-16/nearly-half-of-l-a-countys-pavement-may-be-unnecessary-new-map-finds
-评论网址：https://news.ycombinator.com/item?id=47068935
-积分：2
-# 条评论：1]]></description>
-      <guid>https://www.latimes.com/environment/story/2026-02-16/nearly-half-of-l-a-countys-pavement-may-be-unnecessary-new-map-finds</guid>
-      <pubDate>Thu, 19 Feb 2026 01:53:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>Grandpa Lissajous – 13 代理人工智能编排循环</title>
-      <link>https://blog.sauhsoj.wtf/posts/the-grandpa-loop/</link>
-      <description><![CDATA[文章网址：https://blog.sauhsoj.wtf/posts/the-grandpa-loop/
-评论网址：https://news.ycombinator.com/item?id=47068917
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blog.sauhsoj.wtf/posts/the-grandpa-loop/</guid>
-      <pubDate>Thu, 19 Feb 2026 01:50:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：还有其他人厌倦了科技行业的工作吗？</title>
-      <link>https://news.ycombinator.com/item?id=47068900</link>
-      <description><![CDATA[我真的厌倦了 BS、人工智能、企业环境等等。寻找替代方案。如果您处于同一条船上：您打算使用什么？
+      <title>Show HN：我为人工智能生成的代码构建了预推送安全网</title>
+      <link>https://github.com/asamassekou10/ship-safe</link>
+      <description><![CDATA[嘿 HN，我正在分享 Ship Safe (https://github.com/asamassekou10/ship-safe)，这是我创建的一个开源工具，旨在帮助开发人员在最终进入公共存储库之前在本地捕获安全风险。像我们许多人一样，我最近一直非常依赖人工智能代码生成。它的速度令人难以置信，但它有一个危险的习惯，即产生幻觉凭证、对敏感配置进行硬编码或吐出不安全的样板文件。我的警钟几乎是把一个实时的 Stripe 密钥推送到一个公共仓库。那一刻的恐慌让我意识到我需要一个可靠的本地检查点。我构建了 Ship Safe，因此它不仅仅是一个简单的密钥检查器。它旨在成为您的代码的全面安全网。它扫描硬编码的秘密、错误配置的环境设置和一般不安全模式。我们的目标是让您在按下按钮时完全安心，知道您的环境实际上是安全的。最重要的是使其完全无摩擦。您不需要任何复杂的设置或配置文件即可开始。您可以在当前项目中立即运行它：npx 船舶安全扫描。我特别高兴分享的一个功能是 MCP 集成。您可以连接它，以便您的 AI 代码编辑器可以直接调用 Ship Safe。这创建了一个非常有用的反馈循环，人工智能在其中编写代码，然后在您开始审核之前立即审核自己的工作是否存在安全缺陷。我真诚地希望这可以让你们中的一些人免受存储库受损或周末毁掉的压力。我很乐意您尝试一下，并让我知道还有哪些其他安全检查对您的日常工作流程有帮助！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47068900
-积分：3
+评论网址：https://news.ycombinator.com/item?id=47070012
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/asamassekou10/ship-safe</guid>
+      <pubDate>Thu, 19 Feb 2026 04:42:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>飞爪</title>
+      <link>https://crates.io/crates/femtoclaw_rs</link>
+      <description><![CDATA[文章网址：https://crates.io/crates/femtoclaw_rs
+评论网址：https://news.ycombinator.com/item?id=47070008
+积分：1
+# 条评论：0]]></description>
+      <guid>https://crates.io/crates/femtoclaw_rs</guid>
+      <pubDate>Thu, 19 Feb 2026 04:41:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>悲惨的 Polestar 4 “具有”现代汽车问题的象征</title>
+      <link>https://www.theautopian.com/this-miserable-feature-of-the-polestar-4-feels-like-a-symbol-for-what-is-wrong-with-modern-cars/</link>
+      <description><![CDATA[文章网址： https://www.theautopian.com/this-miserable-feature-of-the-polestar-4-feels-like-a-symbol-for-what-is-wrong-with-modern-cars/
+评论网址：https://news.ycombinator.com/item?id=47069993
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theautopian.com/this-miserable-feature-of-the-polestar-4-feels-like-a-symbol-for-what-is-wrong-with-modern-cars/</guid>
+      <pubDate>Thu, 19 Feb 2026 04:39:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：CodeSprout – 儿童 HTML Vibecoder</title>
+      <link>https://qeditor.dev/</link>
+      <description><![CDATA[基于浏览器的游戏html暂存器提示
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47069989
+积分：1
+# 条评论：0]]></description>
+      <guid>https://qeditor.dev/</guid>
+      <pubDate>Thu, 19 Feb 2026 04:38:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>新贵 Sarvam 推出专为印度市场定制的 AI 模型</title>
+      <link>https://www.bloomberg.com/news/articles/2026-02-18/upstart-sarvam-unveils-ai-model-customized-for-india-market</link>
+      <description><![CDATA[文章网址：https://www.bloomberg.com/news/articles/2026-02-18/upstart-sarvam-unveils-ai-model-customized-for-india-market
+评论网址：https://news.ycombinator.com/item?id=47069988
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.bloomberg.com/news/articles/2026-02-18/upstart-sarvam-unveils-ai-model-customized-for-india-market</guid>
+      <pubDate>Thu, 19 Feb 2026 04:38:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>有状态沙箱环境（用于 AI 代理）</title>
+      <link>https://sprites.dev/</link>
+      <description><![CDATA[文章网址：https://sprites.dev/
+评论网址：https://news.ycombinator.com/item?id=47069931
+积分：1
+# 条评论：0]]></description>
+      <guid>https://sprites.dev/</guid>
+      <pubDate>Thu, 19 Feb 2026 04:29:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw 与 VirusTotal 合作保障技能安全</title>
+      <link>https://openclaw.ai/blog/virustotal-partnership</link>
+      <description><![CDATA[文章网址：https://openclaw.ai/blog/virustotal-partnership
+评论网址：https://news.ycombinator.com/item?id=47069926
+积分：1
 # 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=47068900</guid>
-      <pubDate>Thu, 19 Feb 2026 01:47:54 GMT</pubDate>
+      <guid>https://openclaw.ai/blog/virustotal-partnership</guid>
+      <pubDate>Thu, 19 Feb 2026 04:29:17 GMT</pubDate>
     </item>
     <item>
-      <title>网页设计的黄金时代</title>
-      <link>https://www.webdesignmuseum.org/golden-age-of-web-design</link>
-      <description><![CDATA[文章网址：https://www.webdesignmuseum.org/golden-age-of-web-design
-评论网址：https://news.ycombinator.com/item?id=47068897
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.webdesignmuseum.org/golden-age-of-web-design</guid>
-      <pubDate>Thu, 19 Feb 2026 01:47:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>奥运冰壶石背后的奇特地质</title>
-      <link>https://www.scientificamerican.com/article/the-quirky-geology-behind-olympic-curling-stones/</link>
-      <description><![CDATA[文章网址：https://www.scientificamerican.com/article/the-quirky-geology-behind-olympic-curling-stones/
-评论网址：https://news.ycombinator.com/item?id=47068889
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.scientificamerican.com/article/the-quirky-geology-behind-olympic-curling-stones/</guid>
-      <pubDate>Thu, 19 Feb 2026 01:46:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：ThresholdIQ – 警报阈值模拟器（100 % 客户端）</title>
-      <link>https://thresholdiq.app/</link>
-      <description><![CDATA[文章网址：https://thresholdiq.app/
-评论网址：https://news.ycombinator.com/item?id=47068873
-积分：1
-# 条评论：0]]></description>
-      <guid>https://thresholdiq.app/</guid>
-      <pubDate>Thu, 19 Feb 2026 01:42:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>PicoLM：在 10 美元的板上运行 1B 参数 LLM</title>
-      <link>https://github.com/RightNow-AI/picolm</link>
-      <description><![CDATA[文章网址：https://github.com/RightNow-AI/picolm
-评论网址：https://news.ycombinator.com/item?id=47068850
+      <title>ReferenceFinder：在一张只有折叠的纸上查找坐标</title>
+      <link>https://mutsuntsai.github.io/reference-finder/</link>
+      <description><![CDATA[文章网址：https://mutsuntsai.github.io/reference-finder/
+评论网址：https://news.ycombinator.com/item?id=47069918
 积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/RightNow-AI/picolm</guid>
-      <pubDate>Thu, 19 Feb 2026 01:38:16 GMT</pubDate>
+      <guid>https://mutsuntsai.github.io/reference-finder/</guid>
+      <pubDate>Thu, 19 Feb 2026 04:27:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>内存狂热：四年一遇的短缺如何助长内存繁荣</title>
+      <link>https://newsletter.semianalysis.com/p/memory-mania-how-a-once-in-four-decades</link>
+      <description><![CDATA[文章网址：https://newsletter.semianalysis.com/p/memory-mania-how-a-once-in-four-decades
+评论网址：https://news.ycombinator.com/item?id=47069907
+积分：1
+# 条评论：0]]></description>
+      <guid>https://newsletter.semianalysis.com/p/memory-mania-how-a-once-in-four-decades</guid>
+      <pubDate>Thu, 19 Feb 2026 04:25:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>苹果发布 iOS 26 采用率；它们与过去几年的情况一致</title>
+      <link>https://daringfireball.net/2026/02/apple_releases_ios_26_adoption_rates</link>
+      <description><![CDATA[文章网址：https://daringfireball.net/2026/02/apple_releases_ios_26_adoption_rates
+评论网址：https://news.ycombinator.com/item?id=47069902
+积分：2
+# 条评论：0]]></description>
+      <guid>https://daringfireball.net/2026/02/apple_releases_ios_26_adoption_rates</guid>
+      <pubDate>Thu, 19 Feb 2026 04:23:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
