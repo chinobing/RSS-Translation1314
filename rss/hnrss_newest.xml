@@ -4,122 +4,119 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 20 Feb 2026 04:48:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 06:59:01 GMT</lastBuildDate>
     <item>
-      <title>Hyperagent – 让代理学习、复合和扩展</title>
-      <link>https://www.hyperagent.com/</link>
-      <description><![CDATA[文章网址：https://www.hyperagent.com/
-评论网址：https://news.ycombinator.com/item?id=47083848
+      <title>斯科特·亚历山大 (Scott Alexander) 的耳语耳环</title>
+      <link>https://croissanthology.com/earring</link>
+      <description><![CDATA[文章网址：https://croissanthology.com/earring?
+评论网址：https://news.ycombinator.com/item?id=47084604
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.hyperagent.com/</guid>
-      <pubDate>Fri, 20 Feb 2026 04:40:39 GMT</pubDate>
+      <guid>https://croissanthology.com/earring</guid>
+      <pubDate>Fri, 20 Feb 2026 06:52:28 GMT</pubDate>
     </item>
     <item>
-      <title>神秘捐助者向日本城市捐赠 360 万美元金条以修复供水系统</title>
-      <link>https://www.bbc.com/news/articles/c3ew5jlqz87o</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c3ew5jlqz87o
-评论网址：https://news.ycombinator.com/item?id=47083735
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.bbc.com/news/articles/c3ew5jlqz87o</guid>
-      <pubDate>Fri, 20 Feb 2026 04:27:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>加州提出一项限制 3D 打印机使用的法案 (AB-2047)</title>
-      <link>https://legiscan.com/CA/text/AB2047/2025</link>
-      <description><![CDATA[文章网址：https://legiscan.com/CA/text/AB2047/2025
-评论网址：https://news.ycombinator.com/item?id=47083723
+      <title>显示 HN：用于分析向量嵌入的 CLI 工具！</title>
+      <link>https://github.com/dakshjain-1616/Embedding-Evaluator</link>
+      <description><![CDATA[文章网址：https://github.com/dakshjain-1616/Embedding-Evaluator
+评论网址：https://news.ycombinator.com/item?id=47084592
 积分：1
 # 条评论：1]]></description>
-      <guid>https://legiscan.com/CA/text/AB2047/2025</guid>
-      <pubDate>Fri, 20 Feb 2026 04:25:17 GMT</pubDate>
+      <guid>https://github.com/dakshjain-1616/Embedding-Evaluator</guid>
+      <pubDate>Fri, 20 Feb 2026 06:50:54 GMT</pubDate>
     </item>
     <item>
-      <title>联邦调查局“资产”帮助运营一个多年来销售含有芬太尼药物的黑暗网站</title>
-      <link>https://www.wired.com/story/an-fbi-asset-helped-run-a-dark-web-site-that-sold-fentanyl-laced-drugs-for-years/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/an-fbi-asset-helped-run-a-dark-web-site-that-sold-fentanyl-laced-drugs-for-years/
-评论网址：https://news.ycombinator.com/item?id=47083715
-积分：3
-# 条评论：2]]></description>
-      <guid>https://www.wired.com/story/an-fbi-asset-helped-run-a-dark-web-site-that-sold-fentanyl-laced-drugs-for-years/</guid>
-      <pubDate>Fri, 20 Feb 2026 04:24:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我构建了一个 Kotlin 包管理器 (KPM)</title>
-      <link>https://github.com/BenMorrisRains/Kotlin-Package-Manager</link>
-      <description><![CDATA[免责声明：仍处于阿尔法阶段。还有氛围编码，所以...你已经被警告了。我不太确定这会去哪里，或者是否需要去任何地方，但作为一个几乎整天生活在基于 Kotlin 的项目中的人，我总是羡慕网络开发者的 npm 和 bun。或者使用 pip 的 Python 开发人员。使用这些工具可以让项目启动或添加依赖项变得如此轻松。 Google 不会搜索每个依赖路径来复制/粘贴到 Gradle 中。这就是 kpm 这个想法的来源。工作基本上是一样的。运行一个简单的命令来搭建 Android 或 Kotlin 项目，然后运行另一个简单的命令来添加依赖项。无论如何，这就是这个想法。几年前我开始用手写这个，但它在某个地方偏离了轨道，去年我开始重新使用 Claude。最近刚刚把它重新捡起来，我认为它现在处于一个足够好的位置，看看是否有人对这样的东西感兴趣。 AI 非常擅长编写项目脚本。除了生成 Gradle 文件并修改它们的大量代码之外，这里没有真正的魔力。有一些事情我不确定，比如全局配置。我什至不知道这是否有用，如果你在一个已经设置好的项目中使用它，它肯定会把事情搞砸，因为它目前正在覆盖所有内容，所以是的，要小心。我正在（或者我猜是 AI）生成 CMP/KMP 项目，这将非常好。显然，这永远不会像包子或 pip 那样平滑，但它提供了熟悉的体验。如果你是 Android 开发人员，请开始：
-kpm new MyApp --android --compose kpm add 将添加依赖项好奇并紧张地想听听人们的想法。谢谢！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47083709
+      <title>一段被埋葬的历史——木制水管[视频]</title>
+      <link>https://www.youtube.com/watch?v=1fntV0c-fYE</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=1fntV0c-fYE
+评论网址：https://news.ycombinator.com/item?id=47084581
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/BenMorrisRains/Kotlin-Package-Manager</guid>
-      <pubDate>Fri, 20 Feb 2026 04:23:37 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=1fntV0c-fYE</guid>
+      <pubDate>Fri, 20 Feb 2026 06:48:37 GMT</pubDate>
     </item>
     <item>
-      <title>没有主流的AI视频编辑工具吗？</title>
-      <link>https://news.ycombinator.com/item?id=47083706</link>
-      <description><![CDATA[有几家yc公司在做这件事，但在我尝试之前它们有什么好处吗？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47083706
-积分：2
+      <title>司法部总部挂着特朗普头像的大横幅</title>
+      <link>https://apnews.com/article/donald-trump-banner-justice-department-pam-bondi-13f3d901c9bd6d179e206475adadc28a</link>
+      <description><![CDATA[文章网址： https://apnews.com/article/donald-trump-banner-justice-department-pam-bondi-13f3d901c9bd6d179e206475adadc28a
+评论网址：https://news.ycombinator.com/item?id=47084580
+积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47083706</guid>
-      <pubDate>Fri, 20 Feb 2026 04:23:31 GMT</pubDate>
+      <guid>https://apnews.com/article/donald-trump-banner-justice-department-pam-bondi-13f3d901c9bd6d179e206475adadc28a</guid>
+      <pubDate>Fri, 20 Feb 2026 06:48:23 GMT</pubDate>
     </item>
     <item>
-      <title>法官斥责马克·扎克伯格团队佩戴 Meta 眼镜受审</title>
-      <link>https://www.cbsnews.com/news/meta-trial-mark-zuckerberg-ai-glasses/</link>
-      <description><![CDATA[文章网址：https://www.cbsnews.com/news/meta-trial-mark-zuckerberg-ai-glasses/
-评论网址：https://news.ycombinator.com/item?id=47083699
-积分：3
-# 条评论：2]]></description>
-      <guid>https://www.cbsnews.com/news/meta-trial-mark-zuckerberg-ai-glasses/</guid>
-      <pubDate>Fri, 20 Feb 2026 04:22:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>顶级律师的费用飙升。准备好支付每小时 3,400 美元的费用</title>
-      <link>https://www.wsj.com/business/lawyer-hourly-rate-bill-3400-807cf6ce</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/business/lawyer-hourly-rate-bill-3400-807cf6ce
-评论网址：https://news.ycombinator.com/item?id=47083689
-积分：2
+      <title>保罗·福特：“人工智能”颠覆已经到来，而且确实很有趣”</title>
+      <link>https://www.nytimes.com/2026/02/18/opinion/ai-software.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2026/02/18/opinion/ai-software.html
+评论网址：https://news.ycombinator.com/item?id=47084573
+积分：1
 # 条评论：1]]></description>
-      <guid>https://www.wsj.com/business/lawyer-hourly-rate-bill-3400-807cf6ce</guid>
-      <pubDate>Fri, 20 Feb 2026 04:21:33 GMT</pubDate>
+      <guid>https://www.nytimes.com/2026/02/18/opinion/ai-software.html</guid>
+      <pubDate>Fri, 20 Feb 2026 06:47:37 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Optimize_anything：用于优化任何文本参数的通用 API</title>
-      <link>https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/</link>
-      <description><![CDATA[我们构建了optimize_anything，这是一个 API，可以优化任何可表示为文本的工件——代码、提示、代理架构、配置，甚至 SVG。它将 GEPA（我们的提示优化器，之前讨论过：https://arxiv.org/abs/2507.19457）远远超出了提示范围。API 被故意设计得最小化。您提供要优化的内容以及如何衡量它：import gepa.optimize_anything as oadef evaluate(candidate: str) -&gt; tuple[float, dict]:
-    结果= run_my_system（候选）
-    return result.score, {&quot;error&quot;: result.stderr, &quot;runtime&quot;: f&quot;{result.time_ms}ms&quot;}result = oa.optimize_anything(
-    种子候选人=“”，
-    评估者=评估者，
-)评估器返回一个分数加上诊断反馈（我们称之为“可操作的辅助信息”——堆栈跟踪、渲染图像、分析器输出，任何有助于诊断故障的内容）。 LLM 提议者在反思步骤中读取此反馈，并提出有针对性的修复方案，而不是盲目突变。候选者是通过跨指标/示例的帕累托前沿选择的，因此即使平均水平平庸，最擅长某件事的候选者也能生存下来。有两个想法将其与 AlphaEvolve/OpenEvolve/ShinkaEvolve 式的 LLM 演变区分开来：(1) 诊断反馈是一流的 API 概念，而不是特定于框架的机制；(2) API 统一了三种优化模式 - 单任务搜索（解决一个难题）、多任务搜索（通过交叉传输解决相关问题）和泛化（构建传输到未见过的输入的工件）。先前的框架仅表达模式 1。我们跨 8 个域进行了测试。所选结果：编码代理技能：学习到的特定于存储库的技能使 Claude Code 能够近乎完美地完成任务，并使速度提高 47%
-云调度：发现的算法可将成本降低 40%，在 ADRS 排行榜上超越专家启发法和其他 LLM 进化框架
-代理架构：将 10 行存根演变成 300 多行 ARC-AGI 代理，将 Gemini Flash 性能从 32.5% 提高到 89.5%
-圆形封装 (n=26)：优于 AlphaEvolve 已发布的解决方案
-黑盒优化：生成的特定问题求解器在 56 个 EvalSet 问题上匹配或超过 Optuna
-CUDA 内核：87% 匹配或超过基线；多任务模式优于专用单任务运行```
-pip安装gepa
-```包含所有 8 个案例研究的完整结果和可运行代码的博客：https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-o...GitHub：https://github.com/gepa-ai/gepa
+      <title>Gemini 3.1 Pro就像</title>
+      <link>https://twitter.com/Google/status/2024598510499426433</link>
+      <description><![CDATA[文章网址：https://twitter.com/Google/status/2024598510499426433
+评论网址：https://news.ycombinator.com/item?id=47084567
+积分：1
+# 条评论：0]]></description>
+      <guid>https://twitter.com/Google/status/2024598510499426433</guid>
+      <pubDate>Fri, 20 Feb 2026 06:46:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 libdragon 和tiny3d 的 N64 游戏引擎和编辑器</title>
+      <link>https://github.com/HailToDodongo/pyrite64</link>
+      <description><![CDATA[文章网址：https://github.com/HailToDodongo/pyrite64
+评论网址：https://news.ycombinator.com/item?id=47084560
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/HailToDodongo/pyrite64</guid>
+      <pubDate>Fri, 20 Feb 2026 06:44:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：ESP32-S3 探针 – 带有自动帧解码器的 UART“飞行记录器”</title>
+      <link>https://github.com/choihimchan/linkscope-bpu-uart-analyzer</link>
+      <description><![CDATA[嗨 HN，我使用 ESP32-S3 作为廉价探针构建了一个小型 UART 分析仪。
+它以 921600 波特率窃听目标的 TX，并通过 USB CDC 将原始字节流式传输到 PC。为了使其稳健且易于重新同步，S3 将数据包装到一个微小的二进制帧中：
+&#39;A&#39;&#39;N&#39;|类型 | seq16 |时间戳32 | len16 |有效负载，
+然后用 0x00 分隔符对其进行 COBS 编码。在 PC 端 (Python/Tkinter)，UI 显示：
+- RAW hexdump + 吞吐量图 + 运行状况统计（seq 间隙/溢出）
+- 日志/文本视图（提取可打印的 ASCII 运行）
+- 录制/重播 (.anlog) 用于离线再现
+- 自动解析器：扫描魔法字节并暴力破解 CRC 变体以查找未知的内部帧这最初是作为固件和主机之间的个人调试桥梁，
+帮助我捕获丢失的数据块、突发模式和协议错误
+没有逻辑分析仪。存储库：
+ https://github.com/choihimchan/linkscope-bpu-uart-analyzer我希望获得有关框架、重放格式或解析启发式的反馈。
+谢谢！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47083674
-积分：5
+评论网址：https://news.ycombinator.com/item?id=47084554
+积分：1
 # 条评论：0]]></description>
-      <guid>https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/</guid>
-      <pubDate>Fri, 20 Feb 2026 04:19:04 GMT</pubDate>
+      <guid>https://github.com/choihimchan/linkscope-bpu-uart-analyzer</guid>
+      <pubDate>Fri, 20 Feb 2026 06:43:20 GMT</pubDate>
     </item>
     <item>
-      <title>一致性扩散语言模型：速度提高 14 倍，无质量损失</title>
-      <link>https://www.together.ai/blog/consistency-diffusion-language-models</link>
-      <description><![CDATA[文章网址：https://www.together.ai/blog/consistency-diffusion-language-models
-评论网址：https://news.ycombinator.com/item?id=47083648
-积分：2
+      <title>显示 HN：PhotoMeh – 根据照片估算维修成本 – 60 秒内</title>
+      <link>https://photomeh.com</link>
+      <description><![CDATA[在汽车到达之前，通过人工智能辅助的损坏估算帮助您的维修店更快地响应客户。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47084482
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.together.ai/blog/consistency-diffusion-language-models</guid>
-      <pubDate>Fri, 20 Feb 2026 04:15:58 GMT</pubDate>
+      <guid>https://photomeh.com</guid>
+      <pubDate>Fri, 20 Feb 2026 06:29:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>论海军人工智能</title>
+      <link>https://www.youtube.com/watch?v=sXCKgEl9hBo</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=sXCKgEl9hBo
+评论网址：https://news.ycombinator.com/item?id=47084475
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.youtube.com/watch?v=sXCKgEl9hBo</guid>
+      <pubDate>Fri, 20 Feb 2026 06:28:37 GMT</pubDate>
     </item>
     </channel>
 </rss>

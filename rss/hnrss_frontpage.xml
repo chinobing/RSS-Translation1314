@@ -4,24 +4,65 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 20 Feb 2026 04:47:44 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 06:58:46 GMT</lastBuildDate>
     <item>
-      <title>微软新的一万年数据存储介质：玻璃</title>
-      <link>https://arstechnica.com/science/2026/02/microsofts-new-10000-year-data-storage-medium-glass/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/science/2026/02/microsofts-new-10000-year-data-storage-medium-glass/
-评论网址：https://news.ycombinator.com/item?id=47083512
-积分：11
+      <title>Show HN：Fostrom，为开发人员打造的物联网云平台</title>
+      <link>https://fostrom.io/</link>
+      <description><![CDATA[嘿，HN！ Arjun 和 Sid 在此。Fostrom 是一个物联网云平台，专为开发人员设计，可让他们轻松入门和扩展车队。我们拥有设备 SDK（Python、JS、Elixir 版本，更多版本即将推出）、类型化架构、每设备邮箱、可编程操作、4 个用于低延迟连接的全球区域等等。我们构建 Fostrom 是为了解决我们在之前的初创公司中面临的实际需求，即构建一个完全自动化的室内垂直农场。我们花在弄清楚物联网基础设施上的时间比编写自动化逻辑的时间更多。 Fostrom 是我们当时希望存在的平台。在过去的几年里，我们尝试了许多有趣的技术和架构，并最终确定了一个我们认为相当优雅的架构。我们编写了一个 Go&lt;-&gt;Elixir 桥来在 WASM for Actions 中执行 JS 代码，为 Elixir 实现了一个 DuckDB 库，并用 Rust 编写了一个设备代理，我们的 SDK 在后台运行（https://github.com/fostrom/devicekit）。我们最有趣的认识是关于数据架构的。多年来，我们尝试使用分布式数据库并在其之上构建复杂的层，但所有方法都存在显着的局限性，特别是在一致性和查询方面。我们希望提供操作正确性、丰富的见解和可靠性。最后，我们得出的结论是，要实现这一目标，我们确实需要一个用于车队数据的 SQL 数据库。因此我们构建了一个基于DuckDB的复制多租户数据层。我们仍在改进它（因此获得了技术预览徽章），但我们对此决定感到非常自豪。它简化了代码库的其余部分，同时将操作复杂性保留在少数地方。我们的愿景是打造一个强大的 IoT 平台，使您能够构建正确、安全且可靠的连接系统，而无需处理任何管道或基础设施。下一步，我们将启动 CLI，向我们的设备 SDK 添加自动设备监控，并改善调试体验。我们有一些非常酷的想法，可以使 Fostrom 和开发互联系统的体验变得更好。我们还将很快撰写有关我们的架构和旅程的更多内容。我们还发布了发布博客文章，其中更详细地介绍了我们的愿景、我们构建的内容以及我们未来的计划：https://fostrom.io/blog/introducing-fostrom希望您试用 Fostrom 并向我们提供反馈和意见想法。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47084431
+积分：3
+# 条评论：0]]></description>
+      <guid>https://fostrom.io/</guid>
+      <pubDate>Fri, 20 Feb 2026 06:20:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过 iokit 读取 Apple Silicon MacBook 上未记录的 MEMS 加速度计</title>
+      <link>https://github.com/olvvier/apple-silicon-accelerometer</link>
+      <description><![CDATA[文章网址：https://github.com/olvvier/apple-silicon-accelerometer
+评论网址：https://news.ycombinator.com/item?id=47084000
+积分：9
 # 条评论：1]]></description>
-      <guid>https://arstechnica.com/science/2026/02/microsofts-new-10000-year-data-storage-medium-glass/</guid>
-      <pubDate>Fri, 20 Feb 2026 03:57:55 GMT</pubDate>
+      <guid>https://github.com/olvvier/apple-silicon-accelerometer</guid>
+      <pubDate>Fri, 20 Feb 2026 05:06:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过注意力匹配进行快速 KV 压缩</title>
+      <link>https://arxiv.org/abs/2602.16284</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2602.16284
+评论网址：https://news.ycombinator.com/item?id=47083882
+积分：4
+# 条评论：0]]></description>
+      <guid>https://arxiv.org/abs/2602.16284</guid>
+      <pubDate>Fri, 20 Feb 2026 04:46:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>神秘捐助者向日本城市捐赠 360 万美元金条以修复供水系统</title>
+      <link>https://www.bbc.com/news/articles/c3ew5jlqz87o</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c3ew5jlqz87o
+评论网址：https://news.ycombinator.com/item?id=47083735
+积分：55
+# 条评论：23]]></description>
+      <guid>https://www.bbc.com/news/articles/c3ew5jlqz87o</guid>
+      <pubDate>Fri, 20 Feb 2026 04:27:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>一致性扩散语言模型：速度提高 14 倍，无质量损失</title>
+      <link>https://www.together.ai/blog/consistency-diffusion-language-models</link>
+      <description><![CDATA[文章网址：https://www.together.ai/blog/consistency-diffusion-language-models
+评论网址：https://news.ycombinator.com/item?id=47083648
+积分：42
+# 条评论：6]]></description>
+      <guid>https://www.together.ai/blog/consistency-diffusion-language-models</guid>
+      <pubDate>Fri, 20 Feb 2026 04:15:58 GMT</pubDate>
     </item>
     <item>
       <title>人工智能特工发表了一篇关于我的热门文章——接线员挺身而出</title>
       <link>https://theshamblog.com/an-ai-agent-wrote-a-hit-piece-on-me-part-4/</link>
       <description><![CDATA[文章网址：https://theshamblog.com/an-ai-agent-wrote-a-hit-piece-on-me-part-4/
 评论网址：https://news.ycombinator.com/item?id=47083145
-积分：167
-# 条评论：103]]></description>
+积分：282
+# 条评论：211]]></description>
       <guid>https://theshamblog.com/an-ai-agent-wrote-a-hit-piece-on-me-part-4/</guid>
       <pubDate>Fri, 20 Feb 2026 03:05:08 GMT</pubDate>
     </item>
@@ -30,8 +71,8 @@
       <link>https://github.com/tmustier/pi-for-excel</link>
       <description><![CDATA[文章网址：https://github.com/tmustier/pi-for-excel
 评论网址：https://news.ycombinator.com/item?id=47082854
-积分：20
-# 条评论：1]]></description>
+积分：39
+# 条评论：5]]></description>
       <guid>https://github.com/tmustier/pi-for-excel</guid>
       <pubDate>Fri, 20 Feb 2026 02:20:06 GMT</pubDate>
     </item>
@@ -40,8 +81,8 @@
       <link>https://sour.coffee/2026/02/20/an-arm-homelab-server-or-a-minisforum-ms-r1-review/</link>
       <description><![CDATA[文章网址：https://sour.coffee/2026/02/20/an-arm-homelab-server-or-a-minisforum-ms-r1-review/
 评论网址：https://news.ycombinator.com/item?id=47082548
-积分：32
-# 条评论：33]]></description>
+积分：50
+# 条评论：42]]></description>
       <guid>https://sour.coffee/2026/02/20/an-arm-homelab-server-or-a-minisforum-ms-r1-review/</guid>
       <pubDate>Fri, 20 Feb 2026 01:33:36 GMT</pubDate>
     </item>
@@ -50,8 +91,8 @@
       <link>https://gist.github.com/interpiduser5/547d8a7baec436f24b7cce89dd4ae1ea</link>
       <description><![CDATA[文章网址：https://gist.github.com/interpiduser5/547d8a7baec436f24b7cce89dd4ae1ea
 评论网址：https://news.ycombinator.com/item?id=47082496
-积分：97
-# 条评论：35]]></description>
+积分：235
+评论数量：92]]></description>
       <guid>https://gist.github.com/interpiduser5/547d8a7baec436f24b7cce89dd4ae1ea</guid>
       <pubDate>Fri, 20 Feb 2026 01:28:47 GMT</pubDate>
     </item>
@@ -60,51 +101,10 @@
       <link>https://github.com/thelowsunoverthemoon/mahler.c</link>
       <description><![CDATA[文章网址：https://github.com/thelowsunoverthemoon/mahler.c
 评论网址：https://news.ycombinator.com/item?id=47080873
-积分：17
-# 条评论：4]]></description>
+积分：29
+# 条评论：6]]></description>
       <guid>https://github.com/thelowsunoverthemoon/mahler.c</guid>
       <pubDate>Thu, 19 Feb 2026 22:54:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：带有垂直选项卡和通知的 Ghostty 终端</title>
-      <link>https://github.com/manaflow-ai/cmux</link>
-      <description><![CDATA[我并行运行了很多 Claude Code 和 Codex 会话。我使用 Ghostty 和一堆分割窗格，并依靠本机 macOS 通知来了解代理何时需要我。但 Claude Code 的通知正文始终只是“Claude 正在等待您的输入”，没有任何上下文，并且打开了足够多的选项卡，我什至无法再阅读标题。我尝试了一些编码编排器，但其中大多数是 Electron/Tauri 应用程序，其性能让我烦恼。我也更喜欢终端，因为 GUI 编排器将你锁定在他们的工作流程中。因此，我在 Swift/AppKit 中将 cmux 构建为原生 macOS 应用程序。它使用 libghostty 进行终端渲染，并读取现有的 Ghostty 配置以获取主题、字体、颜色等。主要新增功能是侧边栏和通知系统。侧边栏有垂直选项卡，显示 git 分支、工作目录、侦听端口以及每个工作区的最新通知文本。通知系统拾取终端序列 (OSC 9/99/777) 并具有一个 CLI (cmux 通知)，您可以连接到 Claude Code、OpenCode 等的代理挂钩。当代理等待时，其窗格会出现蓝色环，并且侧边栏中的选项卡会亮起，因此我可以跨拆分和选项卡区分哪个需要我。 Cmd+Shift+U 跳转到最近未读的内容。应用内浏览器具有从代理浏览器 [1] 移植的可编写脚本的 API。代理可以对可访问性树进行快照、获取元素引用、单击、填写表单、评估 JS 以及读取控制台日志。您可以在终端旁边拆分一个浏览器窗格，让 Claude Code 直接与您的开发服务器交互。一切都可以通过 CLI 和套接字 API 编写脚本 – 创建工作区/选项卡、拆分窗格、发送击键、在浏览器中打开 URL。演示视频：https://www.youtube.com/watch?v=i-WxO5YUTOs存储库 (AGPL)：https://github.com/manaflow-ai/cmux[1] https://github.com/vercel-labs/agent-browser
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47079718
-积分：109
-# 条评论：55]]></description>
-      <guid>https://github.com/manaflow-ai/cmux</guid>
-      <pubDate>Thu, 19 Feb 2026 21:30:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们不再吸引顶尖人才：人才流失扼杀了美国科学</title>
-      <link>https://www.theguardian.com/us-news/2026/feb/19/trump-science-funding-cuts</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/us-news/2026/feb/19/trump-science-funding-cuts
-评论网址：https://news.ycombinator.com/item?id=47079222
-积分：373
-# 条评论：335]]></description>
-      <guid>https://www.theguardian.com/us-news/2026/feb/19/trump-science-funding-cuts</guid>
-      <pubDate>Thu, 19 Feb 2026 20:56:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>总体而言，结直肠癌的故事令人鼓舞</title>
-      <link>https://www.hankgreen.com/crc</link>
-      <description><![CDATA[文章网址：https://www.hankgreen.com/crc
-评论网址：https://news.ycombinator.com/item?id=47078840
-积分：128
-# 条评论：128]]></description>
-      <guid>https://www.hankgreen.com/crc</guid>
-      <pubDate>Thu, 19 Feb 2026 20:32:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>小额支付作为新闻网站的现实检验</title>
-      <link>https://blog.zgp.org/micropayments-as-a-reality-check-for-news-sites/</link>
-      <description><![CDATA[文章网址：https://blog.zgp.org/micropaids-as-a-reality-check-for-news-sites/
-评论网址：https://news.ycombinator.com/item?id=47078167
-积分：136
-# 条评论：313]]></description>
-      <guid>https://blog.zgp.org/micropayments-as-a-reality-check-for-news-sites/</guid>
-      <pubDate>Thu, 19 Feb 2026 19:42:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
