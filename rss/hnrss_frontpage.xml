@@ -4,14 +4,45 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 19 Feb 2026 21:33:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 02:04:24 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：C99 中的一个小型、简单的音乐理论库</title>
+      <link>https://github.com/thelowsunoverthemoon/mahler.c</link>
+      <description><![CDATA[文章网址：https://github.com/thelowsunoverthemoon/mahler.c
+评论网址：https://news.ycombinator.com/item?id=47080873
+积分：10
+# 条评论：0]]></description>
+      <guid>https://github.com/thelowsunoverthemoon/mahler.c</guid>
+      <pubDate>Thu, 19 Feb 2026 22:54:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>单一疫苗可以预防所有咳嗽、感冒和流感</title>
+      <link>https://www.bbc.com/news/articles/cx2g8rz7yedo</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cx2g8rz7yedo
+评论网址：https://news.ycombinator.com/item?id=47080267
+积分：117
+# 条评论：72]]></description>
+      <guid>https://www.bbc.com/news/articles/cx2g8rz7yedo</guid>
+      <pubDate>Thu, 19 Feb 2026 22:08:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：带有垂直选项卡和通知的 Ghostty 终端</title>
+      <link>https://github.com/manaflow-ai/cmux</link>
+      <description><![CDATA[我并行运行了很多 Claude Code 和 Codex 会话。我使用 Ghostty 和一堆分割窗格，并依靠本机 macOS 通知来了解代理何时需要我。但 Claude Code 的通知正文始终只是“Claude 正在等待您的输入”，没有任何上下文，并且打开了足够多的选项卡，我什至无法再阅读标题。我尝试了一些编码编排器，但其中大多数是 Electron/Tauri 应用程序，其性能让我烦恼。我也更喜欢终端，因为 GUI 编排器将你锁定在他们的工作流程中。因此，我在 Swift/AppKit 中将 cmux 构建为原生 macOS 应用程序。它使用 libghostty 进行终端渲染，并读取现有的 Ghostty 配置以获取主题、字体、颜色等。主要新增功能是侧边栏和通知系统。侧边栏有垂直选项卡，显示 git 分支、工作目录、侦听端口以及每个工作区的最新通知文本。通知系统拾取终端序列 (OSC 9/99/777) 并具有一个 CLI (cmux 通知)，您可以连接到 Claude Code、OpenCode 等的代理挂钩。当代理等待时，其窗格会出现蓝色环，并且侧边栏中的选项卡会亮起，因此我可以跨拆分和选项卡区分哪个需要我。 Cmd+Shift+U 跳转到最近未读的内容。应用内浏览器具有从代理浏览器 [1] 移植的可编写脚本的 API。代理可以对可访问性树进行快照、获取元素引用、单击、填写表单、评估 JS 以及读取控制台日志。您可以在终端旁边拆分一个浏览器窗格，让 Claude Code 直接与您的开发服务器交互。一切都可以通过 CLI 和套接字 API 编写脚本 – 创建工作区/选项卡、拆分窗格、发送击键、在浏览器中打开 URL。演示视频：https://www.youtube.com/watch?v=i-WxO5YUTOs存储库 (AGPL)：https://github.com/manaflow-ai/cmux[1] https://github.com/vercel-labs/agent-browser
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47079718
+积分：85
+# 条评论：46]]></description>
+      <guid>https://github.com/manaflow-ai/cmux</guid>
+      <pubDate>Thu, 19 Feb 2026 21:30:04 GMT</pubDate>
+    </item>
     <item>
       <title>我们不再吸引顶尖人才：人才流失扼杀了美国科学</title>
       <link>https://www.theguardian.com/us-news/2026/feb/19/trump-science-funding-cuts</link>
       <description><![CDATA[文章网址：https://www.theguardian.com/us-news/2026/feb/19/trump-science-funding-cuts
 评论网址：https://news.ycombinator.com/item?id=47079222
-积分：13
-# 条评论：0]]></description>
+积分：296
+# 条评论：283]]></description>
       <guid>https://www.theguardian.com/us-news/2026/feb/19/trump-science-funding-cuts</guid>
       <pubDate>Thu, 19 Feb 2026 20:56:23 GMT</pubDate>
     </item>
@@ -20,8 +51,8 @@
       <link>https://www.hankgreen.com/crc</link>
       <description><![CDATA[文章网址：https://www.hankgreen.com/crc
 评论网址：https://news.ycombinator.com/item?id=47078840
-积分：51
-# 条评论：36]]></description>
+积分：103
+# 条评论：103]]></description>
       <guid>https://www.hankgreen.com/crc</guid>
       <pubDate>Thu, 19 Feb 2026 20:32:09 GMT</pubDate>
     </item>
@@ -30,8 +61,8 @@
       <link>https://www.kasava.dev/blog/ai-as-exoskeleton</link>
       <description><![CDATA[文章网址：https://www.kasava.dev/blog/ai-as-exosculpture
 评论网址：https://news.ycombinator.com/item?id=47078324
-积分：12
-# 条评论：4]]></description>
+积分：147
+# 条评论：168]]></description>
       <guid>https://www.kasava.dev/blog/ai-as-exoskeleton</guid>
       <pubDate>Thu, 19 Feb 2026 19:55:11 GMT</pubDate>
     </item>
@@ -40,48 +71,18 @@
       <link>https://blog.zgp.org/micropayments-as-a-reality-check-for-news-sites/</link>
       <description><![CDATA[文章网址：https://blog.zgp.org/micropaids-as-a-reality-check-for-news-sites/
 评论网址：https://news.ycombinator.com/item?id=47078167
-积分：38
-# 条评论：59]]></description>
+积分：116
+评论数：274]]></description>
       <guid>https://blog.zgp.org/micropayments-as-a-reality-check-for-news-sites/</guid>
       <pubDate>Thu, 19 Feb 2026 19:42:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>IRS 在“效率”重组中失去了 40% 的 IT 员工和 80% 的技术领导者</title>
-      <link>https://www.theregister.com/2026/02/19/irs_job_cuts/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2026/02/19/irs_job_cuts/
-评论网址：https://news.ycombinator.com/item?id=47077849
-积分：164
-# 条评论：100]]></description>
-      <guid>https://www.theregister.com/2026/02/19/irs_job_cuts/</guid>
-      <pubDate>Thu, 19 Feb 2026 19:16:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>技术愤世嫉俗者是受伤的技术乐观主义者</title>
-      <link>https://aftermath.site/anthropic-claude-ai-leftist-technology/</link>
-      <description><![CDATA[文章网址：https://aftermath.site/anthropic-claude-ai-leftist-technology/
-评论网址：https://news.ycombinator.com/item?id=47077731
-积分：31
-# 条评论：32]]></description>
-      <guid>https://aftermath.site/anthropic-claude-ai-leftist-technology/</guid>
-      <pubDate>Thu, 19 Feb 2026 19:07:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>再见，Web 版 Rust</title>
-      <link>https://yieldcode.blog/post/farewell-rust/</link>
-      <description><![CDATA[文章网址：https://yieldcode.blog/post/farewell-rust/
-评论网址：https://news.ycombinator.com/item?id=47077383
-积分：75
-# 条评论：50]]></description>
-      <guid>https://yieldcode.blog/post/farewell-rust/</guid>
-      <pubDate>Thu, 19 Feb 2026 18:42:51 GMT</pubDate>
     </item>
     <item>
       <title>考古学家可能发现汉尼拔战象的第一个直接证据</title>
       <link>https://www.smithsonianmag.com/smart-news/archaeologists-unearthed-a-2200-year-old-bone-they-say-it-could-be-the-first-direct-evidence-of-hannibals-legendary-war-elephants-180988185/</link>
       <description><![CDATA[文章网址： https://www.smithsonianmag.com/smart-news/archaeologies-unearthed-a-2200-year-old-bone-they-say-it-could-be-the-first-direct-evidence-of-hannibals-legendary-war-elephants-180988185/
 评论网址：https://news.ycombinator.com/item?id=47077245
-积分：50
-# 条评论：8]]></description>
+积分：80
+# 条评论：23]]></description>
       <guid>https://www.smithsonianmag.com/smart-news/archaeologists-unearthed-a-2200-year-old-bone-they-say-it-could-be-the-first-direct-evidence-of-hannibals-legendary-war-elephants-180988185/</guid>
       <pubDate>Thu, 19 Feb 2026 18:31:50 GMT</pubDate>
     </item>
@@ -90,8 +91,8 @@
       <link>https://www.marginalia.nu/log/a_132_ai_bores/</link>
       <description><![CDATA[文章网址：https://www.marginalia.nu/log/a_132_ai_bores/
 评论网址：https://news.ycombinator.com/item?id=47076966
-积分：383
-# 条评论：236]]></description>
+积分：536
+# 条评论：299]]></description>
       <guid>https://www.marginalia.nu/log/a_132_ai_bores/</guid>
       <pubDate>Thu, 19 Feb 2026 18:12:16 GMT</pubDate>
     </item>
@@ -100,8 +101,8 @@
       <link>https://github.com/Veirt/weathr</link>
       <description><![CDATA[文章网址：https://github.com/Veirt/weathr
 评论网址：https://news.ycombinator.com/item?id=47076659
-积分：89
-# 条评论：13]]></description>
+积分：161
+# 条评论：24]]></description>
       <guid>https://github.com/Veirt/weathr</guid>
       <pubDate>Thu, 19 Feb 2026 17:47:25 GMT</pubDate>
     </item>
