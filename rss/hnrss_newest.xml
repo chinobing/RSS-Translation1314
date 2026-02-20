@@ -4,119 +4,132 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 20 Feb 2026 06:59:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 09:42:20 GMT</lastBuildDate>
     <item>
-      <title>斯科特·亚历山大 (Scott Alexander) 的耳语耳环</title>
-      <link>https://croissanthology.com/earring</link>
-      <description><![CDATA[文章网址：https://croissanthology.com/earring?
-评论网址：https://news.ycombinator.com/item?id=47084604
+      <title>Show HN：Delulu9 - Claude Code 内容管道的 SEO 关键词研究</title>
+      <link>https://delulu9.com/</link>
+      <description><![CDATA[文章网址：https://delulu9.com/
+评论网址：https://news.ycombinator.com/item?id=47085654
 积分：1
 # 条评论：0]]></description>
-      <guid>https://croissanthology.com/earring</guid>
-      <pubDate>Fri, 20 Feb 2026 06:52:28 GMT</pubDate>
+      <guid>https://delulu9.com/</guid>
+      <pubDate>Fri, 20 Feb 2026 09:28:43 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：用于分析向量嵌入的 CLI 工具！</title>
-      <link>https://github.com/dakshjain-1616/Embedding-Evaluator</link>
-      <description><![CDATA[文章网址：https://github.com/dakshjain-1616/Embedding-Evaluator
-评论网址：https://news.ycombinator.com/item?id=47084592
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/dakshjain-1616/Embedding-Evaluator</guid>
-      <pubDate>Fri, 20 Feb 2026 06:50:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>一段被埋葬的历史——木制水管[视频]</title>
-      <link>https://www.youtube.com/watch?v=1fntV0c-fYE</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=1fntV0c-fYE
-评论网址：https://news.ycombinator.com/item?id=47084581
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=1fntV0c-fYE</guid>
-      <pubDate>Fri, 20 Feb 2026 06:48:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>司法部总部挂着特朗普头像的大横幅</title>
-      <link>https://apnews.com/article/donald-trump-banner-justice-department-pam-bondi-13f3d901c9bd6d179e206475adadc28a</link>
-      <description><![CDATA[文章网址： https://apnews.com/article/donald-trump-banner-justice-department-pam-bondi-13f3d901c9bd6d179e206475adadc28a
-评论网址：https://news.ycombinator.com/item?id=47084580
-积分：1
-# 条评论：0]]></description>
-      <guid>https://apnews.com/article/donald-trump-banner-justice-department-pam-bondi-13f3d901c9bd6d179e206475adadc28a</guid>
-      <pubDate>Fri, 20 Feb 2026 06:48:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>保罗·福特：“人工智能”颠覆已经到来，而且确实很有趣”</title>
-      <link>https://www.nytimes.com/2026/02/18/opinion/ai-software.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2026/02/18/opinion/ai-software.html
-评论网址：https://news.ycombinator.com/item?id=47084573
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.nytimes.com/2026/02/18/opinion/ai-software.html</guid>
-      <pubDate>Fri, 20 Feb 2026 06:47:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gemini 3.1 Pro就像</title>
-      <link>https://twitter.com/Google/status/2024598510499426433</link>
-      <description><![CDATA[文章网址：https://twitter.com/Google/status/2024598510499426433
-评论网址：https://news.ycombinator.com/item?id=47084567
-积分：1
-# 条评论：0]]></description>
-      <guid>https://twitter.com/Google/status/2024598510499426433</guid>
-      <pubDate>Fri, 20 Feb 2026 06:46:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 libdragon 和tiny3d 的 N64 游戏引擎和编辑器</title>
-      <link>https://github.com/HailToDodongo/pyrite64</link>
-      <description><![CDATA[文章网址：https://github.com/HailToDodongo/pyrite64
-评论网址：https://news.ycombinator.com/item?id=47084560
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/HailToDodongo/pyrite64</guid>
-      <pubDate>Fri, 20 Feb 2026 06:44:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：ESP32-S3 探针 – 带有自动帧解码器的 UART“飞行记录器”</title>
-      <link>https://github.com/choihimchan/linkscope-bpu-uart-analyzer</link>
-      <description><![CDATA[嗨 HN，我使用 ESP32-S3 作为廉价探针构建了一个小型 UART 分析仪。
-它以 921600 波特率窃听目标的 TX，并通过 USB CDC 将原始字节流式传输到 PC。为了使其稳健且易于重新同步，S3 将数据包装到一个微小的二进制帧中：
-&#39;A&#39;&#39;N&#39;|类型 | seq16 |时间戳32 | len16 |有效负载，
-然后用 0x00 分隔符对其进行 COBS 编码。在 PC 端 (Python/Tkinter)，UI 显示：
-- RAW hexdump + 吞吐量图 + 运行状况统计（seq 间隙/溢出）
-- 日志/文本视图（提取可打印的 ASCII 运行）
-- 录制/重播 (.anlog) 用于离线再现
-- 自动解析器：扫描魔法字节并暴力破解 CRC 变体以查找未知的内部帧这最初是作为固件和主机之间的个人调试桥梁，
-帮助我捕获丢失的数据块、突发模式和协议错误
-没有逻辑分析仪。存储库：
- https://github.com/choihimchan/linkscope-bpu-uart-analyzer我希望获得有关框架、重放格式或解析启发式的反馈。
-谢谢！
+      <title>Show HN：Chowser – 轻量级 macOS 浏览器选择器</title>
+      <link>https://github.com/bsreeram08/chowser</link>
+      <description><![CDATA[嘿 HN，我之所以喜欢 Chowser，是因为我厌倦了当我想要在特定会话（工作、个人、研究等）中打开链接时，它们总是在我的“默认”浏览器中打开。Chowser 是一款轻量级 macOS 应用程序，充当您的默认浏览器。它不会立即打开链接，而是会弹出一个时尚的选择器，让您选择用于该特定链接的浏览器。主要功能：
+轻量级和原生：使用 SwiftUI/AppKit 构建。它位于您的菜单栏中，空闲时使用零资源。
+首先键盘：按 ⌘⇧1 到 ⌘⇧9 立即快速选择浏览器。
+设置并忘记：一旦将其设置为您的默认浏览器，它就会远离您，直到您单击链接。
+开源：麻省理工学院下完全开源。
+ 技术堆栈：
+Swift、SwiftUI 和 AppKit。我想要一些感觉像是 macOS 原生部分的东西，而不是一个笨重的网络包装器。看看：
+GitHub：https://github.com/bsreeram08/chowser
+下载（DMG）：https://github.com/bsreeram08/chowser/releases谢谢！斯里拉姆
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47084554
+评论网址：https://news.ycombinator.com/item?id=47085628
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/choihimchan/linkscope-bpu-uart-analyzer</guid>
-      <pubDate>Fri, 20 Feb 2026 06:43:20 GMT</pubDate>
+      <guid>https://github.com/bsreeram08/chowser</guid>
+      <pubDate>Fri, 20 Feb 2026 09:24:33 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：PhotoMeh – 根据照片估算维修成本 – 60 秒内</title>
-      <link>https://photomeh.com</link>
-      <description><![CDATA[在汽车到达之前，通过人工智能辅助的损坏估算帮助您的维修店更快地响应客户。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47084482
-积分：1
-# 条评论：0]]></description>
-      <guid>https://photomeh.com</guid>
-      <pubDate>Fri, 20 Feb 2026 06:29:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>论海军人工智能</title>
-      <link>https://www.youtube.com/watch?v=sXCKgEl9hBo</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=sXCKgEl9hBo
-评论网址：https://news.ycombinator.com/item?id=47084475
+      <title>我相信甜甜圈</title>
+      <link>https://idonutbelieve.com/</link>
+      <description><![CDATA[文章网址：https://idonut believe.com/
+评论网址：https://news.ycombinator.com/item?id=47085596
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.youtube.com/watch?v=sXCKgEl9hBo</guid>
-      <pubDate>Fri, 20 Feb 2026 06:28:37 GMT</pubDate>
+      <guid>https://idonutbelieve.com/</guid>
+      <pubDate>Fri, 20 Feb 2026 09:19:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：FakeSec – 具有 12 种独立分析方法的 AI 光电探测器</title>
+      <link>https://fakesec.com/</link>
+      <description><![CDATA[文章网址：https://fakesec.com/
+评论网址：https://news.ycombinator.com/item?id=47085557
+积分：1
+# 条评论：1]]></description>
+      <guid>https://fakesec.com/</guid>
+      <pubDate>Fri, 20 Feb 2026 09:14:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：有多少人面临 GST 发票不匹配的问题？</title>
+      <link>https://news.ycombinator.com/item?id=47085549</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=47085549
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47085549</guid>
+      <pubDate>Fri, 20 Feb 2026 09:13:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Dotnet C# 中的代理引擎 AI 代理</title>
+      <link>https://furotmark.github.io/2026/02/05/Using-An-Agent-Engine-AI-Agent-From-Dotnet.html</link>
+      <description><![CDATA[文章网址：https://furotmark.github.io/2026/02/05/Using-An-Agent-Engine-AI-Agent-From-Dotnet.html
+评论网址：https://news.ycombinator.com/item?id=47085542
+积分：1
+# 条评论：0]]></description>
+      <guid>https://furotmark.github.io/2026/02/05/Using-An-Agent-Engine-AI-Agent-From-Dotnet.html</guid>
+      <pubDate>Fri, 20 Feb 2026 09:12:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>对不同 JSON 模式验证器 CLI 工具进行 Vibenchmark</title>
+      <link>https://github.com/whacked/cow/blob/main/vibe%20benchmarking%20json%20schema%20validators.md</link>
+      <description><![CDATA[文章网址：https://github.com/whacked/cow/blob/main/vibe%20benchmarking%20json%20schema%20validators.md
+评论网址：https://news.ycombinator.com/item?id=47085517
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/whacked/cow/blob/main/vibe%20benchmarking%20json%20schema%20validators.md</guid>
+      <pubDate>Fri, 20 Feb 2026 09:08:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>受监管的加密货币调查团队 – Intelligence Cyber​​ Wizard Services</title>
+      <link>https://news.ycombinator.com/item?id=47085488</link>
+      <description><![CDATA[电子邮件：intelligencecyberwizard@cyber-wizard.com
+我们通常会在 24 小时内回复。如果您没有收到回复，您的电子邮件可能已被标记为垃圾邮件 - 请重新发送。
+ 安全须知：
+如果有人在 Telegram、Facebook、Instagram、Quora 或 X 上自称是 Intelligence Cyber Wizard 与您联系并要求提供凭据或预付款，则这是一个骗局。
+我们从不主动联系、索取凭证、收取预付款或出售钱包打开软件。
+你在哪里？
+我们的总部位于美国旧金山，在全球多个地点设有额外的实验室和安全服务器设施。
+是什么让智能网络向导与众不同？
+活跃的媒体和会议出席
+自 2016 年以来，我们作为合作伙伴或赞助商参加了以下全球主要加密货币会议：
+迈阿密、马耳他、罗马、法兰克福、伦敦
+新加坡、迪拜、东京、香港
+关于我们
+这段旅程始于 2016 年，当时一位密友无法访问包含 150 ETH 的 Ledger 钱包。经过两个晚上成功恢复后，我们意识到这个问题有多普遍。
+2018 年：Intelligence Cyber Wizard LLC 在美国特拉华州和旧金山注册成立
+2021 年：在瑞士楚格开设分公司
+如今：全球多个实验室不断推进回收技术
+Intelligence Cyber Wizard 是致力于找回丢失的比特币和以太坊钱包的最古老的注册公司之一。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47085488
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47085488</guid>
+      <pubDate>Fri, 20 Feb 2026 09:02:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>“欧盟制造”——在欧洲基础设施上打造初创企业</title>
+      <link>https://www.coinerella.com/made-in-eu-it-was-harder-than-i-thought/</link>
+      <description><![CDATA[文章网址：https://www.coinerella.com/made-in-eu-it-was-harder-than-i-thought/
+评论网址：https://news.ycombinator.com/item?id=47085483
+积分：87
+# 条评论：20]]></description>
+      <guid>https://www.coinerella.com/made-in-eu-it-was-harder-than-i-thought/</guid>
+      <pubDate>Fri, 20 Feb 2026 09:02:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>HTTP 请求如何工作</title>
+      <link>https://xeiaso.net/blog/how-http-requests-work-2020-05-19/</link>
+      <description><![CDATA[文章网址：https://xeiaso.net/blog/how-http-requests-work-2020-05-19/
+评论网址：https://news.ycombinator.com/item?id=47085467
+积分：1
+# 条评论：0]]></description>
+      <guid>https://xeiaso.net/blog/how-http-requests-work-2020-05-19/</guid>
+      <pubDate>Fri, 20 Feb 2026 09:00:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
