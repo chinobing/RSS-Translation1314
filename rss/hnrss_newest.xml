@@ -4,152 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 21 Feb 2026 18:36:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 21:24:39 GMT</lastBuildDate>
     <item>
-      <title>Show HN：TeamContext – 用于氛围编码团队的 Git 原生共享上下文</title>
-      <link>https://github.com/hzhou9/TeamContext</link>
-      <description><![CDATA[我构建 TeamContext 是因为团队氛围编码存在上下文问题：每个人 + 每个 LLM 工具最终都会对同一项目产生不同的心理模型。我还相信 LLM 的项目文档至少与人类的项目文档一样重要。TeamContext 使用 OpenViking 并将上下文视为代码：
-  - Git 版本控制
-  - 可在 PR 中进行审查
-  - 使用 git pull + tc 同步在成员之间同步
-  - 可跨工具使用（Codex、Claude Code 等）希望得到您的试用和反馈！存储库：https://github.com/hzhou9/TeamContext
+      <title>Show HN：CodeFossils – 发现废弃的 GitHub 存储库值得复兴</title>
+      <link>https://www.codefossils.com/</link>
+      <description><![CDATA[挖掘被遗忘的 GitHub 项目 - 那些被遗忘的伟大想法的存储库。浏览、搜索并找到您的下一个副业项目灵感。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47103319
+评论网址：https://news.ycombinator.com/item?id=47104870
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/hzhou9/TeamContext</guid>
-      <pubDate>Sat, 21 Feb 2026 18:29:02 GMT</pubDate>
+      <guid>https://www.codefossils.com/</guid>
+      <pubDate>Sat, 21 Feb 2026 21:17:21 GMT</pubDate>
     </item>
     <item>
-      <title>尽管战争仍在继续，乌克兰仍为封锁海盗网站铺平了道路</title>
-      <link>https://torrentfreak.com/ukraine-paves-the-way-for-pirate-site-blocking-despite-ongoing-war/</link>
-      <description><![CDATA[文章网址：https://torrentfreak.com/ukraine-paves-the-way-for-pirate-site-blocking-despite-ongoing-war/
-评论网址：https://news.ycombinator.com/item?id=47103313
-积分：1
-# 条评论：0]]></description>
-      <guid>https://torrentfreak.com/ukraine-paves-the-way-for-pirate-site-blocking-despite-ongoing-war/</guid>
-      <pubDate>Sat, 21 Feb 2026 18:28:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Raypher – 基于 eBPF 的 AI 代理运行时安全性和硬件身份</title>
-      <link>https://github.com/kidigapeet/Raypher-core</link>
-      <description><![CDATA[嘿 HN，我是 Raypher 的创始人。我们正在构建专门为自主人工智能代理（opencalw）设计的内核级执行保护和加密身份层。
-当前的人工智能代理（张开爪）存在很大的安全风险，我们的使命是开发一种安全功能，使开发人员能够更快地制作代理并交付它们，而无需担心安全风险
-问题：
-目前，代理生态系统（OpenClaw、LangChain、MCP）正在为法学硕士提供几乎零运行时间边界的“帮助”。传统网络安全工具在这里完全失败，原因有两个：API 延迟：它们依赖 API 轮询来检查代理的 SaaS 集成是否配置错误。如果代理进入无限循环并幻觉一个命令来删除生产数据库，那么 2 秒的 API 轮询延迟就是永恒的。身份谬误：他们使用软件令牌（OAuth/API 密钥）来跟踪代理身份。如果攻击者诱骗代理泄露其 config.json，则攻击者将成为代理。Raypher 的工作原理：
-我们意识到，保护概率 AI 需要从应用程序层移出并进入操作系统内核。eBPF 网络断头台：我们在本地运行一个轻量级 Rust 守护进程，它通过 eBPF 挂接到 Linux 内核。我们不轮询日志。我们拦截系统调用和网络套接字。如果代理违反了其policy.yaml（例如，尝试访问受限子网或执行rm -rf），我们会在veth数据包离开机器之前以微秒的速度将其丢弃。硅绑定身份（TPM）：我们将代理的加密身份直接绑定到物理硬件（主板或AWS Nitro Enclaves上的TPM 2.0）。您无法对芯片进行网络钓鱼或复制粘贴。零延迟 (IBEV)：需要云往返终止代理性能的安全工具。我们使用 gRPC 环形缓冲区构建了“意图绑定临时签证”(IBEV)。代理人在本地和线下铸造许可签证。如果我们的云出现故障，您的代理将继续在缓存的策略上安全运行。Raypher 为您提供一个本地仪表板，用于准确跟踪您的代理正在执行的操作，并对其 OpenAI API 支出进行硬限制，这样恶意循环就不会导致您破产。我很想听听您对我们的 eBPF 架构、我们如何处理 TPM 认证或 AI 代理安全总体状态的看法。我会全天在评论中回答技术问题！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47103312
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/kidigapeet/Raypher-core</guid>
-      <pubDate>Sat, 21 Feb 2026 18:28:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>罗盘杰克</title>
-      <link>https://en.wikipedia.org/wiki/Pelorus_Jack</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Pelorus_Jack
-评论网址：https://news.ycombinator.com/item?id=47103294
-积分：2
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Pelorus_Jack</guid>
-      <pubDate>Sat, 21 Feb 2026 18:27:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Wiredigg – 支持 ML 和 Ollama 的实时网络分析</title>
-      <link>https://news.ycombinator.com/item?id=47103291</link>
-      <description><![CDATA[我构建了 Wiredigg，这是一个用 Python 编写的开源网络流量分析和安全工具。它结合了实时数据包捕获、协议检查、基于机器学习的异常检测以及通过 Ollama 进行的本地 LLM 分析。目标是通过 AI 辅助威胁解释提供交互式网络可见性，同时保持本地优先且易于运行。 Windows 可执行版本也可用。存储库：https://github.com/JustVugg/Wiredigg⸻它的作用实时数据包捕获
- • 实时流量嗅探
- • 协议分析（TCP、UDP、ICMP、HTTP 等）
- • 按IP、端口和协议过滤
- • 混杂模式支持机器学习异常检测
- • 检测异常流量模式
- • 具有严重级别的威胁分类
- • 误报标记和增量再训练
- • 用户辅助模型细化Ollama 集成（本地法学硕士）
- • 通过 Ollama 将标记的异常发送到本地运行的模型
- • 生成上下文、人类可读的解释
- • 在统计检测之上添加推理
- • 如果 Ollama 位于本地，则完全离线威胁情报和仪表板
- • 恶意IP/域检查
- • 交互式表格和流量统计
- • 基于图形的可视化
- • 可导出的报告（HTML、JSON、文本）物联网和设备分析
- • 设备识别和分类
- • 行为模式分析
- • 基于流量活动的风险评估自定义数据包工具
- • 手动制作数据包以进行测试
- • 控制 IP、端口、协议和负载运行它从源代码：git clone https://github.com/JustVugg/Wiredigg
-pip install -r 要求.txt
-pythonwiredigg.py数据包捕获需要管理员/root权限。或者，您可以使用提供的 Windows .exe 版本。⸻为什么我构建它许多数据包分析器是：
- • CLI 较多且技术性强
- • 或大型企业系统我想要一些东西：
- • 视觉
- • 人工智能增强
- • 本地优先
- • 可在Python 中扩展
- • 可用于实验室、小型网络和学习很高兴获得反馈，尤其是关于 ML 和 Ollama 集成方法的反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47103291
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47103291</guid>
-      <pubDate>Sat, 21 Feb 2026 18:26:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用工具的 AI 代理的执行遏制</title>
-      <link>https://news.ycombinator.com/item?id=47103278</link>
-      <description><![CDATA[我写了一篇技术论文，将执行遏制定义为使用工具的代理的结构属性。其核心思想是使用加密功能令牌将运行时权限绑定到预先声明的执行图。它严格关注执行遏制，而不是语义渗漏或提示注入。全文：
-https://spacecypher.substack.com/p/execution-containment-for-tool-using很高兴回答有关范围或限制的问题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47103278
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47103278</guid>
-      <pubDate>Sat, 21 Feb 2026 18:25:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>BetaZero：用于系统板的自由扩散爬升发生器</title>
-      <link>https://betazero.live</link>
-      <description><![CDATA[文章网址：https://betazero.live
-评论网址：https://news.ycombinator.com/item?id=47103260
+      <title>工程师制造使用兴奋剂的赛车 [YouTube] [视频]</title>
+      <link>https://www.youtube.com/watch?v=ZdDHtLP3oEs</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=ZdDHtLP3oEs
+评论网址：https://news.ycombinator.com/item?id=47104858
 积分：1
 # 条评论：1]]></description>
-      <guid>https://betazero.live</guid>
-      <pubDate>Sat, 21 Feb 2026 18:22:35 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=ZdDHtLP3oEs</guid>
+      <pubDate>Sat, 21 Feb 2026 21:16:14 GMT</pubDate>
     </item>
     <item>
-      <title>科学家从侵入性雷达监视中伪装心率</title>
-      <link>https://techxplore.com/news/2026-02-scientists-camouflage-heart-invasive-radar.html</link>
-      <description><![CDATA[文章网址：https://techxplore.com/news/2026-02-scientists-camouflage-heart-pressive-radar.html
-评论网址：https://news.ycombinator.com/item?id=47103255
-积分：2
-# 条评论：0]]></description>
-      <guid>https://techxplore.com/news/2026-02-scientists-camouflage-heart-invasive-radar.html</guid>
-      <pubDate>Sat, 21 Feb 2026 18:22:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>许可证锐减 40%，洛杉矶豪宅税抑制新建筑建设</title>
-      <link>https://www.msn.com/en-us/money/realestate/la-s-mansion-tax-chokes-new-construction-as-permits-plunge-40-new-study-shows/ar-AA1WLloG</link>
-      <description><![CDATA[文章网址： https://www.msn.com/en-us/money/realestate/la-s-mansion-tax-chokes-new-construction-as-permits-plunge-40-new-study-shows/ar-AA1WLloG
-评论网址：https://news.ycombinator.com/item?id=47103243
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.msn.com/en-us/money/realestate/la-s-mansion-tax-chokes-new-construction-as-permits-plunge-40-new-study-shows/ar-AA1WLloG</guid>
-      <pubDate>Sat, 21 Feb 2026 18:20:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Hmem – AI 编码代理的持久分层内存 (MCP)</title>
-      <link>https://news.ycombinator.com/item?id=47103237</link>
-      <description><![CDATA[我的 Claude 让我在这里发布此内容：DAI 编码代理有两个 CLAUDE.md 和规则文件无法解决的内存问题：(1) 长对话被压缩并且上下文悄然消失 - 代理忘记了 2 小时前在同一会话中做出的决定，以及 (2) 内存被锁定到一台机器上的一个工具。从 Claude Code 切换到 Cursor，或者从笔记本电脑切换到台式机，一切都消失了。我构建了 hmem 来修复这两个问题。它是一个 MCP 服务器，为 AI 代理提供存储在本地 SQLite 文件中的持久、分层内存。相同的 .hmem 文件可以在任何机器上的 Claude Code、Cursor、Windsurf、OpenCode 和 Gemini CLI 上运行。您的代理的知识是可移植的。关键思想借鉴了人类记忆的工作原理：您首先记住粗略的轮廓，然后根据需要回忆细节。 hmem 有 5 个深度级别。在会话开始时，代理仅加载 1 级摘要（约 20 个令牌）。它仅在需要时才更深入地挖掘特定记忆——L2 用于上下文，L3-L5 用于原始细节。与批量注入的平面 MEMORY.md（每次 3000-8000 个令牌）不同，hmem 仅加载相关内容。安装：`npx hmem-mcp init`（交互式安装 - 检测您安装的工具并写入 MCP 配置）。这是测试版软件。我已经在两台具有 100 多个内存条目的机器上在生产中使用它，并且它一直很稳定，但 API 表面可能仍然会发生变化。希望得到反馈。GitHub：https://github.com/Bumblebiber/hmem
-npm： https://www.npmjs.com/package/hmem-mcp
-许可证：麻省理工学院
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47103237
+      <title>ChatGPT 太同意你的观点了。我构建了一个可以反击的人工智能</title>
+      <link>https://www.thetank.io/</link>
+      <description><![CDATA[文章网址：https://www.thetank.io/
+评论网址：https://news.ycombinator.com/item?id=47104853
 积分：2
 # 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=47103237</guid>
-      <pubDate>Sat, 21 Feb 2026 18:19:47 GMT</pubDate>
+      <guid>https://www.thetank.io/</guid>
+      <pubDate>Sat, 21 Feb 2026 21:16:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>网络是您的画布 – QuillMonkey</title>
+      <link>https://www.quillmonkey.com/</link>
+      <description><![CDATA[文章网址：https://www.quillmonkey.com/
+评论网址：https://news.ycombinator.com/item?id=47104847
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.quillmonkey.com/</guid>
+      <pubDate>Sat, 21 Feb 2026 21:14:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>音乐组曲</title>
+      <link>https://musicasuite.it/</link>
+      <description><![CDATA[文章网址：https://musicasuite.it/
+评论网址：https://news.ycombinator.com/item?id=47104842
+积分：1
+# 条评论：0]]></description>
+      <guid>https://musicasuite.it/</guid>
+      <pubDate>Sat, 21 Feb 2026 21:14:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>RationalGO – 作为操作系统构建的个人人工智能代理（10% 人工智能，90% 工程）</title>
+      <link>https://rationalgo.ai</link>
+      <description><![CDATA[文章网址：https://rationalgo.ai
+评论网址：https://news.ycombinator.com/item?id=47104835
+积分：1
+# 条评论：0]]></description>
+      <guid>https://rationalgo.ai</guid>
+      <pubDate>Sat, 21 Feb 2026 21:12:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Supermemo – 具有聊天式检索功能的单一笔记流</title>
+      <link>https://www.supermemo.me/</link>
+      <description><![CDATA[我尝试了很多笔记系统，但一直遇到两个问题：捕获摩擦：在写下任何内容之前，我必须决定它属于哪里（哪个应用程序、哪个文档、新的还是现有的）。检索摩擦：当我稍后需要某些东西时，它分散在笔记本/文档中，而“真正的答案”通常存在于随着时间的推移而演变的多个笔记中。我不想要更好的文件夹或导航。我想要一个更好的上下文引擎。一个可以连续捕获的地方，以及一种从整个流中提出问题的方法。所以我建立了 Supermemo。这是一个单一的笔记运行流 + 一种人工智能驱动的查询和综合笔记的方式。如果你尝试一下，我很乐意得到反馈，尤其是关于什么感觉正确、什么令人厌烦，以及你希望它做什么。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47104834
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.supermemo.me/</guid>
+      <pubDate>Sat, 21 Feb 2026 21:12:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>自然语言处理模板引擎</title>
+      <link>https://pythonforprediction.wordpress.com/2026/02/21/nlptemplateengine-vignette/</link>
+      <description><![CDATA[文章网址：https://pythonforprediction.wordpress.com/2026/02/21/nlptemplateengine-vignette/
+评论网址：https://news.ycombinator.com/item?id=47104829
+积分：1
+# 条评论：0]]></description>
+      <guid>https://pythonforprediction.wordpress.com/2026/02/21/nlptemplateengine-vignette/</guid>
+      <pubDate>Sat, 21 Feb 2026 21:12:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenBrowser-AI MCP</title>
+      <link>https://openbrowser.me</link>
+      <description><![CDATA[文章网址：https://openbrowser.me
+评论网址：https://news.ycombinator.com/item?id=47104821
+积分：1
+# 条评论：1]]></description>
+      <guid>https://openbrowser.me</guid>
+      <pubDate>Sat, 21 Feb 2026 21:11:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 Epstein 文件上训练的 8B 参数法学硕士</title>
+      <link>https://www.neuroengine.ai/Neuroengine-MechaEpstein</link>
+      <description><![CDATA[文章网址：https://www.neuroengine.ai/Neuroengine-MechaEpstein
+评论网址：https://news.ycombinator.com/item?id=47104814
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.neuroengine.ai/Neuroengine-MechaEpstein</guid>
+      <pubDate>Sat, 21 Feb 2026 21:11:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
