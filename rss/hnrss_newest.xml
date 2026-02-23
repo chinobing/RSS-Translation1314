@@ -4,7 +4,7 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 23 Feb 2026 07:04:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 09:56:48 GMT</lastBuildDate>
     <item>
       <title>反对全球脑白质切除术</title>
       <link>https://kerkour.com/writing-against-the-global-lobotomy</link>
@@ -79,7 +79,7 @@
       <title>Show HN：OpenGem – 负载平衡的 Gemini API 代理（无需 API 密钥）</title>
       <link>https://github.com/arifozgun/OpenGem</link>
       <description><![CDATA[嗨，HN！我构建了 OpenGem，这是一个针对 Gemini API 的开源负载均衡代理，完全不需要付费 API 密钥。GitHub：https://github.com/arifozgun/OpenGem上下文：
-与许多开发人员一样，我在构建 AI 代理和在免费套餐上处理大型负载时不断遇到“429 配额超出”错误。我想自由构建，而不计算每个测试请求的 API 成本。它是如何工作的：
+与许多开发人员一样，我在构建 AI 代理和在免费套餐上处理大型负载时不断遇到“429 Quota Exceeded”错误。我想自由构建，而不计算每个测试请求的 API 成本。它是如何工作的：
 我对官方 Gemini CLI 身份验证进行了逆向工程，以获得标准 API 访问权限。然而，单个免费 Google 帐户的配额很快就会耗尽。为了解决这个问题，我在 OpenGem 的核心构建了一个智能负载均衡器。它的作用：
 - 您可以通过 OAuth 将多个空闲/免费 Google 帐户连接到仪表板。
 - OpenGem 充当标准端点（`POST /v1beta/models/{model}`）。
