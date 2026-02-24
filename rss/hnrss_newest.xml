@@ -4,113 +4,112 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 24 Feb 2026 04:53:34 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 07:01:08 GMT</lastBuildDate>
     <item>
-      <title>Show HN：ClinTrialFinder——人工智能驱动的癌症患者临床试验匹配</title>
-      <link>https://www.clintrialfinder.info</link>
-      <description><![CDATA[文章网址：https://www.clintrialfinder.info
-评论网址：https://news.ycombinator.com/item?id=47132956
+      <title>律师称，富有的配偶在离婚案件中隐藏加密资产</title>
+      <link>https://www.ft.com/content/df01cdb5-aac8-4d41-bbd8-56a198694394</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/df01cdb5-aac8-4d41-bbd8-56a198694394
+评论网址：https://news.ycombinator.com/item?id=47133726
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.clintrialfinder.info</guid>
-      <pubDate>Tue, 24 Feb 2026 04:43:35 GMT</pubDate>
+      <guid>https://www.ft.com/content/df01cdb5-aac8-4d41-bbd8-56a198694394</guid>
+      <pubDate>Tue, 24 Feb 2026 06:55:26 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：L88 – 8GB VRAM 上的本地 RAG 系统（需要架构反馈）</title>
-      <link>https://github.com/Hundred-Trillion/L88-Full</link>
-      <description><![CDATA[大家好，我一直在从事一个名为 L88 的项目，这是一个本地 RAG 系统，我最初专注于 UI/UX，因此检索和模型架构仍然需要适当的改进。Repo：
-https://github.com/Hundred-Trillion/L88-Full我在 8GB VRAM 和强大的 CPU (128GB RAM) 上运行此程序。嵌入和预处理在 CPU 上运行，主模型在 GPU 上运行。我遇到的一个限制是，由于计算限制，我的评估器和生成器 LLM 最终成为相同的模型，这违背了评估的目的。我非常感谢以下方面的反馈：针对小型 VRAM RAG 的更好架构想法有效地拆分评估器/生成器角色改进 LangGraph 管道您注意到的任何错误或设计气味针对本地硬件优化系统的方法我我已经 18 岁了，仍在学习很多有关正确的 LLM 架构的知识，因此任何技术批评或建议都将帮助我成长为一名开发人员。如果您查看存储库或留下反馈，这将意义重大 - 我正在尝试通过实际项目建立坚实的基础和声誉。谢谢！
+      <title>Show HN：Scheme-langserver – 通过静态分析消化不完整的代码</title>
+      <link>https://github.com/ufo5260987423/scheme-langserver</link>
+      <description><![CDATA[Scheme-langserver消化不完整的Scheme代码来满足现实世界的编程需求，包括goto定义、自动完成、类型推断和许多LSP定义的语言功能支持。  而这个项目就基于这里（https://github.com/ufo5260987423/scheme-langserver）。我构建它是因为我厌倦了Scheme/Lisp破烂的开发环境，尤其是缺乏类似IDE的高度定制的编程体验。尽管 DrRacket 和许多基于 REPL 的同行没有太多，但以下一般情况没有达到与其他现代语言相同的水平：
+(let* ([准备参考 1] [调用参考 (+ 准备-)]))
+
+
+显然，“call-reference”后面的“ready-for-”应该触发一个自动完成选项，其中有一个候选“ready-for-reference”。  此外，我还知道它们都有数字类型，并且它们的可用范围受到`let*`的外括号的限制。我希望有一个 IDE 能够提供这样的功能，这样的小愿望是在过去十年里逐渐积累起来的，最终我对所有现成的产品都不满意。如果你想了解更多信息，你可以参考我的 github 存储库，其中有一个屏幕录制视频，显示你的代码如何从这个项目中获得帮助，并且这个项目有详细的文档，所以不要犹豫，使用它。这里还有一些其他东西分享给 Hacker News 读者：1.为什么我不使用 DrRacket：LSP 遵循 KISS（保持简单，愚蠢）原则，我不想涉及字体问题，因为我刚刚在其 github 问题中读到。2。 schema-langserve 的最新阶段是什么：它实现了某种自我提升，在这个阶段我可以使用它的 VScode 插件帮助继续开发它。  然而，我直接使用了ChezScheme的分词器，这导致了一些未捕获的异常，我承诺将来会修复这些异常，但我正忙于开发新功能。如果你觉得scheme-langserver有问题，你可以重启vscode，一般来说这总是有效的。3.技术路线图：我现在正在开发一个新的宏扩展器，以便用户可以通过编写自己的宏来自定义 LSP 行为，而无需更改此项目。之后，我有一个提高效率和修复错误的计划。
+4. 我需要什么帮助吗： 需要。而且我想说，和我谈论scheme-langserver也是一种帮助。5.长期观点：我怀疑两三年后我会失去对这个项目的注意力，但据我的一些朋友说，我可能会将这个项目与其他出色的工作结合起来。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47132942
+评论网址：https://news.ycombinator.com/item?id=47133716
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/Hundred-Trillion/L88-Full</guid>
-      <pubDate>Tue, 24 Feb 2026 04:41:04 GMT</pubDate>
+      <guid>https://github.com/ufo5260987423/scheme-langserver</guid>
+      <pubDate>Tue, 24 Feb 2026 06:53:55 GMT</pubDate>
     </item>
     <item>
-      <title>用 Python 模拟最难的物理问题 [视频]</title>
-      <link>https://www.youtube.com/watch?v=M_OOwhA2fY8</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=M_OOwhA2fY8
-评论网址：https://news.ycombinator.com/item?id=47132936
+      <title>有工作经验的孩子弄乱了经理的电脑，把他送进了 Ctrl-Alt-Del 地狱</title>
+      <link>https://www.theregister.com/2026/02/23/who_me/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2026/02/23/who_me/
+评论网址：https://news.ycombinator.com/item?id=47133671
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=M_OOwhA2fY8</guid>
-      <pubDate>Tue, 24 Feb 2026 04:40:26 GMT</pubDate>
+      <guid>https://www.theregister.com/2026/02/23/who_me/</guid>
+      <pubDate>Tue, 24 Feb 2026 06:46:48 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我们扫描了 500 个 ClawHub 技能是否存在安全风险 – 10% 是危险的</title>
-      <link>https://news.ycombinator.com/item?id=47132932</link>
-      <description><![CDATA[我们构建了 tork-scan，这是一个免费的开源 CLI，用于检查 19 种安全风险模式的 AI 代理技能（MCP 工具）——反向 shell、凭据收集、base64 有效负载、eval()、C2 域等。我们指出了 500 种 ClawHub 技能。结果：- 200 (40%) 安全 (90-100)
-- 150 (30%) 注意 (70-89)
-- 100 (20%) 有风险 (50-69)
-- 50 (10%) 危险 (0-49)危险包括带有隐藏凭据泄露、混淆的有效负载和 C2 域连接的无辜名称的拼写错误。 284 项技能赢得了信任徽章。尝试一下：npx tork-scan ./my-skill完整结果 + 排行榜：https://tork.network/leaderboard
-文章：https://tork.network/blog/clawhub-scan-resultsTork Network (https://tork.network) 是 AI 代理的独立治理层 - 在约 1 毫秒内检测 PII、合规收据、信任徽章。适用于任何 MCP 兼容框架。提供免费套餐。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47132932
+      <title>美国宇航局的毅力现在可以自主确定其在火星上的位置</title>
+      <link>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-now-autonomously-pinpoints-its-location-on-mars/</link>
+      <description><![CDATA[文章网址： https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-now-autonomously-pinpoints-its-location-on-mars/
+评论网址：https://news.ycombinator.com/item?id=47133662
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47132932</guid>
-      <pubDate>Tue, 24 Feb 2026 04:39:47 GMT</pubDate>
+      <guid>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-now-autonomously-pinpoints-its-location-on-mars/</guid>
+      <pubDate>Tue, 24 Feb 2026 06:45:03 GMT</pubDate>
     </item>
     <item>
-      <title>油脂和奶酪对披萨盒可回收性的影响</title>
-      <link>https://www.westrock.com/greasecheesestudy</link>
-      <description><![CDATA[文章网址：https://www.westrock.com/greasecheesestudy
-评论网址：https://news.ycombinator.com/item?id=47132930
-积分：1
+      <title>人工智能领域的每个人都出于同样的原因构建了错误的东西</title>
+      <link>https://www.joanwestenberg.com/everyone-in-ai-is-building-the-wrong-thing-for-the-same-reason/</link>
+      <description><![CDATA[文章网址：https://www.joanwestenberg.com/everyone-in-ai-is-building-the-wrong-thing-for-the-same-reason/
+评论网址：https://news.ycombinator.com/item?id=47133640
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.westrock.com/greasecheesestudy</guid>
-      <pubDate>Tue, 24 Feb 2026 04:39:19 GMT</pubDate>
+      <guid>https://www.joanwestenberg.com/everyone-in-ai-is-building-the-wrong-thing-for-the-same-reason/</guid>
+      <pubDate>Tue, 24 Feb 2026 06:42:06 GMT</pubDate>
     </item>
     <item>
-      <title>中国房地产泡沫破灭的烂尾</title>
-      <link>https://www.economist.com/china/2026/02/23/the-rotten-tail-of-chinas-property-bust</link>
-      <description><![CDATA[文章网址：https://www.economist.com/china/2026/02/23/the-rotten-tail-of-chinas-property-bust
-评论网址：https://news.ycombinator.com/item?id=47132928
+      <title>DJI Romo 的 MQTT 代理没有 ACL – 一个令牌，7k 家用摄像机</title>
+      <link>https://www.theverge.com/tech/879088/dji-romo-hack-vulnerability-remote-control-camera-access-mqtt</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/tech/879088/dji-romo-hack-vulnerability-remote-control-camera-access-mqtt
+评论网址：https://news.ycombinator.com/item?id=47133613
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.economist.com/china/2026/02/23/the-rotten-tail-of-chinas-property-bust</guid>
-      <pubDate>Tue, 24 Feb 2026 04:39:06 GMT</pubDate>
+      <guid>https://www.theverge.com/tech/879088/dji-romo-hack-vulnerability-remote-control-camera-access-mqtt</guid>
+      <pubDate>Tue, 24 Feb 2026 06:39:07 GMT</pubDate>
     </item>
     <item>
-      <title>Goeph：受 Python 的 Skyfield 启发的 Go 行星位置库</title>
-      <link>https://github.com/anupshinde/goeph</link>
-      <description><![CDATA[文章网址：https://github.com/anupshinde/goeph
-评论网址：https://news.ycombinator.com/item?id=47132927
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/anupshinde/goeph</guid>
-      <pubDate>Tue, 24 Feb 2026 04:38:39 GMT</pubDate>
+      <title>Anthropic：人工智能有助于打破 COBOL 现代化的成本障碍</title>
+      <link>https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization</link>
+      <description><![CDATA[文章网址：https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization
+评论网址：https://news.ycombinator.com/item?id=47133605
+积分：2
+# 条评论：1]]></description>
+      <guid>https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization</guid>
+      <pubDate>Tue, 24 Feb 2026 06:36:56 GMT</pubDate>
     </item>
     <item>
-      <title>获取 YouPorn 应用程序：立即加快流媒体速度</title>
-      <link>https://you-porn-app.pages.dev/posts/you-porn-app/</link>
-      <description><![CDATA[文章网址：https://you-porn-app.pages.dev/posts/you-porn-app/
-评论网址：https://news.ycombinator.com/item?id=47132926
-积分：1
+      <title>“只是一个小细节，没有什么卖点”</title>
+      <link>https://unsung.aresluna.org/just-a-little-detail-that-wouldnt-sell-anything/</link>
+      <description><![CDATA[文章网址：https://unsung.aresluna.org/just-a-little-detail-that-wouldnt-sell-anything/
+评论网址：https://news.ycombinator.com/item?id=47133585
+积分：3
 # 条评论：0]]></description>
-      <guid>https://you-porn-app.pages.dev/posts/you-porn-app/</guid>
-      <pubDate>Tue, 24 Feb 2026 04:38:38 GMT</pubDate>
+      <guid>https://unsung.aresluna.org/just-a-little-detail-that-wouldnt-sell-anything/</guid>
+      <pubDate>Tue, 24 Feb 2026 06:34:07 GMT</pubDate>
     </item>
     <item>
-      <title>解释工具钢牌号 – Nifty Alloys LLC</title>
-      <link>https://niftyalloys.com/blogs/tool-steel-grades-explained-d2-o1-h13-and-more</link>
-      <description><![CDATA[文章网址：https://niftyalloys.com/blogs/tool-steel-grades-explained-d2-o1-h13-and-more
-评论网址：https://news.ycombinator.com/item?id=47132907
-积分：1
+      <title>Trolley：随处运行终端应用程序</title>
+      <link>https://github.com/weedonandscott/trolley</link>
+      <description><![CDATA[文章网址：https://github.com/weedonandscott/trolley
+评论网址：https://news.ycombinator.com/item?id=47133575
+积分：2
 # 条评论：0]]></description>
-      <guid>https://niftyalloys.com/blogs/tool-steel-grades-explained-d2-o1-h13-and-more</guid>
-      <pubDate>Tue, 24 Feb 2026 04:35:43 GMT</pubDate>
+      <guid>https://github.com/weedonandscott/trolley</guid>
+      <pubDate>Tue, 24 Feb 2026 06:32:12 GMT</pubDate>
     </item>
     <item>
-      <title>顽皮机器的崛起</title>
-      <link>https://www.nytimes.com/2026/02/23/opinion/chatbots-open-claw.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2026/02/23/opinion/chatbots-open-claw.html
-评论网址：https://news.ycombinator.com/item?id=47132905
+      <title>一个供您出售微型 SaaS 股权的网站</title>
+      <link>https://openstartuphub.com/</link>
+      <description><![CDATA[文章网址：https://openstartuphub.com/
+评论网址：https://news.ycombinator.com/item?id=47133570
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.nytimes.com/2026/02/23/opinion/chatbots-open-claw.html</guid>
-      <pubDate>Tue, 24 Feb 2026 04:35:34 GMT</pubDate>
+      <guid>https://openstartuphub.com/</guid>
+      <pubDate>Tue, 24 Feb 2026 06:31:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
