@@ -4,112 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 24 Feb 2026 07:01:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 09:53:40 GMT</lastBuildDate>
     <item>
-      <title>律师称，富有的配偶在离婚案件中隐藏加密资产</title>
-      <link>https://www.ft.com/content/df01cdb5-aac8-4d41-bbd8-56a198694394</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/df01cdb5-aac8-4d41-bbd8-56a198694394
-评论网址：https://news.ycombinator.com/item?id=47133726
+      <title>PCB追踪器</title>
+      <link>https://pcbtracer.com</link>
+      <description><![CDATA[文章网址：https://pcbtracer.com
+评论网址：https://news.ycombinator.com/item?id=47135009
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.ft.com/content/df01cdb5-aac8-4d41-bbd8-56a198694394</guid>
-      <pubDate>Tue, 24 Feb 2026 06:55:26 GMT</pubDate>
+      <guid>https://pcbtracer.com</guid>
+      <pubDate>Tue, 24 Feb 2026 09:46:00 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Scheme-langserver – 通过静态分析消化不完整的代码</title>
-      <link>https://github.com/ufo5260987423/scheme-langserver</link>
-      <description><![CDATA[Scheme-langserver消化不完整的Scheme代码来满足现实世界的编程需求，包括goto定义、自动完成、类型推断和许多LSP定义的语言功能支持。  而这个项目就基于这里（https://github.com/ufo5260987423/scheme-langserver）。我构建它是因为我厌倦了Scheme/Lisp破烂的开发环境，尤其是缺乏类似IDE的高度定制的编程体验。尽管 DrRacket 和许多基于 REPL 的同行没有太多，但以下一般情况没有达到与其他现代语言相同的水平：
-(let* ([准备参考 1] [调用参考 (+ 准备-)]))
-
-
-显然，“call-reference”后面的“ready-for-”应该触发一个自动完成选项，其中有一个候选“ready-for-reference”。  此外，我还知道它们都有数字类型，并且它们的可用范围受到`let*`的外括号的限制。我希望有一个 IDE 能够提供这样的功能，这样的小愿望是在过去十年里逐渐积累起来的，最终我对所有现成的产品都不满意。如果你想了解更多信息，你可以参考我的 github 存储库，其中有一个屏幕录制视频，显示你的代码如何从这个项目中获得帮助，并且这个项目有详细的文档，所以不要犹豫，使用它。这里还有一些其他东西分享给 Hacker News 读者：1.为什么我不使用 DrRacket：LSP 遵循 KISS（保持简单，愚蠢）原则，我不想涉及字体问题，因为我刚刚在其 github 问题中读到。2。 schema-langserve 的最新阶段是什么：它实现了某种自我提升，在这个阶段我可以使用它的 VScode 插件帮助继续开发它。  然而，我直接使用了ChezScheme的分词器，这导致了一些未捕获的异常，我承诺将来会修复这些异常，但我正忙于开发新功能。如果你觉得scheme-langserver有问题，你可以重启vscode，一般来说这总是有效的。3.技术路线图：我现在正在开发一个新的宏扩展器，以便用户可以通过编写自己的宏来自定义 LSP 行为，而无需更改此项目。之后，我有一个提高效率和修复错误的计划。
-4. 我需要什么帮助吗： 需要。而且我想说，和我谈论scheme-langserver也是一种帮助。5.长期观点：我怀疑两三年后我会失去对这个项目的注意力，但据我的一些朋友说，我可能会将这个项目与其他出色的工作结合起来。
+      <title>显示 HN：一个域上的 AI 工具，使用 Next.js 和 Claude AI 构建</title>
+      <link>https://ai-tools-woad-six.vercel.app</link>
+      <description><![CDATA[文章网址：https://ai-tools-woad-6.vercel.app
+评论网址：https://news.ycombinator.com/item?id=47135004
+积分：1
+# 条评论：0]]></description>
+      <guid>https://ai-tools-woad-six.vercel.app</guid>
+      <pubDate>Tue, 24 Feb 2026 09:44:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：AI Headcanon 生成器：即时创意，无尽故事</title>
+      <link>https://news.ycombinator.com/item?id=47134986</link>
+      <description><![CDATA[我长期以来一直是一名同人圈作家，也是一名非常深入的 Tumblr 用户（比如……大头条、错误的引述、凌晨 2 点的人物分析，有点深入）。写作一直是我与我喜欢的角色和故事一起享受乐趣的方式。我也是一名开发者，在某些时候我注意到一些非常明显的事情：我喜欢写作，但灵感并不总是在我想要的时候出现。有时我真的很想写一些头像或关系的东西，但我的大脑一片空白，哈哈。所以我最终为自己构建了一个小工具。这是一个 AI 头像生成器 - 你给它一些提示，它可以生成角色头像、关系动态、随机时刻或不正确的引用。它并不是要取代写作或其他任何东西，更像是当你陷入困境或只是想乱搞时的集思广益伙伴。我在这里分享它是因为它实际上帮助我摆脱困境，让写作再次变得有趣，而且我认为其他同人作家/Tumblr ppl 可能也会喜欢它。如果有人想查看它，请点击以下链接：
+https://aiheadcanongenerator.org/希望得到反馈、想法或功能请求 - 特别是来自生活在同人空间中的人。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47133716
+评论网址：https://news.ycombinator.com/item?id=47134986
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/ufo5260987423/scheme-langserver</guid>
-      <pubDate>Tue, 24 Feb 2026 06:53:55 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47134986</guid>
+      <pubDate>Tue, 24 Feb 2026 09:43:05 GMT</pubDate>
     </item>
     <item>
-      <title>有工作经验的孩子弄乱了经理的电脑，把他送进了 Ctrl-Alt-Del 地狱</title>
-      <link>https://www.theregister.com/2026/02/23/who_me/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2026/02/23/who_me/
-评论网址：https://news.ycombinator.com/item?id=47133671
+      <title>询问 HN：您对 AI 过载的处理怎么样？</title>
+      <link>https://news.ycombinator.com/item?id=47134969</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=47134969
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theregister.com/2026/02/23/who_me/</guid>
-      <pubDate>Tue, 24 Feb 2026 06:46:48 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47134969</guid>
+      <pubDate>Tue, 24 Feb 2026 09:39:51 GMT</pubDate>
     </item>
     <item>
-      <title>美国宇航局的毅力现在可以自主确定其在火星上的位置</title>
-      <link>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-now-autonomously-pinpoints-its-location-on-mars/</link>
-      <description><![CDATA[文章网址： https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-now-autonomously-pinpoints-its-location-on-mars/
-评论网址：https://news.ycombinator.com/item?id=47133662
+      <title>Show HN：Kuta – 适用于 iOS 的跑步机间歇训练</title>
+      <link>https://news.ycombinator.com/item?id=47134954</link>
+      <description><![CDATA[显示 HN：Kuta – 适用于 iOS 的跑步机间歇训练https://getkuta.com我在跑步机间歇期间不断丢失重复次数。尝试过纸质笔记，尝试过大型跑步应用程序 - 它们都不是真正为跑步机使用而设计的。Kuta 通过大型视觉提示（专为在弹跳跑步机上出汗的手而设计）引导您完成锻炼，根据配速 × 时间（而不是跑步机传感器）计算距离，并通过 Apple Health 同步到 Strava。SwiftUI，iOS 17+。 22 种免费预设锻炼。定制锻炼一次性解锁需 2.90 美元。没有订阅。这是我的第一个应用程序。在批准之前曾两次被苹果拒绝。很高兴谈论构建或过程。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47134954
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-now-autonomously-pinpoints-its-location-on-mars/</guid>
-      <pubDate>Tue, 24 Feb 2026 06:45:03 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47134954</guid>
+      <pubDate>Tue, 24 Feb 2026 09:38:04 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能领域的每个人都出于同样的原因构建了错误的东西</title>
-      <link>https://www.joanwestenberg.com/everyone-in-ai-is-building-the-wrong-thing-for-the-same-reason/</link>
-      <description><![CDATA[文章网址：https://www.joanwestenberg.com/everyone-in-ai-is-building-the-wrong-thing-for-the-same-reason/
-评论网址：https://news.ycombinator.com/item?id=47133640
+      <title>如今，人工智能生成的回复确实是一个祸害</title>
+      <link>https://twitter.com/simonw/status/2025909963445707171</link>
+      <description><![CDATA[文章网址：https://twitter.com/simonw/status/2025909963445707171
+评论网址：https://news.ycombinator.com/item?id=47134946
+积分：4
+# 条评论：0]]></description>
+      <guid>https://twitter.com/simonw/status/2025909963445707171</guid>
+      <pubDate>Tue, 24 Feb 2026 09:37:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>微软高管担心人工智能会蚕食入门级编码工作</title>
+      <link>https://www.theregister.com/2026/02/23/microsoft_ai_entry_level_russinovich_hanselman/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2026/02/23/microsoft_ai_entry_level_russinovich_hanselman/
+评论网址：https://news.ycombinator.com/item?id=47134931
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.joanwestenberg.com/everyone-in-ai-is-building-the-wrong-thing-for-the-same-reason/</guid>
-      <pubDate>Tue, 24 Feb 2026 06:42:06 GMT</pubDate>
+      <guid>https://www.theregister.com/2026/02/23/microsoft_ai_entry_level_russinovich_hanselman/</guid>
+      <pubDate>Tue, 24 Feb 2026 09:35:16 GMT</pubDate>
     </item>
     <item>
-      <title>DJI Romo 的 MQTT 代理没有 ACL – 一个令牌，7k 家用摄像机</title>
-      <link>https://www.theverge.com/tech/879088/dji-romo-hack-vulnerability-remote-control-camera-access-mqtt</link>
-      <description><![CDATA[文章网址：https://www.theverge.com/tech/879088/dji-romo-hack-vulnerability-remote-control-camera-access-mqtt
-评论网址：https://news.ycombinator.com/item?id=47133613
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.theverge.com/tech/879088/dji-romo-hack-vulnerability-remote-control-camera-access-mqtt</guid>
-      <pubDate>Tue, 24 Feb 2026 06:39:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic：人工智能有助于打破 COBOL 现代化的成本障碍</title>
-      <link>https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization</link>
-      <description><![CDATA[文章网址：https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization
-评论网址：https://news.ycombinator.com/item?id=47133605
-积分：2
-# 条评论：1]]></description>
-      <guid>https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization</guid>
-      <pubDate>Tue, 24 Feb 2026 06:36:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>“只是一个小细节，没有什么卖点”</title>
-      <link>https://unsung.aresluna.org/just-a-little-detail-that-wouldnt-sell-anything/</link>
-      <description><![CDATA[文章网址：https://unsung.aresluna.org/just-a-little-detail-that-wouldnt-sell-anything/
-评论网址：https://news.ycombinator.com/item?id=47133585
+      <title>GitHub 又宕机了吗？</title>
+      <link>https://news.ycombinator.com/item?id=47134919</link>
+      <description><![CDATA[我无法从应用程序或浏览器进行连接。我什至不知道我是否应该问这个问题，但我想我会找到答案的。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47134919
 积分：3
 # 条评论：0]]></description>
-      <guid>https://unsung.aresluna.org/just-a-little-detail-that-wouldnt-sell-anything/</guid>
-      <pubDate>Tue, 24 Feb 2026 06:34:07 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47134919</guid>
+      <pubDate>Tue, 24 Feb 2026 09:33:56 GMT</pubDate>
     </item>
     <item>
-      <title>Trolley：随处运行终端应用程序</title>
-      <link>https://github.com/weedonandscott/trolley</link>
-      <description><![CDATA[文章网址：https://github.com/weedonandscott/trolley
-评论网址：https://news.ycombinator.com/item?id=47133575
-积分：2
-# 条评论：0]]></description>
-      <guid>https://github.com/weedonandscott/trolley</guid>
-      <pubDate>Tue, 24 Feb 2026 06:32:12 GMT</pubDate>
+      <title>Timedb：时间序列的开源数据库</title>
+      <link>https://github.com/rebase-energy/timedb</link>
+      <description><![CDATA[文章网址：https://github.com/rebase-energy/timedb
+评论网址：https://news.ycombinator.com/item?id=47134892
+积分：1
+# 条评论：1]]></description>
+      <guid>https://github.com/rebase-energy/timedb</guid>
+      <pubDate>Tue, 24 Feb 2026 09:30:56 GMT</pubDate>
     </item>
     <item>
-      <title>一个供您出售微型 SaaS 股权的网站</title>
-      <link>https://openstartuphub.com/</link>
-      <description><![CDATA[文章网址：https://openstartuphub.com/
-评论网址：https://news.ycombinator.com/item?id=47133570
+      <title>乳齿象互动查看器</title>
+      <link>https://www.leeholmes.com/projects/mastodon-engagement-viewer/?url=https%3A%2F%2Finfosec.exchange%2Fdeck%2F%40jerry%2F116121792535418308</link>
+      <description><![CDATA[文章网址： https://www.leeholmes.com/projects/mastodon-engagement-viewer/?url=https%3A%2F%2Finfosec.exchange%2Fdeck%2F%40jerry%2F116121792535418308
+评论网址：https://news.ycombinator.com/item?id=47134887
 积分：1
 # 条评论：0]]></description>
-      <guid>https://openstartuphub.com/</guid>
-      <pubDate>Tue, 24 Feb 2026 06:31:42 GMT</pubDate>
+      <guid>https://www.leeholmes.com/projects/mastodon-engagement-viewer/?url=https%3A%2F%2Finfosec.exchange%2Fdeck%2F%40jerry%2F116121792535418308</guid>
+      <pubDate>Tue, 24 Feb 2026 09:30:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
