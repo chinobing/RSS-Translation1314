@@ -4,119 +4,113 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 24 Feb 2026 02:06:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 04:53:34 GMT</lastBuildDate>
     <item>
-      <title>Show HN：顶级AI工具的系统提示和模型（Claude Code、Cursor、Devin）</title>
-      <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
-      <description><![CDATA[文章网址：https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
-评论网址：https://news.ycombinator.com/item?id=47131877
+      <title>Show HN：ClinTrialFinder——人工智能驱动的癌症患者临床试验匹配</title>
+      <link>https://www.clintrialfinder.info</link>
+      <description><![CDATA[文章网址：https://www.clintrialfinder.info
+评论网址：https://news.ycombinator.com/item?id=47132956
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</guid>
-      <pubDate>Tue, 24 Feb 2026 01:54:26 GMT</pubDate>
+      <guid>https://www.clintrialfinder.info</guid>
+      <pubDate>Tue, 24 Feb 2026 04:43:35 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Clawphone – 使用 TwiML 轮询的 AI 代理的 Twilio 语音/短信网关</title>
-      <link>https://github.com/ranacseruet/clawphone</link>
-      <description><![CDATA[clawphone 使用普通 TwiML webhook 将 Twilio 电话和短信桥接至 OpenClaw AI 代理 — 无 WebSocket 服务器、无外部 STT/TTS API（OpenAI、ElevenLabs 等）、无音频编码管道。
-该设计有意以延迟换取操作简单性。当有呼叫打入时，Twilio 通过 处理语音转文本，代理运行异步，并通过 轮询回复并语音回复。与媒体流方法相比，它增加了几秒钟的往返时间，但您只需要一个 Twilio 帐户和一个节点进程。
-特点：独立服务器（Node / PM2）或OpenClaw插件模式
-SMS 支持快速路径（同步）和异步回退
-Twilio Webhook 签名验证
-每个号码的速率限制
-优雅关闭并减少飞行中语音呼叫
-结构化 JSON 日志记录 + 可选的 Discord 通道日志记录
-使用Node内置的node:test进行166个测试（无外部框架）它在HTTP层是零依赖的——原始node:http，仅ES模块。
-我构建这个是因为官方 OpenClaw 语音插件需要 WebSocket 网关 + 外部 TTS/STT 帐户。对于个人助理或低流量部署来说，这需要大量的基础设施。这是最小路径。
-GitHub：https://github.com/ranacseruet/clawphone
-npm：@ranacseruet/clawphone
-很高兴回答有关架构或 TwiML 轮询方法的问题。
+      <title>显示 HN：L88 – 8GB VRAM 上的本地 RAG 系统（需要架构反馈）</title>
+      <link>https://github.com/Hundred-Trillion/L88-Full</link>
+      <description><![CDATA[大家好，我一直在从事一个名为 L88 的项目，这是一个本地 RAG 系统，我最初专注于 UI/UX，因此检索和模型架构仍然需要适当的改进。Repo：
+https://github.com/Hundred-Trillion/L88-Full我在 8GB VRAM 和强大的 CPU (128GB RAM) 上运行此程序。嵌入和预处理在 CPU 上运行，主模型在 GPU 上运行。我遇到的一个限制是，由于计算限制，我的评估器和生成器 LLM 最终成为相同的模型，这违背了评估的目的。我非常感谢以下方面的反馈：针对小型 VRAM RAG 的更好架构想法有效地拆分评估器/生成器角色改进 LangGraph 管道您注意到的任何错误或设计气味针对本地硬件优化系统的方法我我已经 18 岁了，仍在学习很多有关正确的 LLM 架构的知识，因此任何技术批评或建议都将帮助我成长为一名开发人员。如果您查看存储库或留下反馈，这将意义重大 - 我正在尝试通过实际项目建立坚实的基础和声誉。谢谢！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47131873
+评论网址：https://news.ycombinator.com/item?id=47132942
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/ranacseruet/clawphone</guid>
-      <pubDate>Tue, 24 Feb 2026 01:53:44 GMT</pubDate>
+      <guid>https://github.com/Hundred-Trillion/L88-Full</guid>
+      <pubDate>Tue, 24 Feb 2026 04:41:04 GMT</pubDate>
     </item>
     <item>
-      <title>编码代理自动学习技能</title>
-      <link>https://gepa-ai.github.io/gepa/blog/2026/02/18/automatically-learning-skills-for-coding-agents/</link>
-      <description><![CDATA[文章网址：https://gepa-ai.github.io/gepa/blog/2026/02/18/automatically-learning-skills-for-coding-agents/
-评论网址：https://news.ycombinator.com/item?id=47131862
+      <title>用 Python 模拟最难的物理问题 [视频]</title>
+      <link>https://www.youtube.com/watch?v=M_OOwhA2fY8</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=M_OOwhA2fY8
+评论网址：https://news.ycombinator.com/item?id=47132936
 积分：1
 # 条评论：0]]></description>
-      <guid>https://gepa-ai.github.io/gepa/blog/2026/02/18/automatically-learning-skills-for-coding-agents/</guid>
-      <pubDate>Tue, 24 Feb 2026 01:52:26 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=M_OOwhA2fY8</guid>
+      <pubDate>Tue, 24 Feb 2026 04:40:26 GMT</pubDate>
     </item>
     <item>
-      <title>带电锯的实习生</title>
-      <link>https://anhvietle.substack.com/p/interns-with-chainsaws</link>
-      <description><![CDATA[文章网址：https://anhvietle.substack.com/p/interns-with-chainsaws
-评论网址：https://news.ycombinator.com/item?id=47131856
+      <title>Show HN：我们扫描了 500 个 ClawHub 技能是否存在安全风险 – 10% 是危险的</title>
+      <link>https://news.ycombinator.com/item?id=47132932</link>
+      <description><![CDATA[我们构建了 tork-scan，这是一个免费的开源 CLI，用于检查 19 种安全风险模式的 AI 代理技能（MCP 工具）——反向 shell、凭据收集、base64 有效负载、eval()、C2 域等。我们指出了 500 种 ClawHub 技能。结果：- 200 (40%) 安全 (90-100)
+- 150 (30%) 注意 (70-89)
+- 100 (20%) 有风险 (50-69)
+- 50 (10%) 危险 (0-49)危险包括带有隐藏凭据泄露、混淆的有效负载和 C2 域连接的无辜名称的拼写错误。 284 项技能赢得了信任徽章。尝试一下：npx tork-scan ./my-skill完整结果 + 排行榜：https://tork.network/leaderboard
+文章：https://tork.network/blog/clawhub-scan-resultsTork Network (https://tork.network) 是 AI 代理的独立治理层 - 在约 1 毫秒内检测 PII、合规收据、信任徽章。适用于任何 MCP 兼容框架。提供免费套餐。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47132932
 积分：1
 # 条评论：0]]></description>
-      <guid>https://anhvietle.substack.com/p/interns-with-chainsaws</guid>
-      <pubDate>Tue, 24 Feb 2026 01:51:25 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47132932</guid>
+      <pubDate>Tue, 24 Feb 2026 04:39:47 GMT</pubDate>
     </item>
     <item>
-      <title>了解 OpenClaw 安全性</title>
-      <link>https://get-to-know-openclaw-security-model.vercel.app/</link>
-      <description><![CDATA[文章网址：https://get-to-know-openclaw-security-model.vercel.app/
-评论网址：https://news.ycombinator.com/item?id=47131850
+      <title>油脂和奶酪对披萨盒可回收性的影响</title>
+      <link>https://www.westrock.com/greasecheesestudy</link>
+      <description><![CDATA[文章网址：https://www.westrock.com/greasecheesestudy
+评论网址：https://news.ycombinator.com/item?id=47132930
 积分：1
 # 条评论：0]]></description>
-      <guid>https://get-to-know-openclaw-security-model.vercel.app/</guid>
-      <pubDate>Tue, 24 Feb 2026 01:50:34 GMT</pubDate>
+      <guid>https://www.westrock.com/greasecheesestudy</guid>
+      <pubDate>Tue, 24 Feb 2026 04:39:19 GMT</pubDate>
     </item>
     <item>
-      <title>为什么我们不像对待维基百科那样对待人工智能？</title>
-      <link>https://medium.com/@mycahp/why-dont-we-treat-ai-like-we-treated-wikipedia-07ece535dd09</link>
-      <description><![CDATA[文章网址：https://medium.com/@mycahp/why-dont-we-treat-ai-like-we-treatment-wikipedia-07ece535dd09
-评论网址：https://news.ycombinator.com/item?id=47131849
+      <title>中国房地产泡沫破灭的烂尾</title>
+      <link>https://www.economist.com/china/2026/02/23/the-rotten-tail-of-chinas-property-bust</link>
+      <description><![CDATA[文章网址：https://www.economist.com/china/2026/02/23/the-rotten-tail-of-chinas-property-bust
+评论网址：https://news.ycombinator.com/item?id=47132928
 积分：1
 # 条评论：0]]></description>
-      <guid>https://medium.com/@mycahp/why-dont-we-treat-ai-like-we-treated-wikipedia-07ece535dd09</guid>
-      <pubDate>Tue, 24 Feb 2026 01:50:10 GMT</pubDate>
+      <guid>https://www.economist.com/china/2026/02/23/the-rotten-tail-of-chinas-property-bust</guid>
+      <pubDate>Tue, 24 Feb 2026 04:39:06 GMT</pubDate>
     </item>
     <item>
-      <title>我们在 Terminus-KIRA 的终端工作台上达到了 74.8%</title>
-      <link>https://krafton-ai.github.io/blog/terminus_kira_en/</link>
-      <description><![CDATA[文章网址：https://krafton-ai.github.io/blog/terminus_kira_en/
-评论网址：https://news.ycombinator.com/item?id=47131828
+      <title>Goeph：受 Python 的 Skyfield 启发的 Go 行星位置库</title>
+      <link>https://github.com/anupshinde/goeph</link>
+      <description><![CDATA[文章网址：https://github.com/anupshinde/goeph
+评论网址：https://news.ycombinator.com/item?id=47132927
 积分：1
 # 条评论：0]]></description>
-      <guid>https://krafton-ai.github.io/blog/terminus_kira_en/</guid>
-      <pubDate>Tue, 24 Feb 2026 01:47:42 GMT</pubDate>
+      <guid>https://github.com/anupshinde/goeph</guid>
+      <pubDate>Tue, 24 Feb 2026 04:38:39 GMT</pubDate>
     </item>
     <item>
-      <title>产品设计正在改变</title>
-      <link>https://rogerwong.me/2026/02/product-design-is-changing/</link>
-      <description><![CDATA[文章网址：https://rogerwong.me/2026/02/product-design-is-changing/
-评论网址：https://news.ycombinator.com/item?id=47131804
-积分：1
-# 条评论：1]]></description>
-      <guid>https://rogerwong.me/2026/02/product-design-is-changing/</guid>
-      <pubDate>Tue, 24 Feb 2026 01:44:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>大多数人工智能初创公司只是 API 包装器——我们衡量了经济性</title>
-      <link>https://no-edit.lovable.app/</link>
-      <description><![CDATA[文章网址：https://no-edit.lovable.app/
-评论网址：https://news.ycombinator.com/item?id=47131791
-积分：1
-# 条评论：1]]></description>
-      <guid>https://no-edit.lovable.app/</guid>
-      <pubDate>Tue, 24 Feb 2026 01:43:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>汤姆斯背景去除剂</title>
-      <link>https://tomdahne.com/TomsBGRemover/index.html</link>
-      <description><![CDATA[文章网址：https://tomdahne.com/TomsBGRemover/index.html
-评论网址：https://news.ycombinator.com/item?id=47131764
+      <title>获取 YouPorn 应用程序：立即加快流媒体速度</title>
+      <link>https://you-porn-app.pages.dev/posts/you-porn-app/</link>
+      <description><![CDATA[文章网址：https://you-porn-app.pages.dev/posts/you-porn-app/
+评论网址：https://news.ycombinator.com/item?id=47132926
 积分：1
 # 条评论：0]]></description>
-      <guid>https://tomdahne.com/TomsBGRemover/index.html</guid>
-      <pubDate>Tue, 24 Feb 2026 01:39:29 GMT</pubDate>
+      <guid>https://you-porn-app.pages.dev/posts/you-porn-app/</guid>
+      <pubDate>Tue, 24 Feb 2026 04:38:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>解释工具钢牌号 – Nifty Alloys LLC</title>
+      <link>https://niftyalloys.com/blogs/tool-steel-grades-explained-d2-o1-h13-and-more</link>
+      <description><![CDATA[文章网址：https://niftyalloys.com/blogs/tool-steel-grades-explained-d2-o1-h13-and-more
+评论网址：https://news.ycombinator.com/item?id=47132907
+积分：1
+# 条评论：0]]></description>
+      <guid>https://niftyalloys.com/blogs/tool-steel-grades-explained-d2-o1-h13-and-more</guid>
+      <pubDate>Tue, 24 Feb 2026 04:35:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>顽皮机器的崛起</title>
+      <link>https://www.nytimes.com/2026/02/23/opinion/chatbots-open-claw.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2026/02/23/opinion/chatbots-open-claw.html
+评论网址：https://news.ycombinator.com/item?id=47132905
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nytimes.com/2026/02/23/opinion/chatbots-open-claw.html</guid>
+      <pubDate>Tue, 24 Feb 2026 04:35:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
