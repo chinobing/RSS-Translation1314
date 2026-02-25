@@ -4,7 +4,76 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 25 Feb 2026 13:05:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 16:03:21 GMT</lastBuildDate>
+    <item>
+      <title>问HN：顶级人工智能研究机构是否已经放弃了安全理念？</title>
+      <link>https://news.ycombinator.com/item?id=47152355</link>
+      <description><![CDATA[我知道个人和组织的规定价值观与实际价值观之间存在差异，因此我想以最务实和结果主义的方式提出这个问题。我知道实验室、机构等都有安全团队。我知道从事这项工作的人对这项工作都很认真。但目前这些机构是否只是通过某种象征性的投资来迎合安全概念？就像赌场可能资助解决赌博成瘾的项目一样。我是局外人，只能猜测。非常感谢内部人士的见解。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47152355
+积分：52
+# 条评论：29]]></description>
+      <guid>https://news.ycombinator.com/item?id=47152355</guid>
+      <pubDate>Wed, 25 Feb 2026 14:55:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国命令外交官反对数据主权倡议</title>
+      <link>https://www.reuters.com/sustainability/boards-policy-regulation/us-orders-diplomats-fight-data-sovereignty-initiatives-2026-02-25/</link>
+      <description><![CDATA[文章网址： https://www.reuters.com/sustainability/boards-policy-regulation/us-orders-diplomats-fight-data-sovereignty-initiatives-2026-02-25/
+评论网址：https://news.ycombinator.com/item?id=47152252
+积分：98
+# 条评论：74]]></description>
+      <guid>https://www.reuters.com/sustainability/boards-policy-regulation/us-orders-diplomats-fight-data-sovereignty-initiatives-2026-02-25/</guid>
+      <pubDate>Wed, 25 Feb 2026 14:48:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Django Control Room – Django 管理员中的所有工具</title>
+      <link>https://github.com/yassi/dj-control-room</link>
+      <description><![CDATA[在过去的一年里，我一直在为 Django 构建一套操作面板：- Redis 检查
+- 缓存可见性
+- Celery 任务自省
+- URL 发现和测试所有这些工具都构建在 Django 管理中心内。我不想在 Flower、redis-cli、Swagger 或外部服务等工具之间跳转，而是想要一些位于我已经工作的地方的东西。我将这些工具分组在一个伞下：Django Control Room。这个想法非常简单：Django 管理中心已经为您提供了身份验证、权限和熟悉的界面。它还可以充当您应用程序的操作层。每个面板只是一个具有简单界面的小型 Django 应用程序，因此您可以轻松构建自己的面板并将其插入。我正在开发更多面板（信号、错误等），并思考这种模式可以走多远。很好奇其他人对此有何看法。在管理员内部整合此类工具是否有意义，还是您更喜欢将其分开？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47151995
+积分：18
+# 条评论：5]]></description>
+      <guid>https://github.com/yassi/dj-control-room</guid>
+      <pubDate>Wed, 25 Feb 2026 14:31:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>推出 HN：TeamOut (YC W22) – 用于规划公司活动的人工智能代理</title>
+      <link>https://app.teamout.com/ai</link>
+      <description><![CDATA[HN 您好，我是 TeamOut (https://www.teamout.com/) 的首席技术官 Vincent。我们构建了一个人工智能代理，可以完全通过对话从头到尾规划公司活动。与 Lovable 通过聊天帮助构建网站类似，我们将这种方法应用于活动策划。我们的系统负责处理场地采购、供应商协调、航班成本估算、行程构建和整体项目管理。以下是演示：https://www.youtube.com/watch?v=QVyc-x-isjI。该产品已在 https://app.teamout.com/ai 上上线，无需注册。我们于 2022 年通过了 YC，但当时并未在 HN 上发布。当时，该产品更为传统，更接近 Airbnb 式的搜索市场。过去两年，在帮助组织了 1,200 多个活动后，我们围绕直接管理规划流程的代理架构重建了核心系统。随着这个新版本的上线，感觉是在这里分享它的最佳时机，因为它代表了一种完全不同的活动策划方法。问题：策划公司静修通常意味着在三个不完美的选项之间进行选择：(1) 聘请活动策划师并支付大量费用和场地加价； （2）自己动手，花费数十个小时进行研究、电子邮件和谈判； (3) 使用 Airbnb 等并非为团体后勤或会议空间设计的工具。困难不仅仅在于寻找场地。即使对于 30 到 50 人来说，规划也会变成数周的来回电子邮件报价、比较 PDF 中不一致的定价以及在电子表格中跟踪预算。它成为一个持续的协调问题，具有不断变化的约束和缓慢、异步的供应商响应。大多数现有软件都是表单驱动的，但真正的工作流程是对话式和有状态的。异地成本高昂且风险很高。单个事件可能占团队年度预算的很大一部分，而错误会直接表现为成本超支或糟糕的体验。创始人和运营商最终常常将时间花在活动后勤上，而不是实际工作上。我在之前的一家公司组织务虚会时遇到了这个问题。在 TeamOut 之前，我在 IBM 担任 NLP 和机器学习系统方面的 AI 研究员。坐在长长的电子邮件线程和成本电子表格中，对我来说，它看起来不像是市场差距。它看起来像是一个推理和状态管理问题。随着大型语言模型在多步推理和工具使用方面的改进，协调层本身的自动化变得现实。我们的解决方案：核心代理依赖于 Gemini、Claude 和 GPT 等模型的组合。基于法学硕士的中央代理维护各个回合的规划上下文，并决定接下来调用哪个专用工具。
+每个工具都有特定的职责： - 场地搜索和过滤 - 成本估算（住宿 + 航班） - 预算比较 - 报价和推广流程 - 与我们团队的沟通工具对于超过 10,000 个场地的场地推荐，我们并不纯粹依赖语言模型。我们将用户需求和场所嵌入到向量表示中，并使用相似性搜索来检索候选者。首先应用容量和日期等硬约束，然后在呈现结果之前对结果进行排序。在界面方面，我们使用拆分布局：左侧为对话，右侧为结构化结果。当您在聊天中完善计划时，事件会实时更新，从而实现迭代工作流程而不是静态搜索体验。不同之处在于，我们将事件计划视为状态协调问题而不是一次性搜索查询。代理协调工具，管理不断变化的约束，并明确地进行权衡。它不会发明场地或编造定价，也不是为了取代大型或高度定制活动的人类策划者而设计的。我们通过场地预订佣金赚钱。团队可以免费探索选项和计划。
+如果您以前组织过场外或大型聚会，我会真诚地重视您的观点。您认为这会在哪里失败？我们低估了哪些边缘情况？您在哪里会不信任代理来处理细节？我和我的工程团队将整天在这里回答问题，很乐意深入探讨架构、权衡和经验教训。 
+我们非常感谢您的坦诚反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47151598
+积分：8
+# 条评论：8]]></description>
+      <guid>https://app.teamout.com/ai</guid>
+      <pubDate>Wed, 25 Feb 2026 14:02:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>切勿购买 .online 域名</title>
+      <link>https://www.0xsid.com/blog/online-tld-is-pain</link>
+      <description><![CDATA[文章网址：https://www.0xsid.com/blog/online-tld-is-pain
+评论网址：https://news.ycombinator.com/item?id=47151233
+积分：313
+# 条评论：161]]></description>
+      <guid>https://www.0xsid.com/blog/online-tld-is-pain</guid>
+      <pubDate>Wed, 25 Feb 2026 13:31:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>红帽通过其企业 Podman Desktop 版本挑战 Docker Desktop</title>
+      <link>https://thenewstack.io/red-hat-enters-the-cloud-native-developer-desktop-market/</link>
+      <description><![CDATA[文章网址：https://thenewstack.io/red-hat-enters-the-cloud-native-developer-desktop-market/
+评论网址：https://news.ycombinator.com/item?id=47151163
+积分：37
+# 条评论：21]]></description>
+      <guid>https://thenewstack.io/red-hat-enters-the-cloud-native-developer-desktop-market/</guid>
+      <pubDate>Wed, 25 Feb 2026 13:25:53 GMT</pubDate>
+    </item>
     <item>
       <title>Event Horizo​​n Labs (YC W24) 正在招聘</title>
       <link>https://www.ycombinator.com/companies/event-horizon-labs/jobs/xGQicps-founding-infrastructure-engineer</link>
@@ -20,8 +89,8 @@
       <link>https://github.com/tempestphp/100-million-row-challenge</link>
       <description><![CDATA[文章网址：https://github.com/tempestphp/100-million-row-challenge
 评论网址：https://news.ycombinator.com/item?id=47149752
-积分：33
-# 条评论：3]]></description>
+积分：98
+# 条评论：32]]></description>
       <guid>https://github.com/tempestphp/100-million-row-challenge</guid>
       <pubDate>Wed, 25 Feb 2026 10:24:23 GMT</pubDate>
     </item>
@@ -30,8 +99,8 @@
       <link>https://therecord.media/denmark-digital-agency-microsoft-digital-independence</link>
       <description><![CDATA[文章网址：https://therecord.media/denmark-digital-agency-microsoft-digital-independence
 评论网址：https://news.ycombinator.com/item?id=47149701
-积分：259
-评论数：136]]></description>
+积分：468
+评论数：262]]></description>
       <guid>https://therecord.media/denmark-digital-agency-microsoft-digital-independence</guid>
       <pubDate>Wed, 25 Feb 2026 10:16:22 GMT</pubDate>
     </item>
@@ -41,70 +110,10 @@
       <description><![CDATA[我喜欢所有将法学硕士融入游戏环境的项目。不过，这是一种奇怪的并置：前沿法学硕士可以一次完成完整的编码项目，而这些相同的模型却很难摆脱神奇宝贝红的月亮山。因此，我想创建一个游戏环境，让这一代前沿法学硕士的顶尖技能（编码）得到充分展示。十年前，一个团队发布了一款名为 Screeps 的游戏。它被描述为“程序员的 MMO RTS 沙盒”。 Screeps 编写代码并在实时游戏环境中执行的范例非常适合法学硕士。 LLM Skirmish 利用 Screeps 开源 API 的一个版本，在一系列 1v1 实时策略游戏中与 LLM 进行正面交锋。在我的测试中，我发现 Claude Opus 4.5 是最主要的模型，但它在第一轮中表现出弱点，因为它过于关注游戏内的经济。与此同时，我可能花了三分之一的代码进行沙箱强化，因为 GPT 5.2 一直试图通过预读对手的策略来作弊。如果有兴趣，我计划使用最新一代的 LLM（Claude 4.6 Opus、GPT 5.3 Codex 等）进行一轮测试。您可以通过 CLI 运行本地比赛。我正在使用独立虚拟机通过 Google Cloud Run 运行托管比赛运行程序。比赛回放可视化工具由 Cloudflare 静态提供。我创建了一个社区阶梯，您可以通过 CLI 向其提交策略，无需身份验证。我发现 CLI 加上可用的 Skill.md 足以让 AI 代理立即开始使用。网站：https://llmskirmish.comAPI 文档：https://llmskirmish.com/docsGitHub：https://github.com/llmskirmish/skirmish比赛视频：https://www.youtube.com/watch?v=lnBPaZ1qamM
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47149586
-积分：80
-# 条评论：26]]></description>
+积分：141
+# 条评论：50]]></description>
       <guid>https://llmskirmish.com/</guid>
       <pubDate>Wed, 25 Feb 2026 10:02:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>法学硕士=正确</title>
-      <link>https://blog.codemine.be/posts/2026/20260222-be-quiet/</link>
-      <description><![CDATA[文章网址：https://blog.codemine.be/posts/2026/20260222-be-quiet/
-评论网址：https://news.ycombinator.com/item?id=47149151
-积分：133
-评论数量：90]]></description>
-      <guid>https://blog.codemine.be/posts/2026/20260222-be-quiet/</guid>
-      <pubDate>Wed, 25 Feb 2026 09:05:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>克劳德代码远程控制</title>
-      <link>https://code.claude.com/docs/en/remote-control</link>
-      <description><![CDATA[文章网址：https://code.claude.com/docs/en/remote-control
-评论网址：https://news.ycombinator.com/item?id=47148454
-积分：94
-# 条评论：63]]></description>
-      <guid>https://code.claude.com/docs/en/remote-control</guid>
-      <pubDate>Wed, 25 Feb 2026 07:22:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>GNU 查找的图灵完备性</title>
-      <link>https://arxiv.org/abs/2602.20762</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2602.20762
-评论网址：https://news.ycombinator.com/item?id=47147609
-积分：72
-# 条评论：12]]></description>
-      <guid>https://arxiv.org/abs/2602.20762</guid>
-      <pubDate>Wed, 25 Feb 2026 05:16:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic 放弃旗舰安全承诺</title>
-      <link>https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/</link>
-      <description><![CDATA[文章网址：https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/
-评论网址：https://news.ycombinator.com/item?id=47145963
-积分：400
-# 条评论：187]]></description>
-      <guid>https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/</guid>
-      <pubDate>Wed, 25 Feb 2026 01:08:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>柯基实验室 (YC W23) 正在招聘</title>
-      <link>https://www.ycombinator.com/companies/corgi-labs/jobs/ZiEIf7a-founders-associate</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/corgi-labs/jobs/ZiEIf7a-Founders-associate
-评论网址：https://news.ycombinator.com/item?id=47145911
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/corgi-labs/jobs/ZiEIf7a-founders-associate</guid>
-      <pubDate>Wed, 25 Feb 2026 01:01:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>亚马逊被指控在整个经济领域广泛实施抬高价格的计划</title>
-      <link>https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price</link>
-      <description><![CDATA[文章网址：https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price
-评论网址：https://news.ycombinator.com/item?id=47145907
-积分：507
-# 条评论：178]]></description>
-      <guid>https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price</guid>
-      <pubDate>Wed, 25 Feb 2026 01:00:45 GMT</pubDate>
     </item>
     </channel>
 </rss>
