@@ -4,35 +4,75 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 25 Feb 2026 09:55:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 13:05:32 GMT</lastBuildDate>
+    <item>
+      <title>Event Horizo​​n Labs (YC W24) 正在招聘</title>
+      <link>https://www.ycombinator.com/companies/event-horizon-labs/jobs/xGQicps-founding-infrastructure-engineer</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/event-horizon-labs/jobs/xGQicps-founding-infrastruct-engineer
+评论网址：https://news.ycombinator.com/item?id=47150403
+积分：0
+# 条评论：0]]></description>
+      <guid>https://www.ycombinator.com/companies/event-horizon-labs/jobs/xGQicps-founding-infrastructure-engineer</guid>
+      <pubDate>Wed, 25 Feb 2026 12:01:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>PHP 100M 行挑战</title>
+      <link>https://github.com/tempestphp/100-million-row-challenge</link>
+      <description><![CDATA[文章网址：https://github.com/tempestphp/100-million-row-challenge
+评论网址：https://news.ycombinator.com/item?id=47149752
+积分：33
+# 条评论：3]]></description>
+      <guid>https://github.com/tempestphp/100-million-row-challenge</guid>
+      <pubDate>Wed, 25 Feb 2026 10:24:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>丹麦政府机构将放弃微软软件（2025 年）</title>
+      <link>https://therecord.media/denmark-digital-agency-microsoft-digital-independence</link>
+      <description><![CDATA[文章网址：https://therecord.media/denmark-digital-agency-microsoft-digital-independence
+评论网址：https://news.ycombinator.com/item?id=47149701
+积分：259
+评论数：136]]></description>
+      <guid>https://therecord.media/denmark-digital-agency-microsoft-digital-independence</guid>
+      <pubDate>Wed, 25 Feb 2026 10:16:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：AI代理可以玩的实时策略游戏</title>
+      <link>https://llmskirmish.com/</link>
+      <description><![CDATA[我喜欢所有将法学硕士融入游戏环境的项目。不过，这是一种奇怪的并置：前沿法学硕士可以一次完成完整的编码项目，而这些相同的模型却很难摆脱神奇宝贝红的月亮山。因此，我想创建一个游戏环境，让这一代前沿法学硕士的顶尖技能（编码）得到充分展示。十年前，一个团队发布了一款名为 Screeps 的游戏。它被描述为“程序员的 MMO RTS 沙盒”。 Screeps 编写代码并在实时游戏环境中执行的范例非常适合法学硕士。 LLM Skirmish 利用 Screeps 开源 API 的一个版本，在一系列 1v1 实时策略游戏中与 LLM 进行正面交锋。在我的测试中，我发现 Claude Opus 4.5 是最主要的模型，但它在第一轮中表现出弱点，因为它过于关注游戏内的经济。与此同时，我可能花了三分之一的代码进行沙箱强化，因为 GPT 5.2 一直试图通过预读对手的策略来作弊。如果有兴趣，我计划使用最新一代的 LLM（Claude 4.6 Opus、GPT 5.3 Codex 等）进行一轮测试。您可以通过 CLI 运行本地比赛。我正在使用独立虚拟机通过 Google Cloud Run 运行托管比赛运行程序。比赛回放可视化工具由 Cloudflare 静态提供。我创建了一个社区阶梯，您可以通过 CLI 向其提交策略，无需身份验证。我发现 CLI 加上可用的 Skill.md 足以让 AI 代理立即开始使用。网站：https://llmskirmish.comAPI 文档：https://llmskirmish.com/docsGitHub：https://github.com/llmskirmish/skirmish比赛视频：https://www.youtube.com/watch?v=lnBPaZ1qamM
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47149586
+积分：80
+# 条评论：26]]></description>
+      <guid>https://llmskirmish.com/</guid>
+      <pubDate>Wed, 25 Feb 2026 10:02:45 GMT</pubDate>
+    </item>
     <item>
       <title>法学硕士=正确</title>
       <link>https://blog.codemine.be/posts/2026/20260222-be-quiet/</link>
       <description><![CDATA[文章网址：https://blog.codemine.be/posts/2026/20260222-be-quiet/
 评论网址：https://news.ycombinator.com/item?id=47149151
-积分：23
-# 条评论：16]]></description>
+积分：133
+评论数量：90]]></description>
       <guid>https://blog.codemine.be/posts/2026/20260222-be-quiet/</guid>
       <pubDate>Wed, 25 Feb 2026 09:05:40 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：上下文模式 – 315 KB 的 MCP 输出在 Claude 代码中变为 5.4 KB</title>
-      <link>https://github.com/mksglu/claude-context-mode</link>
-      <description><![CDATA[每个 MCP 工具调用都会将原始数据转储到 Claude Code 的 200K 上下文窗口中。一个 Playwright 快照需要 56 KB，20 个 GitHub 问题需要 59 KB。 30 分钟后，40% 的上下文消失了。我构建了一个位于 Claude Code 和这些输出之间的 MCP 服务器。它在沙箱中处理它们并且仅返回摘要。 315 KB 变成 5.4 KB。它支持 10 种语言运行时、具有 BM25 搜索排名的 SQLite FTS5 和批量执行。减速前的会话时间从约 30 分钟缩短到约 3 小时。MIT 许可，单命令安装：/plugin market add mksglu/claude-context-mode/plugin install context-mode@claude-context-mode基准和来源：https://github.com/mksglu/claude-context-mode希望得到任何在克劳德代码中达到上下文限制的人的反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47148025
-积分：56
-# 条评论：17]]></description>
-      <guid>https://github.com/mksglu/claude-context-mode</guid>
-      <pubDate>Wed, 25 Feb 2026 06:23:30 GMT</pubDate>
+      <title>克劳德代码远程控制</title>
+      <link>https://code.claude.com/docs/en/remote-control</link>
+      <description><![CDATA[文章网址：https://code.claude.com/docs/en/remote-control
+评论网址：https://news.ycombinator.com/item?id=47148454
+积分：94
+# 条评论：63]]></description>
+      <guid>https://code.claude.com/docs/en/remote-control</guid>
+      <pubDate>Wed, 25 Feb 2026 07:22:56 GMT</pubDate>
     </item>
     <item>
       <title>GNU 查找的图灵完备性</title>
       <link>https://arxiv.org/abs/2602.20762</link>
       <description><![CDATA[文章网址：https://arxiv.org/abs/2602.20762
 评论网址：https://news.ycombinator.com/item?id=47147609
-积分：40
-# 条评论：3]]></description>
+积分：72
+# 条评论：12]]></description>
       <guid>https://arxiv.org/abs/2602.20762</guid>
       <pubDate>Wed, 25 Feb 2026 05:16:39 GMT</pubDate>
     </item>
@@ -41,8 +81,8 @@
       <link>https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/</link>
       <description><![CDATA[文章网址：https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/
 评论网址：https://news.ycombinator.com/item?id=47145963
-积分：306
-# 条评论：132]]></description>
+积分：400
+# 条评论：187]]></description>
       <guid>https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/</guid>
       <pubDate>Wed, 25 Feb 2026 01:08:46 GMT</pubDate>
     </item>
@@ -61,51 +101,10 @@
       <link>https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price</link>
       <description><![CDATA[文章网址：https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price
 评论网址：https://news.ycombinator.com/item?id=47145907
-积分：420
-# 条评论：141]]></description>
+积分：507
+# 条评论：178]]></description>
       <guid>https://www.thebignewsletter.com/p/amazon-busted-for-widespread-price</guid>
       <pubDate>Wed, 25 Feb 2026 01:00:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mercury 2：由扩散驱动的快速推理法学硕士</title>
-      <link>https://www.inceptionlabs.ai/blog/introducing-mercury-2</link>
-      <description><![CDATA[文章网址：https://www.inceptionlabs.ai/blog/introducing-mercury-2
-评论网址：https://news.ycombinator.com/item?id=47144464
-积分：219
-评论数量：97]]></description>
-      <guid>https://www.inceptionlabs.ai/blog/introducing-mercury-2</guid>
-      <pubDate>Tue, 24 Feb 2026 22:46:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>为相当偏执者提供的手机服务</title>
-      <link>https://www.cape.co/</link>
-      <description><![CDATA[文章网址：https://www.cape.co/
-评论网址：https://news.ycombinator.com/item?id=47144325
-积分：95
-评论数量：93]]></description>
-      <guid>https://www.cape.co/</guid>
-      <pubDate>Tue, 24 Feb 2026 22:37:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Moonshine Open-Weights STT 模型 – 比 WhisperLargev3 更高的精度</title>
-      <link>https://github.com/moonshine-ai/moonshine</link>
-      <description><![CDATA[我想分享我们新的语音到文本模型，以及有效使用它们的库。我们是一家小型初创公司（六个人，每月 GPU 预算低于 10 万美元），因此我对团队所做的工作感到自豪，他们创建了比 OpenAI 最大的 Whisper 模型更低的字错误率的流式 STT 模型。诚然，Large v3 已有几年历史，但我们已经接近 HF OpenASR 排行榜的榜首，甚至可以与 Nvidia 的 Parakeet 系列抗衡。不管怎样，我很想获得有关模型和软件的反馈，并了解人们可能用它构建什么。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47143755
-积分：243
-# 条评论：51]]></description>
-      <guid>https://github.com/moonshine-ai/moonshine</guid>
-      <pubDate>Tue, 24 Feb 2026 21:54:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pi – 最小的端子编码线束</title>
-      <link>https://pi.dev</link>
-      <description><![CDATA[文章网址：https://pi.dev
-评论网址：https://news.ycombinator.com/item?id=47143754
-积分：370
-# 条评论：159]]></description>
-      <guid>https://pi.dev</guid>
-      <pubDate>Tue, 24 Feb 2026 21:53:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
