@@ -4,120 +4,110 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 26 Feb 2026 15:54:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 18:53:46 GMT</lastBuildDate>
     <item>
-      <title>显示 HN：PBinder – 带有调用站点交叉引用的 DOCX/PDF 的 Python 存储库</title>
-      <link>https://pbinder.app/</link>
-      <description><![CDATA[我想离线研究大型 Python AI 存储库。打印代码有助于集中注意力，但会失去所有上下文 - 无法在不跳回屏幕的情况下跟踪函数调用。
-所以我构建了pBinder。它将 Python 存储库转换为带有可点击目录、符号索引和调用站点交叉引用的 Word 文档——每个函数调用都链接到定义该符号的位置，包括源代码行。
-可移植的 Windows EXE。不需要 Python、LaTeX 或 Docker。包括批量导出。
-诚实的限制：仅限 Windows，PDF 需要 Microsoft Word，交叉引用仅限 .py 文件。
-pbinder.app — 提供免费试用。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47167628
-积分：1
-# 条评论：0]]></description>
-      <guid>https://pbinder.app/</guid>
-      <pubDate>Thu, 26 Feb 2026 15:46:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>因帮助创建 GPS 而获得迟来的荣誉的格拉迪斯·韦斯特 (Gladys West) 去世，享年 95 岁</title>
-      <link>https://www.wsj.com/arts-culture/books/gladys-west-dies-at-95-0d5f3881</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/arts-culture/books/gladys-west-dies-at-95-0d5f3881
-评论网址：https://news.ycombinator.com/item?id=47167610
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.wsj.com/arts-culture/books/gladys-west-dies-at-95-0d5f3881</guid>
-      <pubDate>Thu, 26 Feb 2026 15:45:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：HeyAgent – 通过 Telegram 继续您的 Codex/Claude 会话</title>
-      <link>https://github.com/gergomiklos/heyagent</link>
-      <description><![CDATA[文章网址：https://github.com/gergomiklos/heyagent
-评论网址：https://news.ycombinator.com/item?id=47167602
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/gergomiklos/heyagent</guid>
-      <pubDate>Thu, 26 Feb 2026 15:44:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：检查您的项目创意是否存在的 MCP 服务器</title>
-      <link>https://github.com/mnemox-ai/idea-reality-mcp</link>
-      <description><![CDATA[我构建了一个 MCP 服务器，在开始编码之前根据 GitHub、Hacker News、npm、PyPI 和 Product Hunt 对项目想法进行现实检查。v0.3 添加了 3 阶段关键字提取管道：
-- A 阶段：停用词过滤（像“可以的工具”一样消除噪音）
-- 阶段 B：意图锚定（将模糊术语映射到可搜索关键字）
-- C阶段：同义词扩展+中英术语映射（15个领域150多个术语）之前：中文输入“宠物预约看诊app”→搜索原始中文→垃圾结果
-之后：相同的输入→“宠物预约兽医预约应用程序”→相关结果其他统计数据：
-- 204次测试，关键词提取准确率93%
-- 快速模式（GitHub + HN）~2s，深度模式（5个源并行）~3-4s
-- 零配置：`uvx idea-reality-mcp`
-- 适用于 Claude Desktop、Cursor、任何 MCP 客户端使用 Python + FastMCP + httpx 异步构建。麻省理工学院许可。GitHub：https://github.com/mnemox-ai/idea-reality-mcp
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47167598
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/mnemox-ai/idea-reality-mcp</guid>
-      <pubDate>Thu, 26 Feb 2026 15:43:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>(AI) 机器人吃了我的地图图块</title>
-      <link>https://www.vicchi.org//2026/02/21/ai-bots-ate-my-map-tiles/</link>
-      <description><![CDATA[文章网址：https://www.vicchi.org//2026/02/21/ai-bots-ate-my-map-tiles/
-评论网址：https://news.ycombinator.com/item?id=47167591
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.vicchi.org//2026/02/21/ai-bots-ate-my-map-tiles/</guid>
-      <pubDate>Thu, 26 Feb 2026 15:43:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Vibe 编码可能是 B2B SaaS 的未来</title>
-      <link>https://nmn.gl/blog/vibe-coding-future-b2b-saas</link>
-      <description><![CDATA[文章网址：https://nmn.gl/blog/vibe-coding-future-b2b-saas
-评论网址：https://news.ycombinator.com/item?id=47167589
-积分：1
-# 条评论：0]]></description>
-      <guid>https://nmn.gl/blog/vibe-coding-future-b2b-saas</guid>
-      <pubDate>Thu, 26 Feb 2026 15:43:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN: CLaaS – 根据文本反馈实时更新当地法学硕士的权重</title>
-      <link>https://github.com/kfallah/CLaaS</link>
-      <description><![CDATA[文章网址：https://github.com/kfallah/CLaaS
-评论网址：https://news.ycombinator.com/item?id=47167570
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/kfallah/CLaaS</guid>
-      <pubDate>Thu, 26 Feb 2026 15:42:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>高田安全气囊丑闻：历史上最昂贵的设计缺陷</title>
-      <link>https://www.youtube.com/watch?v=lBJW5-IDh5U</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=lBJW5-IDh5U
-评论网址：https://news.ycombinator.com/item?id=47167569
+      <title>薯条配那个？通过人工智能点餐可以选择更美味的食物</title>
+      <link>https://www.psu.edu/news/health-and-human-development/story/fries-ordering-ai-linked-selecting-more-indulgent-foods</link>
+      <description><![CDATA[文章网址：https://www.psu.edu/news/health-and- human-development/story/fries-ordering-ai-linked-selecting-more-indulgent-foods
+评论网址：https://news.ycombinator.com/item?id=47170275
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=lBJW5-IDh5U</guid>
-      <pubDate>Thu, 26 Feb 2026 15:42:04 GMT</pubDate>
+      <guid>https://www.psu.edu/news/health-and-human-development/story/fries-ordering-ai-linked-selecting-more-indulgent-foods</guid>
+      <pubDate>Thu, 26 Feb 2026 18:46:04 GMT</pubDate>
     </item>
     <item>
-      <title>2026 丰田 C-HR 首次驾驶评论：一款有趣的入门级电动汽车</title>
-      <link>https://www.thedrive.com/car-reviews/2026-toyota-c-hr-first-drive-review</link>
-      <description><![CDATA[文章网址：https://www.thedrive.com/car-reviews/2026-toyota-c-hr-first-drive-review
-评论网址：https://news.ycombinator.com/item?id=47167563
-积分：1
+      <title>通过端口转发通过 VPN“正确”传输种子</title>
+      <link>https://blog.muffn.io/posts/tunneling-torrents-over-vpn-with-port-forwarding/</link>
+      <description><![CDATA[文章网址：https://blog.muffn.io/posts/tunneling-torrents-over-vpn-with-port-forwarding/
+评论网址：https://news.ycombinator.com/item?id=47170272
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.thedrive.com/car-reviews/2026-toyota-c-hr-first-drive-review</guid>
-      <pubDate>Thu, 26 Feb 2026 15:41:46 GMT</pubDate>
+      <guid>https://blog.muffn.io/posts/tunneling-torrents-over-vpn-with-port-forwarding/</guid>
+      <pubDate>Thu, 26 Feb 2026 18:45:56 GMT</pubDate>
     </item>
     <item>
-      <title>伊朗的“黑洞”潜艇使霍尔木兹成为浅水声纳陷阱</title>
-      <link>https://modernengineeringmarvels.com/2026/02/25/irans-black-hole-subs-make-hormuz-a-shallow-water-sonar-trap/</link>
-      <description><![CDATA[文章网址：https://modernengineeringmarvels.com/2026/02/25/irans-black-hole-subs-make-hormuz-a-shallow-water-sonar-trap/
-评论网址：https://news.ycombinator.com/item?id=47167555
-积分：1
+      <title>Python 对 Elixir Phoenix 迁移故障的反应</title>
+      <link>https://mrpopov.com/posts/python-react-to-elixir-phoenix-migration-breakdown/</link>
+      <description><![CDATA[文章网址：https://mrpopov.com/posts/python-react-to-elixir-phoenix-migration-breakdown/
+评论网址：https://news.ycombinator.com/item?id=47170267
+积分：2
 # 条评论：0]]></description>
-      <guid>https://modernengineeringmarvels.com/2026/02/25/irans-black-hole-subs-make-hormuz-a-shallow-water-sonar-trap/</guid>
-      <pubDate>Thu, 26 Feb 2026 15:41:04 GMT</pubDate>
+      <guid>https://mrpopov.com/posts/python-react-to-elixir-phoenix-migration-breakdown/</guid>
+      <pubDate>Thu, 26 Feb 2026 18:45:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>我让我的经纪人互相开玩笑[视频]</title>
+      <link>https://www.youtube.com/watch?v=xWW2p_CWST4</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=xWW2p_CWST4
+评论网址：https://news.ycombinator.com/item?id=47170258
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=xWW2p_CWST4</guid>
+      <pubDate>Thu, 26 Feb 2026 18:44:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenJS 基金会：JavaScript 技术的安全而现代的家园</title>
+      <link>https://openjsf.org/</link>
+      <description><![CDATA[文章网址：https://openjsf.org/
+评论网址：https://news.ycombinator.com/item?id=47170253
+积分：3
+# 条评论：0]]></description>
+      <guid>https://openjsf.org/</guid>
+      <pubDate>Thu, 26 Feb 2026 18:44:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>湿地排水在加拿大大草原产生大量排放</title>
+      <link>https://theconversation.com/draining-wetlands-produces-substantial-emissions-in-the-canadian-prairies-273549</link>
+      <description><![CDATA[文章网址：https://theconversation.com/draining-wetlands-products-substantial-emissions-in-the-canadian-prairies-273549
+评论网址：https://news.ycombinator.com/item?id=47170206
+积分：2
+# 条评论：0]]></description>
+      <guid>https://theconversation.com/draining-wetlands-produces-substantial-emissions-in-the-canadian-prairies-273549</guid>
+      <pubDate>Thu, 26 Feb 2026 18:41:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>羽毛 – 3D 绘制</title>
+      <link>https://www.feather.art/</link>
+      <description><![CDATA[文章网址：https://www.feather.art/
+评论网址：https://news.ycombinator.com/item?id=47170202
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.feather.art/</guid>
+      <pubDate>Thu, 26 Feb 2026 18:41:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：使用 Detectron2 将 2D 平面图转换为 3D 就绪 JSON</title>
+      <link>https://www.loom.com/share/b741bc127c814db395832b01bd086e96</link>
+      <description><![CDATA[嘿 HN，在过去的几个周末，我一直在研究计算机视觉管道，以解决特定的 PropTech 问题：将凌乱、高度遮挡的 2D 平面图转换为用于 3D 挤出的干净、结构化数据。我最初将其构建为一家公司的演示。堆栈和架构我构建了一个实例分割管道，该管道严格依赖像素完美掩码来提取几何图形。主干：Swin Transformer + Detectron2 + OpenCV
+训练：使用 RTX 4090 在 1024x1024 图像上进行训练。
+推理：在 CPU 上运行时间小于 10 秒。
+演示性能：实例分割掩模的 AP50 为 67.1%，在严格的 0.50:0.95 IoU 阈值下 AP 为 38.2%。我发帖的原因：许多虚拟舞台和建筑初创公司拥有漂亮的 Three.js 渲染引擎，但仍然依赖手动数据输入来构建基本几何体。我专门将其构建为位于这些 UI 下方的提取引擎。如果您从事 PropTech 或正在构建可以从在引擎盖下嵌入此模型中受益的产品，我很乐意与您聊天。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47170196
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.loom.com/share/b741bc127c814db395832b01bd086e96</guid>
+      <pubDate>Thu, 26 Feb 2026 18:39:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>向问题记者解释</title>
+      <link>https://github.com/fsprojects/fantomas/issues/1704</link>
+      <description><![CDATA[文章网址：https://github.com/fsprojects/fantomas/issues/1704
+评论网址：https://news.ycombinator.com/item?id=47170193
+积分：2
+# 条评论：0]]></description>
+      <guid>https://github.com/fsprojects/fantomas/issues/1704</guid>
+      <pubDate>Thu, 26 Feb 2026 18:39:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Brave Search API 现在提供地点搜索功能，这是地图应用程序的新端点</title>
+      <link>https://brave.com/blog/place-search-api/</link>
+      <description><![CDATA[文章网址：https://brave.com/blog/place-search-api/
+评论网址：https://news.ycombinator.com/item?id=47170182
+积分：6
+# 条评论：0]]></description>
+      <guid>https://brave.com/blog/place-search-api/</guid>
+      <pubDate>Thu, 26 Feb 2026 18:39:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
