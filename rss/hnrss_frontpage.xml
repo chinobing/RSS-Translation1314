@@ -4,54 +4,115 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 26 Feb 2026 02:04:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 04:51:05 GMT</lastBuildDate>
     <item>
-      <title>Jane Street 遭遇 Terra $40B 内幕交易诉讼</title>
-      <link>https://www.disruptionbanking.com/2026/02/24/jane-street-hit-with-terra-40b-insider-trading-suit/</link>
-      <description><![CDATA[文章网址：https://www.disruptionbanking.com/2026/02/24/jane-street-hit-with-terra-40b-insider-trading-suit/
-评论网址：https://news.ycombinator.com/item?id=47160613
-积分：10
-# 条评论：0]]></description>
-      <guid>https://www.disruptionbanking.com/2026/02/24/jane-street-hit-with-terra-40b-insider-trading-suit/</guid>
-      <pubDate>Thu, 26 Feb 2026 01:25:49 GMT</pubDate>
+      <title>自我改进的软件不会产生天网</title>
+      <link>https://contalign.jefflunt.com/self-improving-software/</link>
+      <description><![CDATA[文章网址：https://contalign.jefflunt.com/self-improving-software/
+评论网址：https://news.ycombinator.com/item?id=47161498
+积分：7
+# 条评论：1]]></description>
+      <guid>https://contalign.jefflunt.com/self-improving-software/</guid>
+      <pubDate>Thu, 26 Feb 2026 03:36:57 GMT</pubDate>
     </item>
     <item>
-      <title>科技公司不应该被胁迫进行监控</title>
+      <title>RAM 现在占 HP PC 物料清单的 35%</title>
+      <link>https://arstechnica.com/gadgets/2026/02/ram-now-represents-35-percent-of-bill-of-materials-for-hp-pcs/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/gadgets/2026/02/ram-now-represents-35-percent-of-bill-of-materials-for-hp-pcs/
+评论网址：https://news.ycombinator.com/item?id=47161160
+积分：93
+# 条评论：35]]></description>
+      <guid>https://arstechnica.com/gadgets/2026/02/ram-now-represents-35-percent-of-bill-of-materials-for-hp-pcs/</guid>
+      <pubDate>Thu, 26 Feb 2026 02:43:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：OpenSwarm – 适用于 Linear/GitHub 的多代理 Claude CLI Orchestrator</title>
+      <link>https://github.com/Intrect-io/OpenSwarm</link>
+      <description><![CDATA[我构建 OpenSwarm 是因为我想要一个自治的“AI 开发团队”，它实际上可以插入到我的真实工作流程中，而不是运行玩具任务。
+OpenSwarm 协调多个 Claude Code CLI 实例作为代理来处理真正的线性问题。它：
+• 从 Linear 中提取问题并运行 Worker/Reviewer/Test/Documententer 管道
+• 使用 LanceDB + multilingual-e5 嵌入实现长期记忆和上下文重用
+• 构建简单的代码知识图谱以进行影响分析
+• 通过 Discord 机器人公开所有内容（状态、调度、日程安排、日志）
+• 可以自动迭代现有 PR 并监控长时间运行的作业
+现在它正在为我自己的独立开发工作流程（交易基础设施、LLM 工具、其他项目）提供支持。现在还处于早期阶段，因此在安全性、扩展性和更好的任务分解方面还存在一些粗糙的问题和大量的待办事项。
+我希望得到以下方面的反馈：
+• 感觉缺少什么才能对其他团队有用
+• 您在自主代码代理中担心的故障模式
+• 在现实世界的存储库中更好地使用内存/知识图的想法
+仓库：https://github.com/Intect-io/OpenSwarm
+很高兴回答问题并听到残酷的反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47160980
+积分：8
+# 条评论：1]]></description>
+      <guid>https://github.com/Intrect-io/OpenSwarm</guid>
+      <pubDate>Thu, 26 Feb 2026 02:19:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：ZSE – 开源 LLM 推理引擎，冷启动时间为 3.9 秒</title>
+      <link>https://github.com/Zyora-Dev/zse</link>
+      <description><![CDATA[过去几周我一直在构建 ZSE（Z 服务器引擎） - 一个开源 LLM 推理引擎，专注于没有人完全解决的两件事：内存效率和快速冷启动。我试图解决的问题：
+运行 32B 型号通常需要 ~64 GB VRAM。大多数开发者都没有这个能力。即使量化有助于提高内存，使用位和字节 NF4 进行冷启动时，首次加载需要 2 分钟以上，热重启需要 45-120 秒，这会扼杀无服务器和自动扩展用例。ZSE 的不同之处：在 19.3 GB VRAM 中容纳 32B（与 FP16 相比减少 70%）— 在单个 A100-40GB 上运行在单个 A100-40GB 上运行在 19.3 GB VRAM 中容纳 7B 5.2 GB VRAM（减少 63%）— 在消费类 GPU 上运行具有内存映射权重的原生 .zse 预量化格式：7B 冷启动 3.9 秒，32B 冷启动 21.4 秒 — 相比于位和字节 45 秒和 120 秒，vLLM 约 30 秒所有基准均在 Modal A100-80GB 上验证（2 月） 2026)它附带：兼容 OpenAI 的 API 服务器（直接替换）交互式 CLI（zse 服务、zse 聊天、zse 转换、zse 硬件）具有实时 GPU 监控的 Web 仪表板连续批处理（3.45 倍吞吐量）通过 llama.cpp 提供 GGUF 支持CPU 回退 — 无需 GPU 即可工作速率限制、审核日志记录、API 密钥验证安装：-----
+pip 安装 zllm-zse
+zse服务Qwen/Qwen2.5-7B-指令
+对于快速冷启动（一次性转换）：-----
+zse 转换 Qwen/Qwen2.5-Coder-7B-Instruct -o qwen-7b.zse
+zse 每次服务 qwen-7b.zse # 3.9s冷启动改进来自于将预量化权重存储为内存映射安全张量的 .zse 格式 - 加载时没有量化步骤，没有权重转换，只是 mmap + GPU 传输。在 NVMe SSD 上，7B 的时间不到 4 秒。在旋转 HDD 上，速度会更慢。所有代码都是真实的 - 没有模拟实现。由 Zyora 实验室构建。 Apache 2.0。很高兴回答有关量化方法、.zse 格式设计或内存效率技术的问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47160526
+积分：22
+# 条评论：1]]></description>
+      <guid>https://github.com/Zyora-Dev/zse</guid>
+      <pubDate>Thu, 26 Feb 2026 01:15:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>科技公司不应被迫进行监控</title>
       <link>https://www.eff.org/deeplinks/2026/02/tech-companies-shouldnt-be-bullied-doing-surveillance</link>
       <description><![CDATA[文章网址：https://www.eff.org/deeplinks/2026/02/tech-companies-shouldnt-be-bullied-doing-surveillance
 评论网址：https://news.ycombinator.com/item?id=47160226
-积分：34
-# 条评论：1]]></description>
+积分：136
+# 条评论：29]]></description>
       <guid>https://www.eff.org/deeplinks/2026/02/tech-companies-shouldnt-be-bullied-doing-surveillance</guid>
       <pubDate>Thu, 26 Feb 2026 00:37:32 GMT</pubDate>
     </item>
     <item>
-      <title>交换大小应为物理内存的 2 倍这一规则的由来</title>
-      <link>https://retrocomputing.stackexchange.com/questions/32492/origin-of-the-rule-that-swap-size-should-be-2x-of-the-physical-memory</link>
-      <description><![CDATA[文章网址：https://retrocomputing.stackexchange.com/questions/32492/origin-of-the-rule-that-swap-size-should-be-2x-of-the-physical-memory
-评论网址：https://news.ycombinator.com/item?id=47159364
-积分：32
-# 条评论：30]]></description>
-      <guid>https://retrocomputing.stackexchange.com/questions/32492/origin-of-the-rule-that-swap-size-should-be-2x-of-the-physical-memory</guid>
-      <pubDate>Wed, 25 Feb 2026 23:09:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>第一个网站</title>
+      <title>第一个网站 (1992)</title>
       <link>https://info.cern.ch</link>
       <description><![CDATA[文章网址：https://info.cern.ch
 评论网址：https://news.ycombinator.com/item?id=47159302
-积分：88
-# 条评论：16]]></description>
+积分：148
+# 条评论：28]]></description>
       <guid>https://info.cern.ch</guid>
       <pubDate>Wed, 25 Feb 2026 23:02:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI 将如何竞争？</title>
+      <link>https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x</link>
+      <description><![CDATA[文章网址：https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x
+评论网址：https://news.ycombinator.com/item?id=47158975
+积分：90
+# 条评论：83]]></description>
+      <guid>https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x</guid>
+      <pubDate>Wed, 25 Feb 2026 22:29:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>对 AI 生成的 3D 斜坡进行尸检</title>
+      <link>https://aircada.com/blog/ai-vs-human-3d-ecommerce</link>
+      <description><![CDATA[文章网址：https://aircada.com/blog/ai-vs- human-3d-ecommerce
+评论网址：https://news.ycombinator.com/item?id=47157841
+积分：36
+# 条评论：28]]></description>
+      <guid>https://aircada.com/blog/ai-vs-human-3d-ecommerce</guid>
+      <pubDate>Wed, 25 Feb 2026 21:05:15 GMT</pubDate>
     </item>
     <item>
       <title>通过 CLI 使 MCP 更便宜</title>
       <link>https://kanyilmaz.me/2026/02/23/cli-vs-mcp.html</link>
       <description><![CDATA[文章网址：https://kanyilmaz.me/2026/02/23/cli-vs-mcp.html
 评论网址：https://news.ycombinator.com/item?id=47157398
-积分：125
-# 条评论：61]]></description>
+积分：157
+# 条评论：76]]></description>
       <guid>https://kanyilmaz.me/2026/02/23/cli-vs-mcp.html</guid>
       <pubDate>Wed, 25 Feb 2026 20:29:37 GMT</pubDate>
     </item>
@@ -60,51 +121,10 @@
       <link>https://spectrum.ieee.org/jimi-hendrix-systems-engineer</link>
       <description><![CDATA[文章网址：https://spectrum.ieee.org/jimi-hendrix-systems-engineer
 评论网址：https://news.ycombinator.com/item?id=47157224
-积分：304
-评论数：108]]></description>
+积分：371
+# 条评论：125]]></description>
       <guid>https://spectrum.ieee.org/jimi-hendrix-systems-engineer</guid>
       <pubDate>Wed, 25 Feb 2026 20:16:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>去虚拟化和静态多态性</title>
-      <link>https://david.alvarezrosa.com/posts/devirtualization-and-static-polymorphism/</link>
-      <description><![CDATA[文章网址：https://david.alvarezrosa.com/posts/devirtualization-and-static-polymorphism/
-评论网址：https://news.ycombinator.com/item?id=47155811
-积分：36
-# 条评论：15]]></description>
-      <guid>https://david.alvarezrosa.com/posts/devirtualization-and-static-polymorphism/</guid>
-      <pubDate>Wed, 25 Feb 2026 18:41:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我将 Tree-sitter 移植到 Go</title>
-      <link>https://github.com/odvcencio/gotreesitter</link>
-      <description><![CDATA[这开始是我基于 TUI 的编辑器应用程序的硬性要求，最终走向了几个不同的方向。一套有助于处理语义代码实体的工具：https://github.com/odvcencio/gts-suite名为 Got 的下一代版本控制系统：https://github.com/odvcencio/got我认为这有相当大的潜力！我认为有许多类别的应用程序（特别是遗留架构）可以从这些类型的分析工具中受益。我的下一篇文章将把所有这些组合在一起，这是一个令人兴奋的项目，我称之为 GotHub。谢谢！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47155597
-积分：186
-# 条评论：76]]></description>
-      <guid>https://github.com/odvcencio/gotreesitter</guid>
-      <pubDate>Wed, 25 Feb 2026 18:28:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Om 编程语言</title>
-      <link>https://www.om-language.com/</link>
-      <description><![CDATA[文章网址：https://www.om-language.com/
-评论网址：https://news.ycombinator.com/item?id=47154971
-积分：230
-# 条评论：51]]></description>
-      <guid>https://www.om-language.com/</guid>
-      <pubDate>Wed, 25 Feb 2026 17:48:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Windows 11 记事本支持 Markdown</title>
-      <link>https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/</link>
-      <description><![CDATA[文章网址： https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/
-评论网址：https://news.ycombinator.com/item?id=47154399
-积分：187
-# 条评论：320]]></description>
-      <guid>https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders/</guid>
-      <pubDate>Wed, 25 Feb 2026 17:14:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
