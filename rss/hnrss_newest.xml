@@ -4,109 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 28 Feb 2026 15:23:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 18:35:34 GMT</lastBuildDate>
     <item>
-      <title>调试 Rust 软件中的再现性问题</title>
-      <link>https://notes.8pit.net/notes/iqfs.html</link>
-      <description><![CDATA[文章网址：https://notes.8pit.net/notes/iqfs.html
-评论网址：https://news.ycombinator.com/item?id=47195823
+      <title>C-梅拉</title>
+      <link>https://github.com/kiselgra/c-mera</link>
+      <description><![CDATA[文章网址：https://github.com/kiselgra/c-mera
+评论网址：https://news.ycombinator.com/item?id=47198579
 积分：1
 # 条评论：0]]></description>
-      <guid>https://notes.8pit.net/notes/iqfs.html</guid>
-      <pubDate>Sat, 28 Feb 2026 14:32:15 GMT</pubDate>
+      <guid>https://github.com/kiselgra/c-mera</guid>
+      <pubDate>Sat, 28 Feb 2026 18:25:07 GMT</pubDate>
     </item>
     <item>
-      <title>寻求有关改进我的 RAG 管道中带水印 PDF 的 OCR 的建议</title>
-      <link>https://news.ycombinator.com/item?id=47195785</link>
-      <description><![CDATA[我一直在开发一个小型 RAG 管道，并遇到了涉及 OCR 的特定技术问题。我使用 PyMuPDF 进行提取，每当 PDF 在每个页面上包含居中水印时，OCR 就会变得嘈杂 - 文本中断、伪影出现，并且输出质量下降足以影响下游的分块和检索准确性。文档在其他方面是干净的，所以我试图了解这是否是 PyMuPDF 的已知限制，或者是否有更好的方法在 OCR 之前处理带水印的 PDF。我正在使用 RTX 4000（8GB VRAM），因此我也试图保持在合理的 GPU 限制内。我真的很感激以下方面的任何想法：能够很好地处理水印的更强大的 OCR 库或模型抑制水印文本的预处理策略针对 RAG 用例的更好的提取管道或有关改进系统这一部分的任何一般建议该项目是开源的，如果有人有兴趣挖掘更深入、发现问题或做出改进，这里是存储库：GitHub：https://github.com/Hundred-Trillion/L88-Full如果您发现它有用，给存储库加注星标有助于提高可见性，以便更多具有领域专业知识的人可能会注意到它。提前感谢您提供任何见解。
+      <title>军人和退伍军人请注意：您被骗了</title>
+      <link>https://beendefrauded.substack.com/p/attention-military-members-and-veterans</link>
+      <description><![CDATA[文章网址：https://beendefrauded.substack.com/p/attention-military-members-and-veterans
+评论网址：https://news.ycombinator.com/item?id=47198538
+积分：1
+# 条评论：0]]></description>
+      <guid>https://beendefrauded.substack.com/p/attention-military-members-and-veterans</guid>
+      <pubDate>Sat, 28 Feb 2026 18:20:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>九九进行曲</title>
+      <link>https://sruthipoddutur.substack.com/p/the-march-of-nines-part-1</link>
+      <description><![CDATA[文章网址：https://sruthipoddutur.substack.com/p/the-march-of-nines-part-1
+评论网址：https://news.ycombinator.com/item?id=47198535
+积分：6
+# 条评论：0]]></description>
+      <guid>https://sruthipoddutur.substack.com/p/the-march-of-nines-part-1</guid>
+      <pubDate>Sat, 28 Feb 2026 18:20:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kbtz：用于编码代理的任务跟踪器和 TUI 工作区</title>
+      <link>https://github.com/virgil-king/kbtz</link>
+      <description><![CDATA[文章网址：https://github.com/virgil-king/kbtz
+评论网址：https://news.ycombinator.com/item?id=47198527
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/virgil-king/kbtz</guid>
+      <pubDate>Sat, 28 Feb 2026 18:19:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>在不同的克劳德代码配置文件之间切换</title>
+      <link>https://github.com/kimrgrey/claudini</link>
+      <description><![CDATA[文章网址：https://github.com/kimrgrey/claudini
+评论网址：https://news.ycombinator.com/item?id=47198518
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/kimrgrey/claudini</guid>
+      <pubDate>Sat, 28 Feb 2026 18:18:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>愿望清单：密码中的 SSH 密钥</title>
+      <link>https://sixcolors.com/post/2026/01/wish-list-ssh-keys-in-passwords/</link>
+      <description><![CDATA[文章网址：https://sixcolors.com/post/2026/01/wish-list-ssh-keys-in-passwords/
+评论网址：https://news.ycombinator.com/item?id=47198510
+积分：1
+# 条评论：0]]></description>
+      <guid>https://sixcolors.com/post/2026/01/wish-list-ssh-keys-in-passwords/</guid>
+      <pubDate>Sat, 28 Feb 2026 18:18:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tablesaw：Java 数据框架和可视化库</title>
+      <link>https://github.com/jtablesaw/tablesaw</link>
+      <description><![CDATA[文章网址：https://github.com/jtablesaw/tablesaw
+评论网址：https://news.ycombinator.com/item?id=47198505
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/jtablesaw/tablesaw</guid>
+      <pubDate>Sat, 28 Feb 2026 18:17:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>谁将指挥机器人军队？ (2016)</title>
+      <link>https://idlewords.com/talks/robot_armies.htm</link>
+      <description><![CDATA[文章网址：https://idlewords.com/talks/robot_armies.htm
+评论网址：https://news.ycombinator.com/item?id=47198503
+积分：1
+# 条评论：1]]></description>
+      <guid>https://idlewords.com/talks/robot_armies.htm</guid>
+      <pubDate>Sat, 28 Feb 2026 18:17:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我将所有私人笔记转储到法学硕士中，并告诉它为我建立一个网站</title>
+      <link>https://tresbuchet.com/</link>
+      <description><![CDATA[我一直觉得人工智能“幻觉”的概念很有趣。我们不断争论模型是否具有创造性或只是编造出来的东西，所以我想看看当你完全移除护栏时会发生什么。Tresbuchet 是一个出版实验。我将一个松散的提示连同一个充满随机文本文件、聊天日志和我多年来积累的想法的文件夹一起放入代理中。没有具体的说明，没有架构，没有关于如何设计样式的指导。我只是告诉它“开始”。它读取非结构化文本，并根据它解释数据的方式生成网站的全新迭代。跟踪不同平台（Claude、Codex、Gemini）如何以不同方式处理完全相同的混乱文本是很有趣的。我发现，与尝试提示设计特定结果相比，为模型提供更少的指令实际上会产生更有趣的 UI 和复制结果。我只是构建一些东西来看看模型在留给自己的设备时会做什么。很好奇你们对这种方法有何看法。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47195785
+评论网址：https://news.ycombinator.com/item?id=47198502
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47195785</guid>
-      <pubDate>Sat, 28 Feb 2026 14:28:43 GMT</pubDate>
+      <guid>https://tresbuchet.com/</guid>
+      <pubDate>Sat, 28 Feb 2026 18:17:21 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：600 个编程备忘单的代码片段抽认卡</title>
-      <link>https://www.cheatsheet-plus-plus.com/</link>
-      <description><![CDATA[今天，我在 CheatSheet++ (cheatsheet-plus-plus.com) 上推出涵盖所有 600 多个主题的抽认卡。主动回忆对于真正学习和记住概念（尤其是面试准备）至关重要。为了使这些对开发人员真正有用，我重点介绍了几个关键功能：包含代码片段：标准抽认卡通常文本过多。这些抽认卡背面有语法突出显示的代码示例以及概念解释。
-渐进难度：套牌从初级到高级，相应地调整问题的深度和概念的复杂性。此功能旨在与我们现有的面试问答部分配合使用，以进行全面的准备。搜索您当前正在学习的主题并尝试一下：https://cheatsheet-plus-plus.com反馈和批评非常受欢迎！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47195784
+      <title>如果代码很便宜，那么意图就是货币</title>
+      <link>https://zknill.io/posts/commit-message-intent/</link>
+      <description><![CDATA[文章网址：https://zknill.io/posts/commit-message-intent/
+评论网址：https://news.ycombinator.com/item?id=47198487
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.cheatsheet-plus-plus.com/</guid>
-      <pubDate>Sat, 28 Feb 2026 14:28:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>离线地图/路由/地理编码堆栈的硬件足迹基准</title>
-      <link>https://www.corviont.com/blog/hardware-footprint-benchmarks-methodology-and-full-results/</link>
-      <description><![CDATA[文章网址：https://www.corviont.com/blog/hardware-footprint-benchmarks-methodology-and-full-results/
-评论网址：https://news.ycombinator.com/item?id=47195766
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.corviont.com/blog/hardware-footprint-benchmarks-methodology-and-full-results/</guid>
-      <pubDate>Sat, 28 Feb 2026 14:27:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Pkgdex – 在 67 个发行版中搜索 350 万个 Linux/Unix 软件包</title>
-      <link>https://pkgdex.org/</link>
-      <description><![CDATA[文章网址：https://pkgdex.org/
-评论网址：https://news.ycombinator.com/item?id=47195765
-积分：2
-# 条评论：1]]></description>
-      <guid>https://pkgdex.org/</guid>
-      <pubDate>Sat, 28 Feb 2026 14:27:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>鲁宾天文台一晚上就发现了 80 万个感兴趣的天体`</title>
-      <link>https://www.livescience.com/space/astronomy/rubin-observatory-alerts-scientists-to-800-000-new-asteroids-exploding-stars-and-other-cosmic-phenomena-in-just-one-night</link>
-      <description><![CDATA[文章网址： https://www.livescience.com/space/astronomy/rubin-observatory-alerts-scientists-to-800-000-new-asteroids-exploding-stars-and-other-cosmic-phenomena-in-just-one-night
-评论网址：https://news.ycombinator.com/item?id=47195762
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.livescience.com/space/astronomy/rubin-observatory-alerts-scientists-to-800-000-new-asteroids-exploding-stars-and-other-cosmic-phenomena-in-just-one-night</guid>
-      <pubDate>Sat, 28 Feb 2026 14:26:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>管理员表示 OpenAI 同意所有合法使用</title>
-      <link>https://twitter.com/UnderSecretaryF/status/2027594072811098230</link>
-      <description><![CDATA[文章网址：https://twitter.com/UnderSecretaryF/status/2027594072811098230
-评论网址：https://news.ycombinator.com/item?id=47195748
-积分：2
-# 条评论：0]]></description>
-      <guid>https://twitter.com/UnderSecretaryF/status/2027594072811098230</guid>
-      <pubDate>Sat, 28 Feb 2026 14:25:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>不存在的光子会影响超导性</title>
-      <link>https://arstechnica.com/science/2026/02/photons-that-arent-actually-there-influence-superconductivity/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/science/2026/02/photons-that-arent-actually-there-influence-superconductivity/
-评论网址：https://news.ycombinator.com/item?id=47195744
-积分：1
-# 条评论：0]]></description>
-      <guid>https://arstechnica.com/science/2026/02/photons-that-arent-actually-there-influence-superconductivity/</guid>
-      <pubDate>Sat, 28 Feb 2026 14:24:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源开发者考虑让猪为每次 Git 拉取付费</title>
-      <link>https://www.theregister.com/2026/02/28/open_source_opinion/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2026/02/28/open_source_opinion/
-评论网址：https://news.ycombinator.com/item?id=47195723
-积分：2
-# 条评论：1]]></description>
-      <guid>https://www.theregister.com/2026/02/28/open_source_opinion/</guid>
-      <pubDate>Sat, 28 Feb 2026 14:22:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：用 Go 编写的 BitTorrent 客户端，无需外部依赖</title>
-      <link>https://github.com/vedantdaterao/torgo</link>
-      <description><![CDATA[文章网址：https://github.com/vedantdaterao/torgo
-评论网址：https://news.ycombinator.com/item?id=47195720
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/vedantdaterao/torgo</guid>
-      <pubDate>Sat, 28 Feb 2026 14:22:00 GMT</pubDate>
+      <guid>https://zknill.io/posts/commit-message-intent/</guid>
+      <pubDate>Sat, 28 Feb 2026 18:15:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
