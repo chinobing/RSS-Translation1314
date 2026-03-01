@@ -4,14 +4,24 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 01 Mar 2026 04:54:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 06:46:29 GMT</lastBuildDate>
+    <item>
+      <title>检测 LLM 生成的文本的科学</title>
+      <link>https://dl.acm.org/doi/10.1145/3624725</link>
+      <description><![CDATA[文章网址：https://dl.acm.org/doi/10.1145/3624725
+评论网址：https://news.ycombinator.com/item?id=47202864
+积分：13
+# 条评论：2]]></description>
+      <guid>https://dl.acm.org/doi/10.1145/3624725</guid>
+      <pubDate>Sun, 01 Mar 2026 02:09:41 GMT</pubDate>
+    </item>
     <item>
       <title>三星 Galaxy 更新删除了 Android 恢复菜单工具，包括侧面加载</title>
       <link>https://9to5google.com/2026/02/27/samsung-galaxy-update-android-recovery-menu-removed/</link>
       <description><![CDATA[文章网址：https://9to5google.com/2026/02/27/samsung-galaxy-update-android-recovery-menu-removed/
 评论网址：https://news.ycombinator.com/item?id=47202808
-积分：51
-# 条评论：7]]></description>
+积分：79
+# 条评论：15]]></description>
       <guid>https://9to5google.com/2026/02/27/samsung-galaxy-update-android-recovery-menu-removed/</guid>
       <pubDate>Sun, 01 Mar 2026 01:59:00 GMT</pubDate>
     </item>
@@ -20,20 +30,10 @@
       <link>http://karpathy.github.io/2026/02/12/microgpt/</link>
       <description><![CDATA[文章网址：http://karpathy.github.io/2026/02/12/microgpt/
 评论网址：https://news.ycombinator.com/item?id=47202708
-积分：313
-# 条评论：58]]></description>
+积分：498
+评论数量：85]]></description>
       <guid>http://karpathy.github.io/2026/02/12/microgpt/</guid>
       <pubDate>Sun, 01 Mar 2026 01:39:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 AMD Ryzen AI Max+ 集群上本地运行一万亿参数 LLM</title>
-      <link>https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html</link>
-      <description><![CDATA[文章网址： https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html
-评论网址：https://news.ycombinator.com/item?id=47202614
-积分：35
-# 条评论：5]]></description>
-      <guid>https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html</guid>
-      <pubDate>Sun, 01 Mar 2026 01:24:54 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：Xmloxy – 一种代理，用于 libxml2 的 Rust 替代品</title>
@@ -42,8 +42,8 @@
 [已知安全问题](https://gitlab.gnome.org/GNOME/libxml2/-/issues/346)。使用此软件处理不受信任的数据是愚蠢的。”。经过几天的工作，我能够创建 xmloxy，这是 libxml2 的内存安全 Rust 替代品，它通过了兼容性套件以及 W3C XML 一致性测试套件。大多数解析操作的性能相似，但序列化操作的性能更好。它带有 C API，因此可以替代 libxml2 的现有用途。- crates.io：https://crates.io/crates/xmloxy- GitHub 版本：https://github.com/jonwiggins/xmlicide/releases/tag/v0.1.0虽然我不希望人们转向这个新的、未经验证的包，但我确实认为这里有一些有趣的事情值得思考，像 Claude Code 这样的编码代理如何快速迭代给定的测试套件。随着重写变得更加容易，COBOL 和其他系统存在的遗留代码问题可能会消失。修复 CVE 和更新到更高版本的软件包的持续维护问题成为软件包管理工作中较大比例的问题。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47201816
-积分：43
-# 条评论：33]]></description>
+积分：52
+# 条评论：36]]></description>
       <guid>https://github.com/jonwiggins/xmloxide</guid>
       <pubDate>Sat, 28 Feb 2026 23:44:41 GMT</pubDate>
     </item>
@@ -52,8 +52,8 @@
       <link>https://dl.acm.org/doi/fullHtml/10.1145/238386.238611</link>
       <description><![CDATA[文章网址：https://dl.acm.org/doi/fullHtml/10.1145/238386.238611
 评论网址：https://news.ycombinator.com/item?id=47200904
-积分：181
-# 条评论：109]]></description>
+积分：218
+# 条评论：128]]></description>
       <guid>https://dl.acm.org/doi/fullHtml/10.1145/238386.238611</guid>
       <pubDate>Sat, 28 Feb 2026 22:19:36 GMT</pubDate>
     </item>
@@ -62,7 +62,7 @@
       <link>https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition</link>
       <description><![CDATA[文章网址：https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition
 评论网址：https://news.ycombinator.com/item?id=47200828
-积分：44
+积分：49
 # 条评论：7]]></description>
       <guid>https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition</guid>
       <pubDate>Sat, 28 Feb 2026 22:10:21 GMT</pubDate>
@@ -72,8 +72,8 @@
       <link>https://twitter.com/OpenAI/status/2027846016423321831</link>
       <description><![CDATA[文章网址：https://twitter.com/OpenAI/status/2027846016423321831
 评论网址：https://news.ycombinator.com/item?id=47200420
-积分：368
-# 条评论：166]]></description>
+积分：445
+# 条评论：199]]></description>
       <guid>https://twitter.com/OpenAI/status/2027846016423321831</guid>
       <pubDate>Sat, 28 Feb 2026 21:24:16 GMT</pubDate>
     </item>
@@ -82,8 +82,8 @@
       <link>https://openai.com/index/our-agreement-with-the-department-of-war</link>
       <description><![CDATA[文章网址：https://openai.com/index/our-agreement-with-the-department-of-war
 评论网址：https://news.ycombinator.com/item?id=47199948
-积分：247
-# 条评论：204]]></description>
+积分：264
+# 条评论：207]]></description>
       <guid>https://openai.com/index/our-agreement-with-the-department-of-war</guid>
       <pubDate>Sat, 28 Feb 2026 20:35:29 GMT</pubDate>
     </item>
@@ -92,8 +92,8 @@
       <link>https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance</link>
       <description><![CDATA[文章网址：https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance
 评论网址：https://news.ycombinator.com/item?id=47199781
-积分：273
-# 条评论：178]]></description>
+积分：305
+# 条评论：186]]></description>
       <guid>https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance</guid>
       <pubDate>Sat, 28 Feb 2026 20:20:00 GMT</pubDate>
     </item>
@@ -102,8 +102,8 @@
       <link>https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/</link>
       <description><![CDATA[文章网址：https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/
 评论网址：https://news.ycombinator.com/item?id=47198977
-积分：169
-# 条评论：76]]></description>
+积分：184
+评论数：84]]></description>
       <guid>https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/</guid>
       <pubDate>Sat, 28 Feb 2026 19:04:01 GMT</pubDate>
     </item>
