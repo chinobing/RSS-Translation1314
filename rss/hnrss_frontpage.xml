@@ -4,36 +4,54 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 01 Mar 2026 18:34:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 21:23:33 GMT</lastBuildDate>
     <item>
-      <title>将 AI 从原型机转变为主力的 6 项实践（14 天内 106 个 PR）</title>
-      <link>https://news.ycombinator.com/item?id=47208471</link>
-      <description><![CDATA[1. 规格和计划是源代码：规格和计划与源代码一起存在于 git 中，而不是在聊天记录中。新代理会读取 arch.md 以了解总体情况，然后读取其具体规范。你总是知道为什么要建造某些东西。2. 三个模型审查每个阶段：Claude、Gemini 和 Codex 捕获几乎完全不同的错误。没有一个模型发现的问题超过 55%。如果您只使用编写代码的模型进行审查，那么您就会错过一半的错误。发货前发现了 20 个错误。 Claude Code 发现了 5 个错误，Gemini 和 Codex 发现了另外 15 个错误，其中包括 Claude 未发现的严重安全问题。3. 强制执行流程，而不是建议。状态机强制规范→计划→实施→审查→公关。 AI 无法跳过步骤。前进之前必须通过测试。 AI 本身不会遵守计划，你需要轨道。4. 注释，不要编辑。大部分工作是编写指导代码的规范和评论，而不是在开放式聊天中破解文件。5. 代理协调代理。架构师代理将构建器代理生成到隔离的 git 工作树中。你指导建筑师；它指导建设者。他们彼此异步发送消息。6. 管理整个生命周期。大多数 AI 工具可以帮助您更快地编写代码——可能占工作量的 30%。另外 70% 正在规划如何、审查、集成、部署脚本、管理登台与生产。让人工智能运行从规范到公关等整个流程。总体结果：一名工程师能够完成 3-4 人团队通常会做的事情。按 10 分制计算，与克劳德代码相比，测量结果提高了 1.2 分。缺点：需要更长的时间，更多的代币使用，但每个 PR 1.60 美元仍然合理。我们将其开源：https://github.com/cluesmith/codev
-更多详细信息和原始结果：https://cluesmith.com/blog/a-tour-of-codevos/
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47208471
-积分：9
-# 条评论：3]]></description>
-      <guid>https://news.ycombinator.com/item?id=47208471</guid>
-      <pubDate>Sun, 01 Mar 2026 17:02:15 GMT</pubDate>
+      <title>政府如何在监视权辩论中欺骗国会 (2013)</title>
+      <link>https://www.eff.org/deeplinks/2013/06/director-national-intelligences-word-games-explained-how-government-deceived</link>
+      <description><![CDATA[文章网址：https://www.eff.org/deeplinks/2013/06/director-national-intelligences-word-games-explained-how-government-deceived
+评论网址：https://news.ycombinator.com/item?id=47210572
+积分：8
+# 条评论：0]]></description>
+      <guid>https://www.eff.org/deeplinks/2013/06/director-national-intelligences-word-games-explained-how-government-deceived</guid>
+      <pubDate>Sun, 01 Mar 2026 20:55:22 GMT</pubDate>
     </item>
     <item>
-      <title>我在 4 天内用 AI 构建了一个方案编译器</title>
-      <link>https://matthewphillips.info/programming/posts/i-built-a-scheme-compiler-with-ai/</link>
-      <description><![CDATA[文章网址：https://matthewphillips.info/programming/posts/i-built-a-scheme-compiler-with-ai/
-评论网址：https://news.ycombinator.com/item?id=47208423
-积分：12
-# 条评论：7]]></description>
-      <guid>https://matthewphillips.info/programming/posts/i-built-a-scheme-compiler-with-ai/</guid>
-      <pubDate>Sun, 01 Mar 2026 16:58:03 GMT</pubDate>
+      <title>为什么 C 拥有最好的文件 API</title>
+      <link>https://maurycyz.com/misc/c_files/</link>
+      <description><![CDATA[文章网址：https://maurycyz.com/misc/c_files/
+评论网址：https://news.ycombinator.com/item?id=47209788
+积分：3
+# 条评论：1]]></description>
+      <guid>https://maurycyz.com/misc/c_files/</guid>
+      <pubDate>Sun, 01 Mar 2026 19:25:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>运营问题 – 多种服务（阿联酋）</title>
+      <link>https://health.aws.amazon.com/health/status</link>
+      <description><![CDATA[文章网址：https://health.aws.amazon.com/health/status
+评论网址：https://news.ycombinator.com/item?id=47209781
+积分：107
+# 条评论：42]]></description>
+      <guid>https://health.aws.amazon.com/health/status</guid>
+      <pubDate>Sun, 01 Mar 2026 19:24:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Servo 一月：预加载、更好的形式、细节样式等等</title>
+      <link>https://servo.org/blog/2026/02/28/january-in-servo/</link>
+      <description><![CDATA[文章网址：https://servo.org/blog/2026/02/28/january-in-servo/
+评论网址：https://news.ycombinator.com/item?id=47208744
+积分：38
+# 条评论：3]]></description>
+      <guid>https://servo.org/blog/2026/02/28/january-in-servo/</guid>
+      <pubDate>Sun, 01 Mar 2026 17:31:29 GMT</pubDate>
     </item>
     <item>
       <title>MCP 与 CLI 相比何时有意义？</title>
       <link>https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html</link>
       <description><![CDATA[文章网址：https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html
 评论网址：https://news.ycombinator.com/item?id=47208398
-积分：55
-# 条评论：43]]></description>
+积分：137
+# 条评论：109]]></description>
       <guid>https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html</guid>
       <pubDate>Sun, 01 Mar 2026 16:54:49 GMT</pubDate>
     </item>
@@ -42,8 +60,8 @@
       <link>https://github.com/shiehn/sas-audio-processor</link>
       <description><![CDATA[文章网址：https://github.com/shiehn/sas-audio-processor
 评论网址：https://news.ycombinator.com/item?id=47207806
-积分：4
-# 条评论：1]]></description>
+积分：31
+# 条评论：3]]></description>
       <guid>https://github.com/shiehn/sas-audio-processor</guid>
       <pubDate>Sun, 01 Mar 2026 15:52:02 GMT</pubDate>
     </item>
@@ -52,8 +70,8 @@
       <link>https://taylor.town/scrapscript-001</link>
       <description><![CDATA[文章网址：https://taylor.town/scrapscript-001
 评论网址：https://news.ycombinator.com/item?id=47207531
-积分：11
-# 条评论：1]]></description>
+积分：30
+# 条评论：2]]></description>
       <guid>https://taylor.town/scrapscript-001</guid>
       <pubDate>Sun, 01 Mar 2026 15:23:42 GMT</pubDate>
     </item>
@@ -62,8 +80,8 @@
       <link>https://www.sciencedaily.com/releases/2026/02/260228093456.htm</link>
       <description><![CDATA[文章网址：https://www.sciencedaily.com/releases/2026/02/260228093456.htm
 评论网址：https://news.ycombinator.com/item?id=47207404
-积分：83
-# 条评论：21]]></description>
+积分：169
+# 条评论：60]]></description>
       <guid>https://www.sciencedaily.com/releases/2026/02/260228093456.htm</guid>
       <pubDate>Sun, 01 Mar 2026 15:09:55 GMT</pubDate>
     </item>
@@ -72,40 +90,20 @@
       <link>https://glthr.com/XML-fundamental-to-Claude</link>
       <description><![CDATA[文章网址：https://glthr.com/XML-fundamental-to-Claude
 评论网址：https://news.ycombinator.com/item?id=47207236
-积分：63
-# 条评论：28]]></description>
+积分：113
+# 条评论：67]]></description>
       <guid>https://glthr.com/XML-fundamental-to-Claude</guid>
       <pubDate>Sun, 01 Mar 2026 14:52:22 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能让编写代码变得更容易。它让成为一名工程师变得更加困难</title>
-      <link>https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/</link>
-      <description><![CDATA[文章网址：https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/
-评论网址：https://news.ycombinator.com/item?id=47206824
-积分：335
-# 条评论：238]]></description>
-      <guid>https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/</guid>
-      <pubDate>Sun, 01 Mar 2026 14:09:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>猿编码</title>
+      <title>猿编码[小说]</title>
       <link>https://rsaksida.com/blog/ape-coding/</link>
       <description><![CDATA[文章网址：https://rsaksida.com/blog/ape-coding/
 评论网址：https://news.ycombinator.com/item?id=47206798
-积分：127
-# 条评论：61]]></description>
+积分：146
+评论数：80]]></description>
       <guid>https://rsaksida.com/blog/ape-coding/</guid>
       <pubDate>Sun, 01 Mar 2026 14:07:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ghostty – 终端模拟器</title>
-      <link>https://ghostty.org/docs</link>
-      <description><![CDATA[文章网址：https://ghostty.org/docs
-评论网址：https://news.ycombinator.com/item?id=47206009
-积分：286
-评论数：136]]></description>
-      <guid>https://ghostty.org/docs</guid>
-      <pubDate>Sun, 01 Mar 2026 12:13:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
