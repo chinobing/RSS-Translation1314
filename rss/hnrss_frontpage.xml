@@ -4,14 +4,34 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 01 Mar 2026 06:46:29 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 09:30:56 GMT</lastBuildDate>
+    <item>
+      <title>切换到克劳德而不重新开始</title>
+      <link>https://claude.com/import-memory</link>
+      <description><![CDATA[文章网址：https://claude.com/import-memory
+评论网址：https://news.ycombinator.com/item?id=47204571
+积分：87
+# 条评论：51]]></description>
+      <guid>https://claude.com/import-memory</guid>
+      <pubDate>Sun, 01 Mar 2026 07:36:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>10-202：现代人工智能简介（CMU）</title>
+      <link>https://modernaicourse.org</link>
+      <description><![CDATA[文章网址：https://modernaicourse.org
+评论网址：https://news.ycombinator.com/item?id=47204559
+积分：26
+# 条评论：6]]></description>
+      <guid>https://modernaicourse.org</guid>
+      <pubDate>Sun, 01 Mar 2026 07:35:03 GMT</pubDate>
+    </item>
     <item>
       <title>检测 LLM 生成的文本的科学</title>
       <link>https://dl.acm.org/doi/10.1145/3624725</link>
       <description><![CDATA[文章网址：https://dl.acm.org/doi/10.1145/3624725
 评论网址：https://news.ycombinator.com/item?id=47202864
-积分：13
-# 条评论：2]]></description>
+积分：27
+评论数量：9]]></description>
       <guid>https://dl.acm.org/doi/10.1145/3624725</guid>
       <pubDate>Sun, 01 Mar 2026 02:09:41 GMT</pubDate>
     </item>
@@ -20,8 +40,8 @@
       <link>https://9to5google.com/2026/02/27/samsung-galaxy-update-android-recovery-menu-removed/</link>
       <description><![CDATA[文章网址：https://9to5google.com/2026/02/27/samsung-galaxy-update-android-recovery-menu-removed/
 评论网址：https://news.ycombinator.com/item?id=47202808
-积分：79
-# 条评论：15]]></description>
+积分：116
+# 条评论：28]]></description>
       <guid>https://9to5google.com/2026/02/27/samsung-galaxy-update-android-recovery-menu-removed/</guid>
       <pubDate>Sun, 01 Mar 2026 01:59:00 GMT</pubDate>
     </item>
@@ -30,50 +50,38 @@
       <link>http://karpathy.github.io/2026/02/12/microgpt/</link>
       <description><![CDATA[文章网址：http://karpathy.github.io/2026/02/12/microgpt/
 评论网址：https://news.ycombinator.com/item?id=47202708
-积分：498
-评论数量：85]]></description>
+积分：750
+# 条评论：122]]></description>
       <guid>http://karpathy.github.io/2026/02/12/microgpt/</guid>
       <pubDate>Sun, 01 Mar 2026 01:39:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Xmloxy – 一种代理，用于 libxml2 的 Rust 替代品</title>
-      <link>https://github.com/jonwiggins/xmloxide</link>
-      <description><![CDATA[最近几个人工智能实验室发表了实验，他们试图让人工智能编码代理完成大型软件项目。- Cursor 试图从头开始制作一个浏览器：https://cursor.com/blog/scaling-agents- Anthropic 试图制作一个 C 编译器：https://www.anthropic.com/engineering/building-c-compiler我一直想知道是否有软件包可以通过使用可用的测试套件和任务代理来处理项目，直到现有的测试套件通过来轻松地重现。在通过让 Claude Code 重现 redis 和 sqlite 来玩弄这个概念之后，我开始寻找代理制作的复制实际上可能有用的软件包。我发现了 libxml2，一个广泛使用的开源 C 语言库，设计用于解析、创建和操作 XML 和 HTML 文档。三个月前，随着更新，它变得不再维护，“这个项目不再维护，并且已经
-[已知安全问题](https://gitlab.gnome.org/GNOME/libxml2/-/issues/346)。使用此软件处理不受信任的数据是愚蠢的。”。经过几天的工作，我能够创建 xmloxy，这是 libxml2 的内存安全 Rust 替代品，它通过了兼容性套件以及 W3C XML 一致性测试套件。大多数解析操作的性能相似，但序列化操作的性能更好。它带有 C API，因此可以替代 libxml2 的现有用途。- crates.io：https://crates.io/crates/xmloxy- GitHub 版本：https://github.com/jonwiggins/xmlicide/releases/tag/v0.1.0虽然我不希望人们转向这个新的、未经验证的包，但我确实认为这里有一些有趣的事情值得思考，像 Claude Code 这样的编码代理如何快速迭代给定的测试套件。随着重写变得更加容易，COBOL 和其他系统存在的遗留代码问题可能会消失。修复 CVE 和更新到更高版本的软件包的持续维护问题成为软件包管理工作中较大比例的问题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47201816
-积分：52
-# 条评论：36]]></description>
-      <guid>https://github.com/jonwiggins/xmloxide</guid>
-      <pubDate>Sat, 28 Feb 2026 23:44:41 GMT</pubDate>
     </item>
     <item>
       <title>Windows 95 用户界面：可用性工程案例研究 (1996)</title>
       <link>https://dl.acm.org/doi/fullHtml/10.1145/238386.238611</link>
       <description><![CDATA[文章网址：https://dl.acm.org/doi/fullHtml/10.1145/238386.238611
 评论网址：https://news.ycombinator.com/item?id=47200904
-积分：218
-# 条评论：128]]></description>
+积分：257
+# 条评论：160]]></description>
       <guid>https://dl.acm.org/doi/fullHtml/10.1145/238386.238611</guid>
       <pubDate>Sat, 28 Feb 2026 22:19:36 GMT</pubDate>
     </item>
     <item>
-      <title>构建一个用于 10 位加法的最小变压器</title>
-      <link>https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition</link>
-      <description><![CDATA[文章网址：https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition
-评论网址：https://news.ycombinator.com/item?id=47200828
-积分：49
-# 条评论：7]]></description>
-      <guid>https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition</guid>
-      <pubDate>Sat, 28 Feb 2026 22:10:21 GMT</pubDate>
+      <title>伊朗阿亚图拉阿里·哈梅内伊在以色列袭击中丧生，结束了36年的统治</title>
+      <link>https://www.npr.org/2026/02/28/1123499337/iran-israel-ayatollah-ali-khamenei-killed</link>
+      <description><![CDATA[文章网址：https://www.npr.org/2026/02/28/1123499337/iran-israel-ayatollah-ali-khamenei-killed
+评论网址：https://news.ycombinator.com/item?id=47200879
+积分：233
+# 条评论：305]]></description>
+      <guid>https://www.npr.org/2026/02/28/1123499337/iran-israel-ayatollah-ali-khamenei-killed</guid>
+      <pubDate>Sat, 28 Feb 2026 22:16:08 GMT</pubDate>
     </item>
     <item>
       <title>我们认为人择不应被指定为供应链风险</title>
       <link>https://twitter.com/OpenAI/status/2027846016423321831</link>
       <description><![CDATA[文章网址：https://twitter.com/OpenAI/status/2027846016423321831
 评论网址：https://news.ycombinator.com/item?id=47200420
-积分：445
-# 条评论：199]]></description>
+积分：525
+评论数：247]]></description>
       <guid>https://twitter.com/OpenAI/status/2027846016423321831</guid>
       <pubDate>Sat, 28 Feb 2026 21:24:16 GMT</pubDate>
     </item>
@@ -82,8 +90,8 @@
       <link>https://openai.com/index/our-agreement-with-the-department-of-war</link>
       <description><![CDATA[文章网址：https://openai.com/index/our-agreement-with-the-department-of-war
 评论网址：https://news.ycombinator.com/item?id=47199948
-积分：264
-# 条评论：207]]></description>
+积分：296
+# 条评论：217]]></description>
       <guid>https://openai.com/index/our-agreement-with-the-department-of-war</guid>
       <pubDate>Sat, 28 Feb 2026 20:35:29 GMT</pubDate>
     </item>
@@ -92,20 +100,10 @@
       <link>https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance</link>
       <description><![CDATA[文章网址：https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance
 评论网址：https://news.ycombinator.com/item?id=47199781
-积分：305
-# 条评论：186]]></description>
+积分：350
+# 条评论：201]]></description>
       <guid>https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance</guid>
       <pubDate>Sat, 28 Feb 2026 20:20:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>阻止“升级到 Tahoe”警报</title>
-      <link>https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/</link>
-      <description><![CDATA[文章网址：https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/
-评论网址：https://news.ycombinator.com/item?id=47198977
-积分：184
-评论数：84]]></description>
-      <guid>https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/</guid>
-      <pubDate>Sat, 28 Feb 2026 19:04:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
