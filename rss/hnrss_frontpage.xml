@@ -4,107 +4,108 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 28 Feb 2026 21:22:13 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 02:22:33 GMT</lastBuildDate>
+    <item>
+      <title>仅仅两天的燕麦片就可以将坏胆固醇降低 10%</title>
+      <link>https://www.sciencedaily.com/releases/2026/02/260225081217.htm</link>
+      <description><![CDATA[文章网址：https://www.sciencedaily.com/releases/2026/02/260225081217.htm
+评论网址：https://news.ycombinator.com/item?id=47202734
+积分：8
+# 条评论：2]]></description>
+      <guid>https://www.sciencedaily.com/releases/2026/02/260225081217.htm</guid>
+      <pubDate>Sun, 01 Mar 2026 01:43:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>微晶石</title>
+      <link>http://karpathy.github.io/2026/02/12/microgpt/</link>
+      <description><![CDATA[文章网址：http://karpathy.github.io/2026/02/12/microgpt/
+评论网址：https://news.ycombinator.com/item?id=47202708
+积分：5
+# 条评论：0]]></description>
+      <guid>http://karpathy.github.io/2026/02/12/microgpt/</guid>
+      <pubDate>Sun, 01 Mar 2026 01:39:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 AMD Ryzen AI Max+ 集群上本地运行一万亿参数 LLM</title>
+      <link>https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html</link>
+      <description><![CDATA[文章网址： https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html
+评论网址：https://news.ycombinator.com/item?id=47202614
+积分：9
+# 条评论：2]]></description>
+      <guid>https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-run-a-one-trillion-parameter-llm-locally-an-amd.html</guid>
+      <pubDate>Sun, 01 Mar 2026 01:24:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>五角大楼负责人封锁常春藤盟校和顶尖大学的官员</title>
+      <link>https://fortune.com/2026/02/28/pentagon-officer-education-ivy-league-schools-universities-partners-ai-space/</link>
+      <description><![CDATA[文章网址：https://fortune.com/2026/02/28/pentagon-officer-education-ivy-league-schools-universities-partners-ai-space/
+评论网址：https://news.ycombinator.com/item?id=47201882
+积分：53
+# 条评论：18]]></description>
+      <guid>https://fortune.com/2026/02/28/pentagon-officer-education-ivy-league-schools-universities-partners-ai-space/</guid>
+      <pubDate>Sat, 28 Feb 2026 23:51:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Xmloxy – 一种代理，用于 libxml2 的 Rust 替代品</title>
+      <link>https://github.com/jonwiggins/xmloxide</link>
+      <description><![CDATA[最近几个人工智能实验室发表了实验，他们试图让人工智能编码代理完成大型软件项目。- Cursor 试图从头开始制作一个浏览器：https://cursor.com/blog/scaling-agents- Anthropic 试图制作一个 C 编译器：https://www.anthropic.com/engineering/building-c-compiler我一直想知道是否有软件包可以通过使用可用的测试套件和任务代理来处理项目，直到现有的测试套件通过来轻松地重现。在通过让 Claude Code 重现 redis 和 sqlite 来玩弄这个概念之后，我开始寻找代理制作的复制实际上可能有用的软件包。我发现了 libxml2，一个广泛使用的开源 C 语言库，设计用于解析、创建和操作 XML 和 HTML 文档。三个月前，随着更新，它变得不再维护，“这个项目不再维护，并且已经
+[已知安全问题](https://gitlab.gnome.org/GNOME/libxml2/-/issues/346)。使用此软件处理不受信任的数据是愚蠢的。”。经过几天的工作，我能够创建 xmloxy，这是 libxml2 的内存安全 Rust 替代品，它通过了兼容性套件以及 W3C XML 一致性测试套件。大多数解析操作的性能相似，但序列化操作的性能更好。它带有 C API，因此可以替代 libxml2 的现有用途。- crates.io：https://crates.io/crates/xmloxy- GitHub 版本：https://github.com/jonwiggins/xmlicide/releases/tag/v0.1.0虽然我不希望人们转向这个新的、未经验证的包，但我确实认为这里有一些有趣的事情值得思考，像 Claude Code 这样的编码代理如何快速迭代给定的测试套件。随着重写变得更加容易，COBOL 和其他系统存在的遗留代码问题可能会消失。修复 CVE 和更新到更高版本的软件包的持续维护问题成为软件包管理工作中较大比例的问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47201816
+积分：23
+# 条评论：14]]></description>
+      <guid>https://github.com/jonwiggins/xmloxide</guid>
+      <pubDate>Sat, 28 Feb 2026 23:44:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Windows 95 用户界面：可用性工程案例研究 (1996)</title>
+      <link>https://dl.acm.org/doi/fullHtml/10.1145/238386.238611</link>
+      <description><![CDATA[文章网址：https://dl.acm.org/doi/fullHtml/10.1145/238386.238611
+评论网址：https://news.ycombinator.com/item?id=47200904
+积分：135
+# 条评论：75]]></description>
+      <guid>https://dl.acm.org/doi/fullHtml/10.1145/238386.238611</guid>
+      <pubDate>Sat, 28 Feb 2026 22:19:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建一个用于 10 位加法的最小变压器</title>
+      <link>https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition</link>
+      <description><![CDATA[文章网址：https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition
+评论网址：https://news.ycombinator.com/item?id=47200828
+积分：36
+# 条评论：6]]></description>
+      <guid>https://alexlitzenberger.com/blog/post.html?post=/building_a_minimal_transformer_for_10_digit_addition</guid>
+      <pubDate>Sat, 28 Feb 2026 22:10:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们认为人择不应被指定为供应链风险</title>
+      <link>https://twitter.com/OpenAI/status/2027846016423321831</link>
+      <description><![CDATA[文章网址：https://twitter.com/OpenAI/status/2027846016423321831
+评论网址：https://news.ycombinator.com/item?id=47200420
+积分：243
+# 条评论：101]]></description>
+      <guid>https://twitter.com/OpenAI/status/2027846016423321831</guid>
+      <pubDate>Sat, 28 Feb 2026 21:24:16 GMT</pubDate>
+    </item>
     <item>
       <title>我们与陆军部的协议</title>
       <link>https://openai.com/index/our-agreement-with-the-department-of-war</link>
       <description><![CDATA[文章网址：https://openai.com/index/our-agreement-with-the-department-of-war
 评论网址：https://news.ycombinator.com/item?id=47199948
-积分：19
-# 条评论：11]]></description>
+积分：216
+# 条评论：193]]></description>
       <guid>https://openai.com/index/our-agreement-with-the-department-of-war</guid>
       <pubDate>Sat, 28 Feb 2026 20:35:29 GMT</pubDate>
     </item>
     <item>
-      <title>阻止“升级到 Tahoe”警报</title>
-      <link>https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/</link>
-      <description><![CDATA[文章网址：https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/
-评论网址：https://news.ycombinator.com/item?id=47198977
-积分：4
-# 条评论：0]]></description>
-      <guid>https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/</guid>
-      <pubDate>Sat, 28 Feb 2026 19:04:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>验证规范驱动开发 (VSDD)</title>
-      <link>https://gist.github.com/dollspace-gay/d8d3bc3ecf4188df049d7a4726bb2a00</link>
-      <description><![CDATA[文章网址：https://gist.github.com/dollspace-gay/d8d3bc3ecf4188df049d7a4726bb2a00
-评论网址：https://news.ycombinator.com/item?id=47197595
-积分：96
-# 条评论：43]]></description>
-      <guid>https://gist.github.com/dollspace-gay/d8d3bc3ecf4188df049d7a4726bb2a00</guid>
-      <pubDate>Sat, 28 Feb 2026 16:58:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>整件事都是一场骗局</title>
-      <link>https://garymarcus.substack.com/p/the-whole-thing-was-scam</link>
-      <description><![CDATA[文章网址：https://garymarcus.substack.com/p/the-whole-thing-was-scam
-评论网址：https://news.ycombinator.com/item?id=47197505
-积分：303
-评论数：89]]></description>
-      <guid>https://garymarcus.substack.com/p/the-whole-thing-was-scam</guid>
-      <pubDate>Sat, 28 Feb 2026 16:51:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>Obsidian Sync 现在有一个无头客户端</title>
-      <link>https://help.obsidian.md/sync/headless</link>
-      <description><![CDATA[文章网址：https://help.obsidian.md/sync/headless
-评论网址：https://news.ycombinator.com/item?id=47197267
-积分：251
-# 条评论：101]]></description>
-      <guid>https://help.obsidian.md/sync/headless</guid>
-      <pubDate>Sat, 28 Feb 2026 16:31:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>解决反重力禁令并恢复访问</title>
-      <link>https://github.com/google-gemini/gemini-cli/discussions/20632</link>
-      <description><![CDATA[文章网址：https://github.com/google-gemini/gemini-cli/discussions/20632
-评论网址：https://news.ycombinator.com/item?id=47195371
-积分：157
-# 条评论：133]]></description>
-      <guid>https://github.com/google-gemini/gemini-cli/discussions/20632</guid>
-      <pubDate>Sat, 28 Feb 2026 13:50:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 因预测市场内幕交易而解雇一名员工</title>
-      <link>https://www.wired.com/story/openai-fires-employee-insider-trading-polymarket-kalshi/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/openai-fires-employee-insider-trading-polymarket-kalshi/
-评论网址：https://news.ycombinator.com/item?id=47195317
-积分：226
-# 条评论：128]]></description>
-      <guid>https://www.wired.com/story/openai-fires-employee-insider-trading-polymarket-kalshi/</guid>
-      <pubDate>Sat, 28 Feb 2026 13:46:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>货币的生命周期</title>
-      <link>https://doap.metal.bohyen.space/blog/post/complete-life-cycle-of-money/</link>
-      <description><![CDATA[文章网址：https://doap.metal.bohyen.space/blog/post/complete-life-cycle-of-money/
-评论网址：https://news.ycombinator.com/item?id=47195157
-积分：64
-# 条评论：12]]></description>
-      <guid>https://doap.metal.bohyen.space/blog/post/complete-life-cycle-of-money/</guid>
-      <pubDate>Sat, 28 Feb 2026 13:32:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：现在我明白了——将科学论文翻译成交互式网页</title>
-      <link>https://nowigetit.us</link>
-      <description><![CDATA[理解科学文章可能很困难，即使在您自己的领域也是如此。试图理解别人的文章？祝你好运。输入，现在我明白了！我为好奇的人制作了这个应用程序。只需上传一篇文章，几分钟后您就会看到一个展示亮点的交互式网页。生成的页面存储在云端，可以从图库中查看。现在我明白了！使用最好的法学硕士，这意味着该应用程序将随着人工智能的改进而改进。目前免费 - 每天最多 20 篇文章，这样我就不会烧钱。我（也许你会）发现一些有趣的事情：* 这是一个纯粹的便利应用程序。我也可以使用 Claude 中保存的提示，但有时拥有一个专注于利基市场的应用程序会很好。 IMO，这只是认知上更容易。* 该应用程序是为我自己和各个科学领域的同事构建的。阅读一篇详细的论文可能需要一个小时或更长时间，所以这就像一个入口。* 该应用程序是我尝试使用法学硕士将科学文章翻译成软件的地方。这个空间充满了可能性。* 应用程序中的所有内容都是代理工程的结果，例如计划、规格、任务、执行循环。我非常信赖 Yegge 的 Beads (https://github.com/steveyegge/beads)，并且大量使用 Beads Viewer (https://news.ycombinator.com/item?id=46314423）和破坏性命令卫士（https://news.ycombinator.com/item?id=46835674)，作者：Jeffrey Emanuel。* 我是 AWS 粉丝，Opus 编写优秀 CFN 的能力给我留下了深刻的印象。它仍然需要大量有关分布式架构的指导，但比去年好多了。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47195123
-积分：136
-评论数：88]]></description>
-      <guid>https://nowigetit.us</guid>
-      <pubDate>Sat, 28 Feb 2026 13:29:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>不要相信人工智能代理</title>
-      <link>https://nanoclaw.dev/blog/nanoclaw-security-model</link>
-      <description><![CDATA[文章网址：https://nanoclaw.dev/blog/nanoclaw-security-model
-评论网址：https://news.ycombinator.com/item?id=47194611
-积分：281
-# 条评论：163]]></description>
-      <guid>https://nanoclaw.dev/blog/nanoclaw-security-model</guid>
-      <pubDate>Sat, 28 Feb 2026 12:39:32 GMT</pubDate>
+      <title>Qwen3.5 122B 和 35B 型号在本地计算机上提供 Sonnet 4.5 性能</title>
+      <link>https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance</link>
+      <description><![CDATA[文章网址：https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance
+评论网址：https://news.ycombinator.com/item?id=47199781
+积分：220
+# 条评论：142]]></description>
+      <guid>https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance</guid>
+      <pubDate>Sat, 28 Feb 2026 20:20:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
