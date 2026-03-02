@@ -4,24 +4,92 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 02 Mar 2026 06:58:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 09:51:11 GMT</lastBuildDate>
+    <item>
+      <title>/e/OS 是一个完整的“deGoogled”移动生态系统</title>
+      <link>https://e.foundation/e-os/</link>
+      <description><![CDATA[文章网址：https://e.foundation/e-os/
+评论网址：https://news.ycombinator.com/item?id=47215489
+积分：5
+# 条评论：0]]></description>
+      <guid>https://e.foundation/e-os/</guid>
+      <pubDate>Mon, 02 Mar 2026 09:09:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Omni – 基于 Postgres 构建的开源工作场所搜索和聊天</title>
+      <link>https://github.com/getomnico/omni</link>
+      <description><![CDATA[嘿 HN！在过去的几个月里，我一直致力于构建 Omni - 一个工作场所搜索和聊天平台，可连接到 Google Drive/Gmail、Slack、Confluence 等应用程序。本质上是 Glean 的开源替代品，完全自托管。我注意到一些组织发现 Glean 成本高昂且可扩展性较差。我想构建一些中小型团队可以自行运行的东西，所以我决定将其全部构建在 Postgres（准确地说是 ParadeDB）和 pgvector 上。没有 Elasticsearch 或专用矢量数据库。我认为 Postgres 完全有能力处理所需的规模水平。要在自己的基础设施上启动 Omni，只需要一个“docker compose up”，以及一些连接应用程序和 LLM 的基本配置。它的作用：- 同步所有连接应用程序的数据并构建 BM25 索引 (ParadeDB) 和 HNSW 矢量索引 (pgvector)
+- 混合搜索结合了两者的结果
+- 聊天 UI，LLM 具有搜索索引的工具 - 不仅仅是基本的 RAG
+- 传统搜索用户界面
+- 用户自带LLM提供商（OpenAI/Anthropic/Gemini）
+- 适用于 Google Workspace、Slack、Confluence、Jira、HubSpot 等的连接器
+- 用于构建您自己的自定义连接器的连接器 SDKOmni 目前处于测试阶段，我希望得到您的反馈，尤其是以下方面的反馈：- 有人尝试过自托管工作场所搜索和/或 AI 工具吗？您的体验如何？
+- 对更大规模的纯 Postgres 方法有任何疑问吗？很高兴回答任何问题！代码：https://github.com/getomnico/omni（Apache 2.0 许可）
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47215427
+积分：12
+# 条评论：1]]></description>
+      <guid>https://github.com/getomnico/omni</guid>
+      <pubDate>Mon, 02 Mar 2026 08:58:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何与任何人交谈以及为什么应该</title>
+      <link>https://www.theguardian.com/lifeandstyle/2026/feb/24/stranger-secret-how-to-talk-to-anyone-why-you-should</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/lifeandstyle/2026/feb/24/stranger-secret-how-to-talk-to-anyone-why-you-should
+评论网址：https://news.ycombinator.com/item?id=47214864
+积分：23
+评论数：262]]></description>
+      <guid>https://www.theguardian.com/lifeandstyle/2026/feb/24/stranger-secret-how-to-talk-to-anyone-why-you-should</guid>
+      <pubDate>Mon, 02 Mar 2026 07:30:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>摩托罗拉宣布与 GrapheneOS 基金会建立合作伙伴关系</title>
+      <link>https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/</link>
+      <description><![CDATA[文章网址：https://motorolanews.com/motorola- Three-new-b2b-solutions-at-mwc-2026/
+评论网址：https://news.ycombinator.com/item?id=47214645
+积分：439
+评论数量：134]]></description>
+      <guid>https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/</guid>
+      <pubDate>Mon, 02 Mar 2026 06:48:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>椭圆曲线密码学的交互式介绍</title>
+      <link>https://growingswe.com/blog/elliptic-curve-cryptography</link>
+      <description><![CDATA[文章网址：https://grindingswe.com/blog/elliptic-curve-cryptography
+评论网址：https://news.ycombinator.com/item?id=47214367
+积分：21
+# 条评论：8]]></description>
+      <guid>https://growingswe.com/blog/elliptic-curve-cryptography</guid>
+      <pubDate>Mon, 02 Mar 2026 05:59:03 GMT</pubDate>
+    </item>
     <item>
       <title>人类大脑活动的心理内容描述性文本的演变</title>
       <link>https://www.bbc.com/future/article/20260226-how-ai-can-read-your-thoughts</link>
       <description><![CDATA[文章网址：https://www.bbc.com/future/article/20260226-how-ai-can-read-your-thoughts
 评论网址：https://news.ycombinator.com/item?id=47214250
-积分：12
-# 条评论：2]]></description>
+积分：22
+# 条评论：15]]></description>
       <guid>https://www.bbc.com/future/article/20260226-how-ai-can-read-your-thoughts</guid>
       <pubDate>Mon, 02 Mar 2026 05:39:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>基于进程的并发：为什么 Beam 和 OTP 一直是正确的</title>
+      <link>https://variantsystems.io/blog/beam-otp-process-concurrency</link>
+      <description><![CDATA[文章网址：https://variantsystems.io/blog/beam-otp-process-concurrency
+评论网址：https://news.ycombinator.com/item?id=47214063
+积分：31
+# 条评论：20]]></description>
+      <guid>https://variantsystems.io/blog/beam-otp-process-concurrency</guid>
+      <pubDate>Mon, 02 Mar 2026 05:01:08 GMT</pubDate>
     </item>
     <item>
       <title>计算机生成的梦想世界：286 处理器的虚拟现实</title>
       <link>https://deadlime.hu/en/2026/02/22/computer-generated-dream-world/</link>
       <description><![CDATA[文章网址：https://deadlime.hu/en/2026/02/22/computer- generated-dream-world/
 评论网址：https://news.ycombinator.com/item?id=47213866
-积分：60
-# 条评论：2]]></description>
+积分：101
+# 条评论：13]]></description>
       <guid>https://deadlime.hu/en/2026/02/22/computer-generated-dream-world/</guid>
       <pubDate>Mon, 02 Mar 2026 04:23:53 GMT</pubDate>
     </item>
@@ -30,8 +98,8 @@
       <link>https://ellanew.com/2026/03/02/ptpl-197-record-retrieve-from-a-personal-knowledgebase</link>
       <description><![CDATA[文章网址：https://ellanew.com/2026/03/02/ptpl-197-record-retrieve-from-a-personal-knowledgebase
 评论网址：https://news.ycombinator.com/item?id=47213819
-积分：19
-# 条评论：6]]></description>
+积分：47
+# 条评论：20]]></description>
       <guid>https://ellanew.com/2026/03/02/ptpl-197-record-retrieve-from-a-personal-knowledgebase</guid>
       <pubDate>Mon, 02 Mar 2026 04:15:16 GMT</pubDate>
     </item>
@@ -40,70 +108,10 @@
       <link>https://www.wltx.com/article/news/nation-world/281-53d8693e-77a4-42ad-86e4-3426a30d25ae</link>
       <description><![CDATA[文章网址： https://www.wltx.com/article/news/nation-world/281-53d8693e-77a4-42ad-86e4-3426a30d25ae
 评论网址：https://news.ycombinator.com/item?id=47213764
-积分：157
-# 条评论：27]]></description>
+积分：234
+# 条评论：51]]></description>
       <guid>https://www.wltx.com/article/news/nation-world/281-53d8693e-77a4-42ad-86e4-3426a30d25ae</guid>
       <pubDate>Mon, 02 Mar 2026 04:06:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Timber – 用于经典 ML 模型的 Ollama，比 Python 快 336 倍</title>
-      <link>https://github.com/kossisoroyce/timber</link>
-      <description><![CDATA[文章网址：https://github.com/kossisoroyce/timber
-评论网址：https://news.ycombinator.com/item?id=47212576
-积分：100
-# 条评论：11]]></description>
-      <guid>https://github.com/kossisoroyce/timber</guid>
-      <pubDate>Mon, 02 Mar 2026 00:57:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果 AI 编写代码，会话是否应该成为提交的一部分？</title>
-      <link>https://github.com/mandel-macaque/memento</link>
-      <description><![CDATA[文章网址：https://github.com/mandel-macaque/memento
-评论网址：https://news.ycombinator.com/item?id=47212355
-积分：148
-# 条评论：169]]></description>
-      <guid>https://github.com/mandel-macaque/memento</guid>
-      <pubDate>Mon, 02 Mar 2026 00:27:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>根据系统的 RAM、CPU 和 GPU 调整 LLM 模型的大小</title>
-      <link>https://github.com/AlexsJones/llmfit</link>
-      <description><![CDATA[文章网址：https://github.com/AlexsJones/llmfit
-评论网址：https://news.ycombinator.com/item?id=47211830
-积分：93
-# 条评论：22]]></description>
-      <guid>https://github.com/AlexsJones/llmfit</guid>
-      <pubDate>Sun, 01 Mar 2026 23:15:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>小免费图书馆</title>
-      <link>https://littlefreelibrary.org/</link>
-      <description><![CDATA[文章网址：https://littlefreelibrary.org/
-评论网址：https://news.ycombinator.com/item?id=47211280
-积分：103
-# 条评论：48]]></description>
-      <guid>https://littlefreelibrary.org/</guid>
-      <pubDate>Sun, 01 Mar 2026 22:18:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>WebMCP 可供早期预览</title>
-      <link>https://developer.chrome.com/blog/webmcp-epp</link>
-      <description><![CDATA[文章网址：https://developer.chrome.com/blog/webmcp-epp
-评论网址：https://news.ycombinator.com/item?id=47211249
-积分：253
-# 条评论：137]]></description>
-      <guid>https://developer.chrome.com/blog/webmcp-epp</guid>
-      <pubDate>Sun, 01 Mar 2026 22:13:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>你不必</title>
-      <link>https://www.scottsmitelli.com/articles/you-dont-have-to/</link>
-      <description><![CDATA[文章网址：https://www.scottsmitelli.com/articles/you-dont-have-to/
-评论网址：https://news.ycombinator.com/item?id=47211029
-积分：76
-# 条评论：35]]></description>
-      <guid>https://www.scottsmitelli.com/articles/you-dont-have-to/</guid>
-      <pubDate>Sun, 01 Mar 2026 21:47:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
