@@ -4,106 +4,111 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 03 Mar 2026 12:59:04 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 15:47:51 GMT</lastBuildDate>
     <item>
-      <title>英国将禁止描绘继亲之间性行为的色情片</title>
-      <link>https://www.lbc.co.uk/article/pornography-sexual-relationships-step-relatives-5HjdTkd_2/</link>
-      <description><![CDATA[文章网址：https://www.lbc.co.uk/article/pornography- Sex-relationships-step-relatives-5HjdTkd_2/
-评论网址：https://news.ycombinator.com/item?id=47231503
+      <title>佛罗里达州公立大学暂停雇用新的 H-1B 员工</title>
+      <link>https://www.wusf.org/education/2026-03-03/hiring-h1b-workers-florida-public-universities-pause-end-of-year</link>
+      <description><![CDATA[文章网址：https://www.wusf.org/education/2026-03-03/hiring-h1b-workers-florida-public-universities-pause-end-of-year
+评论网址：https://news.ycombinator.com/item?id=47233044
 积分：12
 # 条评论：3]]></description>
-      <guid>https://www.lbc.co.uk/article/pornography-sexual-relationships-step-relatives-5HjdTkd_2/</guid>
-      <pubDate>Tue, 03 Mar 2026 12:45:13 GMT</pubDate>
+      <guid>https://www.wusf.org/education/2026-03-03/hiring-h1b-workers-florida-public-universities-pause-end-of-year</guid>
+      <pubDate>Tue, 03 Mar 2026 14:39:22 GMT</pubDate>
     </item>
     <item>
-      <title>印度最高法院对初级法官引用人工智能生成的虚假命令感到愤怒</title>
-      <link>https://www.bbc.com/news/articles/c178zzw780xo</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c178zzw780xo
-评论网址：https://news.ycombinator.com/item?id=47231261
-积分：10
-# 条评论：1]]></description>
-      <guid>https://www.bbc.com/news/articles/c178zzw780xo</guid>
-      <pubDate>Tue, 03 Mar 2026 12:13:40 GMT</pubDate>
+      <title>推出 HN：Cekura (YC F24) – 测试和监控语音和聊天 AI 代理</title>
+      <link>https://news.ycombinator.com/item?id=47232903</link>
+      <description><![CDATA[嘿 HN - 我们是来自 Cekura (https://www.cekura.ai) 的 Tarush、Sidhant 和 Shashij。我们运行语音代理模拟已经有 1.5 年了，最近将相同的基础设施扩展到聊天领域。团队使用 Cekura 模拟真实的用户对话、压力测试提示和 LLM 行为，并在投入生产之前捕获回归。核心问题：您无法手动对 AI 代理进行 QA。当您发布新的提示、交换模型或添加工具时，您如何知道代理在用户与之交互的数千种方式中仍然可以正确运行？
+大多数团队采用手动抽查（无法扩展）、等待用户投诉（为时已晚）或脆弱的脚本测试。我们的答案是模拟：合成用户以真实用户的方式与您的代理交互，基于 LLM 的法官评估其响应是否正确 - 在整个对话弧上，而不仅仅是单轮。
+三件事使其真正发挥作用：
+场景生成 + 真实对话导入 - 我们的场景生成代理根据代理的描述引导您的测试套件。但真正的用户会找到生成器无法预料的路径，因此我们还会提取您的生产对话并自动从中提取测试用例。您的覆盖范围随着用户的变化而变化。模拟工具平台 - 代理调用工具。针对真实 API 运行模拟速度缓慢且不稳定。我们的模拟工具平台可让您定义工具模式、行为和返回值，因此模拟可以在不接触生产系统的情况下进行工具选择和决策。确定性、结构化测试用例 - LLM 是随机的。 “大多数时候”通过的 CI 测试是没有用的。我们的评估器不是自由形式的提示，而是被定义为结构化条件操作树：触发特定响应的显式条件，并在逐字精度很重要时支持固定消息。这意味着合成用户在运行中表现一致 - 相同的分支逻辑、相同的输入 - 因此失败是真正的回归，而不是噪音。Cekura 还监控您的实时代理流量。这里明显的替代方案是像 Langfuse 或 LangSmith 这样的跟踪平台 - 它们是调试单个 LLM 调用的绝佳工具。但对话代理有不同的故障模式：错误不在于任何单个回合，而在于回合之间的相互关系。在继续之前，采取需要姓名、出生日期和电话号码的验证流程 - 如果代理跳过询问出生日期并继续前进，那么每个单独的回合看起来都很好。仅当您将整个会话作为一个单元进行评估时，失败才会变得可见。 Cekura 是围绕这一点从头开始构建的。
+跟踪平台轮流评估，而 Cekura 评估整个会话。想象一个银行代理，用户在步骤 1 中验证失败，但代理产生幻觉并继续进行。回合制评估员看到步骤 3（地址确认）并将其标记为绿色 - 提出了正确的问题。 Cekura 的法官看到完整的成绩单，并将会话标记为失败，因为验证从未成功。在 https://www.cekura.ai 上试用我们 - 7 天免费试用，无需信用卡。付费套餐 30 美元/月起。如果您想观看实际效果，我们还制作了一个产品视频：https://www.youtube.com/watch?v=n8FFKv1-nMw。第一分钟深入介绍快速入门 - 如果您想直接跳到结果，请跳到 8:40。很好奇 HN 社区正在做什么 - 您如何测试代理的行为回归？哪些故障模式对您的伤害最大？很高兴在下面深入挖掘！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47232903
+积分：13
+# 条评论：2]]></description>
+      <guid>https://news.ycombinator.com/item?id=47232903</guid>
+      <pubDate>Tue, 03 Mar 2026 14:30:58 GMT</pubDate>
     </item>
     <item>
-      <title>Mulvad VPN：伦敦街头被禁止的电视广告 [视频]</title>
-      <link>https://www.youtube.com/watch?v=rwhznrpgl7k</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=rwhznrpgl7k
-评论网址：https://news.ycombinator.com/item?id=47231242
-积分：39
-# 条评论：13]]></description>
-      <guid>https://www.youtube.com/watch?v=rwhznrpgl7k</guid>
-      <pubDate>Tue, 03 Mar 2026 12:09:59 GMT</pubDate>
+      <title>我不愿意在任何在线服务中验证我的身份或年龄</title>
+      <link>https://neilzone.co.uk/2026/03/im-struggling-to-think-of-any-online-services-for-which-id-be-willing-to-verify-my-identity-or-age/</link>
+      <description><![CDATA[文章网址： https://neilzone.co.uk/2026/03/im-struggling-to-think-of-any-online-services-for-which-id-be-willing-to-verify-my-identity-or-age/
+评论网址：https://news.ycombinator.com/item?id=47232768
+积分：161
+# 条评论：60]]></description>
+      <guid>https://neilzone.co.uk/2026/03/im-struggling-to-think-of-any-online-services-for-which-id-be-willing-to-verify-my-identity-or-age/</guid>
+      <pubDate>Tue, 03 Mar 2026 14:22:25 GMT</pubDate>
     </item>
     <item>
-      <title>Xkcd 的东西，现在是交互式的</title>
-      <link>https://editor.p5js.org/isohedral/full/vJa5RiZWs</link>
-      <description><![CDATA[文章网址：https://editor.p5js.org/isohedral/full/vJa5RiZWs
-评论网址：https://news.ycombinator.com/item?id=47230704
-积分：190
-# 条评论：19]]></description>
-      <guid>https://editor.p5js.org/isohedral/full/vJa5RiZWs</guid>
-      <pubDate>Tue, 03 Mar 2026 10:56:52 GMT</pubDate>
+      <title>不要成为工程经理</title>
+      <link>https://newsletter.manager.dev/p/dont-become-an-engineering-manager</link>
+      <description><![CDATA[文章网址：https://newsletter.manager.dev/p/dont-become-an-engineering-manager
+评论网址：https://news.ycombinator.com/item?id=47232727
+积分：43
+# 条评论：29]]></description>
+      <guid>https://newsletter.manager.dev/p/dont-become-an-engineering-manager</guid>
+      <pubDate>Tue, 03 Mar 2026 14:19:14 GMT</pubDate>
     </item>
     <item>
-      <title>改装 Windows 的美丽与恐怖</title>
-      <link>https://windowsread.me/p/windhawk-explained</link>
-      <description><![CDATA[文章网址：https://windowsread.me/p/windhawk-explained
-评论网址：https://news.ycombinator.com/item?id=47230663
-积分：45
-# 条评论：39]]></description>
-      <guid>https://windowsread.me/p/windhawk-explained</guid>
-      <pubDate>Tue, 03 Mar 2026 10:49:05 GMT</pubDate>
+      <title>Apple 推出配备 M5 的新款 MacBook Air</title>
+      <link>https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/</link>
+      <description><![CDATA[文章网址：https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/
+评论网址：https://news.ycombinator.com/item?id=47232502
+积分：85
+# 条评论：51]]></description>
+      <guid>https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/</guid>
+      <pubDate>Tue, 03 Mar 2026 14:04:56 GMT</pubDate>
     </item>
     <item>
-      <title>中国时速450公里的子弹头列车是有史以来最快的</title>
-      <link>https://www.executivetraveller.com/news/china-cr450-world-s-fastest-bullet-train</link>
-      <description><![CDATA[文章网址：https://www.executivetraveller.com/news/china-cr450-world-s-fastest-bullet-train
-评论网址：https://news.ycombinator.com/item?id=47230539
-积分：31
-# 条评论：28]]></description>
-      <guid>https://www.executivetraveller.com/news/china-cr450-world-s-fastest-bullet-train</guid>
-      <pubDate>Tue, 03 Mar 2026 10:28:36 GMT</pubDate>
+      <title>Apple 推出配备全新 M5 Pro 和 M5 Max 的 MacBook Pro</title>
+      <link>https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/</link>
+      <description><![CDATA[文章网址：https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/
+评论网址：https://news.ycombinator.com/item?id=47232453
+积分：230
+# 条评论：258]]></description>
+      <guid>https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/</guid>
+      <pubDate>Tue, 03 Mar 2026 14:02:06 GMT</pubDate>
     </item>
     <item>
-      <title>通过匿名凭证进行隐私保护年龄和身份验证</title>
-      <link>https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/</link>
-      <description><![CDATA[文章网址：https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illusterated-primer/
-评论网址：https://news.ycombinator.com/item?id=47229953
-积分：41
-# 条评论：14]]></description>
-      <guid>https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/</guid>
-      <pubDate>Tue, 03 Mar 2026 08:58:30 GMT</pubDate>
+      <title>Apple 推出新款 Studio Display 和全新 Studio Display XDR</title>
+      <link>https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/</link>
+      <description><![CDATA[文章网址：https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/
+评论网址：https://news.ycombinator.com/item?id=47232421
+积分：82
+# 条评论：69]]></description>
+      <guid>https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/</guid>
+      <pubDate>Tue, 03 Mar 2026 14:00:11 GMT</pubDate>
     </item>
     <item>
-      <title>Arm 的 Cortex X925：达到桌面性能</title>
-      <link>https://chipsandcheese.com/p/arms-cortex-x925-reaching-desktop</link>
-      <description><![CDATA[文章网址：https://chipsandcheese.com/p/arms-cortex-x925-reaching-desktop
-评论网址：https://news.ycombinator.com/item?id=47229344
-积分：140
-# 条评论：65]]></description>
-      <guid>https://chipsandcheese.com/p/arms-cortex-x925-reaching-desktop</guid>
-      <pubDate>Tue, 03 Mar 2026 07:34:47 GMT</pubDate>
+      <title>人工智能生成的艺术不受版权保护（最高法院拒绝审查）</title>
+      <link>https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright</link>
+      <description><![CDATA[文章网址：https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright
+评论网址：https://news.ycombinator.com/item?id=47232289
+积分：58
+# 条评论：35]]></description>
+      <guid>https://www.theverge.com/policy/887678/supreme-court-ai-art-copyright</guid>
+      <pubDate>Tue, 03 Mar 2026 13:51:34 GMT</pubDate>
     </item>
     <item>
-      <title>我制作了一台小型麦金塔电脑</title>
-      <link>https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/</link>
-      <description><![CDATA[文章网址：https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/
-评论网址：https://news.ycombinator.com/item?id=47229119
-积分：49
-# 条评论：13]]></description>
-      <guid>https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/</guid>
-      <pubDate>Tue, 03 Mar 2026 07:06:22 GMT</pubDate>
+      <title>自 2024 年以来，互联网顶级科技出版物的 Google 流量减少了 58%</title>
+      <link>https://growtika.com/blog/tech-media-collapse</link>
+      <description><![CDATA[文章网址：https://growtika.com/blog/tech-media-collapse
+评论网址：https://news.ycombinator.com/item?id=47232224
+积分：79
+# 条评论：48]]></description>
+      <guid>https://growtika.com/blog/tech-media-collapse</guid>
+      <pubDate>Tue, 03 Mar 2026 13:45:33 GMT</pubDate>
     </item>
     <item>
-      <title>系好安全带迎接崎岖的天空</title>
-      <link>https://www.newyorker.com/magazine/2026/03/09/buckle-up-for-bumpier-skies</link>
-      <description><![CDATA[文章网址：https://www.newyorker.com/magazine/2026/03/09/buckle-up-for-bumpier-skies
-评论网址：https://news.ycombinator.com/item?id=47228639
-积分：53
-# 条评论：27]]></description>
-      <guid>https://www.newyorker.com/magazine/2026/03/09/buckle-up-for-bumpier-skies</guid>
-      <pubDate>Tue, 03 Mar 2026 05:51:02 GMT</pubDate>
+      <title>我正在为自己的开源项目输掉 SEO 之战</title>
+      <link>https://twitter.com/Gavriel_Cohen/status/2028821432759717930</link>
+      <description><![CDATA[文章网址：https://twitter.com/Gavriel_Cohen/status/2028821432759717930
+评论网址：https://news.ycombinator.com/item?id=47232158
+积分：159
+评论数量：85]]></description>
+      <guid>https://twitter.com/Gavriel_Cohen/status/2028821432759717930</guid>
+      <pubDate>Tue, 03 Mar 2026 13:39:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
