@@ -4,108 +4,115 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 03 Mar 2026 04:47:37 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 06:53:04 GMT</lastBuildDate>
     <item>
-      <title>OpenPawz Engram 受生物启发的 AI 代理内存架构</title>
-      <link>https://github.com/OpenPawz/openpawz/blob/main/ENGRAM.md</link>
-      <description><![CDATA[文章网址：https://github.com/OpenPawz/openpawz/blob/main/ENGRAM.md
-评论网址：https://news.ycombinator.com/item?id=47228095
+      <title>维奥3人工智能</title>
+      <link>https://veo-3-ai.org/</link>
+      <description><![CDATA[文章网址：https://veo-3-ai.org/
+评论网址：https://news.ycombinator.com/item?id=47228999
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/OpenPawz/openpawz/blob/main/ENGRAM.md</guid>
-      <pubDate>Tue, 03 Mar 2026 04:34:00 GMT</pubDate>
+      <guid>https://veo-3-ai.org/</guid>
+      <pubDate>Tue, 03 Mar 2026 06:46:44 GMT</pubDate>
     </item>
     <item>
-      <title>使用 JDK 的 Vector API 优化推荐系统</title>
-      <link>https://netflixtechblog.com/optimizing-recommendation-systems-with-jdks-vector-api-30d2830401ec</link>
-      <description><![CDATA[文章网址：https://netflixtechblog.com/optimizing-recommendation-systems-with-jdks-vector-api-30d2830401ec
-评论网址：https://news.ycombinator.com/item?id=47228091
-积分：1
-# 条评论：0]]></description>
-      <guid>https://netflixtechblog.com/optimizing-recommendation-systems-with-jdks-vector-api-30d2830401ec</guid>
-      <pubDate>Tue, 03 Mar 2026 04:33:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>TUIkit：Swift 终端 UI 框架</title>
-      <link>https://tuikit.dev/</link>
-      <description><![CDATA[文章网址：https://tuikit.dev/
-评论网址：https://news.ycombinator.com/item?id=47228086
-积分：1
-# 条评论：0]]></description>
-      <guid>https://tuikit.dev/</guid>
-      <pubDate>Tue, 03 Mar 2026 04:33:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>6k 个 AWS 账户、三人、一个平台：经验教训</title>
-      <link>https://aws.amazon.com/blogs/architecture/6000-aws-accounts-three-people-one-platform-lessons-learned/</link>
-      <description><![CDATA[文章网址：https://aws.amazon.com/blogs/architecture/6000-aws-accounts- Three-people-one-platform-lessons-learned/
-评论网址：https://news.ycombinator.com/item?id=47228083
-积分：1
-# 条评论：0]]></description>
-      <guid>https://aws.amazon.com/blogs/architecture/6000-aws-accounts-three-people-one-platform-lessons-learned/</guid>
-      <pubDate>Tue, 03 Mar 2026 04:32:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Fastsleep.app – 想在 20 分钟内入睡？</title>
-      <link>https://fastsleep.app/</link>
-      <description><![CDATA[文章网址：https://fastsleep.app/
-评论网址：https://news.ycombinator.com/item?id=47228073
-积分：1
-# 条评论：0]]></description>
-      <guid>https://fastsleep.app/</guid>
-      <pubDate>Tue, 03 Mar 2026 04:31:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么选择 OpenAgents 而不是 CrewAI、LangGraph、AutoGen？</title>
-      <link>https://medium.com/@openagents/open-source-ai-agent-frameworks-compared-crewai-vs-langgraph-vs-autogen-vs-openagents-2026-36a036b4801d</link>
-      <description><![CDATA[文章网址： https://medium.com/@openagents/open-source-ai-agent-frameworks-compared-crewai-vs-langgraph-vs-autogen-vs-openagents-2026-36a036b4801d
-评论网址：https://news.ycombinator.com/item?id=47228068
-积分：1
-# 条评论：0]]></description>
-      <guid>https://medium.com/@openagents/open-source-ai-agent-frameworks-compared-crewai-vs-langgraph-vs-autogen-vs-openagents-2026-36a036b4801d</guid>
-      <pubDate>Tue, 03 Mar 2026 04:30:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>克劳德于太平洋标准时间晚上 8:29 下机 (3/2/26)</title>
-      <link>https://news.ycombinator.com/item?id=47228060</link>
-      <description><![CDATA[截至太平洋标准时间晚上 8:27，克劳德 (Claude) 不在。过去 24 小时内发生第二次重大中断。
+      <title>Show HN：GitHub Repo Agent – 在 GitHub 存储库上进行探索和推理的代理</title>
+      <link>https://github.com/gauravvij/GithubRepoAgent</link>
+      <description><![CDATA[构建一个小型代理，可以探索 GitHub 存储库、深入了解它并回答有关代码库的问题。这个想法很简单。当您打开一个新的存储库时，大部分时间都会花在弄清楚：
+- 主要逻辑所在的地方
+- 模块如何连接
+- 如何运行或调试事物该代理克隆存储库、索引文件，并让 LLM 对结构进行推理，以便您可以提出问题或自动执行任务。用于：
+- 加入大型代码库
+- 了解 OSS 存储库
+- 调试不熟悉的项目
+- 构建更高级别的代码代理这是我们使用 NEO AI 进行的实验，用于构建自主 AI 代理，其中代理需要在修改存储库之前读取存储库。寻找有关存储库索引策略、评估基准或人们构建的类似工具的反馈。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47228060
-积分：4
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47228060</guid>
-      <pubDate>Tue, 03 Mar 2026 04:29:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>伊朗执行哈梅内伊扩大地区战争的计划</title>
-      <link>https://www.ft.com/content/02eb660a-3c80-4d6b-9e58-e7411278b0f1</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/02eb660a-3c80-4d6b-9e58-e7411278b0f1
-评论网址：https://news.ycombinator.com/item?id=47228059
+评论网址：https://news.ycombinator.com/item?id=47228967
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.ft.com/content/02eb660a-3c80-4d6b-9e58-e7411278b0f1</guid>
-      <pubDate>Tue, 03 Mar 2026 04:29:48 GMT</pubDate>
+      <guid>https://github.com/gauravvij/GithubRepoAgent</guid>
+      <pubDate>Tue, 03 Mar 2026 06:43:20 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：AsmForge：基于 Eclipse Theia 的开源 AI 驱动的汇编 IDE</title>
-      <link>https://github.com/TamTunnel/asmforge</link>
-      <description><![CDATA[为什么我们没有一个用于汇编语言和低级开发的开源 IDE？ AsmForge 是一款面向汇编程序员（嵌入式开发人员、固件工程师、操作系统黑客、安全研究人员）的全功能 IDE。主要功能：多汇编器 (NASM/GAS)、AI 辅助（Claude 3.5 用于解释/优化）、LSP 自动完成、GDB 可视化调试（寄存器/内存/堆栈）。在浏览器或 Electron 中运行，可部署 Docker。麻省理工学院许可证。欢迎反馈！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47228053
-积分：1
+      <title>我将完整的 JVM 放入浏览器选项卡中</title>
+      <link>https://bmarti44.substack.com/p/i-put-a-full-jvm-inside-a-browser</link>
+      <description><![CDATA[文章网址：https://bmarti44.substack.com/p/i-put-a-full-jvm-inside-a-browser
+评论网址：https://news.ycombinator.com/item?id=47228960
+积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/TamTunnel/asmforge</guid>
-      <pubDate>Tue, 03 Mar 2026 04:29:08 GMT</pubDate>
+      <guid>https://bmarti44.substack.com/p/i-put-a-full-jvm-inside-a-browser</guid>
+      <pubDate>Tue, 03 Mar 2026 06:41:32 GMT</pubDate>
     </item>
     <item>
-      <title>GenAI（Unity 和 Agents）的“游戏优先”实现</title>
-      <link>https://blackwaterlabs.io</link>
-      <description><![CDATA[文章网址：https://blackwaterlabs.io
-评论网址：https://news.ycombinator.com/item?id=47228046
+      <title>原生 Swift/MLX 中的完整语音管道 – ASR、TTS、语音转语音、设备上</title>
+      <link>https://github.com/ivan-digital/qwen3-asr-swift</link>
+      <description><![CDATA[文章网址：https://github.com/ivan-digital/qwen3-asr-swift
+评论网址：https://news.ycombinator.com/item?id=47228957
 积分：1
 # 条评论：1]]></description>
-      <guid>https://blackwaterlabs.io</guid>
-      <pubDate>Tue, 03 Mar 2026 04:28:11 GMT</pubDate>
+      <guid>https://github.com/ivan-digital/qwen3-asr-swift</guid>
+      <pubDate>Tue, 03 Mar 2026 06:41:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>BC省东北部的人们表示，该省其他地区应该采用全年时区</title>
+      <link>https://www.cbc.ca/news/canada/british-columbia/time-change-british-columbia-9.7112139</link>
+      <description><![CDATA[文章网址：https://www.cbc.ca/news/canada/british-columbia/time-change-british-columbia-9.7112139
+评论网址：https://news.ycombinator.com/item?id=47228952
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.cbc.ca/news/canada/british-columbia/time-change-british-columbia-9.7112139</guid>
+      <pubDate>Tue, 03 Mar 2026 06:40:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>加州要求所有操作系统（包括 Linux）进行年龄验证</title>
+      <link>https://www.tomshardware.com/software/operating-systems/california-introduces-age-verification-law</link>
+      <description><![CDATA[文章网址：https://www.tomshardware.com/software/operating-systems/california-introduces-age-verification-law
+评论网址：https://news.ycombinator.com/item?id=47228947
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.tomshardware.com/software/operating-systems/california-introduces-age-verification-law</guid>
+      <pubDate>Tue, 03 Mar 2026 06:39:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>稀有而非随机——利用代币效率进行秘密扫描</title>
+      <link>https://lookingatcomputer.substack.com/p/rare-not-random</link>
+      <description><![CDATA[文章网址：https://lookingatcomputer.substack.com/p/rare-not-random
+评论网址：https://news.ycombinator.com/item?id=47228931
+积分：1
+# 条评论：0]]></description>
+      <guid>https://lookingatcomputer.substack.com/p/rare-not-random</guid>
+      <pubDate>Tue, 03 Mar 2026 06:37:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>面向 AI LLM-CLI 用户的中文日文韩文严格等宽字体|CodexMono</title>
+      <link>https://www.npmjs.com/package/@monolex/codexmono</link>
+      <description><![CDATA[文章网址：https://www.npmjs.com/package/@monolex/codexmono
+评论网址：https://news.ycombinator.com/item?id=47228902
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.npmjs.com/package/@monolex/codexmono</guid>
+      <pubDate>Tue, 03 Mar 2026 06:34:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>做那些糟糕的事情</title>
+      <link>https://mayberay.bearblog.dev/working-on-things-that-suck/</link>
+      <description><![CDATA[文章网址：https://mayberay.bearblog.dev/working-on-things-that-suck/
+评论网址：https://news.ycombinator.com/item?id=47228882
+积分：1
+# 条评论：0]]></description>
+      <guid>https://mayberay.bearblog.dev/working-on-things-that-suck/</guid>
+      <pubDate>Tue, 03 Mar 2026 06:32:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：电话紧急警报如何工作？</title>
+      <link>https://news.ycombinator.com/item?id=47228858</link>
+      <description><![CDATA[我现在在受战争影响的阿联酋。昨天晚上醒来时收到警报，想知道这是如何工作的。在技术方面有什么好的文章吗？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47228858
+积分：2
+# 条评论：2]]></description>
+      <guid>https://news.ycombinator.com/item?id=47228858</guid>
+      <pubDate>Tue, 03 Mar 2026 06:27:34 GMT</pubDate>
     </item>
     </channel>
 </rss>
