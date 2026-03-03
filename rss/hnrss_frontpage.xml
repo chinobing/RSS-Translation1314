@@ -4,14 +4,86 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 02 Mar 2026 21:35:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 02:08:22 GMT</lastBuildDate>
     <item>
-      <title>欢迎（返回）使用 Macintosh</title>
+      <title>显示 HN：PHP 8disable_functions 绕过 PoC</title>
+      <link>https://github.com/m0x41nos/TimeAfterFree</link>
+      <description><![CDATA[文章网址：https://github.com/m0x41nos/TimeAfterFree
+评论网址：https://news.ycombinator.com/item?id=47226605
+积分：17
+# 条评论：3]]></description>
+      <guid>https://github.com/m0x41nos/TimeAfterFree</guid>
+      <pubDate>Tue, 03 Mar 2026 01:12:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何构建自己的量子计算机</title>
+      <link>https://physics.aps.org/articles/v19/24</link>
+      <description><![CDATA[文章网址：https://physical.aps.org/articles/v19/24
+评论网址：https://news.ycombinator.com/item?id=47225726
+积分：24
+# 条评论：3]]></description>
+      <guid>https://physics.aps.org/articles/v19/24</guid>
+      <pubDate>Mon, 02 Mar 2026 23:22:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>加拿大 Weatherradio 服务关闭</title>
+      <link>https://www.rac.ca/rac-responds-to-the-closure-of-the-weatherradio-service-in-canada/</link>
+      <description><![CDATA[文章网址：https://www.rac.ca/rac-responds-to-the-closure-of-the-weatherradio-service-in-canada/
+评论网址：https://news.ycombinator.com/item?id=47225505
+积分：61
+# 条评论：28]]></description>
+      <guid>https://www.rac.ca/rac-responds-to-the-closure-of-the-weatherradio-service-in-canada/</guid>
+      <pubDate>Mon, 02 Mar 2026 23:03:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>力量种子颜色校正过程 (2023) [pdf]</title>
+      <link>https://andrewvanner.github.io/som/SoM_CC_Process_Day.pdf</link>
+      <description><![CDATA[文章网址：https://andrewvanner.github.io/som/SoM_CC_Process_Day.pdf
+评论网址：https://news.ycombinator.com/item?id=47225318
+积分：66
+# 条评论：15]]></description>
+      <guid>https://andrewvanner.github.io/som/SoM_CC_Process_Day.pdf</guid>
+      <pubDate>Mon, 02 Mar 2026 22:49:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta 智能眼镜背后的工作人员可以看到一切</title>
+      <link>https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything</link>
+      <description><![CDATA[文章网址：https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything
+评论网址：https://news.ycombinator.com/item?id=47225130
+积分：532
+# 条评论：277]]></description>
+      <guid>https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything</guid>
+      <pubDate>Mon, 02 Mar 2026 22:32:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>185 微秒类型提示</title>
+      <link>https://blog.sturdystatistics.com/posts/type_hint/</link>
+      <description><![CDATA[文章网址：https://blog.sturdystatistics.com/posts/type_hint/
+评论网址：https://news.ycombinator.com/item?id=47224832
+积分：41
+# 条评论：2]]></description>
+      <guid>https://blog.sturdystatistics.com/posts/type_hint/</guid>
+      <pubDate>Mon, 02 Mar 2026 22:04:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我从头开始构建了一个低于 500 毫秒延迟的语音代理</title>
+      <link>https://www.ntik.me/posts/voice-agent</link>
+      <description><![CDATA[我从头开始构建了一个语音代理，平均端到端延迟约为 400 毫秒（电话停止 → 第一个音节）。这是在循环中完整的 STT → LLM → TTS，干净的插入，并且没有预先计算的响应。是什么推动了针：语音是一个轮流问题，而不是转录问题。单独使用 VAD 会失败；您需要语义回合结束检测。系统简化为一个循环：说与听。两种转换 - 插入时立即取消，回合结束时立即响应 - 定义了体验。STT → LLM → TTS 必须进行流式传输。对于自然对话来说，顺序管道已经失效。TTFT 主导一切。在语音中，第一个令牌是关键路径。 Groq 的约 80 毫秒 TTFT 是最大的胜利。地理位置比提示更重要。在开始之前将所有内容放在一起，否则您就会失败。GitHub 存储库： 
+https://github.com/NickTikhonov/shuo按照我接下来修改的内容：https://x.com/nick_tikhonov
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47224295
+积分：164
+# 条评论：44]]></description>
+      <guid>https://www.ntik.me/posts/voice-agent</guid>
+      <pubDate>Mon, 02 Mar 2026 21:23:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>欢迎（回到）Macintosh</title>
       <link>https://take.surf/2026/03/01/welcome-back-to-macintosh</link>
       <description><![CDATA[文章网址：https://take.surf/2026/03/01/welcome-back-to-macintosh
 评论网址：https://news.ycombinator.com/item?id=47224118
-积分：4
-# 条评论：0]]></description>
+积分：251
+# 条评论：156]]></description>
       <guid>https://take.surf/2026/03/01/welcome-back-to-macintosh</guid>
       <pubDate>Mon, 02 Mar 2026 21:09:47 GMT</pubDate>
     </item>
@@ -21,8 +93,8 @@
       <description><![CDATA[一个周末小项目，这样我在通过耳朵学习歌曲时可以直接在钢琴上暂停/播放/倒带。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47223863
-积分：6
-# 条评论：0]]></description>
+积分：39
+# 条评论：15]]></description>
       <guid>https://github.com/vustagc/pianoterm</guid>
       <pubDate>Mon, 02 Mar 2026 20:50:03 GMT</pubDate>
     </item>
@@ -31,79 +103,10 @@
       <link>https://www.cbc.ca/news/canada/british-columbia/b-c-adopting-year-round-daylight-time-9.7111657</link>
       <description><![CDATA[文章网址：https://www.cbc.ca/news/canada/british-columbia/b-c-adopting-year-round-daylight-time-9.7111657
 评论网址：https://news.ycombinator.com/item?id=47223620
-积分：76
-# 条评论：31]]></description>
+积分：431
+评论数：245]]></description>
       <guid>https://www.cbc.ca/news/canada/british-columbia/b-c-adopting-year-round-daylight-time-9.7111657</guid>
       <pubDate>Mon, 02 Mar 2026 20:30:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：uBlock 过滤器列表以模糊所有 Instagram 卷轴</title>
-      <link>https://gist.github.com/shraiwi/009c652da6ce8c99a6e1e0c86fe66886</link>
-      <description><![CDATA[uBO 的过滤器列表，可模糊 Instagram 中的所有视频和非关注者内容。可在移动设备上与 uBO Lite 配合使用。相关：https://news.ycombinator.com/item?id=47016443
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47223147
-积分：49
-# 条评论：14]]></description>
-      <guid>https://gist.github.com/shraiwi/009c652da6ce8c99a6e1e0c86fe66886</guid>
-      <pubDate>Mon, 02 Mar 2026 19:50:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Boss-CSS：我创建了另一个“CSS-in-JS”库</title>
-      <link>https://dev.to/wintercounter/boss-css-i-created-another-css-in-js-lib-and-here-is-why-23kc</link>
-      <description><![CDATA[文章网址：https://dev.to/wintercounter/boss-css-i-created-another-css-in-js-lib-and-here-is-why-23kc
-评论网址：https://news.ycombinator.com/item?id=47223115
-积分：4
-# 条评论：0]]></description>
-      <guid>https://dev.to/wintercounter/boss-css-i-created-another-css-in-js-lib-and-here-is-why-23kc</guid>
-      <pubDate>Mon, 02 Mar 2026 19:48:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Go 作为人工智能代理最佳语言的案例</title>
-      <link>https://getbruin.com/blog/go-is-the-best-language-for-agents/</link>
-      <description><![CDATA[文章网址：https://getbruin.com/blog/go-is-the-best-language-for-agents/
-评论网址：https://news.ycombinator.com/item?id=47222270
-积分：102
-# 条评论：154]]></description>
-      <guid>https://getbruin.com/blog/go-is-the-best-language-for-agents/</guid>
-      <pubDate>Mon, 02 Mar 2026 18:48:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>“那个形状没有”——基底独立的恐怖（短篇小说）</title>
-      <link>https://starlightconvenience.net/#that-shape-had-none</link>
-      <description><![CDATA[文章网址：https://starlightconvenience.net/#that-shape-had-none
-评论网址：https://news.ycombinator.com/item?id=47222226
-积分：43
-# 条评论：7]]></description>
-      <guid>https://starlightconvenience.net/#that-shape-had-none</guid>
-      <pubDate>Mon, 02 Mar 2026 18:45:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Govbase – 跟踪从源文本到新闻偏见到社交帖子的法案</title>
-      <link>https://govbase.com</link>
-      <description><![CDATA[Govbase 跟踪来自官方来源（Congress.gov、联邦公报、白宫）的每一项法案、行政命令和联邦法规。人工智能管道将每项政策分解为简单语言的摘要，并显示其按人口群体影响的人群。它还将每项政策直接与 X、Bluesky 和 ​​Truth Social 上的偏见评级新闻报道和政客社交帖子联系起来。您可以从官方文本中了解一项法案，了解媒体如何将其框架与您的代表对此的看法。在网络、iOS 和 Android 上免费。https://govbase.com我希望得到社区的反馈，尤其是关于数据管道或您认为缺少哪些政策领域/功能的反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47220809
-积分：106
-# 条评论：54]]></description>
-      <guid>https://govbase.com</guid>
-      <pubDate>Mon, 02 Mar 2026 17:08:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Reflex (YC W23) 正在招聘软件工程师 - Python</title>
-      <link>https://www.ycombinator.com/companies/reflex/jobs</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/reflex/jobs
-评论网址：https://news.ycombinator.com/item?id=47220666
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/reflex/jobs</guid>
-      <pubDate>Mon, 02 Mar 2026 17:01:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>推出 HN：OctaPulse (YC W26) – 用于鱼类养殖的机器人和计算机视觉</title>
-      <link>https://news.ycombinator.com/item?id=47220320</link>
-      <description><![CDATA[]]></description>
-      <guid>https://news.ycombinator.com/item?id=47220320</guid>
-      <pubDate>Mon, 02 Mar 2026 16:39:21 GMT</pubDate>
     </item>
     </channel>
 </rss>
