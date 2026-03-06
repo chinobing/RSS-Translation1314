@@ -4,111 +4,121 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 06 Mar 2026 02:05:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 04:42:33 GMT</lastBuildDate>
     <item>
-      <title>Fractals 是代理群的递归任务编排器</title>
-      <link>https://github.com/TinyAGI/fractals</link>
-      <description><![CDATA[文章网址：https://github.com/TinyAGI/fractals
-评论网址：https://news.ycombinator.com/item?id=47269860
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/TinyAGI/fractals</guid>
-      <pubDate>Fri, 06 Mar 2026 01:57:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>ClickHouse 将 Clickstack 集成到其二进制文件中</title>
-      <link>https://clickhouse.com/blog/clickstack-embedded-clickhouse</link>
-      <description><![CDATA[文章网址：https://clickhouse.com/blog/clickstack-embedded-clickhouse
-评论网址：https://news.ycombinator.com/item?id=47269854
-积分：1
-# 条评论：0]]></description>
-      <guid>https://clickhouse.com/blog/clickstack-embedded-clickhouse</guid>
-      <pubDate>Fri, 06 Mar 2026 01:56:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>有人把 Moltbook 的线索变成了一本关于特工身份、记忆和死亡的书</title>
-      <link>https://www.amazon.com/dp/B0GR6T1KMQ</link>
-      <description><![CDATA[文章网址：https://www.amazon.com/dp/B0GR6T1KMQ
-评论网址：https://news.ycombinator.com/item?id=47269831
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.amazon.com/dp/B0GR6T1KMQ</guid>
-      <pubDate>Fri, 06 Mar 2026 01:53:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个愚蠢的小地图工具比我网站上的所有内容更有价值</title>
-      <link>https://mapscaping.com/as-the-crow-flies-distance-calculator/</link>
-      <description><![CDATA[文章网址：https://mapscaping.com/as-the-crow-flies-distance-calculator/
-评论网址：https://news.ycombinator.com/item?id=47269810
-积分：1
-# 条评论：0]]></description>
-      <guid>https://mapscaping.com/as-the-crow-flies-distance-calculator/</guid>
-      <pubDate>Fri, 06 Mar 2026 01:50:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：为什么将外部合作伙伴集成到 Jira 如此困难？</title>
-      <link>https://news.ycombinator.com/item?id=47269793</link>
-      <description><![CDATA[我在航空航天/国防和其他受监管的 B2B 项目中不断听到同样的事情。即使两家公司都在内部使用 Jira，当客户（或其他外部合作伙伴）建议“让我们共享一个 Jira 项目”时，它就会变成长达数周/数月的 IT + 信息安全考验……因此团队会退回到电子邮件 + Excel 跟踪器。如果您经历过这种情况，我会喜欢详细的故事。一些对话开头：&gt;&gt; 到底是什么让事情变得困难？ （SSO/IdP、用户配置、域策略、MFA、VPN、IP 允许列表、Atlassian Access、SCIM、承包商等）&gt;&gt; 阻止者通常是 IT、安全、合规性、采购/供应商风险还是 Jira 管理员本身？&gt;&gt; Jira Cloud 与 Jira Data Center：哪个对外部协作更不利？为什么？&gt;&gt; 导致硬性拒绝的常见“政策红线”是什么？ （最小权限、租户分离、可审计性、数据驻留、CUI/ITAR、SOC2 等）&gt;&gt; 您最终使用了哪些解决方法（共享电子表格、共享邮箱、单独的“影子 Jira”、Confluence 页面等）以及哪些问题？&gt;&gt; 如果您确实使跨组织 Jira 工作，最终通过的设置是什么以及需要多长时间？如果你没有让它发挥作用，会发生什么？背景：我试图了解真正的根本原因和失败模式 - 这是否主要是技术（身份+权限）或主要是组织/政策，以及哪些部分实际上是可以解决的。
+      <title>Show HN：Yappy – 用于自动化 LinkedIn 聊天的 Python TUI</title>
+      <link>https://github.com/JienWeng/yappy</link>
+      <description><![CDATA[嘿 HN，我厌倦了 LinkedIn 上的表演文化。这个平台给人的感觉就像是人们整天互相喊叫以提高参与度，所以我决定构建一个 CLI 工具来帮我喊叫。它被称为 Yappy（因为我们只是 yap yap yap）。它是一个开源 Python TUI，可以直接从命令行自动执行 LinkedIn 参与。它会登录、读取您的提要，并使用 Gemini API 生成上下文感知的评论并根据您的提示参数进行点赞。一切都完全在终端中运行，因此您实际上不必亲自查看提要。我知道人工智能生成的评论和网络抓取是有争议的，并且 LinkedIn 的 TOS 严格禁止这种自动化。这纯粹是作为一个实验性玩具项目以及将法学硕士与终端接口集成的概念验证而构建的。如果您真的决定运行它，一定要使用一次性帐户，因为如果您过于激进地运行它，LinkedIn 可能会限制您。我主要寻找有关 Python 代码架构和 TUI 实现的技术反馈。很想听听您的想法。如果您觉得这个概念很有趣，请烘烤我的代码或删除 PR。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47269793
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47269793</guid>
-      <pubDate>Fri, 06 Mar 2026 01:48:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>计算机科学家警告不要强制执行互联网年龄验证</title>
-      <link>https://reason.com/2026/03/04/computer-scientists-caution-against-internet-age-verification-mandates/</link>
-      <description><![CDATA[文章网址：https://reason.com/2026/03/04/computer-scientists-caution-against-internet-age-verification-mandates/
-评论网址：https://news.ycombinator.com/item?id=47269782
-积分：1
-# 条评论：0]]></description>
-      <guid>https://reason.com/2026/03/04/computer-scientists-caution-against-internet-age-verification-mandates/</guid>
-      <pubDate>Fri, 06 Mar 2026 01:47:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：SlideScholar-在 60 秒内将研究论文变成会议幻灯片</title>
-      <link>https://slidescholar.vercel.app</link>
-      <description><![CDATA[我构建 SlideScholar 是为了解决我一直遇到的一个痛点：研究人员花费 6-10 小时制作幻灯片，进行 15 分钟的会议演讲。上传 PDF 或 ArXiv URL，选择演讲长度，然后获得可编辑的 .pptx 演示文稿，其中包含断言证据标题、提取的图形和表格以及带有时间提示的演讲者注释。堆栈：Vercel 上的 Next.js 前端、Railway 上的 Python/FastAPI 后端、Claude API用于内容规划，python-pptx 用于幻灯片生成。免费，无需注册
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47269745
-积分：1
-# 条评论：0]]></description>
-      <guid>https://slidescholar.vercel.app</guid>
-      <pubDate>Fri, 06 Mar 2026 01:41:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>自学客户营销</title>
-      <link>https://news.ycombinator.com/item?id=47269729</link>
-      <description><![CDATA[我很少有真正令人愉悦的客户体验。最近我开始想知道这是为什么......
-当我还没准备好购买时，我就会对产品进行销售；当我收到有关我从未使用过的功能的电子邮件时；当我想要遇到问题时，却找不到人可以交谈。这种动态总是让我感到奇怪。但在为大品牌工作过之后，事实是大多数公司不知道何时以及如何与客户交谈。他们依赖于混乱的冲突事件和触发器网络，在没有上下文的情况下吸引客户。我最近开始致力于解决这个问题，从每个渠道提取客户事件，从事件序列中得出重要时刻，并根据您的特定上下文触发正确的参与，同时不断学习对客户重要的内容以及如何最好地吸引他们以下是这在电子商务示例中的工作原理（尽管这适用于任何类型的品牌）：2 个客户可能在结帐。客户 1 在结帐时遇到错误，感到沮丧并继续前进，客户 2 只是一个常规会话。如今，公司对这 2 位客户一视同仁，只是在 24 小时后发送折扣代码，而实际上您应该调查客户 1 的问题并让他们知道问题已得到解决，以便他们可以完成交易我将这些促使客户进行 X 与 Y 的事件序列称为“时刻”。我的论点是，您可以发现这些时刻，并围绕它们设计客户参与度，打造令人愉悦的体验，让您感觉自己超越了预期，为客户量身定制，从而提高收入、保留率和拥护度。我很乐意听取任何有此问题经验的人的意见。您可以在 https://booly.co 上关注我的旅程
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47269729
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47269729</guid>
-      <pubDate>Fri, 06 Mar 2026 01:39:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI – 交响乐</title>
-      <link>https://github.com/openai/symphony</link>
-      <description><![CDATA[文章网址：https://github.com/openai/symphony
-评论网址：https://news.ycombinator.com/item?id=47269722
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/openai/symphony</guid>
-      <pubDate>Fri, 06 Mar 2026 01:38:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我构建了 Commuter，这是一个用于在计算机之间移动 Claude Code 会话的 CLI</title>
-      <link>https://github.com/ljbuturovic/commuter</link>
-      <description><![CDATA[“远程控制”让您可以在沙发上观看会议。 Commuter 让您可以带着它去上班。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47269704
+评论网址：https://news.ycombinator.com/item?id=47270845
 积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/ljbuturovic/commuter</guid>
-      <pubDate>Fri, 06 Mar 2026 01:35:48 GMT</pubDate>
+      <guid>https://github.com/JienWeng/yappy</guid>
+      <pubDate>Fri, 06 Mar 2026 04:22:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>闭嘴，拿走我的钱</title>
+      <link>https://lorendb.dev/posts/shut-up-and-take-my-money/</link>
+      <description><![CDATA[文章网址：https://lorendb.dev/posts/shut-up-and-take-my-money/
+评论网址：https://news.ycombinator.com/item?id=47270819
+积分：1
+# 条评论：0]]></description>
+      <guid>https://lorendb.dev/posts/shut-up-and-take-my-money/</guid>
+      <pubDate>Fri, 06 Mar 2026 04:17:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>拼写用户界面</title>
+      <link>https://spell.sh/</link>
+      <description><![CDATA[文章网址：https://spell.sh/
+评论网址：https://news.ycombinator.com/item?id=47270816
+积分：1
+# 条评论：0]]></description>
+      <guid>https://spell.sh/</guid>
+      <pubDate>Fri, 06 Mar 2026 04:16:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Swarm – 使用自定义汇编语言对 200 只蚂蚁的群体进行编程</title>
+      <link>https://dev.moment.com/</link>
+      <description><![CDATA[我们构建了一个蚁群模拟，作为 Moment 的内部招聘挑战，并决定将其公开。您使用自定义的类汇编（我们称之为 ant-ssembly）指令集编写一个程序，控制 200 只蚂蚁。每只蚂蚁都可以感知附近的细胞（食物、信息素、家园、其他蚂蚁），但没有全局视野。唯一的协调机制是信息素痕迹，蚂蚁可以发出并感知它们，但仅此而已。您的程序在每只蚂蚁上都以相同的方式运行。目标是在一组地图上收集最高百分比的食物。不同的地图布局（聚集的食物、分散的、障碍物）奖励截然不同的策略。排行榜已上线。大奖是 Moment 支付的两人毛伊岛之旅。挑战将于 3 月 12 日结束。很好奇人们发现了什么策略。我们在内部看到了一些令人惊讶的聪明的突发行为。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47270807
+积分：4
+# 条评论：0]]></description>
+      <guid>https://dev.moment.com/</guid>
+      <pubDate>Fri, 06 Mar 2026 04:15:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Safari 和 Spotlight (macOS) 上的自定义搜索引擎</title>
+      <link>https://knhash.in/custom-search-engine-on-safari-and-spotlight-macos/</link>
+      <description><![CDATA[文章网址：https://knhash.in/custom-search-engine-on-safari-and-spotlight-macos/
+评论网址：https://news.ycombinator.com/item?id=47270801
+积分：1
+# 条评论：0]]></description>
+      <guid>https://knhash.in/custom-search-engine-on-safari-and-spotlight-macos/</guid>
+      <pubDate>Fri, 06 Mar 2026 04:14:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：SafeAgent – AI 代理的一次性执行防护</title>
+      <link>https://news.ycombinator.com/item?id=47270797</link>
+      <description><![CDATA[LLM 代理和工具调用系统经常重试或重放操作。当操作不可逆转时，这会变得危险：
+- 发送电子邮件
+- 开票
+- 执行交易
+- 触发付款SafeAgent 是一个小型 Python 库，它使用请求 ID 重复数据删除强制执行代理操作一次。示例：from Settlement.settlement_requests import SettlementRequestRegistryregistry = SettlementRequestRegistry()def send_email()：
+    print(&quot;电子邮件已发送&quot;)registry.execute(
+    request_id=&quot;电子邮件:user123:发票&quot;,
+    动作=“发送电子邮件”，
+    有效负载={&quot;to&quot;: &quot;user123@example.com&quot;},
+    执行_fn=发送电子邮件
+)如果重播相同的 request_id，则操作不会再次运行。而是返回原始执行收据。pip install safeagent-exec-guardGitHub：
+https://github.com/azender1/SafeAgentPyPI：
+https://pypi.org/project/safeagent-exec-guard/
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47270797
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47270797</guid>
+      <pubDate>Fri, 06 Mar 2026 04:14:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>增强的脑细胞清除与痴呆症相关的蛋白质</title>
+      <link>https://medicalxpress.com/news/2026-03-brain-cells-dementia-proteins.html</link>
+      <description><![CDATA[文章网址：https://medicalxpress.com/news/2026-03-brain-cells-dementia- Proteins.html
+评论网址：https://news.ycombinator.com/item?id=47270796
+积分：2
+# 条评论：0]]></description>
+      <guid>https://medicalxpress.com/news/2026-03-brain-cells-dementia-proteins.html</guid>
+      <pubDate>Fri, 06 Mar 2026 04:14:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>谷歌专利：将搜索者发送到您网站上的人工智能生成页面</title>
+      <link>https://www.seroundtable.com/google-patent-ai-generated-pages-search-41010.html</link>
+      <description><![CDATA[文章网址：https://www.seroundtable.com/google-patent-ai- generated-pages-search-41010.html
+评论网址：https://news.ycombinator.com/item?id=47270785
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.seroundtable.com/google-patent-ai-generated-pages-search-41010.html</guid>
+      <pubDate>Fri, 06 Mar 2026 04:12:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>System76 年龄验证法</title>
+      <link>https://blog.system76.com/post/system76-on-age-verification/</link>
+      <description><![CDATA[文章网址：https://blog.system76.com/post/system76-on-age-verification/
+评论网址：https://news.ycombinator.com/item?id=47270784
+积分：2
+# 条评论：0]]></description>
+      <guid>https://blog.system76.com/post/system76-on-age-verification/</guid>
+      <pubDate>Fri, 06 Mar 2026 04:12:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>低信任社会的技术</title>
+      <link>https://www.theatlantic.com/technology/2026/03/central-lie-prediction-markets/686250/</link>
+      <description><![CDATA[文章网址：https://www.theatlantic.com/technology/2026/03/central-lie-prediction-markets/686250/
+评论网址：https://news.ycombinator.com/item?id=47270766
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theatlantic.com/technology/2026/03/central-lie-prediction-markets/686250/</guid>
+      <pubDate>Fri, 06 Mar 2026 04:09:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
