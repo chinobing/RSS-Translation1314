@@ -4,116 +4,104 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 06 Mar 2026 15:39:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 18:46:08 GMT</lastBuildDate>
     <item>
-      <title>显示 HN：Moongate – .NET 10 中使用 Lua 脚本编写的 Ultima Online 服务器模拟器</title>
-      <link>https://github.com/moongate-community/moongatev2</link>
-      <description><![CDATA[我一直在从头开始构建一个现代的 Ultima Online 服务器模拟器。它的功能并不完整（还没有战斗，还没有技能），但基础很扎实，我想尽早分享它。它今天的作用：
-- 经典 UO 客户端的完整数据包层（登录、移动、项目、手机）
-- 用于项目行为的 Lua 脚本（双击药水，打开一扇门 - 全部在 Lua 中定义，无需 C# 重新编译）
-- 空间世界划分为具有增量同步的扇区（仅在跨越边界时发送新扇区的数据包）
-- 使用 MessagePack 实现基于快照的持久性
-- 用于自动 DI 接线、数据包处理程序注册和 Lua 模块暴露的源生成器
-- NativeAOT 支持 — 服务器编译为单个本机二进制文件
-- 嵌入式HTTP管理API + React管理UI
-- 根据地图统计自动生成门（与 ModernUO/RunUO 相同的算法）技术堆栈：.NET 10、NativeAOT、NLua、MessagePack、DryIoc、Kestrel缺少的内容：战斗、技能、天气集成、NPC AI。这还为时尚早 - 到目前为止，重点是使架构正确，因此添加这些系统不需要重新连接所有内容。为什么不直接使用 ModernUO/RunUO？这些都是成熟且经过实战考验的。我开始这个是因为我想从头开始重新思考架构：严格的网络/域分离、事件驱动的游戏循环、不
-  继承性较高的项目层次结构，以及无需重新编译即可快速迭代游戏逻辑的 Lua。GitHub：https://github.com/moongate-community/moongatev2
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47275236
-积分：34
-评论数量：9]]></description>
-      <guid>https://github.com/moongate-community/moongatev2</guid>
-      <pubDate>Fri, 06 Mar 2026 14:22:59 GMT</pubDate>
+      <title>推出 HN：Palus Finance (YC W26)：为初创企业、中小企业提供更好的闲置现金收益</title>
+      <link>https://news.ycombinator.com/item?id=47278980</link>
+      <description><![CDATA[]]></description>
+      <guid>https://news.ycombinator.com/item?id=47278980</guid>
+      <pubDate>Fri, 06 Mar 2026 18:26:21 GMT</pubDate>
     </item>
     <item>
-      <title>我放弃了生产数据库，现在为 AWS 支付了 10% 的费用</title>
-      <link>https://alexeyondata.substack.com/p/how-i-dropped-our-production-database</link>
-      <description><![CDATA[文章网址：https://alexeyondata.substack.com/p/how-i-dropped-our-Production-database
-评论网址：https://news.ycombinator.com/item?id=47275157
-积分：15
-评论数量：9]]></description>
-      <guid>https://alexeyondata.substack.com/p/how-i-dropped-our-production-database</guid>
-      <pubDate>Fri, 06 Mar 2026 14:17:01 GMT</pubDate>
+      <title>永远不要押注 x86</title>
+      <link>https://www.osnews.com/story/144527/never-bet-against-x86/</link>
+      <description><![CDATA[文章网址：https://www.osnews.com/story/144527/never-bet-against-x86/
+评论网址：https://news.ycombinator.com/item?id=47278836
+积分：10
+# 条评论：0]]></description>
+      <guid>https://www.osnews.com/story/144527/never-bet-against-x86/</guid>
+      <pubDate>Fri, 06 Mar 2026 18:17:14 GMT</pubDate>
     </item>
     <item>
-      <title>健康可穿戴设备的 CT 扫描</title>
-      <link>https://www.lumafield.com/scan-of-the-month/health-wearables</link>
-      <description><![CDATA[文章网址：https://www.lumafield.com/scan-of-the-month/health-wearables
-评论网址：https://news.ycombinator.com/item?id=47275152
-积分：22
+      <title>Claude Code 使用 Terraform 命令擦除了我们的生产数据库</title>
+      <link>https://twitter.com/Al_Grigor/status/2029889772181934425</link>
+      <description><![CDATA[文章网址：https://twitter.com/Al_Grigor/status/2029889772181934425
+评论网址：https://news.ycombinator.com/item?id=47278720
+积分：26
+# 条评论：10]]></description>
+      <guid>https://twitter.com/Al_Grigor/status/2029889772181934425</guid>
+      <pubDate>Fri, 06 Mar 2026 18:07:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>现在科技行业的就业状况比 2008 年或 2020 年经济衰退时要糟糕得多</title>
+      <link>https://twitter.com/JosephPolitano/status/2029916364664611242</link>
+      <description><![CDATA[文章网址：https://twitter.com/JosephPolitano/status/2029916364664611242
+评论网址：https://news.ycombinator.com/item?id=47278426
+积分：52
+# 条评论：26]]></description>
+      <guid>https://twitter.com/JosephPolitano/status/2029916364664611242</guid>
+      <pubDate>Fri, 06 Mar 2026 17:46:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Multifactor (YC F25) 正在招聘一名工程主管</title>
+      <link>https://www.ycombinator.com/companies/multifactor/jobs/lcpd60A-engineering-lead</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/multifactor/jobs/lcpd60A-engineering-lead
+评论网址：https://news.ycombinator.com/item?id=47277679
+积分：0
+# 条评论：0]]></description>
+      <guid>https://www.ycombinator.com/companies/multifactor/jobs/lcpd60A-engineering-lead</guid>
+      <pubDate>Fri, 06 Mar 2026 17:00:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>超级吐司桌</title>
+      <link>https://hatchet.run/blog/supertoast-tables</link>
+      <description><![CDATA[文章网址：https://hatchet.run/blog/supertoast-tables
+评论网址：https://news.ycombinator.com/item?id=47277420
+积分：26
 # 条评论：2]]></description>
-      <guid>https://www.lumafield.com/scan-of-the-month/health-wearables</guid>
-      <pubDate>Fri, 06 Mar 2026 14:16:06 GMT</pubDate>
+      <guid>https://hatchet.run/blog/supertoast-tables</guid>
+      <pubDate>Fri, 06 Mar 2026 16:46:50 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：欧盟航运排放的交互式 3D 地球仪</title>
-      <link>https://seafloor.pages.dev</link>
-      <description><![CDATA[文章网址：https://seafloor.pages.dev
-评论网址：https://news.ycombinator.com/item?id=47275121
-积分：4
-# 条评论：1]]></description>
-      <guid>https://seafloor.pages.dev</guid>
-      <pubDate>Fri, 06 Mar 2026 14:12:45 GMT</pubDate>
+      <title>Astra：开源天文台控制软件</title>
+      <link>https://github.com/ppp-one/astra</link>
+      <description><![CDATA[文章网址：https://github.com/ppp-one/astra
+评论网址：https://news.ycombinator.com/item?id=47276865
+积分：31
+# 条评论：10]]></description>
+      <guid>https://github.com/ppp-one/astra</guid>
+      <pubDate>Fri, 06 Mar 2026 16:14:30 GMT</pubDate>
     </item>
     <item>
-      <title>全球变暖显着加速</title>
-      <link>https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly</link>
-      <description><![CDATA[文章网址：https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly
-评论网址：https://news.ycombinator.com/item?id=47275088
-积分：224
-# 条评论：120]]></description>
-      <guid>https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly</guid>
-      <pubDate>Fri, 06 Mar 2026 14:10:03 GMT</pubDate>
+      <title>Show HN：Claude-replay – Claude Code 会话的类似视频的播放器</title>
+      <link>https://github.com/es617/claude-replay</link>
+      <description><![CDATA[我厌倦了通过终端屏幕截图或屏幕录制来共享 AI 演示。Claude Code 已将完整的会话记录本地存储为 JSONL 文件。这些日志包含所有内容：提示、工具调用、思维块和时间戳。我构建了一个小型 CLI 工具，可将这些日志转换为交互式 HTML 重播。您可以单步执行会话、跳转时间轴、展开工具调用并检查完整对话。输出是一个独立的 HTML 文件 - 没有依赖项。您可以通过电子邮件发送、将其托管在任何地方、将其嵌入博客文章中，并且可以在移动设备上使用。存储库：https://github.com/es617/claude-replay示例回放：https://es617.github.io/assets/demos/peripheral-uart-demo.ht...
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47276604
+积分：16
+# 条评论：10]]></description>
+      <guid>https://github.com/es617/claude-replay</guid>
+      <pubDate>Fri, 06 Mar 2026 15:57:27 GMT</pubDate>
     </item>
     <item>
-      <title>美国经济 2 月份意外裁员 92,000 人</title>
-      <link>https://www.bbc.com/news/articles/cjd98091g28o</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cjd98091g28o
-评论网址：https://news.ycombinator.com/item?id=47275035
-积分：228
-评论数：224]]></description>
-      <guid>https://www.bbc.com/news/articles/cjd98091g28o</guid>
-      <pubDate>Fri, 06 Mar 2026 14:04:18 GMT</pubDate>
+      <title>昆虫学家使用粒子加速器对蚂蚁进行大规模成像</title>
+      <link>https://spectrum.ieee.org/3d-scanning-particle-accelerator-antscan</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/3d-scanning-article-accelerator-antscan
+评论网址：https://news.ycombinator.com/item?id=47276539
+积分：32
+# 条评论：2]]></description>
+      <guid>https://spectrum.ieee.org/3d-scanning-particle-accelerator-antscan</guid>
+      <pubDate>Fri, 06 Mar 2026 15:53:32 GMT</pubDate>
     </item>
     <item>
-      <title>热爱“协同范式”的员工可能不擅长工作</title>
-      <link>https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs</link>
-      <description><![CDATA[文章网址：https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs
-评论网址：https://news.ycombinator.com/item?id=47274676
-积分：184
-评论数量：93]]></description>
-      <guid>https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs</guid>
-      <pubDate>Fri, 06 Mar 2026 13:30:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>与 Anthropic 的红队一起强化 Firefox</title>
-      <link>https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/</link>
-      <description><![CDATA[文章网址：https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/
-评论网址：https://news.ycombinator.com/item?id=47273854
-积分：165
-# 条评论：45]]></description>
-      <guid>https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/</guid>
-      <pubDate>Fri, 06 Mar 2026 11:53:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>LibreSprite – 开源像素艺术编辑器</title>
-      <link>https://libresprite.github.io/</link>
-      <description><![CDATA[文章网址：https://libresprite.github.io/
-评论网址：https://news.ycombinator.com/item?id=47272799
-积分：139
-# 条评论：51]]></description>
-      <guid>https://libresprite.github.io/</guid>
-      <pubDate>Fri, 06 Mar 2026 09:22:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过第 14 节代理委托进行 GPL 升级</title>
-      <link>https://runxiyu.org/comp/gplproxy/</link>
-      <description><![CDATA[文章网址：https://runxiyu.org/comp/gplproxy/
-评论网址：https://news.ycombinator.com/item?id=47272534
-积分：85
-# 条评论：31]]></description>
-      <guid>https://runxiyu.org/comp/gplproxy/</guid>
-      <pubDate>Fri, 06 Mar 2026 08:41:51 GMT</pubDate>
+      <title>Aldus PageMaker 创始人 Paul Brainerd 去世</title>
+      <link>https://blog.adafruit.com/2026/03/04/pagemaker-and-aldus-founder-pioneer-paul-brainerd-1947-2026/</link>
+      <description><![CDATA[文章网址：https://blog.adafruit.com/2026/03/04/pagemaker-and-aldus-Founder-pioneer-paul-brainerd-1947-2026/
+评论网址：https://news.ycombinator.com/item?id=47276220
+积分：50
+# 条评论：8]]></description>
+      <guid>https://blog.adafruit.com/2026/03/04/pagemaker-and-aldus-founder-pioneer-paul-brainerd-1947-2026/</guid>
+      <pubDate>Fri, 06 Mar 2026 15:33:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
