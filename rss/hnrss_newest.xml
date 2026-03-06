@@ -4,121 +4,129 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 06 Mar 2026 04:42:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 06:51:10 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Yappy – 用于自动化 LinkedIn 聊天的 Python TUI</title>
-      <link>https://github.com/JienWeng/yappy</link>
-      <description><![CDATA[嘿 HN，我厌倦了 LinkedIn 上的表演文化。这个平台给人的感觉就像是人们整天互相喊叫以提高参与度，所以我决定构建一个 CLI 工具来帮我喊叫。它被称为 Yappy（因为我们只是 yap yap yap）。它是一个开源 Python TUI，可以直接从命令行自动执行 LinkedIn 参与。它会登录、读取您的提要，并使用 Gemini API 生成上下文感知的评论并根据您的提示参数进行点赞。一切都完全在终端中运行，因此您实际上不必亲自查看提要。我知道人工智能生成的评论和网络抓取是有争议的，并且 LinkedIn 的 TOS 严格禁止这种自动化。这纯粹是作为一个实验性玩具项目以及将法学硕士与终端接口集成的概念验证而构建的。如果您真的决定运行它，一定要使用一次性帐户，因为如果您过于激进地运行它，LinkedIn 可能会限制您。我主要寻找有关 Python 代码架构和 TUI 实现的技术反馈。很想听听您的想法。如果您觉得这个概念很有趣，请烘烤我的代码或删除 PR。
+      <title>加密货币法案陷入新僵局，引发对其未来的怀疑</title>
+      <link>https://www.reuters.com/business/finance/crypto-bill-hits-new-impasse-raising-doubts-over-its-future-2026-03-05/</link>
+      <description><![CDATA[文章网址：https://www.reuters.com/business/finance/crypto-bill-hits-new-impasse-raise-doubts-over-its-future-2026-03-05/
+评论网址：https://news.ycombinator.com/item?id=47271710
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.reuters.com/business/finance/crypto-bill-hits-new-impasse-raising-doubts-over-its-future-2026-03-05/</guid>
+      <pubDate>Fri, 06 Mar 2026 06:42:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zammad 开源帮助台引入人工智能，无需 LLM 锁定</title>
+      <link>https://zammad.com/en/company/press/zammad-introduces-ai-features-with-free-choice-of-large-language-model</link>
+      <description><![CDATA[文章网址：https://zammad.com/en/company/press/zammad-introduces-ai-features-with-free-choice-of-large-language-model
+评论网址：https://news.ycombinator.com/item?id=47271708
+积分：1
+# 条评论：0]]></description>
+      <guid>https://zammad.com/en/company/press/zammad-introduces-ai-features-with-free-choice-of-large-language-model</guid>
+      <pubDate>Fri, 06 Mar 2026 06:42:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>修复 Rye 0.2 中的一个主要评估订单脚枪</title>
+      <link>https://ryelang.org/blog/posts/rye-0.2-whats-new/</link>
+      <description><![CDATA[文章网址：https://ryelang.org/blog/posts/rye-0.2-whats-new/
+评论网址：https://news.ycombinator.com/item?id=47271704
+积分：1
+# 条评论：0]]></description>
+      <guid>https://ryelang.org/blog/posts/rye-0.2-whats-new/</guid>
+      <pubDate>Fri, 06 Mar 2026 06:42:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>Electrobun 和 WGPU：TypeScript 中的高性能游戏和机器学习</title>
+      <link>https://twitter.com/yoavcodes/status/2029718745552228514</link>
+      <description><![CDATA[文章网址：https://twitter.com/yoavcodes/status/2029718745552228514
+评论网址：https://news.ycombinator.com/item?id=47271675
+积分：1
+# 条评论：0]]></description>
+      <guid>https://twitter.com/yoavcodes/status/2029718745552228514</guid>
+      <pubDate>Fri, 06 Mar 2026 06:37:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>英国推迟就人工智能版权规则做出艰难决定</title>
+      <link>https://www.ft.com/content/e759a712-eddf-4bdd-b4d9-03446f8c6545</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/e759a712-eddf-4bdd-b4d9-03446f8c6545
+评论网址：https://news.ycombinator.com/item?id=47271674
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.ft.com/content/e759a712-eddf-4bdd-b4d9-03446f8c6545</guid>
+      <pubDate>Fri, 06 Mar 2026 06:37:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Claude Sonnet 4.6 问题 1.1.4 进行 Knuth 测试</title>
+      <link>https://news.ycombinator.com/item?id=47271665</link>
+      <description><![CDATA[高德纳计算机编程艺术 V1 p2
+----------------------------------------------------------------------------------
+算法 E（欧几里得算法）。给定两个正整数 m 和 n，
+求它们的最大公约数，即最大的正整数
+整除 m 和 n。E1 [求余数] m 除以 n，r 为余数。 （我们将 
+知道 0 &lt;= r &lt; n)E2 [是否为零？] 如果 r = 0，算法终止，n 就是答案E3 [归约] 设 m = n，则 n = r，然后返回步骤 E1------------------------------------------------------------------------
+Knuth 计算机编程艺术 V1 p9 问题 1.1.4[4] 使用算法 E 计算 2166 和 6099 的最大公约数。
+在使用算法时标记每个步骤。================================================================================
+克劳德十四行诗 4.6
+============================================================================从 m = 2166，n = 6099 开始：
+E1: 2166 ÷ 6099 = 0 余数 2166 → r = 2166
+E2：r≠0，继续
+E3：m = 6099，n = 2166E1：6099 ÷ 2166 = 2 余数 1767 → r = 1767
+E2：r≠0，继续
+E3：m = 2166，n = 1767E1：2166 ÷ 1767 = 1 余数 399 → r = 399
+E2：r≠0，继续
+E3：m = 1767，n = 399E1：1767 ÷ 399 = 4 余数 171 → r = 171
+E2：r≠0，继续
+E3：m = 399，n = 171E1：399 ÷ 171 = 2 余数 57 → r = 57
+E2：r≠0，继续
+E3：m = 171，n = 57E1：171 ÷ 57 = 3 余数 0 → r = 0
+E2：r = 0，算法终止 
+GCD(2166, 6099) = 57
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47270845
+评论网址：https://news.ycombinator.com/item?id=47271665
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47271665</guid>
+      <pubDate>Fri, 06 Mar 2026 06:36:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>JP Jonathan Blow 谈 LSP [视频]</title>
+      <link>https://www.youtube.com/watch?v=ApmD4IQP-Ac</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=ApmD4IQP-Ac
+评论网址：https://news.ycombinator.com/item?id=47271634
 积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/JienWeng/yappy</guid>
-      <pubDate>Fri, 06 Mar 2026 04:22:08 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=ApmD4IQP-Ac</guid>
+      <pubDate>Fri, 06 Mar 2026 06:31:12 GMT</pubDate>
     </item>
     <item>
-      <title>闭嘴，拿走我的钱</title>
-      <link>https://lorendb.dev/posts/shut-up-and-take-my-money/</link>
-      <description><![CDATA[文章网址：https://lorendb.dev/posts/shut-up-and-take-my-money/
-评论网址：https://news.ycombinator.com/item?id=47270819
+      <title>内部笔记：皮行者</title>
+      <link>https://www.therage.co/keonne-rodriguez-letter-skinwalker/</link>
+      <description><![CDATA[文章网址：https://www.therage.co/keonne-rodriguez-letter-skinwalker/
+评论网址：https://news.ycombinator.com/item?id=47271617
 积分：1
-# 条评论：0]]></description>
-      <guid>https://lorendb.dev/posts/shut-up-and-take-my-money/</guid>
-      <pubDate>Fri, 06 Mar 2026 04:17:47 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://www.therage.co/keonne-rodriguez-letter-skinwalker/</guid>
+      <pubDate>Fri, 06 Mar 2026 06:27:48 GMT</pubDate>
     </item>
     <item>
-      <title>拼写用户界面</title>
-      <link>https://spell.sh/</link>
-      <description><![CDATA[文章网址：https://spell.sh/
-评论网址：https://news.ycombinator.com/item?id=47270816
-积分：1
-# 条评论：0]]></description>
-      <guid>https://spell.sh/</guid>
-      <pubDate>Fri, 06 Mar 2026 04:16:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Swarm – 使用自定义汇编语言对 200 只蚂蚁的群体进行编程</title>
-      <link>https://dev.moment.com/</link>
-      <description><![CDATA[我们构建了一个蚁群模拟，作为 Moment 的内部招聘挑战，并决定将其公开。您使用自定义的类汇编（我们称之为 ant-ssembly）指令集编写一个程序，控制 200 只蚂蚁。每只蚂蚁都可以感知附近的细胞（食物、信息素、家园、其他蚂蚁），但没有全局视野。唯一的协调机制是信息素痕迹，蚂蚁可以发出并感知它们，但仅此而已。您的程序在每只蚂蚁上都以相同的方式运行。目标是在一组地图上收集最高百分比的食物。不同的地图布局（聚集的食物、分散的、障碍物）奖励截然不同的策略。排行榜已上线。大奖是 Moment 支付的两人毛伊岛之旅。挑战将于 3 月 12 日结束。很好奇人们发现了什么策略。我们在内部看到了一些令人惊讶的聪明的突发行为。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47270807
-积分：4
-# 条评论：0]]></description>
-      <guid>https://dev.moment.com/</guid>
-      <pubDate>Fri, 06 Mar 2026 04:15:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Safari 和 Spotlight (macOS) 上的自定义搜索引擎</title>
-      <link>https://knhash.in/custom-search-engine-on-safari-and-spotlight-macos/</link>
-      <description><![CDATA[文章网址：https://knhash.in/custom-search-engine-on-safari-and-spotlight-macos/
-评论网址：https://news.ycombinator.com/item?id=47270801
-积分：1
-# 条评论：0]]></description>
-      <guid>https://knhash.in/custom-search-engine-on-safari-and-spotlight-macos/</guid>
-      <pubDate>Fri, 06 Mar 2026 04:14:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：SafeAgent – AI 代理的一次性执行防护</title>
-      <link>https://news.ycombinator.com/item?id=47270797</link>
-      <description><![CDATA[LLM 代理和工具调用系统经常重试或重放操作。当操作不可逆转时，这会变得危险：
-- 发送电子邮件
-- 开票
-- 执行交易
-- 触发付款SafeAgent 是一个小型 Python 库，它使用请求 ID 重复数据删除强制执行代理操作一次。示例：from Settlement.settlement_requests import SettlementRequestRegistryregistry = SettlementRequestRegistry()def send_email()：
-    print(&quot;电子邮件已发送&quot;)registry.execute(
-    request_id=&quot;电子邮件:user123:发票&quot;,
-    动作=“发送电子邮件”，
-    有效负载={&quot;to&quot;: &quot;user123@example.com&quot;},
-    执行_fn=发送电子邮件
-)如果重播相同的 request_id，则操作不会再次运行。而是返回原始执行收据。pip install safeagent-exec-guardGitHub：
-https://github.com/azender1/SafeAgentPyPI：
-https://pypi.org/project/safeagent-exec-guard/
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47270797
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47270797</guid>
-      <pubDate>Fri, 06 Mar 2026 04:14:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>增强的脑细胞清除与痴呆症相关的蛋白质</title>
-      <link>https://medicalxpress.com/news/2026-03-brain-cells-dementia-proteins.html</link>
-      <description><![CDATA[文章网址：https://medicalxpress.com/news/2026-03-brain-cells-dementia- Proteins.html
-评论网址：https://news.ycombinator.com/item?id=47270796
+      <title>显示 HN：锚点引擎 – 本地法学硕士的确定性语义记忆（<3GB RAM）</title>
+      <link>https://github.com/RSBalchII/anchor-engine-node/</link>
+      <description><![CDATA[文章网址：https://github.com/RSBalchII/anchor-engine-node/
+评论网址：https://news.ycombinator.com/item?id=47271590
 积分：2
-# 条评论：0]]></description>
-      <guid>https://medicalxpress.com/news/2026-03-brain-cells-dementia-proteins.html</guid>
-      <pubDate>Fri, 06 Mar 2026 04:14:39 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://github.com/RSBalchII/anchor-engine-node/</guid>
+      <pubDate>Fri, 06 Mar 2026 06:23:16 GMT</pubDate>
     </item>
     <item>
-      <title>谷歌专利：将搜索者发送到您网站上的人工智能生成页面</title>
-      <link>https://www.seroundtable.com/google-patent-ai-generated-pages-search-41010.html</link>
-      <description><![CDATA[文章网址：https://www.seroundtable.com/google-patent-ai- generated-pages-search-41010.html
-评论网址：https://news.ycombinator.com/item?id=47270785
+      <title>V1：并行推理机的统一生成和自我验证 (ArXiv)</title>
+      <link>https://arxiv.org/abs/2603.04304</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2603.04304
+评论网址：https://news.ycombinator.com/item?id=47271571
 积分：2
-# 条评论：0]]></description>
-      <guid>https://www.seroundtable.com/google-patent-ai-generated-pages-search-41010.html</guid>
-      <pubDate>Fri, 06 Mar 2026 04:12:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>System76 年龄验证法</title>
-      <link>https://blog.system76.com/post/system76-on-age-verification/</link>
-      <description><![CDATA[文章网址：https://blog.system76.com/post/system76-on-age-verification/
-评论网址：https://news.ycombinator.com/item?id=47270784
-积分：2
-# 条评论：0]]></description>
-      <guid>https://blog.system76.com/post/system76-on-age-verification/</guid>
-      <pubDate>Fri, 06 Mar 2026 04:12:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>低信任社会的技术</title>
-      <link>https://www.theatlantic.com/technology/2026/03/central-lie-prediction-markets/686250/</link>
-      <description><![CDATA[文章网址：https://www.theatlantic.com/technology/2026/03/central-lie-prediction-markets/686250/
-评论网址：https://news.ycombinator.com/item?id=47270766
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.theatlantic.com/technology/2026/03/central-lie-prediction-markets/686250/</guid>
-      <pubDate>Fri, 06 Mar 2026 04:09:28 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://arxiv.org/abs/2603.04304</guid>
+      <pubDate>Fri, 06 Mar 2026 06:21:03 GMT</pubDate>
     </item>
     </channel>
 </rss>
