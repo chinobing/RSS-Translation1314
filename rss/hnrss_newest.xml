@@ -4,129 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 06 Mar 2026 06:51:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 09:39:55 GMT</lastBuildDate>
     <item>
-      <title>加密货币法案陷入新僵局，引发对其未来的怀疑</title>
-      <link>https://www.reuters.com/business/finance/crypto-bill-hits-new-impasse-raising-doubts-over-its-future-2026-03-05/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/business/finance/crypto-bill-hits-new-impasse-raise-doubts-over-its-future-2026-03-05/
-评论网址：https://news.ycombinator.com/item?id=47271710
+      <title>欧洲经济并未停滞</title>
+      <link>https://jacobin.com/2026/03/us-europe-comparative-productivity-statistics</link>
+      <description><![CDATA[文章网址：https://jacobin.com/2026/03/us-europe-comparative-productivity-statistics
+评论网址：https://news.ycombinator.com/item?id=47272869
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.reuters.com/business/finance/crypto-bill-hits-new-impasse-raising-doubts-over-its-future-2026-03-05/</guid>
-      <pubDate>Fri, 06 Mar 2026 06:42:50 GMT</pubDate>
+      <guid>https://jacobin.com/2026/03/us-europe-comparative-productivity-statistics</guid>
+      <pubDate>Fri, 06 Mar 2026 09:34:41 GMT</pubDate>
     </item>
     <item>
-      <title>Zammad 开源帮助台引入人工智能，无需 LLM 锁定</title>
-      <link>https://zammad.com/en/company/press/zammad-introduces-ai-features-with-free-choice-of-large-language-model</link>
-      <description><![CDATA[文章网址：https://zammad.com/en/company/press/zammad-introduces-ai-features-with-free-choice-of-large-language-model
-评论网址：https://news.ycombinator.com/item?id=47271708
-积分：1
-# 条评论：0]]></description>
-      <guid>https://zammad.com/en/company/press/zammad-introduces-ai-features-with-free-choice-of-large-language-model</guid>
-      <pubDate>Fri, 06 Mar 2026 06:42:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>修复 Rye 0.2 中的一个主要评估订单脚枪</title>
-      <link>https://ryelang.org/blog/posts/rye-0.2-whats-new/</link>
-      <description><![CDATA[文章网址：https://ryelang.org/blog/posts/rye-0.2-whats-new/
-评论网址：https://news.ycombinator.com/item?id=47271704
-积分：1
-# 条评论：0]]></description>
-      <guid>https://ryelang.org/blog/posts/rye-0.2-whats-new/</guid>
-      <pubDate>Fri, 06 Mar 2026 06:42:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Electrobun 和 WGPU：TypeScript 中的高性能游戏和机器学习</title>
-      <link>https://twitter.com/yoavcodes/status/2029718745552228514</link>
-      <description><![CDATA[文章网址：https://twitter.com/yoavcodes/status/2029718745552228514
-评论网址：https://news.ycombinator.com/item?id=47271675
-积分：1
-# 条评论：0]]></description>
-      <guid>https://twitter.com/yoavcodes/status/2029718745552228514</guid>
-      <pubDate>Fri, 06 Mar 2026 06:37:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>英国推迟就人工智能版权规则做出艰难决定</title>
-      <link>https://www.ft.com/content/e759a712-eddf-4bdd-b4d9-03446f8c6545</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/e759a712-eddf-4bdd-b4d9-03446f8c6545
-评论网址：https://news.ycombinator.com/item?id=47271674
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.ft.com/content/e759a712-eddf-4bdd-b4d9-03446f8c6545</guid>
-      <pubDate>Fri, 06 Mar 2026 06:37:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Claude Sonnet 4.6 问题 1.1.4 进行 Knuth 测试</title>
-      <link>https://news.ycombinator.com/item?id=47271665</link>
-      <description><![CDATA[高德纳计算机编程艺术 V1 p2
-----------------------------------------------------------------------------------
-算法 E（欧几里得算法）。给定两个正整数 m 和 n，
-求它们的最大公约数，即最大的正整数
-整除 m 和 n。E1 [求余数] m 除以 n，r 为余数。 （我们将 
-知道 0 &lt;= r &lt; n)E2 [是否为零？] 如果 r = 0，算法终止，n 就是答案E3 [归约] 设 m = n，则 n = r，然后返回步骤 E1------------------------------------------------------------------------
-Knuth 计算机编程艺术 V1 p9 问题 1.1.4[4] 使用算法 E 计算 2166 和 6099 的最大公约数。
-在使用算法时标记每个步骤。================================================================================
-克劳德十四行诗 4.6
-============================================================================从 m = 2166，n = 6099 开始：
-E1: 2166 ÷ 6099 = 0 余数 2166 → r = 2166
-E2：r≠0，继续
-E3：m = 6099，n = 2166E1：6099 ÷ 2166 = 2 余数 1767 → r = 1767
-E2：r≠0，继续
-E3：m = 2166，n = 1767E1：2166 ÷ 1767 = 1 余数 399 → r = 399
-E2：r≠0，继续
-E3：m = 1767，n = 399E1：1767 ÷ 399 = 4 余数 171 → r = 171
-E2：r≠0，继续
-E3：m = 399，n = 171E1：399 ÷ 171 = 2 余数 57 → r = 57
-E2：r≠0，继续
-E3：m = 171，n = 57E1：171 ÷ 57 = 3 余数 0 → r = 0
-E2：r = 0，算法终止 
-GCD(2166, 6099) = 57
+      <title>问 HN：打造旗舰 AI 模型的子代理是否感觉像管理者？</title>
+      <link>https://news.ycombinator.com/item?id=47272846</link>
+      <description><![CDATA[子代理是人工智能编码助手中最新的强大功能之一，我对它们的感觉很复杂。基本想法很好。如果任务很混乱，您可以将其拆分为较小的线程，并行运行它们，然后合并结果。对于大型重构、多文件调试或研究实施工作，这可以节省大量时间。但我开始注意到奇怪的管理器效应。我要求顶级模型，因为我想要最好的推理和工程判断。相反，主代理似乎经常切换到“经理”模式，并将大部分实际工作委托给较小的模型。较小的模型产生了一个不错的解决方案，然后昂贵的模型将其变成了完美的最终答案。因此，智能模型成为管理者，更便宜的模型承担繁重的工作，整个链会燃烧代币。具有讽刺意味的是，管理器往往是最昂贵的部分，也是最无用的部分。我想要从这些工具中获得的主要是透明度和控制力。我想看看哪个模型处理了哪个步骤。我想要禁用委派的选项，或将其限制为某些子任务。如果该工具正在速度与质量之间进行权衡，我希望这种权衡是明确的。子代理确实很有用。但如果我花钱购买旗舰型号，我想要旗舰级的工作，而不是较弱型号草稿的摘要。很好奇其他人是否也看到同样的事情。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47271665
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47271665</guid>
-      <pubDate>Fri, 06 Mar 2026 06:36:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>JP Jonathan Blow 谈 LSP [视频]</title>
-      <link>https://www.youtube.com/watch?v=ApmD4IQP-Ac</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=ApmD4IQP-Ac
-评论网址：https://news.ycombinator.com/item?id=47271634
+评论网址：https://news.ycombinator.com/item?id=47272846
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=ApmD4IQP-Ac</guid>
-      <pubDate>Fri, 06 Mar 2026 06:31:12 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47272846</guid>
+      <pubDate>Fri, 06 Mar 2026 09:30:12 GMT</pubDate>
     </item>
     <item>
-      <title>内部笔记：皮行者</title>
-      <link>https://www.therage.co/keonne-rodriguez-letter-skinwalker/</link>
-      <description><![CDATA[文章网址：https://www.therage.co/keonne-rodriguez-letter-skinwalker/
-评论网址：https://news.ycombinator.com/item?id=47271617
+      <title>如何在德国创办公司：16 个“简单”步骤和大量痛苦</title>
+      <link>https://eidel.io/posts/how-to-found-a-company-in-germany-14-easy-steps-and-lots-of-pain</link>
+      <description><![CDATA[文章网址：https://eidel.io/posts/how-to-found-a-company-in-germany-14-easy-steps-and-lots-of-pain
+评论网址：https://news.ycombinator.com/item?id=47272841
+积分：1
+# 条评论：0]]></description>
+      <guid>https://eidel.io/posts/how-to-found-a-company-in-germany-14-easy-steps-and-lots-of-pain</guid>
+      <pubDate>Fri, 06 Mar 2026 09:28:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>数字凭证 API 起源试用</title>
+      <link>https://developer.chrome.com/blog/digital-credentials-api-origin-trial</link>
+      <description><![CDATA[文章网址：https://developer.chrome.com/blog/digital-credentials-api-origin-trial
+评论网址：https://news.ycombinator.com/item?id=47272826
+积分：1
+# 条评论：0]]></description>
+      <guid>https://developer.chrome.com/blog/digital-credentials-api-origin-trial</guid>
+      <pubDate>Fri, 06 Mar 2026 09:27:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>LibreSprite – 开源像素艺术编辑器</title>
+      <link>https://libresprite.github.io/</link>
+      <description><![CDATA[文章网址：https://libresprite.github.io/
+评论网址：https://news.ycombinator.com/item?id=47272799
+积分：1
+# 条评论：0]]></description>
+      <guid>https://libresprite.github.io/</guid>
+      <pubDate>Fri, 06 Mar 2026 09:22:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果人工智能有光明的未来，为什么人工智能认为它没有光明的未来？</title>
+      <link>https://claude.ai/share/5373cca0-f085-40a7-9a58-3f30b4f76195</link>
+      <description><![CDATA[文章网址：https://claude.ai/share/5373cca0-f085-40a7-9a58-3f30b4f76195
+评论网址：https://news.ycombinator.com/item?id=47272797
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.therage.co/keonne-rodriguez-letter-skinwalker/</guid>
-      <pubDate>Fri, 06 Mar 2026 06:27:48 GMT</pubDate>
+      <guid>https://claude.ai/share/5373cca0-f085-40a7-9a58-3f30b4f76195</guid>
+      <pubDate>Fri, 06 Mar 2026 09:21:56 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：锚点引擎 – 本地法学硕士的确定性语义记忆（<3GB RAM）</title>
-      <link>https://github.com/RSBalchII/anchor-engine-node/</link>
-      <description><![CDATA[文章网址：https://github.com/RSBalchII/anchor-engine-node/
-评论网址：https://news.ycombinator.com/item?id=47271590
-积分：2
-# 条评论：1]]></description>
-      <guid>https://github.com/RSBalchII/anchor-engine-node/</guid>
-      <pubDate>Fri, 06 Mar 2026 06:23:16 GMT</pubDate>
+      <title>关于婚姻，请求教会了我什么</title>
+      <link>https://kennethreitz.org/essays/2026-03-06-what_requests_taught_me_about_marriage</link>
+      <description><![CDATA[文章网址：https://kennethreitz.org/essays/2026-03-06-what_requests_taught_me_about_marriage
+评论网址：https://news.ycombinator.com/item?id=47272794
+积分：1
+# 条评论：0]]></description>
+      <guid>https://kennethreitz.org/essays/2026-03-06-what_requests_taught_me_about_marriage</guid>
+      <pubDate>Fri, 06 Mar 2026 09:21:34 GMT</pubDate>
     </item>
     <item>
-      <title>V1：并行推理机的统一生成和自我验证 (ArXiv)</title>
-      <link>https://arxiv.org/abs/2603.04304</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2603.04304
-评论网址：https://news.ycombinator.com/item?id=47271571
-积分：2
-# 条评论：1]]></description>
-      <guid>https://arxiv.org/abs/2603.04304</guid>
-      <pubDate>Fri, 06 Mar 2026 06:21:03 GMT</pubDate>
+      <title>语言工具——您的写作助手</title>
+      <link>https://languagetool.org/</link>
+      <description><![CDATA[文章网址：https://languagetool.org/
+评论网址：https://news.ycombinator.com/item?id=47272793
+积分：1
+# 条评论：0]]></description>
+      <guid>https://languagetool.org/</guid>
+      <pubDate>Fri, 06 Mar 2026 09:21:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：OgBlocks – 零安装动画UI组件库</title>
+      <link>https://ogblocks.dev</link>
+      <description><![CDATA[嘿 HN，我是 Karan。作为一名前端开发人员，我厌倦了不断重写动画样板只是为了让缓动和交互感觉正确。我构建了 ogBlocks 来解决自己的问题。这是一个交互式 UI 组件的复制粘贴库。我使用 Framer Motion 来处理复杂的东西 - 重点关注调整弹簧和惯性，使物理感觉更自然 - 以及纯粹的 CSS 来实现更轻的效果元素。希望收到您对代码结构、性能或您认为生态系统中缺少的任何特定动画的反馈。我知道您会喜欢这个库看看并乐意回答任何问题
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47272785
+积分：1
+# 条评论：0]]></description>
+      <guid>https://ogblocks.dev</guid>
+      <pubDate>Fri, 06 Mar 2026 09:20:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>坡叉排行榜</title>
+      <link>https://slopforks.com/</link>
+      <description><![CDATA[文章网址：https://slopforks.com/
+评论网址：https://news.ycombinator.com/item?id=47272779
+积分：1
+# 条评论：0]]></description>
+      <guid>https://slopforks.com/</guid>
+      <pubDate>Fri, 06 Mar 2026 09:19:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
