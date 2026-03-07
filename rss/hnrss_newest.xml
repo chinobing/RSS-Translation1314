@@ -4,115 +4,115 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 07 Mar 2026 09:30:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 12:49:16 GMT</lastBuildDate>
     <item>
-      <title>用不到 125 行 C 语言编写一个简单的 VM（2021）</title>
-      <link>https://www.andreinc.net/2021/12/01/writing-a-simple-vm-in-less-than-125-lines-of-c/</link>
-      <description><![CDATA[文章网址：https://www.andreinc.net/2021/12/01/writing-a-simple-vm-in-less-than-125-lines-of-c/
-评论网址：https://news.ycombinator.com/item?id=47285994
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.andreinc.net/2021/12/01/writing-a-simple-vm-in-less-than-125-lines-of-c/</guid>
-      <pubDate>Sat, 07 Mar 2026 09:24:30 GMT</pubDate>
-    </item>
-    <item>
-      <title></title>
-      <link>https://news.ycombinator.com/item?id=47285978</link>
-      <description><![CDATA[我是一名训练有素的医生，目前从事临床遗传学工作。与此同时，我已经断断续续地编程了大约五年，并在一家 IT 公司全职工作了两年多，担任前端开发人员。尽管回到了医学界，但我总是感到自己被编程所吸引。我喜欢构建东西、解决技术问题以及使用代码。我正在尝试找出最好的前进方向。一种选择是离开医学界，再次全面投入软件领域。但如果不以某种方式将我的医学背景与我的技术技能结合起来，感觉就像是一种浪费。我主要对走数据分析师路线不感兴趣——如果可能的话，我宁愿利用我的前端/全栈开发技能。医学和软件开发是否存在有意义的交叉的职业道路？这里有人走过类似的路吗？
+      <title>20ms 启动时间 Lamda（问题，不是蹩脚的广告）</title>
+      <link>https://news.ycombinator.com/item?id=47287171</link>
+      <description><![CDATA[我已经弄清楚如何制作一个可以在 20 毫秒内启动的 AWS lamda 版本（用户代码传输 + 启动，不包括用户代码启动时间），你们中有人遇到过冷启动问题吗？这种概念对您有用吗？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47285978
+评论网址：https://news.ycombinator.com/item?id=47287171
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47285978</guid>
-      <pubDate>Sat, 07 Mar 2026 09:22:13 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47287171</guid>
+      <pubDate>Sat, 07 Mar 2026 12:44:34 GMT</pubDate>
     </item>
     <item>
-      <title>Meta 认为通过 BitTorrent 上传盗版图书属于合理使用</title>
-      <link>https://torrentfreak.com/uploading-pirated-books-via-bittorrent-qualifies-as-fair-use-meta/</link>
-      <description><![CDATA[文章网址：https://torrentfreak.com/uploading-pierated-books-via-bittorrent-qualizes-as-fair-use-meta/
-评论网址：https://news.ycombinator.com/item?id=47285960
-积分：1
-# 条评论：0]]></description>
-      <guid>https://torrentfreak.com/uploading-pirated-books-via-bittorrent-qualifies-as-fair-use-meta/</guid>
-      <pubDate>Sat, 07 Mar 2026 09:18:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Spectra – 具有离线 ML 分类功能的本地金融仪表板</title>
-      <link>https://www.withspectra.app/</link>
-      <description><![CDATA[文章网址：https://www.withspectra.app/
-评论网址：https://news.ycombinator.com/item?id=47285953
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.withspectra.app/</guid>
-      <pubDate>Sat, 07 Mar 2026 09:17:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare-Native 入门套件</title>
-      <link>https://greeff.dev/starter-kits</link>
-      <description><![CDATA[文章网址：https://greeff.dev/starter-kits
-评论网址：https://news.ycombinator.com/item?id=47285949
-积分：1
-# 条评论：0]]></description>
-      <guid>https://greeff.dev/starter-kits</guid>
-      <pubDate>Sat, 07 Mar 2026 09:15:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：预发布 – 状态页面 15 美元/月（对比 Atlassian 299 美元） – 加入候补名单</title>
-      <link>https://news.ycombinator.com/item?id=47285913</link>
-      <description><![CDATA[昨天停电 45 分钟 → 60“停电了吗？”支持票证。当前解决方案：
-- Atlassian 的 Statuspage：299 美元/月 
-- 更好的正常运行时间：复杂的监控套件
-- 开源：无自动通信StatusEmbed（3 月 17 日启动）：
-- 部署 status.yourapp.com：5 分钟
-- 零误报事件检测（2x IP 验证）  
-- 向订阅者发送电子邮件通知：&lt;2 分钟
-- 具有 90 天正常运行时间 + 事件时间表的公共页面
-- 自定义域 + SSL (Cloudflare)
-- 可嵌入的小部件
-- 7 天试用，自动计费 15 美元/月候补名单：https://se-snowy-ten.vercel.app/好奇：您今天对状态页面最大的痛苦是什么？误报？设置时间？成本？反馈决定 MVP。欢迎发表评论。__Powell
+      <title>Show HN：learnchess.ai – 本地首创的人工智能国际象棋教练应用程序</title>
+      <link>https://learnchess.ai</link>
+      <description><![CDATA[我已经下棋好几年了，在 Lichess 上我的 ELO 停留在 1600 左右。我想要一款将益智训练、互动课程、游戏分析和人工智能辅导融为一体的应用程序。但多年来我使用的所有应用程序要么让人感到不知所措，要么用户体验达不到我对现代应用程序的期望，要么缺乏一些我真正想要的基本功能。因此，我构建了 LearnChess.ai。我最兴奋的技术角度：它是使用 LiveStore（事件源、设备上的 SQLite）本地优先构建的，这意味着用户数据的零加载延迟和完整的离线支持。同步到云在后台进行，以便跨设备使用。该堆栈是 TanStack Start（Web）、Expo（移动），并且完全在 Cloudflare 上运行。当前测试版的功能：
+- 包含社区提交内容的益智训练器
+- 开局和残局的指导课程
+- 来自 Lichess &amp; Chess.com 的游戏导入和分析
+- 根据您自己的游戏历史打开资源管理器
+- Stockfish 在专用 Hetzner 服务器上运行（比浏览器内的 WASM 更快）
+- 人工智能辅导直接集成在分析板上
+- 协调训练、初学者赛道、排行榜……可在网络、iOS (TestFlight) 和 Android 上使用（即将准备就绪）。希望得到您的反馈 - 无论是关于产品还是架构选择！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47285913
-积分：2
+评论网址：https://news.ycombinator.com/item?id=47287155
+积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47285913</guid>
-      <pubDate>Sat, 07 Mar 2026 09:08:25 GMT</pubDate>
+      <guid>https://learnchess.ai</guid>
+      <pubDate>Sat, 07 Mar 2026 12:42:47 GMT</pubDate>
     </item>
     <item>
-      <title>赫茨纳因“违反条款”而禁止网站</title>
-      <link>https://twitter.com/tyleraloevera/status/2030064144980873434</link>
-      <description><![CDATA[文章网址：https://twitter.com/tyleraloevera/status/2030064144980873434
-评论网址：https://news.ycombinator.com/item?id=47285893
+      <title>是AI模型软件吗？ – 低级技术观点</title>
+      <link>https://bensantora-com.pages.dev/posts/is-an-ai-model-software/</link>
+      <description><![CDATA[文章网址：https://bensantora-com.pages.dev/posts/is-an-ai-model-software/
+评论网址：https://news.ycombinator.com/item?id=47287142
 积分：1
 # 条评论：1]]></description>
-      <guid>https://twitter.com/tyleraloevera/status/2030064144980873434</guid>
-      <pubDate>Sat, 07 Mar 2026 09:05:10 GMT</pubDate>
+      <guid>https://bensantora-com.pages.dev/posts/is-an-ai-model-software/</guid>
+      <pubDate>Sat, 07 Mar 2026 12:41:32 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：μJS，Htmx 和 Turbo 的 5KB 替代品，零依赖性</title>
-      <link>https://mujs.org</link>
-      <description><![CDATA[我构建 µJS 是因为我想要 AJAX 导航，而无需 HTMX 的冗长或 Turbo 的开销。它拦截链接和表单提交，通过 AJAX 获取页面，并交换 DOM 片段。单个 ]]></description>
-      <guid>https://mujs.org</guid>
-      <pubDate>Sat, 07 Mar 2026 08:59:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国宇航局的飞镖任务改变了小行星绕太阳的轨道</title>
-      <link>https://www.jpl.nasa.gov/news/nasas-dart-mission-changed-orbit-of-asteroid-didymos-around-sun/</link>
-      <description><![CDATA[文章网址：https://www.jpl.nasa.gov/news/nasas-dart-mission-changed-orbit-of-asteroid-didymos-around-sun/
-评论网址：https://news.ycombinator.com/item?id=47285873
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.jpl.nasa.gov/news/nasas-dart-mission-changed-orbit-of-asteroid-didymos-around-sun/</guid>
-      <pubDate>Sat, 07 Mar 2026 08:58:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何解开你的分数</title>
-      <link>https://mathvoices.ams.org/featurecolumn/2026/03/01/how-to-untwist-your-fractions/</link>
-      <description><![CDATA[文章网址：https://mathvoices.ams.org/featurecolumn/2026/03/01/how-to-untwist-your-fractions/
-评论网址：https://news.ycombinator.com/item?id=47285863
+      <title>JIBLM——数学探究式学习杂志</title>
+      <link>https://jiblm.org/guides/index.php?category=jiblmjournal</link>
+      <description><![CDATA[文章网址：https://jiblm.org/guides/index.php?category=jiblmjournal
+评论网址：https://news.ycombinator.com/item?id=47287135
 积分：1
 # 条评论：0]]></description>
-      <guid>https://mathvoices.ams.org/featurecolumn/2026/03/01/how-to-untwist-your-fractions/</guid>
-      <pubDate>Sat, 07 Mar 2026 08:56:55 GMT</pubDate>
+      <guid>https://jiblm.org/guides/index.php?category=jiblmjournal</guid>
+      <pubDate>Sat, 07 Mar 2026 12:40:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>FreeBSD 15.1 步入正轨，具有更好的 Realtek WiFi 和 KDE 桌面安装选项</title>
+      <link>https://www.phoronix.com/news/FreeBSD-15.1-Realtek-KDE-Wins</link>
+      <description><![CDATA[文章网址：https://www.phoronix.com/news/FreeBSD-15.1-Realtek-KDE-Wins
+评论网址：https://news.ycombinator.com/item?id=47287127
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.phoronix.com/news/FreeBSD-15.1-Realtek-KDE-Wins</guid>
+      <pubDate>Sat, 07 Mar 2026 12:38:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于法学硕士推理失败的论文精选列表</title>
+      <link>https://github.com/Peiyang-Song/Awesome-LLM-Reasoning-Failures</link>
+      <description><![CDATA[文章网址：https://github.com/Peiyang-Song/Awesome-LLM-Reasoning-Failures
+评论网址：https://news.ycombinator.com/item?id=47287123
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/Peiyang-Song/Awesome-LLM-Reasoning-Failures</guid>
+      <pubDate>Sat, 07 Mar 2026 12:38:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>揭开看似简单的通证经济学科学</title>
+      <link>https://www.theregister.com/2026/03/07/ai_inference_economics/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2026/03/07/ai_inference_economics/
+评论网址：https://news.ycombinator.com/item?id=47287109
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theregister.com/2026/03/07/ai_inference_economics/</guid>
+      <pubDate>Sat, 07 Mar 2026 12:36:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>吐火罗语 *klewos: nom-klyu</title>
+      <link>https://old.reddit.com/r/IndoEuropean/comments/geyjva/the_tocharian_klewos_nomklyu/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/IndoEuropean/comments/geyjva/the_tocharian_klewos_nomklyu/
+评论网址：https://news.ycombinator.com/item?id=47287099
+积分：1
+# 条评论：1]]></description>
+      <guid>https://old.reddit.com/r/IndoEuropean/comments/geyjva/the_tocharian_klewos_nomklyu/</guid>
+      <pubDate>Sat, 07 Mar 2026 12:34:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>LeadsFromURL – AI 从您的 URL 中查找 Reddit 上的买家意向对话</title>
+      <link>https://leadsfromurl.com</link>
+      <description><![CDATA[文章网址：https://leadsfromurl.com
+评论网址：https://news.ycombinator.com/item?id=47287080
+积分：1
+# 条评论：1]]></description>
+      <guid>https://leadsfromurl.com</guid>
+      <pubDate>Sat, 07 Mar 2026 12:32:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>lsgit：列出 Git 存储库</title>
+      <link>https://github.com/itinance/lsgit</link>
+      <description><![CDATA[文章网址：https://github.com/itinance/lsgit
+评论网址：https://news.ycombinator.com/item?id=47287057
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/itinance/lsgit</guid>
+      <pubDate>Sat, 07 Mar 2026 12:29:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
