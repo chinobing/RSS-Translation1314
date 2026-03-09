@@ -4,113 +4,168 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 09 Mar 2026 18:54:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 21:35:00 GMT</lastBuildDate>
     <item>
-      <title>重新设计我们的心流状态</title>
-      <link>https://twitter.com/wattenberger/status/2031068210167222313</link>
-      <description><![CDATA[文章网址：https://twitter.com/wattenberger/status/2031068210167222313
-评论网址：https://news.ycombinator.com/item?id=47313591
+      <title>我们的 Winnebago Solis 露营车的电气升级</title>
+      <link>https://www.jamesxli.com/2026/van-electrical-upgrades/</link>
+      <description><![CDATA[文章网址：https://www.jamesxli.com/2026/van-electrical-upgrades/
+评论网址：https://news.ycombinator.com/item?id=47315843
 积分：1
 # 条评论：0]]></description>
-      <guid>https://twitter.com/wattenberger/status/2031068210167222313</guid>
-      <pubDate>Mon, 09 Mar 2026 18:50:21 GMT</pubDate>
+      <guid>https://www.jamesxli.com/2026/van-electrical-upgrades/</guid>
+      <pubDate>Mon, 09 Mar 2026 21:32:50 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic 起诉美国政府称其为风险</title>
-      <link>https://www.bbc.com/news/articles/cq571w5vllxo</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cq571w5vllxo
-评论网址：https://news.ycombinator.com/item?id=47313573
-积分：3
+      <title>代币化股票即将进入您附近的市场</title>
+      <link>https://www.wsj.com/finance/stocks/tokenized-stocks-are-coming-to-a-market-near-you-five-things-to-know-d9131494</link>
+      <description><![CDATA[文章网址： https://www.wsj.com/finance/stocks/tokenized-stocks-are-coming-to-a-market-near-you- Five-things-to-know-d9131494
+评论网址：https://news.ycombinator.com/item?id=47315815
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.bbc.com/news/articles/cq571w5vllxo</guid>
-      <pubDate>Mon, 09 Mar 2026 18:48:58 GMT</pubDate>
+      <guid>https://www.wsj.com/finance/stocks/tokenized-stocks-are-coming-to-a-market-near-you-five-things-to-know-d9131494</guid>
+      <pubDate>Mon, 09 Mar 2026 21:29:35 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic 起诉特朗普政府</title>
-      <link>https://www.cnn.com/2026/03/09/tech/anthropic-sues-pentagon</link>
-      <description><![CDATA[文章网址：https://www.cnn.com/2026/03/09/tech/anthropic-sues-pentagon
-评论网址：https://news.ycombinator.com/item?id=47313568
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.cnn.com/2026/03/09/tech/anthropic-sues-pentagon</guid>
-      <pubDate>Mon, 09 Mar 2026 18:48:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么最有价值的人工智能系统仍然是表格模型</title>
-      <link>https://news.ycombinator.com/item?id=47313564</link>
-      <description><![CDATA[我职业生涯的大部分时间都在基于表格数据构建预测模型。我见过的最高价值的系统并不是华而不实的人工智能演示。它们是战术预测模型，可以取代昂贵的第三方服务或通过直接销售预测来创造新的收入来源。这些部署可以节省数百万美元的成本或全新的产品线。
-尽管法学硕士令人兴奋，但这类人工智能并没有真正受到语言模型的干扰。真正的瓶颈始终是数据准备：在模型训练之前集成来自许多关系表的信号、处理时间、基数和聚合。开始看起来有趣的是将用于关系数据准备的更强大的抽象与新兴的表格基础模型相结合。这种组合可以显着提高构建高价值预测系统的吞吐量。使用 GraphReduce + 的示例TabPFN：https://wesmadrigal.github.io/GraphReduce/end_to_end_examples/predictive_ai_tabpfn/香港大学也有一些类似的研究：
-https://arxiv.org/pdf/2602.13697
+      <title>Show HN: LOAB – AI 代理做出正确决策但跳过流程 [pdf]</title>
+      <link>https://github.com/shubchat/loab/blob/main/assets/loab_paper_mar2026.pdf</link>
+      <description><![CDATA[LOAB，一个开源基准，用于评估人工智能代理是否可以遵循受监管的贷款流程，而不仅仅是产生正确的最终答案。
+动机很简单：在抵押贷款中，监管机构并不关心你是否得到了正确的答案。他们关心您是否遵循了正确的流程。跳过 KYC 检查，在获得隐私同意之前提取信用局报告，或者在没有进行必要的政策查找的情况下批准贷款 - 即使结果是正确的，这也是合规性失败。
+当前的人工智能基准没有衡量这一点。他们评估智能体的决定，而不是它是如何到达那里的。
+LOAB 通过模拟监管 API、反映真实银行运营的多代理角色以及源自实际贷款法的五维评分标准来模拟虚构的澳大利亚贷方。仅当结果正确且过程正确时，运行才会通过。
+主要发现：前沿模型可实现 67-75% 的结果准确性，但当您还需要流程合规性时，只能达到 25-42%。即使人工智能清楚地“知道”正确的答案，要让人工智能遵循规定的步骤序列也非常困难。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47313564
-积分：3
+评论网址：https://news.ycombinator.com/item?id=47315813
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/shubchat/loab/blob/main/assets/loab_paper_mar2026.pdf</guid>
+      <pubDate>Mon, 09 Mar 2026 21:29:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>但为什么我们要在凌晨 2 点更改时钟呢？</title>
+      <link>https://www.rd.com/article/why-does-daylight-saving-time-start-at-2-a-m/</link>
+      <description><![CDATA[文章网址：https://www.rd.com/article/why-does-daylight- saving-time-start-at-2-a-m/
+评论网址：https://news.ycombinator.com/item?id=47315804
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.rd.com/article/why-does-daylight-saving-time-start-at-2-a-m/</guid>
+      <pubDate>Mon, 09 Mar 2026 21:28:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>托管 MCP 服务器“一切”用于测试</title>
+      <link>https://servereverything.dev/</link>
+      <description><![CDATA[文章网址：https://servereverything.dev/
+评论网址：https://news.ycombinator.com/item?id=47315787
+积分：1
+# 条评论：0]]></description>
+      <guid>https://servereverything.dev/</guid>
+      <pubDate>Mon, 09 Mar 2026 21:26:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 DirectCompute D11 训练神经网络</title>
+      <link>https://pypi.org/project/directcompute-nn/</link>
+      <description><![CDATA[文章网址：https://pypi.org/project/directcompute-nn/
+评论网址：https://news.ycombinator.com/item?id=47315777
+积分：1
 # 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=47313564</guid>
-      <pubDate>Mon, 09 Mar 2026 18:48:12 GMT</pubDate>
+      <guid>https://pypi.org/project/directcompute-nn/</guid>
+      <pubDate>Mon, 09 Mar 2026 21:25:49 GMT</pubDate>
     </item>
     <item>
-      <title>现在我们有证据：与难相处的人打交道确实会让你变老</title>
-      <link>https://www.theguardian.com/science/2026/mar/09/now-we-have-proof-dealing-with-difficult-people-really-does-age-you</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/science/2026/mar/09/now-we-have-proof-dealing-with-difficult-people-really-does-age-you
-评论网址：https://news.ycombinator.com/item?id=47313561
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.theguardian.com/science/2026/mar/09/now-we-have-proof-dealing-with-difficult-people-really-does-age-you</guid>
-      <pubDate>Mon, 09 Mar 2026 18:48:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>HP 197A 示波器相机 Instax 转换 [视频]</title>
-      <link>https://www.youtube.com/watch?v=h57Jv809E1I</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=h57Jv809E1I
-评论网址：https://news.ycombinator.com/item?id=47313540
+      <title>恢复 MkDocs 的维护</title>
+      <link>https://github.com/orgs/mkdocs-community/discussions/1</link>
+      <description><![CDATA[文章网址：https://github.com/orgs/mkdocs-community/discussions/1
+评论网址：https://news.ycombinator.com/item?id=47315771
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=h57Jv809E1I</guid>
-      <pubDate>Mon, 09 Mar 2026 18:46:54 GMT</pubDate>
+      <guid>https://github.com/orgs/mkdocs-community/discussions/1</guid>
+      <pubDate>Mon, 09 Mar 2026 21:25:32 GMT</pubDate>
     </item>
     <item>
-      <title>逆向观点：数据中心与肉类</title>
-      <link>https://news.ycombinator.com/item?id=47313539</link>
-      <description><![CDATA[数据中心比肉类工厂及其维持肉类消费所需的所有资源具有更好的投资回报。肉可能只是实验室培育的。
-肉类行业极其浪费，而数据中心却非常高效。这是旧世界与新世界的对比。肉类加工厂的投资回报率是可怕的。他们使用 70% 的资源来产生 18% 的卡路里回报。数据中心只使用一小部分土地/水资源，并且可以产生更高效的结果。
+      <title>用于企业人工智能安全的基于能量的模型 (EBM) 交付还是继续调整？</title>
+      <link>https://news.ycombinator.com/item?id=47315770</link>
+      <description><![CDATA[在过去的几个月里，我一直在构建 Energy-Guard OS - 我希望从真正了解权衡的人们那里得到诚实的意见，因为我陷入了一个决策点。
+它是什么？
+这不是一个经过微调的法学硕士。它是基于能量的模型（EBM）的生产应用程序 - 一种为输入分配能量分数而不是预测令牌的架构。低能量=正常。高能量=威胁或异常。
+核心用例：位于您的组织和任何人工智能服务之间的实时数据网关，阻止敏感数据泄露（PII、财务、战略文件），同时仍然允许合法的人工智能使用。将其视为防火墙，但它可以理解语义上下文，而不仅仅是正则表达式模式。
+有关 EBM 的更多信息 
+没有幻觉（它会得分，不会产生）
+校准的风险评分，而不是二元阻止/允许
+在普通硬件上运行 — 目前在单个 4 vCPU / 16GB RAM 机器上为 192.8 req/s
+411MB 模型大小，内存使用量低于 700MB
+基于 7 个生产数据源从头开始构建
+诚实的测试结果（10,000+案例，独立测试套件）：
+测试总数：13,000
+   有效回复：13,000
+   成功率：100.0%
+   总体准确率：88.74%持续时间：18.4s
+   吞吐量：704.5 请求/秒
+   平均延迟：17.6ms
+   P50 延迟：17.9ms
+   P95 延迟：32.0ms
+   P99 延迟：33.8ms
+类别
+准确度
+财务泄漏检测
+100% 
+PII/私人数据
+100% 
+战略数据
+100% 
+恶意代码
+95% 
+OWASP 法学硕士前 10 名
+87% 
+多回合攻击
+67% 
+一般良性（误报）
+66% 
+整体
+88.7%
+F1：0.927 |精度：0.922 |召回率：0.932 |特异性：0.740
+我面临的问题：
+经过 2 个月的调整，我的整体准确率从 74% → 88.7%。但我遇到了一个难题：改进一个类别会损害另一个类别。具体来说：
+对于一般/技术内容来说误报率太高（系统过度阻止良性代码和文本）
+多轮对话攻击率为 67%——该模型尚未充分利用对话上下文
+每当我提高一个指标时，其他指标就会下降
+我的实际问题：
+我现在是否发布有限的 Beta 版（仅限于性能达到 95-100% 的用例（财务数据、PII、战略泄漏）），还是在任何实际暴露之前继续进行调整？
+为什么我想发货：
+真实世界的数据比合成测试用例教会我更多
+高价值用例已经运行得非常好
+我已经针对综合基准进行了两个月的优化
+为什么我想等待：
+一般内容 34% 的误报率会让用户感到沮丧
+多回合是一种已知的攻击方式，目前较弱
+第一印象很重要
+如果您想查看更多详细信息，请访问网站：https://ebmsovereign.com/
+目前，网站上的所有表格均已禁用，但电子邮件除外，电子邮件将在 24 小时内可供测试， 
+真诚地希望听到在生产中交付安全产品或机器学习系统的人们的意见。你会做什么？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47313539
+评论网址：https://news.ycombinator.com/item?id=47315770
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47313539</guid>
-      <pubDate>Mon, 09 Mar 2026 18:46:53 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47315770</guid>
+      <pubDate>Mon, 09 Mar 2026 21:25:30 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Agentic CLI，Gideon 赢得 Nvidia GTC 人工智能创新金奖券</title>
-      <link>https://github.com/cogensec/gideon</link>
-      <description><![CDATA[嘿 HN，我是塔里克 (Tarique)，Cogensec 的联合创始人。我们的开源 AI 代理 Gideon 赢得了 NVIDIA GTC 2026 的金票！ Gideon 使用法学硕士自动执行防御性网络安全任务，例如威胁情报收集、CVE 搜索和 IOC 分析。很高兴与开发社区合作并改进 Gideon。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47313533
+      <title>个人软件与人才管道的崩溃</title>
+      <link>https://blog.slamdunk.software/extremely-personal-software-and-the-collapse-of-the-talent-pipeline/</link>
+      <description><![CDATA[文章网址：https://blog.slamdunk.software/extremely-personal-software-and-the-collapse-of-the-talent-pipeline/
+评论网址：https://news.ycombinator.com/item?id=47315762
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/cogensec/gideon</guid>
-      <pubDate>Mon, 09 Mar 2026 18:46:38 GMT</pubDate>
+      <guid>https://blog.slamdunk.software/extremely-personal-software-and-the-collapse-of-the-talent-pipeline/</guid>
+      <pubDate>Mon, 09 Mar 2026 21:25:06 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：MindfulClaude – 在 Claude Code 思考时间引导呼吸</title>
-      <link>https://github.com/halluton/Mindful-Claude</link>
-      <description><![CDATA[每次 Claude Code 思考时，您都会有 10-60 秒的空闲时间，通常花在上下文切换或末日滚动上。我将其变成了呼吸练习，可以让您集中注意力并改善心率变异性。当 Claude 开始工作时，使用挂钩自动启动 tmux 窗格，并在完成时消失。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47313480
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/halluton/Mindful-Claude</guid>
-      <pubDate>Mon, 09 Mar 2026 18:43:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>爬山ARC-AGI-3</title>
-      <link>https://blog.alexisfox.dev/arcagi3</link>
-      <description><![CDATA[文章网址：https://blog.alexisfox.dev/arcagi3
-评论网址：https://news.ycombinator.com/item?id=47313467
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blog.alexisfox.dev/arcagi3</guid>
-      <pubDate>Mon, 09 Mar 2026 18:42:53 GMT</pubDate>
+      <title>AI 代理架构中缺失的一层</title>
+      <link>https://wundergraph.com/blog/why-mcp-is-ceiling-enterprise-ai-agent-architecture</link>
+      <description><![CDATA[文章网址：https://wundergraph.com/blog/why-mcp-is-ceiling-enterprise-ai-agent-architecture
+评论网址：https://news.ycombinator.com/item?id=47315759
+积分：2
+# 条评论：1]]></description>
+      <guid>https://wundergraph.com/blog/why-mcp-is-ceiling-enterprise-ai-agent-architecture</guid>
+      <pubDate>Mon, 09 Mar 2026 21:24:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
