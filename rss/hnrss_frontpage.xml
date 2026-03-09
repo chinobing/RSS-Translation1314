@@ -4,34 +4,39 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 09 Mar 2026 07:03:14 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 09:52:32 GMT</lastBuildDate>
     <item>
-      <title>美国上诉法院：TOS 可以通过电子邮件更新，使用可能意味着同意 [pdf]</title>
+      <title>美国上诉法院：TOS 可以通过电子邮件更新，使用即表示同意 [pdf]</title>
       <link>https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/03/03/25-403.pdf</link>
       <description><![CDATA[文章网址：https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/03/03/25-403.pdf
 评论网址：https://news.ycombinator.com/item?id=47305461
-积分：30
-# 条评论：6]]></description>
+积分：149
+# 条评论：60]]></description>
       <guid>https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/03/03/25-403.pdf</guid>
       <pubDate>Mon, 09 Mar 2026 06:28:02 GMT</pubDate>
     </item>
     <item>
-      <title>Thermal Grizzly 两次被骗，原材料价值 4 万欧元</title>
-      <link>https://videocardz.com/newz/der8auer-explains-thermal-grizzly-delays-after-company-was-scammed-twice-on-raw-materials-worth-e40000</link>
-      <description><![CDATA[文章网址： https://videocardz.com/newz/der8auer-explains- Thermal-grizzly-delays-after-company-was-scammed-twice-on-raw-materials-worth-e40000
-评论网址：https://news.ycombinator.com/item?id=47304934
-积分：21
-# 条评论：3]]></description>
-      <guid>https://videocardz.com/newz/der8auer-explains-thermal-grizzly-delays-after-company-was-scammed-twice-on-raw-materials-worth-e40000</guid>
-      <pubDate>Mon, 09 Mar 2026 04:38:03 GMT</pubDate>
+      <title>Show HN：Mcp2cli – 每个 API 一个 CLI，比本机 MCP 少 96-99% 的令牌</title>
+      <link>https://github.com/knowsuchagency/mcp2cli</link>
+      <description><![CDATA[每个 MCP 服务器每次都会将其完整的工具模式注入到上下文中 - 无论模型是否使用它们，30 个工具每轮的成本约为 3,600 个令牌。使用 120 个工具进行超过 25 个回合，仅架构就有 362,000 个令牌。mcp2cli 在运行时将任何 MCP 服务器或 OpenAPI 规范转换为 CLI。 LLM 按需发现工具： mcp2cli --mcp https://mcp.example.com/sse --list # ~16 个令牌/工具
+    mcp2cli --mcp https://mcp.example.com/sse create-task --help # ~120 个令牌，一次
+    mcp2cli --mcp https://mcp.example.com/sse create-task --title &quot;修复错误&quot;
+
+无需代码生成，服务器更改时无需重建。适用于任何法学硕士 - 它只是模型的 CLI。还可以使用相同的接口处理 OpenAPI 规范（JSON/YAML，本地或远程）。通过 cl100k_base 测量，令牌节省是真实的：15 轮以上的 30 个工具可节省 96%，25 轮以上的 120 个工具可节省 99%。它还作为 AI 编码代理（Claude Code、Cursor、Codex）的可安装技能提供：`npx 技能添加 Knowsuchagency/mcp2cli --skill mcp2cli`受到 Kagan Yilmaz 的 CLI 与 MCP 分析和 CLIHub 的启发。https://github.com/knowsuchagency/mcp2cli
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47305149
+积分：61
+# 条评论：31]]></description>
+      <guid>https://github.com/knowsuchagency/mcp2cli</guid>
+      <pubDate>Mon, 09 Mar 2026 05:18:46 GMT</pubDate>
     </item>
     <item>
       <title>社交媒体的消亡是 RSS 的复兴 (2025)</title>
       <link>https://www.smartlab.at/rss-revival-life-after-social-media/</link>
       <description><![CDATA[文章网址：https://www.smartlab.at/rss-revival-life-after-social-media/
 评论网址：https://news.ycombinator.com/item?id=47304886
-积分：71
-# 条评论：34]]></description>
+积分：133
+# 条评论：74]]></description>
       <guid>https://www.smartlab.at/rss-revival-life-after-social-media/</guid>
       <pubDate>Mon, 09 Mar 2026 04:27:59 GMT</pubDate>
     </item>
@@ -40,8 +45,8 @@
       <link>https://old.reddit.com/r/KitchenConfidential/comments/1ro61g2/how_the_sriracha_guys_screwed_over_their_supplier/</link>
       <description><![CDATA[文章网址： https://old.reddit.com/r/KitchenConfidential/comments/1ro61g2/how_the_sriracha_guys_screwed_over_their_supplier/
 评论网址：https://news.ycombinator.com/item?id=47304831
-积分：49
-# 条评论：4]]></description>
+积分：164
+# 条评论：36]]></description>
       <guid>https://old.reddit.com/r/KitchenConfidential/comments/1ro61g2/how_the_sriracha_guys_screwed_over_their_supplier/</guid>
       <pubDate>Mon, 09 Mar 2026 04:16:33 GMT</pubDate>
     </item>
@@ -51,8 +56,8 @@
       <description><![CDATA[你在做什么？  您正在考虑任何新想法吗？
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47303111
-积分：107
-# 条评论：337]]></description>
+积分：143
+# 条评论：489]]></description>
       <guid>https://news.ycombinator.com/item?id=47303111</guid>
       <pubDate>Mon, 09 Mar 2026 00:07:18 GMT</pubDate>
     </item>
@@ -61,28 +66,18 @@
       <link>https://offlinemark.com/an-obscure-quirk-of-proc/</link>
       <description><![CDATA[文章网址：https://offlinemark.com/an-obscure-quirk-of-proc/
 评论网址：https://news.ycombinator.com/item?id=47302463
-积分：65
-# 条评论：14]]></description>
+积分：80
+# 条评论：18]]></description>
       <guid>https://offlinemark.com/an-obscure-quirk-of-proc/</guid>
       <pubDate>Sun, 08 Mar 2026 22:50:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>Blacksky 应用程序视图</title>
-      <link>https://github.com/blacksky-algorithms/atproto</link>
-      <description><![CDATA[文章网址：https://github.com/blacksky-algorithms/atproto
-评论网址：https://news.ycombinator.com/item?id=47301808
-积分：124
-# 条评论：78]]></description>
-      <guid>https://github.com/blacksky-algorithms/atproto</guid>
-      <pubDate>Sun, 08 Mar 2026 21:40:35 GMT</pubDate>
     </item>
     <item>
       <title>人工生命：计算生命的简单（300 行代码）再现</title>
       <link>https://github.com/Rabrg/artificial-life</link>
       <description><![CDATA[文章网址：https://github.com/Rabrg/artificial-life
 评论网址：https://news.ycombinator.com/item?id=47301233
-积分：98
-# 条评论：10]]></description>
+积分：110
+# 条评论：11]]></description>
       <guid>https://github.com/Rabrg/artificial-life</guid>
       <pubDate>Sun, 08 Mar 2026 20:42:41 GMT</pubDate>
     </item>
@@ -91,8 +86,8 @@
       <link>https://agent-safehouse.dev/</link>
       <description><![CDATA[文章网址：https://agent-safehouse.dev/
 评论网址：https://news.ycombinator.com/item?id=47301085
-积分：515
-# 条评论：117]]></description>
+积分：563
+# 条评论：141]]></description>
       <guid>https://agent-safehouse.dev/</guid>
       <pubDate>Sun, 08 Mar 2026 20:30:18 GMT</pubDate>
     </item>
@@ -101,10 +96,21 @@
       <link>https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/</link>
       <description><![CDATA[文章网址：https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/
 评论网址：https://news.ycombinator.com/item?id=47300747
-积分：207
-# 条评论：116]]></description>
+积分：233
+评论数：138]]></description>
       <guid>https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/</guid>
       <pubDate>Sun, 08 Mar 2026 19:58:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我构建了一个实时 OSINT 仪表板，可提取 15 个实时全球源</title>
+      <link>https://github.com/BigBodyCobain/Shadowbroker</link>
+      <description><![CDATA[Sup HN，因此，每次全球范围内发生事件时，我厌倦了在 Flightradar、MarineTraffic 和 Twitter 之间来回切换，因此我编写了一个仪表板来在本地聚合所有内容。它的名字叫 Shadowbroker。我承认我过于偏向于 UI 的“电影黑客”美学，但底层的实际管道是真实的。它将商业/军用 ADS-B、AIS WebSocket 流（约 25,000 多艘船舶）、N2YO 卫星遥测和 GDELT 冲突数据提取到单个 MapLibre 实例中。让它在不融化我的浏览器的情况下运行是最困难的部分。我在配备 i5 和 RTX 3050 的笔记本电脑上运行此程序，最初，将 30k+ 移动 GeoJSON 功能转储到地图上只会使所有内容崩溃。我最终不得不编写相当激进的视口剔除、反跳状态更新，并将 FastAPI 有效负载压缩 90% 左右，以使其可用。我最喜欢的部分是信号层 - 它实际上通过聚合头顶商业航班的实时导航退化 (NAC-P) 来计算实时 GPS 干扰区域。它是 Next.js 和 Python。如果您只想启动它，我在版本中添加了一个快速启动脚本，但如果您想深入了解后端，则存储库是开放的。如果我的 MapLibre 实现很糟糕，请告诉我，我一直在寻找优化渲染的方法。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47300102
+积分：234
+评论数量：99]]></description>
+      <guid>https://github.com/BigBodyCobain/Shadowbroker</guid>
+      <pubDate>Sun, 08 Mar 2026 19:07:33 GMT</pubDate>
     </item>
     </channel>
 </rss>
