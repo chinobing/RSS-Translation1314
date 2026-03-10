@@ -4,127 +4,105 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 10 Mar 2026 02:01:17 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 04:43:40 GMT</lastBuildDate>
     <item>
-      <title>亚马逊要求 FCC 放弃 SpaceX 的百万卫星数据中心梦想</title>
-      <link>https://www.theregister.com/2026/03/09/amazon_petitions_to_block_spacexs/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2026/03/09/amazon_petitions_to_block_spacexs/
-评论网址：https://news.ycombinator.com/item?id=47318248
+      <title>为什么美国会指责人工智能炸毁了伊朗学校</title>
+      <link>https://www.jonathanbennion.info/p/why-the-us-may-blame-ai-for-blowing</link>
+      <description><![CDATA[文章网址：https://www.jonathanbennion.info/p/why-the-us-may-blame-ai-for-blowing
+评论网址：https://news.ycombinator.com/item?id=47319128
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theregister.com/2026/03/09/amazon_petitions_to_block_spacexs/</guid>
-      <pubDate>Tue, 10 Mar 2026 01:51:26 GMT</pubDate>
+      <guid>https://www.jonathanbennion.info/p/why-the-us-may-blame-ai-for-blowing</guid>
+      <pubDate>Tue, 10 Mar 2026 04:35:34 GMT</pubDate>
     </item>
     <item>
-      <title>惰性迭代与 50 万行数组链接 – 基准测试结果</title>
-      <link>https://news.ycombinator.com/item?id=47318235</link>
-      <description><![CDATA[I built a TypeScript iterator library (iterflow) and wanted to measure the actual heap difference between lazy and eager pipelines.这是基准测试报告。管道Eager - 标准数组链接：const data = Array.from(generateRows(500_000));const results = data
-  .filter(r =&gt; r.active &amp;&amp; r.value &gt; 阈值)
-  .map(r =&gt; ({ id: r.id, 分数: r.value * 1.5 }))
-  .slice(0, 10_000);Each step produces a new intermediate array. .filter() 分配一个，.map() 分配另一个，.slice() 然后丢弃两者中的大部分。懒惰 - 通过 iterflow 的同一管道：import { iter } from &#39;@mathscapes/iterflow&#39;;const results = iter(generateRows(500_000))
-  .filter(r =&gt; r.active &amp;&amp; r.value &gt; 阈值)
-  .map(r =&gt; ({ id: r.id, 分数: r.value * 1.5 }))
-  .采取(10_000)
-  .toArray();
-generateRows is a generator, yields one row at a time. Nothing is materialized until .toArray() pulls values through the chain. No intermediate arrays.ResultsDataset: 500,000 rows
-管道：filter(active &amp;&amp; value &gt; 5000) → map(score) → take(10,000)原生数组 (.filter → .map → .slice) 15.4 MB（最小 15.2 MB，最大 16.2 MB）
-iterflow (.filter → .map → .take) 5.8 MB（最小 5.8 MB，最大 5.8 MB）方法- 指标：管道前后的 heapUsed 增量，而不是总进程内存
-- 两个管道都从同一个生成器源开始 - 增量仅测量管道分配，而不是源数据 --expose-gc 在每次运行之间强制执行显式 gc() 调用
-- 测量前放弃一次热身运行
-- 报告 5 次运行的中位数
-- The native array run materializes the full 500k dataset into data before the pipeline runs.该分配不包含在增量中 - 两种方法都是在相同的基础上进行测量的。有关库的一些注释 - iter() 是 ES2015 生成器和迭代器协议的包装器 - 没有魔法，只是一个流畅的 API，因此调用站点看起来与数组链接相同
-- .sum() and .mean() are typed to Iterflow only - calling them on a non-numeric iterator is a compile error
-- Has some streaming statistical operations (.streamingMean(), .ewma(), .windowedMin()) for running aggregations without a separate accumulator
-- Zero runtime dependencieshttps://www.npmjs.com/package/@mathscapes/iterflow
-&lt;小时/&gt;
-Comments URL: https://news.ycombinator.com/item?id=47318235
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47318235</guid>
-      <pubDate>Tue, 10 Mar 2026 01:48:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>我构建了一个工具，可以将 Gemini 聊天导出为 PDF、Word、Docs 和 Notion</title>
-      <link>https://news.ycombinator.com/item?id=47318231</link>
-      <description><![CDATA[嘿 HN，如果您曾经尝试过导出 Gemini 聊天记录，您已经知道问题所在：没有本地方法可以做到这一点。我大量使用 Gemini 进行研究和写作。每次会话结束后，我都会做同样乏味的事情——选择全部、复制、粘贴到 Word 中、修复损坏的格式，然后重复。代码块折叠成纯文本。标题消失了。桌子散架了。每一次值得保留的对话都需要 10 分钟的清理时间。因此，我构建了 Gemini Exporter，这是一个 Chrome 扩展程序，可以一键处理导出 Gemini 聊天工作流程。
-支持的导出格式：- 将 Gemini 聊天导出到 Word (DOCX) – 保留结构：标题、列表、代码块，全部可编辑- 将 Gemini 聊天导出到 PDF – 干净的布局，以便共享、存档或合规性- 将 Gemini 聊天导出到 Google 文档 – 直接推送，无需下载文件，准备协作- 将 Gemini 聊天导出到 Notion – 将线程转换为 Notion 页面以用于文档或知识库- 导出选定的部分或整个聊天记录- 在导出之前设置字体、大小和文本颜色为什么不直接使用 API？
-Gemini API 不会公开用户现有的对话历史记录 - 它只会生成新的响应。导出浏览器中已存在的 Gemini 聊天记录的唯一方法是直接从 DOM 中读取它。这就是扩展的作用，完全是客户端的。任何对话数据都不会离开您的浏览器进行 Word 和 PDF 导出。非常感谢任何具有复杂聊天功能的人提供反馈，尤其是繁重的代码块、数学符号或非常长的多轮线程。这些是我仍在强化的边缘情况。→ Chrome 网上应用店：https://chromewebstore.google.com/detail/gemini-exporter-save-gemi/lgipeakgdkcgnkdljeagconfbfeolidj→ 网站：https://backrun.co/gemini-exporter
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47318231
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47318231</guid>
-      <pubDate>Tue, 10 Mar 2026 01:48:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Baochip-1x：它是什么、为什么我现在这样做以及它是如何产生的</title>
-      <link>https://www.crowdsupply.com/baochip/dabao/updates/what-it-is-why-im-doing-it-now-and-how-it-came-about</link>
-      <description><![CDATA[文章网址：https://www.crowdsupply.com/baochip/dabao/updates/what-it-is-why-im-doing-it-now-and-how-it-came-about
-Comments URL: https://news.ycombinator.com/item?id=47318230
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.crowdsupply.com/baochip/dabao/updates/what-it-is-why-im-doing-it-now-and-how-it-came-about</guid>
-      <pubDate>Tue, 10 Mar 2026 01:48:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>参议员谢尔顿·怀特豪斯：特朗普、俄罗斯和爱泼斯坦之间的联系</title>
-      <link>https://www.youtube.com/watch?v=ylvTFvJvB84</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=ylvTFvJvB84
-评论网址：https://news.ycombinator.com/item?id=47318222
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=ylvTFvJvB84</guid>
-      <pubDate>Tue, 10 Mar 2026 01:47:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>我刚刚推出了我的第一款 Roblox 游戏“无人机战争”</title>
-      <link>https://www.roblox.com/games/136100514232797/Drone-Wars</link>
-      <description><![CDATA[文章网址：https://www.roblox.com/games/136100514232797/Drone-Wars
-评论网址：https://news.ycombinator.com/item?id=47318211
+      <title>开发商有代理吗？对 66k GitHub 项目的研究 (7.3TB)</title>
+      <link>https://link.springer.com/article/10.1007/s44427-025-00019-y</link>
+      <description><![CDATA[文章网址：https://link.springer.com/article/10.1007/s44427-025-00019-y
+评论网址：https://news.ycombinator.com/item?id=47319124
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.roblox.com/games/136100514232797/Drone-Wars</guid>
-      <pubDate>Tue, 10 Mar 2026 01:45:23 GMT</pubDate>
+      <guid>https://link.springer.com/article/10.1007/s44427-025-00019-y</guid>
+      <pubDate>Tue, 10 Mar 2026 04:35:06 GMT</pubDate>
     </item>
     <item>
-      <title>苏格兰成为英国第一个水火葬合法化国家</title>
-      <link>https://www.theguardian.com/society/2026/mar/02/scotland-becomes-first-uk-country-to-legalise-water-cremations</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/society/2026/mar/02/scotland-becomes-first-uk-country-to-legalise-water-cremations
-评论网址：https://news.ycombinator.com/item?id=47318195
+      <title>Appsflyer SDK 被劫持</title>
+      <link>https://websdk.appsflyer.com/</link>
+      <description><![CDATA[文章网址：https://websdk.appsflyer.com/
+评论网址：https://news.ycombinator.com/item?id=47319115
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theguardian.com/society/2026/mar/02/scotland-becomes-first-uk-country-to-legalise-water-cremations</guid>
-      <pubDate>Tue, 10 Mar 2026 01:42:40 GMT</pubDate>
+      <guid>https://websdk.appsflyer.com/</guid>
+      <pubDate>Tue, 10 Mar 2026 04:31:35 GMT</pubDate>
     </item>
     <item>
-      <title>Loom 与 Linear：两个人工智能城市的故事</title>
-      <link>https://jamespember.substack.com/p/loom-vs-linear-a-tale-of-two-ai-cities</link>
-      <description><![CDATA[文章网址：https://jamespember.substack.com/p/loom-vs-linear-a-tale-of-two-ai-cities
-评论网址：https://news.ycombinator.com/item?id=47318186
+      <title>为代理添加注释</title>
+      <link>https://benji.org/annotating</link>
+      <description><![CDATA[文章网址：https://benji.org/annotating
+评论网址：https://news.ycombinator.com/item?id=47319110
 积分：1
 # 条评论：0]]></description>
-      <guid>https://jamespember.substack.com/p/loom-vs-linear-a-tale-of-two-ai-cities</guid>
-      <pubDate>Tue, 10 Mar 2026 01:40:57 GMT</pubDate>
+      <guid>https://benji.org/annotating</guid>
+      <pubDate>Tue, 10 Mar 2026 04:30:23 GMT</pubDate>
     </item>
     <item>
-      <title>由于气候变化，里斯改变了巧克力的生产方式</title>
-      <link>https://www.fooddive.com/news/hershey-reeses-ingredients-chocolate-climate-change-oped/813903/</link>
-      <description><![CDATA[文章网址：https://www.fooddive.com/news/hershey-reeses-ingredients-chocolate-climate-change-oped/813903/
-评论网址：https://news.ycombinator.com/item?id=47318184
+      <title>卷曲是如何开始的[视频]</title>
+      <link>https://www.youtube.com/watch?v=ohzzGy5K9Dk</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=ohzzGy5K9Dk
+评论网址：https://news.ycombinator.com/item?id=47319108
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.fooddive.com/news/hershey-reeses-ingredients-chocolate-climate-change-oped/813903/</guid>
-      <pubDate>Tue, 10 Mar 2026 01:40:52 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=ohzzGy5K9Dk</guid>
+      <pubDate>Tue, 10 Mar 2026 04:30:16 GMT</pubDate>
     </item>
     <item>
-      <title>金融集团因中国股票诈骗案接受国会委员会调查</title>
-      <link>https://www.ft.com/content/49f541f8-c73d-4268-9621-f8604f1a8141</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/49f541f8-c73d-4268-9621-f8604f1a8141
-评论网址：https://news.ycombinator.com/item?id=47318178
+      <title>显示 HN：克劳德代码代币 Elo</title>
+      <link>https://www.clauderank.com</link>
+      <description><![CDATA[文章网址：https://www.clauderank.com
+评论网址：https://news.ycombinator.com/item?id=47319105
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.ft.com/content/49f541f8-c73d-4268-9621-f8604f1a8141</guid>
-      <pubDate>Tue, 10 Mar 2026 01:40:17 GMT</pubDate>
+      <guid>https://www.clauderank.com</guid>
+      <pubDate>Tue, 10 Mar 2026 04:29:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>攻克 NetBSD-Aarch64 (ARM)</title>
+      <link>https://www.feyrer.de/NetBSD/bx/blosxom.cgi/nb_20260308_1932.html</link>
+      <description><![CDATA[文章网址：https://www.feyrer.de/NetBSD/bx/blosxom.cgi/nb_20260308_1932.html
+评论网址：https://news.ycombinator.com/item?id=47319101
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.feyrer.de/NetBSD/bx/blosxom.cgi/nb_20260308_1932.html</guid>
+      <pubDate>Tue, 10 Mar 2026 04:29:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>每日秀禅宗时刻汇编</title>
+      <link>https://www.youtube.com/watch?v=-4OTAXzliUA</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=-4OTAXzliUA
+评论网址：https://news.ycombinator.com/item?id=47319097
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=-4OTAXzliUA</guid>
+      <pubDate>Tue, 10 Mar 2026 04:28:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Htmx技能包罗万象</title>
+      <link>https://skills.sh/damusix/skills/htmx</link>
+      <description><![CDATA[文章网址：https://skills.sh/damusix/skills/htmx
+评论网址：https://news.ycombinator.com/item?id=47319090
+积分：1
+# 条评论：1]]></description>
+      <guid>https://skills.sh/damusix/skills/htmx</guid>
+      <pubDate>Tue, 10 Mar 2026 04:26:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的朋友说他可以和外星人取得联系。我们如何将其货币化？</title>
+      <link>https://news.ycombinator.com/item?id=47319076</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=47319076
+积分：1
+# 条评论：1]]></description>
+      <guid>https://news.ycombinator.com/item?id=47319076</guid>
+      <pubDate>Tue, 10 Mar 2026 04:23:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
