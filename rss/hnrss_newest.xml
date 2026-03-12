@@ -4,107 +4,110 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 12 Mar 2026 04:47:23 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 06:57:31 GMT</lastBuildDate>
     <item>
-      <title>Mac 菜单栏上的额外时区</title>
-      <link>https://apps.apple.com/gb/app/zoneclock-toolbar-clock/id6760158037?mt=12</link>
-      <description><![CDATA[文章网址：https://apps.apple.com/gb/app/zoneclock-toolbar-clock/id6760158037?mt=12
-评论网址：https://news.ycombinator.com/item?id=47346543
-积分：1
-# 条评论：0]]></description>
-      <guid>https://apps.apple.com/gb/app/zoneclock-toolbar-clock/id6760158037?mt=12</guid>
-      <pubDate>Thu, 12 Mar 2026 04:43:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>WireGuard 是两件事</title>
-      <link>https://www.proxylity.com/articles/wireguard-is-two-things.html</link>
-      <description><![CDATA[文章网址：https://www.proxyality.com/articles/wireguard-is-two-things.html
-评论网址：https://news.ycombinator.com/item?id=47346511
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.proxylity.com/articles/wireguard-is-two-things.html</guid>
-      <pubDate>Thu, 12 Mar 2026 04:38:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>还有其他人遇到 GitHub Actions 失败的情况吗？</title>
-      <link>https://news.ycombinator.com/item?id=47346510</link>
-      <description><![CDATA[https://www.githubstatus.com/ 上没有报告任何问题但我发现操作失败，并显示： 错误：响应状态代码并不表示成功：401（未经授权）
+      <title>Show HN：Tarvos – 通过自动链接新的 Claude 代理来修复上下文腐烂</title>
+      <link>https://github.com/Photon48/tarvos/tree/main</link>
+      <description><![CDATA[AI 编码代理会随着上下文填满而降级。到了 8 个阶段的第 6 个阶段，输出质量已经悄然崩溃。我不断手动重新启动会话 - 将 PRD 和进度注释复制粘贴到新的上下文中，以使其保持在正轨上。这不是一个自主开发者。这就是保姆。
+Tarvos 会自动进行切换。当上下文超过 50% 时，它会写入进度说明并启动一个新代理，该代理将准确接续上一个代理停止的位置。每个会话都有自己独立的 git 工作树。工作完成后，接受合并到您的分支，干净地拒绝丢弃。您编写一个降价计划。 Tarvos 无需您即可完成运行。开源，麻省理工学院。今天可以使用，但存在粗糙的边缘。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47346510
-积分：2
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=47346510</guid>
-      <pubDate>Thu, 12 Mar 2026 04:38:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>白宫人工智能视频推文</title>
-      <link>https://twitter.com/WhiteHouse/status/2031895801064985021</link>
-      <description><![CDATA[文章网址：https://twitter.com/WhiteHouse/status/2031895801064985021
-评论网址：https://news.ycombinator.com/item?id=47346496
+评论网址：https://news.ycombinator.com/item?id=47347348
 积分：1
 # 条评论：0]]></description>
-      <guid>https://twitter.com/WhiteHouse/status/2031895801064985021</guid>
-      <pubDate>Thu, 12 Mar 2026 04:36:10 GMT</pubDate>
+      <guid>https://github.com/Photon48/tarvos/tree/main</guid>
+      <pubDate>Thu, 12 Mar 2026 06:53:55 GMT</pubDate>
     </item>
     <item>
-      <title>永远前进 IBM [视频]</title>
-      <link>https://www.youtube.com/watch?v=L9oh3gqOEKU</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=L9oh3gqOEKU
-评论网址：https://news.ycombinator.com/item?id=47346422
+      <title>图书宣传现状</title>
+      <link>https://derekkrissoff.substack.com/p/the-state-of-book-publicity-now</link>
+      <description><![CDATA[文章网址：https://derekrissoff.substack.com/p/the-state-of-book-publicity-now
+评论网址：https://news.ycombinator.com/item?id=47347342
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=L9oh3gqOEKU</guid>
-      <pubDate>Thu, 12 Mar 2026 04:24:02 GMT</pubDate>
+      <guid>https://derekkrissoff.substack.com/p/the-state-of-book-publicity-now</guid>
+      <pubDate>Thu, 12 Mar 2026 06:53:07 GMT</pubDate>
     </item>
     <item>
-      <title>为什么这么多雕像都是裸体的？一位艺术史学家解释了它的古老根源</title>
-      <link>https://theconversation.com/why-are-so-many-statues-naked-an-art-historian-explains-this-traditions-ancient-roots-271821</link>
-      <description><![CDATA[文章网址： https://theconversation.com/why-are-so-many-statues-naked-an-art-historian-explains-this-traditions-ancient-roots-271821
-评论网址：https://news.ycombinator.com/item?id=47346421
-积分：2
+      <title>//go:修复内联和源代码级内联</title>
+      <link>https://go.dev/blog/inliner</link>
+      <description><![CDATA[文章网址：https://go.dev/blog/inliner
+评论网址：https://news.ycombinator.com/item?id=47347322
+积分：1
 # 条评论：0]]></description>
-      <guid>https://theconversation.com/why-are-so-many-statues-naked-an-art-historian-explains-this-traditions-ancient-roots-271821</guid>
-      <pubDate>Thu, 12 Mar 2026 04:23:46 GMT</pubDate>
+      <guid>https://go.dev/blog/inliner</guid>
+      <pubDate>Thu, 12 Mar 2026 06:49:55 GMT</pubDate>
     </item>
     <item>
-      <title>博士和其他专家以 16 美元/小时的工资培训人工智能，从而扼杀了自己的工作</title>
-      <link>https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html</link>
-      <description><![CDATA[文章网址：https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html
-评论网址：https://news.ycombinator.com/item?id=47346399
-积分：3
+      <title>Haruspex – 数字星座</title>
+      <link>https://www.haruspex.click/</link>
+      <description><![CDATA[文章网址：https://www.haruspex.click/
+评论网址：https://news.ycombinator.com/item?id=47347293
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.haruspex.click/</guid>
+      <pubDate>Thu, 12 Mar 2026 06:44:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：HN-IRC – 我将 Hacker News 重建为复古 IRC 客户端</title>
+      <link>https://d1mf42rlcj2lrs.cloudfront.net/</link>
+      <description><![CDATA[如果黑客新闻的结构像 IRC 客户端会怎样？利用 Firebase API 并提供完整的键盘导航支持。希望有人喜欢它，欢迎反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47347289
+积分：1
+# 条评论：0]]></description>
+      <guid>https://d1mf42rlcj2lrs.cloudfront.net/</guid>
+      <pubDate>Thu, 12 Mar 2026 06:44:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dopamine Detox – 跟踪和阻止社交媒体滚动（Chrome 扩展）</title>
+      <link>https://chromewebstore.google.com/detail/dopamine-detox/emohipjjikifpmfibhnjbfeklbnjkica</link>
+      <description><![CDATA[文章网址：https://chromewebstore.google.com/detail/dopamine-detox/emohipjjikifpmfibhnjbfeklbnjkica
+评论网址：https://news.ycombinator.com/item?id=47347279
+积分：1
 # 条评论：1]]></description>
-      <guid>https://nymag.com/intelligencer/article/white-collar-workers-training-ai.html</guid>
-      <pubDate>Thu, 12 Mar 2026 04:20:34 GMT</pubDate>
+      <guid>https://chromewebstore.google.com/detail/dopamine-detox/emohipjjikifpmfibhnjbfeklbnjkica</guid>
+      <pubDate>Thu, 12 Mar 2026 06:43:26 GMT</pubDate>
     </item>
     <item>
-      <title>吉米·卡特总统大胆的环保愿景</title>
-      <link>https://www.motherjones.com/politics/2024/12/president-jimmy-carter-death-100-environmental-legacy-conservation-solar-energy-alaskan-national-wildlife-refuge/</link>
-      <description><![CDATA[文章网址： https://www.motherjones.com/politics/2024/12/president-jimmy-carter-death-100-environmental-legacy-conservation-solar-energy-alaskan-national-wildlife-refuge/
-评论网址：https://news.ycombinator.com/item?id=47346390
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.motherjones.com/politics/2024/12/president-jimmy-carter-death-100-environmental-legacy-conservation-solar-energy-alaskan-national-wildlife-refuge/</guid>
-      <pubDate>Thu, 12 Mar 2026 04:18:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国情报机构称伊朗政府没有崩溃的风险</title>
-      <link>https://www.reuters.com/business/media-telecom/us-intelligence-says-iran-government-is-not-risk-collapse-say-sources-2026-03-11/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/business/media-telecom/us-intelligence-says-iran-government-is-not-risk-collapse-say-sources-2026-03-11/
-评论网址：https://news.ycombinator.com/item?id=47346383
-积分：5
+      <title>降低架构师漂移风险的新技术。寻求反馈</title>
+      <link>https://news.ycombinator.com/item?id=47347273</link>
+      <description><![CDATA[我想分享我们在架构漂移方面取得的成就。 Linters 和测试有助于检查代码的正确性和风格，但它们无法有效识别可能随着时间累积并影响项目长期稳定性的结构偏差。因此，我们问自己如何主动管理此类风险。在寻找答案的过程中，我们发现了一种不仅考虑语法和功能而且还考虑代码结构的方法。它基于通过对其结构完整性进行建模来分析项目架构的变化。这种方法使我们能够跟踪历史代码结构的偏差，这对于长期可维护性和可扩展性至关重要。这种方法的基础是理论模型 PhaseBrain，它使用环形表示来分析结构变化的动态。这使我们能够捕获标准工具不可见但可以显着影响项目架构的偏差。将该理论转化为实践导致创建了一个工具，该工具集成到代码审查流程中并分析拉取请求中的更改。该工具在其历史结构的背景下处理代码，突出显示可能影响项目架构完整性的区域。因此，每个 PR 都会被分析，并识别出传统分析中可能遗漏的隐藏依赖项和更改。系统将这些变化标记为对结构有潜在危险，并提供报告以供进一步分析。所有这些都发生在熟悉的代码审查流程中。该技术以 GitHub 应用程序的形式实现，可在 GitHub 市场上找到。我们邀请对此主题感兴趣的开发人员测试所提议的工具并分享他们的经验。反馈对我们非常有帮助。感谢您的阅读，祝您有美好的一天！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47347273
+积分：1
 # 条评论：1]]></description>
-      <guid>https://www.reuters.com/business/media-telecom/us-intelligence-says-iran-government-is-not-risk-collapse-say-sources-2026-03-11/</guid>
-      <pubDate>Thu, 12 Mar 2026 04:17:44 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47347273</guid>
+      <pubDate>Thu, 12 Mar 2026 06:43:04 GMT</pubDate>
     </item>
     <item>
-      <title>为什么有的星星总是可见，而有的则随季节变化而出现或消失</title>
-      <link>https://theconversation.com/why-are-some-stars-always-visible-while-others-come-and-go-with-the-seasons-274096</link>
-      <description><![CDATA[文章网址：https://theconversation.com/why-are-some-stars-always-visible-while-others-come-and-go-with-the-seasons-274096
-评论网址：https://news.ycombinator.com/item?id=47346354
-积分：3
+      <title>研究发现人工智能聊天机器人催促暴力</title>
+      <link>https://arstechnica.com/tech-policy/2026/03/use-a-gun-or-beat-the-crap-out-of-him-ai-chatbot-urged-violence-study-finds/</link>
+      <description><![CDATA[文章网址： https://arstechnica.com/tech-policy/2026/03/use-a-gun-or-beat-the-crap-out-of-him-ai-chatbot-urged-violence-study-finds/
+评论网址：https://news.ycombinator.com/item?id=47347259
+积分：1
 # 条评论：0]]></description>
-      <guid>https://theconversation.com/why-are-some-stars-always-visible-while-others-come-and-go-with-the-seasons-274096</guid>
-      <pubDate>Thu, 12 Mar 2026 04:12:14 GMT</pubDate>
+      <guid>https://arstechnica.com/tech-policy/2026/03/use-a-gun-or-beat-the-crap-out-of-him-ai-chatbot-urged-violence-study-finds/</guid>
+      <pubDate>Thu, 12 Mar 2026 06:40:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>卡敦</title>
+      <link>https://www.fasterhorses.md/articles/cartown</link>
+      <description><![CDATA[文章网址：https://www.fasterhorses.md/articles/cartown
+评论网址：https://news.ycombinator.com/item?id=47347243
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.fasterhorses.md/articles/cartown</guid>
+      <pubDate>Thu, 12 Mar 2026 06:36:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>您的数据因环境而变得强大（所以不要再破坏它了）</title>
+      <link>https://substack.com/home/post/p-190315082</link>
+      <description><![CDATA[文章网址：https://substack.com/home/post/p-190315082
+评论网址：https://news.ycombinator.com/item?id=47347236
+积分：1
+# 条评论：0]]></description>
+      <guid>https://substack.com/home/post/p-190315082</guid>
+      <pubDate>Thu, 12 Mar 2026 06:35:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
