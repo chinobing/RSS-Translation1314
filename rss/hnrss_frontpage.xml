@@ -4,14 +4,101 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 13 Mar 2026 15:42:53 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 18:44:06 GMT</lastBuildDate>
+    <item>
+      <title>你的手机就是一台完整的电脑</title>
+      <link>https://medhir.com/blog/your-phone-is-an-entire-computer</link>
+      <description><![CDATA[文章网址：https://medhir.com/blog/your-phone-is-an-entire-computer
+评论网址：https://news.ycombinator.com/item?id=47367568
+积分：28
+# 条评论：19]]></description>
+      <guid>https://medhir.com/blog/your-phone-is-an-entire-computer</guid>
+      <pubDate>Fri, 13 Mar 2026 18:02:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：上下文网关 – 在到达 LLM 之前压缩代理上下文</title>
+      <link>https://github.com/Compresr-ai/Context-Gateway</link>
+      <description><![CDATA[我们构建了一个位于编码代理（Claude Code、OpenClaw 等）和 LLM 之间的开源代理，在工具输出进入上下文窗口之前对其进行压缩。演示：https://www.youtube.com/watch?v=-vFZ6MPrwjw#t=9s。动机：代理在管理上下文方面表现不佳。读取单个文件或 grep 可以将数千个标记转储到窗口中，其中大部分是噪音。这不仅成本高昂，而且还大大降低了质量。随着上下文的增长，长上下文基准测试始终显示准确度急剧下降（OpenAI 的 GPT-5.4 评估从 32k 时的 97.2% 降至 1M 时的 36.6% https://openai.com/index/introducing-gpt-5-4/）。我们的解决方案使用小语言模型（SLM）：我们研究模型内部并训练分类器来检测上下文的哪些部分携带最多的信号。当工具返回输出时，我们根据工具调用的意图对其进行压缩 - 因此，如果代理调用 grep 来查找错误处理模式，SLM 会保留相关匹配并删除其余内容。如果模型稍后需要我们删除的内容，它会调用 Expand() 来获取原始输出。我们还以 85% 窗口容量和延迟加载工具描述进行后台压缩，以便模型仅看到与当前步骤相关的工具。代理还为您提供支出上限、用于跟踪运行和过去会话的仪表板，以及当代理坐在那里等待您时的 Slack ping。存储库位于此处：https://github.com/Compresr-ai/Context-Gateway。您可以尝试使用：curl -fsSL https://compresr.ai/api/install |嘘
+
+很高兴深入研究其中的任何一个：压缩模型、延迟工具加载的工作原理或有关网关的任何其他内容。尝试一下，让我们知道您是否喜欢它！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47367526
+积分：10
+# 条评论：2]]></description>
+      <guid>https://github.com/Compresr-ai/Context-Gateway</guid>
+      <pubDate>Fri, 13 Mar 2026 17:58:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>意外的房间 (2018)</title>
+      <link>https://99percentinvisible.org/episode/the-accidental-room/</link>
+      <description><![CDATA[文章网址：https://99percentinvisible.org/episode/the-accidental-room/
+评论网址：https://news.ycombinator.com/item?id=47367443
+积分：4
+# 条评论：0]]></description>
+      <guid>https://99percentinvisible.org/episode/the-accidental-room/</guid>
+      <pubDate>Fri, 13 Mar 2026 17:49:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么军队争先恐后地创建自己的星链</title>
+      <link>https://www.newscientist.com/article/2517766-why-the-worlds-militaries-are-scrambling-to-create-their-own-starlink/</link>
+      <description><![CDATA[文章网址：https://www.newscientist.com/article/2517766-why-the-worlds-militaries-are-scrambling-to-create-their-own-starlink/
+评论网址：https://news.ycombinator.com/item?id=47367220
+积分：28
+# 条评论：17]]></description>
+      <guid>https://www.newscientist.com/article/2517766-why-the-worlds-militaries-are-scrambling-to-create-their-own-starlink/</guid>
+      <pubDate>Fri, 13 Mar 2026 17:27:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>揭晓：洞穴中 75,000 年前女性尼安德特人的面孔</title>
+      <link>https://www.cam.ac.uk/stories/shanidar-z-face-revealed</link>
+      <description><![CDATA[文章网址：https://www.cam.ac.uk/stories/shanidar-z-face-revealed
+评论网址：https://news.ycombinator.com/item?id=47366931
+积分：24
+# 条评论：10]]></description>
+      <guid>https://www.cam.ac.uk/stories/shanidar-z-face-revealed</guid>
+      <pubDate>Fri, 13 Mar 2026 17:02:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>怀登警报再次响起：我们将被美国国家安全局根据第 702 条“震惊”</title>
+      <link>https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/</link>
+      <description><![CDATA[文章网址： https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/
+评论网址：https://news.ycombinator.com/item?id=47366374
+积分：133
+# 条评论：33]]></description>
+      <guid>https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/</guid>
+      <pubDate>Fri, 13 Mar 2026 16:13:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>启动 HN: Captain (YC W26) – 文件自动 RAG</title>
+      <link>https://www.runcaptain.com/</link>
+      <description><![CDATA[您好，HN，我们是 Lewis 和 Edgar，正在构建 Captain 来简化非结构化数据搜索 (https://runcaptain.com)。 Captain 自动构建和维护基于文件的 RAG 管道。它对 S3 和 GCS 等云存储以及 Google Drive 等 SaaS 源进行索引。 https://youtu.be/EIQkwAsIPmc 上有一个快速演练。我们还建立了这个名为“询问 PG 论文”的演示网站，您可以通过该网站询问/搜索 PG 论文的语料库，以了解其工作原理：https://pg.runcaptain.com。 Captain 花了大约 3 分钟来设置 RAG 部分。以下是一些示例提示，可帮助您感受体验：“我们什么时候会做无法扩展的事情？什么时候我们应该更加谨慎？” 
+&lt;一href=&quot;https://pg.runcaptain.com/?q=When%20do%20we%20do%20things%20that%20don%20scale%3F%20When%20should% 20we%20be%20more%20cautious%3F&quot;&gt;https://pg.runcaptain.com/?q=When%20do%20we%20do%20things%20...“给给我一些建议，我正在筹款” 
+https://pg.runcaptain.com/?q=Give%20me%20some%20advice%2C%20...“Lisp 最大的优点是什么”
+https://pg.runcaptain.com/?q=what%20are%20the%20biggest%20ad...构建良好的生产 RAG 管道需要付出大量努力，尤其是对于文件工作负载。您必须处理 ETL 或文本提取、分块、嵌入、存储、搜索、重新排名、推理，以及通常的合规性和可观察性 - 同时优化延迟和可靠性。有很多事情需要管理。 grep 在某些情况下效果很好，但对于代理来说，语义搜索提供了显着更高的性能。 Cursor 使用这两种方法，并报告矢量搜索比 grep (https://cursor.com/blog/semsearch) 准确率提高了 6.5%–23.5%。过去四年来，我们一直在为公司扩展 RAG 管道，Edgar 在普渡大学 NLP 实验室的工作直接为我们的分块技术提供了指导。在与数十位工程师的交谈中，我们多次看到 DIY 管道产生不一致的结果，即使经过数周的调整也是如此。许多团队不清楚哪种检索策略最适合他们的数据。我们意识到，一个能够配置存储和嵌入、处理索引并不断更新管道以反映最新搜索技术的系统可以消除每个团队自己重建 RAG 的需要。这个想法成为了 Captain。实际上，一个 API 调用可以索引 URL、云存储桶、目录或单个文件。在幕后，我们正在将所有内容转换为 Markdown。为此，我们使用 Gemini 3 Pro 处理图像、使用 Reducto 处理复杂文档以及使用 Extend 处理基本 OCR，取得了良好的效果。对于嵌入模型，“gemini-embedding-001”一开始表现相当不错，但后来我们从“voyage-context-3”切换到上下文化嵌入。它产生了比较新的 Voyage 4 模型更相关的结果，因为它的块嵌入是在了解周围文档上下文的情况下进行编码的。然后，我们应用 Voyage 的“rerank-2.5”作为第二阶段重新排名，将 50 个初始块减少到最终的前 15 个（可在 Captain 的 API 中配置）。密集嵌入只是图片的一半，使用 RRF 的全文搜索完成了我们的混合检索。在 Captain API 中，这些技术通过单个 /query 端点公开。可以通过元数据过滤器配置访问控制，并自动返回页码引用。堆栈不断变化，但 Captain API 为此创建了一个标准接口。您可以免费试用 Captain 1 个月，并在 https://runcaptain.com 上构建自己的管道。我们正在寻求坦诚的反馈，尤其是任何可以使其更有用的反馈，并期待您的评论！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47366011
+积分：31
+评论数量：9]]></description>
+      <guid>https://www.runcaptain.com/</guid>
+      <pubDate>Fri, 13 Mar 2026 15:45:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>NASA 计划于 4 月 1 日发射阿耳忒弥斯二号载人登月任务</title>
+      <link>https://www.npr.org/2026/03/12/nx-s1-5746128/nasa-artemis-ii-april-launch</link>
+      <description><![CDATA[文章网址：https://www.npr.org/2026/03/12/nx-s1-5746128/nasa-artemis-ii-april-launch
+评论网址：https://news.ycombinator.com/item?id=47365784
+积分：51
+# 条评论：28]]></description>
+      <guid>https://www.npr.org/2026/03/12/nx-s1-5746128/nasa-artemis-ii-april-launch</guid>
+      <pubDate>Fri, 13 Mar 2026 15:29:16 GMT</pubDate>
+    </item>
     <item>
       <title>Parallels 确认 MacBook Neo 可以在虚拟机中运行 Windows</title>
       <link>https://www.macrumors.com/2026/03/13/macbook-neo-runs-windows-11-vm/</link>
       <description><![CDATA[文章网址：https://www.macrumors.com/2026/03/13/macbook-neo-runs-windows-11-vm/
 评论网址：https://news.ycombinator.com/item?id=47364729
-积分：11
-# 条评论：4]]></description>
+积分：41
+# 条评论：63]]></description>
       <guid>https://www.macrumors.com/2026/03/13/macbook-neo-runs-windows-11-vm/</guid>
       <pubDate>Fri, 13 Mar 2026 14:11:36 GMT</pubDate>
     </item>
@@ -20,98 +107,10 @@
       <link>https://nanoclaw.dev/blog/nanoclaw-docker-sandboxes/</link>
       <description><![CDATA[文章网址：https://nanoclaw.dev/blog/nanoclaw-docker-sandboxes/
 评论网址：https://news.ycombinator.com/item?id=47364397
-积分：64
-# 条评论：19]]></description>
+积分：114
+# 条评论：50]]></description>
       <guid>https://nanoclaw.dev/blog/nanoclaw-docker-sandboxes/</guid>
       <pubDate>Fri, 13 Mar 2026 13:45:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>推出 HN：Spine Swarm (YC S23) – 在视觉画布上协作的人工智能代理</title>
-      <link>https://www.getspine.ai/</link>
-      <description><![CDATA[]]></description>
-      <guid>https://www.getspine.ai/</guid>
-      <pubDate>Fri, 13 Mar 2026 13:22:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>5 月 8 日之后，Instagram 将不再支持 E2E 加密消息传递</title>
-      <link>https://help.instagram.com/491565145294150</link>
-      <description><![CDATA[文章网址：https://help.instagram.com/491565145294150
-评论网址：https://news.ycombinator.com/item?id=47363922
-积分：122
-# 条评论：39]]></description>
-      <guid>https://help.instagram.com/491565145294150</guid>
-      <pubDate>Fri, 13 Mar 2026 13:03:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：TypeScript 中的算法和数据结构 – 免费书籍（约 400 页）</title>
-      <link>http://amoilanen.github.io/Algorithms-with-Typescript/</link>
-      <description><![CDATA[我 10 年前开始用 JavaScript 写这本书，经历了一些
-章节（渐近符号、基本技术、排序开始），以及
-然后放弃了它。最近我又重新拾起它，将所有内容转换为 TypeScript，并使用
-AI（Zenflow [1] + Claude Opus 4.6）完成剩余章节。我
-提供结构、方向和初始章节； AI生成的
-其余的大部分内容都在规范驱动的工作流程下。这本书大致涵盖了前 1-2 年的 CS 课程：排序、动态
-编程、图形算法、树、堆、哈希表等等。全部
-代码是可执行的，使用泛型/接口输入，并包含测试。我已经彻底回顾了几章（排序、DP、图形）并完成了
-其余的由高层传递。目前处于测试阶段——修正和
-欢迎贡献。麻省理工学院许可。受到 Wirth 的《算法与数据结构》的启发，SICP，
-和 CLRS。代码和测试：https://github.com/amoilanen/Algorithms-with-Typescript[1] https://zencoder.ai/zenflow
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47363400
-积分：58
-# 条评论：8]]></description>
-      <guid>http://amoilanen.github.io/Algorithms-with-Typescript/</guid>
-      <pubDate>Fri, 13 Mar 2026 12:15:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>提示缓存 – 自动注入 Anthropic 缓存断点（节省 90% 的令牌）</title>
-      <link>https://prompt-caching.ai/</link>
-      <description><![CDATA[文章网址：https://prompt-caching.ai/
-评论网址：https://news.ycombinator.com/item?id=47363074
-积分：66
-# 条评论：24]]></description>
-      <guid>https://prompt-caching.ai/</guid>
-      <pubDate>Fri, 13 Mar 2026 11:38:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>TUI Studio – 可视化终端UI设计工具</title>
-      <link>https://tui.studio/</link>
-      <description><![CDATA[文章网址：https://tui.studio/
-评论网址：https://news.ycombinator.com/item?id=47362613
-积分：258
-# 条评论：153]]></description>
-      <guid>https://tui.studio/</guid>
-      <pubDate>Fri, 13 Mar 2026 10:32:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>我追踪了 20 亿美元的拨款和 45 个州在年龄验证法案背后的游说</title>
-      <link>https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/</link>
-      <description><![CDATA[文章网址：https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/
-评论网址：https://news.ycombinator.com/item?id=47362528
-积分：697
-# 条评论：271]]></description>
-      <guid>https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/</guid>
-      <pubDate>Fri, 13 Mar 2026 10:15:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Raspbian 上的遮阳板</title>
-      <link>https://nubificus.co.uk/blog/gvisor-rpi5/</link>
-      <description><![CDATA[文章网址：https://nubificus.co.uk/blog/gvisor-rpi5/
-评论网址：https://news.ycombinator.com/item?id=47362487
-积分：29
-# 条评论：8]]></description>
-      <guid>https://nubificus.co.uk/blog/gvisor-rpi5/</guid>
-      <pubDate>Fri, 13 Mar 2026 10:08:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>瑞典电子政务服务源代码泄露</title>
-      <link>https://darkwebinformer.com/full-source-code-of-swedens-e-government-platform-leaked-from-compromised-cgi-sverige-infrastructure/</link>
-      <description><![CDATA[文章网址：https://darkwebinformer.com/full-source-code-of-swedens-e-government-platform-leaked-from-compromished-cgi-sverige-infrastruct/
-评论网址：https://news.ycombinator.com/item?id=47362350
-积分：145
-# 条评论：131]]></description>
-      <guid>https://darkwebinformer.com/full-source-code-of-swedens-e-government-platform-leaked-from-compromised-cgi-sverige-infrastructure/</guid>
-      <pubDate>Fri, 13 Mar 2026 09:45:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
