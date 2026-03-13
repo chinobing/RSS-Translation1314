@@ -4,139 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 13 Mar 2026 12:59:07 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 15:43:05 GMT</lastBuildDate>
     <item>
-      <title>显示 HN：VibeTrade – Claude 的交易工具</title>
-      <link>https://github.com/vibetrade-ai/vibe-trade</link>
-      <description><![CDATA[在 Opus 4.6 后，法学硕士在使用 bash、代码、本地文件和工具方面感觉好多了。所以我不断回到一个简单的问题：如果一个模型可以相当好地使用计算机，为什么我不能给它我的经纪人帐户、策略，然后让它进行交易？我的结论是，阻碍者不是抽象的模型能力。它是围绕模型的系统。原始的法学硕士几乎立即突破了一些实际问题：• 跨会话没有持久的操作内存
-• 没有关于其行为和原因的可靠记录
-• 资金流动前没有硬性批准边界
-• 如果每项检查都需要法学硕士通话，则没有便宜的始终在线监控
-• 无法可靠地执行限制、权限或工作流程规则，除非它们存在于模型之外所以问题并不是真正的“模型可以调用代理 API 吗？”问题是交易需要一个工具。我和我的朋友为此构建了一个名为 Vibe Trade 的工具。它是开源的，获得 MIT 许可，目前在连接到 Dhan 的计算机上本地运行。基本设计是：1。不可变的贸易日记
-每个动作都会在决策时记录下来，包括时间戳、推理和观察到的信号。代理无法在事后重写自己的历史记录。2.硬审批门
-在下任何订单之前，系统都会生成结构化的批准请求。在用户批准之前，执行将被阻止。这是在代码中强制执行的，而不是由模型自行决定。3. LLM 之外的事件循环
-市场观察是在计时器上用纯 JS 处理的。价格检查、时间规则和指标阈值每 30 秒运行一次，无需调用模型。 LLM 仅在某些事情需要推理时才会醒来。4.剧本/技能文件
-策略存在于降价文档中，这些文档作为每个决策的操作上下文加载。示例：“复制 Nifty Defense Index 并每周重新平衡。”这为代理提供了稳定的工作流程定义，而不是依赖于聊天历史记录。第一个让我感觉真实的用例非常平庸：投资组合重新平衡。我曾经制作 Smallcase 风格的索引复制投资组合，然后忘记按时重新平衡它们。通过此设置，我可以定义一次策略，让非 LLM 层监视条件，并让代理准备操作以供批准。这是它不再感觉像一个演示并开始感觉有用的第一点。一些注意事项：
-• 用户界面仍然薄弱；现在主要是聊天界面
-• Dhan only for now
-• 目前仅限本地安装
-• 需要 Node.js 和 Anthropic API 密钥存储库：github.com/vibetrade-ai/vibe-trade我发布此内容主要是因为我认为现在工具使用更好，并且财务使故障模式变得非常明显，更多人会尝试构建“LLM 作为操作员”系统。我感兴趣的问题是：• 对于此类事情还缺少哪些其他线束组件？• 您会更信任像这样的本地系统而不是托管系统吗？一个或更少？• 您首先会自动化哪些可重复的财务工作流程？
+      <title>Show HN：Apple Ads Toolkit – 将您的 Apple 广告作为 GitOps Terraform 运行</title>
+      <link>https://news.ycombinator.com/item?id=47365851</link>
+      <description><![CDATA[https://github.com/ndx-technologies/go-apple-ads这对我们非常有帮助，我认为更多的人应该意识到这种方法
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47363815
+评论网址：https://news.ycombinator.com/item?id=47365851
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/vibetrade-ai/vibe-trade</guid>
-      <pubDate>Fri, 13 Mar 2026 12:51:37 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47365851</guid>
+      <pubDate>Fri, 13 Mar 2026 15:34:00 GMT</pubDate>
     </item>
     <item>
-      <title>我的人工智能代理知道我是谁。不只是我想要的。 Who I Am</title>
-      <link>https://thoughts.jock.pl/p/wiz-ai-agent-self-improvement-architecture</link>
-      <description><![CDATA[文章网址：https://thoughts.jock.pl/p/wiz-ai-agent-self-improvement-architecture
-评论网址：https://news.ycombinator.com/item?id=47363780
+      <title>蓝光阻挡照明与精神科病房更好的患者治疗结果相关</title>
+      <link>https://www.theguardian.com/science/2026/mar/13/how-the-colour-of-light-could-be-used-to-treat-mental-illness-norway</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/science/2026/mar/13/how-the-colour-of-light-could-be-used-to-treat-mental-illness-norway
+评论网址：https://news.ycombinator.com/item?id=47365850
 积分：1
 # 条评论：0]]></description>
-      <guid>https://thoughts.jock.pl/p/wiz-ai-agent-self-improvement-architecture</guid>
-      <pubDate>Fri, 13 Mar 2026 12:48:38 GMT</pubDate>
+      <guid>https://www.theguardian.com/science/2026/mar/13/how-the-colour-of-light-could-be-used-to-treat-mental-illness-norway</guid>
+      <pubDate>Fri, 13 Mar 2026 15:33:54 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：为什么合作社从未在科技领域发挥过重要作用？</title>
-      <link>https://news.ycombinator.com/item?id=47363776</link>
-      <description><![CDATA[现代科技拥有庞大的开源生态系统和庞大的投资者支持，但以合作社形式开展的重大活动却很少，在这种合作社中，个人或小公司集中资金和其他资源来利用规模经济并与大公司竞争，但不能与其他公司竞争。随着人们越来越依赖于少数几家大型公司，这些公司越来越多地试图利用其规模来提高价格、利润和利润，这似乎是该领域可以越来越多地利用的东西。
-&lt;小时/&gt;
-Comments URL: https://news.ycombinator.com/item?id=47363776
+      <title>粘土内部定价备忘录</title>
+      <link>https://www.clay.com/blog/clay-pricing-memo-internal</link>
+      <description><![CDATA[文章网址：https://www.clay.com/blog/clay-pricing-memo-internal
+评论网址：https://news.ycombinator.com/item?id=47365845
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47363776</guid>
-      <pubDate>Fri, 13 Mar 2026 12:48:20 GMT</pubDate>
+      <guid>https://www.clay.com/blog/clay-pricing-memo-internal</guid>
+      <pubDate>Fri, 13 Mar 2026 15:33:27 GMT</pubDate>
     </item>
     <item>
-      <title>系统性预兆——人工智能与工作</title>
-      <link>https://muskdeer.blogspot.com/2026/02/systemic-omens-ai-and-work.html</link>
-      <description><![CDATA[文章网址：https://muskdeer.blogspot.com/2026/02/systemic-omens-ai-and-work.html
-评论网址：https://news.ycombinator.com/item?id=47363768
+      <title>“悲伤与人工智能的分裂”</title>
+      <link>https://daringfireball.net/linked/2026/03/13/grief-and-the-ai-split</link>
+      <description><![CDATA[文章网址：https://daringfireball.net/linked/2026/03/13/grief-and-the-ai-split
+评论网址：https://news.ycombinator.com/item?id=47365837
 积分：1
 # 条评论：0]]></description>
-      <guid>https://muskdeer.blogspot.com/2026/02/systemic-omens-ai-and-work.html</guid>
-      <pubDate>Fri, 13 Mar 2026 12:47:22 GMT</pubDate>
+      <guid>https://daringfireball.net/linked/2026/03/13/grief-and-the-ai-split</guid>
+      <pubDate>Fri, 13 Mar 2026 15:32:54 GMT</pubDate>
     </item>
     <item>
-      <title>读者注意到 Kindle 上更新的流行文化参考资料</title>
-      <link>https://dailydot.com/pretty-little-liars-updated-pop-culture-references</link>
-      <description><![CDATA[文章网址：https://dailydot.com/pretty-little-liars-updated-pop-culture-references
-Comments URL: https://news.ycombinator.com/item?id=47363756
+      <title>“严重缺水”：为什么海水淡化厂是海湾地区最大的弱点</title>
+      <link>https://www.theguardian.com/world/2026/mar/11/severe-water-stress-why-desalination-plants-are-gulf-greatest-weakness</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/world/2026/mar/11/severe-water-stress-why-desalination-plants-are-gulf-greatest-weakness
+评论网址：https://news.ycombinator.com/item?id=47365829
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theguardian.com/world/2026/mar/11/severe-water-stress-why-desalination-plants-are-gulf-greatest-weakness</guid>
+      <pubDate>Fri, 13 Mar 2026 15:32:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：代理已打包，就像 Spotify 已打包一样</title>
+      <link>https://swarmpack.github.io/landing-page/</link>
+      <description><![CDATA[文章网址：https://swarmpack.github.io/landing-page/
+评论网址：https://news.ycombinator.com/item?id=47365793
 积分：2
-# 条评论：2]]></description>
-      <guid>https://dailydot.com/pretty-little-liars-updated-pop-culture-references</guid>
-      <pubDate>Fri, 13 Mar 2026 12:46:15 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://swarmpack.github.io/landing-page/</guid>
+      <pubDate>Fri, 13 Mar 2026 15:29:59 GMT</pubDate>
     </item>
     <item>
-      <title>了解原油：从勘探到定价</title>
-      <link>https://economictimes.indiatimes.com/markets/stocks/news/understanding-crude-oil-from-exploration-to-pricing-it-will-impact-indian-economy-and-stock-markets-for-at-least-next-2-decades/articleshow/129501225.cms?from=mdr</link>
-      <description><![CDATA[文章网址： https://economictimes.indiatimes.com/markets/stocks/news/understanding-crude-oil-from-exploration-to-pricing-it-will-impact-indian-economy-and-stock-markets-for-at-least-next-2-decades/articleshow/129501225.cms?from=mdr
-评论网址：https://news.ycombinator.com/item?id=47363755
+      <title>NASA 计划于 4 月 1 日发射阿耳忒弥斯二号载人登月任务</title>
+      <link>https://www.npr.org/2026/03/12/nx-s1-5746128/nasa-artemis-ii-april-launch</link>
+      <description><![CDATA[文章网址：https://www.npr.org/2026/03/12/nx-s1-5746128/nasa-artemis-ii-april-launch
+评论网址：https://news.ycombinator.com/item?id=47365784
 积分：1
 # 条评论：0]]></description>
-      <guid>https://economictimes.indiatimes.com/markets/stocks/news/understanding-crude-oil-from-exploration-to-pricing-it-will-impact-indian-economy-and-stock-markets-for-at-least-next-2-decades/articleshow/129501225.cms?from=mdr</guid>
-      <pubDate>Fri, 13 Mar 2026 12:46:13 GMT</pubDate>
+      <guid>https://www.npr.org/2026/03/12/nx-s1-5746128/nasa-artemis-ii-april-launch</guid>
+      <pubDate>Fri, 13 Mar 2026 15:29:16 GMT</pubDate>
     </item>
     <item>
-      <title>我可以在本地运行人工智能吗？</title>
-      <link>https://www.canirun.ai/</link>
-      <description><![CDATA[文章网址：https://www.canirun.ai/
-评论网址：https://news.ycombinator.com/item?id=47363754
+      <title>“对威胁行为者征税”</title>
+      <link>https://snowfroc.com/</link>
+      <description><![CDATA[文章网址：https://snowfroc.com/
+评论网址：https://news.ycombinator.com/item?id=47365776
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.canirun.ai/</guid>
-      <pubDate>Fri, 13 Mar 2026 12:46:10 GMT</pubDate>
+      <guid>https://snowfroc.com/</guid>
+      <pubDate>Fri, 13 Mar 2026 15:28:40 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：K-synth – 用于合成器设计的基于 Web 的数组语言游乐场</title>
-      <link>https://octetta.github.io/k-synth/</link>
-      <description><![CDATA[我构建了 k-synth 作为实验，看看受 K 启发的极简数组语言是否可以比传统代码更快、更直观地绘制波形草图。我整理了一个基于网络的工具包，这样您就可以直接在浏览器中尝试语法，而无需接触编译器：Live Toolkit：https://octetta.github.io/k-synth/如果您访问该页面，这里是获得音频回报的快速路径： 单击“补丁”并选择 dm-bell.ks。
-
-    单击“运行”——笔记本区域将更新。单击波形可听到结果。
-
-    单击波形下方的“-&gt;0”按钮将其复制到顶部的插槽 0（插槽也可单击）。
-
-    单击输入区域中的“打击垫”以显示性能网格。
-
-    单击“旋律”可在网格上以不同的间隔播放插槽 0 的样本。
-
-“怪异”堆栈： 语言：一种简化的右关联数组语言（例如，s 代表正弦，p 代表 pi）。
-
-    Web 工具包：使用 WASM 和 Web Audio 构建实时编码示例。
-
-    AI 结对编程：我使用 AI 代理来引导解析器和 Web 样板，这让我可以在几周而不是几个月的时间内审查语言设计。
-
-目标：
-这并不是要取代 DAW。这是为大型项目生成样本的一种紧凑方式。目前它处于“will-it-blend”状态。我正在寻找来自阵列语言和 DSP 社区的反馈，特别是关于运算符选择和从右到左评估逻辑的反馈。来源 (MIT)：https://github.com/octetta/k-synth
+      <title>卫星接收器 IDC SFX2100 中发现的漏洞</title>
+      <link>https://www.abdulmhsblog.com/posts/sfx2100-vulns/</link>
+      <description><![CDATA[文章网址：https://www.abdulmhsblog.com/posts/sfx2100-vulns/
+评论网址：https://news.ycombinator.com/item?id=47365774
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.abdulmhsblog.com/posts/sfx2100-vulns/</guid>
+      <pubDate>Fri, 13 Mar 2026 15:28:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：HN 是否应该更新此网站指南？</title>
+      <link>https://news.ycombinator.com/item?id=47365772</link>
+      <description><![CDATA[&gt; 请不要发表评论说 HN 正在变成 Reddit。这是一个半菜鸟的错觉，和山一样古老我觉得这不再是一个错觉了，评论里充满了随机的LLM机器人，在这一点上，如果我知道它们是某人的张开爪子，我不会感到惊讶
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47363748
-积分：1
-# Comments: 1]]></description>
-      <guid>https://octetta.github.io/k-synth/</guid>
-      <pubDate>Fri, 13 Mar 2026 12:45:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：部署后如何消除焦虑</title>
-      <link>https://news.ycombinator.com/item?id=47363740</link>
-      <description><![CDATA[嗨，HN，即使有一个不错的 CI/CD 管道，我仍然发现生产部署后的前 10-15 分钟是奇怪的手动。构建通过了，部署成功了，但仍然存在一个差距，我还不知道更改在生产中是否真正正确运行。大多数情况下，这会变成以下组合：- 观看仪表板-检查最近的错误日志-等待查看警报是否触发-决定是否不管它还是进一步调查我很好奇其他团队如何处理这一刻。您在这里主要依赖手动观察，还是有一些轻量级方法在部署后立即验证生产行为？我对不需要大量可观察性堆栈的工作流程感兴趣。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47363740
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47363740</guid>
-      <pubDate>Fri, 13 Mar 2026 12:44:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>梦想之下的债务</title>
-      <link>https://om.co/2026/03/09/the-debt-beneath-the-dream/</link>
-      <description><![CDATA[文章网址：https://om.co/2026/03/09/the-debt-beneath-the-dream/
-评论网址：https://news.ycombinator.com/item?id=47363737
-积分：1
-# 条评论：0]]></description>
-      <guid>https://om.co/2026/03/09/the-debt-beneath-the-dream/</guid>
-      <pubDate>Fri, 13 Mar 2026 12:44:29 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=47365772
+积分：2
+# 条评论：1]]></description>
+      <guid>https://news.ycombinator.com/item?id=47365772</guid>
+      <pubDate>Fri, 13 Mar 2026 15:28:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
