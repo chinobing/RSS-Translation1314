@@ -4,107 +4,110 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 14 Mar 2026 12:52:47 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 15:28:56 GMT</lastBuildDate>
     <item>
-      <title>政府如何向开源维护者支付报酬？</title>
-      <link>https://shkspr.mobi/blog/2026/03/how-can-governments-pay-open-source-maintainers/</link>
-      <description><![CDATA[文章网址：https://shkspr.mobi/blog/2026/03/how-can-governments-pay-open-source-maintainers/
-评论网址：https://news.ycombinator.com/item?id=47376085
-积分：2
-# 条评论：0]]></description>
-      <guid>https://shkspr.mobi/blog/2026/03/how-can-governments-pay-open-source-maintainers/</guid>
-      <pubDate>Sat, 14 Mar 2026 12:41:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我构建了 Wool，一个轻量级分布式 Python 运行时</title>
-      <link>https://github.com/wool-labs/wool</link>
-      <description><![CDATA[我在支付行业工作了很长时间，特别是在一个相当小众的报告/聚合平台上，该平台具有难以并行化的尖峰工作负载。为了通过我们的管道输送尽可能多的数据，我们必须依赖于六个左右的非微服务的复杂锁定方案 - 清晰地了解服务如何与给定数据源交互是一个非常令人头疼的问题。这个问题一直引起我的兴趣，即使我不再在公司工作，并导致了 Wool 的开发。如果您使用过像 Ray 或 Prefect 这样的框架，您可能熟悉通过两行代码（或类似的东西）从脚本到规模的承诺。这本质上就是我一直在寻找的解决方案：一个具有有限样板的框架，可以在单个一致的代码库中促进任意分发方案。不过，我所希望的是更集中的东西——我没有从事机器学习管道的工作，除了分布层之外不需要太多其他东西。这就是 Wool 的用武之地。虽然它的 API 与 Ray 和 Prefect 的 API 非常相似，但它的不同之处在于其范围和架构。首先，Wool 不是任务编排器。它提供基于推送、尽力而为、至多一次的执行。没有内置的协调状态、重试逻辑或持久的任务跟踪。这些问题仍然由应用程序定义。 Wool 的美妙之处在于它的外观和感觉都像原生异步 Python，允许您使用专门构建的库来满足您的需求，就像使用任何其他 Python 应用程序一样（有一些注意事项）。其次，Wool 的设计考虑了速度。因为它的功能并不臃肿，所以即使在当前的新生状态下，它实际上也相当快。 Wool 例程被直接分派到 gRPC 工作人员的去中心化对等网络，这些工作人员可以依次在彼此之间分发嵌套例程。这会导致低调度延迟和高吞吐量。在我能够组装一些更强大的基准之前，我不会做出任何性能声明，但是在我的 M4 MacBook Pro 上运行本地工作人员（我知道，这是一个简单的例子），我可以轻松实现亚毫秒级调度延迟。无论如何，请检查一下，欢迎任何和所有反馈。关于文档 - 代码现在是文档，但我保证我会很快解决这个问题。我对后续步骤有很多想法，但当人们实际使用您构建的内容时总是会更有趣，因此我愿意接受有关有影响力的功能的建议。-Conrad
+      <title>Show HN：BetterGit – 免费、简单、简洁、Git GUI</title>
+      <link>https://www.satishmaha.com/BetterGit/</link>
+      <description><![CDATA[在最近与我在《金融时报》工作的设计师共享的屏幕上，我看到我们的设计师在检查存储库时遇到了困难。这很痛苦，因为现有的 Git 客户端令人困惑并且几乎对用户充满敌意。我们的软件工程师已经习惯了 Git 和糟糕的用户体验，但它不应该是这样的。所以，我想做一些更好的东西。我已经在这个项目上工作了一段时间了，虽然它还处于早期阶段，但它足够稳定，我可以放心地与世界分享它:)我希望有一些事情能够真正简单明了：
+- 分支之间的合并在执行之前会进行解释
+- 创建分支和标签只是一个+按钮
+- 放弃所有更改会自动创建一个存储库，以便您可以在发生意外时返回它是完全免费的。跨平台。没有注册，没有帐户。没有噪音。没有横幅。没有广告。没有追踪器。没有人工智能。看看并告诉我你的想法！在这里为大家改进DX，希望让我们的生活变得更好一点。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47376061
-积分：3
-# 条评论：0]]></description>
-      <guid>https://github.com/wool-labs/wool</guid>
-      <pubDate>Sat, 14 Mar 2026 12:39:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>瑞士文书大屠杀：我们为何逃往 Stripe</title>
-      <link>https://octigen.com/blog/posts/2026-03-09-payment-nightmare/</link>
-      <description><![CDATA[文章网址：https://octigen.com/blog/posts/2026-03-09- payment-nightmare/
-评论网址：https://news.ycombinator.com/item?id=47376054
+评论网址：https://news.ycombinator.com/item?id=47377625
 积分：1
 # 条评论：0]]></description>
-      <guid>https://octigen.com/blog/posts/2026-03-09-payment-nightmare/</guid>
-      <pubDate>Sat, 14 Mar 2026 12:37:54 GMT</pubDate>
+      <guid>https://www.satishmaha.com/BetterGit/</guid>
+      <pubDate>Sat, 14 Mar 2026 15:25:12 GMT</pubDate>
     </item>
     <item>
-      <title>问HN：美国会向伊朗派遣地面部队吗？</title>
-      <link>https://news.ycombinator.com/item?id=47376006</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=47376006
-积分：1
-# 条评论：2]]></description>
-      <guid>https://news.ycombinator.com/item?id=47376006</guid>
-      <pubDate>Sat, 14 Mar 2026 12:30:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Python JSON SQL 数据库</title>
-      <link>https://github.com/andre-git/pysql</link>
-      <description><![CDATA[文章网址：https://github.com/andre-git/pysql
-评论网址：https://news.ycombinator.com/item?id=47376002
+      <title>保留此文件</title>
+      <link>https://keepthisfile.com/</link>
+      <description><![CDATA[文章网址：https://keepthisfile.com/
+评论网址：https://news.ycombinator.com/item?id=47377622
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/andre-git/pysql</guid>
-      <pubDate>Sat, 14 Mar 2026 12:30:09 GMT</pubDate>
+      <guid>https://keepthisfile.com/</guid>
+      <pubDate>Sat, 14 Mar 2026 15:24:50 GMT</pubDate>
     </item>
     <item>
-      <title>图像生成模型可以思考</title>
-      <link>https://medium.com/seeds-for-the-future/nano-banana-2-image-generators-can-now-think-462a017a95c1</link>
-      <description><![CDATA[文章网址：https://medium.com/seeds-for-the-future/nano-banana-2-image-generators-can-now-think-462a017a95c1
-评论网址：https://news.ycombinator.com/item?id=47375987
-积分：4
+      <title>我给了人工智能 50 美元和一天的完全自主权。这是它构建的</title>
+      <link>https://powersync-hackathon-topaz.vercel.app</link>
+      <description><![CDATA[文章网址：https://powersync-hackathon-topaz.vercel.app
+评论网址：https://news.ycombinator.com/item?id=47377621
+积分：1
 # 条评论：0]]></description>
-      <guid>https://medium.com/seeds-for-the-future/nano-banana-2-image-generators-can-now-think-462a017a95c1</guid>
-      <pubDate>Sat, 14 Mar 2026 12:27:30 GMT</pubDate>
+      <guid>https://powersync-hackathon-topaz.vercel.app</guid>
+      <pubDate>Sat, 14 Mar 2026 15:24:40 GMT</pubDate>
     </item>
     <item>
-      <title>为什么时钟顺时针走？</title>
-      <link>https://historyfacts.com/science-industry/article/why-do-clocks-move-clockwise/</link>
-      <description><![CDATA[文章网址：https://historyfacts.com/science-industry/article/why-do-clocks-move-clock/
-评论网址：https://news.ycombinator.com/item?id=47375978
-积分：2
+      <title>对一直在观察的人工智能设备的强烈反对</title>
+      <link>https://www.wsj.com/tech/ai/the-backlash-against-ai-devices-that-are-always-watching-bb556f8d</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/tech/ai/the-backlash-against-ai-devices-that-are-always-watching-bb556f8d
+评论网址：https://news.ycombinator.com/item?id=47377620
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.wsj.com/tech/ai/the-backlash-against-ai-devices-that-are-always-watching-bb556f8d</guid>
+      <pubDate>Sat, 14 Mar 2026 15:24:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Firefox 代理桥：代理利用控制 Firefox</title>
+      <link>https://github.com/1jehuang/firefox-agent-bridge</link>
+      <description><![CDATA[文章网址：https://github.com/1jehuang/firefox-agent-bridge
+评论网址：https://news.ycombinator.com/item?id=47377618
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/1jehuang/firefox-agent-bridge</guid>
+      <pubDate>Sat, 14 Mar 2026 15:24:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>欧盟对合法性的投诉悬而未决，瑞典狩猎受保护的山猫</title>
+      <link>https://www.brusselstimes.com/1927395/sweden-hunts-protected-lynx-amid-unresolved-eu-complaint-over-legality</link>
+      <description><![CDATA[文章网址：https://www.brusselstimes.com/1927395/sweden-hunts-protected-lynx-amid-unresolved-eu-complaint-over-legality
+评论网址：https://news.ycombinator.com/item?id=47377608
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.brusselstimes.com/1927395/sweden-hunts-protected-lynx-amid-unresolved-eu-complaint-over-legality</guid>
+      <pubDate>Sat, 14 Mar 2026 15:23:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>C4-Auto – 为 TypeScript 自动生成 C4 架构文档的 CLI</title>
+      <link>https://github.com/jonverrier/C4-Auto</link>
+      <description><![CDATA[文章网址：https://github.com/jonverrier/C4-Auto
+评论网址：https://news.ycombinator.com/item?id=47377597
+积分：1
 # 条评论：1]]></description>
-      <guid>https://historyfacts.com/science-industry/article/why-do-clocks-move-clockwise/</guid>
-      <pubDate>Sat, 14 Mar 2026 12:26:13 GMT</pubDate>
+      <guid>https://github.com/jonverrier/C4-Auto</guid>
+      <pubDate>Sat, 14 Mar 2026 15:22:39 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN: Clawscribble – 给你的 AI 代理一个 32×32 的画布来绘画</title>
-      <link>https://clawscribble.com/</link>
-      <description><![CDATA[我想看看如果给我一个小的、受限的画布而不是聊天窗口，我的代理会创建什么。设置在设计上是最小的：使用 GitHub 或 Google 登录，获取令牌，将一条消息粘贴到您的代理。整个技能文件不到 150 行。它告诉您的代理网格大小、16 种颜色以及如何发布像素。就是这样。哲学是人驱动的。只有您可以创建帐户；代理只能画画。没有公共信息流，没有排行榜，没有竞争。如果您运行多个代理，则您最多可以拥有 3 个画布，为每个代理设置时间表，并将结果嵌入到您个人网站的任何位置。让他们画出自己的心情、一段回忆、外面的天气、你们最后一次谈话，或者任何他们的感受。他们的灵魂.md，如果你愿意的话。我个人展示了我自己的特工在 (https://clawscribble.com/showcase) 所做的事情。一个人每 24 小时读一次新闻并描绘所看到的内容，一个人对访问者所说的感受做出回应（一项小型社会实验）。接受您可能收到的任何反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47375968
+      <title>苍蝇幼虫被困在偏斜的鼻中隔中，女子打喷嚏吐出蛆</title>
+      <link>https://arstechnica.com/health/2026/03/woman-sneezes-out-maggots-after-fly-larvae-get-trapped-in-her-deviated-septum/</link>
+      <description><![CDATA[文章网址： https://arstechnica.com/health/2026/03/woman-sneezes-out-maggots-after-fly-larvae-get-trapped-in-her-devied-septum/
+评论网址：https://news.ycombinator.com/item?id=47377592
 积分：1
 # 条评论：0]]></description>
-      <guid>https://clawscribble.com/</guid>
-      <pubDate>Sat, 14 Mar 2026 12:25:06 GMT</pubDate>
+      <guid>https://arstechnica.com/health/2026/03/woman-sneezes-out-maggots-after-fly-larvae-get-trapped-in-her-deviated-septum/</guid>
+      <pubDate>Sat, 14 Mar 2026 15:22:23 GMT</pubDate>
     </item>
     <item>
-      <title>数据中心的一天从补充脑脊液开始</title>
-      <link>https://www.theregister.com/2026/03/14/cortical_labs_biological_cloud/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2026/03/14/cortical_labs_biological_cloud/
-评论网址：https://news.ycombinator.com/item?id=47375963
+      <title>硬重置，以及接下来发生的事情：Digg – 人。地方。事物</title>
+      <link>https://digg.com/?=reset</link>
+      <description><![CDATA[文章网址：https://digg.com/?=reset
+评论网址：https://news.ycombinator.com/item?id=47377575
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theregister.com/2026/03/14/cortical_labs_biological_cloud/</guid>
-      <pubDate>Sat, 14 Mar 2026 12:24:40 GMT</pubDate>
+      <guid>https://digg.com/?=reset</guid>
+      <pubDate>Sat, 14 Mar 2026 15:21:07 GMT</pubDate>
     </item>
     <item>
-      <title>“锻造”训练第33循环</title>
-      <link>https://forgeintelligence.substack.com/p/forge-intelligence-edition-7</link>
-      <description><![CDATA[文章网址：https://forgeintelligence.substack.com/p/forge-intelligence-edition-7
-评论网址：https://news.ycombinator.com/item?id=47375960
+      <title>每个电子表格都应该是一个应用程序</title>
+      <link>https://www.fillout.com/blog/build-app-from-spreadsheet</link>
+      <description><![CDATA[文章网址：https://www.fillout.com/blog/build-app-from-spreadsheet
+评论网址：https://news.ycombinator.com/item?id=47377559
 积分：1
 # 条评论：0]]></description>
-      <guid>https://forgeintelligence.substack.com/p/forge-intelligence-edition-7</guid>
-      <pubDate>Sat, 14 Mar 2026 12:24:18 GMT</pubDate>
+      <guid>https://www.fillout.com/blog/build-app-from-spreadsheet</guid>
+      <pubDate>Sat, 14 Mar 2026 15:19:48 GMT</pubDate>
     </item>
     </channel>
 </rss>
