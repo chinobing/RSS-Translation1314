@@ -4,111 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 14 Mar 2026 09:33:55 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 12:52:47 GMT</lastBuildDate>
     <item>
-      <title>Harmandeep Singh Kandhari：倡导纪律驱动的健身</title>
-      <link>https://news.ycombinator.com/item?id=47374840</link>
-      <description><![CDATA[Harmandeep Singh Kandhari 将健身习惯与正念、坚持和恢复实践相结合，鼓励平衡的生活方式。了解更多：https://github.com/harmansinghdeepkandhari
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47374840
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47374840</guid>
-      <pubDate>Sat, 14 Mar 2026 09:21:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>星链军事化及其对全球战略稳定的影响</title>
-      <link>https://interpret.csis.org/translations/starlink-militarization-and-its-impact-on-global-strategic-stability/</link>
-      <description><![CDATA[文章网址：https://interpret.csis.org/translations/starlink-militarization-and-its-impact-on-global-strategic-stability/
-评论网址：https://news.ycombinator.com/item?id=47374796
+      <title>政府如何向开源维护者支付报酬？</title>
+      <link>https://shkspr.mobi/blog/2026/03/how-can-governments-pay-open-source-maintainers/</link>
+      <description><![CDATA[文章网址：https://shkspr.mobi/blog/2026/03/how-can-governments-pay-open-source-maintainers/
+评论网址：https://news.ycombinator.com/item?id=47376085
 积分：2
 # 条评论：0]]></description>
-      <guid>https://interpret.csis.org/translations/starlink-militarization-and-its-impact-on-global-strategic-stability/</guid>
-      <pubDate>Sat, 14 Mar 2026 09:14:51 GMT</pubDate>
+      <guid>https://shkspr.mobi/blog/2026/03/how-can-governments-pay-open-source-maintainers/</guid>
+      <pubDate>Sat, 14 Mar 2026 12:41:29 GMT</pubDate>
     </item>
     <item>
-      <title>Claude Code：32K 问题，49% 机器人已关闭 – 一个 bug 集群的生命周期</title>
-      <link>https://gist.github.com/azkore/934e5387579efb17e1080402efedf13d</link>
-      <description><![CDATA[文章网址：https://gist.github.com/azkore/934e5387579efb17e1080402efedf13d
-评论网址：https://news.ycombinator.com/item?id=47374787
-积分：1
-# 条评论：1]]></description>
-      <guid>https://gist.github.com/azkore/934e5387579efb17e1080402efedf13d</guid>
-      <pubDate>Sat, 14 Mar 2026 09:12:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：需要另一位编辑吗？</title>
-      <link>https://news.ycombinator.com/item?id=47374770</link>
-      <description><![CDATA[我多年来一直使用 JetBrains IDE。我对这个软件没有任何问题（除了几年前他们改变 UI 的那段时间，后台任务变得疯狂，这让我多年来一直坚持使用 2022 年的旧版本），只是对公司有意见。我从来不喜欢 VS Code，它的 UI 不适合我。我希望 Zed 能成为我的出路，但它缺少一些我需要的东西，这促使我开始开发自己的编辑器。这是一个低优先级的项目，但我已经完成了繁重的工作，主要是布局，所以基础知识是实用的。我的目标是看看我是否可以用 Go 制作桌面 GUI 程序，事实证明这是可能的，而且相当容易。我开始在 Twitter 上看到人们如何不喜欢 JetBrains、Zed 和 VS Code 之类的帖子，几个月后我开始关注。所以我想知道这些编辑出了什么问题？例如，Zed 是最新的，我希望它现在是完美无缺的，了解现有编辑以及他们出了什么问题，但他们似乎仍然得到负面反馈。为什么你认为人们仍然对我们所拥有的不满意？这些编辑器做错了什么？我应该更多地关注我的编辑器，也许尝试将其变得更大？PS：显然我不是在谈论 TUI 编辑器，而是 GUI 编辑器。
+      <title>Show HN：我构建了 Wool，一个轻量级分布式 Python 运行时</title>
+      <link>https://github.com/wool-labs/wool</link>
+      <description><![CDATA[我在支付行业工作了很长时间，特别是在一个相当小众的报告/聚合平台上，该平台具有难以并行化的尖峰工作负载。为了通过我们的管道输送尽可能多的数据，我们必须依赖于六个左右的非微服务的复杂锁定方案 - 清晰地了解服务如何与给定数据源交互是一个非常令人头疼的问题。这个问题一直引起我的兴趣，即使我不再在公司工作，并导致了 Wool 的开发。如果您使用过像 Ray 或 Prefect 这样的框架，您可能熟悉通过两行代码（或类似的东西）从脚本到规模的承诺。这本质上就是我一直在寻找的解决方案：一个具有有限样板的框架，可以在单个一致的代码库中促进任意分发方案。不过，我所希望的是更集中的东西——我没有从事机器学习管道的工作，除了分布层之外不需要太多其他东西。这就是 Wool 的用武之地。虽然它的 API 与 Ray 和 Prefect 的 API 非常相似，但它的不同之处在于其范围和架构。首先，Wool 不是任务编排器。它提供基于推送、尽力而为、至多一次的执行。没有内置的协调状态、重试逻辑或持久的任务跟踪。这些问题仍然由应用程序定义。 Wool 的美妙之处在于它的外观和感觉都像原生异步 Python，允许您使用专门构建的库来满足您的需求，就像使用任何其他 Python 应用程序一样（有一些注意事项）。其次，Wool 的设计考虑了速度。因为它的功能并不臃肿，所以即使在当前的新生状态下，它实际上也相当快。 Wool 例程被直接分派到 gRPC 工作人员的去中心化对等网络，这些工作人员可以依次在彼此之间分发嵌套例程。这会导致低调度延迟和高吞吐量。在我能够组装一些更强大的基准之前，我不会做出任何性能声明，但是在我的 M4 MacBook Pro 上运行本地工作人员（我知道，这是一个简单的例子），我可以轻松实现亚毫秒级调度延迟。无论如何，请检查一下，欢迎任何和所有反馈。关于文档 - 代码现在是文档，但我保证我会很快解决这个问题。我对后续步骤有很多想法，但当人们实际使用您构建的内容时总是会更有趣，因此我愿意接受有关有影响力的功能的建议。-Conrad
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47374770
+评论网址：https://news.ycombinator.com/item?id=47376061
+积分：3
+# 条评论：0]]></description>
+      <guid>https://github.com/wool-labs/wool</guid>
+      <pubDate>Sat, 14 Mar 2026 12:39:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>瑞士文书大屠杀：我们为何逃往 Stripe</title>
+      <link>https://octigen.com/blog/posts/2026-03-09-payment-nightmare/</link>
+      <description><![CDATA[文章网址：https://octigen.com/blog/posts/2026-03-09- payment-nightmare/
+评论网址：https://news.ycombinator.com/item?id=47376054
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47374770</guid>
-      <pubDate>Sat, 14 Mar 2026 09:10:39 GMT</pubDate>
+      <guid>https://octigen.com/blog/posts/2026-03-09-payment-nightmare/</guid>
+      <pubDate>Sat, 14 Mar 2026 12:37:54 GMT</pubDate>
     </item>
     <item>
-      <title>陈数</title>
-      <link>http://albi3ro.github.io/M4/QAHE.html</link>
-      <description><![CDATA[文章网址：http://albi3ro.github.io/M4/QAHE.html
-评论网址：https://news.ycombinator.com/item?id=47374754
+      <title>问HN：美国会向伊朗派遣地面部队吗？</title>
+      <link>https://news.ycombinator.com/item?id=47376006</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=47376006
+积分：1
+# 条评论：2]]></description>
+      <guid>https://news.ycombinator.com/item?id=47376006</guid>
+      <pubDate>Sat, 14 Mar 2026 12:30:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Python JSON SQL 数据库</title>
+      <link>https://github.com/andre-git/pysql</link>
+      <description><![CDATA[文章网址：https://github.com/andre-git/pysql
+评论网址：https://news.ycombinator.com/item?id=47376002
 积分：1
 # 条评论：0]]></description>
-      <guid>http://albi3ro.github.io/M4/QAHE.html</guid>
-      <pubDate>Sat, 14 Mar 2026 09:06:28 GMT</pubDate>
+      <guid>https://github.com/andre-git/pysql</guid>
+      <pubDate>Sat, 14 Mar 2026 12:30:09 GMT</pubDate>
     </item>
     <item>
-      <title>Megadev：Sega Mega Drive 和 Mega CD 硬件的开发套件</title>
-      <link>https://github.com/drojaazu/megadev</link>
-      <description><![CDATA[文章网址：https://github.com/drojaazu/megadev
-评论网址：https://news.ycombinator.com/item?id=47374745
-积分：2
-# 条评论：0]]></description>
-      <guid>https://github.com/drojaazu/megadev</guid>
-      <pubDate>Sat, 14 Mar 2026 09:04:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>PowerSchool：入门与执行</title>
-      <link>https://news.ycombinator.com/item?id=47374719</link>
-      <description><![CDATA[大多数关于 PowerSchool 事件的讨论都将其描述为支持帐户的泄露。如果您查看系统内部的操作链，它大致如下所示：条目：受损的支持凭据
-执行：通过 PowerSource 支持门户维护远程支持操作
-记录系统：学生信息系统 (SIS) 数据库支持帐户不会直接访问客户数据。相反，操作是通过 PowerSource 支持界面执行的，这可能会触发针对客户数据库的操作。实际上，支持门户充当了生产数据库操作的执行机制。这使得该事件不再与直接数据库访问有关，而更多地与支持界面中嵌入的执行权限有关。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47374719
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47374719</guid>
-      <pubDate>Sat, 14 Mar 2026 08:59:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>“你们都比其他人更糟糕”：反政权的伊朗人转向特朗普</title>
-      <link>https://www.theguardian.com/world/2026/mar/14/anti-regime-iranians-turn-on-trump-us</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/world/2026/mar/14/anti-regime-iranians-turn-on-trump-us
-评论网址：https://news.ycombinator.com/item?id=47374715
+      <title>图像生成模型可以思考</title>
+      <link>https://medium.com/seeds-for-the-future/nano-banana-2-image-generators-can-now-think-462a017a95c1</link>
+      <description><![CDATA[文章网址：https://medium.com/seeds-for-the-future/nano-banana-2-image-generators-can-now-think-462a017a95c1
+评论网址：https://news.ycombinator.com/item?id=47375987
 积分：4
 # 条评论：0]]></description>
-      <guid>https://www.theguardian.com/world/2026/mar/14/anti-regime-iranians-turn-on-trump-us</guid>
-      <pubDate>Sat, 14 Mar 2026 08:58:46 GMT</pubDate>
+      <guid>https://medium.com/seeds-for-the-future/nano-banana-2-image-generators-can-now-think-462a017a95c1</guid>
+      <pubDate>Sat, 14 Mar 2026 12:27:30 GMT</pubDate>
     </item>
     <item>
-      <title>Fooorma：开源程序艺术工作室</title>
-      <link>https://github.com/elenatorro/fooorma</link>
-      <description><![CDATA[文章网址：https://github.com/elenatorro/fooorma
-评论网址：https://news.ycombinator.com/item?id=47374702
-积分：1
+      <title>为什么时钟顺时针走？</title>
+      <link>https://historyfacts.com/science-industry/article/why-do-clocks-move-clockwise/</link>
+      <description><![CDATA[文章网址：https://historyfacts.com/science-industry/article/why-do-clocks-move-clock/
+评论网址：https://news.ycombinator.com/item?id=47375978
+积分：2
 # 条评论：1]]></description>
-      <guid>https://github.com/elenatorro/fooorma</guid>
-      <pubDate>Sat, 14 Mar 2026 08:55:58 GMT</pubDate>
+      <guid>https://historyfacts.com/science-industry/article/why-do-clocks-move-clockwise/</guid>
+      <pubDate>Sat, 14 Mar 2026 12:26:13 GMT</pubDate>
     </item>
     <item>
-      <title>中国第十五个五年计划（官方英文翻译）</title>
-      <link>https://www.news.cn/politics/20260313/085af5de5a4b4268aa7d87d90817df2f/c.html</link>
-      <description><![CDATA[文章网址： https://www.news.cn/politics/20260313/085af5de5a4b4268aa7d87d90817df2f/c.html
-评论网址：https://news.ycombinator.com/item?id=47374682
+      <title>Show HN: Clawscribble – 给你的 AI 代理一个 32×32 的画布来绘画</title>
+      <link>https://clawscribble.com/</link>
+      <description><![CDATA[我想看看如果给我一个小的、受限的画布而不是聊天窗口，我的代理会创建什么。设置在设计上是最小的：使用 GitHub 或 Google 登录，获取令牌，将一条消息粘贴到您的代理。整个技能文件不到 150 行。它告诉您的代理网格大小、16 种颜色以及如何发布像素。就是这样。哲学是人驱动的。只有您可以创建帐户；代理只能画画。没有公共信息流，没有排行榜，没有竞争。如果您运行多个代理，则您最多可以拥有 3 个画布，为每个代理设置时间表，并将结果嵌入到您个人网站的任何位置。让他们画出自己的心情、一段回忆、外面的天气、你们最后一次谈话，或者任何他们的感受。他们的灵魂.md，如果你愿意的话。我个人展示了我自己的特工在 (https://clawscribble.com/showcase) 所做的事情。一个人每 24 小时读一次新闻并描绘所看到的内容，一个人对访问者所说的感受做出回应（一项小型社会实验）。接受您可能收到的任何反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47375968
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.news.cn/politics/20260313/085af5de5a4b4268aa7d87d90817df2f/c.html</guid>
-      <pubDate>Sat, 14 Mar 2026 08:52:56 GMT</pubDate>
+      <guid>https://clawscribble.com/</guid>
+      <pubDate>Sat, 14 Mar 2026 12:25:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>数据中心的一天从补充脑脊液开始</title>
+      <link>https://www.theregister.com/2026/03/14/cortical_labs_biological_cloud/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2026/03/14/cortical_labs_biological_cloud/
+评论网址：https://news.ycombinator.com/item?id=47375963
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theregister.com/2026/03/14/cortical_labs_biological_cloud/</guid>
+      <pubDate>Sat, 14 Mar 2026 12:24:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>“锻造”训练第33循环</title>
+      <link>https://forgeintelligence.substack.com/p/forge-intelligence-edition-7</link>
+      <description><![CDATA[文章网址：https://forgeintelligence.substack.com/p/forge-intelligence-edition-7
+评论网址：https://news.ycombinator.com/item?id=47375960
+积分：1
+# 条评论：0]]></description>
+      <guid>https://forgeintelligence.substack.com/p/forge-intelligence-edition-7</guid>
+      <pubDate>Sat, 14 Mar 2026 12:24:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
