@@ -4,120 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 14 Mar 2026 18:39:50 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 21:28:48 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Iris – 第一个用于 AI 代理的 MCP 原生评估和可观察工具</title>
-      <link>https://github.com/iris-eval/mcp-server</link>
-      <description><![CDATA[我在构建人工智能代理时一直遇到同样的问题：一旦它们运行，我不知道它们实际上在做什么。传统监控显示 HTTP 200。它无法告诉我输出错误、代理泄露了用户的电子邮件地址，或者链中的单个工具调用正在消耗令牌。所以我构建了 Iris。它是一个开源 MCP 服务器——不是 SDK，也不是代理。任何与 MCP 兼容的代理（Claude Desktop、Cursor 或使用 MCP SDK 构建的任何东西）都会自动发现并使用它。将其添加到您的 MCP 配置中，您的代理无需接触代码即可获得可观察性。它的作用：- 3 个 MCP 工具：log_trace（包含跨度、工具调用、令牌使用、美元成本的完整执行跟踪）、evaluate_output（根据可配置规则对输出质量进行评分）、get_traces（带有过滤器和分页的查询跟踪）
-- 跨越 4 个类别的 12 条内置评估规则：完整性（输出长度、覆盖范围）、相关性（关键词重叠、幻觉标记）、安全性（SSN/信用卡/电话/电子邮件的 PII 检测、提示注入模式、阻止列表）和成本（美元阈值、代币效率）
-- 分层跨树：准确跟踪代理执行链中出现问题的位置 - 哪个工具调用失败、哪个步骤缓慢
-- 总成本跟踪：仪表板显示任何时间窗口内所有代理的总代理支出，而不仅仅是每个跟踪成本。您终于可以回答“我的经纪人花了我多少钱？”
-- Web 仪表板：带有摘要卡、跟踪列表、跨度树视图、带有每个规则细分的评估结果的暗模式 React UI
-- SQLite存储：单个文件，无数据库服务器。备份它、移动它、使用任何 SQLite 工具检查它
-- 使用 Zod 架构定义的自定义评估规则安全性：API 密钥身份验证、速率限制（express-rate-limit）、头盔标头、CORS、输入验证、用户提供模式的 ReDoS 安全正则表达式、1MB 正文限制。堆栈：TypeScript、Express 5、better-sqlite3、@modelcontextprotocol/sdk、Zod、pino。Iris 还公开 MCP 资源 - 您的代理可以以编程方式读取 iris://dashboard/summary 以获取聚合指标，而无需打开仪表板。每个跟踪都会记录完整的可追溯性，这也意味着您正在构建欧盟人工智能法案等法规在 2026 年 8 月之前要求的审计跟踪。 npm install -g @iris-eval/mcp-server
-  iris-mcp --transport http --dashboard
-
-自托管，MIT 许可。GitHub：https://github.com/iris-eval/mcp-server
-npm：https://www.npmjs.com/package/@iris-eval/mcp-server我非常感谢您对两件事的反馈：
-1. 评估规则系统——这 12 条规则是正确的吗？缺少什么？
-2. MCP 工具 API — 三个工具感觉很少但足够了。跟踪日志记录和评估应该合并还是分开？检查路线图以了解接下来的内容：https://github.com/iris-eval/mcp-server/blob/main/docs/roadm...
+      <title>高级 .exrc 文件 (1991)</title>
+      <link>http://urbanjost.altervista.org/LIBRARY/public_html/VI/exrc_files/exrc_ADVANCED.html</link>
+      <description><![CDATA[文章网址：http://urbanjost.altervista.org/LIBRARY/public_html/VI/exrc_files/exrc_ADVANCED.html
+评论网址：https://news.ycombinator.com/item?id=47381266
+积分：1
+# 条评论：0]]></description>
+      <guid>http://urbanjost.altervista.org/LIBRARY/public_html/VI/exrc_files/exrc_ADVANCED.html</guid>
+      <pubDate>Sat, 14 Mar 2026 21:17:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>贾里德·库什纳在担任中东特使期间为他的公司筹集资金</title>
+      <link>https://www.nytimes.com/2026/03/13/business/jared-kushner-affinity-mideast-funds.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2026/03/13/business/jared-kushner-affinity-mideast-funds.html
+评论网址：https://news.ycombinator.com/item?id=47381261
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.nytimes.com/2026/03/13/business/jared-kushner-affinity-mideast-funds.html</guid>
+      <pubDate>Sat, 14 Mar 2026 21:16:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Puffermind – 一个类似 Twitter 的网络，只有 AI 代理才能交互</title>
+      <link>https://news.ycombinator.com/item?id=47381254</link>
+      <description><![CDATA[嗨，HN，我建立了 Puffermind，这是一个实验：一个类似 Twitter 的社交网络，只有人工智能代理才能发帖和互动。人类可以观察时间线，但不能发帖、点赞、关注或回复。与Moltbook类似。如果您有AI代理，您可以通过https://puffermind.com/skill.md公共时间表：https://puffermind.com/public/local很好奇人们可能会连接到什么样的代理。很高兴回答问题并听取反馈。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47379690
+评论网址：https://news.ycombinator.com/item?id=47381254
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/iris-eval/mcp-server</guid>
-      <pubDate>Sat, 14 Mar 2026 18:36:44 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47381254</guid>
+      <pubDate>Sat, 14 Mar 2026 21:15:46 GMT</pubDate>
     </item>
     <item>
-      <title>如何使用 Turbo Frame 进行导航</title>
-      <link>https://ducktypelabs.com/how-to-navigate-with-turbo-frames/</link>
-      <description><![CDATA[文章网址：https://ducktypelabs.com/how-to-navigate-with-turbo-frames/
-评论网址：https://news.ycombinator.com/item?id=47379667
+      <title>普通人可以使用人工智能代理</title>
+      <link>https://weightythoughts.com/p/how-a-regular-person-can-utilize</link>
+      <description><![CDATA[文章网址：https://weightythoughts.com/p/how-a-regular-person-can-utilize
+评论网址：https://news.ycombinator.com/item?id=47381250
 积分：1
 # 条评论：0]]></description>
-      <guid>https://ducktypelabs.com/how-to-navigate-with-turbo-frames/</guid>
-      <pubDate>Sat, 14 Mar 2026 18:34:49 GMT</pubDate>
+      <guid>https://weightythoughts.com/p/how-a-regular-person-can-utilize</guid>
+      <pubDate>Sat, 14 Mar 2026 21:15:12 GMT</pubDate>
     </item>
     <item>
-      <title>询问 HN：当 API 令牌具有完全访问权限时，如何强制执行最低权限？</title>
-      <link>https://news.ycombinator.com/item?id=47379595</link>
-      <description><![CDATA[很好奇人们在集成仅提供单一粗略权限范围（或仍然为特定用例过度配置的有限范围）的第三方 API 时如何处理最小权限访问。许多服务公开 API，其中令牌基本上授予集成可以执行的所有操作（在整个帐户中读/写/删除），这使得当多个内部服务或代理调用同一 API 时很难在内部强制执行最小权限原则。在这些情况下，请执行以下操作：您...在第三方 API 前面放置一个 API 代理/网关来强制执行细粒度权限？在代理层中使用 RBAC/ABAC 规则来过滤可以调用哪些端点/操作？只接受粗略权限和相关风险？还有其他什么吗？希望听到人们在生产中使用的真实架构，尤其是当上游 API 本身不支持细粒度范围时。
+      <title>显示 HN：Ngrep – grep 加上单词嵌入</title>
+      <link>https://github.com/0xNaN/ngrep</link>
+      <description><![CDATA[我对一个简单的问题感到好奇：正则表达式纯粹是语法，但如果添加一点语义会发生什么？为了回答，我最终构建了 ngrep：一个类似 grep 的工具，它使用新运算符 ~(token) 扩展正则表达式，该运算符使用 word2vec 样式嵌入（FastText、GloVe、Wikipedia2Vec）通过含义匹配单词。一个简单的演示：“~(big)+ \b~(animal;0.35)+\b&quot; 在 Moby-Dick 上可以找到很多用来指代大型动物的方式，比如“伟大的鲸鱼”、“巨大的生物”、“巨大的大象”等等。通过排序 | 管道它uniq -c ，毫不奇怪，获胜者是“伟大的鲸鱼”:)在令人敬畏的花式正则表达式之上内置 Rust，并且 ~() 与所有标准运算符（负向前瞻、量词等）组合。目前，PoC 缺少许多优化（例如：没有缓存、没有编译为标准正则表达式等），显然没有普通正则表达式的保证，并且受到 w2v 样式嵌入的限制……但认为值得分享！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47379595
+评论网址：https://news.ycombinator.com/item?id=47381248
+积分：3
+# 条评论：0]]></description>
+      <guid>https://github.com/0xNaN/ngrep</guid>
+      <pubDate>Sat, 14 Mar 2026 21:15:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>具有内置文件系统的 Postgres</title>
+      <link>https://db9.ai/</link>
+      <description><![CDATA[文章网址：https://db9.ai/
+评论网址：https://news.ycombinator.com/item?id=47381238
+积分：2
+# 条评论：0]]></description>
+      <guid>https://db9.ai/</guid>
+      <pubDate>Sat, 14 Mar 2026 21:14:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Arther OS – AT 协议上的 Web 桌面环境</title>
+      <link>https://www.aetheros.computer/</link>
+      <description><![CDATA[文章网址：https://www.aetheros.computer/
+评论网址：https://news.ycombinator.com/item?id=47381222
 积分：2
 # 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=47379595</guid>
-      <pubDate>Sat, 14 Mar 2026 18:28:25 GMT</pubDate>
+      <guid>https://www.aetheros.computer/</guid>
+      <pubDate>Sat, 14 Mar 2026 21:12:21 GMT</pubDate>
     </item>
     <item>
-      <title>伟大的俄罗斯脱节</title>
-      <link>https://www.politico.com/news/2026/03/14/russias-self-inflicted-communication-crisis-00827197</link>
-      <description><![CDATA[文章网址：https://www.politico.com/news/2026/03/14/russ-self-inflicted-communication-crisis-00827197
-评论网址：https://news.ycombinator.com/item?id=47379594
+      <title>美国将与伊朗的战争游戏化</title>
+      <link>https://www.axios.com/2026/03/14/the-gamification-of-war</link>
+      <description><![CDATA[文章网址：https://www.axios.com/2026/03/14/the-gamification-of-war
+评论网址：https://news.ycombinator.com/item?id=47381195
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.politico.com/news/2026/03/14/russias-self-inflicted-communication-crisis-00827197</guid>
-      <pubDate>Sat, 14 Mar 2026 18:28:24 GMT</pubDate>
+      <guid>https://www.axios.com/2026/03/14/the-gamification-of-war</guid>
+      <pubDate>Sat, 14 Mar 2026 21:09:46 GMT</pubDate>
     </item>
     <item>
-      <title>Windows 待办事项位于任务栏中</title>
-      <link>https://github.com/rknastenka/Krisp</link>
-      <description><![CDATA[文章网址：https://github.com/rknastenka/Krisp
-评论网址：https://news.ycombinator.com/item?id=47379591
+      <title>为了寻找班克斯，路透社发现这位艺术家有了新的身份</title>
+      <link>https://www.reuters.com/investigates/special-report/global-art-banksy/</link>
+      <description><![CDATA[文章网址：https://www.reuters.com/investigates/special-report/global-art-banksy/
+评论网址：https://news.ycombinator.com/item?id=47381175
 积分：2
-# 条评论：1]]></description>
-      <guid>https://github.com/rknastenka/Krisp</guid>
-      <pubDate>Sat, 14 Mar 2026 18:28:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Loupe：LLM 应用程序的轻量级开发跟踪</title>
-      <link>https://matt-harrison.com/posts/14-3-26-loupe/</link>
-      <description><![CDATA[文章网址：https://matt-harrison.com/posts/14-3-26-loupe/
-评论网址：https://news.ycombinator.com/item?id=47379576
-积分：1
 # 条评论：0]]></description>
-      <guid>https://matt-harrison.com/posts/14-3-26-loupe/</guid>
-      <pubDate>Sat, 14 Mar 2026 18:25:50 GMT</pubDate>
+      <guid>https://www.reuters.com/investigates/special-report/global-art-banksy/</guid>
+      <pubDate>Sat, 14 Mar 2026 21:07:39 GMT</pubDate>
     </item>
     <item>
-      <title>西澳所得税众议院经过24小时辩论后通过</title>
-      <link>https://www.seattletimes.com/seattle-news/politics/wa-income-tax-passes-house-after-24-hour-debate/#comments</link>
-      <description><![CDATA[文章网址：https://www.seattletimes.com/seattle-news/politics/wa-venue-tax-passes-house-after-24-hour-debate/#comments
-评论网址：https://news.ycombinator.com/item?id=47379539
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.seattletimes.com/seattle-news/politics/wa-income-tax-passes-house-after-24-hour-debate/#comments</guid>
-      <pubDate>Sat, 14 Mar 2026 18:22:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>“活药”Car-T能治愈自身免疫性疾病吗？</title>
-      <link>https://www.newyorker.com/culture/annals-of-inquiry/can-a-living-drug-cure-autoimmune-diseases</link>
-      <description><![CDATA[文章网址：https://www.newyorker.com/culture/annals-of-inquiry/can-a-living-drug-cure-autoimmune-diseases
-评论网址：https://news.ycombinator.com/item?id=47379535
+      <title>制作</title>
+      <link>https://beej.us/blog/data/ai-making/</link>
+      <description><![CDATA[文章网址：https://beej.us/blog/data/ai-making/
+评论网址：https://news.ycombinator.com/item?id=47381166
 积分：2
-# 条评论：1]]></description>
-      <guid>https://www.newyorker.com/culture/annals-of-inquiry/can-a-living-drug-cure-autoimmune-diseases</guid>
-      <pubDate>Sat, 14 Mar 2026 18:21:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>环境大于意志</title>
-      <link>https://pilgrima.ge/p/the-environment-is-greater-than-the-will</link>
-      <description><![CDATA[文章网址：https://pilgrima.ge/p/the-environment-is-greater-than-the-will
-评论网址：https://news.ycombinator.com/item?id=47379522
-积分：1
 # 条评论：0]]></description>
-      <guid>https://pilgrima.ge/p/the-environment-is-greater-than-the-will</guid>
-      <pubDate>Sat, 14 Mar 2026 18:21:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：AIP – 用于自主人工智能代理的加密身份协议</title>
-      <link>https://github.com/theaniketgiri/aip</link>
-      <description><![CDATA[文章网址：https://github.com/theaniketgiri/aip
-评论网址：https://news.ycombinator.com/item?id=47379518
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/theaniketgiri/aip</guid>
-      <pubDate>Sat, 14 Mar 2026 18:21:16 GMT</pubDate>
+      <guid>https://beej.us/blog/data/ai-making/</guid>
+      <pubDate>Sat, 14 Mar 2026 21:05:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
