@@ -4,108 +4,147 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 13 Mar 2026 21:34:58 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 02:01:40 GMT</lastBuildDate>
     <item>
-      <title>Enshitificator 生活中的一天 [视频]</title>
-      <link>https://www.youtube.com/watch?v=T4Upf_B9RLQ</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=T4Upf_B9RLQ
-评论网址：https://news.ycombinator.com/item?id=47370168
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=T4Upf_B9RLQ</guid>
-      <pubDate>Fri, 13 Mar 2026 21:27:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>85艘大型油轮被困海湾“灾难即将发生”</title>
-      <link>https://www.greenpeace.org/international/press-release/82052/greenpeace-disaster-oil-tankers-in-persian-gulf/</link>
-      <description><![CDATA[文章网址：https://www.greenpeace.org/international/press-release/82052/greenpeace-disaster-oil-tankers-in-persian-gulf/
-评论网址：https://news.ycombinator.com/item?id=47370152
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.greenpeace.org/international/press-release/82052/greenpeace-disaster-oil-tankers-in-persian-gulf/</guid>
-      <pubDate>Fri, 13 Mar 2026 21:26:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能、人类认知和知识崩溃——Daren Acemoglu</title>
-      <link>https://news.ycombinator.com/item?id=47370147</link>
-      <description><![CDATA[摘自摘要：
-“我们研究生成式人工智能，特别是代理式人工智能，如何塑造人类的学习激励和社会信息生态系统的长期演变……学习表现出范围经济：昂贵的人类努力共同产生有关其自身背景的私人信号和“薄弱”的公共信号，该信号积累到社区的一般知识储备中，产生学习外部性……该模型强调了一种尖锐的动态张力：虽然代理式人工智能可以提高同时决策的质量，但它也可能削弱维持学习的激励。长期的集体知识。”
+      <title>Show HN：DAAO – 通过零信任隧道将 AI 代理部署到您的服务器</title>
+      <link>https://github.com/daao-platform/daao</link>
+      <description><![CDATA[ 一个月前，我想要一件事：在我的桌面上启动编码会话，并从任何地方（我的手机、我的手机）拿起它
+  沙发、另一台机器 — 无需设置 VPN 或保持 SSH 端口打开。
+
+  我建造了那个。然后我继续前进。
+
+  DAAO（分布式人工智能代理编排）——但它的开始比名字暗示的要简单得多。
+
+  它将单个 Go 二进制文件部署到任何服务器（Windows、Linux、macOS）。它会打开一个仅出站的 mTLS gRPC 隧道
+  到中央控制平面。无入站端口。没有VPN。没有 SSH。从网络驾驶舱中，您可以获得实时终端会话
+  能够承受浏览器断开连接、带回放的完整会话记录、实时 CPU/内存/磁盘遥测和代理
+  Forge 用于将 AI 代理部署到您的服务器。
+
+  代理部分是它变得有趣的地方。您可以从 UI 部署基础设施发现代理，它
+  在服务器上自动配置其运行时、运行并将其输出实时流式传输。我看着它绘制了我自己的家庭实验室的地图——
+  AMD Ryzen 7 9800X3D、64GB RAM、RTX 4090、正在运行的 12 个容器、所有侦听端口，与上次扫描有偏差。现实中
+   时间。通过浏览器。在没有入站端口的计算机上。
+
+  就在那时我意识到这不仅仅是一个个人工具。
+
+  我在上个月构建了所有这些。我朝九晚五工作。我有一个依赖我的家庭。我大量使用人工智能代理来移动
+   快——而且我不会假装我完全理解我发货的每一件作品。但它有效，经过测试，CI 是绿色的，并且
+  我为此感到自豪。
+
+  社区版（免费，BSL 1.1）的内容：
+  - 跨平台卫星守护进程（Windows ConPTY、Linux/macOS POSIX PTY）
+  - 带有环形缓冲区、重新连接、多窗格仪表板的实时终端会话
+  - 会话录音（asciicast v2，完整的播放控制）
+  - 实时卫星遥测
+  - Agent Forge 具有 3 个内置代理（日志分析器、安全扫描器、基础设施发现）
+  - 自动配置代理运行时 — 无需在服务器上安装任何内容
+  - 多用户身份验证、RBAC、OIDC
+  - 审核日志、推送通知
+
+  什么是企业（即将推出）：
+  - 人机交互命令拦截
+  - 自主发现/CMDB群体
+  - SIEM 连接器
+  - HA集群
+
+  我并不是想致富。我正在努力建立一些真正的东西来养活我的家人。如果这解决了问题
+  你——或者如果你有反馈——我真的很想听听。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47370147
+评论网址：https://news.ycombinator.com/item?id=47372506
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47370147</guid>
-      <pubDate>Fri, 13 Mar 2026 21:25:53 GMT</pubDate>
+      <guid>https://github.com/daao-platform/daao</guid>
+      <pubDate>Sat, 14 Mar 2026 01:55:18 GMT</pubDate>
     </item>
     <item>
-      <title>找到适合您设计的完美图标</title>
-      <link>https://iconsroom.com/</link>
-      <description><![CDATA[文章网址：https://iconsroom.com/
-评论网址：https://news.ycombinator.com/item?id=47370131
-积分：2
-# 条评论：0]]></description>
-      <guid>https://iconsroom.com/</guid>
-      <pubDate>Fri, 13 Mar 2026 21:24:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jupyter 的 DuckDB 内核</title>
-      <link>https://medium.com/@gribanov.vladimir/building-a-full-featured-duckdb-kernel-for-jupyter-with-a-database-explorer-youll-actually-use-baa6f569e439</link>
-      <description><![CDATA[文章网址： https://medium.com/@gribanov.vladimir/building-a-full-featured-duckdb-kernel-for-jupyter-with-a-database-explorer-youll-actually-use-baa6f569e439
-评论网址：https://news.ycombinator.com/item?id=47370130
+      <title>人工智能数据中心肮脏、反乌托邦的世界</title>
+      <link>https://www.theatlantic.com/magazine/2026/04/ai-data-centers-energy-demands/686064/</link>
+      <description><![CDATA[文章网址：https://www.theatlantic.com/magazine/2026/04/ai-data-centers-energy-demands/686064/
+评论网址：https://news.ycombinator.com/item?id=47372504
 积分：1
 # 条评论：0]]></description>
-      <guid>https://medium.com/@gribanov.vladimir/building-a-full-featured-duckdb-kernel-for-jupyter-with-a-database-explorer-youll-actually-use-baa6f569e439</guid>
-      <pubDate>Fri, 13 Mar 2026 21:24:06 GMT</pubDate>
+      <guid>https://www.theatlantic.com/magazine/2026/04/ai-data-centers-energy-demands/686064/</guid>
+      <pubDate>Sat, 14 Mar 2026 01:54:52 GMT</pubDate>
     </item>
     <item>
-      <title>金字塔和坟墓</title>
-      <link>https://minutes.substack.com/p/the-pyramid-and-the-tomb</link>
-      <description><![CDATA[文章网址：https://mines.substack.com/p/the-pyramid-and-the-tomb
-评论网址：https://news.ycombinator.com/item?id=47370120
+      <title>联邦法官撤销司法部对美联储主席杰罗姆·鲍威尔的传票</title>
+      <link>https://www.cnn.com/2026/03/13/politics/fed-chair-jerome-powell-subpoena</link>
+      <description><![CDATA[文章网址：https://www.cnn.com/2026/03/13/politics/fed-chair-jerome-powell-subpoena
+评论网址：https://news.ycombinator.com/item?id=47372498
 积分：1
 # 条评论：0]]></description>
-      <guid>https://minutes.substack.com/p/the-pyramid-and-the-tomb</guid>
-      <pubDate>Fri, 13 Mar 2026 21:23:12 GMT</pubDate>
+      <guid>https://www.cnn.com/2026/03/13/politics/fed-chair-jerome-powell-subpoena</guid>
+      <pubDate>Sat, 14 Mar 2026 01:53:02 GMT</pubDate>
     </item>
     <item>
-      <title>使用虚幻引擎的第一人称暗黑破坏神 2 [视频]</title>
-      <link>https://www.youtube.com/watch?v=0NPl7ZGg14E</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=0NPl7ZGg14E
-评论网址：https://news.ycombinator.com/item?id=47370055
+      <title>查尔斯·B·麦克维三世</title>
+      <link>https://en.wikipedia.org/wiki/Charles_B._McVay_III</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Charles_B._McVay_III
+评论网址：https://news.ycombinator.com/item?id=47372488
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=0NPl7ZGg14E</guid>
-      <pubDate>Fri, 13 Mar 2026 21:17:50 GMT</pubDate>
+      <guid>https://en.wikipedia.org/wiki/Charles_B._McVay_III</guid>
+      <pubDate>Sat, 14 Mar 2026 01:50:29 GMT</pubDate>
     </item>
     <item>
-      <title>现在建议进行 Lp(a) 检测以预防心脏病</title>
-      <link>https://www.npr.org/2026/03/13/nx-s1-5747111/cholesterol-guidelines-lipoproteina-test</link>
-      <description><![CDATA[文章网址：https://www.npr.org/2026/03/13/nx-s1-5747111/cholesterol-guidelines-lipo Proteina-test
-评论网址：https://news.ycombinator.com/item?id=47370053
+      <title>硅谷正在热议这个新想法：人工智能计算作为补偿</title>
+      <link>https://www.businessinsider.com/ai-compute-compensation-software-engineers-greg-brockman-2026-3</link>
+      <description><![CDATA[文章网址：https://www.businessinsider.com/ai-compute-compensation-software-engineers-greg-brockman-2026-3
+评论网址：https://news.ycombinator.com/item?id=47372483
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.npr.org/2026/03/13/nx-s1-5747111/cholesterol-guidelines-lipoproteina-test</guid>
-      <pubDate>Fri, 13 Mar 2026 21:17:47 GMT</pubDate>
+      <guid>https://www.businessinsider.com/ai-compute-compensation-software-engineers-greg-brockman-2026-3</guid>
+      <pubDate>Sat, 14 Mar 2026 01:49:34 GMT</pubDate>
     </item>
     <item>
-      <title>Xbox 360 上的模拟：心律失常、折返和停止问题</title>
-      <link>https://www.sciencedirect.com/science/article/abs/pii/S1476927109000486</link>
-      <description><![CDATA[文章网址：https://www.sciencedirect.com/science/article/abs/pii/S1476927109000486
-评论网址：https://news.ycombinator.com/item?id=47370025
+      <title>Arno 的 Engram 键盘布局</title>
+      <link>https://github.com/binarybottle/engram</link>
+      <description><![CDATA[文章网址：https://github.com/binarybottle/engram
+评论网址：https://news.ycombinator.com/item?id=47372473
 积分：1
-# 条评论：0]]></description>
-      <guid>https://www.sciencedirect.com/science/article/abs/pii/S1476927109000486</guid>
-      <pubDate>Fri, 13 Mar 2026 21:15:10 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://github.com/binarybottle/engram</guid>
+      <pubDate>Sat, 14 Mar 2026 01:47:56 GMT</pubDate>
     </item>
     <item>
-      <title>哈巴狗3.0.4</title>
-      <link>https://github.com/pugjs/pug/releases</link>
-      <description><![CDATA[文章网址：https://github.com/pugjs/pug/releases
-评论网址：https://news.ycombinator.com/item?id=47370016
+      <title>我的 CLI 工具中 Rust 优于 Python</title>
+      <link>https://smiling.dev/blog/rust-shined-over-python-for-my-cli-tool/</link>
+      <description><![CDATA[文章网址：https://smiling.dev/blog/rust-shined-over-python-for-my-cli-tool/
+评论网址：https://news.ycombinator.com/item?id=47372469
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/pugjs/pug/releases</guid>
-      <pubDate>Fri, 13 Mar 2026 21:14:42 GMT</pubDate>
+      <guid>https://smiling.dev/blog/rust-shined-over-python-for-my-cli-tool/</guid>
+      <pubDate>Sat, 14 Mar 2026 01:47:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>应该存在的公司</title>
+      <link>https://anastasiagamick.substack.com/p/companies-that-should-exist</link>
+      <description><![CDATA[文章网址：https://anastasiagamick.substack.com/p/companies-that-should-exist
+评论网址：https://news.ycombinator.com/item?id=47372465
+积分：1
+# 条评论：0]]></description>
+      <guid>https://anastasiagamick.substack.com/p/companies-that-should-exist</guid>
+      <pubDate>Sat, 14 Mar 2026 01:46:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI如何分配蛋糕？大型语言模型和最后通牒博弈</title>
+      <link>https://www.nber.org/papers/w34919</link>
+      <description><![CDATA[文章网址：https://www.nber.org/papers/w34919
+评论网址：https://news.ycombinator.com/item?id=47372462
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nber.org/papers/w34919</guid>
+      <pubDate>Sat, 14 Mar 2026 01:46:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>买回我们的闲置时间</title>
+      <link>https://www.seeingthesystem.com/p/buying-back-our-slack</link>
+      <description><![CDATA[文章网址：https://www.seeingthesystem.com/p/buying-back-our-slack
+评论网址：https://news.ycombinator.com/item?id=47372458
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.seeingthesystem.com/p/buying-back-our-slack</guid>
+      <pubDate>Sat, 14 Mar 2026 01:45:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
