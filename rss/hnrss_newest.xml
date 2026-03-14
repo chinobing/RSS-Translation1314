@@ -4,147 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 14 Mar 2026 02:01:40 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 04:43:34 GMT</lastBuildDate>
     <item>
-      <title>Show HN：DAAO – 通过零信任隧道将 AI 代理部署到您的服务器</title>
-      <link>https://github.com/daao-platform/daao</link>
-      <description><![CDATA[ 一个月前，我想要一件事：在我的桌面上启动编码会话，并从任何地方（我的手机、我的手机）拿起它
-  沙发、另一台机器 — 无需设置 VPN 或保持 SSH 端口打开。
-
-  我建造了那个。然后我继续前进。
-
-  DAAO（分布式人工智能代理编排）——但它的开始比名字暗示的要简单得多。
-
-  它将单个 Go 二进制文件部署到任何服务器（Windows、Linux、macOS）。它会打开一个仅出站的 mTLS gRPC 隧道
-  到中央控制平面。无入站端口。没有VPN。没有 SSH。从网络驾驶舱中，您可以获得实时终端会话
-  能够承受浏览器断开连接、带回放的完整会话记录、实时 CPU/内存/磁盘遥测和代理
-  Forge 用于将 AI 代理部署到您的服务器。
-
-  代理部分是它变得有趣的地方。您可以从 UI 部署基础设施发现代理，它
-  在服务器上自动配置其运行时、运行并将其输出实时流式传输。我看着它绘制了我自己的家庭实验室的地图——
-  AMD Ryzen 7 9800X3D、64GB RAM、RTX 4090、正在运行的 12 个容器、所有侦听端口，与上次扫描有偏差。现实中
-   时间。通过浏览器。在没有入站端口的计算机上。
-
-  就在那时我意识到这不仅仅是一个个人工具。
-
-  我在上个月构建了所有这些。我朝九晚五工作。我有一个依赖我的家庭。我大量使用人工智能代理来移动
-   快——而且我不会假装我完全理解我发货的每一件作品。但它有效，经过测试，CI 是绿色的，并且
-  我为此感到自豪。
-
-  社区版（免费，BSL 1.1）的内容：
-  - 跨平台卫星守护进程（Windows ConPTY、Linux/macOS POSIX PTY）
-  - 带有环形缓冲区、重新连接、多窗格仪表板的实时终端会话
-  - 会话录音（asciicast v2，完整的播放控制）
-  - 实时卫星遥测
-  - Agent Forge 具有 3 个内置代理（日志分析器、安全扫描器、基础设施发现）
-  - 自动配置代理运行时 — 无需在服务器上安装任何内容
-  - 多用户身份验证、RBAC、OIDC
-  - 审核日志、推送通知
-
-  什么是企业（即将推出）：
-  - 人机交互命令拦截
-  - 自主发现/CMDB群体
-  - SIEM 连接器
-  - HA集群
-
-  我并不是想致富。我正在努力建立一些真正的东西来养活我的家人。如果这解决了问题
-  你——或者如果你有反馈——我真的很想听听。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47372506
+      <title>前 Windows 首席执行官赞扬 MacBook Neo，哀叹 Surface 的失败</title>
+      <link>https://www.windowscentral.com/microsoft/ex-windows-chief-calls-macbook-neo-a-paradigm-shifting-computer-reflects-on-surface-failure-and-windows-on-arm-while-lamenting-we-were-early-but-not-wrong</link>
+      <description><![CDATA[文章网址： https://www.windowscentral.com/microsoft/ex-windows-chief-calls-macbook-neo-a-paradigm-shifting-computer-reflects-on-surface-failure-and-windows-on-arm-while-lamenting-we-were-early-but-not-wrong
+评论网址：https://news.ycombinator.com/item?id=47373413
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/daao-platform/daao</guid>
-      <pubDate>Sat, 14 Mar 2026 01:55:18 GMT</pubDate>
+      <guid>https://www.windowscentral.com/microsoft/ex-windows-chief-calls-macbook-neo-a-paradigm-shifting-computer-reflects-on-surface-failure-and-windows-on-arm-while-lamenting-we-were-early-but-not-wrong</guid>
+      <pubDate>Sat, 14 Mar 2026 04:40:06 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能数据中心肮脏、反乌托邦的世界</title>
-      <link>https://www.theatlantic.com/magazine/2026/04/ai-data-centers-energy-demands/686064/</link>
-      <description><![CDATA[文章网址：https://www.theatlantic.com/magazine/2026/04/ai-data-centers-energy-demands/686064/
-评论网址：https://news.ycombinator.com/item?id=47372504
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.theatlantic.com/magazine/2026/04/ai-data-centers-energy-demands/686064/</guid>
-      <pubDate>Sat, 14 Mar 2026 01:54:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>联邦法官撤销司法部对美联储主席杰罗姆·鲍威尔的传票</title>
-      <link>https://www.cnn.com/2026/03/13/politics/fed-chair-jerome-powell-subpoena</link>
-      <description><![CDATA[文章网址：https://www.cnn.com/2026/03/13/politics/fed-chair-jerome-powell-subpoena
-评论网址：https://news.ycombinator.com/item?id=47372498
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.cnn.com/2026/03/13/politics/fed-chair-jerome-powell-subpoena</guid>
-      <pubDate>Sat, 14 Mar 2026 01:53:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>查尔斯·B·麦克维三世</title>
-      <link>https://en.wikipedia.org/wiki/Charles_B._McVay_III</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Charles_B._McVay_III
-评论网址：https://news.ycombinator.com/item?id=47372488
-积分：1
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Charles_B._McVay_III</guid>
-      <pubDate>Sat, 14 Mar 2026 01:50:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>硅谷正在热议这个新想法：人工智能计算作为补偿</title>
-      <link>https://www.businessinsider.com/ai-compute-compensation-software-engineers-greg-brockman-2026-3</link>
-      <description><![CDATA[文章网址：https://www.businessinsider.com/ai-compute-compensation-software-engineers-greg-brockman-2026-3
-评论网址：https://news.ycombinator.com/item?id=47372483
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.businessinsider.com/ai-compute-compensation-software-engineers-greg-brockman-2026-3</guid>
-      <pubDate>Sat, 14 Mar 2026 01:49:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Arno 的 Engram 键盘布局</title>
-      <link>https://github.com/binarybottle/engram</link>
-      <description><![CDATA[文章网址：https://github.com/binarybottle/engram
-评论网址：https://news.ycombinator.com/item?id=47372473
+      <title>Riva：AI 代理的本地优先可观察性</title>
+      <link>https://github.com/sarkar-ai-taken/riva</link>
+      <description><![CDATA[文章网址：https://github.com/sarkar-ai-taken/riva
+评论网址：https://news.ycombinator.com/item?id=47373391
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/binarybottle/engram</guid>
-      <pubDate>Sat, 14 Mar 2026 01:47:56 GMT</pubDate>
+      <guid>https://github.com/sarkar-ai-taken/riva</guid>
+      <pubDate>Sat, 14 Mar 2026 04:34:48 GMT</pubDate>
     </item>
     <item>
-      <title>我的 CLI 工具中 Rust 优于 Python</title>
-      <link>https://smiling.dev/blog/rust-shined-over-python-for-my-cli-tool/</link>
-      <description><![CDATA[文章网址：https://smiling.dev/blog/rust-shined-over-python-for-my-cli-tool/
-评论网址：https://news.ycombinator.com/item?id=47372469
+      <title>从中央情报局到首席执行官，间谍走出阴影进入董事会</title>
+      <link>https://www.bloomberg.com/news/features/2026-03-13/former-cia-spies-launch-defense-tech-startups-to-tap-338-billion-market</link>
+      <description><![CDATA[文章网址： https://www.bloomberg.com/news/features/2026-03-13/former-cia-spies-launch-defense-tech-startups-to-tap-338-billion-market
+评论网址：https://news.ycombinator.com/item?id=47373382
 积分：1
 # 条评论：0]]></description>
-      <guid>https://smiling.dev/blog/rust-shined-over-python-for-my-cli-tool/</guid>
-      <pubDate>Sat, 14 Mar 2026 01:47:15 GMT</pubDate>
+      <guid>https://www.bloomberg.com/news/features/2026-03-13/former-cia-spies-launch-defense-tech-startups-to-tap-338-billion-market</guid>
+      <pubDate>Sat, 14 Mar 2026 04:34:01 GMT</pubDate>
     </item>
     <item>
-      <title>应该存在的公司</title>
-      <link>https://anastasiagamick.substack.com/p/companies-that-should-exist</link>
-      <description><![CDATA[文章网址：https://anastasiagamick.substack.com/p/companies-that-should-exist
-评论网址：https://news.ycombinator.com/item?id=47372465
+      <title>马斯克表示，联合创始人退出后 xAI 必须重建</title>
+      <link>https://www.wsj.com/tech/musk-says-xai-must-be-rebuilt-as-co-founders-exit-47770dfa</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/tech/musk-says-xai-must-be-rebuilt-as-co-Founders-exit-47770dfa
+评论网址：https://news.ycombinator.com/item?id=47373379
 积分：1
 # 条评论：0]]></description>
-      <guid>https://anastasiagamick.substack.com/p/companies-that-should-exist</guid>
-      <pubDate>Sat, 14 Mar 2026 01:46:25 GMT</pubDate>
+      <guid>https://www.wsj.com/tech/musk-says-xai-must-be-rebuilt-as-co-founders-exit-47770dfa</guid>
+      <pubDate>Sat, 14 Mar 2026 04:33:19 GMT</pubDate>
     </item>
     <item>
-      <title>AI如何分配蛋糕？大型语言模型和最后通牒博弈</title>
-      <link>https://www.nber.org/papers/w34919</link>
-      <description><![CDATA[文章网址：https://www.nber.org/papers/w34919
-评论网址：https://news.ycombinator.com/item?id=47372462
+      <title>赫格斯在 CNN 上表示：“大卫·埃里森越早接管该网络越好”</title>
+      <link>https://thehill.com/policy/defense/5782562-hegeseth-criticizes-cnn-iran/</link>
+      <description><![CDATA[文章网址：https://thehill.com/policy/defense/5782562-hegeseth-criticizes-cnn-iran/
+评论网址：https://news.ycombinator.com/item?id=47373372
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.nber.org/papers/w34919</guid>
-      <pubDate>Sat, 14 Mar 2026 01:46:05 GMT</pubDate>
+      <guid>https://thehill.com/policy/defense/5782562-hegeseth-criticizes-cnn-iran/</guid>
+      <pubDate>Sat, 14 Mar 2026 04:32:17 GMT</pubDate>
     </item>
     <item>
-      <title>买回我们的闲置时间</title>
-      <link>https://www.seeingthesystem.com/p/buying-back-our-slack</link>
-      <description><![CDATA[文章网址：https://www.seeingthesystem.com/p/buying-back-our-slack
-评论网址：https://news.ycombinator.com/item?id=47372458
+      <title>xAI 联合创始人 Toby Pohlen 是最新离职的高管</title>
+      <link>https://www.bloomberg.com/news/articles/2026-02-27/xai-co-founder-toby-pohlen-is-latest-executive-to-depart</link>
+      <description><![CDATA[文章网址：https://www.bloomberg.com/news/articles/2026-02-27/xai-co-Founder-toby-pohlen-is-latest-executive-to-depart
+评论网址：https://news.ycombinator.com/item?id=47373362
+积分：2
+# 条评论：1]]></description>
+      <guid>https://www.bloomberg.com/news/articles/2026-02-27/xai-co-founder-toby-pohlen-is-latest-executive-to-depart</guid>
+      <pubDate>Sat, 14 Mar 2026 04:30:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>具有里程碑意义的社交媒体成瘾审判中的律师向陪审团提出最终上诉</title>
+      <link>https://apnews.com/article/meta-instagram-facebook-trial-social-media-addiction-0e99c9ba6159421720d616f9facd10f0</link>
+      <description><![CDATA[文章网址： https://apnews.com/article/meta-instagram-facebook-trial-social-media-addiction-0e99c9ba6159421720d616f9facd10f0
+评论网址：https://news.ycombinator.com/item?id=47373343
+积分：3
+# 条评论：0]]></description>
+      <guid>https://apnews.com/article/meta-instagram-facebook-trial-social-media-addiction-0e99c9ba6159421720d616f9facd10f0</guid>
+      <pubDate>Sat, 14 Mar 2026 04:26:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>纳斯达克提议纳斯达克 100 指数新“快速入场”规则</title>
+      <link>https://www.ashurst.com/en/insights/nasdaq-proposes-new-fast-entry-rule-for-the-nasdaq-100-index/</link>
+      <description><![CDATA[文章网址：https://www.ashurst.com/en/insights/nasdaq-proposes-new-fast-entry-rule-for-the-nasdaq-100-index/
+评论网址：https://news.ycombinator.com/item?id=47373324
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.seeingthesystem.com/p/buying-back-our-slack</guid>
-      <pubDate>Sat, 14 Mar 2026 01:45:36 GMT</pubDate>
+      <guid>https://www.ashurst.com/en/insights/nasdaq-proposes-new-fast-entry-rule-for-the-nasdaq-100-index/</guid>
+      <pubDate>Sat, 14 Mar 2026 04:24:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tethyr Cloud：开放代理发现，零供应商锁定（AIdeas 半决赛）</title>
+      <link>https://builder.aws.com</link>
+      <description><![CDATA[文章网址：https://builder.aws.com
+评论网址：https://news.ycombinator.com/item?id=47373311
+积分：1
+# 条评论：1]]></description>
+      <guid>https://builder.aws.com</guid>
+      <pubDate>Sat, 14 Mar 2026 04:22:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Wool – 一个严肃的分布式 Python 运行时</title>
+      <link>https://github.com/wool-labs/wool</link>
+      <description><![CDATA[文章网址：https://github.com/wool-labs/wool
+评论网址：https://news.ycombinator.com/item?id=47373309
+积分：2
+# 条评论：1]]></description>
+      <guid>https://github.com/wool-labs/wool</guid>
+      <pubDate>Sat, 14 Mar 2026 04:21:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
