@@ -4,14 +4,65 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 15 Mar 2026 09:35:25 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 12:54:17 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：Signet – 根据卫星和天气数据进行自主野火跟踪</title>
+      <link>https://signet.watch</link>
+      <description><![CDATA[我在 Go 中构建了 Signet，看看一个自主系统是否可以处理人们目前手动运行的野火监测循环 - 检查卫星馈送、获取天气、查看地形和燃料、确定检测到的火灾是否确实值得跟踪。所有数据都已存在：NASA FIRMS 热检测、GOES-19 图像、NWS 预报、LANDFIRE 燃料模型、USGS 海拔、人口普查人口数据、OpenStreetMap。问题是它来自不同的来源，以不同的节奏、不同的格式。系统的大部分都是确定性的管道——摄取、空间索引、重复数据删除。我使用 Gemini 编排了涵盖天气、地形、图像和事件跟踪的 23 个工具，以处理干净规则失效的部分：决定哪些弱检测值得调查、接下来要提取什么背景，以及如何将嘈杂的证据综合到结构化评估中。它还记录有时间限制的预测，并根据以后的数据对它们进行评分，因此系统会做出可证伪的主张，而不是事后叙述。尽管样本仍然很小，但当前的预测指标仍然可以在网站上看到。它已经从原始卫星检测中打开事件，并将一些事件与官方 NIFC 报告进行匹配。但误报、检测延迟和事件匹配仍然很粗糙。我特别欢迎批评：这应该在哪里更具确定性，而不是由 LLM 驱动？这种自主监控真的有用吗，还是只是比手动监控噪音更大？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47386581
+积分：4
+# 条评论：0]]></description>
+      <guid>https://signet.watch</guid>
+      <pubDate>Sun, 15 Mar 2026 12:01:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>生成所有 32 位素数（第一部分）</title>
+      <link>https://hnlyman.github.io/pages/prime32_I.html</link>
+      <description><![CDATA[文章网址：https://hnlyman.github.io/pages/prime32_I.html
+评论网址：https://news.ycombinator.com/item?id=47386441
+积分：15
+# 条评论：3]]></description>
+      <guid>https://hnlyman.github.io/pages/prime32_I.html</guid>
+      <pubDate>Sun, 15 Mar 2026 11:42:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>IBM、声音延迟线和 80×24 显示器的历史</title>
+      <link>https://www.righto.com/2019/11/ibm-sonic-delay-lines-and-history-of.html</link>
+      <description><![CDATA[文章 URL：https://www.righto.com/2019/11/ibm-sonic-delay-lines-and-history-of.html
+评论网址：https://news.ycombinator.com/item?id=47386246
+积分：5
+# 条评论：0]]></description>
+      <guid>https://www.righto.com/2019/11/ibm-sonic-delay-lines-and-history-of.html</guid>
+      <pubDate>Sun, 15 Mar 2026 11:06:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>机器学习的视觉介绍</title>
+      <link>https://r2d3.us/visual-intro-to-machine-learning-part-1/</link>
+      <description><![CDATA[文章网址：https://r2d3.us/visual-intro-to-machine-learning-part-1/
+评论网址：https://news.ycombinator.com/item?id=47386116
+积分：77
+# 条评论：4]]></description>
+      <guid>https://r2d3.us/visual-intro-to-machine-learning-part-1/</guid>
+      <pubDate>Sun, 15 Mar 2026 10:47:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>价值 96 美元的 3D 打印火箭，使用 5 美元的传感器重新计算其空中轨迹</title>
+      <link>https://github.com/novatic14/MANPADS-System-Launcher-and-Rocket</link>
+      <description><![CDATA[文章网址：https://github.com/novatic14/MANPADS-System-Launcher-and-Rocket
+评论网址：https://news.ycombinator.com/item?id=47385935
+积分：116
+# 条评论：52]]></description>
+      <guid>https://github.com/novatic14/MANPADS-System-Launcher-and-Rocket</guid>
+      <pubDate>Sun, 15 Mar 2026 10:15:47 GMT</pubDate>
+    </item>
     <item>
       <title>Spotify 人工智能 DJ 的惊人愚蠢</title>
       <link>https://www.charlespetzold.com/blog/2026/02/The-Appalling-Stupidity-of-Spotifys-AI-DJ.html</link>
       <description><![CDATA[文章网址：https://www.charlespetzold.com/blog/2026/02/The-Appalling-Stupidity-of-Spotifys-AI-DJ.html
 评论网址：https://news.ycombinator.com/item?id=47385272
-积分：12
-# 条评论：5]]></description>
+积分：190
+# 条评论：163]]></description>
       <guid>https://www.charlespetzold.com/blog/2026/02/The-Appalling-Stupidity-of-Spotifys-AI-DJ.html</guid>
       <pubDate>Sun, 15 Mar 2026 08:04:55 GMT</pubDate>
     </item>
@@ -20,8 +71,8 @@
       <link>https://sa.lj.am/rack-mount-hydroponics/</link>
       <description><![CDATA[文章网址：https://sa.lj.am/rack-mount-Hydroponics/
 评论网址：https://news.ycombinator.com/item?id=47384352
-积分：144
-# 条评论：33]]></description>
+积分：205
+# 条评论：48]]></description>
       <guid>https://sa.lj.am/rack-mount-hydroponics/</guid>
       <pubDate>Sun, 15 Mar 2026 04:23:43 GMT</pubDate>
     </item>
@@ -30,8 +81,8 @@
       <link>https://robertsdotpm.github.io/cryptography/tcp_hole_punching.html</link>
       <description><![CDATA[文章网址：https://robertsdotpm.github.io/cryptography/tcp_hole_punching.html
 评论网址：https://news.ycombinator.com/item?id=47384032
-积分：73
-# 条评论：21]]></description>
+积分：115
+# 条评论：44]]></description>
       <guid>https://robertsdotpm.github.io/cryptography/tcp_hole_punching.html</guid>
       <pubDate>Sun, 15 Mar 2026 03:29:17 GMT</pubDate>
     </item>
@@ -40,8 +91,8 @@
       <link>https://www.bbc.com/news/articles/cg4g7kn99q3o</link>
       <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cg4g7kn99q3o
 评论网址：https://news.ycombinator.com/item?id=47383804
-积分：80
-评论数量：92]]></description>
+积分：116
+# 条评论：147]]></description>
       <guid>https://www.bbc.com/news/articles/cg4g7kn99q3o</guid>
       <pubDate>Sun, 15 Mar 2026 02:48:33 GMT</pubDate>
     </item>
@@ -50,60 +101,10 @@
       <link>https://ayushtambde.com/blog/tree-search-distillation-for-language-models-using-ppo/</link>
       <description><![CDATA[文章网址：https://ayushtambde.com/blog/tree-search-distillation-for-language-models-using-ppo/
 评论网址：https://news.ycombinator.com/item?id=47383059
-积分：56
-# 条评论：3]]></description>
+积分：67
+# 条评论：5]]></description>
       <guid>https://ayushtambde.com/blog/tree-search-distillation-for-language-models-using-ppo/</guid>
       <pubDate>Sun, 15 Mar 2026 00:51:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>内核反作弊如何工作</title>
-      <link>https://s4dbrd.github.io/posts/how-kernel-anti-cheats-work/</link>
-      <description><![CDATA[文章网址：https://s4dbrd.github.io/posts/how-kernel-anti-cheats-work/
-评论网址：https://news.ycombinator.com/item?id=47382791
-积分：161
-# 条评论：121]]></description>
-      <guid>https://s4dbrd.github.io/posts/how-kernel-anti-cheats-work/</guid>
-      <pubDate>Sun, 15 Mar 2026 00:15:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>SBCL 纤维 – 轻量级协作螺纹</title>
-      <link>https://atgreen.github.io/repl-yell/posts/sbcl-fibers/</link>
-      <description><![CDATA[文章网址：https://atgreen.github.io/repl-yell/posts/sbcl-Fibers/
-评论网址：https://news.ycombinator.com/item?id=47382398
-积分：92
-# 条评论：14]]></description>
-      <guid>https://atgreen.github.io/repl-yell/posts/sbcl-fibers/</guid>
-      <pubDate>Sat, 14 Mar 2026 23:22:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>空中客车公司正在准备两架无人驾驶战斗机</title>
-      <link>https://www.airbus.com/en/newsroom/press-releases/2026-03-airbus-is-preparing-two-uncrewed-combat-aircraft-from-kratos-for-first-flight-with-a-european</link>
-      <description><![CDATA[文章网址： https://www.airbus.com/en/newsroom/press-releases/2026-03-airbus-is-preparing-two-uncrewed-combat-aircraft-from-kratos-for-first-flight-with-a-european
-评论网址：https://news.ycombinator.com/item?id=47382277
-积分：133
-# 条评论：74]]></description>
-      <guid>https://www.airbus.com/en/newsroom/press-releases/2026-03-airbus-is-preparing-two-uncrewed-combat-aircraft-from-kratos-for-first-flight-with-a-european</guid>
-      <pubDate>Sat, 14 Mar 2026 23:10:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：GrobPaint：介于 MS Paint 和 Paint.net 之间</title>
-      <link>https://github.com/groverburger/grobpaint</link>
-      <description><![CDATA[文章网址：https://github.com/groverburger/grobpaint
-评论网址：https://news.ycombinator.com/item?id=47382072
-积分：42
-# 条评论：6]]></description>
-      <guid>https://github.com/groverburger/grobpaint</guid>
-      <pubDate>Sat, 14 Mar 2026 22:41:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ageless Linux – 为不确定年龄的人提供的软件</title>
-      <link>https://agelesslinux.org/</link>
-      <description><![CDATA[文章网址：https://agelesslinux.org/
-评论网址：https://news.ycombinator.com/item?id=47381791
-积分：607
-# 条评论：381]]></description>
-      <guid>https://agelesslinux.org/</guid>
-      <pubDate>Sat, 14 Mar 2026 22:10:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
