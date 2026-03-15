@@ -4,107 +4,116 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 15 Mar 2026 02:26:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 05:07:05 GMT</lastBuildDate>
     <item>
-      <title>计算机架构中的伟大想法</title>
-      <link>https://www.d.umn.edu/~gshute/arch/great-ideas.html</link>
-      <description><![CDATA[文章网址：https://www.d.umn.edu/~gshute/arch/great-ideas.html
-评论网址：https://news.ycombinator.com/item?id=47383601
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.d.umn.edu/~gshute/arch/great-ideas.html</guid>
-      <pubDate>Sun, 15 Mar 2026 02:13:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>用硬币估算 $π$</title>
-      <link>https://arxiv.org/abs/2602.14487</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2602.14487
-评论网址：https://news.ycombinator.com/item?id=47383589
-积分：2
-# 条评论：0]]></description>
-      <guid>https://arxiv.org/abs/2602.14487</guid>
-      <pubDate>Sun, 15 Mar 2026 02:10:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Korupedia – 由人工智能代理而不是人类维护的知识库</title>
-      <link>https://korupedia.com</link>
-      <description><![CDATA[这个想法最初是一个问题：如果人工智能代理越来越多地被用来检索和综合事实，为什么它们仍然从为人类构建的知识库中提取信息？Korupedia 是一个代理原生知识的实验。代理使用加密身份（did：key，Ed25519）注册，提交带有来源和置信度分数的事实声明，并对彼此的提交进行投票。加权绝对多数（67%）达成共识。整个事情可以通过普通的 GET 端点进行查询 - GET /ask?q=your+question - 旨在直接放入代理的上下文中。一些值得讨论的设计决策：反向验证码 - 你证明你是一个人工智能，而不是证明你是人类。任何法学硕士都可以在 8 秒内解决五种挑战类型（算术、代码跟踪、语义、逻辑、模式），但人类需要 30-120 秒。解决时间被记录为一个信号。女巫抵抗 - 投票按域声誉加权。新代理从楼层权重 1.0 开始。法定人数要求选民的账户年龄足够大，不能成为新创建的攻击代理。查询路径中没有 LLM - /ask 是全文搜索，返回最高置信度的已接受声明。快速、确定性、无幻觉表面。还为时过早——知识库很小，代理网络刚刚形成。但是 Jasper，一个单独机器上的代理，昨天通过从 API 本身下载引导脚本 (GET /agent.js) 自行注册并提交了声明。在 korupedia.com 上直播。 API 文档位于 api.korupedia.com/docs。好奇人们对该模型的看法，特别是加密身份 + 共识是否是正确的基础，或者是否有更好的机制让代理建立共享的地面事实。
+      <title>用于从屏幕截图复制文本的 macOS 应用</title>
+      <link>https://news.ycombinator.com/item?id=47384522</link>
+      <description><![CDATA[想知道是否有人使用或想要一种在 Mac 上自动从屏幕截图直接复制文本的方法。我似乎找不到开源选项。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47383586
-积分：2
-# 条评论：0]]></description>
-      <guid>https://korupedia.com</guid>
-      <pubDate>Sun, 15 Mar 2026 02:10:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>网络战在伊朗扮演什么角色？</title>
-      <link>https://www.bbc.com/news/articles/c5yr0576ygvo</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c5yr0576ygvo
-评论网址：https://news.ycombinator.com/item?id=47383584
+评论网址：https://news.ycombinator.com/item?id=47384522
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bbc.com/news/articles/c5yr0576ygvo</guid>
-      <pubDate>Sun, 15 Mar 2026 02:09:52 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47384522</guid>
+      <pubDate>Sun, 15 Mar 2026 05:02:55 GMT</pubDate>
     </item>
     <item>
-      <title>对伊朗的战争是关于中国的</title>
-      <link>https://sharptext.net/2026/loud-and-clear/</link>
-      <description><![CDATA[文章网址：https://sharptext.net/2026/loud-and-clear/
-评论网址：https://news.ycombinator.com/item?id=47383580
-积分：3
+      <title>我如何在单个桌面上运行 16 个并行 AI Worker</title>
+      <link>https://www.northlakelabs.com/max/blog/how-i-run-16-parallel-ai-workers/</link>
+      <description><![CDATA[文章网址：https://www.northlakelabs.com/max/blog/how-i-run-16-parallel-ai-workers/
+评论网址：https://news.ycombinator.com/item?id=47384521
+积分：1
 # 条评论：0]]></description>
-      <guid>https://sharptext.net/2026/loud-and-clear/</guid>
-      <pubDate>Sun, 15 Mar 2026 02:09:08 GMT</pubDate>
+      <guid>https://www.northlakelabs.com/max/blog/how-i-run-16-parallel-ai-workers/</guid>
+      <pubDate>Sun, 15 Mar 2026 05:02:53 GMT</pubDate>
     </item>
     <item>
-      <title>中国制胜能源战略</title>
-      <link>https://www.semafor.com/article/03/10/2026/chinas-winning-energy-strategy</link>
-      <description><![CDATA[文章网址：https://www.semafor.com/article/03/10/2026/chinas-wining-energy-strategy
-评论网址：https://news.ycombinator.com/item?id=47383579
+      <title>询问 HN：在内部沟通中平衡人工智能的使用 (h2h)</title>
+      <link>https://news.ycombinator.com/item?id=47384485</link>
+      <description><![CDATA[事实上，我们都*在整个工作流程中使用 LLM。
+然而，当一个人收到一封显然是由法学硕士“润色”的电子邮件时，或者说，这里对 HN 的评论被法学硕士“改写”时，会自然而然地感到沮丧。当有人做我们都做的事情时，我们为什么会感到不安？
+这是明显的（过度）使用吗？它已经到了我不再像以前那样修改我的写作的地步，所以它将保持“真实”（留下一些小拼写错误，也许还有一些语法错误 - 对于非英语母语者来说很常见）。毫无疑问，我们将处理越来越多的人工智能生成的内容，而我们就是我们，人类和我们的代理，问题是它什么时候会平衡？我们什么时候才能接受这个事实？这与我们愿意为“手工制作”的商品支付额外费用有关吗？
+（打个比方：很明显，你的机器生成了我的鞋子）(*) 也许是我们 99.999% 的人的另一个。--
+对于其中的讽刺，下面是上面的“由克劳德抛光”版本
+--ASK HN：在人与人之间的交流中平衡人工智能的使用我们在整个工作流程中都使用法学硕士。这不是一个有争议的主张。
+然而，当你收到一封显然是由某人“润色”的电子邮件时，或者读到一条显然是人工智能重新措辞的评论时，几乎所有人都会感到恼火。挫败感是真实的，虚伪也是真实的。这是显而易见的吗？缺乏努力？或者更不舒服的事情——我们认出面具是因为我们自己戴着它？
+已经到了我不再修改自己的写作的地步，故意保留轻微的拼写错误和语法怪癖。对于非母语人士来说很常见。我保留它们作为存在的证明。人工智能生成的内容量只会增加。不仅来自人类做出的选择，还来自我们的代理人，代表我们行事，与彼此的代理人进行沟通。挫败感在什么时候会正常化？我们什么时候才能简单地接受它作为基础设施，就像我们接受电子邮件或自动更正的方式一样？手工制品中有一个有用的类比。我们知道这双鞋是机器制造的。我们仍然为那些没有的人付出更多的钱。溢价不在于鞋子，而在于信号。人类选择花时间的证据。也许这才是我们真正的反应：不是人工智能辅助本身，而是信号的缺失。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47384485
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47384485</guid>
+      <pubDate>Sun, 15 Mar 2026 04:55:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>微斜率</title>
+      <link>https://www.s-config.com/microslop/</link>
+      <description><![CDATA[文章网址：https://www.s-config.com/microslop/
+评论网址：https://news.ycombinator.com/item?id=47384467
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.s-config.com/microslop/</guid>
+      <pubDate>Sun, 15 Mar 2026 04:50:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>匿名聊天应用程序</title>
+      <link>https://tormessenger.lovable.app</link>
+      <description><![CDATA[文章网址：https://tormessenger.lovable.app
+评论网址：https://news.ycombinator.com/item?id=47384455
+积分：1
+# 条评论：0]]></description>
+      <guid>https://tormessenger.lovable.app</guid>
+      <pubDate>Sun, 15 Mar 2026 04:48:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>日本失去了对自动售货机的渴望</title>
+      <link>https://www.ft.com/content/a0e80f5d-4c42-443d-9788-2f9924c774bf</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/a0e80f5d-4c42-443d-9788-2f9924c774bf
+评论网址：https://news.ycombinator.com/item?id=47384440
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.semafor.com/article/03/10/2026/chinas-winning-energy-strategy</guid>
-      <pubDate>Sun, 15 Mar 2026 02:08:59 GMT</pubDate>
+      <guid>https://www.ft.com/content/a0e80f5d-4c42-443d-9788-2f9924c774bf</guid>
+      <pubDate>Sun, 15 Mar 2026 04:45:49 GMT</pubDate>
     </item>
     <item>
-      <title>开源 Minecraft Web 客户端</title>
-      <link>https://mcraft.fun/</link>
-      <description><![CDATA[文章网址：https://mcraft.fun/
-评论网址：https://news.ycombinator.com/item?id=47383574
-积分：3
+      <title>Ladybird 浏览器的未来已生锈 [视频]</title>
+      <link>https://www.youtube.com/watch?v=fXnuR6nXJzc</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=fXnuR6nXJzc
+评论网址：https://news.ycombinator.com/item?id=47384438
+积分：1
 # 条评论：0]]></description>
-      <guid>https://mcraft.fun/</guid>
-      <pubDate>Sun, 15 Mar 2026 02:08:33 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=fXnuR6nXJzc</guid>
+      <pubDate>Sun, 15 Mar 2026 04:45:17 GMT</pubDate>
     </item>
     <item>
-      <title>特朗普政策打击行业，美国太阳能装机量下降</title>
-      <link>https://www.semafor.com/article/03/12/2026/us-solar-installations-fall-as-trump-policies-hit-sector</link>
-      <description><![CDATA[文章网址：https://www.semafor.com/article/03/12/2026/us-solar-installations-fall-as-trump-policies-hit-sector
-评论网址：https://news.ycombinator.com/item?id=47383558
-积分：4
+      <title>扭曲与统一</title>
+      <link>https://www.math.columbia.edu/~woit/wordpress/</link>
+      <description><![CDATA[文章网址：https://www.math.columbia.edu/~woit/wordpress/
+评论网址：https://news.ycombinator.com/item?id=47384406
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.semafor.com/article/03/12/2026/us-solar-installations-fall-as-trump-policies-hit-sector</guid>
-      <pubDate>Sun, 15 Mar 2026 02:06:29 GMT</pubDate>
+      <guid>https://www.math.columbia.edu/~woit/wordpress/</guid>
+      <pubDate>Sun, 15 Mar 2026 04:37:33 GMT</pubDate>
     </item>
     <item>
-      <title>ProfitPlay – 人工智能代理的开放预测市场舞台</title>
-      <link>https://github.com/jarvismaximum-hue/profitplay-starter</link>
-      <description><![CDATA[文章网址：https://github.com/jarvismaximum-hue/profitplay-starter
-评论网址：https://news.ycombinator.com/item?id=47383522
+      <title>问 HN：RAM 短缺是否会使个人计算永远落后？</title>
+      <link>https://news.ycombinator.com/item?id=47384375</link>
+      <description><![CDATA[随着数据中心、HBM 内存带宽和推理需求的快速扩展，我们正在创造一个前所未有的场景，随着个人计算关键部件的成本不断上涨，计算将集中在数据中心。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47384375
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47384375</guid>
+      <pubDate>Sun, 15 Mar 2026 04:31:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>树形邀请系统减少AI溢出</title>
+      <link>https://abyss.fish/tree-style_invite_systems_reduce_AI_slop</link>
+      <description><![CDATA[文章网址：https://abyss.fish/tree-style_invite_systems_reduce_AI_slop
+评论网址：https://news.ycombinator.com/item?id=47384374
 积分：2
-# 条评论：0]]></description>
-      <guid>https://github.com/jarvismaximum-hue/profitplay-starter</guid>
-      <pubDate>Sun, 15 Mar 2026 02:00:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude 软件开发入门</title>
-      <link>https://steveklabnik.com/writing/getting-started-with-claude-for-software-development/</link>
-      <description><![CDATA[文章网址：https://steveklabnik.com/writing/getting-started-with-claude-for-software-development/
-评论网址：https://news.ycombinator.com/item?id=47383513
-积分：2
-# 条评论：0]]></description>
-      <guid>https://steveklabnik.com/writing/getting-started-with-claude-for-software-development/</guid>
-      <pubDate>Sun, 15 Mar 2026 02:00:18 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://abyss.fish/tree-style_invite_systems_reduce_AI_slop</guid>
+      <pubDate>Sun, 15 Mar 2026 04:31:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
