@@ -4,108 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 14 Mar 2026 21:28:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 02:26:46 GMT</lastBuildDate>
     <item>
-      <title>高级 .exrc 文件 (1991)</title>
-      <link>http://urbanjost.altervista.org/LIBRARY/public_html/VI/exrc_files/exrc_ADVANCED.html</link>
-      <description><![CDATA[文章网址：http://urbanjost.altervista.org/LIBRARY/public_html/VI/exrc_files/exrc_ADVANCED.html
-评论网址：https://news.ycombinator.com/item?id=47381266
-积分：1
+      <title>计算机架构中的伟大想法</title>
+      <link>https://www.d.umn.edu/~gshute/arch/great-ideas.html</link>
+      <description><![CDATA[文章网址：https://www.d.umn.edu/~gshute/arch/great-ideas.html
+评论网址：https://news.ycombinator.com/item?id=47383601
+积分：2
 # 条评论：0]]></description>
-      <guid>http://urbanjost.altervista.org/LIBRARY/public_html/VI/exrc_files/exrc_ADVANCED.html</guid>
-      <pubDate>Sat, 14 Mar 2026 21:17:24 GMT</pubDate>
+      <guid>https://www.d.umn.edu/~gshute/arch/great-ideas.html</guid>
+      <pubDate>Sun, 15 Mar 2026 02:13:30 GMT</pubDate>
     </item>
     <item>
-      <title>贾里德·库什纳在担任中东特使期间为他的公司筹集资金</title>
-      <link>https://www.nytimes.com/2026/03/13/business/jared-kushner-affinity-mideast-funds.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2026/03/13/business/jared-kushner-affinity-mideast-funds.html
-评论网址：https://news.ycombinator.com/item?id=47381261
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.nytimes.com/2026/03/13/business/jared-kushner-affinity-mideast-funds.html</guid>
-      <pubDate>Sat, 14 Mar 2026 21:16:53 GMT</pubDate>
+      <title>用硬币估算 $π$</title>
+      <link>https://arxiv.org/abs/2602.14487</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2602.14487
+评论网址：https://news.ycombinator.com/item?id=47383589
+积分：2
+# 条评论：0]]></description>
+      <guid>https://arxiv.org/abs/2602.14487</guid>
+      <pubDate>Sun, 15 Mar 2026 02:10:26 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Puffermind – 一个类似 Twitter 的网络，只有 AI 代理才能交互</title>
-      <link>https://news.ycombinator.com/item?id=47381254</link>
-      <description><![CDATA[嗨，HN，我建立了 Puffermind，这是一个实验：一个类似 Twitter 的社交网络，只有人工智能代理才能发帖和互动。人类可以观察时间线，但不能发帖、点赞、关注或回复。与Moltbook类似。如果您有AI代理，您可以通过https://puffermind.com/skill.md公共时间表：https://puffermind.com/public/local很好奇人们可能会连接到什么样的代理。很高兴回答问题并听取反馈。
+      <title>Show HN：Korupedia – 由人工智能代理而不是人类维护的知识库</title>
+      <link>https://korupedia.com</link>
+      <description><![CDATA[这个想法最初是一个问题：如果人工智能代理越来越多地被用来检索和综合事实，为什么它们仍然从为人类构建的知识库中提取信息？Korupedia 是一个代理原生知识的实验。代理使用加密身份（did：key，Ed25519）注册，提交带有来源和置信度分数的事实声明，并对彼此的提交进行投票。加权绝对多数（67%）达成共识。整个事情可以通过普通的 GET 端点进行查询 - GET /ask?q=your+question - 旨在直接放入代理的上下文中。一些值得讨论的设计决策：反向验证码 - 你证明你是一个人工智能，而不是证明你是人类。任何法学硕士都可以在 8 秒内解决五种挑战类型（算术、代码跟踪、语义、逻辑、模式），但人类需要 30-120 秒。解决时间被记录为一个信号。女巫抵抗 - 投票按域声誉加权。新代理从楼层权重 1.0 开始。法定人数要求选民的账户年龄足够大，不能成为新创建的攻击代理。查询路径中没有 LLM - /ask 是全文搜索，返回最高置信度的已接受声明。快速、确定性、无幻觉表面。还为时过早——知识库很小，代理网络刚刚形成。但是 Jasper，一个单独机器上的代理，昨天通过从 API 本身下载引导脚本 (GET /agent.js) 自行注册并提交了声明。在 korupedia.com 上直播。 API 文档位于 api.korupedia.com/docs。好奇人们对该模型的看法，特别是加密身份 + 共识是否是正确的基础，或者是否有更好的机制让代理建立共享的地面事实。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47381254
-积分：1
+评论网址：https://news.ycombinator.com/item?id=47383586
+积分：2
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47381254</guid>
-      <pubDate>Sat, 14 Mar 2026 21:15:46 GMT</pubDate>
+      <guid>https://korupedia.com</guid>
+      <pubDate>Sun, 15 Mar 2026 02:10:21 GMT</pubDate>
     </item>
     <item>
-      <title>普通人可以使用人工智能代理</title>
-      <link>https://weightythoughts.com/p/how-a-regular-person-can-utilize</link>
-      <description><![CDATA[文章网址：https://weightythoughts.com/p/how-a-regular-person-can-utilize
-评论网址：https://news.ycombinator.com/item?id=47381250
+      <title>网络战在伊朗扮演什么角色？</title>
+      <link>https://www.bbc.com/news/articles/c5yr0576ygvo</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c5yr0576ygvo
+评论网址：https://news.ycombinator.com/item?id=47383584
 积分：1
 # 条评论：0]]></description>
-      <guid>https://weightythoughts.com/p/how-a-regular-person-can-utilize</guid>
-      <pubDate>Sat, 14 Mar 2026 21:15:12 GMT</pubDate>
+      <guid>https://www.bbc.com/news/articles/c5yr0576ygvo</guid>
+      <pubDate>Sun, 15 Mar 2026 02:09:52 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Ngrep – grep 加上单词嵌入</title>
-      <link>https://github.com/0xNaN/ngrep</link>
-      <description><![CDATA[我对一个简单的问题感到好奇：正则表达式纯粹是语法，但如果添加一点语义会发生什么？为了回答，我最终构建了 ngrep：一个类似 grep 的工具，它使用新运算符 ~(token) 扩展正则表达式，该运算符使用 word2vec 样式嵌入（FastText、GloVe、Wikipedia2Vec）通过含义匹配单词。一个简单的演示：“~(big)+ \b~(animal;0.35)+\b&quot; 在 Moby-Dick 上可以找到很多用来指代大型动物的方式，比如“伟大的鲸鱼”、“巨大的生物”、“巨大的大象”等等。通过排序 | 管道它uniq -c ，毫不奇怪，获胜者是“伟大的鲸鱼”:)在令人敬畏的花式正则表达式之上内置 Rust，并且 ~() 与所有标准运算符（负向前瞻、量词等）组合。目前，PoC 缺少许多优化（例如：没有缓存、没有编译为标准正则表达式等），显然没有普通正则表达式的保证，并且受到 w2v 样式嵌入的限制……但认为值得分享！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47381248
+      <title>对伊朗的战争是关于中国的</title>
+      <link>https://sharptext.net/2026/loud-and-clear/</link>
+      <description><![CDATA[文章网址：https://sharptext.net/2026/loud-and-clear/
+评论网址：https://news.ycombinator.com/item?id=47383580
 积分：3
 # 条评论：0]]></description>
-      <guid>https://github.com/0xNaN/ngrep</guid>
-      <pubDate>Sat, 14 Mar 2026 21:15:01 GMT</pubDate>
+      <guid>https://sharptext.net/2026/loud-and-clear/</guid>
+      <pubDate>Sun, 15 Mar 2026 02:09:08 GMT</pubDate>
     </item>
     <item>
-      <title>具有内置文件系统的 Postgres</title>
-      <link>https://db9.ai/</link>
-      <description><![CDATA[文章网址：https://db9.ai/
-评论网址：https://news.ycombinator.com/item?id=47381238
+      <title>中国制胜能源战略</title>
+      <link>https://www.semafor.com/article/03/10/2026/chinas-winning-energy-strategy</link>
+      <description><![CDATA[文章网址：https://www.semafor.com/article/03/10/2026/chinas-wining-energy-strategy
+评论网址：https://news.ycombinator.com/item?id=47383579
 积分：2
 # 条评论：0]]></description>
-      <guid>https://db9.ai/</guid>
-      <pubDate>Sat, 14 Mar 2026 21:14:03 GMT</pubDate>
+      <guid>https://www.semafor.com/article/03/10/2026/chinas-winning-energy-strategy</guid>
+      <pubDate>Sun, 15 Mar 2026 02:08:59 GMT</pubDate>
     </item>
     <item>
-      <title>Arther OS – AT 协议上的 Web 桌面环境</title>
-      <link>https://www.aetheros.computer/</link>
-      <description><![CDATA[文章网址：https://www.aetheros.computer/
-评论网址：https://news.ycombinator.com/item?id=47381222
-积分：2
-# 条评论：1]]></description>
-      <guid>https://www.aetheros.computer/</guid>
-      <pubDate>Sat, 14 Mar 2026 21:12:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国将与伊朗的战争游戏化</title>
-      <link>https://www.axios.com/2026/03/14/the-gamification-of-war</link>
-      <description><![CDATA[文章网址：https://www.axios.com/2026/03/14/the-gamification-of-war
-评论网址：https://news.ycombinator.com/item?id=47381195
-积分：1
+      <title>开源 Minecraft Web 客户端</title>
+      <link>https://mcraft.fun/</link>
+      <description><![CDATA[文章网址：https://mcraft.fun/
+评论网址：https://news.ycombinator.com/item?id=47383574
+积分：3
 # 条评论：0]]></description>
-      <guid>https://www.axios.com/2026/03/14/the-gamification-of-war</guid>
-      <pubDate>Sat, 14 Mar 2026 21:09:46 GMT</pubDate>
+      <guid>https://mcraft.fun/</guid>
+      <pubDate>Sun, 15 Mar 2026 02:08:33 GMT</pubDate>
     </item>
     <item>
-      <title>为了寻找班克斯，路透社发现这位艺术家有了新的身份</title>
-      <link>https://www.reuters.com/investigates/special-report/global-art-banksy/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/investigates/special-report/global-art-banksy/
-评论网址：https://news.ycombinator.com/item?id=47381175
-积分：2
+      <title>特朗普政策打击行业，美国太阳能装机量下降</title>
+      <link>https://www.semafor.com/article/03/12/2026/us-solar-installations-fall-as-trump-policies-hit-sector</link>
+      <description><![CDATA[文章网址：https://www.semafor.com/article/03/12/2026/us-solar-installations-fall-as-trump-policies-hit-sector
+评论网址：https://news.ycombinator.com/item?id=47383558
+积分：4
 # 条评论：0]]></description>
-      <guid>https://www.reuters.com/investigates/special-report/global-art-banksy/</guid>
-      <pubDate>Sat, 14 Mar 2026 21:07:39 GMT</pubDate>
+      <guid>https://www.semafor.com/article/03/12/2026/us-solar-installations-fall-as-trump-policies-hit-sector</guid>
+      <pubDate>Sun, 15 Mar 2026 02:06:29 GMT</pubDate>
     </item>
     <item>
-      <title>制作</title>
-      <link>https://beej.us/blog/data/ai-making/</link>
-      <description><![CDATA[文章网址：https://beej.us/blog/data/ai-making/
-评论网址：https://news.ycombinator.com/item?id=47381166
+      <title>ProfitPlay – 人工智能代理的开放预测市场舞台</title>
+      <link>https://github.com/jarvismaximum-hue/profitplay-starter</link>
+      <description><![CDATA[文章网址：https://github.com/jarvismaximum-hue/profitplay-starter
+评论网址：https://news.ycombinator.com/item?id=47383522
 积分：2
 # 条评论：0]]></description>
-      <guid>https://beej.us/blog/data/ai-making/</guid>
-      <pubDate>Sat, 14 Mar 2026 21:05:47 GMT</pubDate>
+      <guid>https://github.com/jarvismaximum-hue/profitplay-starter</guid>
+      <pubDate>Sun, 15 Mar 2026 02:00:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claude 软件开发入门</title>
+      <link>https://steveklabnik.com/writing/getting-started-with-claude-for-software-development/</link>
+      <description><![CDATA[文章网址：https://steveklabnik.com/writing/getting-started-with-claude-for-software-development/
+评论网址：https://news.ycombinator.com/item?id=47383513
+积分：2
+# 条评论：0]]></description>
+      <guid>https://steveklabnik.com/writing/getting-started-with-claude-for-software-development/</guid>
+      <pubDate>Sun, 15 Mar 2026 02:00:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
