@@ -4,109 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 16 Mar 2026 10:07:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 13:12:49 GMT</lastBuildDate>
     <item>
-      <title>显示 HN: cn-variants – 用 3 行代码显示 Tailwind CSS 变体</title>
-      <link>https://npmx.dev/package/cn-variants</link>
-      <description><![CDATA[我将 Tailwind 与 React 结合使用，并在项目中不断复制相同的微小模式：一个 cn 帮助器（clsx + tailwind-merge）和一个针对变体类的类型化 Record 查找。最终我将其放入一个包中，这样我就不再重复自己了。它导出 cn 和variants，这是一个将变体名称映射到类并返回类型化查找的函数。复合变体只是 cn() 内的条件。
-它不会尝试取代 cva 或 tailwind 变体。如果您需要 defaultVariants、插槽或响应式变体，这些就非常有用。这只是我在实践中实际达到的子集。很高兴听到其他人的想法或者我是否遗漏了一些明显的东西。
+      <title>苹果推出 AirPods Max 2</title>
+      <link>https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/</link>
+      <description><![CDATA[文章网址：https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/
+评论网址：https://news.ycombinator.com/item?id=47398462
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/</guid>
+      <pubDate>Mon, 16 Mar 2026 13:04:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>逃离海啸，躲避脑腐病</title>
+      <link>https://escapetsunamiforbrainrots.pro/</link>
+      <description><![CDATA[文章网址：https://escapetsunamiforbrainrots.pro/
+评论网址：https://news.ycombinator.com/item?id=47398449
+积分：1
+# 条评论：1]]></description>
+      <guid>https://escapetsunamiforbrainrots.pro/</guid>
+      <pubDate>Mon, 16 Mar 2026 13:02:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Hackerbrief – 每日总结的黑客新闻热门帖子</title>
+      <link>https://hackerbrief.vercel.app/</link>
+      <description><![CDATA[文章网址：https://hackerbrief.vercel.app/
+评论网址：https://news.ycombinator.com/item?id=47398441
+积分：1
+# 条评论：0]]></description>
+      <guid>https://hackerbrief.vercel.app/</guid>
+      <pubDate>Mon, 16 Mar 2026 13:01:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>用图片解释上下文工程</title>
+      <link>https://mechanicalorchard.substack.com/p/context-engineering-explained-in</link>
+      <description><![CDATA[文章网址：https://mechanicalorchard.substack.com/p/context-engineering-explained-in
+评论网址：https://news.ycombinator.com/item?id=47398439
+积分：1
+# 条评论：0]]></description>
+      <guid>https://mechanicalorchard.substack.com/p/context-engineering-explained-in</guid>
+      <pubDate>Mon, 16 Mar 2026 13:01:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Scryer – AI 代理的可视化架构建模</title>
+      <link>https://github.com/aklos/scryer</link>
+      <description><![CDATA[过去一个月我一直在开发这个桌面工具（FSL 许可证，免费用于商业用途），因为我现在花更多时间在终端提示 Claude Code 而不是使用代码编辑器。如果我提出正确的问题，它通常会工作得很好，但当我完成一个会话时，我仍然经常发现很多死代码、存根或糟糕的架构选择，并且在通过 vivicoding 进行重大更改后，理解代码库本身可能会让人感到不舒服。Scryer 的想法是使用 C4 模型图提供一个可视化界面，以便与 AI 共享，以便我们都了解代码库的实际状态，以及建议的更改将如何影响它。它基本上是模型驱动的开发（如 UML），但适应了 LLM 时代。因此，我认为使用固执己见的 C4 (https://c4model.com/) 是最好的方法：- 它足够简单，易于理解，不会让开发人员陷入昏迷- 有足够的上下文来连贯地指导 AI- 不会尝试替换代码，而是定义结构护栏和范围此外，我还包括了一些较新的面向代理的方法，例如“始终/询问/从不”契约（事实证明非常有用）、任务分解、MCP + ACP 连接等。这是非常实验性的且早期，因此它的边缘非常粗糙，但我已经在自己的开发工作流程中使用它，我希望你们检查一下。老实说，我认为这可能是 MDE/MDD 的一年 - 随着我们抽象出代码层，软件架构基础变得比以往任何时候都更加重要。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47397020
+评论网址：https://news.ycombinator.com/item?id=47398427
 积分：1
 # 条评论：0]]></description>
-      <guid>https://npmx.dev/package/cn-variants</guid>
-      <pubDate>Mon, 16 Mar 2026 09:57:29 GMT</pubDate>
+      <guid>https://github.com/aklos/scryer</guid>
+      <pubDate>Mon, 16 Mar 2026 13:00:07 GMT</pubDate>
     </item>
     <item>
-      <title>能力就是路线图</title>
-      <link>https://yusufaytas.com/capacity-is-the-roadmap/</link>
-      <description><![CDATA[文章网址：https://yusufaytas.com/capacity-is-the-roadmap/
-评论网址：https://news.ycombinator.com/item?id=47397001
-积分：7
-# 条评论：0]]></description>
-      <guid>https://yusufaytas.com/capacity-is-the-roadmap/</guid>
-      <pubDate>Mon, 16 Mar 2026 09:54:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>ZippyType – 具有自适应代码语法练习的打字速度训练器</title>
-      <link>https://zippytype.vercel.app</link>
-      <description><![CDATA[文章网址：https://zippytype.vercel.app
-评论网址：https://news.ycombinator.com/item?id=47396995
+      <title>我在 72 小时内将 AI 代理从笔记本电脑迁移到无头 Mac Mini</title>
+      <link>https://thoughts.jock.pl/p/mac-mini-ai-agent-migration-headless-2026</link>
+      <description><![CDATA[文章网址：https://thoughts.jock.pl/p/mac-mini-ai-agent-migration-headless-2026
+评论网址：https://news.ycombinator.com/item?id=47398425
 积分：1
 # 条评论：0]]></description>
-      <guid>https://zippytype.vercel.app</guid>
-      <pubDate>Mon, 16 Mar 2026 09:54:10 GMT</pubDate>
+      <guid>https://thoughts.jock.pl/p/mac-mini-ai-agent-migration-headless-2026</guid>
+      <pubDate>Mon, 16 Mar 2026 13:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>用户体验法则——人工智能氛围编码时代</title>
-      <link>https://lawsofux.com/</link>
-      <description><![CDATA[文章网址：https://lawsofux.com/
-评论网址：https://news.ycombinator.com/item?id=47396976
+      <title>思想宝库：Corr 数据库 2018</title>
+      <link>https://en.chessbase.com/post/a-treasure-trove-of-ideas-the-corr-database-2018</link>
+      <description><![CDATA[文章网址：https://en.chessbase.com/post/a-treasure-trove-of-ideas-the-corr-database-2018
+评论网址：https://news.ycombinator.com/item?id=47398416
 积分：1
 # 条评论：0]]></description>
-      <guid>https://lawsofux.com/</guid>
-      <pubDate>Mon, 16 Mar 2026 09:52:00 GMT</pubDate>
+      <guid>https://en.chessbase.com/post/a-treasure-trove-of-ideas-the-corr-database-2018</guid>
+      <pubDate>Mon, 16 Mar 2026 12:58:58 GMT</pubDate>
     </item>
     <item>
-      <title>为什么 Cloudflare 规则顺序很重要？</title>
-      <link>https://www.brzozowski.io/web-applications/2025/03/11/why-cloudflare-rule-order-matters.html</link>
-      <description><![CDATA[文章网址：https://www.brzozowski.io/web-applications/2025/03/11/why-cloudflare-rule-order-matters.html
-评论网址：https://news.ycombinator.com/item?id=47396973
+      <title>Mnemon-MCP – 用于 AI 代理的 4 层本地内存（SQLite 和 FTS5）</title>
+      <link>https://news.ycombinator.com/item?id=47398382</link>
+      <description><![CDATA[作者在此。我患有多动症，每天都使用克劳德代码。经过三周的每天早上重新解释我的项目堆栈、同事的名字和编码规则后，我快速构建了这个。https://github.com/nikitacometa/mnemon-mcp
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47398382
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47398382</guid>
+      <pubDate>Mon, 16 Mar 2026 12:56:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能辅助编码时代的简单性</title>
+      <link>https://the.scapegoat.dev/simplicity-in-the-age-of-ai-assisted-coding/</link>
+      <description><![CDATA[文章网址：https://the.scapegoat.dev/simplicity-in-the-age-of-ai-assistance-coding/
+评论网址：https://news.ycombinator.com/item?id=47398375
+积分：1
+# 条评论：0]]></description>
+      <guid>https://the.scapegoat.dev/simplicity-in-the-age-of-ai-assisted-coding/</guid>
+      <pubDate>Mon, 16 Mar 2026 12:55:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pastebin 0x0.st 要求 AI 代理上传敏感客户发票</title>
+      <link>https://movsw.0x0.st/notes/ajw1zurfaggo360l</link>
+      <description><![CDATA[文章网址：https://movsw.0x0.st/notes/ajw1zurfaggo360l
+评论网址：https://news.ycombinator.com/item?id=47398369
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.brzozowski.io/web-applications/2025/03/11/why-cloudflare-rule-order-matters.html</guid>
-      <pubDate>Mon, 16 Mar 2026 09:51:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>从来不知道新闻网站可以在没有广告的情况下生存</title>
-      <link>https://text.npr.org/</link>
-      <description><![CDATA[文章网址：https://text.npr.org/
-评论网址：https://news.ycombinator.com/item?id=47396971
-积分：3
-# 条评论：1]]></description>
-      <guid>https://text.npr.org/</guid>
-      <pubDate>Mon, 16 Mar 2026 09:51:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google.org 工作的未来：人工智能时代 5 年的影响和教训</title>
-      <link>https://blog.google/company-news/outreach-and-initiatives/google-org/future-of-work-impact-report/</link>
-      <description><![CDATA[文章网址：https://blog.google/company-news/outreach-and-initiatives/google-org/future-of-work-impact-report/
-评论网址：https://news.ycombinator.com/item?id=47396958
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blog.google/company-news/outreach-and-initiatives/google-org/future-of-work-impact-report/</guid>
-      <pubDate>Mon, 16 Mar 2026 09:48:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>定制AI智能音箱</title>
-      <link>https://openhome.com</link>
-      <description><![CDATA[文章网址：https://openhome.com
-评论网址：https://news.ycombinator.com/item?id=47396944
-积分：1
-# 条评论：0]]></description>
-      <guid>https://openhome.com</guid>
-      <pubDate>Mon, 16 Mar 2026 09:47:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：作为一名软件工程师十岁了，法学硕士的快速发展接下来会发生什么？</title>
-      <link>https://news.ycombinator.com/item?id=47396932</link>
-      <description><![CDATA[我是一名拥有 10 年经验的软件工程师，目前担任伦敦一家金融科技应用程序的首席 React Native 工程师。我认为很明显，法学硕士将极大地改变这个行业。虽然我不会立即担心我未来的职业生涯，但我认为在未来 5 年里，随着法学硕士承担越来越多的工作量，将会出现巨大的压力。我喜欢编写代码和解决问题，我不想仅仅成为一名法学硕士保姆，而且我想认为我非常擅长我的工作。而且我也想保持技术性，所以没有木工建议。所以在过去的一两个月里，我一直在考虑下一步要做什么。我真的很喜欢使用 React Native、Typescript 等，但法学硕士已经非常擅长这些事情了（很大程度上是因为已经有大量的在线开源 JS）。例如，如果我要转向某种人工智能工程/研究，我会从哪里开始？或者我也在考虑嵌入式软件工程 - 再说一次，我从哪里开始？或者我只是太悲观了？我确实认为整个“人工智能”的事情有点夸大了，所以也许一切都会好起来的：耸肩：。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47396932
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47396932</guid>
-      <pubDate>Mon, 16 Mar 2026 09:45:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>在失败中寻找希望：在分布式系统中注入无限</title>
-      <link>https://forkracefold.com/</link>
-      <description><![CDATA[文章网址：https://forkracefold.com/
-评论网址：https://news.ycombinator.com/item?id=47396918
-积分：1
-# 条评论：0]]></description>
-      <guid>https://forkracefold.com/</guid>
-      <pubDate>Mon, 16 Mar 2026 09:43:39 GMT</pubDate>
+      <guid>https://movsw.0x0.st/notes/ajw1zurfaggo360l</guid>
+      <pubDate>Mon, 16 Mar 2026 12:55:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
