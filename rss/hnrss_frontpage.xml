@@ -4,107 +4,109 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 16 Mar 2026 16:05:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 19:02:29 GMT</lastBuildDate>
     <item>
-      <title>Nango（YC W23，代理和应用程序的 API 访问）正在招聘</title>
-      <link>https://jobs.ashbyhq.com/Nango</link>
-      <description><![CDATA[文章网址：https://jobs.ashbyhq.com/Nango
-评论网址：https://news.ycombinator.com/item?id=47397842
+      <title>重返办公室的趋势适得其反</title>
+      <link>https://thehill.com/opinion/technology/5775420-remote-first-productivity-growth/</link>
+      <description><![CDATA[文章网址：https://thehill.com/opinion/technology/5775420-remote-first-productivity-growth/
+评论网址：https://news.ycombinator.com/item?id=47402651
+积分：36
+# 条评论：11]]></description>
+      <guid>https://thehill.com/opinion/technology/5775420-remote-first-productivity-growth/</guid>
+      <pubDate>Mon, 16 Mar 2026 18:13:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jemalloc 未被 Meta 放弃</title>
+      <link>https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/</link>
+      <description><![CDATA[https://github.com/jemalloc/jemalloc
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47402640
+积分：77
+# 条评论：17]]></description>
+      <guid>https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/</guid>
+      <pubDate>Mon, 16 Mar 2026 18:12:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>代理技能 – 开放安全数据库</title>
+      <link>https://index.tego.security/skills/</link>
+      <description><![CDATA[文章网址：https://index.tego.security/skills/
+评论网址：https://news.ycombinator.com/item?id=47402118
+积分：5
+# 条评论：1]]></description>
+      <guid>https://index.tego.security/skills/</guid>
+      <pubDate>Mon, 16 Mar 2026 17:35:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>作为分布式系统的语言模型团队</title>
+      <link>https://arxiv.org/abs/2603.12229</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2603.12229
+评论网址：https://news.ycombinator.com/item?id=47401901
+积分：13
+# 条评论：1]]></description>
+      <guid>https://arxiv.org/abs/2603.12229</guid>
+      <pubDate>Mon, 16 Mar 2026 17:19:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>“小网络”比你想象的要大</title>
+      <link>https://kevinboone.me/small_web_is_big.html</link>
+      <description><![CDATA[文章网址：https://kevinboone.me/small_web_is_big.html
+评论网址：https://news.ycombinator.com/item?id=47401879
+积分：98
+# 条评论：29]]></description>
+      <guid>https://kevinboone.me/small_web_is_big.html</guid>
+      <pubDate>Mon, 16 Mar 2026 17:17:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>推出 HN: Chamber (YC W26) – GPU 基础设施的 AI 队友</title>
+      <link>https://www.usechamber.io/</link>
+      <description><![CDATA[嘿 HN，我们是 Jie Shen、Charles、Andreas 和 Shao Cheng。我们构建了 Chamber (https://usechamber.io)，这是一个为您管理 GPU 基础设施的 AI 代理。无论您的团队在哪里工作，您都可以与它交谈，它可以处理配置集群、诊断失败作业、管理工作负载等事务。演示：https://www.youtube.com/watch?v=xdqh2C_hif4我们都在 Amazon 从事 GPU 基础设施方面的工作。我们花了很多年的时间来解决这个问题——监控 GPU 集群、大规模调试故障、围绕它构建工具。离开后，我们与一群人工智能团队进行了交谈，并不断听到同样的事情。平台工程师花费一半的时间来保持事物的运行。构建仪表板，编写调度配置，回答“我的工作什么时候开始？”一整天。当训练运行失败时，研究人员会损失大量时间，因为找出原因意味着需要在完全独立的工具中深入研究 Kubernetes 事件、节点日志和 GPU 指标。几乎每个人都将 Prometheus、Grafana、Kubernetes 调度策略和一堆自制脚本拼接在一起，他们花在维护所有这些内容上的时间与实际使用它们的时间一样多。我们一直注意到，大部分工作都遵循模式。对故障进行分类，关联一些信号，找出解决办法。如果您拥有一个能够结构化访问 GPU 环境完整状态的平台，则可以让代理为您完成这项工作。这就是我们构建的。 Chamber 是一个控制平面，可保存 GPU 队列的实时模型：节点、工作负载、团队结构、集群运行状况。它支持的每个操作都作为代理可以调用​​的工具公开。检查节点运行状况、读取集群拓扑、管理工作负载生命周期、调整资源配置、配置基础设施。这些是带有验证和回滚的结构化操作，而不仅仅是原始 shell 命令。当我们向平台添加新功能时，它们也会自动成为代理可以执行的操作。我们在安全性上花费了大量时间，因为我们已经看到了基础设施自动化出现问题时会发生什么情况。错误的调用可能会终止多天的训练运行或跨集群级联。因此，代理人具有分级自主权。它自行处理日常事务：诊断失败的作业、使用更正的资源重新提交、封锁坏节点。但任何涉及其他团队工作量或生产工作的事情都需要首先得到人工批准。每个操作都会记录代理所看到的内容、操作原因以及更改内容。底层平台才是真正使诊断发挥作用的因素。当代理调查故障时，它会查询 GPU 状态、工作负载历史记录、节点运行状况时间线和集群拓扑。这就是“您的作业 OOMed”和“您的作业 OOMed，因为批量大小超出了该节点上的可用 VRAM，这是一个更正的配置”之间的区别。不同的根本原因会得到不同的解决方案。有一件事情让我们感到惊讶，即使来自我们看到大型 GPU 群的亚马逊：与我们交谈的大多数团队甚至无法告诉您目前正在使用多少个 GPU。监控根本不存在。他们在最昂贵的硬件上盲目飞行。我们已经与一些早期客户合作，并正在组建新团队。我们仍在完善定价，目前正在评估每个 GPU 管理和分层计划等模型。一旦我们验证了最适合客户的价格，我们计划发布透明的定价。与此同时，我们知道“联系我们”并不理想。希望听到任何运行 GPU 集群的人的意见。您的设置中最乏味的部分是什么？您实际上会信任代理人做什么？什么是禁区？期待反馈！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47401766
+积分：8
+# 条评论：2]]></description>
+      <guid>https://www.usechamber.io/</guid>
+      <pubDate>Mon, 16 Mar 2026 17:09:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>以质量为代价的速度：Cursor AI 在开源项目中的使用研究</title>
+      <link>https://arxiv.org/abs/2511.04427</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2511.04427
+评论网址：https://news.ycombinator.com/item?id=47401734
+积分：41
+# 条评论：16]]></description>
+      <guid>https://arxiv.org/abs/2511.04427</guid>
+      <pubDate>Mon, 16 Mar 2026 17:07:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kaizen (YC P25) 雇用工程师、GTM、Cos 来实现 BPO 自动化</title>
+      <link>https://www.kaizenautomation.com/careers</link>
+      <description><![CDATA[文章网址：https://www.kaizenautomation.com/careers
+评论网址：https://news.ycombinator.com/item?id=47401618
 积分：0
 # 条评论：0]]></description>
-      <guid>https://jobs.ashbyhq.com/Nango</guid>
-      <pubDate>Mon, 16 Mar 2026 12:03:13 GMT</pubDate>
+      <guid>https://www.kaizenautomation.com/careers</guid>
+      <pubDate>Mon, 16 Mar 2026 17:00:17 GMT</pubDate>
     </item>
     <item>
-      <title>多市场赌徒因伊朗导弹故事威胁要杀了我</title>
-      <link>https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/</link>
-      <description><![CDATA[文章网址： https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/
-评论网址：https://news.ycombinator.com/item?id=47397822
-积分：242
-评论数量：134]]></description>
-      <guid>https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/</guid>
-      <pubDate>Mon, 16 Mar 2026 12:00:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>民主国家的腐败比独裁国家更能侵蚀社会信任</title>
-      <link>https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2026.1779810/full</link>
-      <description><![CDATA[文章网址：https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2026.1779810/full
-评论网址：https://news.ycombinator.com/item?id=47397593
-积分：94
-# 条评论：30]]></description>
-      <guid>https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2026.1779810/full</guid>
-      <pubDate>Mon, 16 Mar 2026 11:25:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>科学家发现了一种令人惊讶的方法来平静焦虑的心灵（2025）</title>
-      <link>https://www.sciencedaily.com/releases/2025/10/251027023816.htm</link>
-      <description><![CDATA[文章网址：https://www.sciencedaily.com/releases/2025/10/251027023816.htm
-评论网址：https://news.ycombinator.com/item?id=47397528
-积分：32
-# 条评论：29]]></description>
-      <guid>https://www.sciencedaily.com/releases/2025/10/251027023816.htm</guid>
-      <pubDate>Mon, 16 Mar 2026 11:16:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>我如何用法学硕士编写软件</title>
-      <link>https://www.stavros.io/posts/how-i-write-software-with-llms/</link>
-      <description><![CDATA[文章网址：https://www.stavros.io/posts/how-i-write-software-with-llms/
-评论网址：https://news.ycombinator.com/item?id=47394022
-积分：299
-# 条评论：243]]></description>
-      <guid>https://www.stavros.io/posts/how-i-write-software-with-llms/</guid>
-      <pubDate>Mon, 16 Mar 2026 01:24:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>《Linux 编程接口》作为大学课程教材</title>
-      <link>https://man7.org/tlpi/academic/index.html</link>
-      <description><![CDATA[文章网址：https://man7.org/tlpi/academic/index.html
-评论网址：https://news.ycombinator.com/item?id=47393388
-积分：123
-# 条评论：20]]></description>
-      <guid>https://man7.org/tlpi/academic/index.html</guid>
-      <pubDate>Sun, 15 Mar 2026 23:51:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>加拿大 C-22 法案要求进行大规模元数据监控</title>
-      <link>https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains/</link>
-      <description><![CDATA[https://www.parl.ca/DocumentViewer/en/45-1/bill/C-22/first-r...
+      <title>推出 HN：Voygr (YC W26) – 用于代理和人工智能应用程序的更好的地图 API</title>
+      <link>https://news.ycombinator.com/item?id=47401042</link>
+      <description><![CDATA[您好，HN，我们是 VOYGR (https://voygr.tech/) 的 Yarik 和 Vlad，致力于为应用开发者和代理商提供更好的现实世界地点情报。下面是一个演示：https://www.youtube.com/watch?v=cNIpcWIE0n4。Google 地图可以告诉您一家餐厅“4.2 星，营业至 10 点”。他们的 API 无法告诉你厨师上个月离开了，等待时间增加了一倍，而当地人则继续前进。如今的地图 API 只为您提供固定的快照。我们正在构建一个无限的、可查询的地点档案，它将准确的地点数据与新闻、文章和事件等新鲜的网络上下文相结合。Vlad 从事 Google 地图 API 以及拼车和旅行方面的工作。 Yarik 领导 Apple、Google 和 Meta 的 ML/搜索基础设施，为数亿用户每天使用的产品提供支持。我们意识到没有人将地点数据新鲜度视为基础设施，因此我们正在构建它。我们从最困难的部分之一开始 - 了解一个地点是否真实。我们的业务验证 API (https://github.com/voygr-tech/dev-tools) 会告诉您业务是否正在实际运营、关闭、更名或无效。我们聚合多个数据源，检测冲突信号，并返回结构化结论。将其视为持续集成，但适用于物理世界。问题：约 40% 的 Google 搜索和高达 20% 的 LLM 提示涉及本地上下文。每年有 25-30% 的场所流失。世界不会发出结构化的“我关闭”事件 - 你必须主动检测它。随着代理商开始在现实世界中搜索、预订和购物，这个问题变得更加严重，而且没有人为其构建基础设施。我们最近对法学硕士处理本地地点查询的情况进行了基准测试 (https://news.ycombinator.com/item?id=47366423) - 结果很糟糕：即使是最好的，也有十分之一的本地查询出错我们每天为企业客户处理数以万计的地点，包括领先的地图和科技公司。今天，我们向开发者社区开放 API 访问。请在此处查找详细信息：https://github.com/voygr-tech/dev-tools我们希望获得诚实的反馈 - 无论是关于问题、我们的方法还是您认为我们错误的地方。如果您在自己的产品中处理过时的地点数据，我们特别想知道哪些地方出了问题。我们一整天都在这里，AMA。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47392084
-积分：814
-评论数：240]]></description>
-      <guid>https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains/</guid>
-      <pubDate>Sun, 15 Mar 2026 21:22:16 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=47401042
+积分：34
+# 条评论：16]]></description>
+      <guid>https://news.ycombinator.com/item?id=47401042</guid>
+      <pubDate>Mon, 16 Mar 2026 16:21:07 GMT</pubDate>
     </item>
     <item>
-      <title>LLM 可能会让人筋疲力尽</title>
-      <link>https://tomjohnell.com/llms-can-be-absolutely-exhausting/</link>
-      <description><![CDATA[文章网址：https://tomjohnell.com/llms-can-be-absolutely-exhausting/
-评论网址：https://news.ycombinator.com/item?id=47391803
-积分：256
-# 条评论：171]]></description>
-      <guid>https://tomjohnell.com/llms-can-be-absolutely-exhausting/</guid>
-      <pubDate>Sun, 15 Mar 2026 20:56:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>49MB 网页</title>
-      <link>https://thatshubham.com/blog/news-audit</link>
-      <description><![CDATA[文章网址：https://thatshubham.com/blog/news-audit
-评论网址：https://news.ycombinator.com/item?id=47390945
-积分：647
-评论数：290]]></description>
-      <guid>https://thatshubham.com/blog/news-audit</guid>
-      <pubDate>Sun, 15 Mar 2026 19:25:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Chrome 开发者工具 MCP (2025)</title>
-      <link>https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session</link>
-      <description><![CDATA[文章网址：https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session
-评论网址：https://news.ycombinator.com/item?id=47390817
-积分：522
-# 条评论：209]]></description>
-      <guid>https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session</guid>
-      <pubDate>Sun, 15 Mar 2026 19:12:53 GMT</pubDate>
+      <title>Apideck CLI – 上下文消耗比 MCP 低得多的 AI 代理界面</title>
+      <link>https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative</link>
+      <description><![CDATA[文章网址：https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative
+评论网址：https://news.ycombinator.com/item?id=47400261
+积分：76
+# 条评论：81]]></description>
+      <guid>https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative</guid>
+      <pubDate>Mon, 16 Mar 2026 15:25:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
