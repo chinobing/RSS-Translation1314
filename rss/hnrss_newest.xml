@@ -4,106 +4,111 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 17 Mar 2026 09:56:32 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 13:14:01 GMT</lastBuildDate>
     <item>
-      <title>人工智能不会取代创新</title>
-      <link>https://aspiringforintelligence.substack.com/p/ai-wont-replace-innovation</link>
-      <description><![CDATA[文章网址：https://aspiringforintelligence.substack.com/p/ai-wont-replace-innovation
-评论网址：https://news.ycombinator.com/item?id=47410504
+      <title>“一艘火箭飞船。”人工智能使软件产出翻倍，代码质量保持稳定</title>
+      <link>https://www.businessinsider.com/ai-coding-boom-more-software-shipped-no-hit-quality-2026-3</link>
+      <description><![CDATA[文章网址：https://www.businessinsider.com/ai-coding-boom-more-software-shipped-no-hit-quality-2026-3
+评论网址：https://news.ycombinator.com/item?id=47412175
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.businessinsider.com/ai-coding-boom-more-software-shipped-no-hit-quality-2026-3</guid>
+      <pubDate>Tue, 17 Mar 2026 13:11:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>随着超快运输趋势的发展，亚马逊推出 1 小时、3 小时送达服务</title>
+      <link>https://www.cnbc.com/2026/03/17/amazon-rolls-out-1-hour-3-hour-delivery-in-latest-fast-shipping-test.html</link>
+      <description><![CDATA[文章网址：https://www.cnbc.com/2026/03/17/amazon-rolls-out-1-hour-3-hour-delivery-in-latest-fast-shipping-test.html
+评论网址：https://news.ycombinator.com/item?id=47412169
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.cnbc.com/2026/03/17/amazon-rolls-out-1-hour-3-hour-delivery-in-latest-fast-shipping-test.html</guid>
+      <pubDate>Tue, 17 Mar 2026 13:11:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Oh-my-agent – 真实项目中人工智能代理的结构性工具</title>
+      <link>https://github.com/first-fluke/oh-my-agent</link>
+      <description><![CDATA[如果你要求人工智能代理构建一个待办事项应用程序，它通常会产生一些东西。 
+但在真实的开发环境中，局限性变得很明显：幻觉、偏离任务或重复相同的错误。看看当前的提示和技能，会出现一些反复出现的问题：缺少关键库版本、像高级工程师一样模糊的角色，以及消耗代币而无法改善结果的臃肿提示。oh-my-agent 通过引入结构化协议来解决这个问题，以使代理与实际项目约束保持一致。主要思想：
+1. 澄清协议：分析需求模糊性，以决定是否继续、提供选项或停止澄清。2.难度指南：根据任务复杂度调整协议深度。3.上下文预算：对每个模型强制实施代币限制，以防止不必要的使用。OpenAI 今年 3 月发布的 Symphony 版本强化了这种方法的重要性。 Symphony 对于自主工作流程功能强大，但当代码库设计为 AI 友好时，它的性能最佳。OpenAI 将其称为利用工程：代理可以可靠地解释的结构化文档，如 ARCHITECTURE.md、AGENTS.md 和 WORKFLOW.md。
+oh-my-agent 是围绕这些原则构建的。它不只是发送提示，还提供结构控制代理来了解项目上下文并自主操作。当前支持：Antigravity、Claude Code、Codex CLI 和 Cursor。核心思想：有效使用 AI 代理并不在于巧妙的提示，而是围绕它们的工程结构。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47412156
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/first-fluke/oh-my-agent</guid>
+      <pubDate>Tue, 17 Mar 2026 13:09:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>“为什么我们关心数字？数字让我生气”</title>
+      <link>https://unsung.aresluna.org/why-do-we-care-about-numbers-numbers-make-me-mad/</link>
+      <description><![CDATA[文章网址：https://unsung.aresluna.org/why-do-we-care-about-numbers-numbers-make-me-mad/
+评论网址：https://news.ycombinator.com/item?id=47412138
+积分：1
+# 条评论：0]]></description>
+      <guid>https://unsung.aresluna.org/why-do-we-care-about-numbers-numbers-make-me-mad/</guid>
+      <pubDate>Tue, 17 Mar 2026 13:07:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>特工工匠</title>
+      <link>https://christoph-rumpel.com/2026/3/the-agentic-artisan</link>
+      <description><![CDATA[文章网址：https://christoph-rumpel.com/2026/3/the-agentic-artisan
+评论网址：https://news.ycombinator.com/item?id=47412137
+积分：1
+# 条评论：0]]></description>
+      <guid>https://christoph-rumpel.com/2026/3/the-agentic-artisan</guid>
+      <pubDate>Tue, 17 Mar 2026 13:07:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>使 Emacs 在终端中输出真正的 24 位颜色：两行 terminfo 修复</title>
+      <link>https://old.reddit.com/r/emacs/comments/1rw2kbv/making_emacs_output_true_24bit_color_in_the/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/emacs/comments/1rw2kbv/making_emacs_output_true_24bit_color_in_the/
+评论网址：https://news.ycombinator.com/item?id=47412134
+积分：1
+# 条评论：0]]></description>
+      <guid>https://old.reddit.com/r/emacs/comments/1rw2kbv/making_emacs_output_true_24bit_color_in_the/</guid>
+      <pubDate>Tue, 17 Mar 2026 13:07:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：MCP 并未消亡。你只是用错了它</title>
+      <link>https://news.ycombinator.com/item?id=47412133</link>
+      <description><![CDATA[每个人和他们的祖母都在说 MCP 已经死了。但是 MCP 的可取之处是否一直伴随着我们 - 隐藏在众目睽睽之下？Claude Code 的 2026 年 1 月版本中隐藏的一项功能可能标志着 MCP 自诞生以来最强大的发展 - 几乎没有人注意到。动态工具注册。动态工具注册扩展了 MCP 服务器的功能，超出了仅提供精美的 swagger 文档的能力 - 允许服务器不仅列出一组静态工具，还可以作为有状态代理会话的一部分实时动态添加和删除新工具。这有何强大之处？首先，它优雅地解决了大多数人在使用 MCP 时遇到的主要问题——上下文膨胀。将您的工具分组为相关操作的集合 - 称之为能力 - 然后提供一个 load_ability 工具。代理会在需要时加载所需内容。但它比这更深入。上周末，我构建并发布了 Commandable MCP - 用于动态创建新 MCP 服务器的 MCP 服务器。 MCP 启动，如果您愿意的话。它为代理提供了创建新工具的工具，无需编译任何代码或重新启动任何进程即可立即使用。我为什么需要这个？想想标准的 Trello MCP 服务器。它为代理提供类似 create_trello_card(boardId, listId, name, description, labelIds, ...) 的内容。每次代理想要使用它时，它都必须去寻找 ID - 调用 get_boards、get_lists、get_labels - 只是为了找到添加卡片的正确位置。想象一下，代理会检查您的实际 Trello 帐户并生成 add_bug_to_sprint(title,priority) - 一个已经知道您的看板、列表和标签的工具。现在，只要需要添加错误，它就可以使用该工具，而无需重新发明轮子。Commandable 允许代理为他们实际使用的可重复操作构建有针对性的工具，而不是来自标准化 MCP 或 API 的一长串通用工具。凭证在静态时进行加密，并且永远不会暴露给 LLM。并且 - 不会出现上下文膨胀。是的。那么，MCP 死了吗？还没有。GitHub：https://github.com/commandable/commandable-mcp完整文章：https://commandable.ai/blog/mcp-isnt-dead
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47412133
 积分：2
 # 条评论：0]]></description>
-      <guid>https://aspiringforintelligence.substack.com/p/ai-wont-replace-innovation</guid>
-      <pubDate>Tue, 17 Mar 2026 09:49:22 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47412133</guid>
+      <pubDate>Tue, 17 Mar 2026 13:07:17 GMT</pubDate>
     </item>
     <item>
-      <title>AppScript：没有 C 的 Objective-C</title>
-      <link>https://codeberg.org/leeg/appscript</link>
-      <description><![CDATA[文章网址：https://codeberg.org/leeg/appscript
-评论网址：https://news.ycombinator.com/item?id=47410500
-积分：2
-# 条评论：0]]></description>
-      <guid>https://codeberg.org/leeg/appscript</guid>
-      <pubDate>Tue, 17 Mar 2026 09:47:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>我已将 human.json 添加到我的网站</title>
-      <link>https://sethmlarson.dev/ive-added-human-dot-json-to-my-website</link>
-      <description><![CDATA[文章网址：https://sethmlarson.dev/ive-added- human-dot-json-to-my-website
-评论网址：https://news.ycombinator.com/item?id=47410498
+      <title>Loom：带有 Go 信号的组件框架</title>
+      <link>https://loomui.dev/blog/introducing-loom/</link>
+      <description><![CDATA[文章网址：https://loomui.dev/blog/introducing-loom/
+评论网址：https://news.ycombinator.com/item?id=47412124
 积分：1
 # 条评论：0]]></description>
-      <guid>https://sethmlarson.dev/ive-added-human-dot-json-to-my-website</guid>
-      <pubDate>Tue, 17 Mar 2026 09:47:40 GMT</pubDate>
+      <guid>https://loomui.dev/blog/introducing-loom/</guid>
+      <pubDate>Tue, 17 Mar 2026 13:06:25 GMT</pubDate>
     </item>
     <item>
-      <title>Millwright：根据代理经验更智能地选择工具</title>
-      <link>https://minor.gripe/posts/2026-03-13-millwright_smarter_tool_selection_with_adaptive_toolsheds/</link>
-      <description><![CDATA[文章网址：https://minor.gripe/posts/2026-03-13-millwright_smarter_tool_selection_with_adaptive_toolsheds/
-评论网址：https://news.ycombinator.com/item?id=47410491
+      <title>具有暗船检测功能的实时霍尔木兹海峡船只跟踪器</title>
+      <link>https://github.com/johnsmalls22-rgb/hormuz-tracker</link>
+      <description><![CDATA[文章网址：https://github.com/johnsmalls22-rgb/hormuz-tracker
+评论网址：https://news.ycombinator.com/item?id=47412123
 积分：1
 # 条评论：0]]></description>
-      <guid>https://minor.gripe/posts/2026-03-13-millwright_smarter_tool_selection_with_adaptive_toolsheds/</guid>
-      <pubDate>Tue, 17 Mar 2026 09:46:03 GMT</pubDate>
+      <guid>https://github.com/johnsmalls22-rgb/hormuz-tracker</guid>
+      <pubDate>Tue, 17 Mar 2026 13:06:24 GMT</pubDate>
     </item>
     <item>
-      <title>Gleam v1.15.0 已发布</title>
-      <link>https://gleam.run/news/upgrading-hex-security/</link>
-      <description><![CDATA[文章网址：https://gleam.run/news/upgrading-hex-security/
-评论网址：https://news.ycombinator.com/item?id=47410472
+      <title>考虑每个人的独特情况</title>
+      <link>https://www.privacyguides.org/en/activism/toolbox/tip-consider-everyones-unique-situation/</link>
+      <description><![CDATA[文章网址：https://www.privacyguides.org/en/activism/toolbox/tip-consider-everyones-unique-situation/
+评论网址：https://news.ycombinator.com/item?id=47412121
 积分：1
 # 条评论：0]]></description>
-      <guid>https://gleam.run/news/upgrading-hex-security/</guid>
-      <pubDate>Tue, 17 Mar 2026 09:42:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>VibesSDK：适用于 TypeScript 和 Deno 的强大 AI 代理 SDK</title>
-      <link>https://github.com/a7ul/vibes</link>
-      <description><![CDATA[文章网址：https://github.com/a7ul/vibes
-评论网址：https://news.ycombinator.com/item?id=47410468
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/a7ul/vibes</guid>
-      <pubDate>Tue, 17 Mar 2026 09:41:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>奥林匹亚成为华盛顿第一个通过多妻制保护的城市</title>
-      <link>https://www.opb.org/article/2026/03/15/olympia-first-washington-city-polyamory-protection/</link>
-      <description><![CDATA[文章网址：https://www.opb.org/article/2026/03/15/olympia-first-washington-city-polyamory-protection/
-评论网址：https://news.ycombinator.com/item?id=47410449
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.opb.org/article/2026/03/15/olympia-first-washington-city-polyamory-protection/</guid>
-      <pubDate>Tue, 17 Mar 2026 09:39:20 GMT</pubDate>
-    </item>
-    <item>
-      <title></title>
-      <link>https://www.openculture.com/2026/03/how-globes-were-made-by-hand-in-1955.html</link>
-      <description><![CDATA[文章网址：https://www.openculture.com/2026/03/how-globes-were-made-by-hand-in-1955.html
-评论网址：https://news.ycombinator.com/item?id=47410428
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.openculture.com/2026/03/how-globes-were-made-by-hand-in-1955.html</guid>
-      <pubDate>Tue, 17 Mar 2026 09:37:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>极限空间</title>
-      <link>https://en.wikipedia.org/wiki/Liminal_space_(aesthetic)</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Liminal_space_(aesthetic)
-评论网址：https://news.ycombinator.com/item?id=47410426
-积分：1
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Liminal_space_(aesthetic)</guid>
-      <pubDate>Tue, 17 Mar 2026 09:36:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>免费索拉发电机</title>
-      <link>https://freesoragenerator.com</link>
-      <description><![CDATA[文章网址：https://freesoragenerator.com
-评论网址：https://news.ycombinator.com/item?id=47410420
-积分：1
-# 条评论：0]]></description>
-      <guid>https://freesoragenerator.com</guid>
-      <pubDate>Tue, 17 Mar 2026 09:36:10 GMT</pubDate>
+      <guid>https://www.privacyguides.org/en/activism/toolbox/tip-consider-everyones-unique-situation/</guid>
+      <pubDate>Tue, 17 Mar 2026 13:06:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
