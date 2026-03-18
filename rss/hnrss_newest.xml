@@ -4,110 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 18 Mar 2026 19:00:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 21:35:19 GMT</lastBuildDate>
     <item>
-      <title>大多数人将环境保护置于经济增长之上</title>
-      <link>https://www.uvm.edu/gund/news/global-study-finds-majority-people-worldwide-prioritize-environmental-protection-over</link>
-      <description><![CDATA[文章网址：https://www.uvm.edu/gund/news/global-study-finds-majority-people-worldwide-prioritize-environmental-protection-over
-评论网址：https://news.ycombinator.com/item?id=47429777
+      <title>为什么对南帕尔斯等气田的袭击会严重升级</title>
+      <link>https://www.theguardian.com/world/2026/mar/18/middle-east-war-why-attacks-gasfield-south-pars-are-a-major-escalation</link>
+      <description><![CDATA[文章网址： https://www.theguardian.com/world/2026/mar/18/middle-east-war-why-attacks-gasfield-south-pars-are-a-major-escalation
+评论网址：https://news.ycombinator.com/item?id=47431675
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.uvm.edu/gund/news/global-study-finds-majority-people-worldwide-prioritize-environmental-protection-over</guid>
-      <pubDate>Wed, 18 Mar 2026 18:47:56 GMT</pubDate>
+      <guid>https://www.theguardian.com/world/2026/mar/18/middle-east-war-why-attacks-gasfield-south-pars-are-a-major-escalation</guid>
+      <pubDate>Wed, 18 Mar 2026 21:31:30 GMT</pubDate>
     </item>
     <item>
-      <title>苹果历史上的今天：苹果与玩具制造巨头达成协议生产皮平</title>
-      <link>https://www.cultofmac.com/apple-history/apple-pippin-game-console</link>
-      <description><![CDATA[文章网址：https://www.cultofmac.com/apple-history/apple-pippin-game-console
-评论网址：https://news.ycombinator.com/item?id=47429771
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.cultofmac.com/apple-history/apple-pippin-game-console</guid>
-      <pubDate>Wed, 18 Mar 2026 18:47:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：打开提示中心 – 不要共享代码，共享意图</title>
-      <link>https://news.ycombinator.com/from?site=openprompthub.io</link>
-      <description><![CDATA[嘿，我是马里奥。在与同事讨论人工智能代理如何改变开发工作后，我们陷入了一个问题：当提示可以按需生成代码时，为什么要共享代码？
-我想进一步探索这一点，所以我构建了“开放提示中心”——想想 GitHub，但对于提示：https://openprompthub.io工作原理：您可以以提示的形式共享说明和规范，而不是发布二进制文件或源代码。您可以接受此提示，将其粘贴到他们的代理或 IDE 中并观看它的构建。如果不是完美契合？分叉它，调整它，并生成您的自定义版本。所有元信息（例如版本、描述、测试用例等）都存储在提示符开头的 frontmatter 块中。所以它是一个包含您需要的所有信息的文件。 (https://openprompthub.io/docs)平台功能： - 版本化提示，包含最佳使用模型的信息 - 分叉以进行自定义 - 安全扫描：扫描提示是否存在安全问题和提示注入。 - 如果提示成功构建了所承诺的内容，用户可以提供反馈（范围在模型上，这样您就知道最适合执行哪个） - 标记机制它是一个 MVP，但核心功能（版本控制、特定于模型的构建状态和安全扫描）是实时的。我目前正在研究更多功能，例如： - 一个类似 git 的 cli，用于发布提示并将其直接下载/管道到您的代理 - 用于更复杂应用程序的多阶段/文件提示 -可配置的提示，例如切换编程语言、功能等 - 更好的规范和测试定义以进行构建验证我希望得到您关于想法、规范和平台的反馈。
+      <title>Show HN：阻止 GPU Pod 放置因保留 VRAM 而成为瓶颈</title>
+      <link>https://news.ycombinator.com/item?id=47431664</link>
+      <description><![CDATA[我们为 Nvidia GPU 构建了一个 GPU 运行时，可以在每个 GPU 上运行多个开发/实验/推理工作负载，并具有 VRAM 的安全过量使用、GPU 核心的动态部分分配以及 VRAM 中权重的重复数据删除。我们正在寻找团队来尝试一下。获取试用许可证的更多详细信息 - https://www.woolyai.com。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47429748
+评论网址：https://news.ycombinator.com/item?id=47431664
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/from?site=openprompthub.io</guid>
-      <pubDate>Wed, 18 Mar 2026 18:46:07 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47431664</guid>
+      <pubDate>Wed, 18 Mar 2026 21:30:17 GMT</pubDate>
     </item>
     <item>
-      <title>我们进行了 600 次代理评估 – 转向钩准确率达到 100%，提示准确率达到 82%</title>
-      <link>https://strandsagents.com/blog/steering-accuracy-beats-prompts-workflows/</link>
-      <description><![CDATA[文章网址：https://strandsagents.com/blog/steering-accuracy-beats-prompts-workflows/
-评论网址：https://news.ycombinator.com/item?id=47429739
+      <title>看看 DVD 中的内容扰乱</title>
+      <link>https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/</link>
+      <description><![CDATA[文章网址：https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/
+评论网址：https://news.ycombinator.com/item?id=47431653
 积分：1
 # 条评论：0]]></description>
-      <guid>https://strandsagents.com/blog/steering-accuracy-beats-prompts-workflows/</guid>
-      <pubDate>Wed, 18 Mar 2026 18:45:08 GMT</pubDate>
+      <guid>https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/</guid>
+      <pubDate>Wed, 18 Mar 2026 21:29:14 GMT</pubDate>
     </item>
     <item>
-      <title>埃隆·马斯克 (Elon Musk) 的 X 在回复中调侃了新的不喜欢按钮</title>
-      <link>https://mashable.com/article/x-teases-new-dislike-button-on-replies</link>
-      <description><![CDATA[文章网址：https://mashable.com/article/x-teases-new-dislike-button-on-replies
-评论网址：https://news.ycombinator.com/item?id=47429726
+      <title>通过全玻片边缘断层扫描进行临床级自主细胞病理学</title>
+      <link>https://www.nature.com/articles/s41586-025-10094-y</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/s41586-025-10094-y
+评论网址：https://news.ycombinator.com/item?id=47431628
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.nature.com/articles/s41586-025-10094-y</guid>
+      <pubDate>Wed, 18 Mar 2026 21:26:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>ZJIT 删除冗余对象加载和存储</title>
+      <link>https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/</link>
+      <description><![CDATA[文章网址：https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/
+评论网址：https://news.ycombinator.com/item?id=47431625
+积分：1
+# 条评论：0]]></description>
+      <guid>https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/</guid>
+      <pubDate>Wed, 18 Mar 2026 21:26:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>趋势斜率</title>
+      <link>https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return</link>
+      <description><![CDATA[文章网址：https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return
+评论网址：https://news.ycombinator.com/item?id=47431615
+积分：1
+# 条评论：0]]></description>
+      <guid>https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return</guid>
+      <pubDate>Wed, 18 Mar 2026 21:24:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Maison Margiela 数据档案</title>
+      <link>https://www.maisonmargiela.com/en-us/maisonmargiela_folders.html</link>
+      <description><![CDATA[文章网址：https://www.maisonmargiela.com/en-us/maisonmargiela_folders.html
+评论网址：https://news.ycombinator.com/item?id=47431612
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.maisonmargiela.com/en-us/maisonmargiela_folders.html</guid>
+      <pubDate>Wed, 18 Mar 2026 21:24:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>最重要的软件创新 (2021)</title>
+      <link>https://dwheeler.com/innovation/innovation.html</link>
+      <description><![CDATA[文章网址：https://dwheeler.com/innovation/innovation.html
+评论网址：https://news.ycombinator.com/item?id=47431557
+积分：1
+# 条评论：0]]></description>
+      <guid>https://dwheeler.com/innovation/innovation.html</guid>
+      <pubDate>Wed, 18 Mar 2026 21:18:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>《机器》中的卡桑德拉</title>
+      <link>https://www.thenewatlantis.com/publications/the-cassandra-of-the-machine</link>
+      <description><![CDATA[文章网址：https://www.thenewatlantis.com/publications/the-cassandra-of-the-machine
+评论网址：https://news.ycombinator.com/item?id=47431553
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.thenewatlantis.com/publications/the-cassandra-of-the-machine</guid>
+      <pubDate>Wed, 18 Mar 2026 21:17:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：您遇到过的最棘手的错误是什么？</title>
+      <link>https://news.ycombinator.com/item?id=47431525</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=47431525
 积分：1
 # 条评论：3]]></description>
-      <guid>https://mashable.com/article/x-teases-new-dislike-button-on-replies</guid>
-      <pubDate>Wed, 18 Mar 2026 18:44:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：算法提要是否从根本上与用户意图不一致？</title>
-      <link>https://news.ycombinator.com/item?id=47429707</link>
-      <description><![CDATA[我最近一直在开发一款社交产品，有件事一直困扰着我。当今的大多数提要都针对参与度进行了优化。从业务角度来看，这是有道理的，但它与我实际想要使用它们的方式并不相符。有时我想深入探讨某个主题。有时我想看看我所在城市的人们在说什么。有时我想了解相反的观点。但系统并没有让我选择它，而是不断强化我已经互动过的内容。这感觉不太像是探索，而更像是被推入一个循环。过了一段时间，发现开始变得狭窄。即使您不想看到，您也会看到更多相同的内容。所以我一直在想，问题是算法本身的问题，还是用户实际上无法控制它的事实？如果人们可以选择他们的 Feed 的工作方式而不是由它来决定，那会是什么样子？很好奇这里的其他人如何看待这个问题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47429707
-积分：1
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=47429707</guid>
-      <pubDate>Wed, 18 Mar 2026 18:42:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>埃里克·普林斯(Erik Prince)支持的无人机公司在华尔街首次亮相股价飙升500%</title>
-      <link>https://www.ft.com/content/fe8898aa-cc23-40a7-a366-157cac697767</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/fe8898aa-cc23-40a7-a366-157cac697767
-评论网址：https://news.ycombinator.com/item?id=47429695
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.ft.com/content/fe8898aa-cc23-40a7-a366-157cac697767</guid>
-      <pubDate>Wed, 18 Mar 2026 18:42:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>事实核查：亚历克和卡莱布还活着并且安然无恙</title>
-      <link>https://www.shrinerschildrens.org/en/news-and-media/news/2026/03/fact-check-alec-and-kaleb-are-alive-and-well</link>
-      <description><![CDATA[文章网址： https://www.shrinerschildrens.org/en/news-and-media/news/2026/03/fact-check-alec-and-kaleb-are-alive-and-well
-评论网址：https://news.ycombinator.com/item?id=47429678
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.shrinerschildrens.org/en/news-and-media/news/2026/03/fact-check-alec-and-kaleb-are-alive-and-well</guid>
-      <pubDate>Wed, 18 Mar 2026 18:40:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>使 LLM 看起来运行缓慢的浏览器扩展（ChatGPT 和 Claude）</title>
-      <link>https://slowllm.lav.io/</link>
-      <description><![CDATA[文章网址：https://slowllm.lav.io/
-评论网址：https://news.ycombinator.com/item?id=47429629
-积分：2
-# 条评论：0]]></description>
-      <guid>https://slowllm.lav.io/</guid>
-      <pubDate>Wed, 18 Mar 2026 18:37:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：如果人工智能代理可以相互交易会怎样</title>
-      <link>https://openstall.ai</link>
-      <description><![CDATA[这是一个让我非常兴奋的社交（代理）实验。人工智能代理发展如此之快，它们的能力几乎每个月都在疯狂发展。在某种程度上，代理将不可避免地需要一个财务层来与人类一起在现实世界中运作。例如，代理最终可能需要雇用人员来执行物理任务（例如为自己设置新服务器）。但在此之前，我认为第一步是实现代理之间的经济行为。当代理人可以交易他们的专业能力时会发生什么？我们是否可以开始看到像套利、分包甚至幂律分布这样的动态，其中前 20% 的代理获得 80% 的价值 LOL？为了探索这一点，我建立了 Openstall，一个实验市场，代理可以在其中相互交易能力。它完全免费（无托管费），而且还很早。我非常感谢任何想法、反馈或想法。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47429604
-积分：2
-# 条评论：0]]></description>
-      <guid>https://openstall.ai</guid>
-      <pubDate>Wed, 18 Mar 2026 18:35:55 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47431525</guid>
+      <pubDate>Wed, 18 Mar 2026 21:15:12 GMT</pubDate>
     </item>
     </channel>
 </rss>
