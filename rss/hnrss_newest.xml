@@ -4,141 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 17 Mar 2026 21:38:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 02:10:51 GMT</lastBuildDate>
     <item>
-      <title>Show HN：AgentMarket – AI 代理购买和销售功能的 API 市场</title>
-      <link>https://agentmkt.dev</link>
-      <description><![CDATA[嘿 HN，我构建了 AgentMarket (https://agentmkt.dev) — 一个 API 市场，AI 代理可以在每次调用级别买卖功能。想法：每个重要的代理都需要做多项事情：搜索网络、记住上下文、运行代码、处理文档。内部构建和维护基础设施的成本很高。 AgentMarket 允许代理以原子 API 调用的形式购买这些功能，按使用定价。今天的活动：- 内存存储（读/写）— $0.0002–$0.0005/调用
-- 网络搜索 — $0.002/次
-- URL 抓取工具 — $0.005/调用
-- Python 执行器（沙盒）——0.01 美元/调用
-- LLM 文本生成（俳句默认，十四行诗可选）— $0.10/次
-- 文档处理器（摘要/提取/质量检查）— $0.15/调用工作原理：通过 POST /agents 注册 → 获取 API 密钥 + 免费积分。使用 x-agent-key 标头中的密钥调用任何服务。通过使用 POST /services 列出您自己的服务并设置每次调用的价格来赚取积分。一切都是纯 HTTP + JSON。无需 SDK。执行失败时自动退款。 导入请求
-  r = 请求.post(
-      “https://agentmkt.dev/execute/svc_web_search”，
-      json={&quot;input&quot;: {&quot;query&quot;: &quot;最新的LLM基准&quot;}},
-      headers={&quot;x-agent-key&quot;: &quot;YOUR_KEY&quot;}
-  ）
-  print(r.json()[&quot;输出&quot;][&quot;结果&quot;])
-
-我好奇的是：1。按通话定价是正确的模式还是您更愿意看到捆绑的积分/订阅？
-2. 您实际上愿意为哪些尚未列出的功能付费？
-3. 对于那些构建多代理系统的人来说，像这样的服务注册表会改变您的架构方式吗？完整的 API 文档位于 https://agentmkt.dev/docs
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47418561
-积分：1
-# 条评论：0]]></description>
-      <guid>https://agentmkt.dev</guid>
-      <pubDate>Tue, 17 Mar 2026 21:27:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：索罗斯——地缘政治宏观投资的人工智能</title>
-      <link>https://www.asksoros.com</link>
-      <description><![CDATA[嗨，HN！我们是 Ans human 和 Karén，Lookback Labs 的联合创始人和 Soros (https://www.asksoros.com) 的联合设计师。Soros 是一个从头开始精心构建的复合人工智能系统，可追踪从地缘政治事件的描述一直到资本市场影响的路径（实际上是多条路径）。*我们的设置方式如下：给出对给定地缘政治事件的描述（可以是几个词；演示中的整个字符串都是“美国-伊朗冲突”），索罗斯将 - 
-（1）首先对其进行分析和深入研究，并行运行数十次搜索，收集对真实事件进行时间加权的深层背景，并可以作为假设事件的背景（“2027年中台统一危机”）  
-(2) 在各种社会政治、军事和社会经济轴下绘制相关个人行为者、派系、组织及其倾向、能力和显着性，
-(3) 确定正在“谈判”或争夺控制权的关键资源（或地缘政治咽喉点），
-(4) 确定一部分参与者需要做出的关键决策的情况，以及他们对每个参与者的限制和战略选择，
-(5) 生成前瞻性场景，其中包含贯穿每个关键决策的潜在路径，  
-(6) 使用成熟的蒙特卡罗模拟引擎并生成数千条轨迹来估计每种场景发生的相对概率，
-(7) 分析每种情景，产生可能的资本流动，并确定受影响最大的部门、行业、公司、货币和商品（方向和范围）
-(8) 识别要跟踪的关键搜索短语和 X/Twitter 帐户，以便定期更新分析这显然是一个相当复杂的管道，具有大量移动组件和潜在的故障点。为了减轻这种情况最糟糕的影响，我们聘请了皮浪（是的，我们以希腊哲学家的名字命名）的服务，他是一个人工智能代理，我们将其设置为对索罗斯的中间和最终输出最严厉的批评者。上述每一步都是索罗斯和皮浪之间的微妙舞蹈，这种互动可以显着提高最终输出的质量。完成分析设置后，您可以使用“询问索罗斯”功能执行现在经典的“与分析聊天”互动。我们连接了一个单独的聊天模型（希望足够），它具有防护栏和上下文注入，足以完全专注于回答有关分析的自由形式问题。在实时非演示系统中，用户有多种方式进一步参与分析：他们可以添加新的（私人）信息并重新运行，他们可以从关联的 X/Twitter/搜索提要中标记出特定项目，他们可以添加新的参与者和资源，修改现有的，根据需要删除一些，基本上运行一个又一个的模拟来检验假设（例如“如果中国加入冲突怎么办？如果法国派遣核潜艇在霍尔木兹海峡巡逻怎么办？”等等）。您可以在 www.asksoros.com 上看到所有这些结果以及更多内容 - 有一个针对当前美伊冲突的静态演示分析；我们强烈建议您“浏览”该界面以熟悉它。（继续下面的第一条评论..）
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47418553
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.asksoros.com</guid>
-      <pubDate>Tue, 17 Mar 2026 21:26:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 将削减副项目以推动“钉牢”核心业务</title>
-      <link>https://www.wsj.com/tech/ai/openai-chatgpt-side-projects-16b3a825</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/tech/ai/openai-chatgpt-side-projects-16b3a825
-评论网址：https://news.ycombinator.com/item?id=47418540
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.wsj.com/tech/ai/openai-chatgpt-side-projects-16b3a825</guid>
-      <pubDate>Tue, 17 Mar 2026 21:25:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>一个菜单栏实用程序，可转换您的剪贴板 - 编码、格式等</title>
-      <link>https://github.com/dmasior/dmtool</link>
-      <description><![CDATA[文章网址：https://github.com/dmasior/dmtool
-评论网址：https://news.ycombinator.com/item?id=47418512
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/dmasior/dmtool</guid>
-      <pubDate>Tue, 17 Mar 2026 21:22:14 GMT</pubDate>
-    </item>
-    <item>
-      <title></title>
-      <link>https://github.com/SyntagmaNull/judgment-hygiene-stack</link>
-      <description><![CDATA[文章网址：https://github.com/SyntagmaNull/judgment-hygiene-stack
-评论网址：https://news.ycombinator.com/item?id=47418509
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/SyntagmaNull/judgment-hygiene-stack</guid>
-      <pubDate>Tue, 17 Mar 2026 21:22:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>CodeSandbox：弃用通知</title>
-      <link>https://news.ycombinator.com/item?id=47418491</link>
-      <description><![CDATA[刚刚收到来自 CodeSandbox 的包含此类信息的电子邮件：-Sandpack：不再积极维护。存储库保持公开状态。- CodeSandbox CI：于 2026 年 4 月 15 日关闭。在此之前迁移到替代 CI 提供商。- CodeSandbox 存储库：于 2026 年 4 月 15 日禁用新存储库导入。于 2026 年 7 月 15 日完全关闭。下面包含 GitHub Codespaces 的迁移指南。- 浏览器沙箱和 Devbox：无更改。这些仍然有效并受到支持。上下文似乎是：
-Together.ai 认识到，我们构建的快速、隔离、可编程环境正是人工智能代理大规模编写、运行和迭代代码的世界所需的原语。一起加入给了我们一个家，也给了我们更明确的使命。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47418491
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47418491</guid>
-      <pubDate>Tue, 17 Mar 2026 21:21:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>贝莱德表示，国债和其他政府债券将继续遭到抛售</title>
-      <link>https://www.msn.com/en-us/money/markets/treasuries-and-other-government-bonds-will-keep-selling-off-blackrock-says-these-risks-are-lurking/ar-AA1YLs5w</link>
-      <description><![CDATA[文章网址： https://www.msn.com/en-us/money/markets/treasuries-and-other-government-bonds-will-keep- sell-off-blackrock-says-these-risks-are-lurking/ar-AA1YLs5w
-评论网址：https://news.ycombinator.com/item?id=47418483
+      <title>从任何地方向 Claude Cowork 分配任务</title>
+      <link>https://support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork</link>
+      <description><![CDATA[文章网址：https://support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork
+评论网址：https://news.ycombinator.com/item?id=47420787
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.msn.com/en-us/money/markets/treasuries-and-other-government-bonds-will-keep-selling-off-blackrock-says-these-risks-are-lurking/ar-AA1YLs5w</guid>
-      <pubDate>Tue, 17 Mar 2026 21:20:41 GMT</pubDate>
+      <guid>https://support.claude.com/en/articles/13947068-assign-tasks-to-claude-from-anywhere-in-cowork</guid>
+      <pubDate>Wed, 18 Mar 2026 01:59:11 GMT</pubDate>
     </item>
     <item>
-      <title>Catly 浏览器 (GeckoView) 在 Speedometer 1.0 (三星 S21) 上击败 Chrome</title>
-      <link>https://news.ycombinator.com/item?id=47418481</link>
-      <description><![CDATA[我一直在开发自己的浏览器项目 Catly，该项目基于 GeckoView，并且我刚刚在相同的硬件上超越了 Chrome！
- 设备：三星 Galaxy S21
-结果：
- Chrome：209 次/分钟
- Catly (GeckoView)：234 次/分钟
- 我今年 13 岁，一直专注于积极优化并减少 Gecko 引擎不必要的开销。不仅得分更高，而且稳定性 (\pm 2.0) 实际上比 Chrome 在此设备上取得的成绩更好。
- 看看 Android 上的 Gecko 能发挥出多少性能是一个有趣的挑战。你们觉得怎么样？您可以在这里查看基准测试结果：[https://ibb.co/r2xSjGtn]
+      <title>Microsoft 365 对 Office 应用程序中的大部分 Copilot 进行付费 - 有什么变化？</title>
+      <link>https://www.windowscentral.com/microsoft/microsoft-office/microsoft-365-is-paywalling-most-of-copilot-in-office-apps-whats-changing</link>
+      <description><![CDATA[文章网址：https://www.windowscentral.com/microsoft/microsoft-office/microsoft-365-is-paywalling-most-of-copilot-in-office-apps-whats-chang
+评论网址：https://news.ycombinator.com/item?id=47420786
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.windowscentral.com/microsoft/microsoft-office/microsoft-365-is-paywalling-most-of-copilot-in-office-apps-whats-changing</guid>
+      <pubDate>Wed, 18 Mar 2026 01:59:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：vibe 编码是新的强制性工作要求吗？</title>
+      <link>https://news.ycombinator.com/item?id=47420767</link>
+      <description><![CDATA[几周前，我与一位招聘人员交谈过，对于该职位的要求是拥有法学硕士构建软件的经验，我感到有些惊讶。这是否已成为技术招聘的新常态？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47418481
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47418481</guid>
-      <pubDate>Tue, 17 Mar 2026 21:20:10 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=47420767
+积分：2
+# 条评论：1]]></description>
+      <guid>https://news.ycombinator.com/item?id=47420767</guid>
+      <pubDate>Wed, 18 Mar 2026 01:56:53 GMT</pubDate>
     </item>
     <item>
-      <title>会话式软件工程：编译意图</title>
-      <link>https://robenglander.com/writing/cse-compiling-intent/</link>
-      <description><![CDATA[文章网址：https://robenglander.com/writing/cse-compiling-intent/
-评论网址：https://news.ycombinator.com/item?id=47418457
-积分：1
+      <title>众议员 AOC 在委员会加价中强调了扩大监控技术的危险 [视频]</title>
+      <link>https://www.youtube.com/watch?v=8Dr4rKm2DF0</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=8Dr4rKm2DF0
+评论网址：https://news.ycombinator.com/item?id=47420765
+积分：2
 # 条评论：0]]></description>
-      <guid>https://robenglander.com/writing/cse-compiling-intent/</guid>
-      <pubDate>Tue, 17 Mar 2026 21:18:13 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=8Dr4rKm2DF0</guid>
+      <pubDate>Wed, 18 Mar 2026 01:56:43 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Wuobly – 在实时网络中搜索 B2B 潜在客户的人工智能代理</title>
-      <link>https://wuobly.com</link>
-      <description><![CDATA[Apollo：这是数据库中的 10,000 个联系人。一半的电子邮件被退回。没有推理。祝你好运。Wuobly（我构建的）：用简单的英语告诉我你想要谁。当你观看时，我会搜索 Google、阅读 LinkedIn 个人资料、访问公司网站并实时推理每个人。对于每条潜在客户，我都会向您提供经过验证的电子邮件、电话、LinkedIn、公司详细信息，以及为何适合的书面解释。关键区别在于推理。它的工作方式就像一个真正的销售代表，而不是数据库顶部的搜索栏。50 个免费积分可以试用。告诉我你的想法！
+      <title>一颗小行星刚刚在俄亥俄州上空爆炸，威力相当于 250 吨 TNT</title>
+      <link>https://www.scientificamerican.com/article/an-asteroid-just-exploded-above-ohio-with-the-force-of-250-tons-of-tnt/</link>
+      <description><![CDATA[文章网址：https://www.scientificamerican.com/article/an-asteroid-just-exploded-above-ohio-with-the-force-of-250-tons-of-tnt/
+评论网址：https://news.ycombinator.com/item?id=47420743
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.scientificamerican.com/article/an-asteroid-just-exploded-above-ohio-with-the-force-of-250-tons-of-tnt/</guid>
+      <pubDate>Wed, 18 Mar 2026 01:52:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>针对实时工作负载优化 EMERALDWISDOM</title>
+      <link>https://news.ycombinator.com/item?id=47420738</link>
+      <description><![CDATA[调整 EMERALDWISDOM 以降低负载下的延迟 - 什么最适合保持系统稳定而不过度设计？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47418454
+评论网址：https://news.ycombinator.com/item?id=47420738
 积分：1
 # 条评论：0]]></description>
-      <guid>https://wuobly.com</guid>
-      <pubDate>Tue, 17 Mar 2026 21:18:08 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47420738</guid>
+      <pubDate>Wed, 18 Mar 2026 01:51:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：用于测试 AI 代理的自定义数据集</title>
+      <link>https://agents.zalor.ai/</link>
+      <description><![CDATA[我们刚刚在 Zalor 中推出了一项新功能：用于代理测试的自定义数据集。您现在可以：• 上传包含真实输入和预期输出的 CSV• 针对这些数据集运行您的代理• 从现有测试用例生成新测试用例以覆盖边缘情况这使得您可以更轻松地测试您之前手动测试的场景，并在代理更改时捕获回归。下面的演示。很想知道其他人如何测试代理。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47420734
+积分：1
+# 条评论：2]]></description>
+      <guid>https://agents.zalor.ai/</guid>
+      <pubDate>Wed, 18 Mar 2026 01:51:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>纽约提议对 QSBS 收益征税</title>
+      <link>https://www.pbwt.com/publications/new-york-proposal-to-tax-qsbs-gains</link>
+      <description><![CDATA[文章网址：https://www.pbwt.com/publications/new-york-proposal-to-tax-qsbs-gains
+评论网址：https://news.ycombinator.com/item?id=47420729
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.pbwt.com/publications/new-york-proposal-to-tax-qsbs-gains</guid>
+      <pubDate>Wed, 18 Mar 2026 01:49:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：人工智能代理预测每场疯狂三月比赛 - 实时分组跟踪器</title>
+      <link>https://tryprobe.io/bracket</link>
+      <description><![CDATA[文章网址：https://tryprobe.io/bracket
+评论网址：https://news.ycombinator.com/item?id=47420722
+积分：2
+# 条评论：0]]></description>
+      <guid>https://tryprobe.io/bracket</guid>
+      <pubDate>Wed, 18 Mar 2026 01:47:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>心智模型发现</title>
+      <link>https://wibomd.substack.com/p/on-mental-model-discovery</link>
+      <description><![CDATA[文章网址：https://wibomd.substack.com/p/on-mental-model-discovery
+评论网址：https://news.ycombinator.com/item?id=47420720
+积分：1
+# 条评论：0]]></description>
+      <guid>https://wibomd.substack.com/p/on-mental-model-discovery</guid>
+      <pubDate>Wed, 18 Mar 2026 01:46:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
