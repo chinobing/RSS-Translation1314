@@ -4,55 +4,109 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 18 Mar 2026 21:34:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 02:11:34 GMT</lastBuildDate>
     <item>
-      <title>纽约高中生被 ICE 拘留 10 个月后获释</title>
-      <link>https://www.nytimes.com/2026/03/18/nyregion/nyc-high-school-student-ice-freed.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2026/03/18/nyregion/nyc-high-school-student-ice-freed.html
-评论网址：https://news.ycombinator.com/item?id=47431428
+      <title>问 HN：您如何与信任法学硕士的人打交道？</title>
+      <link>https://news.ycombinator.com/item?id=47433702</link>
+      <description><![CDATA[许多人将法学硕士作为其客观事实的来源。他们有一个问题，通过搜索到信誉良好的来源可以得到很好的回答，但他们却询问了一些 LLM 聊天机器人，并且只是盲目地相信它所说的一切。您如何处理这个问题？你是否试图告诉他们幻觉以及法学硕士没有真假概念？或者你就让他们这样？当他们在与您的对话中这样做或遇到法学硕士被用作影响您的事物的来源时，您会怎么做？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47433702
+积分：18
+# 条评论：14]]></description>
+      <guid>https://news.ycombinator.com/item?id=47433702</guid>
+      <pubDate>Thu, 19 Mar 2026 01:37:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>SAT 求解器的自动研究</title>
+      <link>https://github.com/iliazintchenko/agent-sat</link>
+      <description><![CDATA[文章网址：https://github.com/iliazintchenko/agent-sat
+评论网址：https://news.ycombinator.com/item?id=47433265
+积分：21
+# 条评论：0]]></description>
+      <guid>https://github.com/iliazintchenko/agent-sat</guid>
+      <pubDate>Thu, 19 Mar 2026 00:40:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>奥斯汀新住房建设激增导致租金下降</title>
+      <link>https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents</link>
+      <description><![CDATA[文章网址： https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents
+评论网址：https://news.ycombinator.com/item?id=47433058
+积分：221
+# 条评论：179]]></description>
+      <guid>https://www.pew.org/en/research-and-analysis/articles/2026/03/18/austins-surge-of-new-housing-construction-drove-down-rents</guid>
+      <pubDate>Thu, 19 Mar 2026 00:15:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>RX – 一种新的随机访问 JSON 替代方案</title>
+      <link>https://github.com/creationix/rx</link>
+      <description><![CDATA[文章网址：https://github.com/creationix/rx
+评论网址：https://news.ycombinator.com/item?id=47432915
+积分：8
+# 条评论：1]]></description>
+      <guid>https://github.com/creationix/rx</guid>
+      <pubDate>Wed, 18 Mar 2026 23:58:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国主要城市的无枪击日减少</title>
+      <link>https://www.publichealth.columbia.edu/news/shooting-free-days-decline-major-u-s-cities-new-metric-aims-building-sustained-periods-peace</link>
+      <description><![CDATA[文章网址：https://www.publichealth.columbia.edu/news/shooting-free-days-decline-major-u-s-cities-new-metric-aims-building-sutain-periods-peace
+评论网址：https://news.ycombinator.com/item?id=47432540
 积分：6
 # 条评论：0]]></description>
-      <guid>https://www.nytimes.com/2026/03/18/nyregion/nyc-high-school-student-ice-freed.html</guid>
-      <pubDate>Wed, 18 Mar 2026 21:04:32 GMT</pubDate>
+      <guid>https://www.publichealth.columbia.edu/news/shooting-free-days-decline-major-u-s-cities-new-metric-aims-building-sustained-periods-peace</guid>
+      <pubDate>Wed, 18 Mar 2026 23:10:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>HTTP 上有什么？</title>
+      <link>https://whatsonhttp.com/</link>
+      <description><![CDATA[文章网址：https://whatsonhttp.com/
+评论网址：https://news.ycombinator.com/item?id=47431930
+积分：27
+# 条评论：8]]></description>
+      <guid>https://whatsonhttp.com/</guid>
+      <pubDate>Wed, 18 Mar 2026 21:57:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：在24B LLM中复制3层，逻辑推导0.22→.76。无需培训</title>
+      <link>https://github.com/alainnothere/llm-circuit-finder</link>
+      <description><![CDATA[我在消费级 AMD GPU 上复制了 David Ng 的 RYS 方法 (https://dnhkng.github.io/posts/rys/) 
+（RX 7900 XT + RX 6950 XT）并发现了一些我没想到的东西。变压器似乎具有离散的“推理电路”——3-4 层的连续块， 
+作为不可分割的认知单元。复制正确的块，模型运行其推理 
+管道两次。重量没有变化。没有培训。该模型只是想得更久。标准基准测试的结果（lm-evaluation-harness，n=50）：Devstral-24B，第 12-14 层重复一次：
+- BBH逻辑推导：0.22 → 0.76
+- GSM8K（严格）：0.48 → 0.64
+- MBPP（代码生成）：0.72 → 0.78
+- 没有任何降级Qwen2.5-Coder-32B，第 7-9 层重复一次：
+- 推理探针：76% → 94%奇怪的部分：不同的重复模式从相同的模式创建不同的认知“模式” 
+重量。双关提高数学。三重传递可以增强情感推理。交错加倍 
+(13,13,14,14,15,15,16)创建了一个纯数学专家。相同的型号，相同的 VRAM，不同的布线。电路边界很清晰 - 移动一层，效果就会消失或反转。 
+较小的模型 (24B) 比较大的模型具有更紧密的电路（3 层）（Ng 在 72B 中发现了 7 层）。存储库中提供了在任何 GGUF 模型中查找电路并应用任意层路由的工具。 
+整个过程——清理、发现、验证——花了一个晚上的时间。很高兴回答问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47431671
+积分：62
+# 条评论：17]]></description>
+      <guid>https://github.com/alainnothere/llm-circuit-finder</guid>
+      <pubDate>Wed, 18 Mar 2026 21:31:12 GMT</pubDate>
     </item>
     <item>
       <title>如果再生则保修无效</title>
       <link>https://nearzero.software/p/warranty-void-if-regenerated</link>
-      <description><![CDATA[作为一个实验，我开始要求 Claude 用一个虚构故事向我解释事情，结果非常好，所以我开始看看我能走多远，以及如何完善它以公开分享。在过去的几个月里，我一直在为这个项目构建世界圣经、写作和视觉风格指南以及其他文档……认为虚构故事相当于我们现在用于代理开发的所有 Markdown 文件。之后，进行了大约两周的额外打磨工作，以消除大量的废话和大量的法学硕士主义。如果有人对此感兴趣，也很乐意回答有关该过程的任何问题。
+      <description><![CDATA[作为一个实验，我开始要求 Claude 用一个虚构故事向我解释事情，结果非常好，所以我开始看看我能走多远，以及如何完善它以公开分享。在过去的几个月里，我一直在为这个项目构建世界圣经、写作和视觉风格指南以及其他文档……认为小说相当于我们现在用于代理开发的所有 Markdown 文件。之后，进行了大约两周的额外打磨工作，以消除大量的废话和大量的法学硕士主义。如果有人对此感兴趣，也很乐意回答有关该过程的任何问题。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47431237
-积分：8
-# 条评论：30]]></description>
+积分：193
+# 条评论：105]]></description>
       <guid>https://nearzero.software/p/warranty-void-if-regenerated</guid>
       <pubDate>Wed, 18 Mar 2026 20:45:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>用羊角锤取下环形相机</title>
-      <link>https://www.hamiltonnolan.com/p/remove-your-ring-camera-with-a-claw</link>
-      <description><![CDATA[文章网址：https://www.hamiltonnolan.com/p/remove-your-ring-camera-with-a-claw
-评论网址：https://news.ycombinator.com/item?id=47430826
-积分：12
-# 条评论：2]]></description>
-      <guid>https://www.hamiltonnolan.com/p/remove-your-ring-camera-with-a-claw</guid>
-      <pubDate>Wed, 18 Mar 2026 20:12:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>局长证实，联邦调查局正在购买位置数据来追踪美国公民</title>
-      <link>https://techcrunch.com/2026/03/18/fbi-is-buying-location-data-to-track-us-citizens-kash-patel-wyden/</link>
-      <description><![CDATA[文章网址：https://techcrunch.com/2026/03/18/fbi-is-buying-location-data-to-track-us-citizens-kash-patel-wyden/
-评论网址：https://news.ycombinator.com/item?id=47430797
-积分：168
-# 条评论：57]]></description>
-      <guid>https://techcrunch.com/2026/03/18/fbi-is-buying-location-data-to-track-us-citizens-kash-patel-wyden/</guid>
-      <pubDate>Wed, 18 Mar 2026 20:09:52 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：与朋友一起玩 LongTurn FreeCiv</title>
       <link>https://github.com/ndroo/freeciv.andrewmcgrath.info</link>
       <description><![CDATA[文章网址：https://github.com/ndroo/freeciv.andrewmcgrath.info
 评论网址：https://news.ycombinator.com/item?id=47429988
-积分：26
-# 条评论：15]]></description>
+积分：50
+# 条评论：27]]></description>
       <guid>https://github.com/ndroo/freeciv.andrewmcgrath.info</guid>
       <pubDate>Wed, 18 Mar 2026 19:01:54 GMT</pubDate>
     </item>
@@ -63,51 +117,10 @@
 文档：https://tmux.thijsverreck.com/docs
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47428868
-积分：36
-# 条评论：25]]></description>
+积分：63
+# 条评论：36]]></description>
       <guid>https://tmux.thijsverreck.com</guid>
       <pubDate>Wed, 18 Mar 2026 17:46:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>我已经14年没用过鼠标了</title>
-      <link>https://axelk.ee/i-havent-used-a-mouse-for-14-years-and-how-to-enable-three-fingers-drag-on-macos/</link>
-      <description><![CDATA[文章网址：https://axelk.ee/i-havent-used-a-mouse-for-14-years-and-how-to-enable-三指-drag-on-macos/
-评论网址：https://news.ycombinator.com/item?id=47428734
-积分：32
-# 条评论：55]]></description>
-      <guid>https://axelk.ee/i-havent-used-a-mouse-for-14-years-and-how-to-enable-three-fingers-drag-on-macos/</guid>
-      <pubDate>Wed, 18 Mar 2026 17:36:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：我的航班有 Starlink 吗？</title>
-      <link>https://news.ycombinator.com/item?id=47428650</link>
-      <description><![CDATA[嘿，HN，如果您有幸乘坐 Starlink 的航班，您就会理解这种炒作。它确实有效！但是，它在航班上的可用性并不稳定且难以预测。因此，我们建立了一个包含所有已推出星链（不仅仅是试用）的航空公司的数据库，以及一个航班搜索工具来预测它。输入航班号和日期，我们将根据飞机类型和尾号估计机载 Starlink 的可能性。如果您没有即将到来的行程，您还可以查找特定航线，了解哪些航班提供 Starlink。您可以在这里找到它：https://stardrift.ai/starlink。-我也想添加一些关于其工作原理的注释。当我们回答查询时，我们会按顺序检查三件事：- 这家航空公司有 Starlink 吗？- 这架飞机机身有 Starlink 吗？- 这架特定飞机有 Starlink 吗？目前只有少数航空公司有 Starlink：联合航空、夏威夷航空、阿拉斯加航空、法国航空、卡塔尔航空、JSX 以及其他一些航空公司。因此，如果飞机由任何其他航空公司运营，我们可以立即发出毯子“否”。然后，我们检查飞机上飞行的实际尸体。航空公司通常会提前发布设备分配情况，并且还会逐个部署星链。例如，我们知道所有 JSX E145 都具有 Starlink，而法航的 A320 均没有 Starlink。 （您可以在 https://stardrift.ai/starlink/fleet-summary 上查看我们的数据摘要，但实时逻辑有一些未编码的规则。）如果体型级别完全匹配，我们可以自信地告诉您，您的航班将配备 Starlink。然而，在大多数情况下，航空公司仅对该机型进行部分升级。在这种情况下，我们需要进一步深入了解，并准确找出哪架飞机正在您的航线上飞行。我们可以通过查找“尾号”（将其视为飞机的牌照）来做到这一点。 不幸的是，尾号通常仅在航班起飞前几天分配。因此，在此之前，我们最多能做的就是计算为您的飞机分配一架启用星链的飞机的概率。为此，我们必须构建飞机尾部与星链状态的映射。在这里，我要感谢在线航空爱好者，他们维护着细致的电子表格和论坛帖子来跟踪这些数据！据我了解，他们通常从热衷于推出星链的航空公司工作人员那里获取这些数据，因此这是一个可靠且经常更新的来源。 我们的大部分工作是找到每个数据源，标准化它们的格式，构建可靠且负责任的系统来引入它们，然后将它们与我们的其他数据源捆绑在一起。基本上，这是一个数据标准化问题！我曾经从事金融数据系统的工作，令我惊讶的是这个问题是如此相似。-星链本身也是一项非常酷的技术。我还写了一篇博客文章 (https://stardrift.ai/blog/why-is-starlink-so-good)，解释为什么它比所有其他飞机 wifi 选项好得多。从高水平来看，这是可能的，因为现在火箭发射非常便宜，这非常酷。性能非常出色，因此非常值得尽可能围绕它规划飞行。目前，您在美国最好的选择是搭乘美联航支线航班和 JSX/夏威夷航班。在国际上，卡塔尔是最佳选择（尽管显然不是现在），法航排名第二。随着越来越多的航空公司推出这一服务，这一情况将在全年发生变化，我们将不断更新我们的数据库！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47428650
-积分：94
-评论数量：91]]></description>
-      <guid>https://news.ycombinator.com/item?id=47428650</guid>
-      <pubDate>Wed, 18 Mar 2026 17:29:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我构建了 48 个可以复制/粘贴的轻量级 SVG 背景</title>
-      <link>https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/</link>
-      <description><![CDATA[文章网址：https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/
-评论网址：https://news.ycombinator.com/item?id=47427299
-积分：60
-# 条评论：10]]></description>
-      <guid>https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/</guid>
-      <pubDate>Wed, 18 Mar 2026 15:50:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>CVE-2026-3888：重要的快照缺陷可实现本地权限升级至 root</title>
-      <link>https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root</link>
-      <description><![CDATA[文章网址： https://blog.qualys.com/vulnerability-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root
-评论网址：https://news.ycombinator.com/item?id=47427208
-积分：55
-# 条评论：26]]></description>
-      <guid>https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root</guid>
-      <pubDate>Wed, 18 Mar 2026 15:43:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
