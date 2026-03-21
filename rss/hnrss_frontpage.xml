@@ -4,14 +4,24 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 21 Mar 2026 02:01:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 04:27:48 GMT</lastBuildDate>
+    <item>
+      <title>purl：一个类似curl 的CLI，用于发出需要付款的HTTP 请求</title>
+      <link>https://www.purl.dev/</link>
+      <description><![CDATA[文章网址：https://www.purl.dev/
+评论网址：https://news.ycombinator.com/item?id=47463354
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.purl.dev/</guid>
+      <pubDate>Sat, 21 Mar 2026 02:09:08 GMT</pubDate>
+    </item>
     <item>
       <title>Linux 应用程序编程示例：基础 API（第二版）</title>
       <link>https://github.com/arnoldrobbins/LinuxByExample-2e</link>
       <description><![CDATA[文章网址：https://github.com/arnoldrobbins/LinuxByExample-2e
 评论网址：https://news.ycombinator.com/item?id=47462483
-积分：26
-# 条评论：5]]></description>
+积分：44
+# 条评论：6]]></description>
       <guid>https://github.com/arnoldrobbins/LinuxByExample-2e</guid>
       <pubDate>Fri, 20 Mar 2026 23:57:22 GMT</pubDate>
     </item>
@@ -21,8 +31,8 @@
       <description><![CDATA[我参加过很多偏远地区的旅行，但几乎没有手机服务。如果我的团队分裂了，没有人知道任何人在哪里，直到您在营地或目的地重新集结。您可以购买 Garmin 收音机或尝试设置 ATAK，但 ATAK 仅限 Android，并且假设您在某处运行 TAK 服务器以使用所有功能。工具本身很酷，但正确设置的成本很高。我只是想让两部 iPhone 在缺乏蜂窝覆盖时直接通过蓝牙共享位置。Red Grid Link 可以做到这一点。启动会话，附近运行该应用程序的任何人都会显示在您的离线地图上。当他们走出范围时，他们的标记会像“幽灵”一样慢慢消失。困难的部分是通过 BLE 实现可靠的同步。连接总是断开。有人拐过街角，走在车辆后面，等等。我构建了一个 CRDT 同步层（LWW 寄存器 + G 计数器），因此永远不会出现合并冲突。每次更新都不到 200 字节（根据我迄今为止的测试）。当用户/队友消失时，应用程序会进行 2 到 30 秒的指数退避，然后放弃并将其标记为幽灵。一切都经过加密（AES-256-GCM、每个对等点对的 ECDH P-256 密钥交换）。会议可能需要 PIN 码或 QR 码才能加入。它还提供带有 MGRS 网格坐标的离线地形图，与我的其他应用程序 Red Grid MGRS 中的系统相同。该应用程序是免费的，我正在寻找其他现实世界用户的诚实反馈。如果您有任何疑问，请告诉我！
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47461529
-积分：18
-# 条评论：12]]></description>
+积分：28
+# 条评论：13]]></description>
       <guid>https://github.com/RedGridTactical/RedGridLink</guid>
       <pubDate>Fri, 20 Mar 2026 22:25:51 GMT</pubDate>
     </item>
@@ -31,8 +41,8 @@
       <link>https://github.com/ghostty-org/ghostling</link>
       <description><![CDATA[文章网址：https://github.com/ghostty-org/ghostling
 评论网址：https://news.ycombinator.com/item?id=47461378
-积分：85
-# 条评论：10]]></description>
+积分：140
+# 条评论：21]]></description>
       <guid>https://github.com/ghostty-org/ghostling</guid>
       <pubDate>Fri, 20 Mar 2026 22:11:37 GMT</pubDate>
     </item>
@@ -42,39 +52,28 @@
       <description><![CDATA[是的，就是 Fortran。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47461321
-积分：42
-# 条评论：29]]></description>
+积分：52
+# 条评论：31]]></description>
       <guid>https://github.com/FormerLab/fortransky</guid>
       <pubDate>Fri, 20 Mar 2026 22:06:51 GMT</pubDate>
     </item>
     <item>
-      <title>我们用 TypeScript 重写了 Rust WASM 解析器 – 速度提高了 3 倍</title>
+      <title>我们用 TypeScript 重写了 Rust WASM 解析器，它变得更快了</title>
       <link>https://www.openui.com/blog/rust-wasm-parser</link>
       <description><![CDATA[文章网址：https://www.openui.com/blog/rust-wasm-parser
 评论网址：https://news.ycombinator.com/item?id=47461094
-积分：100
-# 条评论：55]]></description>
+积分：139
+# 条评论：77]]></description>
       <guid>https://www.openui.com/blog/rust-wasm-parser</guid>
       <pubDate>Fri, 20 Mar 2026 21:48:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>双标记 GLP-1 受体激动剂的停用和重新开始</title>
-      <link>https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</link>
-      <description><![CDATA[研究：https://pubmed.ncbi.nlm.nih.gov/39888616/
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47461018
-积分：55
-# 条评论：81]]></description>
-      <guid>https://nautil.us/whiplash-heart-attack-and-stroke-risk-jumps-when-people-stop-taking-glp-1s-1279029</guid>
-      <pubDate>Fri, 20 Mar 2026 21:42:16 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：波罗的海影子舰队跟踪器 – 实时 AIS、电缆接近警报</title>
       <link>https://github.com/FormerLab/shadow-fleet-tracker-light</link>
       <description><![CDATA[文章网址：https://github.com/FormerLab/shadow-fleet-tracker-light
 评论网址：https://news.ycombinator.com/item?id=47460528
-积分：30
-# 条评论：6]]></description>
+积分：37
+# 条评论：7]]></description>
       <guid>https://github.com/FormerLab/shadow-fleet-tracker-light</guid>
       <pubDate>Fri, 20 Mar 2026 21:04:11 GMT</pubDate>
     </item>
@@ -83,8 +82,8 @@
       <link>https://opencode.ai/</link>
       <description><![CDATA[文章网址：https://opencode.ai/
 评论网址：https://news.ycombinator.com/item?id=47460525
-积分：430
-# 条评论：198]]></description>
+积分：557
+# 条评论：256]]></description>
       <guid>https://opencode.ai/</guid>
       <pubDate>Fri, 20 Mar 2026 21:03:52 GMT</pubDate>
     </item>
@@ -93,8 +92,8 @@
       <link>https://www.nippon.com/en/japan-data/h01362/</link>
       <description><![CDATA[文章网址：https://www.nippon.com/en/japan-data/h01362/
 评论网址：https://news.ycombinator.com/item?id=47460452
-积分：112
-评论数量：104]]></description>
+积分：164
+评论数：138]]></description>
       <guid>https://www.nippon.com/en/japan-data/h01362/</guid>
       <pubDate>Fri, 20 Mar 2026 20:54:57 GMT</pubDate>
     </item>
@@ -103,8 +102,8 @@
       <link>https://ashvardanian.com/posts/numkong/</link>
       <description><![CDATA[文章网址：https://ashvardanian.com/posts/numkong/
 评论网址：https://news.ycombinator.com/item?id=47459447
-积分：27
-# 条评论：0]]></description>
+积分：37
+# 条评论：1]]></description>
       <guid>https://ashvardanian.com/posts/numkong/</guid>
       <pubDate>Fri, 20 Mar 2026 19:29:39 GMT</pubDate>
     </item>
