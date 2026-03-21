@@ -4,24 +4,24 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 21 Mar 2026 06:43:44 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 09:32:58 GMT</lastBuildDate>
     <item>
-      <title>Google 在 Android 侧载流程中添加了 24 小时等待和强制重启</title>
-      <link>https://android-developers.googleblog.com/2025/08/elevating-android-security.html</link>
-      <description><![CDATA[文章网址：https://android-developers.googleblog.com/2025/08/elevating-android-security.html
-评论网址：https://news.ycombinator.com/item?id=47464394
-积分：7
-# 条评论：1]]></description>
-      <guid>https://android-developers.googleblog.com/2025/08/elevating-android-security.html</guid>
-      <pubDate>Sat, 21 Mar 2026 06:03:46 GMT</pubDate>
+      <title>男子承认犯有价值 800 万美元的人工智能生成音乐计划</title>
+      <link>https://therecord.media/man-pleads-guilty-8-million-ai-music-scheme</link>
+      <description><![CDATA[文章网址：https://therecord.media/man-pleads-guilty-8-million-ai-music-scheme
+评论网址：https://news.ycombinator.com/item?id=47464859
+积分：35
+# 条评论：34]]></description>
+      <guid>https://therecord.media/man-pleads-guilty-8-million-ai-music-scheme</guid>
+      <pubDate>Sat, 21 Mar 2026 07:36:07 GMT</pubDate>
     </item>
     <item>
       <title>Ubuntu 26.04 结束 46 年无声 sudo 密码</title>
       <link>https://pbxscience.com/ubuntu-26-04-ends-46-years-of-silent-sudo-passwords/</link>
       <description><![CDATA[文章网址：https://pbxscience.com/ubuntu-26-04-ends-46-years-of-silent-sudo-passwords/
 评论网址：https://news.ycombinator.com/item?id=47464134
-积分：9
-# 条评论：3]]></description>
+积分：95
+评论数量：99]]></description>
       <guid>https://pbxscience.com/ubuntu-26-04-ends-46-years-of-silent-sudo-passwords/</guid>
       <pubDate>Sat, 21 Mar 2026 05:06:11 GMT</pubDate>
     </item>
@@ -30,8 +30,8 @@
       <link>https://blogs.igalia.com/llepage/ffmpeg-101/</link>
       <description><![CDATA[文章网址：https://blogs.igalia.com/llepage/ffmpeg-101/
 评论网址：https://news.ycombinator.com/item?id=47463547
-积分：25
-# 条评论：0]]></description>
+积分：73
+# 条评论：1]]></description>
       <guid>https://blogs.igalia.com/llepage/ffmpeg-101/</guid>
       <pubDate>Sat, 21 Mar 2026 02:47:13 GMT</pubDate>
     </item>
@@ -40,28 +40,18 @@
       <link>https://www.purl.dev/</link>
       <description><![CDATA[文章网址：https://www.purl.dev/
 评论网址：https://news.ycombinator.com/item?id=47463354
-积分：17
-# 条评论：2]]></description>
+积分：26
+# 条评论：6]]></description>
       <guid>https://www.purl.dev/</guid>
       <pubDate>Sat, 21 Mar 2026 02:09:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>邪恶的痕迹</title>
-      <link>https://www.tracesofevil.com/</link>
-      <description><![CDATA[文章网址：https://www.tracesofevil.com/
-评论网址：https://news.ycombinator.com/item?id=47462915
-积分：14
-# 条评论：1]]></description>
-      <guid>https://www.tracesofevil.com/</guid>
-      <pubDate>Sat, 21 Mar 2026 00:54:27 GMT</pubDate>
     </item>
     <item>
       <title>Linux 应用程序编程示例：基础 API（第二版）</title>
       <link>https://github.com/arnoldrobbins/LinuxByExample-2e</link>
       <description><![CDATA[文章网址：https://github.com/arnoldrobbins/LinuxByExample-2e
 评论网址：https://news.ycombinator.com/item?id=47462483
-积分：63
-# 条评论：8]]></description>
+积分：89
+评论数量：9]]></description>
       <guid>https://github.com/arnoldrobbins/LinuxByExample-2e</guid>
       <pubDate>Fri, 20 Mar 2026 23:57:22 GMT</pubDate>
     </item>
@@ -71,8 +61,8 @@
       <description><![CDATA[我参加过很多偏远地区的旅行，但几乎没有手机服务。如果我的团队分裂了，没有人知道任何人在哪里，直到您在营地或目的地重新集结。您可以购买 Garmin 收音机或尝试设置 ATAK，但 ATAK 仅限 Android，并且假设您在某处运行 TAK 服务器以使用所有功能。工具本身很酷，但正确设置的成本很高。我只是想让两部 iPhone 在缺乏蜂窝覆盖时直接通过蓝牙共享位置。Red Grid Link 可以做到这一点。启动会话，附近运行该应用程序的任何人都会显示在您的离线地图上。当他们走出范围时，他们的标记会像“幽灵”一样慢慢消失。困难的部分是通过 BLE 实现可靠的同步。连接总是断开。有人拐过街角，走在车辆后面，等等。我构建了一个 CRDT 同步层（LWW 寄存器 + G 计数器），因此永远不会出现合并冲突。每次更新都不到 200 字节（根据我迄今为止的测试）。当用户/队友消失时，应用程序会进行 2 到 30 秒的指数退避，然后放弃并将其标记为幽灵。一切都经过加密（AES-256-GCM、每个对等点对的 ECDH P-256 密钥交换）。会议可能需要 PIN 码或 QR 码才能加入。它还提供带有 MGRS 网格坐标的离线地形图，与我的其他应用程序 Red Grid MGRS 中的系统相同。该应用程序是免费的，我正在寻找其他现实世界用户的诚实反馈。如果您有任何疑问，请告诉我！
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47461529
-积分：35
-# 条评论：14]]></description>
+积分：43
+# 条评论：16]]></description>
       <guid>https://github.com/RedGridTactical/RedGridLink</guid>
       <pubDate>Fri, 20 Mar 2026 22:25:51 GMT</pubDate>
     </item>
@@ -81,8 +71,8 @@
       <link>https://github.com/ghostty-org/ghostling</link>
       <description><![CDATA[文章网址：https://github.com/ghostty-org/ghostling
 评论网址：https://news.ycombinator.com/item?id=47461378
-积分：169
-# 条评论：29]]></description>
+积分：208
+# 条评论：35]]></description>
       <guid>https://github.com/ghostty-org/ghostling</guid>
       <pubDate>Fri, 20 Mar 2026 22:11:37 GMT</pubDate>
     </item>
@@ -92,8 +82,8 @@
       <description><![CDATA[是的，就是 Fortran。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47461321
-积分：68
-# 条评论：35]]></description>
+积分：79
+# 条评论：44]]></description>
       <guid>https://github.com/FormerLab/fortransky</guid>
       <pubDate>Fri, 20 Mar 2026 22:06:51 GMT</pubDate>
     </item>
@@ -102,10 +92,20 @@
       <link>https://www.openui.com/blog/rust-wasm-parser</link>
       <description><![CDATA[文章网址：https://www.openui.com/blog/rust-wasm-parser
 评论网址：https://news.ycombinator.com/item?id=47461094
-积分：161
-评论数量：91]]></description>
+积分：197
+# 条评论：117]]></description>
       <guid>https://www.openui.com/blog/rust-wasm-parser</guid>
       <pubDate>Fri, 20 Mar 2026 21:48:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenCode – 开源人工智能编码代理</title>
+      <link>https://opencode.ai/</link>
+      <description><![CDATA[文章网址：https://opencode.ai/
+评论网址：https://news.ycombinator.com/item?id=47460525
+积分：769
+评论数：344]]></description>
+      <guid>https://opencode.ai/</guid>
+      <pubDate>Fri, 20 Mar 2026 21:03:52 GMT</pubDate>
     </item>
     </channel>
 </rss>
