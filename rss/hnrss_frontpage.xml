@@ -4,106 +4,108 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 23 Mar 2026 16:00:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 18:55:35 GMT</lastBuildDate>
+    <item>
+      <title>美国政府向 TotalEnergies 支付近 10 亿美元以阻止美国海上风电项目</title>
+      <link>https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html</link>
+      <description><![CDATA[文章网址： https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html
+评论网址：https://news.ycombinator.com/item?id=47492599
+积分：21
+# 条评论：1]]></description>
+      <guid>https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html</guid>
+      <pubDate>Mon, 23 Mar 2026 17:35:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>是一品脱吗？</title>
+      <link>https://isitapint.com/</link>
+      <description><![CDATA[文章网址：https://isitapint.com/
+评论网址：https://news.ycombinator.com/item?id=47491496
+积分：113
+评论数量：99]]></description>
+      <guid>https://isitapint.com/</guid>
+      <pubDate>Mon, 23 Mar 2026 16:13:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Threadprocs – 共享一个地址空间的可执行文件（0 拷贝指针）</title>
+      <link>https://github.com/jer-irl/threadprocs</link>
+      <description><![CDATA[该项目将多个独立程序启动到单个共享虚拟地址空间中，同时仍然表现得像单独的进程（独立的二进制文件、全局变量和生命周期）。  当 threadproc 共享其地址空间时，指针在它们之间有效，对于行为良好的 Linux 二进制文件无需更改代码。与线程不同，每个 threadproc 都是一个独立且半隔离的进程。  与基于 dlopen 的插件系统不同，threadprocs 使用“main()”函数运行传统的可执行文件。  与 POSIX 进程不同，指针在 threadproc 之间保持有效，因为它们共享相同的地址空间。这意味着惯用的基于指针的数据结构（如 `std::string` 或 `std::unordered_map`）可以在 threadproc 之间传递并直接访问（考虑到通常的数据竞争）。这实现了介于 pthread 和多进程共享内存 IPC 之间的编程模型。该实现依赖于在加载时指导 ASLR 和虚拟地址布局，并且实现“exec()”的用户空间类似物，以及对 threadproc 文件描述符、信号等的仔细操作。它完全在非特权用户空间代码中实现：&lt;https://github.com/jer-irl/threadprocs/blob/main/docs/02-imp...&gt;。在 &lt;https://github.com/jer-irl/threadprocs/tree/main?tab=readme-...&gt;，包括高级图表。这与具有共享内存（通常是环形缓冲区或平面表）的多进程系统相关。  这些设计通常需要序列化或复制，并且倾向于远离惯用的 C++ 或 Rust 数据结构。  基于指针的数据结构无法直接传递。存在重大限制和边缘情况，目前尚不清楚这是否是一个实用模型，但该项目探索了一种放宽传统进程内存边界的方法，同时仍将系统构建为独立启动的组件。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47491414
+积分：38
+# 条评论：28]]></description>
+      <guid>https://github.com/jer-irl/threadprocs</guid>
+      <pubDate>Mon, 23 Mar 2026 16:08:01 GMT</pubDate>
+    </item>
     <item>
       <title>Cyber​​.mil 使用 3 天前过期的 TLS 证书提供文件下载服务</title>
       <link>https://www.cyber.mil/stigs/downloads</link>
       <description><![CDATA[文章网址：https://www.cyber.mil/stigs/downloads
 评论网址：https://news.ycombinator.com/item?id=47490816
-积分：22
-# 条评论：20]]></description>
+积分：105
+评论数量：100]]></description>
       <guid>https://www.cyber.mil/stigs/downloads</guid>
       <pubDate>Mon, 23 Mar 2026 15:25:04 GMT</pubDate>
     </item>
     <item>
-      <title>如果 Dspy 如此出色，为什么没有人使用它？</title>
+      <title>如果 DSPy 如此出色，为什么没有人使用它？</title>
       <link>https://skylarbpayne.com/posts/dspy-engineering-patterns/</link>
       <description><![CDATA[文章网址：https://skylarbpayne.com/posts/dspy-engineering-patterns/
 评论网址：https://news.ycombinator.com/item?id=47490365
-积分：69
-# 条评论：45]]></description>
+积分：157
+评论数：98]]></description>
       <guid>https://skylarbpayne.com/posts/dspy-engineering-patterns/</guid>
       <pubDate>Mon, 23 Mar 2026 14:52:52 GMT</pubDate>
     </item>
     <item>
-      <title>研究：“安全疲劳”可能会削弱数字防御</title>
-      <link>https://www.albany.edu/news-center/news/2026-study-security-fatigue-may-weaken-digital-defenses</link>
-      <description><![CDATA[文章网址：https://www.albany.edu/news-center/news/2026-study-security-fatigue-may-weaken-digital-defenses
-评论网址：https://news.ycombinator.com/item?id=47490150
-积分：33
-# 条评论：11]]></description>
-      <guid>https://www.albany.edu/news-center/news/2026-study-security-fatigue-may-weaken-digital-defenses</guid>
-      <pubDate>Mon, 23 Mar 2026 14:36:30 GMT</pubDate>
-    </item>
-    <item>
       <title>iPhone 17 Pro 展示运行 400B LLM</title>
       <link>https://twitter.com/anemll/status/2035901335984611412</link>
-      <description><![CDATA[文章网址：https://twitter.com/anemll/status/2035901335984611412
+      <description><![CDATA[https://xcancel.com/anemll/status/2035901335984611412
+&lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47490070
-积分：64
-# 条评论：27]]></description>
+积分：275
+# 条评论：163]]></description>
       <guid>https://twitter.com/anemll/status/2035901335984611412</guid>
       <pubDate>Mon, 23 Mar 2026 14:30:10 GMT</pubDate>
     </item>
     <item>
-      <title>美国要求私营企业“反击”</title>
-      <link>https://www.economist.com/united-states/2026/03/22/america-tells-private-firms-to-hack-back</link>
-      <description><![CDATA[文章网址：https://www.economist.com/united-states/2026/03/22/america-tells-private-firms-to-hack-back
-评论网址：https://news.ycombinator.com/item?id=47489044
-积分：7
-# 条评论：0]]></description>
-      <guid>https://www.economist.com/united-states/2026/03/22/america-tells-private-firms-to-hack-back</guid>
-      <pubDate>Mon, 23 Mar 2026 13:12:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>随着课程转移到网上，有吸引力的学生不再获得更好的成绩</title>
-      <link>https://www.sciencedirect.com/science/article/pii/S016517652200283X</link>
-      <description><![CDATA[文章网址：https://www.sciencedirect.com/science/article/pii/S016517652200283X
-评论网址：https://news.ycombinator.com/item?id=47488015
-积分：299
-# 条评论：289]]></description>
-      <guid>https://www.sciencedirect.com/science/article/pii/S016517652200283X</guid>
-      <pubDate>Mon, 23 Mar 2026 11:31:19 GMT</pubDate>
+      <title>对汽车呼气分析仪公司的网络攻击导致司机滞留在美国</title>
+      <link>https://techcrunch.com/2026/03/20/cyberattack-on-vehicle-breathalyzer-company-leaves-drivers-stranded-across-the-us/</link>
+      <description><![CDATA[文章网址： https://techcrunch.com/2026/03/20/cyberattack-on-vehicle-breathalyzer-company-leaves-drivers-stranded-across-the-us/
+评论网址：https://news.ycombinator.com/item?id=47489058
+积分：103
+# 条评论：139]]></description>
+      <guid>https://techcrunch.com/2026/03/20/cyberattack-on-vehicle-breathalyzer-company-leaves-drivers-stranded-across-the-us/</guid>
+      <pubDate>Mon, 23 Mar 2026 13:13:30 GMT</pubDate>
     </item>
     <item>
       <title>GitHub 似乎正在为区区三个九的可用性而苦苦挣扎</title>
       <link>https://www.theregister.com/2026/02/10/github_outages/</link>
       <description><![CDATA[文章网址：https://www.theregister.com/2026/02/10/github_outages/
 评论网址：https://news.ycombinator.com/item?id=47487584
-积分：280
-# 条评论：149]]></description>
+积分：356
+# 条评论：188]]></description>
       <guid>https://www.theregister.com/2026/02/10/github_outages/</guid>
       <pubDate>Mon, 23 Mar 2026 10:39:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>我为一家机械店建造了一个人工智能接待员</title>
+      <link>https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/</link>
+      <description><![CDATA[文章网址：https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/
+评论网址：https://news.ycombinator.com/item?id=47487536
+积分：101
+# 条评论：121]]></description>
+      <guid>https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/</guid>
+      <pubDate>Mon, 23 Mar 2026 10:32:33 GMT</pubDate>
     </item>
     <item>
       <title>移民到欧盟</title>
       <link>https://rz01.org/eu-migration/</link>
       <description><![CDATA[文章网址：https://rz01.org/eu-migration/
 评论网址：https://news.ycombinator.com/item?id=47487436
-积分：566
-评论数：476]]></description>
+积分：694
+# 条评论：559]]></description>
       <guid>https://rz01.org/eu-migration/</guid>
       <pubDate>Mon, 23 Mar 2026 10:17:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>数据框1.0.0.0</title>
-      <link>https://discourse.haskell.org/t/ann-dataframe-1-0-0-0/13834</link>
-      <description><![CDATA[文章网址：https://discourse.haskell.org/t/ann-dataframe-1-0-0-0/13834
-评论网址：https://news.ycombinator.com/item?id=47486915
-积分：89
-# 条评论：16]]></description>
-      <guid>https://discourse.haskell.org/t/ann-dataframe-1-0-0-0/13834</guid>
-      <pubDate>Mon, 23 Mar 2026 09:01:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>POSSE – 在您自己的网站上发布，在其他地方联合发布</title>
-      <link>https://indieweb.org/POSSE</link>
-      <description><![CDATA[文章网址：https://indieweb.org/POSSE
-评论网址：https://news.ycombinator.com/item?id=47486726
-积分：317
-评论数：70]]></description>
-      <guid>https://indieweb.org/POSSE</guid>
-      <pubDate>Mon, 23 Mar 2026 08:29:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
