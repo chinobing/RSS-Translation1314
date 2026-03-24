@@ -4,37 +4,84 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 24 Mar 2026 09:56:50 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 13:12:35 GMT</lastBuildDate>
+    <item>
+      <title>导弹防御是 NP 完全的</title>
+      <link>https://smu160.github.io/posts/missile-defense-is-np-complete/</link>
+      <description><![CDATA[文章网址：https://smu160.github.io/posts/missile-defense-is-np-complete/
+评论网址：https://news.ycombinator.com/item?id=47501950
+积分：3
+# 条评论：0]]></description>
+      <guid>https://smu160.github.io/posts/missile-defense-is-np-complete/</guid>
+      <pubDate>Tue, 24 Mar 2026 13:00:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>NanoClaw 采用 OneCLI Agent Vault</title>
+      <link>https://nanoclaw.dev/blog/nanoclaw-agent-vault/</link>
+      <description><![CDATA[文章网址：https://nanoclaw.dev/blog/nanoclaw-agent-vault/
+评论网址：https://news.ycombinator.com/item?id=47501840
+积分：17
+# 条评论：1]]></description>
+      <guid>https://nanoclaw.dev/blog/nanoclaw-agent-vault/</guid>
+      <pubDate>Tue, 24 Mar 2026 12:48:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>LiteLLM Python 包受到供应链攻击</title>
+      <link>https://github.com/BerriAI/litellm/issues/24512</link>
+      <description><![CDATA[文章网址：https://github.com/BerriAI/litellm/issues/24512
+评论网址：https://news.ycombinator.com/item?id=47501729
+积分：17
+# 条评论：6]]></description>
+      <guid>https://github.com/BerriAI/litellm/issues/24512</guid>
+      <pubDate>Tue, 24 Mar 2026 12:36:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>揭穿 Zswap 和 Zram 神话</title>
+      <link>https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html</link>
+      <description><![CDATA[文章网址：https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html
+评论网址：https://news.ycombinator.com/item?id=47500746
+积分：45
+# 条评论：6]]></description>
+      <guid>https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html</guid>
+      <pubDate>Tue, 24 Mar 2026 10:39:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>curl > /dev/sda：我如何制作一个运行 wget 的 Linux 发行版 | DD</title>
+      <link>https://astrid.tech/2026/03/24/0/curl-to-dev-sda/</link>
+      <description><![CDATA[文章网址：https://astrid.tech/2026/03/24/0/curl-to-dev-sda/
+评论网址：https://news.ycombinator.com/item?id=47500522
+积分：32
+# 条评论：21]]></description>
+      <guid>https://astrid.tech/2026/03/24/0/curl-to-dev-sda/</guid>
+      <pubDate>Tue, 24 Mar 2026 10:06:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>微软对Windows 11的“修复”：挨打后开花</title>
+      <link>https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/</link>
+      <description><![CDATA[文章网址：https://www.samdent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/
+评论网址：https://news.ycombinator.com/item?id=47500335
+积分：398
+评论数：274]]></description>
+      <guid>https://www.sambent.com/microsofts-plan-to-fix-windows-11-is-gaslighting/</guid>
+      <pubDate>Tue, 24 Mar 2026 09:36:29 GMT</pubDate>
+    </item>
     <item>
       <title>Opera：将网络倒回 1996 年（Opera 30）</title>
       <link>https://www.web-rewind.com</link>
       <description><![CDATA[文章网址：https://www.web-rewind.com
 评论网址：https://news.ycombinator.com/item?id=47499721
-积分：22
-# 条评论：15]]></description>
+积分：112
+# 条评论：56]]></description>
       <guid>https://www.web-rewind.com</guid>
       <pubDate>Tue, 24 Mar 2026 07:54:02 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：ProofShot – 让 AI 编码代理有眼睛来验证他们构建的 UI</title>
-      <link>https://proofshot.argil.io/</link>
-      <description><![CDATA[我每天使用 AI 代理来构建 UI 功能。一直让我烦恼的事情是：代理编写代码，但从来没有看到它在浏览器中实际的样子。它无法判断布局是否损坏或控制台是否抛出错误。因此我构建了一个 CLI，让代理打开浏览器、与页面交互、记录发生的情况并收集任何错误。然后它将所有内容（视频、屏幕截图、日志）捆绑到一个独立的 HTML 文件中，我可以在几秒钟内查看。proofshot start --run &quot;npm run dev&quot; --port 3000
-# 代理导航、点击、截图
-proofshot stop它适用于您使用的任何代理（Claude Code、Cursor、Codex 等）——它只是 shell 命令。它被打包为一项技能，以便您的 AI 编码代理确切地知道它是如何工作的。它基于 Vercel Labs 的代理浏览器构建，比 Playwright MCP 更好、更快。它不是一个测试框架。代理不决定通过/失败。它只是给了我证据，这样我就不必每次都自己打开浏览器。开源且完全免费。https://github.com/AmElmo/proofshot
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47499672
-积分：26
-# 条评论：24]]></description>
-      <guid>https://proofshot.argil.io/</guid>
-      <pubDate>Tue, 24 Mar 2026 07:46:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ripgrep 比 {grep, ag, Git grep, ucg, pt, sift} 更快</title>
+      <title>Ripgrep 比 grep、ag、git grep、ucg、pt、sift 更快 (2016)</title>
       <link>https://burntsushi.net/ripgrep/</link>
       <description><![CDATA[文章网址：https://burntsushi.net/ripgrep/
 评论网址：https://news.ycombinator.com/item?id=47499245
-积分：10
-# 条评论：3]]></description>
+积分：132
+# 条评论：53]]></description>
       <guid>https://burntsushi.net/ripgrep/</guid>
       <pubDate>Tue, 24 Mar 2026 06:31:39 GMT</pubDate>
     </item>
@@ -43,71 +90,20 @@ proofshot stop它适用于您使用的任何代理（Claude Code、Cursor、Code
       <link>https://lnav.org/</link>
       <description><![CDATA[文章网址：https://lnav.org/
 评论网址：https://news.ycombinator.com/item?id=47498924
-积分：120
-# 条评论：15]]></description>
+积分：208
+# 条评论：26]]></description>
       <guid>https://lnav.org/</guid>
       <pubDate>Tue, 24 Mar 2026 05:32:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>取消 Techempower 框架基准</title>
-      <link>https://github.com/TechEmpower/FrameworkBenchmarks/issues/10932</link>
-      <description><![CDATA[文章网址：https://github.com/TechEmpower/FrameworkBenchmarks/issues/10932
-评论网址：https://news.ycombinator.com/item?id=47497763
-积分：40
-# 条评论：8]]></description>
-      <guid>https://github.com/TechEmpower/FrameworkBenchmarks/issues/10932</guid>
-      <pubDate>Tue, 24 Mar 2026 01:54:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Epoch 确认 GPT5.4 Pro 解决了前沿数学开放问题</title>
-      <link>https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs</link>
-      <description><![CDATA[文章网址：https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs
-评论网址：https://news.ycombinator.com/item?id=47497757
-积分：338
-评论数：375]]></description>
-      <guid>https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs</guid>
-      <pubDate>Tue, 24 Mar 2026 01:53:09 GMT</pubDate>
     </item>
     <item>
       <title>IRIX 3dfx Voodoo 驱动程序和 glide2x IRIX 端口</title>
       <link>https://sdz-mods.com/index.php/2026/03/23/irix-3dfx-voodoo-driver-glide2x-irix-port/</link>
       <description><![CDATA[文章网址：https://sdz-mods.com/index.php/2026/03/23/irix-3dfx-voodoo-driver-glide2x-irix-port/
 评论网址：https://news.ycombinator.com/item?id=47496089
-积分：69
-# 条评论：8]]></description>
+积分：82
+# 条评论：12]]></description>
       <guid>https://sdz-mods.com/index.php/2026/03/23/irix-3dfx-voodoo-driver-glide2x-irix-port/</guid>
       <pubDate>Mon, 23 Mar 2026 22:37:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Resolv 黑客攻击：一把被盗密钥如何印出 2300 万美元</title>
-      <link>https://www.chainalysis.com/blog/lessons-from-the-resolv-hack/</link>
-      <description><![CDATA[文章网址：https://www.chainaanalysis.com/blog/lessons-from-the-resolv-hack/
-评论网址：https://news.ycombinator.com/item?id=47495719
-积分：93
-评论数量：124]]></description>
-      <guid>https://www.chainalysis.com/blog/lessons-from-the-resolv-hack/</guid>
-      <pubDate>Mon, 23 Mar 2026 22:01:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>克劳德代码备忘单</title>
-      <link>https://cc.storyfox.cz</link>
-      <description><![CDATA[文章网址：https://cc.storyfox.cz
-评论网址：https://news.ycombinator.com/item?id=47495527
-积分：392
-# 条评论：116]]></description>
-      <guid>https://cc.storyfox.cz</guid>
-      <pubDate>Mon, 23 Mar 2026 21:44:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>FCC 更新涵盖列表以纳入外国制造的消费者路由器</title>
-      <link>https://www.fcc.gov/document/fcc-updates-covered-list-include-foreign-made-consumer-routers</link>
-      <description><![CDATA[https://docs.fcc.gov/public/attachments/DOC-420034A1.pdfhttps://www.fcc.gov/document/fcc-adds-routers- Produced-forei...https://docs.fcc.gov/public/attachments/DA-26-278A1.pdfhttps://www.bbc.com/news/articles/c74787w149zohttps://www.cnet.com/home/internet/fcc-bans-foreign-made-rou...
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47495344
-积分：316
-# 条评论：217]]></description>
-      <guid>https://www.fcc.gov/document/fcc-updates-covered-list-include-foreign-made-consumer-routers</guid>
-      <pubDate>Mon, 23 Mar 2026 21:28:02 GMT</pubDate>
     </item>
     </channel>
 </rss>
