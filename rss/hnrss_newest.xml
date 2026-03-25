@@ -4,125 +4,110 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 25 Mar 2026 13:11:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 16:12:02 GMT</lastBuildDate>
     <item>
-      <title>人工智能变得更便宜。你的人工智能账单没有</title>
-      <link>https://kyletsai123.substack.com/p/ai-gets-cheaper-your-ai-bill-doesnt</link>
-      <description><![CDATA[文章网址：https://kyletsai123.substack.com/p/ai-gets-cheaper-your-ai-bill-doesnt
-评论网址：https://news.ycombinator.com/item?id=47516797
+      <title>Lyria 3 Pro：在更多 Google 产品中创建更长的曲目</title>
+      <link>https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/</link>
+      <description><![CDATA[文章网址：https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/
+评论网址：https://news.ycombinator.com/item?id=47519278
 积分：1
 # 条评论：0]]></description>
-      <guid>https://kyletsai123.substack.com/p/ai-gets-cheaper-your-ai-bill-doesnt</guid>
-      <pubDate>Wed, 25 Mar 2026 13:02:31 GMT</pubDate>
+      <guid>https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/</guid>
+      <pubDate>Wed, 25 Mar 2026 16:05:16 GMT</pubDate>
     </item>
     <item>
-      <title>MariaDB 完成对 GridGain 的收购</title>
-      <link>https://mariadb.com/newsroom/press-releases/mariadb-completes-gridgain-acquisition-to-power-the-next-generation-of-agentic-ai/</link>
-      <description><![CDATA[文章网址：https://mariadb.com/newsroom/press-releases/mariadb-completes-gridgain-acquisition-to-power-the-next- Generation-of-agentic-ai/
-评论网址：https://news.ycombinator.com/item?id=47516794
-积分：1
-# 条评论：0]]></description>
-      <guid>https://mariadb.com/newsroom/press-releases/mariadb-completes-gridgain-acquisition-to-power-the-next-generation-of-agentic-ai/</guid>
-      <pubDate>Wed, 25 Mar 2026 13:02:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：FlowScript – 以矛盾为特征的智能体记忆</title>
-      <link>https://github.com/phillipclapham/flowscript</link>
-      <description><![CDATA[我们当前的代理记忆方法存在缺陷。现在，我们只是在平坦的内存表面上收集平坦的事实并创建模糊的矢量化链，然后想知道为什么当我们询问代理为什么它做了某事时，我们能得到的最佳答案是一个概率性的半幻觉的半答案，它没有解决问题的实际细节，因为它只是通过模式匹配来查找非类型化的相似性。因此我构建了 FlowScript。FlowScript 是一个类型化推理图，您的代理在日常工作中通过工具调用构建。它不是图形数据库。它是一小组独特的固执己见的原语：诸如想法、问题、决定、阻碍因素之类的东西，并且每一个东西之间都有类型化的关系。您的代理在工作时调用这些工具并构建此类型图，然后您可以使用五个查询来查询该结构以获得实际的确定性答案：tensions、blocked、why、whatIf、alternatives。这在实践中是什么样子？这是一个代理，它已经推理了几个会话的数据库选择： &gt; mem.query.why(&quot;node_postgres_decision&quot;)
-
-  选择 PostgreSQL
-      ← “需要 ACID 进行支付处理”
-      ← “原始要求：原子处理退款”
-      ← “Stripe webhook 暂存失败揭示了竞争条件”
-
-  &gt; mem.query.tensions()
-
-  &gt;&lt;[性能与成本]
-      “Redis：亚毫秒级读取对于用户体验至关重要”与“Redis 集群：3 个节点每月 200 美元”
-
-原因链可以追溯到最初的约束，而张力则保留了正在进行的实际权衡。这些是矢量存储无法做到的，因为它们不仅仅是平面事实，而是以确定性方式捕获的关系和推理链。这意味着您实际上可以返回并审核您的代理的实际推理，它如何随着时间的推移而演变，并查看正在平衡的实际紧张局势。一旦生成完美的答案，就不再会丢失不透明的推理。在任何其他记忆系统中尝试一下，我会等待。其他记忆系统，当它们遇到紧张或矛盾时，大多数情况下它们只是简单地删除它。这是错误的，因为这种紧张是新知识。我们实际上需要保留用于审计的知识，因为它告诉我们系统的演变及其认知随时间的推移。因此，我们不是删除矛盾，而是为它们关联并创建命名关系。您可以查询的关系。每个决定、每个紧张、每个推理都被确定性地捕获到审计跟踪中并进行哈希编码。现在，您不仅拥有确定性推理链，而且该推理链是可审计的。您可以返回到拥有审核日志的时间内的任何点，并确定性地审查和了解模型正在使用的实际推理链。其他系统无法提供的东西。到 2026 年 8 月，欧盟人工智能法案将要求这种透明度，据我所知，FlowScript 是第一个旨在满足该标准的开源代理内存系统。立即尝试：我们的 MCP 服务器采用 Claude Code 或 Cursor。安装并查看我们的入门指南，以便您可以向编辑器配置添加一个 JSON 块，并将一个代码片段放入项目 CLAUDE.md 文件中，然后重新启动。您的 AI 助手拥有一整套可实际追踪因果关系的推理工具。 pip install flowscript-agents openai
-
-请参阅 flowscript.org 了解完整的设置说明：&lt;https://flowscript.org/get-started&gt;或者获取 TypeScript SDK 以进行编程使用： npm install flowscript-core
-
-有适用于 LangGraph、CrewAI、Google ADK 和更多 Python 代理框架的嵌入式适配器。麻省理工学院许可。开源。存储库：&lt;https://github.com/phillipclapham/flowscript&gt;
-文档：&lt;https://flowscript.org&gt;
-Python SDK：&lt;https://github.com/phillipclapham/flowscript-agents&gt;
+      <title>显示 HN：Nar0.com – 任何 IP 的通配符 DNS 和 HTTPS，默认为 127.0.0.1</title>
+      <link>https://nar0.com/</link>
+      <description><![CDATA[我构建了一个 DNS 服务，默认情况下任何子域都会解析为 127.0.0.1，并且您可以嵌入任何 IP 来覆盖。 *.nar0.com 有一个通配符 TLS 证书，因此无需设置即可获得有效的 HTTPS。myapp.nar0.com → 127.0.0.1
+api.10-0-0-5.nar0.com → 10.0.0.5
+9-9-9-9.nar0.com → 9.9.9.9主要用例：没有自签名证书的本地主机 HTTPS。 https://myapp.nar0.com 正常工作，OAuth 回调、安全 cookie、服务工作者，一切都很愉快。使用 miekg/dns 内置 Go。支持 IPv4、IPv6、十六进制格式、PTR 反向、DNS-over-HTTPS (RFC 8484) 和curl nar0.com/ip。私有 IP（127.x、10.x、192.168.x）全部解析。没有查询日志记录，没有分析，无状态。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47516792
+评论网址：https://news.ycombinator.com/item?id=47519276
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/phillipclapham/flowscript</guid>
-      <pubDate>Wed, 25 Mar 2026 13:01:58 GMT</pubDate>
+      <guid>https://nar0.com/</guid>
+      <pubDate>Wed, 25 Mar 2026 16:05:15 GMT</pubDate>
     </item>
     <item>
-      <title>腕带使佩戴者能够通过自己的动作控制机械手</title>
-      <link>https://techxplore.com/news/2026-03-wristband-enables-wearers-robotic-movements.html</link>
-      <description><![CDATA[文章网址：https://techxplore.com/news/2026-03-wristband-enables-wearers-robotic-movements.html
-评论网址：https://news.ycombinator.com/item?id=47516786
+      <title>通过代理技能缩小知识差距</title>
+      <link>https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills/</link>
+      <description><![CDATA[文章网址：https://developers.googleblog.com/looking-the-knowledge-gap-with-agent-skills/
+评论网址：https://news.ycombinator.com/item?id=47519271
 积分：1
 # 条评论：0]]></description>
-      <guid>https://techxplore.com/news/2026-03-wristband-enables-wearers-robotic-movements.html</guid>
-      <pubDate>Wed, 25 Mar 2026 13:01:22 GMT</pubDate>
+      <guid>https://developers.googleblog.com/closing-the-knowledge-gap-with-agent-skills/</guid>
+      <pubDate>Wed, 25 Mar 2026 16:05:06 GMT</pubDate>
     </item>
     <item>
-      <title>Agentic Yield - Agentic AI 新闻和面向构建者和创始人的英特尔</title>
-      <link>https://x.com/AgenticYield</link>
-      <description><![CDATA[文章网址：https://x.com/AgenticYield
-评论网址：https://news.ycombinator.com/item?id=47516783
-积分：1
-# 条评论：1]]></description>
-      <guid>https://x.com/AgenticYield</guid>
-      <pubDate>Wed, 25 Mar 2026 13:01:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>欧洲科技人员外流导致价值 1.4 吨</title>
-      <link>https://www.bloomberg.com/news/articles/2026-03-25/europe-s-tech-exodus-drained-1-4-trillion-in-value-study-shows</link>
-      <description><![CDATA[文章网址： https://www.bloomberg.com/news/articles/2026-03-25/europe-s-tech-exodus-drained-1-4-trillion-in-value-study-shows
-评论网址：https://news.ycombinator.com/item?id=47516778
+      <title>RSA 和 Python</title>
+      <link>https://xnacly.me/posts/2023/rsa/</link>
+      <description><![CDATA[文章网址：https://xnacly.me/posts/2023/rsa/
+评论网址：https://news.ycombinator.com/item?id=47519255
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2026-03-25/europe-s-tech-exodus-drained-1-4-trillion-in-value-study-shows</guid>
-      <pubDate>Wed, 25 Mar 2026 13:00:30 GMT</pubDate>
+      <guid>https://xnacly.me/posts/2023/rsa/</guid>
+      <pubDate>Wed, 25 Mar 2026 16:04:21 GMT</pubDate>
     </item>
     <item>
-      <title>跨越 GitHub Actions、npm、PyPI 的多周、多生态系统攻击链</title>
-      <link>https://ramimac.me/teampcp/</link>
-      <description><![CDATA[文章网址：https://ramimac.me/teampcp/
-评论网址：https://news.ycombinator.com/item?id=47516773
+      <title>在 GNU/Linux 上使用 AMD ROCm 安装 PyTorch</title>
+      <link>https://www.wedesoft.de/graphics/2026/03/24/rocm-torch-install/</link>
+      <description><![CDATA[文章网址：https://www.wedesoft.de/graphics/2026/03/24/rocm-torch-install/
+评论网址：https://news.ycombinator.com/item?id=47519251
 积分：1
 # 条评论：0]]></description>
-      <guid>https://ramimac.me/teampcp/</guid>
-      <pubDate>Wed, 25 Mar 2026 13:00:09 GMT</pubDate>
+      <guid>https://www.wedesoft.de/graphics/2026/03/24/rocm-torch-install/</guid>
+      <pubDate>Wed, 25 Mar 2026 16:03:54 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：盲目投票可以消除集体思维——先验证 10 个想法，然后再验证 1 个想法</title>
-      <link>https://www.microfactory.dev/</link>
-      <description><![CDATA[文章网址：https://www.microfactory.dev/
-评论网址：https://news.ycombinator.com/item?id=47516749
+      <title>GitHub Nukes 900 个动漫盗版存储库和分叉，但拒绝规避索赔</title>
+      <link>https://torrentfreak.com/github-nukes-900-anime-piracy-repos-and-forks-but-rejects-circumvention-claims/</link>
+      <description><![CDATA[文章网址：https://torrentfreak.com/github-nukes-900-anime-piracy-repos-and-forks-but-rejects-circumvention-claims/
+评论网址：https://news.ycombinator.com/item?id=47519235
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.microfactory.dev/</guid>
-      <pubDate>Wed, 25 Mar 2026 12:58:29 GMT</pubDate>
+      <guid>https://torrentfreak.com/github-nukes-900-anime-piracy-repos-and-forks-but-rejects-circumvention-claims/</guid>
+      <pubDate>Wed, 25 Mar 2026 16:02:52 GMT</pubDate>
     </item>
     <item>
-      <title>Hegel，基于属性的通用测试协议和 PBT 库系列</title>
-      <link>https://hegel.dev</link>
-      <description><![CDATA[文章网址：https://hegel.dev
-评论网址：https://news.ycombinator.com/item?id=47516747
+      <title>问 HN：初级者还会以艰苦的方式学习编码吗？</title>
+      <link>https://news.ycombinator.com/item?id=47519234</link>
+      <description><![CDATA[过去，很多让人们成为优秀工程师的因素都来自于痛苦，比如被困几个小时、调试废话、阅读糟糕的文档、手动将东西连接在一起以及慢慢建立直觉。现在，初级工程师几乎可以立即摆脱几乎所有事情的困扰——编写代码、调试、理解不熟悉的模式、重构，甚至首先弄清楚如何构建某些东西。这显然很有用。但我确实想知道是否有一些重要的事情被忽略了。你有什么想法？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47519234
 积分：1
 # 条评论：0]]></description>
-      <guid>https://hegel.dev</guid>
-      <pubDate>Wed, 25 Mar 2026 12:58:06 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47519234</guid>
+      <pubDate>Wed, 25 Mar 2026 16:02:49 GMT</pubDate>
     </item>
     <item>
-      <title>多智能体人工智能系统中 50 种故障模式的开放分类</title>
-      <link>https://nailinstitute.org</link>
-      <description><![CDATA[文章网址：https://nailinstitute.org
-评论网址：https://news.ycombinator.com/item?id=47516745
+      <title>从头开始撰写法学硕士，第 32g 部分 – 干预措施：体重绑定</title>
+      <link>https://www.gilesthomas.com/2026/03/llm-from-scratch-32g-interventions-weight-tying</link>
+      <description><![CDATA[文章网址：https://www.gilesthomas.com/2026/03/llm-from-scratch-32g-interventions-weight-tying
+评论网址：https://news.ycombinator.com/item?id=47519227
 积分：1
 # 条评论：0]]></description>
-      <guid>https://nailinstitute.org</guid>
-      <pubDate>Wed, 25 Mar 2026 12:58:05 GMT</pubDate>
+      <guid>https://www.gilesthomas.com/2026/03/llm-from-scratch-32g-interventions-weight-tying</guid>
+      <pubDate>Wed, 25 Mar 2026 16:02:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>将 DDD 引入您的组织</title>
+      <link>https://docs.eventsourcingdb.io/blog/2026/03/26/introducing-ddd-to-your-organization/</link>
+      <description><![CDATA[文章网址：https://docs.eventsourcedb.io/blog/2026/03/26/introducing-ddd-to-your-organization/
+评论网址：https://news.ycombinator.com/item?id=47519219
+积分：1
+# 条评论：0]]></description>
+      <guid>https://docs.eventsourcingdb.io/blog/2026/03/26/introducing-ddd-to-your-organization/</guid>
+      <pubDate>Wed, 25 Mar 2026 16:02:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>在数学中，严谨至关重要。但数字化证据是否太过分了？</title>
+      <link>https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/</link>
+      <description><![CDATA[文章网址：https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-take-it-too-far-20260325/
+评论网址：https://news.ycombinator.com/item?id=47519210
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/</guid>
+      <pubDate>Wed, 25 Mar 2026 16:01:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
