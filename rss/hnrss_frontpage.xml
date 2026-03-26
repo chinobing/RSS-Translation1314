@@ -4,15 +4,34 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 26 Mar 2026 02:25:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 05:06:53 GMT</lastBuildDate>
     <item>
-      <title>一篇被广泛引用的论文中的虚假陈述。没有更正。没有任何后果</title>
-      <link>https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/?unapproved=2412259&moderation-hash=80fae7fdc82aee50eb3cb14cd8c0b080#comment-2412259</link>
-      <description><![CDATA[文章网址： https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no- Corrections-no-consequences-welcome-t o-the-business-school/?unapproved=2412259&amp;moderation-hash=80fae7fdc82aee50eb3cb14cd8c0b080#comment-2412259
+      <title>Show HN：用于 TypeScript 网站的强大 LLM 提取器</title>
+      <link>https://github.com/lightfeed/extractor</link>
+      <description><![CDATA[我们构建数据管道来抓取网站和提取结构化数据已有一段时间了。如果您已经完成了此操作，那么您就知道该怎么做：您编写 CSS 选择器，网站更改其布局，一切都在凌晨 2 点中断，然后您花一上午的时间重写解析器。LLM 似乎是显而易见的解决方案 - 只需将 HTML 扔到 GPT 并请求 JSON 即可。除了在实践中，它比这更痛苦： - 原始 HTML 充满了导航栏、页脚和跟踪垃圾，这些垃圾会消耗您的令牌预算。典型的产品页面有 80% 是噪音。
+- LLM 返回格式错误的 JSON 的频率比您预期的要高，特别是对于嵌套数组和复杂模式。支架坏了，你的管道就会崩溃。
+- 相对 URL、markdown 转义链接、跟踪参数——当您处理数千个页面时，“小”URL 问题会迅速复杂化。
+- 你最终会编写相同的样板：HTML 清理→ Markdown 转换→ LLM 调用→ JSON 解析→ 错误恢复→ 模式验证。一遍又一遍。我们厌倦了为每个项目重建这个堆栈，因此我们将其提取到一个库中。Lightfeed Extractor 是一个 TypeScript 库，它处理从原始 HTML 到经过验证的结构化数据的完整管道：- 将 HTML 转换为 LLM 就绪的 Markdown，具有主要内容提取（条状导航、页眉、页脚）、可选图像包含和 URL 清理
+- 可与任何兼容 LangChain 的法学硕士（OpenAI、Gemini、Claude、Ollama 等）配合使用
+- 使用 Zod 模式进行类型安全提取和真实验证
+- 从格式错误的 LLM 输出中恢复部分数据，而不是完全失败 — 如果 20 个产品中的 19 个解析正确，您将获得这 19 个
+- 通过 Playwright（本地、无服务器或远程）使用反机器人补丁实现内置浏览器自动化
+- 与我们的浏览器代理 (@lightfeed/browser-agent) 配对，在提取之前进行 AI 驱动的页面导航我们在 Lightfeed 的生产中使用它，它已经足够可靠，我们决定将其开源。GitHub：https://github.com/lightfeed/extractor npm：npm install @lightfeed/extractor Apache 2.0 已获得许可。很高兴回答问题或听取反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47526486
+积分：9
+# 条评论：1]]></description>
+      <guid>https://github.com/lightfeed/extractor</guid>
+      <pubDate>Thu, 26 Mar 2026 03:55:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>一篇被广泛引用的论文中的虚假陈述</title>
+      <link>https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/</link>
+      <description><![CDATA[文章网址： https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no- Corrections-no-consequences-welcome-to-the-business-school/
 评论网址：https://news.ycombinator.com/item?id=47525378
-积分：61
-# 条评论：18]]></description>
-      <guid>https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/?unapproved=2412259&moderation-hash=80fae7fdc82aee50eb3cb14cd8c0b080#comment-2412259</guid>
+积分：200
+# 条评论：68]]></description>
+      <guid>https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/</guid>
       <pubDate>Thu, 26 Mar 2026 00:46:31 GMT</pubDate>
     </item>
     <item>
@@ -20,8 +39,8 @@
       <link>https://www.cbc.ca/radio/asithappens/11-year-dog-reunion-9.7140780</link>
       <description><![CDATA[文章网址：https://www.cbc.ca/radio/asithappens/11-year-dog-reunion-9.7140780
 评论网址：https://news.ycombinator.com/item?id=47524719
-积分：80
-# 条评论：28]]></description>
+积分：130
+# 条评论：74]]></description>
       <guid>https://www.cbc.ca/radio/asithappens/11-year-dog-reunion-9.7140780</guid>
       <pubDate>Wed, 25 Mar 2026 23:30:55 GMT</pubDate>
     </item>
@@ -30,8 +49,8 @@
       <link>https://lab.puga.com.br/cog/</link>
       <description><![CDATA[文章网址：https://lab.puga.com.br/cog/
 评论网址：https://news.ycombinator.com/item?id=47524704
-积分：26
-# 条评论：14]]></description>
+积分：55
+# 条评论：20]]></description>
       <guid>https://lab.puga.com.br/cog/</guid>
       <pubDate>Wed, 25 Mar 2026 23:29:13 GMT</pubDate>
     </item>
@@ -40,8 +59,8 @@
       <link>https://calpaterson.com/disregard.html</link>
       <description><![CDATA[文章网址：https://calpaterson.com/disregard.html
 评论网址：https://news.ycombinator.com/item?id=47524519
-积分：12
-# 条评论：2]]></description>
+积分：38
+# 条评论：20]]></description>
       <guid>https://calpaterson.com/disregard.html</guid>
       <pubDate>Wed, 25 Mar 2026 23:11:34 GMT</pubDate>
     </item>
@@ -50,8 +69,8 @@
       <link>https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/</link>
       <description><![CDATA[文章网址： https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/
 评论网址：https://news.ycombinator.com/item?id=47523330
-积分：355
-# 条评论：120]]></description>
+积分：473
+# 条评论：132]]></description>
       <guid>https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/</guid>
       <pubDate>Wed, 25 Mar 2026 21:11:57 GMT</pubDate>
     </item>
@@ -60,8 +79,8 @@
       <link>https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-clinical-notes</link>
       <description><![CDATA[文章网址：https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-clinical-notes
 评论网址：https://news.ycombinator.com/item?id=47523169
-积分：90
-# 条评论：31]]></description>
+积分：128
+# 条评论：42]]></description>
       <guid>https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-clinical-notes</guid>
       <pubDate>Wed, 25 Mar 2026 20:58:43 GMT</pubDate>
     </item>
@@ -70,8 +89,8 @@
       <link>https://fightchatcontrol.eu/?foo=bar</link>
       <description><![CDATA[文章网址：https://fightchatcontrol.eu/?foo=bar
 评论网址：https://news.ycombinator.com/item?id=47522709
-积分：728
-# 条评论：210]]></description>
+积分：847
+# 条评论：226]]></description>
       <guid>https://fightchatcontrol.eu/?foo=bar</guid>
       <pubDate>Wed, 25 Mar 2026 20:27:03 GMT</pubDate>
     </item>
@@ -80,8 +99,8 @@
       <link>https://electrek.co/2026/03/25/sodium-ion-ev-battery-delivers-11-min-charging-450-km-range/</link>
       <description><![CDATA[文章网址：https://electrek.co/2026/03/25/sodium-ion-ev-battery-delivers-11-min-charging-450-km-range/
 评论网址：https://news.ycombinator.com/item?id=47522608
-积分：120
-# 条评论：73]]></description>
+积分：142
+评论数：98]]></description>
       <guid>https://electrek.co/2026/03/25/sodium-ion-ev-battery-delivers-11-min-charging-450-km-range/</guid>
       <pubDate>Wed, 25 Mar 2026 20:19:58 GMT</pubDate>
     </item>
@@ -90,20 +109,10 @@
       <link>https://blog.freecad.org/2026/03/25/freecad-version-1-1-released/</link>
       <description><![CDATA[文章网址：https://blog.freecad.org/2026/03/25/freecad-version-1-1-released/
 评论网址：https://news.ycombinator.com/item?id=47521945
-积分：175
-# 条评论：54]]></description>
+积分：208
+# 条评论：64]]></description>
       <guid>https://blog.freecad.org/2026/03/25/freecad-version-1-1-released/</guid>
       <pubDate>Wed, 25 Mar 2026 19:19:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>苹果随机关闭错误报告，除非您“验证”该错误仍未修复</title>
-      <link>https://lapcatsoftware.com/articles/2026/3/11.html</link>
-      <description><![CDATA[文章网址：https://lapcatsoftware.com/articles/2026/3/11.html
-评论网址：https://news.ycombinator.com/item?id=47521876
-积分：292
-评论数量：164]]></description>
-      <guid>https://lapcatsoftware.com/articles/2026/3/11.html</guid>
-      <pubDate>Wed, 25 Mar 2026 19:14:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
