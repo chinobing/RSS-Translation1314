@@ -4,106 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 26 Mar 2026 10:03:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 13:17:04 GMT</lastBuildDate>
     <item>
-      <title>更频繁地射精可能会提高精子质量</title>
-      <link>https://theconversation.com/ejaculating-more-frequently-may-improve-sperm-quality-new-study-275373</link>
-      <description><![CDATA[文章网址：https://theconversation.com/ejaculate-more-frequently-may-improve-sperm-quality-new-study-275373
-评论网址：https://news.ycombinator.com/item?id=47528481
+      <title>Show HN：Paseo – 开源编码代理界面（桌面、移动、CLI）</title>
+      <link>https://github.com/getpaseo/paseo</link>
+      <description><![CDATA[嘿 HN，我是 Mo。我正在构建 Paseo，一个用于运行 Claude Code、Codex 和 OpenCode 的多平台界面。该守护进程可以在任何机器（您的 Macbook、VPS 等）上运行，并且客户端（Web、移动、桌面、CLI）通过 WebSocket 连接（为了方便起见，有一个内置的 E2EE 中继，但您可以选择退出）。去年 9 月，我开始使用 Paseo 作为 Claude Code 的即按即说语音界面。我想在散步时免提地交流想法，过了一会儿我想看看代理在做什么，然后当我不能说话时我想发短信，然后我想查看差异并运行多个代理。我不断修复粗糙的边缘并添加功能，慢慢地它就变成了今天的样子。它的作用：- 通过同一 UI 运行多个提供程序- 适用于 macOS、Linux、Windows、iOS、Android 和 Web- 从同一 UI 管理不同计算机中的代理- 用于移动连接的 E2EE 中继- 本地语音聊天和听写（NVIDIA Parakeet + Kokoro + Sherpa ONNX）- 拆分窗格进行工作代理、文件和终端并排- Git 面板，用于检查差异并执行常见操作（提交、推送、创建 PR 等）- Git 工作树管理，以便代理不会相互干扰- Docker 风格的 CLI 来运行代理- 无遥测、无跟踪、无需登录Paseo 不会直接调用推理 API 或提取 OAuth 令牌。它包装您的第一方代理 CLI，并像在终端中一样运行它们。您的会话、您的系统提示、您的工具，没有任何内容被拦截或修改。Stack：守护进程是用 Typescript 编写的。该应用程序使用 Expo 并编译为本机移动应用程序和网络。桌面应用程序位于 Electron 中（我从 Tauri 开始，不得不迁移）。在不同的外形尺寸之间共享相同的代码库具有挑战性，但我想说，只要遵守纪律，这是可行的，而且结果是值得的，因为我构建的大多数功能都会在所有客户端中自动运行。我确实必须实现一些特定于平台的东西，特别是围绕手势、音频和滚动行为。该中继构建在 Cloudflare DO 之上，到目前为止运行良好。我喜欢使用该应用程序，但我对 CLI 的可能性更加兴奋，因为它成为更高级代理编排的基元，它比现有线束具有更好的人体工程学原理，而且我已经在使用它来试验循环和代理团队，尽管它仍然是新领域。Paseo 与类似应用程序相比如何：Anthropic 和 OpenAI 已经做了一些事情Paseo 确实有（Claude Code Remote Control、Codex 应用程序等），但质量参差不齐，你只能锁定他们的模型。我所知道的大多数其他替代方案要么是闭源的，要么不够灵活，无法满足我的需求。许可证是 AGPL-3.0。桌面应用程序附带一个守护程序，因此这就是您所需要的。但您也可以使用“npm install -g @getpaseo/cli”进行无头模式并通过任何客户端进行连接。我主要使用 Mac，因此 Linux 和 Windows 大多已由一小群早期采用者进行了测试。如果您遇到问题，我希望在 GitHub 上报告错误！仓库：https://github.com/getpaseo/paseo主页：https://paseo.sh/Discord：https://discord.gg/jz8T2uahpH很高兴回答有关产品、架构或其他任何问题的问题！---我重新提交了这篇文章，因为我忘记添加 URL，而且它不允许我稍后添加。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47530027
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/getpaseo/paseo</guid>
+      <pubDate>Thu, 26 Mar 2026 13:11:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>SGI 上的 OpenBSD，1/6：错失的机会</title>
+      <link>http://miod.online.fr/software/openbsd/stories/sgi1.html</link>
+      <description><![CDATA[文章网址：http://miod.online.fr/software/openbsd/stories/sgi1.html
+评论网址：https://news.ycombinator.com/item?id=47530016
+积分：1
+# 条评论：0]]></description>
+      <guid>http://miod.online.fr/software/openbsd/stories/sgi1.html</guid>
+      <pubDate>Thu, 26 Mar 2026 13:11:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>一条 Kubernetes 修复方案一年节省了 600 个小时</title>
+      <link>https://blog.cloudflare.com/one-line-kubernetes-fix-saved-600-hours-a-year/</link>
+      <description><![CDATA[文章网址：https://blog.cloudflare.com/one-line-kubernetes-fix-saved-600-hours-a-year/
+评论网址：https://news.ycombinator.com/item?id=47530015
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.cloudflare.com/one-line-kubernetes-fix-saved-600-hours-a-year/</guid>
+      <pubDate>Thu, 26 Mar 2026 13:11:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Slashr – 实时验证器事件源 [SOL、ETH、SUI、ATOM]</title>
+      <link>https://slashr.dev</link>
+      <description><![CDATA[文章网址：https://slashr.dev
+评论网址：https://news.ycombinator.com/item?id=47529995
 积分：1
 # 条评论：1]]></description>
-      <guid>https://theconversation.com/ejaculating-more-frequently-may-improve-sperm-quality-new-study-275373</guid>
-      <pubDate>Thu, 26 Mar 2026 09:56:21 GMT</pubDate>
+      <guid>https://slashr.dev</guid>
+      <pubDate>Thu, 26 Mar 2026 13:08:59 GMT</pubDate>
     </item>
     <item>
-      <title>针对时间序列基础模型</title>
-      <link>https://shakoist.substack.com/p/against-time-series-foundation-models</link>
-      <description><![CDATA[文章网址：https://shakoist.substack.com/p/against-time-series-foundation-models
-评论网址：https://news.ycombinator.com/item?id=47528475
+      <title>Show HN：agent-of-empires CLI 代理编排工具 1.0 版</title>
+      <link>https://www.agent-of-empires.com/</link>
+      <description><![CDATA[Nathan，我是 mozilla.ai 的 ML 工程师非常高兴将帝国代理 (aoe) 工具标记为 1.0 版本。我们的代码库有 30 个不同的直接贡献者，以及通过 Github 问题和各种评论的许多其他间接贡献者。它是一个工具，可以让您尽可能轻松地同时推动大量编码代理向前发展。由沙箱、git worktrees、tmux 提供支持，但所有这些东西都是为您管理的，因此您无需担心细节。我们还为那些喜欢通过视觉/音频学习的人提供了一个 YouTube 教程频道。 https://www.youtube.com/@agent-of-empires感谢社区提供的所有令人惊叹的功能创意和错误修复，我希望您喜欢我认为现在非常优秀、稳定且功能丰富的工具。这是我所有 Claude Code 代理的日常驱动程序，希望对其他人也有帮助。`brew install aoe`
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47529985
 积分：1
 # 条评论：0]]></description>
-      <guid>https://shakoist.substack.com/p/against-time-series-foundation-models</guid>
-      <pubDate>Thu, 26 Mar 2026 09:55:00 GMT</pubDate>
+      <guid>https://www.agent-of-empires.com/</guid>
+      <pubDate>Thu, 26 Mar 2026 13:07:52 GMT</pubDate>
     </item>
     <item>
-      <title>元图形用户界面</title>
-      <link>https://github.com/andynicholson/MetaImGUI</link>
-      <description><![CDATA[文章网址：https://github.com/andynicholson/MetaImGUI
-评论网址：https://news.ycombinator.com/item?id=47528446
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/andynicholson/MetaImGUI</guid>
-      <pubDate>Thu, 26 Mar 2026 09:48:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 一切都做得很糟糕</title>
-      <link>https://www.theatlantic.com/technology/2026/03/sora-openai-identity-crisis/686544/</link>
-      <description><![CDATA[文章网址：https://www.theatlantic.com/technology/2026/03/sora-openai-identity-crisis/686544/
-评论网址：https://news.ycombinator.com/item?id=47528427
+      <title>Show HN：这个标题在任何地方都很重要，还是只是在这里？ Crosswire.online</title>
+      <link>https://crosswire.online/country/us</link>
+      <description><![CDATA[文章网址：https://crosswire.online/country/us
+评论网址：https://news.ycombinator.com/item?id=47529970
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.theatlantic.com/technology/2026/03/sora-openai-identity-crisis/686544/</guid>
-      <pubDate>Thu, 26 Mar 2026 09:45:40 GMT</pubDate>
+      <guid>https://crosswire.online/country/us</guid>
+      <pubDate>Thu, 26 Mar 2026 13:06:28 GMT</pubDate>
     </item>
     <item>
-      <title>没有电话的童年？一个爱尔兰村庄正在实现这一目标</title>
-      <link>https://www.nytimes.com/2026/03/25/realestate/ireland-cell-phones-children.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2026/03/25/realestate/ireland-cell-phones-children.html
-评论网址：https://news.ycombinator.com/item?id=47528425
+      <title>工作的未来是世界模式</title>
+      <link>https://www.strangeloopcanon.com/p/the-future-of-work-is-world-models</link>
+      <description><![CDATA[文章网址：https://www.strangeloopcanon.com/p/the-future-of-work-is-world-models
+评论网址：https://news.ycombinator.com/item?id=47529965
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.strangeloopcanon.com/p/the-future-of-work-is-world-models</guid>
+      <pubDate>Thu, 26 Mar 2026 13:06:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Paseo – 开源编码代理界面（桌面、移动、CLI）</title>
+      <link>https://news.ycombinator.com/item?id=47529963</link>
+      <description><![CDATA[嘿 HN，我是 Mo。我正在构建 Paseo，一个用于运行 Claude Code、Codex 和 OpenCode 的多平台界面。该守护进程可以在任何机器（您的 Macbook、VPS 等）上运行，并且客户端（Web、移动、桌面、CLI）通过 WebSocket 连接（为了方便起见，有一个内置的 E2EE 中继，但您可以选择退出）。去年 9 月，我开始使用 Paseo 作为 Claude Code 的即按即说语音界面。我想在散步时免提地交流想法，过了一会儿我想看看代理在做什么，然后当我不能说话时我想发短信，然后我想查看差异并运行多个代理。我不断修复粗糙的边缘并添加功能，慢慢地它就变成了今天的样子。它的作用：- 通过同一 UI 运行多个提供程序- 适用于 macOS、Linux、Windows、iOS、Android 和 Web- 从同一 UI 管理不同计算机中的代理- 用于移动连接的 E2EE 中继- 本地语音聊天和听写（NVIDIA Parakeet + Kokoro + Sherpa ONNX）- 拆分窗格进行工作代理、文件和终端并排- Git 面板，用于检查差异并执行常见操作（提交、推送、创建 PR 等）- Git 工作树管理，以便代理不会相互干扰- Docker 风格的 CLI 来运行代理- 无遥测、无跟踪、无需登录Paseo 不会直接调用推理 API 或提取 OAuth 令牌。它包装您的第一方代理 CLI，并像在终端中一样运行它们。您的会话、您的系统提示、您的工具，没有任何内容被拦截或修改。Stack：守护进程是用 Typescript 编写的。该应用程序使用 Expo 并编译为本机移动应用程序和网络。桌面应用程序位于 Electron 中（我从 Tauri 开始，不得不迁移）。在不同的外形尺寸之间共享相同的代码库具有挑战性，但我想说，只要遵守纪律，这是可行的，而且结果是值得的，因为我构建的大多数功能都会在所有客户端中自动运行。我确实必须实现一些特定于平台的东西，特别是围绕手势、音频和滚动行为。该中继构建在 Cloudflare DO 之上，到目前为止运行良好。我喜欢使用该应用程序，但我对 CLI 的可能性更加兴奋，因为它成为更高级代理编排的基元，它比现有线束具有更好的人体工程学原理，而且我已经在使用它来试验循环和代理团队，尽管它仍然是新领域。Paseo 与类似应用程序相比如何：Anthropic 和 OpenAI 已经做了一些事情Paseo 确实有（Claude Code Remote Control、Codex 应用程序等），但质量参差不齐，你只能锁定他们的模型。我所知道的大多数其他替代方案要么是闭源的，要么不够灵活，无法满足我的需求。许可证是 AGPL-3.0。桌面应用程序附带一个守护程序，因此这就是您所需要的。但您也可以使用“npm install -g @getpaseo/cli”进行无头模式并通过任何客户端进行连接。我主要使用 Mac，因此 Linux 和 Windows 大多已由一小群早期采用者进行了测试。如果您遇到问题，我希望在 GitHub 上报告错误！仓库：https://github.com/getpaseo/paseo主页：https://paseo.sh/Discord：https://discord.gg/jz8T2uahpH很高兴回答有关产品、架构或其他任何问题！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47529963
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.nytimes.com/2026/03/25/realestate/ireland-cell-phones-children.html</guid>
-      <pubDate>Thu, 26 Mar 2026 09:45:17 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47529963</guid>
+      <pubDate>Thu, 26 Mar 2026 13:06:06 GMT</pubDate>
     </item>
     <item>
-      <title>IPhey：指纹识别和 IP 检查器</title>
-      <link>https://momoproxy.com/blog/iphey</link>
-      <description><![CDATA[文章网址：https://momoproxy.com/blog/iphey
-评论网址：https://news.ycombinator.com/item?id=47528421
+      <title>PolicyGen – 免费隐私政策生成器，无需帐户</title>
+      <link>https://policygen.app/</link>
+      <description><![CDATA[文章网址：https://policygen.app/
+评论网址：https://news.ycombinator.com/item?id=47529959
 积分：1
 # 条评论：0]]></description>
-      <guid>https://momoproxy.com/blog/iphey</guid>
-      <pubDate>Thu, 26 Mar 2026 09:44:24 GMT</pubDate>
+      <guid>https://policygen.app/</guid>
+      <pubDate>Thu, 26 Mar 2026 13:05:50 GMT</pubDate>
     </item>
     <item>
-      <title>2023 或者说，为什么我不是末日预言家</title>
-      <link>https://www.hyperdimensional.co/p/2023</link>
-      <description><![CDATA[文章网址：https://www.hyperDimensional.co/p/2023
-评论网址：https://news.ycombinator.com/item?id=47528411
+      <title>现在普通手机的电池比 S26 Ultra 更大</title>
+      <link>https://www.androidauthority.com/smartphones-average-battery-capacity-increase-3652111/</link>
+      <description><![CDATA[文章网址：https://www.androidauthority.com/smartphones-average-battery-capacity-increase-3652111/
+评论网址：https://news.ycombinator.com/item?id=47529955
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.hyperdimensional.co/p/2023</guid>
-      <pubDate>Thu, 26 Mar 2026 09:42:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>将错误视为警告</title>
-      <link>https://thejoylab.ai/p/ewarning</link>
-      <description><![CDATA[文章网址：https://thejoylab.ai/p/ewarning
-评论网址：https://news.ycombinator.com/item?id=47528404
-积分：1
-# 条评论：0]]></description>
-      <guid>https://thejoylab.ai/p/ewarning</guid>
-      <pubDate>Thu, 26 Mar 2026 09:41:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>在数学中，严谨至关重要。但数字化证据是否太过分了？</title>
-      <link>https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-take-it-too-far-20260325/
-评论网址：https://news.ycombinator.com/item?id=47528403
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/</guid>
-      <pubDate>Thu, 26 Mar 2026 09:41:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>LetPlant GreenFocus 番茄计时器</title>
-      <link>https://chromewebstore.google.com/detail/letplant-greenfocus-pomod/faafihopigjlmphlldphfgdgagioejmk</link>
-      <description><![CDATA[文章网址：https://chromewebstore.google.com/detail/letplant-greenfocus-pomod/faafihopigjlmphlldphfgdgagioejmk
-评论网址：https://news.ycombinator.com/item?id=47528400
-积分：1
-# 条评论：0]]></description>
-      <guid>https://chromewebstore.google.com/detail/letplant-greenfocus-pomod/faafihopigjlmphlldphfgdgagioejmk</guid>
-      <pubDate>Thu, 26 Mar 2026 09:41:10 GMT</pubDate>
+      <guid>https://www.androidauthority.com/smartphones-average-battery-capacity-increase-3652111/</guid>
+      <pubDate>Thu, 26 Mar 2026 13:05:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
