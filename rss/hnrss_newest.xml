@@ -4,118 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 26 Mar 2026 16:13:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 19:12:46 GMT</lastBuildDate>
     <item>
-      <title>为什么我们要构建不同类型的网络索引</title>
-      <link>https://www.newscatcherapi.com/blog-posts/why-were-building-a-different-type-of-web-index</link>
-      <description><![CDATA[文章网址：https://www.newscatcherapi.com/blog-posts/why-were-building-a- Different-type-of-web-index
-评论网址：https://news.ycombinator.com/item?id=47532171
+      <title>我的人工智能代理说“完成”。它跳过了验收标准</title>
+      <link>https://ctxt.dev/posts/en/signum-trust-boundary/</link>
+      <description><![CDATA[文章网址：https://ctxt.dev/posts/en/signum-trust-boundary/
+评论网址：https://news.ycombinator.com/item?id=47534378
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.newscatcherapi.com/blog-posts/why-were-building-a-different-type-of-web-index</guid>
-      <pubDate>Thu, 26 Mar 2026 16:02:54 GMT</pubDate>
+      <guid>https://ctxt.dev/posts/en/signum-trust-boundary/</guid>
+      <pubDate>Thu, 26 Mar 2026 19:07:40 GMT</pubDate>
     </item>
     <item>
-      <title>清醒神经外科手术期间用电刺激进行语言映射</title>
-      <link>https://www.science.org/doi/10.1126/sciadv.adw1599</link>
-      <description><![CDATA[文章网址：https://www.science.org/doi/10.1126/sciadv.adw1599
-评论网址：https://news.ycombinator.com/item?id=47532168
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.science.org/doi/10.1126/sciadv.adw1599</guid>
-      <pubDate>Thu, 26 Mar 2026 16:02:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Vibe 物理学：人工智能研究生</title>
-      <link>https://www.anthropic.com/research/vibe-physics</link>
-      <description><![CDATA[文章网址：https://www.anthropic.com/research/vibe-physicals
-评论网址：https://news.ycombinator.com/item?id=47532151
+      <title>Kldload 1.0 – Linux root 上的 ZFS</title>
+      <link>https://kldload.com/</link>
+      <description><![CDATA[文章网址：https://kldload.com/
+评论网址：https://news.ycombinator.com/item?id=47534344
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.anthropic.com/research/vibe-physics</guid>
-      <pubDate>Thu, 26 Mar 2026 16:01:04 GMT</pubDate>
+      <guid>https://kldload.com/</guid>
+      <pubDate>Thu, 26 Mar 2026 19:04:19 GMT</pubDate>
     </item>
     <item>
-      <title>Stripe 项目：通过 CLI 提供和管理服务</title>
-      <link>https://projects.dev/</link>
-      <description><![CDATA[文章网址：https://projects.dev/
-评论网址：https://news.ycombinator.com/item?id=47532148
-积分：2
-# 条评论：0]]></description>
-      <guid>https://projects.dev/</guid>
-      <pubDate>Thu, 26 Mar 2026 16:00:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>展示 HN：克劳德通过与 AI 代理交谈来评估 B2B 供应商的技能</title>
-      <link>https://github.com/salespeak-ai/buyer-eval-skill</link>
-      <description><![CDATA[我之所以创建这个，是因为我正在评估软件供应商，并意识到该流程 20 年来没有改变：填写表格、阅读 G2 评论、观看旨在避免真正问题的演示。
-该技能采用不同的方法。您向其提供您的公司名称和您要比较的供应商。它：自动研究您的公司——行业、规模、堆栈——因此您无需填写表格
-在评估任何内容之前询问 2-4 个特定类别的问题。不通用。对于 CS 平台评估，它可能会问“您的团队是高接触还是低接触？大多数 CS 平台都是为其中一个平台构建的，而几乎不适合另一个团队。”这些表面要求买家并不知道他们有。
-尝试找到并直接与每个供应商的 AI 代理进行对话——一种 REST API 调用，用于检查公司代理，然后运行结构化尽职调查对话（如果存在）
-提出对抗性问题：“客户最常见的抱怨是什么？”以及“您不适合哪些用例？” ——当客服人员偏离方向而不是回答时进行标记
-在声明与证据表中交叉引用每个供应商针对独立来源（G2、Gartner、媒体）的声明
-生成具有透明证据跟踪的记分卡 - 每个分数都显示它是由供应商验证的证据支持还是仅由公共来源支持代理到代理的部分在技术上是新的。当供应商拥有人工智能代理时，克劳德（为买方工作）会直接询问它，然后对其答案进行事实检查。当供应商拥有不同的证据级别时，该技能会量化如果缺失的证据得到确认会发生什么变化，因此它不会默默地偏向恰好拥有人工智能代理的供应商。
-它完全适用于任何供应商，无论是否有人工智能代理。没有的供应商会使用相同的评分框架在公共来源进行评估。
-我们在 Salespeak 建立了这个——我们帮助 B2B 供应商建立人工智能公司代理。所以，是的，这是有联系的：当代理找到供应商的公司代理时，它会使用我们的 Frontdoor API 与之对话。但如果没有这些，这项技能确实很有用，我们想诚实地对待这一点，而不是交付仅作为产品演示的东西。
-麻省理工学院许可。要安装，只需询问 Claude Code：“从 GitHub 上的 salespeak-ai 安装买家评估技能。”然后 /buyer-eval 运行它。为人工智能代理安装技能的方式与此相同，我认为是合适的。
-仓库：https://github.com/salespeak-ai/buyer-eval-skill
-很高兴回答有关代理间对话在技术上如何运作的问题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47532145
-积分：4
-# 条评论：0]]></description>
-      <guid>https://github.com/salespeak-ai/buyer-eval-skill</guid>
-      <pubDate>Thu, 26 Mar 2026 16:00:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>加拿大法院将竖起大拇指表情符号提升为签名地位（2023 年）</title>
-      <link>https://mccabes.com.au/insights/canadian-court-elevates-thumbs-up-emoji-to-signature-status-2/</link>
-      <description><![CDATA[文章网址：https://mccabes.com.au/insights/canadian-court-elevates-thumbs-up-emoji-to-signature-status-2/
-评论网址：https://news.ycombinator.com/item?id=47532144
-积分：1
-# 条评论：0]]></description>
-      <guid>https://mccabes.com.au/insights/canadian-court-elevates-thumbs-up-emoji-to-signature-status-2/</guid>
-      <pubDate>Thu, 26 Mar 2026 16:00:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>揭秘长期工具使用代理的强化学习</title>
-      <link>https://arxiv.org/abs/2603.21972</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2603.21972
-评论网址：https://news.ycombinator.com/item?id=47532123
-积分：1
-# 条评论：0]]></description>
-      <guid>https://arxiv.org/abs/2603.21972</guid>
-      <pubDate>Thu, 26 Mar 2026 15:59:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>将 LLM 代理集成到企业知识工作中的架构模式</title>
-      <link>https://pattersonconsultingtn.com/blog/architecturepatternsforintegratingagentsintoknowledge_work.html</link>
-      <description><![CDATA[文章网址：https://pattersonconsultingtn.com/blog/architecturepatternsforintegratingagentsintoknowledge_work.html
-评论网址：https://news.ycombinator.com/item?id=47532089
+      <title>代理上下文工程：不断发展的上下文以实现自我改进的语言模型</title>
+      <link>https://arxiv.org/abs/2510.04618</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2510.04618
+评论网址：https://news.ycombinator.com/item?id=47534337
 积分：1
 # 条评论：1]]></description>
-      <guid>https://pattersonconsultingtn.com/blog/architecturepatternsforintegratingagentsintoknowledge_work.html</guid>
-      <pubDate>Thu, 26 Mar 2026 15:57:04 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2510.04618</guid>
+      <pubDate>Thu, 26 Mar 2026 19:03:51 GMT</pubDate>
     </item>
     <item>
-      <title>蕾米莉亚落后了 60 年</title>
-      <link>https://remilia-60.pages.dev/</link>
-      <description><![CDATA[文章网址：https://remilia-60.pages.dev/
-评论网址：https://news.ycombinator.com/item?id=47532088
+      <title>简单的反转来击败 Systemd DOB 函数</title>
+      <link>https://github.com/systemd/systemd/commit/718c63de4d3dc181fa088183af157faae72688ab</link>
+      <description><![CDATA[文章网址：https://github.com/systemd/systemd/commit/718c63de4d3dc181fa088183af157faae72688ab
+评论网址：https://news.ycombinator.com/item?id=47534322
 积分：1
-# 条评论：0]]></description>
-      <guid>https://remilia-60.pages.dev/</guid>
-      <pubDate>Thu, 26 Mar 2026 15:57:03 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://github.com/systemd/systemd/commit/718c63de4d3dc181fa088183af157faae72688ab</guid>
+      <pubDate>Thu, 26 Mar 2026 19:02:28 GMT</pubDate>
     </item>
     <item>
-      <title>苹果在免费辅助轮业务捆绑包中推出地图广告</title>
-      <link>https://www.theregister.com/2026/03/25/apple_business_free_advertising_maps/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2026/03/25/apple_business_free_advertising_maps/
-评论网址：https://news.ycombinator.com/item?id=47532086
+      <title>进入家庭实验室</title>
+      <link>https://rugu.dev/en/blog/homelabbing_01/</link>
+      <description><![CDATA[文章网址：https://rugu.dev/en/blog/homelabbing_01/
+评论网址：https://news.ycombinator.com/item?id=47534319
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theregister.com/2026/03/25/apple_business_free_advertising_maps/</guid>
-      <pubDate>Thu, 26 Mar 2026 15:57:01 GMT</pubDate>
+      <guid>https://rugu.dev/en/blog/homelabbing_01/</guid>
+      <pubDate>Thu, 26 Mar 2026 19:02:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>索伦之眼？马尼夸根水库</title>
+      <link>http://abioticdesignstudio.blogspot.com/2014/01/the-eye-of-sauron-reservoir-manicouagan.html</link>
+      <description><![CDATA[文章网址：http://abioticdesignstudio.blogspot.com/2014/01/the-eye-of-sauron-reservoir-manicouagan.html
+评论网址：https://news.ycombinator.com/item?id=47534310
+积分：1
+# 条评论：0]]></description>
+      <guid>http://abioticdesignstudio.blogspot.com/2014/01/the-eye-of-sauron-reservoir-manicouagan.html</guid>
+      <pubDate>Thu, 26 Mar 2026 19:01:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Turbolite – 一个 SQLite VFS，服务于来自 S3 的 250 毫秒以下冷 JOIN 查询</title>
+      <link>https://github.com/russellromney/turbolite</link>
+      <description><![CDATA[我用 Rust 构建了一个 SQLite VFS，它直接从 S3 提供冷查询，具有亚秒级性能，而且速度通常要快得多。它被称为 Turbolite。它是实验性的，有缺陷，并且可能会损坏数据。我还不会相信它有任何重要的事情。我想探索对象存储是否已经足够快以支持云存储上的嵌入式数据库。文件系统奖励微小的随机读取和就地突变。 S3 奖励更少的请求、更大的传输、不可变的对象以及积极的并行操作，而带宽通常是真正的限制。这显然是受到 Turbopuffer 的全新 S3 原生设计的启发。 https://turbopuffer.com/blog/turbopuffer我想到的用例是许多大多数冷 SQLite 数据库（每个租户数据库、每个会话数据库或每个用户数据库架构），其中为不活动的数据库保留单独的附加卷感觉很浪费。 Turbolite 假设单个写入源，并且更多地针对“具有突发冷读的许多数据库”，而不是“一个热数据库”。turbolite 不会从原始 SQLite 文件中进行简单的一次一页读取，而是内省 SQLite B 树，将相关页面一起存储在压缩页面组中，并保留一个作为每个页面所在位置的真实来源的清单。缓存未命中使用可查找的 zstd 帧和 S3 范围 GET 进行搜索查询，因此获取所需页面不需要下载整个对象。在查询时，turbolite 还可以将存储操作从查询计划向下传递到 VFS，以便按照访问顺序预先下载索引和大型扫描。您可以调整 Turbolite 预取的积极程度。对于点查询和小型连接，它可以保持保守并避免预取整个表。对于扫描，它可能会变得更加激进。它还在 S3 中按页面类型对页面进行分组。内部 B 树页面单独捆绑并立即加载。索引页积极预取。数据页按表存储。我们的目标是使冷点查询和连接变得体面，同时使扫描比简单的远程分页更简单。在 EC2 + S3 Express 上的 1M 行/1.5GB 基准测试中，我看到的结果包括低于 100 毫秒的冷点查找、低于 200 毫秒的冷 5 连接配置文件查询以及从具有 1.5 GB 数据库的空缓存进行低于 600 毫秒的扫描。它在普通 S3/Tigris 上速度稍慢。当前的限制非常简单：它只是单写入器，而且它在很大程度上仍然是一个系统实验，而不是生产基础设施。我希望得到那些从事过网络 SQLite、存储引擎、VFS 或对象存储支持的数据库工作的人的反馈。我特别感兴趣的是 B 树感知分组/清单/seekable-range-GET 方向是否是继续推动的正确方向。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47534283
+积分：2
+# 条评论：0]]></description>
+      <guid>https://github.com/russellromney/turbolite</guid>
+      <pubDate>Thu, 26 Mar 2026 18:58:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能会议拒绝有关人工智能使用的论文</title>
+      <link>https://www.semafor.com/article/03/26/2026/ai-conference-rejects-papers-over-ai-use</link>
+      <description><![CDATA[文章网址：https://www.semafor.com/article/03/26/2026/ai-conference-rejects-papers-over-ai-use
+评论网址：https://news.ycombinator.com/item?id=47534262
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.semafor.com/article/03/26/2026/ai-conference-rejects-papers-over-ai-use</guid>
+      <pubDate>Thu, 26 Mar 2026 18:56:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>匈牙利指控记者声称部长与莫斯科保持联系</title>
+      <link>https://www.theguardian.com/world/2026/mar/26/hungary-charges-journalist-szabolcs-panyi-following-claims-minister-was-in-touch-with-moscow</link>
+      <description><![CDATA[文章网址： https://www.theguardian.com/world/2026/mar/26/hungary-charges-journalist-szabolcs-panyi-following-claims-minister-was-in-touch-with-moscow
+评论网址：https://news.ycombinator.com/item?id=47534248
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.theguardian.com/world/2026/mar/26/hungary-charges-journalist-szabolcs-panyi-following-claims-minister-was-in-touch-with-moscow</guid>
+      <pubDate>Thu, 26 Mar 2026 18:54:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>GERP – 使用 Go、Spanner、Temporal 和 GCP Vector 构建的无头 ERP</title>
+      <link>https://github.com/quantDIY/GERP</link>
+      <description><![CDATA[文章网址：https://github.com/quantDIY/GERP
+评论网址：https://news.ycombinator.com/item?id=47534245
+积分：1
+# 条评论：1]]></description>
+      <guid>https://github.com/quantDIY/GERP</guid>
+      <pubDate>Thu, 26 Mar 2026 18:54:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
