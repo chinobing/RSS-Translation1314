@@ -4,109 +4,118 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 26 Mar 2026 13:17:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 16:13:08 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Paseo – 开源编码代理界面（桌面、移动、CLI）</title>
-      <link>https://github.com/getpaseo/paseo</link>
-      <description><![CDATA[嘿 HN，我是 Mo。我正在构建 Paseo，一个用于运行 Claude Code、Codex 和 OpenCode 的多平台界面。该守护进程可以在任何机器（您的 Macbook、VPS 等）上运行，并且客户端（Web、移动、桌面、CLI）通过 WebSocket 连接（为了方便起见，有一个内置的 E2EE 中继，但您可以选择退出）。去年 9 月，我开始使用 Paseo 作为 Claude Code 的即按即说语音界面。我想在散步时免提地交流想法，过了一会儿我想看看代理在做什么，然后当我不能说话时我想发短信，然后我想查看差异并运行多个代理。我不断修复粗糙的边缘并添加功能，慢慢地它就变成了今天的样子。它的作用：- 通过同一 UI 运行多个提供程序- 适用于 macOS、Linux、Windows、iOS、Android 和 Web- 从同一 UI 管理不同计算机中的代理- 用于移动连接的 E2EE 中继- 本地语音聊天和听写（NVIDIA Parakeet + Kokoro + Sherpa ONNX）- 拆分窗格进行工作代理、文件和终端并排- Git 面板，用于检查差异并执行常见操作（提交、推送、创建 PR 等）- Git 工作树管理，以便代理不会相互干扰- Docker 风格的 CLI 来运行代理- 无遥测、无跟踪、无需登录Paseo 不会直接调用推理 API 或提取 OAuth 令牌。它包装您的第一方代理 CLI，并像在终端中一样运行它们。您的会话、您的系统提示、您的工具，没有任何内容被拦截或修改。Stack：守护进程是用 Typescript 编写的。该应用程序使用 Expo 并编译为本机移动应用程序和网络。桌面应用程序位于 Electron 中（我从 Tauri 开始，不得不迁移）。在不同的外形尺寸之间共享相同的代码库具有挑战性，但我想说，只要遵守纪律，这是可行的，而且结果是值得的，因为我构建的大多数功能都会在所有客户端中自动运行。我确实必须实现一些特定于平台的东西，特别是围绕手势、音频和滚动行为。该中继构建在 Cloudflare DO 之上，到目前为止运行良好。我喜欢使用该应用程序，但我对 CLI 的可能性更加兴奋，因为它成为更高级代理编排的基元，它比现有线束具有更好的人体工程学原理，而且我已经在使用它来试验循环和代理团队，尽管它仍然是新领域。Paseo 与类似应用程序相比如何：Anthropic 和 OpenAI 已经做了一些事情Paseo 确实有（Claude Code Remote Control、Codex 应用程序等），但质量参差不齐，你只能锁定他们的模型。我所知道的大多数其他替代方案要么是闭源的，要么不够灵活，无法满足我的需求。许可证是 AGPL-3.0。桌面应用程序附带一个守护程序，因此这就是您所需要的。但您也可以使用“npm install -g @getpaseo/cli”进行无头模式并通过任何客户端进行连接。我主要使用 Mac，因此 Linux 和 Windows 大多已由一小群早期采用者进行了测试。如果您遇到问题，我希望在 GitHub 上报告错误！仓库：https://github.com/getpaseo/paseo主页：https://paseo.sh/Discord：https://discord.gg/jz8T2uahpH很高兴回答有关产品、架构或其他任何问题的问题！---我重新提交了这篇文章，因为我忘记添加 URL，而且它不允许我稍后添加。
+      <title>为什么我们要构建不同类型的网络索引</title>
+      <link>https://www.newscatcherapi.com/blog-posts/why-were-building-a-different-type-of-web-index</link>
+      <description><![CDATA[文章网址：https://www.newscatcherapi.com/blog-posts/why-were-building-a- Different-type-of-web-index
+评论网址：https://news.ycombinator.com/item?id=47532171
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.newscatcherapi.com/blog-posts/why-were-building-a-different-type-of-web-index</guid>
+      <pubDate>Thu, 26 Mar 2026 16:02:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>清醒神经外科手术期间用电刺激进行语言映射</title>
+      <link>https://www.science.org/doi/10.1126/sciadv.adw1599</link>
+      <description><![CDATA[文章网址：https://www.science.org/doi/10.1126/sciadv.adw1599
+评论网址：https://news.ycombinator.com/item?id=47532168
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.science.org/doi/10.1126/sciadv.adw1599</guid>
+      <pubDate>Thu, 26 Mar 2026 16:02:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vibe 物理学：人工智能研究生</title>
+      <link>https://www.anthropic.com/research/vibe-physics</link>
+      <description><![CDATA[文章网址：https://www.anthropic.com/research/vibe-physicals
+评论网址：https://news.ycombinator.com/item?id=47532151
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.anthropic.com/research/vibe-physics</guid>
+      <pubDate>Thu, 26 Mar 2026 16:01:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe 项目：通过 CLI 提供和管理服务</title>
+      <link>https://projects.dev/</link>
+      <description><![CDATA[文章网址：https://projects.dev/
+评论网址：https://news.ycombinator.com/item?id=47532148
+积分：2
+# 条评论：0]]></description>
+      <guid>https://projects.dev/</guid>
+      <pubDate>Thu, 26 Mar 2026 16:00:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>展示 HN：克劳德通过与 AI 代理交谈来评估 B2B 供应商的技能</title>
+      <link>https://github.com/salespeak-ai/buyer-eval-skill</link>
+      <description><![CDATA[我之所以创建这个，是因为我正在评估软件供应商，并意识到该流程 20 年来没有改变：填写表格、阅读 G2 评论、观看旨在避免真正问题的演示。
+该技能采用不同的方法。您向其提供您的公司名称和您要比较的供应商。它：自动研究您的公司——行业、规模、堆栈——因此您无需填写表格
+在评估任何内容之前询问 2-4 个特定类别的问题。不通用。对于 CS 平台评估，它可能会问“您的团队是高接触还是低接触？大多数 CS 平台都是为其中一个平台构建的，而几乎不适合另一个团队。”这些表面要求买家并不知道他们有。
+尝试找到并直接与每个供应商的 AI 代理进行对话——一种 REST API 调用，用于检查公司代理，然后运行结构化尽职调查对话（如果存在）
+提出对抗性问题：“客户最常见的抱怨是什么？”以及“您不适合哪些用例？” ——当客服人员偏离方向而不是回答时进行标记
+在声明与证据表中交叉引用每个供应商针对独立来源（G2、Gartner、媒体）的声明
+生成具有透明证据跟踪的记分卡 - 每个分数都显示它是由供应商验证的证据支持还是仅由公共来源支持代理到代理的部分在技术上是新的。当供应商拥有人工智能代理时，克劳德（为买方工作）会直接询问它，然后对其答案进行事实检查。当供应商拥有不同的证据级别时，该技能会量化如果缺失的证据得到确认会发生什么变化，因此它不会默默地偏向恰好拥有人工智能代理的供应商。
+它完全适用于任何供应商，无论是否有人工智能代理。没有的供应商会使用相同的评分框架在公共来源进行评估。
+我们在 Salespeak 建立了这个——我们帮助 B2B 供应商建立人工智能公司代理。所以，是的，这是有联系的：当代理找到供应商的公司代理时，它会使用我们的 Frontdoor API 与之对话。但如果没有这些，这项技能确实很有用，我们想诚实地对待这一点，而不是交付仅作为产品演示的东西。
+麻省理工学院许可。要安装，只需询问 Claude Code：“从 GitHub 上的 salespeak-ai 安装买家评估技能。”然后 /buyer-eval 运行它。为人工智能代理安装技能的方式与此相同，我认为是合适的。
+仓库：https://github.com/salespeak-ai/buyer-eval-skill
+很高兴回答有关代理间对话在技术上如何运作的问题。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47530027
-积分：1
+评论网址：https://news.ycombinator.com/item?id=47532145
+积分：4
 # 条评论：0]]></description>
-      <guid>https://github.com/getpaseo/paseo</guid>
-      <pubDate>Thu, 26 Mar 2026 13:11:34 GMT</pubDate>
+      <guid>https://github.com/salespeak-ai/buyer-eval-skill</guid>
+      <pubDate>Thu, 26 Mar 2026 16:00:47 GMT</pubDate>
     </item>
     <item>
-      <title>SGI 上的 OpenBSD，1/6：错失的机会</title>
-      <link>http://miod.online.fr/software/openbsd/stories/sgi1.html</link>
-      <description><![CDATA[文章网址：http://miod.online.fr/software/openbsd/stories/sgi1.html
-评论网址：https://news.ycombinator.com/item?id=47530016
+      <title>加拿大法院将竖起大拇指表情符号提升为签名地位（2023 年）</title>
+      <link>https://mccabes.com.au/insights/canadian-court-elevates-thumbs-up-emoji-to-signature-status-2/</link>
+      <description><![CDATA[文章网址：https://mccabes.com.au/insights/canadian-court-elevates-thumbs-up-emoji-to-signature-status-2/
+评论网址：https://news.ycombinator.com/item?id=47532144
 积分：1
 # 条评论：0]]></description>
-      <guid>http://miod.online.fr/software/openbsd/stories/sgi1.html</guid>
-      <pubDate>Thu, 26 Mar 2026 13:11:09 GMT</pubDate>
+      <guid>https://mccabes.com.au/insights/canadian-court-elevates-thumbs-up-emoji-to-signature-status-2/</guid>
+      <pubDate>Thu, 26 Mar 2026 16:00:44 GMT</pubDate>
     </item>
     <item>
-      <title>一条 Kubernetes 修复方案一年节省了 600 个小时</title>
-      <link>https://blog.cloudflare.com/one-line-kubernetes-fix-saved-600-hours-a-year/</link>
-      <description><![CDATA[文章网址：https://blog.cloudflare.com/one-line-kubernetes-fix-saved-600-hours-a-year/
-评论网址：https://news.ycombinator.com/item?id=47530015
+      <title>揭秘长期工具使用代理的强化学习</title>
+      <link>https://arxiv.org/abs/2603.21972</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2603.21972
+评论网址：https://news.ycombinator.com/item?id=47532123
 积分：1
 # 条评论：0]]></description>
-      <guid>https://blog.cloudflare.com/one-line-kubernetes-fix-saved-600-hours-a-year/</guid>
-      <pubDate>Thu, 26 Mar 2026 13:11:09 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2603.21972</guid>
+      <pubDate>Thu, 26 Mar 2026 15:59:27 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Slashr – 实时验证器事件源 [SOL、ETH、SUI、ATOM]</title>
-      <link>https://slashr.dev</link>
-      <description><![CDATA[文章网址：https://slashr.dev
-评论网址：https://news.ycombinator.com/item?id=47529995
+      <title>将 LLM 代理集成到企业知识工作中的架构模式</title>
+      <link>https://pattersonconsultingtn.com/blog/architecturepatternsforintegratingagentsintoknowledge_work.html</link>
+      <description><![CDATA[文章网址：https://pattersonconsultingtn.com/blog/architecturepatternsforintegratingagentsintoknowledge_work.html
+评论网址：https://news.ycombinator.com/item?id=47532089
 积分：1
 # 条评论：1]]></description>
-      <guid>https://slashr.dev</guid>
-      <pubDate>Thu, 26 Mar 2026 13:08:59 GMT</pubDate>
+      <guid>https://pattersonconsultingtn.com/blog/architecturepatternsforintegratingagentsintoknowledge_work.html</guid>
+      <pubDate>Thu, 26 Mar 2026 15:57:04 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：agent-of-empires CLI 代理编排工具 1.0 版</title>
-      <link>https://www.agent-of-empires.com/</link>
-      <description><![CDATA[Nathan，我是 mozilla.ai 的 ML 工程师非常高兴将帝国代理 (aoe) 工具标记为 1.0 版本。我们的代码库有 30 个不同的直接贡献者，以及通过 Github 问题和各种评论的许多其他间接贡献者。它是一个工具，可以让您尽可能轻松地同时推动大量编码代理向前发展。由沙箱、git worktrees、tmux 提供支持，但所有这些东西都是为您管理的，因此您无需担心细节。我们还为那些喜欢通过视觉/音频学习的人提供了一个 YouTube 教程频道。 https://www.youtube.com/@agent-of-empires感谢社区提供的所有令人惊叹的功能创意和错误修复，我希望您喜欢我认为现在非常优秀、稳定且功能丰富的工具。这是我所有 Claude Code 代理的日常驱动程序，希望对其他人也有帮助。`brew install aoe`
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47529985
+      <title>蕾米莉亚落后了 60 年</title>
+      <link>https://remilia-60.pages.dev/</link>
+      <description><![CDATA[文章网址：https://remilia-60.pages.dev/
+评论网址：https://news.ycombinator.com/item?id=47532088
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.agent-of-empires.com/</guid>
-      <pubDate>Thu, 26 Mar 2026 13:07:52 GMT</pubDate>
+      <guid>https://remilia-60.pages.dev/</guid>
+      <pubDate>Thu, 26 Mar 2026 15:57:03 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：这个标题在任何地方都很重要，还是只是在这里？ Crosswire.online</title>
-      <link>https://crosswire.online/country/us</link>
-      <description><![CDATA[文章网址：https://crosswire.online/country/us
-评论网址：https://news.ycombinator.com/item?id=47529970
-积分：2
-# 条评论：0]]></description>
-      <guid>https://crosswire.online/country/us</guid>
-      <pubDate>Thu, 26 Mar 2026 13:06:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>工作的未来是世界模式</title>
-      <link>https://www.strangeloopcanon.com/p/the-future-of-work-is-world-models</link>
-      <description><![CDATA[文章网址：https://www.strangeloopcanon.com/p/the-future-of-work-is-world-models
-评论网址：https://news.ycombinator.com/item?id=47529965
+      <title>苹果在免费辅助轮业务捆绑包中推出地图广告</title>
+      <link>https://www.theregister.com/2026/03/25/apple_business_free_advertising_maps/</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/2026/03/25/apple_business_free_advertising_maps/
+评论网址：https://news.ycombinator.com/item?id=47532086
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.strangeloopcanon.com/p/the-future-of-work-is-world-models</guid>
-      <pubDate>Thu, 26 Mar 2026 13:06:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Paseo – 开源编码代理界面（桌面、移动、CLI）</title>
-      <link>https://news.ycombinator.com/item?id=47529963</link>
-      <description><![CDATA[嘿 HN，我是 Mo。我正在构建 Paseo，一个用于运行 Claude Code、Codex 和 OpenCode 的多平台界面。该守护进程可以在任何机器（您的 Macbook、VPS 等）上运行，并且客户端（Web、移动、桌面、CLI）通过 WebSocket 连接（为了方便起见，有一个内置的 E2EE 中继，但您可以选择退出）。去年 9 月，我开始使用 Paseo 作为 Claude Code 的即按即说语音界面。我想在散步时免提地交流想法，过了一会儿我想看看代理在做什么，然后当我不能说话时我想发短信，然后我想查看差异并运行多个代理。我不断修复粗糙的边缘并添加功能，慢慢地它就变成了今天的样子。它的作用：- 通过同一 UI 运行多个提供程序- 适用于 macOS、Linux、Windows、iOS、Android 和 Web- 从同一 UI 管理不同计算机中的代理- 用于移动连接的 E2EE 中继- 本地语音聊天和听写（NVIDIA Parakeet + Kokoro + Sherpa ONNX）- 拆分窗格进行工作代理、文件和终端并排- Git 面板，用于检查差异并执行常见操作（提交、推送、创建 PR 等）- Git 工作树管理，以便代理不会相互干扰- Docker 风格的 CLI 来运行代理- 无遥测、无跟踪、无需登录Paseo 不会直接调用推理 API 或提取 OAuth 令牌。它包装您的第一方代理 CLI，并像在终端中一样运行它们。您的会话、您的系统提示、您的工具，没有任何内容被拦截或修改。Stack：守护进程是用 Typescript 编写的。该应用程序使用 Expo 并编译为本机移动应用程序和网络。桌面应用程序位于 Electron 中（我从 Tauri 开始，不得不迁移）。在不同的外形尺寸之间共享相同的代码库具有挑战性，但我想说，只要遵守纪律，这是可行的，而且结果是值得的，因为我构建的大多数功能都会在所有客户端中自动运行。我确实必须实现一些特定于平台的东西，特别是围绕手势、音频和滚动行为。该中继构建在 Cloudflare DO 之上，到目前为止运行良好。我喜欢使用该应用程序，但我对 CLI 的可能性更加兴奋，因为它成为更高级代理编排的基元，它比现有线束具有更好的人体工程学原理，而且我已经在使用它来试验循环和代理团队，尽管它仍然是新领域。Paseo 与类似应用程序相比如何：Anthropic 和 OpenAI 已经做了一些事情Paseo 确实有（Claude Code Remote Control、Codex 应用程序等），但质量参差不齐，你只能锁定他们的模型。我所知道的大多数其他替代方案要么是闭源的，要么不够灵活，无法满足我的需求。许可证是 AGPL-3.0。桌面应用程序附带一个守护程序，因此这就是您所需要的。但您也可以使用“npm install -g @getpaseo/cli”进行无头模式并通过任何客户端进行连接。我主要使用 Mac，因此 Linux 和 Windows 大多已由一小群早期采用者进行了测试。如果您遇到问题，我希望在 GitHub 上报告错误！仓库：https://github.com/getpaseo/paseo主页：https://paseo.sh/Discord：https://discord.gg/jz8T2uahpH很高兴回答有关产品、架构或其他任何问题！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47529963
-积分：2
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47529963</guid>
-      <pubDate>Thu, 26 Mar 2026 13:06:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>PolicyGen – 免费隐私政策生成器，无需帐户</title>
-      <link>https://policygen.app/</link>
-      <description><![CDATA[文章网址：https://policygen.app/
-评论网址：https://news.ycombinator.com/item?id=47529959
-积分：1
-# 条评论：0]]></description>
-      <guid>https://policygen.app/</guid>
-      <pubDate>Thu, 26 Mar 2026 13:05:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>现在普通手机的电池比 S26 Ultra 更大</title>
-      <link>https://www.androidauthority.com/smartphones-average-battery-capacity-increase-3652111/</link>
-      <description><![CDATA[文章网址：https://www.androidauthority.com/smartphones-average-battery-capacity-increase-3652111/
-评论网址：https://news.ycombinator.com/item?id=47529955
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.androidauthority.com/smartphones-average-battery-capacity-increase-3652111/</guid>
-      <pubDate>Thu, 26 Mar 2026 13:05:23 GMT</pubDate>
+      <guid>https://www.theregister.com/2026/03/25/apple_business_free_advertising_maps/</guid>
+      <pubDate>Thu, 26 Mar 2026 15:57:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
