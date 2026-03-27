@@ -4,14 +4,44 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 27 Mar 2026 02:25:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 05:08:06 GMT</lastBuildDate>
+    <item>
+      <title>在网络上安排 Claude Code 任务</title>
+      <link>https://code.claude.com/docs/en/web-scheduled-tasks</link>
+      <description><![CDATA[文章网址：https://code.claude.com/docs/en/web-scheduled-tasks
+评论网址：https://news.ycombinator.com/item?id=47539188
+积分：5
+# 条评论：1]]></description>
+      <guid>https://code.claude.com/docs/en/web-scheduled-tasks</guid>
+      <pubDate>Fri, 27 Mar 2026 04:47:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于 MakeMKV 和 HandBrake 自动化的 HandyMKV</title>
+      <link>https://github.com/dmars8047/handymkv</link>
+      <description><![CDATA[文章网址：https://github.com/dmars8047/handymkv
+评论网址：https://news.ycombinator.com/item?id=47538433
+积分：12
+# 条评论：1]]></description>
+      <guid>https://github.com/dmars8047/handymkv</guid>
+      <pubDate>Fri, 27 Mar 2026 02:19:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Agent 到 Agent 结对编程</title>
+      <link>https://axeldelafosse.com/blog/agent-to-agent-pair-programming</link>
+      <description><![CDATA[文章网址：https://axeldelafosse.com/blog/agent-to-agent-pair-programming
+评论网址：https://news.ycombinator.com/item?id=47538190
+积分：25
+评论数量：9]]></description>
+      <guid>https://axeldelafosse.com/blog/agent-to-agent-pair-programming</guid>
+      <pubDate>Fri, 27 Mar 2026 01:47:55 GMT</pubDate>
+    </item>
     <item>
       <title>ARC-AGI-3 第一天从 0% 到 36%</title>
       <link>https://www.symbolica.ai/blog/arc-agi-3</link>
       <description><![CDATA[文章网址：https://www.symbolica.ai/blog/arc-agi-3
 评论网址：https://news.ycombinator.com/item?id=47538078
-积分：8
-# 条评论：5]]></description>
+积分：55
+# 条评论：21]]></description>
       <guid>https://www.symbolica.ai/blog/arc-agi-3</guid>
       <pubDate>Fri, 27 Mar 2026 01:32:10 GMT</pubDate>
     </item>
@@ -20,8 +50,8 @@
       <link>https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk</link>
       <description><![CDATA[文章网址：https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk
 评论网址：https://news.ycombinator.com/item?id=47537228
-积分：181
-# 条评论：113]]></description>
+积分：332
+# 条评论：176]]></description>
       <guid>https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk</guid>
       <pubDate>Thu, 26 Mar 2026 23:33:53 GMT</pubDate>
     </item>
@@ -30,82 +60,51 @@
       <link>https://www.chicagotribune.com/2026/03/25/chicago-neighborhood-posters/</link>
       <description><![CDATA[文章网址：https://www.chicagotribune.com/2026/03/25/chicago-neighborhood-posters/
 评论网址：https://news.ycombinator.com/item?id=47537106
-积分：54
-# 条评论：24]]></description>
+积分：74
+# 条评论：33]]></description>
       <guid>https://www.chicagotribune.com/2026/03/25/chicago-neighborhood-posters/</guid>
       <pubDate>Thu, 26 Mar 2026 23:18:38 GMT</pubDate>
     </item>
     <item>
-      <title>授予初步禁令的命令——人类诉美国战争部 [pdf]</title>
-      <link>https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.cand.465515.134.0.pdf</link>
-      <description><![CDATA[文章网址： https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.cand.465515.134.0.pdf
-评论网址：https://news.ycombinator.com/item?id=47537051
-积分：107
-# 条评论：13]]></description>
-      <guid>https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.cand.465515.134.0.pdf</guid>
-      <pubDate>Thu, 26 Mar 2026 23:11:45 GMT</pubDate>
-    </item>
-    <item>
       <title>Show HN：我在每月 7 美元的 VPS 上放置了一个 AI 代理，并以 IRC 作为其传输层</title>
       <link>https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/</link>
-      <description><![CDATA[文章网址：https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/
+      <description><![CDATA[堆栈：两个代理在不同的盒子上。公共版本 (nullclaw) 是一个 678 KB Zig 二进制文件，使用 ~1 MB RAM，连接到 Ergo IRC 服务器。访问者通过我网站中嵌入的 gamja Web 客户端与其进行对话。专用的 (ironclaw) 处理电子邮件和日程安排，只能通过 Google 的 A2A 协议通过 Tailscale 进行访问。分层推理：用于对话的 Haiku 4.5（亚秒级，便宜），用于工具使用的 Sonnet 4.6（仅在需要时）。硬上限为 2 美元/天。A2A 直通：私有端代理借用网关自己的推理管道，因此无论谁发起请求，都会有一个 API 密钥和一种计费关系。您可以通过 https://georgelarson.me/chat/ 与 nully 交谈或与任何 IRC 客户端连接irc.georgelarson.me:6697 (TLS)，频道#lobby。
+&lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47536761
-积分：104
-# 条评论：32]]></description>
+积分：160
+# 条评论：61]]></description>
       <guid>https://georgelarson.me/writing/2026-03-23-nullclaw-doorman/</guid>
       <pubDate>Thu, 26 Mar 2026 22:41:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们用 AI 重写了 JSONata，一天之内节省了 50 万美元/年</title>
+      <link>https://www.reco.ai/blog/we-rewrote-jsonata-with-ai</link>
+      <description><![CDATA[文章网址：https://www.reco.ai/blog/we-reco.ai/blog/we-reco-jsonata-with-ai
+评论网址：https://news.ycombinator.com/item?id=47536712
+积分：88
+评论数量：92]]></description>
+      <guid>https://www.reco.ai/blog/we-rewrote-jsonata-with-ai</guid>
+      <pubDate>Thu, 26 Mar 2026 22:36:41 GMT</pubDate>
     </item>
     <item>
       <title>人为子处理器变更</title>
       <link>https://trust.anthropic.com</link>
       <description><![CDATA[文章网址：https://trust.anthropic.com
 评论网址：https://news.ycombinator.com/item?id=47536110
-积分：43
-# 条评论：22]]></description>
+积分：56
+# 条评论：30]]></description>
       <guid>https://trust.anthropic.com</guid>
       <pubDate>Thu, 26 Mar 2026 21:37:15 GMT</pubDate>
     </item>
     <item>
-      <title>Apple 停产 Mac Pro，且没有未来硬件计划</title>
+      <title>Apple 停产 Mac Pro</title>
       <link>https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/</link>
       <description><![CDATA[文章网址：https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/
 评论网址：https://news.ycombinator.com/item?id=47535708
-积分：95
-评论数：86]]></description>
+积分：213
+# 条评论：169]]></description>
       <guid>https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/</guid>
       <pubDate>Thu, 26 Mar 2026 21:04:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Fio：3D 世界编辑器/游戏引擎 – 灵感来自 Radiant 和 Hammer</title>
-      <link>https://github.com/ViciousSquid/Fio</link>
-      <description><![CDATA[基于阈值画笔的 CSG 编辑器和具有统一（前向）渲染器的游戏引擎
-灵感来自 Radiant 和 Worldcraft/Hammer紧凑、轻量（目标：Snapdragon 8CX、OpenGL 3.3）带有模板阴影的实时光照，无需预烘焙编译
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47535626
-积分：40
-# 条评论：3]]></description>
-      <guid>https://github.com/ViciousSquid/Fio</guid>
-      <pubDate>Thu, 26 Mar 2026 20:58:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Raspberry Pi 上使用 FireWire</title>
-      <link>https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/</link>
-      <description><![CDATA[文章网址：https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/
-评论网址：https://news.ycombinator.com/item?id=47535249
-积分：59
-# 条评论：28]]></description>
-      <guid>https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/</guid>
-      <pubDate>Thu, 26 Mar 2026 20:23:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们还没有看到赌博和预测市场将发生的最糟糕的情况</title>
-      <link>https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what</link>
-      <description><![CDATA[文章网址：https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what
-评论网址：https://news.ycombinator.com/item?id=47534848
-积分：572
-# 条评论：406]]></description>
-      <guid>https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what</guid>
-      <pubDate>Thu, 26 Mar 2026 19:48:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
