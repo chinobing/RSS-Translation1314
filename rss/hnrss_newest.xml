@@ -4,105 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 28 Mar 2026 09:40:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 12:56:26 GMT</lastBuildDate>
     <item>
-      <title>苹果表示，处于锁定模式的 iPhone 从未被黑客入侵过</title>
-      <link>https://www.macrumors.com/2026/03/27/no-iphone-in-lockdown-mode-has-ever-been-hacked/</link>
-      <description><![CDATA[文章网址：https://www.macrumors.com/2026/03/27/no-iphone-in-lockdown-mode-has-ever-been-hacked/
-评论网址：https://news.ycombinator.com/item?id=47553006
+      <title>你无法集中注意力是有充分理由的</title>
+      <link>https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html
+评论网址：https://news.ycombinator.com/item?id=47554133
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.macrumors.com/2026/03/27/no-iphone-in-lockdown-mode-has-ever-been-hacked/</guid>
-      <pubDate>Sat, 28 Mar 2026 09:29:17 GMT</pubDate>
+      <guid>https://www.nytimes.com/2026/03/27/opinion/technology-mental-fitness-cognitive.html</guid>
+      <pubDate>Sat, 28 Mar 2026 12:50:54 GMT</pubDate>
     </item>
     <item>
-      <title>我两年前离开了 YouTube。是时候回来了[视频]</title>
-      <link>https://www.youtube.com/watch?v=Yz3lSKgz4q8</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=Yz3lSKgz4q8
-评论网址：https://news.ycombinator.com/item?id=47552973
+      <title>Solvespace v3.2 (CAD)</title>
+      <link>https://solvespace.com/index.pl</link>
+      <description><![CDATA[文章网址：https://solvespace.com/index.pl
+评论网址：https://news.ycombinator.com/item?id=47554132
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=Yz3lSKgz4q8</guid>
-      <pubDate>Sat, 28 Mar 2026 09:22:11 GMT</pubDate>
+      <guid>https://solvespace.com/index.pl</guid>
+      <pubDate>Sat, 28 Mar 2026 12:50:50 GMT</pubDate>
     </item>
     <item>
-      <title>Nicholas Carlini – 黑帽法学硕士 – [un]提示 2026 [视频]</title>
-      <link>https://www.youtube.com/watch?v=1sd26pWhfmg</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=1sd26pWhfmg
-评论网址：https://news.ycombinator.com/item?id=47552951
+      <title>缺少用于清洁拓扑 3D 网格生成的数据集？</title>
+      <link>https://news.ycombinator.com/item?id=47554130</link>
+      <description><![CDATA[我们需要一个 Blender bpy.ops 数据集来进行自回归建模，而网格生成是一个死胡同，要么发布，要么灭亡。每个人都知道神经网格生成有点无用的玩具，但在 2022 年，Autodesk Research 发布了 SkexGen (ICML 2022)，这是一个生成 CAD 构造序列的自回归模型。您绘制 2D 轮廓、对其进行拉伸、对其进行布尔运算，每个步骤都是有效的 CAD 操作。 SCAD 和 Adam 之类的人已经将这一点推断为法学硕士，这很好 - 如果他们真的是专业的，实际上他们会非常好，差距就在于法学硕士的视觉问题。它之所以有效，是因为 CAD 文件本身存储了它们的构建历史，它的存在是因为构建序列总是被存储，而 DeepCAD 数据集免费为他们提供了数千个这样的序列。 Blender 的功能在哪里？研究社区选择追求直接网格生成，将顶点和面标记为序列（PolyGen、MeshAnything、MeshXL、MESHTRON 等）或逆向网格简化 (ARMesh)。这些方法正在变得更好，但它们从根本上与代表性作斗争。顶点坐标序列不会编码为什么存在边缘循环，但 by.ops 会编码。我们应该制作一个数据集。 Blender 已将每个 bpy.ops 调用记录到其信息面板。记录插件可以捕获包含所有参数的完整 bpy.ops 调用、每个步骤的选择状态（选择了哪些顶点/边/面）、每个步骤（或关键间隔）的轻量级网格快照以及作为标签的最终网格。是的，噪声、上下文和比例之间存在挑战，但是......？自回归方法已经被证明。差距完全在于数据收集基础设施。为什么不呢？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47554130
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47554130</guid>
+      <pubDate>Sat, 28 Mar 2026 12:50:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Shellwright – CLI 剧作家 – 帮助 Claude 使用交互式 CLI</title>
+      <link>https://github.com/nielsbosma/shellwright</link>
+      <description><![CDATA[文章网址：https://github.com/nielsbosma/shellwright
+评论网址：https://news.ycombinator.com/item?id=47554111
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/nielsbosma/shellwright</guid>
+      <pubDate>Sat, 28 Mar 2026 12:48:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mistral Voxtral TTS 通过 Apple 设备上的 MLX 在设备上运行</title>
+      <link>https://github.com/lbj96347/Mistral-TTS-iOS</link>
+      <description><![CDATA[文章网址：https://github.com/lbj96347/Mistral-TTS-iOS
+评论网址：https://news.ycombinator.com/item?id=47554102
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/lbj96347/Mistral-TTS-iOS</guid>
+      <pubDate>Sat, 28 Mar 2026 12:47:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>对（技术）架构的欣赏</title>
+      <link>https://interconnected.org/home/2026/03/28/architecture</link>
+      <description><![CDATA[文章网址：https://interconnected.org/home/2026/03/28/architecture
+评论网址：https://news.ycombinator.com/item?id=47554094
+积分：1
+# 条评论：0]]></description>
+      <guid>https://interconnected.org/home/2026/03/28/architecture</guid>
+      <pubDate>Sat, 28 Mar 2026 12:46:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>每个人都在建设一个软件工厂</title>
+      <link>https://blog.exe.dev/bones-of-the-software-factory</link>
+      <description><![CDATA[文章网址：https://blog.exe.dev/bones-of-the-software-factory
+评论网址：https://news.ycombinator.com/item?id=47554093
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=1sd26pWhfmg</guid>
-      <pubDate>Sat, 28 Mar 2026 09:18:50 GMT</pubDate>
+      <guid>https://blog.exe.dev/bones-of-the-software-factory</guid>
+      <pubDate>Sat, 28 Mar 2026 12:46:21 GMT</pubDate>
     </item>
     <item>
-      <title>构建一个嵌入 Rust 的吉他训练器</title>
-      <link>https://blog.orhun.dev/introducing-tuitar/</link>
-      <description><![CDATA[文章网址：https://blog.orhun.dev/introducing-tuitar/
-Comments URL: https://news.ycombinator.com/item?id=47552945
+      <title>怀疑预测</title>
+      <link>https://humbledollar.com/2026/03/doubt-the-forecast/</link>
+      <description><![CDATA[文章网址：https://humbledollar.com/2026/03/doubt-the-forecast/
+评论网址：https://news.ycombinator.com/item?id=47554092
 积分：1
 # 条评论：0]]></description>
-      <guid>https://blog.orhun.dev/introducing-tuitar/</guid>
-      <pubDate>Sat, 28 Mar 2026 09:17:31 GMT</pubDate>
+      <guid>https://humbledollar.com/2026/03/doubt-the-forecast/</guid>
+      <pubDate>Sat, 28 Mar 2026 12:46:13 GMT</pubDate>
     </item>
     <item>
-      <title>弄清楚在代理世界中构建什么</title>
-      <link>https://nickmorley.org/#/post/what-to-build-in-a-world-of-agents</link>
-      <description><![CDATA[文章网址：https://nickmorley.org/#/post/what-to-build-in-a-world-of-agents
-评论网址：https://news.ycombinator.com/item?id=47552915
-积分：1
-# 条评论：1]]></description>
-      <guid>https://nickmorley.org/#/post/what-to-build-in-a-world-of-agents</guid>
-      <pubDate>Sat, 28 Mar 2026 09:11:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>GIS 激光雷达测绘监管链</title>
-      <link>https://appliedsystemsinsight.com</link>
-      <description><![CDATA[文章网址：https://appliedsystemsinsight.com
-评论网址：https://news.ycombinator.com/item?id=47552888
-积分：1
-# 条评论：0]]></description>
-      <guid>https://appliedsystemsinsight.com</guid>
-      <pubDate>Sat, 28 Mar 2026 09:07:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么你的人工智能代理会反对你</title>
-      <link>https://yoloai.dev/posts/ai-agent-threat-landscape/</link>
-      <description><![CDATA[文章网址：https://yoloai.dev/posts/ai-agent-threat-landscape/
-评论网址：https://news.ycombinator.com/item?id=47552877
-积分：1
-# 条评论：0]]></description>
-      <guid>https://yoloai.dev/posts/ai-agent-threat-landscape/</guid>
-      <pubDate>Sat, 28 Mar 2026 09:05:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>134229 黑客奥托</title>
-      <link>https://news.ycombinator.com/item?id=47552854</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=47552854
-积分：2
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47552854</guid>
-      <pubDate>Sat, 28 Mar 2026 09:01:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>三星 DeX 的最佳 iPhone 替代品：外接显示浏览器</title>
-      <link>https://apps.apple.com/us/app/external-display-browser/id6758286241</link>
-      <description><![CDATA[文章网址：https://apps.apple.com/us/app/external-display-browser/id6758286241
-评论网址：https://news.ycombinator.com/item?id=47552849
-积分：2
-# 条评论：2]]></description>
-      <guid>https://apps.apple.com/us/app/external-display-browser/id6758286241</guid>
-      <pubDate>Sat, 28 Mar 2026 09:00:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gridpaper（科学绘图工具）达到 1.0</title>
-      <link>https://gridpaper.org/examples/</link>
-      <description><![CDATA[文章网址：https://gridpaper.org/examples/
-评论网址：https://news.ycombinator.com/item?id=47552846
+      <title>OpenAI 正在将注意力集中在赚钱的事情上</title>
+      <link>https://www.axios.com/2026/03/28/openai-erotica-chatgpt-ipo</link>
+      <description><![CDATA[文章网址：https://www.axios.com/2026/03/28/openai-erotica-chatgpt-ipo
+评论网址：https://news.ycombinator.com/item?id=47554072
 积分：3
 # 条评论：0]]></description>
-      <guid>https://gridpaper.org/examples/</guid>
-      <pubDate>Sat, 28 Mar 2026 09:00:10 GMT</pubDate>
+      <guid>https://www.axios.com/2026/03/28/openai-erotica-chatgpt-ipo</guid>
+      <pubDate>Sat, 28 Mar 2026 12:43:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta 和 Google 面临社交媒体成瘾问题的清算</title>
+      <link>https://www.economist.com/business/2026/03/25/meta-and-google-face-a-reckoning-over-social-media-addiction</link>
+      <description><![CDATA[文章网址：https://www.economist.com/business/2026/03/25/meta-and-google-face-a-reckoning-over-social-media-addiction
+评论网址：https://news.ycombinator.com/item?id=47554069
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.economist.com/business/2026/03/25/meta-and-google-face-a-reckoning-over-social-media-addiction</guid>
+      <pubDate>Sat, 28 Mar 2026 12:42:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
