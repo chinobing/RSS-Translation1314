@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Fri, 27 Mar 2026 21:34:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 02:07:51 GMT</lastBuildDate>
+    <item>
+      <title>[P] 我构建了一个管道，将 YouTube AI/ML 视频转换为 LLM 训练数据（100+ 预处理，免费浏览）</title>
+      <link>https://www.reddit.com/r/programming/comments/1s5ntjx/p_i_built_a_pipeline_that_converts_youtube_aiml/</link>
+      <description><![CDATA[嘿 r/learnmachinelearning ， 我一直在从事一个业余项目，我认为这个社区可能会觉得有用。 **问题：** 现代 ML 技术的最高信号解释 - 来自 Andrej Karpathy 的 LLM 演练3Blue1Brown 的神经网络解释器 - 以 YouTube 视频形式存在。这些都不在任何训练数据集中。 **我构建的是：** VideoMind AI - 一个管道，它：  将任何 YouTube URL 处理为干净的带时间戳的文字记录 生成结构化问答对以进行微调/RAG 创建突出显示关键概念的 AI 摘要 将所有内容导出为 JSON/CSV 以用于训练管道  **免费试用：** 在 https://videomind-ai.com 上浏览 100 多个预处理的 AI 工作流程视频到“LLM代理架构” - 全部转换为训练就绪格式。 **技术细节：** - 用于转录的 Whisper（带有 YouTube API 回退） - 用于问答生成和概念提取的 GPT-4 - FastAPI 后端，部署在渲染器上 - 使用 Claude 代码在 2 周内构建了整个内容 **对于社区：** PDF 指南涵盖了完整的内容适合任何想要构建类似管道的人的方法论 - 视频源、质量过滤、法律考虑和规模自动化。 很高兴回答有关技术堆栈、数据质量的问题，或分享输出格式的示例！   由   提交/u/Rhinowars  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s5ntjx/p_i_built_a_pipeline_that_converts_youtube_aiml/</guid>
+      <pubDate>Sat, 28 Mar 2026 02:06:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHub Actions 正在慢慢杀死你的工程团队 - Ian Duncan</title>
+      <link>https://www.reddit.com/r/programming/comments/1s5ja3a/github_actions_is_slowly_killing_your_engineering/</link>
+      <description><![CDATA[ 由   提交/u/cbigsby  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s5ja3a/github_actions_is_slowly_killing_your_engineering/</guid>
+      <pubDate>Fri, 27 Mar 2026 22:48:07 GMT</pubDate>
+    </item>
     <item>
       <title>Dijkstra 的最短路径算法：跟随 Sedgewick 的视觉探索</title>
       <link>https://www.reddit.com/r/programming/comments/1s5etpi/dijkstras_shortestpath_algorithm_a_visual/</link>
@@ -95,20 +109,6 @@
       <description><![CDATA[我们每周都能读到针对知名 Web 应用程序的大量成功攻击。有足够的理由研究“Web应用安全”的背景定制/自行开发的应用程序 - 无论这些应用程序仅在内部使用还是公共访问......   由   提交/u/casaaugusta  [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1s4wpxk/secure_programming_of_web_applications_crosssite/</guid>
       <pubDate>Fri, 27 Mar 2026 06:46:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>量子前沿可能比看起来更接近 - Google 的 PQC 迁移时间表</title>
-      <link>https://www.reddit.com/r/programming/comments/1s4s0m1/quantum_frontiers_may_be_closer_than_they_appear/</link>
-      <description><![CDATA[ 由   提交 /u/CircumspectCapybara   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s4s0m1/quantum_frontiers_may_be_closer_than_they_appear/</guid>
-      <pubDate>Fri, 27 Mar 2026 02:41:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>Petri 网作为音乐音序器——使用令牌环、抑制弧和欧几里得节奏来生成确定性曲目。</title>
-      <link>https://www.reddit.com/r/programming/comments/1s4nuem/petri_nets_as_music_sequencers_using_token_rings/</link>
-      <description><![CDATA[ 由   提交/u/orksliver  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s4nuem/petri_nets_as_music_sequencers_using_token_rings/</guid>
-      <pubDate>Thu, 26 Mar 2026 23:40:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
