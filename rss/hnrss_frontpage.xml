@@ -4,14 +4,85 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 30 Mar 2026 13:20:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 16:07:10 GMT</lastBuildDate>
+    <item>
+      <title>FTC 针对 Match 和 OkCupid 欺骗用户、共享个人数据而采取的行动</title>
+      <link>https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party</link>
+      <description><![CDATA[文章网址： https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party
+评论网址：https://news.ycombinator.com/item?id=47575616
+积分：9
+# 条评论：1]]></description>
+      <guid>https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party</guid>
+      <pubDate>Mon, 30 Mar 2026 15:32:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Coasts – 面向代理的容器化主机</title>
+      <link>https://github.com/coast-guard/coasts</link>
+      <description><![CDATA[嗨，HN - 我们一直致力于 Coasts（“容器化主机”）的开发，以便您可以在同一台计算机上跨 git 工作树运行多个 localhost 实例和多个 docker-compose 运行时。这是一个演示：https://www.youtube.com/watch?v=yRiySdGQZZA。我们的文档中还有一些视频提供了很好的概念性概述：https://coasts.dev/docs/learn-coasts-videos。代理可以单独在不同的工作树中进行代码更改，但如果没有多个隔离且范围仅限于这些工作树的本地主机运行时，他们很难测试其更改。在一定程度上，您可以使用端口黑客技巧来做到这一点，但当您拥有一个包含许多服务和多个卷的复杂 docker-compose 时，它​​就变得不切实际了。我们在今年年初开始使用 Codex 和 Conductor，并且不得不想出一堆黑客解决方法，让代理能够访问隔离的运行时。在破坏了我们自己的 docker-compose 设置之后，我们想出了 Coasts 作为代理拥有自己的运行时的一种方式，而无需更改原始的 docker-compose。容器化主机（从现在开始我们简称为“coast”）是项目运行时的表示，就像 devcontainer 但没有 IDE 东西 - 它只专注于运行时。您在项目根目录创建一个 Coastfile，通常从那里指向项目的 docker-compose。当您在 Coastfile 旁边运行“coast build”时，您将获得一个构建（本质上是一个 docker 映像），可用于启动项目的多个 Docker-in-Docker 运行时。一旦您运行了 Coast，您就可以使用“coast allocate dev-1 -w worktree-1”执行诸如将其分配给工作树之类的操作。然后，coast 将指向 worktree-1 根目录。在底层，主机项目根目录和任何外部工作树目录都在创建时通过 Docker 绑定挂载到容器中，但我们运行 Coast 服务的 /workspace 目录是我们在运行的容器内创建的单独的 Linux 绑定挂载。当切换工作树时，我们基本上只是在运行海岸内执行 umount -l /workspace、 mount --bind 、 mount --make-rshared /workspace 。 rshared 标志设置挂载传播，以便当我们重新挂载 /workspace 时，更改会流向内部 Docker 守护进程的容器。主要思想是代理可以继续在主机端工作，但如果需要测试运行时更改或访问运行时日志，则针对特定的 Coast 实例运行 exec 命令。这使得我们能够与线束无关，并围绕运行主机端的任何代理或代理线束创建互操作性。每个 Coast 都有自己的一组动态端口：您可以在 Coastfile 中定义希望向主机公开的端口。您还可以“检查”海岸。当您这样做时，socat 会将您海岸的规范端口（例如 web 3000、db 5432）绑定到主机。如果您的项目中有硬编码端口或需要执行测试 Webhooks 之类的操作，这非常有用。在 Coastfile 中，您指向主机上存储项目工作树的所有位置（例如 ~/.codex/worktrees）。当代理从主机端工作树目录运行“coast Lookup”时，它能够找到正在运行的 Coast 实例的名称，因此它可以执行诸如调用“coast exec dev-1 maketests”之类的操作。如果您的代理需要执行诸如使用 Playwright 进行测试之类的操作，则主机端可以使用前端的动态端口。您还可以配置卷拓扑、省略代理不需要的服务和卷，以及共享主机端的某些服务，这样您就不会增加每个 Coast 实例的开销。您还可以执行一些操作，例如定义工作树分配更改后每个服务应如何表现的策略（例如无、热、重新启动、重建）。这可以帮助您优化切换工作树，这样您就不必每次都执行整个 docker-compose 上下循环。我们很乐意回答任何问题并获得您的反馈！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47575417
+积分：4
+# 条评论：1]]></description>
+      <guid>https://github.com/coast-guard/coasts</guid>
+      <pubDate>Mon, 30 Mar 2026 15:17:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>CodingFont：帮助您选择编码字体的游戏</title>
+      <link>https://www.codingfont.com/</link>
+      <description><![CDATA[文章网址：https://www.codingfont.com/
+评论网址：https://news.ycombinator.com/item?id=47575403
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.codingfont.com/</guid>
+      <pubDate>Mon, 30 Mar 2026 15:16:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>“Copilot 向超过 150 万个 GitHub PR 注入了广告”</title>
+      <link>https://www.neowin.net/news/microsoft-copilot-is-now-injecting-ads-into-pull-requests-on-github-gitlab/</link>
+      <description><![CDATA[文章网址：https://www.neowin.net/news/microsoft-copilot-is-now-injecting-ads-into-pull-requests-on-github-gitlab/
+评论网址：https://news.ycombinator.com/item?id=47575212
+积分：73
+# 条评论：31]]></description>
+      <guid>https://www.neowin.net/news/microsoft-copilot-is-now-injecting-ads-into-pull-requests-on-github-gitlab/</guid>
+      <pubDate>Mon, 30 Mar 2026 15:00:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>仅仅四集就摧毁了 72% 的美元购买力</title>
+      <link>https://eco3min.fr/en/us-inflation-is-not-linear/</link>
+      <description><![CDATA[文章网址：https://eco3min.fr/en/us-inflation-is-not-linear/
+评论网址：https://news.ycombinator.com/item?id=47575089
+积分：47
+# 条评论：13]]></description>
+      <guid>https://eco3min.fr/en/us-inflation-is-not-linear/</guid>
+      <pubDate>Mon, 30 Mar 2026 14:49:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何将任何东西变成路由器</title>
+      <link>https://nbailey.ca/post/router/</link>
+      <description><![CDATA[文章网址：https://nbailey.ca/post/router/
+评论网址：https://news.ycombinator.com/item?id=47574034
+积分：191
+# 条评论：77]]></description>
+      <guid>https://nbailey.ca/post/router/</guid>
+      <pubDate>Mon, 30 Mar 2026 13:28:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>同等质量下，鹦鹉的神经元数量是灵长类动物大脑的两倍</title>
+      <link>https://www.dhanishsemar.com/writing/bird-brains</link>
+      <description><![CDATA[文章网址：https://www.dhanishsemar.com/writing/bird-brains
+评论网址：https://news.ycombinator.com/item?id=47573887
+积分：131
+# 条评论：65]]></description>
+      <guid>https://www.dhanishsemar.com/writing/bird-brains</guid>
+      <pubDate>Mon, 30 Mar 2026 13:14:27 GMT</pubDate>
+    </item>
     <item>
       <title>人工智能泡沫如何破灭</title>
       <link>https://martinvol.pe/blog/2026/03/30/how-the-ai-bubble-bursts/</link>
       <description><![CDATA[文章网址：https://martinvol.pe/blog/2026/03/30/how-the-ai-bubble-bursts/
 评论网址：https://news.ycombinator.com/item?id=47573420
-积分：106
-# 条评论：61]]></description>
+积分：290
+评论数：345]]></description>
       <guid>https://martinvol.pe/blog/2026/03/30/how-the-ai-bubble-bursts/</guid>
       <pubDate>Mon, 30 Mar 2026 12:28:36 GMT</pubDate>
     </item>
@@ -20,8 +91,8 @@
       <link>https://www.mgrunwald.com/ghostmoon/</link>
       <description><![CDATA[文章网址：https://www.mgrunwald.com/ghostmoon/
 评论网址：https://news.ycombinator.com/item?id=47572910
-积分：67
-# 条评论：62]]></description>
+积分：123
+评论数量：91]]></description>
       <guid>https://www.mgrunwald.com/ghostmoon/</guid>
       <pubDate>Mon, 30 Mar 2026 11:25:50 GMT</pubDate>
     </item>
@@ -30,80 +101,10 @@
       <link>https://arxiv.org/abs/2603.26524</link>
       <description><![CDATA[文章网址：https://arxiv.org/abs/2603.26524
 评论网址：https://news.ycombinator.com/item?id=47572771
-积分：51
-# 条评论：3]]></description>
+积分：119
+# 条评论：41]]></description>
       <guid>https://arxiv.org/abs/2603.26524</guid>
       <pubDate>Mon, 30 Mar 2026 11:05:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hamilton-Jacobi-Bellman 方程：强化学习和扩散模型</title>
-      <link>https://dani2442.github.io/posts/continuous-rl/</link>
-      <description><![CDATA[文章网址：https://dani2442.github.io/posts/continuous-rl/
-评论网址：https://news.ycombinator.com/item?id=47571495
-积分：79
-# 条评论：20]]></description>
-      <guid>https://dani2442.github.io/posts/continuous-rl/</guid>
-      <pubDate>Mon, 30 Mar 2026 07:34:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：按字母顺序排列的时钟</title>
-      <link>https://boat.horse/clock/</link>
-      <description><![CDATA[文章网址：https://boat.horse/clock/
-评论网址：https://news.ycombinator.com/item?id=47571401
-积分：19
-评论数量：9]]></description>
-      <guid>https://boat.horse/clock/</guid>
-      <pubDate>Mon, 30 Mar 2026 07:19:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>我使用 exalidraw 来管理我的博客图表</title>
-      <link>https://blog.lysk.tech/excalidraw-frame-export/</link>
-      <description><![CDATA[文章网址：https://blog.lysk.tech/excalidraw-frame-export/
-评论网址：https://news.ycombinator.com/item?id=47571376
-积分：127
-# 条评论：61]]></description>
-      <guid>https://blog.lysk.tech/excalidraw-frame-export/</guid>
-      <pubDate>Mon, 30 Mar 2026 07:17:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>15 年，一台服务器，8GB RAM 和 50 万用户——Webminal 如何拒绝消亡</title>
-      <link>https://community.webminal.org/t/15-years-one-server-8gb-ram-and-500k-users-how-webminal-refuses-to-die/8803</link>
-      <description><![CDATA[文章网址： https://community.webminal.org/t/15-years-one-server-8gb-ram-and-500k-users-how-webminal-refuses-to-die/8803
-评论网址：https://news.ycombinator.com/item?id=47570940
-积分：170
-# 条评论：34]]></description>
-      <guid>https://community.webminal.org/t/15-years-one-server-8gb-ram-and-500k-users-how-webminal-refuses-to-die/8803</guid>
-      <pubDate>Mon, 30 Mar 2026 06:08:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>复古演示场景图形的奇怪案例</title>
-      <link>https://www.datagubbe.se/aipixels/</link>
-      <description><![CDATA[文章网址：https://www.datagubbe.se/aipixels/
-评论网址：https://news.ycombinator.com/item?id=47570666
-积分：242
-# 条评论：57]]></description>
-      <guid>https://www.datagubbe.se/aipixels/</guid>
-      <pubDate>Mon, 30 Mar 2026 05:27:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>VHDL 皇冠上的明珠</title>
-      <link>https://www.sigasi.com/opinion/jan/vhdls-crown-jewel/</link>
-      <description><![CDATA[文章网址：https://www.sigasi.com/opinion/jan/vhdls-crown-jewel/
-评论网址：https://news.ycombinator.com/item?id=47570435
-积分：87
-# 条评论：32]]></description>
-      <guid>https://www.sigasi.com/opinion/jan/vhdls-crown-jewel/</guid>
-      <pubDate>Mon, 30 Mar 2026 04:39:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Copilot 将广告编辑到我的 PR 中</title>
-      <link>https://notes.zachmanson.com/copilot-edited-an-ad-into-my-pr/</link>
-      <description><![CDATA[文章网址：https://notes.zachmanson.com/copilot-edited-an-ad-into-my-pr/
-评论网址：https://news.ycombinator.com/item?id=47570269
-积分：852
-# 条评论：261]]></description>
-      <guid>https://notes.zachmanson.com/copilot-edited-an-ad-into-my-pr/</guid>
-      <pubDate>Mon, 30 Mar 2026 04:04:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
