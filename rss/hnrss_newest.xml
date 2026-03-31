@@ -4,111 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 31 Mar 2026 07:16:09 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 10:08:48 GMT</lastBuildDate>
     <item>
-      <title>工作软件在本地运行</title>
-      <link>https://nickmonad.blog/2026/working-software-runs-locally/</link>
-      <description><![CDATA[文章网址：https://nickmonad.blog/2026/working-software-runs-locally/
-评论网址：https://news.ycombinator.com/item?id=47583782
-积分：1
-# 条评论：0]]></description>
-      <guid>https://nickmonad.blog/2026/working-software-runs-locally/</guid>
-      <pubDate>Tue, 31 Mar 2026 07:10:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>安德烈·卡帕蒂 (Andrej Karpathy) 谈供应链攻击</title>
-      <link>https://twitter.com/karpathy/status/2038849654423798197</link>
-      <description><![CDATA[文章网址：https://twitter.com/karpathy/status/2038849654423798197
-评论网址：https://news.ycombinator.com/item?id=47583744
-积分：1
-# 条评论：0]]></description>
-      <guid>https://twitter.com/karpathy/status/2038849654423798197</guid>
-      <pubDate>Tue, 31 Mar 2026 07:04:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>下载：无脑克隆人和第一个在体外存活的子宫</title>
-      <link>https://www.technologyreview.com/2026/03/30/1134836/the-download-brainless-human-clones-first-uterus-kept-alive-outside-body/</link>
-      <description><![CDATA[文章网址： https://www.technologyreview.com/2026/03/30/1134836/the-download-brainless- human-clones-first-uterus-kept-alive-outside-body/
-评论网址：https://news.ycombinator.com/item?id=47583732
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.technologyreview.com/2026/03/30/1134836/the-download-brainless-human-clones-first-uterus-kept-alive-outside-body/</guid>
-      <pubDate>Tue, 31 Mar 2026 07:03:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：TaskTrace，一个本地优先的活动日志，为 LLM 提供上下文</title>
-      <link>https://tasktrace.com</link>
-      <description><![CDATA[TaskTrace 是一款桌面应用程序，可连续记录您的活动（屏幕截图、击键、麦克风），并将其转换为结构化、可搜索的您一直在执行的操作历史记录。一切都在您的计算机上本地运行。本地人工智能模型，本地数据库。没有云，没有互联网。您的数据永远不会离开您的计算机。然后，本地法学硕士会对数据进行汇总和标记，以便您获得有关您的时间花费方式的丰富分析视图。本地运行的 MCP 还会显示这些数据，以便您的其他代理（Claude、Codex、OpenClaw）可以读取您的活动历史记录，并更好地自动了解您所做的事情。演示：https://youtu.be/GwJy-93vFFI
+      <title>询问 HN：您使用什么进行本地嵌入？</title>
+      <link>https://news.ycombinator.com/item?id=47585025</link>
+      <description><![CDATA[当我第一次学习 LLM 和 RAG 时，我构建了这个项目 Reminder (https://github.com/asim/reminder)。它使用 OpenAi 生成嵌入，然后使用 Fanar 生成法学硕士。我基本上会对文本语料库进行索引，询问嵌入问题，并将结果传递给法学硕士以获得更准确的结果和总结。效果很好。但有两个问题。一是依赖 OpenAi 嵌入并使用他们的 API 来继续这一点。第二个是它使用 Fanar 模型，速度相当慢。所以我正在考虑切换到全文搜索。但后来我在某种程度上失去了语义搜索。于是我开始寻找不同的方法来做到这一点。我正在运行一个相当低成本的虚拟机。不，GPU。我尝试将 olama 与 nomic-embed-text 一起使用，但速度很慢。我正在考虑使用 ONNX 但不太确定。我只是好奇其他人在做什么。我的意思是，你是否会硬着头皮离开它，然后为 llm 使用更强大的模型，以便更快？只是想知道人们在做什么。我知道很多人在 Mac Mini 上运行一些东西以及类似的东西，但我没有 Mac mini。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47583697
+评论网址：https://news.ycombinator.com/item?id=47585025
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47585025</guid>
+      <pubDate>Tue, 31 Mar 2026 10:03:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>构建桌面定制应用程序 – 尝试一下</title>
+      <link>https://overlayos.veinpal.com/download</link>
+      <description><![CDATA[文章网址：https://overlayos.veinpal.com/download
+评论网址：https://news.ycombinator.com/item?id=47585015
 积分：1
 # 条评论：1]]></description>
-      <guid>https://tasktrace.com</guid>
-      <pubDate>Tue, 31 Mar 2026 06:58:05 GMT</pubDate>
+      <guid>https://overlayos.veinpal.com/download</guid>
+      <pubDate>Tue, 31 Mar 2026 10:03:08 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Claudebase：通过 GitHub 在计算机之间同步您的 Claude Code env</title>
-      <link>https://github.com/rohithzr/claudebase</link>
-      <description><![CDATA[文章网址：https://github.com/rohithzr/claudebase
-评论网址：https://news.ycombinator.com/item?id=47583664
+      <title>Show HN：DreamGraph – 软件系统的自主认知层</title>
+      <link>https://github.com/mmethodz/dreamgraph</link>
+      <description><![CDATA[文章网址：https://github.com/mmethodz/dreamgraph
+评论网址：https://news.ycombinator.com/item?id=47585009
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/rohithzr/claudebase</guid>
-      <pubDate>Tue, 31 Mar 2026 06:53:23 GMT</pubDate>
+      <guid>https://github.com/mmethodz/dreamgraph</guid>
+      <pubDate>Tue, 31 Mar 2026 10:02:43 GMT</pubDate>
     </item>
     <item>
-      <title>人类ALL</title>
-      <link>https://humantodo.dev/</link>
-      <description><![CDATA[文章网址：https:// humantodo.dev/
-评论网址：https://news.ycombinator.com/item?id=47583661
+      <title>一年内 7,655 起勒索软件索赔：团体、部门和国家/地区细分</title>
+      <link>https://ciphercue.com/blog/7655-ransomware-claims-march-2025-to-march-2026</link>
+      <description><![CDATA[文章网址：https://ciphercue.com/blog/7655-ransomware-claims-march-2025-to-march-2026
+评论网址：https://news.ycombinator.com/item?id=47585008
 积分：1
 # 条评论：0]]></description>
-      <guid>https://humantodo.dev/</guid>
-      <pubDate>Tue, 31 Mar 2026 06:52:57 GMT</pubDate>
+      <guid>https://ciphercue.com/blog/7655-ransomware-claims-march-2025-to-march-2026</guid>
+      <pubDate>Tue, 31 Mar 2026 10:02:34 GMT</pubDate>
     </item>
     <item>
-      <title>YouTube聊天记录显示员工因“观众成瘾”而被解雇</title>
-      <link>https://www.dexerto.com/youtube/youtube-chat-logs-reveal-employees-aimed-for-viewer-addiction-and-scrapped-safety-tools-3343070/</link>
-      <description><![CDATA[文章网址： https://www.dexerto.com/youtube/youtube-chat-logs-reveal-employees-aimed-for-viewer-addiction-and-scrapped-safety-tools-3343070/
-评论网址：https://news.ycombinator.com/item?id=47583637
-积分：3
-# 条评论：1]]></description>
-      <guid>https://www.dexerto.com/youtube/youtube-chat-logs-reveal-employees-aimed-for-viewer-addiction-and-scrapped-safety-tools-3343070/</guid>
-      <pubDate>Tue, 31 Mar 2026 06:49:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>自由是唯一重要的事情。自由自在地生活。自由创作</title>
-      <link>https://news.ycombinator.com/item?id=47583636</link>
-      <description><![CDATA[只是一个提醒。祝你有美好的一天。 ツ
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47583636
+      <title>Claude Code源代码泄露 (2026-03-31)</title>
+      <link>https://github.com/instructkr/claude-code</link>
+      <description><![CDATA[文章网址：https://github.com/instructkr/claude-code
+评论网址：https://news.ycombinator.com/item?id=47585006
 积分：2
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=47583636</guid>
-      <pubDate>Tue, 31 Mar 2026 06:49:36 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://github.com/instructkr/claude-code</guid>
+      <pubDate>Tue, 31 Mar 2026 10:02:17 GMT</pubDate>
     </item>
     <item>
-      <title>有了神话，我们就能达到编码奇点吗？</title>
-      <link>https://news.ycombinator.com/item?id=47583620</link>
-      <description><![CDATA[代理正在编写代码、检测漏洞以及潜在的补救措施（？），因此任何数字化的内容都将为代理做好准备。这是一个牵强的说法吗？向社区提出的几个问题： 
-我们是否认为它会发现更多问题，但修复会花费更长的时间，因为它一开始就没有编写安全代码或运行时配置？  
-唯一的价值在于验证吗？  安全修复验证很难，如何验证？  或者你只是重新扫描，因为它变得便宜了？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47583620
+      <title>Palantir 英国老板批评“意识形态”团体……废除 NHS 合同</title>
+      <link>https://www.theguardian.com/technology/2026/mar/31/palantir-uk-boss-louis-mosley-ministers-nhs-contract</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/technology/2026/mar/31/palantir-uk-boss-louis-mosley-ministers-nhs-contract
+评论网址：https://news.ycombinator.com/item?id=47585004
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47583620</guid>
-      <pubDate>Tue, 31 Mar 2026 06:48:13 GMT</pubDate>
+      <guid>https://www.theguardian.com/technology/2026/mar/31/palantir-uk-boss-louis-mosley-ministers-nhs-contract</guid>
+      <pubDate>Tue, 31 Mar 2026 10:02:01 GMT</pubDate>
     </item>
     <item>
-      <title>Memopt – 用于 AI 集群的 GPU 内存基础设施</title>
-      <link>https://memopt.com/</link>
-      <description><![CDATA[文章网址：https://memopt.com/
-评论网址：https://news.ycombinator.com/item?id=47583606
+      <title>哪些机器可读的愿望可以为您的社交死亡带来帮助？ [视频]</title>
+      <link>https://cubicgarden.com/2026/03/10/what-machine-readable-wishes-could-do-for-your-social-death/</link>
+      <description><![CDATA[文章网址：https://cubicgarden.com/2026/03/10/what-machine-read-wishes-could-do-for-your-social-death/
+评论网址：https://news.ycombinator.com/item?id=47584987
 积分：1
 # 条评论：0]]></description>
-      <guid>https://memopt.com/</guid>
-      <pubDate>Tue, 31 Mar 2026 06:46:53 GMT</pubDate>
+      <guid>https://cubicgarden.com/2026/03/10/what-machine-readable-wishes-could-do-for-your-social-death/</guid>
+      <pubDate>Tue, 31 Mar 2026 09:59:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>建立政治超级情报</title>
+      <link>https://freesystems.substack.com/p/building-political-superintelligence</link>
+      <description><![CDATA[文章网址：https://freesystems.substack.com/p/building-political-superintelligence
+评论网址：https://news.ycombinator.com/item?id=47584976
+积分：1
+# 条评论：0]]></description>
+      <guid>https://freesystems.substack.com/p/building-political-superintelligence</guid>
+      <pubDate>Tue, 31 Mar 2026 09:58:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>微包和开源信任扩展</title>
+      <link>https://lucumr.pocoo.org/2016/3/24/open-source-trust-scaling/</link>
+      <description><![CDATA[文章网址：https://lucumr.pocoo.org/2016/3/24/open-source-trust-scaling/
+评论网址：https://news.ycombinator.com/item?id=47584967
+积分：1
+# 条评论：0]]></description>
+      <guid>https://lucumr.pocoo.org/2016/3/24/open-source-trust-scaling/</guid>
+      <pubDate>Tue, 31 Mar 2026 09:57:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：HCaptcha 逆向工程</title>
+      <link>https://github.com/ak3zaidan/hCAPTCHA-Solver</link>
+      <description><![CDATA[文章网址：https://github.com/ak3zaidan/hCAPTCHA-Solver
+评论网址：https://news.ycombinator.com/item?id=47584966
+积分：2
+# 条评论：0]]></description>
+      <guid>https://github.com/ak3zaidan/hCAPTCHA-Solver</guid>
+      <pubDate>Tue, 31 Mar 2026 09:57:02 GMT</pubDate>
     </item>
     </channel>
 </rss>
