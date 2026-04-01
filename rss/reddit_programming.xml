@@ -4,111 +4,111 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 01 Apr 2026 13:21:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 16:06:05 GMT</lastBuildDate>
     <item>
-      <title>限制可以默默地降低交互的最终状态</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9jv1s/throttling_can_silently_drop_the_final_state_of/</link>
-      <description><![CDATA[简单的限制可能会丢弃最终事件：最小演示+修复。   由   提交/u/OtherwisePush6424  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9jv1s/throttling_can_silently_drop_the_final_state_of/</guid>
-      <pubDate>Wed, 01 Apr 2026 13:00:17 GMT</pubDate>
+      <title>是的，线性时间内所有最长的正则表达式匹配都是可能的</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwhg5o/yes_all_longest_regex_matches_in_linear_time_is/</link>
+      <description><![CDATA[ 由   提交 /u/ketralnis   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwhg5o/yes_all_longest_regex_matches_in_linear_time_is/</guid>
+      <pubDate>Tue, 17 Mar 2026 19:55:28 GMT</pubDate>
     </item>
     <item>
-      <title>基于 Raft 的 KV 存储中请求的旅程（从客户端到提交）</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9jn4n/the_journey_of_a_request_in_a_raftbased_kv_store/</link>
-      <description><![CDATA[在实现 MIT 6.5840 分布式系统实验室后，我想更好地了解当客户端向基于 Raft 构建的复制键值存储发送请求时实际发生的情况。 我写了一篇短文，其中跟踪了请求的完整路径： 客户端 → 领导者 → 复制 → 提交 → 应用 → 响应 令我惊讶的是这个“简单”流程的速度有多快实践中的中断：  领导者可以更改请求中途 网络分区创建过时的领导者 重试可能导致重复执行  很多复杂性并不在于 Raft 本身，而是在于使系统在这些条件下正确运行。 对反馈感兴趣，特别是如果您构建了类似的东西。   由   提交/u/am0123  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9jn4n/the_journey_of_a_request_in_a_raftbased_kv_store/</guid>
-      <pubDate>Wed, 01 Apr 2026 12:50:55 GMT</pubDate>
+      <title>syntaqlite：SQLite 值得拥有的高保真开发工具</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwhfwl/syntaqlite_highfidelity_devtools_that_sqlite/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwhfwl/syntaqlite_highfidelity_devtools_that_sqlite/</guid>
+      <pubDate>Tue, 17 Mar 2026 19:55:12 GMT</pubDate>
     </item>
     <item>
-      <title>公告：临时禁止 LLM 内容</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/</link>
-      <description><![CDATA[大家好， 经过大量讨论，我们决定尝试禁止任何与法学硕士相关的内容。我们收到了很多与法学硕士相关的帖子，通常它们与我们想要的 Reddit 子版块不符——一个由高质量、信息丰富的内容驱动的关于软件工程的详细技术学习和讨论的地方。不幸的是，LLM 相关内容的数量很容易压倒其他主题。 我们还认为，一般来说，社区已经表明，总的来说，他们对此内容不感兴趣。因此，我们想看看试用禁令如何影响人们使用潜艇的方式。因此： 虽然此帖子已被置顶，但在 4 月份的 2-4 周内，我们将禁止该子帖子中所有与 LLM 相关的内容。 请注意，这并不会禁止所有与 AI 相关的内容。一篇文章详细介绍了传统上所谓的人工智能是如何为 Go 打造的？完全没问题。机器学习过程的技术分解？伟大的！只要不是法学硕士即可。   由   提交 /u/ChemicalRascal   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/</guid>
-      <pubDate>Wed, 01 Apr 2026 12:48:20 GMT</pubDate>
+      <title>Jepsen：MariaDB Galera 集群 12.1.2</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwhfhr/jepsen_mariadb_galera_cluster_1212/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwhfhr/jepsen_mariadb_galera_cluster_1212/</guid>
+      <pubDate>Tue, 17 Mar 2026 19:54:48 GMT</pubDate>
     </item>
     <item>
-      <title>深入探讨尾递归和 TCO</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9j2q0/wrapping_my_head_around_tail_recursion_and_tco/</link>
-      <description><![CDATA[ 由   提交/u/techne98  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9j2q0/wrapping_my_head_around_tail_recursion_and_tco/</guid>
-      <pubDate>Wed, 01 Apr 2026 12:26:03 GMT</pubDate>
+      <title>使用线性代数感知编译器进行高效稀疏计算</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwhf6h/efficient_sparse_computations_using_linear/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwhf6h/efficient_sparse_computations_using_linear/</guid>
+      <pubDate>Tue, 17 Mar 2026 19:54:31 GMT</pubDate>
     </item>
     <item>
-      <title>8,400 个 GitHub 存储库共享一个可追溯到南方公园笑话的命名约定。</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9iwky/8400_github_repositories_share_a_naming/</link>
-      <description><![CDATA[我知道这一点，因为我就是中间的那个人。让我解释一下。 2006：Trey Parker 和 Matt Stone 写了“Oh My Science！”分成第十季的两集...一个关于用科学表达取代宗教表达的笑话。 2008：我和一位同事认为这很搞笑。我们建立了一个 Twitter 副项目，名为 Oh My Science。它从 API 中获取推文，并向任何因感谢科学而感谢科学的人授予金星，否则他们可能会将此归功于神。 2009：我有一个杂乱的 Zsh 配置文件文件夹。我想说服一些同事将其安装在他们的笔记本电脑上，这样我就不必记住我们在他们的计算机上配对时不断输入的所有详细 git 命令。我需要一个存储库的名称。我浏览了我们的 oh-my-science 私人存储库。我耸耸肩。 “oh-my-zsh”确实如此。 今天，有 8,400 多个公众“哦-我的-...” u/GitHub 上的存储库。 您很有可能使用过一个。您有可能已经构建了一个。 如果您构建了一个，我很想知道...您知道这个名称的来源吗？   由   提交 /u/robbyrussell   [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9iwky/8400_github_repositories_share_a_naming/</guid>
-      <pubDate>Wed, 01 Apr 2026 12:18:26 GMT</pubDate>
+      <title>构建一个外壳</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwhey4/building_a_shell/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwhey4/building_a_shell/</guid>
+      <pubDate>Tue, 17 Mar 2026 19:54:18 GMT</pubDate>
     </item>
     <item>
-      <title>API 就是平台 • Shamasis Bhattacharya</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9iu1i/the_api_is_the_platform_shamasis_bhattacharya/</link>
-      <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9iu1i/the_api_is_the_platform_shamasis_bhattacharya/</guid>
-      <pubDate>Wed, 01 Apr 2026 12:15:20 GMT</pubDate>
+      <title>在 Xbox 360 中查找 CPU 设计错误</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwhdaw/finding_a_cpu_design_bug_in_the_xbox_360/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwhdaw/finding_a_cpu_design_bug_in_the_xbox_360/</guid>
+      <pubDate>Tue, 17 Mar 2026 19:52:46 GMT</pubDate>
     </item>
     <item>
-      <title>解决了注解驱动的分布式GraphQL N+1查询问题</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9ifxe/solved_distributed_graphql_n1_query_problem/</link>
-      <description><![CDATA[关于 Spring 中间件 1.4.0   由   提交/u/PuddingAutomatic5617   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9ifxe/solved_distributed_graphql_n1_query_problem/</guid>
-      <pubDate>Wed, 01 Apr 2026 11:57:41 GMT</pubDate>
+      <title>Java 26 已经到来，并为未来奠定了坚实的基础</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwhbea/java_26_is_here_and_with_it_a_solid_foundation/</link>
+      <description><![CDATA[ 由   提交/u/ketralnis  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwhbea/java_26_is_here_and_with_it_a_solid_foundation/</guid>
+      <pubDate>Tue, 17 Mar 2026 19:50:57 GMT</pubDate>
     </item>
     <item>
-      <title>使用 Python 进行确定性机器配置</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9iccg/deterministicish_machine_configuration_with_python/</link>
-      <description><![CDATA[ 由   提交/u/mjansky   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9iccg/deterministicish_machine_configuration_with_python/</guid>
-      <pubDate>Wed, 01 Apr 2026 11:52:46 GMT</pubDate>
+      <title>从头开始编写操作系统内核</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwgokp/writing_an_operating_system_kernel_from_scratch/</link>
+      <description><![CDATA[ 由   提交/u/fagnerbrack  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwgokp/writing_an_operating_system_kernel_from_scratch/</guid>
+      <pubDate>Tue, 17 Mar 2026 19:28:37 GMT</pubDate>
     </item>
     <item>
-      <title>最后一个人工智能无法解析的验证码</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9h8eo/finally_a_captcha_that_ai_cant_resolve/</link>
-      <description><![CDATA[ 由   提交/u/VincentNbt   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9h8eo/finally_a_captcha_that_ai_cant_resolve/</guid>
-      <pubDate>Wed, 01 Apr 2026 10:58:28 GMT</pubDate>
+      <title>可维护的播客：Joel Oliveira：可预测性是可维护性的特征</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwdv3g/maintainable_podcast_joel_oliveira_predictability/</link>
+      <description><![CDATA[ 由   提交 /u/robbyrussell   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwdv3g/maintainable_podcast_joel_oliveira_predictability/</guid>
+      <pubDate>Tue, 17 Mar 2026 17:52:33 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic 发布了 Claude Code 的整个源代码</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9f8cx/anthropic_shipped_claude_codes_entire_source_code/</link>
-      <description><![CDATA[ 由   提交/u/Big-Engineering-9365   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9f8cx/anthropic_shipped_claude_codes_entire_source_code/</guid>
-      <pubDate>Wed, 01 Apr 2026 09:05:36 GMT</pubDate>
+      <title>使用行为模型自主测试超级马里奥 – 寻找真正的错误</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwd2tr/testing_super_mario_using_a_behavior_model/</link>
+      <description><![CDATA[了解行为模型与自主测试相结合如何帮助我们在参考《超级马里奥》游戏实现中发现有趣的错误。该模型会在探索过程中验证每一帧，但是当它与游戏不一致时，哪一帧是错误的？这是双向测试：模型测试游戏，游戏测试模型。这个过程发现了几个真正的引擎错误，包括第 4 关中的一个传送错误，其中马里奥由于重叠的碰撞箱而在屏幕上被卡住。所有代码都是开源的：https://github.com/testflows/Examples/tree/v3.0/SuperMario。    由   提交/u/vzakaznikov   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwd2tr/testing_super_mario_using_a_behavior_model/</guid>
+      <pubDate>Tue, 17 Mar 2026 17:25:36 GMT</pubDate>
     </item>
     <item>
-      <title>在没有人类干预的情况下，人工智能会使用哪种编程语言？</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9f18s/which_programming_language_would_ai_use_without/</link>
-      <description><![CDATA[明尼苏达大学的一个团队使用受控多智能体实验研究了这个问题。他们构建了一个包含 4,242 个项目描述的数据集，涵盖 21 个应用领域和七个复杂程度。五种 AI 模型——GPT-5.4、Gemini 3.0、Claude 4.0、Llama 3.2 和 Stable Diffusion 3.5——的任务是在这些项目上进行协作。 实验限制很简单：这些模型必须就交换程序的单一编程语言达成一致。 重要的是，交换的程序并不是供人类使用的。这消除了典型的以人为中心的考虑因素，例如可读性、熟悉度和开发人员生态系统，从而允许模型针对其他属性进行优化。 鉴于 Python、JavaScript 和 Java 等语言在训练数据中的流行，人们可能会期望聚合到这些广泛使用的语言之一。然而，缺乏人类限制改变了结果。 这些模型并没有发明一种新的语言。它们也没有集中在主流语言上。 相反，所有模型都选择 Seed7 作为程序交换的通用语言。 对模型解释的分析揭示了影响选择的反复出现的标准：  高级抽象 通用适用性 可移植性 可扩展性 面向对象 静态打字 类型为一等公民 编译时执行能力 提前编译 整数溢出检查 内存安全  这些属性表明，在缺乏人类偏好的情况下，人工智能系统优先考虑表达性、正确性和安全性，而不是生态系统规模或市场份额。 这一结果凸显了一个重要的观察结果：当前的编程语言景观受到历史采用、市场动态和遗留代码库的强烈影响，这些因素可能与纯粹的技术标准不一致。 消除人类偏见可能会导致人工智能系统得出有关语言设计和适用性的不同结论。 如果您觉得这个结果有趣，请考虑在 GitHub 上为 Seed7 项目加注星标。   由   提交/u/ThomasMertes   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9f18s/which_programming_language_would_ai_use_without/</guid>
-      <pubDate>Wed, 01 Apr 2026 08:54:10 GMT</pubDate>
+      <title>集成仪表：监控 Seastar IO 堆栈的经验教训</title>
+      <link>https://www.reddit.com/r/programming/comments/1rwak05/integrated_gauges_lessons_learned_monitoring/</link>
+      <description><![CDATA[许多性能指标和系统参数本质上是不稳定的或快速波动的。当使用定期“抓取”（轮询）目标当前指标值的监控系统时，收集的数据点仅仅是该精确时刻系统状态的快照。它并没有透露太多该地区实际发生的事情。有时可以通过以某种方式累积这些值来克服这个问题 - 例如，通过使用直方图或导出派生的单调递增计数器。本文提出了另一种方法来扩展此方法以适用于更广泛的频繁更改的参数集。   由   提交/u/swdevtest  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rwak05/integrated_gauges_lessons_learned_monitoring/</guid>
+      <pubDate>Tue, 17 Mar 2026 15:57:58 GMT</pubDate>
     </item>
     <item>
-      <title>如果您有兴趣观看有关我的 VS Code 扩展“Blockman”的 Microsoft 播客（200,000 次安装）。另外，您能给我一些关于附加功能的想法吗？也可以随意提出任何有关功能、渲染/解析/标记优化或任何内容的拉取请求 (GitHub)。</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9ea0l/in_case_you_are_interested_to_watch_microsoft/</link>
-      <description><![CDATA[展示图像： https://i.ibb.co/6cKzpJDm/twitter-photo-Screenshot-2026-03-31-133651-copy-2.png （有些人发现整个文件块化对他们的眼睛来说太压倒性的，所以，你可以调整Blockman，它有很多设置，例如你可以禁用背景并仅显示边框，或者你可以仅显示焦点块，也可以仅显示大括号块，或仅圆括号块或仅方括号块或大括号/方/圆括号块的任意组合，您也可以更改边框和背景的颜色。可以为每个嵌套深度设置不同的颜色，还有更多设置。） 支持多种语言，包括 Python、Yaml、JavaScript、TypeScript、C、C++、C#、CSS、HTML 等。 关于我的 VS Code 扩展 Blockman 的 Microsoft 播客：  https://www.youtube.com/watch?v=y79Okx8oEao&amp;list=PLlrxD0HtieHg8On6t1l5_kj--7PMmyfGi 高端开发播客：  https://www.youtube.com/watch?v=wkG_4pVslMg&amp;list=PLJesql-aSfX6xaZcgQqmfIssYSaQVWXQF Blockman 是一个 VS Code 扩展，可通过突出显示嵌套代码块来帮助开发人员轻松了解代码结构。 官方链接： https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman 。 主要内容问题：VS Code 扩展 API 不允许扩展访问本机 AST 令牌，因此我在 Blockman 中实现了一些第三方库来分析/解析/标记代码文件，以查找块的起始/结束点（括号、HTML 标签、Python INDENT/DEDENT 位置）的位置。这些第三方库非常好，但速度太慢，如果文件有 10000 行，每次更改文本可能需要几秒钟来重新解析/重新标记代码。   由   提交/u/leodevbro  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9ea0l/in_case_you_are_interested_to_watch_microsoft/</guid>
-      <pubDate>Wed, 01 Apr 2026 08:08:31 GMT</pubDate>
+      <title>什么是代码基础设施？</title>
+      <link>https://www.reddit.com/r/programming/comments/1rw8jij/what_is_infrastructure_from_code/</link>
+      <description><![CDATA[ 由   提交/u/GlitteringPenalty210   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rw8jij/what_is_infrastructure_from_code/</guid>
+      <pubDate>Tue, 17 Mar 2026 14:45:28 GMT</pubDate>
     </item>
     <item>
-      <title>Java，错误消息。网络编程</title>
-      <link>https://www.reddit.com/r/programming/comments/1s9alz9/java_error_message_web_programming/</link>
-      <description><![CDATA[您好，我是编程新手，只是按照 yt 上的教程进行操作。我运行该程序，然后尝试在 chrome 上打开网站 (localhost:8080)，但遇到了此错误。我真的不知道为什么会发生这种事。我试着问cloude，但还是不明白。感谢任何帮助。 该链接是我正在关注的使用 Java 和 Spring Boot 的编程教程。 （不知道要放在那里的内容） 错误： Whitelabel 错误页面 此应用程序没有 /error 的显式映射，因此您将其视为后备。 Wed Apr 01 12:18:18 GMT+08:00 2026 出现意外错误（type=Not Found， status=404)。 代码： package com.codewithmosh.store;导入 org.springframework.stereotype.Controller;导入 org.springframework.web.bind.annotation.RequestMapping; public class HomeController { u/RequestMapping(&quot;/&quot;) public String index(){ return &quot;index.html&quot;; } } } } 包 com.codewithmosh.store；导入 org.springframework.boot.SpringApplication;导入 org.springframework.boot.autoconfigure.SpringBootApplication; u/SpringBootApplication 公共类 StoreApplication { 公共静态 void main(String[] args) { SpringApplication.run(StoreApplication.class, args); } }    由   提交/u/Weak-Text8827  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s9alz9/java_error_message_web_programming/</guid>
-      <pubDate>Wed, 01 Apr 2026 04:37:07 GMT</pubDate>
+      <title>Java 刚刚发布了 Valhalla 项目的 JEP 401（值对象）的抢先体验 3！</title>
+      <link>https://www.reddit.com/r/programming/comments/1rw8i5u/java_just_released_early_access_3_for_project/</link>
+      <description><![CDATA[ 由   提交/u/davidalayachew   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rw8i5u/java_just_released_early_access_3_for_project/</guid>
+      <pubDate>Tue, 17 Mar 2026 14:44:04 GMT</pubDate>
     </item>
     <item>
-      <title>什么是cch？逆向工程 Claude Code 的请求签名</title>
-      <link>https://www.reddit.com/r/programming/comments/1s98wuw/whats_cch_reverse_engineering_claude_codes/</link>
-      <description><![CDATA[我最初在快速模式首次引入时对此进行了逆向工程，并联系了 Anthropic 以获得负责任的披露批准，但我从未收到回复。现在围绕 CCH 标头有很多讨论，我想分享我的发现。   由   提交/u/tcdent  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s98wuw/whats_cch_reverse_engineering_claude_codes/</guid>
-      <pubDate>Wed, 01 Apr 2026 03:14:08 GMT</pubDate>
+      <title>JavaOne 2026 即将开始（世界标准时间 15:00）！直播链接见评论。</title>
+      <link>https://www.reddit.com/r/programming/comments/1rw7vbc/javaone_2026_is_starting_shortly_1500_utc_live/</link>
+      <description><![CDATA[ 由   提交/u/davidalayachew   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rw7vbc/javaone_2026_is_starting_shortly_1500_utc_live/</guid>
+      <pubDate>Tue, 17 Mar 2026 14:20:28 GMT</pubDate>
     </item>
     <item>
-      <title>以正确的方式提供服务</title>
-      <link>https://www.reddit.com/r/programming/comments/1s92zad/making_services_with_go_right_way/</link>
-      <description><![CDATA[ 由   提交/u/yarmak  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s92zad/making_services_with_go_right_way/</guid>
-      <pubDate>Tue, 31 Mar 2026 22:56:55 GMT</pubDate>
+      <title>足够详细的规范就是代码</title>
+      <link>https://www.reddit.com/r/programming/comments/1rw7r3r/a_sufficiently_detailed_spec_is_code/</link>
+      <description><![CDATA[ 由   提交/u/Tekmo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1rw7r3r/a_sufficiently_detailed_spec_is_code/</guid>
+      <pubDate>Tue, 17 Mar 2026 14:16:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
