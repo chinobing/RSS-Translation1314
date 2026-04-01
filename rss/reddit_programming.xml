@@ -4,7 +4,91 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 01 Apr 2026 07:20:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 13:21:41 GMT</lastBuildDate>
+    <item>
+      <title>限制可以默默地降低交互的最终状态</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9jv1s/throttling_can_silently_drop_the_final_state_of/</link>
+      <description><![CDATA[简单的限制可能会丢弃最终事件：最小演示+修复。   由   提交/u/OtherwisePush6424  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9jv1s/throttling_can_silently_drop_the_final_state_of/</guid>
+      <pubDate>Wed, 01 Apr 2026 13:00:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>基于 Raft 的 KV 存储中请求的旅程（从客户端到提交）</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9jn4n/the_journey_of_a_request_in_a_raftbased_kv_store/</link>
+      <description><![CDATA[在实现 MIT 6.5840 分布式系统实验室后，我想更好地了解当客户端向基于 Raft 构建的复制键值存储发送请求时实际发生的情况。 我写了一篇短文，其中跟踪了请求的完整路径： 客户端 → 领导者 → 复制 → 提交 → 应用 → 响应 令我惊讶的是这个“简单”流程的速度有多快实践中的中断：  领导者可以更改请求中途 网络分区创建过时的领导者 重试可能导致重复执行  很多复杂性并不在于 Raft 本身，而是在于使系统在这些条件下正确运行。 对反馈感兴趣，特别是如果您构建了类似的东西。   由   提交/u/am0123  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9jn4n/the_journey_of_a_request_in_a_raftbased_kv_store/</guid>
+      <pubDate>Wed, 01 Apr 2026 12:50:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>公告：临时禁止 LLM 内容</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/</link>
+      <description><![CDATA[大家好， 经过大量讨论，我们决定尝试禁止任何与法学硕士相关的内容。我们收到了很多与法学硕士相关的帖子，通常它们与我们想要的 Reddit 子版块不符——一个由高质量、信息丰富的内容驱动的关于软件工程的详细技术学习和讨论的地方。不幸的是，LLM 相关内容的数量很容易压倒其他主题。 我们还认为，一般来说，社区已经表明，总的来说，他们对此内容不感兴趣。因此，我们想看看试用禁令如何影响人们使用潜艇的方式。因此： 虽然此帖子已被置顶，但在 4 月份的 2-4 周内，我们将禁止该子帖子中所有与 LLM 相关的内容。 请注意，这并不会禁止所有与 AI 相关的内容。一篇文章详细介绍了传统上所谓的人工智能是如何为 Go 打造的？完全没问题。机器学习过程的技术分解？伟大的！只要不是法学硕士即可。   由   提交 /u/ChemicalRascal   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/</guid>
+      <pubDate>Wed, 01 Apr 2026 12:48:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>深入探讨尾递归和 TCO</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9j2q0/wrapping_my_head_around_tail_recursion_and_tco/</link>
+      <description><![CDATA[ 由   提交/u/techne98  [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9j2q0/wrapping_my_head_around_tail_recursion_and_tco/</guid>
+      <pubDate>Wed, 01 Apr 2026 12:26:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>8,400 个 GitHub 存储库共享一个可追溯到南方公园笑话的命名约定。</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9iwky/8400_github_repositories_share_a_naming/</link>
+      <description><![CDATA[我知道这一点，因为我就是中间的那个人。让我解释一下。 2006：Trey Parker 和 Matt Stone 写了“Oh My Science！”分成第十季的两集...一个关于用科学表达取代宗教表达的笑话。 2008：我和一位同事认为这很搞笑。我们建立了一个 Twitter 副项目，名为 Oh My Science。它从 API 中获取推文，并向任何因感谢科学而感谢科学的人授予金星，否则他们可能会将此归功于神。 2009：我有一个杂乱的 Zsh 配置文件文件夹。我想说服一些同事将其安装在他们的笔记本电脑上，这样我就不必记住我们在他们的计算机上配对时不断输入的所有详细 git 命令。我需要一个存储库的名称。我浏览了我们的 oh-my-science 私人存储库。我耸耸肩。 “oh-my-zsh”确实如此。 今天，有 8,400 多个公众“哦-我的-...” u/GitHub 上的存储库。 您很有可能使用过一个。您有可能已经构建了一个。 如果您构建了一个，我很想知道...您知道这个名称的来源吗？   由   提交 /u/robbyrussell   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9iwky/8400_github_repositories_share_a_naming/</guid>
+      <pubDate>Wed, 01 Apr 2026 12:18:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>API 就是平台 • Shamasis Bhattacharya</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9iu1i/the_api_is_the_platform_shamasis_bhattacharya/</link>
+      <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9iu1i/the_api_is_the_platform_shamasis_bhattacharya/</guid>
+      <pubDate>Wed, 01 Apr 2026 12:15:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>解决了注解驱动的分布式GraphQL N+1查询问题</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9ifxe/solved_distributed_graphql_n1_query_problem/</link>
+      <description><![CDATA[关于 Spring 中间件 1.4.0   由   提交/u/PuddingAutomatic5617   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9ifxe/solved_distributed_graphql_n1_query_problem/</guid>
+      <pubDate>Wed, 01 Apr 2026 11:57:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Python 进行确定性机器配置</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9iccg/deterministicish_machine_configuration_with_python/</link>
+      <description><![CDATA[ 由   提交/u/mjansky   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9iccg/deterministicish_machine_configuration_with_python/</guid>
+      <pubDate>Wed, 01 Apr 2026 11:52:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>最后一个人工智能无法解析的验证码</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9h8eo/finally_a_captcha_that_ai_cant_resolve/</link>
+      <description><![CDATA[ 由   提交/u/VincentNbt   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9h8eo/finally_a_captcha_that_ai_cant_resolve/</guid>
+      <pubDate>Wed, 01 Apr 2026 10:58:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic 发布了 Claude Code 的整个源代码</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9f8cx/anthropic_shipped_claude_codes_entire_source_code/</link>
+      <description><![CDATA[ 由   提交/u/Big-Engineering-9365   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9f8cx/anthropic_shipped_claude_codes_entire_source_code/</guid>
+      <pubDate>Wed, 01 Apr 2026 09:05:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>在没有人类干预的情况下，人工智能会使用哪种编程语言？</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9f18s/which_programming_language_would_ai_use_without/</link>
+      <description><![CDATA[明尼苏达大学的一个团队使用受控多智能体实验研究了这个问题。他们构建了一个包含 4,242 个项目描述的数据集，涵盖 21 个应用领域和七个复杂程度。五种 AI 模型——GPT-5.4、Gemini 3.0、Claude 4.0、Llama 3.2 和 Stable Diffusion 3.5——的任务是在这些项目上进行协作。 实验限制很简单：这些模型必须就交换程序的单一编程语言达成一致。 重要的是，交换的程序并不是供人类使用的。这消除了典型的以人为中心的考虑因素，例如可读性、熟悉度和开发人员生态系统，从而允许模型针对其他属性进行优化。 鉴于 Python、JavaScript 和 Java 等语言在训练数据中的流行，人们可能会期望聚合到这些广泛使用的语言之一。然而，缺乏人类限制改变了结果。 这些模型并没有发明一种新的语言。它们也没有集中在主流语言上。 相反，所有模型都选择 Seed7 作为程序交换的通用语言。 对模型解释的分析揭示了影响选择的反复出现的标准：  高级抽象 通用适用性 可移植性 可扩展性 面向对象 静态打字 类型为一等公民 编译时执行能力 提前编译 整数溢出检查 内存安全  这些属性表明，在缺乏人类偏好的情况下，人工智能系统优先考虑表达性、正确性和安全性，而不是生态系统规模或市场份额。 这一结果凸显了一个重要的观察结果：当前的编程语言景观受到历史采用、市场动态和遗留代码库的强烈影响，这些因素可能与纯粹的技术标准不一致。 消除人类偏见可能会导致人工智能系统得出有关语言设计和适用性的不同结论。 如果您觉得这个结果有趣，请考虑在 GitHub 上为 Seed7 项目加注星标。   由   提交/u/ThomasMertes   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9f18s/which_programming_language_would_ai_use_without/</guid>
+      <pubDate>Wed, 01 Apr 2026 08:54:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果您有兴趣观看有关我的 VS Code 扩展“Blockman”的 Microsoft 播客（200,000 次安装）。另外，您能给我一些关于附加功能的想法吗？也可以随意提出任何有关功能、渲染/解析/标记优化或任何内容的拉取请求 (GitHub)。</title>
+      <link>https://www.reddit.com/r/programming/comments/1s9ea0l/in_case_you_are_interested_to_watch_microsoft/</link>
+      <description><![CDATA[展示图像： https://i.ibb.co/6cKzpJDm/twitter-photo-Screenshot-2026-03-31-133651-copy-2.png （有些人发现整个文件块化对他们的眼睛来说太压倒性的，所以，你可以调整Blockman，它有很多设置，例如你可以禁用背景并仅显示边框，或者你可以仅显示焦点块，也可以仅显示大括号块，或仅圆括号块或仅方括号块或大括号/方/圆括号块的任意组合，您也可以更改边框和背景的颜色。可以为每个嵌套深度设置不同的颜色，还有更多设置。） 支持多种语言，包括 Python、Yaml、JavaScript、TypeScript、C、C++、C#、CSS、HTML 等。 关于我的 VS Code 扩展 Blockman 的 Microsoft 播客：  https://www.youtube.com/watch?v=y79Okx8oEao&amp;list=PLlrxD0HtieHg8On6t1l5_kj--7PMmyfGi 高端开发播客：  https://www.youtube.com/watch?v=wkG_4pVslMg&amp;list=PLJesql-aSfX6xaZcgQqmfIssYSaQVWXQF Blockman 是一个 VS Code 扩展，可通过突出显示嵌套代码块来帮助开发人员轻松了解代码结构。 官方链接： https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman 。 主要内容问题：VS Code 扩展 API 不允许扩展访问本机 AST 令牌，因此我在 Blockman 中实现了一些第三方库来分析/解析/标记代码文件，以查找块的起始/结束点（括号、HTML 标签、Python INDENT/DEDENT 位置）的位置。这些第三方库非常好，但速度太慢，如果文件有 10000 行，每次更改文本可能需要几秒钟来重新解析/重新标记代码。   由   提交/u/leodevbro  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1s9ea0l/in_case_you_are_interested_to_watch_microsoft/</guid>
+      <pubDate>Wed, 01 Apr 2026 08:08:31 GMT</pubDate>
+    </item>
     <item>
       <title>Java，错误消息。网络编程</title>
       <link>https://www.reddit.com/r/programming/comments/1s9alz9/java_error_message_web_programming/</link>
@@ -25,90 +109,6 @@
       <description><![CDATA[ 由   提交/u/yarmak  [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1s92zad/making_services_with_go_right_way/</guid>
       <pubDate>Tue, 31 Mar 2026 22:56:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>“为什么这段代码是这样的？”没有人知道。这就是问题所在。</title>
-      <link>https://www.reddit.com/r/programming/comments/1s92a6o/why_does_this_code_look_like_this_nobody_knows/</link>
-      <description><![CDATA[大多数代码库都记录了代码的用途。几乎没有人记录为什么做出决定、拒绝哪些替代方案或当时存在哪些限制。随着人们的离开，这种背景悄然消失，未来的维护者要么推翻有充分理由存在的决定，要么花几周时间重新发现别人已经弄清楚的东西。 Russ Olsen（Eloquent Ruby 的作者）在最近的“Maintainable”一集中介绍了这一点以及关于遗留系统的其他一些令人不安的事实，包括为什么团队对自己的代码库产生了一种习得性无助感，并停止质疑可能永远不正确的假设。   由   提交 /u/robbyrussell   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s92a6o/why_does_this_code_look_like_this_nobody_knows/</guid>
-      <pubDate>Tue, 31 Mar 2026 22:28:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>利用 Commodore 64 上的巧合索引破解谜题</title>
-      <link>https://www.reddit.com/r/programming/comments/1s91d5d/breaking_enigma_with_index_of_coincidence_on_a/</link>
-      <description><![CDATA[ 由   提交 /u/ScottContini   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s91d5d/breaking_enigma_with_index_of_coincidence_on_a/</guid>
-      <pubDate>Tue, 31 Mar 2026 21:52:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在 Go 中实现服务器发送的事件</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8xsdf/how_to_implement_serversent_events_in_go/</link>
-      <description><![CDATA[ 由   提交/u/der_gopher  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8xsdf/how_to_implement_serversent_events_in_go/</guid>
-      <pubDate>Tue, 31 Mar 2026 19:41:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>DNS 的厄运</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8vmtr/doom_over_dns/</link>
-      <description><![CDATA[ 由   提交/u/phillipcarter2  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8vmtr/doom_over_dns/</guid>
-      <pubDate>Tue, 31 Mar 2026 18:25:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bun 中的错误可能是 Claude Code 源代码泄漏的根本原因。</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8t8hp/a_bug_in_bun_may_have_been_the_root_cause_of_the/</link>
-      <description><![CDATA[ 由   提交 /u/Successful_Bowl2564   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8t8hp/a_bug_in_bun_may_have_been_the_root_cause_of_the/</guid>
-      <pubDate>Tue, 31 Mar 2026 17:01:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>集成测试通常验证模拟而不是系统</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8rr2d/integration_tests_often_validate_mocks_instead_of/</link>
-      <description><![CDATA[通常，大多数代码库的集成测试都是针对模拟系统进行的（使用数据库的内存版本并存根外部服务），同时将网络层排除在测试之外。 这些测试是可靠的；然而，他们实际上是在验证应用程序如何工作的简单模型，而不是在现实生活中如何操作。 大多数生产故障发生在序列化、网络条件和意外响应的边界处。 当边界从集成测试中删除时，集成测试就不再是集成测试；而是集成测试。现在正在测试假设。   由   提交/u/Global-Development56  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8rr2d/integration_tests_often_validate_mocks_instead_of/</guid>
-      <pubDate>Tue, 31 Mar 2026 16:08:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>您如何界定过度设计和预期变化之间的界限？</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8r9nh/where_do_you_draw_the_line_between/</link>
-      <description><![CDATA[ 由   提交/u/iamgioh  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8r9nh/where_do_you_draw_the_line_between/</guid>
-      <pubDate>Tue, 31 Mar 2026 15:50:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>不要信任，要验证（curl，Daniel Stenberg）</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8o99r/dont_trust_verify_curl_daniel_stenberg/</link>
-      <description><![CDATA[ 由   提交/u/Skaarj   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8o99r/dont_trust_verify_curl_daniel_stenberg/</guid>
-      <pubDate>Tue, 31 Mar 2026 14:01:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>域分离属于您的 IDL</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8ndig/domain_separation_belongs_in_your_idl/</link>
-      <description><![CDATA[即使在 2026 年，我也不认为我们会以正确的方式对数据结构进行序列化和签名。我不认为 protobuf 是答案。更好的解决方案是随机域分隔符，直接在 IDL 中指定。   由   提交/u/maxtaco  [link] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8ndig/domain_separation_belongs_in_your_idl/</guid>
-      <pubDate>Tue, 31 Mar 2026 13:25:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>“通过负责任地披露量子漏洞来保护加密货币”：谷歌将后量子密码学过渡期限修改为 2029 年的原因</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8laox/safeguarding_cryptocurrency_by_disclosing_quantum/</link>
-      <description><![CDATA[ 由   提交 /u/YaLlegaHiperhumor   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8laox/safeguarding_cryptocurrency_by_disclosing_quantum/</guid>
-      <pubDate>Tue, 31 Mar 2026 11:55:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude Code 的源代码通过其 NPM 注册表中的映射文件泄露</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8kni4/claude_codes_source_leaked_via_a_map_file_in/</link>
-      <description><![CDATA[ 由   提交/u/worthwhilewrongdoing  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8kni4/claude_codes_source_leaked_via_a_map_file_in/</guid>
-      <pubDate>Tue, 31 Mar 2026 11:22:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Clojure：纪录片 [官方预告片]</title>
-      <link>https://www.reddit.com/r/programming/comments/1s8jht8/clojure_the_documentary_official_trailer/</link>
-      <description><![CDATA[ 由   提交/u/BrewedDoritos  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1s8jht8/clojure_the_documentary_official_trailer/</guid>
-      <pubDate>Tue, 31 Mar 2026 10:20:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
