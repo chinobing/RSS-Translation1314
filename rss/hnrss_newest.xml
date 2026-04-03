@@ -4,107 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 03 Apr 2026 07:09:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 09:54:55 GMT</lastBuildDate>
     <item>
-      <title>科技公司正试图废除科罗拉多州具有里程碑意义的维修权法</title>
-      <link>https://www.wired.com/story/tech-companies-are-trying-to-neuter-colorados-landmark-right-to-repair-law/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/tech-companies-are-trying-to-neuter-colorados-landmark-right-to-repair-law/
-评论网址：https://news.ycombinator.com/item?id=47623987
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.wired.com/story/tech-companies-are-trying-to-neuter-colorados-landmark-right-to-repair-law/</guid>
-      <pubDate>Fri, 03 Apr 2026 07:03:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>设计更好的 Java 构建工具 [视频]</title>
-      <link>https://www.youtube.com/watch?v=OtsJ902k458</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=OtsJ902k458
-评论网址：https://news.ycombinator.com/item?id=47623964
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=OtsJ902k458</guid>
-      <pubDate>Fri, 03 Apr 2026 06:59:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>敏捷思想的食粮#538：你的团队太大了； Vibe 编码最佳实践</title>
-      <link>https://age-of-product.com/food-agile-thought-538-vibe-coding-best-practices/</link>
-      <description><![CDATA[文章网址：https://age-of-product.com/food-agile-thought-538-vibe-coding-best-practices/
-评论网址：https://news.ycombinator.com/item?id=47623960
-积分：1
-# 条评论：0]]></description>
-      <guid>https://age-of-product.com/food-agile-thought-538-vibe-coding-best-practices/</guid>
-      <pubDate>Fri, 03 Apr 2026 06:58:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：Anthropic 和 OpenAI 的 QA 工作如何？</title>
-      <link>https://news.ycombinator.com/item?id=47623929</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=47623929
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47623929</guid>
-      <pubDate>Fri, 03 Apr 2026 06:50:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Amiport 将 POSIX/Linux C 程序移植到 AmigaOS 3.x</title>
-      <link>https://github.com/bdgscotland/amiport</link>
-      <description><![CDATA[文章网址：https://github.com/bdgscotland/amiport
-评论网址：https://news.ycombinator.com/item?id=47623875
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/bdgscotland/amiport</guid>
-      <pubDate>Fri, 03 Apr 2026 06:42:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么黑客新闻是一个如此老派的页面？</title>
-      <link>https://news.ycombinator.com/item?id=47623865</link>
-      <description><![CDATA[如果这个地方演变成更现代的东西不是很好吗？
+      <title>我用 Rust 构建了一个 AI 数据提取引擎和 E2E 加密短信路由器</title>
+      <link>https://news.ycombinator.com/item?id=47624769</link>
+      <description><![CDATA[我最近启动了 SendStackr。最初的渴望来自于我在一家管理多个 Upwork 帐户和“电话农业”业务（大约 50 个物理设备）的机构工作的时间。我们需要集中入站电子邮件并转发短信（主要用于 2FA/OTP），但现有工具要么过于昂贵，迫使我们为每个设备设置单独的 Webhook，要么在尝试通过标准无代码包装器传输大量非结构化数据时超时。为了解决这个问题，我构建了自己的路由和提取引擎。我没有依赖标准 API，而是完全用 Rust 编写后端，构建自定义 SMTP 和 IMAP 服务器来摄取本地电子邮件。它使用 Graph RAG 读取非结构化 PDF、原始 HTML 电子邮件和 Webhook，提取所需的确切变量并将它们作为严格映射的 JSON 返回。我还刚刚发布了一个 Android Node 应用来处理物理电话问题（短信和推送通知转发）
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47623865
-积分：1
-# 条评论：5]]></description>
-      <guid>https://news.ycombinator.com/item?id=47623865</guid>
-      <pubDate>Fri, 03 Apr 2026 06:41:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么汽油价格总是多加 9/10 美分？</title>
-      <link>https://thehill.com/homenews/nexstar_media_wire/5215334-why-do-gas-prices-always-have-an-extra-9-10-of-a-cent-added-on/</link>
-      <description><![CDATA[文章网址： https://thehill.com/homenews/nexstar_media_wire/5215334-why-do-gas-prices-always-have-an-extra-9-10-of-a-cent-added-on/
-评论网址：https://news.ycombinator.com/item?id=47623832
+评论网址：https://news.ycombinator.com/item?id=47624769
 积分：1
 # 条评论：0]]></description>
-      <guid>https://thehill.com/homenews/nexstar_media_wire/5215334-why-do-gas-prices-always-have-an-extra-9-10-of-a-cent-added-on/</guid>
-      <pubDate>Fri, 03 Apr 2026 06:36:23 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47624769</guid>
+      <pubDate>Fri, 03 Apr 2026 09:43:08 GMT</pubDate>
     </item>
     <item>
-      <title>我们为什么做天体物理学？</title>
-      <link>https://arxiv.org/abs/2602.10181</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2602.10181
-评论网址：https://news.ycombinator.com/item?id=47623827
+      <title>树演算</title>
+      <link>https://treecalcul.us/</link>
+      <description><![CDATA[文章网址：https://treecalcul.us/
+评论网址：https://news.ycombinator.com/item?id=47624763
+积分：1
+# 条评论：0]]></description>
+      <guid>https://treecalcul.us/</guid>
+      <pubDate>Fri, 03 Apr 2026 09:42:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Google、Apple、Dropbox 和 120 个美国应用程序的欧洲替代品</title>
+      <link>https://only-eu.eu/en/</link>
+      <description><![CDATA[文章网址：https://only-eu.eu/en/
+评论网址：https://news.ycombinator.com/item?id=47624741
 积分：2
 # 条评论：0]]></description>
-      <guid>https://arxiv.org/abs/2602.10181</guid>
-      <pubDate>Fri, 03 Apr 2026 06:35:22 GMT</pubDate>
+      <guid>https://only-eu.eu/en/</guid>
+      <pubDate>Fri, 03 Apr 2026 09:37:24 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：人工智能工具，可将两张照片中的人物合并成一张逼真的合影</title>
-      <link>https://animateoldphotos.org/add-loved-one-to-photo</link>
-      <description><![CDATA[在朋友聚会上，有人提到想将已故的父亲添加到家庭照片中。我认为这很简单——现代图像模型功能强大，只需发送两张照片并要求人工智能将它们合并即可。她说她尝试过，但结果很奇怪而且不稳定，而且她不知道如何描述她想要的东西。我回家自己尝试了一下。只要有一个写得好的提示和两张漂亮的照片，它就可以了。但现实世界的用例并不是两张好照片——而是一张现代家庭照片加上一张损坏的旧肖像，或者两张不同年代的旧照片。这就是事情崩溃的时候。我查看了现有的工具。大多数展示都融合了干净、光线充足、现代的照片。没有人解决这个困难的版本：不匹配的时代、损坏的来源、不同的姿势、不同的正式级别。我认为这将是一个周末项目 - 一个系统提示并完成。经过 200 多次测试迭代后，我意识到稳定的结果需要的不仅仅是快速的工程设计。主要挑战：人工智能在合并过程中会微妙地改变面孔。结果看起来“相似”，但不是同一个人。对于试图添加已故亲人的人来说，这完全失败。姿势和规模需要匹配。如果这群人坐在草地上，而添加的人像巨人一样站着，那显然是假的。参考照片中的休闲配饰打破了正式场景——婚礼上戴墨镜，仪式上穿运动服。旧照片分辨率低、损坏且没有色彩。同时合并、恢复和着色会让一切变得更加困难。它支持爆头、半身和全身参考照片。旧的和损坏的照片也可以使用 - 可选择着色和修复。仍然是 MVP。每天免费使用一次，无需登录。https://animateoldphotos.org/add-loved-one-to-photo很想听听破坏它的边缘情况。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47623802
-积分：2
-# 条评论：0]]></description>
-      <guid>https://animateoldphotos.org/add-loved-one-to-photo</guid>
-      <pubDate>Fri, 03 Apr 2026 06:32:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>法学硕士的控制论熵控制</title>
-      <link>https://github.com/orthogonaltohumanity/Cybernetic_Entropy_Control</link>
-      <description><![CDATA[文章网址：https://github.com/orthogonalto humanity/Cybernetic_Entropy_Control
-评论网址：https://news.ycombinator.com/item?id=47623793
+      <title>NHS 工作人员因 Palantir 道德问题拒绝使用 FDP</title>
+      <link>https://www.freevacy.com/news/financial-times/nhs-staff-refusing-to-use-fdp-over-palantir-ethical-concerns/7272</link>
+      <description><![CDATA[文章网址： https://www.freevacy.com/news/financial-times/nhs-staff-refusing-to-use-fdp-over-palantir-ethical-concerns/7272
+评论网址：https://news.ycombinator.com/item?id=47624736
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/orthogonaltohumanity/Cybernetic_Entropy_Control</guid>
-      <pubDate>Fri, 03 Apr 2026 06:30:36 GMT</pubDate>
+      <guid>https://www.freevacy.com/news/financial-times/nhs-staff-refusing-to-use-fdp-over-palantir-ethical-concerns/7272</guid>
+      <pubDate>Fri, 03 Apr 2026 09:36:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年 4 月 Mac mini 上 Ollama 和 Gemma 4 26B 的 TLDR 设置</title>
+      <link>https://gist.github.com/greenstevester/fc49b4e60a4fef9effc79066c1033ae5</link>
+      <description><![CDATA[文章网址：https://gist.github.com/greenstevester/fc49b4e60a4fef9effc79066c1033ae5
+评论网址：https://news.ycombinator.com/item?id=47624731
+积分：1
+# 条评论：0]]></description>
+      <guid>https://gist.github.com/greenstevester/fc49b4e60a4fef9effc79066c1033ae5</guid>
+      <pubDate>Fri, 03 Apr 2026 09:35:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Python 设计光学</title>
+      <link>https://www.optiland.org/</link>
+      <description><![CDATA[文章网址：https://www.optiland.org/
+评论网址：https://news.ycombinator.com/item?id=47624693
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.optiland.org/</guid>
+      <pubDate>Fri, 03 Apr 2026 09:25:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>HarfBuzz Slug 支持 WebGL</title>
+      <link>https://harfbuzz.github.io/hb-gpu-demo/</link>
+      <description><![CDATA[文章网址：https://harfbuzz.github.io/hb-gpu-demo/
+评论网址：https://news.ycombinator.com/item?id=47624691
+积分：1
+# 条评论：0]]></description>
+      <guid>https://harfbuzz.github.io/hb-gpu-demo/</guid>
+      <pubDate>Fri, 03 Apr 2026 09:25:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：匿名聊天频道</title>
+      <link>https://kraa.io/kraa/trees</link>
+      <description><![CDATA[嗨，HN！几个月前，我分享了我们（来自捷克共和国的三人团队）一直在开发的一种新型 Markdown 编辑器（HN 帖子：https://news.ycombinator.com/item?id=46144801）。最能引起人们共鸣的是 Kraa 独特的“实时打字”聊天功能。我们现在已经根据这些反馈采取了行动，改进了聊天功能，并制作了我们所说的 Kraa Trees。树允许任何人创建轻量级社区/聊天频道。然而，将其称为 Discord 的替代品有些牵强，但我们希望 Trees 的无摩擦特性将使它们对那些想要更简单、更直接、更整洁的小团体有用。实时打字是关键的差异化功能之一。您可以通过在“新叶子”按钮下拉列表中选择“叶子树”来创建自己的社区/房间。您不需要帐户即可尝试 Kraa 或 Kraa Trees。我们很想知道您的想法！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47624683
+积分：1
+# 条评论：2]]></description>
+      <guid>https://kraa.io/kraa/trees</guid>
+      <pubDate>Fri, 03 Apr 2026 09:23:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Stashpin – Pinterest 视频和图板下载器</title>
+      <link>https://stashpin.com</link>
+      <description><![CDATA[文章网址：https://stashpin.com
+评论网址：https://news.ycombinator.com/item?id=47624676
+积分：1
+# 条评论：0]]></description>
+      <guid>https://stashpin.com</guid>
+      <pubDate>Fri, 03 Apr 2026 09:22:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>NHS 员工因道德问题抵制 Palantir 数据平台</title>
+      <link>https://www.ft.com/content/dbb67083-bd1d-46e9-b196-1438d54c5795</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/dbb67083-bd1d-46e9-b196-1438d54c5795
+评论网址：https://news.ycombinator.com/item?id=47624666
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.ft.com/content/dbb67083-bd1d-46e9-b196-1438d54c5795</guid>
+      <pubDate>Fri, 03 Apr 2026 09:20:02 GMT</pubDate>
     </item>
     </channel>
 </rss>
