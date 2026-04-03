@@ -4,108 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 03 Apr 2026 09:54:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 13:04:31 GMT</lastBuildDate>
     <item>
-      <title>我用 Rust 构建了一个 AI 数据提取引擎和 E2E 加密短信路由器</title>
-      <link>https://news.ycombinator.com/item?id=47624769</link>
-      <description><![CDATA[我最近启动了 SendStackr。最初的渴望来自于我在一家管理多个 Upwork 帐户和“电话农业”业务（大约 50 个物理设备）的机构工作的时间。我们需要集中入站电子邮件并转发短信（主要用于 2FA/OTP），但现有工具要么过于昂贵，迫使我们为每个设备设置单独的 Webhook，要么在尝试通过标准无代码包装器传输大量非结构化数据时超时。为了解决这个问题，我构建了自己的路由和提取引擎。我没有依赖标准 API，而是完全用 Rust 编写后端，构建自定义 SMTP 和 IMAP 服务器来摄取本地电子邮件。它使用 Graph RAG 读取非结构化 PDF、原始 HTML 电子邮件和 Webhook，提取所需的确切变量并将它们作为严格映射的 JSON 返回。我还刚刚发布了一个 Android Node 应用来处理物理电话问题（短信和推送通知转发）
+      <title>奥地利前外交部长带着小马乘军用飞机逃往俄罗斯</title>
+      <link>https://united24media.com/latest-news/austrias-ex-foreign-minister-flees-to-russia-by-kremlin-military-jet-with-her-ponies-17563</link>
+      <description><![CDATA[文章网址： https://united24media.com/latest-news/austrias-ex-foreign-minister-flees-to-Russia-by-kremlin-military-jet-with-her-ponies-17563
+评论网址：https://news.ycombinator.com/item?id=47626148
+积分：1
+# 条评论：0]]></description>
+      <guid>https://united24media.com/latest-news/austrias-ex-foreign-minister-flees-to-russia-by-kremlin-military-jet-with-her-ponies-17563</guid>
+      <pubDate>Fri, 03 Apr 2026 12:55:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>德国成年男性离开德国超过 3 个月必须申请许可</title>
+      <link>https://www.fr.de/politik/drastische-wehrpflicht-aenderung-maenner-die-deutschland-laenger-wollen-brauchen-genehmigung-zr-94248132.html</link>
+      <description><![CDATA[文章网址： https://www.fr.de/politik/drastische-wehrpflicht-aenderung-maenner-die-deutschland-laenger-wollen-bedarfen-authorization-zr-94248132.html
+评论网址：https://news.ycombinator.com/item?id=47626116
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.fr.de/politik/drastische-wehrpflicht-aenderung-maenner-die-deutschland-laenger-wollen-brauchen-genehmigung-zr-94248132.html</guid>
+      <pubDate>Fri, 03 Apr 2026 12:51:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jj v0.40.0 发布</title>
+      <link>https://github.com/jj-vcs/jj/releases/tag/v0.40.0</link>
+      <description><![CDATA[文章网址：https://github.com/jj-vcs/jj/releases/tag/v0.40.0
+评论网址：https://news.ycombinator.com/item?id=47626097
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/jj-vcs/jj/releases/tag/v0.40.0</guid>
+      <pubDate>Fri, 03 Apr 2026 12:49:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>第一个用于 Guesty 财产管理的 MCP 服务器 – 39 个工具，开源</title>
+      <link>https://github.com/DLJRealty/guesty-mcp-server</link>
+      <description><![CDATA[文章网址：https://github.com/DLJRealty/guesty-mcp-server
+评论网址：https://news.ycombinator.com/item?id=47626088
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/DLJRealty/guesty-mcp-server</guid>
+      <pubDate>Fri, 03 Apr 2026 12:48:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>将消费者 Wi-Fi 路由器的不安全归咎于外国 OEM 是一种转移注意力的做法</title>
+      <link>https://www.networkworld.com/article/4153824/why-cant-we-have-nice-routers-anymore.html</link>
+      <description><![CDATA[文章网址：https://www.networkworld.com/article/4153824/why-cant-we-have-nice-routers-anymore.html
+评论网址：https://news.ycombinator.com/item?id=47626084
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.networkworld.com/article/4153824/why-cant-we-have-nice-routers-anymore.html</guid>
+      <pubDate>Fri, 03 Apr 2026 12:48:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于英国废物运输验证、EWC 分类和数字 WTN 的 API</title>
+      <link>https://wastecheck.co.uk</link>
+      <description><![CDATA[文章网址：https://wastecheck.co.uk
+评论网址：https://news.ycombinator.com/item?id=47626070
+积分：1
+# 条评论：0]]></description>
+      <guid>https://wastecheck.co.uk</guid>
+      <pubDate>Fri, 03 Apr 2026 12:46:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 Anthropic 的意外帮助下，我对《科学美国人》进行了事实核查</title>
+      <link>https://iron.blue/blog/2026/apr-may-jun/the-claude-code-leak-is-a-huge-nothingburger</link>
+      <description><![CDATA[文章网址：https://iron.blue/blog/2026/apr-may-jun/the-claude-code-leak-is-a-huge-nothingburger
+评论网址：https://news.ycombinator.com/item?id=47626037
+积分：1
+# 条评论：1]]></description>
+      <guid>https://iron.blue/blog/2026/apr-may-jun/the-claude-code-leak-is-a-huge-nothingburger</guid>
+      <pubDate>Fri, 03 Apr 2026 12:43:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：用模拟买家代替 6 个月的 GTM 试错</title>
+      <link>https://github.com/wednesday-solutions/rightsuite.co</link>
+      <description><![CDATA[GTM 迭代本质上很慢。试了一下价格，错了。修复消息，但不转换。尝试新的受众，错误的细分。选择一个渠道，没有牵引力。每个错误都会花费一个月的时间。当您迭代出有效的东西时，市场已经发生了变化 - 尤其是现在，人工智能每个季度都在重塑买家的需求。我们构建了 RightSuite 来压缩这个周期。描述您的产品和目标受众。该系统通过综合买​​家群体运行它，并在上线之前告诉您可能出现问题的地方。它不会取代与真实客户的交谈。什么都没有。但这意味着你不会从零开始。您不必在第一个月就发现您的价格错误，在第二个月就发现您的冷冰冰的电子邮件居高临下，而是您走进去时已经知道问题出在哪里。通过模拟，您可以完成大约 70% 的工作。最后 30% 是现实世界的迭代 - 但现在是几周，而不是几个季度。七种工具已上线：定价、消息传递、定位、受众、渠道、外展和广告创意。 rightsuite.co/roi 上的投资回报率计算器，以便您可以了解迭代税实际花费了您多少。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47624769
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47624769</guid>
-      <pubDate>Fri, 03 Apr 2026 09:43:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>树演算</title>
-      <link>https://treecalcul.us/</link>
-      <description><![CDATA[文章网址：https://treecalcul.us/
-评论网址：https://news.ycombinator.com/item?id=47624763
-积分：1
-# 条评论：0]]></description>
-      <guid>https://treecalcul.us/</guid>
-      <pubDate>Fri, 03 Apr 2026 09:42:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Google、Apple、Dropbox 和 120 个美国应用程序的欧洲替代品</title>
-      <link>https://only-eu.eu/en/</link>
-      <description><![CDATA[文章网址：https://only-eu.eu/en/
-评论网址：https://news.ycombinator.com/item?id=47624741
-积分：2
-# 条评论：0]]></description>
-      <guid>https://only-eu.eu/en/</guid>
-      <pubDate>Fri, 03 Apr 2026 09:37:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>NHS 工作人员因 Palantir 道德问题拒绝使用 FDP</title>
-      <link>https://www.freevacy.com/news/financial-times/nhs-staff-refusing-to-use-fdp-over-palantir-ethical-concerns/7272</link>
-      <description><![CDATA[文章网址： https://www.freevacy.com/news/financial-times/nhs-staff-refusing-to-use-fdp-over-palantir-ethical-concerns/7272
-评论网址：https://news.ycombinator.com/item?id=47624736
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.freevacy.com/news/financial-times/nhs-staff-refusing-to-use-fdp-over-palantir-ethical-concerns/7272</guid>
-      <pubDate>Fri, 03 Apr 2026 09:36:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>2026 年 4 月 Mac mini 上 Ollama 和 Gemma 4 26B 的 TLDR 设置</title>
-      <link>https://gist.github.com/greenstevester/fc49b4e60a4fef9effc79066c1033ae5</link>
-      <description><![CDATA[文章网址：https://gist.github.com/greenstevester/fc49b4e60a4fef9effc79066c1033ae5
-评论网址：https://news.ycombinator.com/item?id=47624731
-积分：1
-# 条评论：0]]></description>
-      <guid>https://gist.github.com/greenstevester/fc49b4e60a4fef9effc79066c1033ae5</guid>
-      <pubDate>Fri, 03 Apr 2026 09:35:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 Python 设计光学</title>
-      <link>https://www.optiland.org/</link>
-      <description><![CDATA[文章网址：https://www.optiland.org/
-评论网址：https://news.ycombinator.com/item?id=47624693
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.optiland.org/</guid>
-      <pubDate>Fri, 03 Apr 2026 09:25:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>HarfBuzz Slug 支持 WebGL</title>
-      <link>https://harfbuzz.github.io/hb-gpu-demo/</link>
-      <description><![CDATA[文章网址：https://harfbuzz.github.io/hb-gpu-demo/
-评论网址：https://news.ycombinator.com/item?id=47624691
-积分：1
-# 条评论：0]]></description>
-      <guid>https://harfbuzz.github.io/hb-gpu-demo/</guid>
-      <pubDate>Fri, 03 Apr 2026 09:25:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：匿名聊天频道</title>
-      <link>https://kraa.io/kraa/trees</link>
-      <description><![CDATA[嗨，HN！几个月前，我分享了我们（来自捷克共和国的三人团队）一直在开发的一种新型 Markdown 编辑器（HN 帖子：https://news.ycombinator.com/item?id=46144801）。最能引起人们共鸣的是 Kraa 独特的“实时打字”聊天功能。我们现在已经根据这些反馈采取了行动，改进了聊天功能，并制作了我们所说的 Kraa Trees。树允许任何人创建轻量级社区/聊天频道。然而，将其称为 Discord 的替代品有些牵强，但我们希望 Trees 的无摩擦特性将使它们对那些想要更简单、更直接、更整洁的小团体有用。实时打字是关键的差异化功能之一。您可以通过在“新叶子”按钮下拉列表中选择“叶子树”来创建自己的社区/房间。您不需要帐户即可尝试 Kraa 或 Kraa Trees。我们很想知道您的想法！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47624683
-积分：1
-# 条评论：2]]></description>
-      <guid>https://kraa.io/kraa/trees</guid>
-      <pubDate>Fri, 03 Apr 2026 09:23:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Stashpin – Pinterest 视频和图板下载器</title>
-      <link>https://stashpin.com</link>
-      <description><![CDATA[文章网址：https://stashpin.com
-评论网址：https://news.ycombinator.com/item?id=47624676
-积分：1
-# 条评论：0]]></description>
-      <guid>https://stashpin.com</guid>
-      <pubDate>Fri, 03 Apr 2026 09:22:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>NHS 员工因道德问题抵制 Palantir 数据平台</title>
-      <link>https://www.ft.com/content/dbb67083-bd1d-46e9-b196-1438d54c5795</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/dbb67083-bd1d-46e9-b196-1438d54c5795
-评论网址：https://news.ycombinator.com/item?id=47624666
+评论网址：https://news.ycombinator.com/item?id=47626035
 积分：3
 # 条评论：0]]></description>
-      <guid>https://www.ft.com/content/dbb67083-bd1d-46e9-b196-1438d54c5795</guid>
-      <pubDate>Fri, 03 Apr 2026 09:20:02 GMT</pubDate>
+      <guid>https://github.com/wednesday-solutions/rightsuite.co</guid>
+      <pubDate>Fri, 03 Apr 2026 12:43:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>滥用 IP 代理的特征 [pdf]</title>
+      <link>https://www.first.org/global/sigs/netsec/NETSEC.characterizing-abusive-IP-proxies.pdf</link>
+      <description><![CDATA[文章网址：https://www.first.org/global/sigs/netsec/NETSEC.characterizing-abusive-IP-proxies.pdf
+评论网址：https://news.ycombinator.com/item?id=47626026
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.first.org/global/sigs/netsec/NETSEC.characterizing-abusive-IP-proxies.pdf</guid>
+      <pubDate>Fri, 03 Apr 2026 12:42:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>我通过 Emacs 运营我的公司</title>
+      <link>https://www.thetypicalset.com/blog/emacs-as-ceo-operating-system</link>
+      <description><![CDATA[文章网址：https://www.thetropicalset.com/blog/emacs-as-ceo-operating-system
+评论网址：https://news.ycombinator.com/item?id=47626006
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.thetypicalset.com/blog/emacs-as-ceo-operating-system</guid>
+      <pubDate>Fri, 03 Apr 2026 12:40:21 GMT</pubDate>
     </item>
     </channel>
 </rss>
