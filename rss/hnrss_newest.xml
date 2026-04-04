@@ -4,109 +4,112 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 04 Apr 2026 07:04:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 09:39:01 GMT</lastBuildDate>
     <item>
-      <title>ClickHouse Timeline Open-Source：有关 ClickHouse 中查询的详细时间线</title>
-      <link>https://github.com/Slach/clickhouse-timeline/</link>
-      <description><![CDATA[文章网址：https://github.com/Slach/clickhouse-timeline/
-评论网址：https://news.ycombinator.com/item?id=47636580
+      <title>机械技术更新</title>
+      <link>https://www.youtube.com/watch?v=sBhGbHVQYvI</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=sBhGbHVQYvI
+评论网址：https://news.ycombinator.com/item?id=47637433
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/Slach/clickhouse-timeline/</guid>
-      <pubDate>Sat, 04 Apr 2026 06:58:07 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=sBhGbHVQYvI</guid>
+      <pubDate>Sat, 04 Apr 2026 09:31:26 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Anos – 用于 x86-64 和 RISC-V 的手写约 100KiB 微内核</title>
-      <link>https://github.com/roscopeco/anos</link>
-      <description><![CDATA[我几乎总是有一个内核项目正在进行，而且几十年来一直如此。在过去的几年里，这就是 Anos，它比我以前的任何爱好内核都取得了更大的进步，支持 IPC、多任务、SMP（目前仅支持 x86-64）并在真实硬件上运行。在开发过程中使用了 LLM（主要是 Claude Code），但我很早就了解到它在这个级别的代码方面并不是_伟大_，因此我将其使用限制为主要用于文档和测试。用户空间中有一点人工智能代码，但内核本身有严格的“无人工智能代码”规则。我发现这不仅对代码的质量/功能有帮助，而且对学习也有帮助 - 例如，尽管我过去编写过多个内核，但直到 Anos 才真正理解页表管理以及良好的 VMM 接口的可能性，如果我将该实现外包给 LLM，我可能不会学到任何这些。在方法方面，Anos 避免了遗留平台功能和过时的 wiki/教程资源，相反，尝试尽可能多地从手册和数据表中实现，到目前为止，效果肯定很好。不支持旧平台功能或外设，例如，所有 IO 均进行内存映射和 MSI/MSI-X 中断（无 PIC），这有助于保持代码库的重点和易于使用。内核在 x86-64 上编译为大约 100KiB，具有足够的功能来支持用户空间中的多任务处理和设备驱动程序。作为一个业余爱好项目，进度随着我日常工作等的压力而起伏不定，并且主分支在过去几个月一直很安静。不过，如果时间允许，我一直在研究 USB 堆栈，希望很快就能至少获得基本的 HID 支持，以便我能够采取下一步并使 Anos 具有交互性。考虑到我们现在生活在人工智能编码时代，我不知道像 Anos 这样的项目还有多大用处，但这是一次有趣的学习经历，有助于让我在技术上保持基础，只要这些事情仍然存在，我就会继续下去。
+      <title>mlx 上的混合精度量化带有 TurboQuant 实现</title>
+      <link>https://twitter.com/thin_signal/status/2028412948167942334</link>
+      <description><![CDATA[文章网址：https://twitter.com/thin_signal/status/2028412948167942334
+评论网址：https://news.ycombinator.com/item?id=47637422
+积分：1
+# 条评论：1]]></description>
+      <guid>https://twitter.com/thin_signal/status/2028412948167942334</guid>
+      <pubDate>Sat, 04 Apr 2026 09:29:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>部署后通过 yt-dlp 下载 yt 视频是否有效？</title>
+      <link>https://news.ycombinator.com/item?id=47637386</link>
+      <description><![CDATA[就像我尝试做的那样，但我遇到了错误。有显示“登录你不是机器人”。
+所以，我完全困惑是否有办法在商业用途、合法和长期维持方面不面临任何类型的错误。除了代理和cookie？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47636579
+评论网址：https://news.ycombinator.com/item?id=47637386
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/roscopeco/anos</guid>
-      <pubDate>Sat, 04 Apr 2026 06:58:03 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47637386</guid>
+      <pubDate>Sat, 04 Apr 2026 09:21:50 GMT</pubDate>
     </item>
     <item>
-      <title>网络是反垄断的楔子</title>
-      <link>https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/</link>
-      <description><![CDATA[文章网址：https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/
-评论网址：https://news.ycombinator.com/item?id=47636556
+      <title>LÖVE：Lua 的 2D 游戏框架</title>
+      <link>https://github.com/love2d/love</link>
+      <description><![CDATA[文章网址：https://github.com/love2d/love
+评论网址：https://news.ycombinator.com/item?id=47637377
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/love2d/love</guid>
+      <pubDate>Sat, 04 Apr 2026 09:20:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>人才无处不在，机会却无处不在。我们都因此而失败</title>
+      <link>https://ourworldindata.org/talent-is-everywhere-opportunity-is-not</link>
+      <description><![CDATA[文章网址：https://ourworldindata.org/talent-is-everywhere-opportunity-is-not
+评论网址：https://news.ycombinator.com/item?id=47637366
 积分：2
 # 条评论：0]]></description>
-      <guid>https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/</guid>
-      <pubDate>Sat, 04 Apr 2026 06:54:05 GMT</pubDate>
+      <guid>https://ourworldindata.org/talent-is-everywhere-opportunity-is-not</guid>
+      <pubDate>Sat, 04 Apr 2026 09:17:52 GMT</pubDate>
     </item>
     <item>
-      <title>GitHub 观看</title>
-      <link>https://rohanadwankar.github.io/github_watch/</link>
-      <description><![CDATA[文章网址：https://rohanadwankar.github.io/github_watch/
-评论网址：https://news.ycombinator.com/item?id=47636538
-积分：2
-# 条评论：0]]></description>
-      <guid>https://rohanadwankar.github.io/github_watch/</guid>
-      <pubDate>Sat, 04 Apr 2026 06:50:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>据《纽约时报》报道，马斯克要求 SpaceX IPO 银行购买 Grok AI 订阅服务</title>
-      <link>https://finance.yahoo.com/markets/stocks/articles/musk-asks-spacex-ipo-banks-181543226.html</link>
-      <description><![CDATA[文章网址：https://finance.yahoo.com/markets/stocks/articles/musk-asks-spacex-ipo-banks-181543226.html
-评论网址：https://news.ycombinator.com/item?id=47636505
-积分：2
-# 条评论：0]]></description>
-      <guid>https://finance.yahoo.com/markets/stocks/articles/musk-asks-spacex-ipo-banks-181543226.html</guid>
-      <pubDate>Sat, 04 Apr 2026 06:45:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在伊朗上空击落美国F-35？中国工程师的预言教程</title>
-      <link>https://www.scmp.com/news/china/science/article/3348619/how-take-down-us-f-35-over-iran-chinese-engineers-prophetic-tutorial-goes-viral</link>
-      <description><![CDATA[文章网址： https://www.scmp.com/news/china/science/article/3348619/how-take-down-us-f-35-over-iran-chinese-engineers-prophetic-tutorial-goes-viral
-评论网址：https://news.ycombinator.com/item?id=47636486
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.scmp.com/news/china/science/article/3348619/how-take-down-us-f-35-over-iran-chinese-engineers-prophetic-tutorial-goes-viral</guid>
-      <pubDate>Sat, 04 Apr 2026 06:40:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：RemembrallMCP – 代理和内存的代码依赖关系图</title>
-      <link>https://github.com/cdnsteve/remembrallmcp</link>
-      <description><![CDATA[在看到 Claude Code 和 Codex 在我的代码库中一遍又一遍地运行 Explore 后，我开始认为一定有更好的方法。 RemembrallMCP 是我解决此问题的尝试。RemembrallMCP 为代理提供了大多数内存工具所没有的两件事：1.持久记忆——在会话之间保留的决策、模式和组织知识。混合语义+全文搜索立即找到相关上下文。2.代码依赖图 - 使用 tree-sitter 构建的代码库的实时地图。跨 8 种语言的函数、类、导入和调用关系。问“如果我改变这个，会出现什么问题？”并在代理接触任何内容之前在几毫秒内获得答案。在 Docker 容器内运行整个过程，以便轻松开始。 Claude 使用 MCP 来利用它。用 Rust 编写。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47636482
-积分：2
-# 条评论：0]]></description>
-      <guid>https://github.com/cdnsteve/remembrallmcp</guid>
-      <pubDate>Sat, 04 Apr 2026 06:39:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>终端中的表格电子表格</title>
-      <link>https://github.com/maaslalani/sheets</link>
-      <description><![CDATA[文章网址：https://github.com/maaslalani/sheets
-评论网址：https://news.ycombinator.com/item?id=47636456
-积分：2
-# 条评论：0]]></description>
-      <guid>https://github.com/maaslalani/sheets</guid>
-      <pubDate>Sat, 04 Apr 2026 06:34:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>考古学家发现225年前被纳尔逊击沉的丹麦军舰残骸</title>
-      <link>https://www.theguardian.com/science/2026/apr/02/archaeologists-discover-wreck-danish-warship-sunk-admiral-nelson</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/science/2026/apr/02/archaeists-discover-wreck-danish-warship-sunk-admiral-nelson
-评论网址：https://news.ycombinator.com/item?id=47636455
+      <title>2025 年起超过 11 万篇出版物可能包含幻觉引用</title>
+      <link>https://www.nature.com/articles/d41586-026-00969-z</link>
+      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-026-00969-z
+评论网址：https://news.ycombinator.com/item?id=47637356
 积分：3
-# 条评论：0]]></description>
-      <guid>https://www.theguardian.com/science/2026/apr/02/archaeologists-discover-wreck-danish-warship-sunk-admiral-nelson</guid>
-      <pubDate>Sat, 04 Apr 2026 06:34:02 GMT</pubDate>
+# 条评论：3]]></description>
+      <guid>https://www.nature.com/articles/d41586-026-00969-z</guid>
+      <pubDate>Sat, 04 Apr 2026 09:16:02 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：从设计到代码</title>
-      <link>https://www.absl.design/</link>
-      <description><![CDATA[https://youtube.com/playlist?list=PL3vzYfOMUcIkd_1CzICEkH1IR...
+      <title>生产中的 SQLite：在单个文件上运行存储的经验教训</title>
+      <link>https://ultrathink.art/blog/sqlite-in-production-lessons</link>
+      <description><![CDATA[文章网址：https://ultrathink.art/blog/sqlite-in-product-lessons
+评论网址：https://news.ycombinator.com/item?id=47637353
+积分：1
+# 条评论：1]]></description>
+      <guid>https://ultrathink.art/blog/sqlite-in-production-lessons</guid>
+      <pubDate>Sat, 04 Apr 2026 09:15:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：ZipSee – 使用 HTTP 范围请求探索远程 ZIP 档案</title>
+      <link>https://zipsee.pages.dev/</link>
+      <description><![CDATA[一个使用 HTTP 范围请求远程探索 ZIP 存档的小工具 - 列出内容并下载特定文件，而无需获取整个存档。尝试将此 URL (https://docs.python.org/3/archives/python-3.14-docs-text.zip) 作为示例。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47636444
-积分：2
+评论网址：https://news.ycombinator.com/item?id=47637346
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.absl.design/</guid>
-      <pubDate>Sat, 04 Apr 2026 06:32:24 GMT</pubDate>
+      <guid>https://zipsee.pages.dev/</guid>
+      <pubDate>Sat, 04 Apr 2026 09:15:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用基于场景和语音的分割的免费 AI 视频剪辑器</title>
+      <link>https://news.ycombinator.com/item?id=47637344</link>
+      <description><![CDATA[我正在为我的业余项目构建这个。没有什么只是探索。但在本地主机中它会运行良好，当我们部署时我们会遇到问题。
+yt DNS 已阻止不下载视频。 
+所以，我找不到答案。我们如何下载然后执行其余过程。那么，我们该怎么做。除了 cookies/代理。其他人如何在没有遇到问题的情况下做到这一点？有人知道吗？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47637344
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47637344</guid>
+      <pubDate>Sat, 04 Apr 2026 09:14:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>伊朗威胁轰炸阿布扎比 1GW Stargate 人工智能数据中心</title>
+      <link>https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms</link>
+      <description><![CDATA[文章网址： https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms
+评论网址：https://news.ycombinator.com/item?id=47637343
+积分：1
+# 条评论：0]]></description>
+      <guid>https://timesofindia.indiatimes.com/technology/tech-news/iran-threatens-to-bomb-1gw-stargate-ai-datacenter-in-the-uae-shows-hidden-/articleshow/130003120.cms</guid>
+      <pubDate>Sat, 04 Apr 2026 09:14:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
