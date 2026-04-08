@@ -4,107 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 08 Apr 2026 10:08:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 13:21:25 GMT</lastBuildDate>
     <item>
-      <title>锁定模式如何保护您免受间谍软件的侵害？ [视频]</title>
-      <link>https://www.youtube.com/watch?v=5D3lWDUEJA8</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=5D3lWDUEJA8
-评论网址：https://news.ycombinator.com/item?id=47687941
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=5D3lWDUEJA8</guid>
-      <pubDate>Wed, 08 Apr 2026 10:01:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能代理。在 COBOL 中。是的</title>
-      <link>https://github.com/xawt/cobold-cli</link>
-      <description><![CDATA[文章网址：https://github.com/xawt/cobold-cli
-评论网址：https://news.ycombinator.com/item?id=47687923
-积分：2
-# 条评论：0]]></description>
-      <guid>https://github.com/xawt/cobold-cli</guid>
-      <pubDate>Wed, 08 Apr 2026 09:59:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：HN 上的 Qubes OS 是否存在某种耻辱？</title>
-      <link>https://news.ycombinator.com/item?id=47687910</link>
-      <description><![CDATA[我发现 Qubes OS（“相当安全的操作系统”）非常有趣。不仅可以作为信息技术从一开始就以其他方式设计的概念的一般证明，而且尤其是在当今第三方风险的背景下：如果您是开发人员，则软件包依赖关系会受到损害；如果您在本地接收并打开文件，则文档中存在恶意软件； 在我们的世界中，大多数 PC 用户通常在一台计算机上执行几十种完全独立的任务（游戏、电子邮件、银行业务、流媒体、末日滚动、在线购买、网页浏览，甚至可能工作），当前的攻击面是巨大的，因此，围绕剥离的安全内核将单台计算机转变为数十个上下文但独立的虚拟机的好处始终吸引着人们但是，在 HN 帖子和评论中进行搜索时，我找不到太多（如果有的话）关于 Qubes OS 或其愿景的讨论，甚至在最近的许多帖子中，这里的人们都在哀叹不断的数据泄露、被盗用的 NPM 包窃取 API 密钥、操纵您安装 RAT 作为流程一部分的虚假招聘机构、IA 生成的视频网络钓鱼等。很想了解更多原因； 13 年来，Hacker News 上的许多人肯定都听说过 Qubes。那么，为什么虚拟机隔离的使用（尤其是 Qubes 操作系统）在网络安全和相关领域（事件响应、攻击、恶意软件分析、激进主义）之外没有得到更多讨论和更普遍的使用。是否对团队或项目存在特殊偏见？难道连 HN 技术爱好者都不敢尝试使用吗？
+      <title>问 HN：2026 年多模式即时注入防御的状况如何？</title>
+      <link>https://news.ycombinator.com/item?id=47689822</link>
+      <description><![CDATA[我一直在研究多模式提示注入 - 隐藏在图像、文档和音频而不是文本中的攻击。针对我构建的检测管道运行了结构化测试套件（跨 5 种模式的 225 次攻击），结果令人惊讶。一些发现：- 音频比文本更容易防御。超声波和频谱攻击具有可通过 FFT 分析检测到的信号特征。困难的部分是在转录之后，它再次成为文本问题。- 如果您独立扫描每种模态，跨模态攻击的危险性将低于预期。 “干净文本 + 恶意 PDF”攻击仅在您信任该文档时才有效，因为文本看起来很安全。- 如果您在扫描前进行解码，编码（base64、ROT13、leetspeak）问题就可以解决。剩下的差距是非常短的编码有效负载，低于检测阈值。-真正未解决的问题是语义。完成攻击（“完成以下内容：‘系统提示读...’”）、叙述提取、隐写输出操作和多轮上下文中毒都需要理解意图，而不是模式匹配。根据已知注入模式训练的分类器总是会错过新的框架。- 误报比检测更难。在“充当 SQL 专家”、“覆盖默认配置”和“什么是提示注入”等输入中获得零误报比提高检测率需要更多的工作。- 非英语注入是一个巨大的盲点。经过英语训练的分类器会错过每一次躲避正则表达式模式的非英语攻击。我向 HN 提出的问题：还有其他人致力于多模式注入防御吗？我发现的大多数工具（Lakera Guard、LLM Guard、Azure Prompt Shields）在其公共 API 中仍然是纯文本。研究论文很好地描述了这些攻击，但我还没有看到很多针对图像/音频/文档注入的生产级防御。我也很好奇是否有人成功地使用 LLM 作为判断方法来检测语义攻击 - 使用第二个模型来评估输入是否试图操纵第一个模型。延迟和成本的权衡似乎很残酷，但这可能是实现微妙内容的唯一途径。很想听听其他人在生产中看到的情况。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47687910
+评论网址：https://news.ycombinator.com/item?id=47689822
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47687910</guid>
-      <pubDate>Wed, 08 Apr 2026 09:58:10 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47689822</guid>
+      <pubDate>Wed, 08 Apr 2026 13:18:11 GMT</pubDate>
     </item>
     <item>
-      <title>稳定币产量禁令对银行贷款的影响</title>
-      <link>https://www.whitehouse.gov/research/2026/04/effects-of-stablecoin-yield-prohibition-on-bank-lending/</link>
-      <description><![CDATA[文章网址：https://www.whitehouse.gov/research/2026/04/effects-of-stablecoin-yield-prohibition-on-bank-lending/
-评论网址：https://news.ycombinator.com/item?id=47687901
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.whitehouse.gov/research/2026/04/effects-of-stablecoin-yield-prohibition-on-bank-lending/</guid>
-      <pubDate>Wed, 08 Apr 2026 09:57:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>机器学习中的签名方法（交互式阅读笔记）</title>
-      <link>https://ngrislain.github.io/blog/2026-4-6-reading-note-the-signature-method-in-machine-learning/</link>
-      <description><![CDATA[文章网址：https://ngrislain.github.io/blog/2026-4-6-reading-note-the-signature-method-in-machine-learning/
-评论网址：https://news.ycombinator.com/item?id=47687871
-积分：1
-# 条评论：0]]></description>
-      <guid>https://ngrislain.github.io/blog/2026-4-6-reading-note-the-signature-method-in-machine-learning/</guid>
-      <pubDate>Wed, 08 Apr 2026 09:53:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>火星人</title>
-      <link>https://en.wikipedia.org/wiki/The_Martians_(scientists)</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/The_Martians_(scientists)
-评论网址：https://news.ycombinator.com/item?id=47687855
-积分：1
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/The_Martians_(scientists)</guid>
-      <pubDate>Wed, 08 Apr 2026 09:51:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们得到了锂离子电池 (2024)</title>
-      <link>https://www.construction-physics.com/p/how-we-got-the-lithium-ion-battery</link>
-      <description><![CDATA[文章网址：https://www.construction-physicals.com/p/how-we-got-the-lithium-ion-battery
-评论网址：https://news.ycombinator.com/item?id=47687853
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.construction-physics.com/p/how-we-got-the-lithium-ion-battery</guid>
-      <pubDate>Wed, 08 Apr 2026 09:51:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>完全私有的人工智能</title>
-      <link>https://molebieai.com/</link>
-      <description><![CDATA[文章网址：https://molebieai.com/
-评论网址：https://news.ycombinator.com/item?id=47687824
-积分：1
-# 条评论：0]]></description>
-      <guid>https://molebieai.com/</guid>
-      <pubDate>Wed, 08 Apr 2026 09:49:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>FormTo – 开源、自托管的表单后端</title>
-      <link>https://github.com/lumizone/formto</link>
-      <description><![CDATA[文章网址：https://github.com/lumizone/formto
-评论网址：https://news.ycombinator.com/item?id=47687813
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/lumizone/formto</guid>
-      <pubDate>Wed, 08 Apr 2026 09:48:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我用 1 个命令构建了一个 Zoom 替代方案</title>
-      <link>https://sfu.mirotalk.com</link>
-      <description><![CDATA[文章网址：https://sfu.mirotalk.com
-评论网址：https://news.ycombinator.com/item?id=47687802
+      <title>我们用多巴胺给自己下药</title>
+      <link>https://www.wsj.com/opinion/free-expression/were-drugging-ourselves-with-dopamine-86091667</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/opinion/free-express/were-drugging-ourselves-with-dopamine-86091667
+评论网址：https://news.ycombinator.com/item?id=47689797
 积分：1
 # 条评论：1]]></description>
-      <guid>https://sfu.mirotalk.com</guid>
-      <pubDate>Wed, 08 Apr 2026 09:47:34 GMT</pubDate>
+      <guid>https://www.wsj.com/opinion/free-expression/were-drugging-ourselves-with-dopamine-86091667</guid>
+      <pubDate>Wed, 08 Apr 2026 13:16:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>多少线性内存访问就足够了？</title>
+      <link>https://solidean.com/blog/2026/how-much-linear-memory-access-is-enough/</link>
+      <description><![CDATA[文章网址：https://solidean.com/blog/2026/how-much-线性-内存-access-is-enough/
+评论网址：https://news.ycombinator.com/item?id=47689793
+积分：1
+# 条评论：0]]></description>
+      <guid>https://solidean.com/blog/2026/how-much-linear-memory-access-is-enough/</guid>
+      <pubDate>Wed, 08 Apr 2026 13:16:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>AWAF – 用于对 AI 代理生产准备情况进行评分的开放框架</title>
+      <link>https://awaf.ai</link>
+      <description><![CDATA[文章网址：https://awaf.ai
+评论网址：https://news.ycombinator.com/item?id=47689776
+积分：1
+# 条评论：0]]></description>
+      <guid>https://awaf.ai</guid>
+      <pubDate>Wed, 08 Apr 2026 13:15:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>QVeris：人工智能代理通过一种协议发现、检查和调用 10k 功能</title>
+      <link>https://qveris.ai/</link>
+      <description><![CDATA[文章网址：https://qveris.ai/
+评论网址：https://news.ycombinator.com/item?id=47689773
+积分：1
+# 条评论：0]]></description>
+      <guid>https://qveris.ai/</guid>
+      <pubDate>Wed, 08 Apr 2026 13:14:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Forgeterm – AI 编码代理的运行时安全监视器</title>
+      <link>https://github.com/diemoeve/forgeterm</link>
+      <description><![CDATA[文章网址：https://github.com/diemoeve/forgeterm
+评论网址：https://news.ycombinator.com/item?id=47689770
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/diemoeve/forgeterm</guid>
+      <pubDate>Wed, 08 Apr 2026 13:14:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：您死后如何管理您的数字遗产？</title>
+      <link>https://news.ycombinator.com/item?id=47689759</link>
+      <description><![CDATA[你死后的 Ofc，一开始并不重要，但说实话，我一直在思考当我去世后，我的妻子将不得不以数字方式处理什么。互联网上的所有帐户、我在 Google 云端硬盘中的旧照片、文档以及类似的东西。我有密码管理器，所以我将其传递给我的妻子，这样可以轻松访问个人资料，但我还能做些什么来帮助/简化整个过程？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47689759
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47689759</guid>
+      <pubDate>Wed, 08 Apr 2026 13:13:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>生成人工智能时代的生命科学评估设计</title>
+      <link>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346127</link>
+      <description><![CDATA[文章网址：https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346127
+评论网址：https://news.ycombinator.com/item?id=47689755
+积分：1
+# 条评论：1]]></description>
+      <guid>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346127</guid>
+      <pubDate>Wed, 08 Apr 2026 13:13:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何建立一个更好、更去中心化的网络？</title>
+      <link>https://blog.archive.org/2026/04/02/how-dweb-camp-is-being-built-in-berlin/</link>
+      <description><![CDATA[文章网址：https://blog.archive.org/2026/04/02/how-dweb-camp-is-being-built-in-berlin/
+评论网址：https://news.ycombinator.com/item?id=47689731
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.archive.org/2026/04/02/how-dweb-camp-is-being-built-in-berlin/</guid>
+      <pubDate>Wed, 08 Apr 2026 13:11:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>QEMU 开发入门指南，第 1 部分 [视频]</title>
+      <link>https://www.youtube.com/watch?v=OCBLTMKLGAk</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=OCBLTMKLGAk
+评论网址：https://news.ycombinator.com/item?id=47689716
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=OCBLTMKLGAk</guid>
+      <pubDate>Wed, 08 Apr 2026 13:10:50 GMT</pubDate>
     </item>
     </channel>
 </rss>
