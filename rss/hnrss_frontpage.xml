@@ -4,34 +4,54 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 09 Apr 2026 13:28:33 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 16:18:28 GMT</lastBuildDate>
+    <item>
+      <title>帝企鹅和南极海狗现已濒临灭绝</title>
+      <link>https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn</link>
+      <description><![CDATA[文章网址：https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn
+评论网址：https://news.ycombinator.com/item?id=47705324
+积分：9
+# 条评论：0]]></description>
+      <guid>https://iucn.org/press-release/202604/emperor-penguin-and-antarctic-fur-seal-now-endangered-due-climate-change-iucn</guid>
+      <pubDate>Thu, 09 Apr 2026 15:55:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vercel Claude Code 插件想要读取您的提示</title>
+      <link>https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry</link>
+      <description><![CDATA[文章网址：https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry
+评论网址：https://news.ycombinator.com/item?id=47704881
+积分：53
+# 条评论：7]]></description>
+      <guid>https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry</guid>
+      <pubDate>Thu, 09 Apr 2026 15:17:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta 删除社交媒体成瘾诉讼广告</title>
+      <link>https://www.axios.com/2026/04/09/meta-social-media-addiction-ads</link>
+      <description><![CDATA[文章网址：https://www.axios.com/2026/04/09/meta-social-media-addiction-ads
+评论网址：https://news.ycombinator.com/item?id=47703419
+积分：229
+评论数量：100]]></description>
+      <guid>https://www.axios.com/2026/04/09/meta-social-media-addiction-ads</guid>
+      <pubDate>Thu, 09 Apr 2026 13:23:50 GMT</pubDate>
+    </item>
     <item>
       <title>Pizza Tycoon 如何在 25 MHz CPU 上模拟流量</title>
       <link>https://pizzalegacy.nl/blog/traffic-system.html</link>
       <description><![CDATA[文章网址：https://pizzalegacy.nl/blog/traffic-system.html
 评论网址：https://news.ycombinator.com/item?id=47703123
-积分：18
-# 条评论：0]]></description>
+积分：154
+# 条评论：34]]></description>
       <guid>https://pizzalegacy.nl/blog/traffic-system.html</guid>
       <pubDate>Thu, 09 Apr 2026 12:57:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>我是德国人还是自闭症患者？</title>
-      <link>https://german.millermanschool.com/</link>
-      <description><![CDATA[文章网址：https://german.millermanschool.com/
-评论网址：https://news.ycombinator.com/item?id=47703072
-积分：8
-# 条评论：0]]></description>
-      <guid>https://german.millermanschool.com/</guid>
-      <pubDate>Thu, 09 Apr 2026 12:52:12 GMT</pubDate>
     </item>
     <item>
       <title>会话将在 90 天后关闭</title>
       <link>https://getsession.org/donate</link>
       <description><![CDATA[文章网址：https://getsession.org/donate
 评论网址：https://news.ycombinator.com/item?id=47703065
-积分：36
-# 条评论：42]]></description>
+积分：68
+评论数：87]]></description>
       <guid>https://getsession.org/donate</guid>
       <pubDate>Thu, 09 Apr 2026 12:51:32 GMT</pubDate>
     </item>
@@ -40,21 +60,41 @@
       <link>https://ssta.willhelps.org</link>
       <description><![CDATA[文章网址：https://ssta.willhelps.org
 评论网址：https://news.ycombinator.com/item?id=47702791
-积分：20
-# 条评论：3]]></description>
+积分：114
+# 条评论：41]]></description>
       <guid>https://ssta.willhelps.org</guid>
       <pubDate>Thu, 09 Apr 2026 12:25:57 GMT</pubDate>
     </item>
     <item>
       <title>启动 HN：Relvy (YC F24) – 自动化的待命运行手册</title>
       <link>https://www.relvy.ai</link>
-      <description><![CDATA[嘿，HN！我们是来自 Relvy AI (https://www.relvy.ai) 的 Bharath 和 Simranjit。 Relvy 为软件工程团队自动化编写待命运行手册。它是一个人工智能代理，配备了可以大规模分析遥测数据和代码的工具，帮助团队在几分钟内调试和解决生产问题。这是一个视频：[[[https://www.youtube.com/watch?v=BXr4_XlWXc0]]]许多团队正在以某种形式使用人工智能来减轻他们的待命负担。您可以将日志粘贴到 Cursor 中，或者使用 Claude Code 和 Datadog 的 MCP 服务器来帮助调试。我们看到的是，自主根本原因分析对于人工智能来说是一个难题。这在基准测试中得到了体现 - 与编码任务相比，Claude Opus 4.6 目前在 OpenRCA 数据集上的准确率为 36%。造成这种情况的主要原因有三个：(1) 遥测数据量可能会淹没模型的噪音； (2) 数据解释/推理依赖于企业环境； (3) On-call 是一个时间有限、风险高的问题，在调查期间人工智能探索的空间很小。导致用户走上错误道路的错误是不容易被原谅的。在 Relvy，我们正在通过构建专门的遥测数据分析工具来解决这些问题。我们的工具可以检测异常并从密集的时间序列数据中识别问题切片、进行日志模式搜索以及对跨度树进行推理，所有这些都不会压垮代理上下文。将代理锚定在运行手册上可以减少代理探索并提高确定性步骤，从而反映经验丰富的工程师将采取的最有用的步骤。这样可以加快分析速度，减少工程师审查和理解 AI 功能的认知负担。工作原理：Relvy 通过 docker-compose（或通过 Helm Charts，或在我们的云上注册）安装在本地计算机上，连接您的堆栈（可观察性和代码），创建您的第一个 Runbook 并让 Relvy 调查最近的警报。每项调查都以笔记本形式呈现在我们的 Web UI 中，并提供数据可视化功能，帮助工程师验证 AI 并建立信任。从那时起，Relvy 可以配置为自动响应来自 Slack 的警报Relvy 自动化的一些示例操作手册步骤： - 检查某某仪表板，查看错误是否被隔离到特定分片。 - 检查APM页面是否出现吞吐量激增，如果是，是否来自少数IP？ - 检查最近的提交，看看此端点是否有任何更改。您还可以配置 Relvy 可以运行的 AWS CLI 命令，以在人工批准的情况下自动执行缓解操作。关于我们的一些信息 - 我们早在 2024 年秋天就做过 YC。我们开始了我们的旅程，尝试使用小型语言模型进行连续日志监控 - 速度太慢了。然后，我们投入了大量资金来有效解决根本原因分析问题，我们今天的产品是与早期客户大约一年的合作的结果。今天就来尝试一下吧。很高兴听到反馈，或者了解您如何解决公司的随叫随到负担。感谢任何意见或建议！
+      <description><![CDATA[嘿，HN！我们是来自 Relvy AI (https://www.relvy.ai) 的 Bharath 和 Simranjit。 Relvy 为软件工程团队自动化编写待命运行手册。它是一个人工智能代理，配备了可以大规模分析遥测数据和代码的工具，帮助团队在几分钟内调试和解决生产问题。这是一个视频：[[[https://www.youtube.com/watch?v=BXr4_XlWXc0]]]许多团队正在以某种形式使用人工智能来减轻他们的待命负担。您可以将日志粘贴到 Cursor 中，或者使用 Claude Code 和 Datadog 的 MCP 服务器来帮助调试。我们看到的是，自主根本原因分析对于人工智能来说是一个难题。这在基准测试中得到了体现 - 与编码任务相比，Claude Opus 4.6 目前在 OpenRCA 数据集上的准确率为 36%。造成这种情况的主要原因有三个：(1) 遥测数据量可能会淹没模型的噪音； (2) 数据解释/推理依赖于企业环境； (3) On-call 是一个时间有限、风险高的问题，在调查期间人工智能探索的空间很小。导致用户走上错误道路的错误是不容易被原谅的。在 Relvy，我们正在通过构建专门的遥测数据分析工具来解决这些问题。我们的工具可以检测异常并从密集的时间序列数据中识别问题切片、进行日志模式搜索以及对跨度树进行推理，所有这些都不会压垮代理上下文。将代理锚定在运行手册上可以减少代理探索并提高确定性步骤，从而反映经验丰富的工程师将采取的最有用的步骤。这样可以加快分析速度，减少工程师审查和理解 AI 功能的认知负担。工作原理：Relvy 通过 docker-compose（或通过 Helm Charts，或在我们的云上注册）安装在本地计算机上，连接您的堆栈（可观察性和代码），创建您的第一个 Runbook 并让 Relvy 调查最近的警报。每项调查都以笔记本形式呈现在我们的 Web UI 中，并提供数据可视化功能，帮助工程师验证 AI 并建立信任。从那时起，Relvy 可以配置为自动响应来自 Slack 的警报Relvy 自动化的一些示例操作手册步骤： - 检查某某仪表板，查看错误是否被隔离到特定分片。 - 检查APM页面是否出现吞吐量激增，如果是，是否来自少数IP？ - 检查最近的提交，看看此端点是否有任何更改。您还可以配置 Relvy 可以运行的 AWS CLI 命令，以在人工批准的情况下自动执行缓解操作。关于我们的一些信息 - 我们早在 2024 年秋天就做过 YC。我们开始了我们的旅程，尝试使用小型语言模型进行连续日志监控 - 速度太慢了。然后，我们投入了大量资金来有效解决根本原因分析问题，我们今天的产品是与早期客户大约一年的合作的结果。今天就来尝试一下吧。很高兴听到反馈，或者了解您如何解决公司的随叫随到负担。 Appreciate any comments or suggestions!
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47702647
-积分：9
-# 条评论：8]]></description>
+积分：20
+# 条评论：15]]></description>
       <guid>https://www.relvy.ai</guid>
       <pubDate>Thu, 09 Apr 2026 12:11:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>增强顶点块下降的 WebGPU 实现</title>
+      <link>https://github.com/jure/webphysics</link>
+      <description><![CDATA[文章网址：https://github.com/jure/webphysicals
+评论网址：https://news.ycombinator.com/item?id=47702541
+积分：60
+# 条评论：2]]></description>
+      <guid>https://github.com/jure/webphysics</guid>
+      <pubDate>Thu, 09 Apr 2026 12:01:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lichess与Take Take Take签署合作协议</title>
+      <link>https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy</link>
+      <description><![CDATA[文章网址：https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy
+评论网址：https://news.ycombinator.com/item?id=47702499
+积分：87
+# 条评论：13]]></description>
+      <guid>https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy</guid>
+      <pubDate>Thu, 09 Apr 2026 11:56:56 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：CSS Studio。手工设计，代理编码</title>
@@ -62,50 +102,10 @@
       <description><![CDATA[嗨，HN！我刚刚发布了 CSS Studio，这是一个设计工具，可以在您的网站上运行，在您的浏览器上运行，向您现有的 AI 代理发送更新，该代理可以编辑任何代码库。实际上，您可以直接在网站上使用最新版本。从技术上讲，其工作方式是您在开发模式下查看网站并开始编辑它。在您的代理中，您可以运行 /studio，然后轮询（或使用 Claude Channels）MCP 服务器。更改通过 MCP 以 JSON 形式传输，并附带一些视口和 URL 信息，并且该技能包含有关如何最好地实现它们的一些说明。它包含许多您期望从可视化编辑工具中获得的工具，例如文本编辑、样式和动画时间轴编辑器。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47702196
-积分：47
-# 条评论：35]]></description>
+积分：80
+# 条评论：64]]></description>
       <guid>https://cssstudio.ai</guid>
       <pubDate>Thu, 09 Apr 2026 11:23:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>Wit、unker、Git：失落的中世纪英语亲密代词</title>
-      <link>https://www.bbc.com/future/article/20260408-the-extinct-english-words-for-just-the-two-of-us</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/future/article/20260408-the-extinct-english-words-for-just-the-two-of-us
-评论网址：https://news.ycombinator.com/item?id=47701572
-积分：54
-# 条评论：22]]></description>
-      <guid>https://www.bbc.com/future/article/20260408-the-extinct-english-words-for-just-the-two-of-us</guid>
-      <pubDate>Thu, 09 Apr 2026 10:10:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>克劳德混淆了谁说了什么，这不好</title>
-      <link>https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html</link>
-      <description><![CDATA[文章网址：https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html
-评论网址：https://news.ycombinator.com/item?id=47701233
-积分：193
-# 条评论：180]]></description>
-      <guid>https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html</guid>
-      <pubDate>Thu, 09 Apr 2026 09:25:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>FreeBSD 笔记本电脑兼容性：可与 FreeBSD 配合使用的顶级笔记本电脑</title>
-      <link>https://freebsdfoundation.github.io/freebsd-laptop-testing/</link>
-      <description><![CDATA[文章网址：https://freebsdfoundation.github.io/freebsd-laptop-testing/
-评论网址：https://news.ycombinator.com/item?id=47701148
-积分：21
-# 条评论：3]]></description>
-      <guid>https://freebsdfoundation.github.io/freebsd-laptop-testing/</guid>
-      <pubDate>Thu, 09 Apr 2026 09:17:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>打造第五元素的未来景观 [2019]</title>
-      <link>https://theasc.com/articles/fantastic-voyage-creating-the-futurescape-for-the-fifth-element</link>
-      <description><![CDATA[文章网址：https://theasc.com/articles/fantastic-voyage-creating-the-futurescape-for-the-fifth-element
-评论网址：https://news.ycombinator.com/item?id=47701100
-积分：64
-# 条评论：30]]></description>
-      <guid>https://theasc.com/articles/fantastic-voyage-creating-the-futurescape-for-the-fifth-element</guid>
-      <pubDate>Thu, 09 Apr 2026 09:11:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
