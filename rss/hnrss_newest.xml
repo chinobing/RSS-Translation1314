@@ -4,173 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 09 Apr 2026 16:18:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 19:07:55 GMT</lastBuildDate>
     <item>
-      <title>Show HN：渲染工作流程 – 无需队列或工作人员的持久任务编排</title>
-      <link>https://render.com/workflows</link>
-      <description><![CDATA[嘿，HN，我是 Anurag，Render 的创始人兼首席执行官，Render 是一个面向应用程序开发人员的云。
-我们刚刚推出了 Render Workflows，这是一种通过装饰普通 TypeScript 或 Python 函数并在 Render 上运行它们来定义持久任务的方法，而无需操作队列、工作池、重试逻辑和状态管理。 Code example below [1].The use cases we have in mind include agent loops, ETL/data pipelines, billing flows, and other long-running jobs.该模型很简单：将现有函数标记为任务，将存储库部署为工作流，然后从应用程序代码或通过我们的 API 触发运行。每个任务可以连续运行长达 24 小时，并设置自己的重试策略、超时和计算实例类型。 Tasks can call other tasks like normal functions, and fan out in parallel with `Promise.all` or `asyncio.gather`.每个任务运行都有自己独立的容器，Render 负责处理排队、编排和可观察性。您可以在 Render 仪表板中检查每次运行的日志、跟踪和指标。 If you&#39;re running other services on Render, you can connect to them from your tasks using built-in private networking.计费基于任务实例类型和运行持续时间，按比例计算到秒。这是一个公开测试版，因此可能存在粗糙的情况。目前，任务定义仅支持 TypeScript 和 Python，并且内置 cron 计划尚不可用。 You can still trigger tasks from the SDK/API, or use a Render Cron Job for scheduled entry points.我们还在致力于暂停/恢复、检查点、垂直自动缩放以及对更多语言的支持。我们并不声称这会取代所有任务编排系统（目前）。目标是使常见情况的使用和故障排除变得更加简单，尤其是对于 Render 用户而言。文档和示例：https://render.com/docs/workflows我特别喜欢使用 Celery、BullMQ、Temporal 或其他队列和工作线程构建类似系统的人们的反馈。 What would you want to see before GA?[1] ---- TS example ----  import { task } from &#39;@renderinc/sdk/workflows&#39;
-  从“@renderinc/sdk”导入{渲染}
-  
-  常量充值卡 = 任务(
-    {
-      name: &#39;充值卡&#39;,
-      retry: { maxRetries: 5, waitDurationMs: 1000, backoffScaling: 2 },
-      超时秒数：300，
-      计划：“标准”，
-    },
-    async function chargeCard(invoiceId: string) {
-      // call Stripe or your payment provider here
-      返回 {invoiceId, chargeId: `ch_${invoiceId}` }
-    }
-  ）
-  
-  const writeLedger = task(
-    { 名称： &#39;writeLedger&#39; },
-    异步函数 writeLedger(invoiceId: string, chargeId: string) {
-      // persist accounting entry
-    }
-  ）
-  
-  const sendReceipt = task(
-    { name: &#39;发送收据&#39; },
-    异步函数 sendReceipt(invoiceId: string, chargeId: string) {
-      // 给客户发邮件
-    }
-  ）
-  
-  const processInvoice = task(
-    { name: &#39;processInvoice&#39; },
-    异步函数 processInvoice(invoiceId: string) {
-      const charge = await chargeCard(invoiceId)
-  
-      等待 Promise.all([
-        writeLedger(invoiceId, charge.chargeId),
-        sendReceipt(invoiceId, charge.chargeId),
-      ]）
-  
-      return { chargeId: charge.chargeId }
-    }
-  ）
-  
-  // 来自您的应用程序：
-  const render = new Render()
-  const startedRun = 等待 render.workflows.startTask(
-    &#39;billing/processInvoice&#39;,
-    [&#39;inv_123&#39;]
-  ）
-  const finishedRun = await startedRun.get()
-  console.log(finishedRun.results)
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47705491
-积分：2
-# 条评论：0]]></description>
-      <guid>https://render.com/workflows</guid>
-      <pubDate>Thu, 09 Apr 2026 16:11:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建定制 ASIC – 播客</title>
-      <link>https://theamphour.com/721-chip-design-for-fun-and-waffles-with-julia-desmazes/</link>
-      <description><![CDATA[文章网址：https://theamphour.com/721-chip-design-for-fun-and-waffles-with-julia-desmazes/
-评论网址：https://news.ycombinator.com/item?id=47705489
-积分：1
-# 条评论：0]]></description>
-      <guid>https://theamphour.com/721-chip-design-for-fun-and-waffles-with-julia-desmazes/</guid>
-      <pubDate>Thu, 09 Apr 2026 16:11:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Foxhound – 帮助法学硕士更好地浏览代码库</title>
-      <link>https://github.com/karimfan/foxhound</link>
-      <description><![CDATA[文章网址：https://github.com/karimfan/foxhound
-评论网址：https://news.ycombinator.com/item?id=47705474
+      <title>开发者和 Unix 人员于 2002 年拍摄的屏幕截图</title>
+      <link>https://anders.unix.se/2015/10/28/screenshots-from-developers--unix-people-2002/</link>
+      <description><![CDATA[文章网址：https://anders.unix.se/2015/10/28/screenshots-from-developers--unix-people-2002/
+评论网址：https://news.ycombinator.com/item?id=47708195
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/karimfan/foxhound</guid>
-      <pubDate>Thu, 09 Apr 2026 16:10:05 GMT</pubDate>
+      <guid>https://anders.unix.se/2015/10/28/screenshots-from-developers--unix-people-2002/</guid>
+      <pubDate>Thu, 09 Apr 2026 19:02:14 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Shellbeats 只是从终端流式传输的音乐</title>
-      <link>https://shellbeats.com/</link>
-      <description><![CDATA[我构建这个是因为我厌倦了在工作时需要打开浏览器来听音乐我一天的大部分时间都花在终端或平铺 wm 上，每个音乐应用程序都感觉屏幕上有太多东西所以我用 C 语言制作了一个音乐播放器，不妨碍。你可以搜索 youtube 流曲目下载 mp3 管理播放列表并将所有内容保留在 shell 内还有 ShellBeatsNG 适合那些想要与Windows 和 Macos 上的终端风格 GUI 具有相同的氛围，但打字更少另一个比我预期更有用的东西是同步
-您可以使用 surisync 在多台电脑上同步播放列表和音乐内容，并且它可以插入 surikata.app 社区，因此播放列表可以在计算机之间移动，也可以在计算机之间共享并不是试图创建一些巨大的平台
-只是想要一些快速、小键盘友好且不烦人的东西repo
-https://github.com/lalo-space/shellbeats网站
-https://shellbeats.com/希望得到来自终端中的用户以及那些秘密想要按钮的人的反馈，哈哈在 GitHub 上，您可以找到更多技术细节！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47705467
+      <title>眼镜故意变差</title>
+      <link>https://worse-on-purpose.beehiiv.com/p/your-glasses-got-worse-on-purpose</link>
+      <description><![CDATA[文章网址：https://worse-on- Purpose.beehiiv.com/p/your-glasses-got-worse-on- Purpose
+评论网址：https://news.ycombinator.com/item?id=47708179
 积分：1
 # 条评论：0]]></description>
-      <guid>https://shellbeats.com/</guid>
-      <pubDate>Thu, 09 Apr 2026 16:09:34 GMT</pubDate>
+      <guid>https://worse-on-purpose.beehiiv.com/p/your-glasses-got-worse-on-purpose</guid>
+      <pubDate>Thu, 09 Apr 2026 19:01:25 GMT</pubDate>
     </item>
     <item>
-      <title>14 年前的今天，Facebook 宣布斥资 10 亿美元收购 Instagram</title>
-      <link>https://b2bs.substack.com/p/retrospective-facebook-buys-instagram</link>
-      <description><![CDATA[文章网址：https://b2bs.substack.com/p/retrospective-facebook-buys-instagram
-评论网址：https://news.ycombinator.com/item?id=47705455
+      <title>欧洲服务模块</title>
+      <link>https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/European_Service_Module</link>
+      <description><![CDATA[文章网址：https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/European_Service_Module
+评论网址：https://news.ycombinator.com/item?id=47708172
 积分：1
 # 条评论：0]]></description>
-      <guid>https://b2bs.substack.com/p/retrospective-facebook-buys-instagram</guid>
-      <pubDate>Thu, 09 Apr 2026 16:08:27 GMT</pubDate>
+      <guid>https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion/European_Service_Module</guid>
+      <pubDate>Thu, 09 Apr 2026 19:01:04 GMT</pubDate>
     </item>
     <item>
-      <title>AET：压缩 LLM 代码的转译器（节省 30-55% 的令牌）</title>
-      <link>https://github.com/liminnnng-art/aieattoken</link>
-      <description><![CDATA[文章网址：https://github.com/liminnnng-art/aieattoken
-评论网址：https://news.ycombinator.com/item?id=47705452
+      <title>50M 行 Ruby monorepo 的快速 CI</title>
+      <link>https://stripe.dev/blog/selective-test-execution-at-stripe-fast-ci-for-a-50m-line-ruby-monorepo</link>
+      <description><![CDATA[文章网址：https://stripe.dev/blog/selective-test-execution-at-stripe-fast-ci-for-a-50m-line-ruby-monorepo
+评论网址：https://news.ycombinator.com/item?id=47708153
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/liminnnng-art/aieattoken</guid>
-      <pubDate>Thu, 09 Apr 2026 16:08:04 GMT</pubDate>
+      <guid>https://stripe.dev/blog/selective-test-execution-at-stripe-fast-ci-for-a-50m-line-ruby-monorepo</guid>
+      <pubDate>Thu, 09 Apr 2026 18:59:51 GMT</pubDate>
     </item>
     <item>
-      <title>两个超大质量黑洞正在碰撞</title>
-      <link>https://www.popsci.com/science/black-hole-collision/</link>
-      <description><![CDATA[文章网址：https://www.popsci.com/science/black-hole-collision/
-评论网址：https://news.ycombinator.com/item?id=47705432
+      <title>BQN：排序函数的实现</title>
+      <link>https://mlochbaum.github.io/BQN/implementation/primitive/sort.html</link>
+      <description><![CDATA[文章网址：https://mlochbaum.github.io/BQN/implementation/primitive/sort.html
+评论网址：https://news.ycombinator.com/item?id=47708123
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.popsci.com/science/black-hole-collision/</guid>
-      <pubDate>Thu, 09 Apr 2026 16:06:34 GMT</pubDate>
+      <guid>https://mlochbaum.github.io/BQN/implementation/primitive/sort.html</guid>
+      <pubDate>Thu, 09 Apr 2026 18:57:53 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：忒修斯之船许可证</title>
-      <link>https://github.com/tilework-tech/nori-skillsets/pull/465/files</link>
-      <description><![CDATA[几周前克劳德代码源泄露。人们几乎立即克隆了该项目，然后使用人工智能对其进行清理。清理实施背后的基本思想是：- 让 group-1 查看代码库并编写非常详细的规范- 让 group-2 查看规范并创建新的代码库。法律理论是，这足以删除原始代码库上的许可条款，因为 group-2 实际上没有查看任何代码。这是一个“干净”的实现。通常情况下，洁净室真的很难，因为它们需要大量的人力时间（至少两个人）。有了人工智能，这一切就变得微不足道了。 Claude-1 可以查看代码库并创建新的规范，Claude-2 可以查看规范并创建新的代码库。或者至少，理论上是这样。这完全破坏了开源的稳定性。开源许可取决于您不能这样做的事实。让洁净室变得微不足道实际上相当于让每个许可证完全无效。我不是第一个注意到的人 - https://malus.sh/ 几周前就位于 HN 的顶部。这是讽刺（我认为），但直接说明了这一点。我的团队希望开源，但我们不希望人们能够剥夺许可证。为此，我们引入了忒修斯之船许可证，全文转载如下：```
-SHIP OF THESEUS 许可证 v0.1* 使用任何 AI 工具来生成功能等效的软件 — 通过
-  引用此代码、其文档、其行为或任何
-  源自的规范、描述或抽象
-  前述 - 创建受完整条款约束的衍生作品
-  主许可证，无论输出是否共享任何
-  此项目的文字代码。* 任何衍生作品都必须包含此许可证以及
-  主要许可证。
-``这显然是法律上的灰色地带。但希望这能让人们在取消回购许可证之前停下来反思一下。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47705425
-积分：2
+      <title>一家科技公司花费 50 万打造热带度假胜地。一切都变得非常糟糕</title>
+      <link>https://www.inc.com/leila-sheridan/plex-tech-company-retreat-nightmare/91327481</link>
+      <description><![CDATA[文章网址：https://www.inc.com/leila-sheridan/plex-tech-company-retreat-nightmare/91327481
+评论网址：https://news.ycombinator.com/item?id=47708120
+积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/tilework-tech/nori-skillsets/pull/465/files</guid>
-      <pubDate>Thu, 09 Apr 2026 16:05:49 GMT</pubDate>
+      <guid>https://www.inc.com/leila-sheridan/plex-tech-company-retreat-nightmare/91327481</guid>
+      <pubDate>Thu, 09 Apr 2026 18:57:43 GMT</pubDate>
     </item>
     <item>
-      <title>我们让 OpenClaw 在内部网络上自由运行。这是它发现的</title>
-      <link>https://www.sophos.com/en-us/blog/we-let-openclaw-loose-on-an-internal-network-heres-what-it-found</link>
-      <description><![CDATA[文章网址：https://www.sophos.com/en-us/blog/we-let-openclaw-loose-on-an-internal-network-heres-what-it-found
-评论网址：https://news.ycombinator.com/item?id=47705422
-积分：2
+      <title>开发者给了克劳德一个游戏30年前的档案并让它复活了</title>
+      <link>https://github.com/jonradoff/lofp</link>
+      <description><![CDATA[文章网址：https://github.com/jonradoff/lofp
+评论网址：https://news.ycombinator.com/item?id=47708119
+积分：1
 # 条评论：0]]></description>
-      <guid>https://www.sophos.com/en-us/blog/we-let-openclaw-loose-on-an-internal-network-heres-what-it-found</guid>
-      <pubDate>Thu, 09 Apr 2026 16:05:30 GMT</pubDate>
+      <guid>https://github.com/jonradoff/lofp</guid>
+      <pubDate>Thu, 09 Apr 2026 18:57:41 GMT</pubDate>
     </item>
     <item>
-      <title>杰西·辛格尔：跨性别问题不是阴谋</title>
-      <link>https://thedispatch.com/article/trans-issues-activists-gay-marriage/</link>
-      <description><![CDATA[文章网址：https://thedispatch.com/article/trans-issues-activists-gay-marriage/
-评论网址：https://news.ycombinator.com/item?id=47705419
-积分：2
+      <title>用于 SQL 数据分析的新代理仪表板平台</title>
+      <link>https://github.com/vahidkowsari/queryboard</link>
+      <description><![CDATA[文章网址：https://github.com/vahidkowsari/queryboard
+评论网址：https://news.ycombinator.com/item?id=47708080
+积分：1
+# 条评论：1]]></description>
+      <guid>https://github.com/vahidkowsari/queryboard</guid>
+      <pubDate>Thu, 09 Apr 2026 18:55:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于持久终端的新 pi 编码代理插件</title>
+      <link>https://github.com/vahidkowsari/pi-persistent-term</link>
+      <description><![CDATA[文章网址：https://github.com/vahidkowsari/pi-persistent-term
+评论网址：https://news.ycombinator.com/item?id=47708055
+积分：1
+# 条评论：1]]></description>
+      <guid>https://github.com/vahidkowsari/pi-persistent-term</guid>
+      <pubDate>Thu, 09 Apr 2026 18:54:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>PicoZ80 – Z80 的替代品</title>
+      <link>https://eaw.app/picoz80/</link>
+      <description><![CDATA[文章网址：https://eaw.app/picoz80/
+评论网址：https://news.ycombinator.com/item?id=47708041
+积分：1
 # 条评论：0]]></description>
-      <guid>https://thedispatch.com/article/trans-issues-activists-gay-marriage/</guid>
-      <pubDate>Thu, 09 Apr 2026 16:05:02 GMT</pubDate>
+      <guid>https://eaw.app/picoz80/</guid>
+      <pubDate>Thu, 09 Apr 2026 18:53:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
