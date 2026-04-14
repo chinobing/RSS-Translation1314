@@ -4,113 +4,113 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 14 Apr 2026 07:46:06 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 10:16:44 GMT</lastBuildDate>
     <item>
-      <title>Show HN：一款炸弹人风格的 1v1 游戏，法学硕士可以实时竞争</title>
-      <link>https://github.com/klemenvod/TokenBrawl</link>
-      <description><![CDATA[几周前，ARC-AGI 3 发布了。对于那些不熟悉的人来说，这是一个旨在通过交互式环境研究代理智能的基准。我是此类基准的忠实粉丝，因为在我看来，它们比静态问答基准揭示了更多关于代理 AI 的功能和限制的信息。当您能够实际看到模型在这些环境中的行为时，它们也更容易理解。我想本着这种精神构建一些东西，但环境让两个法学硕士相互竞争。我的标准是：1。战略性和实时性。游戏必须在速度和推理质量之间进行真正的权衡。较小的模型可以采取更多的行动，但战略性的行动较少；较大的模型移动速度较慢但更智能。
-2.良好的安全带。我故意避免视觉输入——模型仍然太慢而且不够准确（参见：克劳德玩神奇宝贝）。相反，线束将游戏状态转换为结构化文本，而游戏引擎将代理的响应呈现为流畅的动画。
-3. 观看的乐趣。因为基准不需要是干面包:)
-最终结果是一场炸弹人风格的 1v1 游戏，两名特工通过摧毁砖块并试图互相轰炸来进行竞争。
-您可以在此处查看演示视频：https://youtu.be/4x8tVypmuRk很想听听您的想法！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47762486
+      <title>实施新限制并从 Copilot Pro+ 中淘汰 Opus 4.6 Fast</title>
+      <link>https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro/</link>
+      <description><![CDATA[文章网址：https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro/
+评论网址：https://news.ycombinator.com/item?id=47763579
 积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/klemenvod/TokenBrawl</guid>
-      <pubDate>Tue, 14 Apr 2026 07:36:39 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro/</guid>
+      <pubDate>Tue, 14 Apr 2026 10:10:16 GMT</pubDate>
     </item>
     <item>
-      <title>如果[静态分析]可以有，为什么没有呢？</title>
-      <link>https://alexgaynor.net/2026/apr/13/why-didnt-it/</link>
-      <description><![CDATA[文章网址：https://alexgaynor.net/2026/apr/13/why-didnt-it/
-评论网址：https://news.ycombinator.com/item?id=47762417
+      <title>巴西最高劳动监察员因将中国比亚迪列入“肮脏名单”而被解雇</title>
+      <link>https://www.reuters.com/sustainability/society-equity/brazils-top-labor-inspector-fired-adding-chinas-byd-dirty-list-sources-say-2026-04-13/</link>
+      <description><![CDATA[文章网址： https://www.reuters.com/sustainability/society-equity/brazils-top-labor-inspector-fired-adding-chinas-byd-dirty-list-sources-say-2026-04-13/
+评论网址：https://news.ycombinator.com/item?id=47763576
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.reuters.com/sustainability/society-equity/brazils-top-labor-inspector-fired-adding-chinas-byd-dirty-list-sources-say-2026-04-13/</guid>
+      <pubDate>Tue, 14 Apr 2026 10:10:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>模型 API 性能</title>
+      <link>https://news.ycombinator.com/item?id=47763572</link>
+      <description><![CDATA[我们一直在 API 平台上对一些模型进行基准测试，并获得了一些有趣的性能数据：
+- MiniMax M2.5 → 0.118 秒首次令牌时间，103 个令牌/秒 
+- GLM 5.1 → 120 个令牌/秒吞吐量 
+- Kimi K2.5 → 0.643s TTFT，69 个令牌/秒 
+- 所有型号→~99.9% 请求成功率 
+延迟差异尤其明显，在交互式应用程序中，约 0.1 秒的 TTFT 感觉几乎是即时的。
+让我知道您如何评估 LLM API。您是否针对延迟、吞吐量或成本进行了更多优化？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47763572
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47763572</guid>
+      <pubDate>Tue, 14 Apr 2026 10:09:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>怎样才能不唱歌呢？</title>
+      <link>https://blog.danieljanus.pl/singing/</link>
+      <description><![CDATA[文章网址：https://blog.danieljanus.pl/singing/
+评论网址：https://news.ycombinator.com/item?id=47763543
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.danieljanus.pl/singing/</guid>
+      <pubDate>Tue, 14 Apr 2026 10:05:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>副驾驶：抱歉，您受到了速率限制。请等待181小时8分钟</title>
+      <link>https://github.com/orgs/community/discussions/180092</link>
+      <description><![CDATA[文章网址：https://github.com/orgs/community/discussions/180092
+评论网址：https://news.ycombinator.com/item?id=47763536
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/orgs/community/discussions/180092</guid>
+      <pubDate>Tue, 14 Apr 2026 10:05:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>可侮辱的狄更斯</title>
+      <link>https://medium.com/luminasticity/insultable-dickens-5534e00af7fb</link>
+      <description><![CDATA[文章网址：https://medium.com/luminasticity/insultable-dickens-5534e00af7fb
+评论网址：https://news.ycombinator.com/item?id=47763521
+积分：1
+# 条评论：0]]></description>
+      <guid>https://medium.com/luminasticity/insultable-dickens-5534e00af7fb</guid>
+      <pubDate>Tue, 14 Apr 2026 10:03:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nvidia GH200 背后的安全债务</title>
+      <link>https://digitaliziran.si/2026/04/12/the-security-debt-behind-nvidias-gh200-what-the-marketing-materials-wont-tell-you/</link>
+      <description><![CDATA[文章网址： https://digitaliziran.si/2026/04/12/the-security-debt-behind-nvidias-gh200-what-the-marketing-materials-wont-tell-you/
+评论网址：https://news.ycombinator.com/item?id=47763500
+积分：1
+# 条评论：0]]></description>
+      <guid>https://digitaliziran.si/2026/04/12/the-security-debt-behind-nvidias-gh200-what-the-marketing-materials-wont-tell-you/</guid>
+      <pubDate>Tue, 14 Apr 2026 10:01:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>我制作了一个保留原始布局的文档翻译器</title>
+      <link>https://www.doctranslating.com/</link>
+      <description><![CDATA[文章网址：https://www.doctranslated.com/
+评论网址：https://news.ycombinator.com/item?id=47763492
 积分：2
-# 条评论：0]]></description>
-      <guid>https://alexgaynor.net/2026/apr/13/why-didnt-it/</guid>
-      <pubDate>Tue, 14 Apr 2026 07:28:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>全球失衡再次出现，且没有明确的解决途径</title>
-      <link>https://www.reuters.com/markets/global-imbalances-are-back-theres-no-fix-sight-2026-04-08/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/markets/global-imbalances-are-back-theres-no-fix-sight-2026-04-08/
-评论网址：https://news.ycombinator.com/item?id=47762383
-积分：2
 # 条评论：1]]></description>
-      <guid>https://www.reuters.com/markets/global-imbalances-are-back-theres-no-fix-sight-2026-04-08/</guid>
-      <pubDate>Tue, 14 Apr 2026 07:25:22 GMT</pubDate>
+      <guid>https://www.doctranslating.com/</guid>
+      <pubDate>Tue, 14 Apr 2026 10:00:41 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI 的冷落表明英国的能源成本正在扼杀该行业</title>
-      <link>https://www.thetimes.com/business/economics/article/open-ai-uk-energy-costs-nuclear-wind-wvs36bwdw</link>
-      <description><![CDATA[文章网址：https://www.thetimes.com/business/economics/article/open-ai-uk-energy-costs-nuclear-wind-wvs36bwdw
-评论网址：https://news.ycombinator.com/item?id=47762375
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.thetimes.com/business/economics/article/open-ai-uk-energy-costs-nuclear-wind-wvs36bwdw</guid>
-      <pubDate>Tue, 14 Apr 2026 07:24:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>伊朗战争的冲击使特朗普对美国能源主导地位的愿景动摇</title>
-      <link>https://insideclimatenews.org/news/09042026/iran-energy-shock-tests-us-dominance/</link>
-      <description><![CDATA[文章网址：https://insideclimatenews.org/news/09042026/iran-energy-shock-tests-us-dominance/
-评论网址：https://news.ycombinator.com/item?id=47762373
-积分：1
-# 条评论：0]]></description>
-      <guid>https://insideclimatenews.org/news/09042026/iran-energy-shock-tests-us-dominance/</guid>
-      <pubDate>Tue, 14 Apr 2026 07:24:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>技术搜索引擎优化与内容优化：哪一个会影响排名？</title>
-      <link>https://news.ycombinator.com/item?id=47762333</link>
-      <description><![CDATA[在与 SEO 团队合作时，我注意到了一些事情：在内容方面投入了大量精力，但实际上限制性能的技术问题常常被忽视或被忽视。在某些情况下，修复抓取/索引/性能问题比发布更多内容具有更大的影响。很好奇这里的其他人在实践中如何看待这个问题。您通常会优先考虑内容还是技术 SEO？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47762333
-积分：1
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=47762333</guid>
-      <pubDate>Tue, 14 Apr 2026 07:19:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>声音警报的消失和不受重视的艺术[视频]</title>
-      <link>https://www.youtube.com/watch?v=nXdVG45wveo</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=nXdVG45wveo
-评论网址：https://news.ycombinator.com/item?id=47762319
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.youtube.com/watch?v=nXdVG45wveo</guid>
-      <pubDate>Tue, 14 Apr 2026 07:17:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>内陆海关专线</title>
-      <link>https://en.wikipedia.org/wiki/Inland_Customs_Line</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Inland_Customs_Line
-评论网址：https://news.ycombinator.com/item?id=47762311
-积分：1
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Inland_Customs_Line</guid>
-      <pubDate>Tue, 14 Apr 2026 07:15:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：今日连接提示 – 纽约时报连接的安全提示</title>
-      <link>https://connections-hint.today/</link>
-      <description><![CDATA[我构建此页面是因为大多数 Connections 帮助程序页面跳转到答案的速度太快。这个页面的设计感觉更像是教练而不是剧透页面：先有轻微提示，仅在需要时提供更强的提示，存档页面以供审核，体育版支持，以及用于赛后审核的小型结果分析器。它每天自动更新，并作为一个独立的副项目构建。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47762300
-积分：1
-# 条评论：0]]></description>
-      <guid>https://connections-hint.today/</guid>
-      <pubDate>Tue, 14 Apr 2026 07:14:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Linux 7.0 发布，提供新硬件支持、优化和自我修复 XFS</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Released</link>
-      <description><![CDATA[文章网址：https://www.phoronix.com/news/Linux-7.0-Released
-评论网址：https://news.ycombinator.com/item?id=47762272
+      <title>警告大型酒精公司希望不要让你喝瓶装啤酒（2025）</title>
+      <link>https://investigativedesk.com/this-is-the-warning-big-alcohol-wants-to-keep-off-your-bottles-of-beer/</link>
+      <description><![CDATA[文章网址：https://investigativedesk.com/this-is-the-warning-big-alcohol-wants-to-keep-off-your-bottles-of-beer/
+评论网址：https://news.ycombinator.com/item?id=47763491
 积分：3
 # 条评论：0]]></description>
-      <guid>https://www.phoronix.com/news/Linux-7.0-Released</guid>
-      <pubDate>Tue, 14 Apr 2026 07:11:26 GMT</pubDate>
+      <guid>https://investigativedesk.com/this-is-the-warning-big-alcohol-wants-to-keep-off-your-bottles-of-beer/</guid>
+      <pubDate>Tue, 14 Apr 2026 10:00:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI 奇怪的社会主义虚伪的新经济议程</title>
+      <link>https://www.vox.com/politics/485461/openai-economic-policy-superpac-sam-altman</link>
+      <description><![CDATA[文章网址：https://www.vox.com/politics/485461/openai-economic-policy-superpac-sam-altman
+评论网址：https://news.ycombinator.com/item?id=47763489
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.vox.com/politics/485461/openai-economic-policy-superpac-sam-altman</guid>
+      <pubDate>Tue, 14 Apr 2026 10:00:12 GMT</pubDate>
     </item>
     </channel>
 </rss>
