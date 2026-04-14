@@ -4,24 +4,55 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 14 Apr 2026 19:15:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 21:53:00 GMT</lastBuildDate>
     <item>
-      <title>全球 40% 的卡路里损失来自牛肉，每 1 卡路里需要 33 卡​​路里饲料</title>
-      <link>https://iopscience.iop.org/article/10.1088/2976-601X/ae4f6b</link>
-      <description><![CDATA[文章网址：https://iopscience.iop.org/article/10.1088/2976-601X/ae4f6b
-评论网址：https://news.ycombinator.com/item?id=47769183
-积分：60
-# 条评论：59]]></description>
-      <guid>https://iopscience.iop.org/article/10.1088/2976-601X/ae4f6b</guid>
-      <pubDate>Tue, 14 Apr 2026 18:14:29 GMT</pubDate>
+      <title>下一个网络防御时代的可信访问</title>
+      <link>https://openai.com/index/scaling-trusted-access-for-cyber-defense/</link>
+      <description><![CDATA[文章网址：https://openai.com/index/scaling-trusted-access-for-cyber-defense/
+评论网址：https://news.ycombinator.com/item?id=47770770
+积分：19
+# 条评论：14]]></description>
+      <guid>https://openai.com/index/scaling-trusted-access-for-cyber-defense/</guid>
+      <pubDate>Tue, 14 Apr 2026 20:07:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>煤气镇：从小丑表演到 v1.0</title>
+      <link>https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec</link>
+      <description><![CDATA[文章网址：https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec
+评论网址：https://news.ycombinator.com/item?id=47770124
+积分：47
+# 条评论：45]]></description>
+      <guid>https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec</guid>
+      <pubDate>Tue, 14 Apr 2026 19:18:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>ClawRun – 在几秒钟内部署和管理 AI 代理</title>
+      <link>https://github.com/clawrun-sh/clawrun</link>
+      <description><![CDATA[文章网址：https://github.com/clawrun-sh/clawrun
+评论网址：https://news.ycombinator.com/item?id=47770020
+积分：22
+# 条评论：3]]></description>
+      <guid>https://github.com/clawrun-sh/clawrun</guid>
+      <pubDate>Tue, 14 Apr 2026 19:12:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>告诉 HN：Fiverr 将客户档案公开并可供搜索</title>
+      <link>https://news.ycombinator.com/item?id=47769796</link>
+      <description><![CDATA[Fiverr（零工工作/任务平台，Upwork 的竞争对手）使用名为 Cloudinary 的服务来处理消息传递中的 PDF/图像，包括从工作人员到客户的工作产品。除了 PDF 处理增值之外，Cloudinary 在这里有效地充当 S3，直接向 Web 客户端提供资产。与 S3 一样，它支持签名/过期 URL。然而，Fiverr 选择使用公共 URL，而不是签名 URL 来进行敏感的客户端与工作人员通信。此外，他们似乎可能在链接到这些文件的某个地方提供公共 HTML。因此，Google 搜索结果中出现了数百个内容，其中许多包含 PII。示例查询：site: Fiverr-res.cloudinary.com form 1040事实上，Fiverr 积极购买 Google Ads 来获取“1234 表格归档”等关键字，尽管知道它无法充分保护最终的工作产品，导致编制者违反 GLBA/FTC 保障规则。负责任的披露说明 - 40 天后由于已将此问题通知给指定的漏洞电子邮件 (security@ Fiverr.com)，因此已通过。安全团队没有回复。因此，将其公开是因为它似乎不符合 CVE/CERT 处理的条件，因为它并不是真正的代码漏洞，而且我不知道还有其他人会关心它。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47769796
+积分：104
+评论数量：9]]></description>
+      <guid>https://news.ycombinator.com/item?id=47769796</guid>
+      <pubDate>Tue, 14 Apr 2026 18:56:40 GMT</pubDate>
     </item>
     <item>
       <title>我写信给 Flock 的隐私联系人，要求选择退出他们的国内间谍计划</title>
       <link>https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html</link>
       <description><![CDATA[文章网址：https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html
 评论网址：https://news.ycombinator.com/item?id=47768813
-积分：175
-# 条评论：59]]></description>
+积分：396
+# 条评论：166]]></description>
       <guid>https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html</guid>
       <pubDate>Tue, 14 Apr 2026 17:47:00 GMT</pubDate>
     </item>
@@ -30,8 +61,8 @@
       <link>https://github.com/openssl/openssl/releases/tag/openssl-4.0.0</link>
       <description><![CDATA[文章网址：https://github.com/openssl/openssl/releases/tag/openssl-4.0.0
 评论网址：https://news.ycombinator.com/item?id=47768788
-积分：56
-# 条评论：7]]></description>
+积分：134
+# 条评论：37]]></description>
       <guid>https://github.com/openssl/openssl/releases/tag/openssl-4.0.0</guid>
       <pubDate>Tue, 14 Apr 2026 17:45:34 GMT</pubDate>
     </item>
@@ -40,8 +71,8 @@
       <link>https://github.com/dropseed/plain</link>
       <description><![CDATA[文章网址：https://github.com/dropseed/plain
 评论网址：https://news.ycombinator.com/item?id=47768750
-积分：8
-# 条评论：0]]></description>
+积分：35
+# 条评论：13]]></description>
       <guid>https://github.com/dropseed/plain</guid>
       <pubDate>Tue, 14 Apr 2026 17:43:17 GMT</pubDate>
     </item>
@@ -50,28 +81,18 @@
       <link>https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/</link>
       <description><![CDATA[文章网址：https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/
 评论网址：https://news.ycombinator.com/item?id=47768339
-积分：20
-# 条评论：6]]></description>
+积分：57
+# 条评论：28]]></description>
       <guid>https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/</guid>
       <pubDate>Tue, 14 Apr 2026 17:09:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>修改 FileZilla 以解决 Bambu 3D 打印机的 FTP 问题</title>
-      <link>https://lantian.pub/en/article/modify-computer/modify-filezilla-workaround-bambu-3d-printer-ftp-issue.lantian/</link>
-      <description><![CDATA[文章网址：https://lantian.pub/en/article/modify-computer/modify-filezilla-workaround-bambu-3d-printer-ftp-issue.lantian/
-评论网址：https://news.ycombinator.com/item?id=47768306
-积分：25
-# 条评论：19]]></description>
-      <guid>https://lantian.pub/en/article/modify-computer/modify-filezilla-workaround-bambu-3d-printer-ftp-issue.lantian/</guid>
-      <pubDate>Tue, 14 Apr 2026 17:06:49 GMT</pubDate>
     </item>
     <item>
       <title>西班牙将把互联网封锁扩大到网球、高尔夫、电影播放时间</title>
       <link>https://bandaancha.eu/articulos/telefonica-consigue-bloqueos-ips-11731</link>
       <description><![CDATA[文章网址：https://bandaancha.eu/articulos/telefonica-consigue-bloqueos-ips-11731
 评论网址：https://news.ycombinator.com/item?id=47768195
-积分：245
-# 条评论：204]]></description>
+积分：388
+# 条评论：363]]></description>
       <guid>https://bandaancha.eu/articulos/telefonica-consigue-bloqueos-ips-11731</guid>
       <pubDate>Tue, 14 Apr 2026 16:59:09 GMT</pubDate>
     </item>
@@ -80,36 +101,10 @@
       <link>https://code.claude.com/docs/en/routines</link>
       <description><![CDATA[文章网址：https://code.claude.com/docs/en/routines
 评论网址：https://news.ycombinator.com/item?id=47768133
-积分：140
-评论数：86]]></description>
+积分：258
+# 条评论：158]]></description>
       <guid>https://code.claude.com/docs/en/routines</guid>
       <pubDate>Tue, 14 Apr 2026 16:54:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>5NF 和数据库设计</title>
-      <link>https://kb.databasedesignbook.com/posts/5nf/</link>
-      <description><![CDATA[文章网址：https://kb.databasedesignbook.com/posts/5nf/
-评论网址：https://news.ycombinator.com/item?id=47767676
-积分：69
-# 条评论：22]]></description>
-      <guid>https://kb.databasedesignbook.com/posts/5nf/</guid>
-      <pubDate>Tue, 14 Apr 2026 16:22:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Kelet – 适用于您的 LLM 应用程序的根本原因分析代理</title>
-      <link>https://kelet.ai/</link>
-      <description><![CDATA[在过去的几年里，我在产品中构建了 50 多个 AI 代理（其中一些达到了每天 100 万次以上的会话），最困难的部分从来不是构建它们 - 而是找出它们失败的原因。AI 代理不会崩溃。他们只是默默地给出错误的答案。您最终会逐一滚动跟踪记录，试图在数百个会话中找到模式。Kelet 会自动执行该调查。其工作原理如下：1.您将您的痕迹和信号（用户反馈、编辑、点击、情绪、法学硕士法官等）连接起来
-2. Kelet 处理这些信号并提取有关每个会话的事实
-3. 对每种情况下出了什么问题提出假设
-4.它将跨会话的相似假设聚集起来并一起进行研究
-5. 它通过建议的修复来显示根本原因，您可以查看并应用关键见解：单个会话失败看起来是随机的。但是，当您对假设进行聚类时，故障模式就会出现。最快的集成方法是通过编码代理的 Kelet Skill — 它会扫描您的代码库，发现应该在哪里收集信号，并为您设置一切。如果您喜欢手动设置，还有 Python 和 TypeScript SDK。目前测试期间免费。无需信用卡。
-文档：https://kelet.ai/docs/我希望获得有关该方法的反馈，尤其是来自在产品中运行代理的任何人的反馈。自动化手动错误分析听起来正确吗？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47767606
-积分：30
-# 条评论：18]]></description>
-      <guid>https://kelet.ai/</guid>
-      <pubDate>Tue, 14 Apr 2026 16:16:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
