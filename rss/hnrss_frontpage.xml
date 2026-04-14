@@ -4,34 +4,100 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 14 Apr 2026 10:16:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 16:08:10 GMT</lastBuildDate>
     <item>
-      <title>勒索软件的增长速度比阻止勒索软件的支出快三倍</title>
-      <link>https://ciphercue.com/blog/ransomware-claims-grew-faster-than-security-spend-2025</link>
-      <description><![CDATA[文章网址：https://ciphercue.com/blog/ransomware-claims-grew-faster-than-security-spend-2025
-评论网址：https://news.ycombinator.com/item?id=47762994
-积分：4
-# 条评论：0]]></description>
-      <guid>https://ciphercue.com/blog/ransomware-claims-grew-faster-than-security-spend-2025</guid>
-      <pubDate>Tue, 14 Apr 2026 08:52:12 GMT</pubDate>
+      <title>即使您选择退出，谷歌、微软、Meta 都会跟踪您</title>
+      <link>https://www.404media.co/google-microsoft-meta-all-tracking-you-even-when-you-opt-out-according-to-an-independent-audit/</link>
+      <description><![CDATA[文章网址：https://www.404media.co/google-microsoft-meta-all-tracking-you-even-when-you-opt-out-according-to-an-independent-audit/
+评论网址：https://news.ycombinator.com/item?id=47767191
+积分：20
+# 条评论：1]]></description>
+      <guid>https://www.404media.co/google-microsoft-meta-all-tracking-you-even-when-you-opt-out-according-to-an-independent-audit/</guid>
+      <pubDate>Tue, 14 Apr 2026 15:46:43 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能氛围编码恐怖故事</title>
-      <link>https://www.tobru.ch/an-ai-vibe-coding-horror-story/</link>
-      <description><![CDATA[文章网址：https://www.tobru.ch/an-ai-vibe-coding-horror-story/
-评论网址：https://news.ycombinator.com/item?id=47762901
-积分：117
-评论数：88]]></description>
-      <guid>https://www.tobru.ch/an-ai-vibe-coding-horror-story/</guid>
-      <pubDate>Tue, 14 Apr 2026 08:35:45 GMT</pubDate>
+      <title>美国可再生能源发电量首次超过天然气</title>
+      <link>https://e360.yale.edu/digest/us-renewables-natural-gas-coal</link>
+      <description><![CDATA[文章网址：https://e360.yale.edu/digest/us-renewables-natural-gas-coal
+评论网址：https://news.ycombinator.com/item?id=47767160
+积分：24
+# 条评论：1]]></description>
+      <guid>https://e360.yale.edu/digest/us-renewables-natural-gas-coal</guid>
+      <pubDate>Tue, 14 Apr 2026 15:44:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>我猜一切的未来都是谎言：工作</title>
+      <link>https://aphyr.com/posts/418-the-future-of-everything-is-lies-i-guess-work</link>
+      <description><![CDATA[文章网址：https://aphyr.com/posts/418-the-future-of-everything-is-lies-i-guess-work
+评论网址：https://news.ycombinator.com/item?id=47766550
+积分：53
+# 条评论：24]]></description>
+      <guid>https://aphyr.com/posts/418-the-future-of-everything-is-lies-i-guess-work</guid>
+      <pubDate>Tue, 14 Apr 2026 15:00:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>罕见的音乐会录音登陆互联网档案馆</title>
+      <link>https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/</link>
+      <description><![CDATA[文章网址： https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/
+评论网址：https://news.ycombinator.com/item?id=47765604
+积分：133
+# 条评论：49]]></description>
+      <guid>https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/</guid>
+      <pubDate>Tue, 14 Apr 2026 13:46:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Kontext CLI – Go 中 AI 编码代理的凭证代理</title>
+      <link>https://github.com/kontext-dev/kontext-cli</link>
+      <description><![CDATA[我们构建了 Kontext CLI，因为 AI 编码代理需要访问 GitHub、Stripe、数据库和数十种其他服务 - 目前大多数团队通过将长期存在的 API 密钥复制粘贴到 .env 文件或实际的聊天界面中来处理此问题，同时希望得到最好的结果。问题不仅仅是秘密蔓延。就是没有访问的血统。您不知道哪个开发人员启动了哪个代理，它访问了什么，或者是否应该被允许。一旦您将原始凭据交给流程，您就失去了执行策略、审核访问或轻松轮换的能力。凭证就是授权，当自治代理在每个会话中进行数百次 API 调用时，这从根本上被破坏了。Kontext 采用了不同的方法。您可以在 .env.kontext 文件中声明项目需要哪些凭据： GITHUB_TOKEN={{kontext:github}}
+  STRIPE_KEY={{kontext:stripe}}
+  LINEAR_TOKEN={{kontext:线性}}
+
+然后运行“kontext start --agent claude”。 CLI 通过 OIDC 对每个占位符进行身份验证：如果服务支持 OAuth，它将通过 RFC 8693 令牌交换将占位符交换为短期访问令牌；对于静态 API 密钥，后端将凭证直接注入代理的运行时环境中。无论哪种方式，秘密仅在会话期间存在于内存中 - 永远不会写入计算机上的磁盘。每个工具调用都会在代理运行时进行流式传输以供审核。最接近的类比是安全令牌服务 (STS)：您进行一次身份验证，后端会即时生成短期的、范围内的凭证 — 与传统的 STS 不同的是，我们持有上游机密，因此任何长期的凭证都不会到达代理。后端保存您的 OAuth 刷新令牌和 API 密钥； CLI 永远不会看到它们。它获取会话范围内的短期访问令牌。CLI 为每个工具调用捕获什么：代理尝试执行的操作、发生了什么、是否被允许以及是谁执行的 - 归因于用户、会话和组织。使用一个命令进行安装：`brew install kontext-dev/tap/kontext`CLI 是用 Go 编写的（每个工具调用约 5 毫秒的钩子开销），使用 ConnectRPC 进行后端通信，并存储身份验证在系统密钥环中。今天与 Claude Code 合作，Codex 支持即将推出。接下来我们将致力于服务器端策略实施 - 每个工具调用的允许/拒绝决策的基础设施已经连接，我们只需要关闭循环，以便工具调用也可以被拒绝。我们希望获得有关该方法的反馈。特别好奇：如今团队如何处理人工智能代理的凭证管理？您只是将环境变量粘贴到代理聊天中，还是找到了更好的东西？GitHub：https://github.com/kontext-dev/kontext-cli
+网站：https://kontext.security
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47765374
+积分：16
+# 条评论：2]]></description>
+      <guid>https://github.com/kontext-dev/kontext-cli</guid>
+      <pubDate>Tue, 14 Apr 2026 13:26:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源积压背后的指数曲线</title>
+      <link>https://armanckeser.com/writing/jellyfin-flow</link>
+      <description><![CDATA[文章网址：https://armanckeser.com/writing/jellyfin-flow
+评论网址：https://news.ycombinator.com/item?id=47764265
+积分：36
+# 条评论：26]]></description>
+      <guid>https://armanckeser.com/writing/jellyfin-flow</guid>
+      <pubDate>Tue, 14 Apr 2026 11:37:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>NimConf 2026：日期已公布，注册开放</title>
+      <link>https://nim-lang.org/blog/2026/04/07/nimconf-2026.html</link>
+      <description><![CDATA[文章网址：https://nim-lang.org/blog/2026/04/07/nimconf-2026.html
+评论网址：https://news.ycombinator.com/item?id=47764098
+积分：80
+# 条评论：16]]></description>
+      <guid>https://nim-lang.org/blog/2026/04/07/nimconf-2026.html</guid>
+      <pubDate>Tue, 14 Apr 2026 11:19:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>jj – Jujutsu 的 CLI</title>
+      <link>https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html</link>
+      <description><![CDATA[文章网址：https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html
+评论网址：https://news.ycombinator.com/item?id=47763759
+积分：339
+# 条评论：279]]></description>
+      <guid>https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html</guid>
+      <pubDate>Tue, 14 Apr 2026 10:33:39 GMT</pubDate>
     </item>
     <item>
       <title>Backblaze 已停止备份您的数据</title>
       <link>https://rareese.com/posts/backblaze/</link>
       <description><![CDATA[文章网址：https://rareese.com/posts/backblaze/
 评论网址：https://news.ycombinator.com/item?id=47762864
-积分：92
-# 条评论：37]]></description>
+积分：586
+评论数：358]]></description>
       <guid>https://rareese.com/posts/backblaze/</guid>
       <pubDate>Tue, 14 Apr 2026 08:30:27 GMT</pubDate>
     </item>
@@ -40,70 +106,10 @@
       <link>https://introspective-diffusion.github.io/</link>
       <description><![CDATA[文章网址：https://introspective-diffusion.github.io/
 评论网址：https://news.ycombinator.com/item?id=47762641
-积分：40
-# 条评论：10]]></description>
+积分：146
+# 条评论：34]]></description>
       <guid>https://introspective-diffusion.github.io/</guid>
       <pubDate>Tue, 14 Apr 2026 07:57:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>新干线的秘密</title>
-      <link>https://www.worksinprogress.news/p/the-secret-behind-japans-railways</link>
-      <description><![CDATA[文章网址：https://www.worksinprogress.news/p/the-secret-behind-japans-railways
-评论网址：https://news.ycombinator.com/item?id=47762060
-积分：80
-# 条评论：67]]></description>
-      <guid>https://www.worksinprogress.news/p/the-secret-behind-japans-railways</guid>
-      <pubDate>Tue, 14 Apr 2026 06:41:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>分布式DuckDB实例</title>
-      <link>https://github.com/citguru/openduck</link>
-      <description><![CDATA[文章网址：https://github.com/citguru/openduck
-评论网址：https://news.ycombinator.com/item?id=47761997
-积分：56
-# 条评论：10]]></description>
-      <guid>https://github.com/citguru/openduck</guid>
-      <pubDate>Tue, 14 Apr 2026 06:31:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>MOS tech 6502 8 位微处理器，采用由 Postgres 提供支持的纯 SQL</title>
-      <link>https://github.com/lasect/pg_6502</link>
-      <description><![CDATA[文章网址：https://github.com/lasect/pg_6502
-评论网址：https://news.ycombinator.com/item?id=47761723
-积分：21
-# 条评论：2]]></description>
-      <guid>https://github.com/lasect/pg_6502</guid>
-      <pubDate>Tue, 14 Apr 2026 05:46:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>多代理软件开发是一个分布式系统问题</title>
-      <link>https://kirancodes.me/posts/log-distributed-llms.html</link>
-      <description><![CDATA[文章网址：https://kirancodes.me/posts/log-distributed-llms.html
-评论网址：https://news.ycombinator.com/item?id=47761625
-积分：37
-评论数量：9]]></description>
-      <guid>https://kirancodes.me/posts/log-distributed-llms.html</guid>
-      <pubDate>Tue, 14 Apr 2026 05:32:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>TanStack 立即开始支持 React 服务器组件</title>
-      <link>https://tanstack.com/blog/react-server-components</link>
-      <description><![CDATA[文章网址：https://tanstack.com/blog/react-server-components
-评论网址：https://news.ycombinator.com/item?id=47761609
-积分：59
-# 条评论：45]]></description>
-      <guid>https://tanstack.com/blog/react-server-components</guid>
-      <pubDate>Tue, 14 Apr 2026 05:28:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>针对“后退按钮劫持”的新垃圾邮件政策</title>
-      <link>https://developers.google.com/search/blog/2026/04/back-button-hijacking</link>
-      <description><![CDATA[文章网址：https://developers.google.com/search/blog/2026/04/back-button-hijacking
-评论网址：https://news.ycombinator.com/item?id=47760764
-积分：365
-# 条评论：220]]></description>
-      <guid>https://developers.google.com/search/blog/2026/04/back-button-hijacking</guid>
-      <pubDate>Tue, 14 Apr 2026 03:06:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
