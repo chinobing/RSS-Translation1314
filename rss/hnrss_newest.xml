@@ -4,108 +4,113 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 14 Apr 2026 05:25:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 07:46:06 GMT</lastBuildDate>
     <item>
-      <title>图形程序员的球谐函数简介</title>
-      <link>https://gpfault.net/posts/sph.html</link>
-      <description><![CDATA[文章网址：https://gpfault.net/posts/sph.html
-评论网址：https://news.ycombinator.com/item?id=47761517
-积分：1
-# 条评论：0]]></description>
-      <guid>https://gpfault.net/posts/sph.html</guid>
-      <pubDate>Tue, 14 Apr 2026 05:16:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>黑客透露 Rockstar 从 GTA 在线模式每天赚取超过 100 万美元</title>
-      <link>https://kotaku.com/hackers-reveal-rockstar-earns-over-1-million-a-day-from-gta-online-2000687207</link>
-      <description><![CDATA[文章网址：https://kotaku.com/hackers-reveal-rockstar-earns-over-1-million-a-day-from-gta-online-2000687207
-评论网址：https://news.ycombinator.com/item?id=47761488
-积分：1
-# 条评论：0]]></description>
-      <guid>https://kotaku.com/hackers-reveal-rockstar-earns-over-1-million-a-day-from-gta-online-2000687207</guid>
-      <pubDate>Tue, 14 Apr 2026 05:12:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN: Groupr – Rust CLI 按扩展名将文件分类到子文件夹中</title>
-      <link>https://github.com/TimFinnigan/groupr</link>
-      <description><![CDATA[写此内容是为了清理我的下载文件夹。它将顶级文件移动到以其扩展名命名的子文件夹中。 photo.PNG 放入 png/，没有扩展名的文件放入 no_extension/。 --dry-run 如果你想先看看它会做什么。一些细节：它不会递归到现有的子文件夹中，扩展名是小写的，所以你不会让 png/ 和 PNG/ 共存，并且它处理名称        
-  通过附加 _1、_2 等而不是覆盖来避免冲突。~150 行 Rust，开发中的临时文件之外没有依赖项。cargo install --git https://github.com/timfinnigan/groupr                                                                                                   
-groupr ~/下载 --dry-run
+      <title>Show HN：一款炸弹人风格的 1v1 游戏，法学硕士可以实时竞争</title>
+      <link>https://github.com/klemenvod/TokenBrawl</link>
+      <description><![CDATA[几周前，ARC-AGI 3 发布了。对于那些不熟悉的人来说，这是一个旨在通过交互式环境研究代理智能的基准。我是此类基准的忠实粉丝，因为在我看来，它们比静态问答基准揭示了更多关于代理 AI 的功能和限制的信息。当您能够实际看到模型在这些环境中的行为时，它们也更容易理解。我想本着这种精神构建一些东西，但环境让两个法学硕士相互竞争。我的标准是：1。战略性和实时性。游戏必须在速度和推理质量之间进行真正的权衡。较小的模型可以采取更多的行动，但战略性的行动较少；较大的模型移动速度较慢但更智能。
+2.良好的安全带。我故意避免视觉输入——模型仍然太慢而且不够准确（参见：克劳德玩神奇宝贝）。相反，线束将游戏状态转换为结构化文本，而游戏引擎将代理的响应呈现为流畅的动画。
+3. 观看的乐趣。因为基准不需要是干面包:)
+最终结果是一场炸弹人风格的 1v1 游戏，两名特工通过摧毁砖块并试图互相轰炸来进行竞争。
+您可以在此处查看演示视频：https://youtu.be/4x8tVypmuRk很想听听您的想法！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47761453
+评论网址：https://news.ycombinator.com/item?id=47762486
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/TimFinnigan/groupr</guid>
-      <pubDate>Tue, 14 Apr 2026 05:07:37 GMT</pubDate>
+      <guid>https://github.com/klemenvod/TokenBrawl</guid>
+      <pubDate>Tue, 14 Apr 2026 07:36:39 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Shloka Artha [Shlokas 的逐字含义]</title>
-      <link>https://shlokartha.in/</link>
-      <description><![CDATA[文章网址：https://shlokartha.in/
-评论网址：https://news.ycombinator.com/item?id=47761449
-积分：1
+      <title>如果[静态分析]可以有，为什么没有呢？</title>
+      <link>https://alexgaynor.net/2026/apr/13/why-didnt-it/</link>
+      <description><![CDATA[文章网址：https://alexgaynor.net/2026/apr/13/why-didnt-it/
+评论网址：https://news.ycombinator.com/item?id=47762417
+积分：2
 # 条评论：0]]></description>
-      <guid>https://shlokartha.in/</guid>
-      <pubDate>Tue, 14 Apr 2026 05:07:04 GMT</pubDate>
+      <guid>https://alexgaynor.net/2026/apr/13/why-didnt-it/</guid>
+      <pubDate>Tue, 14 Apr 2026 07:28:51 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Deflect One – 用于通过 SSH 管理 Linux 服务器的命令行仪表板</title>
-      <link>https://github.com/Frytskyy/deflect-one</link>
-      <description><![CDATA[文章网址：https://github.com/Frytskyy/deflect-one
-评论网址：https://news.ycombinator.com/item?id=47761442
+      <title>全球失衡再次出现，且没有明确的解决途径</title>
+      <link>https://www.reuters.com/markets/global-imbalances-are-back-theres-no-fix-sight-2026-04-08/</link>
+      <description><![CDATA[文章网址：https://www.reuters.com/markets/global-imbalances-are-back-theres-no-fix-sight-2026-04-08/
+评论网址：https://news.ycombinator.com/item?id=47762383
 积分：2
 # 条评论：1]]></description>
-      <guid>https://github.com/Frytskyy/deflect-one</guid>
-      <pubDate>Tue, 14 Apr 2026 05:05:08 GMT</pubDate>
+      <guid>https://www.reuters.com/markets/global-imbalances-are-back-theres-no-fix-sight-2026-04-08/</guid>
+      <pubDate>Tue, 14 Apr 2026 07:25:22 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：2nnel – 自托管 ngrok，具有与框架无关的一键部署</title>
-      <link>https://github.com/22or/2nnel</link>
-      <description><![CDATA[文章网址：https://github.com/22or/2nnel
-评论网址：https://news.ycombinator.com/item?id=47761439
+      <title>OpenAI 的冷落表明英国的能源成本正在扼杀该行业</title>
+      <link>https://www.thetimes.com/business/economics/article/open-ai-uk-energy-costs-nuclear-wind-wvs36bwdw</link>
+      <description><![CDATA[文章网址：https://www.thetimes.com/business/economics/article/open-ai-uk-energy-costs-nuclear-wind-wvs36bwdw
+评论网址：https://news.ycombinator.com/item?id=47762375
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/22or/2nnel</guid>
-      <pubDate>Tue, 14 Apr 2026 05:04:17 GMT</pubDate>
+      <guid>https://www.thetimes.com/business/economics/article/open-ai-uk-energy-costs-nuclear-wind-wvs36bwdw</guid>
+      <pubDate>Tue, 14 Apr 2026 07:24:10 GMT</pubDate>
     </item>
     <item>
-      <title>需要有关 sandflare.io 的反馈 – AI 代理沙箱</title>
-      <link>https://news.ycombinator.com/item?id=47761426</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=47761426
+      <title>伊朗战争的冲击使特朗普对美国能源主导地位的愿景动摇</title>
+      <link>https://insideclimatenews.org/news/09042026/iran-energy-shock-tests-us-dominance/</link>
+      <description><![CDATA[文章网址：https://insideclimatenews.org/news/09042026/iran-energy-shock-tests-us-dominance/
+评论网址：https://news.ycombinator.com/item?id=47762373
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47761426</guid>
-      <pubDate>Tue, 14 Apr 2026 05:01:42 GMT</pubDate>
+      <guid>https://insideclimatenews.org/news/09042026/iran-energy-shock-tests-us-dominance/</guid>
+      <pubDate>Tue, 14 Apr 2026 07:24:07 GMT</pubDate>
     </item>
     <item>
-      <title>当舞蹈瘟疫袭击中世纪欧洲时(2019)</title>
-      <link>https://daily.jstor.org/when-dancing-plagues-struck-medieval-europe/</link>
-      <description><![CDATA[文章网址：https://daily.jstor.org/when-dancing-plagues-struck-medieval-europe/
-评论网址：https://news.ycombinator.com/item?id=47761419
+      <title>技术搜索引擎优化与内容优化：哪一个会影响排名？</title>
+      <link>https://news.ycombinator.com/item?id=47762333</link>
+      <description><![CDATA[在与 SEO 团队合作时，我注意到了一些事情：在内容方面投入了大量精力，但实际上限制性能的技术问题常常被忽视或被忽视。在某些情况下，修复抓取/索引/性能问题比发布更多内容具有更大的影响。很好奇这里的其他人在实践中如何看待这个问题。您通常会优先考虑内容还是技术 SEO？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47762333
+积分：1
+# 条评论：1]]></description>
+      <guid>https://news.ycombinator.com/item?id=47762333</guid>
+      <pubDate>Tue, 14 Apr 2026 07:19:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>声音警报的消失和不受重视的艺术[视频]</title>
+      <link>https://www.youtube.com/watch?v=nXdVG45wveo</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=nXdVG45wveo
+评论网址：https://news.ycombinator.com/item?id=47762319
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.youtube.com/watch?v=nXdVG45wveo</guid>
+      <pubDate>Tue, 14 Apr 2026 07:17:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>内陆海关专线</title>
+      <link>https://en.wikipedia.org/wiki/Inland_Customs_Line</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Inland_Customs_Line
+评论网址：https://news.ycombinator.com/item?id=47762311
 积分：1
 # 条评论：0]]></description>
-      <guid>https://daily.jstor.org/when-dancing-plagues-struck-medieval-europe/</guid>
-      <pubDate>Tue, 14 Apr 2026 04:59:48 GMT</pubDate>
+      <guid>https://en.wikipedia.org/wiki/Inland_Customs_Line</guid>
+      <pubDate>Tue, 14 Apr 2026 07:15:51 GMT</pubDate>
     </item>
     <item>
-      <title>2026年Unity还值得学吗？人工智能时代</title>
-      <link>https://darkounity.com/blog/is-it-worth-learning-unity-in-2026</link>
-      <description><![CDATA[文章网址：https://darkounity.com/blog/is-it-worth-learning-unity-in-2026
-评论网址：https://news.ycombinator.com/item?id=47761410
+      <title>Show HN：今日连接提示 – 纽约时报连接的安全提示</title>
+      <link>https://connections-hint.today/</link>
+      <description><![CDATA[我构建此页面是因为大多数 Connections 帮助程序页面跳转到答案的速度太快。这个页面的设计感觉更像是教练而不是剧透页面：先有轻微提示，仅在需要时提供更强的提示，存档页面以供审核，体育版支持，以及用于赛后审核的小型结果分析器。它每天自动更新，并作为一个独立的副项目构建。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47762300
 积分：1
 # 条评论：0]]></description>
-      <guid>https://darkounity.com/blog/is-it-worth-learning-unity-in-2026</guid>
-      <pubDate>Tue, 14 Apr 2026 04:58:07 GMT</pubDate>
+      <guid>https://connections-hint.today/</guid>
+      <pubDate>Tue, 14 Apr 2026 07:14:50 GMT</pubDate>
     </item>
     <item>
-      <title>我建立了一个开源组合和项目网站 – Sean Filimon</title>
-      <link>https://seanfilimon.com</link>
-      <description><![CDATA[文章网址：https://seanfilimon.com
-评论网址：https://news.ycombinator.com/item?id=47761399
-积分：2
+      <title>Linux 7.0 发布，提供新硬件支持、优化和自我修复 XFS</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Released</link>
+      <description><![CDATA[文章网址：https://www.phoronix.com/news/Linux-7.0-Released
+评论网址：https://news.ycombinator.com/item?id=47762272
+积分：3
 # 条评论：0]]></description>
-      <guid>https://seanfilimon.com</guid>
-      <pubDate>Tue, 14 Apr 2026 04:56:56 GMT</pubDate>
+      <guid>https://www.phoronix.com/news/Linux-7.0-Released</guid>
+      <pubDate>Tue, 14 Apr 2026 07:11:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
