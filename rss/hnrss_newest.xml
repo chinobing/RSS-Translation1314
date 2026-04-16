@@ -4,108 +4,110 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 15 Apr 2026 21:52:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 02:38:42 GMT</lastBuildDate>
     <item>
-      <title>如何将 MidnightBSD 密钥添加到 UEFI 安全启动 DBX 中？</title>
-      <link>https://news.ycombinator.com/item?id=47785676</link>
-      <description><![CDATA[我不会访问他们的网站，以避免为我的操作系统获取 Rootkit 的风险，因为在操作系统中添加年龄验证基本上就是创建 Rootkit。
+      <title>通过多代理系统将 GPU 内核速度提高 38%</title>
+      <link>https://cursor.com/blog/multi-agent-kernels</link>
+      <description><![CDATA[文章网址：https://cursor.com/blog/multi-agent-kernels
+评论网址：https://news.ycombinator.com/item?id=47788000
+积分：1
+# 条评论：0]]></description>
+      <guid>https://cursor.com/blog/multi-agent-kernels</guid>
+      <pubDate>Thu, 16 Apr 2026 02:37:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>DESI 完成了计划中的 3D 宇宙地图</title>
+      <link>https://newscenter.lbl.gov/2026/04/15/desi-completes-planned-3d-map-of-the-universe-and-continues-exploring/</link>
+      <description><![CDATA[文章网址：https://newscenter.lbl.gov/2026/04/15/desi-completes-planned-3d-map-of-the-universe-and-continues-exploring/
+评论网址：https://news.ycombinator.com/item?id=47787980
+积分：1
+# 条评论：0]]></description>
+      <guid>https://newscenter.lbl.gov/2026/04/15/desi-completes-planned-3d-map-of-the-universe-and-continues-exploring/</guid>
+      <pubDate>Thu, 16 Apr 2026 02:34:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：我们现在不需要编程语言吗？</title>
+      <link>https://news.ycombinator.com/item?id=47787977</link>
+      <description><![CDATA[我现在已经看到了代理 IDE 光标或反重力，主要趋势似乎是仅凭想法进行开发，尽管显示了更改的线条，但它变得越来越不明显。如果我们变得与语言无关，我们是否应该选择最有效的编程方式？可能低于 Rust 的水平？没有解释器或者甚至可能没有编译器？没有人会理解它，整个世界都会依靠想法运行？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47785676
+评论网址：https://news.ycombinator.com/item?id=47787977
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47785676</guid>
-      <pubDate>Wed, 15 Apr 2026 21:42:59 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47787977</guid>
+      <pubDate>Thu, 16 Apr 2026 02:33:36 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Springdrift – 长期 LLM 代理的持久运行时</title>
-      <link>https://github.com/seamus-brady/springdrift</link>
-      <description><![CDATA[我想以某种形式分享我自 2019 年以来一直在做的事情。  Springdrift 是一个持久的、可审计的运行时，用于在 BEAM 上用 Gleam 编写的长寿命代理。这是我试图填补代理开发中的一些空白。它被设计用来完成像 Openclaw 这样的代理可以做的所有事情（并且最终会做更多），但它可以诊断自己的错误和故障。它拥有复杂的安全元认知系统。  它具有不应该漂移的特性。它最初是 Java 中的机器伦理原型，并逐渐演变成完整的代理运行时。所有值得保存的中间变体都在我的 GitHub 存储库中。我记得我试图向导师解释我到底在构建什么。我发现这很困难，因为这种代理没有现有的类别。它不完全是一个助手，它的作用不仅仅是运行任务。它不完全是一个自主主体，因为尽管它是自主的，但它的自主权是有限的。我不断地回到辅助动物的例子，比如导盲犬。这提供了我所需要的，即具有有限自治权的非人类代理的例子。但这不是导盲犬，而是人工智能系统。我需要寻找小说中的例子来添加最后部分——《神秘博士》中的贾维斯、K9，《黄金时代》小说中的拉达曼瑟斯。所有这些系统都具有有限的自主权，并与保留服务的家庭律师或医生等人类保持长期的专业关系。因此，该系统的类型是人工保持器。该系统具有许多有趣的功能 - 环境自我感知、内省工具以及基于计算伦理学（Becker）和决策理论（Beach）的安全系统。它是可审计的，备份到 git，并且可以通过调度程序和受监督的子代理团队来管理自己的工作。该网站和随附的论文提供了更多详细信息。我对这个系统没有做太多的声明，它相当新。我提供的是一类新的人工智能代理的参考实现，我认为这是我们需要的。通向 AGI 的道路一切顺利，我不确定 Springdrift 能让我们更接近。但它确实代表了构建我们似乎缺少的中间安全类型代理的尝试。欢迎所有反馈和评论！GitHub：https://github.com/seamus-brady/springdriftArxiv 论文：https://arxiv.org/abs/2604.04660评估数据：https://huggingface.co/datasets/sbrady/springdrift-paper-eva...网站：https://springdrift.ai/
+      <title>Tailscale-rs：用于嵌入 Tailscale 的官方 Rust 库</title>
+      <link>https://tailscale.com/blog/tailscale-rs-rust-tsnet-library-preview</link>
+      <description><![CDATA[文章网址：https://tailscale.com/blog/tailscale-rs-rust-tsnet-library-preview
+评论网址：https://news.ycombinator.com/item?id=47787957
+积分：1
+# 条评论：0]]></description>
+      <guid>https://tailscale.com/blog/tailscale-rs-rust-tsnet-library-preview</guid>
+      <pubDate>Thu, 16 Apr 2026 02:30:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Hiraeth – AWS 模拟器</title>
+      <link>https://github.com/SethPyle376/hiraeth</link>
+      <description><![CDATA[随着最近 Localstack 定价/许可的变化，我一直在寻找替代方案。我决定尝试自己进行尝试可能是一个有趣的实验。 SQS 是我经常使用的一项服务，因此我选择它作为第一个实施的服务。我计划并正在开发更多服务。一些我认为很酷的东西：4MB Docker 映像大小即时启动AWS Sigv4 身份验证一个有助于开发/故障排除的小管理 UI大部分 SQS API 已实现，其余部分很快就会跟进:)
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47785663
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/seamus-brady/springdrift</guid>
-      <pubDate>Wed, 15 Apr 2026 21:41:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>中年过渡</title>
-      <link>https://blogs.gnome.org/chergert/2026/02/06/mid-life-transitions/</link>
-      <description><![CDATA[文章网址：https://blogs.gnome.org/chergert/2026/02/06/mid-life-transitions/
-评论网址：https://news.ycombinator.com/item?id=47785648
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blogs.gnome.org/chergert/2026/02/06/mid-life-transitions/</guid>
-      <pubDate>Wed, 15 Apr 2026 21:40:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们同舟共济</title>
-      <link>https://elijahpotter.dev/articles/we-are-in-this-together</link>
-      <description><![CDATA[文章网址：https://elijahpotter.dev/articles/we-are-in-this-together
-评论网址：https://news.ycombinator.com/item?id=47785643
-积分：1
-# 条评论：0]]></description>
-      <guid>https://elijahpotter.dev/articles/we-are-in-this-together</guid>
-      <pubDate>Wed, 15 Apr 2026 21:40:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>福特首席执行官警告中国汽车在美国上市将对美国汽车制造商造成“毁灭性打击”</title>
-      <link>https://nypost.com/2026/04/14/business/ford-ceo-jim-farley-warns-chinese-cars-sales-in-us-would-be-devastating/</link>
-      <description><![CDATA[文章网址： https://nypost.com/2026/04/14/business/ford-ceo-jim-farley-warns-chinese-cars-sales-in-us-would-be-devastating/
-评论网址：https://news.ycombinator.com/item?id=47785630
+评论网址：https://news.ycombinator.com/item?id=47787947
 积分：2
 # 条评论：0]]></description>
-      <guid>https://nypost.com/2026/04/14/business/ford-ceo-jim-farley-warns-chinese-cars-sales-in-us-would-be-devastating/</guid>
-      <pubDate>Wed, 15 Apr 2026 21:39:16 GMT</pubDate>
+      <guid>https://github.com/SethPyle376/hiraeth</guid>
+      <pubDate>Thu, 16 Apr 2026 02:28:18 GMT</pubDate>
     </item>
     <item>
-      <title>亚马逊卖家抵制广告以抗议政策变化</title>
-      <link>https://www.cnbc.com/2026/04/15/amazon-sellers-boycott-ads-payment-changes.html</link>
-      <description><![CDATA[文章网址：https://www.cnbc.com/2026/04/15/amazon-sellers-boycott-ads- payment-changes.html
-评论网址：https://news.ycombinator.com/item?id=47785608
+      <title>Show HN：Tokanban，一个代理优先的任务管理系统</title>
+      <link>https://tokanban.com/</link>
+      <description><![CDATA[我们构建了一个代理优先的任务管理系统，因为遗留工具无法满足要求我们每天都在使用人工智能编码代理进行构建，而任务管理一直是一个摩擦点。 Markdown 文件集合、Jira/Linear 的附加 MCP、缓慢的 API — 或者只是让代理直接创建工作项，绕过我们应该使用的任何 UI。这些工具在设计时从未考虑到代理。因此，我们从头开始重新思考：代理优先，尽量减少混乱，围绕您和您的代理实际需要构建。
+结果就是 Tokanban — 简单、可扩展、高性能且免费。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47787943
+积分：1
+# 条评论：0]]></description>
+      <guid>https://tokanban.com/</guid>
+      <pubDate>Thu, 16 Apr 2026 02:27:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>瀑布 (2018)</title>
+      <link>https://beza1e1.tuxen.de/waterfall.html</link>
+      <description><![CDATA[文章网址：https://beza1e1.tuxen.de/waterfall.html
+评论网址：https://news.ycombinator.com/item?id=47787940
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.cnbc.com/2026/04/15/amazon-sellers-boycott-ads-payment-changes.html</guid>
-      <pubDate>Wed, 15 Apr 2026 21:37:29 GMT</pubDate>
+      <guid>https://beza1e1.tuxen.de/waterfall.html</guid>
+      <pubDate>Thu, 16 Apr 2026 02:25:57 GMT</pubDate>
     </item>
     <item>
-      <title>中期</title>
-      <link>https://terminaltrove.com/hnterm/</link>
-      <description><![CDATA[文章网址：https://terminaltrove.com/hnterm/
-评论网址：https://news.ycombinator.com/item?id=47785601
+      <title>天文学家提出在不知道外星人长什么样的情况下寻找外星人的新方法</title>
+      <link>https://www.sci.news/astronomy/agnostic-biosignature-14697.html</link>
+      <description><![CDATA[文章网址：https://www.sci.news/astronomy/agnostic-biosignature-14697.html
+评论网址：https://news.ycombinator.com/item?id=47787922
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.sci.news/astronomy/agnostic-biosignature-14697.html</guid>
+      <pubDate>Thu, 16 Apr 2026 02:22:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>加州州长竞选——阶级、能力和政治合法性</title>
+      <link>https://simplefunctions.dev/opinions/california-governor-2026-class-competence-legitimacy</link>
+      <description><![CDATA[文章网址：https://simplefunctions.dev/opinions/california-governor-2026-class-competence-legitimacy
+评论网址：https://news.ycombinator.com/item?id=47787902
 积分：1
 # 条评论：0]]></description>
-      <guid>https://terminaltrove.com/hnterm/</guid>
-      <pubDate>Wed, 15 Apr 2026 21:36:46 GMT</pubDate>
+      <guid>https://simplefunctions.dev/opinions/california-governor-2026-class-competence-legitimacy</guid>
+      <pubDate>Thu, 16 Apr 2026 02:20:51 GMT</pubDate>
     </item>
     <item>
-      <title>黑客新闻 CLI</title>
-      <link>https://pythonhosted.org/hackernews-cli/commands.html</link>
-      <description><![CDATA[文章网址：https://pythonhosted.org/hackernews-cli/commands.html
-评论网址：https://news.ycombinator.com/item?id=47785582
+      <title>投资者摆脱伊朗战争油价飙升影响 标准普尔 500 指数创历史新高</title>
+      <link>https://www.nbcnews.com/business/markets/sp-500-hits-new-high-iran-war-rcna331900</link>
+      <description><![CDATA[文章网址：https://www.nbcnews.com/business/markets/sp-500-hits-new-high-iran-war-rcna331900
+评论网址：https://news.ycombinator.com/item?id=47787883
 积分：1
 # 条评论：0]]></description>
-      <guid>https://pythonhosted.org/hackernews-cli/commands.html</guid>
-      <pubDate>Wed, 15 Apr 2026 21:35:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>搜索引擎竞争的动态 (2001)</title>
-      <link>https://www.tesble.com/10.1016/s0167-7187(01)00065-0</link>
-      <description><![CDATA[文章网址：https://www.tesble.com/10.1016/s0167-7187(01)00065-0
-评论网址：https://news.ycombinator.com/item?id=47785574
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.tesble.com/10.1016/s0167-7187(01)00065-0</guid>
-      <pubDate>Wed, 15 Apr 2026 21:35:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude Code 替代方案：相同的输出质量，使用的输入标记减少 10 倍</title>
-      <link>https://github.com/Simon-Free/bouzecode</link>
-      <description><![CDATA[文章网址：https://github.com/Simon-Free/bouzecode
-评论网址：https://news.ycombinator.com/item?id=47785571
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/Simon-Free/bouzecode</guid>
-      <pubDate>Wed, 15 Apr 2026 21:34:51 GMT</pubDate>
+      <guid>https://www.nbcnews.com/business/markets/sp-500-hits-new-high-iran-war-rcna331900</guid>
+      <pubDate>Thu, 16 Apr 2026 02:18:07 GMT</pubDate>
     </item>
     </channel>
 </rss>
