@@ -4,113 +4,111 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 16 Apr 2026 13:44:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 16:23:03 GMT</lastBuildDate>
+    <item>
+      <title>启动 HN：坎帕拉 (YC W26) – 将应用程序逆向工程为 API</title>
+      <link>https://www.zatanna.ai/kampala</link>
+      <description><![CDATA[嘿！我是 Alex，与我的联合创始人 Tarun 一起创建了坎帕拉 (https://www.zatanna.ai/kampala)。它是一种中间人 (MITM) 风格的代理，允许您对现有工作流程进行代理逆向工程，而无需脆弱的浏览器自动化或计算机使用代理。它适用于网站、移动应用、桌面应用。演示：https://www.youtube.com/watch?v=z_PeostC-b4。
+许多人每天花费数小时在传统仪表板和本地解决方案上跨平台协调数据。当前的自动化尝试使用浏览器自动化或计算机使用代理，但它们脆弱、缓慢且不确定。 
+我拥有网络逆向工程背景，在过去的 7-8 年里，我手工构建了运动鞋/门票发布、体育博彩登录以及其中的所有内容的集成。在那段时间里，我为几家公司提供了咨询服务，并将它们从基于浏览器的基础设施转移到了请求层。当我们创办 Zatanna（这是我们公司的名称）时，我们从事牙科技术工作，这意味着我们必须处理大量的保险付款人仪表板和遗留的牙科实践解决方案。我们的超能力（作为一家相当无差异化的语音代理/前台助理公司）是我们可以与几乎任何要求的系统集成。在此期间，我们构建了广泛的工具（包括我们现在所说的坎帕拉），使我们能够快速启动这些集成。 
+现有的 MITM 代理和工具由于以下几个原因而不起作用：（1）它们通过严格的反机器人检测到的线路操纵 TLS 和 HTTP2 指纹。 (2) 他们的 MCP 很差，没有充分暴露脚本/重播等必要的功能。 (3) 它们不允许在给定样本或请求序列的情况下构建工作流程或操作。随着我们构建的工具变得更加强大，我们开始在内部使用它们来获取会议与会者、连接到外部 PMS 系统以及与 Slack 应用程序交互。我什至将其发送给我的物业经理妈妈，她（在我的大力帮助下，哈哈）在 Yardi 中自动输入了 2-3 小时的账单信息。那时我们意识到这实际上与牙科无关:)因为 Kampala 是一个 MITM，它能够利用现有的会话令牌/反机器人 cookie 并在几秒钟内确定性地自动化操作。您可以使用我们的代理工具，通过提示您执行哪些操作来直接创建脚本/API，也可以使用我们的 MCP，手动执行一次工作流程，并要求您首选的编码代理使用 Kampala 制作脚本/API 来复制它。一旦您拥有 API/脚本，您就可以导出、运行，甚至让我们为您托管。我们认为自动化的未来并不包括将网页屏幕截图发送给法学硕士，而是使用计算机实际理解的底层。很高兴听到您的想法/问题/反馈！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47794514
+积分：16
+# 条评论：7]]></description>
+      <guid>https://www.zatanna.ai/kampala</guid>
+      <pubDate>Thu, 16 Apr 2026 15:19:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们给人工智能一个为期 3 年的零售租赁合同，并要求它盈利</title>
+      <link>https://andonlabs.com/blog/andon-market-launch</link>
+      <description><![CDATA[文章网址：https://andonlabs.com/blog/andon-market-launch
+评论网址：https://news.ycombinator.com/item?id=47794391
+积分：24
+# 条评论：35]]></description>
+      <guid>https://andonlabs.com/blog/andon-market-launch</guid>
+      <pubDate>Thu, 16 Apr 2026 15:13:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Laravel 筹集了资金，现在将广告直接注入到您的代理中</title>
+      <link>https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/</link>
+      <description><![CDATA[文章网址：https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/
+评论网址：https://news.ycombinator.com/item?id=47793926
+积分：96
+# 条评论：52]]></description>
+      <guid>https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/</guid>
+      <pubDate>Thu, 16 Apr 2026 14:51:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>克劳德 Opus 4.7 模型卡</title>
+      <link>https://anthropic.com/claude-opus-4-7-system-card</link>
+      <description><![CDATA[文章网址：https://anthropic.com/claude-opus-4-7-system-card
+评论网址：https://news.ycombinator.com/item?id=47793546
+积分：71
+# 条评论：28]]></description>
+      <guid>https://anthropic.com/claude-opus-4-7-system-card</guid>
+      <pubDate>Thu, 16 Apr 2026 14:32:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>近距离工作 4.7</title>
+      <link>https://www.anthropic.com/news/claude-opus-4-7</link>
+      <description><![CDATA[文章网址：https://www.anthropic.com/news/claude-opus-4-7
+评论网址：https://news.ycombinator.com/item?id=47793411
+积分：500
+评论数：394]]></description>
+      <guid>https://www.anthropic.com/news/claude-opus-4-7</guid>
+      <pubDate>Thu, 16 Apr 2026 14:23:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Qwen3.6-35B-A3B：代理编码能力，现已向所有人开放</title>
+      <link>https://qwen.ai/blog?id=qwen3.6-35b-a3b</link>
+      <description><![CDATA[文章网址：https://qwen.ai/blog?id=qwen3.6-35b-a3b
+评论网址：https://news.ycombinator.com/item?id=47792764
+积分：375
+# 条评论：201]]></description>
+      <guid>https://qwen.ai/blog?id=qwen3.6-35b-a3b</guid>
+      <pubDate>Thu, 16 Apr 2026 13:36:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>我猜一切的未来都是谎言：我们将何去何从？</title>
+      <link>https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here</link>
+      <description><![CDATA[文章网址：https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here
+评论网址：https://news.ycombinator.com/item?id=47792718
+积分：197
+# 条评论：186]]></description>
+      <guid>https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here</guid>
+      <pubDate>Thu, 16 Apr 2026 13:32:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare 电子邮件服务</title>
+      <link>https://blog.cloudflare.com/email-for-agents/</link>
+      <description><![CDATA[文章网址：https://blog.cloudflare.com/email-for-agents/
+评论网址：https://news.ycombinator.com/item?id=47792593
+积分：186
+评论数：86]]></description>
+      <guid>https://blog.cloudflare.com/email-for-agents/</guid>
+      <pubDate>Thu, 16 Apr 2026 13:21:53 GMT</pubDate>
+    </item>
     <item>
       <title>Cloudflare 的 AI 平台：专为代理设计的推理层</title>
       <link>https://blog.cloudflare.com/ai-platform/</link>
       <description><![CDATA[文章网址：https://blog.cloudflare.com/ai-platform/
 评论网址：https://news.ycombinator.com/item?id=47792538
-积分：6
-# 条评论：0]]></description>
+积分：78
+# 条评论：22]]></description>
       <guid>https://blog.cloudflare.com/ai-platform/</guid>
       <pubDate>Thu, 16 Apr 2026 13:17:37 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：48 个荒谬的网络项目——每月一个</title>
-      <link>https://news.ycombinator.com/item?id=47792026</link>
-      <description><![CDATA[一年前，我在这里发布了一个小实验：
-https://news.ycombinator.com/item?id=44162363我每个月都会构建一个荒谬的网络项目并将其发布在 https://absurd.website我保留了现在有 48 个项目。想法仍然是一样的 - 我构建的大部分都是不必要的网络项目，这些项目位于实验、笑话、产品和艺术之间。但随着时间的推移，他们开始更多地转向网络艺术而不仅仅是实验网络。最近的一些：VandalAds - 一种可以销毁的横幅格式，而不仅仅是查看
-打字疗法——不是说肯定的话，而是输入你的想法来改变它们
-缓慢的品牌重塑——品牌变化如此缓慢，以至于你没有注意到
-守卫模拟器 - 每天出现 15 秒犯罪，抓住它就赢了我也开始只向会员发布一些项目，所以不再公开所有内容。我最喜欢的是节奏：每个月一个公共项目和一个私人项目。
-它迫使我实现想法，而不是把它们留在笔记中。核心仍然是想法和概念 - 不是润色，不是执行，甚至不是有用性。看看人们是否理解项目内部的想法，在其中发现其他东西，或者什么也看不到也很有趣。我还在继续，此时荒谬的网站已经成为我生活的重要组成部分。谢谢。
+      <title>显示 HN：MacMind – 1989 年 Macintosh 上 HyperCard 中的变换器神经网络</title>
+      <link>https://github.com/SeanFDZ/macmind</link>
+      <description><![CDATA[我在 HyperCard 中训练了一个变压器。  1,216 个参数。  1989 年麦金塔电脑。  是的，花了一段时间。MacMind 是一个完整的变压器神经网络，具有嵌入、位置编码、自注意力、反向传播和梯度下降，完全用 HyperTalk 实现，HyperTalk 是 Apple 于 1987 年随 HyperCard 附带的脚本语言。每一行代码都可以在 HyperCard 的脚本编辑器中读取。  按住 Option 键并单击任意按钮并读取实际数学结果。任务：学习位反转排列，这是快速傅立叶变换的开始步骤。  该模型没有可遵循的公式。  它纯粹通过注意力和反复试错来发现位置模式。  通过训练第 193 步，它在连续的步骤中在 50%、75% 和 100% 的准确度之间振荡，像球滚入碗中一样趋于收敛。整个“智能”是存储在 HyperCard 堆栈的隐藏字段中的 1,216 个数字。  保存文件，退出，重新打开：经过训练的模型仍然存在，仍然正确。  它可以在从 System 7 到 Mac OS 9 的任何系统上运行。作为一名物理系学生，FFT 是我的老朋友，它是信号处理、量子力学和波动分析的核心。  我之所以创建这个，是因为我们正处于人工智能影响我们所有人的时刻，但我们大多数人并不理解它实际上做了什么。  反向传播和注意力是数学，而不是魔法。  数学并不关心它是在 TPU 集群上运行还是在 1989 年的 68030 上运行。该存储库有一个预先训练的堆栈（步骤 1,000）、一个可以自己训练的空白堆栈，以及一个用于验证数学的 Python/NumPy 参考实现。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47792026
-积分：28
-# 条评论：8]]></description>
-      <guid>https://news.ycombinator.com/item?id=47792026</guid>
-      <pubDate>Thu, 16 Apr 2026 12:29:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>由于不受限制的 Firebase 浏览器密钥访问 Gemini API，13 小时内收入飙升 5.4 万欧元</title>
-      <link>https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262</link>
-      <description><![CDATA[文章网址： https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262
-评论网址：https://news.ycombinator.com/item?id=47791871
-积分：198
-# 条评论：123]]></description>
-      <guid>https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262</guid>
-      <pubDate>Thu, 16 Apr 2026 12:13:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple 利用有史以来最高的回收材料加速生态进步</title>
-      <link>https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products/</link>
-      <description><![CDATA[文章网址：https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products/
-评论网址：https://news.ycombinator.com/item?id=47791855
-积分：43
-# 条评论：14]]></description>
-      <guid>https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products/</guid>
-      <pubDate>Thu, 16 Apr 2026 12:11:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们发出的噪音正在伤害动物。我们能学会闭嘴吗？</title>
-      <link>https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/</link>
-      <description><![CDATA[文章网址：https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/
-评论网址：https://news.ycombinator.com/item?id=47791507
-积分：44
-# 条评论：37]]></description>
-      <guid>https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/</guid>
-      <pubDate>Thu, 16 Apr 2026 11:25:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>古代 DNA 揭示了欧亚大陆西部普遍存在的方向选择 [pdf]</title>
-      <link>https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/2026_Akbari_Nature_selection_0.pdf</link>
-      <description><![CDATA[文章网址： https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/2026_Akbari_Nature_selection_0.pdf
-评论网址：https://news.ycombinator.com/item?id=47791282
-积分：32
-# 条评论：14]]></description>
-      <guid>https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/2026_Akbari_Nature_selection_0.pdf</guid>
-      <pubDate>Thu, 16 Apr 2026 10:57:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能网络安全不是工作量证明</title>
-      <link>https://antirez.com/news/163</link>
-      <description><![CDATA[文章网址：https://antirez.com/news/163
-评论网址：https://news.ycombinator.com/item?id=47791236
-积分：50
-# 条评论：11]]></description>
-      <guid>https://antirez.com/news/163</guid>
-      <pubDate>Thu, 16 Apr 2026 10:48:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Codex 入侵了三星电视</title>
-      <link>https://blog.calif.io/p/codex-hacked-a-samsung-tv</link>
-      <description><![CDATA[文章网址：https://blog.calif.io/p/codex-hacked-a-samsung-tv
-评论网址：https://news.ycombinator.com/item?id=47791212
-积分：86
-# 条评论：57]]></description>
-      <guid>https://blog.calif.io/p/codex-hacked-a-samsung-tv</guid>
-      <pubDate>Thu, 16 Apr 2026 10:44:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>RamAIn (YC W26) 正在招聘</title>
-      <link>https://www.ycombinator.com/companies/ramain/jobs/bwtwd9W-founding-gtm-operations-lead</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/ramain/jobs/bwtwd9W-founding-gtm-operations-lead
-评论网址：https://news.ycombinator.com/item?id=47789607
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/ramain/jobs/bwtwd9W-founding-gtm-operations-lead</guid>
-      <pubDate>Thu, 16 Apr 2026 07:01:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>将大规模指标管道从 StatsD 迁移到 OpenTelemetry / Prometheus</title>
-      <link>https://medium.com/airbnb-engineering/building-a-high-volume-metrics-pipeline-with-opentelemetry-and-vmagent-c714d6910b45</link>
-      <description><![CDATA[全面披露 - 我以前在 Grafana Labs 工作。Grafana Mimir 部署的规模将使其跻身客户的顶级梯队。讽刺的是，这可能是 Grafana Labs 的 0 美元收入用户。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47788818
-积分：50
-评论数量：9]]></description>
-      <guid>https://medium.com/airbnb-engineering/building-a-high-volume-metrics-pipeline-with-opentelemetry-and-vmagent-c714d6910b45</guid>
-      <pubDate>Thu, 16 Apr 2026 05:01:05 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=47792525
+积分：37
+# 条评论：5]]></description>
+      <guid>https://github.com/SeanFDZ/macmind</guid>
+      <pubDate>Thu, 16 Apr 2026 13:16:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
