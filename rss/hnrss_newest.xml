@@ -4,106 +4,138 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 18 Apr 2026 18:53:29 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 21:36:06 GMT</lastBuildDate>
     <item>
-      <title>什么情绪传播得最快？ (2014)</title>
-      <link>https://www.smithsonianmag.com/science-nature/what-emotion-goes-viral-fastest-180950182/</link>
-      <description><![CDATA[文章网址：https://www.smithsonianmag.com/science-nature/what-emotion-goes-viral-fastest-180950182/
-评论网址：https://news.ycombinator.com/item?id=47818401
+      <title>以色列在加沙杀害两名联合国儿童基金会洒水车司机</title>
+      <link>https://www.unicef.org/press-releases/statement-unicef-killing-two-water-truck-drivers-gaza-strip-0</link>
+      <description><![CDATA[文章网址：https://www.unicef.org/press-releases/statement-unicef-killing-two-water-truck-drivers-gaza-strip-0
+评论网址：https://news.ycombinator.com/item?id=47819637
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.unicef.org/press-releases/statement-unicef-killing-two-water-truck-drivers-gaza-strip-0</guid>
+      <pubDate>Sat, 18 Apr 2026 21:22:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>_标准 C23 中的通用 Printf()</title>
+      <link>https://codeberg.org/Flying-Toast/gprintf</link>
+      <description><![CDATA[文章网址：https://codeberg.org/Flying-Toast/gprintf
+评论网址：https://news.ycombinator.com/item?id=47819566
+积分：1
+# 条评论：0]]></description>
+      <guid>https://codeberg.org/Flying-Toast/gprintf</guid>
+      <pubDate>Sat, 18 Apr 2026 21:12:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>哈萨克斯坦仍然依赖其老化的工业巨头</title>
+      <link>https://mondediplo.com/2026/04/14kazakhstan</link>
+      <description><![CDATA[文章网址：https://mondediplo.com/2026/04/14kazakhstan
+评论网址：https://news.ycombinator.com/item?id=47819561
+积分：1
+# 条评论：0]]></description>
+      <guid>https://mondediplo.com/2026/04/14kazakhstan</guid>
+      <pubDate>Sat, 18 Apr 2026 21:12:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：How Are You——我用人工智能在 6 个月内独立构建的老年人跌倒检测应用程序</title>
+      <link>https://news.ycombinator.com/item?id=47819553</link>
+      <description><![CDATA[我写这篇文章是因为我想表明，如果以正确的方式使用正确的工具，通过人工智能，可以完成真正复杂且有意义的项目。
+我需要一个可以使用的项目，以便我了解仅使用人工智能可以走多远。我需要一些可行但相对复杂的东西。
+然后我想起了几年前我妻子与我分享的一个想法：一个应用程序可以监控她祖父的行为，并在他停止移动时发送通知。当时，人工智能集成并未被视为一种选择，并且用于建模行为（具有适应性）的静态算法复杂且脆弱。我没有那么聪明来实现这样的事情。我从 2025 年 12 月开始。我读了很多书，看了视频，我找到了一个我想尝试的 AI 框架：BMAD。我感觉它背后的想法是众所周知的。敏捷方法，但需要代理。会出什么问题！？
+我已经拥有了我需要的一切。一种我不知道的语言，Android 操作系统，在过去 15 年里发生了很大的变化，以及我可以用来动态适应行为变化的 AI 模型。选定的框架。对我来说看起来足够复杂。这么多未知的事情。我唯一拥有的就是我的软件开发经验！
+我需要一周的时间来完成 BMAD 工作流程并从中获取所有文档。主要计划是要求人工智能实现以下问题的检测：
+* 异常的静止（潜在的跌倒或医疗事件）
+* 没有按时起床
+* 在不寻常的时间、不熟悉的地点
+* 手机静音太久我最终得到了以下技术堆栈：* Kotlin + Jetpack Compose + Material 3
+* Room + SQLCipher 用于加密本地存储
+* Google Gemini 用于行为分析
+* 重新发送事务电子邮件警报的 API
+* 干净的架构：:domain (纯 Kotlin) -&gt; :data -&gt; :ui -&gt; :app有了我和 AI 都知道的基础，接下来的五周开发代理就开始实施了。当我开始测试时，一切都失败了。一切都在那里，但没有任何联系。就像，20 名开发人员在没有召开每日会议的情况下完成了一些事情！ 
+我认为，如果我在中间阶段进行更多测试，定期了解和检查代码，在最初的 BMAD 工作流程步骤上投入更多时间，我会得到更好的结果。在永久坚持使用 Opus 之前，我也尝试过不同的模型。我没有停止。数周的测试和修复。我经历了惨痛的教训：Android 开发不再像以前那样令人愉快。每个 OEM 都有自己的方法来终止我的 24/7 监控
+借助人工智能和多个法学硕士，我最终得到了一个 11 层的服务恢复系统：
+* 具有 IMPORTANCE_MIN 频道的前台服务
+* WorkManager定期看门狗
+* AlarmManager备份链
+* BOOT_COMPLETED接收器
+* 同步适配器
+* 批量加速度计传感
+* 精确报警权限恢复
+* OEM 特定的唤醒锁标签欺骗
+* START_STICKY重新启动
+* 安全网闹钟，每 8 小时间隔一次
+* 具有 OEM 特定指导的面向用户的间隙检测
+每天都会出现新问题：D以下是指标：  
+422 个 prod 文件，87k+ 行 prod 代码，2251 个测试，53k+ 行测试代码。值得吗？！
+伴随着所有的未知和错误，我花了 6 个月的时间。到目前为止，我的投资主要是克劳德·马克斯订阅。老派的做法是 2-3 个人在相同的 6 个月内进行。
+我会再做一次吗？是的。我知道现在该做什么：选择一种我知道的语言，更频繁地测试，经常审查代码，编写更好的文档。使用正确的工具和法学硕士。代码质量好吗？老实说，我不在乎。作为一名产品经理，我关心的是快速交付、低成本、良好的性能、稳定性和文档。如果代码很糟糕，我就不会得到这些。该应用程序已发布并且看起来很稳定 - 因此代码的状态良好。而看看 Claude Code 是如何工作的，代码中充满了注释。普通开发人员不会很好地记录这一点。从这个角度来看，代码非常出色！网站（AI 生成）：https://howareu.app/ 任何建议、反馈、意见都将受到高度赞赏。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47819553
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=47819553</guid>
+      <pubDate>Sat, 18 Apr 2026 21:11:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：一个关于 PHP 套件的罗马寓言，该套件在 3 天内暴露了 100 个表</title>
+      <link>https://marius-ciclistu.medium.com/list/the-api-grand-prix-486dc1becb36</link>
+      <description><![CDATA[这个 fabula 是 Maravel PHP 生态系统的隐喻呈现，并且基于导致其存在的事件。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47819544
+积分：1
+# 条评论：0]]></description>
+      <guid>https://marius-ciclistu.medium.com/list/the-api-grand-prix-486dc1becb36</guid>
+      <pubDate>Sat, 18 Apr 2026 21:10:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>神秘人物登上拉斯维加斯球体顶峰：看来是亚历克斯·霍诺德 (Alex Honnold)</title>
+      <link>https://www.sfgate.com/travel/article/alex-honnold-sphere-las-vegas-22212813.php</link>
+      <description><![CDATA[文章网址：https://www.sfgate.com/travel/article/alex-honnold-sphere-las-vegas-22212813.php
+评论网址：https://news.ycombinator.com/item?id=47819541
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.smithsonianmag.com/science-nature/what-emotion-goes-viral-fastest-180950182/</guid>
-      <pubDate>Sat, 18 Apr 2026 18:48:36 GMT</pubDate>
+      <guid>https://www.sfgate.com/travel/article/alex-honnold-sphere-las-vegas-22212813.php</guid>
+      <pubDate>Sat, 18 Apr 2026 21:09:14 GMT</pubDate>
     </item>
     <item>
-      <title>音乐发现就像翻阅唱片店的垃圾箱一样</title>
-      <link>https://app.vinylbins.com/</link>
-      <description><![CDATA[文章网址：https://app.vinylbins.com/
-评论网址：https://news.ycombinator.com/item?id=47818389
+      <title>以编辑风格重新设计黑客新闻的 Chrome 扩展</title>
+      <link>https://github.com/puppe1990/redesign-hacker-news</link>
+      <description><![CDATA[文章网址：https://github.com/puppe1990/redesign-hacker-news
+评论网址：https://news.ycombinator.com/item?id=47819537
 积分：1
 # 条评论：0]]></description>
-      <guid>https://app.vinylbins.com/</guid>
-      <pubDate>Sat, 18 Apr 2026 18:47:25 GMT</pubDate>
+      <guid>https://github.com/puppe1990/redesign-hacker-news</guid>
+      <pubDate>Sat, 18 Apr 2026 21:08:19 GMT</pubDate>
     </item>
     <item>
-      <title>深度扫描页面阅读器 WCAG 2.2 辅助功能</title>
-      <link>https://webpossum.com</link>
-      <description><![CDATA[文章网址：https://webpossum.com
-评论网址：https://news.ycombinator.com/item?id=47818383
+      <title>隐藏的语言：信号量的含义</title>
+      <link>https://www.offshoresupply.co.uk/blog/a-hidden-language-the-meaning-of-semaphore/</link>
+      <description><![CDATA[文章网址：https://www.offshoresupply.co.uk/blog/a-hidden-language-the-meaning-of-semaphore/
+评论网址：https://news.ycombinator.com/item?id=47819535
 积分：1
 # 条评论：0]]></description>
-      <guid>https://webpossum.com</guid>
-      <pubDate>Sat, 18 Apr 2026 18:46:27 GMT</pubDate>
+      <guid>https://www.offshoresupply.co.uk/blog/a-hidden-language-the-meaning-of-semaphore/</guid>
+      <pubDate>Sat, 18 Apr 2026 21:08:07 GMT</pubDate>
     </item>
     <item>
-      <title>如何测量食物中的卡路里？</title>
-      <link>https://www.merckmanuals.com/home/multimedia/table/how-are-calories-in-foods-measured</link>
-      <description><![CDATA[文章网址：https://www.merckmanuals.com/home/multimedia/table/how-are-calories-in-foods-measured
-评论网址：https://news.ycombinator.com/item?id=47818374
+      <title>可观测性堆栈——人工智能优先？</title>
+      <link>https://news.ycombinator.com/item?id=47819461</link>
+      <description><![CDATA[所以...我已经落后了。这周刚进入 Claude...它已经完成了我的大部分编码和错误修复。疯狂的东西。我公司的一些背景：成熟（14 年）Ruby on Rails 应用程序、Sidekiq、Redis、PG、AWS lambda/eventbridge、react/preact、swift 等。托管在 Heroku 上。数据库非常重。独行侠，所有者/操作员。当前堆栈：Datadog 日志记录（涉足 APM、指标等，但 Heroku 的构建包太臃肿，我不得不删除它），所以现在它是一个简单的 Heroku 日志导出到 datadog。我真的很怀念 statsd 主机和 APM 的东西...但是它使我的 slug 大小从 ~250mb 增加到超过 350，并使启动和部署速度慢得多。我也想离开 Heroku...有一天...但我无法理解它。Bugsnag 错误。已经将其转移到 Sentry 来尝试 AI 的东西。有点厌倦了 Datadog 以及在我的企业承诺之外每月收到 600 美元的账单。最大的痛点：索引按行定价，而不是按 GB 定价（这让我无法进行简单的日志记录，因此我将事件放入单个请求/作业日志行中，然后对消息进行复杂的分块，以便 Heroku 日志消耗不会破坏 json）。配置 datadog 的复杂性是一个痛点，但 AI 已经基本上解决了这个问题。我想要一个全合一的工具...对于 AI 来说，将所有上下文放在一个地方似乎是最好的。然而，哨兵日志非常绿，速度慢，而且没有太多作用。我再次尝试了 BetterStack，非常基础。无论如何，定价与 datadog 类似。我每个月处理大约 600GB + 50M 行。所以我得出的结论是 Datadog 日志仍然比现有的任何日志都要好得多。但 Sentry 的错误处理能力要好一些（我还有其他项目：iOS 应用程序、react、vanilla JS）。有什么建议吗？我喜欢花时间在这些事情上，当我必须修复某些东西并且一切都在那里时，这让我很高兴，但在某些时候 - 就像使用 Heroku 的原因 - 我有很多其他东西需要关注。探索切换的主要原因是自动化根本原因分析、错误修复、性能改进等。我对 Claude 仍然是菜鸟，现在我只是在 Claude Code vscode 聊天中将其用作结对程序员，有时使用 CLI。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47819461
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.merckmanuals.com/home/multimedia/table/how-are-calories-in-foods-measured</guid>
-      <pubDate>Sat, 18 Apr 2026 18:45:15 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47819461</guid>
+      <pubDate>Sat, 18 Apr 2026 20:55:34 GMT</pubDate>
     </item>
     <item>
-      <title>适用于 Ubuntu 的一命令本地 AI 堆栈设置（CUDA、Ollama、llama.cpp、聊天 UI）</title>
-      <link>https://github.com/chsbusch-dot/Ubuntu-AI-Tools-Install</link>
-      <description><![CDATA[文章网址：https://github.com/chsbusch-dot/Ubuntu-AI-Tools-Install
-评论网址：https://news.ycombinator.com/item?id=47818371
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/chsbusch-dot/Ubuntu-AI-Tools-Install</guid>
-      <pubDate>Sat, 18 Apr 2026 18:45:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>IPv8</title>
-      <link>https://datatracker.ietf.org/doc/draft-thain-ipv8/</link>
-      <description><![CDATA[文章网址：https://datatracker.ietf.org/doc/draft-thain-ipv8/
-评论网址：https://news.ycombinator.com/item?id=47818369
-积分：1
-# 条评论：0]]></description>
-      <guid>https://datatracker.ietf.org/doc/draft-thain-ipv8/</guid>
-      <pubDate>Sat, 18 Apr 2026 18:44:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>我是一名历史专业学生，他构建了一个气隙蓝牙网状网络来杀死机器人</title>
-      <link>https://jaww.io</link>
-      <description><![CDATA[文章网址：https://jaww.io
-评论网址：https://news.ycombinator.com/item?id=47818358
-积分：1
-# 条评论：1]]></description>
-      <guid>https://jaww.io</guid>
-      <pubDate>Sat, 18 Apr 2026 18:43:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>在人工智能宣传战中，伊朗获胜</title>
-      <link>https://www.economist.com/culture/2026/04/17/in-the-ai-propaganda-war-iran-is-winning</link>
-      <description><![CDATA[文章网址：https://www.economist.com/culture/2026/04/17/in-the-ai-propaganda-war-iran-is-wining
-评论网址：https://news.ycombinator.com/item?id=47818324
+      <title>您喜欢的任何颜色：NIST 科学家创造“任何波长”激光器</title>
+      <link>https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits</link>
+      <description><![CDATA[文章网址：https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny- Circuits
+评论网址：https://news.ycombinator.com/item?id=47819453
 积分：2
-# 条评论：1]]></description>
-      <guid>https://www.economist.com/culture/2026/04/17/in-the-ai-propaganda-war-iran-is-winning</guid>
-      <pubDate>Sat, 18 Apr 2026 18:38:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>乌克兰战争机器人捕获的敌人</title>
-      <link>https://old.reddit.com/r/ukraine/comments/1skw0g4/zelenskyy_for_the_first_time_in_the_war_an_enemy/</link>
-      <description><![CDATA[文章网址：https://old.reddit.com/r/ukraine/comments/1skw0g4/zelenskyy_for_the_first_time_in_the_war_an_enemy/
-评论网址：https://news.ycombinator.com/item?id=47818316
-积分：1
 # 条评论：0]]></description>
-      <guid>https://old.reddit.com/r/ukraine/comments/1skw0g4/zelenskyy_for_the_first_time_in_the_war_an_enemy/</guid>
-      <pubDate>Sat, 18 Apr 2026 18:37:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>交易员在伊朗战争的完美时机下注了超过 10 亿美元</title>
-      <link>https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns
-评论网址：https://news.ycombinator.com/item?id=47818305
-积分：4
-# 条评论：0]]></description>
-      <guid>https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns</guid>
-      <pubDate>Sat, 18 Apr 2026 18:36:07 GMT</pubDate>
+      <guid>https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits</guid>
+      <pubDate>Sat, 18 Apr 2026 20:54:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
