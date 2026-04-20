@@ -4,109 +4,111 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 20 Apr 2026 10:48:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 13:29:42 GMT</lastBuildDate>
     <item>
-      <title>问 HN：克劳德是否降低了其使用限制？</title>
-      <link>https://news.ycombinator.com/item?id=47832448</link>
-      <description><![CDATA[在过去的几天里，我不断达到 Sonnet 4.6 的聊天限制，我认为达到限制的速度比一周前快了 5-10 倍。发生了什么？你也有这样的经历吗？
+      <title>集中度问题：为什么您的投资组合存在单点故障</title>
+      <link>https://helmterminal.dev/blog/portfolio-concentration-problem</link>
+      <description><![CDATA[文章网址：https://helmterminal.dev/blog/portfolio-concentration-problem
+评论网址：https://news.ycombinator.com/item?id=47833912
+积分：1
+# 条评论：0]]></description>
+      <guid>https://helmterminal.dev/blog/portfolio-concentration-problem</guid>
+      <pubDate>Mon, 20 Apr 2026 13:19:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>2000 万法国人的数据可能遭到泄露</title>
+      <link>https://entrevue.fr/en/police-justice/cyberattaque-contre-lants-les-donnees-de-20-millions-de-francais-potentiellement-compromises/</link>
+      <description><![CDATA[文章网址： https://entreprises.fr/en/police-justice/cyberattack-contre-lants-les-donnees-de-20-millions-de-francais-potielment-compromises/
+评论网址：https://news.ycombinator.com/item?id=47833905
+积分：1
+# 条评论：0]]></description>
+      <guid>https://entrevue.fr/en/police-justice/cyberattaque-contre-lants-les-donnees-de-20-millions-de-francais-potentiellement-compromises/</guid>
+      <pubDate>Mon, 20 Apr 2026 13:18:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple Cloudflare 远程应用程序 – 随时随地管理 Cloudflare</title>
+      <link>https://apps.apple.com/us/app/cloudflare-remote/id6743181258</link>
+      <description><![CDATA[文章网址：https://apps.apple.com/us/app/cloudflare-remote/id6743181258
+评论网址：https://news.ycombinator.com/item?id=47833884
+积分：1
+# 条评论：1]]></description>
+      <guid>https://apps.apple.com/us/app/cloudflare-remote/id6743181258</guid>
+      <pubDate>Mon, 20 Apr 2026 13:17:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：2026 年你最喜欢的 K8s 工具是什么？</title>
+      <link>https://news.ycombinator.com/item?id=47833882</link>
+      <description><![CDATA[自从 Nginx 入口控制器被弃用以来，我一直在寻找替代它的选项，并找到了 Cilium。在我的裸机集群上，它取代了 Nginx、MetalLB 和 Calico。我喜欢它，这是今年迄今为止我最喜欢的工具。
+我很想知道您今年发现了哪些新的 Kubernetes 工具/框架/插件/...您喜欢什么。我很乐意看看它们！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47832448
+评论网址：https://news.ycombinator.com/item?id=47833882
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47832448</guid>
-      <pubDate>Mon, 20 Apr 2026 10:39:38 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47833882</guid>
+      <pubDate>Mon, 20 Apr 2026 13:17:32 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：构建了一个 Chrome 扩展程序来帮助处理日常议程（Gmail 和 Outlook）</title>
-      <link>https://news.ycombinator.com/item?id=47832445</link>
-      <description><![CDATA[它从电子邮件、日历和任务中获取数据，并且所有内容都在您的浏览器中。它仅适用于 ActorDo，这是我为忙碌的专业人士构建的工作助手。
+      <title>Show HN：Libredesk – 自托管、单一二进制 Intercom/Zendesk 替代品</title>
+      <link>https://libredesk.io</link>
+      <description><![CDATA[Libredesk 是一个 100% 免费的开源帮助台，是 Zendesk/Intercom 的替代品。 Go 后端，Vue + shadcn/ui 前端。
+与许多将基本功能锁定在企业计划背后的“开放核心”替代方案不同，Libredesk 是完全开源的，并将始终保持这种状态。去年我在这里发布了 v0.1.0：https://news.ycombinator.com/item?id=43158166一年后，它是全渠道。除了电子邮件之外，您还可以将实时聊天小部件（测试版）放到您的网站上，并在同一座席 UI 中处理这两个渠道。聊天小部件、CSAT 页面和电子邮件模板都是可自定义的，并且自托管者可以将捆绑的 HTML/JS/CSS 资源替换为完整的白标签。说实话，如果您现在为帮助台支付按代理 SaaS 的价格，我真的认为 Libredesk 可以取代它。它涵盖了主流帮助台的大部分功能，并且每个版本都有更多内容。我很想听听什么会阻止您转换。我最初构建 Libredesk 是为了满足我们工作中的需要，我们使用 osticket，想要一些更干净的东西。
+这些天，我在晚上和周末一边做全职工作，一边在 Libredesk 上工作，因此问题的响应时间不是即时的，但我会阅读每一个问题。文档也有点落后于代码，但正在赶上。代理仪表板演示：https://demo.libredesk.io/实时聊天小部件演示：https://libredesk.io/（右下角）Github： https://github.com/abhinavxd/libredesk
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47832445
+评论网址：https://news.ycombinator.com/item?id=47833870
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47832445</guid>
-      <pubDate>Mon, 20 Apr 2026 10:38:54 GMT</pubDate>
+      <guid>https://libredesk.io</guid>
+      <pubDate>Mon, 20 Apr 2026 13:16:58 GMT</pubDate>
     </item>
     <item>
-      <title>未来的行业是由互相仇恨的人经营的</title>
-      <link>https://nymag.com/intelligencer/article/why-all-the-ai-leaders-hate-one-another.html</link>
-      <description><![CDATA[文章网址：https://nymag.com/intelligencer/article/why-all-the-ai-leaders-hate-one-another.html
-评论网址：https://news.ycombinator.com/item?id=47832437
+      <title>为什么输出代币的成本比输入代币高 5 倍？</title>
+      <link>https://www.anirudhsathiya.com/blog/transformer</link>
+      <description><![CDATA[文章网址：https://www.anirudhsathiya.com/blog/transformer
+评论网址：https://news.ycombinator.com/item?id=47833846
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.anirudhsathiya.com/blog/transformer</guid>
+      <pubDate>Mon, 20 Apr 2026 13:15:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>杂草的神经科学</title>
+      <link>https://psychedelirium.substack.com/p/the-neuroscience-of-weed</link>
+      <description><![CDATA[文章网址：https://psychedelirium.substack.com/p/the-neuroscience-of-weed
+评论网址：https://news.ycombinator.com/item?id=47833837
+积分：2
+# 条评论：0]]></description>
+      <guid>https://psychedelirium.substack.com/p/the-neuroscience-of-weed</guid>
+      <pubDate>Mon, 20 Apr 2026 13:14:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Mac 应用程序的 Apple 风格入门体验（开源）</title>
+      <link>https://github.com/rampatra/TourKit</link>
+      <description><![CDATA[文章网址：https://github.com/rampatra/TourKit
+评论网址：https://news.ycombinator.com/item?id=47833824
 积分：1
 # 条评论：0]]></description>
-      <guid>https://nymag.com/intelligencer/article/why-all-the-ai-leaders-hate-one-another.html</guid>
-      <pubDate>Mon, 20 Apr 2026 10:36:43 GMT</pubDate>
+      <guid>https://github.com/rampatra/TourKit</guid>
+      <pubDate>Mon, 20 Apr 2026 13:13:01 GMT</pubDate>
     </item>
     <item>
-      <title>监管机构监控 Anthropic 神话的银行风险</title>
-      <link>https://www.reuters.com/legal/government/regulators-monitor-anthropics-mythos-banking-risks-2026-04-20/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/legal/government/regulators-monitor-anthropics-mythos-banking-risks-2026-04-20/
-评论网址：https://news.ycombinator.com/item?id=47832398
-积分：4
-# 条评论：0]]></description>
-      <guid>https://www.reuters.com/legal/government/regulators-monitor-anthropics-mythos-banking-risks-2026-04-20/</guid>
-      <pubDate>Mon, 20 Apr 2026 10:30:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>您的“AI”拉取请求被拒绝，您不知道原因</title>
-      <link>https://blog.codepipes.com/llms/your-pr-was-rejected.html</link>
-      <description><![CDATA[文章网址：https://blog.codepipes.com/llms/your-pr-was-rejected.html
-评论网址：https://news.ycombinator.com/item?id=47832380
-积分：2
-# 条评论：0]]></description>
-      <guid>https://blog.codepipes.com/llms/your-pr-was-rejected.html</guid>
-      <pubDate>Mon, 20 Apr 2026 10:28:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Figma 的困境与 Claude Design 的结合</title>
-      <link>https://martinalderson.com/posts/figmas-woes-compound-with-claude-design/</link>
-      <description><![CDATA[文章网址：https://martinalderson.com/posts/figmas-woes-compound-with-claude-design/
-评论网址：https://news.ycombinator.com/item?id=47832366
-积分：2
-# 条评论：0]]></description>
-      <guid>https://martinalderson.com/posts/figmas-woes-compound-with-claude-design/</guid>
-      <pubDate>Mon, 20 Apr 2026 10:26:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>SerpApi克劳德代码技能</title>
-      <link>https://github.com/serpapi/serpapi-claude-plugin</link>
-      <description><![CDATA[文章网址：https://github.com/serpapi/serpapi-claude-plugin
-评论网址：https://news.ycombinator.com/item?id=47832363
-积分：3
-# 条评论：0]]></description>
-      <guid>https://github.com/serpapi/serpapi-claude-plugin</guid>
-      <pubDate>Mon, 20 Apr 2026 10:25:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>评估人工智能代理技能的拟议框架</title>
-      <link>https://tessl.io/blog/a-proposed-framework-for-evaluating-skills-research-eng-blog/</link>
-      <description><![CDATA[文章网址：https://tessl.io/blog/a-proposed-framework-for-evaluating-skills-research-eng-blog/
-评论网址：https://news.ycombinator.com/item?id=47832351
-积分：2
-# 条评论：0]]></description>
-      <guid>https://tessl.io/blog/a-proposed-framework-for-evaluating-skills-research-eng-blog/</guid>
-      <pubDate>Mon, 20 Apr 2026 10:24:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：如何在软件“工程”方面变得更好？</title>
-      <link>https://news.ycombinator.com/item?id=47832297</link>
-      <description><![CDATA[嘿，我有一个问题可能会与其他职业生涯早期的 SWE 产生共鸣。我如何在工作的“严肃”部分变得更好？我获得了计算机科学领域的数学硕士学位。名义上，我现在是一名数据科学家，但实际上，我是一名软件工程师。我对自己的编程能力充满信心。我编写干净的代码，设计优雅的抽象，测试一切等等。但我仍然觉得有一个更“严肃”的软件工程，我觉得无聊，而且我觉得我不擅长它：编写设计文档，正确跟踪决策，仔细规划，构建基础设施和决定昂贵的基础设施项目，各种合规性的东西。我的问题是：随着我越来越多地使用人工智能来帮助编程，我如何变得更好并在软件工程的更多管理任务中找到乐趣？信心只是来自经验吗？我能好得更快吗？或者这一切都毫无价值，我应该专注于代码？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47832297
-积分：2
-# 条评论：3]]></description>
-      <guid>https://news.ycombinator.com/item?id=47832297</guid>
-      <pubDate>Mon, 20 Apr 2026 10:13:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>震惊英国并改变法律的维多利亚时代性虐待丑闻</title>
-      <link>https://theconversation.com/the-victorian-sex-abuse-scandal-that-shocked-britain-and-changed-the-law-long-before-epstein-278822</link>
-      <description><![CDATA[文章网址： https://theconversation.com/the-victorian-sex-abuse-scandal-that-shocked-britain-and-changed-the-law-long-before-epstein-278822
-评论网址：https://news.ycombinator.com/item?id=47832287
+      <title>墨尔本项目将废旧网球变成鞋子</title>
+      <link>https://www.abc.net.au/news/2026-04-13/used-tennis-balls-recycled-shoe-soles/106544162</link>
+      <description><![CDATA[文章网址：https://www.abc.net.au/news/2026-04-13/used-tennis-balls-recycled-shoe-soles/106544162
+评论网址：https://news.ycombinator.com/item?id=47833817
 积分：1
 # 条评论：0]]></description>
-      <guid>https://theconversation.com/the-victorian-sex-abuse-scandal-that-shocked-britain-and-changed-the-law-long-before-epstein-278822</guid>
-      <pubDate>Mon, 20 Apr 2026 10:12:03 GMT</pubDate>
+      <guid>https://www.abc.net.au/news/2026-04-13/used-tennis-balls-recycled-shoe-soles/106544162</guid>
+      <pubDate>Mon, 20 Apr 2026 13:12:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>将混合搜索添加到您的应用程序（在图中）</title>
+      <link>https://amgix.io/blog/2026/04/07/adding-hybrid-search/</link>
+      <description><![CDATA[文章网址：https://amgix.io/blog/2026/04/07/adding-hybrid-search/
+评论网址：https://news.ycombinator.com/item?id=47833777
+积分：1
+# 条评论：0]]></description>
+      <guid>https://amgix.io/blog/2026/04/07/adding-hybrid-search/</guid>
+      <pubDate>Mon, 20 Apr 2026 13:10:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
