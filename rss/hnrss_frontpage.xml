@@ -4,44 +4,89 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 21 Apr 2026 10:18:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 13:27:01 GMT</lastBuildDate>
     <item>
-      <title>在多语言单一存储库中使用变更集</title>
-      <link>https://luke.hsiao.dev/blog/changesets-polyglot-monorepo/</link>
-      <description><![CDATA[文章网址：https://luke.hsiao.dev/blog/changesets-polyglot-monorepo/
-评论网址：https://news.ycombinator.com/item?id=47845274
-积分：11
-# 条评论：3]]></description>
-      <guid>https://luke.hsiao.dev/blog/changesets-polyglot-monorepo/</guid>
-      <pubDate>Tue, 21 Apr 2026 06:25:50 GMT</pubDate>
+      <title>显示 HN：天线 – 带有内置 MCP 服务器的 RSS 阅读器</title>
+      <link>https://antennafeed.com/</link>
+      <description><![CDATA[文章网址：https://antennafeed.com/
+评论网址：https://news.ycombinator.com/item?id=47848110
+积分：3
+# 条评论：0]]></description>
+      <guid>https://antennafeed.com/</guid>
+      <pubDate>Tue, 21 Apr 2026 12:53:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：VidStudio，一个基于浏览器的视频编辑器，不会上传您的文件</title>
+      <link>https://vidstudio.app/video-editor</link>
+      <description><![CDATA[嗨，HN，
+我构建了 VidStudio，一个在浏览器中运行的注重隐私的视频编辑器。我试图让它尽可能无摩擦，所以没有帐户，也没有上传。一切都坚持在你身上
+一些功能：多轨时间轴、帧精确搜索、MP4 导出、音频、视频、图像和文本轨道，以及支持 WebGL 的画布（如果可用）。它也适用于移动设备。在底层，WebCodecs 处理用于时间线播放和清理的帧解码，这就是搜索响应的原因，因为当浏览器支持解码时，解码在硬件解码器上运行。
+编译为 WebAssembly 的 FFmpeg 处理最终编码、格式转换以及 WebCodecs 未涵盖的任何内容。渲染通过 WebGL 画布上的 Pixi.js 进行，当 WebGL 运行时会使用软件回退
+不可用。项目位于 IndexedDB 中，繁重的工作在 Web Workers 中运行，因此 UI 在导出期间保持响应。很高兴回答有关保持整个管道客户端所涉及的权衡的技术问题。欢迎任何反馈。链接：https://vidstudio.app/video-editor
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47847558
+积分：44
+# 条评论：10]]></description>
+      <guid>https://vidstudio.app/video-editor</guid>
+      <pubDate>Tue, 21 Apr 2026 11:58:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>蒂姆·库克的时机无可挑剔</title>
+      <link>https://stratechery.com/2026/tim-cooks-impeccable-timing/</link>
+      <description><![CDATA[文章网址：https://stratechery.com/2026/tim-cooks-impeccable-timing/
+评论网址：https://news.ycombinator.com/item?id=47847324
+积分：17
+# 条评论：2]]></description>
+      <guid>https://stratechery.com/2026/tim-cooks-impeccable-timing/</guid>
+      <pubDate>Tue, 21 Apr 2026 11:30:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>软件工程定律</title>
+      <link>https://lawsofsoftwareengineering.com</link>
+      <description><![CDATA[文章网址：https://lawsofsoftwareengineering.com
+评论网址：https://news.ycombinator.com/item?id=47847179
+积分：171
+# 条评论：59]]></description>
+      <guid>https://lawsofsoftwareengineering.com</guid>
+      <pubDate>Tue, 21 Apr 2026 11:04:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple 忽略 DMA 互操作性请求并与自己的文档相矛盾</title>
+      <link>https://fsfe.org/news/2026/news-20260420-01.html</link>
+      <description><![CDATA[文章网址：https://fsfe.org/news/2026/news-20260420-01.html
+评论网址：https://news.ycombinator.com/item?id=47847124
+积分：94
+# 条评论：10]]></description>
+      <guid>https://fsfe.org/news/2026/news-20260420-01.html</guid>
+      <pubDate>Tue, 21 Apr 2026 10:57:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>CRDT 中的类型安全、实时协作图数据库</title>
+      <link>https://codemix.com/graph</link>
+      <description><![CDATA[文章网址：https://codemix.com/graph
+评论网址：https://news.ycombinator.com/item?id=47846946
+积分：47
+# 条评论：14]]></description>
+      <guid>https://codemix.com/graph</guid>
+      <pubDate>Tue, 21 Apr 2026 10:33:24 GMT</pubDate>
     </item>
     <item>
       <title>d100 的发明者 Louis Zocchi 去世</title>
       <link>https://icv2.com/articles/news/view/62176/r-i-p-louis-zocchi-the-godfather-dice</link>
       <description><![CDATA[文章网址：https://icv2.com/articles/news/view/62176/r-i-p-louis-zocchi-the-godfather-dice
 评论网址：https://news.ycombinator.com/item?id=47845231
-积分：51
-# 条评论：15]]></description>
+积分：82
+# 条评论：39]]></description>
       <guid>https://icv2.com/articles/news/view/62176/r-i-p-louis-zocchi-the-godfather-dice</guid>
       <pubDate>Tue, 21 Apr 2026 06:19:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>一项疯狂的事业：Aadam Jacobs 系列的不确定指南</title>
-      <link>https://aadamjacobscollection.org/</link>
-      <description><![CDATA[文章网址：https://aadamjacobscollection.org/
-评论网址：https://news.ycombinator.com/item?id=47845187
-积分：13
-# 条评论：1]]></description>
-      <guid>https://aadamjacobscollection.org/</guid>
-      <pubDate>Tue, 21 Apr 2026 06:12:41 GMT</pubDate>
     </item>
     <item>
       <title>类型和神经网络</title>
       <link>https://www.brunogavranovic.com/posts/2026-04-20-types-and-neural-networks.html</link>
       <description><![CDATA[文章网址：https://www.brunogavranovic.com/posts/2026-04-20-types-and-neural-networks.html
 评论网址：https://news.ycombinator.com/item?id=47845111
-积分：29
-# 条评论：4]]></description>
+积分：51
+评论数量：9]]></description>
       <guid>https://www.brunogavranovic.com/posts/2026-04-20-types-and-neural-networks.html</guid>
       <pubDate>Tue, 21 Apr 2026 05:59:53 GMT</pubDate>
     </item>
@@ -50,8 +95,8 @@
       <link>https://www.science.org/content/article/cocaine-pollution-gives-salmon-wanderlust</link>
       <description><![CDATA[文章网址：https://www.science.org/content/article/cocaine-pollution-gives-salmon-wanderlust
 评论网址：https://news.ycombinator.com/item?id=47844890
-积分：30
-# 条评论：11]]></description>
+积分：65
+# 条评论：38]]></description>
       <guid>https://www.science.org/content/article/cocaine-pollution-gives-salmon-wanderlust</guid>
       <pubDate>Tue, 21 Apr 2026 05:27:35 GMT</pubDate>
     </item>
@@ -60,50 +105,10 @@
       <link>https://longwoodgardens.org/blog/2023-05-17/beauty-bonsai-styles</link>
       <description><![CDATA[文章网址：https://longwoodgardens.org/blog/2023-05-17/beauty-bonsai-styles
 评论网址：https://news.ycombinator.com/item?id=47844539
-积分：81
-# 条评论：17]]></description>
+积分：124
+# 条评论：23]]></description>
       <guid>https://longwoodgardens.org/blog/2023-05-17/beauty-bonsai-styles</guid>
       <pubDate>Tue, 21 Apr 2026 04:31:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Roblox 作弊和一款 AI 工具导致 Vercel 平台瘫痪</title>
-      <link>https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform</link>
-      <description><![CDATA[文章网址：https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform
-评论网址：https://news.ycombinator.com/item?id=47844431
-积分：160
-# 条评论：75]]></description>
-      <guid>https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform</guid>
-      <pubDate>Tue, 21 Apr 2026 04:12:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anthropic 表示再次允许使用 OpenClaw 风格的 Claude CLI</title>
-      <link>https://docs.openclaw.ai/providers/anthropic</link>
-      <description><![CDATA[文章网址：https://docs.openclaw.ai/providers/anthropic
-评论网址：https://news.ycombinator.com/item?id=47844269
-积分：194
-# 条评论：120]]></description>
-      <guid>https://docs.openclaw.ai/providers/anthropic</guid>
-      <pubDate>Tue, 21 Apr 2026 03:43:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何制作一个快速的动态语言解释器</title>
-      <link>https://zef-lang.dev/implementation</link>
-      <description><![CDATA[文章网址：https://zef-lang.dev/implementation
-评论网址：https://news.ycombinator.com/item?id=47843194
-积分：173
-# 条评论：25]]></description>
-      <guid>https://zef-lang.dev/implementation</guid>
-      <pubDate>Tue, 21 Apr 2026 00:48:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>门罗币社区众筹系统</title>
-      <link>https://ccs.getmonero.org/ideas/</link>
-      <description><![CDATA[文章网址：https://ccs.getmonero.org/ideas/
-评论网址：https://news.ycombinator.com/item?id=47841149
-积分：105
-# 条评论：63]]></description>
-      <guid>https://ccs.getmonero.org/ideas/</guid>
-      <pubDate>Mon, 20 Apr 2026 21:33:15 GMT</pubDate>
     </item>
     </channel>
 </rss>

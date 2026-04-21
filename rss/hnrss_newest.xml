@@ -4,109 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 21 Apr 2026 10:18:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 13:27:17 GMT</lastBuildDate>
     <item>
-      <title>Show HN：BamBuddy – Bambu Lab 3D 打印机的自托管打印档案</title>
-      <link>https://bambuddy.cool/</link>
-      <description><![CDATA[显示 HN：BamBuddy – Bambu Lab 3D 打印机的自托管打印存档Bambu 制造出色的硬件，但您的数据存储在他们的云中，无法导出。打印完成后，从任何有用的记录保存角度来看，这项工作基本上就消失了。BamBuddy 通过在您自己的机器上运行并利用打印机的本地 MQTT 接口来解决这个问题 - 因此它可以捕获发生的一切：缩略图、耗材使用情况、计时、切片器设置。您最终会得到一个完全可搜索的打印历史记录档案，它完全属于您，可以离线工作，并且永远不会接触 Bambu 的服务器。问题是：他们的本地 API 没有记录，因此很多早期工作都是对协议进行逆向工程。由于固件更新偶尔会出现问题，这种情况仍在继续。Stack：TypeScript，自托管，约 1000 颗星，活跃的贡献者社区。GitHub：https://github.com/maziggy/bambuddy
-网站：https://bambuddy.cool 论坛/聊天：https://forum.bambuddy.cool 文档：https://wiki.bambuddy.cool
+      <title>频谱协议</title>
+      <link>https://github.com/Ashioya-ui/Spectrum-Protocol-</link>
+      <description><![CDATA[文章网址：https://github.com/Ashioya-ui/Spectrum-Protocol-
+评论网址：https://news.ycombinator.com/item?id=47848451
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/Ashioya-ui/Spectrum-Protocol-</guid>
+      <pubDate>Tue, 21 Apr 2026 13:22:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>速度税</title>
+      <link>https://www.mahdiyusuf.com/the-speed-tax/</link>
+      <description><![CDATA[文章网址：https://www.mahdiyusuf.com/the-speed-tax/
+评论网址：https://news.ycombinator.com/item?id=47848447
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.mahdiyusuf.com/the-speed-tax/</guid>
+      <pubDate>Tue, 21 Apr 2026 13:21:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Isola – Kubernetes 上的开源沙箱</title>
+      <link>https://github.com/isola-run/isola</link>
+      <description><![CDATA[您好，HN，我很高兴与您分享我在过去 6 个月左右的时间里一直在研究的东西。Isola 是一个开源沙箱平台，用于使用 gVisor 在您自己的 Kubernetes 集群中运行不受信任的代码。我花了相当多的迭代才得到正确的 API。一些设计选择：* REST 和流 API（在顶部构建 SDK）- 执行命令、传输文件等* 灵活的网络策略，专为不受信任的工作负载量身定制* 操作简单性：一次 Helm 安装，无需外部数据库/Redis/队列等我喜欢的一个功能示例是能够对根文件系统进行快照，将其存储在某个存储桶中以供以后恢复（通过每个集群节点上的 NFS 公开快照）。对于初始化一次沙箱并多次重复使用，或在交互之间进行检查点很有用。它致力于为您提供一个强大的开发平台，同时利用现有的可观察性工具、云资源和集群内延迟将数据保留在网络中。很高兴了解您的想法、回答问题或更多地讨论 Isola 的设计和实现。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47846827
+评论网址：https://news.ycombinator.com/item?id=47848439
 积分：1
 # 条评论：0]]></description>
-      <guid>https://bambuddy.cool/</guid>
-      <pubDate>Tue, 21 Apr 2026 10:14:27 GMT</pubDate>
+      <guid>https://github.com/isola-run/isola</guid>
+      <pubDate>Tue, 21 Apr 2026 13:21:02 GMT</pubDate>
     </item>
     <item>
-      <title>特斯拉 (TSLA) 2026 年第一季度收益预览：增长故事已死</title>
-      <link>https://electrek.co/2026/04/21/tesla-tsla-q1-2026-earnings-preview-wall-street-expects-growth/</link>
-      <description><![CDATA[文章网址： https://electrek.co/2026/04/21/tesla-tsla-q1-2026-earnings-preview-wall-street-expects-growth/
-评论网址：https://news.ycombinator.com/item?id=47846823
+      <title>通过 Hilbert-Pólya 谱定律的超快速 1024 位素数生成器</title>
+      <link>https://github.com/model-vpr/ultrafast-spectral-primes</link>
+      <description><![CDATA[文章网址：https://github.com/model-vpr/ultrafast-spectral-primes
+评论网址：https://news.ycombinator.com/item?id=47848431
 积分：1
 # 条评论：0]]></description>
-      <guid>https://electrek.co/2026/04/21/tesla-tsla-q1-2026-earnings-preview-wall-street-expects-growth/</guid>
-      <pubDate>Tue, 21 Apr 2026 10:14:16 GMT</pubDate>
+      <guid>https://github.com/model-vpr/ultrafast-spectral-primes</guid>
+      <pubDate>Tue, 21 Apr 2026 13:20:39 GMT</pubDate>
     </item>
     <item>
-      <title>AI Slop 和软件共享</title>
-      <link>https://arxiv.org/abs/2604.16754</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2604.16754
-评论网址：https://news.ycombinator.com/item?id=47846811
-积分：1
-# 条评论：1]]></description>
-      <guid>https://arxiv.org/abs/2604.16754</guid>
-      <pubDate>Tue, 21 Apr 2026 10:11:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gbench 智能基准</title>
-      <link>https://gertlabs.com/?mode=oneshot_coding</link>
-      <description><![CDATA[文章网址：https://gertlabs.com/?mode=oneshot_coding
-评论网址：https://news.ycombinator.com/item?id=47846785
+      <title>80 年代末和 90 年代初的 MS-DOS TUI</title>
+      <link>https://twitter.com/hey_zilla/status/2046234255244591486</link>
+      <description><![CDATA[文章网址：https://twitter.com/hey_zilla/status/2046234255244591486
+评论网址：https://news.ycombinator.com/item?id=47848429
 积分：1
 # 条评论：0]]></description>
-      <guid>https://gertlabs.com/?mode=oneshot_coding</guid>
-      <pubDate>Tue, 21 Apr 2026 10:05:54 GMT</pubDate>
+      <guid>https://twitter.com/hey_zilla/status/2046234255244591486</guid>
+      <pubDate>Tue, 21 Apr 2026 13:20:34 GMT</pubDate>
     </item>
     <item>
-      <title>等待 PostgreSQL 19 – 添加 pg_plan_advice contrib 模块</title>
-      <link>https://www.depesz.com/2026/03/22/waiting-for-postgresql-19-add-pg_plan_advice-contrib-module/</link>
-      <description><![CDATA[文章网址：https://www.depesz.com/2026/03/22/waiting-for-postgresql-19-add-pg_plan_advice-contrib-module/
-评论网址：https://news.ycombinator.com/item?id=47846763
+      <title>他们打造了一个传奇的隐私工具。现在他们是不共戴天的敌人</title>
+      <link>https://www.wired.com/story/they-built-privacy-tool-grapheneos-now-sworn-enemies/</link>
+      <description><![CDATA[文章网址：https://www.wired.com/story/they-built-privacy-tool-grapheneos-now-sworn-enemies/
+评论网址：https://news.ycombinator.com/item?id=47848423
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.wired.com/story/they-built-privacy-tool-grapheneos-now-sworn-enemies/</guid>
+      <pubDate>Tue, 21 Apr 2026 13:19:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年如何学习编程</title>
+      <link>https://blog.alcazarsec.com/tech/posts/how-to-learn-programming-2026</link>
+      <description><![CDATA[文章网址：https://blog.alcazarsec.com/tech/posts/how-to-learn-programming-2026
+评论网址：https://news.ycombinator.com/item?id=47848421
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.alcazarsec.com/tech/posts/how-to-learn-programming-2026</guid>
+      <pubDate>Tue, 21 Apr 2026 13:19:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>特朗普考虑救助其家族的主要商业伙伴</title>
+      <link>https://newrepublic.com/post/209273/trump-considers-bailing-out-uae</link>
+      <description><![CDATA[文章网址：https://newrepublic.com/post/209273/trump-considers-bailing-out-uae
+评论网址：https://news.ycombinator.com/item?id=47848413
+积分：1
+# 条评论：0]]></description>
+      <guid>https://newrepublic.com/post/209273/trump-considers-bailing-out-uae</guid>
+      <pubDate>Tue, 21 Apr 2026 13:18:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>十年后为何选择 Crystal：性能与欢乐</title>
+      <link>https://serdardogruyol.com/why-crystal-10-years-later-performance-and-joy</link>
+      <description><![CDATA[文章网址：https://serdardogruyol.com/why-crystal-10-years-later-performance-and-joy
+评论网址：https://news.ycombinator.com/item?id=47848412
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.depesz.com/2026/03/22/waiting-for-postgresql-19-add-pg_plan_advice-contrib-module/</guid>
-      <pubDate>Tue, 21 Apr 2026 10:03:24 GMT</pubDate>
+      <guid>https://serdardogruyol.com/why-crystal-10-years-later-performance-and-joy</guid>
+      <pubDate>Tue, 21 Apr 2026 13:18:09 GMT</pubDate>
     </item>
     <item>
-      <title>亚马逊将向 Anthropic 投资高达 25B 美元，作为 100B 美元云交易的一部分</title>
-      <link>https://www.channelnewsasia.com/business/amazon-invest-up-25-billion-in-anthropic-part-100-billion-cloud-deal-6069221</link>
-      <description><![CDATA[文章网址： https://www.channelnewsasia.com/business/amazon-invest-up-25-billion-in-anthropic-part-100-billion-cloud-deal-6069221
-评论网址：https://news.ycombinator.com/item?id=47846751
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.channelnewsasia.com/business/amazon-invest-up-25-billion-in-anthropic-part-100-billion-cloud-deal-6069221</guid>
-      <pubDate>Tue, 21 Apr 2026 10:01:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>真实的生活黑客：什么物理“生命力”转动着生物学的车轮？</title>
-      <link>https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420/</link>
-      <description><![CDATA[文章网址：https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420/
-评论网址：https://news.ycombinator.com/item?id=47846718
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420/</guid>
-      <pubDate>Tue, 21 Apr 2026 09:55:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：一个面板包含您所有项目的任务</title>
-      <link>https://kanban.wtf</link>
-      <description><![CDATA[嗨！我目前正在构建一些应用程序，令我困扰的一件事是我开始失去想法。我尝试用 Linear 编写它们，但它就是不适合我。因此我创建了一个应用程序来为我解决两件事。首先，它为所有项目提供一个委员会。其次，它很简单。如果您一次处理几个项目，一块板非常有用，我认为这就是现在的新现实。我每天要多次从一个项目跳转到另一个项目，因此不必在任务管理器中的选项卡或面板之间跳转是一个巨大的优势。让我知道您的想法！
+      <title>Show HN：将任何网页变成游戏</title>
+      <link>https://news.ycombinator.com/item?id=47848409</link>
+      <description><![CDATA[您好，HN，我构建了一个可以将您正在访问的任何网页变成交互式街机的东西：https://playanypage.com/这是一个完全围绕书签和 DOM 操作构建的有趣的小项目。受到经典的 Kick Ass 应用程序的启发，我喜欢在任何网站上玩的想法，因此我决定更进一步，在单个书签内构建一个完整的街机。您只需将其拖到书签中，在任何网站上单击它，它就会立即在 DOM 顶部播放。Brickout：将页面上的每个文本块和元素变成可以粉碎的砖块。还制作了 Snake、Space Invaders、打地鼠，还有一辆混乱的寻呼出租车在你的屏幕上行驶。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47846710
+评论网址：https://news.ycombinator.com/item?id=47848409
 积分：2
 # 条评论：0]]></description>
-      <guid>https://kanban.wtf</guid>
-      <pubDate>Tue, 21 Apr 2026 09:54:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：通过倾斜、摇动和微笑手机来学习语言</title>
-      <link>https://sensonym.com</link>
-      <description><![CDATA[文章网址：https://sensonym.com
-评论网址：https://news.ycombinator.com/item?id=47846707
-积分：2
-# 条评论：1]]></description>
-      <guid>https://sensonym.com</guid>
-      <pubDate>Tue, 21 Apr 2026 09:54:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>化石燃料</title>
-      <link>https://ourworldindata.org/fossil-fuels</link>
-      <description><![CDATA[文章网址：https://ourworldindata.org/fossil-fuels
-评论网址：https://news.ycombinator.com/item?id=47846704
-积分：1
-# 条评论：0]]></description>
-      <guid>https://ourworldindata.org/fossil-fuels</guid>
-      <pubDate>Tue, 21 Apr 2026 09:53:47 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=47848409</guid>
+      <pubDate>Tue, 21 Apr 2026 13:17:54 GMT</pubDate>
     </item>
     </channel>
 </rss>
