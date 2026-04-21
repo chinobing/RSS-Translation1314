@@ -4,116 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 21 Apr 2026 19:12:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 21:45:24 GMT</lastBuildDate>
     <item>
-      <title>PSA Crypto：P 代表便携性</title>
-      <link>https://danielmangum.com/posts/psa-crypto-portability/</link>
-      <description><![CDATA[文章网址：https://danielmangum.com/posts/psa-crypto-portability/
-评论网址：https://news.ycombinator.com/item?id=47853056
+      <title>Parrot 是一个使用 CUDA/Thrust 进行融合数组操作的 C++ 库</title>
+      <link>https://github.com/NVlabs/parrot</link>
+      <description><![CDATA[文章网址：https://github.com/NVlabs/parrot
+评论网址：https://news.ycombinator.com/item?id=47854887
 积分：1
 # 条评论：0]]></description>
-      <guid>https://danielmangum.com/posts/psa-crypto-portability/</guid>
-      <pubDate>Tue, 21 Apr 2026 19:05:25 GMT</pubDate>
+      <guid>https://github.com/NVlabs/parrot</guid>
+      <pubDate>Tue, 21 Apr 2026 21:41:45 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我创建了一个开源自动缩放 AI 浏览器代理</title>
-      <link>https://news.ycombinator.com/item?id=47853036</link>
-      <description><![CDATA[嘿 HN，我正在通过自然语言和 API 调用开发浏览器自动化系统。现在您可能会问？这与现有的 Vercel 浏览器、浏览器使用、舞台手等有何不同。等等？没有，没有为您处理扩展和身份/代理管理，您必须使用云服务，当然没有一个是用 RUST 编写的（有史以来最好的 PL）。这对于出于隐私/成本原因而希望将其系统的这部分保留在内部的公司非常有用。Rusty-Browser 可以。您只需插入您的服务帐户/AMI 密钥（当前支持 GCP、AWS）并在不到30 秒后您就完成了设置。现在您的限制是您的帐户可以生成多少服务器。注意到我说的是帐户，它与云无关，可以在多个云帐户上运行。无论出于什么目的，您都需要 2000 个浏览器同时运行，网络机器人、交易机器人、网络抓取等。 RustyBrowser 有你。
-最美妙的部分是它可以根据您的需求进行缩小和升级。一旦你完成了。自动缩放至您设置的最小服务器数量。旁白：1.它还支持本地使用
-2.我们不会将原始html转储到LLM中，这是一种浪费，我们利用网页的可视化树来告诉LLM要做什么，并且为了节省令牌，我们在该树上使用差异更改，以便它确切地知道所做的更改而不是重新转储。
-3. 还支持屏幕截图，但我们更喜欢将其用于任务评估器而不是教师。
-4. 我们有目的地对其进行设计，以便与 gpt-5.4-nano 等更便宜、更快的模型配合使用，该模型在根据我们的测试填写复杂表单方面表现出色。它位于：https://github.com/dashn9/rusty-browser受 Rusty 启发的其他项目有：（无服务器管理和部署）[Flux： https://github.com/dashn9/serverless-flux ]
-（浏览器自动化、BiDi 和 CDP）[Rustenium：https://github.com/dashn9/rustenium ]我花了三个多月的时间来构建这些精彩的项目。如果您认为该存储库有一定价值，请为该存储库加注星标，这将鼓励我认真对待它并进行更多工作。
-感谢所有的贡献和支持。谢谢大家！！！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47853036
+      <title>美国在与伊朗的战争中失去了什么</title>
+      <link>https://www.americanprogress.org/article/what-america-has-lost-in-the-war-with-iran/</link>
+      <description><![CDATA[文章网址：https://www.americanprogress.org/article/what-america-has-lost-in-the-war-with-iran/
+评论网址：https://news.ycombinator.com/item?id=47854884
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47853036</guid>
-      <pubDate>Tue, 21 Apr 2026 19:03:35 GMT</pubDate>
+      <guid>https://www.americanprogress.org/article/what-america-has-lost-in-the-war-with-iran/</guid>
+      <pubDate>Tue, 21 Apr 2026 21:41:31 GMT</pubDate>
     </item>
     <item>
-      <title>使用 Torvalds Git 的第一个和最后一个版本</title>
-      <link>https://lucasoshiro.github.io/posts-en/2025-12-12-using-torvalds-git/</link>
-      <description><![CDATA[文章网址：https://lucasoshiro.github.io/posts-en/2025-12-12-using-torvalds-git/
-评论网址：https://news.ycombinator.com/item?id=47853030
+      <title>可能是我见过的最具好莱坞风格的发布视频</title>
+      <link>https://twitter.com/photon_hq/status/2046656633749860430</link>
+      <description><![CDATA[文章网址：https://twitter.com/photon_hq/status/2046656633749860430
+评论网址：https://news.ycombinator.com/item?id=47854877
 积分：1
 # 条评论：0]]></description>
-      <guid>https://lucasoshiro.github.io/posts-en/2025-12-12-using-torvalds-git/</guid>
-      <pubDate>Tue, 21 Apr 2026 19:02:56 GMT</pubDate>
+      <guid>https://twitter.com/photon_hq/status/2046656633749860430</guid>
+      <pubDate>Tue, 21 Apr 2026 21:40:43 GMT</pubDate>
     </item>
     <item>
-      <title>硬件安全机制的分类</title>
-      <link>https://danielmangum.com/posts/taxonomy-hardware-security-mechanisms/</link>
-      <description><![CDATA[文章网址：https://danielmangum.com/posts/taxonomy-hardware-security-mechanisms/
-评论网址：https://news.ycombinator.com/item?id=47853029
+      <title>陶哲轩：论部分进步的重要性 (2012)</title>
+      <link>https://terrytao.wordpress.com/career-advice/on-the-importance-of-partial-progress/</link>
+      <description><![CDATA[文章网址：https://terrytao.wordpress.com/career-advice/on-the-importance-of-partial-progress/
+评论网址：https://news.ycombinator.com/item?id=47854869
 积分：1
 # 条评论：0]]></description>
-      <guid>https://danielmangum.com/posts/taxonomy-hardware-security-mechanisms/</guid>
-      <pubDate>Tue, 21 Apr 2026 19:02:50 GMT</pubDate>
+      <guid>https://terrytao.wordpress.com/career-advice/on-the-importance-of-partial-progress/</guid>
+      <pubDate>Tue, 21 Apr 2026 21:40:16 GMT</pubDate>
     </item>
     <item>
-      <title>大反转：下一个十年属于约束工程师</title>
-      <link>https://engineeredinsight.substack.com/p/the-great-inversion-the-next-decade</link>
-      <description><![CDATA[文章网址：https://engineeredinsight.substack.com/p/the-great-inversion-the-next-decade
-评论网址：https://news.ycombinator.com/item?id=47853022
+      <title>TSRX – 声明式 UI 的 TypeScript 语言扩展</title>
+      <link>https://tsrx.dev/</link>
+      <description><![CDATA[文章网址：https://tsrx.dev/
+评论网址：https://news.ycombinator.com/item?id=47854857
+积分：1
+# 条评论：0]]></description>
+      <guid>https://tsrx.dev/</guid>
+      <pubDate>Tue, 21 Apr 2026 21:39:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>MCPorter – 从 TypeScript 或作为 CLI 调用 MCP</title>
+      <link>https://github.com/steipete/mcporter</link>
+      <description><![CDATA[文章网址：https://github.com/steipete/mcporter
+评论网址：https://news.ycombinator.com/item?id=47854753
 积分：1
 # 条评论：1]]></description>
-      <guid>https://engineeredinsight.substack.com/p/the-great-inversion-the-next-decade</guid>
-      <pubDate>Tue, 21 Apr 2026 19:02:32 GMT</pubDate>
+      <guid>https://github.com/steipete/mcporter</guid>
+      <pubDate>Tue, 21 Apr 2026 21:30:08 GMT</pubDate>
     </item>
     <item>
-      <title>Anthropic 在没有警告的情况下禁止组织</title>
-      <link>https://news.ycombinator.com/item?id=47853021</link>
-      <description><![CDATA[我在一家农业技术公司工作。周一，我们组织中的每个人醒来都收到电子邮件，说他们的 Claude 帐户已被暂停（约 70 个用户）。起初，由于这封电子邮件是发给我的，如果我个人想上诉，其中包含指向 Google 表单的链接，我认为这一定是一项个性化禁令（至少在确定这不是网络钓鱼尝试之后）。我不明白为什么，但这让我在我最近的活动中寻找可能的触发因素。不过，在 Slack 上，很快就发现这实际上是一个组织范围的禁令。我们没有人收到警告，包括我们的帐户管理员。我们提交了谷歌表单，但这只是一个黑洞。我们仍在等待一天半后的回复。但出于多种原因，这很疯狂：1。因个人行为而禁止某个组织可能会导致商业环境中的灾难。心怀不满的员工、无能的实习生——任何人都可能恶意或意外地撤销克劳德对整个企业的访问权限。2.我们不仅有 Claude Team 计划，还有一个 API 帐户，该帐户单独付费，但拥有相同的管理员。 API 帐户继续允许我们使用 API 密钥，并于昨天向我们发送了续订账单（在团队帐户暂停后）。但我们的管理员实际上都无法查看使用情况或账单，因为我们的电子邮件地址被禁止。3.在没有警告的情况下禁止，会让每一个举动都变得危险。是因为我们谈论了肥料吗？ GPS卫星？其他与农业相关的事情？我们无法知道，也无法避免。我们通过多种渠道联系了 Anthropic，但只收到了无线电静默。 Twitter 上有一个关于类似问题的帖子 (https://x.com/patomolina/status/2045281665363386504)，我们尝试私聊那位插话的 Anthropic 员工。也没有任何反应。
-我确信，如果我们等待足够长的时间，我们会在这里找到某种形式的解决方案，但你必须问自己，这是否是一个你可以将日常工作流程托付给企业的平台。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47853021
+      <title>Windows 版 WireGuard 发布 v1.0</title>
+      <link>https://lists.zx2c4.com/pipermail/wireguard/2026-April/009580.html</link>
+      <description><![CDATA[文章网址：https://lists.zx2c4.com/pipermail/wireguard/2026-April/009580.html
+评论网址：https://news.ycombinator.com/item?id=47854710
 积分：2
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=47853021</guid>
-      <pubDate>Tue, 21 Apr 2026 19:02:31 GMT</pubDate>
+      <guid>https://lists.zx2c4.com/pipermail/wireguard/2026-April/009580.html</guid>
+      <pubDate>Tue, 21 Apr 2026 21:26:25 GMT</pubDate>
     </item>
     <item>
-      <title>Stevan Apter (nsl.com) 谈《Array Cast》(2022)</title>
-      <link>https://www.arraycast.com/2022/04/30/Stevan-Apter.html</link>
-      <description><![CDATA[文章网址：https://www.arraycast.com/2022/04/30/Stevan-Apter.html
-评论网址：https://news.ycombinator.com/item?id=47853017
+      <title>为什么 WooCommerce 需要人工智能商店经理，而不是另一个聊天机器人？</title>
+      <link>https://heysarva.com</link>
+      <description><![CDATA[文章网址：https://heysarva.com
+评论网址：https://news.ycombinator.com/item?id=47854695
+积分：1
+# 条评论：1]]></description>
+      <guid>https://heysarva.com</guid>
+      <pubDate>Tue, 21 Apr 2026 21:25:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>加拿大人在匹配的 BTC 卡路线上支付的费用是波兰人的 3.5 倍以上</title>
+      <link>https://augea.io/reports/retail-crypto-cost-benchmark-2026-q2</link>
+      <description><![CDATA[文章网址：https://augea.io/reports/retail-crypto-cost-benchmark-2026-q2
+评论网址：https://news.ycombinator.com/item?id=47854679
+积分：2
+# 条评论：0]]></description>
+      <guid>https://augea.io/reports/retail-crypto-cost-benchmark-2026-q2</guid>
+      <pubDate>Tue, 21 Apr 2026 21:24:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fontspots：Eurostile</title>
+      <link>https://typesetinthefuture.com/2014/11/29/fontspots-eurostile/</link>
+      <description><![CDATA[文章网址：https://typesetinthefuture.com/2014/11/29/fontspots-eurostile/
+评论网址：https://news.ycombinator.com/item?id=47854661
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.arraycast.com/2022/04/30/Stevan-Apter.html</guid>
-      <pubDate>Tue, 21 Apr 2026 19:02:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：DataFrey – 带文本到 SQL 代理的 Snowflake 的 MCP 服务器</title>
-      <link>https://docs.datafrey.ai</link>
-      <description><![CDATA[我是一名数据科学家，我发现很难使用 Claude Code for SQL - 它没有数据库上下文。所以我又做了一个数据库MCP服务器！目前仅支持 Snowflake。在阅读本机 Snowflake MCP 设置文档后，我必须重新与大自然建立联系，因此对于我的服务器，我制作了一个很好的 CLI 向导来设置数据库连接并安装 Claude Code 插件：MCP + 技能 - 您可以像“/db write dbt model torankleading”这样询问它。它还有一个用于复杂问题的“plan”工具。当您提出一个模糊的问题时，它会触发一个单独的文本到 SQL 代理，该代理使用 1.（有点）RAG 作为您的架构（以及一些值），该架构在数据库连接期间构建（如果您同意）2. 子代理来探索您的数据。 3.规划。这就是 Snowflake Cortex 应该做的事情，但是当我尝试它时，它永远找不到正确的表。Database-as-MCP 听起来像是一场安全噩梦，但我付出了很多努力来使其更安全。我很感激有关安全设计的任何想法。默认情况下，CLI 要求对所有模式的选择权限，而不仅仅是 information_schema。我坚信，如果不深入研究数据，就不可能编写出好的 SQL。也许这是一个热门话题 - 分享您的想法！一切都是免费的，由我托管，但有速率限制。将来，我想对超出限制的计划通话收取费用。我对如何制作更智能的文本到 SQL 有很多想法，所以我想将这部分保持为闭源。不过，我会开源更多 - 它现在只是作为一个整体部署。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47853007
-积分：1
-# 条评论：0]]></description>
-      <guid>https://docs.datafrey.ai</guid>
-      <pubDate>Tue, 21 Apr 2026 19:01:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT 图像 2.0</title>
-      <link>https://openai.com/index/introducing-chatgpt-images-2-0/</link>
-      <description><![CDATA[文章网址：https://openai.com/index/introducing-chatgpt-images-2-0/
-评论网址：https://news.ycombinator.com/item?id=47853000
-积分：10
-# 条评论：0]]></description>
-      <guid>https://openai.com/index/introducing-chatgpt-images-2-0/</guid>
-      <pubDate>Tue, 21 Apr 2026 19:01:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>对人工智能相关技能的需求不断增长，老年工人正在发挥作用</title>
-      <link>https://www.rnz.co.nz/news/business/593019/demand-for-ai-related-skills-has-grown-and-older-workers-are-acing-the-pivot</link>
-      <description><![CDATA[文章网址： https://www.rnz.co.nz/news/business/593019/demand-for-ai-lated-skills-has-grown-and-older-workers-are-acing-the-pivot
-评论网址：https://news.ycombinator.com/item?id=47852999
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.rnz.co.nz/news/business/593019/demand-for-ai-related-skills-has-grown-and-older-workers-are-acing-the-pivot</guid>
-      <pubDate>Tue, 21 Apr 2026 19:00:59 GMT</pubDate>
+      <guid>https://typesetinthefuture.com/2014/11/29/fontspots-eurostile/</guid>
+      <pubDate>Tue, 21 Apr 2026 21:23:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
