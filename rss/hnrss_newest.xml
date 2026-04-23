@@ -4,107 +4,116 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 22 Apr 2026 21:52:18 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 02:38:32 GMT</lastBuildDate>
     <item>
-      <title>Show HN：具有黑曜石风格内联实时预览的 Markdown 编辑器</title>
-      <link>https://kenforthewin.github.io/atomic-editor/</link>
-      <description><![CDATA[文章网址：https://kenforthewin.github.io/atomic-editor/
-评论网址：https://news.ycombinator.com/item?id=47869662
-积分：1
-# 条评论：0]]></description>
-      <guid>https://kenforthewin.github.io/atomic-editor/</guid>
-      <pubDate>Wed, 22 Apr 2026 21:43:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Webhound，我们考虑真相、验证和“首次信任时间”</title>
-      <link>https://www.webhound.ai/news/time-to-first-trust</link>
-      <description><![CDATA[文章网址：https://www.webhound.ai/news/time-to-first-trust
-评论网址：https://news.ycombinator.com/item?id=47869641
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.webhound.ai/news/time-to-first-trust</guid>
-      <pubDate>Wed, 22 Apr 2026 21:41:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>ICE 在移民任命中拘留美国陆军士兵的妻子</title>
-      <link>https://www.bbc.com/news/articles/c8r460gj7eko</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c8r460gj7eko
-评论网址：https://news.ycombinator.com/item?id=47869605
-积分：4
-# 条评论：0]]></description>
-      <guid>https://www.bbc.com/news/articles/c8r460gj7eko</guid>
-      <pubDate>Wed, 22 Apr 2026 21:37:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>F-35 无人机被视为美国海军陆战队第六代战斗机的门户</title>
-      <link>https://www.twz.com/air/f-35s-quarterbacking-drones-seen-as-gateway-to-usmcs-6th-gen-fighter</link>
-      <description><![CDATA[文章网址：https://www.twz.com/air/f-35s-quarterbacking-drones-seen-as-gateway-to-usmcs-6th-gen-fighter
-评论网址：https://news.ycombinator.com/item?id=47869584
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.twz.com/air/f-35s-quarterbacking-drones-seen-as-gateway-to-usmcs-6th-gen-fighter</guid>
-      <pubDate>Wed, 22 Apr 2026 21:36:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Grasshopper：高级选项卡管理器</title>
-      <link>https://addons.mozilla.org/en-US/firefox/addon/grasshopper-urls/</link>
-      <description><![CDATA[文章网址：https://addons.mozilla.org/en-US/firefox/addon/grasshopper-urls/
-评论网址：https://news.ycombinator.com/item?id=47869551
-积分：1
-# 条评论：0]]></description>
-      <guid>https://addons.mozilla.org/en-US/firefox/addon/grasshopper-urls/</guid>
-      <pubDate>Wed, 22 Apr 2026 21:31:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Qualtrics 调查许可成本</title>
-      <link>https://news.ycombinator.com/item?id=47869532</link>
-      <description><![CDATA[Qualtrics 是否有经济高效的替代方案？他们的定价感觉很难证明合理。有没有人找到类似的工具，或者是否有空间构建更简单、成本更低的替代方案？
+      <title>Show HN：MemReader：从被动到主动提取长期代理内存</title>
+      <link>https://arxiv.org/abs/2604.07877</link>
+      <description><![CDATA[长期记忆对于个性化和自主代理来说是基础，但填充它仍然是一个瓶颈。现有系统将内存提取视为从上下文到结构化条目的一次性、被动转录，它与嘈杂的对话、缺失的引用和交叉依赖相斗争，导致内存污染、低价值写入和不一致。在本文中，我们介绍了用于代理系统中的主动长期内存提取的 MemReader 系列：MemReader-0.6B（一种紧凑且经济高效的被动提取器，可提供准确且模式一致的结构化输出）和 MemReader-4B（一种使用组相对策略优化 (GRPO) 进行优化的主动提取器，用于做出内存写入决策）。在 ReAct 风格的范式下，MemReader-4B 在行动之前明确评估信息价值、参考模糊性和完整性，并且可以有选择地写入记忆、推迟不完整的输入、检索历史上下文或丢弃不相关的聊天内容。 LOCOMO、LongMemEval 和 HaluMem 上的实验表明，MemReader 始终优于现有的基于提取的基线。特别是，MemReader-4B 在涉及知识更新、时间推理和减少幻觉的任务上实现了最先进的性能。这些结果表明，有效的智能体记忆不仅需要提取更多信息，还需要执行推理驱动和选择性记忆提取，以构建低噪声和动态进化的长期记忆。此外，MemReader 已集成到 MemOS 中，并正在实际应用中部署。为了支持未来的研究和采用，我们发布了模型并提供公共 API 访问。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47869532
+评论网址：https://news.ycombinator.com/item?id=47871717
+积分：2
+# 条评论：0]]></description>
+      <guid>https://arxiv.org/abs/2604.07877</guid>
+      <pubDate>Thu, 23 Apr 2026 02:35:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>朝鲜利用人工智能对开发商进行工业化攻击</title>
+      <link>https://expel.com/blog/inside-lazarus-how-north-korea-uses-ai-to-industrialize-attacks-on-developers/</link>
+      <description><![CDATA[文章网址：https://expel.com/blog/inside-lazarus-how-north-korea-uses-ai-to-induscialize-attacks-on-developers/
+评论网址：https://news.ycombinator.com/item?id=47871714
+积分：1
+# 条评论：0]]></description>
+      <guid>https://expel.com/blog/inside-lazarus-how-north-korea-uses-ai-to-industrialize-attacks-on-developers/</guid>
+      <pubDate>Thu, 23 Apr 2026 02:34:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>巴黎机场的吹风机破坏了Polymarket的天气市场</title>
+      <link>https://xcancel.com/aaronjmars/status/2047017251270734309</link>
+      <description><![CDATA[文章网址：https://xcancel.com/aaronjmars/status/2047017251270734309
+评论网址：https://news.ycombinator.com/item?id=47871710
+积分：1
+# 条评论：0]]></description>
+      <guid>https://xcancel.com/aaronjmars/status/2047017251270734309</guid>
+      <pubDate>Thu, 23 Apr 2026 02:33:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Stackrate – 开发者之间的同行评审平台，提供诚实的应用程序反馈</title>
+      <link>https://stackrate-waitlist.netlify.app</link>
+      <description><![CDATA[嘿，HN，
+每次启动后我都会遇到同样的问题。 Product Hunt 会给你点赞，Reddit 会给你噪音，其他人都会说“看起来很棒”。没有人告诉你到底什么是坏的。
+因此，我开始构建 Stackrate——一个平台，开发人员可以使用涵盖用户体验、入门、价值支撑和性能的结构化模板对彼此的应用程序进行同行评审。
+核心机制是信用系统：评论一个应用程序即可为您的应用程序赢得评论。审阅者仅通过 GitHub 或 App Store 链接进行开发验证。提交者定义他们想要的反馈的确切范围，而不是获取通用模板。
+塑造匹配逻辑的见解来自一位开发人员，他说“相同的堆栈，领先一步比随机智能开发人员的反馈有用 10 倍。”因此，匹配是按堆栈和收入阶段进行的，而不仅仅是类别。
+仍然是预构建。在编写代码之前验证需求。
+候补名单：https://stackrate-waitlist.netlify.app
+很乐意回答有关方法或问题的问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47871709
+积分：1
+# 条评论：0]]></description>
+      <guid>https://stackrate-waitlist.netlify.app</guid>
+      <pubDate>Thu, 23 Apr 2026 02:33:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>那一刻你意识到特工是弱智的</title>
+      <link>https://gist.github.com/metacratic/dff3cce161312e242c2881ca571c6e28</link>
+      <description><![CDATA[文章网址：https://gist.github.com/metacratic/dff3cce161312e242c2881ca571c6e28
+评论网址：https://news.ycombinator.com/item?id=47871702
 积分：1
 # 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=47869532</guid>
-      <pubDate>Wed, 22 Apr 2026 21:30:16 GMT</pubDate>
+      <guid>https://gist.github.com/metacratic/dff3cce161312e242c2881ca571c6e28</guid>
+      <pubDate>Thu, 23 Apr 2026 02:32:47 GMT</pubDate>
     </item>
     <item>
-      <title>卡图网</title>
-      <link>https://kahtooee.com</link>
-      <description><![CDATA[文章网址：https://kahtooee.com
-评论网址：https://news.ycombinator.com/item?id=47869507
+      <title>超大规模企业进入轨道</title>
+      <link>https://orbitaleconomics.substack.com/p/orbital-economics-post-17-apr-21</link>
+      <description><![CDATA[文章网址：https://orbitaleconomics.substack.com/p/orbital-economics-post-17-apr-21
+评论网址：https://news.ycombinator.com/item?id=47871694
 积分：1
 # 条评论：0]]></description>
-      <guid>https://kahtooee.com</guid>
-      <pubDate>Wed, 22 Apr 2026 21:27:33 GMT</pubDate>
+      <guid>https://orbitaleconomics.substack.com/p/orbital-economics-post-17-apr-21</guid>
+      <pubDate>Thu, 23 Apr 2026 02:32:21 GMT</pubDate>
     </item>
     <item>
-      <title>GCC 16 编译器即将与 Zen 6、AVX10.2、APX 和 Algol 68 一起发布</title>
-      <link>https://www.phoronix.com/news/GCC-16.1-Coming-Soon</link>
-      <description><![CDATA[文章网址：https://www.phoronix.com/news/GCC-16.1-Coming-Soon
-评论网址：https://news.ycombinator.com/item?id=47869497
+      <title>索尼黑客事件：错误第 1 部分</title>
+      <link>https://podcasts.apple.com/us/podcast/the-sony-hack-mistakes-part-1/id1119389968?i=1000761654448</link>
+      <description><![CDATA[文章网址： https://podcasts.apple.com/us/podcast/the-sony-hack-mistakes-part-1/id1119389968?i=1000761654448
+评论网址：https://news.ycombinator.com/item?id=47871673
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.phoronix.com/news/GCC-16.1-Coming-Soon</guid>
-      <pubDate>Wed, 22 Apr 2026 21:26:42 GMT</pubDate>
+      <guid>https://podcasts.apple.com/us/podcast/the-sony-hack-mistakes-part-1/id1119389968?i=1000761654448</guid>
+      <pubDate>Thu, 23 Apr 2026 02:27:57 GMT</pubDate>
     </item>
     <item>
-      <title>新奥尔良的霓虹之王</title>
-      <link>https://gardenandgun.com/new-orleans-neon-king</link>
-      <description><![CDATA[文章网址：https://gardenandgun.com/new-orleans-neon-king
-评论网址：https://news.ycombinator.com/item?id=47869496
+      <title>编年史</title>
+      <link>https://developers.openai.com/codex/memories/chronicle</link>
+      <description><![CDATA[文章网址：https://developers.openai.com/codex/memories/chronicle
+评论网址：https://news.ycombinator.com/item?id=47871646
+积分：2
+# 条评论：0]]></description>
+      <guid>https://developers.openai.com/codex/memories/chronicle</guid>
+      <pubDate>Thu, 23 Apr 2026 02:21:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：预检 – 在提交给 Claude/OpenAI 之前测试您的 MCP 服务器</title>
+      <link>https://m8ven.ai/preflight</link>
+      <description><![CDATA[我向 Claude 和 OpenAI 提交了一个 MCP 服务器，但由于一个愚蠢的 OAuth 重定向错误，在 4 周后被 OpenAI 拒绝。修复花了一个小时。重新提交又要等待 3 周。他们运行的每项检查都可以在 15 秒内在本地进行测试，因此我构建了预检供每个人使用。免费。所以：https://m8ven.ai/preflight — 粘贴您的网址，获取报告。免费，无需注册，仅探测您的实时端点（不会触及您的代码）。这是用 M8ven 构建的，我正在将其作为代理经济的信任层。保持 Preflight 免费，因为拒绝循环对人员运输来说是一种愚蠢的税收。很想听听我没有发现的故障模式。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47871631
 积分：4
 # 条评论：0]]></description>
-      <guid>https://gardenandgun.com/new-orleans-neon-king</guid>
-      <pubDate>Wed, 22 Apr 2026 21:26:38 GMT</pubDate>
+      <guid>https://m8ven.ai/preflight</guid>
+      <pubDate>Thu, 23 Apr 2026 02:17:54 GMT</pubDate>
     </item>
     <item>
-      <title>第二次IPO将是Cerebras的魅力</title>
-      <link>https://www.nextplatform.com/compute/2026/04/22/the-second-time-will-be-the-ipo-charm-for-cerebras/5218651</link>
-      <description><![CDATA[文章网址： https://www.nextplatform.com/compute/2026/04/22/the-second-time-will-be-the-ipo-charm-for-cerebras/5218651
-评论网址：https://news.ycombinator.com/item?id=47869479
+      <title>没什么大不了的</title>
+      <link>https://martinrue.com/nothing-matters/</link>
+      <description><![CDATA[文章网址：https://martinrue.com/nothing-matters/
+评论网址：https://news.ycombinator.com/item?id=47871616
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.nextplatform.com/compute/2026/04/22/the-second-time-will-be-the-ipo-charm-for-cerebras/5218651</guid>
-      <pubDate>Wed, 22 Apr 2026 21:25:24 GMT</pubDate>
+      <guid>https://martinrue.com/nothing-matters/</guid>
+      <pubDate>Thu, 23 Apr 2026 02:15:44 GMT</pubDate>
     </item>
     </channel>
 </rss>
