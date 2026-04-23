@@ -4,123 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 23 Apr 2026 13:30:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 16:28:56 GMT</lastBuildDate>
     <item>
-      <title>98% 的肉类和奶制品可持续发展承诺都是绿色清洗</title>
-      <link>https://www.newscientist.com/article/2523798-98-per-cent-of-meat-and-dairy-sustainability-pledges-are-greenwashing/</link>
-      <description><![CDATA[文章网址：https://www.newscientist.com/article/2523798-98-per-cent-of-meat-and-dairy-sustainability-pledges-are-greenwashing/
-评论网址：https://news.ycombinator.com/item?id=47875525
+      <title>Jensen 的 5 层蛋糕中最甜蜜的利润所在</title>
+      <link>https://thegeneralpartnership.substack.com/p/where-the-sweetest-margins-live-in</link>
+      <description><![CDATA[文章网址：https://thegeneralpartnership.substack.com/p/where-the-sweetest-margins-live-in
+评论网址：https://news.ycombinator.com/item?id=47877608
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.newscientist.com/article/2523798-98-per-cent-of-meat-and-dairy-sustainability-pledges-are-greenwashing/</guid>
-      <pubDate>Thu, 23 Apr 2026 13:27:36 GMT</pubDate>
+      <guid>https://thegeneralpartnership.substack.com/p/where-the-sweetest-margins-live-in</guid>
+      <pubDate>Thu, 23 Apr 2026 16:18:45 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：开源数据库 CLI，兼作代理的 MCP 服务器</title>
-      <link>https://github.com/clidey/whodb/tree/main/cli</link>
-      <description><![CDATA[嗨 HN，我从事 WhoDB（数据库管理工具）工作，我们最近在 cli 中添加了很多更新，所以我想在这里分享。WhoDB (https://github.com/clidey/whodb) 是一个用于 SQL 和 NoSQL 数据库的数据库管理工具，在浏览器中运行，可以通过 Docker 启动，并且可以在 Apple 上使用，微软和 Snap 商店。 WhoDB cli 既是一个交互式和命令驱动的客户端，它共享相同的 WhoDB Go 后端，并与 MCP 服务器一起提供围绕它的 TUI。当我使用本地数据库进行开发（检查架构、数据、运行实际 SQL 等）时，我使用 Claude Code 中的 mcp 来帮助我，尽管 CC 总体上在这方面非常擅长。我还没有在 Codex 上尝试过，所以无法对此发表评论。我们添加了（排名不分先后）：
-- DuckDB支持
-- TiDB 支持
-- 更新布局系统以支持多个窗口
-- SQL 格式化程序和扩展自动完成功能
-- SSH 支持（仍在测试这一点）
-- ER图生成
-- 解释计划的生成
-- 模拟数据生成
-- 简单的表数据审计功能
-- 只读模式
-- 流媒体人工智能聊天
-- CLI 配置文件
-- 不同的主题支持
-- JSON、NDJSON、CSV 输出免责声明：很多 CLI 代码是 AI 生成的（主要是 Claude 代码）。我将其指向使用相同库作为参考的现有存储库，这很有帮助，因为我没有深厚的 CLI 开发经验。如果您想安装它，有多种方法：(1)curl -fsSL https://raw.githubusercontent.com/clidey/whodb/main/cli/inst... | bash(2) brew install whodb-cli(3) npm install -g @clidey/whodb-cli(4) docker pull clidey/whodb-cli:latest(5) 从我们最新的 Github 版本中获取可执行文件如果要将其添加到 CC：(1) claude mcp add whodb -- npx -y @clidey/whodb-cli mcp serve(2) 或者您可以通过环境变量配置文件使用数据库凭据配置它：
-claude mcp add whodb -e WHODB_POSTGRES=&#39;[{&quot;alias&quot;:&quot;dev&quot;,&quot;host&quot;:&quot;localhost&quot;,&quot;user&quot;:&quot;user&quot;,&quot;password&quot;:&quot;pass&quot;,&quot;database&quot;:&quot;mydb&quot;,&quot;port&quot;:&quot;5432&quot;}]&#39; -- whodb-cli mcpserve它应该与 Codex 一起使用，如下所示： codex mcp add whodb -- whodb-cli mcp服务很高兴听到您对如何使用它的想法，或者您可能会发现哪些有趣的补充。感谢您的阅读！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47875513
+      <title>150 美元的火车到 2000 美元的座位：世界杯的价格冲击</title>
+      <link>https://www.wsj.com/sports/soccer/world-cup-train-metlife-stadium-nj-transit-8ed6d478</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/sports/soccer/world-cup-train-metlife-stadium-nj-transit-8ed6d478
+评论网址：https://news.ycombinator.com/item?id=47877607
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.wsj.com/sports/soccer/world-cup-train-metlife-stadium-nj-transit-8ed6d478</guid>
+      <pubDate>Thu, 23 Apr 2026 16:18:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>最高法院的论点明确表明 FCC 的罚款“不具约束力”</title>
+      <link>https://arstechnica.com/tech-policy/2026/04/supreme-court-arguments-make-it-clear-that-fcc-fines-are-nonbinding/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/tech-policy/2026/04/supreme-court-arguments-make-it-clear-that-fcc-fines-are-nonbinding/
+评论网址：https://news.ycombinator.com/item?id=47877601
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/clidey/whodb/tree/main/cli</guid>
-      <pubDate>Thu, 23 Apr 2026 13:26:56 GMT</pubDate>
+      <guid>https://arstechnica.com/tech-policy/2026/04/supreme-court-arguments-make-it-clear-that-fcc-fines-are-nonbinding/</guid>
+      <pubDate>Thu, 23 Apr 2026 16:18:34 GMT</pubDate>
     </item>
     <item>
-      <title>用于太空探索的 GE/GaAs/InGaP 三结太阳能电池 [pdf]</title>
-      <link>https://443.ece.illinois.edu/files/2019/05/SolarCellReportPandeyWaterMarked.pdf</link>
-      <description><![CDATA[文章网址：https://443.ece.illinois.edu/files/2019/05/SolarCellReportPandeyWaterMarked.pdf
-评论网址：https://news.ycombinator.com/item?id=47875510
+      <title>关于用 Rust 构建自己的包管理器的书籍</title>
+      <link>https://prefix-dev.github.io/rattler-book/introduction/</link>
+      <description><![CDATA[文章网址：https://prefix-dev.github.io/rattler-book/introduction/
+评论网址：https://news.ycombinator.com/item?id=47877590
 积分：1
 # 条评论：0]]></description>
-      <guid>https://443.ece.illinois.edu/files/2019/05/SolarCellReportPandeyWaterMarked.pdf</guid>
-      <pubDate>Thu, 23 Apr 2026 13:26:50 GMT</pubDate>
+      <guid>https://prefix-dev.github.io/rattler-book/introduction/</guid>
+      <pubDate>Thu, 23 Apr 2026 16:17:50 GMT</pubDate>
     </item>
     <item>
-      <title>庞巴迪与 Colab (YC S19) 签署价值数百万美元的协议，利用人工智能设计喷气式飞机</title>
-      <link>https://www.theglobeandmail.com/business/article-bombardier-signs-contract-colab-ai-software/</link>
-      <description><![CDATA[文章网址：https://www.theglobeandmail.com/business/article-bombardier-signs-contract-colab-ai-software/
-评论网址：https://news.ycombinator.com/item?id=47875508
+      <title>一个好的AGENTS.md就是模型的升级。一个糟糕的文档比没有文档更糟糕</title>
+      <link>https://www.augmentcode.com/blog/how-to-write-good-agents-dot-md-files</link>
+      <description><![CDATA[文章网址：https://www.augmentcode.com/blog/how-to-write-good-agents-dot-md-files
+评论网址：https://news.ycombinator.com/item?id=47877588
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theglobeandmail.com/business/article-bombardier-signs-contract-colab-ai-software/</guid>
-      <pubDate>Thu, 23 Apr 2026 13:26:21 GMT</pubDate>
+      <guid>https://www.augmentcode.com/blog/how-to-write-good-agents-dot-md-files</guid>
+      <pubDate>Thu, 23 Apr 2026 16:17:39 GMT</pubDate>
     </item>
     <item>
-      <title>停止向人工智能介绍您自己的网站</title>
-      <link>https://thatseoagent.com/en</link>
-      <description><![CDATA[文章网址：https://thatseoagent.com/en
-评论网址：https://news.ycombinator.com/item?id=47875502
+      <title>自行车让本田维持生计，但即使是这项业务也面临压力</title>
+      <link>https://www.japantimes.co.jp/business/2026/03/26/companies/honda-bike-business-under-pressure/</link>
+      <description><![CDATA[文章网址：https://www.japantimes.co.jp/business/2026/03/26/companies/honda-bike-business-under-Pressure/
+评论网址：https://news.ycombinator.com/item?id=47877582
 积分：1
 # 条评论：0]]></description>
-      <guid>https://thatseoagent.com/en</guid>
-      <pubDate>Thu, 23 Apr 2026 13:25:48 GMT</pubDate>
+      <guid>https://www.japantimes.co.jp/business/2026/03/26/companies/honda-bike-business-under-pressure/</guid>
+      <pubDate>Thu, 23 Apr 2026 16:17:20 GMT</pubDate>
     </item>
     <item>
-      <title>MoltX Skills – 一个让代理发布/接受链上任务的技能包（无gas）</title>
-      <link>https://github.com/thegreatfortune/moltx-skills</link>
-      <description><![CDATA[文章网址：https://github.com/thegreatfortune/moltx-skills
-评论网址：https://news.ycombinator.com/item?id=47875479
+      <title>GPU 计算的起源</title>
+      <link>https://cacm.acm.org/federal-funding-of-academic-research/the-origins-of-gpu-computing/</link>
+      <description><![CDATA[文章网址：https://cacm.acm.org/federal-funding-of-academic-research/the-origins-of-gpu-computing/
+评论网址：https://news.ycombinator.com/item?id=47877579
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/thegreatfortune/moltx-skills</guid>
-      <pubDate>Thu, 23 Apr 2026 13:23:46 GMT</pubDate>
+      <guid>https://cacm.acm.org/federal-funding-of-academic-research/the-origins-of-gpu-computing/</guid>
+      <pubDate>Thu, 23 Apr 2026 16:17:01 GMT</pubDate>
     </item>
     <item>
-      <title>面向开发人员的 Firefox 150 发行说明（稳定版）</title>
-      <link>https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/150</link>
-      <description><![CDATA[文章网址：https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/150
-评论网址：https://news.ycombinator.com/item?id=47875470
+      <title>Gluon 和线性布局深入研究：具有低级控制的基于图块的 GPU 编程 [视频]</title>
+      <link>https://www.youtube.com/watch?v=oYs_qtuk2Pg</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=oYs_qtuk2Pg
+评论网址：https://news.ycombinator.com/item?id=47877578
 积分：1
 # 条评论：0]]></description>
-      <guid>https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/150</guid>
-      <pubDate>Thu, 23 Apr 2026 13:22:41 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=oYs_qtuk2Pg</guid>
+      <pubDate>Thu, 23 Apr 2026 16:16:51 GMT</pubDate>
     </item>
     <item>
-      <title>Realmz – 复兴经典 Macintosh 游戏</title>
-      <link>https://danapplegate.com/projects/2025/11/24/reviving-realmz.html</link>
-      <description><![CDATA[文章网址：https://danapplegate.com/projects/2025/11/24/reviving-realmz.html
-评论网址：https://news.ycombinator.com/item?id=47875457
+      <title>中国 3 月份太阳能出货量达到创纪录的 68 吉瓦——这就是它的重要性</title>
+      <link>https://electrek.co/2026/04/22/china-shipped-a-record-68-gw-of-solar-in-march-heres-why-it-matters/</link>
+      <description><![CDATA[文章网址： https://electrek.co/2026/04/22/china-shipped-a-record-68-gw-of-solar-in-march-heres-why-it-matters/
+评论网址：https://news.ycombinator.com/item?id=47877563
 积分：1
 # 条评论：0]]></description>
-      <guid>https://danapplegate.com/projects/2025/11/24/reviving-realmz.html</guid>
-      <pubDate>Thu, 23 Apr 2026 13:20:58 GMT</pubDate>
+      <guid>https://electrek.co/2026/04/22/china-shipped-a-record-68-gw-of-solar-in-march-heres-why-it-matters/</guid>
+      <pubDate>Thu, 23 Apr 2026 16:15:38 GMT</pubDate>
     </item>
     <item>
-      <title>“看到人类终结将是一场悲剧”——瑞典令人不安的遭遇[视频]</title>
-      <link>https://www.youtube.com/watch?v=2d1bwAFcMng</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=2d1bwAFcMng
-评论网址：https://news.ycombinator.com/item?id=47875456
+      <title>870 EVO SATA 2.5 英寸 2TB 固态硬盘</title>
+      <link>https://www.samsung.com/us/memory-storage/sata-ssd/870-evo-sata-2-5-ssd-2tb-sku-mz-77e2t0b-am/</link>
+      <description><![CDATA[文章网址： https://www.samsung.com/us/memory-storage/sata-ssd/870-evo-sata-2-5-ssd-2tb-sku-mz-77e2t0b-am/
+评论网址：https://news.ycombinator.com/item?id=47877561
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=2d1bwAFcMng</guid>
-      <pubDate>Thu, 23 Apr 2026 13:20:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么史蒂夫·乔布斯的话有魔力？</title>
-      <link>https://news.ycombinator.com/item?id=47875447</link>
-      <description><![CDATA[我真的很好奇为什么史蒂夫说话、组织和串联想法的方式令人惊叹。从您的角度来看，秘诀是什么？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47875447
-积分：1
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=47875447</guid>
-      <pubDate>Thu, 23 Apr 2026 13:20:08 GMT</pubDate>
+      <guid>https://www.samsung.com/us/memory-storage/sata-ssd/870-evo-sata-2-5-ssd-2tb-sku-mz-77e2t0b-am/</guid>
+      <pubDate>Thu, 23 Apr 2026 16:15:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
