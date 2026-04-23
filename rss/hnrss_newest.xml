@@ -4,116 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 23 Apr 2026 02:38:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 05:30:54 GMT</lastBuildDate>
     <item>
-      <title>Show HN：MemReader：从被动到主动提取长期代理内存</title>
-      <link>https://arxiv.org/abs/2604.07877</link>
-      <description><![CDATA[长期记忆对于个性化和自主代理来说是基础，但填充它仍然是一个瓶颈。现有系统将内存提取视为从上下文到结构化条目的一次性、被动转录，它与嘈杂的对话、缺失的引用和交叉依赖相斗争，导致内存污染、低价值写入和不一致。在本文中，我们介绍了用于代理系统中的主动长期内存提取的 MemReader 系列：MemReader-0.6B（一种紧凑且经济高效的被动提取器，可提供准确且模式一致的结构化输出）和 MemReader-4B（一种使用组相对策略优化 (GRPO) 进行优化的主动提取器，用于做出内存写入决策）。在 ReAct 风格的范式下，MemReader-4B 在行动之前明确评估信息价值、参考模糊性和完整性，并且可以有选择地写入记忆、推迟不完整的输入、检索历史上下文或丢弃不相关的聊天内容。 LOCOMO、LongMemEval 和 HaluMem 上的实验表明，MemReader 始终优于现有的基于提取的基线。特别是，MemReader-4B 在涉及知识更新、时间推理和减少幻觉的任务上实现了最先进的性能。这些结果表明，有效的智能体记忆不仅需要提取更多信息，还需要执行推理驱动和选择性记忆提取，以构建低噪声和动态进化的长期记忆。此外，MemReader 已集成到 MemOS 中，并正在实际应用中部署。为了支持未来的研究和采用，我们发布了模型并提供公共 API 访问。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47871717
-积分：2
-# 条评论：0]]></description>
-      <guid>https://arxiv.org/abs/2604.07877</guid>
-      <pubDate>Thu, 23 Apr 2026 02:35:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>朝鲜利用人工智能对开发商进行工业化攻击</title>
-      <link>https://expel.com/blog/inside-lazarus-how-north-korea-uses-ai-to-industrialize-attacks-on-developers/</link>
-      <description><![CDATA[文章网址：https://expel.com/blog/inside-lazarus-how-north-korea-uses-ai-to-induscialize-attacks-on-developers/
-评论网址：https://news.ycombinator.com/item?id=47871714
-积分：1
-# 条评论：0]]></description>
-      <guid>https://expel.com/blog/inside-lazarus-how-north-korea-uses-ai-to-industrialize-attacks-on-developers/</guid>
-      <pubDate>Thu, 23 Apr 2026 02:34:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>巴黎机场的吹风机破坏了Polymarket的天气市场</title>
-      <link>https://xcancel.com/aaronjmars/status/2047017251270734309</link>
-      <description><![CDATA[文章网址：https://xcancel.com/aaronjmars/status/2047017251270734309
-评论网址：https://news.ycombinator.com/item?id=47871710
-积分：1
-# 条评论：0]]></description>
-      <guid>https://xcancel.com/aaronjmars/status/2047017251270734309</guid>
-      <pubDate>Thu, 23 Apr 2026 02:33:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Stackrate – 开发者之间的同行评审平台，提供诚实的应用程序反馈</title>
-      <link>https://stackrate-waitlist.netlify.app</link>
-      <description><![CDATA[嘿，HN，
-每次启动后我都会遇到同样的问题。 Product Hunt 会给你点赞，Reddit 会给你噪音，其他人都会说“看起来很棒”。没有人告诉你到底什么是坏的。
-因此，我开始构建 Stackrate——一个平台，开发人员可以使用涵盖用户体验、入门、价值支撑和性能的结构化模板对彼此的应用程序进行同行评审。
-核心机制是信用系统：评论一个应用程序即可为您的应用程序赢得评论。审阅者仅通过 GitHub 或 App Store 链接进行开发验证。提交者定义他们想要的反馈的确切范围，而不是获取通用模板。
-塑造匹配逻辑的见解来自一位开发人员，他说“相同的堆栈，领先一步比随机智能开发人员的反馈有用 10 倍。”因此，匹配是按堆栈和收入阶段进行的，而不仅仅是类别。
-仍然是预构建。在编写代码之前验证需求。
-候补名单：https://stackrate-waitlist.netlify.app
-很乐意回答有关方法或问题的问题。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47871709
-积分：1
-# 条评论：0]]></description>
-      <guid>https://stackrate-waitlist.netlify.app</guid>
-      <pubDate>Thu, 23 Apr 2026 02:33:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>那一刻你意识到特工是弱智的</title>
-      <link>https://gist.github.com/metacratic/dff3cce161312e242c2881ca571c6e28</link>
-      <description><![CDATA[文章网址：https://gist.github.com/metacratic/dff3cce161312e242c2881ca571c6e28
-评论网址：https://news.ycombinator.com/item?id=47871702
+      <title>信息不对称</title>
+      <link>https://en.wikipedia.org/wiki/Information_asymmetry</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Information_asymmetry
+评论网址：https://news.ycombinator.com/item?id=47872508
 积分：1
 # 条评论：1]]></description>
-      <guid>https://gist.github.com/metacratic/dff3cce161312e242c2881ca571c6e28</guid>
-      <pubDate>Thu, 23 Apr 2026 02:32:47 GMT</pubDate>
+      <guid>https://en.wikipedia.org/wiki/Information_asymmetry</guid>
+      <pubDate>Thu, 23 Apr 2026 05:25:28 GMT</pubDate>
     </item>
     <item>
-      <title>超大规模企业进入轨道</title>
-      <link>https://orbitaleconomics.substack.com/p/orbital-economics-post-17-apr-21</link>
-      <description><![CDATA[文章网址：https://orbitaleconomics.substack.com/p/orbital-economics-post-17-apr-21
-评论网址：https://news.ycombinator.com/item?id=47871694
+      <title>在官方 KICS Docker 存储库和代码扩展中发现恶意 Checkmarx 工件</title>
+      <link>https://socket.dev/blog/checkmarx-supply-chain-compromise</link>
+      <description><![CDATA[文章网址：https://socket.dev/blog/checkmarx-supply-chain-compromise
+评论网址：https://news.ycombinator.com/item?id=47872505
 积分：1
 # 条评论：0]]></description>
-      <guid>https://orbitaleconomics.substack.com/p/orbital-economics-post-17-apr-21</guid>
-      <pubDate>Thu, 23 Apr 2026 02:32:21 GMT</pubDate>
+      <guid>https://socket.dev/blog/checkmarx-supply-chain-compromise</guid>
+      <pubDate>Thu, 23 Apr 2026 05:25:02 GMT</pubDate>
     </item>
     <item>
-      <title>索尼黑客事件：错误第 1 部分</title>
-      <link>https://podcasts.apple.com/us/podcast/the-sony-hack-mistakes-part-1/id1119389968?i=1000761654448</link>
-      <description><![CDATA[文章网址： https://podcasts.apple.com/us/podcast/the-sony-hack-mistakes-part-1/id1119389968?i=1000761654448
-评论网址：https://news.ycombinator.com/item?id=47871673
-积分：1
-# 条评论：0]]></description>
-      <guid>https://podcasts.apple.com/us/podcast/the-sony-hack-mistakes-part-1/id1119389968?i=1000761654448</guid>
-      <pubDate>Thu, 23 Apr 2026 02:27:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>编年史</title>
-      <link>https://developers.openai.com/codex/memories/chronicle</link>
-      <description><![CDATA[文章网址：https://developers.openai.com/codex/memories/chronicle
-评论网址：https://news.ycombinator.com/item?id=47871646
-积分：2
-# 条评论：0]]></description>
-      <guid>https://developers.openai.com/codex/memories/chronicle</guid>
-      <pubDate>Thu, 23 Apr 2026 02:21:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：预检 – 在提交给 Claude/OpenAI 之前测试您的 MCP 服务器</title>
-      <link>https://m8ven.ai/preflight</link>
-      <description><![CDATA[我向 Claude 和 OpenAI 提交了一个 MCP 服务器，但由于一个愚蠢的 OAuth 重定向错误，在 4 周后被 OpenAI 拒绝。修复花了一个小时。重新提交又要等待 3 周。他们运行的每项检查都可以在 15 秒内在本地进行测试，因此我构建了预检供每个人使用。免费。所以：https://m8ven.ai/preflight — 粘贴您的网址，获取报告。免费，无需注册，仅探测您的实时端点（不会触及您的代码）。这是用 M8ven 构建的，我正在将其作为代理经济的信任层。保持 Preflight 免费，因为拒绝循环对人员运输来说是一种愚蠢的税收。很想听听我没有发现的故障模式。
+      <title>显示 HN：CreepJS 浏览器指纹识别</title>
+      <link>https://abrahamjuliot.github.io/creepjs/</link>
+      <description><![CDATA[不新鲜但很酷。注意： https://creepjs.org/ 不是官方的，仓库是 https://github.com/abrahamjuliot/creepjs有人知道指纹识别的数学工作原理吗？他们用什么？当信号可能略有变化时，您的最终哈希值应该足够准确和稳定。简单的哈希值无法做到这一点。更改 IP、缺少 cookie/会话、调整窗口大小、TLS/SSL 浏览器握手、屏幕深度、字体渲染、MTR、网络延迟（如果您想测量的话）等等……任何信号单独意义不大，但作为一个整体，从数学角度来看，可以使用什么来获得相当好的稳定哈希值？我想了解更多的东西。我猜想它与向量和聚类信号有关，但不知道，并且想知道数学上存在什么来存档这个（如果可能或误差很小）。然后我想要一个浏览器，让我尽可能选择退出所有 WebAPI。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47871631
-积分：4
-# 条评论：0]]></description>
-      <guid>https://m8ven.ai/preflight</guid>
-      <pubDate>Thu, 23 Apr 2026 02:17:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>没什么大不了的</title>
-      <link>https://martinrue.com/nothing-matters/</link>
-      <description><![CDATA[文章网址：https://martinrue.com/nothing-matters/
-评论网址：https://news.ycombinator.com/item?id=47871616
+评论网址：https://news.ycombinator.com/item?id=47872500
 积分：1
 # 条评论：0]]></description>
-      <guid>https://martinrue.com/nothing-matters/</guid>
-      <pubDate>Thu, 23 Apr 2026 02:15:44 GMT</pubDate>
+      <guid>https://abrahamjuliot.github.io/creepjs/</guid>
+      <pubDate>Thu, 23 Apr 2026 05:23:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sruthi Chandran 当选 Debian 项目负责人</title>
+      <link>https://bits.debian.org/2026/04/dpl-elections-2026.html</link>
+      <description><![CDATA[文章网址：https://bits.debian.org/2026/04/dpl-elections-2026.html
+评论网址：https://news.ycombinator.com/item?id=47872481
+积分：1
+# 条评论：0]]></description>
+      <guid>https://bits.debian.org/2026/04/dpl-elections-2026.html</guid>
+      <pubDate>Thu, 23 Apr 2026 05:20:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>每个本地 SEO 手册都是建立在邻近性的基础上的，人工智能概述完全忽略了它</title>
+      <link>https://webmatrices.com/post/every-local-seo-playbook-is-built-on-proximity-ai-overviews-ignore-it-completely</link>
+      <description><![CDATA[文章网址：https://webmatrices.com/post/every-local-seo-playbook-is-built-on-proximity-ai-overviews-ignore-it-completely
+评论网址：https://news.ycombinator.com/item?id=47872476
+积分：1
+# 条评论：0]]></description>
+      <guid>https://webmatrices.com/post/every-local-seo-playbook-is-built-on-proximity-ai-overviews-ignore-it-completely</guid>
+      <pubDate>Thu, 23 Apr 2026 05:19:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ars Technica：我们的新闻编辑室人工智能政策</title>
+      <link>https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</link>
+      <description><![CDATA[文章网址：https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/
+评论网址：https://news.ycombinator.com/item?id=47872452
+积分：2
+# 条评论：1]]></description>
+      <guid>https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/</guid>
+      <pubDate>Thu, 23 Apr 2026 05:14:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>末日时代的计算：1993 年的 PC 是什么样子？</title>
+      <link>https://www.ahalbert.com/reviews/technology/2026/04/20/black-book-doom.html</link>
+      <description><![CDATA[文章网址：https://www.ahalbert.com/reviews/technology/2026/04/20/black-book-doom.html
+评论网址：https://news.ycombinator.com/item?id=47872434
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.ahalbert.com/reviews/technology/2026/04/20/black-book-doom.html</guid>
+      <pubDate>Thu, 23 Apr 2026 05:10:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>高街迷你超市出售可卡因、大麻和处方药</title>
+      <link>https://www.bbc.co.uk/news/articles/c62l429w2pko</link>
+      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/c62l429w2pko
+评论网址：https://news.ycombinator.com/item?id=47872424
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.bbc.co.uk/news/articles/c62l429w2pko</guid>
+      <pubDate>Thu, 23 Apr 2026 05:08:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>一只残疾啄羊鹦鹉是马戏团的雄性领袖</title>
+      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)00259-9</link>
+      <description><![CDATA[文章网址：https://www.cell.com/current-biology/fulltext/S0960-9822(26)00259-9
+评论网址：https://news.ycombinator.com/item?id=47872418
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)00259-9</guid>
+      <pubDate>Thu, 23 Apr 2026 05:07:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>福特转向追赶真正的竞争对手：中国比亚迪</title>
+      <link>https://finance.yahoo.com/sectors/technology/articles/ford-ceo-says-tesla-doesn-180115430.html</link>
+      <description><![CDATA[文章网址：https://finance.yahoo.com/sectors/technology/articles/ford-ceo-says-tesla-doesn-180115430.html
+评论网址：https://news.ycombinator.com/item?id=47872413
+积分：1
+# 条评论：0]]></description>
+      <guid>https://finance.yahoo.com/sectors/technology/articles/ford-ceo-says-tesla-doesn-180115430.html</guid>
+      <pubDate>Thu, 23 Apr 2026 05:05:58 GMT</pubDate>
     </item>
     </channel>
 </rss>
