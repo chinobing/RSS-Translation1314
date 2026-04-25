@@ -4,106 +4,119 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 25 Apr 2026 02:27:51 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 07:17:40 GMT</lastBuildDate>
     <item>
-      <title>GCC 成立工作组来决定 AI/LLM 政策</title>
-      <link>https://www.phoronix.com/news/GCC-Working-Group-AI-Policy</link>
-      <description><![CDATA[文章网址：https://www.phoronix.com/news/GCC-Working-Group-AI-Policy
-评论网址：https://news.ycombinator.com/item?id=47898043
+      <title>管理非管理型交换机</title>
+      <link>https://watchmysys.com/blog/2026/03/managing-the-unmanaged-switch/</link>
+      <description><![CDATA[文章网址：https://watchmysys.com/blog/2026/03/managing-the-unmanagement-switch/
+评论网址：https://news.ycombinator.com/item?id=47899399
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.phoronix.com/news/GCC-Working-Group-AI-Policy</guid>
-      <pubDate>Sat, 25 Apr 2026 02:18:46 GMT</pubDate>
+      <guid>https://watchmysys.com/blog/2026/03/managing-the-unmanaged-switch/</guid>
+      <pubDate>Sat, 25 Apr 2026 07:11:55 GMT</pubDate>
     </item>
     <item>
-      <title>打开文件有多难？</title>
-      <link>https://blog.sebastianwick.net/posts/how-hard-is-it-to-open-a-file/</link>
-      <description><![CDATA[文章网址：https://blog.sebastianwick.net/posts/how-hard-is-it-to-open-a-file/
-评论网址：https://news.ycombinator.com/item?id=47898041
+      <title>Show HN：我通过跟踪太阳时来调整睡眠时间表，因此我为其构建了一个应用程序</title>
+      <link>https://sun.mikolajmocek.com/</link>
+      <description><![CDATA[文章网址：https://sun.mikolajmocek.com/
+评论网址：https://news.ycombinator.com/item?id=47899395
 积分：1
 # 条评论：0]]></description>
-      <guid>https://blog.sebastianwick.net/posts/how-hard-is-it-to-open-a-file/</guid>
-      <pubDate>Sat, 25 Apr 2026 02:18:31 GMT</pubDate>
+      <guid>https://sun.mikolajmocek.com/</guid>
+      <pubDate>Sat, 25 Apr 2026 07:10:22 GMT</pubDate>
     </item>
     <item>
-      <title>由于国际足联取消客房，酒店大幅削减世界杯房价</title>
-      <link>https://moneywise.com/news/top-stories/fifa-world-cup-hotels-rates-tourism-slump</link>
-      <description><![CDATA[文章网址：https://moneywise.com/news/top-stories/fifa-world-cup-hotels-rates-tourism-slump
-评论网址：https://news.ycombinator.com/item?id=47897987
+      <title>Richard Sutton – RL 之父认为 LLM 是一条死胡同 [视频]</title>
+      <link>https://www.youtube.com/watch?v=21EYKqUsPfg</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=21EYKqUsPfg
+评论网址：https://news.ycombinator.com/item?id=47899393
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=21EYKqUsPfg</guid>
+      <pubDate>Sat, 25 Apr 2026 07:10:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Netflix 的缩放相机文件处理</title>
+      <link>https://netflixtechblog.com/scaling-camera-file-processing-at-netflix-6dab2b1e80be</link>
+      <description><![CDATA[文章网址：https://netflixtechblog.com/scaling-camera-file-processing-at-netflix-6dab2b1e80be
+评论网址：https://news.ycombinator.com/item?id=47899376
+积分：1
+# 条评论：0]]></description>
+      <guid>https://netflixtechblog.com/scaling-camera-file-processing-at-netflix-6dab2b1e80be</guid>
+      <pubDate>Sat, 25 Apr 2026 07:06:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Agent MCP Studio – 在浏览器选项卡中构建多代理 MCP 系统</title>
+      <link>https://www.agentmcp.studio</link>
+      <description><![CDATA[我构建了一个仅浏览器的工作室，用于设计和编排 MCP 代理系统以用于开发和实验目的。整个堆栈——工具创作、多代理编排、RAG、代码执行——通过 WebAssembly 从单个静态 HTML 文件运行。无后端。赌注：WASM 是一个免费的硬沙箱。当您使用 LLM 生成工具（或手动编写它们）时，工作室 AST 会验证源代码，延迟注册，并在第一次调用时 JIT 编译到 Pyodide 中。 SQL 工具在 Web Worker 中的 DuckDB-WASM 中运行。内置 RAG 通过 Transformers.js 使用 Xenova/all-MiniLM-L6-v2 进行设备上嵌入。没有任何东西离开浏览器；关闭选项卡，堆栈就消失了。 WASM 边界使得在本地执行 LLM 生成的代码变得安全 - 没有 Docker、没有每租户容器、没有服务器。工具层之上是一个具有 10 种编排策略的代理系统：- 主管（路由器 → 1 名专家）
+- 专家混合（并行+合成器）
+- 顺序管道
+- 计划和执行（计划者分解，工人执行）
+- Swarm（对等切换）
+- 辩论（参赛者+评委）
+- 反思（演员+评论家循环）
+- 分层（经理通过ask_工具代表）
+- 循环赛（小组+主持人）
+- Map-Reduce（分割器 → 并行 → 聚合器）您可以直观地构建团队：将工具芯片拖到服务图上的角色节点上，选择一个策略，然后拓扑会重塑以匹配。每个角色都会自动注册为 MCP 工具 (ask_)，以及 agent_chat(query、strategy?) 元工具。捆绑的 Node 桥与 Claude Desktop 进行 stdio 通信，并与您的选项卡进行 WebSocket 通信 — 您的浏览器将成为 MCP 服务器。完成后，Export 将为您提供一个真正的 Python MCP 服务器：server.py、agentic.py、tools/*.py、Dockerfile、requirements.txt、.env.example。导出的agentic.py是在浏览器中运行的相同编排逻辑的忠实Python端口，因此可部署工件的行为与原型相同。还附带：项目包。将整个项目导出为单个 .agentpack.json。通过扫描 os.environ.get(...) 的工具源并交叉引用网络白名单，自动检测所需的外部服务（OpenAI、GitHub、Stripe、Anthropic、Slack、Notion、Linear 等）。收件人会收到一个导入向导，提示输入凭据。清单是可审查的、可共享的，并且永远不会携带秘密。有些事情我确实不确定：- 10 个策略可能太多了。我的猜测是大多数用户只需要主管、专家混合和辩论。对哪些数据真正发挥作用持开放态度。
+- 尽管有积极的缓存，浏览器冷启动（首次加载时的 Pyodide 预热）仍然是一个真正的用户体验冲击。
+-bridge.js 是唯一的非浏览器部分。下一步显然是托管变体。使用 Pyodide、DuckDB-WASM、Transformers.js、OpenAI Chat Completions 构建（或通过 Transformers 在浏览器中运行的本地 Qwen 1.5 0.5B 以实现完全离线模式）。一个文件中包含大约 5K 行 HTML/CSS/JS。https://www.agentmcp.studio我真的很好奇在浏览器选项卡中运行这么多 LLM 生成的代码对您来说是否感觉合理，或者安静地可怕。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47899375
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.agentmcp.studio</guid>
+      <pubDate>Sat, 25 Apr 2026 07:06:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>在抢先体验中测试 GPT-5.5：到目前为止我们所看到的</title>
+      <link>https://lovable.dev/blog/gpt-5-5-now-in-lovable</link>
+      <description><![CDATA[文章网址：https://lovable.dev/blog/gpt-5-5-now-in-lovable
+评论网址：https://news.ycombinator.com/item?id=47899355
 积分：2
 # 条评论：1]]></description>
-      <guid>https://moneywise.com/news/top-stories/fifa-world-cup-hotels-rates-tourism-slump</guid>
-      <pubDate>Sat, 25 Apr 2026 02:06:13 GMT</pubDate>
+      <guid>https://lovable.dev/blog/gpt-5-5-now-in-lovable</guid>
+      <pubDate>Sat, 25 Apr 2026 07:00:57 GMT</pubDate>
     </item>
     <item>
-      <title>与 GlassWorm 相关的 Open VSX Sleeper 扩展显示新的恶意软件激活</title>
-      <link>https://socket.dev/blog/73-open-vsx-sleeper-extensions-glassworm</link>
-      <description><![CDATA[文章网址：https://socket.dev/blog/73-open-vsx-sleeper-extensions-glassworm
-评论网址：https://news.ycombinator.com/item?id=47897971
-积分：1
-# 条评论：0]]></description>
-      <guid>https://socket.dev/blog/73-open-vsx-sleeper-extensions-glassworm</guid>
-      <pubDate>Sat, 25 Apr 2026 02:03:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>FilamentPHP MCP 服务器</title>
-      <link>https://github.com/suwi-lanji/filamentphp-mcp</link>
-      <description><![CDATA[文章网址：https://github.com/suwi-lanji/filamentphp-mcp
-评论网址：https://news.ycombinator.com/item?id=47897955
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/suwi-lanji/filamentphp-mcp</guid>
-      <pubDate>Sat, 25 Apr 2026 02:00:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Devin 终端</title>
-      <link>https://devin.ai/terminal</link>
-      <description><![CDATA[文章网址：https://devin.ai/terminal
-评论网址：https://news.ycombinator.com/item?id=47897953
-积分：1
-# 条评论：0]]></description>
-      <guid>https://devin.ai/terminal</guid>
-      <pubDate>Sat, 25 Apr 2026 02:00:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>蛭形轮虫的奇异生物学</title>
-      <link>https://biologicalrecording.co.uk/2025/09/23/bdelloid-rotifers/</link>
-      <description><![CDATA[文章网址：https://biologicalrecording.co.uk/2025/09/23/bdelloid-rotifers/
-评论网址：https://news.ycombinator.com/item?id=47897952
+      <title>iCloud 钥匙串的托管安全</title>
+      <link>https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web</link>
+      <description><![CDATA[文章网址：https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web
+评论网址：https://news.ycombinator.com/item?id=47899334
 积分：2
 # 条评论：0]]></description>
-      <guid>https://biologicalrecording.co.uk/2025/09/23/bdelloid-rotifers/</guid>
-      <pubDate>Sat, 25 Apr 2026 01:59:20 GMT</pubDate>
+      <guid>https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web</guid>
+      <pubDate>Sat, 25 Apr 2026 06:56:23 GMT</pubDate>
     </item>
     <item>
-      <title>SpaceX 星舰纪录片 – 像你一样飞行测试</title>
-      <link>https://www.spacex.com/content/starship/test-like-you-fly</link>
-      <description><![CDATA[文章网址：https://www.spacex.com/content/starship/test-like-you-fly
-评论网址：https://news.ycombinator.com/item?id=47897941
+      <title>特瓦特·布兰德 (Tewart Brand) 的 LSD、A.I.黑匣子和护理之美[视频]</title>
+      <link>https://www.youtube.com/watch?v=t8u24wvHeSE</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=t8u24wvHeSE
+评论网址：https://news.ycombinator.com/item?id=47899321
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.spacex.com/content/starship/test-like-you-fly</guid>
-      <pubDate>Sat, 25 Apr 2026 01:57:28 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=t8u24wvHeSE</guid>
+      <pubDate>Sat, 25 Apr 2026 06:52:58 GMT</pubDate>
     </item>
     <item>
-      <title>小米发布mimo-v2.5型号</title>
-      <link>https://mimo.xiaomi.com/mimo-v2-5</link>
-      <description><![CDATA[文章网址：https://mimo.xiaomi.com/mimo-v2-5
-评论网址：https://news.ycombinator.com/item?id=47897916
-积分：1
+      <title>给vibe编码员的代码审查建议</title>
+      <link>https://xata.io/blog/code-review-for-vibe-coders</link>
+      <description><![CDATA[文章网址：https://xata.io/blog/code-review-for-vibe-coders
+评论网址：https://news.ycombinator.com/item?id=47899298
+积分：2
 # 条评论：0]]></description>
-      <guid>https://mimo.xiaomi.com/mimo-v2-5</guid>
-      <pubDate>Sat, 25 Apr 2026 01:52:47 GMT</pubDate>
+      <guid>https://xata.io/blog/code-review-for-vibe-coders</guid>
+      <pubDate>Sat, 25 Apr 2026 06:49:19 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI 的 Sam Altman 向 Tumbler Ridge 社区致歉</title>
-      <link>https://www.cbc.ca/news/canada/british-columbia/sam-altman-tumbler-ridge-apology-9.7176482</link>
-      <description><![CDATA[文章网址：https://www.cbc.ca/news/canada/british-columbia/sam-altman-tumbler-ridge-apology-9.7176482
-评论网址：https://news.ycombinator.com/item?id=47897914
-积分：3
-# 条评论：2]]></description>
-      <guid>https://www.cbc.ca/news/canada/british-columbia/sam-altman-tumbler-ridge-apology-9.7176482</guid>
-      <pubDate>Sat, 25 Apr 2026 01:52:25 GMT</pubDate>
+      <title>显示 HN：在编码代理中使用任何模型的 CLI</title>
+      <link>https://getaivo.dev/</link>
+      <description><![CDATA[大家好，我一直在开发一个 CLI 工具，可以帮助轻松运行 claude、Codex、Gemini、Pi 和 OpenCode 中的任何模型。它也是一个 API 密钥管理器，支持多个提供商或 OpenAI/Claude/Gemini 帐户。您可以添加 openrouter、poe、Vercel AI 网关等。它有一个免费的内置提供程序，使用 Deepseek-V4，无需登录或 API 密钥，准备好后添加您自己的提供程序。安装后，您可以立即尝试 claude（无需配置，无需登录）：aivo claude希望它对某人有用。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47899277
+积分：2
+# 条评论：0]]></description>
+      <guid>https://getaivo.dev/</guid>
+      <pubDate>Sat, 25 Apr 2026 06:44:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
