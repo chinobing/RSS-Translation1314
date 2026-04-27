@@ -4,14 +4,24 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 27 Apr 2026 05:54:48 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 08:24:55 GMT</lastBuildDate>
+    <item>
+      <title>让人产生一模一样幻觉的蘑菇</title>
+      <link>https://www.vice.com/en/article/meet-the-mushroom-that-make-people-have-the-exact-same-hallucination/</link>
+      <description><![CDATA[文章网址：https://www.vice.com/en/article/meet-the-mushroom-that-make-people-have-the-exact-same-hallucination/
+评论网址：https://news.ycombinator.com/item?id=47918657
+积分：19
+# 条评论：5]]></description>
+      <guid>https://www.vice.com/en/article/meet-the-mushroom-that-make-people-have-the-exact-same-hallucination/</guid>
+      <pubDate>Mon, 27 Apr 2026 07:21:17 GMT</pubDate>
+    </item>
     <item>
       <title>提示 API</title>
       <link>https://developer.chrome.com/docs/ai/prompt-api</link>
       <description><![CDATA[文章网址：https://developer.chrome.com/docs/ai/prompt-api
 评论网址：https://news.ycombinator.com/item?id=47917026
-积分：54
-# 条评论：36]]></description>
+积分：95
+# 条评论：61]]></description>
       <guid>https://developer.chrome.com/docs/ai/prompt-api</guid>
       <pubDate>Mon, 27 Apr 2026 02:18:58 GMT</pubDate>
     </item>
@@ -20,8 +30,8 @@
       <link>https://github.com/evanklem/evanflow</link>
       <description><![CDATA[文章网址：https://github.com/evanklem/evanflow
 评论网址：https://news.ycombinator.com/item?id=47916909
-积分：42
-# 条评论：16]]></description>
+积分：60
+# 条评论：25]]></description>
       <guid>https://github.com/evanklem/evanflow</guid>
       <pubDate>Mon, 27 Apr 2026 01:56:39 GMT</pubDate>
     </item>
@@ -30,28 +40,18 @@
       <link>https://arkaung.github.io/interactive-turboquant/</link>
       <description><![CDATA[文章网址：https://arkaung.github.io/interactive-turboquant/
 评论网址：https://news.ycombinator.com/item?id=47916890
-积分：71
-# 条评论：10]]></description>
+积分：128
+# 条评论：17]]></description>
       <guid>https://arkaung.github.io/interactive-turboquant/</guid>
       <pubDate>Mon, 27 Apr 2026 01:54:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>谷歌依靠人工智能优势追赶云竞争对手亚马逊和微软</title>
-      <link>https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c
-评论网址：https://news.ycombinator.com/item?id=47916410
-积分：89
-# 条评论：60]]></description>
-      <guid>https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c</guid>
-      <pubDate>Mon, 27 Apr 2026 00:34:30 GMT</pubDate>
     </item>
     <item>
       <title>FreeBSD 设备驱动程序书籍</title>
       <link>https://github.com/ebrandi/FDD-book</link>
       <description><![CDATA[文章网址：https://github.com/ebrandi/FDD-book
 评论网址：https://news.ycombinator.com/item?id=47915632
-积分：57
-# 条评论：7]]></description>
+积分：80
+# 条评论：14]]></description>
       <guid>https://github.com/ebrandi/FDD-book</guid>
       <pubDate>Sun, 26 Apr 2026 22:53:06 GMT</pubDate>
     </item>
@@ -60,21 +60,10 @@
       <link>https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/</link>
       <description><![CDATA[文章网址： https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/
 评论网址：https://news.ycombinator.com/item?id=47914677
-积分：182
-# 条评论：55]]></description>
+积分：200
+# 条评论：59]]></description>
       <guid>https://www.smithsonianmag.com/science-nature/butterflies-are-in-dramatic-decline-across-north-america-a-close-look-at-the-western-monarch-shows-why-180988582/</guid>
       <pubDate>Sun, 26 Apr 2026 21:23:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：生物衰退的人工智能记忆（52% 召回率）</title>
-      <link>https://github.com/sachitrafa/YourMemory</link>
-      <description><![CDATA[大多数 RAG 设置都会失败，因为它们将内存视为静态文件柜。当每个暂时的错误修复或废弃的规则都被永久存储时，上下文窗口最终会因噪音而堵塞，从而增加令牌成本并降低代理的推理能力。此实现通过使用艾宾浩斯遗忘曲线来管理上下文作为活的基础，以生物学方法进行实验。记忆被分配一个“强度”分数，其中每次回忆都会增强数据并使其衰减曲线变平（间隔重复），而未使用的数据最终会达到阈值并被修剪。为了解决语义搜索错过相关但不相似节点的“逻辑邻居”问题，在向量存储上分层了一个图形层。以 LoCoMo 数据集为基准，Recall@5 达到 52%，几乎是无状态向量存储的两倍，同时将令牌浪费减少了大约 84%。使用 DuckDB 构建为本地第一个 MCP 服务器，假设对于处理长期运行项目的代理来说，“忘记什么”与“记住什么”同样重要。我很想知道其他人是否正在探索上下文管理的非线性衰减或类似的生物约束。GitHub：https://github.com/sachitrafa/cognitive-ai-memory
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47914367
-积分：81
-# 条评论：38]]></description>
-      <guid>https://github.com/sachitrafa/YourMemory</guid>
-      <pubDate>Sun, 26 Apr 2026 20:58:31 GMT</pubDate>
     </item>
     <item>
       <title>萨维成为第一位在竞技比赛中跑完两小时马拉松的运动员</title>
@@ -82,8 +71,8 @@
       <description><![CDATA[https://www.letsrun.com/news/2026/04/15930-sabastian-sawe-sh...https://news.adidas.com/running/two-adidas-athletes-sabastia...
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47914350
-积分：324
-# 条评论：218]]></description>
+积分：369
+评论数：254]]></description>
       <guid>https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo</guid>
       <pubDate>Sun, 26 Apr 2026 20:56:30 GMT</pubDate>
     </item>
@@ -92,8 +81,8 @@
       <link>https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d</link>
       <description><![CDATA[文章网址： https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d
 评论网址：https://news.ycombinator.com/item?id=47914165
-积分：599
-# 条评论：335]]></description>
+积分：743
+评论数：384]]></description>
       <guid>https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d</guid>
       <pubDate>Sun, 26 Apr 2026 20:41:06 GMT</pubDate>
     </item>
@@ -102,10 +91,20 @@
       <link>https://moq.dev/blog/moq-boy/</link>
       <description><![CDATA[文章网址：https://moq.dev/blog/moq-boy/
 评论网址：https://news.ycombinator.com/item?id=47914161
-积分：50
-# 条评论：5]]></description>
+积分：59
+# 条评论：7]]></description>
       <guid>https://moq.dev/blog/moq-boy/</guid>
       <pubDate>Sun, 26 Apr 2026 20:40:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fast16：比 Stuxnet 早 5 年的高精度软件破坏</title>
+      <link>https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/</link>
+      <description><![CDATA[文章网址： https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high- precision-software-sabotage-5-years-before-stuxnet/
+评论网址：https://news.ycombinator.com/item?id=47913855
+积分：235
+# 条评论：51]]></description>
+      <guid>https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/</guid>
+      <pubDate>Sun, 26 Apr 2026 20:18:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
