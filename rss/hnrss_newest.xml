@@ -4,117 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 29 Apr 2026 02:52:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 05:56:15 GMT</lastBuildDate>
     <item>
-      <title>pip 26.1 中的新增功能 – 锁定文件和依赖项冷却时间</title>
-      <link>https://simonwillison.net/2026/Apr/28/pip-261/</link>
-      <description><![CDATA[文章网址：https://simonwillison.net/2026/Apr/28/pip-261/
-评论网址：https://news.ycombinator.com/item?id=47943629
-积分：1
-# 条评论：0]]></description>
-      <guid>https://simonwillison.net/2026/Apr/28/pip-261/</guid>
-      <pubDate>Wed, 29 Apr 2026 02:42:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 OpenAI 试验中，马斯克重拾昔日友谊</title>
-      <link>https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/</link>
-      <description><![CDATA[文章网址：https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/
-评论网址：https://news.ycombinator.com/item?id=47943593
-积分：1
-# 条评论：0]]></description>
-      <guid>https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/</guid>
-      <pubDate>Wed, 29 Apr 2026 02:34:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>从导航员到制图师——通往强人工智能之路</title>
-      <link>https://pavelvoronin.com/ai-beyond-navigation/</link>
-      <description><![CDATA[文章网址：https://pavelvoronin.com/ai-beyond-navigation/
-评论网址：https://news.ycombinator.com/item?id=47943560
-积分：1
-# 条评论：0]]></description>
-      <guid>https://pavelvoronin.com/ai-beyond-navigation/</guid>
-      <pubDate>Wed, 29 Apr 2026 02:28:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Pcons：Python 中的新软件构建工具，受到 SCons 和 CMake 的启发</title>
-      <link>https://github.com/DarkStarSystems/pcons</link>
-      <description><![CDATA[我真的很高兴看到 pcons 在开源社区中得到了一些采用，所以我想我应该发布一个更新，因为它现在已经到了 v0.14.1。 Pcons 是一个新的开源构建工具，它是 SCons 和 CMake 中最好的，但问题更少。自 v0.7（上一篇 HN 帖子）以来，现在有移植指南、LaTeX 工具链、完整的 C++20 模块支持、Fortran 工具链（包括 MODULE/USE）、通过 WASI 和 EMSDK 的 WebAssembly。它可以生成 pkg-config 文件，更可靠地查找 MSVC，添加 Ninja restat 支持以实现更快的构建、更好的 target.depends()、更好的日志记录和调试、CMake 风格的基于模板的配置标头以及大量改进和修复。我是 SCons 的原始开发人员之一，并帮助维护它多年。我喜欢 Python 作为配置语言——它使构建描述变得异常灵活。但随着时间的推移，在其他项目上使用 CMake 时，我开始意识到 SCons 做的不好：描述构建和执行构建之间的分离、传递依赖传播、包管理器集成和现代 Python 语义。多年来我一直在考虑重新开始，但一直没有时间。最近与Claude Code合作，终于实现了。所以，来认识一下 pcons。您可以将它用作“uvx pcons”，实现真正的零安装（非常适合其他开源项目）。这里有与其他常见构建工具的比较：https://github.com/DarkStarSystems/pcons/blob/main/COMPARISO... - 感谢更正和更新！v0.14.1 的主要功能：
-- 用于 GCC、LLVM/Clang、MSVC 和 clang-cl（具有自动检测功能）、LaTeX、gfortran、WebAssembly 等的工具链。
-- Ninja、Makefile、Xcode、compile_commands.json 和 Mermaid/DOT 依赖关系图的生成器
-- 可以创建安装程序：Windows 上的 msix、Mac 上的 pkg/dmg、Linux 上的 tgz
-- 通过 pkg-config、Conan 2.x 和 pcons-fetch 工具进行包管理，用于从源代码构建依赖项
-- 编译器缓存支持（ccache/sccache）、语义预设（警告、消毒剂、LTO、强化）、交叉编译预设（Android NDK、iOS、WebAssembly）
-- 特定于平台的帮助程序：macOS 捆绑包/框架/.pkg/.dmg、Windows 清单/MSIX 以及用于在不使用 Visual Studio 的情况下安装 MSVC 的 msvcup 模块
-- 用于特定领域任务的可扩展模块/附加系统
-- 调试跟踪（--debug=resolve,subst），并在每个节点上跟踪源位置
-- 包含大量示例，所有功能的单元测试，在 Mac、Windows 和 Linux 上进行了测试它正在积极开发中 - 准备好进行实验，但它非常稳定 - 足以用于轻型生产。我希望获得错误报告、API 设计反馈以及您希望从基于 Python 的现代软件构建系统获得什么。我认真对待我的工具，并打算很好地支持它，所以请尝试一下！开源，麻省理工学院许可。
-GitHub：https://github.com/DarkStarSystems/pcons |文档： https://pcons.readthedocs.io | PyPI：“uvx pcons”或“pip install pcons”
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47943555
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/DarkStarSystems/pcons</guid>
-      <pubDate>Wed, 29 Apr 2026 02:28:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gemini企业代理平台</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform/</link>
-      <description><![CDATA[文章网址：https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform/
-评论网址：https://news.ycombinator.com/item?id=47943540
-积分：2
-# 条评论：0]]></description>
-      <guid>https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform/</guid>
-      <pubDate>Wed, 29 Apr 2026 02:25:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>我雇佣了一个人工智能作为SO。他选了一个名字，我们合着了一本书</title>
-      <link>https://jdeid.it/agi-research/</link>
-      <description><![CDATA[文章网址：https://jdeid.it/agi-research/
-评论网址：https://news.ycombinator.com/item?id=47943532
+      <title>慢慢地，然后突然：产品如何失败（2022）</title>
+      <link>https://every.to/p/breaching-the-trust-thermocline</link>
+      <description><![CDATA[文章网址：https://every.to/p/breaching-the-trust-thermocline
+评论网址：https://news.ycombinator.com/item?id=47944608
 积分：1
 # 条评论：1]]></description>
-      <guid>https://jdeid.it/agi-research/</guid>
-      <pubDate>Wed, 29 Apr 2026 02:24:47 GMT</pubDate>
+      <guid>https://every.to/p/breaching-the-trust-thermocline</guid>
+      <pubDate>Wed, 29 Apr 2026 05:48:40 GMT</pubDate>
     </item>
     <item>
-      <title>亚马逊连接人才</title>
-      <link>https://aws.amazon.com/products/connect/talent/</link>
-      <description><![CDATA[文章网址：https://aws.amazon.com/products/connect/talent/
-评论网址：https://news.ycombinator.com/item?id=47943530
+      <title>Show HN: ShareNova – 浏览器文件共享，无账户，无限制，无存储</title>
+      <link>https://sharenova.io</link>
+      <description><![CDATA[之所以这样做，是因为大多数文件共享工具要么需要帐户，要么有大小限制，要么无限期地存储您的文件。 ShareNova 基于浏览器 - 实时传输的大小不受限制，接收者不需要帐户，并且文件不会永久存储在我们的服务器上。使用 WebSocket 中继。提供免费套餐。欢迎诚实的反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47944584
+积分：1
+# 条评论：1]]></description>
+      <guid>https://sharenova.io</guid>
+      <pubDate>Wed, 29 Apr 2026 05:45:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>我为 LLM 应用程序构建了 OWASP 风格的安全技能包（NPM 安装）</title>
+      <link>https://www.npmjs.com/package/miii-security</link>
+      <description><![CDATA[文章网址：https://www.npmjs.com/package/miii-security
+评论网址：https://news.ycombinator.com/item?id=47944575
 积分：1
 # 条评论：0]]></description>
-      <guid>https://aws.amazon.com/products/connect/talent/</guid>
-      <pubDate>Wed, 29 Apr 2026 02:24:15 GMT</pubDate>
+      <guid>https://www.npmjs.com/package/miii-security</guid>
+      <pubDate>Wed, 29 Apr 2026 05:43:50 GMT</pubDate>
     </item>
     <item>
-      <title>随着价格飙升，中国团队开创了将二氧化碳转化为航空燃料的道路</title>
-      <link>https://www.scmp.com/news/china/science/article/3351749/chinese-team-pioneers-path-turn-carbon-dioxide-jet-fuel-prices-soar</link>
-      <description><![CDATA[文章网址：https://www.scmp.com/news/china/science/article/3351749/chinese-team-pioneers-path-turn-carbon-dioxy-jet-fuel-prices-soar
-评论网址：https://news.ycombinator.com/item?id=47943526
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.scmp.com/news/china/science/article/3351749/chinese-team-pioneers-path-turn-carbon-dioxide-jet-fuel-prices-soar</guid>
-      <pubDate>Wed, 29 Apr 2026 02:23:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>生锈不会感染虫子</title>
-      <link>https://corrode.dev/blog/bugs-rust-wont-catch/</link>
-      <description><![CDATA[文章网址：https://corrode.dev/blog/bugs-rust-wont-catch/
-评论网址：https://news.ycombinator.com/item?id=47943499
+      <title>Kubernetes调度器如何选择节点？</title>
+      <link>https://blog.kubesimplify.com/kube-scheduler-deep-dive</link>
+      <description><![CDATA[文章网址：https://blog.kubesimplify.com/kube-scheduler-deep-dive
+评论网址：https://news.ycombinator.com/item?id=47944571
 积分：1
 # 条评论：0]]></description>
-      <guid>https://corrode.dev/blog/bugs-rust-wont-catch/</guid>
-      <pubDate>Wed, 29 Apr 2026 02:19:11 GMT</pubDate>
+      <guid>https://blog.kubesimplify.com/kube-scheduler-deep-dive</guid>
+      <pubDate>Wed, 29 Apr 2026 05:42:54 GMT</pubDate>
     </item>
     <item>
-      <title>Fedora Linux 44 已经发布</title>
-      <link>https://lwn.net/Articles/1070198/</link>
-      <description><![CDATA[文章网址：https://lwn.net/Articles/1070198/
-评论网址：https://news.ycombinator.com/item?id=47943469
+      <title>Viral.ad – 一个 URL，15 种广告格式（UGC、Reddit、LinkedIn）</title>
+      <link>https://www.viral.ad/</link>
+      <description><![CDATA[文章网址：https://www.viral.ad/
+评论网址：https://news.ycombinator.com/item?id=47944561
 积分：1
 # 条评论：0]]></description>
-      <guid>https://lwn.net/Articles/1070198/</guid>
-      <pubDate>Wed, 29 Apr 2026 02:14:24 GMT</pubDate>
+      <guid>https://www.viral.ad/</guid>
+      <pubDate>Wed, 29 Apr 2026 05:41:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>澳大利亚对 Meta、谷歌和 TikTok 征税以资助新闻编辑室</title>
+      <link>https://www.asahi.com/ajw/articles/16534180</link>
+      <description><![CDATA[文章网址：https://www.asahi.com/ajw/articles/16534180
+评论网址：https://news.ycombinator.com/item?id=47944551
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.asahi.com/ajw/articles/16534180</guid>
+      <pubDate>Wed, 29 Apr 2026 05:39:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Windows 11 每月 5GB .msu 更新，AI 只是问题的一部分</title>
+      <link>https://www.windowslatest.com/2026/04/29/i-investigated-windows-11s-massive-5gb-monthly-msu-updates-ai-is-only-part-of-the-problem/</link>
+      <description><![CDATA[文章网址： https://www.windowslatest.com/2026/04/29/i-investigated-windows-11s-massive-5gb-monthly-msu-updates-ai-is-only-part-of-the-problem/
+评论网址：https://news.ycombinator.com/item?id=47944511
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.windowslatest.com/2026/04/29/i-investigated-windows-11s-massive-5gb-monthly-msu-updates-ai-is-only-part-of-the-problem/</guid>
+      <pubDate>Wed, 29 Apr 2026 05:30:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>IBM Bob：人工智能开发合作伙伴</title>
+      <link>https://newsroom.ibm.com/2026-04-28-introducing-ibm-bob-ai-development-partner-that-takes-enterprises-from-ai-assisted-coding-to-production-ready-software</link>
+      <description><![CDATA[文章网址： https://newsroom.ibm.com/2026-04-28-introducing-ibm-bob-ai-development-partner-that-takes-enterprises-from-ai-assistance-coding-to-生产-ready-software
+评论网址：https://news.ycombinator.com/item?id=47944507
+积分：2
+# 条评论：0]]></description>
+      <guid>https://newsroom.ibm.com/2026-04-28-introducing-ibm-bob-ai-development-partner-that-takes-enterprises-from-ai-assisted-coding-to-production-ready-software</guid>
+      <pubDate>Wed, 29 Apr 2026 05:29:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>回归情报</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6578939</link>
+      <description><![CDATA[文章网址：https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6578939
+评论网址：https://news.ycombinator.com/item?id=47944502
+积分：1
+# 条评论：0]]></description>
+      <guid>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6578939</guid>
+      <pubDate>Wed, 29 Apr 2026 05:28:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>吉米·坎摩尔拿梅拉尼娅开玩笑后，美国监管机构将审查迪士尼许可</title>
+      <link>https://www.bbc.com/news/articles/c4g0zwxl3k0o</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c4g0zwxl3k0o
+评论网址：https://news.ycombinator.com/item?id=47944471
+积分：2
+# 条评论：1]]></description>
+      <guid>https://www.bbc.com/news/articles/c4g0zwxl3k0o</guid>
+      <pubDate>Wed, 29 Apr 2026 05:24:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
