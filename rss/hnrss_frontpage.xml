@@ -4,106 +4,113 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 30 Apr 2026 16:19:46 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 21:57:00 GMT</lastBuildDate>
     <item>
-      <title>西班牙议会将对西甲大规模知识产权封锁采取行动</title>
-      <link>https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/</link>
-      <description><![CDATA[文章网址：https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/
-评论网址：https://news.ycombinator.com/item?id=47964034
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/</guid>
-      <pubDate>Thu, 30 Apr 2026 15:31:40 GMT</pubDate>
+      <title>显示 HN：Pu.sh – 400 行 shell 中的完整编码代理工具</title>
+      <link>https://pu.dev/</link>
+      <description><![CDATA[我最初只是在搞乱 pi-autoresearch。给它一个示例任务来构建最可移植的编码代理。首先削减的是 6 KB 的 shell。非常适合一次性使用，无法交互使用。我很震惊它居然能起作用。开始构建——添加功能——但有一个自我强加的规则：没有新的依赖项，并且 LOC 低于 500。这东西必须是真正便携的。只是 sh、curl、awk。仅系统原语。这意味着我在 awk 中做了一些真正令人厌恶的事情，包括 JSON 解析和 OpenAI
+响应工具循环，其中推理项目跨轮进行。现在约为 400 行。包装盒内：Anthropic + OpenAI，7 个工具（bash、read、write、edit、grep、find、ls），
+REPL、自动压缩、检查点/恢复、管道模式、90 个无 API 测试。盒子里没有：TUI、流媒体、
+图像、OAuth、Windows、尊严。两件诚实的事情：1。我窃取/修改了系统提示符和架构。 Pi/Claude/Codex 编写了 awk。我无法阅读大部分代码。一年前这对我来说是不可能的。2.深受 Pi (pi.dev) 的启发 - 相同的 7 工具界面，相同的精确文本编辑模型。信用在哪里
+由于。 Pi 很棒——你应该使用它们。代理循环本身很小。 “真正的”代理 CLI 中的几乎所有其他内容都是 DX 和强化。你可以
+可能完全按照您喜欢的方式构建您自己的安全带。 Mario Zechner 的人工智能工程师谈论夺回控制权
+你的工具把我推到了这里。这个名字是因为它是一个 .sh 文件。遗憾的是，听起来的另一件事也是准确的。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47968112
+积分：20
+# 条评论：5]]></description>
+      <guid>https://pu.dev/</guid>
+      <pubDate>Thu, 30 Apr 2026 20:55:12 GMT</pubDate>
     </item>
     <item>
-      <title>日本正在制造纸板自杀无人机</title>
-      <link>https://www.404media.co/japan-cardboard-drones-air-kamuy/</link>
-      <description><![CDATA[文章网址：https://www.404media.co/japan-cardboard-drones-air-kamuy/
-评论网址：https://news.ycombinator.com/item?id=47963499
-积分：43
-# 条评论：31]]></description>
-      <guid>https://www.404media.co/japan-cardboard-drones-air-kamuy/</guid>
-      <pubDate>Thu, 30 Apr 2026 14:55:36 GMT</pubDate>
+      <title>苹果公布第二季度业绩</title>
+      <link>https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/</link>
+      <description><![CDATA[文章网址：https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/
+评论网址：https://news.ycombinator.com/item?id=47967863
+积分：40
+# 条评论：15]]></description>
+      <guid>https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/</guid>
+      <pubDate>Thu, 30 Apr 2026 20:33:48 GMT</pubDate>
     </item>
     <item>
-      <title>持久队列、流、发布/订阅和 cron 调度程序 – 在 SQLite 文件中</title>
-      <link>https://honker.dev/</link>
-      <description><![CDATA[文章网址：https://honker.dev/
-评论网址：https://news.ycombinator.com/item?id=47963316
-积分：5
-# 条评论：0]]></description>
-      <guid>https://honker.dev/</guid>
-      <pubDate>Thu, 30 Apr 2026 14:43:02 GMT</pubDate>
+      <title>Rivian 允许您禁用所有互联网连接</title>
+      <link>https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle</link>
+      <description><![CDATA[文章网址：https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle
+评论网址：https://news.ycombinator.com/item?id=47967786
+积分：202
+# 条评论：79]]></description>
+      <guid>https://rivian.com/support/article/can-i-disable-all-data-collection-from-my-vehicle</guid>
+      <pubDate>Thu, 30 Apr 2026 20:27:22 GMT</pubDate>
     </item>
     <item>
-      <title>如果您的承诺提及“OpenClaw”，Claude Code 会拒绝请求或收取额外费用</title>
-      <link>https://twitter.com/theo/status/2049645973350363168</link>
-      <description><![CDATA[文章网址：https://twitter.com/theo/status/2049645973350363168
-评论网址：https://news.ycombinator.com/item?id=47963204
-积分：123
-# 条评论：66]]></description>
-      <guid>https://twitter.com/theo/status/2049645973350363168</guid>
-      <pubDate>Thu, 30 Apr 2026 14:36:58 GMT</pubDate>
+      <title>追加销售游戏 – Vercel 追加销售策略揭秘</title>
+      <link>https://theupsellgame.com/</link>
+      <description><![CDATA[文章网址：https://theupsellgame.com/
+评论网址：https://news.ycombinator.com/item?id=47967508
+积分：32
+# 条评论：1]]></description>
+      <guid>https://theupsellgame.com/</guid>
+      <pubDate>Thu, 30 Apr 2026 20:02:35 GMT</pubDate>
     </item>
     <item>
-      <title>年轻人越多使用人工智能，他们就越讨厌它</title>
-      <link>https://www.theverge.com/ai-artificial-intelligence/920401/gen-z-ai</link>
-      <description><![CDATA[文章网址：https://www.theverge.com/ai-artificial-intelligence/920401/gen-z-ai
-评论网址：https://news.ycombinator.com/item?id=47963163
-积分：76
-# 条评论：68]]></description>
-      <guid>https://www.theverge.com/ai-artificial-intelligence/920401/gen-z-ai</guid>
-      <pubDate>Thu, 30 Apr 2026 14:34:36 GMT</pubDate>
+      <title>美国参议员投票禁止自己在预测市场上进行交易</title>
+      <link>https://www.wsj.com/politics/policy/senators-vote-to-ban-themselves-from-trading-on-prediction-markets-ae4535dd</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/politics/policy/senators-vote-to-ban-themselves-from-trading-on-prediction-markets-ae4535dd
+评论网址：https://news.ycombinator.com/item?id=47967289
+积分：236
+评论数量：82]]></description>
+      <guid>https://www.wsj.com/politics/policy/senators-vote-to-ban-themselves-from-trading-on-prediction-markets-ae4535dd</guid>
+      <pubDate>Thu, 30 Apr 2026 19:42:33 GMT</pubDate>
     </item>
     <item>
-      <title>炼油厂如何运作</title>
-      <link>https://www.construction-physics.com/p/how-an-oil-refinery-works</link>
-      <description><![CDATA[文章网址：https://www.construction-physicals.com/p/how-an-oil-refinery-works
-评论网址：https://news.ycombinator.com/item?id=47962548
-积分：109
-# 条评论：17]]></description>
-      <guid>https://www.construction-physics.com/p/how-an-oil-refinery-works</guid>
-      <pubDate>Thu, 30 Apr 2026 13:54:20 GMT</pubDate>
+      <title>LinkedIn 扫描 6,278 个扩展并将结果加密到每个请求中</title>
+      <link>https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/</link>
+      <description><![CDATA[文章网址：https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/
+评论网址：https://news.ycombinator.com/item?id=47967262
+积分：163
+# 条评论：52]]></description>
+      <guid>https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/</guid>
+      <pubDate>Thu, 30 Apr 2026 19:40:20 GMT</pubDate>
     </item>
     <item>
-      <title>今天，FCC 即将禁止其 21% 的测试实验室。我把它们都映射了</title>
-      <link>https://markready.io/blog/fcc-accredited-test-labs-complete-guide</link>
-      <description><![CDATA[文章网址：https://markready.io/blog/fcc-accredited-test-labs-complete-guide
-评论网址：https://news.ycombinator.com/item?id=47962386
-积分：108
-# 条评论：53]]></description>
-      <guid>https://markready.io/blog/fcc-accredited-test-labs-complete-guide</guid>
-      <pubDate>Thu, 30 Apr 2026 13:45:10 GMT</pubDate>
+      <title>Carrot 披露的后续行动：Forgejo</title>
+      <link>https://dustri.org/b/follow-up-to-carrot-disclosure-forgejo.html</link>
+      <description><![CDATA[文章网址：https://dustri.org/b/follow-up-to-carrot-disclosure-forgejo.html
+评论网址：https://news.ycombinator.com/item?id=47967069
+积分：24
+# 条评论：5]]></description>
+      <guid>https://dustri.org/b/follow-up-to-carrot-disclosure-forgejo.html</guid>
+      <pubDate>Thu, 30 Apr 2026 19:22:55 GMT</pubDate>
     </item>
     <item>
-      <title>蜂蜜永恒保质期背后的科学 (2013)</title>
-      <link>https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/</link>
-      <description><![CDATA[文章网址：https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/
-评论网址：https://news.ycombinator.com/item?id=47961934
-积分：21
+      <title>Postgres 可以扩展吗？</title>
+      <link>https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres</link>
+      <description><![CDATA[文章网址：https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres
+评论网址：https://news.ycombinator.com/item?id=47966625
+积分：44
+# 条评论：21]]></description>
+      <guid>https://www.dbos.dev/blog/benchmarking-workflow-execution-scalability-on-postgres</guid>
+      <pubDate>Thu, 30 Apr 2026 18:45:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 DuckDB 进行全文搜索</title>
+      <link>https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html</link>
+      <description><![CDATA[文章网址：https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html
+评论网址：https://news.ycombinator.com/item?id=47966254
+积分：49
 # 条评论：14]]></description>
-      <guid>https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/</guid>
-      <pubDate>Thu, 30 Apr 2026 13:15:04 GMT</pubDate>
+      <guid>https://peterdohertys.website/blog-posts/full-text-search-w-duckdb.html</guid>
+      <pubDate>Thu, 30 Apr 2026 18:14:18 GMT</pubDate>
     </item>
     <item>
-      <title>看到智能眼镜用户发生性行为的工人失业后，Meta 连续失业</title>
-      <link>https://www.bbc.com/news/articles/c5y7yvgy0w6o</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c5y7yvgy0w6o
-评论网址：https://news.ycombinator.com/item?id=47961838
-积分：356
-评论数：246]]></description>
-      <guid>https://www.bbc.com/news/articles/c5y7yvgy0w6o</guid>
-      <pubDate>Thu, 30 Apr 2026 13:07:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>我将 28 个美国政府拍卖网站聚合到一个搜索中</title>
-      <link>https://bidprowl.com</link>
-      <description><![CDATA[文章网址：https://bidprowl.com
-评论网址：https://news.ycombinator.com/item?id=47961378
-积分：136
-# 条评论：39]]></description>
-      <guid>https://bidprowl.com</guid>
-      <pubDate>Thu, 30 Apr 2026 12:24:53 GMT</pubDate>
+      <title>使用 PhotoRec 从坟墓中恢复文件</title>
+      <link>https://lost-number.bearblog.dev/recovering-files-from-beyond-the-grave-using-photorec/</link>
+      <description><![CDATA[文章网址：https://lost-number.bearblog.dev/recovering-files-from-beyond-the-grave-using-photorec/
+评论网址：https://news.ycombinator.com/item?id=47965835
+积分：36
+# 条评论：5]]></description>
+      <guid>https://lost-number.bearblog.dev/recovering-files-from-beyond-the-grave-using-photorec/</guid>
+      <pubDate>Thu, 30 Apr 2026 17:42:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
