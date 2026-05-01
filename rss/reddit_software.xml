@@ -4,7 +4,28 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Fri, 01 May 2026 08:11:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 10:23:54 GMT</lastBuildDate>
+    <item>
+      <title>我需要有关计算机错误代码 0x1A 的帮助</title>
+      <link>https://www.reddit.com/r/software/comments/1t0pf89/i_need_help_with_computer_arror_code_0x1a/</link>
+      <description><![CDATA[我不知道我必须做什么。我看过很多 YouTube 视频，但没有任何帮助。如果您了解更多，可以帮我吗？   由   提交/u/secuze  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t0pf89/i_need_help_with_computer_arror_code_0x1a/</guid>
+      <pubDate>Fri, 01 May 2026 10:21:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>屏幕级AI助手——翻译、截图、提问</title>
+      <link>https://www.reddit.com/r/software/comments/1t0p4ot/screenlevel_ai_assistant_translate_screenshot_ask/</link>
+      <description><![CDATA[ 由   提交 /u/ZMFooo   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t0p4ot/screenlevel_ai_assistant_translate_screenshot_ask/</guid>
+      <pubDate>Fri, 01 May 2026 10:05:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare 如何在周末重建 Next.js</title>
+      <link>https://www.reddit.com/r/software/comments/1t0nqew/how_cloudflare_rebuilt_nextjs_in_a_weekend/</link>
+      <description><![CDATA[我们在内联 AI 代码建议方面已经取得了很大进展。现在，开发人员正在使用人工智能编码代理对整个软件组件甚至主要框架进行逆向工程。 最新案例来自 Cloudflare。 2026 年初，一位工程总监在 OpenCode 中使用 Claude 在几天内重建了流行的 React 框架 Next.js。  “一个周末，一位工程总监决定将人工智能指向它，看看他通过纯粹的代理编码能走多远，”Cloudflare 首席技术官 Dane Knecht 告诉 LeadDev。 “第一个周末之后，效果非常好。” 完整故事：https://leaddev.com/ai/how-cloudflare-rebuilt-next-js-in-a-weekend   由   提交 /u/OfficialLeadDev   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1t0nqew/how_cloudflare_rebuilt_nextjs_in_a_weekend/</guid>
+      <pubDate>Fri, 01 May 2026 08:45:43 GMT</pubDate>
+    </item>
     <item>
       <title>Windows 备份共享软件</title>
       <link>https://www.reddit.com/r/software/comments/1t0j7da/windows_backup_shareware/</link>
@@ -36,7 +57,7 @@
     <item>
       <title>受 Jarvis 的启发，我为我的 PC 构建了一个本地 AI 语音助手，它在我的 GPU 上 100% 离线运行，打开应用程序、点餐并读取我的屏幕。</title>
       <link>https://www.reddit.com/r/software/comments/1t0b9fq/i_built_a_local_ai_voice_assistant_for_my_pc/</link>
-      <description><![CDATA[我想提前让大家知道，我确实使用了 Claude 来帮助我构建代码和此说明。 自从我小时候观看《钢铁侠》以来，我就想要拥有自己的 Jarvis，一个能够真正控制您的 PC 的语音助手，而不仅仅是搜索网络。那里的一切（Cortana、Alexa、Google Assistant）感觉就像是我脑子里的东西的淡化版本。  它的作用  你说“Nexus”紧接着一个命令，它会立即执行： • “Nexus，打开 Geometry Dash” → 游戏启动 •“Nexus，将音量设置为 40” → 完成 •“Nexus，我的屏幕上有什么？” → AI 看着您的屏幕并告诉您 •“Nexus，从 Dominos 订购一份意大利辣香肠披萨” → 打开订购页面，准备开始 • “Nexus，散热片” → 大声报告您的 CPU 负载和 GPU 温度 •“Nexus，游戏模式” → 关闭 Chrome，启动 Discord，用一个命令将音量设置为 60  它甚至可以处理语音识别错误 - 说“rinecraft”仍然打开我的世界。  工作原理  整个过程在您的 GPU 上本地运行。无需订阅，无需云，无需 API 密钥。  — 适用于一切的 Python — Ollama 在 GPU 上运行 gemma3:4b 作为 AI 大脑 — 用于聆听命令的 Google 语音识别 — 用于语音响应的 pyttsx3 — 自定义执行器，根据 AI 返回的内容分派操作系统级操作  当您说出命令时，它会被发送到本地 Ollama 模型，该模型返回结构化 JSON 操作计划。执行器读取 JSON 并实际执行操作 - 启动应用程序、更改音量、打开 URL 等等。人工智能从不直接接触你的系统，它只是决定要做什么，然后由 Python 代码来做。  它还会在首次启动时扫描所有驱动器并自动索引每个已安装的应用程序，因此您无需手动添加大多数内容的路径。  功能  ✓ 在您自己的 GPU 上 100% 离线运行 ✓ 自动扫描所有驱动器并为每个已安装的应用程序编制索引 ✓ 模糊语音匹配（处理麦克风错误和口音） ✓ 屏幕视觉 — 可以查看并描述显示器上的内容 ✓ 持久内存 — 记住跨会话的过去对话 ✓ 网络仪表板at localhost:8080 ✓ 点餐 — 将 Dominos、KFC、Subway 等直接打开到订单页面 ✓ 宏系统 — 将多个操作链接到一个语音命令 ✓ 适应失败的启动 — 随着时间的推移学习工作路径   由   提交/u/Distinct-Rub-2965   [链接] [评论]]]></description>
+      <description><![CDATA[我想提前让大家知道我确实使用了 Claude 来帮助我构建代码和此描述。 自从我小时候观看《钢铁侠》以来，我就想要拥有自己的 Jarvis，一个能够实际控制您的 PC 的语音助手，而不仅仅是搜索网络。那里的一切（Cortana、Alexa、Google Assistant）感觉就像是我脑子里的东西的淡化版本。  它的作用  你说“Nexus”紧接着一个命令，它会立即执行： • “Nexus，打开 Geometry Dash” → 游戏启动 •“Nexus，将音量设置为 40” → 完成 •“Nexus，我的屏幕上有什么？” → AI 看着您的屏幕并告诉您 •“Nexus，从 Dominos 订购一份意大利辣香肠披萨” → 打开订购页面，准备开始 • “Nexus，散热片” → 大声报告您的 CPU 负载和 GPU 温度 •“Nexus，游戏模式” → 关闭 Chrome，启动 Discord，用一个命令将音量设置为 60  它甚至可以处理语音识别错误 - 说“rinecraft”仍然打开我的世界。  工作原理  整个过程在您的 GPU 上本地运行。无需订阅，无需云，无需 API 密钥。  — 适用于一切的 Python — Ollama 在 GPU 上运行 gemma3:4b 作为 AI 大脑 — 用于聆听命令的 Google 语音识别 — 用于语音响应的 pyttsx3 — 自定义执行器，根据 AI 返回的内容分派操作系统级操作  当您说出命令时，它会被发送到本地 Ollama 模型，该模型返回结构化 JSON 操作计划。执行器读取 JSON 并实际执行操作 - 启动应用程序、更改音量、打开 URL 等等。人工智能从不直接接触你的系统，它只是决定要做什么，然后由 Python 代码来做。  它还会在首次启动时扫描所有驱动器并自动索引每个已安装的应用程序，因此您无需手动添加大多数内容的路径。  功能  ✓ 在您自己的 GPU 上 100% 离线运行 ✓ 自动扫描所有驱动器并为每个已安装的应用程序编制索引 ✓ 模糊语音匹配（处理麦克风错误和口音） ✓ 屏幕视觉 — 可以查看并描述显示器上的内容 ✓ 持久内存 — 记住跨会话的过去对话 ✓ 网络仪表板at localhost:8080 ✓ 点餐 — 将 Dominos、KFC、Subway 等直接打开到订单页面 ✓ 宏系统 — 将多个操作链接到一个语音命令 ✓ 适应失败的启动 — 随着时间的推移学习工作路径   由   提交/u/Distinct-Rub-2965   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1t0b9fq/i_built_a_local_ai_voice_assistant_for_my_pc/</guid>
       <pubDate>Thu, 30 Apr 2026 22:34:15 GMT</pubDate>
     </item>
@@ -50,7 +71,7 @@
     <item>
       <title>我无法使用浏览器</title>
       <link>https://www.reddit.com/r/software/comments/1t08u3s/i_cant_use_browsers/</link>
-      <description><![CDATA[ 由   提交/u/Low-Persimmon-131   [链接] [评论]]]></description>
+      <description><![CDATA[ 由   提交 /u/Low-Persimmon-131   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1t08u3s/i_cant_use_browsers/</guid>
       <pubDate>Thu, 30 Apr 2026 20:58:32 GMT</pubDate>
     </item>
@@ -88,27 +109,6 @@
       <description><![CDATA[ 由   提交 /u/replacement-part   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1t03sk6/is_there_a_local_photo_management_software_that/</guid>
       <pubDate>Thu, 30 Apr 2026 17:56:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>AppControl 见解部分</title>
-      <link>https://www.reddit.com/r/software/comments/1t022o3/appcontrol_insights_section/</link>
-      <description><![CDATA[ 由   提交 /u/CatchProfessional554   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1t022o3/appcontrol_insights_section/</guid>
-      <pubDate>Thu, 30 Apr 2026 16:55:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>对于这种情况需要指导</title>
-      <link>https://www.reddit.com/r/software/comments/1szzbpq/need_guidance_on_this_situation/</link>
-      <description><![CDATA[ 由   提交 /u/Early-Scientist9848   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1szzbpq/need_guidance_on_this_situation/</guid>
-      <pubDate>Thu, 30 Apr 2026 15:24:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>免费 - 开源 - 音乐可视化工具 - 无需帐户/无需订阅 - 仅供娱乐</title>
-      <link>https://www.reddit.com/r/software/comments/1szyj73/free_open_source_music_visualizer_no_accountno/</link>
-      <description><![CDATA[ 由   提交 /u/Far-Employee-9531   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1szyj73/free_open_source_music_visualizer_no_accountno/</guid>
-      <pubDate>Thu, 30 Apr 2026 14:59:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
