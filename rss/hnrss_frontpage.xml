@@ -4,29 +4,98 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 01 May 2026 10:27:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 13:19:01 GMT</lastBuildDate>
+    <item>
+      <title>在浏览器中运行 Adob​​e 1991 PostScript 解释器</title>
+      <link>https://www.pagetable.com/?p=1854</link>
+      <description><![CDATA[文章网址：https://www.pagetable.com/?p=1854
+评论网址：https://news.ycombinator.com/item?id=47973755
+积分：23
+# 条评论：10]]></description>
+      <guid>https://www.pagetable.com/?p=1854</guid>
+      <pubDate>Fri, 01 May 2026 11:58:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：网站篡改</title>
+      <link>https://sitemogging.com</link>
+      <description><![CDATA[您好，HN，我一直在使用 Cloudflare 的 Browser Run 和 Workers AI 创建这个有趣的“网站与网站”网站。Google 的 Gemma 4b 模型实际上非常擅长视觉。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47973559
+积分：22
+# 条评论：23]]></description>
+      <guid>https://sitemogging.com</guid>
+      <pubDate>Fri, 01 May 2026 11:32:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple 不小心留下了 Claude.md 文件 Apple 支持应用</title>
+      <link>https://xcancel.com/aaronp613/status/2049986504617820551</link>
+      <description><![CDATA[文章网址：https://xcancel.com/aaronp613/status/2049986504617820551
+评论网址：https://news.ycombinator.com/item?id=47973378
+积分：92
+# 条评论：45]]></description>
+      <guid>https://xcancel.com/aaronp613/status/2049986504617820551</guid>
+      <pubDate>Fri, 01 May 2026 11:08:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>您的网站不适合您</title>
+      <link>https://websmith.studio/blog/your-website-is-not-for-you/</link>
+      <description><![CDATA[文章网址：https://websmith.studio/blog/your-website-is-not-for-you/
+评论网址：https://news.ycombinator.com/item?id=47973376
+积分：85
+# 条评论：52]]></description>
+      <guid>https://websmith.studio/blog/your-website-is-not-for-you/</guid>
+      <pubDate>Fri, 01 May 2026 11:08:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>在批评 Anthropic 限制神话后，OpenAI 限制对网络的访问</title>
+      <link>https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/</link>
+      <description><![CDATA[文章网址： https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/
+评论网址：https://news.ycombinator.com/item?id=47973108
+积分：83
+# 条评论：62]]></description>
+      <guid>https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/</guid>
+      <pubDate>Fri, 01 May 2026 10:28:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sourcehut 初学者指南 (2025)</title>
+      <link>https://btxx.org/posts/beginners-guide-sourcehut/</link>
+      <description><![CDATA[文章网址：https://btxx.org/posts/beginners-guide-sourcehut/
+评论网址：https://news.ycombinator.com/item?id=47973084
+积分：33
+评论数量：9]]></description>
+      <guid>https://btxx.org/posts/beginners-guide-sourcehut/</guid>
+      <pubDate>Fri, 01 May 2026 10:23:52 GMT</pubDate>
+    </item>
     <item>
       <title>Show HN：适用于 Windows 的完美蓝牙 MIDI</title>
       <link>https://news.ycombinator.com/item?id=47972888</link>
-      <description><![CDATA[嗨，HN，我是埃尔文。我构建了一个小型免费开源实用程序，可将蓝牙 LE MIDI 键盘桥接到新的 Windows MIDI 服务堆栈中，以便任何 DAW 或 Web MIDI 应用程序都可以像有线一样使用它们。我购买了一架 Roland FP-90X 钢琴，部分原因是它具有蓝牙 MIDI。在我的 Windows 11 PC 上，配对成功，但我的 DAW 看不到键盘，并且我从 PC 发送的音符从未让钢琴唱歌。经过几个令人遗憾的夜晚后，我将其分成三个相互堆叠的独立错误。第一个是著名的错误：Windows 仅通过 WinRT API 本机公开 BLE-MIDI，几乎没有 DAW 轮询。因此，即使配对成功，MIDI 应用程序仍然看不到该设备。通常的解决方法是 MIDIberry + LoopMIDI，但我无法让该组合在我的情况下可靠地工作，并且我想要一个单一应用程序解决方案。新的 Windows MIDI 服务堆栈附带了一项称为环回端点的功能：写入一个端点的任何内容都会从另一个端点输出，任何 winmm/WinRT/WMS 应用程序都将它们视为普通的 MIDI 端口。因此，应用程序执行 WinRT BLE-MIDI 输入，WMS 环回输出。这解决了方向一，钢琴到 PC。方向二，PC 到钢琴，仍然不起作用。 NoteOn 写入得到 ATT 确认，但钢琴保持沉默。我尝试了两种写入模式（某些 BLE-MIDI 固件会默默地丢弃其中一种模式），并戳破了专有的 ISSC 特性。每个变体都会被 ATT 确认，每个变体都会产生沉默。所以字节正在到达钢琴。 GATT 层之上的某些东西正在丢弃它们。在排除配对、加密、写入模式和专有特征之后，剩下的唯一明显的杠杆就是 MIDI 通道本身。 FP-90X 有一个名为“传输通道”的面板设置，默认为 1。但事实证明 FP-90X 实际上在通道 4 上接收（并且无法更改）。我在通道 1 上发送的注释被 GATT 确认并默默地丢弃在合成引擎上，因为它们不在引擎正在侦听的通道上。任何层的零反馈。该修复必须在应用程序层实现，因此我添加了一个“检测”按钮，该按钮在每个通道上播放 N 个测试音符，从 1 到 16 递增：您计算实际听到的音符，该数字就是接收通道。每个 BLE MAC 保存，大约 75 秒，每架钢琴永远完成。技术堆栈：.NET 10、用于 UI 的 Avalonia（BLE/MIDI 端仅限 Windows，但 UI 层是可移植的）、用于 WMS 的 Microsoft.Windows.Devices.Midi2 包、直接用于 BLE 的 Windows.Devices.Midi (WinRT)，而不是依赖 Korg 的旧 WinMM 驱动程序。 MIT，单个独立的约 21 MB exe，无安装程序，无遥测，无帐户。我为自己构建了它，并将其与我的 FP-90X 一起使用来通过一些应用程序和 Web MIDI 站点进行播放。当我在 r/synthesizers 上分享 BLE 集成时，来自 Microsoft Windows MIDI 服务团队的 Pete 给予了积极评价 (https://www.reddit.com/r/synthesizers/comments/1szvuiq/comme...)。站点（带屏幕截图）：https://mayerwin.github.io/Perfect-Bluetooth-MIDI-For-Window...
-来源：https://github.com/mayerwin/Perfect-Bluetooth-MIDI-For-Windo...
-包含完整调试故事的长篇技术文章：https://dev.to/mayerwin/why-your-bluetooth-midi-keyboard-sil...仅使用我的 FP-90X 进行了个人测试。 BLE 端是通用的，因此其他键盘（WIDI Master、CME、Yamaha MD-BT01、Korg microKey Air、ROLI Seaboard 等）应该可以工作，但我还没有单独确认。非常欢迎设备测试报告、问题和 PR。
+      <description><![CDATA[嗨，HN，我是埃尔文。我构建了一个小型免费开源实用程序，可将蓝牙 LE MIDI 键盘桥接到新的 Windows MIDI 服务堆栈中，以便任何 DAW 或 Web MIDI 应用程序都可以像有线一样使用它们。我购买了一架 Roland FP-90X 钢琴，部分原因是它具有蓝牙 MIDI。在我的 Windows 11 PC 上，配对成功，但我的 DAW 看不到键盘，并且我从 PC 发送的音符从未让钢琴唱歌。经过几个令人遗憾的夜晚后，我将其分成三个相互堆叠的独立错误。第一个是著名的错误：Windows 仅通过 WinRT API 本机公开 BLE-MIDI，几乎没有 DAW 轮询。因此，即使配对成功，MIDI 应用程序仍然看不到该设备。通常的解决方法是 MIDIberry + LoopMIDI，但我无法让该组合在我的情况下可靠地工作，并且我想要一个单一应用程序解决方案。新的 Windows MIDI 服务堆栈附带了一项称为环回端点的功能：写入一个端点的任何内容都会从另一个端点输出，任何 winmm/WinRT/WMS 应用程序都将它们视为普通的 MIDI 端口。因此，应用程序执行 WinRT BLE-MIDI 输入，WMS 环回输出。这解决了方向一，钢琴到 PC。方向二，PC 到钢琴，仍然不起作用。 NoteOn 写入得到 ATT 确认，但钢琴保持沉默。我尝试了两种写入模式（某些 BLE-MIDI 固件会默默地丢弃其中一种模式），并戳破了专有的 ISSC 特性。每个变体都会被 ATT 确认，每个变体都会产生沉默。所以字节正在到达钢琴。 GATT 层之上的某些东西正在丢弃它们。在排除配对、加密、写入模式和专有特征之后，剩下的唯一明显的杠杆就是 MIDI 通道本身。 FP-90X 有一个名为“传输通道”的面板设置，默认为 1。但事实证明 FP-90X 实际上在通道 4 上接收（并且无法更改）。我在通道 1 上发送的注释被 GATT 确认并默默地丢弃在合成引擎上，因为它们不在引擎正在侦听的通道上。任何层的零反馈。该修复必须在应用程序层实现，因此我添加了一个“检测”按钮，该按钮在每个通道上播放 N 个测试音符，从 1 到 16 递增：您计算实际听到的音符，该数字就是接收通道。每个 BLE MAC 保存，大约 75 秒，每架钢琴永远完成。技术堆栈：.NET 10、用于 UI 的 Avalonia（BLE/MIDI 端仅限 Windows，但 UI 层是可移植的）、用于 WMS 的 Microsoft.Windows.Devices.Midi2 包、直接用于 BLE 的 Windows.Devices.Midi (WinRT)，而不是依赖 Korg 的旧 WinMM 驱动程序。 MIT，单个独立的约 21 MB exe，无安装程序，无遥测，无帐户。我为自己构建了它，并将其与我的 FP-90X 一起使用来通过一些应用程序和 Web MIDI 站点进行播放。当我在 r/synthesizers 上分享 BLE 集成时，来自 Microsoft Windows MIDI 服务团队的 Pete 给予了积极评价 (https://www.reddit.com/r/synthesizers/comments/1szvuiq/comme...)。站点（带屏幕截图）：https://mayerwin.github.io/Perfect-Bluetooth-MIDI-For-Window...来源：https://github.com/mayerwin/Perfect-Bluetooth-MIDI-For-Windo...包含完整调试故事的长篇技术文章： https://dev.to/mayerwin/why-your-bluetooth-midi-keyboard-sil...仅使用我的 FP-90X 进行个人测试。 BLE 端是通用的，因此其他键盘（WIDI Master、CME、Yamaha MD-BT01、Korg microKey Air、ROLI Seaboard 等）应该可以工作，但我还没有单独确认。非常欢迎设备测试报告、问题和 PR。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47972888
-积分：8
-# 条评论：0]]></description>
+积分：51
+# 条评论：10]]></description>
       <guid>https://news.ycombinator.com/item?id=47972888</guid>
       <pubDate>Fri, 01 May 2026 09:52:15 GMT</pubDate>
     </item>
     <item>
-      <title>旋转式非智能手机</title>
+      <title>旋转式非智能手机 (2023)</title>
       <link>https://skysedge.com/telecom/RUSP/index.html</link>
       <description><![CDATA[文章网址：https://skysedge.com/telecom/RUSP/index.html
 评论网址：https://news.ycombinator.com/item?id=47972807
-积分：5
-# 条评论：0]]></description>
+积分：43
+# 条评论：8]]></description>
       <guid>https://skysedge.com/telecom/RUSP/index.html</guid>
       <pubDate>Fri, 01 May 2026 09:39:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>法学硕士的高级量化算法</title>
+      <link>https://github.com/intel/auto-round</link>
+      <description><![CDATA[文章网址：https://github.com/intel/auto-round
+评论网址：https://news.ycombinator.com/item?id=47972659
+积分：12
+# 条评论：1]]></description>
+      <guid>https://github.com/intel/auto-round</guid>
+      <pubDate>Fri, 01 May 2026 09:10:02 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：WhatCable，一个用于检查 USB-C 电缆的小型菜单栏应用程序</title>
@@ -34,80 +103,10 @@
       <description><![CDATA[USB-C 电缆可能会很混乱。一根线缆的充电功率为 5W，另一根线缆的充电功率为 100W，支持 Thunderbolt 4，而且它们在抽屉中看起来完全相同。WhatCable 位于菜单栏中，可以读取 Mac 已有权访问的线缆数据。插入电缆，它会用简单的英语告诉您它实际上可以做什么：充电功率、数据速度、显示支持、Thunderbolt 等。内置 Swift/SwiftUI。开源、免费、无跟踪。GitHub：https://github.com/darrylmorley/whatcable
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=47972511
-积分：42
-# 条评论：6]]></description>
+积分：183
+# 条评论：66]]></description>
       <guid>https://github.com/darrylmorley/whatcable</guid>
       <pubDate>Fri, 01 May 2026 08:43:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>格洛克4.3</title>
-      <link>https://docs.x.ai/developers/models/grok-4.3</link>
-      <description><![CDATA[文章网址：https://docs.x.ai/developers/models/grok-4.3
-评论网址：https://news.ycombinator.com/item?id=47972447
-积分：63
-# 条评论：56]]></description>
-      <guid>https://docs.x.ai/developers/models/grok-4.3</guid>
-      <pubDate>Fri, 01 May 2026 08:29:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>Canonical/Ubuntu 遭受 DDoS 攻击的时间已超过 15 小时</title>
-      <link>https://status.canonical.com/#/incident/KNms6QK9ewuzz-7xUsPsNylV20jEt5kyKsd8A-3ptQEHpOd8VQ40ZQs-KD81fboQXeGZB94okNHdHBGlCv58Sw==</link>
-      <description><![CDATA[文章网址： https://status.canonical.com/#/incident/KNms6QK9ewuzz-7xUsPsNylV20jEt5kyKsd8A-3ptQEHpOd8VQ40ZQs-KD81fboQXeGZB94okNHdHBGlCv58Sw==
-评论网址：https://news.ycombinator.com/item?id=47972213
-积分：48
-# 条评论：10]]></description>
-      <guid>https://status.canonical.com/#/incident/KNms6QK9ewuzz-7xUsPsNylV20jEt5kyKsd8A-3ptQEHpOd8VQ40ZQs-KD81fboQXeGZB94okNHdHBGlCv58Sw==</guid>
-      <pubDate>Fri, 01 May 2026 07:44:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果我可以创建自己的 GitHub</title>
-      <link>https://matduggan.com/if-i-could-make-my-own-github/</link>
-      <description><![CDATA[文章网址：https://matduggan.com/if-i-could-make-my-own-github/
-评论网址：https://news.ycombinator.com/item?id=47971771
-积分：40
-# 条评论：30]]></description>
-      <guid>https://matduggan.com/if-i-could-make-my-own-github/</guid>
-      <pubDate>Fri, 01 May 2026 06:21:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>苹果表示 Mac Studio 和 Mac Mini 将缺货数月</title>
-      <link>https://www.macrumors.com/2026/04/30/mac-studio-mac-mini-constrained-months/</link>
-      <description><![CDATA[文章网址：https://www.macrumors.com/2026/04/30/mac-studio-mac-mini-constrained-months/
-评论网址：https://news.ycombinator.com/item?id=47971768
-积分：75
-# 条评论：58]]></description>
-      <guid>https://www.macrumors.com/2026/04/30/mac-studio-mac-mini-constrained-months/</guid>
-      <pubDate>Fri, 01 May 2026 06:20:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>开放变形</title>
-      <link>https://openwarp.zerx.dev</link>
-      <description><![CDATA[文章网址：https://openwarp.zerx.dev
-评论网址：https://news.ycombinator.com/item?id=47970622
-积分：91
-# 条评论：78]]></description>
-      <guid>https://openwarp.zerx.dev</guid>
-      <pubDate>Fri, 01 May 2026 02:10:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>超级任天堂之心 (2024)</title>
-      <link>https://fabiensanglard.net/snes_hearts/</link>
-      <description><![CDATA[文章网址：https://fabiensanglad.net/snes_hearts/
-评论网址：https://news.ycombinator.com/item?id=47970578
-积分：27
-# 条评论：5]]></description>
-      <guid>https://fabiensanglard.net/snes_hearts/</guid>
-      <pubDate>Fri, 01 May 2026 02:02:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>CPanel 和 WHM 身份验证绕过 – CVE-2026-41940</title>
-      <link>https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/</link>
-      <description><![CDATA[文章网址： https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/
-评论网址：https://news.ycombinator.com/item?id=47969288
-积分：106
-# 条评论：40]]></description>
-      <guid>https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/</guid>
-      <pubDate>Thu, 30 Apr 2026 22:48:51 GMT</pubDate>
     </item>
     </channel>
 </rss>
