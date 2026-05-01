@@ -4,125 +4,112 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 01 May 2026 15:57:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 19:12:18 GMT</lastBuildDate>
     <item>
-      <title>一封公开信，要求英国 NHS 保持其代码开放</title>
-      <link>https://keepthingsopen.com</link>
-      <description><![CDATA[文章网址：https://keepthingsopen.com
-评论网址：https://news.ycombinator.com/item?id=47975785
-积分：22
+      <title>关于为什么赞比亚不会举行 2026 年 RightsCon 的声明</title>
+      <link>https://www.rightscon.org/rc26-statement/</link>
+      <description><![CDATA[文章网址：https://www.rightscon.org/rc26-statement/
+评论网址：https://news.ycombinator.com/item?id=47978386
+积分：33
+# 条评论：3]]></description>
+      <guid>https://www.rightscon.org/rc26-statement/</guid>
+      <pubDate>Fri, 01 May 2026 18:38:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>市政府在儿童体操室学习了群体接入摄像机作为销售演示</title>
+      <link>https://www.404media.co/city-learns-flock-accessed-cameras-in-childrens-gymnastics-room-as-a-sales-pitch-demo-renews-contract-anyway/</link>
+      <description><![CDATA[文章网址： https://www.404media.co/city-learns-flock-accessed-cameras-in-childrens-gymnastics-room-as-a-sales-pitch-demo-renews-contract-anyway/
+评论网址：https://news.ycombinator.com/item?id=47978370
+积分：20
 # 条评论：1]]></description>
-      <guid>https://keepthingsopen.com</guid>
-      <pubDate>Fri, 01 May 2026 15:15:36 GMT</pubDate>
+      <guid>https://www.404media.co/city-learns-flock-accessed-cameras-in-childrens-gymnastics-room-as-a-sales-pitch-demo-renews-contract-anyway/</guid>
+      <pubDate>Fri, 01 May 2026 18:37:47 GMT</pubDate>
     </item>
     <item>
-      <title>我是 Peter Roberts，移民律师，为 YC 和初创公司工作。美国医学协会</title>
-      <link>https://news.ycombinator.com/item?id=47975676</link>
-      <description><![CDATA[接下来的 6 小时我会在这里。像往常一样，有很多可能的主题，我会根据您感兴趣的内容进行指导。请记住，我无法就具体案件提供法律建议，因为我无法了解所有事实。请尝试在您的问题和评论中坚持事实讨论，我将在我的回答中尝试这样做！我们之前完成的主题：https://news.ycombinator.com/subscribed?id=proberts。
+      <title>在睡眠中学习是可能的。我们应该吗？</title>
+      <link>https://www.newyorker.com/culture/annals-of-inquiry/its-possible-to-learn-in-our-sleep-should-we</link>
+      <description><![CDATA[文章网址：https://www.newyorker.com/culture/annals-of-inquiry/its-possible-to-learn-in-our-sleep-should-we
+评论网址：https://news.ycombinator.com/item?id=47977748
+积分：10
+# 条评论：1]]></description>
+      <guid>https://www.newyorker.com/culture/annals-of-inquiry/its-possible-to-learn-in-our-sleep-should-we</guid>
+      <pubDate>Fri, 01 May 2026 17:47:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：AI CAD 线束</title>
+      <link>https://fusion.adam.new/install</link>
+      <description><![CDATA[您好，HN，我是 Zach，Adam (https://adam.new) 的联合创始人之一。我们之前曾在 HN 上做过两次文本转 CAD/3D 实验 [1][2]。从这些主题中得到的诚实结论是：提示 3D 模型 Web 应用程序很有趣，但认真的机械工程师不想要一个输出 STL 的黑匣子。他们希望在他们已经使用的 CAD 工具中获得帮助，从而获得对特征树的完全可见性和控制。所以我们构建了它。 Adam 现在是一个直接与您的 CAD 集成的线束。它读取您的零件，了解现有的特征树，并以代理方式为您进行编辑。我们现已推出 Onshape 和 Fusion 测试版！ [3]:安装链接 Autodesk Fusion：https://fusion.adam.new/install安装链接 PTC Onshape：
+https://cad.onshape.com/appstore/apps/Design%20&amp;%20Documenta...人们今天使用它的用途：
+- “合并冗余特征并清理我的树”
+-“重命名每个功能，使树实际上可读”
+- “用 2 毫米圆角将所有内部边缘倒圆”
+- “参数化我的模型”当然，还有使用 Adam 端到端生成 CAD！我们关心的一些事情在列表中并不明显：1。从一开始，我们就始终相信 CAD 即代码是正确的抽象。我们的工具在 Fusion 中大量利用了 Onshape 的 FeatureScript 和 Python。2.我们针对前沿模型运行内部 CAD 基准测试。最近发布的模型的空间推理能力有了巨大的飞跃。特别是 GPT 5.5 和 Opus 4.7 [4] [5]3。我们开源了我们早期的文本到 CAD 工作 [6]关于几天前发布的 Anthropic Autodesk 连接器的说明 [7]：我们认为它非常适合空间并验证方向。Adam 的不同之处：- 与模型无关。我们从我们自己的内部工作台中选择在每种任务类型上获胜的前沿模型，而不是绑定到一个实验室。- 我们本地生活在您的 CAD 应用程序中，并正在积极构建跨所有程序的集成您希望 CAD 代理能做哪些目前没有的事情？[1] https://news.ycombinator.com/item?id=44182206[2] https://news.ycombinator.com/item?id=45140921[3] https://x.com/adamdotnew/status/2050264512230719980?s=20[4] https://x.com/adamdotnew/status/2044859329329893376?s=20[5] https://x.com/adamdotnew/status/2047795078912172122?s=20[6] https://github.com/Adam-CAD/CADAM[7] https://x.com/claudeai/status/2049143440508616863?s=20
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47975676
-积分：18
-# 条评论：14]]></description>
-      <guid>https://news.ycombinator.com/item?id=47975676</guid>
-      <pubDate>Fri, 01 May 2026 15:07:02 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=47977694
+积分：8
+# 条评论：1]]></description>
+      <guid>https://fusion.adam.new/install</guid>
+      <pubDate>Fri, 01 May 2026 17:43:53 GMT</pubDate>
     </item>
     <item>
-      <title>whohas – 用于跨发行版、跨存储库包搜索的命令行实用程序</title>
-      <link>https://github.com/whohas/whohas</link>
-      <description><![CDATA[文章网址：https://github.com/whohas/whohas
-评论网址：https://news.ycombinator.com/item?id=47975592
-积分：14
-# 条评论：2]]></description>
-      <guid>https://github.com/whohas/whohas</guid>
-      <pubDate>Fri, 01 May 2026 15:01:08 GMT</pubDate>
+      <title>显示 HN：Postgres 上的我的私人 GitHub</title>
+      <link>https://github.com/calebwin/gitgres</link>
+      <description><![CDATA[文章网址：https://github.com/calebwin/gitgres
+评论网址：https://news.ycombinator.com/item?id=47977659
+积分：21
+# 条评论：10]]></description>
+      <guid>https://github.com/calebwin/gitgres</guid>
+      <pubDate>Fri, 01 May 2026 17:40:15 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：谁在招聘？ （2026 年 5 月）</title>
-      <link>https://news.ycombinator.com/item?id=47975571</link>
-      <description><![CDATA[请说明位置并包含用于远程工作的 REMOTE、REMOTE（美国）
-或类似（如果国家/地区受到限制），以及 ONSITE（当远程工作无法 成为一种选择时）。仅当您个人是招聘公司的成员时才可发帖 — 否
-招聘公司或招聘委员会。每个公司一个职位。如果不是家喻户晓的名字
-解释一下贵公司的业务。只有在您积极填补职位空缺并做出承诺的情况下才请发帖
-回复求职者。评论者：请不要回复招聘帖子来抱怨
-某事。这是题外话。读者：如果您个人对这份工作感兴趣，请仅发送电子邮件。搜索者：尝试 https://nthesis.ai/public/hn-who-is-hiring、https://dheerajck.github.io/hnwhoishiring/，http://nchelluri.github.io/hnjobs/，
-https://hnjobs.emilburzo.com，或这个（非官方）Chrome 扩展程序：
-https://chromewebstore.google.com/detail/hn-hiring-pro/mpfal...。不要错过此其他细则：谁想被雇用？ https://news.ycombinator.com/item?id=47975570
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47975571
-积分：27
-# 条评论：37]]></description>
-      <guid>https://news.ycombinator.com/item?id=47975571</guid>
-      <pubDate>Fri, 01 May 2026 15:00:07 GMT</pubDate>
+      <title>Artemis II 容错</title>
+      <link>https://alearningaday.blog/2026/05/01/artemis-ii-fault-tolerance/</link>
+      <description><![CDATA[文章网址：https://alearningaday.blog/2026/05/01/artemis-ii-fault-tolerance/
+评论网址：https://news.ycombinator.com/item?id=47977645
+积分：6
+# 条评论：0]]></description>
+      <guid>https://alearningaday.blog/2026/05/01/artemis-ii-fault-tolerance/</guid>
+      <pubDate>Fri, 01 May 2026 17:39:11 GMT</pubDate>
     </item>
     <item>
-      <title>询问 HN：谁想被雇用？ （2026 年 5 月）</title>
-      <link>https://news.ycombinator.com/item?id=47975570</link>
-      <description><![CDATA[如果您正在找工作，请分享您的信息。请使用以下格式： 位置：
-  远程：
-  愿意搬家：
-  技术：
-  简历：
-  电子邮件：
-
-仅当您个人正在寻找工作时才请发帖。代理机构、招聘人员、招聘委员会、
-等等，这里都是题外话。读者：请仅通过电子邮件发送这些地址来讨论工作机会。搜索者：尝试 https://nthesis.ai/public/hn-wants-to-be-hired、https://www.wantstobehired.com。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47975570
-积分：12
-# 条评论：39]]></description>
-      <guid>https://news.ycombinator.com/item?id=47975570</guid>
-      <pubDate>Fri, 01 May 2026 15:00:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>GhostBox – 来自全球免费套餐的一次性小机器。</title>
-      <link>https://www.ghost.charity/</link>
-      <description><![CDATA[文章网址：https://www.ghost.charity/
-评论网址：https://news.ycombinator.com/item?id=47975472
-积分：72
-# 条评论：32]]></description>
-      <guid>https://www.ghost.charity/</guid>
-      <pubDate>Fri, 01 May 2026 14:52:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>创造“记忆墙”一词的莎莉·麦基去世</title>
-      <link>https://www.online-tribute.com/SallyMcKee</link>
-      <description><![CDATA[文章网址：https://www.online-tribute.com/SallyMcKee
-评论网址：https://news.ycombinator.com/item?id=47975392
-积分：15
-# 条评论：4]]></description>
-      <guid>https://www.online-tribute.com/SallyMcKee</guid>
-      <pubDate>Fri, 01 May 2026 14:45:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>在浏览器中运行 Adob​​e 1991 PostScript 解释器</title>
-      <link>https://www.pagetable.com/?p=1854</link>
-      <description><![CDATA[文章网址：https://www.pagetable.com/?p=1854
-评论网址：https://news.ycombinator.com/item?id=47973755
-积分：66
+      <title>X档案让我怀念从未经历过的时光</title>
+      <link>https://midnightmurmurations.substack.com/p/the-x-files-has-made-me-nostalgic</link>
+      <description><![CDATA[文章网址：https://midnightmurmurations.substack.com/p/the-x-files-has-made-me-nostalgic
+评论网址：https://news.ycombinator.com/item?id=47977583
+积分：48
 # 条评论：15]]></description>
-      <guid>https://www.pagetable.com/?p=1854</guid>
-      <pubDate>Fri, 01 May 2026 11:58:11 GMT</pubDate>
+      <guid>https://midnightmurmurations.substack.com/p/the-x-files-has-made-me-nostalgic</guid>
+      <pubDate>Fri, 01 May 2026 17:34:49 GMT</pubDate>
     </item>
     <item>
-      <title>Dijkstra 关于 APL 的一封信</title>
-      <link>https://www.jsoftware.com/papers/Dijkstra_Letter.htm</link>
-      <description><![CDATA[文章网址：https://www.jsoftware.com/papers/Dijkstra_Letter.htm
-评论网址：https://news.ycombinator.com/item?id=47973635
-积分：22
-# 条评论：19]]></description>
-      <guid>https://www.jsoftware.com/papers/Dijkstra_Letter.htm</guid>
-      <pubDate>Fri, 01 May 2026 11:42:12 GMT</pubDate>
+      <title>由于战争破坏的修复工作进展缓慢，AWS 停止向中东云客户收费</title>
+      <link>https://arstechnica.com/gadgets/2026/05/amazon-stuck-with-months-of-repairs-after-drone-strikes-on-data-centers/</link>
+      <description><![CDATA[文章网址： https://arstechnica.com/gadgets/2026/05/amazon-stuck-with-months-of-repairs-after-drone-strikes-on-data-centers/
+评论网址：https://news.ycombinator.com/item?id=47977498
+积分：42
+# 条评论：12]]></description>
+      <guid>https://arstechnica.com/gadgets/2026/05/amazon-stuck-with-months-of-repairs-after-drone-strikes-on-data-centers/</guid>
+      <pubDate>Fri, 01 May 2026 17:28:45 GMT</pubDate>
     </item>
     <item>
-      <title>Apple 不小心留下了 Claude.md 文件 Apple 支持应用</title>
-      <link>https://x.com/aaronp613/status/2049986504617820551</link>
-      <description><![CDATA[https://xcancel.com/aaronp613/status/2049986504617820551
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=47973378
-积分：278
-# 条评论：198]]></description>
-      <guid>https://x.com/aaronp613/status/2049986504617820551</guid>
-      <pubDate>Fri, 01 May 2026 11:08:32 GMT</pubDate>
+      <title>了解任何事情</title>
+      <link>https://github.com/Lum1104/Understand-Anything</link>
+      <description><![CDATA[文章网址：https://github.com/Lum1104/Understand-Anything
+评论网址：https://news.ycombinator.com/item?id=47977470
+积分：25
+# 条评论：5]]></description>
+      <guid>https://github.com/Lum1104/Understand-Anything</guid>
+      <pubDate>Fri, 01 May 2026 17:27:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>大量摄像机不断告诉警方，一个没有逮捕令的男子有逮捕令</title>
+      <link>https://www.youtube.com/watch?v=nHwxV0Sd9V8</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=nHwxV0Sd9V8
+评论网址：https://news.ycombinator.com/item?id=47977450
+积分：129
+评论数量：94]]></description>
+      <guid>https://www.youtube.com/watch?v=nHwxV0Sd9V8</guid>
+      <pubDate>Fri, 01 May 2026 17:25:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
