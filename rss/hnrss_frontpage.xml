@@ -4,24 +4,66 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 02 May 2026 07:44:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 09:59:19 GMT</lastBuildDate>
     <item>
-      <title>精神航空将停止所有运营</title>
-      <link>https://www.spiritrestructuring.com/</link>
-      <description><![CDATA[文章网址：https://www.spiritrestructuring.com/
-评论网址：https://news.ycombinator.com/item?id=47983873
-积分：41
-# 条评论：48]]></description>
-      <guid>https://www.spiritrestructuring.com/</guid>
-      <pubDate>Sat, 02 May 2026 06:28:00 GMT</pubDate>
+      <title>Show HN：使用真实光度数据的基于浏览器的光污染模拟器</title>
+      <link>https://iesna.eu/?wasm=skyglow_demo</link>
+      <description><![CDATA[嗨，HN——作者。 iesna.eu 是一个基于浏览器的生态系统，用于处理光度数据：解析标准灯具文件（LDT/EULUMDAT、IES LM-63、Oxytech、ATLA-S001）、根据 EN 13201 / ANSI/IES RP-8 / CJJ 45 / IES-IDA MLO 运行设计计算，以及（我在这里最想展示的部分）使用光度数据在 Bevy 中渲染真实的城市场景驱动实际的路灯行为，包括天空发光的贡献。
+Skyglow Analysis 演示将真实的 LDT 文件加载到 Bevy 场景中（Khronos Bistro 测试资产）。 
+灯具的强度分布直接驱动路灯渲染（无需捏造），并且当您调整向上照明百分比时，天空辉光等级会实时更新。换成全截止灯具，天空从 F（严重）回到 A（极好）。您可以看到建筑物和天空的差异。
+Stack：Rust 核心（eulumdat-rs 和朋友，约 20 个处理光度格式的板条箱），用于 3D 渲染的 Bevy，用于浏览器部署的 WASM。无后端；一切都在客户端运行。在现有光度库之上添加了大约一千行新代码，以使 Bevy 集成正常工作。
+我希望得到反馈的事情：大气散射模型目前是单散射 Rayleigh+Mie。这对于用例来说是合理的，还是我应该转向多重分散？
+Bistro 测试场景在视觉上效果良好，但不是一个受控环境。 
+有人知道更典型的真实道路照明评估的公共城市几何资产吗？
+CJJ 45 实施（中国国家道路照明标准）是我唯一需要对翻译后的 PDF 进行逆向工程的实施。 
+如果有人有主要来源经验，我会重视完整性检查。GitHub 上的开源（eulumdat-rs 和相关板条箱）。
+Crates.io：eulumdat
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47984734
+积分：5
+# 条评论：0]]></description>
+      <guid>https://iesna.eu/?wasm=skyglow_demo</guid>
+      <pubDate>Sat, 02 May 2026 09:08:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：使用客户端工具调用用 AI 填写 PDF 表单</title>
+      <link>https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&form=w9&lang=en</link>
+      <description><![CDATA[嘿 HN！我构建了 SimplePDF Copilot：一个可以与 PDF 编辑器交互的 AI 助手。它可以填充字段、回答问题、关注特定字段、添加字段、删除页面等等。它构建在我 7 年前开始的 SimplePDF 之上，开创了尊重隐私的客户端 pdf 编辑功能，现在每月有超过 20 万人使用。至于隐私模型：PDF 本身永远不会离开浏览器。解析、渲染和字段检测都在客户端运行。模型所需的文本（以及您的消息）将发送给您指向的任何 LLM。默认情况下，这是我们的演示代理（DeepSeek V4 Flash，速率上限），但您可以 BYOK 并将其指向任何云提供商，或者完全本地化（我一直在使用 LM Studio 进行测试）。与仅检索文本/OCR 层的现有“与 PDF 聊天”工具不同，Copilot 可以对 PDF 进行操作：填充字段、添加字段（使用 Joe Barrow [1] 的 CommonForms 检测客户端，HN 上的 jbarrow 带有一些我在顶部添加了后处理启发式），重点关注字段、删除页面等。我构建此版本是因为 SimplePDF 主要由文档隐私至关重要的医疗保健客户使用，并且我想要一种不需要将 PII 发送给第三方的 AI 体验。
+Stack 非常标准：- Tanstack Start- Vercel 的 AI SDK- Tailwind（我个人更喜欢 CSS 模块，我很老派，但自从我开源它以来，我认为 Tailwind 会更合适）更有趣的部分是客户端工具调用：事件通过 iframe postMessage 来回传递。如果您不熟悉“工具调用”和“客户端工具调用”，可以快速了解一下引物：工具调用是法学硕士用来采取行动的工具。当 Claude 运行 grep 或 ls，或者点击 MCP 服务器时，这些都是工具调用。客户端工具调用意味着调用工具的意图来自 LLM，但执行发生在浏览器中。这很重要：速度，您无法比客户端到客户端操作更快，并且还使您能够限制向 LLM 公开的数据。对于演示，我确实将文档的内容提供给 LLM，但可以像删除公开内容数据的工具一样简单地切断该连接。该演示是完全开源的，可在 Github [2] 上获取，该演示与本文的链接相同[3]不开源的是 SimplePDF 本身（作为 iframe 加载）。我可以不断地讨论这一点，如果您有任何问题，请告诉我开始！[1] https://github.com/jbarrow/commonforms[2] https://github.com/SimplePDF/simplepdf-embed/tree/main/copil...[3] https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228...
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=47984675
+积分：4
+# 条评论：1]]></description>
+      <guid>https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&form=w9&lang=en</guid>
+      <pubDate>Sat, 02 May 2026 08:54:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>SKILL.make：Makefile 风格的技能文件</title>
+      <link>https://github.com/Teaonly/SKILL.make</link>
+      <description><![CDATA[文章网址：https://github.com/Teaonly/SKILL.make
+评论网址：https://news.ycombinator.com/item?id=47984486
+积分：9
+# 条评论：1]]></description>
+      <guid>https://github.com/Teaonly/SKILL.make</guid>
+      <pubDate>Sat, 02 May 2026 08:18:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>具有 NASA SRTM 地形掩蔽的开源弹道模拟器 (Python/C#)</title>
+      <link>https://github.com/InsaneInfinity/Balistic</link>
+      <description><![CDATA[文章网址：https://github.com/InsaneInfinity/Balistic
+评论网址：https://news.ycombinator.com/item?id=47984291
+积分：3
+# 条评论：1]]></description>
+      <guid>https://github.com/InsaneInfinity/Balistic</guid>
+      <pubDate>Sat, 02 May 2026 07:42:29 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：停止玩我的火柴棒拼图，在几秒钟内开始构建您自己的拼图</title>
       <link>https://mathstick.github.io</link>
       <description><![CDATA[文章网址：https://mathstick.github.io
 评论网址：https://news.ycombinator.com/item?id=47983485
-积分：4
-# 条评论：6]]></description>
+积分：12
+# 条评论：12]]></description>
       <guid>https://mathstick.github.io</guid>
       <pubDate>Sat, 02 May 2026 05:04:39 GMT</pubDate>
     </item>
@@ -40,8 +82,8 @@
       <link>https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions</link>
       <description><![CDATA[文章网址：https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions
 评论网址：https://news.ycombinator.com/item?id=47983352
-积分：110
-# 条评论：38]]></description>
+积分：227
+评论数量：106]]></description>
       <guid>https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions</guid>
       <pubDate>Sat, 02 May 2026 04:38:04 GMT</pubDate>
     </item>
@@ -50,8 +92,8 @@
       <link>https://www.ask.com/</link>
       <description><![CDATA[文章网址：https://www.ask.com/
 评论网址：https://news.ycombinator.com/item?id=47983226
-积分：210
-# 条评论：113]]></description>
+积分：261
+# 条评论：131]]></description>
       <guid>https://www.ask.com/</guid>
       <pubDate>Sat, 02 May 2026 04:12:35 GMT</pubDate>
     </item>
@@ -60,8 +102,8 @@
       <link>https://github.com/rancher/k3k</link>
       <description><![CDATA[文章网址：https://github.com/rancher/k3k
 评论网址：https://news.ycombinator.com/item?id=47983176
-积分：32
-# 条评论：14]]></description>
+积分：52
+# 条评论：28]]></description>
       <guid>https://github.com/rancher/k3k</guid>
       <pubDate>Sat, 02 May 2026 04:00:42 GMT</pubDate>
     </item>
@@ -70,40 +112,10 @@
       <link>https://github.com/upenn/web-scroll-video</link>
       <description><![CDATA[文章网址：https://github.com/upenn/web-scroll-video
 评论网址：https://news.ycombinator.com/item?id=47982763
-积分：22
-# 条评论：7]]></description>
+积分：30
+# 条评论：11]]></description>
       <guid>https://github.com/upenn/web-scroll-video</guid>
       <pubDate>Sat, 02 May 2026 02:26:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>我为桌面应用程序构建了 Playwright。 80% 代币节省</title>
-      <link>https://github.com/lahfir/agent-desktop</link>
-      <description><![CDATA[文章网址：https://github.com/lahfir/agent-desktop
-评论网址：https://news.ycombinator.com/item?id=47982708
-积分：57
-# 条评论：18]]></description>
-      <guid>https://github.com/lahfir/agent-desktop</guid>
-      <pubDate>Sat, 02 May 2026 02:18:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>软件工程师的职位空缺正在迅速增加</title>
-      <link>https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/</link>
-      <description><![CDATA[文章网址：https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/
-评论网址：https://news.ycombinator.com/item?id=47982512
-积分：164
-评论数量：91]]></description>
-      <guid>https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/</guid>
-      <pubDate>Sat, 02 May 2026 01:46:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源软件社区倦怠报告 (2025) [pdf]</title>
-      <link>https://mirandaheath.website/static/oss_burnout_report_mh_25.pdf</link>
-      <description><![CDATA[文章网址：https://mirandaheath.website/static/oss_burnout_report_mh_25.pdf
-评论网址：https://news.ycombinator.com/item?id=47981669
-积分：64
-# 条评论：13]]></description>
-      <guid>https://mirandaheath.website/static/oss_burnout_report_mh_25.pdf</guid>
-      <pubDate>Fri, 01 May 2026 23:24:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
