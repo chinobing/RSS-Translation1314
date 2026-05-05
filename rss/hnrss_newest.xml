@@ -4,119 +4,105 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 05 May 2026 16:25:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 19:20:25 GMT</lastBuildDate>
     <item>
-      <title>通过编辑评论跟踪电影、电视和书籍</title>
-      <link>https://cuev.io/</link>
-      <description><![CDATA[文章网址：https://cuev.io/
-评论网址：https://news.ycombinator.com/item?id=48024608
+      <title>切换问题（更新）</title>
+      <link>https://blog.dshr.org/2026/03/the-handoff-problem.html</link>
+      <description><![CDATA[文章网址：https://blog.dshr.org/2026/03/the-handoff-problem.html
+评论网址：https://news.ycombinator.com/item?id=48027072
 积分：1
 # 条评论：0]]></description>
-      <guid>https://cuev.io/</guid>
-      <pubDate>Tue, 05 May 2026 16:18:12 GMT</pubDate>
+      <guid>https://blog.dshr.org/2026/03/the-handoff-problem.html</guid>
+      <pubDate>Tue, 05 May 2026 19:08:29 GMT</pubDate>
     </item>
     <item>
-      <title>WolfTPM 的 TPM 2.0 密封策略</title>
-      <link>https://www.wolfssl.com/tpm-2-0-sealing-policies-with-wolftpm-pcr-policies-policy-authorize-and-nv-storage-for-tpm-2-0-secrets/</link>
-      <description><![CDATA[文章网址： https://www.wolfssl.com/tpm-2-0-sealing-policies-with-wolftpm-pcr-policies-policy-authorize-and-nv-storage-for-tpm-2-0-secrets/
-评论网址：https://news.ycombinator.com/item?id=48024591
-积分：1
+      <title>通过基于编译器的序列并行性解锁长上下文 LLM 培训</title>
+      <link>https://arxiv.org/abs/2604.27089</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2604.27089
+评论网址：https://news.ycombinator.com/item?id=48027059
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.wolfssl.com/tpm-2-0-sealing-policies-with-wolftpm-pcr-policies-policy-authorize-and-nv-storage-for-tpm-2-0-secrets/</guid>
-      <pubDate>Tue, 05 May 2026 16:16:42 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2604.27089</guid>
+      <pubDate>Tue, 05 May 2026 19:07:25 GMT</pubDate>
     </item>
     <item>
-      <title>曲线与悬崖：人工智能构建者无法证明什么</title>
-      <link>https://btriani.medium.com/the-curve-and-the-cliff-913e94590808</link>
-      <description><![CDATA[文章网址：https://btriani.medium.com/the-curve-and-the-cliff-913e94590808
-评论网址：https://news.ycombinator.com/item?id=48024583
-积分：1
+      <title>Quirre – 面向非营销人员的人工智能营销副驾驶</title>
+      <link>https://www.quirre.com/</link>
+      <description><![CDATA[文章网址：https://www.quirre.com/
+评论网址：https://news.ycombinator.com/item?id=48027054
+积分：2
 # 条评论：0]]></description>
-      <guid>https://btriani.medium.com/the-curve-and-the-cliff-913e94590808</guid>
-      <pubDate>Tue, 05 May 2026 16:16:13 GMT</pubDate>
+      <guid>https://www.quirre.com/</guid>
+      <pubDate>Tue, 05 May 2026 19:07:18 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN: Secretenv – 使用所有后端的秘密运行任何进程</title>
-      <link>https://github.com/TechAlchemistX/secretenv</link>
-      <description><![CDATA[大家好，我构建 SecretEnv 是为了帮助解决我在工作过的每个组织中看到的一件常见问题。我们总是有多个密码/凭据管理器。服务令牌可能在 Vault、AWS SSM 等中，一些团队特定的服务帐户或临时帐户凭证存储在另一个密码存储中，例如 1Password 或 Keeper，从来没有一个凭证存储。这就是 SecretEnv 发挥作用的地方，它运行任何命令，并将秘密作为环境变量注入，这些秘密来自您的团队已使用的后端的任何组合。我确信还有其他工具可以执行类似的操作，即运行命令并注入秘密。然而，SecretEnv 的做法有所不同。关键思想是将大多数时间组合在一起的两个项目分开。 
-将 SecretEnv 的解析结构想象成地址簿。- 您的存储库会获得一个 Secretenv.toml 文件，其中的标签作为针对 ENV 变量的值。这些实际上可以是任何东西。 DB_URL、STRIPE_KEY 等等。
-- 您有一个位于您/您的公司使用的后端的注册表。该注册表保存实际路径和凭据。
-- 您的计算机上有一个名为 config.toml 的配置文件，secretenv 使用该文件从 Secretenv.toml 获取别名，并根据后端的注册表进行解析。想象一下，如果您是一名平台工程师，需要将密码存储迁移到不同的后端。我现在可以将机密从 AWS 迁移到 Vault 或在一个中心位置（注册表）更改命名约定，而开发人员无需触摸其代码或更新配置文件。这是什么表示您认为该凭证已被 10 个、15 个甚至 20 个存储库使用。您所需要做的就是更新注册表中的 DB_URL 路径，所有存储库都会接受更改。无需打开 PR，让开发团队参与其中。整个想法是抽象和解耦依赖关系。该工具目前已支持 14 个后端，涵盖了大部分内容。希望得到您的反馈，以及是否有任何后端或工作流程未涵盖。https://github.com/TechAlchemistX/secretenv
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48024563
-积分：1
+      <title>当无辜的工具形成危险的链条来越狱LLM代理时</title>
+      <link>https://arxiv.org/abs/2509.25624</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2509.25624
+评论网址：https://news.ycombinator.com/item?id=48027039
+积分：2
+# 条评论：0]]></description>
+      <guid>https://arxiv.org/abs/2509.25624</guid>
+      <pubDate>Tue, 05 May 2026 19:06:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：什么更糟糕？根据不良数据或没有数据做出决策？为什么？</title>
+      <link>https://news.ycombinator.com/item?id=48027025</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=48027025
+积分：2
 # 条评论：1]]></description>
-      <guid>https://github.com/TechAlchemistX/secretenv</guid>
-      <pubDate>Tue, 05 May 2026 16:15:13 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=48027025</guid>
+      <pubDate>Tue, 05 May 2026 19:05:28 GMT</pubDate>
     </item>
     <item>
-      <title>精神航空并没有坠毁——而是被击落了</title>
-      <link>https://www.thebignewsletter.com/p/who-killed-spirit-airlines</link>
-      <description><![CDATA[文章网址：https://www.thebignewsletter.com/p/who-killed-spirit-airlines
-评论网址：https://news.ycombinator.com/item?id=48024553
+      <title>五年的数据告诉我们什么关于持久的关系</title>
+      <link>https://hanker.dating/study</link>
+      <description><![CDATA[文章网址：https://hanker.dating/study
+评论网址：https://news.ycombinator.com/item?id=48027022
+积分：3
+# 条评论：0]]></description>
+      <guid>https://hanker.dating/study</guid>
+      <pubDate>Tue, 05 May 2026 19:05:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>一个炸毁核电站并失踪的人</title>
+      <link>https://www.theguardian.com/world/2026/may/05/the-man-who-blew-up-a-nuclear-power-station-koeberg-south-africa</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/world/2026/may/05/the-man-who-blew-up-a-nuclear-power-station-koeberg-south-africa
+评论网址：https://news.ycombinator.com/item?id=48027019
+积分：5
+# 条评论：0]]></description>
+      <guid>https://www.theguardian.com/world/2026/may/05/the-man-who-blew-up-a-nuclear-power-station-koeberg-south-africa</guid>
+      <pubDate>Tue, 05 May 2026 19:05:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>隔间门裂缝[视频]</title>
+      <link>https://www.youtube.com/watch?v=psKpIFYn3Uo</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=psKpIFYn3Uo
+评论网址：https://news.ycombinator.com/item?id=48027008
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.thebignewsletter.com/p/who-killed-spirit-airlines</guid>
-      <pubDate>Tue, 05 May 2026 16:14:45 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=psKpIFYn3Uo</guid>
+      <pubDate>Tue, 05 May 2026 19:04:30 GMT</pubDate>
     </item>
     <item>
-      <title>加速 Gemma 4：使用多令牌预测起草器进行更快的推理</title>
-      <link>https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/</link>
-      <description><![CDATA[文章网址：https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/
-评论网址：https://news.ycombinator.com/item?id=48024540
+      <title>Show HN：使用 Maravel-Framework 10.71.7 时，Maravel 的 RPS 比 Lumen 高出 118%</title>
+      <link>https://medium.com/@marius-ciclistu/118-more-rps-for-maravel-vs-lumen-with-maravel-framework-10-71-7-kernel-79858cb69232</link>
+      <description><![CDATA[文章网址： https://medium.com/@marius-ciclistu/118-more-rps-for-maravel-vs-lumen-with-maravel-framework-10-71-7-kernel-79858cb69232
+评论网址：https://news.ycombinator.com/item?id=48026985
 积分：1
 # 条评论：0]]></description>
-      <guid>https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/</guid>
-      <pubDate>Tue, 05 May 2026 16:14:17 GMT</pubDate>
+      <guid>https://medium.com/@marius-ciclistu/118-more-rps-for-maravel-vs-lumen-with-maravel-framework-10-71-7-kernel-79858cb69232</guid>
+      <pubDate>Tue, 05 May 2026 19:03:01 GMT</pubDate>
     </item>
     <item>
-      <title>脉冲序列</title>
-      <link>https://excamera.substack.com/p/pulsetrain</link>
-      <description><![CDATA[文章网址：https://excamera.substack.com/p/pulsetrain
-评论网址：https://news.ycombinator.com/item?id=48024528
-积分：1
-# 条评论：0]]></description>
-      <guid>https://excamera.substack.com/p/pulsetrain</guid>
-      <pubDate>Tue, 05 May 2026 16:13:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>纳西-施奈德曼图</title>
-      <link>https://en.wikipedia.org/wiki/Nassi%E2%80%93Shneiderman_diagram</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Nassi%E2%80%93Shneiderman_diagram
-评论网址：https://news.ycombinator.com/item?id=48024517
+      <title>纳尔克利</title>
+      <link>https://github.com/Nare-Labs/NARE-CLI</link>
+      <description><![CDATA[文章网址：https://github.com/Nare-Labs/NARE-CLI
+评论网址：https://news.ycombinator.com/item?id=48026981
 积分：2
 # 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Nassi%E2%80%93Shneiderman_diagram</guid>
-      <pubDate>Tue, 05 May 2026 16:13:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Thoth v3.20.0 – 完整的 Linux 支持、MiniMax 集成、可靠性升级</title>
-      <link>https://github.com/siddsachar/Thoth</link>
-      <description><![CDATA[文章网址：https://github.com/siddsachar/Thoth
-评论网址：https://news.ycombinator.com/item?id=48024508
-积分：2
-# 条评论：0]]></description>
-      <guid>https://github.com/siddsachar/Thoth</guid>
-      <pubDate>Tue, 05 May 2026 16:12:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Xclif，Python CLI 的基于文件的路由</title>
-      <link>https://github.com/ThatXliner/xclif</link>
-      <description><![CDATA[大多数 CLI 框架（Click、argparse）都允许您使用装饰器或解析器对象手动注册子命令。 Xclif 尝试不同的方法：将一个文件放入您的 paths/ 文件夹中，它会自动成为一个子命令。myapp/
-├── 路线/
-│ ├──greet.py→myappgreet
-│ └── 服务器/
-│ ├── start.py → myapp 服务器启动
-│ └── stop.py → myapp server stop下面是在这些文件之一中定义命令的示例。请注意，它与 Click 非常相似。@command()
-def _(name: str, template: str = &quot;Hello, {}!&quot;) -&gt; None:
-    ”““向某人打招呼。”“”
-    print(template.format(name))自定义解析器的调度速度比 Click 快约 25 倍，比 Typer 快约 170 倍（简单命令分别为 2.7 µs 与 72 µs 与 496 µs）。还包括丰富格式的帮助、用于 config/env/CLI 标志分层的 WithConfig[T]、代理优化的帮助输出（自动检测 LLM 工具调用的非 TTY → 紧凑格式），以及一个可选的清单编译器，用于跳过大型代码库中的路由遍历。这开始是对基于文件的路由（受 Next.js 启发）是否可以在 CLI 世界中工作的探索。它的效果出奇的好，特别是对于有大量子命令的项目，找到正确的 add_subcommand 调用变得很麻烦。我一直在我的许多其他项目中使用它，例如 https://codeberg.org/thatxliner/codeberg-cli 和 https://github.com/ThatXliner/git-worm
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48024479
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/ThatXliner/xclif</guid>
-      <pubDate>Tue, 05 May 2026 16:11:18 GMT</pubDate>
+      <guid>https://github.com/Nare-Labs/NARE-CLI</guid>
+      <pubDate>Tue, 05 May 2026 19:02:46 GMT</pubDate>
     </item>
     </channel>
 </rss>

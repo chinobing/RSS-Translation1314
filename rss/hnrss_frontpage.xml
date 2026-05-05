@@ -4,109 +4,109 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 05 May 2026 16:25:06 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 19:20:09 GMT</lastBuildDate>
     <item>
-      <title>人工智能的三个逆定律</title>
-      <link>https://susam.net/inverse-laws-of-robotics.html</link>
-      <description><![CDATA[文章网址：https://susam.net/inverse-laws-of-robotics.html
-评论网址：https://news.ycombinator.com/item?id=48023861
-积分：30
-# 条评论：3]]></description>
-      <guid>https://susam.net/inverse-laws-of-robotics.html</guid>
-      <pubDate>Tue, 05 May 2026 15:27:18 GMT</pubDate>
+      <title>德尔蒙破产后加州农民将毁掉 42 万棵桃树</title>
+      <link>https://www.sfgate.com/centralcoast/article/usda-aid-california-farmers-22240694.php</link>
+      <description><![CDATA[文章网址：https://www.sfgate.com/centralcoast/article/usda-aid-california-farmers-22240694.php
+评论网址：https://news.ycombinator.com/item?id=48026349
+积分：57
+# 条评论：43]]></description>
+      <guid>https://www.sfgate.com/centralcoast/article/usda-aid-california-farmers-22240694.php</guid>
+      <pubDate>Tue, 05 May 2026 18:13:47 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：一个 Mutating Webhook，可自动从 K8s 日志中剥离 PII</title>
-      <link>https://github.com/aragossa/pii-shield</link>
-      <description><![CDATA[文章网址：https://github.com/aragossa/pii-shield
-评论网址：https://news.ycombinator.com/item?id=48023587
-积分：8
-# 条评论：2]]></description>
-      <guid>https://github.com/aragossa/pii-shield</guid>
-      <pubDate>Tue, 05 May 2026 15:09:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>金融服务和保险代理</title>
-      <link>https://www.anthropic.com/news/finance-agents</link>
-      <description><![CDATA[文章网址：https://www.anthropic.com/news/finance-agents
-评论网址：https://news.ycombinator.com/item?id=48023533
-积分：42
-# 条评论：17]]></description>
-      <guid>https://www.anthropic.com/news/finance-agents</guid>
-      <pubDate>Tue, 05 May 2026 15:05:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Airbyte Agents – 跨多个数据源的代理上下文</title>
-      <link>https://news.ycombinator.com/item?id=48023496</link>
-      <description><![CDATA[我是 Michel，Airbyte 联合创始人兼首席执行官 (https://airbyte.com/)。过去六年我们一直在构建数据连接器。今天，我们将推出 Airbyte Agents (https://docs.airbyte.com/ai-agents/)，这是一个统一的数据层，供代理跨操作系统发现信息并采取行动。以下是快速演练：https://www.youtube.com/watch?v=ZosDytyf1fg随着客服人员进入实际工作流程，他们需要访问更多工具（例如 Slack、Salesforce、Linear）。这意味着大量的 API 管道：身份验证、分页、过滤器、处理架构以及跨系统匹配实体。大多数 MCP 都无法解决此问题。它们是 API 的薄包装器，因此代理继承了它们的弱基元，但大多数时候仍然会出错，尤其是在跨工具工作时。更深层的问题是 API 假设您已经知道要查询什么（例如端点、对象 ID、字段），而代理通常会提前一步：它们需要首先发现重要的内容，然后才能开始推理。因此，我们将 Airbyte Agent 构建为代理与所有数据之间的上下文层。其核心是我们所说的上下文存储：针对代理搜索优化的数据索引，由我们的复制连接器填充。过去六年在数据连接器上所做的所有工作在这里都派上了用场！这为代理提供了一种结构化的方式来发现数据，同时仍然允许它们在需要时直接读取和写入上游系统。让我们致力于此工作的是来自我们正在迁移到新 SDK 的代理的疯狂跟踪。它应该回答“本季度哪些客户有离开的风险？”这条路线有 47 级台阶。大多数是 API 调用。代理首先必须找到一堆帐户，然后将它们映射到正确的客户，然后寻找门票，等等……当代理最终做出回应时，答案听起来不错，但错了。不仅如此，速度还慢得令人难以忍受。所以我们必须对此采取一些措施。47 步代理就是 Airbyte Agents 做得特别好的一个问题的例子。其他示例：-“向我显示本月结束的所有企业交易以及开放的支持请求。” - “找到所有没有打开 Github 问题的支持票证”其中一些可能听起来很简单，但是当代理不必在运行时组装所有上下文时，答案的质量会发生巨大变化。一旦我们有了该产品的早期版本，我花了一个周末构建了一个基准测试工具来看看它是否有效。另外为了好玩，我喜欢编写基准测试:)。我比较了调用 Airbyte Agent MCP 和直接调用一堆供应商 MCP。我测试了检索和搜索。为了简单起见，我使用令牌消耗作为衡量单位。我认为这可以很好地体现代理商的工作情况。一个失败的代理（比如需要 47 个步骤的代理）会耗费大量代币而一无所获，而成功的代理会直奔主题。这是我在测量时发现的结果：对于 Kong，它使用的代币比他们自己的 MCP 少了 80%，对于 Zendesk 来说少了 90%，对于 Linear 来说最多 75%，对于 Salesforce 来说最多 16%（Salesforce 自己的 SOQL 做得很好）此处）。当然，通常存在明显的偏见：我们是基准测试的构建者。因此，我们公开了测试工具：https://github.com/airbytehq/airbyte-agents-benchmarks。请随意查看它，如果您这样做了，请告诉我们您发现了什么！现在还为时过早，有些部分还很粗糙，但我们希望尽快与社区分享。我们很乐意听到建筑代理商的意见：
-- 您是否提前索引数据，或者让代理实时调用 API？
-- 您如何跨系统匹配实体？也很想听听有关我们如何改进这一点的任何想法、评论或想法，以及是否有我们遗漏的明显内容。目前，我们很高兴能够继续建设！
+      <title>Show HN：探索受 3000 幅大师级画家作品启发的调色板</title>
+      <link>https://paletteinspiration.com/</link>
+      <description><![CDATA[我建立了 PaletteInspiration.com，这是一个可浏览的调色板档案，其中包含从 3,000 多位画家大师（莫奈、维米尔、拉斐尔、梵高）的作品中提取的调色板。
+我为什么构建它：我尝试过的每个调色板生成器都集中在相同的五种柔和的粉彩上。画家花了几个世纪的时间来研究颜色，而我们在为数字设计选择颜色时大多忽略了这些工作。
+请分享您对色彩和谐浏览器的反馈 - 将滚轮拖动到任何颜色，它会显示历史上大师画家与之配对的色调（不仅是标准的互补色、类似色、三元色等）。它完全基于数千幅真实绘画的共现。不是算法色彩理论规则 - 实际的经验配对。无需注册，无需付费专区，无需捕获电子邮件。只是好奇人们的想法。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48023496
-积分：20
-# 条评论：3]]></description>
-      <guid>https://news.ycombinator.com/item?id=48023496</guid>
-      <pubDate>Tue, 05 May 2026 15:03:18 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=48026342
+积分：7
+# 条评论：4]]></description>
+      <guid>https://paletteinspiration.com/</guid>
+      <pubDate>Tue, 05 May 2026 18:13:14 GMT</pubDate>
     </item>
     <item>
-      <title>官方消息：犹他州是美国最接近禁止 VPN 的州</title>
-      <link>https://tech.yahoo.com/vpn/article/its-official-utah-is-the-us-state-closest-to-banning-vpns-153556814.html</link>
-      <description><![CDATA[文章网址：https://tech.yahoo.com/vpn/article/its-official-utah-is-the-us-state-closest-to-banning-vpns-153556814.html
-评论网址：https://news.ycombinator.com/item?id=48023473
-积分：55
-# 条评论：30]]></description>
-      <guid>https://tech.yahoo.com/vpn/article/its-official-utah-is-the-us-state-closest-to-banning-vpns-153556814.html</guid>
-      <pubDate>Tue, 05 May 2026 15:01:30 GMT</pubDate>
+      <title>关于Notepad++商标问题的澄清</title>
+      <link>https://notepad-plus-plus.org/news/clarify-npp-trademark-infringement/</link>
+      <description><![CDATA[文章网址：https://notepad-plus-plus.org/news/clarify-npp-trademark-infringement/
+评论网址：https://news.ycombinator.com/item?id=48026206
+积分：88
+# 条评论：32]]></description>
+      <guid>https://notepad-plus-plus.org/news/clarify-npp-trademark-infringement/</guid>
+      <pubDate>Tue, 05 May 2026 18:04:20 GMT</pubDate>
     </item>
     <item>
-      <title>乐趣已被优化出互联网</title>
-      <link>https://muddy.jprs.me/posts/2026-05-03-the-best-is-over/</link>
-      <description><![CDATA[文章网址：https://muddy.jprs.me/posts/2026-05-03-the-best-is-over/
-评论网址：https://news.ycombinator.com/item?id=48022992
-积分：234
-# 条评论：168]]></description>
-      <guid>https://muddy.jprs.me/posts/2026-05-03-the-best-is-over/</guid>
-      <pubDate>Tue, 05 May 2026 14:29:24 GMT</pubDate>
+      <title>GLM-5V-Turbo：迈向多模式代理的原生基础模型</title>
+      <link>https://arxiv.org/abs/2604.26752</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2604.26752
+评论网址：https://news.ycombinator.com/item?id=48026021
+积分：41
+# 条评论：6]]></description>
+      <guid>https://arxiv.org/abs/2604.26752</guid>
+      <pubDate>Tue, 05 May 2026 17:52:31 GMT</pubDate>
     </item>
     <item>
-      <title>又一起 GitHub 事件</title>
-      <link>https://www.githubstatus.com/incidents/1j40g94rn22j</link>
-      <description><![CDATA[文章网址：https://www.githubstatus.com/incidents/1j40g94rn22j
-评论网址：https://news.ycombinator.com/item?id=48022900
-积分：21
-# 条评论：5]]></description>
-      <guid>https://www.githubstatus.com/incidents/1j40g94rn22j</guid>
-      <pubDate>Tue, 05 May 2026 14:21:18 GMT</pubDate>
+      <title>量子密钥分发 (QKD) 和量子密码学 (QC)</title>
+      <link>https://www.nsa.gov/Cybersecurity/Quantum-Key-Distribution-QKD-and-Quantum-Cryptography-QC/</link>
+      <description><![CDATA[文章网址：https://www.nsa.gov/Cybersecurity/Quantum-Key-Distribution-QKD-and-Quantum-Cryptography-QC/
+评论网址：https://news.ycombinator.com/item?id=48025828
+积分：24
+# 条评论：2]]></description>
+      <guid>https://www.nsa.gov/Cybersecurity/Quantum-Key-Distribution-QKD-and-Quantum-Cryptography-QC/</guid>
+      <pubDate>Tue, 05 May 2026 17:38:17 GMT</pubDate>
     </item>
     <item>
-      <title>AI 没有删除你的数据库，而是你删除了</title>
-      <link>https://idiallo.com/blog/ai-didnt-delete-your-database-you-did</link>
-      <description><![CDATA[文章网址：https://idiallo.com/blog/ai-didnt-delete-your-database-you-did
-评论网址：https://news.ycombinator.com/item?id=48022742
-积分：280
-评论数：127]]></description>
-      <guid>https://idiallo.com/blog/ai-didnt-delete-your-database-you-did</guid>
-      <pubDate>Tue, 05 May 2026 14:07:50 GMT</pubDate>
+      <title>IBM 不希望 Microsoft 使用 Tab 键在对话框字段之间移动</title>
+      <link>https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298</link>
+      <description><![CDATA[文章网址：https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298
+评论网址：https://news.ycombinator.com/item?id=48025687
+积分：173
+评论数量：91]]></description>
+      <guid>https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298</guid>
+      <pubDate>Tue, 05 May 2026 17:28:18 GMT</pubDate>
     </item>
     <item>
-      <title>Islo.dev 上的简单元线束</title>
-      <link>https://zozo123.github.io/meta-harness-on-islo-page/</link>
-      <description><![CDATA[文章网址：https://zozo123.github.io/meta-harness-on-islo-page/
-评论网址：https://news.ycombinator.com/item?id=48022596
-积分：29
-# 条评论：13]]></description>
-      <guid>https://zozo123.github.io/meta-harness-on-islo-page/</guid>
-      <pubDate>Tue, 05 May 2026 13:55:45 GMT</pubDate>
+      <title>Proliferate (YC S25) 正在招聘 - 初级工程师 20 万</title>
+      <link>https://www.ycombinator.com/companies/proliferate/jobs/L3copvK-founding-engineer</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/proliferate/jobs/L3copvK-founding-engineer
+评论网址：https://news.ycombinator.com/item?id=48025244
+积分：0
+# 条评论：0]]></description>
+      <guid>https://www.ycombinator.com/companies/proliferate/jobs/L3copvK-founding-engineer</guid>
+      <pubDate>Tue, 05 May 2026 17:00:16 GMT</pubDate>
     </item>
     <item>
-      <title>AI产品墓地</title>
-      <link>https://tooldirectory.ai/ai-graveyard</link>
-      <description><![CDATA[文章网址：https://tooldirectory.ai/ai-graveyard
-评论网址：https://news.ycombinator.com/item?id=48021968
-积分：164
-# 条评论：71]]></description>
-      <guid>https://tooldirectory.ai/ai-graveyard</guid>
-      <pubDate>Tue, 05 May 2026 13:00:47 GMT</pubDate>
+      <title>计算机使用比结构化 API 贵 45 倍</title>
+      <link>https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/</link>
+      <description><![CDATA[文章网址：https://reflex.dev/blog/computer-use-is-45x-more-expense-than-structured-apis/
+评论网址：https://news.ycombinator.com/item?id=48024859
+积分：117
+# 条评论：77]]></description>
+      <guid>https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/</guid>
+      <pubDate>Tue, 05 May 2026 16:34:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>加速 Gemma 4：使用多令牌预测起草器进行更快的推理</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/</link>
+      <description><![CDATA[文章网址：https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/
+评论网址：https://news.ycombinator.com/item?id=48024540
+积分：197
+# 条评论：74]]></description>
+      <guid>https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/</guid>
+      <pubDate>Tue, 05 May 2026 16:14:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>英国：市场强劲反弹，已有 200 万辆电动汽车注册</title>
+      <link>https://www.smmt.co.uk/two-millionth-electric-car-registered-as-market-rebounds-strongly-from-tax-changes/</link>
+      <description><![CDATA[文章网址：https://www.smmt.co.uk/two-millionth-electric-car-registered-as-market-rebounds-strongly-from-tax-changes/
+评论网址：https://news.ycombinator.com/item?id=48024364
+积分：134
+评论数量：164]]></description>
+      <guid>https://www.smmt.co.uk/two-millionth-electric-car-registered-as-market-rebounds-strongly-from-tax-changes/</guid>
+      <pubDate>Tue, 05 May 2026 16:03:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
