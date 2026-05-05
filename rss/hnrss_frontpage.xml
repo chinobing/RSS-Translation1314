@@ -4,107 +4,109 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 05 May 2026 13:56:09 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 16:25:06 GMT</lastBuildDate>
     <item>
-      <title>理查德·道金斯和克劳德妄想</title>
-      <link>https://flux.community/matthew-sheffield/2026/05/richard-dawkins-and-the-claude-delusion/</link>
-      <description><![CDATA[文章网址：https://flux.community/matthew-sheffield/2026/05/richard-dawkins-and-the-claude-delusion/
-评论网址：https://news.ycombinator.com/item?id=48022266
-积分：15
-# 条评论：0]]></description>
-      <guid>https://flux.community/matthew-sheffield/2026/05/richard-dawkins-and-the-claude-delusion/</guid>
-      <pubDate>Tue, 05 May 2026 13:26:46 GMT</pubDate>
+      <title>人工智能的三个逆定律</title>
+      <link>https://susam.net/inverse-laws-of-robotics.html</link>
+      <description><![CDATA[文章网址：https://susam.net/inverse-laws-of-robotics.html
+评论网址：https://news.ycombinator.com/item?id=48023861
+积分：30
+# 条评论：3]]></description>
+      <guid>https://susam.net/inverse-laws-of-robotics.html</guid>
+      <pubDate>Tue, 05 May 2026 15:27:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：一个 Mutating Webhook，可自动从 K8s 日志中剥离 PII</title>
+      <link>https://github.com/aragossa/pii-shield</link>
+      <description><![CDATA[文章网址：https://github.com/aragossa/pii-shield
+评论网址：https://news.ycombinator.com/item?id=48023587
+积分：8
+# 条评论：2]]></description>
+      <guid>https://github.com/aragossa/pii-shield</guid>
+      <pubDate>Tue, 05 May 2026 15:09:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>金融服务和保险代理</title>
+      <link>https://www.anthropic.com/news/finance-agents</link>
+      <description><![CDATA[文章网址：https://www.anthropic.com/news/finance-agents
+评论网址：https://news.ycombinator.com/item?id=48023533
+积分：42
+# 条评论：17]]></description>
+      <guid>https://www.anthropic.com/news/finance-agents</guid>
+      <pubDate>Tue, 05 May 2026 15:05:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Airbyte Agents – 跨多个数据源的代理上下文</title>
+      <link>https://news.ycombinator.com/item?id=48023496</link>
+      <description><![CDATA[我是 Michel，Airbyte 联合创始人兼首席执行官 (https://airbyte.com/)。过去六年我们一直在构建数据连接器。今天，我们将推出 Airbyte Agents (https://docs.airbyte.com/ai-agents/)，这是一个统一的数据层，供代理跨操作系统发现信息并采取行动。以下是快速演练：https://www.youtube.com/watch?v=ZosDytyf1fg随着客服人员进入实际工作流程，他们需要访问更多工具（例如 Slack、Salesforce、Linear）。这意味着大量的 API 管道：身份验证、分页、过滤器、处理架构以及跨系统匹配实体。大多数 MCP 都无法解决此问题。它们是 API 的薄包装器，因此代理继承了它们的弱基元，但大多数时候仍然会出错，尤其是在跨工具工作时。更深层的问题是 API 假设您已经知道要查询什么（例如端点、对象 ID、字段），而代理通常会提前一步：它们需要首先发现重要的内容，然后才能开始推理。因此，我们将 Airbyte Agent 构建为代理与所有数据之间的上下文层。其核心是我们所说的上下文存储：针对代理搜索优化的数据索引，由我们的复制连接器填充。过去六年在数据连接器上所做的所有工作在这里都派上了用场！这为代理提供了一种结构化的方式来发现数据，同时仍然允许它们在需要时直接读取和写入上游系统。让我们致力于此工作的是来自我们正在迁移到新 SDK 的代理的疯狂跟踪。它应该回答“本季度哪些客户有离开的风险？”这条路线有 47 级台阶。大多数是 API 调用。代理首先必须找到一堆帐户，然后将它们映射到正确的客户，然后寻找门票，等等……当代理最终做出回应时，答案听起来不错，但错了。不仅如此，速度还慢得令人难以忍受。所以我们必须对此采取一些措施。47 步代理就是 Airbyte Agents 做得特别好的一个问题的例子。其他示例：-“向我显示本月结束的所有企业交易以及开放的支持请求。” - “找到所有没有打开 Github 问题的支持票证”其中一些可能听起来很简单，但是当代理不必在运行时组装所有上下文时，答案的质量会发生巨大变化。一旦我们有了该产品的早期版本，我花了一个周末构建了一个基准测试工具来看看它是否有效。另外为了好玩，我喜欢编写基准测试:)。我比较了调用 Airbyte Agent MCP 和直接调用一堆供应商 MCP。我测试了检索和搜索。为了简单起见，我使用令牌消耗作为衡量单位。我认为这可以很好地体现代理商的工作情况。一个失败的代理（比如需要 47 个步骤的代理）会耗费大量代币而一无所获，而成功的代理会直奔主题。这是我在测量时发现的结果：对于 Kong，它使用的代币比他们自己的 MCP 少了 80%，对于 Zendesk 来说少了 90%，对于 Linear 来说最多 75%，对于 Salesforce 来说最多 16%（Salesforce 自己的 SOQL 做得很好）此处）。当然，通常存在明显的偏见：我们是基准测试的构建者。因此，我们公开了测试工具：https://github.com/airbytehq/airbyte-agents-benchmarks。请随意查看它，如果您这样做了，请告诉我们您发现了什么！现在还为时过早，有些部分还很粗糙，但我们希望尽快与社区分享。我们很乐意听到建筑代理商的意见：
+- 您是否提前索引数据，或者让代理实时调用 API？
+- 您如何跨系统匹配实体？也很想听听有关我们如何改进这一点的任何想法、评论或想法，以及是否有我们遗漏的明显内容。目前，我们很高兴能够继续建设！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48023496
+积分：20
+# 条评论：3]]></description>
+      <guid>https://news.ycombinator.com/item?id=48023496</guid>
+      <pubDate>Tue, 05 May 2026 15:03:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>官方消息：犹他州是美国最接近禁止 VPN 的州</title>
+      <link>https://tech.yahoo.com/vpn/article/its-official-utah-is-the-us-state-closest-to-banning-vpns-153556814.html</link>
+      <description><![CDATA[文章网址：https://tech.yahoo.com/vpn/article/its-official-utah-is-the-us-state-closest-to-banning-vpns-153556814.html
+评论网址：https://news.ycombinator.com/item?id=48023473
+积分：55
+# 条评论：30]]></description>
+      <guid>https://tech.yahoo.com/vpn/article/its-official-utah-is-the-us-state-closest-to-banning-vpns-153556814.html</guid>
+      <pubDate>Tue, 05 May 2026 15:01:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>乐趣已被优化出互联网</title>
+      <link>https://muddy.jprs.me/posts/2026-05-03-the-best-is-over/</link>
+      <description><![CDATA[文章网址：https://muddy.jprs.me/posts/2026-05-03-the-best-is-over/
+评论网址：https://news.ycombinator.com/item?id=48022992
+积分：234
+# 条评论：168]]></description>
+      <guid>https://muddy.jprs.me/posts/2026-05-03-the-best-is-over/</guid>
+      <pubDate>Tue, 05 May 2026 14:29:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>又一起 GitHub 事件</title>
+      <link>https://www.githubstatus.com/incidents/1j40g94rn22j</link>
+      <description><![CDATA[文章网址：https://www.githubstatus.com/incidents/1j40g94rn22j
+评论网址：https://news.ycombinator.com/item?id=48022900
+积分：21
+# 条评论：5]]></description>
+      <guid>https://www.githubstatus.com/incidents/1j40g94rn22j</guid>
+      <pubDate>Tue, 05 May 2026 14:21:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI 没有删除你的数据库，而是你删除了</title>
+      <link>https://idiallo.com/blog/ai-didnt-delete-your-database-you-did</link>
+      <description><![CDATA[文章网址：https://idiallo.com/blog/ai-didnt-delete-your-database-you-did
+评论网址：https://news.ycombinator.com/item?id=48022742
+积分：280
+评论数：127]]></description>
+      <guid>https://idiallo.com/blog/ai-didnt-delete-your-database-you-did</guid>
+      <pubDate>Tue, 05 May 2026 14:07:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Islo.dev 上的简单元线束</title>
+      <link>https://zozo123.github.io/meta-harness-on-islo-page/</link>
+      <description><![CDATA[文章网址：https://zozo123.github.io/meta-harness-on-islo-page/
+评论网址：https://news.ycombinator.com/item?id=48022596
+积分：29
+# 条评论：13]]></description>
+      <guid>https://zozo123.github.io/meta-harness-on-islo-page/</guid>
+      <pubDate>Tue, 05 May 2026 13:55:45 GMT</pubDate>
     </item>
     <item>
       <title>AI产品墓地</title>
       <link>https://tooldirectory.ai/ai-graveyard</link>
       <description><![CDATA[文章网址：https://tooldirectory.ai/ai-graveyard
 评论网址：https://news.ycombinator.com/item?id=48021968
-积分：73
-# 条评论：34]]></description>
+积分：164
+# 条评论：71]]></description>
       <guid>https://tooldirectory.ai/ai-graveyard</guid>
       <pubDate>Tue, 05 May 2026 13:00:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>iOS 27 正在向 Apple 钱包添加“创建通行证”按钮</title>
-      <link>https://walletwallet.alen.ro/blog/ios-27-wallet-create-pass/</link>
-      <description><![CDATA[文章网址：https://walletwallet.alen.ro/blog/ios-27-wallet-create-pass/
-评论网址：https://news.ycombinator.com/item?id=48021561
-积分：106
-# 条评论：76]]></description>
-      <guid>https://walletwallet.alen.ro/blog/ios-27-wallet-create-pass/</guid>
-      <pubDate>Tue, 05 May 2026 12:28:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我构建了一个新的文字游戏，Wordtrak</title>
-      <link>https://wordtrak.com/blog/2026-05-05-I-built-a-new-word-game</link>
-      <description><![CDATA[嗨，HN！寻找有关我在过去几个月中构建的这款 1v1 和每日单词决斗游戏的反馈。在这里玩：https://wordtrak.com/或者在 iOS 上玩：https://apps.apple.com/us/app/wordtrak/id6760442363（Android 版本即将推出！）
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48021420
-积分：17
-# 条评论：4]]></description>
-      <guid>https://wordtrak.com/blog/2026-05-05-I-built-a-new-word-game</guid>
-      <pubDate>Tue, 05 May 2026 12:14:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>当每个人都拥有人工智能而公司仍然什么也没学到时</title>
-      <link>https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/</link>
-      <description><![CDATA[文章网址：https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/
-评论网址：https://news.ycombinator.com/item?id=48020063
-积分：107
-# 条评论：68]]></description>
-      <guid>https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/</guid>
-      <pubDate>Tue, 05 May 2026 09:30:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google Chrome 在未经同意的情况下在您的设备上静默安装 4 GB AI 模型</title>
-      <link>https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/</link>
-      <description><![CDATA[文章网址：https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/
-评论网址：https://news.ycombinator.com/item?id=48019219
-积分：505
-# 条评论：458]]></description>
-      <guid>https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/</guid>
-      <pubDate>Tue, 05 May 2026 07:34:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>丧钟为谁而鸣的青蛙</title>
-      <link>https://sethmlarson.dev/the-frog-for-whom-the-bell-tolls</link>
-      <description><![CDATA[文章网址：https://sethmlarson.dev/the-frog-for-whom-the-bell-tolls
-评论网址：https://news.ycombinator.com/item?id=48019165
-积分：27
-# 条评论：7]]></description>
-      <guid>https://sethmlarson.dev/the-frog-for-whom-the-bell-tolls</guid>
-      <pubDate>Tue, 05 May 2026 07:26:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Async Rust 从未离开过 MVP 状态</title>
-      <link>https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state</link>
-      <description><![CDATA[文章网址：https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state
-评论网址：https://news.ycombinator.com/item?id=48019163
-积分：287
-# 条评论：143]]></description>
-      <guid>https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state</guid>
-      <pubDate>Tue, 05 May 2026 07:26:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>代理编码的经验教训：当代码便宜时我们应该做什么？</title>
-      <link>https://www.dbreunig.com/2026/05/04/10-lessons-for-agentic-coding.html</link>
-      <description><![CDATA[文章网址：https://www.dbreunig.com/2026/05/04/10-lessons-for-agentic-coding.html
-评论网址：https://news.ycombinator.com/item?id=48019025
-积分：129
-# 条评论：119]]></description>
-      <guid>https://www.dbreunig.com/2026/05/04/10-lessons-for-agentic-coding.html</guid>
-      <pubDate>Tue, 05 May 2026 07:05:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>孩子们用假胡子绕过年龄验证</title>
-      <link>https://www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/
-评论网址：https://news.ycombinator.com/item?id=48018080
-积分：177
-# 条评论：129]]></description>
-      <guid>https://www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/</guid>
-      <pubDate>Tue, 05 May 2026 04:36:24 GMT</pubDate>
     </item>
     </channel>
 </rss>

@@ -4,106 +4,119 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 05 May 2026 13:56:22 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 16:25:23 GMT</lastBuildDate>
     <item>
-      <title>如何与人工智能合作和复合</title>
-      <link>https://eugeneyan.com/writing/working-with-ai/</link>
-      <description><![CDATA[文章网址：https://eugeneyan.com/writing/working-with-ai/
-评论网址：https://news.ycombinator.com/item?id=48022480
+      <title>通过编辑评论跟踪电影、电视和书籍</title>
+      <link>https://cuev.io/</link>
+      <description><![CDATA[文章网址：https://cuev.io/
+评论网址：https://news.ycombinator.com/item?id=48024608
 积分：1
 # 条评论：0]]></description>
-      <guid>https://eugeneyan.com/writing/working-with-ai/</guid>
-      <pubDate>Tue, 05 May 2026 13:43:31 GMT</pubDate>
+      <guid>https://cuev.io/</guid>
+      <pubDate>Tue, 05 May 2026 16:18:12 GMT</pubDate>
     </item>
     <item>
-      <title>特朗普花费了近 20 亿美元纳税人的钱来取消正在进行的风电项目</title>
-      <link>https://fortune.com/2026/04/29/trump-spent-nearly-2-billion-of-taxpayer-money-to-undo-wind-projects-already-underway-dems-demand-answers/</link>
-      <description><![CDATA[文章网址： https://fortune.com/2026/04/29/trump-spent-nearly-2-billion-of-taxpayer-money-to-undo-wind-projects-already-underway-dems-demand-answers/
-评论网址：https://news.ycombinator.com/item?id=48022478
+      <title>WolfTPM 的 TPM 2.0 密封策略</title>
+      <link>https://www.wolfssl.com/tpm-2-0-sealing-policies-with-wolftpm-pcr-policies-policy-authorize-and-nv-storage-for-tpm-2-0-secrets/</link>
+      <description><![CDATA[文章网址： https://www.wolfssl.com/tpm-2-0-sealing-policies-with-wolftpm-pcr-policies-policy-authorize-and-nv-storage-for-tpm-2-0-secrets/
+评论网址：https://news.ycombinator.com/item?id=48024591
 积分：1
 # 条评论：0]]></description>
-      <guid>https://fortune.com/2026/04/29/trump-spent-nearly-2-billion-of-taxpayer-money-to-undo-wind-projects-already-underway-dems-demand-answers/</guid>
-      <pubDate>Tue, 05 May 2026 13:43:21 GMT</pubDate>
+      <guid>https://www.wolfssl.com/tpm-2-0-sealing-policies-with-wolftpm-pcr-policies-policy-authorize-and-nv-storage-for-tpm-2-0-secrets/</guid>
+      <pubDate>Tue, 05 May 2026 16:16:42 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Octopus Code Review 现在可免费用于 OSI 许可的存储库</title>
-      <link>https://octopus-review.ai/login?callbackUrl=%2Fopen-source</link>
-      <description><![CDATA[文章网址：https://octopus-review.ai/login?callbackUrl=%2Fopen-source
-评论网址：https://news.ycombinator.com/item?id=48022476
+      <title>曲线与悬崖：人工智能构建者无法证明什么</title>
+      <link>https://btriani.medium.com/the-curve-and-the-cliff-913e94590808</link>
+      <description><![CDATA[文章网址：https://btriani.medium.com/the-curve-and-the-cliff-913e94590808
+评论网址：https://news.ycombinator.com/item?id=48024583
+积分：1
+# 条评论：0]]></description>
+      <guid>https://btriani.medium.com/the-curve-and-the-cliff-913e94590808</guid>
+      <pubDate>Tue, 05 May 2026 16:16:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: Secretenv – 使用所有后端的秘密运行任何进程</title>
+      <link>https://github.com/TechAlchemistX/secretenv</link>
+      <description><![CDATA[大家好，我构建 SecretEnv 是为了帮助解决我在工作过的每个组织中看到的一件常见问题。我们总是有多个密码/凭据管理器。服务令牌可能在 Vault、AWS SSM 等中，一些团队特定的服务帐户或临时帐户凭证存储在另一个密码存储中，例如 1Password 或 Keeper，从来没有一个凭证存储。这就是 SecretEnv 发挥作用的地方，它运行任何命令，并将秘密作为环境变量注入，这些秘密来自您的团队已使用的后端的任何组合。我确信还有其他工具可以执行类似的操作，即运行命令并注入秘密。然而，SecretEnv 的做法有所不同。关键思想是将大多数时间组合在一起的两个项目分开。 
+将 SecretEnv 的解析结构想象成地址簿。- 您的存储库会获得一个 Secretenv.toml 文件，其中的标签作为针对 ENV 变量的值。这些实际上可以是任何东西。 DB_URL、STRIPE_KEY 等等。
+- 您有一个位于您/您的公司使用的后端的注册表。该注册表保存实际路径和凭据。
+- 您的计算机上有一个名为 config.toml 的配置文件，secretenv 使用该文件从 Secretenv.toml 获取别名，并根据后端的注册表进行解析。想象一下，如果您是一名平台工程师，需要将密码存储迁移到不同的后端。我现在可以将机密从 AWS 迁移到 Vault 或在一个中心位置（注册表）更改命名约定，而开发人员无需触摸其代码或更新配置文件。这是什么表示您认为该凭证已被 10 个、15 个甚至 20 个存储库使用。您所需要做的就是更新注册表中的 DB_URL 路径，所有存储库都会接受更改。无需打开 PR，让开发团队参与其中。整个想法是抽象和解耦依赖关系。该工具目前已支持 14 个后端，涵盖了大部分内容。希望得到您的反馈，以及是否有任何后端或工作流程未涵盖。https://github.com/TechAlchemistX/secretenv
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48024563
 积分：1
 # 条评论：1]]></description>
-      <guid>https://octopus-review.ai/login?callbackUrl=%2Fopen-source</guid>
-      <pubDate>Tue, 05 May 2026 13:43:11 GMT</pubDate>
+      <guid>https://github.com/TechAlchemistX/secretenv</guid>
+      <pubDate>Tue, 05 May 2026 16:15:13 GMT</pubDate>
     </item>
     <item>
-      <title>PHP 许可证自愿停用</title>
-      <link>https://lwn.net/ml/all/8FE97D51-963A-49D6-8302-C808108FC4C9@benramsey.com/</link>
-      <description><![CDATA[文章网址：https://lwn.net/ml/all/8FE97D51-963A-49D6-8302-C808108FC4C9@benramsey.com/
-评论网址：https://news.ycombinator.com/item?id=48022465
+      <title>精神航空并没有坠毁——而是被击落了</title>
+      <link>https://www.thebignewsletter.com/p/who-killed-spirit-airlines</link>
+      <description><![CDATA[文章网址：https://www.thebignewsletter.com/p/who-killed-spirit-airlines
+评论网址：https://news.ycombinator.com/item?id=48024553
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.thebignewsletter.com/p/who-killed-spirit-airlines</guid>
+      <pubDate>Tue, 05 May 2026 16:14:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>加速 Gemma 4：使用多令牌预测起草器进行更快的推理</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/</link>
+      <description><![CDATA[文章网址：https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/
+评论网址：https://news.ycombinator.com/item?id=48024540
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/</guid>
+      <pubDate>Tue, 05 May 2026 16:14:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>脉冲序列</title>
+      <link>https://excamera.substack.com/p/pulsetrain</link>
+      <description><![CDATA[文章网址：https://excamera.substack.com/p/pulsetrain
+评论网址：https://news.ycombinator.com/item?id=48024528
+积分：1
+# 条评论：0]]></description>
+      <guid>https://excamera.substack.com/p/pulsetrain</guid>
+      <pubDate>Tue, 05 May 2026 16:13:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>纳西-施奈德曼图</title>
+      <link>https://en.wikipedia.org/wiki/Nassi%E2%80%93Shneiderman_diagram</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Nassi%E2%80%93Shneiderman_diagram
+评论网址：https://news.ycombinator.com/item?id=48024517
 积分：2
 # 条评论：0]]></description>
-      <guid>https://lwn.net/ml/all/8FE97D51-963A-49D6-8302-C808108FC4C9@benramsey.com/</guid>
-      <pubDate>Tue, 05 May 2026 13:42:45 GMT</pubDate>
+      <guid>https://en.wikipedia.org/wiki/Nassi%E2%80%93Shneiderman_diagram</guid>
+      <pubDate>Tue, 05 May 2026 16:13:24 GMT</pubDate>
     </item>
     <item>
-      <title>我们能在科技中生存吗？ ——约翰·冯·诺依曼 (1955)</title>
-      <link>https://www.privatdozent.co/p/can-we-survive-technology-john-von</link>
-      <description><![CDATA[文章网址：https://www.privatdozent.co/p/can-we-survive-technology-john-von
-评论网址：https://news.ycombinator.com/item?id=48022456
+      <title>Thoth v3.20.0 – 完整的 Linux 支持、MiniMax 集成、可靠性升级</title>
+      <link>https://github.com/siddsachar/Thoth</link>
+      <description><![CDATA[文章网址：https://github.com/siddsachar/Thoth
+评论网址：https://news.ycombinator.com/item?id=48024508
+积分：2
+# 条评论：0]]></description>
+      <guid>https://github.com/siddsachar/Thoth</guid>
+      <pubDate>Tue, 05 May 2026 16:12:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Xclif，Python CLI 的基于文件的路由</title>
+      <link>https://github.com/ThatXliner/xclif</link>
+      <description><![CDATA[大多数 CLI 框架（Click、argparse）都允许您使用装饰器或解析器对象手动注册子命令。 Xclif 尝试不同的方法：将一个文件放入您的 paths/ 文件夹中，它会自动成为一个子命令。myapp/
+├── 路线/
+│ ├──greet.py→myappgreet
+│ └── 服务器/
+│ ├── start.py → myapp 服务器启动
+│ └── stop.py → myapp server stop下面是在这些文件之一中定义命令的示例。请注意，它与 Click 非常相似。@command()
+def _(name: str, template: str = &quot;Hello, {}!&quot;) -&gt; None:
+    ”““向某人打招呼。”“”
+    print(template.format(name))自定义解析器的调度速度比 Click 快约 25 倍，比 Typer 快约 170 倍（简单命令分别为 2.7 µs 与 72 µs 与 496 µs）。还包括丰富格式的帮助、用于 config/env/CLI 标志分层的 WithConfig[T]、代理优化的帮助输出（自动检测 LLM 工具调用的非 TTY → 紧凑格式），以及一个可选的清单编译器，用于跳过大型代码库中的路由遍历。这开始是对基于文件的路由（受 Next.js 启发）是否可以在 CLI 世界中工作的探索。它的效果出奇的好，特别是对于有大量子命令的项目，找到正确的 add_subcommand 调用变得很麻烦。我一直在我的许多其他项目中使用它，例如 https://codeberg.org/thatxliner/codeberg-cli 和 https://github.com/ThatXliner/git-worm
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48024479
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.privatdozent.co/p/can-we-survive-technology-john-von</guid>
-      <pubDate>Tue, 05 May 2026 13:42:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工操作员</title>
-      <link>https://www.media.mit.edu/projects/human-operator/overview/</link>
-      <description><![CDATA[文章网址：https://www.media.mit.edu/projects/ human-operator/overview/
-评论网址：https://news.ycombinator.com/item?id=48022455
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.media.mit.edu/projects/human-operator/overview/</guid>
-      <pubDate>Tue, 05 May 2026 13:42:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>您的编码风格可以预测您的代码是否容易受到攻击吗？</title>
-      <link>https://www.helpnetsecurity.com/2026/05/05/research-code-stylometry-vulnerability-detection/</link>
-      <description><![CDATA[文章网址：https://www.helpnetsecurity.com/2026/05/05/research-code-stylometry-vulnerability-detection/
-评论网址：https://news.ycombinator.com/item?id=48022448
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.helpnetsecurity.com/2026/05/05/research-code-stylometry-vulnerability-detection/</guid>
-      <pubDate>Tue, 05 May 2026 13:41:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Light Phone正在通过第三方“工具”使其哑手机变得更加有用</title>
-      <link>https://www.wired.com/story/exclusive-light-phone-developer-kit/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/exclusive-light-phone-developer-kit/
-评论网址：https://news.ycombinator.com/item?id=48022447
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.wired.com/story/exclusive-light-phone-developer-kit/</guid>
-      <pubDate>Tue, 05 May 2026 13:41:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>威尔·A.I.让大学过时吗？</title>
-      <link>https://www.newyorker.com/news/fault-lines/will-ai-make-college-obsolete</link>
-      <description><![CDATA[文章网址：https://www.newyorker.com/news/fault-lines/will-ai-make-college-obsolete
-评论网址：https://news.ycombinator.com/item?id=48022445
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.newyorker.com/news/fault-lines/will-ai-make-college-obsolete</guid>
-      <pubDate>Tue, 05 May 2026 13:41:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Deltδx – 复杂主张的结构化推理</title>
-      <link>https://chatgpt.com/g/g-69f11b6a1bdc8191ab1100acf60f40cc-deltdx-free</link>
-      <description><![CDATA[文章网址：https://chatgpt.com/g/g-69f11b6a1bdc8191ab1100acf60f40cc-deltdx-free
-评论网址：https://news.ycombinator.com/item?id=48022427
-积分：1
-# 条评论：0]]></description>
-      <guid>https://chatgpt.com/g/g-69f11b6a1bdc8191ab1100acf60f40cc-deltdx-free</guid>
-      <pubDate>Tue, 05 May 2026 13:40:41 GMT</pubDate>
+      <guid>https://github.com/ThatXliner/xclif</guid>
+      <pubDate>Tue, 05 May 2026 16:11:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
