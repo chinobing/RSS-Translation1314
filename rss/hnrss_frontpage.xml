@@ -4,24 +4,44 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 07 May 2026 19:43:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 21:58:27 GMT</lastBuildDate>
+    <item>
+      <title>创造利基市场</title>
+      <link>https://www.davesnider.com/posts/working-in-a-niche</link>
+      <description><![CDATA[文章网址：https://www.davesnider.com/posts/working-in-a-niche
+评论网址：https://news.ycombinator.com/item?id=48053770
+积分：7
+# 条评论：0]]></description>
+      <guid>https://www.davesnider.com/posts/working-in-a-niche</guid>
+      <pubDate>Thu, 07 May 2026 19:32:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dirtyfrag：通用 Linux LPE</title>
+      <link>https://www.openwall.com/lists/oss-security/2026/05/07/8</link>
+      <description><![CDATA[文章网址：https://www.openwall.com/lists/oss-security/2026/05/07/8
+评论网址：https://news.ycombinator.com/item?id=48053623
+积分：222
+评论数量：97]]></description>
+      <guid>https://www.openwall.com/lists/oss-security/2026/05/07/8</guid>
+      <pubDate>Thu, 07 May 2026 19:21:32 GMT</pubDate>
+    </item>
     <item>
       <title>彩色阴影半影</title>
       <link>https://chosker.github.io/blog/colored-shadow-penumbra</link>
       <description><![CDATA[文章网址：https://chosker.github.io/blog/colored-shadow-penumbra
 评论网址：https://news.ycombinator.com/item?id=48053435
-积分：3
-# 条评论：0]]></description>
+积分：24
+评论数量：9]]></description>
       <guid>https://chosker.github.io/blog/colored-shadow-penumbra</guid>
       <pubDate>Thu, 07 May 2026 19:04:30 GMT</pubDate>
     </item>
     <item>
-      <title>AI 溢出正在扼杀在线社区</title>
+      <title>AI 垃圾正在扼杀在线社区</title>
       <link>https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/</link>
       <description><![CDATA[文章网址：https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/
 评论网址：https://news.ycombinator.com/item?id=48053203
-积分：82
-# 条评论：39]]></description>
+积分：252
+# 条评论：239]]></description>
       <guid>https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/</guid>
       <pubDate>Thu, 07 May 2026 18:46:25 GMT</pubDate>
     </item>
@@ -30,81 +50,61 @@
       <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
       <description><![CDATA[文章网址：https://www.anthropic.com/research/natural-language-autoencoders
 评论网址：https://news.ycombinator.com/item?id=48052537
-积分：58
-# 条评论：10]]></description>
+积分：125
+# 条评论：41]]></description>
       <guid>https://www.anthropic.com/research/natural-language-autoencoders</guid>
       <pubDate>Thu, 07 May 2026 17:54:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>巴西 Pix 支付系统面临 Visa 和 Mastercard 的压力</title>
-      <link>https://www.elciudadano.com/en/brazils-pix-payment-system-faces-pressure-from-visa-and-mastercard/04/04/</link>
-      <description><![CDATA[文章网址：https://www.elciudadano.com/en/brazils-pix- payment-system-faces-Pressure-from-visa-and-mastercard/04/04/
-评论网址：https://news.ycombinator.com/item?id=48052371
-积分：51
-# 条评论：32]]></description>
-      <guid>https://www.elciudadano.com/en/brazils-pix-payment-system-faces-pressure-from-visa-and-mastercard/04/04/</guid>
-      <pubDate>Thu, 07 May 2026 17:42:58 GMT</pubDate>
     </item>
     <item>
       <title>代理本机 CLI 的原则</title>
       <link>https://twitter.com/trevin/status/2051316002730991795</link>
       <description><![CDATA[文章网址：https://twitter.com/trevin/status/2051316002730991795
 评论网址：https://news.ycombinator.com/item?id=48052333
-积分：21
-# 条评论：3]]></description>
+积分：38
+# 条评论：20]]></description>
       <guid>https://twitter.com/trevin/status/2051316002730991795</guid>
       <pubDate>Thu, 07 May 2026 17:40:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：浏览器中的完整 Python GUI 应用程序 – 没有 JavaScript，没有服务器</title>
+      <link>https://github.com/pthom/imgui_bundle</link>
+      <description><![CDATA[我自 2022 年以来一直致力于 Dear ImGui Bundle，但这是我第一次在这里谈论它。它是一个围绕 Dear ImGui 的框架，用于用 Python 和 C++ 构建交互式应用程序。它配备了电池，包括：绘图、图像检查、Markdown、节点编辑器、3D 小玩意、旋钮、切换开关等。https://imgui-bundle.pages.dev它现在也可以通过 pyodide 在浏览器中顺利运行：下面的 Playground 是一个在浏览器中运行的 Python 应用程序（无服务器，无 JavaScript）。您可以编辑左侧的代码，然后单击“运行”。它甚至可以在移动设备上运行。https://imgui-bundle.pages.dev/playground我对提供帮助他人表达创造力的工具非常感兴趣。该项目旨在朝这个方向迈出一步，因为它有助于开发代码可读性极强且可破解的 GUI。它所解决的一些目标：- 将真正的立即模式 GUI 引入 Python 和 C++- 一系列高质量的库：小部件、绘图、图像分析、节点版本、Markdown 渲染- C++ 中的多平台应用程序：适用于 C++ 的所有平台（桌面、移动、emscripten）- 部署 python应用程序到网络- 始终保持最新的高质量 Python 绑定（因为它们是自动生成的）- C++ 和 Python 之间的平滑过渡（两者的 API 相同）我很乐意回答问题！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48052290
+积分：18
+# 条评论：6]]></description>
+      <guid>https://github.com/pthom/imgui_bundle</guid>
+      <pubDate>Thu, 07 May 2026 17:36:26 GMT</pubDate>
     </item>
     <item>
       <title>座席需要控制流程，而不是更多提示</title>
       <link>https://bsuh.bearblog.dev/agents-need-control-flow/</link>
       <description><![CDATA[文章网址：https://bsuh.bearblog.dev/agents-need-control-flow/
 评论网址：https://news.ycombinator.com/item?id=48051562
-积分：130
-# 条评论：65]]></description>
+积分：228
+# 条评论：132]]></description>
       <guid>https://bsuh.bearblog.dev/agents-need-control-flow/</guid>
       <pubDate>Thu, 07 May 2026 16:43:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>我从 Mac 换成了 Lenovo Chromebook</title>
+      <link>https://blog.johnozbay.com/i-left-apples-ecosystem-for-a-lenovo-chromebook-and-you-can-too.html</link>
+      <description><![CDATA[文章网址：https://blog.johnozbay.com/i-left-apples-ecosystem-for-a-lenovo-chromebook-and-you-can-too.html
+评论网址：https://news.ycombinator.com/item?id=48051025
+积分：89
+评论数：126]]></description>
+      <guid>https://blog.johnozbay.com/i-left-apples-ecosystem-for-a-lenovo-chromebook-and-you-can-too.html</guid>
+      <pubDate>Thu, 07 May 2026 16:01:24 GMT</pubDate>
     </item>
     <item>
       <title>Chrome 删除了有关 On-device Al 未向 Google 服务器发送数据的声明</title>
       <link>https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/</link>
       <description><![CDATA[文章网址：https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/
 评论网址：https://news.ycombinator.com/item?id=48050964
-积分：254
-评论数：89]]></description>
+积分：373
+评论数：144]]></description>
       <guid>https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/</guid>
       <pubDate>Thu, 07 May 2026 15:56:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>适用于 Metal 的 DeepSeek 4 Flash 本地推理引擎</title>
-      <link>https://github.com/antirez/ds4</link>
-      <description><![CDATA[文章网址：https://github.com/antirez/ds4
-评论网址：https://news.ycombinator.com/item?id=48050751
-积分：148
-# 条评论：47]]></description>
-      <guid>https://github.com/antirez/ds4</guid>
-      <pubDate>Thu, 07 May 2026 15:40:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Stage CLI – 一种在本地读取 AI 生成的更改的更简单方法</title>
-      <link>https://github.com/ReviewStage/stage-cli</link>
-      <description><![CDATA[嘿，HN！我们是查尔斯和迪恩。几周前，我们发布了 Stage，这是一个代码审查工具，可指导您逐步阅读 PR - https://news.ycombinator.com/item?id=47796818。我们收到了很多很好的反馈，但也从很多人那里听说，他们甚至希望在打开 PR 之前就获得章节体验……所以我们将 Stage CLI 构建为任何人都可以尝试的本地开源版本。这里有一个快速演示视频：https://www.tella.tv/video/stage-cli-demo-f55q它适用于您选择的任何编码代理。该技能指示代理读取当前分支的更改，将它们分解为单独的逻辑章节，并在本地浏览器中打开它们。我们发现，以这种方式读取更改比在 IDE 或其他类似的 CLI 工具中读取更改要容易得多，后者以存储库树顺序向您显示差异。您可以在此处查看一些示例来感受这种感觉：https://stagereview.app/explore。尝试一下并告诉我们您的想法！希望听到任何反馈:)
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48050732
-积分：19
-# 条评论：11]]></description>
-      <guid>https://github.com/ReviewStage/stage-cli</guid>
-      <pubDate>Thu, 07 May 2026 15:38:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能引发前所未有的短缺，主板销量“崩溃”</title>
-      <link>https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers</link>
-      <description><![CDATA[文章网址： https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-华硕预计在 2025 年生产更多人工智能芯片，千兆字节微星的主板销量将减少 500 万块，而华擎也预计销量将减少
-评论网址：https://news.ycombinator.com/item?id=48050540
-积分：164
-# 条评论：181]]></description>
-      <guid>https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers</guid>
-      <pubDate>Thu, 07 May 2026 15:23:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
