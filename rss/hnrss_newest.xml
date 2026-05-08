@@ -4,105 +4,120 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 08 May 2026 05:30:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 07:42:27 GMT</lastBuildDate>
     <item>
-      <title>问 HN：现在 Codex 是否更容易达到极限？</title>
-      <link>https://news.ycombinator.com/item?id=48058892</link>
-      <description><![CDATA[在过去一个月左右的时间里，我的印象是 Codex 开始更频繁地达到 5 小时的限制。我总是在 xhigh 中使用最新的模型，但几乎永远不会达到任何限制（我不是一个非常重的用户）。最近，在 5.5 之后，我几乎每天都会达到 5 小时的限制。他们改变了什么吗？
+      <title>Show HN：Mshark-从头开始的纯Go最小依赖包抓包工具</title>
+      <link>https://github.com/shadowy-pycoder/mshark</link>
+      <description><![CDATA[mShark - 一个没有 CGO 和 libpcap 依赖性的迷你 Wireshark，在纯 Go 中从头开始实现功能： mpcap 和 mpcapng 包 - PCAP 和 PCAP 下一代文件格式的自定义实现，根据规范编写。捕获可以直接在 Wireshark 中打开
+
+    oui 包 - OUI 查找将 MAC 地址解析为硬件供应商名称（例如 dc:a6:32 -&gt; Raspberry Pi Foundation）
+
+    层包 - 解析以太网、IPv4/IPv6、ARP、ICMP/ICMPv6、TCP、UDP、DNS、HTTP、TLS、SSH、FTP、SNMP
+
+    网络包 - 用于提取网络元数据的实用函数
+
+    BPF 过滤器支持 - 与 tcpdump/Wireshark 相同的过滤器语法（“端口 53”、“ip proto tcp”等）
+
+    多输出 - 使用单个命令一次性写入 stdout + txt + pcap + pcapng
+
+Layers 包同时进行解析和构造 - 您可以从头开始构建原始数据包并注入它们。数据包构造：NewEthernetFrame - 使用 src/dst MAC 和负载构建以太网帧NewARPPacket - 制作 ARP 请求/回复（对欺骗工具有用）NewIPv4Packet / NewIPv6Packet - 通过校验和计算构建 IP 数据包NewUDPSegment - 通过正确的校验和生成 UDP伪标头NewDNSMessage - 从头开始构建 DNS 查询和响应，包括完整的 RData 类型（A、AAAA、CNAME、MX、NS、SOA、TXT、HTTPS、OPT）ICMPv6 NDP 消息 - 路由器请求、路由器广告、邻居请求/广告以及所有选项（前缀信息、RDNSS、MTU、链路层地址） IPv6 扩展标头` - HopByHop、路由（类型 0） 2)、片段、目的地、移动性
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48058892
+评论网址：https://news.ycombinator.com/item?id=48059883
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48058892</guid>
-      <pubDate>Fri, 08 May 2026 05:20:25 GMT</pubDate>
+      <guid>https://github.com/shadowy-pycoder/mshark</guid>
+      <pubDate>Fri, 08 May 2026 07:33:46 GMT</pubDate>
     </item>
     <item>
-      <title>BotScript – 主要由机器人编写的代码的 TypeScript 超集</title>
-      <link>https://github.com/marcelofarias/botscript</link>
-      <description><![CDATA[文章网址：https://github.com/marcelofarias/botscript
-评论网址：https://news.ycombinator.com/item?id=48058881
+      <title>虚拟专用网络和在线儿童保护</title>
+      <link>https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA(2026)782618</link>
+      <description><![CDATA[文章网址：https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA(2026)782618
+评论网址：https://news.ycombinator.com/item?id=48059874
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/marcelofarias/botscript</guid>
-      <pubDate>Fri, 08 May 2026 05:19:08 GMT</pubDate>
+      <guid>https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA(2026)782618</guid>
+      <pubDate>Fri, 08 May 2026 07:32:43 GMT</pubDate>
     </item>
     <item>
-      <title>正角</title>
-      <link>https://news.ycombinator.com/item?id=48058763</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=48058763
-积分：1
-# 条评论：2]]></description>
-      <guid>https://news.ycombinator.com/item?id=48058763</guid>
-      <pubDate>Fri, 08 May 2026 05:00:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>数据库：1979-2026</title>
-      <link>https://delphinightmares.substack.com/p/dbase-1979-2026</link>
-      <description><![CDATA[文章网址：https://delphinightmares.substack.com/p/dbase-1979-2026
-评论网址：https://news.ycombinator.com/item?id=48058757
-积分：2
-# 条评论：2]]></description>
-      <guid>https://delphinightmares.substack.com/p/dbase-1979-2026</guid>
-      <pubDate>Fri, 08 May 2026 05:00:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：您如何对 AI 代理和开发人员 CLI 进行沙箱处理？</title>
-      <link>https://news.ycombinator.com/item?id=48058747</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=48058747
+      <title>60% 的 MD5 密码哈希可在一小时内破解</title>
+      <link>https://www.theregister.com/security/2026/05/07/60-of-md5-password-hashes-are-crackable-in-under-an-hour/5234954</link>
+      <description><![CDATA[文章网址： https://www.theregister.com/security/2026/05/07/60-of-md5-password-hashes-are-crackable-in-under-an-hour/5234954
+评论网址：https://news.ycombinator.com/item?id=48059867
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48058747</guid>
-      <pubDate>Fri, 08 May 2026 04:58:47 GMT</pubDate>
+      <guid>https://www.theregister.com/security/2026/05/07/60-of-md5-password-hashes-are-crackable-in-under-an-hour/5234954</guid>
+      <pubDate>Fri, 08 May 2026 07:31:22 GMT</pubDate>
     </item>
     <item>
-      <title>Jon Rubinstein：前 Apple 硬件主管拯救 Apple、iMac、iPod、iPhone [视频]</title>
-      <link>https://www.youtube.com/watch?v=PvFMT58lgvk</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=PvFMT58lgvk
-评论网址：https://news.ycombinator.com/item?id=48058736
+      <title>Canvas 黑客是一种新型勒索软件灾难</title>
+      <link>https://www.wired.com/story/canvas-hack-shinyhunters-ransomware-instructure/</link>
+      <description><![CDATA[文章网址：https://www.wired.com/story/canvas-hack-shinyhunters-ransomware-instruct/
+评论网址：https://news.ycombinator.com/item?id=48059855
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=PvFMT58lgvk</guid>
-      <pubDate>Fri, 08 May 2026 04:56:44 GMT</pubDate>
+      <guid>https://www.wired.com/story/canvas-hack-shinyhunters-ransomware-instructure/</guid>
+      <pubDate>Fri, 08 May 2026 07:29:23 GMT</pubDate>
     </item>
     <item>
-      <title>Webdevbench：将人工智能作为软件开发机构进行评估</title>
-      <link>https://webdevbench-ai-benchmarks.qwikbuild.site/</link>
-      <description><![CDATA[文章网址：https://webdevbench-ai-benchmarks.qwikbuild.site/
-评论网址：https://news.ycombinator.com/item?id=48058718
+      <title>Show HN：我指示 AI 创建工具来清理 AI 生成的文本：undsh.com</title>
+      <link>https://undsh.com/</link>
+      <description><![CDATA[我不能说“我创建了一个工具”，因为显然我只有一个想法，然后要求 Cursor 实现它，15 分钟后它就准备好了;)我经常发现，在将 AI 生成的文本中的破折号用于副本、公关描述等之前，我经常手动将它们替换为连字符。耀斑“你写的”文本并不是真正人为的，这仍然让人感觉很遗憾。为了自动执行这些删除操作，这里是：超小的在线页面。我为自己做的，但如果谁想要，你也可以使用它。除了这篇文章之外，我不会将其货币化或进行更多宣传。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48059844
 积分：1
 # 条评论：0]]></description>
-      <guid>https://webdevbench-ai-benchmarks.qwikbuild.site/</guid>
-      <pubDate>Fri, 08 May 2026 04:54:27 GMT</pubDate>
+      <guid>https://undsh.com/</guid>
+      <pubDate>Fri, 08 May 2026 07:27:42 GMT</pubDate>
     </item>
     <item>
-      <title>三哩岛核电站的人工智能复兴</title>
-      <link>https://www.bloomberg.com/news/features/2026-05-07/three-mile-island-restart-moves-ahead-with-microsoft-ai-deal</link>
-      <description><![CDATA[文章网址：https://www.bloomberg.com/news/features/2026-05-07/ Three-mile-island-restart-moves-ahead-with-microsoft-ai-deal
-评论网址：https://news.ycombinator.com/item?id=48058663
+      <title>我讨厌焊接</title>
+      <link>https://user8.bearblog.dev/rant/</link>
+      <description><![CDATA[文章网址：https://user8.bearblog.dev/rant/
+评论网址：https://news.ycombinator.com/item?id=48059831
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bloomberg.com/news/features/2026-05-07/three-mile-island-restart-moves-ahead-with-microsoft-ai-deal</guid>
-      <pubDate>Fri, 08 May 2026 04:46:55 GMT</pubDate>
+      <guid>https://user8.bearblog.dev/rant/</guid>
+      <pubDate>Fri, 08 May 2026 07:26:37 GMT</pubDate>
     </item>
     <item>
-      <title>Blaise – 一个针对 QBE 的现代自托管零遗留 Object Pascal 编译器</title>
-      <link>https://github.com/graemeg/blaise</link>
-      <description><![CDATA[文章网址：https://github.com/graemeg/blaise
-评论网址：https://news.ycombinator.com/item?id=48058644
+      <title>令牌咖啡</title>
+      <link>https://testflight.apple.com/join/VHaxgb3B</link>
+      <description><![CDATA[文章网址：https://testflight.apple.com/join/VHaxgb3B
+评论网址：https://news.ycombinator.com/item?id=48059825
+积分：1
+# 条评论：0]]></description>
+      <guid>https://testflight.apple.com/join/VHaxgb3B</guid>
+      <pubDate>Fri, 08 May 2026 07:25:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI是技术，而不是功能</title>
+      <link>https://senkorasic.com/articles/ai-is-tech-not-feature</link>
+      <description><![CDATA[文章网址：https://senkorasic.com/articles/ai-is-tech-not-feature
+评论网址：https://news.ycombinator.com/item?id=48059815
 积分：2
 # 条评论：0]]></description>
-      <guid>https://github.com/graemeg/blaise</guid>
-      <pubDate>Fri, 08 May 2026 04:44:02 GMT</pubDate>
+      <guid>https://senkorasic.com/articles/ai-is-tech-not-feature</guid>
+      <pubDate>Fri, 08 May 2026 07:24:46 GMT</pubDate>
     </item>
     <item>
-      <title>Wasabi：使用 Assembly thunk 的 VBA 的本机 WebSocket 和 MQTT 5</title>
-      <link>https://github.com/uesleibros/wasabi</link>
-      <description><![CDATA[文章网址：https://github.com/uesleibros/wasabi
-评论网址：https://news.ycombinator.com/item?id=48058593
-积分：3
+      <title>硬件内存模型</title>
+      <link>https://research.swtch.com/hwmm</link>
+      <description><![CDATA[文章网址：https://research.swtch.com/hwmm
+评论网址：https://news.ycombinator.com/item?id=48059802
+积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/uesleibros/wasabi</guid>
-      <pubDate>Fri, 08 May 2026 04:32:19 GMT</pubDate>
+      <guid>https://research.swtch.com/hwmm</guid>
+      <pubDate>Fri, 08 May 2026 07:23:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>帆布破坏扰乱了全国范围内的学校和学院</title>
+      <link>https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/</link>
+      <description><![CDATA[文章网址：https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/
+评论网址：https://news.ycombinator.com/item?id=48059782
+积分：1
+# 条评论：0]]></description>
+      <guid>https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/</guid>
+      <pubDate>Fri, 08 May 2026 07:21:19 GMT</pubDate>
     </item>
     </channel>
 </rss>
