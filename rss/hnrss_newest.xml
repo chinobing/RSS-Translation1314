@@ -4,120 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 08 May 2026 07:42:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 10:26:09 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Mshark-从头开始的纯Go最小依赖包抓包工具</title>
-      <link>https://github.com/shadowy-pycoder/mshark</link>
-      <description><![CDATA[mShark - 一个没有 CGO 和 libpcap 依赖性的迷你 Wireshark，在纯 Go 中从头开始实现功能： mpcap 和 mpcapng 包 - PCAP 和 PCAP 下一代文件格式的自定义实现，根据规范编写。捕获可以直接在 Wireshark 中打开
-
-    oui 包 - OUI 查找将 MAC 地址解析为硬件供应商名称（例如 dc:a6:32 -&gt; Raspberry Pi Foundation）
-
-    层包 - 解析以太网、IPv4/IPv6、ARP、ICMP/ICMPv6、TCP、UDP、DNS、HTTP、TLS、SSH、FTP、SNMP
-
-    网络包 - 用于提取网络元数据的实用函数
-
-    BPF 过滤器支持 - 与 tcpdump/Wireshark 相同的过滤器语法（“端口 53”、“ip proto tcp”等）
-
-    多输出 - 使用单个命令一次性写入 stdout + txt + pcap + pcapng
-
-Layers 包同时进行解析和构造 - 您可以从头开始构建原始数据包并注入它们。数据包构造：NewEthernetFrame - 使用 src/dst MAC 和负载构建以太网帧NewARPPacket - 制作 ARP 请求/回复（对欺骗工具有用）NewIPv4Packet / NewIPv6Packet - 通过校验和计算构建 IP 数据包NewUDPSegment - 通过正确的校验和生成 UDP伪标头NewDNSMessage - 从头开始构建 DNS 查询和响应，包括完整的 RData 类型（A、AAAA、CNAME、MX、NS、SOA、TXT、HTTPS、OPT）ICMPv6 NDP 消息 - 路由器请求、路由器广告、邻居请求/广告以及所有选项（前缀信息、RDNSS、MTU、链路层地址） IPv6 扩展标头` - HopByHop、路由（类型 0） 2)、片段、目的地、移动性
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48059883
+      <title>Asami：一个灵活的图形存储，用 Clojure 编写</title>
+      <link>https://github.com/quoll/asami</link>
+      <description><![CDATA[文章网址：https://github.com/quoll/asami
+评论网址：https://news.ycombinator.com/item?id=48060970
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/shadowy-pycoder/mshark</guid>
-      <pubDate>Fri, 08 May 2026 07:33:46 GMT</pubDate>
+      <guid>https://github.com/quoll/asami</guid>
+      <pubDate>Fri, 08 May 2026 10:02:07 GMT</pubDate>
     </item>
     <item>
-      <title>虚拟专用网络和在线儿童保护</title>
-      <link>https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA(2026)782618</link>
-      <description><![CDATA[文章网址：https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA(2026)782618
-评论网址：https://news.ycombinator.com/item?id=48059874
+      <title>区块链扩张放缓？尝试 Solana 解决方案</title>
+      <link>https://www.securitytokenizer.io/create-your-own-token-and-coin</link>
+      <description><![CDATA[文章网址：https://www.securitytokenizer.io/create-your-own-token-and-coin
+评论网址：https://news.ycombinator.com/item?id=48060962
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA(2026)782618</guid>
-      <pubDate>Fri, 08 May 2026 07:32:43 GMT</pubDate>
+      <guid>https://www.securitytokenizer.io/create-your-own-token-and-coin</guid>
+      <pubDate>Fri, 08 May 2026 10:00:57 GMT</pubDate>
     </item>
     <item>
-      <title>60% 的 MD5 密码哈希可在一小时内破解</title>
-      <link>https://www.theregister.com/security/2026/05/07/60-of-md5-password-hashes-are-crackable-in-under-an-hour/5234954</link>
-      <description><![CDATA[文章网址： https://www.theregister.com/security/2026/05/07/60-of-md5-password-hashes-are-crackable-in-under-an-hour/5234954
-评论网址：https://news.ycombinator.com/item?id=48059867
+      <title>“Dirty Frag”漏洞被泄露，可在大多数 Linux 机器上获得 root 权限</title>
+      <link>https://www.tomshardware.com/tech-industry/cyber-security/dirty-frag-exploit-gets-root-on-most-linux-machines-since-2017-no-patches-available-no-warning-given-copy-fail-like-vulnerability-had-its-embargo-broken</link>
+      <description><![CDATA[文章网址： https://www.tomshardware.com/tech-industry/cyber-security/dirty-frag-exploit-gets-root-on-most-linux-machines-since-2017-no-patches-available-no-warning-given-copy-fail-like-vulnerability-had-its-embargo-broken
+评论网址：https://news.ycombinator.com/item?id=48060952
+积分：2
+# 条评论：1]]></description>
+      <guid>https://www.tomshardware.com/tech-industry/cyber-security/dirty-frag-exploit-gets-root-on-most-linux-machines-since-2017-no-patches-available-no-warning-given-copy-fail-like-vulnerability-had-its-embargo-broken</guid>
+      <pubDate>Fri, 08 May 2026 09:59:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>异常现象</title>
+      <link>https://github.com/cognitect-labs/anomalies</link>
+      <description><![CDATA[文章网址：https://github.com/cognitect-labs/anomalies
+评论网址：https://news.ycombinator.com/item?id=48060942
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theregister.com/security/2026/05/07/60-of-md5-password-hashes-are-crackable-in-under-an-hour/5234954</guid>
-      <pubDate>Fri, 08 May 2026 07:31:22 GMT</pubDate>
+      <guid>https://github.com/cognitect-labs/anomalies</guid>
+      <pubDate>Fri, 08 May 2026 09:58:36 GMT</pubDate>
     </item>
     <item>
-      <title>Canvas 黑客是一种新型勒索软件灾难</title>
-      <link>https://www.wired.com/story/canvas-hack-shinyhunters-ransomware-instructure/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/canvas-hack-shinyhunters-ransomware-instruct/
-评论网址：https://news.ycombinator.com/item?id=48059855
+      <title>浏览器中的 8 球游戏</title>
+      <link>https://www.karaqu.com/guest/billiard</link>
+      <description><![CDATA[文章网址：https://www.karaqu.com/guest/billiard
+评论网址：https://news.ycombinator.com/item?id=48060938
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.wired.com/story/canvas-hack-shinyhunters-ransomware-instructure/</guid>
-      <pubDate>Fri, 08 May 2026 07:29:23 GMT</pubDate>
+      <guid>https://www.karaqu.com/guest/billiard</guid>
+      <pubDate>Fri, 08 May 2026 09:58:23 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我指示 AI 创建工具来清理 AI 生成的文本：undsh.com</title>
-      <link>https://undsh.com/</link>
-      <description><![CDATA[我不能说“我创建了一个工具”，因为显然我只有一个想法，然后要求 Cursor 实现它，15 分钟后它就准备好了;)我经常发现，在将 AI 生成的文本中的破折号用于副本、公关描述等之前，我经常手动将它们替换为连字符。耀斑“你写的”文本并不是真正人为的，这仍然让人感觉很遗憾。为了自动执行这些删除操作，这里是：超小的在线页面。我为自己做的，但如果谁想要，你也可以使用它。除了这篇文章之外，我不会将其货币化或进行更多宣传。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48059844
+      <title>Claude 模型中的错误增加（UTC 时间 5 月 8 日 09:49）</title>
+      <link>https://status.claude.com/incidents/378dqscjgghp</link>
+      <description><![CDATA[文章网址：https://status.claude.com/incidents/378dqscjgghp
+评论网址：https://news.ycombinator.com/item?id=48060926
 积分：1
 # 条评论：0]]></description>
-      <guid>https://undsh.com/</guid>
-      <pubDate>Fri, 08 May 2026 07:27:42 GMT</pubDate>
+      <guid>https://status.claude.com/incidents/378dqscjgghp</guid>
+      <pubDate>Fri, 08 May 2026 09:56:59 GMT</pubDate>
     </item>
     <item>
-      <title>我讨厌焊接</title>
-      <link>https://user8.bearblog.dev/rant/</link>
-      <description><![CDATA[文章网址：https://user8.bearblog.dev/rant/
-评论网址：https://news.ycombinator.com/item?id=48059831
-积分：1
+      <title>地理JSON</title>
+      <link>https://geojson.org/</link>
+      <description><![CDATA[文章网址：https://geojson.org/
+评论网址：https://news.ycombinator.com/item?id=48060918
+积分：4
 # 条评论：0]]></description>
-      <guid>https://user8.bearblog.dev/rant/</guid>
-      <pubDate>Fri, 08 May 2026 07:26:37 GMT</pubDate>
+      <guid>https://geojson.org/</guid>
+      <pubDate>Fri, 08 May 2026 09:55:37 GMT</pubDate>
     </item>
     <item>
-      <title>令牌咖啡</title>
-      <link>https://testflight.apple.com/join/VHaxgb3B</link>
-      <description><![CDATA[文章网址：https://testflight.apple.com/join/VHaxgb3B
-评论网址：https://news.ycombinator.com/item?id=48059825
-积分：1
-# 条评论：0]]></description>
-      <guid>https://testflight.apple.com/join/VHaxgb3B</guid>
-      <pubDate>Fri, 08 May 2026 07:25:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI是技术，而不是功能</title>
-      <link>https://senkorasic.com/articles/ai-is-tech-not-feature</link>
-      <description><![CDATA[文章网址：https://senkorasic.com/articles/ai-is-tech-not-feature
-评论网址：https://news.ycombinator.com/item?id=48059815
+      <title>go-libghostty：libghostty-vt 的 Go 绑定</title>
+      <link>https://tangled.org/mitchellh.com/go-libghostty</link>
+      <description><![CDATA[文章网址：https://tangled.org/mitchellh.com/go-libghostty
+评论网址：https://news.ycombinator.com/item?id=48060914
 积分：2
 # 条评论：0]]></description>
-      <guid>https://senkorasic.com/articles/ai-is-tech-not-feature</guid>
-      <pubDate>Fri, 08 May 2026 07:24:46 GMT</pubDate>
+      <guid>https://tangled.org/mitchellh.com/go-libghostty</guid>
+      <pubDate>Fri, 08 May 2026 09:55:07 GMT</pubDate>
     </item>
     <item>
-      <title>硬件内存模型</title>
-      <link>https://research.swtch.com/hwmm</link>
-      <description><![CDATA[文章网址：https://research.swtch.com/hwmm
-评论网址：https://news.ycombinator.com/item?id=48059802
+      <title>Postgres 上的唯一索引失败 – 我的错</title>
+      <link>https://news.ycombinator.com/item?id=48060911</link>
+      <description><![CDATA[我最近在 PostgreSQL 上遇到了唯一索引故障。需要明确的是，这不是 Postgres 的错 - 这是我的。幸运的是，它在 Staging not Live 上抬起了头，但这里有其他 PostgreSQL 用户可能会感兴趣的东西。在编写一组数据和下一组数据之间依赖于 ON CONFLICT 来更新/插入行，从而完全依赖于保持完整性的唯一索引，我切换了 docker 映像，以内置一些工具。原始数据是基于 alpine/musl 的。  后续版本是基于 Debian/Glib 的。据我所知，字节排序规则不同，索引操作只是没有找到应有的一组字节。如果我转储/恢复了 - 这不会成为问题，但我只是翻转了现有存储卷上的映像。哎呀。从表面上看，索引处于活动状态，并且处于强制状态。REINDEX 失败了，但是存在欺骗！对我来说，我修复了欺骗，REINDEXed，然后转储恢复。但值得记住的是，考虑到有多少备份机制依赖于存储卷快照，并且恢复后的全局重新索引将捕获这些类型的问题（如果这对任何人来说都是可能的）。我特此邀请即将到来的问题批评的海啸，我会忽略， 
+纯粹是为了让其他人可以发布此内容以找到兴趣，以及谁可能做了与我相同的事情。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48060911
 积分：1
 # 条评论：0]]></description>
-      <guid>https://research.swtch.com/hwmm</guid>
-      <pubDate>Fri, 08 May 2026 07:23:21 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=48060911</guid>
+      <pubDate>Fri, 08 May 2026 09:54:57 GMT</pubDate>
     </item>
     <item>
-      <title>帆布破坏扰乱了全国范围内的学校和学院</title>
-      <link>https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/</link>
-      <description><![CDATA[文章网址：https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/
-评论网址：https://news.ycombinator.com/item?id=48059782
-积分：1
+      <title>Show HN：本地优先的代理知识管理器</title>
+      <link>https://github.com/egroup-labs/kept</link>
+      <description><![CDATA[文章网址：https://github.com/egroup-labs/kept
+评论网址：https://news.ycombinator.com/item?id=48060900
+积分：13
 # 条评论：0]]></description>
-      <guid>https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/</guid>
-      <pubDate>Fri, 08 May 2026 07:21:19 GMT</pubDate>
+      <guid>https://github.com/egroup-labs/kept</guid>
+      <pubDate>Fri, 08 May 2026 09:53:33 GMT</pubDate>
     </item>
     </channel>
 </rss>

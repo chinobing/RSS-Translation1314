@@ -4,66 +4,68 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 08 May 2026 07:42:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 10:25:59 GMT</lastBuildDate>
+    <item>
+      <title>询问 HN：我们刚刚发生了一次实际的 UUID v4 冲突......</title>
+      <link>https://news.ycombinator.com/item?id=48060054</link>
+      <description><![CDATA[我知道您在想什么...我仍然不敢相信，但是...今天早上，我们的数据库标记了重复的 UUID (v4)。我检查了一下，认为这可能是双插入错误或其他问题，但不是。原始 UUID 来自 2025 年（大约一年前）添加的记录，今天系统插入了一个带有新 UUIDv4 的新文档，并得出了完全相同的文档：b6133fd6-70fe-4fe3-bed6-8ca8fc9386cd我们正在使用这个：
+https://www.npmjs.com/package/uuid我认为这在技术上是不可能的，而且它永远不会发生，而且由于我们没有以任何方式修改 UUID，我真的很想知道这...如何可能！？我们实际上只是调用：import { v4 as uuidv4 } from &quot;uuid&quot;;const document_id = uuidv4();...，然后插入数据库，就是这样。此外，数据库只有大约 15.000 条记录，现在有一次冲突。从统计上看...不可能。有人遇到过这种情况吗？！里面有什么...
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48060054
+积分：26
+# 条评论：29]]></description>
+      <guid>https://news.ycombinator.com/item?id=48060054</guid>
+      <pubDate>Fri, 08 May 2026 07:57:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>ClojureScript 获得异步/等待</title>
+      <link>https://clojurescript.org/news/2026-05-07-release</link>
+      <description><![CDATA[文章网址：https://clojurescript.org/news/2026-05-07-release
+评论网址：https://news.ycombinator.com/item?id=48059662
+积分：63
+# 条评论：16]]></description>
+      <guid>https://clojurescript.org/news/2026-05-07-release</guid>
+      <pubDate>Fri, 08 May 2026 07:04:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>任天堂宣布 Nintendo Switch 2 涨价</title>
+      <link>https://www.nintendo.co.jp/corporate/release/en/2026/260508.html</link>
+      <description><![CDATA[文章网址：https://www.nintendo.co.jp/corporate/release/en/2026/260508.html
+评论网址：https://news.ycombinator.com/item?id=48059606
+积分：19
+# 条评论：14]]></description>
+      <guid>https://www.nintendo.co.jp/corporate/release/en/2026/260508.html</guid>
+      <pubDate>Fri, 08 May 2026 06:56:13 GMT</pubDate>
+    </item>
     <item>
       <title>Blaise – 一个针对 QBE 的现代自托管零遗留 Object Pascal 编译器</title>
       <link>https://github.com/graemeg/blaise</link>
       <description><![CDATA[文章网址：https://github.com/graemeg/blaise
 评论网址：https://news.ycombinator.com/item?id=48058644
-积分：33
-# 条评论：5]]></description>
+积分：48
+# 条评论：16]]></description>
       <guid>https://github.com/graemeg/blaise</guid>
       <pubDate>Fri, 08 May 2026 04:44:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国将开始吊销欠子女抚养费父母的护照</title>
-      <link>https://apnews.com/article/passports-unpaid-child-support-penalty-state-department-42d90cfa8a06ee349bb9145f668919b6</link>
-      <description><![CDATA[文章网址： https://apnews.com/article/passports-unpaid-child-support-penalty-state-department-42d90cfa8a06ee349bb9145f668919b6
-评论网址：https://news.ycombinator.com/item?id=48058340
-积分：43
-# 条评论：22]]></description>
-      <guid>https://apnews.com/article/passports-unpaid-child-support-penalty-state-department-42d90cfa8a06ee349bb9145f668919b6</guid>
-      <pubDate>Fri, 08 May 2026 03:52:14 GMT</pubDate>
     </item>
     <item>
       <title>在文档基金会深入研究戏剧</title>
       <link>https://lwn.net/Articles/1066418/</link>
       <description><![CDATA[文章网址：https://lwn.net/Articles/1066418/
 评论网址：https://news.ycombinator.com/item?id=48058337
-积分：14
-# 条评论：0]]></description>
+积分：33
+# 条评论：3]]></description>
       <guid>https://lwn.net/Articles/1066418/</guid>
       <pubDate>Fri, 08 May 2026 03:51:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mojo 1.0 测试版</title>
-      <link>https://mojolang.org/</link>
-      <description><![CDATA[文章网址：https://mojolang.org/
-评论网址：https://news.ycombinator.com/item?id=48057901
-积分：73
-# 条评论：49]]></description>
-      <guid>https://mojolang.org/</guid>
-      <pubDate>Fri, 08 May 2026 02:49:01 GMT</pubDate>
     </item>
     <item>
       <title>GNU IFUNC 是 CVE-2024-3094 背后的真正罪魁祸首</title>
       <link>https://github.com/robertdfrench/ifuncd-up</link>
       <description><![CDATA[文章网址：https://github.com/robertdfrench/ifuncd-up
 评论网址：https://news.ycombinator.com/item?id=48056749
-积分：69
-# 条评论：31]]></description>
+积分：81
+# 条评论：36]]></description>
       <guid>https://github.com/robertdfrench/ifuncd-up</guid>
       <pubDate>Fri, 08 May 2026 00:03:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>研究显示，社交媒体上赌博广告的男性受众数量是女性的两倍多</title>
-      <link>https://www.cam.ac.uk/research/news/gambling-ads-on-social-media-reach-more-than-twice-as-many-men-as-women</link>
-      <description><![CDATA[文章网址：https://www.cam.ac.uk/research/news/gambling-ads-on-social-media-reach-more-than-twice-as-many-men-as-women
-评论网址：https://news.ycombinator.com/item?id=48056359
-积分：57
-# 条评论：44]]></description>
-      <guid>https://www.cam.ac.uk/research/news/gambling-ads-on-social-media-reach-more-than-twice-as-many-men-as-women</guid>
-      <pubDate>Thu, 07 May 2026 23:17:03 GMT</pubDate>
     </item>
     <item>
       <title>麻醉的人类海马体的可塑性和语言</title>
@@ -71,8 +73,8 @@
       <description><![CDATA[https://www.nature.com/articles/s41586-026-10448-0
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=48056268
-积分：96
-# 条评论：38]]></description>
+积分：108
+# 条评论：42]]></description>
       <guid>https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain</guid>
       <pubDate>Thu, 07 May 2026 23:06:44 GMT</pubDate>
     </item>
@@ -81,8 +83,8 @@
       <link>https://xeiaso.net/blog/2026/abstain-from-install/</link>
       <description><![CDATA[文章网址：https://xeiaso.net/blog/2026/abstain-from-install/
 评论网址：https://news.ycombinator.com/item?id=48056227
-积分：425
-# 条评论：214]]></description>
+积分：529
+# 条评论：281]]></description>
       <guid>https://xeiaso.net/blog/2026/abstain-from-install/</guid>
       <pubDate>Thu, 07 May 2026 23:02:11 GMT</pubDate>
     </item>
@@ -91,8 +93,8 @@
       <link>https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/nonprofit-hospitals-spend-billions-on-management-consultants</link>
       <description><![CDATA[文章网址：https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/nonprofit-hospitals-spend-billions-on-management-consultants
 评论网址：https://news.ycombinator.com/item?id=48056158
-积分：134
-# 条评论：38]]></description>
+积分：155
+# 条评论：53]]></description>
       <guid>https://www.uchicagomedicine.org/forefront/research-and-discoveries-articles/nonprofit-hospitals-spend-billions-on-management-consultants</guid>
       <pubDate>Thu, 07 May 2026 22:54:34 GMT</pubDate>
     </item>
@@ -102,8 +104,8 @@
       <description><![CDATA[https://thetech.com/2026/05/07/canvas-breach-26https://techcrunch.com/2026/05/07/hackers-deface-school-logi...
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=48055913
-积分：562
-评论数：345]]></description>
+积分：651
+评论数：399]]></description>
       <guid>https://www.theverge.com/tech/926458/canvas-shinyhunters-breach</guid>
       <pubDate>Thu, 07 May 2026 22:22:21 GMT</pubDate>
     </item>
