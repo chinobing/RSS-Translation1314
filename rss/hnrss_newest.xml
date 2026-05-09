@@ -4,106 +4,111 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 09 May 2026 15:53:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 19:02:55 GMT</lastBuildDate>
     <item>
-      <title>博克斯埃尔德县批准由名人投资者支持的数据中心项目</title>
-      <link>https://www.sltrib.com/news/2026/05/04/utah-data-center-final-vote-box/</link>
-      <description><![CDATA[文章网址：https://www.sltrib.com/news/2026/05/04/utah-data-center-final-vote-box/
-评论网址：https://news.ycombinator.com/item?id=48075908
+      <title>Show HN：鞋拔子 – 后台无需维护费用</title>
+      <link>https://shoehorn.dev</link>
+      <description><![CDATA[我是 Anders，Shoehorn (https://shoehorn.dev/) 联合创始人。大约一年来，我对 Backstage 感到由衷的兴奋。看了 Spotify 演示，心想“我也想要那个”。事实证明这并不那么容易。但公平地说，Backstage 是一款很棒的软件。功能强大、灵活，如果您有专门的开发团队来运行它，您就可以在它的基础上构建一些令人惊叹的东西。问题正是：您需要一个专门的团队。大多数公司都没有。或者他们确实这样做了，而且该团队宁愿解决产品问题，也不愿维护帮助其他人解决问题的平台。我们希望能够以 10% 的运营开销为团队带来 90% 的价值。我们出于沮丧而打造了 Shoehorn。一开始的目标：1。出色的 UI、API 优先、Terraform 和 CLI： 
+这才是大多数用户真正想要的。2.表面问题明显： 
+没有无声的失败，没有“为什么我的服务没有出现”。如果出现问题，您会看到。3.自动化那些无聊的事情： 
+数据已经在 GitHub、Kubernetes、您的身份提供商中。使用它。不要让人们将其重新输入到清单中。4.可由一个人维护： 
+部署并使用它。无需团队。Shoehorn 是一个事件驱动的开发者平台 — 服务目录、脚手架、记分卡、模糊搜索、默认多租户。与 Backstage、Port 和 Cortex 相同的类别。区别：Backstage 是一个组装到门户中的框架。鞋拔子是一个您打开的平台。从 Kubernetes、GitHub、云供应商等自动发现。从 Kubernetes 和 GitHub 爬虫自动发现 markdowns 和（如果需要则显示）。一次安装、合理的默认设置（我们认为）、来自 (https://docs.docker.com/dhi/) 的预构建硬化图像，可在 15 分钟内为您提供一个工作目录。从架构上来说，它是一小组 Go 微服务，由 Postgres(RLS)、Meilisearch、Valkey 和 Redpanda 提供支持。身份验证是 OIDC，我们目前支持：Zitadel 和 Okta。我们昨天发布了 Beta，可能存在错误，并且某些部分可能很粗糙。很想听听关于我们如何做得更好的任何想法、评论或想法，以及是否有我们遗漏的明显的东西等。您今天使用后台或任何其他内部开发人员门户吗？此处的演示页面：https://demo.shoehorn.dev
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48077324
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.sltrib.com/news/2026/05/04/utah-data-center-final-vote-box/</guid>
-      <pubDate>Sat, 09 May 2026 15:47:59 GMT</pubDate>
+      <guid>https://shoehorn.dev</guid>
+      <pubDate>Sat, 09 May 2026 19:01:30 GMT</pubDate>
     </item>
     <item>
-      <title>经过 14 年的尝试，我是如何进入 Y Combinator 的</title>
-      <link>https://nmn.gl/blog/meditations-on-make-something-people-want</link>
-      <description><![CDATA[文章网址：https://nmn.gl/blog/meditations-on-make-something-people-want
-评论网址：https://news.ycombinator.com/item?id=48075888
+      <title>软件开发人员之死</title>
+      <link>https://isthisanart.substack.com/p/death-of-a-software-developer</link>
+      <description><![CDATA[文章网址：https://istisanart.substack.com/p/death-of-a-software-developer
+评论网址：https://news.ycombinator.com/item?id=48077317
 积分：1
 # 条评论：0]]></description>
-      <guid>https://nmn.gl/blog/meditations-on-make-something-people-want</guid>
-      <pubDate>Sat, 09 May 2026 15:46:22 GMT</pubDate>
+      <guid>https://isthisanart.substack.com/p/death-of-a-software-developer</guid>
+      <pubDate>Sat, 09 May 2026 19:00:06 GMT</pubDate>
     </item>
     <item>
-      <title>路易斯·莫斯利 (Louis Mosley) 是谁，他的任务是捍卫 Palantir 免受批评者的攻击？</title>
-      <link>https://www.theguardian.com/technology/2026/may/09/who-is-louis-mosley-defending-palantir-critics</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/technology/2026/may/09/who-is-louis-mosley-defending-palantir-critics
-评论网址：https://news.ycombinator.com/item?id=48075884
+      <title>“脏碎片”(CVE-2026-43284)：八天内第二次 Linux Root 漏洞利用</title>
+      <link>https://www.copahost.com/blog/dirty-frag-cve-2026-43284/</link>
+      <description><![CDATA[文章网址：https://www.copahost.com/blog/dirty-frag-cve-2026-43284/
+评论网址：https://news.ycombinator.com/item?id=48077314
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theguardian.com/technology/2026/may/09/who-is-louis-mosley-defending-palantir-critics</guid>
-      <pubDate>Sat, 09 May 2026 15:45:57 GMT</pubDate>
+      <guid>https://www.copahost.com/blog/dirty-frag-cve-2026-43284/</guid>
+      <pubDate>Sat, 09 May 2026 18:59:49 GMT</pubDate>
     </item>
     <item>
-      <title>CVE-2026-43284（“脏碎片”）Alma Linux</title>
-      <link>https://almalinux.org/blog/2026-05-07-dirty-frag/</link>
-      <description><![CDATA[文章网址：https://almalinux.org/blog/2026-05-07-dirty-frag/
-评论网址：https://news.ycombinator.com/item?id=48075868
+      <title>Lanzaboote – NixOS 安全启动</title>
+      <link>https://x86.lol/generic/2022/11/26/lanzaboote.html</link>
+      <description><![CDATA[文章网址：https://x86.lol/generic/2022/11/26/lanzaboote.html
+评论网址：https://news.ycombinator.com/item?id=48077291
 积分：1
-# 条评论：0]]></description>
-      <guid>https://almalinux.org/blog/2026-05-07-dirty-frag/</guid>
-      <pubDate>Sat, 09 May 2026 15:43:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nvidia 确认 GeForce NOW 数据泄露影响了亚美尼亚用户</title>
-      <link>https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/</link>
-      <description><![CDATA[文章网址：https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/
-评论网址：https://news.ycombinator.com/item?id=48075865
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/</guid>
-      <pubDate>Sat, 09 May 2026 15:43:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Endara – 所有 MCP 服务器的一个端点</title>
-      <link>https://endara.ai/</link>
-      <description><![CDATA[文章网址：https://endara.ai/
-评论网址：https://news.ycombinator.com/item?id=48075858
-积分：1
-# 条评论：0]]></description>
-      <guid>https://endara.ai/</guid>
-      <pubDate>Sat, 09 May 2026 15:42:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Adola：LLM 输入代币减少 70%</title>
-      <link>https://adola.app/</link>
-      <description><![CDATA[文章网址：https://adola.app/
-评论网址：https://news.ycombinator.com/item?id=48075852
-积分：3
 # 条评论：1]]></description>
-      <guid>https://adola.app/</guid>
-      <pubDate>Sat, 09 May 2026 15:42:26 GMT</pubDate>
+      <guid>https://x86.lol/generic/2022/11/26/lanzaboote.html</guid>
+      <pubDate>Sat, 09 May 2026 18:55:59 GMT</pubDate>
     </item>
     <item>
-      <title>Docker 镜像为 MB；完整的游戏引擎编译为 35MB WASM</title>
-      <link>https://bogomolov.work/blog/posts/wasm-vs-docker/</link>
-      <description><![CDATA[文章网址：https://bogomolov.work/blog/posts/wasm-vs-docker/
-评论网址：https://news.ycombinator.com/item?id=48075844
+      <title>对象存储上的 IceStream</title>
+      <link>https://github.com/jordepic/icestream</link>
+      <description><![CDATA[文章网址：https://github.com/jordepic/icestream
+评论网址：https://news.ycombinator.com/item?id=48077256
 积分：1
-# 条评论：0]]></description>
-      <guid>https://bogomolov.work/blog/posts/wasm-vs-docker/</guid>
-      <pubDate>Sat, 09 May 2026 15:40:49 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://github.com/jordepic/icestream</guid>
+      <pubDate>Sat, 09 May 2026 18:52:02 GMT</pubDate>
     </item>
     <item>
-      <title>如果你是 iPhone 用户，你可以从 Apple 和解协议中获得 95 美元的赔偿</title>
-      <link>https://www.latimes.com/business/story/2026-05-06/if-youre-iphone-user-you-could-get-95-from-this-apple-settlement</link>
-      <description><![CDATA[文章网址：https://www.latimes.com/business/story/2026-05-06/if-youre-iphone-user-you-could-get-95-from-this-apple-settlement
-评论网址：https://news.ycombinator.com/item?id=48075836
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.latimes.com/business/story/2026-05-06/if-youre-iphone-user-you-could-get-95-from-this-apple-settlement</guid>
-      <pubDate>Sat, 09 May 2026 15:40:11 GMT</pubDate>
+      <title>Bun 在 6 天内移植到 Rust</title>
+      <link>https://xunroll.com/thread/2053047748191232310</link>
+      <description><![CDATA[文章网址：https://xunroll.com/thread/2053047748191232310
+评论网址：https://news.ycombinator.com/item?id=48077231
+积分：14
+# 条评论：1]]></description>
+      <guid>https://xunroll.com/thread/2053047748191232310</guid>
+      <pubDate>Sat, 09 May 2026 18:47:58 GMT</pubDate>
     </item>
     <item>
-      <title>与网络攻击有关的画布中断对大学期末考试造成严重破坏</title>
-      <link>https://apnews.com/article/canvas-outage-college-students-exams-grades-209a51692f043a959459dbe37fb34e4b</link>
-      <description><![CDATA[文章网址： https://apnews.com/article/canvas-outage-college-students-exams-grades-209a51692f043a959459dbe37fb34e4b
-评论网址：https://news.ycombinator.com/item?id=48075827
-积分：1
+      <title>针对变化而不是应用程序性能进行优化</title>
+      <link>https://www.echooff.dev/blog/developer-experience-is-a-performance-feature</link>
+      <description><![CDATA[文章网址：https://www.echooff.dev/blog/developer-experience-is-a-performance-feature
+评论网址：https://news.ycombinator.com/item?id=48077205
+积分：2
+# 条评论：1]]></description>
+      <guid>https://www.echooff.dev/blog/developer-experience-is-a-performance-feature</guid>
+      <pubDate>Sat, 09 May 2026 18:45:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么年龄保证法对开发商很重要</title>
+      <link>https://github.blog/news-insights/policy-news-and-insights/why-age-assurance-laws-matter-for-developers/</link>
+      <description><![CDATA[文章网址：https://github.blog/news-insights/policy-news-and-insights/why-age-assurance-laws-matter-for-developers/
+评论网址：https://news.ycombinator.com/item?id=48077199
+积分：2
 # 条评论：0]]></description>
-      <guid>https://apnews.com/article/canvas-outage-college-students-exams-grades-209a51692f043a959459dbe37fb34e4b</guid>
-      <pubDate>Sat, 09 May 2026 15:38:57 GMT</pubDate>
+      <guid>https://github.blog/news-insights/policy-news-and-insights/why-age-assurance-laws-matter-for-developers/</guid>
+      <pubDate>Sat, 09 May 2026 18:43:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Redstone – 更快的投资组合实验室，具有一键投资组合优化器</title>
+      <link>https://redstonemarkets.com/</link>
+      <description><![CDATA[文章网址：https://redstonemarkets.com/
+评论网址：https://news.ycombinator.com/item?id=48077183
+积分：1
+# 条评论：1]]></description>
+      <guid>https://redstonemarkets.com/</guid>
+      <pubDate>Sat, 09 May 2026 18:41:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>土耳其推出新型导弹，人工智能宣称能够打击美国大陆</title>
+      <link>https://www.ft.com/content/d2136091-9fd2-4923-b168-50539e5b27ab</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/d2136091-9fd2-4923-b168-50539e5b27ab
+评论网址：https://news.ycombinator.com/item?id=48077176
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.ft.com/content/d2136091-9fd2-4923-b168-50539e5b27ab</guid>
+      <pubDate>Sat, 09 May 2026 18:40:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
