@@ -4,107 +4,109 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 09 May 2026 21:43:36 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 02:55:31 GMT</lastBuildDate>
     <item>
-      <title>博客文章告诉时间</title>
-      <link>https://alexsci.com/blog/this-blog-post-tells-the-time/</link>
-      <description><![CDATA[文章网址：https://alexsci.com/blog/this-blog-post-tells-the-time/
-评论网址：https://news.ycombinator.com/item?id=48078510
+      <title>随着收入激增，Anthropic 考虑以接近 1T 美元的估值进行交易</title>
+      <link>https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d
+评论网址：https://news.ycombinator.com/item?id=48080540
 积分：1
 # 条评论：0]]></description>
-      <guid>https://alexsci.com/blog/this-blog-post-tells-the-time/</guid>
-      <pubDate>Sat, 09 May 2026 21:39:04 GMT</pubDate>
+      <guid>https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d</guid>
+      <pubDate>Sun, 10 May 2026 02:53:36 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我制作的免费 OSS 转录应用程序，发现它比 wispr flow 更快</title>
-      <link>https://mumbli.app/</link>
-      <description><![CDATA[标题不容许细微差别，ofc 不是应用程序速度更快，而是您可以将其与 Groq 推理等一起使用的方式。
+      <title>Show HN：一个 codex/Claude Code 插件，用于通过会话持久化产品上下文</title>
+      <link>https://github.com/idodekerobo/draft-cli-plugin</link>
+      <description><![CDATA[使用编码代理进行产品构建（不仅仅是编写代码）的一些摩擦是每个新会话都从头开始。草案是我尝试修复的尝试。
+在了解其工作原理之前，许多内存/上下文插件通过调用外部 api 或运行自己的模型来解决这个问题，这要么单独向您收费，要么悄悄增加您的使用量。草稿完全在您现有的 claude 订阅中运行。它是一个 codex/claude 代码插件，有几个核心部分：1. session-init hook在每次会话启动时，都会触发一个钩子并将结构化上下文摘要注入到 claude 的工作记忆中。具体来说，它从每个上下文索引文件（公司、产品、优先级、团队、决策）中读取“名称”和“描述”前沿内容，并将它们组装成约 5k 个令牌下的单个压缩摘要。2.学习——推理驱动和手动学习是推理驱动的，而不是基于钩子的。主 claude 代理读取其指令并决定何时值得坚持某件事 - 做出决定，放弃方向 - 并调用“/draft:learn”作为子代理将其写回适当的上下文文件。没有会话结束挂钩或后台进程；代理正在对什么是耐用的进行判断。
+您还可以随时手动调用“/draft:learn”。随着时间的推移，克劳德会积累足够的上下文来标记矛盾 - 如果您的方向与两周前做出的决定相冲突，它就会浮出水面。作为一名独立创始人，这对我来说是最意想不到的有用部分。3。跨代理架构工作区位于“~/.draft/workspace/”，克劳德代码和光标本地共享工作区。 codex 需要单独安装（curl 设置脚本，因为还没有插件市场），但从相同的文件读取。---如果人们尝试一下、克隆它并在本地运行，或者给我一些他们的编码代理设置的示例，我会很高兴！它 100% 免费和开源。麻省理工学院许可。没有帐户，没有 API 密钥。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48078497
+评论网址：https://news.ycombinator.com/item?id=48080538
 积分：1
 # 条评论：0]]></description>
-      <guid>https://mumbli.app/</guid>
-      <pubDate>Sat, 09 May 2026 21:37:25 GMT</pubDate>
+      <guid>https://github.com/idodekerobo/draft-cli-plugin</guid>
+      <pubDate>Sun, 10 May 2026 02:53:29 GMT</pubDate>
     </item>
     <item>
-      <title>情绪监控的兴起</title>
-      <link>https://www.theatlantic.com/culture/2026/05/worker-surveillance-emotion-ai/687029/</link>
-      <description><![CDATA[文章网址：https://www.theatlantic.com/culture/2026/05/worker-surveillance-emotion-ai/687029/
-评论网址：https://news.ycombinator.com/item?id=48078461
-积分：4
-# 条评论：1]]></description>
-      <guid>https://www.theatlantic.com/culture/2026/05/worker-surveillance-emotion-ai/687029/</guid>
-      <pubDate>Sat, 09 May 2026 21:33:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nintendo Wii 上的 Web 服务器</title>
-      <link>http://wii.sjmulder.nl/</link>
-      <description><![CDATA[文章网址：http://wii.sjmulder.nl/
-评论网址：https://news.ycombinator.com/item?id=48078452
+      <title>Godot 的使用和引擎增长</title>
+      <link>https://godotengine.org/article/godot-growth-stats-2026/</link>
+      <description><![CDATA[文章网址：https://godotengine.org/article/godot-growth-stats-2026/
+评论网址：https://news.ycombinator.com/item?id=48080534
 积分：1
 # 条评论：0]]></description>
-      <guid>http://wii.sjmulder.nl/</guid>
-      <pubDate>Sat, 09 May 2026 21:32:16 GMT</pubDate>
+      <guid>https://godotengine.org/article/godot-growth-stats-2026/</guid>
+      <pubDate>Sun, 10 May 2026 02:52:44 GMT</pubDate>
     </item>
     <item>
-      <title>Hugging Face 的 Clem Delangue：停止将发动机与汽车进行比较</title>
-      <link>https://www.turingpost.com/p/clem-delangue-hugging-face-ai-builders</link>
-      <description><![CDATA[文章网址：https://www.turingpost.com/p/clem-delangue-hugging-face-ai-builders
-评论网址：https://news.ycombinator.com/item?id=48078443
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.turingpost.com/p/clem-delangue-hugging-face-ai-builders</guid>
-      <pubDate>Sat, 09 May 2026 21:31:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本正在部署专为群体战争而设计的超廉价纸板无人机</title>
-      <link>https://www.tomshardware.com/tech-industry/japan-is-deploying-ultra-cheap-cardboard-drones-built-for-swarm-warfare-and-expendable-combat-missions-usd2-000-expendable-combat-drones-cost-less-than-some-gaming-pcs</link>
-      <description><![CDATA[文章网址： https://www.tomshardware.com/tech-industry/japan-is-deploying-ultra-cheap-cardboard-drones-built-for-swarm-warfare-and-expendable-combat-missions-usd2-000-expendable-combat-drones-cost-less-than-some-gaming-pcs
-评论网址：https://news.ycombinator.com/item?id=48078442
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.tomshardware.com/tech-industry/japan-is-deploying-ultra-cheap-cardboard-drones-built-for-swarm-warfare-and-expendable-combat-missions-usd2-000-expendable-combat-drones-cost-less-than-some-gaming-pcs</guid>
-      <pubDate>Sat, 09 May 2026 21:31:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>地理是四维的</title>
-      <link>https://sive.rs/4d</link>
-      <description><![CDATA[文章网址：https://sive.rs/4d
-评论网址：https://news.ycombinator.com/item?id=48078402
-积分：1
-# 条评论：0]]></description>
-      <guid>https://sive.rs/4d</guid>
-      <pubDate>Sat, 09 May 2026 21:23:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>对我的本地优先人工智能助理项目有何反馈？</title>
-      <link>https://github.com/joshuatic/voxel</link>
-      <description><![CDATA[文章网址：https://github.com/joshuatic/voxel
-评论网址：https://news.ycombinator.com/item?id=48078376
-积分：1
-# 条评论：1]]></description>
-      <guid>https://github.com/joshuatic/voxel</guid>
-      <pubDate>Sat, 09 May 2026 21:21:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>谎言、该死的谎言和 Elastic 的基准</title>
-      <link>https://www.gouthamve.dev/lies-damned-lies-and-elastics-benchmarks/</link>
-      <description><![CDATA[文章网址：https://www.gouthamve.dev/lies-damned-lies-and-elastics-benchmarks/
-评论网址：https://news.ycombinator.com/item?id=48078334
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.gouthamve.dev/lies-damned-lies-and-elastics-benchmarks/</guid>
-      <pubDate>Sat, 09 May 2026 21:14:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>一名黑客用割草机器人碾压了我</title>
-      <link>https://www.theverge.com/tech/925696/yarbo-robot-lawn-mower-hack-remote-control-camera-access-mqtt</link>
-      <description><![CDATA[文章网址：https://www.theverge.com/tech/925696/yarbo-robot-lawn-mower-hack-remote-control-camera-access-mqtt
-评论网址：https://news.ycombinator.com/item?id=48078332
+      <title>问 HN：高频噪音会引发耳鸣吗？</title>
+      <link>https://news.ycombinator.com/item?id=48080516</link>
+      <description><![CDATA[不完全是技术性的，但 HN 感觉是正确的提问人群，因为在其他任何地方询问我都会被认为患有精神疾病。我的耳鸣似乎一天中 99.9% 的时间都会持续，有时会消失几分钟，而且频率非常高。想象一下电源线圈发出呜呜声。现在是精神病部分：耳鸣可以改变位置（左/右耳）并改变音量。我已经好几天没听到右耳耳鸣的声音了，现在再次坐在沙发上后又出现了（左耳仍然可以听到）。你问沙发吗？两周前，当耳鸣开始出现时，我们改变了客厅的布局。沙发现在位于我们的 WiFi 路由器旁边。不久之后耳鸣就开始了。我以前从未有过耳鸣。你猜怎么着，路由器发出同样的噪音（甚至我的伴侣也能听到）。几天后，我意识到这可能是路由器发出的，我把它的位置改到了房间的另一边，但现在不知何故，我仍然可以在相距 3 米的地方听到路由器发出的高频。一旦我开始坐在沙发上，耳鸣就会变得更严重。即使全屋断电，我仍然能听到 WiFi 路由器的噪音。我疯了吗？这是一件事吗？某些频率是否会引起耳鸣，并且可以由相同的频率重新触发？能有记忆效应吗？难道即使我几天不坐在沙发上它也不会消失，因为这些天所有这些电源在每个设施中都有高频线圈呜呜声，这会再次触发它？ 我感觉就像《黑客帝国》中的尼奥，他得到了启发，现在可以听到电流，但没有其余的超能力:(PS：我去看了医生，正在做常规的医疗程序来治疗耳鸣（泼尼松龙 60 毫克/天），但它没有任何帮助。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48080516
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.theverge.com/tech/925696/yarbo-robot-lawn-mower-hack-remote-control-camera-access-mqtt</guid>
-      <pubDate>Sat, 09 May 2026 21:14:34 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=48080516</guid>
+      <pubDate>Sun, 10 May 2026 02:49:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>态势感知 Kindle 电子书 ePub</title>
+      <link>https://blog.cahillanelabs.com/kindle/epub/llm/2026/05/10/situational-awareness-ebook</link>
+      <description><![CDATA[文章网址：https://blog.cahillanelabs.com/kindle/epub/llm/2026/05/10/situational-awareness-ebook
+评论网址：https://news.ycombinator.com/item?id=48080509
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.cahillanelabs.com/kindle/epub/llm/2026/05/10/situational-awareness-ebook</guid>
+      <pubDate>Sun, 10 May 2026 02:47:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>功夫“飞客”案例</title>
+      <link>https://www.zdnet.com/article/the-case-of-the-kung-fu-phreak/</link>
+      <description><![CDATA[文章网址：https://www.zdnet.com/article/the-case-of-the-kung-fu-phreak/
+评论网址：https://news.ycombinator.com/item?id=48080484
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.zdnet.com/article/the-case-of-the-kung-fu-phreak/</guid>
+      <pubDate>Sun, 10 May 2026 02:40:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>模型来源套件：了解您的 AI 模型来自哪里</title>
+      <link>https://blogs.cisco.com/ai/model-provenance-kit</link>
+      <description><![CDATA[文章网址：https://blogs.cisco.com/ai/model-provenance-kit
+评论网址：https://news.ycombinator.com/item?id=48080467
+积分：2
+# 条评论：0]]></description>
+      <guid>https://blogs.cisco.com/ai/model-provenance-kit</guid>
+      <pubDate>Sun, 10 May 2026 02:35:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Linus Tech Tips 私人飞机的碳足迹</title>
+      <link>https://lttjet.com</link>
+      <description><![CDATA[文章网址：https://lttjet.com
+评论网址：https://news.ycombinator.com/item?id=48080452
+积分：2
+# 条评论：0]]></description>
+      <guid>https://lttjet.com</guid>
+      <pubDate>Sun, 10 May 2026 02:32:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>7米</title>
+      <link>https://blog.cloudflare.com/through-the-eyes-tech-support-engineer/</link>
+      <description><![CDATA[文章网址：https://blog.cloudflare.com/through-the-eyes-tech-support-engineer/
+评论网址：https://news.ycombinator.com/item?id=48080444
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.cloudflare.com/through-the-eyes-tech-support-engineer/</guid>
+      <pubDate>Sun, 10 May 2026 02:31:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Notion、Obsidian 还是 Apple Notes？</title>
+      <link>https://news.ycombinator.com/item?id=48080439</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=48080439
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=48080439</guid>
+      <pubDate>Sun, 10 May 2026 02:29:46 GMT</pubDate>
     </item>
     </channel>
 </rss>

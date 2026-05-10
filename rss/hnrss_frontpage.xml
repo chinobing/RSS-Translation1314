@@ -4,14 +4,54 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 09 May 2026 21:43:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 02:55:08 GMT</lastBuildDate>
     <item>
-      <title>FreeBSD：通过 Execve() 进行本地权限升级</title>
+      <title>稀疏Cholesky消除树</title>
+      <link>https://www.reidatcheson.com/sparse/linear/cholesky/2026/04/09/etree.html</link>
+      <description><![CDATA[文章网址：https://www.reidatcheson.com/sparse/linear/cholesky/2026/04/09/etree.html
+评论网址：https://news.ycombinator.com/item?id=48080221
+积分：4
+# 条评论：0]]></description>
+      <guid>https://www.reidatcheson.com/sparse/linear/cholesky/2026/04/09/etree.html</guid>
+      <pubDate>Sun, 10 May 2026 01:52:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>法国采取行动破解加密消息传递</title>
+      <link>https://reclaimthenet.org/france-moves-to-break-encrypted-messaging</link>
+      <description><![CDATA[文章网址：https://reclaimthenet.org/france-moves-to-break-encrypted-messaging
+评论网址：https://news.ycombinator.com/item?id=48078811
+积分：93
+# 条评论：51]]></description>
+      <guid>https://reclaimthenet.org/france-moves-to-break-encrypted-messaging</guid>
+      <pubDate>Sat, 09 May 2026 22:14:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>在日本被捕</title>
+      <link>https://sundaicity.com/blogs/getting-arrested-in-japan</link>
+      <description><![CDATA[文章网址：https://sundaicity.com/blogs/getting-arrested-in-japan
+评论网址：https://news.ycombinator.com/item?id=48078647
+积分：152
+# 条评论：175]]></description>
+      <guid>https://sundaicity.com/blogs/getting-arrested-in-japan</guid>
+      <pubDate>Sat, 09 May 2026 21:56:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rust 但 Lisp</title>
+      <link>https://github.com/ThatXliner/rust-but-lisp</link>
+      <description><![CDATA[文章网址：https://github.com/ThatXliner/rust-but-lisp
+评论网址：https://news.ycombinator.com/item?id=48078575
+积分：90
+# 条评论：45]]></description>
+      <guid>https://github.com/ThatXliner/rust-but-lisp</guid>
+      <pubDate>Sat, 09 May 2026 21:46:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过 execve() 进行本地权限提升</title>
       <link>https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc</link>
       <description><![CDATA[文章网址：https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc
 评论网址：https://news.ycombinator.com/item?id=48077971
-积分：33
-# 条评论：15]]></description>
+积分：97
+# 条评论：59]]></description>
       <guid>https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc</guid>
       <pubDate>Sat, 09 May 2026 20:31:21 GMT</pubDate>
     </item>
@@ -20,91 +60,51 @@
       <link>https://undecidability.net/senior/</link>
       <description><![CDATA[文章网址：https://undecidability.net/senior/
 评论网址：https://news.ycombinator.com/item?id=48077966
-积分：12
-# 条评论：1]]></description>
+积分：41
+# 条评论：46]]></description>
       <guid>https://undecidability.net/senior/</guid>
       <pubDate>Sat, 09 May 2026 20:31:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>网络上基于 Surfel 的全局照明</title>
+      <link>https://juretriglav.si/surfel-based-global-illumination-on-the-web/</link>
+      <description><![CDATA[文章网址：https://juretriglav.si/surfel-based-global-illustration-on-the-web/
+评论网址：https://news.ycombinator.com/item?id=48077395
+积分：22
+# 条评论：0]]></description>
+      <guid>https://juretriglav.si/surfel-based-global-illumination-on-the-web/</guid>
+      <pubDate>Sat, 09 May 2026 19:09:34 GMT</pubDate>
     </item>
     <item>
       <title>Meta 对人工智能的拥抱让员工痛苦不堪</title>
       <link>https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html</link>
       <description><![CDATA[文章网址：https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html
 评论网址：https://news.ycombinator.com/item?id=48077126
-积分：132
-评论数：80]]></description>
+积分：310
+# 条评论：279]]></description>
       <guid>https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html</guid>
       <pubDate>Sat, 09 May 2026 18:33:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我用 Go 创建了一种类似 Clojure 的语言，在 7 毫秒内启动</title>
+      <link>https://github.com/nooga/let-go</link>
+      <description><![CDATA[Let-go 是一种用纯 Go 编写的类似 Clojure 的语言（与 JVM Clojure 兼容约 90%）。它以约 10MB 的静态二进制文件形式提供，冷启动时间约为 7 毫秒 - 比 JVM 快 50 倍，比 Babashka 快 3 倍。它在算法工作负载上具有不错的吞吐量 - 在 GraalVM 支持的科学范围内。我在 2021 年开始这个项目，作为一个精心设计的恶作剧：我想在假装编写 Go 的同时为编写 Clojure 找到一个借口。抛开笑话，结果证明它相当不错：感觉就像真正的 Clojure，它有一个 nREPL 服务器（受 Calva、CIDER 等支持），它可以轻松嵌入到你的 Go 程序（函数、结构和通道可以轻松跨越边界）。它非常适合编写 CLI、Web 服务器、数据处理脚本，甚至进行一些系统编程 - 我用它来编写一个无守护容器运行时。哦，它在 Plan9 上运行。在底层有一个相当简单的编译器和一个堆栈虚拟机，两者都是专门为运行类似 Clojure 的代码而手工制作的。编译器可以在 AOT 模式下工作，生成可移植的字节码 blob 和独立的二进制文件（运行时+字节码）。这通常不是 Clojure 的直接替代品 - 它不加载 JAR，它不具有所有 Java API，并且很可能不会在不进行修改的情况下运行现有的 Clojure 项目。至少目前不行。试一试，告诉我你的想法。欢迎提出问题和 PR！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48076815
+积分：100
+# 条评论：31]]></description>
+      <guid>https://github.com/nooga/let-go</guid>
+      <pubDate>Sat, 09 May 2026 17:52:13 GMT</pubDate>
     </item>
     <item>
       <title>Zed 编辑器主题生成器</title>
       <link>https://zed.dev/theme-builder</link>
       <description><![CDATA[文章网址：https://zed.dev/theme-builder
 评论网址：https://news.ycombinator.com/item?id=48076651
-积分：101
-# 条评论：34]]></description>
+积分：166
+# 条评论：47]]></description>
       <guid>https://zed.dev/theme-builder</guid>
       <pubDate>Sat, 09 May 2026 17:30:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>CPanel 黑色周：44k 服务器遭受攻击后修复了 3 个新漏洞</title>
-      <link>https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/</link>
-      <description><![CDATA[文章网址：https://www.copahost.com/blog/cpanels-black-week-三-new-vulnerability-patched-after-ransomware-attack-on-44000-servers/
-评论网址：https://news.ycombinator.com/item?id=48076465
-积分：81
-# 条评论：44]]></description>
-      <guid>https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/</guid>
-      <pubDate>Sat, 09 May 2026 17:06:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>我已禁止查询字符串</title>
-      <link>https://chrismorgan.info/no-query-strings</link>
-      <description><![CDATA[相关：https://susam.net/no-query-strings.html
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48076173
-积分：162
-# 条评论：74]]></description>
-      <guid>https://chrismorgan.info/no-query-strings</guid>
-      <pubDate>Sat, 09 May 2026 16:28:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>海狸三元组简介</title>
-      <link>https://stoffelmpc.com/stoffel-blog/beaver-triples-tuples</link>
-      <description><![CDATA[文章网址：https://stoffelmpc.com/stoffel-blog/beaver-triples-tuples
-评论网址：https://news.ycombinator.com/item?id=48076009
-积分：17
-# 条评论：10]]></description>
-      <guid>https://stoffelmpc.com/stoffel-blog/beaver-triples-tuples</guid>
-      <pubDate>Sat, 09 May 2026 16:02:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>橡子阿基米德上的 PipeDream</title>
-      <link>https://stonetools.ghost.io/pipedream-archimedes/</link>
-      <description><![CDATA[文章网址：https://stonetools.ghost.io/pipedream-archimedes/
-评论网址：https://news.ycombinator.com/item?id=48075528
-积分：64
-# 条评论：22]]></description>
-      <guid>https://stonetools.ghost.io/pipedream-archimedes/</guid>
-      <pubDate>Sat, 09 May 2026 15:01:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>分发 Mac 软件提高了我的皮质醇水平</title>
-      <link>https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels</link>
-      <description><![CDATA[文章网址：https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels
-评论网址：https://news.ycombinator.com/item?id=48075366
-积分：128
-# 条评论：69]]></description>
-      <guid>https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels</guid>
-      <pubDate>Sat, 09 May 2026 14:40:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>GrapheneOS 修复 Android VPN 漏洞 谷歌拒绝修补</title>
-      <link>https://cyberinsider.com/grapheneos-fixes-android-vpn-leak-google-refused-to-patch/</link>
-      <description><![CDATA[文章网址：https://cyberinsider.com/grapheneos-fixes-android-vpn-leak-google-refused-to-patch/
-评论网址：https://news.ycombinator.com/item?id=48075144
-积分：214
-# 条评论：63]]></description>
-      <guid>https://cyberinsider.com/grapheneos-fixes-android-vpn-leak-google-refused-to-patch/</guid>
-      <pubDate>Sat, 09 May 2026 14:11:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
