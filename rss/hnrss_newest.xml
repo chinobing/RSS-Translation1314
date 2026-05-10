@@ -4,109 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 10 May 2026 02:55:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 06:13:25 GMT</lastBuildDate>
     <item>
-      <title>随着收入激增，Anthropic 考虑以接近 1T 美元的估值进行交易</title>
-      <link>https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d
-评论网址：https://news.ycombinator.com/item?id=48080540
+      <title>左手路径的哲学</title>
+      <link>https://philosophy-of-the-left-hand-path.denys-spirin.workers.dev/</link>
+      <description><![CDATA[文章网址：https://philosophy-of-the-left-hand-path.denys-spirin.workers.dev/
+评论网址：https://news.ycombinator.com/item?id=48081399
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d</guid>
-      <pubDate>Sun, 10 May 2026 02:53:36 GMT</pubDate>
+      <guid>https://philosophy-of-the-left-hand-path.denys-spirin.workers.dev/</guid>
+      <pubDate>Sun, 10 May 2026 06:01:25 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：一个 codex/Claude Code 插件，用于通过会话持久化产品上下文</title>
-      <link>https://github.com/idodekerobo/draft-cli-plugin</link>
-      <description><![CDATA[使用编码代理进行产品构建（不仅仅是编写代码）的一些摩擦是每个新会话都从头开始。草案是我尝试修复的尝试。
-在了解其工作原理之前，许多内存/上下文插件通过调用外部 api 或运行自己的模型来解决这个问题，这要么单独向您收费，要么悄悄增加您的使用量。草稿完全在您现有的 claude 订阅中运行。它是一个 codex/claude 代码插件，有几个核心部分：1. session-init hook在每次会话启动时，都会触发一个钩子并将结构化上下文摘要注入到 claude 的工作记忆中。具体来说，它从每个上下文索引文件（公司、产品、优先级、团队、决策）中读取“名称”和“描述”前沿内容，并将它们组装成约 5k 个令牌下的单个压缩摘要。2.学习——推理驱动和手动学习是推理驱动的，而不是基于钩子的。主 claude 代理读取其指令并决定何时值得坚持某件事 - 做出决定，放弃方向 - 并调用“/draft:learn”作为子代理将其写回适当的上下文文件。没有会话结束挂钩或后台进程；代理正在对什么是耐用的进行判断。
-您还可以随时手动调用“/draft:learn”。随着时间的推移，克劳德会积累足够的上下文来标记矛盾 - 如果您的方向与两周前做出的决定相冲突，它就会浮出水面。作为一名独立创始人，这对我来说是最意想不到的有用部分。3。跨代理架构工作区位于“~/.draft/workspace/”，克劳德代码和光标本地共享工作区。 codex 需要单独安装（curl 设置脚本，因为还没有插件市场），但从相同的文件读取。---如果人们尝试一下、克隆它并在本地运行，或者给我一些他们的编码代理设置的示例，我会很高兴！它 100% 免费和开源。麻省理工学院许可。没有帐户，没有 API 密钥。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48080538
+      <title>微型装甲列车与希特勒的德国空军作战[视频]</title>
+      <link>https://www.youtube.com/watch?v=Td3oD3cCXZ4</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=Td3oD3cCXZ4
+评论网址：https://news.ycombinator.com/item?id=48081383
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/idodekerobo/draft-cli-plugin</guid>
-      <pubDate>Sun, 10 May 2026 02:53:29 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=Td3oD3cCXZ4</guid>
+      <pubDate>Sun, 10 May 2026 05:57:27 GMT</pubDate>
     </item>
     <item>
-      <title>Godot 的使用和引擎增长</title>
-      <link>https://godotengine.org/article/godot-growth-stats-2026/</link>
-      <description><![CDATA[文章网址：https://godotengine.org/article/godot-growth-stats-2026/
-评论网址：https://news.ycombinator.com/item?id=48080534
+      <title>Show HN：TokReach – 美国 TikTok 即服务</title>
+      <link>https://www.tokreach.com</link>
+      <description><![CDATA[文章网址：https://www.tokreach.com
+评论网址：https://news.ycombinator.com/item?id=48081377
 积分：1
 # 条评论：0]]></description>
-      <guid>https://godotengine.org/article/godot-growth-stats-2026/</guid>
-      <pubDate>Sun, 10 May 2026 02:52:44 GMT</pubDate>
+      <guid>https://www.tokreach.com</guid>
+      <pubDate>Sun, 10 May 2026 05:55:45 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：高频噪音会引发耳鸣吗？</title>
-      <link>https://news.ycombinator.com/item?id=48080516</link>
-      <description><![CDATA[不完全是技术性的，但 HN 感觉是正确的提问人群，因为在其他任何地方询问我都会被认为患有精神疾病。我的耳鸣似乎一天中 99.9% 的时间都会持续，有时会消失几分钟，而且频率非常高。想象一下电源线圈发出呜呜声。现在是精神病部分：耳鸣可以改变位置（左/右耳）并改变音量。我已经好几天没听到右耳耳鸣的声音了，现在再次坐在沙发上后又出现了（左耳仍然可以听到）。你问沙发吗？两周前，当耳鸣开始出现时，我们改变了客厅的布局。沙发现在位于我们的 WiFi 路由器旁边。不久之后耳鸣就开始了。我以前从未有过耳鸣。你猜怎么着，路由器发出同样的噪音（甚至我的伴侣也能听到）。几天后，我意识到这可能是路由器发出的，我把它的位置改到了房间的另一边，但现在不知何故，我仍然可以在相距 3 米的地方听到路由器发出的高频。一旦我开始坐在沙发上，耳鸣就会变得更严重。即使全屋断电，我仍然能听到 WiFi 路由器的噪音。我疯了吗？这是一件事吗？某些频率是否会引起耳鸣，并且可以由相同的频率重新触发？能有记忆效应吗？难道即使我几天不坐在沙发上它也不会消失，因为这些天所有这些电源在每个设施中都有高频线圈呜呜声，这会再次触发它？ 我感觉就像《黑客帝国》中的尼奥，他得到了启发，现在可以听到电流，但没有其余的超能力:(PS：我去看了医生，正在做常规的医疗程序来治疗耳鸣（泼尼松龙 60 毫克/天），但它没有任何帮助。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48080516
+      <title>tsz：用 Rust 编写的 TypeScript 检查器和 LSP，旨在超越 tsgo</title>
+      <link>https://github.com/mohsen1/tsz</link>
+      <description><![CDATA[文章网址：https://github.com/mohsen1/tsz
+评论网址：https://news.ycombinator.com/item?id=48081362
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/mohsen1/tsz</guid>
+      <pubDate>Sun, 10 May 2026 05:51:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>编程作为理论构建-Peter Naur[pdf]</title>
+      <link>https://pages.cs.wisc.edu/~remzi/Naur.pdf</link>
+      <description><![CDATA[文章网址：https://pages.cs.wisc.edu/~remzi/Naur.pdf
+评论网址：https://news.ycombinator.com/item?id=48081347
+积分：1
+# 条评论：0]]></description>
+      <guid>https://pages.cs.wisc.edu/~remzi/Naur.pdf</guid>
+      <pubDate>Sun, 10 May 2026 05:49:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Euppp – 用于篡改网页、实时网页和用户脚本的浏览器扩展</title>
+      <link>https://github.com/PEZ/epupp</link>
+      <description><![CDATA[文章网址：https://github.com/PEZ/epupp
+评论网址：https://news.ycombinator.com/item?id=48081340
 积分：2
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48080516</guid>
-      <pubDate>Sun, 10 May 2026 02:49:11 GMT</pubDate>
+      <guid>https://github.com/PEZ/epupp</guid>
+      <pubDate>Sun, 10 May 2026 05:46:21 GMT</pubDate>
     </item>
     <item>
-      <title>态势感知 Kindle 电子书 ePub</title>
-      <link>https://blog.cahillanelabs.com/kindle/epub/llm/2026/05/10/situational-awareness-ebook</link>
-      <description><![CDATA[文章网址：https://blog.cahillanelabs.com/kindle/epub/llm/2026/05/10/situational-awareness-ebook
-评论网址：https://news.ycombinator.com/item?id=48080509
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blog.cahillanelabs.com/kindle/epub/llm/2026/05/10/situational-awareness-ebook</guid>
-      <pubDate>Sun, 10 May 2026 02:47:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>功夫“飞客”案例</title>
-      <link>https://www.zdnet.com/article/the-case-of-the-kung-fu-phreak/</link>
-      <description><![CDATA[文章网址：https://www.zdnet.com/article/the-case-of-the-kung-fu-phreak/
-评论网址：https://news.ycombinator.com/item?id=48080484
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.zdnet.com/article/the-case-of-the-kung-fu-phreak/</guid>
-      <pubDate>Sun, 10 May 2026 02:40:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>模型来源套件：了解您的 AI 模型来自哪里</title>
-      <link>https://blogs.cisco.com/ai/model-provenance-kit</link>
-      <description><![CDATA[文章网址：https://blogs.cisco.com/ai/model-provenance-kit
-评论网址：https://news.ycombinator.com/item?id=48080467
+      <title>汉塔病毒的历史和科学</title>
+      <link>https://distressedscientists.substack.com/p/hantan-hondius</link>
+      <description><![CDATA[文章网址：https://distressedscientists.substack.com/p/hantan-hondius
+评论网址：https://news.ycombinator.com/item?id=48081335
 积分：2
 # 条评论：0]]></description>
-      <guid>https://blogs.cisco.com/ai/model-provenance-kit</guid>
-      <pubDate>Sun, 10 May 2026 02:35:48 GMT</pubDate>
+      <guid>https://distressedscientists.substack.com/p/hantan-hondius</guid>
+      <pubDate>Sun, 10 May 2026 05:44:54 GMT</pubDate>
     </item>
     <item>
-      <title>Linus Tech Tips 私人飞机的碳足迹</title>
-      <link>https://lttjet.com</link>
-      <description><![CDATA[文章网址：https://lttjet.com
-评论网址：https://news.ycombinator.com/item?id=48080452
-积分：2
-# 条评论：0]]></description>
-      <guid>https://lttjet.com</guid>
-      <pubDate>Sun, 10 May 2026 02:32:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>7米</title>
-      <link>https://blog.cloudflare.com/through-the-eyes-tech-support-engineer/</link>
-      <description><![CDATA[文章网址：https://blog.cloudflare.com/through-the-eyes-tech-support-engineer/
-评论网址：https://news.ycombinator.com/item?id=48080444
+      <title>Fusion 的成本下限：如果核心免费怎么办？</title>
+      <link>https://1cfe.substack.com/p/fusions-cost-floor-what-if-the-core</link>
+      <description><![CDATA[文章网址：https://1cfe.substack.com/p/fusions-cost-floor-what-if-the-core
+评论网址：https://news.ycombinator.com/item?id=48081324
 积分：1
 # 条评论：0]]></description>
-      <guid>https://blog.cloudflare.com/through-the-eyes-tech-support-engineer/</guid>
-      <pubDate>Sun, 10 May 2026 02:31:36 GMT</pubDate>
+      <guid>https://1cfe.substack.com/p/fusions-cost-floor-what-if-the-core</guid>
+      <pubDate>Sun, 10 May 2026 05:43:05 GMT</pubDate>
     </item>
     <item>
-      <title>Notion、Obsidian 还是 Apple Notes？</title>
-      <link>https://news.ycombinator.com/item?id=48080439</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=48080439
+      <title>Canvas 事件后，多所大学被迫重新安排期末考试</title>
+      <link>https://therecord.media/universities-forced-to-reschedule-exams-canvas-incident</link>
+      <description><![CDATA[文章网址：https://therecord.media/universities-forced-to-reschedule-exams-canvas-incident
+评论网址：https://news.ycombinator.com/item?id=48081306
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48080439</guid>
-      <pubDate>Sun, 10 May 2026 02:29:46 GMT</pubDate>
+      <guid>https://therecord.media/universities-forced-to-reschedule-exams-canvas-incident</guid>
+      <pubDate>Sun, 10 May 2026 05:39:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>植物可以“听到”下雨的声音，从而促使它们采取行动</title>
+      <link>https://www.scientificamerican.com/article/plants-can-hear-rain-coming-spurring-them-into-action/</link>
+      <description><![CDATA[文章网址：https://www.scientificamerican.com/article/plants-can-hear-rain-coming-spurring-them-into-action/
+评论网址：https://news.ycombinator.com/item?id=48081302
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.scientificamerican.com/article/plants-can-hear-rain-coming-spurring-them-into-action/</guid>
+      <pubDate>Sun, 10 May 2026 05:38:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
