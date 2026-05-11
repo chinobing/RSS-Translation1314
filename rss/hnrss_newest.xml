@@ -4,106 +4,114 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 10 May 2026 21:49:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 14:51:41 GMT</lastBuildDate>
     <item>
-      <title>基里巴斯共和国</title>
-      <link>https://en.wikipedia.org/wiki/Kiribati</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Kiribati
-评论网址：https://news.ycombinator.com/item?id=48088394
+      <title>金融危机可能即将来临——不会像上次那样</title>
+      <link>https://www.bbc.com/news/articles/cp3p5l0nyevo</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cp3p5l0nyevo
+评论网址：https://news.ycombinator.com/item?id=48095717
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.bbc.com/news/articles/cp3p5l0nyevo</guid>
+      <pubDate>Mon, 11 May 2026 14:47:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>聊天机器人需要护栏来防止妄想和精神病</title>
+      <link>https://spectrum.ieee.org/mental-health-chatbot-guardrails</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/mental-health-chatbot-guardrails
+评论网址：https://news.ycombinator.com/item?id=48095713
 积分：1
 # 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Kiribati</guid>
-      <pubDate>Sun, 10 May 2026 21:42:56 GMT</pubDate>
+      <guid>https://spectrum.ieee.org/mental-health-chatbot-guardrails</guid>
+      <pubDate>Mon, 11 May 2026 14:47:41 GMT</pubDate>
     </item>
     <item>
-      <title>Apple Store 教育购买验证流程扩展到美国</title>
-      <link>https://appleinsider.com/articles/26/05/08/apple-store-education-purchase-verification-process-expands-to-us</link>
-      <description><![CDATA[文章网址：https://appleinsider.com/articles/26/05/08/apple-store-education-purchase-verification-process-expands-to-us
-评论网址：https://news.ycombinator.com/item?id=48088393
+      <title>Show HN：SLayer，由您的代理维护的语义层</title>
+      <link>https://github.com/MotleyAI/slayer</link>
+      <description><![CDATA[您好，HN！如果您想将代理连接到数据库（例如，构建数据分析师聊天机器人或任何类型的代理应用程序），今天您有 2 个选择：SQL MCP 服务器或语义层。SQL MCP 是最简单的设置路径，特别是如果您还有代理可以更新的 .md 知识库。但它很快就会变得非常混乱，特别是当有很多交互或数据库很大时。如果您想了解数字的来源，则很难审查生成的 SQL，并且相关查询可能难以对齐和比较。自然的替代方案是语义层，它是可用/有用的数据（数据模型）的清单，以及使用结构化 DSL 查询数据的接口 — 通常是在后台处理的度量、维度、过滤器、连接等的列表。当我们在 Motley 需要一个语义层来连接到客户的数据时，我们首先选择了 Cube具有用于多租户的自定义布线和动态更新模型。我们很快就遇到了一些限制，这使我们认识到现有的语义层并不是为此目的而构建的：它们仍然是 BI 世界的一部分，您需要为一组本质上静态的人工管理仪表板提供高效的后端，而代理需要迭代以获取答案，并在此过程中学习。就在那时，我们构建了 SLayer 的第一个版本，该版本现已开源。使用 SLayer MCP 或 CLI，代理（和人类）可以：- 探索模型、运行查询、连接到多个数据库
+- 编辑列/度量或创建新列/度量
+- 从 SQL 或其他模型上的查询创建自定义模型
+- 从交互中学习：保存和检索链接到模型、列或查询的自然语言记忆，以形成知识库代理不断发展语义层，重用过去交互的结果，并减少未来犯的错误。更多功能：- 通过内省数据库模式自动创建模型，以实现热启动
+- 可嵌入性——不需要运行服务器
+- 用于使用数据帧进行数据分析的Python客户端
+- 模式漂移检测和处理
+- 富有表现力的 DSL，具有紧凑、自然的表示，可用于任意深度的多级查询、自定义聚合、时移、组合来自多个模型的指标以及其他难以在原始 SQL 中正确使用的功能路线图：访问控制、缓存等。存储库：https://github.com/MotleyAI/slayer文档：https://motley-slayer.readthedocs.io/en/latest/
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48095686
+积分：2
+# 条评论：0]]></description>
+      <guid>https://github.com/MotleyAI/slayer</guid>
+      <pubDate>Mon, 11 May 2026 14:45:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>探索 8 轴编织</title>
+      <link>https://algorithmicpattern.org/2026/03/11/exploring-8-shaft-weaving/</link>
+      <description><![CDATA[文章网址：https://algorithmicpattern.org/2026/03/11/exploring-8-shaft-weaving/
+评论网址：https://news.ycombinator.com/item?id=48095680
+积分：2
+# 条评论：0]]></description>
+      <guid>https://algorithmicpattern.org/2026/03/11/exploring-8-shaft-weaving/</guid>
+      <pubDate>Mon, 11 May 2026 14:45:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>高等数学教育学问题</title>
+      <link>https://susam.net/advanced-mathematics-pedagogy.html</link>
+      <description><![CDATA[文章网址：https://susam.net/advanced-mathematics-pedagogy.html
+评论网址：https://news.ycombinator.com/item?id=48095660
+积分：3
+# 条评论：0]]></description>
+      <guid>https://susam.net/advanced-mathematics-pedagogy.html</guid>
+      <pubDate>Mon, 11 May 2026 14:43:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能发展的认知超载</title>
+      <link>https://dataengineeringcentral.substack.com/p/the-cognitive-overload-of-ai-development</link>
+      <description><![CDATA[文章网址：https://dataengineeringcentral.substack.com/p/the-cognitive-overload-of-ai-development
+评论网址：https://news.ycombinator.com/item?id=48095648
+积分：4
+# 条评论：0]]></description>
+      <guid>https://dataengineeringcentral.substack.com/p/the-cognitive-overload-of-ai-development</guid>
+      <pubDate>Mon, 11 May 2026 14:42:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>欢迎来到 go-acme/乐高 v5</title>
+      <link>https://ldez.github.io/blog/2026/05/11/lego-v5/</link>
+      <description><![CDATA[文章网址：https://ldez.github.io/blog/2026/05/11/lego-v5/
+评论网址：https://news.ycombinator.com/item?id=48095646
+积分：3
+# 条评论：0]]></description>
+      <guid>https://ldez.github.io/blog/2026/05/11/lego-v5/</guid>
+      <pubDate>Mon, 11 May 2026 14:42:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>创造力是三个可以训练的东西。您可能正在做错误的工作</title>
+      <link>https://appliedcraft.blog/posts/creativity-three-components.html</link>
+      <description><![CDATA[文章网址：https://appliedcraft.blog/posts/creativity-third-components.html
+评论网址：https://news.ycombinator.com/item?id=48095633
+积分：2
+# 条评论：0]]></description>
+      <guid>https://appliedcraft.blog/posts/creativity-three-components.html</guid>
+      <pubDate>Mon, 11 May 2026 14:41:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>适用于 SEO 的最佳无头 CMS（2026 年首选）</title>
+      <link>https://focusreactive.com/blog/the-best-headless-cms-for-seo-in-2026/</link>
+      <description><![CDATA[文章网址：https://focusreactive.com/blog/the-best-headless-cms-for-seo-in-2026/
+评论网址：https://news.ycombinator.com/item?id=48095627
 积分：1
 # 条评论：0]]></description>
-      <guid>https://appleinsider.com/articles/26/05/08/apple-store-education-purchase-verification-process-expands-to-us</guid>
-      <pubDate>Sun, 10 May 2026 21:42:53 GMT</pubDate>
+      <guid>https://focusreactive.com/blog/the-best-headless-cms-for-seo-in-2026/</guid>
+      <pubDate>Mon, 11 May 2026 14:40:23 GMT</pubDate>
     </item>
     <item>
-      <title>为什么现代父母比我们的祖先更感觉睡眠不足</title>
-      <link>https://www.bbc.com/future/article/20260508-parents-in-ancient-times-felt-less-sleep-deprived-what-our-ancestors-did-differently-on-baby-sleep</link>
-      <description><![CDATA[文章网址： https://www.bbc.com/future/article/20260508-parents-in-ancient-times-felt-less-sleep-deprived-what-our-ancestors-did- Differently-on-baby-sleep
-评论网址：https://news.ycombinator.com/item?id=48088343
-积分：2
+      <title>“解放日”关税实施一年了——经济学家是对的</title>
+      <link>https://www.nominalnews.com/p/liberation-day-tariffs-one-year-research</link>
+      <description><![CDATA[文章网址：https://www.nominalnews.com/p/liberation-day-tariffs-one-year-research
+评论网址：https://news.ycombinator.com/item?id=48095608
+积分：3
 # 条评论：0]]></description>
-      <guid>https://www.bbc.com/future/article/20260508-parents-in-ancient-times-felt-less-sleep-deprived-what-our-ancestors-did-differently-on-baby-sleep</guid>
-      <pubDate>Sun, 10 May 2026 21:36:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Flickr 共享资源</title>
-      <link>https://flickr.com/commons</link>
-      <description><![CDATA[文章网址：https://flickr.com/commons
-评论网址：https://news.ycombinator.com/item?id=48088331
-积分：2
-# 条评论：0]]></description>
-      <guid>https://flickr.com/commons</guid>
-      <pubDate>Sun, 10 May 2026 21:35:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>克劳德·代码汽车每日/每周回顾笔记</title>
-      <link>https://github.com/vibe-log/vibe-log-cli</link>
-      <description><![CDATA[文章网址：https://github.com/vibe-log/vibe-log-cli
-评论网址：https://news.ycombinator.com/item?id=48088314
-积分：2
-# 条评论：1]]></description>
-      <guid>https://github.com/vibe-log/vibe-log-cli</guid>
-      <pubDate>Sun, 10 May 2026 21:34:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Frona v2026.5.0 – 自托管个人人工智能助手</title>
-      <link>https://github.com/fronalabs/frona/releases/tag/v2026.5.0</link>
-      <description><![CDATA[文章网址：https://github.com/fronalabs/frona/releases/tag/v2026.5.0
-评论网址：https://news.ycombinator.com/item?id=48088308
-积分：2
-# 条评论：0]]></description>
-      <guid>https://github.com/fronalabs/frona/releases/tag/v2026.5.0</guid>
-      <pubDate>Sun, 10 May 2026 21:33:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Argus – 基于 RAG 的漏洞扫描器</title>
-      <link>https://github.com/abhishekamralkar/argus</link>
-      <description><![CDATA[文章网址：https://github.com/abhishekamralkar/argus
-评论网址：https://news.ycombinator.com/item?id=48088301
-积分：2
-# 条评论：0]]></description>
-      <guid>https://github.com/abhishekamralkar/argus</guid>
-      <pubDate>Sun, 10 May 2026 21:32:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>新技术从根本上提高了污水污泥的沼气产量</title>
-      <link>https://newatlas.com/energy/biogas-boost-sewage-sludge/</link>
-      <description><![CDATA[文章网址：https://newatlas.com/energy/biogas-boost-sewage-sludge/
-评论网址：https://news.ycombinator.com/item?id=48088285
-积分：2
-# 条评论：0]]></description>
-      <guid>https://newatlas.com/energy/biogas-boost-sewage-sludge/</guid>
-      <pubDate>Sun, 10 May 2026 21:30:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>童年计算</title>
-      <link>https://lilysthings.org/blog/childhood-computing/</link>
-      <description><![CDATA[文章网址：https://lilysthings.org/blog/childhood-computing/
-评论网址：https://news.ycombinator.com/item?id=48088258
-积分：2
-# 条评论：0]]></description>
-      <guid>https://lilysthings.org/blog/childhood-computing/</guid>
-      <pubDate>Sun, 10 May 2026 21:27:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>一切还是以人民为中心吗？</title>
-      <link>https://lisacrispin.com/2026/04/29/is-it-still-all-about-the-people/</link>
-      <description><![CDATA[文章网址：https://lisacrispin.com/2026/04/29/is-it-still-all-about-the-people/
-评论网址：https://news.ycombinator.com/item?id=48088251
-积分：2
-# 条评论：0]]></description>
-      <guid>https://lisacrispin.com/2026/04/29/is-it-still-all-about-the-people/</guid>
-      <pubDate>Sun, 10 May 2026 21:26:58 GMT</pubDate>
+      <guid>https://www.nominalnews.com/p/liberation-day-tariffs-one-year-research</guid>
+      <pubDate>Mon, 11 May 2026 14:39:18 GMT</pubDate>
     </item>
     </channel>
 </rss>
