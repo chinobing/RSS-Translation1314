@@ -4,24 +4,56 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 11 May 2026 03:32:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 09:40:20 GMT</lastBuildDate>
     <item>
-      <title>电视中最伟大的镜头：詹姆斯·伯克有一次机会完成这一场景</title>
+      <title>Mythos 发现了一个 Curl 漏洞</title>
+      <link>https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</link>
+      <description><![CDATA[文章网址：https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/
+评论网址：https://news.ycombinator.com/item?id=48091737
+积分：120
+# 条评论：51]]></description>
+      <guid>https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/</guid>
+      <pubDate>Mon, 11 May 2026 06:39:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>7 行代码，3 分钟：实现一种编程语言 (2010)</title>
+      <link>https://matt.might.net/articles/implementing-a-programming-language/</link>
+      <description><![CDATA[文章网址：https://matt.might.net/articles/implementing-a-programming-language/
+评论网址：https://news.ycombinator.com/item?id=48091085
+积分：49
+# 条评论：11]]></description>
+      <guid>https://matt.might.net/articles/implementing-a-programming-language/</guid>
+      <pubDate>Mon, 11 May 2026 04:34:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>电视中最伟大的镜头：詹姆斯·伯克 (James Burke) 有一次机会演绎这一场景 (2024)</title>
       <link>https://www.openculture.com/2024/10/the-greatest-shot-in-television.html</link>
       <description><![CDATA[文章网址：https://www.openculture.com/2024/10/the-greatest-shot-in-television.html
 评论网址：https://news.ycombinator.com/item?id=48090521
-积分：15
-# 条评论：3]]></description>
+积分：164
+# 条评论：66]]></description>
       <guid>https://www.openculture.com/2024/10/the-greatest-shot-in-television.html</guid>
       <pubDate>Mon, 11 May 2026 02:43:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：adamsreview – 对 Claude Code 更好的多代理公关评论</title>
+      <link>https://github.com/adamjgmiller/adamsreview</link>
+      <description><![CDATA[我构建了 adamsreview，一个 Claude Code 插件，它使用并行子代理、验证通行证、持久 JSON 状态以及通过 Codex CLI 和 PR 机器人注释进行可选的整体审查来运行更深入、多阶段的 PR 审查。在我自己的 PR 中，它比 Claude 的内置 /review、/ultrareview、CodeRabbit、Greptile 和 Codex 的内置审查捕获了更多的真实错误，同时产生的错误更少积极的一面。adamsreview 是打包为插件的六个 Claude Code 斜线命令：review、codex-review、add、promote、walkthrough 和 fix。我根据内置 /review 命令对其进行了建模，并对其进行了有意义的扩展。您可以清除审核阶段之间的上下文，因为状态存储在磁盘上的 JSON 工件中，并使用内置脚本来保持更新。演练命令使用 Claude 的 AskUserQuestion 功能来引导您一一完成不确定的发现或需要人工审核的项目。然后，修复命令会调度每个修复组代理并重新审查 Opus 的工作，在提交幸存者之前恢复任何回归。它会根据您的常规 Claude Code 订阅（建议使用 Max 计划）运行，与 /ultrareview 不同，/ultrareview 会根据您的额外使用池收费。我希望得到 Claude Code 用户、专业开发人员以及任何对 AI 代码审查有强烈意见的人的反馈。存储库：https://github.com/adamjgmiller/adamsreview安装：
+/插件市场添加 adamjgmiller/adamsreview，/插件安装 adamsreview@adamsreview
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48090276
+积分：32
+# 条评论：10]]></description>
+      <guid>https://github.com/adamjgmiller/adamsreview</guid>
+      <pubDate>Mon, 11 May 2026 02:06:29 GMT</pubDate>
     </item>
     <item>
       <title>我要重新开始手工编写代码</title>
       <link>https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/</link>
       <description><![CDATA[文章网址：https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/
 评论网址：https://news.ycombinator.com/item?id=48090029
-积分：98
-# 条评论：42]]></description>
+积分：349
+# 条评论：159]]></description>
       <guid>https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/</guid>
       <pubDate>Mon, 11 May 2026 01:23:51 GMT</pubDate>
     </item>
@@ -30,28 +62,18 @@
       <link>https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs</link>
       <description><![CDATA[文章网址：https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs
 评论网址：https://news.ycombinator.com/item?id=48089289
-积分：55
-# 条评论：10]]></description>
+积分：158
+# 条评论：40]]></description>
       <guid>https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs</guid>
       <pubDate>Sun, 10 May 2026 23:39:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>PS3 模拟器开发者礼貌地要求人们停止用人工智能 PR 淹没它</title>
-      <link>https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656</link>
-      <description><![CDATA[文章网址： https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656
-评论网址：https://news.ycombinator.com/item?id=48089263
-积分：98
-# 条评论：67]]></description>
-      <guid>https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656</guid>
-      <pubDate>Sun, 10 May 2026 23:36:48 GMT</pubDate>
     </item>
     <item>
       <title>在具有 24GB 内存的 M4 上运行本地模型</title>
       <link>https://jola.dev/posts/running-local-models-on-m4</link>
       <description><![CDATA[文章网址：https://jola.dev/posts/running-local-models-on-m4
 评论网址：https://news.ycombinator.com/item?id=48089091
-积分：138
-# 条评论：55]]></description>
+积分：303
+评论数：94]]></description>
       <guid>https://jola.dev/posts/running-local-models-on-m4</guid>
       <pubDate>Sun, 10 May 2026 23:09:10 GMT</pubDate>
     </item>
@@ -60,8 +82,8 @@
       <link>https://dunkels.com/adam/claude-user-space-ip-stack-ping/</link>
       <description><![CDATA[文章网址：https://dunkels.com/adam/claude-user-space-ip-stack-ping/
 评论网址：https://news.ycombinator.com/item?id=48089049
-积分：18
-# 条评论：4]]></description>
+积分：75
+# 条评论：23]]></description>
       <guid>https://dunkels.com/adam/claude-user-space-ip-stack-ping/</guid>
       <pubDate>Sun, 10 May 2026 23:02:31 GMT</pubDate>
     </item>
@@ -70,8 +92,8 @@
       <link>https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/</link>
       <description><![CDATA[文章网址：https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/
 评论网址：https://news.ycombinator.com/item?id=48088576
-积分：106
-# 条评论：54]]></description>
+积分：209
+评论数量：106]]></description>
       <guid>https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/</guid>
       <pubDate>Sun, 10 May 2026 22:02:43 GMT</pubDate>
     </item>
@@ -80,30 +102,10 @@
       <link>https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises</link>
       <description><![CDATA[文章网址： https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of -州人工智能数据中心州向联邦能源监管机构投诉称额外成本中断纳税人保护承诺承诺
 评论网址：https://news.ycombinator.com/item?id=48088151
-积分：176
-评论数：87]]></description>
+积分：249
+# 条评论：143]]></description>
       <guid>https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises</guid>
       <pubDate>Sun, 10 May 2026 21:16:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>硬件认证作为垄断推动者</title>
-      <link>https://grapheneos.social/@GrapheneOS/116550899908879585</link>
-      <description><![CDATA[文章网址：https://grapheneos.social/@GrapheneOS/116550899908879585
-评论网址：https://news.ycombinator.com/item?id=48086190
-积分：991
-# 条评论：359]]></description>
-      <guid>https://grapheneos.social/@GrapheneOS/116550899908879585</guid>
-      <pubDate>Sun, 10 May 2026 17:54:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>事件报告：CVE-2024-YIKES</title>
-      <link>https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html</link>
-      <description><![CDATA[文章网址：https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html
-评论网址：https://news.ycombinator.com/item?id=48086082
-积分：427
-评论数：108]]></description>
-      <guid>https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html</guid>
-      <pubDate>Sun, 10 May 2026 17:43:10 GMT</pubDate>
     </item>
     </channel>
 </rss>
