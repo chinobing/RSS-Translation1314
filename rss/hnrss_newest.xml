@@ -4,112 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 12 May 2026 14:25:58 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 17:12:51 GMT</lastBuildDate>
     <item>
-      <title>Posy：鼠标光标的历史（以及为什么我自己制作）[视频]</title>
-      <link>https://www.youtube.com/watch?v=YThelfB2fvg</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=YThelfB2fvg
-评论网址：https://news.ycombinator.com/item?id=48108704
-积分：1
+      <title>Leak 通过 16 分钟的视频揭示了 Google 的 Aluminium 操作系统</title>
+      <link>https://www.androidauthority.com/google-aluminium-os-leak-3665979/</link>
+      <description><![CDATA[文章网址：https://www.androidauthority.com/google-aluminium-os-leak-3665979/
+评论网址：https://news.ycombinator.com/item?id=48111053
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=YThelfB2fvg</guid>
-      <pubDate>Tue, 12 May 2026 14:20:02 GMT</pubDate>
+      <guid>https://www.androidauthority.com/google-aluminium-os-leak-3665979/</guid>
+      <pubDate>Tue, 12 May 2026 17:03:28 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：YantrikDB – AI 代理的持久内存</title>
-      <link>https://github.com/yantrikos/yantrikdb</link>
-      <description><![CDATA[文章网址：https://github.com/yantrikos/yantrikdb
-评论网址：https://news.ycombinator.com/item?id=48108689
+      <title>大僵尸化</title>
+      <link>https://www.thenewcritic.com/p/the-great-zombification</link>
+      <description><![CDATA[文章网址：https://www.thenewcritic.com/p/the-great-zombification
+评论网址：https://news.ycombinator.com/item?id=48111034
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/yantrikos/yantrikdb</guid>
-      <pubDate>Tue, 12 May 2026 14:19:00 GMT</pubDate>
+      <guid>https://www.thenewcritic.com/p/the-great-zombification</guid>
+      <pubDate>Tue, 12 May 2026 17:01:54 GMT</pubDate>
     </item>
     <item>
-      <title>DuckDB 月刊 #41</title>
-      <link>https://motherduck.com/blog/second-variant/duckdb-ecosystem-newsletter-may-2026/</link>
-      <description><![CDATA[文章网址：https://motherduck.com/blog/second-variant/duckdb-ecosystem-newsletter-may-2026/
-评论网址：https://news.ycombinator.com/item?id=48108686
+      <title>世界模型：人工智能中重要的事情</title>
+      <link>https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/</link>
+      <description><![CDATA[文章网址：https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/
+评论网址：https://news.ycombinator.com/item?id=48111033
 积分：1
 # 条评论：0]]></description>
-      <guid>https://motherduck.com/blog/second-variant/duckdb-ecosystem-newsletter-may-2026/</guid>
-      <pubDate>Tue, 12 May 2026 14:18:42 GMT</pubDate>
+      <guid>https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/</guid>
+      <pubDate>Tue, 12 May 2026 17:01:45 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Matterbeam，公司范围内的数据预写日志</title>
-      <link>https://matterbeam.com</link>
-      <description><![CDATA[嘿，HN。我是 Michael，Matterbeam 的创始人。十多年来一直在思考它的核心思想，并为之努力了三年。演示：https://www.youtube.com/watch?v=YuhujARUmhA
-白皮书：https://matterbeam.com/whitepaper简短版本：公司在点对点管道上构建数据基础设施，并在一个地方放置所有数据。源 A 进入仓库 B。C 团队希望相同的数据以不同的方式形成？建造另一个。最终变成一堆没人愿意碰的脆弱的 ETL。Matterbeam 以不同的方式将现有的想法组合在一起。源数据作为不可变的、按时间排序的事实收集到日志中。目的地会在任何时间点重播这些事实并将其转换为他们需要的目标。一种来源，多种用途。我的上一家初创公司于 2014 年被 Pluralsight 收购。我最终在那里领导产品架构和数据大约五年。与非常出色的产品和数据人员一起工作，我想说他们所做的一切都_正确_。然而，公司里没有人对数据感到满意。这让我怀疑是否有更根本的东西没有被破坏。主要灵感来自 Martin Kleppmann 2015 年的演讲“彻底颠覆数据库”。 (https://www.youtube.com/watch?v=fU9hR3kiOK0) 大多数数据库在内部都会做一些有趣的事情：预写日志（持久、仅附加、按时间顺序）作为事实来源，并创建派生结构（B 树、索引、物化视图）并进行优化以服务于不同的读取模式。如果您采用该模式并将其扩大到组织规模会怎样？你的用途变成了物化。仓库、RAG 矢量数据库、图形数据库，以及在需要时通过后期转换和新发射器创建的任何新用途。一些比较：
-我们不是卡夫卡。卡夫卡是较低级别的。我的第一次尝试是在 Pluralsight 使用 Kafka 作为日志。它非常昂贵且操作复杂。对于 Matterbeam，我们构建了云原生：对象存储提供了持久性，临时计算避免了协调，大多数作业我们不需要 100 毫秒的延迟。让我们避免了 Kafka 的很多复杂性。我们不是 Fivetran。 Fivetran 是一个托管管道。我们是公用事业公司。一位客户在带我们进来时更换了 Fivetran。为他们节省了钱，但这不是目标，突然他们估计需要五个月的项目开始需要两天时间。两年的迁移压缩为几个月。他们的产品经理开始要求使用 Matterbeam 处理所有事情。我们不是仓库或湖泊。 Snowflake 和 Databricks 擅长其擅长的领域。推动将所有数据集中在这些系统中是一个错误。我们的目标是成为底层。基本上实现了数据湖的最初承诺：在没有用例的情况下进行收集，当您弄清楚您需要什么、以您需要的形式和系统时实现。有什么问题：
-这并不完全符合“这会取代什么”的范畴。大多数人都同意数据已损坏，但随后又感叹“数据很难”或某种形式的“我的团队做得不对”。没有人积极寻求解决更深层次的问题。即使有出色的推荐，也很难找到新客户。连接器覆盖范围。 Fivetran 有数百个。我们的产量少得多。我们正在努力，我们正在使用人工智能，你可以很快地编写自己的。不过，如果您的堆栈在第一天需要 50 个 SaaS 集成，我们就会陷入困境。我们还早。少数付费客户。尚未为大型企业做好准备，还没有 SOC2、HIPAA 等。此外，有意识地决定不开源。原因很长，单独发帖。我希望得到以下方面的反馈：
-您将如何定位或营销它？这感觉就像类别创建，我知道这很困难。心智模型是否落地，或者有一个地方需要您去WAT吗？如果您已将CDC构建到仓库、Kafka加模式注册表或滚动数据骨干，那么您想要更简单的解决方案的部分是什么？网站上的博客、推荐、营销视频。我会关注主题。残酷一点，我可以接受（我想）。
+      <title>询问 HN：我如何获得未成年人拥有的有限责任公司的银行账户？</title>
+      <link>https://news.ycombinator.com/item?id=48111024</link>
+      <description><![CDATA[我今年 16 岁，最近（一个月前）作为唯一所有者成立了自己的有限责任公司，由我父亲作为组织者。我一直在尝试开设一个企业银行账户，但我找不到一家允许我在他们那里开设企业账户的银行。我该怎么办？我住在德克萨斯州。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48108667
+评论网址：https://news.ycombinator.com/item?id=48111024
 积分：1
 # 条评论：0]]></description>
-      <guid>https://matterbeam.com</guid>
-      <pubDate>Tue, 12 May 2026 14:17:47 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=48111024</guid>
+      <pubDate>Tue, 12 May 2026 17:01:15 GMT</pubDate>
     </item>
     <item>
-      <title>为什么人工智能不会向无知的人类老板表达不适信号</title>
-      <link>https://news.ycombinator.com/item?id=48108666</link>
-      <description><![CDATA[为什么总是有礼貌、乐观、执着的ai？人类开发者对这种持续无知的老板的行为最终会教会“老板”一些东西
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48108666
+      <title>Show HN：一次性 NAT 穿越库</title>
+      <link>https://warpgate.io/</link>
+      <description><![CDATA[文章网址：https://warpgate.io/
+评论网址：https://news.ycombinator.com/item?id=48111004
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48108666</guid>
-      <pubDate>Tue, 12 May 2026 14:17:41 GMT</pubDate>
+      <guid>https://warpgate.io/</guid>
+      <pubDate>Tue, 12 May 2026 17:00:09 GMT</pubDate>
     </item>
     <item>
-      <title>大食品对冰淇淋做了什么</title>
-      <link>https://ahalflife.substack.com/p/what-big-food-did-to-ice-cream</link>
-      <description><![CDATA[文章网址：https://ahalflife.substack.com/p/what-big-food-did-to-ice-cream
-评论网址：https://news.ycombinator.com/item?id=48108652
+      <title>Show HN：Profine – 在真实 GPU 上分析并重写您的 PyTorch 训练循环</title>
+      <link>https://github.com/ProfineAI/profine-cli</link>
+      <description><![CDATA[文章网址：https://github.com/ProfineAI/profine-cli
+评论网址：https://news.ycombinator.com/item?id=48111003
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/ProfineAI/profine-cli</guid>
+      <pubDate>Tue, 12 May 2026 17:00:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>穹顶商业新闻</title>
+      <link>https://vaultly-omega.vercel.app/en</link>
+      <description><![CDATA[文章网址：https://vaultly-omega.vercel.app/en
+评论网址：https://news.ycombinator.com/item?id=48111001
 积分：1
 # 条评论：1]]></description>
-      <guid>https://ahalflife.substack.com/p/what-big-food-did-to-ice-cream</guid>
-      <pubDate>Tue, 12 May 2026 14:16:47 GMT</pubDate>
+      <guid>https://vaultly-omega.vercel.app/en</guid>
+      <pubDate>Tue, 12 May 2026 17:00:07 GMT</pubDate>
     </item>
     <item>
-      <title>我要求法学硕士创建一种语言，然后制作一个 NES 模拟器</title>
-      <link>https://github.com/kerv/laze</link>
-      <description><![CDATA[文章网址：https://github.com/kerv/laze
-评论网址：https://news.ycombinator.com/item?id=48108643
+      <title>Ledgr – 具有 Plaid 银行同步和 MCP 服务器的自托管金融应用程序</title>
+      <link>https://github.com/KenTaniguchi-R/ledgr</link>
+      <description><![CDATA[文章网址：https://github.com/KenTaniguchi-R/ledgr
+评论网址：https://news.ycombinator.com/item?id=48110991
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/KenTaniguchi-R/ledgr</guid>
+      <pubDate>Tue, 12 May 2026 16:59:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pi Agent 被合并？</title>
+      <link>https://earendil.com/posts/press-release-april-8th/</link>
+      <description><![CDATA[文章网址：https://earendil.com/posts/press-release-april-8th/
+评论网址：https://news.ycombinator.com/item?id=48110990
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/kerv/laze</guid>
-      <pubDate>Tue, 12 May 2026 14:16:02 GMT</pubDate>
+      <guid>https://earendil.com/posts/press-release-april-8th/</guid>
+      <pubDate>Tue, 12 May 2026 16:59:30 GMT</pubDate>
     </item>
     <item>
-      <title>代理搜索模型</title>
-      <link>https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models.html</link>
-      <description><![CDATA[文章网址：https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models.html
-评论网址：https://news.ycombinator.com/item?id=48108636
+      <title>人工智能代理或许能够识别匿名在线作家</title>
+      <link>https://disassociated.com/ai-agents-possibly-identify-anonymous-online-writers/</link>
+      <description><![CDATA[文章网址：https://disociated.com/ai-agents-possibility-identify-anonymous-online-writers/
+评论网址：https://news.ycombinator.com/item?id=48110989
 积分：1
 # 条评论：0]]></description>
-      <guid>https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models.html</guid>
-      <pubDate>Tue, 12 May 2026 14:15:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果我统治世界：迈克尔·桑德尔 (2012)</title>
-      <link>https://www.prospectmagazine.co.uk/culture/50440/if-i-ruled-the-world-michael-sandel</link>
-      <description><![CDATA[文章网址：https://www.prospectmagazine.co.uk/culture/50440/if-i-ruled-the-world-michael-sandel
-评论网址：https://news.ycombinator.com/item?id=48108633
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.prospectmagazine.co.uk/culture/50440/if-i-ruled-the-world-michael-sandel</guid>
-      <pubDate>Tue, 12 May 2026 14:14:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>访问权不是所有权</title>
-      <link>https://aquisthoughts.substack.com/p/access-is-not-ownership</link>
-      <description><![CDATA[文章网址：https://aquisthoughts.substack.com/p/access-is-not-ownership
-评论网址：https://news.ycombinator.com/item?id=48108628
-积分：1
-# 条评论：0]]></description>
-      <guid>https://aquisthoughts.substack.com/p/access-is-not-ownership</guid>
-      <pubDate>Tue, 12 May 2026 14:14:35 GMT</pubDate>
+      <guid>https://disassociated.com/ai-agents-possibly-identify-anonymous-online-writers/</guid>
+      <pubDate>Tue, 12 May 2026 16:59:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
