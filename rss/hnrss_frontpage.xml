@@ -4,15 +4,67 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 11 May 2026 22:08:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 02:56:14 GMT</lastBuildDate>
     <item>
-      <title>TanStack NPM 软件包受到威胁</title>
-      <link>https://github.com/TanStack/router/issues/7383</link>
-      <description><![CDATA[文章网址：https://github.com/TanStack/router/issues/7383
+      <title>假建筑：Claude 写了 3k 行而不是 import pywikibot</title>
+      <link>https://fireflysentinel.github.io/posts/fake-building-claude-3000-lines/</link>
+      <description><![CDATA[文章网址：https://fireflysentinel.github.io/posts/fake-building-claude-3000-lines/
+评论网址：https://news.ycombinator.com/item?id=48103459
+积分：3
+# 条评论：0]]></description>
+      <guid>https://fireflysentinel.github.io/posts/fake-building-claude-3000-lines/</guid>
+      <pubDate>Tue, 12 May 2026 02:22:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>AWS 上的克劳德平台</title>
+      <link>https://claude.com/blog/claude-platform-on-aws</link>
+      <description><![CDATA[文章网址：https://claude.com/blog/claude-platform-on-aws
+评论网址：https://news.ycombinator.com/item?id=48103042
+积分：19
+# 条评论：5]]></description>
+      <guid>https://claude.com/blog/claude-platform-on-aws</guid>
+      <pubDate>Tue, 12 May 2026 01:24:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>他们生活 (1988) 启发了 Adblocker</title>
+      <link>https://github.com/davmlaw/they_live_adblocker</link>
+      <description><![CDATA[文章网址：https://github.com/davmlaw/they_live_adblocker
+评论网址：https://news.ycombinator.com/item?id=48102700
+积分：4
+# 条评论：0]]></description>
+      <guid>https://github.com/davmlaw/they_live_adblocker</guid>
+      <pubDate>Tue, 12 May 2026 00:37:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：安全安装 – 具有可信构建依赖项的更安全的 NPM 安装</title>
+      <link>https://www.npmjs.com/package/@gkiely/safe-install</link>
+      <description><![CDATA[鉴于当前的 npm 供应链妥协，我构建了安全安装：https://www.npmjs.com/package/@gkiely/safe-install它带来了我想要从 npm 获得但未内置的一些保护。与 Bun 的可信依赖项类似，它允许您默认禁用安装脚本并定义允许运行构建/安装脚本的依赖项列表：https://bun.com/docs/guides/install/trusted它还支持阻止外来子依赖项，类似于 pnpm 的 `blockExoticSubdeps` 设置：https://gajus.com/blog/3-pnpm-settings-to-protect-yourself-f...我希望 npm 最终会添加这样的东西，但这似乎不会很快发生，所以我给它做了一个小包装。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48102636
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.npmjs.com/package/@gkiely/safe-install</guid>
+      <pubDate>Tue, 12 May 2026 00:30:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>适用于现代 macOS 的 Griffin PowerMate 驱动程序</title>
+      <link>https://github.com/jameslockman/Griffin-PowerMate-Driver</link>
+      <description><![CDATA[文章网址：https://github.com/jameslockman/Griffin-PowerMate-Driver
+评论网址：https://news.ycombinator.com/item?id=48100970
+积分：48
+# 条评论：17]]></description>
+      <guid>https://github.com/jameslockman/Griffin-PowerMate-Driver</guid>
+      <pubDate>Mon, 11 May 2026 21:35:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>事后分析：TanStack npm 供应链妥协</title>
+      <link>https://tanstack.com/blog/npm-supply-chain-compromise-postmortem</link>
+      <description><![CDATA[https://github.com/TanStack/router/issues/7383
+&lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=48100706
-积分：110
-# 条评论：20]]></description>
-      <guid>https://github.com/TanStack/router/issues/7383</guid>
+积分：571
+# 条评论：213]]></description>
+      <guid>https://tanstack.com/blog/npm-supply-chain-compromise-postmortem</guid>
       <pubDate>Mon, 11 May 2026 21:08:25 GMT</pubDate>
     </item>
     <item>
@@ -20,8 +72,8 @@
       <link>https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/</link>
       <description><![CDATA[文章网址：https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/
 评论网址：https://news.ycombinator.com/item?id=48100662
-积分：31
-# 条评论：24]]></description>
+积分：79
+评论数量：92]]></description>
       <guid>https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/</guid>
       <pubDate>Mon, 11 May 2026 21:04:10 GMT</pubDate>
     </item>
@@ -30,83 +82,30 @@
       <link>https://thinkingmachines.ai/blog/interaction-models/</link>
       <description><![CDATA[文章网址：https://thinkingmachines.ai/blog/interaction-models/
 评论网址：https://news.ycombinator.com/item?id=48100524
-积分：19
-# 条评论：1]]></description>
+积分：106
+评论数量：9]]></description>
       <guid>https://thinkingmachines.ai/blog/interaction-models/</guid>
       <pubDate>Mon, 11 May 2026 20:53:37 GMT</pubDate>
     </item>
     <item>
-      <title>GitLab 宣布裁员并终止其 CREDIT 值</title>
+      <title>GitLab 宣布裁员并终止 CREDIT 值</title>
       <link>https://about.gitlab.com/blog/gitlab-act-2/</link>
       <description><![CDATA[文章网址：https://about.gitlab.com/blog/gitlab-act-2/
 评论网址：https://news.ycombinator.com/item?id=48100500
-积分：76
-# 条评论：17]]></description>
+积分：347
+# 条评论：341]]></description>
       <guid>https://about.gitlab.com/blog/gitlab-act-2/</guid>
       <pubDate>Mon, 11 May 2026 20:51:57 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：E2a – 适用于 AI 代理的开源电子邮件网关</title>
-      <link>https://github.com/Mnexa-AI/e2a</link>
-      <description><![CDATA[我们正在构建一个代理系统，并希望通过电子邮件作为触发器。我们决定将其删除并使其成为一项独立服务。我们想要并用于我们自己的代理系统的主要电子邮件功能：1。电子邮件线程与客服人员对话线程保持一致2.对出站电子邮件进行人工实时审核（尤其是在测试阶段）3.在几分钟内为客服人员快速加入/退出电子邮件地址4.用于本地代理的 Websocket 和用于云代理的至少一次 Webhook 传送尚未实现：DMARC（目前仅限 SPF/DKIM）、范围 API 密钥、HA/多区域（单个虚拟机 + 单 Postgres）、应用层电子邮件数据加密、合规性证明 (SOC 2/HIPAA)。GitHub：https://github.com/Mnexa-AI/e2a托管：https://e2a.dev/感谢任何反馈/贡献。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48100227
-积分：6
-# 条评论：0]]></description>
-      <guid>https://github.com/Mnexa-AI/e2a</guid>
-      <pubDate>Mon, 11 May 2026 20:26:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：OpenGravity – Antigravity 的零安装、BYOK vanilla JS 克隆</title>
-      <link>https://github.com/ab-613/opengravity</link>
-      <description><![CDATA[嗨。我是一名正在攻读 GCSE 的高中生。我在我的业余项目中大量使用了 Google Antigravity，但我不断达到使用限制，并随机收到“代理终止”错误。所以我决定尝试构建我自己的 IDE 版本。我喜欢它的 UI，所以我尽可能准确地复制了它，然后将一些逻辑连接到其中，包括令人难以置信的挑剔的 Webcontainer api。我试图保持它的超轻量级，没有构建步骤或依赖项，现在它是开源的，我希望人们可以在它之上构建使用闭源工具无法实现的东西，例如复杂的自定义代理工作流程。一些屏幕截图： - https://github.com/ab-613/OpenGravity/blob/main/examples/scr... - https://github.com/ab-613/OpenGravity/blob/main/examples/htm...它的成分：- 纯 Vanilla JS：无 React、Vue 或构建步骤。完全用纯 HTML/CSS/JS 构建，以保持超轻量级。- WebContainer API 和 xterm.js：我（经过一番痛苦）连接了 WebContainer API，而不是伪造终端，这样 AI 代理就有一个真正的浏览器 Linux 环境来运行 shell 命令、安装依赖项和编辑本地文件。- BYOK（自带密钥）：API 密钥始终保留在 localStorage 中。当前内容正在发生：- 它有效，但它是一个 alpha。 AI 可以主动正常启动项目并编辑文件，但因为我在考试前几天构建了这个，所以很多 UI 下拉菜单和按钮目前只是硬编码的占位符。- 我很早就开源了它，因为我认为 Vanilla JS + WebContainer IDE 的基础非常强大，我很想看看社区在我考试时将其带到哪里。- 现场演示：https://opengravity.pages.dev（如果不是全屏，则缩小至 80%。加载时会提示输入 Gemini api 密钥）。首先上传一个文件夹，然后您可以摆弄终端和代理，看看效果如何！很想听到有关代码、WebContainer 集成或如何改进代理循环的反馈！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48100192
-积分：13
-# 条评论：6]]></description>
-      <guid>https://github.com/ab-613/opengravity</guid>
-      <pubDate>Mon, 11 May 2026 20:23:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Linux 终端内存使用情况</title>
-      <link>https://gilesorr.com/blog/linux-terminal-memory-usage.html</link>
-      <description><![CDATA[文章网址：https://gilesorr.com/blog/linux-terminal-memory-usage.html
-评论网址：https://news.ycombinator.com/item?id=48099790
-积分：22
-# 条评论：20]]></description>
-      <guid>https://gilesorr.com/blog/linux-terminal-memory-usage.html</guid>
-      <pubDate>Mon, 11 May 2026 19:49:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>红辣椒乐队 (Red Hot Chili Peppers) 与华纳音乐公司 (Warner Music) 签署价值 3 亿美元的协议，出售唱片</title>
-      <link>https://www.hollywoodreporter.com/music/music-industry-news/wmg-acquired-red-hot-chili-peppers-catalog-for-350-million-1236589567/</link>
-      <description><![CDATA[https://guitar.com/news/industry-news/red-hot-chili-peppers-...
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48099665
-积分：50
-# 条评论：46]]></description>
-      <guid>https://www.hollywoodreporter.com/music/music-industry-news/wmg-acquired-red-hot-chili-peppers-catalog-for-350-million-1236589567/</guid>
-      <pubDate>Mon, 11 May 2026 19:38:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于将 Java 记录快速映射到本机内存的库</title>
-      <link>https://github.com/mamba-studio/TypedMemory</link>
-      <description><![CDATA[文章网址：https://github.com/mamba-studio/TypedMemory
-评论网址：https://news.ycombinator.com/item?id=48099616
-积分：75
-# 条评论：21]]></description>
-      <guid>https://github.com/mamba-studio/TypedMemory</guid>
-      <pubDate>Mon, 11 May 2026 19:33:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>有人可以解释一下 Cloudflare 是否勒索 Canonical 吗？</title>
-      <link>https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/</link>
-      <description><![CDATA[文章网址：https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/
-评论网址：https://news.ycombinator.com/item?id=48098537
-积分：182
-评论数量：91]]></description>
-      <guid>https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/</guid>
-      <pubDate>Mon, 11 May 2026 18:12:38 GMT</pubDate>
+      <title>如果 AI 编写代码，为什么还要使用 Python？</title>
+      <link>https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055</link>
+      <description><![CDATA[文章网址：https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055
+评论网址：https://news.ycombinator.com/item?id=48100433
+积分：201
+# 条评论：220]]></description>
+      <guid>https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055</guid>
+      <pubDate>Mon, 11 May 2026 20:45:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
