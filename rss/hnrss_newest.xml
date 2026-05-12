@@ -4,105 +4,112 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 12 May 2026 11:23:45 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 14:25:58 GMT</lastBuildDate>
     <item>
-      <title>爱思唯尔 vs. Meta：第一家科学出版商因抄袭研究论文而提起诉讼</title>
-      <link>https://www.nature.com/articles/d41586-026-01481-0</link>
-      <description><![CDATA[文章网址：https://www.nature.com/articles/d41586-026-01481-0
-评论网址：https://news.ycombinator.com/item?id=48106631
+      <title>Posy：鼠标光标的历史（以及为什么我自己制作）[视频]</title>
+      <link>https://www.youtube.com/watch?v=YThelfB2fvg</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=YThelfB2fvg
+评论网址：https://news.ycombinator.com/item?id=48108704
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.nature.com/articles/d41586-026-01481-0</guid>
-      <pubDate>Tue, 12 May 2026 11:15:36 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=YThelfB2fvg</guid>
+      <pubDate>Tue, 12 May 2026 14:20:02 GMT</pubDate>
     </item>
     <item>
-      <title>我们在哈萨克斯坦人工智能会议上看到的机器人</title>
-      <link>https://www.siliconimist.com/p/robots-of-gitex-kazakhstans-ai-conference</link>
-      <description><![CDATA[文章网址：https://www.siliconimist.com/p/robots-of-gitex-kazakhstans-ai-conference
-评论网址：https://news.ycombinator.com/item?id=48106616
+      <title>Show HN：YantrikDB – AI 代理的持久内存</title>
+      <link>https://github.com/yantrikos/yantrikdb</link>
+      <description><![CDATA[文章网址：https://github.com/yantrikos/yantrikdb
+评论网址：https://news.ycombinator.com/item?id=48108689
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.siliconimist.com/p/robots-of-gitex-kazakhstans-ai-conference</guid>
-      <pubDate>Tue, 12 May 2026 11:13:06 GMT</pubDate>
+      <guid>https://github.com/yantrikos/yantrikdb</guid>
+      <pubDate>Tue, 12 May 2026 14:19:00 GMT</pubDate>
     </item>
     <item>
-      <title>CERN KiCad 库</title>
-      <link>https://gitlab.com/ohwr/cern-kicad-libs</link>
-      <description><![CDATA[文章网址：https://gitlab.com/ohwr/cern-kicad-libs
-评论网址：https://news.ycombinator.com/item?id=48106589
+      <title>DuckDB 月刊 #41</title>
+      <link>https://motherduck.com/blog/second-variant/duckdb-ecosystem-newsletter-may-2026/</link>
+      <description><![CDATA[文章网址：https://motherduck.com/blog/second-variant/duckdb-ecosystem-newsletter-may-2026/
+评论网址：https://news.ycombinator.com/item?id=48108686
 积分：1
 # 条评论：0]]></description>
-      <guid>https://gitlab.com/ohwr/cern-kicad-libs</guid>
-      <pubDate>Tue, 12 May 2026 11:07:58 GMT</pubDate>
+      <guid>https://motherduck.com/blog/second-variant/duckdb-ecosystem-newsletter-may-2026/</guid>
+      <pubDate>Tue, 12 May 2026 14:18:42 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：您希望早点读过哪些书？</title>
-      <link>https://news.ycombinator.com/item?id=48106587</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=48106587
-积分：2
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48106587</guid>
-      <pubDate>Tue, 12 May 2026 11:07:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么乐观合并效果更好 (2015)</title>
-      <link>http://hintjens.com/blog:106</link>
-      <description><![CDATA[文章网址：http://hintjens.com/blog:106
-评论网址：https://news.ycombinator.com/item?id=48106583
+      <title>Show HN：Matterbeam，公司范围内的数据预写日志</title>
+      <link>https://matterbeam.com</link>
+      <description><![CDATA[嘿，HN。我是 Michael，Matterbeam 的创始人。十多年来一直在思考它的核心思想，并为之努力了三年。演示：https://www.youtube.com/watch?v=YuhujARUmhA
+白皮书：https://matterbeam.com/whitepaper简短版本：公司在点对点管道上构建数据基础设施，并在一个地方放置所有数据。源 A 进入仓库 B。C 团队希望相同的数据以不同的方式形成？建造另一个。最终变成一堆没人愿意碰的脆弱的 ETL。Matterbeam 以不同的方式将现有的想法组合在一起。源数据作为不可变的、按时间排序的事实收集到日志中。目的地会在任何时间点重播这些事实并将其转换为他们需要的目标。一种来源，多种用途。我的上一家初创公司于 2014 年被 Pluralsight 收购。我最终在那里领导产品架构和数据大约五年。与非常出色的产品和数据人员一起工作，我想说他们所做的一切都_正确_。然而，公司里没有人对数据感到满意。这让我怀疑是否有更根本的东西没有被破坏。主要灵感来自 Martin Kleppmann 2015 年的演讲“彻底颠覆数据库”。 (https://www.youtube.com/watch?v=fU9hR3kiOK0) 大多数数据库在内部都会做一些有趣的事情：预写日志（持久、仅附加、按时间顺序）作为事实来源，并创建派生结构（B 树、索引、物化视图）并进行优化以服务于不同的读取模式。如果您采用该模式并将其扩大到组织规模会怎样？你的用途变成了物化。仓库、RAG 矢量数据库、图形数据库，以及在需要时通过后期转换和新发射器创建的任何新用途。一些比较：
+我们不是卡夫卡。卡夫卡是较低级别的。我的第一次尝试是在 Pluralsight 使用 Kafka 作为日志。它非常昂贵且操作复杂。对于 Matterbeam，我们构建了云原生：对象存储提供了持久性，临时计算避免了协调，大多数作业我们不需要 100 毫秒的延迟。让我们避免了 Kafka 的很多复杂性。我们不是 Fivetran。 Fivetran 是一个托管管道。我们是公用事业公司。一位客户在带我们进来时更换了 Fivetran。为他们节省了钱，但这不是目标，突然他们估计需要五个月的项目开始需要两天时间。两年的迁移压缩为几个月。他们的产品经理开始要求使用 Matterbeam 处理所有事情。我们不是仓库或湖泊。 Snowflake 和 Databricks 擅长其擅长的领域。推动将所有数据集中在这些系统中是一个错误。我们的目标是成为底层。基本上实现了数据湖的最初承诺：在没有用例的情况下进行收集，当您弄清楚您需要什么、以您需要的形式和系统时实现。有什么问题：
+这并不完全符合“这会取代什么”的范畴。大多数人都同意数据已损坏，但随后又感叹“数据很难”或某种形式的“我的团队做得不对”。没有人积极寻求解决更深层次的问题。即使有出色的推荐，也很难找到新客户。连接器覆盖范围。 Fivetran 有数百个。我们的产量少得多。我们正在努力，我们正在使用人工智能，你可以很快地编写自己的。不过，如果您的堆栈在第一天需要 50 个 SaaS 集成，我们就会陷入困境。我们还早。少数付费客户。尚未为大型企业做好准备，还没有 SOC2、HIPAA 等。此外，有意识地决定不开源。原因很长，单独发帖。我希望得到以下方面的反馈：
+您将如何定位或营销它？这感觉就像类别创建，我知道这很困难。心智模型是否落地，或者有一个地方需要您去WAT吗？如果您已将CDC构建到仓库、Kafka加模式注册表或滚动数据骨干，那么您想要更简单的解决方案的部分是什么？网站上的博客、推荐、营销视频。我会关注主题。残酷一点，我可以接受（我想）。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48108667
 积分：1
 # 条评论：0]]></description>
-      <guid>http://hintjens.com/blog:106</guid>
-      <pubDate>Tue, 12 May 2026 11:07:08 GMT</pubDate>
+      <guid>https://matterbeam.com</guid>
+      <pubDate>Tue, 12 May 2026 14:17:47 GMT</pubDate>
     </item>
     <item>
-      <title>SQLite 是 AI 代理的最佳家园</title>
-      <link>https://su3.io/posts/willow</link>
-      <description><![CDATA[文章网址：https://su3.io/posts/willow
-评论网址：https://news.ycombinator.com/item?id=48106570
+      <title>为什么人工智能不会向无知的人类老板表达不适信号</title>
+      <link>https://news.ycombinator.com/item?id=48108666</link>
+      <description><![CDATA[为什么总是有礼貌、乐观、执着的ai？人类开发者对这种持续无知的老板的行为最终会教会“老板”一些东西
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48108666
 积分：1
 # 条评论：0]]></description>
-      <guid>https://su3.io/posts/willow</guid>
-      <pubDate>Tue, 12 May 2026 11:05:16 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=48108666</guid>
+      <pubDate>Tue, 12 May 2026 14:17:41 GMT</pubDate>
     </item>
     <item>
-      <title>LongMemEval-S 上的本地代理内存具有 98% Recall-5，无 LLM，无 API 密钥</title>
-      <link>https://github.com/sachinsharma9780/memweave</link>
-      <description><![CDATA[文章网址：https://github.com/sachinsharma9780/memweave
-评论网址：https://news.ycombinator.com/item?id=48106560
+      <title>大食品对冰淇淋做了什么</title>
+      <link>https://ahalflife.substack.com/p/what-big-food-did-to-ice-cream</link>
+      <description><![CDATA[文章网址：https://ahalflife.substack.com/p/what-big-food-did-to-ice-cream
+评论网址：https://news.ycombinator.com/item?id=48108652
 积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/sachinsharma9780/memweave</guid>
-      <pubDate>Tue, 12 May 2026 11:03:52 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://ahalflife.substack.com/p/what-big-food-did-to-ice-cream</guid>
+      <pubDate>Tue, 12 May 2026 14:16:47 GMT</pubDate>
     </item>
     <item>
-      <title>厌倦了为 6 个互不通信的 Shopify 工具付费</title>
-      <link>https://www.indiehackers.com/post/i-got-tired-of-paying-for-6-shopify-tools-that-didnt-talk-to-each-other-so-i-built-one-98RmjhJvKaeJXIqJP7P5</link>
-      <description><![CDATA[文章网址： https://www.indiehackers.com/post/i-got-tired-of-paying-for-6-shopify-tools-that-didnt-talk-to-each-other-so-i-built-one-98RmjhJvKaeJXIqJP7P5
-评论网址：https://news.ycombinator.com/item?id=48106553
+      <title>我要求法学硕士创建一种语言，然后制作一个 NES 模拟器</title>
+      <link>https://github.com/kerv/laze</link>
+      <description><![CDATA[文章网址：https://github.com/kerv/laze
+评论网址：https://news.ycombinator.com/item?id=48108643
 积分：1
-# 条评论：0]]></description>
-      <guid>https://www.indiehackers.com/post/i-got-tired-of-paying-for-6-shopify-tools-that-didnt-talk-to-each-other-so-i-built-one-98RmjhJvKaeJXIqJP7P5</guid>
-      <pubDate>Tue, 12 May 2026 11:03:08 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://github.com/kerv/laze</guid>
+      <pubDate>Tue, 12 May 2026 14:16:02 GMT</pubDate>
     </item>
     <item>
-      <title>在金融领域实施先进的人工智能技术</title>
-      <link>https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/</link>
-      <description><![CDATA[文章网址：https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/
-评论网址：https://news.ycombinator.com/item?id=48106540
+      <title>代理搜索模型</title>
+      <link>https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models.html</link>
+      <description><![CDATA[文章网址：https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models.html
+评论网址：https://news.ycombinator.com/item?id=48108636
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/</guid>
-      <pubDate>Tue, 12 May 2026 11:01:14 GMT</pubDate>
+      <guid>https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models.html</guid>
+      <pubDate>Tue, 12 May 2026 14:15:10 GMT</pubDate>
     </item>
     <item>
-      <title>最新 Android 版本上的任何应用程序都可能泄漏某些流量</title>
-      <link>https://mullvad.net/en/blog/any-app-on-recent-android-versions-can-leak-certain-traffic</link>
-      <description><![CDATA[文章网址：https://mullvad.net/en/blog/any-app-on-recent-android-versions-can-leak-certain-traffic
-评论网址：https://news.ycombinator.com/item?id=48106535
+      <title>如果我统治世界：迈克尔·桑德尔 (2012)</title>
+      <link>https://www.prospectmagazine.co.uk/culture/50440/if-i-ruled-the-world-michael-sandel</link>
+      <description><![CDATA[文章网址：https://www.prospectmagazine.co.uk/culture/50440/if-i-ruled-the-world-michael-sandel
+评论网址：https://news.ycombinator.com/item?id=48108633
 积分：1
 # 条评论：0]]></description>
-      <guid>https://mullvad.net/en/blog/any-app-on-recent-android-versions-can-leak-certain-traffic</guid>
-      <pubDate>Tue, 12 May 2026 11:00:15 GMT</pubDate>
+      <guid>https://www.prospectmagazine.co.uk/culture/50440/if-i-ruled-the-world-michael-sandel</guid>
+      <pubDate>Tue, 12 May 2026 14:14:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>访问权不是所有权</title>
+      <link>https://aquisthoughts.substack.com/p/access-is-not-ownership</link>
+      <description><![CDATA[文章网址：https://aquisthoughts.substack.com/p/access-is-not-ownership
+评论网址：https://news.ycombinator.com/item?id=48108628
+积分：1
+# 条评论：0]]></description>
+      <guid>https://aquisthoughts.substack.com/p/access-is-not-ownership</guid>
+      <pubDate>Tue, 12 May 2026 14:14:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
