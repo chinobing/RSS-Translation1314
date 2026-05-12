@@ -4,110 +4,111 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 12 May 2026 17:12:32 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 22:12:58 GMT</lastBuildDate>
     <item>
-      <title>亚马逊员工因使用人工智能工具的压力而“tokenmaxshing”</title>
-      <link>https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-Pressure-to-use-ai-tools/
-评论网址：https://news.ycombinator.com/item?id=48110529
-积分：53
-# 条评论：31]]></description>
-      <guid>https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/</guid>
-      <pubDate>Tue, 12 May 2026 16:29:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>eBay 拒绝 GameStop 56B 美元的收购，称其不可信</title>
-      <link>https://www.bloomberg.com/news/articles/2026-05-12/ebay-rejects-gamestop-s-56-billion-takeover-as-not-credible</link>
-      <description><![CDATA[文章网址： https://www.bloomberg.com/news/articles/2026-05-12/ebay-rejects-gamestop-s-56-billion-takeover-as-not-credible
-评论网址：https://news.ycombinator.com/item?id=48110021
-积分：96
-# 条评论：78]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2026-05-12/ebay-rejects-gamestop-s-56-billion-takeover-as-not-credible</guid>
-      <pubDate>Tue, 12 May 2026 15:49:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>黑曜石插件的未来</title>
-      <link>https://obsidian.md/blog/future-of-plugins/</link>
-      <description><![CDATA[文章网址：https://obsidian.md/blog/future-of-plugins/
-评论网址：https://news.ycombinator.com/item?id=48109970
-积分：43
-# 条评论：19]]></description>
-      <guid>https://obsidian.md/blog/future-of-plugins/</guid>
-      <pubDate>Tue, 12 May 2026 15:45:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>推出 HN：Voker (YC S24) – AI 代理分析</title>
-      <link>https://voker.ai</link>
-      <description><![CDATA[嘿，HN，我们是 Alex 和 Tyler，Voker.ai (https://voker.ai/) 的联合创始人，Voker.ai 是一个面向 AI 产品团队的代理分析平台。 Voker 可以全面了解用户对您的代理提出的要求以及您的代理是否正在交付，而无需挖掘日志。我们的主要产品是一个轻量级 SDK，它与 LLM 堆栈无关，专为代理产品而构建。 (https://app.voker.ai/docs)代理工程师和人工智能产品团队对生产中的代理性能没有适当的了解，这会导致糟糕的用户体验、客户流失以及浪费数百个小时的抽查时间来查找和调试代理配置问题。演示：https://www.tella.tv/video/vid_cmoukcsk1000i07jgb4j65u67/vie...我们最近对 YC 创始人进行了一项调查，90% 以上的受访者表示唯一的方法他们通过听取客户的投诉来了解他们的代理是否在生产中让用户失望。他们立即进行更改，希望能够解决问题并且不会破坏其他地方的东西，然后循环重复。我们看到大量的可观察性和评估产品涌现，试图解决这些问题，但我们仍然觉得代理监控堆栈中缺少某些东西。 Obs 非常适合单独跟踪调试，但只有工程师才能访问。评估有助于测试已知问题，但无法洞察团队未预期的趋势，因此工程师总是在追赶。传统的产品分析工具可以很好地跟踪产品表面的点击次数和页面浏览量，但并不是为代理产品而构建的。了解用户想要从代理中获得什么，以及交付的代理是否需要特定的对话智能/非结构化数据处理技术。我们提出了意图、更正和解决方案的代理分析原语来描述几乎所有对话代理的共同点：用户总是带着意图来到代理，用户可能必须在解决其意图的过程中纠正此代理，并希望用户的每个意图最终都能由代理解决。
-Voker 通过自动注释各个对话并挑选出用户意图和更正来处理 LLM 呼叫。 Voker 采用这些并使用 LLM 和分层文本分类来创建动态类别，从而提供更高级别的见解，因此您无需阅读各个对话即可了解用户的主要使用模式。我们见过的最常见的替代解决方案是将 obs 日志上传到 Claude 或 ChatGPT 并询问摘要见解。这有一些问题——主要是法学硕士不擅长数学或数据科学，所以你无法获得准确或一致的统计数据。法学硕士很可能对某些见解过度拟合，而对另一些见解不拟合。法学硕士不会以编程方式阅读和分类每个单独的会话或交互。这就是为什么我们不使用法学硕士进行任何核心数据工程（处理事件、计算统计数据），以便我们生成的分析是一致的、可重复的和准确的。
-我们有一个公开可用的轻量级 SDK，它用 Python 和 Typescript 封装了对 OpenAI、Anthropic 和 Gemini 的 LLM 调用。 Voker 负责数据工程，将原始数据转化为可用的分析原语和更高层次的见解。 
-免费套餐：每月 2,000 个活动，需要电子邮件注册。付费计划起价为 80 美元/月，可免费试用 30 天。我们很想听听您目前如何检测趋势，如果您尝试使用 Voker，请告诉我们我们的分析中哪些部分是有价值的，以及哪些部分仍然缺失。感谢您的阅读，我们期待您在评论中提出想法！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48109962
-积分：13
-# 条评论：7]]></description>
-      <guid>https://voker.ai</guid>
-      <pubDate>Tue, 12 May 2026 15:45:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么高级开发人员无法传达他们的专业知识</title>
-      <link>https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise</link>
-      <description><![CDATA[文章网址：https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise
-评论网址：https://news.ycombinator.com/item?id=48109460
-积分：5
-# 条评论：0]]></description>
-      <guid>https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise</guid>
-      <pubDate>Tue, 12 May 2026 15:08:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bambu Lab 滥用开源社会契约</title>
-      <link>https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/</link>
-      <description><![CDATA[文章网址：https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/
-评论网址：https://news.ycombinator.com/item?id=48109224
-积分：492
-# 条评论：171]]></description>
-      <guid>https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/</guid>
-      <pubDate>Tue, 12 May 2026 14:54:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>渲染天空、日落和行星</title>
-      <link>https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/</link>
-      <description><![CDATA[文章网址：https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/
-评论网址：https://news.ycombinator.com/item?id=48107997
-积分：223
+      <title>Meta 员工抗议美国办公室的鼠标追踪技术</title>
+      <link>https://www.reuters.com/sustainability/society-equity/meta-us-employees-organize-protest-against-mouse-tracking-tech-2026-05-12/</link>
+      <description><![CDATA[文章网址： https://www.reuters.com/sustainability/society-equity/meta-us-employees-organize-protest-against-mouse-tracking-tech-2026-05-12/
+评论网址：https://news.ycombinator.com/item?id=48114461
+积分：35
 # 条评论：17]]></description>
-      <guid>https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/</guid>
-      <pubDate>Tue, 12 May 2026 13:26:46 GMT</pubDate>
+      <guid>https://www.reuters.com/sustainability/society-equity/meta-us-employees-organize-protest-against-mouse-tracking-tech-2026-05-12/</guid>
+      <pubDate>Tue, 12 May 2026 20:58:18 GMT</pubDate>
     </item>
     <item>
-      <title>沙丘II</title>
-      <link>https://liquidream.itch.io/undune2</link>
-      <description><![CDATA[文章网址：https://liquidream.itch.io/undune2
-评论网址：https://news.ycombinator.com/item?id=48107404
-积分：112
-# 条评论：22]]></description>
-      <guid>https://liquidream.itch.io/undune2</guid>
-      <pubDate>Tue, 12 May 2026 12:38:45 GMT</pubDate>
+      <title>如何让你的文字看起来未来感 (2016)</title>
+      <link>https://typesetinthefuture.com/2016/02/18/futuristic/</link>
+      <description><![CDATA[文章网址：https://typesetinthefuture.com/2016/02/18/futuristic/
+评论网址：https://news.ycombinator.com/item?id=48113895
+积分：101
+# 条评论：10]]></description>
+      <guid>https://typesetinthefuture.com/2016/02/18/futuristic/</guid>
+      <pubDate>Tue, 12 May 2026 20:16:26 GMT</pubDate>
     </item>
     <item>
-      <title>Text Blaze (YC W21) 正在招聘非人工智能暑期实习生</title>
-      <link>https://www.ycombinator.com/companies/text-blaze/jobs/P4CCN62-the-blaze-no-ai-summer-internship</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/text-blaze/jobs/P4CCN62-the-blaze-no-ai-summer-internship
-评论网址：https://news.ycombinator.com/item?id=48107024
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/text-blaze/jobs/P4CCN62-the-blaze-no-ai-summer-internship</guid>
-      <pubDate>Tue, 12 May 2026 12:00:46 GMT</pubDate>
+      <title>超越语义相似性</title>
+      <link>https://arxiv.org/abs/2605.05242</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2605.05242
+评论网址：https://news.ycombinator.com/item?id=48113518
+积分：22
+# 条评论：2]]></description>
+      <guid>https://arxiv.org/abs/2605.05242</guid>
+      <pubDate>Tue, 12 May 2026 19:51:41 GMT</pubDate>
     </item>
     <item>
-      <title>欧盟将严厉打击 TikTok 和 Instagram 针对儿童的“令人上瘾的设计”</title>
-      <link>https://www.cnbc.com/2026/05/12/tiktok-instagram-social-media-addictive-eu-crack-down.html</link>
-      <description><![CDATA[文章网址：https://www.cnbc.com/2026/05/12/tiktok-instagram-social-media-addictive-eu-crack-down.html
-评论网址：https://news.ycombinator.com/item?id=48106534
-积分：382
-# 条评论：322]]></description>
-      <guid>https://www.cnbc.com/2026/05/12/tiktok-instagram-social-media-addictive-eu-crack-down.html</guid>
-      <pubDate>Tue, 12 May 2026 11:00:07 GMT</pubDate>
+      <title>Snowflake Postgres、Lakebase、Horizo​​nDB：选择您想要的锁定</title>
+      <link>https://thebuild.com/blog/2026/05/12/snowflake-postgres-lakebase-horizondb-picking-the-lock-in-you-want/</link>
+      <description><![CDATA[文章网址：https://thebuild.com/blog/2026/05/12/snowflake-postgres-lakebase-horizondb-picking-the-lock-in-you-want/
+评论网址：https://news.ycombinator.com/item?id=48113425
+积分：16
+# 条评论：4]]></description>
+      <guid>https://thebuild.com/blog/2026/05/12/snowflake-postgres-lakebase-horizondb-picking-the-lock-in-you-want/</guid>
+      <pubDate>Tue, 12 May 2026 19:45:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>CERT 针对 dnsmasq 中的严重安全漏洞发布了 6 个 CVE</title>
+      <link>https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html</link>
+      <description><![CDATA[文章网址：https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html
+评论网址：https://news.ycombinator.com/item?id=48112042
+积分：166
+# 条评论：73]]></description>
+      <guid>https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html</guid>
+      <pubDate>Tue, 12 May 2026 18:12:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Needle：我们将 Gemini 工具调用提炼成 26M 模型</title>
+      <link>https://github.com/cactus-compute/needle</link>
+      <description><![CDATA[嘿，HN，来自仙人掌的亨利。我们开源了 Needle，一个 26M 参数的函数调用（工具使用）模型。它在消费类设备上的预填充速度为 6000 tok/s，解码速度为 1200 tok/s。我们总是对构建在廉价手机上运行的代理模型所做的一点努力感到沮丧，因此我们进行了调查，得出了这样一个观察结果：代理体验是建立在工具调用的基础上的，而大规模模型对此来说是大材小用。工具调用从根本上来说是检索和组装（将查询与工具名称匹配、提取参数值、发出 JSON），而不是推理。交叉注意力是正确的原语，而 FFN 参数在这种规模下被浪费了。简单注意力网络：整个模型只是注意力和门控，任何地方都没有 MLP。 Needle 是针对消费类设备（手机、手表、眼镜...）调用单次函数的实验性运行。培训：
+- 在 16 个 TPU v6e 上对 200B 代币进行预训练（27 小时）
+- 对合成函数调用数据的 2B 令牌进行后训练（45 分钟）
+- 通过 Gemini 合成的数据集，包含 15 个工具类别（计时器、消息传递、导航、智能家居等）您可以立即测试它并在 Mac/PC 上进行微调：https://github.com/cactus-compute/needle有关架构的完整文章如下：https://github.com/cactus-compute/needle/blob/main/docs/simp...我们发现“无 FFN”发现泛化到函数调用之外的任何任务，其中模型可以访问外部结构化知识（RAG、工具使用、检索增强生成）。如果输入中提供了事实，则模型不需要记住 FFN 权重中的事实。实验结果即将发布。虽然它在单次函数调用方面击败了 FunctionGemma-270M、Qwen-0.6B、Granite-350M、LFM2.5-350M，但这些模型具有更大的范围/容量，并且在会话设置中表现出色。我们鼓励您通过游乐场测试自己的工具并进行相应的微调。这是我们对 Cactus (https://github.com/cactus-compute/cactus) 更广泛工作的一部分，Cactus 是一个从头开始为移动设备、可穿戴设备和定制硬件构建的推理引擎。我们之前在这里写过有关 Cactus 的文章：https://news.ycombinator.com/item?id=44524544所有内容均获得 MIT 许可。权重：https://huggingface.co/Cactus-Compute/needle
+GitHub：https://github.com/cactus-compute/needle
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48111896
+积分：177
+# 条评论：54]]></description>
+      <guid>https://github.com/cactus-compute/needle</guid>
+      <pubDate>Tue, 12 May 2026 18:03:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>SQL：构造错误</title>
+      <link>https://chreke.com/posts/sql-incorrect-by-construction</link>
+      <description><![CDATA[文章网址：https://chreke.com/posts/sql-in Correct-by-construction
+评论网址：https://news.ycombinator.com/item?id=48111798
+积分：24
+# 条评论：21]]></description>
+      <guid>https://chreke.com/posts/sql-incorrect-by-construction</guid>
+      <pubDate>Tue, 12 May 2026 17:56:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Quack：DuckDB 客户端-服务器协议</title>
+      <link>https://duckdb.org/2026/05/12/quack-remote-protocol</link>
+      <description><![CDATA[文章网址：https://duckdb.org/2026/05/12/quack-remote-protocol
+评论网址：https://news.ycombinator.com/item?id=48111765
+积分：117
+# 条评论：26]]></description>
+      <guid>https://duckdb.org/2026/05/12/quack-remote-protocol</guid>
+      <pubDate>Tue, 12 May 2026 17:54:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dead.Letter (CVE-2026-45185) – XBOW 如何在 Exim 上发现未经身份验证的 RCE</title>
+      <link>https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim</link>
+      <description><![CDATA[文章网址：https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim
+评论网址：https://news.ycombinator.com/item?id=48111748
+积分：47
+# 条评论：23]]></description>
+      <guid>https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim</guid>
+      <pubDate>Tue, 12 May 2026 17:52:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>重新构想人工智能时代的鼠标指针</title>
+      <link>https://deepmind.google/blog/ai-pointer/</link>
+      <description><![CDATA[文章网址：https://deepmind.google/blog/ai-pointer/
+评论网址：https://news.ycombinator.com/item?id=48111581
+积分：88
+# 条评论：73]]></description>
+      <guid>https://deepmind.google/blog/ai-pointer/</guid>
+      <pubDate>Tue, 12 May 2026 17:40:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
