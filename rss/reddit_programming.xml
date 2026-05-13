@@ -4,7 +4,21 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Tue, 12 May 2026 22:11:47 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 03:25:00 GMT</lastBuildDate>
+    <item>
+      <title>事后分析：TanStack npm 供应链妥协</title>
+      <link>https://www.reddit.com/r/programming/comments/1tblknw/postmortem_tanstack_npm_supplychain_compromise/</link>
+      <description><![CDATA[ 由   提交/u/CircumspectCapybara   [link] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tblknw/postmortem_tanstack_npm_supplychain_compromise/</guid>
+      <pubDate>Wed, 13 May 2026 01:47:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>流行的 Go 库 fsnotify 在维护者访问权限发生变化后发出供应链警报</title>
+      <link>https://www.reddit.com/r/programming/comments/1tbi8at/popular_go_library_fsnotify_raises_supply_chain/</link>
+      <description><![CDATA[ 由   提交/u/CircumspectCapybara  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tbi8at/popular_go_library_fsnotify_raises_supply_chain/</guid>
+      <pubDate>Tue, 12 May 2026 23:22:19 GMT</pubDate>
+    </item>
     <item>
       <title>选择正确的重复检测策略</title>
       <link>https://www.reddit.com/r/programming/comments/1tbg6qw/choosing_the_right_duplicate_detection_strategy/</link>
@@ -43,7 +57,7 @@
     <item>
       <title>在观看 Numberphile 视频后，我为质点的最小线覆盖建立了一个世界纪录的精确解算器。它将之前的 282 小时记录变成了 22 分钟，然后继续证明 20 个以前从未认证过的新尴尬质数。</title>
       <link>https://www.reddit.com/r/programming/comments/1tb8gv6/i_built_a_world_record_exact_solver_for_the/</link>
-      <description><![CDATA[观看关于“尴尬素数”的 Numberphile 视频后我掉进了一个兔子洞，结果变成了一个月的痴迷 C++ 优化。 问题： 将前 N 个素数绘制为图上的点 — 第一个素数 (2) 位于位置 1，第二个素数 (3) 位于位置 2，依此类推。通过每个点最少需要多少条直线？证明您确实找到了最小值是最困难的部分 - 这是一个 NP 完全集覆盖问题，随着 N 的增长，难度呈指数级增长。 之前的记录为 N=861，由 Max Alekseyev (GWU) 使用工业 MIP 求解器在 282 小时内认证。 求解器用算术感知增量架构取代了 MIP 方法：  12,162“粗线” （通过 3 个以上素数）存储为 1024 位位掩码，保持完整工作集 L2 驻留 60% 的步骤通过见证传播立即认证，根本无需搜索 拉格朗日松弛，具有紧下限的投影次梯度下降 并行分支定界，具有独占依赖规则，可证明强制所需行而不分支  结果：22 分钟内达到 N=861。在 40 小时内完成对 N=1024 的全面扫描，证明 f(1024)=143 并找到 20 个新的尴尬素数。 完整论文、麻省理工学院许可的 C++ 源代码以及实时运行实际算法的实时浏览器演示都位于上面的链接。对于 OEIS 人员：https://oeis.org/A373813   由   提交 /u/jespergran   [link] [评论]]]></description>
+      <description><![CDATA[观看关于“尴尬素数”的 Numberphile 视频后我掉进了一个兔子洞，结果变成了一个月的痴迷 C++ 优化。 问题： 将前 N 个素数绘制为图上的点 — 第一个素数 (2) 位于位置 1，第二个素数 (3) 位于位置 2，依此类推。通过每个点最少需要多少条直线？证明您确实找到了最小值是最困难的部分 - 这是一个 NP 完全集覆盖问题，随着 N 的增长，难度呈指数级增长。 之前的记录为 N=861，由 Max Alekseyev (GWU) 使用工业 MIP 求解器在 282 小时内认证。 求解器用算术感知增量架构取代了 MIP 方法：  12,162“粗线” （通过 3 个以上素数）存储为 1024 位位掩码，保持完整工作集 L2 驻留 60% 的步骤通过见证传播立即认证，根本无需搜索 拉格朗日松弛，具有紧下限的投影次梯度下降 并行分支定界，具有独占依赖规则，可证明强制所需行而不分支  结果：22 分钟内达到 N=861。在 40 小时内完成了对 N=1024 的全面扫描，证明了 f(1024)=143 并找到了 20 个新的尴尬素数。 完整论文、麻省理工学院许可的 C++ 源代码以及实时运行实际算法的实时浏览器演示都位于上面的链接。对于 OEIS 人员：https://oeis.org/A373813   由   提交 /u/jespergran   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tb8gv6/i_built_a_world_record_exact_solver_for_the/</guid>
       <pubDate>Tue, 12 May 2026 17:27:29 GMT</pubDate>
     </item>
@@ -71,7 +85,7 @@
     <item>
       <title>使用 TinyFFR 通过 28 行 C# 脚本检查 3D 对象</title>
       <link>https://www.reddit.com/r/programming/comments/1tb23g2/using_tinyffr_to_inspect_3d_objects_with_a_28line/</link>
-      <description><![CDATA[ 由   提交/u/Xenoprimate2  [link] [评论]]]></description>
+      <description><![CDATA[ 由   提交/u/Xenoprimate2   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tb23g2/using_tinyffr_to_inspect_3d_objects_with_a_28line/</guid>
       <pubDate>Tue, 12 May 2026 13:44:35 GMT</pubDate>
     </item>
@@ -95,20 +109,6 @@
       <description><![CDATA[ 由   提交 /u/cekrem   [link] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tawefj/canonicalise_dont_remember_smart_constructors_in/</guid>
       <pubDate>Tue, 12 May 2026 09:28:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>URLSession 到 Electrons：网络的底层工作原理</title>
-      <link>https://www.reddit.com/r/programming/comments/1tavw25/urlsession_to_electrons_how_networking_works/</link>
-      <description><![CDATA[ 由   提交/u/jacobs-tech-tavern   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tavw25/urlsession_to_electrons_how_networking_works/</guid>
-      <pubDate>Tue, 12 May 2026 09:00:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>2026 年 Zig 与 Rust</title>
-      <link>https://www.reddit.com/r/programming/comments/1tauzh3/zig_vs_rust_in_2026/</link>
-      <description><![CDATA[ 由   提交 /u/Successful_Bowl2564   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tauzh3/zig_vs_rust_in_2026/</guid>
-      <pubDate>Tue, 12 May 2026 08:08:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
