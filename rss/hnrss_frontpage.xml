@@ -4,106 +4,108 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 13 May 2026 14:33:47 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 17:17:08 GMT</lastBuildDate>
     <item>
-      <title>软件开发人员称人工智能正在腐蚀他们的大脑</title>
-      <link>https://www.404media.co/software-developers-say-ai-is-rotting-their-brains/</link>
-      <description><![CDATA[文章网址：https://www.404media.co/software-developers-say-ai-is-rotting-their-brains/
-评论网址：https://news.ycombinator.com/item?id=48121717
-积分：36
-# 条评论：26]]></description>
-      <guid>https://www.404media.co/software-developers-say-ai-is-rotting-their-brains/</guid>
-      <pubDate>Wed, 13 May 2026 13:34:51 GMT</pubDate>
+      <title>启动 HN：Ardent (YC P26) – 几秒钟内零迁移的 Postgres 沙箱</title>
+      <link>https://www.tryardent.com/</link>
+      <description><![CDATA[嘿，HN！我们是来自 Ardent (https://tryardent.com) 的 Vikram 和 Evan。我们正在为您和您的编码代理构建数据库沙箱。在过去两年中，编码代理在处理复杂的工程任务方面的能力显着增强。但是，如果无法访问数据库层的真实沙箱进行测试，他们就会发送可能导致生产数据库崩溃的垃圾。我花了一年多的时间建立了一个人工智能数据工程师，但由于这个原因而失败了。 Evan 在过去的 12 年里一直从事数据工程工作，并在他的最后一家公司中遇到了构建代理的问题。Ardent 的构建是为了使编码代理能够几乎即时访问类似生产的沙箱，以便他们可以测试他们的工作。为此，我们从目标数据库中写入复制流，使用 kafka 扩展到启用写入时复制和自动缩放计算的只读副本（我们目前更喜欢 neon 作为主要分支引擎，因为它们实现了这些属性）。我们的复制流使用逻辑复制 + ddl 触发器来支持在任何托管的 postgres 数据库上使用，因为大多数平台不允许传统上用于创建副本的物理复制。这提供了一些主要好处：1.不需要将平台迁移到 Neon 等数据库提供商，从而可以将生产和开发问题紧密分离。
+2. 对生产数据库的影响最小，同时允许克隆在 &lt;6 秒内启动，即使是使用写时复制的 TB 规模安全性对于克隆生产非常重要，因此我们运行代理层来生成自定义 postgres URL 并路由所有连接，以允许对克隆进行更精细的访问控制，防止凭据泄漏，并遵循分割平面架构以允许通过 BYOC 将完整数据驻留在您的云上。我们还通过注册运行于其上的 SQL 的能力来支持匿名化分支返回之前。这已用于 PII 编辑和分支修改。我们的目标是使每个数据基础设施平台都“可克隆”在一个地方，以便代理可以在没有风险的情况下全面测试其更改对生产（如数据环境）的影响。以下是它的演示：https://youtu.be/5S1kwPtiRU0我们喜欢了解您如何在数据库上使用编码代理，以及如果您尝试 Ardent（免费开始）什么有效，什么损坏以及缺少什么。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48124436
+积分：4
+# 条评论：0]]></description>
+      <guid>https://www.tryardent.com/</guid>
+      <pubDate>Wed, 13 May 2026 16:54:03 GMT</pubDate>
     </item>
     <item>
-      <title>荷兰自杀预防网站未经同意与科技公司共享数据</title>
-      <link>https://nltimes.nl/2026/05/13/dutch-suicide-prevention-hotline-shares-visitor-data-tech-companies</link>
-      <description><![CDATA[文章网址：https://nltimes.nl/2026/05/13/dutch-suicide-prevention-hotline-shares-visitor-data-tech-companies
-评论网址：https://news.ycombinator.com/item?id=48121299
-积分：93
-# 条评论：40]]></description>
-      <guid>https://nltimes.nl/2026/05/13/dutch-suicide-prevention-hotline-shares-visitor-data-tech-companies</guid>
-      <pubDate>Wed, 13 May 2026 12:57:42 GMT</pubDate>
+      <title>俳句</title>
+      <link>https://www.haiku-os.org</link>
+      <description><![CDATA[文章网址：https://www.haiku-os.org
+评论网址：https://news.ycombinator.com/item?id=48124002
+积分：45
+# 条评论：4]]></description>
+      <guid>https://www.haiku-os.org</guid>
+      <pubDate>Wed, 13 May 2026 16:22:10 GMT</pubDate>
     </item>
     <item>
-      <title>为什么我要离开 GitHub 前往 Forgejo</title>
+      <title>Fragnesia 被公开为最新的 Linux 本地权限提升漏洞</title>
+      <link>https://www.phoronix.com/news/Linux-Fragnesia</link>
+      <description><![CDATA[文章网址：https://www.phoronix.com/news/Linux-Fragnesia
+评论网址：https://news.ycombinator.com/item?id=48123670
+积分：14
+# 条评论：3]]></description>
+      <guid>https://www.phoronix.com/news/Linux-Fragnesia</guid>
+      <pubDate>Wed, 13 May 2026 16:01:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>S-100虚拟工作台</title>
+      <link>https://grantmestrength.github.io/S100/</link>
+      <description><![CDATA[文章网址：https://grantmstrength.github.io/S100/
+评论网址：https://news.ycombinator.com/item?id=48123546
+积分：28
+# 条评论：4]]></description>
+      <guid>https://grantmestrength.github.io/S100/</guid>
+      <pubDate>Wed, 13 May 2026 15:52:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kickstarter 被迫通过支付处理商禁止成人内容</title>
+      <link>https://kotaku.com/kickstarter-is-the-latest-platform-seemingly-forced-to-ban-adult-content-by-payment-processors-2000695648</link>
+      <description><![CDATA[文章网址： https://kotaku.com/kickstarter-is-the-latest-platform-seemingly-forced-to-ban-adult-content-by- payment-processors-2000695648
+评论网址：https://news.ycombinator.com/item?id=48123198
+积分：167
+评论数：126]]></description>
+      <guid>https://kotaku.com/kickstarter-is-the-latest-platform-seemingly-forced-to-ban-adult-content-by-payment-processors-2000695648</guid>
+      <pubDate>Wed, 13 May 2026 15:26:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>5 万太浩居民需要电力，因为公用事业公司正在将线路重新引导至数据中心</title>
+      <link>https://fortune.com/2026/05/12/lake-tahoe-data-center-49000-residents-power-source/</link>
+      <description><![CDATA[文章网址：https://fortune.com/2026/05/12/lake-tahoe-data-center-49000-residents-power-source/
+评论网址：https://news.ycombinator.com/item?id=48123090
+积分：55
+# 条评论：45]]></description>
+      <guid>https://fortune.com/2026/05/12/lake-tahoe-data-center-49000-residents-power-source/</guid>
+      <pubDate>Wed, 13 May 2026 15:18:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>开源抵制：让 OSS 在公司时间保持活力</title>
+      <link>https://ossresistance.com/</link>
+      <description><![CDATA[文章网址：https://ossresistance.com/
+评论网址：https://news.ycombinator.com/item?id=48123015
+积分：71
+# 条评论：29]]></description>
+      <guid>https://ossresistance.com/</guid>
+      <pubDate>Wed, 13 May 2026 15:13:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>设置免费的 *.city.state.us 地区域名</title>
+      <link>https://fredchan.org/blog/locality-domains-guide/</link>
+      <description><![CDATA[文章网址：https://fredchan.org/blog/locality-domains-guide/
+评论网址：https://news.ycombinator.com/item?id=48122635
+积分：212
+# 条评论：51]]></description>
+      <guid>https://fredchan.org/blog/locality-domains-guide/</guid>
+      <pubDate>Wed, 13 May 2026 14:45:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国正在赢得最重要的人工智能竞赛：商业化</title>
+      <link>https://avkcode.github.io/blog/us-winning-ai-race.html</link>
+      <description><![CDATA[文章网址：https://avkcode.github.io/blog/us-having-ai-race.html
+评论网址：https://news.ycombinator.com/item?id=48121929
+积分：37
+评论数：80]]></description>
+      <guid>https://avkcode.github.io/blog/us-winning-ai-race.html</guid>
+      <pubDate>Wed, 13 May 2026 13:53:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>离开 GitHub 前往 Forgejo</title>
       <link>https://jorijn.com/en/blog/leaving-github-for-forgejo/</link>
       <description><![CDATA[文章网址：https://jorijn.com/en/blog/leaving-github-for-forgejo/
 评论网址：https://news.ycombinator.com/item?id=48121266
-积分：158
-# 条评论：112]]></description>
+积分：364
+# 条评论：195]]></description>
       <guid>https://jorijn.com/en/blog/leaving-github-for-forgejo/</guid>
       <pubDate>Wed, 13 May 2026 12:54:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Substrate (YC S24) 正在招聘一名技术成功经理</title>
-      <link>https://www.ycombinator.com/companies/substrate/jobs/T2fMBhD-technical-success-manager</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/substrate/jobs/T2fMBhD-technical-success-manager
-评论网址：https://news.ycombinator.com/item?id=48120776
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/substrate/jobs/T2fMBhD-technical-success-manager</guid>
-      <pubDate>Wed, 13 May 2026 12:00:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>我将数字堆栈移至欧洲</title>
-      <link>https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/</link>
-      <description><![CDATA[文章网址：https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/
-评论网址：https://news.ycombinator.com/item?id=48120629
-积分：398
-评论数：284]]></description>
-      <guid>https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/</guid>
-      <pubDate>Wed, 13 May 2026 11:42:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 OR-Tools CP-SAT 解决调度问题</title>
-      <link>https://atalaykutlay.com/or-tools-cp-sat-for-scheduling-problems.html</link>
-      <description><![CDATA[文章网址：https://atalaykutlay.com/or-tools-cp-sat-for-scheduling-problems.html
-评论网址：https://news.ycombinator.com/item?id=48120351
-积分：28
-# 条评论：5]]></description>
-      <guid>https://atalaykutlay.com/or-tools-cp-sat-for-scheduling-problems.html</guid>
-      <pubDate>Wed, 13 May 2026 11:02:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>枚举到字符串的成本：C++26 反射与旧方法</title>
-      <link>https://vittorioromeo.com/index/blog/refl_enum_to_string.html</link>
-      <description><![CDATA[文章网址：https://vittorioromeo.com/index/blog/refl_enum_to_string.html
-评论网址：https://news.ycombinator.com/item?id=48119326
-积分：34
-# 条评论：27]]></description>
-      <guid>https://vittorioromeo.com/index/blog/refl_enum_to_string.html</guid>
-      <pubDate>Wed, 13 May 2026 08:41:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>无启发式的确定性全静态全二进制翻译</title>
-      <link>https://arxiv.org/abs/2605.08419</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2605.08419
-评论网址：https://news.ycombinator.com/item?id=48117810
-积分：250
-# 条评论：60]]></description>
-      <guid>https://arxiv.org/abs/2605.08419</guid>
-      <pubDate>Wed, 13 May 2026 04:25:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的毕业帽生锈了</title>
-      <link>https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/</link>
-      <description><![CDATA[文章网址：https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/
-评论网址：https://news.ycombinator.com/item?id=48116207
-积分：186
-# 条评论：69]]></description>
-      <guid>https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/</guid>
-      <pubDate>Wed, 13 May 2026 00:04:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>当“空闲”不空闲时：Linux 内核优化如何成为 QUIC bug</title>
-      <link>https://blog.cloudflare.com/quic-death-spiral-fix/</link>
-      <description><![CDATA[文章网址：https://blog.cloudflare.com/quic-death-spiral-fix/
-评论网址：https://news.ycombinator.com/item?id=48116064
-积分：128
-# 条评论：19]]></description>
-      <guid>https://blog.cloudflare.com/quic-death-spiral-fix/</guid>
-      <pubDate>Tue, 12 May 2026 23:46:28 GMT</pubDate>
     </item>
     </channel>
 </rss>
