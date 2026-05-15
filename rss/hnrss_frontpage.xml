@@ -4,123 +4,106 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 15 May 2026 11:22:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 14:06:53 GMT</lastBuildDate>
     <item>
-      <title>BBC 发现海外造假者利用人工智能视频来宣扬英国衰落的故事</title>
-      <link>https://www.bbc.co.uk/news/articles/ckgpyn30dp3o</link>
-      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/ckgpyn30dp3o
-评论网址：https://news.ycombinator.com/item?id=48146656
-积分：16
-# 条评论：6]]></description>
-      <guid>https://www.bbc.co.uk/news/articles/ckgpyn30dp3o</guid>
-      <pubDate>Fri, 15 May 2026 09:57:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>地理是四维的</title>
-      <link>https://sive.rs/4d</link>
-      <description><![CDATA[文章网址：https://sive.rs/4d
-评论网址：https://news.ycombinator.com/item?id=48146577
+      <title>人工智能正在消灭入门级工作</title>
+      <link>https://fortune.com/2026/05/15/ai-entry-level-jobs-higher-education-experience-gap/</link>
+      <description><![CDATA[文章网址：https://fortune.com/2026/05/15/ai-entry-level-jobs-higher-education-experience-gap/
+评论网址：https://news.ycombinator.com/item?id=48148440
 积分：17
-# 条评论：5]]></description>
-      <guid>https://sive.rs/4d</guid>
-      <pubDate>Fri, 15 May 2026 09:47:28 GMT</pubDate>
+# 条评论：4]]></description>
+      <guid>https://fortune.com/2026/05/15/ai-entry-level-jobs-higher-education-experience-gap/</guid>
+      <pubDate>Fri, 15 May 2026 13:38:13 GMT</pubDate>
     </item>
     <item>
-      <title>英国主权LLM推论</title>
-      <link>https://relax.ai/docs</link>
-      <description><![CDATA[文章网址：https://relax.ai/docs
-评论网址：https://news.ycombinator.com/item?id=48146424
-积分：65
-# 条评论：55]]></description>
-      <guid>https://relax.ai/docs</guid>
-      <pubDate>Fri, 15 May 2026 09:27:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：找到最适合您的硬件的本地法学硕士（按基准排名）</title>
-      <link>https://github.com/Andyyyy64/whichllm</link>
-      <description><![CDATA[文章网址：https://github.com/Andyyyy64/whichllm
-评论网址：https://news.ycombinator.com/item?id=48146369
-积分：52
-评论数量：9]]></description>
-      <guid>https://github.com/Andyyyy64/whichllm</guid>
-      <pubDate>Fri, 15 May 2026 09:19:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>像 Windows XP 桌面一样探索维基百科</title>
-      <link>https://explorer.samismith.com/</link>
-      <description><![CDATA[文章网址：https://explorer.samismith.com/
-评论网址：https://news.ycombinator.com/item?id=48146129
-积分：112
-# 条评论：29]]></description>
-      <guid>https://explorer.samismith.com/</guid>
-      <pubDate>Fri, 15 May 2026 08:45:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：GlycemicGPT – 开源人工智能驱动的糖尿病管理</title>
-      <link>https://github.com/GlycemicGPT/GlycemicGPT</link>
-      <description><![CDATA[我是一名 1 型糖尿病患者，也是一名软件工程师。去年，我在内分泌科医生之间转了几个月，没有临床医生审查我的数据。我是一名工程师，所以我构建了我需要的工具 - 现在我将其开源。
-GlycemicGPT 是一个自托管平台，可将连续血糖监测仪、胰岛素泵和现有 Nightscout 实例连接到在您自己的基础设施上运行的 AI 分析层。
-数据来源：Dexcom G7（云API）
-Tandem t:slim X2 和 Mobi 泵（直接 BLE）
-Nightscout（将其指向您现有的实例，几分钟内即可运行）AI 层的作用：总结夜间和 24 小时模式的每日简报
-膳食反应分析
-利用 RAG 支持的临床知识进行对话式聊天
-具有可配置阈值和护理人员升级的预测警报重要提示：这仅是监控和分析。 GlycemicGPT 不输送胰岛素，不控制泵，也不是闭环系统。它读取您的数据并为您提供洞察。您的临床决定由您和您的护理团队决定。
-架构：通过 Docker 或 K8S 自托管 — GlycemicGPT 堆栈完全在您的硬件上运行
-BYOAI——带上你自己的人工智能提供商。使用 Ollama 进行完全本地操作（没有数据离开您的硬件），或者如果您更喜欢托管模型，则将其指向 Claude、OpenAI 或任何 OpenAI 兼容端点。数据直接从您的实例流向您选择的提供商；没有任何内容通过该项目运营的任何集中服务进行路由。
-GPL-3.0，无订阅，无供应商锁定堆栈：后端 API：FastAPI、Python 3.12、PostgreSQL 16、Redis 7
-Web 仪表板：Next.js 15、React 19、Tailwind CSS、shadcn/ui
-AI Sidecar：TypeScript、Express、多提供商代理
-Android 应用程序：Kotlin、Jetpack Compose、BLE
-Wear OS：Kotlin、Wear Compose、表盘推送 API
-插件 SDK：Kotlin 接口、基于功能、沙盒寻找贡献者 - 特别是具有 BLE/Android 经验的人或糖尿病技术领域的任何人。如果您想添加对新设备的支持，请记录插件 SDK。
-GitHub：https://github.com/GlycemicGPT/GlycemicGPT
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48144670
+      <title>人工智能的奇迹：我们即将终止错误赏金计划</title>
+      <link>https://turso.tech/blog/the-wonders-of-ai</link>
+      <description><![CDATA[文章网址：https://turso.tech/blog/the-wonders-of-ai
+评论网址：https://news.ycombinator.com/item?id=48148391
 积分：34
-# 条评论：18]]></description>
-      <guid>https://github.com/GlycemicGPT/GlycemicGPT</guid>
-      <pubDate>Fri, 15 May 2026 04:48:23 GMT</pubDate>
+# 条评论：6]]></description>
+      <guid>https://turso.tech/blog/the-wonders-of-ai</guid>
+      <pubDate>Fri, 15 May 2026 13:33:15 GMT</pubDate>
     </item>
     <item>
-      <title>Claude Code 如何在大型代码库中工作</title>
-      <link>https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start</link>
-      <description><![CDATA[文章网址：https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
-评论网址：https://news.ycombinator.com/item?id=48144494
-积分：177
-评论数：127]]></description>
-      <guid>https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start</guid>
-      <pubDate>Fri, 15 May 2026 04:15:31 GMT</pubDate>
+      <title>亚马逊员工面临着增加人工智能使用的压力——所以他们正在编造任务</title>
+      <link>https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks</link>
+      <description><![CDATA[文章网址：https://www.fastcompany.com/91541586/amazon-workers-Pressured-to-up-ai-use-extraneous-tasks
+评论网址：https://news.ycombinator.com/item?id=48148337
+积分：12
+# 条评论：7]]></description>
+      <guid>https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks</guid>
+      <pubDate>Fri, 15 May 2026 13:28:55 GMT</pubDate>
     </item>
     <item>
-      <title>基于太阳能的睡眠模式与现代标准的比较</title>
-      <link>https://dylan.gr/1775146616</link>
-      <description><![CDATA[文章网址：https://dylan.gr/1775146616
-评论网址：https://news.ycombinator.com/item?id=48144490
-积分：77
-# 条评论：65]]></description>
-      <guid>https://dylan.gr/1775146616</guid>
-      <pubDate>Fri, 15 May 2026 04:15:24 GMT</pubDate>
+      <title>咒骂政府并不能解决问题。喷漆就可以了</title>
+      <link>https://imagenotfound.writeas.com/the-holes-we-painted-and-why-we-did-it-anyway</link>
+      <description><![CDATA[文章网址：https://imagenotfound.writeas.com/the-holes-we-painted-and-why-we-did-it-anyway
+评论网址：https://news.ycombinator.com/item?id=48147988
+积分：54
+# 条评论：38]]></description>
+      <guid>https://imagenotfound.writeas.com/the-holes-we-painted-and-why-we-did-it-anyway</guid>
+      <pubDate>Fri, 15 May 2026 12:54:37 GMT</pubDate>
     </item>
     <item>
-      <title>特里斯坦达库尼亚大胆空投的详细信息</title>
-      <link>https://www.tristandc.com/government/news-2026-05-11-airdrop.php</link>
-      <description><![CDATA[文章网址：https://www.tristandc.com/government/news-2026-05-11-airdrop.php
-评论网址：https://news.ycombinator.com/item?id=48144380
-积分：157
-# 条评论：44]]></description>
-      <guid>https://www.tristandc.com/government/news-2026-05-11-airdrop.php</guid>
-      <pubDate>Fri, 15 May 2026 03:56:14 GMT</pubDate>
+      <title>太危险还是太昂贵？人类隐藏神话的真正原因</title>
+      <link>https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/</link>
+      <description><![CDATA[文章网址： https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expense-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/
+评论网址：https://news.ycombinator.com/item?id=48147945
+积分：63
+# 条评论：71]]></description>
+      <guid>https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/</guid>
+      <pubDate>Fri, 15 May 2026 12:49:27 GMT</pubDate>
     </item>
     <item>
-      <title>Mulvad 退出 IP 的识别能力令人惊讶</title>
-      <link>https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/</link>
-      <description><![CDATA[文章网址：https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/
-评论网址：https://news.ycombinator.com/item?id=48143880
-积分：407
-评论数：244]]></description>
-      <guid>https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/</guid>
-      <pubDate>Fri, 15 May 2026 02:35:35 GMT</pubDate>
+      <title>旧的科技世界正在消亡，新的科技世界无法诞生</title>
+      <link>https://www.baldurbjarnason.com/2026/the-old-world-of-tech-is-dying/</link>
+      <description><![CDATA[文章网址：https://www.baldurbjarnason.com/2026/the-old-world-of-tech-is-dying/
+评论网址：https://news.ycombinator.com/item?id=48147793
+积分：45
+# 条评论：7]]></description>
+      <guid>https://www.baldurbjarnason.com/2026/the-old-world-of-tech-is-dying/</guid>
+      <pubDate>Fri, 15 May 2026 12:29:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bitwarden 从其网站上删除了“始终免费”和“包容性”价值观</title>
+      <link>https://www.fastcompany.com/91542655/bitwarden-scrubs-always-free-and-inclusion-values-from-its-website-as-longtime-execs-step-down</link>
+      <description><![CDATA[文章网址： https://www.fastcompany.com/91542655/bitwarden-scrubs-always-free-and-inclusion-values-from-its-website-as-longtime-execs-step-down
+评论网址：https://news.ycombinator.com/item?id=48147637
+积分：72
+# 条评论：42]]></description>
+      <guid>https://www.fastcompany.com/91542655/bitwarden-scrubs-always-free-and-inclusion-values-from-its-website-as-longtime-execs-step-down</guid>
+      <pubDate>Fri, 15 May 2026 12:11:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Radicle：基于 Git 构建的 Sovereign {code forge}</title>
+      <link>https://radicle.dev/</link>
+      <description><![CDATA[文章网址：https://radicle.dev/
+评论网址：https://news.ycombinator.com/item?id=48147603
+积分：57
+# 条评论：11]]></description>
+      <guid>https://radicle.dev/</guid>
+      <pubDate>Fri, 15 May 2026 12:07:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>SigNoz（YC W21、开源 Datadog）正在招聘增长和工程职位</title>
+      <link>https://signoz.io/careers</link>
+      <description><![CDATA[文章网址：https://signoz.io/careers
+评论网址：https://news.ycombinator.com/item?id=48147533
+积分：0
+# 条评论：0]]></description>
+      <guid>https://signoz.io/careers</guid>
+      <pubDate>Fri, 15 May 2026 12:00:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>欢迎来到 OSS 安全的露天采矿时代</title>
+      <link>https://www.metabase.com/blog/strip-mining-era-of-open-source-security</link>
+      <description><![CDATA[文章网址：https://www.metabase.com/blog/strip-mining-era-of-open-source-security
+评论网址：https://news.ycombinator.com/item?id=48147339
+积分：51
+# 条评论：40]]></description>
+      <guid>https://www.metabase.com/blog/strip-mining-era-of-open-source-security</guid>
+      <pubDate>Fri, 15 May 2026 11:37:17 GMT</pubDate>
     </item>
     </channel>
 </rss>

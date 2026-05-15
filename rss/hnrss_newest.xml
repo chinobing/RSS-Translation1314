@@ -4,113 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 15 May 2026 11:22:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 14:07:02 GMT</lastBuildDate>
     <item>
-      <title>Show HN：FlyQL：用于过滤数据或生成 SQL 的查询语言</title>
-      <link>https://github.com/iamtelescope/flyql</link>
-      <description><![CDATA[嘿 HN。我想分享我制作的小型库。在开发日志查看器 (https://github.com/iamtelescope/telescope) 时，我需要一种方法让用户在 UI 中过滤数据。
-类似于`status = 500 and level = &quot;error&quot;`。在后端我需要将其转换为 SQL。 
-默认情况下，我不想为用户提供原始 SQL（出于安全考虑）。因此我为此创建了简单的解析器。后来，我有另一个项目，我需要完全相同的东西，但对于 PostgreSQL。后来是我的 CLI 东西。
-因此，我决定将这个望远镜的东西提取到一个独立的库/项目中，并将其命名为 FlyQL。FlyQL 是一种微型过滤器语言。目前它可以用三种语言实现：Python、Golang 和 JavaScript。
-它支持 3 种 SQL 方言：ClickHouse、StarRocks 和 PostgreSQL。此外，还有 Vue3 编辑器组件，可以在您自己的 UI 中轻松使用它（如果您使用的是 vue）希望听到任何反馈。MIT 许可。GitHub：https://github.com/iamtelescope/flyql
-游乐场：https://flyql.dev/playground/
-文档：https://docs.flyql.dev/
+      <title>零度部署 (2023)</title>
+      <link>https://philipbohun.com/blog/0003.html</link>
+      <description><![CDATA[文章网址：https://philipbohun.com/blog/0003.html
+评论网址：https://news.ycombinator.com/item?id=48148708
+积分：1
+# 条评论：0]]></description>
+      <guid>https://philipbohun.com/blog/0003.html</guid>
+      <pubDate>Fri, 15 May 2026 14:01:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mkjwk：简单的 JSON Web 密钥生成器</title>
+      <link>https://mkjwk.org/</link>
+      <description><![CDATA[文章网址：https://mkjwk.org/
+评论网址：https://news.ycombinator.com/item?id=48148705
+积分：1
+# 条评论：0]]></description>
+      <guid>https://mkjwk.org/</guid>
+      <pubDate>Fri, 15 May 2026 14:00:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>C++26 提供了没人需要的 SIMD 库</title>
+      <link>https://lucisqr.substack.com/p/c26-shipped-a-simd-library-nobody</link>
+      <description><![CDATA[文章网址：https://lucisqr.substack.com/p/c26-shipped-a-simd-library-nobody
+评论网址：https://news.ycombinator.com/item?id=48148701
+积分：1
+# 条评论：0]]></description>
+      <guid>https://lucisqr.substack.com/p/c26-shipped-a-simd-library-nobody</guid>
+      <pubDate>Fri, 15 May 2026 14:00:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>HTML 评论 05</title>
+      <link>https://thehtml.review/05/</link>
+      <description><![CDATA[文章网址：https://thehtml.review/05/
+评论网址：https://news.ycombinator.com/item?id=48148699
+积分：1
+# 条评论：0]]></description>
+      <guid>https://thehtml.review/05/</guid>
+      <pubDate>Fri, 15 May 2026 14:00:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>So-tell-us.com – 家人和朋友通讯</title>
+      <link>https://so-tell-us.com/</link>
+      <description><![CDATA[文章网址：https://so-tell-us.com/
+评论网址：https://news.ycombinator.com/item?id=48148682
+积分：1
+# 条评论：1]]></description>
+      <guid>https://so-tell-us.com/</guid>
+      <pubDate>Fri, 15 May 2026 13:58:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Claurst – 基于 Rust 的 OSS 终端编码代理现已推出测试版</title>
+      <link>https://github.com/kuberwastaken/claurst</link>
+      <description><![CDATA[文章网址：https://github.com/kuberwataken/claurst
+评论网址：https://news.ycombinator.com/item?id=48148668
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/kuberwastaken/claurst</guid>
+      <pubDate>Fri, 15 May 2026 13:57:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>X for You Feed 算法（5 月 15 日更新）</title>
+      <link>https://github.com/xai-org/x-algorithm/blob/main/README.md</link>
+      <description><![CDATA[文章网址：https://github.com/xai-org/x-algorithm/blob/main/README.md
+评论网址：https://news.ycombinator.com/item?id=48148656
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/xai-org/x-algorithm/blob/main/README.md</guid>
+      <pubDate>Fri, 15 May 2026 13:56:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人接受客户的加密货币付款吗？</title>
+      <link>https://news.ycombinator.com/item?id=48148644</link>
+      <description><![CDATA[一位新客户想要用加密货币向我们付款。我们使用 Stripe，一个普通的美元账户，之前从未使用过加密货币。值得吗？可行吗？我应该注意哪些问题（税务、银行、工具、风险）？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48147219
+评论网址：https://news.ycombinator.com/item?id=48148644
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/iamtelescope/flyql</guid>
-      <pubDate>Fri, 15 May 2026 11:19:36 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=48148644</guid>
+      <pubDate>Fri, 15 May 2026 13:55:29 GMT</pubDate>
     </item>
     <item>
-      <title>Windows 上的沙箱 Codex</title>
-      <link>https://openai.com/index/building-codex-windows-sandbox/</link>
-      <description><![CDATA[文章网址：https://openai.com/index/building-codex-windows-sandbox/
-评论网址：https://news.ycombinator.com/item?id=48147199
-积分：1
+      <title>美国有 1,200 项人工智能法案，但没有对其中任何一项进行良好的测试</title>
+      <link>https://fortune.com/2026/05/15/ai-policy-patchwork-state-federal-regulation-framework-sonnenfeld-marcus/</link>
+      <description><![CDATA[文章网址：https://fortune.com/2026/05/15/ai-policy-patchwork-state-federal-regulation-framework-sonnenfeld-marcus/
+评论网址：https://news.ycombinator.com/item?id=48148635
+积分：3
 # 条评论：0]]></description>
-      <guid>https://openai.com/index/building-codex-windows-sandbox/</guid>
-      <pubDate>Fri, 15 May 2026 11:16:52 GMT</pubDate>
+      <guid>https://fortune.com/2026/05/15/ai-policy-patchwork-state-federal-regulation-framework-sonnenfeld-marcus/</guid>
+      <pubDate>Fri, 15 May 2026 13:54:42 GMT</pubDate>
     </item>
     <item>
-      <title>Rockstar 如何将一座城市装入 32 MB PS2 内存 [视频]</title>
-      <link>https://www.youtube.com/watch?v=cIbCxbrBCys</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=cIbCxbrBCys
-评论网址：https://news.ycombinator.com/item?id=48147195
+      <title>代码审查不是为了发现错误</title>
+      <link>https://www.davidpoll.com/2026/02/code-review-is-not-about-catching-bugs/</link>
+      <description><![CDATA[文章网址：https://www.davidpoll.com/2026/02/code-review-is-not-about-having-bugs/
+评论网址：https://news.ycombinator.com/item?id=48148618
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=cIbCxbrBCys</guid>
-      <pubDate>Fri, 15 May 2026 11:16:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>ScyllaDB MCP 服务器：AI 原生开发者发行版是什么样子</title>
-      <link>https://www.devexp.ai/blog/scylladb-mcp-server-case-study.html</link>
-      <description><![CDATA[文章网址：https://www.devexp.ai/blog/scylladb-mcp-server-case-study.html
-评论网址：https://news.ycombinator.com/item?id=48147178
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.devexp.ai/blog/scylladb-mcp-server-case-study.html</guid>
-      <pubDate>Fri, 15 May 2026 11:13:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Toto 2.0：时间序列预测进入缩放时代</title>
-      <link>https://www.datadoghq.com/blog/ai/toto-2/</link>
-      <description><![CDATA[文章网址：https://www.datadoghq.com/blog/ai/toto-2/
-评论网址：https://news.ycombinator.com/item?id=48147166
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.datadoghq.com/blog/ai/toto-2/</guid>
-      <pubDate>Fri, 15 May 2026 11:12:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我构建了一个免费的人工智能初创公司验证器 - 它为遛狗应用程序评分为 4/10</title>
-      <link>https://tools.predictionoracle.io/</link>
-      <description><![CDATA[文章网址：https://tools.predictionoracle.io/
-评论网址：https://news.ycombinator.com/item?id=48147148
-积分：1
-# 条评论：0]]></description>
-      <guid>https://tools.predictionoracle.io/</guid>
-      <pubDate>Fri, 15 May 2026 11:10:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>中国清洁能源转型中煤炭崛起</title>
-      <link>https://thediplomat.com/2026/04/coal-is-rising-in-chinas-clean-energy-transition/</link>
-      <description><![CDATA[文章网址：https://thediplomat.com/2026/04/coal-is-rising-in-chinas-clean-energy-transition/
-评论网址：https://news.ycombinator.com/item?id=48147140
-积分：1
-# 条评论：0]]></description>
-      <guid>https://thediplomat.com/2026/04/coal-is-rising-in-chinas-clean-energy-transition/</guid>
-      <pubDate>Fri, 15 May 2026 11:09:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的BTP</title>
-      <link>https://mina-btp.com</link>
-      <description><![CDATA[文章网址：https://mina-btp.com
-评论网址：https://news.ycombinator.com/item?id=48147117
-积分：1
-# 条评论：0]]></description>
-      <guid>https://mina-btp.com</guid>
-      <pubDate>Fri, 15 May 2026 11:06:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>加密货币预测市场解释</title>
-      <link>https://www.chainalysis.com/blog/crypto-prediction-markets/</link>
-      <description><![CDATA[文章网址：https://www.chainathesis.com/blog/crypto-prediction-markets/
-评论网址：https://news.ycombinator.com/item?id=48147100
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.chainalysis.com/blog/crypto-prediction-markets/</guid>
-      <pubDate>Fri, 15 May 2026 11:04:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>用 Pokémon 解释 Prolog 基础知识</title>
-      <link>https://unplannedobsolescence.com/blog/prolog-basics-pokemon/</link>
-      <description><![CDATA[文章网址：https://unplannedobsolescent.com/blog/prolog-basics-pokemon/
-评论网址：https://news.ycombinator.com/item?id=48147091
-积分：1
-# 条评论：0]]></description>
-      <guid>https://unplannedobsolescence.com/blog/prolog-basics-pokemon/</guid>
-      <pubDate>Fri, 15 May 2026 11:02:14 GMT</pubDate>
+      <guid>https://www.davidpoll.com/2026/02/code-review-is-not-about-catching-bugs/</guid>
+      <pubDate>Fri, 15 May 2026 13:53:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
