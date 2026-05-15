@@ -4,110 +4,124 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 15 May 2026 03:29:43 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 08:50:53 GMT</lastBuildDate>
+    <item>
+      <title>询问 HN：作为个体企业家如何遵守 SOC2 Type 2？</title>
+      <link>https://news.ycombinator.com/item?id=48145524</link>
+      <description><![CDATA[这可能吗？您知道没有花费 20+k 美元聘请审计师的成功案例吗？我的客户不断向我询问有关我的应用程序 Perfect Wiki 认证的问题，我需要帮助找到向他们表明我的应用程序值得信任的最佳方式。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48145524
+积分：16
+# 条评论：23]]></description>
+      <guid>https://news.ycombinator.com/item?id=48145524</guid>
+      <pubDate>Fri, 15 May 2026 07:18:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：GlycemicGPT – 开源人工智能驱动的糖尿病管理</title>
+      <link>https://github.com/GlycemicGPT/GlycemicGPT</link>
+      <description><![CDATA[我是一名 1 型糖尿病患者，也是一名软件工程师。去年，我在内分泌科医生之间转了几个月，没有临床医生审查我的数据。我是一名工程师，所以我构建了我需要的工具 - 现在我将其开源。
+GlycemicGPT 是一个自托管平台，可将连续血糖监测仪、胰岛素泵和现有 Nightscout 实例连接到在您自己的基础设施上运行的 AI 分析层。
+数据来源：Dexcom G7（云API）
+Tandem t:slim X2 和 Mobi 泵（直接 BLE）
+Nightscout（将其指向您现有的实例，几分钟内即可运行）AI 层的作用：总结夜间和 24 小时模式的每日简报
+膳食反应分析
+利用 RAG 支持的临床知识进行对话式聊天
+具有可配置阈值和护理人员升级的预测警报重要提示：这仅是监控和分析。 GlycemicGPT 不输送胰岛素，不控制泵，也不是闭环系统。它读取您的数据并为您提供洞察。您的临床决定由您和您的护理团队决定。
+架构：通过 Docker 或 K8S 自托管 — GlycemicGPT 堆栈完全在您的硬件上运行
+BYOAI——带上你自己的人工智能提供商。使用 Ollama 进行完全本地操作（没有数据离开您的硬件），或者如果您更喜欢托管模型，则将其指向 Claude、OpenAI 或任何 OpenAI 兼容端点。数据直接从您的实例流向您选择的提供商；没有任何内容通过该项目运营的任何集中服务进行路由。
+GPL-3.0，无订阅，无供应商锁定堆栈：后端 API：FastAPI、Python 3.12、PostgreSQL 16、Redis 7
+Web 仪表板：Next.js 15、React 19、Tailwind CSS、shadcn/ui
+AI Sidecar：TypeScript、Express、多提供商代理
+Android 应用程序：Kotlin、Jetpack Compose、BLE
+Wear OS：Kotlin、Wear Compose、表盘推送 API
+插件 SDK：Kotlin 接口、基于功能、沙盒寻找贡献者 - 特别是具有 BLE/Android 经验的人或糖尿病技术领域的任何人。如果您想添加对新设备的支持，请记录插件 SDK。
+GitHub：https://github.com/GlycemicGPT/GlycemicGPT
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48144670
+积分：4
+# 条评论：0]]></description>
+      <guid>https://github.com/GlycemicGPT/GlycemicGPT</guid>
+      <pubDate>Fri, 15 May 2026 04:48:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claude Code 如何在大型代码库中工作</title>
+      <link>https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start</link>
+      <description><![CDATA[文章网址：https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start
+评论网址：https://news.ycombinator.com/item?id=48144494
+积分：159
+# 条评论：114]]></description>
+      <guid>https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start</guid>
+      <pubDate>Fri, 15 May 2026 04:15:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>基于太阳能的睡眠模式与现代标准的比较</title>
+      <link>https://dylan.gr/1775146616</link>
+      <description><![CDATA[文章网址：https://dylan.gr/1775146616
+评论网址：https://news.ycombinator.com/item?id=48144490
+积分：43
+# 条评论：28]]></description>
+      <guid>https://dylan.gr/1775146616</guid>
+      <pubDate>Fri, 15 May 2026 04:15:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coldkey – 后量子时代密钥生成和纸质备份工具</title>
+      <link>https://github.com/pike00/coldkey</link>
+      <description><![CDATA[文章网址：https://github.com/pike00/coldkey
+评论网址：https://news.ycombinator.com/item?id=48144410
+积分：17
+# 条评论：5]]></description>
+      <guid>https://github.com/pike00/coldkey</guid>
+      <pubDate>Fri, 15 May 2026 04:02:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>特里斯坦达库尼亚大胆空投的详细信息</title>
+      <link>https://www.tristandc.com/government/news-2026-05-11-airdrop.php</link>
+      <description><![CDATA[文章网址：https://www.tristandc.com/government/news-2026-05-11-airdrop.php
+评论网址：https://news.ycombinator.com/item?id=48144380
+积分：102
+# 条评论：19]]></description>
+      <guid>https://www.tristandc.com/government/news-2026-05-11-airdrop.php</guid>
+      <pubDate>Fri, 15 May 2026 03:56:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>reCAPTCHA 移动验证将 Play Integrity API 引入桌面</title>
+      <link>https://discuss.grapheneos.org/d/35428-recaptcha-mobile-verification-is-bringing-the-play-integrity-api-to-desktops</link>
+      <description><![CDATA[文章网址：https://discuss.grapheneos.org/d/35428-recaptcha-mobile-verification-is-bringing-the-play-integrity-api-to-desktops
+评论网址：https://news.ycombinator.com/item?id=48143997
+积分：57
+# 条评论：30]]></description>
+      <guid>https://discuss.grapheneos.org/d/35428-recaptcha-mobile-verification-is-bringing-the-play-integrity-api-to-desktops</guid>
+      <pubDate>Fri, 15 May 2026 02:51:41 GMT</pubDate>
+    </item>
     <item>
       <title>Mulvad 退出 IP 的识别能力令人惊讶</title>
       <link>https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/</link>
       <description><![CDATA[文章网址：https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/
 评论网址：https://news.ycombinator.com/item?id=48143880
-积分：61
-# 条评论：5]]></description>
+积分：355
+# 条评论：193]]></description>
       <guid>https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/</guid>
       <pubDate>Fri, 15 May 2026 02:35:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>前沿人工智能的获取很快就会受到经济和安全限制</title>
+      <link>https://writing.antonleicht.me/p/cut-off</link>
+      <description><![CDATA[文章网址：https://writing.antonleicht.me/p/cut-off
+评论网址：https://news.ycombinator.com/item?id=48143284
+积分：138
+评论数：108]]></description>
+      <guid>https://writing.antonleicht.me/p/cut-off</guid>
+      <pubDate>Fri, 15 May 2026 01:08:04 GMT</pubDate>
     </item>
     <item>
       <title>UFerris 是一款适合 Rust 嵌入式初学者的多功能学习板</title>
       <link>https://www.theembeddedrustacean.com/uferris</link>
       <description><![CDATA[文章网址：https://www.theembeddedrustacean.com/uferris
 评论网址：https://news.ycombinator.com/item?id=48143256
-积分：10
-# 条评论：1]]></description>
+积分：20
+# 条评论：3]]></description>
       <guid>https://www.theembeddedrustacean.com/uferris</guid>
       <pubDate>Fri, 15 May 2026 01:04:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>Velonus – 开源 AppSec 扫描仪，可消除 SAST 噪声的重复数据</title>
-      <link>https://github.com/AliAmmar15/Velonus</link>
-      <description><![CDATA[文章网址：https://github.com/AliAmmar15/Velonus
-评论网址：https://news.ycombinator.com/item?id=48143235
-积分：5
-# 条评论：0]]></description>
-      <guid>https://github.com/AliAmmar15/Velonus</guid>
-      <pubDate>Fri, 15 May 2026 01:02:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rust 编译器的 LLM 政策</title>
-      <link>https://github.com/rust-lang/rust-forge/pull/1040</link>
-      <description><![CDATA[文章网址：https://github.com/rust-lang/rust-forge/pull/1040
-评论网址：https://news.ycombinator.com/item?id=48142650
-积分：12
-# 条评论：1]]></description>
-      <guid>https://github.com/rust-lang/rust-forge/pull/1040</guid>
-      <pubDate>Thu, 14 May 2026 23:37:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>制定一致的人工智能政策</title>
-      <link>https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/</link>
-      <description><![CDATA[文章网址：https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/
-评论网址：https://news.ycombinator.com/item?id=48142553
-积分：55
-# 条评论：48]]></description>
-      <guid>https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/</guid>
-      <pubDate>Thu, 14 May 2026 23:24:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国百分之六十以上的地区正在经历干旱</title>
-      <link>https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html</link>
-      <description><![CDATA[文章网址：https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html
-评论网址：https://news.ycombinator.com/item?id=48142193
-积分：117
-# 条评论：53]]></description>
-      <guid>https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html</guid>
-      <pubDate>Thu, 14 May 2026 22:38:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>安大略省审计人员发现医生的人工智能记录员经常歪曲基本事实</title>
-      <link>https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771</link>
-      <description><![CDATA[文章网址： https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771
-评论网址：https://news.ycombinator.com/item?id=48142188
-积分：138
-# 条评论：62]]></description>
-      <guid>https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771</guid>
-      <pubDate>Thu, 14 May 2026 22:37:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>关于 DS4 的几句话</title>
-      <link>https://antirez.com/news/165</link>
-      <description><![CDATA[文章网址：https://antirez.com/news/165
-评论网址：https://news.ycombinator.com/item?id=48142108
-积分：191
-# 条评论：60]]></description>
-      <guid>https://antirez.com/news/165</guid>
-      <pubDate>Thu, 14 May 2026 22:29:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：GridTravel - 一款基于社区的旅行应用程序，供用户共享路线</title>
-      <link>https://www.gridtravel.app</link>
-      <description><![CDATA[嘿 HN，我和我的联合创始人一直在构建 GridTravel，这是一款免费的 iOS 应用程序，用于通过路线规划 GPS 导航来规划和共享旅行路线。我们昨天刚刚在 App Store 批准后推出。我们是三位 21 岁的联合创始人，也是从中学起就最好的朋友。多年来，我们在每次旅行中都在探索新城市时遇到了挫折，之后我们创建了 GridTravel。想法：大多数人要么在 Google 上搜索“……最值得参观的 10 个地方”列表，要么在社交媒体上获取去哪里的灵感。 GridTravel 围绕用户生成的路线而构建，即某人走过的实际路径，您可以遵循、保存、下载并从其他旅行者那里发现这些路径。用户还可以创建私人路线并与朋友协作。技术堆栈：Mapbox（Nav SDK + 地图）、Supabase（身份验证、数据库、存储）和 Swift。目前支持原生 iOS，Android 即将推出。我们的两个真正的成本驱动因素是 Mapbox 搜索（当用户创建路线时发生）和 Mapbox 导航（当用户使用实时导航时发生）。两者都有免费套餐，然后根据月活跃用户数进行扩展。我们推出完全免费，消除了进入壁垒。一旦导航成本开始在我们的口袋里烧个洞，我们就会在第二年重新审视定价。当前状态：我们正处于 UGC 冷启动洞中。该应用程序的价值随着给定城市的路线密度而变化，但路线密度需要需要路线的用户。经典的鸡和蛋。我们目前的计划：
-1. 每个城市手动播种 25-30 条路线，从 5-10 个优先城市开始，在这些城市中我们拥有个人网络，而不是分散自己。
-2. 短内容作为主要社交渠道（TikTok、reels、shorts）。进行 A/B 测试：路线演练的转化是否比信息/短剧视频更好。
-3. 与这些城市的小网红（5k-50k 关注者）合作，建立应用内路线并在他们的频道上交叉发帖好奇 HN 的想法。尤其是任何发布 UGC 产品的人。冷启动时什么对你有用？您希望自己采取哪些不同的做法？很高兴回答有关应用程序、费用等的任何问题。应用程序链接：https://apps.apple.com/us/app/gridtravel-local-routes/id6762...
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48141902
-积分：26
-# 条评论：10]]></description>
-      <guid>https://www.gridtravel.app</guid>
-      <pubDate>Thu, 14 May 2026 22:05:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>OVMS：开源电动汽车远程监控、诊断和控制</title>
-      <link>https://www.openvehicles.com/home</link>
-      <description><![CDATA[文章网址：https://www.openvehicles.com/home
-评论网址：https://news.ycombinator.com/item?id=48141732
-积分：45
-# 条评论：5]]></description>
-      <guid>https://www.openvehicles.com/home</guid>
-      <pubDate>Thu, 14 May 2026 21:50:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
