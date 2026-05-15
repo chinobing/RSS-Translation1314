@@ -4,107 +4,113 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 15 May 2026 08:51:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 11:22:33 GMT</lastBuildDate>
     <item>
-      <title>像 Windows XP 桌面一样探索维基百科</title>
-      <link>https://explorer.samismith.com/</link>
-      <description><![CDATA[文章网址：https://explorer.samismith.com/
-评论网址：https://news.ycombinator.com/item?id=48146129
-积分：1
-# 条评论：0]]></description>
-      <guid>https://explorer.samismith.com/</guid>
-      <pubDate>Fri, 15 May 2026 08:45:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>°C：工业调光标准参考温度的简史</title>
-      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC4654601/</link>
-      <description><![CDATA[文章网址：https://pmc.ncbi.nlm.nih.gov/articles/PMC4654601/
-评论网址：https://news.ycombinator.com/item?id=48146104
-积分：1
-# 条评论：0]]></description>
-      <guid>https://pmc.ncbi.nlm.nih.gov/articles/PMC4654601/</guid>
-      <pubDate>Fri, 15 May 2026 08:42:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>安迪·贾西 (Andy Jassy) 正在重写亚马逊的人工智能时代剧本</title>
-      <link>https://www.bloomberg.com/features/2026-andy-jassy-amazon-ai/</link>
-      <description><![CDATA[文章网址：https://www.bloomberg.com/features/2026-andy-jassy-amazon-ai/
-评论网址：https://news.ycombinator.com/item?id=48146097
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.bloomberg.com/features/2026-andy-jassy-amazon-ai/</guid>
-      <pubDate>Fri, 15 May 2026 08:41:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 考虑就 Siri 合作关系“紧张”对苹果采取法律行动</title>
-      <link>https://www.macrumors.com/2026/05/14/openai-considering-legal-action-against-apple/</link>
-      <description><![CDATA[文章网址：https://www.macrumors.com/2026/05/14/openai-considering-legal-action-against-apple/
-评论网址：https://news.ycombinator.com/item?id=48146073
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.macrumors.com/2026/05/14/openai-considering-legal-action-against-apple/</guid>
-      <pubDate>Fri, 15 May 2026 08:39:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>现代战争3的混乱发展——一部纪录片</title>
-      <link>https://www.youtube.com/watch?v=eC7eS0_O8ng</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=eC7eS0_O8ng
-评论网址：https://news.ycombinator.com/item?id=48146062
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=eC7eS0_O8ng</guid>
-      <pubDate>Fri, 15 May 2026 08:38:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Actions 的可用性正在下降</title>
-      <link>https://www.githubstatus.com/incidents/ctf7nxpq5jzn</link>
-      <description><![CDATA[文章网址：https://www.githubstatus.com/incidents/ctf7nxpq5jzn
-评论网址：https://news.ycombinator.com/item?id=48146059
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.githubstatus.com/incidents/ctf7nxpq5jzn</guid>
-      <pubDate>Fri, 15 May 2026 08:37:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：使用与 TikTok 相同的方法，更好地专注于会议</title>
-      <link>https://chromewebstore.google.com/detail/miito-tiktok-like-videos/hlnfebhmljcldnhepjeiodhmijahlhcc</link>
-      <description><![CDATA[我之所以创建这个，是因为“Zoom Fatigue”对我来说实际上是“Understimulation Fatigue”。我注意到“sludge content”（带有游戏玩法的分屏视频）的趋势实际上帮助我专注于有声读物，因此我将这个概念移植到了 Google Meet。这是一个 Chrome 扩展程序，可在会议网格上注入一个可拖动、可调整大小的“容器”。
+      <title>Show HN：FlyQL：用于过滤数据或生成 SQL 的查询语言</title>
+      <link>https://github.com/iamtelescope/flyql</link>
+      <description><![CDATA[嘿 HN。我想分享我制作的小型库。在开发日志查看器 (https://github.com/iamtelescope/telescope) 时，我需要一种方法让用户在 UI 中过滤数据。
+类似于`status = 500 and level = &quot;error&quot;`。在后端我需要将其转换为 SQL。 
+默认情况下，我不想为用户提供原始 SQL（出于安全考虑）。因此我为此创建了简单的解析器。后来，我有另一个项目，我需要完全相同的东西，但对于 PostgreSQL。后来是我的 CLI 东西。
+因此，我决定将这个望远镜的东西提取到一个独立的库/项目中，并将其命名为 FlyQL。FlyQL 是一种微型过滤器语言。目前它可以用三种语言实现：Python、Golang 和 JavaScript。
+它支持 3 种 SQL 方言：ClickHouse、StarRocks 和 PostgreSQL。此外，还有 Vue3 编辑器组件，可以在您自己的 UI 中轻松使用它（如果您使用的是 vue）希望听到任何反馈。MIT 许可。GitHub：https://github.com/iamtelescope/flyql
+游乐场：https://flyql.dev/playground/
+文档：https://docs.flyql.dev/
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48146039
+评论网址：https://news.ycombinator.com/item?id=48147219
 积分：1
 # 条评论：0]]></description>
-      <guid>https://chromewebstore.google.com/detail/miito-tiktok-like-videos/hlnfebhmljcldnhepjeiodhmijahlhcc</guid>
-      <pubDate>Fri, 15 May 2026 08:35:34 GMT</pubDate>
+      <guid>https://github.com/iamtelescope/flyql</guid>
+      <pubDate>Fri, 15 May 2026 11:19:36 GMT</pubDate>
     </item>
     <item>
-      <title>融资融券策略回测</title>
-      <link>https://medium.com/@DolphinDB_Inc/why-your-backtests-fail-in-margin-trading-securities-lending-and-how-to-fix-it-8f1c2d592baf</link>
-      <description><![CDATA[文章网址： https://medium.com/@DolphinDB_Inc/why-your-backtests-fail-in-margin-trading-securities-lending-and-how-to-fix-it-8f1c2d592baf
-评论网址：https://news.ycombinator.com/item?id=48146012
+      <title>Windows 上的沙箱 Codex</title>
+      <link>https://openai.com/index/building-codex-windows-sandbox/</link>
+      <description><![CDATA[文章网址：https://openai.com/index/building-codex-windows-sandbox/
+评论网址：https://news.ycombinator.com/item?id=48147199
 积分：1
 # 条评论：0]]></description>
-      <guid>https://medium.com/@DolphinDB_Inc/why-your-backtests-fail-in-margin-trading-securities-lending-and-how-to-fix-it-8f1c2d592baf</guid>
-      <pubDate>Fri, 15 May 2026 08:31:27 GMT</pubDate>
+      <guid>https://openai.com/index/building-codex-windows-sandbox/</guid>
+      <pubDate>Fri, 15 May 2026 11:16:52 GMT</pubDate>
     </item>
     <item>
-      <title>Food 4 敏捷思想#544：知识工作工具、买入陷阱、代理编码投资回报率</title>
-      <link>https://age-of-product.com/food-agile-thought-544-knowledge-work-tools/</link>
-      <description><![CDATA[文章网址：https://age-of-product.com/food-agile-thought-544-knowledge-work-tools/
-评论网址：https://news.ycombinator.com/item?id=48146007
+      <title>Rockstar 如何将一座城市装入 32 MB PS2 内存 [视频]</title>
+      <link>https://www.youtube.com/watch?v=cIbCxbrBCys</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=cIbCxbrBCys
+评论网址：https://news.ycombinator.com/item?id=48147195
 积分：1
 # 条评论：0]]></description>
-      <guid>https://age-of-product.com/food-agile-thought-544-knowledge-work-tools/</guid>
-      <pubDate>Fri, 15 May 2026 08:30:47 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=cIbCxbrBCys</guid>
+      <pubDate>Fri, 15 May 2026 11:16:17 GMT</pubDate>
     </item>
     <item>
-      <title>Tabular-nums 用于排列数字</title>
-      <link>https://iprodan.dev/l/font-variant-tabular-nums/</link>
-      <description><![CDATA[文章网址：https://iprodan.dev/l/font-variant-tabular-nums/
-评论网址：https://news.ycombinator.com/item?id=48145995
-积分：2
+      <title>ScyllaDB MCP 服务器：AI 原生开发者发行版是什么样子</title>
+      <link>https://www.devexp.ai/blog/scylladb-mcp-server-case-study.html</link>
+      <description><![CDATA[文章网址：https://www.devexp.ai/blog/scylladb-mcp-server-case-study.html
+评论网址：https://news.ycombinator.com/item?id=48147178
+积分：1
 # 条评论：0]]></description>
-      <guid>https://iprodan.dev/l/font-variant-tabular-nums/</guid>
-      <pubDate>Fri, 15 May 2026 08:29:04 GMT</pubDate>
+      <guid>https://www.devexp.ai/blog/scylladb-mcp-server-case-study.html</guid>
+      <pubDate>Fri, 15 May 2026 11:13:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Toto 2.0：时间序列预测进入缩放时代</title>
+      <link>https://www.datadoghq.com/blog/ai/toto-2/</link>
+      <description><![CDATA[文章网址：https://www.datadoghq.com/blog/ai/toto-2/
+评论网址：https://news.ycombinator.com/item?id=48147166
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.datadoghq.com/blog/ai/toto-2/</guid>
+      <pubDate>Fri, 15 May 2026 11:12:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我构建了一个免费的人工智能初创公司验证器 - 它为遛狗应用程序评分为 4/10</title>
+      <link>https://tools.predictionoracle.io/</link>
+      <description><![CDATA[文章网址：https://tools.predictionoracle.io/
+评论网址：https://news.ycombinator.com/item?id=48147148
+积分：1
+# 条评论：0]]></description>
+      <guid>https://tools.predictionoracle.io/</guid>
+      <pubDate>Fri, 15 May 2026 11:10:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国清洁能源转型中煤炭崛起</title>
+      <link>https://thediplomat.com/2026/04/coal-is-rising-in-chinas-clean-energy-transition/</link>
+      <description><![CDATA[文章网址：https://thediplomat.com/2026/04/coal-is-rising-in-chinas-clean-energy-transition/
+评论网址：https://news.ycombinator.com/item?id=48147140
+积分：1
+# 条评论：0]]></description>
+      <guid>https://thediplomat.com/2026/04/coal-is-rising-in-chinas-clean-energy-transition/</guid>
+      <pubDate>Fri, 15 May 2026 11:09:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>我的BTP</title>
+      <link>https://mina-btp.com</link>
+      <description><![CDATA[文章网址：https://mina-btp.com
+评论网址：https://news.ycombinator.com/item?id=48147117
+积分：1
+# 条评论：0]]></description>
+      <guid>https://mina-btp.com</guid>
+      <pubDate>Fri, 15 May 2026 11:06:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>加密货币预测市场解释</title>
+      <link>https://www.chainalysis.com/blog/crypto-prediction-markets/</link>
+      <description><![CDATA[文章网址：https://www.chainathesis.com/blog/crypto-prediction-markets/
+评论网址：https://news.ycombinator.com/item?id=48147100
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.chainalysis.com/blog/crypto-prediction-markets/</guid>
+      <pubDate>Fri, 15 May 2026 11:04:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>用 Pokémon 解释 Prolog 基础知识</title>
+      <link>https://unplannedobsolescence.com/blog/prolog-basics-pokemon/</link>
+      <description><![CDATA[文章网址：https://unplannedobsolescent.com/blog/prolog-basics-pokemon/
+评论网址：https://news.ycombinator.com/item?id=48147091
+积分：1
+# 条评论：0]]></description>
+      <guid>https://unplannedobsolescence.com/blog/prolog-basics-pokemon/</guid>
+      <pubDate>Fri, 15 May 2026 11:02:14 GMT</pubDate>
     </item>
     </channel>
 </rss>
