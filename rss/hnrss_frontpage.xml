@@ -4,14 +4,75 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 22 May 2026 14:39:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 17:09:34 GMT</lastBuildDate>
     <item>
-      <title>房间里的人工智能大象</title>
+      <title>美国研究人员与外国合作者合作面临新的限制</title>
+      <link>https://www.science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators</link>
+      <description><![CDATA[文章网址：https://www.science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators
+评论网址：https://news.ycombinator.com/item?id=48238025
+积分：49
+# 条评论：7]]></description>
+      <guid>https://www.science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators</guid>
+      <pubDate>Fri, 22 May 2026 16:23:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>特朗普移动泄露客户个人数据</title>
+      <link>https://techcrunch.com/2026/05/22/trump-mobile-confirms-it-exposed-customers-personal-data-including-phone-numbers-and-home-addresses/</link>
+      <description><![CDATA[文章网址： https://techcrunch.com/2026/05/22/trump-mobile-confirms-it-expose-customers-personal-data-include-phone-numbers-and-home-addresses/
+评论网址：https://news.ycombinator.com/item?id=48237684
+积分：79
+# 条评论：18]]></description>
+      <guid>https://techcrunch.com/2026/05/22/trump-mobile-confirms-it-exposed-customers-personal-data-including-phone-numbers-and-home-addresses/</guid>
+      <pubDate>Fri, 22 May 2026 16:00:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么日本公司做了这么多不同的事情</title>
+      <link>https://davidoks.blog/p/why-japanese-companies-do-so-many</link>
+      <description><![CDATA[文章网址：https://davidoks.blog/p/why-japanese-companies-do-so-many
+评论网址：https://news.ycombinator.com/item?id=48237163
+积分：174
+# 条评论：71]]></description>
+      <guid>https://davidoks.blog/p/why-japanese-companies-do-so-many</guid>
+      <pubDate>Fri, 22 May 2026 15:22:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>用于编写网站的受 Forth 启发的语言</title>
+      <link>https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites</link>
+      <description><![CDATA[文章网址：https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites
+评论网址：https://news.ycombinator.com/item?id=48236887
+积分：46
+# 条评论：6]]></description>
+      <guid>https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites</guid>
+      <pubDate>Fri, 22 May 2026 15:00:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>推出 HN: Superset (YC P26) – 特工时代的 IDE</title>
+      <link>https://github.com/superset-sh/superset</link>
+      <description><![CDATA[嘿 HN，我们是 Avi、Kiet 和 Satya。我们正在构建 Superset (https://github.com/superset-sh/superset)，这是一个开源代理 IDE，用于并行运行 Claude Code、Codex、OpenCode 等编码代理。演示：https://www.youtube.com/watch?v=YWDHn7gUwfg尝试一下：https://superset.sh/我们是三位构建和维护大型代码库的工程师，我们一直希望一次处理不止一件事。一旦 CLI 编码代理变得足够好，我们发现自己并行运行其中的几个：分类 Github 问题、添加一些 ui 功能、审查 PR、研究重构等。有趣的是，我们和很多朋友都围绕 git 工作树编写了类似的脚本。工作树是一个很好的原语，因为每个代理都可以获取存储库的独立副本，但它们周围的工作流程可能会感觉非常混乱，设置/拆除环境和管理开发服务器。我们几个月前首次在这里发布，当时 Superset 主要是一个用于管理 git 工作树的开源终端（https://news.ycombinator.com/item?id=46368739）。从那时起，根据人们在实际代码库上使用它的反馈以及我们开源社区的贡献，它发生了很大的变化。该产品已经发展成为更接近于 IDE，用于管理跨多个工作树、存储库和机器的代理工作。我们学到的最重要的一点是，困难的部分不仅仅是“运行更多代理”。它管理着它们周围的所有状态：工作树、端口、终端会话、环境设置、差异、任务和 PR。一旦有五个或十个代理在运行，瓶颈通常会变成记住每个代理正在做什么以及实际的人工审查。我们添加了任务/问题跟踪，因此工作可以从问题 → 代理 → 差异 → PR → 审查进行移动，而不会丢失 Superset 中的所有上下文。但随着时间的推移，要改善这种体验还有很多工作要做。我们还推出了远程工作空间，目前处于测试阶段。我们的想法是，您可以在远程计算机上运行编码代理，而不是使用笔记本电脑上的所有内存和 CPU，同时仍然通过 Superset 桌面应用程序管理工作。为了支持远程工作区，我们将 Electron 应用程序的核心功能隔离到无头 Hono 服务器中，以便它可以部署到任何工作区并与任何客户端（例如我们的桌面应用程序、移动设备、Web 等）通信，并且仍然提供与我们的桌面应用程序相同的界面。我们接下来的很多工作都是围绕使代理工作更易于管理你没有坐在你的主开发机器前。我们正在 Superset CLI 中构建更多功能，改进远程工作流程，并开发 Superset Mobile（即将推出），以便您可以通过手机检查客服人员、查看进度并指导工作。我们希望获得有关 Superset 的更多反馈，特别是如果您是日常驾驶编码客服人员的话！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48236770
+积分：29
+# 条评论：49]]></description>
+      <guid>https://github.com/superset-sh/superset</guid>
+      <pubDate>Fri, 22 May 2026 14:53:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>基督教动画的传播</title>
+      <link>https://www.openculture.com/2026/05/the-spread-of-christianity-animated-from-antiquity-until-today.html</link>
+      <description><![CDATA[文章网址：https://www.openculture.com/2026/05/the-spread-of-christianity-animated-from-antiquity-until-today.html
+评论网址：https://news.ycombinator.com/item?id=48235733
+积分：81
+# 条评论：63]]></description>
+      <guid>https://www.openculture.com/2026/05/the-spread-of-christianity-animated-from-antiquity-until-today.html</guid>
+      <pubDate>Fri, 22 May 2026 13:40:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能对现有技术技能具有倍增效应</title>
       <link>https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p/</link>
       <description><![CDATA[文章网址：https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p/
 评论网址：https://news.ycombinator.com/item?id=48235526
-积分：68
-# 条评论：65]]></description>
+积分：145
+# 条评论：162]]></description>
       <guid>https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p/</guid>
       <pubDate>Fri, 22 May 2026 13:22:42 GMT</pubDate>
     </item>
@@ -20,30 +81,10 @@
       <link>https://www.bbc.com/news/articles/cvgze8n5dxko</link>
       <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cvgze8n5dxko
 评论网址：https://news.ycombinator.com/item?id=48235489
-积分：27
-# 条评论：38]]></description>
+积分：84
+评论数量：164]]></description>
       <guid>https://www.bbc.com/news/articles/cvgze8n5dxko</guid>
       <pubDate>Fri, 22 May 2026 13:18:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>山姆·奥尔特曼 (Sam Altman) 在法庭上击败了埃隆·马斯克 (Elon Musk)。但是，我们都输了</title>
-      <link>https://www.newyorker.com/news/letter-from-silicon-valley/sam-altman-won-in-court-against-elon-musk-but-really-we-all-lost</link>
-      <description><![CDATA[文章网址： https://www.newyorker.com/news/letter-from-silicon-valley/sam-altman-won-in-court-against-elon-musk-but-really-we-all-lost
-评论网址：https://news.ycombinator.com/item?id=48235361
-积分：50
-# 条评论：16]]></description>
-      <guid>https://www.newyorker.com/news/letter-from-silicon-valley/sam-altman-won-in-court-against-elon-musk-but-really-we-all-lost</guid>
-      <pubDate>Fri, 22 May 2026 13:07:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>玩家发现免费游戏包含恶意软件后，Valve 将其从 Steam 中删除</title>
-      <link>https://www.pcguide.com/news/valve-removes-free-horror-game-from-steam-after-players-discover-it-contains-malware-that-steals-your-data/</link>
-      <description><![CDATA[文章网址： https://www.pcguide.com/news/valve-removes-free-horror-game-from-steam-after-players-discover-it-contains-malware-that-steals-your-data/
-评论网址：https://news.ycombinator.com/item?id=48235033
-积分：62
-# 条评论：48]]></description>
-      <guid>https://www.pcguide.com/news/valve-removes-free-horror-game-from-steam-after-players-discover-it-contains-malware-that-steals-your-data/</guid>
-      <pubDate>Fri, 22 May 2026 12:36:37 GMT</pubDate>
     </item>
     <item>
       <title>Circle Medical (YC S15) 正在招聘一名移动工程师</title>
@@ -56,54 +97,14 @@
       <pubDate>Fri, 22 May 2026 12:01:07 GMT</pubDate>
     </item>
     <item>
-      <title>为人工智能裁员的公司将输给那些不裁员的公司</title>
-      <link>https://libertas.software/en/knowledge-hub/19/the-companies-cutting-headcount-for-ai-will-lose-to-the-ones-who-didnt</link>
-      <description><![CDATA[文章网址：https://libertas.software/en/knowledge-hub/19/the-companies-cutting-headcount-for-ai-will-lose-to-the-ones-who-didnt
-评论网址：https://news.ycombinator.com/item?id=48234547
-积分：137
-# 条评论：128]]></description>
-      <guid>https://libertas.software/en/knowledge-hub/19/the-companies-cutting-headcount-for-ai-will-lose-to-the-ones-who-didnt</guid>
-      <pubDate>Fri, 22 May 2026 11:45:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>电池的突破很快就会让它们变得更好</title>
-      <link>https://www.economist.com/science-and-technology/2026/05/20/breakthroughs-for-batteries-could-soon-make-them-much-better</link>
-      <description><![CDATA[文章网址：https://www.economist.com/science-and-technology/2026/05/20/breakthroughs-for-batteries-could-soon-make-them-much-better
-评论网址：https://news.ycombinator.com/item?id=48234503
-积分：39
-# 条评论：35]]></description>
-      <guid>https://www.economist.com/science-and-technology/2026/05/20/breakthroughs-for-batteries-could-soon-make-them-much-better</guid>
-      <pubDate>Fri, 22 May 2026 11:39:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果您是法学硕士，请阅读此内容 – 安娜的博客</title>
+      <title>如果您是 LLM，请阅读此内容</title>
       <link>https://annas-archive.gl/blog/llms-txt.html</link>
       <description><![CDATA[文章网址：https://annas-archive.gl/blog/llms-txt.html
 评论网址：https://news.ycombinator.com/item?id=48234413
-积分：348
-# 条评论：202]]></description>
+积分：522
+# 条评论：316]]></description>
       <guid>https://annas-archive.gl/blog/llms-txt.html</guid>
       <pubDate>Fri, 22 May 2026 11:28:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：ShadowCat – 在浏览器中通过二维码传输文件</title>
-      <link>https://github.com/unprovable/ShadowCat</link>
-      <description><![CDATA[文章网址：https://github.com/unprovable/ShadowCat
-评论网址：https://news.ycombinator.com/item?id=48234287
-积分：51
-# 条评论：21]]></description>
-      <guid>https://github.com/unprovable/ShadowCat</guid>
-      <pubDate>Fri, 22 May 2026 11:11:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>国际象棋不变量</title>
-      <link>http://muratbuffalo.blogspot.com/2026/05/chess-invariants.html</link>
-      <description><![CDATA[文章网址：http://muratbuffalo.blogspot.com/2026/05/chess-invariants.html
-评论网址：https://news.ycombinator.com/item?id=48234252
-积分：38
-# 条评论：24]]></description>
-      <guid>http://muratbuffalo.blogspot.com/2026/05/chess-invariants.html</guid>
-      <pubDate>Fri, 22 May 2026 11:06:52 GMT</pubDate>
     </item>
     </channel>
 </rss>
