@@ -4,7 +4,14 @@
     <title>最新提交：编程</title>
     <link>https://www.reddit.com/r/programming/new</link>
     <description>计算机编程</description>
-    <lastBuildDate>Wed, 27 May 2026 03:46:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 09:45:00 GMT</lastBuildDate>
+    <item>
+      <title>GitHub 在 12 个月内发生了 257 起事件，并且频率还在增加。这对于 CI 可靠性意味着什么？</title>
+      <link>https://www.reddit.com/r/programming/comments/1tp0pgz/github_had_257_incidents_in_12_months_and_the/</link>
+      <description><![CDATA[在构建一个监控 CI 管道的副项目时，我开始深入研究 GitHub 的可靠性数据。这比我预期的更糟糕。 2025 年 5 月至 2026 年 4 月期间跟踪了 257 起事件。其中 48 起被归类为重大中断。 GitHub Actions 是受影响最严重的服务，有 57 次中断。 GitHub 自己的 CTO 将其归因于代理 AI 工作流程，要求平台设计容量达到 30 倍。 可靠性问题给开发人员带来了一个微妙但令人沮丧的问题。当 CI 失败时，你不再知道这是你的代码还是 GitHub。最重要的是，上周通过中毒的 VS Code 扩展发生的泄露事件持续了 18 分钟，这表明事情可以悄无声息地发生。 像 Ghostty 和 Zig 这样的知名项目已经因为可靠性和工程文化问题而离开了平台。 一些值得讨论的事情：  平台的不可靠性在什么时候改变了您对 CI 架构的看法？ 您是否正在增强对 CI 架构的弹性？管道，转向自托管运行器，还是只是容忍它？ 当 CI 中断时，您如何区分平台故障和真正的代码故障？    由   提交/u/Less-Patient9437   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tp0pgz/github_had_257_incidents_in_12_months_and_the/</guid>
+      <pubDate>Wed, 27 May 2026 09:44:06 GMT</pubDate>
+    </item>
     <item>
       <title>压力</title>
       <link>https://www.reddit.com/r/programming/comments/1tor1h9/the_pressure/</link>
@@ -18,13 +25,6 @@
       <description><![CDATA[ 由   提交/u/PthariensFlame   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tomtee/unicode_1800_beta/</guid>
       <pubDate>Tue, 26 May 2026 22:41:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>新的 Kubernetes 包安装程序</title>
-      <link>https://www.reddit.com/r/programming/comments/1tom4cj/a_new_kubernetes_package_installer/</link>
-      <description><![CDATA[ 由   提交 /u/wineandcode   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tom4cj/a_new_kubernetes_package_installer/</guid>
-      <pubDate>Tue, 26 May 2026 22:15:03 GMT</pubDate>
     </item>
     <item>
       <title>交互式模拟器：GitHub Flow 与基于主干的开发 - 观察工作在哪里排队</title>
@@ -90,13 +90,6 @@
       <pubDate>Tue, 26 May 2026 08:13:30 GMT</pubDate>
     </item>
     <item>
-      <title>不断变化的世界中的持续交付 • Abby Bangser 和 Dave Farley</title>
-      <link>https://www.reddit.com/r/programming/comments/1tnzh9v/continuous_delivery_in_a_world_of_constant_change/</link>
-      <description><![CDATA[ 由   提交 /u/goto-con   [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/programming/comments/1tnzh9v/continuous_delivery_in_a_world_of_constant_change/</guid>
-      <pubDate>Tue, 26 May 2026 07:20:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Freenet：实时去中心化应用程序的点对点平台（白皮书）</title>
       <link>https://www.reddit.com/r/programming/comments/1tnqsh6/freenet_a_peertopeer_platform_for_realtime/</link>
       <description><![CDATA[ 由   提交/u/sanity  [link] [评论]]]></description>
@@ -109,6 +102,13 @@
       <description><![CDATA[ 由   提交/u/David-Kunz   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/programming/comments/1tnmtm5/jujutsu/</guid>
       <pubDate>Mon, 25 May 2026 21:41:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>TOML模式</title>
+      <link>https://www.reddit.com/r/programming/comments/1tngfrp/toml_schema/</link>
+      <description><![CDATA[ 由   提交/u/brunocborges  [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/programming/comments/1tngfrp/toml_schema/</guid>
+      <pubDate>Mon, 25 May 2026 17:47:39 GMT</pubDate>
     </item>
     </channel>
 </rss>

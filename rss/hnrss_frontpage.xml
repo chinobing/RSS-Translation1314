@@ -4,106 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 27 May 2026 03:47:14 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 09:45:44 GMT</lastBuildDate>
     <item>
-      <title>下一个代币预测会给我们带来什么？</title>
-      <link>https://pop.rdi.sh/where-does-next-token-prediction-leave-us/</link>
-      <description><![CDATA[文章网址：https://pop.rdi.sh/where-does-next-token-prediction-leave-us/
-评论网址：https://news.ycombinator.com/item?id=48288191
-积分：28
+      <title>Nvidia Vera CPU 基准测试：奥林巴斯核心提供卓越性能</title>
+      <link>https://www.phoronix.com/review/nvidia-vera-benchmarks</link>
+      <description><![CDATA[文章网址：https://www.phoronix.com/review/nvidia-vera-benchmarks
+评论网址：https://news.ycombinator.com/item?id=48291230
+积分：17
+# 条评论：4]]></description>
+      <guid>https://www.phoronix.com/review/nvidia-vera-benchmarks</guid>
+      <pubDate>Wed, 27 May 2026 08:15:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Unicode 18.0.0 测试版</title>
+      <link>https://www.unicode.org/versions/Unicode18.0.0/</link>
+      <description><![CDATA[文章网址：https://www.unicode.org/versions/Unicode18.0.0/
+评论网址：https://news.ycombinator.com/item?id=48290881
+积分：14
 # 条评论：7]]></description>
-      <guid>https://pop.rdi.sh/where-does-next-token-prediction-leave-us/</guid>
-      <pubDate>Wed, 27 May 2026 01:10:44 GMT</pubDate>
+      <guid>https://www.unicode.org/versions/Unicode18.0.0/</guid>
+      <pubDate>Wed, 27 May 2026 07:28:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Claude Code 作为日常驱动程序：Claude.md、技能、子代理、插件和 MCP</title>
+      <link>https://arps18.github.io/posts/claude-code-mastery/</link>
+      <description><![CDATA[文章网址：https://arps18.github.io/posts/claude-code-mastery/
+评论网址：https://news.ycombinator.com/item?id=48289950
+积分：49
+# 条评论：11]]></description>
+      <guid>https://arps18.github.io/posts/claude-code-mastery/</guid>
+      <pubDate>Wed, 27 May 2026 05:13:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Posthorn，无需邮件服务器的自托管邮件</title>
+      <link>https://github.com/craigmccaskill/posthorn</link>
+      <description><![CDATA[隆重推出 Posthorn，一个自托管电子邮件网关。 VPS 上的每个自托管应用程序与交易电子邮件提供商之间有一个 docker 容器（或 Go 二进制文件）。设置一次 Posthorn，将您的应用程序指向它，就完成了。我尝试在 DigitalOcean Droplet 上部署 Ghost，发现 DO 和许多不同的 VPS 服务已开始阻止默认 SMTP 端口，以尝试对抗它们受到的各种类型的滥用。为了实际配置我的应用程序，我必须组装一个 Postfix 中继。在另一个项目中，我有一个包含联系表单的静态站点，但我的免费 Formspree 帐户偶尔会达到使用限制，我非常想要他们在付费帐户后面设置的一些反垃圾邮件功能，因此我组合了一个球童模块来捕获 HTTP POST 并将它们退回到我的提供商。我不断遇到这些相同的电子邮件问题。我想要托管的许多服务（Gitea、Mastodon、Umami、Comentario）都遇到了同样的限制。这感觉像是一个非常常见的问题，没有好的解决方案。Posthorn 是我为解决这个问题而构建的。它是一个小型 Go 二进制文件（或 10 MB docker 映像），位于您的自托管应用程序和您选择的交易电子邮件提供商之间（附带对 Postmark、Resend、Mailgun、Amazon SES 或出站 SMTP 中继的支持）。它还接受来自 HTML 表单的 POST，以支持静态站点需求，同时添加安全层，例如蜜罐字段、来源检查和 IP 速率限制。还有一个 JSON HTTP API，支持后端脚本或只需要 /send 端点的 cron 作业的 Bearer 身份验证。我现在在多个场景中亲自使用它，并且我花了很多时间来解决它并针对我可以验证的内容进行测试。我很想听听这对您有何用处、有何缺陷以及您可能有的任何反馈。它是在 Apache 2.0 下开源的，我很乐意做出贡献。我计划长期支持和发展这个项目。代码：https://github.com/craigmccaskill/posthorn文档：https://posthorn.dev/更长的文章：https://craigmccaskill.com/introducing-posthorn/之前 HN 关于我要解决的具体问题的讨论：https://news.ycombinator.com/item?id=43620318
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48289624
+积分：26
+# 条评论：24]]></description>
+      <guid>https://github.com/craigmccaskill/posthorn</guid>
+      <pubDate>Wed, 27 May 2026 04:26:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>TSDuck：用于 MPEG-TS 分析和操作的开源工具包</title>
+      <link>https://tsduck.io/</link>
+      <description><![CDATA[文章网址：https://tsduck.io/
+评论网址：https://news.ycombinator.com/item?id=48288709
+积分：31
+# 条评论：1]]></description>
+      <guid>https://tsduck.io/</guid>
+      <pubDate>Wed, 27 May 2026 02:22:59 GMT</pubDate>
     </item>
     <item>
       <title>Tunecat：简单的网络广播</title>
       <link>https://codeberg.org/lindenii/tunecat/</link>
       <description><![CDATA[文章网址：https://codeberg.org/lindenii/tunecat/
 评论网址：https://news.ycombinator.com/item?id=48288174
-积分：10
-# 条评论：0]]></description>
+积分：50
+# 条评论：3]]></description>
       <guid>https://codeberg.org/lindenii/tunecat/</guid>
       <pubDate>Wed, 27 May 2026 01:08:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stripe 对“友好欺诈”很友好</title>
-      <link>https://www.gingerlime.com/2026/stripe-seem-friendly-to-friendly-fraud/</link>
-      <description><![CDATA[文章网址：https://www.gingerlime.com/2026/stripe-seem-friend-to-friend-fraud/
-评论网址：https://news.ycombinator.com/item?id=48287982
-积分：147
-评论数量：75]]></description>
-      <guid>https://www.gingerlime.com/2026/stripe-seem-friendly-to-friendly-fraud/</guid>
-      <pubDate>Wed, 27 May 2026 00:40:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>艾琳·布罗科维奇制作了一张地图来跟踪全国各地的数据中心</title>
-      <link>https://www.niemanlab.org/2026/05/erin-brockovich-made-a-map-to-track-data-centers-around-the-country/</link>
-      <description><![CDATA[文章网址：https://www.niemanlab.org/2026/05/erin-brockovich-made-a-map-to-track-data-centers-around-the-country/
-评论网址：https://news.ycombinator.com/item?id=48287952
-积分：143
-# 条评论：131]]></description>
-      <guid>https://www.niemanlab.org/2026/05/erin-brockovich-made-a-map-to-track-data-centers-around-the-country/</guid>
-      <pubDate>Wed, 27 May 2026 00:36:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>爵士乐萨克斯巨擘和最伟大的即兴演奏家桑尼·罗林斯去世，享年 95 岁</title>
-      <link>https://www.rollingstone.com/music/music-news/sonny-rollins-jazz-legend-saxophone-colossus-dead-obit-1234715446/</link>
-      <description><![CDATA[文章网址： https://www.rollingstone.com/music/music-news/sonny-rollins-jazz-legend-saxophone-colossus-dead-obit-1234715446/
-评论网址：https://news.ycombinator.com/item?id=48287678
-积分：59
-评论数量：9]]></description>
-      <guid>https://www.rollingstone.com/music/music-news/sonny-rollins-jazz-legend-saxophone-colossus-dead-obit-1234715446/</guid>
-      <pubDate>Wed, 27 May 2026 00:03:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能工具的好坏取决于您的判断</title>
-      <link>https://theaileverageweekly.com/posts/your-ai-tools-are-only-as-good-as-your-judgment-and-that-s-the-point.html</link>
-      <description><![CDATA[文章网址：https://theaileverageweekly.com/posts/your-ai-tools-are-only-as-good-as-your-judgment-and-that-s-the-point.html
-评论网址：https://news.ycombinator.com/item?id=48287649
-积分：62
-# 条评论：22]]></description>
-      <guid>https://theaileverageweekly.com/posts/your-ai-tools-are-only-as-good-as-your-judgment-and-that-s-the-point.html</guid>
-      <pubDate>Wed, 27 May 2026 00:00:35 GMT</pubDate>
     </item>
     <item>
       <title>Cloudflare 旗舰</title>
       <link>https://developers.cloudflare.com/flagship/</link>
       <description><![CDATA[文章网址：https://developers.cloudflare.com/flagship/
 评论网址：https://news.ycombinator.com/item?id=48287468
-积分：94
-# 条评论：42]]></description>
+积分：214
+评论数：108]]></description>
       <guid>https://developers.cloudflare.com/flagship/</guid>
       <pubDate>Tue, 26 May 2026 23:36:06 GMT</pubDate>
     </item>
     <item>
-      <title>从铁锈到红宝石</title>
-      <link>https://xlii.space/eng/from-rust-to-ruby/</link>
-      <description><![CDATA[文章网址：https://xlii.space/eng/from-rust-to-ruby/
-评论网址：https://news.ycombinator.com/item?id=48286561
-积分：36
-# 条评论：16]]></description>
-      <guid>https://xlii.space/eng/from-rust-to-ruby/</guid>
-      <pubDate>Tue, 26 May 2026 21:57:03 GMT</pubDate>
+      <title>我经历过的最糟糕的工作面试</title>
+      <link>https://www.oliverio.dev/blog/the-worst-job-interview-i-had</link>
+      <description><![CDATA[文章网址：https://www.oliverio.dev/blog/the-worst-job-interview-i-had
+评论网址：https://news.ycombinator.com/item?id=48285344
+积分：290
+评论数：245]]></description>
+      <guid>https://www.oliverio.dev/blog/the-worst-job-interview-i-had</guid>
+      <pubDate>Tue, 26 May 2026 20:11:49 GMT</pubDate>
     </item>
     <item>
-      <title>大型科技公司的反劳工手册已经出现在维基百科上</title>
-      <link>https://medium.com/@jakeorlowitz/wikipedia-is-doing-the-capitalist-thing-56a393232943</link>
-      <description><![CDATA[文章网址：https://medium.com/@jakeorlowitz/wikipedia-is-doing-the-capitalist-thing-56a393232943
-评论网址：https://news.ycombinator.com/item?id=48285592
-积分：344
-# 条评论：192]]></description>
-      <guid>https://medium.com/@jakeorlowitz/wikipedia-is-doing-the-capitalist-thing-56a393232943</guid>
-      <pubDate>Tue, 26 May 2026 20:33:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>加登格罗夫化学罐背后的化学原理</title>
+      <title>那个甲基丙烯酸甲酯罐</title>
       <link>https://www.science.org/content/blog-post/methyl-methacrylate-tank</link>
       <description><![CDATA[文章网址：https://www.science.org/content/blog-post/methyl-methryl-tank
 评论网址：https://news.ycombinator.com/item?id=48284712
-积分：262
-评论数量：97]]></description>
+积分：328
+评论数：126]]></description>
       <guid>https://www.science.org/content/blog-post/methyl-methacrylate-tank</guid>
       <pubDate>Tue, 26 May 2026 19:25:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>斩妖除魔的忧郁</title>
+      <link>https://thereader.mitpress.mit.edu/the-strange-melancholy-of-slaying-monsters/</link>
+      <description><![CDATA[文章网址：https://thereader.mitpress.mit.edu/the-strange-melancholy-of-slaying-monsters/
+评论网址：https://news.ycombinator.com/item?id=48284711
+积分：80
+# 条评论：25]]></description>
+      <guid>https://thereader.mitpress.mit.edu/the-strange-melancholy-of-slaying-monsters/</guid>
+      <pubDate>Tue, 26 May 2026 19:25:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
