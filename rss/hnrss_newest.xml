@@ -4,107 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 31 May 2026 10:57:43 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 13:45:30 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Clankers 的反向验证码</title>
-      <link>https://clanker-captcha.jeromem.workers.dev/</link>
-      <description><![CDATA[文章网址：https://clanker-captcha.jeromem.workers.dev/
-评论网址：https://news.ycombinator.com/item?id=48344669
+      <title>为什么我最终退出了成功（且盈利）的 YouTube 频道</title>
+      <link>https://mikeshuey.com/i-quit-my-successful-youtube-channel/</link>
+      <description><![CDATA[文章网址：https://mikeshuey.com/i-quit-my-successful-youtube-channel/
+评论网址：https://news.ycombinator.com/item?id=48345588
 积分：1
 # 条评论：0]]></description>
-      <guid>https://clanker-captcha.jeromem.workers.dev/</guid>
-      <pubDate>Sun, 31 May 2026 10:48:45 GMT</pubDate>
+      <guid>https://mikeshuey.com/i-quit-my-successful-youtube-channel/</guid>
+      <pubDate>Sun, 31 May 2026 13:38:43 GMT</pubDate>
     </item>
     <item>
-      <title>如何一举毁掉文学声誉</title>
-      <link>https://www.honest-broker.com/p/how-to-destroy-a-literary-reputation</link>
-      <description><![CDATA[文章网址：https://www.honest-broker.com/p/how-to-destroy-a-literary-reputation
-评论网址：https://news.ycombinator.com/item?id=48344668
+      <title>AiLock：在测试仍在运行时向 AI 助手隐藏源代码</title>
+      <link>https://github.com/lo2589/AILOCK</link>
+      <description><![CDATA[文章网址：https://github.com/lo2589/AILOCK
+评论网址：https://news.ycombinator.com/item?id=48345582
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.honest-broker.com/p/how-to-destroy-a-literary-reputation</guid>
-      <pubDate>Sun, 31 May 2026 10:48:43 GMT</pubDate>
+      <guid>https://github.com/lo2589/AILOCK</guid>
+      <pubDate>Sun, 31 May 2026 13:37:53 GMT</pubDate>
     </item>
     <item>
-      <title>通过网络传播</title>
-      <link>https://camerongordon0.substack.com/p/diffusion-over-networks</link>
-      <description><![CDATA[文章网址：https://camerongordon0.substack.com/p/diffusion-over-networks
-评论网址：https://news.ycombinator.com/item?id=48344662
+      <title>聊天栏并不是懒惰的设计</title>
+      <link>https://metedata.substack.com/p/006-the-chat-bar-isnt-lazy-design</link>
+      <description><![CDATA[文章网址：https://metedata.substack.com/p/006-the-chat-bar-isnt-lazy-design
+评论网址：https://news.ycombinator.com/item?id=48345579
 积分：1
 # 条评论：0]]></description>
-      <guid>https://camerongordon0.substack.com/p/diffusion-over-networks</guid>
-      <pubDate>Sun, 31 May 2026 10:47:37 GMT</pubDate>
+      <guid>https://metedata.substack.com/p/006-the-chat-bar-isnt-lazy-design</guid>
+      <pubDate>Sun, 31 May 2026 13:37:17 GMT</pubDate>
     </item>
     <item>
-      <title>我的妻子曾尝试记录 1000 小时不使用手机的时间，但后来放弃了。所以我用振动编码了一个应用程序</title>
-      <link>https://play.google.com/store/apps/details?id=com.greendot.phonebreaks&hl=en_US</link>
-      <description><![CDATA[文章网址：https://play.google.com/store/apps/details?id=com.greendot.phonebreaks&amp;hl=en_US
-评论网址：https://news.ycombinator.com/item?id=48344627
-积分：1
-# 条评论：0]]></description>
-      <guid>https://play.google.com/store/apps/details?id=com.greendot.phonebreaks&hl=en_US</guid>
-      <pubDate>Sun, 31 May 2026 10:41:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Cordium：消除凭证注入的 FOSS 沙盒平台</title>
-      <link>https://github.com/octelium/cordium</link>
-      <description><![CDATA[您好，HN，Cordium 是一个基于 Kubernetes 和 Octelium 构建的通用沙箱平台，主要工作https://github.com/octelium/octelium，可用于各种用例，包括使用 VSCode、Zed 等为开发人员进行编码（即自托管 GitHub Codespaces 替代方案）、AI 代理任务（即 AI 沙箱产品（例如 E2B、Daytona 等）的 FOSS 替代品）、CI/CD 工作负载（例如构建和发布 Docker 映像等），更重要的是，用于开发人员和自动化工作负载对基础设施的无秘密远程访问。与其他开发环境和沙箱平台相比，这里的主要_区别_在于，Cordium 自动提供对资源/基础设施（例如，基于身份的、无秘密的安全访问）。 API、SSH、数据库、k8s 等），而无需将凭证（例如 API 密钥、SSH 私钥、数据库密码等）注入沙箱，其中上游凭证由沙箱范围之外的 Octelium 保护资源的身份感知代理持有。您可以简单地将其视为内置的沙箱 + ZTNA/远程访问 VPN，其中对基础设施的访问基于身份和策略即代码而不是凭据。Cordium 是 Apache 2.0 下的一个纯粹的 FOSS 项目，旨在自托管，并且没有计划推出专业/SaaS/云版本。该项目的开发始于 2022 年，自去年以来已经被一些使用 Octelium 的组织所使用。很高兴回答任何问题。
+      <title>问 HN：响应式编程发生了什么？</title>
+      <link>https://news.ycombinator.com/item?id=48345541</link>
+      <description><![CDATA[我最近参与了一个使用响应式编程和 RxJS 的遗留项目。这是我第一次遇到这种编程范式，它似乎在某个时候很流行 [1]，但团队的普遍共识是它已经变得非常难以维护，需要管理很多副作用。来自学术背景并对函数式编程有一些兴趣，这个想法对我来说似乎很有趣。还有人使用这种范式吗日常（任何示例代码库、记录的项目、有关在 JavaScript 中维护复杂反应式项目的技巧将不胜感激）还是大部分已被移走？[1] https://trends.google.com/trends/explore?date=all&amp;q=%2Fm%2F02vz4nz&amp;hl=en-US
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48344623
+评论网址：https://news.ycombinator.com/item?id=48345541
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/octelium/cordium</guid>
-      <pubDate>Sun, 31 May 2026 10:41:00 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=48345541</guid>
+      <pubDate>Sun, 31 May 2026 13:29:52 GMT</pubDate>
     </item>
     <item>
-      <title>开发工具公司的第一个支持工程师代理</title>
-      <link>https://reproly.com</link>
-      <description><![CDATA[文章网址：https://reproly.com
-评论网址：https://news.ycombinator.com/item?id=48344600
+      <title>修复你的断言</title>
+      <link>https://kristoff.it/blog/fix-your-asserts/</link>
+      <description><![CDATA[文章网址：https://kristoff.it/blog/fix-your-asserts/
+评论网址：https://news.ycombinator.com/item?id=48345525
+积分：3
+# 条评论：0]]></description>
+      <guid>https://kristoff.it/blog/fix-your-asserts/</guid>
+      <pubDate>Sun, 31 May 2026 13:27:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vox Dictum，具有说话者分类和人工智能摘要的设备上转录</title>
+      <link>https://cobaltinfx.com/</link>
+      <description><![CDATA[文章网址：https://cobaltinfx.com/
+评论网址：https://news.ycombinator.com/item?id=48345511
+积分：1
+# 条评论：0]]></description>
+      <guid>https://cobaltinfx.com/</guid>
+      <pubDate>Sun, 31 May 2026 13:25:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么 Lorem Ipsum 无处不在？ [视频]</title>
+      <link>https://www.youtube.com/watch?v=kL1PDqzqhM4</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=kL1PDqzqhM4
+评论网址：https://news.ycombinator.com/item?id=48345505
 积分：2
-# 条评论：1]]></description>
-      <guid>https://reproly.com</guid>
-      <pubDate>Sun, 31 May 2026 10:36:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>衰老的标志 (2013)</title>
-      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC3836174/</link>
-      <description><![CDATA[文章网址：https://pmc.ncbi.nlm.nih.gov/articles/PMC3836174/
-评论网址：https://news.ycombinator.com/item?id=48344592
-积分：2
 # 条评论：0]]></description>
-      <guid>https://pmc.ncbi.nlm.nih.gov/articles/PMC3836174/</guid>
-      <pubDate>Sun, 31 May 2026 10:36:03 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=kL1PDqzqhM4</guid>
+      <pubDate>Sun, 31 May 2026 13:24:03 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Overslash – AI 代理的身份验证网关</title>
-      <link>https://www.overslash.com/</link>
-      <description><![CDATA[文章网址：https://www.overslash.com/
-评论网址：https://news.ycombinator.com/item?id=48344584
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.overslash.com/</guid>
-      <pubDate>Sun, 31 May 2026 10:34:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>俄罗斯恢复第一次世界大战炫目迷彩以躲避乌克兰人工智能无人机——它有效吗？</title>
-      <link>https://united24media.com/war-in-ukraine/russia-revives-wwi-dazzle-camouflage-to-evade-ukrainian-ai-drones-does-it-work-19334</link>
-      <description><![CDATA[文章网址： https://united24media.com/war-in-ukraine/ Russia-revives-wwi-dazzle-camouflage-to-evade-ukrainian-ai-drones-does-it-work-19334
-评论网址：https://news.ycombinator.com/item?id=48344573
-积分：1
-# 条评论：1]]></description>
-      <guid>https://united24media.com/war-in-ukraine/russia-revives-wwi-dazzle-camouflage-to-evade-ukrainian-ai-drones-does-it-work-19334</guid>
-      <pubDate>Sun, 31 May 2026 10:33:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>如何在您的产品中考虑人工智能</title>
-      <link>https://abgoyal.com/posts/how-to-think-about-ai-in-your-product/</link>
-      <description><![CDATA[文章网址：https://abgoyal.com/posts/how-to-think-about-ai-in-your-product/
-评论网址：https://news.ycombinator.com/item?id=48344541
+      <title>等效性、非劣效性和优效性检验</title>
+      <link>https://rpsychologist.com/d3/equivalence/</link>
+      <description><![CDATA[文章网址：https://rpsychological.com/d3/equivalence/
+评论网址：https://news.ycombinator.com/item?id=48345503
 积分：1
 # 条评论：0]]></description>
-      <guid>https://abgoyal.com/posts/how-to-think-about-ai-in-your-product/</guid>
-      <pubDate>Sun, 31 May 2026 10:28:12 GMT</pubDate>
+      <guid>https://rpsychologist.com/d3/equivalence/</guid>
+      <pubDate>Sun, 31 May 2026 13:23:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>走向日本：日本发现蓝色（2025）</title>
+      <link>https://mainichi.jp/english/articles/20250531/p2a/00m/0op/007000c</link>
+      <description><![CDATA[文章网址：https://mainichi.jp/english/articles/20250531/p2a/00m/0op/007000c
+评论网址：https://news.ycombinator.com/item?id=48345475
+积分：4
+# 条评论：0]]></description>
+      <guid>https://mainichi.jp/english/articles/20250531/p2a/00m/0op/007000c</guid>
+      <pubDate>Sun, 31 May 2026 13:20:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>自我进化模型路由器</title>
+      <link>https://vdf.ai/white-papers/the-self-evolving-model-router/</link>
+      <description><![CDATA[文章网址：https://vdf.ai/white-papers/the-self-evolving-model-router/
+评论网址：https://news.ycombinator.com/item?id=48345473
+积分：1
+# 条评论：0]]></description>
+      <guid>https://vdf.ai/white-papers/the-self-evolving-model-router/</guid>
+      <pubDate>Sun, 31 May 2026 13:20:05 GMT</pubDate>
     </item>
     </channel>
 </rss>
