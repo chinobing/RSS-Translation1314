@@ -4,106 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 02 Jun 2026 03:57:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 10:23:43 GMT</lastBuildDate>
     <item>
-      <title>Bloc – AI 视频光标（画布 IDE，而不是时间线）</title>
-      <link>https://vidbloc.com/</link>
-      <description><![CDATA[文章网址：https://vidbloc.com/
-评论网址：https://news.ycombinator.com/item?id=48365802
-积分：1
+      <title>Michael Burry 表示 SpaceX 和 Anthropic 都不值 1T 美元</title>
+      <link>https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6</link>
+      <description><![CDATA[文章网址：https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6
+评论网址：https://news.ycombinator.com/item?id=48368187
+积分：2
 # 条评论：0]]></description>
-      <guid>https://vidbloc.com/</guid>
-      <pubDate>Tue, 02 Jun 2026 03:52:05 GMT</pubDate>
+      <guid>https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6</guid>
+      <pubDate>Tue, 02 Jun 2026 10:09:21 GMT</pubDate>
     </item>
     <item>
-      <title>当免费生成代码时，软件工程会发生什么？ （第 1 部分）</title>
-      <link>https://sageox.ai/blog/when-generating-code-is-free-part-1</link>
-      <description><![CDATA[文章网址：https://sageox.ai/blog/when-generate-code-is-free-part-1
-评论网址：https://news.ycombinator.com/item?id=48365785
-积分：1
+      <title>这个项目肯定是违反了jqwik原版EPL</title>
+      <link>https://github.com/dave-a-human/axiomcheck/issues/1</link>
+      <description><![CDATA[文章网址：https://github.com/dave-a- human/axiomcheck/issues/1
+评论网址：https://news.ycombinator.com/item?id=48368186
+积分：2
 # 条评论：0]]></description>
-      <guid>https://sageox.ai/blog/when-generating-code-is-free-part-1</guid>
-      <pubDate>Tue, 02 Jun 2026 03:49:21 GMT</pubDate>
+      <guid>https://github.com/dave-a-human/axiomcheck/issues/1</guid>
+      <pubDate>Tue, 02 Jun 2026 10:08:50 GMT</pubDate>
     </item>
     <item>
-      <title>我构建了一个 GitHub 应用程序来帮助审阅者决定 PR 是否已准备好批准</title>
-      <link>https://github.com/marketplace/approvalops</link>
-      <description><![CDATA[文章网址：https://github.com/marketplace/approvalops
-评论网址：https://news.ycombinator.com/item?id=48365774
+      <title>Bug 搜寻：为什么你只需要巴黎就能打败披萨大亨 (1994)</title>
+      <link>https://pizzalegacy.nl/blog/bug-hunt-why-you-only-need-paris-to-beat-pizza-tycoon.html</link>
+      <description><![CDATA[文章网址：https://pizzalegacy.nl/blog/bug-hunt-why-you-only-need-paris-to-beat-pizza-tycoon.html
+评论网址：https://news.ycombinator.com/item?id=48368165
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/marketplace/approvalops</guid>
-      <pubDate>Tue, 02 Jun 2026 03:47:40 GMT</pubDate>
+      <guid>https://pizzalegacy.nl/blog/bug-hunt-why-you-only-need-paris-to-beat-pizza-tycoon.html</guid>
+      <pubDate>Tue, 02 Jun 2026 10:06:21 GMT</pubDate>
     </item>
     <item>
-      <title>乌干达之行后，患有埃博拉症状的妇女在班加罗尔被隔离</title>
-      <link>https://indianexpress.com/article/india/ebola-virus-india-bengaluru-woman-quarantined-symptoms-10709803/</link>
-      <description><![CDATA[文章网址：https://indianexpress.com/article/india/ebola-virus-india-bengaluru-woman-quarantined-symptoms-10709803/
-评论网址：https://news.ycombinator.com/item?id=48365768
+      <title>谷歌资本公司</title>
+      <link>https://stratechery.com/2026/the-google-capital-company/</link>
+      <description><![CDATA[文章网址：https://stratechery.com/2026/the-google-capital-company/
+评论网址：https://news.ycombinator.com/item?id=48368155
 积分：1
 # 条评论：0]]></description>
-      <guid>https://indianexpress.com/article/india/ebola-virus-india-bengaluru-woman-quarantined-symptoms-10709803/</guid>
-      <pubDate>Tue, 02 Jun 2026 03:47:25 GMT</pubDate>
+      <guid>https://stratechery.com/2026/the-google-capital-company/</guid>
+      <pubDate>Tue, 02 Jun 2026 10:05:34 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Opthash – Elastic 和 Funnel 哈希的 Rust 实现</title>
-      <link>https://github.com/aaron-ang/opthash-rs</link>
-      <description><![CDATA[几个月前，我通过 Quanta 杂志的 YouTube 视频首次看到这篇论文“无需重新排序的开放寻址的最佳边界”。我去寻找官方实现，但找不到，所以我决定尝试在 Rust 中实现论文中的 Elastic Hashing 和 Funnel Hashing。为此，我构建了 opthash，一个提供 ElasticHashMap 和 FunnelHashMap 实现（以及最近的 HashSet 变体）的 Rust 库。它们与 std::collections::HashMap 和 HashSet 的 API 相同。最初，数据布局是本文的相对简单的实现，级别和存储桶表示为嵌套结构，每个结构管理自己的分配。后来，我转向更平坦的竞技场布局，为后备控制/数据区域分配了一个分配，并使用较小的描述符结构保存每个级别的指针和元数据。结果明显更快。我的直觉是连续排列控制字节以最大化缓存局部性，因为大多数探测指令都是在控制字节上完成的。大多数底层细节都受到 hashbrown/SwissTable 的启发，例如 7 位控制字节、SIMD 扫描控制字节组、二次方大小调整、测试用例和作为默认哈希器的 Foldhash。 hashbrown 作为性能上限包含在基准测试中，std::HashMap 是基准。我还添加了 Python 绑定作为学习练习。我的目标是与 Python dict 和 set 保持一致，但我很快意识到穿越 PyO3 会增加比预期更多的开销...我很乐意接受反馈，尤其是有关哈希表构造、PyO3 绑定或基准测试方法的反馈。我从这个项目中学到了很多关于 Rust 语言特性（以及跨入不安全领域）的知识，并且我确信还有很多东西需要改进。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48365720
+      <title>显示 HN：Synapse – 2.9MB Mac 应用程序，带有屏幕截图、剪贴板、Keep Awake 等</title>
+      <link>https://www.synapsemac.com/</link>
+      <description><![CDATA[文章网址：https://www.synapsemac.com/
+评论网址：https://news.ycombinator.com/item?id=48368142
+积分：4
+# 条评论：2]]></description>
+      <guid>https://www.synapsemac.com/</guid>
+      <pubDate>Tue, 02 Jun 2026 10:03:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>针对亚马逊的诉讼：“订阅并节省”计划可能会让您付出更多代价</title>
+      <link>https://www.msn.com/en-us/money/companies/amazon-lured-customers-into-enrolling-in-subscribe-save-then-quietly-jacked-up-the-prices-lawsuit-alleges/ar-AA24gSSv</link>
+      <description><![CDATA[文章网址： https://www.msn.com/en-us/money/companies/amazon-lured-customers-into-enrolling-in-subscribe-save-then-quietly-jacked-up-the-prices-lawsuit-alleges/ar-AA24gSSv
+评论网址：https://news.ycombinator.com/item?id=48368137
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/aaron-ang/opthash-rs</guid>
-      <pubDate>Tue, 02 Jun 2026 03:38:56 GMT</pubDate>
+      <guid>https://www.msn.com/en-us/money/companies/amazon-lured-customers-into-enrolling-in-subscribe-save-then-quietly-jacked-up-the-prices-lawsuit-alleges/ar-AA24gSSv</guid>
+      <pubDate>Tue, 02 Jun 2026 10:02:28 GMT</pubDate>
     </item>
     <item>
-      <title>问 HN：为什么我们大多数程序员都是男性？</title>
-      <link>https://news.ycombinator.com/item?id=48365717</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=48365717
-积分：1
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=48365717</guid>
-      <pubDate>Tue, 02 Jun 2026 03:38:43 GMT</pubDate>
+      <title>Adafruit 收到 Fenwick 法律顾问代表 Flux.ai 发出的要求函</title>
+      <link>https://blog.adafruit.com/</link>
+      <description><![CDATA[文章网址：https://blog.adafruit.com/
+评论网址：https://news.ycombinator.com/item?id=48368121
+积分：2
+# 条评论：0]]></description>
+      <guid>https://blog.adafruit.com/</guid>
+      <pubDate>Tue, 02 Jun 2026 10:00:56 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能可以比人类注意到的更快地绘制灾难路线</title>
-      <link>https://thebulletin.org/2026/05/ai-can-chart-a-course-to-disaster-faster-than-humans-can-notice/</link>
-      <description><![CDATA[文章网址：https://thebulletin.org/2026/05/ai-can-chart-a-course-to-disaster-faster-than- humans-can-notice/
-评论网址：https://news.ycombinator.com/item?id=48365704
+      <title>美国的企业保护者</title>
+      <link>https://www.bloomberg.com/features/2026-trump-cfpb-enforcement</link>
+      <description><![CDATA[文章网址：https://www.bloomberg.com/features/2026-trump-cfpb-enforcement
+评论网址：https://news.ycombinator.com/item?id=48368116
 积分：1
 # 条评论：0]]></description>
-      <guid>https://thebulletin.org/2026/05/ai-can-chart-a-course-to-disaster-faster-than-humans-can-notice/</guid>
-      <pubDate>Tue, 02 Jun 2026 03:37:47 GMT</pubDate>
+      <guid>https://www.bloomberg.com/features/2026-trump-cfpb-enforcement</guid>
+      <pubDate>Tue, 02 Jun 2026 10:00:16 GMT</pubDate>
     </item>
     <item>
-      <title>介绍美国人工智能主权财富基金法案 [视频]</title>
-      <link>https://www.youtube.com/watch?v=VN4b4UCWMKI</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=VN4b4UCWMKI
-评论网址：https://news.ycombinator.com/item?id=48365681
+      <title>MultiClip：一个非常简单的剪贴板管理器，可以解决实际问题</title>
+      <link>https://github.com/jerfauvet-arch/MultiClip</link>
+      <description><![CDATA[文章网址：https://github.com/jerfauvet-arch/MultiClip
+评论网址：https://news.ycombinator.com/item?id=48368103
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=VN4b4UCWMKI</guid>
-      <pubDate>Tue, 02 Jun 2026 03:33:55 GMT</pubDate>
+      <guid>https://github.com/jerfauvet-arch/MultiClip</guid>
+      <pubDate>Tue, 02 Jun 2026 09:58:19 GMT</pubDate>
     </item>
     <item>
-      <title>NetBSD 问题报告 #54977</title>
-      <link>https://gnats.NetBSD.org/54977</link>
-      <description><![CDATA[文章网址：https://gnats.NetBSD.org/54977
-评论网址：https://news.ycombinator.com/item?id=48365665
-积分：1
+      <title>把你的手机收起来：瑞典敦促父母限制在孩子身边使用屏幕</title>
+      <link>https://www.theguardian.com/world/2026/jun/01/sweden-urges-parents-to-restrict-phone-use-around-children</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/world/2026/jun/01/sweden-urges-parents-to-restrict-phone-use-around-children
+评论网址：https://news.ycombinator.com/item?id=48368102
+积分：2
 # 条评论：0]]></description>
-      <guid>https://gnats.NetBSD.org/54977</guid>
-      <pubDate>Tue, 02 Jun 2026 03:31:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>甲骨文联合创始人拉里·埃里森发出可怕警告</title>
-      <link>https://www.techradar.com/pro/quote-of-the-day-by-oracle-co-founder-larry-ellison-citizens-will-be-on-their-best-behavior-because-were-constantly-recording-and-reporting-everything-that-is-going-on-a-dire-warning-on-the-erosion-of-privacy</link>
-      <description><![CDATA[文章网址： https://www.techradar.com/pro/quote-of-the-day-by-oracle-co-Founder-larry-ellison-citizens-will-be-on-their-best-behavior-because-were-constantly-recording-and-reporting-everything-that-is-going-on-a-dire-warning-on-the-erosion-of-privacy
-评论网址：https://news.ycombinator.com/item?id=48365662
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.techradar.com/pro/quote-of-the-day-by-oracle-co-founder-larry-ellison-citizens-will-be-on-their-best-behavior-because-were-constantly-recording-and-reporting-everything-that-is-going-on-a-dire-warning-on-the-erosion-of-privacy</guid>
-      <pubDate>Tue, 02 Jun 2026 03:31:06 GMT</pubDate>
+      <guid>https://www.theguardian.com/world/2026/jun/01/sweden-urges-parents-to-restrict-phone-use-around-children</guid>
+      <pubDate>Tue, 02 Jun 2026 09:58:09 GMT</pubDate>
     </item>
     </channel>
 </rss>
