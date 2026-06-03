@@ -4,122 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 02 Jun 2026 23:03:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 04:04:28 GMT</lastBuildDate>
     <item>
-      <title>使用 Nvidia GPU 的 VRAM 作为 Linux 上的交换空间</title>
-      <link>https://github.com/c0dejedi/nbd-vram</link>
-      <description><![CDATA[文章网址：https://github.com/c0dejedi/nbd-vram
-评论网址：https://news.ycombinator.com/item?id=48377404
+      <title>如何只做一件事</title>
+      <link>https://www.raptitude.com/2026/05/how-to-just-do-a-thing/</link>
+      <description><![CDATA[文章网址：https://www.raptitude.com/2026/05/how-to-just-do-a-thing/
+评论网址：https://news.ycombinator.com/item?id=48379728
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/c0dejedi/nbd-vram</guid>
-      <pubDate>Tue, 02 Jun 2026 22:55:33 GMT</pubDate>
+      <guid>https://www.raptitude.com/2026/05/how-to-just-do-a-thing/</guid>
+      <pubDate>Wed, 03 Jun 2026 03:58:30 GMT</pubDate>
     </item>
     <item>
-      <title>FullPAC 文件 S-1 [pdf]</title>
-      <link>https://d1io3yog0oux5.cloudfront.net/gotv/sec/0001493152-26-026911/0001493152-26-026911.pdf</link>
-      <description><![CDATA[文章网址： https://d1io3yog0oux5.cloudfront.net/gotv/sec/0001493152-26-026911/0001493152-26-026911.pdf
-评论网址：https://news.ycombinator.com/item?id=48377396
-积分：1
-# 条评论：1]]></description>
-      <guid>https://d1io3yog0oux5.cloudfront.net/gotv/sec/0001493152-26-026911/0001493152-26-026911.pdf</guid>
-      <pubDate>Tue, 02 Jun 2026 22:54:07 GMT</pubDate>
+      <title>美国数据中心建设远远落后于计划</title>
+      <link>https://www.wsj.com/tech/ai/americas-data-center-build-out-is-falling-way-behind-schedule-e408a9a8</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/tech/ai/americas-data-center-build-out-is-falling-way-behind-schedule-e408a9a8
+评论网址：https://news.ycombinator.com/item?id=48379704
+积分：5
+# 条评论：0]]></description>
+      <guid>https://www.wsj.com/tech/ai/americas-data-center-build-out-is-falling-way-behind-schedule-e408a9a8</guid>
+      <pubDate>Wed, 03 Jun 2026 03:53:13 GMT</pubDate>
     </item>
     <item>
-      <title>总是责备：Git 责备如何回答错误的问题</title>
-      <link>https://matklad.github.io/2026/05/18/always-be-blaming.html</link>
-      <description><![CDATA[文章网址：https://matklad.github.io/2026/05/18/always-be-blaming.html
-评论网址：https://news.ycombinator.com/item?id=48377367
+      <title>C++：让我们熟悉概念</title>
+      <link>https://platis.solutions/blog/2026/05/02/lets-get-comfortable-with-concepts/</link>
+      <description><![CDATA[文章网址：https://platis.solutions/blog/2026/05/02/lets-get-comfortable-with-concepts/
+评论网址：https://news.ycombinator.com/item?id=48379699
 积分：1
 # 条评论：0]]></description>
-      <guid>https://matklad.github.io/2026/05/18/always-be-blaming.html</guid>
-      <pubDate>Tue, 02 Jun 2026 22:49:38 GMT</pubDate>
+      <guid>https://platis.solutions/blog/2026/05/02/lets-get-comfortable-with-concepts/</guid>
+      <pubDate>Wed, 03 Jun 2026 03:52:32 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Reloops – AI 代理和团队的开源 Frame.io 替代方案</title>
-      <link>https://github.com/Reloops-App/reloops/</link>
-      <description><![CDATA[文章网址：https://github.com/Reloops-App/reloops/
-评论网址：https://news.ycombinator.com/item?id=48377365
+      <title>类型错误消融和人工智能编码代理</title>
+      <link>https://arxiv.org/abs/2606.01522</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2606.01522
+评论网址：https://news.ycombinator.com/item?id=48379694
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/Reloops-App/reloops/</guid>
-      <pubDate>Tue, 02 Jun 2026 22:49:29 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2606.01522</guid>
+      <pubDate>Wed, 03 Jun 2026 03:51:34 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：普通和普通 v0.6.0</title>
-      <link>https://codeberg.org/ordinarylabs/Ordinary/src/branch/main/docs/quick-start.md</link>
-      <description><![CDATA[旨在成为一个包含电池的集成（融合？）Web 服务器/CMS/应用程序框架，支持开箱即用的简单多租户部署。* 在 LMDB 之上实施存储
-* 用 Rust 编写的 CLI、API 和应用程序服务器
-* 使用 wasmtime 沙箱执行访客代码
-* 身份验证扩展了OPAQUE协议
-* 通过 tantivy 进行高效的日志索引/查询
-* 通过 Let&#39;s Encrypt 自动 TLS
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48377360
+      <title>Microsoft Scout：您永远在线的个人代理</title>
+      <link>https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/</link>
+      <description><![CDATA[文章网址：https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/
+评论网址：https://news.ycombinator.com/item?id=48379691
 积分：1
 # 条评论：0]]></description>
-      <guid>https://codeberg.org/ordinarylabs/Ordinary/src/branch/main/docs/quick-start.md</guid>
-      <pubDate>Tue, 02 Jun 2026 22:48:27 GMT</pubDate>
+      <guid>https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/</guid>
+      <pubDate>Wed, 03 Jun 2026 03:51:20 GMT</pubDate>
     </item>
     <item>
-      <title>美联储未能从气候研究中心拿走一台超级计算机</title>
-      <link>https://arstechnica.com/science/2026/06/judge-blocks-part-of-trump-admins-effort-to-hurt-colorado-research-center/</link>
-      <description><![CDATA[文章网址：https://arstechnica.com/science/2026/06/judge-blocks-part-of-trump-admins-effort-to-hurt-colorado-research-center/
-评论网址：https://news.ycombinator.com/item?id=48377347
+      <title>留在西贡的美国平民</title>
+      <link>https://connla.substack.com/p/whats-another-year</link>
+      <description><![CDATA[文章网址：https://connla.substack.com/p/whats-another-year
+评论网址：https://news.ycombinator.com/item?id=48379678
 积分：1
 # 条评论：0]]></description>
-      <guid>https://arstechnica.com/science/2026/06/judge-blocks-part-of-trump-admins-effort-to-hurt-colorado-research-center/</guid>
-      <pubDate>Tue, 02 Jun 2026 22:46:54 GMT</pubDate>
+      <guid>https://connla.substack.com/p/whats-another-year</guid>
+      <pubDate>Wed, 03 Jun 2026 03:49:33 GMT</pubDate>
     </item>
     <item>
-      <title>我已经 30 年没有写过代码了。然后我用 Godot 做了一个太空游戏</title>
-      <link>https://news.ycombinator.com/item?id=48377340</link>
-      <description><![CDATA[两年前，我无意中发现了制作游戏的Godot引擎。我的编码经历是 30 年前的事了。我是一名雷达设计师，花了数年时间开发模拟电磁波传播的软件。我什至因此获得了科学奖。我按照 Godot 网站上的教程进行操作，然后就被迷住了。我没有游戏计划。它有机地成长。然而我有一个愿景：随着地球资源越来越稀缺，人类将不得不超越地球，甚至超越我们自己的太阳系来开采资源。它将面临天体的危险，可能是外星人，还有坏人类，即海盗。它始于一名宇航员收集金矿石。当然，我还添加了采矿机器人。为了好玩，我添加了流星风暴和激光枪来粉碎流星。然后我将反派设计为海盗，因此开发自主机器人枪（一种空间战争无人机）是有意义的。然后我设计了外星人，他们正在攻击宇航员。在我看来，外星人就像远西部的土著人民一样，正在保护自己的领土免受入侵。然后，开发其他技术（如磁力采集器、磁力排斥器和电磁武器）就有意义了。两年前，我开始在 Linux 笔记本电脑上构建游戏。没有团队。没有预算。不保证任何人都会玩它。只是一个想法，而且需要很多时间。我和妻子之间的关系有些紧张，她对我长时间面对电脑屏幕感到不满。
-这是宇宙淘金热诞生的故事。我为何建造它
-我是模拟城市的粉丝。我喜欢《军团要塞》的快速动作。我喜欢《帝国时代》和《幕府将军》中战术战斗和战略资源之间的平衡。
-我觉得很多 AAA 游戏的亮点在于 3D 的华丽，而在目的和机制上则较弱。
-我想要一些原创的东西，所以我忽略了其他科幻/太空游戏，以专注于我的个人愿景。我知道很多人不会喜欢它，但我确信它会找到喜欢它的人。为什么戈多
-我是开源的信徒。多年来，我知道我必须离开 Windows，因为它具有间谍遥测功能。我花了整整一年的时间才完全转向 Linux，而人工智能帮助我让这种转变变得更加容易。所以戈多是一个显而易见的选择。另外，Unity 的定价丑闻让我望而却步。即使戈多当时实力较弱，但我也觉得这是正确的选择。现在戈多越来越成为显而易见的选择。
-我对《戈多》的体验是，它从来没有让我失望过。我从来没有被任何事情阻挡过。我喜欢它加载速度超快的方式。我喜欢 GDScript 语言。我对其优雅的面向对象结构充满热情。唯一的缺点：我希望可以在编辑器中打开两个并排的窗口，并且插件库更丰富。但这是非常小的。现在的情况
-该游戏功能齐全且处于测试阶段。核心循环有效。 9项技术均已落地。 7个太阳系是可探索的。两个敌对派系——海盗和外星人——完全可以利用自己的人工智能行为和武器进行操作。
-我现在需要的是球员。真正的玩家会推动系统，找到优势，并告诉我什么感觉不对，什么感觉正确。 
-该游戏被称为宇宙淘金热。它已在 Steam 上发布，并且演示版是免费的。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48377340
-积分：2
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48377340</guid>
-      <pubDate>Tue, 02 Jun 2026 22:46:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能爱好者在与时间赛跑，人工智能怀疑论者在与熵赛跑</title>
-      <link>https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against</link>
-      <description><![CDATA[文章网址：https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against
-评论网址：https://news.ycombinator.com/item?id=48377339
+      <title>Wikiracer——带有分析的 chess.com 风格维基百科赛车网站</title>
+      <link>https://wikiracer.com</link>
+      <description><![CDATA[文章网址：https://wikiracer.com
+评论网址：https://news.ycombinator.com/item?id=48379673
 积分：1
 # 条评论：0]]></description>
-      <guid>https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against</guid>
-      <pubDate>Tue, 02 Jun 2026 22:46:06 GMT</pubDate>
+      <guid>https://wikiracer.com</guid>
+      <pubDate>Wed, 03 Jun 2026 03:48:21 GMT</pubDate>
     </item>
     <item>
-      <title>Eupago for Python – 葡萄牙 MB Way/Multibanco 的第一个 Python SDK</title>
-      <link>https://github.com/bilouro/eupago-python</link>
-      <description><![CDATA[文章网址：https://github.com/bilouro/eupago-python
-评论网址：https://news.ycombinator.com/item?id=48377328
+      <title>自然界蛋白质折叠的不合理冗余</title>
+      <link>https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/</link>
+      <description><![CDATA[文章网址：https://research.ligo.bio/posts/unreasonable-redundancy-of-natural- Protein-folds/
+评论网址：https://news.ycombinator.com/item?id=48379669
+积分：3
+# 条评论：0]]></description>
+      <guid>https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/</guid>
+      <pubDate>Wed, 03 Jun 2026 03:47:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>多伦多大学研究人员证明人工智能蠕虫可以针对任何在线设备</title>
+      <link>https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device</link>
+      <description><![CDATA[文章网址：https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device
+评论网址：https://news.ycombinator.com/item?id=48379664
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/bilouro/eupago-python</guid>
-      <pubDate>Tue, 02 Jun 2026 22:44:45 GMT</pubDate>
+      <guid>https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device</guid>
+      <pubDate>Wed, 03 Jun 2026 03:47:21 GMT</pubDate>
     </item>
     <item>
-      <title>即使你打断它的腿，这个令人毛骨悚然的斑点机器人也会继续前进</title>
-      <link>https://www.popsci.com/technology/unstoppable-blob-robot/</link>
-      <description><![CDATA[文章网址：https://www.popsci.com/technology/unstoppable-blob-robot/
-评论网址：https://news.ycombinator.com/item?id=48377291
+      <title>指控社交媒体危害的诉讼如何威胁大型科技公司</title>
+      <link>https://www.bloomberg.com/news/articles/2026-06-02/how-lawsuits-alleging-social-media-harms-threaten-big-tech</link>
+      <description><![CDATA[文章网址：https://www.bloomberg.com/news/articles/2026-06-02/how-lawsuits-alleging-social-media-harms-threaten-big-tech
+评论网址：https://news.ycombinator.com/item?id=48379652
 积分：1
-# 条评论：1]]></description>
-      <guid>https://www.popsci.com/technology/unstoppable-blob-robot/</guid>
-      <pubDate>Tue, 02 Jun 2026 22:38:59 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://www.bloomberg.com/news/articles/2026-06-02/how-lawsuits-alleging-social-media-harms-threaten-big-tech</guid>
+      <pubDate>Wed, 03 Jun 2026 03:45:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
