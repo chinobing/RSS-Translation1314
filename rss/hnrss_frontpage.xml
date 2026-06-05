@@ -4,14 +4,102 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 05 Jun 2026 09:50:50 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 14:51:20 GMT</lastBuildDate>
+    <item>
+      <title>广告拦截器测试 – 检查您的广告拦截器是否有效</title>
+      <link>https://adblock.turtlecute.org/</link>
+      <description><![CDATA[文章网址：https://adblock.turtlecute.org/
+评论网址：https://news.ycombinator.com/item?id=48411542
+积分：9
+# 条评论：3]]></description>
+      <guid>https://adblock.turtlecute.org/</guid>
+      <pubDate>Fri, 05 Jun 2026 12:33:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>程序员将为 Claude 编写文档，但不会为彼此编写文档</title>
+      <link>https://blog.plover.com/2026/03/09/#documentation-wins-2</link>
+      <description><![CDATA[文章网址：https://blog.plover.com/2026/03/09/#documentation-wins-2
+评论网址：https://news.ycombinator.com/item?id=48411510
+积分：70
+# 条评论：69]]></description>
+      <guid>https://blog.plover.com/2026/03/09/#documentation-wins-2</guid>
+      <pubDate>Fri, 05 Jun 2026 12:30:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nango（YC W23，开发基础设施）正在招聘后端工程师</title>
+      <link>https://nango.dev/careers</link>
+      <description><![CDATA[文章网址：https://nango.dev/careers
+评论网址：https://news.ycombinator.com/item?id=48411227
+积分：0
+# 条评论：0]]></description>
+      <guid>https://nango.dev/careers</guid>
+      <pubDate>Fri, 05 Jun 2026 12:00:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>欧洲技术主权交流和欧盟开源战略</title>
+      <link>https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy</link>
+      <description><![CDATA[文章网址：https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy
+评论网址：https://news.ycombinator.com/item?id=48410602
+积分：67
+# 条评论：41]]></description>
+      <guid>https://digital-strategy.ec.europa.eu/en/library/communication-european-tech-sovereignty-accompanied-eu-open-source-strategy</guid>
+      <pubDate>Fri, 05 Jun 2026 10:44:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Lowfat – 可插入 CLI 过滤器，节省了我 91.8% 的 LLM 令牌</title>
+      <link>https://github.com/zdk/lowfat</link>
+      <description><![CDATA[嗨，HN，不确定是否有人感兴趣。但是，只是想分享一下，我一直在维护名为“lowfat”的小工具，它可以帮助我过滤一些详细的 CLI 输出。它是一个二进制文件，用作代理挂钩或 shell 包装器。 
+它有一个插件系统来自定义每个命令的过滤器。这个想法非常简单：代理不需要完整的 kubectl get -o yaml 或任何 10k 行转储来做出决策。 
+因此，lowfat 位于两者之间，消除噪音，并通过重要的内容。这是我个人使用 2 个月后的真实报告：lowfat 历史 --all lowfat 插件候选者
+  ────────────────────────────────────────────────────────────
+
+    # 命令运行平均原始成本节省源状态  
+    1 kubectl 获得 101x 14.4K 1.5M 93.9% 插件良好    
+    2 grep 103x 13.5K 1.4M 96.2% 插件好    
+    3 git diff 81x 995 80.6K 57.9% 内置良好    
+    4 kubectl 90x 485 43.6K 33.6% 插件良好    
+    5 docker 127x 5.5K 693.6K 96.1% 内置良好    
+    6 ls 489x 117 57.3K 56.2% 内置良好    
+    7 找到 30x 16.5K 495.0K 95.5% 插件不错    
+    8 git show 63x 490 30.9K 38.0% 内置良好    
+    9 git 177x 368 65.2K 76.1% 内置良好    
+   10 git log 86x 556 47.8K 78.5% 内置良好    
+   11 kubectl 日志 5x 3.6K 17.8K 43.0% 插件良好    
+   12 git status 86x 152 13.1K 58.0% 内置良好    
+   13 docker ps 20x 467 9.3K 52.8% 插件不错    
+   14 kubectl 描述 6x 656 3.9K 1.2% 插件弱    
+   15 个 docker 镜像 9x 940 8.5K 61.8% 内置良好    
+   16 k 获得 2x 2.1K 4.2K 35.9% 插件好    
+   17 terraform 10x 395 3.9K 32.1% 插件好    
+   18 git commit 32x 77 2.5K 0.0% 内置弱    
+   19 docker build 8x 487 3.9K 37.6% 内置良好    
+   20 docker compose 22x 979 21.5K 89.4% 内置良好    
+
+  总计：440 万个原始数据 → 410 万个已保存数据（91.8%）
+
+我上面的工具集有点有限，但它非常适合我的用例，没有任何中断
+有点帮助我不达到公司基岩限制使用的令牌限制，并继续优化移动保存以供以后使用。但是，为什么不选择替代方案（https://github.com/zdk/lowfat#alternatives）？ 
+答案是：
+  - 我的目标是使核心轻量级但可通过插件扩展，即不尝试将每个命令捆绑在已安装的二进制文件中，以便人们拥有自己的输出过滤器。
+  - 当我使用自己的工具集时，可以通过插件或过滤器管道根据用例进行自定义。
+  - 可针对非公共 CLI 工具进行定制，例如，某些企业可能拥有公众无法访问的内部 CLI 工具。
+  - 人们应该拥有自己的数据。所以设计是本地优先，永远没有遥测。
+  - 我有点喜欢 UNIX 风格的组合管道，所以 lowfat-filter 实现了这种风格。
+  - 能够调整过滤器的攻击性，这样我们就可以控制不删除代理所需的内容。GitHub：https://github.com/zdk/lowfat无论如何，如果有人感兴趣，欢迎反馈和提问！谢谢！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48409955
+积分：37
+# 条评论：22]]></description>
+      <guid>https://github.com/zdk/lowfat</guid>
+      <pubDate>Fri, 05 Jun 2026 09:10:42 GMT</pubDate>
+    </item>
     <item>
       <title>纠缠构建时空。现在“魔法”赋予它重力</title>
       <link>https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/</link>
       <description><![CDATA[文章网址：https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/
 评论网址：https://news.ycombinator.com/item?id=48409675
-积分：14
-# 条评论：4]]></description>
+积分：95
+# 条评论：66]]></description>
       <guid>https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/</guid>
       <pubDate>Fri, 05 Jun 2026 08:33:37 GMT</pubDate>
     </item>
@@ -20,8 +108,8 @@
       <link>https://arxiv.org/abs/2606.03673</link>
       <description><![CDATA[文章网址：https://arxiv.org/abs/2606.03673
 评论网址：https://news.ycombinator.com/item?id=48409664
-积分：18
-# 条评论：3]]></description>
+积分：221
+评论数量：93]]></description>
       <guid>https://arxiv.org/abs/2606.03673</guid>
       <pubDate>Fri, 05 Jun 2026 08:32:16 GMT</pubDate>
     </item>
@@ -30,80 +118,30 @@
       <link>https://github.com/geo-tp/ESP32-Bit-Pirate</link>
       <description><![CDATA[文章网址：https://github.com/geo-tp/ESP32-Bit-Pirate
 评论网址：https://news.ycombinator.com/item?id=48409306
-积分：21
-# 条评论：14]]></description>
+积分：87
+# 条评论：33]]></description>
       <guid>https://github.com/geo-tp/ESP32-Bit-Pirate</guid>
       <pubDate>Fri, 05 Jun 2026 07:40:04 GMT</pubDate>
     </item>
     <item>
-      <title>改变我们开发瓢虫的方式</title>
+      <title>改变我们开发 Ladybird 的方式</title>
       <link>https://ladybird.org/posts/changing-how-we-develop-ladybird/</link>
       <description><![CDATA[文章网址：https://ladybird.org/posts/changing-how-we-develop-ladybird/
 评论网址：https://news.ycombinator.com/item?id=48409191
-积分：176
-评论数量：96]]></description>
+积分：562
+评论数：375]]></description>
       <guid>https://ladybird.org/posts/changing-how-we-develop-ladybird/</guid>
       <pubDate>Fri, 05 Jun 2026 07:26:33 GMT</pubDate>
     </item>
     <item>
-      <title>无法逃避：对 ANSI 代码的探索</title>
-      <link>https://blog.safia.rocks/2025/12/22/ansi-codes/</link>
-      <description><![CDATA[文章网址：https://blog.safia.rocks/2025/12/22/ansi-codes/
-评论网址：https://news.ycombinator.com/item?id=48408995
-积分：5
-# 条评论：3]]></description>
-      <guid>https://blog.safia.rocks/2025/12/22/ansi-codes/</guid>
-      <pubDate>Fri, 05 Jun 2026 07:02:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>微调 LLM 以像 1995 年一样编写文档</title>
-      <link>https://passo.uno/fine-tuning-docs-llm/</link>
-      <description><![CDATA[文章网址：https://passo.uno/fine-tuning-docs-llm/
-评论网址：https://news.ycombinator.com/item?id=48408442
-积分：63
-# 条评论：18]]></description>
-      <guid>https://passo.uno/fine-tuning-docs-llm/</guid>
-      <pubDate>Fri, 05 Jun 2026 05:46:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>IsUpMap 可让您同时检查 100 多个主要站点的状态</title>
-      <link>https://isupmap.com/</link>
-      <description><![CDATA[文章网址：https://isupmap.com/
-评论网址：https://news.ycombinator.com/item?id=48408067
-积分：53
-# 条评论：24]]></description>
-      <guid>https://isupmap.com/</guid>
-      <pubDate>Fri, 05 Jun 2026 04:44:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>C++：纪录片</title>
-      <link>https://herbsutter.com/2026/06/04/c-the-documentary-released-today/</link>
-      <description><![CDATA[文章网址：https://herbsutter.com/2026/06/04/c-the-documentary-released-today/
-评论网址：https://news.ycombinator.com/item?id=48408016
-积分：149
-# 条评论：76]]></description>
-      <guid>https://herbsutter.com/2026/06/04/c-the-documentary-released-today/</guid>
-      <pubDate>Fri, 05 Jun 2026 04:37:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Magenta RealTime 2：开放和本地现场音乐模型</title>
-      <link>https://magenta.withgoogle.com/magenta-realtime-2</link>
-      <description><![CDATA[文章网址：https://magenta.withgoogle.com/magenta-realtime-2
-评论网址：https://news.ycombinator.com/item?id=48407815
-积分：35
-# 条评论：7]]></description>
-      <guid>https://magenta.withgoogle.com/magenta-realtime-2</guid>
-      <pubDate>Fri, 05 Jun 2026 04:09:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>线性余弦调色板(2025)</title>
-      <link>https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/</link>
-      <description><![CDATA[文章网址：https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/
-评论网址：https://news.ycombinator.com/item?id=48407653
-积分：24
-# 条评论：0]]></description>
-      <guid>https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/</guid>
-      <pubDate>Fri, 05 Jun 2026 03:40:02 GMT</pubDate>
+      <title>李光耀的新加坡故事 (2023)</title>
+      <link>https://www.historytoday.com/archive/feature/lee-kuan-yews-singapore-story</link>
+      <description><![CDATA[文章网址：https://www.historytoday.com/archive/feature/lee-kuan-yews-singapore-story
+评论网址：https://news.ycombinator.com/item?id=48409173
+积分：64
+# 条评论：68]]></description>
+      <guid>https://www.historytoday.com/archive/feature/lee-kuan-yews-singapore-story</guid>
+      <pubDate>Fri, 05 Jun 2026 07:23:44 GMT</pubDate>
     </item>
     </channel>
 </rss>
