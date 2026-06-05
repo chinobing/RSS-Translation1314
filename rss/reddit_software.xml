@@ -4,7 +4,28 @@
     <title>最新提交：软件</title>
     <link>https://www.reddit.com/r/software/new</link>
     <description>任何与软件相关的东西。请遵守我们的规则，以免受到惩罚。</description>
-    <lastBuildDate>Fri, 05 Jun 2026 14:50:25 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 17:16:16 GMT</lastBuildDate>
+    <item>
+      <title>具有手势、保持、和弦、事件链和上下文感知工作流程的输入系统</title>
+      <link>https://www.reddit.com/r/software/comments/1txr4b6/input_system_with_gestures_holds_chords_event/</link>
+      <description><![CDATA[我一直在开发一种开源输入工具，它超越了简单的按键 → 操作快捷键，它允许相同的输入根据您与其交互的方式而表现出不同的行为。 随着时间的推移，该系统演变成一个系统，其中不同的输入被视为可以导致操作、转换和进一步输入的事件，具体取决于上下文和条件。单个交互可以逐步继续，形成工作流程而不是孤立的快捷方式。 例如，输入可以在大多数时间正常工作，仅在某些屏幕边缘附近成为手势触发器，在特定应用程序或浏览器选项卡中表现不同，或者继续进入多步骤工作流程。 一些核心思想： * 点击、按住、修饰符、和弦和手势共享一个交互模型 * 事件可以用作独立分配并用自己的操作链接成更长的序列 * 广泛的每个分配自定义，从计时行为到视觉外观 * 用于在运行时组织和控制不同组分配的层 * 广泛的条件系统，包括活动层、键盘布局和窗口上下文 * 基于进程、窗口类和动态标题匹配的上下文感知行为 * 行为仅在您分配的地方发生变化 - 其他一切保持不变 系统本身提供构建块 - 实际的分配和工作流程完全由用户定义，并带有用于管理和可视化它们的 GUI。 其中包含多个演示层，作为构建您自己的设置的即用型示例和起点。 手势最终发展成为该项目最大的功能之一： * 多达 12 个独立的手势池/区域，具有自己的分配、视觉效果和行为 * 可配置的识别和解释选项 * 连续手势链 * 通过大型手势树进行实时提示指导和导航 下面的视频是一个相对较短的 4.5 分钟概述。它从手势开始，然后探讨不同的事件类型、链和上下文如何在同一系统内交互。 尽管它很长，但它仍然只触及表面 - 许多功能和更深入的功能被遗漏。 https://github.com/user-attachments/assets/94010366-3877-45ea-a1c6-6cf4db0ac97f 任何反馈、问题或建议欢迎。 GitHub： https://github.com/uqqu/Cadans   由   提交/u/TLHE   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1txr4b6/input_system_with_gestures_holds_chords_event/</guid>
+      <pubDate>Fri, 05 Jun 2026 17:12:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Linux 桌面应用程序架构问题：您会优先考虑故障遏制架构还是功能扩展？</title>
+      <link>https://www.reddit.com/r/software/comments/1txq2jq/linux_desktop_app_architecture_question_would_you/</link>
+      <description><![CDATA[ 由   提交/u/AhmedNAS2000   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1txq2jq/linux_desktop_app_architecture_question_would_you/</guid>
+      <pubDate>Fri, 05 Jun 2026 16:35:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>我需要一些有关误报防病毒弹出窗口的帮助</title>
+      <link>https://www.reddit.com/r/software/comments/1txp9eg/i_need_some_help_with_a_false_positive_antivirus/</link>
+      <description><![CDATA[我一直在开发从多台打印机收集页面计数器的软件。由于我对软件开发比较陌生，因此在处理防病毒软件和代码签名方面没有太多经验。 目前，我有一个 OV 代码签名证书，以防止 Windows 标记或删除我的应用程序。这在没有防病毒软件以及使用卡巴斯基和 Avast 等防病毒产品的电脑上可以正常工作。 但是，我在使用其他防病毒解决方案（尤其是 McAfee）时遇到了问题。当我安装该应用程序时，迈克菲会自动将其移至隔离区。如果我从隔离区恢复应用程序并尝试再次运行它，McAfee 会立即删除可执行文件，而不是将其返回到隔离区。 我不确定是否会发生这种情况，因为我的应用程序和代码签名证书都相对较新，尚未建立声誉，或者可能还有其他原因。 对于其他上下文，该应用程序包含一个与打印机通信并检索页计数器信息的 Python 可执行文件。我还为该应用程序创建了一个安装程序，并且可执行文件和安装程序都经过数字签名。 有人经历过类似的事情或对如何减少这些误报有任何建议吗？   由   提交 /u/Wonderful-Peach-1225   [链接] [评论]]]></description>
+      <guid>https://www.reddit.com/r/software/comments/1txp9eg/i_need_some_help_with_a_false_positive_antivirus/</guid>
+      <pubDate>Fri, 05 Jun 2026 16:06:13 GMT</pubDate>
+    </item>
     <item>
       <title>寻找可以转录音频并录制的录音设备</title>
       <link>https://www.reddit.com/r/software/comments/1txm4vw/looking_for_a_recording_device_that_transcribes/</link>
@@ -20,13 +41,6 @@
       <pubDate>Fri, 05 Jun 2026 13:55:47 GMT</pubDate>
     </item>
     <item>
-      <title>如果你曾经不得不为偿还技术债务和功能工作辩护</title>
-      <link>https://www.reddit.com/r/software/comments/1txlit9/if_youve_ever_had_to_defend_paying_down_tech_debt/</link>
-      <description><![CDATA[大多数工程师将人工智能助手视为生产力倍增器，并认为技术债务问题保持不变，只是规模扩大了。但现在有一些不同了。 1 - 体积。使用人工智能的开发人员一天可以生成三到四倍的代码。这是在不被注意的情况下通过审查的捷径表面积的三到四倍。现有的债务跟踪已针对人类速度的代码生成进行了校准。 2 - 出处。当代码被生成、编辑、重新生成和合并时，作者身份的归属变得模糊。传统的审阅工作流程假设人类作者可以解释其推理。 AI 代码通常没有人完全理解其结构为何如此。 3 - 现有工具并不是为了检测 AI 特定模式而构建的：代码库中包含未经批准的模型调用、反映过时训练数据的微妙安全问题、由于没有人为其设置门而缺少对通过 CI 的生成代码的测试。这些无法通过您多年来运行的相同静态分析来捕获。 人工智能编码工具不仅使技术债务积累得更快，而且使技术债务更难以跟踪。    由   提交/u/CodacyOfficial  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1txlit9/if_youve_ever_had_to_defend_paying_down_tech_debt/</guid>
-      <pubDate>Fri, 05 Jun 2026 13:49:30 GMT</pubDate>
-    </item>
-    <item>
       <title>ULTRA-EDIT 企业软件</title>
       <link>https://www.reddit.com/r/software/comments/1txl0h1/ultraedit_enterprise_software/</link>
       <description><![CDATA[嗨，有人可以使用 UltraEdit Enterprise 软件并可以帮助女孩提取文件吗？    由   提交 /u/TheSuburbanWife   [链接] [评论]]]></description>
@@ -39,13 +53,6 @@
       <description><![CDATA[为自己构建此生产力 Chrome 扩展程序，以绕过或添加 Momentum 没有的功能。 立即赠送，永久免费使用。请参阅 https://www.chromentum.com/   或 https://chromewebstore.google.com/detail/cjebfmoaokgmkhclgkpkdddledahedlp?utm_source=item-share-cb 我现在正在开发另一个项目，因此尚未添加新项目最近的功能，但如果您想要添加某些内容，请告诉我，我会在有时间后进行添加。 谢谢 -Alan   由   提交 /u/alanimal21   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1txkgdy/productivity_chrome_extension/</guid>
       <pubDate>Fri, 05 Jun 2026 13:06:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>帮助！我需要一个具有下列功能的免费屏幕录像机。</title>
-      <link>https://www.reddit.com/r/software/comments/1txjuoc/help_i_need_a_free_screen_recorder_with_the/</link>
-      <description><![CDATA[嗨，我需要一个屏幕录制应用程序的建议，该应用程序可以捕获系统音频和麦克风音频，而不需要像 OBS 或 QuickTime 那样多的设置，这需要安装 Blavkhoke 并配置所有内容。我知道设置输入和输出并不是什么大问题，但我更喜欢一个能够自行处理所有问题的应用程序。到目前为止，我看过一些，比如Bamdicam等，但它们都有5或10分钟的时间限制，然后就停止录制。之前，我在 Windows PC 上下载了 Minitool Screen Recorder，它的界面就像“单击并录制”一样简单，但我在 Mac 上找不到类似的免费工具。    由   提交/u/KevinPackards  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1txjuoc/help_i_need_a_free_screen_recorder_with_the/</guid>
-      <pubDate>Fri, 05 Jun 2026 12:41:52 GMT</pubDate>
     </item>
     <item>
       <title>每周探索主题 - 2026 年 6 月 5 日</title>
@@ -102,13 +109,6 @@
       <description><![CDATA[我的意思是让它自动适应视频的宽高比，而不使用覆盖字幕放置选项。因为当我观看 21:9 的内容时，我不喜欢下面黑条中的字幕。   由   提交 /u/Inevitable-Being-264   [链接] [评论]]]></description>
       <guid>https://www.reddit.com/r/software/comments/1tx1p6f/is_there_any_way_to_tweak_mpc_hc_to_use_subtitles/</guid>
       <pubDate>Thu, 04 Jun 2026 21:49:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>有谁知道如何获取 Bryce 3d 以及如何使其在 Windows 10 上运行？不是您刻录到光盘上的 ISO。</title>
-      <link>https://www.reddit.com/r/software/comments/1twym52/does_anyone_knows_how_to_get_bryce_3d_and_how_to/</link>
-      <description><![CDATA[我特别想使用 90 年代的 Bryce 3D 来制作一些奇怪的渲染和专辑封面。 有人知道如何获得它吗？   由   提交/u/Aiden_Rye  [链接] [评论]]]></description>
-      <guid>https://www.reddit.com/r/software/comments/1twym52/does_anyone_knows_how_to_get_bryce_3d_and_how_to/</guid>
-      <pubDate>Thu, 04 Jun 2026 19:54:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
