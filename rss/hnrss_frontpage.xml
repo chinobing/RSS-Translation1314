@@ -4,24 +4,69 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 08 Jun 2026 22:28:18 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 03:30:02 GMT</lastBuildDate>
     <item>
-      <title>OpenAI 向 SEC 提交 S-1 草案</title>
+      <title>我们认为 SpaceX IPO 估值过高</title>
+      <link>https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545</link>
+      <description><![CDATA[文章网址：https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545
+评论网址：https://news.ycombinator.com/item?id=48455233
+积分：111
+评论数量：91]]></description>
+      <guid>https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545</guid>
+      <pubDate>Tue, 09 Jun 2026 01:56:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>联邦法官阻止 H1B 签证 10 万美元费用</title>
+      <link>https://www.alaskasnewssource.com/2026/06/08/federal-judge-blocks-h1-b-visa-100k-fee/</link>
+      <description><![CDATA[文章网址：https://www.alaskasnewssource.com/2026/06/08/federal-judge-blocks-h1-b-visa-100k-fee/
+评论网址：https://news.ycombinator.com/item?id=48454210
+积分：89
+# 条评论：158]]></description>
+      <guid>https://www.alaskasnewssource.com/2026/06/08/federal-judge-blocks-h1-b-visa-100k-fee/</guid>
+      <pubDate>Tue, 09 Jun 2026 00:01:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Mach – 一种编译系统语言，寻求贡献</title>
+      <link>https://github.com/octalide/mach</link>
+      <description><![CDATA[您好，HN，我是 Mach 的创建者（https://github.com/octalide/mach 或 https://machlang.org）。前两天，我们终于实现了完全自托管。我想在这里发一篇文章来展示该语言，因为这对我们来说是一个重要的里程碑。## TL;DR 对于那些好奇的人来说：- 管道中的任何地方都没有外部依赖项。这包括 LLVM、libc 绑定或任何类似的东西（除了历史上的引导编译器，它需要任何 C 编译器并且已被完全淘汰）。- Mach 非常固执己见，非常反魔法。 WYSIWYG 是该语言的核心原则。没有隐藏行为、隐式类型转换或“自动功能”。简单性和消除歧义是该语言所坚持的核心原则。- 在撰写本文时，性能目前仅落后于 C 大约 4 倍，这几乎完全是由于缺乏自动向量化等深度编译器优化，而这些优化尚未完全实现。最终，Mach 至少会与 C 相当。## 为什么我要构建这个？我喜欢 C、Zig、Go 和（有时）Rust 等低级系统语言，但我想要一些积极阻止“聪明”的东西，以支持长期可维护性和整体清晰度。马赫非常固执己见，并且明确要求冗长，这是其他语言不敢做的。计算机不是魔法，您编写的代码不应该假装它们是魔法。
+这个项目最初是作为我自己的一个学习机会，但随着时间的推移逐渐发展成为一种功能齐全的语言。然而，我还有很多东西需要学习，随着这个项目在未来不断发展，我很高兴能够这样做。## 为什么我（读者）关心？如果你喜欢 C，你可能会喜欢 Mach。 Mach 从编写 C 的“氛围”中汲取了大量灵感，但改进了很多语法，缺少相当多的枪炮，“隐藏”了很多内部机制，并且拥有更好的依赖管理系统。如果你想使用一种完全能够替代 C 的语言，特别是如果你想为其开发做出贡献，那么请顺便过来看看。## 我应该去哪里查看它？github 存储库有一个如果您想与我自己或我们的其他几个常规用户聊天，请链接到我们的不和谐。
+我的个人帐户拥有所有现有的工具以及一些示例存储库（如果您愿意尝试的话）。## 这个项目会在 X 个月内消失吗？我已经在后台研究这个项目两年多了。这是一个长期项目，我计划在无限期的未来维持下去，无论有没有用户群。
+如果您喜欢这门语言，我强烈鼓励您参与它的开发，因为它将永远以某种身份存在。我知道这有点“漫无目的”，但我只想说，从事这个项目是一种极大的乐趣，我会喜欢任何和所有的意见和贡献，特别是如果您讨厌这种语言或发现需要解决的问题。
+让我知道你们的想法！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48453666
+积分：18
+# 条评论：5]]></description>
+      <guid>https://github.com/octalide/mach</guid>
+      <pubDate>Mon, 08 Jun 2026 23:05:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>向 SEC 秘密提交 S-1 草案</title>
       <link>https://openai.com/index/openai-submits-confidential-s-1/</link>
       <description><![CDATA[文章网址：https://openai.com/index/openai-submits-confidential-s-1/
 评论网址：https://news.ycombinator.com/item?id=48452317
-积分：87
-# 条评论：33]]></description>
+积分：311
+# 条评论：234]]></description>
       <guid>https://openai.com/index/openai-submits-confidential-s-1/</guid>
       <pubDate>Mon, 08 Jun 2026 21:22:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>苹果押注更便宜的人工智能将吸引小型开发者</title>
+      <link>https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/</link>
+      <description><![CDATA[文章网址：https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/
+评论网址：https://news.ycombinator.com/item?id=48452000
+积分：28
+# 条评论：11]]></description>
+      <guid>https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/</guid>
+      <pubDate>Mon, 08 Jun 2026 21:02:00 GMT</pubDate>
     </item>
     <item>
       <title>前沿代码</title>
       <link>https://cognition.ai/blog/frontier-code</link>
       <description><![CDATA[文章网址：https://cognition.ai/blog/frontier-code
 评论网址：https://news.ycombinator.com/item?id=48451723
-积分：42
-# 条评论：10]]></description>
+积分：114
+# 条评论：20]]></description>
       <guid>https://cognition.ai/blog/frontier-code</guid>
       <pubDate>Mon, 08 Jun 2026 20:45:03 GMT</pubDate>
     </item>
@@ -30,18 +75,18 @@
       <link>https://inavoyage.blogspot.com/2026/06/im-building-parallel-internet-and-its.html</link>
       <description><![CDATA[文章网址：https://inavoyage.blogspot.com/2026/06/im-building-parallel-internet-and-its.html
 评论网址：https://news.ycombinator.com/item?id=48450694
-积分：35
-# 条评论：30]]></description>
+积分：53
+# 条评论：57]]></description>
       <guid>https://inavoyage.blogspot.com/2026/06/im-building-parallel-internet-and-its.html</guid>
       <pubDate>Mon, 08 Jun 2026 19:45:04 GMT</pubDate>
     </item>
     <item>
-      <title>监控不安全：关于英国最新隐私威胁的声明 [pdf]</title>
+      <title>监控并不安全：关于英国最新隐私威胁的声明 [pdf]</title>
       <link>https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf</link>
       <description><![CDATA[文章网址：https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf
 评论网址：https://news.ycombinator.com/item?id=48450646
-积分：230
-# 条评论：50]]></description>
+积分：447
+# 条评论：169]]></description>
       <guid>https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf</guid>
       <pubDate>Mon, 08 Jun 2026 19:42:28 GMT</pubDate>
     </item>
@@ -50,8 +95,8 @@
       <link>https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/</link>
       <description><![CDATA[文章网址：https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/
 评论网址：https://news.ycombinator.com/item?id=48450142
-积分：278
-# 条评论：239]]></description>
+积分：398
+# 条评论：342]]></description>
       <guid>https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/</guid>
       <pubDate>Mon, 08 Jun 2026 19:14:47 GMT</pubDate>
     </item>
@@ -60,49 +105,10 @@
       <link>https://burrito.bio/essays/what-limits-a-cells-size</link>
       <description><![CDATA[文章网址：https://burrito.bio/essays/what-limits-a-cells-size
 评论网址：https://news.ycombinator.com/item?id=48450065
-积分：85
-# 条评论：37]]></description>
+积分：113
+# 条评论：54]]></description>
       <guid>https://burrito.bio/essays/what-limits-a-cells-size</guid>
       <pubDate>Mon, 08 Jun 2026 19:10:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>瑞士将举行全民公投将人口上限限制在1000万</title>
-      <link>https://www.admin.ch/en/sustainability-initiative</link>
-      <description><![CDATA[文章网址：https://www.admin.ch/en/sustainability-initiative
-评论网址：https://news.ycombinator.com/item?id=48450059
-积分：180
-# 条评论：381]]></description>
-      <guid>https://www.admin.ch/en/sustainability-initiative</guid>
-      <pubDate>Mon, 08 Jun 2026 19:09:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>苹果核心人工智能框架</title>
-      <link>https://developer.apple.com/documentation/coreai/</link>
-      <description><![CDATA[文章网址：https://developer.apple.com/documentation/coreai/
-评论网址：https://news.ycombinator.com/item?id=48449665
-积分：86
-# 条评论：5]]></description>
-      <guid>https://developer.apple.com/documentation/coreai/</guid>
-      <pubDate>Mon, 08 Jun 2026 18:47:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：自从人工智能出现以来，您为自己制作了哪些工具？</title>
-      <link>https://news.ycombinator.com/item?id=48449187</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=48449187
-积分：85
-评论数：127]]></description>
-      <guid>https://news.ycombinator.com/item?id=48449187</guid>
-      <pubDate>Mon, 08 Jun 2026 18:22:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Siri人工智能</title>
-      <link>https://www.apple.com/apple-intelligence/</link>
-      <description><![CDATA[文章网址：https://www.apple.com/apple-intelligence/
-评论网址：https://news.ycombinator.com/item?id=48449084
-积分：294
-# 条评论：218]]></description>
-      <guid>https://www.apple.com/apple-intelligence/</guid>
-      <pubDate>Mon, 08 Jun 2026 18:17:53 GMT</pubDate>
     </item>
     </channel>
 </rss>
