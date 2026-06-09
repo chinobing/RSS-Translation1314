@@ -4,118 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 09 Jun 2026 20:07:40 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 22:24:34 GMT</lastBuildDate>
     <item>
-      <title>Grit：使用 Agent 在 Rust 中重写 Git</title>
-      <link>https://blog.gitbutler.com/true-grit</link>
-      <description><![CDATA[文章网址：https://blog.gitbutler.com/true-grit
-评论网址：https://news.ycombinator.com/item?id=48466812
+      <title>Nagent，LLM 循环参考实现</title>
+      <link>https://github.com/macton/nagent</link>
+      <description><![CDATA[文章网址：https://github.com/macton/nagent
+评论网址：https://news.ycombinator.com/item?id=48468610
 积分：1
 # 条评论：0]]></description>
-      <guid>https://blog.gitbutler.com/true-grit</guid>
-      <pubDate>Tue, 09 Jun 2026 19:58:21 GMT</pubDate>
+      <guid>https://github.com/macton/nagent</guid>
+      <pubDate>Tue, 09 Jun 2026 22:21:13 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：人工智能新闻聚合器</title>
-      <link>https://aibriefs.news</link>
-      <description><![CDATA[我决定构建自己的人工智能提要阅读器，因为我想要一些我无法找到的功能，或者至少不是我想要的方式，例如：- 按兴趣/类别过滤新闻 
-- 将不同来源的相同故事聚合为一个
-- 显示每个新内容的简短摘要，这样如果您不太感兴趣，您可以跳过
-- 跟踪相关的人工智能人物，不仅包括他们的推文和帖子，还包括他们在文章和采访中的出现我仍在每天对其进行调整和改进。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48466773
+      <title>油井</title>
+      <link>https://oilwell.app</link>
+      <description><![CDATA[文章网址：https://oilwell.app
+评论网址：https://news.ycombinator.com/item?id=48468605
 积分：1
 # 条评论：0]]></description>
-      <guid>https://aibriefs.news</guid>
-      <pubDate>Tue, 09 Jun 2026 19:56:21 GMT</pubDate>
+      <guid>https://oilwell.app</guid>
+      <pubDate>Tue, 09 Jun 2026 22:20:41 GMT</pubDate>
     </item>
     <item>
-      <title>进展：皇家与波将金号</title>
-      <link>https://scottlocklin.wordpress.com/2026/06/09/progress-real-imaginary/</link>
-      <description><![CDATA[文章网址：https://scottlocklin.wordpress.com/2026/06/09/progress-real-imaginary/
-评论网址：https://news.ycombinator.com/item?id=48466729
+      <title>经常被忽视的控制情绪、记忆和注意力的系统</title>
+      <link>https://bigthink.com/perception-box/your-mind-body-connection-explained/</link>
+      <description><![CDATA[文章网址：https://bigthink.com/perception-box/your-mind-body-connection-explained/
+评论网址：https://news.ycombinator.com/item?id=48468578
 积分：1
 # 条评论：0]]></description>
-      <guid>https://scottlocklin.wordpress.com/2026/06/09/progress-real-imaginary/</guid>
-      <pubDate>Tue, 09 Jun 2026 19:53:23 GMT</pubDate>
+      <guid>https://bigthink.com/perception-box/your-mind-body-connection-explained/</guid>
+      <pubDate>Tue, 09 Jun 2026 22:18:19 GMT</pubDate>
     </item>
     <item>
-      <title>问HN：网络烦躁是各领域煤矿里的金丝雀吗？</title>
-      <link>https://news.ycombinator.com/item?id=48466662</link>
-      <description><![CDATA[当您试图衡量一个行业是否表现良好时，这是您要注意的信号吗？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48466662
+      <title>当您搜索 FreeBSD 或 OpenBSD 时，DuckDuckGo 会显示特殊徽标</title>
+      <link>https://duckduckgo.com/?q=freebsd</link>
+      <description><![CDATA[文章网址：https://duckduckgo.com/?q=freebsd
+评论网址：https://news.ycombinator.com/item?id=48468558
 积分：1
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=48466662</guid>
-      <pubDate>Tue, 09 Jun 2026 19:48:44 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://duckduckgo.com/?q=freebsd</guid>
+      <pubDate>Tue, 09 Jun 2026 22:17:02 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：RS-Poker V5 自学习多线程异步代理</title>
-      <link>https://ottercrew.group/blog/poker-v5/</link>
-      <description><![CDATA[rs-poker 长期以来一直是我的热情项目。这个版本是巨大的，因为这是我第一次知道开源扑克机器人/代理实现包含所有最先进的技术。- 基于 tokio 的异步探索
-- 基于 Rust 板分配的树结构，以最小化遗憾
-- 完美的散列可实现更快的手牌排名
-- 通过https://ratatui.rs/创建您自己的扑克机器人并让它们在竞技场中竞争的TUI应该少于100行代码：https://docs.rs/rs_poker/latest/rs_poker/arena/index.html我需要更多地关注实现，并进行更多尝试以使算法和代理达到最先进的水平。我知道我不可能找到最佳的配置和算法；我希望开源社区能证明我是错的。我需要解决一个明显的限制。现在，CFR 智能体无法预测对手的手牌，因此所有遗憾最小化要么使用精确的手牌（非常保守），要么使用随机的手牌（所以范围太广）。我在这里有一些想法，但我需要更多数据和更多讨论。直接 github：https://github.com/elliottneilclark/rs-poker
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48466653
+      <title>新数据显示人工智能对地球产生重大影响后联合国发布警告</title>
+      <link>https://www.the-independent.com/tech/ai-artificial-intelligence-un-electricity-water-sustainability-b2988832.html</link>
+      <description><![CDATA[文章网址：https://www.the-independent.com/tech/ai-artificial-intelligence-un-electricity-water-sustainability-b2988832.html
+评论网址：https://news.ycombinator.com/item?id=48468550
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.the-independent.com/tech/ai-artificial-intelligence-un-electricity-water-sustainability-b2988832.html</guid>
+      <pubDate>Tue, 09 Jun 2026 22:16:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>自我完善的GTM工程师数据库</title>
+      <link>https://www.upside.tech/gtme/</link>
+      <description><![CDATA[文章网址：https://www.upside.tech/gtme/
+评论网址：https://news.ycombinator.com/item?id=48468532
 积分：2
 # 条评论：1]]></description>
-      <guid>https://ottercrew.group/blog/poker-v5/</guid>
-      <pubDate>Tue, 09 Jun 2026 19:48:25 GMT</pubDate>
+      <guid>https://www.upside.tech/gtme/</guid>
+      <pubDate>Tue, 09 Jun 2026 22:15:11 GMT</pubDate>
     </item>
     <item>
-      <title>悄悄推动农药制造商免受诉讼</title>
-      <link>https://grist.org/sponsored/the-quiet-push-to-shield-pesticide-makers-from-lawsuits/</link>
-      <description><![CDATA[文章网址：https://grist.org/owned/the-quiet-push-to-shield-pesticide-makers-from-lawsuits/
-评论网址：https://news.ycombinator.com/item?id=48466634
-积分：2
-# 条评论：0]]></description>
-      <guid>https://grist.org/sponsored/the-quiet-push-to-shield-pesticide-makers-from-lawsuits/</guid>
-      <pubDate>Tue, 09 Jun 2026 19:46:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>数百万年前你的后院在哪里？</title>
-      <link>https://phys.org/news/2026-04-backyard-millions-years.html</link>
-      <description><![CDATA[文章网址：https://phys.org/news/2026-04-backyard-millions-years.html
-评论网址：https://news.ycombinator.com/item?id=48466621
-积分：2
-# 条评论：0]]></description>
-      <guid>https://phys.org/news/2026-04-backyard-millions-years.html</guid>
-      <pubDate>Tue, 09 Jun 2026 19:45:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：每天预测与好友的世界杯比分</title>
-      <link>https://scorinho.com</link>
-      <description><![CDATA[大家好，《FIFA》奇幻游戏对我来说似乎太过费力了。我只想每天玩几分钟，让我在整个世界杯期间参与不同的比赛。游戏的目的是正确预测当天比赛的比分。您可以通过准确猜测谁获胜（或者是否平局）来获得积分，并且通过接近双方进球数来获得积分。创建一个小组/桌子来与您的朋友比赛很容易。如果有任何问题或疑问，请告诉我。谢谢，
-克里斯
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48466616
+      <title>盖伊再次突破极限 - 两次；D</title>
+      <link>https://rogmash.neocities.org/synthesizer1</link>
+      <description><![CDATA[文章网址：https://rogmash.neocities.org/synthesizer1
+评论网址：https://news.ycombinator.com/item?id=48468521
 积分：1
 # 条评论：1]]></description>
-      <guid>https://scorinho.com</guid>
-      <pubDate>Tue, 09 Jun 2026 19:44:50 GMT</pubDate>
+      <guid>https://rogmash.neocities.org/synthesizer1</guid>
+      <pubDate>Tue, 09 Jun 2026 22:14:18 GMT</pubDate>
     </item>
     <item>
-      <title>纽约创始人寻找初创办公硬件</title>
-      <link>https://news.ycombinator.com/item?id=48466614</link>
-      <description><![CDATA[您好，我在纽约市丹波市有一间办公室，我们将于下周 2026 年 6 月 19 日清理完毕。我们有 19 台几乎没用过的 MacBook 显示器，BenQ MA270U 27 英寸；每台售价 250 美元。它们配有运行所需的所有电缆（电源和 USB-c 电缆）。我们还有 4 台完全可以正常工作、处于原始状态的 Google Meet 设置；包括所有电缆、扬声器点、大型条形音箱、小型桌边显示器和计算机系统栏，每件价格通常超过 2000 美元，而且现在很难通过 Google 获得。请通过电子邮件与我联系：@emily [at] alanmeds [dot] com
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48466614
+      <title>将 React 编译器移植到 Rust（已合并）</title>
+      <link>https://github.com/react/react/pull/36173</link>
+      <description><![CDATA[文章网址：https://github.com/react/react/pull/36173
+评论网址：https://news.ycombinator.com/item?id=48468500
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48466614</guid>
-      <pubDate>Tue, 09 Jun 2026 19:44:37 GMT</pubDate>
+      <guid>https://github.com/react/react/pull/36173</guid>
+      <pubDate>Tue, 09 Jun 2026 22:12:42 GMT</pubDate>
     </item>
     <item>
-      <title>AI 代理的运行时防护</title>
-      <link>https://guard-sdk.js.org/</link>
-      <description><![CDATA[文章网址：https://guard-sdk.js.org/
-评论网址：https://news.ycombinator.com/item?id=48466595
+      <title>毕竟 SAT 是必要的</title>
+      <link>https://www.theatlantic.com/ideas/2026/06/standardized-testing-math-gaps/687481/</link>
+      <description><![CDATA[文章网址：https://www.theatlantic.com/ideas/2026/06/standardized-testing-math-gaps/687481/
+评论网址：https://news.ycombinator.com/item?id=48468497
 积分：1
 # 条评论：0]]></description>
-      <guid>https://guard-sdk.js.org/</guid>
-      <pubDate>Tue, 09 Jun 2026 19:43:22 GMT</pubDate>
+      <guid>https://www.theatlantic.com/ideas/2026/06/standardized-testing-math-gaps/687481/</guid>
+      <pubDate>Tue, 09 Jun 2026 22:12:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 iPhone 上编写 GBA 游戏</title>
+      <link>https://blog.adamledoux.net/posts/2026-06-08-programming-a-gba-game-on-an-iphone.html</link>
+      <description><![CDATA[文章网址：https://blog.adamledoux.net/posts/2026-06-08-programming-a-gba-game-on-an-iphone.html
+评论网址：https://news.ycombinator.com/item?id=48468495
+积分：1
+# 条评论：0]]></description>
+      <guid>https://blog.adamledoux.net/posts/2026-06-08-programming-a-gba-game-on-an-iphone.html</guid>
+      <pubDate>Tue, 09 Jun 2026 22:12:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
