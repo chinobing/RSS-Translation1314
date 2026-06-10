@@ -4,120 +4,108 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 10 Jun 2026 03:41:04 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 15:34:27 GMT</lastBuildDate>
     <item>
-      <title>Rich Sutton 谈人工智能创造力和发现</title>
-      <link>https://twitter.com/RichardSSutton/status/2061216087744946656</link>
-      <description><![CDATA[https://www.youtube.com/watch?v=K5LAFEjTlBA
+      <title>Apache Burr：构建可靠的 AI 代理和应用程序</title>
+      <link>https://burr.apache.org/</link>
+      <description><![CDATA[文章网址：https://burr.apache.org/
+评论网址：https://news.ycombinator.com/item?id=48477400
+积分：9
+# 条评论：0]]></description>
+      <guid>https://burr.apache.org/</guid>
+      <pubDate>Wed, 10 Jun 2026 15:01:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMA：我是埃里克·里斯（精益创业）兼新畅销书《廉洁》的作者</title>
+      <link>https://news.ycombinator.com/item?id=48477135</link>
+      <description><![CDATA[嘿，大家，你们可能还记得我在《精益创业》和《创业之路》等书中的经历。我写《精益创业》已经过去十五年了，在这段时间里我看到了一些东西。无论是大公司还是小型初创公司、非政府组织还是政府，几乎在您能说出名字的每个行业中。我帮助很多人创建了许多令人惊叹的公司，但我也看到了很多可能出错的方式。我们的行业中存在着我们经常不谈论的黑暗面。我一直看到优秀的公司逐渐偏离了他们创立的使命。不是因为有人有一天醒来并决定作恶，而是因为他们所建立的结构慢慢地将他们拉向那里。我将这种拉力称为“财务引力”。我们都曾目睹过自己喜爱或钦佩的公司被扭曲、破碎得面目全非；我们都经历过这样的情况：直到它变成了以前的外壳，或者更糟。我想知道为什么。我想知道我们所有人可以做些什么来阻止这种情况发生。我的新书《廉洁》是我试图解释塑造组织的无形力量，以及少数公司（如好市多、巴塔哥尼亚和诺和诺德）如何成功地构建起来抵抗重力并蓬勃发展数十年甚至数百年的。在此过程中，我创立了长期证券交易所，与他人共同创立了一个名为 Answer.AI 的人工智能研发实验室。 Jeremy Howard，并帮助许多著名公司进行治理（是的，包括 Anthropic）。我不会假装我已经弄清楚了这一切，但我可能在“为什么好公司会变坏”问题上花费了更多的时间。有什么问题就问我吧！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48470581
-积分：29
-# 条评论：10]]></description>
-      <guid>https://twitter.com/RichardSSutton/status/2061216087744946656</guid>
-      <pubDate>Wed, 10 Jun 2026 02:25:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>德国裁决宣布谷歌对人工智能概述中的错误答案承担责任</title>
-      <link>https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/</link>
-      <description><![CDATA[文章网址： https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/
-评论网址：https://news.ycombinator.com/item?id=48470248
-积分：116
-# 条评论：45]]></description>
-      <guid>https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/</guid>
-      <pubDate>Wed, 10 Jun 2026 01:44:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>macOS 容器机</title>
-      <link>https://github.com/apple/container/blob/main/docs/container-machine.md</link>
-      <description><![CDATA[文章网址：https://github.com/apple/container/blob/main/docs/container-machine.md
-评论网址：https://news.ycombinator.com/item?id=48469658
-积分：309
-# 条评论：118]]></description>
-      <guid>https://github.com/apple/container/blob/main/docs/container-machine.md</guid>
-      <pubDate>Wed, 10 Jun 2026 00:29:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>这是死亡</title>
-      <link>https://jesseduffield.com/ITS-DEATH/</link>
-      <description><![CDATA[文章网址：https://jesseduffield.com/ITS-DEATH/
-评论网址：https://news.ycombinator.com/item?id=48469347
-积分：129
-# 条评论：33]]></description>
-      <guid>https://jesseduffield.com/ITS-DEATH/</guid>
-      <pubDate>Tue, 09 Jun 2026 23:44:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Nucleus – 安全性强化的 Nix 原生容器运行时</title>
-      <link>https://github.com/sig-id/nucleus</link>
-      <description><![CDATA[您好，HN，我一直在构建 Nucleus，这是一个轻量级 Linux 容器运行时，专注于两种工作负载：临时 AI 代理沙箱和声明性 NixOS 服务。它是一个 Rust 二进制文件，没有守护进程。它不是 Docker 的替代品，也不是 Docker 的严格子集。我放弃了整个镜像和分发的一半（没有 Dockerfile、没有层、没有注册表、没有拉/推、没有持久存储层），以换取更深入的隔离和可重复性。 rootfs 要么是复制到 tmpfs 中的目录（代理模式），要么是 Nix 构建的以只读方式安装的闭包（生产模式）。如果您的心理模型是“运行我的图像而不是 docker run”，那么这将不合适。如果它是“在单个主机上运行不受信任或短暂的工作负载，并具有更强大、可审核的隔离”，那么这就是目标。我认为有趣的事情： - 深度防御默认值。所有功能均已删除，约 100 个系统调用 seccomp 允许列表（相对于 Docker 的约 300 个）、最多 8 个命名空间（包括 time/cgroup）、每个服务的 Landlock LSM 路径 ACL。
-  - 默认拒绝出口。除非您允许特定 CIDR 或 DNS 解析域，否则出站流量将被拒绝。使用命名空间本地 iptables 规则强制执行。
-  - 外部化、哈希固定的安全策略。 seccomp (JSON)、capability (TOML) 和 Landlock (TOML) 作为单独的 SHA-256 验证文件存在，与 rootfs 构建分离。有一个 core seccomp 生成器，可以在跟踪模式下记录系统调用并发出最小的配置文件。
-  - gVisor 作为一流的集成运行时，而不是附加组件。显式网络模式，包括故意与本机主机网络分开的 gvisor-host 模式。
-  - Nix 原生生产路径。 nucleus.lib.mkRootfs 构建锁定闭包； rootfs 证明在启动时验证每个文件的 SHA-256 清单；一流的 NixOS 模块。
-  - 形式验证。隔离/资源/文件系统/安全/gVisor 子系统的 TLA+ 规范，使用 Apalache 检查，以及根据规范驱动 Rust 实现的基于属性的测试。
-
-诚实的权衡：
-  - 仅限 Linux x86_64。没有 macOS/Windows/BSD，没有计划。
-  - 无 CNI、无覆盖网络、无集群编排。 nucleus compose 是基于 systemd 的单主机 TOML DAG，而不是 Swarm/K8s。
-  - 默认的临时存储。持久性是通过显式的 --volume 绑定选择加入的。
-  - 代理模式在设计上尽力应用多种机制（在 seccomp/Landlock 失败时发出警告并继续）。对于临时工作负载的故障关闭隔离，请使用 --service-mode strict-agent；对于长时间运行的服务，请使用生产模式。本机运行时的冷启动约为 12 毫秒。 Nucleus 下的 Postgres 18 pgbench 数字在我们的安全带中裸机的噪音范围内（完整结果在长凳/中）。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48469039
-积分：20
-# 条评论：2]]></description>
-      <guid>https://github.com/sig-id/nucleus</guid>
-      <pubDate>Tue, 09 Jun 2026 23:03:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>RIP 软件黑客马拉松。硬件黑客马拉松万岁</title>
-      <link>https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/</link>
-      <description><![CDATA[文章网址：https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/
-评论网址：https://news.ycombinator.com/item?id=48468766
-积分：84
-# 条评论：27]]></description>
-      <guid>https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/</guid>
-      <pubDate>Tue, 09 Jun 2026 22:35:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>如果克劳德寓言不再帮助你，你永远不会知道</title>
-      <link>https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</link>
-      <description><![CDATA[相关：https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48467896
-积分：583
-# 条评论：285]]></description>
-      <guid>https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</guid>
-      <pubDate>Tue, 09 Jun 2026 21:19:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>Exif 走私 (2025)</title>
-      <link>https://github.com/signalblur/exifsmugglingpoc</link>
-      <description><![CDATA[文章网址：https://github.com/signalblur/exifsmugglingpoc
-评论网址：https://news.ycombinator.com/item?id=48467759
-积分：65
+评论网址：https://news.ycombinator.com/item?id=48477135
+积分：42
 # 条评论：23]]></description>
-      <guid>https://github.com/signalblur/exifsmugglingpoc</guid>
-      <pubDate>Tue, 09 Jun 2026 21:06:00 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=48477135</guid>
+      <pubDate>Wed, 10 Jun 2026 14:47:52 GMT</pubDate>
     </item>
     <item>
-      <title>npm v12 即将发生的重大变更</title>
-      <link>https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</link>
-      <description><![CDATA[文章网址：https://github.blog/changelog/2026-06-09-upcoming-writing-changes-for-npm-v12/
-评论网址：https://news.ycombinator.com/item?id=48467705
-积分：229
-# 条评论：73]]></description>
-      <guid>https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</guid>
-      <pubDate>Tue, 09 Jun 2026 21:01:00 GMT</pubDate>
+      <title>DeepSeek 的注释</title>
+      <link>https://twitter.com/NikoMcCarty/status/2064686557400100884</link>
+      <description><![CDATA[文章网址：https://twitter.com/NikoMcCarty/status/2064686557400100884
+评论网址：https://news.ycombinator.com/item?id=48476474
+积分：47
+# 条评论：28]]></description>
+      <guid>https://twitter.com/NikoMcCarty/status/2064686557400100884</guid>
+      <pubDate>Wed, 10 Jun 2026 14:03:40 GMT</pubDate>
     </item>
     <item>
-      <title>Grit：使用代理在 Rust 中重写 Git</title>
-      <link>https://blog.gitbutler.com/true-grit</link>
-      <description><![CDATA[文章网址：https://blog.gitbutler.com/true-grit
-评论网址：https://news.ycombinator.com/item?id=48466812
-积分：85
-评论数：127]]></description>
-      <guid>https://blog.gitbutler.com/true-grit</guid>
-      <pubDate>Tue, 09 Jun 2026 19:58:21 GMT</pubDate>
+      <title>PgDog 已获得资助并进入您附近的数据库</title>
+      <link>https://pgdog.dev/blog/our-funding-announcement</link>
+      <description><![CDATA[文章网址：https://pgdog.dev/blog/our-funding-announcement
+评论网址：https://news.ycombinator.com/item?id=48476466
+积分：83
+# 条评论：45]]></description>
+      <guid>https://pgdog.dev/blog/our-funding-announcement</guid>
+      <pubDate>Wed, 10 Jun 2026 14:02:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>0.01 欧元的银行转账可能会危及银行人工智能代理的安全</title>
+      <link>https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/</link>
+      <description><![CDATA[文章网址：https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/
+评论网址：https://news.ycombinator.com/item?id=48476136
+积分：33
+# 条评论：8]]></description>
+      <guid>https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/</guid>
+      <pubDate>Wed, 10 Jun 2026 13:39:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>我最讨厌键盘上的“Fn”键</title>
+      <link>https://danq.me/2026/06/09/fn-keys/</link>
+      <description><![CDATA[文章网址：https://danq.me/2026/06/09/fn-keys/
+评论网址：https://news.ycombinator.com/item?id=48475938
+积分：126
+# 条评论：120]]></description>
+      <guid>https://danq.me/2026/06/09/fn-keys/</guid>
+      <pubDate>Wed, 10 Jun 2026 13:22:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>建立 HTML 优先的网站一夜之间使我们的用户数量增加了一倍</title>
+      <link>https://mohkohn.co.uk/writing/html-first/</link>
+      <description><![CDATA[文章网址：https://mohkohn.co.uk/writing/html-first/
+评论网址：https://news.ycombinator.com/item?id=48475483
+积分：357
+# 条评论：137]]></description>
+      <guid>https://mohkohn.co.uk/writing/html-first/</guid>
+      <pubDate>Wed, 10 Jun 2026 12:45:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>所有 9,300 个日本火车站，按其开业年份（1872 年至 2026 年）活跃起来</title>
+      <link>https://jivx.com/eki</link>
+      <description><![CDATA[文章网址：https://jivx.com/eki
+评论网址：https://news.ycombinator.com/item?id=48475100
+积分：84
+# 条评论：30]]></description>
+      <guid>https://jivx.com/eki</guid>
+      <pubDate>Wed, 10 Jun 2026 12:11:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：您的 Claude Code 配额的 macOS 菜单栏仪表</title>
+      <link>https://github.com/grzegorz-raczek-unit8/claude-quota</link>
+      <description><![CDATA[文章网址：https://github.com/grzegorz-raczek-unit8/claude-quota
+评论网址：https://news.ycombinator.com/item?id=48473845
+积分：45
+# 条评论：31]]></description>
+      <guid>https://github.com/grzegorz-raczek-unit8/claude-quota</guid>
+      <pubDate>Wed, 10 Jun 2026 09:43:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>AWS Bedrock 要求与 Anthropic 共享 Mythos 和未来模型的数据</title>
+      <link>https://news.ycombinator.com/item?id=48473166</link>
+      <description><![CDATA[&gt; 对于《神鬼寓言 5》、《神话 5》以及基岩上具有类似或更高功能级别的未来模型，Anthropic 将要求神话级模型上的所有流量保留 30 天。在有限的时间内保留数据使 Anthropic 能够检测到单次交换中不可见的滥用模式。一旦您选择保留数据，您的数据将离开 AWS 的数据和安全边界。摘自此处的公告：https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on...&gt; 30 天后，数据将自动删除，除非是安全调查的一部分或法律要求我们保留数据的极少数情况。来自：https://support.claude.com/en/articles/15425996-data-retenti...
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48473166
+积分：279
+# 条评论：180]]></description>
+      <guid>https://news.ycombinator.com/item?id=48473166</guid>
+      <pubDate>Wed, 10 Jun 2026 08:21:38 GMT</pubDate>
     </item>
     </channel>
 </rss>
