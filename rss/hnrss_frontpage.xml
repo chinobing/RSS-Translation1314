@@ -4,108 +4,120 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 09 Jun 2026 22:24:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 03:41:04 GMT</lastBuildDate>
+    <item>
+      <title>Rich Sutton 谈人工智能创造力和发现</title>
+      <link>https://twitter.com/RichardSSutton/status/2061216087744946656</link>
+      <description><![CDATA[https://www.youtube.com/watch?v=K5LAFEjTlBA
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48470581
+积分：29
+# 条评论：10]]></description>
+      <guid>https://twitter.com/RichardSSutton/status/2061216087744946656</guid>
+      <pubDate>Wed, 10 Jun 2026 02:25:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>德国裁决宣布谷歌对人工智能概述中的错误答案承担责任</title>
+      <link>https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/</link>
+      <description><![CDATA[文章网址： https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/
+评论网址：https://news.ycombinator.com/item?id=48470248
+积分：116
+# 条评论：45]]></description>
+      <guid>https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/</guid>
+      <pubDate>Wed, 10 Jun 2026 01:44:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>macOS 容器机</title>
+      <link>https://github.com/apple/container/blob/main/docs/container-machine.md</link>
+      <description><![CDATA[文章网址：https://github.com/apple/container/blob/main/docs/container-machine.md
+评论网址：https://news.ycombinator.com/item?id=48469658
+积分：309
+# 条评论：118]]></description>
+      <guid>https://github.com/apple/container/blob/main/docs/container-machine.md</guid>
+      <pubDate>Wed, 10 Jun 2026 00:29:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>这是死亡</title>
+      <link>https://jesseduffield.com/ITS-DEATH/</link>
+      <description><![CDATA[文章网址：https://jesseduffield.com/ITS-DEATH/
+评论网址：https://news.ycombinator.com/item?id=48469347
+积分：129
+# 条评论：33]]></description>
+      <guid>https://jesseduffield.com/ITS-DEATH/</guid>
+      <pubDate>Tue, 09 Jun 2026 23:44:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Nucleus – 安全性强化的 Nix 原生容器运行时</title>
+      <link>https://github.com/sig-id/nucleus</link>
+      <description><![CDATA[您好，HN，我一直在构建 Nucleus，这是一个轻量级 Linux 容器运行时，专注于两种工作负载：临时 AI 代理沙箱和声明性 NixOS 服务。它是一个 Rust 二进制文件，没有守护进程。它不是 Docker 的替代品，也不是 Docker 的严格子集。我放弃了整个镜像和分发的一半（没有 Dockerfile、没有层、没有注册表、没有拉/推、没有持久存储层），以换取更深入的隔离和可重复性。 rootfs 要么是复制到 tmpfs 中的目录（代理模式），要么是 Nix 构建的以只读方式安装的闭包（生产模式）。如果您的心理模型是“运行我的图像而不是 docker run”，那么这将不合适。如果它是“在单个主机上运行不受信任或短暂的工作负载，并具有更强大、可审核的隔离”，那么这就是目标。我认为有趣的事情： - 深度防御默认值。所有功能均已删除，约 100 个系统调用 seccomp 允许列表（相对于 Docker 的约 300 个）、最多 8 个命名空间（包括 time/cgroup）、每个服务的 Landlock LSM 路径 ACL。
+  - 默认拒绝出口。除非您允许特定 CIDR 或 DNS 解析域，否则出站流量将被拒绝。使用命名空间本地 iptables 规则强制执行。
+  - 外部化、哈希固定的安全策略。 seccomp (JSON)、capability (TOML) 和 Landlock (TOML) 作为单独的 SHA-256 验证文件存在，与 rootfs 构建分离。有一个 core seccomp 生成器，可以在跟踪模式下记录系统调用并发出最小的配置文件。
+  - gVisor 作为一流的集成运行时，而不是附加组件。显式网络模式，包括故意与本机主机网络分开的 gvisor-host 模式。
+  - Nix 原生生产路径。 nucleus.lib.mkRootfs 构建锁定闭包； rootfs 证明在启动时验证每个文件的 SHA-256 清单；一流的 NixOS 模块。
+  - 形式验证。隔离/资源/文件系统/安全/gVisor 子系统的 TLA+ 规范，使用 Apalache 检查，以及根据规范驱动 Rust 实现的基于属性的测试。
+
+诚实的权衡：
+  - 仅限 Linux x86_64。没有 macOS/Windows/BSD，没有计划。
+  - 无 CNI、无覆盖网络、无集群编排。 nucleus compose 是基于 systemd 的单主机 TOML DAG，而不是 Swarm/K8s。
+  - 默认的临时存储。持久性是通过显式的 --volume 绑定选择加入的。
+  - 代理模式在设计上尽力应用多种机制（在 seccomp/Landlock 失败时发出警告并继续）。对于临时工作负载的故障关闭隔离，请使用 --service-mode strict-agent；对于长时间运行的服务，请使用生产模式。本机运行时的冷启动约为 12 毫秒。 Nucleus 下的 Postgres 18 pgbench 数字在我们的安全带中裸机的噪音范围内（完整结果在长凳/中）。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48469039
+积分：20
+# 条评论：2]]></description>
+      <guid>https://github.com/sig-id/nucleus</guid>
+      <pubDate>Tue, 09 Jun 2026 23:03:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>RIP 软件黑客马拉松。硬件黑客马拉松万岁</title>
+      <link>https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/</link>
+      <description><![CDATA[文章网址：https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/
+评论网址：https://news.ycombinator.com/item?id=48468766
+积分：84
+# 条评论：27]]></description>
+      <guid>https://blog.oscars.dev/posts/rip-software-hackathons-long-live-the-hardware-hackathon/</guid>
+      <pubDate>Tue, 09 Jun 2026 22:35:57 GMT</pubDate>
+    </item>
     <item>
       <title>如果克劳德寓言不再帮助你，你永远不会知道</title>
       <link>https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</link>
-      <description><![CDATA[文章网址：https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html
+      <description><![CDATA[相关：https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/
+&lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=48467896
-积分：107
-# 条评论：36]]></description>
+积分：583
+# 条评论：285]]></description>
       <guid>https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</guid>
       <pubDate>Tue, 09 Jun 2026 21:19:11 GMT</pubDate>
     </item>
     <item>
-      <title>Exif 走私</title>
+      <title>Exif 走私 (2025)</title>
       <link>https://github.com/signalblur/exifsmugglingpoc</link>
       <description><![CDATA[文章网址：https://github.com/signalblur/exifsmugglingpoc
 评论网址：https://news.ycombinator.com/item?id=48467759
-积分：22
-# 条评论：8]]></description>
+积分：65
+# 条评论：23]]></description>
       <guid>https://github.com/signalblur/exifsmugglingpoc</guid>
       <pubDate>Tue, 09 Jun 2026 21:06:00 GMT</pubDate>
     </item>
     <item>
-      <title>公司将在 ALPR 中添加手机、AirPod 和智能手表追踪器</title>
-      <link>https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</link>
-      <description><![CDATA[文章网址：https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/
-评论网址：https://news.ycombinator.com/item?id=48467712
-积分：32
-# 条评论：10]]></description>
-      <guid>https://www.404media.co/this-company-will-add-phone-airpod-and-smartwatch-trackers-to-license-plate-readers/</guid>
-      <pubDate>Tue, 09 Jun 2026 21:01:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>NPM v12 即将发生的重大更改</title>
+      <title>npm v12 即将发生的重大变更</title>
       <link>https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</link>
       <description><![CDATA[文章网址：https://github.blog/changelog/2026-06-09-upcoming-writing-changes-for-npm-v12/
 评论网址：https://news.ycombinator.com/item?id=48467705
-积分：43
-# 条评论：10]]></description>
+积分：229
+# 条评论：73]]></description>
       <guid>https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/</guid>
       <pubDate>Tue, 09 Jun 2026 21:01:00 GMT</pubDate>
     </item>
     <item>
-      <title>Alpine Linux 3.24.0 发布</title>
-      <link>https://alpinelinux.org/posts/Alpine-3.24.0-released.html</link>
-      <description><![CDATA[文章网址：https://alpinelinux.org/posts/Alpine-3.24.0-released.html
-评论网址：https://news.ycombinator.com/item?id=48467570
-积分：71
-# 条评论：14]]></description>
-      <guid>https://alpinelinux.org/posts/Alpine-3.24.0-released.html</guid>
-      <pubDate>Tue, 09 Jun 2026 20:50:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Grit：使用 Agent 在 Rust 中重写 Git</title>
+      <title>Grit：使用代理在 Rust 中重写 Git</title>
       <link>https://blog.gitbutler.com/true-grit</link>
       <description><![CDATA[文章网址：https://blog.gitbutler.com/true-grit
 评论网址：https://news.ycombinator.com/item?id=48466812
-积分：12
-# 条评论：0]]></description>
+积分：85
+评论数：127]]></description>
       <guid>https://blog.gitbutler.com/true-grit</guid>
       <pubDate>Tue, 09 Jun 2026 19:58:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>通过 Kolmogorov-Arnold 网络在 FPGA 上进行超快机器学习</title>
-      <link>https://aarushgupta.io/posts/kan-fpga/</link>
-      <description><![CDATA[https://web.archive.org/web/20260609200156/https://aarushgup...
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48466277
-积分：108
-# 条评论：14]]></description>
-      <guid>https://aarushgupta.io/posts/kan-fpga/</guid>
-      <pubDate>Tue, 09 Jun 2026 19:21:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：您还在使用 Vision Pro 吗？</title>
-      <link>https://news.ycombinator.com/item?id=48465702</link>
-      <description><![CDATA[大约两年前，有一个关于此的主题（https://news.ycombinator.com/item?id=40872102）。  我现在很好奇，更多的时间过去了人们怎么想？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48465702
-积分：99
-# 条评论：116]]></description>
-      <guid>https://news.ycombinator.com/item?id=48465702</guid>
-      <pubDate>Tue, 09 Jun 2026 18:47:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>认为人工智能取代员工的首席执行官都是糟糕的首席执行官</title>
-      <link>https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</link>
-      <description><![CDATA[文章网址：https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/
-评论网址：https://news.ycombinator.com/item?id=48465675
-积分：229
-评论数量：106]]></description>
-      <guid>https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</guid>
-      <pubDate>Tue, 09 Jun 2026 18:45:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI就业危机在哪里？</title>
-      <link>https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis</link>
-      <description><![CDATA[文章网址：https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis
-评论网址：https://news.ycombinator.com/item?id=48464333
-积分：119
-# 条评论：176]]></description>
-      <guid>https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis</guid>
-      <pubDate>Tue, 09 Jun 2026 17:29:17 GMT</pubDate>
     </item>
     </channel>
 </rss>
