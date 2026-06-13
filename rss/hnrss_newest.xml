@@ -4,120 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 12 Jun 2026 22:25:46 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 08:58:12 GMT</lastBuildDate>
     <item>
-      <title>使用经纪人对足球进行评论</title>
-      <link>https://twitter.com/neevash/status/2065556015731626213</link>
-      <description><![CDATA[文章网址：https://twitter.com/neevash/status/2065556015731626213
-评论网址：https://news.ycombinator.com/item?id=48510069
+      <title>Contrail Compute AIX 首个 RISC-V AI 执行平台</title>
+      <link>https://www.epicsemi.com/products/contrail/contrail-compute/</link>
+      <description><![CDATA[文章网址：https://www.epicsemi.com/products/contrail/contrail-compute/
+评论网址：https://news.ycombinator.com/item?id=48514997
 积分：1
 # 条评论：0]]></description>
-      <guid>https://twitter.com/neevash/status/2065556015731626213</guid>
-      <pubDate>Fri, 12 Jun 2026 22:17:16 GMT</pubDate>
+      <guid>https://www.epicsemi.com/products/contrail/contrail-compute/</guid>
+      <pubDate>Sat, 13 Jun 2026 08:46:49 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能将拯救预测市场</title>
-      <link>https://twitter.com/0xjaniak/status/2058907417161646186</link>
-      <description><![CDATA[文章网址：https://twitter.com/0xjaniak/status/2058907417161646186
-评论网址：https://news.ycombinator.com/item?id=48510068
+      <title>用多项式分解“短袖”零重 RSA 密钥</title>
+      <link>https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/</link>
+      <description><![CDATA[文章网址：https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/
+评论网址：https://news.ycombinator.com/item?id=48514966
 积分：1
 # 条评论：0]]></description>
-      <guid>https://twitter.com/0xjaniak/status/2058907417161646186</guid>
-      <pubDate>Fri, 12 Jun 2026 22:17:12 GMT</pubDate>
+      <guid>https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/</guid>
+      <pubDate>Sat, 13 Jun 2026 08:42:05 GMT</pubDate>
     </item>
     <item>
-      <title>FFmpeg 中的二十一个零日漏洞</title>
-      <link>https://depthfirst.com/research/21-zero-days-in-ffmpeg</link>
-      <description><![CDATA[文章网址：https://deepfirst.com/research/21-zero-days-in-ffmpeg
-评论网址：https://news.ycombinator.com/item?id=48510046
-积分：1
-# 条评论：0]]></description>
-      <guid>https://depthfirst.com/research/21-zero-days-in-ffmpeg</guid>
-      <pubDate>Fri, 12 Jun 2026 22:13:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于猫扫描的 Dicom/stl 切片机</title>
-      <link>https://github.com/tgys/stl-slicer</link>
-      <description><![CDATA[文章网址：https://github.com/tgys/stl-slicer
-评论网址：https://news.ycombinator.com/item?id=48510036
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/tgys/stl-slicer</guid>
-      <pubDate>Fri, 12 Jun 2026 22:12:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：来自 646-257-4500 的网络钓鱼</title>
-      <link>https://news.ycombinator.com/item?id=48510035</link>
-      <description><![CDATA[昨天，我接到646-257-4500打来的电话。美国西部男声。非常有礼貌。他们实际上给我打了3次电话。前两次，我只是挂断了电话。他们声称收到了来自 Google 支持门户的请求，要求更改我帐户上的电话号码，并希望我验证我的帐户。他们向我发送了一封电子邮件，看起来非常像来自 Google……甚至在标题中也是如此！我没有发现其中有任何本质上的错误。主题：回复：您现在正在与经过验证的 Google 代理通电话，您的案例 ID 是：XXXXX。请要求您的代理通过电话确认。 ARC-Authentication-Results: i=1; mx.google.com；
-       dkim=pass header.i=@google.com header.s=20251104 header.b=XXXX;
-       spf=pass（google.com：XXXX.XXXX.XXX@cases-outbound-prod.bounces.google.com 的域指定 209.85.220.75 为允许的发件人）smtp.mailfrom=XXX.XXX.XXX@cases-outbound-prod.bounces.google.com；
-       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com;
-       dara=传递 header.i=@gmail.com
-  收到：来自 mail-sor-f75.google.com (mail-sor-f75.google.com.[209.85.220.75])
-        由 mx.google.com 提供，SMTPS ID XXXX-XXXX.10.2026.06.11.14.42.06
-        为了 
-        （谷歌传输安全）；
-        2026 年 6 月 11 日星期四 14:42:06 -0700（太平洋夏令时）
-
-当他们意识到我不会向他们读该代码时，他们立即挂断了电话。搜索该号码确认我不是唯一的人。我想我的问题是他们如何发送该电子邮件！？为什么 Google 不通过他们的系统过滤掉此电子邮件？
+      <title>如果我们从法律上要求政客每年做两个月的固定工作怎么办？</title>
+      <link>https://news.ycombinator.com/item?id=48514921</link>
+      <description><![CDATA[我只是想知道以前是否尝试过这个想法的一些变体？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48510035
+评论网址：https://news.ycombinator.com/item?id=48514921
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48510035</guid>
-      <pubDate>Fri, 12 Jun 2026 22:12:09 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=48514921</guid>
+      <pubDate>Sat, 13 Jun 2026 08:32:26 GMT</pubDate>
     </item>
     <item>
-      <title>雷诺：不含稀土的电动机</title>
-      <link>https://www.renaultgroup.com/en/magazine/energy-and-powertrains/all-about-electric-motors-with-no-rare-earths/</link>
-      <description><![CDATA[文章网址：https://www.renaultgroup.com/en/magazine/energy-and-powertrains/all-about-electric-motors-with-no-rare-earths/
-评论网址：https://news.ycombinator.com/item?id=48510010
+      <title>验证人工智能</title>
+      <link>https://validates.ai/</link>
+      <description><![CDATA[文章网址：https://validates.ai/
+评论网址：https://news.ycombinator.com/item?id=48514917
+积分：2
+# 条评论：0]]></description>
+      <guid>https://validates.ai/</guid>
+      <pubDate>Sat, 13 Jun 2026 08:32:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>我在 X 上被暗影封禁，导致我犯下的 3 个错误</title>
+      <link>https://www.indiehackers.com/post/i-got-shadow-banned-on-x-3-mistakes-that-led-me-to-it-MIYYUCRyRokKgCQBmesW</link>
+      <description><![CDATA[文章网址： https://www.indiehackers.com/post/i-got-shadow-banned-on-x-3-mistakes-that-led-me-to-it-MIYYUCRyRokKgCQBmesW
+评论网址：https://news.ycombinator.com/item?id=48514905
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.renaultgroup.com/en/magazine/energy-and-powertrains/all-about-electric-motors-with-no-rare-earths/</guid>
-      <pubDate>Fri, 12 Jun 2026 22:08:03 GMT</pubDate>
+      <guid>https://www.indiehackers.com/post/i-got-shadow-banned-on-x-3-mistakes-that-led-me-to-it-MIYYUCRyRokKgCQBmesW</guid>
+      <pubDate>Sat, 13 Jun 2026 08:30:36 GMT</pubDate>
     </item>
     <item>
-      <title>询问 HN：您是否使用规范驱动开发？</title>
-      <link>https://news.ycombinator.com/item?id=48510002</link>
-      <description><![CDATA[在专业环境中与 LLM 一起工作的开发人员，规范驱动开发真的是 LLM 编码代理的前进方向吗？在过去的几个月里，我确实尝试过使用 SDD，在尝试 SpecKit 和 GSD 之后，我最终选择 OpenSpec 作为我的首选规范生成器。但是，我还没有准备好放弃理解 LLM 生成的实际代码。为了帮助保持我对生成代码的理解，我尝试了几种不同的方法，例如为更细粒度的功能生成更小的规格，以及在每个主要任务块之后暂停以检查代码。通过“/ospx-apply 运行直到任务 3.5 完成，然后暂停进行审查”来解决这个问题，使我能够审查正在生成的代码并在需要时进行更正。但老实说，我遇到的主要问题是，即使加载了适当的 AGENTS.md 和技能（常见的问题是多个帮助方法、命名不一致），通常也缺乏编码风格和良好的代码卫生。我不禁想知道开发人员在他们的工作场所正在做什么。 SDD 实际上是作为开发人员工具包的一部分使用的吗？我是否试图对代码保持过多的控制，我是否应该让法学硕士在规范的范围内自由地指导它？或者我应该放弃 SDD 并寻找另一条路径以确保正在生成的代码至少可以长期维护？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48510002
+      <title>毕马威关于人工智能的一份重要报告被发现充满了人工智能幻觉</title>
+      <link>https://www.techradar.com/pro/a-major-kpmg-report-on-ai-was-found-to-be-chock-full-of-ai-hallucinations</link>
+      <description><![CDATA[文章网址：https://www.techradar.com/pro/a-major-kpmg-report-on-ai-was-found-to-be-chock-full-of-ai-hallucinations
+评论网址：https://news.ycombinator.com/item?id=48514892
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.techradar.com/pro/a-major-kpmg-report-on-ai-was-found-to-be-chock-full-of-ai-hallucinations</guid>
+      <pubDate>Sat, 13 Jun 2026 08:29:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国政府指令暂停访问《克劳德寓言 5》和《神话 5》</title>
+      <link>https://twitter.com/AnthropicAI/status/2065597531644743999</link>
+      <description><![CDATA[文章网址：https://twitter.com/AnthropicAI/status/2065597531644743999
+评论网址：https://news.ycombinator.com/item?id=48514884
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48510002</guid>
-      <pubDate>Fri, 12 Jun 2026 22:07:03 GMT</pubDate>
+      <guid>https://twitter.com/AnthropicAI/status/2065597531644743999</guid>
+      <pubDate>Sat, 13 Jun 2026 08:28:06 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：ASCII Royale</title>
-      <link>https://github.com/chad/ascii-royale</link>
-      <description><![CDATA[终端大逃杀 - 通过 iroh 进行点对点游戏，无需服务器。纯 ASCII、8 位声音，可通过 SSH 播放。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48509968
+      <title>WhatCable 1.0 – 适用于 macOS 的 USB-C 电缆检查器，现在带有 TUI</title>
+      <link>https://www.whatcable.uk/</link>
+      <description><![CDATA[文章网址：https://www.whatcable.uk/
+评论网址：https://news.ycombinator.com/item?id=48514882
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/chad/ascii-royale</guid>
-      <pubDate>Fri, 12 Jun 2026 22:03:33 GMT</pubDate>
+      <guid>https://www.whatcable.uk/</guid>
+      <pubDate>Sat, 13 Jun 2026 08:27:59 GMT</pubDate>
     </item>
     <item>
-      <title>必要性：工程师的归来</title>
-      <link>https://carette.xyz/posts/the_return_of_the_engineer/</link>
-      <description><![CDATA[文章网址：https://carette.xyz/posts/the_return_of_the_engineer/
-评论网址：https://news.ycombinator.com/item?id=48509960
-积分：3
-# 条评论：0]]></description>
-      <guid>https://carette.xyz/posts/the_return_of_the_engineer/</guid>
-      <pubDate>Fri, 12 Jun 2026 22:03:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>木马 OpenSSH（2002 年）</title>
-      <link>http://miod.online.fr/software/openbsd/stories/trojan.html</link>
-      <description><![CDATA[文章网址：http://miod.online.fr/software/openbsd/stories/trojan.html
-评论网址：https://news.ycombinator.com/item?id=48509926
+      <title>我用声波来制作浓缩咖啡。它可以将咖啡冲泡的能源消耗减少 3/4</title>
+      <link>https://theconversation.com/i-used-sound-waves-to-make-espresso-it-could-cut-coffee-brewing-energy-use-by-75-284929</link>
+      <description><![CDATA[文章网址： https://theconversation.com/i-used-sound-waves-to-make-espresso-it-could-cut-coffee-brewing-energy-use-by-75-284929
+评论网址：https://news.ycombinator.com/item?id=48514843
 积分：1
 # 条评论：0]]></description>
-      <guid>http://miod.online.fr/software/openbsd/stories/trojan.html</guid>
-      <pubDate>Fri, 12 Jun 2026 21:58:40 GMT</pubDate>
+      <guid>https://theconversation.com/i-used-sound-waves-to-make-espresso-it-could-cut-coffee-brewing-energy-use-by-75-284929</guid>
+      <pubDate>Sat, 13 Jun 2026 08:21:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>软件模式 [pdf]</title>
+      <link>https://www.dreamsongs.com/Files/PatternsOfSoftware.pdf</link>
+      <description><![CDATA[文章网址：https://www.dreamsongs.com/Files/PatternsOfSoftware.pdf
+评论网址：https://news.ycombinator.com/item?id=48514825
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.dreamsongs.com/Files/PatternsOfSoftware.pdf</guid>
+      <pubDate>Sat, 13 Jun 2026 08:18:59 GMT</pubDate>
     </item>
     </channel>
 </rss>
