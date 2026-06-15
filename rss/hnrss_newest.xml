@@ -4,109 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 15 Jun 2026 12:13:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 19:04:34 GMT</lastBuildDate>
     <item>
-      <title>Atlassian“数据贡献”——隐私与福利</title>
-      <link>https://news.ycombinator.com/item?id=48540151</link>
-      <description><![CDATA[&gt; 对于新手：Atlassian 包含超过 30 万个组织的数据。各种规模的公司都在使用他们的产品，包括免费用户、小型团队、大型组织和企业。从 8 月 17 日开始，如果您的公司没有选择退出“数据贡献”，Atlassian 将使用您公司的数据来训练他们的 AI 产品（“Rovo”）。Atlassian 产品中的数据的内在价值非常高。此外，Atlassian 推出数据贡献的方式很难让人产生好感。&gt;关于内在价值：Atlassian 提供多种产品，但主要的两个是 Jira 和 Confluence。 Confluence 是一个文档平台，包含许多公司的知识库。 Jira 是一个票务/产品系统，包含公司运营流程及其交付产品的执行步骤的临时组织记录。许多 Jira 实例都包含针对公司总体战略的长期执行意图。知识库和任务/意图这两者的协同作用非常有价值。对于许多组织来说，这两种工具中的数据完整性都很高。此外，数据的新近度和新鲜度接近实时。 Jira 和 Confluence 数据的配对为了解公司增加了令人难以置信的上下文相关性。此外，这些工具的地位和性质，无论是集成的便捷性、添加附件的流动性、平台的社交方面、在许多开发流程中使用这些工具的必要要求等，都使这些平台能够从公司积累大量知识产权。&gt; 即将推出：有两种类型的数据需要收集和培训，1) “元数据”和 2)“数据”。公司可以选择退出这两者的唯一方法是如果他们订阅了企业版，否则数据选择退出是手动滑块，而元数据始终是贡献的。 Atlassian Enterprise 的问题在于它的不可访问性。一些 SaaS 服务（例如 GitHub）- 允许较小的组织轻松地为企业进行自签名。每个席位的成本更高，但组织可以访问与企业相同的功能。 Atlassian 不具备这种级别的可访问性，公司必须联系销售人员来讨论企业帐户。即便如此，用户数量的界限仍然要高得多（据我所知，800 多个用户，但可能有更准确的数字）。Atlassian 努力将数据类型分为元数据和数据 - 但他们对元数据的定义不是经典定义中的元数据。他们的“元数据”包括 1) 数字字段，例如故事点、日期（他们在文档中称之为数字）、SLA 等。2) 数据的计算特征（相似度分数、可读性分数等）等等。这些被存储为“元数据”以供使用。&gt;推断：奇怪的公司福利形式。我们本质上是让部分选择退出的组织以某种匿名形式“贡献”他们的组织流程 + IP 给 Atlassian 以进行 Rovo 开发，而最大和最成功的企业则不必分享他们相同的价值。许多小型组织通过率先进入市场、填补利基市场以及比大公司更快地构建响应式产品来为自己赢得市场。虽然 Atlassian 将匿名并删除 PII 和具体信息，但我们将在可复制的业务战略流程的滑动范围内着陆 – 《纽约时报》+ ChatGPT 反流？哪些组织将能够最大程度地利用来自数千个小型组织的训练有素的信息？&gt; TLDR - 通过“数据贡献”对您的数据进行 Atlassian 培训会引发隐私和知识产权问题，而其政策的推出会导致小型组织向大型组织贡献其知识和流程，而没有相应的贡献作为回报。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48540151
+      <title>我为 AI 代理和 Zapier 工作流程构建了一个人工审批层</title>
+      <link>https://orka.ia.br/</link>
+      <description><![CDATA[文章网址：https://orka.ia.br/
+评论网址：https://news.ycombinator.com/item?id=48545542
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48540151</guid>
-      <pubDate>Mon, 15 Jun 2026 12:11:56 GMT</pubDate>
+      <guid>https://orka.ia.br/</guid>
+      <pubDate>Mon, 15 Jun 2026 18:58:34 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Boba，PICO-8 的一键平台游戏</title>
-      <link>https://zeta0134.itch.io/boba</link>
-      <description><![CDATA[在学习 pico8 以在即将到来的游戏 Jam 中使用时，我为平台游戏角色实现了单按钮控制方案。看到我可以在一个按钮中执行多少种不同的操作，真是太有趣了。我用尽可能多的关卡屏幕来充实它，以适应 pico8 的微小限制，并尽我所能地完善它。它确实有一点学习曲线，但我认为从所有方面考虑，它的结果都很好。整个项目大约花了三周时间，包括代码、像素艺术和音乐。我对 pico8 的内置编辑器和音乐跟踪器中的一些明智选择非常满意。它是有限的，但我真正需要的工具都在那里。享受吧！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48540135
+      <title>TransAstra 旨在将 100 吨重的小行星移至稳定轨道进行处理 (3/26)</title>
+      <link>https://spacenews.com/transastra-aims-to-move-100-ton-asteroid-to-stable-orbit-for-processing/</link>
+      <description><![CDATA[文章网址：https://spacenews.com/transastra-aims-to-move-100-ton-asteroid-to-stable-orbit-for-processing/
+评论网址：https://news.ycombinator.com/item?id=48545538
 积分：1
 # 条评论：0]]></description>
-      <guid>https://zeta0134.itch.io/boba</guid>
-      <pubDate>Mon, 15 Jun 2026 12:10:19 GMT</pubDate>
+      <guid>https://spacenews.com/transastra-aims-to-move-100-ton-asteroid-to-stable-orbit-for-processing/</guid>
+      <pubDate>Mon, 15 Jun 2026 18:58:20 GMT</pubDate>
     </item>
     <item>
-      <title>Salesforce 将以 36 亿美元收购 Fin（前身为 Intercom）</title>
-      <link>https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</link>
-      <description><![CDATA[文章网址：https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL
-评论网址：https://news.ycombinator.com/item?id=48540126
+      <title>将类 Strassen 矩阵乘法算法编译为快速 CUDA 内核</title>
+      <link>https://dl.acm.org/doi/10.1145/3808267</link>
+      <description><![CDATA[文章网址：https://dl.acm.org/doi/10.1145/3808267
+评论网址：https://news.ycombinator.com/item?id=48545533
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL</guid>
-      <pubDate>Mon, 15 Jun 2026 12:08:59 GMT</pubDate>
+      <guid>https://dl.acm.org/doi/10.1145/3808267</guid>
+      <pubDate>Mon, 15 Jun 2026 18:58:12 GMT</pubDate>
     </item>
     <item>
-      <title>代码是对未来的讯息</title>
-      <link>https://webflow.com/blog/code-as-communication</link>
-      <description><![CDATA[文章网址：https://webflow.com/blog/code-as-communication
-评论网址：https://news.ycombinator.com/item?id=48540098
+      <title>欧盟人工智能：我们告诉自己的寓言（法国著名人工智能研究员撰写）</title>
+      <link>https://pleias.ai/blog/fable-eu</link>
+      <description><![CDATA[文章网址：https://pleias.ai/blog/fable-eu
+评论网址：https://news.ycombinator.com/item?id=48545529
 积分：1
-# 条评论：0]]></description>
-      <guid>https://webflow.com/blog/code-as-communication</guid>
-      <pubDate>Mon, 15 Jun 2026 12:05:44 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://pleias.ai/blog/fable-eu</guid>
+      <pubDate>Mon, 15 Jun 2026 18:58:08 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：StoryMotion – 白板解释动画的编辑器</title>
-      <link>https://storymotion.video</link>
-      <description><![CDATA[StoryMotion 是一款白板动画编辑器，它结合了 Excalidraw 和 Keynote 的编辑体验来制作解释动画。所有内容都完全可编辑，包括视觉元素和运动效果的时间安排。最近我添加了一项 AI 功能，可让用户上传图像或 PDF 等文档，并在几分钟内生成视觉效果和动画。我希望您觉得这很有用。欢迎所有反馈和意见。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48540094
-积分：1
+      <title>今天的前沿AI公司永远不会再超越AI能力前沿</title>
+      <link>https://andrewtrask.substack.com/p/breaking-todays-frontier-ai-companies</link>
+      <description><![CDATA[文章网址：https://andrewtrask.substack.com/p/writing-todays-frontier-ai-companies
+评论网址：https://news.ycombinator.com/item?id=48545514
+积分：2
 # 条评论：0]]></description>
-      <guid>https://storymotion.video</guid>
-      <pubDate>Mon, 15 Jun 2026 12:05:26 GMT</pubDate>
+      <guid>https://andrewtrask.substack.com/p/breaking-todays-frontier-ai-companies</guid>
+      <pubDate>Mon, 15 Jun 2026 18:56:35 GMT</pubDate>
     </item>
     <item>
-      <title>SBT 2.0.0</title>
-      <link>https://eed3si9n.com/sbt-2.0.0</link>
-      <description><![CDATA[文章网址：https://eed3si9n.com/sbt-2.0.0
-评论网址：https://news.ycombinator.com/item?id=48540092
+      <title>Brad Feld – 40 规则适用于硬件吗？</title>
+      <link>https://feld.com/archives/2026/06/does-the-rule-of-40-work-for-hardware/</link>
+      <description><![CDATA[文章网址：https://feld.com/archives/2026/06/does-the-rule-of-40-work-for-hardware/
+评论网址：https://news.ycombinator.com/item?id=48545510
 积分：1
 # 条评论：0]]></description>
-      <guid>https://eed3si9n.com/sbt-2.0.0</guid>
-      <pubDate>Mon, 15 Jun 2026 12:04:52 GMT</pubDate>
+      <guid>https://feld.com/archives/2026/06/does-the-rule-of-40-work-for-hardware/</guid>
+      <pubDate>Mon, 15 Jun 2026 18:56:22 GMT</pubDate>
     </item>
     <item>
-      <title>3D Lissajous 图生成器</title>
-      <link>https://www.simplenumbertools.com/calculators/wave-generator/</link>
-      <description><![CDATA[文章网址：https://www.simplenumbertools.com/calculators/wave-generator/
-评论网址：https://news.ycombinator.com/item?id=48540088
+      <title>阳光的案例</title>
+      <link>https://www.econtalk.org/the-case-for-sunshine-with-rowan-jacobsen/</link>
+      <description><![CDATA[文章网址：https://www.econtalk.org/the-case-for-sunshine-with-rowan-jacobsen/
+评论网址：https://news.ycombinator.com/item?id=48545507
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.simplenumbertools.com/calculators/wave-generator/</guid>
-      <pubDate>Mon, 15 Jun 2026 12:04:36 GMT</pubDate>
+      <guid>https://www.econtalk.org/the-case-for-sunshine-with-rowan-jacobsen/</guid>
+      <pubDate>Mon, 15 Jun 2026 18:55:42 GMT</pubDate>
     </item>
     <item>
-      <title>中国禁止销售德国英飞凌GAN芯片</title>
-      <link>https://www.semiconductor-today.com/news_items/2026/jun/innoscience-infineon-150626.shtml</link>
-      <description><![CDATA[文章网址：https://www.semiconductor-today.com/news_items/2026/jun/innoscience-infineon-150626.shtml
-评论网址：https://news.ycombinator.com/item?id=48540057
+      <title>Linux内核漏洞研究工具包</title>
+      <link>https://github.com/freedev-org/kernelvr</link>
+      <description><![CDATA[文章网址：https://github.com/freedev-org/kernelvr
+评论网址：https://news.ycombinator.com/item?id=48545506
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.semiconductor-today.com/news_items/2026/jun/innoscience-infineon-150626.shtml</guid>
-      <pubDate>Mon, 15 Jun 2026 12:01:55 GMT</pubDate>
+      <guid>https://github.com/freedev-org/kernelvr</guid>
+      <pubDate>Mon, 15 Jun 2026 18:55:38 GMT</pubDate>
     </item>
     <item>
-      <title>微软考虑剥离 Xbox</title>
-      <link>https://www.gamesindustry.biz/report-microsoft-weighing-up-spinning-off-xbox</link>
-      <description><![CDATA[文章网址：https://www.gamesindustry.biz/report-microsoft-weighing-up-spinning-off-xbox
-评论网址：https://news.ycombinator.com/item?id=48540043
+      <title>Zehn，一个模糊查找器，用于查找我发送给人工智能代理的每个提示</title>
+      <link>https://www.al3rez.com/building-zehn</link>
+      <description><![CDATA[文章网址：https://www.al3rez.com/building-zehn
+评论网址：https://news.ycombinator.com/item?id=48545494
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.gamesindustry.biz/report-microsoft-weighing-up-spinning-off-xbox</guid>
-      <pubDate>Mon, 15 Jun 2026 12:00:57 GMT</pubDate>
+      <guid>https://www.al3rez.com/building-zehn</guid>
+      <pubDate>Mon, 15 Jun 2026 18:54:09 GMT</pubDate>
     </item>
     <item>
-      <title>微波炉的历史 (2024)</title>
-      <link>https://taylor.town/history-of-microwave-ovens</link>
-      <description><![CDATA[文章网址：https://taylor.town/history-of-microwave-ovens
-评论网址：https://news.ycombinator.com/item?id=48540040
+      <title>Microsoft Windows 捆绑</title>
+      <link>https://en.wikipedia.org/wiki/Bundling_of_Microsoft_Windows</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Bundling_of_Microsoft_Windows
+评论网址：https://news.ycombinator.com/item?id=48545483
 积分：1
 # 条评论：0]]></description>
-      <guid>https://taylor.town/history-of-microwave-ovens</guid>
-      <pubDate>Mon, 15 Jun 2026 12:00:51 GMT</pubDate>
+      <guid>https://en.wikipedia.org/wiki/Bundling_of_Microsoft_Windows</guid>
+      <pubDate>Mon, 15 Jun 2026 18:52:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
