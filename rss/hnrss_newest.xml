@@ -4,143 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 16 Jun 2026 22:53:14 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 04:05:38 GMT</lastBuildDate>
     <item>
-      <title>在亚马逊所指望的大型新型火箭中，只有欧洲已经交付</title>
-      <link>https://arstechnica.com/space/2026/06/amid-launch-bottleneck-amazon-has-hundreds-of-satellites-waiting-to-fly/</link>
-      <description><![CDATA[文章网址： https://arstechnica.com/space/2026/06/amid-launch-bottleneck-amazon-has-hundreds-of-satellites-waiting-to-fly/
-评论网址：https://news.ycombinator.com/item?id=48563364
+      <title>Show HN：混合编码竞技场 – 可重复的本地编码、云编码与混合编码</title>
+      <link>https://github.com/RunanywhereAI/hybrid-arena</link>
+      <description><![CDATA[每个人都回答“本地模型足以编码吗？”有一件事，所以我在一台笔记本电脑上进行了测量。它在一台 M4 Max 64GB 笔记本电脑上运行编码代理，并将每个 LLM 调用路由到本地模型或前沿模型，然后通过在沙箱中运行测试套件来对结果进行评分。相同的代理，相同的任务，交换路由。每个数字都可追踪到具有 95% bootstrap CI 的一行。我根据固定价格表从代币中得出成本，因此您可以在任何模型下重新定价，而无需重新运行。它显示的内容：- 日常任务（功能添加、小脚本）：具有“级联”路由的 qwen3.6 通过 100%，同时将约 8% 的代币发送到云，大约 0.022 美元/任务。- 更难的单文件构建（LRU+TTL 缓存、拓扑排序、模板）引擎）：仅本地最高占 67% 左右，云占 100%。真正的初级与高级差距。- 循环和损坏的编辑工具随处可见。我在路由器上添加了重复惩罚和生成上限，以阻止失控循环。限制：我测试了 aider、opencode 和 cline，而不是 Pi。我测试了 64GB（30B 级，~64k 上下文），而不是 128GB 层。而且我扫的是35B-A3B萌部，不是27B密。这三个位于我的列表的顶部，添加模型或线束需要几个命令。它是 MIT 的，可以从干净的克隆中复制。在您自己的模型和线束上运行它，并告诉我哪些单元格是错误的。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48565504
 积分：1
 # 条评论：0]]></description>
-      <guid>https://arstechnica.com/space/2026/06/amid-launch-bottleneck-amazon-has-hundreds-of-satellites-waiting-to-fly/</guid>
-      <pubDate>Tue, 16 Jun 2026 22:51:23 GMT</pubDate>
+      <guid>https://github.com/RunanywhereAI/hybrid-arena</guid>
+      <pubDate>Wed, 17 Jun 2026 03:56:05 GMT</pubDate>
     </item>
     <item>
-      <title>作为物种存在的写作</title>
-      <link>https://philosophyofwriting.substack.com/p/writing-as-species-being</link>
-      <description><![CDATA[文章网址：https://philosophyofwriting.substack.com/p/writing-as-species-being
-评论网址：https://news.ycombinator.com/item?id=48563357
+      <title>美国推迟将中国 DeepSeek 等 100 家公司视为安全风险黑名单</title>
+      <link>https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/</link>
+      <description><![CDATA[文章网址： https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/
+评论网址：https://news.ycombinator.com/item?id=48565498
 积分：1
 # 条评论：0]]></description>
-      <guid>https://philosophyofwriting.substack.com/p/writing-as-species-being</guid>
-      <pubDate>Tue, 16 Jun 2026 22:50:35 GMT</pubDate>
+      <guid>https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/</guid>
+      <pubDate>Wed, 17 Jun 2026 03:55:16 GMT</pubDate>
     </item>
     <item>
-      <title>彼得泰尔的“对话”网络是超级秘密的。数据泄露改变了这一点</title>
-      <link>https://san.com/cc/peter-thiels-dialog-network-was-super-secret-a-data-leak-changed-that/</link>
-      <description><![CDATA[文章网址：https://san.com/cc/peter-thiels-dialog-network-was-super-secret-a-data-leak-changed-that/
-评论网址：https://news.ycombinator.com/item?id=48563356
+      <title>佛罗里达州股份公司起诉 TikTok，这是针对科技巨头的最新举措</title>
+      <link>https://www.politico.com/news/2026/06/15/florida-lawsuit-tiktok-uthmeier-childrens-safety-00962084</link>
+      <description><![CDATA[文章网址： https://www.politico.com/news/2026/06/15/florida-lawsuit-tiktok-uthmeier-childrens-safety-00962084
+评论网址：https://news.ycombinator.com/item?id=48565489
 积分：1
 # 条评论：0]]></description>
-      <guid>https://san.com/cc/peter-thiels-dialog-network-was-super-secret-a-data-leak-changed-that/</guid>
-      <pubDate>Tue, 16 Jun 2026 22:50:32 GMT</pubDate>
+      <guid>https://www.politico.com/news/2026/06/15/florida-lawsuit-tiktok-uthmeier-childrens-safety-00962084</guid>
+      <pubDate>Wed, 17 Jun 2026 03:53:47 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：oh-my-reddit – 美丽的 reddit 线程，位于您的终端中</title>
-      <link>https://github.com/renatoworks/oh-my-reddit</link>
-      <description><![CDATA[文章网址：https://github.com/renatoworks/oh-my-reddit
-评论网址：https://news.ycombinator.com/item?id=48563294
+      <title>gzip 可以作为语言模型吗？</title>
+      <link>https://nathan.rs/posts/gzip-lm/</link>
+      <description><![CDATA[文章网址：https://nathan.rs/posts/gzip-lm/
+评论网址：https://news.ycombinator.com/item?id=48565474
+积分：2
+# 条评论：1]]></description>
+      <guid>https://nathan.rs/posts/gzip-lm/</guid>
+      <pubDate>Wed, 17 Jun 2026 03:50:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>德克萨斯州格林维尔“欢迎标志”——背后的故事</title>
+      <link>https://dallasgateway.com/greenville-tx-welcome-sign/</link>
+      <description><![CDATA[文章网址：https://dallasgateway.com/greenville-tx-welcome-sign/
+评论网址：https://news.ycombinator.com/item?id=48565467
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/renatoworks/oh-my-reddit</guid>
-      <pubDate>Tue, 16 Jun 2026 22:44:22 GMT</pubDate>
+      <guid>https://dallasgateway.com/greenville-tx-welcome-sign/</guid>
+      <pubDate>Wed, 17 Jun 2026 03:48:52 GMT</pubDate>
     </item>
     <item>
-      <title>Chimera Linux：Clang/LLVM、FreeBSD coreutils、dinit、musl Libc</title>
-      <link>https://chimera-linux.org/</link>
-      <description><![CDATA[文章网址：https://chimera-linux.org/
-评论网址：https://news.ycombinator.com/item?id=48563230
+      <title>AmigaOS 2：最伟大的升级</title>
+      <link>https://www.datagubbe.se/os20up/</link>
+      <description><![CDATA[文章网址：https://www.datagubbe.se/os20up/
+评论网址：https://news.ycombinator.com/item?id=48565455
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.datagubbe.se/os20up/</guid>
+      <pubDate>Wed, 17 Jun 2026 03:46:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>代理人工智能如何重塑亚马逊团队并颠覆其传统</title>
+      <link>https://www.geekwire.com/2026/how-agentic-ai-is-rewiring-amazons-teams-and-upending-its-traditions/</link>
+      <description><![CDATA[文章网址：https://www.geekwire.com/2026/how-agentic-ai-is-rewiring-amazons-teams-and-upending-its-traditions/
+评论网址：https://news.ycombinator.com/item?id=48565449
 积分：1
 # 条评论：1]]></description>
-      <guid>https://chimera-linux.org/</guid>
-      <pubDate>Tue, 16 Jun 2026 22:38:01 GMT</pubDate>
+      <guid>https://www.geekwire.com/2026/how-agentic-ai-is-rewiring-amazons-teams-and-upending-its-traditions/</guid>
+      <pubDate>Wed, 17 Jun 2026 03:45:13 GMT</pubDate>
     </item>
     <item>
-      <title>Transfigure αLPHA 已上线 – 是的，摩尔 AI CAD</title>
-      <link>http://xfgr.ai</link>
-      <description><![CDATA[文章网址：http://xfgr.ai
-评论网址：https://news.ycombinator.com/item?id=48563217
+      <title>英国计划如何让儿童远离社交媒体</title>
+      <link>https://www.bloomberg.com/news/articles/2026-06-15/social-media-ban-for-uk-s-under-16s-how-will-plans-announced-by-starmer-work</link>
+      <description><![CDATA[文章网址： https://www.bloomberg.com/news/articles/2026-06-15/social-media-ban-for-uk-s-under-16s-how-will-plans-announced-by-starmer-work
+评论网址：https://news.ycombinator.com/item?id=48565443
 积分：1
+# 条评论：0]]></description>
+      <guid>https://www.bloomberg.com/news/articles/2026-06-15/social-media-ban-for-uk-s-under-16s-how-will-plans-announced-by-starmer-work</guid>
+      <pubDate>Wed, 17 Jun 2026 03:43:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国司法部声称 xAI 的燃气轮机事关“国家和能源安全”</title>
+      <link>https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/</link>
+      <description><![CDATA[文章网址： https://techcrunch.com/2026/06/16/doj-claims-xais-unpermission-gas-turbines-are-a-matter-of-national-economic-and-energy-security/
+评论网址：https://news.ycombinator.com/item?id=48565429
+积分：2
 # 条评论：1]]></description>
-      <guid>http://xfgr.ai</guid>
-      <pubDate>Tue, 16 Jun 2026 22:37:09 GMT</pubDate>
+      <guid>https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/</guid>
+      <pubDate>Wed, 17 Jun 2026 03:42:02 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：标线 – 基础设施运营商应得的地图</title>
-      <link>https://reticleops.com/</link>
-      <description><![CDATA[大家好。 Reticle 是一个快速的本机桌面应用程序 (tauri/rust)，它允许您在地图中以空间方式查看您的服务器，其中的图层代表我们的全球网络基础设施。在这些服务器上，您拥有完全的可观察性和控制权。您可以执行基于 cron 的运行状况检查、通过 ssh 编写的脚本，甚至是功能齐全的嵌入式终端。这可以让您直观地看到服务的运行状况，如果您需要的话，还可以使用完整 shell 的功能。我想了解我的 ec2 实例或树莓派运行的更广泛的环境。我还想打开一个简单的仪表板，确保所有基础设施检查均正常，并有一个可随时用于快速修复和诊断的 shell。Reticle 让您能够以工程师的身份以直观的新方式在互联网上进行操作。这也非常有趣和酷，如果你们中有人有同感，我很乐意聊天。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48563215
+      <title>我的路由器说十四行诗。发票上说的是寓言</title>
+      <link>https://ax.necmttn.com</link>
+      <description><![CDATA[文章网址：https://ax.necmttn.com
+评论网址：https://news.ycombinator.com/item?id=48565402
 积分：1
 # 条评论：0]]></description>
-      <guid>https://reticleops.com/</guid>
-      <pubDate>Tue, 16 Jun 2026 22:37:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>针对本地 LLM 和带有向量内存的 DeepSeek v4 进行优化的本机编码代理</title>
-      <link>https://code.intellios.ai</link>
-      <description><![CDATA[文章网址：https://code.intellios.ai
-评论网址：https://news.ycombinator.com/item?id=48563214
-积分：1
-# 条评论：0]]></description>
-      <guid>https://code.intellios.ai</guid>
-      <pubDate>Tue, 16 Jun 2026 22:36:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：用于科学编程的 Oct 编程语言</title>
-      <link>https://github.com/yuechen-li-dev/oct</link>
-      <description><![CDATA[如果我的写作不清楚，请提前道歉。首先，为什么要创建另一种编程语言？这是因为我在研究生和工作中使用 MATLAB 和 Python 时普遍感到沮丧。我是一名机械工程师；我半定期地编写 Python 脚本供自己使用。我对 Python 的问题是，虽然编写起来很容易，但一旦代码变大，调试我编写的 Python 代码就很困难。与同事分享我的 Python 代码非常困难，因为他们中的大多数人在编码方面的技术不如我，因此要求他们设置完整的 Python 环境只是为了运行脚本是不可能的。然后，科学计算的两种语言问题：用 Python/MATLAB 编写原型代码，并在需要时用 C++/Rust 重写性能敏感的代码。问题是 C++ 和 Rust 不太容易学习，从像 Python 这样的动态类型语言转换到像 Rust 这样严格的静态类型语言并不容易，特别是对于那些不是软件工程师的人来说。Oct 这个名字是对 GNU Octave 的引用，一开始是我对 Octave 应该是什么的概念，这个名字就一直沿用至今。存储库中包含大约 75,000 行 Oct 代码，涉及实验、库和示例。几乎所有内容都是由 Claude/Codex 编写的，我的作用只是为了防止漂移/幻觉。功能（无特定顺序）：- 函数优先，静态类型，解释和编译：Oct 代码通过 MIR codegen 编译为 Go 二进制文件，在 Go 以 Go 速度运行的任何东西上运行，并继承 Go 的荒谬编译速度，这意味着 JIT 基本上是不必要的。 
-- 如果您围绕 Oct 编写一个包装器，则整个 Go 生态系统都可用于 Oct：Oct 的“IO.Xlsx”库是“excelize”，Oct 的内置绘图是“gonum/plot”，Oct 的基准分析是 pprof，Oct 的 C 互操作是 CGo。
-- 枯燥的语法，简单易学。如果你了解 Rust/Go/C#/Swift，学习 Oct 最多需要几个小时。反之亦然，如果你学习了 Oct，那么你已经知道如何编写 Rust 了一半；
-- Octest，xUnit.NET 风格的测试框架，具有“[事实]/[理论]”和各种断言。
-- 语言中内置并由类型检查器强制执行的基础 SI 单位：您不能将 Int 和 Int 添加在一起。单位也会传播。
-``十月
-fn StiffnessForce(K: 矩阵^2&gt;&gt;, u: 向量&gt;) -&gt; 向量ms^2&gt;&gt; {
-    返回K@u
-    // 矩阵^2&gt;&gt; @ Vector&gt; → Vectorm/s^2&gt;&gt;
-}
-````
-- 你不能忽略错误，Oct 是无异常且无 `null`/`nil` 的，所有错误都必须显式处理：`?` 用于传播，`!` 用于解包，或易出错的 `match`。 
-- 数组和向量/矩阵是独立但相关的概念，向量/矩阵明确定义为 1 阶和 2 阶张量，张量的爱因斯坦表示法内置于语言中。
-``十月
-令 c = a[i, k] * b[k, j]
-````
-- Octomata，Oct 自己的内置控制系统运行时，使用显式有限状态机和效用评分作为控制系统的原语。```oct
-package Mainflow DoorControl(openCmd: Bool, closeCmd: Bool, Blocked: Bool) -&gt; String {
-    状态关闭{
-        当{
-            case openCmd 且被阻止 == false -&gt; 转到 Opening
-            否则-&gt;返回“关闭”
-        }
-    } 状态开始 {
-        当{
-            案例被阻止 -&gt; 转到已关闭
-            case closeCmd -&gt; 转到关闭
-            否则-&gt;返回“开始”
-        }
-    }
-
-    状态关闭{返回“关闭”}
-}
-````
-Oct 很大程度上是一项正在进行中的工作，但已经修复了足够多的卡顿/错误，希望现在展示它不会令人尴尬，尽管仍然存在粗糙的边缘。所以，希望得到一些反馈。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48563191
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/yuechen-li-dev/oct</guid>
-      <pubDate>Tue, 16 Jun 2026 22:34:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Ruby AI 时事通讯</title>
-      <link>https://rubyai.beehiiv.com/p/ruby-ai-news-june-16th-2026</link>
-      <description><![CDATA[《Ruby AI Newsletter》现已出第 32 版，追踪 Ruby、Rails 和 AI 编码代理的交汇处发生的事情。YC 向新初创公司推荐 Rails，YC 的内部软件（如 Bookface、Work at a Startup）以及运行加速器的软件都在 Rails 上运行。 Garry 一直大力倡导 Ruby on Rails 为代理初创公司服务，称其为“疯狂的解锁”。围绕 RubyLLM 形成了一个令人难以置信的生态系统。 Ruby 和 Rails 为代理提供了约定、结构和更少的架构选择。本版本是关于 Ruby 方面的想法：如果模型越来越可互换、受限、昂贵或临时，那么持久的优势就是它们周围的系统。 Ruby 和 Rails 可能在这方面具有真正的优势，因为它们已经奖励了明确的约定、小团队、成熟的库和无聊的生产软件。欢迎提供反馈！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48563190
-积分：1
-# 条评论：0]]></description>
-      <guid>https://rubyai.beehiiv.com/p/ruby-ai-news-june-16th-2026</guid>
-      <pubDate>Tue, 16 Jun 2026 22:34:18 GMT</pubDate>
+      <guid>https://ax.necmttn.com</guid>
+      <pubDate>Wed, 17 Jun 2026 03:35:39 GMT</pubDate>
     </item>
     </channel>
 </rss>
