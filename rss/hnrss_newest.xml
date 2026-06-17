@@ -4,107 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 17 Jun 2026 04:05:38 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 10:55:25 GMT</lastBuildDate>
     <item>
-      <title>Show HN：混合编码竞技场 – 可重复的本地编码、云编码与混合编码</title>
-      <link>https://github.com/RunanywhereAI/hybrid-arena</link>
-      <description><![CDATA[每个人都回答“本地模型足以编码吗？”有一件事，所以我在一台笔记本电脑上进行了测量。它在一台 M4 Max 64GB 笔记本电脑上运行编码代理，并将每个 LLM 调用路由到本地模型或前沿模型，然后通过在沙箱中运行测试套件来对结果进行评分。相同的代理，相同的任务，交换路由。每个数字都可追踪到具有 95% bootstrap CI 的一行。我根据固定价格表从代币中得出成本，因此您可以在任何模型下重新定价，而无需重新运行。它显示的内容：- 日常任务（功能添加、小脚本）：具有“级联”路由的 qwen3.6 通过 100%，同时将约 8% 的代币发送到云，大约 0.022 美元/任务。- 更难的单文件构建（LRU+TTL 缓存、拓扑排序、模板）引擎）：仅本地最高占 67% 左右，云占 100%。真正的初级与高级差距。- 循环和损坏的编辑工具随处可见。我在路由器上添加了重复惩罚和生成上限，以阻止失控循环。限制：我测试了 aider、opencode 和 cline，而不是 Pi。我测试了 64GB（30B 级，~64k 上下文），而不是 128GB 层。而且我扫的是35B-A3B萌部，不是27B密。这三个位于我的列表的顶部，添加模型或线束需要几个命令。它是 MIT 的，可以从干净的克隆中复制。在您自己的模型和线束上运行它，并告诉我哪些单元格是错误的。
+      <title>问 HN：在等待 AI 提示完成的过程中，您的思绪是否会飘忽不定？</title>
+      <link>https://news.ycombinator.com/item?id=48568372</link>
+      <description><![CDATA[我担任软件工程师已有 9 年了，我注意到我的工作流程中有一个非常新的怪异之处。一旦我完成了一个项目的架构，并且准备好了上下文工程提示，我点击“发送”，然后就无效了，哈哈。我意识到，在等待人工智能完成的这段时间里，我的思绪会飘忽不定，我会去使用其他应用程序，随机搜索一些东西，如果人工智能搞砸了，我会来回监督它。我觉得这整个经历已经产生了某种疲劳，并带来了很多认知超载。大家也面临这样的情况吗？它对你有何影响？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48565504
+评论网址：https://news.ycombinator.com/item?id=48568372
 积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/RunanywhereAI/hybrid-arena</guid>
-      <pubDate>Wed, 17 Jun 2026 03:56:05 GMT</pubDate>
+# 条评论：2]]></description>
+      <guid>https://news.ycombinator.com/item?id=48568372</guid>
+      <pubDate>Wed, 17 Jun 2026 10:37:09 GMT</pubDate>
     </item>
     <item>
-      <title>美国推迟将中国 DeepSeek 等 100 家公司视为安全风险黑名单</title>
-      <link>https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/
-评论网址：https://news.ycombinator.com/item?id=48565498
+      <title>用于除碳的 MRV 发动机</title>
+      <link>https://www.cula.tech/</link>
+      <description><![CDATA[文章网址：https://www.cula.tech/
+评论网址：https://news.ycombinator.com/item?id=48568369
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/</guid>
-      <pubDate>Wed, 17 Jun 2026 03:55:16 GMT</pubDate>
+      <guid>https://www.cula.tech/</guid>
+      <pubDate>Wed, 17 Jun 2026 10:37:00 GMT</pubDate>
     </item>
     <item>
-      <title>佛罗里达州股份公司起诉 TikTok，这是针对科技巨头的最新举措</title>
-      <link>https://www.politico.com/news/2026/06/15/florida-lawsuit-tiktok-uthmeier-childrens-safety-00962084</link>
-      <description><![CDATA[文章网址： https://www.politico.com/news/2026/06/15/florida-lawsuit-tiktok-uthmeier-childrens-safety-00962084
-评论网址：https://news.ycombinator.com/item?id=48565489
+      <title>针对本质和偶然的复杂性（2020）</title>
+      <link>https://danluu.com/essential-complexity/</link>
+      <description><![CDATA[文章网址：https://danluu.com/essential-complexity/
+评论网址：https://news.ycombinator.com/item?id=48568368
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.politico.com/news/2026/06/15/florida-lawsuit-tiktok-uthmeier-childrens-safety-00962084</guid>
-      <pubDate>Wed, 17 Jun 2026 03:53:47 GMT</pubDate>
+      <guid>https://danluu.com/essential-complexity/</guid>
+      <pubDate>Wed, 17 Jun 2026 10:36:58 GMT</pubDate>
     </item>
     <item>
-      <title>gzip 可以作为语言模型吗？</title>
-      <link>https://nathan.rs/posts/gzip-lm/</link>
-      <description><![CDATA[文章网址：https://nathan.rs/posts/gzip-lm/
-评论网址：https://news.ycombinator.com/item?id=48565474
+      <title>磁悬浮吉他弦</title>
+      <link>https://www.youtube.com/watch?v=ueCO4spGNPs</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=ueCO4spGNPs
+评论网址：https://news.ycombinator.com/item?id=48568363
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=ueCO4spGNPs</guid>
+      <pubDate>Wed, 17 Jun 2026 10:36:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：自 LLM 时代以来我们发生了多少变化？</title>
+      <link>https://news.ycombinator.com/item?id=48568347</link>
+      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=48568347
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=48568347</guid>
+      <pubDate>Wed, 17 Jun 2026 10:33:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>亲爱的Pinboard，我要和你分手了。是我，也是你</title>
+      <link>https://michaelharley.net/posts/2026/06/16/dear-pinboard-im-breaking-up-with-you-its-me-and-its-you/</link>
+      <description><![CDATA[文章网址：https://michaelharley.net/posts/2026/06/16/dear-pinboard-im-writing-up-with-you-its-me-and-its-you/
+评论网址：https://news.ycombinator.com/item?id=48568340
+积分：1
+# 条评论：0]]></description>
+      <guid>https://michaelharley.net/posts/2026/06/16/dear-pinboard-im-breaking-up-with-you-its-me-and-its-you/</guid>
+      <pubDate>Wed, 17 Jun 2026 10:33:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>互联网不在云端。它在海底</title>
+      <link>https://axisbrief.substack.com/p/the-internet-isnt-in-the-cloud-its</link>
+      <description><![CDATA[文章网址：https://axisbrief.substack.com/p/the-internet-isnt-in-the-cloud-its
+评论网址：https://news.ycombinator.com/item?id=48568338
 积分：2
-# 条评论：1]]></description>
-      <guid>https://nathan.rs/posts/gzip-lm/</guid>
-      <pubDate>Wed, 17 Jun 2026 03:50:21 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://axisbrief.substack.com/p/the-internet-isnt-in-the-cloud-its</guid>
+      <pubDate>Wed, 17 Jun 2026 10:33:28 GMT</pubDate>
     </item>
     <item>
-      <title>德克萨斯州格林维尔“欢迎标志”——背后的故事</title>
-      <link>https://dallasgateway.com/greenville-tx-welcome-sign/</link>
-      <description><![CDATA[文章网址：https://dallasgateway.com/greenville-tx-welcome-sign/
-评论网址：https://news.ycombinator.com/item?id=48565467
+      <title>Google：采用 Vibe Coding 的新 SDLC (2026)</title>
+      <link>https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding</link>
+      <description><![CDATA[文章网址：https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding
+评论网址：https://news.ycombinator.com/item?id=48568313
 积分：1
 # 条评论：0]]></description>
-      <guid>https://dallasgateway.com/greenville-tx-welcome-sign/</guid>
-      <pubDate>Wed, 17 Jun 2026 03:48:52 GMT</pubDate>
+      <guid>https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding</guid>
+      <pubDate>Wed, 17 Jun 2026 10:29:59 GMT</pubDate>
     </item>
     <item>
-      <title>AmigaOS 2：最伟大的升级</title>
-      <link>https://www.datagubbe.se/os20up/</link>
-      <description><![CDATA[文章网址：https://www.datagubbe.se/os20up/
-评论网址：https://news.ycombinator.com/item?id=48565455
+      <title>W 欧洲数字主权的社会、公共机构和剧场</title>
+      <link>https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/</link>
+      <description><![CDATA[文章网址：https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/
+评论网址：https://news.ycombinator.com/item?id=48568312
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.datagubbe.se/os20up/</guid>
-      <pubDate>Wed, 17 Jun 2026 03:46:11 GMT</pubDate>
+      <guid>https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/</guid>
+      <pubDate>Wed, 17 Jun 2026 10:29:58 GMT</pubDate>
     </item>
     <item>
-      <title>代理人工智能如何重塑亚马逊团队并颠覆其传统</title>
-      <link>https://www.geekwire.com/2026/how-agentic-ai-is-rewiring-amazons-teams-and-upending-its-traditions/</link>
-      <description><![CDATA[文章网址：https://www.geekwire.com/2026/how-agentic-ai-is-rewiring-amazons-teams-and-upending-its-traditions/
-评论网址：https://news.ycombinator.com/item?id=48565449
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.geekwire.com/2026/how-agentic-ai-is-rewiring-amazons-teams-and-upending-its-traditions/</guid>
-      <pubDate>Wed, 17 Jun 2026 03:45:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>英国计划如何让儿童远离社交媒体</title>
-      <link>https://www.bloomberg.com/news/articles/2026-06-15/social-media-ban-for-uk-s-under-16s-how-will-plans-announced-by-starmer-work</link>
-      <description><![CDATA[文章网址： https://www.bloomberg.com/news/articles/2026-06-15/social-media-ban-for-uk-s-under-16s-how-will-plans-announced-by-starmer-work
-评论网址：https://news.ycombinator.com/item?id=48565443
+      <title>Mastra NPM 供应链攻击：通过 easy-day-JS Typosquat 获得 140 个软件包后门</title>
+      <link>https://www.stepsecurity.io/blog/mastra-npm-packages-compromised-using-easy-day-js</link>
+      <description><![CDATA[文章网址：https://www.stepsecurity.io/blog/mastra-npm-packages-compromished-using-easy-day-js
+评论网址：https://news.ycombinator.com/item?id=48568298
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bloomberg.com/news/articles/2026-06-15/social-media-ban-for-uk-s-under-16s-how-will-plans-announced-by-starmer-work</guid>
-      <pubDate>Wed, 17 Jun 2026 03:43:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国司法部声称 xAI 的燃气轮机事关“国家和能源安全”</title>
-      <link>https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/</link>
-      <description><![CDATA[文章网址： https://techcrunch.com/2026/06/16/doj-claims-xais-unpermission-gas-turbines-are-a-matter-of-national-economic-and-energy-security/
-评论网址：https://news.ycombinator.com/item?id=48565429
-积分：2
-# 条评论：1]]></description>
-      <guid>https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/</guid>
-      <pubDate>Wed, 17 Jun 2026 03:42:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的路由器说十四行诗。发票上说的是寓言</title>
-      <link>https://ax.necmttn.com</link>
-      <description><![CDATA[文章网址：https://ax.necmttn.com
-评论网址：https://news.ycombinator.com/item?id=48565402
-积分：1
-# 条评论：0]]></description>
-      <guid>https://ax.necmttn.com</guid>
-      <pubDate>Wed, 17 Jun 2026 03:35:39 GMT</pubDate>
+      <guid>https://www.stepsecurity.io/blog/mastra-npm-packages-compromised-using-easy-day-js</guid>
+      <pubDate>Wed, 17 Jun 2026 10:28:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
