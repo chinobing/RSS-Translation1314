@@ -4,106 +4,110 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 18 Jun 2026 10:20:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 15:22:29 GMT</lastBuildDate>
     <item>
-      <title>我需要你的衣服、靴子和摩托车</title>
-      <link>https://rbelmont.mameworld.info/?p=1725</link>
-      <description><![CDATA[文章网址：https://rbelmont.mameworld.info/?p=1725
-评论网址：https://news.ycombinator.com/item?id=48582464
-积分：21
-# 条评论：7]]></description>
-      <guid>https://rbelmont.mameworld.info/?p=1725</guid>
-      <pubDate>Thu, 18 Jun 2026 08:28:04 GMT</pubDate>
+      <title>启动 HN：TesterArmy (YC P26) – 测试 Web 和移动应用程序的代理</title>
+      <link>https://tester.army</link>
+      <description><![CDATA[嘿 HN - 我们是 Oskar、Szymon 和 Piotr，我们正在构建 TesterArmy (https://tester.army)。 TesterArmy 是一个代理测试平台，可在部署之前和生产中运行端到端检查。我们让您用自然语言指定测试并处理中间的所有事情，而不是在手动测试或维护静态脚本上浪费时间。我们完全围绕代理商构建了该平台。我们的代理将可靠地执行测试，但您的编码代理可以管理我们平台中的所有内容，从用自然语言定义测试到代表您运行测试。观看我们的演示视频：https://www.youtube.com/watch?v=291IkUbPrlk。我们启动 TesterArmy 是因为测试仍在进行中太痛苦了。人工智能编码工具大大加快了代码编写和发布的速度，但测试仍然是一个瓶颈。传统的端到端测试设置缓慢且维护成本昂贵。管理授权和测试用户是很痛苦的。设置暂存环境是很痛苦的。可靠地运行测试是痛苦的。我们认为大多数团队实际上并不想花时间编写选择器或维护测试基础设施。他们只是希望相信自己的核心流程有效。通过 TesterArmy，工程师可以注册，为代理提供我们的 CLI，并让它处理创建测试并按计划或在 GitHub 上运行它们。当出现问题时，TesterArmy 会通过 Slack 或 Discord 向您的团队发出警报。在过去的几个月里，我们每天使用我们的产品的团队数量从 0 扩展到 30 多个。我们发现了关键流程中的错误，包括入职、结账和人工智能聊天。由于我们代理的质量和可靠性，我们的许多客户从已经建立的竞争对手迁移到我们。以下是我们的代理最近发现的一些错误（数量相当多！）：1) 时区错误影响了我们客户应用程序之一的预订流程，仪表板非常复杂，人类很难发现。 
+2) 代理编排中的回归导致沙盒环境在加载时卡住，感谢 TesterArmy，团队能够在投入生产之前解决该问题。
+3) 在结帐的复杂仪表板流程中错误地计算订单金额，感谢 TesterArmy，团队能够在影响收入之前解决该问题
+4) 在 AI 聊天流程中发现回归，该回归会导致用户因工具调用损坏而无法检索数据。还有更多，主要与一些不正确的 API 调用、404、未处理的错误等有关。如果这听起来有用，我们希望您能在 https://tester.army 上提供反馈。我们有很多免费的测试运行供您尝试。不用担心，我们不会让您进行销售电话，并且我们没有长时间的入职或烦人的设置。我们的目标是提供实用的体验。如果您正在寻找端到端测试解决方案，我们很乐意听到您的反馈！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48586299
+积分：10
+# 条评论：2]]></description>
+      <guid>https://tester.army</guid>
+      <pubDate>Thu, 18 Jun 2026 14:49:44 GMT</pubDate>
     </item>
     <item>
-      <title>AMD 默默地从消费级 Ryzen CPU 中删除内存加密</title>
-      <link>https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change</link>
-      <description><![CDATA[文章网址： https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-th在更新的 Agesa 固件 AMD 工程师按下更改后，它们可能容易受到攻击的安全功能消失
-评论网址：https://news.ycombinator.com/item?id=48582320
-积分：101
-# 条评论：30]]></description>
-      <guid>https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change</guid>
-      <pubDate>Thu, 18 Jun 2026 08:08:00 GMT</pubDate>
+      <title>从 OpenClaw 迁移</title>
+      <link>https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw</link>
+      <description><![CDATA[文章网址：https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw
+评论网址：https://news.ycombinator.com/item?id=48586005
+积分：39
+# 条评论：27]]></description>
+      <guid>https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw</guid>
+      <pubDate>Thu, 18 Jun 2026 14:32:13 GMT</pubDate>
     </item>
     <item>
-      <title>我们应得的熔炉</title>
-      <link>https://btao.org/posts/2026-05-09-the-forge-we-deserve/</link>
-      <description><![CDATA[文章网址：https://btao.org/posts/2026-05-09-the-forge-we-deserve/
-评论网址：https://news.ycombinator.com/item?id=48582147
-积分：22
-# 条评论：20]]></description>
-      <guid>https://btao.org/posts/2026-05-09-the-forge-we-deserve/</guid>
-      <pubDate>Thu, 18 Jun 2026 07:46:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>澳大利亚政府要求短信/彩信发送者 ID 注册</title>
-      <link>https://www.acma.gov.au/sms-sender-id-register</link>
-      <description><![CDATA[文章网址：https://www.acma.gov.au/sms-sender-id-register
-评论网址：https://news.ycombinator.com/item?id=48581489
-积分：97
-# 条评论：55]]></description>
-      <guid>https://www.acma.gov.au/sms-sender-id-register</guid>
-      <pubDate>Thu, 18 Jun 2026 06:23:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>DeepSeek 推出 Vision</title>
-      <link>https://chat.deepseek.com/</link>
-      <description><![CDATA[文章网址：https://chat.deepseek.com/
-评论网址：https://news.ycombinator.com/item?id=48581458
-积分：146
-# 条评论：66]]></description>
-      <guid>https://chat.deepseek.com/</guid>
-      <pubDate>Thu, 18 Jun 2026 06:17:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>我讨厌编译器</title>
-      <link>https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/</link>
-      <description><![CDATA[文章网址：https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/
-评论网址：https://news.ycombinator.com/item?id=48581070
-积分：68
-# 条评论：53]]></description>
-      <guid>https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/</guid>
-      <pubDate>Thu, 18 Jun 2026 05:10:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>SteamOS Linux 3.8 稳定版发布</title>
-      <link>https://store.steampowered.com/news/app/1675200/view/697641379212298072</link>
-      <description><![CDATA[文章网址：https://store.steampowered.com/news/app/1675200/view/697641379212298072
-评论网址：https://news.ycombinator.com/item?id=48580686
-积分：148
-# 条评论：47]]></description>
-      <guid>https://store.steampowered.com/news/app/1675200/view/697641379212298072</guid>
-      <pubDate>Thu, 18 Jun 2026 04:05:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nim Conf 2026（在线，6 月 20 日星期六）</title>
-      <link>https://conf.nim-lang.org/</link>
-      <description><![CDATA[文章网址：https://conf.nim-lang.org/
-评论网址：https://news.ycombinator.com/item?id=48580504
-积分：47
-# 条评论：7]]></description>
-      <guid>https://conf.nim-lang.org/</guid>
-      <pubDate>Thu, 18 Jun 2026 03:38:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>Local Qwen 并不是一个更差的 Opus，它是一个不同的工具</title>
-      <link>https://blog.alexellis.io/local-ai-is-not-opus/</link>
-      <description><![CDATA[文章网址：https://blog.alexellis.io/local-ai-is-not-opus/
-评论网址：https://news.ycombinator.com/item?id=48580209
-积分：215
-# 条评论：107]]></description>
-      <guid>https://blog.alexellis.io/local-ai-is-not-opus/</guid>
-      <pubDate>Thu, 18 Jun 2026 03:04:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI 计算扩展 (ACE) 规范</title>
-      <link>https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/</link>
-      <description><![CDATA[文章网址：https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/
-评论网址：https://news.ycombinator.com/item?id=48579913
+      <title>Ubiquiti：企业 NAS，基于 ZFS 构建</title>
+      <link>https://blog.ui.com/article/introducing-enterprise-nas</link>
+      <description><![CDATA[文章网址：https://blog.ui.com/article/introducing-enterprise-nas
+评论网址：https://news.ycombinator.com/item?id=48585866
 积分：37
-# 条评论：16]]></description>
-      <guid>https://x86ecosystem.org/resource/ai-compute-extensions-ace-specification/</guid>
-      <pubDate>Thu, 18 Jun 2026 02:32:01 GMT</pubDate>
+评论数量：9]]></description>
+      <guid>https://blog.ui.com/article/introducing-enterprise-nas</guid>
+      <pubDate>Thu, 18 Jun 2026 14:24:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>瑞士议会解除对新建核电站的禁令</title>
+      <link>https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html</link>
+      <description><![CDATA[文章网址：https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html
+评论网址：https://news.ycombinator.com/item?id=48585746
+积分：13
+# 条评论：4]]></description>
+      <guid>https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html</guid>
+      <pubDate>Thu, 18 Jun 2026 14:17:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>专为代理时代打造的 Git 平台</title>
+      <link>https://gitlawb.com/node</link>
+      <description><![CDATA[文章网址：https://gitlawb.com/node
+评论网址：https://news.ycombinator.com/item?id=48584873
+积分：19
+# 条评论：18]]></description>
+      <guid>https://gitlawb.com/node</guid>
+      <pubDate>Thu, 18 Jun 2026 13:19:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>艾伯塔省如何消灭老鼠</title>
+      <link>https://worksinprogress.co/issue/albertas-war-on-rats/</link>
+      <description><![CDATA[文章网址：https://worksinprogress.co/issue/albertas-war-on-rats/
+评论网址：https://news.ycombinator.com/item?id=48584709
+积分：26
+# 条评论：11]]></description>
+      <guid>https://worksinprogress.co/issue/albertas-war-on-rats/</guid>
+      <pubDate>Thu, 18 Jun 2026 13:05:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>W Social 已转为闭源了吗？</title>
+      <link>https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/</link>
+      <description><![CDATA[文章网址：https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/
+评论网址：https://news.ycombinator.com/item?id=48584497
+积分：98
+# 条评论：52]]></description>
+      <guid>https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/</guid>
+      <pubDate>Thu, 18 Jun 2026 12:46:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>微软新版 Outlook 只需 10 秒就能完成 Outlook Classic 立即完成的工作</title>
+      <link>https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/</link>
+      <description><![CDATA[文章网址： https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/
+评论网址：https://news.ycombinator.com/item?id=48584207
+积分：229
+# 条评论：151]]></description>
+      <guid>https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/</guid>
+      <pubDate>Thu, 18 Jun 2026 12:19:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Emacs 31 即将到来：我日常驾驶的变化</title>
+      <link>https://www.rahuljuliato.com/posts/emacs-31-around-the-corner</link>
+      <description><![CDATA[文章网址：https://www.rahuljuliato.com/posts/emacs-31-around-the-corner
+评论网址：https://news.ycombinator.com/item?id=48584135
+积分：207
+评论数：86]]></description>
+      <guid>https://www.rahuljuliato.com/posts/emacs-31-around-the-corner</guid>
+      <pubDate>Thu, 18 Jun 2026 12:10:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>我发现了 10k 个分发木马恶意软件的 GitHub 存储库</title>
+      <link>https://orchidfiles.com/github-repositories-distributing-malware/</link>
+      <description><![CDATA[文章网址：https://orchidfiles.com/github-repositories-distributing-malware/
+评论网址：https://news.ycombinator.com/item?id=48583928
+积分：153
+# 条评论：44]]></description>
+      <guid>https://orchidfiles.com/github-repositories-distributing-malware/</guid>
+      <pubDate>Thu, 18 Jun 2026 11:45:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
