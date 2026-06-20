@@ -4,108 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 20 Jun 2026 19:25:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 22:07:07 GMT</lastBuildDate>
     <item>
-      <title>GitHub DMCA 存储库</title>
-      <link>https://github.com/github/dmca/blob/master/2026/06/2026-06-04-tesla.md</link>
-      <description><![CDATA[文章网址：https://github.com/github/dmca/blob/master/2026/06/2026-06-04-tesla.md
-评论网址：https://news.ycombinator.com/item?id=48612085
+      <title>以前从未编码过，现在通过单一提示将网站发送给客户</title>
+      <link>https://news.ycombinator.com/item?id=48613373</link>
+      <description><![CDATA[Claude 计划，然后执行，然后使用 Cloudflare 将机密、文件推送到生产链接中。全部来自 1-2 个提示。这是一个从未编码过的人。我认为市场并未真正反映这对 SWE 的影响。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48613373
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=48613373</guid>
+      <pubDate>Sat, 20 Jun 2026 21:56:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国人如何描述 2026 年的客户服务？</title>
+      <link>https://www.theguardian.com/us-news/2026/jun/20/guardian-readers-consumer-battles</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/us-news/2026/jun/20/guardian-readers-consumer-battles
+评论网址：https://news.ycombinator.com/item?id=48613372
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theguardian.com/us-news/2026/jun/20/guardian-readers-consumer-battles</guid>
+      <pubDate>Sat, 20 Jun 2026 21:56:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>《玩具总动员 2》——差点被一行代码毁掉的经典电影</title>
+      <link>https://www.wsj.com/business/media/toy-story-5-saved-pixar-78e29161</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/business/media/toy-story-5-saved-pixar-78e29161
+评论网址：https://news.ycombinator.com/item?id=48613365
 积分：1
 # 条评论：1]]></description>
-      <guid>https://github.com/github/dmca/blob/master/2026/06/2026-06-04-tesla.md</guid>
-      <pubDate>Sat, 20 Jun 2026 19:17:35 GMT</pubDate>
+      <guid>https://www.wsj.com/business/media/toy-story-5-saved-pixar-78e29161</guid>
+      <pubDate>Sat, 20 Jun 2026 21:55:00 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Tin Validate，一个税号验证器，可以解释检查通过或失败的原因</title>
-      <link>https://tin-validate.com/</link>
-      <description><![CDATA[经过一年半的努力，我们最近发布了 TIN Validate (tin-validate.com)，这是一个通过门户网站和 REST API 提供的纳税识别号 (TIN) 验证器。在过去几年中，我们看到旨在加强税务合规性和税务信息自动交换的法规大幅增加。例如，在欧洲，DAC7 指令现在要求 Airbnb 和 Booking.com 等协作平台报告用户的收入以及税务信息。金融机构也已被要求根据 FATCA 和 CRS 进行国际税务报告。因此，对 TIN 验证的需求日益增加。在我们的研究过程中，我们发现虽然这个空间已经被一些老牌供应商占据，但许多产品感觉很脆弱，缺乏透明度，而且往往价格惊人。我们认为有采取不同方法的空间。我们认为我们提出的不同之处：1.支持所有 249 个 ISO 3166-1 国家和地区：大多数竞争对手支持 100 多个国家/地区，涵盖了绝大多数用例。然而，较小的领土往往得不到支持。虽然这是可以理解的，但平台和金融机构仍然会从这些司法管辖区接收税务信息。有些地区不发放 TIN，有些地区使用替代标识符，有些地区人口很少。我们更愿意明确支持和建模这些情况，而不是简单地返回“不支持”。2.每个国家/地区的多种 TIN 类型验证：大多数国家/地区没有单一的 TIN 格式。通常，个人和公司具有不同的标识符，并且某些国家/地区根据纳税人的类型有多种格式。TIN Validate 明确支持这些区别，并向用户提供该级别的详细信息，而不是将一个国家/地区内的每个标识符视为同一事物。3.透明的多步骤验证：这可能是我们最关心的方面。在测试竞争验证器时，我们经常遇到一个服务返回“有效”而另一个服务返回“无效”的情况。作为用户，我们无法理解其中的原因。他们真的在运行验证吗？做得有多彻底？哪个结果应该可信？这就是为什么我们的验证过程被分解为单独的规则。我们不是简单地返回“有效”或“无效”，而是显示哪些检查通过了，哪些检查失败了，这些检查是否与结构、长度、字符要求、校验和逻辑或其他特定于国家/地区的规则有关。我们的目标是使 TIN 验证不再是黑匣子，并为用户提供足够的信息来理解和信任结果。用例：在我们的研究过程中，我们确定了该产品的许多用例，包括金融机构、向税务机关报告的协作平台以及更广泛的任何应用程序收集税务标识符并希望尽早验证它们。我们很乐意听到 HN 社区的任何反馈、批评或建议。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48612082
-积分：1
-# 条评论：0]]></description>
-      <guid>https://tin-validate.com/</guid>
-      <pubDate>Sat, 20 Jun 2026 19:17:19 GMT</pubDate>
+      <title>弗朗索瓦·恩格勒特 (1932 – 2026)</title>
+      <link>https://home.cern/francois-englert-1932-2026/</link>
+      <description><![CDATA[文章网址：https://home.cern/francois-englert-1932-2026/
+评论网址：https://news.ycombinator.com/item?id=48613336
+积分：2
+# 条评论：1]]></description>
+      <guid>https://home.cern/francois-englert-1932-2026/</guid>
+      <pubDate>Sat, 20 Jun 2026 21:51:21 GMT</pubDate>
     </item>
     <item>
-      <title>VMAF v1：好还不够好</title>
-      <link>https://medium.com/netflix-techblog/vmaf-v1-good-is-not-good-enough-60d7e4244ea8</link>
-      <description><![CDATA[文章网址：https://medium.com/netflix-techblog/vmaf-v1-good-is-not-good-enough-60d7e4244ea8
-评论网址：https://news.ycombinator.com/item?id=48612057
-积分：1
-# 条评论：0]]></description>
-      <guid>https://medium.com/netflix-techblog/vmaf-v1-good-is-not-good-enough-60d7e4244ea8</guid>
-      <pubDate>Sat, 20 Jun 2026 19:15:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google 显示 2026 年世界杯的错误旗帜</title>
-      <link>https://swiss-cow.com/blog/google-world-cup-wrong-flags</link>
-      <description><![CDATA[文章网址：https://swiss-cow.com/blog/google-world-cup-wrong-flags
-评论网址：https://news.ycombinator.com/item?id=48612029
+      <title>Systemd 261 与 systemd-sysinstall、IMDSD 和 storagectl 一起发布</title>
+      <link>https://www.phoronix.com/news/systemd-261</link>
+      <description><![CDATA[文章网址：https://www.phoronix.com/news/systemd-261
+评论网址：https://news.ycombinator.com/item?id=48613328
 积分：3
 # 条评论：0]]></description>
-      <guid>https://swiss-cow.com/blog/google-world-cup-wrong-flags</guid>
-      <pubDate>Sat, 20 Jun 2026 19:11:00 GMT</pubDate>
+      <guid>https://www.phoronix.com/news/systemd-261</guid>
+      <pubDate>Sat, 20 Jun 2026 21:50:42 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：ASCII 3D 渲染引擎</title>
-      <link>https://glyphcss.com</link>
-      <description><![CDATA[文章网址：https://glyphcss.com
-评论网址：https://news.ycombinator.com/item?id=48612025
+      <title>Show HN：GitGauge – 一种尝试判断 Repo 是否真实的方法</title>
+      <link>https://github.com/Davey2Waveyy/gitgauge</link>
+      <description><![CDATA[我一直在构建 GitGauge，这是一种根据分叉比率、观察者参与度和问题活动来判断 Repo 是否真实的方法。我很想听到一些反馈！我最不自信的部分是启发式。现在它使用星星、分叉、观察者和开放问题。我真的很想知道人们认为哪里出了问题，特别是对于利基回购、旧回购或大量使用的内部工具风格的项目。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48613325
 积分：1
 # 条评论：0]]></description>
-      <guid>https://glyphcss.com</guid>
-      <pubDate>Sat, 20 Jun 2026 19:10:41 GMT</pubDate>
+      <guid>https://github.com/Davey2Waveyy/gitgauge</guid>
+      <pubDate>Sat, 20 Jun 2026 21:50:26 GMT</pubDate>
     </item>
     <item>
-      <title>俄罗斯教育部长警告称，俄罗斯不再需要那么多毕业生</title>
-      <link>https://novayagazeta.eu/en/articles/2026/06/19/russia-no-longer-needs-so-many-graduates-countrys-education-minister-warns-en-news</link>
-      <description><![CDATA[文章网址： https://novayagazeta.eu/en/articles/2026/06/19/Russia-no-longer-needs-so-many-graduates-countrys-education-minister-warns-en-news
-评论网址：https://news.ycombinator.com/item?id=48612022
+      <title>随机指标</title>
+      <link>https://stochastics.vercel.app/</link>
+      <description><![CDATA[文章网址：https://stochastics.vercel.app/
+评论网址：https://news.ycombinator.com/item?id=48613318
+积分：1
+# 条评论：0]]></description>
+      <guid>https://stochastics.vercel.app/</guid>
+      <pubDate>Sat, 20 Jun 2026 21:50:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>F-15 攻击鹰 II 通过逆向工程重生</title>
+      <link>https://www.youtube.com/watch?v=aIPKkOpIiF8</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=aIPKkOpIiF8
+评论网址：https://news.ycombinator.com/item?id=48613299
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=aIPKkOpIiF8</guid>
+      <pubDate>Sat, 20 Jun 2026 21:48:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>尖踢</title>
+      <link>https://boardgamegeek.com/boardgame/1644/tipp-kick</link>
+      <description><![CDATA[文章网址：https://boardgamegeek.com/boardgame/1644/tipp-kick
+评论网址：https://news.ycombinator.com/item?id=48613272
+积分：1
+# 条评论：0]]></description>
+      <guid>https://boardgamegeek.com/boardgame/1644/tipp-kick</guid>
+      <pubDate>Sat, 20 Jun 2026 21:45:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Codex（GPT-5.5，Plus 计划）——自 6 月 16 日以来，每个代币的速率限制成本跃升了 10 倍以上</title>
+      <link>https://github.com/openai/codex/issues/28879</link>
+      <description><![CDATA[文章网址：https://github.com/openai/codex/issues/28879
+评论网址：https://news.ycombinator.com/item?id=48613257
 积分：3
 # 条评论：0]]></description>
-      <guid>https://novayagazeta.eu/en/articles/2026/06/19/russia-no-longer-needs-so-many-graduates-countrys-education-minister-warns-en-news</guid>
-      <pubDate>Sat, 20 Jun 2026 19:10:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>市场对人工智能的大肆宣传正遭遇严峻的政治现实</title>
-      <link>https://www.wsj.com/tech/ai/the-markets-ai-fanfare-is-running-into-a-harsh-political-reality-b919829b</link>
-      <description><![CDATA[文章网址：https://www.wsj.com/tech/ai/the-markets-ai-fanfare-is-running-into-a-harsh-political-reality-b919829b
-评论网址：https://news.ycombinator.com/item?id=48612005
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.wsj.com/tech/ai/the-markets-ai-fanfare-is-running-into-a-harsh-political-reality-b919829b</guid>
-      <pubDate>Sat, 20 Jun 2026 19:07:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>下一代美国奶酪 (2023)</title>
-      <link>https://www.eater.com/23734992/new-school-cheese-artisanal-american-cheese</link>
-      <description><![CDATA[文章网址：https://www.eater.com/23734992/new-school-cheese-artisanal-american-cheese
-评论网址：https://news.ycombinator.com/item?id=48611998
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.eater.com/23734992/new-school-cheese-artisanal-american-cheese</guid>
-      <pubDate>Sat, 20 Jun 2026 19:07:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>游戏中的人工智能：对销售的影响</title>
-      <link>https://www.game-oracle.com/blog/ai-part2</link>
-      <description><![CDATA[文章网址：https://www.game-oracle.com/blog/ai-part2
-评论网址：https://news.ycombinator.com/item?id=48611989
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.game-oracle.com/blog/ai-part2</guid>
-      <pubDate>Sat, 20 Jun 2026 19:06:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：人们对未来乐观吗？</title>
-      <link>https://news.ycombinator.com/item?id=48611988</link>
-      <description><![CDATA[您认为未来的人类总体上会比现在更幸福还是更不幸福？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48611988
-积分：4
-# 条评论：2]]></description>
-      <guid>https://news.ycombinator.com/item?id=48611988</guid>
-      <pubDate>Sat, 20 Jun 2026 19:06:35 GMT</pubDate>
+      <guid>https://github.com/openai/codex/issues/28879</guid>
+      <pubDate>Sat, 20 Jun 2026 21:43:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
