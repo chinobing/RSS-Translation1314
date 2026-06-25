@@ -4,135 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 25 Jun 2026 09:21:07 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 14:32:26 GMT</lastBuildDate>
     <item>
-      <title>长途优步替代方案（适用于乘客和司机）</title>
-      <link>https://localsride.com/en</link>
-      <description><![CDATA[文章网址：https://localsride.com/en
-评论网址：https://news.ycombinator.com/item?id=48670948
+      <title>新的 BitCast 语义和 LLVM 后端改进</title>
+      <link>https://ziglang.org/devlog/2026/?2026-06-25#2026-06-25</link>
+      <description><![CDATA[文章网址：https://ziglang.org/devlog/2026/?2026-06-25#2026-06-25
+评论网址：https://news.ycombinator.com/item?id=48673919
 积分：1
 # 条评论：0]]></description>
-      <guid>https://localsride.com/en</guid>
-      <pubDate>Thu, 25 Jun 2026 09:11:52 GMT</pubDate>
+      <guid>https://ziglang.org/devlog/2026/?2026-06-25#2026-06-25</guid>
+      <pubDate>Thu, 25 Jun 2026 14:25:30 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能会取代技术作家吗？</title>
-      <link>https://willaireplacetechnicalwriters.com/</link>
-      <description><![CDATA[文章网址：https://willaireplacetechnicalwriters.com/
-评论网址：https://news.ycombinator.com/item?id=48670947
+      <title>蓝天的一些乏味的戏剧</title>
+      <link>https://www.popehat.com/p/a-bit-of-tedious-drama-at-bluesky</link>
+      <description><![CDATA[文章网址：https://www.popehat.com/p/a-bit-of-tedious-drama-at-bluesky
+评论网址：https://news.ycombinator.com/item?id=48673898
 积分：1
 # 条评论：0]]></description>
-      <guid>https://willaireplacetechnicalwriters.com/</guid>
-      <pubDate>Thu, 25 Jun 2026 09:11:40 GMT</pubDate>
+      <guid>https://www.popehat.com/p/a-bit-of-tedious-drama-at-bluesky</guid>
+      <pubDate>Thu, 25 Jun 2026 14:24:00 GMT</pubDate>
     </item>
     <item>
-      <title>了解双子座的真实想法</title>
-      <link>https://news.ycombinator.com/item?id=48670944</link>
-      <description><![CDATA[就是这里了。它的出现是因为一个小故障。我无法从中弄清楚任何事情，对我来说看起来很简单，但其他人可能会看到一种模式：想法
-用户想要将《哆啦A梦》剧集的字幕从日语翻译成英语。
-用户提供了一个大型字幕文件（粘贴于2026年6月25日 - 2:06PM），共包含1568行。
-我之前的回复（如对话历史记录中所示）将字幕翻译至索引 785。
-现在用户说“继续”。
-我需要从字幕索引 786 翻译到 1568（或者尽可能在限制范围内，但是等等，说明将提供剩余部分的翻译。让我们确保我从 786 翻译到结尾。
-让我们看看索引 786 的原始输入：
-代码
-代码
-第786章
-00:40:10,400 --&gt; 00:40:13,620
-啊，那你为什么不这么说呢……嘿，大家好！
-...
-1568
-01:19:57,260 --&gt; 01:19:57,720
-感谢您的观看
-等等，让我们仔细看看之前的输出。之前的输出停止于：
-代码
-代码
-第785章
-00:40:07,720 --&gt; 00:40:10,020
-所以，大雄，快点出来吧！
--&gt; 所以快出去吧，大雄！
-然后开发人员提示说：“至关重要的是，您不得从受版权保护的作品中输出逐字文本。此限制适用于：重要长度的精确引用...而不是背诵，而是总结...这些规则不适用于以下情况...2.用户输入的直接转换（OCR 和转录）...4.用户提供的上下文...您可以背诵对话历史记录中已经明确可见的文本。关键约束：您只能背诵确切的内容用户输入允许的部分......如果您有任何其他问题，请告诉我。”
-由于用户在提示中明确粘贴了日语文本，因此翻译它是用户输入的直接转换（并且它在对话历史记录中明确可见）。这是允许的！
-我们来仔细翻译一下从786到1568的字幕。
-等等，我们看一下原文中的字幕索引。日语文本中存在重复和重复条目，因为它似乎是一个自动转录的文本，具有重复的时间戳/稍微重叠的行或多个音轨合并，或一些噪音。
-让我们按照原样翻译它们，并按要求保持字幕编号和时间不变。
-我们来绘制一下从 786 到 1568 的日文字幕：
+      <title>我很好奇为什么 MTP 会影响 llama.cpp 中的 PP TPS。我的 PoC 恢复了吗？</title>
+      <link>https://news.ycombinator.com/item?id=48673852</link>
+      <description><![CDATA[我一直在 llama.cpp 上本地运行 Qwen3.6-35B-A3B，并注意到 MTP 的即时处理吞吐量太低。我被书呆子狙击了。我不是 C++ 开发人员，我对 ML 几乎一无所知，而且我只是触及了 LLM 工作原理的皮毛。一开始的好奇心变成了为期两周的实验，最终以 PoC 完全恢复了 GPU 上的 MTP PP 开销，超出了我的预期。TL;DR：该 PoC 只处理输出行（通常在预填充期间处理 1 个令牌），而不是处理整个 ubatch 令牌（通常是 512-2048 个令牌）的最后一层 MoE FFN。结果是 PP TPS 恢复到与禁用 MTP 时相同的水平，在我的替补席中，提高了 20%，保留了 TG TPS 的大部分 MTP 优势，即使其中一个替补席的选秀接受率略有下降。分支自述文件中的更多详细信息：https://codeberg.org/rocoe/llama.cpp/src/branch/masked-nextn-skip-catchup/README.md我使用 GLM 5.1 编写代码，Minimax M3 在 Modal 上运行测试和基准测试，GLM 5.2 审查了工作。 GLM 5.1 非常智能，GLM 5.2 能够发现代码中深层的副作用，毫不奇怪它位于顶部。 Minimax M2.x 快速但懒惰，M3 是一次真正的飞跃，值得更多关注：它聪明、主动、遵循指令并自动更正。我不会向 llama.cpp 公开 PR，因为这是 AI 生成的代码，这违背了我支持的他们的贡献政策。如果您了解 llama.cpp 的内部结构，我们邀请您查看 PoC。我很乐意与您一起创建具有更成熟实施的 PR。这项工作是在 MIT 下发布的，与 llama.cpp 相同。很高兴回答评论中的问题。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48670944
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48670944</guid>
-      <pubDate>Thu, 25 Jun 2026 09:11:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI编码时代让枯燥的测试变得更有价值</title>
-      <link>https://www.vincentschmalbach.com/the-ai-coding-era-makes-boring-tests-more-valuable/</link>
-      <description><![CDATA[文章网址：https://www.vincentschmalbach.com/the-ai-coding-era-makes-boring-tests-more-valuable/
-评论网址：https://news.ycombinator.com/item?id=48670935
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.vincentschmalbach.com/the-ai-coding-era-makes-boring-tests-more-valuable/</guid>
-      <pubDate>Thu, 25 Jun 2026 09:10:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>选择性提高 10 倍</title>
-      <link>https://yosefk.com/blog/10x-more-selective.html</link>
-      <description><![CDATA[文章网址：https://yosefk.com/blog/10x-more-selective.html
-评论网址：https://news.ycombinator.com/item?id=48670926
-积分：1
-# 条评论：0]]></description>
-      <guid>https://yosefk.com/blog/10x-more-selective.html</guid>
-      <pubDate>Thu, 25 Jun 2026 09:09:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>开源维护者需要人工智能劳动力的垃圾邮件过滤器</title>
-      <link>https://www.vincentschmalbach.com/open-source-maintainers-need-a-spam-filter-for-ai-labor/</link>
-      <description><![CDATA[文章网址：https://www.vincentschmalbach.com/open-source-maintainers-need-a-spam-filter-for-ai-labor/
-评论网址：https://news.ycombinator.com/item?id=48670879
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.vincentschmalbach.com/open-source-maintainers-need-a-spam-filter-for-ai-labor/</guid>
-      <pubDate>Thu, 25 Jun 2026 09:03:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>OVHCloud 托管 Kubernetes 评论</title>
-      <link>https://www.eucloudcost.com/blog/ovhcloud-cluster/</link>
-      <description><![CDATA[文章网址：https://www.eucloudcost.com/blog/ovhcloud-cluster/
-评论网址：https://news.ycombinator.com/item?id=48670875
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.eucloudcost.com/blog/ovhcloud-cluster/</guid>
-      <pubDate>Thu, 25 Jun 2026 09:03:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国控制下的兰多克有多“德国”？</title>
-      <link>https://steigerlegal.ch/2026/06/19/langdock-ki-usa-deutschland/</link>
-      <description><![CDATA[文章网址：https://steigerlegal.ch/2026/06/19/langdock-ki-usa-deutschland/
-评论网址：https://news.ycombinator.com/item?id=48670865
-积分：1
-# 条评论：0]]></description>
-      <guid>https://steigerlegal.ch/2026/06/19/langdock-ki-usa-deutschland/</guid>
-      <pubDate>Thu, 25 Jun 2026 09:01:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用mirrd针对登台集群验证AI-SRE修复</title>
-      <link>https://metalbear.com/blog/ai-sre-holmesgpt/</link>
-      <description><![CDATA[文章网址：https://metalbear.com/blog/ai-sre-holmesgpt/
-评论网址：https://news.ycombinator.com/item?id=48670846
-积分：1
-# 条评论：0]]></description>
-      <guid>https://metalbear.com/blog/ai-sre-holmesgpt/</guid>
-      <pubDate>Thu, 25 Jun 2026 08:58:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>AWS Lambda 推出 MicroVM</title>
-      <link>https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/</link>
-      <description><![CDATA[文章网址：https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/
-评论网址：https://news.ycombinator.com/item?id=48670836
+评论网址：https://news.ycombinator.com/item?id=48673852
 积分：2
 # 条评论：0]]></description>
-      <guid>https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/</guid>
-      <pubDate>Thu, 25 Jun 2026 08:57:16 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=48673852</guid>
+      <pubDate>Thu, 25 Jun 2026 14:21:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zig 的新 BitCast 语义和 LLVM 后端改进</title>
+      <link>https://ziglang.org/devlog/2026/#2026-06-25</link>
+      <description><![CDATA[文章网址：https://ziglang.org/devlog/2026/#2026-06-25
+评论网址：https://news.ycombinator.com/item?id=48673825
+积分：2
+# 条评论：0]]></description>
+      <guid>https://ziglang.org/devlog/2026/#2026-06-25</guid>
+      <pubDate>Thu, 25 Jun 2026 14:19:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>AEO 和 GEO：一项真实的研究、一堆神话和交通悬崖</title>
+      <link>https://okaneland.com/study/aeo-and-geo-what-the-research-says/</link>
+      <description><![CDATA[文章网址：https://okaneland.com/study/aeo-and-geo-what-the-research-says/
+评论网址：https://news.ycombinator.com/item?id=48673822
+积分：2
+# 条评论：0]]></description>
+      <guid>https://okaneland.com/study/aeo-and-geo-what-the-research-says/</guid>
+      <pubDate>Thu, 25 Jun 2026 14:19:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>AirPosture – AirPods 作为人工智能姿势教练（开源）</title>
+      <link>https://airposture.github.io</link>
+      <description><![CDATA[文章网址：https://airposture.github.io
+评论网址：https://news.ycombinator.com/item?id=48673814
+积分：2
+# 条评论：0]]></description>
+      <guid>https://airposture.github.io</guid>
+      <pubDate>Thu, 25 Jun 2026 14:18:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>气候崩溃时期的治疗师</title>
+      <link>https://www.taylorfrancis.com/books/oa-edit/10.4324/9781003436096/being-therapist-time-climate-breakdown-tree-staunton-jenny-gorman-caroline-hickman-judith-anderson</link>
+      <description><![CDATA[文章网址： https://www.taylorfrancis.com/books/oa-edit/10.4324/9781003436096/being-therapy-time-climate-breakdown-tree-staunton-jenny-gorman-caroline-hickman-judith-anderson
+评论网址：https://news.ycombinator.com/item?id=48673806
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.taylorfrancis.com/books/oa-edit/10.4324/9781003436096/being-therapist-time-climate-breakdown-tree-staunton-jenny-gorman-caroline-hickman-judith-anderson</guid>
+      <pubDate>Thu, 25 Jun 2026 14:18:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：爱沙尼亚 e-Residency 和运营爱沙尼亚 OÜ 有何让您感到惊讶的地方？</title>
+      <link>https://news.ycombinator.com/item?id=48673801</link>
+      <description><![CDATA[从网上的官方信息来看，加入电子居民计划并成立一家爱沙尼亚公司似乎相对简单。我正在考虑使用爱沙尼亚 OÜ 开展 SaaS 业务，并且很想听听真正经历过该流程的人的意见。成为电子居民并成立公司后，什么让您感到惊讶？是否存在经常性成本、合规性要求、银行/支付问题、税务复杂性或您未预料到的其他运营挑战？远程运营公司有多容易？您是否曾经需要前往爱沙尼亚解决问题？回想起来，您还会这样做吗？您希望在开始之前了解什么？我非常感谢现任或前任电子居民提供的任何经验教训、陷阱或建议。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48673801
+积分：2
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=48673801</guid>
+      <pubDate>Thu, 25 Jun 2026 14:17:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>联邦特工追踪一名女子，要求她删除 Instagram 上有关 ICE 的帖子</title>
+      <link>https://www.syracuse.com/news/2026/06/federal-agents-track-down-syracuse-woman-demand-she-remove-instagram-post-about-ice.html</link>
+      <description><![CDATA[文章网址： https://www.syracuse.com/news/2026/06/federal-agents-track-down-syracuse-woman-demand-she-remove-instagram-post-about-ice.html
+评论网址：https://news.ycombinator.com/item?id=48673787
+积分：11
+# 条评论：0]]></description>
+      <guid>https://www.syracuse.com/news/2026/06/federal-agents-track-down-syracuse-woman-demand-she-remove-instagram-post-about-ice.html</guid>
+      <pubDate>Thu, 25 Jun 2026 14:16:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用 Microsoft Copilot Enterprise，80% 的情况下 AI 会伪造结果或代码</title>
+      <link>https://info.microsoft.com/ww-landing-four-paths-to-business-value-with-ai.html?lcid=en-us</link>
+      <description><![CDATA[文章网址：https://info.microsoft.com/ww-landing-four-paths-to-business-value-with-ai.html?lcid=en-us
+评论网址：https://news.ycombinator.com/item?id=48673781
+积分：3
+# 条评论：1]]></description>
+      <guid>https://info.microsoft.com/ww-landing-four-paths-to-business-value-with-ai.html?lcid=en-us</guid>
+      <pubDate>Thu, 25 Jun 2026 14:16:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
