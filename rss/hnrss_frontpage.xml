@@ -4,24 +4,98 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 26 Jun 2026 17:00:44 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 19:47:00 GMT</lastBuildDate>
     <item>
-      <title>与工具交谈的疲惫</title>
-      <link>https://ohadravid.github.io/posts/2026-06-tool-talking/</link>
-      <description><![CDATA[文章网址：https://ohadravid.github.io/posts/2026-06-tool-talking/
-评论网址：https://news.ycombinator.com/item?id=48687903
-积分：41
-# 条评论：26]]></description>
-      <guid>https://ohadravid.github.io/posts/2026-06-tool-talking/</guid>
-      <pubDate>Fri, 26 Jun 2026 15:35:23 GMT</pubDate>
+      <title>Gossamer：一种 Rust 风格的语言，具有真正的 goroutine 和无暂停内存</title>
+      <link>https://gossamer-lang.org/</link>
+      <description><![CDATA[文章网址：https://gossamer-lang.org/
+评论网址：https://news.ycombinator.com/item?id=48690231
+积分：10
+# 条评论：0]]></description>
+      <guid>https://gossamer-lang.org/</guid>
+      <pubDate>Fri, 26 Jun 2026 18:32:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国政府将决定谁可以使用 GPT-5.6</title>
+      <link>https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/</link>
+      <description><![CDATA[https://archive.ph/PCQQl
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48690101
+积分：190
+# 条评论：423]]></description>
+      <guid>https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/</guid>
+      <pubDate>Fri, 26 Jun 2026 18:23:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>什么是列线图以及为什么我会对它感兴趣？</title>
+      <link>https://lefakkomies.github.io/pynomo-doc/introduction/introduction.html#what-is-a-nomogram-and-why-would-it-interest-me</link>
+      <description><![CDATA[文章网址：https://lefakkomies.github.io/pynomo-doc/introduction/introduction.html#what-is-a-nomogram-and-why-would-it-interest-me
+评论网址：https://news.ycombinator.com/item?id=48689277
+积分：21
+# 条评论：6]]></description>
+      <guid>https://lefakkomies.github.io/pynomo-doc/introduction/introduction.html#what-is-a-nomogram-and-why-would-it-interest-me</guid>
+      <pubDate>Fri, 26 Jun 2026 17:24:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>预览 GPT‑5.6 Sol：下一代模型</title>
+      <link>https://openai.com/index/previewing-gpt-5-6-sol/</link>
+      <description><![CDATA[系统卡：https://deploymentsafety.openai.com/gpt-5-6-preview
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48689028
+积分：441
+评论数：262]]></description>
+      <guid>https://openai.com/index/previewing-gpt-5-6-sol/</guid>
+      <pubDate>Fri, 26 Jun 2026 17:06:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Liva AI (YC S25) 正在招聘</title>
+      <link>https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead
+评论网址：https://news.ycombinator.com/item?id=48688961
+积分：0
+# 条评论：0]]></description>
+      <guid>https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead</guid>
+      <pubDate>Fri, 26 Jun 2026 17:00:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：直接在 Claude、Codex 和 Cursor 中显示智能模型路由</title>
+      <link>https://github.com/workweave/router</link>
+      <description><![CDATA[我们构建了一个模型路由器，可插入编码代理（例如 Claude Code、Codex、Cursor 等），并智能地将请求发送到最佳模型来为其提供服务。以下是在本地运行它的快速演示：https://www.youtube.com/watch?v=isKhAyivtfM。在 Weave，我们使用 AI 编写大部分代码，而且它的成本越来越高。当 Opus 4.7 发布时，这个问题达到了顶峰，由于其标记器的变化，我们的成本猛增。我们知道我们并不需要 Opus 来解决所有事情，但我们不想在您真正需要它的情况下失去智能。因此，我们决定构建一个模型路由器来为我们处理这个问题。Weave Router 充当专门用于编码代理的 Anthropic/OpenAI 端点。它会查看每个推理请求，并智能地（稍后会详细介绍）决定将其发送到哪个模型，并处理整个过程中所需的所有翻译。因此，它可以在可能的情况下使用更快/更便宜的模型（例如 DeepSeek v4、GLM 5.2、Kimi K2.6），并在必要时使用前沿模型（Opus 4.8 和 GPT 5.5（以及 Fable 每当它回来时））。我们如何知道要路由到哪个模型？我们在数以万计（到目前为止！）的代理轨迹上训练了 RL 模型。当路由模型选择成功完成给定任务的 LLM 时，我们会奖励路由模型。这里有一个示例：如果您要求路由器计划一个复杂的更改，它（可能）会将该请求路由到 Opus 4.8。探索代码库以收集上下文的子代理将被路由到更合适的模型（例如 DeepSeek V4 Flash）。然后，当您准备好实施计划时，（很可能）将其交给更快的模型（例如 GLM 5.2）来实施。我们在过去一个月左右的时间里一直在内部使用它。与我们原本要支付的费用相比，我们节省了 40% 的代币，而且质量或速度没有明显差异。该路由器在 Elastic License 2.0 下提供源代码，因此您可以自行托管它。或者，如果您愿意，也可以使用我们的托管版本：weaverouter.com。我会在这里回答您的任何问题！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48688700
+积分：83
+# 条评论：56]]></description>
+      <guid>https://github.com/workweave/router</guid>
+      <pubDate>Fri, 26 Jun 2026 16:40:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>什么是锂离子电容器？</title>
+      <link>https://www.jtekt.co.jp/e/products/capacitor/capacitor_about.html</link>
+      <description><![CDATA[文章网址：https://www.jtekt.co.jp/e/products/capacitor/capacitor_about.html
+评论网址：https://news.ycombinator.com/item?id=48688081
+积分：24
+# 条评论：5]]></description>
+      <guid>https://www.jtekt.co.jp/e/products/capacitor/capacitor_about.html</guid>
+      <pubDate>Fri, 26 Jun 2026 15:51:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>问HN：“没有复制源代码”仍然是充分的版权辩护吗？</title>
+      <link>https://news.ycombinator.com/item?id=48687769</link>
+      <description><![CDATA[我们都熟悉柯基犬事件：https://x.com/mfts0/status/2070080422482977095由于法学硕士，创建新应用程序的障碍大大降低，我看到了更多有关版权和不正当竞争的案例。我见过并参与了其中一些案例。通常需要专家证人。很想听听社区对此的立场。“现在软件开发人员感受到了作者和艺术家的感受”。 https://x.com/PriyRanjan96/status/2070204156703568377有几种说法：复制 UI 没问题，你的产品不够差异化。以下是对情况的法律评估：https://x.com/jessebradner/status/2070492879718350986
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48687769
+积分：30
+# 条评论：39]]></description>
+      <guid>https://news.ycombinator.com/item?id=48687769</guid>
+      <pubDate>Fri, 26 Jun 2026 15:24:40 GMT</pubDate>
     </item>
     <item>
       <title>Jolla 手机（2026 年 10 月）</title>
       <link>https://commerce.jolla.com/products/jolla-phone-october-2026</link>
       <description><![CDATA[文章网址：https://commerce.jolla.com/products/jolla-phone-october-2026
 评论网址：https://news.ycombinator.com/item?id=48687272
-积分：135
-评论数：87]]></description>
+积分：224
+评论数量：126]]></description>
       <guid>https://commerce.jolla.com/products/jolla-phone-october-2026</guid>
       <pubDate>Fri, 26 Jun 2026 14:46:00 GMT</pubDate>
     </item>
@@ -30,80 +104,10 @@
       <link>https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted</link>
       <description><![CDATA[文章网址：https://www.science.org/content/article/why-have-papers-one-history-s-most-known-physicalists-been-retracted
 评论网址：https://news.ycombinator.com/item?id=48686834
-积分：211
-评论数：89]]></description>
+积分：288
+# 条评论：137]]></description>
       <guid>https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted</guid>
       <pubDate>Fri, 26 Jun 2026 14:10:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>事件 CVE-2026-LGTM</title>
-      <link>https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html</link>
-      <description><![CDATA[文章网址：https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html
-评论网址：https://news.ycombinator.com/item?id=48686093
-积分：332
-# 条评论：56]]></description>
-      <guid>https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html</guid>
-      <pubDate>Fri, 26 Jun 2026 12:58:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>大脑超声成像</title>
-      <link>https://alephneuro.com/blog/ultrasound-brain</link>
-      <description><![CDATA[文章网址：https://alephneuro.com/blog/ultrasound-brain
-评论网址：https://news.ycombinator.com/item?id=48685558
-积分：97
-# 条评论：26]]></description>
-      <guid>https://alephneuro.com/blog/ultrasound-brain</guid>
-      <pubDate>Fri, 26 Jun 2026 11:51:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>我们都依赖开源。我们将共同捍卫它</title>
-      <link>https://akrites.org/letter/</link>
-      <description><![CDATA[文章网址：https://akrites.org/letter/
-评论网址：https://news.ycombinator.com/item?id=48682737
-积分：387
-# 条评论：192]]></description>
-      <guid>https://akrites.org/letter/</guid>
-      <pubDate>Fri, 26 Jun 2026 05:40:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>自由条形码项目</title>
-      <link>https://graphicore.github.io/librebarcode/</link>
-      <description><![CDATA[文章网址：https://graphicore.github.io/librebarcode/
-评论网址：https://news.ycombinator.com/item?id=48681949
-积分：245
-# 条评论：39]]></description>
-      <guid>https://graphicore.github.io/librebarcode/</guid>
-      <pubDate>Fri, 26 Jun 2026 03:12:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>2000 人试图破解我的人工智能助手后发生了什么</title>
-      <link>https://www.fernandoi.cl/posts/hackmyclaw/</link>
-      <description><![CDATA[文章网址：https://www.fernandoi.cl/posts/hackmyclaw/
-评论网址：https://news.ycombinator.com/item?id=48681687
-积分：297
-评论数量：126]]></description>
-      <guid>https://www.fernandoi.cl/posts/hackmyclaw/</guid>
-      <pubDate>Fri, 26 Jun 2026 02:29:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Framework的10G以太网模块暴露了USB-C的复杂性</title>
-      <link>https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/</link>
-      <description><![CDATA[文章网址：https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/
-评论网址：https://news.ycombinator.com/item?id=48681220
-积分：274
-# 条评论：151]]></description>
-      <guid>https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/</guid>
-      <pubDate>Fri, 26 Jun 2026 01:10:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>垃圾收集手册：自动内存管理的艺术（第二版）（2023 年）</title>
-      <link>https://gchandbook.org/</link>
-      <description><![CDATA[文章网址：https://gchandbook.org/
-评论网址：https://news.ycombinator.com/item?id=48680370
-积分：208
-# 条评论：43]]></description>
-      <guid>https://gchandbook.org/</guid>
-      <pubDate>Thu, 25 Jun 2026 23:10:30 GMT</pubDate>
     </item>
     </channel>
 </rss>
