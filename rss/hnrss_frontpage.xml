@@ -4,24 +4,44 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 27 Jun 2026 08:35:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 10:57:44 GMT</lastBuildDate>
     <item>
-      <title>美国正在成为老年统治国家吗？</title>
-      <link>https://www.economist.com/culture/2026/06/25/is-america-becoming-a-gerontocracy</link>
-      <description><![CDATA[文章网址：https://www.economist.com/culture/2026/06/25/is-america-becoming-a-gerontocracy
-评论网址：https://news.ycombinator.com/item?id=48695694
-积分：19
-评论数量：9]]></description>
-      <guid>https://www.economist.com/culture/2026/06/25/is-america-becoming-a-gerontocracy</guid>
-      <pubDate>Sat, 27 Jun 2026 06:22:45 GMT</pubDate>
+      <title>金融科技工程手册</title>
+      <link>https://w.pitula.me/fintech-engineering-handbook/</link>
+      <description><![CDATA[文章网址：https://w.pitula.me/fintech-engineering-handbook/
+评论网址：https://news.ycombinator.com/item?id=48696982
+积分：10
+# 条评论：0]]></description>
+      <guid>https://w.pitula.me/fintech-engineering-handbook/</guid>
+      <pubDate>Sat, 27 Jun 2026 10:28:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek 开源推理优化，生成速度提高 60–85% [pdf]</title>
+      <link>https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf</link>
+      <description><![CDATA[文章网址：https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf
+评论网址：https://news.ycombinator.com/item?id=48696585
+积分：199
+# 条评论：33]]></description>
+      <guid>https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf</guid>
+      <pubDate>Sat, 27 Jun 2026 09:18:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Beer CSS – 在创纪录的时间内构建材料设计</title>
+      <link>https://www.beercss.com</link>
+      <description><![CDATA[文章网址：https://www.beercss.com
+评论网址：https://news.ycombinator.com/item?id=48696510
+积分：10
+# 条评论：1]]></description>
+      <guid>https://www.beercss.com</guid>
+      <pubDate>Sat, 27 Jun 2026 09:06:11 GMT</pubDate>
     </item>
     <item>
       <title>IBM MCGA 门阵列逆向工程</title>
       <link>https://github.com/schlae/IBM_MCGA</link>
       <description><![CDATA[文章网址：https://github.com/schlae/IBM_MCGA
 评论网址：https://news.ycombinator.com/item?id=48695363
-积分：19
-# 条评论：4]]></description>
+积分：35
+# 条评论：5]]></description>
       <guid>https://github.com/schlae/IBM_MCGA</guid>
       <pubDate>Sat, 27 Jun 2026 05:17:08 GMT</pubDate>
     </item>
@@ -30,8 +50,8 @@
       <link>https://www.openttd.org/news/2026/06/25/openttd-16-0-beta1</link>
       <description><![CDATA[文章网址：https://www.openttd.org/news/2026/06/25/openttd-16-0-beta1
 评论网址：https://news.ycombinator.com/item?id=48695149
-积分：126
-# 条评论：15]]></description>
+积分：167
+# 条评论：29]]></description>
       <guid>https://www.openttd.org/news/2026/06/25/openttd-16-0-beta1</guid>
       <pubDate>Sat, 27 Jun 2026 04:31:06 GMT</pubDate>
     </item>
@@ -40,8 +60,8 @@
       <link>https://www.sfwriter.com/wordstar.htm</link>
       <description><![CDATA[文章网址：https://www.sfwriter.com/wordstar.htm
 评论网址：https://news.ycombinator.com/item?id=48694853
-积分：75
-# 条评论：31]]></description>
+积分：95
+# 条评论：43]]></description>
       <guid>https://www.sfwriter.com/wordstar.htm</guid>
       <pubDate>Sat, 27 Jun 2026 03:30:01 GMT</pubDate>
     </item>
@@ -50,8 +70,8 @@
       <link>https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/</link>
       <description><![CDATA[文章网址：https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/
 评论网址：https://news.ycombinator.com/item?id=48694631
-积分：47
-# 条评论：7]]></description>
+积分：62
+# 条评论：10]]></description>
       <guid>https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/</guid>
       <pubDate>Sat, 27 Jun 2026 02:41:53 GMT</pubDate>
     </item>
@@ -61,8 +81,8 @@
       <description><![CDATA[虽然页面本身制作和查看起来更有趣（我喜欢翻转声音），但有趣的部分是我如何制作它来验证（我讨厌这么说）我一直在研究的氛围主机服务。 Twitter (X) 上最近的翻转板给了我启发。这里的想法是，人们（像我或你）可以创建像这样简洁的东西，其他人可以重新混合它、更改它并发布他们自己的版本。这一切都在行动，而且效果很好。我写了一篇关于它的博客（该博客是dogfooding，它只是一个托管在quickish上的应用程序，使用内置的数据库库）。对于此翻转板的HN版本，我通过内置的quickish服务器功能使用他们的firebase api，该功能利用了前端可以从云功能数据库更新获取实时更新（现在您提到了firebase）的事实。当然，这有点过头了，但我想展示一些有趣的东西。您可以免费重新混合并托管您自己的版本，只需要一个 google oauth 登录即可。我构建的 OG 翻转板（基于波特兰 - 当前天气）：https://popflame.quickish.space/flipboard-preview更深入的博客文章：https://popflame.quickish.space/blog/hacker-news-on-a-split-...
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=48693912
-积分：65
-# 条评论：13]]></description>
+积分：75
+# 条评论：17]]></description>
       <guid>https://popflame.quickish.space/hn-flipboard/</guid>
       <pubDate>Sat, 27 Jun 2026 00:43:39 GMT</pubDate>
     </item>
@@ -71,8 +91,8 @@
       <link>https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/</link>
       <description><![CDATA[文章网址：https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/
 评论网址：https://news.ycombinator.com/item?id=48693420
-积分：68
-# 条评论：18]]></description>
+积分：80
+# 条评论：25]]></description>
       <guid>https://news.mccombs.utexas.edu/research/foreign-funds-help-make-housing-unaffordable/</guid>
       <pubDate>Fri, 26 Jun 2026 23:36:30 GMT</pubDate>
     </item>
@@ -82,31 +102,10 @@
       <description><![CDATA[相关：Om Malik 去世 - https://news.ycombinator.com/item?id=48678852 - 2026 年 6 月（161 条评论）
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=48693391
-积分：344
-# 条评论：15]]></description>
+积分：387
+# 条评论：18]]></description>
       <guid>https://daringfireball.net/2026/06/om</guid>
       <pubDate>Fri, 26 Jun 2026 23:33:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国允许 Anthropic 向“值得信赖”的美国组织发布 Mythos AI</title>
-      <link>https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies</link>
-      <description><![CDATA[https://archive.md/ArXuFhttps://www.nbcnews.com/tech/tech-news/us-government-gives-a...
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48692995
-积分：412
-# 条评论：419]]></description>
-      <guid>https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies</guid>
-      <pubDate>Fri, 26 Jun 2026 22:48:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么动能随速度呈二次方而不是线性增加？ (2011)</title>
-      <link>https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed</link>
-      <description><![CDATA[文章网址：https://physicals.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed
-评论网址：https://news.ycombinator.com/item?id=48692946
-积分：225
-# 条评论：103]]></description>
-      <guid>https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed</guid>
-      <pubDate>Fri, 26 Jun 2026 22:43:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
