@@ -4,113 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 27 Jun 2026 19:20:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 03:47:35 GMT</lastBuildDate>
     <item>
-      <title>无名，科罗拉多州</title>
-      <link>https://en.wikipedia.org/wiki/No_Name,_Colorado</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/No_Name,_Colorado
-评论网址：https://news.ycombinator.com/item?id=48700838
+      <title>做出现实答案[pdf]</title>
+      <link>https://hari.computer/book.pdf</link>
+      <description><![CDATA[文章网址：https://hari.computer/book.pdf
+评论网址：https://news.ycombinator.com/item?id=48704103
 积分：1
 # 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/No_Name,_Colorado</guid>
-      <pubDate>Sat, 27 Jun 2026 19:10:18 GMT</pubDate>
+      <guid>https://hari.computer/book.pdf</guid>
+      <pubDate>Sun, 28 Jun 2026 03:39:30 GMT</pubDate>
     </item>
     <item>
-      <title>IP 抓取：在公共互联网上发现的开放网络摄像头的活地图集</title>
-      <link>https://ipcrawl.com/</link>
-      <description><![CDATA[文章网址：https://ipcrawl.com/
-评论网址：https://news.ycombinator.com/item?id=48700834
+      <title>使用 Lemote Yeeloong 笔记本电脑和 OpenBSD 围绕龙进行工作</title>
+      <link>http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html</link>
+      <description><![CDATA[文章网址：http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html
+评论网址：https://news.ycombinator.com/item?id=48704087
 积分：1
 # 条评论：0]]></description>
-      <guid>https://ipcrawl.com/</guid>
-      <pubDate>Sat, 27 Jun 2026 19:09:49 GMT</pubDate>
+      <guid>http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html</guid>
+      <pubDate>Sun, 28 Jun 2026 03:36:35 GMT</pubDate>
     </item>
     <item>
-      <title>尽管发生罢工，船只仍继续通过霍尔木兹</title>
-      <link>https://www.lloydslist.com/LL1157680/Ships-keep-moving-through-Hormuz-despite-strike-and-suspension-of-IMO-exit-strategy</link>
-      <description><![CDATA[文章网址： https://www.lloydslist.com/LL1157680/Ships-keep-moving-through-Hormuz-despite-strike-and-suspension-of-IMO-exit-strategy
-评论网址：https://news.ycombinator.com/item?id=48700805
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.lloydslist.com/LL1157680/Ships-keep-moving-through-Hormuz-despite-strike-and-suspension-of-IMO-exit-strategy</guid>
-      <pubDate>Sat, 27 Jun 2026 19:06:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>iOS 27 让快捷方式应用不再那么令人生畏</title>
-      <link>https://www.macrumors.com/guide/ios-27-shortcuts/</link>
-      <description><![CDATA[文章网址：https://www.macrumors.com/guide/ios-27-shortcuts/
-评论网址：https://news.ycombinator.com/item?id=48700797
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.macrumors.com/guide/ios-27-shortcuts/</guid>
-      <pubDate>Sat, 27 Jun 2026 19:05:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>第一次开源项目，有经验分享吗？</title>
-      <link>https://news.ycombinator.com/item?id=48700787</link>
-      <description><![CDATA[大家好，我目前在 Mag7 工作，想做一个周末项目。由于时间不够，我觉得开源项目会带来最大的效率。对于那些做第一个开源项目的人有什么建议吗？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48700787
-积分：1
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=48700787</guid>
-      <pubDate>Sat, 27 Jun 2026 19:03:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>我修补了 llama.cpp 以获得 20% 的即时处理 TPS。帮我做一个 PR</title>
-      <link>https://news.ycombinator.com/item?id=48700782</link>
-      <description><![CDATA[我一直在 llama.cpp 上本地运行 Qwen3.6-35B-A3B，并注意到 MTP 的即时处理吞吐量太低。我被书呆子狙击了。最初的好奇心变成了为期两周的实验，最终以 PoC 完全恢复了 GPU 上的 MTP PP 开销，超出了我的任何预期。TL;DR：该 PoC 只处理输出行（通常在预填充期间处理 1 个令牌），而不是处理整个 ubatch 令牌（通常是 512-2048 个令牌）的最后一层 MoE FFN。结果是 PP TPS 恢复到与禁用 MTP 时相同的状态，保留了 TG TPS 的大部分 MTP 优势，即使其中一个替补席的草案接受率略有下降。我不会向 llama.cpp 开放 PR，因为这是 AI 生成的代码，这违背了我支持的他们的贡献政策。如果您了解 C++ 和 llama.cpp 内部原理，我邀请您与我一起创建一个具有更成熟实现的 PR。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48700782
+      <title>阿尔茨海默病：一个未被发现的国度，没有旅行者从其出发返回（2007）</title>
+      <link>https://www.rogerebert.com/reviews/away-from-her</link>
+      <description><![CDATA[文章网址：https://www.rogerebert.com/reviews/away-from-her
+评论网址：https://news.ycombinator.com/item?id=48704080
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48700782</guid>
-      <pubDate>Sat, 27 Jun 2026 19:03:20 GMT</pubDate>
+      <guid>https://www.rogerebert.com/reviews/away-from-her</guid>
+      <pubDate>Sun, 28 Jun 2026 03:35:52 GMT</pubDate>
     </item>
     <item>
-      <title>深度睡眠周期追踪器 – 免费睡眠声音、冥想和睡眠追踪</title>
-      <link>https://play.google.com/store/apps/details?id=com.deepsleep.cycle.tracker&hl=en_US</link>
-      <description><![CDATA[文章网址：https://play.google.com/store/apps/details?id=com.deepsleep.cycle.tracker&amp;hl=en_US
-评论网址：https://news.ycombinator.com/item?id=48700776
-积分：1
-# 条评论：1]]></description>
-      <guid>https://play.google.com/store/apps/details?id=com.deepsleep.cycle.tracker&hl=en_US</guid>
-      <pubDate>Sat, 27 Jun 2026 19:02:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>制作了一个工具来命名您的下一个项目</title>
-      <link>https://www.nameboard.io</link>
-      <description><![CDATA[文章网址：https://www.nameboard.io
-评论网址：https://news.ycombinator.com/item?id=48700756
+      <title>世界杯人工智能实时解说员</title>
+      <link>https://twitter.com/zicohacks/status/2070401037018788301</link>
+      <description><![CDATA[文章网址：https://twitter.com/zicohacks/status/2070401037018788301
+评论网址：https://news.ycombinator.com/item?id=48704059
 积分：3
-# 条评论：2]]></description>
-      <guid>https://www.nameboard.io</guid>
-      <pubDate>Sat, 27 Jun 2026 19:01:09 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://twitter.com/zicohacks/status/2070401037018788301</guid>
+      <pubDate>Sun, 28 Jun 2026 03:31:04 GMT</pubDate>
     </item>
     <item>
-      <title>NPM 上的 @esbuild-kit/* 包似乎被黑了</title>
-      <link>https://news.ycombinator.com/item?id=48700750</link>
-      <description><![CDATA[不确定在哪里报告此问题，所以我将其发布在 HN 上。我从两个 esbuild 软件包中收到以下警告
-”“”
-npm warn 已弃用 @esbuild-kit/core-utils@3.3.2：合并到 tsx：https://tsx.is
-npm warn 已弃用 @esbuild-kit/esm-loader@2.6.5：合并到 tsx：https://tsx.is
-&quot;&quot;&quot;其中 tsx.is 显然导致劫持了一些攻击者网站，这些网站每次访问都会获得报酬。我很困惑 tsx.is 域是否被黑客入侵，或者软件包是否被黑客入侵。有人吗？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48700750
-积分：1
-# 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48700750</guid>
-      <pubDate>Sat, 27 Jun 2026 19:00:39 GMT</pubDate>
+      <title>Rust Web 开发乏味的一面</title>
+      <link>https://blog.jetbrains.com/rust/2026/06/25/rust-web-development-2026/</link>
+      <description><![CDATA[文章网址：https://blog.jetbrains.com/rust/2026/06/25/rust-web-development-2026/
+评论网址：https://news.ycombinator.com/item?id=48704040
+积分：4
+# 条评论：1]]></description>
+      <guid>https://blog.jetbrains.com/rust/2026/06/25/rust-web-development-2026/</guid>
+      <pubDate>Sun, 28 Jun 2026 03:26:40 GMT</pubDate>
     </item>
     <item>
-      <title>廉价无人机正在改写战争</title>
-      <link>https://www.barrons.com/articles/best-military-drone-stocks-4f90e7c6</link>
-      <description><![CDATA[文章网址：https://www.barrons.com/articles/best-military-drone-stocks-4f90e7c6
-评论网址：https://news.ycombinator.com/item?id=48700725
-积分：5
+      <title>生酮饮食可减缓体内黑色素瘤的生长</title>
+      <link>https://link.springer.com/article/10.1186/s40170-022-00288-7</link>
+      <description><![CDATA[文章网址：https://link.springer.com/article/10.1186/s40170-022-00288-7
+评论网址：https://news.ycombinator.com/item?id=48704032
+积分：3
+# 条评论：1]]></description>
+      <guid>https://link.springer.com/article/10.1186/s40170-022-00288-7</guid>
+      <pubDate>Sun, 28 Jun 2026 03:25:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>改进法学硕士作为法官的技巧</title>
+      <link>https://arxiv.org/abs/2606.27226</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2606.27226
+评论网址：https://news.ycombinator.com/item?id=48704006
+积分：2
 # 条评论：0]]></description>
-      <guid>https://www.barrons.com/articles/best-military-drone-stocks-4f90e7c6</guid>
-      <pubDate>Sat, 27 Jun 2026 18:56:31 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2606.27226</guid>
+      <pubDate>Sun, 28 Jun 2026 03:19:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>GSD – 基于艾森豪威尔矩阵构建的开源、本地优先任务管理器</title>
+      <link>https://gsdtaskmanager.com/</link>
+      <description><![CDATA[文章网址：https://gsdtaskmanager.com/
+评论网址：https://news.ycombinator.com/item?id=48703980
+积分：2
+# 条评论：0]]></description>
+      <guid>https://gsdtaskmanager.com/</guid>
+      <pubDate>Sun, 28 Jun 2026 03:12:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>我们无法通过重新培训摆脱人工智能对经济的破坏</title>
+      <link>https://mollykinder2.substack.com/p/we-cant-retrain-our-way-out-of-ais</link>
+      <description><![CDATA[文章网址：https://mollykinder2.substack.com/p/we-cant-retrain-our-way-out-of-ais
+评论网址：https://news.ycombinator.com/item?id=48703971
+积分：2
+# 条评论：0]]></description>
+      <guid>https://mollykinder2.substack.com/p/we-cant-retrain-our-way-out-of-ais</guid>
+      <pubDate>Sun, 28 Jun 2026 03:10:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>福特雇佣了人工智能并解雇了人类。结果适得其反</title>
+      <link>https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html</link>
+      <description><![CDATA[文章网址：https://www.the-independent.com/tech/ford-ai-automation- human-workers-b3003787.html
+评论网址：https://news.ycombinator.com/item?id=48703968
+积分：8
+# 条评论：0]]></description>
+      <guid>https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html</guid>
+      <pubDate>Sun, 28 Jun 2026 03:09:13 GMT</pubDate>
     </item>
     </channel>
 </rss>
