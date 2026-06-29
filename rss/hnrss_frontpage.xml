@@ -4,15 +4,65 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 28 Jun 2026 22:02:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 03:53:17 GMT</lastBuildDate>
+    <item>
+      <title>告诉国会：不要强制在网上进行年龄检查</title>
+      <link>https://act.eff.org/action/tell-congress-don-t-force-age-checks-online</link>
+      <description><![CDATA[文章网址：https://act.eff.org/action/tell-congress-don-t-force-age-checks-online
+评论网址：https://news.ycombinator.com/item?id=48713887
+积分：60
+# 条评论：16]]></description>
+      <guid>https://act.eff.org/action/tell-congress-don-t-force-age-checks-online</guid>
+      <pubDate>Mon, 29 Jun 2026 01:52:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>央行官员警告人工智能繁荣可能导致全球金融崩溃</title>
+      <link>https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/</link>
+      <description><![CDATA[文章网址：https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/
+评论网址：https://news.ycombinator.com/item?id=48713697
+积分：79
+评论数：70]]></description>
+      <guid>https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/</guid>
+      <pubDate>Mon, 29 Jun 2026 01:25:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>您可能不需要服务人员</title>
+      <link>https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/</link>
+      <description><![CDATA[文章网址：https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/
+评论网址：https://news.ycombinator.com/item?id=48713453
+积分：4
+# 条评论：0]]></description>
+      <guid>https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/</guid>
+      <pubDate>Mon, 29 Jun 2026 00:48:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>更好的人工智能图像</title>
+      <link>https://betterimagesofai.org/</link>
+      <description><![CDATA[文章网址：https://betterimagesofai.org/
+评论网址：https://news.ycombinator.com/item?id=48713051
+积分：30
+# 条评论：18]]></description>
+      <guid>https://betterimagesofai.org/</guid>
+      <pubDate>Sun, 28 Jun 2026 23:50:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>黑盒大语言模型的知识蒸馏（2024）</title>
+      <link>https://arxiv.org/abs/2401.07013</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2401.07013
+评论网址：https://news.ycombinator.com/item?id=48712420
+积分：63
+# 条评论：12]]></description>
+      <guid>https://arxiv.org/abs/2401.07013</guid>
+      <pubDate>Sun, 28 Jun 2026 22:32:04 GMT</pubDate>
+    </item>
     <item>
       <title>Show HN：Bash4LLM+ – 用于 LLM API 的轻量级、无依赖的 Bash 包装器</title>
       <link>https://github.com/kamaludu/bash4llm/</link>
       <description><![CDATA[Bash4LLM 是一个单文件 Bash 包装器，用于从终端与 LLM 进行交互。  我创建它是因为我想要一些简单的东西，无需安装 Python、Node 或任何其他运行时即可工作。它仅使用 Bash、curl 和 jq。您可以发送提示、开始小型聊天、逐行处理文件、流输出以及以 JSON 格式保存会话元数据。我试图使其安全且可预测：不使用系统 /tmp，不使用 eval。默认情况下支持 Groq，并且可以使用 extras/providers/ 文件夹中的专用 Bash 脚本添加其他提供程序。示例： echo &quot;解释命令：ls -l&quot; | ./bash4llm
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=48710827
-积分：12
-# 条评论：8]]></description>
+积分：38
+# 条评论：15]]></description>
       <guid>https://github.com/kamaludu/bash4llm/</guid>
       <pubDate>Sun, 28 Jun 2026 19:43:10 GMT</pubDate>
     </item>
@@ -22,8 +72,8 @@
       <description><![CDATA[大家好，在《人择寓言》被禁之后，我开始从事纳欧拉的工作，因为我的野心和梦想是在人择的人工智能领域工作。促使我创建 nanoeuler 的两个有趣的原因是 (1) 与 llm 交互并不意味着了解它们是如何组成的，以及 (2) 在 llm 上工作一个非常低级别的层，以了解参数和数据之间的相关性以及模型的增长，以及 GPU 的工作原理以及如何优化某些层。因此，我开始从研究方面进行研究，使 nanoeuler 越来越大，但从 Shakespeare.txt 开始一步一步地进行，并了解什么是文本生成模型理解 2300 万个参数。例如，该号码的 nanoeuler 已经理解了 Name: 开始了一行，并有意义地编写了该行。我在 CUDA 中编写了所有内容，因为我不想在训练和推理模型及其必须执行的操作之间使用任何中介。然后，SFT 等的使用，即使是很小的方式，对于理解制作像聊天机器人这样的 llm 的各个步骤确实很有用。绝对欢迎任何反馈、帮助或建议！
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=48710778
-积分：22
-# 条评论：3]]></description>
+积分：39
+评论数量：9]]></description>
       <guid>https://github.com/JustVugg/nanoeuler</guid>
       <pubDate>Sun, 28 Jun 2026 19:38:14 GMT</pubDate>
     </item>
@@ -32,59 +82,18 @@
       <link>https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number</link>
       <description><![CDATA[文章网址：https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number
 评论网址：https://news.ycombinator.com/item?id=48710775
-积分：38
-# 条评论：23]]></description>
+积分：87
+# 条评论：45]]></description>
       <guid>https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number</guid>
       <pubDate>Sun, 28 Jun 2026 19:38:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国过去需要最好的技术。现在我们禁止它</title>
-      <link>https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it</link>
-      <description><![CDATA[文章网址：https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it
-评论网址：https://news.ycombinator.com/item?id=48710437
-积分：72
-# 条评论：56]]></description>
-      <guid>https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it</guid>
-      <pubDate>Sun, 28 Jun 2026 19:07:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLM 能通过镜像测试吗？</title>
-      <link>https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test</link>
-      <description><![CDATA[文章网址：https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test
-评论网址：https://news.ycombinator.com/item?id=48710414
-积分：10
-# 条评论：6]]></description>
-      <guid>https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test</guid>
-      <pubDate>Sun, 28 Jun 2026 19:06:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>非语言儿童的计算机辅助语言发展 (1968) [pdf]</title>
-      <link>https://archive.org/details/colby1968-computer-aided-language-development-in-non-speaking-children</link>
-      <description><![CDATA[http://i.stanford.edu/pub/cstr/reports/cs/tr/68/85/CS-TR-68-...
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48710350
-积分：13
-# 条评论：1]]></description>
-      <guid>https://archive.org/details/colby1968-computer-aided-language-development-in-non-speaking-children</guid>
-      <pubDate>Sun, 28 Jun 2026 18:59:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>英国折纸：吉泽晃 1955 年展览</title>
-      <link>https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa/</link>
-      <description><![CDATA[文章网址：https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa/
-评论网址：https://news.ycombinator.com/item?id=48710325
-积分：8
-# 条评论：1]]></description>
-      <guid>https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa/</guid>
-      <pubDate>Sun, 28 Jun 2026 18:56:46 GMT</pubDate>
     </item>
     <item>
       <title>Librepods：解放 AirPods</title>
       <link>https://github.com/librepods-org/librepods</link>
       <description><![CDATA[文章网址：https://github.com/librepods-org/librepods
 评论网址：https://news.ycombinator.com/item?id=48710232
-积分：170
-# 条评论：53]]></description>
+积分：306
+评论数量：99]]></description>
       <guid>https://github.com/librepods-org/librepods</guid>
       <pubDate>Sun, 28 Jun 2026 18:48:53 GMT</pubDate>
     </item>
@@ -93,20 +102,10 @@
       <link>https://dam.stanford.edu/memory-prices.html</link>
       <description><![CDATA[文章网址：https://dam.stanford.edu/memory-prices.html
 评论网址：https://news.ycombinator.com/item?id=48710092
-积分：69
-# 条评论：19]]></description>
+积分：217
+评论数量：82]]></description>
       <guid>https://dam.stanford.edu/memory-prices.html</guid>
       <pubDate>Sun, 28 Jun 2026 18:32:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>GLM 5.2 在我们的基准测试中击败了 Claude</title>
-      <link>https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/</link>
-      <description><![CDATA[文章网址：https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/
-评论网址：https://news.ycombinator.com/item?id=48709670
-积分：160
-# 条评论：48]]></description>
-      <guid>https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/</guid>
-      <pubDate>Sun, 28 Jun 2026 17:50:47 GMT</pubDate>
     </item>
     </channel>
 </rss>
