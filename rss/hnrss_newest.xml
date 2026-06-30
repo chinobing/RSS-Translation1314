@@ -4,106 +4,116 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 30 Jun 2026 09:34:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 14:18:06 GMT</lastBuildDate>
     <item>
-      <title>Slint 和 Node.js 事件循环</title>
-      <link>https://slint.dev/blog/slint-and-the-nodejs-event-loop</link>
-      <description><![CDATA[文章网址：https://slint.dev/blog/slint-and-the-nodejs-event-loop
-评论网址：https://news.ycombinator.com/item?id=48730351
+      <title>人工智能而非人类可以访问网络</title>
+      <link>https://www.techpolicy.press/the-web-is-being-made-accessible-for-ai-not-people/</link>
+      <description><![CDATA[文章网址：https://www.techpolicy.press/the-web-is-being-made-accessible-for-ai-not-people/
+评论网址：https://news.ycombinator.com/item?id=48732954
 积分：1
 # 条评论：0]]></description>
-      <guid>https://slint.dev/blog/slint-and-the-nodejs-event-loop</guid>
-      <pubDate>Tue, 30 Jun 2026 09:32:49 GMT</pubDate>
+      <guid>https://www.techpolicy.press/the-web-is-being-made-accessible-for-ai-not-people/</guid>
+      <pubDate>Tue, 30 Jun 2026 14:07:51 GMT</pubDate>
     </item>
     <item>
-      <title>塔塔数据泄露中曝光的苹果iPhone 18 Pro供应商名单、零部件和照片</title>
-      <link>https://www.reuters.com/business/media-telecom/apple-iphone-18-pro-supplier-list-parts-photos-exposed-tata-data-leak-2026-06-29/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/business/media-telecom/apple-iphone-18-pro-supplier-list-parts-photos-exposed-tata-data-leak-2026-06-29/
-评论网址：https://news.ycombinator.com/item?id=48730340
+      <title>显示 HN：C++、Java 和 C# 轻量级记录器</title>
+      <link>https://github.com/PenguineDavid/light-weight-logger</link>
+      <description><![CDATA[这是一个我一直在使用 C++、java 和 C# 版本的库，您可以在其中创建自定义格式并基于它们进行日志，例如您可以创建一个如下所示的错误：[ERROR] [日期、时间戳、时区] (文件:线程 ID:行)但您可以这样编写：// 定义主格式master_style = &quot;%C[%N]%c%S%G[%D %T %Z]%c %M %G(%F:%t:%L)&quot;;//告诉记录器给定名称使用什么颜色logger.add_format(&quot;ERROR&quot;, master_style, Colour::RED);所以现在[ERROR]部分将是红色的，
+时间区域将为灰色，
+和位置灰色，
+但你真的可以做出任何你想要的风格。
+一旦您有了主格式，您还可以添加不同类型的日志：logger.add_format(&quot;SUCCESS&quot;, style_minimal, Colour::GREEN);
+logger.add_format(&quot;INFO&quot;, master_style, Colour::CYAN);
+logger.add_format(&quot;WARN&quot;, master_style, Colour::YELLOW);我们放入的 %S 实际上是一个列填充器，因此您的日志将是内联的：[INFO] [16/06/2026 10:58:00 AUS Eastern Standard Time] 初始化核心子系统组件。 (src/main.cpp:1:39)
+[成功][16/06/2026 10:58:00 澳大利亚东部标准时间] 数据库连接顺利建立。 (src/main.cpp:1:40)
+[警告] [16/06/2026 10:58:00 澳大利亚东部标准时间] 在节点集群上检测到内存使用率过高。 (src/main.cpp:1:41)
+[错误] [16/06/2026 10:58:00 澳大利亚东部标准时间] 无法写入预写日志！ (src/main.cpp:1:42)
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48732953
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.reuters.com/business/media-telecom/apple-iphone-18-pro-supplier-list-parts-photos-exposed-tata-data-leak-2026-06-29/</guid>
-      <pubDate>Tue, 30 Jun 2026 09:31:02 GMT</pubDate>
+      <guid>https://github.com/PenguineDavid/light-weight-logger</guid>
+      <pubDate>Tue, 30 Jun 2026 14:07:42 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：代理的三种幂等性</title>
-      <link>https://agentsxbackend.substack.com/p/the-three-idempotencies-of-an-agent</link>
-      <description><![CDATA[文章网址：https://agentsxbackend.substack.com/p/the- Three-idempotcies-of-an-agent
-评论网址：https://news.ycombinator.com/item?id=48730327
+      <title>在 Threadripper 9980X 上对硬木 1.0 进行基准测试</title>
+      <link>https://jack-vanlightly.com/blog/2026/6/30/benchmarking-hardwood-10-on-a-threadripper-9980x</link>
+      <description><![CDATA[文章网址：https://jack-vanlightly.com/blog/2026/6/30/benchmarking-hardwood-10-on-a-threadripper-9980x
+评论网址：https://news.ycombinator.com/item?id=48732949
 积分：1
 # 条评论：0]]></description>
-      <guid>https://agentsxbackend.substack.com/p/the-three-idempotencies-of-an-agent</guid>
-      <pubDate>Tue, 30 Jun 2026 09:28:50 GMT</pubDate>
+      <guid>https://jack-vanlightly.com/blog/2026/6/30/benchmarking-hardwood-10-on-a-threadripper-9980x</guid>
+      <pubDate>Tue, 30 Jun 2026 14:07:24 GMT</pubDate>
     </item>
     <item>
-      <title>“flows”：自定义 Markdown 运行时，用于可视化长时间运行的代理循环</title>
-      <link>https://github.com/samleeney/flows</link>
-      <description><![CDATA[文章网址：https://github.com/samleeney/flows
-评论网址：https://news.ycombinator.com/item?id=48730315
+      <title>医疗保健软件工程师微型会议</title>
+      <link>https://www.outofpocket.health/ship-it</link>
+      <description><![CDATA[文章网址：https://www.outofpocket.health/ship-it
+评论网址：https://news.ycombinator.com/item?id=48732945
 积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/samleeney/flows</guid>
-      <pubDate>Tue, 30 Jun 2026 09:26:09 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://www.outofpocket.health/ship-it</guid>
+      <pubDate>Tue, 30 Jun 2026 14:07:15 GMT</pubDate>
     </item>
     <item>
-      <title>约翰·罗梅罗在攻击桑迪·彼得森的推文之前祝他一切顺利的历史</title>
-      <link>https://www.pcgamer.com/gaming-industry/a-short-history-of-john-romero-wishing-sandy-petersen-well-before-nuking-his-doom-tweets-from-orbit-with-ruthless-precision/</link>
-      <description><![CDATA[文章网址： https://www.pcgamer.com/gaming-industry/a-short-history-of-john-romero-wishing-sandy-petersen-well-before-nuking-his-doom-tweets-from-orbit-with-ruthless- precision/
-评论网址：https://news.ycombinator.com/item?id=48730304
+      <title>爱尔兰是大型科技公司的走狗——这损害了其欧盟轮值主席国地位</title>
+      <link>https://www.theguardian.com/commentisfree/2026/jun/30/ireland-big-tech-lapdog-eu-presidency-digital-sovereignty</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/commentisfree/2026/jun/30/ireland-big-tech-lapdog-eu-presidency-digital-sovereignty
+评论网址：https://news.ycombinator.com/item?id=48732938
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.pcgamer.com/gaming-industry/a-short-history-of-john-romero-wishing-sandy-petersen-well-before-nuking-his-doom-tweets-from-orbit-with-ruthless-precision/</guid>
-      <pubDate>Tue, 30 Jun 2026 09:24:15 GMT</pubDate>
+      <guid>https://www.theguardian.com/commentisfree/2026/jun/30/ireland-big-tech-lapdog-eu-presidency-digital-sovereignty</guid>
+      <pubDate>Tue, 30 Jun 2026 14:06:44 GMT</pubDate>
     </item>
     <item>
-      <title>前 100 万分析 – 2026 年 6 月：网络安全十年</title>
-      <link>https://scotthelme.co.uk/top-1-million-analysis-june-2026-ten-years-of-web-security/</link>
-      <description><![CDATA[文章网址：https://scotthelme.co.uk/top-1-million-analysis-june-2026-ten-years-of-web-security/
-评论网址：https://news.ycombinator.com/item?id=48730286
+      <title>时间收缩</title>
+      <link>https://alperenkeles.com/posts/temporal-shrinking/</link>
+      <description><![CDATA[文章网址：https://alperenkeles.com/posts/temporal-shrinking/
+评论网址：https://news.ycombinator.com/item?id=48732912
 积分：1
 # 条评论：0]]></description>
-      <guid>https://scotthelme.co.uk/top-1-million-analysis-june-2026-ten-years-of-web-security/</guid>
-      <pubDate>Tue, 30 Jun 2026 09:21:10 GMT</pubDate>
+      <guid>https://alperenkeles.com/posts/temporal-shrinking/</guid>
+      <pubDate>Tue, 30 Jun 2026 14:04:36 GMT</pubDate>
     </item>
     <item>
-      <title>你说得对</title>
-      <link>https://youre-absolutely-right-one.vercel.app/</link>
-      <description><![CDATA[文章网址：https://youre-absolutely-right-one.vercel.app/
-评论网址：https://news.ycombinator.com/item?id=48730249
+      <title>委内瑞拉地震前谷歌地震警报警告1140万</title>
+      <link>https://thenextweb.com/news/google-earthquake-alerts-venezuela-android</link>
+      <description><![CDATA[文章网址：https://thenextweb.com/news/google-earthquake-alerts-venezuela-android
+评论网址：https://news.ycombinator.com/item?id=48732907
 积分：1
 # 条评论：0]]></description>
-      <guid>https://youre-absolutely-right-one.vercel.app/</guid>
-      <pubDate>Tue, 30 Jun 2026 09:16:03 GMT</pubDate>
+      <guid>https://thenextweb.com/news/google-earthquake-alerts-venezuela-android</guid>
+      <pubDate>Tue, 30 Jun 2026 14:04:15 GMT</pubDate>
     </item>
     <item>
-      <title>Antares 实现了 Mark-0 反应堆的临界状态</title>
-      <link>https://antaresindustries.com/updates/antares-achieves-criticality</link>
-      <description><![CDATA[文章网址：https://antaresindustries.com/updates/antares-achieves-riticity
-评论网址：https://news.ycombinator.com/item?id=48730246
+      <title>我可以在大约 30 秒内证明你对人工智能的看法是错误的</title>
+      <link>https://muddyum.net/ai-still-cant-do-the-one-thing-that-matters-4cad5a08308e?sk=909ac14c3071092a3f567a3a8d1fa326</link>
+      <description><![CDATA[文章网址： https://muddyum.net/ai-still-cant-do-the-one-thing-that-matters-4cad5a08308e?sk=909ac14c3071092a3f567a3a8d1fa326
+评论网址：https://news.ycombinator.com/item?id=48732882
 积分：1
 # 条评论：0]]></description>
-      <guid>https://antaresindustries.com/updates/antares-achieves-criticality</guid>
-      <pubDate>Tue, 30 Jun 2026 09:15:21 GMT</pubDate>
+      <guid>https://muddyum.net/ai-still-cant-do-the-one-thing-that-matters-4cad5a08308e?sk=909ac14c3071092a3f567a3a8d1fa326</guid>
+      <pubDate>Tue, 30 Jun 2026 14:02:18 GMT</pubDate>
     </item>
     <item>
-      <title>整体形状</title>
-      <link>https://shapeofthesystem.com/the-shape-of-the-whole</link>
-      <description><![CDATA[文章网址：https://shapeofthesystem.com/the-shape-of-the-whole
-评论网址：https://news.ycombinator.com/item?id=48730212
+      <title>我父亲帮助建立了北美的燕麦供应链：它可以重塑吗？</title>
+      <link>https://ambrook.com/offrange/perspective/how-we-lost-our-oats</link>
+      <description><![CDATA[文章网址：https://ambrook.com/offrange/perspective/how-we-lost-our-oats
+评论网址：https://news.ycombinator.com/item?id=48732870
 积分：1
 # 条评论：0]]></description>
-      <guid>https://shapeofthesystem.com/the-shape-of-the-whole</guid>
-      <pubDate>Tue, 30 Jun 2026 09:08:35 GMT</pubDate>
+      <guid>https://ambrook.com/offrange/perspective/how-we-lost-our-oats</guid>
+      <pubDate>Tue, 30 Jun 2026 14:00:51 GMT</pubDate>
     </item>
     <item>
-      <title>RPC端点</title>
-      <link>https://rpc.uquad.org/</link>
-      <description><![CDATA[文章网址：https://rpc.uquad.org/
-评论网址：https://news.ycombinator.com/item?id=48730210
+      <title>袋熊如何排便立方体？科学家揭开谜底</title>
+      <link>https://www.science.org/content/article/how-do-wombats-poop-cubes-scientists-get-bottom-mystery</link>
+      <description><![CDATA[文章网址：https://www.science.org/content/article/how-do-wombats-poop-cubes-scientists-get-bottom-mystery
+评论网址：https://news.ycombinator.com/item?id=48732860
 积分：1
 # 条评论：0]]></description>
-      <guid>https://rpc.uquad.org/</guid>
-      <pubDate>Tue, 30 Jun 2026 09:08:34 GMT</pubDate>
+      <guid>https://www.science.org/content/article/how-do-wombats-poop-cubes-scientists-get-bottom-mystery</guid>
+      <pubDate>Tue, 30 Jun 2026 13:59:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
