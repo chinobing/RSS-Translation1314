@@ -4,116 +4,114 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 30 Jun 2026 14:18:06 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 17:06:42 GMT</lastBuildDate>
     <item>
-      <title>人工智能而非人类可以访问网络</title>
-      <link>https://www.techpolicy.press/the-web-is-being-made-accessible-for-ai-not-people/</link>
-      <description><![CDATA[文章网址：https://www.techpolicy.press/the-web-is-being-made-accessible-for-ai-not-people/
-评论网址：https://news.ycombinator.com/item?id=48732954
+      <title>回归两份披萨文化</title>
+      <link>https://www.allthingsdistributed.com/2026/06/return-to-two-pizza-culture.html</link>
+      <description><![CDATA[文章网址：https://www.allthingsdistributed.com/2026/06/return-to-two-pizza-culture.html
+评论网址：https://news.ycombinator.com/item?id=48735528
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.techpolicy.press/the-web-is-being-made-accessible-for-ai-not-people/</guid>
-      <pubDate>Tue, 30 Jun 2026 14:07:51 GMT</pubDate>
+      <guid>https://www.allthingsdistributed.com/2026/06/return-to-two-pizza-culture.html</guid>
+      <pubDate>Tue, 30 Jun 2026 16:53:27 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：C++、Java 和 C# 轻量级记录器</title>
-      <link>https://github.com/PenguineDavid/light-weight-logger</link>
-      <description><![CDATA[这是一个我一直在使用 C++、java 和 C# 版本的库，您可以在其中创建自定义格式并基于它们进行日志，例如您可以创建一个如下所示的错误：[ERROR] [日期、时间戳、时区] (文件:线程 ID:行)但您可以这样编写：// 定义主格式master_style = &quot;%C[%N]%c%S%G[%D %T %Z]%c %M %G(%F:%t:%L)&quot;;//告诉记录器给定名称使用什么颜色logger.add_format(&quot;ERROR&quot;, master_style, Colour::RED);所以现在[ERROR]部分将是红色的，
-时间区域将为灰色，
-和位置灰色，
-但你真的可以做出任何你想要的风格。
-一旦您有了主格式，您还可以添加不同类型的日志：logger.add_format(&quot;SUCCESS&quot;, style_minimal, Colour::GREEN);
-logger.add_format(&quot;INFO&quot;, master_style, Colour::CYAN);
-logger.add_format(&quot;WARN&quot;, master_style, Colour::YELLOW);我们放入的 %S 实际上是一个列填充器，因此您的日志将是内联的：[INFO] [16/06/2026 10:58:00 AUS Eastern Standard Time] 初始化核心子系统组件。 (src/main.cpp:1:39)
-[成功][16/06/2026 10:58:00 澳大利亚东部标准时间] 数据库连接顺利建立。 (src/main.cpp:1:40)
-[警告] [16/06/2026 10:58:00 澳大利亚东部标准时间] 在节点集群上检测到内存使用率过高。 (src/main.cpp:1:41)
-[错误] [16/06/2026 10:58:00 澳大利亚东部标准时间] 无法写入预写日志！ (src/main.cpp:1:42)
+      <title>询问 HN：您将如何以少量预算推出开源应用程序？</title>
+      <link>https://news.ycombinator.com/item?id=48735500</link>
+      <description><![CDATA[我已经在 Kiyeovo（一个带有可选匿名模式的开源桌面 P2P 通讯工具）上工作了近一年了。计划于 7 月 7 日全面发布。目前，我正在想办法如何让发布更加引人注目 - 推销产品（即使它是 FOSS）。我看到的常见答案是“公开构建”，但由于我和我们中的许多人在网上没有任何追随者 - 这不会产生那么大的效果。尽管如此，还是有用的建议。由于距离产品的最终发布还有不到一周的时间，我决定将更多精力放在营销方面。我分配了 550 美元的预算，将用于发布。 
+- 其中 150 美元将用于在世界各地部署引导程序、中继和 STUN/TURN 服务器，以便您无需设置自己的基础设施即可使用该应用程序 - 对于只想尝试该应用程序的用户来说，这是阻力最小的路径。我剩下 400 美元，将直接用于宣传。这就是我需要您的帮助和建议的地方。- 有哪些想法和经验？
+- 你会用剩下的 400 美元做什么？我目前的一些想法是：
+1.有趣的视频广告（与通常的FOSS营销不同）
+2. reddit、X 和 LinkedIn 上的付费广告
+3. 接触 FOSS 社区
+4. 撰写更多关于它的技术博客我已经/将要做的自由操作 -&gt; 我创建了一个登陆页面 ( https://kiyeovo.marindedic.com/ )，该应用程序将附带特定于平台的安装程序以减少入门摩擦，并且我将在 HN 上宣布启动对于成功启动 FOSS 的人：有什么帮助？什么是浪费时间和金钱？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48732953
+评论网址：https://news.ycombinator.com/item?id=48735500
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/PenguineDavid/light-weight-logger</guid>
-      <pubDate>Tue, 30 Jun 2026 14:07:42 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=48735500</guid>
+      <pubDate>Tue, 30 Jun 2026 16:51:51 GMT</pubDate>
     </item>
     <item>
-      <title>在 Threadripper 9980X 上对硬木 1.0 进行基准测试</title>
-      <link>https://jack-vanlightly.com/blog/2026/6/30/benchmarking-hardwood-10-on-a-threadripper-9980x</link>
-      <description><![CDATA[文章网址：https://jack-vanlightly.com/blog/2026/6/30/benchmarking-hardwood-10-on-a-threadripper-9980x
-评论网址：https://news.ycombinator.com/item?id=48732949
+      <title>迁移到每秒一百万个请求的客户端负载平衡</title>
+      <link>https://engineering.zalando.com/posts/2026/06/client-side-load-balancing.html</link>
+      <description><![CDATA[文章网址：https://engineering.zalando.com/posts/2026/06/client-side-load-balancing.html
+评论网址：https://news.ycombinator.com/item?id=48735496
 积分：1
 # 条评论：0]]></description>
-      <guid>https://jack-vanlightly.com/blog/2026/6/30/benchmarking-hardwood-10-on-a-threadripper-9980x</guid>
-      <pubDate>Tue, 30 Jun 2026 14:07:24 GMT</pubDate>
+      <guid>https://engineering.zalando.com/posts/2026/06/client-side-load-balancing.html</guid>
+      <pubDate>Tue, 30 Jun 2026 16:51:41 GMT</pubDate>
     </item>
     <item>
-      <title>医疗保健软件工程师微型会议</title>
-      <link>https://www.outofpocket.health/ship-it</link>
-      <description><![CDATA[文章网址：https://www.outofpocket.health/ship-it
-评论网址：https://news.ycombinator.com/item?id=48732945
+      <title>（主）蒂莫西·德克斯特</title>
+      <link>https://en.wikipedia.org/wiki/Timothy_Dexter</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Timothy_Dexter
+评论网址：https://news.ycombinator.com/item?id=48735493
+积分：1
+# 条评论：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/Timothy_Dexter</guid>
+      <pubDate>Tue, 30 Jun 2026 16:51:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Xbox 七月裁员传闻为“游戏史上最大规模”</title>
+      <link>https://xcancel.com/georgebsocial/status/2071747657261855201#m</link>
+      <description><![CDATA[文章网址：https://xcancel.com/georgebsocial/status/2071747657261855201#m
+评论网址：https://news.ycombinator.com/item?id=48735447
+积分：3
+# 条评论：1]]></description>
+      <guid>https://xcancel.com/georgebsocial/status/2071747657261855201#m</guid>
+      <pubDate>Tue, 30 Jun 2026 16:48:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我 13 岁的孩子建造了一个蚁群追踪器</title>
+      <link>https://formicarium.es</link>
+      <description><![CDATA[他今年13岁。他想追踪自己的蚁群——生长、进食、湿度和其他指标。他在人工智能工具的帮助下自己构建了整个应用程序；我只是帮他部署到服务器上。很想听听您的反馈！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48735446
+积分：1
+# 条评论：0]]></description>
+      <guid>https://formicarium.es</guid>
+      <pubDate>Tue, 30 Jun 2026 16:48:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>纳米香蕉2 Lite</title>
+      <link>https://deepmind.google/models/gemini-image/flash-lite/</link>
+      <description><![CDATA[文章网址：https://deepmind.google/models/gemini-image/flash-lite/
+评论网址：https://news.ycombinator.com/item?id=48735444
+积分：1
+# 条评论：0]]></description>
+      <guid>https://deepmind.google/models/gemini-image/flash-lite/</guid>
+      <pubDate>Tue, 30 Jun 2026 16:48:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能会产生哪些类型的错误？</title>
+      <link>https://blog.detail.dev/posts/ai-bug-types/</link>
+      <description><![CDATA[文章网址：https://blog.detail.dev/posts/ai-bug-types/
+评论网址：https://news.ycombinator.com/item?id=48735435
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.outofpocket.health/ship-it</guid>
-      <pubDate>Tue, 30 Jun 2026 14:07:15 GMT</pubDate>
+      <guid>https://blog.detail.dev/posts/ai-bug-types/</guid>
+      <pubDate>Tue, 30 Jun 2026 16:48:03 GMT</pubDate>
     </item>
     <item>
-      <title>爱尔兰是大型科技公司的走狗——这损害了其欧盟轮值主席国地位</title>
-      <link>https://www.theguardian.com/commentisfree/2026/jun/30/ireland-big-tech-lapdog-eu-presidency-digital-sovereignty</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/commentisfree/2026/jun/30/ireland-big-tech-lapdog-eu-presidency-digital-sovereignty
-评论网址：https://news.ycombinator.com/item?id=48732938
+      <title>如何像科技创始人一样忙碌</title>
+      <link>https://www.mcsweeneys.net/articles/how-to-hustle-like-a-tech-founder</link>
+      <description><![CDATA[文章网址：https://www.mcsweeneys.net/articles/how-to-hustle-like-a-tech-Founder
+评论网址：https://news.ycombinator.com/item?id=48735426
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theguardian.com/commentisfree/2026/jun/30/ireland-big-tech-lapdog-eu-presidency-digital-sovereignty</guid>
-      <pubDate>Tue, 30 Jun 2026 14:06:44 GMT</pubDate>
+      <guid>https://www.mcsweeneys.net/articles/how-to-hustle-like-a-tech-founder</guid>
+      <pubDate>Tue, 30 Jun 2026 16:47:32 GMT</pubDate>
     </item>
     <item>
-      <title>时间收缩</title>
-      <link>https://alperenkeles.com/posts/temporal-shrinking/</link>
-      <description><![CDATA[文章网址：https://alperenkeles.com/posts/temporal-shrinking/
-评论网址：https://news.ycombinator.com/item?id=48732912
+      <title>OpenClaw、Manus 和 Claude Code 的孩子</title>
+      <link>https://solid.tech</link>
+      <description><![CDATA[文章网址：https://solid.tech
+评论网址：https://news.ycombinator.com/item?id=48735422
 积分：1
 # 条评论：0]]></description>
-      <guid>https://alperenkeles.com/posts/temporal-shrinking/</guid>
-      <pubDate>Tue, 30 Jun 2026 14:04:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>委内瑞拉地震前谷歌地震警报警告1140万</title>
-      <link>https://thenextweb.com/news/google-earthquake-alerts-venezuela-android</link>
-      <description><![CDATA[文章网址：https://thenextweb.com/news/google-earthquake-alerts-venezuela-android
-评论网址：https://news.ycombinator.com/item?id=48732907
-积分：1
-# 条评论：0]]></description>
-      <guid>https://thenextweb.com/news/google-earthquake-alerts-venezuela-android</guid>
-      <pubDate>Tue, 30 Jun 2026 14:04:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>我可以在大约 30 秒内证明你对人工智能的看法是错误的</title>
-      <link>https://muddyum.net/ai-still-cant-do-the-one-thing-that-matters-4cad5a08308e?sk=909ac14c3071092a3f567a3a8d1fa326</link>
-      <description><![CDATA[文章网址： https://muddyum.net/ai-still-cant-do-the-one-thing-that-matters-4cad5a08308e?sk=909ac14c3071092a3f567a3a8d1fa326
-评论网址：https://news.ycombinator.com/item?id=48732882
-积分：1
-# 条评论：0]]></description>
-      <guid>https://muddyum.net/ai-still-cant-do-the-one-thing-that-matters-4cad5a08308e?sk=909ac14c3071092a3f567a3a8d1fa326</guid>
-      <pubDate>Tue, 30 Jun 2026 14:02:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>我父亲帮助建立了北美的燕麦供应链：它可以重塑吗？</title>
-      <link>https://ambrook.com/offrange/perspective/how-we-lost-our-oats</link>
-      <description><![CDATA[文章网址：https://ambrook.com/offrange/perspective/how-we-lost-our-oats
-评论网址：https://news.ycombinator.com/item?id=48732870
-积分：1
-# 条评论：0]]></description>
-      <guid>https://ambrook.com/offrange/perspective/how-we-lost-our-oats</guid>
-      <pubDate>Tue, 30 Jun 2026 14:00:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>袋熊如何排便立方体？科学家揭开谜底</title>
-      <link>https://www.science.org/content/article/how-do-wombats-poop-cubes-scientists-get-bottom-mystery</link>
-      <description><![CDATA[文章网址：https://www.science.org/content/article/how-do-wombats-poop-cubes-scientists-get-bottom-mystery
-评论网址：https://news.ycombinator.com/item?id=48732860
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.science.org/content/article/how-do-wombats-poop-cubes-scientists-get-bottom-mystery</guid>
-      <pubDate>Tue, 30 Jun 2026 13:59:32 GMT</pubDate>
+      <guid>https://solid.tech</guid>
+      <pubDate>Tue, 30 Jun 2026 16:47:24 GMT</pubDate>
     </item>
     </channel>
 </rss>
