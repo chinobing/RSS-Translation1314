@@ -4,113 +4,106 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 01 Jul 2026 14:34:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 19:54:58 GMT</lastBuildDate>
     <item>
-      <title>您孩子的校车即将成为漫游监控车</title>
-      <link>https://www.thedrive.com/news/your-kids-school-bus-is-about-to-become-a-roaming-surveillance-vehicle</link>
-      <description><![CDATA[文章网址：https://www.thedrive.com/news/your-kids-school-bus-is-about-to-become-a-roaming-surveillance-vehicle
-评论网址：https://news.ycombinator.com/item?id=48746842
-积分：12
+      <title>《神鬼寓言 5》回来了</title>
+      <link>https://twitter.com/claudeai/status/2072402636813607381</link>
+      <description><![CDATA[文章网址：https://twitter.com/claudeai/status/2072402636813607381
+评论网址：https://news.ycombinator.com/item?id=48752030
+积分：21
 # 条评论：0]]></description>
-      <guid>https://www.thedrive.com/news/your-kids-school-bus-is-about-to-become-a-roaming-surveillance-vehicle</guid>
-      <pubDate>Wed, 01 Jul 2026 13:54:25 GMT</pubDate>
+      <guid>https://twitter.com/claudeai/status/2072402636813607381</guid>
+      <pubDate>Wed, 01 Jul 2026 19:35:57 GMT</pubDate>
     </item>
     <item>
-      <title>启动 HN：Parsewise (YC P25) – 使用 API 进行跨文档推理</title>
-      <link>https://news.ycombinator.com/item?id=48746752</link>
-      <description><![CDATA[大家好，我是 Parsewise 的创始人 Greg 和 MaxParsewise 将一桶非结构化数据转换为符合架构的数据，保留跨文档解析的值的沿袭。
-想象一下给 Claude 一堆文件并要求 CSV 或 JSON 输出。如果您尝试过这一点，您就会知道系统限制（文件数量、输入类型、成本、延迟），而且也知道无法快速验证结果所面临的人类挑战。我们解决这两个问题。
-我们帮助技术团队简化非结构化数据 ETL，并让业务专家循环进行定义和即时验证。这里有一个包含一些用例的视频：https://www.youtube.com/watch?v=dbRllnnh47w用来找我们的人的话来说：Parsewise：
-“我需要从保单 PDF、已转录的电话、电子邮件等中提取信息。我并不是在寻找一种能够逐个数据点、一页一页地提取数据到结构化、定义良好的模式的东西，而是一种更具有代理性的东西，可以理解信息可能跨文档，并且应该推理出要提取的内容。”我们基于在复杂数据转换和数据分析/合成方面十年的经验（和痛苦）创办了这家公司。 Greg 正在 Palantir 构建经典 ETL 并实施 AI 工作流程。在 Bain，Max 在金融领域进行了高度复杂的数据分析，与我们的许多客户类似。Parsewise 的工作原理是接收一桶数据（例如数百或数千个 pdf、excel 等），并输出符合架构的数据，其中每个值都可追溯到桶中多个文档的字级引用。我们为API客户提供在自己的应用程序中展示血统的方法，或者他们可以使用我们的平台进行内部操作。
-在数据处理的核心，我们有自我改进的代理定义。它们定义了可接受的来源、解析或组合值的逻辑，以及向最终用户强调不确定性的规则。底层技术与模型和云无关，可以部署在专用网络中。我们已经看到 Gemini 模型在视觉推理方面的最佳结果，在我们发现的最强大的推理基准（Databricks OfficeQA）上实现了 SOTA（击败 Claude Fable）。
-值得注意的是，我们更多地关注“人体安全带”而不是模型安全带，倾向于我们在吸收中看到的实际摩擦，这是围绕可验证性的。这意味着优化信任结果所需的时间和点击次数。
-我们使用 vLLM 进行解析，然后使用小模型进行高效的大规模穷举搜索。与 RAG 不同，我们不采样；相反，我们详尽地查找给定查询的所有相关值。我们使用更大的模型来围绕解决方案进行决策，并向用户标记不一致的情况。这种详尽和明确的价值来源是我们平台所独有的，它超出了许多现有提供商所涵盖的数据解析的第一步。我们非常欢迎构建者和修补者尝试 Parsewise 来解决复杂的文档挑战。关于如何扩展产品并使其变得更好，我们有很多想法，但非常感谢社区的反馈和想法！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48746752
-积分：9
-# 条评论：1]]></description>
-      <guid>https://news.ycombinator.com/item?id=48746752</guid>
-      <pubDate>Wed, 01 Jul 2026 13:48:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么我不再与人争论</title>
-      <link>https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html</link>
-      <description><![CDATA[文章网址：https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html
-评论网址：https://news.ycombinator.com/item?id=48746445
-积分：178
-# 条评论：129]]></description>
-      <guid>https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html</guid>
-      <pubDate>Wed, 01 Jul 2026 13:29:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>欧盟年龄验证有什么问题？ （没有什么）</title>
-      <link>https://blog.vrypan.net/2026/06/29/260629-whats-wrong-with-eu-age-verification/</link>
-      <description><![CDATA[文章网址：https://blog.vrypan.net/2026/06/29/260629-whats-wrong-with-eu-age-verification/
-评论网址：https://news.ycombinator.com/item?id=48746404
-积分：16
-# 条评论：19]]></description>
-      <guid>https://blog.vrypan.net/2026/06/29/260629-whats-wrong-with-eu-age-verification/</guid>
-      <pubDate>Wed, 01 Jul 2026 13:27:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Manufact (YC S25) 正在 SF 招聘一名开发者倡导者</title>
-      <link>https://www.ycombinator.com/companies/manufact/jobs/4cyWd6S-developer-advocate-partnerships-devrel</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/manufact/jobs/4cyWd6S-developer-advocate-partnerships-devrel
-评论网址：https://news.ycombinator.com/item?id=48746331
-积分：0
+      <title>显示 HN：Z-Jail – 一个 130 KB Linux 沙箱-C99，具有 7 个防御层和零 deps</title>
+      <link>https://github.com/Division-36/Z-Jail/</link>
+      <description><![CDATA[文章网址：https://github.com/Division-36/Z-Jail/
+评论网址：https://news.ycombinator.com/item?id=48751824
+积分：3
 # 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/manufact/jobs/4cyWd6S-developer-advocate-partnerships-devrel</guid>
-      <pubDate>Wed, 01 Jul 2026 13:22:24 GMT</pubDate>
+      <guid>https://github.com/Division-36/Z-Jail/</guid>
+      <pubDate>Wed, 01 Jul 2026 19:18:11 GMT</pubDate>
     </item>
     <item>
-      <title>PlayStation 新游戏的实体光盘制作将于 2028 年 1 月结束</title>
-      <link>https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/</link>
-      <description><![CDATA[文章网址： https://blog.playstation.com/2026/07/01/physical-disc-product-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/
-评论网址：https://news.ycombinator.com/item?id=48745456
-积分：113
-评论数：89]]></description>
-      <guid>https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/</guid>
-      <pubDate>Wed, 01 Jul 2026 12:13:34 GMT</pubDate>
+      <title>ZCode：GLM 制作者的 Claude 代码</title>
+      <link>https://zcode.z.ai/cn</link>
+      <description><![CDATA[文章网址：https://zcode.z.ai/cn
+评论网址：https://news.ycombinator.com/item?id=48751752
+积分：42
+# 条评论：7]]></description>
+      <guid>https://zcode.z.ai/cn</guid>
+      <pubDate>Wed, 01 Jul 2026 19:11:38 GMT</pubDate>
     </item>
     <item>
-      <title>宣布 Box3D :: Box2D</title>
-      <link>https://box2d.org/posts/2026/06/announcing-box3d/</link>
-      <description><![CDATA[文章网址：https://box2d.org/posts/2026/06/announcing-box3d/
-评论网址：https://news.ycombinator.com/item?id=48745445
-积分：6
+      <title>Weave Robotics 推出 Isaac 1，这是一款售价 7,999 美元的家用机器人，预计 2026 年秋季交付</title>
+      <link>https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch</link>
+      <description><![CDATA[文章网址：https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch
+评论网址：https://news.ycombinator.com/item?id=48750989
+积分：10
+# 条评论：18]]></description>
+      <guid>https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch</guid>
+      <pubDate>Wed, 01 Jul 2026 18:12:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>成为一名图形程序员需要学习什么</title>
+      <link>https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/</link>
+      <description><![CDATA[文章网址：https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/
+评论网址：https://news.ycombinator.com/item?id=48750710
+积分：90
+# 条评论：31]]></description>
+      <guid>https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/</guid>
+      <pubDate>Wed, 01 Jul 2026 17:53:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>酿造杜松子酒：简单胜于简单</title>
+      <link>https://manualmeida.dev/articles/gin-simple-over-easy/</link>
+      <description><![CDATA[文章网址：https://manualmeida.dev/articles/gin-simple-over-easy/
+评论网址：https://news.ycombinator.com/item?id=48750593
+积分：38
+# 条评论：12]]></description>
+      <guid>https://manualmeida.dev/articles/gin-simple-over-easy/</guid>
+      <pubDate>Wed, 01 Jul 2026 17:45:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>花见3.0：盛开</title>
+      <link>https://hanakai.org/blog/2026/06/30/hanami-3-0-in-full-bloom</link>
+      <description><![CDATA[文章网址：https://hanakai.org/blog/2026/06/30/hanami-3-0-in-full-bloom
+评论网址：https://news.ycombinator.com/item?id=48750527
+积分：28
+# 条评论：4]]></description>
+      <guid>https://hanakai.org/blog/2026/06/30/hanami-3-0-in-full-bloom</guid>
+      <pubDate>Wed, 01 Jul 2026 17:41:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>2000 年至 2019 年与非最佳环境温度相关的死亡率</title>
+      <link>https://www.researchgate.net/publication/353058947_Global_regional_and_national_burden_of_mortality_associated_with_non-optimal_ambient_temperatures_from_2000_to_2019_a_three-stage_modelling_study</link>
+      <description><![CDATA[文章网址： https://www.researchgate.net/publication/353058947_Global_regional_and_national_burden_of_mortality_linked_with_non-optimal_ambient_Temperatures_from_2000_to_2019_a_ Three-stage_modelling_study
+评论网址：https://news.ycombinator.com/item?id=48750373
+积分：11
 # 条评论：0]]></description>
-      <guid>https://box2d.org/posts/2026/06/announcing-box3d/</guid>
-      <pubDate>Wed, 01 Jul 2026 12:12:17 GMT</pubDate>
+      <guid>https://www.researchgate.net/publication/353058947_Global_regional_and_national_burden_of_mortality_associated_with_non-optimal_ambient_temperatures_from_2000_to_2019_a_three-stage_modelling_study</guid>
+      <pubDate>Wed, 01 Jul 2026 17:29:11 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Frond – 应用程序依赖关系图的前端运行时</title>
-      <link>https://frondruntime.dev</link>
-      <description><![CDATA[文章网址：https://frondruntime.dev
-评论网址：https://news.ycombinator.com/item?id=48745434
-积分：4
+      <title>读者是否使用人工智能模型创作小说？</title>
+      <link>https://arxiv.org/abs/2606.22748</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2606.22748
+评论网址：https://news.ycombinator.com/item?id=48750247
+积分：27
+# 条评论：37]]></description>
+      <guid>https://arxiv.org/abs/2606.22748</guid>
+      <pubDate>Wed, 01 Jul 2026 17:21:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>一个完整的 ClickHouse OLAP 引擎，编译为 WebAssembly</title>
+      <link>https://wasm.chdb.io/</link>
+      <description><![CDATA[文章网址：https://wasm.chdb.io/
+评论网址：https://news.ycombinator.com/item?id=48750000
+积分：20
 # 条评论：2]]></description>
-      <guid>https://frondruntime.dev</guid>
-      <pubDate>Wed, 01 Jul 2026 12:10:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>任天堂将员工基本工资提高10%</title>
-      <link>https://mynintendonews.com/2026/06/26/nintendo-has-raised-its-employees-base-salary-by-10/</link>
-      <description><![CDATA[文章网址：https://mynintendonews.com/2026/06/26/nintendo-has-raised-its-employees-base-salary-by-10/
-评论网址：https://news.ycombinator.com/item?id=48745113
-积分：192
-# 条评论：72]]></description>
-      <guid>https://mynintendonews.com/2026/06/26/nintendo-has-raised-its-employees-base-salary-by-10/</guid>
-      <pubDate>Wed, 01 Jul 2026 11:35:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>瑞典法院称 Google 将向 Klarna 支付 1.5B 美元反垄断赔偿</title>
-      <link>https://www.reuters.com/business/swedish-court-says-google-is-pay-15-billion-klarna-antitrust-damages-2026-07-01/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/business/swedish-court-says-google-is-pay-15-billion-klarna-antitrust-damages-2026-07-01/
-评论网址：https://news.ycombinator.com/item?id=48745061
-积分：87
-# 条评论：56]]></description>
-      <guid>https://www.reuters.com/business/swedish-court-says-google-is-pay-15-billion-klarna-antitrust-damages-2026-07-01/</guid>
-      <pubDate>Wed, 01 Jul 2026 11:28:26 GMT</pubDate>
+      <guid>https://wasm.chdb.io/</guid>
+      <pubDate>Wed, 01 Jul 2026 17:05:00 GMT</pubDate>
     </item>
     </channel>
 </rss>
