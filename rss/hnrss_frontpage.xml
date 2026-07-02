@@ -4,106 +4,108 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 02 Jul 2026 11:33:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 16:48:46 GMT</lastBuildDate>
     <item>
-      <title>元建云业务出售过剩AI产能</title>
-      <link>https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/
-评论网址：https://news.ycombinator.com/item?id=48759329
-积分：17
-# 条评论：18]]></description>
-      <guid>https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/</guid>
-      <pubDate>Thu, 02 Jul 2026 10:43:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nvidia 为初创客户提供了用计算能力换取收入分成的机会</title>
-      <link>https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html</link>
-      <description><![CDATA[文章网址：https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html
-评论网址：https://news.ycombinator.com/item?id=48759308
-积分：9
+      <title>显示 HN：ZkGolf</title>
+      <link>https://zk.golf/</link>
+      <description><![CDATA[零知识证明（ZKP）让不受信任的证明表明计算已正确执行，而无需向验证者透露输入。
+然而，为了证明任何事情，计算首先必须表示为电路：有限域上的多项式方程组（约束）。 
+电路是 zk 的汇编语言，每个约束都会花费证明者（有时是验证者）的时间，因此生产电路需要积极地手动优化。在过去的几个月里，我们一直在尝试编写正式规范，并让法学硕士生产电路：只要他们能够证明其实现是正确的。 
+它从 SHA-256 开始：我们在 Lean 中手工编写了 SHA-256 压缩规范，然后我们要求法学硕士编写电路，针对 R1CS 算术化和大字段。Opus 4.7 花了几个小时的工作，并进行了一些轻微的转向正确的方向，但最终模型提出了一个合理的实现。然后，我们要求法学硕士通过降低电路的成本指标（约束数量）来积极优化电路。我们立即得到了非常有希望的结果，只需提出优化想法，实施它们并证明新电路仍然满足健全性和完整性。有时，它会提出不合理的优化，但是，由于它无法证明这些优化，因此它会回溯并回到正确的方法。结果是一个（非确定性）电路击败了当前经过人类优化的 SHA256 压缩技术。这些经验促使我们创建了“zk.golf”，这是一项公开竞赛，旨在产生优化的、形式化验证的电路，以降低 ZKP 的使用门槛并提高其应用效率。快来玩 (https://zk.golf/llms.txt) 并了解形式化验证。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48763246
+积分：11
 # 条评论：1]]></description>
-      <guid>https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html</guid>
-      <pubDate>Thu, 02 Jul 2026 10:41:33 GMT</pubDate>
+      <guid>https://zk.golf/</guid>
+      <pubDate>Thu, 02 Jul 2026 15:40:05 GMT</pubDate>
     </item>
     <item>
-      <title>谷歌因欧盟反垄断罚款 4.7B 美元创纪录而败诉</title>
-      <link>https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html</link>
-      <description><![CDATA[文章网址：https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html
-评论网址：https://news.ycombinator.com/item?id=48758309
-积分：115
-# 条评论：101]]></description>
-      <guid>https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html</guid>
-      <pubDate>Thu, 02 Jul 2026 08:34:13 GMT</pubDate>
+      <title>自 Linux 6.9 起，LUKS 挂起停止从内存中擦除磁盘加密密钥</title>
+      <link>https://mathstodon.xyz/@iblech/116769502749142438</link>
+      <description><![CDATA[文章网址：https://mathstodon.xyz/@iblech/116769502749142438
+评论网址：https://news.ycombinator.com/item?id=48763035
+积分：108
+# 条评论：23]]></description>
+      <guid>https://mathstodon.xyz/@iblech/116769502749142438</guid>
+      <pubDate>Thu, 02 Jul 2026 15:25:16 GMT</pubDate>
     </item>
     <item>
-      <title>定理经济的衰落</title>
-      <link>https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy</link>
-      <description><![CDATA[文章网址：https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy
-评论网址：https://news.ycombinator.com/item?id=48758048
-积分：74
-# 条评论：24]]></description>
-      <guid>https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy</guid>
-      <pubDate>Thu, 02 Jul 2026 08:01:15 GMT</pubDate>
+      <title>启动 HN：Manufact (YC S25) – MCP 云</title>
+      <link>https://manufact.com</link>
+      <description><![CDATA[]]></description>
+      <guid>https://manufact.com</guid>
+      <pubDate>Thu, 02 Jul 2026 15:11:20 GMT</pubDate>
     </item>
     <item>
-      <title>CursorBench 3.1</title>
-      <link>https://cursor.com/evals</link>
-      <description><![CDATA[文章网址：https://cursor.com/evals
-评论网址：https://news.ycombinator.com/item?id=48756840
-积分：77
-# 条评论：48]]></description>
-      <guid>https://cursor.com/evals</guid>
-      <pubDate>Thu, 02 Jul 2026 05:19:34 GMT</pubDate>
+      <title>西班牙将 Palantir 列入上市和私营公司黑名单</title>
+      <link>https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv</link>
+      <description><![CDATA[文章网址： https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv
+评论网址：https://news.ycombinator.com/item?id=48762725
+积分：32
+# 条评论：2]]></description>
+      <guid>https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv</guid>
+      <pubDate>Thu, 02 Jul 2026 15:02:26 GMT</pubDate>
     </item>
     <item>
-      <title>Kimi K2.7 代码已在 GitHub Copilot 中公开</title>
-      <link>https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/</link>
-      <description><![CDATA[文章网址：https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/
-评论网址：https://news.ycombinator.com/item?id=48756602
-积分：188
-# 条评论：76]]></description>
-      <guid>https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/</guid>
-      <pubDate>Thu, 02 Jul 2026 04:32:41 GMT</pubDate>
+      <title>Show HN：用于使用嵌入模型检测不精确代码重复的 CLI 工具</title>
+      <link>https://github.com/rafal-qa/slopo</link>
+      <description><![CDATA[文章网址：https://github.com/rafal-qa/slopo
+评论网址：https://news.ycombinator.com/item?id=48762038
+积分：26
+# 条评论：6]]></description>
+      <guid>https://github.com/rafal-qa/slopo</guid>
+      <pubDate>Thu, 02 Jul 2026 14:19:24 GMT</pubDate>
     </item>
     <item>
-      <title>来自 Google 的新 Android 恶意软件</title>
-      <link>https://f-droid.org/2026/07/01/adv-malware.html</link>
-      <description><![CDATA[文章网址：https://f-droid.org/2026/07/01/adv-malware.html
-评论网址：https://news.ycombinator.com/item?id=48755965
-积分：717
-# 条评论：286]]></description>
-      <guid>https://f-droid.org/2026/07/01/adv-malware.html</guid>
-      <pubDate>Thu, 02 Jul 2026 03:00:15 GMT</pubDate>
+      <title>Show HN：Mail Memories – 用于从 Gmail 中拯救照片的桌面应用程序</title>
+      <link>https://mailmemories.com</link>
+      <description><![CDATA[嘿 HN，我是邮件记忆的创建者。和你们中的许多人一样，我使用 Gmail 地址已有 20 多年了。几年前，我很好奇，想看看我的账户里到底藏着哪些照片。我最终找到了很多“丢失”的老朋友、家人的照片，以及数量可笑的复古模因。我最初将其作为 SaaS 构建并推出，但即使有代码和政策来保护用户照片的私密性，我认为每个人都会对桌面应用程序感到更舒服。因此，我抛弃了服务器架构，并将其完全重写为适用于 Mac 和 Windows 的 100% 本地桌面应用程序。它现在如何工作：该应用程序直接连接到 Google您的计算机上的服务器，完全在您的系统上处理所有内容，并将照片直接保存到您的硬盘上。您可以免费下载 50 张最旧的照片（无需信用卡），只是为了看看里面有什么。如果您想下载帐户中的所有图片，则需一次性支付 29 美元。无需订阅。如果您有 2010 年之前的旧 Gmail 帐户，一定要尝试一下。您会对在存档深处发现的内容感到惊讶。我很想听听您对布局、扫描性能或其他方面的反馈。TL;DR：我将我的 SaaS 变成了本地桌面应用程序 (Mac/Windows)，可以从 Gmail 中恢复数十年来被遗忘的照片。 100% 本地，无云，无订阅，无人工智能。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48762000
+积分：65
+# 条评论：18]]></description>
+      <guid>https://mailmemories.com</guid>
+      <pubDate>Thu, 02 Jul 2026 14:16:57 GMT</pubDate>
     </item>
     <item>
-      <title>Senior SWE-Bench：评估代理为高级工程师的开源基准</title>
-      <link>https://senior-swe-bench.snorkel.ai/</link>
-      <description><![CDATA[文章网址：https://senior-swe-bench.snorkel.ai/
-评论网址：https://news.ycombinator.com/item?id=48755928
-积分：101
-评论数量：75]]></description>
-      <guid>https://senior-swe-bench.snorkel.ai/</guid>
-      <pubDate>Thu, 02 Jul 2026 02:55:16 GMT</pubDate>
+      <title>日本最高法院规定人工智能不能被列为专利申请发明人</title>
+      <link>https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/</link>
+      <description><![CDATA[文章网址：https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/
+评论网址：https://news.ycombinator.com/item?id=48761536
+积分：168
+# 条评论：68]]></description>
+      <guid>https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/</guid>
+      <pubDate>Thu, 02 Jul 2026 13:43:41 GMT</pubDate>
     </item>
     <item>
-      <title>把垃圾论坛带回来</title>
-      <link>https://tedium.co/2026/07/01/online-web-forums-retrospective/</link>
-      <description><![CDATA[文章网址：https://tedium.co/2026/07/01/online-web-forums-retrospective/
-评论网址：https://news.ycombinator.com/item?id=48755731
-积分：315
-# 条评论：194]]></description>
-      <guid>https://tedium.co/2026/07/01/online-web-forums-retrospective/</guid>
-      <pubDate>Thu, 02 Jul 2026 02:30:16 GMT</pubDate>
+      <title>Show HN：ZeroFS – S3 的日志结构文件系统</title>
+      <link>https://www.zerofs.net/</link>
+      <description><![CDATA[文章网址：https://www.zerofs.net/
+评论网址：https://news.ycombinator.com/item?id=48761493
+积分：75
+# 条评论：36]]></description>
+      <guid>https://www.zerofs.net/</guid>
+      <pubDate>Thu, 02 Jul 2026 13:41:11 GMT</pubDate>
     </item>
     <item>
-      <title>Oomwoo，您自己构建的开源扫地机器人</title>
-      <link>https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/</link>
-      <description><![CDATA[文章网址：https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/
-评论网址：https://news.ycombinator.com/item?id=48755005
-积分：335
-# 条评论：63]]></description>
-      <guid>https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/</guid>
-      <pubDate>Thu, 02 Jul 2026 00:48:01 GMT</pubDate>
+      <title>Show HN：在浏览器中渲染矢量 PDF 的方格纸生成器</title>
+      <link>https://freegraphpaper.net/</link>
+      <description><![CDATA[文章网址：https://freegraphpaper.net/
+评论网址：https://news.ycombinator.com/item?id=48761294
+积分：31
+# 条评论：7]]></description>
+      <guid>https://freegraphpaper.net/</guid>
+      <pubDate>Thu, 02 Jul 2026 13:29:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>鸡蛋强盗因价格操纵而获得的罚款是他们刚刚支付的一千倍</title>
+      <link>https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a</link>
+      <description><![CDATA[文章网址：https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a
+评论网址：https://news.ycombinator.com/item?id=48761229
+积分：138
+# 条评论：38]]></description>
+      <guid>https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a</guid>
+      <pubDate>Thu, 02 Jul 2026 13:25:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
