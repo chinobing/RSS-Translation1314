@@ -4,106 +4,117 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 05 Jul 2026 11:04:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 13:37:55 GMT</lastBuildDate>
     <item>
-      <title>天灾</title>
-      <link>https://0dd.company/galleries/triumph/1.html</link>
-      <description><![CDATA[文章网址：https://0dd.company/galleries/triumph/1.html
-评论网址：https://news.ycombinator.com/item?id=48792352
-积分：16
+      <title>半空间的工程师</title>
+      <link>https://yusufaytas.com/the-engineer-in-the-half-space</link>
+      <description><![CDATA[文章网址：https://yusufaytas.com/the-engineer-in-the-half-space
+评论网址：https://news.ycombinator.com/item?id=48793716
+积分：23
 # 条评论：1]]></description>
-      <guid>https://0dd.company/galleries/triumph/1.html</guid>
-      <pubDate>Sun, 05 Jul 2026 08:32:09 GMT</pubDate>
+      <guid>https://yusufaytas.com/the-engineer-in-the-half-space</guid>
+      <pubDate>Sun, 05 Jul 2026 12:28:04 GMT</pubDate>
     </item>
     <item>
-      <title>基于网络的密码学始终是万金油</title>
-      <link>https://www.devever.net/~hl/webcrypto</link>
-      <description><![CDATA[文章网址：https://www.devever.net/~hl/webcrypto
-评论网址：https://news.ycombinator.com/item?id=48792203
+      <title>在浏览器中显示 HN: KiCad</title>
+      <link>https://demo.pcbjam.com/</link>
+      <description><![CDATA[KiCad，一个 PCB EDA 套件，现在可以在浏览器中运行，您可以在链接中尝试，有一个演示项目，或者您可以自带。 Firefox 最好，Chrome 很好，Safari 正在“工作”。我们是 Emergence Engineering，一家来自匈牙利的开发商店，主要使用富文本编辑器 CRDT。 PCBJam 最初是我（Viktor、CTO、前电气工程师）的爱好项目，但随着时间的推移，我投入了更多
+我投入了更多的精力，一个产品开始在我的脑海中成形，在过去的几个月里，我们开始更多地关注这个项目，这是第一个 MVP~ish 结果。这个项目充满乐趣，大量的学习，大量的改进：- 我认为一定有方法可以在网络上模拟 PCB 画布 OpenGL 代码。是的，方法有很多，但都存在很多问题。事实证明，只编写可使用的 WebGL 代码会更快
+KiCad 的图形抽象层（如果您添加正确的中间调试步骤）。我（和克劳德）实现了这些功能，并在每一步将它们与原生进行比较，然后应用程序加载了第一个 
+时间刚刚工作。在此之前，我花了数周时间寻找奇怪的仿真错误。- 有一个旧的 wxWidgets Web 端口作为起点，提供了很大帮助，将其提升到 KiCad 所需的水平是一项长期（且仍在进行中）的任务。谢谢 ahilss！- 网络上的 Pthreads：使用 Emscripten 可以移植多线程应用程序（由 DRC、软件 3D 渲染器使用）。许多 Emscripten 功能（Asyncify、Pthreads、本机异常）相互冲突，但这是可能的。- 带有本机异常的 Asyncify：Asyncify（用于使 WASM 代码挂起然后调用 JS 空间，通过直接重写 WASM 来模拟阻塞 C++ 调用）与本机异常不兼容，即使在最新的 Binaryen 版本上，它也无法在 catch 臂内挂起。如果您编写一个新的 Binaryen 通行证，那么它就可以使捆绑包缩小 30-40%，并且应用程序将在 1 秒内加载，而不是 10 秒。- 优化捆绑包大小是一个有趣的游戏。我们刚刚将 Open CASCADE 移至单独的延迟加载 WASM 模块中，从 180 MB 移至 130 MB（24 MB brotli），仍在 -O1 上。 -O2 / -Oz 等会比它更多的工作
+看起来。每天都会有很多类似上面的问题。几个月前，我有一个几乎加载缓慢的 pcbnew，当你看错它时它崩溃了，现在我们已经让整个应用程序正常工作了。我应该说还有很多错误，但现在感觉很不错
+接近原生。我们希望以博文的形式发布很多已积累的知识/代码，将我们的更改主要化到 Binaryen / KiCad / wxWidgets，但我想首先关注发布。我们的 wxWidgets 端口相当 
+靠近核心，KiCad 大约有 150 个更改的核心文件（主要是构建脚本，也有一些代码更改）。我们的目标是尽可能接近主线，并最终合并。我们肯定会有一个免费套餐，对于更大/封闭的项目，每月大约 30 美元，可选的付费 AI 集成/自托管/企业功能/本机和移动版本。我们的目标是在 KiCad 之上构建一个产品（协作、AI 集成、共享、集成），有点像红帽当时对 Linux 所做的那样。我们正在埋头使其发挥作用并拥有
+第一个版本将在大约一个月左右发布。当然，我们站在制作 KiCad 和 wxWidgets 的人们的肩膀上，我们希望尽可能多地回馈和做出贡献，如果您有关于如何最好地做到这一点的想法，请告诉我，我
+发布了一些还算成功的开源项目，但我从来都不是贡献者。所有前端代码都是 GPL（必须是），如果需要，您可以运行此项目。您可以在以下位置找到源代码：https://github.com/emergence-engineering/pcbjam。我们的公司网站位于：
+https://emergence-engineering.com/我们的蹩脚唱片位于： 
+https://www.pcbjam.com/
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48793542
+积分：11
+# 条评论：2]]></description>
+      <guid>https://demo.pcbjam.com/</guid>
+      <pubDate>Sun, 05 Jul 2026 12:06:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>大麻使用者患心脏病的风险显着增加</title>
+      <link>https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk</link>
+      <description><![CDATA[文章网址：https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk
+评论网址：https://news.ycombinator.com/item?id=48793492
 积分：29
-# 条评论：34]]></description>
-      <guid>https://www.devever.net/~hl/webcrypto</guid>
-      <pubDate>Sun, 05 Jul 2026 08:01:29 GMT</pubDate>
+# 条评论：7]]></description>
+      <guid>https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk</guid>
+      <pubDate>Sun, 05 Jul 2026 11:59:27 GMT</pubDate>
     </item>
     <item>
-      <title>程序员需要开始冥想</title>
-      <link>https://jacob.gold/posts/programmers-need-to-start-meditating-now/</link>
-      <description><![CDATA[文章网址：https://jacob.gold/posts/programmers-need-to-start-meditating-now/
-评论网址：https://news.ycombinator.com/item?id=48792080
-积分：59
-# 条评论：47]]></description>
-      <guid>https://jacob.gold/posts/programmers-need-to-start-meditating-now/</guid>
-      <pubDate>Sun, 05 Jul 2026 07:39:35 GMT</pubDate>
+      <title>编译器和语言设计简介</title>
+      <link>https://dthain.github.io/books/compiler/</link>
+      <description><![CDATA[文章网址：https://dthain.github.io/books/compiler/
+评论网址：https://news.ycombinator.com/item?id=48793454
+积分：8
+# 条评论：0]]></description>
+      <guid>https://dthain.github.io/books/compiler/</guid>
+      <pubDate>Sun, 05 Jul 2026 11:54:16 GMT</pubDate>
     </item>
     <item>
-      <title>快速软件，最好的软件</title>
+      <title>Pi的平方接近10</title>
+      <link>https://mihai.page/pi-square-is-10/</link>
+      <description><![CDATA[文章网址：https://mihai.page/pi-square-is-10/
+评论网址：https://news.ycombinator.com/item?id=48793073
+积分：21
+# 条评论：13]]></description>
+      <guid>https://mihai.page/pi-square-is-10/</guid>
+      <pubDate>Sun, 05 Jul 2026 10:50:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>在工作中清洁太空厕所的科学家现在领导火星探索</title>
+      <link>https://www.bbc.com/news/articles/cz758x04g83o</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/cz758x04g83o
+评论网址：https://news.ycombinator.com/item?id=48792780
+积分：21
+# 条评论：5]]></description>
+      <guid>https://www.bbc.com/news/articles/cz758x04g83o</guid>
+      <pubDate>Sun, 05 Jul 2026 09:55:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>克劳德设计系统提示</title>
+      <link>https://github.com/Trystan-SA/claude-design-system-prompt</link>
+      <description><![CDATA[文章网址：https://github.com/Trystan-SA/claude-design-system-prompt
+评论网址：https://news.ycombinator.com/item?id=48792399
+积分：60
+# 条评论：15]]></description>
+      <guid>https://github.com/Trystan-SA/claude-design-system-prompt</guid>
+      <pubDate>Sun, 05 Jul 2026 08:43:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>知识不应该被限制</title>
+      <link>https://www.formaly.io/blog/knowledge-should-not-be-gated</link>
+      <description><![CDATA[文章网址：https://www.formaly.io/blog/knowledge-should-not-be-gate
+评论网址：https://news.ycombinator.com/item?id=48792195
+积分：30
+# 条评论：10]]></description>
+      <guid>https://www.formaly.io/blog/knowledge-should-not-be-gated</guid>
+      <pubDate>Sun, 05 Jul 2026 07:59:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>快速软件，最佳软件 (2019)</title>
       <link>https://craigmod.com/essays/fast_software/</link>
       <description><![CDATA[文章网址：https://craigmod.com/essays/fast_software/
 评论网址：https://news.ycombinator.com/item?id=48792008
-积分：16
-# 条评论：5]]></description>
+积分：61
+# 条评论：29]]></description>
       <guid>https://craigmod.com/essays/fast_software/</guid>
       <pubDate>Sun, 05 Jul 2026 07:25:25 GMT</pubDate>
     </item>
     <item>
-      <title>sqlite-utils 4.0rc2，主要由 Claude Fable 编写（约 149.25 美元）</title>
-      <link>https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/</link>
-      <description><![CDATA[文章网址：https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/
-评论网址：https://news.ycombinator.com/item?id=48791708
-积分：51
-# 条评论：56]]></description>
-      <guid>https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/</guid>
-      <pubDate>Sun, 05 Jul 2026 06:19:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>微波兆瓦</title>
-      <link>https://computer.rip/2026-07-04-microwave-and-power.html</link>
-      <description><![CDATA[文章网址：https://computer.rip/2026-07-04-microwave-and-power.html
-评论网址：https://news.ycombinator.com/item?id=48791591
-积分：27
-# 条评论：2]]></description>
-      <guid>https://computer.rip/2026-07-04-microwave-and-power.html</guid>
-      <pubDate>Sun, 05 Jul 2026 05:56:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>鼠标：AI 编码代理的精确编辑工具</title>
-      <link>https://hic-ai.com</link>
-      <description><![CDATA[文章网址：https://hic-ai.com
-评论网址：https://news.ycombinator.com/item?id=48791380
-积分：33
-# 条评论：37]]></description>
-      <guid>https://hic-ai.com</guid>
-      <pubDate>Sun, 05 Jul 2026 05:01:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>Shadcn/UI 现在默认为 Base UI 而不是 Radix</title>
-      <link>https://ui.shadcn.com/docs/changelog</link>
-      <description><![CDATA[文章网址：https://ui.shadcn.com/docs/changelog
-评论网址：https://news.ycombinator.com/item?id=48791328
-积分：139
-# 条评论：47]]></description>
-      <guid>https://ui.shadcn.com/docs/changelog</guid>
-      <pubDate>Sun, 05 Jul 2026 04:46:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>白鲸锻炼 (2022)</title>
-      <link>https://www.hogbaysoftware.com/posts/moby-dick-workout/</link>
-      <description><![CDATA[文章网址：https://www.hogbaysoftware.com/posts/moby-dick-workout/
-评论网址：https://news.ycombinator.com/item?id=48791266
-积分：45
-# 条评论：13]]></description>
-      <guid>https://www.hogbaysoftware.com/posts/moby-dick-workout/</guid>
-      <pubDate>Sun, 05 Jul 2026 04:30:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>我的 ASN 之旅系列 (2024)</title>
-      <link>https://www.animmouse.com/p/my-asn-journey/</link>
-      <description><![CDATA[文章网址：https://www.animmouse.com/p/my-asn-journey/
-评论网址：https://news.ycombinator.com/item?id=48791256
-积分：22
+      <title>减少假设，分解你的代码</title>
+      <link>https://ryelang.org/blog/posts/reducing_assumptions_but_exploding/</link>
+      <description><![CDATA[文章网址：https://ryelang.org/blog/posts/reducing_asminations_but_exploding/
+评论网址：https://news.ycombinator.com/item?id=48791990
+积分：18
 # 条评论：7]]></description>
-      <guid>https://www.animmouse.com/p/my-asn-journey/</guid>
-      <pubDate>Sun, 05 Jul 2026 04:29:05 GMT</pubDate>
+      <guid>https://ryelang.org/blog/posts/reducing_assumptions_but_exploding/</guid>
+      <pubDate>Sun, 05 Jul 2026 07:22:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
