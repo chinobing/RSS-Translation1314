@@ -4,120 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 06 Jul 2026 10:20:36 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 15:31:39 GMT</lastBuildDate>
     <item>
-      <title>Show HN：PAI，Mac 上的 Linux 个人助理</title>
-      <link>https://www.whitematterlabs.ai/</link>
-      <description><![CDATA[嗨，HN！过去一个月我一直在研究 PAI，这是一个 Linux 风格的工具，用于 Mac 上的个人助理 AI。我不想给聊天机器人提供一堆工具，而是想将 LLM 放入终端，看看它的表现如何。我一直在用它来管理我的日历、5 个以上电子邮件帐户，并及时与人们互动/回复（整个项目的宣战理由）。在看到其他永远在线的助手是如何设计的之后，我认为 Unix / Linux 系统设计哲学可以应用于 AI 工具，我想尝试一下它是如何实现的。与他们相比。因此，我在构建 PAI 时考虑了以下几点：1.在 LLM 中使用“代码模式”（LLM 是自然的 SDE/系统管理员）
-  - 如果您还记得不久前的[代码模式](https://blog.cloudflare.com/code-mode/)帖子，我想尝试利用模型中的这些功能，使其自然地与线束交互，而不是尝试通过一堆说明来加载它。 LLM自然知道与配置相关的东西属于/etc/，如何`cd`，`cat`，`tail`东西等等。 2.避免对法学硕士进行民意调查。
-  - 我想看看是否可以避免轮询，因为这浪费了令牌，而且任意间隔似乎不优雅。 
-  - 相反，我创建了一个事件总线来唤醒 LLM 并接受 PAI 可能自行连接的任意源。
-  - 使用脚本进行轮询有时是不可避免的，但很好。3. PAI 有自己的 FHS(-ish) 目录
-  - 该目录在 ~/.pai/home/ 中托管多个不同的用户（代理）；默认配置是根代理、面向用户的代理和处理内存整合和学习等的“图书馆员”。 
-  - 每个代理可以从源订阅不同的事件，具有不同的权限来访问/运行东西。4。工具是二进制文件，API / 连接器是驱动程序（一切都是文件）
-  - 这更多的是一个建议，而不是我严格遵循的规则，但基本上每个工具都是可执行文件，每个事件生成器都遵循 Linux 中驱动程序的形式。一切都是一个进程，位于 /proc/ 中，事件是文件，等等。5. PAI有自己的包管理器
-  - 恰当地称为“paiman”，这只是 PAI 分享他们在上游编写的新内容的一种方式。我意识到这是非常不安全的（如果我诚实的话，不知道如何确保它的安全），所以我实际上并没有使上游提交成为可能。6。 grep ~ 是矢量搜索吗？
-  - 我想看看 grep (rg) 是否足够好，因为无论如何，实际上延迟在这里不是问题。我稍后可能会尝试矢量搜索。7.我讨厌登录我的所有帐户
-  - 我使用存储在 Mac 上的本地 SQLite DB 来与 iMessage 和 Mail 集成。它开箱即用（假设您的 Mac 已设置这些应用程序）。*尝试之前您应该了解的事情*
-没有沙箱。 PAI 需要完整的磁盘访问。 
-PAI 将您的 chrome cookie 复制到剧作家的单独 chrome 实例中。不过你可以看到它所做的一切。
-福斯和拜克。我已经使用 Deepseek 的 5 美元信用额度，但还没有用完。如果有兴趣，我可能会将其变成云的东西，但我对此表示怀疑：D按照 https://whitematterlabs.ai 中的说明进行尝试gh： https://github.com/whitematterlabs/pai 。还请原谅无耻的 LLM 生成的网站:-)任何意见、想法或建议将不胜感激。您也可以直接告诉 PAI 更改任何您可能不喜欢的内容。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48802741
+      <title>穆尔瓦德为极右翼提供资金以及科技公司所有权问题</title>
+      <link>https://www.kjz.im/mullvad-far-right/</link>
+      <description><![CDATA[文章网址：https://www.kjz.im/mullvad-far-right/
+评论网址：https://news.ycombinator.com/item?id=48805996
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.whitematterlabs.ai/</guid>
-      <pubDate>Mon, 06 Jul 2026 10:16:32 GMT</pubDate>
+      <guid>https://www.kjz.im/mullvad-far-right/</guid>
+      <pubDate>Mon, 06 Jul 2026 15:25:33 GMT</pubDate>
     </item>
     <item>
-      <title>NASA发射机器人拯救坠落地球的斯威夫特望远镜</title>
-      <link>https://www.bbc.com/news/articles/c0ry4xx7rk8o</link>
-      <description><![CDATA[文章网址：https://www.bbc.com/news/articles/c0ry4xx7rk8o
-评论网址：https://news.ycombinator.com/item?id=48802722
+      <title>2026年世界杯淘汰赛“食物链”</title>
+      <link>https://rtnf.substack.com/p/world-cup-2026-elimination-food-chain</link>
+      <description><![CDATA[文章网址：https://rtnf.substack.com/p/world-cup-2026-elimination-food-chain
+评论网址：https://news.ycombinator.com/item?id=48805990
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.bbc.com/news/articles/c0ry4xx7rk8o</guid>
-      <pubDate>Mon, 06 Jul 2026 10:13:28 GMT</pubDate>
+      <guid>https://rtnf.substack.com/p/world-cup-2026-elimination-food-chain</guid>
+      <pubDate>Mon, 06 Jul 2026 15:25:14 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：GhostMap – VS Code 的结构化幽灵注释</title>
-      <link>https://marketplace.visualstudio.com/items?itemName=Ghostmap.ghostmap</link>
-      <description><![CDATA[文章网址：https://marketplace.visualstudio.com/items?itemName=Ghostmap.ghostmap
-评论网址：https://news.ycombinator.com/item?id=48802721
+      <title>汤姆·科里奇奥的最后一次服务</title>
+      <link>https://www.esquire.com/preview/food-drink/restaurants/a71774153/tom-colicchio-craft-closing/</link>
+      <description><![CDATA[文章网址：https://www.esquire.com/preview/food-drink/restaurants/a71774153/tom-colicchio-craft-fitting/
+评论网址：https://news.ycombinator.com/item?id=48805988
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.esquire.com/preview/food-drink/restaurants/a71774153/tom-colicchio-craft-closing/</guid>
+      <pubDate>Mon, 06 Jul 2026 15:25:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>电动防空拦截无人机以 434 英里/小时打破世界飞行速度记录</title>
+      <link>https://www.tomshardware.com/tech-industry/drones/electric-drone-breaks-world-air-speed-record-at-434-mph-designed-for-anti-aircraft-interceptor-roles-german-firm-convincingly-smashed-the-official-409-mph-record-hopes-to-get-stamp-of-approval-from-guinness-soon</link>
+      <description><![CDATA[文章网址： https://www.tomshardware.com/tech-industry/drones/electric-drone-breaks-world-air-speed-record-at-434-mph-Designed-for-anti-aircraft-i德国公司拦截机角色令人信服地打破了 409 英里/小时的官方记录，希望很快获得吉尼斯世界纪录的认可
+评论网址：https://news.ycombinator.com/item?id=48805985
 积分：1
 # 条评论：0]]></description>
-      <guid>https://marketplace.visualstudio.com/items?itemName=Ghostmap.ghostmap</guid>
-      <pubDate>Mon, 06 Jul 2026 10:13:10 GMT</pubDate>
+      <guid>https://www.tomshardware.com/tech-industry/drones/electric-drone-breaks-world-air-speed-record-at-434-mph-designed-for-anti-aircraft-interceptor-roles-german-firm-convincingly-smashed-the-official-409-mph-record-hopes-to-get-stamp-of-approval-from-guinness-soon</guid>
+      <pubDate>Mon, 06 Jul 2026 15:24:54 GMT</pubDate>
     </item>
     <item>
-      <title>计算机的速度限制</title>
-      <link>https://caolan.uk/notes/2026-07-02_a_speed_limit_for_computers.cm</link>
-      <description><![CDATA[文章网址：https://caolan.uk/notes/2026-07-02_a_speed_limit_for_computers.cm
-评论网址：https://news.ycombinator.com/item?id=48802718
-积分：1
+      <title>CS2 Fog Of War：CS2 服务器的服务器端防黑客遮挡剔除</title>
+      <link>https://github.com/karola3vax/CS2FOW</link>
+      <description><![CDATA[文章网址：https://github.com/karola3vax/CS2FOW
+评论网址：https://news.ycombinator.com/item?id=48805965
+积分：2
 # 条评论：0]]></description>
-      <guid>https://caolan.uk/notes/2026-07-02_a_speed_limit_for_computers.cm</guid>
-      <pubDate>Mon, 06 Jul 2026 10:12:38 GMT</pubDate>
+      <guid>https://github.com/karola3vax/CS2FOW</guid>
+      <pubDate>Mon, 06 Jul 2026 15:23:34 GMT</pubDate>
     </item>
     <item>
-      <title>我在构建 Reddit 工具时受到了影子禁令</title>
-      <link>https://cuescout.com/blog/i-got-shadowbanned-building-a-reddit-tool</link>
-      <description><![CDATA[文章网址：https://cuescout.com/blog/i-got-shadowbanned-building-a-reddit-tool
-评论网址：https://news.ycombinator.com/item?id=48802687
-积分：1
+      <title>不要让他们上钩</title>
+      <link>https://slavaolenin.medium.com/dont-let-them-hook-you-877cb2dad73c</link>
+      <description><![CDATA[文章网址：https://slavaolenin.medium.com/dont-let-them-hook-you-877cb2dad73c
+评论网址：https://news.ycombinator.com/item?id=48805942
+积分：2
 # 条评论：1]]></description>
-      <guid>https://cuescout.com/blog/i-got-shadowbanned-building-a-reddit-tool</guid>
-      <pubDate>Mon, 06 Jul 2026 10:06:09 GMT</pubDate>
+      <guid>https://slavaolenin.medium.com/dont-let-them-hook-you-877cb2dad73c</guid>
+      <pubDate>Mon, 06 Jul 2026 15:22:10 GMT</pubDate>
     </item>
     <item>
-      <title>ESM预计，如果美国抛售、新中东战争同时袭来，欧元区将陷入衰退</title>
-      <link>https://www.reuters.com/business/finance/esm-sees-euro-zone-recession-if-us-sell-off-new-middle-east-war-hit-once-2026-07-06/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/business/finance/esm-sees-euro-zone-recession-if-us-sell-off-new-middle-east-war-hit-once-2026-07-06/
-评论网址：https://news.ycombinator.com/item?id=48802679
+      <title>国际清算银行表示，人工智能泡沫如何破裂并拖垮全球经济</title>
+      <link>https://www.theregister.com/ai-and-ml/2026/06/29/how-the-ai-bubble-could-pop-and-take-down-the-global-economy-according-to-the-bis/5263793</link>
+      <description><![CDATA[文章网址： https://www.theregister.com/ai-and-ml/2026/06/29/how-the-ai-bubble-could-pop-and-take-down-the-global-economy-according-to-the-bis/5263793
+评论网址：https://news.ycombinator.com/item?id=48805940
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.reuters.com/business/finance/esm-sees-euro-zone-recession-if-us-sell-off-new-middle-east-war-hit-once-2026-07-06/</guid>
-      <pubDate>Mon, 06 Jul 2026 10:04:15 GMT</pubDate>
+      <guid>https://www.theregister.com/ai-and-ml/2026/06/29/how-the-ai-bubble-could-pop-and-take-down-the-global-economy-according-to-the-bis/5263793</guid>
+      <pubDate>Mon, 06 Jul 2026 15:22:04 GMT</pubDate>
     </item>
     <item>
-      <title>我建立了一种更有效的慈善方式</title>
-      <link>https://tithe.charity/</link>
-      <description><![CDATA[文章网址：https://tithe.charity/
-评论网址：https://news.ycombinator.com/item?id=48802673
+      <title>Flow – 实时网络吞吐量的终端仪表板</title>
+      <link>https://github.com/programmersd21/flow</link>
+      <description><![CDATA[文章网址：https://github.com/programmersd21/flow
+评论网址：https://news.ycombinator.com/item?id=48805918
 积分：1
 # 条评论：0]]></description>
-      <guid>https://tithe.charity/</guid>
-      <pubDate>Mon, 06 Jul 2026 10:03:34 GMT</pubDate>
+      <guid>https://github.com/programmersd21/flow</guid>
+      <pubDate>Mon, 06 Jul 2026 15:20:33 GMT</pubDate>
     </item>
     <item>
-      <title>页面级别的真空</title>
-      <link>https://boringsql.com/posts/vacuum-at-the-page-level/</link>
-      <description><![CDATA[文章网址：https://boringsql.com/posts/vacuum-at-the-page-level/
-评论网址：https://news.ycombinator.com/item?id=48802660
-积分：2
-# 条评论：0]]></description>
-      <guid>https://boringsql.com/posts/vacuum-at-the-page-level/</guid>
-      <pubDate>Mon, 06 Jul 2026 10:02:08 GMT</pubDate>
+      <title>我对游戏开发的看法是错误的</title>
+      <link>https://mijndertstuij.nl/posts/i-was-wrong-about-game-development/</link>
+      <description><![CDATA[文章网址：https://mijndertstuij.nl/posts/i-was-wrong-about-game-development/
+评论网址：https://news.ycombinator.com/item?id=48805885
+积分：1
+# 条评论：2]]></description>
+      <guid>https://mijndertstuij.nl/posts/i-was-wrong-about-game-development/</guid>
+      <pubDate>Mon, 06 Jul 2026 15:18:37 GMT</pubDate>
     </item>
     <item>
-      <title>“我们的很多父母都是按小时计酬的”</title>
-      <link>https://www.theguardian.com/lifeandstyle/2026/jun/22/money-coach-blueprint-generational-wealth</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/lifeandstyle/2026/jun/22/money-coach-blueprint- Generational-wealth
-评论网址：https://news.ycombinator.com/item?id=48802655
+      <title>显示 HN：俄罗斯方块，其中每个像素都是另一个俄罗斯方块（GLSL 中的 23,040 个游戏）</title>
+      <link>https://thiagolira.blot.im/_projects/fractetris/index.html</link>
+      <description><![CDATA[在此页面上有两个基于注释汇编代码的原始 Gameboy Tetris 游戏的完整重现。在顶层有一个可编译为 WASM 的 C 版本，但在该版本的每个像素上都有一个 GLSL 着色器，它还实现了完整的原始代码，并由 AI 播放器进行虚拟输入！一切都是由我规划并由 Claude Fable 编码。巴西瓷砖集由 Gemini 生成，因此从技术上讲我没有使用任何受版权保护的资产。链接到存储库：https://github.com/ThiagoLira/Fractetris/tree/main
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48805882
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theguardian.com/lifeandstyle/2026/jun/22/money-coach-blueprint-generational-wealth</guid>
-      <pubDate>Mon, 06 Jul 2026 10:01:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>废弃软件民主化</title>
-      <link>https://geopjr.dev/blog/democratizing-abandonware</link>
-      <description><![CDATA[文章网址：https://geopjr.dev/blog/democratizing-abandonware
-评论网址：https://news.ycombinator.com/item?id=48802633
-积分：2
-# 条评论：0]]></description>
-      <guid>https://geopjr.dev/blog/democratizing-abandonware</guid>
-      <pubDate>Mon, 06 Jul 2026 09:56:11 GMT</pubDate>
+      <guid>https://thiagolira.blot.im/_projects/fractetris/index.html</guid>
+      <pubDate>Mon, 06 Jul 2026 15:18:22 GMT</pubDate>
     </item>
     </channel>
 </rss>
