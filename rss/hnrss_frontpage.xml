@@ -1,111 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>黑客新闻：头版</title>
+    <title></title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 08 Jul 2026 19:24:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 22:04:50 GMT</lastBuildDate>
     <item>
-      <title>OpenMandriva：关于企图破坏分发的声明</title>
-      <link>https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997</link>
-      <description><![CDATA[文章网址：https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997
-评论网址：https://news.ycombinator.com/item?id=48835439
+      <title>在编码评估中将信号与噪声分离</title>
+      <link>https://openai.com/index/separating-signal-from-noise-coding-evaluations/</link>
+      <description><![CDATA[文章网址：https://openai.com/index/separating-signal-from-noise-coding-evaluations/
+评论网址：https://news.ycombinator.com/item?id=48837396
+积分：73
+# 条评论：32]]></description>
+      <guid>https://openai.com/index/separating-signal-from-noise-coding-evaluations/</guid>
+      <pubDate>Wed, 08 Jul 2026 21:03:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anthropic 放在《寓言》前面的分类器太热心了</title>
+      <link>https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html</link>
+      <description><![CDATA[文章网址：https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html
+评论网址：https://news.ycombinator.com/item?id=48837162
+积分：143
+评论数：122]]></description>
+      <guid>https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html</guid>
+      <pubDate>Wed, 08 Jul 2026 20:41:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>将一堆文档变成可搜索、可用的知识库</title>
+      <link>https://github.com/linuxrebel/DocuBrowser</link>
+      <description><![CDATA[文章网址：https://github.com/linuxrebel/DocuBrowser
+评论网址：https://news.ycombinator.com/item?id=48837110
+积分：21
+# 条评论：4]]></description>
+      <guid>https://github.com/linuxrebel/DocuBrowser</guid>
+      <pubDate>Wed, 08 Jul 2026 20:37:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>代理测试流程、LLM 基准测试以及有关代理编码的其他说明</title>
+      <link>https://danluu.com/ai-coding/#llm-variance</link>
+      <description><![CDATA[文章网址：https://danluu.com/ai-coding/#llm-variance
+评论网址：https://news.ycombinator.com/item?id=48836951
+积分：9
+# 条评论：1]]></description>
+      <guid>https://danluu.com/ai-coding/#llm-variance</guid>
+      <pubDate>Wed, 08 Jul 2026 20:21:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Multigres 支持跨池连接监听/通知</title>
+      <link>https://multigres.com/blog/listen-notify</link>
+      <description><![CDATA[文章网址：https://multigres.com/blog/listen-notify
+评论网址：https://news.ycombinator.com/item?id=48836838
 积分：3
 # 条评论：0]]></description>
-      <guid>https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997</guid>
-      <pubDate>Wed, 08 Jul 2026 18:21:53 GMT</pubDate>
+      <guid>https://multigres.com/blog/listen-notify</guid>
+      <pubDate>Wed, 08 Jul 2026 20:11:40 GMT</pubDate>
     </item>
     <item>
-      <title>格罗克4.5</title>
-      <link>https://x.ai/news/grok-4-5</link>
-      <description><![CDATA[文章网址：https://x.ai/news/grok-4-5
-评论网址：https://news.ycombinator.com/item?id=48835111
-积分：179
-# 条评论：102]]></description>
-      <guid>https://x.ai/news/grok-4-5</guid>
-      <pubDate>Wed, 08 Jul 2026 18:00:32 GMT</pubDate>
+      <title>Show HN：Onboard-CLI，一个由法学硕士支持且基于 AST 的工具，用于可视化代码库</title>
+      <link>https://github.com/animesh-94/Onboard-CLI</link>
+      <description><![CDATA[文章网址：https://github.com/animesh-94/Onboard-CLI
+评论网址：https://news.ycombinator.com/item?id=48836813
+积分：11
+# 条评论：2]]></description>
+      <guid>https://github.com/animesh-94/Onboard-CLI</guid>
+      <pubDate>Wed, 08 Jul 2026 20:09:03 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：微软发布 Flint，一种用于 AI 代理的可视化语言</title>
-      <link>https://microsoft.github.io/flint-chart/#/</link>
-      <description><![CDATA[数据可视化是用户和数据之间的桥梁。但是构建能够可靠生成可视化的 AI 代理可能非常棘手：- 简单的图表规范可能是可靠的，但由于依赖系统默认值，生成的图表通常质量较低； 
-- 具有明确细节的复杂图表规范可以生成美观的图表，但它们很冗长，并且代理可能会在可靠性方面遇到困难我们发现这是语言问题（不仅仅是人工智能能力问题）的限制 - 当前的可视化语言对于人工智能代理来说有点太低级了，要求它们显式地做出应该由良好的编译器处理的视觉决策。 Flint 是一种可视化中间语言来解决这个问题，让 AI 代理解决最后一英里的人机交互问题。它提供了一个简单的基于语义类型的规范，并包含一个布局优化引擎，可以从简单的高级规范生成美观的图表（充满派生的低级细节）。结果也是非常人性化的、易于理解和适应的。 Flint 为数据公式生成器提供支持，用于生成可视化（微软的另一个开源项目 https://data-formulator.ai/）。Flint 是可用的开源项目，我们构建了一个 MCP 服务器，您可以将 flint 直接插入您最喜欢的代理应用程序中以处理数据。
+      <title>FAANG模拟器</title>
+      <link>https://www.abeyk.com/escape-the-rat-race/</link>
+      <description><![CDATA[文章网址：https://www.abeyk.com/escape-the-rat-race/
+评论网址：https://news.ycombinator.com/item?id=48836778
+积分：70
+# 条评论：22]]></description>
+      <guid>https://www.abeyk.com/escape-the-rat-race/</guid>
+      <pubDate>Wed, 08 Jul 2026 20:05:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Hnwork.app – 用于显示谁正在招聘帖子的 UI</title>
+      <link>https://hnwork.app/</link>
+      <description><![CDATA[嘿 HN，我在“谁正在招聘”帖子之上构建了一个 UI。看看 https://hnwork.app！非结构化文本帖子的缺点之一是可读性，因为它是自由格式且几乎没有格式。虽然多年来已经构建了其他工具来更轻松地阅读“谁在招聘”帖子，但我尝试制作自己的工具（实际上我在几年前的 YC 黑客马拉松上尝试过构建这个工具，但最近才完成它）。功能：1。文本搜索和搜索过滤器
+2. 原始帖子文本，其中标注了重要信息
+3.删除与主题无关的帖子（投诉、寻找工作、模糊或缺失的联系信息）
+4. 分析
+5. API此外，职位发布者可以创建帐户以通过应用程序提交帖子。虽然我不希望发帖转移到这个应用程序，但这正是我所设想的“谁正在招聘”线程想要的应用程序：1。具有必填字段的结构化帖子（例如，所需的薪资范围）
+2. 职位发布者会收到有关其帖子评论的通知
+3. 职位发布者在发布前通过电子邮件进行验证（例如，发布索尼职位的人拥有索尼电子邮件地址）
+4. 拥有多个职位发布者的公司可以协调发布并查看过去的发布
+5. 管理员可以审核和批准公司和帖子求职者还可以创建一个帐户来发表评论或访问简单的 API，但浏览其他内容不需要任何类型的注册/登录。我愿意接受反馈：如果您希望我获取过去几个月的更多数据、某些内容丢失或损坏，或者有您希望看到的新功能，请告诉我。谢谢！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48834924
-积分：47
-# 条评论：21]]></description>
-      <guid>https://microsoft.github.io/flint-chart/#/</guid>
-      <pubDate>Wed, 08 Jul 2026 17:46:12 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=48836713
+积分：14
+# 条评论：5]]></description>
+      <guid>https://hnwork.app/</guid>
+      <pubDate>Wed, 08 Jul 2026 20:00:04 GMT</pubDate>
     </item>
     <item>
-      <title>PlayStation 可以在 3 年内不活动后删除您的所有数字游戏（欧盟）</title>
-      <link>https://www.flatpanelshd.com/news.php?subaction=showfull&id=1783340582</link>
-      <description><![CDATA[文章网址：https://www.flatpanelshd.com/news.php?subaction=showfull&amp;id=1783340582
-评论网址：https://news.ycombinator.com/item?id=48834919
-积分：62
-# 条评论：20]]></description>
-      <guid>https://www.flatpanelshd.com/news.php?subaction=showfull&id=1783340582</guid>
-      <pubDate>Wed, 08 Jul 2026 17:45:26 GMT</pubDate>
+      <title>几乎总是未签名</title>
+      <link>https://graphitemaster.github.io/aau/</link>
+      <description><![CDATA[文章网址：https://graphitemaster.github.io/aau/
+评论网址：https://news.ycombinator.com/item?id=48836431
+积分：11
+# 条评论：0]]></description>
+      <guid>https://graphitemaster.github.io/aau/</guid>
+      <pubDate>Wed, 08 Jul 2026 19:35:07 GMT</pubDate>
     </item>
     <item>
-      <title>我们对体内的微塑料了解多少？</title>
-      <link>https://e360.yale.edu/features/cassandra-rauert-interview</link>
-      <description><![CDATA[文章网址：https://e360.yale.edu/features/cassandra-rauert-interview
-评论网址：https://news.ycombinator.com/item?id=48834898
-积分：67
-评论数量：9]]></description>
-      <guid>https://e360.yale.edu/features/cassandra-rauert-interview</guid>
-      <pubDate>Wed, 08 Jul 2026 17:43:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT-Live</title>
-      <link>https://openai.com/index/introducing-gpt-live/</link>
-      <description><![CDATA[文章网址：https://openai.com/index/introducing-gpt-live/
-评论网址：https://news.ycombinator.com/item?id=48834405
-积分：358
-# 条评论：253]]></description>
-      <guid>https://openai.com/index/introducing-gpt-live/</guid>
-      <pubDate>Wed, 08 Jul 2026 17:03:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>欧盟距恢复私人消息扫描规则仅一步之遥</title>
-      <link>https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/</link>
-      <description><![CDATA[文章网址：https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/
-评论网址：https://news.ycombinator.com/item?id=48834296
-积分：158
-# 条评论：44]]></description>
-      <guid>https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/</guid>
-      <pubDate>Wed, 08 Jul 2026 16:53:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>SWE-1.7 接近 GPT 5.5 和 Opus Intelligence</title>
-      <link>https://cognition.com/blog/swe-1-7</link>
-      <description><![CDATA[文章网址：https://cognition.com/blog/swe-1-7
-评论网址：https://news.ycombinator.com/item?id=48833866
-积分：134
-评论数量：85]]></description>
-      <guid>https://cognition.com/blog/swe-1-7</guid>
-      <pubDate>Wed, 08 Jul 2026 16:19:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>打字稿 7</title>
-      <link>https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/</link>
-      <description><![CDATA[文章网址：https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
-评论网址：https://news.ycombinator.com/item?id=48833715
-积分：216
-# 条评论：67]]></description>
-      <guid>https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/</guid>
-      <pubDate>Wed, 08 Jul 2026 16:06:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Chatto 现已开源</title>
-      <link>https://www.hmans.dev/blog/chatto-is-open-source</link>
-      <description><![CDATA[文章网址：https://www.hmans.dev/blog/chatto-is-open-source
-评论网址：https://news.ycombinator.com/item?id=48833116
-积分：392
-# 条评论：105]]></description>
-      <guid>https://www.hmans.dev/blog/chatto-is-open-source</guid>
-      <pubDate>Wed, 08 Jul 2026 15:19:50 GMT</pubDate>
+      <title>云焰掉落</title>
+      <link>https://www.cloudflare.com/drop/</link>
+      <description><![CDATA[文章网址：https://www.cloudflare.com/drop/
+评论网址：https://news.ycombinator.com/item?id=48836233
+积分：117
+# 条评论：64]]></description>
+      <guid>https://www.cloudflare.com/drop/</guid>
+      <pubDate>Wed, 08 Jul 2026 19:18:26 GMT</pubDate>
     </item>
     </channel>
 </rss>
