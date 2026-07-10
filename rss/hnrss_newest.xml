@@ -4,106 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 10 Jul 2026 19:27:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 22:02:49 GMT</lastBuildDate>
     <item>
-      <title>我认识的第一个在有针对性的罢工中被谋杀的程序员是 Haitham</title>
-      <link>https://www.lrb.co.uk/the-paper/v48/n12/muhammad-shehada/i-would-never-release-him</link>
-      <description><![CDATA[文章网址：https://www.lrb.co.uk/the-paper/v48/n12/muhammad-shehada/i-would-never-release-him
-评论网址：https://news.ycombinator.com/item?id=48864017
+      <title>Show HN：允许 AI 代理请求伤残保险报价的 MCP 服务器</title>
+      <link>https://github.com/seaworthy-io/seaworthy-mcp</link>
+      <description><![CDATA[嗨，HN。我拥有一家在线保险代理机构，这是一个令人痛苦的老派行业。我不是开发人员。我在克劳德代码中对所有内容进行了振动编码，然后在发货之前进行了审查和测试。我想这就是故事的一部分，一家拥有好奇心和相当有能力的人员的小公司现在可以运营两年前需要承包商的代理基础设施。我正在尝试这样做，因为我们越来越多的潜在客户首先询问他们的人工智能选择购买什么保险以及从谁那里获得保险。助理可以阅读我的网站，因此像其他人一样，我正在尝试通过内容获取推荐。但下一个自然步骤是代理商在网站上实际采取行动，而不仅仅是阅读它们，因此我创建了七个工具，六个只读工具（经过验证的事实知识库、运营商比较、专业和教育指南、福利上限数学、乘客定义）和一个操作“报价请求”，该操作通过我们的 Web 表单使用的相同 Salesforce Web-to-Lead 路径将潜在客户直接写入我们的 CRM。然后它切换回“正常”流程，并由持牌经纪人通过传统方式跟进。这是我目前能想到的最好的用例，但随着空间的成熟，预计会找到其他用例。据我所知，这是我的保险领域中第一个可代理调用的报价操作。我最初使用 OAuth 流程构建它，但存在摩擦不断终止测试交互，因此我将其打开，无需身份验证。除非我遗漏了某些东西，否则最坏的情况是垃圾线索而不是数据泄漏，因为读取工具仅包含已发布的信息，而报价请求会收集正常的线索内容，例如姓名、出生日期等。根据 Claude 的说法，垃圾邮件“通过严格的输入验证进行分层处理，包括 DNS-over-HTTPS 检查电子邮件域是否可以接收邮件、Workers KV 中的每个 IP 速率限制以及短窗口重复抑制。”无论哪种方式，每个代理产生的潜在客户都将在我的 CRM 中标记，以便轻松过滤垃圾。理论上，如果你锤击它，速率限制应该会阻止你。但这是我不介意有人玩弄的东西，因为我正在即时学习，经验丰富的开发人员可能会发现一些漏洞。我的设置是单个 Cloudflare Worker（可流式 HTTP 传输），用于速率限制和知识的 KV，部署时编译的知识与为我们的网站聊天机器人提供的相同事实来源，因此 MCP 和网站从同一个文件重新生成。端点：https://mcp.seaworthy.io/mcp
+人类可读的参考：https://seaworthy.io/for-ai-agents/诚实的开放问题是这是否会完成任何事情。我还没有通过这些方式获得线索，并且预计在一段时间内不会收到线索，但我确实相信，人们不会要求代理商从哪里获取报价，他们最终只会要求代理商代表他们获取报价（然后最终完全建立覆盖范围），而且我想成为我的利基市场中第一个有能力的人。很乐意回答问题，如果有人有任何要分享的内容，我们愿意提供意见。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48865790
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.lrb.co.uk/the-paper/v48/n12/muhammad-shehada/i-would-never-release-him</guid>
-      <pubDate>Fri, 10 Jul 2026 19:18:24 GMT</pubDate>
+      <guid>https://github.com/seaworthy-io/seaworthy-mcp</guid>
+      <pubDate>Fri, 10 Jul 2026 21:53:05 GMT</pubDate>
     </item>
     <item>
-      <title>ChatGPT 和 Codex 桌面应用程序合并混乱</title>
-      <link>https://community.openai.com/t/where-did-my-chatgpt-projects-go/1386177</link>
-      <description><![CDATA[文章网址：https://community.openai.com/t/where-did-my-chatgpt-projects-go/1386177
-评论网址：https://news.ycombinator.com/item?id=48864005
+      <title>保护大脑的简单方法</title>
+      <link>https://economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain</link>
+      <description><![CDATA[文章网址：https://economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain
+评论网址：https://news.ycombinator.com/item?id=48865783
 积分：1
 # 条评论：0]]></description>
-      <guid>https://community.openai.com/t/where-did-my-chatgpt-projects-go/1386177</guid>
-      <pubDate>Fri, 10 Jul 2026 19:17:30 GMT</pubDate>
+      <guid>https://economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain</guid>
+      <pubDate>Fri, 10 Jul 2026 21:52:32 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能获得小脑</title>
-      <link>https://www.mccormick.northwestern.edu/news/articles/2026/07/ai-gets-a-cerebellum/</link>
-      <description><![CDATA[文章网址：https://www.mccormick.northwestern.edu/news/articles/2026/07/ai-gets-a-cerebellum/
-评论网址：https://news.ycombinator.com/item?id=48863998
+      <title>无需智能手机即可使用信号的工具</title>
+      <link>https://github.com/almet/signal-without-smartphone</link>
+      <description><![CDATA[文章网址：https://github.com/almet/signal-without-smartphone
+评论网址：https://news.ycombinator.com/item?id=48865773
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.mccormick.northwestern.edu/news/articles/2026/07/ai-gets-a-cerebellum/</guid>
-      <pubDate>Fri, 10 Jul 2026 19:16:46 GMT</pubDate>
+      <guid>https://github.com/almet/signal-without-smartphone</guid>
+      <pubDate>Fri, 10 Jul 2026 21:51:05 GMT</pubDate>
     </item>
     <item>
-      <title>最近 Costco 标志性烤鸡面临的法律挑战背后的原因是什么</title>
-      <link>https://www.kavout.com/market-lens/what-s-behind-the-recent-legal-challenges-to-costco-s-iconic-rotisserie-chicken</link>
-      <description><![CDATA[文章网址：https://www.kavout.com/market-lens/what-s-behind-the-recent-legal-challenges-to-costco-s-iconic-rotisserie-chicken
-评论网址：https://news.ycombinator.com/item?id=48863988
+      <title>探险队在拉布拉多海拍摄了沙克尔顿最后一艘船“探索号”的第一张照片</title>
+      <link>https://www.whoi.edu/press-room/news-release/quest-images/</link>
+      <description><![CDATA[文章网址：https://www.whoi.edu/press-room/news-release/quest-images/
+评论网址：https://news.ycombinator.com/item?id=48865737
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.kavout.com/market-lens/what-s-behind-the-recent-legal-challenges-to-costco-s-iconic-rotisserie-chicken</guid>
-      <pubDate>Fri, 10 Jul 2026 19:15:57 GMT</pubDate>
+      <guid>https://www.whoi.edu/press-room/news-release/quest-images/</guid>
+      <pubDate>Fri, 10 Jul 2026 21:47:16 GMT</pubDate>
     </item>
     <item>
-      <title>坏 X 总比没有好</title>
-      <link>https://en.andros.dev/blog/cdc5a0bc/a-bad-x-is-better-than-none/</link>
-      <description><![CDATA[文章网址：https://en.andros.dev/blog/cdc5a0bc/a-bad-x-is-better-than-none/
-评论网址：https://news.ycombinator.com/item?id=48863979
+      <title>人工智能如何变得比它取代的工人更昂贵[视频]</title>
+      <link>https://www.youtube.com/watch?v=cfaZZPjA3g0</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=cfaZZPjA3g0
+评论网址：https://news.ycombinator.com/item?id=48865719
 积分：1
 # 条评论：0]]></description>
-      <guid>https://en.andros.dev/blog/cdc5a0bc/a-bad-x-is-better-than-none/</guid>
-      <pubDate>Fri, 10 Jul 2026 19:15:23 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=cfaZZPjA3g0</guid>
+      <pubDate>Fri, 10 Jul 2026 21:45:27 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：适用于 Nintendo Switch、PC、Web 和移动设备的 C++ SFML SDL 2 游戏引擎</title>
-      <link>https://github.com/Is-Daouda/is-Engine</link>
-      <description><![CDATA[文章网址：https://github.com/Is-Daouda/is-Engine
-评论网址：https://news.ycombinator.com/item?id=48863969
+      <title>中国开放人工智能模式正在提升其全球软实力</title>
+      <link>https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/</link>
+      <description><![CDATA[文章网址：https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/
+评论网址：https://news.ycombinator.com/item?id=48865717
+积分：3
+# 条评论：0]]></description>
+      <guid>https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/</guid>
+      <pubDate>Fri, 10 Jul 2026 21:45:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>学者们为学术和研究工作构建开源代理</title>
+      <link>https://www.agents4academia.org/</link>
+      <description><![CDATA[文章网址：https://www.agents4academia.org/
+评论网址：https://news.ycombinator.com/item?id=48865682
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/Is-Daouda/is-Engine</guid>
-      <pubDate>Fri, 10 Jul 2026 19:14:28 GMT</pubDate>
+      <guid>https://www.agents4academia.org/</guid>
+      <pubDate>Fri, 10 Jul 2026 21:41:50 GMT</pubDate>
     </item>
     <item>
-      <title>介绍 Rss.chat</title>
-      <link>http://scripting.com/2026/07/10/161133.html</link>
-      <description><![CDATA[文章网址：http://scripting.com/2026/07/10/161133.html
-评论网址：https://news.ycombinator.com/item?id=48863960
+      <title>我用《神鬼寓言》制作了一款海盗 MMO，游戏只有 5MB</title>
+      <link>https://www.reddit.com/r/ClaudeAI/s/Iw8gUeuk96</link>
+      <description><![CDATA[文章网址：https://www.reddit.com/r/ClaudeAI/s/Iw8gUeuk96
+评论网址：https://news.ycombinator.com/item?id=48865667
+积分：2
+# 条评论：1]]></description>
+      <guid>https://www.reddit.com/r/ClaudeAI/s/Iw8gUeuk96</guid>
+      <pubDate>Fri, 10 Jul 2026 21:40:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>每个边缘都值得两个良好的循环</title>
+      <link>https://a.sekor.eu.org/cdc.html</link>
+      <description><![CDATA[文章网址：https://a.sekor.eu.org/cdc.html
+评论网址：https://news.ycombinator.com/item?id=48865656
 积分：1
 # 条评论：0]]></description>
-      <guid>http://scripting.com/2026/07/10/161133.html</guid>
-      <pubDate>Fri, 10 Jul 2026 19:13:42 GMT</pubDate>
+      <guid>https://a.sekor.eu.org/cdc.html</guid>
+      <pubDate>Fri, 10 Jul 2026 21:38:21 GMT</pubDate>
     </item>
     <item>
-      <title>我现在脱离电网了</title>
-      <link>https://blog.freira.dev/@mateusfreira-2026-06-07-i-am-fully-off-grid-now/</link>
-      <description><![CDATA[文章网址：https://blog.freira.dev/@mateusfreira-2026-06-07-i-am-filled-off-grid-now/
-评论网址：https://news.ycombinator.com/item?id=48863930
+      <title>C 语言的 Go 风格并发</title>
+      <link>https://antonz.org/concurrency-in-c/</link>
+      <description><![CDATA[文章网址：https://antonz.org/concurrency-in-c/
+评论网址：https://news.ycombinator.com/item?id=48865634
 积分：2
 # 条评论：0]]></description>
-      <guid>https://blog.freira.dev/@mateusfreira-2026-06-07-i-am-fully-off-grid-now/</guid>
-      <pubDate>Fri, 10 Jul 2026 19:11:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>俄罗斯入侵门铃摄像头监视北约基地</title>
-      <link>https://www.telegraph.co.uk/world-news/2026/07/10/russia-hacks-doorbell-cameras-to-spy-on-nato-bases/</link>
-      <description><![CDATA[文章网址：https://www.telegraph.co.uk/world-news/2026/07/10/Russia-hacks-doorbell-cameras-to-spy-on-nato-bases/
-评论网址：https://news.ycombinator.com/item?id=48863928
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.telegraph.co.uk/world-news/2026/07/10/russia-hacks-doorbell-cameras-to-spy-on-nato-bases/</guid>
-      <pubDate>Fri, 10 Jul 2026 19:10:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>数百万美国人如何被欺骗使用非银行的银行 [视频]</title>
-      <link>https://www.youtube.com/watch?v=hiE7NvONU5U</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=hiE7NvONU5U
-评论网址：https://news.ycombinator.com/item?id=48863920
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=hiE7NvONU5U</guid>
-      <pubDate>Fri, 10 Jul 2026 19:10:20 GMT</pubDate>
+      <guid>https://antonz.org/concurrency-in-c/</guid>
+      <pubDate>Fri, 10 Jul 2026 21:36:31 GMT</pubDate>
     </item>
     </channel>
 </rss>
