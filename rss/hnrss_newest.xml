@@ -4,108 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 10 Jul 2026 22:02:49 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 02:35:45 GMT</lastBuildDate>
     <item>
-      <title>Show HN：允许 AI 代理请求伤残保险报价的 MCP 服务器</title>
-      <link>https://github.com/seaworthy-io/seaworthy-mcp</link>
-      <description><![CDATA[嗨，HN。我拥有一家在线保险代理机构，这是一个令人痛苦的老派行业。我不是开发人员。我在克劳德代码中对所有内容进行了振动编码，然后在发货之前进行了审查和测试。我想这就是故事的一部分，一家拥有好奇心和相当有能力的人员的小公司现在可以运营两年前需要承包商的代理基础设施。我正在尝试这样做，因为我们越来越多的潜在客户首先询问他们的人工智能选择购买什么保险以及从谁那里获得保险。助理可以阅读我的网站，因此像其他人一样，我正在尝试通过内容获取推荐。但下一个自然步骤是代理商在网站上实际采取行动，而不仅仅是阅读它们，因此我创建了七个工具，六个只读工具（经过验证的事实知识库、运营商比较、专业和教育指南、福利上限数学、乘客定义）和一个操作“报价请求”，该操作通过我们的 Web 表单使用的相同 Salesforce Web-to-Lead 路径将潜在客户直接写入我们的 CRM。然后它切换回“正常”流程，并由持牌经纪人通过传统方式跟进。这是我目前能想到的最好的用例，但随着空间的成熟，预计会找到其他用例。据我所知，这是我的保险领域中第一个可代理调用的报价操作。我最初使用 OAuth 流程构建它，但存在摩擦不断终止测试交互，因此我将其打开，无需身份验证。除非我遗漏了某些东西，否则最坏的情况是垃圾线索而不是数据泄漏，因为读取工具仅包含已发布的信息，而报价请求会收集正常的线索内容，例如姓名、出生日期等。根据 Claude 的说法，垃圾邮件“通过严格的输入验证进行分层处理，包括 DNS-over-HTTPS 检查电子邮件域是否可以接收邮件、Workers KV 中的每个 IP 速率限制以及短窗口重复抑制。”无论哪种方式，每个代理产生的潜在客户都将在我的 CRM 中标记，以便轻松过滤垃圾。理论上，如果你锤击它，速率限制应该会阻止你。但这是我不介意有人玩弄的东西，因为我正在即时学习，经验丰富的开发人员可能会发现一些漏洞。我的设置是单个 Cloudflare Worker（可流式 HTTP 传输），用于速率限制和知识的 KV，部署时编译的知识与为我们的网站聊天机器人提供的相同事实来源，因此 MCP 和网站从同一个文件重新生成。端点：https://mcp.seaworthy.io/mcp
-人类可读的参考：https://seaworthy.io/for-ai-agents/诚实的开放问题是这是否会完成任何事情。我还没有通过这些方式获得线索，并且预计在一段时间内不会收到线索，但我确实相信，人们不会要求代理商从哪里获取报价，他们最终只会要求代理商代表他们获取报价（然后最终完全建立覆盖范围），而且我想成为我的利基市场中第一个有能力的人。很乐意回答问题，如果有人有任何要分享的内容，我们愿意提供意见。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48865790
+      <title>Show HN：Vxpix – 50 美元终身屏幕截图 API，免费套餐，无需注册</title>
+      <link>https://tool.vxpix.com/</link>
+      <description><![CDATA[文章网址：https://tool.vxpix.com/
+评论网址：https://news.ycombinator.com/item?id=48868012
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/seaworthy-io/seaworthy-mcp</guid>
-      <pubDate>Fri, 10 Jul 2026 21:53:05 GMT</pubDate>
+      <guid>https://tool.vxpix.com/</guid>
+      <pubDate>Sat, 11 Jul 2026 02:25:06 GMT</pubDate>
     </item>
     <item>
-      <title>保护大脑的简单方法</title>
-      <link>https://economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain</link>
-      <description><![CDATA[文章网址：https://economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain
-评论网址：https://news.ycombinator.com/item?id=48865783
+      <title>购物插件 Phia 的强制点击和停止违规行为</title>
+      <link>https://www.benedelman.org/phia-forced-clicks/</link>
+      <description><![CDATA[文章网址：https://www.benedelman.org/phia-forced-clicks/
+评论网址：https://news.ycombinator.com/item?id=48868011
 积分：1
 # 条评论：0]]></description>
-      <guid>https://economist.com/leaders/2026/07/09/a-no-brainer-for-protecting-your-brain</guid>
-      <pubDate>Fri, 10 Jul 2026 21:52:32 GMT</pubDate>
+      <guid>https://www.benedelman.org/phia-forced-clicks/</guid>
+      <pubDate>Sat, 11 Jul 2026 02:24:44 GMT</pubDate>
     </item>
     <item>
-      <title>无需智能手机即可使用信号的工具</title>
-      <link>https://github.com/almet/signal-without-smartphone</link>
-      <description><![CDATA[文章网址：https://github.com/almet/signal-without-smartphone
-评论网址：https://news.ycombinator.com/item?id=48865773
+      <title>脉冲电场、振荡磁场对过冷鸡的影响</title>
+      <link>https://www.sciencedirect.com/science/article/abs/pii/S0260877416303636</link>
+      <description><![CDATA[文章网址：https://www.sciencedirect.com/science/article/abs/pii/S0260877416303636
+评论网址：https://news.ycombinator.com/item?id=48868002
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/almet/signal-without-smartphone</guid>
-      <pubDate>Fri, 10 Jul 2026 21:51:05 GMT</pubDate>
+      <guid>https://www.sciencedirect.com/science/article/abs/pii/S0260877416303636</guid>
+      <pubDate>Sat, 11 Jul 2026 02:23:09 GMT</pubDate>
     </item>
     <item>
-      <title>探险队在拉布拉多海拍摄了沙克尔顿最后一艘船“探索号”的第一张照片</title>
-      <link>https://www.whoi.edu/press-room/news-release/quest-images/</link>
-      <description><![CDATA[文章网址：https://www.whoi.edu/press-room/news-release/quest-images/
-评论网址：https://news.ycombinator.com/item?id=48865737
+      <title>欧洲历史琐事</title>
+      <link>https://www.earthsattractions.com/european-history-trivia-questions/</link>
+      <description><![CDATA[文章网址：https://www.earthsattractions.com/european-history-trivia-questions/
+评论网址：https://news.ycombinator.com/item?id=48867983
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.whoi.edu/press-room/news-release/quest-images/</guid>
-      <pubDate>Fri, 10 Jul 2026 21:47:16 GMT</pubDate>
+      <guid>https://www.earthsattractions.com/european-history-trivia-questions/</guid>
+      <pubDate>Sat, 11 Jul 2026 02:20:25 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能如何变得比它取代的工人更昂贵[视频]</title>
-      <link>https://www.youtube.com/watch?v=cfaZZPjA3g0</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=cfaZZPjA3g0
-评论网址：https://news.ycombinator.com/item?id=48865719
+      <title>显示 HN：Velocity – 融合 15 个实时 Intel 源的无钥匙 3D 地球仪</title>
+      <link>https://github.com/AndrewCTF/osint-geospatial-console</link>
+      <description><![CDATA[文章网址：https://github.com/AndrewCTF/osint-geospatial-console
+评论网址：https://news.ycombinator.com/item?id=48867980
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=cfaZZPjA3g0</guid>
-      <pubDate>Fri, 10 Jul 2026 21:45:27 GMT</pubDate>
+      <guid>https://github.com/AndrewCTF/osint-geospatial-console</guid>
+      <pubDate>Sat, 11 Jul 2026 02:20:06 GMT</pubDate>
     </item>
     <item>
-      <title>中国开放人工智能模式正在提升其全球软实力</title>
-      <link>https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/</link>
-      <description><![CDATA[文章网址：https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/
-评论网址：https://news.ycombinator.com/item?id=48865717
+      <title>Progress 要求 ShareFile 客户关闭软件以确保安全</title>
+      <link>https://www.reddit.com/r/sysadmin/s/iRXUSv1sHk</link>
+      <description><![CDATA[文章网址：https://www.reddit.com/r/sysadmin/s/iRXUSv1sHk
+评论网址：https://news.ycombinator.com/item?id=48867975
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.reddit.com/r/sysadmin/s/iRXUSv1sHk</guid>
+      <pubDate>Sat, 11 Jul 2026 02:19:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>苹果起诉 OpenAI 窃取商业机密，硅谷诉讼重磅</title>
+      <link>https://www.latimes.com/business/story/2026-07-10/apple-accuses-openai-of-stealing-trade-secrets-in-blockbuster-silicon-valley-lawsuit</link>
+      <description><![CDATA[文章网址： https://www.latimes.com/business/story/2026-07-10/apple-accuses-openai-of-stealing-trade-secrets-in-blockbuster-silicon-valley-lawsuit
+评论网址：https://news.ycombinator.com/item?id=48867966
 积分：3
 # 条评论：0]]></description>
-      <guid>https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/</guid>
-      <pubDate>Fri, 10 Jul 2026 21:45:16 GMT</pubDate>
+      <guid>https://www.latimes.com/business/story/2026-07-10/apple-accuses-openai-of-stealing-trade-secrets-in-blockbuster-silicon-valley-lawsuit</guid>
+      <pubDate>Sat, 11 Jul 2026 02:18:48 GMT</pubDate>
     </item>
     <item>
-      <title>学者们为学术和研究工作构建开源代理</title>
-      <link>https://www.agents4academia.org/</link>
-      <description><![CDATA[文章网址：https://www.agents4academia.org/
-评论网址：https://news.ycombinator.com/item?id=48865682
+      <title>Symmatrics 推出量子安全 VPN 以消除基于凭证的攻击</title>
+      <link>https://finance.yahoo.com/technology/ai/articles/symmatrics-introduces-quantum-secure-vpn-130000591.html</link>
+      <description><![CDATA[文章网址：https://finance.yahoo.com/technology/ai/articles/symmatrics-introduces-quantum-secure-vpn-130000591.html
+评论网址：https://news.ycombinator.com/item?id=48867949
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.agents4academia.org/</guid>
-      <pubDate>Fri, 10 Jul 2026 21:41:50 GMT</pubDate>
+      <guid>https://finance.yahoo.com/technology/ai/articles/symmatrics-introduces-quantum-secure-vpn-130000591.html</guid>
+      <pubDate>Sat, 11 Jul 2026 02:17:19 GMT</pubDate>
     </item>
     <item>
-      <title>我用《神鬼寓言》制作了一款海盗 MMO，游戏只有 5MB</title>
-      <link>https://www.reddit.com/r/ClaudeAI/s/Iw8gUeuk96</link>
-      <description><![CDATA[文章网址：https://www.reddit.com/r/ClaudeAI/s/Iw8gUeuk96
-评论网址：https://news.ycombinator.com/item?id=48865667
+      <title>Playbykey/理论 – 音乐理论即代码、TypeScript 引擎和 MCP 服务器</title>
+      <link>https://theory-engine.docs.playbykey.com/</link>
+      <description><![CDATA[文章网址：https://theory-engine.docs.playbykey.com/
+评论网址：https://news.ycombinator.com/item?id=48867938
 积分：2
-# 条评论：1]]></description>
-      <guid>https://www.reddit.com/r/ClaudeAI/s/Iw8gUeuk96</guid>
-      <pubDate>Fri, 10 Jul 2026 21:40:11 GMT</pubDate>
+# 条评论：0]]></description>
+      <guid>https://theory-engine.docs.playbykey.com/</guid>
+      <pubDate>Sat, 11 Jul 2026 02:15:28 GMT</pubDate>
     </item>
     <item>
-      <title>每个边缘都值得两个良好的循环</title>
-      <link>https://a.sekor.eu.org/cdc.html</link>
-      <description><![CDATA[文章网址：https://a.sekor.eu.org/cdc.html
-评论网址：https://news.ycombinator.com/item?id=48865656
+      <title>AI模型的价值观与大多数人不同</title>
+      <link>https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples</link>
+      <description><![CDATA[文章网址：https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very- Different-from-most-peoples
+评论网址：https://news.ycombinator.com/item?id=48867923
 积分：1
 # 条评论：0]]></description>
-      <guid>https://a.sekor.eu.org/cdc.html</guid>
-      <pubDate>Fri, 10 Jul 2026 21:38:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>C 语言的 Go 风格并发</title>
-      <link>https://antonz.org/concurrency-in-c/</link>
-      <description><![CDATA[文章网址：https://antonz.org/concurrency-in-c/
-评论网址：https://news.ycombinator.com/item?id=48865634
-积分：2
-# 条评论：0]]></description>
-      <guid>https://antonz.org/concurrency-in-c/</guid>
-      <pubDate>Fri, 10 Jul 2026 21:36:31 GMT</pubDate>
+      <guid>https://www.economist.com/briefing/2026/06/25/ai-models-values-are-very-different-from-most-peoples</guid>
+      <pubDate>Sat, 11 Jul 2026 02:13:37 GMT</pubDate>
     </item>
     </channel>
 </rss>
