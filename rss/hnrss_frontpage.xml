@@ -4,107 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 12 Jul 2026 15:59:43 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 19:05:17 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Skillscript – 用于工具编排的声明性沙盒语言</title>
-      <link>https://github.com/sshwarts/skillscript</link>
-      <description><![CDATA[嗨 HN — 我是斯科特。 Skillscript 是我构建的一种小型语言，用于以我可以阅读和版本化的形式编写我希望本地代理实际执行的操作，而不是希望模型每次都能正确执行。痒感始于一些小事情。我希望我的 NanoClaw 代理每天都以同样的方式运行我的早间简报。检查隔夜票，总结部署流程，标记任何紧急情况。每次会议，它都会重新弄清楚如何从头开始执行此操作，稍微有点偏差，并为基本上固定的程序花费代币。我可以将其放入系统提示符或 MD 技能文件中，但这些仍然是模型每次读取和推理的指令。我希望它能够自主运行，然后将其交给模型来推理数据。推动我的第二件事是：我想使用小型本地模型来处理便宜的东西。他们很有能力，但如果你把方向盘交给他们​​，他们就会迷失方向。我想要的是一种让前沿模型（或我）编写特定过程并将其交给本地模型执行而不是解释的方法。技能脚本就是程序；模型是运行时。Skillscript 就是这样。技能脚本是一个文本文件，其中包含命名步骤、变量、条件和工具调用（MCP 连接器、本地模型和来自操作员白名单的 shell 命令）。它故意是最小的——没有评估，没有任意导入，没有子进程，没有无限循环。语言有限，造成损害的可能性有限。技能脚本可以执行的所有操作都在文件中。您读过它就知道了。它在哪里：1.0 之前 (0.30)、MCP 原生、自托管。我知道的粗糙边缘：首次运行设置需要比应有的步骤更多的步骤，一些语法仍在变化，并且本地模型集成当前假设 Ollama。它工作得很好，我每天都在使用它，但我不一定称其为生产就绪。- 仓库：[https://github.com/sshwarts/skillscript](https://github.com/sshwarts/skillscript)- 站点：[https://skillscript.ai](https://skillscript.ai)- 文档：[https://skillscript.mintlify.app/docs](https://skillscript.mintlify.app/docs)- npm: `skillscript-runtime`我特别欢迎对两件事提出批评：语言设计（它太小了吗？太大？形状错误？）以及围绕代理编写的技能的信任模型。在您将其信任到您自己的计算机上之前，您希望看到什么？
+      <title>Claude Code 在阅读提示之前发送了 33k 令牌； OpenCode 发送 7k</title>
+      <link>https://systima.ai/blog/claude-code-vs-opencode-token-overhead</link>
+      <description><![CDATA[这一切都是基于一种预感。我们通常使用 OpenCode，但由于 Meridian 的问题而“被迫”使用 Claude Code 一段时间。当时，我们看到使用率的上升速度比使用 OpenCode 时快得多。这是最初的轶事证据，但我们进行了这项小型研究来收集经验数据：我们在代理编码工具（Claude Code 和 OpenCode）和 Anthropic 端点之间添加了日志记录，并捕获了所有请求（以及返回的使用块）。有一个警告（在帖子末尾），我们明确发现 Claude Code 远远不够。就其缓存策略和利用令牌使用而言，其效率比 OpenCode 低。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48881112
-积分：4
-# 条评论：0]]></description>
-      <guid>https://github.com/sshwarts/skillscript</guid>
-      <pubDate>Sun, 12 Jul 2026 13:34:00 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=48883275
+积分：36
+# 条评论：11]]></description>
+      <guid>https://systima.ai/blog/claude-code-vs-opencode-token-overhead</guid>
+      <pubDate>Sun, 12 Jul 2026 18:25:51 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能促进了研究事业的发展，但使科学发现变得扁平化</title>
-      <link>https://spectrum.ieee.org/ai-science-research-flattens-discovery</link>
-      <description><![CDATA[文章网址：https://spectrum.ieee.org/ai-science-research-flattens-discovery
-评论网址：https://news.ycombinator.com/item?id=48881043
-积分：58
-# 条评论：42]]></description>
-      <guid>https://spectrum.ieee.org/ai-science-research-flattens-discovery</guid>
-      <pubDate>Sun, 12 Jul 2026 13:26:13 GMT</pubDate>
+      <title>我们能理解大型语言模型的推理能力吗？</title>
+      <link>https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/</link>
+      <description><![CDATA[文章网址：https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/
+评论网址：https://news.ycombinator.com/item?id=48883090
+积分：6
+# 条评论：1]]></description>
+      <guid>https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/</guid>
+      <pubDate>Sun, 12 Jul 2026 18:04:41 GMT</pubDate>
     </item>
     <item>
-      <title>制作古惑狼 (2011)</title>
-      <link>https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/</link>
-      <description><![CDATA[文章网址：https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/
-评论网址：https://news.ycombinator.com/item?id=48880987
-积分：28
-# 条评论：2]]></description>
-      <guid>https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/</guid>
-      <pubDate>Sun, 12 Jul 2026 13:18:36 GMT</pubDate>
+      <title>反对有用性</title>
+      <link>https://www.motivenotes.ai/p/against-usefulness</link>
+      <description><![CDATA[文章网址：https://www.motivenotes.ai/p/against-useativity
+评论网址：https://news.ycombinator.com/item?id=48882956
+积分：24
+# 条评论：4]]></description>
+      <guid>https://www.motivenotes.ai/p/against-usefulness</guid>
+      <pubDate>Sun, 12 Jul 2026 17:47:07 GMT</pubDate>
     </item>
     <item>
-      <title>吉娜国际朴素艺术画廊</title>
-      <link>https://www.ginagallery.com/</link>
-      <description><![CDATA[文章网址：https://www.ginagallery.com/
-评论网址：https://news.ycombinator.com/item?id=48880985
-积分：14
-# 条评论：7]]></description>
-      <guid>https://www.ginagallery.com/</guid>
-      <pubDate>Sun, 12 Jul 2026 13:18:34 GMT</pubDate>
+      <title>LARP——严肃创始人的收入基础设施</title>
+      <link>https://www.larp.website/</link>
+      <description><![CDATA[文章网址：https://www.larp.website/
+评论网址：https://news.ycombinator.com/item?id=48882569
+积分：27
+# 条评论：3]]></description>
+      <guid>https://www.larp.website/</guid>
+      <pubDate>Sun, 12 Jul 2026 16:56:41 GMT</pubDate>
     </item>
     <item>
-      <title>莫阿纳背后的谜团：1700年后，为什么波利尼西亚人突然向东航行？</title>
-      <link>https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226</link>
-      <description><![CDATA[文章网址： https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226
-评论网址：https://news.ycombinator.com/item?id=48880564
+      <title>Show HN：Shirei，原生 Go 中的跨平台 GUI 框架</title>
+      <link>https://github.com/hasenj/go-shirei/</link>
+      <description><![CDATA[文章网址：https://github.com/hasenj/go-shirei/
+评论网址：https://news.ycombinator.com/item?id=48882562
+积分：43
+# 条评论：24]]></description>
+      <guid>https://github.com/hasenj/go-shirei/</guid>
+      <pubDate>Sun, 12 Jul 2026 16:55:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>无需理解的自动化</title>
+      <link>https://arxiv.org/abs/2607.06377</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2607.06377
+评论网址：https://news.ycombinator.com/item?id=48882554
+积分：34
+# 条评论：18]]></description>
+      <guid>https://arxiv.org/abs/2607.06377</guid>
+      <pubDate>Sun, 12 Jul 2026 16:54:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Theo de Raadt：“你一直在吸一些改变心智的东西”（2007）</title>
+      <link>https://marc.info/?l=openbsd-misc&m=119318909016582</link>
+      <description><![CDATA[文章网址：https://marc.info/?l=openbsd-misc&amp;m=119318909016582
+评论网址：https://news.ycombinator.com/item?id=48882189
+积分：42
+# 条评论：29]]></description>
+      <guid>https://marc.info/?l=openbsd-misc&m=119318909016582</guid>
+      <pubDate>Sun, 12 Jul 2026 16:05:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么要研究丢番图方程？</title>
+      <link>https://hidden-phenomena.com/articles/modular</link>
+      <description><![CDATA[文章网址：https://hidden-phenomena.com/articles/modular
+评论网址：https://news.ycombinator.com/item?id=48882097
+积分：39
+# 条评论：12]]></description>
+      <guid>https://hidden-phenomena.com/articles/modular</guid>
+      <pubDate>Sun, 12 Jul 2026 15:53:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何阅读更多书籍</title>
+      <link>https://scotto.me/blog/2026-07-12-how-to-read-more-books/</link>
+      <description><![CDATA[文章网址：https://scotto.me/blog/2026-07-12-how-to-read-more-books/
+评论网址：https://news.ycombinator.com/item?id=48882056
+积分：157
+评论数：86]]></description>
+      <guid>https://scotto.me/blog/2026-07-12-how-to-read-more-books/</guid>
+      <pubDate>Sun, 12 Jul 2026 15:47:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>协作的力量：我们如何减少交通拥堵</title>
+      <link>https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/</link>
+      <description><![CDATA[文章网址：https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/
+评论网址：https://news.ycombinator.com/item?id=48881967
 积分：30
-评论数量：9]]></description>
-      <guid>https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226</guid>
-      <pubDate>Sun, 12 Jul 2026 12:17:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>了解 Odin 编程语言</title>
-      <link>https://odinbook.com/</link>
-      <description><![CDATA[文章网址：https://odinbook.com/
-评论网址：https://news.ycombinator.com/item?id=48880499
-积分：69
-# 条评论：19]]></description>
-      <guid>https://odinbook.com/</guid>
-      <pubDate>Sun, 12 Jul 2026 12:08:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>摩托罗拉 MR2600 路由器中未经身份验证的 RCE</title>
-      <link>https://mrbruh.com/motorola/</link>
-      <description><![CDATA[文章网址：https://mrbruh.com/motorola/
-评论网址：https://news.ycombinator.com/item?id=48880406
-积分：44
-# 条评论：14]]></description>
-      <guid>https://mrbruh.com/motorola/</guid>
-      <pubDate>Sun, 12 Jul 2026 11:52:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Yt-Dlp 序列图</title>
-      <link>https://app.ilograph.com/demo.ilograph.yt-dlp/Download%2520a%2520YouTube%2520Video</link>
-      <description><![CDATA[文章网址：https://app.ilograph.com/demo.ilograph.yt-dlp/Download%2520a%2520YouTube%2520Video
-评论网址：https://news.ycombinator.com/item?id=48880384
-积分：92
-# 条评论：22]]></description>
-      <guid>https://app.ilograph.com/demo.ilograph.yt-dlp/Download%2520a%2520YouTube%2520Video</guid>
-      <pubDate>Sun, 12 Jul 2026 11:49:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>新旧应用程序，通过 Terry Tao 的现代编码代理</title>
-      <link>https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/</link>
-      <description><![CDATA[文章网址：https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/
-评论网址：https://news.ycombinator.com/item?id=48880170
-积分：228
-# 条评论：56]]></description>
-      <guid>https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/</guid>
-      <pubDate>Sun, 12 Jul 2026 11:09:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ghostel.el：由 libghostty 提供支持的终端模拟器</title>
-      <link>https://dakra.github.io/ghostel/</link>
-      <description><![CDATA[文章网址：https://dakra.github.io/ghostel/
-评论网址：https://news.ycombinator.com/item?id=48879504
-积分：124
-# 条评论：15]]></description>
-      <guid>https://dakra.github.io/ghostel/</guid>
-      <pubDate>Sun, 12 Jul 2026 08:52:59 GMT</pubDate>
+# 条评论：18]]></description>
+      <guid>https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/</guid>
+      <pubDate>Sun, 12 Jul 2026 15:35:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
