@@ -4,106 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 12 Jul 2026 13:18:06 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 15:59:43 GMT</lastBuildDate>
+    <item>
+      <title>Show HN：Skillscript – 用于工具编排的声明性沙盒语言</title>
+      <link>https://github.com/sshwarts/skillscript</link>
+      <description><![CDATA[嗨 HN — 我是斯科特。 Skillscript 是我构建的一种小型语言，用于以我可以阅读和版本化的形式编写我希望本地代理实际执行的操作，而不是希望模型每次都能正确执行。痒感始于一些小事情。我希望我的 NanoClaw 代理每天都以同样的方式运行我的早间简报。检查隔夜票，总结部署流程，标记任何紧急情况。每次会议，它都会重新弄清楚如何从头开始执行此操作，稍微有点偏差，并为基本上固定的程序花费代币。我可以将其放入系统提示符或 MD 技能文件中，但这些仍然是模型每次读取和推理的指令。我希望它能够自主运行，然后将其交给模型来推理数据。推动我的第二件事是：我想使用小型本地模型来处理便宜的东西。他们很有能力，但如果你把方向盘交给他们​​，他们就会迷失方向。我想要的是一种让前沿模型（或我）编写特定过程并将其交给本地模型执行而不是解释的方法。技能脚本就是程序；模型是运行时。Skillscript 就是这样。技能脚本是一个文本文件，其中包含命名步骤、变量、条件和工具调用（MCP 连接器、本地模型和来自操作员白名单的 shell 命令）。它故意是最小的——没有评估，没有任意导入，没有子进程，没有无限循环。语言有限，造成损害的可能性有限。技能脚本可以执行的所有操作都在文件中。您读过它就知道了。它在哪里：1.0 之前 (0.30)、MCP 原生、自托管。我知道的粗糙边缘：首次运行设置需要比应有的步骤更多的步骤，一些语法仍在变化，并且本地模型集成当前假设 Ollama。它工作得很好，我每天都在使用它，但我不一定称其为生产就绪。- 仓库：[https://github.com/sshwarts/skillscript](https://github.com/sshwarts/skillscript)- 站点：[https://skillscript.ai](https://skillscript.ai)- 文档：[https://skillscript.mintlify.app/docs](https://skillscript.mintlify.app/docs)- npm: `skillscript-runtime`我特别欢迎对两件事提出批评：语言设计（它太小了吗？太大？形状错误？）以及围绕代理编写的技能的信任模型。在您将其信任到您自己的计算机上之前，您希望看到什么？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48881112
+积分：4
+# 条评论：0]]></description>
+      <guid>https://github.com/sshwarts/skillscript</guid>
+      <pubDate>Sun, 12 Jul 2026 13:34:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能促进了研究事业的发展，但使科学发现变得扁平化</title>
+      <link>https://spectrum.ieee.org/ai-science-research-flattens-discovery</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/ai-science-research-flattens-discovery
+评论网址：https://news.ycombinator.com/item?id=48881043
+积分：58
+# 条评论：42]]></description>
+      <guid>https://spectrum.ieee.org/ai-science-research-flattens-discovery</guid>
+      <pubDate>Sun, 12 Jul 2026 13:26:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>制作古惑狼 (2011)</title>
+      <link>https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/</link>
+      <description><![CDATA[文章网址：https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/
+评论网址：https://news.ycombinator.com/item?id=48880987
+积分：28
+# 条评论：2]]></description>
+      <guid>https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/</guid>
+      <pubDate>Sun, 12 Jul 2026 13:18:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>吉娜国际朴素艺术画廊</title>
+      <link>https://www.ginagallery.com/</link>
+      <description><![CDATA[文章网址：https://www.ginagallery.com/
+评论网址：https://news.ycombinator.com/item?id=48880985
+积分：14
+# 条评论：7]]></description>
+      <guid>https://www.ginagallery.com/</guid>
+      <pubDate>Sun, 12 Jul 2026 13:18:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>莫阿纳背后的谜团：1700年后，为什么波利尼西亚人突然向东航行？</title>
+      <link>https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226</link>
+      <description><![CDATA[文章网址： https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226
+评论网址：https://news.ycombinator.com/item?id=48880564
+积分：30
+评论数量：9]]></description>
+      <guid>https://theconversation.com/the-real-mystery-behind-moana-after-1-700-years-why-did-polynesians-suddenly-sail-east-287226</guid>
+      <pubDate>Sun, 12 Jul 2026 12:17:26 GMT</pubDate>
+    </item>
     <item>
       <title>了解 Odin 编程语言</title>
       <link>https://odinbook.com/</link>
       <description><![CDATA[文章网址：https://odinbook.com/
 评论网址：https://news.ycombinator.com/item?id=48880499
-积分：15
-# 条评论：0]]></description>
+积分：69
+# 条评论：19]]></description>
       <guid>https://odinbook.com/</guid>
       <pubDate>Sun, 12 Jul 2026 12:08:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>摩托罗拉 MR2600 路由器中未经身份验证的 RCE</title>
+      <link>https://mrbruh.com/motorola/</link>
+      <description><![CDATA[文章网址：https://mrbruh.com/motorola/
+评论网址：https://news.ycombinator.com/item?id=48880406
+积分：44
+# 条评论：14]]></description>
+      <guid>https://mrbruh.com/motorola/</guid>
+      <pubDate>Sun, 12 Jul 2026 11:52:21 GMT</pubDate>
     </item>
     <item>
       <title>Yt-Dlp 序列图</title>
       <link>https://app.ilograph.com/demo.ilograph.yt-dlp/Download%2520a%2520YouTube%2520Video</link>
       <description><![CDATA[文章网址：https://app.ilograph.com/demo.ilograph.yt-dlp/Download%2520a%2520YouTube%2520Video
 评论网址：https://news.ycombinator.com/item?id=48880384
-积分：33
-# 条评论：1]]></description>
+积分：92
+# 条评论：22]]></description>
       <guid>https://app.ilograph.com/demo.ilograph.yt-dlp/Download%2520a%2520YouTube%2520Video</guid>
       <pubDate>Sun, 12 Jul 2026 11:49:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>巴西妇女被同一家族三代人奴役55年</title>
-      <link>https://english.elpais.com/international/2026-07-10/woman-rescued-in-brazil-after-being-enslaved-for-55-years-by-three-generations-of-the-same-family.html</link>
-      <description><![CDATA[文章网址： https://english.elpais.com/international/2026-07-10/woman-rescued-in-brazil-after-being-enslaved-for-55-years-by-third- Generations-of-the-same-family.html
-评论网址：https://news.ycombinator.com/item?id=48880209
-积分：90
-# 条评论：73]]></description>
-      <guid>https://english.elpais.com/international/2026-07-10/woman-rescued-in-brazil-after-being-enslaved-for-55-years-by-three-generations-of-the-same-family.html</guid>
-      <pubDate>Sun, 12 Jul 2026 11:18:32 GMT</pubDate>
     </item>
     <item>
       <title>新旧应用程序，通过 Terry Tao 的现代编码代理</title>
       <link>https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/</link>
       <description><![CDATA[文章网址：https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/
 评论网址：https://news.ycombinator.com/item?id=48880170
-积分：84
-# 条评论：16]]></description>
+积分：228
+# 条评论：56]]></description>
       <guid>https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/</guid>
       <pubDate>Sun, 12 Jul 2026 11:09:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>数据中心使大型科技公司的碳排放量达到法国的三分之一</title>
-      <link>https://www.theguardian.com/us-news/2026/jul/11/microsoft-amazon-google-datacentre-carbon-emissions-france</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/us-news/2026/jul/11/microsoft-amazon-google-datacentre-carbon-emissions-france
-评论网址：https://news.ycombinator.com/item?id=48879950
-积分：38
-# 条评论：31]]></description>
-      <guid>https://www.theguardian.com/us-news/2026/jul/11/microsoft-amazon-google-datacentre-carbon-emissions-france</guid>
-      <pubDate>Sun, 12 Jul 2026 10:23:25 GMT</pubDate>
     </item>
     <item>
       <title>Ghostel.el：由 libghostty 提供支持的终端模拟器</title>
       <link>https://dakra.github.io/ghostel/</link>
       <description><![CDATA[文章网址：https://dakra.github.io/ghostel/
 评论网址：https://news.ycombinator.com/item?id=48879504
-积分：61
-# 条评论：0]]></description>
+积分：124
+# 条评论：15]]></description>
       <guid>https://dakra.github.io/ghostel/</guid>
       <pubDate>Sun, 12 Jul 2026 08:52:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Mindwalk – 在代码库的 3D 地图上重播编码代理会话</title>
-      <link>https://github.com/cosmtrek/mindwalk</link>
-      <description><![CDATA[文章网址：https://github.com/cosmtrek/mindwalk
-评论网址：https://news.ycombinator.com/item?id=48878682
-积分：97
-# 条评论：44]]></description>
-      <guid>https://github.com/cosmtrek/mindwalk</guid>
-      <pubDate>Sun, 12 Jul 2026 05:51:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>根据联邦规定，大学必须让毕业生过上更好的生活，否则就会失去经济援助</title>
-      <link>https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans</link>
-      <description><![CDATA[文章网址：https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans
-评论网址：https://news.ycombinator.com/item?id=48878126
-积分：123
-# 条评论：269]]></description>
-      <guid>https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans</guid>
-      <pubDate>Sun, 12 Jul 2026 04:00:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>可靠唤醒的坞站</title>
-      <link>https://fabiensanglard.net/tb4/index.html</link>
-      <description><![CDATA[文章网址：https://fabiensanglard.net/tb4/index.html
-评论网址：https://news.ycombinator.com/item?id=48877269
-积分：91
-# 条评论：54]]></description>
-      <guid>https://fabiensanglard.net/tb4/index.html</guid>
-      <pubDate>Sun, 12 Jul 2026 00:48:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mesh LLM：iroh 上的分布式 AI 计算</title>
-      <link>https://www.iroh.computer/blog/mesh-llm</link>
-      <description><![CDATA[文章网址：https://www.iroh.computer/blog/mesh-llm
-评论网址：https://news.ycombinator.com/item?id=48876505
-积分：282
-# 条评论：65]]></description>
-      <guid>https://www.iroh.computer/blog/mesh-llm</guid>
-      <pubDate>Sat, 11 Jul 2026 22:38:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
