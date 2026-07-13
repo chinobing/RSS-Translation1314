@@ -4,111 +4,119 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 13 Jul 2026 06:18:12 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 12:05:21 GMT</lastBuildDate>
     <item>
-      <title>无回溯草书</title>
-      <link>https://mmapped.blog/posts/52-backtrack-free-cursive</link>
-      <description><![CDATA[文章网址：https://mmapped.blog/posts/52-backtrack-free-cursive
-评论网址：https://news.ycombinator.com/item?id=48888518
+      <title>Show HN: Tuhat – 长篇写作，没有优化现场时间</title>
+      <link>https://tuhat.net/</link>
+      <description><![CDATA[文章网址：https://tuhat.net/
+评论网址：https://news.ycombinator.com/item?id=48891283
 积分：1
 # 条评论：0]]></description>
-      <guid>https://mmapped.blog/posts/52-backtrack-free-cursive</guid>
-      <pubDate>Mon, 13 Jul 2026 06:08:12 GMT</pubDate>
+      <guid>https://tuhat.net/</guid>
+      <pubDate>Mon, 13 Jul 2026 11:53:42 GMT</pubDate>
     </item>
     <item>
-      <title>演员山姆·尼尔去世</title>
-      <link>https://www.stuff.co.nz/politics/361005656/actor-sam-neill-has-died</link>
-      <description><![CDATA[文章网址：https://www.stuff.co.nz/politics/361005656/actor-sam-neill-has-died
-评论网址：https://news.ycombinator.com/item?id=48888507
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.stuff.co.nz/politics/361005656/actor-sam-neill-has-died</guid>
-      <pubDate>Mon, 13 Jul 2026 06:06:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：监控任何网站、讨论中断并发布经过验证的所有者更新</title>
-      <link>https://anysite.live/site/news.ycombinator.com</link>
-      <description><![CDATA[嗨，我构建了anysite.live，这是一个网站监控服务，任何人都可以添加网站、检查其状态并在评论中讨论中断情况。经过验证的网站所有者还可以发布官方更新。只需输入一个 URL，anysite.live 就会每分钟检查该网站。我建立这个网站是因为我经常使用的一些在线社区偶尔会出现故障。大多数状态页面只能由网站所有者创建，但我想要一个任何人都可以注册网站并在出现问题时与其他用户交谈的地方。当前功能：每分钟检查一次网站状态
-p50、p90 和 p99 延迟指标
-讨论事件的评论对于网站所有者：通过 DNS 或 URL 验证所有权
-验证后的官方状态公告我很想听听您的反馈。
-谢谢。
+      <title>显示 HN：Aco – Appium 命令行操作符</title>
+      <link>https://github.com/tai2/aco</link>
+      <description><![CDATA[您好，我创建了一个名为 aco 的 CLI 工具来帮助快速启动 Appium 会话。我是一名程序员，多年来一直致力于移动应用程序自动化的端到端测试。 Appium 是该领域的行业标准。它基本上是一个专门针对 iOS/Android 等非浏览器应用程序的 WebDriver 协议服务器。 Appium 的美妙之处在于它通过客户端/服务器架构清晰地分离了责任。因此消费者在使用时可以选择他们喜欢的任何语言绑定。这意味着你通常需要同时照顾服务器和客户端，这就是痛苦。作为一名移动自动化工程师，我经常需要运行一个小实验来确保 AUT（被测应用程序）或 Appium 本身的行为：从复杂的屏幕获取页面源需要多长时间，ScrollView 移动到特定的滑动量多少，当发送的文本中丢失一些字母时屏幕背后发生了什么，等等。当它到来时，我通常编写一个小脚本，向服务器发送命令，启动 Appium 服务器，运行脚本，然后观察结果。这并不难，但有点麻烦，因为我需要回忆提供给服务器所需的参数并将它们连接起来才能看到实际的交互。aco 使其变得非常紧凑。您只需从 CLI 指定您的应用程序文件和平台。就是这样。核心思想是将服务器启动和会话启动打包在一个命令中。另一点是aco被设计为有状态的。会话存储在磁盘上并隐式拾取，因此您在使用时不必关心它。$ aco session start --platform ios --app ./your_aut.app.zip --detach
+{“sessionId”：“0134d269-eb58-4569-97d0-446c5e808fd4”，“serverUrl”：“http://127.0.0.1:4723”，“platform”：“ios”，“pid”：21762}
+会话分离 - pid 21740，以“aco session stop”停止
+$ aco元素
+#0 XCUIElementTypeApplication“某些标签”
+      选择器：辅助功能 ID：某个标签
+      矩形：0,0 402x874
+......
+#58 XCUIElementTypeStaticText“其他标签”
+      选择器：辅助功能 id：其他标签
+      直角：172,630 57x19
+$ aco tap --selector &#39;辅助功能 id:其他标签&#39;
+ok我尝试将所有 Appium 功能（包括 iOS/Android 特定扩展）映射到 CLI 中。另外，我添加了一些实用功能，例如“aco element”，它列出了所有可访问的元素以及随时可用的选择器。我希望得到错误报告或反馈。谢谢！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48888502
+评论网址：https://news.ycombinator.com/item?id=48891277
 积分：1
 # 条评论：0]]></description>
-      <guid>https://anysite.live/site/news.ycombinator.com</guid>
-      <pubDate>Mon, 13 Jul 2026 06:06:19 GMT</pubDate>
+      <guid>https://github.com/tai2/aco</guid>
+      <pubDate>Mon, 13 Jul 2026 11:52:55 GMT</pubDate>
     </item>
     <item>
-      <title>给出“AI slop”作为反馈，既能说明评论者，也能说明创作者</title>
-      <link>https://thetruthasiseeitnow.com/using-ai-slop-as-feedback-tells-as-much-about-the-commenter-as-the-creator/</link>
-      <description><![CDATA[文章网址：https://thetruthasiseeitnow.com/using-ai-slop-as-feedback-tells-as-much-about-the-commenter-as-the-creator/
-评论网址：https://news.ycombinator.com/item?id=48888501
+      <title>杠杆研究1.0</title>
+      <link>https://lydialaurenson.substack.com/p/the-inside-story-of-leverage-research</link>
+      <description><![CDATA[文章网址：https://lydialaurenson.substack.com/p/the-inside-story-of-leverage-research
+评论网址：https://news.ycombinator.com/item?id=48891274
 积分：1
 # 条评论：0]]></description>
-      <guid>https://thetruthasiseeitnow.com/using-ai-slop-as-feedback-tells-as-much-about-the-commenter-as-the-creator/</guid>
-      <pubDate>Mon, 13 Jul 2026 06:06:13 GMT</pubDate>
+      <guid>https://lydialaurenson.substack.com/p/the-inside-story-of-leverage-research</guid>
+      <pubDate>Mon, 13 Jul 2026 11:52:27 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：另一个股票终端用户界面，但带有新闻情绪</title>
-      <link>https://github.com/makeev/alphai-tui</link>
-      <description><![CDATA[文章网址：https://github.com/makeev/alphai-tui
-评论网址：https://news.ycombinator.com/item?id=48888490
+      <title>美国夺取更多盗版体育流媒体域名，但伊朗的后路依然存在</title>
+      <link>https://torrentfreak.com/u-s-seizes-more-pirate-sports-streaming-domains-but-iranian-fallbacks-remain/</link>
+      <description><![CDATA[文章网址：https://torrentfreak.com/u-s-seizes-more-pirate-sports-streaming-domains-but-iranian-fallbacks-remain/
+评论网址：https://news.ycombinator.com/item?id=48891272
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/makeev/alphai-tui</guid>
-      <pubDate>Mon, 13 Jul 2026 06:05:18 GMT</pubDate>
+      <guid>https://torrentfreak.com/u-s-seizes-more-pirate-sports-streaming-domains-but-iranian-fallbacks-remain/</guid>
+      <pubDate>Mon, 13 Jul 2026 11:52:17 GMT</pubDate>
     </item>
     <item>
-      <title>Pg_re2：Postgres 中的正则表达式速度快 9 倍</title>
-      <link>https://github.com/clickhouse/pg_re2/</link>
-      <description><![CDATA[文章网址：https://github.com/clickhouse/pg_re2/
-评论网址：https://news.ycombinator.com/item?id=48888481
+      <title>显示 HN：DOM-docx – HTML 到本机、可编辑的 Word 文档 (MIT)</title>
+      <link>https://github.com/floodtide/dom-docx</link>
+      <description><![CDATA[文章网址：https://github.com/floodtide/dom-docx
+评论网址：https://news.ycombinator.com/item?id=48891267
+积分：2
+# 条评论：1]]></description>
+      <guid>https://github.com/floodtide/dom-docx</guid>
+      <pubDate>Mon, 13 Jul 2026 11:51:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>高盛警告美国将首当其冲受到人工智能引发的通胀飙升</title>
+      <link>https://www.businessinsider.com/us-inflation-outlook-economy-ai-memory-software-prices-goldman-sachs-2026-7</link>
+      <description><![CDATA[文章网址：https://www.businessinsider.com/us-inflation-outlook-economy-ai-memory-software-prices-goldman-sachs-2026-7
+评论网址：https://news.ycombinator.com/item?id=48891263
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/clickhouse/pg_re2/</guid>
-      <pubDate>Mon, 13 Jul 2026 06:04:19 GMT</pubDate>
+      <guid>https://www.businessinsider.com/us-inflation-outlook-economy-ai-memory-software-prices-goldman-sachs-2026-7</guid>
+      <pubDate>Mon, 13 Jul 2026 11:51:35 GMT</pubDate>
     </item>
     <item>
-      <title>Telstra首席执行官对停电“深表歉意”，承认计时失败的风险已知</title>
-      <link>https://www.theguardian.com/business/2026/jul/10/telstra-ceo-deeply-sorry-for-outage-and-admits-risk-of-time-keeping-failure-was-known-ntwnfb</link>
-      <description><![CDATA[文章网址： https://www.theguardian.com/business/2026/jul/10/telstra-ceo-deeply-sorry-for-outage-and-admits-risk-of-time-keeping-failure-was-known-ntwnfb
-评论网址：https://news.ycombinator.com/item?id=48888480
+      <title>Vairfid – AI 代理的身份和责任层</title>
+      <link>https://www.vairfid.com/</link>
+      <description><![CDATA[文章网址：https://www.vairfid.com/
+评论网址：https://news.ycombinator.com/item?id=48891251
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.vairfid.com/</guid>
+      <pubDate>Mon, 13 Jul 2026 11:50:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能增强了科学家的能力，但可能缩小了科学的规模</title>
+      <link>https://www.science.org/content/article/ai-has-supercharged-scientists-may-have-shrunk-science#e70035bb-f01b-490d-b627-d3d77b2f1903</link>
+      <description><![CDATA[文章网址： https://www.science.org/content/article/ai-has-supercharged-scientists-may-have-shrunk-science#e70035bb-f01b-490d-b627-d3d77b2f1903
+评论网址：https://news.ycombinator.com/item?id=48891221
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.science.org/content/article/ai-has-supercharged-scientists-may-have-shrunk-science#e70035bb-f01b-490d-b627-d3d77b2f1903</guid>
+      <pubDate>Mon, 13 Jul 2026 11:48:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Phia 受到攻击：侵犯隐私、全页 HTML 捕获和 Cookie 填充</title>
+      <link>https://captaincompliance.com/news/phia-under-fire-privacy-overreach-full-page-html-capture-and-cookie-stuffing-in-phoebe-gates-ai-shopping-extension/</link>
+      <description><![CDATA[文章网址： https://captaincompliance.com/news/phia-under-fire-privacy-overreach-full-page-html-capture-and-cookie-stuffing-in-phoebe-gates-ai-shopping-extension/
+评论网址：https://news.ycombinator.com/item?id=48891216
 积分：1
 # 条评论：1]]></description>
-      <guid>https://www.theguardian.com/business/2026/jul/10/telstra-ceo-deeply-sorry-for-outage-and-admits-risk-of-time-keeping-failure-was-known-ntwnfb</guid>
-      <pubDate>Mon, 13 Jul 2026 06:04:04 GMT</pubDate>
+      <guid>https://captaincompliance.com/news/phia-under-fire-privacy-overreach-full-page-html-capture-and-cookie-stuffing-in-phoebe-gates-ai-shopping-extension/</guid>
+      <pubDate>Mon, 13 Jul 2026 11:47:49 GMT</pubDate>
     </item>
     <item>
-      <title>山姆·尼尔去世</title>
-      <link>https://www.theguardian.com/film/2026/jul/13/sam-neill-death-actor-dies-aged-78</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/film/2026/jul/13/sam-neill-death-actor-dies-ged-78
-评论网址：https://news.ycombinator.com/item?id=48888468
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.theguardian.com/film/2026/jul/13/sam-neill-death-actor-dies-aged-78</guid>
-      <pubDate>Mon, 13 Jul 2026 06:02:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>棋盘界面</title>
-      <link>https://www.boardui.com</link>
-      <description><![CDATA[文章网址：https://www.boardui.com
-评论网址：https://news.ycombinator.com/item?id=48888457
+      <title>对抗人工智能数据中心很重要——但这只是一个起点</title>
+      <link>https://www.theguardian.com/commentisfree/2026/jul/09/ai-datacenter-company-politics</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/commentisfree/2026/jul/09/ai-datacenter-company-politics
+评论网址：https://news.ycombinator.com/item?id=48891212
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.boardui.com</guid>
-      <pubDate>Mon, 13 Jul 2026 05:59:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>《Gran Turismo》杂志超越巅峰</title>
-      <link>https://www.gran-turismo.com/us/gt7/apex/</link>
-      <description><![CDATA[文章网址：https://www.gran-turismo.com/us/gt7/apex/
-评论网址：https://news.ycombinator.com/item?id=48888434
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.gran-turismo.com/us/gt7/apex/</guid>
-      <pubDate>Mon, 13 Jul 2026 05:54:36 GMT</pubDate>
+      <guid>https://www.theguardian.com/commentisfree/2026/jul/09/ai-datacenter-company-politics</guid>
+      <pubDate>Mon, 13 Jul 2026 11:47:43 GMT</pubDate>
     </item>
     </channel>
 </rss>
