@@ -4,123 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 14 Jul 2026 16:14:47 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 19:19:01 GMT</lastBuildDate>
     <item>
-      <title>启动 HN：Agnost AI (YC S26) – 从代理对话中提取用户反馈</title>
-      <link>https://agnost.ai</link>
-      <description><![CDATA[嘿 HN，我们是 Shubham 和 Parth，他们是儿时朋友，正在构建 Agnost AI (https://agnost.ai)，这是为构建聊天和语音代理的团队进行产品分析的产品。我们阅读生产对话并发现行为失败，例如用户愤怒提示（咒骂代理）、重复改写相同的请求、纠正代理、询问缺少的功能或在得到技术上的答案后离开成功。我们有一个无需注册的交互式演示：https://app.agnost.ai?demo=true这里有一个演示视频：https://www.tella.tv/video/agnost-ai-launch-hn-demo-9haa核心问题是聊天和语音产品没有与网络应用程序相同的指标。当产品界面是语言时，点击和渠道就变得没那么有用了。用户也很少给出明确的反馈，即使他们这样做，也通常是糖衣的。我自己几乎没有在 Claude 或 Codex 中输入 /feedback。大多数用户只是咒骂、再次询问、纠正代理，或者离开。因此，产品工程师可以从延迟、错误和跟踪中获得技术可见性，但仍然必须猜测用户是否得到了他们想要的东西。我们在去年围绕代理构建之后来到了这里，一些创始人要求使用像 PostHog 这样的东西来为他们正在构建的 AI 助手进行对话。我们并不想进入可观察性或评估领域。可观察性告诉您技术上发生了什么。评估验证您已经知道的案例。我们更多地关注发现方面，例如用户想要什么、他们在哪里感到沮丧、他们反复要求什么以及应该存在哪些新评估。团队通过 SDK 或 OTel 向我们发送代理对话消息，可选地包含帐户、计划、来源、组织等元数据。我们将对话聚类到特定于产品的意图。功能请求和错误是默认类别；大多数其他集群都是根据客户的数据动态创建的，并随着时间的推移而发展。您可以用简单的英语创建自己的集群。如果集群变得太宽，我们会将其拆分。如果出现新模式，我们会建议它。一家 AI 视频编辑公司使用 Agnost AI 来查找隐藏在聊天中的功能请求。最大的一个问题是，大约 70 位用户想要自动字幕，但用户表示，它是在一次会话中 12 次“在该帧中添加此文本”、“你能为它加上字幕吗”、“给我音频文字记录”以及跨语言的变体。该团队后来构建了该功能。最初最困难的部分是在不将所有内容发送给 LLM 的情况下对数百万条消息执行此操作。在 ClickHouse 中，“按时间跨对话获取最后 50 个事件”和“获取此对话中的所有事件”需要不同的排序顺序，因此我们必须在排序键、分区、物化视图和投影上进行大量迭代。为了查找新集群，通过 LLM 发送所有内容太慢且昂贵。由于成对比较，HDBSCAN 式的嵌入聚类在大规模时也会变得痛苦。我们首先根据余弦漂移将对话分成片段，运行 BIRCH 来压缩候选空间，然后在较小的集合上使用类似 HDBSCAN 的聚类。为了匹配现有集群，我们使用嵌入、较小的分类器/BERT 式模型和 LLM，仅作为模糊情况的后备。我们与多家公司合作，每天接收约 100 万条聊天和语音消息。定价是公开的：Starter 是免费的，Pro 版是 499 美元/月，Enterprise 版则满足更高的容量、安全性和保留需求。我们仅将每个客户的数据用于该客户。我们符合 SOC 2 Type 1 标准，Type 2 正在进行中，我们的 SDK 已在 PyPI 和 npm 上运行。我们希望获得 HN 社区和构建聊天或语音代理的人员的反馈：您今天如何检测这些信号，哪些反馈方法有效，以及什么会阻止您尝试此操作？乐于回答问题并接受批评。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48908950
+      <title>重点：适用于资源受限嵌入式系统的平台无关的 UI 框架</title>
+      <link>https://github.com/joeycastillo/focus</link>
+      <description><![CDATA[文章网址：https://github.com/joeycastillo/focus
+评论网址：https://news.ycombinator.com/item?id=48911691
 积分：1
 # 条评论：0]]></description>
-      <guid>https://agnost.ai</guid>
-      <pubDate>Tue, 14 Jul 2026 16:06:18 GMT</pubDate>
+      <guid>https://github.com/joeycastillo/focus</guid>
+      <pubDate>Tue, 14 Jul 2026 19:16:12 GMT</pubDate>
     </item>
     <item>
-      <title>基准分数声称与现实之间的差异</title>
-      <link>https://blog.jetbrains.com/research/2026/07/benchmark-meaning-gap/</link>
-      <description><![CDATA[文章网址：https://blog.jetbrains.com/research/2026/07/benchmark-meaning-gap/
-评论网址：https://news.ycombinator.com/item?id=48908938
+      <title>租赁时备用电源的问题</title>
+      <link>https://old.reddit.com/r/pilaofficial/comments/1uwi5kj/why_renters_cant_have_backup_power_until_now/</link>
+      <description><![CDATA[文章网址：https://old.reddit.com/r/pilaofficial/comments/1uwi5kj/why_renters_cant_have_backup_power_until_now/
+评论网址：https://news.ycombinator.com/item?id=48911670
 积分：1
 # 条评论：0]]></description>
-      <guid>https://blog.jetbrains.com/research/2026/07/benchmark-meaning-gap/</guid>
-      <pubDate>Tue, 14 Jul 2026 16:05:19 GMT</pubDate>
+      <guid>https://old.reddit.com/r/pilaofficial/comments/1uwi5kj/why_renters_cant_have_backup_power_until_now/</guid>
+      <pubDate>Tue, 14 Jul 2026 19:13:20 GMT</pubDate>
     </item>
     <item>
-      <title>FDA 授权 Zyn 尼古丁袋，但不知道它们是由什么制成的</title>
-      <link>https://www.statnews.com/2026/07/14/zyn-nicotine-pouches-fda-approval-microplastic-risk/</link>
-      <description><![CDATA[文章网址：https://www.statnews.com/2026/07/14/zyn-nicotine-pouches-fda-approval-micro Plastic-risk/
-评论网址：https://news.ycombinator.com/item?id=48908919
+      <title>Show HN：永不错过冲浪的设备变得更加强大</title>
+      <link>https://theliveframe.com/blog/a-device-for-never-missing-the-surf</link>
+      <description><![CDATA[文章网址：https://theliveframe.com/blog/a-device-for-never-missing-the-surf
+评论网址：https://news.ycombinator.com/item?id=48911657
+积分：2
+# 条评论：1]]></description>
+      <guid>https://theliveframe.com/blog/a-device-for-never-missing-the-surf</guid>
+      <pubDate>Tue, 14 Jul 2026 19:12:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Smol 机器：Kubernetes-in-a-Microvm</title>
+      <link>https://smolmachines.com/engineering/kubernetes-in-a-microvm</link>
+      <description><![CDATA[文章网址：https://smolmachines.com/engineering/kubernetes-in-a-microvm
+评论网址：https://news.ycombinator.com/item?id=48911633
+积分：1
+# 条评论：1]]></description>
+      <guid>https://smolmachines.com/engineering/kubernetes-in-a-microvm</guid>
+      <pubDate>Tue, 14 Jul 2026 19:10:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Auto-SFT 优化 LoRA 微调参数</title>
+      <link>https://github.com/theprint/auto-sft</link>
+      <description><![CDATA[文章网址：https://github.com/theprint/auto-sft
+评论网址：https://news.ycombinator.com/item?id=48911615
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/theprint/auto-sft</guid>
+      <pubDate>Tue, 14 Jul 2026 19:09:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>苏联核潜艇残骸是一颗“定时炸弹”</title>
+      <link>https://www.bbc.com/culture/article/20260709-the-nuclear-submarine-wreck-that-is-a-time-bomb</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/culture/article/20260709-the-nuclear-submarine-wreck-that-is-a-time-bomb
+评论网址：https://news.ycombinator.com/item?id=48911606
+积分：1
+# 条评论：1]]></description>
+      <guid>https://www.bbc.com/culture/article/20260709-the-nuclear-submarine-wreck-that-is-a-time-bomb</guid>
+      <pubDate>Tue, 14 Jul 2026 19:08:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Koi 是最快的编辑器</title>
+      <link>https://twitter.com/asyncze/status/2077077632899031099</link>
+      <description><![CDATA[文章网址：https://twitter.com/asyncze/status/2077077632899031099
+评论网址：https://news.ycombinator.com/item?id=48911581
+积分：2
+# 条评论：1]]></description>
+      <guid>https://twitter.com/asyncze/status/2077077632899031099</guid>
+      <pubDate>Tue, 14 Jul 2026 19:06:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>大声工作</title>
+      <link>https://ben.balter.com/2026/07/14/work-loudly/</link>
+      <description><![CDATA[文章网址：https://ben.balter.com/2026/07/14/work-loudly/
+评论网址：https://news.ycombinator.com/item?id=48911563
+积分：2
+# 条评论：2]]></description>
+      <guid>https://ben.balter.com/2026/07/14/work-loudly/</guid>
+      <pubDate>Tue, 14 Jul 2026 19:04:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年 K8s 上的 gRPC 负载均衡基准测试：Linkerd、Istio 与 Cilium</title>
+      <link>https://www.buoyant.io/blog/benchmarking-grpc-load-balancing-on-kubernetes-linkerd-vs-istio-vs-cilium</link>
+      <description><![CDATA[文章网址：https://www.buoyant.io/blog/benchmarking-grpc-load-balancing-on-kubernetes-linkerd-vs-istio-vs-cilium
+评论网址：https://news.ycombinator.com/item?id=48911550
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.statnews.com/2026/07/14/zyn-nicotine-pouches-fda-approval-microplastic-risk/</guid>
-      <pubDate>Tue, 14 Jul 2026 16:04:24 GMT</pubDate>
+      <guid>https://www.buoyant.io/blog/benchmarking-grpc-load-balancing-on-kubernetes-linkerd-vs-istio-vs-cilium</guid>
+      <pubDate>Tue, 14 Jul 2026 19:02:58 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能的拉马努金挑战</title>
-      <link>https://arxiv.org/abs/2607.09721</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2607.09721
-评论网址：https://news.ycombinator.com/item?id=48908918
+      <title>拉斯维加斯的恐惧与厌恶（电影）</title>
+      <link>https://en.wikipedia.org/wiki/Fear_and_Loathing_in_Las_Vegas_(film)</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Fear_and_Loathing_in_Las_Vegas_(film)
+评论网址：https://news.ycombinator.com/item?id=48911536
 积分：1
 # 条评论：0]]></description>
-      <guid>https://arxiv.org/abs/2607.09721</guid>
-      <pubDate>Tue, 14 Jul 2026 16:04:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Wireplug.org – WireGuard 的免费漫游和 NAT 穿越</title>
-      <link>https://wireplug.org</link>
-      <description><![CDATA[大家好，WireGuard 最常见的用例之一是设置小型网状 VPN，
-无论是对于您的家庭实验室，还是对于在不同环境之间移动的一小群人来说
-一天中的不同地点（例如，家 -&gt; 咖啡店 -&gt; 办公室等）问题是，vanilla WireGuard 无法处理 NAT 穿越或漫游。我想用尽可能少的附加软件来解决这个问题，
-并使其免费提供给所有人，无需订阅或帐户。结果就是wireplug.org。wireplug 允许您使用标准 WireGuard 创建网状 VPN。
-您的配置文件几乎保持不变，只是您不再需要为同级指定“端点”。
-相反，wireplug 会检测您所有可能的端点（包括 LAN）并为您与您的对等点进行协调。
-这使您可以继续管理自己的密钥和网络拓扑，同时在网络之间移动时保持连接。主要功能
-- 检测网络变化并自动更新端点
-- 处理 NAT 穿越
-- 在同一 LAN 上时本地连接对等点
-- 使用内核 WireGuard（如果可用）
-- 让您的钥匙尽在您的掌控之中
-- 免费使用，无需帐户
-- 开源，用 Rust 编写
-- 在 macOS、Linux 和 OpenBSD 上测试更多信息 - https://wireplug.org
-Github - https://github.com/alpn/wireplug
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48908899
-积分：1
-# 条评论：0]]></description>
-      <guid>https://wireplug.org</guid>
-      <pubDate>Tue, 14 Jul 2026 16:02:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>伪末世</title>
-      <link>https://dynomight.net/pseudpocalypse/</link>
-      <description><![CDATA[文章网址：https://dynomight.net/pseudpocalypse/
-评论网址：https://news.ycombinator.com/item?id=48908886
-积分：1
-# 条评论：0]]></description>
-      <guid>https://dynomight.net/pseudpocalypse/</guid>
-      <pubDate>Tue, 14 Jul 2026 16:02:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用 unsafe 消除 Go 边界检查</title>
-      <link>https://blog.andr2i.com/posts/2026-07-06-eliminating-go-bound-checks-with-unsafe</link>
-      <description><![CDATA[文章网址：https://blog.andr2i.com/posts/2026-07-06-elimination-go-bound-checks-with-unsafe
-评论网址：https://news.ycombinator.com/item?id=48908884
-积分：1
-# 条评论：0]]></description>
-      <guid>https://blog.andr2i.com/posts/2026-07-06-eliminating-go-bound-checks-with-unsafe</guid>
-      <pubDate>Tue, 14 Jul 2026 16:01:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>形式化数学（开放获取期刊）</title>
-      <link>https://reference-global.com/journal/FORMA</link>
-      <description><![CDATA[文章网址：https://reference-global.com/journal/FORMA
-评论网址：https://news.ycombinator.com/item?id=48908883
-积分：1
-# 条评论：0]]></description>
-      <guid>https://reference-global.com/journal/FORMA</guid>
-      <pubDate>Tue, 14 Jul 2026 16:01:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>框架：新的 X11 服务器 – 直接在装配中实现</title>
-      <link>https://www.theregister.com/software/2026/07/14/frame-a-new-x11-server-implemented-directly-in-assembly/5270498</link>
-      <description><![CDATA[文章网址：https://www.theregister.com/software/2026/07/14/frame-a-new-x11-server-implemented-directly-in- assembly/5270498
-评论网址：https://news.ycombinator.com/item?id=48908867
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.theregister.com/software/2026/07/14/frame-a-new-x11-server-implemented-directly-in-assembly/5270498</guid>
-      <pubDate>Tue, 14 Jul 2026 16:00:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>解释美国酒精流行病的图表</title>
-      <link>https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series/</link>
-      <description><![CDATA[文章网址：https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series/
-评论网址：https://news.ycombinator.com/item?id=48908857
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series/</guid>
-      <pubDate>Tue, 14 Jul 2026 15:59:54 GMT</pubDate>
+      <guid>https://en.wikipedia.org/wiki/Fear_and_Loathing_in_Las_Vegas_(film)</guid>
+      <pubDate>Tue, 14 Jul 2026 19:02:02 GMT</pubDate>
     </item>
     </channel>
 </rss>
