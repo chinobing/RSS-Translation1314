@@ -4,36 +4,105 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 16 Jul 2026 19:09:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 22:03:23 GMT</lastBuildDate>
     <item>
-      <title>SPCX 现在是华尔街最受做空的新股</title>
-      <link>https://invezz.com/news/2026/07/16/the-worlds-most-valuable-ipo-spcx-is-now-wall-streets-most-shorted-new-stock/</link>
-      <description><![CDATA[文章网址： https://invezz.com/news/2026/07/16/the-worlds-most-valuable-ipo-spcx-is-now-wall-streets-most-shorted-new-stock/
-评论网址：https://news.ycombinator.com/item?id=48938001
+      <title>数据科学数学</title>
+      <link>https://arxiv.org/abs/2607.11938</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2607.11938
+评论网址：https://news.ycombinator.com/item?id=48939896
+积分：19
+# 条评论：0]]></description>
+      <guid>https://arxiv.org/abs/2607.11938</guid>
+      <pubDate>Thu, 16 Jul 2026 20:38:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>时间轴扫描 – 人工智能修复扫描照片上的日期</title>
+      <link>https://timelinescan.com/</link>
+      <description><![CDATA[文章网址：https://timelinescan.com/
+评论网址：https://news.ycombinator.com/item?id=48939764
+积分：8
+# 条评论：15]]></description>
+      <guid>https://timelinescan.com/</guid>
+      <pubDate>Thu, 16 Jul 2026 20:25:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>氦气从宜居带附近岩石系外行星的大气层逸出</title>
+      <link>https://www.science.org/doi/10.1126/science.aea9708</link>
+      <description><![CDATA[文章网址：https://www.science.org/doi/10.1126/science.aea9708
+评论网址：https://news.ycombinator.com/item?id=48939742
+积分：33
+# 条评论：4]]></description>
+      <guid>https://www.science.org/doi/10.1126/science.aea9708</guid>
+      <pubDate>Thu, 16 Jul 2026 20:24:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：剧本公关代理 – 自动修复失败的剧作家脚本</title>
+      <link>https://libretto.sh/debug-agents</link>
+      <description><![CDATA[Libretto PR 代理是一个免费的 TypeScript 库，用于维护 Playwright 浏览器自动化。在现有的 Playwright 脚本中添加一行代码，代理即可在脚本失败时自动打开 GitHub PR 来修复脚本。几个月前，我们发布了 Libretto，这是一种用于构建确定性浏览器自动化的 CLI + 编码代理技能。这个想法是，对于许多浏览器工作流程，尤其是重复的业务工作流程，您不需要人工智能代理在运行时做出决策。您需要可检查、运行速度更快且比重复调用 AI 浏览器代理便宜得多的确定性 Playwright 脚本。这有助于我们生成 Playwright 和基于网络请求的脚本，但网站经常会发生更改，从而破坏确定性脚本。因此，大规模维护各种脚本是一件令人头疼的事情。如果您已经拥有一堆可用的 Playwright 脚本，那么您最不想做的就是围绕新的运行时 AI 框架（例如浏览器使用或舞台工作人员）重写所有内容，以简化维护。因此，我们构建了 Libretto PR Agent。目标很简单：保留现有的 Playwright 脚本，添加 Libretto，连接 GitHub，并让 PR 代理在出现问题时提出修复建议。Libretto PR代理从 GitHub 提取您的代码，并通过 CDP 连接到刚刚失败的浏览器会话。它有一个执行工具，用于将 Playwright 和 JavaScript 注入页面，一旦检查到故障，它就会向您的存储库打开一个 PR，其中包含建议的代码修复。您可以像这样使用它： try {
+    等待自动化逻辑（页面）；
+  } 捕获（错误）{
+    等待 playwrightDebugger.debugFailure（错误，页面）；
+  抛出错误；
+  }
+
+
+该代理完全免费且开源，可让您携带自己的 LLM 提供商 API 密钥，并可与任何浏览器提供商（包括自托管）配合使用。源代码位于：https://github.com/saffron-health/libretto/tree/main/package...我们认为这使得浏览器集成更容易维护，特别是对于已经在生产中拥有 Playwright 浏览器自动化脚本并且不希望完全迁移以获得 AI 辅助调试和修复的团队。如果您在生产中维护浏览器自动化，很想知道当前的调试流程以及对此方法的任何反馈。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48939710
+积分：6
+# 条评论：0]]></description>
+      <guid>https://libretto.sh/debug-agents</guid>
+      <pubDate>Thu, 16 Jul 2026 20:21:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>LM Studio Bionic：开放模型的 AI 代理</title>
+      <link>https://lmstudio.ai/blog/introducing-lm-studio-bionic</link>
+      <description><![CDATA[文章网址：https://lmstudio.ai/blog/introducing-lm-studio-bionic
+评论网址：https://news.ycombinator.com/item?id=48939662
+积分：57
+# 条评论：17]]></description>
+      <guid>https://lmstudio.ai/blog/introducing-lm-studio-bionic</guid>
+      <pubDate>Thu, 16 Jul 2026 20:18:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>经期跟踪器中隐藏的隐私问题</title>
+      <link>https://www.bbc.com/future/article/20260715-how-period-trackers-share-womens-private-details</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/future/article/20260715-how-period-trackers-share-womens-private-details
+评论网址：https://news.ycombinator.com/item?id=48939641
 积分：37
+# 条评论：10]]></description>
+      <guid>https://www.bbc.com/future/article/20260715-how-period-trackers-share-womens-private-details</guid>
+      <pubDate>Thu, 16 Jul 2026 20:15:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>100 美元 AI 音乐视频：克劳德寓言 5 与 GPT-5.6 Sol</title>
+      <link>https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6</link>
+      <description><![CDATA[文章网址：https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6
+评论网址：https://news.ycombinator.com/item?id=48939524
+积分：58
+# 条评论：41]]></description>
+      <guid>https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6</guid>
+      <pubDate>Thu, 16 Jul 2026 20:03:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>AttoChess，一个完整的、可玩的国际象棋程序，适用于 16 位 x86 DOS，大小为 278 字节</title>
+      <link>https://nicholas-afk.github.io/AttoChess/</link>
+      <description><![CDATA[文章网址：https://nicholas-afk.github.io/AttoChess/
+评论网址：https://news.ycombinator.com/item?id=48938372
+积分：22
+# 条评论：13]]></description>
+      <guid>https://nicholas-afk.github.io/AttoChess/</guid>
+      <pubDate>Thu, 16 Jul 2026 18:33:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>2026 年上半年 CD 销量增长超过黑胶唱片</title>
+      <link>https://consequence.net/2026/07/the-cd-revival-is-getting-hard-to-ignore/</link>
+      <description><![CDATA[文章网址：https://consequence.net/2026/07/the-cd-revival-is-getting-hard-to-ignore/
+评论网址：https://news.ycombinator.com/item?id=48937398
+积分：35
 # 条评论：37]]></description>
-      <guid>https://invezz.com/news/2026/07/16/the-worlds-most-valuable-ipo-spcx-is-now-wall-streets-most-shorted-new-stock/</guid>
-      <pubDate>Thu, 16 Jul 2026 18:03:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>德国AI联盟发布Soofi S，开放30B模型超越基准</title>
-      <link>https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/</link>
-      <description><![CDATA[文章网址： https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/
-评论网址：https://news.ycombinator.com/item?id=48937756
-积分：25
-# 条评论：1]]></description>
-      <guid>https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/</guid>
-      <pubDate>Thu, 16 Jul 2026 17:44:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>42% 的成年人依靠父母提供经济支持</title>
-      <link>https://www.cnbc.com/2026/07/16/42percent-of-adults-rely-on-their-parents-for-financial-supportthere-are-no-bad-guys-here-says-financial-therapist.html</link>
-      <description><![CDATA[文章网址： https://www.cnbc.com/2026/07/16/42percent-of-adults-rely-on-their-parents-for-financial-supportthere-are-no-bad-guys-here-says-financial-therapy.html
-评论网址：https://news.ycombinator.com/item?id=48937288
-积分：60
-# 条评论：54]]></description>
-      <guid>https://www.cnbc.com/2026/07/16/42percent-of-adults-rely-on-their-parents-for-financial-supportthere-are-no-bad-guys-here-says-financial-therapist.html</guid>
-      <pubDate>Thu, 16 Jul 2026 17:11:58 GMT</pubDate>
+      <guid>https://consequence.net/2026/07/the-cd-revival-is-getting-hard-to-ignore/</guid>
+      <pubDate>Thu, 16 Jul 2026 17:19:16 GMT</pubDate>
     </item>
     <item>
       <title>自适应 (YC S25) 正在招聘</title>
@@ -44,69 +113,6 @@
 # 条评论：0]]></description>
       <guid>https://www.ycombinator.com/companies/adaptional/jobs</guid>
       <pubDate>Thu, 16 Jul 2026 17:00:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>推出 HN：Traceforce (YC S26) – 针对 AI 应用程序的全公司安全监控</title>
-      <link>https://news.ycombinator.com/item?id=48937020</link>
-      <description><![CDATA[嘿 HN，我们是 Traceforce (https://www.traceforce.ai/) 的创始人 Xia 和 Varun。 Traceforce 不仅可以发现正在使用的应用程序，还可以发现它们如何通过 MCP 连接到其他数据源，从而直接在所有设备（笔记本电脑、沙箱、虚拟机）上提供对 ChatGPT、Claude 等 AI 应用程序的可见性和控制。我们还有一个开源动态 MCP 渗透测试工具 https://github.com/traceforce/mcp-xray 来检测易受攻击的 MCP。Traceforce 的目的是：- 为公司员工提供标准化方法，以确保在其设备上运行的 AI 软件安全运行- 使公司的安全团队能够了解人工智能软件在公司设备上的活动，并尽早检测和防止不安全行为和安全漏洞。Traceforce 的工作原理1. Traceforce 作为轻量级二进制文件和浏览器扩展安装在每个设备上。2. 30 分钟内，设备会将实时数据上传到公司资料，并在仪表板上显示所有公司设备上运行的所有 AI 代理/应用程序。3.公司安全人员可以实时监控所有代理的活动，实施控制，并在出现任何安全风险时立即发出警报。以下是视频演示：https://youtu.be/IdK2WKg7kaMTraceforce 的灵感来自于 Xia 在一家名为 Clumio 的初创公司担任工程总监的经历（于 2024 年 10 月被 Commvault 收购）。能够监控团队成员如何使用人工智能而不减慢他们的速度是 Clumio 的首要任务。在与 50 多名 CISO 和 CIO 交谈后，我们发现这是目前各行业急需的解决方案。我们不断听说新的人工智能功能被如此迅速和广泛地采用，以至于可见性和控制力跟不上。Traceforce 对于我们监控和收集的内容是透明的。默认情况下，Traceforce 仅收集有关设备上运行的 AI 应用程序、MCP 和工具的元数据和遥测数据。安全团队可以启用检查工具调用的选项，以检测、警告或阻止预定义的高风险或潜在破坏性操作。所有内容检查都在设备本地进行。除非由组织的安全管理员明确配置，否则永远不会存储用户提示。我们与产品的最终用户密切合作，一旦他们了解正在监视/共享的内容，他们实际上会非常放心，因为他们的设备上有强大的保护层来防止安全事件。它使他们能够专注于自己的工作，而不必担心在他们不知情的情况下可能会发生什么泄漏和破坏。Traceforce 二进制文件是使用 Go 构建的，浏览器扩展是用 Node JS 编写的。最困难的部分是在 AI 应用程序、MCP 和工具之间构建完整的连接图，然后识别这些连接引入的漏洞和攻击路径。传统安全工具存在不足：EDR 可以看到流程，CASB 可以看到网络流量，但两者都无法了解 AI 应用程序内部发生的应用程序级活动。我们让它发挥作用的方法是了解每个应用程序的配置和日志。这是一个劳动密集型过程，因为每个应用程序都不同，并且 AI 功能经常变化。Traceforce 目前已部署在 10 个组织的 1,000 多台设备上。平均而言，我们发现每台设备有超过 15 个 AI 应用程序，每个应用程序连接到 5-10 个 MCP。我们帮助客户识别 MCP 配置中暴露的明文秘密，防止 API 密钥通过 AI 生成的代码泄漏，并在执行“DROP TABLE”等潜在破坏性命令之前向开发人员发出警告。我们的“警告和确认”方法特别受到好评，让开发人员能够自由工作，同时帮助他们避免代价高昂的错误。我们希望与中小型企业（200 多名员工）的安全、IT 和 AI 平台团队合作，这些团队正在快速采用 AI 编码助手、ChatGPT、Claude 和 MCP。如果您难以了解人们使用哪些 AI 工具来提高工作效率，或者需要一种实用的方法来降低与 AI 相关的安全风险而不拖慢人们的速度，我们很乐意与您交谈。您可以通过 https://www.traceforce.ai 开始免费试用，或直接联系安排演示并讨论您的环境。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48937020
-积分：15
-# 条评论：6]]></description>
-      <guid>https://news.ycombinator.com/item?id=48937020</guid>
-      <pubDate>Thu, 16 Jul 2026 16:52:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>使用“经典”机器学习检测法学硕士生成的文本</title>
-      <link>https://blog.lyc8503.net/en/post/llm-classifier/</link>
-      <description><![CDATA[文章网址：https://blog.lyc8503.net/en/post/llm-classifier/
-评论网址：https://news.ycombinator.com/item?id=48936880
-积分：69
-# 条评论：35]]></description>
-      <guid>https://blog.lyc8503.net/en/post/llm-classifier/</guid>
-      <pubDate>Thu, 16 Jul 2026 16:41:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>显示 HN：Rust 中可组合数值转换的伽罗瓦连接</title>
-      <link>https://github.com/cmk/connections</link>
-      <description><![CDATA[文章网址：https://github.com/cmk/connections
-评论网址：https://news.ycombinator.com/item?id=48936803
-积分：7
-# 条评论：1]]></description>
-      <guid>https://github.com/cmk/connections</guid>
-      <pubDate>Thu, 16 Jul 2026 16:36:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>56,000 行 DOOM，用我编写的语言</title>
-      <link>https://betlang.dev/about/</link>
-      <description><![CDATA[文章网址：https://betlang.dev/about/
-评论网址：https://news.ycombinator.com/item?id=48936657
-积分：24
-# 条评论：16]]></description>
-      <guid>https://betlang.dev/about/</guid>
-      <pubDate>Thu, 16 Jul 2026 16:24:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>诱饵字体</title>
-      <link>https://www.mixfont.com/experiments/decoy-font</link>
-      <description><![CDATA[文章网址：https://www.mixfont.com/experiments/decoy-font
-评论网址：https://news.ycombinator.com/item?id=48936584
-积分：141
-# 条评论：50]]></description>
-      <guid>https://www.mixfont.com/experiments/decoy-font</guid>
-      <pubDate>Thu, 16 Jul 2026 16:18:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Linux 到已有 10 年历史的 QWERTY 手机的现代移植</title>
-      <link>https://news.ycombinator.com/item?id=48936554</link>
-      <description><![CDATA[我将现代 Linux 移植到了一台已有 10 年历史的 HTC QWERTY 手机上作为手持终端。我在这里写下了它：https://tmzt.github.io/blog/a-modern-port-of-linux-to-a-ten-...您可以在此处查看代码：
-https://github.com/tmzt/linux-stable-msm-dtsi
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48936554
-积分：22
-# 条评论：3]]></description>
-      <guid>https://news.ycombinator.com/item?id=48936554</guid>
-      <pubDate>Thu, 16 Jul 2026 16:15:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
