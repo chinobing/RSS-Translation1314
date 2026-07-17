@@ -4,108 +4,124 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 17 Jul 2026 10:46:43 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 13:27:13 GMT</lastBuildDate>
     <item>
-      <title>中国的电动汽车海盗船正在向西方汽车制造商袭来</title>
-      <link>https://www.politico.eu/article/china-ev-pirate-ship-is-coming-for-western-carmakers-byd/</link>
-      <description><![CDATA[文章网址：https://www.politico.eu/article/china-ev-pirate-ship-is-coming-for-western-carmakers-byd/
-评论网址：https://news.ycombinator.com/item?id=48945615
+      <title>“欧洲”密码管理器与俄罗斯的令人不安的联系</title>
+      <link>https://www.lemonde.fr/en/pixels/article/2026/07/17/the-troubling-russian-connections-of-a-european-password-manager_6755564_13.html</link>
+      <description><![CDATA[文章网址： https://www.lemonde.fr/en/pixels/article/2026/07/17/the-troubling- Russian-connections-of-a-european-password-manager_6755564_13.html
+评论网址：https://news.ycombinator.com/item?id=48947063
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.politico.eu/article/china-ev-pirate-ship-is-coming-for-western-carmakers-byd/</guid>
-      <pubDate>Fri, 17 Jul 2026 10:36:52 GMT</pubDate>
+      <guid>https://www.lemonde.fr/en/pixels/article/2026/07/17/the-troubling-russian-connections-of-a-european-password-manager_6755564_13.html</guid>
+      <pubDate>Fri, 17 Jul 2026 13:17:35 GMT</pubDate>
     </item>
     <item>
-      <title>刚刚收到 AWS 账单提醒，预计我的每月费用为 $140B</title>
-      <link>https://news.ycombinator.com/item?id=48945606</link>
-      <description><![CDATA[这一定是一个错误。我通常每月的 S3 账单仅为 2-3 美元。今天还有其他人收到奇怪的账单估算吗？https://prnt.sc/UqjcYD3RSQrS
+      <title>市场状况（2026 年 7 月）</title>
+      <link>https://bilello.blog/2026/the-state-of-the-markets-july-2026</link>
+      <description><![CDATA[文章网址：https://bilello.blog/2026/the-state-of-the-markets-july-2026
+评论网址：https://news.ycombinator.com/item?id=48947031
+积分：1
+# 条评论：0]]></description>
+      <guid>https://bilello.blog/2026/the-state-of-the-markets-july-2026</guid>
+      <pubDate>Fri, 17 Jul 2026 13:13:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>国家抽奖：绘制国家</title>
+      <link>https://country-draw.vercel.app/</link>
+      <description><![CDATA[文章网址：https://country-draw.vercel.app/
+评论网址：https://news.ycombinator.com/item?id=48947017
+积分：1
+# 条评论：0]]></description>
+      <guid>https://country-draw.vercel.app/</guid>
+      <pubDate>Fri, 17 Jul 2026 13:12:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Typst-WASM – 在浏览器、Node 和无服务器运行时中编译 Typst</title>
+      <link>https://typst-wasm-playground-cloudflare.will-bradshaw50.workers.dev/</link>
+      <description><![CDATA[今天我发布了tyst-wasm和vite-plugin-typst的实验版本！这个项目的目标是提供一个实用的基于promise的API，用于在尽可能多的运行时使用wasm编译typst。该API在所有支持的运行时中都是一致的，并且与您在rust crate中看到的内容非常相似。它使您可以完全控制加载 wasm blob 的位置和方式，从而使您能够提供最佳的用户体验。在 wasm/无服务器环境（如 Cloudflare Workers 或 Vercel）中运行 Typst，您可以执行 SSR、轻松地将编译卸载到低带宽设备的服务器上，同时重用代码、在 AI 代理的沙箱中运行 Typst 等。这里是 API 示例：```
+等待编译器.addFonts(
+  readFile(新的URL(导入.meta.resolve(
+    “@typst-wasm/fonts/NewCMMath-Regular.otf”，
+  ））），
+);等待compiler.addSource(&quot;main.typ&quot;, &quot;= 来自typst-wasm的你好！&quot;);
+const 结果 = 等待编译器.compile({
+  主要：“主要.typ”，
+  格式：“svg”，
+});console.log(result.pages[0]?.output);
+``它与typst.ts 有什么不同？目标不同！ typst-wasm 旨在支持许多运行时并提供一致的 api，而不使用已弃用的 API。@typst-wasm/vite-plugin-typst我还发布了基于typst-wasm 构建的 vite-plugin-typst，以提供一种在 vite 应用程序中使用新 html 输出的简单方法！给你一些想法，这是基于 vite 的网站/博客中内容 Markdown 的一个很酷的替代方案！```
+importtypstDocument from &quot;./post.typ?typst=html&quot;;document.querySelector(&quot;#output&quot;)!.innerHTML =typstDocument.html;
+```供您查看的链接和示例！* GitHub：https://github.com/typst-wasm/typst-wasm* npm —typst-wasm：https://www.npmjs.com/package/typst-wasm，vite-plugin-typst：https://www.npmjs.com/package/@typst-wasm/vite-plugin-typst* 文档：https://typst-wasm.github.io/typst-wasm/* 示例博客：https://typst-wasm-blog.will-bradshaw50.workers.dev/
+    来源：https://github.com/typst-wasm/typst-wasm/tree/main/packages/...* 示例typst-wasm 游乐场，在cloudflare 工作人员上使用SSR 的tystst：https://typst-wasm-playground-cloudflare.will-bradshaw50.wor...
+    来源：https://github.com/typst-wasm/typst-wasm/tree/main/packages/...* 示例typst-wasm 游乐场，在vercel 上使用SSR 的tystst：https://example-typst-playground-vercel.vercel.app/
+    来源： https://github.com/typst-wasm/typst-wasm/tree/main/packages/...* 简单节点示例
+    来源： https://github.com/typst-wasm/typst-wasm/tree/main/packages/...* 我自己的网站：https://w.bradshaw.page/
+    来源：https://github.com/wra-bradshaw/personal-website
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48945606
-积分：2
-# 条评论：3]]></description>
-      <guid>https://news.ycombinator.com/item?id=48945606</guid>
-      <pubDate>Fri, 17 Jul 2026 10:35:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：EasyDocs – 根据实际流量生成 OpenAPI 文档</title>
-      <link>https://github.com/RubenGlez/easydocs</link>
-      <description><![CDATA[文章网址：https://github.com/RubenGlez/easydocs
-评论网址：https://news.ycombinator.com/item?id=48945600
+评论网址：https://news.ycombinator.com/item?id=48947016
 积分：1
 # 条评论：0]]></description>
-      <guid>https://github.com/RubenGlez/easydocs</guid>
-      <pubDate>Fri, 17 Jul 2026 10:34:38 GMT</pubDate>
+      <guid>https://typst-wasm-playground-cloudflare.will-bradshaw50.workers.dev/</guid>
+      <pubDate>Fri, 17 Jul 2026 13:12:27 GMT</pubDate>
     </item>
     <item>
-      <title>台积电将美国半导体投资扩大至$265B</title>
-      <link>https://www.hpcwire.com/off-the-wire/tsmc-expands-us-semiconductor-investment-to-265b/</link>
-      <description><![CDATA[文章网址：https://www.hpcwire.com/off-the-wire/tsmc-expands-us-semiconductor-investment-to-265b/
-评论网址：https://news.ycombinator.com/item?id=48945599
+      <title>智能库存代理</title>
+      <link>https://smartstockagent.com</link>
+      <description><![CDATA[文章网址：https://smartstockagent.com
+评论网址：https://news.ycombinator.com/item?id=48946993
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.hpcwire.com/off-the-wire/tsmc-expands-us-semiconductor-investment-to-265b/</guid>
-      <pubDate>Fri, 17 Jul 2026 10:34:34 GMT</pubDate>
+      <guid>https://smartstockagent.com</guid>
+      <pubDate>Fri, 17 Jul 2026 13:10:00 GMT</pubDate>
     </item>
     <item>
-      <title>高温使法国天然气厂面临停电风险</title>
-      <link>https://www.reuters.com/business/energy/high-temperatures-shut-french-gas-plant-adding-heat-related-outages-2026-07-16/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/business/energy/high-temporals-shut-french-gas-plant-adding-heat-lated-outages-2026-07-16/
-评论网址：https://news.ycombinator.com/item?id=48945591
+      <title>人工智能辅助软件移植的可发现证据</title>
+      <link>https://williamcotton.com/articles/the-discoverable-evidence-of-ai-assisted-software-porting</link>
+      <description><![CDATA[文章网址：https://williamcotton.com/articles/the-discoverable-evidence-of-ai-assistance-software-porting
+评论网址：https://news.ycombinator.com/item?id=48946977
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.reuters.com/business/energy/high-temperatures-shut-french-gas-plant-adding-heat-related-outages-2026-07-16/</guid>
-      <pubDate>Fri, 17 Jul 2026 10:32:47 GMT</pubDate>
+      <guid>https://williamcotton.com/articles/the-discoverable-evidence-of-ai-assisted-software-porting</guid>
+      <pubDate>Fri, 17 Jul 2026 13:08:30 GMT</pubDate>
     </item>
     <item>
-      <title>大规模监视并非偶然</title>
-      <link>https://www.youtube.com/watch?v=mvsgrhS5bV8</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=mvsgrhS5bV8
-评论网址：https://news.ycombinator.com/item?id=48945550
-积分：3
-# 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=mvsgrhS5bV8</guid>
-      <pubDate>Fri, 17 Jul 2026 10:27:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>美国研究生签证有效期将被限制为4年</title>
-      <link>https://www.dhs.gov/news/2026/07/16/trump-administration-issues-final-rule-end-foreign-student-visa-abuse</link>
-      <description><![CDATA[文章网址：https://www.dhs.gov/news/2026/07/16/trump-administration-issues-final-rule-end-foreign-student-visa-abuse
-评论网址：https://news.ycombinator.com/item?id=48945521
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.dhs.gov/news/2026/07/16/trump-administration-issues-final-rule-end-foreign-student-visa-abuse</guid>
-      <pubDate>Fri, 17 Jul 2026 10:23:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>问 HN：你在做什么（2026）？</title>
-      <link>https://news.ycombinator.com/item?id=48945502</link>
-      <description><![CDATA[你在做什么？您有任何想分享的新想法吗？
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48945502
+      <title>迷幻综合症：对游戏汇编代码的书本探索</title>
+      <link>https://psychedelia.homemade.systems/</link>
+      <description><![CDATA[文章网址：https://psychedelia.homemade.systems/
+评论网址：https://news.ycombinator.com/item?id=48946965
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=48945502</guid>
-      <pubDate>Fri, 17 Jul 2026 10:21:35 GMT</pubDate>
+      <guid>https://psychedelia.homemade.systems/</guid>
+      <pubDate>Fri, 17 Jul 2026 13:07:34 GMT</pubDate>
     </item>
     <item>
-      <title>《马里奥赛车 Wii》使用 AI 重新编译为 PC，具有 4K 潜力和无上限 FPS</title>
-      <link>https://www.tomshardware.com/video-games/retro-gaming/mario-kart-wii-recompiled-for-pc-using-ai-with-4k-potential-and-uncapped-frame-rates-first-static-recompilation-of-a-wii-game-supports-over-200-tracks-thanks-to-retro-rewind-compatibility</link>
-      <description><![CDATA[文章网址： https://www.tomshardware.com/video-games/retro-gaming/mario-kart-wii-recompiled-for-pc-using-ai-with-4k-pottial-and-uncapped-frame-rates-first-static-recompilation-of-a-wii-game-supports-over-200-tracks-thanks-to-retro-rewind-兼容性
-评论网址：https://news.ycombinator.com/item?id=48945476
+      <title>Retok：Claude Code 和 Codex CLI 的代币效率分析器（零 deps）</title>
+      <link>https://github.com/d-date/retok</link>
+      <description><![CDATA[文章网址：https://github.com/d-date/retok
+评论网址：https://news.ycombinator.com/item?id=48946955
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/d-date/retok</guid>
+      <pubDate>Fri, 17 Jul 2026 13:07:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>NASA 不确定波音 Starliner 能否获得载人飞行认证</title>
+      <link>https://www.theregister.com/offbeat/2026/07/01/nasa-unsure-boeing-starliner-will-ever-be-certified-for-human-flight/5265177</link>
+      <description><![CDATA[文章网址： https://www.theregister.com/offbeat/2026/07/01/nasa-unsure-boeing-starliner-will-ever-be-certified-for- human-flight/5265177
+评论网址：https://news.ycombinator.com/item?id=48946937
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.theregister.com/offbeat/2026/07/01/nasa-unsure-boeing-starliner-will-ever-be-certified-for-human-flight/5265177</guid>
+      <pubDate>Fri, 17 Jul 2026 13:05:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Z 世代正在抵制人工智能——这提醒我们，未来是无法书写的</title>
+      <link>https://www.channelnewsasia.com/commentary/gen-z-pushback-against-ai-6258016</link>
+      <description><![CDATA[文章网址：https://www.channelnewsasia.com/commentary/gen-z-pushback-against-ai-6258016
+评论网址：https://news.ycombinator.com/item?id=48946910
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.tomshardware.com/video-games/retro-gaming/mario-kart-wii-recompiled-for-pc-using-ai-with-4k-potential-and-uncapped-frame-rates-first-static-recompilation-of-a-wii-game-supports-over-200-tracks-thanks-to-retro-rewind-compatibility</guid>
-      <pubDate>Fri, 17 Jul 2026 10:16:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Kospi 和亚洲科技股的人工智能热潮是否已经结束？</title>
-      <link>https://www.disruptionbanking.com/2026/07/17/is-the-ai-boom-over-for-kospi-and-asian-tech-stocks/</link>
-      <description><![CDATA[文章网址：https://www.disruptionbanking.com/2026/07/17/is-the-ai-boom-over-for-kospi-and-asian-tech-stocks/
-评论网址：https://news.ycombinator.com/item?id=48945474
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.disruptionbanking.com/2026/07/17/is-the-ai-boom-over-for-kospi-and-asian-tech-stocks/</guid>
-      <pubDate>Fri, 17 Jul 2026 10:16:46 GMT</pubDate>
+      <guid>https://www.channelnewsasia.com/commentary/gen-z-pushback-against-ai-6258016</guid>
+      <pubDate>Fri, 17 Jul 2026 13:03:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
