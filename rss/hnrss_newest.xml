@@ -4,124 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 17 Jul 2026 13:27:13 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 16:15:29 GMT</lastBuildDate>
     <item>
-      <title>“欧洲”密码管理器与俄罗斯的令人不安的联系</title>
-      <link>https://www.lemonde.fr/en/pixels/article/2026/07/17/the-troubling-russian-connections-of-a-european-password-manager_6755564_13.html</link>
-      <description><![CDATA[文章网址： https://www.lemonde.fr/en/pixels/article/2026/07/17/the-troubling- Russian-connections-of-a-european-password-manager_6755564_13.html
-评论网址：https://news.ycombinator.com/item?id=48947063
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.lemonde.fr/en/pixels/article/2026/07/17/the-troubling-russian-connections-of-a-european-password-manager_6755564_13.html</guid>
-      <pubDate>Fri, 17 Jul 2026 13:17:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>市场状况（2026 年 7 月）</title>
-      <link>https://bilello.blog/2026/the-state-of-the-markets-july-2026</link>
-      <description><![CDATA[文章网址：https://bilello.blog/2026/the-state-of-the-markets-july-2026
-评论网址：https://news.ycombinator.com/item?id=48947031
-积分：1
-# 条评论：0]]></description>
-      <guid>https://bilello.blog/2026/the-state-of-the-markets-july-2026</guid>
-      <pubDate>Fri, 17 Jul 2026 13:13:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>国家抽奖：绘制国家</title>
-      <link>https://country-draw.vercel.app/</link>
-      <description><![CDATA[文章网址：https://country-draw.vercel.app/
-评论网址：https://news.ycombinator.com/item?id=48947017
-积分：1
-# 条评论：0]]></description>
-      <guid>https://country-draw.vercel.app/</guid>
-      <pubDate>Fri, 17 Jul 2026 13:12:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Typst-WASM – 在浏览器、Node 和无服务器运行时中编译 Typst</title>
-      <link>https://typst-wasm-playground-cloudflare.will-bradshaw50.workers.dev/</link>
-      <description><![CDATA[今天我发布了tyst-wasm和vite-plugin-typst的实验版本！这个项目的目标是提供一个实用的基于promise的API，用于在尽可能多的运行时使用wasm编译typst。该API在所有支持的运行时中都是一致的，并且与您在rust crate中看到的内容非常相似。它使您可以完全控制加载 wasm blob 的位置和方式，从而使您能够提供最佳的用户体验。在 wasm/无服务器环境（如 Cloudflare Workers 或 Vercel）中运行 Typst，您可以执行 SSR、轻松地将编译卸载到低带宽设备的服务器上，同时重用代码、在 AI 代理的沙箱中运行 Typst 等。这里是 API 示例：```
-等待编译器.addFonts(
-  readFile(新的URL(导入.meta.resolve(
-    “@typst-wasm/fonts/NewCMMath-Regular.otf”，
-  ））），
-);等待compiler.addSource(&quot;main.typ&quot;, &quot;= 来自typst-wasm的你好！&quot;);
-const 结果 = 等待编译器.compile({
-  主要：“主要.typ”，
-  格式：“svg”，
-});console.log(result.pages[0]?.output);
-``它与typst.ts 有什么不同？目标不同！ typst-wasm 旨在支持许多运行时并提供一致的 api，而不使用已弃用的 API。@typst-wasm/vite-plugin-typst我还发布了基于typst-wasm 构建的 vite-plugin-typst，以提供一种在 vite 应用程序中使用新 html 输出的简单方法！给你一些想法，这是基于 vite 的网站/博客中内容 Markdown 的一个很酷的替代方案！```
-importtypstDocument from &quot;./post.typ?typst=html&quot;;document.querySelector(&quot;#output&quot;)!.innerHTML =typstDocument.html;
-```供您查看的链接和示例！* GitHub：https://github.com/typst-wasm/typst-wasm* npm —typst-wasm：https://www.npmjs.com/package/typst-wasm，vite-plugin-typst：https://www.npmjs.com/package/@typst-wasm/vite-plugin-typst* 文档：https://typst-wasm.github.io/typst-wasm/* 示例博客：https://typst-wasm-blog.will-bradshaw50.workers.dev/
-    来源：https://github.com/typst-wasm/typst-wasm/tree/main/packages/...* 示例typst-wasm 游乐场，在cloudflare 工作人员上使用SSR 的tystst：https://typst-wasm-playground-cloudflare.will-bradshaw50.wor...
-    来源：https://github.com/typst-wasm/typst-wasm/tree/main/packages/...* 示例typst-wasm 游乐场，在vercel 上使用SSR 的tystst：https://example-typst-playground-vercel.vercel.app/
-    来源： https://github.com/typst-wasm/typst-wasm/tree/main/packages/...* 简单节点示例
-    来源： https://github.com/typst-wasm/typst-wasm/tree/main/packages/...* 我自己的网站：https://w.bradshaw.page/
-    来源：https://github.com/wra-bradshaw/personal-website
+      <title>Nordstjernen 网络浏览器版本 1.0.19 发布</title>
+      <link>https://news.ycombinator.com/item?id=48949052</link>
+      <description><![CDATA[Nordstjernen Web 浏览器 1.0.19一个用 C 从头开始编写的真正的 Web 浏览器。https://nordstjernen.org/release-1-0-19.htmlhttps://github.com/nordstjernen-web/nordstjernen/releases/tag/1.0.19
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=48947016
-积分：1
-# 条评论：0]]></description>
-      <guid>https://typst-wasm-playground-cloudflare.will-bradshaw50.workers.dev/</guid>
-      <pubDate>Fri, 17 Jul 2026 13:12:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>智能库存代理</title>
-      <link>https://smartstockagent.com</link>
-      <description><![CDATA[文章网址：https://smartstockagent.com
-评论网址：https://news.ycombinator.com/item?id=48946993
-积分：1
-# 条评论：0]]></description>
-      <guid>https://smartstockagent.com</guid>
-      <pubDate>Fri, 17 Jul 2026 13:10:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能辅助软件移植的可发现证据</title>
-      <link>https://williamcotton.com/articles/the-discoverable-evidence-of-ai-assisted-software-porting</link>
-      <description><![CDATA[文章网址：https://williamcotton.com/articles/the-discoverable-evidence-of-ai-assistance-software-porting
-评论网址：https://news.ycombinator.com/item?id=48946977
-积分：1
-# 条评论：0]]></description>
-      <guid>https://williamcotton.com/articles/the-discoverable-evidence-of-ai-assisted-software-porting</guid>
-      <pubDate>Fri, 17 Jul 2026 13:08:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>迷幻综合症：对游戏汇编代码的书本探索</title>
-      <link>https://psychedelia.homemade.systems/</link>
-      <description><![CDATA[文章网址：https://psychedelia.homemade.systems/
-评论网址：https://news.ycombinator.com/item?id=48946965
-积分：1
-# 条评论：0]]></description>
-      <guid>https://psychedelia.homemade.systems/</guid>
-      <pubDate>Fri, 17 Jul 2026 13:07:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Retok：Claude Code 和 Codex CLI 的代币效率分析器（零 deps）</title>
-      <link>https://github.com/d-date/retok</link>
-      <description><![CDATA[文章网址：https://github.com/d-date/retok
-评论网址：https://news.ycombinator.com/item?id=48946955
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/d-date/retok</guid>
-      <pubDate>Fri, 17 Jul 2026 13:07:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>NASA 不确定波音 Starliner 能否获得载人飞行认证</title>
-      <link>https://www.theregister.com/offbeat/2026/07/01/nasa-unsure-boeing-starliner-will-ever-be-certified-for-human-flight/5265177</link>
-      <description><![CDATA[文章网址： https://www.theregister.com/offbeat/2026/07/01/nasa-unsure-boeing-starliner-will-ever-be-certified-for- human-flight/5265177
-评论网址：https://news.ycombinator.com/item?id=48946937
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.theregister.com/offbeat/2026/07/01/nasa-unsure-boeing-starliner-will-ever-be-certified-for-human-flight/5265177</guid>
-      <pubDate>Fri, 17 Jul 2026 13:05:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Z 世代正在抵制人工智能——这提醒我们，未来是无法书写的</title>
-      <link>https://www.channelnewsasia.com/commentary/gen-z-pushback-against-ai-6258016</link>
-      <description><![CDATA[文章网址：https://www.channelnewsasia.com/commentary/gen-z-pushback-against-ai-6258016
-评论网址：https://news.ycombinator.com/item?id=48946910
+评论网址：https://news.ycombinator.com/item?id=48949052
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.channelnewsasia.com/commentary/gen-z-pushback-against-ai-6258016</guid>
-      <pubDate>Fri, 17 Jul 2026 13:03:04 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=48949052</guid>
+      <pubDate>Fri, 17 Jul 2026 16:13:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>下一级名片 5D</title>
+      <link>https://kmay89.com/</link>
+      <description><![CDATA[文章网址：https://kmay89.com/
+评论网址：https://news.ycombinator.com/item?id=48949049
+积分：1
+# 条评论：1]]></description>
+      <guid>https://kmay89.com/</guid>
+      <pubDate>Fri, 17 Jul 2026 16:13:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>智能手机侵蚀公共世界</title>
+      <link>https://www.thenewatlantis.com/publications/byung-chul-han-what-happened-to-freedom</link>
+      <description><![CDATA[文章网址：https://www.thenewatlantis.com/publications/byung-chul-han-what-happened-to-freedom
+评论网址：https://news.ycombinator.com/item?id=48949047
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.thenewatlantis.com/publications/byung-chul-han-what-happened-to-freedom</guid>
+      <pubDate>Fri, 17 Jul 2026 16:13:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>财务意识应该免费向所有人开放</title>
+      <link>https://cardneuro.com/</link>
+      <description><![CDATA[文章网址：https://cardneuro.com/
+评论网址：https://news.ycombinator.com/item?id=48949040
+积分：1
+# 条评论：0]]></description>
+      <guid>https://cardneuro.com/</guid>
+      <pubDate>Fri, 17 Jul 2026 16:12:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>我每周都使用 Spotlistr。然后播放列表创建开始消耗积分</title>
+      <link>https://yyyokel.com/spotlistr-credits-track-down-free-alternative/</link>
+      <description><![CDATA[文章网址：https://yyyokel.com/spotlistr-credits-track-down-free-alternative/
+评论网址：https://news.ycombinator.com/item?id=48949026
+积分：1
+# 条评论：0]]></description>
+      <guid>https://yyyokel.com/spotlistr-credits-track-down-free-alternative/</guid>
+      <pubDate>Fri, 17 Jul 2026 16:11:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nvidia 宣布扩大 Jetson Thor 产品阵容，推出中端 T3000、T2000 模块</title>
+      <link>https://www.servethehome.com/nvidia-announces-expanded-jetson-thor-lineup-with-mid-range-t3000-and-t2000-modules/</link>
+      <description><![CDATA[文章网址： https://www.servethehome.com/nvidia-announces-expanded-jetson-thor-lineup-with-mid-range-t3000-and-t2000-modules/
+评论网址：https://news.ycombinator.com/item?id=48949025
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.servethehome.com/nvidia-announces-expanded-jetson-thor-lineup-with-mid-range-t3000-and-t2000-modules/</guid>
+      <pubDate>Fri, 17 Jul 2026 16:11:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>问 HN：对于处理人工智能对开源的贡献，您有什么想法吗？</title>
+      <link>https://news.ycombinator.com/item?id=48949019</link>
+      <description><![CDATA[像 Ladybird 浏览器这样的项目完全禁止非维护者 PR [1]。我理解这一点，但不禁觉得它违背了现代开源的基本精神。Rust 的 Clippy 采用了更细致的审查-PRs-to-get-yours-reviewed 系统 [2]，这给我留下了深刻的印象，让我想到是否还有其他可能类似的“游戏化”方式来应对 LLM 风暴。还有 Vouch，正如之前在 HN 上讨论的那样。 [3][1] https://ladybird.org/posts/chang-how-we-develop-ladybird/[2] https://blog.rust-lang.org/inside-rust/2026/07/06/unite-for-clippy/[3] https://news.ycombinator.com/item?id=46930961你有想法或看过其他项目吗以不同的方式处理这个问题？您的项目情况如何？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=48949019
+积分：1
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=48949019</guid>
+      <pubDate>Fri, 17 Jul 2026 16:11:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>便携式人工智能存储器或永久锁定</title>
+      <link>https://stantyan.com/blog/portable-ai-memory-or-permanent-lock-in/</link>
+      <description><![CDATA[文章网址：https://stantyan.com/blog/portable-ai-memory-or-permanent-lock-in/
+评论网址：https://news.ycombinator.com/item?id=48949018
+积分：1
+# 条评论：0]]></description>
+      <guid>https://stantyan.com/blog/portable-ai-memory-or-permanent-lock-in/</guid>
+      <pubDate>Fri, 17 Jul 2026 16:11:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>中国刚刚消除了美国在人工智能方面的领先地位</title>
+      <link>https://www.axios.com/2026/07/17/china-ai-kimi-k3-open-source-anthropic-opus</link>
+      <description><![CDATA[文章网址：https://www.axios.com/2026/07/17/china-ai-kimi-k3-open-source-anthropic-opus
+评论网址：https://news.ycombinator.com/item?id=48949014
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.axios.com/2026/07/17/china-ai-kimi-k3-open-source-anthropic-opus</guid>
+      <pubDate>Fri, 17 Jul 2026 16:10:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>新泽西州启动新核电采购程序</title>
+      <link>https://world-nuclear-news.org/articles/new-jersey-launches-procurement-process-for-new-nuclear</link>
+      <description><![CDATA[文章网址：https://world-nuclear-news.org/articles/new-jersey-launches-procurement-process-for-new-nuclear
+评论网址：https://news.ycombinator.com/item?id=48949005
+积分：2
+# 条评论：0]]></description>
+      <guid>https://world-nuclear-news.org/articles/new-jersey-launches-procurement-process-for-new-nuclear</guid>
+      <pubDate>Fri, 17 Jul 2026 16:09:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
