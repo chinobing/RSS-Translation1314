@@ -4,105 +4,106 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 22 Jul 2026 19:17:37 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 02:41:25 GMT</lastBuildDate>
     <item>
-      <title>每个人都应该了解 SIMD</title>
-      <link>https://mitchellh.com/writing/everyone-should-know-simd</link>
-      <description><![CDATA[文章网址：https://mitchellh.com/writing/everyone-should-know-simd
-评论网址：https://news.ycombinator.com/item?id=49010648
-积分：15
-# 条评论：0]]></description>
-      <guid>https://mitchellh.com/writing/everyone-should-know-simd</guid>
-      <pubDate>Wed, 22 Jul 2026 17:48:18 GMT</pubDate>
+      <title>在家运行 BitTorrent 风格的大型语言模型</title>
+      <link>https://petals.dev/</link>
+      <description><![CDATA[文章网址：https://petals.dev/
+评论网址：https://news.ycombinator.com/item?id=49015735
+积分：20
+# 条评论：8]]></description>
+      <guid>https://petals.dev/</guid>
+      <pubDate>Thu, 23 Jul 2026 01:33:12 GMT</pubDate>
     </item>
     <item>
-      <title>陶哲轩关于雅可比猜想反例的 ChatGPT 对话</title>
-      <link>https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56</link>
-      <description><![CDATA[文章网址：https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56
-评论网址：https://news.ycombinator.com/item?id=49010345
-积分：223
-# 条评论：107]]></description>
-      <guid>https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56</guid>
-      <pubDate>Wed, 22 Jul 2026 17:30:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>GigaToken：语言模型标记化速度提高约 1000 倍</title>
-      <link>https://github.com/marcelroed/gigatoken/</link>
-      <description><![CDATA[文章网址：https://github.com/marcelroed/gigatoken/
-评论网址：https://news.ycombinator.com/item?id=49010167
-积分：126
-# 条评论：25]]></description>
-      <guid>https://github.com/marcelroed/gigatoken/</guid>
-      <pubDate>Wed, 22 Jul 2026 17:20:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI 实验室是 Pelicanmaxxing 吗？</title>
-      <link>https://dylancastillo.co/posts/pelicanmaxxing.html</link>
-      <description><![CDATA[文章网址：https://dylancastillo.co/posts/pelicanmaxxing.html
-评论网址：https://news.ycombinator.com/item?id=49010129
-积分：65
-# 条评论：20]]></description>
-      <guid>https://dylancastillo.co/posts/pelicanmaxxing.html</guid>
-      <pubDate>Wed, 22 Jul 2026 17:17:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：纽约市中心的网络摇摆</title>
-      <link>https://www.swingnyc.com/</link>
-      <description><![CDATA[文章网址：https://www.swingnyc.com/
-评论网址：https://news.ycombinator.com/item?id=49009324
-积分：38
-# 条评论：15]]></description>
-      <guid>https://www.swingnyc.com/</guid>
-      <pubDate>Wed, 22 Jul 2026 16:25:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>启动 HN：Unlayer (YC W22) – 将电子邮件和文档生成器添加到您的应用程序</title>
-      <link>https://unlayer.com</link>
-      <description><![CDATA[]]></description>
-      <guid>https://unlayer.com</guid>
-      <pubDate>Wed, 22 Jul 2026 16:02:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>MUD 可以评估 LLM 吗？ 99 美元的概念验证</title>
-      <link>https://cruciblebench.ai/</link>
-      <description><![CDATA[我和我的朋友们好奇 MUD（起源于 20 世纪 70 年代的文字游戏）是否可以用来评估法学硕士，因此我写了一篇论文。在过去的几个月里，我们在晚上和周末运行这个实验，并仅在我们的个人电脑上用大约 99 美元的 API 学分写论文。我们的实验确实有一个有趣的排行榜，但更令人惊讶的是每个法学硕士的测量结果。我们在四个行为维度上对每个维度进行评分，其中两个维度严重依赖于法学硕士分类器。当我们删除这两个模型时，其中一款前沿模型的排名下降了六位。然后，当我们与第二位法官检查分类器时，他们之间的每个模型一致性在 85% 到 22% 之间。聚合 kappa（探头检测为 0.04）表明仪器有噪音，但没有说明噪音影响了哪些模型。受影响最大的模型与分类器共享一个模型系列。这不是偏见的证明，只是我们记录的一项观察结果。我们意识到 LLM 法官可能不可靠，虽然这不是我们测试这一点的初衷，但它最终成为最有趣的发现。两位法官之间的分歧是我们认为可以推广到其他基于法官的基准的发现。我们强调这只是概念证明，而不是经过验证的基准。我们在论文中准备了彻底的限制部分，包括每个模型仅运行 50 次、顶级模型之间重叠 CI、没有人类评估者、微小的环境等。我们所做的一切都是公开的，论文和数据是 CC BY 4.0，而代码是 MIT。论文、成绩单、代码和完整的 API 计费导出可以在 https://doi.org/10.5281/zenodo.21386663如果您发现问题，请告诉我们，这就是我们分享此内容的原因。我们目前正在设计第二阶段，并希望它尽可能强大。我们正在考虑人类基线、多个法官、更多目标、更大的环境等等。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49008538
-积分：55
-# 条评论：28]]></description>
-      <guid>https://cruciblebench.ai/</guid>
-      <pubDate>Wed, 22 Jul 2026 15:39:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>制作</title>
-      <link>https://beej.us/blog/data/ai-making/</link>
-      <description><![CDATA[文章网址：https://beej.us/blog/data/ai-making/
-评论网址：https://news.ycombinator.com/item?id=49008440
-积分：168
+      <title>Codeberg 禁止加密货币项目</title>
+      <link>https://codeberg.org/Codeberg/org/pulls/1254</link>
+      <description><![CDATA[文章网址：https://codeberg.org/Codeberg/org/pulls/1254
+评论网址：https://news.ycombinator.com/item?id=49015588
+积分：85
 # 条评论：66]]></description>
-      <guid>https://beej.us/blog/data/ai-making/</guid>
-      <pubDate>Wed, 22 Jul 2026 15:33:48 GMT</pubDate>
+      <guid>https://codeberg.org/Codeberg/org/pulls/1254</guid>
+      <pubDate>Thu, 23 Jul 2026 01:06:56 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：HN 名人堂 – 浏览 3,100 个传奇黑客新闻链接</title>
-      <link>https://www.orangecrumbs.com/hall/</link>
-      <description><![CDATA[文章网址：https://www.orangecrumbs.com/hall/
-评论网址：https://news.ycombinator.com/item?id=49008406
-积分：145
-# 条评论：32]]></description>
-      <guid>https://www.orangecrumbs.com/hall/</guid>
-      <pubDate>Wed, 22 Jul 2026 15:30:36 GMT</pubDate>
+      <title>儿童与 LLM 聊天机器人互动中的拟人化</title>
+      <link>https://arxiv.org/abs/2607.18250</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2607.18250
+评论网址：https://news.ycombinator.com/item?id=49014537
+积分：26
+# 条评论：19]]></description>
+      <guid>https://arxiv.org/abs/2607.18250</guid>
+      <pubDate>Wed, 22 Jul 2026 22:49:58 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN: Bento - 一个 HTML 文件中的整个 PowerPoint（编辑+查看+数据+协作）</title>
-      <link>https://bento.page/slides/</link>
-      <description><![CDATA[在过去的几个月里，我们的团队一直在使用 Web 前端技术和 Claude Code 等编码工具构建越来越多的幻灯片，但一个常见的抱怨是，即使是很小的编辑，我们也需要手动或通过工具来编辑代码。为了避免这种循环，我最终创建了 Bento，这是一个单一的 HTML 文件，其中包含幻灯片工具中所需的一切，包括动画和共享编辑。无需安装或云登录，一切都可以离线工作。默认的牌组约为 560 KB，一旦获得它就不需要获取任何内容。在浏览器中打开它，然后您可以编辑、呈现、打印和保存。通过电子邮件或空投分享，他们所需要的只是一个浏览器来编辑、演示以及在幻灯片上进行实时协作。将其放入 Claude 或 ChatGPT，将现有 pptx 文件转换为 Bento 幻灯片。不涉及云，只有加密的盲中继以允许共享编辑。中继看不到任何数据。请访问 https://bento.page/slides/ 查看，它会将您直接带到编辑器。转到 https://bento.page/guestbook/ 尝试实时留言簿以体验分享编辑/协作。网站上还有一个包含一些示例平台的画廊 - https://bento.page/所有代码均已获得 MIT 许可，您可以在这里找到它 - https://github.com/nyblnet/bento 。我将 Reveal.js 与其他几个库（包括一些自行开发的库）和 Claude Code 一起使用。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49008211
-积分：430
-评论数量：93]]></description>
-      <guid>https://bento.page/slides/</guid>
-      <pubDate>Wed, 22 Jul 2026 15:19:23 GMT</pubDate>
+      <title>美第奇家族400多年之谜或将解开</title>
+      <link>https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria</link>
+      <description><![CDATA[文章网址：https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria
+评论网址：https://news.ycombinator.com/item?id=49014007
+积分：81
+# 条评论：20]]></description>
+      <guid>https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria</guid>
+      <pubDate>Wed, 22 Jul 2026 21:55:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>任何文本到 SQL 基准测试都应该解决现实世界数据存储的困难</title>
+      <link>https://cacm.acm.org/blogcacm/if-you-think-you-can-do-real-world-text-to-sql/</link>
+      <description><![CDATA[文章网址：https://cacm.acm.org/blogcacm/if-you-think-you-can-do-real-world-text-to-sql/
+评论网址：https://news.ycombinator.com/item?id=49013995
+积分：34
+评论数量：9]]></description>
+      <guid>https://cacm.acm.org/blogcacm/if-you-think-you-can-do-real-world-text-to-sql/</guid>
+      <pubDate>Wed, 22 Jul 2026 21:54:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Christopher Alexander 的《模式语言》中总结的全部 253 种模式</title>
+      <link>https://claytondorge.com/patterns-list</link>
+      <description><![CDATA[文章网址：https://claytondorge.com/patterns-list
+评论网址：https://news.ycombinator.com/item?id=49013924
+积分：28
+# 条评论：2]]></description>
+      <guid>https://claytondorge.com/patterns-list</guid>
+      <pubDate>Wed, 22 Jul 2026 21:48:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>可塑计算、Emacs 和你</title>
+      <link>http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html</link>
+      <description><![CDATA[文章网址：http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html
+评论网址：https://news.ycombinator.com/item?id=49013538
+积分：71
+# 条评论：18]]></description>
+      <guid>http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html</guid>
+      <pubDate>Wed, 22 Jul 2026 21:15:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Safari 技术预览版 248 发布</title>
+      <link>https://webkit.org/blog/18162/release-notes-for-safari-technology-preview-248/</link>
+      <description><![CDATA[文章网址：https://webkit.org/blog/18162/release-notes-for-safari-technology-preview-248/
+评论网址：https://news.ycombinator.com/item?id=49013356
+积分：79
+# 条评论：45]]></description>
+      <guid>https://webkit.org/blog/18162/release-notes-for-safari-technology-preview-248/</guid>
+      <pubDate>Wed, 22 Jul 2026 21:00:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>我检查了我的带回家的面试项目。这是一次完整的手术</title>
+      <link>https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/</link>
+      <description><![CDATA[文章网址：https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/
+评论网址：https://news.ycombinator.com/item?id=49013036
+积分：282
+评论数量：75]]></description>
+      <guid>https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/</guid>
+      <pubDate>Wed, 22 Jul 2026 20:33:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fairphone 6 广角摄像头实验 Linux 支持</title>
+      <link>https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/</link>
+      <description><![CDATA[文章网址：https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/
+评论网址：https://news.ycombinator.com/item?id=49012777
+积分：74
+# 条评论：6]]></description>
+      <guid>https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/</guid>
+      <pubDate>Wed, 22 Jul 2026 20:16:01 GMT</pubDate>
     </item>
     </channel>
 </rss>
