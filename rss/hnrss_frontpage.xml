@@ -4,46 +4,56 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 24 Jul 2026 02:36:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 05:50:05 GMT</lastBuildDate>
     <item>
-      <title>警方将著名科学家从 ADA 会议中除名。研究人员回应</title>
-      <link>https://www.the-scientist.com/police-removed-prominent-scientists-from-the-ada-meeting-researchers-respond-74607</link>
-      <description><![CDATA[文章网址：https://www.the-scientist.com/police-removed-prominent-scientists-from-the-ada-meeting-researchers-respond-74607
-评论网址：https://news.ycombinator.com/item?id=49030474
-积分：9
-# 条评论：0]]></description>
-      <guid>https://www.the-scientist.com/police-removed-prominent-scientists-from-the-ada-meeting-researchers-respond-74607</guid>
-      <pubDate>Fri, 24 Jul 2026 02:06:31 GMT</pubDate>
+      <title>Zitron：次贷数据中心危机</title>
+      <link>https://www.wheresyoured.at/the-subprime-data-center-crisis/</link>
+      <description><![CDATA[文章网址：https://www.wheresyoured.at/the-subprime-data-center-crisis/
+评论网址：https://news.ycombinator.com/item?id=49031262
+积分：13
+# 条评论：5]]></description>
+      <guid>https://www.wheresyoured.at/the-subprime-data-center-crisis/</guid>
+      <pubDate>Fri, 24 Jul 2026 04:34:50 GMT</pubDate>
     </item>
     <item>
       <title>视觉6502</title>
       <link>http://visual6502.org/JSSim/index.html</link>
       <description><![CDATA[文章网址：http://visual6502.org/JSSim/index.html
 评论网址：https://news.ycombinator.com/item?id=49029538
-积分：54
-# 条评论：15]]></description>
+积分：77
+# 条评论：20]]></description>
       <guid>http://visual6502.org/JSSim/index.html</guid>
       <pubDate>Thu, 23 Jul 2026 23:36:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>涉及人工智能的全杀未来的分类（2025）</title>
-      <link>https://arxiv.org/abs/2507.09369</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2507.09369
-评论网址：https://news.ycombinator.com/item?id=49029133
-积分：55
-# 条评论：44]]></description>
-      <guid>https://arxiv.org/abs/2507.09369</guid>
-      <pubDate>Thu, 23 Jul 2026 22:51:13 GMT</pubDate>
     </item>
     <item>
       <title>98.CSS</title>
       <link>https://jdan.github.io/98.css/#status-bar</link>
       <description><![CDATA[文章网址：https://jdan.github.io/98.css/#status-bar
 评论网址：https://news.ycombinator.com/item?id=49028927
-积分：257
-# 条评论：56]]></description>
+积分：379
+评论数：86]]></description>
       <guid>https://jdan.github.io/98.css/#status-bar</guid>
       <pubDate>Thu, 23 Jul 2026 22:30:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>夫妇为女儿支付超过 80 万美元的基因编辑治疗费用。她死了。</title>
+      <link>https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public</link>
+      <description><![CDATA[文章网址：https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-Trial-was-never-made-public
+评论网址：https://news.ycombinator.com/item?id=49027892
+积分：293
+# 条评论：171]]></description>
+      <guid>https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public</guid>
+      <pubDate>Thu, 23 Jul 2026 20:52:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>哀悼丹·威廉姆斯</title>
+      <link>https://lwn.net/Articles/1084545/</link>
+      <description><![CDATA[文章网址：https://lwn.net/Articles/1084545/
+评论网址：https://news.ycombinator.com/item?id=49027052
+积分：51
+# 条评论：1]]></description>
+      <guid>https://lwn.net/Articles/1084545/</guid>
+      <pubDate>Thu, 23 Jul 2026 19:46:28 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：Echo – 使用开放权重模型以 1/3 成本获得寓言级结果</title>
@@ -51,8 +61,8 @@
       <description><![CDATA[我一直在构建 Echo (https://echo.tracerml.ai/)，这是一项从开放权重模型池中构建一个人工智能系统的实验，而不是选择单个模型并将其用于每项任务。它从一个简单的实验开始。我选取了一组模型，包括 GLM-5.2、Kimi K2.7 等，并对它们进行相同的评估。然后，我测量了如果对于每个问题，您以某种方式提前知道哪些模型有用以及它们的输出应如何组合，会发生什么。该假设系统的性能比池中的任何单个模型都要好。当然，这不是您可以实际部署的东西，因为它依赖于在看到结果后知道哪些决策是好的。 Echo 是我在没有提前获得这些信息的情况下恢复部分优势的尝试。对于每个请求，Echo 决定分配多少计算量、哪些模型应该参与以及如何组合它们的工作。有些提示可能只需要相对少量的推理，而其他提示则受益于解决问题不同部分的多个模型。在构建它时令我惊讶的一件事是模型的互补性。整体上明显较弱的模型在解决特定问题或作为组合的一部分时仍然非常有用。在我的第一次评估组合中，Echo 的表现始终优于其池中最好的单个模型。它也达到了与《Fable》大致相同的总体结果，我将其用作更强的比较系统之一，推理成本约为三分之一。在某些情况下，Echo 仍然会做出错误的分配或组合决策。我目前花费了大量时间来理解这些失败，并测试相同的方法是否适用于编码和代理任务，在这些任务中衡量每个决策的质量变得更加困难。我构建了一个聊天界面 (echo.tracerml.ai) 和一个 OpenAI 兼容 API (https://echo.tracerml.ai/docs/api)，以便测试系统这里有一个简短/高级的视频，介绍其工作原理：https://www.youtube.com/watch?v=lJFJSvOdXhg我在此处编写了评估方法、各个模型结果、成本和当前限制：https://echo.tracerml.ai/eval我很乐意让您尝试一下！特别是当您遇到任何奇怪的失败案例或分配看起来不直观的地方时。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=49026810
-积分：251
-# 条评论：120]]></description>
+积分：303
+评论数：148]]></description>
       <guid>https://news.ycombinator.com/item?id=49026810</guid>
       <pubDate>Thu, 23 Jul 2026 19:26:01 GMT</pubDate>
     </item>
@@ -61,8 +71,8 @@
       <link>https://lukekanies.com/writing/building-on-atproto/</link>
       <description><![CDATA[文章网址：https://lukekanies.com/writing/building-on-atproto/
 评论网址：https://news.ycombinator.com/item?id=49025984
-积分：132
-# 条评论：59]]></description>
+积分：145
+# 条评论：69]]></description>
       <guid>https://lukekanies.com/writing/building-on-atproto/</guid>
       <pubDate>Thu, 23 Jul 2026 18:23:50 GMT</pubDate>
     </item>
@@ -71,40 +81,30 @@
       <link>https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements</link>
       <description><![CDATA[文章网址：https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements
 评论网址：https://news.ycombinator.com/item?id=49025831
-积分：74
-# 条评论：18]]></description>
+积分：81
+# 条评论：23]]></description>
       <guid>https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements</guid>
       <pubDate>Thu, 23 Jul 2026 18:13:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么索尼不能恢复其经典的 Walkman 型号</title>
+      <link>https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman</link>
+      <description><![CDATA[文章网址：https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman
+评论网址：https://news.ycombinator.com/item?id=49025766
+积分：64
+# 条评论：56]]></description>
+      <guid>https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman</guid>
+      <pubDate>Thu, 23 Jul 2026 18:08:29 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：Claude-thermos 让您的 Claude 疗程保持温暖</title>
       <link>https://github.com/izeigerman/claude-thermos</link>
       <description><![CDATA[文章网址：https://github.com/izeigerman/claude-thermos
 评论网址：https://news.ycombinator.com/item?id=49024882
-积分：76
-# 条评论：67]]></description>
+积分：92
+# 条评论：76]]></description>
       <guid>https://github.com/izeigerman/claude-thermos</guid>
       <pubDate>Thu, 23 Jul 2026 17:06:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>TheNumbers.com 发生了什么</title>
-      <link>https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all</link>
-      <description><![CDATA[文章网址：https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all
-评论网址：https://news.ycombinator.com/item?id=49024691
-积分：302
-# 条评论：129]]></description>
-      <guid>https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all</guid>
-      <pubDate>Thu, 23 Jul 2026 16:53:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>反对开源人工智能的论据很糟糕</title>
-      <link>https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/</link>
-      <description><![CDATA[文章网址：https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/
-评论网址：https://news.ycombinator.com/item?id=49024643
-积分：210
-# 条评论：149]]></description>
-      <guid>https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/</guid>
-      <pubDate>Thu, 23 Jul 2026 16:49:57 GMT</pubDate>
     </item>
     </channel>
 </rss>
