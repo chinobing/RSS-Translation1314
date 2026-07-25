@@ -4,111 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 25 Jul 2026 08:05:50 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 10:26:55 GMT</lastBuildDate>
     <item>
-      <title>显示 HN：SEO 技能 – 您的 AI 代理需要的唯一 SEO 技能</title>
-      <link>https://github.com/iannuttall/seo</link>
-      <description><![CDATA[SEO 技能是一种本地优先的 CLI 和代理技能，可用于抓取网站、审核技术 SEO 以及使用您自己的 Search Console 和 Google Analytics 数据。它还处理关键字研究、竞争对手研究、反向链接、变更监控以及人工智能搜索和代理准备情况的技术检查。只有一项技能，因为用 50 多种技能填充我的上下文来进行 SEO 是行不通的。该技能是一个路由器，可让您的代理逐步发现正确的报告，了解如何使用它，然后运行它。这同样适用于 MCP 服务器。它为兼容代理提供了三种工具：列出报告、描述报告和运行报告。 MCP 和 CLI 都使用相同的核心报告。Google OAuth 有一个指导设置，可以让您轻松开始使用 Search Console 和 Analytics 数据。您也可以使用自己的 Google 服务帐户。最快的尝试方法是：```
-npm i-g seo
-```然后运行：```
-搜索引擎优化开始
-``大多数报告仅限本地，您的报告、令牌、提供商凭据和缓存都保留在您的计算机上。当您连接 Search Console、Google Analytics、Ahrefs、Semrush 或 DataForSEO 时，CLI 会直接调用这些服务。他们接收每个请求所需的域名、关键字和参数。您可以通过运行“seo auth logout”和“seo Reset”来删除所有本地数据，以完全擦除本地 Google 令牌、保存的凭据、项目配置文件、报告、缓存、历史记录和日志。您还可以通过 https://myaccount.google.com/permissions 撤销该应用。我已尽力保持数据和证据的真实性，以便代理不太可能对可能不完整、缺失或误解的数据采取行动。该项目是 Apache-2.0：https://github.com/iannuttall/seo站点和文档：https://seoskill.dev我已经在 30 多个网站上进行了测试，但 SEO 有大量的数据源，甚至还有更多方法可以让丢失的数据看起来确定，所以现在还为时过早，我现在分享它是为了发现粗糙的边缘、它所显示的数据存在的问题，或者它尚未实现的集成（如 Fathom 或 Clicky 分析）。如果您在真实网站上使用编码代理，我想知道它仍然在哪里阻碍您。单一技能界面有意义吗？主要报告是否为您指明了正确的下一步？哪里的设置仍然感觉粗糙？第一次 HN 帖子！对我宽容一点...
+      <title>我给了 Pi 一个工具</title>
+      <link>https://monotykamary.com/posts/i-gave-pi-one-tool/</link>
+      <description><![CDATA[文章网址：https://monotykamary.com/posts/i-gave-pi-one-tool/
+评论网址：https://news.ycombinator.com/item?id=49046336
+积分：1
+# 条评论：0]]></description>
+      <guid>https://monotykamary.com/posts/i-gave-pi-one-tool/</guid>
+      <pubDate>Sat, 25 Jul 2026 10:25:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>按调用计费，而不是按时间计费</title>
+      <link>https://monotykamary.com/posts/bill-the-invocation-not-the-hour/</link>
+      <description><![CDATA[文章网址：https://monotykamary.com/posts/bill-the-inspiration-not-the-hour/
+评论网址：https://news.ycombinator.com/item?id=49046332
+积分：1
+# 条评论：0]]></description>
+      <guid>https://monotykamary.com/posts/bill-the-invocation-not-the-hour/</guid>
+      <pubDate>Sat, 25 Jul 2026 10:24:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>如果你相信的话，这不是谎言：法学硕士捍卫他们最流畅的记忆</title>
+      <link>https://shubhamg.bearblog.dev/llms-defend-fluent-memory/</link>
+      <description><![CDATA[文章网址：https://shubhamg.bearblog.dev/llms-defend- Fluent-memory/
+评论网址：https://news.ycombinator.com/item?id=49046319
+积分：1
+# 条评论：0]]></description>
+      <guid>https://shubhamg.bearblog.dev/llms-defend-fluent-memory/</guid>
+      <pubDate>Sat, 25 Jul 2026 10:23:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Eewoc：用于攀爬的长距离增强轮式球体</title>
+      <link>https://www.youtube.com/watch?v=usxON_JnEmw</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=usxON_JnEmw
+评论网址：https://news.ycombinator.com/item?id=49046317
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youtube.com/watch?v=usxON_JnEmw</guid>
+      <pubDate>Sat, 25 Jul 2026 10:22:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>有人知道如何在内核级别保护法学硕士吗？</title>
+      <link>https://news.ycombinator.com/item?id=49046312</link>
+      <description><![CDATA[有人知道如何在内核级别保护 LLms 吗？
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49045496
+评论网址：https://news.ycombinator.com/item?id=49046312
 积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/iannuttall/seo</guid>
-      <pubDate>Sat, 25 Jul 2026 07:59:34 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://news.ycombinator.com/item?id=49046312</guid>
+      <pubDate>Sat, 25 Jul 2026 10:21:12 GMT</pubDate>
     </item>
     <item>
-      <title>当观念变得太多而黑曜石还不够时</title>
-      <link>https://rizz.dev/blog/guides/notion-versus-obsidian</link>
-      <description><![CDATA[文章网址：https://rizz.dev/blog/guides/notion-versus-obsidian
-评论网址：https://news.ycombinator.com/item?id=49045489
+      <title>芬兰解决可再生能源难题的办法：最大的沙电池</title>
+      <link>https://www.cnbc.com/2026/07/25/finland-sand-battery-renewable-energy-storage.html</link>
+      <description><![CDATA[文章网址：https://www.cnbc.com/2026/07/25/finland-sand-battery-renewable-energy-storage.html
+评论网址：https://news.ycombinator.com/item?id=49046310
 积分：1
 # 条评论：0]]></description>
-      <guid>https://rizz.dev/blog/guides/notion-versus-obsidian</guid>
-      <pubDate>Sat, 25 Jul 2026 07:58:37 GMT</pubDate>
+      <guid>https://www.cnbc.com/2026/07/25/finland-sand-battery-renewable-energy-storage.html</guid>
+      <pubDate>Sat, 25 Jul 2026 10:20:53 GMT</pubDate>
     </item>
     <item>
-      <title>观察 Go 的新垃圾收集器在堆中移动</title>
-      <link>https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html</link>
-      <description><![CDATA[文章网址：https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html
-评论网址：https://news.ycombinator.com/item?id=49045474
-积分：1
+      <title>德国要求身份证件来阻止信息自由</title>
+      <link>https://www.heise.de/en/news/Dobrindt-ID-requirement-to-halt-freedom-of-information-11376646.html</link>
+      <description><![CDATA[文章网址：https://www.heise.de/en/news/Dobrindt-ID-requirement-to-halt-freedom-of-information-11376646.html
+评论网址：https://news.ycombinator.com/item?id=49046303
+积分：2
 # 条评论：0]]></description>
-      <guid>https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html</guid>
-      <pubDate>Sat, 25 Jul 2026 07:55:19 GMT</pubDate>
+      <guid>https://www.heise.de/en/news/Dobrindt-ID-requirement-to-halt-freedom-of-information-11376646.html</guid>
+      <pubDate>Sat, 25 Jul 2026 10:19:17 GMT</pubDate>
     </item>
     <item>
-      <title>逃离沙盒</title>
-      <link>https://netwars.pelicancrossing.net/2026/07/24/escaping-the-sandbox/</link>
-      <description><![CDATA[文章网址：https://netwars.pelicancrossing.net/2026/07/24/escaping-the-sandbox/
-评论网址：https://news.ycombinator.com/item?id=49045462
+      <title>Sandbox-bwrap-Nix：用于 AI 代理和实验的轻量级沙箱</title>
+      <link>https://grigio.org/sandbox-bwrap-nix-a-lightweight-sandbox-for-ai-agents-and-experiments/</link>
+      <description><![CDATA[文章网址：https://grigio.org/sandbox-bwrap-nix-a-lightweight-sandbox-for-ai-agents-and-experiments/
+评论网址：https://news.ycombinator.com/item?id=49046290
 积分：1
 # 条评论：0]]></description>
-      <guid>https://netwars.pelicancrossing.net/2026/07/24/escaping-the-sandbox/</guid>
-      <pubDate>Sat, 25 Jul 2026 07:52:59 GMT</pubDate>
+      <guid>https://grigio.org/sandbox-bwrap-nix-a-lightweight-sandbox-for-ai-agents-and-experiments/</guid>
+      <pubDate>Sat, 25 Jul 2026 10:17:13 GMT</pubDate>
     </item>
     <item>
-      <title>美国能源部启动首个容错量子计算机计划</title>
-      <link>https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first</link>
-      <description><![CDATA[文章网址：https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first
-评论网址：https://news.ycombinator.com/item?id=49045451
+      <title>MCP Clock：适用于 Claude、Codex、任何 MCP 客户端的实时公共托管工具</title>
+      <link>https://github.com/firasd/mcpclock</link>
+      <description><![CDATA[文章网址：https://github.com/firasd/mcpclock
+评论网址：https://news.ycombinator.com/item?id=49046289
 积分：1
-# 条评论：0]]></description>
-      <guid>https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first</guid>
-      <pubDate>Sat, 25 Jul 2026 07:51:39 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://github.com/firasd/mcpclock</guid>
+      <pubDate>Sat, 25 Jul 2026 10:17:12 GMT</pubDate>
     </item>
     <item>
-      <title>为什么 Sodaslim 成为流行的健康饮料</title>
-      <link>https://finance.yahoo.com/healthcare/articles/sodaslim-releases-updated-2026-highlights-122400710.html</link>
-      <description><![CDATA[文章网址：https://finance.yahoo.com/healthcare/articles/sodaslim-releases-updated-2026-highlights-122400710.html
-评论网址：https://news.ycombinator.com/item?id=49045449
+      <title>我感染了恶意软件（出于好奇）</title>
+      <link>https://gist.github.com/fordnox/d8574b7ccacf8950b241f3ae22d967af</link>
+      <description><![CDATA[文章网址：https://gist.github.com/fordnox/d8574b7ccacf8950b241f3ae22d967af
+评论网址：https://news.ycombinator.com/item?id=49046285
 积分：1
-# 条评论：0]]></description>
-      <guid>https://finance.yahoo.com/healthcare/articles/sodaslim-releases-updated-2026-highlights-122400710.html</guid>
-      <pubDate>Sat, 25 Jul 2026 07:51:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>MouthPad：舌头控制的触摸板</title>
-      <link>https://www.augmental.tech/</link>
-      <description><![CDATA[文章网址：https://www.augmental.tech/
-评论网址：https://news.ycombinator.com/item?id=49045446
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.augmental.tech/</guid>
-      <pubDate>Sat, 25 Jul 2026 07:51:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>赖特部长宣布首个人工智能“创世任务”项目</title>
-      <link>https://www.energy.gov/articles/secretary-energy-chris-wright-announces-first-genesis-mission-projects-selected-accelerate</link>
-      <description><![CDATA[文章网址：https://www.energy.gov/articles/secretary-energy-chris-wright-announces-first-genesis-mission-projects-selected-accelerate
-评论网址：https://news.ycombinator.com/item?id=49045445
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.energy.gov/articles/secretary-energy-chris-wright-announces-first-genesis-mission-projects-selected-accelerate</guid>
-      <pubDate>Sat, 25 Jul 2026 07:50:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>在人工智能资本支出的祭坛上，谷歌正在牺牲金鹅</title>
-      <link>https://twitter.com/i/status/2080229375773941871</link>
-      <description><![CDATA[文章网址：https://twitter.com/i/status/2080229375773941871
-评论网址：https://news.ycombinator.com/item?id=49045443
-积分：1
-# 条评论：0]]></description>
-      <guid>https://twitter.com/i/status/2080229375773941871</guid>
-      <pubDate>Sat, 25 Jul 2026 07:49:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>另一半如何诈骗</title>
-      <link>https://netwars.pelicancrossing.net/2026/07/17/how-the-other-half-scams/</link>
-      <description><![CDATA[文章网址：https://netwars.pelicancrossing.net/2026/07/17/how-the-other-half-scams/
-评论网址：https://news.ycombinator.com/item?id=49045439
-积分：1
-# 条评论：0]]></description>
-      <guid>https://netwars.pelicancrossing.net/2026/07/17/how-the-other-half-scams/</guid>
-      <pubDate>Sat, 25 Jul 2026 07:49:12 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://gist.github.com/fordnox/d8574b7ccacf8950b241f3ae22d967af</guid>
+      <pubDate>Sat, 25 Jul 2026 10:16:55 GMT</pubDate>
     </item>
     </channel>
 </rss>
