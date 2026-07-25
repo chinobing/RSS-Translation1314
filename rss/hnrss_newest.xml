@@ -4,107 +4,114 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 25 Jul 2026 19:06:44 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 21:55:37 GMT</lastBuildDate>
     <item>
-      <title>一种让编码代理更有效的奇怪的 Git 技巧</title>
-      <link>https://www.effect.website/blog/the-one-weird-git-trick-that-makes-coding-agents-more-effect-ive</link>
-      <description><![CDATA[文章网址：https://www.effect.website/blog/the-one-weird-git-trick-that-makes-coding-agents-more-effect-ive
-评论网址：https://news.ycombinator.com/item?id=49050471
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.effect.website/blog/the-one-weird-git-trick-that-makes-coding-agents-more-effect-ive</guid>
-      <pubDate>Sat, 25 Jul 2026 18:55:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>蒂博不是你的救世主</title>
-      <link>https://github.com/zeuzmakessoftware/tinys</link>
-      <description><![CDATA[文章网址：https://github.com/zeuzmakessoftware/tinys
-评论网址：https://news.ycombinator.com/item?id=49050445
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/zeuzmakessoftware/tinys</guid>
-      <pubDate>Sat, 25 Jul 2026 18:51:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>我为 Rust 构建了 Kubernetes。一个命令即可将二进制文件部署到每台服务器</title>
-      <link>https://github.com/Emran-goat/sortie</link>
-      <description><![CDATA[文章网址：https://github.com/Emran-goat/sortie
-评论网址：https://news.ycombinator.com/item?id=49050420
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/Emran-goat/sortie</guid>
-      <pubDate>Sat, 25 Jul 2026 18:49:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能可以吗？做好你的工作吗？我们对代理商进行测试</title>
-      <link>https://www.nytimes.com/interactive/2026/07/23/technology/ai-agents-office-jobs.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/interactive/2026/07/23/technology/ai-agents-office-jobs.html
-评论网址：https://news.ycombinator.com/item?id=49050369
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.nytimes.com/interactive/2026/07/23/technology/ai-agents-office-jobs.html</guid>
-      <pubDate>Sat, 25 Jul 2026 18:42:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>法学硕士持续学习的现状如何？</title>
-      <link>https://news.ycombinator.com/item?id=49050360</link>
-      <description><![CDATA[我相信如果这个问题得到解决，agi 就非常接近了。所以我想知道它是否可以解决
+      <title>我构建了一个新的 PoW 协议并观察到了一个令人惊讶的早期解决方案</title>
+      <link>https://news.ycombinator.com/item?id=49051915</link>
+      <description><![CDATA[我最近部署了一个名为 Shardash 的实验性工作量证明协议。这个想法很简单：矿工们通过寻找具有所需后缀模式的哈希值进行竞争，并根据匹配的十六进制数字的数量来衡量奖励。测试期间发生了一些意外情况。在提交失败的索赔和成功的索赔之前从未与协议进行过交互的钱包。成功的解决方案是第 10 层（大约是 16^10 事件中的 1），随机数值为 18。有趣的部分是时间：- 失败的索赔使用随机数 17，但被拒绝，因为该轮已经过期。
+- 失败的索赔是在回合开始后 300 秒提交的，尽管提交窗口只有 12 秒。
+- 下一个声明使用随机数 18 并成功。
+- 成功的索赔是在该轮开始后 480 秒（42 个以太坊区块之后）提交的，即提交失败后大约 180 秒。乍一看，这看起来很奇怪，因为如果仅测试较小的顺序搜索范围，满足第 10 层目标的非常低的随机数是极不可能的。经过调查，更可能的解释是：- 矿工使用了自定义实现而不是参考矿工，
+- 矿工能够进行预先计算，因为挑战在回合开始之前就可用（提交期开始前有额外的 12 秒窗口），
+- 或者这只是一个罕见的概率事件。Shardhash 合约：
+https://etherscan.io/address/0x295121422b9d0fd3cbddc9e203ae9b4a1eff0082
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49050360
+评论网址：https://news.ycombinator.com/item?id=49051915
 积分：2
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=49050360</guid>
-      <pubDate>Sat, 25 Jul 2026 18:41:27 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=49051915</guid>
+      <pubDate>Sat, 25 Jul 2026 21:45:22 GMT</pubDate>
     </item>
     <item>
-      <title>1,500 位 Curl 作者</title>
-      <link>https://daniel.haxx.se/blog/2026/07/25/1500-curl-authors/</link>
-      <description><![CDATA[文章网址：https://daniel.haxx.se/blog/2026/07/25/1500-curl-authors/
-评论网址：https://news.ycombinator.com/item?id=49050341
-积分：2
-# 条评论：0]]></description>
-      <guid>https://daniel.haxx.se/blog/2026/07/25/1500-curl-authors/</guid>
-      <pubDate>Sat, 25 Jul 2026 18:39:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>一名青少年记者在爱泼斯坦档案中寻找他的社区。成年人吓坏了</title>
-      <link>https://www.wired.com/story/epstein-files-redwood-bark-school-newspaper/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/epstein-files-redwood-bark-school-newspaper/
-评论网址：https://news.ycombinator.com/item?id=49050316
-积分：5
-# 条评论：0]]></description>
-      <guid>https://www.wired.com/story/epstein-files-redwood-bark-school-newspaper/</guid>
-      <pubDate>Sat, 25 Jul 2026 18:37:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>构建高性能 Rust Profiler 的经验教训</title>
-      <link>https://hotpath.rs/blog/rust-performance-profiling</link>
-      <description><![CDATA[文章网址：https://hotpath.rs/blog/rust-performance-profiling
-评论网址：https://news.ycombinator.com/item?id=49050309
-积分：1
-# 条评论：0]]></description>
-      <guid>https://hotpath.rs/blog/rust-performance-profiling</guid>
-      <pubDate>Sat, 25 Jul 2026 18:37:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>也许智力并不是全部</title>
-      <link>https://twitter.com/CliffordSosin/status/2078594661359194500</link>
-      <description><![CDATA[文章网址：https://twitter.com/CliffordSosin/status/2078594661359194500
-评论网址：https://news.ycombinator.com/item?id=49050298
+      <title>一伙盗贼如何实施价值数百万美元的数据中心抢劫</title>
+      <link>https://www.nytimes.com/2026/07/12/magazine/data-center-heist.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2026/07/12/magazine/data-center-heist.html
+评论网址：https://news.ycombinator.com/item?id=49051890
 积分：1
 # 条评论：1]]></description>
-      <guid>https://twitter.com/CliffordSosin/status/2078594661359194500</guid>
-      <pubDate>Sat, 25 Jul 2026 18:36:11 GMT</pubDate>
+      <guid>https://www.nytimes.com/2026/07/12/magazine/data-center-heist.html</guid>
+      <pubDate>Sat, 25 Jul 2026 21:42:31 GMT</pubDate>
     </item>
     <item>
-      <title>一切图表</title>
-      <link>https://levels.io/the-everything-chart</link>
-      <description><![CDATA[文章网址：https://levels.io/the-everything-chart
-评论网址：https://news.ycombinator.com/item?id=49050260
+      <title>您不需要用于代理评估的服务器</title>
+      <link>https://medium.com/@chalyi/you-do-not-need-a-server-for-you-agent-evals-a145962298be</link>
+      <description><![CDATA[文章网址：https://medium.com/@chalyi/you-do-not-need-a-server-for-you-agent-evals-a145962298be
+评论网址：https://news.ycombinator.com/item?id=49051887
 积分：1
 # 条评论：0]]></description>
-      <guid>https://levels.io/the-everything-chart</guid>
-      <pubDate>Sat, 25 Jul 2026 18:31:46 GMT</pubDate>
+      <guid>https://medium.com/@chalyi/you-do-not-need-a-server-for-you-agent-evals-a145962298be</guid>
+      <pubDate>Sat, 25 Jul 2026 21:42:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>哈利·波特与魔法石</title>
+      <link>https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone
+评论网址：https://news.ycombinator.com/item?id=49051870
+积分：1
+# 条评论：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone</guid>
+      <pubDate>Sat, 25 Jul 2026 21:40:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>特斯拉的机器人轴正在反向移动</title>
+      <link>https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/</link>
+      <description><![CDATA[文章网址：https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/
+评论网址：https://news.ycombinator.com/item?id=49051835
+积分：2
+# 条评论：0]]></description>
+      <guid>https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/</guid>
+      <pubDate>Sat, 25 Jul 2026 21:34:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>日本国际儿童诱拐事件</title>
+      <link>https://en.wikipedia.org/wiki/International_child_abduction_in_Japan</link>
+      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/International_child_abduction_in_Japan
+评论网址：https://news.ycombinator.com/item?id=49051830
+积分：2
+# 条评论：0]]></description>
+      <guid>https://en.wikipedia.org/wiki/International_child_abduction_in_Japan</guid>
+      <pubDate>Sat, 25 Jul 2026 21:34:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>谁在新西部得救了？</title>
+      <link>https://www.playboy.com/read/politics/who-gets-saved-in-the-new-west</link>
+      <description><![CDATA[文章网址：https://www.playboy.com/read/politics/who-gets-saved-in-the-new-west
+评论网址：https://news.ycombinator.com/item?id=49051828
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.playboy.com/read/politics/who-gets-saved-in-the-new-west</guid>
+      <pubDate>Sat, 25 Jul 2026 21:34:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>一名 77 岁共和党男子单独抗议 Flock 摄像头</title>
+      <link>https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras/</link>
+      <description><![CDATA[文章网址： https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras/
+评论网址：https://news.ycombinator.com/item?id=49051816
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras/</guid>
+      <pubDate>Sat, 25 Jul 2026 21:32:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>询问 HN：现在对工程经理或总监的期望是什么？</title>
+      <link>https://news.ycombinator.com/item?id=49051762</link>
+      <description><![CDATA[我刚刚加入湾区一家 30 人的人工智能初创公司，担任工程总监。两位非编码创始人（首席执行官和首席技术官）和一个扁平化团队。我们有 2 名产品经理，20 名工程师。每个工程师都是高级或职员级别。他们很好地使用了克劳德代码和人工智能代理等。在这样的环境中我的工作是什么？根据首席技术官的说法，我要提高速度和生产力，同时平衡质量。此外，是否有任何湾区聚会或同行小组，工程领导者实际上正在讨论此特定设置？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49051762
+积分：3
+# 条评论：0]]></description>
+      <guid>https://news.ycombinator.com/item?id=49051762</guid>
+      <pubDate>Sat, 25 Jul 2026 21:26:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>x86 上的 Mac OS 7 [视频]</title>
+      <link>https://www.youtube.com/watch?v=rJRlHKQqX2M</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=rJRlHKQqX2M
+评论网址：https://news.ycombinator.com/item?id=49051757
+积分：3
+# 条评论：1]]></description>
+      <guid>https://www.youtube.com/watch?v=rJRlHKQqX2M</guid>
+      <pubDate>Sat, 25 Jul 2026 21:26:04 GMT</pubDate>
     </item>
     </channel>
 </rss>
