@@ -4,107 +4,108 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 26 Jul 2026 13:20:29 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 16:00:54 GMT</lastBuildDate>
     <item>
-      <title>NASA 火灾信息互动地图</title>
-      <link>https://firms.modaps.eosdis.nasa.gov/map/#d:2026-07-20..2026-07-26;@19.0,1.5,3.0z</link>
-      <description><![CDATA[文章网址： https://firms.modaps.eosdis.nasa.gov/map/#d:2026-07-20..2026-07-26;@19.0,1.5,3.0z
-评论网址：https://news.ycombinator.com/item?id=49057902
+      <title>Show HN：Cookbook AI – 将分散的食谱文件变成可打印的食谱</title>
+      <link>https://cookbookai.io/index.html</link>
+      <description><![CDATA[文章网址：https://cookbookai.io/index.html
+评论网址：https://news.ycombinator.com/item?id=49059433
 积分：1
 # 条评论：0]]></description>
-      <guid>https://firms.modaps.eosdis.nasa.gov/map/#d:2026-07-20..2026-07-26;@19.0,1.5,3.0z</guid>
-      <pubDate>Sun, 26 Jul 2026 13:15:44 GMT</pubDate>
+      <guid>https://cookbookai.io/index.html</guid>
+      <pubDate>Sun, 26 Jul 2026 15:58:02 GMT</pubDate>
     </item>
     <item>
-      <title>询问 HN：Graal VM 相关性</title>
-      <link>https://news.ycombinator.com/item?id=49057895</link>
-      <description><![CDATA[Java JIT 足够快，而且使用新的 JDK (21+) 确实很快，那么为什么要使用 graal vm 呢？而且它的效果也不太好
+      <title>制作折纸电路板</title>
+      <link>https://spectrum.ieee.org/origami-circuit-boards</link>
+      <description><![CDATA[文章网址：https://spectrum.ieee.org/origami- Circuit-boards
+评论网址：https://news.ycombinator.com/item?id=49059418
+积分：3
+# 条评论：0]]></description>
+      <guid>https://spectrum.ieee.org/origami-circuit-boards</guid>
+      <pubDate>Sun, 26 Jul 2026 15:56:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>终端原生音乐和视频播放器</title>
+      <link>https://github.com/dangerous-person/dopogoto-terminal-player</link>
+      <description><![CDATA[文章网址：https://github.com/dangerous-person/dopogoto-terminal-player
+评论网址：https://news.ycombinator.com/item?id=49059413
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/dangerous-person/dopogoto-terminal-player</guid>
+      <pubDate>Sun, 26 Jul 2026 15:55:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：CheapSecurity – 适用于 Linux SBC 的轻量级自托管 CCTV</title>
+      <link>https://github.com/gmrandazzo/CheapSecurity</link>
+      <description><![CDATA[文章网址：https://github.com/gmrandazzo/CheapSecurity
+评论网址：https://news.ycombinator.com/item?id=49059398
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/gmrandazzo/CheapSecurity</guid>
+      <pubDate>Sun, 26 Jul 2026 15:53:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：由 Google Drive 支持的客户端 PDF 和文章阅读器</title>
+      <link>https://pdf-reader-peach.vercel.app/</link>
+      <description><![CDATA[我一直在使用不同的应用程序来阅读研究论文、书籍和网络文章。在 iPad 上，我在 Apple Books 上阅读研究论文和书籍，在 Safari 上阅读文章；在 Mac 上，我使用 Skim 来阅读研究论文和书籍，因为它提供了出色的注释功能。但我想要一个可以在 iPad 和 Mac 上使用的阅读库，而无需将我的 pdf 和注释锁定到单个服务/应用程序中。因此，我构建了一个基于浏览器的阅读器，其中您的图书馆位于您在 Google Drive 中选择的文件夹中。该应用程序本身是客户端：pdf、导入的文章和注释文件存储在您的驱动器中，而不是在我的服务器上。- PDF 和网络文章一起存在于一个库中- 文章保留为 HTML，而不是转换为 PDF（因为转换为 PDF 通常会垂直剪切单词，使得单词的上半部分位于一页上，其余部分位于另一页上）- 突出显示、手写注释和注释与每个文档一起单独存储- 应用程序首先在本地写入，然后与驱动器同步。您可以在不使用演示文档登录的情况下尝试它。Google 仍在审查 OAuth 验证，因此登录驱动器当前会显示标准的未经验证的应用警告。我主要对架构、注释模型以及使用驱动器作为存储层是否感觉是正确的权衡的反馈感兴趣。它几乎完全是客户端。 PDF 使用 PDF.js 渲染，文章保留为 HTML，而不是转换为 PDF，注释以纯 json 形式与 Google Drive 文件夹中的每个文档一起存储。浏览器保留本地缓存以便快速重新打开，而驱动器则处理跨设备同步。我故意避免使用自定义后端，因此您的库只是您拥有的文件。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49057895
+评论网址：https://news.ycombinator.com/item?id=49059390
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=49057895</guid>
-      <pubDate>Sun, 26 Jul 2026 13:15:00 GMT</pubDate>
+      <guid>https://pdf-reader-peach.vercel.app/</guid>
+      <pubDate>Sun, 26 Jul 2026 15:53:33 GMT</pubDate>
     </item>
     <item>
-      <title>台风诺尔迫使超过 715,000 人逃离家园并取消航班</title>
-      <link>https://www.theguardian.com/world/2026/jul/26/typhoon-noul-china-hong-kong</link>
-      <description><![CDATA[文章网址：https://www.theguardian.com/world/2026/jul/26/typhoon-noul-china-hong-kong
-评论网址：https://news.ycombinator.com/item?id=49057889
+      <title>问 HN：页内快速阅读器有用吗？</title>
+      <link>https://news.ycombinator.com/item?id=49059389</link>
+      <description><![CDATA[一位朋友建议我在博客文章中嵌入RSVP阅读器，所以我在页面的一角做了一个浮动按钮。它对焦点字母使用 Spritz 启发式（短单词使用字母 1，长单词使用字母 4），但通过标点符号进行映射，而且时间安排也不统一。我不想在这篇文章中埋藏技术细节，所以如果你对其中任何内容感到好奇，尽管询问，我很乐意分享。但我不太习惯加速阅读，所以我不知道它是否真的有用。您怎么看？关于浏览器扩展？理论上，当扩展程序在任何地方都可以工作时，每个站点的阅读器仍然有意义吗？它在我的博客 (glitchedcat.com) 上的任何帖子角落里的闪电按钮上。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49059389
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.theguardian.com/world/2026/jul/26/typhoon-noul-china-hong-kong</guid>
-      <pubDate>Sun, 26 Jul 2026 13:14:21 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=49059389</guid>
+      <pubDate>Sun, 26 Jul 2026 15:53:30 GMT</pubDate>
     </item>
     <item>
-      <title>对科学资助的攻击仍在继续</title>
-      <link>https://www.science.org/content/blog-post/assault-science-funding-continues</link>
-      <description><![CDATA[文章网址：https://www.science.org/content/blog-post/assault-science-funding-continues
-评论网址：https://news.ycombinator.com/item?id=49057887
+      <title>我们并不特别 (2021)</title>
+      <link>https://www.hillelwayne.com/post/we-are-not-special/</link>
+      <description><![CDATA[文章网址：https://www.hillelwayne.com/post/we-are-not-special/
+评论网址：https://news.ycombinator.com/item?id=49059386
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.science.org/content/blog-post/assault-science-funding-continues</guid>
-      <pubDate>Sun, 26 Jul 2026 13:14:16 GMT</pubDate>
+      <guid>https://www.hillelwayne.com/post/we-are-not-special/</guid>
+      <pubDate>Sun, 26 Jul 2026 15:53:09 GMT</pubDate>
     </item>
     <item>
-      <title>15 美元一品脱的冰淇淋对经济的影响</title>
-      <link>https://www.cnn.com/2026/07/25/economy/15-usd-pint-ice-cream-economy</link>
-      <description><![CDATA[文章网址：https://www.cnn.com/2026/07/25/economy/15-usd-pint-ice-cream-economy
-评论网址：https://news.ycombinator.com/item?id=49057880
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.cnn.com/2026/07/25/economy/15-usd-pint-ice-cream-economy</guid>
-      <pubDate>Sun, 26 Jul 2026 13:13:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>新的人工智能超级大国：专注和跟进</title>
-      <link>https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and</link>
-      <description><![CDATA[文章网址：https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and
-评论网址：https://news.ycombinator.com/item?id=49057877
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and</guid>
-      <pubDate>Sun, 26 Jul 2026 13:13:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>罗马尼亚连续第三天击落进入该国领空的无人机</title>
-      <link>https://www.france24.com/en/europe/20260726-romanian-jet-shoots-down-drone-entering-country-airspace-for-third-day-in-a-row</link>
-      <description><![CDATA[文章网址： https://www.france24.com/en/europe/20260726-romanian-jet-shoots-down-drone-entering-country-airspace-for-third-day-in-a-row
-评论网址：https://news.ycombinator.com/item?id=49057820
-积分：1
-# 条评论：0]]></description>
-      <guid>https://www.france24.com/en/europe/20260726-romanian-jet-shoots-down-drone-entering-country-airspace-for-third-day-in-a-row</guid>
-      <pubDate>Sun, 26 Jul 2026 13:07:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta 在最新的 12B 美元数据中心融资中面临更高的借贷成本</title>
-      <link>https://www.ft.com/content/822628c5-4f9c-47db-bd27-f3ad7f841700</link>
-      <description><![CDATA[文章网址：https://www.ft.com/content/822628c5-4f9c-47db-bd27-f3ad7f841700
-评论网址：https://news.ycombinator.com/item?id=49057799
+      <title>设计就是妥协</title>
+      <link>https://stephango.com/design-is-compromise</link>
+      <description><![CDATA[文章网址：https://stephango.com/design-is-compromise
+评论网址：https://news.ycombinator.com/item?id=49059367
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.ft.com/content/822628c5-4f9c-47db-bd27-f3ad7f841700</guid>
-      <pubDate>Sun, 26 Jul 2026 13:04:54 GMT</pubDate>
+      <guid>https://stephango.com/design-is-compromise</guid>
+      <pubDate>Sun, 26 Jul 2026 15:51:12 GMT</pubDate>
     </item>
     <item>
-      <title>管理文件描述符以提高耐用性和性能</title>
-      <link>https://blog.atimin.dev/handling-file-descriptors/</link>
-      <description><![CDATA[文章网址：https://blog.atimin.dev/handling-file-descriptors/
-评论网址：https://news.ycombinator.com/item?id=49057791
+      <title>谁害怕开源人工智能？</title>
+      <link>https://www.youtube.com/watch?v=siy0744Ykys</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=siy0744Ykys
+评论网址：https://news.ycombinator.com/item?id=49059359
 积分：1
 # 条评论：0]]></description>
-      <guid>https://blog.atimin.dev/handling-file-descriptors/</guid>
-      <pubDate>Sun, 26 Jul 2026 13:04:24 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=siy0744Ykys</guid>
+      <pubDate>Sun, 26 Jul 2026 15:49:59 GMT</pubDate>
     </item>
     <item>
-      <title>构建毛毛雨 ORM</title>
-      <link>https://underdogfounders.substack.com/p/the-story-of-building-drizzle-orm</link>
-      <description><![CDATA[文章网址：https://underdogFounders.substack.com/p/the-story-of-building-drizzle-orm
-评论网址：https://news.ycombinator.com/item?id=49057781
+      <title>反思的工具和仪式</title>
+      <link>https://ask.metafilter.com/254216/What-are-your-tools-and-rituals-for-reflecting-on-the-past-year</link>
+      <description><![CDATA[文章网址：https://ask.metafilter.com/254216/What-are-your-tools-and-rituals-for-reflecting-on-the-past-year
+评论网址：https://news.ycombinator.com/item?id=49059344
 积分：1
 # 条评论：0]]></description>
-      <guid>https://underdogfounders.substack.com/p/the-story-of-building-drizzle-orm</guid>
-      <pubDate>Sun, 26 Jul 2026 13:03:34 GMT</pubDate>
+      <guid>https://ask.metafilter.com/254216/What-are-your-tools-and-rituals-for-reflecting-on-the-past-year</guid>
+      <pubDate>Sun, 26 Jul 2026 15:48:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
