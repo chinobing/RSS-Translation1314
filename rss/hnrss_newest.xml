@@ -4,114 +4,116 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sat, 25 Jul 2026 21:55:37 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 02:43:28 GMT</lastBuildDate>
     <item>
-      <title>我构建了一个新的 PoW 协议并观察到了一个令人惊讶的早期解决方案</title>
-      <link>https://news.ycombinator.com/item?id=49051915</link>
-      <description><![CDATA[我最近部署了一个名为 Shardash 的实验性工作量证明协议。这个想法很简单：矿工们通过寻找具有所需后缀模式的哈希值进行竞争，并根据匹配的十六进制数字的数量来衡量奖励。测试期间发生了一些意外情况。在提交失败的索赔和成功的索赔之前从未与协议进行过交互的钱包。成功的解决方案是第 10 层（大约是 16^10 事件中的 1），随机数值为 18。有趣的部分是时间：- 失败的索赔使用随机数 17，但被拒绝，因为该轮已经过期。
-- 失败的索赔是在回合开始后 300 秒提交的，尽管提交窗口只有 12 秒。
-- 下一个声明使用随机数 18 并成功。
-- 成功的索赔是在该轮开始后 480 秒（42 个以太坊区块之后）提交的，即提交失败后大约 180 秒。乍一看，这看起来很奇怪，因为如果仅测试较小的顺序搜索范围，满足第 10 层目标的非常低的随机数是极不可能的。经过调查，更可能的解释是：- 矿工使用了自定义实现而不是参考矿工，
-- 矿工能够进行预先计算，因为挑战在回合开始之前就可用（提交期开始前有额外的 12 秒窗口），
-- 或者这只是一个罕见的概率事件。Shardhash 合约：
-https://etherscan.io/address/0x295121422b9d0fd3cbddc9e203ae9b4a1eff0082
+      <title>提高燃油经济性标准的四项提案（2021）</title>
+      <link>https://epic.uchicago.edu/area-of-focus/four-proposals-to-improve-fuel-economy-standards/</link>
+      <description><![CDATA[文章网址：https://epic.uchicago.edu/area-of-focus/four-proposals-to-improve-fuel-economy-standards/
+评论网址：https://news.ycombinator.com/item?id=49054075
+积分：1
+# 条评论：0]]></description>
+      <guid>https://epic.uchicago.edu/area-of-focus/four-proposals-to-improve-fuel-economy-standards/</guid>
+      <pubDate>Sun, 26 Jul 2026 02:31:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：阻止 AI 编码代理破坏工作代码的规则</title>
+      <link>https://github.com/avenna01-ceo/claude-code-survival-kr</link>
+      <description><![CDATA[文章网址：https://github.com/avenna01-ceo/claude-code-survival-kr
+评论网址：https://news.ycombinator.com/item?id=49054070
+积分：1
+# 条评论：0]]></description>
+      <guid>https://github.com/avenna01-ceo/claude-code-survival-kr</guid>
+      <pubDate>Sun, 26 Jul 2026 02:30:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我增强了 TemplatesOn 的用户体验，您觉得怎么样？</title>
+      <link>https://templateson.com</link>
+      <description><![CDATA[文章网址：https://templateson.com
+评论网址：https://news.ycombinator.com/item?id=49054024
+积分：1
+# 条评论：0]]></description>
+      <guid>https://templateson.com</guid>
+      <pubDate>Sun, 26 Jul 2026 02:23:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>多个法学硕士试图达成共识</title>
+      <link>https://trekhleb.dev/blog/2026/yesbrainer/</link>
+      <description><![CDATA[文章网址：https://trekhleb.dev/blog/2026/yesbrainer/
+评论网址：https://news.ycombinator.com/item?id=49054011
+积分：1
+# 条评论：0]]></description>
+      <guid>https://trekhleb.dev/blog/2026/yesbrainer/</guid>
+      <pubDate>Sun, 26 Jul 2026 02:22:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：我绘制了美国每个高尔夫球场的地图 - 18k 个球场，免费，无需注册</title>
+      <link>https://golfcoursebrowser.com/</link>
+      <description><![CDATA[我厌倦了在谷歌上搜索基本的球场信息，所以我为每个美国球场制作了一个免费目录我厌倦了谷歌过滤高尔夫球场结果的方式，所以我建立了一种更好的方式来浏览球场... https://golfcoursebrowser.com/这是一项正在进行的工作，目前主要是美国，但我想扩展到北美其他地区，尽快在欧盟和世界其他地区推出。它是免费的，没有广告，无需登录，没有废话。如果您发现任何错误（错误信息、缺少课程、记分卡错误），您可以在课程页面上将其标记出来。我实际上阅读了这些内容并修复了它们。仍然有很多缺失的信息，但我每天都会填写越来越多的信息。目标是世界上最完整、最新的高尔夫球场目录，由实际高尔夫球手验证和维护。我认为在接下来的几个月内是可以实现的。
+基础层是 OpenStreetMap，与球场网站进行交叉检查，并通过记分卡、USGA 评级/坡度以及公共/私人状态进行丰富。来自了解自己主场的高尔夫球手的用户更正击败了我们检查的所有商业数据源。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49051915
+评论网址：https://news.ycombinator.com/item?id=49054010
 积分：2
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=49051915</guid>
-      <pubDate>Sat, 25 Jul 2026 21:45:22 GMT</pubDate>
+      <guid>https://golfcoursebrowser.com/</guid>
+      <pubDate>Sun, 26 Jul 2026 02:22:26 GMT</pubDate>
     </item>
     <item>
-      <title>一伙盗贼如何实施价值数百万美元的数据中心抢劫</title>
-      <link>https://www.nytimes.com/2026/07/12/magazine/data-center-heist.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2026/07/12/magazine/data-center-heist.html
-评论网址：https://news.ycombinator.com/item?id=49051890
-积分：1
-# 条评论：1]]></description>
-      <guid>https://www.nytimes.com/2026/07/12/magazine/data-center-heist.html</guid>
-      <pubDate>Sat, 25 Jul 2026 21:42:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>您不需要用于代理评估的服务器</title>
-      <link>https://medium.com/@chalyi/you-do-not-need-a-server-for-you-agent-evals-a145962298be</link>
-      <description><![CDATA[文章网址：https://medium.com/@chalyi/you-do-not-need-a-server-for-you-agent-evals-a145962298be
-评论网址：https://news.ycombinator.com/item?id=49051887
+      <title>科罗拉多州消费者应该了解有关环孢子虫爆发的哪些信息</title>
+      <link>https://source.colostate.edu/cyclospora-outbreak-safety-symptoms/</link>
+      <description><![CDATA[文章网址：https://source.colostate.edu/cyclospora-outbreak-safety-symptoms/
+评论网址：https://news.ycombinator.com/item?id=49054005
 积分：1
 # 条评论：0]]></description>
-      <guid>https://medium.com/@chalyi/you-do-not-need-a-server-for-you-agent-evals-a145962298be</guid>
-      <pubDate>Sat, 25 Jul 2026 21:42:23 GMT</pubDate>
+      <guid>https://source.colostate.edu/cyclospora-outbreak-safety-symptoms/</guid>
+      <pubDate>Sun, 26 Jul 2026 02:21:59 GMT</pubDate>
     </item>
     <item>
-      <title>哈利·波特与魔法石</title>
-      <link>https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone
-评论网址：https://news.ycombinator.com/item?id=49051870
+      <title>Ajay Kumar 谈在生产中运行 MCP [音频]</title>
+      <link>https://www.getreadyforagents.com/podcast/ajay-kumar-mcp-in-production-ediy/</link>
+      <description><![CDATA[文章网址：https://www.getreadyforagents.com/podcast/ajay-kumar-mcp-in-product-ediy/
+评论网址：https://news.ycombinator.com/item?id=49054002
 积分：1
 # 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone</guid>
-      <pubDate>Sat, 25 Jul 2026 21:40:21 GMT</pubDate>
+      <guid>https://www.getreadyforagents.com/podcast/ajay-kumar-mcp-in-production-ediy/</guid>
+      <pubDate>Sun, 26 Jul 2026 02:21:13 GMT</pubDate>
     </item>
     <item>
-      <title>特斯拉的机器人轴正在反向移动</title>
-      <link>https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/</link>
-      <description><![CDATA[文章网址：https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/
-评论网址：https://news.ycombinator.com/item?id=49051835
-积分：2
-# 条评论：0]]></description>
-      <guid>https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/</guid>
-      <pubDate>Sat, 25 Jul 2026 21:34:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>日本国际儿童诱拐事件</title>
-      <link>https://en.wikipedia.org/wiki/International_child_abduction_in_Japan</link>
-      <description><![CDATA[文章网址：https://en.wikipedia.org/wiki/International_child_abduction_in_Japan
-评论网址：https://news.ycombinator.com/item?id=49051830
-积分：2
-# 条评论：0]]></description>
-      <guid>https://en.wikipedia.org/wiki/International_child_abduction_in_Japan</guid>
-      <pubDate>Sat, 25 Jul 2026 21:34:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>谁在新西部得救了？</title>
-      <link>https://www.playboy.com/read/politics/who-gets-saved-in-the-new-west</link>
-      <description><![CDATA[文章网址：https://www.playboy.com/read/politics/who-gets-saved-in-the-new-west
-评论网址：https://news.ycombinator.com/item?id=49051828
+      <title>当你构建了错误的东西时</title>
+      <link>https://remotesynthesis.com/posts/when-you-build-the-wrong-thing/</link>
+      <description><![CDATA[文章网址：https://remotesynthesis.com/posts/when-you-build-the-wrong-thing/
+评论网址：https://news.ycombinator.com/item?id=49053989
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.playboy.com/read/politics/who-gets-saved-in-the-new-west</guid>
-      <pubDate>Sat, 25 Jul 2026 21:34:04 GMT</pubDate>
+      <guid>https://remotesynthesis.com/posts/when-you-build-the-wrong-thing/</guid>
+      <pubDate>Sun, 26 Jul 2026 02:19:07 GMT</pubDate>
     </item>
     <item>
-      <title>一名 77 岁共和党男子单独抗议 Flock 摄像头</title>
-      <link>https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras/</link>
-      <description><![CDATA[文章网址： https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras/
-评论网址：https://news.ycombinator.com/item?id=49051816
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.cltampa.com/news/a-77-year-old-republican-man-is-staging-a-solo-protest-against-st-petes-flock-cameras/</guid>
-      <pubDate>Sat, 25 Jul 2026 21:32:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>询问 HN：现在对工程经理或总监的期望是什么？</title>
-      <link>https://news.ycombinator.com/item?id=49051762</link>
-      <description><![CDATA[我刚刚加入湾区一家 30 人的人工智能初创公司，担任工程总监。两位非编码创始人（首席执行官和首席技术官）和一个扁平化团队。我们有 2 名产品经理，20 名工程师。每个工程师都是高级或职员级别。他们很好地使用了克劳德代码和人工智能代理等。在这样的环境中我的工作是什么？根据首席技术官的说法，我要提高速度和生产力，同时平衡质量。此外，是否有任何湾区聚会或同行小组，工程领导者实际上正在讨论此特定设置？
+      <title>显示 HN：18 万个单词作为时间知识图是什么样子（Oz 系列）</title>
+      <link>https://synaptale.com/graph?ch=100</link>
+      <description><![CDATA[该图可以自由探索，无需注册。SynapTale 将故事模型构建为由节点（实体）和边（它们的动作和关系）组成的时间图。
+该图不是 wiki 的可视化。 wiki、时间线、关系历史和分析都是图表的投影。当前演示包含 232 个实体、1,852 个边以及每个章节的故事状态快照。到第 100 章时，它仍然记得第 8 章中做出的承诺，并将故事转化为一组可验证来源的事实。最有趣的事情可以在图表本身和“分析”选项卡中找到。我发现了一些事情：1。击杀数最高的角色是铁皮樵夫——这个角色会因为不小心压死的甲虫而哭泣。多萝西位居第二，发生了三起杀人事件。
+2. 在该系列的前 100 章中，多萝西从未欺骗过任何人。
+3.从第8章开始，稻草人对鹳鸟的亏欠在92章中一直有效。
+4. 胆小的狮子在威胁数量上排名第三。
+5. 前100章包含60个秘密和254个对话事件。技术细节1.结合了法学硕士和自然语言处理的五种不同的多智能体管道：预扫描、本体构建、逐章图提取、跨越数十个章节的回顾性验证，以及针对语音配置文件和语言边缘的语言预扫描。2.生动的故事需要生动的图表。它必须考虑时间，因为实体及其之间的关系不断发展。一个简单的 is_active 字段是不够的。我最终得到了三种类型的边：事件：瞬时动作；
+身份：事实；
+状态：一个持续的动作，其终止需要理由和文本中的支持性引用。绝大多数边缘都是事件，并在它们开始的同一章中结束。这使得系统能够很好地扩展，因为只有少数状态和身份边缘保持持续活动。3。本体论。您不能简单地要求法学硕士将实体和关系提取到图表中。在每一章中，即使是最聪明的模型也会不断发明不重要的字段，为现有字段创建新的别名，并不一致地表示相同的字段。因此，在提取图表之前，系统会对整个故事执行本体扫描。它捕获特定于故事的实体和边缘类型及其字段和描述。4.认识论。事件只是故事的一部分。了解信息的分布方式也很重要，这很难单独使用事件边来表示。我通过引入一种新的节点类型来解决这个问题：认知节点，它捕获不同实体对同一事实的观点。细微的提示仍然可能会被错过，系统在这方面还不够完善。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49051762
-积分：3
+评论网址：https://news.ycombinator.com/item?id=49053986
+积分：2
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=49051762</guid>
-      <pubDate>Sat, 25 Jul 2026 21:26:26 GMT</pubDate>
+      <guid>https://synaptale.com/graph?ch=100</guid>
+      <pubDate>Sun, 26 Jul 2026 02:18:31 GMT</pubDate>
     </item>
     <item>
-      <title>x86 上的 Mac OS 7 [视频]</title>
-      <link>https://www.youtube.com/watch?v=rJRlHKQqX2M</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=rJRlHKQqX2M
-评论网址：https://news.ycombinator.com/item?id=49051757
-积分：3
-# 条评论：1]]></description>
-      <guid>https://www.youtube.com/watch?v=rJRlHKQqX2M</guid>
-      <pubDate>Sat, 25 Jul 2026 21:26:04 GMT</pubDate>
+      <title>人们一年会在睡觉时吞下 8 只蜘蛛吗？</title>
+      <link>https://www.scientificamerican.com/article/fact-or-fiction-people-swallow-8-spiders-a-year-while-they-sleep1/</link>
+      <description><![CDATA[文章网址：https://www.scientificamerican.com/article/fact-or-fiction-people-swallow-8-spiders-a-year-while-they-sleep1/
+评论网址：https://news.ycombinator.com/item?id=49053970
+积分：1
+# 条评论：0]]></description>
+      <guid>https://www.scientificamerican.com/article/fact-or-fiction-people-swallow-8-spiders-a-year-while-they-sleep1/</guid>
+      <pubDate>Sun, 26 Jul 2026 02:15:48 GMT</pubDate>
     </item>
     </channel>
 </rss>
