@@ -4,118 +4,107 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 26 Jul 2026 06:05:43 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 10:44:44 GMT</lastBuildDate>
     <item>
-      <title>Chute – 10GB 免费文件传输，可选 E2E 加密</title>
-      <link>https://chute.codecraftsol.org/</link>
-      <description><![CDATA[文章网址：https://chute.codecraftsol.org/
-评论网址：https://news.ycombinator.com/item?id=49055147
+      <title>陶哲轩：人工智能时代的数学 [pdf]</title>
+      <link>https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf</link>
+      <description><![CDATA[文章网址：https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf
+评论网址：https://news.ycombinator.com/item?id=49056620
 积分：1
 # 条评论：0]]></description>
-      <guid>https://chute.codecraftsol.org/</guid>
-      <pubDate>Sun, 26 Jul 2026 05:53:44 GMT</pubDate>
+      <guid>https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf</guid>
+      <pubDate>Sun, 26 Jul 2026 10:32:35 GMT</pubDate>
     </item>
     <item>
-      <title>谢迪</title>
-      <link>https://shediy.app/</link>
-      <description><![CDATA[文章网址：https://shediy.app/
-评论网址：https://news.ycombinator.com/item?id=49055108
+      <title>在机器人的帮助下将庞贝古城的碎片拼凑起来</title>
+      <link>https://japannews.yomiuri.co.jp/science-nature/technology/20251220-298915/</link>
+      <description><![CDATA[文章网址：https://japannews.yomiuri.co.jp/science-nature/technology/20251220-298915/
+评论网址：https://news.ycombinator.com/item?id=49056586
 积分：1
 # 条评论：0]]></description>
-      <guid>https://shediy.app/</guid>
-      <pubDate>Sun, 26 Jul 2026 05:47:28 GMT</pubDate>
+      <guid>https://japannews.yomiuri.co.jp/science-nature/technology/20251220-298915/</guid>
+      <pubDate>Sun, 26 Jul 2026 10:26:44 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：我构建了一个虚拟机管理程序和客户端来推理消费者计算</title>
-      <link>https://scalattice.com/blog/openai-sdk-scalattice/</link>
-      <description><![CDATA[我是Scalattice的创始人，这是我的第二家公司，第三个总产品。我是一名 2x 创始人，正在构建一些具有挑战性的软件、一些简单的软件和一些基于好奇心的工具，我一直想成为其中的一部分！这就是 Scalattice。Scalattice 是一个与 OpenAI 兼容的推理 API。您保留OpenAI SDK，交换base_url + API密钥，并调用开放模型（Qwen3、Llama 3.3 70B、Gemma 3、DeepSeek R1等）。推理由我们的消费者托管推理机分布式网络上的提供者节点执行，我们运行一个开源代理 (https://github.com/scalattice/scalattice-agent)，它在 Rust 中运行推理并获得提供者报酬。简而言之，任何人都可以成为提供者，使用我们的 Windows/Linux Rust 代理提供他们的机器，并赚取收益一些额外的现金，或者开办一个机器农场来赚大钱。我决定为 API 构建一些创新的行为特征，以获得更高的性能/安全性：
-1. 输出审查 - Scalattice Cloud 根据 API 标头请求的副本响应审查响应 N 次。
-2. 安全层 - 使用一些分割推理，该工作由多个提供商分批完成，部分由 Scalattice Cloud 虚拟机管理程序完成，以提高安全性/隐私性（需要额外付费）
-3. 区域政策 - 我知道数据驻留对开发者客户有多重要（根据我在数字 ID 基础设施方面的经验），因此我构建了一个平台，让开发者指定推理区域。我们向提供商支付开发者所花费的每个代币的大部分份额（目前为 80%）。我们目前通过我们自己公司机器的故障转移来支持网络，以确保我们永远不会丢弃请求。如果您想在几分钟内尝试一下，我们目前正在运行“充值 10 美元，无限量 QWEN3”，可用于整个月的 API 调用（适用条款和条件）。如果您想在几分钟内尝试一下：
-1. 在 https://scalattice.cloud/developers 创建密钥
-2. 在链接的帖子上使用复制粘贴片段
-3. 实时费率：https://scalattice.com/pricing或者，如果您想成为提供商（我们非常热衷于吸引人们并让他们赚钱）：
-1. 在 https://scalattice.cloud/providers 创建一台机器
-2. 下载我们的 Windows 应用程序，或使用我们的页面说明来卷取适用于 Linux 的代理安装脚本。
-3. 将提供商令牌从网站上创建的计算机附加到应用程序或 Linux 代理。
-4. 从网站控制机器，选择您要提供的型号、用于推理的物理硬件组件以及运行时间。
-5. 赚钱！很高兴接受反馈 - 特别是关于 DX、定价清晰度以及什么会让您尝试这个而不是 Together / Fireworks / OpenRouter / Salad 等。这是我第一次在 HN 上发帖，如果您认为该产品有潜力，请告诉我，与非数据中心推理（延迟、卡的功能）显然需要权衡，但我认为这可以很好地为相当多的开发人员服务，因为不是每个人都需要H100 卡的推理。再次感谢。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49055093
+      <title>亚马逊正在投资专注于精益的研究组织</title>
+      <link>https://www.amazon.science/news/amazon-is-investing-in-the-lean-focused-research-organization</link>
+      <description><![CDATA[文章网址：https://www.amazon.science/news/amazon-is-investing-in-the-lean-focused-research-organization
+评论网址：https://news.ycombinator.com/item?id=49056550
+积分：2
+# 条评论：0]]></description>
+      <guid>https://www.amazon.science/news/amazon-is-investing-in-the-lean-focused-research-organization</guid>
+      <pubDate>Sun, 26 Jul 2026 10:19:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>植物使用可穿戴设备来追踪其健康状况</title>
+      <link>https://now.tufts.edu/2026/07/08/plants-get-wearables-track-their-health</link>
+      <description><![CDATA[文章网址：https://now.tufts.edu/2026/07/08/plants-get-wearables-track-their-health
+评论网址：https://news.ycombinator.com/item?id=49056491
 积分：1
 # 条评论：0]]></description>
-      <guid>https://scalattice.com/blog/openai-sdk-scalattice/</guid>
-      <pubDate>Sun, 26 Jul 2026 05:43:09 GMT</pubDate>
+      <guid>https://now.tufts.edu/2026/07/08/plants-get-wearables-track-their-health</guid>
+      <pubDate>Sun, 26 Jul 2026 10:09:11 GMT</pubDate>
     </item>
     <item>
-      <title>《绝地武士》粉丝网站已持续运行近 30 年</title>
-      <link>https://www.pcgamer.com/games/action/conceived-in-a-secure-military-facility-this-jedi-knight-fansite-has-been-running-consistently-for-almost-30-years-it-looks-really-close-to-what-it-did-back-in-1998/</link>
-      <description><![CDATA[文章网址： https://www.pcgamer.com/games/action/conceived-in-a-secure-military-facility-this-jedi-knight-fansite-has-been-running-consistently-for-almost-30-years-it-looks-really-close-to-what-it-did-back-in-1998/
-评论网址：https://news.ycombinator.com/item?id=49055076
+      <title>使用 Loro 离线优先构建 Synapse</title>
+      <link>https://dhovart.tngl.sh/synapse-blog/loro-offline-first/</link>
+      <description><![CDATA[文章网址：https://dhovart.tngl.sh/synapse-blog/loro-offline-first/
+评论网址：https://news.ycombinator.com/item?id=49056477
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.pcgamer.com/games/action/conceived-in-a-secure-military-facility-this-jedi-knight-fansite-has-been-running-consistently-for-almost-30-years-it-looks-really-close-to-what-it-did-back-in-1998/</guid>
-      <pubDate>Sun, 26 Jul 2026 05:39:45 GMT</pubDate>
+      <guid>https://dhovart.tngl.sh/synapse-blog/loro-offline-first/</guid>
+      <pubDate>Sun, 26 Jul 2026 10:07:39 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Hydra，一个本地优先的信任控制平面，可自信地路由人工智能</title>
-      <link>https://hydra.uvansa.com/</link>
-      <description><![CDATA[文章网址：https://Hydra.uvansa.com/
-评论网址：https://news.ycombinator.com/item?id=49055074
+      <title>AI 推动 Shopify 回归干净的代码</title>
+      <link>https://www.theregister.com/devops/2026/07/25/how-ai-drove-shopify-back-to-clean-code/5277901</link>
+      <description><![CDATA[文章网址：https://www.theregister.com/devops/2026/07/25/how-ai-drove-shopify-back-to-clean-code/5277901
+评论网址：https://news.ycombinator.com/item?id=49056472
 积分：1
 # 条评论：0]]></description>
-      <guid>https://hydra.uvansa.com/</guid>
-      <pubDate>Sun, 26 Jul 2026 05:38:56 GMT</pubDate>
+      <guid>https://www.theregister.com/devops/2026/07/25/how-ai-drove-shopify-back-to-clean-code/5277901</guid>
+      <pubDate>Sun, 26 Jul 2026 10:07:07 GMT</pubDate>
     </item>
     <item>
-      <title>叙利亚的古代遗址面临广泛的抢劫和系统性的推土机</title>
-      <link>https://phys.org/news/2026-07-syria-ancient-sites-widespread-looting.html</link>
-      <description><![CDATA[文章网址：https://phys.org/news/2026-07-syria-ancient-sites-widespread-looting.html
-评论网址：https://news.ycombinator.com/item?id=49055062
+      <title>美国国防的未来 – Y Combinator [视频]</title>
+      <link>https://www.youtube.com/shorts/iOeW40N-1VI</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/shorts/iOeW40N-1VI
+评论网址：https://news.ycombinator.com/item?id=49056441
 积分：1
 # 条评论：0]]></description>
-      <guid>https://phys.org/news/2026-07-syria-ancient-sites-widespread-looting.html</guid>
-      <pubDate>Sun, 26 Jul 2026 05:35:33 GMT</pubDate>
+      <guid>https://www.youtube.com/shorts/iOeW40N-1VI</guid>
+      <pubDate>Sun, 26 Jul 2026 10:02:42 GMT</pubDate>
     </item>
     <item>
-      <title>《神经漫游者》——官方预告片</title>
-      <link>https://www.youtube.com/watch?v=g79GPZSQHBk</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=g79GPZSQHBk
-评论网址：https://news.ycombinator.com/item?id=49055037
+      <title>没有堆栈溢出，没有自动完成：80 年代编码的感觉</title>
+      <link>https://comuniq.xyz/post?t=1439</link>
+      <description><![CDATA[文章网址：https://comuniq.xyz/post?t=1439
+评论网址：https://news.ycombinator.com/item?id=49056424
+积分：7
+# 条评论：3]]></description>
+      <guid>https://comuniq.xyz/post?t=1439</guid>
+      <pubDate>Sun, 26 Jul 2026 09:58:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Upd.dev：免费的 Git 托管，包括自由访问代码</title>
+      <link>https://upd.dev</link>
+      <description><![CDATA[文章网址：https://upd.dev
+评论网址：https://news.ycombinator.com/item?id=49056403
 积分：4
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=g79GPZSQHBk</guid>
-      <pubDate>Sun, 26 Jul 2026 05:31:47 GMT</pubDate>
+      <guid>https://upd.dev</guid>
+      <pubDate>Sun, 26 Jul 2026 09:53:46 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：免费工具，可以侮辱您的代码，但也可以发现真正的错误</title>
-      <link>https://zlvox.com/tools/roast-my-code</link>
-      <description><![CDATA[文章网址：https://zlvox.com/tools/roast-my-code
-评论网址：https://news.ycombinator.com/item?id=49055008
-积分：2
+      <title>Show HN：使用视觉功能表示的平台视频游戏</title>
+      <link>https://function-platformer.vercel.app/</link>
+      <description><![CDATA[https://github.com/Consistos/function-platformer
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49056399
+积分：1
 # 条评论：0]]></description>
-      <guid>https://zlvox.com/tools/roast-my-code</guid>
-      <pubDate>Sun, 26 Jul 2026 05:28:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>LLM推理简介</title>
-      <link>https://kraghavan.ca/llm-infrastructure/inference/2026/04/14/re-introduction-to-inference.html</link>
-      <description><![CDATA[文章网址：https://kraghavan.ca/llm-infrastruct/inference/2026/04/14/re-introduction-to-inference.html
-评论网址：https://news.ycombinator.com/item?id=49054962
-积分：2
-# 条评论：1]]></description>
-      <guid>https://kraghavan.ca/llm-infrastructure/inference/2026/04/14/re-introduction-to-inference.html</guid>
-      <pubDate>Sun, 26 Jul 2026 05:18:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>《爱情岛》告诉我们约会的面貌变化</title>
-      <link>https://www.bbc.co.uk/news/articles/c935q2k6pxqo</link>
-      <description><![CDATA[文章网址：https://www.bbc.co.uk/news/articles/c935q2k6pxqo
-评论网址：https://news.ycombinator.com/item?id=49054960
-积分：2
-# 条评论：0]]></description>
-      <guid>https://www.bbc.co.uk/news/articles/c935q2k6pxqo</guid>
-      <pubDate>Sun, 26 Jul 2026 05:18:23 GMT</pubDate>
+      <guid>https://function-platformer.vercel.app/</guid>
+      <pubDate>Sun, 26 Jul 2026 09:53:27 GMT</pubDate>
     </item>
     </channel>
 </rss>
