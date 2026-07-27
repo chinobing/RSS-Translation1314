@@ -4,57 +4,34 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 27 Jul 2026 02:51:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 06:30:08 GMT</lastBuildDate>
     <item>
       <title>PGSimCity - PostgreSQL 的工作原理</title>
       <link>https://nikolays.github.io/PGSimCity/</link>
       <description><![CDATA[文章网址：https://nikolays.github.io/PGSimCity/
 评论网址：https://news.ycombinator.com/item?id=49063754
-积分：139
-# 条评论：22]]></description>
+积分：394
+# 条评论：41]]></description>
       <guid>https://nikolays.github.io/PGSimCity/</guid>
       <pubDate>Mon, 27 Jul 2026 00:19:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：零号端口 – 我如何学会停止担忧并热爱 PORT=0</title>
-      <link>https://portzero.net/</link>
-      <description><![CDATA[嗨，HN，最近，我浪费了几个小时来调整我的开发环境，结果发现浏览器前端正在与错误版本的后端进行通信。这让我开始思考——为什么我们仍然使用简单的数字来描述要连接到哪个进程？为什么不使用名称来代替呢？我经常想到由于端口冲突而导致程序无法启动的情况。我想得越多，它看起来就越疯狂。现代操作系统已经提供了无冲突端口：如果你让你的 TCP 服务器监听端口 0，操作系统会为你分配一个随机的可用端口。但这只解决了一半问题。我构建了另一半：PortZero。这是一个 GPLv3 程序，使用特殊的 PZ_TUNNEL 环境变量监视进程（和 docker 容器！）： PZ_TUNNEL=myapp-{branch}.portzero.local:80 npm run dev
-
-当它看到这样的进程或容器时，PortZero 会执行以下操作：1.创建虚拟 NIC（如果尚未）2.创建新的虚拟 IP 地址3.创建一条 DNS 记录，根据进程的工作目录替换 {branch} 等内容，并指向该虚拟 IP 地址4。开始在您选择的端口上侦听该虚拟 IP 地址（例如，http 的端口 80、https 的端口 443、postgresql 的端口 5432）5.将任何到该虚拟 IP 地址/虚拟端口的 TCP 连接转发到您的进程或容器实际侦听的操作系统分配的随机端口结果是您不必再考虑端口，只需考虑子域。您可以在端口 80 上使用多个服务，而不会发生冲突，只要它们具有不同的 portzero.local 子域即可。它还有其他一些很酷的功能，例如：- 通过创建本地 CA 并在您的计算机上注册来在本地 HTTP 服务上启用 HTTPS- 启用云隧道，以便您可以在其他设备上访问您的应用程序（付费功能）链接：https://portzero.net/docs/https://github.com/PortZeroNetwork/portzero
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49063648
-积分：11
-# 条评论：4]]></description>
-      <guid>https://portzero.net/</guid>
-      <pubDate>Mon, 27 Jul 2026 00:03:48 GMT</pubDate>
     </item>
     <item>
       <title>使用中的字体 – 找出使用字体的位置</title>
       <link>https://fontsinuse.com/</link>
       <description><![CDATA[文章网址：https://fontsinuse.com/
 评论网址：https://news.ycombinator.com/item?id=49063523
-积分：17
-# 条评论：0]]></description>
+积分：39
+# 条评论：3]]></description>
       <guid>https://fontsinuse.com/</guid>
       <pubDate>Sun, 26 Jul 2026 23:45:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>瓦数：人工智能代理的代币支出分析器和成本回归门</title>
-      <link>https://github.com/faizannraza/wattage</link>
-      <description><![CDATA[文章网址：https://github.com/faizannraza/wattage
-评论网址：https://news.ycombinator.com/item?id=49063397
-积分：4
-# 条评论：0]]></description>
-      <guid>https://github.com/faizannraza/wattage</guid>
-      <pubDate>Sun, 26 Jul 2026 23:27:35 GMT</pubDate>
     </item>
     <item>
       <title>Vercel 的 Scriptc：TypeScript 到 Native 编译器，二进制中没有 JavaScript 引擎</title>
       <link>https://github.com/vercel-labs/scriptc</link>
       <description><![CDATA[文章网址：https://github.com/vercel-labs/scriptc
 评论网址：https://news.ycombinator.com/item?id=49063175
-积分：22
-# 条评论：3]]></description>
+积分：101
+# 条评论：40]]></description>
       <guid>https://github.com/vercel-labs/scriptc</guid>
       <pubDate>Sun, 26 Jul 2026 22:46:10 GMT</pubDate>
     </item>
@@ -63,8 +40,8 @@
       <link>https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html</link>
       <description><![CDATA[文章网址：https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html
 评论网址：https://news.ycombinator.com/item?id=49063022
-积分：218
-# 条评论：135]]></description>
+积分：512
+# 条评论：355]]></description>
       <guid>https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html</guid>
       <pubDate>Sun, 26 Jul 2026 22:21:41 GMT</pubDate>
     </item>
@@ -73,8 +50,8 @@
       <link>https://gracefulliberty.com/articles/teaching-kids-forth/</link>
       <description><![CDATA[文章网址：https://gracefulliberty.com/articles/teaching-kids-forth/
 评论网址：https://news.ycombinator.com/item?id=49062700
-积分：57
-# 条评论：18]]></description>
+积分：74
+# 条评论：22]]></description>
       <guid>https://gracefulliberty.com/articles/teaching-kids-forth/</guid>
       <pubDate>Sun, 26 Jul 2026 21:39:17 GMT</pubDate>
     </item>
@@ -83,8 +60,8 @@
       <link>https://www.imperialviolet.org/2026/07/26/zstd-lean.html</link>
       <description><![CDATA[文章网址：https://www.imperialviolet.org/2026/07/26/zstd-lean.html
 评论网址：https://news.ycombinator.com/item?id=49062291
-积分：83
-# 条评论：11]]></description>
+积分：139
+# 条评论：31]]></description>
       <guid>https://www.imperialviolet.org/2026/07/26/zstd-lean.html</guid>
       <pubDate>Sun, 26 Jul 2026 20:53:26 GMT</pubDate>
     </item>
@@ -93,8 +70,8 @@
       <link>https://spectrum.ieee.org/space-debris-atmosphere-burn-up</link>
       <description><![CDATA[文章网址：https://spectrum.ieee.org/space-debris-atmosphere-burn-up
 评论网址：https://news.ycombinator.com/item?id=49062120
-积分：48
-# 条评论：25]]></description>
+积分：54
+# 条评论：31]]></description>
       <guid>https://spectrum.ieee.org/space-debris-atmosphere-burn-up</guid>
       <pubDate>Sun, 26 Jul 2026 20:31:57 GMT</pubDate>
     </item>
@@ -103,10 +80,30 @@
       <link>https://github.com/AARomanov1985/Audio-Cassette-Simulation</link>
       <description><![CDATA[文章网址：https://github.com/AARomanov1985/Audio-Cassette-Simulation
 评论网址：https://news.ycombinator.com/item?id=49061887
-积分：81
-# 条评论：40]]></description>
+积分：108
+# 条评论：43]]></description>
       <guid>https://github.com/AARomanov1985/Audio-Cassette-Simulation</guid>
       <pubDate>Sun, 26 Jul 2026 20:02:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>如何阻止某些机器人</title>
+      <link>https://nochan.net/b/Internet-Crap/20260606-How-To-Block-Some-Of-The-Bots/</link>
+      <description><![CDATA[文章网址：https://nochan.net/b/Internet-Crap/20260606-How-To-Block-Some-Of-The-Bots/
+评论网址：https://news.ycombinator.com/item?id=49060945
+积分：94
+# 条评论：112]]></description>
+      <guid>https://nochan.net/b/Internet-Crap/20260606-How-To-Block-Some-Of-The-Bots/</guid>
+      <pubDate>Sun, 26 Jul 2026 18:32:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Decker，一个建立在 Hypercard 和经典 macOS 基础上的平台</title>
+      <link>https://beyondloom.com/decker/</link>
+      <description><![CDATA[文章网址：https://beyondloom.com/decker/
+评论网址：https://news.ycombinator.com/item?id=49060856
+积分：279
+# 条评论：72]]></description>
+      <guid>https://beyondloom.com/decker/</guid>
+      <pubDate>Sun, 26 Jul 2026 18:23:06 GMT</pubDate>
     </item>
     </channel>
 </rss>
