@@ -4,7 +4,59 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 29 Jul 2026 16:21:54 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 19:15:13 GMT</lastBuildDate>
+    <item>
+      <title>PgDog (YC P25) 正在招聘</title>
+      <link>https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer</link>
+      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer
+评论网址：https://news.ycombinator.com/item?id=49100056
+积分：0
+# 条评论：0]]></description>
+      <guid>https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer</guid>
+      <pubDate>Wed, 29 Jul 2026 17:01:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: CheapFoodMap – 10 美元以下的美食地图</title>
+      <link>https://cheapfoodmap.com/</link>
+      <description><![CDATA[我在 18 年后最近被解雇了，给自己 100 天的时间来构建一些对公共有用的东西。 CheapFoodMap 是 10 美元以下餐饮的众包地图，不包括特许经营权，仅提供当地美食。它的灵感来自于韩国学生用来寻找便宜美食的众包地图 거지맵（乞丐地图）。Ocverage 在德克萨斯州最重，因为我住在达拉斯，但在美国 15 个城市有 1200 份餐食。种子数据来自 Google 评论，4.2 星或更高，至少有 500 条评论，每个菜单项的验证价格低于 10 美元。我希望得到反馈的事情：价格新鲜度模型是否有意义，以及什么会让您信任这样的网站上的价格。如何鼓励人们更新价格，因为通货膨胀使食品价格变得非常频繁。https://cheapfoodmap.com任何和所有建议都会非常有帮助。谢谢！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49100043
+积分：28
+# 条评论：26]]></description>
+      <guid>https://cheapfoodmap.com/</guid>
+      <pubDate>Wed, 29 Jul 2026 16:59:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于 Anthropic 新密码分析结果的一些想法</title>
+      <link>https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/</link>
+      <description><![CDATA[文章网址：https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/
+评论网址：https://news.ycombinator.com/item?id=49099804
+积分：43
+# 条评论：17]]></description>
+      <guid>https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/</guid>
+      <pubDate>Wed, 29 Jul 2026 16:42:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Keychron 宣布首款游戏鼠标开源固件</title>
+      <link>https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice</link>
+      <description><![CDATA[文章网址：https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice
+评论网址：https://news.ycombinator.com/item?id=49099715
+积分：102
+# 条评论：50]]></description>
+      <guid>https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice</guid>
+      <pubDate>Wed, 29 Jul 2026 16:36:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN：Kedge – 具有可分叉虚拟机快照和全局 SQLite 的全栈云</title>
+      <link>https://kedge.dev/</link>
+      <description><![CDATA[我正在构建 Kedge，这是一个用于有状态无服务器应用程序的全球分布式平台。以下是制作简单静态站点的方法：“echo &#39;# Hello world!” | ssh kedge.dev`我帮助构建了 Fly.io 4 年，并与创始人分享“全球 Heroku”愿景的热情。  在那里，我写了《无服务器服务器》(https://fly.io/blog/the-serverless-server/)，作为对 Lambda 的研究和围绕轻量级虚拟机构建的现代无服务器产品的草图。这篇文章是 Kedge 的最初灵感。Kedge 拥有一个快速的 VM 编排器，可以使用可分叉 VM 快照和热池树（Linux 内核 -&gt; 基础运行时 -&gt; 应用程序）的组合，在 3 毫秒内创建代码沙箱或扩展服务实例。由于共享写时复制内存页面，虚拟机内存密集。您可以运行轻量级 CGI 风格的函数、公共 OCI 映像或 BuildKit 源代码来编译和部署。Kedge 的全局控制平面位于最终一致的 SQLite 数据库上。受到 Corrosion 和 Litestream 的启发，我构建了一个由对象存储支持的本地优先、基于多写入器 CRDT 的复制系统，最近才将其开源 (https://github.com/wjordan/syzy)。您还可以使用 SQLite 客户端从任何实例查询“/shared.db”，以获取应用中的内置复制数据库。这使得 Kedge 可以自动扩展服务以贴近您的用户，同时每个实例都会查询其本地副本以获取最终一致的数据，而无需对实例或卷放置进行微观管理。 （为了方便起见，还有一个 /shared/ 文件系统适配器。）Kedge 甚至可以将相同的数据库用于有状态、服务器渲染的 HTML 应用程序。数据属性将表单、按钮和值绑定到应用程序数据库中的记录，Kedge 在部署时编译架构和操作，然后查询本地数据来服务请求。作为演示，我用大约 60 行 Markdown 代码制作了一个 Hacker News 克隆，其中包括故事提交、投票、评论和身份验证，以及 CSS (https://kedge.dev/docs/html-apps#kedger-news)。我刚刚开始收集公众反馈，所以请告诉我您的想法！我对有状态 HTML 应用程序模型的反馈特别感兴趣，这是最新的（也是最雄心勃勃的）部分。预览版目前正在 11 个地区运行，供您试用。目前还没有账单，因此定价页面是估计值。感谢您的浏览！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49099434
+积分：34
+评论数量：9]]></description>
+      <guid>https://kedge.dev/</guid>
+      <pubDate>Wed, 29 Jul 2026 16:15:57 GMT</pubDate>
+    </item>
     <item>
       <title>推出 HN：Tokenless（YC S26）——自动模型切换以节省资金</title>
       <link>https://usetokenless.com/</link>
@@ -14,101 +66,52 @@
 - 将 Kimi K3、所有其他 GPT 工作以及更多内容添加到路由器继续在 usetokenless.com 上注册并尝试与您的代理一起使用 Tokenless，您将获得 20 美元的免费积分。以下是有关如何使用它的演示：https://youtu.be/sjZWriccllsTokenless 以更便宜的价格提供前沿级智能，因此我们希望获得一些有关使用感觉、路由器路由不正确的极端情况以及您是否觉得路由问题有趣的反馈！
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=49099143
-积分：4
-# 条评论：1]]></description>
+积分：36
+# 条评论：36]]></description>
       <guid>https://usetokenless.com/</guid>
       <pubDate>Wed, 29 Jul 2026 15:55:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>超逻辑</title>
+      <link>https://www.superlogical.com/</link>
+      <description><![CDATA[https://mitchellh.com/writing/superological
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49098965
+积分：266
+# 条评论：195]]></description>
+      <guid>https://www.superlogical.com/</guid>
+      <pubDate>Wed, 29 Jul 2026 15:41:33 GMT</pubDate>
     </item>
     <item>
       <title>Cesium DevCon 2026 演讲已经开始，其中包括 SQLite 创建者的主题演讲</title>
       <link>https://cesium.com/events/cesium-developer-conference/2026/</link>
       <description><![CDATA[文章网址：https://cesium.com/events/cesium-developer-conference/2026/
 评论网址：https://news.ycombinator.com/item?id=49098599
-积分：7
-# 条评论：0]]></description>
+积分：33
+# 条评论：11]]></description>
       <guid>https://cesium.com/events/cesium-developer-conference/2026/</guid>
       <pubDate>Wed, 29 Jul 2026 15:13:25 GMT</pubDate>
     </item>
     <item>
       <title>显示 HN：在任何 M 系列 Mac 上运行 Gemma 4 26B、2 GB RAM 的开源引擎</title>
       <link>https://github.com/drumih/turbo-fieldfare</link>
-      <description><![CDATA[嗨 HN，我构建了一个专门的推理引擎，用于在任何使用大约 2 GB RAM 的 M 系列 Mac 上运行 4 位 Gemma 4 26B-A4B-IT。它被称为 TurboFieldfare，是用 Swift 和 Metal 编写的。我一直很喜欢设备上的人工智能。您可以在 Mac 或 iPhone 上运行强大的神经网络，这感觉就像魔法一样。因此，我想稍微突破一下限制，运行一个权重不适合内存的模型。该模型的 4 位量化权重大约占用 14 GB，一旦包含操作系统、应用程序和 KV 缓存，就几乎不可能在 8 GB 甚至 16 GB Mac 上使用传统推理工具运行它。诀窍是将模型的共享部分和 KV 缓存保留在 RAM 中，然后仅从其中传输每个令牌所需的路由专家。固态硬盘。 SSD 比 RAM 慢得多，因此运行时使用小型专家缓存和有界并行“pread”。当这些读取正在进行时，GPU 运行该层的共享部分。我进行了 100 多个实验。大多数都不起作用。有几个人把我带到了这里。 GitHub 存储库中描述了这些实验。目前，它在 8 GB M2 MacBook Air 上生成 5-6 tok/s，在 M5 MacBook Pro 上生成 31-35 tok/s。我还添加了一个实验性的 OpenAI 兼容本地服务器。它支持流式传输和工具调用，并重用 KV 缓存中的一个提示前缀。试试吧！ Mac 应用程序易于安装。第一次运行时，它将从 Hugging Face 下载 15 GB 的权重。该模型的能力令人惊讶。我希望得到任何类型的反馈！
+      <description><![CDATA[嗨 HN，我构建了一个专门的推理引擎，用于在任何使用大约 2 GB RAM 的 M 系列 Mac 上运行 4 位 Gemma 4 26B-A4B-IT。它被称为 TurboFieldfare，是用 Swift 和 Metal 编写的。我一直很喜欢设备上的人工智能。您可以在 Mac 或 iPhone 上运行强大的神经网络，这感觉就像魔法一样。因此，我想稍微突破一下限制，运行一个权重不适合内存的模型。该模型的 4 位量化权重大约占用 14 GB，一旦包含了操作系统、应用程序和 KV 缓存，就几乎不可能在 8 GB 甚至 16 GB Mac 上使用传统推理工具运行它。诀窍是将模型的共享部分和 KV 缓存保留在 RAM 中，然后仅从其中传输每个令牌所需的路由专家。固态硬盘。 SSD 比 RAM 慢得多，因此运行时使用小型专家缓存和有界并行“pread”。当这些读取正在进行时，GPU 运行该层的共享部分。我进行了 100 多个实验。大多数都不起作用。有几个人把我带到了这里。 GitHub 存储库中描述了这些实验。目前，它在 8 GB M2 MacBook Air 上生成 5-6 tok/s，在 M5 MacBook Pro 上生成 31-35 tok/s。我还添加了一个实验性的 OpenAI 兼容本地服务器。它支持流式传输和工具调用，并重用 KV 缓存中的一个提示前缀。试试吧！ Mac 应用程序易于安装。第一次运行时，它将从 Hugging Face 下载 15 GB 的权重。该模型的能力令人惊讶。我希望得到任何类型的反馈！
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=49098510
-积分：108
-# 条评论：22]]></description>
+积分：409
+# 条评论：133]]></description>
       <guid>https://github.com/drumih/turbo-fieldfare</guid>
       <pubDate>Wed, 29 Jul 2026 15:05:43 GMT</pubDate>
     </item>
     <item>
-      <title>拥抱面孔：前沿实验室特工入侵剖析</title>
-      <link>https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html</link>
-      <description><![CDATA[文章网址：https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html
+      <title>前沿实验室特工入侵剖析</title>
+      <link>https://huggingface.co/blog/agent-intrusion-technical-timeline</link>
+      <description><![CDATA[文章网址：https://huggingface.co/blog/agent-intrusion-technical-timeline
 评论网址：https://news.ycombinator.com/item?id=49098466
-积分：29
-# 条评论：2]]></description>
-      <guid>https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html</guid>
+积分：121
+# 条评论：48]]></description>
+      <guid>https://huggingface.co/blog/agent-intrusion-technical-timeline</guid>
       <pubDate>Wed, 29 Jul 2026 15:01:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>PostgreSQL 的 MVCC 很糟糕。其他人的也是如此</title>
-      <link>https://boringsql.com/posts/mvcc-bad-bad/</link>
-      <description><![CDATA[文章网址：https://boringsql.com/posts/mvcc-bad-bad/
-评论网址：https://news.ycombinator.com/item?id=49098417
-积分：22
-评论数量：9]]></description>
-      <guid>https://boringsql.com/posts/mvcc-bad-bad/</guid>
-      <pubDate>Wed, 29 Jul 2026 14:58:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT-5.6 与物理 AI 的克劳德寓言 5，哪个表现最好？</title>
-      <link>https://juliahub.com/blog/frontier-models-physical-ai-evaluation</link>
-      <description><![CDATA[文章网址：https://juliahub.com/blog/frontier-models-physical-ai-evaluation
-评论网址：https://news.ycombinator.com/item?id=49098388
-积分：16
-# 条评论：4]]></description>
-      <guid>https://juliahub.com/blog/frontier-models-physical-ai-evaluation</guid>
-      <pubDate>Wed, 29 Jul 2026 14:56:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Qwen Scribe – Apple Silicon 的本地转录和听写</title>
-      <link>https://github.com/VladUZH/qwen-scribe</link>
-      <description><![CDATA[文章网址：https://github.com/VladUZH/qwen-scribe
-评论网址：https://news.ycombinator.com/item?id=49098260
-积分：10
-# 条评论：2]]></description>
-      <guid>https://github.com/VladUZH/qwen-scribe</guid>
-      <pubDate>Wed, 29 Jul 2026 14:47:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能。公司正在招聘数千名电工和木匠</title>
-      <link>https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html</link>
-      <description><![CDATA[文章网址：https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html
-评论网址：https://news.ycombinator.com/item?id=49098198
-积分：43
-# 条评论：18]]></description>
-      <guid>https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html</guid>
-      <pubDate>Wed, 29 Jul 2026 14:43:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>自托管 Kimi K3：硬件成本增加 20%，任务分辨率提高 20%</title>
-      <link>https://aistack.imec-int.com/blog/gpu-self-hosting</link>
-      <description><![CDATA[文章网址：https://aistack.imec-int.com/blog/gpu-self-hosting
-评论网址：https://news.ycombinator.com/item?id=49098130
-积分：11
-# 条评论：0]]></description>
-      <guid>https://aistack.imec-int.com/blog/gpu-self-hosting</guid>
-      <pubDate>Wed, 29 Jul 2026 14:38:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>图工程需要编译器</title>
-      <link>https://fluxtion-playground.dev/blog/2026-07-29-graph-engineering-needs-a-compiler</link>
-      <description><![CDATA[文章网址：https://fluxtion-playground.dev/blog/2026-07-29-graph-engineering-needs-a-compiler
-评论网址：https://news.ycombinator.com/item?id=49098035
-积分：8
-# 条评论：0]]></description>
-      <guid>https://fluxtion-playground.dev/blog/2026-07-29-graph-engineering-needs-a-compiler</guid>
-      <pubDate>Wed, 29 Jul 2026 14:32:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
