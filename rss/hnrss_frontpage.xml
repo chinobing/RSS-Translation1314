@@ -4,107 +4,111 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 29 Jul 2026 14:08:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 16:21:54 GMT</lastBuildDate>
     <item>
-      <title>Handbook.md 表明，长政策文件并不能可靠地管理代理人</title>
-      <link>https://arxiv.org/abs/2607.25398</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2607.25398
-评论网址：https://news.ycombinator.com/item?id=49096969
-积分：38
-# 条评论：14]]></description>
-      <guid>https://arxiv.org/abs/2607.25398</guid>
-      <pubDate>Wed, 29 Jul 2026 13:01:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能崩溃之后</title>
-      <link>https://potsandpansbyccg.com/2026/07/29/after-the-ai-crash/</link>
-      <description><![CDATA[文章网址：https://potsandpansbyccg.com/2026/07/29/after-the-ai-crash/
-评论网址：https://news.ycombinator.com/item?id=49096953
-积分：36
-# 条评论：31]]></description>
-      <guid>https://potsandpansbyccg.com/2026/07/29/after-the-ai-crash/</guid>
-      <pubDate>Wed, 29 Jul 2026 13:00:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Bullshit Detector – 对视频和文章进行事实核查的代理技能</title>
-      <link>https://github.com/SerhiiKorniienko/bullshit-detector</link>
-      <description><![CDATA[文章网址：https://github.com/SerhiiKorniienko/bullshit-detector
-评论网址：https://news.ycombinator.com/item?id=49096917
-积分：26
-# 条评论：5]]></description>
-      <guid>https://github.com/SerhiiKorniienko/bullshit-detector</guid>
-      <pubDate>Wed, 29 Jul 2026 12:58:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Echologue – 我为自己打造的私人人工智能语音日记</title>
-      <link>https://echologue.com/</link>
-      <description><![CDATA[我曾多次尝试写日记，但没有任何进展。因此，我决定为自己制作具有以下功能的应用程序：* 语音优先* 隐私优先* AI 聊天* 使用本地存储的嵌入进行自动标记、含义提取和语义检索* 导出到 LLMAI 角度对我来说特别有趣。它让我可以提出这样的问题：*“提醒我过去 3 个月里的亮点和疯狂的夜晚”*“我在西班牙旅行期间感觉如何，我的分手问题有多大”*“在我告诉 Marc 我的问题后，你如何评价我与 Marc 的整体互动”整个过程就是一劳永逸。我只是每天说一分钟或者有感兴趣的事情时说。所有内容都存储在设备上。 AI 推理是通过零数据保留端点完成的。不会保留电子邮件或其他任何内容，您完全是匿名的，我不知道人们使用什么或如何使用它。否则日记功能不起作用。当我知道某人拥有主密钥或可能遭受安全漏洞时，我无法说出我的秘密想法。我希望您和我一样喜欢该产品。
+      <title>推出 HN：Tokenless（YC S26）——自动模型切换以节省资金</title>
+      <link>https://usetokenless.com/</link>
+      <description><![CDATA[嗨，HN，Rohit，来自 Tokenless (https://usetokenless.com/)，我正在与联合创始人 Andrew 和 Kev 一起构建该项目。我们正在构建一个 API 网关，它可以在不同模型之间动态地逐段路由代理流量，以节省 AI 支出。AI 代币的成本是许多人最关心的问题。 Uber 和 Salesforce 等公司一直在抱怨其每年的人工智能支出超出预期。前沿模型对于开发工作来说非常出色，但价格却非常昂贵。开源模型价格低廉且改进迅速，缩小了与前沿模型的差距，但尚未完全实现。Tokenless 可以让您两全其美 - 仅在需要时将更困难的转向路由到更智能的模型，从而保持较低的成本。在使用 Tokenless 之前，我在普林斯顿大学攻读博士学位。在使用编码/其他代理时，我不断地为模型选择而苦恼，以确保我的 AI 支出尽可能地花在我的学术 Cursor 帐户上。同时，我正在进行 LLM 研究，我在 NeurIPS 提交季恢复期间开发的一项小技术似乎很快就达到了 SOTA。我很惊讶如此简单的想法可以很好地实现路由。我们已经能够以一半的成本开发出与克劳德寓言 5 的性能相匹配的路由器版本。我们网站上的博客文章探讨了我们如何做到这一点的技术细节 (https://usetokenless.com/blog/building-tokenless/)。亮点：
+- 我们的方法一次查询多个模型并使用它们的进度来做出决策（据我所知，这种技术很新颖，如果您知道其他人在这样做，请告诉我们）。
+- 如果路由算法知道缓存何时热/冷，则切换模型不会破坏缓存。未来：
+- 将 Kimi K3、所有其他 GPT 工作以及更多内容添加到路由器继续在 usetokenless.com 上注册并尝试与您的代理一起使用 Tokenless，您将获得 20 美元的免费积分。以下是有关如何使用它的演示：https://youtu.be/sjZWriccllsTokenless 以更便宜的价格提供前沿级智能，因此我们希望获得一些有关使用感觉、路由器路由不正确的极端情况以及您是否觉得路由问题有趣的反馈！
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49096767
-积分：7
-# 条评论：7]]></description>
-      <guid>https://echologue.com/</guid>
-      <pubDate>Wed, 29 Jul 2026 12:43:36 GMT</pubDate>
+评论网址：https://news.ycombinator.com/item?id=49099143
+积分：4
+# 条评论：1]]></description>
+      <guid>https://usetokenless.com/</guid>
+      <pubDate>Wed, 29 Jul 2026 15:55:27 GMT</pubDate>
     </item>
     <item>
-      <title>GPU 上贝塞尔曲线评估的纹理查找方法 (JCGT)</title>
-      <link>https://jcgt.org/published/0015/02/01/</link>
-      <description><![CDATA[文章网址：https://jcgt.org/published/0015/02/01/
-评论网址：https://news.ycombinator.com/item?id=49096742
-积分：12
+      <title>Cesium DevCon 2026 演讲已经开始，其中包括 SQLite 创建者的主题演讲</title>
+      <link>https://cesium.com/events/cesium-developer-conference/2026/</link>
+      <description><![CDATA[文章网址：https://cesium.com/events/cesium-developer-conference/2026/
+评论网址：https://news.ycombinator.com/item?id=49098599
+积分：7
 # 条评论：0]]></description>
-      <guid>https://jcgt.org/published/0015/02/01/</guid>
-      <pubDate>Wed, 29 Jul 2026 12:40:13 GMT</pubDate>
+      <guid>https://cesium.com/events/cesium-developer-conference/2026/</guid>
+      <pubDate>Wed, 29 Jul 2026 15:13:25 GMT</pubDate>
     </item>
     <item>
-      <title>脉冲路径 – 一个浏览器谜题，其中放置是唯一的决定</title>
-      <link>https://pulsepathgame.netlify.app/</link>
-      <description><![CDATA[文章网址：https://pulsepathgame.netlify.app/
-评论网址：https://news.ycombinator.com/item?id=49096493
-积分：7
-# 条评论：5]]></description>
-      <guid>https://pulsepathgame.netlify.app/</guid>
-      <pubDate>Wed, 29 Jul 2026 12:19:30 GMT</pubDate>
+      <title>显示 HN：在任何 M 系列 Mac 上运行 Gemma 4 26B、2 GB RAM 的开源引擎</title>
+      <link>https://github.com/drumih/turbo-fieldfare</link>
+      <description><![CDATA[嗨 HN，我构建了一个专门的推理引擎，用于在任何使用大约 2 GB RAM 的 M 系列 Mac 上运行 4 位 Gemma 4 26B-A4B-IT。它被称为 TurboFieldfare，是用 Swift 和 Metal 编写的。我一直很喜欢设备上的人工智能。您可以在 Mac 或 iPhone 上运行强大的神经网络，这感觉就像魔法一样。因此，我想稍微突破一下限制，运行一个权重不适合内存的模型。该模型的 4 位量化权重大约占用 14 GB，一旦包含操作系统、应用程序和 KV 缓存，就几乎不可能在 8 GB 甚至 16 GB Mac 上使用传统推理工具运行它。诀窍是将模型的共享部分和 KV 缓存保留在 RAM 中，然后仅从其中传输每个令牌所需的路由专家。固态硬盘。 SSD 比 RAM 慢得多，因此运行时使用小型专家缓存和有界并行“pread”。当这些读取正在进行时，GPU 运行该层的共享部分。我进行了 100 多个实验。大多数都不起作用。有几个人把我带到了这里。 GitHub 存储库中描述了这些实验。目前，它在 8 GB M2 MacBook Air 上生成 5-6 tok/s，在 M5 MacBook Pro 上生成 31-35 tok/s。我还添加了一个实验性的 OpenAI 兼容本地服务器。它支持流式传输和工具调用，并重用 KV 缓存中的一个提示前缀。试试吧！ Mac 应用程序易于安装。第一次运行时，它将从 Hugging Face 下载 15 GB 的权重。该模型的能力令人惊讶。我希望得到任何类型的反馈！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49098510
+积分：108
+# 条评论：22]]></description>
+      <guid>https://github.com/drumih/turbo-fieldfare</guid>
+      <pubDate>Wed, 29 Jul 2026 15:05:43 GMT</pubDate>
     </item>
     <item>
-      <title>针对 NPM 和 GitHub Actions 的中断供应链攻击</title>
-      <link>https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/</link>
-      <description><![CDATA[文章网址：https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/
-评论网址：https://news.ycombinator.com/item?id=49096427
-积分：20
-# 条评论：5]]></description>
-      <guid>https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/</guid>
-      <pubDate>Wed, 29 Jul 2026 12:11:18 GMT</pubDate>
+      <title>拥抱面孔：前沿实验室特工入侵剖析</title>
+      <link>https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html</link>
+      <description><![CDATA[文章网址：https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html
+评论网址：https://news.ycombinator.com/item?id=49098466
+积分：29
+# 条评论：2]]></description>
+      <guid>https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html</guid>
+      <pubDate>Wed, 29 Jul 2026 15:01:52 GMT</pubDate>
     </item>
     <item>
-      <title>法国音乐家卡文斯基被发现身亡</title>
-      <link>https://www.euronews.com/culture/2026/07/29/dj-kavinsky-known-for-his-track-nightcall-found-dead-at-his-paris-home</link>
-      <description><![CDATA[文章网址： https://www.euronews.com/culture/2026/07/29/dj-kavinsky-known-for-his-track-nightcall-found-dead-at-his-paris-home
-评论网址：https://news.ycombinator.com/item?id=49096290
-积分：125
-# 条评论：31]]></description>
-      <guid>https://www.euronews.com/culture/2026/07/29/dj-kavinsky-known-for-his-track-nightcall-found-dead-at-his-paris-home</guid>
-      <pubDate>Wed, 29 Jul 2026 11:54:37 GMT</pubDate>
+      <title>PostgreSQL 的 MVCC 很糟糕。其他人的也是如此</title>
+      <link>https://boringsql.com/posts/mvcc-bad-bad/</link>
+      <description><![CDATA[文章网址：https://boringsql.com/posts/mvcc-bad-bad/
+评论网址：https://news.ycombinator.com/item?id=49098417
+积分：22
+评论数量：9]]></description>
+      <guid>https://boringsql.com/posts/mvcc-bad-bad/</guid>
+      <pubDate>Wed, 29 Jul 2026 14:58:17 GMT</pubDate>
     </item>
     <item>
-      <title>文档传播的 AI 蠕虫可以通过 Copilot for Word 自我传播</title>
-      <link>https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/</link>
-      <description><![CDATA[文章网址：https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/
-评论网址：https://news.ycombinator.com/item?id=49096188
-积分：132
-评论数量：106]]></description>
-      <guid>https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/</guid>
-      <pubDate>Wed, 29 Jul 2026 11:44:33 GMT</pubDate>
+      <title>GPT-5.6 与物理 AI 的克劳德寓言 5，哪个表现最好？</title>
+      <link>https://juliahub.com/blog/frontier-models-physical-ai-evaluation</link>
+      <description><![CDATA[文章网址：https://juliahub.com/blog/frontier-models-physical-ai-evaluation
+评论网址：https://news.ycombinator.com/item?id=49098388
+积分：16
+# 条评论：4]]></description>
+      <guid>https://juliahub.com/blog/frontier-models-physical-ai-evaluation</guid>
+      <pubDate>Wed, 29 Jul 2026 14:56:28 GMT</pubDate>
     </item>
     <item>
-      <title>KO阅读器</title>
-      <link>https://koreader.rocks/</link>
-      <description><![CDATA[文章网址：https://koreader.rocks/
-评论网址：https://news.ycombinator.com/item?id=49095865
-积分：239
-评论数：89]]></description>
-      <guid>https://koreader.rocks/</guid>
-      <pubDate>Wed, 29 Jul 2026 11:05:08 GMT</pubDate>
+      <title>Show HN：Qwen Scribe – Apple Silicon 的本地转录和听写</title>
+      <link>https://github.com/VladUZH/qwen-scribe</link>
+      <description><![CDATA[文章网址：https://github.com/VladUZH/qwen-scribe
+评论网址：https://news.ycombinator.com/item?id=49098260
+积分：10
+# 条评论：2]]></description>
+      <guid>https://github.com/VladUZH/qwen-scribe</guid>
+      <pubDate>Wed, 29 Jul 2026 14:47:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>人工智能。公司正在招聘数千名电工和木匠</title>
+      <link>https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html</link>
+      <description><![CDATA[文章网址：https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html
+评论网址：https://news.ycombinator.com/item?id=49098198
+积分：43
+# 条评论：18]]></description>
+      <guid>https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html</guid>
+      <pubDate>Wed, 29 Jul 2026 14:43:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>自托管 Kimi K3：硬件成本增加 20%，任务分辨率提高 20%</title>
+      <link>https://aistack.imec-int.com/blog/gpu-self-hosting</link>
+      <description><![CDATA[文章网址：https://aistack.imec-int.com/blog/gpu-self-hosting
+评论网址：https://news.ycombinator.com/item?id=49098130
+积分：11
+# 条评论：0]]></description>
+      <guid>https://aistack.imec-int.com/blog/gpu-self-hosting</guid>
+      <pubDate>Wed, 29 Jul 2026 14:38:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>图工程需要编译器</title>
+      <link>https://fluxtion-playground.dev/blog/2026-07-29-graph-engineering-needs-a-compiler</link>
+      <description><![CDATA[文章网址：https://fluxtion-playground.dev/blog/2026-07-29-graph-engineering-needs-a-compiler
+评论网址：https://news.ycombinator.com/item?id=49098035
+积分：8
+# 条评论：0]]></description>
+      <guid>https://fluxtion-playground.dev/blog/2026-07-29-graph-engineering-needs-a-compiler</guid>
+      <pubDate>Wed, 29 Jul 2026 14:32:23 GMT</pubDate>
     </item>
     </channel>
 </rss>
