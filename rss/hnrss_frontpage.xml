@@ -4,107 +4,112 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 30 Jul 2026 13:59:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 16:25:56 GMT</lastBuildDate>
     <item>
-      <title>推出 HN：珍贵 (YC S26) – 让非工程师人员构建安全的内部工具</title>
-      <link>https://prized.dev</link>
-      <description><![CDATA[嗨，HN，我们是 Marinos 和 Hudson，Prize (https://prized.dev) 的创始人！ Priested 让非工程师员工描述他们需要的内部工具，并获得一个全栈应用程序，连接到公司的数据并在公司登录后部署，而无需他们处理 API 密钥或连接器。这里有一个演示：https://www.youtube.com/watch?v=730MuYOfZTYPriced 提供安全性的方式是限制代理在网络层的访问范围，并将凭据完全排除在沙箱之外。沙箱从不保存任何密钥或连接器秘密，它仅使用存储为不透明占位符的作用域会话令牌。真实值被交换到我们的出口代理上的请求标头中。连接生产数据时，沙箱的网络策略默认设置为拒绝，因此唯一的输出路径是通过代理。代理对外部连接器进行的任何调用都会由法学硕士法官进行审查，以防止危险操作。获奖意味着内部工作流程，这些工作流程从笔记本或电子表格开始，但从未成为真正的工具，因为工程有更重要的事情要做。一位客户的数据科学家在他的个人欺诈检测笔记本中粘贴了硬编码的阈值等内容。经过几次提示后，它成为一个已发布的风险控制台，连接到公司的数据，这些阈值变成了 UI 控件。今天早些时候，我们与他们通了电话，他们公司的大部分人都在使用它。为此，您需要让人们自由地进行构建，而无需未经审核地访问公司系统。我们允许管理员将数据范围限制到特定用户或团队，并将数据访问记录在审核日志中。每个工具都是使用自己的 Postgres 架构和角色构建的，并通过经过身份验证的 SQL 网关作为该角色运行查询。我们认为 Priested 介于 Lovable 和 Retool 等产品之间。 Lovable 可以轻松生成和托管软件，但它并不是围绕权限分发而设计的。 Retool 通常假设技术构建者正在为最终用户创建应用程序。Prized 将内部工具视为共享对象。工作区中的任何人都可以看到其他人构建的内容、分叉和连接不同的数据。例如，一位客户的营销主管构建了一个促销分析工具。随后，同一家公司的一位数据科学家对其进行了分叉，并以现有工具作为起始基础添加了置信区间。这样，工作空间就成为人们可以重复使用的工具库。我们是实时的、自助的。我们的免费套餐包括每月 2 个工具构建，我们的 Teams 套餐为每月 100 美元。企业层是自定义的，支持本地部署等个性化功能。我们仍在确定控制与自由之间的正确界限。如果您之前已经构建过内部工具，我们将不胜感激您的反馈！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49109721
-积分：4
+      <title>物理学家解开了介子之谜。现在，旧的结果不再成立</title>
+      <link>https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/</link>
+      <description><![CDATA[文章网址：https://www.quantamagazine.org/physicalists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/
+评论网址：https://news.ycombinator.com/item?id=49111305
+积分：11
 # 条评论：0]]></description>
-      <guid>https://prized.dev</guid>
-      <pubDate>Thu, 30 Jul 2026 13:29:03 GMT</pubDate>
+      <guid>https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/</guid>
+      <pubDate>Thu, 30 Jul 2026 15:22:46 GMT</pubDate>
     </item>
     <item>
-      <title>RFC 8890 – 互联网是为最终用户服务的 (2020)</title>
-      <link>https://mnot.net/blog/2020/for_the_users</link>
-      <description><![CDATA[文章网址：https://mnot.net/blog/2020/for_the_users
-评论网址：https://news.ycombinator.com/item?id=49109474
-积分：21
-# 条评论：4]]></description>
-      <guid>https://mnot.net/blog/2020/for_the_users</guid>
-      <pubDate>Thu, 30 Jul 2026 13:07:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>欧盟法院在具有里程碑意义的版权裁决中表示，“VPN 是合法的技术工具”</title>
-      <link>https://remysharp.com/links/2026-07-23-35890312</link>
-      <description><![CDATA[文章网址：https://remysharp.com/links/2026-07-23-35890312
-评论网址：https://news.ycombinator.com/item?id=49109440
-积分：112
-# 条评论：43]]></description>
-      <guid>https://remysharp.com/links/2026-07-23-35890312</guid>
-      <pubDate>Thu, 30 Jul 2026 13:03:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>为什么每个人都在尝试制造固态电池？</title>
-      <link>https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a</link>
-      <description><![CDATA[文章网址：https://www.construction-physicals.com/p/why-is-everyone-trying-to-build-a
-评论网址：https://news.ycombinator.com/item?id=49109193
-积分：18
-# 条评论：7]]></description>
-      <guid>https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a</guid>
-      <pubDate>Thu, 30 Jul 2026 12:38:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenJDK 关于生成式 AI 的临时政策</title>
-      <link>https://openjdk.org/legal/ai</link>
-      <description><![CDATA[文章网址：https://openjdk.org/legal/ai
-评论网址：https://news.ycombinator.com/item?id=49109165
-积分：41
-# 条评论：40]]></description>
-      <guid>https://openjdk.org/legal/ai</guid>
-      <pubDate>Thu, 30 Jul 2026 12:36:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>人们为什么不使用正式方法？</title>
-      <link>https://www.hillelwayne.com/post/why-dont-people-use-formal-methods/</link>
-      <description><![CDATA[文章网址：https://www.hillelwayne.com/post/why-dont-people-use-formal-methods/
-评论网址：https://news.ycombinator.com/item?id=49109026
-积分：22
-# 条评论：12]]></description>
-      <guid>https://www.hillelwayne.com/post/why-dont-people-use-formal-methods/</guid>
-      <pubDate>Thu, 30 Jul 2026 12:21:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>安几岁了？</title>
-      <link>https://quuxplusone.github.io/blog/2026/07/29/how-old-is-ann/</link>
-      <description><![CDATA[文章网址：https://quuxplusone.github.io/blog/2026/07/29/how-old-is-ann/
-评论网址：https://news.ycombinator.com/item?id=49108971
-积分：18
-评论数量：9]]></description>
-      <guid>https://quuxplusone.github.io/blog/2026/07/29/how-old-is-ann/</guid>
-      <pubDate>Thu, 30 Jul 2026 12:14:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>RESTful API 意味着什么</title>
-      <link>https://en.andros.dev/blog/9761fd2e/what-it-means-for-an-api-to-be-restful/</link>
-      <description><![CDATA[文章网址：https://en.andros.dev/blog/9761fd2e/what-it-means-for-an-api-to-be-restful/
-评论网址：https://news.ycombinator.com/item?id=49108966
-积分：15
-# 条评论：15]]></description>
-      <guid>https://en.andros.dev/blog/9761fd2e/what-it-means-for-an-api-to-be-restful/</guid>
-      <pubDate>Thu, 30 Jul 2026 12:13:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mbodi AI (YC P25) 正在招聘机器人/研究工程师</title>
-      <link>https://www.ycombinator.com/companies/mbodi-ai/jobs</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/mbodi-ai/jobs
-评论网址：https://news.ycombinator.com/item?id=49108840
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/mbodi-ai/jobs</guid>
-      <pubDate>Thu, 30 Jul 2026 12:01:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>用于流式传输、工具调用 AI 后端的 Go LLM SDK（加上前端 React 库）</title>
-      <link>https://github.com/grafana/ai-sdk</link>
-      <description><![CDATA[文章网址：https://github.com/grafana/ai-sdk
-评论网址：https://news.ycombinator.com/item?id=49108778
-积分：16
+      <title>戏仿黑客新闻 (2013)</title>
+      <link>http://bradconte.com/files/misc/HackerNewsParodyThread/</link>
+      <description><![CDATA[文章网址：http://bradconte.com/files/misc/HackerNewsParodyThread/
+评论网址：https://news.ycombinator.com/item?id=49111275
+积分：14
 # 条评论：2]]></description>
-      <guid>https://github.com/grafana/ai-sdk</guid>
-      <pubDate>Thu, 30 Jul 2026 11:55:39 GMT</pubDate>
+      <guid>http://bradconte.com/files/misc/HackerNewsParodyThread/</guid>
+      <pubDate>Thu, 30 Jul 2026 15:19:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gemini Robotics 2 为机器人带来全身智能</title>
+      <link>https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/</link>
+      <description><![CDATA[文章网址：https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/
+评论网址：https://news.ycombinator.com/item?id=49111237
+积分：108
+# 条评论：71]]></description>
+      <guid>https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/</guid>
+      <pubDate>Thu, 30 Jul 2026 15:15:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>重构的经济效益</title>
+      <link>https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html</link>
+      <description><![CDATA[文章网址：https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html
+评论网址：https://news.ycombinator.com/item?id=49111176
+积分：25
+# 条评论：8]]></description>
+      <guid>https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html</guid>
+      <pubDate>Thu, 30 Jul 2026 15:10:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN: Claude-account – 切换 Claude Code 帐户而无需再次登录</title>
+      <link>https://github.com/hamzarehmandeveloper/claude-account</link>
+      <description><![CDATA[我对工作和个人项目使用单独的 Claude Code 帐户。每次切换帐户时都必须注销并完成登录流程变得很烦人，因此我构建了一个小型 CLI 来解决它。命令故意简单：claude account add myworkaccount
+克劳德帐户添加我的个人帐户
+克劳德帐户使用 myworkaccount
+claude账户当前切换后，Claude代码正常工作：claude
+克劳德“修复 main.py 中的这个错误”
+存储库：https://github.com/hamzarehmandeveloper/claude-account尝试一下
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49111019
+积分：3
+# 条评论：0]]></description>
+      <guid>https://github.com/hamzarehmandeveloper/claude-account</guid>
+      <pubDate>Thu, 30 Jul 2026 14:58:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>在 DuckDB 中对 Parquet 文件进行分页：File_row_number 还是 Offset？</title>
+      <link>https://rusty.today/blog/paging-parquet-duckdb-file-row-number-vs-offset/</link>
+      <description><![CDATA[文章网址：https://rusty.today/blog/paging-parquet-duckdb-file-row-number-vs-offset/
+评论网址：https://news.ycombinator.com/item?id=49111006
+积分：17
+# 条评论：2]]></description>
+      <guid>https://rusty.today/blog/paging-parquet-duckdb-file-row-number-vs-offset/</guid>
+      <pubDate>Thu, 30 Jul 2026 14:58:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>SDL_GPU最小、单头、高性能2D图形绘画库</title>
+      <link>https://github.com/n67094/sdl_gp</link>
+      <description><![CDATA[文章网址：https://github.com/n67094/sdl_gp
+评论网址：https://news.ycombinator.com/item?id=49110655
+积分：28
+# 条评论：6]]></description>
+      <guid>https://github.com/n67094/sdl_gp</guid>
+      <pubDate>Thu, 30 Jul 2026 14:36:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>通过加密签名的可信 URL</title>
+      <link>https://blog.certisfy.com/2026/04/trusted-urls-via-cryptographic.html</link>
+      <description><![CDATA[文章网址：https://blog.certisfy.com/2026/04/trusted-urls-via-cryptographic.html
+评论网址：https://news.ycombinator.com/item?id=49110577
+积分：8
+# 条评论：6]]></description>
+      <guid>https://blog.certisfy.com/2026/04/trusted-urls-via-cryptographic.html</guid>
+      <pubDate>Thu, 30 Jul 2026 14:31:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>黑客公共广播电台</title>
+      <link>https://hackerpublicradio.org/</link>
+      <description><![CDATA[文章网址：https://hackerpublicradio.org/
+评论网址：https://news.ycombinator.com/item?id=49110547
+积分：41
+# 条评论：3]]></description>
+      <guid>https://hackerpublicradio.org/</guid>
+      <pubDate>Thu, 30 Jul 2026 14:29:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>电影租赁店失去的公民生活</title>
+      <link>https://thereader.mitpress.mit.edu/the-lost-civic-life-of-movie-rental-stores/</link>
+      <description><![CDATA[文章网址：https://thereader.mitpress.mit.edu/the-lost-civic-life-of-movie-rental-stores/
+评论网址：https://news.ycombinator.com/item?id=49110308
+积分：44
+# 条评论：45]]></description>
+      <guid>https://thereader.mitpress.mit.edu/the-lost-civic-life-of-movie-rental-stores/</guid>
+      <pubDate>Thu, 30 Jul 2026 14:11:42 GMT</pubDate>
     </item>
     </channel>
 </rss>
