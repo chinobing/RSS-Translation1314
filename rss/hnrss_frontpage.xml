@@ -4,28 +4,59 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Fri, 31 Jul 2026 06:13:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 11:29:03 GMT</lastBuildDate>
     <item>
-      <title>人类蜜罐</title>
-      <link>https://human2llm.pages.dev/</link>
-      <description><![CDATA[文章网址：https:// human2llm.pages.dev/
-评论网址：https://news.ycombinator.com/item?id=49119322
-积分：4
-# 条评论：1]]></description>
-      <guid>https://human2llm.pages.dev/</guid>
-      <pubDate>Fri, 31 Jul 2026 05:26:13 GMT</pubDate>
+      <title>DeepSeek V4 Flash 0731 情报、性能和价格分析</title>
+      <link>https://artificialanalysis.ai/models/deepseek-v4-flash-ga</link>
+      <description><![CDATA[文章网址：https://artificialanalysis.ai/models/deepseek-v4-flash-ga
+评论网址：https://news.ycombinator.com/item?id=49120299
+积分：36
+# 条评论：8]]></description>
+      <guid>https://artificialanalysis.ai/models/deepseek-v4-flash-ga</guid>
+      <pubDate>Fri, 31 Jul 2026 07:59:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>借助 AI，谷歌 6 月份修复的 Chrome 错误比过去两年还要多</title>
+      <link>https://blog.google/security/chrome-stronger-with-every-update/</link>
+      <description><![CDATA[文章网址：https://blog.google/security/chrome-stronger-with-every-update/
+评论网址：https://news.ycombinator.com/item?id=49120097
+积分：124
+# 条评论：130]]></description>
+      <guid>https://blog.google/security/chrome-stronger-with-every-update/</guid>
+      <pubDate>Fri, 31 Jul 2026 07:29:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek-V4-Flash 更新</title>
+      <link>https://api-docs.deepseek.com/updates/</link>
+      <description><![CDATA[文章网址：https://api-docs.deepseek.com/updates/
+评论网址：https://news.ycombinator.com/item?id=49119559
+积分：336
+评论数量：164]]></description>
+      <guid>https://api-docs.deepseek.com/updates/</guid>
+      <pubDate>Fri, 31 Jul 2026 06:08:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Gander，一款无需任何权限的 Android 文件查看器</title>
+      <link>https://github.com/mokshablr/gander</link>
+      <description><![CDATA[嗨，HN，我构建了一个 Android 文件查看器，可以打开 PDF、Word、Excel、PowerPoint、图像、视频、音频、Markdown 和代码，并且完全不需要任何权限。我一直对打开人们发送给我的文件感到不安。在 Android 上，您可以安装 400 MB 的办公套件并登录，也可以使用需要存储访问权限的小型免费查看器，最终将文件上传到服务器以进行渲染。此外，必须为不同的文件格式下载不同的应用程序的麻烦确实很烦人。Gander 没有任何权限，甚至没有 INTERNET，因此操作系统本身保证文件不能离开手机。PDF 使用 Pdfium，媒体使用 Media3，Office 格式由 WebView 中捆绑的 JS 库呈现，因此不会向任何服务器发送请求。它只是一个查看器。复杂的 PowerPoint 演示文稿大致正确，未绘制电子表格图表，并且不支持旧的二进制 .doc 和 .ppt。当问题出现时我会处理它：P它有 14 MB，已获得 MIT 许可并上传到 Github 版本。请尝试一下！我希望得到一些反馈，尤其是对于渲染不佳或需要新支持的文件。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49119425
+积分：84
+# 条评论：40]]></description>
+      <guid>https://github.com/mokshablr/gander</guid>
+      <pubDate>Fri, 31 Jul 2026 05:45:13 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：人工智能代理的 GUI 应该是什么样子？</title>
       <link>https://marbleos.com/demo</link>
       <description><![CDATA[嗨，HN！我们是 Akilan 和 Miguel，MarbleOS 的创建者。Marble 的灵感来自 Xerox PARC 的 GUI 工作、1984 年的 Macintosh 以及后来成为 Mac OS X 基础的 NeXTSTEP。
-在 GUI 出现之前，与计算机的交互仅限于奇怪的终端命令，例如：C:\&gt; DIRC:\&gt; COPY FILE.TXT A:您必须记住命令、语法、路径和参数。GUI 使这些功能可见。您可以指向文件、拖动它们、单击按钮并从菜单中选择操作，而不用记住命令。
-它并不一定能让全新的事物成为可能；它只是使现有功能更容易理解和使用。我们觉得人工智能仍然处于这个命令行阶段。尽管严格的语法已被自然语言取代，但交互仍然相当僵硬，并且严重依赖于回忆。像 Claude Cowork 这样的工具，看起来仍然令人惊讶地像终端：/skill-name [param1] [param2]。参数是用自然语言编写的，但用户仍然需要知道存在哪些功能以及如何调用它。用户必须知道 AI 可以做什么、要附加什么文件、使用什么工具或技能、需要什么上下文以及如何表述任务。ChatGPT 非常适合提出问题，但我们不相信它是跨文件、网站、工具和多个代理委派工作的最终界面。一旦 AI 真正开始工作，空白文本框和聊天线程列表就开始让人感到受到限制。系统的大部分功能和任务的大部分结构都是不可见的。通过 Marble，我们正在探索一种将 AI 视为工作空间而不是其他聊天应用程序的界面。
-每个委派的任务都会成为一张卡片。多个作业可以彼此相邻并同时运行。文件、工具和完成的工件立即可见。在任务运行之前，Marble 还会显示它期望使用哪些工具。基本思想是用户不必将任务的整个结构牢记在心。结果应该是直接可用的东西，比如电子表格、PDF、幻灯片或其他文件，而不是隐藏在文字记录中的东西。我们并不是声称已经找到了代理 GUI 的最终形式。 Marble 是我们尝试探索是否有比在聊天框中附加更多工具更好的交互模型。该产品主要针对已经使用 ChatGPT 或 Claude，但尚未真正采用代理工作流程的人。我们发现，当工具和可能的操作变得更加明显时，人们开始委派他们在正常聊天中不会想到做的工作。如果您想尝试一下，该网站包含一个可下载的测试版。 Marble 感觉像是一个真正新颖的界面吗？
+在 GUI 出现之前，与计算机的交互仅限于奇怪的终端命令：C:\&gt; DIRC:\&gt; COPY FILE.TXT A:您必须记住命令、语法、路径和参数。GUI 使这些功能可见。您可以指向文件、拖动它们、单击按钮并从菜单中选择操作，而不用记住命令。
+它并不一定能让全新的事物成为可能；它只是使现有功能更容易理解和使用。我们觉得人工智能仍然处于这个命令行阶段。尽管严格的语法已被自然语言取代，但交互仍然相当僵硬，并且严重依赖于回忆。像 Claude Cowork 这样的工具看起来仍然令人惊讶地像终端：/skill-name [param1] [param2]。参数是用自然语言编写的，但用户仍然需要知道存在的功能以及如何调用它。命令行标志和参数刚刚被工具、技能和上下文所取代。ChatGPT 非常适合提出问题，但我们不相信它是跨多个代理委派工作的最终界面。空白文本框和聊天线程列表感觉很有限。代理人的能力大多是看不见的。通过 Marble，我们正在探索一种将 AI 视为工作空间而不是其他聊天应用程序的界面。
+每个委派的任务都会成为一张卡片。多个作业可以彼此相邻并同时运行。文件、工具和完成的工件立即可见。在任务运行之前，Marble 还会显示它期望使用哪些工具。基本思想是用户不必将任务的整个结构牢记在心。结果应该是直接可用的东西，比如电子表格、PowerPoint 或其他文件，而不是埋藏在文字记录中的东西。Marble 是我们探索聊天框之外的交互模型的尝试。该产品主要针对已经使用 ChatGPT 或 Claude，但尚未真正采用代理工作流程的人。我们发现，当工具和可能的操作变得更加明显时，人们开始委派他们在正常聊天中不会想到做的工作。如果您想尝试一下，该网站包含一个可下载的测试版。 Marble 感觉像是一个真正新颖的界面吗？
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=49119274
-积分：4
-# 条评论：0]]></description>
+积分：69
+# 条评论：39]]></description>
       <guid>https://marbleos.com/demo</guid>
       <pubDate>Fri, 31 Jul 2026 05:17:29 GMT</pubDate>
     </item>
@@ -34,58 +65,28 @@
       <link>https://github.com/openjdk/jdk/pull/31120</link>
       <description><![CDATA[文章网址：https://github.com/openjdk/jdk/pull/31120
 评论网址：https://news.ycombinator.com/item?id=49119063
-积分：9
-# 条评论：2]]></description>
+积分：135
+# 条评论：60]]></description>
       <guid>https://github.com/openjdk/jdk/pull/31120</guid>
       <pubDate>Fri, 31 Jul 2026 04:38:19 GMT</pubDate>
-    </item>
-    <item>
-      <title>人工智能交易现在依靠借来的资金进行，贷方正在重新定价</title>
-      <link>https://greyswansignals.com/?theme=dark</link>
-      <description><![CDATA[文章网址：https://greyswansignals.com/?theme=dark
-评论网址：https://news.ycombinator.com/item?id=49118933
-积分：122
-# 条评论：78]]></description>
-      <guid>https://greyswansignals.com/?theme=dark</guid>
-      <pubDate>Fri, 31 Jul 2026 04:15:04 GMT</pubDate>
     </item>
     <item>
       <title>您无法随身携带的会议</title>
       <link>https://earendil.com/posts/session-portability/</link>
       <description><![CDATA[文章网址：https://earendil.com/posts/session-portability/
 评论网址：https://news.ycombinator.com/item?id=49118781
-积分：57
-# 条评论：5]]></description>
+积分：410
+评论数量：100]]></description>
       <guid>https://earendil.com/posts/session-portability/</guid>
       <pubDate>Fri, 31 Jul 2026 03:47:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>债券市场并不买美联储主席沃什所推销的东西</title>
-      <link>https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/</link>
-      <description><![CDATA[文章网址： https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is- sell-2026-07-30/
-评论网址：https://news.ycombinator.com/item?id=49118696
-积分：103
-# 条评论：30]]></description>
-      <guid>https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/</guid>
-      <pubDate>Fri, 31 Jul 2026 03:32:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>加州含水层可能已经到了无可挽回的地步</title>
-      <link>https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return</link>
-      <description><![CDATA[文章网址：https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return
-评论网址：https://news.ycombinator.com/item?id=49118663
-积分：118
-评论数量：90]]></description>
-      <guid>https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return</guid>
-      <pubDate>Fri, 31 Jul 2026 03:27:36 GMT</pubDate>
     </item>
     <item>
       <title>速度的宗教</title>
       <link>https://graybeard.ing/the-religion-of-speed/</link>
       <description><![CDATA[文章网址：https://graybeard.ing/the-religion-of-speed/
 评论网址：https://news.ycombinator.com/item?id=49117284
-积分：77
-# 条评论：22]]></description>
+积分：177
+评论数：86]]></description>
       <guid>https://graybeard.ing/the-religion-of-speed/</guid>
       <pubDate>Thu, 30 Jul 2026 23:43:22 GMT</pubDate>
     </item>
@@ -94,20 +95,20 @@
       <link>https://blog.jim-nielsen.com/2026/ai-aesthetic/</link>
       <description><![CDATA[文章网址：https://blog.jim-nielsen.com/2026/ai-aesthetic/
 评论网址：https://news.ycombinator.com/item?id=49117099
-积分：260
-# 条评论：115]]></description>
+积分：316
+评论数：140]]></description>
       <guid>https://blog.jim-nielsen.com/2026/ai-aesthetic/</guid>
       <pubDate>Thu, 30 Jul 2026 23:22:16 GMT</pubDate>
     </item>
     <item>
-      <title>在我们的网络安全评估中调查三个现实事件</title>
-      <link>https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</link>
-      <description><![CDATA[文章网址：https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
-评论网址：https://news.ycombinator.com/item?id=49116922
-积分：155
-# 条评论：105]]></description>
-      <guid>https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</guid>
-      <pubDate>Thu, 30 Jul 2026 23:00:51 GMT</pubDate>
+      <title>我标记了两篇假作者的研究论文，并且都被接受为口头论文</title>
+      <link>https://geospatialml.com/posts/reviewing-ai-slop/</link>
+      <description><![CDATA[文章网址：https://geospatialml.com/posts/reviewing-ai-slop/
+评论网址：https://news.ycombinator.com/item?id=49116721
+积分：217
+评论数量：96]]></description>
+      <guid>https://geospatialml.com/posts/reviewing-ai-slop/</guid>
+      <pubDate>Thu, 30 Jul 2026 22:33:11 GMT</pubDate>
     </item>
     </channel>
 </rss>
