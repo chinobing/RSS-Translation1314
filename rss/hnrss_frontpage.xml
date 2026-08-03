@@ -4,106 +4,104 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 03 Aug 2026 12:22:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 17:09:00 GMT</lastBuildDate>
     <item>
-      <title>人工智能泡沫正在破灭；我们只是还不知道</title>
-      <link>https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004</link>
-      <description><![CDATA[文章网址： https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004
-评论网址：https://news.ycombinator.com/item?id=49154601
-积分：4
-# 条评论：0]]></description>
-      <guid>https://www.theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004</guid>
-      <pubDate>Mon, 03 Aug 2026 11:59:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>针对幻觉 SQLite 漏洞发布了关键 CVE</title>
-      <link>https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/</link>
-      <description><![CDATA[文章网址：https://research.jfrog.com/post/sqlite-ritic-cves-or-llm-slops/
-评论网址：https://news.ycombinator.com/item?id=49154332
-积分：87
-# 条评论：19]]></description>
-      <guid>https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/</guid>
-      <pubDate>Mon, 03 Aug 2026 11:28:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>9front《这本来应该很有趣》发布</title>
-      <link>https://9front.org/releases/2026/08/02/0/</link>
-      <description><![CDATA[文章网址：https://9front.org/releases/2026/08/02/0/
-评论网址：https://news.ycombinator.com/item?id=49154249
+      <title>推出 HN：Hoplite (YC S26) – 轻松部署云编码代理</title>
+      <link>https://hoplite.sh</link>
+      <description><![CDATA[您好，HN，我们是 Hoplite (https://hoplite.sh) 的创始人 Bence 和 Ryan。 Hoplite 允许您在云中部署编码代理，并使用一套工具使 QA 功能变得异常简单。在入职过程中，我们会移植您的本地设置 - 会话、内存、MCP 服务器，并让您的项目准备好在云端运行。这是一个演示：https://youtu.be/bnyktZ_9pjE我们在放弃了应用于 YC 的想法后来到了这里；零售投资人工智能。它最终不是我们自己使用的产品，也不是为我们感到有联系的客户群提供服务。在反思我们真正想做的事情时，我们意识到我们喜欢与创始人和开发人员交谈，并且对云代理的特定领域确实有自己的看法。我们尝试了所有现有的解决方案，但没有找到一个能够 A) 充分利用云中的优势，B) 高性能且使用起来感觉良好的解决方案。我们正在构建一款产品，我们认为它反映了 6-12 个月后主流开发的情况。随着模型的改进，开发人员最终将审查越来越少的代码，转而专注于审查产品输出。这意味着评估新的用户流、直观地验证新功能是否良好、API 是否按预期工作、CLI 在 Windows 上工作等等。并且在同时运行数百个代理的同时执行此操作。在代理方面，我们创建了一个自定义工具。我们花了很多时间来决定是否应该使用 Codex/Claude Code 这样的现成解决方案，但最终希望在内部构建它时能够获得独立性和自由度。这也意味着我们可以测试全新的功能，而无需依赖 Anthropic 和 OpenAI 来赶上。一切都托管在 AWS 上，但以下除外：用于持久工作流程的 Temporal、用于沙箱的 Modal 以及用于我们数据库的 Planetscale。我们的基础设施决策源于我们坚信代理正在成为第 0 层基础设施，他们需要与之相匹配的可靠性和安全性。您现在可以使用代码“HACKERNEWS”免费试用 - 我们已提供 100 美元的免费积分，此外您还可以连接您的 Codex 订阅并通过它使用 OpenAI 模型。您可以在 https://hoplite.sh/pricing 上查看有关我们定价的更多详细信息。目前，我们专注于优化两个关键体验：入门和预览，并希望听到您对它们的反馈。如果您发现代理在某些任务中的表现不符合您的期望，请告诉我们！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49157997
 积分：12
-# 条评论：0]]></description>
-      <guid>https://9front.org/releases/2026/08/02/0/</guid>
-      <pubDate>Mon, 03 Aug 2026 11:17:56 GMT</pubDate>
+# 条评论：3]]></description>
+      <guid>https://hoplite.sh</guid>
+      <pubDate>Mon, 03 Aug 2026 16:32:06 GMT</pubDate>
     </item>
     <item>
-      <title>ICE 去年收集了近 100 万人的 DNA，其中包括幼儿</title>
-      <link>https://www.wired.com/story/ice-dna-collection-fbi-codis/</link>
-      <description><![CDATA[文章网址：https://www.wired.com/story/ice-dna-collection-fbi-codis/
-评论网址：https://news.ycombinator.com/item?id=49154237
-积分：38
-# 条评论：2]]></description>
-      <guid>https://www.wired.com/story/ice-dna-collection-fbi-codis/</guid>
-      <pubDate>Mon, 03 Aug 2026 11:16:33 GMT</pubDate>
+      <title>数学和理论计算机科学的十大进展</title>
+      <link>https://openai.com/index/ten-advances-in-mathematics/</link>
+      <description><![CDATA[文章网址：https://openai.com/index/ten-advances-in-mathematics/
+评论网址：https://news.ycombinator.com/item?id=49157930
+积分：8
+# 条评论：336]]></description>
+      <guid>https://openai.com/index/ten-advances-in-mathematics/</guid>
+      <pubDate>Mon, 03 Aug 2026 16:27:12 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Nightcrawler – 在智能手机上运行的本地 AI 渗透测试代理</title>
-      <link>https://github.com/garagehq/nightcrawler/</link>
-      <description><![CDATA[文章网址：https://github.com/garagehq/nightcrawler/
-评论网址：https://news.ycombinator.com/item?id=49154127
-积分：9
-# 条评论：1]]></description>
-      <guid>https://github.com/garagehq/nightcrawler/</guid>
-      <pubDate>Mon, 03 Aug 2026 11:06:15 GMT</pubDate>
+      <title>显示 HN：MCP 上代理会话的产品分析（和评估）</title>
+      <link>https://armature.tech/</link>
+      <description><![CDATA[]]></description>
+      <guid>https://armature.tech/</guid>
+      <pubDate>Mon, 03 Aug 2026 16:17:59 GMT</pubDate>
     </item>
     <item>
-      <title>通过手动重新输入 LLM 生成的代码来防止认知债务</title>
-      <link>https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/</link>
-      <description><![CDATA[文章网址：https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm- generated-code/
-评论网址：https://news.ycombinator.com/item?id=49153374
-积分：118
-评论数量：96]]></description>
-      <guid>https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/</guid>
-      <pubDate>Mon, 03 Aug 2026 09:32:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>DMARC 可以保护您免受哪些侵害，不能保护您免受哪些侵害</title>
-      <link>https://senderledger.com/articles/what-dmarc-actually-protects-you-from</link>
-      <description><![CDATA[文章网址：https://senderledger.com/articles/what-dmarc-actually-protects-you-from
-评论网址：https://news.ycombinator.com/item?id=49153361
-积分：31
-# 条评论：10]]></description>
-      <guid>https://senderledger.com/articles/what-dmarc-actually-protects-you-from</guid>
-      <pubDate>Mon, 03 Aug 2026 09:29:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>PISIGuard：与 AI 聊天时保护您的个人和敏感信息</title>
-      <link>https://github.com/mohamed--abdel-maksoud/pisiguard</link>
-      <description><![CDATA[文章网址：https://github.com/mohamed--abdel-maksoud/pisiguard
-评论网址：https://news.ycombinator.com/item?id=49153029
-积分：12
-# 条评论：8]]></description>
-      <guid>https://github.com/mohamed--abdel-maksoud/pisiguard</guid>
-      <pubDate>Mon, 03 Aug 2026 08:54:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>正则表达式的真正威力 (2012)</title>
-      <link>https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html</link>
-      <description><![CDATA[文章网址：https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html
-评论网址：https://news.ycombinator.com/item?id=49152973
-积分：20
-# 条评论：10]]></description>
-      <guid>https://www.npopov.com/2012/06/15/The-true-power-of-regular-expressions.html</guid>
-      <pubDate>Mon, 03 Aug 2026 08:47:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我们使用 PPPoE 半桥修复了 UniFi 缓慢的 PPPoE 性能</title>
-      <link>https://arcbox.dev/blog/unifi-pppoe-half-bridge-acceleration</link>
-      <description><![CDATA[文章网址：https://arcbox.dev/blog/unifi-pppoe-half-bridge-acceleration
-评论网址：https://news.ycombinator.com/item?id=49152871
-积分：24
+      <title>AI能够独立完成的最大软件项目是什么？</title>
+      <link>https://epoch.ai/MirrorCode</link>
+      <description><![CDATA[文章网址：https://epoch.ai/MirrorCode
+评论网址：https://news.ycombinator.com/item?id=49157786
+积分：23
 # 条评论：11]]></description>
-      <guid>https://arcbox.dev/blog/unifi-pppoe-half-bridge-acceleration</guid>
-      <pubDate>Mon, 03 Aug 2026 08:34:24 GMT</pubDate>
+      <guid>https://epoch.ai/MirrorCode</guid>
+      <pubDate>Mon, 03 Aug 2026 16:16:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>INT8 ConvRot说明（不再需要FP8）</title>
+      <link>https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en</link>
+      <description><![CDATA[文章网址：https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en
+评论网址：https://news.ycombinator.com/item?id=49157645
+积分：7
+# 条评论：2]]></description>
+      <guid>https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en</guid>
+      <pubDate>Mon, 03 Aug 2026 16:07:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>泰勒农场在十六天内四次改写了其环孢菌声明</title>
+      <link>https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/</link>
+      <description><![CDATA[文章网址： https://www.marlerblog.com/case-news/taylor-farms-has-rewriting-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/
+评论网址：https://news.ycombinator.com/item?id=49157128
+积分：169
+评论数：80]]></description>
+      <guid>https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/</guid>
+      <pubDate>Mon, 03 Aug 2026 15:31:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>开发工具必须是开源的</title>
+      <link>https://blog.exe.dev/devtools-must-be-open-source</link>
+      <description><![CDATA[文章网址：https://blog.exe.dev/devtools-must-be-open-source
+评论网址：https://news.ycombinator.com/item?id=49156111
+积分：175
+# 条评论：56]]></description>
+      <guid>https://blog.exe.dev/devtools-must-be-open-source</guid>
+      <pubDate>Mon, 03 Aug 2026 14:15:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Andy Pavlo 加入 ClickHouse 建立 ClickHouse 实验室</title>
+      <link>https://clickhouse.com/blog/andy-pavlo-joins-clickhouse</link>
+      <description><![CDATA[文章网址：https://clickhouse.com/blog/andy-pavlo-joins-clickhouse
+评论网址：https://news.ycombinator.com/item?id=49156011
+积分：114
+# 条评论：23]]></description>
+      <guid>https://clickhouse.com/blog/andy-pavlo-joins-clickhouse</guid>
+      <pubDate>Mon, 03 Aug 2026 14:09:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ComfyUI 中的 MiniMax H3 Day-0 支持：开放权重、原生音频和 2K 视频</title>
+      <link>https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui</link>
+      <description><![CDATA[文章网址：https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui
+评论网址：https://news.ycombinator.com/item?id=49155629
+积分：143
+# 条评论：44]]></description>
+      <guid>https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui</guid>
+      <pubDate>Mon, 03 Aug 2026 13:34:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>SPF 记录语法：机制、限定符、修饰符和宏</title>
+      <link>https://dmarcguard.io/blog/spf-record-syntax/</link>
+      <description><![CDATA[文章网址：https://dmarcguard.io/blog/spf-record-syntax/
+评论网址：https://news.ycombinator.com/item?id=49155626
+积分：27
+# 条评论：7]]></description>
+      <guid>https://dmarcguard.io/blog/spf-record-syntax/</guid>
+      <pubDate>Mon, 03 Aug 2026 13:34:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
