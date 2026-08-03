@@ -4,15 +4,65 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Mon, 03 Aug 2026 17:09:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 19:35:38 GMT</lastBuildDate>
+    <item>
+      <title>可计费使用 API：Cloudflare 的编程成本可见性</title>
+      <link>https://blog.cloudflare.com/billable-usage-api/</link>
+      <description><![CDATA[文章网址：https://blog.cloudflare.com/billable-usage-api/
+评论网址：https://news.ycombinator.com/item?id=49158714
+积分：18
+# 条评论：2]]></description>
+      <guid>https://blog.cloudflare.com/billable-usage-api/</guid>
+      <pubDate>Mon, 03 Aug 2026 17:18:06 GMT</pubDate>
+    </item>
+    <item>
+      <title>更小、更快、更安全：大规模运行 Kimi 和 GLM</title>
+      <link>https://blog.cloudflare.com/smaller-faster-safer-models/</link>
+      <description><![CDATA[文章网址：https://blog.cloudflare.com/smaller-faster-safer-models/
+评论网址：https://news.ycombinator.com/item?id=49158581
+积分：26
+# 条评论：3]]></description>
+      <guid>https://blog.cloudflare.com/smaller-faster-safer-models/</guid>
+      <pubDate>Mon, 03 Aug 2026 17:08:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>庆祝 Kermit 45 周年，发布 15 年来首个新的 C-Kermit</title>
+      <link>https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase</link>
+      <description><![CDATA[文章网址： https://changelog.complete.org/archives/44456-celebating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase
+评论网址：https://news.ycombinator.com/item?id=49158474
+积分：66
+# 条评论：18]]></description>
+      <guid>https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase</guid>
+      <pubDate>Mon, 03 Aug 2026 17:02:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>使用任务运行器执行常见编码任务</title>
+      <link>https://hamvocke.com/blog/task-runners/</link>
+      <description><![CDATA[文章网址：https://hamvocke.com/blog/task-runners/
+评论网址：https://news.ycombinator.com/item?id=49158287
+积分：23
+# 条评论：5]]></description>
+      <guid>https://hamvocke.com/blog/task-runners/</guid>
+      <pubDate>Mon, 03 Aug 2026 16:51:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rust 中的 SearXNG</title>
+      <link>https://github.com/MikeLuu99/searxng-rust</link>
+      <description><![CDATA[文章网址：https://github.com/MikeLuu99/searxng-rust
+评论网址：https://news.ycombinator.com/item?id=49158141
+积分：27
+# 条评论：10]]></description>
+      <guid>https://github.com/MikeLuu99/searxng-rust</guid>
+      <pubDate>Mon, 03 Aug 2026 16:41:40 GMT</pubDate>
+    </item>
     <item>
       <title>推出 HN：Hoplite (YC S26) – 轻松部署云编码代理</title>
       <link>https://hoplite.sh</link>
       <description><![CDATA[您好，HN，我们是 Hoplite (https://hoplite.sh) 的创始人 Bence 和 Ryan。 Hoplite 允许您在云中部署编码代理，并使用一套工具使 QA 功能变得异常简单。在入职过程中，我们会移植您的本地设置 - 会话、内存、MCP 服务器，并让您的项目准备好在云端运行。这是一个演示：https://youtu.be/bnyktZ_9pjE我们在放弃了应用于 YC 的想法后来到了这里；零售投资人工智能。它最终不是我们自己使用的产品，也不是为我们感到有联系的客户群提供服务。在反思我们真正想做的事情时，我们意识到我们喜欢与创始人和开发人员交谈，并且对云代理的特定领域确实有自己的看法。我们尝试了所有现有的解决方案，但没有找到一个能够 A) 充分利用云中的优势，B) 高性能且使用起来感觉良好的解决方案。我们正在构建一款产品，我们认为它反映了 6-12 个月后主流开发的情况。随着模型的改进，开发人员最终将审查越来越少的代码，转而专注于审查产品输出。这意味着评估新的用户流、直观地验证新功能是否良好、API 是否按预期工作、CLI 在 Windows 上工作等等。并且在同时运行数百个代理的同时执行此操作。在代理方面，我们创建了一个自定义工具。我们花了很多时间来决定是否应该使用 Codex/Claude Code 这样的现成解决方案，但最终希望在内部构建它时能够获得独立性和自由度。这也意味着我们可以测试全新的功能，而无需依赖 Anthropic 和 OpenAI 来赶上。一切都托管在 AWS 上，但以下除外：用于持久工作流程的 Temporal、用于沙箱的 Modal 以及用于我们数据库的 Planetscale。我们的基础设施决策源于我们坚信代理正在成为第 0 层基础设施，他们需要与之相匹配的可靠性和安全性。您现在可以使用代码“HACKERNEWS”免费试用 - 我们已提供 100 美元的免费积分，此外您还可以连接您的 Codex 订阅并通过它使用 OpenAI 模型。您可以在 https://hoplite.sh/pricing 上查看有关我们定价的更多详细信息。目前，我们专注于优化两个关键体验：入门和预览，并希望听到您对它们的反馈。如果您发现代理在某些任务中的表现不符合您的期望，请告诉我们！
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=49157997
-积分：12
-# 条评论：3]]></description>
+积分：25
+# 条评论：30]]></description>
       <guid>https://hoplite.sh</guid>
       <pubDate>Mon, 03 Aug 2026 16:32:06 GMT</pubDate>
     </item>
@@ -21,8 +71,8 @@
       <link>https://openai.com/index/ten-advances-in-mathematics/</link>
       <description><![CDATA[文章网址：https://openai.com/index/ten-advances-in-mathematics/
 评论网址：https://news.ycombinator.com/item?id=49157930
-积分：8
-# 条评论：336]]></description>
+积分：169
+# 条评论：452]]></description>
       <guid>https://openai.com/index/ten-advances-in-mathematics/</guid>
       <pubDate>Mon, 03 Aug 2026 16:27:12 GMT</pubDate>
     </item>
@@ -34,74 +84,24 @@
       <pubDate>Mon, 03 Aug 2026 16:17:59 GMT</pubDate>
     </item>
     <item>
-      <title>AI能够独立完成的最大软件项目是什么？</title>
-      <link>https://epoch.ai/MirrorCode</link>
-      <description><![CDATA[文章网址：https://epoch.ai/MirrorCode
-评论网址：https://news.ycombinator.com/item?id=49157786
-积分：23
-# 条评论：11]]></description>
-      <guid>https://epoch.ai/MirrorCode</guid>
-      <pubDate>Mon, 03 Aug 2026 16:16:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>INT8 ConvRot说明（不再需要FP8）</title>
+      <title>INT8 ConvRot 说明（不再需要 FP8）</title>
       <link>https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en</link>
       <description><![CDATA[文章网址：https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en
 评论网址：https://news.ycombinator.com/item?id=49157645
-积分：7
-# 条评论：2]]></description>
+积分：15
+# 条评论：5]]></description>
       <guid>https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en</guid>
       <pubDate>Mon, 03 Aug 2026 16:07:09 GMT</pubDate>
     </item>
     <item>
-      <title>泰勒农场在十六天内四次改写了其环孢菌声明</title>
+      <title>泰勒农场在十六天内四次改写了其环孢子虫声明</title>
       <link>https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/</link>
       <description><![CDATA[文章网址： https://www.marlerblog.com/case-news/taylor-farms-has-rewriting-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/
 评论网址：https://news.ycombinator.com/item?id=49157128
-积分：169
-评论数：80]]></description>
+积分：259
+# 条评论：180]]></description>
       <guid>https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/</guid>
       <pubDate>Mon, 03 Aug 2026 15:31:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>开发工具必须是开源的</title>
-      <link>https://blog.exe.dev/devtools-must-be-open-source</link>
-      <description><![CDATA[文章网址：https://blog.exe.dev/devtools-must-be-open-source
-评论网址：https://news.ycombinator.com/item?id=49156111
-积分：175
-# 条评论：56]]></description>
-      <guid>https://blog.exe.dev/devtools-must-be-open-source</guid>
-      <pubDate>Mon, 03 Aug 2026 14:15:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Andy Pavlo 加入 ClickHouse 建立 ClickHouse 实验室</title>
-      <link>https://clickhouse.com/blog/andy-pavlo-joins-clickhouse</link>
-      <description><![CDATA[文章网址：https://clickhouse.com/blog/andy-pavlo-joins-clickhouse
-评论网址：https://news.ycombinator.com/item?id=49156011
-积分：114
-# 条评论：23]]></description>
-      <guid>https://clickhouse.com/blog/andy-pavlo-joins-clickhouse</guid>
-      <pubDate>Mon, 03 Aug 2026 14:09:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ComfyUI 中的 MiniMax H3 Day-0 支持：开放权重、原生音频和 2K 视频</title>
-      <link>https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui</link>
-      <description><![CDATA[文章网址：https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui
-评论网址：https://news.ycombinator.com/item?id=49155629
-积分：143
-# 条评论：44]]></description>
-      <guid>https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui</guid>
-      <pubDate>Mon, 03 Aug 2026 13:34:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>SPF 记录语法：机制、限定符、修饰符和宏</title>
-      <link>https://dmarcguard.io/blog/spf-record-syntax/</link>
-      <description><![CDATA[文章网址：https://dmarcguard.io/blog/spf-record-syntax/
-评论网址：https://news.ycombinator.com/item?id=49155626
-积分：27
-# 条评论：7]]></description>
-      <guid>https://dmarcguard.io/blog/spf-record-syntax/</guid>
-      <pubDate>Mon, 03 Aug 2026 13:34:25 GMT</pubDate>
     </item>
     </channel>
 </rss>
