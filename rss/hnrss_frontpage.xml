@@ -4,45 +4,86 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 02 Aug 2026 21:55:47 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 02:43:29 GMT</lastBuildDate>
     <item>
-      <title>Show HN：Draco – Rust 中的单二进制、自托管 Firecrawl 替代方案</title>
-      <link>https://github.com/0xchasercat/draco/</link>
-      <description><![CDATA[抓取现代网站已成为一件令人头疼的事情。您基本上有两种选择：支付昂贵的 API（如 Firecrawl/Browserbase）费用，或者运行一组无头 Chrome 实例，每页占用 1GB RAM，但仍然会被 Cloudflare 阻止。我构建了 Draco 来解决这个问题。它是一个用 Rust 编写的快速、单二进制网络爬虫。你将它指向一个 URL，它会输出完全干净的 Markdown 或 LLM 的结构化 JSON。秘密在于它不仅仅为每个请求启动浏览器。它使用分层升级引擎：第 1 层（隐形获取）：Draco 使用自定义 TLS/JA4 指纹在数据包级别完美模仿真实浏览器的网络签名。事实证明，如果你的握手看起来正确，很多反机器人墙都会让你直接通过。在我针对 Cloudflare 和 Target 等网站进行的基准测试中，Playwright 消耗了约 500MB 的 RAM 并且超时。 Draco 仅使用 20MB RAM 在不到一秒的时间内绕过了它们。第 2 层（V8 隔离）：如果它遇到需要渲染的 React/Next.js SPA，Draco 将在个位数毫秒内启动进程内 V8 引擎。它水合 DOM 并拦截页面正在调用的隐藏 JSON API，为您提供原始数据，而无需图形浏览器的开销。第 3 层（真实浏览器）：如果它遇到了绝对的障碍，它会无缝地回退到检测并驱动计算机上的真实浏览器。我还内置了所有工具，使其成为托管服务的完全替代品：守护进程模式：运行 draco 服务，您将获得一个带有与 Firecrawl 兼容的 REST API。您可以立即更换 API 密钥并自行托管。内置 MCP 服务器：它本身公开模型上下文协议服务器，以便您可以将其直接插入 Claude Desktop 或 AI 代理。网页搜索：内置并行多引擎网页搜索（无需 Google 搜索 API 密钥）。交互模式：像开发工具控制台一样有状态地驱动页面，在导航中保留 Cookie（适用于法学硕士）主要）。它是完全开源的（MIT/Apache-2.0）。我只是想把这个发布给那些厌倦了与无头 Chromium 作斗争或支付每页抓取费用的人。获取二进制文件并向其抛出一个困难的 URL。请注意，它仍然是一个 WIP，因此可能会出现一些不常见站点的意外损坏，但在大多数情况下它的功能非常强大，它可以处理受 cf 保护的站点和重型 SPA，而其他所有内容都部分或完全失败，同时占用更长或更多的资源。 （已在 example.com、hackernews、cloudflare、glassdoor、bluff.com、target.com、stake.com 和 Threat.com 上进行测试）┏‐‐‐‐‐‐┳‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐┳‐‐‐‐‐‐‐‐‐‐┳‐‐‐‐‐‐‐‐┳‐‐‐‐‐‐‐‐┳‐‐‐‐‐‐‐‐‐‐‐‐┳‐‐‐‐‐‐‐‐‐‐‐‐┓
-┃ 排名 ┃ 工具 ┃ 分数 ┃ 通过 ┃ 平均时间 ┃ 平均内存 ┃
-┡────────────╇────────────────────────────────╇──────────────╇────────────╇──────────────────╇────────────────┩
-│ #1 │ 德拉科 │ 769.7 │ 8/8 │ 3.45 │ 216.50 │
-│ #2 │ 暗箱 │ 384.5 │ 4/8 │ 2.68 │ 87.59 │
-│ #3 │ BrowserOxide │ 373.4 │ 4/8 │ 6.42 │ 105.95 │
-│ #4 │ 剧作家 │ 342.2 │ 4/8 │ 1.71 │ 535.07 │
-│ #5 │ 弹性 │ 196.6 │ 2/8 │ 0.59 │ 19.38 │
-└──────┴──────────────┴──────┴──────┴──────────┴────────┘仓库：https://github.com/0xchasercat/draco/
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49148163
-积分：8
-# 条评论：1]]></description>
-      <guid>https://github.com/0xchasercat/draco/</guid>
-      <pubDate>Sun, 02 Aug 2026 20:48:45 GMT</pubDate>
+      <title>RFC 9851：TLS 1.2 处于功能冻结状态</title>
+      <link>https://www.rfc-editor.org/rfc/rfc9851.html</link>
+      <description><![CDATA[文章网址：https://www.rfc-editor.org/rfc/rfc9851.html
+评论网址：https://news.ycombinator.com/item?id=49150181
+积分：12
+# 条评论：2]]></description>
+      <guid>https://www.rfc-editor.org/rfc/rfc9851.html</guid>
+      <pubDate>Mon, 03 Aug 2026 01:23:26 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能狂热：从郁金香到代币</title>
-      <link>https://seanhelvey.com/tools-and-their-tools/</link>
-      <description><![CDATA[文章网址：https://seanhelvey.com/tools-and-their-tools/
-评论网址：https://news.ycombinator.com/item?id=49148159
-积分：29
-# 条评论：19]]></description>
-      <guid>https://seanhelvey.com/tools-and-their-tools/</guid>
-      <pubDate>Sun, 02 Aug 2026 20:48:28 GMT</pubDate>
+      <title>显示 HN：Isopolis – SF 的等距像素图</title>
+      <link>https://sf.isopolis.city/</link>
+      <description><![CDATA[文章网址：https://sf.isopolis.city/
+评论网址：https://news.ycombinator.com/item?id=49149966
+积分：34
+评论数量：9]]></description>
+      <guid>https://sf.isopolis.city/</guid>
+      <pubDate>Mon, 03 Aug 2026 00:46:38 GMT</pubDate>
     </item>
     <item>
-      <title>欧盟年龄验证项目强制要求硬件绑定证明</title>
-      <link>https://linuxiac.com/eu-age-verification-project-mandates-hardware-bound-attestation/</link>
-      <description><![CDATA[文章网址：https://linuxiac.com/eu-age-verification-project-mandates-hardware-bound-attestation/
-评论网址：https://news.ycombinator.com/item?id=49148128
-积分：22
-# 条评论：8]]></description>
-      <guid>https://linuxiac.com/eu-age-verification-project-mandates-hardware-bound-attestation/</guid>
-      <pubDate>Sun, 02 Aug 2026 20:44:24 GMT</pubDate>
+      <title>CP/M-386 – 用于 386 保护模式的 CP/M，源自 CP/M-68K</title>
+      <link>https://github.com/johnsonjh/cpm386</link>
+      <description><![CDATA[文章网址：https://github.com/johnsonjh/cpm386
+评论网址：https://news.ycombinator.com/item?id=49149898
+积分：28
+# 条评论：6]]></description>
+      <guid>https://github.com/johnsonjh/cpm386</guid>
+      <pubDate>Mon, 03 Aug 2026 00:38:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>显示 HN: ssh ssh.place</title>
+      <link>https://ssh.place</link>
+      <description><![CDATA[文章网址：https://ssh.place
+评论网址：https://news.ycombinator.com/item?id=49149805
+积分：27
+# 条评论：12]]></description>
+      <guid>https://ssh.place</guid>
+      <pubDate>Mon, 03 Aug 2026 00:23:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>为什么图书角不会将贡献同步回 OpenStreetMap</title>
+      <link>https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/</link>
+      <description><![CDATA[文章网址：https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/
+评论网址：https://news.ycombinator.com/item?id=49149746
+积分：46
+# 条评论：22]]></description>
+      <guid>https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/</guid>
+      <pubDate>Mon, 03 Aug 2026 00:12:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>心智计算理论 (2015)</title>
+      <link>https://plato.stanford.edu/entries/computational-mind/</link>
+      <description><![CDATA[文章网址：https://plato.stanford.edu/entries/computational-mind/
+评论网址：https://news.ycombinator.com/item?id=49149125
+积分：33
+# 条评论：10]]></description>
+      <guid>https://plato.stanford.edu/entries/computational-mind/</guid>
+      <pubDate>Sun, 02 Aug 2026 22:35:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>加州人的数据删除请求 DROP 将于 8 月 1 日生效</title>
+      <link>https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/</link>
+      <description><![CDATA[文章网址： https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/
+评论网址：https://news.ycombinator.com/item?id=49148987
+积分：91
+# 条评论：36]]></description>
+      <guid>https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/</guid>
+      <pubDate>Sun, 02 Aug 2026 22:16:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：Mu – 代理工具</title>
+      <link>https://github.com/micro/mu</link>
+      <description><![CDATA[文章网址：https://github.com/micro/mu
+评论网址：https://news.ycombinator.com/item?id=49148899
+积分：34
+评论数量：9]]></description>
+      <guid>https://github.com/micro/mu</guid>
+      <pubDate>Sun, 02 Aug 2026 22:06:34 GMT</pubDate>
     </item>
     <item>
       <title>Show HN：让您的 Framework 12 听起来像一扇吱吱作响的门</title>
@@ -50,8 +91,8 @@
       <description><![CDATA[前几天我在研究 Framework 上的 iio 设备，结果发现 Framework 12 有一个非常准确的铰链角度传感器！所以我制作了一个 LidAngleSensor 版本（https://github.com/samhenrigold/LidAngleSensor），但适用于 Linux 上的 Framework 12，这样你就可以让你的铰链听起来生锈了
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=49148048
-积分：9
-# 条评论：0]]></description>
+积分：56
+# 条评论：7]]></description>
       <guid>https://github.com/ArcaEge/creakwork12</guid>
       <pubDate>Sun, 02 Aug 2026 20:33:01 GMT</pubDate>
     </item>
@@ -60,60 +101,10 @@
       <link>https://dobrowolski.dev/article/sharing-an-x-server-across-hosts-with-familywild/</link>
       <description><![CDATA[文章网址：https://dobrowolski.dev/article/sharing-an-x-server-across-hosts-with-familywild/
 评论网址：https://news.ycombinator.com/item?id=49147978
-积分：11
-# 条评论：1]]></description>
+积分：36
+# 条评论：10]]></description>
       <guid>https://dobrowolski.dev/article/sharing-an-x-server-across-hosts-with-familywild/</guid>
       <pubDate>Sun, 02 Aug 2026 20:26:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>让机器进来</title>
-      <link>https://blog.semenzin.com/let-the-machines-in/</link>
-      <description><![CDATA[文章网址：https://blog.semenzin.com/let-the-machines-in/
-评论网址：https://news.ycombinator.com/item?id=49147890
-积分：12
-# 条评论：1]]></description>
-      <guid>https://blog.semenzin.com/let-the-machines-in/</guid>
-      <pubDate>Sun, 02 Aug 2026 20:17:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>将 Go 的 Defer 添加到 TypeScript 编译器</title>
-      <link>https://healeycodes.com/adding-defer-to-the-typescript-compiler</link>
-      <description><![CDATA[文章网址：https://healeycodes.com/adding-defer-to-the-typescript-compiler
-评论网址：https://news.ycombinator.com/item?id=49147853
-积分：6
-# 条评论：1]]></description>
-      <guid>https://healeycodes.com/adding-defer-to-the-typescript-compiler</guid>
-      <pubDate>Sun, 02 Aug 2026 20:12:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：MicroCodex Coding Agent – 用 C++ 重新实现 OpenAI/codex <1MB 二进制文件</title>
-      <link>https://github.com/paoloanzn/microcodex</link>
-      <description><![CDATA[文章网址：https://github.com/paoloanzn/microcodex
-评论网址：https://news.ycombinator.com/item?id=49147842
-积分：4
-# 条评论：0]]></description>
-      <guid>https://github.com/paoloanzn/microcodex</guid>
-      <pubDate>Sun, 02 Aug 2026 20:11:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>TinyNES 评测 – 超级利基 NES 游戏机</title>
-      <link>https://blog.lon.tv/2023/02/05/tinynes-review-a-super-niche-nes-console/</link>
-      <description><![CDATA[文章网址：https://blog.lon.tv/2023/02/05/tinynes-review-a-super-niche-nes-console/
-评论网址：https://news.ycombinator.com/item?id=49147760
-积分：3
-# 条评论：0]]></description>
-      <guid>https://blog.lon.tv/2023/02/05/tinynes-review-a-super-niche-nes-console/</guid>
-      <pubDate>Sun, 02 Aug 2026 20:01:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>我个人的 AI 基准：“生成带有哈布斯堡下巴的青蛙的 SVG。”</title>
-      <link>https://frogs.vaguespac.es/</link>
-      <description><![CDATA[文章网址：https://frogs.vaguespac.es/
-评论网址：https://news.ycombinator.com/item?id=49147622
-积分：41
-# 条评论：23]]></description>
-      <guid>https://frogs.vaguespac.es/</guid>
-      <pubDate>Sun, 02 Aug 2026 19:42:08 GMT</pubDate>
     </item>
     </channel>
 </rss>
