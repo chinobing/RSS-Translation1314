@@ -4,107 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 04 Aug 2026 16:51:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 19:36:15 GMT</lastBuildDate>
     <item>
-      <title>韦伯望远镜发现海王星卫星古代灾难的迹象</title>
-      <link>https://www.reuters.com/science/webb-telescope-finds-signs-ancient-disaster-neptunes-moons-2026-08-03/</link>
-      <description><![CDATA[文章网址：https://www.reuters.com/science/webb-telescope-finds-signs-ancient-disaster-neptunes-moons-2026-08-03/
-评论网址：https://news.ycombinator.com/item?id=49171172
-积分：6
-# 条评论：0]]></description>
-      <guid>https://www.reuters.com/science/webb-telescope-finds-signs-ancient-disaster-neptunes-moons-2026-08-03/</guid>
-      <pubDate>Tue, 04 Aug 2026 16:29:02 GMT</pubDate>
+      <title>情境意识投资者应该输得一干二净</title>
+      <link>https://www.economist.com/finance-and-economics/2026/08/04/investors-in-situational-awareness-deserved-to-lose-their-shirts</link>
+      <description><![CDATA[文章网址： https://www.economist.com/finance-and-economics/2026/08/04/investors-in-situational-awareness-deserved-to-lose-their-shirts
+评论网址：https://news.ycombinator.com/item?id=49173576
+积分：5
+# 条评论：2]]></description>
+      <guid>https://www.economist.com/finance-and-economics/2026/08/04/investors-in-situational-awareness-deserved-to-lose-their-shirts</guid>
+      <pubDate>Tue, 04 Aug 2026 19:18:35 GMT</pubDate>
     </item>
     <item>
-      <title>当人工智能基准达到稳定水平时：基准饱和度的系统研究</title>
-      <link>https://arxiv.org/abs/2602.16763</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2602.16763
-评论网址：https://news.ycombinator.com/item?id=49170915
+      <title>斯蒂芬·沃尔弗拉姆的妻子去世</title>
+      <link>https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/</link>
+      <description><![CDATA[文章网址： https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/
+评论网址：https://news.ycombinator.com/item?id=49173165
+积分：19
+# 条评论：0]]></description>
+      <guid>https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/</guid>
+      <pubDate>Tue, 04 Aug 2026 18:51:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>推出 HN：EdotEnv (YC S26) – 量化交易 RL Envs 教授法学硕士研究</title>
+      <link>https://edotenv.com/</link>
+      <description><![CDATA[我们是 Rui 和 Michael，我们正在构建 EdotEnv (https://edotenv.com)：通过量化交易工作流程自我改进的 RL 环境。随着所有的基准最大化，评估饱和并且对于模型比较变得毫无意义。随着模型的进步，有用的基准应该会增加难度。回到我们的量化工作岗位时，迈克尔和我发现市场确实具有这样的特性：随着人们从低效率的交易中获利，市场变得更加高效，使得新的盈利策略更难找到，而旧的策略会随着时间的推移而衰退。这使得市场成为 LLM 培训的理想的、不断发展的基准。困难的部分是将专业的量化工作流程转变为可靠的培训环境，因为这是一项非常小众的专业知识。在我们的环境中，我们为法学硕士提供量化交易工作流程，并评估他们在样本外数据上的表现：构建预测特征/模型、设计投资组合、回测策略、不断适应市场制度。每一步都是一个使用不同自建工具的任务。例如，预测特征构建任务为代理提供了时间段 [0,T] 的清理市场数据来研究想法，为研究想法提供了一个回溯测试工具，用于在 [0, t] 上测试时间 t 创建的特征，一个执行工具，用于使用 [t+1, T] 上的新特征交易策略以及最终评估。我们的奖励隔离了代理的特征构建技能，但又从市场特性中受益。通过在我们的环境中运行 SOTA 模型，我们发现 i) 他们似乎很难深入迭代研究想法，更喜欢广泛的浅层搜索； ii) 更高的推理似乎并不能提高性能，并且 iii) 代理不理解交易，例如当亏损时，他们会停止交易，而不是更明智地进行交易。请查看我们的博客了解更多详细信息！ https://edotenv.com/?tab=blog定量工作流程本质上是应用机器学习研究、长期规划和持续学习。通过我们的环境，我们教授这些可转移的研究技能，而不是特定任务的答案。我们的环境更接近现实的研究工作流程：我们使用真实世界的数据而不是合成数据；我们的环境自然包含噪音和真正的权衡；我们的奖励是可验证且即时的，无需额外的 LLM 法官或人类专家。我们开源了一个示例任务存储库：https://github.com/MMcollab-dotcom/feature-engineering。我们计划向人工智能实验室/研究人员/企业出售不断改进的环境，培训他们自己的代理，他们对机器学习建模功能、持续学习、长期规划或一般定量研究感兴趣。我们希望任何在我们的环境中尝试自己代理的人提供反馈，无论是评估还是后期培训。当然，我们总是很乐意与法学硕士讨论交易的未来（不，不应该要求法学硕士读茶叶并给你明天要买的股票）。期待您的评论！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49172936
+积分：10
+# 条评论：3]]></description>
+      <guid>https://edotenv.com/</guid>
+      <pubDate>Tue, 04 Aug 2026 18:36:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Waymo – 达拉斯向所有人开放</title>
+      <link>https://waymo.com/blog/shorts/dallas-open-to-all/</link>
+      <description><![CDATA[文章网址：https://waymo.com/blog/shorts/dallas-open-to-all/
+评论网址：https://news.ycombinator.com/item?id=49172836
 积分：13
 # 条评论：1]]></description>
-      <guid>https://arxiv.org/abs/2602.16763</guid>
-      <pubDate>Tue, 04 Aug 2026 16:10:39 GMT</pubDate>
+      <guid>https://waymo.com/blog/shorts/dallas-open-to-all/</guid>
+      <pubDate>Tue, 04 Aug 2026 18:29:41 GMT</pubDate>
     </item>
     <item>
-      <title>苹果称更多前员工可能将机密数据带到 OpenAI</title>
-      <link>https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/</link>
-      <description><![CDATA[文章网址：https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/
-评论网址：https://news.ycombinator.com/item?id=49170479
-积分：54
-# 条评论：28]]></description>
-      <guid>https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/</guid>
-      <pubDate>Tue, 04 Aug 2026 15:37:42 GMT</pubDate>
+      <title>网络安全太难了</title>
+      <link>https://textslashplain.com/2026/08/04/security-is-hard-yall/</link>
+      <description><![CDATA[文章网址：https://textslashplain.com/2026/08/04/security-is-hard-yall/
+评论网址：https://news.ycombinator.com/item?id=49172834
+积分：87
+# 条评论：25]]></description>
+      <guid>https://textslashplain.com/2026/08/04/security-is-hard-yall/</guid>
+      <pubDate>Tue, 04 Aug 2026 18:29:32 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：简单的算法和色彩空间来生成多样化的肤色</title>
-      <link>https://toneyalexander.github.io/inclusive-color-space/</link>
-      <description><![CDATA[你好，HN！我发现为我的数字艺术和游戏开发项目挑选看似合理但多样化的肤色有点困难，我很好奇是否有一种方法可以轻松定义颜色空间。我已经基于该空间构建了一个颜色选择器和程序生成算法，以及整个页面中使用方程式的一堆其他有趣的 js 功能和演示。如果您觉得有趣，我有很多关于如何构建它以及该空间具有哪些属性的解释。该方法可能有点不稳定，但希望结果对其他人有帮助，就像我发现的那样！还有很大的改进空间（请参阅“未来的工作”部分），但我对结果非常满意。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49170165
-积分：120
-# 条评论：31]]></description>
-      <guid>https://toneyalexander.github.io/inclusive-color-space/</guid>
-      <pubDate>Tue, 04 Aug 2026 15:16:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>在线广告巨头 Adform 遭到黑客攻击，再次证明为什么需要广告拦截器</title>
-      <link>https://this.weekinsecurity.com/online-advertising-giant-adform-was-hacked-proving-once-again-why-ad-blockers-are-necessary/</link>
-      <description><![CDATA[文章网址：https://this.weekinsecurity.com/online-advertising-giant-adform-was-hacked-proving-once-again-why-ad-blockers-are-necessary/
-评论网址：https://news.ycombinator.com/item?id=49170001
-积分：65
-# 条评论：7]]></description>
-      <guid>https://this.weekinsecurity.com/online-advertising-giant-adform-was-hacked-proving-once-again-why-ad-blockers-are-necessary/</guid>
-      <pubDate>Tue, 04 Aug 2026 15:05:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>将团队编码标准引入 Claude Code 和 Codex 的代理技能</title>
-      <link>https://github.com/tikalk/adlc-team-skills</link>
-      <description><![CDATA[文章网址：https://github.com/tikalk/adlc-team-skills
-评论网址：https://news.ycombinator.com/item?id=49169640
-积分：70
-# 条评论：35]]></description>
-      <guid>https://github.com/tikalk/adlc-team-skills</guid>
-      <pubDate>Tue, 04 Aug 2026 14:38:31 GMT</pubDate>
-    </item>
-    <item>
-      <title>德国 2026 年 7 月太阳能发电量创历史新高 12B 千瓦时</title>
-      <link>https://solarquarter.com/2026/08/03/germany-records-historic-12-billion-kwh-solar-feed-in-in-july-2026/</link>
-      <description><![CDATA[文章网址： https://solarquarter.com/2026/08/03/germany-records-historic-12-billion-kwh-solar-feed-in-in-july-2026/
-评论网址：https://news.ycombinator.com/item?id=49168886
-积分：80
-# 条评论：65]]></description>
-      <guid>https://solarquarter.com/2026/08/03/germany-records-historic-12-billion-kwh-solar-feed-in-in-july-2026/</guid>
-      <pubDate>Tue, 04 Aug 2026 13:43:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Xbox 出现故障。您无法玩您在光盘上拥有的游戏</title>
-      <link>https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/</link>
-      <description><![CDATA[文章网址：https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/
-评论网址：https://news.ycombinator.com/item?id=49167448
-积分：379
-评论数：426]]></description>
-      <guid>https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/</guid>
-      <pubDate>Tue, 04 Aug 2026 12:01:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Roame (YC S23) 正在招聘首席工程师</title>
-      <link>https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer
-评论网址：https://news.ycombinator.com/item?id=49167444
-积分：0
+      <title>勒索失败 (2013)</title>
+      <link>https://gwern.net/blackmail</link>
+      <description><![CDATA[文章网址：https://gwern.net/blackmail
+评论网址：https://news.ycombinator.com/item?id=49172597
+积分：8
 # 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:51 GMT</pubDate>
+      <guid>https://gwern.net/blackmail</guid>
+      <pubDate>Tue, 04 Aug 2026 18:11:09 GMT</pubDate>
     </item>
     <item>
-      <title>巴克敏斯特·富勒：我所知道的一切</title>
-      <link>https://www.bfi.org/about-fuller/everything-i-know/</link>
-      <description><![CDATA[文章网址：https://www.bfi.org/about-fuller/everything-i-know/
-评论网址：https://news.ycombinator.com/item?id=49167147
-积分：84
-# 条评论：27]]></description>
-      <guid>https://www.bfi.org/about-fuller/everything-i-know/</guid>
-      <pubDate>Tue, 04 Aug 2026 11:33:32 GMT</pubDate>
+      <title>为什么有些人比其他人修剪草坪更好</title>
+      <link>https://pudding.cool/2026/06/mow/</link>
+      <description><![CDATA[文章网址：https://pudding.cool/2026/06/mow/
+评论网址：https://news.ycombinator.com/item?id=49172550
+积分：50
+# 条评论：29]]></description>
+      <guid>https://pudding.cool/2026/06/mow/</guid>
+      <pubDate>Tue, 04 Aug 2026 18:06:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hop.earth – 基于 OpenStreetMap 的赛车游戏</title>
+      <link>https://hop.earth/?server=lkhr7&route=fQ5nuu9R</link>
+      <description><![CDATA[文章网址：https://hop.earth/?server=lkhr7&amp;route=fQ5nuu9R
+评论网址：https://news.ycombinator.com/item?id=49172405
+积分：29
+# 条评论：21]]></description>
+      <guid>https://hop.earth/?server=lkhr7&route=fQ5nuu9R</guid>
+      <pubDate>Tue, 04 Aug 2026 17:55:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vlt 1.0 和托管包注册表</title>
+      <link>https://www.vlt.io/blog/1-0</link>
+      <description><![CDATA[文章网址：https://www.vlt.io/blog/1-0
+评论网址：https://news.ycombinator.com/item?id=49172251
+积分：33
+# 条评论：4]]></description>
+      <guid>https://www.vlt.io/blog/1-0</guid>
+      <pubDate>Tue, 04 Aug 2026 17:43:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>扭曲代理 CLI</title>
+      <link>https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent</link>
+      <description><![CDATA[文章网址：https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent
+评论网址：https://news.ycombinator.com/item?id=49171766
+积分：50
+# 条评论：18]]></description>
+      <guid>https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent</guid>
+      <pubDate>Tue, 04 Aug 2026 17:08:41 GMT</pubDate>
     </item>
     </channel>
 </rss>
