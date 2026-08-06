@@ -4,113 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 06 Aug 2026 02:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 05:48:32 GMT</lastBuildDate>
     <item>
-      <title>问 HN：序言的大小是否转移了注意力？缓存流失与利用成本</title>
-      <link>https://news.ycombinator.com/item?id=49191676</link>
-      <description><![CDATA[评论网址：https://news.ycombinator.com/item?id=49191676
+      <title>Cloudflare-操作系统</title>
+      <link>https://www.phoronix.com/news/Cloudflare-OS</link>
+      <description><![CDATA[文章网址：https://www.phoronix.com/news/Cloudflare-OS
+评论网址：https://news.ycombinator.com/item?id=49192910
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=49191676</guid>
-      <pubDate>Thu, 06 Aug 2026 02:22:56 GMT</pubDate>
+      <guid>https://www.phoronix.com/news/Cloudflare-OS</guid>
+      <pubDate>Thu, 06 Aug 2026 05:43:35 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：使用 Frontrun 进行 Python 并发测试</title>
-      <link>https://github.com/lucaswiman/frontrun</link>
-      <description><![CDATA[嗨，HN，我是 Frontrun 的作者，Frontrun 是我在过去 6 个月内使用 Claude Code 和 Codex 构建的 Python 并发测试库。它使用字节码跟踪和各种形式的 Monkeypatching 来跨线程、异步和多处理进行调度，使您能够找到并确定性地重现竞争条件或死锁。它可以理解 Python 变量分配、SQL 语句和 Redis 命令，从而可以检测跨越抽象边界的竞争，例如一个线程中的 threading.Lock() 与另一个线程中的 SQL 行锁之间出现死锁。要使用它，请执行 `pip install frontrun`[1]，然后将以下内容放入 pytest 用例中： result = frontrun.explore(
-      设置=计数器，
-      工人=计数器.增量，
-      计数=2，
-  ）
-  结果.assert_holds()
-
-然后使用“frontrun pytest path/to/test_counter.py”。我的希望是，这将使当前非线程安全的库的作者能够更轻松地承受自由线程转换，或者提高涉及竞争条件的问题提交的门槛。我投入了大量的工作来使比赛具有确定性并使错误跟踪可解释，从而演示为什么触发比赛的事件序列。我希望收到您提供的任何可用性反馈或成功/失败故事，并且很乐意回答有关其工作原理的任何问题。[1] 仅限 MacOS 和 Linux。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49191664
-积分：1
+      <title>研究：弦理论终于可以通过人工智能进行测试</title>
+      <link>https://www.kcl.ac.uk/news/string-theory-finally-testable-with-power-of-ai</link>
+      <description><![CDATA[文章网址：https://www.kcl.ac.uk/news/string-theory-finally-testable-with-power-of-ai
+评论网址：https://news.ycombinator.com/item?id=49192889
+积分：3
 # 条评论：0]]></description>
-      <guid>https://github.com/lucaswiman/frontrun</guid>
-      <pubDate>Thu, 06 Aug 2026 02:20:54 GMT</pubDate>
+      <guid>https://www.kcl.ac.uk/news/string-theory-finally-testable-with-power-of-ai</guid>
+      <pubDate>Thu, 06 Aug 2026 05:38:55 GMT</pubDate>
     </item>
     <item>
-      <title>关于人工智能的分歧通常是对未来人工智能能力的分歧</title>
-      <link>https://thezvi.substack.com/p/the-three-ai-pills</link>
-      <description><![CDATA[文章网址：https://thezvi.substack.com/p/the- Three-ai-pills
-评论网址：https://news.ycombinator.com/item?id=49191661
-积分：1
-# 条评论：0]]></description>
-      <guid>https://thezvi.substack.com/p/the-three-ai-pills</guid>
-      <pubDate>Thu, 06 Aug 2026 02:20:26 GMT</pubDate>
+      <title>公路列车漫游在澳大利亚的偏远地区</title>
+      <link>https://hackaday.com/2026/08/04/road-trains-roam-the-backroads-of-australia/</link>
+      <description><![CDATA[文章网址：https://hackaday.com/2026/08/04/road-trains-roam-the-backroads-of-australia/
+评论网址：https://news.ycombinator.com/item?id=49192878
+积分：2
+# 条评论：1]]></description>
+      <guid>https://hackaday.com/2026/08/04/road-trains-roam-the-backroads-of-australia/</guid>
+      <pubDate>Thu, 06 Aug 2026 05:36:27 GMT</pubDate>
     </item>
     <item>
-      <title>Mirafold – Claude Code、Codex 和 Gemini CLI 的生成 UI</title>
-      <link>https://mirafold.com/</link>
-      <description><![CDATA[文章网址：https://mirafold.com/
-评论网址：https://news.ycombinator.com/item?id=49191654
-积分：1
+      <title>OpenAI 模型在拥抱脸部黑客攻击前几个月联手</title>
+      <link>https://www.bloomberg.com/news/articles/2026-08-06/openai-models-joined-forces-months-ahead-of-hugging-face-hack</link>
+      <description><![CDATA[文章网址：https://www.bloomberg.com/news/articles/2026-08-06/openai-models-joined-forces-months-ahead-of-hugging-face-hack
+评论网址：https://news.ycombinator.com/item?id=49192868
+积分：2
 # 条评论：0]]></description>
-      <guid>https://mirafold.com/</guid>
-      <pubDate>Thu, 06 Aug 2026 02:19:50 GMT</pubDate>
+      <guid>https://www.bloomberg.com/news/articles/2026-08-06/openai-models-joined-forces-months-ahead-of-hugging-face-hack</guid>
+      <pubDate>Thu, 06 Aug 2026 05:34:17 GMT</pubDate>
     </item>
     <item>
-      <title>唐纳德·J·特朗普总统，个人，原告，诉 BBC [pdf]</title>
-      <link>https://storage.courtlistener.com/recap/gov.uscourts.flsd.703382/gov.uscourts.flsd.703382.106.0.pdf</link>
-      <description><![CDATA[文章网址： https://storage.courtlistener.com/recap/gov.uscourts.flsd.703382/gov.uscourts.flsd.703382.106.0.pdf
-评论网址：https://news.ycombinator.com/item?id=49191651
+      <title>人工智能第一工程组织是什么样的</title>
+      <link>https://arpitbhayani.me/blogs/ai-first-org/</link>
+      <description><![CDATA[文章网址：https://arpitbhayani.me/blogs/ai-first-org/
+评论网址：https://news.ycombinator.com/item?id=49192850
 积分：1
 # 条评论：0]]></description>
-      <guid>https://storage.courtlistener.com/recap/gov.uscourts.flsd.703382/gov.uscourts.flsd.703382.106.0.pdf</guid>
-      <pubDate>Thu, 06 Aug 2026 02:19:27 GMT</pubDate>
+      <guid>https://arpitbhayani.me/blogs/ai-first-org/</guid>
+      <pubDate>Thu, 06 Aug 2026 05:30:44 GMT</pubDate>
     </item>
     <item>
-      <title>数据中心展示其原色</title>
-      <link>https://www.politico.com/newsletters/power-switch/2026/08/05/data-centers-show-their-primary-colors-01025879</link>
-      <description><![CDATA[文章网址：https://www.politico.com/newsletters/power-switch/2026/08/05/data-centers-show-their-primary-colors-01025879
-评论网址：https://news.ycombinator.com/item?id=49191638
+      <title>联邦上诉法院批准佛罗里达州反变装表演法</title>
+      <link>https://www.tallahassee.com/story/news/state/2026/08/04/federal-court-backs-florida-anti-drag-show-law/91167064007/</link>
+      <description><![CDATA[文章网址： https://www.tallahassee.com/story/news/state/2026/08/04/federal-court-backs-florida-anti-drag-show-law/91167064007/
+评论网址：https://news.ycombinator.com/item?id=49192845
 积分：1
-# 条评论：0]]></description>
-      <guid>https://www.politico.com/newsletters/power-switch/2026/08/05/data-centers-show-their-primary-colors-01025879</guid>
-      <pubDate>Thu, 06 Aug 2026 02:17:09 GMT</pubDate>
+# 条评论：1]]></description>
+      <guid>https://www.tallahassee.com/story/news/state/2026/08/04/federal-court-backs-florida-anti-drag-show-law/91167064007/</guid>
+      <pubDate>Thu, 06 Aug 2026 05:30:26 GMT</pubDate>
     </item>
     <item>
-      <title>纳什维尔使用征用权封锁动物园附近的数据中心</title>
-      <link>https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project</link>
-      <description><![CDATA[文章网址：https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project
-评论网址：https://news.ycombinator.com/item?id=49191624
+      <title>一种新型轴承[视频]</title>
+      <link>https://www.youtube.com/watch?v=RKvOfX1s3-k</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=RKvOfX1s3-k
+评论网址：https://news.ycombinator.com/item?id=49192840
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project</guid>
-      <pubDate>Thu, 06 Aug 2026 02:15:14 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=RKvOfX1s3-k</guid>
+      <pubDate>Thu, 06 Aug 2026 05:29:32 GMT</pubDate>
     </item>
     <item>
-      <title>AOHP：用于个性化、高效和安全交互的操作系统级代理工具</title>
-      <link>https://arxiv.org/abs/2606.23449</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2606.23449
-评论网址：https://news.ycombinator.com/item?id=49191616
-积分：1
-# 条评论：0]]></description>
-      <guid>https://arxiv.org/abs/2606.23449</guid>
-      <pubDate>Thu, 06 Aug 2026 02:14:06 GMT</pubDate>
+      <title>Google Genie 3：人工智能生成的互动世界</title>
+      <link>https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/</link>
+      <description><![CDATA[文章网址：https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/
+评论网址：https://news.ycombinator.com/item?id=49192836
+积分：2
+# 条评论：2]]></description>
+      <guid>https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/</guid>
+      <pubDate>Thu, 06 Aug 2026 05:29:12 GMT</pubDate>
     </item>
     <item>
-      <title>像怀疑论者一样阅读摘要</title>
-      <link>https://scrollpaper.com/blog/reading-an-abstract-like-a-skeptic</link>
-      <description><![CDATA[文章网址：https://scrollpaper.com/blog/reading-an-abstract-like-a-skeptic
-评论网址：https://news.ycombinator.com/item?id=49191593
-积分：1
+      <title>法国从下周开始禁止未经请求的电话营销电话</title>
+      <link>https://apnews.com/article/france-unsolicited-telemarketing-ban-4c946192a1e0d611fd80eacc708aa7da</link>
+      <description><![CDATA[文章网址：https://apnews.com/article/france-unsolicited-telemarketing-ban-4c946192a1e0d611fd80eacc708aa7da
+评论网址：https://news.ycombinator.com/item?id=49192829
+积分：2
 # 条评论：0]]></description>
-      <guid>https://scrollpaper.com/blog/reading-an-abstract-like-a-skeptic</guid>
-      <pubDate>Thu, 06 Aug 2026 02:11:43 GMT</pubDate>
+      <guid>https://apnews.com/article/france-unsolicited-telemarketing-ban-4c946192a1e0d611fd80eacc708aa7da</guid>
+      <pubDate>Thu, 06 Aug 2026 05:28:11 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能黑客、恐吓和普罗米修斯</title>
-      <link>https://askmike.org/articles/ai-hacking-fearmongering-prometheus/</link>
-      <description><![CDATA[文章网址：https://askmike.org/articles/ai-hacking-fearmongering-prometheus/
-评论网址：https://news.ycombinator.com/item?id=49191572
+      <title>美国最大的律师事务所探索向私募股权公司出售股份</title>
+      <link>https://www.ft.com/content/475d573a-886d-4b75-b07c-f74c38b093f2</link>
+      <description><![CDATA[文章网址：https://www.ft.com/content/475d573a-886d-4b75-b07c-f74c38b093f2
+评论网址：https://news.ycombinator.com/item?id=49192821
 积分：1
 # 条评论：0]]></description>
-      <guid>https://askmike.org/articles/ai-hacking-fearmongering-prometheus/</guid>
-      <pubDate>Thu, 06 Aug 2026 02:08:53 GMT</pubDate>
+      <guid>https://www.ft.com/content/475d573a-886d-4b75-b07c-f74c38b093f2</guid>
+      <pubDate>Thu, 06 Aug 2026 05:26:44 GMT</pubDate>
     </item>
     </channel>
 </rss>
