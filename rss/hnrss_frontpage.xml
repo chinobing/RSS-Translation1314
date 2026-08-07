@@ -4,15 +4,25 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 06 Aug 2026 23:58:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 02:50:03 GMT</lastBuildDate>
+    <item>
+      <title>Meta 被责令支付 9.42 亿美元，以解决社交媒体对儿童造成的伤害</title>
+      <link>https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7</link>
+      <description><![CDATA[文章网址：https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7
+评论网址：https://news.ycombinator.com/item?id=49204352
+积分：77
+# 条评论：37]]></description>
+      <guid>https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7</guid>
+      <pubDate>Fri, 07 Aug 2026 00:06:28 GMT</pubDate>
+    </item>
     <item>
       <title>对铁硫簇的 SQD/QSCI 量子化学基准进行旋转审核</title>
       <link>https://zenodo.org/records/21359923</link>
       <description><![CDATA[作者在此。背景，对于那些没有关注这场斗争的人：IBM 的铁硫 SQD 结果（Sci. Adv. 2025）是“量子计算机现在对化学有用”的旗舰声明之一，并且已发表的评论 (arXiv:2501.07231) 认为量子样本从未以匹配的成本击败经典的选择 CI。这种争论仍然存在。双方一直在能源问题上争论不休。两者都没有测量这些计算实际上收敛到哪个电子态。所以我测量了它。根据系统和子空间大小，⟨S²⟩ 的结果在 4.7 和 7.0 之间，其中这些论文所指定的目标是 ⟨S²⟩ = 0 处的单重态。我尝试的每一个起始猜测都落在同一个地方，收敛时的误差大约是自旋态阶梯本身的大小，这是有争议的物理问题。IBM 对此提出了缓解措施。完全按照出厂时的方式运行，使用他们的驱动程序、恢复循环和 spin_square() 诊断，它将地面能量移动到纳米树下，同时使子空间增大 4.00 倍：194,481 个行列式对 48,600 个行列式。它使单线态具有代表性。它永远不会产生一个。他们的求解器还采用 spin_sq 参数来直接针对单态，而默认管道从不设置它。我昨天在他们的跟踪器上提交了该狭窄部分，然后发布此内容：https://github.com/Qiskit/qiskit-addon-sqd/issues/337。维护者在同一天回答并关闭了它，他的回答是有用的部分。用他的话说，该标志通过使用 alpha CI 字符串作为 beta 字符串来增强采样子空间，反之亦然。这是关于哪些决定因素跨越空间的陈述，而不是关于返回状态出现的自旋，这正是测量所说的。他没有对这些数字提出异议。第二个问题，默认路径是否意味着到达 spin_sq，仍然没有答案。明显的反对意见是，这都是我自己的重新实现，所以这里是不是的部分。 IBM 旗舰论文的数据可用性档案包含原始硬件测量记录：自 2023 年 12 月起在 [2Fe-2S] 上进行了 2,457,600 次测试，自 2024 年 4 月起在 [4Fe-4S] 上进行了 3,163,742 个结果，以及积分和优化电路的参数。通过自己的管道运行他们的镜头，[2Fe-2S] 达到低 ⟨S²⟩，但与自己的参考值相差 248 mHa，并且 [4Fe-4S] 收敛到一个自旋纯三重态，Var(S²) = 3e-6，一个真正的 S=1 本征态：干净的状态，以及错误的状态，与参考值相差 1,438 mHa。该档案中的两件事不需要我进行分析所有。在每个已发布的 [2Fe-2S] 比较中，它们的均匀随机空控制与硬件样本相匹配或优于硬件样本。他们最大的 [4Fe-4S] 运行在子空间维度 10⁸ 上，落后于他们自己的经典 HCI 文件 149 mHa。从 AI 角度来看，这就是 HN 上的一半原因：Claude 在我的指导下在大约 72 小时内完成了初步审计，此后经历了多轮对抗性审查。我认为真正有趣的部分不是速度。它通过预先注册的验证门发现了自己工作中的五个缺陷，其中之一是通过与 IBM 自己发布的能量表进行交叉检查，当新仪器显示结果是自旋扇区伪影时，它收回了自己最有力的支持量子的发现。 AUDIT_TRAIL.md 有时间表。 REPRO_MAP.md 将每个声明映射到一个文件和一个重新生成它的命令。如果你想杀死它，我的意思是，这里是方法。展示这些基准的自旋完成基流形中的任何状态，其中 ⟨S²⟩ &lt; 1。或者向我展示一个匹配行列式计数的量子采样子空间，其自旋识别能量击败 HCI 或 CIPSI。或者让任何已交付的管道在 IBM 的存档样本上运行，以实现 ⟨S²⟩ &lt; 1 且误差低于 50 mHa，且没有旋转损失。该线束在档案中，我将发布任何回来的内容，包括如果是我错了。预印本：https://doi.org/10.26434/chemrxiv.15006382/v1限制部分是真实的：比较尺寸是固定的，[4Fe-4S]参考是近似的，并且58.6M“样本”文件已进行重复数据删除，因此其最佳电路数字的射击级分布不可公开审核。很短。值得在热议之前阅读。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=49203707
-积分：3
-# 条评论：0]]></description>
+积分：7
+# 条评论：1]]></description>
       <guid>https://zenodo.org/records/21359923</guid>
       <pubDate>Thu, 06 Aug 2026 22:50:09 GMT</pubDate>
     </item>
@@ -21,8 +31,8 @@
       <link>https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/</link>
       <description><![CDATA[文章网址：https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/
 评论网址：https://news.ycombinator.com/item?id=49203105
-积分：46
-# 条评论：12]]></description>
+积分：99
+# 条评论：16]]></description>
       <guid>https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/</guid>
       <pubDate>Thu, 06 Aug 2026 21:52:16 GMT</pubDate>
     </item>
@@ -32,8 +42,8 @@
       <description><![CDATA[Pokémon Emerald 移植到 RP2350 微控制器。无模拟器，60 fps HDMI 输出。从 ARMv4T 重新编译为 Cortex-M33，Game Boy Advance 的视频硬件在第二个内核的软件中重新实现。
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=49203059
-积分：29
-评论数量：9]]></description>
+积分：41
+# 条评论：22]]></description>
       <guid>https://github.com/mattdeeds/pokeemerald-rp2350</guid>
       <pubDate>Thu, 06 Aug 2026 21:49:07 GMT</pubDate>
     </item>
@@ -42,18 +52,18 @@
       <link>https://www.aleksagordic.com/blog/vllm</link>
       <description><![CDATA[文章网址：https://www.aleksagordic.com/blog/vllm
 评论网址：https://news.ycombinator.com/item?id=49202852
-积分：30
+积分：71
 # 条评论：2]]></description>
       <guid>https://www.aleksagordic.com/blog/vllm</guid>
       <pubDate>Thu, 06 Aug 2026 21:30:21 GMT</pubDate>
     </item>
     <item>
-      <title>生物工程口香糖可能提供一种对抗与癌症相关的微生物的方法</title>
+      <title>生物工程口香糖可能提供对抗 HPV 和其他微生物的方法</title>
       <link>https://www.sciencedaily.com/releases/2026/08/260803080917.htm</link>
       <description><![CDATA[文章网址：https://www.sciencedaily.com/releases/2026/08/260803080917.htm
 评论网址：https://news.ycombinator.com/item?id=49202716
-积分：32
-# 条评论：0]]></description>
+积分：62
+# 条评论：10]]></description>
       <guid>https://www.sciencedaily.com/releases/2026/08/260803080917.htm</guid>
       <pubDate>Thu, 06 Aug 2026 21:18:32 GMT</pubDate>
     </item>
@@ -63,8 +73,8 @@
       <description><![CDATA[https://ir.amd.com/news-events/press-releases/detail/1296/am...https://chatjimmy.ai/
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=49201970
-积分：275
-# 条评论：214]]></description>
+积分：406
+# 条评论：323]]></description>
       <guid>https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344</guid>
       <pubDate>Thu, 06 Aug 2026 20:23:11 GMT</pubDate>
     </item>
@@ -73,8 +83,8 @@
       <link>https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update</link>
       <description><![CDATA[文章网址：https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update
 评论网址：https://news.ycombinator.com/item?id=49201930
-积分：185
-# 条评论：81]]></description>
+积分：225
+# 条评论：112]]></description>
       <guid>https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update</guid>
       <pubDate>Thu, 06 Aug 2026 20:21:19 GMT</pubDate>
     </item>
@@ -83,8 +93,8 @@
       <link>https://herdr.dev/blog/herdr-is-joining-y-combinator/</link>
       <description><![CDATA[文章网址：https://herdr.dev/blog/herdr-is-joining-y-combinator/
 评论网址：https://news.ycombinator.com/item?id=49201003
-积分：114
-# 条评论：77]]></description>
+积分：156
+评论数量：104]]></description>
       <guid>https://herdr.dev/blog/herdr-is-joining-y-combinator/</guid>
       <pubDate>Thu, 06 Aug 2026 19:14:21 GMT</pubDate>
     </item>
@@ -93,20 +103,10 @@
       <link>https://blog.janestreet.com/can-you-reverse-engineer-an-asic/</link>
       <description><![CDATA[文章网址：https://blog.janestreet.com/can-you-reverse-engineer-an-asic/
 评论网址：https://news.ycombinator.com/item?id=49200933
-积分：48
-# 条评论：28]]></description>
+积分：66
+# 条评论：45]]></description>
       <guid>https://blog.janestreet.com/can-you-reverse-engineer-an-asic/</guid>
       <pubDate>Thu, 06 Aug 2026 19:07:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>Qwen3.8 Max现已被代理指数评为最佳整体机型</title>
-      <link>https://artificialanalysis.ai/?intelligence=agentic-index</link>
-      <description><![CDATA[文章网址：https://artificialanalysis.ai/?intelligence=agentic-index
-评论网址：https://news.ycombinator.com/item?id=49200652
-积分：393
-# 条评论：253]]></description>
-      <guid>https://artificialanalysis.ai/?intelligence=agentic-index</guid>
-      <pubDate>Thu, 06 Aug 2026 18:44:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
