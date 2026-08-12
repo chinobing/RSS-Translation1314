@@ -4,106 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Wed, 12 Aug 2026 04:46:21 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 10:03:33 GMT</lastBuildDate>
+    <item>
+      <title>Facebook正在向有争议的创作者付费，让他们制作煽动愤怒的内容</title>
+      <link>https://www.abc.net.au/news/2026-08-06/ragebait-how-facebook-is-paying-controversial-creators/106940696</link>
+      <description><![CDATA[文章网址： https://www.abc.net.au/news/2026-08-06/ragebait-how-facebook-is-paying-controversial-creators/106940696
+评论网址：https://news.ycombinator.com/item?id=49269818
+积分：9
+# 条评论：1]]></description>
+      <guid>https://www.abc.net.au/news/2026-08-06/ragebait-how-facebook-is-paying-controversial-creators/106940696</guid>
+      <pubDate>Wed, 12 Aug 2026 09:35:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>荷兰火车地图模拟器</title>
+      <link>https://spoorkaart.zaza.dev</link>
+      <description><![CDATA[文章网址：https://spoorkaart.zaza.dev
+评论网址：https://news.ycombinator.com/item?id=49269641
+积分：11
+# 条评论：1]]></description>
+      <guid>https://spoorkaart.zaza.dev</guid>
+      <pubDate>Wed, 12 Aug 2026 09:09:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>推出 HN：发现材料 (YC P26) – 发现新材料的人工智能代理</title>
+      <link>https://discoveredmaterials.com/research/</link>
+      <description><![CDATA[嘿 HN，我们是来自 Discovered Materials (https://discoveredmaterials.com/) 的 Advaith 和 Akash。  我们构建人工智能代理，为半导体行业发现新材料。当今的 GPU 存在散热问题。 Nvidia 和 AMD 几乎将其发布的每款芯片的 TDP（热设计功耗）提高了一倍 - H100（2022 年发布）的 TDP 为 700W，Blackwell（2024 年）的 TDP 为 1.2 kW，Rubin（2026 年）的 TDP 为 2.3 kW。这种趋势预计将持续下去，而消除热量是当今数据中心消耗大量电力和水的主要原因之一 - 他们需要它来保持芯片在运行过程中冷却。芯片产生的热量及其散发热量的能力都受到制造它的材料的影响。例如，我们可以通过 3D 封装芯片（将 HBM​​ 内存堆栈直接放置在逻辑芯片顶部，而不是将它们放置在 2D 电路板上的逻辑旁边）将逻辑和内存之间移动数据所需的每比特能量减少 10-50 倍。然而，我们今天无法做到这一点，因为 HBM 中使用的介电材料（例如 SiO2）是一种非常差的热导体，会在逻辑和存储器之间捕获热量，并导致运行期间温度急剧上升。同样，今天正在重新评估 GPU 中的许多其他材料 - 另外两个例子是热界面材料和基板。然而，将新材料引入晶圆厂需要数年时间和数亿美元的研究，这就是臭名昭著的“从实验室到晶圆厂的死亡之谷”。在 Discovered Materials，我们乐观地认为人工智能代理可以缩短将新材料引入半导体芯片所需的时间和成本。我们已经看到了这一点 - 我们测试了来自 Anthropic、OpenAI 和 Kimi 的 7 个模型，发现它们都能够通过计算发现动态稳定且具有有前景的特性的新材料。这让我们感到惊讶 - 博士生通常需要几周的时间才能发现这些模型在 8 小时运行中找到的材料类型！但是，计算发现是最容易的部分。仅当材料可以在实验室中制造和测试时，材料发现才是有效的（例如，石墨烯的特性在 1947 年就被预测到，但它是在 2004 年首次被制造出来的）。今天的模型不擅长提出在实验室中制造材料的合成配方。即使他们确实在这方面做得更好，我们也不确定这会有多大帮助——制造新材料是一个高度经验化的过程，涉及多次实验的反复试验。人类专家本身无法“一次性”完成这项任务，但我们期望一个高性能的模型将减少制造新材料所需的实验迭代次数。在我们的 Y Combinator 批次的 3 个月里，我们已经看到了一些证据 - 我们模拟、合成和测试了热界面材料 (TIM)，其性能与世界上最大的化学公司作为商业秘密保守了 20 多年的 TIM 的性能相匹配。我们将发布由前沿 AI 模型发现的数百种新材料，以及衡量模型材料发现能力的基准（也在线程 URL 中链接）：https://discoveredmaterials.com/research。它涵盖了我们上面讨论的内容，以及我们从模型中观察到的各种奇怪行为，例如 Claude 奖励黑客的倾向或 GPT-5.6 在大约 5000 万代币后偶尔会失去理智。我们的商业模式：我们的目标是许可和出售我们发现的材料的知识产权，以及如何制作这些材料的知识产权。我们还在探索另一种商业模式，将用于发现材料的线束+工具出售给半导体和化学公司，使他们能够自己发现材料。我们一开始倾向于后者，但从长远来看，我们预计两者都会做到。我们的背景故事：Akash 拥有斯坦福大学材料科学博士学位，在过去 11 年里一直在研究半导体芯片的新材料。他在新型纳米级互连方面的工作是斯坦福大学工程学院 2025 年最受欢迎的故事。Advaith 在卡内基梅隆大学研究人工智能，并且是在 Persona AI（已收购）和 Luma Labs 构建视频模型和代理的研究工程师。我们对您的意见非常感兴趣！半导体行业相当神秘，您对行业路线图或我们应该追求的材料的想法将会非常有帮助。我们也很想听听在实验室进行过实验的人的意见 - 我们可以从您进行实证科学的经验中学到什么？
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49269090
+积分：14
+# 条评论：4]]></description>
+      <guid>https://discoveredmaterials.com/research/</guid>
+      <pubDate>Wed, 12 Aug 2026 07:51:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>LinkedIn CringeBot 3000</title>
+      <link>https://www.cringebot3000.com/</link>
+      <description><![CDATA[文章网址：https://www.cringebot3000.com/
+评论网址：https://news.ycombinator.com/item?id=49268564
+积分：164
+# 条评论：61]]></description>
+      <guid>https://www.cringebot3000.com/</guid>
+      <pubDate>Wed, 12 Aug 2026 06:30:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>调用.cpp</title>
+      <link>https://llama.app</link>
+      <description><![CDATA[文章网址：https://llama.app
+评论网址：https://news.ycombinator.com/item?id=49267928
+积分：217
+评论数：86]]></description>
+      <guid>https://llama.app</guid>
+      <pubDate>Wed, 12 Aug 2026 04:51:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>DARPA 重型举升挑战以 3.84:1 的有效负载重量比获胜</title>
+      <link>https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/</link>
+      <description><![CDATA[文章网址：https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/
+评论网址：https://news.ycombinator.com/item?id=49267527
+积分：40
+# 条评论：21]]></description>
+      <guid>https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/</guid>
+      <pubDate>Wed, 12 Aug 2026 03:27:31 GMT</pubDate>
+    </item>
     <item>
       <title>人就是循环</title>
       <link>https://brentfitzgerald.com/posts/the-human-is-the-loop/</link>
       <description><![CDATA[文章网址：https://brentfitzgerald.com/posts/the- human-is-the-loop/
 评论网址：https://news.ycombinator.com/item?id=49267108
-积分：26
-# 条评论：3]]></description>
+积分：104
+# 条评论：46]]></description>
       <guid>https://brentfitzgerald.com/posts/the-human-is-the-loop/</guid>
       <pubDate>Wed, 12 Aug 2026 02:15:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>公司提供“100% 人工编写，绝不人工智能” 医学研究是 100% 人工智能</title>
-      <link>https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/</link>
-      <description><![CDATA[文章网址：https://www.404media.co/company-offering-100- human-writing-never-ai-peer-review-is-entirely-ai/
-评论网址：https://news.ycombinator.com/item?id=49267057
-积分：73
-# 条评论：15]]></description>
-      <guid>https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/</guid>
-      <pubDate>Wed, 12 Aug 2026 02:05:42 GMT</pubDate>
     </item>
     <item>
       <title>鲎蓝色血液中隐藏的救生秘密</title>
       <link>https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/</link>
       <description><![CDATA[文章网址：https://whdh.com/news/the-life saving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/
 评论网址：https://news.ycombinator.com/item?id=49266921
-积分：32
-# 条评论：5]]></description>
+积分：84
+# 条评论：25]]></description>
       <guid>https://whdh.com/news/the-lifesaving-secret-hidden-inside-a-horseshoe-crabs-blue-blood-and-the-race-to-protect-the-species/</guid>
       <pubDate>Wed, 12 Aug 2026 01:45:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>新贝德福德警官被指控使用 Flock 摄像头追踪前伴侣</title>
-      <link>https://newbedfordlight.org/new-bedford-police-officer-accused-of-using-flock-cameras-to-track-and-follow-ex-romantic-partner/</link>
-      <description><![CDATA[文章网址：https://newbedfordlight.org/new-bedford-police-officer-accused-of-using-flock-cameras-to-track-and-follow-ex-romantic-partner/
-评论网址：https://news.ycombinator.com/item?id=49266899
-积分：100
-# 条评论：54]]></description>
-      <guid>https://newbedfordlight.org/new-bedford-police-officer-accused-of-using-flock-cameras-to-track-and-follow-ex-romantic-partner/</guid>
-      <pubDate>Wed, 12 Aug 2026 01:42:46 GMT</pubDate>
     </item>
     <item>
       <title>WorldClaw Agentic 3D 大规模开放世界生成</title>
       <link>https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/</link>
       <description><![CDATA[文章网址：https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/
 评论网址：https://news.ycombinator.com/item?id=49265051
-积分：167
-# 条评论：52]]></description>
+积分：225
+# 条评论：69]]></description>
       <guid>https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/</guid>
       <pubDate>Tue, 11 Aug 2026 21:56:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>pg_clickhouse v0.10：子查询下推和 1000 倍更快的 TPC-H 查询</title>
-      <link>https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026</link>
-      <description><![CDATA[文章网址：https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026
-评论网址：https://news.ycombinator.com/item?id=49265031
-积分：44
-# 条评论：3]]></description>
-      <guid>https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026</guid>
-      <pubDate>Tue, 11 Aug 2026 21:54:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>大型语言模型中涌现的内省意识</title>
-      <link>https://arxiv.org/abs/2601.01828</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2601.01828
-评论网址：https://news.ycombinator.com/item?id=49264583
-积分：43
-# 条评论：17]]></description>
-      <guid>https://arxiv.org/abs/2601.01828</guid>
-      <pubDate>Tue, 11 Aug 2026 21:14:10 GMT</pubDate>
     </item>
     <item>
       <title>压缩就是预测</title>
       <link>https://ngrok.com/blog/compression-is-prediction</link>
       <description><![CDATA[文章网址：https://ngrok.com/blog/compression-is-prediction
 评论网址：https://news.ycombinator.com/item?id=49263497
-积分：371
-# 条评论：145]]></description>
+积分：527
+# 条评论：214]]></description>
       <guid>https://ngrok.com/blog/compression-is-prediction</guid>
       <pubDate>Tue, 11 Aug 2026 19:49:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nvidia Nemotron 3.5 Lightning 和 NeMo Switchyard</title>
-      <link>https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/</link>
-      <description><![CDATA[文章网址：https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/
-评论网址：https://news.ycombinator.com/item?id=49263340
-积分：196
-# 条评论：103]]></description>
-      <guid>https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/</guid>
-      <pubDate>Tue, 11 Aug 2026 19:35:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>用笔式绘图仪制作全息图</title>
-      <link>https://blog.jordan.matelsky.com/Penplotter-holography/</link>
-      <description><![CDATA[文章网址：https://blog.jordan.matelsky.com/Penplotter-holography/
-评论网址：https://news.ycombinator.com/item?id=49262811
-积分：135
-# 条评论：14]]></description>
-      <guid>https://blog.jordan.matelsky.com/Penplotter-holography/</guid>
-      <pubDate>Tue, 11 Aug 2026 18:51:35 GMT</pubDate>
     </item>
     </channel>
 </rss>
