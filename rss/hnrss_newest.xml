@@ -4,125 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 20 Aug 2026 18:37:47 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 21:27:10 GMT</lastBuildDate>
     <item>
-      <title>问 HN：您如何审查和验证 LLM 生成的代码？</title>
-      <link>https://news.ycombinator.com/item?id=49378314</link>
-      <description><![CDATA[现在生成代码变得非常快，但是如何审查和测试所有代码？每次您要求模型审查某些代码时，它都会返回不同的“结果”。因此，您仍然必须过滤掉他们发现的噪音，以找到实际的缺陷。如果您尝试手动进行全面审查，那么理解代码可能比从一开始就自己编写代码花费更多的时间。至于测试，您可以要求法学硕士编写测试，但您无法确定测试是否真正断言了预期的产品流程，或者只是为一段逻辑编写了通过/失败测试。我想知道您是否有任何工作流程、策略、或技巧。
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49378314
+      <title>朝觐父亲俱乐部</title>
+      <link>https://www.hajjibaba.org/</link>
+      <description><![CDATA[文章网址：https://www.hajjibaba.org/
+评论网址：https://news.ycombinator.com/item?id=49380426
 积分：1
 # 条评论：0]]></description>
-      <guid>https://news.ycombinator.com/item?id=49378314</guid>
-      <pubDate>Thu, 20 Aug 2026 18:26:05 GMT</pubDate>
+      <guid>https://www.hajjibaba.org/</guid>
+      <pubDate>Thu, 20 Aug 2026 21:20:18 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Kandelo – 一个兼容 POSIX 的浏览器多进程 WASM 内核</title>
-      <link>https://kandelo.dev/20260819-demo/</link>
-      <description><![CDATA[Kandelo 是一个基于 Wasm 的开源多进程内核，可在浏览器和 Node.js 中运行 POSIX 程序。Kandelo 仍处于实验阶段，但它已经运行了大量现有软件。主要问题：您有这方面的用例吗？我们正在尝试将 Kandelo 作为 WordPress Playground 的新基础，它完全在浏览器中运行服务器端 WordPress。 Kandelo 看起来也很有前途，可以作为在浏览器和命令行中运行代理的沙箱。另一方面，我们一直在尝试移植游戏和桌面环境，甚至在 Kandelo 中编译可运行的程序。但感觉还有很多可能性我们没有考虑到。您想使用这样的方法吗？背景我想要一个真正的操作系统级基础来在浏览器中运行系统软件，并开始将其作为振动编码的探索。我认为它最终会太慢，并且我们必须提供许多不同的方法来妥协默认的 POSIX 行为以获得任何可用的东西。但经过数周的与代理的战斗，坚持将真正的 POSIX 兼容性作为默认设置，我对系统在没有这些妥协的情况下运行得如此良好感到惊讶。Nginx、PHP、Python、Ruby、Redis，甚至 MariaDB 都能够使用 SDK 构建，只需最少的修改。然后我们开始移植游戏，享受乐趣，并玩游戏，看看我们能将它推到多远。这里有一些演示：一些注意事项：
-- 演示已在桌面浏览器中进行了测试。 YMMV 今天在移动设备上发布。
-- 一些磁盘映像很大（~50MB），最初可能需要一段时间才能启动。主要集，包括 Shell（bash、vim、nethack 等）、Nginx、PHP、WordPress 和 Doom：
-注意：有一个 Node.js 演示，但目前已损坏。
-https://kandelo.dev/20260819-demo/LÖVE 游戏引擎：
-https://kandelo.dev/20260819-demo-love/SNKRX 在 LÖVE 下运行：
-https://kandelo.dev/20260819-demo-love/?vfs=love-snkrx-abi44...Commander Keen 在 DOSBox 中运行：
-https://kandelo.dev/20260819-demo-dos/?demo=keenLXDE 桌面 PoC：
-https://kandelo.dev/20260819-demo-lxde/?demo=desktop-lxde架构说明：- 中央单工作内核，旨在提供所有可支持的功能POSIX 系统调用。
-- 每个进程都是一个具有独立内存的专用工作者。
-- 每个进程线程都是一个专用的工作线程，与来自同一进程的线程共享内存。
-- 系统调用是通过进程 SharedArrayBuffer 和 Atomics API 完成的。
-- 支持 fork()。
-- 该系统以虚拟文件系统（VFS）映像为中心。
-- VFS 映像可以包含对未存储在映像中的程序的惰性引用。 Vim 在 shell 演示中就是这样的参考。在 GitHub 上：
-https://github.com/Automattic/kandelo
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49378305
+      <title>使用可穿戴 EDA 设备区分压力和认知负荷 (2010)</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/19906598/</link>
+      <description><![CDATA[文章网址：https://pubmed.ncbi.nlm.nih.gov/19906598/
+评论网址：https://news.ycombinator.com/item?id=49380412
 积分：1
 # 条评论：0]]></description>
-      <guid>https://kandelo.dev/20260819-demo/</guid>
-      <pubDate>Thu, 20 Aug 2026 18:25:30 GMT</pubDate>
+      <guid>https://pubmed.ncbi.nlm.nih.gov/19906598/</guid>
+      <pubDate>Thu, 20 Aug 2026 21:18:45 GMT</pubDate>
     </item>
     <item>
-      <title>美国宇航局拯救沉没太空望远镜的任务失败</title>
-      <link>https://www.nbcnews.com/science/space/nasa-swift-space-telescope-boost-mission-fails-rcna593421</link>
-      <description><![CDATA[文章网址：https://www.nbcnews.com/science/space/nasa-swift-space-telescope-boost-mission-fails-rcna593421
-评论网址：https://news.ycombinator.com/item?id=49378295
+      <title>Meta 在美国推出新的 vivi 编码平台 Pocket</title>
+      <link>https://www.neowin.net/news/meta-launches-new-vibe-coding-platform-pocket-in-the-us/</link>
+      <description><![CDATA[文章网址：https://www.neowin.net/news/meta-launches-new-vibe-coding-platform-pocket-in-the-us/
+评论网址：https://news.ycombinator.com/item?id=49380388
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.nbcnews.com/science/space/nasa-swift-space-telescope-boost-mission-fails-rcna593421</guid>
-      <pubDate>Thu, 20 Aug 2026 18:24:51 GMT</pubDate>
+      <guid>https://www.neowin.net/news/meta-launches-new-vibe-coding-platform-pocket-in-the-us/</guid>
+      <pubDate>Thu, 20 Aug 2026 21:17:06 GMT</pubDate>
     </item>
     <item>
-      <title>Soup Raiders 原生化：从 Unity 移植演示</title>
-      <link>https://eliasfarhan.ch/gamedev/cpp/2026/08/20/srnative-02-porting-unity.html</link>
-      <description><![CDATA[文章网址：https://eliasfarhan.ch/gamedev/cpp/2026/08/20/srnative-02-porting-unity.html
-评论网址：https://news.ycombinator.com/item?id=49378277
-积分：1
-# 条评论：0]]></description>
-      <guid>https://eliasfarhan.ch/gamedev/cpp/2026/08/20/srnative-02-porting-unity.html</guid>
-      <pubDate>Thu, 20 Aug 2026 18:22:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>斯洛贝特</title>
-      <link>http://writingball.blogspot.com/2026/08/slopbait.html</link>
-      <description><![CDATA[文章网址：http://writingball.blogspot.com/2026/08/slopbait.html
-评论网址：https://news.ycombinator.com/item?id=49378274
-积分：1
-# 条评论：0]]></description>
-      <guid>http://writingball.blogspot.com/2026/08/slopbait.html</guid>
-      <pubDate>Thu, 20 Aug 2026 18:22:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>西班牙新型纳米材料无需电力即可将表面冷却高达 12.9 摄氏度</title>
-      <link>https://www.euronews.com/next/2026/08/17/new-spanish-nanomaterial-cools-surfaces-by-up-to-129c-without-electricity</link>
-      <description><![CDATA[文章网址： https://www.euronews.com/next/2026/08/17/new-spanish-nanomaterial-cools-surfaces-by-up-to-129c-without-electricity
-评论网址：https://news.ycombinator.com/item?id=49378273
+      <title>美国 7 月游戏硬件支出降至 2020 年附近缺货低点</title>
+      <link>https://www.eurogamer.net/circana-july-2026-hardware-software-sales</link>
+      <description><![CDATA[文章网址：https://www.eurogamer.net/circana-july-2026-hardware-software-sales
+评论网址：https://news.ycombinator.com/item?id=49380360
 积分：2
 # 条评论：0]]></description>
-      <guid>https://www.euronews.com/next/2026/08/17/new-spanish-nanomaterial-cools-surfaces-by-up-to-129c-without-electricity</guid>
-      <pubDate>Thu, 20 Aug 2026 18:22:22 GMT</pubDate>
+      <guid>https://www.eurogamer.net/circana-july-2026-hardware-software-sales</guid>
+      <pubDate>Thu, 20 Aug 2026 21:14:10 GMT</pubDate>
     </item>
     <item>
-      <title>消费者权益维基</title>
-      <link>https://consumerrights.wiki/w/Main_Page</link>
-      <description><![CDATA[文章网址：https://consumerrights.wiki/w/Main_Page
-评论网址：https://news.ycombinator.com/item?id=49378243
+      <title>人工智能对媒体档案的威胁</title>
+      <link>https://ebird.org/news/threat-of-ai-to-archives</link>
+      <description><![CDATA[文章网址：https://ebird.org/news/threat-of-ai-to-archives
+评论网址：https://news.ycombinator.com/item?id=49380349
 积分：2
 # 条评论：0]]></description>
-      <guid>https://consumerrights.wiki/w/Main_Page</guid>
-      <pubDate>Thu, 20 Aug 2026 18:19:51 GMT</pubDate>
+      <guid>https://ebird.org/news/threat-of-ai-to-archives</guid>
+      <pubDate>Thu, 20 Aug 2026 21:13:20 GMT</pubDate>
     </item>
     <item>
-      <title>耻辱堂：有记录的反消费者行为</title>
-      <link>https://www.fulu.org/hall-of-shame</link>
-      <description><![CDATA[文章网址：https://www.fulu.org/hall-of-shame
-评论网址：https://news.ycombinator.com/item?id=49378231
+      <title>你将去火星（图画书）</title>
+      <link>https://www.youwillgotomars.com/</link>
+      <description><![CDATA[文章网址：https://www.youwillgotomars.com/
+评论网址：https://news.ycombinator.com/item?id=49380339
 积分：1
+# 条评论：0]]></description>
+      <guid>https://www.youwillgotomars.com/</guid>
+      <pubDate>Thu, 20 Aug 2026 21:12:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>机器人正在寻求提示。但谁能拿到钱呢？</title>
+      <link>https://www.bbc.com/future/article/20260818-do-you-have-to-tip-the-robots</link>
+      <description><![CDATA[文章网址：https://www.bbc.com/future/article/20260818-do-you-have-to-tip-the-robots
+评论网址：https://news.ycombinator.com/item?id=49380332
+积分：2
 # 条评论：1]]></description>
-      <guid>https://www.fulu.org/hall-of-shame</guid>
-      <pubDate>Thu, 20 Aug 2026 18:19:27 GMT</pubDate>
+      <guid>https://www.bbc.com/future/article/20260818-do-you-have-to-tip-the-robots</guid>
+      <pubDate>Thu, 20 Aug 2026 21:12:08 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：语言音频训练器 – 无需看屏幕即可学习语言</title>
-      <link>https://playling.netlify.app/</link>
-      <description><![CDATA[我最近使用稍微不同的方法构建了一个语言学习应用程序。我故意不希望它成为另一个类似 Duolingo 的应用程序。我认为用户应该能够选择他们想要学习的内容和时间。Language Audio Trainer 背后的主要思想是，您可以在屏幕关闭的情况下，简单地按“播放”并在后台聆听有用的短语 - 在走路、开车、做饭等时。您可以跳过或重复短语、更改语音速度和重复次数，并选择翻译方向。还有一个抽认卡模式，供您想学习时使用我很想听听您对这种语言学习方法的看法。iOS：https://apps.apple.com/app/playling-language-trainer/id67619...
-Android：https://play.google.com/store/apps/details?id=com.playling.a...
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49378214
+      <title>如何摧毁AI诈骗电话（短视频）</title>
+      <link>https://www.youtube.com/shorts/aa0v-24EFy0</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/shorts/aa0v-24EFy0
+评论网址：https://news.ycombinator.com/item?id=49380306
 积分：1
 # 条评论：0]]></description>
-      <guid>https://playling.netlify.app/</guid>
-      <pubDate>Thu, 20 Aug 2026 18:17:55 GMT</pubDate>
+      <guid>https://www.youtube.com/shorts/aa0v-24EFy0</guid>
+      <pubDate>Thu, 20 Aug 2026 21:08:49 GMT</pubDate>
     </item>
     <item>
-      <title>克劳德“警告”用户有关语言的问题并捍卫商业影响者</title>
-      <link>https://twitter.com/MatznerJon/status/2090157152690196754</link>
-      <description><![CDATA[文章网址：https://twitter.com/MatznerJon/status/2090157152690196754
-评论网址：https://news.ycombinator.com/item?id=49378204
-积分：3
+      <title>早年的压力会在脑细胞内留下“疤痕”</title>
+      <link>https://medicine.washu.edu/news/how-early-life-stress-leaves-a-scar-inside-brain-cells/</link>
+      <description><![CDATA[文章网址：https://medicine.washu.edu/news/how-early-life-stress-leaves-a-scar-inside-brain-cells/
+评论网址：https://news.ycombinator.com/item?id=49380303
+积分：2
 # 条评论：0]]></description>
-      <guid>https://twitter.com/MatznerJon/status/2090157152690196754</guid>
-      <pubDate>Thu, 20 Aug 2026 18:16:50 GMT</pubDate>
+      <guid>https://medicine.washu.edu/news/how-early-life-stress-leaves-a-scar-inside-brain-cells/</guid>
+      <pubDate>Thu, 20 Aug 2026 21:08:36 GMT</pubDate>
+    </item>
+    <item>
+      <title>单用户推理卡</title>
+      <link>https://markohaberl.substack.com/p/single-user-inference-card</link>
+      <description><![CDATA[文章网址：https://markohaberl.substack.com/p/single-user-inference-card
+评论网址：https://news.ycombinator.com/item?id=49380280
+积分：1
+# 条评论：0]]></description>
+      <guid>https://markohaberl.substack.com/p/single-user-inference-card</guid>
+      <pubDate>Thu, 20 Aug 2026 21:06:36 GMT</pubDate>
     </item>
     </channel>
 </rss>
