@@ -4,107 +4,108 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Thu, 20 Aug 2026 12:47:04 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 15:32:39 GMT</lastBuildDate>
     <item>
-      <title>浏览器De-Slop</title>
-      <link>https://www.sacredheartsc.com/blog/browser-de-slop/</link>
-      <description><![CDATA[文章网址：https://www.sacredheartsc.com/blog/browser-de-slop/
-评论网址：https://news.ycombinator.com/item?id=49373616
-积分：5
-# 条评论：1]]></description>
-      <guid>https://www.sacredheartsc.com/blog/browser-de-slop/</guid>
-      <pubDate>Thu, 20 Aug 2026 12:19:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：我训练了一个 125M 的模型来在设备上自动完成钢琴</title>
-      <link>https://simedw.com/2026/08/20/midi-autocomplete/</link>
-      <description><![CDATA[我训练了一个 125M 参数的转换器来实时自动完成钢琴演奏（在 iPhone 15 上约为 108 个音符/秒）。这个想法基本上是 GitHub Copilot 或 Tabnine，只不过不是用代码提示它，而是通过在 MIDI 钢琴上弹奏几个音符来提示它。然后，模型会完全在设备上继续您玩的游戏。如果有人想尝试，该应用程序是免费的。很高兴回答有关模型、训练、Core ML 或许多不起作用的问题。
+      <title>显示 HN：开源 Stripe Connect 替代方案</title>
+      <link>https://zoneless.com</link>
+      <description><![CDATA[嘿，我是本。我之所以创建 Zoneless，是因为我花了很多钱在自己的市场上使用 Stripe Connect。费用真的非常非常糟糕，而且它也限制了我可以加入的卖家国家/地区。给你一个想法，我每月支付大约 9,000 美元的费用只是为了支付。使用 Zoneless，成本降至 6 美元左右。在过去的几个月里，我一直在个人使用它，并帮助了 5,000 多名卖家，并完成了 3,000 多次付款。我的市场上 74% 的新卖家选择 Zoneless 而不是 Stripe，这非常有趣。我知道加密货币和稳定币是一个有点敏感的话题，但对于这种廉价发送全球支付的用例来说，它是完美的。该项目是开源的，拥有 Apache 2.0 许可证，这意味着没有锁定的好处，也没有您的帐户被标记或关闭的风险。它还具有与 Stripe 几乎相同的 API 和仪表板。希望听到您在评论中提出的任何反馈。
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49373456
-积分：17
+评论网址：https://news.ycombinator.com/item?id=49375244
+积分：7
+# 条评论：1]]></description>
+      <guid>https://zoneless.com</guid>
+      <pubDate>Thu, 20 Aug 2026 14:38:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：检查 MLC 无人认领的 6.56 亿美元特许权使用费是否属于您</title>
+      <link>https://pub.doub.ly/</link>
+      <description><![CDATA[嗨，HN，我构建了这个。简单介绍一下它存在的背景：当音乐在数字流媒体平台（例如 Spotify、Apple Music、Pandora）上流式传输时，有两种独立的版税流：一种用于录制，通过分销商（DistroKid、TuneCore、CDBaby）支付，另一种用于基础作品（通常称为发布）。工作方的机械版税由 MLC 收取，MLC 是根据 2018 年音乐现代化法案 (MMA) 创建的非营利组织。如果您还没有在 MLC 中注册您的歌曲，或者您的元数据存在问题，或者大约六个其他原因，那么这笔钱永远不会到达您的手中，它只会收集在我们称为“黑匣子”的一大堆中。那堆很大。 MLC 自己的仪表板目前显示持有超过 6.56 亿美元 (themlc.com/blanket-royalties)，最大的问题是 MMA 规定 MLC 不能无限期地持有这笔钱。在某些时候，根据法律，MLC 必须分配这一大笔现金，并且由于他们不知道应该交给谁，因此他们通过称为“市场份额”的流程 (themlc.com/marketshare) 来支付。市场份额意味着他们按比例向系统中的艺术家、歌曲作者和发行商支付费用，这实际上意味着最大的发行商会收集大部分剩余资金。这预计于 2027 年 1 月开始，每月支付部分资金 (themlc.com/unclaimed-accrued-royalties)，截至今天早上，未来 12 个月的市场份额总计为7661 万美元，从 1 月份的 641 万美元开始。全面披露：我经营 Doubly，它是一家独立的出版管理公司，因此我在这个领域拥有商业利益。话虽这么说，我们是一个两个人的团队，我们没有足够的带宽来直接帮助数十万艺术家和词曲作者，他们将在 2027 年 1 月开始损失这笔钱。这就是为什么我构建了这个自助服务工具，无需注册，无需电子邮件，无需付费专区，报告完全可操作，不需要我们提供任何信息。该工具：粘贴 Spotify 艺术家链接（或按姓名搜索 Spotify 艺术家）。它会提取该配置文件中的每个版本，根据 MLC 的公开批量数据检查每个录音，并告诉您每首歌曲是否已完全声明、部分声明、已注册但不匹配或完全丢失。然后，它提供了指向修复每个​​案例的确切 MLC 工具的链接。它还估计了所花费的资金，作为一个粗略的范围。即使您自己不是艺术家，您也可能认识某个音乐家，请与他们分享。感谢您的宝贵时间，我很乐意回答有关整个行业、MLC、技术等任何问题。
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49375237
+积分：5
+# 条评论：0]]></description>
+      <guid>https://pub.doub.ly/</guid>
+      <pubDate>Thu, 20 Aug 2026 14:38:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>松弛代码</title>
+      <link>https://www.salesforce.com/introducing-slack-code/?bc=HL</link>
+      <description><![CDATA[文章网址：https://www.salesforce.com/introducing-slack-code/?bc=HL
+评论网址：https://news.ycombinator.com/item?id=49374965
+积分：28
+# 条评论：24]]></description>
+      <guid>https://www.salesforce.com/introducing-slack-code/?bc=HL</guid>
+      <pubDate>Thu, 20 Aug 2026 14:21:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>秩 ≥ 30 的椭圆曲线</title>
+      <link>https://elliptic-rank.icarm.cloud/curve/273</link>
+      <description><![CDATA[文章网址：https://elliptic-rank.icarm.cloud/curve/273
+评论网址：https://news.ycombinator.com/item?id=49374873
+积分：14
 # 条评论：5]]></description>
-      <guid>https://simedw.com/2026/08/20/midi-autocomplete/</guid>
-      <pubDate>Thu, 20 Aug 2026 12:04:38 GMT</pubDate>
+      <guid>https://elliptic-rank.icarm.cloud/curve/273</guid>
+      <pubDate>Thu, 20 Aug 2026 14:14:39 GMT</pubDate>
     </item>
     <item>
-      <title>Proof of Human (YC S23) 正在招聘一名技术人员</title>
-      <link>https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/proof-of- human/jobs/ZTZHEbb-member-of-technical-staff
-评论网址：https://news.ycombinator.com/item?id=49373423
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff</guid>
-      <pubDate>Thu, 20 Aug 2026 12:00:23 GMT</pubDate>
+      <title>包子1.4</title>
+      <link>https://bun.com/blog/bun-v1.4</link>
+      <description><![CDATA[文章网址：https://bun.com/blog/bun-v1.4
+评论网址：https://news.ycombinator.com/item?id=49374797
+积分：72
+# 条评论：26]]></description>
+      <guid>https://bun.com/blog/bun-v1.4</guid>
+      <pubDate>Thu, 20 Aug 2026 14:10:12 GMT</pubDate>
     </item>
     <item>
-      <title>人工智能并没有消除初级工程师的价值，反而增加了它</title>
-      <link>https://franciscotrindade.me/blog/the-kids-are-really-alright/</link>
-      <description><![CDATA[文章网址：https://franciscotrindade.me/blog/the-kids-are-really-alright/
-评论网址：https://news.ycombinator.com/item?id=49373269
-积分：30
-# 条评论：37]]></description>
-      <guid>https://franciscotrindade.me/blog/the-kids-are-really-alright/</guid>
-      <pubDate>Thu, 20 Aug 2026 11:42:20 GMT</pubDate>
+      <title>与 Claude 一起在 27 美元的智能手表上进行黑客攻击</title>
+      <link>https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html</link>
+      <description><![CDATA[文章网址：https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html
+评论网址：https://news.ycombinator.com/item?id=49374772
+积分：26
+# 条评论：10]]></description>
+      <guid>https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html</guid>
+      <pubDate>Thu, 20 Aug 2026 14:08:09 GMT</pubDate>
     </item>
     <item>
-      <title>超越 BMI：利用智能手机图像评估心脏代谢风险</title>
-      <link>https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/</link>
-      <description><![CDATA[文章网址：https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/
-评论网址：https://news.ycombinator.com/item?id=49372994
-积分：4
-# 条评论：0]]></description>
-      <guid>https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/</guid>
-      <pubDate>Thu, 20 Aug 2026 11:03:29 GMT</pubDate>
+      <title>Stwipe 收购 OpenWouter</title>
+      <link>https://stwipe.com/</link>
+      <description><![CDATA[文章网址：https://stwipe.com/
+评论网址：https://news.ycombinator.com/item?id=49374738
+积分：119
+# 条评论：17]]></description>
+      <guid>https://stwipe.com/</guid>
+      <pubDate>Thu, 20 Aug 2026 14:04:46 GMT</pubDate>
     </item>
     <item>
-      <title>风险工程</title>
-      <link>https://risk-engineering.org/</link>
-      <description><![CDATA[文章网址：https://risk-engineering.org/
-评论网址：https://news.ycombinator.com/item?id=49372661
-积分：3
-# 条评论：0]]></description>
-      <guid>https://risk-engineering.org/</guid>
-      <pubDate>Thu, 20 Aug 2026 10:18:58 GMT</pubDate>
+      <title>每个模型秘籍</title>
+      <link>https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/</link>
+      <description><![CDATA[文章网址：https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offective-cyber-tasks/
+评论网址：https://news.ycombinator.com/item?id=49374635
+积分：11
+# 条评论：3]]></description>
+      <guid>https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks/</guid>
+      <pubDate>Thu, 20 Aug 2026 13:56:59 GMT</pubDate>
     </item>
     <item>
-      <title>AliExpress 运行静默 WebAudio 指纹识别，破坏蓝牙多点</title>
-      <link>https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html</link>
-      <description><![CDATA[文章网址：https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html
-评论网址：https://news.ycombinator.com/item?id=49372583
-积分：171
-# 条评论：48]]></description>
-      <guid>https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html</guid>
-      <pubDate>Thu, 20 Aug 2026 10:08:52 GMT</pubDate>
+      <title>CI 工作工件应该不难</title>
+      <link>https://deadsimpleci.sparrowhub.io/doc/job-artifacts</link>
+      <description><![CDATA[文章网址：https://deadsimpleci.sparrowhub.io/doc/job-artifacts
+评论网址：https://news.ycombinator.com/item?id=49374503
+积分：13
+# 条评论：7]]></description>
+      <guid>https://deadsimpleci.sparrowhub.io/doc/job-artifacts</guid>
+      <pubDate>Thu, 20 Aug 2026 13:44:27 GMT</pubDate>
     </item>
     <item>
-      <title>请不要粘贴AI</title>
-      <link>https://dontpastetheai.com/</link>
-      <description><![CDATA[文章网址：https://dontpastetheai.com/
-评论网址：https://news.ycombinator.com/item?id=49371857
-积分：568
-# 条评论：276]]></description>
-      <guid>https://dontpastetheai.com/</guid>
-      <pubDate>Thu, 20 Aug 2026 08:20:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Windows 为每个人带来了罗夏墨迹测试 (2003)</title>
-      <link>https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803</link>
-      <description><![CDATA[文章网址：https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803
-评论网址：https://news.ycombinator.com/item?id=49371006
-积分：248
-评论数量：94]]></description>
-      <guid>https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803</guid>
-      <pubDate>Thu, 20 Aug 2026 06:16:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>转弯比弧度更好 (2022)</title>
-      <link>https://www.computerenhance.com/p/turns-are-better-than-radians</link>
-      <description><![CDATA[文章网址：https://www.computerenhance.com/p/turns-are-better-than-radians
-评论网址：https://news.ycombinator.com/item?id=49369408
-积分：247
-评论数：126]]></description>
-      <guid>https://www.computerenhance.com/p/turns-are-better-than-radians</guid>
-      <pubDate>Thu, 20 Aug 2026 01:29:12 GMT</pubDate>
+      <title>DiffusionGemma 技术报告</title>
+      <link>https://arxiv.org/abs/2608.00146</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2608.00146
+评论网址：https://news.ycombinator.com/item?id=49374287
+积分：47
+# 条评论：8]]></description>
+      <guid>https://arxiv.org/abs/2608.00146</guid>
+      <pubDate>Thu, 20 Aug 2026 13:24:32 GMT</pubDate>
     </item>
     </channel>
 </rss>
