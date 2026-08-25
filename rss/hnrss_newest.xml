@@ -4,108 +4,106 @@
     <title>黑客新闻：最新</title>
     <link>https://news.ycombinator.com/newest</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 25 Aug 2026 15:41:38 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 18:38:15 GMT</lastBuildDate>
     <item>
-      <title>Megaton 推出 V<Benchmark> 来衡量视频 AI 性能</title>
-      <link>https://megaton.ai/v-benchmark</link>
-      <description><![CDATA[文章网址：https://megaton.ai/v-benchmark
-评论网址：https://news.ycombinator.com/item?id=49435947
+      <title>Pgbot：一个供人类和代理使用的 5.9 MB 只读 Postgres 工具</title>
+      <link>https://pgbot.dev/</link>
+      <description><![CDATA[文章网址：https://pgbot.dev/
+评论网址：https://news.ycombinator.com/item?id=49438492
 积分：1
 # 条评论：0]]></description>
-      <guid>https://megaton.ai/v-benchmark</guid>
-      <pubDate>Tue, 25 Aug 2026 15:37:50 GMT</pubDate>
+      <guid>https://pgbot.dev/</guid>
+      <pubDate>Tue, 25 Aug 2026 18:30:57 GMT</pubDate>
     </item>
     <item>
-      <title>错失的互动图书内容机会</title>
-      <link>https://zoia.org/posts/the-missing-opportunity-for-interactive-book-content/</link>
-      <description><![CDATA[文章网址：https://zoia.org/posts/the-missing-opportunity-for-interactive-book-content/
-评论网址：https://news.ycombinator.com/item?id=49435930
+      <title>过山车大亨 Wonderworks – 官方抢先体验公告预告片 [视频]</title>
+      <link>https://www.youtube.com/watch?v=QWsU277r8OM</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=QWsU277r8OM
+评论网址：https://news.ycombinator.com/item?id=49438489
 积分：1
 # 条评论：0]]></description>
-      <guid>https://zoia.org/posts/the-missing-opportunity-for-interactive-book-content/</guid>
-      <pubDate>Tue, 25 Aug 2026 15:36:34 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=QWsU277r8OM</guid>
+      <pubDate>Tue, 25 Aug 2026 18:30:42 GMT</pubDate>
     </item>
     <item>
-      <title>Meta 的 Muse 登上 Poople 长凳</title>
-      <link>https://alexjacobs08.github.io/poople-bench/</link>
-      <description><![CDATA[文章网址：https://alexjacobs08.github.io/poople-bench/
-评论网址：https://news.ycombinator.com/item?id=49435919
+      <title>IBM 3270 上的 COBOL 中的 Space Invaders [视频]</title>
+      <link>https://www.youtube.com/watch?v=GvLsOkOgPA0</link>
+      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=GvLsOkOgPA0
+评论网址：https://news.ycombinator.com/item?id=49438474
 积分：1
 # 条评论：0]]></description>
-      <guid>https://alexjacobs08.github.io/poople-bench/</guid>
-      <pubDate>Tue, 25 Aug 2026 15:36:11 GMT</pubDate>
+      <guid>https://www.youtube.com/watch?v=GvLsOkOgPA0</guid>
+      <pubDate>Tue, 25 Aug 2026 18:29:42 GMT</pubDate>
     </item>
     <item>
-      <title>为什么孩子们不能再读书了[视频]</title>
-      <link>https://www.youtube.com/watch?v=tj7ckn8WhEM</link>
-      <description><![CDATA[文章网址：https://www.youtube.com/watch?v=tj7ckn8WhEM
-评论网址：https://news.ycombinator.com/item?id=49435914
+      <title>Pradhan CRT-RLWE 构造中残留限制错误的关键恢复</title>
+      <link>https://eprint.iacr.org/2026/1734</link>
+      <description><![CDATA[文章网址：https://eprint.iacr.org/2026/1734
+评论网址：https://news.ycombinator.com/item?id=49438471
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.youtube.com/watch?v=tj7ckn8WhEM</guid>
-      <pubDate>Tue, 25 Aug 2026 15:35:43 GMT</pubDate>
+      <guid>https://eprint.iacr.org/2026/1734</guid>
+      <pubDate>Tue, 25 Aug 2026 18:29:32 GMT</pubDate>
     </item>
     <item>
-      <title>显示 HN：Gibson ADK 和安全运行时</title>
-      <link>https://www.zeroroot.ai</link>
-      <description><![CDATA[我在 DevSecOps、平台工程和进攻性安全领域工作了 15 年。去年，我做了 HN 禁止做的大部分事情。我在真空中独自编写了很多代码，并构建了远远超过 MVP 的东西。它最初是作为一种自动化我的错误赏金爱好的方式，并尝试找到优势，以便我可以获得更多发现（规模、自动化等）。我希望代理能够进行侦察、对发现的内容进行分类、保存记录等。然后我注意到与我合作过的每个客户（主要是银行和政府团队）都有相同的模式，并进行了转变。 
-现在是什么：一个让您的代理进入生产环境的一体化解决方案。您可以保留您的框架，或者使用 gibson 从头开始​​构建。指定人员授予每个代理读取、写入或执行特定事物的权限，并且授予的权限不能超过该人所拥有的权限。每个模型调用和工具调用都首先经过运行时，授权之外的调用永远不会执行。不受信任的工作在其自己的 Firecracker microVM 中运行。每个动作都会记录在一个仅附加的记录中，您可以随时重播。代理发现的所有内容都会进入知识图（所有代理的内存），因此下一次运行将从它开始。它在 Kubernetes 中运行，托管或在您自己的集群中，可以是气隙的。这也可能是 Ask HN。我正在尝试弄清楚如何进入市场。  我不确定我是否应该开源它，做一个真正的平台，还是完全退回去，深入研究我真正喜欢做的事情，即红队/黑客，并将其重新发布为一个专注于offsec的工具，并尝试用框架进行创新。任何建议/建议都会很棒。  谢谢！
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49435908
+      <title>麻省理工学院人工智能在教学、学习和研究培训中的使用委员会的报告</title>
+      <link>https://aiandeducation.mit.edu/</link>
+      <description><![CDATA[文章网址：https://aiandeducation.mit.edu/
+评论网址：https://news.ycombinator.com/item?id=49438466
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.zeroroot.ai</guid>
-      <pubDate>Tue, 25 Aug 2026 15:35:18 GMT</pubDate>
+      <guid>https://aiandeducation.mit.edu/</guid>
+      <pubDate>Tue, 25 Aug 2026 18:29:18 GMT</pubDate>
     </item>
     <item>
-      <title>Perplexity 和 Nvidia 将推出零代币成本的本地人工智能代理</title>
-      <link>https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs</link>
-      <description><![CDATA[文章网址： https://venturebeat.com/infrastruct/perplexity-partners-with-nvidia-to-launch-portable-computer-a-complete-local-ai-agent-with-zero-token-costs
-评论网址：https://news.ycombinator.com/item?id=49435893
+      <title>Conductor 上的代理：代理就是工作流</title>
+      <link>https://medium.com/orkes/agents-on-conductor-architecture-for-production-ai-da5b55cc99b7</link>
+      <description><![CDATA[文章网址：https://medium.com/orkes/agents-on-conductor-architecture-for-development-ai-da5b55cc99b7
+评论网址：https://news.ycombinator.com/item?id=49438464
 积分：1
 # 条评论：0]]></description>
-      <guid>https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs</guid>
-      <pubDate>Tue, 25 Aug 2026 15:33:45 GMT</pubDate>
+      <guid>https://medium.com/orkes/agents-on-conductor-architecture-for-production-ai-da5b55cc99b7</guid>
+      <pubDate>Tue, 25 Aug 2026 18:29:14 GMT</pubDate>
     </item>
     <item>
-      <title>Tobi Lutke 考虑在 Shopify 禁止 Claude Code</title>
-      <link>https://twitter.com/tobi/status/2092259436538495186</link>
-      <description><![CDATA[文章网址：https://twitter.com/tobi/status/2092259436538495186
-评论网址：https://news.ycombinator.com/item?id=49435870
+      <title>AI 打磨的乐趣和密码分析</title>
+      <link>https://arxiv.org/abs/2608.21986</link>
+      <description><![CDATA[文章网址：https://arxiv.org/abs/2608.21986
+评论网址：https://news.ycombinator.com/item?id=49438458
 积分：1
 # 条评论：0]]></description>
-      <guid>https://twitter.com/tobi/status/2092259436538495186</guid>
-      <pubDate>Tue, 25 Aug 2026 15:31:50 GMT</pubDate>
+      <guid>https://arxiv.org/abs/2608.21986</guid>
+      <pubDate>Tue, 25 Aug 2026 18:28:55 GMT</pubDate>
     </item>
     <item>
-      <title>Show HN：Bay – 用于 AI 生成代码的开源渲染器</title>
-      <link>https://github.com/thebaycloud/bay</link>
-      <description><![CDATA[文章网址：https://github.com/thebaycloud/bay
-评论网址：https://news.ycombinator.com/item?id=49435850
-积分：1
-# 条评论：0]]></description>
-      <guid>https://github.com/thebaycloud/bay</guid>
-      <pubDate>Tue, 25 Aug 2026 15:30:36 GMT</pubDate>
+      <title>OpenBB 结束并开源</title>
+      <link>https://openbb.co/blog/openbb-belongs-to-everyone/</link>
+      <description><![CDATA[文章网址：https://openbb.co/blog/openbb-belongs-to-everyone/
+评论网址：https://news.ycombinator.com/item?id=49438450
+积分：2
+# 条评论：1]]></description>
+      <guid>https://openbb.co/blog/openbb-belongs-to-everyone/</guid>
+      <pubDate>Tue, 25 Aug 2026 18:28:15 GMT</pubDate>
     </item>
     <item>
-      <title>Apple 首次推出 M5 Ultra，被誉为有史以来最强大的芯片</title>
-      <link>https://www.macrumors.com/2026/08/25/apple-debuts-m5-ultra/</link>
-      <description><![CDATA[文章网址：https://www.macrumors.com/2026/08/25/apple-debuts-m5-ultra/
-评论网址：https://news.ycombinator.com/item?id=49435836
+      <title>在 TUI 中显示 HN：Wireshark</title>
+      <link>https://github.com/yeet-src/pktscope</link>
+      <description><![CDATA[文章网址：https://github.com/yeet-src/pktscope
+评论网址：https://news.ycombinator.com/item?id=49438446
 积分：1
 # 条评论：0]]></description>
-      <guid>https://www.macrumors.com/2026/08/25/apple-debuts-m5-ultra/</guid>
-      <pubDate>Tue, 25 Aug 2026 15:30:09 GMT</pubDate>
+      <guid>https://github.com/yeet-src/pktscope</guid>
+      <pubDate>Tue, 25 Aug 2026 18:27:53 GMT</pubDate>
     </item>
     <item>
-      <title>Perplexity 推出针对 Nvidia DGX Spark 优化的便携式计算机代理</title>
-      <link>https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/</link>
-      <description><![CDATA[文章网址：https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/
-评论网址：https://news.ycombinator.com/item?id=49435835
+      <title>忏悔吧，丑角说滴答声 – 哈伦·埃里森 [pdf]</title>
+      <link>https://files.libcom.org/files/Repent,%20Harlequin%20said%20the%20Ticktockman%20-%20Harlan%20Ellison.pdf</link>
+      <description><![CDATA[文章网址： https://files.libcom.org/files/Repent,%20Harlequin%20said%20the%20Ticktockman%20-%20Harlan%20Ellison.pdf
+评论网址：https://news.ycombinator.com/item?id=49438427
 积分：1
 # 条评论：0]]></description>
-      <guid>https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/</guid>
-      <pubDate>Tue, 25 Aug 2026 15:30:07 GMT</pubDate>
+      <guid>https://files.libcom.org/files/Repent,%20Harlequin%20said%20the%20Ticktockman%20-%20Harlan%20Ellison.pdf</guid>
+      <pubDate>Tue, 25 Aug 2026 18:26:29 GMT</pubDate>
     </item>
     </channel>
 </rss>
