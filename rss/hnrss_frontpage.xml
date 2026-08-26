@@ -4,14 +4,59 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Tue, 25 Aug 2026 21:27:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 01:14:35 GMT</lastBuildDate>
+    <item>
+      <title>Maiao：适用于 GitHub、GitLab、Gitea 等的 Gerrit 风格代码审查工作流程</title>
+      <link>https://github.com/runetes/maiao</link>
+      <description><![CDATA[文章网址：https://github.com/runetes/maiao
+评论网址：https://news.ycombinator.com/item?id=49441666
+积分：23
+# 条评论：3]]></description>
+      <guid>https://github.com/runetes/maiao</guid>
+      <pubDate>Tue, 25 Aug 2026 22:40:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Show HN：TeXbrain，一个通过 WASM 在浏览器中运行 pdfTeX 的 LaTeX 编辑器</title>
+      <link>https://github.com/swimmingbrain/texbrain</link>
+      <description><![CDATA[我是一名工程硕士学生，也是 LaTeX 的忠实粉丝，我在论文和研究文章中使用了 LaTeX。我曾经使用过 Overleaf，这很好，直到我想要 gitsync，不幸的是它位于付费墙后面。由于我不想为那些应该简单工作的东西付费，所以我在空闲时间构建了我想要的编辑器，您可以在其中打开一个选项卡，编写 LaTeX，获取 PDF，然后所有文件都保留在我磁盘上的一个文件夹中。TeXbrain 是一个没有后端的静态站点。 pdfTeX 被编译为 WebAssembly (SwiftLaTeX) 并在浏览器中运行。该编辑器可以通过文件系统访问 API 读取和写入您的项目文件夹，因此您可以在同一文件上使用 git、任何本地 TeX 安装、本地 AI 代理或任何其他编辑器。 Git 是通过 isomorphic-git 内置的，适合任何不想接触终端并通过命令克隆、分支、提交、推送或拉取的人。无需帐户，无需分析，首次加载后一切都可以离线运行。尝试一下：https://tex.swimmingbrain.dev/（Chromium 浏览器可以直接访问文件夹，而 Firefox 或 Safari 则退回到虚拟文件系统）或者用于自托管/贡献：https://github.com/swimmingbrain/texbrain（MIT，pdfTeX 引擎是 EPL 2.0 / GPL 2.0，并列在 THIRD_PARTY_LICENSES 文件中）。我最自豪的部分是包加载。引擎本身只有 1.8 MB。当它请求一个它没有的文件时，服务工作人员会拦截该请求并首先通过缓存存储来解析它，然后是一个小的捆绑子集，然后是镜像在 jsDelivr 上的 TeX Live 树，最后是 SwiftLaTeX 风格的服务器作为最后的手段。每个文件最多被提取一次，并且在第一次成功编译后，核心子集在后台预取，以便离线故事真正成立。只有文件名通过网络，从不传输任何文档内容。到目前为止，它只支持 pdfTeX（不支持 XeTeX 或 LuaTeX），因此 fontspec 或 polyglossia 不起作用，包被固定到 TeX Live 2020 时代以与引擎的格式文件保持一致，并且引擎中还没有 bibtex 或 biber，这可能是最粗糙的边缘。对于使用工作笔记本电脑的人来说，这应该是一个很好的解决方案， Chromebook 或大学实验室 PC（并不总是可以选择安装 TeX Live），以及根本不想维护 TeX 安装的人。如果您已有喜欢的本地设置，请保留它。这不一定被认为是它的替代品。在过去的几个月里，有些人已经在他们的论文中使用了它，他们的错误报告（我自己永远不会发现）是当时夏天的大部分工作。第一个外部 PR 最近也发布了，因此，如果某些内容无法为您编译，则包名称或错误本身的问题是您可以发送给我的最有用的信息！
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49441375
+积分：39
+# 条评论：8]]></description>
+      <guid>https://github.com/swimmingbrain/texbrain</guid>
+      <pubDate>Tue, 25 Aug 2026 22:08:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Python 的预声明常量有点奇怪</title>
+      <link>https://sebsite.pw/w/20260801-pythonconstants.html</link>
+      <description><![CDATA[文章网址：https://sebsite.pw/w/20260801-pythonconstants.html
+评论网址：https://news.ycombinator.com/item?id=49441033
+积分：129
+评论数量：95]]></description>
+      <guid>https://sebsite.pw/w/20260801-pythonconstants.html</guid>
+      <pubDate>Tue, 25 Aug 2026 21:39:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>XCancel 也下来了，至少暂时是这样</title>
+      <link>https://news.ycombinator.com/item?id=49440786</link>
+      <description><![CDATA[xcancel 网站上的消息：“美国东部时间 8 月 24 日星期一晚上 8 点，我们收到 X Corp. 的来信，要求停止提供 XCancel 服务。
+服务 XCancel 已停止，直至另行通知。
+我们正在寻求法律建议，目前不会透露更多细节。
+感谢您这两年对 XCancel 的信任。”https://xcancel.com/
+&lt;小时/&gt;
+评论网址：https://news.ycombinator.com/item?id=49440786
+积分：213
+评论数量：100]]></description>
+      <guid>https://news.ycombinator.com/item?id=49440786</guid>
+      <pubDate>Tue, 25 Aug 2026 21:18:23 GMT</pubDate>
+    </item>
     <item>
       <title>当 str.lower() 是 Python 中的安全漏洞时 – Seth Larson</title>
       <link>https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability</link>
       <description><![CDATA[文章网址：https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability
 评论网址：https://news.ycombinator.com/item?id=49440410
-积分：3
-# 条评论：0]]></description>
+积分：53
+# 条评论：27]]></description>
       <guid>https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability</guid>
       <pubDate>Tue, 25 Aug 2026 20:49:03 GMT</pubDate>
     </item>
@@ -20,18 +65,28 @@
       <link>https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html</link>
       <description><![CDATA[文章网址：https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html
 评论网址：https://news.ycombinator.com/item?id=49439499
-积分：7
-# 条评论：1]]></description>
+积分：70
+# 条评论：32]]></description>
       <guid>https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html</guid>
       <pubDate>Tue, 25 Aug 2026 19:38:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>联邦缆车票监管简史</title>
+      <link>https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket</link>
+      <description><![CDATA[文章网址：https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket
+评论网址：https://news.ycombinator.com/item?id=49439296
+积分：23
+# 条评论：0]]></description>
+      <guid>https://zakpodmore.substack.com/p/a-brief-history-of-federal-lift-ticket</guid>
+      <pubDate>Tue, 25 Aug 2026 19:25:43 GMT</pubDate>
     </item>
     <item>
       <title>FDA 授权首款可监测酮和血糖水平的可穿戴设备</title>
       <link>https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar</link>
       <description><![CDATA[文章网址： https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar
 评论网址：https://news.ycombinator.com/item?id=49439017
-积分：111
-评论数：70]]></description>
+积分：245
+# 条评论：139]]></description>
       <guid>https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar</guid>
       <pubDate>Tue, 25 Aug 2026 19:07:01 GMT</pubDate>
     </item>
@@ -41,8 +96,8 @@
       <description><![CDATA[https://www.cnn.com/2026/08/25/entertainment/dolly-parton-de...https://www.nytimes.com/2026/08/25/arts/music/dolly-parton-d...，https://archive.ph/w4vsEhttps://www.hollywoodreporter.com/music/music-news/dolly-par...
 &lt;小时/&gt;
 评论网址：https://news.ycombinator.com/item?id=49438052
-积分：854
-# 条评论：125]]></description>
+积分：1183
+# 条评论：185]]></description>
       <guid>https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead</guid>
       <pubDate>Tue, 25 Aug 2026 18:02:22 GMT</pubDate>
     </item>
@@ -51,60 +106,10 @@
       <link>https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1</link>
       <description><![CDATA[文章网址：https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1
 评论网址：https://news.ycombinator.com/item?id=49437946
-积分：176
-# 条评论：28]]></description>
+积分：268
+# 条评论：69]]></description>
       <guid>https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1</guid>
       <pubDate>Tue, 25 Aug 2026 17:55:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Clara (YC P26) 正在招聘一名增长工程师，将人工智能医生推向市场</title>
-      <link>https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer
-评论网址：https://news.ycombinator.com/item?id=49437566
-积分：0
-# 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer</guid>
-      <pubDate>Tue, 25 Aug 2026 17:28:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 DigitalOcean 上运行 OpenBSD，每月 4 美元</title>
-      <link>https://nil.wallyjones.com/run-openbsd-on-digitalocean-for-4month/</link>
-      <description><![CDATA[文章网址：https://nil.wallyjones.com/run-openbsd-on-digitalocean-for-4month/
-评论网址：https://news.ycombinator.com/item?id=49437483
-积分：84
-# 条评论：32]]></description>
-      <guid>https://nil.wallyjones.com/run-openbsd-on-digitalocean-for-4month/</guid>
-      <pubDate>Tue, 25 Aug 2026 17:23:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：用 Go 编写的 Linux VPS 轻量级系统监视器</title>
-      <link>https://github.com/leodeim/vpsmon</link>
-      <description><![CDATA[文章网址：https://github.com/leodeim/vpsmon
-评论网址：https://news.ycombinator.com/item?id=49437361
-积分：31
-# 条评论：11]]></description>
-      <guid>https://github.com/leodeim/vpsmon</guid>
-      <pubDate>Tue, 25 Aug 2026 17:13:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nitter 项目被终止</title>
-      <link>https://github.com/zedeus/nitter/issues/1442</link>
-      <description><![CDATA[文章网址：https://github.com/zedeus/nitter/issues/1442
-评论网址：https://news.ycombinator.com/item?id=49437283
-积分：375
-# 条评论：255]]></description>
-      <guid>https://github.com/zedeus/nitter/issues/1442</guid>
-      <pubDate>Tue, 25 Aug 2026 17:08:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>黑洞奇点是一个面而不是一个点</title>
-      <link>https://arxiv.org/abs/2608.21590</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2608.21590
-评论网址：https://news.ycombinator.com/item?id=49437210
-积分：136
-评论数量：82]]></description>
-      <guid>https://arxiv.org/abs/2608.21590</guid>
-      <pubDate>Tue, 25 Aug 2026 17:02:49 GMT</pubDate>
     </item>
     </channel>
 </rss>
