@@ -4,108 +4,107 @@
     <title>黑客新闻：头版</title>
     <link>https://news.ycombinator.com/</link>
     <description>黑客新闻 RSS</description>
-    <lastBuildDate>Sun, 06 Sep 2026 22:43:56 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 11:41:29 GMT</lastBuildDate>
     <item>
-      <title>Windows 11的“特别”开发者版看起来又是一次营销失败</title>
-      <link>https://www.neowin.net/opinions/windows-11s-special-developer-edition-sounds-like-yet-another-marketing-misfire/</link>
-      <description><![CDATA[文章网址：https://www.neowin.net/opinions/windows-11s-special-developer-edition-sounds-like-yet-another-marketing-misfire/
-评论网址：https://news.ycombinator.com/item?id=49591036
-积分：24
-# 条评论：6]]></description>
-      <guid>https://www.neowin.net/opinions/windows-11s-special-developer-edition-sounds-like-yet-another-marketing-misfire/</guid>
-      <pubDate>Sun, 06 Sep 2026 21:16:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：Mador – 使用微小的 80 行代理状态元组使任何 DOM 具有反应性</title>
-      <link>https://github.com/marsbos/mador</link>
-      <description><![CDATA[文章网址：https://github.com/marsbos/mador
-评论网址：https://news.ycombinator.com/item?id=49590738
-积分：44
-# 条评论：16]]></description>
-      <guid>https://github.com/marsbos/mador</guid>
-      <pubDate>Sun, 06 Sep 2026 20:45:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>在 Anubis 中发布 WebAssembly 花了一年时间</title>
-      <link>https://anubis.techaro.lol/blog/2026/anubis-wasm/</link>
-      <description><![CDATA[文章网址：https://anubis.techaro.lol/blog/2026/anubis-wasm/
-评论网址：https://news.ycombinator.com/item?id=49590611
-积分：87
-# 条评论：54]]></description>
-      <guid>https://anubis.techaro.lol/blog/2026/anubis-wasm/</guid>
-      <pubDate>Sun, 06 Sep 2026 20:32:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>利用嵌入的通用几何形状</title>
-      <link>https://arxiv.org/abs/2505.12540</link>
-      <description><![CDATA[文章网址：https://arxiv.org/abs/2505.12540
-评论网址：https://news.ycombinator.com/item?id=49590595
-积分：12
-# 条评论：2]]></description>
-      <guid>https://arxiv.org/abs/2505.12540</guid>
-      <pubDate>Sun, 06 Sep 2026 20:31:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>GrapheneOS 彻底修改了默认应用程序和安全剪贴板</title>
-      <link>https://grapheneos.social/@GrapheneOS/117225539756835649</link>
-      <description><![CDATA[文章网址：https://grapheneos.social/@GrapheneOS/117225539756835649
-评论网址：https://news.ycombinator.com/item?id=49590512
-积分：89
-# 条评论：25]]></description>
-      <guid>https://grapheneos.social/@GrapheneOS/117225539756835649</guid>
-      <pubDate>Sun, 06 Sep 2026 20:24:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Show HN：VODForge – 用于下载 YouTube 视频/播放列表的免费本地桌面 UI</title>
-      <link>https://getvodforge.com/</link>
-      <description><![CDATA[我之所以创建 VODForge，是因为我与一家 CTV 公司合作，该公司需要将我们频道合作伙伴的 YouTube 视频拉入我们的媒体工作流程。转换器网站始终是一种选择，但对于需要从单个源文件制作多个流媒体版本的 CTV 网络来说，比特率并不是最佳选择。因此，我构建了 vodforge，在底层使用 yt-dlp 和 ffmpeg，并通过预先配置的设置来获得最高质量的最终结果，并根据源质量、帧速率等自动调整输出设置。它成为我们内部的游戏规则改变者，因为我们能够避免粗略的转换器站点并避免付费转换器软件。最终我决定免费发布它，其他人也很喜欢它。我们开始添加对其他软件收费的许多功能的支持，包括支持 4K、播放列表支持、自定义应用程序主题、持久可搜索库、按频道和播放列表自动组织下载、高达 320 kbps 的 MP3 支持等等。寻求有关用户体验和您可能认为有用的其他功能的反馈。我的目标是将 VODForge 发展成为一种广泛采用的免费工具，供那些不想处理粗略网站、CLI 混乱或为那些在给定时间和精力下最终可以免费完成的事情付费的人们使用。 VODForge 希望让您轻松维护。我们知道任何人都可以制作 GUI 包装器，但这是描述 VODForge 旨在提供的内容、用户友好性、“它就是有效”、为您维护的库和包的简单方式。您只需考虑下一步要下载什么。VODForge 正在等待...
+      <title>显然，CodePen 2.0 在您键入时将数据发送到他们的服务器</title>
+      <link>https://news.ycombinator.com/item?id=49596976</link>
+      <description><![CDATA[他们几乎立即将所有输入到编辑器的输入发送到 codepen.dev（在您输入机密后 1-2 秒内，您会看到它出现在相应的“网络/响应”选项卡中），甚至在保存之前也是如此。我用一个独特的标记对此进行了测试：将其输入到index.html后，CodePen使用“save：false”运行构建，然后该标记逐字出现在生成的“*.codepen.dev预览”提供的HTML中。因此，如果您错误地在其中输入了一些秘密，即使您没有发布/保存笔，也认为它们已被泄露
 &lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49590354
-积分：25
-# 条评论：4]]></description>
-      <guid>https://getvodforge.com/</guid>
-      <pubDate>Sun, 06 Sep 2026 20:07:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>汽车行业 A/B 测试销售带有和不带有 CarPlay 的汽车</title>
-      <link>https://a.wholelottanothing.org/the-car-industry-a-b-tested-selling-the-same-car-with-and-without-carplay-and-the-results-are-not-shocking/</link>
-      <description><![CDATA[文章网址： https://a.wholelottanothing.org/the-car-industry-a-b-tested- sell-the-same-car-with-and-without-carplay-and-the-results-are-not-shocking/
-评论网址：https://news.ycombinator.com/item?id=49590225
-积分：88
-# 条评论：76]]></description>
-      <guid>https://a.wholelottanothing.org/the-car-industry-a-b-tested-selling-the-same-car-with-and-without-carplay-and-the-results-are-not-shocking/</guid>
-      <pubDate>Sun, 06 Sep 2026 19:53:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>D2 是非营利组织</title>
-      <link>https://d2lang.com/blog/d2-non-profit/</link>
-      <description><![CDATA[文章网址：https://d2lang.com/blog/d2-non-profit/
-评论网址：https://news.ycombinator.com/item?id=49589768
-积分：6
-# 条评论：1]]></description>
-      <guid>https://d2lang.com/blog/d2-non-profit/</guid>
-      <pubDate>Sun, 06 Sep 2026 19:11:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nitter 和 XCancel 在法律建议后恢复服务</title>
-      <link>https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3</link>
-      <description><![CDATA[https://github.com/zedeus/nitterhttps://xcancel.com/cdclegalhttps://nitter.net/https://xcancel.com/
-&lt;小时/&gt;
-评论网址：https://news.ycombinator.com/item?id=49588988
-积分：354
-# 条评论：202]]></description>
-      <guid>https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3</guid>
-      <pubDate>Sun, 06 Sep 2026 17:49:47 GMT</pubDate>
-    </item>
-    <item>
-      <title>Opalite Health (YC W26) 正在招聘 – 创立 GTM</title>
-      <link>https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm</link>
-      <description><![CDATA[文章网址：https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm
-评论网址：https://news.ycombinator.com/item?id=49588466
-积分：0
+评论网址：https://news.ycombinator.com/item?id=49596976
+积分：8
 # 条评论：0]]></description>
-      <guid>https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm</guid>
-      <pubDate>Sun, 06 Sep 2026 17:00:28 GMT</pubDate>
+      <guid>https://news.ycombinator.com/item?id=49596976</guid>
+      <pubDate>Mon, 07 Sep 2026 11:22:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>美国拒绝为在伊朗阵亡的士兵付款，“因为这不是一场战争”</title>
+      <link>https://www.telegraph.co.uk/world-news/2026/09/06/pentagon-refused-payout-soldiers-died-in-iran-war/</link>
+      <description><![CDATA[文章网址：https://www.telegraph.co.uk/world-news/2026/09/06/pentagon-refused-payout-soldiers-died-in-iran-war/
+评论网址：https://news.ycombinator.com/item?id=49596955
+积分：35
+# 条评论：3]]></description>
+      <guid>https://www.telegraph.co.uk/world-news/2026/09/06/pentagon-refused-payout-soldiers-died-in-iran-war/</guid>
+      <pubDate>Mon, 07 Sep 2026 11:20:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>阻抗匹配</title>
+      <link>https://www.edge.org/response-detail/27238</link>
+      <description><![CDATA[文章网址：https://www.edge.org/response-detail/27238
+评论网址：https://news.ycombinator.com/item?id=49596274
+积分：18
+# 条评论：5]]></description>
+      <guid>https://www.edge.org/response-detail/27238</guid>
+      <pubDate>Mon, 07 Sep 2026 09:52:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>25年前，两个陌生人在双子塔相遇并于9/11逃脱</title>
+      <link>https://www.theguardian.com/us-news/2026/sep/07/strangers-twin-towers-escape-september-11</link>
+      <description><![CDATA[文章网址：https://www.theguardian.com/us-news/2026/sep/07/strangers-twin-towers-escape-september-11
+评论网址：https://news.ycombinator.com/item?id=49596221
+积分：8
+# 条评论：0]]></description>
+      <guid>https://www.theguardian.com/us-news/2026/sep/07/strangers-twin-towers-escape-september-11</guid>
+      <pubDate>Mon, 07 Sep 2026 09:45:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>“你可以看到一切”评论：内森·菲尔德关于伊丽莎白·霍姆斯的医生</title>
+      <link>https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513/</link>
+      <description><![CDATA[文章网址：https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513/
+评论网址：https://news.ycombinator.com/item?id=49596119
+积分：70
+# 条评论：32]]></description>
+      <guid>https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513/</guid>
+      <pubDate>Mon, 07 Sep 2026 09:33:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>加州理工学院数学马拉松——第一个致力于研究级数学的黑客马拉松</title>
+      <link>https://mathathonchallenge.com/index.html</link>
+      <description><![CDATA[文章网址：https://mathathonchallenge.com/index.html
+评论网址：https://news.ycombinator.com/item?id=49596055
+积分：37
+# 条评论：2]]></description>
+      <guid>https://mathathonchallenge.com/index.html</guid>
+      <pubDate>Mon, 07 Sep 2026 09:26:53 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD GPU 上 vLLM 的推测解码</title>
+      <link>https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus</link>
+      <description><![CDATA[文章网址：https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus
+评论网址：https://news.ycombinator.com/item?id=49596054
+积分：31
+# 条评论：5]]></description>
+      <guid>https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus</guid>
+      <pubDate>Mon, 07 Sep 2026 09:26:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>比利时公共交通实时地图</title>
+      <link>https://openbaarvervoerbelgie.be/</link>
+      <description><![CDATA[文章网址：https://openbaarvervoerbelgie.be/
+评论网址：https://news.ycombinator.com/item?id=49595865
+积分：60
+# 条评论：22]]></description>
+      <guid>https://openbaarvervoerbelgie.be/</guid>
+      <pubDate>Mon, 07 Sep 2026 09:02:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>编程是艺术</title>
+      <link>https://orchidfiles.com/programming-is-art/</link>
+      <description><![CDATA[文章网址：https://orchidfiles.com/programming-is-art/
+评论网址：https://news.ycombinator.com/item?id=49595360
+积分：89
+评论数量：94]]></description>
+      <guid>https://orchidfiles.com/programming-is-art/</guid>
+      <pubDate>Mon, 07 Sep 2026 08:05:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>LG 智能电视被发现在屏幕关闭的情况下记录音频并监听本地设备</title>
+      <link>https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html</link>
+      <description><![CDATA[文章网址： https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html
+评论网址：https://news.ycombinator.com/item?id=49594878
+积分：269
+# 条评论：155]]></description>
+      <guid>https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html</guid>
+      <pubDate>Mon, 07 Sep 2026 07:03:20 GMT</pubDate>
     </item>
     </channel>
 </rss>
